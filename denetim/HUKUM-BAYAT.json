@@ -1,0 +1,646 @@
+{
+ "parti-0002": {
+  "H-0005": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-A) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: bizans #0f0f5d + yabancı opaklık 0.44 değişmedi (8/29 Tem blame). \"Gölge gibi\" okunma sürüyor. Önem: ORTA-YÜKSEK."
+  },
+  "H-0011": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-A) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: devletler.js baskent: hâlâ tek string, zaman penceresi yok (B/H-0011'deki \"diğer devletler\" borcuyla aynı kalem)."
+  },
+  "H-0014": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-A) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: BULGU-MOTOR-SU.md (60c1f0e, 24 Ağu) eski \"maske\" teşhisini çürüttü ama Saroz'u açıklamadı — kök başka, açıklanmadı, motora düzeltme yazılmadı. Şikâyetin kendisi duruyor."
+  },
+  "H-0016": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-A) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Göl kenarı küçük parça yutma eşiği uygulanmamış, düzeltilmediği doğrulandı. Önem: DÜŞÜK."
+  },
+  "H-0025": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-A) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Bağdat kaydı hâlâ celayirli 1335-1411 kesintisiz, timurlu hiç yok — Timur'un 1393/1401 seferleri haritada görünmüyor. 10 Ağustos KUTU DENETİM'de de doğrulanmış."
+  }
+ },
+ "parti-0003": {
+  "H-0008": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-A) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: 0002/H-0025 ile birebir aynı kayıt."
+  },
+  "H-0010": {
+   "hukum": "cozuldu",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-A): commit 9983823 (24 Ağu) tam önerilen çareyi uyguladı, 16 uçta kırılma 1422-01-01'e taşındı, 25 Ağustos koşusuyla haritaya indi."
+  },
+  "H-0015": {
+   "hukum": "cozuldu",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-A): \"Kırım'da 3 nokta\" ölçümü yanlış çıktı — yerlesimler_kirim.js + ek2.js ile ~13 nokta zaten var, dosya hiç okunmadan yazılmış not (CLAUDE.md §5 tuzağı). 10 Ağustos KUTU DENETİM zaten kapanmış saymıştı."
+  },
+  "H-0017": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-A) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Amasra maddesi (1460-01-01) İzvornik'ten alakasız; İzvornik'in kendi kırılması aynı gün ama özel maddesi yok — \"yanlış maddeye yapışma\" deseni."
+  },
+  "H-0018": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-A) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Eflak seferi tek madde (1462-06-01), ama TÜM Eflak yerleşimleri aynı gün değişiyor — Değişmez 2 ihlali yok, yalnız anlatım-zenginliği talebi. Önem: DÜŞÜK."
+  }
+ },
+ "parti-0004": {
+  "H-0003": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-B) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Cem Sultan \"rehin diplomasisi\" kısa kronoloji eklentisi hâlâ yazılmamış. Kozmetik, harita bozmuyor."
+  },
+  "H-0004": {
+   "hukum": "cozuldu",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-B): commit e8c4515 (10 Ağu) kişiBul() simetrik eşiğe geçti; Kemal Reis artık gerçek kayıt, Sapienza kartı ona açılıyor."
+  },
+  "H-0005": {
+   "hukum": "cozuldu",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-B): İran çekirdeği bölündü: afsar 150, zend 138, kacar 139 dönem; iran yalnız 8 kaldı; üçünün de kendi boyası var."
+  },
+  "H-0006": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-B) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Erzincan hâlâ 1473-1923 kesintisiz Osmanlı; Kemah'ın Safevî dönemi (1502-1515) Erzincan'a yansımamış."
+  },
+  "H-0007": {
+   "hukum": "cozuldu",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-B): (a) kişiBul düzeltmesi (commit e8c4515) canlı. (b) Altın Orda parçalanması: kazan/nogay/astarhan/sibir-hanligi dördü de renk+nokta taşıyor (8 Ağustos, NOKTA HALKA-2 2)."
+  },
+  "H-0008": {
+   "hukum": "cozuldu",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-B): commit 88f5eab (3 Ağu) olayMuharebeTuru() eklendi, ⚔ simgesi js/app.js:1716'da canlı."
+  },
+  "H-0011": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-B) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Osmanlı başkent yıldızı çözüldü (osmanliBaskentMi(), commit 88f5eab) ama diğer devletlerin zaman pencereli başkenti hâlâ açık — devletler.js'deki baskent: alanı tek string, zaman penceresi yok."
+  },
+  "H-0012": {
+   "hukum": "cozuldu",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-B): commit 88f5eab isyanYayilmaUret() eklendi, js/app.js:2551'de canlı."
+  },
+  "H-0013": {
+   "hukum": "cozuldu",
+   "not": "BAYAT AVCISI (27 Ağu 2026, ilk turda atlanmıştı, ayrıca ölçüldü): Sin (Sinj) Kalesi fethi maddesinde yer_id eksikti (commit bfe254f, 6 Ağu: 'tanı tam, veri eksik'). Commit 08a6f869 (15 Ağustos 2026) data/olaylar_ek5.js:474'e yer_id:\"Sin (Sinj)\" ekledi; nokta zaten data/yerlesimler_ek.js:207'de 1281'den beri veride, kur: kısıtı yok. Giderildi."
+  },
+  "H-0015": {
+   "hukum": "cozuldu",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-B): Padişah portre eşleşmesi artık yalnız belirli padişah varsa gösteriyor (Pîrî Reis rozet gösteriyor, portre tekrarlamıyor) — PADISAH-KARTVIZITI.md'de de yazılı."
+  }
+ },
+ "parti-0005": {
+  "H-0003": {
+   "hukum": "cozuldu",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-B): commit 88f5eab \"haritaya yay\" özelliği: devletiYay()/devletEtiketiTiklandi(), js/app.js:344-346'da canlı."
+  },
+  "H-0006": {
+   "hukum": "cozuldu",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-B): commit 88f5eab ⏮/⏭ artık sıra numarası kullanıyor; ayniGunSeridiGuncelle() js/app.js:4933'te canlı, sonraki commit 6b0e3be ile 47 grup/101 maddeye genişletilmiş."
+  }
+ },
+ "parti-0006": {
+  "H-0001": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-C) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Üç parçalı madde. (a) Katîf/Basra `iran` etiketi kısmen düzeldi (commit 47aa386, 3 Ağu) — bugün `data/yerlesimler.js:1823` Katîf artık `usfuri→cebri→safevi` zinciri kullanıyor, `iran` yazmıyor; ama notun bıraktığı \"İran ÇEKİRDEĞİ\" kalemi ayrı ve ölçülmedi. (b) ve (c) hâlâ açık: ÇAPRAZ İBERYA oturumu (`oturumlar/CAPRAZ-IBERYA-ILERLEME.md`, 1932 satır) tam da bu 38 Portekiz dönemini sınamak için 3-4 Ağustos'ta çalıştı ama kendi durum dosyası (`oturumlar/durum/CAPRAZ IBERYA.json`) açıkça \"veri dosyalarına dokunulmadı\" diyerek kapandı; koordinatörde yedi karar kalemi (1559 Bahreyn zinciri dahil) hâlâ bekliyor. 4-27 Ağustos arası bu konuda veri değişikliği bulunamadı. Önem: ORTA (araştırma tamam ama karar/uygulama eksik)."
+  },
+  "H-0005": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-C) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: `data/savaslar.js:340` Kalender Şah 1526-01-01 kaydı hâlâ var, kronolojide karşılığı yok (aradım: sadece 1608 \"Kalenderoğlu\" kaydı var, ayrı kişi). `savaslar.js:356` Deli Hasan 1603 kaydı da kronolojide tek başına yok (yalnız Karayazıcı maddesinde yan karakter). Diu deniz kaydı (1538-09-04) ile en yakın kronoloji maddesi (`olaylar_ek2.js` 1538-06-13) arası ~83 gün — düzeltilmiş ama madde hâlâ ayrı bir olay. 21-27 Ağustos commit'leri bu üç kaydı içeren değişiklik içermiyor. Önem: DÜŞÜK-ORTA."
+  },
+  "H-0007": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-C) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Uyvar (`data/yerlesimler.js:445`) ve Nitra (`data/yerlesimler_ek29.js:126-130`) hâlâ `s:[{f:\"1281-01-01\",...,d:\"avusturya\"}]` — önerilen 1526-08-29 bölünmesi UYGULANMAMIŞ. Aynı dosyada komşu kaleler (Komárom, Léva, Trencsén, Varasd, Sisak) düzeltilmiş ama Uyvar/Nitra atlanmış. `devletler.js:642-643` macaristan künyesi t:\"1526-08-29\" de değişmemiş. Önem: ORTA."
+  },
+  "H-0008": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-C) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: H-0007 ile aynı kusur (aynı not tekrarlanmış). Önem: ORTA."
+  },
+  "H-0010": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-C) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: H-0007/0008 ile aynı kusur + \"1530 kesitinde 15 macaristan kaydının 15'i de 1281'den başlıyor\" örüntüsü hâlâ değişmemiş. Önem: ORTA."
+  }
+ },
+ "parti-0007": {
+  "H-0001": {
+   "hukum": "cozuldu",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-C): `data/merak.js` `id:\"haclilar-nicin-basarisiz\"` mevcut, commit 8e8fd8d (10 Ağu) ile kapanmış."
+  },
+  "H-0002": {
+   "hukum": "cozuldu",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-C): `data/merak.js` `id:\"canakkale-hisar-ve-zincir\"` mevcut, aynı commit."
+  },
+  "H-0003": {
+   "hukum": "cozuldu",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-C): `data/merak.js` `id:\"galata-nicin-alinmadi\"` mevcut, aynı commit."
+  },
+  "H-0004": {
+   "hukum": "cozuldu",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-C): `data/merak.js` `id:\"hristiyan-tebaa-zorlama-mi\"` + `data/ekokuma.js` `id:\"zimmi-cizye-millet-duzeni\"` — ikisi de aynı commit."
+  },
+  "H-0005": {
+   "hukum": "cozuldu",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-C): `data/merak.js` `id:\"timur-sehzadeleri-baglanma\"` mevcut, aynı commit."
+  },
+  "H-0006": {
+   "hukum": "cozuldu",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-C): `data/merak.js` `id:\"timurun-misyonu-neydi\"` mevcut, aynı commit (H-0005 ile birlikte)."
+  },
+  "H-0008": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-C) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: `data/yerlesimler.js:543-546` Soçi/Tuapse/Maykop hâlâ `t:\"1829-09-14\"`e kadar `kirim` (gerçek ilhak 1783-04-19'dan 46,4 yıl fazla); `yerlesimler_ek_bozkir.js:109-110` Yedisan bozkırı `t:\"1792-01-09\"`e kadar kirim (8,7 yıl fazla). Değişmemiş. Önem: ORTA."
+  }
+ },
+ "parti-emrelic-0008": {
+  "H-0001": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-D) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Germiyan \"iki parça\" — TDV iki kez doğruladı (Sivrihisar hiç Germiyan olmamış), ama veriye işlenmedi: yerlesimler.js:1287 hâlâ germiyan gösteriyor."
+  },
+  "H-0003": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-D) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Divriği/Malatya tarih hataları TDV ile kaynaklı doğrulandı (denetim/TDV-TARIH.md, 10 Ağu) ama \"veriye dokunulmadı\" — hâlâ eski tarihler duruyor."
+  },
+  "H-0005": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-D) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Sürtünme motoru prototipi (arac/maliyet.py) Çimpe sınavını geçti ama üretime (uret_petek.py) entegre değil."
+  },
+  "H-0006": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-D) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Yalnız osmanliBaskentMi() var, yabancı devlet başkentleri için genel işaret fonksiyonu yok."
+  },
+  "H-0009": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-D) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Genel \"1281 boşlukları\" — yalnız 3 ekstrem vaka (32 nokta) kapatıldı, 19,6M km² büyük ölçüde açık."
+  },
+  "H-0010": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-D) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: H-0009 ile aynı."
+  },
+  "H-0011": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-D) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Altınorda/bozkır bölgesi — ortaasya2.js ancak 25 Ağustos'ta 7 noktayla açıldı, hâlâ çok seyrek."
+  },
+  "H-0012": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-D) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Hindistan yalnız 16 Ağustos'ta 2 noktayla açıldı, büyük kısmı hâlâ noktasız."
+  },
+  "H-0014": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-D) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Orta/Kuzey Asya kısmi ilerleme var (344+7 nokta) ama ölçek karşısında düşük yoğunluk, tam kapanma yok."
+  }
+ },
+ "parti-emrelic-0011": {
+  "H-0002": {
+   "hukum": "cozuldu",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-D): commit a550bcd (11 Ağu) tam istenen 4 noktayı (Behramkale/Beykoz/Şarköy/Saroz) ekledi + kök kur: tarihini düzeltti, denetle.py temiz."
+  }
+ },
+ "parti-emrelic-0013": {
+  "H-0001": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-D) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Z-0006 (akademik kaynak haritası) hâlâ \"bekliyor\" durumunda, teslim kaydı yok."
+  },
+  "H-0002": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-D) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Z-0007/Z-0008 hâlâ \"bekliyor\"; Z-0008 açıkça engellenmiş (yükseklik/eğim verisi gerekiyor, Emre'nin karar bekliyor)."
+  }
+ },
+ "parti-emrelic-0014": {
+  "H-0005": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-E) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: novgorod (#84c9cf) paletten kaldırılmadı — commit 785e84e (25 Ağu) ΔE'yi 14,5→16,6 yaptı ama eşiğin altında, commit kendisi \"AÇIK BORÇ\" diyor. Baltık nokta eklenmesi bulunamadı."
+  }
+ },
+ "parti-emrelic-0016": {
+  "H-0002": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-E) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Kayseri-Elbistan-Sivas üçgeni bugün de aynı seyreklik (87,6/102,6/102,9 km). Pınarbaşı/Sarız/Gürün/Darende hâlâ yok."
+  },
+  "H-0004": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-E) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Boğaz geçme kusuru üretiliyor. denetim/BULGU-MOTOR-SU.md (60c1f0e, 24 Ağu): gerçek kök ızgara çözünürlüğü (0,7 km boğaz, 5,5 km ızgara), eski \"maske\" teşhisi çürütüldü. Çare yazıldı, uygulanmadı."
+  },
+  "H-0005": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-E) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Çimpe aynı Boğaz kümesi — aynı kök, aynı BULGU-MOTOR-SU.md, henüz çare uygulanmadı."
+  }
+ },
+ "parti-emrelic-0017": {
+  "H-0001": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-E) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: 0016/H-0002 ile aynı kalem — 87,6/102,6/102,9 km, değişmemiş."
+  }
+ },
+ "parti-emrelic-0018": {
+  "H-0003": {
+   "hukum": "cozuldu",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-E): Kırcaali kur: tarihi commit f1c76a3'te (13 Ağu) TDV 1482 tahririyle araştırılıp doğrulandı, kur:\"1482-01-01\" bilinçli/kaynaklı karar. Grup notu bu araştırmadan habersiz yazılmış."
+  }
+ },
+ "parti-emrelic-0019": {
+  "H-0001": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-F1) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: saruhan 1 nokta, karesi 1402 sonrası hiç yok — diriltilmemiş."
+  },
+  "H-0002": {
+   "hukum": "cozuldu",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-F1): Ankara savaş günü sahipliği (timurlu) doğru ölçüldü, açık kusur yok."
+  },
+  "H-0003": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-F1) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Malatya/Divriği/Arapkir/Kâhta hâlâ savaş gününe toplu yazılmış."
+  },
+  "H-0004": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-F1) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Ahtapolu/Rezve/İğneada Fetret kırılması taşımıyor."
+  },
+  "H-0007": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-F1) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: karakoyunlu/gurcistan hâlâ aynı magenta ailesi renk."
+  },
+  "H-0008": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-F1) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Mersin hâlâ 1352-1918 kesintisiz, Ramazanoğulları/Karaman eklenmemiş."
+  },
+  "H-0015": {
+   "hukum": "cozuldu",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-F1): commit d2d35ab (24 Ağu) kenar giriş yönü uygulandı ve doğrulandı."
+  },
+  "H-0016": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-F1) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: İsfahan zaten kayıtlıydı (eski iddia yanlıştı) ama Rey hâlâ ayrı kayıt olarak yok."
+  },
+  "H-0018": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-F1) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: BULGU-MOTOR-SU.md: gerçek kök ızgara çözünürlüğü, motora düzeltme yazılmadı."
+  },
+  "H-0019": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-F1) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: H-0018 ile aynı kök, Rumeli Hisarı geçişi uygulanamadı."
+  },
+  "H-0020": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-F1) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: onem:/dunya:/kapsam:\"dis\" yalnız 3/1223 maddede pilot, arayüzde okuyan filtre yok."
+  },
+  "H-0022": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-F1) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Veri (Suçava/Yaş/Akkerman + k: etiketi) zaten vardı, ama js/app.js:4066 hâlâ sabit \"Osmanlı\" gösteriyor, k: okumuyor."
+  },
+  "H-0023": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-F1) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Etiketsiz/dizinsiz nöbetçi dalı hâlâ yazılmamış (0 sonuç)."
+  },
+  "H-0025": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-F1) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: H-0022 ile aynı kök — Eflak k: etiketi veride var, arayüz okumuyor."
+  },
+  "H-0026": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-F1) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Yalnız Akçahisar arnavutluk etiketli; Debre/Dibra/Lezhe/Petrela/Svetigrad hâlâ yok."
+  },
+  "H-0032": {
+   "hukum": "cozuldu",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-F1): commit 3a63fd8 (22 Ağu) \"öncesi/sonrası kırpma\" vurgusu uygulandı."
+  },
+  "H-0039": {
+   "hukum": "cozuldu",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-F1): olaylar_ek13.js'e Mardin teslimi için ayrı 1517-05-01 maddesi eklendi, çelişki çözüldü."
+  },
+  "H-0041": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-F2) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: \"Planlanan↔yürünen\" hâl ekseni hâlâ yok, plan:/yurunen_km alanı sıfır eşleşme."
+  },
+  "H-0043": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-F2) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Musul/Rewândiz/Akra/Duhok/Zaho/Telafer/Sincar hepsi hâlâ Mercidabık günü (1516-08-24) yazıyor, 646 km fazlalık duruyor."
+  },
+  "H-0045": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-F2) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Kronoloji başlığına Rakka/Deyrizor eklenmedi (detayda zaten vardı, başlık değişmedi)."
+  },
+  "H-0046": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-F2) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: tur:\"gorusme\" glifi hiç yok, hareket tipolojisi hâlâ sınırlı."
+  },
+  "H-0047": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-F2) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Trablusşam başlığı hâlâ Hama'yı içermiyor (detayda var, başlıkta yok)."
+  },
+  "H-0048": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-F2) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Şam başlığında Beyrut/Palmyra yok; Tedmür (Palmyra) hiçbir yerleşim dosyasında gerçek kayıt olarak yok — petek emilmesi şüphesi hâlâ geçerli."
+  },
+  "H-0051": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-F2) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: scrollIntoView hâlâ \"nearest\", \"start\"/elle üst-pay konumlandırması uygulanmadı."
+  },
+  "H-0052": {
+   "hukum": "cozuldu",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-F2): commit f226aa2 (18 Ağu, tasnifden 2 gün önce) süzgeç butonu kronoloji başlığına taşındı — tasnif \"ölçmedim\" demişti ama kod zaten değişmişti."
+  },
+  "H-0056": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-F2) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Sahra kuşağı \"tamamlık\" ölçütü hâlâ yok. ÇÖL BOYAMA oturumu farklı bir kusur buldu (d:/v: karışması), bu maddeyi kapatmıyor."
+  },
+  "H-0058": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-F2) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Böğürdelen için savaş kaydı yok, veri+kronoloji var ama savaş işareti üretilmiyor."
+  },
+  "H-0062": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-F2) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Viyana seferi hâlâ erken görünüyor."
+  },
+  "H-0067": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-F2) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Fuzûlî kaside maddesi hâlâ Bağdat fethinden 6 ay önce (anakronizm duruyor)."
+  },
+  "H-0069": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-F2) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Halepçe'nin d: başlangıcı hâlâ 1534-12-04 (Bağdat günü), Şehrizor ile hizalanma (1554-08-22) uygulanmadı."
+  },
+  "H-0076": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-F2) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Yemen dağları 5 noktası (Sa'da/Amrân/Kevkebân/Şehâre/Zemâr) hâlâ yok — 21 Ağustos'ta ayrıca bağımsız doğrulanmış."
+  },
+  "H-0080": {
+   "hukum": "cozuldu",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-F2): arac/renkler.py:2924 \"SU YAKINLIGI NÖBETÇİSİ\" 24 Ağustos'ta eklendi, istenen deniz-yakınlığı eşiği artık var (1 sınır ihlali: novgorod)."
+  }
+ },
+ "parti-emrelic-0020": {
+  "H-0005": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-E) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Malta kıyı sabitleri (KARA_TOL/SADE_TOL) 14 Ağustos'tan beri değişmemiş, zaten \"kabul edilmiş borç, kuyrukta (Z-0015)\" diye damgalı."
+  },
+  "H-0012": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-E) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Tebriz/Nahçıvan/Revan koridor boşluğu veride duruyor (Merend/Culfa hâlâ safevi 1590'da). AMA \"Hoy→safevi\" iddiası bugünkü veriyle ÇELİŞİYOR — Hoy zaten 1585-1603 arası Osmanlı (29 Temmuz'dan beri). Kaynak taraması (Ferhat Paşa Antlaşması) hâlâ yapılmamış."
+  },
+  "H-0013": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-E) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: \"Aynı olayı mı anlatıyor\" denetim aracı (T-0109) hâlâ yazılmamış, ne arac/ ne git log'da iz var."
+  },
+  "H-0014": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-E) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: H-0012 ile aynı kök, sorduğu şehirler (Zencan/Sultaniye/Dizful/Şuster/Ahvaz) 20 Ağustos KAFKAS YAMASI serisinde işlenmemiş."
+  }
+ },
+ "parti-emrelic-0021": {
+  "H-0002": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-G) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Dalmaçya kıyı/ada yoğunluğu ölçümü ve kaynak teyidi hâlâ yapılmadı."
+  },
+  "H-0004": {
+   "hukum": "cozuldu",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-G): Nitra'nın 1593 avusturya olması TDV ile doğrulandı (commit 073df09, 20 Ağu)."
+  },
+  "H-0005": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-G) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Babadağı/Dobruca boşlukları görselle eşleştirilmedi, dokunan oturum yok."
+  },
+  "H-0007": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-G) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Manama (Bahreyn) hâlâ bos:\"devletsiz\" + 1281-1861 sahipsizken kapı Osmanlı'ya katıyor. Düzeltme taslağı (yerlesimler_ek_korfez.js) yazılmış ama girdi.py'ye BAĞLI DEĞİL."
+  },
+  "H-0010": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-G) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Sâmerrâ/Kerkük/Tikrit/Erbil yalnız 1 günlük fark (kozmetik), TDV turu yapılmadı."
+  },
+  "H-0017": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-G) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Kûm Ombo/Mısır boşluk eşleştirmesi yapılmadı."
+  },
+  "H-0021": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-G) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: H-0007 ile birebir aynı kusur (Manama), hâlâ bağlanmadı."
+  },
+  "H-0024": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-G) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Kazak bozkırı (Sarısu) seyrekliği duruyor, ek_bozkir.js yalnız Kırım/Azak'ı kapsıyor."
+  },
+  "H-0027": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-G) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Culfa hâlâ kesintisiz safevi; Hoy bugün (27 Ağu, commit 5ebf4887) düzeldi ama Culfa/Merend/Meraga \"KAYITLI BORÇ\" olarak henüz kapanmadı."
+  },
+  "H-0028": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-G) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Senendec/Selmas/Miyandoab/Sultaniye/Dizful/Şüster/Meku hâlâ yok; hazırlık yer_yama_iran.js'te commit'lenmemiş WIP."
+  },
+  "H-0029": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-G) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Dalmaçya adalarındaki \"sıçramış kırmızı\" sınıfı hâlâ ölçülmedi (Argolid çözümü başka bölgeydi)."
+  },
+  "H-0030": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-G) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Voyvodalık başkentlerine özel ateş emojisi/saldırı gösterimi hâlâ yok."
+  }
+ },
+ "parti-emrelic-0022": {
+  "H-0001": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-E) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Parga/Korfu: NOKTA EPIR (66a6e69, 22 Ağu) Aydonat/Margilic ekledi, Parga peteği %71 küçüldü ama koşuyla teyit edilmedi. Çehrin/Yazlovets/Mejibuji Bucaş Antlaşması bağlantısı hâlâ d:/s: alanlarına işlenmedi."
+  },
+  "H-0005": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-E) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Kabartay/Kuban/Tuapse hâlâ kaba yıl-hassasiyetli s: dönemleri taşıyor, Tuapse kaynağı hâlâ \"bulunamadı\". 20 Ağustos BOZKIR oturumu farklı noktaları düzeltti, bunlara dokunmadı."
+  }
+ },
+ "parti-emrelic-0023": {
+  "H-0001": {
+   "hukum": "cozuldu",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-H): Tökeli İmre/Orta Macar araştırması yapıldı: commit 073df09 (20 Ağu) + data/kronoloji_macaristan.js (127 madde, 21 Ağu, commit 89e3938), index.html:700'de CANLI (r3410)."
+  },
+  "H-0002": {
+   "hukum": "cozuldu",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-H): Commit 073df09: Parkan bozgunu (9 Eki 1683) ile Estergon kaybı (27 Eki 1683) TDV ile ayrıştırıldı, 18 gün fark düzeltildi. Uyvar izolasyonu/1685-08-19 kronoloji_macaristan.js + olaylar_ek6.js'te var."
+  },
+  "H-0003": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-H) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Kutsal İttifak rozet isteği — yalnız tasarım yapıldı (commit d9b255e, 24 Ağu, \"KOD YAZILMADI\"). data/ittifaklar.js hâlâ yok. Önem: DÜŞÜK-ORTA. (0027/H-0006 ile aynı kalem.)"
+  },
+  "H-0005": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-H) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Kalocsa+Şimontorna hâlâ Budin ile birebir aynı gün (1686-09-02) — kopyalanmış tarih şüphesi sürüyor, bağımsız doğrulama bulunamadı. Önem: DÜŞÜK."
+  },
+  "H-0006": {
+   "hukum": "cozuldu",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-H): Emoji ayarı zaten var (index.html:361, \"😊 Duygu emojileri\" checkbox, commit 9a02e24, 4 Ağu — H-0006'dan önce)."
+  },
+  "H-0007": {
+   "hukum": "cozuldu",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-H): Göz kırpma animasyonu düzeltildi (commit 5bbaebc, 23 Ağu) — artık varıştan sonra başlıyor."
+  },
+  "H-0009": {
+   "hukum": "cozuldu",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-H): Uçuş modu harita-götürme animasyonu 4 Ağustos'tan beri canlı (commit d7dde09) — H-0009'dan önce zaten vardı."
+  },
+  "H-0010": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-H) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Knin'in Venedik'e kaybı (1688-09-11) hâlâ kendi kronoloji maddesine sahip değil; ±30 gün penceresinde yalnız alakasız \"Belgrad'ın kaybı\" maddesi var — CLAUDE.md §3'ün tarif ettiği \"alakasız madde altında beliren değişim\" hatası. Önem: ORTA."
+  },
+  "H-0011": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-H) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Niş/Vidin enklavı: Semendire eklendi (commit cb24187) ama Kragujevac/Yagodina/Çaçak \"kaynak bulunamadı\" denip yazılmadı. BUGÜN (27 Ağu 02:49, commit e53c86a, Değişmez 7 enklav denetimi) Niş+Vidin hâlâ \"C-hakiki\" enklav olarak işaretli — güncel veride duruyor. Önem: ORTA-YÜKSEK."
+  },
+  "H-0018": {
+   "hukum": "cozuldu",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-H): Bu sabah (27 Ağu 02:49, commit e53c86a \"GECE ① TARALI ALAN KOKU DUZELTILDI\") tam istenen düzeltme yapıldı: Karlofça artık 4 ayrı alıcı (Avusturya/Lehistan/Venedik/Rusya) ayrı ayrı gösteriliyor."
+  }
+ },
+ "parti-emrelic-0024": {
+  "H-0001": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-I) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: İran hayaleti 50'den 7'ye indi ama asıl 34 şehir düzeltmesi (yerlesimler_kafkas_duzeltme.js, 20-21 Ağu) girdi.py'ye BAĞLI DEĞİL. Kutaisi hâlâ eski gurcistan."
+  },
+  "H-0002": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-I) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: m: alanları hâlâ eski/tutarsız (Batum→Trabzon, Artvin→Erzurum vb.), 6 nokta hiç m: taşımıyor. Değişmemiş."
+  },
+  "H-0005": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-I) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Basra-Kuveyt dolgu noktaları eklenmemiş, Kuveyt kaydı 1703 sahipsizliği duruyor."
+  },
+  "H-0006": {
+   "hukum": "cozuldu",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-I): commit fcae60b (20 Ağu) ODAK seçiliyken ok-tuşu akışını düzeltti, kod canlı."
+  },
+  "H-0008": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-I) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: İngriya kaleleri (Nyen/Koporye/İvangorod/Kingisepp) hâlâ yok."
+  },
+  "H-0009": {
+   "hukum": "cozuldu",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-I): Aynı commit fcae60b: birlesikTopla() fonksiyonu istenen \"birden çok ülke tarih sırasına iç içe\" davranışını sağlıyor (başka paketten doğmuş ama isteği karşılıyor)."
+  },
+  "H-0010": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-I) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Eski \"Hakkında\" menüsü 21 Ağustos'ta tamamen kaldırıldı (commit 4b6fb71); istenen sürüm/koşu bilgisi menüsü hâlâ yazılmamış."
+  }
+ },
+ "parti-emrelic-0025": {
+  "H-0001": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-G) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Kutaisi→imereti düzeltmesi yazıldı ama girdi.py'ye bağlanmadı, 23 Ağustos'ta ayrıca \"ölü dosya, tuzak\" diye kayda geçti. Kutaisi hâlâ gurcistan."
+  },
+  "H-0004": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-G) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: prusya/kurlandiya/livonya künyeleri hâlâ yok, Königsberg/Klaipėda hâlâ 1281'den almanya."
+  },
+  "H-0005": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-G) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Komşular düzeldi ama Uyvar/Nitra hâlâ 1281'den avusturya, pre-1526 macaristan dönemi eksik."
+  },
+  "H-0009": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-G) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Trakya sınır kaleleri hepsi hâlâ t:\"1361-01-01\", Edirne/Çirmen'den önce — toplu yuvarlak tarih düzeltilmedi."
+  }
+ },
+ "parti-emrelic-0027": {
+  "H-0004": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-H) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Debrecen bağlandı (commit cb24187, 23 Ağu) ama 7/8 nokta (Nagybánya, Kálló, Ecsed, Ónod, Szendrő, Huszt, Máramarossziget) \"TDV'de yok\" denip yazılmadı. Canlı veride doğrulandı (1683-06-15): Szatmár hâlâ avusturya enklavı olarak duruyor. Kalıcı \"bulunamadı\" sonucu. Önem: ORTA."
+  },
+  "H-0005": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-H) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Kronoloji görsel ekleme özelliği hâlâ 0 kayıt (grep boş). SONNET HAZIR KITA 76 (23 Ağu, M-1146) görevlendirilmiş ama teslim/tamamlama izi yok — muhtemelen hiç başlamadı ya da oturum düştü. Önem: DÜŞÜK-ORTA, kapsamlı iş."
+  },
+  "H-0006": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-H) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Kutsal İttifak — yalnız tasarım (commit d9b255e, 24 Ağu), data/ittifaklar.js yok. (0023/H-0003 ile aynı kalem.) Önem: DÜŞÜK."
+  }
+ },
+ "parti-emrelic-0028": {
+  "H-0002": {
+   "hukum": "cozuldu",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-J): SONNET HAZIR KITA 77 (23 Ağu, M-1107) ölçtü: 53 nokta var, görünüm 21 aynı-renk komşunun birleşmesi — veri eksikliği değil."
+  },
+  "H-0005": {
+   "hukum": "cozuldu",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-J): SAFEVÎ KRONOLOJİ (23 Ağu) Ferhad Paşa hattının 20+ noktasını tek tek sınadı, \"HARİTA DOĞRU\" sonucu."
+  },
+  "H-0006": {
+   "hukum": "cozuldu",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-J): Epir kıyısı \"tamamı Venedik\" — NOKTA EPIR (22 Ağu) 10 nokta ekledi, ekran görüntüsü o düzeltmeden ÖNCEki koşuya ait. Bugün Ergiri/Ayasaranda/Delvine/Souli/Filat/Aydonat Osmanlı."
+  }
+ },
+ "parti-emrelic-0029": {
+  "H-0002": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-I) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Sivrihisar germiyan kusuru kök nedeniyle bulundu (tahta M-1181, 23 Ağu) ama yerlesimler.js:1287 hâlâ eski hâliyle duruyor."
+  },
+  "H-0003": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-I) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Söğüt-Domaniç kopukluğu TDV ile doğru bulundu (tahta M-1182), çözüm önerisi (görsel göç güzergâhı) koordinatör kararını bekliyor."
+  },
+  "H-0007": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-I) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: MOTOR EPOK kendi doğruladı: Boğaz kök nedeni (ızgara çözünürlüğü) bulundu ama Saroz kısmı açıklanamadı, motora dokunulmadı."
+  }
+ },
+ "parti-emrelic-0030": {
+  "H-0001": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-J) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Bizans/Osmanlı sınır çakışması (Gemlik/İznik) — SONNET HAZIR KITA 72 kesin motor kusuru teşhis etti (devletler_harita.js vs donemler.js farklı Voronoi), \"okudum ama uygulamadım\" notu, düzeltme yok."
+  },
+  "H-0002": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-J) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Boğaz geçme kusuru — MOTOR EPOK kök nedeni buldu (ızgara çözünürlüğü), 4 çare adayı var, uygulanmadı."
+  },
+  "H-0003": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-J) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: İttifak rozetleri — tasarım teslim edildi (d9b255e, 24 Ağu) ama üyelik verisi/animasyon hâlâ eksik."
+  },
+  "H-0004": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-J) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Ordu sivri petek sınırı — MOTOR EPOK'a 4. sırada verildi, hiç ulaşılmadı."
+  },
+  "H-0005": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-J) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Yuvarlak işaret — kök neden bulundu ve kamera davranışı düzeldi (07c33b2, 24 Ağu) ama işaretin kendisi bilinçli eklenmedi, Emre kararı bekliyor."
+  },
+  "H-0007": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-J) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Çimpe/Saroz — ızgara teorisi burada ÇÜRÜTÜLDÜ (su %43 görünüyor), kök hâlâ açıklanamadı."
+  },
+  "H-0009": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-J) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Rumeli toprağı alakasız \"Pençik Kanunu\" maddesinde beliriyor — reçete yazılı, uygulanmadı. (grup-A/H-0018 ile aynı aile.)"
+  },
+  "H-0010": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-J) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Çorlu/Lüleburgaz fethi + Yeniçeri Ocağı aynı güne denk geliyor, 2 çare sunuldu, uygulanmadı."
+  },
+  "H-0011": {
+   "hukum": "cozuldu",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-J): Gümülcine \"leapfrog fetih\" — TDV tek tarih vermiyor, zaten bilinçli/araştırılmış karar, hata değil."
+  },
+  "H-0012": {
+   "hukum": "cozuldu",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-J): Isparta satın alınması — SONNET HAZIR KITA 72 TDV hamidogullari maddesiyle birebir doğruladı, veri doğru."
+  },
+  "H-0013": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-J) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Selanik/Üsküp seyrek tohum sorunu duruyor, aday şehirler (Kumanova vb.) veride yok."
+  },
+  "H-0014": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-J) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Yabancı haber sızması kuralı — tam ölçüm/rapor teslim edildi (M-1190), koordinatör henüz okumadı, karar bekliyor."
+  },
+  "H-0017": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-J) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Niş yanında Sırbistan toprağı — standart emilme değil, \"şüpheli\" damgalı, motor incelemesi yapılmadı."
+  },
+  "H-0018": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-J) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Teke/Antalya üçgen — commit 3a36b65 FARKLI bir kusuru (hat genişliği halo) düzeltti, bu (katı petek spike'ı) ayrı ve hâlâ açık. ⚠️ RİSK: bir sonraki oturum bunu yanlışlıkla 3a36b65 ile kapatılmış sanabilir — görsel mutlaka açılmalı."
+  }
+ },
+ "parti-kasa-0010": {
+  "H-0002": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-I) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Otomatik KIRMIZI/YEŞİL/GRİ tasarımı yazılmadı; farklı bir \"soru:\" etiketi mekanizması (10 Ağu) kısmen hizmet ediyor ama istenen tasarım değil."
+  }
+ },
+ "parti-kasa-0012": {
+  "H-0001": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, grup-I) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: ① Zaman damgası BAYAT (zaten 7 Ağustos'tan beri var). ② 8 kovalık sınıflandırma hâlâ yok, yalnız ikili SORU/değil ayrımı var."
+  }
+ }
+}

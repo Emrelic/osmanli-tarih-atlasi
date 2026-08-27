@@ -17,14 +17,20 @@ listeye eklendi — bkz. §④ "Bookkeeping notu".
 ## ② Özet sayılar
 
 ```
-🟢 BAYAT (zaten çözülmüş/geçersiz):        40
-🔴 HÂLÂ GEÇERLİ (gerçek kusur duruyor):    108
+🟢 BAYAT (zaten çözülmüş/geçersiz):        39
+🔴 HÂLÂ GEÇERLİ (gerçek kusur duruyor):    109
 ⚪ ÖLÇEMEDİM:                                8
 TOPLAM:                                    156
 ```
 
-Yani 156 maddenin **dörtte biri (40) zaten kapanmış** — kayıtsız kalsaydı
-hepsi bir gün yeniden "kusur" diye bulunacaktı. Kalan 108 gerçek ve 8'i bu
+> ⚠️ **Düzeltme notu:** bu özet ilk teslimde 40/108/8 olarak yazılmıştı (elle
+> toplanmıştı). `denetim/HUKUM-BAYAT.json` üretilirken kaydedilen 11 grup
+> dosyası MEKANİK olarak ayrıştırılınca gerçek dağılım 39/109/8 çıktı — elle
+> toplamada bir madde yanlış kovaya sayılmış. §⑤/§⑥ listeleri zaten doğruydu,
+> yalnız bu başlık sayısı düzeltildi.
+
+Yani 156 maddenin **dörtte biri (39) zaten kapanmış** — kayıtsız kalsaydı
+hepsi bir gün yeniden "kusur" diye bulunacaktı. Kalan 109 gerçek ve 8'i bu
 turda ölçülemedi.
 
 ## ③ ÖNCELİKLİ — cross-cutting bulgular (koordinatörün önce bakması gerekenler)
