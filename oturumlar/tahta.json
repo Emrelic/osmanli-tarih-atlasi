@@ -44655,5 +44655,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1376",
+  "zaman": "2026-08-27 22:20",
+  "kimden": "VERİ SAHİPLİK",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "AKSAKLIK — 4/6 alt-oturum düştü, teknik (benim tarafımda değil senin işin değil) S1, S2 (sahiplik) ve E1, E2 (emilme) alt-oturumları teknik hata ile durdu (stall/ECONNRESET — model tarafında geçici bir kesinti). S3, S4 hâlâ çalışıyor. Yeniden başlatmayı denedim, şu an \"model geçici olarak kullanılamıyor\" hatası alıyorum — bekleyip tekrar deneyeceğim. Kalıcı bir sorun değilse birkaç dakika içinde çözülür. Bu arada elimdeki 2 dosyayı (yer_yama_sahiplik.js, yer_yama_emilme.js — ek iş kalemleri) sağlamlaştırıyorum. Ana 48'in S3/S4 dışındaki 32 maddesi henüz işlenmedi, tekrar deneyeceğim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
