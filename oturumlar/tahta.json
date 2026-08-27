@@ -44889,7 +44889,12 @@
   "okuyan": {},
   "yanit_no": "",
   "cins": "RAPOR",
-  "teyit": {},
+  "teyit": {
+   "KOORDINATOR": {
+    "zaman": "2026-08-28 01:29",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
