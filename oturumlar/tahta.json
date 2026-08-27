@@ -43714,5 +43714,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1353",
+  "zaman": "2026-08-27 17:51",
+  "kimden": "KADEME K0",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "KADEME K0 — DÜZELTME: 35 → 38. Kendi \"ölçmedim\" kalemimi kapatınca KENDİ HATAMI buldum. DOSYA GÜNCELLENDİ: data/yer_yama_kademe.js → 38 kayıt (node ile doğrulandı) RAPOR: denetim/BULGU-KADEME-K0.md Bölüm III eklendi (364 satır) ═══ ① ÇIKARIMIM ÇÜRÜDÜ ═══ M-1351'de şöyle yazmıştım: \"45 dedin, farkı `kasitli_bosluk` ayırınca 40 çıkıyor.\" ÖLÇTÜM: k0 + Osmanlı, süzgeçsiz 45 − kasitli_bosluk 45 ← HİÇ ELEMEDİ − kasitli_bosluk VE bos 40 ⇒ Farkı yapan `kasitli_bosluk` DEĞİL, `bos:` alanı. Sayı (40) doğruydu, SEBEBİNİ yanlış söyledim. Ölçüm ile çıkarımı tek cümlede birleştirmiştim ve çıkarım, ölçümün güvenilirliğini ödünç aldı. ═══ ② VE ARDINDA GERÇEK BİR KAYIP VARDI ═══ Elenen 5 kaydın hepsi bos:\"devletsiz\" · tek v: dönemi 1818-09-09 → 1824-06-01 k:\"Mısır (İbrâhim Paşa)\" (Vehhâbî seferi). Nefud çölü tur:\"bolge\" → elenmesi DOĞRU Necid içi tur:\"bolge\" → elenmesi DOĞRU Buraydâ (Kasîm) tur:\"sehir\" → 🔴 GERÇEK KASABA, elenmesi YANLIŞ Uneyze tur:\"sehir\" → 🔴 GERÇEK KASABA Şakrâ tur:\"sehir\" → 🔴 GERÇEK KASABA Süzgecim `bos:` taşıyan HER kaydı \"yerleşim değil\" saydı. Oysa `bos:` o noktanın bir dönem SAHİPSİZ olduğunu söylüyor, KASABA OLMADIĞINI değil. ⇒ \"Ölçüm doğru, evren dar\" — bu sefer BENİM aletimde. ═══ ③ ÇARE SAYIYI DÜZELTMEK DEĞİL, ÜRETECE KAPSAMA SINAVI KOYMAK OLDU ═══ EVREN: k0+Osmanlı 45 = bolge 7 + tabloda 38 + KAPSANMAYAN 0 Kapsanmayan kayıt kalırsa ADIYLA basılıyor; ayrıca \"bolge\" diye eledigim her adın gerçekten tur:\"bolge\" olup olmadığı denetleniyor. (§11 \"bir denetimin KAPSAMI, doğruluğundan ayrı ölçülür\") ═══ ④ EKLENEN ÜÇ KAYIT ═══ Buraydâ (Kasîm) k4 m:Medine · Uneyze k4 m:Medine · Şakrâ k4 m:Medine KAYNAK ZİNCİRİ: TDV necid \"Necd-i Hicâzî Kasîm, Cebelişemmer, Veşm, Mahmel ve Südeyr...\" ⇒ Kasîm ve Veşm alt bölgeleri VAR, ama TDV bu kasabalara kademe VERMİYOR TDV medine \"İbrâhim Paşa'yı Medine'ye ve Kuzey Arabistan taraflarına gönderdi\" ⇒ seferin idarî çıpası MEDİNE ⚠️ RİYAD KASTEN SEÇİLMEDİ: k1 ve daha yakın (155-326 km), AMA TDV riyad \"Abdullah 1824'te aldığı ... Riyad'ı idare merkezi yaptı\" diyor — Riyad merkez olduğunda bu dönem BİTİYOR. Bir merkezi, merkez OLMADIĞI tarihte çıpa yapmak §3.5'teki hayalet devlet hatasının aynısı olurdu. SLUG SINAVI: burayda · kasim · kasim--bolge · uneyze · unayza · sakra · diriyye → HEPSİ 302 ÖLÜ. Canlı: necid · riyad · medine · diriye. ═══ ⑤ GÜNCEL TESLİM ═══ 38 kayıt · k2=3 · k3=5 · k4=30 · güven KESİN 2 / GEREKÇELİ 26 / HÜKÜM 10 sınav 38/38 geçti · 0 red · KAPSANMAYAN 0 Tavan sınavı üç yeni kayıtta da gevşek (yarıçap 15 · 15 · 41 km ≪ 280) ⇒ \"45/45 · devlet boyaması DEĞİŞMİYOR\" hükmü AYAKTA. Bolge dışı sayısı 5 → 7 oldu (Nefud çölü ve Necid içi eklendi). ═══ ⑥ HÂLÂ BEKLEYEN ═══ · Kalem C (1126 yabancı k0) — M-1351'deki EKSEN KARARI. Emre'ye taşındı mı? · tur:\"bolge\" 7 kayda kademe verilecek mi (özellikle Kordofan — TDV onu gerçek idarî birim olarak anlatıyor)? Kendi başıma karar vermedim. Karar gelene kadar boştayım, başka iş alabilirim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
