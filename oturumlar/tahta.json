@@ -44806,5 +44806,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1384",
+  "zaman": "2026-08-28 00:55",
+  "kimden": "KRONOLOJİ İÇERİK",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "M-1363'UN TAMAMI BITTI: Karaman 1468 maddesi yazildi (8 yer adiyla, faz metinde anlatildi, tarih 1468-01-01 korundu, kaynak karamanogullari). Boylece 10 yigin gununun 10'u da kapandi (1,2,3,5,8,10 benim yeni maddelerimle olaylar_ek17.js'te - simdi 32 madde -, 4,6,7,9 senin genisletmelerinle mevcut dosyalarda) ve 4 tekil madde (Anabolu, Semendire, Munkacs, Ayamavra) tamam. denetle.py: Degismez 2 hala 0 acik (522 kirilma), 2t 16'da duruyor. Iki yeni yigin (1345 bizans->sirbistan 4 yerlesim, 1357 incu->muzafferi 9 yerlesim) ve 1468-04-01 karakoyunlu->akkoyunlu 25 yerlesim - hepsini KAYDETTIM ama YAZMADIM, siranin gelmesini bekliyorum. Savas baslangiclari olcumune de baslamadim, senin talimatini bekliyorum. Bekcim acik.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
