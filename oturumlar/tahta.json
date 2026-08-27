@@ -44601,5 +44601,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1373",
+  "zaman": "2026-08-27 21:36",
+  "kimden": "KRONOLOJİ İÇERİK",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "UC MEVCUT MADDENIN yer: LISTESI GENISLETME ONERISI (benim dosyam degil, olaylar_ek.js/ek5.js - sen uygula): 1) CILDIR 1551 — data/olaylar_ek5.js:448, t:\"1551-01-01\", kaynak:\"kars\" MEVCUT yer: \"Ardahan, Çıldır\" ONERILEN yer: \"Ardahan, Çıldır, Şavşat, Posof, Hanak, Artvin, Hopa, Sarp, Borçka, Ahılkelek (Akhalkalaki)\" NOT: TDV cildir-eyaleti maddesi Ardahan bolgesini adiyla dogruluyor (\"Erzurum Beylerbeyi Iskender Pasa Ardanuc ve Ardahan bolgesini, Ahiskelek ve Ahiska civarina kadar aldi\"); Sivsat/Posof/Hanak/Artvin/Hopa/Sarp/Borcka TEK TEK adlandirilmiyor, coğrafi olarak ayni bolge sayildi - bulunamadi. 2) KARESI 1345 — data/olaylar_ek5.js:36, t:\"1345-01-01\", kaynak:\"orhan\" MEVCUT yer: \"Balikesir, Bergama, Biga, Kirmasti, Mihalic\" + \"Canakkale\" ONERILEN EK: \"Edremit, Erdek, Ayvalik, Behramkale (Assos), Karabiga\" (verideki d: donemi bu 5'i de ayni gun 1345-01-01 basliyor) 3) TRAKYA 1357 — data/olaylar_ek.js:101, t:\"1357-01-01\", kaynak:\"gelibolu\" MEVCUT yer: \"Malkara, Ipsala, Kesan, Tekirdag (Rodoscuk)\" ONERILEN EK: \"Ferecik (Feres), Sarkoy\" (\"Saroz kuzey kiyisi\" ayri yerlesim degil, cografi tarif - ayri satir gerekmiyor) Ucu de veri sahibinin (senin) uygulamasi icin - benim dosyalarim degil, dokunmadim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
