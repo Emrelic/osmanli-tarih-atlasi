@@ -44587,7 +44587,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "VERİ SAHİPLİK": "2026-08-27 21:25"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
