@@ -43696,5 +43696,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1352",
+  "zaman": "2026-08-27 17:43",
+  "kimden": "KADEME K0",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "KADEME K0 — KALEM A TESLİM. 40 → 35 yazıldı, 5'i KASTEN dışarıda. DOSYA: data/yer_yama_kademe.js → window.YER_YAMA_KADEME (35 kayıt, node ile doğrulandı) RAPOR: denetim/BULGU-KADEME-K0.md (272 satır, Bölüm I çelişki + Bölüm II teslim) ═══ ① ÖNCE ŞUNU ÖLÇTÜM: BU YAMA HARİTAYI DEĞİŞTİRİR Mİ? ═══ HAYIR — ve varsayım değil, iki ölçüm: · TAVAN_KM[k0]=280 km. 40 kaydın 40'ında (en yakın komşu ÷ 2) < 280. En tenha: Tîne (Dârfûr) 189 km ⇒ yarıçap 94 km. TAVANIN BAĞLADIĞI: 0/40. · uret_petek.py:680 kendi yorumu: \"Kademe uyarısının bedeli kozmetik (bölge sınırı çizilmiyor, TOPRAK BOYAMASI ETKİLENMİYOR).\" ⇒ Devlet boyaması DEĞİŞMEZ. 🔴 DEĞİŞEN TEK ŞEY data/bolgeler.js: uret_petek.py:3285 `if not y[\"k\"]: continue` ⇒ k0 nokta bölge katmanına HİÇ girmiyor. Kademe verilince merkezinin bölge poligonuna ÜYE olur ve poligon büyür. İstenen davranış, ama BİLİNEREK olmalı. ═══ ② VE BİR ZORUNLULUK: k: TEK BAŞINA YAZILAMAZ ═══ uret_petek.py:702 — k3/k4 yazıp m: yazmazsan zincir kapanmaz, \"UYARI kademe\" öter, :706'daki \"beklenen 0\" sayacı BOZULUR. 40 kaydın 39'unda m: BOŞTU. ⇒ k: ile m: BİRLİKTE yazıldı. 35 önerinin 35'i, YAMA UYGULANMIŞ varsayılarak k12_merkez(:684) BİREBİR TAKLİT EDİLEREK sınandı: 35/35 kapanıyor, 0 red. (§11 \"reçete kendi testini geçmeli\" — üretmeden ÖNCE sınandı.) ═══ ③ 35 KAYIT ═══ Dalmaçya-Bosna 5 Klis k2 · Bihaç k2 · Knin k3 · Sin k4 · Herseknovi k4 Orta Macar 6 Kassa k2 · Eperjes/Tokaj/Ungvár/Munkács/Fülek k4 (Thököly'nin tâbi prensliği, 1682-85) İran-Kafkasya 10 Salyan/Kuba/Tarki/Zagem k3 · ötekiler k4 Sudan-Dârfûr 13 hepsi k4, merkez El-Fâşir (Mısır idaresi 1874-83) İtalya 1 Otranto k4 kademe: k2=3 · k3=5 · k4=27 güven: KESİN 2 · GEREKÇELİ 23 · HÜKÜM 10 🟢 TDV KADEMEYİ ADIYLA SÖYLEYEN İKİ KAYIT: Klis \"Fetihten hemen sonra Klis sancak ve kaza merkezi yapıldı.\" Bihaç \"1865'te yeniden sancak merkezi haline getirildi.\" 🟢 VE İKİ İDARÎ TAKSİM DOĞRUDAN KAYNAKTAN ÇIKTI: TDV tebriz 1593 livâları: Tebriz·Suldus·Dizmâr·Merâga·Sarukurgân·Saîdâbâd·Alîk ⇒ Ahar · Sarâb · Miyâne bu listede YOK ⇒ livâ altı ⇒ k4 TDV sirvan \"Şirvan iki eyalete ayrıldı... Derbend eyaleti... Şemâhî eyaleti. Şemâhî on beş, Derbend yedi sancağa ayrıldı.\" ⇒ Salyan → Şamahı · Kuba → Derbend ═══ ④ 5 KAYIT KASTEN DIŞARIDA — ve BİRİ SANA SORU ═══ tur:\"bolge\" olanlar: Boğaziçi (Rumeli yakası) · Cebel Merre · Kordofan · Saroz kuzey kıyısı · Sina güneyi. Bunlar YERLEŞİM DEĞİL, dolgu bölge noktası; bir bölgeye \"sancak kademesi\" vermek KATEGORİ HATASI olur. Beşinde de tavan gevşek ⇒ k0 kalmaları haritada hiçbir şey değiştirmiyor. 🟡 AMA KORDOFAN BİR SORU: TDV `kordofan` onu gerçek bir idarî birim olarak anlatıyor (\"bölgenin merkezi ... Ubeyyid\"). Kademesi olması SAVUNULABİLİR. Kaydımız bölge dolgusu olduğu için YAZMADIM. Karar senin: tur:\"bolge\" kayıtlarına kademe verilecek mi? Kendi başıma karar vermedim. ═══ ⑤ TDV TUZAKLARI — bu turda ÖLÇÜLENLER (külliyata girmeli) ═══ 🔴 `ahar` HTTP 200 · başlık doğru · AMA MADDE ŞEHİR DEĞİL: \"âhâr\" = hattatlıkta kâğıt terbiyesi (müellif Uğur Derman). ordu/saray/cin deseninin BEŞİNCİ vakası. 🔴 `sina` HTTP 200 · açılan madde \"SÎNÂ\" = dinî/Kur'ânî konu (Mustafa Sinanoğlu). ALTINCI vaka. ⚠️ `hersek` (2378 bayt) ve `sennar` (2434 bayt) BOİLERPLATE geldi — §4④. \"TDV'de yok\" DEMEDİM, \"çekilemedi\" yazdım. 🟢 17 ölü slug için kapsayıcı madde denendi ve TUTTU (klis · dalmacya · macaristan · tebriz · sirvan · luristan · gurcistan · darfur · italya …) 📌 §4 TANECİKLİK boşluğu 13 kayıtta yaşandı: TDV Dârfûr'u KAPSIYOR ama Burâm/Cenîne/Kutum kasabalarını adıyla saymıyor. Kural gereği meşru, ve kaynak: alanında AÇIKÇA yazıldı. ═══ ⑥ ÖLÇMEDİKLERİM ═══ · bölge poligonlarının ne kadar büyüyeceği (motor gerekir) · HÜKÜM güvenli 10 kayıt için İKİNCİ akademik kaynak aranmadı — TDV susunca tarihsel bağlamdan hüküm verildi ve ÖYLE DAMGALANDI · Otranto'nun 11 ayda sancak yapılıp yapılmadığı: BULUNAMADI · 45 ↔ 40 farkının kaynağı (hâlâ ölçmedim) ═══ ⑦ SIRADAKİ ═══ Kalem B (197 kasitli_bosluk) → DOKUNULMADI, raporda yazılı ki bir daha bakılmasın. Kalem C (1126 yabancı k0) → M-1351'deki eksen kararını BEKLİYORUM. Emre'ye taşıdın mı? Karar gelene kadar başka iş alabilirim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
