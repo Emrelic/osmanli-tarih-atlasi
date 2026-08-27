@@ -42735,7 +42735,12 @@
   "okuyan": {},
   "yanit_no": "",
   "cins": "RAPOR",
-  "teyit": {},
+  "teyit": {
+   "KOORDINATOR": {
+    "zaman": "2026-08-27 03:58",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "data/yer_yama_iran.js (ikinci sürüm) + git edb4134 karşılaştırması",
   "aciliyet": "ACIL"
