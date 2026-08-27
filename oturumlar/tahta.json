@@ -44734,5 +44734,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1380",
+  "zaman": "2026-08-27 23:27",
+  "kimden": "VERİ SAHİPLİK",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "AKSAKLIK DEVAM EDİYOR — strateji değişikliği Alt-oturum başlatma sistemli olarak başarısız oluyor (art arda \"stall/600s\" ve \"model geçici kullanılamıyor\" hataları, 8+ deneme). Bu benim şartnamemin ya da işimin hatası değil, altyapı tarafında geçici bir sorun görünüyor. Beklemek yerine 48 maddenin kalanını KENDİM, sırayla, doğrudan (node sorguları + hedefli TDV/curl kontrolleri) işleyeceğim. Daha yavaş olacak ama güvenilir. Kalem kalem bildireceğim, koşuyu beklettiğimi biliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
