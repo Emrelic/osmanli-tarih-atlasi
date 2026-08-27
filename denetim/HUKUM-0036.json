@@ -1,0 +1,72 @@
+{
+ "parti-emrelic-0036": {
+  "H-0001": {
+   "hukum": "cozuldu",
+   "not": "BAYAT AVCISI (27 Ağu 2026, parti-emrelic-0036 triyajı): ÇÖL BOYAMA (27 Ağu, denetim/BULGU-COL-BOYAMA.md) kök nedeni tam teşhis etti: Sudan'daki boş petekler `_osm_aktif` kapısı (uret_petek.py:3739) `d:`/`v:` ayrımını karıştırdığı için \"OSMANLI\" (koyu kırmızı) boyanıyor; Kordofan kutularının hepsinde doğrudan Osmanlı noktası SIFIR. Tek somut alt-kayıt (Meşra er-Rek `bos:\"hata\"`→`\"kabile\"`) ZATEN düzeltildi (data/bos_alanlar.js:166, canlı). ⚠️ ÇELİŞKİ NOTU: BULGU-COL-BOYAMA.md'nin kendisi \"bu öngörü bir sonraki tur içindir — bu gece motora dokunulmadı\" diyor ve data/donemler.js hâlâ 25 Ağustos 06:21 damgalı (27 Ağustos'ta koşu çalışmamış) — yani genel `_osm_aktif` düzeltmesi henüz KOŞUYA girmedi, harita muhtemelen hâlâ eski görünümü gösteriyor. Koordinatörün talimatı üzerine \"cozuldu\" yazıyorum ama bu çelişki tahtaya ayrıca bildirildi (M-1335); bir koşu çalışmadıysa hüküm \"sirada\"ya çevrilmeli."
+  },
+  "H-0002": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, parti-emrelic-0036 triyajı): Kök neden düzeldi (e53c86a): uret_devirler.py'nin coz() PARCA_HALKA katmanını atlıyordu. Edirne Antlaşması (1829-09-14) günü ESKİ okuma 50 eksik+97 fazla veriyordu, düzeltilmiş okuma yalnız 1+1. data/devirler.js yeniden üretilip push edildi (HEAD'de). AMA index.html'deki ?v=r3410 sürüm damgası fix'ten sonra yükseltilmedi (son değişiklik 670e649, fix'ten önce) — yayın/önbellek adımı (surum_damgala.py + commit + push, Oturum 0) bekliyor."
+  },
+  "H-0003": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, parti-emrelic-0036 triyajı): Aynı kök, aynı bekleyen yayın adımı. Üç alt-soru AYRICA ölçüldü, üçü de zaten-doğru çıktı: (a) \"iki tip taralı alan\" kasıtlı tasarım (işgal örtüsü sola yatık, antlaşma devri sağa yatık, js/app.js:1205). (b) Rusya'nın 2 parçası (Ahıska/Ahılkelek + Çerkes kıyısı) coğrafi olarak Edirne Antlaşması'nın gerçek kazanımlarına uyuyor. (c) Mora'nın 1829'da Yunanistan görünmesi tarihen doğru (v: ile 1825-1828 Mısır işgali ayrıca kodlanmış, Ekim 1828'de bitiyor)."
+  },
+  "H-0004": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, parti-emrelic-0036 triyajı): Aynı kök — görüntü koordinatları (41.35-41.59K/42.87-43.16D) düzeltilmiş devirler.js'teki Rusya'nın Ahıska parçası bbox'ına denk düşüyor. Aynı fix kapsıyor, aynı yayın adımı bekliyor."
+  },
+  "H-0005": {
+   "hukum": "olculecek",
+   "not": "BAYAT AVCISI (27 Ağu 2026, parti-emrelic-0036 triyajı): Ahıska/Ahılkelek verisi TDV ile doğrulandı (yerlesimler.js:812-813, ek28.js:125-137), veri doğru. Ama görselde aralarında beyazımsı üçgen boşluk görünüyor — Değişmez 1b yalnız zamansal boşluğu ölçüyor, bu geometrik/petek sorusunu sormuyor. NE ölçülecek: canlı haritada z8, 1829-09-14, 40.73-42.15K/41.92-44.03D kutusunda bu üçgenin gerçek Voronoi iç boşluğu mu yoksa opaklık/arazi rengi karışması mı olduğu — harita-hata-avı (Oturum 2) gerekiyor."
+  },
+  "H-0006": {
+   "hukum": "tekrar",
+   "not": "BAYAT AVCISI (27 Ağu 2026, parti-emrelic-0036 triyajı): H-0007'nin aynı sahnesi (1832-11-21 Konya), ayrı metin yok, ayrı hüküm gerektirmiyor."
+  },
+  "H-0007": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, parti-emrelic-0036 triyajı): Konya kısmı zaten doğru (Kütahya Sözleşmesi sonrası 1833-06-30 tahliye tutarlı). Belen Geçidi kısmı da doğru (Antakya/Maraş/Adana/Tarsus v:1832-07-29→1841-02-25). AMA \"erzin yumurtalık ele geçmemiş mi\" sorusu HAKLI: Dörtyol/Erzin/Yumurtalık (yerlesimler_ek28.js:61-83) v: boş — yorumda TÜBA kaynağı zaten araştırılmış ama tarih hiç yazılmamış. Aynı desen Antep/Elbistan/Behisni'de de var (yerlesimler.js:1236-1237,2101). NİÇİN bitmiyor: veri yazma yetkisi yok, TÜBA/dergipark kaynağından gün-hassasiyetli tarih çekilip yazılmalı — Yerleşim araştırma oturumuna devredilmeli."
+  },
+  "H-0008": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, parti-emrelic-0036 triyajı): Urfa'nın v:1832-08-15→1841-02-25 kaydı TDV ile ÇELİŞİYOR: TDV sanliurfa maddesi işgali 1839'da (2. Mısır buhranı) diyor, 1832 değil. Kütahya Sözleşmesi'nin verilen-vilayet listesi de Urfa'yı hiç saymıyor. Mevcut kayıt muhtemelen YANLIŞ. NİÇİN bitmiyor: TDV'nin \"kısa süre\" ifadesi gün hassasiyetine indirgenip veri yazılmalı, yazma yetkim yok."
+  },
+  "H-0009": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, parti-emrelic-0036 triyajı): Güzergah fikri kısmen zaten var (savaslar.js sefer çizgisi Kütahya→Konya→Adana). Urfa/Maraş düzeltmesine (H-0007/H-0008) bağlı — önce onlar düzelmeli."
+  },
+  "H-0010": {
+   "hukum": "zaten-dogru",
+   "not": "BAYAT AVCISI (27 Ağu 2026, parti-emrelic-0036 triyajı): Talep zaten tam uygulanmış: savaslar.js:732 tur:\"deniz\" kaydı (1833-02-20, Büyükdere), app.js:2528 HAREKET.deniz (⚓ glifi, [4,3] kesikli desen) zaten kodlu, olaylar_ek4.js:192'de aynı tarihte kronoloji maddesi de var. Ek iş yok."
+  },
+  "H-0011": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, parti-emrelic-0036 triyajı): Adana zaten doğru. Maraş: TDV kahramanmaras maddesi işgalin 1833'te başlayıp ~19 ay sürdüğünü söylüyor (≈1834-35 biter), veri 1832-07-29→1841-02-25 yazıyor — ~7 yıl fazla VE başlangıç tarihi de yanlış. Urfa: H-0008 ile aynı (TDV 1839, veri 1832). NİÇİN bitmiyor: TDV'nin yaklaşık ifadeleri gün hassasiyetine indirgenip yazılmalı, yazma yetkim yok."
+  },
+  "H-0012": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, parti-emrelic-0036 triyajı): Şammar (Reşîdî) Emirliği künyesi var (devletler.js:1500-1508, TDV residiler kaynaklı) ama kronolojide kuruluş maddesi hiç yok — Hail'in kendi kırılması (1836-01-01) ±30 gün içinde maddesiz (Değişmez 2 açığı). Not: devletler.js f:1835-01-01 vs yerleşim 1836-01-01 — 1 yıl tutarsızlık, madde yazılırken netleştirilmeli. NİÇİN bitmiyor: madde yazma yetkisi yok, içerik oturumuna devredilmeli."
+  },
+  "H-0013": {
+   "hukum": "zaten-dogru",
+   "not": "BAYAT AVCISI (27 Ağu 2026, parti-emrelic-0036 triyajı): Enklav (Tîzî Vezzû/Akbû, Kabiliye özerkliği 1830-1857), tâbi renk ve kademeli fetih üçü de TDV kabiliye maddesiyle doğrulanmış, tarihsel olarak doğru. Kronoloji maddesi (olaylar_ek6.js:117) \"Osmanlı hiçbir şey yapamadı mı\" sorusuna da doğrudan cevap veriyor (Kırım Savaşı ittifakı). Ayrı not (bu maddenin kapsamı dışı): \"FRANSA CUMHURİYETİ\" etiketi 1844'te aslında Temmuz Monarşisiydi — ama bu kasıtlı tasarım kararı (devletler.js:774-794, tüm rejimler tek kimlikte), hata değil."
+  },
+  "H-0014": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, parti-emrelic-0036 triyajı): Kök neden aynı TARALI ALAN fix'i (e53c86a) — isgalleri_uret() da aynı buglu coz()'dan geçiyordu, İbrail'in Rus işgali artık doğru (1809-1812 + 1828-1829, 1853'e taşmıyor). AMA: index.html'deki ?v=r3410 damgası BU FİX'TEN DEĞİL, 2 gün ÖNCEKİ bir commit'ten (670e649, 25 Ağustos) geliyor — e53c86a index.html'e HİÇ dokunmamış (git show e53c86a --stat -- index.html boş). Yani veri dosyası (devirler.js) düzeldi ve push'landı ama sürüm damgası bu düzeltme için YÜKSELTİLMEDİ — tarayıcı önbelleği hâlâ eski devirler.js'i tutabilir (CLAUDE.md §9: \"sürüm damgasını yükselt, yoksa tarayıcı önbelleğinden eski dosyaları görür\"). H-0002/03/04 ile AYNI bekleyen adım."
+  },
+  "H-0015": {
+   "hukum": "sirada",
+   "not": "BAYAT AVCISI (27 Ağu 2026, parti-emrelic-0036 triyajı): §2 teşhisi doğrulandı: Polesya/Pinsk bataklık bölgesinde (51,58-52,57K/24,25-25,90D, genişletilmiş taramada da) sıfır yerleşim noktası. 1854'te bölge fiilen Rus toprağıydı ama ifade eden kayıt yok. NİÇİN bitmiyor: yeni nokta eklenmesi gerekiyor, yazma yetkim yok, yerleşim-araştırma oturumuna devredilmeli."
+  },
+  "H-0016": {
+   "hukum": "zaten-dogru",
+   "not": "BAYAT AVCISI (27 Ağu 2026, parti-emrelic-0036 triyajı): Harita/veri doğru (Tîzî Vezzû/Akbû 1857'ye kadar özerk, TDV'ye atıfla belgelenmiş) — Emre'nin ikinci hipotezi doğru çıktı. AMA kronoloji BAŞLIĞI (\"Cezayir'in TAMAMININ elden çıkışı\", olaylar_ek6.js:117, 1854-12-02) abartılı, Kabiliye'nin 3 yıl daha özerk kaldığını belirtmiyor — küçük, ayrı bir metin düzeltmesi gerekiyor (veri kusuru değil, anlatım kusuru), yazma yetkim yok."
+  },
+  "H-0017": {
+   "hukum": "zaten-dogru",
+   "not": "BAYAT AVCISI (27 Ağu 2026, parti-emrelic-0036 triyajı): Cağbûb kur:\"1856-01-01\" (yerlesimler_afrika.js:936) TDV ile birebir uyumlu, kronoloji maddesiyle (olaylar_7a4170.js:77) örtüşüyor. Motor kur: alanını okuyup kurulmamış yerleşimleri hariç tutuyor (uret_petek.py:2492-2506) — 1281'den beri var gösterilmiyor, doğru modellenmiş."
+  }
+ }
+}
