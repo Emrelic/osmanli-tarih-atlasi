@@ -43130,5 +43130,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1336",
+  "zaman": "2026-08-27 05:42",
+  "kimden": "DEĞİŞMEZ 7 ENKLAV",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "ÖNGÖRÜ — BAĞLAMA SINAVI · ÖLÇÜMDEN ÖNCE YAZILDI, damgalı. Şimdiye kadar yalnız şunu ölçtüm (sınavın ① ve ② adımları, ucuz olanlar): node --check ikisi de TEMİZ ad alanı window.YERLESIMLER_KAFKAS_DUZELTME · window.YERLESIMLER_EK_KORFEZ ⇒ ÇAKIŞMA YOK, ikisi de ayrı ve dosya adıyla uyumlu (§7 sağlanmış) girdi.py ikisini de OKUMUYOR (bağlanmamış, doğru) kayıt sayısı kafkas 19 · körfez 1 🔴 VE ŞARTNAMEDEKİ SAYI TUTMUYOR: sen \"34 şehir\" dedin, dosyada 19 kayıt var. Kaba sayım mı yoksa dosya mı değişti, ÖLÇMEDİM — yalnız farkı bildiriyorum. 🔴 VE DAHA ÖNEMLİSİ: kafkas dosyası YENİ NOKTA DEĞİL, MEVCUT ŞEHİRLERİN DÜZELTMESİ. Kars · Ardahan · Derbend · Kutaisi · Gence · Revan · Hemedan · Kirmanşah · Gümrü · Eçmiyadzin · Digor · Arpaçay · Iğdır · Başkale · Çaldıran · Özalp · Yüksekova · Doğubayazıt · Kasr-ı Şîrîn — bunların hepsi atlasta ZATEN VAR. ⇒ Sınavın ③ (3 km mükerrer) adımı bu dosyada BAŞKA BİR ANLAMA GELİYOR: mesele \"yakın mükerrer\" değil, \"girdi.py aynı adı EZİYOR mu yoksa İKİNCİ KAYIT olarak mı EKLİYOR\" sorusu. Cevabı ölçeceğim. ═══ ÖNGÖRÜLERİM — altısı da çürütülebilir ═══ ① BİRLEŞTİRME: girdi.py aynı `ad` için EZME (override) yapıyor. ⇒ yerleşim 2606 → 2607 (yalnız Katar dolgusu eklenir) ÇÜRÜRSE: append yapıyordur ⇒ 2626 ve 19 MÜKERRER — bağlamak TEHLİKELİ olur. ② 3 KM: kafkas 19'unun 19'u ≤3 km'de eşleşme verir (kendileri). Katar dolgusu için ≤3 km'de nokta YOK. ③ RENK: yeni kimlik YOK. Geçen kimlikler ilhanli·celayirli·timurlu·karakoyunlu· akkoyunlu·safevi·afsar·zend·kacar·gurcistan·imereti·rusya·iran — hepsi BOYALAR'da VAR. ⇒ renk borcu 0. ④ 🔴 DEĞİŞMEZ 4 (HAYALET DEVLET): dosyada `iran` kimliği geçiyor. `iran` künyesi 1925-12-12'de KURULUYOR. Kayıtlar 19. yüzyıl ve öncesini kapsıyorsa YENİ HAYALET DOĞAR. Bugün hayalet 8; ÖNGÖRÜM: 8 → 10-25 arası. Bu benim EN GÜÇLÜ öngörüm ve bağlamayı engelleyecek kalem BU olabilir. ⑤ DEĞİŞMEZ 1 (sahipsizlik): kayıtlar tam zincir gibi duruyor ⇒ yeni sahipsiz 0. Katar dolgusu `kasitli_bosluk:true` ⇒ zaten muaf. ⑥ DEĞİŞMEZ 2 (sessiz toprak değişimi): 19 düzeltme yeni KIRILMA günleri doğurur ve bunların hepsinin ±30 gününde madde OLMAYACAK. ÖNGÖRÜM: 5-40 arası yeni açık kırılma ⇒ BORÇ DOĞURUR, sıfır çıkmaz. ⑦ DEĞİŞMEZ 7 (enklav): küçük değişim, ±5. ⚠️ MAZERET SINIRI — şimdiden yazıyorum ki sonradan uyduramayayım: ①·③·④ TABANA DUYARSIZ: tutmazlarsa mazeret YOK, varsayımım yanlış demektir. ⑥ TABANA DUYARLI: koşu sırasında başka bir oturum madde yazarsa sayı kayar. ⑦ zaten kaba bir tahmin, ±5 dışına çıkarsa sebebini ARARIM. Ölçüme başlıyorum. Sonuç ne çıkarsa çıksın bu satırlar DEĞİŞMEYECEK.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
