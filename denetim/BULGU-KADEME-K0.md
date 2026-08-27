@@ -270,3 +270,243 @@ Kural gereği bu meşru — ve `kaynak:` alanında **açıkça** yazıldı.
 - Otranto'nun 11 aylık dönemde sancak yapılıp yapılmadığı **bulunamadı.**
 - `tur:"bolge"` 5 kaydın kademe alması gerekip gerekmediğine **karar
   vermedim** — koordinatöre soru olarak bıraktım.
+
+---
+
+# BÖLÜM III — DÜZELTME: 35 → 38, ve kusur BENDEYDİ
+
+Bölüm II'de *"45 ↔ 40 farkının kaynağını **ölçmedim**"* diye yazmıştım.
+Ölçtüm — **ve kendi çıkarımım çürüdü.**
+
+## 13. Yanlış çıkarım
+
+Bölüm I'de şöyle yazmıştım:
+> *"③ TERS ÇELİŞKİ: Osmanlı olmuş ama k0 kalmış = 40 (sen 45 demiştin;
+> farkı **`kasitli_bosluk` ayırınca** 40 çıkıyor)"*
+
+**Ölçüm:**
+```
+k0 + Osmanlı, süzgeçsiz              45
+  − kasitli_bosluk                   45   ← HİÇ ELEMEDİ
+  − kasitli_bosluk VE bos            40
+```
+⇒ Farkı yapan `kasitli_bosluk` **değil**, `bos:` alanı. Sayı (40) doğruydu,
+**sebebi yanlış söyledim.** `§11`: *"ölçtüğüm şu, çıkardığım şu"* — ben
+ikisini tek cümlede birleştirmiştim ve çıkarım, ölçümün güvenilirliğini
+ödünç almıştı.
+
+## 14. 🔴 Ve yanlış çıkarımın ARDINDA GERÇEK BİR KAYIP VARDI
+
+Elenen 5 kaydın hepsi `bos:"devletsiz"` · `neden:"1744 öncesi Necid'de
+merkezî devlet denetimi yoktu"` · ve hepsinin **tek bir `v:` dönemi var:**
+`1818-09-09 → 1824-06-01`, `k:"Mısır (İbrâhim Paşa)"`.
+
+```
+Nefud çölü        tur:"bolge"   → elenmesi DOĞRU
+Necid içi         tur:"bolge"   → elenmesi DOĞRU
+Buraydâ (Kasîm)   tur:"sehir"   → 🔴 GERÇEK KASABA, elenmesi YANLIŞ
+Uneyze            tur:"sehir"   → 🔴 GERÇEK KASABA
+Şakrâ             tur:"sehir"   → 🔴 GERÇEK KASABA
+```
+Süzgecim `bos:` taşıyan **her** kaydı "yerleşim değil" saydı. Oysa `bos:`
+o noktanın **bir dönem sahipsiz olduğunu** söylüyor, **kasaba olmadığını
+değil.** ⇒ *"Ölçüm doğru, evren dar"* — bu turda **kendi aletimde.**
+
+## 15. Çare: üreteç artık EVRENİ de sınıyor
+
+Sayıyı düzeltmek yetmezdi; aynı hata bir daha olabilirdi. Üretece bir
+kapsama sınavı kondu:
+```
+EVREN: k0+Osmanlı 45 = bolge 7 + tabloda 38 + KAPSANMAYAN 0
+```
+Kapsanmayan bir kayıt kalırsa **adıyla basılıyor**, ayrıca `BOLGE_DISI`
+listesindeki her ad gerçekten `tur:"bolge"` mi diye denetleniyor.
+📌 `§11`in *"bir denetimin KAPSAMI, doğruluğundan ayrı ölçülür"* kuralı.
+
+## 16. Eklenen üç kayıt
+
+| yerleşim | k | m | dayanak |
+|---|---|---|---|
+| Buraydâ (Kasîm) | 4 | Medine | TDV necid + medine |
+| Uneyze | 4 | Medine | aynı |
+| Şakrâ | 4 | Medine | aynı |
+
+**Kaynak zinciri:**
+```
+TDV necid   "Necd-i Hicâzî Kasîm, Cebelişemmer, Veşm, Mahmel ve Südeyr..."
+            ⇒ Kasîm ve Veşm adlı alt bölgeler VAR; TDV bu KASABALARA
+              kademe VERMİYOR
+TDV medine  "İbrâhim Paşa'yı Medine'ye ve Kuzey Arabistan taraflarına
+             gönderdi" · "Dir'iye'yi ele geçirdiğinde (Eylül 1818) önde
+             gelen Vehhâbî liderleri Medine'de teşhir edildi"
+            ⇒ seferin idarî çıpası MEDİNE
+```
+⚠️ **Riyad kasten seçilmedi:** k1 ve daha yakın (155-326 km), ama TDV riyad
+*"Abdullah **1824'te** aldığı ... Riyad'ı idare merkezi yaptı"* diyor — yani
+Riyad merkez olduğunda bu dönem **bitiyor.** Çağdaş çıpa Medine'dir.
+📌 `§3.5`in *hayalet devlet* dersinin merkez tarafı: bir merkezi, **merkez
+olmadığı tarihte** çıpa yapmak aynı hatadır.
+
+**Slug sınavı:** `burayda` · `kasim` · `kasim--bolge` · `uneyze` · `unayza` ·
+`sakra` · `diriyye` → **hepsi 302, ÖLÜ.** Canlı: `necid` · `riyad` ·
+`medine` · `diriye`.
+
+## 17. Güncel teslim
+
+```
+data/yer_yama_kademe.js → window.YER_YAMA_KADEME
+38 kayıt · k2=3 · k3=5 · k4=30
+güven: KESİN 2 · GEREKÇELİ 26 · HÜKÜM 10
+sınav: 38/38 geçti · 0 red · KAPSANMAYAN 0
+node ile ayrıştırıldı: 38 kayıt, tek ad alanı
+```
+Tavan sınavı üç yeni kayıtta da gevşek (yarıçap 15 · 15 · 41 km ≪ 280)
+⇒ **45/45 · harita boyaması değişmiyor** hükmü ayakta.
+
+---
+
+# BÖLÜM IV — KALEM ②: 1140 yabancı `k0`
+
+Emre'nin kararı üzerine (*"k0 bırakmayacak şekilde ve Osmanlı'ya öncelik
+vererek sıra ile bitir"*). **Teslim: `data/yer_yama_kademe2.js` →
+`window.YER_YAMA_KADEME2`, 1091 kayıt.**
+
+## 18. 🔴 ÖNCE TABAN YENİDEN ÖLÇÜLDÜ — VE KAYMIŞTI
+
+Koşu bitti, `data/*.js` serbest kaldı. `§11`: *"bir dosya bağlandığı gün,
+o veriye bakan BÜTÜN ölçüm aletlerinin tabanı yeniden doğrulanır."*
+```
+                   ölçüm (17:19)   ölçüm (17:55)
+kasitli_bosluk           197            178      −19
+kalem ② evreni          1126           1140      +14
+girdi dosyası             53             55       +2
+```
+⇒ Şartnameye yazdığım **1126 bayatlamıştı.** Doğru sayı **1140**.
+🟢 Ve kalem ①'in 38 kaydı denetlendi: **kayıp 0 · artık k0 olmayan 0** —
+yama hâlâ geçerli.
+
+## 19. ÖLÇÜT — ve niçin `k2` HİÇ KULLANILMADI
+
+Emre üç şart koydu: *kaynaklı olsun · uydurma, emin değilsen k3 · zaman
+boyutunu not et.* Ölçüt buna göre kuruldu:
+
+| kademe | ölçüt | sayı | dayanak |
+|---|---|---|---|
+| **k1** | künyenin `baskent` alanı noktayı **adıyla** gösteriyor, ya da `kd:`te `k:1` zaten beyan edilmiş | **58** | `data/devletler.js` |
+| **k4** | `tur:"kale"` ve başkent değil | **129** | veri alanı |
+| **k3** | öteki hepsi | **904** | *"emin değilsen k3"* |
+| — | `tur:"bolge"` | 49 | **dokunulmadı** |
+
+🔴 **`k2` kasten kullanılmadı.** *"Eyalet/bölge merkezi"* için veride
+**kaynaklı bir işaret yok**; uydurmak yerine k3 yazıldı. Emre'nin kendi
+kuralı: *"az vermek çok vermekten iyi."*
+
+🟢 **Ve ölçütün en değerli yanı: `baskent` alanı ZATEN VARDI.** 431 künyenin
+430'unda dolu. Yeni bir alan icat etmeye, yeni bir kaynak taramasına gerek
+kalmadı — `§11`in *"bir alan tasarlamadan önce var olup olmadığını ölç"*
+kuralı bu sefer **ilk hamlede** uygulandı.
+
+## 20. 🟢 HARİTA ETKİSİ — EMRE'NİN BEKLEDİĞİNDEN KÜÇÜK
+
+Emre *"varsın bazı şehirlere kademe puanı verilince 200 km veya 400 km'ye
+çıksın, önemli değil"* dedi — yani genişlemeyi **göze aldı.** Ölçüm şunu
+söylüyor:
+
+```
+k3 = 280 km = k0'ın BUGÜNKÜ tavanı  ⇒ 904 kayıtta GEOMETRİK OLARAK
+                                       HİÇBİR ŞEY DEĞİŞMEZ
+k1 = 700 km · 58 nokta              ⇒ tavan HİÇBİRİNDE bağlamıyor
+                                       (hepsi yoğun bölgede)  DEĞİŞEN: 0
+k4 = 140 km · 129 nokta             ⇒ DEĞİŞEN: 4, ve dördü de KÜÇÜLÜYOR
+```
+**HÜCRESİ DEĞİŞEN TOPLAM: 4 / 1091**
+```
+Almatı (Vernıy)      en yakın 365 km ⇒ yarıçap 183 → 140
+Sokotra              345 → 172 → 140
+Yinchuan (Ningxia)   343 → 172 → 140
+Ket Ostrogu (Ketsk)  324 → 162 → 140
+```
+⇒ ***Hiçbir şey ÇIKMIYOR; yalnız dört kale KÜÇÜLÜYOR*** — ve küçülme,
+Emre'nin 200 km işinde istediği yönün ta kendisi.
+📌 Yani `k0`ı bertaraf etmek ile 200 km tavanı **çakışmıyormuş.** Bölüm
+I'de bildirdiğim çakışma **gerçekti** (k0→k2 yapılsaydı +%50 olacaktı) —
+ama **kaynaklı ölçüt k2 üretmediği için** çakışma doğmadı.
+
+## 21. ⚠️ KAÇIRMA ORANI — açıkça yazıyorum
+
+```
+künyelerdeki farklı başkent adı           455
+hiçbir noktayla eşleşmeyen                166   (%36)
+  bulanık arandı                           19
+    ELLE ONAYLANDI                          9
+    REDDEDİLDİ                             10
+  kalan gerçek kaçırma                    147
+```
+**Reddedilen 10'un 5'i BAŞKA ŞEHİRDİ** — bulanık eşleşmenin sessiz yanlış
+ürettiğinin canlı kanıtı:
+```
+erivan ≈ Merîvan          ras ≈ Krasnovodsk       sis ≈ Cēsis (Wenden)
+dhar ≈ Câlandhar          afyonkarahisar ≈ Hisar
+```
+Ötekiler: `addis ababa` (nokta yok) · `brunei bölgesi` (künye *"kesin merkez
+standart kaynakta belirtilmemiş"* diyor — **kaynak bilmediğini söylüyor,
+ben de yazmadım**) · üçü mükerrer.
+
+**Onaylanan 9:** Yeni Ürgenç · Ryazan · Johor · Samudra Pasai ·
+Kilwa Kisiwani · Çerkask (Razdory) · Tümen (Çimgi-Tura) · Edinburg ·
+Lüksemburg — dokuzu da künye kimliğiyle **teyit edildi.**
+
+📌 Kalan 147 kaçırma çoğunlukla ya noktası olmayan şehirler (Canberra ·
+Bogota · Austin) ya da Osmanlı kayıtları (kapsam dışı). **Ve kaçırmanın
+bedeli sıfır: kaçırılan başkent k3 kalır, k3 = k0 = 280 km.**
+
+## 22. 🟡 EMRE'NİN ÜÇÜNCÜ ŞARTI — ZAMAN ÇAKIŞMASI, AYRI LİSTE
+
+*"Cezayir/Budin/Kahire Osmanlı'da eyalet merkezi, öncesinde başkent.
+Çakışanları AYRI listele."* Ölçüldü — **ve çakışma bu kümede değil,
+OSMANLI kümesinde:**
+```
+kalem ② evreninde kd: kademesi zamanla değişen:  0
+bütün veride nokta-künye çakışması:            101 çift · 74 FARKLI NOKTA
+   🔴 ÖRTÜŞÜYOR                  49
+   ÖNCE başkent, SONRA Osmanlı   35
+   ÖNCE Osmanlı, SONRA başkent   17
+```
+**Emre'nin saydığı örnekler birebir çıktı:**
+```
+Cezayir  k2  cezayir-ocagi 1516-1830 ↔ osm 1519-1830        ÖRTÜŞÜYOR
+Bağdat   k2  celayirli 1340-1431     ↔ osm 1534-1917        ÖNCE başkent
+Belgrad  k2  sirp-despotlugu 1402-59 ↔ osm 1521-1878        ÖNCE başkent
+         k2  sirbistan-kralligi 1882 ↔ osm ...1878          SONRA başkent
+Atina    k2  atina-dukaligi 1205-1458 ↔ osm 1456-1833       ÖRTÜŞÜYOR
+Bükreş   k2  eflak 1330-1859          ↔ osm 1462-1878       ÖRTÜŞÜYOR
+```
+⇒ **74 noktanın `k:` alanı iki farklı gerçeği aynı anda söylemek zorunda.**
+Zamanlı karşılığı `kd:` ve o yalnız 190 kayıtta dolu. **Bu ayrı bir iştir,
+dokunmadım** — liste `scratchpad/k2_zaman.json`da, istenirse teslim ederim.
+
+## 23. 🔴 YAN BULGU — İSKOÇYA HİÇ BOYANMIYOR
+
+`Edinburg` doğrulanırken çıktı:
+```
+künye  iskocya   843-01-01 .. 1707-05-01   baskent: "Scone → Edinburgh"
+nokta  Edinburg  s: kimlikleri → YALNIZ `ingiltere`
+```
+⇒ İskoçya künyesi **864 yıl** yaşıyor ve haritada **hiç görünmüyor**;
+Edinburg 1707 öncesinde de İngiltere boyanıyor. `§3.5`teki *hayalet devlet*
+sınıfının **ters yüzü**: orada var olmayan devlet boyanıyordu, burada
+**var olan devlet hiç boyanmıyor.**
+⚠️ Kaç künyenin daha bu durumda olduğunu **ölçmedim** — bir kalem iş, ve
+`Değişmez 4`ün göremediği sınıf. İstenirse ölçerim.
+
+## 24. Bu bölümde ölçmediklerim
+
+- **k2 hiç atanmadı** — kaynaklı işaret yok. Bir *"büyük liman / bölge
+  merkezi"* ölçütü kurulabilir mi, **ölçmedim.**
+- 147 gerçek kaçırmanın kaçının atlasta noktası olduğu **tek tek
+  bakılmadı.**
+- 74 zaman çakışmasının **hiçbiri düzeltilmedi** — ayrı iş.
+- İskoçya gibi *"künyesi var, hiç boyanmayan"* devletlerin **sayısı
+  ölçülmedi.**
+- 904 `k3` kaydının hiçbiri için **ayrı kaynak okunmadı** — varsayılan
+  kademe olduğu `kaynak:` alanında **açıkça** yazıyor.

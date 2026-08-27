@@ -1,0 +1,810 @@
+[
+ {
+  "nokta": "Kahire",
+  "k": 2,
+  "devlet": "memluk",
+  "kunye": "1250-01-01..1517-04-13",
+  "osmanli": "1517-02-15..1914-12-18",
+  "tip": "🔴 ÖRTÜŞÜYOR"
+ },
+ {
+  "nokta": "Kahire",
+  "k": 2,
+  "devlet": "misir-kavalali",
+  "kunye": "1805-07-03..1914-12-18",
+  "osmanli": "1517-02-15..1914-12-18",
+  "tip": "🔴 ÖRTÜŞÜYOR"
+ },
+ {
+  "nokta": "Kahire",
+  "k": 2,
+  "devlet": "fransiz-misir-seferi",
+  "kunye": "1798-07-01..1801-10-02",
+  "osmanli": "1517-02-15..1914-12-18",
+  "tip": "🔴 ÖRTÜŞÜYOR"
+ },
+ {
+  "nokta": "Tebriz",
+  "k": 2,
+  "devlet": "safevi",
+  "kunye": "1501-07-01..1736-03-08",
+  "osmanli": "1514-09-06..1730-08-12",
+  "tip": "🔴 ÖRTÜŞÜYOR"
+ },
+ {
+  "nokta": "Tebriz",
+  "k": 2,
+  "devlet": "akkoyunlu",
+  "kunye": "1340-01-01..1514-01-01",
+  "osmanli": "1514-09-06..1730-08-12",
+  "tip": "ÖNCE başkent, SONRA Osmanlı"
+ },
+ {
+  "nokta": "Tebriz",
+  "k": 2,
+  "devlet": "celayirli",
+  "kunye": "1340-01-01..1431-01-01",
+  "osmanli": "1514-09-06..1730-08-12",
+  "tip": "ÖNCE başkent, SONRA Osmanlı"
+ },
+ {
+  "nokta": "Tebriz",
+  "k": 2,
+  "devlet": "karakoyunlu",
+  "kunye": "1351-01-01..1469-01-01",
+  "osmanli": "1514-09-06..1730-08-12",
+  "tip": "ÖNCE başkent, SONRA Osmanlı"
+ },
+ {
+  "nokta": "Tebriz",
+  "k": 2,
+  "devlet": "ilhanli",
+  "kunye": "1256-01-01..1353-01-01",
+  "osmanli": "1514-09-06..1730-08-12",
+  "tip": "ÖNCE başkent, SONRA Osmanlı"
+ },
+ {
+  "nokta": "Bahçesaray",
+  "k": 2,
+  "devlet": "kirim",
+  "kunye": "1441-01-01..1783-04-19",
+  "osmanli": "1475-06-06..1771-07-01",
+  "tip": "🔴 ÖRTÜŞÜYOR"
+ },
+ {
+  "nokta": "Ermenek",
+  "k": 4,
+  "devlet": "karaman",
+  "kunye": "1256-01-01..1487-01-01",
+  "osmanli": "1397-07-01..1923-10-29",
+  "tip": "🔴 ÖRTÜŞÜYOR"
+ },
+ {
+  "nokta": "Konya",
+  "k": 2,
+  "devlet": "karaman",
+  "kunye": "1256-01-01..1487-01-01",
+  "osmanli": "1397-07-01..1923-10-29",
+  "tip": "🔴 ÖRTÜŞÜYOR"
+ },
+ {
+  "nokta": "Konya",
+  "k": 2,
+  "devlet": "selcuklu",
+  "kunye": "1075-01-01..1308-01-01",
+  "osmanli": "1397-07-01..1923-10-29",
+  "tip": "ÖNCE başkent, SONRA Osmanlı"
+ },
+ {
+  "nokta": "Kütahya",
+  "k": 2,
+  "devlet": "germiyan",
+  "kunye": "1300-01-01..1429-01-01",
+  "osmanli": "1381-01-01..1923-10-29",
+  "tip": "🔴 ÖRTÜŞÜYOR"
+ },
+ {
+  "nokta": "Birgi",
+  "k": 4,
+  "devlet": "aydin",
+  "kunye": "1308-01-01..1425-06-01",
+  "osmanli": "1390-01-01..1923-10-29",
+  "tip": "🔴 ÖRTÜŞÜYOR"
+ },
+ {
+  "nokta": "İzmir",
+  "k": 2,
+  "devlet": "aydin",
+  "kunye": "1308-01-01..1425-06-01",
+  "osmanli": "1415-06-01..1923-10-29",
+  "tip": "🔴 ÖRTÜŞÜYOR"
+ },
+ {
+  "nokta": "Tire",
+  "k": 4,
+  "devlet": "aydin",
+  "kunye": "1308-01-01..1425-06-01",
+  "osmanli": "1390-01-01..1923-10-29",
+  "tip": "🔴 ÖRTÜŞÜYOR"
+ },
+ {
+  "nokta": "Ayasuluk (Selçuk)",
+  "k": 4,
+  "devlet": "aydin",
+  "kunye": "1308-01-01..1425-06-01",
+  "osmanli": "1390-01-01..1923-10-29",
+  "tip": "🔴 ÖRTÜŞÜYOR"
+ },
+ {
+  "nokta": "Manisa",
+  "k": 3,
+  "devlet": "saruhan",
+  "kunye": "1313-01-01..1416-09-01",
+  "osmanli": "1390-01-01..1923-10-29",
+  "tip": "🔴 ÖRTÜŞÜYOR"
+ },
+ {
+  "nokta": "Milas",
+  "k": 4,
+  "devlet": "mentese",
+  "kunye": "1280-01-01..1424-01-01",
+  "osmanli": "1390-01-01..1923-10-29",
+  "tip": "🔴 ÖRTÜŞÜYOR"
+ },
+ {
+  "nokta": "Uluborlu",
+  "k": 4,
+  "devlet": "hamid",
+  "kunye": "1297-01-01..1391-01-01",
+  "osmanli": "1391-01-01..1923-10-29",
+  "tip": "ÖNCE başkent, SONRA Osmanlı"
+ },
+ {
+  "nokta": "Eğirdir",
+  "k": 4,
+  "devlet": "hamid",
+  "kunye": "1297-01-01..1391-01-01",
+  "osmanli": "1391-01-01..1923-10-29",
+  "tip": "ÖNCE başkent, SONRA Osmanlı"
+ },
+ {
+  "nokta": "Isparta",
+  "k": 3,
+  "devlet": "hamid",
+  "kunye": "1297-01-01..1391-01-01",
+  "osmanli": "1391-01-01..1923-10-29",
+  "tip": "ÖNCE başkent, SONRA Osmanlı"
+ },
+ {
+  "nokta": "Eflani",
+  "k": 4,
+  "devlet": "candar",
+  "kunye": "1309-01-01..1461-01-01",
+  "osmanli": "1392-11-01..1923-10-29",
+  "tip": "🔴 ÖRTÜŞÜYOR"
+ },
+ {
+  "nokta": "Kastamonu",
+  "k": 3,
+  "devlet": "candar",
+  "kunye": "1309-01-01..1461-01-01",
+  "osmanli": "1392-11-01..1923-10-29",
+  "tip": "🔴 ÖRTÜŞÜYOR"
+ },
+ {
+  "nokta": "Kastamonu",
+  "k": 3,
+  "devlet": "cobanogullari",
+  "kunye": "1211-01-01..1309-01-01",
+  "osmanli": "1392-11-01..1923-10-29",
+  "tip": "ÖNCE başkent, SONRA Osmanlı"
+ },
+ {
+  "nokta": "Sinop",
+  "k": 3,
+  "devlet": "candar",
+  "kunye": "1309-01-01..1461-01-01",
+  "osmanli": "1461-06-01..1923-10-29",
+  "tip": "ÖNCE başkent, SONRA Osmanlı"
+ },
+ {
+  "nokta": "Sinop",
+  "k": 3,
+  "devlet": "pervane",
+  "kunye": "1277-01-01..1322-01-01",
+  "osmanli": "1461-06-01..1923-10-29",
+  "tip": "ÖNCE başkent, SONRA Osmanlı"
+ },
+ {
+  "nokta": "Elbistan",
+  "k": 4,
+  "devlet": "dulkadir",
+  "kunye": "1337-01-01..1522-01-01",
+  "osmanli": "1515-06-13..1923-10-29",
+  "tip": "🔴 ÖRTÜŞÜYOR"
+ },
+ {
+  "nokta": "Maraş",
+  "k": 2,
+  "devlet": "dulkadir",
+  "kunye": "1337-01-01..1522-01-01",
+  "osmanli": "1515-06-13..1923-10-29",
+  "tip": "🔴 ÖRTÜŞÜYOR"
+ },
+ {
+  "nokta": "Adana",
+  "k": 2,
+  "devlet": "ramazanoglu",
+  "kunye": "1352-01-01..1608-01-01",
+  "osmanli": "1516-08-24..1923-10-29",
+  "tip": "🔴 ÖRTÜŞÜYOR"
+ },
+ {
+  "nokta": "Biga",
+  "k": 4,
+  "devlet": "karesi",
+  "kunye": "1297-01-01..1345-01-01",
+  "osmanli": "1345-01-01..1923-10-29",
+  "tip": "ÖNCE başkent, SONRA Osmanlı"
+ },
+ {
+  "nokta": "Edremit",
+  "k": 4,
+  "devlet": "karesi",
+  "kunye": "1297-01-01..1345-01-01",
+  "osmanli": "1345-01-01..1923-10-29",
+  "tip": "ÖNCE başkent, SONRA Osmanlı"
+ },
+ {
+  "nokta": "Bağdat",
+  "k": 2,
+  "devlet": "celayirli",
+  "kunye": "1340-01-01..1431-01-01",
+  "osmanli": "1534-12-04..1917-03-11",
+  "tip": "ÖNCE başkent, SONRA Osmanlı"
+ },
+ {
+  "nokta": "Serez",
+  "k": 3,
+  "devlet": "sirbistan-nemanjic",
+  "kunye": "1217-01-01..1402-01-01",
+  "osmanli": "1383-09-19..1913-06-28",
+  "tip": "🔴 ÖRTÜŞÜYOR"
+ },
+ {
+  "nokta": "Belgrad",
+  "k": 2,
+  "devlet": "sirp-despotlugu",
+  "kunye": "1402-01-01..1459-06-20",
+  "osmanli": "1521-08-29..1878-07-13",
+  "tip": "ÖNCE başkent, SONRA Osmanlı"
+ },
+ {
+  "nokta": "Belgrad",
+  "k": 2,
+  "devlet": "sirbistan-prensligi",
+  "kunye": "1804-02-14..1882-03-06",
+  "osmanli": "1521-08-29..1878-07-13",
+  "tip": "🔴 ÖRTÜŞÜYOR"
+ },
+ {
+  "nokta": "Belgrad",
+  "k": 2,
+  "devlet": "sirbistan-kralligi",
+  "kunye": "1882-03-06..1918-12-01",
+  "osmanli": "1521-08-29..1878-07-13",
+  "tip": "ÖNCE Osmanlı, SONRA başkent"
+ },
+ {
+  "nokta": "Belgrad",
+  "k": 2,
+  "devlet": "yugoslavya",
+  "kunye": "1918-12-01..1923-10-29",
+  "osmanli": "1521-08-29..1878-07-13",
+  "tip": "ÖNCE Osmanlı, SONRA başkent"
+ },
+ {
+  "nokta": "Tırnova",
+  "k": 4,
+  "devlet": "bulgar-carligi",
+  "kunye": "1185-01-01..1396-01-01",
+  "osmanli": "1393-07-17..1908-10-05",
+  "tip": "🔴 ÖRTÜŞÜYOR"
+ },
+ {
+  "nokta": "Vidin",
+  "k": 3,
+  "devlet": "bulgar-carligi",
+  "kunye": "1185-01-01..1396-01-01",
+  "osmanli": "1396-10-01..1908-10-05",
+  "tip": "ÖNCE başkent, SONRA Osmanlı"
+ },
+ {
+  "nokta": "Bükreş",
+  "k": 2,
+  "devlet": "eflak",
+  "kunye": "1330-01-01..1859-01-24",
+  "osmanli": "1462-06-01..1878-07-13",
+  "tip": "🔴 ÖRTÜŞÜYOR"
+ },
+ {
+  "nokta": "Bükreş",
+  "k": 2,
+  "devlet": "romanya",
+  "kunye": "1859-01-24..1881-03-26",
+  "osmanli": "1462-06-01..1878-07-13",
+  "tip": "🔴 ÖRTÜŞÜYOR"
+ },
+ {
+  "nokta": "Bükreş",
+  "k": 2,
+  "devlet": "romanya-kralligi",
+  "kunye": "1881-03-26..1923-10-29",
+  "osmanli": "1462-06-01..1878-07-13",
+  "tip": "ÖNCE Osmanlı, SONRA başkent"
+ },
+ {
+  "nokta": "Atina",
+  "k": 2,
+  "devlet": "atina-dukaligi",
+  "kunye": "1205-01-01..1458-06-04",
+  "osmanli": "1456-06-04..1833-03-31",
+  "tip": "🔴 ÖRTÜŞÜYOR"
+ },
+ {
+  "nokta": "Atina",
+  "k": 2,
+  "devlet": "katalan",
+  "kunye": "1311-03-15..1388-01-01",
+  "osmanli": "1456-06-04..1833-03-31",
+  "tip": "ÖNCE başkent, SONRA Osmanlı"
+ },
+ {
+  "nokta": "Atina",
+  "k": 2,
+  "devlet": "yunanistan",
+  "kunye": "1821-03-25..1923-10-29",
+  "osmanli": "1456-06-04..1833-03-31",
+  "tip": "🔴 ÖRTÜŞÜYOR"
+ },
+ {
+  "nokta": "Rodos",
+  "k": 2,
+  "devlet": "rodos-sovalyeleri",
+  "kunye": "1310-01-01..1798-06-12",
+  "osmanli": "1522-12-21..1912-05-04",
+  "tip": "🔴 ÖRTÜŞÜYOR"
+ },
+ {
+  "nokta": "Rodos",
+  "k": 2,
+  "devlet": "oniki-ada-italyan",
+  "kunye": "1912-05-04..1923-10-29",
+  "osmanli": "1522-12-21..1912-05-04",
+  "tip": "ÖNCE Osmanlı, SONRA başkent"
+ },
+ {
+  "nokta": "Lefkoşa",
+  "k": 2,
+  "devlet": "kibris-krallik",
+  "kunye": "1192-01-01..1489-02-26",
+  "osmanli": "1570-09-09..1878-06-04",
+  "tip": "ÖNCE başkent, SONRA Osmanlı"
+ },
+ {
+  "nokta": "Lefkoşa",
+  "k": 2,
+  "devlet": "kibris-ingiliz",
+  "kunye": "1878-06-04..1914-11-05",
+  "osmanli": "1570-09-09..1878-06-04",
+  "tip": "ÖNCE Osmanlı, SONRA başkent"
+ },
+ {
+  "nokta": "Tiflis",
+  "k": 2,
+  "devlet": "gurcistan",
+  "kunye": "1008-01-01..1801-09-12",
+  "osmanli": "1578-08-09..1735-06-19",
+  "tip": "🔴 ÖRTÜŞÜYOR"
+ },
+ {
+  "nokta": "Tiflis",
+  "k": 2,
+  "devlet": "gurcistan-demokratik-cumhuriyeti",
+  "kunye": "1918-05-26..1921-03-16",
+  "osmanli": "1578-08-09..1735-06-19",
+  "tip": "ÖNCE Osmanlı, SONRA başkent"
+ },
+ {
+  "nokta": "Bakü",
+  "k": 3,
+  "devlet": "azerbaycan-demokratik-cumhuriyeti",
+  "kunye": "1918-05-28..1920-04-27",
+  "osmanli": "1583-08-01..1607-01-01",
+  "tip": "ÖNCE Osmanlı, SONRA başkent"
+ },
+ {
+  "nokta": "Şamahı",
+  "k": 2,
+  "devlet": "sirvansah",
+  "kunye": "861-01-01..1538-01-01",
+  "osmanli": "1578-11-01..1735-06-19",
+  "tip": "ÖNCE başkent, SONRA Osmanlı"
+ },
+ {
+  "nokta": "Dir'iye (Necid)",
+  "k": 3,
+  "devlet": "suud-birinci",
+  "kunye": "1744-01-01..1818-09-09",
+  "osmanli": "1818-09-09..1824-06-01",
+  "tip": "ÖNCE başkent, SONRA Osmanlı"
+ },
+ {
+  "nokta": "Cezayir",
+  "k": 2,
+  "devlet": "cezayir-ocagi",
+  "kunye": "1516-01-01..1830-07-05",
+  "osmanli": "1519-09-01..1830-07-05",
+  "tip": "🔴 ÖRTÜŞÜYOR"
+ },
+ {
+  "nokta": "Cezayir",
+  "k": 2,
+  "devlet": "cezayir-fransiz",
+  "kunye": "1830-07-05..1923-10-29",
+  "osmanli": "1519-09-01..1830-07-05",
+  "tip": "ÖNCE Osmanlı, SONRA başkent"
+ },
+ {
+  "nokta": "Tunus",
+  "k": 2,
+  "devlet": "tunus-ocagi",
+  "kunye": "1574-01-01..1881-05-12",
+  "osmanli": "1534-09-22..1881-05-12",
+  "tip": "🔴 ÖRTÜŞÜYOR"
+ },
+ {
+  "nokta": "Tunus",
+  "k": 2,
+  "devlet": "hafsi",
+  "kunye": "1229-01-01..1574-09-13",
+  "osmanli": "1534-09-22..1881-05-12",
+  "tip": "🔴 ÖRTÜŞÜYOR"
+ },
+ {
+  "nokta": "Trablus",
+  "k": 2,
+  "devlet": "trablusgarp-ocagi",
+  "kunye": "1551-01-01..1911-10-09",
+  "osmanli": "1551-08-15..1912-10-15",
+  "tip": "🔴 ÖRTÜŞÜYOR"
+ },
+ {
+  "nokta": "Cetinje",
+  "k": 4,
+  "devlet": "karadag",
+  "kunye": "1516-01-01..1918-11-26",
+  "osmanli": "1482-01-01..1697-01-01",
+  "tip": "🔴 ÖRTÜŞÜYOR"
+ },
+ {
+  "nokta": "Sofya",
+  "k": 2,
+  "devlet": "bulgaristan-prensligi",
+  "kunye": "1878-07-13..1908-10-05",
+  "osmanli": "1385-09-01..1908-10-05",
+  "tip": "🔴 ÖRTÜŞÜYOR"
+ },
+ {
+  "nokta": "Sofya",
+  "k": 2,
+  "devlet": "bulgaristan-kralligi",
+  "kunye": "1908-10-05..1923-10-29",
+  "osmanli": "1385-09-01..1908-10-05",
+  "tip": "ÖNCE Osmanlı, SONRA başkent"
+ },
+ {
+  "nokta": "Saraybosna",
+  "k": 2,
+  "devlet": "bosna-isgal",
+  "kunye": "1878-07-13..1908-10-06",
+  "osmanli": "1448-01-01..1908-10-05",
+  "tip": "🔴 ÖRTÜŞÜYOR"
+ },
+ {
+  "nokta": "Kandiye (Girit)",
+  "k": 2,
+  "devlet": "girit-devleti",
+  "kunye": "1898-12-22..1913-05-30",
+  "osmanli": "1669-09-27..1898-12-01",
+  "tip": "ÖNCE Osmanlı, SONRA başkent"
+ },
+ {
+  "nokta": "Hanya",
+  "k": 3,
+  "devlet": "girit-devleti",
+  "kunye": "1898-12-22..1913-05-30",
+  "osmanli": "1645-08-22..1898-12-01",
+  "tip": "ÖNCE Osmanlı, SONRA başkent"
+ },
+ {
+  "nokta": "Muaskar",
+  "k": 4,
+  "devlet": "abdulkadir",
+  "kunye": "1832-11-22..1847-12-23",
+  "osmanli": "1552-01-01..1832-11-22",
+  "tip": "ÖNCE Osmanlı, SONRA başkent"
+ },
+ {
+  "nokta": "Filibe",
+  "k": 3,
+  "devlet": "sarki-rumeli",
+  "kunye": "1878-07-13..1885-09-18",
+  "osmanli": "1372-06-01..1885-09-18",
+  "tip": "🔴 ÖRTÜŞÜYOR"
+ },
+ {
+  "nokta": "Riyad",
+  "k": 1,
+  "devlet": "suud-ikinci",
+  "kunye": "1824-06-01..1891-01-24",
+  "osmanli": "1818-09-09..1824-06-01",
+  "tip": "ÖNCE Osmanlı, SONRA başkent"
+ },
+ {
+  "nokta": "Riyad",
+  "k": 1,
+  "devlet": "suud-ucuncu",
+  "kunye": "1902-01-15..1923-10-29",
+  "osmanli": "1818-09-09..1824-06-01",
+  "tip": "ÖNCE Osmanlı, SONRA başkent"
+ },
+ {
+  "nokta": "Mekke",
+  "k": 2,
+  "devlet": "hicaz-kralligi",
+  "kunye": "1916-06-10..1923-10-29",
+  "osmanli": "1517-07-06..1916-06-10",
+  "tip": "ÖNCE Osmanlı, SONRA başkent"
+ },
+ {
+  "nokta": "Sennar",
+  "k": 3,
+  "devlet": "funj",
+  "kunye": "1504-01-01..1821-06-14",
+  "osmanli": "1821-06-14..1885-01-26",
+  "tip": "ÖNCE başkent, SONRA Osmanlı"
+ },
+ {
+  "nokta": "El-Fâşir",
+  "k": 1,
+  "devlet": "darfur",
+  "kunye": "1695-01-01..1916-11-06",
+  "osmanli": "1874-11-02..1883-12-23",
+  "tip": "🔴 ÖRTÜŞÜYOR"
+ },
+ {
+  "nokta": "Zeyla",
+  "k": 3,
+  "devlet": "adal",
+  "kunye": "1415-01-01..1887-01-06",
+  "osmanli": "1559-01-01..1884-01-01",
+  "tip": "🔴 ÖRTÜŞÜYOR"
+ },
+ {
+  "nokta": "İznik",
+  "k": 3,
+  "devlet": "selcuklu",
+  "kunye": "1075-01-01..1308-01-01",
+  "osmanli": "1331-03-02..1923-10-29",
+  "tip": "ÖNCE başkent, SONRA Osmanlı"
+ },
+ {
+  "nokta": "Merâga",
+  "k": 2,
+  "devlet": "ilhanli",
+  "kunye": "1256-01-01..1353-01-01",
+  "osmanli": "1585-09-25..1730-08-12",
+  "tip": "ÖNCE başkent, SONRA Osmanlı"
+ },
+ {
+  "nokta": "Sivas",
+  "k": 2,
+  "devlet": "eretna",
+  "kunye": "1335-01-01..1381-01-01",
+  "osmanli": "1398-07-15..1923-10-29",
+  "tip": "ÖNCE başkent, SONRA Osmanlı"
+ },
+ {
+  "nokta": "Sivas",
+  "k": 2,
+  "devlet": "burhaneddin",
+  "kunye": "1381-01-01..1398-01-01",
+  "osmanli": "1398-07-15..1923-10-29",
+  "tip": "ÖNCE başkent, SONRA Osmanlı"
+ },
+ {
+  "nokta": "Kayseri",
+  "k": 3,
+  "devlet": "eretna",
+  "kunye": "1335-01-01..1381-01-01",
+  "osmanli": "1398-07-15..1923-10-29",
+  "tip": "ÖNCE başkent, SONRA Osmanlı"
+ },
+ {
+  "nokta": "Mardin",
+  "k": 3,
+  "devlet": "artuklu",
+  "kunye": "1102-01-01..1409-01-01",
+  "osmanli": "1517-05-01..1923-10-29",
+  "tip": "ÖNCE başkent, SONRA Osmanlı"
+ },
+ {
+  "nokta": "Harput (Elazığ)",
+  "k": 4,
+  "devlet": "artuklu",
+  "kunye": "1102-01-01..1409-01-01",
+  "osmanli": "1516-05-01..1923-10-29",
+  "tip": "ÖNCE başkent, SONRA Osmanlı"
+ },
+ {
+  "nokta": "Ankara",
+  "k": 2,
+  "devlet": "ahiler",
+  "kunye": "1290-01-01..1354-01-01",
+  "osmanli": "1354-08-01..1923-10-29",
+  "tip": "ÖNCE başkent, SONRA Osmanlı"
+ },
+ {
+  "nokta": "Ankara",
+  "k": 2,
+  "devlet": "tbmm-turkiye",
+  "kunye": "1920-04-23..1923-10-29",
+  "osmanli": "1354-08-01..1923-10-29",
+  "tip": "🔴 ÖRTÜŞÜYOR"
+ },
+ {
+  "nokta": "Beyşehir",
+  "k": 4,
+  "devlet": "esrefogullari",
+  "kunye": "1277-01-01..1326-01-01",
+  "osmanli": "1381-06-01..1923-10-29",
+  "tip": "ÖNCE başkent, SONRA Osmanlı"
+ },
+ {
+  "nokta": "Denizli",
+  "k": 3,
+  "devlet": "inancogullari",
+  "kunye": "1261-01-01..1368-01-01",
+  "osmanli": "1390-01-01..1923-10-29",
+  "tip": "ÖNCE başkent, SONRA Osmanlı"
+ },
+ {
+  "nokta": "Niksar",
+  "k": 4,
+  "devlet": "taceddin",
+  "kunye": "1348-01-01..1427-01-01",
+  "osmanli": "1427-01-01..1923-10-29",
+  "tip": "ÖNCE başkent, SONRA Osmanlı"
+ },
+ {
+  "nokta": "Antalya",
+  "k": 2,
+  "devlet": "teke",
+  "kunye": "1321-01-01..1423-01-01",
+  "osmanli": "1392-01-01..1923-10-29",
+  "tip": "🔴 ÖRTÜŞÜYOR"
+ },
+ {
+  "nokta": "Ordu (Bayramlı)",
+  "k": 4,
+  "devlet": "haciemir",
+  "kunye": "1350-01-01..1427-06-01",
+  "osmanli": "1398-06-01..1923-10-29",
+  "tip": "🔴 ÖRTÜŞÜYOR"
+ },
+ {
+  "nokta": "Erzincan",
+  "k": 3,
+  "devlet": "mutahharten",
+  "kunye": "1379-01-01..1410-01-01",
+  "osmanli": "1401-02-01..1923-10-29",
+  "tip": "🔴 ÖRTÜŞÜYOR"
+ },
+ {
+  "nokta": "Edirne",
+  "k": 1,
+  "devlet": "fetret-suleyman",
+  "kunye": "1402-07-28..1411-02-17",
+  "osmanli": "1361-03-01..1923-10-29",
+  "tip": "🔴 ÖRTÜŞÜYOR"
+ },
+ {
+  "nokta": "Edirne",
+  "k": 1,
+  "devlet": "fetret-musa",
+  "kunye": "1411-02-17..1413-07-05",
+  "osmanli": "1361-03-01..1923-10-29",
+  "tip": "🔴 ÖRTÜŞÜYOR"
+ },
+ {
+  "nokta": "Bursa",
+  "k": 1,
+  "devlet": "fetret-isa",
+  "kunye": "1403-01-01..1403-09-01",
+  "osmanli": "1326-04-06..1923-10-29",
+  "tip": "🔴 ÖRTÜŞÜYOR"
+ },
+ {
+  "nokta": "Bursa",
+  "k": 1,
+  "devlet": "fetret-mehmed",
+  "kunye": "1402-07-28..1413-07-05",
+  "osmanli": "1326-04-06..1923-10-29",
+  "tip": "🔴 ÖRTÜŞÜYOR"
+ },
+ {
+  "nokta": "Amasya",
+  "k": 3,
+  "devlet": "fetret-mehmed",
+  "kunye": "1402-07-28..1413-07-05",
+  "osmanli": "1393-06-01..1923-10-29",
+  "tip": "🔴 ÖRTÜŞÜYOR"
+ },
+ {
+  "nokta": "Dubrovnik",
+  "k": 3,
+  "devlet": "dubrovnik",
+  "kunye": "700-01-01..1808-01-31",
+  "osmanli": "1459-03-07..1806-05-27",
+  "tip": "ÖNCE Osmanlı, SONRA başkent"
+ },
+ {
+  "nokta": "Trabzon",
+  "k": 2,
+  "devlet": "trabzon-rum",
+  "kunye": "1204-01-01..1461-08-15",
+  "osmanli": "1461-08-15..1923-10-29",
+  "tip": "ÖNCE başkent, SONRA Osmanlı"
+ },
+ {
+  "nokta": "Katîf",
+  "k": 3,
+  "devlet": "usfuri",
+  "kunye": "1281-01-01..1417-01-01",
+  "osmanli": "1550-01-01..1913-07-08",
+  "tip": "ÖNCE başkent, SONRA Osmanlı"
+ },
+ {
+  "nokta": "Lahsa",
+  "k": 3,
+  "devlet": "usfuri",
+  "kunye": "1281-01-01..1417-01-01",
+  "osmanli": "1550-01-01..1913-07-08",
+  "tip": "ÖNCE başkent, SONRA Osmanlı"
+ },
+ {
+  "nokta": "Ebha (Asir)",
+  "k": 3,
+  "devlet": "aiz",
+  "kunye": "1918-10-30..1920-01-01",
+  "osmanli": "1871-01-01..1918-10-30",
+  "tip": "ÖNCE Osmanlı, SONRA başkent"
+ },
+ {
+  "nokta": "Tilimsan",
+  "k": 3,
+  "devlet": "zeyyani",
+  "kunye": "1236-01-01..1554-01-01",
+  "osmanli": "1552-01-01..1830-07-05",
+  "tip": "🔴 ÖRTÜŞÜYOR"
+ },
+ {
+  "nokta": "Mankup",
+  "k": 3,
+  "devlet": "teodoro",
+  "kunye": "1349-01-01..1475-12-01",
+  "osmanli": "1475-06-06..1783-04-19",
+  "tip": "🔴 ÖRTÜŞÜYOR"
+ }
+]

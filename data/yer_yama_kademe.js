@@ -4,15 +4,22 @@
 // 🔴 BU DOSYA VERİ DEĞİL ÖNERİDİR. Motor bunu OKUMAZ; index.html'e EKLENMEZ.
 //    Uygulamayı koordinatör yapar.
 //
-// KAPSAM: Osmanlı olmuş (d: ya da v: taşıyan) ama hâlâ k:0 olan 40 kaydın
-// 35'i. Kalan 5'i tur:"bolge" (Boğaziçi · Cebel Merre · Kordofan · Saroz
-// kuzey kıyısı · Sina güneyi) — DOLGU noktası, yerleşim değil; idarî kademe
-// vermek KATEGORİ HATASI olurdu. Gerekçe: denetim/BULGU-KADEME-K0.md
+// KAPSAM: Osmanlı olmuş (d: ya da v: taşıyan) ama hâlâ k:0 olan 45 kaydın
+// 38'i. Kalan 7'si tur:"bolge" (Boğaziçi · Cebel Merre · Kordofan · Saroz
+// kuzey kıyısı · Sina güneyi · Nefud çölü · Necid içi) — DOLGU noktası,
+// yerleşim değil; idarî kademe vermek KATEGORİ HATASI olurdu.
+//
+// 🔴 İLK SÜRÜM 35 KAYITTI VE EVRENİ DARDI. Süzgecim `bos:` alanı taşıyan
+//    5 kaydı elemişti; ikisi gerçekten bolge, ÜÇÜ (Buraydâ · Uneyze · Şakrâ)
+//    tur:"sehir" — GERÇEK KASABA, İbrâhim Paşa işgali 1818-1824. Hatayı
+//    kendi "45 ↔ 40 farkı" ölçümüm ortaya çıkardı. Artık üreteç EVRENİ DE
+//    sınıyor: kapsanmayan kayıt varsa ADIYLA basıyor.
+// Gerekçe: denetim/BULGU-KADEME-K0.md
 //
 // ⚠️ HARİTA GARANTİSİ — ÖLÇÜLDÜ, VARSAYILMADI
-//   ① TAVAN: TAVAN_KM[k0]=280 km. 40 kaydın 40'ında en yakın komşuya
-//      uzaklığın YARISI < 280 (en tenha: Tîne 94 km) ⇒ tavan HİÇBİRİNDE
-//      bağlamıyor ⇒ kademe değişse de PETEK AYNI KALIR.
+//   ① TAVAN: TAVAN_KM[k0]=280 km. 45 kaydın 45'inde en yakın komşuya
+//      uzaklığın YARISI < 280 (en tenha: Tîne 94 km · Necid üçlüsü 15-41 km)
+//      ⇒ tavan HİÇBİRİNDE bağlamıyor ⇒ kademe değişse de PETEK AYNI KALIR.
 //   ② uret_petek.py:680 kendi yorumu: "Kademe uyarısının bedeli kozmetik
 //      (bölge sınırı çizilmiyor, TOPRAK BOYAMASI ETKİLENMİYOR)."
 //   ⇒ Bu yama devlet boyamasını DEĞİŞTİRMEZ. Değiştirdiği tek şey
@@ -77,6 +84,26 @@ window.YER_YAMA_KADEME = [
   "gerekce": "\"Bihaç ... 1865'te yeniden sancak merkezi haline getirildi.\" · \"1606'da yedi ... sancaktan oluşan Bosna eyaletinin bir parçasıydı.\"",
   "donem": [
    "1592-06-19..1908-10-05"
+  ]
+ },
+ {
+  "yerlesim": "Buraydâ (Kasîm)",
+  "tur": "sehir",
+  "mevcut": {
+   "k": 0,
+   "m": null
+  },
+  "oneri": {
+   "k": 4,
+   "m": "Medine"
+  },
+  "merkez_kapanis": "Medine",
+  "merkez_km": 486.5,
+  "guven": "GEREKCELI",
+  "kaynak": "TDV necid + TDV medine",
+  "gerekce": "TDV necid: \"Necd-i Hicâzî Kasîm, Cebelişemmer, Veşm, Mahmel ve Südeyr\" — Kasîm adlı alt bölge VAR, ama TDV Buraydâ'yı merkez diye ADIYLA yazmıyor. TDV medine: \"İbrâhim Paşa'yı Medine'ye ve Kuzey Arabistan taraflarına gönderdi\" ⇒ seferin idarî çıpası Medine. `burayda` ve `kasim` slugları ÖLÜ (ölçüldü).",
+  "donem": [
+   "1818-09-09..1824-06-01"
   ]
  },
  {
@@ -643,6 +670,26 @@ window.YER_YAMA_KADEME = [
   ]
  },
  {
+  "yerlesim": "Uneyze",
+  "tur": "sehir",
+  "mevcut": {
+   "k": 0,
+   "m": null
+  },
+  "oneri": {
+   "k": 4,
+   "m": "Medine"
+  },
+  "merkez_kapanis": "Medine",
+  "merkez_km": 475.9,
+  "guven": "GEREKCELI",
+  "kaynak": "TDV necid + TDV medine",
+  "gerekce": "Kasîm'in ikinci kasabası; aynı zincir. `uneyze` ve `unayza` slugları ÖLÜ.",
+  "donem": [
+   "1818-09-09..1824-06-01"
+  ]
+ },
+ {
   "yerlesim": "Ungvár (Uzhhorod)",
   "tur": "sehir",
   "mevcut": {
@@ -740,6 +787,26 @@ window.YER_YAMA_KADEME = [
   "gerekce": "\"Dârfûr'un Mısır tarafından zaptı ... 1874\" · \"1883'te mehdî hareketi başlamıştır.\" Dârfûr'un merkezi el-Fâşir. TDV bu KASABALARI adıyla saymıyor — §4 TANECİKLİK boşluğu.",
   "donem": [
    "1874-11-02..1883-12-23"
+  ]
+ },
+ {
+  "yerlesim": "Şakrâ",
+  "tur": "sehir",
+  "mevcut": {
+   "k": 0,
+   "m": null
+  },
+  "oneri": {
+   "k": 4,
+   "m": "Medine"
+  },
+  "merkez_kapanis": "Medine",
+  "merkez_km": 575.5,
+  "guven": "GEREKCELI",
+  "kaynak": "TDV necid + TDV medine",
+  "gerekce": "TDV necid alt bölge listesinde \"Veşm\" geçiyor; Şakrâ oradadır. Kademe verilmiyor. `sakra` slugu ÖLÜ.",
+  "donem": [
+   "1818-09-09..1824-06-01"
   ]
  }
 ];
