@@ -42877,5 +42877,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1325",
+  "zaman": "2026-08-27 04:03",
+  "kimden": "PAKET 0031-0032",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "Ikinci tur: 23/38 madde islendi. Timur/Fetret grubu (7 madde) ve Beylikler grubu (5 madde) tamam. Onemli bulgular: H-0012 cozuldu (82aa96e ile duzeltilmis) - H-0011,H-0013 zaten-dogru (ozellik zaten var) - H-0003/H-0008 sirada (Bagdat timurlu donemi eksik, TDV kaynakli hazir oneri var) - H-0010 tekrar->0031/H-0005 (Timurlu Restorasyonu Deseni, germiyan/saruhan oran %100 cakisma, motor kusuru) - H-0014 sirada, EN ONEMLISI: data/yerlesimler_kafkas_duzeltme.js adinda HAZIR AMA BAGLANMAMIS bir duzeltme yamasi var (21 Agustos, 19 kayit, TDV ile sinanmis), girdi.py'ye baglanmayi bekliyor (sirvansah renk eksikligi yuzunden). pkg32/H-0002 odak kismi senin-kararin (TDV'ye sadik konum ama cevresi Akkoyunlu boyali - kusur mu tasarim mi Emre karar versin). Kalan 15 madde 2 ajanla surüyor. Dosya: denetim/BULGU-PAKET-0031-0032.md",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
