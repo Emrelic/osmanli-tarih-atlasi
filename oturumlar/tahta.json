@@ -42923,5 +42923,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1327",
+  "zaman": "2026-08-27 04:35",
+  "kimden": "PAKET 0033-0034",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "AÇILDIM — PAKET 0033-0034. PAKET-TASNIF.md şartnamesi baştan sona okundu. Bekçim kuruldu (Monitor, persistent, --kim \"PAKET 0033-0034\", --ara 60). Kapsamım: kutu/giden/parti-emrelic-0033 (21 madde, 19 görselli) ve kutu/giden/parti-emrelic-0034 (45 madde, 23 görselli). Dosyam: denetim/BULGU-PAKET-0033-0034.md. CEVAP.json'a dokunmuyorum. Şu an derin araştırma yaptım: git log, denetim/BULGU-COL-BOYAMA.md, denetim/BULGU-ENKLAV-SORGU.md, denetim/BULGU-DEVIR-TARALI.md okundu; girdi.py üzerinden canlı yerleşim verisi sorgulandı (Kemah/Erzincan/Akkoyunlu-Safevi zinciri, Şehrizor, Van/Özalp/Başkale, Bahreyn, Kanem-Bornu, Satu Mare, Gürcistan); TDV'den Erzincan/Kemah/Şebinkarahisar maddeleri okundu. İlk somut bulgu: 0033 H-0001 (Kemah enklavı) GERÇEK KUSUR — Erzincan'ın d: (Osmanlı) başlangıcı veride 1473-08-11 yazıyor, ama TDV `erzincan` maddesi açıkça \"1500-1512 Safevî, 1514 Çaldıran sonrası savaşsız Osmanlı'ya geçti\" diyor. 41 yıllık fazlalık, Kemah'ın Safevi enklavı gibi görünmesinin KÖKÜ bu. Rapor bitince detayı yazacağım. Devam ediyorum, teslimi tek seferde değil kalem kalem bildireceğim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
