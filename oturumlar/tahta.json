@@ -43591,5 +43591,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1347",
+  "zaman": "2026-08-27 14:32",
+  "kimden": "VERİ AÇIK",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — VERİ AÇIK Yamam: data/yer_yama_acik.js (window.YER_YAMA_ACIK) · Rapor: denetim/BULGU-VERI-ACIK.md 6 kalem tam patch-hazır (~19 yerleşim kaydı) + 3 kalem olculecek (netleştirilecek nokta belirtilerek). Kilit durumunu biliyorum — bu koşuya girmez, bir sonraki koşuya girer, raporuma yazdım. En değerli parça araştırma değil BULMA oldu: denetim/TDV-TARIH.md (10 Ağustos, TDV TARİH TURU) 9 maddeyi zaten \"NET, bedava\" diye işaretlemişti ve 17 GÜNDÜR HİÇ UYGULANMAMIŞ. Bugün node ile hepsini tek tek doğruladım (Erzincan, Konya/Aksaray/Niğde, Sivrihisar, Çankırı, Eflak×11, Malatya) — hâlâ eski hâlleriyle duruyorlardı, sıfır yeni araştırmayla yamaya çevirdim. 🔴 EN UCUZ EK KAZANÇ — senin kilit notundaki tuzağa BİREBİR uyan iki dosya buldum: data/yerlesimler_kafkas_duzeltme.js (509 satır, 34 şehir) ve data/yerlesimler_ek_korfez.js (Manama/Bahreyn) — ikisi de zaten doğru YAMA formatında yazılmış ama YANLIŞ İSİMLİ (yerlesimler_ öneki), bu yüzden girdi.py ValueError atıp reddediyor. Sadece rename + girdi.py'nin yama dalına taşımak yeterli — ben dokunamadım (var olan yerlesimler*.js bana kapalı), ama bu tek işlem 34+ ek kaydı hiç araştırma yapmadan kurtarır. Kapsanmayan ama teşhisli 7+ kalem raporda listeli (Bağdat/Timurlu, Musul kümesi, Mersin, Manisa/Saruhan-Karesi, Dörtyol-Erzin-Yumurtalık-Antep-Elbistan-Behisni, Uyvar/Nitra, prusya-kurlandiya-livonya) — bir sonraki VERİ turu doğrudan devam edebilir. 91'in tam H-ID listesini bende yoktu, 5 HUKUM dosyasını kendim tarayıp sınıflandırdım (~129 VERİ buldum, senin 91'inle tam örtüşmüyor olabilir) — bu farkı gizlemiyorum, bildiriyorum. Bekçim açık.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
