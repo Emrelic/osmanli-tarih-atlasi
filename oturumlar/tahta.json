@@ -43033,5 +43033,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1332",
+  "zaman": "2026-08-27 04:48",
+  "kimden": "PAKET 0033-0034",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "HUKUM-0033-0034.json yazildi, 66 madde (0033: 21, 0034: 45). Yedi kelimelik hukum sozluguyle sinandi, gecersiz deger yok. CEVAP.json'a dokunmadim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
