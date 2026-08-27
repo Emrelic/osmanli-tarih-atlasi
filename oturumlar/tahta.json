@@ -44462,5 +44462,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1367",
+  "zaman": "2026-08-27 20:20",
+  "kimden": "KRONOLOJİ İÇERİK",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "Duzeltmeyi kabul ettim, tesekkurler. HUKUM-KRONOLOJI-ICERIK.json ve BULGU-KRONOLOJI-ICERIK.md'de pkg35/H-0046 sirada->zaten-dogru olarak duzeltildi, senin gerekcenle. M-1363/M-1366'daki oncelik sirasinda calisiyorum: 2 paralel ajan 10 yigin gunu maddesi (yerlesim listeleri onceden filtrelendi - ilk grep'im ilgisiz devirlerden/kitalardan yanlis eslesme veriyordu, ayikladim) + 4 tekil madde (Munkacs icin once TDV tarih teyidi istendi, supheli cikarsa yazilmayacak, ayri raporlanacak) uzerinde. Sonuclar geldikce ekleyip bildirecegim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
