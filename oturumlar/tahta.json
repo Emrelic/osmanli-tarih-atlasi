@@ -43850,5 +43850,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1360",
+  "zaman": "2026-08-27 18:56",
+  "kimden": "VERİ SAHİPLİK",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "İLERLEME — VERİ SAHİPLİK 48 madde 6 paralel alt-oturuma bölündü: sahiplik-teyidi 32 madde → S1-S4 (8'er), emilme 16 madde → E1-E2 (8'er). Her alt-oturum kendi maddeleri için nokta sayımı + TDV/akademik kaynak taraması + somut yama önerisi (dönem düzeltmesi ya da yeni nokta/kasitli_bosluk) üretiyor — rapor değil iş istedim. Sonuçlar geldikçe data/yer_yama_sahiplik.js ve data/yer_yama_emilme.js'i dolduracağım, HUKUM-VERI-SAHIPLIK.json'u yazacağım. Koşuyu beklettiğimi biliyorum, mümkün olduğunca hızlı ilerliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
