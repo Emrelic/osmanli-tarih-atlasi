@@ -1,0 +1,54 @@
+{
+ "parti-emrelic-0030": {
+  "H-0009": {
+   "hukum": "sirada",
+   "not": "ÖLÇÜLDÜ VE DOĞRULANDI — Emre haklı. Lalapaşa · Kofçaz · Vize · Dereköy (Kırklareli) dördü de 1361-01-01'de Osmanlı oluyor ve ±30 günde TEK madde var: 'Pençik Kanunu — Yeniçeri Ocağı'nın temelinin atılması' (Yeniçeri devşirmesi, Trakya fethi DEĞİL). 🔴 VE BU TEK VAKA DEĞİL, BİR SINIF: yuvarlak güne (MM-DD=01-01) 6+ yerleşim yığan 10 gün ölçüldü — 1390-01-01 (16 yerleşim, Ege) · 1552-01-01 (14, Cezayir) · 1557-01-01 (13, Kızıldeniz) · 1577-01-01 (12, Fizan) · 1361-01-01 (12, Trakya) · 1551-01-01 (10, Çıldır) · 1345-01-01 (9, Karesi) · 1468-01-01 (8, Karaman) · 1357-01-01 (7, Trakya) · 1534-01-01 (6, Kars). Toplam ~107 yerleşim. DEVİR: KRONOLOJİ İÇERİK — her yığın için gerçek fetih tarihleri ve ayrı maddeler gerekiyor. Kayıt yazmak bana kapalı."
+  },
+  "H-0004": {
+   "hukum": "sirada",
+   "not": "DEVRALDIĞIM NOTU DOĞRULAMADIM — ölçmedim. Not 'MOTOR EPOK'a sevk edildi, oturum ÖLÜ' diyor; bu bir sevk sorunu, ölçüm sorunu değil. Ordu'nun sivri sınırı bir MOTOR (topografya yaslama) kalemi ve benim dosyalarımın dışında. 0031/H-0009 (Mardin) ile aynı aile."
+  },
+  "H-0016": {
+   "hukum": "zaten-dogru",
+   "not": "ÖLÇTÜM VE KAPANDI — motor Tuna'ya YASLIYOR. veri-kaynak/ne_10m_rivers.geojson'da 1455 parçanın 2'si Tuna: name='Danube' ve name='Donau' (name_en='Danube', name_alt='Danube'), İKİSİNİN DE scalerank=2,0. Motorun iki kapısı var (uret_petek.py:512-556): ad beyaz listesi VE scalerank<=5,0 — Tuna İKİSİNDEN DE geçiyor, yani ad listesi olmasa bile girerdi. ⇒ Emre'nin 'Tuna nehrinin sınırları belirlemesi' isteği motorda KARŞILANIYOR. 📌 Yan bulgu: beyaz listedeki 'Tuna' yazımı HİÇBİR parçayla eşleşmiyor (Natural Earth 'Danube'/'Donau' diyor); zararsız ama ölü bir giriş. ⚠️ ÖLÇTÜĞÜM: veri + süzgeç mantığı. ÖLÇMEDİĞİM: çizilmiş haritada Tuna hattının gerçekten sınır oluşturduğu — o bir koşu çıktısı ister."
+  }
+ },
+ "parti-emrelic-0035": {
+  "H-0002": {
+   "hukum": "sirada",
+   "not": "🔴 GERÇEK KUSUR — ÖLÇÜLDÜ, Emre birebir haklı. Anabolu (Nauplion) 1686-08-30'da Osmanlı'dan çıkıyor; ±30 günde TEK madde var ve o da 'Budin'in kaybı — 145 yıllık Macar başkenti' (1686-09-02, 3 gün sonra, 1100 km ötede). Anabolu'nun ÖTEKİ dört kırılmasının HEPSİNİN kendi maddesi var (1540 devralma · 1715 fetih · 1822 kayıp) — yalnız 1686 kaybı maddesiz. DEVİR: KRONOLOJİ İÇERİK — Mora Savaşı'nda Anabolu'nun Venedik'e kaybı maddesi yazılmalı."
+  },
+  "H-0004": {
+   "hukum": "zaten-dogru",
+   "not": "ŞİKÂYET BAYAT — madde VAR ve TAM O GÜNDE. Knin'in iki kırılması da adıyla maddeli: 1522-05-29 'Knin'in fethi' · 1688-09-11 'Knin'in Venedik'e kaybı — 166 yıllık Dalmaçya sınır kalesi düştü'. Emre 'kronolojide maddesi yok' demişti; bugün var. CLAUDE.md'nin 'bir şikâyet, şikâyet edilen şeyden daha hızlı bayatlar' sınıfı."
+  },
+  "H-0005": {
+   "hukum": "sirada",
+   "not": "İKİ AYRI SORU, İKİ AYRI CEVAP. ① 'Niş ve Vidin öncekiler alınmadan mı elden çıkmış' → HAYIR, sıra DOĞRU ve hepsi maddeli: Belgrad 1688-09-06 → Semendire 1688-10-01 → Niş+Vidin 1689-09-24 ('Niş ve Vidin'in kaybı — en kritik yıl') → 1690-09-09 geri alınış ('Niş, Vidin ve Belgrad geri alındı'). ② 🔴 AMA GERÇEK BİR VERİ BOŞLUĞU VAR: Çaçak · Kragujevac · Yagodina'nın 1689-1690 Avusturya dönemi YOK — üçü de 1717'ye kadar kesintisiz Osmanlı. Yani 1689'da haritada Avusturya'nın elinde Niş/Vidin, arkasında Osmanlı Çaçak/Kragujevac görünüyor. Emre'nin gördüğü tuhaflık BU. DEVİR: VERİ SAHİPLİK — üç kayda 1689-09/1690-09 Avusturya dönemi."
+  },
+  "H-0013": {
+   "hukum": "sirada",
+   "not": "ÖLÇÜLDÜ — madde DOĞRU, EKSİK OLAN NOKTA. Azak'ın Prut dönüşü tam gününde ve maddesi Taygan'ı ADIYLA anıyor: 1711-07-21 'Prut Antlaşması — Azak ve Taygan'ın geri alınması'. 🔴 AMA TAYGAN'IN YERLEŞİM KAYDI YOK — madde onu anıyor, harita çizemiyor. Emre'nin 'haritada yanlışlık var mı' sorusunun cevabı: EVET, ama kronolojide değil VERİDE. DEVİR: VERİ SAHİPLİK / koordinatör — Taygan (Taganrog) noktası eklenmeli."
+  },
+  "H-0014": {
+   "hukum": "sirada",
+   "not": "ÖLÇÜLDÜ — iki ad da aranmadan hüküm verilemezdi. 'Lefkada' ve 'Çuha (Kithira)' adlarıyla YERLEŞİM KAYDI YOK. Lefkada'nın Osmanlı adı AYAMAVRA ve o kayıt VAR. 🔴 Ayamavra'nın 1815-11-05 kırılmasında (fransa-cumhuriyet bitti / ingiltere başladı) ±30 GÜNDE HİÇ MADDE YOK. Çuha (Kithira) için hiç kayıt olmadığından Emre'nin gördüğü ada ölçülemedi. DEVİR: önce VERİ (Çuha kaydı var mı, başka adla mı), sonra KRONOLOJİ İÇERİK (1815 kırılması)."
+  },
+  "H-0028": {
+   "hukum": "sirada",
+   "not": "🔴 GERÇEK KUSUR — ÖLÇÜLDÜ, Emre birebir haklı. Semendire 1738-08-01'de Osmanlı'ya dönüyor ve ±30 günde TEK madde var: 'Özi'nin geri alınışı ve Kırım'ın Rus istilâsından kurtarılması' — Özi (Oçakov) Semendire'den ~1000 km uzakta, konusu Kırım. Semendire'nin ÖNCEKİ kırılmalarının maddesi var (1439 · 1444 · 1459) ama 1688 kaybı, 1690 dönüşü, 1717 kaybı ve 1738 dönüşü DÖRDÜ DE alakasız maddelere denk geliyor. DEVİR: KRONOLOJİ İÇERİK — Semendire'nin 1738 geri alınışı ayrı madde."
+  },
+  "H-0071": {
+   "hukum": "sirada",
+   "not": "🔴 GERÇEK KUSUR — ÖLÇÜLDÜ, Emre birebir haklı. Munkács (Mukacheve) 1687-12-17'de Avusturya'ya geçiyor ve ±30 günde TEK madde 'Eğri'nin kaybı' — Eğri (Eger) ~250 km uzakta, ayrı bir kuşatma. ⚠️ VE İKİNCİ BİR ŞÜPHE: Munkács fiilen İlona Zrínyi idaresinde 1688 Ocak'ına kadar direndi; verideki 1687-12-17 tarihi Eğri'nin gününe EŞİTLENMİŞ olabilir. Emre zaten 'eğer doğru ise teyid edelim' demişti. DEVİR: KRONOLOJİ İÇERİK — hem ayrı madde, hem TDV'den tarih teyidi."
+  },
+  "H-0078": {
+   "hukum": "tekrar",
+   "not": "H-0028 İLE AYNI KUSUR — ölçüm bunu gösterdi. Emre 'Özi'nin geri alınması maddesinde Belgrad ele geçmiş görünüyor' dedi; ÖLÇÜM: Belgrad'ın geri alınışı 1738-08-01 DEĞİL, 1739-09-18 ('Belgrad Antlaşması — Belgrad, Semendire ve kuzey Sırbistan'ın geri alınışı', adıyla maddeli). Özi gününde (1738-08-01) dönen tek yer SEMENDİRE. ⇒ Emre'nin gördüğü enklav Belgrad değil Semendire; kusur H-0028'de kayıtlı. ② 'Çaçak/Kragujevac/Yagodina alınmadan Belgrad mı alındı' → HAYIR: dördü de AYNI GÜN 1739-09-18 ve madde onları 'kuzey Sırbistan' diye kapsıyor. Enklav YOK."
+  },
+  "H-0090": {
+   "hukum": "sirada",
+   "not": "İKİ SORU, BİRİ ZATEN DOĞRU. ① İsmail'in düşüşü maddeli ve tam gününde: 1790-12-22 'İsmail Kalesi'nin düşüşü ve katliamı'. ② 🔴 EMRE'NİN ASIL İSTEDİĞİ EKSİK: savaş ilanı, yığınak, Rusların Eflak-Boğdan'a girişi — bunların kronoloji maddesi YOK, ve Emre bunu TÜM savaş başlangıçları için istiyor ('tüm savaş başlangıçlarında varsa savaş ilanı yığınak hareket işgal'). Bu bir madde değil BİR SINIF iş. DEVİR: KRONOLOJİ İÇERİK (savaş ilanı maddeleri) + ARAYÜZ (hareket okları — tipoloji zaten var, commit 591a5c6)."
+  }
+ }
+}

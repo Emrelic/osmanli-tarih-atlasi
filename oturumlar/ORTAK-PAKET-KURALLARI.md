@@ -58,6 +58,40 @@ işçi oturumlar yakaladı.** Şartnamende bir sayı varsa **önce onu ölç.**
 Rapora *"ölçtüğüm şu"* ve *"bundan çıkardığım şu"* diye **iki ayrı satır**
 yaz. Tek satırda birleşince çıkarım, ölçümün güvenilirliğini ödünç alır.
 
+## 4.5 🔴 "KAYIT YOK" DEMEDEN ÖNCE — TEK DOĞRU ARAMA YOLU
+
+*(28 Ağustos 2026 — VERİ SAHİPLİK kendi hatasını buldu ve iki önerisini
+geri çekti; risk bütün oturumları bağlıyor.)*
+
+```bash
+py arac/_yer_ara.py Taganrog Yagodina "Çuha"
+py arac/_yer_ara.py --kutu 40.5 37.0 45.5 49.0 --gun 1590-03-21
+```
+
+🔴 **NİÇİN ALET — elle sorgunun İKİ ayrı yanlışı var:**
+```
+① data/yerlesimler.js YALNIZ `window.YERLESIMLER`i tanımlar (790 nokta).
+   Öteki 54 dosyanın HER BİRİ KENDİ değişkenini tanımlar
+   (YERLESIMLER_EK27 · YERLESIMLER_H2_RUSYA …). Yalnız birincisine bakan
+   sorgu verinin %70'İNİ GÖRMEZ  ⇒  YANLIŞ NEGATİF.
+   Ölçüldü: iki kayıt "yok" ilan edildi, ikisi de VARDI.
+
+② "bütün window.YERLESIMLER* değişkenlerini birleştir" de TAM DEĞİL:
+   2632 verir, gerçek 2606. Fark 26 — dosya VAR ama GİRDİYE BAĞLI DEĞİL
+   (ör. yerlesimler_kafkas_duzeltme.js: adı yanıltıcı, 19 kayıtlık bir
+   yama). Bağlı olmayanı saymak, olmayan veriyi VARMIŞ gibi göstermek.
+```
+⇒ **Tek otorite `girdi.GIRDI_DOSYALARI`dır** ve alet onu kullanır.
+📌 `CLAUDE.md §5`: *"ayrıştırıcıyı doğrulamak yetmiyor, hangi DOSYALARI
+okuduğunu da doğrulamak gerekiyor."*
+
+⚠️ **Ve alet "kayıt yok" dese bile bir adım daha var: TÜRKÇE/OSMANLI ADI.**
+```
+Lefkada  → Ayamavra      Kithira → Çuha Adası      Taganrog → (Taygan değil)
+```
+Bu ayrı bir tuzak (`CLAUDE.md §4`, "Türkçe yazım ekseni") ve bugün iki kez
+ısırdı — biri bende. **"Bu kayıt yok" iki ölçümün sonucudur, birinin değil.**
+
 ## 5. KAYNAK KURALI
 
 TDV birincil (`islamansiklopedisi.org.tr`). Dışına çıkarsan **akademik ·

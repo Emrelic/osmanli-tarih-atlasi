@@ -92,11 +92,11 @@ window.OLAYLAR_EK8 = [
    "toprak-kazanc",
    "diplomasi"
   ],
-  "b": "Fizan'ın Osmanlı tâbiiyetine girmesi — Murzuk",
-  "gun": "1577",
-  "yer": "Murzuk, Fizan (Sahra)",
+  "b": "Fizan sancağının Trablusgarp'a bağlanışı — Murzuk ve Sahra kervan kavşağı",
+  "gun": "1577 — atlas verisindeki kırılma günü; TDV asıl olayı 1551'e bağlıyor",
+  "yer": "Murzuk (Fizan), Gât, Sokna, Câlû, Sebha, Ubârî, Vaddân (Cufre), Zilla (Zella), Merâde, Tırgan (Traghan), Zevîle (Zawila), el-Katrûn",
   "kisiler": "Evlâd-ı Muhammed hanedanı, Trablusgarp beylerbeyi",
-  "d": "Trablusgarp beylerbeyiliğinin baskısı sonucunda Sahra'nın kervan kavşağı Fizan, merkezi Murzuk olmak üzere Osmanlı tâbiiyetini kabul etti. TDV İslâm Ansiklopedisi'nin Fizan maddesine göre bölgeyi yöneten Evlâd-ı Muhammed hanedanı, düzenli vergi ödemek şartıyla iç işlerinde serbest bırakıldı; Fizan, 1551'de alınan Trablus eyaletine bağlı bir sancak olarak teşkilâtlandırıldı. Böylece Trablus-Murzuk-Bornu hattındaki köle, altın ve deve ticareti Osmanlı denetimine girdi. Bu dolaylı idare 1711'de Karamanlılar'ın, 1842'de ise doğrudan kaza teşkilâtının eline geçecekti.",
+  "d": "Trablusgarp beylerbeyiliğinin baskısı sonucunda Sahra'nın kervan kavşağı Fizan, merkezi Murzuk olmak üzere Osmanlı tâbiiyetini kabul etti. TDV İslâm Ansiklopedisi'nin Fizan maddesine göre bölgeyi yöneten Evlâd-ı Muhammed hanedanı, düzenli vergi ödemek şartıyla iç işlerinde serbest bırakıldı; Fizan, 1551'de alınan Trablus eyaletine bağlı bir sancak olarak teşkilâtlandırıldı. Böylece Trablus-Murzuk-Bornu hattındaki köle, altın ve deve ticareti Osmanlı denetimine girdi. Bu dolaylı idare 1711'de Karamanlılar'ın, 1842'de ise doğrudan kaza teşkilâtının eline geçecekti. ⚠️ TDV BU SÜRECİ 1551'E BAĞLAR, 1577'YE DEĞİL. Atlas verisinde bu 12 yerleşimin `hafsi` (Tunus Hafsî Devleti) dönemi 1577-01-01'e kadar sürüyor ve bu tarihte Osmanlı tâbiiyetine geçiyor — ama Hafsî Devleti'nin kendisi 1574-09-13'te sona erdi (`oturumlar/NOKTA-HALKA2-3.md`'nin önceki tespiti: 2,3 yıllık bir 'hayalet', çözülmemiş bilinen borç). Bu madde o iç tarihe DOĞRU İÇERİĞİ bağlıyor; tarihin kendisinin 1551'e çekilip çekilmeyeceği ayrı bir karardır, VERİ SAHİPLİK'e devredilmiştir.",
   "kaynak": "fizan",
   "duygu": [
    "🎌"
