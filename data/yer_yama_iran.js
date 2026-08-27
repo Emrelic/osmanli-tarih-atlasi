@@ -1,106 +1,210 @@
-// data/yer_yama_iran.js — İRAN KORİDORU (H-0089) DÜZELTMELERİ
-// DEĞİŞMEZ 7 ENKLAV · 27 Ağustos 2026 · ORHANGAZİ sevkiyle (M-1314)
+// data/yer_yama_iran.js — İRAN KORİDORU (H-0089) · İKİNCİ SÜRÜM
+// DEĞİŞMEZ 7 ENKLAV · 27 Ağustos 2026 · ORHANGAZİ sevkiyle
 //
-// 🔴 ÖNERİ + UYGULANABİLİR KAYIT. Motor bunu OKUMAZ; index.html'e EKLENMEZ.
-//    Uygulamayı koordinatör yapar.
+// 🔴 BU DOSYA BİRİNCİ SÜRÜMÜ EZİYOR. Sebep `duzeltme` bölümünde yazılı:
+// birinci sürüm benim bir ARAMA HATAM üzerine kuruluydu (şapkalı harf).
+// Bugünkü veri yeniden ölçüldü ve yalnız GERÇEKTEN EKSİK olan yazıldı.
 //
-// KAYNAK KURALI: Emre'nin paketindeki ChatGPT metninden HİÇBİR HÜKÜM
-// alınmadı (`§4`: yapay zekâ üretimi metin kullanılmaz). O metin bir İZDİ;
-// gösterdiği ADRESLER (TDV `tebriz` · `hoy` · `urmiye` · `meraga`) gövdesi
-// OKUNARAK doğrulandı ve her kayıtta alıntılandı.
-//
-// ÜÇ BÖLÜM
-//   A_veri_yanlis   TDV doğruladı, dönem YAZILDI      → uygulanabilir
-//   B_nokta_yok     TDV Osmanlı statüsünü doğruluyor AMA koordinat kaynağı
-//                   açılamadı ⇒ NOKTA YAZILMADI, hazırlığı burada duruyor
-//   bulunamadi      TDV tarih vermiyor ⇒ YAZILMADI (koordinatörün (b) şıkkı)
+// KAYNAK: TDV `hoy` · `meraga` · `tebriz` · `urmiye` gövdeleri OKUNDU.
+// Emre'nin paketindeki ChatGPT metninden HİÇBİR HÜKÜM alınmadı (§4) — o
+// metin yalnız ADRES gösterdi, doğrulama TDV'den yapıldı.
 window.YER_YAMA_IRAN = {
  "olcum": {
   "tarih": "2026-08-27",
-  "A_uygulanan_yerlesim": 1,
-  "A_eklenen_donem": 2,
-  "B_yazilmayan_nokta": 6,
-  "bulunamadi": 1,
-  "hoy_3km_icinde_baska_nokta": 0
+  "A_yazilabilir_donem": 2,
+  "A_yerlesim": 2,
+  "bulunamadi_kalem": 3,
+  "bugunku_durum": {
+   "Hoy": {
+    "var_mi": true,
+    "koordinat": [
+     38.5503,
+     44.9521
+    ],
+    "osmanli_donemi": [
+     [
+      "1585-09-25",
+      "1603-10-21"
+     ]
+    ]
+   },
+   "Merâga": {
+    "var_mi": true,
+    "koordinat": [
+     37.3894,
+     46.2381
+    ],
+    "osmanli_donemi": [
+     [
+      "1585-09-25",
+      "1603-10-21"
+     ],
+     [
+      "1725-08-04",
+      "1730-08-12"
+     ]
+    ]
+   },
+   "Mîyandoab": {
+    "var_mi": true,
+    "koordinat": [
+     36.9694,
+     46.1028
+    ],
+    "osmanli_donemi": []
+   },
+   "Selmâs": {
+    "var_mi": true,
+    "koordinat": [
+     38.1983,
+     44.7654
+    ],
+    "osmanli_donemi": []
+   },
+   "Urmiye": {
+    "var_mi": true,
+    "koordinat": [
+     37.553,
+     45.076
+    ],
+    "osmanli_donemi": []
+   },
+   "Tebriz": {
+    "var_mi": true,
+    "koordinat": [
+     38.08,
+     46.292
+    ],
+    "osmanli_donemi": [
+     [
+      "1514-09-06",
+      "1514-09-15"
+     ],
+     [
+      "1534-07-13",
+      "1535-06-01"
+     ],
+     [
+      "1548-07-27",
+      "1548-08-15"
+     ],
+     [
+      "1585-09-25",
+      "1603-10-21"
+     ],
+     [
+      "1725-08-04",
+      "1730-08-12"
+     ]
+    ]
+   },
+   "Ahar": {
+    "var_mi": true,
+    "koordinat": [
+     38.4772,
+     47.07
+    ],
+    "osmanli_donemi": [
+     [
+      "1585-09-25",
+      "1603-10-21"
+     ],
+     [
+      "1725-08-04",
+      "1730-08-12"
+     ]
+    ]
+   },
+   "Nahçıvan": {
+    "var_mi": true,
+    "koordinat": [
+     39.209,
+     45.412
+    ],
+    "osmanli_donemi": [
+     [
+      "1585-01-01",
+      "1603-10-21"
+     ],
+     [
+      "1725-01-01",
+      "1730-08-12"
+     ]
+    ]
+   },
+   "Revan": {
+    "var_mi": true,
+    "koordinat": [
+     40.183,
+     44.515
+    ],
+    "osmanli_donemi": [
+     [
+      "1583-06-01",
+      "1604-06-08"
+     ],
+     [
+      "1635-08-08",
+      "1636-04-01"
+     ],
+     [
+      "1724-09-28",
+      "1735-06-19"
+     ]
+    ]
+   }
+  }
  },
- "A_veri_yanlis": [
+ "A_yazilabilir": [
   {
    "yerlesim": "Hoy",
    "alan": "d",
+   "durum": "EKSİK — yazılabilir",
    "ekle": [
-    {
-     "f": "1585-09-25",
-     "t": "1603-10-21"
-    },
     {
      "f": "1724-01-01",
      "t": "1739-01-01"
     }
    ],
-   "kaynak": "TDV `hoy`: \"Rumlu Mahmud Bey'in idaresindeki Hoy yeniden Osmanlı hâkimiyeti altına girdi\" · Tebriz'e bağlı SANCAK MERKEZİ, sancakbeyi Alâeddin Bey 1585 · \"Şah I. Abbas'ın eline geçen Hoy\" 1603 · 1612 Nasuh Paşa antlaşmasıyla İran'a terk · 1724'te III. Ahmed döneminde yeniden Osmanlı, on beş yıl sonra (1739) İran'a döndü",
-   "gun_secimi": "TDV YIL veriyor, GÜN vermiyor. 1585-09-25 ve 1603-10-21 atlasın Tebriz · Nahçıvan · Ahar kayıtlarının AYNI günü. 🔴 Niçin `1585-01-01` YAZMADIM: o gün Tebriz hâlâ Safevî olurdu ve Hoy dokuz ay boyunca YAPAY BİR ADA olurdu — Değişmez 7 onu ihlal sayardı. Yani gün seçimi kaynaktan değil, TUTARLILIKTAN geliyor ve bunu SÖYLÜYORUM.",
-   "not": "`s: safevi 1501-07-01→1736-03-08` DOKUNULMADAN kalıyor. Bu, atlasın yerleşik deseni: Tebriz · Nahçıvan · Ahar üçünde de `s:` safevî sürerken `d:` Osmanlı dönemi üstüne yazılı; motor Osmanlı'yı kazandırıyor (denetle.py: s×d örtüşmesi KASITLI)."
-  }
- ],
- "B_nokta_yok": [
-  {
-   "yerlesim": "Merağa (Marāgha)",
-   "durum": "NOKTA YAZILMADI — koordinat kaynağı yok",
-   "osmanli_kaydi": "TDV `meraga`: \"Osmanlı-Safevî savaşlarında 941 (1534) ve 993 (1585) yıllarında iki defa Osmanlılar'ın eline geçen şehir bir süre de bu devlete bağlı kaldı\" · Osmanlı sisteminde SANCAK (492.400 akçe gelir kaydı) · Şah Abbas döneminde (1587-1629) tekrar Safevîler'e bağlandı",
-   "konum_tarifi": "TDV: \"İran'ın kuzeybatısındaki Urmiye gölünün yakınında\" · \"Sehend dağının güney eteklerinden geçen Sâfî akarsuyunun kenarında\"",
-   "onerilen_donem": "d: 1585-09-25 → 1603-10-21 (+ muhtemelen 1534 dönemi ayrıca)"
+   "kaynak": "TDV `hoy`: \"1724 yılında III. Ahmed döneminde Hoy tekrar Osmanlı hâkimiyeti altına girdi\" ve on beş yıl Osmanlı kontrolünde kaldı, 1739'da İran'a döndü",
+   "gun": "TDV YIL veriyor GÜN vermiyor ⇒ `§4` kuralı: YYYY-01-01",
+   "not": "1585-09-25→1603-10-21 dönemi ARTIK VAR (gece uygulandı) — bu yama onu TEKRARLAMIYOR. `s:` zinciri DOKUNULMADAN kalır; Merâga'nın 1725-08-04→1730-08-12 kaydı aynı deseni zaten kullanıyor (s: safevî 1736'ya kadar sürerken d: üstüne yazılı, motor Osmanlı'yı kazandırıyor)."
   },
   {
-   "yerlesim": "Miyandoab (Miyândûvab)",
-   "durum": "NOKTA YAZILMADI — koordinat kaynağı yok",
-   "osmanli_kaydi": "TDV `tebriz` 1593 taksimi: Merâga'nın NAHİYELERİ arasında \"Miyândûvab\" sayılıyor",
-   "konum_tarifi": "Urmiye gölünün güneydoğusundaki Miyândûâb ovası (Iranica'ya atfen ORHANGAZİ'nin ilettiği izde geçiyor — DOĞRULAMADIM)",
-   "onerilen_donem": "d: 1585-09-25 → 1603-10-21"
-  },
-  {
-   "yerlesim": "Sulduz (Suldus)",
-   "durum": "NOKTA YAZILMADI — koordinat kaynağı yok",
-   "osmanli_kaydi": "TDV `tebriz` 1593 taksimi: Tebriz eyaletinin LİVÂLARI arasında \"Suldus\"",
-   "konum_tarifi": "🔴 Tarihî bir OVA/livâ adı; bugünkü hangi yerleşimle eşleneceği ARAŞTIRILMADI. Modern bir kasabayla eşlemek ÇIKARIM olur, yazmadım.",
-   "onerilen_donem": "d: 1585-09-25 → 1603-10-21"
-  },
-  {
-   "yerlesim": "Dizmâr",
-   "durum": "NOKTA YAZILMADI — koordinat kaynağı yok",
-   "osmanli_kaydi": "TDV `tebriz` 1593 taksimi: livâ",
-   "konum_tarifi": "bulunamadı",
-   "onerilen_donem": "d: 1585-09-25 → 1603-10-21"
-  },
-  {
-   "yerlesim": "Sarukurgân",
-   "durum": "NOKTA YAZILMADI — koordinat kaynağı yok",
-   "osmanli_kaydi": "TDV `tebriz` 1593 taksimi: livâ",
-   "konum_tarifi": "bulunamadı",
-   "onerilen_donem": "d: 1585-09-25 → 1603-10-21"
-  },
-  {
-   "yerlesim": "Saidâbâd (Saîdâbâd)",
-   "durum": "NOKTA YAZILMADI — koordinat kaynağı yok",
-   "osmanli_kaydi": "TDV `tebriz` 1593 taksimi: livâ",
-   "konum_tarifi": "bulunamadı",
-   "onerilen_donem": "d: 1585-09-25 → 1603-10-21"
+   "yerlesim": "Mîyandoab",
+   "alan": "d",
+   "durum": "EKSİK — yazılabilir",
+   "ekle": [
+    {
+     "f": "1585-09-25",
+     "t": "1603-10-21"
+    }
+   ],
+   "kaynak": "TDV `tebriz` 1593 idarî taksimi: Tebriz eyaleti livâları arasında Merâga; ve Merâga'nın NAHİYELERİ arasında \"Miyândûvab\". TDV `meraga`: şehir 993 (1585) yılında Osmanlılar'ın eline geçti ve \"bir süre de bu devlete bağlı kaldı\", Osmanlı sisteminde SANCAK.",
+   "gun": "Tarihler bağlı olduğu SANCAK MERKEZİ Merâga'nın veride yazılı günleriyle AYNI seçildi (1585-09-25 · 1603-10-21). 🔴 Bu bir kaynak günü DEĞİL, TUTARLILIK seçimidir: başka bir gün yazmak nahiyeyi sancağından koparıp yapay bir ada üretirdi.",
+   "not": "🟡 Merâga'nın İKİNCİ dönemi (1725-08-04→1730-08-12) Mîyandoab'a YAZILMADI — TDV o dönem için nahiyeyi adıyla anmıyor. Aynı deseni uygulamak savunulabilir ama KAYNAKSIZ; karar koordinatörde."
   }
  ],
  "bulunamadi": [
   {
    "yerlesim": "Urmiye",
-   "durum": "DÖNEM YAZILMADI — koordinatörün (b) şıkkı",
-   "sebep": "TDV `urmiye` XVI. yüzyıl dönemine HİÇBİR YIL vermiyor: \"XVI. yüzyılın sonlarında kısa bir süre Osmanlı egemenliğine geçtiyse de Şah I. Abbas tarafından yeniden Safevî Devleti'ne bağlandı\". Başlangıç günü UYDURULAMAZ.",
-   "ikinci_donem": "1724 dönemi de yazılmadı: TDV \"1724 yılında bir defa daha Osmanlı hâkimiyetine girdi\" diyor AMA aynı maddede \"Hekimoğlu Ali Paşa ve Rüstem Paşa ... Urmiye'yi ele geçirdiler (1730)\" de yazıyor. İki cümle BİRBİRİYLE gerginlik içinde (1724'te girdiyse 1730'da niçin ele geçiriliyor?) ⇒ bitiş tarihi ÇIKARILAMADI. 🔴 Yanlış bir tarih, eksik bir dönemden kötüdür."
+   "sebep": "TDV `urmiye` XVI. yüzyıl dönemine HİÇBİR YIL vermiyor (\"XVI. yüzyılın sonlarında kısa bir süre\"). 1724 dönemi için de bitiş çıkarılamadı: aynı madde hem \"1724 yılında bir defa daha Osmanlı hâkimiyetine girdi\" hem \"Hekimoğlu Ali Paşa ve Rüstem Paşa ... Urmiye'yi ele geçirdiler (1730)\" diyor. ⇒ YAZILMADI."
+  },
+  {
+   "yerlesim": "Selmâs (Dilman)",
+   "sebep": "Nokta VERİDE VAR ama Osmanlı dönemi yok. TDV `selmas` ve `salmas` sluglarının İKİSİ DE ÖLÜ (302). `tebriz` maddesinin livâ listesinde de geçmiyor. ⇒ Kaynak BULUNAMADI, yazılmadı."
+  },
+  {
+   "yerlesim": "Sulduz · Dizmâr · Sarukurgân · Saidâbâd",
+   "sebep": "TDV `tebriz` bunları 1593 taksiminde livâ olarak sayıyor, yani OSMANLI STATÜSÜ doğrulanmış durumda. AMA veride NOKTA YOK ve koordinat için kabul edilebilir kaynak açılamadı (Iranica 403 · Britannica 403 · GeoNames gövdesi gelmedi). ⇒ NOKTA YAZILMADI."
   }
  ],
- "kaynak_erisimi": {
-  "denenen": [
-   "Encyclopaedia Iranica (iranicaonline.org)",
-   "Britannica"
-  ],
-  "sonuc": "İKİSİ DE HTTP 403 — bu oturumdan erişilemedi",
-  "geonames": "sayfa gövdesi gelmedi (JS ile yükleniyor)",
-  "sonuc_hukmu": "Koordinat için KABUL EDİLEBİLİR bir kaynak açılamadı ⇒ B kovasında NOKTA YAZILMADI. §4: kaynağı yazılmayan bilgi, kaynağı olmayan bilgiden ayırt edilemez."
+ "duzeltme": {
+  "baslik": "M-1313 raporumdaki bir hükmü ÇÜRÜTÜYORUM",
+  "hatali_hukum": "\"Merağa · Miyandoab · Sulduz VERİDE HİÇ KAYIT YOK\"",
+  "gercek": "Merâga ve Mîyandoab veride VAR (şapkalı yazılıyor). Merâga'nın Osmanlı dönemleri de ZATEN VARDI — git ile doğrulandı: edb4134 ile HEAD aynı satırı taşıyor.",
+  "kok": "`ad.startswith(\"Merağa\")` ile aradım; veri \"Merâga\" yazıyor. Şapkalı harf ön eki bozdu. Ölçüm doğru koşuyordu, EVRENİ dardı.",
+  "ayirt_edildi": "Hoy için rapor DOĞRUYDU: edb4134'te d:[] idi, gece uygulandı. Merâga için YANLIŞTI. İki hüküm ayrı ayrı git ile sınandı — \"veri değişti\" ile \"ölçümüm dardı\" karıştırılmadı.",
+  "ders": "Türkçe veride ad araması ŞAPKA/İ-I KATLAMASIYLA yapılmalı; ham `startswith` bu külliyatta sessizce yanlış negatif üretiyor."
  }
 };

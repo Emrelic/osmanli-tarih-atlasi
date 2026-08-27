@@ -2202,7 +2202,15 @@ function sonrakiOlayaKadar(gi) {
 //   iç isyan -> ateş, deniz muharebesi -> çapa. Kuşatma/muharebe başarısızsa
 //   simgenin üstüne kırmızı bir çarpı biner.
 var SAVAS_TUR_SIMGE = { meydan: "⚔", kusatma: "◎", isyan: "🔥", deniz: "⚓",
-                        antlasma: "📜" };
+                        antlasma: "📜", gorusme: "🤝" };
+// 🔴 ARAYÜZ, 27 Ağustos 2026 — p0019/H-0046: *"Görüşme yerine bir görüşme
+// sembolü konulabilir (Abbâsî halifesi 3. Mütevekkil görüşmesi)."* Ölçüldü
+// (koordinatör): altyapı ZATEN VAR (bu sözlük ve `.savas-isaret` genel
+// stili), eksik olan yalnız bu satırdı. `meydan`/`antlasma` gibi `gorusme`
+// de özel bir CSS bloğuna ihtiyaç DUYMUYOR — `.savas-isaret .sv-ikon` genel
+// stili yeterli (css/style.css'te `.tur-kusatma/.tur-isyan/.tur-deniz`
+// dışındaki türler hep böyle). Veri tarafı: `data/savaslar.js`e
+// `tur:"gorusme"` + `lat`/`lon` yazmak yeter, kod DOKUNULMADAN çalışır.
 // 🔴 ANTLAŞMALAR DA İŞARETLENİR — 19 Ağustos 2026, `0023/H-0017`.
 // Emre: *"karlofça anlaşması maddesinde karlofça kasabası haritada
 // gösterilmiyor."* Sebep İKİ katmanlıydı ve tek başına biri yetmiyordu:
@@ -2598,8 +2606,19 @@ var seferler = (window.SEFERLER || []).concat(isyanYayilmaUret()).map(function (
   // kullanıcı okun neye ait olduğunu anlayamıyordu. Ad ok başına yazılıyor;
   // dönüş ok'a uygulandığı için yazı ayrı bir işaretle, dönüşsüz konuyor.
   // Taraf rengi: Osmanlı seferi koyu kırmızı-siyah, düşman seferi soğuk renk.
-  var renk = s.renk || (s.taraf === "dusman" ? "#1b7a3f" : "#2b1006");
+  // 🔴 ARAYÜZ, 27 Ağustos 2026 — p0019/H-0041·H-0062: *"Planlama aşamasında
+  // olan güzergâhlar sarı kesikli olsun; yürünen kısım siyaha döndürülebilir."*
+  // Ölçüldü (koordinatör): renk zaten VERİDEN geliyor, ikinci bir eksen
+  // (hâl: PLANLANAN ↔ YÜRÜNEN) için kod değişikliği GEREKMİYORDU — ama o
+  // zaman VERİ her plan kaydına elle bir turuncu hex yazmak zorunda kalırdı,
+  // ki bu `§11`in "aynı olgu iki yerde durur" borcunu üretir. Bunun yerine
+  // `hal:"planlanan"` bir SÖZLEŞME: VERİ yalnız bu bayrağı yazar, renk
+  // OTOMATİK gelir. `s.renk` açıkça yazılmışsa yine ONA öncelik verilir —
+  // VERİ'nin elle seçtiği renk asla ezilmez.
+  var renk = s.renk || (s.hal === "planlanan" ? "#c98a00"
+             : (s.taraf === "dusman" ? "#1b7a3f" : "#2b1006"));
   ic.style.color = renk;
+  if (s.hal === "planlanan") ic.classList.add("hal-planlanan");
   // `isyanYayilmaUret()` fi/ti'yi hazır veriyor (SAVASLAR'ın kendi `sure`si
   // üstünden); window.SEFERLER hâlâ f/t METİN tarihinden hesaplatıyor.
   var fi = s.fi !== undefined ? s.fi : gunIdx(s.f);

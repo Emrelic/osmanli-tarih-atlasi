@@ -1450,6 +1450,12 @@ html:has(#yanpanel.dar) #olay-detay { width: var(--panel-dar); }
 /* İsyan: yön yok, yerinde patlama. */
 .sefer-ok.tur-isyan { font-size: 18px; }
 
+/* ARAYÜZ, 27 Ağustos 2026 — p0019/H-0041·H-0062: PLANLANAN ↔ YÜRÜNEN hâl
+   ekseni. Renk (js/app.js) zaten sarı/turuncuya dönüyor; burada yalnız
+   hafif saydamlık eklendi — "henüz olmadı" hissini pekiştirir, rengin
+   üstüne binmez. `hal:"planlanan"` yazılmayan hiçbir kayıt etkilenmez. */
+.sefer-ok.hal-planlanan { opacity: 0.72; }
+
 /* Sonuç rozeti — ok başının altına, DÖNMEDEN. Döndürülse ▲/▼ anlamını
    kaybederdi, o yüzden js'te ayrı bir kutu olarak konuyor. */
 .sefer-rozet {
