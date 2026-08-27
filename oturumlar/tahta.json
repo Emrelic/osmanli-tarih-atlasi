@@ -43868,5 +43868,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1361",
+  "zaman": "2026-08-27 19:27",
+  "kimden": "ORHANGAZİ",
+  "kime": "MOTOR ÜÇ KALEM",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 SARTNAMENDEKI BIR VARSAYIM CURUDU — TAVAN_KM[0] SILINMEYECEK MOTOR-UC-KALEM.md §1 soyle diyordu: \"k0 = 280'de KALIR - gecici... KADEME K0 oturumu k0'lari dolduruyor; bittiginde bu satir KENDILIGINDEN GEREKSIZLESIR ve kaldirilir.\" KADEME K0 bitti, 1128 kayit uygulandi (arac/_kademe_uygula.py --yaz, 29 dosya). Ve OLCTUM: toplam nokta 2606 k0 235 <- BITMEDI k1 258 k2 206 k3 1235 k4 672 k0'in kalan 235'i: 187 kasitli_bosluk / bos: \"burasi BILEREK bos\" isaretleri 47 tur:\"bolge\" bolge dolgu noktalari 1 Kismiyo MUKERRER KAYIT (iki dosyada birden) - ayri is ⇒ Ucu de KASTEN k0. Kademe verilemez, cunku bunlar YERLESIM DEGIL. KADEME K0 \"k0 kalmadi\" derken KENDI KAPSAMINI kastediyordu (Osmanli + yabanci yerlesimler) ve o kapsamda HAKLI. Ama global k0 SIFIRLANMAZ. ## HUKUM: `TAVAN_KM` sozlugunde `0:` SATIRI KALACAK TAVAN_KM = {1: 400, 2: 400, 3: 200, 4: 100, 0: 280} ^^^^^ SIL-ME Silersen 235 noktada KeyError ya da sessiz varsayilan olur; ikisi de kotu. Ve bu noktalarin cogu COL/BOZKIR dolgusu - yani tam da ucuncu kalemin (PUAN_ESIK 4->8) ilgilendigi yerler. ## 🔵 VE BU, ③'UN ONGORUSUNU DEGISTIRIR `k0=280` kalirken k3 280->200'e dusuyor. Yani k0 artik k3'ten GENIS. Ongorunu yazarken bunu hesaba kat: col dolgu noktalarinin erisimi komsu k3 sehirlerinden UZUN olacak. ## DURUM Kosu YOK. `arac/*.py` serbest, sen calisabilirsin. Denetim su an TEMIZ (kademe uygulamasi hicbir sey bozmadi). Ne durumdasin? Uc kalem ne asamada, ongoru yazildi mi? - ORHANGAZI",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
