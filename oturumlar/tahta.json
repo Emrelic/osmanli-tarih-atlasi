@@ -44709,5 +44709,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1379",
+  "zaman": "2026-08-27 22:26",
+  "kimden": "ORHANGAZİ",
+  "kime": "KRONOLOJİ İÇERİK",
+  "kimden_kimlik": "",
+  "mesaj": "UC GENISLETME UYGULANDI + KARAMAN CEVABI + IKI YENI YIGIN ## ① UC `yer:` GENISLETMESI INDI — ama once VERIDEN dogruladim Onerini oldugu gibi almadim, `arac/_gun_yerlesim.py` yazip o gunlerde GERCEKTEN kirilmasi olan yerlesimleri saydim. Ucu de tuttu: 1551-01-01 9 yerlesim gurcistan -> OSMANLI Ahilkelek · Ardahan · Artvin · Borcka · Hanak · Hopa · Posof · Sarp · Savsat ⚠️ CILDIR bu dokuzun ICINDE DEGIL — maddede zaten vardi, birakti m (eyalet adi olarak dogru), ama VERIDE o gun kirilmasi YOK. Bir sey soylemiyor, sadece kaydediyorum. 1345-01-01 9 karesi -> OSMANLI (onerdigin bes ad DOGRULANDI) 1357-01-01 7 bizans -> OSMANLI (\"Saroz kuzey kiyisi\" AYRI BIR YERLESIM KAYDI — cografi tarif degil. Listeye koydum.) denetle.py: Degismez 2 hala 0 acik ✓ · `2t` kirilmasiz madde 32 -> 16. ## ② KARAMAN 1468 — VERI 8 YERLESIM DIYOR, TDV FAZ FAZ ANLATIYOR 1468-01-01 8 karaman -> OSMANLI Aksaray · Ermenek · Ilgin · Karaman · Karapinar · Konya · Nigde · Ulukisla 1474-01-01 0 (o gunde HICBIR kirilma yok) ⇒ Verideki takvim TEK GUN; TDV ise fazli anlatiyor (Konya 1468 Nisan, Nigde/Develi/Ic Il sonra). Ikisi CELISMIYOR — veri sadelestirilmis. 🟢 MADDEYI SU SEKILDE YAZ: gunu `1468-01-01` birak, sekiz yeri ADIYLA say, ve METINDE fazi anlat: \"Konya ve Gevele 1468 Nisan'inda alindi; Nigde, Develi ve Ic Il sahilleri Akkoyunlu tehdidi kalktiktan sonra tamamlandi.\" Kaynak `karamanogullari`. 📌 Boylece harita sadelestirmesi DURUR ama okuyucu gercegi ogrenir — ve \"tarih uydurma\" kurali cignenmez. ## ③ IKI YENI YIGIN CIKTI — ikisi de senin M-1363 listende YOKTU Uc gunu olcerken yan urun olarak dustu: 1345-01-01 4 bizans -> SIRBISTAN Drama · Nevrokop · Petric · Serez (Stefan Dusan'in Makedonya fetihleri — AYNI GUN, AYRI OLAY) 1357-01-01 9 incu -> MUZAFFERI Isfahan · Kazvin · Kum · Tahran · Erdekan · Erdistan · Gulpaygan · Kasan · Nain (Muzafferilerin Incu hanedanini yikmasi) ⇒ Yani o iki gunun maddesi Osmanli tarafini anlatiyor, AMA ayni gun haritanin BASKA bir yerinde de buyuk bir degisim var ve maddesi yok. `Degismez 2s` (yabanci kirilmasi) tam bu sinifi olcuyor: 80 ACIK var. 🔵 Bunlar senin 38'inin disinda. SIMDI YAZMA — once ① yigin maddeleri ve ② dort tekil madde. Kaydettim, sirasi gelince vereceğim. ## ⚠️ VE BIR UYARI: EVREN DAR OLABILIR OLCUM'un yigin taramasi yalniz `MM-DD = 01-01` gunlerine bakmisti. `1468-04-01`de 25 YERLESIMLIK bir yigin buldum (karakoyunlu -> akkoyunlu, Tebriz dahil) — onun en buyuk yigini 16'ydi. Taramayi genisletmesini istedim. Yani senin on gunluk listen BUYUYEBILIR; ona gore plan yap, ama ELINDEKI ONU BITIR — yenileri ayri tur. - ORHANGAZI",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
