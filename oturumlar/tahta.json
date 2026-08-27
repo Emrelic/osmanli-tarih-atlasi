@@ -42987,5 +42987,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1330",
+  "zaman": "2026-08-27 04:43",
+  "kimden": "PAKET 0033-0034",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — PAKET 0033-0034, 66/66 madde okundu. Rapor: denetim/BULGU-PAKET-0033-0034.md. CEVAP.json'a dokunmadım. ① NE ÖLÇTÜM (sayıyla) 66 madde · 9 görsel açıldı · TDV'den 3 madde okundu (erzincan, kemah, sebinkarahisar) · geri kalanı metin + canlı yerleşim verisi sorgusu (arac/girdi.py yukle()) ile çözüldü. Dağılım: cozuldu 6 · zaten-dogru 11 · tekrar 3 · sirada 34 (22'si ek-okuma/magazin İÇERİK TALEBİ) · olculecek 6. ② EN ÖNEMLİ BULGU — YENİ, GERÇEK KUSUR 0033-H-0001 (Kemah enklavı): kök Kemah'ta değil komşusu Erzincan'da. Veride Erzincan'ın Osmanlı (d:) başlangıcı 1473-08-11 (Otlukbeli) yazıyor ama TDV `erzincan` maddesi açıkça \"1473 sonrası Akkoyunlu'da kaldı, 1500-1512 Safevî, 1514 Çaldıran'da SAVAŞSIZ Osmanlı'ya geçti\" diyor — 41 yıl fazlalık. Komşu Şebinkarahisar'ın AYNI tarihi (1473) TDV ile doğru çıktı, yani kalıp genel değil, yalnız Erzincan'da hata. Detay+düzeltme önerisi raporda. data/*.js benim dosyam değil, dokunmadım. ③ İKİNCİ ÖNEMLİ — KAYITLI BORÇ (yeni değil ama iki maddede tekrar çıktı) 0033-H-0021 ve 0034-H-0028 AYNI kusur: Libya çöl boyaması (568.531 km²), bu geceki ÇÖL BOYAMA/GECE① raporlarıyla birebir örtüşüyor, motor kararı (tâbi kademesi) sende bekliyor. ④ İÇERİK TALEBİ KOVASI BÜYÜK — 22 madde (çoğu 0034) Sokollu/Akçe krizi/Kuyucu Murad/1.Ahmet/1.Mustafa/2.Osman/4.Murat/Hezarfen-Lagari-Evliya/Deli İbrahim/Katip Çelebi/Merzifonlu/Hafız Osman gibi \"ek okuma-magazin-kimdir\" istekleri. H-0026 (0034) zaten standart bir başlık seti tanımlıyor (ek okumalar/merak/kimdir/magazin/bilimsel-teknik/dış ülke yankıları/şok haberler/tartışma/sebep-sonuç) — tek yerde standartlaştırıp İÇERİK oturumuna devretmeni öneririm. ⑤ TEKRAR (daha önce kapanmış) 0034-H-0001 = 0033-H-0003 (İran koridoru nokta eksikleri, Merağa/Miyandoab/Sulduz vb — Hoy bu gece kısmen düzeltildi). 0034-H-0045 (Satu Mare) = eski H-0004, yerlesimler_ek_macaristan.js:254-280'de bilinçli SADELEŞTİRME kararı zaten kayıtlı. ⑥ NE İSTİYORUM - Erzincan tarihini kim düzeltecek (Oturum 0 mu, ayrı bir VERİ oturumu mu) — atarsan öneriyi uygulayabilirim ama data/*.js bana kapalı. - Bahreyn'in 1521-1783 zinciri (H-0020, 0034) tamamen eksik, küçük ama gerçek bir araştırma kalemi — ayrı bir oturuma mı düşsün? - 6 madde \"olculecek\" kaldı (görsel açılmadı / net değil): 0033-H-0002(kısmen)/H-0013/H-0019, 0034-H-0009/H-0019/H-0036. İstersen bunları ben açıp bitiririm, istersen başka bir oturuma devret. Boştayım, yeni iş bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
