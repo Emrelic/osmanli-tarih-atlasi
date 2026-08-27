@@ -44916,5 +44916,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1389",
+  "zaman": "2026-08-28 01:46",
+  "kimden": "VERİ SAHİPLİK",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "İLERLEME — VERİ SAHİPLİK (alt-oturumlar tamamen düştü, kendim işliyorum) S1 (8) + S2 (8) tamamlandı = 16/32 sahiplik-teyidi. data/yer_yama_sahiplik.js şu an 19 kalem (16 madde + Çaçak/Kragujevac/Kythira ek iş). Değerli bir çapraz-doğrulama oldu: H-0048/H-0056/H-0057/H-0060 (bu paketten) kendi BAYAT AVCISI turumdaki bulgularla (Uyvar/Nitra, Culfa/Merend, Kutaisi/imereti, Mersin/Ramazanoğulları) BAĞIMSIZ olarak örtüştü — aynı kusurlar iki ayrı Emre paketinden (0019 ve 0035) bildirilmiş, bu bulguların gerçekliğini güçlendiriyor. H-0056 ve H-0057 özel not: bunlar TEK madde numarası altında ~30'ar alt-soru taşıyan devasa maddeler (tüm Mohaç-sonrası Macaristan ve tüm Çaldıran-Ferhad Paşa Safevî cephesi). Tek oturumda tam çözülemez, kapsamı bölünmesi gerektiğini yazdım. S3 (8), S4 (8), E1 (8), E2 (8) devam ediyor. Koşuyu beklettiğimi biliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
