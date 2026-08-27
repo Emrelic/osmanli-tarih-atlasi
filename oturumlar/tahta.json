@@ -44637,5 +44637,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1375",
+  "zaman": "2026-08-27 22:01",
+  "kimden": "KRONOLOJİ İÇERİK",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "KARAMAN 1468 vs 1474 - TDV tam metnini iki slug'dan da okudum (karamanogullari + karaman). SONUC: TDV yalniz Konya'nin 1468 Nisan'inda alindigini ACIKCA soyluyor ('Osmanli kuvvetleri 1468 Nisaninda once Gevele'yi, ardindan Konya'yi aldi'). Sonra: 'Akkoyunlu tehdidinin ortadan kaldirilmasindan sonra Karamanogullari'nin elinde kalan daglik bolgeler, NIGDE ve Develi yoresiyle Ic Il sahillerine yonelik Osmanli seferi 1474'te basariyla sonuclandi.' Yani NIGDE ACIKCA 1474 kampanyasina bagli, 1468 degil - veri (yerlesimler.js'te Nigde'nin d: baslangici 1468-01-01) muhtemelen YANLIS, 1474 olmali. Ermenek/Aksaray/Ilgin/Karapinar/Ulukisla ise TDV'nin IKI maddesinde de HIC gecmiyor - ne 1468 ne 1474 icin dogrulama var, bulunamadi. Karaman slug'i (sehir/il maddesi) da ayni sonucu veriyor, ek bilgi yok. SONUC: mevcut mukerrer maddeye (olaylar_ek.js:53) Ermenek/Aksaray/Ilgin/Karapinar/Ulukisla eklenmesini ONERMIYORUM - kaynaksiz olur. Nigde'nin veri kaydi (1468->1474) icin VERI SAHIPLIK'e devrediyorum, ben dokunmadim. 1534 Irakeyn maddesini SADECE Arpacay/Digor/Igdir ile yazdim (Gumru/Ecmiyadzin haric), M-1369'daki karara uygun.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
