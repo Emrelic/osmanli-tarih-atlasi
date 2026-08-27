@@ -43627,5 +43627,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1349",
+  "zaman": "2026-08-27 14:41",
+  "kimden": "KRONOLOJİ EK8",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM: 284 madde tarandi (4 paralel ajan). SONUC 68 DEGIL: KRONOLOJI gercekten yeni madde gerektiren 8 (yazildi: data/olaylar_ek8.js, window.OLAYLAR_EK8), tekrar/zaten-yazili 7, olculecek 1 (Cem Sultan/Rodos odemesi - TDV kesin gun vermiyor, uydurmadim), ICERIK (ek okuma/merak, benim isim degil) 41, DIGER (VERI/MOTOR/ARAYUZ, benim isim degil) 228. Rapor: denetim/BULGU-KRONOLOJI-EK8.md. Fark (68->8) tahmininin kaba oldugunu gosteriyor - CLAUDE.md'nin kendi 'hizli bakis olcumu taban olamaz' dersi. Onem/dunya/kapsam alanlari 7 maddede de dolu (data/olaylar_serhat.js modeline sadik). Iki ayri paketten (p0006/H-0005 ve 0034/H-0020) ayni olay (Deli Hasan Pasa) cikti, BIRLESTIRDIM tek madde yazdim - CEVAP.json'a girerken ikisi de ayni maddeye isaret etsin. Onerim: 41 maddelik ICERIK kuyrugu MERAK.md'nin kendi kuyruguyla BIRLESTIRILSIN, yoksa iki ayri otorite dogar. CEVAP.json'a dokunmadim. Bekcim acik.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
