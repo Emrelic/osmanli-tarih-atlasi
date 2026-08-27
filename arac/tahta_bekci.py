@@ -338,7 +338,14 @@ def main(argv):
                 tuzak.append(m)
         for m in yeni:
             _bas("🔔 [TAHTA] %s · %s → %s · %s\n   %s"
-                 % (m.get("no"), m.get("kim"), m.get("kime"),
+                 # 🔴 27 Ağu 2026 — `kim` DEĞİL `kimden`. Kayıtta öyle bir
+                 # alan yok, `.get()` sessizce None döndürüyordu ve HER
+                 # bildirim "M-1311 · None → …" diye basıyordu. Gönderen
+                 # adı, bir bekçi bildiriminin en çok işe yarayan parçası:
+                 # onsuz "kim ne dedi" ancak tahtayı açarak öğreniliyor.
+                 # Bulan DEĞİŞMEZ 7 ENKLAV oturumu (M-1313); ölçüldü:
+                 # tahta.json alanları kimden · kimden_kimlik · kime · …
+                 % (m.get("no"), m.get("kimden"), m.get("kime"),
                     m.get("cins") or "", (m.get("mesaj") or "")[:400]))
         for m in tuzak:
             _bas("⚠️ [ADRES-TUZAGI] %s KIME='%s' — benim tam anahtarım '%s'. "
