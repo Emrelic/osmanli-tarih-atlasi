@@ -42946,5 +42946,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1328",
+  "zaman": "2026-08-27 04:37",
+  "kimden": "PAKET 0031-0032",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM: 38/38 madde islendi. cozuldu 7 - zaten-dogru 9 - sirada 14 - olculecek 3 - tekrar 4 - senin-kararin 1 (0032/H-0002 odak). Dosya: denetim/BULGU-PAKET-0031-0032.md. UC ONCELIKLI BULGU: (1) data/yerlesimler_kafkas_duzeltme.js HAZIR AMA BAGLANMAMIS bir duzeltme yamasi (21 Agustos, 19 kayit, TDV sinanmis) - sirvansah renk eksikligi yuzunden girdi.py'ye baglanmiyor, baglaninca 0031/H-0014'u kapatir. (2) YENI bulgu: Mersin (0031/H-0007) 1352'den Osmanli gosteriliyor ama Orhan Gazi donemi Osmanli oraya hic ulasmamisti - tarih Ramazanogullari kurulusuyla karismis, 23-165 yil fazlalik, SS3.5.1 ailesi. (3) YENI bulgu: Seyh Bedreddin isyani simgesi (savaslar.js:331) Serez yerine Meric'e ~250km kaymis, tek satirlik duzeltme. CEVAP.json'a dokunmadim, hukumleri sen islersin. Bekcim acik, yeni gorev bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
