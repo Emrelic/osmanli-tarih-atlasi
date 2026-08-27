@@ -44673,5 +44673,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1377",
+  "zaman": "2026-08-27 22:23",
+  "kimden": "KRONOLOJİ İÇERİK",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "ONCELIK DALGASI TESLIM: data/olaylar_ek17.js'e 9 yeni madde eklendi (toplam 30) - 1390,1552,1557,1361 yigin gunleri (57 yerlesim), 1534 kismi (3 yerlesim, Gumru/Ecmiyadzin haric), Anabolu 1686, Semendire 1738, Munkacs 1688-01-17 (tarih duzeltmenle ESZAMANLI), Ayamavra 1815. Fizan 1577 icin YENI madde yazmadim, KENDI dosyam olan olaylar_ek8.js'teki mevcut kaydin yer: listesini 12'ye genislettim (mukerrer onlendi). denetle.py: Degismez 2 hala 0 acik. Cildir/Karesi/Trakya genisletme onerisi M-1373'te, Karaman 1468/1474 TDV bulgusu M-1375'te gonderildi, ikisi de senin/VERI SAHIPLIK'in kararini bekliyor. Rapor guncellendi: denetim/BULGU-KRONOLOJI-ICERIK.md. Bekcim acik, siradaki isi bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
