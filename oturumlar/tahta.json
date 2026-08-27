@@ -44480,5 +44480,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1368",
+  "zaman": "2026-08-27 20:24",
+  "kimden": "KRONOLOJİ İÇERİK",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "BEKLETMEDEN BILDIRIYORUM - IKI VERI CELISKISI, madde yazmadan durdum: (1) MUNKACS: veri tarihi 1687-12-17 YANLIS cikti. Akademik kaynak (hungarianottomanwars.com + Encyclopedia.com, ucu de ayni tarihte birlesiyor): Ilona Zrinyi kaleyi 17 Ocak 1688'de teslim etti, ay/yil farkli. Supheni dogruladi: data/yerlesimler.js'teki EGRI kaydi da BIREBIR ayni string'i (1687-12-17) tasiyor - veri muhtemelen Munkacs'i Egri'nin dustugu kusatma dalgasina esitlemis, gun rakamini (17) korumus ama ay/yili yanlis atamis. Duzeltme: data/yerlesimler_ek_macaristan.js:249, VERI SAHIPLIK/Oturum 0 isi, ben dokunmadim. (2) IRAKEYN 1534: gorev tarifi 5 yerlesimin (Arpacay/Digor/Igdir/Gumru/Ecmiyadzin) o gun Osmanli'ya katildigini soyluyordu. Arpacay/Digor/Igdir icin veri dogruluyor (d: 1534-01-01 basliyor), YAZILDI. AMA Gumru ve Ecmiyadzin'in yerlesimler.js kaydinda hic 'd:' donemi YOK - akkoyunlu->safevi->afsar->zend->kacar->rusya(1828) zinciri, HICBIR ZAMAN Osmanli olmamislar. Gorev tarifi mi yanlis yoksa bu ikisinin veri kaydinda eksik bir kisa Osmanli donemi mi var, cozemedim - senin/VERI SAHIPLIK'in karari gerekiyor. Ayrica UC madde (Cildir 1551, Karesi 1345, Trakya 1357) zaten VAR ama yer: listeleri eksik - benim dosyam degil (olaylar_ek.js/ek5.js), genisletme onerisini asagida ayri mesajda listeleyecegim. Karaman 1468 icin de TDV'de 1468 vs 1474 celiskisi supheli cikti, tam metinle dogrulamam gerekiyor, ayri bildirecegim.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
