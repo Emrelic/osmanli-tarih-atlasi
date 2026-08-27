@@ -1,0 +1,5 @@
+// renk_olc.py --oner çıktısı — aktarımdan SONRA:
+//   py arac/renk_olc.py --dogrula oneri-20260827-003235.txt
+litvanya-buyuk-dukalik #2454d2
+irlanda-serbest-devlet #2424d2
+lur-i-kucek #242ad2

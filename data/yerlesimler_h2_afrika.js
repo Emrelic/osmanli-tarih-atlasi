@@ -805,7 +805,7 @@ window.YERLESIMLER_H2_AFRIKA = [
   s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
 
 { ad:"Meşra er-Rek", tur:"liman", lat:8.417, lon:29.283, g:0, k:0,
-  kasitli_bosluk:true,bos:"hata", neden:"Bahrülgazâl iskelesi — Mısır ilhakı (1873) Değişmez 2 borcu doğuracağı için yazılamadı",
+  kasitli_bosluk:true,bos:"kabile", neden:"Bahrülgazâl iskelesi — Nuer/Dinka ülkesi, devlet teşkilâtı yok. ⚠️ Mısır ilhakı (1873) Değişmez 2 borcu doğuracağı için DÖNEM YAZILAMADI — bu not korunmalı. 🔴 27 Ağu 2026: cins `hata` idi ve `hata`, motorun DOLDURABİLDİĞİ TEK kova (uret_petek.py:3564 DOLDURULABILIR_BOS). Kayıt bir hata değil, bir PARK YERİ olarak `hata`ya konmuştu ve petek komşusuna katılıp 21.111 km² DOĞRUDAN OSMANLI boyanıyordu (Emre 0036/H-0001, G1). Komşuları Bentiu ve Vav zaten `devletsiz` olduğu için korunuyordu; bu kayıt korunmuyordu.",
   s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
 
 { ad:"Vav", tur:"sehir", lat:7.702, lon:27.990, g:1, k:0,

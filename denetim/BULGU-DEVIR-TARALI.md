@@ -240,3 +240,172 @@ Dürüstlük kaydı — üçü de düzeltildi, ama üçü de rapor edilmeye değ
 📌 ③ olmasaydı, bulguyu *"benim testim bozuk"* diye eleyip kökü
 kaçırabilirdim. **Bir bulguya inanmadan önce aleti sınamak, bulguyu
 elemekten farklıdır** — biri ölçer, öteki susturur.
+
+---
+---
+
+# EK — DÜZELTMEDEN SONRA: ÇIKTININ ÖLÇÜMÜ
+
+**Tarih:** 27 Ağustos 2026, ikinci tur · **Dayanak:** `e53c86a`
+Yukarıdaki bölümler **girdinin** düzeldiğini ölçmüştü. Bu ek **çıktıyı**
+ölçüyor. Yine yalnız rapor; hiçbir dosyaya yazılmadı.
+
+## E0. Kök gerçekten kapandı — çıktı tarafından doğrulandı
+
+Karlofça **1 alıcı → 4 alıcı**, ve içleri tek tek okundu:
+
+| alıcı | km² | içindeki yerleşimler |
+|---|---|---|
+| Avusturya | 263.758 | Budin · Peçuy · Estergon · **Eğri · Kanije · Uyvar** · İstolni Belgrad · Peşte · Varad · Yanova · Ösek · Mohaç · Varadin … |
+| Lehistan | 164.643 | **Kamaniçe · Bar (Podolya)** · Çehrin · Meciboj · Yazlofça |
+| Venedik | 36.263 | Mora · Modon · Patras · İnebahtı · Ayamavra · Koron · **Knin · Sinj** · Herseknovi … |
+| Rusya | 24.340 | **Azak** · Taganrog · Rostov |
+
+> ✅ **H-0007 kapandı** — Emre'nin adıyla saydığı Kanije · Uyvar · Eğri
+> artık Avusturya'nın taralı alanının içinde.
+> ✅ **H-0010 kapandı** — Kamaniçe ve Bar (Podolya) artık Lehistan'ın
+> alanında.
+
+---
+
+## E1. 🔴 rusya@Karlofça = **AZAK** — ve çelişki gerçekti
+
+Koordinatör haklı olarak sordu: *"Sen 0 km² doğru demiştin, şimdi 24 bin
+km² var. Hangisi doğru?"*
+
+**Ölçüm: 24.340 km²'nin içi Azak · Taganrog · Rostov.** Yani tam da
+gerekçemin konusu.
+
+**İkisi de doğru — farklı sorulara cevap veriyorlar:**
+
+```
+FORMÜLÜN sorusu   "alıcı, antlaşma günü Osmanlı'nın savaş başı toprağından
+                   ne TUTUYORDU?"        → Azak. Rusya 1696'da ALDI. ✓ doğru
+BENİM sorum       "antlaşma NEYİ DEVRETTİ?"
+                   → Karlofça'da Rusya'ya hiçbir şey. ✓ doğru
+```
+
+**Tarihsel dayanak:** Karlofça (26 Ocak 1699) Osmanlı ile Avusturya ·
+Lehistan · Venedik arasında imzalandı. **Rusya yalnız iki yıllık bir
+mütareke imzaladı**; Azak'ı devreden kesin barış **İstanbul Antlaşması,
+13 Temmuz 1700**'dür.
+
+> 🔴 **Ve bu, koordinatörün ③ hipotezinin ISIRDIĞI yer.** Ben o hipotezi
+> Karlofça'nın *geçiş tarihleri* üzerinde ölçmüş ve *"69'da 1, bedeli
+> sıfıra yakın"* demiştim — **o ölçüm doğruydu ama dar bir evrende**.
+> Hipotez geçiş tarihlerinde değil, **katalogun ALICI LİSTESİNDE** ısırıyor:
+> Rusya, Karlofça'nın tarafı bile değil.
+> 📌 Kendi dersimin üstüme düşen hâli: *ölçüm doğru, evren dar.*
+
+**Öneri:** `rusya`yı Karlofça'nın `alicilar` listesinden **çıkar**, ayrı bir
+kayıt aç:
+```python
+{"ad": "İstanbul Antlaşması (1700)", "t": "1700-07-13",
+ "savas_basi": "1683-07-14", "alicilar": ["rusya"]}
+```
+Alan aynı kalır (Azak yine çıkar), ama **doğru antlaşmanın altında**.
+
+---
+
+## E2. Alıcı listeleri tarihen doğru mu — sayıyla
+
+Taralı alanların içindeki **246 yerleşim**, savaş başındaki sahibine göre:
+
+| savaş başı sahibi | sayı | oran | hüküm |
+|---|---|---|---|
+| **OSMANLI** | **193** | %78 | ✅ gerçek toprak devri |
+| **tâbi** | 39 | %16 | ⚠️ **egemenlik** kaybı, toprak devri değil |
+| **yabancı / sahipsiz** | 14 | %6 | 🔴 hiç Osmanlı olmamış |
+
+### ⚠️ `tâbi` 39 — ayrı bir CİNS, hata değil ama aynı da değil
+
+Yoğunlaştığı yerler: **Berlin/Romanya 15** · **Berlin/Sırbistan 6** ·
+Karlofça/Avusturya 10 (Erdel) · Pasarofça/Avusturya 4 · Bükreş 2 ·
+Edirne/Yunanistan 2.
+
+Bunlar *yanlış* değil — Erdel Karlofça'da gerçekten Habsburg'a geçti,
+Sırbistan ve Romanya Berlin'de gerçekten bağımsızlandı. **Ama Bükreş ve
+Yaş'ın 1878'de "kaybedilmesi", Budin'in 1699'da kaybedilmesiyle aynı şey
+değil**: biri tâbiiyetten çıkış, öteki toprak devri.
+
+> **Öneri:** taralı gösterimde ayırt edilsin (ayrı desen ya da lejantta
+> *"tâbiiyetten çıkan"*). Aksi hâlde Berlin Antlaşması, Romanya'nın
+> tamamını "kaybedilen toprak" gibi gösteriyor — ki Emre'nin *"berbat"*
+> dediği hissin bir kaynağı bu olabilir.
+> ⚠️ **Bu bir ÖNERİ, ölçüm değil** — Emre'nin görsel şikâyetinin bununla
+> ilgili olduğunu **ölçmedim**.
+
+### 🔴 `yabancı/sahipsiz` 14 — bunlar gerçekten fazla
+
+```
+Kotor (Cattaro)      Karlofça/Venedik   1420'den beri Venedik  ← gerçek kusur
+Gümrü · Eçmiyadzin   Ahmed Paşa/Safevî  savaş başı zaten safevi ← gerçek kusur
+Rostov · Taganrog    Karlofça/Rusya     hiç Osmanlı olmadı
+8 Libya çölü noktası Uşi/İtalya         `kasıtlı_boşluk` dolgu noktaları
+```
+Son ikisi **§2 emilme artefaktı**: nokta yokken alan en yakın peteğe
+düşüyor. İlk üçü ise gerçek — hepsi **sınır komşusu** ve gövdenin kenarında.
+
+---
+
+## E3. Kalan EKSİK / FAZLA — ve kalan EKSİK **tek bir yerleşim**
+
+| gün | EKSİK | FAZLA |
+|---|---|---|
+| 1600-06-15 | **Munastır** | Kasr-ı Şîrîn · Kotor · Gümrü · +1 |
+| 1683-07-14 | **Munastır** | Kotor |
+| 1699-01-26 | **Munastır** | — |
+| 1718-07-21 | **Munastır** | — |
+| 1774-07-21 | **Munastır** | — |
+| 1829-09-14 | **Munastır** | Eğriboz |
+| 1878-07-13 | **Munastır** | — |
+
+> 🟢 **7 EKSİK = 1 yerleşim × 7 gün.** `Munastır` (Manastır/Bitola) yedi
+> kesitin yedisinde de Osmanlı gövdesinin dışında. Tek, kararlı, adı
+> belli bir kusur — ve **artık aranabilir**, çünkü gürültü kalktı.
+> ⚠️ **Sebebini ÖLÇMEDİM.** Koordinat hatası mı, mükerrer ad mı, peteği
+> mi yok — bakılmadı.
+
+FAZLA 6'nın 3'ü (Kotor · Gümrü · Kasr-ı Şîrîn) E2'deki listeyle **aynı
+kayıtlar**, yani iki ölçüm birbirini doğruluyor.
+
+---
+
+## E4. İstanbul 1736 — sebep bulundu, **veri değil KATALOG yanlış**
+
+```
+katalog       "alicilar": ["iran"]
+`iran` künyesi  1281-01-01 → 1510-12-02 · SON DÖNEM 1510'DA BİTİYOR
+1736-09-01'i kapsayan dönem: 0        ⇒ "gövde yok, atlandı"
+```
+
+1736-09-01'de o coğrafyada aktif olan kimlikler ölçüldü:
+
+| kimlik | ad | parça |
+|---|---|---|
+| **`afsar`** | **Afşâr Devleti (Nâdir Şah)** | **21** |
+| `galzay` | Galzay (Hotakî) Hânedanı | 1 |
+
+Ve `safevi` **1736-03-08**'de bitiyor — Nâdir Şah'ın tahta çıkışıyla,
+**tarihen doğru**.
+
+> ✅ **Öneri:** `"alicilar": ["iran"]` → **`["afsar"]`**.
+> Veri doğru, künye doğru, tarih doğru; yalnız katalog eski bir kimliği
+> gösteriyor. Tek kelimelik düzeltme.
+> 📌 Bu, `§4`ün *"kendi transliterasyonunu değil gerçek `id:`yi kullan"*
+> kuralının katalog tarafı.
+
+---
+
+## E5. Bu turda ölçmediklerim
+
+- **`Munastır`ın niçin dışarıda kaldığı** — tespit edildi, teşhis edilmedi.
+- **`Kotor` · `Gümrü` · `Eçmiyadzin`in niçin içeride kaldığı** — sınır
+  komşusu oldukları görüldü, sebep ölçülmedi.
+- **`tâbi` 39 kaydının görsel etkisi** — Emre'nin şikâyetiyle bağı
+  **kurulmadı**, yalnız hipotez olarak yazıldı.
+- **Uşi/İtalya 1.056.626 km²** doğru mu — Libya'nın yüzölçümüyle
+  kıyaslanmadı.
+- **Hiçbir görsel yine açılmadı** (0/18).
+- **Yeni `devirler.js` haritada nasıl görünüyor** — çizim katmanı
+  (`js/app.js:1065`) **hiç çalıştırılmadı**; ölçümüm veride kaldı.
