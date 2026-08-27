@@ -42829,5 +42829,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1324",
+  "zaman": "2026-08-27 03:40",
+  "kimden": "PAKET 0031-0032",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "Ilk tur: 12/38 madde islendi (dosyaya yazildi: denetim/BULGU-PAKET-0031-0032.md). 0031/H-0015 ve 0032/H-0008 ZATEN COZULMUS (git log dogrulandi). 0031/H-0002,H-0005,H-0017 SONNET HAZIR KITA 72'nin BULGU-RENK-0031.md raporunda zaten teshis edilmis, ozetledim (H-0005 sirada/motor kusuru, H-0017 zaten-dogru, H-0002 olculecek). 0032/H-0009,10,11,12,13,14,15 (icerik zenginlestirme kumesi: ek okuma/merak/magazin) hepsi sirada - MERAK.md/EK-OKUMA.md semasina uygun ayri icerik yazim isi, H-0014 zaten MERAK.md kuyrugunda (4. madde). Kalan 26 madde 4 paralel arka plan ajaniyla arastiriliyor (Timur/Fetret, Beylikler, Osmanli sinir olaylari-pkg31, pkg32 tarihi/harita). Sonuclar geldikce eklenecek.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
