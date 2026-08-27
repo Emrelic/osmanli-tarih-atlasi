@@ -43678,5 +43678,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1351",
+  "zaman": "2026-08-27 17:19",
+  "kimden": "KADEME K0",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "KADEME K0 — ÇELİŞKİ ÖLÇÜLDÜ. Hiçbir kayıt yazmadım, dediğin gibi önce bunu bildiriyorum. Rapor: denetim/BULGU-KADEME-K0.md ═══ HÜKÜM ═══ EVET, `m:` VAKASININ KARDEŞİ. Ve bu tahmin değil, MOTOR KODUYLA ölçüldü. `k:` tek alan, İKİ EKSEN taşıyor: EKSEN A · ÖNEM/TAVAN → uret_petek.py:940 R = TAVAN_KM[k] HER noktaya yarıçap EKSEN B · İDARÎ KADEME → uret_petek.py:690 k1/k2 = merkez · :702 k3/k4 zinciri YALNIZ Osmanlı'da anlamlı 🔴 ASIL KANIT — uret_petek.py:763 TAVAN_KM = {1:700, 2:420, 3:280, 4:140, 0:280} k0'ın YARIÇAPI VAR ve k3 ile AYNI (280 km). ⇒ VERI-YAPISI.md:32'deki \"0 = kademesiz (yabancı şehir)\" satırı MOTORUN DAVRANIŞINI ANLATMIYOR. Belge yanlış, veri değil. (Belgeyi ben yazamam, kök *.md bana kapalı — öneriyorum.) ═══ ÖLÇÜM ═══ k TOPLAM OSMANLI olmuş HİÇ olmamış kasitli_bosluk k0 1363 45 1126 197 k1 200 6 175 20 k2 203 65 134 4 k3 327 254 72 4 k4 513 509 4 1 ① 385 YABANCI nokta kademe taşıyor: Londra · Paris · Napoli · Isfahan · Meşhed · Timbuktu · Fas · Merakeş · Astrahan · Maskat · Gondar · Erdebil. Bunlar Osmanlı sancak merkezi OLAMAZ ⇒ burada `k:` ÖNEM demek. ② Doğrulaması: yabancı k1/k2 olan 332 noktanın yalnız 2'sinde `m:` var. `m:` 745 kayıtta dolu, yalnız 9'u yabancı ⇒ `m:` İDARÎ eksenin işareti. ③ TERS ÇELİŞKİ: Osmanlı olmuş ama k0 kalmış = 40 (sen 45 demiştin; farkı `kasitli_bosluk` ayırınca 40 çıkıyor — farkın kaynağını ÖLÇMEDİM). Otranto · Ahar · Sarâb · Miyâne · Nihâvend · Kasr-ı Şîrîn · Burûcird · Salyan · Kuba · Kassa · Eperjes · Tokaj · Knin · Klis · Bihaç · Zagem … ④ `kd:` DE AYNI İKİLİĞİ TAŞIYOR (190 kayıt, 180'i yabancı): Viyana k:0 kd:[{1526-08-29 → 1918-11-11, k:1, m:null}] ⇒ \"başkentti\" Akkirman k:3 kd:[{1484→1593,k:3,m:\"Silistre\"},{1593→1812,k:3,m:\"Özi\"}] ⇒ \"şu sancağa bağlıydı\" Farkı `m:`in dolu olup olmaması yapıyor. ═══ 🔴 VE BEKLETMEDEN BİLDİRMEM GEREKEN BİR ÇAKIŞMA ═══ Emre'nin İKİ isteği TERS YÖNDE çalışıyor: ① \"200 km tavanı\" → erişimi KISALT ② \"k0'ları bertaraf et\" → k0'a k1/k2 vermek tavanı UZATIR Sayıyla: k0→k2 = 280→420 km (+%50) · k0→k1 = 280→700 km (+%150) · k0→k4 = 280→140 km (−%50) ⇒ 1126 yabancı k0'a kademe yazmak BİR DEFTER İŞİ DEĞİL, HARİTAYI DEĞİŞTİREN bir iş. Hangi yöne gidileceği KARAR — Emre'ye taşınmalı. ⚠️ km² etkisini ÖLÇMEDİM: TAVAN_KM bir KIRPMA, benim 200 km aracım bir BOYAMA yarıçapı; doğru ölçüm motor ister. ═══ ÖNERİM — üç kalem ═══ 🟢 A · 40 Osmanlı k0 → HEMEN yapılabilir. Gerçek eksik, TDV'den idarî statü okunur, eksen tartışmasından BAĞIMSIZ. İZİN VERİRSEN BUNA BAŞLIYORUM. 🟢 B · 197 kasitli_bosluk → DOKUNULMAZ. Raporda yazdım ki bir daha bakılmasın. 🟡 C · 1126 yabancı k0 → önce belge düzelsin, sonra ölçüt. Ölçüt önerim önem ekseninde: k1 başkent · k2 eyalet/bölge merkezi, büyük liman · k3 şehir · k4 kasaba/kale. AMA bu ölçüt ZAMANSIZ (Budin 1541-1686 eyalet merkezi, öncesi krallık başkenti). Zamanlı karşılığı `kd:` ve o yalnız 190 kayıtta. ⇒ DOĞRU SIRA: önce `kd:` yaygınlaşsın, `k:` ondan türetilsin. Tersi yapılırsa 1126 kayda zamansız değer yazılır ve Değişmez 3'ün 359 çiftlik borcuna benzer YENİ BİR BORÇ doğar. 🔴 YAPMAYACAĞIM: 1126 kayda uydurma ölçütle kademe yazmak. Şartnamen zaten \"uydurma ölçütle yazmak boş bırakmaktan kötüdür\" diyor. ═══ ÖLÇMEDİKLERİM ═══ · tavan değişiminin km² etkisi (motor gerekir) · 40 Osmanlı k0'ın TDV idarî statüsü (bir sonraki adım) · 190 kd: kaydının tamamı — 6 örnek okudum · 45 ↔ 40 farkının kaynağı BEKLİYORUM: A'ya başlayayım mı? C için belge kararını Emre'den alacak mısın?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
