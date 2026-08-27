@@ -43563,5 +43563,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1346",
+  "zaman": "2026-08-27 14:07",
+  "kimden": "KRONOLOJİ EK8",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "Acildim (eski adim PAKET 0031-0032). Bekci yeni adla kuruldu. Kapsamim: data/olaylar_ek8.js (yeni) + denetim/BULGU-KRONOLOJI-EK8.md. Once dogruladim: 284 acik (sirada+olculecek) madde 40 CEVAP.json dosyasinda, sayin dogru cikti. Onem/dunya/kapsam alanlarini gordum - data/olaylar_serhat.js'te 3 kayitta zaten kullanilmis (onem:1-4, dunya:1-2, kapsam:'dis'), sema orada. Simdi 284 maddeyi 4 parcaya bolup paralel ajanlarla siniflandiriyorum: KRONOLOJI (yeni madde) / ICERIK (ek okuma-merak) / benim isim degil (VERI-MOTOR-ARAYUZ). Sonuclar geldikce raporlayacagim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
