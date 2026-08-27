@@ -246,10 +246,10 @@ window.YERLESIMLER_EK_MACARISTAN = [
 { ad:"Munkács (Mukacheve)", tur:"kale", lat:48.4421, lon:22.7185, g:0, k:4,
   s:[{f:"1281-01-01",t:"1526-08-29",d:"macaristan"},
      {f:"1526-08-29",t:"1682-09-16",d:"avusturya"},
-     {f:"1687-12-17",t:"1918-11-11",d:"avusturya"},
+     {f:"1688-01-17",t:"1918-11-11",d:"avusturya"},
      {f:"1918-11-11",t:"1923-10-29",d:"cekoslovakya"}],
   d:[],
-  v:[{f:"1682-09-16",t:"1687-12-17",k:"Orta Macar Krallığı — Ilona Zrínyi'nin Munkács savunması"}] },
+  v:[{f:"1682-09-16",t:"1688-01-17",k:"Orta Macar Krallığı — Ilona Zrínyi'nin Munkács savunması"}] },
 
 // ───────── ④ SZATMÁR — `v:` YAZILMADI, ve bu bir HÜKÜM ─────────
 //

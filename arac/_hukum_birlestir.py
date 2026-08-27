@@ -15,6 +15,9 @@ KUTU = r"C:\Users\emrem\OneDrive\Desktop\ClaudEmre\kutu\giden"
 GECERLI = {"cozuldu", "zaten-dogru", "tekrar", "sirada",
            "olculecek", "gerek-yok", "senin-kararin"}
 GEREKCE_SART = {"gerek-yok", "senin-kararin"}
+# ACIK = "is henuz bitmedi" diyen hukumler. Bunlardan HERHANGI bir hukme
+# gecis ILERLEMEDIR ve uygulanir; tersi (kapali -> acik) insana sorulur.
+ACIK = {"sirada", "olculecek", "tekrar"}
 
 def yaz(s):
     print(str(s).encode("ascii", "replace").decode("ascii"))
@@ -58,10 +61,27 @@ for ky in kaynaklar:
                 red += 1
                 continue
             if no in mad and mad[no].get("hukum"):
-                if mad[no].get("hukum") != h:
-                    yaz("   ⚠️ CAKISMA %s/%s: mevcut '%s' ← yeni '%s' "
-                        "— UZERINE YAZMADIM, karar insana"
-                        % (paket, no, mad[no].get("hukum"), h))
+                eski = mad[no].get("hukum")
+                if eski != h:
+                    # 🟢 ILERLEME EZME DEGILDIR — 27 Agustos 2026 duzeltmesi.
+                    #   Ilk surum HER hukum degisikligini "cakisma" sayiyordu
+                    #   ve isin AMACINI reddediyordu: bir isci `sirada`yi
+                    #   `cozuldu` yapmak icin calisiyor. 410 hukum boyle
+                    #   atlandi ve hicbiri gercek bir cakisma degildi.
+                    #   ⚠️ Ama ters yon GERCEKTEN tehlikeli: kapali bir hukmu
+                    #   yeniden acmak, verilmis bir karari sessizce iptal
+                    #   etmektir. O yuzden yon SORULUYOR, degisiklik degil.
+                    if eski in ACIK:
+                        mad[no] = dict(kayit)
+                        mad[no]["onceki_hukum"] = eski
+                        mad[no]["ilerleten"] = os.path.basename(ky)
+                        yaz("   -> ILERLEME %s/%s: %s -> %s"
+                            % (paket, no, eski, h))
+                        yeni += 1
+                        continue
+                    yaz("   [!] CAKISMA %s/%s: mevcut '%s' (KAPALI) <- yeni '%s' "
+                        "- UZERINE YAZMADIM, karar insana"
+                        % (paket, no, eski, h))
                     atlanan += 1
                     continue
                 # 🟢 HUKUM AYNI ise GEREKCEYI ZENGINLESTIR.
