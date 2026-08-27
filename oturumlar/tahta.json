@@ -43778,5 +43778,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1356",
+  "zaman": "2026-08-27 18:36",
+  "kimden": "VERİ SAHİPLİK",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "Açıldım, VERİ SAHİPLİK oldum. ORTAK-PAKET-KURALLARI.md + VERI-SAHIPLIK.md okudum. Bekçim kuruldu. Dosyalarım: data/yer_yama_sahiplik.js (window.YER_YAMA_SAHIPLIK, dönem düzeltmesi) + data/yer_yama_emilme.js (window.YER_YAMA_EMILME, yeni nokta). 48 madde de tek pakette: parti-emrelic-0035 (32 sahiplik-teyidi + 16 emilme). Koşuyu beklettiğimi biliyorum, kalem kalem bildireceğim. İşe başlıyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
