@@ -65,7 +65,7 @@ window.YERLESIMLER_EK10 = [
 // Çimgi-Tura — hanlığın ilk merkezi, "Tümen Hanlığı" adı buradan gelir.
 // TDV `kucum-han`: "Merkezi Tura (bugün Tümen) şehri olan Sibir Hanlığı".
 // Ruslar 1586'da bugünkü Tümen'i kurdu (TDV, yıl).
-{ ad:"Tümen (Çimgi-Tura)", tur:"sehir", lat:57.1530, lon:65.5343, g:0, k:0, d:[],
+{ ad:"Tümen (Çimgi-Tura)", tur:"sehir", lat:57.1530, lon:65.5343, g:0, k:1, d:[],
   s:[{f:"1281-01-01",t:"1430-01-01",d:"altinorda"},{f:"1430-01-01",t:"1598-08-20",d:"sibir-hanligi"},{f:"1598-08-20",t:"1923-10-29",d:"rusya"}] },
 
 // İsker/Sibir — hanlığa adını veren başkent, bugünkü Tobolsk'un yakını.

@@ -159,7 +159,7 @@ window.YERLESIMLER_ORTAASYA2 = [
 // Zincir Nesâ ve Ebîverd ile birebir aynıdır (Ahal tek birim sayıldı);
 // vahanın batı ucunun Hîve ile İran arasında sürekli çekişmeli olduğunu not
 // olarak bırakıyorum — ayrı kimlik yazmaya yetecek yazılı tarih bulamadım.
-{ ad:"Kızılarvat", tur:"sehir", lat:38.9833, lon:56.2833, g:0, k:0, d:[],
+{ ad:"Kızılarvat", tur:"sehir", lat:38.9833, lon:56.2833, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1337-09-09", d:"ilhanli"},
      {f:"1337-09-09", t:"1381-01-01", d:"serbedariler"},
      {f:"1381-01-01", t:"1507-05-24", d:"timurlu"},
@@ -178,7 +178,7 @@ window.YERLESIMLER_ORTAASYA2 = [
 // Öncesi Teke Türkmenleri'nin köyüdür; şehir 1881'de Rus garnizonuyla
 // kuruldu, o yüzden kur: o güne yazıldı ve 1881 öncesi dönem YOK.
 // O pencerede aynı vahanın sahibini komşu Nesâ kaydı taşıyor.
-{ ad:"Aşkabad", tur:"sehir", lat:37.9500, lon:58.3800, g:1, k:0, d:[],
+{ ad:"Aşkabad", tur:"sehir", lat:37.9500, lon:58.3800, g:1, k:3, d:[],
   kur:"1881-01-30",
   s:[{f:"1881-01-30", t:"1923-10-29", d:"rusya"}] },
 
@@ -220,7 +220,7 @@ window.YERLESIMLER_ORTAASYA2 = [
 // ⚠️ TDV'de maddesi yok; kuruluş yılı standart akademik referanstan,
 // gün verilmediği için yıl başına yaslandı (CLAUDE.md §4).
 // 1869 öncesi bozkırın sahibini komşu Emba ve Üstyurt kuzeyi kayıtları taşır.
-{ ad:"Aktöbe", tur:"kale", lat:50.2833, lon:57.1667, g:0, k:0, d:[],
+{ ad:"Aktöbe", tur:"kale", lat:50.2833, lon:57.1667, g:0, k:4, d:[],
   kur:"1869-01-01",
   s:[{f:"1869-01-01", t:"1923-10-29", d:"rusya"}] },
 
@@ -230,7 +230,7 @@ window.YERLESIMLER_ORTAASYA2 = [
 // Hazar'ın KUZEYDOĞU köşesini kapatıyor — birinci parti raporunda "kapsam
 // dışı, öneri olarak bırakıldı" diye işaretlediğim nokta budur; Kazak
 // bozkırı partisiyle birlikte artık gerekli oldu (Astrahan'a 308 km).
-{ ad:"Guryev (Atyrau)", tur:"liman", lat:47.1100, lon:51.9200, g:0, k:0, d:[],
+{ ad:"Guryev (Atyrau)", tur:"liman", lat:47.1100, lon:51.9200, g:0, k:3, d:[],
   kur:"1640-01-01",
   s:[{f:"1640-01-01", t:"1923-10-29", d:"rusya"}] },
 

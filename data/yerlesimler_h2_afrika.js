@@ -285,11 +285,11 @@ window.YERLESIMLER_H2_AFRIKA = [
 // k:0 ve m: YOK — Dârfûr egemen bir sultanlıktı (mevcut kayıtların gerekçesi).
 // ===========================================================================
 
-{ ad:"Kutum", tur:"sehir", lat:14.200, lon:24.660, g:0, k:0,
+{ ad:"Kutum", tur:"sehir", lat:14.200, lon:24.660, g:0, k:4,
   s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)"}] },
 
-{ ad:"Kebkâbiye", tur:"sehir", lat:13.650, lon:24.083, g:0, k:0,
+{ ad:"Kebkâbiye", tur:"sehir", lat:13.650, lon:24.083, g:0, k:4,
   s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)"}] },
 
@@ -299,19 +299,19 @@ window.YERLESIMLER_H2_AFRIKA = [
   s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)"}] },
 
-{ ad:"Zâlincî", tur:"sehir", lat:12.905, lon:23.483, g:0, k:0,
+{ ad:"Zâlincî", tur:"sehir", lat:12.905, lon:23.483, g:0, k:4,
   s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)"}] },
 
-{ ad:"Ed-Da'în", tur:"sehir", lat:11.462, lon:26.128, g:0, k:0,
+{ ad:"Ed-Da'în", tur:"sehir", lat:11.462, lon:26.128, g:0, k:4,
   s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)"}] },
 
-{ ad:"Burâm", tur:"sehir", lat:10.833, lon:25.167, g:0, k:0,
+{ ad:"Burâm", tur:"sehir", lat:10.833, lon:25.167, g:0, k:4,
   s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)"}] },
 
-{ ad:"Ümmü Keddâde", tur:"sehir", lat:13.600, lon:26.690, g:0, k:0,
+{ ad:"Ümmü Keddâde", tur:"sehir", lat:13.600, lon:26.690, g:0, k:4,
   s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)"}] },
 
@@ -326,7 +326,7 @@ window.YERLESIMLER_H2_AFRIKA = [
 // 📌 Ders: "biraz doğuya kaydırdım, artık Sudan'dadır" bir TAHMİNDİR.
 //   Dârfûr zinciri taşıyan bir noktanın Çad'da durması §3.5.1'in ta
 //   kendisidir (yanlış devletin toprağını boyamak) ve tahminle kapatılamaz.
-{ ad:"Tîne (Dârfûr)", tur:"sehir", lat:15.060, lon:23.000, g:0, k:0,
+{ ad:"Tîne (Dârfûr)", tur:"sehir", lat:15.060, lon:23.000, g:0, k:4,
   s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)"}] },
 
@@ -382,22 +382,22 @@ window.YERLESIMLER_H2_AFRIKA = [
 //   yazıldığında düzeltilmelidir.
 // ===========================================================================
 
-{ ad:"Ağordat", tur:"sehir", lat:15.549, lon:37.889, g:0, k:0,
+{ ad:"Ağordat", tur:"sehir", lat:15.549, lon:37.889, g:0, k:3,
   s:[{f:"1281-01-01",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1923-10-29",d:"italya"}], d:[] },
 
-{ ad:"Barentu", tur:"sehir", lat:15.106, lon:37.590, g:0, k:0,
+{ ad:"Barentu", tur:"sehir", lat:15.106, lon:37.590, g:0, k:3,
   s:[{f:"1281-01-01",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1923-10-29",d:"italya"}], d:[] },
 
-{ ad:"Nakfa", tur:"sehir", lat:16.667, lon:38.475, g:0, k:0,
+{ ad:"Nakfa", tur:"sehir", lat:16.667, lon:38.475, g:0, k:3,
   s:[{f:"1281-01-01",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1923-10-29",d:"italya"}], d:[] },
 
-{ ad:"Tesseney", tur:"sehir", lat:15.110, lon:36.660, g:0, k:0,
+{ ad:"Tesseney", tur:"sehir", lat:15.110, lon:36.660, g:0, k:3,
   s:[{f:"1281-01-01",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1923-10-29",d:"italya"}], d:[] },
 
-{ ad:"Adi Kayh", tur:"sehir", lat:14.845, lon:39.377, g:0, k:0,
+{ ad:"Adi Kayh", tur:"sehir", lat:14.845, lon:39.377, g:0, k:3,
   s:[{f:"1281-01-01",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1923-10-29",d:"italya"}], d:[] },
 
-{ ad:"Ğındâ", tur:"sehir", lat:15.500, lon:39.000, g:0, k:0,
+{ ad:"Ğındâ", tur:"sehir", lat:15.500, lon:39.000, g:0, k:3,
   s:[{f:"1281-01-01",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1923-10-29",d:"italya"}], d:[] },
 
 // ⚠️ Osmanlı dönemi yazılamadı — yukarıdaki bölüm notuna bakınız.
@@ -413,19 +413,19 @@ window.YERLESIMLER_H2_AFRIKA = [
 // mevcut kırılmadan başlar (yeni gün icat edilmedi).
 // ===========================================================================
 
-{ ad:"Cibûtî", tur:"liman", lat:11.588, lon:43.145, g:1, k:0, kur:"1888-01-01",
+{ ad:"Cibûtî", tur:"liman", lat:11.588, lon:43.145, g:1, k:3, kur:"1888-01-01",
   s:[{f:"1888-01-01",t:"1923-10-29",d:"fransa-cumhuriyet",enklav:true}], d:[] },
 
 // ⚠️ lat/lon 11,967/43,283'ten 11,993/43,278'e alındı (2,9 km kuzey): ham
 // koordinat Natural Earth 10m kara maskesinin DIŞINDA kalıyordu ve maske
 // dışı nokta HİÇ toprak sahibi olamaz (denetle.py konum denetimi).
-{ ad:"Obok", tur:"liman", lat:11.993, lon:43.278, g:0, k:0,
+{ ad:"Obok", tur:"liman", lat:11.993, lon:43.278, g:0, k:3,
   s:[{f:"1281-01-01",t:"1884-01-01",d:"adal"},{f:"1884-01-01",t:"1923-10-29",d:"fransa-cumhuriyet",enklav:true}], d:[] },
 
-{ ad:"Alî Sabîh", tur:"sehir", lat:11.156, lon:42.712, g:0, k:0,
+{ ad:"Alî Sabîh", tur:"sehir", lat:11.156, lon:42.712, g:0, k:3,
   s:[{f:"1281-01-01",t:"1884-01-01",d:"adal"},{f:"1884-01-01",t:"1923-10-29",d:"fransa-cumhuriyet",enklav:true}], d:[] },
 
-{ ad:"Dikhil", tur:"sehir", lat:11.104, lon:42.370, g:0, k:0,
+{ ad:"Dikhil", tur:"sehir", lat:11.104, lon:42.370, g:0, k:3,
   s:[{f:"1281-01-01",t:"1884-01-01",d:"adal"},{f:"1884-01-01",t:"1923-10-29",d:"fransa-cumhuriyet",enklav:true}], d:[] },
 
 // ===========================================================================
@@ -437,42 +437,42 @@ window.YERLESIMLER_H2_AFRIKA = [
 // ===========================================================================
 
 // Semien dağlarının kapısı; Gondar ile Aksum arasındaki 200 km'lik boşluk.
-{ ad:"Debârek", tur:"sehir", lat:13.157, lon:37.900, g:0, k:0,
+{ ad:"Debârek", tur:"sehir", lat:13.157, lon:37.900, g:0, k:3,
   s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 // Gocam'ın merkezi; Nil kavsi içindeki bütün yayla noktasızdı.
-{ ad:"Debre Markos", tur:"sehir", lat:10.350, lon:37.717, g:0, k:0,
+{ ad:"Debre Markos", tur:"sehir", lat:10.350, lon:37.717, g:0, k:3,
   s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
-{ ad:"Mota", tur:"sehir", lat:11.083, lon:37.867, g:0, k:0,
+{ ad:"Mota", tur:"sehir", lat:11.083, lon:37.867, g:0, k:3,
   s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
-{ ad:"Bure (Gocam)", tur:"sehir", lat:10.700, lon:37.067, g:0, k:0,
+{ ad:"Bure (Gocam)", tur:"sehir", lat:10.700, lon:37.067, g:0, k:3,
   s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
-{ ad:"Völdiya", tur:"sehir", lat:11.830, lon:39.600, g:0, k:0,
+{ ad:"Völdiya", tur:"sehir", lat:11.830, lon:39.600, g:0, k:3,
   s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 // II. Tewodros'un kalesi ve 1868 İngiliz seferinin hedefi.
-{ ad:"Mekdelâ", tur:"kale", lat:11.410, lon:39.360, g:0, k:0,
+{ ad:"Mekdelâ", tur:"kale", lat:11.410, lon:39.360, g:0, k:4,
   s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
-{ ad:"Ambo", tur:"sehir", lat:8.983, lon:37.850, g:0, k:0,
+{ ad:"Ambo", tur:"sehir", lat:8.983, lon:37.850, g:0, k:3,
   s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
-{ ad:"Fiçe", tur:"sehir", lat:9.800, lon:38.733, g:0, k:0,
+{ ad:"Fiçe", tur:"sehir", lat:9.800, lon:38.733, g:0, k:3,
   s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
-{ ad:"Avaş", tur:"sehir", lat:8.983, lon:40.167, g:0, k:0,
+{ ad:"Avaş", tur:"sehir", lat:8.983, lon:40.167, g:0, k:3,
   s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
-{ ad:"Bâtî", tur:"sehir", lat:11.192, lon:40.017, g:0, k:0,
+{ ad:"Bâtî", tur:"sehir", lat:11.192, lon:40.017, g:0, k:3,
   s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
-{ ad:"Hosaena", tur:"sehir", lat:7.550, lon:37.850, g:0, k:0,
+{ ad:"Hosaena", tur:"sehir", lat:7.550, lon:37.850, g:0, k:3,
   s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
-{ ad:"Arba Minç", tur:"sehir", lat:6.033, lon:37.550, g:0, k:0,
+{ ad:"Arba Minç", tur:"sehir", lat:6.033, lon:37.550, g:0, k:3,
   s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 // ===========================================================================
@@ -484,10 +484,10 @@ window.YERLESIMLER_H2_AFRIKA = [
 // Dire Dava 1902'de demiryolu üzerinde kuruldu — `kur:` taşır.
 // ===========================================================================
 
-{ ad:"Dire Dava", tur:"sehir", lat:9.593, lon:41.866, g:0, k:0, kur:"1902-01-01",
+{ ad:"Dire Dava", tur:"sehir", lat:9.593, lon:41.866, g:0, k:3, kur:"1902-01-01",
   s:[{f:"1902-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
-{ ad:"Dagahbûr", tur:"sehir", lat:8.217, lon:43.567, g:0, k:0,
+{ ad:"Dagahbûr", tur:"sehir", lat:8.217, lon:43.567, g:0, k:3,
   s:[{f:"1281-01-01",t:"1887-01-06",d:"adal"},{f:"1887-01-06",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 // 🔴 AVSA SULTANLIĞI — `avsa` kimliği ne renkli ne künyeli, ve UYDURULMADI.
@@ -495,7 +495,7 @@ window.YERLESIMLER_H2_AFRIKA = [
 // AVSA'ya taşındı. Yani Avsa, Adal'ın devamıdır ve `adal` kimliğiyle yazmak
 // bir tahmin değil, kaynağın kendi cümlesidir. Sultanlık 1923'ten sonra da
 // sürdüğü için tek dönem hâlinde 1923-10-29'a kadar uzatıldı.
-{ ad:"Asâyita (Avsa)", tur:"sehir", lat:11.567, lon:41.440, g:0, k:0,
+{ ad:"Asâyita (Avsa)", tur:"sehir", lat:11.567, lon:41.440, g:0, k:3,
   s:[{f:"1281-01-01",t:"1923-10-29",d:"adal"}], d:[] },
 
 // ===========================================================================
@@ -562,7 +562,7 @@ window.YERLESIMLER_H2_AFRIKA = [
   s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 // Gambela 1907'de Mavi Nil ticaretinin iskelesi olarak kuruldu.
-{ ad:"Gambela", tur:"liman", lat:8.250, lon:34.588, g:0, k:0, kur:"1907-01-01",
+{ ad:"Gambela", tur:"liman", lat:8.250, lon:34.588, g:0, k:3, kur:"1907-01-01",
   s:[{f:"1907-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 // ===========================================================================
@@ -582,19 +582,19 @@ window.YERLESIMLER_H2_AFRIKA = [
 //   veride zaten kırılma olan 1897-01-01'dir.
 // ===========================================================================
 
-{ ad:"Kebrî Dehar", tur:"sehir", lat:6.733, lon:44.267, g:0, k:0,
+{ ad:"Kebrî Dehar", tur:"sehir", lat:6.733, lon:44.267, g:0, k:3,
   s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1897-01-01",d:"somali"},{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
-{ ad:"Verder", tur:"sehir", lat:6.960, lon:45.350, g:0, k:0,
+{ ad:"Verder", tur:"sehir", lat:6.960, lon:45.350, g:0, k:3,
   s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1897-01-01",d:"somali"},{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
-{ ad:"Gode", tur:"sehir", lat:5.950, lon:43.550, g:0, k:0,
+{ ad:"Gode", tur:"sehir", lat:5.950, lon:43.550, g:0, k:3,
   s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1897-01-01",d:"somali"},{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
-{ ad:"Kelâfo", tur:"sehir", lat:5.600, lon:44.200, g:0, k:0,
+{ ad:"Kelâfo", tur:"sehir", lat:5.600, lon:44.200, g:0, k:3,
   s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1897-01-01",d:"somali"},{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
-{ ad:"Dolo Odo", tur:"sehir", lat:4.167, lon:42.050, g:0, k:0,
+{ ad:"Dolo Odo", tur:"sehir", lat:4.167, lon:42.050, g:0, k:3,
   s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1897-01-01",d:"somali"},{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 // ===========================================================================
@@ -611,20 +611,20 @@ window.YERLESIMLER_H2_AFRIKA = [
 //   eksiklik KOORDİNATÖRE BİLDİRİLDİ.
 // ===========================================================================
 
-{ ad:"Şeyh (Somaliland)", tur:"sehir", lat:9.933, lon:45.183, g:0, k:0,
+{ ad:"Şeyh (Somaliland)", tur:"sehir", lat:9.933, lon:45.183, g:0, k:3,
   s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1923-10-29",d:"ingiltere"}], d:[] },
 
-{ ad:"Odveyne", tur:"sehir", lat:9.410, lon:45.062, g:0, k:0,
+{ ad:"Odveyne", tur:"sehir", lat:9.410, lon:45.062, g:0, k:3,
   s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1923-10-29",d:"ingiltere"}], d:[] },
 
-{ ad:"Borama", tur:"sehir", lat:9.936, lon:43.183, g:0, k:0,
+{ ad:"Borama", tur:"sehir", lat:9.936, lon:43.183, g:0, k:3,
   s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1923-10-29",d:"ingiltere"}], d:[] },
 
-{ ad:"Buhodle", tur:"sehir", lat:8.240, lon:46.320, g:0, k:0,
+{ ad:"Buhodle", tur:"sehir", lat:8.240, lon:46.320, g:0, k:3,
   s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1923-10-29",d:"ingiltere"}], d:[] },
 
 // ⚠️ Derviş Devleti'nin merkezi (1913-1920) — bkz. bölüm notu.
-{ ad:"Taleh", tur:"kale", lat:9.150, lon:48.417, g:0, k:0,
+{ ad:"Taleh", tur:"kale", lat:9.150, lon:48.417, g:0, k:4,
   s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1923-10-29",d:"ingiltere"}], d:[] },
 
 // ===========================================================================
@@ -638,13 +638,13 @@ window.YERLESIMLER_H2_AFRIKA = [
 //   kayıtların `somali` tercihi bu yüzden DOĞRU ve aynen izlendi.
 // ===========================================================================
 
-{ ad:"Kandala", tur:"liman", lat:11.470, lon:49.868, g:0, k:0,
+{ ad:"Kandala", tur:"liman", lat:11.470, lon:49.868, g:0, k:3,
   s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1923-10-29",d:"somali"}], d:[] },
 
-{ ad:"İskuşubân", tur:"sehir", lat:10.283, lon:50.233, g:0, k:0,
+{ ad:"İskuşubân", tur:"sehir", lat:10.283, lon:50.233, g:0, k:3,
   s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1923-10-29",d:"somali"}], d:[] },
 
-{ ad:"Bender Beyla", tur:"liman", lat:9.494, lon:50.812, g:0, k:0,
+{ ad:"Bender Beyla", tur:"liman", lat:9.494, lon:50.812, g:0, k:3,
   s:[{f:"1281-01-01",t:"1923-10-29",d:"somali"}], d:[] },
 
 // ===========================================================================
@@ -663,25 +663,25 @@ window.YERLESIMLER_H2_AFRIKA = [
 // ===========================================================================
 
 // Benâdir'in üç şehrinden üçüncüsü; TDV `somali` maddesinde adı geçer.
-{ ad:"Berâve", tur:"liman", lat:1.106, lon:44.031, g:0, k:0,
+{ ad:"Berâve", tur:"liman", lat:1.106, lon:44.031, g:0, k:3,
   s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1923-10-29",d:"italya"}], d:[] },
 
-{ ad:"Afgoye", tur:"sehir", lat:2.138, lon:45.120, g:0, k:0,
+{ ad:"Afgoye", tur:"sehir", lat:2.138, lon:45.120, g:0, k:3,
   s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1923-10-29",d:"italya"}], d:[] },
 
-{ ad:"Bulo Burte", tur:"sehir", lat:3.848, lon:45.567, g:0, k:0,
+{ ad:"Bulo Burte", tur:"sehir", lat:3.848, lon:45.567, g:0, k:3,
   s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1923-10-29",d:"italya"}], d:[] },
 
-{ ad:"Bardere", tur:"sehir", lat:2.348, lon:42.278, g:0, k:0,
+{ ad:"Bardere", tur:"sehir", lat:2.348, lon:42.278, g:0, k:3,
   s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1923-10-29",d:"italya"}], d:[] },
 
-{ ad:"Luuk", tur:"sehir", lat:3.802, lon:42.545, g:0, k:0,
+{ ad:"Luuk", tur:"sehir", lat:3.802, lon:42.545, g:0, k:3,
   s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1923-10-29",d:"italya"}], d:[] },
 
-{ ad:"Garbahârey", tur:"sehir", lat:3.328, lon:42.220, g:0, k:0,
+{ ad:"Garbahârey", tur:"sehir", lat:3.328, lon:42.220, g:0, k:3,
   s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1923-10-29",d:"italya"}], d:[] },
 
-{ ad:"Cilib", tur:"sehir", lat:0.489, lon:42.797, g:0, k:0,
+{ ad:"Cilib", tur:"sehir", lat:0.489, lon:42.797, g:0, k:3,
   s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1923-10-29",d:"italya"}], d:[] },
 
 // ⚠️ Cûbâland dönemi yazılamadı — bkz. bölüm notu.
@@ -702,31 +702,31 @@ window.YERLESIMLER_H2_AFRIKA = [
 //   `umman` ve `nebhaniler` maddeleri üzerinden gidildi.
 // ===========================================================================
 
-{ ad:"Mirbât", tur:"liman", lat:16.993, lon:54.700, g:0, k:0,
+{ ad:"Mirbât", tur:"liman", lat:16.993, lon:54.700, g:0, k:3,
   s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"1923-10-29",d:"umman"}], d:[] },
 
 // ⚠️ 17,037/54,400 → 17,057/54,404 (2,2 km iç): maske dışındaydı.
-{ ad:"Tâka (Zufâr)", tur:"liman", lat:17.057, lon:54.404, g:0, k:0,
+{ ad:"Tâka (Zufâr)", tur:"liman", lat:17.057, lon:54.404, g:0, k:3,
   s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"1923-10-29",d:"umman"}], d:[] },
 
-{ ad:"Hâsik", tur:"liman", lat:17.383, lon:55.283, g:0, k:0,
+{ ad:"Hâsik", tur:"liman", lat:17.383, lon:55.283, g:0, k:3,
   s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"1923-10-29",d:"umman"}], d:[] },
 
 // ⚠️ 17,900/55,983 → 17,946/55,969 (5,3 km iç): maske dışındaydı.
-{ ad:"Şüveymiye", tur:"liman", lat:17.946, lon:55.969, g:0, k:0,
+{ ad:"Şüveymiye", tur:"liman", lat:17.946, lon:55.969, g:0, k:3,
   s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"1923-10-29",d:"umman"}], d:[] },
 
-{ ad:"Dukm", tur:"liman", lat:19.660, lon:57.707, g:0, k:0,
+{ ad:"Dukm", tur:"liman", lat:19.660, lon:57.707, g:0, k:3,
   s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"1923-10-29",d:"umman"}], d:[] },
 
-{ ad:"Muhût", tur:"sehir", lat:20.700, lon:58.100, g:0, k:0,
+{ ad:"Muhût", tur:"sehir", lat:20.700, lon:58.100, g:0, k:3,
   s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"1923-10-29",d:"umman"}], d:[] },
 
-{ ad:"Tumreyt", tur:"sehir", lat:17.667, lon:54.024, g:0, k:0,
+{ ad:"Tumreyt", tur:"sehir", lat:17.667, lon:54.024, g:0, k:3,
   s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"1923-10-29",d:"umman"}], d:[] },
 
 // Zufâr'ın çöle bakan iç ucu; eski kervan yolu üzerindeki Şisr/Ubâr.
-{ ad:"Şisr", tur:"sehir", lat:18.257, lon:53.647, g:0, k:0,
+{ ad:"Şisr", tur:"sehir", lat:18.257, lon:53.647, g:0, k:3,
   s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"1923-10-29",d:"umman"}], d:[] },
 
 // 🔴 KASTEN SAHİPSİZ DOLGU. Rub'ul Hâlî'nin güneybatı köşesi hiçbir devletin
@@ -965,15 +965,15 @@ window.YERLESIMLER_H2_AFRIKA = [
   d:[{f:"1557-01-01",t:"1885-02-05"}], v:[] },
 
 // ── Dârfûr (D zinciri) ─────────────────────────────────────────────────
-{ ad:"Mellît", tur:"sehir", lat:14.130, lon:25.570, g:0, k:0,
+{ ad:"Mellît", tur:"sehir", lat:14.130, lon:25.570, g:0, k:4,
   s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)"}] },
 
-{ ad:"Şa'riyye", tur:"sehir", lat:12.900, lon:25.420, g:0, k:0,
+{ ad:"Şa'riyye", tur:"sehir", lat:12.900, lon:25.420, g:0, k:4,
   s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)"}] },
 
-{ ad:"Radom", tur:"sehir", lat:9.950, lon:24.950, g:0, k:0,
+{ ad:"Radom", tur:"sehir", lat:9.950, lon:24.950, g:0, k:4,
   s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)"}] },
 
@@ -1016,16 +1016,16 @@ window.YERLESIMLER_H2_AFRIKA = [
 // güney/batı noktaları §10'un işaretli 1897-01-01 yer tutucusunu taşır.
 // ===========================================================================
 
-{ ad:"Vukro", tur:"sehir", lat:13.790, lon:39.600, g:0, k:0,
+{ ad:"Vukro", tur:"sehir", lat:13.790, lon:39.600, g:0, k:3,
   s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
-{ ad:"Alamata", tur:"sehir", lat:12.420, lon:39.550, g:0, k:0,
+{ ad:"Alamata", tur:"sehir", lat:12.420, lon:39.550, g:0, k:3,
   s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
-{ ad:"Nazret", tur:"sehir", lat:8.540, lon:39.270, g:0, k:0,
+{ ad:"Nazret", tur:"sehir", lat:8.540, lon:39.270, g:0, k:3,
   s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
-{ ad:"Cinka", tur:"sehir", lat:6.783, lon:36.667, g:0, k:0,
+{ ad:"Cinka", tur:"sehir", lat:6.783, lon:36.667, g:0, k:3,
   s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 // ── §10 zinciri: 1897-01-01 İŞARETLİ yer tutucu ────────────────────────
@@ -1058,10 +1058,10 @@ window.YERLESIMLER_H2_AFRIKA = [
   s:[{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 // ── Ogaden zinciri (§11 ile birebir) ───────────────────────────────────
-{ ad:"İmi", tur:"sehir", lat:6.470, lon:42.170, g:0, k:0,
+{ ad:"İmi", tur:"sehir", lat:6.470, lon:42.170, g:0, k:3,
   s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1897-01-01",d:"somali"},{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
-{ ad:"Filtu", tur:"sehir", lat:5.130, lon:40.750, g:0, k:0,
+{ ad:"Filtu", tur:"sehir", lat:5.130, lon:40.750, g:0, k:3,
   s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1897-01-01",d:"somali"},{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 // ===========================================================================
@@ -1069,10 +1069,10 @@ window.YERLESIMLER_H2_AFRIKA = [
 // ===========================================================================
 
 // Antik Adulis limanı; Masavva körfezinin güney ucu.
-{ ad:"Zula", tur:"liman", lat:15.283, lon:39.700, g:0, k:0,
+{ ad:"Zula", tur:"liman", lat:15.283, lon:39.700, g:0, k:3,
   s:[{f:"1281-01-01",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1923-10-29",d:"italya"}], d:[] },
 
-{ ad:"Adi Kuala", tur:"sehir", lat:14.680, lon:38.830, g:0, k:0,
+{ ad:"Adi Kuala", tur:"sehir", lat:14.680, lon:38.830, g:0, k:3,
   s:[{f:"1281-01-01",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1923-10-29",d:"italya"}], d:[] },
 
 // ===========================================================================
@@ -1080,46 +1080,46 @@ window.YERLESIMLER_H2_AFRIKA = [
 // ===========================================================================
 
 // ── Somaliland kıyısı (H zinciri) ──────────────────────────────────────
-{ ad:"Lâs Hore", tur:"liman", lat:11.158, lon:48.198, g:0, k:0,
+{ ad:"Lâs Hore", tur:"liman", lat:11.158, lon:48.198, g:0, k:3,
   s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1923-10-29",d:"ingiltere"}], d:[] },
 
-{ ad:"Mayd", tur:"liman", lat:11.000, lon:47.100, g:0, k:0,
+{ ad:"Mayd", tur:"liman", lat:11.000, lon:47.100, g:0, k:3,
   s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1923-10-29",d:"ingiltere"}], d:[] },
 
-{ ad:"Hîs", tur:"liman", lat:10.900, lon:46.900, g:0, k:0,
+{ ad:"Hîs", tur:"liman", lat:10.900, lon:46.900, g:0, k:3,
   s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1923-10-29",d:"ingiltere"}], d:[] },
 
 // ── Orta Somali: Hobyo yörüngesi, tek dönem `somali` (§13 gerekçesi) ────
-{ ad:"Dusa Mareb", tur:"sehir", lat:5.536, lon:46.386, g:0, k:0,
+{ ad:"Dusa Mareb", tur:"sehir", lat:5.536, lon:46.386, g:0, k:3,
   s:[{f:"1281-01-01",t:"1923-10-29",d:"somali"}], d:[] },
 
-{ ad:"Ceel Buur", tur:"sehir", lat:4.687, lon:46.618, g:0, k:0,
+{ ad:"Ceel Buur", tur:"sehir", lat:4.687, lon:46.618, g:0, k:3,
   s:[{f:"1281-01-01",t:"1923-10-29",d:"somali"}], d:[] },
 
-{ ad:"Ceel Dheere", tur:"liman", lat:3.845, lon:47.163, g:0, k:0,
+{ ad:"Ceel Dheere", tur:"liman", lat:3.845, lon:47.163, g:0, k:3,
   s:[{f:"1281-01-01",t:"1923-10-29",d:"somali"}], d:[] },
 
 // ── Benâdir ve iç bölgesi (J zinciri, 1905-01-01) ──────────────────────
-{ ad:"Cadale", tur:"liman", lat:2.752, lon:46.310, g:0, k:0,
+{ ad:"Cadale", tur:"liman", lat:2.752, lon:46.310, g:0, k:3,
   s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1923-10-29",d:"italya"}], d:[] },
 
-{ ad:"Vanlaveyn", tur:"sehir", lat:2.620, lon:44.890, g:0, k:0,
+{ ad:"Vanlaveyn", tur:"sehir", lat:2.620, lon:44.890, g:0, k:3,
   s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1923-10-29",d:"italya"}], d:[] },
 
-{ ad:"Diinsoor", tur:"sehir", lat:2.406, lon:42.972, g:0, k:0,
+{ ad:"Diinsoor", tur:"sehir", lat:2.406, lon:42.972, g:0, k:3,
   s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1923-10-29",d:"italya"}], d:[] },
 
-{ ad:"Hudur", tur:"sehir", lat:4.120, lon:43.890, g:0, k:0,
+{ ad:"Hudur", tur:"sehir", lat:4.120, lon:43.890, g:0, k:3,
   s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1923-10-29",d:"italya"}], d:[] },
 
-{ ad:"Ceel Barde", tur:"sehir", lat:4.570, lon:43.490, g:0, k:0,
+{ ad:"Ceel Barde", tur:"sehir", lat:4.570, lon:43.490, g:0, k:3,
   s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1923-10-29",d:"italya"}], d:[] },
 
 // ⚠️ Kısmâyû ile aynı sınıf: batısı İngiliz Cûbâland'ıydı (1895-1925) ve
 // o dönem canlı kırılma olmadığı için YAZILAMADI — bkz. §14 notu.
 // ⚠️ lon 40,930 → 41,150: Ceel Vaak sınır üstü bir kasabadır ve ham
 // koordinat KENYA'ya düşüyordu — Kenya halka 6-7, dokunmam sıra ihlali.
-{ ad:"Ceel Vaak", tur:"sehir", lat:2.800, lon:41.150, g:0, k:0,
+{ ad:"Ceel Vaak", tur:"sehir", lat:2.800, lon:41.150, g:0, k:3,
   s:[{f:"1281-01-01",t:"1923-10-29",d:"somali"}], d:[] },
 
 // ===========================================================================
@@ -1128,14 +1128,14 @@ window.YERLESIMLER_H2_AFRIKA = [
 
 // ⚠️ Üçü de kıyı noktası ve ham koordinatları maskenin DIŞINDA kalıyordu;
 // en yakın kara noktasına çekildi (7,3 · 3,7 · 2,4 km).
-{ ad:"Cezîr (Sevkıra)", tur:"liman", lat:18.161, lon:56.537, g:0, k:0,
+{ ad:"Cezîr (Sevkıra)", tur:"liman", lat:18.161, lon:56.537, g:0, k:3,
   s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"1923-10-29",d:"umman"}], d:[] },
 
-{ ad:"Râs Medreke", tur:"liman", lat:19.002, lon:57.792, g:0, k:0,
+{ ad:"Râs Medreke", tur:"liman", lat:19.002, lon:57.792, g:0, k:3,
   s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"1923-10-29",d:"umman"}], d:[] },
 
 // Zufâr'ın batı ucu; Mehre/Hadramut sınırı.
-{ ad:"Rahbût", tur:"liman", lat:16.762, lon:53.418, g:0, k:0,
+{ ad:"Rahbût", tur:"liman", lat:16.762, lon:53.418, g:0, k:3,
   s:[{f:"1281-01-01",t:"1515-04-01",d:"nebhani"},{f:"1515-04-01",t:"1923-10-29",d:"umman"}], d:[] },
 
 // 🔴 KASTEN SAHİPSİZ — Umman'ın iç çölü; §15'teki güneybatı dolgusunun eşi.
@@ -1164,10 +1164,10 @@ window.YERLESIMLER_H2_AFRIKA = [
   kasitli_bosluk:true,bos:"devletsiz", neden:"Nil ile Kızıldeniz arası Beca çölü — fiilî idare yok",
   s:[], d:[], v:[] },
 
-{ ad:"İncibara", tur:"sehir", lat:10.950, lon:36.930, g:0, k:0,
+{ ad:"İncibara", tur:"sehir", lat:10.950, lon:36.930, g:0, k:3,
   s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
-{ ad:"Ceel Afveyn", tur:"sehir", lat:9.830, lon:47.200, g:0, k:0,
+{ ad:"Ceel Afveyn", tur:"sehir", lat:9.830, lon:47.200, g:0, k:3,
   s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1923-10-29",d:"ingiltere"}], d:[] },
 
 ];

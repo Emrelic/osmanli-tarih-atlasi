@@ -677,53 +677,53 @@ window.YERLESIMLER_AFRIKA = [
 { ad:"Aksum", tur:"sehir", lat:14.128, lon:38.723, g:1, k:1,
   s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
-{ ad:"Adua", tur:"sehir", lat:14.170, lon:38.898, g:0, k:0,
+{ ad:"Adua", tur:"sehir", lat:14.170, lon:38.898, g:0, k:3,
   s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
-{ ad:"Şire", tur:"sehir", lat:14.103, lon:38.283, g:0, k:0,
+{ ad:"Şire", tur:"sehir", lat:14.103, lon:38.283, g:0, k:3,
   s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
-{ ad:"Adigrat", tur:"sehir", lat:14.277, lon:39.462, g:0, k:0,
+{ ad:"Adigrat", tur:"sehir", lat:14.277, lon:39.462, g:0, k:3,
   s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
-{ ad:"Mekelle", tur:"sehir", lat:13.497, lon:39.475, g:0, k:0,
+{ ad:"Mekelle", tur:"sehir", lat:13.497, lon:39.475, g:0, k:3,
   s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 // Bogos: 1872-1884 arası Mısır (Kavalalı) işgalindeydi; bu ara dönem
 // yazılmadı — kronoloji maddesi yok.
-{ ad:"Kerene", tur:"sehir", lat:15.778, lon:38.451, g:0, k:0,
+{ ad:"Kerene", tur:"sehir", lat:15.778, lon:38.451, g:0, k:4,
   s:[{f:"1281-01-01",t:"1872-01-01",d:"habesistan"},{f:"1884-06-03",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1923-10-29",d:"italya"}],
   d:[], v:[{f:"1872-01-01",t:"1884-06-03",k:"Mısır (Kavalalı)"}] },
 
-{ ad:"Lalibela", tur:"sehir", lat:12.032, lon:39.047, g:0, k:0,
+{ ad:"Lalibela", tur:"sehir", lat:12.032, lon:39.047, g:0, k:3,
   s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
-{ ad:"Sokota", tur:"sehir", lat:12.628, lon:39.033, g:0, k:0,
+{ ad:"Sokota", tur:"sehir", lat:12.628, lon:39.033, g:0, k:3,
   s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 // Zemene Mesafint (prensler devri) boyunca imparatorluk merkezi.
-{ ad:"Debre Tabor", tur:"sehir", lat:11.855, lon:38.017, g:0, k:0,
+{ ad:"Debre Tabor", tur:"sehir", lat:11.855, lon:38.017, g:0, k:3,
   s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
-{ ad:"Bahır Dar", tur:"sehir", lat:11.560, lon:37.400, g:0, k:0,
+{ ad:"Bahır Dar", tur:"sehir", lat:11.560, lon:37.400, g:0, k:3,
   s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 // Sudan sınırındaki geçit; 1889 Mehdî-Habeş savaşının sahnesi.
-{ ad:"Metemma", tur:"kale", lat:12.968, lon:36.155, g:0, k:0,
+{ ad:"Metemma", tur:"kale", lat:12.968, lon:36.155, g:0, k:4,
   s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
-{ ad:"Dese", tur:"sehir", lat:11.133, lon:39.633, g:0, k:0,
+{ ad:"Dese", tur:"sehir", lat:11.133, lon:39.633, g:0, k:3,
   s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
-{ ad:"Debre Berhan", tur:"sehir", lat:9.680, lon:39.532, g:0, k:0,
+{ ad:"Debre Berhan", tur:"sehir", lat:9.680, lon:39.532, g:0, k:3,
   s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 // Şeva krallığının merkezi; Menelik buradan çıktı.
-{ ad:"Ankober", tur:"sehir", lat:9.583, lon:39.733, g:0, k:0,
+{ ad:"Ankober", tur:"sehir", lat:9.583, lon:39.733, g:0, k:3,
   s:[{f:"1281-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 // Harar'ın doğusu; mevcut Harar kaydıyla aynı gün Habeşistan'a geçti.
-{ ad:"Cîcîga", tur:"sehir", lat:9.350, lon:42.800, g:0, k:0,
+{ ad:"Cîcîga", tur:"sehir", lat:9.350, lon:42.800, g:0, k:3,
   s:[{f:"1281-01-01",t:"1887-01-06",d:"adal"},{f:"1887-01-06",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 // Afar (Danâkil) kıyısı. Avsa sultanlığının kimliği yok, "adal" ile boyandı.
@@ -734,7 +734,7 @@ window.YERLESIMLER_AFRIKA = [
 
 // Fransız himayesi 1884'te kuruldu; GÜN DOĞRULANAMADI, bu yüzden proje
 // kuralına göre YYYY-01-01 yazıldı (mevcut Zeyla kaydıyla aynı desen).
-{ ad:"Tacûra", tur:"liman", lat:11.788, lon:42.882, g:0, k:0,
+{ ad:"Tacûra", tur:"liman", lat:11.788, lon:42.882, g:0, k:3,
   s:[{f:"1281-01-01",t:"1884-01-01",d:"adal"},{f:"1884-01-01",t:"1923-10-29",d:"fransa-cumhuriyet",enklav:true}], d:[] },
 
 // ===========================================================================
@@ -748,13 +748,13 @@ window.YERLESIMLER_AFRIKA = [
 // penceresinin güney sınırı 1.5°K, ikisi de dışarıda kalıyor.
 // ===========================================================================
 
-{ ad:"Merka", tur:"liman", lat:1.716, lon:44.772, g:0, k:0,
+{ ad:"Merka", tur:"liman", lat:1.716, lon:44.772, g:0, k:3,
   s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1923-10-29",d:"italya"}], d:[] },
 
-{ ad:"Beledveyne", tur:"sehir", lat:4.735, lon:45.204, g:0, k:0,
+{ ad:"Beledveyne", tur:"sehir", lat:4.735, lon:45.204, g:0, k:3,
   s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1923-10-29",d:"italya"}], d:[] },
 
-{ ad:"Baydoa", tur:"sehir", lat:3.114, lon:43.649, g:0, k:0,
+{ ad:"Baydoa", tur:"sehir", lat:3.114, lon:43.649, g:0, k:3,
   s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1923-10-29",d:"italya"}], d:[] },
 
 // Hobyo (Obbiya) sultanlığı İtalyan himayesini Aralık 1888'de kabul etti —
@@ -781,43 +781,43 @@ window.YERLESIMLER_AFRIKA = [
 // geri sokardı. İkisi dizin kaydı olarak `devletler.js`'e girecek (Oturum 3),
 // `harita:"somali"` ile aynı renge bağlı — palet hiç büyümez.
 // ⇒ Değişmez 2s açığı yedi eksiliyor, MADDE YAZMADAN.
-{ ad:"Obbiya", tur:"liman", lat:5.351, lon:48.527, g:0, k:0,
+{ ad:"Obbiya", tur:"liman", lat:5.351, lon:48.527, g:0, k:3,
   s:[{f:"1281-01-01",t:"1923-10-29",d:"somali"}], d:[] },
 
-{ ad:"Galkayo", tur:"sehir", lat:6.770, lon:47.431, g:0, k:0,
+{ ad:"Galkayo", tur:"sehir", lat:6.770, lon:47.431, g:0, k:3,
   s:[{f:"1281-01-01",t:"1923-10-29",d:"somali"}], d:[] },
 
-{ ad:"Garove", tur:"sehir", lat:8.406, lon:48.483, g:0, k:0,
+{ ad:"Garove", tur:"sehir", lat:8.406, lon:48.483, g:0, k:3,
   s:[{f:"1281-01-01",t:"1923-10-29",d:"somali"}], d:[] },
 
-{ ad:"Ayl", tur:"liman", lat:7.980, lon:49.816, g:0, k:0,
+{ ad:"Ayl", tur:"liman", lat:7.980, lon:49.816, g:0, k:3,
   s:[{f:"1281-01-01",t:"1923-10-29",d:"somali"}], d:[] },
 
 // Mecerteyn sultanlığının merkezi ve Afrika Boynuzu'nun ucu.
-{ ad:"Bender Kāsım (Bosaso)", tur:"liman", lat:11.284, lon:49.183, g:0, k:0,
+{ ad:"Bender Kāsım (Bosaso)", tur:"liman", lat:11.284, lon:49.183, g:0, k:3,
   s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1923-10-29",d:"somali"}], d:[] },
 
-{ ad:"Alula", tur:"liman", lat:11.968, lon:50.750, g:0, k:0,
+{ ad:"Alula", tur:"liman", lat:11.968, lon:50.750, g:0, k:3,
   s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1923-10-29",d:"somali"}], d:[] },
 
-{ ad:"Hafun", tur:"liman", lat:10.437, lon:51.259, g:0, k:0,
+{ ad:"Hafun", tur:"liman", lat:10.437, lon:51.259, g:0, k:3,
   s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1923-10-29",d:"somali"}], d:[] },
 
 // Kuzeybatı kıyısı ve ardalanı: mevcut Berbera kaydıyla aynı zincir
 // (1884-07-18 İngiliz himaye antlaşmaları).
-{ ad:"Bulhar", tur:"liman", lat:10.401, lon:44.458, g:0, k:0,
+{ ad:"Bulhar", tur:"liman", lat:10.401, lon:44.458, g:0, k:3,
   s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1923-10-29",d:"ingiltere"}], d:[] },
 
-{ ad:"Hargeysa", tur:"sehir", lat:9.560, lon:44.065, g:0, k:0,
+{ ad:"Hargeysa", tur:"sehir", lat:9.560, lon:44.065, g:0, k:3,
   s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1923-10-29",d:"ingiltere"}], d:[] },
 
-{ ad:"Burao", tur:"sehir", lat:9.522, lon:45.534, g:0, k:0,
+{ ad:"Burao", tur:"sehir", lat:9.522, lon:45.534, g:0, k:3,
   s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1923-10-29",d:"ingiltere"}], d:[] },
 
-{ ad:"Lasanod", tur:"sehir", lat:8.477, lon:47.361, g:0, k:0,
+{ ad:"Lasanod", tur:"sehir", lat:8.477, lon:47.361, g:0, k:3,
   s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1923-10-29",d:"ingiltere"}], d:[] },
 
-{ ad:"Erigavo", tur:"sehir", lat:10.616, lon:47.368, g:0, k:0,
+{ ad:"Erigavo", tur:"sehir", lat:10.616, lon:47.368, g:0, k:3,
   s:[{f:"1281-01-01",t:"1577-01-01",d:"adal"},{f:"1577-01-01",t:"1884-07-18",d:"somali"},{f:"1884-07-18",t:"1923-10-29",d:"ingiltere"}], d:[] },
 
 // ===========================================================================
@@ -959,12 +959,12 @@ window.YERLESIMLER_AFRIKA = [
   s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)"}] },
 
-{ ad:"Nyala", tur:"sehir", lat:12.048, lon:24.882, g:0, k:0,
+{ ad:"Nyala", tur:"sehir", lat:12.048, lon:24.882, g:0, k:4,
   s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)"}] },
 
 // Darfur'un batı ucu; Vaday Sultanlığı ile sınır. Vaday'ın kimliği de YOK.
-{ ad:"Cenîne", tur:"sehir", lat:13.452, lon:22.445, g:0, k:0,
+{ ad:"Cenîne", tur:"sehir", lat:13.452, lon:22.445, g:0, k:4,
   s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)"}] },
 
@@ -991,13 +991,13 @@ window.YERLESIMLER_AFRIKA = [
 { ad:"Bonga (Kaffa)", tur:"sehir", lat:7.283, lon:36.233, g:0, k:1,
   s:[{f:"1281-01-01",t:"1897-09-10",d:"kaffa"},{f:"1897-09-10",t:"1923-10-29",d:"habesistan"}], d:[] },
 
-{ ad:"Cimma (Jiren)", tur:"sehir", lat:7.673, lon:36.834, g:0, k:0,
+{ ad:"Cimma (Jiren)", tur:"sehir", lat:7.673, lon:36.834, g:0, k:3,
   s:[{f:"1281-01-01",t:"1830-01-01",d:"kaffa"},{f:"1830-01-01",t:"1923-10-29",d:"cimma"}], d:[] },
 
-{ ad:"Sodo (Vollayta)", tur:"sehir", lat:6.860, lon:37.762, g:0, k:0,
+{ ad:"Sodo (Vollayta)", tur:"sehir", lat:6.860, lon:37.762, g:0, k:3,
   s:[{f:"1281-01-01",t:"1894-01-01",d:"vollayta"},{f:"1894-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
-{ ad:"Yirgalem (Sidamo)", tur:"sehir", lat:6.750, lon:38.410, g:0, k:0,
+{ ad:"Yirgalem (Sidamo)", tur:"sehir", lat:6.750, lon:38.410, g:0, k:3,
   s:[{f:"1281-01-01",t:"1897-01-01",d:"sidamo"},{f:"1897-01-01",t:"1923-10-29",d:"habesistan"}], d:[] },
 
 // ===========================================================================

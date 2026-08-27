@@ -22,7 +22,7 @@ window.YERLESIMLER_SIBIRYA = [
 // NOT: "Dudinka" buraya YAZILMADI — yerlesimler_ek8.js'de zaten var
 // (aynı kimlik zinciri: kur:1667 → rusya, kasitli_bosluk öncesi "devletsiz"
 // notuyla). Mükerrer isim olurdu, sessizce çıkarıldı (koordinatör onayı: ①).
-{ ad:"Ket Ostrogu (Ketsk)", tur:"kale", lat:58.70, lon:81.40, g:0, k:0,
+{ ad:"Ket Ostrogu (Ketsk)", tur:"kale", lat:58.70, lon:81.40, g:0, k:4,
   kur:"1602-01-01",
   s:[{f:"1602-01-01",t:"1923-10-29",d:"rusya"}] },
 { ad:"Kazak bozkırı (Turgay)", tur:"bolge", lat:49.60, lon:63.50, g:0, k:0,
@@ -41,7 +41,7 @@ window.YERLESIMLER_SIBIRYA = [
   s:[] },
 
 // ---------- ③ UZAK DOĞU — Kamçatka (fetih) · Çukotka (devletsiz) ----------
-{ ad:"Petropavlovsk-Kamçatskiy", tur:"liman", lat:53.01, lon:158.65, g:1, k:0,
+{ ad:"Petropavlovsk-Kamçatskiy", tur:"liman", lat:53.01, lon:158.65, g:1, k:3,
   kur:"1740-01-01",
   s:[{f:"1740-01-01",t:"1923-10-29",d:"rusya"}] },
 { ad:"Anadır (Anadyrsk)", tur:"kale", lat:64.75, lon:177.48, g:0, k:0,

@@ -68,7 +68,7 @@ window.YERLESIMLER_EK6 = [
 // (Starocherkasskaya). Rostov'a 25,6 km ama Rostov `kur:1749-12-15`
 // taşıyor — yani Çerkask'ın devri (1570-1721) ile Rostov'unki (1749→)
 // ÇAKIŞMIYOR; ikisi aynı havzanın iki ayrı çağıdır.
-{ ad:"Çerkask (Razdory)", tur:"kale", lat:47.240, lon:40.050, g:0, k:0, d:[],
+{ ad:"Çerkask (Razdory)", tur:"kale", lat:47.240, lon:40.050, g:0, k:1, d:[],
   s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1502-03-01",t:"1570-01-01",d:"kirim"},{f:"1570-01-01",t:"1721-01-01",d:"don-kazak"},{f:"1721-01-01",t:"1923-10-29",d:"rusya"}] },
 
 // Hücre 10 (46-48K / 42-44D) — Sal vadisi.

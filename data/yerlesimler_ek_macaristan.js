@@ -185,7 +185,7 @@ window.YERLESIMLER_EK_MACARISTAN = [
 // kaynak: TDV `tokoli-imre` (200, gövdesi okundu) — 16 Eylül 1682 beratı;
 //   TDV `budin` (200, gövdesi okundu) — 1568 sancak listesinde "Filek".
 //   Osmanlı döneminin GÜNLERİ için: bulunamadı (bkz. dosya başı ③).
-{ ad:"Fülek (Fiľakovo)", tur:"kale", lat:48.2702, lon:19.8223, g:0, k:0,
+{ ad:"Fülek (Fiľakovo)", tur:"kale", lat:48.2702, lon:19.8223, g:0, k:4,
   s:[{f:"1281-01-01",t:"1526-08-29",d:"macaristan"},
      {f:"1526-08-29",t:"1682-09-16",d:"avusturya"},
      {f:"1685-10-15",t:"1918-11-11",d:"avusturya"},
@@ -206,7 +206,7 @@ window.YERLESIMLER_EK_MACARISTAN = [
 //   DEĞİL. Bu bir bölgesel yaslamadır ve öyle olduğu burada yazılıdır.
 // kaynak: TDV `tokoli-imre` + TDV `macaristan` (ikisi de 200, gövdeleri
 //   okundu). Şehrin kendi tarihçesi için: bulunamadı — TDV'de madde yok.
-{ ad:"Ungvár (Uzhhorod)", tur:"sehir", lat:48.6224, lon:22.3023, g:0, k:0,
+{ ad:"Ungvár (Uzhhorod)", tur:"sehir", lat:48.6224, lon:22.3023, g:0, k:4,
   s:[{f:"1281-01-01",t:"1526-08-29",d:"macaristan"},
      {f:"1526-08-29",t:"1682-09-16",d:"avusturya"},
      {f:"1685-10-15",t:"1918-11-11",d:"avusturya"},
@@ -243,7 +243,7 @@ window.YERLESIMLER_EK_MACARISTAN = [
 //   17 Ocak 1688 günü için: bulunamadı — TDV tarih VERMİYOR; tarih
 //   yayımlanmış başvuru eserlerinde geçiyor ama HAKEMLİ akademik kaynakta
 //   doğrulayamadım, o yüzden veriye YAZILMADI, yalnız burada kayıtlı.
-{ ad:"Munkács (Mukacheve)", tur:"kale", lat:48.4421, lon:22.7185, g:0, k:0,
+{ ad:"Munkács (Mukacheve)", tur:"kale", lat:48.4421, lon:22.7185, g:0, k:4,
   s:[{f:"1281-01-01",t:"1526-08-29",d:"macaristan"},
      {f:"1526-08-29",t:"1682-09-16",d:"avusturya"},
      {f:"1687-12-17",t:"1918-11-11",d:"avusturya"},
@@ -277,7 +277,7 @@ window.YERLESIMLER_EK_MACARISTAN = [
 // kaynak: bulunamadı — TDV `satmar`/`sakmar` ölü (302); TDV `macaristan`
 //   Szatmár'ı yalnız 1711 Szatmár Muahedesi bağlamında anıyor. Çizgi
 //   kardeş kayıtlardan (Kassa · Eperjes · Tokaj, hepsi 1526-08-29).
-{ ad:"Szatmár (Satu Mare)", tur:"sehir", lat:47.7892, lon:22.8726, g:0, k:0,
+{ ad:"Szatmár (Satu Mare)", tur:"sehir", lat:47.7892, lon:22.8726, g:0, k:3,
   s:[{f:"1281-01-01",t:"1526-08-29",d:"macaristan"},
      {f:"1526-08-29",t:"1918-11-11",d:"avusturya"},
      {f:"1918-11-11",t:"1923-10-29",d:"romanya-kralligi"}],

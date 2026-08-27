@@ -130,7 +130,7 @@ window.YERLESIMLER_E9353F = [
 //   ele geçirmesi üzerine ortadan kalktı."
 // ⇒ Mali dönemi 1281'den 1430'a. 1430 sonrası Tevârik (Tuareg) — künyesiz.
 // ⚠️ Pencere sınırına yakın ama İÇERİDE: lon -7,033 > -12. ✓
-{ ad:"Valata (Oualata)", tur:"sehir", lat:17.300, lon:-7.033, g:0, k:0,
+{ ad:"Valata (Oualata)", tur:"sehir", lat:17.300, lon:-7.033, g:0, k:3,
   s:[{f:"1281-01-01", t:"1430-01-01", d:"mali-imparatorlugu", kaynak:"mali"}],
   d:[], v:[],
   bos:"veri-yok",
@@ -208,7 +208,7 @@ window.YERLESIMLER_E9353F = [
 //   elimdeki en erken savunulabilir çapa; bunu ŞEHRİN kuruluşu diye DEĞİL,
 //   noktanın sahneye giriş anı diye yazıyorum ve farkı burada belirtiyorum.
 // ⚠️ 1712-1898 arası sahipsiz: Bambara da Toucouleur da künyesiz.
-{ ad:"Segu (Ségou)", tur:"sehir", lat:13.432, lon:-6.216, g:0, k:0,
+{ ad:"Segu (Ségou)", tur:"sehir", lat:13.432, lon:-6.216, g:0, k:1,
   kur:"1712-01-01",
   s:[{f:"1898-01-01", t:"1923-10-29", d:"fransa-cumhuriyet", kaynak:"mali"}],
   d:[], v:[],
@@ -349,7 +349,7 @@ window.YERLESIMLER_E9353F = [
 //   bölge en yakın peteğe emilir ve YANLIŞ bir devletle boyanır (§2).
 //   Sahipsiz nokta hiç değilse "burada kimse yok" diyor; noktasızlık
 //   "burada komşum var" diye YALAN söylüyor.
-{ ad:"İfe (Ile-Ife)", tur:"sehir", lat:7.467, lon:4.567, g:0, k:0,
+{ ad:"İfe (Ile-Ife)", tur:"sehir", lat:7.467, lon:4.567, g:0, k:3,
   s:[], d:[], v:[],
   bos:"veri-yok",
   neden:"kunye-yok — Ife 1281'de mevcut ve Yoruba dunyasinin merkezi bir kralligiydi; kaynak SUSMUYOR. Ama devletler.js'te `ife` kunyesi YOK, o yuzden §3.5 geregi hicbir kimlik yazilmadi. oyo-imparatorlugu (f:1400) buraya yazilamaz: hem 1281'de yok hem baska devlet. KOORDINATORE ISTEK: ife kunyesi." },
@@ -434,7 +434,7 @@ window.YERLESIMLER_E9353F = [
 // ⚠️ `kaynak:` alanına TDV slug'ı yazamıyorum çünkü kaynak TDV DEĞİL;
 //   alanın taşıdığı tek şey slug olduğu için "bulunamadi" yazdım ve gerçek
 //   dayanağı BURAYA yazdım. Kaynağı gizlemiyorum, alan onu taşıyamıyor.
-{ ad:"Elmina (São Jorge da Mina)", tur:"kale", lat:5.085, lon:-1.349, g:1, k:0,
+{ ad:"Elmina (São Jorge da Mina)", tur:"kale", lat:5.085, lon:-1.349, g:1, k:4,
   kur:"1482-01-01",
   s:[{f:"1482-01-01", t:"1637-01-01", d:"portekiz",  kaynak:"gana"},
      {f:"1637-01-01", t:"1872-01-01", d:"hollanda",  kaynak:"bulunamadi"},
@@ -630,7 +630,7 @@ window.YERLESIMLER_E9353F = [
 //     *"arandı, erişilemedi"* de değil, gerçekten *"arandı, YOK"*.
 // 📌 Nokta yine de yazıldı çünkü 1281'de orası boş değildi ve noktasızlık
 //   §2 gereği bölgeyi uzaktaki bir komşuya emdirir.
-{ ad:"Mapungubwe", tur:"sehir", lat:-22.194, lon:29.389, g:0, k:0,
+{ ad:"Mapungubwe", tur:"sehir", lat:-22.194, lon:29.389, g:0, k:3,
   s:[], d:[], v:[],
   bos:"veri-yok",
   neden:"veri-yok — arandi, YOK. TDV zimbabve maddesinin govdesi okundu ve Mapungubwe'yi HIC anmiyor (Nyanga ve Gokomere yerlesimlerini sayiyor, bunu saymiyor); baska bir TDV maddesi de bulunamadi. Devletsiz OLDUGU soylenmiyor, hic soz edilmiyor. 'Aramadim' DEGIL, 'aradim ve yok' - bu bir SONUCTUR. UYARI: PENCERE DISINDA (lat -22,194)." },

@@ -108,25 +108,25 @@ window.YERLESIMLER_EK = [
 //    krallığın başkenti Habsburg, kasabaları Osmanlı tâbisi görünürdü.
 //    Değişmez 2: iki kırılma günü de çekirdekte maddeli (1682-09-16 → 0 gün,
 //    1685-10-15 → 3 gün).
-{ ad:"Kassa (Košice)", tur:"sehir", lat:48.714, lon:21.258, g:0, k:0, d:[],
+{ ad:"Kassa (Košice)", tur:"sehir", lat:48.714, lon:21.258, g:0, k:2, d:[],
     v:[{f:"1682-09-16",t:"1685-10-15",k:"Orta Macar Krallığı (Tököli İmre)"}],
     s:[{f:"1281-01-01",t:"1526-08-29",d:"macaristan"},
        {f:"1526-08-29",t:"1682-09-16",d:"avusturya"},
        {f:"1685-10-15",t:"1918-11-11",d:"avusturya"},
        {f:"1918-11-11",t:"1923-10-29",d:"cekoslovakya"}] },
-{ ad:"Eperjes (Prešov)", tur:"sehir", lat:48.999, lon:21.236, g:0, k:0, d:[],
+{ ad:"Eperjes (Prešov)", tur:"sehir", lat:48.999, lon:21.236, g:0, k:4, d:[],
     v:[{f:"1682-09-16",t:"1685-10-15",k:"Orta Macar Krallığı (Tököli İmre)"}],
     s:[{f:"1281-01-01",t:"1526-08-29",d:"macaristan"},
        {f:"1526-08-29",t:"1682-09-16",d:"avusturya"},
        {f:"1685-10-15",t:"1918-11-11",d:"avusturya"},
        {f:"1918-11-11",t:"1923-10-29",d:"cekoslovakya"}] },
-{ ad:"Tokaj", tur:"kale", lat:48.117, lon:21.409, g:0, k:0, d:[],
+{ ad:"Tokaj", tur:"kale", lat:48.117, lon:21.409, g:0, k:4, d:[],
     v:[{f:"1682-09-16",t:"1685-10-15",k:"Orta Macar Krallığı (Tököli İmre)"}],
     s:[{f:"1281-01-01",t:"1526-08-29",d:"macaristan"},
        {f:"1526-08-29",t:"1682-09-16",d:"avusturya"},
        {f:"1685-10-15",t:"1918-11-11",d:"avusturya"},
        {f:"1918-11-11",t:"1923-10-29",d:"macaristan-naiplik"}] },
-{ ad:"Sopron", tur:"sehir", lat:47.685, lon:16.590, g:0, k:0, d:[],
+{ ad:"Sopron", tur:"sehir", lat:47.685, lon:16.590, g:0, k:3, d:[],
     s:[{f:"1281-01-01",t:"1526-08-29",d:"macaristan"},
        {f:"1526-08-29",t:"1918-11-11",d:"avusturya"},
        {f:"1918-11-11",t:"1923-10-29",d:"macaristan-naiplik"}] },
@@ -144,14 +144,14 @@ window.YERLESIMLER_EK = [
 // Earth 10m'de çözülmeyen bir yarımadada; nokta 1,09 km kuzeydoğuya, kıyıdan
 // 250 m içeriye kaydırıldı (maske sınırının TAM ÜSTÜ de `covers` testini
 // geçmiyor — ölçüldü).
-{ ad:"Zadar (Zara)", tur:"liman", lat:44.124, lon:15.232, g:0, k:0,kd:[{f:"1409-01-01",t:"1797-10-17",k:1,m:null}], d:[],
+{ ad:"Zadar (Zara)", tur:"liman", lat:44.124, lon:15.232, g:0, k:1,kd:[{f:"1409-01-01",t:"1797-10-17",k:1,m:null}], d:[],
     s:[{f:"1281-01-01",t:"1358-02-18",d:"venedik"},
        {f:"1358-02-18",t:"1409-01-01",d:"macaristan"},
        {f:"1409-01-01",t:"1797-10-17",d:"venedik"},
        {f:"1797-10-17",t:"1918-11-11",d:"avusturya"},
        {f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}] },
 // Şibenik: teslim sözleşmesi 30 Ekim 1412; Venedik 1412-1797.
-{ ad:"Şibenik (Sebenico)", tur:"liman", lat:43.734, lon:15.894, g:0, k:0,kd:[{f:"1412-10-30",t:"1797-10-17",k:2,m:null}], d:[],
+{ ad:"Şibenik (Sebenico)", tur:"liman", lat:43.734, lon:15.894, g:0, k:3,kd:[{f:"1412-10-30",t:"1797-10-17",k:2,m:null}], d:[],
     s:[{f:"1281-01-01",t:"1412-10-30",d:"macaristan"},
        {f:"1412-10-30",t:"1797-10-17",d:"venedik"},
        {f:"1797-10-17",t:"1918-11-11",d:"avusturya"},
@@ -159,7 +159,7 @@ window.YERLESIMLER_EK = [
 // Split: Venedik 1420 (gün belirsiz). ⚠️ 1327-1357 arasındaki Venedik ara
 // dönemi MODELLENMEDİ — kaynak gün vermiyor, uydurmak yerine eksik bırakıldı.
 // GeoNames 43.50890 / 16.43920 — maske dışı (310 m), kaydırıldı.
-{ ad:"Split (Spalato)", tur:"liman", lat:43.511, lon:16.439, g:0, k:0,kd:[{f:"1420-01-01",t:"1797-10-17",k:2,m:null}], d:[],
+{ ad:"Split (Spalato)", tur:"liman", lat:43.511, lon:16.439, g:0, k:3,kd:[{f:"1420-01-01",t:"1797-10-17",k:2,m:null}], d:[],
     s:[{f:"1281-01-01",t:"1420-01-01",d:"macaristan"},
        {f:"1420-01-01",t:"1797-10-17",d:"venedik"},
        {f:"1797-10-17",t:"1918-11-11",d:"avusturya"},
@@ -172,7 +172,7 @@ window.YERLESIMLER_EK = [
 //    fiilen BAĞIMSIZ komün oldu. Şemada "bağımsız" kimliği yok ve Değişmez 1
 //    sahipsizliğe izin vermiyor; bu yüzden 1371-1420 tek kalemde `macaristan`
 //    yazıldı — Bosna ve bağımsızlık ara dönemleri MODELLENMEDİ.
-{ ad:"Kotor (Cattaro)", tur:"liman", lat:42.421, lon:18.768, g:0, k:0, d:[],
+{ ad:"Kotor (Cattaro)", tur:"liman", lat:42.421, lon:18.768, g:0, k:3, d:[],
     s:[{f:"1281-01-01",t:"1371-01-01",d:"sirbistan"},
        {f:"1371-01-01",t:"1420-01-01",d:"macaristan"},
        {f:"1420-01-01",t:"1797-10-17",d:"venedik"},
@@ -196,7 +196,7 @@ window.YERLESIMLER_EK = [
 // Knin: Gazi Hüsrev Bey'in kuşatması; Mihajlo Vojković 28 Mayıs 1522'de teslim
 // oldu, Osmanlı ertesi gün şehre girdi. Venedik 11 Eylül 1688'de aldı
 // (Girolamo Cornaro, on iki günlük kuşatma).
-{ ad:"Knin", tur:"kale", lat:44.041, lon:16.197, g:0, k:0,kd:[{f:"1580-01-01",t:"1688-09-11",k:2,m:null}],
+{ ad:"Knin", tur:"kale", lat:44.041, lon:16.197, g:0, k:3,kd:[{f:"1580-01-01",t:"1688-09-11",k:2,m:null}],
     s:[{f:"1281-01-01",t:"1522-05-29",d:"macaristan"},
        {f:"1688-09-11",t:"1797-10-17",d:"venedik"},
        {f:"1797-10-17",t:"1918-11-11",d:"avusturya"},
@@ -204,7 +204,7 @@ window.YERLESIMLER_EK = [
     d:[{f:"1522-05-29",t:"1688-09-11",y:"kusatma"}] },
 // Sin (Sinj): Osmanlı 1513 (gün belirsiz, §76 → YYYY-01-01); Venedik
 // 30 Eylül 1686, Poljica milisleriyle.
-{ ad:"Sin (Sinj)", tur:"kale", lat:43.704, lon:16.639, g:0, k:0,
+{ ad:"Sin (Sinj)", tur:"kale", lat:43.704, lon:16.639, g:0, k:4,
     s:[{f:"1281-01-01",t:"1513-01-01",d:"macaristan"},
        {f:"1686-09-30",t:"1797-10-17",d:"venedik"},
        {f:"1797-10-17",t:"1918-11-11",d:"avusturya"},
@@ -217,7 +217,7 @@ window.YERLESIMLER_EK = [
 //    varlığını sürdürdü" diyor. Bu AYNI SORUNUN cevabı değildir: sancak idarî
 //    birimdir ve 1648'den sonra merkezi Livno'ya taşınmıştır; KALE 1648'de
 //    Venedik'e geçti. Bu kayıt kaleyi yazar, sancağı değil.
-{ ad:"Klis", tur:"kale", lat:43.559, lon:16.519, g:0, k:0,kd:[{f:"1537-03-12",t:"1648-03-31",k:2,m:null}],
+{ ad:"Klis", tur:"kale", lat:43.559, lon:16.519, g:0, k:2,kd:[{f:"1537-03-12",t:"1648-03-31",k:2,m:null}],
     s:[{f:"1281-01-01",t:"1537-03-12",d:"macaristan"},
        {f:"1648-03-31",t:"1797-10-17",d:"venedik"},
        {f:"1797-10-17",t:"1918-11-11",d:"avusturya"},
@@ -234,7 +234,7 @@ window.YERLESIMLER_EK = [
 //    hukuken sürdü. Yan faydası: `isg:` Değişmez 2 borcu doğurmaz (motor okumaz).
 //    ⚠️ Tarihler YIL hassasiyetli — TDV gün vermiyor, §76 gereği uydurulmadı.
 //    Karşılaştırma turunda Ekim 1538 / Temmuz-Ağustos 1539 da geçiyor; TDV esas.
-{ ad:"Herseknovi (Herceg Novi)", tur:"kale", lat:42.453, lon:18.538, g:0, k:0,
+{ ad:"Herseknovi (Herceg Novi)", tur:"kale", lat:42.453, lon:18.538, g:0, k:4,
     kur:"1382-01-01",
     s:[{f:"1382-01-01",t:"1482-01-01",d:"bosna"},
        {f:"1687-09-30",t:"1797-10-17",d:"venedik"},
@@ -353,7 +353,7 @@ window.YERLESIMLER_EK = [
 // ⚠️ k:0 / m: yok — Bihaç 1592-1699 sancak MERKEZİ, 1699'dan sonra Bosna
 //    sancağına BAĞLI. `k`/`m`'nin zaman boyutu olmadığı için (Değişmez 3)
 //    hangisi yazılsa öbür dönemde yanlış olurdu. Eksik alan yanlış alandan iyidir.
-{ ad:"Bihaç (Bihać)", tur:"kale", lat:44.817, lon:15.871, g:0, k:0,kd:[{f:"1592-06-19",t:"1908-10-05",k:2,m:null}],
+{ ad:"Bihaç (Bihać)", tur:"kale", lat:44.817, lon:15.871, g:0, k:2,kd:[{f:"1592-06-19",t:"1908-10-05",k:2,m:null}],
     s:[{f:"1281-01-01",t:"1527-01-01",d:"macaristan"},
        {f:"1527-01-01",t:"1592-06-19",d:"avusturya"},
        {f:"1908-10-05",t:"1918-11-11",d:"avusturya"},

@@ -115,7 +115,7 @@ window.YERLESIMLER_EK4 = [
 // Değişmez 1 ✓ 1281→1923 KESİNTİSİZ (sahipsiz sayacına katkı YOK)
 // 📌 1502-03-01 `Bozkır (Deşt-i Kıpçak)`tan; 1552-01-01 ve 1775-06-16
 //    `devletler.js` künyesinin kendi tarihleri.
-{ ad:"Zaporojye Seçi", tur:"kale", lat:47.75, lon:34.80, g:0, k:0, d:[],
+{ ad:"Zaporojye Seçi", tur:"kale", lat:47.75, lon:34.80, g:0, k:1, d:[],
   s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1502-03-01",t:"1552-01-01",d:"kirim"},{f:"1552-01-01",t:"1775-06-16",d:"zaporojye"},{f:"1775-06-16",t:"1923-10-29",d:"rusya"}] },
 
 // ── LİBYA İÇ ÇÖLÜ — koordinatörün kararı, tek nokta ─────────────────

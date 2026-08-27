@@ -57,52 +57,52 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   // (1483-1484) boş bulunup yeniden kuruldu ⇒ `kur`.
   // ⚠️ 1860-1862 İspanyol işgali YAZILMADI — iki yeni kırılma açardı ve
   //    2s tavanı doluydu; teslim raporunda koordinatöre bildirildi.
-  { ad:"Tıtvân (Tetuan)", tur:"sehir", lat:35.578, lon:-5.368, g:0, k:0, m:null,
+  { ad:"Tıtvân (Tetuan)", tur:"sehir", lat:35.578, lon:-5.368, g:0, k:3, m:null,
     kur:"1484-01-01",
     s:[{f:"1484-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
 
   // İspanyol presidiosu 1610-1689 (Mevlây İsmâil geri aldı). Gün
   // doğrulanamadı ⇒ `§4` gereği YYYY-01-01.
-  { ad:"el-Arâiş (Larache)", tur:"liman", lat:35.193, lon:-6.156, g:0, k:0, m:null,
+  { ad:"el-Arâiş (Larache)", tur:"liman", lat:35.193, lon:-6.156, g:0, k:3, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1610-01-01",d:"sadi"},
        {f:"1610-01-01",t:"1689-01-01",d:"ispanya",enklav:true},
        {f:"1689-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
 
   // Vâdilmehâzin (Üç Padişah) Savaşı 1578 bu şehrin kuzeyinde oldu.
-  { ad:"Kasrülkebîr", tur:"sehir", lat:35.001, lon:-5.906, g:0, k:0, m:null,
+  { ad:"Kasrülkebîr", tur:"sehir", lat:35.001, lon:-5.906, g:0, k:3, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
 
   // Tâze geçidi — Fas ile Rif/Şark arasındaki tek doğal koridor.
-  { ad:"Tâze (Taza)", tur:"sehir", lat:34.210, lon:-4.010, g:0, k:0, m:null,
+  { ad:"Tâze (Taza)", tur:"sehir", lat:34.210, lon:-4.010, g:0, k:3, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
 
   // 🔴 SINIR NOKTASI. Vecde yokken Fas'ın kuzeydoğusu Tilimsan'ın peteğine
   // düşüyordu; Tilimsan 1552'den Osmanlı olduğu için Melviye'nin batısı
   // dört asır boyunca yanlış tarafta boyanıyordu.
-  { ad:"Vecde (Oujda)", tur:"sehir", lat:34.681, lon:-1.900, g:0, k:0, m:null,
+  { ad:"Vecde (Oujda)", tur:"sehir", lat:34.681, lon:-1.900, g:0, k:3, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
 
   // TDV `sicilmase` — Tâfilelt'in kervan başkenti, Alevî hanedanının ocağı.
-  { ad:"Sicilmâse (Tâfilelt)", tur:"sehir", lat:31.281, lon:-4.283, g:0, k:0, m:null,
+  { ad:"Sicilmâse (Tâfilelt)", tur:"sehir", lat:31.281, lon:-4.283, g:0, k:3, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
 
   // Sa'dî hanedanının ilk merkezi (Sûs) — TDV `sus`.
-  { ad:"Tarûdant", tur:"sehir", lat:30.471, lon:-8.877, g:0, k:0, m:null,
+  { ad:"Tarûdant", tur:"sehir", lat:30.471, lon:-8.877, g:0, k:3, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
 
   // Sîdî Muhammed b. Abdullah 1764'te kurdurdu ⇒ `kur`.
-  { ad:"Sûvayra (Mogador)", tur:"liman", lat:31.513, lon:-9.770, g:0, k:0, m:null,
+  { ad:"Sûvayra (Mogador)", tur:"liman", lat:31.513, lon:-9.770, g:0, k:3, m:null,
     kur:"1764-01-01",
     s:[{f:"1764-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
 
-  { ad:"Şefşâven", tur:"sehir", lat:35.171, lon:-5.269, g:0, k:0, m:null,
+  { ad:"Şefşâven", tur:"sehir", lat:35.171, lon:-5.269, g:0, k:3, m:null,
     kur:"1471-01-01",
     s:[{f:"1471-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
 
   // Vezzâniyye zâviyesinin merkezi. Kuruluş yılı için güvenilir tarih
   // BULUNAMADI ⇒ `kur` HİÇ YAZILMADI (`VERI-YAPISI.md`: "Bilinmiyorsa alanı
   // hiç yazma. Eksik alan yanlış alandan iyidir.").
-  { ad:"Vezzân (Ouezzane)", tur:"sehir", lat:34.796, lon:-5.583, g:0, k:0, m:null,
+  { ad:"Vezzân (Ouezzane)", tur:"sehir", lat:34.796, lon:-5.583, g:0, k:3, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
 
   // Peñón de Vélez de la Gomera: 1508 alındı, 1522 kaybedildi, 1564'te
@@ -110,62 +110,62 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   // ⚠️ Konum 11 METRE taşındı — kayalık, Natural Earth maskesinin sınırına
   // teğet geçiyordu. Bu, `konum` denetiminin neden örneklemeyle değil tam
   // taramayla koşturulması gerektiğinin ölçüsü: 11 m'lik sapma da ihlaldir.
-  { ad:"Bâdis (Peñón de Vélez)", tur:"kale", lat:35.1721, lon:-4.3009, g:0, k:0, m:null,
+  { ad:"Bâdis (Peñón de Vélez)", tur:"kale", lat:35.1721, lon:-4.3009, g:0, k:4, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1564-01-01",d:"sadi"},
        {f:"1564-01-01",t:"1923-10-29",d:"ispanya",enklav:true}], d:[], v:[] },
 
-  { ad:"el-Hüseyme (Alhucemas)", tur:"kale", lat:35.246, lon:-3.931, g:0, k:0, m:null,
+  { ad:"el-Hüseyme (Alhucemas)", tur:"kale", lat:35.246, lon:-3.931, g:0, k:4, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1673-01-01",d:"fas"},
        {f:"1673-01-01",t:"1923-10-29",d:"ispanya",enklav:true}], d:[], v:[] },
 
   // La Mâmûra / Mehdiye. ⚠️ `ad` ÇAKIŞMASI: Tunus'ta zaten "Mehdiye" var
   // (35,505 / 11,062) — bu yüzden ad "Mamûra" ile açıldı.
-  { ad:"Mamûra (Mehdiye)", tur:"kale", lat:34.256, lon:-6.678, g:0, k:0, m:null,
+  { ad:"Mamûra (Mehdiye)", tur:"kale", lat:34.256, lon:-6.678, g:0, k:4, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1614-01-01",d:"sadi"},
        {f:"1614-01-01",t:"1681-01-01",d:"ispanya",enklav:true},
        {f:"1681-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
 
-  { ad:"Debdû", tur:"sehir", lat:34.098, lon:-3.032, g:0, k:0, m:null,
+  { ad:"Debdû", tur:"sehir", lat:34.098, lon:-3.032, g:0, k:3, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
 
   // Fas-Cezayir çöl hududundaki vaha — Vecde ile birlikte Melviye/Zûsfâne
   // hattını tutar.
-  { ad:"Fîgîg (Figuig)", tur:"sehir", lat:32.109, lon:-1.227, g:0, k:0, m:null,
+  { ad:"Fîgîg (Figuig)", tur:"sehir", lat:32.109, lon:-1.227, g:0, k:3, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
 
   // TDV `darulbeyza` — eski Anfa; 1770'te Sîdî Muhammed yeniden imar etti.
-  { ad:"Dârülbeyzâ (Anfa)", tur:"liman", lat:33.573, lon:-7.590, g:0, k:0, m:null,
+  { ad:"Dârülbeyzâ (Anfa)", tur:"liman", lat:33.573, lon:-7.590, g:0, k:3, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
 
-  { ad:"Zâgûre (Dr'a)", tur:"sehir", lat:30.332, lon:-5.838, g:0, k:0, m:null,
+  { ad:"Zâgûre (Dr'a)", tur:"sehir", lat:30.332, lon:-5.838, g:0, k:3, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
 
-  { ad:"Verzâzât", tur:"sehir", lat:30.920, lon:-6.910, g:0, k:0, m:null,
+  { ad:"Verzâzât", tur:"sehir", lat:30.920, lon:-6.910, g:0, k:3, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
 
-  { ad:"Tinğîr", tur:"sehir", lat:31.515, lon:-5.533, g:0, k:0, m:null,
+  { ad:"Tinğîr", tur:"sehir", lat:31.515, lon:-5.533, g:0, k:3, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
 
-  { ad:"Benî Mellâl", tur:"sehir", lat:32.337, lon:-6.360, g:0, k:0, m:null,
+  { ad:"Benî Mellâl", tur:"sehir", lat:32.337, lon:-6.360, g:0, k:3, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
 
-  { ad:"Hunayfire (Khenifra)", tur:"sehir", lat:32.936, lon:-5.668, g:0, k:0, m:null,
+  { ad:"Hunayfire (Khenifra)", tur:"sehir", lat:32.936, lon:-5.668, g:0, k:3, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
 
-  { ad:"Sefrû", tur:"sehir", lat:33.830, lon:-4.836, g:0, k:0, m:null,
+  { ad:"Sefrû", tur:"sehir", lat:33.830, lon:-4.836, g:0, k:3, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
 
-  { ad:"Îfnî (Sîdî İfnî)", tur:"liman", lat:29.379, lon:-10.173, g:0, k:0, m:null,
+  { ad:"Îfnî (Sîdî İfnî)", tur:"liman", lat:29.379, lon:-10.173, g:0, k:3, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
 
-  { ad:"Tîznît", tur:"sehir", lat:29.699, lon:-9.732, g:0, k:0, m:null,
+  { ad:"Tîznît", tur:"sehir", lat:29.699, lon:-9.732, g:0, k:3, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
 
   // Vâdî Nûn — Tekne kabilelerinin kervan kapısı, Sahra'ya açılan uç.
-  { ad:"Ğulmîm (Vâdî Nûn)", tur:"sehir", lat:28.987, lon:-10.057, g:0, k:0, m:null,
+  { ad:"Ğulmîm (Vâdî Nûn)", tur:"sehir", lat:28.987, lon:-10.057, g:0, k:3, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
 
-  { ad:"Tâtâ", tur:"sehir", lat:29.744, lon:-7.972, g:0, k:0, m:null,
+  { ad:"Tâtâ", tur:"sehir", lat:29.744, lon:-7.972, g:0, k:3, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
 
 
@@ -262,25 +262,25 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   // yüzyıllarca sürdü, Mevlây Hasan 1892'de yeniden tesis etti ve Fas
   // valileri Fransız işgaline kadar yerinde kaldı; işgal Makhzen'in
   // protestosuyla karşılandı. ⇒ `fas`, sonra `fransa`.
-  { ad:"Advâr (Tuvât)", tur:"sehir", lat:27.874, lon:-0.294, g:0, k:0, m:null,
+  { ad:"Advâr (Tuvât)", tur:"sehir", lat:27.874, lon:-0.294, g:0, k:3, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1901-02-21",d:"fas"},
        {f:"1901-02-21",t:"1923-10-29",d:"fransa-cumhuriyet"}], d:[], v:[] },
 
-  { ad:"Tîmîmûn (Gûrâre)", tur:"sehir", lat:29.256, lon:0.231, g:0, k:0, m:null,
+  { ad:"Tîmîmûn (Gûrâre)", tur:"sehir", lat:29.256, lon:0.231, g:0, k:3, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1901-02-21",d:"fas"},
        {f:"1901-02-21",t:"1923-10-29",d:"fransa-cumhuriyet"}], d:[], v:[] },
 
   // Tîdîkelt'in merkezi. Fransızlar 29 Aralık 1899'da işgal etti —
   // kümenin geri kalanından 14 ay önce, o yüzden AYRI tarih.
-  { ad:"Aynı Sâlih (Tîdîkelt)", tur:"sehir", lat:27.194, lon:2.480, g:0, k:0, m:null,
+  { ad:"Aynı Sâlih (Tîdîkelt)", tur:"sehir", lat:27.194, lon:2.480, g:0, k:3, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1899-12-29",d:"fas"},
        {f:"1899-12-29",t:"1923-10-29",d:"fransa-cumhuriyet"}], d:[], v:[] },
 
-  { ad:"Reggân", tur:"sehir", lat:26.719, lon:0.170, g:0, k:0, m:null,
+  { ad:"Reggân", tur:"sehir", lat:26.719, lon:0.170, g:0, k:3, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1901-02-21",d:"fas"},
        {f:"1901-02-21",t:"1923-10-29",d:"fransa-cumhuriyet"}], d:[], v:[] },
 
-  { ad:"Benî Abbâs (Sâvre)", tur:"sehir", lat:30.130, lon:-2.170, g:0, k:0, m:null,
+  { ad:"Benî Abbâs (Sâvre)", tur:"sehir", lat:30.130, lon:-2.170, g:0, k:3, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1901-02-21",d:"fas"},
        {f:"1901-02-21",t:"1923-10-29",d:"fransa-cumhuriyet"}], d:[], v:[] },
 
@@ -290,7 +290,7 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   //    Kaynaklar 11 Kasım (karakolun kuruluşu) ya da Ekim 1903 (işgal) diyor;
   //    12 Kasım hiçbirinde geçmiyor. Bir gün kaydırma denetimi değiştirmez
   //    (±30 gün penceresi aynı), ama YAZILAN TARİH DOĞRU OLMAK ZORUNDA.
-  { ad:"Beşşâr (Béchar)", tur:"sehir", lat:31.617, lon:-2.216, g:0, k:0, m:null,
+  { ad:"Beşşâr (Béchar)", tur:"sehir", lat:31.617, lon:-2.216, g:0, k:3, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1903-11-11",d:"fas"},
        {f:"1903-11-11",t:"1923-10-29",d:"fransa-cumhuriyet"}], d:[], v:[] },
 

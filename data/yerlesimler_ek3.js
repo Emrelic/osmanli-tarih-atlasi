@@ -29,7 +29,7 @@ window.YERLESIMLER_EK3 = [
 //    kadar zararlıdır.
 // 📌 Gün yok, yıl var ⇒ `YYYY-01-01` (ev kuralı). Zaten üçü de s:→s:
 //    geçişi olduğu için KIRILMA ÜRETMİYOR — Değişmez 2 borcu sıfır.
-{ ad:"Sebte (Ceuta)", tur:"liman", lat:35.889, lon:-5.318, g:0, k:0, d:[],
+{ ad:"Sebte (Ceuta)", tur:"liman", lat:35.889, lon:-5.318, g:0, k:3, d:[],
   s:[{f:"1281-01-01",t:"1415-01-01",d:"merini"},{f:"1415-01-01",t:"1581-04-16",d:"portekiz",enklav:true},{f:"1581-04-16",t:"1923-10-29",d:"ispanya",enklav:true}] },
 
 // 🔴 BU PARTİNİN EN ZAYIF KAYDI — ve zayıflığı burada yazılı.
@@ -45,7 +45,7 @@ window.YERLESIMLER_EK3 = [
 // ③ tarihi birkaç yıl oynasa bile 1497-1923 boyunca sahip DEĞİŞMİYOR.
 // ⚠️ Kamengrad'dan farkı bu: orada hiç tarih yoktu ve komşusunu kopyalamak
 //    100 yıl yanlış olurdu; burada tarih var, yalnız TDV'siz.
-{ ad:"Melîle (Melilla)", tur:"liman", lat:35.292, lon:-2.938, g:0, k:0, d:[],
+{ ad:"Melîle (Melilla)", tur:"liman", lat:35.292, lon:-2.938, g:0, k:3, d:[],
   s:[{f:"1281-01-01",t:"1497-01-01",d:"merini"},{f:"1497-01-01",t:"1923-10-29",d:"ispanya",enklav:true}] },
 
 // Oran'ın limanı, ona 7,51 km. TDV `vehran`: "Kastilya Krallığı 17 Mayıs
@@ -116,16 +116,16 @@ window.YERLESIMLER_EK3 = [
 // ⚠️ Mazagan atlasın kaçırdığı EN UZUN Portekiz dönemidir: 255 yıl,
 //    Portekiz'in Fas'ta en son bıraktığı yer (1769). En yakın nokta
 //    Rabat'tı, 176 km — yani orası da düz Fas boyanıyordu.
-{ ad:"Mazagan (El Jadida)", tur:"kale", lat:33.256, lon:-8.506, g:0, k:0, d:[],
+{ ad:"Mazagan (El Jadida)", tur:"kale", lat:33.256, lon:-8.506, g:0, k:4, d:[],
   s:[{f:"1281-01-01",t:"1514-01-01",d:"merini"},{f:"1514-01-01",t:"1769-01-01",d:"portekiz",enklav:true},{f:"1769-01-01",t:"1923-10-29",d:"fas"}] },
 
-{ ad:"Safi (Asfi)", tur:"liman", lat:32.299, lon:-9.237, g:0, k:0, d:[],
+{ ad:"Safi (Asfi)", tur:"liman", lat:32.299, lon:-9.237, g:0, k:3, d:[],
   s:[{f:"1281-01-01",t:"1488-01-01",d:"merini"},{f:"1488-01-01",t:"1541-01-01",d:"portekiz",enklav:true},{f:"1541-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}] },
 
-{ ad:"Azemmûr", tur:"liman", lat:33.289, lon:-8.342, g:0, k:0, d:[],
+{ ad:"Azemmûr", tur:"liman", lat:33.289, lon:-8.342, g:0, k:3, d:[],
   s:[{f:"1281-01-01",t:"1513-01-01",d:"merini"},{f:"1513-01-01",t:"1541-01-01",d:"portekiz",enklav:true},{f:"1541-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}] },
 
-{ ad:"Arzila (Asilah)", tur:"liman", lat:35.466, lon:-6.036, g:0, k:0, d:[],
+{ ad:"Arzila (Asilah)", tur:"liman", lat:35.466, lon:-6.036, g:0, k:3, d:[],
   s:[{f:"1281-01-01",t:"1471-01-01",d:"merini"},{f:"1471-01-01",t:"1549-01-01",d:"portekiz",enklav:true},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}] },
 
 

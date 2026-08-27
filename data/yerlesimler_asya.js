@@ -253,7 +253,7 @@ window.YERLESIMLER_ASYA = [
 
 // Mathura — Yamuna'nın kutsal şehri; siyasî olarak hep Delhi/Agra ile aynı
 // eldedir. 1670 Evrengzîb'in mâbed yıkımı sahiplik değiştirmedi.
-{ ad:"Mathura", tur:"sehir", lat:27.4920, lon:77.6730, g:0, k:0, d:[],
+{ ad:"Mathura", tur:"sehir", lat:27.4920, lon:77.6730, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1526-04-21", d:"delhi-sultanligi"},
      {f:"1526-04-21", t:"1540-05-17", d:"babur-imparatorlugu"},
      {f:"1540-05-17", t:"1555-07-23", d:"sur-hanedani"},
@@ -263,7 +263,7 @@ window.YERLESIMLER_ASYA = [
 
 // Mîrat (Meerut) — Delhi'nin kuzeydoğu kapısı. 1857 ayaklanması burada
 // başladı (10 Mayıs); sahiplik değişmediği için pencere açılmadı.
-{ ad:"Mîrat (Meerut)", tur:"sehir", lat:28.9840, lon:77.7060, g:0, k:0, d:[],
+{ ad:"Mîrat (Meerut)", tur:"sehir", lat:28.9840, lon:77.7060, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1526-04-21", d:"delhi-sultanligi"},
      {f:"1526-04-21", t:"1540-05-17", d:"babur-imparatorlugu"},
      {f:"1540-05-17", t:"1555-07-23", d:"sur-hanedani"},
@@ -274,7 +274,7 @@ window.YERLESIMLER_ASYA = [
 // Pânipat — Hint tarihinin üç dönüm noktasının sahnesi: 21 Nisan 1526
 // (Bâbür–İbrâhîm Lodî), 5 Kasım 1556 (Ekber–Hemû), 14 Ocak 1761
 // (Dürrânî–Maratha). Üçü de bu noktanın zincirinde görünür.
-{ ad:"Pânipat", tur:"sehir", lat:29.3900, lon:76.9770, g:1, k:0, d:[],
+{ ad:"Pânipat", tur:"sehir", lat:29.3900, lon:76.9770, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1526-04-21", d:"delhi-sultanligi"},
      {f:"1526-04-21", t:"1540-05-17", d:"babur-imparatorlugu"},
      {f:"1540-05-17", t:"1556-11-05", d:"sur-hanedani"},
@@ -283,7 +283,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1803-09-11", t:"1923-10-29", d:"ingiliz-hindistani"}] },
 
 // Hisâr-ı Fîrûze — Fîrûz Şah Tuğluk'un 1354'te kurduğu şehir; kur: yazıldı.
-{ ad:"Hisâr-ı Fîrûze", tur:"kale", lat:29.1530, lon:75.7220, g:0, k:0, d:[],
+{ ad:"Hisâr-ı Fîrûze", tur:"kale", lat:29.1530, lon:75.7220, g:0, k:4, d:[],
   kur:"1354-01-01",
   s:[{f:"1354-01-01", t:"1526-04-21", d:"delhi-sultanligi"},
      {f:"1526-04-21", t:"1540-05-17", d:"babur-imparatorlugu"},
@@ -293,7 +293,7 @@ window.YERLESIMLER_ASYA = [
 
 // Koil (Aligarh) — Doâb'ın ortası. 1757-1803 arası Rohilla, Câtlar ve
 // Maratha arasında elden ele geçti; 4 Eylül 1803'te İngiliz'e düştü.
-{ ad:"Koil (Aligarh)", tur:"kale", lat:27.8970, lon:78.0880, g:0, k:0, d:[],
+{ ad:"Koil (Aligarh)", tur:"kale", lat:27.8970, lon:78.0880, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1526-04-21", d:"delhi-sultanligi"},
      {f:"1526-04-21", t:"1540-05-17", d:"babur-imparatorlugu"},
      {f:"1540-05-17", t:"1555-07-23", d:"sur-hanedani"},
@@ -303,7 +303,7 @@ window.YERLESIMLER_ASYA = [
 
 // Etâve (Etawah) — Yamuna-Ganj arası. 1801'de Avad nevâbı tarafından
 // İngilizlere devredilen "Ceded Districts" içindedir.
-{ ad:"Etâve (Etawah)", tur:"sehir", lat:26.7760, lon:79.0150, g:0, k:0, d:[],
+{ ad:"Etâve (Etawah)", tur:"sehir", lat:26.7760, lon:79.0150, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1526-04-21", d:"delhi-sultanligi"},
      {f:"1526-04-21", t:"1540-05-17", d:"babur-imparatorlugu"},
      {f:"1540-05-17", t:"1555-07-23", d:"sur-hanedani"},
@@ -314,7 +314,7 @@ window.YERLESIMLER_ASYA = [
 // Kannauc — 17 Mayıs 1540'ta Şîr Şah Sûr'un Hümâyûn'u yendiği yer; Sûr
 // hanedanının kuruluş sahnesi. Cavnpur Sultanlığı 1394-1479 arasında
 // buraya kadar uzandı.
-{ ad:"Kannauc", tur:"sehir", lat:27.0550, lon:79.9160, g:0, k:0, d:[],
+{ ad:"Kannauc", tur:"sehir", lat:27.0550, lon:79.9160, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1394-01-01", d:"delhi-sultanligi"},
      {f:"1394-01-01", t:"1479-01-01", d:"cavnpur-sultanligi"},
      {f:"1479-01-01", t:"1526-04-21", d:"delhi-sultanligi"},
@@ -328,7 +328,7 @@ window.YERLESIMLER_ASYA = [
 // köydür; şehir sonradan büyümüştür. Görev tanımının örnek merkezlerinden
 // olduğu için konuldu ama UYDURMA kuruluş tarihi yazılmadı: kur: YOK,
 // nokta bütün dönem boyunca bölgesinin sahibini taşıyor.
-{ ad:"Kanpûr", tur:"sehir", lat:26.4500, lon:80.3320, g:0, k:0, d:[],
+{ ad:"Kanpûr", tur:"sehir", lat:26.4500, lon:80.3320, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1394-01-01", d:"delhi-sultanligi"},
      {f:"1394-01-01", t:"1479-01-01", d:"cavnpur-sultanligi"},
      {f:"1479-01-01", t:"1526-04-21", d:"delhi-sultanligi"},
@@ -406,7 +406,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1801-11-10", t:"1923-10-29", d:"ingiliz-hindistani"}] },
 
 // Gorakhpûr — Ganj ovasının Nepal eteğindeki kuzey ucu.
-{ ad:"Gorakhpûr", tur:"sehir", lat:26.7600, lon:83.3730, g:0, k:0, d:[],
+{ ad:"Gorakhpûr", tur:"sehir", lat:26.7600, lon:83.3730, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1394-01-01", d:"delhi-sultanligi"},
      {f:"1394-01-01", t:"1479-01-01", d:"cavnpur-sultanligi"},
      {f:"1479-01-01", t:"1526-04-21", d:"delhi-sultanligi"},
@@ -467,7 +467,7 @@ window.YERLESIMLER_ASYA = [
 
 // Amritsar — Sih dininin merkezi; Ram Das 1577'de havuzu kazdırdı, şehir o
 // tarihten itibaren vardır (kur:). 1802'de Ranjit Singh'in eline geçti.
-{ ad:"Amritsar", tur:"sehir", lat:31.6340, lon:74.8730, g:1, k:0, d:[],
+{ ad:"Amritsar", tur:"sehir", lat:31.6340, lon:74.8730, g:1, k:3, d:[],
   kur:"1577-01-01",
   s:[{f:"1577-01-01", t:"1752-04-01", d:"babur-imparatorlugu"},
      {f:"1752-04-01", t:"1765-04-16", d:"afgan-durrani"},
@@ -476,7 +476,7 @@ window.YERLESIMLER_ASYA = [
 
 // Sirhind — Delhi ile Lahor arasındaki menzil şehri; 14 Ocak 1764'te Sih
 // misllerince yıkıldı, o tarihten sonra bir daha toparlanamadı.
-{ ad:"Sirhind", tur:"kale", lat:30.6410, lon:76.3830, g:0, k:0, d:[],
+{ ad:"Sirhind", tur:"kale", lat:30.6410, lon:76.3830, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1526-04-21", d:"delhi-sultanligi"},
      {f:"1526-04-21", t:"1540-05-17", d:"babur-imparatorlugu"},
      {f:"1540-05-17", t:"1555-07-23", d:"sur-hanedani"},
@@ -485,7 +485,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1764-01-14", t:"1849-03-29", d:"sih-imparatorlugu"},
      {f:"1849-03-29", t:"1923-10-29", d:"ingiliz-hindistani"}] },
 
-{ ad:"Câlandhar (Jalandhar)", tur:"sehir", lat:31.3260, lon:75.5760, g:0, k:0, d:[],
+{ ad:"Câlandhar (Jalandhar)", tur:"sehir", lat:31.3260, lon:75.5760, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1526-04-21", d:"delhi-sultanligi"},
      {f:"1526-04-21", t:"1540-05-17", d:"babur-imparatorlugu"},
      {f:"1540-05-17", t:"1555-07-23", d:"sur-hanedani"},
@@ -494,7 +494,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1765-04-16", t:"1846-03-09", d:"sih-imparatorlugu"},
      {f:"1846-03-09", t:"1923-10-29", d:"ingiliz-hindistani"}] },
 
-{ ad:"Ludhiyana", tur:"sehir", lat:30.9010, lon:75.8570, g:0, k:0, d:[],
+{ ad:"Ludhiyana", tur:"sehir", lat:30.9010, lon:75.8570, g:0, k:3, d:[],
   kur:"1480-01-01",
   s:[{f:"1480-01-01", t:"1526-04-21", d:"delhi-sultanligi"},
      {f:"1526-04-21", t:"1540-05-17", d:"babur-imparatorlugu"},
@@ -504,7 +504,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1765-04-16", t:"1809-04-25", d:"sih-imparatorlugu"},
      {f:"1809-04-25", t:"1923-10-29", d:"ingiliz-hindistani"}] },
 
-{ ad:"Siyâlkot", tur:"sehir", lat:32.4940, lon:74.5310, g:0, k:0, d:[],
+{ ad:"Siyâlkot", tur:"sehir", lat:32.4940, lon:74.5310, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1526-04-21", d:"delhi-sultanligi"},
      {f:"1526-04-21", t:"1540-05-17", d:"babur-imparatorlugu"},
      {f:"1540-05-17", t:"1555-07-23", d:"sur-hanedani"},
@@ -514,7 +514,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1849-03-29", t:"1923-10-29", d:"ingiliz-hindistani"}] },
 
 // Attock — Ekber 1581'de İndus geçidini tutmak için kurdu (kur:).
-{ ad:"Attock", tur:"kale", lat:33.7660, lon:72.3600, g:0, k:0, d:[],
+{ ad:"Attock", tur:"kale", lat:33.7660, lon:72.3600, g:0, k:4, d:[],
   kur:"1581-01-01",
   s:[{f:"1581-01-01", t:"1738-01-01", d:"babur-imparatorlugu"},
      {f:"1738-01-01", t:"1747-06-20", d:"afsar"},
@@ -522,7 +522,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1813-07-13", t:"1849-03-29", d:"sih-imparatorlugu"},
      {f:"1849-03-29", t:"1923-10-29", d:"ingiliz-hindistani"}] },
 
-{ ad:"Râvalpindi", tur:"sehir", lat:33.5980, lon:73.0480, g:0, k:0, d:[],
+{ ad:"Râvalpindi", tur:"sehir", lat:33.5980, lon:73.0480, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1526-04-21", d:"delhi-sultanligi"},
      {f:"1526-04-21", t:"1540-05-17", d:"babur-imparatorlugu"},
      {f:"1540-05-17", t:"1555-07-23", d:"sur-hanedani"},
@@ -534,7 +534,7 @@ window.YERLESIMLER_ASYA = [
 
 // Peşâver — Hayber geçidinin doğu ağzı. Nâdir Şah 1738'de, Dürrânî 1747'de,
 // Sihler 6 Mayıs 1834'te, İngilizler 1849'da aldı.
-{ ad:"Peşâver", tur:"sehir", lat:34.0080, lon:71.5780, g:1, k:0, d:[],
+{ ad:"Peşâver", tur:"sehir", lat:34.0080, lon:71.5780, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1504-10-01", d:"delhi-sultanligi"},
      {f:"1504-10-01", t:"1738-01-01", d:"babur-imparatorlugu"},
      {f:"1738-01-01", t:"1747-06-20", d:"afsar"},
@@ -642,12 +642,12 @@ window.YERLESIMLER_ASYA = [
 
 // Karaçi — Kalhora idaresinde 1729'da balıkçı limanı olarak kuruldu (kur:);
 // İngilizler 3 Şubat 1839'da işgal etti, Sind'in ilhakından dört yıl önce.
-{ ad:"Karaçi", tur:"liman", lat:24.8610, lon:67.0100, g:1, k:0, d:[],
+{ ad:"Karaçi", tur:"liman", lat:24.8610, lon:67.0100, g:1, k:3, d:[],
   kur:"1729-01-01",
   s:[{f:"1729-01-01", t:"1839-02-03", d:"sind"},
      {f:"1839-02-03", t:"1923-10-29", d:"ingiliz-hindistani"}] },
 
-{ ad:"Şikârpûr", tur:"sehir", lat:27.9550, lon:68.6380, g:0, k:0, d:[],
+{ ad:"Şikârpûr", tur:"sehir", lat:27.9550, lon:68.6380, g:0, k:3, d:[],
   kur:"1617-01-01",
   s:[{f:"1617-01-01", t:"1701-01-01", d:"babur-imparatorlugu"},
      {f:"1701-01-01", t:"1843-02-17", d:"sind"},
@@ -672,7 +672,7 @@ window.YERLESIMLER_ASYA = [
 // Ecmîr (Ajmer) — Racputâne'nin tek DOĞRUDAN idare edilen parçası: Ekber
 // 1559'da aldı, 1818'de Maratha'dan İngilizlere geçti ve prens devleti
 // olmadı. Bu yüzden zinciri komşularından ayrılır.
-{ ad:"Ecmîr (Ajmer)", tur:"sehir", lat:26.4500, lon:74.6390, g:1, k:0, d:[],
+{ ad:"Ecmîr (Ajmer)", tur:"sehir", lat:26.4500, lon:74.6390, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1365-01-01", d:"delhi-sultanligi"},
      {f:"1365-01-01", t:"1559-01-01", d:"racput"},
      {f:"1559-01-01", t:"1756-01-01", d:"babur-imparatorlugu"},
@@ -713,11 +713,11 @@ window.YERLESIMLER_ASYA = [
   kur:"1727-01-01",
   s:[{f:"1727-01-01", t:"1923-10-29", d:"racput"}] },
 
-{ ad:"Caysalmer", tur:"kale", lat:26.9150, lon:70.9120, g:0, k:0, d:[],
+{ ad:"Caysalmer", tur:"kale", lat:26.9150, lon:70.9120, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1923-10-29", d:"racput"}] },
 
 // Bikaner — Rao Bika 1488'de kurdu (kur:).
-{ ad:"Bikaner", tur:"sehir", lat:28.0220, lon:73.3120, g:0, k:0, d:[],
+{ ad:"Bikaner", tur:"sehir", lat:28.0220, lon:73.3120, g:0, k:3, d:[],
   kur:"1488-01-01",
   s:[{f:"1488-01-01", t:"1923-10-29", d:"racput"}] },
 
@@ -748,7 +748,7 @@ window.YERLESIMLER_ASYA = [
 // kuşatmasında Süleyman Paşa donanması buradaydı). Şivâcî 1664 ve 1670'te
 // iki kez yağmaladı ama şehri elde tutmadı — pencere AÇILMADI. İngiliz
 // fabrikası 1612'de kuruldu, şehir idaresi 1759'da İngiliz'e geçti.
-{ ad:"Sûrat", tur:"liman", lat:21.1700, lon:72.8310, g:2, k:0, d:[],
+{ ad:"Sûrat", tur:"liman", lat:21.1700, lon:72.8310, g:2, k:3, d:[],
   s:[{f:"1281-01-01", t:"1304-01-01", d:"racput"},
      {f:"1304-01-01", t:"1407-01-01", d:"delhi-sultanligi"},
      {f:"1407-01-01", t:"1573-02-26", d:"gucerat-sultanligi"},
@@ -758,7 +758,7 @@ window.YERLESIMLER_ASYA = [
 // Kanbâyet (Cambay/Khambhat) — Gucerât'ın ortaçağdaki asıl limanı; körfezin
 // dolmasıyla yerini Sûrat'a bıraktı. 1780'den sonra Bâbürlü nevâbının
 // prens devleti olarak kaldı.
-{ ad:"Kanbâyet (Khambhat)", tur:"liman", lat:22.3170, lon:72.6200, g:0, k:0, d:[],
+{ ad:"Kanbâyet (Khambhat)", tur:"liman", lat:22.3170, lon:72.6200, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1304-01-01", d:"racput"},
      {f:"1304-01-01", t:"1407-01-01", d:"delhi-sultanligi"},
      {f:"1407-01-01", t:"1573-02-26", d:"gucerat-sultanligi"},
@@ -786,13 +786,13 @@ window.YERLESIMLER_ASYA = [
 
 // Bhuc (Kutch) — Câdeja racput hânedanı; 1549'da kuruldu, 1819'da İngiliz
 // himayesine girdi ama taht sürdü.
-{ ad:"Bhuc (Kutch)", tur:"sehir", lat:23.2420, lon:69.6670, g:0, k:0, d:[],
+{ ad:"Bhuc (Kutch)", tur:"sehir", lat:23.2420, lon:69.6670, g:0, k:3, d:[],
   kur:"1510-01-01",
   s:[{f:"1510-01-01", t:"1923-10-29", d:"racput"}] },
 
 // Patan (Anhilvâda) — Vâghela başkenti; 1304'te Delhi'ye, 1411'de
 // Ahmedâbâd'ın kurulmasıyla ikinci sıraya düştü.
-{ ad:"Patan (Anhilvâda)", tur:"sehir", lat:23.8500, lon:72.1260, g:0, k:0, d:[],
+{ ad:"Patan (Anhilvâda)", tur:"sehir", lat:23.8500, lon:72.1260, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1304-01-01", d:"racput"},
      {f:"1304-01-01", t:"1407-01-01", d:"delhi-sultanligi"},
      {f:"1407-01-01", t:"1572-11-18", d:"gucerat-sultanligi"},
@@ -803,7 +803,7 @@ window.YERLESIMLER_ASYA = [
 // Çampâner — Gucerât sultanı Mahmud Begada 1484'te aldı ve 1535'e kadar
 // başkent yaptı; Hümâyûn'un 1535 seferinden sonra terk edildi ve bir daha
 // toparlanamadı. bit: YAZILMADI çünkü şehir bütünüyle yok olmadı, küçüldü.
-{ ad:"Çampâner", tur:"kale", lat:22.4860, lon:73.5370, g:0, k:0, d:[],
+{ ad:"Çampâner", tur:"kale", lat:22.4860, lon:73.5370, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1304-01-01", d:"racput"},
      {f:"1304-01-01", t:"1484-01-01", d:"delhi-sultanligi"},
      {f:"1484-01-01", t:"1573-02-26", d:"gucerat-sultanligi"},
@@ -811,7 +811,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1753-04-01", t:"1818-01-01", d:"maratha"},
      {f:"1818-01-01", t:"1923-10-29", d:"ingiliz-hindistani"}] },
 
-{ ad:"Broaç (Bharuch)", tur:"liman", lat:21.7153, lon:72.9950, g:0, k:0, d:[],
+{ ad:"Broaç (Bharuch)", tur:"liman", lat:21.7153, lon:72.9950, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1304-01-01", d:"racput"},
      {f:"1304-01-01", t:"1407-01-01", d:"delhi-sultanligi"},
      {f:"1407-01-01", t:"1573-02-26", d:"gucerat-sultanligi"},
@@ -832,7 +832,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1561-03-29", t:"1732-01-01", d:"babur-imparatorlugu"},
      {f:"1732-01-01", t:"1923-10-29", d:"maratha"}] },
 
-{ ad:"Uccayn (Ujjain)", tur:"sehir", lat:23.1790, lon:75.7850, g:0, k:0, d:[],
+{ ad:"Uccayn (Ujjain)", tur:"sehir", lat:23.1790, lon:75.7850, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1305-01-01", d:"racput"},
      {f:"1305-01-01", t:"1392-01-01", d:"delhi-sultanligi"},
      {f:"1392-01-01", t:"1561-03-29", d:"malva-sultanligi"},
@@ -842,7 +842,7 @@ window.YERLESIMLER_ASYA = [
 // İndor — Holkar hânedanının merkezi; Malhar Rao Holkar 1733'ten itibaren
 // buradan yönetti, şehir 1715 civarında pazar yeri olarak kuruldu.
 // Kesin gün bilinmediği için kur: YYYY-01-01 yazıldı.
-{ ad:"İndor (Indore)", tur:"sehir", lat:22.7200, lon:75.8580, g:0, k:0, d:[],
+{ ad:"İndor (Indore)", tur:"sehir", lat:22.7200, lon:75.8580, g:0, k:3, d:[],
   kur:"1715-01-01",
   s:[{f:"1715-01-01", t:"1732-01-01", d:"babur-imparatorlugu"},
      {f:"1732-01-01", t:"1923-10-29", d:"maratha"}] },
@@ -850,7 +850,7 @@ window.YERLESIMLER_ASYA = [
 // Gvalyar — Hindistan'ın en güçlü kalelerinden; Tomar racputları 1398-1518,
 // Delhi 1518-1526, Bâbürlü, 1784'ten sonra Şinde (Maratha) hânedanının
 // merkezi ve 1948'e kadar prens devleti.
-{ ad:"Gvalyar (Gwalior)", tur:"kale", lat:26.2180, lon:78.1830, g:1, k:0, d:[],
+{ ad:"Gvalyar (Gwalior)", tur:"kale", lat:26.2180, lon:78.1830, g:1, k:4, d:[],
   s:[{f:"1281-01-01", t:"1398-01-01", d:"delhi-sultanligi"},
      {f:"1398-01-01", t:"1518-01-01", d:"racput"},
      {f:"1518-01-01", t:"1526-04-21", d:"delhi-sultanligi"},
@@ -867,7 +867,7 @@ window.YERLESIMLER_ASYA = [
 
 // Nagpûr — Bhonsle Maratha hânedanının merkezi; Gond krallığından 1743'te
 // alındı, 1853'te "lapse" doktriniyle ilhak edildi.
-{ ad:"Nagpûr", tur:"sehir", lat:21.1460, lon:79.0880, g:1, k:0, d:[],
+{ ad:"Nagpûr", tur:"sehir", lat:21.1460, lon:79.0880, g:1, k:3, d:[],
   kur:"1702-01-01",
   s:[{f:"1702-01-01", t:"1743-01-01", d:"gond-kralliklari"},
      {f:"1743-01-01", t:"1853-12-11", d:"maratha"},
@@ -875,7 +875,7 @@ window.YERLESIMLER_ASYA = [
 
 // Cabalpûr — Gond Garha-Mandla krallığı; Ekber 1564'te vergiye bağladı ama
 // hânedan sürdü. 1781'de Maratha, 1818'de İngiliz.
-{ ad:"Cabalpûr (Jabalpur)", tur:"sehir", lat:23.1810, lon:79.9870, g:0, k:0, d:[],
+{ ad:"Cabalpûr (Jabalpur)", tur:"sehir", lat:23.1810, lon:79.9870, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1781-01-01", d:"gond-kralliklari"},
      {f:"1781-01-01", t:"1818-01-01", d:"maratha"},
      {f:"1818-01-01", t:"1923-10-29", d:"ingiliz-hindistani"}] },
@@ -909,7 +909,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1717-01-01", t:"1764-10-22", d:"bengal-nevabligi"},
      {f:"1764-10-22", t:"1923-10-29", d:"ingiliz-hindistani"}] },
 
-{ ad:"Gayâ", tur:"sehir", lat:24.7960, lon:85.0010, g:0, k:0, d:[],
+{ ad:"Gayâ", tur:"sehir", lat:24.7960, lon:85.0010, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1497-01-01", d:"delhi-sultanligi"},
      {f:"1497-01-01", t:"1538-01-01", d:"bengal-sultanligi"},
      {f:"1538-01-01", t:"1564-01-01", d:"sur-hanedani"},
@@ -918,7 +918,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1717-01-01", t:"1764-10-22", d:"bengal-nevabligi"},
      {f:"1764-10-22", t:"1923-10-29", d:"ingiliz-hindistani"}] },
 
-{ ad:"Mungîr (Monghyr)", tur:"kale", lat:25.3750, lon:86.4740, g:0, k:0, d:[],
+{ ad:"Mungîr (Monghyr)", tur:"kale", lat:25.3750, lon:86.4740, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1338-01-01", d:"delhi-sultanligi"},
      {f:"1338-01-01", t:"1538-01-01", d:"bengal-sultanligi"},
      {f:"1538-01-01", t:"1564-01-01", d:"sur-hanedani"},
@@ -927,7 +927,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1717-01-01", t:"1764-10-22", d:"bengal-nevabligi"},
      {f:"1764-10-22", t:"1923-10-29", d:"ingiliz-hindistani"}] },
 
-{ ad:"Bhâgalpûr", tur:"sehir", lat:25.2440, lon:86.9820, g:0, k:0, d:[],
+{ ad:"Bhâgalpûr", tur:"sehir", lat:25.2440, lon:86.9820, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1338-01-01", d:"delhi-sultanligi"},
      {f:"1338-01-01", t:"1538-01-01", d:"bengal-sultanligi"},
      {f:"1538-01-01", t:"1564-01-01", d:"sur-hanedani"},
@@ -963,7 +963,7 @@ window.YERLESIMLER_ASYA = [
 
 // Râcmahal — Man Singh 1592'de Bâbürlü Bengal'inin başkenti yaptı (kur:).
 // 12 Temmuz 1576'daki Râcmahal Muharebesi Bengal Sultanlığı'nı bitirdi.
-{ ad:"Râcmahal", tur:"sehir", lat:25.0520, lon:87.8360, g:0, k:0, d:[],
+{ ad:"Râcmahal", tur:"sehir", lat:25.0520, lon:87.8360, g:0, k:3, d:[],
   kur:"1592-01-01",
   s:[{f:"1592-01-01", t:"1717-01-01", d:"babur-imparatorlugu"},
      {f:"1717-01-01", t:"1757-06-23", d:"bengal-nevabligi"},
@@ -991,7 +991,7 @@ window.YERLESIMLER_ASYA = [
 
 // Sonârgâon — 1338'de Fahreddin Mübârek Şah'ın bağımsızlık ilân ettiği yer,
 // yani Bengal Sultanlığı'nın doğduğu şehir. Dakka'ya 34 km.
-{ ad:"Sonârgâon", tur:"sehir", lat:23.6460, lon:90.5990, g:0, k:0, d:[],
+{ ad:"Sonârgâon", tur:"sehir", lat:23.6460, lon:90.5990, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1338-01-01", d:"delhi-sultanligi"},
      {f:"1338-01-01", t:"1538-01-01", d:"bengal-sultanligi"},
      {f:"1538-01-01", t:"1564-01-01", d:"sur-hanedani"},
@@ -1003,7 +1003,7 @@ window.YERLESIMLER_ASYA = [
 // Çatgam (Chittagong) — Bengal ile Arakan arasında yüzyıllarca el değiştirdi.
 // Mrauk U 1459'da aldı; Bâbürlü vali Şâyeste Han 27 Ocak 1666'da geri aldı
 // ve şehre İslâmâbâd adını verdi.
-{ ad:"Çatgam (Chittagong)", tur:"liman", lat:22.3350, lon:91.8340, g:1, k:0, d:[],
+{ ad:"Çatgam (Chittagong)", tur:"liman", lat:22.3350, lon:91.8340, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1338-01-01", d:"delhi-sultanligi"},
      {f:"1338-01-01", t:"1459-01-01", d:"bengal-sultanligi"},
      {f:"1459-01-01", t:"1666-01-27", d:"arakan"},
@@ -1023,7 +1023,7 @@ window.YERLESIMLER_ASYA = [
 
 // Hûglî — Portekiz 1580'de kurdu, Şah Cihan 1632'de zaptetti; Bengal'in
 // ilk Avrupa yerleşimidir.
-{ ad:"Hûglî (Hooghly)", tur:"liman", lat:22.8970, lon:88.3900, g:0, k:0, d:[],
+{ ad:"Hûglî (Hooghly)", tur:"liman", lat:22.8970, lon:88.3900, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1338-01-01", d:"delhi-sultanligi"},
      {f:"1338-01-01", t:"1538-01-01", d:"bengal-sultanligi"},
      {f:"1538-01-01", t:"1564-01-01", d:"sur-hanedani"},
@@ -1038,7 +1038,7 @@ window.YERLESIMLER_ASYA = [
 // 3 km kuralını geçiyor ve iki ayrı devletin toprağı olduğu için ikisi de
 // tutuldu. 23 Mart 1757'de Clive aldı, 1763'te iade edildi, 1793-1815 arası
 // tekrar İngiliz işgalinde kaldı, sonra 1950'ye kadar Fransız.
-{ ad:"Çandernagor", tur:"liman", lat:22.8620, lon:88.3570, g:0, k:0, d:[],
+{ ad:"Çandernagor", tur:"liman", lat:22.8620, lon:88.3570, g:0, k:3, d:[],
   kur:"1688-01-01",
   s:[{f:"1688-01-01", t:"1757-03-23", d:"fransa",enklav:true},
      {f:"1757-03-23", t:"1763-02-10", d:"ingiltere",enklav:true},
@@ -1058,7 +1058,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1751-05-17", t:"1803-10-14", d:"maratha"},
      {f:"1803-10-14", t:"1923-10-29", d:"ingiliz-hindistani"}] },
 
-{ ad:"Puri", tur:"sehir", lat:19.8130, lon:85.8310, g:0, k:0, d:[],
+{ ad:"Puri", tur:"sehir", lat:19.8130, lon:85.8310, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1568-01-01", d:"orissa"},
      {f:"1568-01-01", t:"1592-01-01", d:"bengal-sultanligi"},
      {f:"1592-01-01", t:"1751-05-17", d:"babur-imparatorlugu"},
@@ -1067,7 +1067,7 @@ window.YERLESIMLER_ASYA = [
 
 // Bâlâsor — İngiliz Doğu Hindistan Şirketi'nin Bengal'deki İLK fabrikası
 // (1633); Kalküta'dan 57 yıl önce.
-{ ad:"Bâlâsor (Balasore)", tur:"liman", lat:21.4940, lon:86.9330, g:0, k:0, d:[],
+{ ad:"Bâlâsor (Balasore)", tur:"liman", lat:21.4940, lon:86.9330, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1568-01-01", d:"orissa"},
      {f:"1568-01-01", t:"1592-01-01", d:"bengal-sultanligi"},
      {f:"1592-01-01", t:"1751-05-17", d:"babur-imparatorlugu"},
@@ -1078,7 +1078,7 @@ window.YERLESIMLER_ASYA = [
 // Bâbürlü hem Bengal saldırılarını püskürttü (1671 Saraighat). Birmanya
 // 1817-1826 arasında işgal etti; 24 Şubat 1826 Yandabo Antlaşması ile
 // Assam İngilizlere geçti.
-{ ad:"Gauhâtî (Guwahati)", tur:"sehir", lat:26.1450, lon:91.7360, g:1, k:0, d:[],
+{ ad:"Gauhâtî (Guwahati)", tur:"sehir", lat:26.1450, lon:91.7360, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1817-01-01", d:"ahom"},
      {f:"1817-01-01", t:"1826-02-24", d:"konbaung"},
      {f:"1826-02-24", t:"1923-10-29", d:"ingiliz-hindistani"}] },
@@ -1128,7 +1128,7 @@ window.YERLESIMLER_ASYA = [
 // Evrengâbâd — Melik Anber 1610'da Hadkî adıyla kurdu (kur:); Evrengzîb
 // 1681-1707 arasında Dekken seferlerinin karargâhı yaptı. Devagiri'ye
 // 14.7 km, 3 km kuralının çok üstünde.
-{ ad:"Evrengâbâd", tur:"sehir", lat:19.8770, lon:75.3430, g:1, k:0, d:[],
+{ ad:"Evrengâbâd", tur:"sehir", lat:19.8770, lon:75.3430, g:1, k:3, d:[],
   kur:"1610-01-01",
   s:[{f:"1610-01-01", t:"1633-06-28", d:"ahmednagar"},
      {f:"1633-06-28", t:"1724-10-11", d:"babur-imparatorlugu"},
@@ -1247,7 +1247,7 @@ window.YERLESIMLER_ASYA = [
 
 // Raygad — Şivâcî'nin başkenti. Evrengzîb 3 Kasım 1689'da aldı, Marathalar
 // 1733'te geri aldı, İngilizler 9 Mayıs 1818'de.
-{ ad:"Raygad", tur:"kale", lat:18.2340, lon:73.4410, g:0, k:0, d:[],
+{ ad:"Raygad", tur:"kale", lat:18.2340, lon:73.4410, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1318-01-01", d:"yadava"},
      {f:"1318-01-01", t:"1347-08-03", d:"delhi-sultanligi"},
      {f:"1347-08-03", t:"1490-01-01", d:"behmeni"},
@@ -1260,7 +1260,7 @@ window.YERLESIMLER_ASYA = [
 
 // Satâra — 1708-1818 arası Maratha çhatrapatilerinin makamı; 1818'de
 // prens devleti oldu, 1848'de "lapse" doktriniyle ilhak edildi.
-{ ad:"Satâra", tur:"sehir", lat:17.6860, lon:74.0070, g:0, k:0, d:[],
+{ ad:"Satâra", tur:"sehir", lat:17.6860, lon:74.0070, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1318-01-01", d:"yadava"},
      {f:"1318-01-01", t:"1347-08-03", d:"delhi-sultanligi"},
      {f:"1347-08-03", t:"1490-01-01", d:"behmeni"},
@@ -1270,14 +1270,14 @@ window.YERLESIMLER_ASYA = [
 
 // Kolhapûr — Şivâcî soyunun ikinci kolu; 1949'a kadar prens devleti kaldı,
 // bu yüzden 1923'e kadar "maratha".
-{ ad:"Kolhapûr", tur:"sehir", lat:16.7050, lon:74.2430, g:0, k:0, d:[],
+{ ad:"Kolhapûr", tur:"sehir", lat:16.7050, lon:74.2430, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1318-01-01", d:"yadava"},
      {f:"1318-01-01", t:"1347-08-03", d:"delhi-sultanligi"},
      {f:"1347-08-03", t:"1490-01-01", d:"behmeni"},
      {f:"1490-01-01", t:"1659-01-01", d:"bicapur"},
      {f:"1659-01-01", t:"1923-10-29", d:"maratha"}] },
 
-{ ad:"Nâsik", tur:"sehir", lat:19.9980, lon:73.7900, g:0, k:0, d:[],
+{ ad:"Nâsik", tur:"sehir", lat:19.9980, lon:73.7900, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1318-01-01", d:"yadava"},
      {f:"1318-01-01", t:"1347-08-03", d:"delhi-sultanligi"},
      {f:"1347-08-03", t:"1490-01-01", d:"behmeni"},
@@ -1299,7 +1299,7 @@ window.YERLESIMLER_ASYA = [
 
 // Çaul — Portekiz'in Bombay'dan eski limanı (1521); Marathalar 1740'ta
 // aldı. Bombay'a 43 km.
-{ ad:"Çaul (Chaul)", tur:"liman", lat:18.5600, lon:72.9200, g:0, k:0, d:[],
+{ ad:"Çaul (Chaul)", tur:"liman", lat:18.5600, lon:72.9200, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1318-01-01", d:"yadava"},
      {f:"1318-01-01", t:"1347-08-03", d:"delhi-sultanligi"},
      {f:"1347-08-03", t:"1490-01-01", d:"behmeni"},
@@ -1311,14 +1311,14 @@ window.YERLESIMLER_ASYA = [
 // Goa — Albuquerque 25 Kasım 1510'da Bîcâpur'dan aldı; Portekiz Hindistanı'nın
 // başkenti ve 1961'e kadar Portekiz toprağı. Bu dosyadaki en uzun ikinci
 // Avrupa penceresi.
-{ ad:"Goa", tur:"liman", lat:15.5030, lon:73.9120, g:2, k:0, d:[],
+{ ad:"Goa", tur:"liman", lat:15.5030, lon:73.9120, g:2, k:3, d:[],
   s:[{f:"1281-01-01", t:"1318-01-01", d:"yadava"},
      {f:"1318-01-01", t:"1347-08-03", d:"delhi-sultanligi"},
      {f:"1347-08-03", t:"1490-01-01", d:"behmeni"},
      {f:"1490-01-01", t:"1510-11-25", d:"bicapur"},
      {f:"1510-11-25", t:"1923-10-29", d:"portekiz"}] },
 
-{ ad:"Mangalor", tur:"liman", lat:12.9140, lon:74.8560, g:0, k:0, d:[],
+{ ad:"Mangalor", tur:"liman", lat:12.9140, lon:74.8560, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1343-01-01", d:"hoysala"},
      {f:"1343-01-01", t:"1565-01-26", d:"vijayanagara"},
      {f:"1565-01-26", t:"1763-01-01", d:"nayak-devletleri"},
@@ -1342,7 +1342,7 @@ window.YERLESIMLER_ASYA = [
 // Raycur (Raichur) — Krişna ile Tungabhadra arasındaki "Raycur doâbı",
 // Vijayanagara ile Bîcâpur'un yüz yıllık kavga konusu. Krişnadevarâya
 // 19 Mayıs 1520'de aldı.
-{ ad:"Raycur (Raichur)", tur:"kale", lat:16.2070, lon:77.3550, g:0, k:0, d:[],
+{ ad:"Raycur (Raichur)", tur:"kale", lat:16.2070, lon:77.3550, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1323-01-01", d:"kakatiya"},
      {f:"1323-01-01", t:"1347-08-03", d:"delhi-sultanligi"},
      {f:"1347-08-03", t:"1490-01-01", d:"behmeni"},
@@ -1354,7 +1354,7 @@ window.YERLESIMLER_ASYA = [
 
 // Kurnûl — 1751-1839 arası Kurnûl nevâblığı; Nizam'ın tâbii sayıldığı için
 // ayrı kimlik açılmadı. 12 Ekim 1800'de "devredilen bölgeler" ile İngiliz.
-{ ad:"Kurnûl (Kurnool)", tur:"sehir", lat:15.8280, lon:78.0370, g:0, k:0, d:[],
+{ ad:"Kurnûl (Kurnool)", tur:"sehir", lat:15.8280, lon:78.0370, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1323-01-01", d:"kakatiya"},
      {f:"1323-01-01", t:"1347-08-03", d:"delhi-sultanligi"},
      {f:"1347-08-03", t:"1490-01-01", d:"behmeni"},
@@ -1367,7 +1367,7 @@ window.YERLESIMLER_ASYA = [
 // Bangalor — Kempe Gowda 1537'de kurdu (kur:); 1687'de Bîcâpur'dan
 // Meysûr'a satıldı. Cornwallis 21 Mart 1791'de aldı ama 1792 Seringapatam
 // Antlaşması'yla Tipu'ya iade edildi — bu yüzden ayrı pencere AÇILMADI.
-{ ad:"Bangalor", tur:"sehir", lat:12.9720, lon:77.5940, g:1, k:0, d:[],
+{ ad:"Bangalor", tur:"sehir", lat:12.9720, lon:77.5940, g:1, k:3, d:[],
   kur:"1537-01-01",
   s:[{f:"1537-01-01", t:"1565-01-26", d:"vijayanagara"},
      {f:"1565-01-26", t:"1687-01-01", d:"bicapur"},
@@ -1385,7 +1385,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1565-01-26", t:"1923-10-29", d:"meysur"}] },
 
 // Meysûr — Seringapatam'a 13 km; 1799'dan sonra krallığın başkenti oldu.
-{ ad:"Meysûr (Mysore)", tur:"sehir", lat:12.2950, lon:76.6390, g:1, k:0, d:[],
+{ ad:"Meysûr (Mysore)", tur:"sehir", lat:12.2950, lon:76.6390, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1343-01-01", d:"hoysala"},
      {f:"1343-01-01", t:"1565-01-26", d:"vijayanagara"},
      {f:"1565-01-26", t:"1923-10-29", d:"meysur"}] },
@@ -1406,7 +1406,7 @@ window.YERLESIMLER_ASYA = [
 // Beş kez el değiştirdi: 1693 Hollanda, 1699 iade; 1761 İngiliz, 1765
 // iade; 1778 İngiliz, 1785 iade; 1793 İngiliz, 1816 iade. Bu dosyadaki
 // en çok kırılan noktadır ve hepsi belgelidir.
-{ ad:"Pondişeri", tur:"liman", lat:11.9340, lon:79.8300, g:1, k:0, d:[],
+{ ad:"Pondişeri", tur:"liman", lat:11.9340, lon:79.8300, g:1, k:3, d:[],
   kur:"1674-01-01",
   s:[{f:"1674-01-01", t:"1693-09-06", d:"fransa",enklav:true},
      {f:"1693-09-06", t:"1699-09-01", d:"hollanda"},
@@ -1420,7 +1420,7 @@ window.YERLESIMLER_ASYA = [
 
 // Nagapatnam — Portekiz 1554, Hollanda 1658 (Hollanda Koromandel'inin
 // başkenti), İngiliz 12 Kasım 1781.
-{ ad:"Nagapatnam", tur:"liman", lat:10.7660, lon:79.8430, g:0, k:0, d:[],
+{ ad:"Nagapatnam", tur:"liman", lat:10.7660, lon:79.8430, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1311-01-01", d:"pandya"},
      {f:"1311-01-01", t:"1335-01-01", d:"delhi-sultanligi"},
      {f:"1335-01-01", t:"1378-01-01", d:"madurai-sultanligi"},
@@ -1432,7 +1432,7 @@ window.YERLESIMLER_ASYA = [
 // Tranquebar — Danimarka Doğu Hindistan Şirketi 19 Kasım 1620'de Tanjur
 // nâyabından kiraladı; 1845'te İngiltere'ye satıldı. Bu coğrafyadaki tek
 // Danimarka noktasıdır. Nagapatnam'a 30 km.
-{ ad:"Tranquebar (Tharangambadi)", tur:"liman", lat:11.0290, lon:79.8510, g:0, k:0, d:[],
+{ ad:"Tranquebar (Tharangambadi)", tur:"liman", lat:11.0290, lon:79.8510, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1311-01-01", d:"pandya"},
      {f:"1311-01-01", t:"1335-01-01", d:"delhi-sultanligi"},
      {f:"1335-01-01", t:"1378-01-01", d:"madurai-sultanligi"},
@@ -1464,7 +1464,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1736-01-01", t:"1801-07-31", d:"karnatik"},
      {f:"1801-07-31", t:"1923-10-29", d:"ingiliz-hindistani"}] },
 
-{ ad:"Trichinopoly (Tiruchirappalli)", tur:"kale", lat:10.7900, lon:78.7040, g:0, k:0, d:[],
+{ ad:"Trichinopoly (Tiruchirappalli)", tur:"kale", lat:10.7900, lon:78.7040, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1311-01-01", d:"pandya"},
      {f:"1311-01-01", t:"1335-01-01", d:"delhi-sultanligi"},
      {f:"1335-01-01", t:"1378-01-01", d:"madurai-sultanligi"},
@@ -1488,7 +1488,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1761-04-05", t:"1923-10-29", d:"ingiliz-hindistani"}] },
 
 // Vellor — Vijayanagara'nın Talikota sonrası başkenti (1606-1646).
-{ ad:"Vellor (Vellore)", tur:"kale", lat:12.9160, lon:79.1320, g:0, k:0, d:[],
+{ ad:"Vellor (Vellore)", tur:"kale", lat:12.9160, lon:79.1320, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1311-01-01", d:"pandya"},
      {f:"1311-01-01", t:"1378-01-01", d:"delhi-sultanligi"},
      {f:"1378-01-01", t:"1656-01-01", d:"vijayanagara"},
@@ -1532,14 +1532,14 @@ window.YERLESIMLER_ASYA = [
 // Kannûr — Kolathiri racasının limanı; Portekiz 1505'te Sant'Angelo
 // kalesini kurdu, Hollanda 1663'te aldı, 1771'de Arakkal beylerine sattı,
 // İngilizler 1790'da zaptetti.
-{ ad:"Kannûr (Cannanore)", tur:"liman", lat:11.8680, lon:75.3550, g:0, k:0, d:[],
+{ ad:"Kannûr (Cannanore)", tur:"liman", lat:11.8680, lon:75.3550, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1505-01-01", d:"kalikut"},
      {f:"1505-01-01", t:"1663-02-15", d:"portekiz"},
      {f:"1663-02-15", t:"1771-01-01", d:"hollanda"},
      {f:"1771-01-01", t:"1790-12-15", d:"meysur"},
      {f:"1790-12-15", t:"1923-10-29", d:"ingiliz-hindistani"}] },
 
-{ ad:"Kolam (Quilon)", tur:"liman", lat:8.8930, lon:76.6140, g:0, k:0, d:[],
+{ ad:"Kolam (Quilon)", tur:"liman", lat:8.8930, lon:76.6140, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1502-01-01", d:"travankur"},
      {f:"1502-01-01", t:"1661-12-08", d:"portekiz"},
      {f:"1661-12-08", t:"1795-01-01", d:"hollanda"},
@@ -1554,7 +1554,7 @@ window.YERLESIMLER_ASYA = [
 // ===== 2f. Kuzey Sirkarlar =====
 // 1765'te Bâbürlü hükümdarından beratla alındı, fiilî devir 12 Kasım 1766.
 
-{ ad:"Masulipatnam", tur:"liman", lat:16.1900, lon:81.1300, g:1, k:0, d:[],
+{ ad:"Masulipatnam", tur:"liman", lat:16.1900, lon:81.1300, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1323-01-01", d:"kakatiya"},
      {f:"1323-01-01", t:"1347-08-03", d:"delhi-sultanligi"},
      {f:"1347-08-03", t:"1512-01-01", d:"behmeni"},
@@ -1563,7 +1563,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1724-10-11", t:"1759-04-08", d:"haydarabad-nizam"},
      {f:"1759-04-08", t:"1923-10-29", d:"ingiliz-hindistani"}] },
 
-{ ad:"Râcahmundry", tur:"sehir", lat:17.0050, lon:81.7770, g:0, k:0, d:[],
+{ ad:"Râcahmundry", tur:"sehir", lat:17.0050, lon:81.7770, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1323-01-01", d:"kakatiya"},
      {f:"1323-01-01", t:"1347-08-03", d:"delhi-sultanligi"},
      {f:"1347-08-03", t:"1512-01-01", d:"behmeni"},
@@ -1572,7 +1572,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1724-10-11", t:"1766-11-12", d:"haydarabad-nizam"},
      {f:"1766-11-12", t:"1923-10-29", d:"ingiliz-hindistani"}] },
 
-{ ad:"Vişâkapatnam", tur:"liman", lat:17.6870, lon:83.2190, g:0, k:0, d:[],
+{ ad:"Vişâkapatnam", tur:"liman", lat:17.6870, lon:83.2190, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1323-01-01", d:"kakatiya"},
      {f:"1323-01-01", t:"1347-08-03", d:"delhi-sultanligi"},
      {f:"1347-08-03", t:"1512-01-01", d:"behmeni"},
@@ -1589,7 +1589,7 @@ window.YERLESIMLER_ASYA = [
 // "seylan-sinhala" Gampola/Kotte krallıklarını, "kandy" 1469'dan sonraki
 // dağ krallığını, "yafna" Tamil Yafna krallığını karşılar.
 
-{ ad:"Kolombo", tur:"liman", lat:6.9270, lon:79.8610, g:1, k:0, d:[],
+{ ad:"Kolombo", tur:"liman", lat:6.9270, lon:79.8610, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1518-09-01", d:"seylan-sinhala"},
      {f:"1518-09-01", t:"1656-05-12", d:"portekiz"},
      {f:"1656-05-12", t:"1796-02-16", d:"hollanda"},
@@ -1602,7 +1602,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1469-01-01", t:"1815-03-02", d:"kandy"},
      {f:"1815-03-02", t:"1923-10-29", d:"ingiltere"}] },
 
-{ ad:"Yafna (Jaffna)", tur:"sehir", lat:9.6610, lon:80.0260, g:0, k:0, d:[],
+{ ad:"Yafna (Jaffna)", tur:"sehir", lat:9.6610, lon:80.0260, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1619-02-01", d:"yafna"},
      {f:"1619-02-01", t:"1658-06-21", d:"portekiz"},
      {f:"1658-06-21", t:"1796-02-16", d:"hollanda"},
@@ -1668,19 +1668,19 @@ window.YERLESIMLER_ASYA = [
 
 // Tiencin — Yongle imparatoru 1404'te kaleyi kurdu ve şehre bu adı verdi
 // (kur:); Pekin'in deniz kapısıdır.
-{ ad:"Tiencin (Tianjin)", tur:"liman", lat:39.0840, lon:117.2010, g:1, k:0, d:[],
+{ ad:"Tiencin (Tianjin)", tur:"liman", lat:39.0840, lon:117.2010, g:1, k:3, d:[],
   kur:"1404-01-01",
   s:[{f:"1404-01-01", t:"1644-06-06", d:"ming-hanedani"},
      {f:"1644-06-06", t:"1912-02-12", d:"qing-hanedani"},
      {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
 
-{ ad:"Baoding", tur:"sehir", lat:38.8740, lon:115.4640, g:0, k:0, d:[],
+{ ad:"Baoding", tur:"sehir", lat:38.8740, lon:115.4640, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-09-14", d:"yuan-hanedani"},
      {f:"1368-09-14", t:"1644-06-06", d:"ming-hanedani"},
      {f:"1644-06-06", t:"1912-02-12", d:"qing-hanedani"},
      {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
 
-{ ad:"Zhengding", tur:"sehir", lat:38.1440, lon:114.5730, g:0, k:0, d:[],
+{ ad:"Zhengding", tur:"sehir", lat:38.1440, lon:114.5730, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-09-14", d:"yuan-hanedani"},
      {f:"1368-09-14", t:"1644-06-06", d:"ming-hanedani"},
      {f:"1644-06-06", t:"1912-02-12", d:"qing-hanedani"},
@@ -1688,7 +1688,7 @@ window.YERLESIMLER_ASYA = [
 
 // Kalgan (Zhangjiakou) — Çin Seddi'nin kuzey kapısı ve Moğolistan
 // kervan yolunun başlangıcı.
-{ ad:"Kalgan (Zhangjiakou)", tur:"kale", lat:40.8120, lon:114.8790, g:0, k:0, d:[],
+{ ad:"Kalgan (Zhangjiakou)", tur:"kale", lat:40.8120, lon:114.8790, g:0, k:4, d:[],
   kur:"1429-01-01",
   s:[{f:"1429-01-01", t:"1644-06-06", d:"ming-hanedani"},
      {f:"1644-06-06", t:"1912-02-12", d:"qing-hanedani"},
@@ -1696,7 +1696,7 @@ window.YERLESIMLER_ASYA = [
 
 // Cehol (Chengde) — Kangxi 1703'te yazlık sarayı kurdurdu (kur:); Qing'in
 // Moğol ve Tibet siyasetinin yürütüldüğü ikinci merkezdir.
-{ ad:"Cehol (Chengde)", tur:"sehir", lat:40.9760, lon:117.9390, g:0, k:0, d:[],
+{ ad:"Cehol (Chengde)", tur:"sehir", lat:40.9760, lon:117.9390, g:0, k:3, d:[],
   kur:"1703-01-01",
   s:[{f:"1703-01-01", t:"1912-02-12", d:"qing-hanedani"},
      {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
@@ -1705,20 +1705,20 @@ window.YERLESIMLER_ASYA = [
 
 // Datong — Seddi'n en çok saldırı alan kesimi; Altan Han'ın 1550'deki
 // Pekin baskını buradan geçti.
-{ ad:"Datong", tur:"kale", lat:40.0760, lon:113.3000, g:0, k:0, d:[],
+{ ad:"Datong", tur:"kale", lat:40.0760, lon:113.3000, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1368-09-14", d:"yuan-hanedani"},
      {f:"1368-09-14", t:"1644-05-31", d:"ming-hanedani"},
      {f:"1644-05-31", t:"1912-02-12", d:"qing-hanedani"},
      {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
 
-{ ad:"Taiyuan", tur:"sehir", lat:37.8700, lon:112.5480, g:1, k:0, d:[],
+{ ad:"Taiyuan", tur:"sehir", lat:37.8700, lon:112.5480, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-09-14", d:"yuan-hanedani"},
      {f:"1368-09-14", t:"1644-03-16", d:"ming-hanedani"},
      {f:"1644-03-16", t:"1644-10-01", d:"dashun"},
      {f:"1644-10-01", t:"1912-02-12", d:"qing-hanedani"},
      {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
 
-{ ad:"Pingyao", tur:"sehir", lat:37.2010, lon:112.1750, g:0, k:0, d:[],
+{ ad:"Pingyao", tur:"sehir", lat:37.2010, lon:112.1750, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-09-14", d:"yuan-hanedani"},
      {f:"1368-09-14", t:"1644-03-16", d:"ming-hanedani"},
      {f:"1644-03-16", t:"1644-10-01", d:"dashun"},
@@ -1737,7 +1737,7 @@ window.YERLESIMLER_ASYA = [
 
 // ===== 3c. Orta ova (Henan, Şantung) =====
 
-{ ad:"Luoyang", tur:"sehir", lat:34.6630, lon:112.4340, g:1, k:0, d:[],
+{ ad:"Luoyang", tur:"sehir", lat:34.6630, lon:112.4340, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
      {f:"1368-04-01", t:"1641-03-08", d:"ming-hanedani"},
      {f:"1641-03-08", t:"1645-01-18", d:"dashun"},
@@ -1747,33 +1747,33 @@ window.YERLESIMLER_ASYA = [
 // Kaifeng — Song'un eski başkenti. 1642'de Sarı Irmak setlerinin
 // yarılmasıyla sular altında kaldı ve nüfusunun büyük kısmını kaybetti;
 // şehir yeniden kurulduğu için bit: YAZILMADI.
-{ ad:"Kaifeng", tur:"sehir", lat:34.7970, lon:114.3070, g:1, k:0, d:[],
+{ ad:"Kaifeng", tur:"sehir", lat:34.7970, lon:114.3070, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
      {f:"1368-04-01", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1645-01-18", d:"dashun"},
      {f:"1645-01-18", t:"1912-02-12", d:"qing-hanedani"},
      {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
 
-{ ad:"Zhengzhou", tur:"sehir", lat:34.7460, lon:113.6250, g:0, k:0, d:[],
+{ ad:"Zhengzhou", tur:"sehir", lat:34.7460, lon:113.6250, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
      {f:"1368-04-01", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1645-01-18", d:"dashun"},
      {f:"1645-01-18", t:"1912-02-12", d:"qing-hanedani"},
      {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
 
-{ ad:"Anyang", tur:"sehir", lat:36.0970, lon:114.3930, g:0, k:0, d:[],
+{ ad:"Anyang", tur:"sehir", lat:36.0970, lon:114.3930, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-09-14", d:"yuan-hanedani"},
      {f:"1368-09-14", t:"1644-06-06", d:"ming-hanedani"},
      {f:"1644-06-06", t:"1912-02-12", d:"qing-hanedani"},
      {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
 
-{ ad:"Jinan", tur:"sehir", lat:36.6510, lon:117.1200, g:1, k:0, d:[],
+{ ad:"Jinan", tur:"sehir", lat:36.6510, lon:117.1200, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-09-14", d:"yuan-hanedani"},
      {f:"1368-09-14", t:"1644-06-06", d:"ming-hanedani"},
      {f:"1644-06-06", t:"1912-02-12", d:"qing-hanedani"},
      {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
 
-{ ad:"Qufu", tur:"sehir", lat:35.5970, lon:116.9910, g:0, k:0, d:[],
+{ ad:"Qufu", tur:"sehir", lat:35.5970, lon:116.9910, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-09-14", d:"yuan-hanedani"},
      {f:"1368-09-14", t:"1644-06-06", d:"ming-hanedani"},
      {f:"1644-06-06", t:"1912-02-12", d:"qing-hanedani"},
@@ -1782,19 +1782,19 @@ window.YERLESIMLER_ASYA = [
 // Qingdao — Almanya 6 Mart 1898'de 99 yıllığına kiraladı ve şehri kurdu
 // (kur:). Japonya 7 Kasım 1914'te aldı, 10 Aralık 1922'de Çin'e iade etti.
 // Bu, dosyadaki tek ALMANYA penceresidir ve renkler.py'de tanımlıdır.
-{ ad:"Qingdao (Tsingtau)", tur:"liman", lat:36.0670, lon:120.3830, g:1, k:0, d:[],
+{ ad:"Qingdao (Tsingtau)", tur:"liman", lat:36.0670, lon:120.3830, g:1, k:3, d:[],
   kur:"1898-03-06",
   s:[{f:"1898-03-06", t:"1914-11-07", d:"almanya"},
      {f:"1914-11-07", t:"1922-12-10", d:"meiji-japonya"},
      {f:"1922-12-10", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
 
-{ ad:"Yantai (Chefoo)", tur:"liman", lat:37.4640, lon:121.4480, g:0, k:0, d:[],
+{ ad:"Yantai (Chefoo)", tur:"liman", lat:37.4640, lon:121.4480, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-09-14", d:"yuan-hanedani"},
      {f:"1368-09-14", t:"1644-06-06", d:"ming-hanedani"},
      {f:"1644-06-06", t:"1912-02-12", d:"qing-hanedani"},
      {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
 
-{ ad:"Xuzhou", tur:"kale", lat:34.2050, lon:117.2840, g:0, k:0, d:[],
+{ ad:"Xuzhou", tur:"kale", lat:34.2050, lon:117.2840, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1368-01-23", d:"yuan-hanedani"},
      {f:"1368-01-23", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1645-06-08", d:"guney-ming"},
@@ -1819,7 +1819,7 @@ window.YERLESIMLER_ASYA = [
 // Yangzhou — Büyük Kanal ile Yangtze'nin kesiştiği tuz ticareti şehri;
 // Qing ordusunun 1645 Mayıs'ındaki katliamı Çin tarihinin en ağır
 // olaylarındandır.
-{ ad:"Yangzhou", tur:"sehir", lat:32.3940, lon:119.4130, g:1, k:0, d:[],
+{ ad:"Yangzhou", tur:"sehir", lat:32.3940, lon:119.4130, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-01-23", d:"yuan-hanedani"},
      {f:"1368-01-23", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1645-05-20", d:"guney-ming"},
@@ -1828,7 +1828,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1864-07-19", t:"1912-02-12", d:"qing-hanedani"},
      {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
 
-{ ad:"Suzhou", tur:"sehir", lat:31.2990, lon:120.5850, g:1, k:0, d:[],
+{ ad:"Suzhou", tur:"sehir", lat:31.2990, lon:120.5850, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-01-23", d:"yuan-hanedani"},
      {f:"1368-01-23", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1645-06-08", d:"guney-ming"},
@@ -1838,7 +1838,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
 
 // Hangzhou — Song'un son başkenti Lin'an; Marco Polo'nun "Kinsay"ı.
-{ ad:"Hangzhou", tur:"sehir", lat:30.2740, lon:120.1550, g:2, k:0, d:[],
+{ ad:"Hangzhou", tur:"sehir", lat:30.2740, lon:120.1550, g:2, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-01-23", d:"yuan-hanedani"},
      {f:"1368-01-23", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1645-07-06", d:"guney-ming"},
@@ -1847,7 +1847,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1864-03-31", t:"1912-02-12", d:"qing-hanedani"},
      {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
 
-{ ad:"Shaoxing", tur:"sehir", lat:30.0300, lon:120.5800, g:0, k:0, d:[],
+{ ad:"Shaoxing", tur:"sehir", lat:30.0300, lon:120.5800, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-01-23", d:"yuan-hanedani"},
      {f:"1368-01-23", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1646-07-06", d:"guney-ming"},
@@ -1859,35 +1859,35 @@ window.YERLESIMLER_ASYA = [
 // devri değil KİRA ve yargı muafiyetidir, bu yüzden ayrı pencere ALMADI.
 // Kiralanan ve idaresi tamamen devredilen yerler (Qingdao, Lüşun,
 // Hong Kong, Makao) pencere aldı — ayrım kasıtlıdır.
-{ ad:"Şanghay", tur:"liman", lat:31.2300, lon:121.4740, g:2, k:0, d:[],
+{ ad:"Şanghay", tur:"liman", lat:31.2300, lon:121.4740, g:2, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-01-23", d:"yuan-hanedani"},
      {f:"1368-01-23", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1645-06-08", d:"guney-ming"},
      {f:"1645-06-08", t:"1912-02-12", d:"qing-hanedani"},
      {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
 
-{ ad:"Ningbo", tur:"liman", lat:29.8680, lon:121.5440, g:1, k:0, d:[],
+{ ad:"Ningbo", tur:"liman", lat:29.8680, lon:121.5440, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-01-23", d:"yuan-hanedani"},
      {f:"1368-01-23", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1646-07-06", d:"guney-ming"},
      {f:"1646-07-06", t:"1912-02-12", d:"qing-hanedani"},
      {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
 
-{ ad:"Wenzhou", tur:"liman", lat:27.9940, lon:120.6990, g:0, k:0, d:[],
+{ ad:"Wenzhou", tur:"liman", lat:27.9940, lon:120.6990, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-01-23", d:"yuan-hanedani"},
      {f:"1368-01-23", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1646-10-06", d:"guney-ming"},
      {f:"1646-10-06", t:"1912-02-12", d:"qing-hanedani"},
      {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
 
-{ ad:"Hefei", tur:"sehir", lat:31.8210, lon:117.2270, g:0, k:0, d:[],
+{ ad:"Hefei", tur:"sehir", lat:31.8210, lon:117.2270, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-01-23", d:"yuan-hanedani"},
      {f:"1368-01-23", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1645-06-08", d:"guney-ming"},
      {f:"1645-06-08", t:"1912-02-12", d:"qing-hanedani"},
      {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
 
-{ ad:"Anqing", tur:"kale", lat:30.5090, lon:117.0430, g:0, k:0, d:[],
+{ ad:"Anqing", tur:"kale", lat:30.5090, lon:117.0430, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1368-01-23", d:"yuan-hanedani"},
      {f:"1368-01-23", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1645-06-08", d:"guney-ming"},
@@ -1898,14 +1898,14 @@ window.YERLESIMLER_ASYA = [
 
 // Wuchang (Wuhan) — Yangtze'nin orta havzasının kilidi; Taiping isyanı
 // burada başladı (1852) ve 10 Ekim 1911 Wuchang ayaklanması Qing'i yıktı.
-{ ad:"Wuchang (Wuhan)", tur:"sehir", lat:30.5657, lon:114.3337, g:1, k:0, d:[],
+{ ad:"Wuchang (Wuhan)", tur:"sehir", lat:30.5657, lon:114.3337, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-01-23", d:"yuan-hanedani"},
      {f:"1368-01-23", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1645-06-08", d:"guney-ming"},
      {f:"1645-06-08", t:"1911-10-10", d:"qing-hanedani"},
      {f:"1911-10-10", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
 
-{ ad:"Jingzhou", tur:"kale", lat:30.3500, lon:112.1900, g:0, k:0, d:[],
+{ ad:"Jingzhou", tur:"kale", lat:30.3500, lon:112.1900, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1368-01-23", d:"yuan-hanedani"},
      {f:"1368-01-23", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1645-06-08", d:"guney-ming"},
@@ -1915,7 +1915,7 @@ window.YERLESIMLER_ASYA = [
 // Xiangyang — Moğolların 1268-1273 arasında beş yıl kuşattığı kale;
 // düşüşü Güney Song'un sonunu getirdi. Bu dosyanın başlangıcında
 // (1281) çoktan Yuan elindedir.
-{ ad:"Xiangyang", tur:"kale", lat:32.0090, lon:112.1220, g:0, k:0, d:[],
+{ ad:"Xiangyang", tur:"kale", lat:32.0090, lon:112.1220, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1368-01-23", d:"yuan-hanedani"},
      {f:"1368-01-23", t:"1643-01-01", d:"ming-hanedani"},
      {f:"1643-01-01", t:"1645-06-08", d:"dashun"},
@@ -1931,14 +1931,14 @@ window.YERLESIMLER_ASYA = [
      {f:"1679-01-01", t:"1912-02-12", d:"qing-hanedani"},
      {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
 
-{ ad:"Nanchang", tur:"sehir", lat:28.6820, lon:115.8580, g:0, k:0, d:[],
+{ ad:"Nanchang", tur:"sehir", lat:28.6820, lon:115.8580, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-01-23", d:"yuan-hanedani"},
      {f:"1368-01-23", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1645-06-08", d:"guney-ming"},
      {f:"1645-06-08", t:"1912-02-12", d:"qing-hanedani"},
      {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
 
-{ ad:"Jiujiang", tur:"liman", lat:29.7050, lon:116.0010, g:0, k:0, d:[],
+{ ad:"Jiujiang", tur:"liman", lat:29.7050, lon:116.0010, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-01-23", d:"yuan-hanedani"},
      {f:"1368-01-23", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1645-06-08", d:"guney-ming"},
@@ -1954,7 +1954,7 @@ window.YERLESIMLER_ASYA = [
 // çözünürlükte olduğu için ayrı kimlik açılmadı, "dashun" ile boyandı ve
 // gerekçesi buraya yazıldı. Qing 1646'da aldı; 1673-1681 arasında Üç
 // Feodal isyanı sırasında yeniden kaybetti.
-{ ad:"Çengdu (Chengdu)", tur:"sehir", lat:30.5720, lon:104.0660, g:1, k:0, d:[],
+{ ad:"Çengdu (Chengdu)", tur:"sehir", lat:30.5720, lon:104.0660, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-01-23", d:"yuan-hanedani"},
      {f:"1368-01-23", t:"1644-09-09", d:"ming-hanedani"},
      {f:"1644-09-09", t:"1647-01-01", d:"dashun"},
@@ -1963,7 +1963,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1680-02-01", t:"1912-02-12", d:"qing-hanedani"},
      {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
 
-{ ad:"Çongqing (Chongqing)", tur:"liman", lat:29.5630, lon:106.5520, g:1, k:0, d:[],
+{ ad:"Çongqing (Chongqing)", tur:"liman", lat:29.5630, lon:106.5520, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-01-23", d:"yuan-hanedani"},
      {f:"1368-01-23", t:"1644-07-01", d:"ming-hanedani"},
      {f:"1644-07-01", t:"1647-01-01", d:"dashun"},
@@ -1997,7 +1997,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1873-01-15", t:"1912-02-12", d:"qing-hanedani"},
      {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
 
-{ ad:"Guiyang", tur:"sehir", lat:26.6470, lon:106.6300, g:0, k:0, d:[],
+{ ad:"Guiyang", tur:"sehir", lat:26.6470, lon:106.6300, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1382-01-06", d:"yuan-hanedani"},
      {f:"1382-01-06", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1658-01-01", d:"guney-ming"},
@@ -2008,13 +2008,13 @@ window.YERLESIMLER_ASYA = [
 
 // ===== 3f. Gansu koridoru ve Qinghai =====
 
-{ ad:"Lanzhou", tur:"sehir", lat:36.0610, lon:103.8340, g:1, k:0, d:[],
+{ ad:"Lanzhou", tur:"sehir", lat:36.0610, lon:103.8340, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
      {f:"1368-04-01", t:"1644-10-01", d:"ming-hanedani"},
      {f:"1644-10-01", t:"1912-02-12", d:"qing-hanedani"},
      {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
 
-{ ad:"Zhangye (Ganzhou)", tur:"kale", lat:38.9260, lon:100.4500, g:0, k:0, d:[],
+{ ad:"Zhangye (Ganzhou)", tur:"kale", lat:38.9260, lon:100.4500, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
      {f:"1368-04-01", t:"1644-10-01", d:"ming-hanedani"},
      {f:"1644-10-01", t:"1912-02-12", d:"qing-hanedani"},
@@ -2023,7 +2023,7 @@ window.YERLESIMLER_ASYA = [
 // Ciyayuguan — Ming Seddi'nin BATI UCU; 1372'de kuruldu (kur:) ve
 // 1759'a kadar Çin'in fiilî batı sınırıdır. Bu noktanın batısındaki
 // coğrafyanın Çin'e bağlanması Qianlong'un 1755-1759 Cungar seferleriyledir.
-{ ad:"Ciyayuguan (Jiayuguan)", tur:"kale", lat:39.7970, lon:98.2890, g:1, k:0, d:[],
+{ ad:"Ciyayuguan (Jiayuguan)", tur:"kale", lat:39.7970, lon:98.2890, g:1, k:4, d:[],
   kur:"1372-01-01",
   s:[{f:"1372-01-01", t:"1644-10-01", d:"ming-hanedani"},
      {f:"1644-10-01", t:"1912-02-12", d:"qing-hanedani"},
@@ -2033,7 +2033,7 @@ window.YERLESIMLER_ASYA = [
 // boşalttı ve şehir 1720'de Qing yeniden iskân edene kadar Moğol-Oyrat
 // bozkırının parçası oldu. Bu iki yüz yıllık pencere "kuzey-yuan" ile
 // boyandı çünkü bölgeyi Oyrat/Moğol beyleri tuttu.
-{ ad:"Dunhuang", tur:"sehir", lat:40.1420, lon:94.6620, g:0, k:0, d:[],
+{ ad:"Dunhuang", tur:"sehir", lat:40.1420, lon:94.6620, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
      {f:"1368-04-01", t:"1524-01-01", d:"ming-hanedani"},
      {f:"1524-01-01", t:"1720-01-01", d:"kuzey-yuan"},
@@ -2043,7 +2043,7 @@ window.YERLESIMLER_ASYA = [
 // Xining — Tibet platosunun kuzey kapısı; Kokonor Moğolları (Khoshut)
 // 1636-1724 arasında burayı denetledi, Qing 1724'te Lobzang Danjin
 // isyanını bastırarak doğrudan idareye aldı.
-{ ad:"Xining", tur:"sehir", lat:36.6170, lon:101.7780, g:0, k:0, d:[],
+{ ad:"Xining", tur:"sehir", lat:36.6170, lon:101.7780, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
      {f:"1368-04-01", t:"1636-01-01", d:"ming-hanedani"},
      {f:"1636-01-01", t:"1724-01-01", d:"hosut"},
@@ -2052,7 +2052,7 @@ window.YERLESIMLER_ASYA = [
 
 // Yinchuan (Ningxia) — Tangut Xia'nın eski başkenti; 1227'de Moğollar
 // yıktı, Ming yeniden kurdu.
-{ ad:"Yinchuan (Ningxia)", tur:"kale", lat:38.4870, lon:106.2310, g:0, k:0, d:[],
+{ ad:"Yinchuan (Ningxia)", tur:"kale", lat:38.4870, lon:106.2310, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
      {f:"1368-04-01", t:"1644-10-01", d:"ming-hanedani"},
      {f:"1644-10-01", t:"1912-02-12", d:"qing-hanedani"},
@@ -2076,7 +2076,7 @@ window.YERLESIMLER_ASYA = [
 // 1650'de aldı. 1857-1861 arasındaki İngiliz-Fransız işgali şehri bir
 // müttefik komisyonuna bağladı ama Qing egemenliği kaldırılmadı;
 // işgal kuralı gereği pencere AÇILMADI, burada anılıyor.
-{ ad:"Kanton (Guangzhou)", tur:"liman", lat:23.1290, lon:113.2640, g:2, k:0, d:[],
+{ ad:"Kanton (Guangzhou)", tur:"liman", lat:23.1290, lon:113.2640, g:2, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
      {f:"1368-04-01", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1650-11-24", d:"guney-ming"},
@@ -2088,21 +2088,21 @@ window.YERLESIMLER_ASYA = [
 // Makao — Portekiz 1557'de yerleşti; egemenlik 1887 Pekin Antlaşması'yla
 // resmen tanındı ama fiilî idare 1557'den itibaren Portekiz'dedir, bu
 // yüzden pencere o tarihten başlar. 1999'a kadar Portekiz toprağı kaldı.
-{ ad:"Makao (Macau)", tur:"liman", lat:22.1990, lon:113.5440, g:1, k:0, d:[],
+{ ad:"Makao (Macau)", tur:"liman", lat:22.1990, lon:113.5440, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
      {f:"1368-04-01", t:"1557-01-01", d:"ming-hanedani"},
      {f:"1557-01-01", t:"1923-10-29", d:"portekiz"}] },
 
 // Hong Kong — 26 Ocak 1841'de İngiliz çıkarması, 29 Ağustos 1842 Nanking
 // Antlaşması'yla resmen devredildi. Makao'ya 39 km.
-{ ad:"Hong Kong", tur:"liman", lat:22.3200, lon:114.1700, g:1, k:0, d:[],
+{ ad:"Hong Kong", tur:"liman", lat:22.3200, lon:114.1700, g:1, k:3, d:[],
   kur:"1841-01-26",
   s:[{f:"1841-01-26", t:"1923-10-29", d:"ingiltere"}] },
 
 // Zeytun (Quanzhou) — İbn Battûta'nın ve Marco Polo'nun dünyanın en büyük
 // limanı dediği şehir; Yuan döneminde zirvesindedir. Ming'in deniz yasağı
 // (haijin) ve limanın dolmasıyla önemini Amoy'a kaptırdı.
-{ ad:"Zeytun (Quanzhou)", tur:"liman", lat:24.8760, lon:118.6653, g:1, k:0, d:[],
+{ ad:"Zeytun (Quanzhou)", tur:"liman", lat:24.8760, lon:118.6653, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
      {f:"1368-04-01", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1646-10-06", d:"guney-ming"},
@@ -2132,7 +2132,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1680-03-01", t:"1912-02-12", d:"qing-hanedani"},
      {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
 
-{ ad:"Zhangzhou", tur:"sehir", lat:24.5130, lon:117.6470, g:0, k:0, d:[],
+{ ad:"Zhangzhou", tur:"sehir", lat:24.5130, lon:117.6470, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
      {f:"1368-04-01", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1646-10-06", d:"guney-ming"},
@@ -2141,7 +2141,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1676-10-01", t:"1912-02-12", d:"qing-hanedani"},
      {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
 
-{ ad:"Chaozhou", tur:"sehir", lat:23.6570, lon:116.6220, g:0, k:0, d:[],
+{ ad:"Chaozhou", tur:"sehir", lat:23.6570, lon:116.6220, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
      {f:"1368-04-01", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1650-11-24", d:"guney-ming"},
@@ -2151,14 +2151,14 @@ window.YERLESIMLER_ASYA = [
      {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
 
 // Swatow (Shantou) — 1860'ta açılan antlaşma limanı; Chaozhou'ya 34 km.
-{ ad:"Swatow (Shantou)", tur:"liman", lat:23.3630, lon:116.6798, g:0, k:0, d:[],
+{ ad:"Swatow (Shantou)", tur:"liman", lat:23.3630, lon:116.6798, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
      {f:"1368-04-01", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1650-11-24", d:"guney-ming"},
      {f:"1650-11-24", t:"1912-02-12", d:"qing-hanedani"},
      {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
 
-{ ad:"Guilin", tur:"sehir", lat:25.2740, lon:110.2900, g:0, k:0, d:[],
+{ ad:"Guilin", tur:"sehir", lat:25.2740, lon:110.2900, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
      {f:"1368-04-01", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1652-01-01", d:"guney-ming"},
@@ -2167,7 +2167,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1680-01-01", t:"1912-02-12", d:"qing-hanedani"},
      {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
 
-{ ad:"Nanning", tur:"sehir", lat:22.8170, lon:108.3670, g:0, k:0, d:[],
+{ ad:"Nanning", tur:"sehir", lat:22.8170, lon:108.3670, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
      {f:"1368-04-01", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1652-01-01", d:"guney-ming"},
@@ -2176,7 +2176,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1680-01-01", t:"1912-02-12", d:"qing-hanedani"},
      {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
 
-{ ad:"Beihai (Pakhoi)", tur:"liman", lat:21.4810, lon:109.1200, g:0, k:0, d:[],
+{ ad:"Beihai (Pakhoi)", tur:"liman", lat:21.4810, lon:109.1200, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
      {f:"1368-04-01", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1652-01-01", d:"guney-ming"},
@@ -2185,14 +2185,14 @@ window.YERLESIMLER_ASYA = [
 
 // Qiongzhou (Haikou) — Hainan adası. Ada, kutu açıldığında kendi noktası
 // olmazsa Kanton ya da Kuzey Vietnam peteğine emilirdi.
-{ ad:"Qiongzhou (Haikou)", tur:"liman", lat:20.0440, lon:110.1990, g:0, k:0, d:[],
+{ ad:"Qiongzhou (Haikou)", tur:"liman", lat:20.0440, lon:110.1990, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
      {f:"1368-04-01", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1650-11-24", d:"guney-ming"},
      {f:"1650-11-24", t:"1912-02-12", d:"qing-hanedani"},
      {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
 
-{ ad:"Wuzhou", tur:"liman", lat:23.4770, lon:111.2790, g:0, k:0, d:[],
+{ ad:"Wuzhou", tur:"liman", lat:23.4770, lon:111.2790, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
      {f:"1368-04-01", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1652-01-01", d:"guney-ming"},
@@ -2214,7 +2214,7 @@ window.YERLESIMLER_ASYA = [
 
 // Taipei — Danshui havzasının Han iskânı 1709 arazi beratıyla başladı
 // (kur:); şehir 1875'te vilâyet merkezi oldu.
-{ ad:"Taipei", tur:"sehir", lat:25.0330, lon:121.5650, g:1, k:0, d:[],
+{ ad:"Taipei", tur:"sehir", lat:25.0330, lon:121.5650, g:1, k:3, d:[],
   kur:"1709-01-01",
   s:[{f:"1709-01-01", t:"1895-04-17", d:"qing-hanedani"},
      {f:"1895-04-17", t:"1923-10-29", d:"meiji-japonya"}] },
@@ -2224,7 +2224,7 @@ window.YERLESIMLER_ASYA = [
 // Ming 1388'de boşalttı ve yeniden iskân etti; Hollanda 1622-1624
 // arasında tuttu, Ming'in baskısıyla Tayvan'a geçti. 16 Temmuz 1683
 // Penghu deniz savaşı Zheng devletini bitirdi.
-{ ad:"Penghu (Pescadores)", tur:"liman", lat:23.5710, lon:119.5790, g:0, k:0, d:[],
+{ ad:"Penghu (Pescadores)", tur:"liman", lat:23.5710, lon:119.5790, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
      {f:"1368-04-01", t:"1622-07-11", d:"ming-hanedani"},
      {f:"1622-07-11", t:"1624-08-26", d:"hollanda-dogu-hint"},
@@ -2253,7 +2253,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1621-01-01", t:"1912-02-12", d:"qing-hanedani"},
      {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
 
-{ ad:"Liaoyang", tur:"kale", lat:41.2670, lon:123.1740, g:0, k:0, d:[],
+{ ad:"Liaoyang", tur:"kale", lat:41.2670, lon:123.1740, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1368-09-14", d:"yuan-hanedani"},
      {f:"1368-09-14", t:"1621-01-01", d:"ming-hanedani"},
      {f:"1621-01-01", t:"1912-02-12", d:"qing-hanedani"},
@@ -2261,13 +2261,13 @@ window.YERLESIMLER_ASYA = [
 
 // Cilin (Jilin) — Qing 1673'te Sungari kıyısında tersane şehri olarak
 // kurdu (kur:).
-{ ad:"Cilin (Jilin)", tur:"sehir", lat:43.8370, lon:126.5500, g:0, k:0, d:[],
+{ ad:"Cilin (Jilin)", tur:"sehir", lat:43.8370, lon:126.5500, g:0, k:3, d:[],
   kur:"1673-01-01",
   s:[{f:"1673-01-01", t:"1912-02-12", d:"qing-hanedani"},
      {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
 
 // Ningguta — Qing'in Mançurya'daki askerî valiliği ve sürgün yeri.
-{ ad:"Ningguta", tur:"kale", lat:44.3500, lon:129.4700, g:0, k:0, d:[],
+{ ad:"Ningguta", tur:"kale", lat:44.3500, lon:129.4700, g:0, k:4, d:[],
   kur:"1653-01-01",
   s:[{f:"1653-01-01", t:"1912-02-12", d:"qing-hanedani"},
      {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
@@ -2275,7 +2275,7 @@ window.YERLESIMLER_ASYA = [
 // Aigun — 1689 Nerçinsk ve 28 Mayıs 1858 Aigun antlaşmalarının imzalandığı
 // yer. 1858'de Amur'un KUZEY yakası Rusya'ya geçti; şehrin kendisi güney
 // yakada olduğu için Çin'de kaldı, bu yüzden pencere açılmadı.
-{ ad:"Aigun", tur:"kale", lat:50.2430, lon:127.4630, g:0, k:0, d:[],
+{ ad:"Aigun", tur:"kale", lat:50.2430, lon:127.4630, g:0, k:4, d:[],
   kur:"1683-01-01",
   s:[{f:"1683-01-01", t:"1912-02-12", d:"qing-hanedani"},
      {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
@@ -2284,7 +2284,7 @@ window.YERLESIMLER_ASYA = [
 // Demiryolu bölgesi 1898-1920 arasında fiilen Rus idaresindeydi ama
 // EGEMENLİK Çin'de kaldı; Şanghay imtiyazlarıyla aynı gerekçeyle pencere
 // AÇILMADI. Kiralanıp idaresi tamamen devredilen Lüşun ise pencere aldı.
-{ ad:"Harbin", tur:"sehir", lat:45.8030, lon:126.5340, g:1, k:0, d:[],
+{ ad:"Harbin", tur:"sehir", lat:45.8030, lon:126.5340, g:1, k:3, d:[],
   kur:"1898-01-01",
   s:[{f:"1898-01-01", t:"1912-02-12", d:"qing-hanedani"},
      {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
@@ -2293,7 +2293,7 @@ window.YERLESIMLER_ASYA = [
 // verdi (pencere açılmadı, bir yıldan kısa). 27 Mart 1898'de Rusya
 // 25 yıllığına kiraladı; 5 Eylül 1905 Portsmouth Antlaşması'yla kira
 // Japonya'ya devredildi.
-{ ad:"Lüşun (Port Arthur)", tur:"liman", lat:38.8130, lon:121.2160, g:1, k:0, d:[],
+{ ad:"Lüşun (Port Arthur)", tur:"liman", lat:38.8130, lon:121.2160, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-09-14", d:"yuan-hanedani"},
      {f:"1368-09-14", t:"1621-01-01", d:"ming-hanedani"},
      {f:"1621-01-01", t:"1898-03-27", d:"qing-hanedani"},
@@ -2334,7 +2334,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1921-07-11", t:"1923-10-29", d:"mogolistan"}] },
 
 // Uliastay — Qing 1733'te askerî valilik merkezi olarak kurdu (kur:).
-{ ad:"Uliastay", tur:"kale", lat:47.7420, lon:96.8440, g:0, k:0, d:[],
+{ ad:"Uliastay", tur:"kale", lat:47.7420, lon:96.8440, g:0, k:4, d:[],
   kur:"1733-01-01",
   s:[{f:"1733-01-01", t:"1911-12-29", d:"qing-hanedani"},
      {f:"1911-12-29", t:"1919-11-22", d:"mogolistan"},
@@ -2343,7 +2343,7 @@ window.YERLESIMLER_ASYA = [
 
 // Kobdo (Hovd) — batı Moğolistan'ın Qing garnizonu; Moğol kuvvetleri
 // 20 Ağustos 1912'de aldı ve bu, bağımsızlığın fiilen tamamlandığı andır.
-{ ad:"Kobdo (Hovd)", tur:"kale", lat:48.0060, lon:91.6410, g:0, k:0, d:[],
+{ ad:"Kobdo (Hovd)", tur:"kale", lat:48.0060, lon:91.6410, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1368-09-14", d:"yuan-hanedani"},
      {f:"1368-09-14", t:"1635-01-01", d:"kuzey-yuan"},
      {f:"1635-01-01", t:"1755-01-01", d:"cungar"},
@@ -2353,7 +2353,7 @@ window.YERLESIMLER_ASYA = [
 // Hohhot (Kuku-hoto) — Altan Han 1581'de kurdu (kur:); Tümed Moğollarının
 // merkezi, 1636'da Qing'e bağlandı. İç Moğolistan 1911'den sonra Çin'de
 // kaldı, bu yüzden Urga'dan farklı bir zincir taşır.
-{ ad:"Hohhot (Kuku-hoto)", tur:"sehir", lat:40.8420, lon:111.7500, g:0, k:0, d:[],
+{ ad:"Hohhot (Kuku-hoto)", tur:"sehir", lat:40.8420, lon:111.7500, g:0, k:3, d:[],
   kur:"1581-01-01",
   s:[{f:"1581-01-01", t:"1636-01-01", d:"kuzey-yuan"},
      {f:"1636-01-01", t:"1912-02-12", d:"qing-hanedani"},
@@ -2391,7 +2391,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1877-12-17", t:"1912-02-12", d:"qing-hanedani"},
      {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
 
-{ ad:"Hotan", tur:"sehir", lat:37.1170, lon:79.9280, g:0, k:0, d:[],
+{ ad:"Hotan", tur:"sehir", lat:37.1170, lon:79.9280, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1347-01-01", d:"cagatay"},
      {f:"1347-01-01", t:"1514-01-01", d:"mogulistan"},
      {f:"1514-01-01", t:"1705-01-01", d:"yarkent-hanligi"},
@@ -2402,7 +2402,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
 
 // Kuça — 4 Haziran 1864'teki ayaklanma bütün Doğu Türkistan'ı ateşe verdi.
-{ ad:"Kuça (Kuqa)", tur:"sehir", lat:41.7170, lon:82.9620, g:0, k:0, d:[],
+{ ad:"Kuça (Kuqa)", tur:"sehir", lat:41.7170, lon:82.9620, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1347-01-01", d:"cagatay"},
      {f:"1347-01-01", t:"1514-01-01", d:"mogulistan"},
      {f:"1514-01-01", t:"1705-01-01", d:"yarkent-hanligi"},
@@ -2424,7 +2424,7 @@ window.YERLESIMLER_ASYA = [
 
 // Hâmi (Kumul) — Ming 1404-1513 arasında burada garnizon tuttu; Doğu
 // Türkistan'ın Qing'e İLK bağlanan noktasıdır (1697).
-{ ad:"Hâmi (Kumul)", tur:"sehir", lat:42.8280, lon:93.5150, g:0, k:0, d:[],
+{ ad:"Hâmi (Kumul)", tur:"sehir", lat:42.8280, lon:93.5150, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-09-14", d:"yuan-hanedani"},
      {f:"1368-09-14", t:"1404-01-01", d:"kuzey-yuan"},
      {f:"1404-01-01", t:"1513-01-01", d:"ming-hanedani"},
@@ -2436,7 +2436,7 @@ window.YERLESIMLER_ASYA = [
 // Ürümçi (Dihua) — Qing 1763'te garnizon şehri olarak kurdu (kur:).
 // 1864-1876 arası Dungan isyancılarının ve ardından Yâkub Bey'in elinde
 // kaldı; Zuo Zongtang 18 Ağustos 1876'da geri aldı.
-{ ad:"Ürümçi (Dihua)", tur:"sehir", lat:43.8260, lon:87.6160, g:1, k:0, d:[],
+{ ad:"Ürümçi (Dihua)", tur:"sehir", lat:43.8260, lon:87.6160, g:1, k:3, d:[],
   kur:"1763-01-01",
   s:[{f:"1763-01-01", t:"1864-06-04", d:"qing-hanedani"},
      {f:"1864-06-04", t:"1876-08-18", d:"yakub-beg"},
@@ -2481,14 +2481,14 @@ window.YERLESIMLER_ASYA = [
 
 // Gyantse — 1904 İngiliz seferinin en kanlı çarpışmasının yeri; Şigatse'ye
 // 70 km.
-{ ad:"Gyantse", tur:"kale", lat:28.9500, lon:89.6020, g:0, k:0, d:[],
+{ ad:"Gyantse", tur:"kale", lat:28.9500, lon:89.6020, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1354-01-01", d:"yuan-hanedani"},
      {f:"1354-01-01", t:"1642-01-01", d:"tibet"},
      {f:"1642-01-01", t:"1923-10-29", d:"tibet-ganden-phodrang"}] },
 
 // Çamdo — doğu Tibet (Kham); 1910'da Qing ordusu Zhao Erfeng ile bölgeyi
 // doğrudan idareye almaya çalıştı, 1912'den sonra Tibet geri aldı.
-{ ad:"Çamdo (Chamdo)", tur:"sehir", lat:31.1400, lon:97.1780, g:0, k:0, d:[],
+{ ad:"Çamdo (Chamdo)", tur:"sehir", lat:31.1400, lon:97.1780, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1354-01-01", d:"yuan-hanedani"},
      {f:"1354-01-01", t:"1642-01-01", d:"tibet"},
      {f:"1642-01-01", t:"1910-02-12", d:"tibet-ganden-phodrang"},
@@ -2504,7 +2504,7 @@ window.YERLESIMLER_ASYA = [
 // Şanhayguan — Çin Seddi'nin denize indiği geçit. Ming generali Wu Sangui
 // 27 Mayıs 1644'te kapıyı Qing ordusuna burada açtı; Ming'in sonunu getiren
 // tek karar budur.
-{ ad:"Şanhayguan", tur:"kale", lat:40.0100, lon:119.7530, g:1, k:0, d:[],
+{ ad:"Şanhayguan", tur:"kale", lat:40.0100, lon:119.7530, g:1, k:4, d:[],
   kur:"1381-01-01",
   s:[{f:"1381-01-01", t:"1644-05-27", d:"ming-hanedani"},
      {f:"1644-05-27", t:"1912-02-12", d:"qing-hanedani"},
@@ -2512,21 +2512,21 @@ window.YERLESIMLER_ASYA = [
 
 // Tongguan — Sarı Irmak ile Wei'nin kavşağındaki geçit; Xi'an ovasının
 // kilidi. Qing 1645 Ocak'ında burayı aşarak Şun devletini bitirdi.
-{ ad:"Tongguan", tur:"kale", lat:34.5160, lon:110.2630, g:0, k:0, d:[],
+{ ad:"Tongguan", tur:"kale", lat:34.5160, lon:110.2630, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
      {f:"1368-04-01", t:"1643-10-11", d:"ming-hanedani"},
      {f:"1643-10-11", t:"1645-01-18", d:"dashun"},
      {f:"1645-01-18", t:"1912-02-12", d:"qing-hanedani"},
      {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
 
-{ ad:"Yan'an", tur:"sehir", lat:36.5850, lon:109.4900, g:0, k:0, d:[],
+{ ad:"Yan'an", tur:"sehir", lat:36.5850, lon:109.4900, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
      {f:"1368-04-01", t:"1643-10-11", d:"ming-hanedani"},
      {f:"1643-10-11", t:"1645-01-18", d:"dashun"},
      {f:"1645-01-18", t:"1912-02-12", d:"qing-hanedani"},
      {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
 
-{ ad:"Wuhu", tur:"liman", lat:31.3260, lon:118.3760, g:0, k:0, d:[],
+{ ad:"Wuhu", tur:"liman", lat:31.3260, lon:118.3760, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-01-23", d:"yuan-hanedani"},
      {f:"1368-01-23", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1645-06-08", d:"guney-ming"},
@@ -2535,14 +2535,14 @@ window.YERLESIMLER_ASYA = [
      {f:"1864-07-19", t:"1912-02-12", d:"qing-hanedani"},
      {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
 
-{ ad:"Şaoguan", tur:"sehir", lat:24.8010, lon:113.5910, g:0, k:0, d:[],
+{ ad:"Şaoguan", tur:"sehir", lat:24.8010, lon:113.5910, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
      {f:"1368-04-01", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1650-11-24", d:"guney-ming"},
      {f:"1650-11-24", t:"1912-02-12", d:"qing-hanedani"},
      {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
 
-{ ad:"Leizhou", tur:"liman", lat:20.9140, lon:110.0960, g:0, k:0, d:[],
+{ ad:"Leizhou", tur:"liman", lat:20.9140, lon:110.0960, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
      {f:"1368-04-01", t:"1644-04-25", d:"ming-hanedani"},
      {f:"1644-04-25", t:"1650-11-24", d:"guney-ming"},
@@ -2550,14 +2550,14 @@ window.YERLESIMLER_ASYA = [
      {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
 
 // Baotou — Sarı Irmak'ın kuzey dirseği; İç Moğolistan'ın batı ucu.
-{ ad:"Baotou", tur:"sehir", lat:40.6570, lon:109.8400, g:0, k:0, d:[],
+{ ad:"Baotou", tur:"sehir", lat:40.6570, lon:109.8400, g:0, k:3, d:[],
   kur:"1809-01-01",
   s:[{f:"1809-01-01", t:"1912-02-12", d:"qing-hanedani"},
      {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
 
 // Qiqihar — kuzey Mançurya'nın Qing askerî valiliği (1691'den itibaren);
 // bu nokta olmadan Harbin ile Aigun arası 400 km açık kalıyordu.
-{ ad:"Qiqihar", tur:"kale", lat:47.3540, lon:123.9180, g:0, k:0, d:[],
+{ ad:"Qiqihar", tur:"kale", lat:47.3540, lon:123.9180, g:0, k:4, d:[],
   kur:"1691-01-01",
   s:[{f:"1691-01-01", t:"1912-02-12", d:"qing-hanedani"},
      {f:"1912-02-12", t:"1923-10-29", d:"cin-cumhuriyeti"}] },
@@ -2628,7 +2628,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1615-06-04", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
 
-{ ad:"Nara", tur:"sehir", lat:34.6850, lon:135.8050, g:1, k:0, d:[],
+{ ad:"Nara", tur:"sehir", lat:34.6850, lon:135.8050, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
      {f:"1333-07-04", t:"1336-11-07", d:"kenmu"},
      {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
@@ -2639,7 +2639,7 @@ window.YERLESIMLER_ASYA = [
 // Sakai — Muromachi ve Sengoku çağının en zengin liman şehri; tüccar
 // meclisiyle yönetilen fiilî bir serbest şehirdi, Nobunaga 1569'da
 // vergiye bağladı. Osaka'ya 15 km.
-{ ad:"Sakai", tur:"liman", lat:34.5730, lon:135.4830, g:1, k:0, d:[],
+{ ad:"Sakai", tur:"liman", lat:34.5730, lon:135.4830, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
      {f:"1333-07-04", t:"1336-11-07", d:"kenmu"},
      {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
@@ -2661,7 +2661,7 @@ window.YERLESIMLER_ASYA = [
 
 // Odawara — Sengoku çağının en güçlü kalelerinden; Hideyoshi'nin 1590
 // kuşatması Japonya'nın birleşmesini tamamladı.
-{ ad:"Odawara", tur:"kale", lat:35.2640, lon:139.1520, g:0, k:0, d:[],
+{ ad:"Odawara", tur:"kale", lat:35.2640, lon:139.1520, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
      {f:"1333-07-04", t:"1336-11-07", d:"kenmu"},
      {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
@@ -2671,7 +2671,7 @@ window.YERLESIMLER_ASYA = [
 
 // Sunpu (Şizuoka) — Ieyasu'nun çocukluğunun ve emekliliğinin şehri;
 // 1605-1616 arasında fiilî iktidar merkezi (ōgosho).
-{ ad:"Sunpu (Şizuoka)", tur:"sehir", lat:34.9760, lon:138.3830, g:0, k:0, d:[],
+{ ad:"Sunpu (Şizuoka)", tur:"sehir", lat:34.9760, lon:138.3830, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
      {f:"1333-07-04", t:"1336-11-07", d:"kenmu"},
      {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
@@ -2681,14 +2681,14 @@ window.YERLESIMLER_ASYA = [
 
 // Nagoya — Tokugawa Ieyasu 1610'da kaleyi kurdurdu (kur:); üç Tokugawa
 // yan hânedanından Owari kolunun merkezi.
-{ ad:"Nagoya", tur:"sehir", lat:35.1810, lon:136.9070, g:1, k:0, d:[],
+{ ad:"Nagoya", tur:"sehir", lat:35.1810, lon:136.9070, g:1, k:3, d:[],
   kur:"1610-01-01",
   s:[{f:"1610-01-01", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
 
 // Gifu — Nobunaga'nın 1567'de aldığı ve "tenka fubu" mührünü kullanmaya
 // başladığı şehir; birleşme hareketinin çıkış noktasıdır. Nagoya'ya 30 km.
-{ ad:"Gifu", tur:"kale", lat:35.4230, lon:136.7600, g:0, k:0, d:[],
+{ ad:"Gifu", tur:"kale", lat:35.4230, lon:136.7600, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
      {f:"1333-07-04", t:"1336-11-07", d:"kenmu"},
      {f:"1336-11-07", t:"1567-09-01", d:"muromachi"},
@@ -2698,20 +2698,20 @@ window.YERLESIMLER_ASYA = [
 
 // ===== 6c. Japon Denizi kıyısı ve Hokuriku =====
 
-{ ad:"Kanazawa", tur:"sehir", lat:36.5620, lon:136.6490, g:1, k:0, d:[],
+{ ad:"Kanazawa", tur:"sehir", lat:36.5620, lon:136.6490, g:1, k:3, d:[],
   kur:"1546-01-01",
   s:[{f:"1546-01-01", t:"1573-01-01", d:"muromachi"},
      {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
 
-{ ad:"Fukui", tur:"sehir", lat:36.0640, lon:136.2200, g:0, k:0, d:[],
+{ ad:"Fukui", tur:"sehir", lat:36.0640, lon:136.2200, g:0, k:3, d:[],
   kur:"1575-01-01",
   s:[{f:"1575-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
 
-{ ad:"Niigata", tur:"liman", lat:37.9160, lon:139.0360, g:0, k:0, d:[],
+{ ad:"Niigata", tur:"liman", lat:37.9160, lon:139.0360, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
      {f:"1333-07-04", t:"1336-11-07", d:"kenmu"},
      {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
@@ -2719,14 +2719,14 @@ window.YERLESIMLER_ASYA = [
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
 
-{ ad:"Matsue", tur:"sehir", lat:35.4680, lon:133.0490, g:0, k:0, d:[],
+{ ad:"Matsue", tur:"sehir", lat:35.4680, lon:133.0490, g:0, k:3, d:[],
   kur:"1607-01-01",
   s:[{f:"1607-01-01", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
 
 // ===== 6d. Batı Honshu ve Şikoku =====
 
-{ ad:"Himeji", tur:"kale", lat:34.8150, lon:134.6860, g:0, k:0, d:[],
+{ ad:"Himeji", tur:"kale", lat:34.8150, lon:134.6860, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
      {f:"1333-07-04", t:"1336-11-07", d:"kenmu"},
      {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
@@ -2734,7 +2734,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
 
-{ ad:"Okayama", tur:"sehir", lat:34.6550, lon:133.9190, g:0, k:0, d:[],
+{ ad:"Okayama", tur:"sehir", lat:34.6550, lon:133.9190, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
      {f:"1333-07-04", t:"1336-11-07", d:"kenmu"},
      {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
@@ -2743,7 +2743,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
 
 // Hiroşima — Mōri Terumoto 1589'da kaleyi kurdu (kur:).
-{ ad:"Hiroşima", tur:"liman", lat:34.3850, lon:132.4550, g:1, k:0, d:[],
+{ ad:"Hiroşima", tur:"liman", lat:34.3850, lon:132.4550, g:1, k:3, d:[],
   kur:"1589-01-01",
   s:[{f:"1589-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
@@ -2752,20 +2752,20 @@ window.YERLESIMLER_ASYA = [
 // Yamaguchi — Ōuchi hânedanının merkezi; XV-XVI. yüzyılda Çin ve Kore
 // ticaretini elinde tutan "batının Kyoto"su. Francis Xavier 1551'de
 // buradaydı.
-{ ad:"Yamaguchi", tur:"sehir", lat:34.1860, lon:131.4710, g:0, k:0, d:[],
+{ ad:"Yamaguchi", tur:"sehir", lat:34.1860, lon:131.4710, g:0, k:3, d:[],
   kur:"1360-01-01",
   s:[{f:"1360-01-01", t:"1573-01-01", d:"muromachi"},
      {f:"1573-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
 
-{ ad:"Matsuyama", tur:"sehir", lat:33.8390, lon:132.7660, g:0, k:0, d:[],
+{ ad:"Matsuyama", tur:"sehir", lat:33.8390, lon:132.7660, g:0, k:3, d:[],
   kur:"1602-01-01",
   s:[{f:"1602-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
 
-{ ad:"Kōchi", tur:"liman", lat:33.5600, lon:133.5310, g:0, k:0, d:[],
+{ ad:"Kōchi", tur:"liman", lat:33.5600, lon:133.5310, g:0, k:1, d:[],
   kur:"1601-01-01",
   s:[{f:"1601-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
@@ -2776,7 +2776,7 @@ window.YERLESIMLER_ASYA = [
 // Hakata (Fukuoka) — 1274 ve 1281 Moğol istilâlarının çıkarma noktası;
 // 15 Ağustos 1281'de ikinci donanma burada tayfunla yok oldu. Ortaçağ
 // Japonya'sının Çin ve Kore'ye açılan kapısıdır.
-{ ad:"Hakata (Fukuoka)", tur:"liman", lat:33.5900, lon:130.4020, g:1, k:0, d:[],
+{ ad:"Hakata (Fukuoka)", tur:"liman", lat:33.5900, lon:130.4020, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
      {f:"1333-07-04", t:"1336-11-07", d:"kenmu"},
      {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
@@ -2790,7 +2790,7 @@ window.YERLESIMLER_ASYA = [
 // kapısıydı — ama Dejima kira ve gözetim altındaki bir ticaret adasıdır,
 // egemenlik devri değildir; işgal/imtiyaz kuralı gereği HOLLANDA PENCERESİ
 // AÇILMADI. Cizvit dönemi ise fiilî idare devri olduğu için pencere aldı.
-{ ad:"Nagazaki", tur:"liman", lat:32.7500, lon:129.8780, g:2, k:0, d:[],
+{ ad:"Nagazaki", tur:"liman", lat:32.7500, lon:129.8780, g:2, k:3, d:[],
   kur:"1571-01-01",
   s:[{f:"1571-01-01", t:"1580-06-09", d:"azuchi-momoyama"},
      {f:"1580-06-09", t:"1587-07-24", d:"portekiz", enklav:true},
@@ -2798,7 +2798,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
 
-{ ad:"Kumamoto", tur:"kale", lat:32.8030, lon:130.7080, g:0, k:0, d:[],
+{ ad:"Kumamoto", tur:"kale", lat:32.8030, lon:130.7080, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
      {f:"1333-07-04", t:"1336-11-07", d:"kenmu"},
      {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
@@ -2808,7 +2808,7 @@ window.YERLESIMLER_ASYA = [
 
 // Funai (Ōita) — Ōtomo Sōrin'in Hristiyan daimyō merkezi; Portekiz
 // ticaretinin Kyūşū'daki ilk büyük limanı.
-{ ad:"Funai (Ōita)", tur:"liman", lat:33.2380, lon:131.6130, g:0, k:0, d:[],
+{ ad:"Funai (Ōita)", tur:"liman", lat:33.2380, lon:131.6130, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
      {f:"1333-07-04", t:"1336-11-07", d:"kenmu"},
      {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
@@ -2818,7 +2818,7 @@ window.YERLESIMLER_ASYA = [
 
 // Kagoşima — Satsuma'nın Shimazu hânedanı; 1609'da Ryukyu'yu tâbi kıldı,
 // 1868 Meiji restorasyonunun iki motorundan biridir.
-{ ad:"Kagoşima", tur:"liman", lat:31.5960, lon:130.5570, g:1, k:0, d:[],
+{ ad:"Kagoşima", tur:"liman", lat:31.5960, lon:130.5570, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
      {f:"1333-07-04", t:"1336-11-07", d:"kenmu"},
      {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
@@ -2829,7 +2829,7 @@ window.YERLESIMLER_ASYA = [
 // Tsuşima (İzuhara) — Japonya ile Kore arasındaki tek geçit; Sō hânedanı
 // iki devletin de tanıdığı aracıydı ve Kore ticareti tekelini elinde
 // tuttu. 1274 Moğol istilâsının ilk hedefidir.
-{ ad:"Tsuşima (İzuhara)", tur:"liman", lat:34.2030, lon:129.2890, g:0, k:0, d:[],
+{ ad:"Tsuşima (İzuhara)", tur:"liman", lat:34.2030, lon:129.2890, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
      {f:"1333-07-04", t:"1336-11-07", d:"kenmu"},
      {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
@@ -2840,13 +2840,13 @@ window.YERLESIMLER_ASYA = [
 // ===== 6f. Kuzey Honshu ve Ezo (Hokkaido) =====
 
 // Sendai — Date Masamune 1600'de kurdu (kur:).
-{ ad:"Sendai", tur:"sehir", lat:38.2680, lon:140.8700, g:1, k:0, d:[],
+{ ad:"Sendai", tur:"sehir", lat:38.2680, lon:140.8700, g:1, k:3, d:[],
   kur:"1600-01-01",
   s:[{f:"1600-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
 
-{ ad:"Aizu-Wakamatsu", tur:"kale", lat:37.4950, lon:139.9300, g:0, k:0, d:[],
+{ ad:"Aizu-Wakamatsu", tur:"kale", lat:37.4950, lon:139.9300, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
      {f:"1333-07-04", t:"1336-11-07", d:"kenmu"},
      {f:"1336-11-07", t:"1573-01-01", d:"muromachi"},
@@ -2854,13 +2854,13 @@ window.YERLESIMLER_ASYA = [
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
 
-{ ad:"Morioka", tur:"sehir", lat:39.7020, lon:141.1550, g:0, k:0, d:[],
+{ ad:"Morioka", tur:"sehir", lat:39.7020, lon:141.1550, g:0, k:3, d:[],
   kur:"1597-01-01",
   s:[{f:"1597-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
 
-{ ad:"Hirosaki", tur:"kale", lat:40.6030, lon:140.4640, g:0, k:0, d:[],
+{ ad:"Hirosaki", tur:"kale", lat:40.6030, lon:140.4640, g:0, k:4, d:[],
   kur:"1611-01-01",
   s:[{f:"1611-01-01", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1923-10-29", d:"meiji-japonya"}] },
@@ -2897,7 +2897,7 @@ window.YERLESIMLER_ASYA = [
 // Sapporo — Kaitakushi 1869'da kurdu (kur:); Hokkaido'nun iç kesiminin
 // ilk Japon şehridir. 1869 öncesi boşluk KASITLIDIR ve komşu Ainu
 // coğrafyasını Matsumae noktası taşır.
-{ ad:"Sapporo", tur:"sehir", lat:43.0620, lon:141.3540, g:1, k:0, d:[],
+{ ad:"Sapporo", tur:"sehir", lat:43.0620, lon:141.3540, g:1, k:3, d:[],
   kur:"1869-01-01",
   s:[{f:"1869-01-01", t:"1923-10-29", d:"meiji-japonya"}] },
 
@@ -2949,21 +2949,21 @@ window.YERLESIMLER_ASYA = [
      {f:"1392-07-17", t:"1910-08-29", d:"joseon"},
      {f:"1910-08-29", t:"1923-10-29", d:"meiji-japonya"}] },
 
-{ ad:"Pyongyang", tur:"sehir", lat:39.0190, lon:125.7380, g:1, k:0, d:[],
+{ ad:"Pyongyang", tur:"sehir", lat:39.0190, lon:125.7380, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1392-07-17", d:"goryeo"},
      {f:"1392-07-17", t:"1910-08-29", d:"joseon"},
      {f:"1910-08-29", t:"1923-10-29", d:"meiji-japonya"}] },
 
 // Pusan — İmcin Savaşı'nın çıkarma noktası ve savaş boyunca Japon
 // ordusunun ana üssü; 1876 Ganghwa Antlaşması'yla açılan ilk limandır.
-{ ad:"Pusan", tur:"liman", lat:35.1800, lon:129.0760, g:1, k:0, d:[],
+{ ad:"Pusan", tur:"liman", lat:35.1800, lon:129.0760, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1392-07-17", d:"goryeo"},
      {f:"1392-07-17", t:"1592-05-23", d:"joseon"},
      {f:"1592-05-23", t:"1598-11-24", d:"azuchi-momoyama"},
      {f:"1598-11-24", t:"1910-08-29", d:"joseon"},
      {f:"1910-08-29", t:"1923-10-29", d:"meiji-japonya"}] },
 
-{ ad:"İnçon (Incheon)", tur:"liman", lat:37.4560, lon:126.7050, g:0, k:0, d:[],
+{ ad:"İnçon (Incheon)", tur:"liman", lat:37.4560, lon:126.7050, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1392-07-17", d:"goryeo"},
      {f:"1392-07-17", t:"1910-08-29", d:"joseon"},
      {f:"1910-08-29", t:"1923-10-29", d:"meiji-japonya"}] },
@@ -2971,39 +2971,39 @@ window.YERLESIMLER_ASYA = [
 // Ganghwa — Moğol istilâları sırasında Goryeo sarayının 1232-1270 arası
 // sığınağı; 1866 Fransız, 1871 Amerikan ve 1875 Japon çıkarmalarının
 // sahnesi. Üçü de birkaç haftalıktır, pencere almadı.
-{ ad:"Ganghwa", tur:"kale", lat:37.7470, lon:126.4880, g:0, k:0, d:[],
+{ ad:"Ganghwa", tur:"kale", lat:37.7470, lon:126.4880, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1392-07-17", d:"goryeo"},
      {f:"1392-07-17", t:"1910-08-29", d:"joseon"},
      {f:"1910-08-29", t:"1923-10-29", d:"meiji-japonya"}] },
 
-{ ad:"Kyongcu (Gyeongju)", tur:"sehir", lat:35.8560, lon:129.2250, g:0, k:0, d:[],
+{ ad:"Kyongcu (Gyeongju)", tur:"sehir", lat:35.8560, lon:129.2250, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1392-07-17", d:"goryeo"},
      {f:"1392-07-17", t:"1910-08-29", d:"joseon"},
      {f:"1910-08-29", t:"1923-10-29", d:"meiji-japonya"}] },
 
-{ ad:"Taegu (Daegu)", tur:"sehir", lat:35.8720, lon:128.6010, g:0, k:0, d:[],
+{ ad:"Taegu (Daegu)", tur:"sehir", lat:35.8720, lon:128.6010, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1392-07-17", d:"goryeo"},
      {f:"1392-07-17", t:"1910-08-29", d:"joseon"},
      {f:"1910-08-29", t:"1923-10-29", d:"meiji-japonya"}] },
 
-{ ad:"Concu (Jeonju)", tur:"sehir", lat:35.8240, lon:127.1480, g:0, k:0, d:[],
+{ ad:"Concu (Jeonju)", tur:"sehir", lat:35.8240, lon:127.1480, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1392-07-17", d:"goryeo"},
      {f:"1392-07-17", t:"1910-08-29", d:"joseon"},
      {f:"1910-08-29", t:"1923-10-29", d:"meiji-japonya"}] },
 
-{ ad:"Kongcu (Gongju)", tur:"sehir", lat:36.4550, lon:127.1190, g:0, k:0, d:[],
+{ ad:"Kongcu (Gongju)", tur:"sehir", lat:36.4550, lon:127.1190, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1392-07-17", d:"goryeo"},
      {f:"1392-07-17", t:"1910-08-29", d:"joseon"},
      {f:"1910-08-29", t:"1923-10-29", d:"meiji-japonya"}] },
 
-{ ad:"Çungcu (Chungju)", tur:"sehir", lat:36.9910, lon:127.9260, g:0, k:0, d:[],
+{ ad:"Çungcu (Chungju)", tur:"sehir", lat:36.9910, lon:127.9260, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1392-07-17", d:"goryeo"},
      {f:"1392-07-17", t:"1910-08-29", d:"joseon"},
      {f:"1910-08-29", t:"1923-10-29", d:"meiji-japonya"}] },
 
 // Ûicu (Uiju) — Yalu üzerindeki Çin kapısı; Kore elçilerinin Pekin yolu
 // buradan geçerdi. 1592'de kral Seonjo buraya kaçtı.
-{ ad:"Ûicu (Uiju)", tur:"kale", lat:40.1520, lon:124.5230, g:0, k:0, d:[],
+{ ad:"Ûicu (Uiju)", tur:"kale", lat:40.1520, lon:124.5230, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1392-07-17", d:"goryeo"},
      {f:"1392-07-17", t:"1910-08-29", d:"joseon"},
      {f:"1910-08-29", t:"1923-10-29", d:"meiji-japonya"}] },
@@ -3011,13 +3011,13 @@ window.YERLESIMLER_ASYA = [
 // Hamhung — Ssangseong komutanlığı: 1258-1356 arasında YUAN'IN DOĞRUDAN
 // idaresindeydi, yani 1281'de Goryeo değildir. Kral Gongmin 1356'da geri
 // aldı ve Yi hânedanının yükselişi buradan başladı.
-{ ad:"Hamhung", tur:"sehir", lat:39.9180, lon:127.5360, g:0, k:0, d:[],
+{ ad:"Hamhung", tur:"sehir", lat:39.9180, lon:127.5360, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1356-01-01", d:"yuan-hanedani"},
      {f:"1356-01-01", t:"1392-07-17", d:"goryeo"},
      {f:"1392-07-17", t:"1910-08-29", d:"joseon"},
      {f:"1910-08-29", t:"1923-10-29", d:"meiji-japonya"}] },
 
-{ ad:"Wonsan", tur:"liman", lat:39.1470, lon:127.4440, g:0, k:0, d:[],
+{ ad:"Wonsan", tur:"liman", lat:39.1470, lon:127.4440, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1356-01-01", d:"yuan-hanedani"},
      {f:"1356-01-01", t:"1392-07-17", d:"goryeo"},
      {f:"1392-07-17", t:"1910-08-29", d:"joseon"},
@@ -3025,7 +3025,7 @@ window.YERLESIMLER_ASYA = [
 
 // Kyongsong — Joseon'un XV. yüzyılda Tumen'e kadar genişlettiği kuzeydoğu
 // sınırının kalesi ("altı garnizon", 1434-1449).
-{ ad:"Kyongsong (Gyeongseong)", tur:"kale", lat:41.5750, lon:129.5980, g:0, k:0, d:[],
+{ ad:"Kyongsong (Gyeongseong)", tur:"kale", lat:41.5750, lon:129.5980, g:0, k:4, d:[],
   kur:"1434-01-01",
   s:[{f:"1434-01-01", t:"1910-08-29", d:"joseon"},
      {f:"1910-08-29", t:"1923-10-29", d:"meiji-japonya"}] },
@@ -3033,7 +3033,7 @@ window.YERLESIMLER_ASYA = [
 // Ceccu (Jeju) — Tamna: 1273-1356 arasında Yuan'ın doğrudan idaresinde bir
 // at yetiştirme bölgesiydi. Ada, kendi noktası olmazsa kutu açıldığında
 // anakaranın peteğine emilirdi.
-{ ad:"Ceccu (Jeju)", tur:"liman", lat:33.5000, lon:126.5310, g:0, k:0, d:[],
+{ ad:"Ceccu (Jeju)", tur:"liman", lat:33.5000, lon:126.5310, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1356-01-01", d:"yuan-hanedani"},
      {f:"1356-01-01", t:"1392-07-17", d:"goryeo"},
      {f:"1392-07-17", t:"1910-08-29", d:"joseon"},
@@ -3112,7 +3112,7 @@ window.YERLESIMLER_ASYA = [
 // adını verdi; yerleşim daha eski (Shwedagon pagodası) olduğu için kur:
 // YAZILMADI. İngiliz donanması 14 Nisan 1852'de aldı ve şehir Britanya
 // Birmanyası'nın başkenti oldu.
-{ ad:"Rangun (Yangon)", tur:"liman", lat:16.8710, lon:96.1990, g:1, k:0, d:[],
+{ ad:"Rangun (Yangon)", tur:"liman", lat:16.8710, lon:96.1990, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1287-01-01", d:"pagan"},
      {f:"1287-01-01", t:"1539-01-01", d:"hanthawaddy"},
      {f:"1539-01-01", t:"1740-01-01", d:"toungoo"},
@@ -3129,7 +3129,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1752-04-23", t:"1852-12-20", d:"konbaung"},
      {f:"1852-12-20", t:"1923-10-29", d:"ingiliz-hindistani"}] },
 
-{ ad:"Prome (Pyay)", tur:"kale", lat:18.8170, lon:95.2130, g:0, k:0, d:[],
+{ ad:"Prome (Pyay)", tur:"kale", lat:18.8170, lon:95.2130, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1313-01-01", d:"pagan"},
      {f:"1313-01-01", t:"1542-05-19", d:"ava"},
      {f:"1542-05-19", t:"1752-04-23", d:"toungoo"},
@@ -3144,7 +3144,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1785-01-02", t:"1826-02-24", d:"konbaung"},
      {f:"1826-02-24", t:"1923-10-29", d:"ingiliz-hindistani"}] },
 
-{ ad:"Moulmein (Mawlamyine)", tur:"liman", lat:16.4821, lon:97.6462, g:0, k:0, d:[],
+{ ad:"Moulmein (Mawlamyine)", tur:"liman", lat:16.4821, lon:97.6462, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1287-01-01", d:"pagan"},
      {f:"1287-01-01", t:"1539-01-01", d:"hanthawaddy"},
      {f:"1539-01-01", t:"1740-01-01", d:"toungoo"},
@@ -3156,14 +3156,14 @@ window.YERLESIMLER_ASYA = [
 // kadar Siyam'ın Hint Okyanusu kapısıydı: Mergui, Ayutthaya'nın batı
 // limanıdır ve 1687'de burada İngiliz-Siyam çatışması yaşandı. Alaungpaya
 // 1760'ta ikisini de aldı.
-{ ad:"Tavoy (Dawei)", tur:"liman", lat:14.0840, lon:98.1990, g:0, k:0, d:[],
+{ ad:"Tavoy (Dawei)", tur:"liman", lat:14.0840, lon:98.1990, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1287-01-01", d:"pagan"},
      {f:"1287-01-01", t:"1373-01-01", d:"hanthawaddy"},
      {f:"1373-01-01", t:"1760-01-01", d:"ayutthaya"},
      {f:"1760-01-01", t:"1826-02-24", d:"konbaung"},
      {f:"1826-02-24", t:"1923-10-29", d:"ingiliz-hindistani"}] },
 
-{ ad:"Mergui (Myeik)", tur:"liman", lat:12.4361, lon:98.6130, g:0, k:0, d:[],
+{ ad:"Mergui (Myeik)", tur:"liman", lat:12.4361, lon:98.6130, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1287-01-01", d:"pagan"},
      {f:"1287-01-01", t:"1373-01-01", d:"hanthawaddy"},
      {f:"1373-01-01", t:"1760-01-01", d:"ayutthaya"},
@@ -3219,7 +3219,7 @@ window.YERLESIMLER_ASYA = [
 // Nakhon Si Thammarat — Malay yarımadasının Siyam tarafındaki kilit
 // şehri; Kedah, Patani ve Trengganu üzerindeki Siyam nüfuzu buradan
 // yürütülürdü.
-{ ad:"Nakhon Si Thammarat", tur:"sehir", lat:8.4320, lon:99.9640, g:0, k:0, d:[],
+{ ad:"Nakhon Si Thammarat", tur:"sehir", lat:8.4320, lon:99.9640, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1438-01-01", d:"sukhothai"},
      {f:"1438-01-01", t:"1767-04-07", d:"ayutthaya"},
      {f:"1767-04-07", t:"1782-04-06", d:"tonburi"},
@@ -3265,7 +3265,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1795-01-01", t:"1907-03-23", d:"siyam-chakri"},
      {f:"1907-03-23", t:"1923-10-29", d:"fransiz-cinhindi"}] },
 
-{ ad:"Battambang", tur:"sehir", lat:13.0960, lon:103.2030, g:0, k:0, d:[],
+{ ad:"Battambang", tur:"sehir", lat:13.0960, lon:103.2030, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1431-01-01", d:"angkor-kmer"},
      {f:"1431-01-01", t:"1795-01-01", d:"kamboc-kralligi"},
      {f:"1795-01-01", t:"1907-03-23", d:"siyam-chakri"},
@@ -3279,7 +3279,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1863-08-11", t:"1923-10-29", d:"fransiz-cinhindi"}] },
 
 // Oudong — 1618-1866 arası Kamboçya'nın başkenti; Phnom Penh'e 31 km.
-{ ad:"Oudong", tur:"sehir", lat:11.8080, lon:104.7440, g:0, k:0, d:[],
+{ ad:"Oudong", tur:"sehir", lat:11.8080, lon:104.7440, g:0, k:3, d:[],
   kur:"1618-01-01",
   s:[{f:"1618-01-01", t:"1863-08-11", d:"kamboc-kralligi"},
      {f:"1863-08-11", t:"1923-10-29", d:"fransiz-cinhindi"}] },
@@ -3325,7 +3325,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1802-06-20", t:"1883-08-25", d:"nguyen-hanedani"},
      {f:"1883-08-25", t:"1923-10-29", d:"fransiz-cinhindi"}] },
 
-{ ad:"Lạng Sơn", tur:"kale", lat:21.8530, lon:106.7610, g:0, k:0, d:[],
+{ ad:"Lạng Sơn", tur:"kale", lat:21.8530, lon:106.7610, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1400-03-01", d:"tran-hanedani"},
      {f:"1400-03-01", t:"1407-06-17", d:"ho-hanedani"},
      {f:"1407-06-17", t:"1428-01-03", d:"ming-hanedani"},
@@ -3354,7 +3354,7 @@ window.YERLESIMLER_ASYA = [
 
 // Hội An (Faifo) — XVI-XVIII. yüzyılın en canlı uluslararası limanı;
 // Japon, Çinli, Portekizli ve Hollandalı tüccarların mahalleleri vardı.
-{ ad:"Hội An (Faifo)", tur:"liman", lat:15.8800, lon:108.3350, g:1, k:0, d:[],
+{ ad:"Hội An (Faifo)", tur:"liman", lat:15.8800, lon:108.3350, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1471-03-02", d:"campa"},
      {f:"1471-03-02", t:"1558-01-01", d:"le-hanedani"},
      {f:"1558-01-01", t:"1775-02-01", d:"nguyen-beyligi"},
@@ -3365,7 +3365,7 @@ window.YERLESIMLER_ASYA = [
 
 // Đà Nẵng (Tourane) — Fransız müdahalesi 1 Eylül 1858'de burada başladı;
 // 1888'de doğrudan Fransız toprağı (concession) oldu. Hội An'a 22 km.
-{ ad:"Đà Nẵng (Tourane)", tur:"liman", lat:16.0540, lon:108.2020, g:1, k:0, d:[],
+{ ad:"Đà Nẵng (Tourane)", tur:"liman", lat:16.0540, lon:108.2020, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1471-03-02", d:"campa"},
      {f:"1471-03-02", t:"1558-01-01", d:"le-hanedani"},
      {f:"1558-01-01", t:"1775-02-01", d:"nguyen-beyligi"},
@@ -3433,21 +3433,21 @@ window.YERLESIMLER_ASYA = [
 // Johor — Malaka'nın son sultanının oğlu 1528'de kurdu; Portekiz, Açe ve
 // Hollanda arasındaki üçlü mücadelenin dördüncü tarafıdır. 1914'te
 // İngiliz danışman kabul etti ama hânedan sürdü.
-{ ad:"Johor", tur:"sehir", lat:1.4930, lon:103.7410, g:1, k:0, d:[],
+{ ad:"Johor", tur:"sehir", lat:1.4930, lon:103.7410, g:1, k:1, d:[],
   s:[{f:"1281-01-01", t:"1400-01-01", d:"malay-sultanliklari"},
      {f:"1400-01-01", t:"1528-01-01", d:"malaka-sultanligi"},
      {f:"1528-01-01", t:"1923-10-29", d:"cohor-sultanligi"}] },
 
 // Penang — Francis Light 11 Ağustos 1786'da Kedah sultanından aldı (kur:);
 // İngiltere'nin yarımadadaki ilk toprağıdır.
-{ ad:"Penang (George Town)", tur:"liman", lat:5.4140, lon:100.3290, g:1, k:0, d:[],
+{ ad:"Penang (George Town)", tur:"liman", lat:5.4140, lon:100.3290, g:1, k:3, d:[],
   kur:"1786-08-11",
   s:[{f:"1786-08-11", t:"1826-11-27", d:"ingiltere"},
      {f:"1826-11-27", t:"1923-10-29", d:"ingiliz-malaya"}] },
 
 // Kedah — 1821'de Siyam işgal etti, 1842'de sultan tahta iade edildi;
 // 10 Temmuz 1909 İngiliz-Siyam antlaşmasıyla İngiliz nüfuz alanına geçti.
-{ ad:"Kedah (Alor Setar)", tur:"sehir", lat:6.1210, lon:100.3600, g:0, k:0, d:[],
+{ ad:"Kedah (Alor Setar)", tur:"sehir", lat:6.1210, lon:100.3600, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1821-11-12", d:"malay-sultanliklari"},
      {f:"1821-11-12", t:"1842-01-01", d:"siyam-chakri"},
      {f:"1842-01-01", t:"1909-07-10", d:"malay-sultanliklari"},
@@ -3455,19 +3455,19 @@ window.YERLESIMLER_ASYA = [
 
 // Patani — Malay sultanlıklarının kuzeydeki ucu; Siyam 1786'da ilhak etti
 // ve Bangkok'ta kaldı (1909 antlaşmasında da Siyam'da bırakıldı).
-{ ad:"Patani", tur:"liman", lat:6.8690, lon:101.2500, g:0, k:0, d:[],
+{ ad:"Patani", tur:"liman", lat:6.8690, lon:101.2500, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1786-01-01", d:"malay-sultanliklari"},
      {f:"1786-01-01", t:"1923-10-29", d:"siyam-chakri"}] },
 
 // Perak — 20 Ocak 1874 Pangkor Antlaşması, İngiltere'nin yarımadadaki
 // "danışman" düzeninin başlangıcıdır.
-{ ad:"Perak (Kuala Kangsar)", tur:"sehir", lat:4.7670, lon:100.9370, g:0, k:0, d:[],
+{ ad:"Perak (Kuala Kangsar)", tur:"sehir", lat:4.7670, lon:100.9370, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1874-01-20", d:"malay-sultanliklari"},
      {f:"1874-01-20", t:"1923-10-29", d:"ingiliz-malaya"}] },
 
 // Kuala Lumpur — 1857'de kalay madencilerinin kurduğu kasaba (kur:);
 // 1896'da Federe Malay Devletleri'nin başkenti oldu.
-{ ad:"Kuala Lumpur", tur:"sehir", lat:3.1390, lon:101.6870, g:1, k:0, d:[],
+{ ad:"Kuala Lumpur", tur:"sehir", lat:3.1390, lon:101.6870, g:1, k:3, d:[],
   kur:"1857-01-01",
   s:[{f:"1857-01-01", t:"1874-01-20", d:"malay-sultanliklari"},
      {f:"1874-01-20", t:"1923-10-29", d:"ingiliz-malaya"}] },
@@ -3477,7 +3477,7 @@ window.YERLESIMLER_ASYA = [
 // Samudra Pasai — Güneydoğu Asya'nın İLK Müslüman devleti (1267); İbn
 // Battûta 1345-46'da buraya uğradı ve sultanı anlattı. 1521'de Portekiz
 // aldı, Açe kısa sürede ilhak etti.
-{ ad:"Samudra Pasai", tur:"liman", lat:5.1800, lon:97.0700, g:1, k:0, d:[],
+{ ad:"Samudra Pasai", tur:"liman", lat:5.1800, lon:97.0700, g:1, k:1, d:[],
   s:[{f:"1281-01-01", t:"1521-01-01", d:"samudra-pasai"},
      {f:"1521-01-01", t:"1524-01-01", d:"portekiz"},
      {f:"1524-01-01", t:"1903-01-10", d:"ace-sultanligi"},
@@ -3494,7 +3494,7 @@ window.YERLESIMLER_ASYA = [
 
 // Padang — Minangkabau'nun (Pagaruyung) limanı; VOC 1663'te yerleşti,
 // İngiltere Napolyon savaşlarında iki kez aldı (1781-1784 ve 1795-1819).
-{ ad:"Padang", tur:"liman", lat:-0.9470, lon:100.4170, g:0, k:0, d:[],
+{ ad:"Padang", tur:"liman", lat:-0.9470, lon:100.4170, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1663-01-01", d:"pagaruyung"},
      {f:"1663-01-01", t:"1795-08-18", d:"hollanda-dogu-hint"},
      {f:"1795-08-18", t:"1819-05-01", d:"ingiltere"},
@@ -3512,7 +3512,7 @@ window.YERLESIMLER_ASYA = [
 // Bengkulu (Bencoolen) — İngiltere'nin Sumatra'daki 139 yıllık üssü
 // (1685-1824); 1824 Londra Antlaşması'yla Singapur karşılığında
 // Hollanda'ya verildi.
-{ ad:"Bengkulu (Bencoolen)", tur:"liman", lat:-3.7961, lon:102.2722, g:0, k:0, d:[],
+{ ad:"Bengkulu (Bencoolen)", tur:"liman", lat:-3.7961, lon:102.2722, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1685-01-01", d:"pagaruyung"},
      {f:"1685-01-01", t:"1824-03-17", d:"ingiltere"},
      {f:"1824-03-17", t:"1923-10-29", d:"hollanda-dogu-hint"}] },
@@ -3541,7 +3541,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1811-08-18", t:"1816-08-19", d:"ingiltere"},
      {f:"1816-08-19", t:"1923-10-29", d:"hollanda-dogu-hint"}] },
 
-{ ad:"Semarang", tur:"liman", lat:-6.9660, lon:110.4170, g:1, k:0, d:[],
+{ ad:"Semarang", tur:"liman", lat:-6.9660, lon:110.4170, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1292-01-01", d:"singhasari"},
      {f:"1292-01-01", t:"1478-01-01", d:"majapahit"},
      {f:"1478-01-01", t:"1587-01-01", d:"demak"},
@@ -3550,7 +3550,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1811-08-18", t:"1816-08-19", d:"ingiltere"},
      {f:"1816-08-19", t:"1923-10-29", d:"hollanda-dogu-hint"}] },
 
-{ ad:"Surabaya", tur:"liman", lat:-7.2570, lon:112.7520, g:2, k:0, d:[],
+{ ad:"Surabaya", tur:"liman", lat:-7.2570, lon:112.7520, g:2, k:3, d:[],
   s:[{f:"1281-01-01", t:"1292-01-01", d:"singhasari"},
      {f:"1292-01-01", t:"1527-01-01", d:"majapahit"},
      {f:"1527-01-01", t:"1587-01-01", d:"demak"},{f:"1587-01-01", t:"1625-01-01", d:"mataram-sultanligi"},
@@ -3606,7 +3606,7 @@ window.YERLESIMLER_ASYA = [
 // Mataram (Lombok) — XVIII. yüzyıldan itibaren Balili Karangasem
 // hânedanı yönetti; Hollanda 22 Kasım 1894'te aldı. Cava'daki Mataram
 // Sultanlığı ile karışmasın diye ad parantezlidir.
-{ ad:"Mataram (Lombok)", tur:"sehir", lat:-8.5830, lon:116.1170, g:0, k:0, d:[],
+{ ad:"Mataram (Lombok)", tur:"sehir", lat:-8.5830, lon:116.1170, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1343-01-01", d:"singhasari"},
      {f:"1343-01-01", t:"1478-01-01", d:"majapahit"},
      {f:"1478-01-01", t:"1894-11-22", d:"bali-kralliklari"},
@@ -3616,7 +3616,7 @@ window.YERLESIMLER_ASYA = [
 
 // Brunei — Borneo'nun kuzeyini yüzyıllarca elinde tuttu; 1888'de İngiliz
 // himayesine girdi ama sultanlık sürdü (bugün de sürüyor).
-{ ad:"Brunei", tur:"liman", lat:4.9030, lon:114.9390, g:1, k:0, d:[],
+{ ad:"Brunei", tur:"liman", lat:4.9030, lon:114.9390, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1923-10-29", d:"brunei-sultanligi"}] },
 
 // Kuching — James Brooke 24 Eylül 1841'de Brunei sultanından Sarawak'ı
@@ -3640,7 +3640,7 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1281-01-01", t:"1667-11-18", d:"gova-makassar"},
      {f:"1667-11-18", t:"1923-10-29", d:"hollanda-dogu-hint"}] },
 
-{ ad:"Manado", tur:"liman", lat:1.4740, lon:124.8420, g:0, k:0, d:[],
+{ ad:"Manado", tur:"liman", lat:1.4740, lon:124.8420, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1657-01-01", d:"ternate-sultanligi"},
      {f:"1657-01-01", t:"1923-10-29", d:"hollanda-dogu-hint"}] },
 
@@ -3664,7 +3664,7 @@ window.YERLESIMLER_ASYA = [
 
 // Ambon — Portekiz 1512'de geldi, VOC 23 Şubat 1605'te aldı ve burası
 // şirketin İLK doğu merkezi oldu. İngiltere 1810-1817 arasında tuttu.
-{ ad:"Ambon", tur:"liman", lat:-3.6950, lon:128.1810, g:1, k:0, d:[],
+{ ad:"Ambon", tur:"liman", lat:-3.6950, lon:128.1810, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1512-01-01", d:"ternate-sultanligi"},
      {f:"1512-01-01", t:"1605-02-23", d:"portekiz"},
      {f:"1605-02-23", t:"1810-02-19", d:"hollanda-dogu-hint"},
@@ -3684,13 +3684,13 @@ window.YERLESIMLER_ASYA = [
 // Kupang — Hollanda 1653'te kaleyi kurdu; Timor adası 1859 ve 1904
 // antlaşmalarıyla Hollanda ile Portekiz arasında bölündü ve bu bölünme
 // bugünkü Doğu Timor'un sebebidir.
-{ ad:"Kupang", tur:"liman", lat:-10.1780, lon:123.5970, g:0, k:0, d:[],
+{ ad:"Kupang", tur:"liman", lat:-10.1780, lon:123.5970, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1653-01-01", d:"timor-beylikleri"},
      {f:"1653-01-01", t:"1923-10-29", d:"hollanda-dogu-hint"}] },
 
 // Dili — Portekiz 1769'da idare merkezini buraya taşıdı; Doğu Timor
 // 1975'e kadar Portekiz toprağı kaldı.
-{ ad:"Dili", tur:"liman", lat:-8.5560, lon:125.5600, g:0, k:0, d:[],
+{ ad:"Dili", tur:"liman", lat:-8.5560, lon:125.5600, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1769-10-10", d:"timor-beylikleri"},
      {f:"1769-10-10", t:"1923-10-29", d:"portekiz"}] },
 
@@ -3708,7 +3708,7 @@ window.YERLESIMLER_ASYA = [
 // başkentini kurdu. İngiltere 6 Ekim 1762 – 31 Mayıs 1764 arasında
 // (Yedi Yıl Savaşları) şehri işgal etti; on dokuz ay sürdüğü ve idareyi
 // devraldığı için pencere ALDI.
-{ ad:"Manila", tur:"liman", lat:14.5990, lon:120.9840, g:2, k:0, d:[],
+{ ad:"Manila", tur:"liman", lat:14.5990, lon:120.9840, g:2, k:3, d:[],
   s:[{f:"1281-01-01", t:"1571-06-24", d:"filipin-racaliklari"},
      {f:"1571-06-24", t:"1762-10-06", d:"ispanya"},
      {f:"1762-10-06", t:"1764-05-31", d:"ingiltere"},
@@ -3717,7 +3717,7 @@ window.YERLESIMLER_ASYA = [
 
 // Cebu — Magellan 1521'de burada öldürüldü; Legazpi 27 Nisan 1565'te
 // ilk kalıcı İspanyol yerleşimini kurdu.
-{ ad:"Cebu", tur:"liman", lat:10.3170, lon:123.8910, g:1, k:0, d:[],
+{ ad:"Cebu", tur:"liman", lat:10.3170, lon:123.8910, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1565-04-27", d:"filipin-racaliklari"},
      {f:"1565-04-27", t:"1898-08-13", d:"ispanya"},
      {f:"1898-08-13", t:"1923-10-29", d:"abd"}] },

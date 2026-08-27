@@ -79,7 +79,7 @@ window.YERLESIMLER_EK12 = [
 // ⚠️ maske: Akureyri (65,6835/−18,0878) Eyjafjörður'un dibinde ve 10m
 //    maskesi orayı deniz sayıyor; 2,2 km kuzeydoğuya çekildi. Aynı sınıf
 //    düzeltme `_ek8`de beş kayıtta daha var.
-{ ad:"Akureyri", tur:"sehir", lat:65.7008, lon:-18.0635, g:0, k:0, d:[],
+{ ad:"Akureyri", tur:"sehir", lat:65.7008, lon:-18.0635, g:0, k:3, d:[],
   s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1918-12-01",d:"danimarka"},{f:"1918-12-01",t:"1923-10-29",d:"izlanda"}] },
 
 // ── DOĞU GRÖNLAND — pencerenin tamamında sahipsiz ───────────────────

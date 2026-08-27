@@ -72,27 +72,27 @@ window.YERLESIMLER_EK8 = [
 // ── ① NORVEÇ KUZEYİ — Nordland · Troms · Finnmark ───────────────────
 // Bugün Trondheim (63,43) atlasın en kuzey Norveç noktası; ondan Nordkapp'a
 // 1.100 km boyunca hiç nokta yok. Beş nokta o hattı kuruyor.
-{ ad:"Mosjøen", tur:"sehir", lat:65.8370, lon:13.1920, g:0, k:0, d:[],
+{ ad:"Mosjøen", tur:"sehir", lat:65.8370, lon:13.1920, g:0, k:3, d:[],
   s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec"},{f:"1905-06-07",t:"1923-10-29",d:"norvec"}] },
 
 // ⚠️ Maske: 67,2804/14,4049 (şehir merkezi) yarımadanın ucunda ve 10m
 //    maskesi orayı deniz sayıyor; 2,2 km doğuya (Bodø'nün kendi kıstağı)
 //    çekildi. Aynı düzeltme Tromsø · Luleå · Svalbard · Vaygaç'ta da var.
-{ ad:"Bodø", tur:"sehir", lat:67.2933, lon:14.4446, g:0, k:0, d:[],
+{ ad:"Bodø", tur:"sehir", lat:67.2933, lon:14.4446, g:0, k:3, d:[],
   s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec"},{f:"1905-06-07",t:"1923-10-29",d:"norvec"}] },
 
 // ⚠️ Maske: Tromsø ADA şehridir (Tromsøya); 2,2 km doğuya, karşı kıyıya alındı.
-{ ad:"Tromsø", tur:"sehir", lat:69.6527, lon:19.0119, g:0, k:0, d:[],
+{ ad:"Tromsø", tur:"sehir", lat:69.6527, lon:19.0119, g:0, k:3, d:[],
   s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec"},{f:"1905-06-07",t:"1923-10-29",d:"norvec"}] },
 
-{ ad:"Alta", tur:"sehir", lat:69.9689, lon:23.2717, g:0, k:0, d:[],
+{ ad:"Alta", tur:"sehir", lat:69.9689, lon:23.2717, g:0, k:3, d:[],
   s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec"},{f:"1905-06-07",t:"1923-10-29",d:"norvec"}] },
 
 // 🔴 BU PARTİNİN EN GEREKLİ TEK NOKTASI. Vardøhus kalesi ~1306'dan beri
 // Norveç'in kuzeydoğu çıpasıdır ve o çıpa olmadan Kola'nın Rus noktası
 // bütün Finnmark'ı emer — yani Rusya, Norveç kıyısında Nordkapp'a kadar
 // boyanır. `§3.5.1`in "noktasızlık İKİ YÖNE de hata üretir" vakası.
-{ ad:"Vardø", tur:"kale", lat:70.3705, lon:31.1107, g:0, k:0, d:[],
+{ ad:"Vardø", tur:"kale", lat:70.3705, lon:31.1107, g:0, k:4, d:[],
   s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec"},{f:"1905-06-07",t:"1923-10-29",d:"norvec"}] },
 
 // ── ② İSVEÇ LAPLAND'İ — Norrbotten ve Torne Lappmark ────────────────
@@ -101,10 +101,10 @@ window.YERLESIMLER_EK8 = [
 //    Doğu yakası (Tornio) aşağıda ayrı zincirle yazılı — bu iki komşu
 //    noktanın zinciri 1809'dan sonra AYRILIYOR ve ayrılık kasıtlıdır.
 // ⚠️ maske: şehir merkezi (65,5842) 10m maskesinde deniz; 2,2 km kuzeye alındı.
-{ ad:"Luleå", tur:"sehir", lat:65.6042, lon:22.1547, g:0, k:0, d:[],
+{ ad:"Luleå", tur:"sehir", lat:65.6042, lon:22.1547, g:0, k:3, d:[],
   s:[{f:"1281-01-01",t:"1923-10-29",d:"isvec"}] },
 
-{ ad:"Jokkmokk", tur:"sehir", lat:66.6069, lon:19.8265, g:0, k:0, d:[],
+{ ad:"Jokkmokk", tur:"sehir", lat:66.6069, lon:19.8265, g:0, k:3, d:[],
   s:[{f:"1281-01-01",t:"1923-10-29",d:"isvec"}] },
 
 // 🔴 GÖL DÜZELTMESİ (MOTOR buldu, göl-farkındalı tarama genişletti — 4 Ağustos,
@@ -121,22 +121,22 @@ window.YERLESIMLER_EK8 = [
 //    kıpırtısı 36 m'yi geri içeri alabilir, o yüzden paylı olan seçildi.
 //    📌 Benim ilk ifadem "sıfır mesafede" idi ve fazla sertti — gerçek 36 m.
 //       Karar aynı kalıyor, gerekçenin rakamı düzeltildi.
-{ ad:"Jukkasjärvi", tur:"sehir", lat:67.8693, lon:20.6737, g:0, k:0, d:[],
+{ ad:"Jukkasjärvi", tur:"sehir", lat:67.8693, lon:20.6737, g:0, k:3, d:[],
   s:[{f:"1281-01-01",t:"1923-10-29",d:"isvec"}] },
 
 // ── ③ FİNLANDİYA LAPLAND'İ ──────────────────────────────────────────
 // Oulu (1605) atlasın kaçırdığı en büyük Fin şehriydi: 64°K'nin 1,2 km
 // kuzeyinde kaldığı için kutunun dışındaydı.
-{ ad:"Tornio", tur:"sehir", lat:65.8482, lon:24.1436, g:0, k:0, d:[],
+{ ad:"Tornio", tur:"sehir", lat:65.8482, lon:24.1436, g:0, k:3, d:[],
   s:[{f:"1281-01-01",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-12-06",d:"rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}] },
 
-{ ad:"Oulu", tur:"sehir", lat:65.0121, lon:25.4651, g:0, k:0, d:[],
+{ ad:"Oulu", tur:"sehir", lat:65.0121, lon:25.4651, g:0, k:3, d:[],
   s:[{f:"1281-01-01",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-12-06",d:"rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}] },
 
-{ ad:"Rovaniemi", tur:"sehir", lat:66.5039, lon:25.7294, g:0, k:0, d:[],
+{ ad:"Rovaniemi", tur:"sehir", lat:66.5039, lon:25.7294, g:0, k:3, d:[],
   s:[{f:"1281-01-01",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-12-06",d:"rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}] },
 
-{ ad:"Sodankylä", tur:"sehir", lat:67.4167, lon:26.5833, g:0, k:0, d:[],
+{ ad:"Sodankylä", tur:"sehir", lat:67.4167, lon:26.5833, g:0, k:3, d:[],
   s:[{f:"1281-01-01",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-12-06",d:"rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}] },
 
 // GÖL DÜZELTMESİ — nokta suyun üstündeydi, taşındı.
@@ -166,7 +166,7 @@ window.YERLESIMLER_EK8 = [
 // 📌 Koordinatör bu ince şerit için `denetle.py`ye "SINIRDA" uyarısı ekledi
 //    (ihlal saymıyor, yalnız bağırıyor) ve yazıldığı gün Eğirdir ile
 //    Västerås'ı yakaladı.
-{ ad:"İnari", tur:"sehir", lat:68.9257, lon:27.0337, g:0, k:0, d:[],
+{ ad:"İnari", tur:"sehir", lat:68.9257, lon:27.0337, g:0, k:3, d:[],
   s:[{f:"1281-01-01",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-12-06",d:"rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}] },
 
 // 🔴 PETSAMO — pencerenin İÇİNDE kalan tek Fin toprak kazancı.
@@ -177,7 +177,7 @@ window.YERLESIMLER_EK8 = [
 //    İsveç toprağı, Petsamo ise 1920'de Finlandiya'ya geçen Rus toprağı.
 //    İkisi ters yönde ilerliyor; kopyalasaydım Petsamo 1809'dan önce İsveç
 //    görünecekti ve bu YANLIŞ olurdu.
-{ ad:"Petsamo (Peçenga)", tur:"sehir", lat:69.5500, lon:31.2200, g:0, k:0, d:[],
+{ ad:"Petsamo (Peçenga)", tur:"sehir", lat:69.5500, lon:31.2200, g:0, k:3, d:[],
   s:[{f:"1281-01-01",t:"1478-01-15",d:"novgorod"},{f:"1478-01-15",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1920-10-14",d:"rusya"},{f:"1920-10-14",t:"1923-10-29",d:"finlandiya"}] },
 
 // ── ④ KOLA ve RUS KUZEYİ — Novgorod'un kuzey mirası ─────────────────
@@ -189,28 +189,28 @@ window.YERLESIMLER_EK8 = [
 //    uygulandı; tutarlılık kasıtlı. Ayrı kimlik gelirse ALTISI BİRDEN
 //    düzeltilir (bir yerde `novgorod` yazıp öbüründe yazmamak, iki ayrı
 //    kural gibi görünürdü).
-{ ad:"Kola", tur:"kale", lat:68.8815, lon:33.0186, g:0, k:0, d:[],
+{ ad:"Kola", tur:"kale", lat:68.8815, lon:33.0186, g:0, k:4, d:[],
   s:[{f:"1281-01-01",t:"1478-01-15",d:"novgorod"},{f:"1478-01-15",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1923-10-29",d:"rusya"}] },
 
-{ ad:"Kandalakşa", tur:"sehir", lat:67.1550, lon:32.4117, g:0, k:0, d:[],
+{ ad:"Kandalakşa", tur:"sehir", lat:67.1550, lon:32.4117, g:0, k:3, d:[],
   s:[{f:"1281-01-01",t:"1478-01-15",d:"novgorod"},{f:"1478-01-15",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1923-10-29",d:"rusya"}] },
 
-{ ad:"Ponoy", tur:"sehir", lat:67.0833, lon:41.1500, g:0, k:0, d:[],
+{ ad:"Ponoy", tur:"sehir", lat:67.0833, lon:41.1500, g:0, k:3, d:[],
   s:[{f:"1281-01-01",t:"1478-01-15",d:"novgorod"},{f:"1478-01-15",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1923-10-29",d:"rusya"}] },
 
-{ ad:"Arhangelsk", tur:"liman", lat:64.5401, lon:40.5433, g:0, k:0, d:[],
+{ ad:"Arhangelsk", tur:"liman", lat:64.5401, lon:40.5433, g:0, k:3, d:[],
   s:[{f:"1281-01-01",t:"1478-01-15",d:"novgorod"},{f:"1478-01-15",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1923-10-29",d:"rusya"}] },
 
-{ ad:"Mezen", tur:"sehir", lat:65.8447, lon:44.2394, g:0, k:0, d:[],
+{ ad:"Mezen", tur:"sehir", lat:65.8447, lon:44.2394, g:0, k:3, d:[],
   s:[{f:"1281-01-01",t:"1478-01-15",d:"novgorod"},{f:"1478-01-15",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1923-10-29",d:"rusya"}] },
 
 // Peçora'nın çıpası. 1499'da kurulan Pustozersk Ural'ın batısındaki ilk
 // Rus Arktik kasabasıdır; XX. yy'da terk edildi ama pencerenin tamamında
 // yaşıyor, o yüzden `bit:` yazılmadı.
-{ ad:"Pustozersk", kur:"1499-01-01", kaynak:"Kanyukova V.P., Forum molodyh uchenyh 2019 (CyberLeninka) — \"osnovan ... osen'yu 1499 goda\"; TDV bu tanecigi kapsamiyor", tur:"kale", lat:67.5200, lon:52.7000, g:0, k:0, d:[],
+{ ad:"Pustozersk", kur:"1499-01-01", kaynak:"Kanyukova V.P., Forum molodyh uchenyh 2019 (CyberLeninka) — \"osnovan ... osen'yu 1499 goda\"; TDV bu tanecigi kapsamiyor", tur:"kale", lat:67.5200, lon:52.7000, g:0, k:4, d:[],
   s:[{f:"1499-01-01",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1923-10-29",d:"rusya"}] },
 
-{ ad:"Ust-Tsilma", tur:"sehir", lat:65.4392, lon:52.1508, g:0, k:0, d:[],
+{ ad:"Ust-Tsilma", tur:"sehir", lat:65.4392, lon:52.1508, g:0, k:3, d:[],
   s:[{f:"1281-01-01",t:"1478-01-15",d:"novgorod"},{f:"1478-01-15",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1923-10-29",d:"rusya"}] },
 
 // ── ⑤ YAMAL · OB' KUZEYİ — "sahipsiz, SONRA devlet" sınıfı ──────────
