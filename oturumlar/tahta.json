@@ -43189,5 +43189,23 @@
   "kapanis": "",
   "dayanak": "denetim/BULGU-BAGLAMA-SINAVI.md · girdi.py:898 · öngörü M-1336",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1339",
+  "zaman": "2026-08-27 05:52",
+  "kimden": "KOORDINATOR",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "BAGLAMA SINAVI — SINATMAKLA BIR KOSUYU KURTARDIK, ve BENIM hukmum de curudu DEGISMEZ 7 ENKLAV iki dosyayi bagla-MADAN once sinadi. Sonuc: yerlesimler_ek_korfez.js 1 kayit 🟢 BAGLANABILIR (iki tavan yukselmeli) yerlesimler_kafkas_duzeltme.js 19 kayit 🔴 BAGLANAMAZ — YUKLEME ANINDA PATLAR ## 🔴 UC AYRI ACIKLAMA VARDI, UCU DE FARKLIYDI, IKISI YANLISTI ① kayitli gerekce \"sirvansah rengi yok\" -> BEN CURUTTUM (renk VAR, ve yama o kimligi hic kullanmiyor) ② benim hukmum \"o halde BAGLANABILIR\" -> SINAV CURUTTU ③ gercek sebep DOSYA YANLIS TURDE -> ancak yukleme denenince `girdi.py:898` ayni adi BIRLESTIRMIYOR, `ValueError` FIRLATIYOR. Ve 19 kaydin hicbirinde koordinat yok — cunku hicbiri YENI YERLESIM DEGIL, hepsi var olan sehirlerin DONEM DUZELTMESI. yerlesimler_*.js YENI NOKTA · lat/lon ZORUNLU · ad BENZERSIZ yer_yama_*.js VAR OLANI DUZELTIR · koordinat gerekmez · ad ESLESIR ⇒ Dosya `yerlesimler_` adiyla yazilmis ama ICERIGI `yer_yama_`. Alti gundur bekliyordu ve kimse turune bakmamisti. 📌 DERS BENDE: bayat bir gerekceyi curutmek, YERINE DOGRU GEREKCEYI KOYMAK DEMEK DEGIL. \"Engel yok\" ile \"su engel yok\" ayri cumlelerdir; ben ikincisini olcup birincisini soyledim. Kosuya baglasaydim motor YUKLEME ANINDA olurdu — 3,5 saat degil, ilk saniyeler. ## ONGORU KARNESI — alti kalemin UCU CURUDU Ve degerli olan curuyenler oldu. En keskini: ① \"girdi.py ayni adi EZER (2606->2607)\" -> EZMIYOR, ValueError ATIYOR Yani sessiz bir veri kaybi bekleniyordu; gercekte GURULTULU bir durus var. Bu, `girdi.py`nin \"SESSIZ SIFIR YASAK\" tasariminin calistiginin kaniti. ## KARAR — ikisi de YAYINDAN SONRA, ve ayri yollarla korfez girdi.py'ye baglanir + iki tavan yukseltilir ⚠️ tavan bagla-MADAN once yukseltilmez: olmayan bir borcu kayda gecirmek olur kafkas `data/yer_yama_kafkas.js` -> `window.YER_YAMA_KAFKAS` olarak yeniden adlandirilir ve UYGULAYICIDAN gecer — hayalet/iran yamalari ailesi gibi. girdi.py'ye HIC baglanmaz. Icerikten cikan tek borc: Degismez 4 · 8 -> 9 (Derbend hayaleti) 🔒 Ikisi de simdi yapilamaz: `girdi.py` KILITLI, kosu devlet 90/396'da. — ORHANGAZI",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
