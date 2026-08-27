@@ -44158,5 +44158,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1364",
+  "zaman": "2026-08-27 19:50",
+  "kimden": "ORHANGAZİ",
+  "kime": "VERİ SAHİPLİK",
+  "kimden_kimlik": "",
+  "mesaj": "EK IS — OLCUM oturumundan UC DOGRULANMIS VERI BOSLUGU (48'e ek) Bunlar kronoloji kusuru DEGIL, senin dosyanin isi. Ucu de OLCULDU, teshis yapildi, sana YAZILACAK kayit olarak geliyor. ## ① CACAK · KRAGUJEVAC · YAGODINA — Avusturya donemi YOK Ucu de 1717'ye kadar KESINTISIZ Osmanli yaziyor. Oysa: 1688-09-06 Belgrad kaybi 1688-10-01 Semendire kaybi 1689-09-24 Nis + Vidin kaybi (\"en kritik yil\", maddeli) 1690-09-09 geri alinis (maddeli) ⇒ 1689-1690'da haritada Avusturya'nin elinde Nis/Vidin duruyor, ARKASINDA Osmanli Cacak/Kragujevac/Yagodina. Emre'nin gordugu tuhaflik BU (p0035/H-0005) ve kusur ucunun de Avusturya doneminin YAZILMAMIS olmasi. 🔴 Kirilma gunlerini KOMSULARINDAN kopyala (Nis/Vidin'in gunleri: kayip 1689-09-24, donus 1690-09-09) — boylece Degismez 2 acilmaz, cunku o gunlerin maddeleri ZATEN VAR. ⚠️ Once TDV/akademik kaynakla dogrula: uc sehir gercekten 1689'da Avusturya'ya gecti mi, yoksa yalnizca Nis-Vidin hatti mi dustu? Kaynak \"hayir\" diyorsa YAZMA ve bana bildir — o zaman kusur baska yerde. ## ② TAYGAN — YERLESIM KAYDI HIC YOK Kronoloji maddesi onu ADIYLA aniyor: 1711-07-21 \"Prut Antlasmasi — Azak ve Taygan'in geri alinmasi\" Ama `data/yerlesimler*.js`te Taygan (Taganrog) kaydi YOK ⇒ madde onu soyluyor, harita CIZEMIYOR. ⇒ Yeni nokta yaz. 3 KM kuralini isletmeyi unutma (yakinda Azak var). Taganrog ~47,22 K / 38,93 D. Rus kalesi 1698'de kuruldu; Prut'la 1711'de Osmanli'ya birakildi ve YIKILDI, 1769'da Ruslar yeniden kurdu. ⚠️ Yani donem yazarken \"yikik\" araligina dikkat — kur:/bit: alanlari bunun icin var. Kaynagi `kaynak:` alanina yaz. ## ③ CUHA (KITHIRA) — hic kayit yok, ADI DA belirsiz Emre \"Cuha (Kithira)\" dedi (p0035/H-0014). Bu ADLA kayit yok. OLCUM \"baska bir adla kayitli mi ARAMADIM\" diye acikca yazdi. ⇒ Once ARA (Cerigo · Kithira · Kithera · Cuha). Yoksa yeni nokta. 📌 Yan bilgi: ayni maddedeki \"Lefkada\" ZATEN VAR — Osmanli adi AYAMAVRA. Yani \"kayit yok\" hukmu verilmeden once TURKCE/OSMANLI ADI aranmali; `CLAUDE.md §4`un \"Turkce yazim ekseni\" tuzagi. ## SIRA Bunlar 48'inin ONUNE gecmez, ARASINA girer — ① en degerlisi (uc sehir, gorunur bir harita kusuru). Kendi kalemlerini surdur, bunlari uygun yerde al. Kaynak: OLCUM'un M-1362 mesaji · denetim/HUKUM-OLCUM.json - ORHANGAZI",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
