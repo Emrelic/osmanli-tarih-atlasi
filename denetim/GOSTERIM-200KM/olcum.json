@@ -1,0 +1,46 @@
+[
+ {
+  "bolge": "SAHRA",
+  "gun": "1600-06-15",
+  "A_km2": 6399246,
+  "B_km2": 5433903,
+  "fark_km2": 965342,
+  "kara_km2": 12797962,
+  "A_yuzde": 50.0,
+  "B_yuzde": 42.46,
+  "dosya": "SAHRA_1600-06-15.png"
+ },
+ {
+  "bolge": "ARABISTAN",
+  "gun": "1600-06-15",
+  "A_km2": 3414986,
+  "B_km2": 2831186,
+  "fark_km2": 583800,
+  "kara_km2": 4581127,
+  "A_yuzde": 74.54,
+  "B_yuzde": 61.8,
+  "dosya": "ARABISTAN_1600-06-15.png"
+ },
+ {
+  "bolge": "ORTA-ASYA",
+  "gun": "1600-06-15",
+  "A_km2": 4129921,
+  "B_km2": 3379201,
+  "fark_km2": 750720,
+  "kara_km2": 5796328,
+  "A_yuzde": 71.25,
+  "B_yuzde": 58.3,
+  "dosya": "ORTA-ASYA_1600-06-15.png"
+ },
+ {
+  "bolge": "SIBIRYA",
+  "gun": "1600-06-15",
+  "A_km2": 1691624,
+  "B_km2": 1276898,
+  "fark_km2": 414725,
+  "kara_km2": 10208856,
+  "A_yuzde": 16.57,
+  "B_yuzde": 12.51,
+  "dosya": "SIBIRYA_1600-06-15.png"
+ }
+]

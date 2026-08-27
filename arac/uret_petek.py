@@ -3620,8 +3620,20 @@ def _dolgu_kumesi(a):
         if j in _dv:
             continue
         kim = None
+        # 🔴 27 Ağustos 2026 — KADEME AYRILDI. Eskiden burası `_osm_aktif`
+        # ile tek kova veriyordu ("OSMANLI") ve dolgu kapısı kazananı
+        # DOĞRUDAN yazıyordu. Bedeli ölçüldü: 1600-06-15'te 791.491 km²
+        # koyu kırmızı. Kök bağımsız doğrulandı — şüpheli alan Libya'daki
+        # DOĞRUDAN nokta sayısıyla birebir ters orantılı:
+        #     47 nokta → 0 km² · 1 → 388.206 · 0 → 791.491 · 39 → 222.967
+        # Yani kusur tam olarak Trablusgarp'ın KARAMANLI OCAKLIĞI (tâbi)
+        # olduğu 1711-1835 aralığında doğuyor: puanı `v:` noktalar veriyor,
+        # kazanan "doğrudan" yazılıyor.
+        # ⚠️ SIRA MOTORUN KENDİ SIRASI (:3934-3937 `dogrudan = {...} - tabi`):
+        #    bir noktanın hem `d:` hem `v:` dönemi varsa TÂBİ kazanır.
         if _osm_aktif(y, a):
-            kim = "OSMANLI"
+            kim = ("TABI" if any(dn["f"] <= a < dn["t"] for dn in y["v"])
+                   else "OSMANLI")
         else:
             for sp in y["s"]:
                 if sp["f"] <= a < sp["t"]:
@@ -3938,9 +3950,31 @@ for i in range(len(tarihler) - 1):
                          if j not in _dv
                          and any(dn["f"] <= a < dn["t"] for dn in y["d"])) - tabi
     # ---- EKLEYİCİ KAPI: sahipsiz peteklerden Osmanlı'ya düşenler ----------
-    # 🔴 DOĞRUDAN'a katılıyor, TÂBİ'ye değil: doldurulan yer boş arazidir,
-    # orada bir tâbi beylik YOKTUR. Tâbilik bir SİYASÎ İLİŞKİDİR ve onu
-    # kimsenin olmadığı toprağa yazmak, olmayan bir ilişkiyi iddia etmek olur.
+    # 🔴 27 AĞUSTOS 2026 — BU YORUM YENİDEN YAZILDI. Eski hâli şuydu:
+    #   *"DOĞRUDAN'a katılıyor, TÂBİ'ye değil: doldurulan yer boş arazidir,
+    #   orada bir tâbi beylik YOKTUR. Tâbilik bir SİYASÎ İLİŞKİDİR ve onu
+    #   kimsenin olmadığı toprağa yazmak, olmayan bir ilişkiyi iddia etmek
+    #   olur."*
+    # İLKE DOĞRUYDU, UYGULAMASI ASİMETRİKTİ ve kendi sonucunu çürütüyordu:
+    #     "tâbi" yazmak     → olmayan bir SİYASÎ İLİŞKİ iddia eder
+    #     "doğrudan" yazmak → olmayan bir DOĞRUDAN İDARE iddia eder
+    # İkincisi DAHA GÜÇLÜ bir iddiadır — Sahra'nın ortasında Osmanlı
+    # sancak/eyalet idaresi olduğunu söyler. Yorumun kendi ilkesi
+    # ("olmayanı iddia etme") tutarlı uygulanınca eski kararı düşürüyor.
+    # 🟢 Ve ölçüm bunu destekliyor: ayrım yapılınca Libya 1835 SONRASI
+    #    kendiliğinden doğrudan kalıyor, Sudan tâbi oluyor — yani kademe,
+    #    puanı veren noktaların GERÇEK SİYASÎ KONUMUNU izliyor.
+    # ⚠️ ÜÇÜNCÜ BİR ŞIK VARDI ve Emre'ye sunuldu: dolgunun KENDİ kademesi
+    #    olması (`dolgu`, ayrı ton) — "burası puanlamayla dolduruldu, idare
+    #    iddiası yok" demenin en dürüst yolu. Emre bu koşu için TÂBİ'yi
+    #    seçti; `dolgu` kademesi KAYITLI BİR SEÇENEK olarak duruyor.
+    # 🔴 SIRA ŞART: `tabi` ÖNCE genişletilir, `dogrudan` SONRA hesaplanır.
+    #    Tersi olursa aynı petek iki kovaya birden girer ve `g.difference(gt)`
+    #    onu doğrudan gövdeden keser — SESSİZ ALAN KAYBI.
+    if DOLGU_ACIK:
+        _ekt = _dolgu_kumesi(a).get("TABI")
+        if _ekt:
+            tabi = tabi | _ekt
     if DOLGU_ACIK and dogrudan:
         _ek = _dolgu_kumesi(a).get("OSMANLI")
         if _ek:

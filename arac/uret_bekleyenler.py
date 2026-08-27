@@ -51,6 +51,14 @@ BOLUMLER = [
     ("KÜLLİYAT ÇÖZÜLDÜ", "kulliyat"),
     ("GÖRSEL DOĞRULAMA", "gorsel"),
     ("KARAR BEKLEYENLER", "karar"),
+    # 27 Agustos 2026: kutudan (paketlerden) cikan `senin-kararin` hukumleri.
+    # Emre sordu: "benim kendi zevkime gore karar vermem gereken 12 mesele
+    # var demistin, bunlari bekleyenler kutusuna atmis miydin? Buradan da
+    # soylemedin. Atilip atilmadigi da supheli." — ATILMAMISTI.
+    # `F3`: cizelgeyi ekrana bas VE BEKLEYENLER.md'ye yaz; mesajda soylemek
+    # yetmez. Kural yaziliydi, uygulanmadi.
+    # ⇒ `karar` anahtarina baglandi: bunlar gercekten Emre'yi BAGLIYOR.
+    ("KUTUDAN GELEN YENİ KALEMLER", "karar"),
     ("İSTERSEN", "istege_bagli"),
     # 6 Agustos 2026: gunun oturumlarindan cikan SAHIPSIZ kalemler.
     # Hicbiri sikayet uretmiyor (acil degil) ama olculmus ve yazili.

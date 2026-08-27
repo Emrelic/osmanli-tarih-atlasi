@@ -1,6 +1,67 @@
 # BEKLEYENLER — Emre'nin kararını bekleyen kalemler
 
-> Son güncelleme: **17 Ağustos 2026**
+> Son güncelleme: **27 Ağustos 2026 · ORHANGAZİ**
+
+---
+
+## 🔴 27 AĞUSTOS — KUTUDAN GELEN YENİ KALEMLER
+
+> ⚠️ **Üreteç bu başlığı OKUMAZ** ve bu KASITLI: `arac/uret_bekleyenler.py`
+> `KARAR BEKLEYENLER` dizesini arar, o bölüm aşağıda ve dokunulmadı.
+> Bu bölüm insan içindir — `data/bekleyenler.js`e girmez.
+
+> 🔴 **BU BÖLÜM 27 AĞUSTOS'TA EKLENDİ VE SEBEBİ BİR KUSURDUR.**
+> Bu maddeleri Emre'ye **sohbette saydım ama buraya YAZMADIM.** Emre sordu:
+> *"Bekleyenler kutusuna atılıp atılmadığı da şüpheli. Bunlara nereden
+> bakıp karar vereceğim."* Şüphesi yerindeydi — atılmamıştı.
+> 📌 `YASALAR F3`: *çizelgeyi ekrana bas **VE** `BEKLEYENLER.md`ye yaz;
+> mesajda söylemek yetmez.* Kural yazılıydı, uygulanmadı. Bir karar
+> yalnız sohbette durursa, sohbet kayınca karar da kayar.
+
+### NASIL CEVAP VERİLİR — üç yol, hangisi kolayına gelirse
+
+```
+① kutu penceresinden      ilgili maddeye cevap yaz
+② bana burada söyle       "p0019/H-0081 → açık mavi olsun" gibi
+③ tahtadan                py arac/tahta.py yaz --kim "EMRE" --kime "KOORDINATOR" ...
+```
+Numara vermen yeter — hepsinin kimliği `paket/H-NNNN` biçiminde sabit.
+
+### KARARLAR — 14 kalem
+
+| # | kimlik | KARAR | ORHANGAZİ'nin durumu |
+|---|---|---|---|
+| 1 | `parti-emrelic-0035/H-0043` | Fransız Devrimi niçin kronolojide yok | **KAPSAM sorusu.** `CLAUDE.md §1.6` 8. boyutu kasten kapalı tutuyor. ⚠️ Ama ölçtüm: kronolojide zaten 42 yabancı devlet dosyası var (İngiltere 270 · Fransa 184 · Çin 136 madde) — kapı **kısmen zaten açık**. Karar: 8. boyut açılsın mı? |
+| 2 | `parti-emrelic-0035/H-0091` | önemli uluslararası olaylar kronolojiye katılsın mı | 1 ile **aynı karar**. Ve ölçüldü: `dunya=5` etiketli 140 dış madde var (Mohaç · Vestfalya · Viyana 1683 · Viyana Kongresi · I. Dünya Savaşı · Ekim Devrimi · Kopernik). Eşik koyarsan bunlar gelir. 🔴 Ama Osmanlı çekirdeğinin 1223/1226 maddesinde `onem`/`dunya` **BOŞ** — önce çekirdek puanlanmalı, yoksa ölçüt asimetrik olur. |
+| 3 | `parti-emrelic-0032/H-0002` | Karakoyunlu çöküş maddesinin haritadaki yeri | Veri TDV'ye **birebir sadık** (`Bingöl-Kiğı arası Sancak mevkii`) ve çevresi o an gerçekten Akkoyunlu. Karar: *"düzeltilecek kusur"* mu, *"doğru ama beklentiye aykırı"* mı? |
+| 4 | `parti-emrelic-0030/H-0006` | panel düğmesi hangi durumu yazsın | 🟢 **CEVAPLANDI (27 Ağu): GİDECEĞİ DURUM.** `0027/H-0012` geri alındı. Uygulanacak. |
+| 5 | `parti-emrelic-0024/H-0003` | mesaj kutusunu okuyup cevaplama düzeni | — |
+| 6 | `parti-emrelic-0021/H-0012` | koridor mantığı niçin böyle kuruldu | ⚠️ 27 Ağustos'ta bu konu **yeniden açıldı**: 200 km tavanı + enklav birleştirme + koridor kapatma gösterimi hazırlanıyor. Bu madde onunla birlikte cevaplanmalı. |
+| 7 | `parti-emrelic-0019/H-0050` | Canberdi Gazâlî / öncü kuvvet gösterimi | ⚠️ **MÜKERRER DEĞİL — bu dosyada ZATEN VAR**: aşağıdaki `## 🔴 ⑦ ÖNCÜ KUVVET BÖLGELERİ` bölümü, şıklarıyla. Oraya bak. |
+| 8 | `parti-emrelic-0019/H-0061` | Mohaç sonrası Macaristan haritası | ⚠️ **ZATEN VAR**: aşağıdaki `## 🔴 ⑥ MACARİSTAN NASIL GÖSTERİLSİN` bölümü, üç şıkkıyla. Oraya bak. |
+| 9 | `parti-emrelic-0019/H-0075` | Budin ilhakı sonrası statü | ⚠️ **ZATEN VAR** — ⑥ ile aynı bölümde. |
+| 10 | `parti-emrelic-0019/H-0081` | deniz/göl için daha açık mavi mi | Su rengi 25 Ağustos'ta `#a8c8dc` → `#bcd6e6` bir tık açıldı. Daha da açılsın mı? ⚠️ `novgorod` rengi suya ΔE 16,6 — su açılırsa o çift zorlanır. |
+| 11 | `parti-emrelic-0016/H-0003` | Tuz Gölü kıyıları kalite 6 çizilsin mi | — |
+| 12 | `parti-emrelic-0014/H-0004` | Aral · Baykal gibi iç göllerin kıyıları | — |
+| 13 | `parti-emrelic-0012/H-0001` | görüntüleri yumuşatma | — |
+| 14 | `parti-emrelic-0012/H-0002` | ilginç görüntülerin oluştuğu yerler | — |
+
+### CEVAPSIZ SOHBET — 12 konu, beşi `🔴 OKUNMAMIŞ`
+
+24 Ağustos'tan beri cevapsız duranlar:
+```
+"nedir bunların detayı onu da söylesene, nerede görünüyor bu üreteçler"
+"halka halka genişletelim"
+"sen karar ver"
+"projeksiyon konusunda en son durum nedir"
+"bu konu halledildi ise kapatılsın"
+```
+15 Ağustos'tan: *"benden istediğin bir şey var mı"* (iki kez) · *"şimdi ne yapılacak Macaristan konusunda"* · *"benim yapmam gereken nedir"* · *"tasarlayacaksın ama uygulamayacak mısın"*
+
+⚠️ Bunlar **sohbet ipliği**, paket maddesi değil — kutu penceresinden
+cevaplanır ya da bana burada söylenir.
+
+---
 > ⚠️ Bunlar sistemin **yapamayacağı** kararlar. Cevaplanmadan ilgili iş ilerlemez.
 
 ⚠️ **BU DOSYANIN BAŞLIKLARI `arac/uret_bekleyenler.py` TARAFINDAN AYRIŞTIRILIYOR.**
@@ -13,11 +74,15 @@ yerine gürültülü durdu (*"bayat tablo, yanlış tablodan kötüdür"*).
 
 ## 🔴 KARAR BEKLEYENLER
 
-### 🔴 17 AĞUSTOS — TEK KALEM, VE SİSTEMİN YAPAMAYACAĞI İŞ
+### ✅ 17 AĞUSTOS — TEK KALEM, VE KAPANDI
 
-| # | BEKLENEN | NİÇİN SENDE | HAZIR OLAN |
-|---|---|---|---|
-| ⑪ | **OSMAN GAZİ koordinatör oturumunu aç** — Opus, dizin: proje kökü. Açılınca ona söylenecek tek şey: *"`oturumlar/BAYRAK.md`yi oku."* | Oturum açmak ve model seçmek **yalnız senin elinde** — sistem yapamıyor (`F18`) | devir notu `oturumlar/BAYRAK.md` · hanedan kanunu `oturumlar/DEVIR-KURALI.md` · ikisi de commit'li (`246c6e6`) |
+**⑪ OSMAN GAZİ koordinatör oturumunu aç** — Opus, dizin proje kökü.
+🟢 **YAPILDI.** OSMAN GAZİ açıldı, çalıştı, ve 25 Ağustos'ta bayrağı
+ORHANGAZİ'ye devretti (`M-1288`). Kalem kapalı.
+
+⚠️ Tablosu **bilerek kaldırıldı**: üreteç `KARAR BEKLEYENLER` dizesini
+arayıp ilk eşleşen bölümün tablosunu okuyor; iki tablo birden dursaydı
+kapanmış bir kalem bugünkü listeye karışırdı.
 
 🟢 **Bekleyen başka karar YOK.** ERTUĞRUL oturumu bayrağı doğal sınırda
 bıraktı: koşu bitti, doğrulandı, **r2576 yayınlandı** (`68ac2ab`), canlı iş
