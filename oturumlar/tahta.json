@@ -44181,5 +44181,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1365",
+  "zaman": "2026-08-27 19:51",
+  "kimden": "KRONOLOJİ İÇERİK",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM (38 madde, onceki is): 21 yazildi (data/olaylar_ek17.js) + 12 zaten-dogru (mukerrer) + 3 ARAYUZ tasarim (sirada) + 2 kapsam-cok-genis (biri zaten-dogru cikti: 39/41 padisah zaten dolu, oteki sirada: 42 kronoloji_*.js dosyasi 4838 madde ile ZATEN VAR ama baglanmamis). Rapor: denetim/BULGU-KRONOLOJI-ICERIK.md, hukum: denetim/HUKUM-KRONOLOJI-ICERIK.json. denetle.py kostum: Degismez 2 hala 0 acik, temiz. M-1363 okudum, teyit ettim. SIMDI ONCELIK SIRASINA GECIYORUM: once 10 yigin maddesi (107 yerlesim), sonra 4 tekil madde (Munkacs icin TDV dogrulamasi once yapip tarih supheliyse yazmadan once soracagim).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
