@@ -43248,5 +43248,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1342",
+  "zaman": "2026-08-27 10:43",
+  "kimden": "HIZLI GÖSTERİM",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 İLK ÇIKTI HAZIR — DÖRT BÖLGENİN DÖRDÜ DE. Emre'ye doğrudan gönderdim (dosya kartı olarak), tahtaya da yazıyorum. DOSYALAR: denetim/GOSTERIM-200KM/ SAHRA_1600-06-15.png · ARABISTAN_1600-06-15.png · ORTA-ASYA_1600-06-15.png · SIBIRYA_1600-06-15.png olcum.json (sayılar makine okunur) KOŞU KOŞULMADI. Toplam üretim süresi: 13 SANİYE. ═══ SAYILAR — 1600-06-15 ═══ bölge A (bugünkü) B (200 km tavan) FARK A'nın %'si SAHRA 5.685.081 km² 4.995.710 km² −689.370 km² %12,1 ARABİSTAN 3.231.400 2.729.391 −502.009 %15,5 ORTA ASYA 3.843.732 3.243.670 −600.062 %15,6 SİBİRYA 1.441.538 1.187.873 −253.664 %17,6 ───────────────────────────────────────────────────────────── TOPLAM 14.201.751 12.156.644 −2.045.107 km² %14,4 Ve kara oranı olarak (o bölgedeki karanın yüzde kaçı boyanıyor): SAHRA A %63,1 → B %55,4 ARABİSTAN A %57,3 → B %48,4 (olcum.json'da tam) ═══ NE GÖRÜLÜYOR ═══ A'da boyalı gövdeler yerleşim noktalarının ÇOK ÖTESİNE taşıyor; B'de her gövde noktaların 200 km'lik halkasına çekiliyor. Emre'nin \"dört şehir bileşke kuvvet oluşturuyor\" teşhisi görselde birebir görünüyor: A'da komşu blokların arasındaki boşluklar KAPANIYOR, B'de AÇIK kalıyor. 🔴 Ve fark TENHA bölgede BÜYÜYOR: Sahra %12,1 → Sibirya %17,6. Motorun kendi yorumu (\"200 km'de merkez varsa kapı bir şey değiştirmez\") YOĞUN bölge için doğru; tenha bölgede tam tersi — bu ölçüm o yorumu sayıyla çürütüyor. ═══ YÖNTEM — ve sınırları AÇIKÇA ═══ 0,25° ızgara · veri-kaynak/motor_kara.geojson kara maskesi · her hücrede her sahip için puan toplanıp eşik 4 uygulanıyor (uret_petek.py:3454 kuralının birebiri) · kazanan sahip boyanıyor. Her görselin ÜSTÜNDE \"KABA TASLAK — karar aracı, üretim haritası DEĞİL\" yazıyor. 🔴 YOK: Voronoi · kıyı yaslama · nehir · göl · eğim · örtme (occlusion, ORTME_DILIM_SAYISI=12). ⚠️ ÖRTME'yi uygulamadım ve bu ÖNEMLİ: motor aynı yöndeki uzak noktaları eliyor. Yani gerçek koşuda A'nın alanı benim gösterdiğimden BİRAZ KÜÇÜK çıkar; B ise örtmeden neredeyse etkilenmez (tek halka). ⇒ A−B farkı benim gösterdiğimden BİR MİKTAR AZ olabilir. Bunu ölçmedim; yönünü söylüyorum, büyüklüğünü SÖYLEMİYORUM. ⚠️ Kara maskesini ayrıca sınadım (derin Sahra True · Akdeniz False · Atlantik False) — sağlam. ═══ SIRADA ═══ 1750-06-15 kesiti · sonra Emre'nin ② enklav birleştirme (≤800 km, karasal, arada boş) ve ③ koridor derinliği (≤200 km) kurallarının SAYILARI — ölçeceğim, uygulamayacağım. Emre şimdi karar verebilir; ikinci kesit ve sayımlar bunu beklemez.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "denetim/GOSTERIM-200KM/*.png + olcum.json",
+  "aciliyet": "ACIL"
  }
 ]
