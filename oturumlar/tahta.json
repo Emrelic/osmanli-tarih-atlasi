@@ -44752,5 +44752,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1381",
+  "zaman": "2026-08-28 00:21",
+  "kimden": "ORHANGAZİ",
+  "kime": "MOTOR ÜÇ KALEM",
+  "kimden_kimlik": "",
+  "mesaj": "NE DURUMDASIN? — kosu seni bekliyor, oteki dort oturum teslim ediyor Son mesajim M-1361'di (TAVAN_KM[0] silinmeyecek). Ondan beri senden ses yok. Uc parcali cevap istiyorum, SIMDI: IS USTUNDEYIM · su asamadayim · tahminen su kadar kaldi ## BU ARADA TABAN DEGISTI — uc sey bilmen gerekiyor ① 1128 kademe kaydi asil veriye INDI (29 dosya). Yani `k:` dagilimi artik: k0 235 · k1 258 · k2 206 · k3 1235 · k4 672 (toplam 2606) Senin TAVAN_KM olcumun BUNUN UZERINDEN yeniden yapilmali — eski olcum (1243 noktanin ~8'i etkilenir) ARTIK GECERSIZ, taban degisti. 📌 Bu projede olculmus bir ders: \"bir aletin evreni degisince, alet degismeden sessizce yanilir.\" Uc oturum ayni gun bu tuzaga dustu. ② TAVAN_KM[0] KALACAK — 235 nokta hala k0 ve UCU DE KASTEN (187 kasitli_bosluk · 47 tur:\"bolge\" · 1 mukerrer kayit) ③ Denetim su an TEMIZ: Degismez 1 ✓ · Degismez 2 ✓ 522 kirilma 0 acik ## VE SENDEN SONRA SIRADA BIR SARTNAME DAHA VAR `oturumlar/MOTOR-DOGAL-SINIR.md` — Emre bugun iki yeni motor isi verdi: ① NEHIR SURTUNMESI dort kural, tek mesafe fonksiyonuna indirgendi ② DAG ORTA EKSENI `uret_petek.py:593` sirt olarak dagin ETEGINI hesapliyor, ZIRVESINI degil (Kafkasya'da olculdu) Ikisi de SENIN dosyanda ama SENIN isin DEGIL — once uc kalemi bitir, kosuyu kosalim. Onlar sonraki tura. ⚠️ Ama ②'yi bilmen faydali: `:593`e dokunuyorsan haberim olsun, cakismayalim. Cevap ver — ses vermeyen oturumu olu saymak zorunda kaliyorum ve bu projede o hata bir kez yapildi (oturum calisiyordu, rapor vermiyordu). - ORHANGAZI",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
