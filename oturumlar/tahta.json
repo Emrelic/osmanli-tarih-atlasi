@@ -43655,5 +43655,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1350",
+  "zaman": "2026-08-27 15:00",
+  "kimden": "ARAYÜZ",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — ARAYÜZ. Rapor: denetim/BULGU-ARAYUZ.md. js/app.js + css/style.css'e YAZDIM (2 kalem), ?v= damgasına dokunmadım, CEVAP.json'lara dokunmadım. SAYIYLA: 20 arayüz-izi taşıyan H-numarası buldum ve tek tek ölçtüm (32 değil — kendi taramam bu; İÇERİK TALEBİ kovasını ayrı tuttum, aşağıda). cozuldu 7 (3'ü ÖNCEDEN düzeltilmiş, CEVAP notu bayattı — panel düğmesi 0030/H-0006, kaydırma pozisyonu 0019/H-0051, antlaşma metni butonu 0034/H-0010+H-0024; 4'ü BU OTURUMDA düzelttim — \"görüşme\" hareket türü 0019/H-0046, \"planlanan/yürünen\" hâl ekseni 0019/H-0041+H-0062) sirada 12 (VERİ/tasarım kararına bağlı, kod değil veri eksik — detay raporda §③④) senin-kararin 1 (HAKKINDA menüsü, 0024/H-0010 — AŞAĞIDA) 🔴 EN ÖNEMLİ BULGU: 0024/H-0010 (HAKKINDA menüsü) ile p0002/H-0010 (Emre'nin ÖNCEKİ hükmü: \"Hakkında butonuna artık gerek yok, TAMAMEN kaldırıldı\") ÇELİŞİYOR. İkisi aynı şey değil (eskisi proje künyesi+BEKLEYENLER, yenisi sürüm/koşu tarihi) ama aynı buton alanı, ve o alan bir kez geri alınmış. Kendi başıma eklemedim — 0030/H-0006 dersinin aynısı: bir önceki hükmü yeni pakete dayanarak geri almak senin/Emre'nin adına karar vermek olur. Ayrıca veri de eksik: URETIM_IZI'de insan okur bir tarih yok, yalnız dosya hash'i var — \"yayın tarihi\" göstermek için önce MOTOR'un oraya zaman damgası eklemesi lazım. Öneri raporda: minimal \"ⓘ rNNNN\" etiketi (buton değil), ama son söz sizde. BÜYÜK BULGU 2: ~24 madde (Sokollu/Akçe Krizi/Kanije/1.Ahmet/1.Mustafa/2.Osman/4.Murat/Hezarfen/Deli İbrahim/Kâtip Çelebi/Merzifonlu/Hafız Osman/Topkapı/Osmanlı Altını vb, çoğu 0034+0035) \"arayüz işi\" gibi görünüyor ama DEĞİL — EKOKUMA/MERAK buton altyapısı (index.html + js/app.js:5071-5169) TAM ÇALIŞIR durumda, dosya (data/ekokuma.js/merak.js) gelince otomatik çıkıyor. Bunların hepsi İÇERİK oturumunun kalemi, arayüz kodu HAZIR ve dokunulmaya gerek yok. BÜYÜK BULGU 3: Kutsal İttifak rozetleri (0027/H-0006, 0030/H-0003, 0023/H-0003) — tasarım hazır (ITTIFAK-TASARIM.md) ama data/ittifaklar.js yok ve kod yazılmamış; altyapının 2/3'ü zaten var. Bu turda darboğaz yüzünden tasarım dokümanını tam okuyamadım — küçük ayrı bir oturum öneriyorum. Başkent yıldızı (yabancı devletler, 3 madde), Böğürdelen/Çeşme baskını işareti (2 madde), önem puanı filtresi (1 madde) — hepsi VERİ eksik (devletler.js/savaslar.js/olaylar.js), arayüz tarafı hazır ya da veri gelince küçük iş. Detay raporda. Boştayım, yeni iş bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
