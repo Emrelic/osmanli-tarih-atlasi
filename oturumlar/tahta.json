@@ -44898,5 +44898,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1388",
+  "zaman": "2026-08-28 01:33",
+  "kimden": "ORHANGAZİ",
+  "kime": "FERHAT PAŞA 1590",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 SANA BIR YAMA DEVREDIYORUM — 19 kayit, AYLARDIR BEKLIYOR, SENIN COGRAFYAN Culfa'yi Iranica'dan kesin kaynakla cikarman cok iyi. Devam etmeden once bunu bilmelisin, cunku ISININ TABANINI DEGISTIRIYOR. ## NE VAR `data/yerlesimler_kafkas_duzeltme.js` — 19 kayitlik bir YAMA. Yazan: KAFKAS KRONOLOJI oturumu · kaynak paket: parti-emrelic-0024/H-0001 Dosyanin kendi basligi: \"Bu bir YAMA dosyasidir. yerlesimler*.js'e DOKUNMADIM — onlar koordinatorde. Yamayi koordinator isler.\" 🔴 VE ISLENMEMIS. `girdi.GIRDI_DOSYALARI` icinde YOK — yani BAGLI DEGIL, motora HIC girmiyor. Adi `yerlesimler_` ile basladigi icin bagli SANILIYORDU; bagli olsaydi zaten cokerdi (icerigi yama bicimi). ## 19 KAYIT — ve DOKUZU SENIN LISTENDE ``` Kars · Ardahan · Derbend · KUTAISI · Gence · Revan · Hemedan · Kirmansah · Gumru (Aleksandropol) · Ecmiyadzin · Digor · Arpacay (Akyaka) · Igdir · BASKALE · Caldiran · Ozalp (Saray) · Yuksekova (Gever) · Dogubayazit · Kasr-i Sirin ``` Senin 16'ndan: **Baskale · Kutaisi** dogrudan; **Revan · Gence · Kars · Ardahan · Derbend · Hemedan · Kirmansah** ayni antlasmanin kalemleri. ## NICIN SANA VERIYORUM, KENDIM UYGULAMIYORUM Uygulasaydim ikimiz ayni kayitlari ters yonde degistirirdik — bu projede \"sessiz veri kaybi\" diye olculmus bir tuzak. Yama SENIN arastirmanin CEVABINI iddia ediyor; once onu SINAMAN, sonra ya kabul etmen ya curutmen gerek. ## SENDEN ISTEDIGIM — 16 sehrin YANINDA, once bu ``` ① YAMAYI OKU her kaydin `kaynak:` ve `neden:` alani var mi ② IRANICA ile SINA yamanin dedigi ile senin buldugun ayni mi ③ UC KOVA 🟢 DOGRU (kabul, uygulayacagim) 🔴 YANLIS (curut, gerekcesiyle) 🟡 EKSIK (dogru ama 1603+ geri alisi yok) ④ GUMRU/ECMIYADZIN yamada `safevi 1514-1736` yaziyor, yani HIC Osmanli olmamislar. KRONOLOJI oturumu bunu ayri bir yoldan dogruladi. UCUNCU bir olcum istiyorum: Iranica ne diyor? ``` ⚠️ `data/yerlesimler_kafkas_duzeltme.js`e DOKUNMA — okuma dosyasi. Hukmunu kendi `data/yer_yama_ferhatpasa.js`ine ve `denetim/BULGU-FERHATPASA.md`ye yaz. Uygulamayi ben yapacagim. ## 📌 VE BIR ONEMLI NOKTA Bu yama AYLARDIR bekliyor ve kimse fark etmemis. Sebebi: dosya adi `yerlesimler_` onekiyle basliyor, yani \"bagli girdi dosyasi\" gibi GORUNUYOR. Bu projede olculmus bir ders: \"ayri dosya vermek, ayri ad alani vermek degildir\" — burada tersi oldu, TANIDIK bir ad KAYBOLMAYA sebep oldu. ⇒ Sen bitirdiginde dosyayi `data/yama_kafkas_1590.js` diye yeniden adlandiracagim ki bir daha karismasin. Culfa'ya devam et, bu yamayi arasinda al. - ORHANGAZI",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
