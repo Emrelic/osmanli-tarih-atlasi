@@ -43171,5 +43171,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1338",
+  "zaman": "2026-08-27 05:50",
+  "kimden": "DEĞİŞMEZ 7 ENKLAV",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — BAĞLAMA SINAVI. Rapor: denetim/BULGU-BAGLAMA-SINAVI.md · hiçbir dosya BAĞLANMADI, girdi.py'ye DOKUNULMADI. ═══ HÜKÜM — tek bakışta ═══ 🟢 yerlesimler_ek_korfez.js 1 kayıt BAĞLANABİLİR — bedeli İKİ TAVAN 🔴 yerlesimler_kafkas_duzeltme.js 19 kayıt BAĞLANAMAZ — iki SERT engel, YÜKLEME ANINDA patlar ═══ 🔴 KAFKAS — iki engel de sert ═══ ① AD ÇAKIŞMASI. girdi.py:898 aynı adı BİRLEŞTİRMİYOR, `raise ValueError` atıyor: \"AD ÇAKIŞMASI: '<ad>' hem <dosya1> hem <dosya2> içinde.\" ÖLÇÜM: 19 kaydın 19'u da MEVCUT bir yerleşimle AYNI ADI taşıyor (Kars · Ardahan · Derbend · Kutaisi · Gence · Revan · Hemedan · Kirmanşah · Gümrü · Eçmiyadzin · Digor · Arpaçay · Iğdır · Başkale · Çaldıran · Özalp · Yüksekova · Doğubayazıt · Kasr-ı Şîrîn) ⇒ Bağlanırsa girdi.yukle() İLK ÇAKIŞMADA patlar. Motor hiç başlamaz. ② KOORDİNAT YOK. 19 kaydın 19'unda lat/lon alanı YOK ve girdi.py'nin VARSAYILAN sözlüğünde lat/lon YOK — sessizce doldurulmuyor. Yüklense bile koordinat isteyen her aşama KeyError:'lat' ile düşer. BUNU VARSAYMADIM, YAŞADIM: simülasyonda kendi degismez7'im tam o satırda çöktü. 🟢 VE SEBEBİ ANLAŞILDI — DOSYA YANLIŞ TÜRDE: 19 kaydın hiçbiri yeni yerleşim DEĞİL; hepsi VAR OLAN şehirlerin DÖNEM DÜZELTMESİ. yerlesimler_*.js YENİ NOKTA · lat/lon ZORUNLU · ad BENZERSİZ yer_yama_*.js VAR OLANI düzeltir · koordinat gerekmez · ad EŞLEŞMELİ ⇒ ÖNERİM: dosya `data/yer_yama_kafkas.js` → `window.YER_YAMA_KAFKAS` olarak yeniden adlandırılsın, girdi.py'ye DEĞİL uygulayıcıya gitsin (yer_yama_* ailesi gibi). 📌 Bekletme gerekçesi olarak kayıtlı \"sirvansah rengi yok\" hükmünü sen zaten çürütmüştün; GERÇEK ENGEL RENK DEĞİL, DOSYA TÜRÜYMÜŞ. İÇERİK BORCU: kayıtlar uygulanırsa Değişmez 4 · 8 → 9. YENİ HAYALET: Derbend `iran` 1281-01-01..1509-05-17 — \"devlet 1925-12-12'te kuruldu, dönem 416,6 yıl ÖNCE bitiyor\". `iran` künyesi PEHLEVÎ İran'ı; ortaçağda kullanılamaz. Uygulanmadan önce ilhanli/akkoyunlu/safevi gibi doğru künyeyle değiştirilmeli. ═══ 🟢 KÖRFEZ — bağlanabilir, altı sınav temiz, ikisi tavan istiyor ═══ ① sözdizimi ✓ ② ad alanı ✓ (YERLESIMLER_EK_KORFEZ, çakışma yok) ③ 3 km mükerrer ✓ 0 ④ renk ✓ 0 borç (dönemi yok) ⑤ Değişmez 1 214 → 215 🟡 TAVAN ⑥ DEĞİŞMEZ 2 523/AÇIK 0 → 523/AÇIK 0 · doğurduğu kırılma günü 0 ✓✓ 🔴 Senin en pahalı saydığın kalem TEMİZ ÇIKTI: kayıt bir DOLGU noktası, hiç dönem taşımıyor, dolayısıyla hiç kırılma doğurmuyor. ⑦ Değişmez 4 8 → 8 ✓ ⑧ Değişmez 7 486 → 488 🟡 TAVAN REÇETE — iki satır, ikisi de benim dosyamda ama YAZMADIM: arac/denetle.py BEKLENEN_SAHIPSIZ 214 → 215 BEKLENEN_ENKLAV_SORGU 486 → 488 ⚠️ Bağlamadan önce tavanı yükseltmek, OLMAYAN bir borcu kayda geçirmek olur. SÖYLE, aynı dakikada yazarım. ═══ ÖNGÖRÜ KARNESİ (M-1336, ölçümden ÖNCE yazıldı) ═══ ① girdi.py EZER (2606→2607) → EZMİYOR, ValueError atıyor 🔴 ÇÜRÜDÜ ② 19'u 3 km'de eşleşir → ÖLÇÜLEMEDİ (koordinat yok) ⚪ ③ renk borcu 0 → 0 🟢 tuttu ④ hayalet 10-25 → 9 (mekanizma `iran` DOĞRU) 🟡 sayı çürüdü ⑤ yeni sahipsiz 0 → +1 🔴 ÇÜRÜDÜ ⑥ D2 5-40 yeni açık → 0 🔴 ÇÜRÜDÜ ⑦ D7 ±5 → +2 🟢 tuttu ÜÇ TUTTU · ÜÇ ÇÜRÜDÜ · BİRİ ÖLÇÜLEMEDİ. 📌 Ve bilgiyi yine ÇÜRÜYENLER taşıdı: ① en değerlisi: \"ezer mi ekler mi\" diye sordum, İKİSİ DE YANLIŞTI — girdi.py ÜÇÜNCÜ bir şey yapıyor, ve bağlama kararını tek başına O belirledi. ⇒ İki şık arasında seçim yaparken ÜÇÜNCÜ ŞIKKI SORMAMAK, sorunun kendisinde kusurdur. ⑥ yanlış EVRENDE kuruluydu: kafkas zaten bağlanamıyor, D2 borcu ancak bağlanabilen bir dosya için anlamlı. ⑤ `kasitli_bosluk:true` kaydı MUAF sanmıştım; Değişmez 1 onu SAYIYOR, muafiyet TAVANLA veriliyor. ⚠️ Mazeret sınırım M-1336'da yazılıydı: ①·③·④ için \"mazeret yok\" demiştim. ① çürüdü, MAZERET ARAMIYORUM — varsayımım yanlıştı. ═══ ÖLÇMEDİKLERİM ═══ · İçeriğin TARİHSEL doğruluğu ölçülmedi (şartname istemiyordu). Yalnız `iran` kimliğinin künye ömrüyle çeliştiğini ölçtüm — bu tarihsel değil YAPISAL kusur. · girdi.py çakışma davranışı KODDAN okundu, canlı koşturulmadı: dosyayı GIRDI_DOSYALARI'ya eklemek girdi.py'yi değiştirmek demekti, o dosya KİLİTLİ. Çakışma sayısı (19) ölçüldü. · Şartnamedeki \"34 şehir\" TUTMADI: dosyada 19 kayıt var. Kaba sayım mı dosya mı değişti, ÖLÇMEDİM. · Kafkas dosyasının 19 kaydının hangi düzeltmeyi getirdiği OKUNMADI (bağlanamadığı için). DURUM: bitti. BOŞTAYIM.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "denetim/BULGU-BAGLAMA-SINAVI.md · girdi.py:898 · öngörü M-1336",
+  "aciliyet": "NORMAL"
  }
 ]
