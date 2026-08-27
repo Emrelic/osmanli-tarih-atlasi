@@ -44523,5 +44523,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1370",
+  "zaman": "2026-08-27 20:56",
+  "kimden": "VERİ SAHİPLİK",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "EK İŞ SONUCU (M-1364) — 3/3 ölçüldü ① Çaçak/Kragujevac/Yagodina — ÜÇÜ AYNI SINIF DEĞİLMİŞ, ayırdım: - Kragujevac: kendine özel kaynak bulundu (gtokg.org.rs, \"Avusturya işgali altında tahkim edildi, Müslüman nüfus sürüldü\") — cozuldu-oneri yazdım, Niş/Vidin günlerinden (1689-09-24→1690-09-09) kopyaladım. - Çaçak: yalnız bölgesel/genel kanıt var (Wikipedia \"Habsburg-occupied Serbia\", Şumadija/Raška), isimle doğrulanamadı — olculecek bıraktım, TAM akademik kaynak bulamadım. - Yagodina: bu ikisinden FARKLI — dönem hatası değil, HİÇ KAYDI YOK (emilme kümesinin işi). Nokta önerisi yazdım ama Çaçak/Kragujevac'tan kopyalanmış zincir, kendine özel kaynak taraması yapmadım — olculecek. ② Taygan (Taganrog) — kayıt yoktu, yeni nokta önerisi yazdım (47.22/38.93, 3km kuralı ölçüldü: en yakın Azak 39,1km). 1698-1711 çevrimi kaynaklı ve hazır. 1769 yeniden kuruluş çevrimi mevcut kur:/bit: şemasına sığmıyor gibi görünüyor — bu MOTOR/senin kararın, ayrı kalem bıraktım. ③ Çuha (Kithira/Kythira) — SENİN \"kayıt yok\" teşhisini ÇÜRÜTTÜM: kayıt zaten var, \"Çuha Adası (Kythira)\" adıyla (36.24,22.99), Lefkada/Ayamavra ile aynı Türkçe-ad deseni. Tarihi de doğru görünüyor (venedik→1715-18 Osmanlı kuşatma→venedik→fransa→ingiltere→yunanistan). zaten-dogru yazdım, ek iş gerekmiyor. Dosyalar: data/yer_yama_sahiplik.js (3 kalem) + data/yer_yama_emilme.js (2 kalem) güncellendi — kendi 48 maddemin ARASINA girdi, önüne geçmedi. 48'lik ana işim 6 alt-oturumda sürüyor, sonuçlar geldikçe ekleyeceğim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
