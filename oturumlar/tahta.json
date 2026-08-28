@@ -48138,5 +48138,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1433",
+  "zaman": "2026-08-28 10:10",
+  "kimden": "KADEME ZİNCİRİ",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "KADEME ZİNCİRİ — TESLİM (① + ③ ölçüldü, ② sınıflandırıldı, veri kaynaklı YAZILAMADI) ① ÖLÇÜM: 65 doğrulandı (grep -c). 64'ü m:— (merkez hiç yazılmamış), 1'i m: dolu ama kırık (İnkirman → Mankup, Mankup'un kendisi de k:3 ve m:— — yani asıl kusur 64'te, İnkirman onun ikinci kurbanı). ③ 🔴 KRİTİK BULGU — bu bir m: işi, kd: işi DEĞİL: uret_petek.py:684-706'daki kontrol (k12_merkez + UYARI döngüsü) kd_oku()/kd_gun()'ı HİÇ ÇAĞIRMIYOR — ham y[\"k\"]/y[\"m\"] okuyor. girdi.py'de y[\"k\"]= ya da y[\"m\"]= ataması yok, yani kd: yazmak bu uyarıyı SUSTURMAZ, yalnız düz m: yazmak susturur. Motorun kendi yorumu (satır 675-681) bunu zaten itiraf ediyor: \"m: tek değerli ve zamansız... kademe uyarısının bedeli kozmetik, Değişmez 3'ün bedeli gerçek\" — yani bu geri kalmışlık bilinen bir mimari karar, kusur değil. Bu partide düz m: yazmak DOĞRU çare. ② SINIFLANDIRMA: 64/65 için veri-içi coğrafi aday bulundu (464 k1/2 merkez listesi çıkarıldı, py girdi.yukle()). Tam tablo denetim/BULGU-KADEME-ZINCIR.md'de. Özet: - Kırım Hanlığı grubu (6) → Bahçesaray (Mankup dahil, İnkirman'ı da kapatır) - Tebriz/Şirvan/Revan/Hemedan grubu (9) → Tebriz·Şamahı·Revan·Hemedan - Necid/Kasîm (3) → Riyad (şüpheli, TDV dönemi kapsıyor mu kontrol şart) - Yukarı Macaristan (5, CLAUDE.md §3.5.1'in ta kendisi) → Kassa (Munkács için zaten tokoli-imre kaynağı sende var) - Erdel/Dalmaçya/Bosna (5) → Erdel·Klis·Zadar·Saraybosna - İstanbul/Karaman/Erzurum/Silistre/Selanik/Belgrad çevresi (16) - 🔴 DARFUR (10 kayıt) — SENİN \"🟡 merkezsiz\" ÖRNEĞİNİ ÇÜRÜTÜYOR OLABİLİR: veride El-Fâşir ZATEN k1/k2 merkez, Darfur Sultanlığı'nın tarihî başkenti. TDV slug `darfur` CANLI (200), `dar-fur`/`el-fasir` ölü. İçerik bu oturumda OKUNMADI — \"ölçmedim\" diye işaretledim. - 🟡 gerçek muafiyet adayı: Otranto (1480-81 kısa işgal), Dubrovnik (bağımsız cumhuriyet, belki k: sorunu m: sorunu değil), Zagem/Tarki (Kaheti ve Dağıstan'ın veride karşılığı olan merkezi yok, Tiflis'e bağlamak tarihen yanlış olur). SONUÇ — bu turda BİTMEDİ, sebep KAYNAK: 64 kaydın hiçbiri TDV/akademik kaynak okunmadan data/*.js'e yazılamaz (CLAUDE.md §4 kırmızı çizgi). data/yer_yama_kademe_zincir.js bilerek BOŞ İSKELET bırakıldı — biçim ve Munkács örneği içinde. Bu 60+ ayrı TDV okuması gerektiren bir NOKTA partisi büyüklüğünde iş. Nasıl devam edelim: ben mi TDV taramasına devam edeyim (yavaş, kayıt kayıt) yoksa bunu ayrı bir partiye mi bölüyorsun? — KADEME ZİNCİRİ",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
