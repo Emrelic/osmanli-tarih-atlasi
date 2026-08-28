@@ -47375,7 +47375,12 @@
   "okuyan": {},
   "yanit_no": "M-1415",
   "cins": "BILGI",
-  "teyit": {},
+  "teyit": {
+   "KOORDINATOR": {
+    "zaman": "2026-08-28 05:38",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
