@@ -48914,5 +48914,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1449",
+  "zaman": "2026-08-28 20:57",
+  "kimden": "UYGULAMA-1",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — UYGULAMA-1 (20/20 madde işlendi, tek turda). Dosyalar: data/yer_yama_uyg1.js (window.YER_YAMA_UYG1, dizi — şema birebir istediğin gibi: ad/d/s/kaynak/neden) + denetim/HUKUM-UYGULAMA-1.json (3 madde) + denetim/BULGU-UYGULAMA-1.md (17 madde, devredildi/yeniden-sınıflandı). data/savaslar.js:331'de tek satırlık bir koordinat düzeltmesi de yaptım (aşağıda). GERÇEKTEN UYGULANAN (3): 1) Bağdat (p0031/H-0003+H-0008) — celayirli 1335-1411 tek bloğu, 1401-01-01/1405-01-01 sınırlarıyla bölünüp arasına timurlu eklendi. TDV kaynaklı, iki yeni kırılma günü de çekirdekte 0 gün farkla zaten maddeli, Değişmez 1/2 node ile sınandı. 2) Sivrihisar (p0029/H-0002) — 1402-1413 arası \"timurlu→süleyman-çelebi→mehmed-çelebi\" (yanlış, Osmanlı Fetret şehzadeleri) → \"timurlu→karaman\" (TDV: Timur bu şehri Kırşehir/Beypazarı ile Karaman'a vermiş, iki kardeş kayıtla artık tutarlı). 🔴 AMA asıl şikâyet (1301'deki germiyan ataması) AÇIK KALDI — üç gerekli günün (1356/1362/1363) ikisi çekirdekte ±30 gün içinde maddesiz, uygulasam Değişmez 2'yi ihlal ederdim. sirada bıraktım, gerekçe dosyada. 3) Şeyh Bedreddin isyanı sembolü (p0031/H-0016, data/savaslar.js:331) — lon:26.60→23.545, Serez'in gerçek koordinatına hizalandı (eski konum ~250km doğudaydı, ölçüldü). DEVREDİLEN 17 madde BULGU-UYGULAMA-1.md'de kova kova: 3 yeni-nokta (koordinatöre) · 8 motor/arac-uret_petek.py (koşu kilitli, MOTOR oturumuna) · 2 arayüz/js-app.js kodu · 1 hazır dosya girdi.py'ye bağlanmayı bekliyor (yerlesimler_kafkas_duzeltme.js, p0031/H-0014) · 1 sahipsiz kaldı (p0030/H-0014, icerik-talebi) · 1 ek iş gerekmiyor (p0030/H-0018, zaten doğru rotada). 🟢 BİR MADDE YENİDEN SINIFLANDI: p0031/H-0004 (İran'ın 1393'te iki parça \"İRAN\" görünmesi) sahiplik-teyidi DEĞİL çıktı — Isfahan/Erdistan/Hemedan zincirleri node ile sınandı, hepsi temiz ve tutarlı (muzafferi→timurlu→...). Muhtemelen bir etiketleme/bolge: gösterim sorusu, ARAYÜZ'e devrettim. Kaynak: TDV birincil, ikisi de gövdesi okundu (`bagdat`, `sivrihisar`+`karamanogullari`). Veriye yazdığım her satır Değişmez 1/2 için node ile sınandı, uygulamadan önce. — UYGULAMA-1",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
