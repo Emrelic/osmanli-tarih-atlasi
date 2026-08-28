@@ -1311,7 +1311,21 @@ def delikleri_doldur(g, muaf=True, sahip_ix=None):
 #    kod düzenlemeden kapatılabilmeli.
 B23_ACIK = os.environ.get("MOTOR_B23_KAPALI") != "1"
 _KARA_HAZIR = prep(KARA)     # bir kez hazırlanır; B2'nin deniz sınavı bunu sorar
-B2_ENKLAV_KM = 800.0        # Emre: "≤800 km ve KARASAL"
+# 🔴 800 → 250, ve gerekçesi ÖLÇÜLDÜ (29 Ağustos 2026, r3556 verisi).
+# Birleşik gövdede (doğrudan ∪ tâbi) altı kesitte kaç enklav var:
+#     KARASAL (B2 köprü kurar)        :   7
+#     DENİZ AŞIRI (zaten reddediliyor) : 761
+# ve o 7'nin dağılımı:
+#     0-100 km  5   ← beşi de AYNI 16 km²'lik kırıntı, beş ayrı kesitte
+#   200-400 km  2   ← ikisi de AYNI enklav: 22.089 km², 159×235 km, 223 km
+# ⇒ EN UZAK KARASAL ENKLAV 223 km. 600'de de 800'de de HİÇBİR ŞEY YOK.
+#   Tavan gerçek en uzak vakanın hemen üstüne konuyor; ötesi ölü menzil ve
+#   ölü menzil bir gün veri büyüyünce SESSİZCE çubuk üretir.
+# 📌 Ve çubukların sebebi tavan DEĞİLDİ: B2 ayrı tâbi katmanında koşuyordu,
+#   orada Eflak · Kırım · Dubrovnik gerçekten ayrı parçalar ve aralarındaki
+#   toprak Osmanlı olduğu için `covers` testini geçiyorlardı. Birleşik
+#   gövdede ayrı parça bile değiller.
+B2_ENKLAV_KM = 250.0        # Emre: "karasal" · ölçülen en uzak vaka 223 km
 B3_KAPAMA_DER = 0.45        # ≈50 km yarıçaplı kapama; koridor ölçeği
 B3_SADELIK = 0.02           # ≈2 km — YALNIZ koridor adayını bulmak için
 _B23_SAYAC = {
@@ -1349,6 +1363,36 @@ def _yasakli_mi(alan, sahip_ix):
     return None
 
 
+def _bant_baskasinin_topragini_kesiyor_mu(hat, sahip_ix, adim_km=10.0):
+    """Emre'nin ③. kuralı: *"eğer iki birbirinden kopuk yapının arasında BAŞKA
+    DEVLETİN BÖLGESİ var ise bu gerçek bir enklav olabilir ve ek araştırma
+    yapılmadan birleştirilemez; aradaki renklendirilmiş bölge EZİLEREK iki
+    bölge birleştirilemez."*
+
+    🔴 NİÇİN AYRI BİR SINAV — `_yasakli_mi` YETMİYOR ve sebebi ölçüldü:
+    o yalnız bandın İÇİNE DÜŞEN YERLEŞİM NOKTASI arar. Bir bant iki yabancı
+    şehrin TAM ARASINDAN geçip hiçbirini içermeden ikisinin de toprağını
+    ezebilir — nokta yakalanmaz, toprak gider.
+    ⇒ Burada sorulan soru başka: hattın üzerindeki her nokta KİMİN
+      peteğine düşüyor? Petekler karayı döşediği için "en yakın yerleşim
+      bizim mi" sorusu, "burası bizim toprağımız mı" sorusuyla AYNIDIR.
+
+    Döner: True (yasak — başkasının toprağı) · False (serbest)
+    """
+    if _TUM_AGAC is None or sahip_ix is None:
+        return False
+    n = max(2, int(hat.length * 111.32 / adim_km))
+    for i in range(n + 1):
+        p = hat.interpolate(i / float(n), normalized=True)
+        try:
+            q = int(_TUM_AGAC.nearest(p))
+        except Exception:
+            return True          # ölçemedik ⇒ EN KÖTÜ HÂLİ VARSAY
+        if q not in sahip_ix:
+            return True
+    return False
+
+
 def _b2_enklav_birlestir(g, sahip_ix):
     """Ana kütleye ≤800 km, KARASAL, arası BOŞ olan enklavı köprüyle bağlar."""
     ps = list(g.geoms) if g.geom_type == "MultiPolygon" else [g]
@@ -1382,8 +1426,45 @@ def _b2_enklav_birlestir(g, sahip_ix):
         if not _KARA_HAZIR.covers(hat):
             _B23_SAYAC["b2_deniz"] += 1
             continue
-        en = max(0.05, min(0.25, d_km / 111.32 / 8.0))
-        bant = hat.buffer(en, cap_style=2)
+        # 🔴 EMRE'NİN ③. KURALI — arada başka devletin BÖLGESİ varsa BİRLEŞTİRME
+        if _bant_baskasinin_topragini_kesiyor_mu(hat, sahip_ix):
+            _B23_SAYAC["b2_yerlesim"] += 1
+            continue
+
+        # ---- KÖPRÜNÜN ŞEKLİ — Emre'nin ④. kuralı --------------------------
+        # *"Enklavın genişliğinden DAHA FAZLA ama üçgensel yapıdan DAHA AZ."*
+        #
+        # 🔴 ESKİ HÂLİ ÇUBUK ÜRETİYORDU ve Emre ekranda gördü:
+        #     en = max(0.05, min(0.25, d_km / 111.32 / 8.0))
+        #   Genişlik mesafenin 1/8'i AMA 0,25° = 27,8 km'de TAVANLI. Tavanın
+        #   devreye girdiği mesafe 0,25 × 111,32 × 8 = 222 km; ötesinde
+        #   uzunluk büyür, genişlik DONAR:
+        #       100 km → 12,5 km  (1:8   şerit)
+        #       222 km → 27,8 km  (1:8   şerit)
+        #       800 km → 27,8 km  (1:28  ÇUBUK)   ← ekrandaki rezalet
+        #
+        # YENİ ÖLÇÜT: enklavın KENDİ genişliği. Köprü ondan dar olamaz —
+        # yoksa gövdeden çıkan bir çöp gibi görünür. Ama üçgen de olamaz:
+        # enklav ucunda `w_e`, anakara ucunda `2 × w_e` ile açılan bir
+        # YAMUK. Tam üçgen `d`ye orantılı açılırdı; bu sabit bir oranla
+        # açılıyor, yani uzaklık arttıkça üçgenden UZAKLAŞIYOR.
+        x0, y0, x1, y1 = p.bounds
+        _la = (y0 + y1) / 2.0
+        w_e = min((x1 - x0) * _km_derece(_la), (y1 - y0) * 110.574)   # km
+        w_e = max(w_e, 25.0)                    # çok küçük kırıntı için taban
+        en_enklav = (w_e / 2.0) / _km_derece(_la)          # yarı-genişlik, derece
+        en_ana = min(2.0 * en_enklav, 3.0)                 # anakara ucu, tavan 3°
+        # Yamuğu hattın diklerinden kur
+        _dxu, _dyu = (n2.x - n1.x), (n2.y - n1.y)
+        _bo = math.hypot(_dxu, _dyu) or 1e-9
+        _px, _py = -_dyu / _bo, _dxu / _bo                 # birim dik
+        bant = Polygon([
+            (n1.x + _px * en_ana,    n1.y + _py * en_ana),
+            (n2.x + _px * en_enklav, n2.y + _py * en_enklav),
+            (n2.x - _px * en_enklav, n2.y - _py * en_enklav),
+            (n1.x - _px * en_ana,    n1.y - _py * en_ana),
+        ]).buffer(0)
+
         yasak = _yasakli_mi(bant.difference(g), sahip_ix)
         if yasak:
             _B23_SAYAC["b2_yerlesim"] += 1
@@ -4315,14 +4396,46 @@ for i in range(len(tarihler) - 1):
     else:       ad = donemler[-1]["ad"] if donemler else "—"
 
     _t_ov = time.time()
-    gt = None
+    # 🔴 29 AĞUSTOS 2026 — B2 ARTIK BİRLEŞİK GÖVDEDE KOŞUYOR. Emre'nin ①·②.
+    # kuralı: *"Koyu kırmızı ve açık kırmızı AYNI DEVLETİN bölgeleri olduğu
+    # için bunların birbirine birleşiyor olması bir bölgeyi enklav ilan
+    # etmekten KURTARIR. İki ayrı açık kırmızı bölge birbiriyle enklav
+    # SAYILMAZ eğer arada koyu kırmızı bölge varsa."*
+    #
+    # ESKİ HÂLİ: `gosterim_duzelt` iki katmana AYRI AYRI uygulanıyordu.
+    # Tâbi katmanı `unary_union([...tabi])` ile TEK gövde sayılıyor ve B2
+    # onun parçalarını — Eflak · Boğdan · Kırım · Dubrovnik · Erdel —
+    # "kopmuş parçalar" sanıp köprüyle bağlıyordu. Aralarındaki toprak
+    # OSMANLI olduğu için `_KARA_HAZIR.covers` testini de geçiyorlardı.
+    # Sonra o köprü aşağıdaki `difference` ile DOĞRUDAN gövdeden kesiliyordu.
+    # ⇒ Emre'nin gördüğü: *"uzaktaki pembe noktaları birleştirmek için
+    #   KIRMIZI BÖLGEYİ BİLE EZİYOR."* Altı ekran görüntüsü, altısı da bu.
+    #
+    # ⚠️ Kusur B2'nin kendisinde değil EVRENİNDEYDİ: alet doğru çalışıyor,
+    #   YANLIŞ EVRENDE çalışıyordu. Bu projede ölçülmüş bir sınıf.
+    _gt_ham = None
     if tabi:
-        gt = poligonal(delikleri_doldur(kapat(unary_union([_pe[j] for j in tabi])),
+        _gt_ham = poligonal(delikleri_doldur(kapat(unary_union([_pe[j] for j in tabi])),
+                                             sahip_ix=aktif).intersection(KARA))
+    _g_ham = poligonal(delikleri_doldur(kapat(unary_union([_pe[j] for j in dogrudan])),
                                         sahip_ix=aktif).intersection(KARA))
-        gt = poligonal(gosterim_duzelt(gt, aktif))
-    g = poligonal(delikleri_doldur(kapat(unary_union([_pe[j] for j in dogrudan])),
-                                   sahip_ix=aktif).intersection(KARA))
-    g = poligonal(gosterim_duzelt(g, aktif))
+
+    # Osmanlı dünyası TEK gövde olarak düzeltilir; Eflak artık "enklav" değil,
+    # çünkü doğrudan toprağa DEĞİYOR.
+    _birlesik = unary_union([x for x in (_g_ham, _gt_ham) if x is not None and not x.is_empty])
+    _duzelt = gosterim_duzelt(_birlesik, aktif) if not _birlesik.is_empty else _birlesik
+    # Eklenen köprüler DOĞRUDAN gövdeye yazılır: bir koridor Osmanlı'nın
+    # idare ettiği topraktır, bir vasalın değil. Böylece aşağıdaki
+    # `difference` hiçbir şeyi yanlış yiyemez (Emre'nin ⑤. kuralı:
+    # İKİ RENK ÜST ÜSTE BİNMEZ).
+    try:
+        _kopru = poligonal(_duzelt.difference(_birlesik))
+    except Exception:
+        _kopru = None
+    gt = _gt_ham
+    g = _g_ham
+    if _kopru is not None and not _kopru.is_empty:
+        g = poligonal(unary_union([g, _kopru]))
     # Tâbi bölge doğrudan gövdenin içinden çıkarılır; yoksa delik doldurma
     # Suriye'yi/Mısır'ı yutar ve iki katman üst üste biner.
     if gt is not None and not gt.is_empty:
