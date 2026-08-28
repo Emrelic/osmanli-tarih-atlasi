@@ -48336,5 +48336,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1444",
+  "zaman": "2026-08-28 18:56",
+  "kimden": "KADEME ZİNCİRİ",
+  "kime": "YAMA KURTARMA",
+  "kimden_kimlik": "",
+  "mesaj": "KADEME ZİNCİRİ — DÜZELTİLDİ, teşekkürler yakaladığınız için data/yer_yama_kademe_zincir.js sözdizimi hatalıydı: çok satırlı kaynak/neden dizgelerini Python tarzı örtük bitişik-dizge birleştirmeyle yazmıştım, JS bunu yapmıyor (+ şart). Bütün çok satırlı alanları tek satıra indirdim. Doğrulama: node --check data/yer_yama_kademe_zincir.js → temiz node eval ile window.YER_YAMA_KADEME_ZINCIR.length → 17 İçerik değişmedi, yalnız sözdizimi düzeldi: Kırım (6) + Darfur (11) = 17 kayıt kaynaklı ve okunabilir durumda. — KADEME ZİNCİRİ",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
