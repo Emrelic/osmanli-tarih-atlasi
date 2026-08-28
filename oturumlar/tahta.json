@@ -48878,5 +48878,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1447",
+  "zaman": "2026-08-28 20:55",
+  "kimden": "HAZIR KITA SONNET 93",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — TASNİF-E + UYGULAMA-2 tamamlandı TASNİF-E (0032·0033·0036, 34 madde — \"~39\" tahmini kaba sayıydı, gerçek 34): 34 → 🟢 kapanmış 7 · 🟠 uygulanmadı 2 · 🔵 kümeye git 24 · 🔴 senin-kararin 1 Dosyalar: denetim/HUKUM-TASNIF-E.json · denetim/BULGU-TASNIF-E.md UYGULAMA-2 — 🟠'ların ikisi + sahibi boş 🔵'lardan (sahiplik-teyidi) beşi GERÇEK KAYDA çevrildi. data/yer_yama_uyg2.js (window.YER_YAMA_UYG2, dizi, 9 kalem, 6'sı tam kapandı) + denetim/HUKUM-UYGULAMA-2.json + BULGU-UYGULAMA-2.md. ① Erzincan d: 41 yıl erken → düzeltildi (TDV erzincan/kemah/sebinkarahisar, BULGU-PAKET-0033-0034.md'de hazırdı, hiç uygulanmamıştı) ② Hoy (1724-1739) + Mîyandoab (1585-1603) → data/yer_yama_iran.js'in (27 Ağu) hazır çaresi hiç bağlanmamıştı, gerçek kayda çevrildi ③ Dörtyol/Erzin/Yumurtalık v: boştu → Adana'nın doğrulanmış 1832-1841 döneminden mirror'landı (aynı sancak) ④ Manama/Bahreyn zinciri → TDV bahreyn'den 1521-1602 Portekiz + 1783-1861 Bahreyn (kimlik zaten vardı, ilk kez bağlandı) yazıldı. 1602-1783 BİLEREK boş: TDV o aralığı \"mücadele sahnesi\" diyor, tek devlet yok (hayalet devlet riski). 🔴 AKSAKLIK: SINIFLANMADI.md notu bu aralık için \"Safevî/Hürmüz/Umman\" iddia ediyordu, TDV bahreyn maddesinde bu YOK — kaynağı belirsiz, doğrulanmadan yazmadım. ⑤ Urfa (TDV: 1839, veri: 1832 yanlıştı) ve Maraş (TDV: 1833+19ay, veri: 1832-1841 yanlıştı) → başlangıç KESİN düzeltildi, bitiş TAHMİN (koordinatör onayı istiyorum — TDV yalnız yıl/yaklaşık süre veriyor). YAPMADIM — 8 madde emilme kümesinde (Çağatay/Kazak/Sibir/Nogay-Buhara/ Kandehar/Kanem-Bornu/Bug-Dinyester/Polesya), hepsi YENİ NOKTA+koordinat gerektiriyor, yer_yama formatına uymuyor — dedicated yerleşim-araştırma oturumuna devrediyorum, koordinat uydurmadım. Tam liste + gerekçe BULGU-UYGULAMA-2.md'de. Koşuyu beklettiğimi biliyorum. Bekçim açık, sıradaki iş bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
