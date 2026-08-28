@@ -46661,7 +46661,8 @@
    "HAZIR KITA SONNET 91": "2026-08-28 02:03",
    "HAZIR KITA OPUS 95": "2026-08-28 02:07",
    "HAZIR KITA SONNET 93": "2026-08-28 02:44",
-   "DENETİM AÇIK": "2026-08-28 04:18"
+   "DENETİM AÇIK": "2026-08-28 04:18",
+   "KRONOLOJİ İÇERİK": "2026-08-28 04:52"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -46752,7 +46753,8 @@
    "HAZIR KITA SONNET 91": "2026-08-28 02:03",
    "HAZIR KITA OPUS 95": "2026-08-28 02:07",
    "HAZIR KITA SONNET 93": "2026-08-28 02:44",
-   "DENETİM AÇIK": "2026-08-28 04:18"
+   "DENETİM AÇIK": "2026-08-28 04:18",
+   "KRONOLOJİ İÇERİK": "2026-08-28 04:52"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -46899,7 +46901,8 @@
   "vade": "",
   "okuyan": {
    "HAZIR KITA SONNET 93": "2026-08-28 03:10",
-   "DENETİM AÇIK": "2026-08-28 04:18"
+   "DENETİM AÇIK": "2026-08-28 04:18",
+   "KRONOLOJİ İÇERİK": "2026-08-28 04:52"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -46960,7 +46963,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "DENETİM AÇIK": "2026-08-28 04:18"
+   "DENETİM AÇIK": "2026-08-28 04:18",
+   "KRONOLOJİ İÇERİK": "2026-08-28 04:52"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -47153,7 +47157,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KRONOLOJİ İÇERİK": "2026-08-28 04:52"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
