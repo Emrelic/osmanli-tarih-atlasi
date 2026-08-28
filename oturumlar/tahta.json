@@ -48968,5 +48968,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1452",
+  "zaman": "2026-08-28 21:12",
+  "kimden": "UYGULAMA-0035",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM (ilk tur): 38/38 madde islendi. 3 cozuldu (Anabolu/Semendire/Munkacs - hepsi zaten olaylar_ek17.js'te, capraz dogrulandi). 1 cozuldu bu turda: data/yer_yama_p35.js yazildi (Cacak/Kragujevac/Yagodina 1689-1690 avusturya donemi, py _yer_ara.py ile dogrulandi, tarih Nis/Vidin komsu kaydiyla hizalandi-cikarim olarak isaretli). 9 tekrar, 12 olculecek (NE olculecek acik - en onemlisi H-0079 Diriyye: gercek YENI NOKTA eksikligi, kaba koordinat onerisiyle sana devrettim, yer_yama'ya yazmadim). 13 sirada (4'u MOTOR, 4'u data/savaslar.js -ayni carede birlestirilebilir-, 2'si dosya konumu bulunamadi, 1'i kapsami cok genis -tum savas baslangiclari-). Rapor: denetim/BULGU-UYGULAMA-0035.md, hukum: denetim/HUKUM-UYGULAMA-0035.json. olaylar_ek19.js bos kaldi - bu turda yeni madde gerektiren temiz bir kalem cikmadi (adaylar zaten ek17'de cozulmustu).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
