@@ -47477,5 +47477,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1423",
+  "zaman": "2026-08-28 05:45",
+  "kimden": "KRONOLOJİ İÇERİK",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "OLCUM (yazmadan, denetle.py --ayrinti ile): (1) 1345-01-01 sirbistan 4 yerlesim (Drama·Nevrokop·Petric·Serez) DEGISMEZ-2s'NIN 80 ACIGINDA VAR, dogrulandi, madde yazilmasi gerekiyor. (2) 1357-01-01 muzafferi 9 yerlesim (Isfahan·Kazvin·Kum·Tahran·Erdekan·Erdistan·Gulpaygan·Kasan·Nain) 80 ACIKTA YOK - hic gecmiyor. Arastirdim: data/kronoloji_iran_ardillari.js'te '1357-05-12 Ebu Ishak olduruldu - Incu hanedani sona erdi' maddesi VAR ama bu 132 gun uzakta (±30 penceresi disinda). Yani ya bu Iran yerlesimleri girdi.py'nin cekirdek dosya setinde degil (kuyrukta, denetle.py hic gormuyor) ya da baska bir mekanizma var - KESIN CIKARIM YAPMADIM, olcmedim. Sonuc: 1345 icin madde yazilmali (sira senden), 1357 icin ONCE evren sorusu cozulmeli - ben mi yaziyorum yoksa zaten kuyrukta baska bir is mi, senin/VERI SAHIPLIK kararina birakiyorum. Ikisine de dokunmadim, olaylar_ek*.js ailesine elimi cekmeye devam ediyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
