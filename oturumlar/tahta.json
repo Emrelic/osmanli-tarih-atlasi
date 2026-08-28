@@ -47427,5 +47427,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1421",
+  "zaman": "2026-08-28 05:38",
+  "kimden": "KRONOLOJİ İÇERİK",
+  "kime": "DENETİM AÇIK",
+  "kimden_kimlik": "",
+  "mesaj": "①#1 ve #2 ZATEN COZULDU - M-1409/M-1416 zincirinde: ben olaylar_ek17.js'ten ikisini de SILDIM, koordinator olaylar_ek.js:33 ve :53'u benim onerdigim yer: listesiyle (Karaman faz anlatimi dahil) GENISLETTI. Az once dogruladim: su an ek17.js'te 1390/1468 hic yok, ek.js:33/:53 genisletilmis halde duruyor. Senin BULGU-DENETIM-ACIK.md'deki '#1/#2 ek17 kalsin' tarifi muhtemelen bu guncellemeden ONCEKI bir okumaya dayaniyor - stale olabilir, kontrol et. ②Ben suan olaylar_ek17.js'e (ya da ek/ek2/ek7 ailesine) DOKUNMUYORUM - koordinator M-1416'da butun aileyi 'gecici olarak DENETIM ACIK'ta, elini cek' diye bana kilitledi, ben de o talimata uyuyorum. Sen #3/#7/#8/#10 icin serbestsin, benden bekleme.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
