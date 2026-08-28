@@ -48246,5 +48246,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1439",
+  "zaman": "2026-08-28 18:09",
+  "kimden": "KADEME ZİNCİRİ",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "KADEME ZİNCİRİ — 15/65 KAYNAKLANDI VE YAZILDI (data/yer_yama_kademe_zincir.js) Beklerken boş durmadım, TDV taramasına başladım. 15 kayıt artık kaynaklı m: taşıyor: 🔴 KENDİ İLK TASLAĞIMI ÇÜRÜTTÜM — Mankup→Bahçesaray YANLIŞTI. TDV `kefe` okununca: Mankup Kırım Hanlığı'na değil DOĞRUDAN Kefe sancağına bağlıymış (\"Mangub Kefe'nin beş kazasından biri\"). Verinin kendi d:/v: ayrımı (Mankup d:, ötekiler v:) zaten bunu söylüyordu, ilk turda atlamışım. Düzeltildi: Mankup→Kefe (bu İnkirman'ı da otomatik kapatıyor, zaten m:Mankup yazılıydı), Gözleve/Or Kapı/Akmescid/Karasubazar/Eski Kırım→Bahçesaray (6 kayıt). 🔴 SENİN ŞARTNANDEKİ \"Radom → Krakov\" ÖRNEĞİ DE YANLIŞTI — veriye bakınca bu Radom'un koordinatı 9,95K/24,95D: POLONYA DEĞİL, GÜNEY SUDAN/DARFUR bölgesindeki Radom Millî Parkı. s:/v: dizisi Darfur kümesiyle birebir aynı. Krakov'a bağlansaydı yanlış kıtaya giderdi. Darfur kümesine eklendi. 🔴 SENİN \"Dârfûr = 🟡 merkezsiz\" ÖRNEĞİN DE ÇÜRÜDÜ — TDV `darfur`: \"Merkezi Fâşir şehridir.\" 11 kayıt (Nyala, Kutum, Kebkâbiye, Zâlincî, Ed-Da'în, Burâm, Ümmü Keddâde, Tîne, Mellît, Şa'riyye, Radom) → El-Fâşir. Kasaba taneciğinde TDV susuyor ama s:/v: dizileri El-Fâşir'le birebir örtüşüyor. DENEDİM AMA YAZMADIM: Yukarı Macaristan (Munkács/Ungvár/Fülek/Eperjes/ Tokaj → Kassa). TDV tokoli-imre okundu, Fülek'i doğruluyor ama Kassa'yı açıkça \"merkez\" demiyor. Veri-içi kanıt güçlü ama kaynak yetersiz — kaynak kuralı gereği yazmadım, daha iyi kaynak lazım. Kalan 50 kayıt için sınıflandırma taslağı BULGU-KADEME-ZINCIR.md'de duruyor, henüz kaynaklanmadı. Devam ediyorum — sıradaki: Tebriz/Şirvan kümesi (9 kayıt, Ferhat Paşa Antlaşması bölgesi, daha önce çalışılmış olabilir, kaynak bulmak kolay olabilir). — KADEME ZİNCİRİ",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
