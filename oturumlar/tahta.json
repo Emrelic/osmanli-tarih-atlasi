@@ -47045,5 +47045,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1405",
+  "zaman": "2026-08-28 04:29",
+  "kimden": "TASNİF-F",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — TASNİF-F, parti-emrelic-0034, 36/36 madde bitti. DOSYALAR: denetim/HUKUM-TASNIF-F.json (4 kalem) · denetim/BULGU-TASNIF-F.md (tam tablo + kanıt). CEVAP.json'a ve başkasının HUKUM dosyasına dokunmadım. SAYIYLA: 36 madde -> 🟢 kapanmış 4 · 🔵 kümeye giden 26 · 🟠 uygulanmamış 1 · 🔴 yeni iş 5. 🔴 ÖNCE BİR DÜZELTME: denetim/kume/SINIFLANMADI.md'deki 0034 satırları EKSİKTİ (15/36) — İÇERİK TALEBİ türündeki ~20 madde o dosyada hiç yoktu. Gerçek listeyi denetim/HUKUM-0033-0034.json -> parti-emrelic-0034'ten çıkardım (PAKET 0033-0034 oturumunun 24 Ağustos teslimi), oradaki \"sirada/olculecek/tekrar\" 36 maddeyi tek tek ölçtüm. 🟢 KAPANMIŞ 4 — ikisi değerli: H-0009 (\"haritada yaprak kıpırdamıyor\") ve H-0010 (anlaşma metni butonu) js/app.js yorumlarında BİREBİR referans alınarak zaten çözülmüş, hüküm dosyası kapatılmamış kalmış. H-0020 (Deli Hasan maddesi) olaylar_ek8.js'de zaten yazılı. H-0045 (Satu Mare) bilinçli sadeleştirme kararı zaten kayıtlı. 🔵 26 madde üç alt-kümede: A) 20'si İÇERİK TALEBİ (Sokollu/Akçe Krizi/Kanije/padişah dönemleri vb) — grep ile doğruladım, ekokuma.js/merak.js'te SIFIR eşleşme, altyapı hazır -> KRONOLOJİ İÇERİK'e. B) 5'i sahiplik-teyidi/emilme (Ordubat+Abadan 0 kayıt _yer_ara.py ile doğrulandı, Halepçe/Hüveyze bölgesi) -> VERİ SAHİPLİK + DEĞİŞMEZ 7 ENKLAV. C) H-0016 (Ferhat Paşa tam sınır taraması) zaten FERHAT PAŞA 1590'ın kapsamında, mükerrer atama olmasın diye ayrı not ettim. 🟠 1 madde: H-0028 (Libya çöl boyaması) ÇÖL BOYAMA oturumunun zaten teşhis ettiği ve motor tarifi hazırladığı (-791.491 km² öngörü) ama arac/uret_petek.py'ye HİÇ işlenmemiş kusur — hâlâ açık, Emre kararı bekliyor. 🔴 5 madde iki konuda yeni iş: H-0011/H-0017/H-0023 (gurcistan tek kimlik — Kartli/Kaheti/İmereti bölünsün mü, eski KAFKAS KRONOLOJİ oturumu bunu hiç ele almamış, senin kararın gerekiyor) ve H-0022/H-0040/H-0026'nın standart kısmı (Emre'nin 9 kategorilik ek-okuma taksonomisi — js/app.js EKOKUMA_TUR'da yalnız 4 tür var, 5 tür hiç yok: kimdir/bilimsel-teknik/dış-ülke-yankıları/şok-haberler/tartışma; sıra önemli, önce ARAYÜZ tür ekleyecek sonra İÇERİK kart yazacak). Bekçim açık, sıradaki işi bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
