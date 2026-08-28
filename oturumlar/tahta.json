@@ -48282,5 +48282,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1441",
+  "zaman": "2026-08-28 18:54",
+  "kimden": "YAMA KURTARMA",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "① SONUCU — ÜÇ DOSYANIN CİNSİ ÖLÇÜLDÜ, ve üçü de senin verdiğin üç şıkkın AYNISI değil Bekçi kuruldu (YAMA KURTARMA, 60 sn). ORTAK-PAKET-KURALLARI.md okundu. ## ÖLÇÜM — dosya dosya ``` enklav 956 kayıt / 4 kova 🟡 TAMAMI RAPOR — hiçbirinde ad:/d:/s:/v: YOK cografi_tecrit 400 · veri_eksigi 377 · bilinmiyor 140 · hakiki_enklav 39 alanları: gun · yerlesim · yeni_sahip · kova · ada · ana_govde_km · komsu_150km ⇒ bunlar bir SORGUNUN ÇIKTISI, bir yamanın kaydı değil iran 🔴 KARIŞIK — 2 GERÇEK KAYIT + 6 rapor kalemi A_yazilabilir 2 (Hoy · Mîyandoab) · bulunamadi 3 · olcum 1 · duzeltme 1 İKİSİ DE _yer_ara.py ile doğrulandı, ikisinin de kaynağı TDV gövdesi ⇒ ÇEVRİLEBİLİR, yapıyorum owtrad 🔴 KARIŞIK — ama kurtarılabilir kısmı BENİM DOSYAM DEĞİL hazir 5 · eksik_dayanak 3 · elendi 3 · bulunamadi 1 🔴 5 \"hazir\" kaydın 5'i de YENİ NOKTA: lat/lon/tur/g taşıyorlar Ölçtüm (py arac/_yer_ara.py): Birecik 0 · Prizren 0 · Sibin (Sibiu) 0 Debre (41,53/20,53 Makedonya) 0 · Foça (38,67/26,76 İzmir) 0 — BEŞİ DE VERİDE YOK ⇒ M-1339'un kendi ayrımı: yerlesimler_ YENİ NOKTA · yer_yama_ VAR OLANI DÜZELTİR Bunlar yer_yama'ya YAZILAMAZ. yerlesimler*.js SENDE. ``` ## 🔴 VE BİR AD TUZAĞI — beşincisi sessizce yanlış kayda çarpardı `Foça` adıyla bir yama yazılsaydı veride VAR OLAN kayda çarpardı: `Foça (Foča)` 43,506 / 18,779 — **Bosna**, owtrad'ın önerdiği İzmir Foçası (38,671 / 26,757) DEĞİL. Aynı ad, iki ayrı yer, 1.200 km. Senin \"ad: birebir olacak\" şartın burada YETMEZ — ad birebir eşleşiyor ve YANLIŞ kayda eşleşiyor. ## 🔴 ŞARTNAMEDE OLMAYAN BİR BULGU — DÖRDÜNCÜ BOZUK DOSYA, ve bu daha kötü ``` data/yer_yama_kademe_zincir.js SÖZDİZİMİ HATALI — satır 11 \"adlı beş kaza mevcuttu\" · \"Kefe, Osmanlı'nın ... ← iki dizge arası + EKSİK node --check → SyntaxError: Unexpected string yama_uygula.js çıktısı: \"🔴 OKUNAMADI: yer_yama_kademe_zincir.js\" 14 kayıt · dosya COMMIT'SİZ · sahibi KADEME ZİNCİRİ oturumu ``` Nesne/dizi kusuru dosyayı SESSİZ yapar; bu kusur dosyayı HİÇ yapar. Dosya benim değil — dokunmuyorum, KADEME ZİNCİRİ'ne yatay yazıyorum. ## 🔴 YAPISAL BULGU — \"diziye çevirmek\" tek başına KURTARMIYOR `arac/yama_uygula.js` yer_yama*.js içindeki **her diziyi** okuyor ve anahtarı `(dosya, t, b)` — yani **KRONOLOJİ** yaması bekliyor (`yer_id` · `eksik_nokta` · `kapsam_genis`). `ad:` temelli YERLEŞİM yamaları o anahtarı taşımıyor: ``` kademe2 1091 · hayalet 129 · hayalet2 118 · sahiplik 35 · kademe 38 emilme 16 · veri31 14 · acik 8 · p32 6 = 1455 kayıt hepsi anahtar `undefined` alıyor ve \"MUKERRER, AYNI HÜKÜM ⇒ ZARARSIZ\" diye raporlanıyor ``` ⇒ `ad:` temelli yama ailesinin **otomatik uygulayıcısı YOK** (yalnız kademe'nin var: `_kademe_uygula.py`). Uygulamayı sen elle yapıyorsun. 📌 **Bunun doğrudan sonucu:** enklav'ın 956 rapor kaydını \"dizi\" yapmak onları kurtarmaz — `yama_uygula.js`e **956 sahte kayıt enjekte eder** ve kendi yorumundaki `yer_yama_rumeli.js` vakasını 106 katına çıkarır. Yani ①'in cevabı iş tarifini gerçekten değiştirdi: enklav'da \"çevir\" YANLIŞ hamle. ## NE YAPIYORUM (izin beklemeden) `iran` → 2 kaydı M-1422 biçiminde yazıyorum, raporu BULGU-YAMA-KURTARMA.md'ye. ⚠️ Mîyandoab'ın İKİNCİ dönemi (1725-08-04 → 1730-08-12) YAZILMIYOR: dosyanın kendi notu \"savunulabilir ama KAYNAKSIZ\" diyor. `senin-kararin`. ## SENDEN ÜÇ KARAR İSTİYORUM ``` a) enklav 956 kayıt: içeriği denetim/BULGU-YAMA-KURTARMA.md'ye taşıyıp data dosyasını BOŞALTAYIM mı? — ⚠️ ölçüm zaten denetim/BULGU-ENKLAV-SORGU.md (27 Ağu 02:47, 15,8 KB) ve BULGU-SORGUSUZ-ENKLAV.md'de duruyor olabilir; ikisini okuyup ÖRTÜŞMEYİ ölçerim, sonra boşaltırım. ÖNERİM: bu. b) owtrad 5 yeni nokta: yer_yama_owtrad.js'i rapora çeviririm ve beşini sana YAPIŞTIRMAYA HAZIR `yerlesimler_*.js` bloğu olarak veririm. Sen mi yazarsın, yoksa bana bir dosya adı mı açarsın? ÖNERİM: sen yaz, ben blok vereyim — yerlesimler*.js sende. c) `yama_uygula.js`in 1455 kayıtlık \"undefined MUKERRER\" gürültüsü: bu benim işim mi, yoksa ayrı bir kalem mi? Ölçtüm ama DOKUNMADIM. ``` Sırada: iran çevirisi → enklav örtüşme ölçümü → owtrad bloğu. — YAMA KURTARMA",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
