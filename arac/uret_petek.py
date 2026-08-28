@@ -760,7 +760,28 @@ print(f"  {len(PETEK)} petek ({len(eksik)} yedek eşleşme)")
 # 📌 Ve tavanın bedava bir kazancı var: Sahra ve Rub'ul Hâlî'deki DOLGU
 # NOKTALARI sırf emilmeyi engellemek için konmuş bir HİLEYDİ; tavan o işi
 # yapısal olarak yapınca emekli edilebilirler.
-TAVAN_KM = {1: 700, 2: 420, 3: 280, 4: 140, 0: 280}   # ölçülmüş: TABAN × 2,0
+# 🔴 27 Ağustos 2026 — TAVANLAR DÜŞÜRÜLDÜ (MOTOR ÜÇ KALEM, Emre'nin kararı)
+# ESKİ: {1: 700, 2: 420, 3: 280, 4: 140, 0: 280}   ("ölçülmüş: TABAN × 2,0")
+# Emre: *"İstanbul Moskova Kahire Paris Budin Tebriz Cezayir gibi merkezlere
+#        700 km vermek çok değil mi… bu iki gruba da 400 km mi vermek lazım."*
+# Ve k1/k2 ayrımının pratik faydası yok: Cezayir · Budin · Kahire Osmanlı'da
+# EYALET MERKEZİ, öncesinde BAŞKENT — `k:` zamansız olduğu için ayrım zaten
+# temsil edilemiyor.
+#
+# 🟢 SARSINTI ÖLÇÜLDÜ — ~8 nokta / 1243 (koordinatörün ölçümü):
+#     k1 200 nokta · medyan komşu 98 km · 700→400 · tavana çarpan  3  (%1,5)
+#     k2 203 nokta · medyan komşu 68 km · 420→400 · tavana çarpan  1  (%0,5)
+#     k3 327 nokta · medyan komşu 42 km · 280→200 · tavana çarpan  4  (%1,2)
+#     k4 513 nokta · medyan komşu 37 km · 140→100 · tavana çarpan ~0
+#   Sebebi yapısal: komşular 40-100 km ötede ve Voronoi sınırı ZATEN ortadan
+#   geçiyor — tavan devreye girmeden iş bitiyor. Tavan yalnız KOMŞUSU UZAK
+#   yerde çalışır, yani tam Sahra/Arabistan/Sibirya'da.
+#
+# ⚠️ `k0` 280'DE KALIYOR — GEÇİCİ ve gerekçeli: k0'ın 1363 kaydı arasında
+#    Viyana · Venedik · Kiev var. Onlara 200 km vermek, İnegöl'e verdiğimizle
+#    aynı hakkı tanımak olurdu. `KADEME K0` oturumu k0'ları doldurunca bu
+#    istisna KENDİLİĞİNDEN gereksizleşir ve kaldırılır.
+TAVAN_KM = {1: 400, 2: 400, 3: 200, 4: 100, 0: 280}
 _TV_BAGLI = set()          # tavanın BAĞLADIĞI hücrelerin indisleri (§KIYI'de dolar)
 _tv_once = _tv_sonra = 0.0
 
@@ -1183,15 +1204,32 @@ _KB_AGAC = STRtree(_KB_NOKTA) if _KB_NOKTA else None
 _KB_MUAF = {}                       # ad → kaç halka; SESSİZ ATLAMA YOK
 print(f"     delik doldurma muafiyeti: {len(_KB_IX)} kasıtlı boşluk noktası nöbette")
 
+# 🔴 B1 ikinci yasağı için BÜTÜN yerleşimlerin ağacı (MOTOR ÜÇ KALEM).
+# Tek ağaç, bir kez kurulur; her gövde kendi `sahip_ix` kümesiyle sorar.
+# ⚠️ Her devlet için ayrı ağaç kurmak 320 devlet × ~500 dönem demekti;
+#    tek ağaç + küme sorgusu aynı işi görür ve kurulum maliyeti SIFIRA yakın.
+_TUM_AGAC = STRtree(noktalar) if noktalar else None
+_B1_SAYAC = {"dolduruldu": 0, "yabanci_yerlesim": 0, "yabanci_ad": set()}
 
-def delikleri_doldur(g, muaf=True):
+
+def delikleri_doldur(g, muaf=True, sahip_ix=None):
     """Kuşatılmış boşluk bırakmaz: çevresi ele geçmiş alan (dağ bloğu, ova) da
     hâkimiyet altındadır.
 
     muaf=True  (VARSAYILAN): içinde `kasitli_bosluk` noktası bulunan halka
                DOLDURULMAZ — kaynaklı araştırma hükmü, motorun varsayımını yener.
     muaf=False: 11 Ağustos 2026 ÖNCESİ davranış (her halka dolar). Yalnız
-               `C13` geçme-yolu sınavı için duruyor; üretimde çağrılmaz."""
+               `C13` geçme-yolu sınavı için duruyor; üretimde çağrılmaz.
+
+    sahip_ix   🔴 27 Ağustos 2026, MOTOR ÜÇ KALEM — `B1`in İKİNCİ YASAĞI.
+               Şartname: *"içinde BAŞKA DEVLETİN yerleşimi varsa KAPATMA."*
+               Verilirse, halkanın içinde bu kümeye AİT OLMAYAN bir yerleşim
+               varsa halka DOLDURULMAZ.
+               ⚠️ Ölçüt bilerek GENİŞ: nokta o gün sahipsiz olsa bile halka
+               korunur. Sebebi asimetri — yanlış doldurmak BAŞKA BİR DEVLETİN
+               toprağını yutar ve geri alınamaz; doldurmamak yalnız bugünkü
+               davranışı sürdürür. Şüphede DOLDURMA.
+               `None` ise bu yasak uygulanmaz (eski davranış aynen sürer)."""
     if g.is_empty: return g
     ps = g.geoms if isinstance(g, MultiPolygon) else [g]
     out = []
@@ -1212,8 +1250,215 @@ def delikleri_doldur(g, muaf=True):
                     for q in icerde:
                         _ad = YERLER[_KB_IX[q]]["ad"]
                         _KB_MUAF[_ad] = _KB_MUAF.get(_ad, 0) + 1
+        # ── B1 ikinci yasağı: BAŞKA DEVLETİN YERLEŞİMİ ────────────────────
+        if sahip_ix is not None and _TUM_AGAC is not None:
+            _tutulan = set(id(h) for h in tut)
+            for h in p.interiors:
+                if id(h) in _tutulan:
+                    continue                      # zaten kasıtlı boşlukla tutuldu
+                halka = Polygon(h)
+                try:
+                    icx = [int(q) for q in _TUM_AGAC.query(halka)
+                           if halka.contains(noktalar[int(q)])]
+                except Exception:
+                    halka = halka.buffer(0)
+                    icx = [int(q) for q in _TUM_AGAC.query(halka)
+                           if halka.contains(noktalar[int(q)])]
+                yabanci = [q for q in icx if q not in sahip_ix]
+                if yabanci:
+                    tut.append(h)
+                    _B1_SAYAC["yabanci_yerlesim"] += 1
+                    _B1_SAYAC["yabanci_ad"].add(YERLER[yabanci[0]]["ad"])
+                else:
+                    _B1_SAYAC["dolduruldu"] += 1
         out.append(Polygon(p.exterior, tut) if tut else Polygon(p.exterior))
     return unary_union(out).buffer(0)
+
+# ═══════════════════════════════════════════════════════════════════════════
+# 🔴 B2 · B3 — ENKLAV BİRLEŞTİRME ve KORİDOR KIRPMA  (MOTOR ÜÇ KALEM, 27 Ağu 2026)
+# ═══════════════════════════════════════════════════════════════════════════
+# Emre'nin cümlesi:
+#   *"Benekli görünmesin. Enklavların ana toprak kitlesi ile arasındaki koridor
+#    kapanacak şekilde. Ve derin koridorlar: sadece koridorun BAŞI girinti
+#    yapacak, koridorun DERİNLİĞİ GENİŞLİĞİNİ GEÇMEYECEK şekilde koridorların
+#    DİP bölümlerini AĞIZA DOĞRU kapatarak."*
+#
+# 🔴 KAPATMA ANAHTARI VAR VE BİLEREK: MOTOR_B23_KAPALI=1 ile devre dışı kalır.
+#    Sebebi risk asimetrisi — bu iki kural GEOMETRİ ÜRETİYOR (yeni toprak),
+#    ötekiler yalnız var olanı sınıflıyor. Bir koşu 4 saat; kötü giderse
+#    kod düzenlemeden kapatılabilmeli.
+B23_ACIK = os.environ.get("MOTOR_B23_KAPALI") != "1"
+_KARA_HAZIR = prep(KARA)     # bir kez hazırlanır; B2'nin deniz sınavı bunu sorar
+B2_ENKLAV_KM = 800.0        # Emre: "≤800 km ve KARASAL"
+B3_KAPAMA_DER = 0.45        # ≈50 km yarıçaplı kapama; koridor ölçeği
+B3_SADELIK = 0.02           # ≈2 km — YALNIZ koridor adayını bulmak için
+_B23_SAYAC = {
+    "b2_birlesti": 0, "b2_deniz": 0, "b2_uzak": 0, "b2_yerlesim": 0,
+    "b3_dolduruldu": 0, "b3_sig": 0, "b3_yerlesim": 0, "b3_kb": 0,
+    "b3_kapali": 0,
+}
+
+
+def _km_derece(lat):
+    """Bir boylam derecesinin o enlemdeki km karşılığı (ortalama için)."""
+    return 111.32 * max(0.15, math.cos(math.radians(lat)))
+
+
+def _yasakli_mi(alan, sahip_ix):
+    """B1/B2/B3'ün ORTAK ÜÇ YASAĞINDAN ikisi: başka devletin yerleşimi ·
+    `kasitli_bosluk` noktası. (Üçüncüsü — deniz aşırı — B2'ye özel.)
+
+    Döner: None (yasak yok) · "yerlesim" · "kb"
+    """
+    if _TUM_AGAC is None:
+        return None
+    try:
+        ic = [int(q) for q in _TUM_AGAC.query(alan) if alan.contains(noktalar[int(q)])]
+    except Exception:
+        alan = alan.buffer(0)
+        ic = [int(q) for q in _TUM_AGAC.query(alan) if alan.contains(noktalar[int(q)])]
+    for q in ic:
+        if YERLER[q].get("kasitli_bosluk") or YERLER[q].get("bos"):
+            return "kb"
+    if sahip_ix is not None:
+        for q in ic:
+            if q not in sahip_ix:
+                return "yerlesim"
+    return None
+
+
+def _b2_enklav_birlestir(g, sahip_ix):
+    """Ana kütleye ≤800 km, KARASAL, arası BOŞ olan enklavı köprüyle bağlar."""
+    ps = list(g.geoms) if g.geom_type == "MultiPolygon" else [g]
+    if len(ps) < 2:
+        return g
+    ps.sort(key=lambda p: p.area, reverse=True)
+    ana = ps[0]
+    kopru = []
+    for p in ps[1:]:
+        try:
+            n1, n2 = nearest_points(ana, p)
+        except Exception:
+            continue
+        lat = (n1.y + n2.y) / 2.0
+        dx = (n2.x - n1.x) * _km_derece(lat)
+        dy = (n2.y - n1.y) * 110.574
+        d_km = math.hypot(dx, dy)
+        if d_km > B2_ENKLAV_KM:
+            _B23_SAYAC["b2_uzak"] += 1
+            continue
+        hat = LineString([n1, n2])
+        # DENİZ AŞIRI YASAK — Emre açıkça "sadece karasal" dedi.
+        # 🔴 `KARA.buffer(...)` BURADA ÇAĞRILMAZ — ÖLÇÜLDÜ. KARA bütün
+        #    dünyanın kara maskesi; onu her enklav için yeniden tamponlamak
+        #    sınavı 10 dakikanın üstüne çıkardı. Alet doğruydu, YERİ yanlıştı.
+        #    Hazırlanmış geometri bir kez kurulur, sorgu ucuzdur.
+        # ⚠️ `_KARA_HAZIR` TAMPONSUZ: kıyı çizgisi üzerinden geçen hat
+        #    "kapsanmıyor" çıkabilir ⇒ enklav BİRLEŞMEZ. Yön BİLEREK
+        #    muhafazakâr: birleştirmemek bugünkü davranışı sürdürür,
+        #    yanlış birleştirmek denizi karaya çevirir.
+        if not _KARA_HAZIR.covers(hat):
+            _B23_SAYAC["b2_deniz"] += 1
+            continue
+        en = max(0.05, min(0.25, d_km / 111.32 / 8.0))
+        bant = hat.buffer(en, cap_style=2)
+        yasak = _yasakli_mi(bant.difference(g), sahip_ix)
+        if yasak:
+            _B23_SAYAC["b2_yerlesim"] += 1
+            continue
+        kopru.append(bant)
+        _B23_SAYAC["b2_birlesti"] += 1
+    if not kopru:
+        return g
+    return temiz(unary_union([g] + kopru).intersection(KARA))
+
+
+def _b3_koridor_kirp(g, sahip_ix):
+    """Derinliği genişliğini geçen koridorun DİBİNİ doldurur, AĞZINI bırakır."""
+    if g.is_empty:
+        return g
+    # 🔴 MALİYET: kapama, gövdenin BÜTÜN köşelerini gezer. Koridor ölçeği
+    #    ~50 km iken 1 km'lik köşe ayrıntısının kapamaya katkısı yok, ama
+    #    bedeli var. Sadeleştirilmiş kopya YALNIZ koridor ADAYINI bulmakta
+    #    kullanılır; doldurulacak alan yine GERÇEK gövdeden çıkarılır ve
+    #    KARA ile kesilir ⇒ kıyı hassasiyeti KAYBOLMAZ.
+    #    Ölçüldü: 14,0 sn → aşağıdaki sınavda; sadeleştirmesiz 65,8 sn'ydi.
+    gs = g.simplify(B3_SADELIK, preserve_topology=True)
+    k = kapat(gs, B3_KAPAMA_DER)
+    aday = temiz(k.difference(g))
+    if aday.is_empty:
+        return g
+    # DIŞARISI: gövdeyi çevreleyen kutunun gövdesiz kısmı — ağzı bulmak için.
+    x0, y0, x1, y1 = g.bounds
+    m = B3_KAPAMA_DER * 4
+    kutu = box(x0 - m, y0 - m, x1 + m, y1 + m)
+    disari = temiz(kutu.difference(k))
+    # 🔴 TAMPON DÖNGÜ DIŞINDA — aynı kusuru bir kez daha yaptım ve sınav
+    #    yine yakaladı: `disari.buffer(...)` her bileşende yeniden
+    #    hesaplanıyordu (1600'de 849 kez) ve süre 65,8 sn'ye çıkmıştı.
+    #    Ağız sınavının tamponu SABİT, bir kez kurulur.
+    disari_kenar = disari.buffer(0.01)
+    dolan = []
+    for c in (list(aday.geoms) if aday.geom_type == "MultiPolygon" else [aday]):
+        if c.is_empty or c.length <= 0:
+            continue
+        # ── DERİNLİK ÖLÇÜSÜ — ve ilk yazımım YANLIŞTI, sınav gösterdi ──────
+        # 🔴 İLK BİÇİM: `d = çevre/2 − w`. Sınavda `SIĞ` sayacı 1 ve 0 çıktı,
+        #    yani kural HİÇBİR ŞEYİ elemiyordu. Sebep: ince bir dilimde çevre
+        #    alana göre büyüktür ⇒ `çevre/2` her zaman `w`den büyük çıkar.
+        #    O formül DERİNLİĞİ değil İNCELİĞİ ölçüyordu ve her koridor
+        #    "derin" görünüyordu. Emre'nin istediği SIĞ GİRİNTİLER de
+        #    doluyordu — yani kural amacının TERSİNİ yapıyordu.
+        # 🟢 DOĞRU ÖLÇÜ: ağızdan en uzak noktaya olan mesafe. `agiz` = bileşenin
+        #    dışarıya değdiği yer; derinlik = Hausdorff(c, agiz).
+        agiz = temiz(c.intersection(disari_kenar))
+        if agiz.is_empty:
+            # Dışarıya hiç değmiyor ⇒ bu bir KORİDOR değil, KAPALI DELİK.
+            # B1'in işi; burada dokunulmaz.
+            _B23_SAYAC["b3_kapali"] += 1
+            continue
+        w_der = 2.0 * c.area / c.length         # ortalama genişlik
+        try:
+            d_der = c.hausdorff_distance(agiz)  # ağızdan en uzak nokta = DERİNLİK
+        except Exception:
+            _B23_SAYAC["b3_sig"] += 1
+            continue
+        if d_der <= w_der:                      # SIĞ girinti — Emre bunu İSTİYOR
+            _B23_SAYAC["b3_sig"] += 1
+            continue
+        yasak = _yasakli_mi(c, sahip_ix)
+        if yasak == "kb":
+            _B23_SAYAC["b3_kb"] += 1
+            continue
+        if yasak == "yerlesim":
+            _B23_SAYAC["b3_yerlesim"] += 1
+            continue
+        # AĞIZ BIRAKILIR: ağza w kadar yakın şerit doldurulmaz.
+        # ⚠️ Tampon `disari`ya DEĞİL `agiz`a uygulanır — `disari` koca bir
+        #    poligon, `agiz` küçük bir parça. Aynı işi görür, kat kat ucuz.
+        govde = temiz(c.difference(agiz.buffer(w_der)))
+        if govde.is_empty:
+            _B23_SAYAC["b3_sig"] += 1
+            continue
+        dolan.append(govde)
+        _B23_SAYAC["b3_dolduruldu"] += 1
+    if not dolan:
+        return g
+    return temiz(unary_union([g] + dolan).intersection(KARA))
+
+
+def gosterim_duzelt(g, sahip_ix=None):
+    """B2 + B3'ü sırayla uygular. B1 `delikleri_doldur` içinde zaten var."""
+    if not B23_ACIK or g.is_empty:
+        return g
+    try:
+        g = _b2_enklav_birlestir(g, sahip_ix)
+        g = _b3_koridor_kirp(g, sahip_ix)
+    except Exception as _e:
+        # 🔴 SESSİZ ÖLÜM YOK: gösterim düzeltmesi bir SÜS; patlarsa koşuyu
+        #    öldürmesin ama GÖRÜNÜR olsun.
+        print("  UYARI gosterim_duzelt atlandi:", _e)
+    return g
 
 # ---------------- Örtü boru hattı ----------------
 # Petekler tek bir ÖRTÜ (coverage) olarak işlenir:
@@ -3595,7 +3840,48 @@ DOLDURULABILIR_BOS = {"hata"}
 #   insansiz  → terra nullius                      → KATILMAZ (Novaya Zemlya'yı
 #               Rus boyamak olurdu; idare yokluğu sahiplik değildir)
 _DOLGU_ONBELLEK = {}
-_DOLGU_SAYAC = {"petek": 0, "gun": 0, "cekismeli": 0}
+_DOLGU_SAYAC = {"petek": 0, "gun": 0, "cekismeli": 0,
+                "col_dusen": 0, "col_gecen": 0}
+
+# ═══════════════════════════════════════════════════════════════════════════
+# 🔴 ÇÖLDE EŞİK 4 → 8   (MOTOR ÜÇ KALEM, 27 Ağustos 2026)
+# ═══════════════════════════════════════════════════════════════════════════
+# Emre (`0034/H-0028`): *"bu sahrada anlamsız gereksiz fazladan boyanan
+# yerlerin boyanmasını ENGELLEYECEK BİR YAPI kurmalıyız."*
+#
+# 🔴 VE O YAPININ ADI VARDI, İŞLEVİ YOKTU. `COL_TAVAN_KM = 300` iken
+#    k0=280 · k3=280 · k4=140 hepsi ALTINDA ⇒ çöl tavanı 2356 noktanın
+#    2283'ünde YAPISAL OLARAK hiçbir şey kesemiyordu (bu dosyanın kendi
+#    yorumu, TAVAN_KM başlığında). Sahra çemberlerini A1 çiziyordu.
+#    ⚠️ Ve bugün TAVAN_KM düşürülünce (k3→200, k4→100) 300'lük çöl tavanı
+#       BÜSBÜTÜN devre dışı kaldı.
+#
+# ⇒ ÇARE TAVANDA DEĞİL KAPIDA: çöl poligonunun İÇİNDEKİ boş peteğin
+#   doldurulması için 4 değil 8 puan aranır. SAHİPLİ çöl şehrinin (Gât ·
+#   Murzuk · Câlû) kendi peteğine DOKUNMAZ — bu kapı yalnız SAHİPSİZ
+#   peteği dağıtır.
+#
+# 🟢 ÖLÇÜLMÜŞ ÖNGÖRÜ (ÇÖL BOYAMA, 1821-08-19 · 15 dolgu noktası):
+#     DÜŞER (7): Serîr Kalanşû 6 · Vâv el-Kebîr 6 · Tâsîlî n'Accer 5 ·
+#                Serîr 5 · Lakiye Arbaîn 5 · Vâdî el-Milk 4 · Tâzirbû 1
+#     SÜRER (8): Bayûda 22 · Atbay 20 · Nûbe çölü 18 · İdehân Murzuk 14 ·
+#                Ramletü Zellâf 14 · Ramletü Murzuk 10 · İdehân Ubârî 9 ·
+#                Selîme 8
+#   📌 Düşenlerin hepsi LİBYA, sürenlerin çoğu SUDAN (Nil'e yakın, puanı
+#      yüksek) — yani eşik tam Emre'nin `H-0028`de saydığı yerlere vuruyor.
+COL_PUAN_ESIK = 8
+_COL_NOKTA_ONBELLEK = {}
+
+
+def _col_icinde(j):
+    """`j` numaralı yerleşim çöl poligonunun içinde mi? (bir kez ölçülür)"""
+    if COL is None:
+        return False
+    v = _COL_NOKTA_ONBELLEK.get(j)
+    if v is None:
+        v = bool(COL.contains(noktalar[j]))
+        _COL_NOKTA_ONBELLEK[j] = v
+    return v
 
 
 def _dolgu_kumesi(a):
@@ -3732,8 +4018,17 @@ def _dolgu_kumesi(a):
     out = {}
     en = puanlar.max(axis=1)
     for bi, j in enumerate(bos_ix):
-        if en[bi] < PUAN_ESIK:
+        # ÇÖLDE EŞİK 8, dışarıda 4 — gerekçe COL_PUAN_ESIK başlığında.
+        # 🔴 SAYAÇ ŞART: sessizce eleyen bir kural, çalıştığı bilinmeyen
+        #    kuraldır. Kaç petek çöl eşiğine takıldığı koşuda BASILIR.
+        _colde = _col_icinde(j)
+        _esik = COL_PUAN_ESIK if _colde else PUAN_ESIK
+        if en[bi] < _esik:
+            if _colde and en[bi] >= PUAN_ESIK:
+                _DOLGU_SAYAC["col_dusen"] += 1      # 4'ü geçerdi, 8'e takıldı
             continue
+        if _colde:
+            _DOLGU_SAYAC["col_gecen"] += 1
         kazananlar = [devletler[di] for di in range(len(devletler))
                       if puanlar[bi, di] == en[bi]]
         if len(kazananlar) != 1:            # çekişme → katılmaz
@@ -3843,7 +4138,9 @@ for _dv_i, (did, (dad, renk)) in enumerate(BOYALAR.items(), 1):
         if not aktif: continue
         _t_gv = time.time()
         g = unary_union([petek_epok(a)[j] for j in aktif])
-        g = delikleri_doldur(kapat(g))
+        # B1 ikinci yasagi: bu devletin OLMAYAN yerlesimini iceren halka DOLMAZ
+        g = delikleri_doldur(kapat(g), sahip_ix=aktif)
+        g = gosterim_duzelt(g, aktif)      # B2 enklav + B3 koridor
         # Sadeleştirme örtü üzerinde ÖNCEDEN yapıldı (coverage_simplify); gövde
         # başına simplify ve "tolerans/2 dışa taşırma" hilesi kaldırıldı — komşu
         # devletlerin paylaştığı kenar artık birebir aynı koordinatlardan geçer,
@@ -3998,8 +4295,12 @@ for i in range(len(tarihler) - 1):
     _t_ov = time.time()
     gt = None
     if tabi:
-        gt = poligonal(delikleri_doldur(kapat(unary_union([_pe[j] for j in tabi]))).intersection(KARA))
-    g = poligonal(delikleri_doldur(kapat(unary_union([_pe[j] for j in dogrudan]))).intersection(KARA))
+        gt = poligonal(delikleri_doldur(kapat(unary_union([_pe[j] for j in tabi])),
+                                        sahip_ix=aktif).intersection(KARA))
+        gt = poligonal(gosterim_duzelt(gt, aktif))
+    g = poligonal(delikleri_doldur(kapat(unary_union([_pe[j] for j in dogrudan])),
+                                   sahip_ix=aktif).intersection(KARA))
+    g = poligonal(gosterim_duzelt(g, aktif))
     # Tâbi bölge doğrudan gövdenin içinden çıkarılır; yoksa delik doldurma
     # Suriye'yi/Mısır'ı yutar ve iki katman üst üste biner.
     if gt is not None and not gt.is_empty:
@@ -4119,6 +4420,13 @@ else:
     print(f"  🚪 EKLEYİCİ KAPI: {_DOLGU_SAYAC['petek']} petek-gün katıldı · "
           f"{_DOLGU_SAYAC['cekismeli']} ÇEKİŞMELİ (boş bırakıldı) · "
           f"{_DOLGU_SAYAC['gun']} gün hesaplandı")
+    # 🔴 ÇÖL EŞİĞİ KARNESİ — "kapatılmayanı da say ve bas" (MOTOR ÜÇ KALEM).
+    # `col_dusen` = 4 puanı geçerdi ama çölde olduğu için 8'e takıldı.
+    # Bu sayı SIFIR çıkarsa kural HİÇ ATEŞLEMEMİŞ demektir; o da bir bulgudur.
+    print(f"  🏜  ÇÖL EŞİĞİ ({PUAN_ESIK} → {COL_PUAN_ESIK}): "
+          f"{_DOLGU_SAYAC['col_dusen']} petek-gün ÇÖLDE TAKILDI (boyanmadı) · "
+          f"{_DOLGU_SAYAC['col_gecen']} petek-gün çölde EŞİĞİ GEÇTİ · "
+          f"{len(_COL_NOKTA_ONBELLEK)} nokta çöl içi/dışı diye ölçüldü")
     print(f"     şart: bos ∈ {sorted(DOLDURULABILIR_BOS)} ya da "
           f"(tur=bolge ve bos ∈ [yok, devletsiz]) ya da DÖRDÜNCÜ SINIF "
           f"(kur:>g/bit:≤g VE sahipsiz — BULGULAR-DORDUNCU.md) · "
