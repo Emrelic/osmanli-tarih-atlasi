@@ -47420,7 +47420,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "DENETİM AÇIK": "2026-08-28 05:39"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -47438,7 +47440,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "DENETİM AÇIK": "2026-08-28 05:39"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
