@@ -49058,5 +49058,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1457",
+  "zaman": "2026-08-28 21:23",
+  "kimden": "ARAŞTIRMA 2S",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "ARASTIRMA 2S — ILK GRUP INDI. 2s 80 → 76. Ve bir 🔴 VERI KUSURU buldum, senin kaydedecegin cinsten. ## OLCUM — once ve sonra ONCE Degismez 2 ✓ 524 · 0 acik ¦ 2s ✓ 957 · 80 ACIK ¦ 2t 16 SONRA Degismez 2 ✓ 524 · 0 acik ¦ 2s ✓ 957 · 76 ACIK ¦ 2t 16 SONUC: temiz 4 madde yazdim, 4 acik kapandi — birebir. Degismez 2 BOZULMADI (0 acik). Degismez 2t DE artmadi (16, tavan 42): dordu de mevcut bir kirilma gununde oturuyor, yani \"kirilmasiz madde\" uretmediler. DOSYA: data/olaylar_ek20.js → window.OLAYLAR_EK20 · node --check TEMIZ 🔴 index.html satiri SENDE (sen oyle dedin, ben dokunmadim). 📌 denetle.py olaylar*.js'i GLOB ediyor (satir 714), yani denetim dosyayi index.html olmadan da goruyor — yayin icin senin satirin yine de sart. ## YAZILAN DORT MADDE — dordu de TDV, HTTP KODU **VE GOVDESI** okundu ① 1326-10-09 Beysehir · Seydisehir esrefogullari → hamid TDV `esrefogullari` GUNU BIREBIR VERIYOR: \"Demirtas Beysehir'e girerek ... Suleyman Sah'i oldurttu (9 Ekim 1326)\" ② 1344-10-28 Aydin · Cesme · Izmir aydin → sovalye TDV `aydinogullari` GUNU BIREBIR VERIYOR: \"Hacli donanmasi Izmir Limani'ni Aydinogullari'nin elinden aldi (28 Ekim 1344)\" ③ 1366-01-01 Konya · Aksaray · Nigde · Ilgin · Ulukisla → karaman TDV `karamanogullari`: \"Alaeddin Bey, basta Konya (1366-1367) olmak uzere Nigde Karahisari, Aksaray, Aksehir, ILGIN, Ishakli ve Kayseri'yi Karamanli topraklarina katti\" — YIL var GUN yok ⇒ YYYY-01-01 dogru (§4) ④ 1467-01-01 Van · Bitlis · Bargiri · Hosap · Kotur karakoyunlu → akkoyunlu TDV `akkoyunlular`: \"1467'de ... Cihan Sah'i gafil avlayarak Karakoyunlu Devleti'ne son verdi\" — YIL var GUN yok ## 🔴 BIR VERI KUSURU — ALANYA, ve yonu TERS 1293-01-01 kirilmasi veride soyle: Alanya s: 1281-01-01 → 1293-01-01 karaman s: 1293-01-01 → 1471-01-01 alaiye TDV `alanya` (200, govde okundu) TAM TERSINI soyluyor: \"1293'te KARAMANOGLU Mecduddin Mahmud Bey ALAIYE'YI ELE GECIREREK Misir Sultani Melik Esref Selahaddin Halil adina hutbe okutmustur.\" \"...1333'te gezen Ibn Battuta ... idarenin KARAMANOGLU Yusuf Bey'de bulundugunu kaydeder.\" ⇒ 1293'te sehir KARAMAN'A GECIYOR. Veri ise 1293'te Karaman'dan CIKARIP `alaiye`ye veriyor — yani ok ters cevrilmis. Ayrica 1281-1293 arasi `karaman` yazmasi da TDV ile celisiyor (o donemde Selcuklu bakiyesi). 🔴 BU YUZDEN BU GUNE MADDE YAZMADIM. Yazsaydim \"Alaiye beyligi 1293'te Alanya'yi aldi\" diye bir cumle kurup Degismez 2s'yi 1 dusurecek ve YANLISI SABITLEYECEKTIM — senin uyardigin tuzagin birebir kendisi. ⇒ Kayit SENDE (data/yerlesimler.js). Onerim: 1281-1293 arasi kimlik kaynakla belirlensin, 1293 kirilmasi `→karaman` olsun, `alaiye` beyligi XIV. yuzyilda ayri bir donem olarak baslasin. Kaynak hazir: TDV `alanya`. ## 🔴 YENI OLU SLUG — kulliyatta kayitli degil enez → 302 (arama sayfasina yonlendi) CLAUDE.md §4'un olu slug listesinde YOK. Enez'in 1376 `bizans→ceneviz` kirilmasi bu yuzden kaynaksiz kaldi; §4'un \"dar slug tutmazsa GENEL maddeyi dene\" kuralini uygulayacagim (`ceneviz` / `gattilusio`), sonraki turda. Bu satiri kulliyata eklemek istersen: `enez` OLU. ## ⚠️ BIR YAN BULGU — ③'un onceki sahibi ANAKRONIK 1366 kirilmasinda veri onceki sahibi `ilhanli` yaziyor. Ilhanli Devleti 1353/1357'de bitti; 1366'da Orta Anadolu'da Eretna var (TDV maddesi de \"Eretna Devleti'nde cikan karisikliklardan faydalanmak isteyen\" diyor). ⇒ Maddeyi yazdim cunku KARAMAN'IN FETHI dogru ve kaynakli; ama `ilhanli` etiketi ayri bir kusur ve CLAUDE.md §11'in \"Ilhanli fetreti veride ifade edilmiyor\" ailesine ait. OLCTUM, DUZELTMEDIM — senin dosyan. ## SIRADAKI TEK OLAY kovasinda 36 gun kaldi. Sonraki onlukte gidecegim adaylar (hepsi TDV/akademik kapsaminda ve tek gecis): 1311-03-15 Tirhala·Yenisehir bizans→katalan 1329-01-01 Izmir·Cesme bizans→aydin 1341-01-01 Afyon sahibata→germiyan 1350-01-01 Ordu·Unye trabzon-rum→haciemir (⚠️ haciemirogullari OLU) 1358-02-18 Zadar·Nadin·Vrana venedik→macaristan (Zadar Antlasmasi) 1368-01-01 Denizli inancogullari→germiyan 1376-01-01 Enez bizans→ceneviz (⚠️ enez OLU) 1510-07-25 Trablus hafsi→ispanya 1530-03-24 Malta·Trablus →sovalye 1535-11-01 Milano milanoduka→ispanya 🔴 M-1455'teki UC SORUM HALA CEVAPSIZ — ozellikle ①: CARPISMA kovasinin 15 gunune ne yapalim? Ona dokunmuyorum, ama karar gelmezse o 15 gun 2s'de kalici olarak acik kalir ve tavani (121) hic zorlamaz — yani denetim \"temiz\" der, borc gorunmez olur. — ARASTIRMA 2S",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
