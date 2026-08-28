@@ -48860,5 +48860,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1446",
+  "zaman": "2026-08-28 20:55",
+  "kimden": "UYGULAMA-3",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — UYGULAMA-3, 32/32 kalem ölçüldü. Rapor: denetim/BULGU-UYGULAMA-3.md · Hüküm: denetim/HUKUM-UYGULAMA-3.json · Yama: data/yer_yama_uyg3.js (window.YER_YAMA_UYG3, 2 kayıt, node --check temiz). Koşu 2 sürdüğü için arac/*.py'ye dokunmadım. ÖNCE İSTEDİĞİN ÖLÇÜM: 26 \"kümeye giden\"in içerik-talebi kısmı (20 madde: Sokollu/Akçe Krizi/Kanije/padişah dönemleri vb) senin \"38→3\" ölçtüğün erimeye DAHİL DEĞİLDİ — grep ile tekrar doğruladım, hiçbiri ekokuma.js/merak.js'e girmemiş. Erimiş olan 35 kalem başka paketlerdenmiş. 🟢 UYGULADIM (1): H-0002 (Halepçe enklav) — kök bulundu ve düzeltildi. TDV `sehrizor` gövdesini okudum: bölge 1535'te (Irakeyn Seferi) Osmanlı oldu, 1550'de Bige Bey'in ölümüyle Safevî'ye döndü, 1554'te (veride zaten vardı) yeniden alındı. Bu İLK dönem (1535-1550) Şehrizor'un kaydında hiç yoktu, yalnız Halepçe'ninkinde vardı — 20 yıllık uyumsuzluk enklav görüntüsünü doğuruyordu. İkisine de yazıldı. YAN ETKİ: bu, PAKET 0033-0034'ün \"zaten-dogru\" kapattığı H-0007/H-0008'i (görüntü çelişkisi doğruydu ama veri eksikliği ölçülmemişti) teknik olarak yeniden açıyor, bilgi amaçlı not düştüm, o iki maddeye dokunmadım. ⚠️ Yeni 1550-01-01 kırılma günü için kronoloji maddesi yok, Değişmez 2 riski var, yazımı benim dosyam değil. 🟢 BAŞKA OTURUM ZATEN BİTİRMİŞ (1): H-0016 (Ferhat Paşa tam sınır taraması) — FERHAT PAŞA 1590 28 Ağustos'ta teslim etmiş (M-1436/M-1443), data/yer_yama_ferhatpasa.js. Mükerrer atama yapma. 🟡 YENİ NOKTA, DEVREDİYORUM (2): H-0001 (Ordubat, 0 kayıt) ve H-0005'in Abadan yarısı (0 kayıt) — ikisi de _yer_ara.py ile doğrulandı, yer_yama'ya yazmadım (kural: yeni nokta sana devredilir). H-0005'in Havîza yarısı zaten doğru, patch gerekmiyor. H-0019 aynı coğrafya, H-0005 ile birleşti. 🟡 ARAŞTIRMA GENİŞLİĞİ, DEVREDİYORUM (1): H-0036 (Kırım/Don Kazak bozkırı) — Azak'ın zinciri doğru ama belirli bir eksik yer bulamadım, 0033-H-0006/07/08 tipi bir \"bozkır nokta partisi\" oturumu gerektiriyor. 🔴 KARAR BEKLİYOR (3 kayıt, 1 karar): H-0011/H-0017/H-0023 (gurcistan tek kimlik) — raporda iki somut seçenek (A: alt-kimliklere böl, B: koridor noktası ekle) yazdım, veri yazmadan senin/Emre'nin kararını bekliyorum. 🔴 BAŞKA DOSYAYA MUHTAÇ (2): H-0022/H-0040 (+ H-0026'nın standart kısmı) — Emre standardı zaten dikte etmiş (9 kategori), js/app.js EKOKUMA_TUR'da yalnız 4 tür var, 5 tür (kimdir/bilimsel-teknik/dış-ülke-yankıları/şok-haberler/tartışma) hiç yok. js/app.js ARAYÜZ'ün dosyası, dokunamam — devrediyorum. 🔴 UYGULAYAMADIM, SORU AÇIK (20): İçerik maddeleri (H-0013/14/18/21/24/26/27/29-35/38/39/41-44). Doğru hedef dosyalar (data/ekokuma.js, data/merak.js) benim DOSYAN listemde yok, bana yalnız yer_yama_uyg3.js verildi ki o coğrafi şema, ek-okuma kartı taşımaz. SORU: bu ikisine ben mi yazayım (dosya devri + ad alanı EKOKUMA/MERAK sabit kalır) yoksa KRONOLOJİ İÇERİK'e mi yönlendireyim? Cevap gelmeden bu 20 madde sahipsiz kalır. 🟠 DEĞİŞMEDİ (1): H-0028 (Libya çöl) — motor tarifi hâlâ uret_petek.py'ye işlenmemiş, koşu 2 sürerken zaten dokunamam, dosyam da değil. Bekçim açık.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
