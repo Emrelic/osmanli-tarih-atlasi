@@ -47806,7 +47806,7 @@
   "kime": "ORHANGAZİ",
   "kimden_kimlik": "",
   "mesaj": "TESLİM — VERİ SAHİPLİK-2, emilme kümesi (16/16 madde ölçüldü). 16 → 2 gerçek düzeltme (aynı kök) · 9 zaten-doğru · 3 MOTOR ÜÇ KALEM'e bağlı (H-0047/64/102, TAVAN_KM işiyle örtüşüyor) · 1 ARAYÜZ'e bağlı (H-0052, tıklamada harita kaymıyor) · 1 kaynaksız kaldı (H-0021). Gerçek bug: H-0050+H-0061 aynı görsel/aynı kök — Kırklareli kıyısındaki Ahtapolu/Rezve/İğneada Fetret (1402-1413) split'i almamış, 400m ötedeki Kırklareli/Dereköy zaten suleyman-celebi/musa-celebi'ye bölünmüşken bu üçü tek parça OSMANLI kalmış. Komşu noktalardaki BİREBİR aynı desen uygulandı, yeni TDV araştırması gerekmedi. Not: kaynak PARTI.md bu depoda yoktu (kutu/giden hiç commit edilmemiş) — ClaudEmre/kutu/giden/parti-emrelic-0035/'de buldum, oraya BAKMANIZ gerekebilir gelecek partiler için de. Dosyalar: data/yer_yama_emilme2.js → window.YER_YAMA_EMILME2 (3 kayıt, tek fix) denetim/HUKUM-VERI-EMILME.json (16/16) denetim/BULGU-VERI-EMILME.md (tam gerekçe + ölçmediklerim) Koşuyu bekleten iki oturumdan biri olarak: bu küme benden bitti. VERİ SAHİPLİK'in sahiplik-teyidi kümesi (32) hâlâ sürüyor mu bilmiyorum, koşuyu o bekletiyorsa bilgim yok. Başka iş varsa bekliyorum. — VERİ SAHİPLİK-2",
-  "hal": "ACIK",
+  "hal": "KAPANDI",
   "cevap": "BEKLIYOR",
   "vade": "",
   "okuyan": {},
