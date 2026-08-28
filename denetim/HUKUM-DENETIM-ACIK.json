@@ -1,0 +1,36 @@
+{
+  "_aciklama": "DENETİM AÇIK oturumu — denetle.py çıkış kodu 1'e sebep olan iki ihlal. Bu bir Emre paketi değil, denetim açığıdır; anahtarlar madde no yerine ihlal adıdır. Hüküm sözlüğü ORTAK-PAKET-KURALLARI §2 ile aynı.",
+  "_taban": "git 38b9b7f · py arac/denetle.py --ayrinti · 2026-08-28",
+  "_rapor": "denetim/BULGU-DENETIM-ACIK.md",
+
+  "denetim-acik": {
+    "D7-ENKLAV": {
+      "hukum": "cozuldu",
+      "not": "ÖLÇÜLDÜ ve SEBEBİ KESİN: 488-486=+2'nin tamamı `yerlesimler_ek_korfez.js` bağlanmasından. Küme karşılaştırması yapıldı (e53c86a worktree + bugünkü denetle.py): korfez çıkarılınca kayıt kümesi tabanla BİREBİR aynı (fark 0/0). Kademe yaması 892417b (1128 kayıt, 29 dosya) ve 4c877bd D7'ye SIFIR katkı yaptı — sayıda değil kümede. MEKANİZMA şartnamedeki hipotezi ÇÜRÜTTÜ: dolgu noktası kopuk gövde üretmedi, Doha'nın 3. komşusu olarak (59,8 km) `coğrafi tecrit` MUAFİYETİNİ düşürdü; iki kayıt zaten doğruydu, yalnız GÖRÜNÜR oldu. ÇARE tavan yükseltmek DEĞİL: dönemi hiç olmayan nokta (71 adet) komşu sayılmamalı — ölçüldü, 488 -> 485 ve hiçbir yeni ihlal doğmuyor; üstelik aynı kusurun eski bir vakasını da kapatıyor (Gode/Ogaden 1897). UYGULANDI (arac/denetle.py, dosya o sırada git'te temizdi — koordinatörün sahnelenmiş değişikliği 38b9b7f ile commit edilmişti). SONUÇ: 'Değişmez 7 ✓ 485 (beklenen 485)'. C13 sınavı üç yönde koşuldu: GEÇME 485 ✓ · ATEŞLEME F1 (süzgeç etkisiz) 488 ✓ · ATEŞLEME F2 (her nokta dolgu) 0 ✓ · F3 (flood fill değişmedi iddiası) 485 ortak kayıtta 0 fark ✓."
+    },
+    "MUKERRER-MADDE": {
+      "hukum": "cozuldu",
+      "not": "ÖLÇÜLDÜ: 11 çiftin 11'i de bu geceden — her çiftin bir tarafı data/olaylar_ek17.js'te (dosyanın tek commit'i 78e2a03). ESKİ çift: 0. Aynı başlık iki dosyada: 0, yani kopyala-yapıştır değil YENİDEN YAZIM; onda birinin kaynak slug'ı eski maddeyle aynı. TASNİF: 8 gerçek mükerrer + 1 Emre'nin kararı (#6 I. Mustafa portresi ↔ cülûs maddesi) + 2 yanlış pozitif (#9 Prut, #11 Semendire/Özi). BILINEN_AYRI yaması UYGULANDI: 11 -> 9 (ölçüldü). Kalan 9 için birleştirme tarifi çift çift yazıldı (BULGU §2.3), Değişmez 2'nin bozulmayacağı kod okumasıyla gösterildi (denetle.py `yer:` alanını hiç okumuyor). KOORDİNATÖR ÖNCE 'yedisi yanlış pozitif' hükmü verdi, İTİRAZ EDİLDİ ve hükmünü geri aldı (M-1414 -> M-1415): kendi ölçümü ZAYIF ölçüt listesini okumuş, gözlemi GÜÇLÜ listeye genellemişti. Dosyalar devredildi, ALTISI BİRLEŞTİRİLDİ (silme değil): #3 1513 · #4 1552 · #5 1557 · #7 1622 · #8 1644 · #10 1718. Her birinde silinen sürümün `d:` metnindeki ÖZGÜN ayrıntılar kalan kayda taşındı ve yerine dosyanın kendi geleneğine uyan SİLİNDİ yorumu bırakıldı. Paket taraması yapıldı: #8'in ek17 sürümü Emre'nin parti-emrelic-0034/H-0039 ('KEMANKEŞ MUSTAFA PAŞA EK OKUMALAR İLE SÜSLE') talebinin karşılığıydı — düz silinseydi talep geri alınmış olurdu; ayrıntılar taşındı. Beşi için paket 'bakıldı, bulunamadı' (ASCII kalıplı arama sınırı içinde). SONUÇ: mükerrer 11 -> 1, madde 1262 -> 1256, Değişmez 2 hâlâ 0 açık (522 kırılma), dört dosya node --check temiz. Kalan 1 = MUKERRER-06-MUSTAFA, koordinatörün kararına bağlı."
+    },
+    "MUKERRER-06-MUSTAFA": {
+      "hukum": "senin-kararin",
+      "not": "1617-11-22'de iki madde var: ek17'de I. Mustafa'nın PORTRESİ ('solgun çehreli, dalgın bakışlı kafes mahpusu'), ek5'te CÜLÛS OLAYI (vefat_id:'ahmed1' taşıyor). Aynı ânı anlatıyorlar ama farklı cinsten — biri anlatı rengi, öteki olay kaydı. Doğruluk meselesi değil zevk meselesi olduğu için hüküm vermiyorum. İkisi de kalırsa denetim ötmeye devam eder; o hâlde BILINEN_AYRI'ya yazılması gerekir."
+    },
+    "BAGLI-MI-NOBETCISI": {
+      "hukum": "cozuldu",
+      "not": "M-1410 ile istendi. `arac/_bagli_mi.py` yazıldı: girdi.GIRDI_DOSYALARI ile index.html'in <script src> listesini karşılaştırır, üç kusur sınıfı ölçer (① motor var/tarayıcı yok · ② tarayıcı var/motor yok · ③ yükleniyor ama `/^YERLESIMLER_/` desenini tutmadığı için window.YERLESIMLER'e HİÇ katılmıyor) ve ihlalde çıkış kodu 1 verir. Muafiyet betikte AÇIK bir sözlükte, gerekçe zorunlu — 'sessiz muafiyet' yok. C13 sınavı 5/5: GEÇME (iki liste eşit) ✓ · ATEŞLEME ① ✓ · ② ✓ · ③ ✓ · MUAF mekanizması gerçekten susturuyor ✓. Sınav index.html'e DOKUNMADAN, fonksiyonları sahte girdiyle değiştirerek koşuldu. Bugünkü ölçüm: 2 ihlal (yerlesimler_serhat.js · yerlesimler_kdmacar.js), tarayıcıda görünmeyen 3 nokta (Şehirköy/Pirot · Alacahisar/Kruševac · Debrecen) — motor 2607, tarayıcı 2604. denetle_yayin.py'ye BAĞLANMADI: yayın kapısı koordinatörün, izin istendi."
+    },
+    "YARIM-BAGLI-SERHAT-KDMACAR": {
+      "hukum": "cozuldu",
+      "not": "KUSUR, tasarım DEĞİL — üç ölçümle. ① index.html:878 birleştirmesi bir ÖNEK TARAMASIDIR (`/^YERLESIMLER_/`), yani dosyayı index.html'e eklemek GERÇEKTEN işe yarar; koordinatörün 'tarayıcı deseni taramıyorsa satır eklemek sahte düzeltme olur' endişesi ölçüldü ve çürüdü. ② git log: yerlesimler_serhat.js index.html'e HİÇ eklenmemiş; 169a136 commit'i 'yerlesimler_serhat.js -> girdi.py, olaylar_serhat.js -> index.html' diye bir TASARIM İDDİASI yazmış ve o iddia YANLIŞ. yerlesimler_kdmacar.js index.html'de hiç geçmemiş, hiçbir yerde gerekçesi yok. ③ Hemen üstündeki NOKTA EPİR yorumu TERS konvansiyonu yazıyor: 'girdi.py'ye de eklendi; ikisi AYRI kapıdır' — CLAUDE.md §5 ile uyumlu olan bu. ⇒ İkisi de index.html'e eklenmeli. UYGULAMA KOORDİNATÖRDE: index.html yasak listemde."
+    },
+    "MUKERRER-03-PIRI-REIS": {
+      "hukum": "cozuldu",
+      "not": "ÖLÇÜLDÜ (TDV `piri-reis`, HTTP 200, gövde okundu): harita 'Gelibolu'da çizdiği 919 (1513) tarihli dünya haritası' — TDV AY VERMİYOR, yalnız hicrî 919 yılı. Hicrî 919 = 8 Mart 1513 - 24 Şubat 1514. ⇒ ek2'nin `1513-03-01`i AY HASSASİYETİ İDDİA EDİYOR ama kaynakta karşılığı yok, üstelik 919'un başlangıcından bir hafta ÖNCE. CLAUDE.md §4 'gün bilinmiyorsa YYYY-01-01' kuralı gereği doğru biçim `1513-01-01`dir. TARİF: TEK madde kalsın, tarih `1513-01-01`; ek2'nin yapısal alanları (yer:'Gelibolu', k:'kesif', kisiler:'Pîrî Reis', duygu:'🧭') KORUNSUN, ek17'nin daha zengin başlığı ve UNESCO notu onun üstüne taşınsın. TDV ayrıca haritanın padişaha KAHİRE'de 923/1517'de takdim edildiğini söylüyor — çizim yeri Gelibolu, takdim yeri Kahire; `yer:'Gelibolu'` doğru."
+    },
+    "D7-DOHA-ENKLAV-BEYANI": {
+      "hukum": "olculecek",
+      "not": "Doha'nın iki dönemi (1871-09-20 OSMANLI vassal, 1916-11-03 ingiltere) GERÇEKTEN kopuk: en yakın öteki Osmanlı noktası Kuveyt, 574,5 km; aradaki kıyıda yerleşim yok. `enklav:true` beyanı tarihen savunulabilir görünüyor AMA TDV `katar`/`lahsa` maddeleri OKUNMADI, ve beyan motorun yetim-yüz emme mantığını durdurduğu için HARİTAYI DEĞİŞTİRİR. Dört saatlik koşunun hemen öncesinde ölçülmemiş geometri değişikliği yazmadım. Kayıt olarak duruyor."
+    }
+  }
+}

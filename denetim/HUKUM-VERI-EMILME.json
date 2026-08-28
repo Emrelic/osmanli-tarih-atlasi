@@ -1,0 +1,20 @@
+{
+  "parti-emrelic-0035": {
+    "H-0019": {"hukum": "zaten-dogru", "not": "Şirvan koridoru (37-42K/42-50D), 1590-03-21: 65 nokta, hepsi gerçek OSMANLI/safevi dönemleriyle dolu. Boş değil, ölçüldü."},
+    "H-0021": {"hukum": "olculecek", "not": "Nahçıvan 1725'te gerçek bir enklav (kıymık) şeklinde: Mâku/Şerur/Culfa/Hoy hâlâ 'safevi' — emilme değil KASITLI hüküm ama TDV `nahcivan` bu dört yerin 1724-1730 statüsünü açıkça doğrulamıyor. Kaynak bulunamadı, bir sonraki tur TDV `revan`/`tebriz` idari taksimatını denemeli."},
+    "H-0022": {"hukum": "zaten-dogru", "not": "Görsel (1725-09-12 Gence fethi): Tebriz-Azerbaycan arası koridor (Gürcistan/Şeki/Şamahı/Karabağ/Revan bölgeleri) dolu ve sınırlı. data/yer_yama_iran.js (27 Ağustos) bu bölgeyi zaten güçlendirmiş."},
+    "H-0026": {"hukum": "zaten-dogru", "not": "Özi-Çehrin arası bozkır (46-49.5K/29-35D), 1788-12-17: 9 nokta (Yedisan/Yedişkul bozkırı, Zaporojye Seçi, Or Kapı, Çehrin) hepsi gerçek dönemleriyle var."},
+    "H-0029": {"hukum": "zaten-dogru", "not": "Semendire (1738-08-01) çevre kazalardan (Kragujevac/Yagodina/Çaçak/Belgrad, 1739-09-18) 13 ay ÖNCE düşmüş — TDV `semendire` bunu doğruluyor ('Avusturyalılar bu bölgede Ağustos 1738'e kadar kaldılar'). Veri kaynakla uyumlu."},
+    "H-0031": {"hukum": "zaten-dogru", "not": "Hâil zaten data/bos_alanlar.js:98'de 'devletsiz-yerlesim' olarak kayıtlı, CLAUDE.md §3 gerekçeli. Görsel de (1744 Dirʻiye) doğru gösteriyor."},
+    "H-0036": {"hukum": "zaten-dogru", "not": "Aynı kutu, 1770-09-27 (ilk Bender düşüşü): Kırım bozkırı 'kirim' (tabi, doğru), Zaporojye Seçi kendi ayrı etiketiyle, Çehrin 'lehistan'. Tutarlı ve doğru."},
+    "H-0047": {"hukum": "sirada", "not": "Genel emilme sistemi şikayeti + öneri (200km tavan/yumuşatma) — bu tam olarak MOTOR ÜÇ KALEM'in şu an çalıştığı TAVAN_KM/B1-B2-B3/PUAN_ESIK işi. Ayrı çözüm önerilmedi, aynı işe bağlandı."},
+    "H-0049": {"hukum": "zaten-dogru", "not": "Görsel (1386, Niş fethi): çevresi BOŞ değil, 'SIRBİSTAN' diye kendi renginde etiketli. Emilme yok, gerçek komşu devlet gösterimi doğru."},
+    "H-0050": {"hukum": "cozuldu", "not": "GERÇEK BUG bulundu ve düzeltildi: Ahtapolu/Rezve/İğneada (Kırklareli kıyısı) Fetret (1402-1413) split'i almamış, komşuları (Kırklareli/Dereköy/vb, aynı görsel) suleyman-celebi/musa-celebi'ye bölünmüşken bu üçü tek parça 'OSMANLI' kalmış. data/yer_yama_emilme2.js'e yazıldı, komşu noktalardaki desenin birebir aynısı uygulandı."},
+    "H-0052": {"hukum": "baska-ise-bagli", "not": "Görsel yanlış bölgeyi gösteriyor (Kosova Ovası değil, Doğu Bulgaristan/Dobruca) — kronoloji maddesine tıklayınca haritanın o konuma KAYMAMASI bir ARAYÜZ (js/app.js) sorunu, veri/emilme sorunu değil."},
+    "H-0061": {"hukum": "cozuldu", "not": "H-0050 ile AYNI madde/aynı görsel/aynı fix — bkz. H-0050."},
+    "H-0064": {"hukum": "sirada", "not": "Irak-Arabistan çölü (29-33K/39-45D), 1554: 6 nokta, ~400 km boş — klasik §2 emilme, MOTOR ÜÇ KALEM'in TAVAN_KM işine bağlı."},
+    "H-0073": {"hukum": "zaten-dogru", "not": "Sayılan 8 yer (Ereş/Kabala/Şeki/Karabağ/Gence/Gümrü/Revan/Kaheti) hepsi veride var. Görsel (1723-08-01) seferin BAŞLANGICINI gösteriyor, TDV'ye göre bu yerler o tarihte henüz alınmamıştı (İstanbul Antlaşması Temmuz 1724) — zamanla tutarlı."},
+    "H-0075": {"hukum": "zaten-dogru", "not": "Tebriz/Nahçıvan/Revan/Şehrizor/Hemedan hepsi noktalı VE iki ayrı savaşın (1585-1603 Ferhad Paşa, 1724-1730 İstanbul) izini taşıyan d: kayıtlarına sahip."},
+    "H-0102": {"hukum": "sirada", "not": "H-0047 ile birebir aynı genel soru — MOTOR ÜÇ KALEM'in TAVAN_KM işine bağlı."}
+  }
+}

@@ -39,7 +39,15 @@ window.OLAYLAR_EK2 = [
 { t:"1864-11-08", k:"idari", etiket:["siyaset","islahat"], b:"Vilâyet Nizamnâmesi", gun:"8 Kasım 1864", yer:"İstanbul", yer_id:"İstanbul", kisiler:"Midhat Paşa, Fuad Paşa", d:"Eyalet düzeni yerine Fransız modelinde vilayet teşkilâtı kuruldu; Midhat Paşa'nın Tuna Vilayeti uygulaması örnek alınarak tüm ülkeye yayıldı.", kaynak:"tanzimat", duygu:["📋"] },
 // --- Bilim / âlimler ---
 { t:"1472-01-01", k:"bilim", etiket:["bilim"], b:"Ali Kuşçu İstanbul'da", gun:"1472", yer:"İstanbul", yer_id:"İstanbul", kisiler:"Ali Kuşçu, Fatih Sultan Mehmed", d:"Semerkand rasathanesinin son büyük temsilcisi Ali Kuşçu, Fatih'in davetiyle Ayasofya Medresesi'ne müderris oldu; İstanbul'da matematik-astronomi geleneğini kurdu.", kaynak:"ali-kuscu", duygu:["🔬"] },
-{ t:"1513-03-01", k:"kesif", etiket:["bilim"], b:"Pîrî Reis'in dünya haritası", gun:"1513", yer:"Gelibolu", yer_id:"Gelibolu", kisiler:"Pîrî Reis", d:"Kolomb'un kayıp haritasından da yararlanan dünya haritası, Amerika kıyılarını gösteren en eski haritalardandır; 1517'de Yavuz'a sunuldu.", kaynak:"piri-reis", duygu:["🧭"] },
+// DENETİM AÇIK (28 Ağu 2026, denetle.py mükerrer denetimi) — SİLİNDİ (1513-03-01):
+// mükerrer: olaylar_ek17.js'teki "Pîrî Reis, günümüze ulaşan en eski dünya
+// haritasını çizdi" kaydı aynı haritayı anlatıyor ve `d:` metni çok daha zengin.
+// 🔴 VE TARİH DE BU YÜZDEN ÖLÇÜLDÜ: TDV `piri-reis` (HTTP 200, gövde okundu)
+// "919 (1513) tarihli dünya haritası" diyor — AY VERMİYOR. Hicrî 919 =
+// 8 Mart 1513 – 24 Şubat 1514. Buradaki "1513-03-01" kaynakta karşılığı olmayan
+// bir AY HASSASİYETİ iddia ediyordu, üstelik 919'un başlangıcından bir hafta önce.
+// `CLAUDE.md §4`: gün bilinmiyorsa `YYYY-01-01`. ⇒ kalan kayıt 1513-01-01.
+// Bu kaydın taşıdığı yer/kisiler/duygu/k alanları ek17'deki kayda TAŞINDI.
 { t:"1554-01-01", k:"bilim", etiket:["bilim"], b:"Pîrî Reis'in idamı", gun:"1554", yer:"Kahire", yer_id:"Kahire", kisiler:"Pîrî Reis", d:"Hürmüz seferinden donanmayı Basra'da bırakıp dönen büyük denizci-haritacı, 84 yaşında idam edildi — bilim tarihimizin en tartışmalı kararlarından.", kaynak:"piri-reis", duygu:["🔬","😔"] },
 { t:"1577-01-01", k:"bilim", etiket:["bilim","imar"], b:"İstanbul Rasathanesi kuruldu", gun:"1577 (yıkılışı Ocak 1580)", yer:"İstanbul, Tophane sırtları", yer_id:"İstanbul", kisiler:"Takiyyüddin er-Râsıd, III. Murad", d:"Takiyyüddin'in dönemin en donanımlı gözlemevlerinden olan rasathanesi, 1577 kuyruklu yıldızı sonrası çıkan tartışmalarla 1580'de yıktırıldı; kurumsal astronomi üç asır gecikti.", kaynak:"takiyyuddin-er-rasid", duygu:["🔬"] },
 { t:"1632-06-01", k:"kesif", etiket:["bilim"], b:"Hezârfen'in uçuş denemesi (rivayet)", gun:"1632 dolayı", yer:"İstanbul", yer_id:"İstanbul", kisiler:"Hezârfen Ahmed Çelebi, IV. Murad", d:"Evliya Çelebi'nin aktardığı rivayete göre Hezârfen, Galata Kulesi'nden takma kanatlarla Üsküdar'a uçtu; tarihî kesinliği tartışmalı olsa da teknik hayal gücünün simgesi oldu.", kaynak:"hezarfen-ahmed-celebi", duygu:["🧭"] },

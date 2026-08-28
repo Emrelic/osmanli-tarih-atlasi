@@ -9,9 +9,13 @@
 window.OLAYLAR_EK17 = [
 
 // ---------- Piri Reis ----------
+// ⬇ 28 Ağu 2026, DENETİM AÇIK: `olaylar_ek2.js`teki mükerrer kayıt (1513-03-01)
+//   silindi, onun k:/yer:/kisiler:/duygu: alanları BURAYA taşındı. Tarih
+//   BURADAKİ doğru: TDV ay vermiyor (hicrî 919), `CLAUDE.md §4` ⇒ YYYY-01-01.
 { t:"1513-01-01", b:"Pîrî Reis, günümüze ulaşan en eski dünya haritasını çizdi", tur:"bilim",
-  onem:4, dunya:3, kapsam:"dis", etiket:["bilim","kesif"],
-  yer_id:"Gelibolu",
+  k:"kesif", onem:4, dunya:3, kapsam:"dis", etiket:["bilim","kesif"],
+  gun:"919 (1513) — TDV yıl verir, ay vermez",
+  yer:"Gelibolu", yer_id:"Gelibolu", kisiler:"Pîrî Reis", duygu:["🧭"],
   d:"Pîrî Reis, Gelibolu'da 919 (1513) tarihli dünya haritasını çizdi; TDV İslâm Ansiklopedisi'ne göre haritanın kaynakları arasında 'Doğu ve Batı dünyasından kendisine ulaşan eski haritalarla Kristof Kolomb'un haritası' da vardır — yani Kolomb'un o dönemde kaybolmuş kabul edilen orijinal seyir haritasının izlerini taşıdığı düşünülür. Haritayı 923'te (1517) Kahire'de Yavuz Sultan Selim'e takdim etti. Günümüze yalnız batı/Atlantik kıyılarını (İspanya, Portekiz, Batı Afrika, Güney Amerika'nın doğu kıyısı) gösteren bir PARÇASI ulaşmıştır; bu parça Topkapı Sarayı'nda 1929'da yeniden gün yüzüne çıkarıldı ve UNESCO Dünya Belleği listesindedir.",
   kaynak:"piri-reis + UNESCO Memory of the World (1929 keşif tarihi, TDV bu ayrıntıya değinmiyor)" },
 
@@ -28,11 +32,16 @@ window.OLAYLAR_EK17 = [
   d:"I. Ahmed'in ölümüyle tahta çıkan I. Mustafa, kardeşinin sağ bıraktığı ilk şehzade olarak yıllarca sıkı gözetim altında sarayda kapalı yaşamıştı; TDV İslâm Ansiklopedisi onu 'solgun çehreli, seyrek sakallı, iri siyah gözlü donuk bakışlı' diye tasvir eder ve bu uzun hapsin psikolojik durumunu ağırlaştırdığını kaydeder. Doksan altı gün süren bu ilk saltanatında devlet işlerini yürütemedi; buna karşılık sık sık ava çıktığı, tersaneyi gezdiği, hatta suya altın atıp balıkları seyrettiği rivayet edilir. Ocak-yeniçeri ve ulemâ, hükümdarlığa elverişsiz görülmesi üzerine onu 26 Şubat 1618'de tahttan indirip yerine on dört yaşındaki yeğeni II. Osman'ı geçirdi.",
   kaynak:"mustafa-i" },
 
-{ t:"1622-05-20", b:"Genç Osman'ın son saatleri — beygire bindirilip Yedikule'ye sürüklenmesi", tur:"magazin",
-  onem:4, dunya:2, kapsam:"ic", etiket:["isyan","magazin","saray"],
-  yer_id:"İstanbul",
-  d:"Yeniçeri ağası Ali Ağa'nın konağına sığınmaya çalışan II. Osman'ın bu girişimi sonuç vermedi; TDV İslâm Ansiklopedisi'ne göre padişah 'feci bir şekilde, başı açık, üstü perişan bir halde' bir beygire bindirilip ağır hakaretler altında önce I. Mustafa'nın bulunduğu Orta Cami'ye, aynı günün öğleden sonrasında da Yedikule'ye götürüldü. Burada boğdurularak öldürülen genç padişahın ölümünü ispatlamak için bazı tarihçilere göre kulağı ve burnu kesilip I. Mustafa'nın annesine gösterildi. Bir Osmanlı padişahının askerî bir isyanla alenen katledildiği bu ilk vaka, hânedan ile asker arasındaki güven bağını bir daha onarılamayacak şekilde kırdı.",
-  kaynak:"osman-ii" },
+// DENETİM AÇIK (28 Ağu 2026) — SİLİNDİ (1622-05-20): mükerrer:
+// olaylar_ek7.js'teki "Genç Osman'ın yeniçeriler tarafından katledilmesi"
+// kaydı AYNI ölümü anlatıyor (aynı gün · aynı kişi · aynı `kaynak:"osman-ii"`).
+// 🔴 YÖN TERSİNE ÇEVRİLDİ: burada ek17 sürümü DEĞİL eski sürüm kaldı, çünkü
+// eski kayıt `vefat_id:"osman2"` ve `kisiler:` taşıyor — bunlar ek17'de YOK ve
+// silinmeleri vefat/kişi dizini bağını KOPARIRDI. ("Yeni olan daha iyidir"
+// varsayımı bu iki kayıtta yanlış çıktı.)
+// ⚠️ Buradaki `d:` metninin ek7'de OLMAYAN bütün ayrıntıları (Ali Ağa'nın
+// konağı · TDV'nin 'başı açık, üstü perişan' tasviri · Orta Cami · kulak-burun)
+// kalan kaydın `d:` metnine TAŞINDI. Silinen tek şey mükerrer başlıktır.
 
 { t:"1639-01-20", b:"I. Mustafa on beş yıllık unutuluşun ardından öldü — kızlarağası rivayeti doğrulanamadı", tur:"kisi",
   onem:2, dunya:1, kapsam:"ic", etiket:["saray","kisi"],
@@ -85,11 +94,15 @@ window.OLAYLAR_EK17 = [
   d:"Bağdat Seferi'nde Tayyar Mehmed Paşa'nın şehid düşmesinin ardından 17 Şâban 1048'de (24 Aralık 1638) vezîriâzam olan Kemankeş Kara Mustafa Paşa, Sultan İbrahim döneminde sert bir mali disiplin uyguladı: yeniçeri ve sipahi mevcudunu üçte bire indirdi, para ayarını düzeltti, narh sistemini sıkılaştırdı. TDV'nin verdiği rakamla bu tasarruf yılda 6000 keseye ulaştı — ama bu sıkı denetim onu saray çevresinde düşman kazandırdı.",
   kaynak:"kemankes-mustafa-pasa" },
 
-{ t:"1644-01-31", b:"Kemankeş Kara Mustafa Paşa'nın idamı", tur:"darbe",
-  onem:3, dunya:1, kapsam:"ic", etiket:["siyaset","suikast"],
-  yer_id:"İstanbul",
-  d:"Uyguladığı mali disiplinden hoşnutsuz padişah ve rakiplerinin baskısıyla 21 Zilkade 1053'te (31 Ocak 1644) Hocapaşa Çarşısı'nda cellât Kara Ali tarafından boğduruldu. Kısa süren sıkı ıslahat dönemi böylece sona erdi; Çarşıkapı'daki kendi türbesine gömüldü.",
-  kaynak:"kemankes-mustafa-pasa" },
+// DENETİM AÇIK (28 Ağu 2026) — SİLİNDİ (1644-01-31): mükerrer:
+// olaylar_ek7.js'teki "Kemankeş Mustafa Paşa'nın idamı" kaydı AYNI idamı
+// anlatıyor (J=0,800 — başlıkların tek farkı "Kara" kelimesi).
+// 🔴 YÖN: eski sürüm kaldı, çünkü `kisiler:` · `yer:` · `duygu:` taşıyor.
+// ⚠️ Buradaki ayrıntılar (Hocapaşa Çarşısı · cellât Kara Ali · Çarşıkapı
+// türbesi · "Kara" lakabı · ıslahat döneminin sona ermesi) kalan kaydın `d:`
+// metnine TAŞINDI — bu ÖNEMLİ, çünkü ek17'nin bu kaydı Emre'nin
+// `parti-emrelic-0034 / H-0039` talebinin ("KEMANKEŞ MUSTAFA PAŞA EK OKUMALAR
+// İLE SÜSLE") karşılığıydı. Talep karşılıksız kalmadı, tek maddede toplandı.
 
 // ---------- IV. Mehmed'in azli ----------
 { t:"1687-08-01", b:"IV. Mehmed avdan vazgeçti — hal'inin arifesindeki son çırpınış", tur:"siyaset",
@@ -112,11 +125,13 @@ window.OLAYLAR_EK17 = [
   kaynak:"prut-antlasmasi" },
 
 // ---------- Lâle Devri ----------
-{ t:"1718-05-09", b:"Nevşehirli Damad İbrahim Paşa sadrazam oldu — Lâle Devri'nin barış politikası başladı", tur:"sadrazam",
-  onem:3, dunya:2, kapsam:"ic", etiket:["siyaset","diplomasi","kultur"],
-  yer_id:"İstanbul",
-  d:"8 Cemâziyelâhir 1130'da (9 Mayıs 1718) sadrazam olan Damad İbrahim Paşa, atanır atanmaz Avusturya ile savaşı bitirecek barış görüşmelerine yöneldi ve iki ay sonra Pasarofça Antlaşması imzalandı (21 Temmuz 1718). TDV'nin ifadesiyle 'içtimaî ve mali meselelerle uğraşmak istiyor, uzun yıllardır yenilgiyle biten savaşları unutturacak bir barış dönemini özlüyordu' — bu arayış on iki yıl sürecek Lâle Devri'nin siyasi temelini attı.",
-  kaynak:"damad-ibrahim-pasa-nevsehirli" },
+// DENETİM AÇIK (28 Ağu 2026) — SİLİNDİ (1718-05-09): mükerrer:
+// olaylar_ek7.js'teki "Nevşehirli Damad İbrahim Paşa'nın sadrazamlığı" kaydı
+// AYNI atamayı anlatıyor (aynı gün · aynı kişiler · aynı kaynak slug'ı).
+// 🔴 YÖN: eski sürüm kaldı (`kisiler:` · `yer:` · `duygu:` taşıyor).
+// ⚠️ Buradaki ayrıntılar (8 Cemâziyelâhir 1130 hicrî karşılığı · iki ay sonraki
+// Pasarofça bağlantısı · TDV'nin doğrudan alıntısı) kalan kaydın `d:` metnine
+// TAŞINDI.
 
 { t:"1725-01-01", b:"Otuz iki kişilik ilim/tercüme heyeti kuruldu", tur:"kultur",
   onem:2, dunya:1, kapsam:"ic", etiket:["kultur","bilim"],
@@ -155,14 +170,6 @@ window.OLAYLAR_EK17 = [
 // aitmiş gibi görünüyor — bu şüpheler madde METNİNDE açıkça işaretlendi,
 // veri (t:) DEĞİŞTİRİLMEDİ (§7, yerlesimler*.js benim dosyam değil).
 
-{ t:"1390-01-01", k:"fetih", etiket:["toprak-kazanc"],
-  b:"I. Bayezid'in Batı Anadolu beyliklerini ilhakı — Aydın, Saruhan, Germiyan, Menteşe",
-  gun:"791-792 (1389-90) — TDV yıl verir, gün vermez",
-  yer:"Datça, Marmaris, Fethiye (Makri), Söke, Manisa, Aydın, Denizli, Muğla, Yenişehir (Larissa), Tırhala, Karahisâr-ı Sâhib (Afyon), Birgi, Tire, Ayasuluk (Selçuk), Milas, Balat (Palatia), Uşak, Alaşehir",
-  yer_id:"Alaşehir", kisiler:"I. Bayezid, Hızır Şah (Hızır Paşa), II. Yâkub Bey, Ahmed Gazi, İsâ Bey",
-  d:"TDV'nin I. Bayezid maddesine göre 791-792 (1389-90) kışında Anadolu'ya geçen Yıldırım Bayezid önce Aydınoğulları'nın himayesindeki Alaşehir'i zaptetti, ardından beylik beylik Batı Anadolu'yu ilhak etti. Saruhanoğulları maddesine göre Manisa'ya geldiğinde vali Hızır Şah şehri savaşsız teslim etti; Germiyanoğulları maddesine göre '1390 yılında bütün Germiyan toprakları' (Kütahya, Uşak, Karahisâr-ı Sâhib, Denizli) Osmanlı idaresine geçti. Menteşeoğulları maddesine göre aynı seferde Balat ve Muğla ele geçirildi, son direniş Ahmed Gazi'nin Temmuz 1391'deki ölümüyle sona erdi. Aydınoğulları'nda İsâ Bey sultana bağlanıp Tire'de bırakıldı — İzmir'in müslüman kesimi, Ayasuluk, Birgi, Tire ve Söke bu 1390 ilhakıyla fiilen Osmanlı denetimine girdi. ⚠️ Yenişehir (Larissa) ve Tırhala BU SÜRECİN DIŞINDA OLABİLİR: TDV `tirhala` maddesi Teselya'nın 795-796'da (1393-94) alındığını, `yenisehir` maddesi Evrenos Bey'in bölgeyi 788'de (1386-87) kışında fethettiğini yazar (kaynaklar arası 1389/1423/1430/1444 farkları da var) — ikisi de ayrı bir Rumeli-Teselya cephesi olabilir, veri katmanındaki 1390 tarihleri ayrıca incelenmeli.",
-  kaynak:"bayezid-i", duygu:["👑","⚔️"] },
-
 { t:"1552-01-01", k:"vassal", etiket:["toprak-kazanc","diplomasi"],
   b:"Cezayir Ocaklığı'nın Sahra'ya doğru genişlemesi — Tuggurt-Ouargla'nın haraca bağlanması, Tilimsan'ın kesin fethi",
   gun:"1552-53 — TDV ve akademik kaynak yıl verir, gün vermez",
@@ -176,7 +183,7 @@ window.OLAYLAR_EK17 = [
   gun:"15 Şâban 962 (5 Temmuz 1555) kuruluş, 2 Nisan 1557 Masavva'nın alınışı",
   yer:"Sevâkin, Masavva, Dahlak, Ebû Ramâd (Şalâtîn), Arkîko, Halâib, Akīk, Tokar, Sinkat, Hayyâ, Trinkitât, Muhammed Kol, Derûdeb",
   yer_id:"Masavva", kisiler:"Özdemir Paşa",
-  d:"TDV'nin Habeş Eyaleti maddesine göre eyalet 15 Şâban 962'de (5 Temmuz 1555) resmen kuruldu, sancak merkezi Sevâkin oldu. Özdemir Paşa 1555 sonbaharında harekâta başladı; Masavva' Limanı'nı kontrol eden Dehlek adalarını ele geçirdi ve 2 Nisan 1557'de Masavva' şehrini, ardından Arkîko'yu aldı. Fethin devamı Tigre eyaletinin 1558'de, Debârvâ'nın 1559'da Osmanlı hâkimiyetine girmesiyle sürdü. ⚠️ TDV Ebû Ramâd, Halâib, Akīk, Tokar, Sinkat, Hayyâ, Trinkitât ve Muhammed Kol'u AYRICA ADLANDIRMAZ — bunlar Sevâkin sancağına bağlı Kızıldeniz/Sudan kıyısı karakolları olarak coğrafî bütünlüğün parçasıdır; münferit fetih tarihleri bulunamadı, Sevâkin'in idarî şemsiyesi altında aynı dönemde konsolide edildikleri kabul edildi.",
+  d:"Portekiz'in Habeşistan üzerinden Kızıldeniz'e sızmasını önlemek üzere kurulan eyalet, TDV'nin Habeş Eyaleti maddesine göre 15 Şâban 962'de (5 Temmuz 1555) resmen kuruldu, sancak merkezi Sevâkin oldu. Özdemir Paşa 1555 sonbaharında harekâta başladı; Masavva' Limanı'nı kontrol eden Dehlek adalarını ele geçirdi ve 2 Nisan 1557'de Masavva' şehrini, ardından Arkîko'yu aldı. Fethin devamı Tigre eyaletinin 1558'de, Debârvâ'nın 1559'da Osmanlı hâkimiyetine girmesiyle sürdü. ⚠️ TDV Ebû Ramâd, Halâib, Akīk, Tokar, Sinkat, Hayyâ, Trinkitât ve Muhammed Kol'u AYRICA ADLANDIRMAZ — bunlar Sevâkin sancağına bağlı Kızıldeniz/Sudan kıyısı karakolları olarak coğrafî bütünlüğün parçasıdır; münferit fetih tarihleri bulunamadı, Sevâkin'in idarî şemsiyesi altında aynı dönemde konsolide edildikleri kabul edildi.",
   kaynak:"habes-eyaleti", duygu:["🎌","⛵"] },
 
 { t:"1361-01-01", k:"fetih", etiket:["toprak-kazanc"],
@@ -226,13 +233,5 @@ window.OLAYLAR_EK17 = [
   kisiler:"İlona Zrínyi, General Antonio Caraffa",
   d:"İmparatorluk kuvvetlerince 1685 sonunda kuşatılan Munkács kalesi, Thököly İmre'nin eşi İlona Zrínyi idaresinde üç yıl boyunca direndi; çok sayıda yayımlanmış başvuru eserine göre kale 17 Ocak 1688'de General Antonio Caraffa'ya teslim edildi. Bu, Osmanlı-Habsburg cephesinde Macaristan'daki Osmanlı yanlısı direnişin son büyük kalelerinden birinin düşüşüydü. ⚠️ VERİ DÜZELTMESİ: `data/yerlesimler_ek_macaristan.js`'i yazan oturum, Değişmez 2'yi açmamak için BİLEREK bu tarihi Eğri'nin (Eger, ~250 km uzak, ayrı bir kuşatma) düşüş gününe (1687-12-17) eşitlemiş ve bunu kendi yorumunda açıkça 'sadeleştirme, ölçüm değil' diye işaretlemişti — çare olarak da tam bu maddenin yazılmasını önermişti. Bu madde inince koordinatör tarihi 1687-12-17 → 1688-01-17 olarak GERÇEĞİNE çekti (§7, VERİ SAHİPLİK/koordinatör yetkisi); ikisi AYNI turda inmezse Değişmez 2 açılırdı.",
   kaynak:"bulunamadı — TDV'de Munkács'ın müstakil maddesi yok, 17 Ocak 1688 tarihi çok sayıda yayımlanmış başvuru eserinde (hungarianottomanwars.com, Encyclopedia.com, Wikipedia) tekrarlanıyor ama hakemli akademik kaynakta doğrulanamadı — CLAUDE.md §4 kırmızı çizgisi gereği bu popüler/derleme kaynaklar tek dayanak sayılmadı, eksiklik açıkça yazıldı" },
-
-{ t:"1468-01-01", k:"fetih", etiket:["toprak-kazanc"],
-  b:"Karamanoğulları Beyliği'nin ilhakı — Konya'dan İç İl'e fazlı süreç",
-  gun:"872 (1468) Nisan — Konya; sonrası TDV yıl vermeden 'Akkoyunlu tehdidi kalktıktan sonra' diyor",
-  yer:"Konya, Karaman, Niğde, Ermenek, Aksaray, Ilgın, Karapınar, Ulukışla",
-  yer_id:"Konya", kisiler:"Fâtih Sultan Mehmed, Pîr Ahmed Bey",
-  d:"TDV'nin Karamanoğulları maddesine göre Osmanlı kuvvetleri 872 (1468) Nisan'ında önce Gevele'yi, ardından Konya'yı aldı; buraya Şehzade Mustafa idareci tayin edildi. Pîr Ahmed Bey mücadeleye devam edip Toroslar bölgesini elinde tuttu ve karşı saldırılarla bazı yerleri geri aldı. Akkoyunlu tehdidinin ortadan kaldırılmasından sonra Karamanoğulları'nın elinde kalan dağlık bölgeler, Niğde ve Develi yöresiyle İç İl sahillerine yönelik Osmanlı seferi 1474'te başarıyla sonuçlandı ve beylik tam anlamıyla kontrol altına alındı. ⚠️ Atlas verisi bu süreci TEK GÜNE (1468-01-01) sadeleştiriyor — Konya gerçekten 1468'de düştü, ama Niğde ve çevresi TDV'ye göre 1474'e kadar tam anlamıyla ele geçmedi; Ermenek, Aksaray, Ilgın, Karapınar, Ulukışla için TDV'de tek tek doğrulanmış bir fetih günü bulunamadı. Veri sadeleştirmesi bilerek korunmuştur (madde metni fazı anlatır, tarih değiştirilmemiştir).",
-  kaynak:"karamanogullari" },
 
 ];

@@ -1,0 +1,44 @@
+{
+ "parti-emrelic-0027": {
+  "H-0004": {
+   "hukum": "cozuldu",
+   "not": "Satu Mare/Orta Macar enklavı İKİ SEBEPLİYDİ (MACARİSTAN SERHAT oturumu, tahta M-1096/M-1097/M-1163). ① Debrecen noktası eklendi VE bağlandı — data/yerlesimler_kdmacar.js, commit 169a136 'SERHAT BORCU KAPANDI'. ② Yedi nokta (Nagybánya·Kálló·Ecsed·Ónod·Szendrő·Huszt·Máramarossziget) 'arandı, kasaba özelinde bulunamadı' diye koordinatör tarafından kapatıldı (dört slug TDV'de 302, üç cins ayrıldı: TDV'de yok / cins bulundu-zincir yok / arama yetmedi). Kalan harita borcu (Szatmár peteğinin hâlâ olması gerekenden büyük olması) YENİ DEĞİL — denetim/KOSU-SONRASI-KUYRUK.md §④'te zaten 'araştırma kapandı, harita borcu kapanmadı' diye KAYITLI kabul edilmiş borç. Mükerrer iş açmıyorum."
+  }
+ },
+ "parti-emrelic-0028": {
+  "H-0003": {
+   "hukum": "zaten-dogru",
+   "not": "Kotur (1583, Van-Hoy kutusu) 'kopuk Osmanlı toprağı' göstergesi HATA DEĞİL: TDV kendi Van eyaleti birim listesinde Kotur'u sancak olarak sayıyor (ek_ferhadpasa.js doğru), 1639-05-17 sonrası için ayrıca kaynak arandı ve bulunamadı (dosyanın kendi notu). Aynı soru daha önce parti-0021/H-0027'de aynı TDV kaynağıyla cevaplanmış — ARABISTAN KRONOLOJİ (tahta M-1108) bağımsız doğruladı. Yan not: data/yerlesimler_kafkas_duzeltme.js adında GİRDİ.PY'YE BAĞLANMAMIŞ bir dosya var (Başkale/Çaldıran/Özalp için ek26'dakiyle aynı isimler, daha ayrıntılı zincir) — bağlanırsa mükerrer kayıt riski var, ayrıca 0031/H-0014'te de flagli, benim kapsamım dışı, koordinatöre bırakıyorum."
+  }
+ },
+ "parti-emrelic-0029": {
+  "H-0003": {
+   "hukum": "zaten-dogru",
+   "not": "Söğüt-Domaniç 'kuruluş toprakları iki kopuk parça' görüntüsü GERÇEK ve TDV ile uyumlu (ORTA ASYA KRONOLOJİ, tahta M-1182): iki nokta bir YAYLAK-KIŞLAK çiftidir (TDV `sogut`), aradaki Harmankaya TDV'ye göre 1313'e kadar gerçekten Bizans'tı (`mihalogullari`), 1299'da Bilecik/Yarhisar/İnegöl alınınca kopukluk tarihen kapanıyor (donemler.js: 1281-1299 arası 2 parça, 1299'dan itibaren 1 parça). Toprağı birleştirmek Emre'nin kendi sınırını ('tarihi ve coğrafi idari gerçeklere aykırı hareket etmeden') ihlal eder — YAPILMADI, doğru karar. Opsiyonel iyileştirme (window.SEFERLER'e bir 'yaylak-kışlak göçü' hareket kaydı eklenmesi, toprak iddiası olmadan görsel bağ kurmak için) önerildi ama bu bir hata düzeltmesi değil, koordinatörün/Emre'nin kararına bırakılmış bir tasarım seçeneği — üç açık karar sorusu var (SEFERLER kaydı mı, 1.3km'lik boyun ayrı motor maddesi mi, Domaniç'in tur:'sehir' kaydı değişsin mi), veri hatası değil."
+  }
+ },
+ "parti-emrelic-0030": {
+  "H-0005": {
+   "hukum": "tekrar",
+   "not": "Aynı kök 0031/H-0006'da (coğrafi/koordinatör tasnifi 07c33b2: 0030-H-0005 · 0031-H-0006 · 0031-H-0018 · 0031-H-0020 TEK KÖK) 'cozuldu' olarak KAPANDI — HUKUM-0031-0032.json: '_varista() konumsuz dalda hiç çağrılmıyordu' (SESSİZ ADIM kökü), commit 82aa96e (24 Ağu 20:51) ile kamera davranışı düzeldi. Kalan parça YENİ bir kusur DEĞİL, ayrı bir tasarım kararı: denetim/HUKUM-BAYAT.json kaydı açıkça yazıyor — 'işaretin kendisi bilinçli eklenmedi, Emre kararı bekliyor' (yani: her kronoloji maddesinde yuvarlak işaretin yanıp sönmesi mi, yoksa yalnız bazı olay türlerinde mi — bu bir `senin-kararin`, veri/motor hatası değil)."
+  }
+ },
+ "parti-emrelic-0031": {
+  "H-0008": {
+   "hukum": "tekrar",
+   "not": "0031/H-0003'te kapanıyor — aynı kök sebep: Bağdat'ın s: zincirinde 1335-1411 arası timurlu alt-dönemi eksik, iki kronoloji maddesi de (Timur'un birinci ve ikinci Bağdat işgali) aynı yer_id:Bağdat kaydına bakıyor; eksik olan harita-madde bağlantısı değil, Bağdat'ın kendi sahiplik verisi (PAKET 0031-0032 turu, tahta M-1325)."
+  },
+  "H-0010": {
+   "hukum": "tekrar",
+   "not": "0031/H-0005'te kapanıyor — denetim/BULGU-RENK-0031.md'nin 'Timurlu Restorasyonu Deseni' bulgusuyla birebir aynı: germiyan (1425-06-01→1429-02-01, oran %100) ve saruhan (1402-08-17→1416-09-01, oran %100) dönemlerinde motor toprağı hiç bırakmamış gibi davranıyor — veri katmanı doğru, kusur motor/render katmanında (PAKET 0031-0032 turu, tahta M-1325)."
+  },
+  "H-0020": {
+   "hukum": "tekrar",
+   "not": "0031/H-0018'de kapanıyor — koordinatörün kendi tasnifi (commit 07c33b2) H-0006(0031)/H-0018(0031)/H-0020(0031)/H-0005(0030) dörtlüsünü zaten TEK KÖK diye işaretlemiş (bkz. 0030/H-0005 kaydım). Kamera/yanıp-sönme kökü commit 82aa96e ile düzeldi, kalan parça senin-kararin."
+  },
+  "H-0022": {
+   "hukum": "tekrar",
+   "not": "parti-0003/H-0001 ve parti-0003/H-0013'te kapanıyor — Rumeli Hisarı'nın kendi kaydı doğru (kur:1452-08-31); kalan sorun Anadolu Hisarı ile arasındaki 3km-kuralı gediği, önceden belgelenmiş (yerlesimler_ek2.js:56-82) ve 'petek epoku değişikliği gerektirir, bu oturumun yetkisi dışında' diye zaten kayıtlı bırakılmış — yeni bir bulgu değil."
+  }
+ }
+}

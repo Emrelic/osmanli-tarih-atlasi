@@ -1,0 +1,38 @@
+{
+  "parti-emrelic-0033": {
+    "H-0002": {
+      "hukum": "zaten-dogru",
+      "not": "Astarhan Hanlığı kimliği devletler.js:2131'de ZATEN var (f:1466-01-01, t:1556-01-01, harita:astarhan). Renk ZATEN atanmış: arac/renkler.py:689 '#421212'. VE 5 yerleşim noktası (Astrahan şehri + 4 komşu, data/yerlesimler.js:856, yerlesimler_ek22.js:115, yerlesimler_h2_rusya.js:379-391) ZATEN d:\"astarhan\" (1466/1502→1556) kullanıyor. git log -S ile doğrulandı: commit 75db3d4 'NOKTA HALKA-2 2 ikinci geçiş: 266 yıllık rusya hayaleti KAPATILDI + astarhan'. Notun kendisi ('eksik olan yalnız renk ve d: değeri') artık bayat — üçü de var."
+    },
+    "H-0021": {
+      "hukum": "zaten-dogru",
+      "not": "r3556 yayınında TABİ kademesi indi (tahta M-1340/M-1354: 1800-06-15'te 475.231 km² doğrudan→tabi geçti). Ölçüldü: Murzuk (Fizan) ve Zilla artık v:1711-03-01→1835-05-26 (tâbi periyodu) taşıyor, bu aralıkta d: YOK — yani motor artık bu bölgeyi 'hep OSMANLI' değil tâbi/taralı boyayacak. 'hep OSMANLI yazıyor' kök kusuru veri yapısında artık yok. ⚠️ Yalnız veri şemasını ölçtüm, canlı harita RENDER'ını görmedim (browser açmadım) — görsel teyit önerilir ama veri düzeyinde kusur kapanmış."
+    },
+    "H-0017": {
+      "hukum": "senin-kararin",
+      "not": "Görsel doğru: Gürcistan Kafkas sırtının kuzeyine dar bir üçgenle taşıyor çünkü kuzey yamaçta hiç nokta yok ve gurcistan tek kesintisiz kimlik. İKİ SEÇENEK var, ikisi de savunulabilir ve biri veri (nokta ekle), öteki TASARIM (gurcistan'ı Kartli/Kaheti/İmereti/Samtskhe alt-krallıklarına böl) kararı. TASNİF seçemez — KAFKAS KRONOLOJİ kapsamına giren bir tasarım sorusu, Emre'nin kararı gerekiyor."
+    }
+  },
+  "parti-emrelic-0036": {
+    "H-0002": {
+      "hukum": "cozuldu",
+      "not": "TARALI ALAN kök-sebep fix'i (commit e53c86a, 27 Ağu 02:49:57) index.html'in ?v= damgasına beb4744 commit'iyle ('YAYIN r3535 — gece koşusu 215,7 dk · TARALI ALAN KÖKÜ') girdi. Bugün canlı damga r3556 (git log: e53c86a..HEAD arasında index.html iki kez daha güncellendi: beb4744, bfa5609, 78e2a03) — yani damga fix'ten SONRAKİ. Notun bayat kısmı ('damga yükseltilmedi') artık geçersiz."
+    },
+    "H-0003": {
+      "hukum": "zaten-dogru",
+      "not": "Aynı kök (H-0002), aynı bekleyen-yayın-adımı — ve o adım artık geçti. Notun kendi ölçtüğü üç alt-soru zaten 'zaten-doğru' çıkmıştı (taralı alan iki tipi kasıtlı tasarım · Rusya'nın 2 parçası coğrafi olarak doğru · Mora sınırı doğru); tek eksik olan yayın adımı H-0002'de kapandı."
+    },
+    "H-0004": {
+      "hukum": "cozuldu",
+      "not": "Aynı kök (H-0002), aynı yayın adımı — görüntü koordinatları düzeltilmiş devirler.js'teki Rusya/Ahıska bbox'ına uyuyordu, fix yayınla birlikte devreye girdi."
+    },
+    "H-0006": {
+      "hukum": "tekrar",
+      "not": "H-0007'nin aynı sahnesi (1832-11-21 Konya), ayrı metin/hüküm gerektirmiyor — BAYAT AVCISI'nın kendi notu."
+    },
+    "H-0014": {
+      "hukum": "cozuldu",
+      "not": "Aynı TARALI ALAN kökü, isgalleri_uret() de aynı düzeltilmiş coz()'dan geçiyor (İbrail Rus işgali artık doğru). Damga durumu H-0002 ile aynı — artık güncel."
+    }
+  }
+}

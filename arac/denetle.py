@@ -1520,7 +1520,12 @@ D7_ADA_MUAF = frozenset((
 # bir kısmı koridor araştırması ister. Sıfır tavan, meşru olanı ihlal sayar ve
 # `renkler.py`nin dersini tekrarlar: gürültü üreten denetime kimse bakmaz.
 # Borç ödendikçe İNER — `BEKLENEN_SAHIPSIZ` · `BEKLENEN_HAYALET` ile aynı desen.
-BEKLENEN_ENKLAV_SORGU = 486
+# 🔴 486 -> 485, 28 Ağustos 2026 — ve bu bir BORÇ ÖDEMESİ, tavan gevşetmesi
+# değil. `_d7_komsuluk`teki dolgu düzeltmesi (yukarıda) Gode/Ogaden 1897
+# vakasını kapattı: o kayıt bir dolgu noktası yüzünden tecrit muafiyetini
+# kaybetmişti. Katar'ın açtığı iki kayıt da aynı düzeltmeyle kapandı.
+# Ölçüldü: yamasız 488 · yamalı 485 · YENİ doğan ihlal 0.
+BEKLENEN_ENKLAV_SORGU = 485
 
 
 def _d7_km(a, b):
@@ -1550,6 +1555,29 @@ def _d7_komsuluk(Y):
                 for j in kutu.get((ai + di, aj + dj), ()):
                     if j != i and _d7_km(p, (Y[j]["lat"], Y[j]["lon"])) <= D7_BAG_KM:
                         kom[i].append(j)
+    # 🔴 DOLGU NOKTASI KOMŞU SAYILMAZ — 28 Ağustos 2026, ÖLÇÜLEREK eklendi.
+    # ② muafiyeti (`coğrafi tecrit`) şunu sorar: *"burada veri eksik değil,
+    # YERLEŞİM SEYREK mi?"* Hiçbir dönemi olmayan bir nokta — `kasitli_bosluk`
+    # dolgusu — tam da ORADA YERLEŞİM OLMADIĞI için konmuştur. Onu komşu
+    # saymak, ölçütü kendi anlamının TERSİNE çevirir: seyrekliğin KANITI olan
+    # nokta, seyreklik ölçütünde KALABALIK sayılır.
+    #
+    # VAKA: `yerlesimler_ek_korfez.js` bağlandı (Katar yarımadası dolgusu,
+    # `d:[] s:[]`). Dolgu, Doha'nın 59,8 km'den ÜÇÜNCÜ komşusu oldu; Doha'nın
+    # tecrit muafiyeti düştü ve iki kayıt ihlal göründü (486 -> 488).
+    # ⚠️ Dolgu hiçbir KOPUK GÖVDE üretmedi — bir MUAFİYET DÜŞÜRDÜ. İki kayıt
+    # zaten doğruydu, yalnız GÖRÜNÜR oldu. Tavanı 488'e çıkarmak, aletin
+    # yanlış sorusunu kabul etmek olurdu.
+    # 📌 Ve kusur Katar'la DOĞMADI, Katar'la GÖRÜNDÜ: aynı sınıfın eski bir
+    # vakası da varmış — Gode (Ogaden) 1897, o da bir dolgu yüzünden muaf
+    # değildi. Ölçüm: 488 -> 485, YENİ ihlal 0, kapanan eski vaka 1.
+    #
+    # Bu noktalar hiçbir bileşene giremez (`sahip()` onlar için hep None),
+    # yani FLOOD FILL DEĞİŞMEZ — değişen tek şey ②'nin komşu sayacıdır.
+    _dolgu = {i for i, y in enumerate(Y)
+              if not (y.get("d") or y.get("v") or y.get("s"))}
+    if _dolgu:
+        kom = [[j for j in k if j not in _dolgu] for k in kom]
     return kom
 
 
@@ -1726,6 +1754,27 @@ def degismez3z(Y):
 # yakalandı. Doğru pozitif oranını korumak için gerçekten AYRI olan çiftler
 # aşağıya tek tek yazıldı — listeye eklemeden önce iki maddeyi de OKU.
 BILINEN_AYRI = {
+    # ⭐ "OLAY ile PORTRE" SINIFI — 28 Ağustos 2026, ve TEK ÇİFT.
+    # 1617-11-22'de iki madde var ve ikisi AYRI CİNSTEN:
+    #   "I. Ahmed'in ölümü ve I. Mustafa'nın cülûsu — ekberiyet…"  ← OLAY
+    #   "Yeni padişah I. Mustafa: solgun çehreli, dalgın bakışlı…" ← PORTRE
+    # Ölçüt ikisini de "aynı gün + aynı kişi" diye mükerrer sayıyor; oysa
+    # ikincisi Emre'nin AÇIKÇA istediği "ek okuma / magazin" türü, yani
+    # kaldırılması bir kusuru değil BİR ÖZELLİĞİ siler.
+    # ⚠️ VE BU MUAFİYET GEÇİCİ SAYILIR: Emre'ye soruldu (BEKLEYENLER.md).
+    #   "İkisi birleşsin" derse muafiyet KALKAR ve maddeler birleştirilir.
+    # 🔴 Aynı gece SEKİZ çift daha vardı ve SEKİZİ DE buraya YAZILMADI:
+    #   altısı gerçek mükerrerdi (Kemankeş idamı ×2 · Genç Osman ×2 ·
+    #   Pîrî Reis haritası ×2 · Habeş Eyaleti ×2 · Sahra seferi ×2 ·
+    #   Nevşehirli sadaret ×2) ve SİLİNDİLER, ikisi `yer:` genişletmesine
+    #   çevrildi. Bir işçi oturum (DENETİM AÇIK) koordinatörün
+    #   "yedisi yanlış pozitif" hükmünü ÇÜRÜTTÜ ve gerekçesi şuydu:
+    #   *"Onları buraya yazarsak denetim TEMİZ olur ama mükerrerler DURUR —
+    #    bu, denetimi düzeltmek değil KAPATMAK olur."* Haklıydı.
+    # ⇒ Buraya bir çift yazmadan önce sorulacak soru: **ikisi aynı şeyi mi
+    #   anlatıyor, yoksa aynı şeye iki AYRI CİNSTEN mi bakıyor?**
+    ("I. Ahmed'in ölümü ve I. Mustafa'nın cülûsu — ekberiyet usulü",
+     "Yeni padişah I. Mustafa: solgun çehreli, dalgın bakışlı bir 'kafes' mahpusu tahtta"),
     # ⭐ "AYNI USTA, AYNI YIL, AYRI ESER" SINIFI — 9 Ağustos 2026.
     # Dört güçlü çiftin dördü de yanlış pozitifti ve tek bir desendi:
     # Mimar Sinan'ın aynı yıl tamamlanan eserleri, başlıklarında ortak
@@ -1747,6 +1796,25 @@ BILINEN_AYRI = {
     # sonu). "Olay ↔ sonucu" da yukarıdaki sınırın bir üyesi.
     ("Patrona Halil İsyanı",
      "Sâdâbâd'ın Patrona Halil isyanında tahrip edilmesi"),
+    # ⭐ "OLAY ↔ O OLAY HAKKINDAKİ KAYNAK UYARISI" — 28 Ağustos 2026.
+    # Yukarıdaki "olay ↔ sonucu" sınıfının kardeşi ve bir kademe ötesi:
+    # burada ikinci madde olayın kendisini değil, KAYNAĞIN O OLAY HAKKINDA
+    # SÖYLEDİĞİNİ anlatıyor. TDV `prut-antlasmasi` maddesi Baltacı–Katerina
+    # rivayetinin asılsızlığını ayrıca uyarıyor; atlas o uyarıyı ayrı bir
+    # madde olarak taşıyor. Aynı gün, aynı kaynak slug'ı, ortak kişi —
+    # ölçüt üçünü de görüyor ve mükerrer sanıyor. J = 0,000: başlıklarda
+    # TEK ortak kelime bile yok, yani ölçütü tetikleyen şey benzerlik değil
+    # yalnız "aynı gün + ortak kişi + aynı kaynak" kademesi.
+    ("Prut Antlaşması — Azak ve Taygan'ın geri alınması",
+     "Baltacı Mehmed Paşa ve Çariçe Katerina rivayeti — TDV'nin kendi uyarısı"),
+    # ⭐ "AYNI GÜN, AYNI FİİL, AYRI CEPHE" — 28 Ağustos 2026.
+    # 1737-39 savaşında Semendire (Tuna) ile Özi (Karadeniz) aynı güne
+    # yazıldı. Ortak olan yalnız "geri alınış"; ayırt edici bilgi ÖZEL ADDA
+    # ve kişiler bile ayrı (I. Mahmud ↔ Yeğen Mehmed Paşa, Mengli Giray II).
+    # 📌 "Mostar ↔ Edirnekapı" sınırının cephe tarafı: orada ortak olan
+    # USTAYDI, burada FİİL.
+    ("Semendire'nin Avusturya'dan geri alınışı — 1737-39 Savaşı",
+     "Özi'nin geri alınışı ve Kırım'ın Rus istilâsından kurtarılması"),
     # Tâif ve Mekke AYRI düştü, 88 gün arayla — TDV `mekke`: 30 Nisan 1803
     # Suûd birinci kez işgal. Başlık KALIBI ("Vehhâbîlerin … ele geçirmesi")
     # tetikledi, olayların benzerliği değil.

@@ -855,6 +855,19 @@
 <script src="data/yerlesimler_ek_bozkir.js?v=r3556"></script>
 <script src="data/yerlesimler_ek_ferhadpasa.js?v=r3556"></script>
 <script src="data/yerlesimler_ek_macaristan.js?v=r3556"></script>
+<!-- Katar yarımadası dolgu noktası. 🔴 BU SATIR KOORDİNATÖRÜN AYNI GECE
+     İKİNCİ KEZ UNUTTUĞU SATIRDIR: girdi.py'ye eklendi (56 dosya), buraya
+     eklenmedi (55) ⇒ motor noktayı görüyor, tarayıcı GÖRMÜYOR. Aynı hata
+     `olaylar_ek17.js`te de yapıldı. İki araç iki AYRI listeden okuyor:
+     motor `girdi.GIRDI_DOSYALARI`ndan, tarayıcı BURADAN. Bir dosya
+     bağlanırken İKİSİ DE yazılır — biri yazılmazsa hiçbir denetim ötmez. -->
+<script src="data/yerlesimler_ek_korfez.js?v=r3556"></script>
+<!-- serhat + kdmacar: motorda BAĞLIYDI, burada YOKTU. DENETİM AÇIK ölçtü ve
+     üçüncü şartı da sınadı: index.html:878 `Object.keys(window).filter(/^YERL/)`
+     ile deseni GERÇEKTEN tarıyor ⇒ satır eklemek işe yarıyor, sahte düzeltme
+     değil. Aynı gecede dördüncü yarım-bağlama vakası. -->
+<script src="data/yerlesimler_serhat.js?v=r3556"></script>
+<script src="data/yerlesimler_kdmacar.js?v=r3556"></script>
 <script>
   // Parti dosyalari KENDI kuresel degiskenlerini tanimliyor; app.js yalniz
   // window.YERLESIMLER okuyor. Birlestirme burada, TEK yerde yapilir --
