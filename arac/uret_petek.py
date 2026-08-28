@@ -781,7 +781,29 @@ print(f"  {len(PETEK)} petek ({len(eksik)} yedek eşleşme)")
 #    Viyana · Venedik · Kiev var. Onlara 200 km vermek, İnegöl'e verdiğimizle
 #    aynı hakkı tanımak olurdu. `KADEME K0` oturumu k0'ları doldurunca bu
 #    istisna KENDİLİĞİNDEN gereksizleşir ve kaldırılır.
-TAVAN_KM = {1: 400, 2: 400, 3: 200, 4: 100, 0: 280}
+# 🔴 28 AĞUSTOS 2026 — GERİ ALINDI. Ölçüm öngörüyü çürüttü.
+# Emre'nin seçtiği {1:400, 2:400, 3:200, 4:100} bir koşu koştu ve
+# ÖLÇÜLDÜ (aynı betik, eski ve yeni donemler.js üzerinde):
+#     gün    ESKİ toplam   YENİ toplam    fark
+#     1600     6.131.732     5.478.894   −%10,6
+#     1700     5.404.785     4.749.515   −%12,1
+#     1800     5.175.521     4.304.332   −%16,8
+#     1900     4.465.407     3.616.228   −%19,0
+# Koşudan ÖNCE yazılmış öngörü ⑥ "Osmanlı doğrudan + tâbi TOPLAMI ±%2"
+# diyordu ve MAZERETSİZ ilan edilmişti. Çürüdü ⇒ yayın durduruldu.
+#
+# 📌 NİÇİN TAHMİN TUTMADI — ders burada: etki "komşu medyanı" ile
+# tahmin edilmişti (~8 nokta tavana çarpar). Ama tavan komşu ortasında
+# KESMİYOR, peteğin YARIÇAPINI MUTLAK kırpıyor. Komşusu uzak bir nokta
+# 700 yerine 400 km'de bitiyor ve aradaki toprak SAHİPSİZ kalıyor —
+# sınır kaymıyor, HARİTADA DELİK açılıyor.
+# ⇒ "Kaç nokta tavana çarpar" yanlış soruydu; doğrusu "tavan kaç km²
+#   toprağı sahipsizleştirir".
+#
+# Çöl derdinin asıl çaresi COL_PUAN_ESIK'tir (aşağıda, 4→8) ve o koşuda
+# ÇALIŞTI: 14.468 petek-gün çölde takıldı. Tavan indirimi onun yanında
+# ek kazanç getirmiyor, ağır bedel bindiriyordu.
+TAVAN_KM = {1: 700, 2: 420, 3: 280, 4: 140, 0: 280}
 _TV_BAGLI = set()          # tavanın BAĞLADIĞI hücrelerin indisleri (§KIYI'de dolar)
 _tv_once = _tv_sonra = 0.0
 
@@ -4420,6 +4442,24 @@ else:
     print(f"  🚪 EKLEYİCİ KAPI: {_DOLGU_SAYAC['petek']} petek-gün katıldı · "
           f"{_DOLGU_SAYAC['cekismeli']} ÇEKİŞMELİ (boş bırakıldı) · "
           f"{_DOLGU_SAYAC['gun']} gün hesaplandı")
+    # 🔴 B1/B2/B3 KARNESİ — 28 Ağustos 2026'da EKLENDİ, ve sebebi ölçüldü.
+    # `_B23_SAYAC` sözlüğü baştan beri DOLUYORDU ama HİÇBİR YERDE
+    # BASILMIYORDU. Sonuç: koşudan önce yazılmış iki öngörü
+    # (② "B3 sığ girintileri bırakır" · ③ "deniz aşırı enklav birleşmez")
+    # koşudan sonra ÖLÇÜLEMEDİ — geçtiler de denemedi, kaldılar da.
+    # 📌 `CLAUDE.md`: *"aletin BASMADIĞI ≠ ölçtüğü"*. Sessiz bir sayaç,
+    #    olmayan bir sayaçla aynı şeydir; ikisi de öngörüyü sınanamaz kılar.
+    # ⚠️ Ve şu satırın kendisi bir sınavdır: SIFIR çıkan her sayaç, o dalın
+    #    HİÇ ateşlemediğini söyler — bu bir bulgudur, temizlik değil.
+    print(f"  🧩 B2 ENKLAV: {_B23_SAYAC['b2_birlesti']} birleşti · "
+          f"{_B23_SAYAC['b2_deniz']} DENİZ AŞIRI diye reddedildi · "
+          f"{_B23_SAYAC['b2_uzak']} uzak · "
+          f"{_B23_SAYAC['b2_yerlesim']} içinde başka devletin yerleşimi var")
+    print(f"  🧩 B3 KORİDOR: {_B23_SAYAC['b3_dolduruldu']} dolduruldu · "
+          f"{_B23_SAYAC['b3_sig']} SIĞ diye BIRAKILDI (Emre bunu istiyor) · "
+          f"{_B23_SAYAC['b3_kapali']} kapalı · "
+          f"{_B23_SAYAC['b3_yerlesim']} yerleşimli · {_B23_SAYAC['b3_kb']} k.bosluk")
+
     # 🔴 ÇÖL EŞİĞİ KARNESİ — "kapatılmayanı da say ve bas" (MOTOR ÜÇ KALEM).
     # `col_dusen` = 4 puanı geçerdi ama çölde olduğu için 8'e takıldı.
     # Bu sayı SIFIR çıkarsa kural HİÇ ATEŞLEMEMİŞ demektir; o da bir bulgudur.
