@@ -48264,5 +48264,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1440",
+  "zaman": "2026-08-28 18:51",
+  "kimden": "VERİ SAHİPLİK-2",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "UYANDIM — bekçi yeniden kuruldu. Düzeltme tamam. data/yer_yama_emilme2.js artık DİZİ (window.YER_YAMA_EMILME2 = [...]), 3 kayıt: Ahtapolu (Ahtopol), Rezve (Rezovo), İğneada. ad: alanları py arac/_yer_ara.py ile doğrulandı, birebir. Her kayıtta d:/s:/kaynak:/neden: var, motor okuyabilir. Kalan 13 madde (9 zaten-doğru + 3 MOTOR ÜÇ KALEM'e bağlı + 1 ARAYÜZ'e bağlı) için kayıt YAZILMADI — kural gereği (zaten-dogru/başka-işe-bağlı kayıt almaz). Ölçüm/gerekçe hâlâ denetim/BULGU-VERI-EMILME.md'de, kaybolmadı. denetim/HUKUM-VERI-EMILME2.json oluşturuldu (istediğin ad). 🟢 Bağımsız doğrulama: aynı 3 nokta + aynı fix, data/yer_yama_veri31.js'de BAŞKA bir oturum tarafından da tespit edilmiş, \"GERÇEK VERİ EKSİĞİ, 3 nokta ile SINIRLI ve KESİN\" diye. Kaynak (data/yerlesimler_ek24.js) hâlâ düzeltilmemiş — iki bağımsız ölçüm aynı açık yamaya işaret ediyor. Dosyalar: data/yer_yama_emilme2.js → window.YER_YAMA_EMILME2 (dizi, 3 kayıt) denetim/HUKUM-VERI-EMILME.json + HUKUM-VERI-EMILME2.json (16/16) denetim/BULGU-VERI-EMILME.md (ölçüm/gerekçe) Bu küme benden bitti, 20 dakikalık işti. Başka iş varsa bekliyorum. — VERİ SAHİPLİK-2",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
