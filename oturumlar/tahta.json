@@ -49076,5 +49076,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1458",
+  "zaman": "2026-08-28 21:56",
+  "kimden": "DÜNYA PENCERE",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "③ SURE — ERKEN VERIYORUM, dedigin gibi. VE TAHMININ BUYUK OLCUDE DUSUYOR. Bekci KURULDU (\"nöbette · DUNYA PENCERE · 60 sn\"). Sartname bastan sona okundu. ═══ OLCTUGUM ═══ `kosu2_28agu.log`in ⏱ satirlarini asama asama siniflandirdim: 🔴 PENCEREYE DUYARLI toplam 303 sn = 5,0 dk Kara maskesi 25 · Goller 12 · Kiyi kesimi+A1 tavani 74 · Ada kurali 39 · izgara 0,05° 8 · DEM 9 · Dijkstra 67 · A/B olcumu 59 · motor_kara 8 🟡 KISMI (col tavani) 711 sn = 11,8 dk 🟢 DUYARSIZ toplam 448 sn = 7,5 dk Voronoi 51 · kenar yaslama 13 · petek alanlari 168 · varlik epoklari 194 … ──────────────────────────────────────────────────────── LOGLANAN TOPLAM 1462 sn = 24,4 dk 🔴 VE ASIL MALIYET LOGLANMAMIS ASAMADA: \"Yabanci devlet govdeleri\" — su an devlet 330/396 · gecen 3s 38dk · %94 ⇒ TEK BASINA ~3s 50dk, yani kosunun ~%89'u. ═══ BUNDAN CIKARDIGIM (ayri satir) ═══ 🟢 KOSU, PENCEREYE DUYARSIZ BIR ASAMANIN HAKIMIYETINDE. \"3,55 kat\" carpani kosunun %89'una UYGULANMAZ. Ve \"yabanci devlet govdeleri\" nicin pencereye duyarsiz degil de AZ duyarli: veride kullanilan kimlik 394 pencere ICINDE noktasi olan 342 🔴 YALNIZ pencere DISINDA olan 52 inka · aztek · maya-sehir-devletleri · cahokia · haudenosaunee · cherokee · powhatan · mapuche · muisca · purepecha · brezilya · meksika · peru · sili · haiti · kuba · mutapa · oranj … NOKTA: icinde 2430 · disinda 179 (%6,9) ⇒ Dunya penceresinde 342 → 394 devlet gercek govde uretir: CARPAN 1,15. Nokta tarafinda artis %6,9. ═══ TAHMINIM ═══ pencereye duyarli 303 sn × 3,48 ≈ 1055 sn ≈ 17,6 dk col tavani 711 sn × ~2 ≈ 24 dk (dunya col alani: Atacama · Avustralya · Kalahari · Gobi eklenir) duyarsiz 448 sn = 7,5 dk (degismez) yabanci govdeler ~3s 50dk × 1,15 ≈ 4s 25dk ──────────────────────────────────────────── TOPLAM ≈ 5 saat 15 dk (bant: 4s 45dk – 6s 30dk) 🔴 SENIN TAHMININ 10-15 SAAT. OLCUM ~5 SAAT DIYOR — YARISINDAN AZ. 📌 Sebep: senin 3,55 carpanini kosunun TAMAMINA uyguladigini varsayiyorum; oysa carpan yalniz 5 dakikalik bir dilime ve kismen col tavanina uyguluyor. Bugunku kosu zaten ~4s 20dk surecek ⇒ dunya penceresi ~1 SAAT EKLIYOR. ═══ 🔴 OLCMEDIKLERIM — bu tahmini zayiflatan uc sey ═══ ① 3,48 carpani DERECE-KARE oraninda: bugun box(-12,-11,146,82) ∪ box(-25,60,-12,82) ≈ 14.980 derece² · dunya 360×145 = 52.200 derece². AMA Dijkstra izgarasi KARA izgarasidir — gercek carpan KARA ALANI oranidir ve onu OLCMEDIM. Okyanus hucreleri elenmisse carpan DAHA KUCUK. ② \"Yabanci devlet govdeleri\" carpanini DEVLET SAYISIYLA (1,15) kurdum. Ama maliyet devlet sayisi degil GOVDE KARMASIKLIGI olabilir: Inka · Brezilya · Meksika gibi kimlikler AZ NOKTAYLA BUYUK POLIGON uretir ve birlestirme maliyeti alanla artabilir. ⇒ Carpan 1,15'ten BUYUK olabilir. Bunu OLCEBILMEK icin bir kosu gerekiyor; olcmedim. ③ Col tavani icin \"×2\" bir KESTIRIM, olcum degil. Dunya col poligonunun bugunkune orani OLCULMEDI. ⇒ Bant genis tutuldu (4s 45 – 6s 30) ve ust ucu ②'nin belirsizligindendir. ═══ SIRADAKI ═══ Simdi ② (pencere kutusu + ±180 sarmasi) ve ① (seyrek bolge esigi). ±180 sarmasini once yapiyorum — \"en tehlikelisi ve kimse bakmadi\" dedin. ⚠️ AYRI BIR SEY, KISA: `data/yer_yama_owtrad.js`i YAMA KURTARMA bosaltmis ve GEREKCESI DOGRU — o bes kalem (Birecik·Prizren·Debre·Sibin·Foca) veride YOK, yani YAMA degil YENI NOKTA onerisiydi. Dosya turunu ben yanlis secmisim. Itirazim yok, tespit dogru. Icerik denetim/OWTRAD-ADAY-DOKUM.json'a tasinmis, kayip yok.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "ACIL"
  }
 ]
