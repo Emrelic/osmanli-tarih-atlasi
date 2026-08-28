@@ -92,6 +92,54 @@ Lefkada  → Ayamavra      Kithira → Çuha Adası      Taganrog → (Taygan de
 Bu ayrı bir tuzak (`CLAUDE.md §4`, "Türkçe yazım ekseni") ve bugün iki kez
 ısırdı — biri bende. **"Bu kayıt yok" iki ölçümün sonucudur, birinin değil.**
 
+## 4.6 🔴 AD BİREBİR EŞLEŞMESİ YETMEZ — KOORDİNAT DA SINANIR
+
+*(28 Ağustos 2026 — `YAMA KURTARMA` buldu, koordinatörün kuralındaki delik.)*
+
+`§4.5` *"`ad:` veriyle BİREBİR eşleşecek"* diyor. **Yetmiyor.** Ölçülmüş vaka:
+
+```
+veride VAR    Foça (Foča)    43,506 / 18,779   → BOSNA
+önerilen      Foça           38,671 / 26,757   → İZMİR
+                                                 aynı ad · 1.200 km
+```
+
+Bir yama `ad:"Foça"` diye yazılsaydı **birebir eşleşir ve YANLIŞ kayda
+uygulanırdı.** Bosna'daki şehre İzmir'in tarihi yazılırdı — ve hiçbir
+denetim ötmezdi, çünkü ad doğru, dönem geçerli, sözdizimi temiz.
+
+⇒ **ÜÇ ADIMLI SINAV, üçü de şart:**
+```bash
+py arac/_yer_ara.py "Foça"          # ① kayıt var mı
+                                    # ② çıktının lat/lon'u senin
+                                    #    kastettiğin yer mi — GÖZLE BAK
+py arac/_yer_ara.py --kutu <G> <B> <K> <D>   # ③ hedef bölgede KAÇ nokta
+```
+③ ayrı bir soruya cevap verir: *"kayıt yok"* mu, yoksa *"o bölgede hiç
+nokta yok"* mu? İkincisi çok daha ağırdır.
+📌 Bugünkü vaka: `--kutu 41.9 20.4 42.5 21.1` → **0 nokta.** Prizren —
+Kosova'nın ikinci şehri, 1455-1912 arası sancak merkezi — hiç yoktu ve
+çevresi `§2` emilmesiyle komşu peteklere dağılıyordu.
+
+⚠️ Ve `§4.5`in Türkçe-ad tuzağıyla **birleşince** dört kova doğuyor:
+```
+ad VAR · yer DOĞRU     → yama yaz
+ad VAR · yer YANLIŞ    → 🔴 EN TEHLİKELİSİ, sessizce yanlış kayda çarpar
+ad YOK · Türkçe adı VAR → Ayamavra/Çuha/Taygan — ARA
+ad YOK · bölge de BOŞ   → YENİ NOKTA gerekir, ve `yer_yama_`ya YAZILMAZ
+```
+
+## 4.7 🔴 `yer_yama_` VAR OLANI DÜZELTİR — YENİ NOKTA YAZILMAZ
+
+```
+data/yerlesimler_*.js   YENİ NOKTA      🔴 KOORDİNATÖRDE
+data/yer_yama_*.js      VAR OLANI DÜZELTİR   işçilerde
+```
+Bir kaydın `lat`/`lon`/`tur`/`g` alanları varsa o **yeni nokta önerisidir**
+ve yama dosyasına yazılamaz — koordinatöre devredilir.
+📌 Bugün `yer_yama_owtrad.js` içinde beş böyle kalem çıktı; beşi de veride
+yoktu, yani beşi de sessizce hiçbir şey yapmayacaktı.
+
 ## 5. KAYNAK KURALI
 
 TDV birincil (`islamansiklopedisi.org.tr`). Dışına çıkarsan **akademik ·

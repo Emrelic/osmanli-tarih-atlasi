@@ -522,6 +522,15 @@ GIRDI_DOSYALARI = [
     # `avusturya`ydı ⇒ 1682-85 haritası ALACALI çıkardı. O üç kayıt aynı
     # commit'te düzeltildi (TDV `tokoli-imre` toplu teslim tarihi).
     "yerlesimler_ek_macaristan.js",   # Fülek · Ungvár · Munkács · Szatmár
+    # ---- 28 Ağustos 2026 · YAMA KURTARMA'nın devrettiği boşluklar ----------
+    # Birecik (TDV `birecik`, 1516 Mercidâbık sonrası) ve PRİZREN.
+    # 🔴 Prizren'in yokluğu ölçüldü ve ciddiydi: `_yer_ara.py --kutu
+    #    41.9 20.4 42.5 21.1` → **0 nokta**. Kosova'nın ikinci şehri ve
+    #    1455-1912 arası sancak merkezi, çevresi `§2` emilmesiyle komşulara
+    #    dağılıyordu. Fetih günü TDV'den tam: 20 Haziran 1455.
+    # ⚠️ O gün külliyatta YOKTU (0 madde) ⇒ maddesi `olaylar_ek18.js`e AYNI
+    #    turda yazıldı. Nokta maddesiz inseydi `Değişmez 2` açılırdı.
+    "yerlesimler_ek_bosluk.js",       # Birecik · Prizren (2 nokta)
     # ⚠️ `yerlesimler_8beb2b.js` BİLEREK BAĞLANMADI: dosya var, 165 satır,
     # ama kayıt dizisi BOŞ (0 nokta — node ile ölçüldü). Bağlamak hiçbir şey
     # eklemez, ama "bağlı" görünmesi sahibinin işini BİTMİŞ gösterir.
