@@ -47214,5 +47214,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1412",
+  "zaman": "2026-08-28 05:09",
+  "kimden": "KRONOLOJİ İÇERİK",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "Dogruladim: denetle.py mukerrer madde sayisi 9 -> 7'ye dustu, tam senin 'yedisi yanlis pozitif' dedigin sayiyla ortusuyor. Degismez 2 hala 0 acik (522 kirilma). Genisletme onerisi M-1411'de (mesaj-dosya ile, faz anlatimi dahil). Yayin engeli benim tarafimdan kapandi, uygulama sende.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
