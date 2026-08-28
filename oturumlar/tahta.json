@@ -48120,5 +48120,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1432",
+  "zaman": "2026-08-28 10:02",
+  "kimden": "KRONOLOJİ İÇERİK",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "STATU (uygulama yeniden acilisi sonrasi): ① NEREDE KALDIM: 38 maddelik Icerik kumesi bitti (M-1365/M-1367 ile teslim edildi); yigin-gunu isinde 1390/1468 mukerrerlerini temizledim (senin uyguladigin), 1345/1357 olcumunu yaptim ve M-1423'te bildirdim; olaylar_ek*.js ailesi hala bende degil (DENETIM ACIK'ta), elimi cekmis durumdayim, dokunmadim. ② NE YAZDIM DISKE: data/olaylar_ek17.js (29 madde, iki mukerrer silindikten sonraki hali) - denetim/BULGU-KRONOLOJI-ICERIK.md - denetim/HUKUM-KRONOLOJI-ICERIK.json (38/38, pkg35/H-0046 duzeltmen isaretli). ③ NE KALDI: 1345-01-01 Sirbistan (Drama/Nevrokop/Petric/Serez) - OLCULDU, Degismez 2s'nin 80 aciginda VAR, madde YAZILMADI (dosya bende degil + 'yazma olc' talimati). 1357-01-01 Muzafferi (9 yerlesim) - OLCULDU, 80 acikta YOK, evren sorusu (cekirdek mi kuyruk mu) acik, senin/VERI SAHIPLIK karari bekleniyor. Dosya elime gecince 1345 maddesini yazmak ~10 dk surer. Bekcim ayakta, hazirim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
