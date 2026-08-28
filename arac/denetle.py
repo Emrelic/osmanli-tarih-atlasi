@@ -148,7 +148,16 @@ BEKLENEN_YERLESIM = 968
 #    Ders orada YAZILIYDI; buraya UYGULANMAMISTI.
 # 182 -> 180: 172 +6 EMILME (Orta Afrika) +4 SIBIRYA idi; iki nokta sonradan
 # sahip kazandi. Sabit olculene cekildi.
-BEKLENEN_SAHIPSIZ = 214   # 228 -14 — bkz. 18 Agustos DOLGU EMEKLILIGI notu
+BEKLENEN_SAHIPSIZ = 215   # 214 +1 — 28 Agustos: Katar yarimadasi dolgu noktasi
+# 🔴 214 -> 215, 28 Agustos 2026 — `yerlesimler_ek_korfez.js` BAGLANDI.
+# Tek kayit: "Katar Yarimadasi (ic, dolgu)", `kasitli_bosluk:true` ·
+# `bos:"devletsiz"`. Sahipsizligi KUSUR DEGIL AMAC: Katar yarimadasinin
+# hicbir noktasi yoktu ve `§2` emilmesiyle Ukayr'in (Lahsa Eyaleti, OSMANLI)
+# petegine dusup 1550'den beri kirmizi boyaniyordu. Emre'nin H-0021
+# sikayeti ("Bahreyn'deki kirmizilik garip bir bozukluk gibi") tam buydu ve
+# kaynagi Bahreyn DEGILDI.
+# ⚠️ Dosya 20 Agustos'ta yazilmis, SEKIZ GUN baglanmamis bekledi: olcum
+# yapilmis, care yazilmis, haritaya hic inmemisti.
 # 🔴 228 -> 214, 18 Agustos 2026 — 13 DOLGU NOKTASI EMEKLIYE AYRILINCA.
 #    Emre'nin hukmu: "devletsiz alanlari emekli edelim." Olculdu (0cf702b):
 #    adi cografi alan olan 36 dolgu noktasi tek tek kaldirilip "toprak kime

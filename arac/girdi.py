@@ -525,6 +525,22 @@ GIRDI_DOSYALARI = [
     # ⚠️ `yerlesimler_8beb2b.js` BİLEREK BAĞLANMADI: dosya var, 165 satır,
     # ama kayıt dizisi BOŞ (0 nokta — node ile ölçüldü). Bağlamak hiçbir şey
     # eklemez, ama "bağlı" görünmesi sahibinin işini BİTMİŞ gösterir.
+    # ---- 28 Ağustos 2026 · körfez dolgu noktası --------------------------
+    # TEK kayıt: "Katar Yarımadası (iç, dolgu)" — `tur:"bolge"`, sahiplenmez.
+    # NİÇİN: Emre'nin H-0007/H-0021 şikâyeti ("Bahreyn'deki kırmızılık garip
+    # bir bozukluk gibi") ölçüldü ve kaynağı Bahreyn DEĞİLDİ: Katar
+    # yarımadasının hiçbir noktası yoktu (Doha ancak `kur:"1825-01-01"`den
+    # sonra var), bu yüzden yarımada `§2` emilmesiyle en yakın sahipli noktaya
+    # — Ukayr, Lahsa Eyaleti, OSMANLI — düşüyor ve 1550'den beri kırmızı
+    # boyanıyordu. Lahsa'nın idaresi kıyı şeridiyle sınırlıydı; yarımadanın o
+    # dönemde merkezî idare kaydı yok (ilk somut bağ 1868/71 Osmanlı-Katar
+    # kazâsı). Dolgu noktası Ukayr peteğinin yarımadayı yutmasını keser.
+    # 3 km mükerrer ölçüldü: en yakın nokta Doha, 59,5 km.
+    # ⚠️ Dosya 20 Ağustos'ta yazılmış ve BAĞLANMAMIŞTI — ölçüm yapılmış, çare
+    # yazılmış, ama haritaya hiç inmemişti. Sekiz gün boyunca `denetle.py`
+    # temiz raporladı, çünkü denetimler "yama UYGULANDI mı" diye sorar,
+    # "yama BAĞLANDI mı" diye sormaz.
+    "yerlesimler_ek_korfez.js",       # Katar yarımadası dolgu (1 nokta)
 ]
 
 YAKINLIK_ESIK_KM = 3.0          # CLAUDE.md §11: 3 km içinde ikinci nokta açma
@@ -717,7 +733,26 @@ def _cevir(js, degisken):
     anahtar = f"window.{degisken} = "
     govde = js[js.index(anahtar) + len(anahtar):]
     govde = govde[:govde.rindex("]") + 1]
-    j = re.sub(r'([{,]\s*)([A-Za-zçğıöşüÇĞİÖŞÜ_]\w*)\s*:', r'\1"\2":', govde)
+    # 🔴 ANAHTAR TIRNAKLAMA DİZELERİN DIŞINDA YAPILIR — 28 Ağustos 2026.
+    #   Eski hâli gövdenin TAMAMINA `re.sub` uyguluyordu ve `neden:`/`kaynak:`
+    #   gibi PROZA alanlarının İÇİNDE de eşleşiyordu. Gerçekleşen vaka
+    #   (`yerlesimler_ek_korfez.js`): metinde "…Doha kaydı, v: 1871'den
+    #   başlıyor…" geçiyor; `, v:` bir ALAN sanılıp `, "v":` yapıldı ve JSON
+    #   çöktü — dosya bağlandığı an bütün üretim durdu.
+    #   ⚠️ Ve kusur veride DEĞİLDİ: kayıt geçerli JS'ti, hiçbir kuralı
+    #   çiğnemiyordu. Bir açıklama metninde `, d:` `, s:` `, v:` yazmak
+    #   yasak olamaz — o yüzden çare veriyi değil ARACI düzeltmekti.
+    #   📌 `CLAUDE.md`nin "iki araç aynı veriyi farklı katılıkta okuyor"
+    #   ailesinin üçüncü vakası (sondaki virgül · bölünmüş dize · bu).
+    _dize = re.compile(r'"(?:[^"\\]|\\.)*"')
+    _anahtar = re.compile(r'([{,]\s*)([A-Za-zçğıöşüÇĞİÖŞÜ_]\w*)\s*:')
+    _parca, _son = [], 0
+    for _m in _dize.finditer(govde):
+        _parca.append(_anahtar.sub(r'\1"\2":', govde[_son:_m.start()]))
+        _parca.append(_m.group(0))        # dizenin İÇİNE DOKUNULMAZ
+        _son = _m.end()
+    _parca.append(_anahtar.sub(r'\1"\2":', govde[_son:]))
+    j = "".join(_parca)
     # JS'te dizi/nesne sonundaki fazladan virgül geçerli, JSON'da değil.
     j = re.sub(r',(\s*[\]}])', r'\1', j)
     # JS'te uzun metin "a" + "b" diye bölünebilir, JSON'da bölünemez. goller.js'in
