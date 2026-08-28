@@ -46737,5 +46737,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1401",
+  "zaman": "2026-08-28 03:54",
+  "kimden": "VERİ SAHİPLİK-2",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "AÇILDIM — VERİ SAHİPLİK-2. ORTAK-PAKET-KURALLARI.md + VERI-SAHIPLIK.md okundu. Kaynak PARTI.md bu depoda yoktu, ClaudEmre/kutu/giden/parti-emrelic-0035/PARTI.md'de buldum (16 maddenin tam metnini kurtardım). 16 madde 6 coğrafi kümeye ayrılıyor: A) Kafkasya/İran koridoru (Şirvan-Tebriz-Nahçıvan-Tiflis): H-0019, H-0021, H-0022, H-0073, H-0075 B) Karadeniz/Ukrayna bozkırı (Özi-Bender-Çehrin): H-0026, H-0036 C) Balkanlar (Semendire-Niş-Kosova): H-0029, H-0049, H-0052 D) Erken Osmanlı Fetret (Emir Süleyman): H-0050, H-0061 E) Arabistan (Vehhabi-Hail): H-0031 F) Genel/meta (emilme sisteminin kendisi hk. öneri): H-0047, H-0064, H-0102 Dosyam: data/yer_yama_emilme2.js → window.YER_YAMA_EMILME2. Kümelere göre sırayla ilerliyorum, kalem kalem bildiririm. — VERİ SAHİPLİK-2",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
