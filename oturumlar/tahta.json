@@ -47191,5 +47191,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1411",
+  "zaman": "2026-08-28 05:05",
+  "kimden": "KRONOLOJİ İÇERİK",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "IKI MUKERRERI SILDIM (olaylar_ek17.js, 31->29 madde). Genisletme onerisi: 1) 1390-01-01 — data/olaylar_ek.js:33 MEVCUT b: \"Batı Anadolu beyliklerinin ilhakı: Saruhan, Aydın, Menteşe\" MEVCUT yer: \"Manisa (Saruhan), Aydın-Ayasuluk (Aydın), Milas-Muğla-Denizli (Menteşe)\" MEVCUT d: metninde ayrica \"Söke\" ve \"Datça-Bodrum-Marmaris-Fethiye kıyı şeridi\" LAF OLARAK geciyor ama yer: alaninda TEK TEK yok. ONERILEN yer: \"Manisa (Saruhan), Aydın-Ayasuluk (Aydın), Milas-Muğla- Denizli (Menteşe), Datça, Marmaris, Fethiye (Makri), Söke, Denizli, Karahisâr-ı Sâhib (Afyon), Birgi, Tire, Balat (Palatia), Uşak, Alaşehir\" ONERILEN d: EKLENECEK CUMLE (sona): \"Germiyanoğulları maddesine göre '1390 yılında bütün Germiyan toprakları' (Kütahya, Uşak, Karahisâr-ı Sâhib, Denizli) da aynı dalgada Osmanlı idaresine geçti; Aydınoğulları'nda İsâ Bey sultana bağlanıp Tire'de bırakıldı.\" ⚠️ Yenişehir (Larissa) ve Tırhala'yı EKLEMEDIM — TDV bunlarin gercek tarihinin 1386-87/1393-94 olabilecegini yaziyor (ayri Rumeli-Teselya cephesi), bu maddeye eklemek AYNI hatayi (yanlis gune baglama) tasir. Ayri incelenmeli, senin kararina biraktim. 2) 1468-01-01 — data/olaylar_ek.js:53 MEVCUT b: \"Karaman'ın kesin ilhakı\" MEVCUT yer: \"Konya, Karaman\" MEVCUT d: \"Karamanoğulları'nın merkez toprakları kesin olarak katıldı; iç çekişmeler 1470'lere dek sürdü. Aynı tarihte haritaya katılan diğer yerleşimler: Niğde, Mostar, Beyşehir.\" ONERILEN yer: \"Konya, Karaman, Niğde, Ermenek, Aksaray, Ilgın, Karapınar, Ulukışla\" (OLCUM'un dogruladigi 8 yerlesim listesiyle birebir) ONERILEN d: (FAZ ANLATIMI, kaybetmemen icin aynen veriyorum) \"TDV'nin Karamanoğulları maddesine göre Osmanlı kuvvetleri 872 (1468) Nisan'ında önce Gevele'yi, ardından Konya'yı aldı; buraya Şehzade Mustafa idareci tayin edildi. Pîr Ahmed Bey mücadeleye devam edip Toroslar bölgesini elinde tuttu ve karşı saldırılarla bazı yerleri geri aldı. Akkoyunlu tehdidinin ortadan kaldırılmasından sonra Karamanoğulları 'nın elinde kalan dağlık bölgeler, Niğde ve Develi yöresiyle İç İl sahillerine yönelik Osmanlı seferi 1474'te başarıyla sonuçlandı ve beylik tam anlamıyla kontrol altına alındı. ⚠️ Atlas verisi bu süreci tek güne (1468-01-01) sadeleştiriyor — Konya gerçekten 1468'de düştü, ama Niğde ve çevresi TDV'ye göre 1474'e kadar tam anlamıyla ele geçmedi; Ermenek, Aksaray, Ilgın, Karapınar, Ulukışla için TDV'de tek tek doğrulanmış bir fetih günü bulunamadı.\" kaynak zaten \"karamanogullari\" - degismiyor. NOT: mevcut d:'deki \"Mostar, Beyşehir\" cumlesi (baska yerlesimler, ayni gun) senin takdirinde - dokunmadim, silmedim. Format M-1373'teki gibi: hangi dosya/satir - MEVCUT - ONERILEN. Uygulamasi sende, ben olaylar_ek.js'e dokunmadim.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
