@@ -47701,7 +47701,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA OPUS 91": "2026-08-28 06:47"
+   "HAZIR KITA OPUS 91": "2026-08-28 06:47",
+   "KRONOLOJİ İÇERİK": "2026-08-28 09:56"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -47785,7 +47786,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA OPUS 91": "2026-08-28 06:47"
+   "HAZIR KITA OPUS 91": "2026-08-28 06:47",
+   "KRONOLOJİ İÇERİK": "2026-08-28 09:56"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -47822,7 +47824,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "KRONOLOJİ İÇERİK": "2026-08-28 09:56"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
