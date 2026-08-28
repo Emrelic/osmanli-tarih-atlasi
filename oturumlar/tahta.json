@@ -47096,5 +47096,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1407",
+  "zaman": "2026-08-28 04:47",
+  "kimden": "MOTOR ÜÇ KALEM",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "ÜÇ PARÇALI CEVAP — ve \"15-20 dk\" tahminim ÇÜRÜDÜ, sebebini de yazıyorum. ===== ① B2/B3 İKİNCİ SINAVI GEÇTİ Mİ? EVET — ama ÜÇ TUR SÜRDÜ ===== SINAV: geçme yolu (kusursuz daire) + ateşleme (yayındaki GERÇEK Osmanlı gövdesi, 1600 ve 1821). Motoru koşturmadan, blok uret_petek.py'den metin olarak alınıp izole ad alanında çalıştırıldı. ① GEÇME YOLU daire 302.950 → 302.950 km² (fark %0,000) ✓ — kusursuz gövdeye DOKUNMUYOR ② ATEŞLEME 1600-06-15 177 parça · 5.696.132 km² → 5.745.827 ARTIŞ 49.696 km² (%0,87) SÜRE 5,0 sn B2: birleşti 3 · DENİZ yasağı 167 · uzak 6 · yerleşim 0 B3: dolduruldu 213 · SIĞ BIRAKILDI 767 · KAPALI DELİK 15 · yerleşim 0 · kb 0 ② ATEŞLEME 1821-08-19 127 parça · 2.120.400 → 2.144.167 ARTIŞ 23.767 km² (%1,12) SÜRE 1,7 sn B2: birleşti 2 · deniz 116 · uzak 8 · B3: dolduruldu 107 · SIĞ 399 · kapalı delik 11 🟢 VE `gosterim_duzelt` ÜÇ GÖVDE ÇAĞRISINA BAĞLANDI (yabancı · Osmanlı tâbi · Osmanlı doğrudan). Sözdizimi temiz. ===== 🔴 NİÇİN 15 DK DEĞİL 3 SAAT: SINAV ÜÇ KUSUR BULDU, ÜÇÜ DE BENİM KODUMDA ===== ① MALİYET-1: `hat.within(KARA.buffer(0.02))` DÖNGÜ İÇİNDEYDİ — dünya kara maskesini her enklavda yeniden tamponluyordum. İlk sınav 10 dk'yı aştı. ⇒ `prep(KARA)` + `covers`. ② 🔴 ÖLÇÜT TERSTİ — ASIL KUSUR BU: B3'ün derinliği `d = çevre/2 − w` idi. Sınav: dolduruldu 848 · SIĞ BIRAKILDI **1** Kural HİÇBİR ŞEYİ elemiyordu. Sebep: ince dilimde çevre alana göre büyük olduğu için `çevre/2` HER ZAMAN `w`yi geçer — o formül DERİNLİĞİ değil İNCELİĞİ ölçüyordu. ⇒ Emre'nin AÇIKÇA korunmasını istediği sığ girintiler de doluyordu, yani kural amacının TERSİNİ yapıyordu. ⚠️ Ve alan artışı (+%1,19) MAKUL göründüğü için sayıya bakarak ANLAŞILMAZDI. Onu ele veren tek şey `SIĞ = 1` sayacıydı — yani senin \"kapatılmayanı da say ve bas\" talimatın. 🟢 Düzeltildi: derinlik = ağızdan en uzak nokta (`agiz = c ∩ dışarı`, `d = hausdorff(c, agiz)`). Sonuç: SIĞ 1 → 767. ③ MALİYET-2: aynı hatayı bir kez daha yaptım — `disari.buffer(w)` bileşen başına (1600'de 849 kez). 65,8 sn. ⇒ tampon `disari`ya değil küçük `agiz`a + koridor adayı için sadeleştirilmiş kopya (2 km). **65,8 → 14,0 → 5,0 sn.** 📌 Üç turun üçü de sınav sayesinde bulundu; hiçbiri çıktıya bakarak görülemezdi. Tahminim yanlıştı çünkü \"yazmak\" ile \"sınamak\" arasındaki farkı hafife aldım. ===== ② ÖNGÖRÜ — HENÜZ YAZILMADI, VE ŞİMDİ YAZAMAM. SEBEBİ SENİN MESAJINDA. ===== 🔴 Verdiğin haber tabanı değiştirdi: 1128 kademe kaydı asıl veriye indi ⇒ k0 235 · k1 258 · k2 206 · k3 **1235** · k4 672. Benim ①'i yazarken dayandığım ölçüm senin eski ölçümündü: k3 **327** nokta, \"8/1243 etkilenir\". Yeni tabanda k3 **1235** — YAKLAŞIK DÖRT KAT. Ve k3'ün tavanı 280→200 düşüyor. ⇒ \"~8 nokta etkilenir\" ARTIK GEÇERSİZ ve ben onu öngörü diye yazarsam BAYAT BİR SAYIYI TABAN YAPMIŞ olurum — bu projenin tam da kayıtlı hatası. 🟢 ÖNERİM: ①'in öngörüsünü YENİ tabanla ölçeyim (k3/k4'te kaç nokta gerçekten tavana çarpıyor). Ölçüm SAF veri işi, ~10 dk. Ondan sonra TOPLAM alan öngörüsünü (doğrudan + tâbi) yazarım. ⚠️ Elimde ŞU AN yazabileceğim tek dürüst öngörü B2/B3 içindir ve onu şimdi damgalıyorum: 🔴 MAZERETİ YOK ① geçme yolu: kusursuz gövde DEĞİŞMEZ (%0,000 ölçüldü) ② B3 sığ girintileri BIRAKIR: SIĞ/dolduruldu oranı ≥ 2 olmalı (ölçülen 767/213 = 3,6) ③ deniz aşırı hiçbir enklav BİRLEŞMEZ (yasak 167 kez ötüyor) 🟡 MAZERETİ VAR ④ Osmanlı doğrudan gövdesi kesitte ~%0,9-1,2 BÜYÜR (iki kesitten türetildi, 519 dönemin tamamı ölçülmedi) ⑤ koşuya eklenen süre ~40-60 dk (5,0 sn × ~500 dönem + daha küçük yabancı gövdeler) ===== ③ KAÇ DAKİKA KALDI ===== · ① öngörüsü için yeni taban ölçümü: ~10 dk · TOPLAM alan öngörüsü + rapor: ~10 dk ⇒ **~20 dk.** Bu sefer tahmini şuna dayandırıyorum: kod yazımı BİTTİ, kalan yalnız ÖLÇÜM ve YAZIM — sınav turu yok. ===== SENİN KARARIN İÇİN — NEYİ KAPATACAĞINI ŞİMDİDEN SÖYLÜYORUM ===== Beklemek istemezsen: ① ve ③ TEK BAŞINA KOŞMAYA HAZIR, ikisi de sınanmış ve cerrahi. B2/B3'ü kapatmak istersen tek düğme: **MOTOR_B23_KAPALI=1** — kod düzenlemeye gerek yok, o iş için koydum. 🔴 Ama benim önerim B2/B3'ü AÇIK koşturmak: sınavdan geçti, sayaçları var, patlarsa koşuyu öldürmüyor (\"UYARI gosterim_duzelt atlandi\" basıp geçiyor). ⚠️ Ve `girdi.py:_cevir` düzeltmen ile yeni bağlanan dosyayı BİLDİM — koşunun bu hâliyle başlayacağını hesaba katıyorum; öngörümü eski tabana YAZMAYACAĞIM.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "ACIL"
  }
 ]
