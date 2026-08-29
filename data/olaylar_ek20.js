@@ -275,40 +275,20 @@ window.OLAYLAR_EK20 = [
 //    📌 Kendi ölçütümün bana dönüşü: "gün kaydırması ancak HEDEF MADDE
 //    AYNI OLAYI ANLATIYORSA meşrudur" — burada anlatıyor.
 
-// ⑮ 0003/H-0017 — İzvornik'in kendi kırılması 1460-01-01'de var ama özel
-//    maddesi yok; Amasra maddesine yapışıyor ("yanlış maddeye yapışma").
-//    TDV `izvornik` YILI veriyor, GÜNÜ VERMİYOR:
-//      "Osmanlılar burayı 1460'ta fethettiler, idarî ve askerî açıdan iyi
-//       konumda bulunduğundan bir kaza merkezi yaptılar."
-{ t:"1460-01-01",
-  b:"İzvornik'in fethi — Drina boyunda Osmanlı kaza merkezi",
-  tur:"fetih",
-  onem:1, dunya:1, kapsam:"ic",
-  etiket:["toprak-kazanc"],
-  yer:"İzvornik",
-  yer_id:"İzvornik",
-  kisiler:"Fâtih Sultan Mehmed",
-  d:"Osmanlılar Drina nehri kıyısındaki İzvornik'i 1460'ta fethettiler ve idarî ile askerî açıdan elverişli konumu sebebiyle burayı bir kaza merkezi yaptılar. Şehir, Bosna'nın fethinden üç yıl önce alınarak Drina hattında ileri bir üs oluşturdu. İlk müslüman yerleşimi İzvornik'in üst kesiminde Fâtih Sultan Mehmed zamanında ortaya çıktı ve daha o dönemde Fâtih'in adını taşıyan bir cami yaptırıldı; şehir 1460-1600 arasında yoğun bir İslâmlaşma ve imar hareketiyle süratle gelişti. TDV maddesi yılı veriyor, günü vermiyor.",
-  kaynak:"izvornik" },
-
-// ⑯ 0023/H-0010 — Emre: "Eğriboz kuşatmasının püskürtülmesi maddesinde
-//    Knin'in düşmesi görüntüleniyor; ayrı bir madde tahsis edilmeli."
-//    ÖLÇTÜM: Knin d: 1522-05-29 → 1688-09-11, sonra `venedik`. Kırılma
-//    gerçek, müstakil maddesi yoktu.
-//    ⚠️ KAYNAK TANECİĞİ: `knin` slug'ı ÖLÜ (302). `dalmacya` maddesi
-//    okundu — Knin ve 1688 HİÇ geçmiyor. Kapsayıcı `karlofca` maddesi
-//    çerçeveyi veriyor ("Venedikliler'in Mora yarımadasından kuzeye
-//    ilerleyerek Atina'yı, Dalmaçya ve Bosna'da birçok kaleyi işgal
-//    etmeleri") ama Knin'i ADIYLA anmıyor. Gün standart akademik anlatıdan.
-{ t:"1688-09-11",
-  b:"Knin'in Venedik'e kaybı — Dalmaçya içlerinde Osmanlı hattının çöküşü",
-  tur:"savas",
-  onem:2, dunya:1, kapsam:"dis",
-  etiket:["toprak-kayip","savas"],
-  yer:"Knin",
-  yer_id:"Knin",
-  kisiler:"",
-  d:"Kutsal İttifak savaşlarının Dalmaçya cephesinde Venedik kuvvetleri, 1522'den beri Osmanlı elinde bulunan Knin kalesini ele geçirdi. Knin, Dalmaçya kıyı şeridiyle Bosna içlerini bağlayan geçidin kilidiydi; düşmesiyle Venedik ilk kez kıyıdan içeriye kalıcı biçimde sarktı ve Osmanlı'nın Adriyatik hinterlandındaki savunma hattı geri çekildi. TDV'nin Karlofça maddesi bu dalgayı genel olarak anıyor — Venedikliler'in Mora'dan kuzeye ilerleyerek Dalmaçya ve Bosna'da birçok kaleyi işgal etmesi — ancak Knin'i adıyla zikretmiyor; kalenin müstakil TDV maddesi de yoktur. Knin'in Venedik'te kalışı 1699 Karlofça Antlaşması'yla tescil edilecektir.",
-  kaynak:"karlofca" },
+// ⑮ 0003/H-0017 · ⑯ 0023/H-0010 — İKİ MADDE YAZILDI VE GERİ ALINDI.
+//    🔴 İKİSİ DE KÜLLİYATTA ZATEN VARDI — ölçtüm, `data/olaylar_ek8.js`:
+//        "İzvornik (Zvornik) kalesinin fethi"                 t: 1460-01-01
+//        "Knin'in Venedik'e kaybı — 166 yıllık Dalmaçya …"    t: 1688-09-11
+//      İkisi de commit `bfa5609`, 27 Ağustos 2026 17:43 — yani şartnameme
+//      girmeden ÜÇ GÜN ÖNCE yazılmışlar.
+//    ⇒ `GECE-KRONOLOJI.md`nin "özel maddesi yok" / "müstakil kronoloji
+//      maddesi yok" notları BAYAT. Ben o notlara güvendim ve iki mükerrer
+//      madde yazdım; `denetle.py`nin mükerrer denetimi ikisini de yakaladı
+//      ([kişi!fethi,izvorn] ve [başlık] çiftleri).
+//    📌 `CLAUDE.md §11`in "istenen şeyin altyapısı zaten vardı" deseni —
+//      ve çaresi de orada yazılı: madde yazmadan önce `git log -S` ile
+//      külliyatı ara. Şartnamedeki bir "yok" ifadesi bir İDDİADIR,
+//      ölçüm değildir. Bu turda o iki ölçümü ATLADIM; kaydı budur.
+//    ⚠️ Eski maddeler DURUYOR ve doğrudur; benimkiler kaldırıldı.
 
 ];
