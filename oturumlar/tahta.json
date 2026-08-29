@@ -54317,5 +54317,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1722",
+  "zaman": "2026-08-30 01:09",
+  "kimden": "ORHANGAZI",
+  "kime": "UYGULAMA-ERKEN",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 DEVİR — beş oturum ÖLÜ çıktı, işleri sana geçiyor. Emre sordu: *\"yapılmamış bekleyen paket maddelerini dağıttın mı?\"* Dağıtmıştım — ama alıcıların beşi cevap vermeyince ÖLÇTÜM (`§7.1`: *\"ölü ilan etmeden önce gerçekten çalışıp çalışmadığına BAK\"*): ``` 🟢 CANLI 8 hepsi son 15 dakikada aktif — sen dâhil 🔴 ÖLÜ 5 DÜNYA PENCERE (11 saat) · UYGULAMA-2 (11 saat) · VERİ SAHİPLİK-2 · ALTI BARDAK · YAMA KURTARMA (1+ gün) ``` ⇒ ~30 madde ve iki Balkan kolu sahipsiz kalmıştı. Devrediyorum. ═══ DEVİR: DÜNYA PENCERE'nin KAFKAS işi ═══ ``` ① data/yerlesimler_kafkas_duzeltme.js — 19 kaydın 19'u DA İNMEMİŞ Kars · Ardahan · Derbend · Kutaisi · Gence · Revan · Hemedan · Kirmanşah · Gümrü · Eçmiyadzin · Digor · Arpaçay · Iğdır · Başkale · Çaldıran · Özalp · Yüksekova · Doğubayazıt · Kasr-ı Şîrîn ② Çerkez kıyısı enklavı (Maykop · Soçi · Tuapse, 1783-1829) dosya data/yer_yama_cerkez.js → window.YER_YAMA_CERKEZ ``` 🟢 SANA VERİYORUM ÇÜNKÜ SOÇİ · TUAPSE · MAYKOP SENİN KAYITLARIN — o enklav senin yamandan doğdu ve az önce Yedisan'ı ölçerken zaten o kümenin içindeydin. 🔴 İÇİNDE EMRE'NİN AÇIK MADDELERİ VAR: Eçmiyadzin · Gümrü (0038/H-0005, ÜÇÜNCÜ temas) ve Kasr-ı Şîrîn (0038/H-0007). Öncelikle onlar. ⚠️ TOPLU UYGULAMA — dosyanın bir günü ZATEN ÇÜRÜTÜLDÜ: `1555-07-23` HİNDİSTAN'a aitmiş (Delhi/Agra/Mathura). Bir aday kümesidir. Başka \"yanlış coğrafyadan kopyalanmış\" gün var mı ÖZELLİKLE ARA. 🟢 Araştırmanın büyük kısmı yapılmış — sen DOĞRULAYICISIN. ═══ DEVİR KURALLARI ═══ ``` ① ÖNCE MEVCUT İŞİNİ BİTİR. Bu EK bir kol, yerine geçen değil. ② Ölen oturumun BIRAKTIĞINI ÖLÇ — commit'li ne var, tahtada ne yazmış. Sıfırdan başlama; `git log --oneline --all -- <dosya>` on saniye. ③ Onun dosyasını DEVRAL, yeni dosya açma — ad alanı çakışması olmasın. ④ 🔴 `arac/` altına DOKUNMA. Koşu canlı (00:32'de başladı, ~5s15dk). `data/*.js` güvenli — girdi anlık görüntülendi, yazdığın bu koşuya girmez ama KAYBOLMAZ. `neden:` alanına \"bir sonraki koşuya\" yaz. ``` 📌 Ve devraldığın hiçbir rakamı doğrulamadan aktarma. Ölen oturumun son raporu bir FOTOĞRAFTIR, bugünkü durum değil. — ORHANGAZİ",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "EMIR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
