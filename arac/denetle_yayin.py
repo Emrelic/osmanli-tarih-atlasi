@@ -347,6 +347,24 @@ CIZILMEYEN_MUAF = {
     #   yeniden bulunur — bu satır o kaydın kendisidir.)
     "GECITLER": "63 geçit noktası — motor tarafı yazılmadı, BEKLİYOR (22 Ağu 2026)",
 
+    # 🟡 29 AĞUSTOS 2026 — 8. BOYUT, ve muafiyetin sebebi bir KARAR.
+    # `olaylar_ek19.js` Fransız Devrimi maddesini taşıyor (UYGULAMA-0035,
+    # paket 0035/H-0043 + H-0091). Emre'nin ② kararı (`oturumlar/
+    # EMRE-KARARLARI-29AGU.md`): *"8. boyut açılsın ama AYARA BAĞLI olsun,
+    # kapatılabilsin açılabilsin kullanıcı ayarlarından"* — **varsayılan
+    # KAPALI.**
+    # 🔴 ŞİMDİ BAĞLANSAYDI KARARI ÇİĞNERDİ: madde kronolojide KOŞULSUZ
+    #   görünür, oysa kullanıcı onu açmamış olacak. Yani kapı "çizilmiyor"
+    #   diye ötüyordu ve HAKLIYDI — ama çare bağlamak değil, BEKLEMEK.
+    # ⚠️ Ve bekleyen şey ölçülmüş: ARAYÜZ süzgecinin `kapsam:"konu"` mü
+    #   `boyut:8` mi okuyacağı HENÜZ KESİNLEŞMEDİ (M-1518'de iki öneri de
+    #   duruyor). Süzgeç kararı verilmeden bağlamak, sonra geri almak olur.
+    # 🔴 KALDIRILACAK: ARAYÜZ süzgeci + ayar indiği gün bu satır SİLİNİR ve
+    #   `data/olaylar_ek19.js` `index.html`e bağlanır.
+    "OLAYLAR_EK19": "8. boyut (Fransız Devrimi) — ARAYÜZ süzgeci ve ayarı "
+                    "inmeden bağlanmaz; Emre'nin ② kararı varsayılanı KAPALI "
+                    "istiyor (29 Ağu 2026)",
+
     # 🟡 29 AĞUSTOS 2026 — ÜÇ BAĞLANMAMIŞ DOSYA, ve üçü de TUTARLI durumda.
     # Kapı "index.html YÜKLEMİYOR" diye öttü ve HAKLIYDI; ama ölçüldü:
     # üçü `girdi.py`de de YOK. Yani motor da okumuyor, tarayıcı da —
@@ -987,6 +1005,39 @@ def main():
                                "çıktısı, tarayıcıya bilerek gitmez",
     }
 
+    # ── ARA ÇIKTI, DESEN TABANLI ve KANITA BAĞLI ─────────────────────────
+    # 🔴 29 Ağustos 2026: bu dal 45 dosyayı "yetim" sayıyordu ve KIRKI
+    #   `yer_yama_*` YAMA DOSYASIYDI. Soru yanlış kurulmuştu: *"index.html
+    #   ya da girdi.py okuyor mu"* diye soruyordu, oysa bir YAMA dosyasının
+    #   doğru sorusu *"UYGULAYICISI var mı"*dır. Tarayıcı onu hiçbir zaman
+    #   yüklemeyecek, motor hiçbir zaman okumayacak — bu tasarım.
+    #
+    # 🟢 AMA MUAFİYET ELLE LİSTE DEĞİL, KANITA BAĞLI: aşağıdaki uygulayıcı
+    #   dosyanın VAR OLMASI ve içinde dizin taraması deseninin BULUNMASI
+    #   şart. Uygulayıcı silinirse muafiyet de ölür ve dosyalar yeniden
+    #   "yetim" diye öter.
+    #   ⇒ `CLAUDE.md`: *"kabul edilmiş bir borç kayıtsız kalırsa yarın
+    #     kusur diye yeniden bulunur"* — bunun tersi de doğru: gerekçesi
+    #     ortadan kalkmış bir muafiyet, sessizce YALAN söylemeye başlar.
+    #
+    # ⚠️ VE YALNIZ BU AİLE MUAF. Aynı taramada tüketicisi HİÇ OLMAYAN altı
+    #   dosya bulundu ve muaf EDİLMEDİ — onlar gerçek bulgudur:
+    #     etiket_sozluk · etiket_yama · gecitler ·
+    #     yama_kronoloji_eslesme · yer_kron_anadolu · yer_kron_dogu
+    _ARA_DESENLER = []
+    for _uyg, _iz, _ac in (
+            ("arac/yama_uygula.js", "yer_yama", "kronoloji eşleşmesini uygular"),
+            ("arac/_sahiplik_uygula.py", "yer_yama", "sahiplik yamasını uygular")):
+        _y = os.path.join(KOK, _uyg)
+        try:
+            _m = io.open(_y, encoding="utf-8", errors="replace").read()
+        except Exception:
+            continue
+        if "yer_yama" in _m and "readdir" in _m.replace("listdir", "readdir"):
+            _ARA_DESENLER.append((re.compile(r"^data/yer_yama.*\.js$"),
+                                  "%s tarar — %s" % (_uyg, _ac)))
+            break      # bir kanıt yeter; ikisi de aynı aileyi tarıyor
+
     diskte, kayitsiz, bekleyen_bulunan, emekli_bulunan = [], [], [], []
     ara_bulunan = []
     veri_dizini = os.path.join(KOK, "data")
@@ -1003,6 +1054,8 @@ def main():
             elif yol in EMEKLI:
                 emekli_bulunan.append(yol)
             elif yol in ARA_CIKTI:
+                ara_bulunan.append(yol)
+            elif any(rx.match(yol) for rx, _ in _ARA_DESENLER):
                 ara_bulunan.append(yol)
             else:
                 kayitsiz.append(yol)
