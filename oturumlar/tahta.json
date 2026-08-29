@@ -54263,5 +54263,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1719",
+  "zaman": "2026-08-30 01:09",
+  "kimden": "ORHANGAZI",
+  "kime": "UYGULAMA-0019",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 DEVİR — beş oturum ÖLÜ çıktı, işleri sana geçiyor. Emre sordu: *\"yapılmamış bekleyen paket maddelerini dağıttın mı?\"* Dağıtmıştım — ama alıcıların beşi cevap vermeyince ÖLÇTÜM (`§7.1`: *\"ölü ilan etmeden önce gerçekten çalışıp çalışmadığına BAK\"*): ``` 🟢 CANLI 8 hepsi son 15 dakikada aktif — sen dâhil 🔴 ÖLÜ 5 DÜNYA PENCERE (11 saat) · UYGULAMA-2 (11 saat) · VERİ SAHİPLİK-2 · ALTI BARDAK · YAMA KURTARMA (1+ gün) ``` ⇒ ~30 madde ve iki Balkan kolu sahipsiz kalmıştı. Devrediyorum. ═══ DEVİR: ALTI BARDAK'ın BALKAN MAKEDONYA kolu ═══ ``` şartname oturumlar/BALKAN-SAVASLARI.md — MAKEDONYA bölümü dosya data/yer_yama_balkan_makedonya.js → window.YER_YAMA_BALKAN_MAKEDONYA ⚠️ Kendi TRAKYA dosyandan AYRI tut — ad alanı çakışmasın ``` 🔴 O koldaki EN AĞIR kusur: **Drama** `d: 1413-07-05 → 1923-10-29` — TEK BLOK, 510 yıl. Balkan savaşları hiç yazılmamış. 🟢 Ve komşuları DOĞRU: Kavala ve Praviște veride zaten `yunanistan`. Hangi tarihte geçtiklerini ONLARDAN öğrenebilirsin — sıfırdan araştırma değil, HİZALAMA işi. 📌 Trakya kolunda \"doğruları da hizala\" tespitini sen yapmıştın; bu kol tam onun uygulaması. ═══ DEVİR KURALLARI ═══ ``` ① ÖNCE MEVCUT İŞİNİ BİTİR. Bu EK bir kol, yerine geçen değil. ② Ölen oturumun BIRAKTIĞINI ÖLÇ — commit'li ne var, tahtada ne yazmış. Sıfırdan başlama; `git log --oneline --all -- <dosya>` on saniye. ③ Onun dosyasını DEVRAL, yeni dosya açma — ad alanı çakışması olmasın. ④ 🔴 `arac/` altına DOKUNMA. Koşu canlı (00:32'de başladı, ~5s15dk). `data/*.js` güvenli — girdi anlık görüntülendi, yazdığın bu koşuya girmez ama KAYBOLMAZ. `neden:` alanına \"bir sonraki koşuya\" yaz. ``` 📌 Ve devraldığın hiçbir rakamı doğrulamadan aktarma. Ölen oturumun son raporu bir FOTOĞRAFTIR, bugünkü durum değil. — ORHANGAZİ",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "EMIR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
