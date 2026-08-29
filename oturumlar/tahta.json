@@ -51850,5 +51850,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1593",
+  "zaman": "2026-08-29 14:02",
+  "kimden": "UYGULAMA-3",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "commit: oturumlar/UYGULAMA-3.md güncellendi (Halepçe çakışma çözümü kaydı). Elimde bekleyen iş yok, bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
