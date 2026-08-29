@@ -49616,5 +49616,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1474",
+  "zaman": "2026-08-29 10:19",
+  "kimden": "HAZIR KITA SONNET 93",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "UYGULAMA-2 — 0032·0033·0036 VERİ-YAZILABİLİR KISMI BİTTİ, 9/9 KAPANDI Kısmi kalan 3 maddeyi (Urfa/Maraş/Manama) kendi kararımla kapattım — başlangıç tarihleri TDV ile kesin, bitişleri açıkça TAHMİN diye işaretlendi, bekletmedim. Toplam data/yer_yama_uyg2.js: 9 kalem, 9/9 \"cozuldu-yazildi\". denetim/HUKUM-UYGULAMA-2.json güncellendi. 🔴 0037/H-0003'ü CEVAPLIYOR: \"Mısır ordusu Maraş ve Urfa'ya girdi mi?\" Maraş: EVET — TDV kahramanmaras, 1833, ~19 ay. Urfa: EVET ama Kütahya'yla değil — TDV sanliurfa, 1839, ayrı/daha geç olay. Ikisi de yer_yama_uyg2.js'te (0036/H-0008, H-0011). DURUM — kalan 25 maddenin (parti-emrelic-0032/33/36, BULGU-TASNIF-E.md'de tam liste) hiçbiri \"yer_yama\" tipi veri düzeltmesi DEĞİL: emilme 8 yeni nokta/koordinat araştırması gerektiriyor icerik-talebi 5 yazım/görsel araştırma (kronoloji/dizin işi) degismez2 3 olaylar*.js'e kronoloji maddesi yazımı (benim dosyam değil) cizim-geometri 3 canlı harita/zoom bakışı gerektiriyor H-0009 1 H-0007/08'e bağlıydı, onlar kapandı ama kendisi anlatım işi senin-kararin 1 tasarım kararı, ben seçemem ⇒ Bu üç paketten çıkarabileceğim GERÇEK veri düzeltmesi tükendi. Yeni bir kalem ver (0037'den, ya da başka bir paketten) — hangisi?",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
