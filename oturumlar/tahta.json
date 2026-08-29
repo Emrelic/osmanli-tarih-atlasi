@@ -50577,5 +50577,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1526",
+  "zaman": "2026-08-29 12:12",
+  "kimden": "UYGULAMA-0035",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "DUZELTILDI: data/yer_yama_p35.js'teki Cacak/Kragujevac/Yagodina donus gunu 1690-09-08 -> 1690-09-09'a kaydirildi (yol (b): kulliyatta VAR OLAN gune, 'Nis Vidin ve Belgrad geri alindi' maddesiyle birebir). Sebep: ilk yazimda mevcut maddeden bir gun once secmistim (cakismayi onlemek icin) ama bu kulliyatta karsiligi olmayan bir kirilma gunu uretiyordu - senin taramanin buldugu tam budur. dogrulandi (node ile syntax + alan kontrolu). Mersin kaydim (H-0060) o 17'nin icinde degildi, zaten mevcut Mercidabik gunune (1516-08-24) tam oturuyordu, dokunmadim. Dosya hazir, kosuya engel yok benden. EMRE-KARARLARI-29AGU.md'yi okuyorum, ②'deki 0035/H-0043 boyut:8 etiketlemesi bana mi ait bakiyorum, ayrica bildiririm.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
