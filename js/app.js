@@ -3503,6 +3503,14 @@ function olaylarAnahtarSiraNo(k) {
   var m = k.match(/^OLAYLAR_EK(\d*)$/);
   return m ? (m[1] ? +m[1] : 1) : 999;
 }
+// 🔴 8. BOYUT SÜZGECİ — EMRE-KARARLARI-29AGU.md §②. Varsayılan KAPALI;
+// `localStorage`ta kayıt yoksa `kapsam:"konu"` maddeleri `olaylar`e HİÇ
+// GİRMEZ (aşağıdaki .filter). Açık olduğunda dahil olurlar. Bilerek dizi
+// KURULMADAN ÖNCE, tek seferde okunuyor — `olaylar` sayfa boyunca sabit bir
+// dizi ve onu kuran onlarca yer (`olaylarGuncelle`, ikili arama, `olayDom`)
+// "TOPLAM" olarak `olaylar.length`i varsayıyor; ayar değişince sayfa
+// yenilenir (aşağıda `dunya-ac` dinleyicisi), yarı yolda süzülmez.
+var dunyaAcik = localStorage.getItem("dunyaAc") === "1";
 var akisModu = null;   // aşağıda zaman kontrolü bölümünde atanır
 var olayListe = document.getElementById("olay-listesi");
 var olaylar = Object.keys(window)
@@ -3512,6 +3520,7 @@ var olaylar = Object.keys(window)
     return f !== 0 ? f : (a < b ? -1 : a > b ? 1 : 0);
   })
   .reduce(function (acc, k) { return acc.concat(window[k] || []); }, [])
+  .filter(function (o) { return dunyaAcik || o.kapsam !== "konu"; })
   .map(function (o) {
   var kaba = gunIdx(o.t);
   return Object.assign({ gi: o.t.split("-").length > 2 ? kaba : gunMetniIdx(o.gun, kaba) }, o);
@@ -5720,6 +5729,22 @@ var duyguAcEl = document.getElementById("duygu-ac");
   duyguAcEl.addEventListener("change", function () {
     localStorage.setItem("duyguAc", duyguAcEl.checked ? "1" : "0");
     document.documentElement.classList.toggle("duygu-kapali", !duyguAcEl.checked);
+  });
+})();
+
+// 🔴 8. BOYUT anahtarı — EMRE-KARARLARI-29AGU.md §②. `olaylar` dizisi bu
+// ayarı SAYFA YÜKLENİRKEN bir kez okuyup kurulduğu için (yukarıda,
+// `dunyaAcik`), burada yalnız checkbox'ın kendi hâlini gösterip
+// değiştiğinde SAYFAYI YENİLİYORUZ — yarım bir "süzme" değil, dizinin
+// baştan (yeni ayarla) kurulmasını garantiliyor. `duygu-ac`'ın tersine
+// varsayılan KAPALI: `checked` HTML özniteliği kasıtlı olarak YOK.
+var dunyaAcEl = document.getElementById("dunya-ac");
+(function () {
+  if (!dunyaAcEl) return;
+  dunyaAcEl.checked = dunyaAcik;
+  dunyaAcEl.addEventListener("change", function () {
+    localStorage.setItem("dunyaAc", dunyaAcEl.checked ? "1" : "0");
+    location.reload();
   });
 })();
 
