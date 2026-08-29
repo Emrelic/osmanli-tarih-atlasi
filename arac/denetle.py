@@ -1525,7 +1525,35 @@ D7_ADA_MUAF = frozenset((
 # vakasını kapattı: o kayıt bir dolgu noktası yüzünden tecrit muafiyetini
 # kaybetmişti. Katar'ın açtığı iki kayıt da aynı düzeltmeyle kapandı.
 # Ölçüldü: yamasız 488 · yamalı 485 · YENİ doğan ihlal 0.
-BEKLENEN_ENKLAV_SORGU = 485
+#
+# 🟡 485 -> 488, 29 Ağustos 2026 — ve bu bir BORÇ ÖDEMESİ DEĞİL, BORÇ KAYDI.
+#   Yukarıdaki 486->485 hareketi bir kusur kapattığı için tavanı İNDİRİYORDU.
+#   Bu hareket TERS YÖNDE ve sebebi de ters: sahiplik yaması (commit 3cf33e9 +
+#   08ab66d, 25 kayıt) DOĞRU dönemler yazdı ve doğru dönemler YENİ SORU doğurdu.
+#   ⇒ Sayının büyümesi bir gerileme değil; `CLAUDE.md`: *"hassasiyet yalnız
+#     doğruluk değil, GÖRÜNÜRLÜK meselesidir."*
+#
+#   Fark tek tek ölçüldü (yamadan önceki ve sonraki `--ayrinti` listeleri
+#   diff'lendi), UYDURULMADI. Yamalar 7 soru KAPATTI, aşağıdaki 6'yı AÇTI:
+#     1783-04-19  Maykop · Soçi · Tuapse -> OSMANLI   165-241 km   [3]
+#                 ada: Maykop+Sohum+Soçi+Tuapse
+#                 🔴 Sebebi NOKTASIZLIK DEĞİL — ölçüldü: kıyı sık
+#                    (Taman→Anapa 58 km · Anapa→Kuban 132 · Kuban→Tuapse 103).
+#                    Anapa ve Taman Osmanlı, ama ARADAKİ KUBAN RUS elinde.
+#                    Emre'nin ③. kuralı: *"arada başka devletin bölgesi varsa
+#                    bu GERÇEK enklav olabilir, araştırmadan birleştirilemez."*
+#                    ⇒ Nokta yazmak ÇÖZMEZ; araştırma ister. SEVK EDİLDİ.
+#     1404-03-01  Ankara -> suleyman-celebi  200 km                [1]
+#     1411-02-17  Ankara -> mehmed-celebi    191 km                [1]
+#                 Fetret devri; Sivrihisar'ın dönemi düzelince Ankara yalnız kaldı.
+#     1502-01-01  Aşkale+Erzincan+Erzurum+Kemah -> safevi          [1 net]
+#                 Üç ayrı ada TEK adaya birleşti — soru sayısı azaldı, adanın
+#                 kendisi büyüdü. Erzincan'ın Safevî dönemi TDV'den yazıldı.
+#
+# ⚠️ TAVAN SESSİZCE ÇEKİLMEDİ: altısı da `denetim/BULGU-D7-YENI.md`de adıyla
+#   duruyor. Kayıtsız kapatılan borç, yarın KUSUR diye yeniden bulunur — ve
+#   bu projede o iki kez oldu.
+BEKLENEN_ENKLAV_SORGU = 488
 
 
 def _d7_km(a, b):
