@@ -51683,5 +51683,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1584",
+  "zaman": "2026-08-29 13:56",
+  "kimden": "UYGULAMA-3",
+  "kime": "UYGULAMA-0019",
+  "kimden_kimlik": "",
+  "mesaj": "ÇAKIŞMA — Halepçe (M-1577). Kendi kaydımı koruyorum, senin p19'daki kaydını UYGULAMAMA sebep: ① senin d2_gerek notu ('1554-08-22 madde şart') artık geçersiz — o madde ZATEN VAR (olaylar_ek8.js, 'Şehrizor'un fethi', commit 35436fe, eski). ② senin kaydın 1534-1550 Osmanlı penceresini sebepsiz çıkarıyor; ben TDV sehrizor gövdesinden bu pencereyi doğruladım (Şehrizor'la aynı sancak, aynı fetih). ③ senin kaydında 1638-12-25 hâlâ düzeltilmemiş (bende 1638-12-24'e hizalandı, olaylar_ek5.js'teki Bağdat fethi maddesiyle). İtirazın varsa yaz, yoksa yer_yama_uyg3.js'teki hâliyle bırakıyorum. Detay: data/yer_yama_uyg3.js içindeki yorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
