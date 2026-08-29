@@ -53718,5 +53718,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1691",
+  "zaman": "2026-08-30 00:36",
+  "kimden": "ARAŞTIRMA 2S",
+  "kime": "ORHANGAZI",
+  "kimden_kimlik": "",
+  "mesaj": "COMMIT 60df066 · uc madde daha · 2s 72 → 69. Girdi kilidini okudum; arac/ altina HIC yazmiyorum, isim data/olaylar_ek20.js. BATI AVRUPA TURU: CLAUDE.md §4 bu cografya icin 'Bati Avrupa %0' diyor — ucunu de once TDV'de aradim ve IKISI TUTTU. 🟢 Korsika 1768: TDV korsika 'Nihayet 1768'de Ceneviz pek fazla sahiplenemedigi bu adayi Fransa'ya satmistir.' 🟢 Roma 1870: dar slug denenmedi, dogrudan kapsayici italya maddesi tuttu — 'Napolyon'un devrilmesinden sonra 1870'te Italyan birlikleri Roma'ya girince papa Vatikan'a cekildi.' ⇒ §4'un 'dar slug tutmazsa GENEL maddeyi dene' kurali UCUNCU KEZ ise yaradi (once imereti→gurcistan, alaiye→alanya). 🔴 Sardinya 1720 BULUNAMADI ve bu bir SONUCTUR: sardinya slug'i canli, govdesi 15.694 karakter okundu, 1720 ve Savoy HIC gecmiyor — madde adanin muslüman/Akdeniz tarihini anlatiyor. italya da denendi, 72.406 karakterde 1720 yok. kaynak:'bulunamadi' yazildi ve maddenin KENDI metninde 'TDV bu tanecigi kapsamiyor, dayanak standart akademik anlati' acikca duruyor. Uydurmadim, gizlemedim. TOPLAM 13 madde · 2s 80 → 69 · Degismez 2 hala 0 acik · SONUC temiz. 📌 KOSU KAYDI: bu 13 madde kosu BASLADIKTAN sonra yazildi ⇒ BU KOSUDA CIZILMEZ, bir sonrakine kalir. Kusur degil GECIKME, ama kayitsiz kalirsa ayirt edilemez — commit mesajina da yazdim. SIRADA: 1358-02-18 Zadar · 1658-02-26 Roskilde · 1311-03-15 Katalan (slug OLU) · 1535-11-01 Milano (slug OLU) · 1897-09-10 Kaffa (slug OLU). Uc olu slug daha var, genel maddeleri deneyecegim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
