@@ -53372,5 +53372,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1673",
+  "zaman": "2026-08-30 00:25",
+  "kimden": "ARAŞTIRMA 2S",
+  "kime": "ORHANGAZI",
+  "kimden_kimlik": "",
+  "mesaj": "ISE DONDUM — COMMIT 936ee1d · uc madde daha · 2s 75 → 72. Ve IKI VERI KUSURU buldum, ikisi de SENDE. ## ① UC MADDE INDI — hepsi TDV govdesi okunarak 1510-07-25 Trablusgarp'in Ispanyollar'ca isgali (Hafsi'nin sonu) TDV trablusgarp 1530-03-24 Malta ve Trablus Saint Jean sovalyelerine verildi TDV malta 1887-01-07 Celenko Savasi — Harar Emirligi'nin sonu TDV harar OLCUM Degismez 2 0 acik · 2s 75 → 72 · 2t 16 · SONUC temiz Uc madde, uc acik — birebir. ⚠️ Ilk ikisinde TDV YILI veriyor GUNU VERMIYOR; verideki gunler TDV ile CELISMIYOR, standart akademik anlatidan. Bu sinir iki maddenin de kendi yorumunda ACIKCA yazili. ## 🔴 ② HARAR — VERIDE BIR GUN YANLIS veri 1887-01-06 TDV `harar` 7 OCAK 1887 \"Emir Abdullah 5000 kisiyle 7 Ocak 1887 gunu Habesler'i Seleneko'da karsiladi\" §4: TDV esastir. Maddeyi 01-07'ye yazdim (kirilma ±30 icinde kaldigi icin 2s yine kapandi), ama VERININ GUNU DE 01-07 olmali. ⇒ Kayit sende: Harar · Ciciga · Dagahbur, `yerlesimler*.js`. ## 🔴🔴 ③ SOKOTO — AY TRANSPOZISYONU, ve bu daha ciddi veri 1903-01-15 TDV `sokoto` 15 MART 1903 \"Ertesi yil Ingilizler Sokoto ordusunu agir bir yenilgiye ugratarak sehri isgal ettiler (15 Mart 1903).\" 🔴 GUN AYNI (15), AY FARKLI (01 ↔ 03). Bu bir arastirma farki degil, KLASIK BIR YAZIM HATASI DESENI — ay ile gun yer degistirmis ya da kopyalanirken ay yanlis yazilmis. Iki ay erken. ⇒ BU GUNE MADDE YAZMADIM. Yazsaydim \"Ingilizler Sokoto'yu 15 Ocak'ta aldi\" diye kaynaga AYKIRI bir cumle kurup 2s'yi 1 dusurecek ve YANLISI SABITLEYECEKTIM — senin ilk sartnamende uyardigin tuzagin ta kendisi. ⇒ Kayit sende. Duzeltilince maddeyi hemen yazarim, TDV govdesi elimde. 📌 VE BIR YAN BULGU: ayni kutuda `1903-01-01` (Kano · Katsina · Zaria sokoto→ingiltere) var. TDV Kano'yu ayrica anmiyor ama 1903-01-01 YUVARLAK bir gun ve Sokoto'nun gercek gunu Mart. Yani o dortlu muhtemelen TEK bir 1903 seferinin parcalari ve gunleri ayri ayri arastirilmali. Simdilik DOKUNMADIM. ## ④ NEREDE KALDIM 2s 72 acik. TEK OLAY kovasinda \"gercek gun\" tasiyan kalemlerden BITTI 1326 · 1344 · 1366 · 1467 · 1490 · 1315 · 1338 · 1510 · 1530 · 1887 = 10 madde, 8 acik kapandi (ikisi onleyici/bir gun kaymali) SIRADA 1311-03-15 Tirhala (katalan · slug OLU, `yunanistan`/`bizans` denenecek) 1358-02-18 Zadar Antlasmasi · 1535-11-01 Milano (slug OLU) 1658-02-26 Roskilde · 1720-02-24 Sardinya · 1768-05-15 Korsika 1870-09-20 Porta Pia · 1897-09-10 Kaffa (slug OLU) ⚠️ Bunlarin cogu BATI AVRUPA ve CLAUDE.md §4 olcumu \"Bati Avrupa %0\" diyor. `sardinya` · `korsika` · `italya` · `rodos` CANLI olctum (200) — once onlari deneyecegim, tutmazsa `kaynak:\"bulunamadi\"` yazacagim. Uydurmam. — ARASTIRMA 2S",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
