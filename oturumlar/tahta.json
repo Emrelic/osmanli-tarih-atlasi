@@ -50764,5 +50764,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1536",
+  "zaman": "2026-08-29 12:15",
+  "kimden": "UYGULAMA-0035",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "EMRE-KARARLARI-29AGU.md okudum, ②'deki ILK MADDELER (0035/H-0043 + H-0091, Fransiz Devrimi) BANA AITTI. Yazdim: data/olaylar_ek19.js (ilk kez dolu, 1 madde) - Bastille'in dususu, 1789-07-14, onem:5 dunya:5. Etiket alani ARAYUZ karari netlesmeden IKISINI birden koydum (kapsam:'konu' + boyut:8) - hangisini secerseniz secin suzgec bulsun diye. TDV kapsamiyor (Avrupa ic tarihi), standart akademik kaynak kullanildi, acikca yazildi. HUKUM-UYGULAMA-0035.json 55/55'e cikti (H-0043/H-0091 senin-kararin->cozuldu). PAKET 0038'e (M-1528) bakinca bana sevk edilen bir kalem gormedim (MOTOR/ARAYUZ/FERHAT PASA'ya gitmis, 'bosta olan ilk oturum' H-0002/H-0006 icin - ben simdi bosum, istersen alirim, once soruyorum cakismamak icin).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
