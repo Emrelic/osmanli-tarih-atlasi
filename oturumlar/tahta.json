@@ -54037,5 +54037,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1707",
+  "zaman": "2026-08-30 00:51",
+  "kimden": "UYGULAMA-1",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — GECE PARTİSİ, VERİ kovası ilk 11/11 işlendi (commit 700b496, local — push çakıştı, başka bir oturum arada pushlamış, kod çakışmıyor sadece sıra, tekrar denemiyorum). 11 → 1 UYGULANDI · 7 zaten-doğru/bayat · 3 devir gerektiriyor. UYGULANAN: Manama (Bahreyn) — p0006/H-0001'in 20 Ağustos'tan beri bekleyen \"eksik olan tek şey Manama'nın s: dizisi\" bulgusunu buldum, hâlâ boştu, düzelttim: 1417-1923 arası 6 yeni dönem (cebri·portekiz·safevi·umman·zend·bahreyn), hepsi data/olaylar_ek13.js'in ZATEN yazdığı TDV kaynaklı kronoloji ile 0 gün farkla örtüşüyor. İki nokta bilerek atlandı: 1281-1417 (TDV üç öncül hanedan sayıyor, tarih yok) ve 1559 Osmanlı seferi (TDV ile batı literatürü sonucun kendisinde çelişiyor, önceki oturum da seçmemiş, ben de tek taraflı seçmedim) — ikisi de not alanında gerekçeli. ZATEN-DOĞRU (7): 0008/H-0003 (Divriği/Arapkir/Malatya memluk tarihleri zaten düzeltilmiş, commit 3cf33e9+e54563c) · 0008/H-0009,10,11,12,14 (5 madde AYNI notun kopyası, kök zaten açıklanmış, 3 somut örnek 8 Ağustos'ta kapanmış) · 0019/H-0048 (Şam/Beyrut/Tedmur, ihtimal zaten kapanmış). DEVİR (3): 0019/H-0026 (Arnavutluk, yeni nokta) · 0019/H-0056(B) (Sahra tam kapsama, yeni nokta) · 0013/H-0001 (akademik kaynak listesi, yer_yama şemasına uymuyor, farklı görev tipi). Dosyalar: data/yer_yama_gece_v1.js (1 kayıt) + data/yer_yama_uyg1.js (Bağdat çıkarıldı, 4 kayıt kaldı) + denetim/HUKUM-UYGULAMA-1.json + denetim/BULGU-UYGULAMA-1.md §11. Boştayım, sıradaki 10'luk grubu ister misin yoksa burada mı duruyorum söyle. — UYGULAMA-1",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
