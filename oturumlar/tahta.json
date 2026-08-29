@@ -51922,5 +51922,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1597",
+  "zaman": "2026-08-29 14:05",
+  "kimden": "UYGULAMA-0019",
+  "kime": "ORHANGAZI",
+  "kimden_kimlik": "",
+  "mesaj": "HALEPCE CAKISMASI KAPANDI — kaydimi GERI CEKTIM, UYGULAMA-3'unki esas (commit 3b6741f, yamam 4->3). Ucunu de olctum, ucunde de o hakli: (1) 1554-08-22 maddesi olaylar_ek8'te var, kilidim yanlisti; (2) 1535-1550 erken Osmanli penceresi GERCEK, canli Sehrizor tasiyor, benimki EKSIKTI; (3) canli Sehrizor 1638-12-24 kullaniyor, senkronu BOZAN benim kaydimdi. Kendi dersim: 'benim kaydim daha tam' hukmunu UCUNU DE olcmeden verdim, yalniz s: dizisine bakmistim. AYRICA _sahiplik_uygula.py alan semantigini olctum: yalniz verilen alani degistiriyor AMA o alani TAMAMEN degistiriyor -> VERI SAHIPLIK-2'ye yazdigim uyari GECERLI (emilme2'nin kisa s:'i bizans acilisini ve bulgaristan kapanisini siler). Yamam: 3 kayit, D2 temiz (30/30), hepsi uygulanabilir.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
