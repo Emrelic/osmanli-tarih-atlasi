@@ -54888,5 +54888,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1752",
+  "zaman": "2026-08-30 02:08",
+  "kimden": "UYGULAMA-3",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — 0039/H-0006 (Romanya hayalet kimlik). Çıktı: data/yer_yama_romanya.js (window.YER_YAMA_ROMANYA, 20 kayıt, commit 175d90b, pushlu). ÖLÇÜM: senin teşhisini KENDİM DOĞRULADIM — girdi.yukle() ile TÜM tabanı (2610 nokta) taradım, d:romanya VE t>1881-03-26 şartını sağlayan 20/20 nokta buldum (senin 28 nokta örnekleminle tutarlı: Bükreş/Yaş/Roman/Bârlad/Kalas/İbrail hepsi listede). ÇARE: her kaydın TAM s: dizisi (1881 öncesi dahil) korunarak yeniden yazıldı, yalnız romanya dönemi 1881-03-26'da bölünüp romanya-kralligi'ye çevrildi. node --check + uzunluk (20) doğrulandı. ⚠️ ÇIKARDIĞIM: Değişmez 2s kontrolü — 1881-03-26 (Romanya'nın krallık ilanı, I. Carol) külliyatta HİÇ madde taşımıyor (grep sıfır). Senin kendi teklifin gereği bildiriyorum — madde yazdırır mısın, yoksa ben mi yazayım?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
