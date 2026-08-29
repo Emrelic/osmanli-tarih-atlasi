@@ -49522,5 +49522,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1469",
+  "zaman": "2026-08-29 09:36",
+  "kimden": "UYGULAMA-0019",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "GRUP 2 TESLİM — 20/29 madde tamam. Dosyalar güncel: denetim/HUKUM-UYGULAMA-0019.json (JSON temiz, 20 madde) · data/donem_yama_p19.js (node --check temiz, 5 kayıt). DAĞILIM: sirada 11 · zaten-dogru 4 · cozuldu 2 · olculecek 1 · senin-kararin 1 · tekrar 1 ===== 🟢 ÇÖZÜLEN: H-0043 — Mercidabık. EMRE KISMEN HAKLI, VE İKİ SINAV TERS SONUÇ VERDİ ===== ÖLÇTÜM: `d:` başlangıcı TAM 1516-08-24 olan **30 KAYIT** (devraldığım not 29 diyordu — sayı düzeltildi). Mercidabık'a (36,58/37,17) uzaklıkları: 11 Azez · 16 Kilis · 57 Antep · 70 Münbiç · 80 Cerablus · 87 Birecik · 88 Payas · 89 İskenderun ... 171 Adana · 206 Tarsus · 223 MALATYA · 298 Arapkir · 322 DİVRİĞİ 422 Sincar · 473 Telafer · 495 Zaho · 520 Duhok · 534 Musul · 601 Akra · 658 Rewândiz İKİSİNİ TDV İLE SINADIM VE SONUÇLARI TERS ÇIKTI — bu yüzden \"uzaklık\" tek başına ölçüt değil: 🟢 DİVRİĞİ (322 km) DOĞRU. TDV `divrigi` birebir: \"Divriği'nin kesin olarak Osmanlı idaresine girişi, Yavuz Sultan Selim'in 24 AĞUSTOS 1516 MERCİDÂBIK ZAFERİ'NDEN SONRADIR.\" ⇒ Emre'nin \"çok uzak\" sezgisi BU kayıtta tutmuyor. 🔴 MALATYA (223 km) YANLIŞ — ve ters yönde, 27 GÜN GEÇ. TDV `malatya`: \"ordu 28 TEMMUZ 1516'da Malatya'ya ULAŞTI ... Bu istek kabul edilmeyince de MALATYA'YI ELE GEÇİRDİ.\" ⇒ şehir Mercidabık'tan ÖNCE alınmış. YAMA YAZILDI: `memluk` bitişi ve `d:` başlangıcı 1516-07-28'e çekiliyor. TDV tam gün vermiyor; 1516-07-28 KAYNAĞIN ÇIPALADIĞI gündür, uydurulmuş değil. ⚠️ 400 km'den UZAK ALTI KAYIT (Sincar · Telafer · Zaho · Duhok · Musul · Akra · Rewândiz) SINANMADI. `musul` slug'ı ÖLÜ (302) ve Kürt emirliklerinin katılımı İdris-i Bitlisî müzakereleriyle 1515-1517'ye yayılır. EN ÇOK ŞÜPHELENDİĞİM küme bu ama ÖLÇMEDİM — hüküm vermiyorum, ayrı kaynak partisi gerek. ===== 🔴 BİR NOT DAHA ÇÜRÜDÜ — VE BU, KENDİ BELGELEDİĞİM TUZAĞIN İKİNCİ VAKASI ===== H-0056 notu: \"Sahra kutusunda 29 kasitli_bosluk kaydının 27'SİNİN CİNSİ YAZILMAMIŞ.\" ÖLÇTÜM (kutu 15-33K / -17..+33D · 157 nokta · 29 kasitli_bosluk): `bos:` ALANINA göre: devletsiz 23 · kabile 4 · veri-yok 2 = 29/29 DOLU `bos:` alanı gerçekten boş olan: SIFIR Notun 27'si nereden geliyor, onu da ölçtüm: `neden:` SERBEST METNİNDE cins kelimesi geçmeyen kayıt sayısı **TAM 27**. ⇒ Soru doğru, EVREN yanlış — cins `neden:` metninde değil `bos:` ALANINDA duruyor. 📌 VE BU, 24 Ağustos'ta `denetim/BULGU-BOSLUK-CINSI.md`de belgelediğim tuzağın İKİNCİ VAKASI: orada aynı yöntem 152 \"yazılmamış\" vermişti, gerçek 0'dı. Aynı hata iki ayrı oturumda, beş gün arayla. ⇒ Öneri: `arac/`ta tek satırlık bir yardımcı olsun (`bos_cinsi(y)`) ki kimse `neden:` metnini bir daha cins sanmasın. Senin dosyan, ben yazmadım. Emre'nin ASIL isteği (Sahra'da işaretlenmemiş yerleşim + TAMAMLIK ÖLÇÜTÜ) hâlâ AÇIK ve yeni nokta gerektiriyor ⇒ sende. ===== ZATEN-DOĞRU: H-0025 ===== Eflak etiketi. H-0022 ile aynı sınıf: tâbilik VERİDE VAR (Bükreş eflak→OSMANLI-tâbi 1462-06-01) ve `v[].k` = \"Eflak Voyvodalığı\" (16 dönem). Kusur veride değil — `girdi.py:657` birebir \"MOTOR OKUMAZ, gösterim için\" diyor. ⇒ ARAYÜZ. 📌 H-0022 + H-0025 tek kök: `v[].k` motor tarafından okunmuyor. Bir düzeltme İKİSİNİ birden kapatır. ===== BENDE ÇÖZÜLEMEYEN YEDİ — hepsinin gerekçesi DOSYA SAHİPLİĞİ, kaynak yokluğu değil ===== H-0026 Arnavutluk: veride TEK arnavutluk noktası var (Akçahisar/Kruja) — İskender Bey'in tamamı bu. Yeni nokta + kronoloji maddesi gerek, ikisi de sende/başka oturumda. H-0041 planlanan güzergâh: tipoloji zengin (9 tür, app.js:2297) ama \"planlanan\" hâli YOK → app.js + savaslar.js. H-0045 · H-0047 (tekrar) · H-0048: kronoloji BAŞLIĞI o gün kırılan öteki yerleşimleri anmıyor → `data/olaylar*.js`. H-0046 görüşme sembolü: `tur:\"gorusme\"` sıfır eşleşme; altyapı hazır, eksik olan VERİ. H-0051 aktif madde kaydırma: sebep TEK SATIR — `js/app.js:3110` `scrollIntoView({block:\"nearest\"})`, Emre'nin istediği `block:\"start\"`. ⇒ KAPANMASI EN UCUZ MADDE, arayüz oturumuna bir cümleyle geçer. ===== BEKLEYEN İKİ SORUM ===== ① Dosya adı (M-1453, M-1462) — `donem_yama_p19.js` mi kalsın, `yer_yama_p19.js`e mi döneyim? Tek kelime yeter. ② Koşu karnesinde `b3_yerlesim` kaç? `b3_kb=0` benim yazdığım dal ve ateşlemedi; `b3_yerlesim` de 0 ise dal ÖLÜ demektir, değilse sadece iş çıkmamış demektir. Ayırt etmek için o sayı lazım. Son dokuz maddeye geçiyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
