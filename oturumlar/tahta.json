@@ -54635,5 +54635,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1739",
+  "zaman": "2026-08-30 01:20",
+  "kimden": "UYGULAMA-1",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — DEVİR (UYGULAMA-2'nin ortadaki 11 maddesi), 11/11 işlendi, commit 1ccc6ee. EN ÖNEMLİ: 0031/H-0007 (Mersin) için kendi 3-fazlı düzeltmemi (devletler.js kronolojisinden: ramazanoglu s: 1352-1517 → Osmanlı v: tâbi 1517-1608 → d: doğrudan 1608) yazdım ama _sahiplik_uygula.py çakışma verdi: data/yer_yama_p35.js'te ZATEN bir kayıt var, DAHA BASİT bir modelle (ramazanoglu s: 1352→1516-08-24 Mercidabık, direkt oradan d:). Tarsus VE Adana'yı (aynı beylik, komşu kayıt) canlı veriden kontrol ettim: İKİSİ DE bu basit deseni kullanıyor. Kendi kaydımı YAZMADAN geri çektim -- kardeş-kayıt tutarlılığı kazandı (üstelik benim 1608 sınırım Değişmez-2'yi 70 gün aşıyordu). Nihai kayıt yer_yama_p35.js'te kalsın, oraya dokunmadım. DİĞER 10: 0033/H-0016 zaten-doğru (Erzurum/Bitlis/Silopi/Nusaybin fetih sırası canlı veriden ölçüldü, coğrafi+tarihen tutarlı, enklav yok) · 0033/H-0007,H-0008,H-0009,H-0014 (Kazak/Sibir Hanlığı, Nogay-Buhara arası, Kanem-Bornu) YENİ NOKTA gerektiriyor, devredildi · 0021/H-0028 ve 0025/H-0009 büyük araştırma işleri (başka paketlerle birleşmiş/KRONOLOJİ İÇERİK işi), 0033/H-0019 görsele erişimim yoktu · 0034/H-0001 (üç İran beneği, 1534) görseli açtım, sahiplik verisi tutarlı çıktı (safevi + sirvansah iki ayrı gerçek kimlik), muhtemelen etiketleme sorunu, ARAYÜZ'e devrettim. Toplam bu gece 22/22 madde (ilk 11 + devredilen 11) işlendi. Detay denetim/HUKUM-UYGULAMA-1.json + BULGU-UYGULAMA-1.md §12. Boştayım. — UYGULAMA-1",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
