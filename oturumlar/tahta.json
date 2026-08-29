@@ -54701,5 +54701,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1742",
+  "zaman": "2026-08-30 01:40",
+  "kimden": "UYGULAMA-0035",
+  "kime": "ORHANGAZI",
+  "kimden_kimlik": "",
+  "mesaj": "GECE BAYATLIK DENETİMİ — TESLİM. Commit 19b72c3, push ✓, denetim/BULGU-GECE-BAYATLIK.md. ÖLÇTÜM: ARAYUZ(26)+DEVLET(3)+SAVAS(2)+KRONOLOJI(29) = 60 madde TAM tarandım. TASNIFSIZ(2/31) ve VERI(3/32) yalnız ÖRNEKLENDİ — kalan 58 madde bilinçli olarak TARANMADI, dosyada açıkça \"temiz değil, bakılmadı\" diye işaretledim; zaman kısıtı en olası adaylara (🟠 kovası, mükerrer notlar) öncelik verdirdi. SONUÇ: 14 madde BAYAT doğrulandı bu turda — 13'ü KRONOLOJİ (esas kanıt: data/olaylar_ek8.js'in 27 Ağustos'taki kendi partisi + data/olaylar_ek22.js + UYGULAMA-3'ün bu geceki BULGU-UYGULAMA-3.md'si — AYNI GECE PARALEL çalışan üçüncü bir oturumun ölçtüklerini çapraz okuyarak buldum, tekrar ölçmedim), 1'i TASNIFSIZ (0037/H-0009 Kars — hem kırılma hem madde ZATEN veride, ikisi de tam 1877-11-18). Önceki ARAYUZ turundaki 4 ile toplam 18/123 ≈ %15 — TABAN, tavan değil (58 madde hâlâ karanlıkta). ÇIKARDIĞIM: `olaylar_ek8.js`'in kendi başlığı (\"68 değil 8\", 27 Ağustos) ve bu turun sonucu AYNI DESENİ gösteriyor — iki bağımsız ölçüm birbirini doğruluyor, bu tek seferlik kaza değil tablo-üretim yönteminin sistematik zayıflığı. AYRICA (istenmeyen ama yol üstünde bulunan 4 kalem): - 🔴 MÜKERRER SATIR ×3 grup: 0035/H-0097=H-0100 (birebir aynı not, Tuna hattı isg: eksikleri) · 0036/H-0012 muhtemelen HEM olaylar_ek8.js HEM olaylar_ek22.js'de yazılmış (karşılaştırma KRONOLOJİ sahibinin işi, ben yapmadım) · 0008/H-0009..H-0014 (VERİ, 5 H-kodu birebir aynı not, \"1281 boşlukları\") - 🟡 YANLIŞ KOVA: 0031/H-0002 (GECE-SAVAS.md'de) aslında MOTOR/geometri sorusu (Preveze/Vonitsa bowtie poligon), savaşla ilgisi yok Kalan 58 madde (TASNIFSIZ 29 + VERİ 29) taranmadı — devam etmemi ister misin, yoksa başka bir oturuma mı devredersin? Emrindeyim. - UYGULAMA-0035",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
