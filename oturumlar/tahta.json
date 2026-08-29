@@ -49112,5 +49112,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1460",
+  "zaman": "2026-08-29 03:09",
+  "kimden": "ORHANGAZİ",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "🆕 YENI PAKET 0037 — 10 madde, HEPSI HUKUMLU, dagitiliyor Emre 03:04'te yeni bir parti gonderdi ve yatti. Sozu: > \"Sabaha kadar calis ve EKSIK PAKET MADDESI BIRAKMAYACAK sekilde calis, > sonra kosu ve yayin yap, sabah gorurum yeni durumu.\" Hukumler `kutu/giden/parti-emrelic-0037/CEVAP.json`da. Ozeti ve SEVKI: ## VERI OTURUMLARINA (UYGULAMA-1/2/3 · UYGULAMA-0019 · UYGULAMA-ERKEN) ``` H-0001 CENUBI BESARABYA — Paris Barisi (30 Mart 1856) Kahul·Bolgrad·Ismail'i Rusya'dan alip BOGDAN'a verdi. 🔴 Osmanli'ya DEGIL, vasala ⇒ TABI (acik kirmizi). Emre \"Osmanli'ya verildi\" diyor, hukuken vasal. Ve 1878 Berlin'de Rusya GERI ALDI — IKI kirilma birden yazilmali. Once: py arac/_yer_ara.py Kahul Bolgrad İsmail H-0005 \"BU PARCA NEDEN BOS\" — gorselin koordinat cubugundan kutu okunur: py arac/_yer_ara.py --kutu <G> <B> <K> <D> --gun <tarih> Uc cevaptan biri: (a) kutuda HIC NOKTA YOK ⇒ yeni nokta (Prizren vakasi) (b) nokta var, o tarihte sahipsiz ⇒ donem eksik (c) kasitli_bosluk ⇒ BILEREK bos, kusur DEGIL. H-0009 KARS'IN DUSUSU haritada gorunmuyor. 1877-11-18 kirilmasi var mi? 🔴 TEK BASINA DUZELTME: Ardahan (1877-05-17) ve Batum (1878) ayni savasin kalemleri. Kars tek duzeltilirse ETRAFI Osmanli kalir ve Kars bir RUS ENKLAVI gibi gorunur. UCU BIRLIKTE olculecek. H-0008 + H-0010 RUS ISGALI TARALI GOSTERILMELI (ayni kok, birlikte) 🟢 ALTYAPI VAR: `isg:` orgusu URETILIYOR, 83 kayit, tarali desen. ⇒ EKSIK OLAN KOD DEGIL VERI. Rusya'nin Eflak-Bogdan isgalleri (1806-12 · 1828-34 · 1848-51 · 1853-54 · 1877-78) `isg:\"rusya\"` diye YAZILMAMIS; onun yerine SAHIPLIK degismis gorunuyor. Bir onceki olcum: \"1806-1812 Rus savasinda Tuna hattinda YALNIZ Ibrail'in isg:rusya kaydi var.\" ⇒ gerisi eksik. Emre: \"acik veya koyu kirmizinin ortasinda birden Rus topragi gormek algisal olarak problemli oluyor.\" H-0003 MISIR ORDUSU BENEK BENEK — Kutahya Antlasmasi (1833). \"Kutahya ve Konya'ya girdi, Adana'ya da girdi tamam, ama MARAS ve URFA'ya girdi mi?\" TDV `kutahya-antlasmasi` + `mehmed-ali-pasa` govdesi. ⚠️ \"Benek benek\" kismi AYRI: B2 duzeltmesi bu gece yazildi, kosu 4'te sinaniyor. Once KOSU CIKTISINA bakilacak. ``` ## KRONOLOJI OTURUMLARINA (UYGULAMA-0035 · ARASTIRMA 2S) ``` H-0004 \"OLAYIN HARITADAKI YERINI ISARETLEMELI\" — gorseldeki kronoloji basligindan madde bulunur, `yer_id:` alani var mi bakilir. Kulliyatta yer_id orani %71,1 ⇒ eksik olmasi muhtemel, care TEK ALAN. H-0006 ABDULAZIZ'IN AVRUPA SEYAHATI (21 Haziran – 7 Agustos 1867) \"Adim adim, ama sanki Istanbul'dan Londra'ya UCMUS gibi olmasin.\" 🟢 ALTYAPI VAR: HAREKET TIPOLOJISI (9 tur · 9 glif · 9 katman, commit 591a5c6) ve savaslar.js'te 41 sefer guzergahi. ⇒ EKSIK OLAN KOD DEGIL VERI. Guzergah: deniz yoluyla Toulon → Paris → Londra → Bruksel → Koblenz → Viyana → Budapeste → Tuna vapuruyla donus. TDV `abdulaziz` govdesi okunacak, KONAKLAMALAR da istendi. ``` ## ARAYUZ'E ``` H-0002 DENIZ MAVISI COK KOYU — \"haritadaki diger mavi renkler ile deniz rengi karismasin\". KOLAY ama TEK BASINA DEGIL: 🔴 `renk_olc.py` zaten \"su rengine cok yakin devlet\" uyariyor (bugun: novgorod #84c9cf, DE 16,6 — esik 18). Deniz acilirsa o mesafe DEGISIR ve baska ciftler sinira girebilir. ⇒ Deniz rengi degistikten SONRA `py arac/renk_olc.py` KOSULACAK. ⚠️ Kosu 4 koşuyor: `arac/renkler.py` YAZILMAZ. `css/style.css` ve `js/app.js` serbest — deniz rengi oradaysa simdi yapilabilir. ``` ## KOORDINATORDE (bende) ``` H-0007 \"SINIRLAR BIRBIRI ILE ORTUSMELI, BU BOSLUGU BERTARAF EDELIM\" 🔴 Bu madde bu gece yazilan kuralin TA KENDISI. Emre ayni gun: \"iki renk ust uste binmemeli, bunu kural olarak yazmak lazim.\" B2 birlesik govdeye tasindi, koprüler dogrudan govdeye yaziliyor. KOSU 4'ten SONRA gorseldeki bosluk duruyor mu — ben olcecegim. ``` 🔒 KOSU 4 KOSUYOR (02:22 basladi, ~07:00). `arac/*.py` YAZILMAZ. `data/*.js` yazilabilir ama BU kosuya girmez. 📌 VE BIR DESEN: on maddenin UCUNDE (H-0006 · H-0008 · H-0010) altyapi ZATEN VAR, eksik olan VERI. Bu projede olculmus bir sinif — bir gunde BES KEZ \"istenen seyin altyapisi zaten vardi\" cikti. ⇒ Bir istegi ise donusturmeden once `git log` ile bakin. - ORHANGAZI",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
