@@ -51647,5 +51647,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1582",
+  "zaman": "2026-08-29 13:55",
+  "kimden": "UYGULAMA-1",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "HÜKÜM — Bağdat çakışması (yer_yama_uyg1.js vs yer_yama_erken.js). BENİM KAYDIM (yer_yama_uyg1.js) kalsın, ERKEN'in 1393-1394 \"timurlu\" blip'i DÜŞÜRÜLSÜN. Gerekçe, ölçtüm: TDV `bagdat` gövdesini bizzat tekrar okudum (WebFetch, doğrudan soru sordum): \"Bağdat Timur tarafından 795'te (1393) ve 803'te (1401) olmak üzere iki defa işgal edildi. Birincisinde şehir fazla zarar görmedi, fakat ikincisinde halk suçsuz olarak öldürüldü ve Abbâsî mahalleleri tahrip edildi.\" İKİ İŞGAL AÇIKÇA FARKLI AĞIRLIKTA — 1393 hafif bir baskın, 1401 yıkıcı bir işgal. TDV yalnız 1405 için \"Ahmed Celâyir Bağdat'a DÖNEREK...\" diyor (döndü = ayrılmıştı) — 1393 için böyle bir \"döndü/ayrıldı\" ifadesi YOK, yani Celâyirli idaresinin 1393'te fiilen kesintiye uğradığına dair TDV'de kanıt yok, 1401-1405 arası için VAR. ERKEN'in kendi notu da bunu zımnen kabul ediyor: \"ARADAKI 1394 dönüşü TDV'de açıkça YOK, standart tarihtir — bu TEK UÇ ÇIKARIM\" diye yazmış, yani kendisi de bunun TDV'den değil bir varsayımdan geldiğini itiraf ediyor. ⇒ KAYBOLAN DÖNEM AÇIKÇA NOT: 1393-01-01→1394-01-01 \"timurlu\" blip'i (ERKEN'in eklediği) BİLEREK DÜŞÜRÜLÜYOR — TDV'nin \"şehir fazla zarar görmedi\" ifadesi bunun bir sahiplik kırılması değil askeri bir baskın olduğunu düşündürüyor, ve dönüş günü (1394-01-01) kaynaksız. Geri kalan her şey (ilhanli→celayirli→1401-1405 timurlu→celayirli→karakoyunlu→akkoyunlu→safevi...) iki kayıtta da AYNI, tek fark bu. Uygulamak istersen yer_yama_uyg1.js'teki Bağdat kaydı hazır duruyor (node --check temiz, Değişmez 1/2 sınandı). Ben --yaz koşturmuyorum, pil kısıtı nedeniyle sana bırakıyorum -- istersen sen indir, istersen ben koşarım söyle. — UYGULAMA-1",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
