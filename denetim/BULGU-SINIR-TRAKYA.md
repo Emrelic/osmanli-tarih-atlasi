@@ -335,13 +335,24 @@ Edirne kesimi **hiç değişmedi**, ortanca hafif **kötüleşti.**
 boyanıyor. Türk yakasına nokta eklemek Türk çapasını sınıra yaklaştırır,
 bisektörü **daha da** Yunanistan'a iter.
 
-### 🟢 10.4 KURAL — ölçüldü
+### 🟢 10.4 KURAL — ölçüldü, sonra DÜZELTİLDİ
+
+🔴 **Bu kural ilk hâliyle EKSİK yayınlandı ve az kalsın bir oturuma
+zarar verdirdi. Önüne bir şart geldi — ayrıntısı `§11`de.**
 
 ```
-SAPMA > 0  (OSMANLI FAZLA)  →  YABANCI yakaya nokta gerek
-SAPMA < 0  (OSMANLI EKSİK)  →  OSMANLI yakasına nokta gerek
-yanlış yakaya eklenen nokta o kesimi DÜZELTMEZ, KÖTÜLEŞTİRİR
+⓪ ÖNCE SOR: bu kesimde BUGÜNKÜ sınır = 1923 sınırı mı?
+   HAYIR → nokta EKLENMEZ, "ölçülemez" diye AYRI KOVAYA kaydedilir
+   EVET  → ancak o zaman işaret kuralı işler:
+
+   SAPMA > 0  (OSMANLI FAZLA)  →  YABANCI yakaya nokta gerek
+   SAPMA < 0  (OSMANLI EKSİK)  →  OSMANLI yakasına nokta gerek
+   yanlış yakaya eklenen nokta o kesimi DÜZELTMEZ, KÖTÜLEŞTİRİR
 ```
+
+⚠️ **Ve sezgi tersine çalışıyor:** sınır değişikliği ~30 km oynatır,
+nokta seyrekliği ~10 km ⇒ *"en kötü kesimden başla"* seni **doğrudan
+artefaktlara** götürür.
 
 ⇒ **İş listesi kesime göre değil, sapmanın İŞARETİNE göre bölünmeli.**
 
@@ -368,3 +379,49 @@ tarif eden belge **1913 İstanbul Antlaşması**dır ve ona bakılmadı.
 📌 Yöntem güçlü ama **evrensel değil**: antlaşma bir hattı *tarif*
 ediyorsa köy verir, *atıfla devralıyorsa* vermez. **Hangisi olduğunu
 metni okumadan bilemezsin.**
+
+---
+
+## 11. 🔴 YAYINLADIĞIM KURAL EKSİKTİ — ve zararı ÖLÇÜLDÜ
+
+`§10.4`ü `UYGULAMA-1`e de gönderdim. Onlar kuralı alıp kendi **en kötü
+ikinci kesimlerine** uyguladı: Payas-Antakya, **−29,4 km**, *"OSMANLI
+EKSİK"* ⇒ kurala göre **Türk noktası** gerekiyordu, araştırmaya
+başladılar.
+
+Ölçtüm — **o sapmanın tamamı artefakt:**
+
+```
+Erzin · Dörtyol · Payas       1923'te OSMANLI              (DOĞRU)
+İskenderun · Antakya          1923'te fransa-cumhuriyeti   (DOĞRU)
+```
+
+Veri Hatay'ı 1923'te **Fransız mandası** gösteriyor — doğrusu bu, Hatay
+**1939'da** katıldı. Ve veri Dörtyol/Payas/Erzin'i Türk tutarak ayrımı
+bile doğru yapmış; **özenle yazılmış.**
+
+Alet **bugünkü** sınıra ölçüyor; bugünkü sınır Hatay'ı Türkiye'de
+gösteriyor. Aradaki ~30 km *"OSMANLI EKSİK"* diye rapor ediliyor.
+
+⇒ **Nokta eklenseydi sapma kapanacak, doğru veri bozulacaktı** — ve bir
+daha fark edilmeyecekti, çünkü denetim artık temiz olurdu.
+
+📌 `§11`in *"pencere dışı / kara dışı"* vakasının **birebir aynısı**:
+alet iki ayrı şeyi tek satırda söylüyor ve **çareleri ters.**
+
+### Alet düzeltildi — uyarı yerini değiştirdi
+
+Uyarı **zaten vardı**, ama çıktının **sonundaydı**; okunan yer sonuç
+tablosuydu. Artık **başta**, bilinen ayrışma bölgeleri (Hatay · Musul ·
+Batum) adlarıyla listeli.
+📌 `§11`: *"geç öten alarm, ötmeyen alarmdan yalnız biraz iyidir."*
+**Alarmın doğru olması yetmedi; GÖRÜLDÜĞÜ YERDE olması gerekti.**
+
+### Yan ders — doğru cevap, yanlış gerekçe
+
+`UYGULAMA-1` Hassa'yı **mesafe** gerekçesiyle (91 km, o noktayı
+düzeltmiyor) zaten eklememişti; yani **doğru kararı yanlış gerekçeyle**
+vermişti — kendi tespiti.
+⚠️ Fark önemli: mesafe gerekçesi **o kesime özeldi**, artefakt gerekçesi
+**bütün Hatay-Musul-Batum kesimlerine** uyar. **Tesadüfen doğru olan bir
+cevap, bir sonraki kesimde tutmaz.**
