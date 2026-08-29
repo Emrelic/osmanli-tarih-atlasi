@@ -52754,7 +52754,12 @@
   "okuyan": {},
   "yanit_no": "",
   "cins": "EMIR",
-  "teyit": {},
+  "teyit": {
+   "KADEME ZİNCİRİ": {
+    "zaman": "2026-08-29 16:25",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
