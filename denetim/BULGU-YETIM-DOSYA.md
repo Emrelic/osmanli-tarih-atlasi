@@ -51,7 +51,43 @@ başlar.***
 | `yer_kron_anadolu.js` | yok | 🔴 gerekçe yazılı değil |
 | `yer_kron_dogu.js` | yok | 🔴 gerekçe yazılı değil |
 
-### 🔴 En ciddisi: `yerlesimler_kafkas_duzeltme.js`
+### 🔴 ÖLÇÜLDÜ — `yerlesimler_kafkas_duzeltme.js`in **19 kaydının 19'u DA İNMEMİŞ**
+
+```
+🟢 İNMİŞ  (canlı veri dosyayla aynı) :  0
+🔴 İNMEMİŞ (canlı veri FARKLI)       : 19
+   Kars · Ardahan · Derbend · Kutaisi · Gence · Revan · Hemedan ·
+   Kirmanşah · Gümrü (Aleksandropol) · Eçmiyadzin · Digor ·
+   Arpaçay (Akyaka) · Iğdır · Başkale · Çaldıran · Özalp (Saray) ·
+   Yüksekova (Gever) · Doğubayazıt · Kasr-ı Şîrîn
+```
+
+🔴 **VE İÇİNDE EMRE'NİN AÇIK PAKET SORULARININ CEVAPLARI VAR:**
+```
+Eçmiyadzin · Gümrü   → paket 0038/H-0005  ("İran savaşı sırasında Osmanlı
+                        tarafından ele geçmiş olmalı, enklav hâlinde
+                        Safevî'de kalmamış olmalı")
+Kasr-ı Şîrîn         → paket 0038/H-0007
+```
+Yani üç turdur *"ölçülecek"* diye bekleyen maddelerin aday verisi **diskte
+duruyor ve hiçbir şey okumuyor.**
+
+⚠️ **AMA TOPLU UYGULANMAZ — dosyanın bir günü ZATEN ÇÜRÜTÜLDÜ.**
+`yer_yama_ferhatpasa.js`in `kaynak:` alanı:
+> *"DEVREDİLEN YAMANIN (yerlesimler_kafkas_duzeltme.js) BAŞLANGIÇ GÜNÜ
+> DÜZELTİLDİ: 1555-07-23 → 1578-08-09. Yamanın günü **HİNDİSTAN'a ait**
+> (Delhi/Agra/Mathura, sur-hanedani→babur)."*
+
+⇒ Dosya bir **aday kümesidir**, kabul edilmiş bir düzeltme değil. Bir
+oturum onu kayıt kayıt doğruluyor ve bir günün yanlış olduğunu **ölçerek**
+buldu. Toplu uygulamak, çürütülmüş bir günü geri getirmek olurdu.
+
+**HÜKÜM:** kayıt kayıt doğrulanacak, `yer_yama_*` biçiminde yeniden
+yazılacak, `_sahiplik_uygula.py` ile inecek. **Dosyanın kendisi asla
+bağlanmayacak** — bağlanırsa doğrulanmamış 19 kayıt bir koşuda haritaya
+girer.
+
+### Eski not: `yerlesimler_kafkas_duzeltme.js`
 
 Bu bir **yerleşim düzeltmesi** ve ne motor okuyor ne tarayıcı. İçinde
 Kutaisi ve Eçmiyazin kayıtları var (`yer_yama_ferhatpasa.js`in `kaynak:`
