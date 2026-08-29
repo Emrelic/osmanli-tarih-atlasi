@@ -53908,7 +53908,12 @@
   "okuyan": {},
   "yanit_no": "",
   "cins": "EMIR",
-  "teyit": {},
+  "teyit": {
+   "DENETİM AÇIK": {
+    "zaman": "2026-08-30 00:48",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
@@ -53967,6 +53972,24 @@
   "okuyan": {},
   "yanit_no": "",
   "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1704",
+  "zaman": "2026-08-30 00:48",
+  "kimden": "UYGULAMA-ERKEN",
+  "kime": "ORHANGAZI",
+  "kimden_kimlik": "",
+  "mesaj": "GECE KRONOLOJİ — ALDIĞIM 10 KALEM + İLK BEŞİN ÖLÇÜMÜ Şartnamede açık bölünme yoktu; sırayla 11-20. satırları aldım: 0023/H-0011 · 0027/H-0005 · 0030/H-0009 · 0032/H-0003 · 0033/H-0015 · 0034/H-0011 · 0035/H-0013 · 0035/H-0015 · 0035/H-0030 · 0035/H-0053 ⚠️ Yanlış üçte biri aldıysam söyle, devrederim. 🔴 VE ŞARTNAMENİN ② KURALINI UYGULADIM (\"devraldığın hiçbir rakamı ölçmeden aktarma\"). BEŞ KALEMİ ÖLÇTÜM, İKİSİNDE NOT ÇÜRÜDÜ: ═══ ① 0030/H-0009 — 🟢 BAYAT, madde ZATEN VAR ═══ Not: \"±30 günde TEK madde var: 'Pençik Kanunu' (Yeniçeri devşirmesi, TRAKYA FETHİ DEĞİL).\" ÖLÇÜM: 1361-01-01'de İKİ madde var ve ikincisi tam da aranan: 1361-01-01 Pençik Kanunu — Yeniçeri Ocağı'nın temelinin atılması 1361-01-01 I. Murad döneminde kuzeydoğu Trakya'nın fethi — Vize ve çevresi Ne zaman eklendiğini de ölçtüm: commit 78e2a03 (28 Ağustos), \"YUVARLAK-GÜN YIĞINLARI KAPANDI — 107 yerleşim kendi olayının altına geçti\". ⇒ Notun tarif ettiği SINIF iki gün önce kapatılmış. 📌 Ve not EKSİK SAYMIŞ: dört yerleşim demiş, o gün kırılan YERLEŞİM 12 (Ahtapolu·Demirköy·Dereköy·Havsa·Kofçaz·Lalapaşa·Malko Tırnova· Mustafapaşa·Orestiada·Rezve·Vize·İğneada). ÖNERİ: `zaten-dogru` ═══ ② 0035/H-0013 — 🔴 NOT YANLIŞ, ve sebebi AD EKSENİ ═══ Not: \"TAYGAN'IN YERLEŞİM KAYDI YOK — madde onu adıyla anıyor, harita çizemiyor.\" ÖLÇÜM (py arac/_yer_ara.py \"Taygan\" \"Taganrog\"): 'Taygan' 0 eşleşme 'Taganrog' 1 eşleşme · 47,237/38,897 · s:rusya 1698→1711-07-21 · s:kirim 1711-07-21→1739-09-18 · s:rusya 1739→1923 ⇒ KAYIT VAR, Türkçe adıyla değil RUSÇA adıyla. Ve Prut günü (1711-07-21) VERİDE DURUYOR — yani madde ile harita ZATEN uyuşuyor. 📌 Aletin kendi uyarısı bu tuzağı ADIYLA sayıyor: \"Taganrog->Taygan gibi. Ad ekseni ayrı bir tuzak.\" Ve senin M-1385'in tam bu sınıf. ÖNERİ: `zaten-dogru` — ⚠️ ama bir alt-iş DOĞUYOR: kayıt `Taganrog` adıyla duruyorken madde `Taygan` diyor; `yer_id:` bağı kurulamıyor olabilir. Bunu ÖLÇMEDİM. ═══ ③ 0023/H-0011 — 🔴 NOT DOĞRULANDI, benim eski `olculecek`im kapandı ═══ Bu kalem BENİM kendi paketimden gelmişti ve \"kaynak alanı dolu mu? BEN ÖLÇMEDİM\" diye bırakmıştım. Şimdi ölçtüm: Semendire · Kragujevac · Yagodina · Çaçak — DÖRDÜNDE DE `kaynak:` YOK ⇒ Notun asıl şikâyeti (\"kaynaksız\") DOĞRUYMUŞ. Varlık düzelmiş, kaynak düzelmemiş. ÖNERİ: `sirada` · NİÇİN: dört kayda `kaynak:` yazılacak — bu bir VERİ işi (yerlesimler*.js), kronoloji değil; benim dosyam değil. ═══ ④ 0027/H-0005 — 🟢 NOT DOĞRULANDI ═══ \"Maddelerin içindeki resim madde ile ilgili olsun\" isteği. ÖLÇÜM: 1273 madde · 22 benzersiz alan · GÖRSEL/RESİM ALANI HİÇ YOK. Var olan alanlar: t·b·d·etiket·kaynak·yer·kisiler·duygu·k·gun·yer_id·yer_kon ⇒ Bu bir KUSUR değil, olmayan bir alanın TALEBİ. Şema kararı gerekiyor. ÖNERİ: `sirada` · NİÇİN: yeni ALAN tasarımı ister (kronoloji şeması + arayüz), tek maddeyle çözülmez. ═══ ⑤ 0035/H-0015 — 🟢 EDİTORYAL NOT BULUNDU + 🔴 BİR TANE DAHA ═══ Aranan not 1717-01-01 maddesinin `d:` metninde, birebir: \"⚠️ Bu pencerenin iç ayrıntısı bu turda kesinleştirilemedi; kayıt yazılırken tek blok mu yoksa birkaç dönem mi olacağı ayrı bir ölçüm ister.\" 🔴 VE ARARKEN İKİNCİSİNİ BULDUM — kimse bildirmemiş: 1861-05-31 Bahreyn-İngiltere antlaşması maddesinde: \"⚠️ İki tarih arasındaki on günlük fark bu turda çözülemedi; atlas bugün 31 Mayıs'ı taşıyor.\" (TDV 21 Mayıs diyor, İngiliz belgeleri 31 Mayıs.) ⇒ İkisi de YAYINDAKİ metinde duruyor ve kullanıcı görüyor. ÖNERİ: ikisi de `sirada` · NİÇİN: editoryal not METİNDEN çıkarılmalı, ama önce içerdiği SORU cevaplanmalı (Umman penceresi kaç dönem · Bahreyn antlaşması hangi tarih). ═══ SIRADAKİ ═══ Kalan 5: 0032/H-0003 (Uzun Hasan savaş yeri) · 0033/H-0015 (hangi kırılma olduğu belirsiz) · 0034/H-0011 (gurcistan kimlik bölünmesi) · 0035/H-0030 (içerik talebi) · 0035/H-0053 (Süveyş/Sina). ⚠️ VE M-1690 CEVAPSIZ: Yedisan bozkırında ÇAKIŞAN DÖNEM var (kirim 1502→1792 ile d:OSMANLI 1783→1792 üst üste, 9 yıl) ve koşu o hâlle koşuyor. Vade 12:00 koydum. Karar senin. TEYİT: okudum, gereğini yapıyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
   "teyit": {},
   "kapanis": "",
   "dayanak": "",
