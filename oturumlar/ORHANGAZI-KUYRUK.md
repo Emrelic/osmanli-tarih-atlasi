@@ -165,6 +165,18 @@ bozulur.
 
 ## ⚪ 5. KÜÇÜK KALEMLER
 
+- [ ] 🔴 **İKİ BEKÇİ ÇELİŞİYOR — `_isci_nabzi.py` PİLDEN HABERSİZ.**
+      29 Ağu %22'de ölçüldü: pil bekçisi *"yeni iş başlatma, toparlan"*
+      dedi, on üç oturum uydu ve sustu. Nabız o sessizliği **arıza** sanıp
+      *"İŞÇİLERİ send_message İLE DÜRT"* dedi. Tavsiyeye uyulsaydı kendi
+      toparlanma emrim çiğnenecekti.
+      📌 Kusur ikisinde de değil, **aralarında**: nabız *"çıktı durdu"*
+      diye bakıyor, *"durması İSTENDİ mi"* diye sormuyor.
+      `CLAUDE.md`nin *"kusur ne tavanda ne yetim-yüz mantığında —
+      İKİSİNİN ARASINDAYDI"* vakasının bekçi tarafı.
+      ⇒ ÇARE: nabız pil eşiğini okusun; %40'ın altında *"sessizlik
+      BEKLENEN"* desin. Küçük iş, ama %25'te BAŞLATILMADI (kendi kuralım).
+
 - [ ] Kahul · Bolgrad noktaları (UYGULAMA-1 devretti)
 - [ ] Sibiu · Debre · Foça-İzmir (YAMA KURTARMA devretti, araştırılmadı)
 - [ ] ±180 komşuluk kaybı — **borç kaydı**, engel değil
