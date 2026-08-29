@@ -125,22 +125,25 @@ window.YER_YAMA_P19 = [
   //       Kutaisi 1490 maddesiz" demistim ve koordinatorun listesini
   //       "bagimsiz dogruladim" diye yazmistim. Duzeltilmis olcumde o da
   //       TEMIZ (9/9). O dogrulama DEGERSIZDI ve geri aliyorum.
-  {
-    ad: "Halepçe",
-    d: [
-      { f: "1554-08-22", t: "1623-11-28" },
-      { f: "1638-12-25", t: "1917-03-11" }
-    ],
-    s: [
-      { f: "1281-01-01", t: "1335-12-01", d: "ilhanli" },
-      { f: "1335-12-01", t: "1411-01-01", d: "celayirli" },
-      { f: "1411-01-01", t: "1469-01-01", d: "karakoyunlu" },
-      { f: "1469-01-01", t: "1508-01-01", d: "akkoyunlu" },
-      { f: "1508-01-01", t: "1554-08-22", d: "safevi" },
-      { f: "1623-11-28", t: "1638-12-25", d: "safevi" },
-      { f: "1917-03-11", t: "1923-10-29", d: "ingiltere" }
-    ],
-    kaynak: "islamansiklopedisi.org.tr/sehrizor (govdesi okundu)"
-  }
+  // 🔴 HALEPCE KAYDI GERI CEKILDI — `yer_yama_uyg3.js` ESAS ALINSIN.
+  //    Cakismayi olcumle cozdum ve UC MADDEDE DE ONLARINKI DOGRU CIKTI:
+  //
+  //    ① "1554-08-22 icin madde SART" kilidim YANLISTI — madde
+  //       `olaylar_ek8.js`te ZATEN VAR. Benim regex'im `t:"..."`
+  //       ariyordu, o dosya JSON uslubunda `"t": "..."` yaziyor.
+  //    ② 1534/1535-1550 ERKEN OSMANLI PENCERESI GERCEK. Canli veride
+  //       olctum: Sehrizor `d: 1535-01-01 -> 1550-01-01` tasiyor.
+  //       Benim kaydimda o pencere YOKTU — yani benimki DAHA EKSIKTI.
+  //       (UYGULAMA-3 ayrica 1550-1554 arasini `s:"safevi"` ile
+  //        kapatti; itirazim oydu ve karsiladi.)
+  //    ③ IKINCI SAFEVI BLOGUNUN BITISI: ben 1638-12-25 yazmistim,
+  //       CANLI Sehrizor `d: 1638-12-24` kullaniyor. Yani senkronu
+  //       BOZAN benim kaydimdi — tam da otekini uyardigim sey.
+  //
+  // 📌 Ders: bir cakismada "benim kaydim daha tam" hukmu, ANCAK
+  //    ucunu de olctukten sonra verilir. Ben ucunden birine (s: dizisi)
+  //    bakip hukum vermistim; oteki ikisi beni curuttu.
+  // ⇒ Halepce icin dogru kayit `yer_yama_uyg3.js`tedir. Bu dosyada
+  //    yalniz UC ISTRANCA kaydi kaliyor (H-0004).
 
 ];
