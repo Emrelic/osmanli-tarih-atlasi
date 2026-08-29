@@ -29,13 +29,72 @@ Yani Voronoi hücre kenarı iki noktanın **dik ortayı**dır. Sınırın iki
 yakasına eşlenik nokta koymak motoru zorlamaz — **tam çalıştığı gibi
 kullanır.**
 
-## 🔴 VE TEK KISIT — ÖLÇÜLDÜ, ve hedef ondan çıktı
+## 🔴🔴 BU BÖLÜMÜN İLK HÂLİ ÇÜRÜDÜ — 30 Ağustos 02:12, HAZIR KITA OPUS 86
+
+**Yazmıştım:** *"EN KÖTÜ SAPMA = ÇİFT MESAFESİNİN YARISI"* ve bundan iş
+listesi çıkarmıştım (*"~14 yeni çift gerek"*).
+
+🔴 **O bir ÜST SINIRDI, ölçüm değil.** Ve ben onu ölçüm gibi kullandım.
+
+OPUS 86 gerçek sınır poligonundan **doğrudan ölçtü** (Trakya'nın 580 km
+kara hattı, ~2 km'de bir 207 örnek):
+
+| | benim varsayımım | GERÇEK ÖLÇÜM |
+|---|---|---|
+| ortanca sapma | ~19,6 km | **3,3 km** |
+| en kötü sapma | ~62 km | **10,4 km** |
+| 15 km üstü | — | **SIFIR** |
+| 5 km hedefinin içinde | — | **481/580 km (%83)** |
+
+**⇒ Trakya sınırının %83'ü hedefin ZATEN içinde. İş sandığımın onda biri.**
+
+### Niçin vekil kötüydü — OPUS 86'nın cümlesi
+> *"Bisektör konumunu **mesafe** değil, iki noktanın sınıra göre
+> **DİZİLİMİ** belirler. 40 km'lik bir çift, ikisi de sınıra eşit
+> uzaklıktaysa **0 km** sapma verir; 12 km'lik bir çift ikisi de aynı
+> yakadaysa **6 km** verir."*
+> *"Ölçüldü sanılan şey aslında hiç ölçülmemişti."*
+
+Mesafe sapmayı **sınırlar**, ölçmez.
+
+### 🟢 VE ÇARE DEPODAYMIŞ
+```
+veri-kaynak/ne_10m_admin_0_countries.geojson   ← gerçek sınır çizgisi
+```
+📌 `CLAUDE.md`nin *"veri zaten bir dilde yazılıysa o dilin yorumlayıcısını
+çağır"* dersinin **coğrafya yüzü**: sınır zaten bir poligonda yazılıysa
+onu **ÖLÇ**, mesafeden **TÜRETME**.
+
+---
+
+## 🔴 ZORUNLU İLK ADIM — ölçmeden yazma
+
+Her kol, nokta yazmadan **önce** kendi hattında sapmayı doğrudan ölçer:
+```
+① sınır poligonundan kara hattını çıkar
+② ~2 km'de bir örnek al
+③ her örnekte en yakın iki FARKLI SAHİPLİ noktayı bul
+④ bisektörün gerçek sınırdan uzaklığını hesapla
+⑤ RAPORLA: ortanca · en kötü · hedefin içindeki hat % · yoğunlaştığı kesim
+```
+⚠️ **`arac/_sinir_envanteri.py`nin 'gerek' sütunu bu vekile dayanıyor ve
+GÜVENİLMEZ.** Envanter hangi sınırların *hiç çifti olmadığını* göstermek
+için hâlâ işe yarar; **kaç çift gerektiğini SÖYLEMEZ.**
+
+⚠️ Ve ikinci bir tuzak (OPUS 86 uyardı): *"bugünkü sınır = 1923 sınırı"*
+varsayımı **Trakya'da geçerli** (Lozan'dan beri değişmedi) ama başka
+kollarda **geçmez** — Hatay 1939 · Musul 1926 · Batum 1921. Oralarda
+sonucu **"BUGÜNKÜ sınıra sapma"** diye etiketle.
+
+---
+
+## Eski gerekçe (kayıt için — hedef 5 km ondan çıktı ve DOĞRU kaldı)
 
 Dik ortay **tam ortadan** geçer. Gerçek sınır iki şehrin tam ortasında
 değilse sınır kayar:
 
 ```
-EN KÖTÜ SAPMA  =  ÇİFT MESAFESİNİN YARISI
+EN KÖTÜ SAPMA  ≤  ÇİFT MESAFESİNİN YARISI      ← ÜST SINIR, ölçüm DEĞİL
 ```
 
 | çift mesafesi | en kötü sapma |

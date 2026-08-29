@@ -11,6 +11,24 @@ Her kalem bitince: **denetim koş · commit · burada işaretle.**
 
 ---
 
+## 🔴 EMRE'NİN ÖNCELİK SIRASI — 30 Ağustos 02:20, yatmadan önce
+
+> *"Sabaha kadar yarım saatte bir 'şimdi ne yapmak lazım' diyerek, işler
+> bitince bile eksik noktaları tespit edip işlere devam edeceksin. En
+> öncelikli konu ama **paketlerdeki yapılmamış maddeler**. Ve **sınır
+> yerleşimleri** meselesi."*
+
+```
+① PAKET MADDELERİ      178 açık — en öncelikli
+② SINIR YERLEŞİMLERİ   0039/H-0009, Faz 1 yürüyor
+③ boşalan oturuma HEMEN yeni iş — bekletme
+④ iş bitince DUR YOK: eksik nokta tespit et, kova aç
+```
+🟢 Düzenek kurulu: `_koordinator_bekcisi.py` (teslimde uyandırır) ·
+`_nobet.py` (30 dk, ölçümle) · koşu monitörü · `_isci_nabzi.py`.
+
+---
+
 ## 🌙 30 AĞUSTOS 2026 — GECE DURUMU (02:15, koşu sürerken)
 
 ### KOŞU CANLI
