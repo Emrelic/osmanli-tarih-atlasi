@@ -57,3 +57,15 @@ birleşik kayıt `data/yer_yama_erken.js`'te (commit 540a222). Mükerrer yok.
 Pil kısıtı kalktı (elektrik geldi) ama yeni bir araştırma BAŞLATMADIM,
 yalnız bu çakışmayı kapattım. Sıradaki adım: ORHANGAZİ'nin koşu emrini
 ya da yeni görev bekliyorum.
+
+## GÜNCELLEME 3 — GECE PARTİSİ, VERİ kovası ilk 11 (30 Ağu, M-1693)
+Şartname: `oturumlar/GECE-VERI.md`. Dosyam: `data/yer_yama_gece_v1.js`
+(window.YER_YAMA_GECE_V1). Sonuç: 11/11 işlendi.
+```
+UYGULANDI (tam)        1   Manama (Bahreyn) — 6 yeni dönem, TDV kaynaklı
+ZATEN-DOĞRU (bayat)     7   0008/H-0003 · H-0009-12+14 (5) · 0019/H-0048
+SIRADA/DEVİR            3   0019/H-0056(B) · H-0026 · 0013/H-0001
+```
+Tam detay: `denetim/HUKUM-UYGULAMA-1.json` (parti-0006, parti-emrelic-0008,
+-0013, -0019 anahtarları) + `denetim/BULGU-UYGULAMA-1.md` §⑪.
+Koşu CANLI, `arac/`ye dokunmadım. Sıradaki adım: tahtayı dinliyorum.

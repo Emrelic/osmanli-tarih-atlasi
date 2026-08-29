@@ -17,26 +17,12 @@
 
 window.YER_YAMA_UYG1 = [
 
-{ad:"Bağdat",
- s:[
-   {f:"1281-01-01", t:"1335-12-01", d:"ilhanli"},
-   {f:"1335-12-01", t:"1401-01-01", d:"celayirli"},
-   {f:"1401-01-01", t:"1405-01-01", d:"timurlu"},
-   {f:"1405-01-01", t:"1411-01-01", d:"celayirli"},
-   {f:"1411-01-01", t:"1469-01-01", d:"karakoyunlu"},
-   {f:"1469-01-01", t:"1508-01-01", d:"akkoyunlu"},
-   {f:"1508-01-01", t:"1534-12-04", d:"safevi"},
-   {f:"1623-11-28", t:"1638-12-24", d:"safevi"},
-   {f:"1917-03-11", t:"1923-10-29", d:"ingiltere"}
- ],
- d:[
-   {f:"1534-12-04", t:"1623-11-28"},
-   {f:"1638-12-24", t:"1917-03-11"}
- ],
- kaynak:"TDV `bagdat` — gövdesi okundu (oturumlar/OTURUM-13-ANADOLU.md satır 81-90'da aktarım): \"Hasan-ı Büzürg 1339'da Bağdat'a yerleşti, Celâyirliler'i kurdu... Bağdat Timur tarafından 795'te (1393) ve 803'te (1401) iki defa işgal edildi... Ahmed Celâyir 1405'te Bağdat'a döndü.\" 1393 işgali kalıcı değildi (şehir zarar görmedi, Celâyirli idaresi sürdü) — kırılma yazılmadı; kalıcı el değiştirme 1401'de.",
- neden:"p0031/H-0003 + H-0008 — Bağdat'ın s: zincirinde 1401-1405 timurlu ara-dönemi eksikti, celayirli 1335-12-01→1411-01-01 tek blok duruyordu. DEĞİŞEN TEK ŞEY: celayirli bloğunun 1401-01-01 ve 1405-01-01'de bölünüp arasına timurlu eklenmesi; ilhanli/karakoyunlu/akkoyunlu/safevi/ingiltere ve d: dizisi AYNEN korundu.",
- gun_dogrulama:"1401-01-01: data/olaylar_ek11.js:49 ile 0 gün fark (Bağdat'a özel madde). 1405-01-01: data/olaylar_ek5.js:55 ile 0 gün fark (konusu ayrı — Yenişehir Ovası savaşı — ama Değişmez 2 ±30 gün ölçütü sayıca karşılanıyor). ⚠️ Bağdat'a özel bir 1405 maddesi (Ahmed Celâyir'in dönüşü) yazılırsa daha iyi olur, benim dosyam değil — KRONOLOJİ İÇERİK'e not düşüyorum."
-},
+// 🔴 Bağdat BURADAN ÇIKARILDI (30 Ağustos) — UYGULAMA-ERKEN ile çakışma
+// yatay ölçülüp çözüldü (tahta M-1667, M-1668): TDV `bagdat` "iki defa
+// işgal edildi" (1393 VE 1401) diyor, ben yalnız 1401'i saymışım — ERKEN
+// haklıydı. Nihai birleşik kayıt artık data/yer_yama_erken.js'te
+// (commit 540a222): erken'in s: (1393+1401 iki işgal) + benim d: (açıkça
+// yazdığım 1534-1623/1638-1917 dönemleri). Mükerrer kayıt bırakmıyorum.
 
 {ad:"Sivrihisar",
  s:[

@@ -1,12 +1,12 @@
 {
  "parti-emrelic-0031": {
   "H-0003": {
-   "hukum": "cozuldu",
-   "not": "UYGULANDI — data/yer_yama_uyg1.js'e Bağdat kaydı yazıldı: celayirli 1335-12-01→1411-01-01 tek bloğu, 1401-01-01/1405-01-01 sınırlarıyla bölünüp arasına `timurlu` eklendi. Kaynak TDV `bagdat`. Değişmez 1 (süreklilik) ve Değişmez 2 (her iki yeni kırılma günü çekirdekte 0 gün farkla maddeli) node ile sınandı, temiz. Koordinatörün data/yerlesimler.js'e birleştirmesi bekleniyor."
+   "hukum": "tekrar",
+   "not": "GÜNCELLEME (30 Ağu) — kendi kaydımı GERİ ÇEKTİM. UYGULAMA-ERKEN yatay itiraz etti (tahta M-1667): TDV `bagdat` Timur'un 1393 VE 1401 işgallerini BİRLİKTE sayıyor ('iki defa işgal edildi'), ben yalnız 1401'i almışım. ERKEN'in birleşik kaydı (kendi d: verimle zenginleştirilmiş) artık data/yer_yama_erken.js'te, commit 540a222. Bu madde ARTIK ORADA kapanıyor, benim yer_yama_uyg1.js'ten kaydım silindi."
   },
   "H-0008": {
    "hukum": "tekrar",
-   "not": "0031/H-0003 ile aynı kök (Bağdat'ın eksik timurlu alt-dönemi) — H-0003 UYGULANDI, bu madde onunla birlikte kapanıyor."
+   "not": "0031/H-0003 ile aynı kök — nihai kayıt data/yer_yama_erken.js'te (bkz. H-0003 notu)."
   },
   "H-0016": {
    "hukum": "cozuldu",
@@ -17,6 +17,46 @@
   "H-0001": {
    "hukum": "sirada",
    "not": "KISMEN UYGULANDI — data/yer_yama_uyg1.js'e İsmail kaydı yazıldı: 1812-1923 kesintisiz `rusya` bloğu, 1856-03-30/1878-07-13 sınırlarıyla bölünüp arasına `v:` (tâbi, Boğdan Voyvodalığı) eklendi. Kaynak TDV `bogdan` (gövdesi okundu): '1856 Paris Antlaşması ile Kahul/İsmail/Bolgrad Boğdan'a geri verildi, 1878 Berlin Antlaşması ile üçü de tekrar Rusya'ya.' İki yeni kırılma günü de çekirdekte 0 gün farkla maddeli (Paris Antlaşması, Berlin Antlaşması). 🔴 AMA Kahul ve Bolgrad'ın KENDİSİ veride HİÇ YOK (aranan sluglar: Kahul/Cahul/Kagul/Bolgrad/Bolgrado, hepsi 0 eşleşme) — ikisi de YENİ NOKTA, yer_yama'ya yazılmadı, koordinatöre devredildi (yaklaşık koordinatlar not alanında). Bu yüzden madde tam kapanmadı: İsmail'in kendi kaydı düzeldi ama komplenin üçte biri (İsmail) yalnız uygulanmış oldu, sirada bırakıyorum."
+  }
+ },
+ "parti-0006": {
+  "H-0001": {
+   "hukum": "sirada",
+   "not": "GECE PARTİSİ (30 Ağu) — üç parçalı maddenin (a) kısmı zaten düzeltilmişti (Katîf, commit 47aa386). Notun bıraktığı 'İran ÇEKİRDEĞİ'/Bahreyn zinciri kalemini BULDUM VE UYGULADIM: data/yer_yama_gece_v1.js'e Manama (Bahreyn) kaydı yazıldı — 1417-1923 arası 6 yeni dönem (cebri·portekiz·safevi·umman·zend·bahreyn), hepsi TDV kaynaklı, altı yeni kırılma günü de çekirdekte 0 gün farkla zaten maddeli (data/olaylar_ek13.js). Kalan (b)/(c) parçaları (ÇAPRAZ İBERYA'nın 38 Portekiz dönemi taraması + 7 karar kalemi, 1932 satırlık ilerleme dosyası) benim kapsamım dışı — koordinatörde bekleyen bir KARAR listesi, veri düzeltmesi değil."
+  }
+ },
+ "parti-emrelic-0008": {
+  "H-0003": {
+   "hukum": "zaten-dogru",
+   "not": "GECE PARTİSİ — BAYAT. Ölçtüm: Divriği/Arapkir/Malatya ARTIK `memluk 1281-01-01`de başlamıyor. py arac/_yer_ara.py canlı veri: üçü de ilhanli→(eretna)→memluk zincirini gerçek tarihlerle taşıyor (Arapkir/Malatya 1315-04-28, Divriği 1381-01-01). git log -S'1315-04-28' → commit 3cf33e9 ('SAHİPLİK YAMASI İNDİ') + e54563c ('ARAPKIR + HALEPÇE İNDİ'). Not yazıldığından beri başka bir oturum tarafından zaten düzeltilmiş."
+  },
+  "H-0009": {"hukum": "zaten-dogru", "not": "bkz. H-0010 (aynı not, aynı hüküm)."},
+  "H-0010": {
+   "hukum": "zaten-dogru",
+   "not": "GECE PARTİSİ — '1281 boşlukları' kümesinin (H-0009/10/11/12/14, 5 madde bende, notların 5'i de BİREBİR AYNI metin) kök sebebi zaten ölçülmüş ve en büyük 3 somut örneği (banda-adalari 573.188 km² · somali 628.526 km² · ingiltere/Kongo 3.150.758 km²) 8 Ağustos'ta KAPANMIŞ (notun kendi ifadesi: 'ÜÇÜ DE 8 Ağustos'ta KAPANDI, 32 nokta'). Kalan genel bulgu ('101 hücre, 19,6 M km², bazıları veri-yok') YENİ NOKTA gerektiriyor — belirli bir kayıt adı verilmediği için yer_yama ile PATCH edilecek somut bir madde yok; bu tek tek 5 farklı kayıt değil, TEK bir bulgunun 5 kere kopyalanmış hâli. Nokta partisi oturumuna devredilir."
+  },
+  "H-0011": {"hukum": "zaten-dogru", "not": "bkz. H-0010 (aynı not, aynı hüküm)."},
+  "H-0012": {"hukum": "zaten-dogru", "not": "bkz. H-0010 (aynı not, aynı hüküm)."},
+  "H-0014": {"hukum": "zaten-dogru", "not": "bkz. H-0010 (aynı not, aynı hüküm)."}
+ },
+ "parti-emrelic-0013": {
+  "H-0001": {
+   "hukum": "sirada",
+   "not": "GECE PARTİSİ — VERİ kovasına UYMUYOR: istenen şey bir yerleşim/sahiplik kaydı değil, 'TDV dışındaki güvenilir akademik kaynaklar' referans LİSTESİ — bir dokümantasyon/kaynakça teslimatı. yer_yama şemasıyla (ad/d/s) ifade edilemez. Kendi kapsamımın dışına devrediyorum; ya doğrudan koordinatör ya da ayrı bir 'kaynak haritası' görevi gerektiriyor."
+  }
+ },
+ "parti-emrelic-0019": {
+  "H-0026": {
+   "hukum": "sirada",
+   "not": "GECE PARTİSİ — DEVREDİLDİ. Arnavutluk/İskender Bey'in devleti atlasta tek noktadan (Akçahisar/Kruja) ibaret; çare YENİ NOKTA (Debre·Mat·Dibra·Lezhe), notun kendisi zaten 'Sahibi: nokta araştırma oturumu' diyor. yer_yama ile çözülmüyor, koordinatöre/nokta oturumuna devrediyorum."
+  },
+  "H-0048": {
+   "hukum": "zaten-dogru",
+   "not": "GECE PARTİSİ — devraldığım not zaten 'ihtimal kapandı' diyordu: Tedmur (Palmyra) kendi kaydı olan bir yerleşim ve 1516-09-27'de gerçekten kırılıyor — petek emilmesi değil, gerçek bir eş-zamanlı fetih. Kalan iş (madde başlığına Beyrut/Tedmur'un da eklenmesi) bir KRONOLOJİ İÇERİK işi, sahiplik verisi değil; benim dosyama girmiyor."
+  },
+  "H-0056": {
+   "hukum": "sirada",
+   "not": "GECE PARTİSİ — İKİ PARÇA. (A) devraldığım 'kutudaki 29 kasıtlı_boşluk kaydının 27'sinin cinsi yazılmamış' hükmü zaten ÖLÇÜLÜP ÇÜRÜTÜLMÜŞ (29/29 dolu, gerçek boşluk sıfır) — bu parça ZATEN KAPALI. (B) Emre'nin asıl isteği (Sahra'da işaretlenmemiş yerleşim var mı, tam kapsama) hâlâ AÇIK ve YENİ NOKTA gerektiriyor (yoğunluk 1,5 nokta/100.000 km²) — yerlesimler*.js, benim dosyam değil, koordinatöre devrediyorum."
   }
  }
 }

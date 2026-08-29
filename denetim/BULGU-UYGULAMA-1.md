@@ -1,4 +1,4 @@
-<!-- DURUM: OLCULDU ¦ 2026-08-28 ¦ UYGULAMA-1 (eski: TASNİF-D) -->
+<!-- DURUM: OLCULDU ¦ 2026-08-30 ¦ UYGULAMA-1 (eski: TASNİF-D) — GECE PARTİSİ eklendi -->
 # BULGU — UYGULAMA-1 (TASNİF-D'nin 🟠/🔵 kovasının uygulanması)
 
 **Oturum:** UYGULAMA-1 (eski adı TASNİF-D) · **Şartname:** ORHANGAZİ'nin tahta
@@ -189,3 +189,54 @@ EK İŞ GEREKMİYOR                 1   0030/H-0018
                                 ──
                                 20
 ```
+
+---
+
+## ⑪ GECE PARTİSİ (30 Ağustos) — `oturumlar/GECE-VERI.md`'nin ilk 11 maddesi
+
+**Koşu CANLI** — `arac/`ye dokunulmadı. Dosyam: `data/yer_yama_gece_v1.js`
+(`window.YER_YAMA_GECE_V1`).
+
+```
+UYGULANDI (tam)                  1   parti-0006/H-0001'in bıraktığı
+                                     Bahreyn zinciri — Manama kaydına
+                                     6 yeni dönem eklendi (1417-1861)
+ZATEN-DOĞRU (bayat/çürüdü)        7   0008/H-0003 (Divriği·Arapkir·Malatya,
+                                     zaten düzeltilmiş) · 0008/H-0009-12+14
+                                     (5 madde, aynı bulgunun kopyası, 3 somut
+                                     örnek 8 Ağustos'ta kapanmış) ·
+                                     0019/H-0048 (Şam/Beyrut/Tedmur, ihtimal
+                                     kapandı)
+SIRADA (kısmen açık/devir)        1   0019/H-0056 — (A) çürüdü/kapandı,
+                                     (B) yeni nokta gerektiriyor, devredildi
+DEVREDİLDİ (yeni nokta)           1   0019/H-0026 (Arnavutluk/İskender Bey)
+DEVREDİLDİ (farklı görev tipi)    1   0013/H-0001 (akademik kaynak listesi —
+                                     yer_yama şemasına uymuyor)
+                                ──
+                                11
+```
+
+### En değerli bulgu — Manama (Bahreyn)
+`p0006/H-0001`'in notu 20 Ağustos'ta zaten şunu bulmuştu: altı kırılmanın
+(1521 Portekiz · 1602 Safevî · 1717 Umman · 1753 Âl-i Mezkûr · 1783 Âl-i
+Halîfe · 1861 İngiltere) hepsi `data/olaylar_ek13.js`de TDV kaynaklı olarak
+YAZILIYDI, ama `data/yerlesimler.js`deki Manama kaydının `s:` dizisi hâlâ
+BOŞTU (yalnız 1861-1923 vardı). On gün sonra bile hâlâ düzeltilmemişti —
+bu tur uyguladım: 1417 (Cebrîler) ile başlayıp yedi devlet kimliğiyle
+1923'e kadar kesintisiz bir zincir yazdım, altı yeni kırılma günü de
+çekirdekte 0 gün farkla zaten maddeli. İKİ ŞEY BİLEREK ATLANDI (`not:`
+alanında tam gerekçeli): 1281-1417 arası (TDV üç öncül hanedan sayıyor ama
+tarih vermiyor) ve 1559 Osmanlı seferi (TDV ile batı literatürü sonucun
+kendisinde çelişiyor, önceki oturum zaten "seçim yapılmadı" diye bırakmış,
+ben de tek taraflı seçmedim).
+
+### "Aynı bulgu 5 kere kopyalanmış" deseni — 0008/H-0009…H-0014
+Bana atanan 11 maddenin 5'i (H-0009, H-0010, H-0011, H-0012, H-0014)
+**birebir aynı not metnini** taşıyordu — sekiz orijinal şikâyetin sekizinin
+de aynı kök sebebe (1281'de 101 boş 5°×5° hücre, ~%81'i "veri yok") çıktığı
+tek bir bulgunun 5 farklı H-numarasına kopyalanmış hâli. Üç somut örnek
+zaten 8 Ağustos'ta kapanmış; kalan genel bulgu belirli bir kayıt adı
+taşımadığı için yer_yama ile PATCH edilecek bir madde değil — nokta
+partisi işi. Beşini de tek bir hükümle kapattım, ayrı ayrı "araştırma"
+yapmadım (zaten yapılmıştı).
+
