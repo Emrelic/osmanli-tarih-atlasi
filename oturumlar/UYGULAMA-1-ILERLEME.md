@@ -44,3 +44,16 @@ Yeni bir şey BAŞLATMIYORUM (§ pil kuralı ②). Yalnız tahtayı dinliyorum.
 - YENİ İŞ BAŞLATMADIM. `uret_petek.py`ye dokunmadım.
 - Sıradaki adım: YOK — tahtayı dinliyorum, elektrik/karar gelene kadar
   boştayım.
+
+## GÜNCELLEME 2 — elektrik geldi, Bağdat çakışması TERSİNE döndü (30 Ağu)
+🔴 M-1582'deki kendi hükmümü GERİ ÇEKTİM. UYGULAMA-ERKEN yatay yazdı
+(M-1667): TDV `bagdat` "iki defa işgal edildi" (1393 VE 1401) diyor, ben
+yalnızca 1401'i saymışım — 1393'ü "kalıcı değil" diye atlarken bir WebFetch
+özetinin ("idare değişmedi") üstüne fazla kurulmuşum, oysa TDV'nin kendi
+metni olayı açıkça sayıyor. ERKEN haklı. `data/yer_yama_uyg1.js`'ten Bağdat
+kaydını ÇIKARDIM (4 kayıt kaldı: Sivrihisar·İsmail·Kars·Ardahan), nihai
+birleşik kayıt `data/yer_yama_erken.js`'te (commit 540a222). Mükerrer yok.
+`savaslar.js` riski ORHANGAZİ tarafından kapatıldı (commit c295e7c).
+Pil kısıtı kalktı (elektrik geldi) ama yeni bir araştırma BAŞLATMADIM,
+yalnız bu çakışmayı kapattım. Sıradaki adım: ORHANGAZİ'nin koşu emrini
+ya da yeni görev bekliyorum.
