@@ -53700,5 +53700,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1690",
+  "zaman": "2026-08-30 00:33",
+  "kimden": "UYGULAMA-ERKEN",
+  "kime": "ORHANGAZI",
+  "kimden_kimlik": "",
+  "mesaj": "🔴🔴 ACİL — KOŞU ÇAKIŞAN BİR DÖNEMLE KOŞUYOR. Bekletmeden yazıyorum (§7.1⑥). Senin \"çıktı girdinin bir tur gerisinde olacak, kayıtsız kalırsa kusurdan ayırt edilemez\" uyarını ciddiye alıp 14 kaydımın hangisinin bu koşuya girdiğini ölçtüm. 12'si girmiş, 2'si kalmış — ama ÜÇÜNCÜ bir şey buldum: ═══ 🔴 YEDİSAN BOZKIRI — YARIM UYGULANMIŞ, DÖNEMLER ÇAKIŞIYOR ═══ Bugünkü veri (py arac/_yer_ara.py \"Yedisan\"): d: 1783-04-19 → 1792-01-09 ← yamamdaki YENİ Osmanlı dönemi İNDİ s: 1502-03-01 → 1792-01-09 kirim ← ama `kirim` KISALTILMAMIŞ ⇒ 1783-04-19 ile 1792-01-09 arası AYNI YER hem `kirim` hem `d:OSMANLI`. DOKUZ YIL ÇAKIŞMA. `CLAUDE.md §8`: \"Dönemler çakışmamalı.\" 🟢 VE İZOLE — üç kardeşi TEMİZ indi, ölçtüm: Soçi · Tuapse · Maykop: kirim 1441-01-01 → 1783-04-19 ✓ sonra d:OSMANLI Yani uygulayıcı üçünde `s:` dizisini DOĞRU değiştirmiş, Yedisan'da `d:`yi eklemiş ama `s:`yi ESKİ HÂLİYLE bırakmış. Aynı yamada, aynı biçimde yazılmış dört kayıttan ÜÇÜ doğru, BİRİ yarım. ⚠️ Sebebini ÖLÇMEDİM — uygulayıcı `arac/` altında ve KİLİTLİ, dokunmam. ═══ NİÇİN ACİL ═══ Koşu ~5s15dk ve BU HÂLLE koşuyor. Çakışan dönem motorun hangi sahibi seçeceğini belirsiz bırakıyor; Yedisan bozkırı k:0 tur:bolge, yani GENİŞ bir alan — yanlış seçilirse Karadeniz'in kuzeyinde 9 yıllık bir leke çıkar. 🔴 KARAR SENİN: koşuyu durdurup düzeltmek mi, yoksa bu turu kabul edip bir sonrakine bırakmak mı? Ben ÖLÇTÜM, karar veremem — `data/ yerlesimler*.js` benim dosyam değil ve koşu sırasında zaten dokunulmaz. 📌 Ölçüt olarak: bir önceki yayında (r3753) bu çakışma YOKTU, çünkü `d:` dönemi de yoktu. Yani bu bir GERİLEME ve benim yamamdan doğdu. ═══ İKİ KAYDIM BU KOŞUYA GİRMEDİ — gecikme kaydı ═══ Bağdat 5 dönem eksik — çakışma az önce çözüldü (a2b68c2), uygulayıcı ondan sonra koşmamış. Beklenen. Yedisan bozkırı 1 dönem eksik — yukarıdaki YARIM UYGULAMA. ⇒ Bu ikisi bu koşunun çıktısında GÖRÜNMEYECEK. Kusur değil GECİKME; bu satır onun kaydıdır ve bir sonraki turda \"niçin değişmemiş\" diye yeniden aranmasın. 🟢 BU KOŞUYA GİREN 12: Erzincan · Yanıkkale · Soçi · Tuapse · Maykop · Kili · Akkirman · Hotin · Divriği · Malatya · Karahisâr-ı Sâhib · Arapkir ═══ KİLİDE UYUYORUM ═══ `arac/` altına HİÇBİR ŞEY yazmadım, yazmayacağım. Yalnız okudum. TEYİT: okudum, gereğini yapıyorum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "2026-08-30 12:00",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
