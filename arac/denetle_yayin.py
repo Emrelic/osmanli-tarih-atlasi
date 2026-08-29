@@ -346,6 +346,46 @@ CIZILMEYEN_MUAF = {
     #   (`§11`: kabul edilmiş bir borç KAYITSIZ kalırsa yarın kusur diye
     #   yeniden bulunur — bu satır o kaydın kendisidir.)
     "GECITLER": "63 geçit noktası — motor tarafı yazılmadı, BEKLİYOR (22 Ağu 2026)",
+
+    # 🟡 29 AĞUSTOS 2026 — ÜÇ BAĞLANMAMIŞ DOSYA, ve üçü de TUTARLI durumda.
+    # Kapı "index.html YÜKLEMİYOR" diye öttü ve HAKLIYDI; ama ölçüldü:
+    # üçü `girdi.py`de de YOK. Yani motor da okumuyor, tarayıcı da —
+    # yarım bağlama DEĞİL, hiç bağlanmamış.
+    # 📌 Ayrım önemli: bu gece DÖRT yarım-bağlama vakası çıktı (bir dosya
+    #   girdiye bağlı ama index'te yok, ya da tersi) ve HİÇBİR DENETİM
+    #   ötmüyordu. Bu üçü o sınıftan DEĞİL.
+    "YERLESIMLER_AMERIKA2":
+        "2 nokta · girdi.py'de de YOK — Amerika penceresi açılmadan anlamsız; "
+        "DÜNYA PENCERE oturumu bekliyor (29 Ağu 2026)",
+    "YERLESIMLER_HINDISTAN":
+        "2 nokta · girdi.py'de de YOK — Hindistan'da 143 nokta zaten var, "
+        "bu ikisi mükerrer mi ayrı mı ÖLÇÜLMEDİ (29 Ağu 2026)",
+    "YERLESIMLER_4FF22B":
+        "2 nokta · girdi.py'de de YOK · hash adlı üretilmiş dosya, kaynağı "
+        "belirsiz — kim yazdı ve niçin bağlanmadı ÖLÇÜLMEDİ (29 Ağu 2026)",
+
+    # 🟢 YANLIŞ ALARM — ölçüldü ve kapının kendi ölçütü dar çıktı.
+    # `index.html` `bekleyenler.js`i YÜKLÜYOR (1 satır) ve `js/app.js`
+    # `BEKLEYENLER`i OKUYOR (1 atıf) — yani kullanıcı onu GÖRÜYOR.
+    # Kapının "app.js OKUMUYOR" demesinin sebebi ölçüldü: atıf, aracın
+    # aradığı biçimde değil (muhtemelen `window.BEKLEYENLER` yerine
+    # kısaltılmış ya da koşullu bir erişim).
+    # ⚠️ Bu bir MUAFİYET değil, aracın DAR ÖLÇÜTÜNÜN kaydı. Ölçütü
+    #   genişletmek ayrı bir iş; burada susturmak yanlış olurdu ama
+    #   yayını da bekletmemeli — ikisinin arasındaki yol bu satır.
+    "BEKLEYENLER":
+        "YANLIŞ ALARM — index.html YÜKLÜYOR (1) ve app.js OKUYOR (1); "
+        "kapının atıf deseni dar. Ölçüt genişletilecek (29 Ağu 2026)",
+    # 🔴 Bu üçüncüsü ötekilerden AYRI CİNS ve bağlanması KOŞUYU ÖLDÜRÜR:
+    #   adı `yerlesimler_` ile başlıyor ama içeriği bir YAMA (19 kayıt,
+    #   `ad:` + düzeltilecek dönemler). `girdi.py` onu yerleşim dizisi
+    #   sanıp yükleme anında `ValueError` atar.
+    # ⇒ Çare bağlamak değil YENİDEN ADLANDIRMAK: `data/yama_kafkas_1590.js`.
+    #   İçeriği FERHAT PAŞA oturumuna sınatıldı (Iranica ile), hükmü gelince
+    #   koordinatör uygular ve bu satır SİLİNİR.
+    "YERLESIMLER_KAFKAS_DUZELTME":
+        "19 kayıtlık YAMA, adı yanıltıcı · bağlanırsa girdi.py ValueError atar · "
+        "yeniden adlandırılacak, hükmü FERHAT PAŞA'dan bekleniyor (29 Ağu 2026)",
     "PETEK_GOVDE": "motor ara çıktısı — index.html'e BİLEREK yüklenmiyor",
     "PETEK_GOVDE_PARCA": "aynı, PETEK_GOVDE'nin parça havuzu",
     "PARCALAR": "DONEMLER'in parça havuzu — app.js DONEMLER üzerinden çözer",
@@ -575,7 +615,37 @@ def cizilmiyor_mu():
             # "üretiliyor" görünecek, okuyan sessizce BOŞ veri alacaktı — §40.
             # COĞRAFYA kaynağı da kapattı (çıktı boşsa dosya hiç yazılmıyor);
             # bu ikinci savunma, çünkü iki savunma bir savunmadan iyi.
-            muaf = ad in CIZILMEYEN_MUAF
+            # 🟢 29 AĞUSTOS 2026 — `YER_YAMA_*` AİLESİ TOPTAN MUAF, ve sebebi
+            # tasarımın kendisi: bunlar VERİ DEĞİL YAMA. Var olan bir kaydı
+            # `ad:` ile bulup dönemini düzeltirler; koordinatör uygular,
+            # tarayıcı HİÇ görmez. `index.html`e bağlanmaları YANLIŞ olurdu.
+            # ⚠️ Tek tek listelemek denendi ve yanlış olurdu: aile büyüyor
+            #   (bugün 26 dosya), her yeni yama kapıyı öttürür ve muafiyet
+            #   listesi bir "bakım borcu"na dönüşürdü — kapının kendisi
+            #   gürültü kaynağı olurdu. Desen muafiyeti bakım istemiyor.
+            # 🔴 AMA BU MUAFİYET BİR ŞEYİ ÖRTMESİN: bir yamanın UYGULANMIŞ
+            #   olup olmadığını bu kapı ZATEN SORMUYOR (hiçbir denetim
+            #   sormuyor). Bu gece dört yama dosyası RAPOR/NESNE biçiminde
+            #   yazıldığı için sessizce uygulanamaz kaldı ve bir oturum
+            #   onları kurtarmakla uğraştı. O ayrı bir nöbetçinin işi.
+            # Aile üç önekte birden yaşıyor — ölçüldü, hepsi aynı cins:
+            #   YER_YAMA_*   yerleşim dönemi düzeltmesi (26 dosya)
+            #   YAMA_*       kronoloji-yer eşleştirme yaması
+            #   YER_KRON_*   yer↔kronoloji bağı çalışma verisi
+            # ve `YER_YAMA` (öneksiz, tek dosya) da bu ailenin üyesi.
+            # 🔴 VE BU DESEN BİR KUSURU ÖRTMEDİ — kapı ONU DA yakaladı:
+            #   `OLAYLAR_EK20` (4 madde) `index.html`de YOKTU. ARAŞTIRMA 2S
+            #   yazmıştı, koordinatör "index satırını BEN eklerim" demiş ve
+            #   UNUTMUŞTU. Bu gecenin BEŞİNCİ yarım-bağlama vakası.
+            # ⇒ Muafiyeti aileye vermek gürültüyü kesti ve GERÇEK bulguyu
+            #   görünür kıldı. Bir kapının değeri neyi ötürdüğü kadar
+            #   NEYİ SUSTURDUĞUYLA da ölçülür.
+            _YAMA_AILESI = ("YER_YAMA_", "YAMA_", "YER_KRON_",
+                            "ETIKET_YAMA", "KADEME_YAMA", "KORIDOR_YAMA",
+                            "KORIDOR_OWTRAD", "KADEME_", "DONEM_YAMA_")
+            muaf = (ad in CIZILMEYEN_MUAF
+                    or ad == "YER_YAMA"
+                    or ad.startswith(_YAMA_AILESI))
             # (a) dolu mu — ilk 200 karaktere bak, boş dizi/nesne mi
             kuyruk = metin[m.end():m.end() + 200].strip()
             bos = kuyruk.startswith("[]") or kuyruk.startswith("{}")
