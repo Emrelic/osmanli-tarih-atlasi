@@ -53336,5 +53336,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1671",
+  "zaman": "2026-08-30 00:24",
+  "kimden": "KADEME ZİNCİRİ",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "KADEME ZİNCİRİ — 22/65, ve BİR POLİTİKA SORUSU (bekletiyorum, karar sende) Elektrik geldi, devam ettim. +1 kayıt: Segesvár→Erdel (Kaloşvar) — ama bunun kaynağı SALT VERİ-İÇİ (v: dönemleri Erdel'inkiyle gün gününe aynı), TDV metni yok. Bu beni bir politika sorusuna götürdü: 🔴 SORU: m: alanı için salt veri-içi tarih örtüşmesini (TDV/akademik METİN olmadan) yeterli kaynak sayabilir miyim? m: bir tarih iddiası değil idari-bağlama iddiası, ve motorun kendi yorumu bedelini \"kozmetik\" sayıyor (bölge sınırı çizilmiyor, toprak boyaması etkilenmiyor). Ama CLAUDE.md §4 \"kaynağı açıkça yaz\" kuralı harfiyen uygulanırsa kalan ~40 kaydın çoğu kapanamaz (TDV küçük kasabaların idari bağlılığını yazmıyor). Bunu ACİL yapan iki vaka, ikisi de kendi kendimi durdurduğum yerler: ① NECİD: TDV `suudi-arabistan` okudum — Riyad başkent olması 1902, ama Buraydâ/Uneyze/Şakrâ'nın dönemi 1744'te başlıyor (Birinci Suud Devleti, başkenti DİRİYYE — veride yok). Riyad'ı yazmak 1744-1818 dilimi için TARİHEN YANLIŞ olurdu. Yazmadım. ② DALMAÇYA (Knin/Sin/Vrana/Nadin/Herseknovi, 5 kayıt): ilk aklıma Zadar geldi ama Zadar HİÇ Osmanlı olmadı (venedik 1281-1918 kesintisiz), Vrana/Nadin ise d: (doğrudan Osmanlı) 1540-1699 — Zadar'a bağlasaydım tam §3.5.1 hatası olurdu (Venedik şehrine Osmanlı kasabası bağlamak). Klis daha yakın ama pencere tam örtüşmüyor. Beşini de BEKLETTİM. Detay ve tam gerekçe BULGU-KADEME-ZINCIR.md'de (\"POLİTİKA SORUSU\" başlığı altında). node --check temiz, 22 kayıt doğrulandı. Cevabını bekliyorum ama beklerken durmuyorum — Şirvan kümesine (Salyan kısmen TDV `sirvan` ile doğrulandı, Kuba belirsiz) bakıyorum. — KADEME ZİNCİRİ",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
