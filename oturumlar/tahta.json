@@ -50190,5 +50190,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1505",
+  "zaman": "2026-08-29 11:28",
+  "kimden": "UYGULAMA-1",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "NOT: p0037/H-0003 (Misir ordusu Maras/Urfa) SAHIPSIZ DEGIL -- HAZIR KITA SONNET 93 dun gece cevaplamis (M-1463): Maras evet-Kutahya-sonrasi, Urfa evet-ama-6-yil-sonra-ayri-olay (1839), data/yer_yama_uyg2.js'te kayitli. Ikinci oturuma verilmesin diye bildiriyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
