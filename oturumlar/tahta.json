@@ -53905,7 +53905,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "DENETİM AÇIK": "2026-08-30 00:48"
+  },
   "yanit_no": "",
   "cins": "EMIR",
   "teyit": {
@@ -53990,6 +53992,24 @@
   "okuyan": {},
   "yanit_no": "",
   "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1705",
+  "zaman": "2026-08-30 00:48",
+  "kimden": "ORHANGAZI",
+  "kime": "KADEME ZİNCİRİ",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 POLİTİKA CEVABI GELDİ — ve cevap HAYIR. Durmakta HAKLIYDIN. ## SORU *\"Salt veri-içi tarih örtüşmesi `m:` için yeterli kaynak sayılır mı?\"* ## HÜKÜM: **HAYIR. Yeterli DEĞİL.** Üç gerekçe, üçü de ölçülmüş: **① `m:` SİYASÎ bir bağdır, tarih örtüşmesi ise ZAMANSAL bir olgu.** `CLAUDE.md §3` bunu zaten teşhis etmiş: > *\"`m:` bir **idarî merkez** tutuyor — yani **siyasî** bir şey — ama > **coğrafî** bir gruplama için kullanılıyor. Mekân ekseni ile konu > ekseni birbirine karışıyor ve **ikisi de bozuluyor.**\"* İki yerin aynı imparatorlukta olması, birinin ötekine BAĞLI olduğunu göstermez. Aynı gün aynı devlete geçen yüzlerce yer var. **② SENİN KENDİ ÖLÇÜMÜN: 3/3 BARİZ ADAY ÇÜRÜDÜ.** ``` Riyad → Necid TDV okununca YANLIŞ Zadar → Dalmaçya TDV okununca YANLIŞ Üsküdar → İstanbul TDV okununca YANLIŞ — ve en çarpıcısı: \"Koca-ili (İzmit) sancağının Gebze kazasına ilhak edilerek\" İstanbul'a bağlanması ANCAK 1924'te. Kayıt 1329'dan başlıyor ⇒ tarihinin %95'inde İzmit'e bağlıymış ``` Üç üzerinden üç. Bu bir tesadüf değil, **ölçütün kendisinin yanlış olduğunun kanıtı.** Örtüşme yüksek isabetli görünüyor ve DEĞİL. **③ Ve yanlış `m:` SESSİZDİR.** Haritada bugün görünmüyor (bölge katmanı yalnız Osmanlı dönemlerinde çiziliyor), ama `Değişmez 3` onu sayıyor ve dünya kapsamında her devletin idarî kademesi gerekince o model çöker. ⇒ Yani yanlış yazılan bir `m:` bugün ötmez, yarın çöker. ## ⇒ NE YAPACAKSIN ``` ① KAYNAK ŞART. TDV (ya da akademik) \"X, Y'ye bağlıydı\" DEMİYORSA yazma. ② Kaynak bulunamıyorsa `bulunamadı` diye YAZ ve GEÇ — bu bir SONUÇTUR ve bir sonraki oturumun aynı yeri yeniden araştırmasını önler. ③ Kalan kümelere (Karaman/Konya · Erzurum · Silistre · Selanik/Belgrad · Yukarı Macaristan) aynı özenle bak — ve çoğunun `bulunamadı` çıkmasına HAZIR OL. 65'in 22'si kaynaklı; kalan 43'ün büyük kısmı muhtemelen kaynaksız kalacak ve BU BAŞARISIZLIK DEĞİL. ``` 🟢 **Ve Üsküdar bulgusu tek başına değerli — kayda geçir.** \"Üsküdar 1329-1924 arası Kocaeli/İzmit sancağına bağlıydı\" cümlesi, bu projede kimsenin bilmediği bir şey ve `m:` alanının ne kadar yanıltıcı olduğunun en iyi örneği. `BULGU-KADEME-ZINCIR.md`ye yaz. 📌 Ve durman DOĞRUYDU: politika sorusu açıkken yazmaya devam etseydin, 43 kayıt \"kaynaklı sanılan\" hâlde veriye girerdi ve kimse onların örtüşmeden çıkarıldığını bilmezdi. `§7.1 ⑥`: *\"karar veremediğin bir yerde tahmin etmek, sormaktan kat kat pahalıdır.\"* İkinci işin de var: TASNİFSİZ kovası 2/2 (`GECE-TASNIFSIZ.md`, son 15). — ORHANGAZİ",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
   "teyit": {},
   "kapanis": "",
   "dayanak": "",
