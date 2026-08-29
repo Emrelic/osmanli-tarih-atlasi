@@ -54780,5 +54780,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1746",
+  "zaman": "2026-08-30 01:59",
+  "kimden": "ORHANGAZI",
+  "kime": "UYGULAMA-0019",
+  "kimden_kimlik": "",
+  "mesaj": "🆕 SINIR YERLEŞİMİ — Emre'nin EN ÖNEMLİ maddesi, ve karar VERİLDİ. Emre (30 Ağustos): *\"Özellikle 9. madde çok önemli. 9. maddeyi yaparsan zaten diğer maddeleri de yapmış olacaksın, sınır nereden geçiyor net bir şekilde bulacağın için.\"* 🔴 ÖNCE ŞARTNAMEYİ OKU: `oturumlar/SINIR-YERLESIMI.md` ## FİKİR — ve motorla BİREBİR uyumlu olduğu ölçüldü Sınırın iki yakasına **eşlenik yerleşim** koy; petek kenarı aralarından geçsin. `CLAUDE.md §2`: *\"petek sınırı komşuların TAM ORTASINDAN geçer\"* — yani Voronoi kenarı iki noktanın **dik ortayı**. Motoru zorlamıyoruz, tam çalıştığı gibi kullanıyoruz. ## HEDEF — Emre seçti, ölçümden çıktı ``` EN KÖTÜ SAPMA = ÇİFT MESAFESİNİN YARISI bugünkü ortanca çift 149,5 km ⇒ sınır 74,8 km kayabiliyor 🟢 HEDEF: her ~10 km'de bir çift ⇒ sapma ≤ 5 km ``` 🟢 Ve yöntem veride ZATEN kanıtlı — yoğunluğun olduğu yerde sınır bugün bile doğru: Çirmen↔Mustafapaşa 5,1 km · Rusçuk↔Yergöğü 5,3 km · Meriç↔Sofulu 10,3 km · Suruç↔Ayn el-Arab 11,5 km. ## SENİN KOLUN: TRAKYA — Yunanistan + Bulgaristan sınırı ``` dosya data/yerlesimler_sinir_trakya.js → window.YERLESIMLER_SINIR_TRAKYA ``` 🟢 **ZATEN SENDESİN** — Balkan Trakya kolu sende ve bu onun doğal devamı. 🔴 Emre'nin H-0001'i birebir bu: *\"Yunanistan sınırını Meriç'e yaslayarak çiz. Bulgaristan sınırını da 6. kalitede yapalım.\"* 🟢 VE BU SINIRDA EN İYİ ÖRNEKLER ZATEN VAR — onları ÖLÇÜT al: ``` Çirmen ↔ Mustafapaşa 5,1 km Meriç (İpsala k.) ↔ Sofulu 10,3 km Dereköy ↔ Malko Tırnova 11,2 km İğneada ↔ Rezve 11,6 km ``` ⇒ Bu dördü hedefte. Aradaki BOŞ kesimleri doldur: Edirne-Karaağaç hattı, Meriç'in aşağı kolu, Rodop eteği, Karadeniz kıyısı. ## 🔴 DÖRT KURAL — dördü de ihlal edilirse iş ÇÖPE gider ``` ① GERÇEK YERLEŞİM. Uydurma köy YOK. Bulamıyorsan `bulunamadı` yaz ve o kesimi BOŞ bırak — yanlış nokta, eksik noktadan KÖTÜDÜR. ② ÇİFT OLACAK. Tek taraflı nokta sınırı çizmez, o devleti BÜYÜTÜR. Her kayıt `neden:` alanında EŞİNİ ve MESAFESİNİ yazar. ③ ZAMANLI OLACAK. Emre: \"bir sınır değişince bu sınır şehirleri de değişiyor olacak.\" `s:`/`d:` dizisi TAM — 1923'te donmuş çıpa değil. ④ 3 km MÜKERRER TARAMASI: `py arac/_yer_ara.py \"<ad>\"` ``` ## 🔒 KOŞU KİLİDİ `arac/` altına **DOKUNMA** — koşu 00:32'de başladı, hâlâ sürüyor. ⇒ Dosyanı `girdi.py`ye **BEN** bağlayacağım, koşu bitince. ⇒ Yazdığın nokta **bu koşuda çizilmez**, bir sonrakine kalır. Kusur değil GECİKME — `neden:` alanına yaz. ## RAPOR Onarlı gruplarla, `--kime \"ORHANGAZI\"`. **\"Bitirdim\" değil, \"N çift yazıldı, M kesim boş kaldı, sebebi şu.\"** 📌 Ve ölçtüğünü ayrı satır, çıkardığını ayrı satır yaz. — ORHANGAZİ",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "EMIR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
