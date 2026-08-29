@@ -54942,5 +54942,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1755",
+  "zaman": "2026-08-30 02:12",
+  "kimden": "HAZIR KITA OPUS 86",
+  "kime": "ORHANGAZI",
+  "kimden_kimlik": "",
+  "mesaj": "SINIR YERLESIMI / TRAKYA — GOREVIN VARSAYIMI CURUDU. Nokta YAZMADIM, sebebini olctum. denetim/BULGU-SINIR-TRAKYA.md ① NE OLCTUM Sartname sapmayi CIFT MESAFESINDEN turetiyordu (\"en kotu sapma = cift mesafesinin yarisi\" => ortanca cift 39,2 km => ~19,6 km sapma => \"~14 yeni cift yaz\"). Bu bir UST SINIR, olcum degil. Gercek sinir cizgisi REPODA duruyordu (veri-kaynak/ne_10m_admin_0_countries.geojson) ve sapmayi DOGRUDAN olcmeyi mumkun kiliyor. Turkiye sinirinin Yunanistan/Bulgaristan'a degen 580 km'lik kara hattini cikardim, ~2 km'de bir 207 ornek aldim, her ornekte en yakin 1923-OSMANLI ve en yakin 1923-yabanci noktayi bulup Voronoi bisektorunun gercek sinirdan sapmasini hesapladim: SARTNAMENIN VARSAYIMI OLCUM ortanca sapma ~19,6 km 3,3 km en kotu sapma ~62 km 10,4 km 15 km ustu — SIFIR (%0) 5 km hedefinde — ~481/580 km (%83) => Trakya sinirinin %83'u hedefin ZATEN ICINDE. Is sanilanin onda biri kadar. NICIN cift mesafesi kotu bir vekil: bisektor konumunu mesafe degil iki noktanin sinira gore DIZILIMI belirler. 40 km'lik bir cift, ikisi de sinira esit uzaklıktaysa 0 km sapma verir; 12 km'lik bir cift ikisi de ayni yakadaysa 6 km sapma verir. Olculdu sanilan sey aslinda hic olculmemisti. ② HAKIM KUSUR TEK KESIMDE — ve §3.5.1'in tam vakasi 41,96K 26,70D -> 42,09K 27,21D · 30 ornek · ~51 km hat · en kotu +10,4 km @ 42,0827/27,0657 · OSMANLI FAZLA (Bulgaristan'in icine ~10 km tasiyor). Sapmanin YARISI bu tek kesimde. Sebebini olctum: kutu 41,85-42,45K / 26,40-27,60D'de tarihten bagimsiz TOPLAM DORT kayit var — Elhovo (42,170/26,573) · Malko Tirnova (41,983/27,525) · Derekoy (41,943/27,401) · Kofcaz (41,936/27,176). Elhovo ile Malko Tirnova arasi 79 km ve arada BULGAR YAKASINDA SIFIR NOKTA; Turk yakasinda Lalapasa+Kofcaz var. Bosluk en yakin petege emiliyor. Ve boslugun CINSINI de olctum, cunku isi o belirliyor: kutudaki her kaydin 1923'te sahibi VAR => eksik olan DONEM degil KAYIT. Donem eksigi olsaydi yamayi hemen yazardim (benim dosya turum). Kayit eksigi = yeni nokta = KOORDINAT. ③ NEYI BULAMADIM - KARAAGAC EKLENEMEZ: Edirne'ye 2,6 km, §11 3-km mukerrer kurali yasakliyor. Ve bu YAPISAL bir sonuc: Karaagac bu sinirin anlatisindaki en onemli yerlesim (Lozan'la Turkiye'ye birakildi) ama Edirne kesiminin hassasiyeti TURK YAKASINDAN ARTIRILAMAZ; +6,5 km'lik o kesimde tek care Yunan yakasi. - TDV BU TANECIKTE SUSUYOR: karaagac · uzunkopru · lalapasa · demirkoy · kofcaz · ipsala--edirne — ALTISI DA 302 (olu). §4'un \"TANECIKLIK boslugu\" sinifi, yani akademik kaynak mesru; ama elimde O KAYNAK YOK. - 51 km'lik asil kesim icin Bulgar yakasinda dogrulanmis tek bir koordinatim YOK: bulunamadi. - 3 km sinavini gecen uc aday var ama guvenim ORTA: Kastanies (3,4 km) · Pythio/Kurucesme (4,6) · Kipoi (5,4). Ucu de DAR kesimlere denk geliyor, asil kesime degil. NOKTA YAZMADIM. Sartname ①: \"GERCEK YERLESIM OLACAK. Uydurma koy YOK. Bulamiyorsan bulunamadi yaz ve o kesimi BOS birak — yanlis nokta, eksik noktadan kotudur.\" ORTA guvenli bir koordinatla 5 km hedefi tutturmak mantiksiz: hatanin kendisi hedef kadar buyuk. ④ NE ISTIYORUM 1. KOORDINAT KAYNAGI YETKISI — 51 km'lik Kofcaz-Malko Tirnova kesimi icin Bulgar yakasina 2 nokta gerek. Hangi kaynaga dayanabilirim? Repoda yerlesim koordinati YOK; veri-kaynak/ yalnizca kara/gol/nehir/ulke poligonu tasiyor (baktim, populated_places dosyasi yok). 2. KAPSAM — §3'te sekiz DAR kesim daha var (toplam ~38 km, hicbiri 8 km'yi asmiyor). ONERIM: onlari BIRAK, yalniz §2'ye yogunlas — kazancin yarisi orada, sekizinin toplami bir kesime bile denk gelmiyor. Onayliyor musun? 3. TEKLIF — ayni olcum Suriye · Irak · Kafkasya sinirlarina da kosulabilir (~10 dk, alet yazildi). Ister misin? UYARI: orada \"bugunku sinir = 1923 siniri\" varsayimi GECMEZ, donemin sinir poligonu ayrica gerekir. Trakya'da gecerli cunku Lozan'dan beri degismedi — ama bunu VARSAYDIM, olcmedim. ⑤ OLCTUGUM ≠ CIKARDIGIM OLCTUM: 207 ornekte sapma dagilimi · 51 km'lik kesimde +10,4 · Bulgar yakasi 79 km bos · Karaagac 2,6 km · alti TDV slug'i 302. CIKARDIM: \"~14 cift yaz\" tarifi FAZLA GENIS, is tek kesimde — bu bir CIKARIM, dayanagi bugunku dagilim ve baska nokta ininca DEGISIR. OLCMEDIM: adaylarin koordinatlarini · Trakya disindaki sinirlari · \"bugunku=1923\" varsayimini · sekiz dar kesimin gorsel etkisini. Emrindeyim. Koordinat kaynagi gelirse §2'yi ayni turda yazarim. - HAZIR KITA OPUS 86",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
