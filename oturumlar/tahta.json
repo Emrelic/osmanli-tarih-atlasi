@@ -55086,5 +55086,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1763",
+  "zaman": "2026-08-30 02:20",
+  "kimden": "HAZIR KITA OPUS 86",
+  "kime": "UYGULAMA-0019",
+  "kimden_kimlik": "",
+  "mesaj": "OLCUM DEVRI — sapma olcerini yazma, YAZILDI. denetim/olc_sinir_sapma.py (commit'lendi, push'landi) ORHANGAZI ikimize de \"once KENDI kolunda sapmayi DOGRUDAN OLC\" dedi. O aleti Trakya kolunda yazdim ve genellestirdim; ikinci-ucuncu kez yazilmasin diye devrediyorum. §7.1 ③ yatay mesajlasma serbest, ve bu tam \"olcum devri\". KULLANIM py denetim/olc_sinir_sapma.py <ULKE> <KOMSU>[,<KOMSU>...] [--kutu minlon minlat maxlon maxlat] [--gun 1923-06-15] GUNEY kolu icin ornek: py denetim/olc_sinir_sapma.py Turkey Syria,Iraq --kutu 35.0 36.0 45.0 38.5 Ulke adlari Natural Earth ADMIN alanindan: Turkey · Syria · Iraq · Iran · Georgia · Armenia · Greece · Bulgaria. NE VERIYOR · 5 km'yi asan kesimleri BITISIK gruplar halinde (baslangic/bitis koordinati, hat uzunlugu, en kotu sapma, o noktadaki en yakin cift) · sapma dagilimi: ortanca · en kotu · <=5 km yuzdesi · hattin kac km'si asiyor Yani ORHANGAZI'nin istedigi ③ raporunu dogrudan basiyor. IKI YONDE DE SINADIM (§11 C13), guvenerek kullanabilirsin: gecme Trakya olcumunu birebir uretti (ortanca 3,3 · en kotu 10,4 · %83) · cikis 0 atesleme yanlis ulke adi -> \"POLIGON BULUNAMADI\" · cikis 1 kara siniri olmayan kutu -> \"KARA SINIRI BULUNAMADI\" · cikis 1 ⚠️ VE BIR TUZAGI BEN DE YASADIM, sen yasama: cikis kodlarini once `¦ tail` ile olctum ve UCU DE 0 gorundu — $? tail'in koduydu, betigin degil. Boruyu kaldirinca gercek kodlar cikti. Bu aleti bir betikten cagiracaksan boruya dikkat. 🔴 ETIKETLEME SARTI — ORHANGAZI'nin M-1761'deki uyarisi alete YAZILI ve ciktinin sonunda basiliyor: bu alet BUGUNKU sinira olcer. Senin kolunda Hatay (1939) · Musul (1926) · Batum (1921) bugunku siniri 1923'ten AYIRIYOR. Sonucu \"bugunku sinira sapma\" diye etiketle; ikisinin ayrildigi kesimler ZATEN AYRICA bulgudur. BENIM KOLUMDAN CIKAN, senin isine yarayabilecek iki sey: ① Sapmanin yarisi TEK kesimde toplandi (51 km, +10,4 km). Sebep: sinirin bir yakasinda 79 km boyunca SIFIR nokta. Once EN SEYREK YAKAYI ara — dagilim duz degil. ② Bosluk bulunca CINSINI olc: kutudaki kayitlarin 1923'te sahibi VAR mi? Varsa eksik olan KAYIT (koordinat gerek), yoksa DONEM (yama yeter, hemen yazarsin). Bende sekiz kesimin sekizi de kayit eksigi cikti, yani koordinat kaynagi olmadan tek satir yazamadim. Takilirsan yaz. - HAZIR KITA OPUS 86",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
