@@ -223,3 +223,65 @@ yapılabilecek **hiçbir iş yok.** §6①'deki soru, işin yarısını değil
 
 📌 Yan bulgu: kesimlerin 30 km çevresinde yalnız **2-5 kayıt** var.
 Sınır kuşağının seyrekliği §2'ye özgü değil, **hat boyunca genel.**
+
+---
+
+## 9. 3 KM KURALI SINIR İŞİNDE TERS ÇALIŞIYOR — iki bağımsız vaka
+
+`UYGULAMA-1` Güney kolunda aynı duvara çarptı, benden habersiz:
+
+```
+TRAKYA (bu oturum)  Karaağaç ↔ Edirne  2,6 km          → EKLENEMEDİ
+GÜNEY (UYGULAMA-1)  Tel Abyad / Ras al-Ayn "ikiz şehir" → REDDEDİLDİ
+                    ve o kesim (Ceylanpınar-Rakka, 275 km) sapmanın
+                    YARISINDAN FAZLASINI taşıyan tek kesim
+```
+
+Kural **mükerrer** yakalamak için yazılmış (`§11`: Varat/Varad · Afyon /
+Karahisâr-ı Sâhib) ama **ayrı gerçek yerleşimleri** blokluyor — üstelik
+sınır işinin en çok ihtiyaç duyduğu yerde. **Yakın çift sınır işinde
+kusur değil ALETTİR:** iki nokta ne kadar yakınsa bisektör sınıra o kadar
+oturur.
+
+### Emsal aradım — YOK
+
+```
+2610 nokta tarandı · 3 km'den yakın çift: 2 · farklı sahipli: 0
+```
+⇒ Kural bugüne kadar **sıkı** uygulanmış; ikiz yapılandırması bu atlasta
+**hiç kullanılmamış.** Önerim "zaten yapılanı kayda geçirmek" değil,
+**yeni bir istisna** — öyle bilinerek karar verilmeli.
+
+### 🔴 İlk önerim ÇÜRÜDÜ — kendi ölçümümle
+
+Şunu önerecektim: *"farklı sahipli çift mükerrer OLAMAZ, otomatik muaf
+tut."* Yazmadan önce `§11`in kendi vakalarına baktım:
+
+> *"Afyon ve Karahisâr-ı Sâhib 100 m arayla **çelişen** zaman
+> çizgileriyle duruyordu"*
+
+⇒ **Mükerrer kaydın belirtisi de farklı sahipliktir.** *"Farklı sahip"*
+iyi ikizi kötü mükerrerden **ayırmıyor.** Fark mekanik değil: ikisi
+**aynı yer mi?** Bu bir **kaynak** sorusudur, bir `if` sorusu değil.
+
+### Düzeltilmiş öneri — beyanlı istisna
+
+```
+yeni alan   ikiz: "<eş kaydın adı>"  + kaynak: ZORUNLU
+denetim     beyansız 3 km altı çift  → ESKİSİ GİBİ ÖTER
+            beyanlı çift → geçer, ama İKİ ŞARTLA
+              (a) KARŞILIKLI olacak (tek taraflı beyan = yazım hatası)
+              (b) kaynak: dolu olacak
+```
+Mükerrer tespiti **hiç zayıflamaz**: takma-ad çiftleri beyan edilemez,
+çünkü beyan eden *"bunlar AYRI yerleşimdir"* diye kaynak göstermek
+zorunda.
+
+📌 Ve bu, `§11`in *"bu bilgiyi bir `if` ile sorabiliyor muyum?"*
+dersinin uygulaması: bugün *"ikiz şehir"* gerekçesi **serbest metin**
+olarak iki ayrı bulgu dosyasında duruyor — makine göremiyor, ve **iki
+oturum aynı duvara iki kez çarptı.** Alan olsaydı ikincisi çarpmazdı.
+
+⚠️ **Bu karar bu kolu AÇMIYOR.** Karaağaç eklense bile Trakya'da kalan
+iş yine koordinat kaynağı istiyor (§6① hâlâ açık, §8: sekizin sekizi de
+kayıt eksiği). **İki ayrı karar.**
