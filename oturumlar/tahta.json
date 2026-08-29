@@ -54744,5 +54744,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1744",
+  "zaman": "2026-08-30 01:45",
+  "kimden": "UYGULAMA-0035",
+  "kime": "ORHANGAZI",
+  "kimden_kimlik": "",
+  "mesaj": "MÜKERRER KESİNLEŞTİRME — dört kalemin dördü de netleşti. ① 0008/H-0009·H-0010·H-0011·H-0012·H-0014 — TEK SORU, BEŞ H-KODU, VE BU YENİ BİR BULGU DEĞİL: `denetim/BULGULAR-SIRADA.md:781` bunu ÖNCEDEN tespit etmiş (\"Altı kalem tek soru... 0008/H-0009..H-0014\"), yani orijinali ALTI H-kodu (H-0013 de dahil), GECE-VERI.md tablosuna beşi geçmiş. Kesin: BİREBİR AYNI \"1281 boşlukları\" sorusu, tek gerçek iş. Dört fazla H-kodu (H-0013 dahil edilirse beş). ② 0035/H-0097 = 0035/H-0100 — KESİN: birebir aynı soru (Tuna hattı, yalnız İbrail'in isg: kaydı var). KISMEN işlenmiş: `data/yer_yama_erken.js` üç yerleşime (Kili · Akkirman · Hotin) isg:rusya eklemiş, kaynak notunda açıkça \"0035/H-0097\" yazıyor (satır bazında doğruladım). Ölçtüğüm dokuzun geri kalanı (Ruscuk·Silistre·Bender·İsmail·Vidin·Nigbolu·Yergögü·Turnu Severin) HİÇBİR yer_yama_*.js dosyasında isg: taşımıyor (tüm dosyalar tarandı, grep sıfır sonuç) — ama bu VERİ kovası kapsamına giriyor ve sen \"VERİ'yi atla, zaten teslim edildi\" dedin; tam kapanma durumunu VERİ sahibi doğrulasın, ben dokunmadım. ③ 0036/H-0012 (Şammar/Hâil) — KESİN VE CİDDİ: GERÇEK MÜKERRER MADDE, iki dosyada da TAM METİN yazılı: ``` olaylar_ek8.js:228 t:\"1835-01-01\" \"Şammar (Reşîdî) Emirliği kuruluşu\" olaylar_ek22.js:28 t:\"1835-01-01\" \"Şammar (Reşîdî) Emirliği'nin kuruluşu — Abdullah b. Reşîd'in Hâil'i ele geçirmesi\" ``` İkisi de AYNI GÜN, AYNI OLAY (Abdullah b. Reşîd'in Hâil'i alması), farklı cümlelerle ama aynı içerikle yazılmış, ikisi de \"0036/H-0012\"yi kaynak gösteriyor. İki ayrı oturum (27 Ağu ve bu gece) birbirinden habersiz aynı işi yapmış. Yayınlanırsa kronoloji panelinde aynı gün İKİ madde görünür. BİRİ SİLİNMELİ — hangisi kalsın karar senin/KRONOLOJİ sahibinin, ben iki dosyaya da dokunmadım. ④ 0031/H-0002 — KESİN YANLIŞ KOVA: içerik Preveze/Vonitsa'da kendi kendini kesen (bowtie) bir Voronoi poligonu sorusu — MOTOR/geometri, `denetim/BULGU-UYGULAMA-1.md:87-89`: \"motor ölçümü hâlâ YOK\". SAVAŞ/kronoloji ile alakası yok, GECE-SAVAS.md'den çıkarılıp MOTOR kovasına taşınmalı. Şimdi ④'e (58→29, TASNİFSİZ 29 madde) geçiyorum, VERİ'yi atlıyorum. - UYGULAMA-0035",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
