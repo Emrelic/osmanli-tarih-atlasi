@@ -194,4 +194,57 @@ window.OLAYLAR_EK20 = [
   d:"Dâvûd Aussa imamı olunca Oromolar'ın idaresindeki toprakların ortasında kalan Harar yeniden bağımsız bir emirlik hâline gelmiş ve bu hâlini 1887'deki Habeş işgaline kadar sürdürmüştü. Cihad ilân eden Emîr Abdullah 5000 kişiyle 7 Ocak 1887 günü Habeşler'i Şeleneko'da (Çelenko) karşıladı; yenileceğini anlayınca güney Harar'daki Ogaden bölgesine kaçtı. Savaş, ateşli silâhlarla donanmış Habeş ordusuyla emirliğin kuvvetleri arasındaki dengesizliği gösterdi ve Kızıldeniz ardındaki son bağımsız müslüman emirliklerinden birini ortadan kaldırdı. Harar, Cîcîga ve Dagahbûr böylece Habeşistan'a katıldı.",
   kaynak:"harar" },
 
+// ⑪ 1768-05-15 — veri: Ayacyo (Ajaccio) · Bastia  ceneviz → fransa
+//    TDV `korsika` OLAYI ve YILI veriyor, GÜNÜ VERMİYOR:
+//      "Nihayet 1768'de Ceneviz pek fazla sahiplenemediği bu adayı
+//       Fransa'ya satmıştır."
+{ t:"1768-05-15",
+  b:"Korsika Ceneviz'den Fransa'ya satıldı — Versailles Antlaşması",
+  tur:"antlasma",
+  onem:2, dunya:2, kapsam:"dis",
+  etiket:["toprak-kayip"],
+  yer:"Ayacyo (Ajaccio)",
+  yer_id:"Ayacyo (Ajaccio)",
+  kisiler:"",
+  d:"Ceneviz Cumhuriyeti, yüzyıllardır elinde tuttuğu ama isyanlar yüzünden fiilen denetleyemediği Korsika'yı Fransa'ya devretti. TDV'nin Korsika maddesi olayı tek cümleyle veriyor: Ceneviz pek fazla sahiplenemediği bu adayı 1768'de Fransa'ya sattı. Devir, Cenova'nın Akdeniz'deki son büyük toprak varlığından çekilişini işaretler; ada 1796'da bir süre İngiliz eline geçecek, sonra yeniden Fransa'ya iade edilecektir. Adanın Fransız toprağı olması, bir yıl sonra Ajaccio'da doğacak Napolyon Bonapart'ı Fransız tebaası yapmıştır. TDV yılı veriyor, günü vermiyor.",
+  kaynak:"korsika" },
+
+// ⑫ 1870-09-20 — veri: Roma  papalik → italya
+//    TDV `italya` OLAYI ve YILI veriyor, GÜNÜ VERMİYOR:
+//      "Napolyon'un devrilmesinden sonra 1870'te İtalyan birlikleri Roma'ya
+//       girince papa Vatikan'a çekildi."
+//      "1870'te Roma'yı da birliğe katan İtalya Krallığı, böylece siyasî bir
+//       güç olarak yeniden Avrupa ve dünya sahnesine çıkmış oluyordu."
+{ t:"1870-09-20",
+  b:"İtalyan birlikleri Roma'ya girdi — Papalık Devleti'nin sonu ve İtalyan birliğinin tamamlanması",
+  tur:"savas",
+  onem:3, dunya:3, kapsam:"dis",
+  etiket:["toprak-kayip","devlet-sonu"],
+  yer:"Roma",
+  yer_id:"Roma",
+  kisiler:"",
+  d:"Fransa-Prusya Savaşı'nda III. Napolyon'un devrilmesi, Roma'yı koruyan Fransız garnizonunu geri çekince İtalyan birlikleri şehre girdi ve papa Vatikan'a çekildi. Böylece bin yılı aşkın süredir varlığını sürdüren Papalık Devleti sona erdi ve Roma'yı da birliğe katan İtalya Krallığı siyasî bir güç olarak Avrupa ve dünya sahnesine çıktı. Bu, atlasın son yarım yüzyılı için doğrudan sonuç doğuran bir olaydır: birleşmiş İtalya, 1911'de Trablusgarp'ı ve Oniki Ada'yı Osmanlı'dan alacak devlettir. TDV maddesi yılı veriyor, günü vermiyor; 20 Eylül (Porta Pia gediği) standart akademik anlatıdandır.",
+  kaynak:"italya" },
+
+// ⑬ 1720-02-24 — veri: Kalyari (Cagliari) · Sasari (Sassari)  ispanya → sardinya
+//    🔴 KAYNAK BULUNAMADI — VE BU BİR SONUÇTUR, UYDURMADAN YEĞDİR (§7.1 ④).
+//    ÖLÇTÜM: `sardinya` slug'ı CANLI (200) ve gövdesi okundu (15.694 karakter)
+//    ama 1720 ve Savoy HİÇ GEÇMİYOR — madde adanın müslüman/Akdeniz
+//    tarihini anlatıyor, XVIII. yüzyıl hânedan devirlerini değil.
+//    Kapsayıcı `italya` maddesi de denendi (§4: "dar slug tutmazsa GENEL
+//    maddeyi dene") — 72.406 karakterlik gövdede 1720 GEÇMİYOR.
+//    ⇒ `CLAUDE.md §4`ün COĞRAFÎ boşluğu: Batı Avrupa'nın iç hânedan tarihi
+//    TDV'de %0 ölçülmüş. Dayanak standart akademik anlatı (Utrecht-Rastatt
+//    sonrası düzenlemeler, 1720 Lahey Antlaşması).
+{ t:"1720-02-24",
+  b:"Sardinya İspanya'dan Savoy hânedanına geçti — Sardinya Krallığı doğdu",
+  tur:"antlasma",
+  onem:1, dunya:2, kapsam:"dis",
+  etiket:["toprak-kayip"],
+  yer:"Kalyari (Cagliari)",
+  yer_id:"Kalyari (Cagliari)",
+  kisiler:"",
+  d:"İspanya Veraset Savaşı'nı kapatan düzenlemelerin son halkasında Sardinya adası İspanya'dan alınarak Savoy hânedanına verildi; Savoy dükü karşılığında Sicilya'yı bıraktı ve Sardinya Kralı unvanını aldı. Cagliari ve Sassari böylece iki yüzyıllık İspanyol idaresinden çıktı. Doğan Sardinya Krallığı, bir buçuk asır sonra İtalyan birliğini kuracak devletin çekirdeğidir — yani 1870'te Roma'ya giren İtalya Krallığı'nın kökü buraya iner. ⚠️ TDV'nin Sardinya maddesi adanın müslüman ve Akdeniz tarihini anlatıyor, XVIII. yüzyıl hânedan devirlerine girmiyor; kapsayıcı İtalya maddesinde de 1720 geçmiyor. Bu kayıt standart akademik anlatıya dayanır.",
+  kaynak:"bulunamadı" },
+
 ];
