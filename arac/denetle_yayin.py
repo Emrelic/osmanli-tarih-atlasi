@@ -1148,8 +1148,27 @@ def main():
         print("\n✓  inline sözdizimi: %d <script> bloğu "
               "`node --check` ile temiz" % _n)
 
+    # ── İKİ KAPI: girdi.py ↔ index.html (DENETİM AÇIK, 29 Ağustos 2026) ──
+    # Bir veri dosyasının İKİ kapısı var ve ikisi AYRI listeden okunuyor:
+    #   MOTOR     `arac/girdi.py`  → GIRDI_DOSYALARI
+    #   TARAYICI  `index.html`     → <script src="data/...">
+    # Biri yazılıp öteki yazılmazsa motor noktayı görür, kullanıcı görmez —
+    # ve 28 Ağustos gecesi bunun DÖRT vakası oldu (olaylar_ek17 ·
+    # yerlesimler_ek_korfez · serhat · kdmacar), hiçbiri ötmedi.
+    # 🔴 `main()` DEĞİL `denetle()` çağrılıyor ve sebebi ÖLÇÜLDÜ: `main()`
+    # `argparse` kurar, BU DOSYANIN argümanlarını (`--gecmis 30`) tanımaz ve
+    # SystemExit(2) ile KAPIYI ÖLDÜRÜR. Nöbetçiyi eklemek kapıyı kıracaktı.
+    try:
+        from _bagli_mi import denetle as _bagli_denetle
+        _bagli = bool(_bagli_denetle())
+    except Exception as _e:
+        # ÖLÇÜLEMEDİ asla TEMİZ sayılmaz (`CLAUDE.md §11`).
+        _bagli = True
+        print("\n✗  bağlılık nöbetçisi ÖLÇEMEDİ: %s" % str(_e)[:70])
+
     if (yoklar or izlenmeyenler or kayitsiz or len(damgalar) > 1
-            or damga_ihlali or bayat or izsiz or iz_bayat or _sz):
+            or damga_ihlali or bayat or izsiz or iz_bayat or _sz
+            or _bagli):
         print("SONUÇ: İHLAL VAR — çıkış kodu 1")
         return 1
     print("SONUÇ: temiz")

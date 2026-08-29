@@ -463,6 +463,91 @@ oysa ölçülmemiş bir varsayımı **kalıcılaştırmış.** Bir güvence, oku
 
 ---
 
+## 3.8 NÖBETÇİ KAPIYA BAĞLANDI — ve "40+ yanlış alarm" TASNİF EDİLDİ
+
+*(29 Ağustos 2026)*
+
+Koordinatör yayın kapısının `yetim veri dosyası: 45` satırını *"40+ yanlış
+alarm"* diye tarif edip `yer_yama_*` ailesini **toptan** muaf tuttu.
+Toptan muafiyet ölçüldü ve **iki ayrı cinsi tek kovaya koyduğu** çıktı —
+`§11`in *"iki ayrı kusur tek satırda raporlanırsa aynı çare uygulanır"*
+tuzağı. 45'in içinde şunlar vardı:
+
+```
+🟢 43 YAMA dosyası      tasarım gereği tarayıcıya gitmez — gerçekten muaf
+🟡  1 KRONOLOJİ         olaylar_ek19.js: `denetle.py` SAYIYOR,
+                        `index.html` YÜKLEMİYOR ⇒ 27 Ağustos'ta
+                        `olaylar_ek17`i kaybettiren kusurun AYNI SINIFI
+🔴  1 CANLI ÇAKIŞMA     window.KADEME_YAMA — 4 dosya, TEK ad
+```
+
+### `olaylar_ek19.js` — kusur DEĞİL, ama kayıtsızdı
+Bugün doğmuş (UYGULAMA-0035, Bastille maddesi). Emre'nin 29 Ağustos
+kararı ②: 8. boyut açılsın ama **ayara bağlı, varsayılan kapalı**. ARAYÜZ
+süzgecinin `kapsam:"konu"` mü `boyut:8` mi okuyacağı **henüz
+kesinleşmedi** (M-1518) ⇒ şimdi yüklenirse madde süzgeçsiz görünür, yani
+**yüklememek bugün doğru davranış.**
+⇒ `MUAF_KRONOLOJI_YETIMI`ne **gerekçesiyle** yazıldı. Kusur değil; ama 45
+satırlık düz bir listede **bekleyen mi kusur mu olduğu görünmüyordu.**
+
+### 🔴 `window.KADEME_YAMA` — `§7`in ölçülmüş tuzağı HÂLÂ CANLI
+```
+kademe_4ff22b.js  239 kayıt   BEKLEYEN sözlüğünde AÇIK (uygulanmamış)
+kademe_8beb2b.js   11 kayıt   AÇIK
+kademe_d48240.js  111 kayıt   "UYGULANDI, kapali"
+kademe_f5c9a5.js  137 kayıt   "UYGULANDI, kapali"
+```
+Dördü de `window.KADEME_YAMA` tanımlıyor. **İkisi hâlâ açık** ⇒ bekleyen
+250 kayıt, onları **tek bağlamda** okuyan bir uygulayıcıda sonuncusu
+dışında kaybolur. `CLAUDE.md §7` bunu 16 Ağustos'ta ölçmüş (*"tek tek
+okununca 537, birlikte 137 ⇒ %74 görünmez"*) ve zararın gerçekleşmemesini
+**tesadüf** diye kaydetmişti. Tesadüf hâlâ tutuyor; **çakışma duruyor.**
+
+### 🟢 VE İKİ ADAY ÖLÇÜLÜP TEMİZE ÇIKTI — negatif sonuç da sonuçtur
+```
+window.URETIM_IZI   7 dosya · 6'sı TARAYICIYA YÜKLENİYOR · ezişme GERÇEK
+                    ama ZARARSIZ: `grep URETIM_IZI js/app.js index.html`
+                    → 0 sonuç. Tarayıcı bu değişkeni HİÇ OKUMUYOR;
+                    okuyanların hepsi Python ve dosyayı TEK TEK okuyor.
+window.KUNYE_YAMA   2 dosya · İKİSİ DE "islendi, kapali" ⇒ ÖLÜ çakışma.
+                    Temiz çare `arsiv/`; muafiyete o not düşüldü.
+```
+⚠️ `URETIM_IZI` en çok yüklenen ve en çok ezişen çiftti — **ilk bakışta
+en büyük bulgu gibi duruyordu.** Hüküm vermeden önce *"tarayıcı bunu
+okuyor mu"* diye sormak onu ihlal kovasından çıkardı.
+
+### İHLAL / UYARI AYRIMI — ve niçin gerekli
+```
+YÜKLENEN > 1   ezişme YAYINLANMIŞ SAYFADA   ⇒ İHLAL, yayın DURUR
+öteki hâller   ezişme ancak biri dosyaları
+               TEK BAĞLAMDA okursa olur      ⇒ UYARI, yayın durmaz
+```
+Bu kapı **siteyi** yayınlıyor. Yayınlanan çıktıya zarar vermeyen bir
+riskle yayını durdurmak kategori hatasıdır ve `renkler.py`nin dersini
+tekrarlar: *gürültü üreten denetime kimse bakmaz.*
+⚠️ Ama **"durdurmuyor" ≠ "raporlamıyor"**: uyarı her koşuda basılır ve
+sayısı `SONUÇ` satırına yazılır — yoksa *"TEMİZ"* satırı onu sessizce
+öldürürdü.
+
+### Sınav — toplam 14/14, ve iki dalın yönü TERS çıktı
+```
+①②③  5/5   (geçme + üç ateşleme + muafiyet)
+④⑤   6/6   ⑤ gerçek veride ATEŞLİYOR  ⇒ GEÇME yolu zorlandı
+            ④ gerçek veride SUSUYOR    ⇒ ATEŞLEME zorlandı
+kapı  3/3   yabancı argümanlarla `denetle()` · `main()` gerçekten
+            öldürür mü · nöbetçi patlarsa istisna yukarı çıkıyor mu
+```
+📌 `C13`ün *"hangi yönün zorlanacağı önceden bilinmez"* ayağının canlı
+örneği: **aynı gün, aynı alette, iki dal ters yöne zorlandı.**
+
+### Bağlama
+`arac/denetle_yayin.py` son hüküm bloğunun önüne 12 satır; `_bagli`
+koşula eklendi. Kapı bugün **çıkış 1** veriyor ama **nöbetçi yüzünden
+değil** — üç önceki kalem açık: `git`te izlenmeyen 1 dosya · yetim 45 ·
+üretim izi bayat 1.
+
+---
+
 ## 4. ÖLÇMEDİĞİM ŞEYLER — açıkça
 
 ```
