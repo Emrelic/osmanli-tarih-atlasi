@@ -128,6 +128,79 @@ ilk işi bu sayıyı vermek olacak. **3 sayısı "elle yamalanmış olanlar"dır
 
 ---
 
+## 2.5 🔴 SONRAKİ ÖLÇÜM ÖNERİMİ TERSİNE ÇEVİRDİ — ve aile 3 değil BEŞ
+
+Yukarıda *"sınıf ② bilinen 3 vakadan ibaret, motor kuralı yazma"* demiştim.
+**Sonra MOTOR listesini kendim çıkardım ve ölçtüm; iki şey değişti.**
+
+### ① Aile 3 elle yama değil, BEŞ AÇIK EMRE MADDESİ
+
+`HUKUM-*.json`lardan MOTOR işareti taşıyan **32 açık madde** çıkardım
+(`GECE-*.md`lerde MOTOR satırı **yok** — `grep -ci motor` altı dosyada da
+0, yani bu liste hiç dağıtılmamış). Beşi aynı kök:
+
+```
+parti-0002/H-0014          Saroz körfezi kuzeyi
+parti-emrelic-0008/H-0005  Çimpe/Saros — "PETEKLERİN DENİZ ÖTESİNE GEÇMESİ"
+parti-emrelic-0016/H-0004  Boğaz — "kökü ben de ölçtüm, BİR KADEME DAHA DERİN"
+parti-emrelic-0016/H-0005  "Çimpe aynı Boğaz kümesi — aynı kök"
+parti-emrelic-0019/H-0018  Anadolu Hisarı — "DENİZİ GEÇMEMELİ bölgeler"
+```
+Beşi de **bir aydır açık** ve beşi de kural yerindeyken açık kaldı.
+
+### ② VE SEBEBİ ÖLÇÜLDÜ — kural bu aileyi YAPISAL OLARAK durduramaz
+
+`veri-kaynak/motor_kara.geojson` · **3459 bileşen** · shapely ile ölçüldü:
+
+```
+Kilitbahir (Rumeli)  ↔ Çanakkale (Anadolu)   AYNI BİLEŞEN  #4
+İstanbul (Rumeli)    ↔ Üsküdar (Anadolu)     AYNI BİLEŞEN  #4
+Edirne (Trakya)      ↔ Bursa (Anadolu)       AYNI BİLEŞEN  #4
+Çimpe                ↔ Saroz kuzey kıyısı    AYNI BİLEŞEN  #4
+```
+🔴 **Avrupa ile Asya Kafkasya üzerinden KARADAN BAĞLIDIR** ⇒ `#4` tek
+gövde. *"Deniz aşırı sahiplik ÜRETİLEMEZ"* kuralı **yol var** dediği için
+hiçbir boğaz vakasını durduramaz. Bir ay boyunca beş madde bu yüzden
+açık kaldı: **kural doğruydu, sorunun cinsi başkaydı.**
+
+### ③ VE MASKE BOĞAZI DOĞRU AYIRIYOR — bu, çareyi belirledi
+
+İki ihtimal vardı ve çareleri tamamen farklıydı:
+```
+A) maske boğazı KÖPRÜLÜYOR (çözünürlük kaba) → kara yolu ~1 km
+   ⇒ dolambaç oranı YAKALAMAZ, çare maske çözünürlüğü
+B) maske boğazı AYIRIYOR                      → kara yolu Karadeniz'in
+   etrafından ~2000 km ⇒ dolambaç oranı ÇOK RAHAT yakalar
+```
+**Ölçüm B dedi.** Boğaz orta hatlarının **yedisi de su**; iki yaka arası
+düz çizginin yalnız %63,9 (İstanbul) · %15,3 (Çanakkale) · %7,0 (Saroz)'i
+karaya değiyor — yani hiçbiri karadan geçmiyor.
+
+### ⇒ HÜKMÜMÜ DEĞİŞTİRİYORUM: dolambaç oranı kuralı ARTIK GEREKLİ
+
+```
+kuş uçuşu   Kilitbahir ↔ Çanakkale  ~2,6 km
+kara yolu   Karadeniz'in etrafından  ~2.000+ km
+oran        ~1000×
+```
+🟢 **Eşik ayarı hassas DEĞİL** — ve A1 tavanından ayrıldığı yer tam burası.
+A1'de eşik birkaç yüz km'lik bir bantta oynuyordu ve %23 alanı kesiyordu;
+burada sinyal **üç mertebe** güçlü. 3× ile 50× arasında herhangi bir eşik
+aynı kümeyi verir.
+
+### ⚠️ AMA A1 DERSİ HÂLÂ BAĞLAYICI — koparılan toprak NEREYE gidiyor?
+
+A1'de kusur ne tavandaydı ne yetim-yüzdeydi, **ikisinin arasındaydı**:
+tavan toprağı serbest bıraktı, yetim-yüz onu en yakın sahipli komşuya
+geri verdi. Dolambaç kuralı **aynı boruya** giriyor.
+⇒ **Tasarımın zorunlu ikinci ayağı:** dolambaç yüzünden koparılan pay
+yetim-yüz mantığına **girmeyecek**; ya sahipsiz kalacak ya da `kasitli_bosluk`
+gibi ayrı bir kovaya düşecek. **Bu yazılmadan kural bağlanmamalı.**
+🔴 Ve öngörü koşudan ÖNCE yazılmalı, mazeretiyle birlikte
+(`§11`: *"mazeretin de önceden yazılması gerekiyor"*).
+
+---
+
 ## 3. HÜKÜM
 
 | madde | hüküm | gerekçe |
