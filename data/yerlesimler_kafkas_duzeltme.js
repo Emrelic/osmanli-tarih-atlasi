@@ -114,8 +114,8 @@ window.YERLESIMLER_KAFKAS_DUZELTME = [
 // 3 · DERBEND — üç tarihten ikisi yanlıştı; üçüncüsü zaten doğruydu
 // ─────────────────────────────────────────────────────────────────────
 {ad:"Derbend",
- s:[{f:"1281-01-01",t:"1509-05-17",d:"iran"},
-    {f:"1509-05-17",t:"1722-08-23",d:"safevi"},
+ s:[{f:"1281-01-01",t:"1509-01-01",d:"iran"},
+    {f:"1509-01-01",t:"1722-08-23",d:"safevi"},
     {f:"1722-08-23",t:"1735-03-10",d:"rusya"},
     {f:"1735-03-10",t:"1736-03-08",d:"safevi"},
     {f:"1736-03-08",t:"1747-06-20",d:"afsar"},
@@ -129,8 +129,18 @@ window.YERLESIMLER_KAFKAS_DUZELTME = [
       +"YENI bir vakasi; CLAUDE.md `derbend`i \"olu\" diye kaydetmis ama canli varyantini bilmiyordu. "
       +"GOVDESI OKUNDU. UC TARIH SINANDI: "
       +"(1) safevi baslangici — TDV \"Sah Ismail 1509'da sehri zaptedip Rumlu oymaklarindan birini "
-      +"buraya yerlestirdi\"; veri 1501-07-01 diyordu ⇒ ~8 YIL ERKEN. Duzeltildi: 1509-05-17 "
-      +"(kulliyatta ZATEN VAR, 4 kayitta gecer — yeni gun dogurulmadi). "
+      +"buraya yerlestirdi\"; veri 1501-07-01 diyordu ⇒ ~8 YIL ERKEN. "
+      +"🔴 GUN IKINCI KEZ DUZELTILDI 1509-05-17 → 1509-01-01 (HAZIR KITA OPUS 85, 30 Agu 2026). "
+      +"Bu kaydin kendi notu 1509-05-17'yi \"kulliyatta ZATEN VAR, yeni gun dogurulmadi\" diye "
+      +"savunuyordu — DOGRU ama YETERSIZ bir olcut: gun kulliyatta VARDI, ama ait oldugu madde "
+      +"\"Oran'in Ispanya'ya dususu — Kardinal Cisneros'un Kuzey Afrika seferi\"dir. TAM GUN "
+      +"oldugu icin tesaduf degil KOPYA; Derbend'in el degistirmesi CEZAYIR'deki bir maddenin "
+      +"altinda belirirdi (CLAUDE.md §10'un \"kullanicinin en cok sikayet ettigi hata\"si). "
+      +"TDV `derbend--dagistan` BAGIMSIZ DOGRULANDI (HTTP 200, baslik DERBEND, govde 20.468 "
+      +"karakter): YILI veriyor (\"Sah Ismail 1509'da\"), GUNU VERMIYOR ⇒ §8 geregi 1509-01-01. "
+      +"🟢 VE BU GUN ARTIK ACIKTA DEGIL: `data/olaylar_ek21.js`e Derbend maddesi yazildi "
+      +"(madde ④). 1509-01-01 bugun 33 gun acikta ve veride 4 kirilma tasiyor ⇒ madde baglanınca "
+      +"Degismez 2s'de bir ACIK GUN KAPANIR. Not: dosya index.html'e HENUZ BAGLI DEGIL. "
       +"(2) Osmanli baslangici — TDV \"1578 seferi sirasinda Osmanlilar bolgeyi tamamiyla zaptedince\" "
       +"ve \"1607'ye kadar suren Osmanli hakimiyeti\"; veri 1583-01-01 diyordu ⇒ ~5 YIL GEC. "
       +"Duzeltildi: 1578-11-01 (komsu SAMAHI'nin ayni Sirvan seferindeki gunu, kulliyatta 8 kayitta gecer). "

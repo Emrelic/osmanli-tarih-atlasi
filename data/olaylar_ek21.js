@@ -55,4 +55,22 @@ window.OLAYLAR_EK21 = [
     d: "Rusçuk, 1806-1812 savaşının Tuna cephesindeki en uzun direnişlerinden birini gösterdi: Count Kaminski kumandasındaki Rus orduları kanlı bir kuşatmanın ardından ancak 26 Eylül 1810'da, garnizonun ve sivillerin şehri güven içinde terketmesi karşılığında teslim alabildiler. Ama Rus tutuşu dokuz ay sürdü. 1811 Haziranında alınan ağır yenilgilerin ardından geri çekilmeye zorlandılar; ayrılmadan önce Başkumandan Kutuzov şehir etrafındaki istihkâmın ve ortaçağ kalesinin havaya uçurulmasını emretti. Çıkan yangında 1810'da şehirde bulunan otuz sekiz caminin on ikisi ve sekiz mescidden ikisi bütünüyle yıkıldı. TDV'nin kaydı: \"1811 Haziranında alınan ağır yenilgiler ve tersliklerden sonra Ruslar geri çekilmeye zorlandı. Ayrılmadan önce Başkumandan Kutuzov, şehir etrafındaki istihkâmın ve Ortaçağ dönemi kalesinin havaya uçurulmasını emretti.\" İstihkâm barış antlaşmasının ardından yeniden yapıldı. Aynı yılın Ekiminde Slobozia'da kuşatılan Tuna ordusunun âkıbeti, bu geri çekilişin ardından gelen kısa Osmanlı üstünlüğünün nasıl tersine döndüğünü gösterir. ⚠️ TDV yalnız ayı veriyor — kayıt ayın ilkine yazıldı (CLAUDE.md §8).",
     kaynak: "ruscuk" },
 
+  // ── ④ DERBEND 1509 — bu madde de bir yamadan DOĞDU (Kafkas paketi) ──
+  // Derbend'in `iran → safevi` geçişi veride 1509-05-17'ye yazılmıştı ve o gün
+  // külliyatta "Oran'ın İspanya'ya düşüşü — Kardinal Cisneros'un Kuzey Afrika
+  // seferi"dir. TAM GÜN olduğu için tesadüf değil KOPYA: Kafkasya'daki bir
+  // değişim Cezayir'deki bir maddenin altında beliriyordu — CLAUDE.md §10'un
+  // "kullanıcının en çok şikâyet ettiği hata" tarifi birebir.
+  // ⇒ Gün 1509-01-01'e çekildi (§8: yıl biliniyor, gün bilinmiyor) ve bu madde
+  //   o günü KAPATIYOR: 1509-01-01 bugün külliyatta 33 gün açıkta (en yakın
+  //   madde 1509-02-03 Diu Deniz Savaşı) ve veride 4 kırılma taşıyor ⇒ madde
+  //   inince Değişmez 2s'de AÇIK bir gün KAPANIR, yenisi doğmaz.
+  { t:"1509-01-01", k:"siyaset", etiket:["siyaset","savas"],
+    b:"Şah İsmâil'in Derbend'i alışı — Safevî hâkimiyeti Kafkas kapısına ulaştı",
+    gun:"1509 (915 h.; TDV yalnız yılı veriyor, ay ve gün kaynakta yok)",
+    yer:"Derbend (Demirkapı) — Dağıstan, Hazar kıyısı", yer_id:"Derbend",
+    kisiler:"Şah İsmail",
+    d:"Şirvanşah Ferruh Yesâr'ın 1500'de yenilip öldürülmesiyle Bakü ve Şemâhî Safevî eline geçmiş, Derbend ise bir süre daha ayrı kalmıştı. Şah İsmâil 1509'da şehri zaptedip Rumlu oymaklarından birini buraya yerleştirdi; böylece Safevî hâkimiyeti Kafkasya'nın kuzey kapısına, Hazar ile dağlar arasındaki bu dar geçide ulaştı. 1538'de Şirvan'ın doğrudan Safevî idaresine girmesiyle bağ kalıcılaştı. Derbend 1578 seferinde Osmanlı eline geçecek ve 1607'ye kadar yedi sancaklı bir beylerbeyiliğin merkezi olacaktır. TDV'nin kaydı şöyledir: \"Safevî Devleti'nin kurulup gelişmesi, Derbend'de yeni bir dönemin başlangıcını teşkil etti. Şah İsmâil 1509'da şehri zaptedip Rumlu oymaklarından birini buraya yerleştirdi. 1538'de Şirvan doğrudan Safevî hâkimiyetine girince...\" ⚠️ TDV yalnız yılı veriyor, günü vermiyor — kayıt yılın ilkine yazıldı (CLAUDE.md §8).",
+    kaynak:"derbend--dagistan", duygu:["🏛"] },
+
 ];
