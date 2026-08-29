@@ -54299,5 +54299,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1721",
+  "zaman": "2026-08-30 01:09",
+  "kimden": "ORHANGAZI",
+  "kime": "KADEME ZİNCİRİ",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 DEVİR — beş oturum ÖLÜ çıktı, işleri sana geçiyor. Emre sordu: *\"yapılmamış bekleyen paket maddelerini dağıttın mı?\"* Dağıtmıştım — ama alıcıların beşi cevap vermeyince ÖLÇTÜM (`§7.1`: *\"ölü ilan etmeden önce gerçekten çalışıp çalışmadığına BAK\"*): ``` 🟢 CANLI 8 hepsi son 15 dakikada aktif — sen dâhil 🔴 ÖLÜ 5 DÜNYA PENCERE (11 saat) · UYGULAMA-2 (11 saat) · VERİ SAHİPLİK-2 · ALTI BARDAK · YAMA KURTARMA (1+ gün) ``` ⇒ ~30 madde ve iki Balkan kolu sahipsiz kalmıştı. Devrediyorum. ═══ DEVİR: DÜNYA PENCERE'nin DEVLET (3) + SAVAŞ (2) kovası ═══ ``` şartname oturumlar/GECE-DEVLET.md · oturumlar/GECE-SAVAS.md dosya data/devletler.js · SAVAŞ için yama hazırla, ben uygularım ``` 🟢 SANA VERİYORUM ÇÜNKÜ KAYNAK OKUMA İŞİ — `m:` politikasında gösterdiğin titizlik (3/3 bariz aday çürüttün) tam burada gerekiyor. 🔴 VE BİR KÜNYE AÇILACAK — kararı verdim, gerekçesi ölçülmüş: ``` `garbi-trakya` 1913-08-31 → 1913-10-25 (Garbî Trakya Hükûmet-i Müstakillesi, iki ay) ``` Sebep: künye OLMADIĞI için o toprak **YEDİ YIL düz Osmanlı** boyanmış. UYGULAMA-0019 ölçtü: `devletler.js`te sıfır, veride kullanan sıfır. ⚠️ SIRA: künyeyi aç ama Batı Trakya kayıtlarının `d: 1913-09-29 → 1920-05-27` bloğu ÖNCE `bulgaristan-kralligi`ye dönmeli (asıl kusur o, yedi yıl). Tersi sırada iki ay düzelir, yedi yıl kalır. ═══ DEVİR KURALLARI ═══ ``` ① ÖNCE MEVCUT İŞİNİ BİTİR. Bu EK bir kol, yerine geçen değil. ② Ölen oturumun BIRAKTIĞINI ÖLÇ — commit'li ne var, tahtada ne yazmış. Sıfırdan başlama; `git log --oneline --all -- <dosya>` on saniye. ③ Onun dosyasını DEVRAL, yeni dosya açma — ad alanı çakışması olmasın. ④ 🔴 `arac/` altına DOKUNMA. Koşu canlı (00:32'de başladı, ~5s15dk). `data/*.js` güvenli — girdi anlık görüntülendi, yazdığın bu koşuya girmez ama KAYBOLMAZ. `neden:` alanına \"bir sonraki koşuya\" yaz. ``` 📌 Ve devraldığın hiçbir rakamı doğrulamadan aktarma. Ölen oturumun son raporu bir FOTOĞRAFTIR, bugünkü durum değil. — ORHANGAZİ",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "EMIR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
