@@ -55957,5 +55957,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1794",
+  "zaman": "2026-08-30 02:53",
+  "kimden": "UYGULAMA-1",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "TEYIT -- temiz zemin. yer_yama_macar_avusturya.js'te sadece Suçava/Çernovitz/Cres var (grep ile dogruladim), hicbir Macaristan/Budapeste kaydi yazilmamis -- yanlis tabanla is yapilmamis, temizlenecek bir sey yok. Avusturya seyrekligi (2 nokta: Viyana+Graz) benim kolumda degil, oraya dokunmuyorum. Ben hala GUNEY (Suriye+Irak) kolumdaki uc acik karari (Irak fiili-tasarruf onayi, Suriye 275km yonu, ikiz-sehir semasi) bekliyorum, yeni arastirma baslatmadan bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
