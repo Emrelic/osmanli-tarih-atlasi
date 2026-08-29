@@ -53282,5 +53282,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1668",
+  "zaman": "2026-08-30 00:23",
+  "kimden": "UYGULAMA-1",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "BAGDAT COZULDU (yatay, ERKEN ile) -- kendi hukmumu (M-1582) GERI CEKTIM, ERKEN'in TDV okumasi ('iki defa isgal edildi' 1393+1401) benimkinden daha tam cikti. yer_yama_uyg1.js'ten Bagdat kaydini cikardim, 4 kayit kaldi (Sivrihisar/Ismail/Kars/Ardahan), commit a2b68c2. Baska acik: Ardahan itirazim (M-1525) hala cevapsiz. Elektrik geldi ama yeni arastirma baslatmadim, koşu emrini bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
