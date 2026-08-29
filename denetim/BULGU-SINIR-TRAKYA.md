@@ -285,3 +285,86 @@ oturum aynı duvara iki kez çarptı.** Alan olsaydı ikincisi çarpmazdı.
 ⚠️ **Bu karar bu kolu AÇMIYOR.** Karaağaç eklense bile Trakya'da kalan
 iş yine koordinat kaynağı istiyor (§6① hâlâ açık, §8: sekizin sekizi de
 kayıt eksiği). **İki ayrı karar.**
+
+---
+
+## 10. ANTLAŞMA METNİ ADAY VERİYOR — ve sapmanın İŞARETİ hangi yakaya
+
+### 10.1 🟢 Lozan md. 2(2) sınırı İKİ KÖYÜ ADIYLA tarif ediyor
+
+Birebir metin (BYU WWI Document Archive):
+
+> *"...to be determined on the spot in the immediate neighbourhood of the
+> village of **Tchorek-Keuy** ... thence in a south-easterly direction up
+> to a point on the Maritza, 1 kilom. below **Bosna-Keuy**: a roughly
+> straight line **leaving in Turkish territory** the village of
+> Bosna-Keuy."*
+
+Ve `UYGULAMA-1` Güney kolunda **aynısını** buldu: 1921 Ankara
+İtilâfnâmesi Tel Abyad ve Ras al-Ayn istasyonlarını adıyla sayıyor.
+
+🔴 **İKİ BAĞIMSIZ KOLDAN DOĞRULANMIŞ DESEN:**
+> **Sınır antlaşmaları sınırı YERLEŞİM ADLANDIRARAK tarif eder.**
+> Bir kesime aday ararken **önce antlaşma metnine bak** — aday uydurmaya
+> gerek yok, antlaşma zaten sayıyor.
+
+📌 Ve bu, kaynak sorununu da çözüyor: aday **antlaşmanın kendisinden**
+geliyor, yani `§4`ün en üst basamağı. *"Uydurma yerleşim"* riski sıfır.
+
+### 10.2 Bosnaköy üç sınavı da geçti
+
+```
+3 km kuralı    Edirne'ye 5,81 km          🟢 GEÇER  (Karaağaç 2,6'ydı)
+koordinat      41,62528 / 26,56556
+çapraz teyit   Lozan "Meriç'in sağ yakası, Edirne yakını" diyor
+               ölçtüm: Edirne'nin GÜNEYİNDE, 5,81 km   🟢 TUTUYOR
+```
+⚠️ Koordinatın kendisi ikincil (Vikipedi) — **tek başına delil
+saymıyorum**; Lozan'ın tarifi onu yön · mesafe · yaka olarak çapraz
+doğruluyor. Yazılırsa `kaynak:` açıkça bunu söylemeli.
+
+### 10.3 🔴 VE EKLENSE FAYDA ETMİYOR — kendi beklentimi çürüttüm
+
+```
+BUGÜN          ortanca 3,28 · en kötü 10,43 · <=5km %69 · Edirne kesimi 6,46
+Bosnaköy EKLİ  ortanca 3,41 · en kötü 10,43 · <=5km %71 · Edirne kesimi 6,46
+```
+Edirne kesimi **hiç değişmedi**, ortanca hafif **kötüleşti.**
+
+**Sebep:** o kesimde sapma **artı** (+6,5) — yani Osmanlı **fazla**
+boyanıyor. Türk yakasına nokta eklemek Türk çapasını sınıra yaklaştırır,
+bisektörü **daha da** Yunanistan'a iter.
+
+### 🟢 10.4 KURAL — ölçüldü
+
+```
+SAPMA > 0  (OSMANLI FAZLA)  →  YABANCI yakaya nokta gerek
+SAPMA < 0  (OSMANLI EKSİK)  →  OSMANLI yakasına nokta gerek
+yanlış yakaya eklenen nokta o kesimi DÜZELTMEZ, KÖTÜLEŞTİRİR
+```
+
+⇒ **İş listesi kesime göre değil, sapmanın İŞARETİNE göre bölünmeli.**
+
+```
+ARTI  (yabancı nokta gerek)  Kofçaz-Malko Tırnova +10,4 · Lalapaşa +7,6 ·
+                             Edirne +6,5 · İpsala +5,5 / +5,0
+EKSİ  (Osmanlı nokta gerek)  Uzunköprü -6,9 · Edirne-Mustafapaşa -6,2 ·
+                             Havsa -5,8 · İpsala-Ferecik -5,4
+```
+Sapmanın **büyük kısmı artı** ⇒ gereken şey **Yunan ve Bulgar yerleşimi**,
+Türk yerleşimi değil. Bu araştırmayı zorlaştırıyor: TDV bu tanecikte
+zaten susuyor, üstelik artık Yunan/Bulgar köyü aranıyor.
+
+### 10.5 🔴 Bulgaristan tarafı için antlaşma HİÇBİR aday vermiyor
+
+Lozan md. 2(1) birebir:
+> *"From the mouth of the River Rezvaya, to the River Maritza ... **the
+> southern frontier of Bulgaria as at present demarcated**"*
+
+⇒ Hattı **atıfla devralıyor**, köy adlandırmıyor. Yani `10.1`in yöntemi
+**en kötü kesimimde (Kofçaz-Malko Tırnova +10,4) işlemiyor** — o hattı
+tarif eden belge **1913 İstanbul Antlaşması**dır ve ona bakılmadı.
+
+📌 Yöntem güçlü ama **evrensel değil**: antlaşma bir hattı *tarif*
+ediyorsa köy verir, *atıfla devralıyorsa* vermez. **Hangisi olduğunu
+metni okumadan bilemezsin.**
