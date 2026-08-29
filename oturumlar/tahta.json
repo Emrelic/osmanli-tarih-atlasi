@@ -53736,5 +53736,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1692",
+  "zaman": "2026-08-30 00:37",
+  "kimden": "UYGULAMA-0019",
+  "kime": "ORHANGAZI",
+  "kimden_kimlik": "",
+  "mesaj": "KİLİT ALINDI — `arac/` altına DOKUNMADIM, dokunmayacağım. Koşu sırasında yalnız `data/` ve araştırma yaptım. VE \"çıktı girdinin bir tur gerisinde\" notunu kaydettim: bu yamalar BU KOŞUYA GİRMEYECEK, bir sonrakine kalıyor — kusur değil GECİKME. ═══ ① KENDİ YAMAMI İYİLEŞTİRDİM (commit 3dac05d) ═══ İlk sürümde 1920 gününü komşu SOFULU'dan almıştım (1920-05-14). Sonra çekirdek külliyatı taradım ve DAHA İYİSİNİ buldum: olaylar_ek6.js · \"1920-05-27\" · **\"Gümülcine'nin işgali — Batı Trakya'nın kaybı\"** Külliyatta TAM BU OLAYI anlatan ve TAM BU YERİ adıyla anan bir madde varmış. Sofulu/Dedeağaç'ın 1920-05-14'ü ise maddesiz (en yakın madde bu, 13 gün öteden). ⇒ Hizalama hedefi komşu KAYIT değil, MADDENİN KENDİSİ olmalı. Dördü de 1920-05-27'ye çekildi. Değişmez 2: 32/32 TEMİZ. 🔴 VE `kaynak:` ALANLARINI DA DÜZELTTİM: dördünde de \"günler komşu SOFULU kaydından\" yazıyordu ve artık YANLIŞ bir beyandı. Kayıtta yanlış kaynak bırakmak, kaynaksız bırakmaktan kötüdür. ⚠️ KAYITSIZ BIRAKMADIĞIM İŞ: Sofulu ve Dedeağaç hâlâ 1920-05-14 kullanıyor. Kapsamımda değiller (\"doğru\" sayılmışlardı) ama artık dördümüzden ayrı düşüyorlar — aynı güne çekilmeleri gerekiyor. ═══ ② 🔴 YENİ VE DAHA BÜYÜK BİR BOŞLUK: DOĞU TRAKYA'DA YUNAN İŞGALİ HİÇ YOK ═══ TDV `luleburgaz` gövdesi: \"I. Balkan Savaşı sırasında (1912) Bulgar ordusu şehri büyük bir çatışma neticesinde ele geçirdiyse de 1913'te Türkler tarafından geri alındı. **1918-1922 yıllarında burası ve BÜTÜN TRAKYA Yunanlılar tarafından İŞGAL EDİLDİ.**\" ÖLÇTÜM — veride bunun izi YOK: Edirne · Kırklareli · Lüleburgaz · Vize · Havsa · Çatalca · İpsala · Enez → `isg:` alanı SEKİZİNDE DE YOK `isg:` katmanı VAR ve dolu (86 kayıt) ama taşıdığı devletler: ingiltere 55 · avusturya 18 · rusya 12 · fransa 7 · ispanya 1 🔴 YUNAN İŞGALİ TOPLAM: 0 dönem. Atlasta hiç yok. 🟢 AMA SÖZLEŞME VERİDE ZATEN VAR — İZMİR: `s: 1919-05-15 → 1922-09-09 yunanistan`. Yani atlas Yunan işgalini `isg:` ile değil `s:` ile yazıyor ve İzmir'de TAM GÜNLERLE. 🟢 VE GÜNLER DE KÜLLİYATTA HAZIR: `1922-10-11 Mudanya Mütarekesi` (çıkış) · `1920-08-10 Sevr Antlaşması` (Doğu Trakya'nın Yunanistan'a verildiği metin). ⚠️ GİRİŞ GÜNÜ EKSİK: Yunan birlikleri Doğu Trakya'ya Temmuz 1920'de girdi (Edirne 25 Tem). Külliyatta o gün YOK; en yakını Sevr (1920-08-10, 16 gün sonra). Sevr'e yapıştırmak SAVUNULABİLİR (işgalin hukukî dayanağı) ama AYNI OLAY DEĞİL — senin kuralın gereği kendi başıma yapmıyorum. ⇒ ÜÇ ŞIK, SEÇİM SENDE: (a) Doğu Trakya'nın Yunan işgali için giriş maddesi yazdır (Temmuz 1920), sonra sekiz kaydı birden yazarım (b) Sevr gününü (1920-08-10) kullanmama izin ver — \"işgalin hukukî dayanağı\" gerekçesiyle, ve `neden:`e açıkça yazayım (c) bu kalem başka bir kola/tura kalsın BENİM ÖNERİM (a): boşluk sekiz noktayı ve iki yılı kapsıyor, ayrıca İzmir emsali gösteriyor ki atlas bu olayı TAM GÜNLE yazma standardına sahip. (b) o standardın altına düşer. ═══ ③ DURUM ═══ BALKAN TRAKYA: 5 yanlıştan 4'ü kapandı (commit 7c64abe + 3dac05d). Kalan: Drama (MAKEDONYA kolunda). BEKLEYEN KARARLAR: ① Lüleburgaz/Enez/İpsala Bulgar işgali günü ② Doğu Trakya Yunan işgali giriş günü ③ Sofulu/Dedeağaç'ın 1920-05-27'ye hizalanması ④ VERİ SAHİPLİK-2 çakışması (üç kayıt, cevap gelmedi) ⑤ Mersin kur: · b3_yerlesim · dört tek satırlık kalem yetkisi Hepsi tahtada, hiçbiri kayıtsız değil. Boştayım.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
