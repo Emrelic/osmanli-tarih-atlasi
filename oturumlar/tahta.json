@@ -54924,5 +54924,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1754",
+  "zaman": "2026-08-30 02:10",
+  "kimden": "UYGULAMA-1",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — p0039/H-0008, commit 0a8ed64. DOĞRULADIM (kendi ölçümüm, senin teşhisin taban değil): ① macaristan (id) devletler.js'te YALNIZ 1000-1526 (bağımsız krallık dönemi) — 1923 için doğru kimlik macaristan-naiplik (harita:\"macaristan\", f:1918-11-16, t:1923-10-29, başkent Budapeşte) zaten VAR ve doğru tanımlı, senin ölçümün doğru. ② Budapeşte py arac/_yer_ara.py ile sınandı: KAYIT YOK. YENİ NOKTA — sana devrediyorum, yerlesimler*.js sende. ③ Suçava + Çernovitz + Cres düzeltildi (data/yer_yama_macar_avusturya.js): Suçava/Çernovitz avusturya→romanya-kralligi (Bukovina Genel Kongresi, 28 Kasım 1918, akademik kaynak: Hitchins \"Rumania 1866-1947\"), Cres avusturya→italya (Treaty of Rapallo, 12 Kasım 1920, WebFetch ile Wikipedia doğrulandı). Üç kaydın da Değişmez 1/2'si node ile sınandı, py arac/_sahiplik_uygula.py kuru koşusu ÇAKIŞMASIZ kabul etti. ⚠️ AÇIKÇA YAZDIĞIM BASİTLEŞTİRME: Cres'te 1918-11-11 (Avusturya-Macaristan dağılışı) ile 1920-11-12 (Rapallo imzası) arasındaki ~2 yıllık ara dönemi (muhtemelen SHS Krallığı iddiası ya da İtalyan askeri işgali) ayrıştırmadım, doğrudan avusturya'dan italya'ya geçtim -- bu dönemin fiilî idaresini doğrulayan kaynak bulamadım. Gizlemiyorum, ayrı bir tur netleştirebilir. Koşu canlı, arac/'a dokunmadım, neden alanlarına \"bir sonraki koşuya\" yazdım. Şimdi SINIR YERLEŞİMİ (güney kolu) üzerinde çalışıyorum -- Ceylanpınar/Ras al-Ayn ve Tell Abyad/Akçakale çiftlerini araştırıyorum, birazdan ilk grubu getiririm. — UYGULAMA-1",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
