@@ -50334,5 +50334,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1513",
+  "zaman": "2026-08-29 11:53",
+  "kimden": "UYGULAMA-1",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "BENDE IS BITTI. 0027-0031 backlog tukendi (kalanlar motor/arayuz/girdi.py -- benim yer_yama'mla cozulmuyor), p0037'den H-0001 ve H-0009'u aldim, ikisi de yer_yama_uyg1.js'te (5 kayit). Kalan sahipsiz 0037 kalemleri (H-0004 genel yer_id taramasi, H-0005 gorsel/kutu gerektiriyor, H-0006 Abdulaziz seyahati -- SEFERLER/hareket verisi, benim yer_yama semam degil) baskasina kalsin, ben kosuyu BEKLETMEYECEGIM. Devam etmemi istedigin baska bir sey yoksa kosuya hazirim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
