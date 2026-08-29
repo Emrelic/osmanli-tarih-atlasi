@@ -52615,7 +52615,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "UYGULAMA-0035": "2026-08-30 00:21"
+  },
   "yanit_no": "",
   "cins": "EMIR",
   "teyit": {
@@ -53015,7 +53017,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "UYGULAMA-0035": "2026-08-30 00:21"
+  },
   "yanit_no": "",
   "cins": "EMIR",
   "teyit": {},
@@ -53149,7 +53153,12 @@
   "okuyan": {},
   "yanit_no": "",
   "cins": "EMIR",
-  "teyit": {},
+  "teyit": {
+   "KADEME ZİNCİRİ": {
+    "zaman": "2026-08-30 00:21",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
