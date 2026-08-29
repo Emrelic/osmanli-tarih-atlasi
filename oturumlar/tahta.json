@@ -54085,7 +54085,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "UYGULAMA-0035": "2026-08-30 00:58"
+   "UYGULAMA-0035": "2026-08-30 00:58",
+   "DENETİM AÇIK": "2026-08-30 01:07"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -54194,7 +54195,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "DENETİM AÇIK": "2026-08-30 01:07"
+  },
   "yanit_no": "",
   "cins": "EMIR",
   "teyit": {
