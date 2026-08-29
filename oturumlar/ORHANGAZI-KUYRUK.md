@@ -65,6 +65,31 @@ H-0001 Meriç: 6 → 3 ✅ (Gümülcine·İskeçe·Ferecik düzeldi; Drama yolda
    183 → 178
 ```
 
+### 🔴 KOŞU BİTİNCE İLK İŞLERDEN: `_yer_ara.py` TÜRKÇE KUSURU
+UYGULAMA-1 buldu (02:23): `_yer_ara.py "Ceylanpinar"` — **`ı` harfi
+olmadan arandığı için YANLIŞ NEGATİF** verdi. Kayıt `yerlesimler_ek25.js`te
+zaten vardı; `girdi.py`ye bağlansaydı **ad çakışmasıyla yükleyiciyi
+çökertecekti.**
+```
+ÇARE  arama Türkçe harfleri KATLAMALI: ı/i · ş/s · ğ/g · ç/c · ö/o · ü/u
+      ve C13 gereği İKİ YÖNDE sınanmalı (bulmalı VE yanlış bulmamalı)
+```
+⚠️ O zamana kadar `_yer_ara.py`nin **NEGATİF** cevabına güvenilmez.
+📌 `CLAUDE.md`nin *"aletin gösterdiği ≠ dosyada yazan"* sınıfı — ve
+   sessiz olanı: alet *"yok"* dedi, vardı.
+
+### 🟢 HÜKÜM: 1923 TÜRKİYE-IRAK SINIRI — dördüncü şık
+Lozan md 3/2: sınır 1923'te **hukuken YOKTU**, 1926'ya ertelenmişti.
+Üç şık soruluyordu (bugünkü hat / 1926 hattı / boş bırak) ve üçü de
+*"hangi ÇİZGİ"* diye soruyordu. Hüküm:
+> `CLAUDE.md`: ***"ATLAS SEFERİ DEĞİL TASARRUFU BOYAR."***
+⇒ Antlaşma hattı çizilmez; **fiilî tasarruf** boyanır. 1923'te Musul'u
+  İngiliz mandası tutuyordu. İki yakaya nokta yazılır, sınır aralarından
+  geçer — çizilen şey bir antlaşma hattı değil, **iki fiilî idarenin
+  dokunduğu yer**, ve o 1923'te GERÇEKTEN vardı.
+⚠️ Her kaydın `neden:` alanına ihtilaf YAZILIR — kayıtsız belirsizlik
+  yarın kesinlik sanılır.
+
 ### 🔒 KOŞU BİTİNCE — SIRAYLA
 ```
 ① denetle.py  ② uret_devirler.py  ③ renk_olc.py (ŞART, veri değişti)
