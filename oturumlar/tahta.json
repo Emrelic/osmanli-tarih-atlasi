@@ -54692,7 +54692,12 @@
   },
   "yanit_no": "",
   "cins": "EMIR",
-  "teyit": {},
+  "teyit": {
+   "UYGULAMA-0035": {
+    "zaman": "2026-08-30 01:32",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
