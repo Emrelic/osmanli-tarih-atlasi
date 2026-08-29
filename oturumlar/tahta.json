@@ -50208,5 +50208,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1506",
+  "zaman": "2026-08-29 11:31",
+  "kimden": "UYGULAMA-ERKEN",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — 0037/H-0008 + H-0010 · Rus işgali örtüsü · 6 KAYIT YAZILDI data/yer_yama_erken.js 7 → 13 kayıt (VAR OLANA EKLEDİM, yeniden yazmadım) denetim/BULGU-UYGULAMA-ERKEN.md EK bölüm eklendi node ile doğruladım: DİZİ ✓ · 13 kayıt · hepsinde ad+kaynak+neden VE veri alanı var · isg taşıyan 6 · dönem taşıyan 7 ═══ YAZILAN 6 — hepsi TDV GÖVDESİNDEN, tarih UYDURULMADI ═══ Rusçuk isg:rusya 1810-09-26 → 1811-06-01 TDV: \"26 EYLÜL 1810'da garnizonun ... terketmesi karşılığında teslim oldu\" + \"1811 HAZİRANINDA ... Ruslar geri çekilmeye zorlandı\" Niğbolu 1810-10-01 → 1811-04-01 TDV: \"1810 EKİM ayında ... Kutuzov'un kuvvetleri tarafından ele geçirildi\" + \"1811 NİSANINDA ... havaya uçurup\" Silistre 1810-01-01 → 1811-05-01 TDV: \"1810'da bombalandı\" + \"1811 MAYISINDA çara surların havaya uçurulduğunu bildirdi\" Kili 1806-01-01 → 1812-05-28 TDV: \"1806'da yeniden işgale uğradı. 1812 Bükreş Antlaşması ile...\" Akkirman 1806-11-30 → 1812-05-28 TDV: \"30 KASIM 1806 tarihinde Rus Prensi Kantakuzino tarafından ele geçirilmesi...\" Hotin 1806-01-01 → 1812-05-28 TDV: \"son olarak 1806'da Ruslar'ın işgaline uğradı\" Günü verilmeyende YYYY-01-01 / YYYY-MM-01 (CLAUDE.md §8) — uydurmadım. 🟢 VE YÖNTEMİN SAĞLAMASI: mevcut İbrail kaydı (1809-12-02 → 1812-05-28) TDV ile BİREBİR uyuyor (\"2 ARALIK'ta General Essen'e teslim edildi\" + \"1812 Bükreş Antlaşması ile Osmanlılar'a iade edilince\"). ═══ 🔴 YAZILMAYAN 4 — ASIL BULGU BURADA ═══ ① VİDİN — İŞGAL EDİLMEMİŞ. TDV gövdesinde 1806-1812 Rus bağlamı HİÇ YOK; veri de d:OSMANLI 1690-09-09 → 1878-07-13 diyor. İKİ BAĞIMSIZ KAYNAK UYUŞUYOR. İlk listemde Vidin VARDI — ölçüm onu ÇIKARDI. Kayıt yazmak HAYALET BİR İŞGAL üretirdi. ② YERGÖĞÜ — 🔴 VERİ İLE TDV ÇELİŞİYOR, yazmadım veri: d:OSMANLI 1449 → 1810-09-27 · s:rusya 1810-09-27 → 1829-09-14 TDV : \"Yergöğü 27 EYLÜL 1810'da Ruslar'ın eline geçti\" ✓ AYNI GÜN ama 1812 Bükreş'te İADE EDİLDİĞİNİ SÖYLEMİYOR; Edirne 1829'da Eflak'a bırakıldığını söylüyor. Veri bunu KALICI DEVİR tutuyor. `isg:` yazsam mevcut s:rusya ile ÇELİŞİRDİ. ⇒ olculecek — NE: 1812-1829 arası Yergöğü kimin? İkinci akademik kaynak gerekiyor. Tarihen 1812'de Osmanlı'ya döndü ama TDV'DEN DOĞRULAYAMADIM. ③ BENDER — TDV BAŞLANGICI VERMİYOR. `bender-kalesi` slug'ı CANLI ve \"1812'de Bükreş Antlaşması ile kesin olarak kaybedilmiştir\" diyor ama 1806 işgalini ANMIYOR (yalnız 1788-89 ve 1792). Başlangıçsız isg: yazmak tarih uydurmak olurdu. kaynak: bulunamadı. ④ İSMAİL — slug ÖLÜ. `ismail` · `ismail--kale` · `ismail-kalesi` ÜÇÜ DE 302. 📌 Dördü de BİR SONUÇTUR. Ve \"yazmadım\" ile \"yazamadım\" ayrı şeyler — hangisinin hangisi olduğu raporda yazılı. ═══ ÖLÇMEDİKLERİM ═══ · Turnu Severin HİÇ SORULMADI — ilk listemdeydi, TDV'ye bakmadım · Yergöğü çelişkisi ikinci kaynakla ÇÖZÜLMEDİ · 13 kaydın hiçbiri koşuya girmedi, uygulanmış hâlini GÖRMEDİM · 🔴 `isg:` alanını HANGİ UYGULAYICININ işlediğini DOĞRULAYAMADIM: arac/yama_uygula.js kronoloji yamaları için (yer_id · kapsam_genis), yerleşim yamaları için değil. Biçimi GERÇEK VERİDEN kopyaladım (isg:[{f,t,d,kaynak}]) ama uygulayıcının bu alanı desteklediğini ölçemedim. ⇒ Uygularken bu alana ayrıca bak. ═══ SIRADAKİ ═══ Kendi paketimin 3 `olculecek` kalemine geçiyorum (p0002/H-0016 Tuz Gölü · pe0008/H-0001 sahibata · pe0008/H-0003 Divriği-Arapkir-Malatya epok). Dün ikisinde \"tarih elimde yok, uydurmayacağım\" demiştim; şimdi TDV'ye bakıp ya kaydı yazacağım ya \"bulunamadı\" diye kapatacağım. TEYİT: okudum, gereğini yapıyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
