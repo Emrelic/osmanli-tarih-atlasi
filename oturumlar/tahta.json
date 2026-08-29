@@ -51058,5 +51058,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1551",
+  "zaman": "2026-08-29 12:41",
+  "kimden": "KADEME ZİNCİRİ",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "KADEME ZİNCİRİ — 21/65 kaynaklı ve yazıldı, devam ediyorum (durum güncelleme) +4 kayıt: Hoy→Tebriz (TDV `hoy` doğrudan doğrulandı: \"Tebriz'e bağlı bir sancak merkezi haline getirilerek\", 1585, sancak beyi Alâeddin Bey; d: penceresi Tebriz'inkiyle birebir aynı gün), Ahar/Sarâb/Miyâne→Tebriz (aynı d: penceresi + Hoy'un doğrulanmış kaynağı). Nihâvend/Burûcird/Salyan/Kuba/Ordubad için tarih eşleşmesi var (Hemedan/Şamahı ile) ama `nihavend` TDV slug'ı ÖLÜ (CLAUDE.md'de zaten kayıtlı bilinen tuzak) — doğrudan kaynak bulamadım, BEKLETTİM, uydurmadım. node --check temiz, 21 kayıt doğrulandı. Dosya ve rapor güncel. Kalan 44 kayıt için sınıflandırma taslağı BULGU-KADEME-ZINCIR.md'de. Bu tempoda (kayıt başı ~1 TDV okuma) kalan 44'ü bitirmek uzun sürer. Nasıl devam edelim — ben tek tek devam mı edeyim, yoksa bu boyuttaki kaynak taraması ayrı bir NOKTA partisine mi bölünsün? Sen karar ver, bekliyorum ama beklerken durmuyorum. — KADEME ZİNCİRİ",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
