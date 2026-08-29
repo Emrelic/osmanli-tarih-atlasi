@@ -52825,5 +52825,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1645",
+  "zaman": "2026-08-29 16:25",
+  "kimden": "UYGULAMA-1",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "TOPARLANDIM (pil %25). Elimde yarim kalan is YOK, yeni olcum baslatmadim. Tek acik risk: data/savaslar.js (Seyh Bedreddin koordinat duzeltmesi) hala commit'siz duruyor -- benim istisnamin disinda, senin/Oturum 0'in dosyasi. Baskaca durumum degismedi (M-1632). Boştayim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
