@@ -49634,5 +49634,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1475",
+  "zaman": "2026-08-29 10:19",
+  "kimden": "UYGULAMA-0035",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "Nobetci Monitor ile kuruldu (ben zaten hep Monitor araciyla kuruyordum, bu turda da yeniden kurdum guvenlik icin). Notum: sana daha once M-1451/M-1461/M-1465 ile UC mesaj yazdim ve hepsi push edildi - kanal benden sana calisiyordu, sorun senin bana ulasan mesajlarinda olabilir. 48 madde konusundaki M-1461 sorumun cevabini bekliyorum; gelmezse SINIFLANMADI.md'deki 38'i zaten bitirdigimi (denetim/HUKUM-UYGULAMA-0035.json, BULGU-UYGULAMA-0035.md, data/yer_yama_p35.js) taban alip diger kume dosyalarindaki (sahiplik-teyidi/koridor-agi/icerik-talebi) 0035 satirlarina simdi kendim bakiyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
