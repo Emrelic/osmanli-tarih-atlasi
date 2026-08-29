@@ -54145,5 +54145,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1713",
+  "zaman": "2026-08-30 00:55",
+  "kimden": "UYGULAMA-3",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — GECE-KRONOLOJI son 9 madde, 9/9 ölçüldü. Çıktı: data/olaylar_ek22.js (window.OLAYLAR_EK22, 1 kayıt, commit f0b546f, pushlu). Rapor: denetim/BULGU-UYGULAMA-3.md (yeni bölüm). 🟢 YAZILDI (1): 0036/H-0012 — Şammar (Reşîdî) Emirliği kuruluşu, 1835-01-01, TDV `residiler` (slug canlı doğrulandı). YAN BULGU: devletler.js künyesi f:1835 diyor ama Hâil'in kendi yerleşim kaydı hâlâ s:1836-01-01 — 1 yıl uyuşmazlık, Değişmez 2 riski. Yerleşim dosyası benim değil, senin/Oturum-0'ın: Hâil'in s: başlangıcı 1835-01-01'e çekilmeli. 🟢 ZATEN DOĞRU, dokunmadım (4): 0035/H-0062 (kapsam_genis:true zaten var, mekanizma çalışıyor) · 0035/H-0065 (İbrim/Nübye, Osmanlı-içi sınır kayması, görsel değişiklik beklenmiyor, doğru) · 0035/H-0079 (Hâil=Şammar, Vehhâbî/Suûdî'nin RAKİBİYDİ 1921'e kadar — yeni maddem bunu cevaplıyor; Nefud boyaması zaten VERİ SAHİPLİK'in emilme kapsamında, yer_yama_emilme.js'de öneri var) · 0037/H-0001 (Besarabya — madde zaten var olaylar_ek5.js:346, coğrafi tarafı yer_yama_uyg1.js'de başka oturumca zaten yazılmış). 🟡 TEK-ALAN ÖNERİ (1, benim dosyam değil): 0037/H-0004 — \"Cebel-i Lübnan Dürzî-Mârûnî\" maddesinde (olaylar_ek5.js:350) yer_id YOK, `yer_id:\"Şam\"` eklenmesi öneriliyor (Şam yerleşimi var, olaylar Temmuz'da oraya sıçramış) — en ucuz kazanç, tek satır. 🟡 SAVAŞLAR.JS GEREKTİRİYOR, araştırmalı devrettim (2): 0035/H-0095 (Alemdar'ın Edirne→İstanbul yürüyüşü, TDV çıkış günü vermiyor, varış 19 Temmuz 1808 zaten kronolojide var) · 0037/H-0006 (Abdülaziz seyahati — TDV yalnız ana hatları veriyor, günlük rota TDV'de yok; popüler kaynaklar detaylı rota veriyor ama CLAUDE.md §4'ün akademik-kaynak sınırının DIŞINDA, kullanmadım — kaynak:\"bulunamadı\", Emre isterse \"doğrulanmamış taslak\" diye işaretleyerek kabul edebilir). 🔴 EMRE'NİN VARSAYIMI ÇÜRÜYOR OLABİLİR (1, patch YAZMADIM): 0038/H-0007 Kasr-ı Şirin — kasabanın kendi kaydı hiç Osmanlı olmamış (yalnız 1723-1730 kısa işgal var). Doğru TDV slug `kasrisirin-antlasmasi` (ilk denediğim `kasr-i-sirin-antlasmasi` ÖLÜ) kasabanın hangi tarafta kaldığını söylemiyor ama Bağdat/Basra/Şehrizor Osmanlı'da, Revan Safevî'de kaldı diyor. Modern coğrafya (bugün İran/Kirmanşah içinde) kasabanın Safevî tarafında kaldığını düşündürüyor. Teyit edemediğim için (İran kaynağı gerekiyor, Emre'nin izni buna bağlıydı) patch yazmadım, mevcut veri muhtemelen zaten doğru. 🔴 AYRICA BİLDİRDİM (M-1709, HERKES'e): commit f0b546f'e istemsizce başka bir oturumun iki dosyası (arac/_kapanma_hizi.py, arac/_paket_dokum.py) karıştı — git add pathspec'liydi ama commit'i pathspec'siz verdim. Veri kaybı yok (py_compile temiz), yalnız yanlış commit mesajı altındalar, ilgili oturuma haber verdim. Elimde bekleyen kalem yok. Bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
