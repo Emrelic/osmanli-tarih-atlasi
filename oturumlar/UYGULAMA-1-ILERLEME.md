@@ -1,4 +1,4 @@
-<!-- DURUM: BEKLIYOR ¦ 2026-08-29 ¦ pil kisiti ¦ 5 kayit disk'te, COMMIT EDILMEDI -->
+<!-- DURUM: BEKLIYOR ¦ 2026-08-29 ¦ pil %40 toparlanma ¦ 5 kayit disk'te (bagdat cakismasi COZULDU) -->
 # UYGULAMA-1 — ilerleme defteri
 
 **Oturum:** UYGULAMA-1 (eski adı TASNİF-D)
@@ -33,3 +33,14 @@ koordinat düzeltmesi disk'te commit'siz kalırsa KAYBOLUR.
 
 ## SIRADAKİ (pil izin verirse)
 Yeni bir şey BAŞLATMIYORUM (§ pil kuralı ②). Yalnız tahtayı dinliyorum.
+
+## GÜNCELLEME — pil %40 toparlanma eşiği (M-1615)
+- Bağdat çakışması (yer_yama_uyg1.js vs yer_yama_erken.js) ÇÖZÜLDÜ, hüküm
+  ORHANGAZİ'ye iletildi (M-1582): benim kaydım (1401-1405 timurlu, TDV
+  sourced) kalsın, ERKEN'in 1393-1394 blip'i kaynaksız olduğu için düşsün.
+  `--yaz` KOŞMADIM — pil kısıtı, karar ORHANGAZİ'de.
+- Ardahan (1877-05-17) itirazım hâlâ cevapsız (M-1525) — bekliyor, üstüne
+  gitmiyorum.
+- YENİ İŞ BAŞLATMADIM. `uret_petek.py`ye dokunmadım.
+- Sıradaki adım: YOK — tahtayı dinliyorum, elektrik/karar gelene kadar
+  boştayım.
