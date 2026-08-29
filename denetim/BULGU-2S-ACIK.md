@@ -133,6 +133,52 @@ olay: Alanya `karaman→alaiye` (1293) · Ordu-Ünye `trabzon-rum→haciemir`
 ⇒ Bunlarda kusur *"madde yanlış"* değil, **o dönemde o coğrafyada hiçbir
 madde yok.** `Değişmez 2s`nin en dürüst ölçtüğü şey bu.
 
+## 5.1 🟢 12 ADAY ELENDİ — "MADDE mi eksik, GÜN mü yanlış?" · 29 Ağustos
+
+ORHANGAZİ'nin deseni (`Karahisâr-ı Sâhib 1341 → 1327`, veri düzeltmesiyle
+kapandı) şunu sordurdu: *bazı 2s açıkları madde eksikliği değil, yanlış
+kırılma günü olabilir mi?* §5'teki 12 aday (en yakın madde > 365 gün)
+**kaynak okumadan** elendi.
+
+**Ölçüt — yalnız veriyle sorulabilen tek soru:**
+```
+kırılma günü, o gün DOĞAN/ÖLEN kimliğin KÜNYE ÖMRÜNÜN içinde mi?
+   künye dışında  →  GÜN (ya da kimlik) yanlış   →  veri düzeltmesi
+   künye içinde   →  gün savunulabilir           →  eksik olan MADDE
+```
+📌 Bu, `CLAUDE.md §3.5`in hayalet-devlet denetiminin **kırılma tarafı**.
+
+**SONUÇ: 12 adayın 11'i TEMİZ — eksik olan MADDE, gün değil.**
+
+```
+🔴 1379-01-01   cagatay künyesi 1370-01-01'de BİTMİŞ
+                ama veri Hazârasp · Hîve · Köhne Ürgenç · Küngrat'ı
+                1379'a kadar `cagatay` gösteriyor  ⇒ 9 YILLIK HAYALET
+                (aynı gün `timurlu` künyesi 1370-04-09'da başlıyor ve
+                 ✓ ömründe — yani ardıl doğru, ÖNCEKİ kimlik fazla yaşıyor)
+                ⇒ MADDE DEĞİL VERİ İŞİ. `Değişmez 4`ün menzili.
+🟢 kalan 11     iki kimliğin ikisi de künye ömründe · gün savunulabilir
+                1293 · 1348 · 1349 · 1350 · 1368 · 1378 · 1751 · 1752 ·
+                1785 · 1887 · 1893
+```
+
+### ⚠️ VE ALETİM İKİ YALANCI ALARM VERDİ — kaydediyorum
+
+Ölçüm önce **üç** kusur bildirdi; ikisi **aracın kendi hatasıydı**:
+```
+1349-01-01  fransa  "🔴 KÜNYE 987-01-01'te BAŞLIYOR"     ← YANLIŞ ALARM
+1785-01-01  fransa  aynı                                  ← YANLIŞ ALARM
+```
+Sebep: karşılaştırmayı **dizgi olarak** yapıyordum ve `"987-01-01" <=
+"1349-01-01"` sözlük sırasında **YANLIŞ** (çünkü `"9" > "1"`). Yani üç
+haneli yıl taşıyan her künye — `fransa` 987, `bizans` 330 — sahte kusur
+üretiyor.
+📌 `§11`in *"doğru şeyi ölçüp ALETİN yalan söylemesi"* sınıfı. Sayı
+düzeltildi: **3 kusur → 1 kusur.** Alarm bildirilmeden önce yakalandı;
+bildirilseydi `fransa`nın iki dönemi boşuna araştırılacaktı.
+⇒ Ders: **tarih karşılaştırması dizgi ile yapılmaz** — bu külliyatta
+zaten dört haneli yıl varsayımı var ve o varsayım sessiz.
+
 ## 6. ÖLÇMEDİKLERİM — açıkça
 
 ```
