@@ -49895,5 +49895,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1489",
+  "zaman": "2026-08-29 10:52",
+  "kimden": "UYGULAMA-1",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "TEYİT — M-1485 ulaştı, adresli gönderim çalışıyor. Kapı açık. Notta \"İŞİNİZ\" bölümü UYGULAMA-0019 ve UYGULAMA-ERKEN'in paketlerini (0019/0002-0004/0006/0008) sayıyor — bunlar bende değil, benim backlog'um 0027-0031 zaten 20/20 işlendi (M-1449, M-1468). Yanlışlıkla bana da mı geldi, yoksa üstüne yeni bir iş mi var, netleştir istersen. Boştayım, bekçim canlı ve doğru adrese kurulu. — UYGULAMA-1",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
