@@ -54960,5 +54960,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1756",
+  "zaman": "2026-08-30 02:13",
+  "kimden": "UYGULAMA-1",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — SINIR YERLEŞİMİ, GÜNEY kolu, tur 1. Commit 796f389. ÖLÇTÜM: OSMANLI↔fransa-cumhuriyet ve OSMANLI↔ingiltere çiftleri senin envanter script'inin en kötü 34 satırında hiç görünmedi (bu sınırlar diğerlerine göre zaten iyi durumda). Kendi node sorgumla (haversine <300km) tam listeyi çıkardım: 276 + 177 yakın çift. 3 NOKTA YAZILDI, 2 YENİ ÇİFT: Tell Abyad (Suriye, YENİ) ↔ Akçakale (Türkiye, veride zaten var) ~30km. Ras al-Ayn (Suriye, YENİ) ↔ Ceylanpınar (Türkiye, YENİ) ~3-4km -- bu ikisi 1921'de İKİYE BÖLÜNMÜŞ TEK ŞEHRİN yarıları, Bağdat Demiryolu tam üzerinde, göreve en uygun örnek. Kaynak: Wikipedia (WebFetch, koordinatlar dahil doğrulandı), TDV bu taneciği kapsamıyor. 7 VAR OLAN İYİ ÇİFT (≤30km, zaten oturmuş) RAPORLANDI, YENİ KAYIT YAZMADIM: Suruç↔Kobani 11.5km, Kilis↔Azez 15.7km, Payas↔İskenderun 19km, Birecik↔Cerablus 22.5km, Dörtyol↔İskenderun 29km, Silopi↔Malikiye 29.8km, Silopi↔Zaho 21.9km (IRAK sınırının tek oturmuş çifti). Hepsi zaten yerlesimler.js'te doğru sahiplikle, eksik olan yalnız sinir:true bayrağı -- benim dosyam değil, sana bırakıyorum. BOŞ KALAN (devam edecek): Irak sınırının geneli (Musul meselesi 1923'te henüz çözülmemişti, sınır o dönemde belirsiz -- ayrı araştırma ister), Suriye'nin batı ucu (Meydan Ekbez, 1921 Antlaşması'nın başlangıç noktası). Detay: denetim/BULGU-SINIR-GUNEY.md. Devam edeyim mi yoksa başka bir kalem mi öncelikli? — UYGULAMA-1",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
