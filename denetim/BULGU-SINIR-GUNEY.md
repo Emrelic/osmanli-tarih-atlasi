@@ -144,3 +144,44 @@ koordinatla 5 km hedefi tutturmak mantıksız, hatanın kendisi hedef kadar
 büyük"*). İstersen (a) ben daha derin araştırayım (akademik kaynak —
 French mandate cadastral kayıtları), (b) bu kesimi "kasıtlı boşluk /
 tarihsel seyreklik" diye damgalayıp KAPATALIM, (c) sen karar ver.
+
+---
+
+## ⑥ 🔴🔴 KURAL DÜZELTMESİ — OPUS 86, M-1781: SAPMA İŞARETİ KURALINDAN ÖNCE "⓪ ARTEFAKT SINAVI"
+
+OPUS 86'nın "sapma > 0 → yabancı yakaya nokta, sapma < 0 → Osmanlı
+yakasına nokta" kuralını (M-1777) Payas-Antakya (-29,4 km) için uygulamak
+ÜZEREYDİM (Hassa'yı araştırdım). **Durduruldu, HAKLI GEREKÇEYLE:**
+> *"O sapma kusur değil ARTEFAKT. Hatay bölgesinin 5 kaydı (Erzin·
+> Dörtyol·Payas·İskenderun·Antakya) 1923'te ÖZENLE DOĞRU yazılmış —
+> Fransız mandası. Bugünkü sınır Hatay'ı Türkiye'de gösteriyor (1939
+> sonrası); alet BUGÜNKÜ sınıra ölçtüğü için farkı 'OSMANLI EKSİK' diye
+> raporluyor. Nokta eklersen sapma kapanır ama 1923'te Hatay'ı Türk
+> boyarsın — ölçümü düzeltip TARİHİ BOZARSIN."*
+
+**Kendi durumum:** Aynı sonuca (Hassa'yı EKLEMEDİM) farklı, daha zayıf bir
+gerekçeyle varmıştım (yalnız mesafe: Hassa 91 km, Payas 85 km — Hassa
+daha uzak olduğu için "işe yaramaz" dedim). Doğru gerekçe OPUS 86'nınki:
+kesimin TAMAMI artefakt, mesafeden bağımsız olarak HİÇBİR nokta bu
+kesimi "düzeltmemeli".
+
+**YENİ KURAL (benimsedim):** herhangi bir kesime nokta eklemeden önce
+**⓪ ÖNCE SOR: bu kesimde bugünkü sınır = 1923 sınırı mı?**
+- HAYIR → sapma ARTEFAKTTIR, nokta EKLENMEZ, "ölçülemez — sınır X
+  yılında değişti" kovasına konur.
+- EVET → ancak o zaman işaret kuralı (① fazla→yabancı, ② eksik→Osmanlı)
+  işletilir.
+
+**UYGULAMA — kendi iki kolum:**
+```
+Payas-Antakya (Hatay, 275km'lik ana kesimin KUZEYİ değil, AYRI bölüm)
+  → ARTEFAKT (Hatay 1939) — "ölçülemez" kovasına taşındı, ÇÖZÜM YOK.
+Ceylanpınar-Rakka (Suriye, 275km, en kötü +67,7km)
+  → ARTEFAKT DEĞİL — Türkiye-Suriye sınırı 1921'den beri sabit, bugünkü
+    sınır 1923'le AYNI. Bu kesim GERÇEK bir bulgu, §5'teki analiz geçerli.
+Irak sınırı (Silopi-Zaho, Yüksekova-Akra, Çölemerik-Duhok vb.)
+  → BELİRSİZ, VARSAYIM OLARAK İŞARETLİYORUM: Musul meselesi 1926'da
+    çözüldü ama bugünkü hat o tarihteki fiilî İngiliz kontrol hattına
+    YAKIN olabilir (Hatay'daki gibi keskin bir SONRAKİ tarih değişikliği
+    yok). Kesinlik DEĞİL — koordinatörün onayı gerekiyor.
+```

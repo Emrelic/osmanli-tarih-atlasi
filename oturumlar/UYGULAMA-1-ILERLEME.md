@@ -142,3 +142,15 @@ Osmanlı döneminde gerçekten seyrek nüfuslu olduğu doğrulandı — bu boşl
 muhtemelen veri eksiği değil GERÇEK TARİHSEL SEYREKLİK.
 Koordinatöre üç seçenek sundum (derinleş / kasıtlı-boşluk damgala / karar
 ver). Detay: BULGU-SINIR-GUNEY.md §5. Cevap bekliyorum.
+
+## GÜNCELLEME 9 — OPUS 86'nın kural düzeltmesi: "⓪ artefakt sınavı" (M-1781)
+Payas-Antakya (-29,4km) için Hassa'yı ekleyecektim, OPUS 86 durdurdu:
+o sapma KUSUR değil ARTEFAKT (Hatay 1939'da Türkiye'ye katıldı, veri
+1923 için zaten doğru — Fransız mandası). Kendi gerekçem (mesafe: Hassa
+Payas'tan uzak) yanlış ama SONUÇ doğruydu (eklemedim). Yeni kural
+benimsendi: nokta eklemeden önce "bugünkü sınır = 1923 sınırı mı" sorusu
+sorulmalı, hayırsa nokta eklenmez, "ölçülemez" kovasına konur.
+Kendi kollarıma uyguladım: Payas-Antakya → ölçülemez (Hatay artefaktı).
+Ceylanpınar-Rakka (275km) → ARTEFAKT DEĞİL, gerçek bulgu, geçerli kalıyor.
+Irak sınırı → BELİRSİZ, varsayım olarak işaretledim, koordinatör onayı
+gerekiyor. Detay: BULGU-SINIR-GUNEY.md §6. Hâlâ üç kararı bekliyorum.
