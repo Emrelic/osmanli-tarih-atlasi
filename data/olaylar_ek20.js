@@ -103,4 +103,42 @@ window.OLAYLAR_EK20 = [
   d:"Bagratlı hânedanının yönettiği birleşik Gürcistan Krallığı, uzun bir iç mücadelenin ardından resmen üç krallığa ayrıldı: doğuda Tiflis merkezli Kartli, kuzeydoğuda Kaheti ve batıda merkezi Kutaisi olan İmereti. TDV'nin Gürcistan maddesi bölünmeyi teyit ediyor — 'Gürcistan üç krallığa (Kartliya, Kahetya, İmeretiya) ve beş beyliğe ayrıldı' — ancak yılını vermiyor. Bölünme, bir sonraki yüzyılın Osmanlı-Safevî çekişmesinde belirleyici oldu: 1555 Amasya Antlaşması'na göre İmeret, Dadyan, Güryel ve Daveli Osmanlı'ya; Kartli, Kahet ve Mosuk Safevî'ye bırakıldı. Yani atlasın batı ve doğu Gürcistan'ı ayrı efendilere bağlaması bu bölünmeden doğar. Yavuz Sultan Selim daha Trabzon valisi iken 1508'de İmeret (Açıkbaş) Krallığı'nı itaate ve haraca bağlamıştı.",
   kaynak:"gurcistan" },
 
+// ⑥ 1315-04-28 — veri: Malatya  ilhanli → memluk  (UYGULAMA-ERKEN yaması, 3cf33e9)
+//    TDV `malatya` GÜNÜ BİREBİR VERİYOR — gövdeyi KENDİM çektim ve okudum,
+//    aktarılan alıntıya güvenmedim:
+//      "Kalavun, 715'te (1315) Dımaşk nâibi Seyfeddin Tengiz kumandasındaki
+//       bir orduyu Malatya'ya sevketti."
+//      "Memlük ordusu 22 Muharrem 715'te (28 Nisan 1315) şehre girdi."
+//    🔴 Bu, `Değişmez 2s`nin en keskin vakası: TDV TAM GÜN veriyor, harita o
+//    günü çiziyor, ve kronoloji SUSUYOR — en yakın madde 847 GÜN ötedeydi.
+{ t:"1315-04-28",
+  b:"Memlük ordusu Malatya'ya girdi — şehir İlhanlı'dan Memlük idaresine geçti",
+  tur:"fetih",
+  onem:2, dunya:2, kapsam:"dis",
+  etiket:["toprak-kazanc","savas"],
+  yer:"Malatya",
+  yer_id:"Malatya",
+  kisiler:"Seyfeddin Tengiz",
+  d:"Memlükler, Dımaşk nâibi Seyfeddin Tengiz kumandasındaki bir orduyu Malatya üzerine sevketti; ordu 22 Muharrem 715'te (28 Nisan 1315) şehre girdi. Malatya o güne kadar İlhanlı hâkimiyetindeydi ve Fırat'ın batısında İlhanlı ile Memlük nüfuz alanlarının değdiği hattın kilit noktasıydı. Şehrin el değiştirmesi, iki devlet arasındaki uzun çekişmede Memlükler'in Yukarı Fırat'a doğru ilerleyişini gösterir. Malatya bu tarihten sonra bir süre Eretnaoğulları'nın idaresine girecek, 1338'den itibaren yeniden Memlük hâkimiyetine dönecektir.",
+  kaynak:"malatya" },
+
+// ⑦ 1338-01-01 — veri: Malatya  eretna → memluk
+//    TDV `malatya`: "Ardından bir ara Eretnaoğulları'nın idaresine giren
+//    Malatya'ya 1338'den itibaren Memlükler hâkim oldu."
+//    ⚠️ TDV YALNIZ YILI VERİYOR, GÜNÜ VERMİYOR ⇒ `YYYY-01-01` (§4).
+//    ⇒ İKİ YOLDAN (a) SEÇİLDİ — madde yazıldı, kırılma günü KAYDIRILMADI.
+//    Niçin (b) değil: külliyattaki en yakın gün 114 gün ötede ("Serbedârîler
+//    Sebzevâr'ı aldı", Horasan) ve konusu bu olayla ilgisiz. Kırılmayı oraya
+//    çekmek, `§11`in "yanlış maddeye yapışma" kusurunu ELLE üretmek olurdu.
+{ t:"1338-01-01",
+  b:"Malatya yeniden Memlük hâkimiyetine girdi — Eretnaoğulları idaresinin sonu",
+  tur:"fetih",
+  onem:1, dunya:1, kapsam:"dis",
+  etiket:["toprak-kazanc"],
+  yer:"Malatya",
+  yer_id:"Malatya",
+  kisiler:"",
+  d:"1315'te Memlük idaresine giren Malatya, İlhanlı Devleti'nin çözülme yıllarında bir süre Eretnaoğulları'nın eline geçmişti. TDV'nin Malatya maddesi dönüşü tek cümleyle veriyor: şehre 1338'den itibaren yeniden Memlükler hâkim oldu. Bu, Anadolu'nun güneydoğusunda İlhanlı sonrası boşluğun Memlük ve Eretna arasında paylaşıldığı yılların bir kesitidir. TDV yılı veriyor, günü vermiyor; kayıt bu yüzden gün hassasiyeti olmadan yazıldı.",
+  kaynak:"malatya" },
+
 ];
