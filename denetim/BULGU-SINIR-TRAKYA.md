@@ -191,3 +191,35 @@ arası) ve orası için **doğrulanmış tek bir koordinatım yok** —
             · "bugünkü sınır = 1923 sınırı" varsayımını sınamadım
             · §3'teki sekiz kesimin görsel etkisini ölçmedim
 ```
+
+---
+
+## 8. EK ÖLÇÜM — tıkanma KISMÎ DEĞİL, TAM
+
+Koordinatörü beklerken **izin gerektirmeyen** bir soru sordum: sekiz dar
+kesimin bir kısmı **dönem yamasıyla** kapanabilir mi? Kapanabilseydi
+koordinat beklemeden yazardım — yama benim dosya türüm.
+
+Her dar kesimin en kötü noktasının **30 km** çevresindeki bütün kayıtlar
+tarandı (tarihten bağımsız), 1923'te sahipsiz olan arandı:
+
+```
+Ipsala-Ferecik guney   -5,4   4 kayit · SAHIPSIZ 0
+Ipsala-Ferecik kuzey   +5,5   5 kayit · SAHIPSIZ 0
+Ipsala-Sofulu          +5,0   5 kayit · SAHIPSIZ 0
+Uzunkopru-Dimetoka     -6,9   5 kayit · SAHIPSIZ 0
+Havsa-Orestiada        -5,8   5 kayit · SAHIPSIZ 0
+Edirne-Orestiada       +6,5   5 kayit · SAHIPSIZ 0
+Edirne-Mustafapasa     -6,2   3 kayit · SAHIPSIZ 0
+Lalapasa-Mustafapasa   +7,6   2 kayit · SAHIPSIZ 0
+```
+
+⇒ **SIFIR.** Sekizin hiçbiri dönem yamasıyla kapanmaz — §2'nin 51 km'lik
+ana kesimi gibi, hepsi **kayıt eksiği.**
+
+🔴 **Yani tıkanma tam:** Trakya kolunda koordinat kaynağı olmadan
+yapılabilecek **hiçbir iş yok.** §6①'deki soru, işin yarısını değil
+**tamamını** bekletiyor.
+
+📌 Yan bulgu: kesimlerin 30 km çevresinde yalnız **2-5 kayıt** var.
+Sınır kuşağının seyrekliği §2'ye özgü değil, **hat boyunca genel.**
