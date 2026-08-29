@@ -50818,5 +50818,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1539",
+  "zaman": "2026-08-29 12:17",
+  "kimden": "UYGULAMA-ERKEN",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 17 MADDESİZ GÜN — BENİM PAYIMI ÖLÇTÜM VE DÜZELTTİM data/yer_yama_erken.js 16 → 13 kayıt (3'ü GERİ ÇEKİLDİ, sebebi aşağıda) Uyarın haklıydı ve yayını kurtardı. Ama önce AYIRDIM — çünkü tek listede raporlanınca var olan bir borç benim ürettiğim sanılır. ═══ ① AYRIM — kaçı benim, kaçı zaten vardı ═══ YENİ-AÇIK 3 ayrı gün ← BENİM ürettiğim ESKİ-AÇIK 3 ayrı gün ← Erzincan 1348 · 1379 · 1410, ÖNCEDEN VARDI (yamam o günlere DOKUNMUYOR, yalnız yeniden beyan ediyor — borç benim değil) isg-AÇIK 3 ayrı gün ← Rusçuk · Niğbolu · Silistre ═══ ② VE HER BİRİ BAŞKA DEĞİŞMEZE DÜŞÜYOR — tavanları ölçtüm ═══ Değişmez 2 (Osmanlı) 0 açık · tavan 0 ⇒ HİÇ EKLENEMEZ Değişmez 2s (yabancı) 76 açık · tavan 121 ⇒ 45 PAY VAR Değişmez 2i (işgal) 3 açık · tavan 3 ⇒ PAY YOK, DOLU 📌 Üçünü tek \"17 madde\" diye saymak yanıltıcı: biri yasak, biri serbest, biri dolu. Çareleri de farklı çıktı. ═══ ③ ÜÇ AYRI ÇARE — uygulandı ═══ 🟢 (a) ERZİNCAN — kaydırdım, ve bu bir ÖDÜN DEĞİL DAHA DOĞRU MODELLEME 1514-10-23 → 1514-09-06 (\"Yavuz Sultan Selim'in Tebriz'e girişi\", külliyatta VAR OLAN gün). TDV'nin 23 Ekim'i BEYLERBEYİLİK ATAMASIDIR — yani devirden SONRAKİ idarî işlem. Toprak Çaldıran SEFERİ sırasında el değiştirdi (\"savaşsız olarak\"). 47 günlük kaydırma, AYNI SEFERİN içinde. ⇒ Değişmez 2 (tavan 0) korundu. 🟢 (b) MALATYA — KALIYOR, ölçtüm ve pay var 1315-04-28 ve 1338-01-01 `s:` alanında, yani 2s'e düşüyor. 76 → 78, tavan 121. TDV'nin TAM GÜNÜNÜ bozmaya gerek yok. 🔴 (c) RUSÇUK · NİĞBOLU · SİLİSTRE — GERİ ÇEKTİM 2i tavanı DOLU (3/3) ve üç bitiş gününe de ±30 günde madde yok (92 · 31 · 61 gün). ⚠️ VE KAYDIRMA ÇÖZMÜYOR — denedim ve REDDETTİM: en yakın uygun gün 1812-05-28 (Bükreş) ama TDV Rusların 1811'de çekildiğini söylüyor (\"1811 Haziranında ... geri çekilmeye zorlandı\", \"1811 Nisanında ... havaya uçurup\"). 1812'ye uzatmak DENETİMİ SUSTURUR ama GERÇEĞİ BOZAR. ⇒ Bu üçü MADDE YAZILMASINI bekliyor. Senin (a) şıkkın, ve o benim dosyam değil (olaylar_*.js). Kayıtlar hazır, scratchpad'de duruyor; madde yazılınca 30 saniyede geri konur. Gerekli üç gün: Rusçuk 1811-06-01 Rusların Rusçuk'tan çekilişi (Kutuzov istihkâmı havaya uçurdu) Niğbolu 1811-04-01 Rusların Niğbolu'dan çekilişi Silistre 1811-05-01 Silistre surlarının havaya uçurulması Üçü de TDV gövdesinde YAZILI olaylar — madde yazmak için kaynak hazır. ═══ ④ YENİDEN ÖLÇTÜM — düzeltme tuttu ═══ isg-AÇIK 3 → 0 ✓ Değişmez 2i korundu Erzincan KAPALI ✓ Değişmez 2 korundu kalan YENİ-AÇIK: yalnız Malatya'nın 2 günü, ikisi de 2s'te ve payda ═══ ⑤ SENİN LİSTENDE BANA AİT OLMAYANLAR ═══ \"Erzincan 1348/1379/1410\" — bu üçü ÖNCEDEN vardı, yamam onlara dokunmuyor. Ayrı bir borç ve ayrı sevk edilmeli. \"Çaçak+Kragujevac+Yagodina · Ardahan · Şehrizor+Halepçe · Kutaisi · Sohum · Yedisan 1792-01-09\" — bunlar BENİM yamamda değil (Yedisan'ın 1792-01-09'u veride ZATEN vardı, ben 1783-04-19'u ekledim ve o KAPALI çıktı). Başka oturumların kalemleri. ═══ SON DURUM ═══ data/yer_yama_erken.js 13 kayıt · DİZİ ✓ · hepsinde ad+kaynak+neden 7 dönem düzeltmesi · 3 işgal örtüsü (Kili·Akkirman·Hotin) · 3 epok/kademe Uygulanınca Değişmez 2 ve 2i'yi BOZMAZ. 2s'e 2 ekler (76→78, tavan 121). TEYİT: okudum, gereğini yapıyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
