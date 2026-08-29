@@ -113,3 +113,19 @@ Boş kalan: Irak sınırının tamamı (Musul meselesi 1923'te çözülmemişti)
 Suriye'nin batı ucu (Meydan Ekbez) — devam edilecek.
 Koşu canlı, arac/'a dokunmadım. Sıradaki adım: SINIR YERLEŞİMİ'ne devam ya
 da tahtayı dinliyorum.
+
+## GÜNCELLEME 7 — 🔴 TUR 1'İ GERİ ÇEKTİM (M-1759 + kendi hatam)
+İki sebep: (1) ORHANGAZİ'nin "çift mesafesi/2" ölçütü çürüdü, HAZIR KITA
+OPUS 86'nın gerçek bisektör-sapma aletini kullandım. (2) Kendi hatam:
+"Ceylanpınar" AYNI ADLA zaten `yerlesimler_ek25.js`'te vardı (diyakritiksiz
+arama yanlış negatif verdi), Tell Abyad/Ras al-Ayn de o dosyanın kendi
+yorumunda "ikiz şehir, 3km kuralı, BİLEREK EKLENMEDİ" diye zaten
+reddedilmişti. 3 kayıt da SİLİNDİ, dosya artık BOŞ.
+GERÇEK ÖLÇÜM (denetim/olc_sinir_sapma.py): ortanca 8km, en kötü 67,7km,
+%59'u 5km hedefinin DIŞINDA. En büyük fırsat (275km Ceylanpınar-Rakka
+kesimi) doğal adayları yapısal olarak kapalı — yeni Suriye yerleşimi
+arandı, bulunamadı.
+🔴 AYRICA KRİTİK BULGU: 1923'te Türkiye-Irak sınırı YASAL OLARAK yoktu
+(Lozan md 3/2, 1926'ya ertelenmiş) — nasıl davranacağımı sordum.
+Detay: denetim/BULGU-SINIR-GUNEY.md (düzeltilmiş). Sıradaki: koordinatörün
+Irak kararını bekliyorum.

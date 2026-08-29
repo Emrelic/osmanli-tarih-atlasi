@@ -1,85 +1,103 @@
-<!-- DURUM: OLCULDU ¦ 2026-08-30 ¦ UYGULAMA-1 ¦ SINIR YERLEŞİMİ — GÜNEY kolu, tur 1 -->
-# BULGU — SINIR YERLEŞİMİ, GÜNEY kolu (Suriye + Irak)
+<!-- DURUM: OLCULDU ¦ 2026-08-30 ¦ UYGULAMA-1 ¦ SINIR YERLEŞİMİ — GÜNEY kolu, DÜZELTİLMİŞ -->
+# BULGU — SINIR YERLEŞİMİ, GÜNEY kolu (Suriye + Irak) — DÜZELTİLMİŞ RAPOR
 
 **Oturum:** UYGULAMA-1 · **Şartname:** `oturumlar/SINIR-YERLESIMI.md`
-**Dosyam:** `data/yerlesimler_sinir_guney.js` (`window.YERLESIMLER_SINIR_GUNEY`)
-🔒 Koşu canlı, `arac/`ye dokunmadım. Dosya `girdi.py`ye henüz bağlanmadı
-(ORHANGAZİ bağlayacak) — bu koşuya girmez.
+🔴 **BU RAPOR §1'deki İLK TURU GERİ ÇEKİYOR.** İlk turdaki 3 yeni kayıt
+(Tell Abyad, Ras al-Ayn, Ceylanpınar) HATALIYDI ve `data/yerlesimler_
+sinir_guney.js`'ten SİLİNDİ. Aşağıda sebep + düzeltilmiş, ALETLE ölçülmüş
+gerçek durum.
 
 ---
 
-## ① ÖNCE ÖLÇÜM — mevcut durumun envanteri
+## ① 🔴 KENDİ HATAM — iki ayrı sebeple
 
-`py arac/_sinir_envanteri.py --gun 1923-06-15 --hedef 10` ÇALIŞTIRILDI ama
-OSMANLI↔fransa-cumhuriyet ve OSMANLI↔ingiltere çiftleri en kötü 34 satırda
-HİÇ görünmedi (script yalnız en kötü 34'ü basıyor) — yani bu iki sınır
-diğerlerine göre ZATEN İYİ DURUMDA. Kendi node sorgumla (haversine, <300 km)
-tam listeyi çıkardım:
+**Sebep 1 — "Ceylanpınar" AYNEN AYNI ADLA zaten VARDI.**
+`data/yerlesimler_ek25.js`'te (11 Ağustos, koordinatör) 36,845/40,043'te
+KAYITLI. Benim yazdığım 36,867/40,048 neredeyse ÖZDEŞ konum — AD ÇAKIŞMASI,
+`girdi.py`ye bağlansaydı yükleyiciyi ValueError ile ÇÖKERTİRDİ.
+**Niçin gözden kaçtı:** `py arac/_yer_ara.py "Ceylanpinar"` (ı harfi
+olmadan) ve `"Suruc"` (ç olmadan) YANLIŞ NEGATİF verdi — Türkçe diyakritik
+eksik arama. `CLAUDE.md §4`'ün "ad ekseni tuzağı" dediği şeyin TAM TERSİ
+yönde bir vakası: var olan bir kayıt bu sefer YOK sanıldı.
 
-```
-OSMANLI ↔ fransa-cumhuriyet: 234 vs 169 nokta, 276 yakın çift <300km
-OSMANLI ↔ ingiltere:         234 vs 290 nokta, 177 yakın çift <300km
-```
+**Sebep 2 — Tell Abyad / Ras al-Ayn zaten DEĞERLENDİRİLİP REDDEDİLMİŞTİ.**
+`yerlesimler_ek25.js`'in kendi yorum satırı (11 Ağustos):
+> *"ÜÇ İKİZ ŞEHİR ÇIKARILDI (3 km kuralı, ölçüldü): Tel Abyad↔Akçakale
+> 1,59 km · Rasulayn↔Ceylanpınar 2,46 km · Kamışlı↔Nusaybin 2,72 km...
+> Petek modeli bu çifti İFADE EDEMEZ: 3 km kuralı mükerrer sayar, ama
+> ikisi AYRI ÜLKEDEDİR... Türkiye yakası tutuldu; Suriye yakası Halep/
+> Cerablus/Münbiç ile temsil."*
+⇒ Aynı fikri (ikiz şehri iki ayrı nokta olarak yazmak) BİLMEDEN, aynı
+gerekçeyle daha önce REDDEDİLMİŞ bir kararın tersini önermişim.
 
-## ② 🟢 VAR OLAN 7 ÇİFT ZATEN OTURMUŞ (≤30 km) — yeni kayıt YAZMADIM
+**SONUÇ: `yerlesimler_sinir_guney.js` boşaltıldı, `yerlesimler_ek25.js`'e
+DOKUNULMADI** (benim dosyam değil).
 
-```
-Suruç ↔ Ayn el-Arab (Kobani)        11,5 km
-Kilis ↔ Azez (A'zâz)                15,7 km
-Payas ↔ İskenderun                  19,0 km
-Birecik ↔ Cerablus (Jarablus)       22,5 km
-Dörtyol ↔ İskenderun                29,0 km
-Silopi ↔ Malikiye (Derik)           29,8 km
-Silopi ↔ Zaho                       21,9 km  ← IRAK sınırının TEK oturmuş çifti
-```
-Hepsi zaten `data/yerlesimler.js`'te (benim dosyam değil) doğru sahiplikle
-kayıtlı. Tek eksik `sinir:true` bayrağı — yeni kayıt DEĞİL, var olan kayda
-bir alan eklemek. Bunu ben yapamam (§7, yerlesimler.js koordinatörde),
-listeyi `yerlesimler_sinir_guney.js`nin altına not düştüm.
+---
 
-## ③ 🔴 BÜYÜK BOŞLUK BULUNDU — Akçakale-Nusaybin arası ~250 km, HİÇ oturmuş çift yok
+## ② DÜZELTİLMİŞ ÖLÇÜM — HAZIR KITA OPUS 86'nın paylaştığı alet
 
-Suriye sınırının ORTA kesimi (Birecik/Cerablus ~38°E ile Nusaybin ~41,2°E
-arası) tamamen boş: en iyi aday "Urfa↔Ayn el-Arab" 49,3 km — hedefin
-(10 km) çok üstünde. Araştırdım: bu bölgenin GERÇEK 1921 sınır noktası
-Bağdat Demiryolu'nun iki istasyonu — **Tell Abyad** (Suriye, Akçakale'nin
-karşısı) ve **Ra's al-'Ayn/Ceylanpınar** (1921'de ikiye bölünmüş TEK şehir).
-Üçü de veride YOKTU (py arac/_yer_ara.py, 3 km mükerrer taraması dahil).
-
-## ④ UYGULANAN — 3 YENİ NOKTA, 2 ÇİFT
+ORHANGAZİ'nin "çift mesafesinin yarısı" ölçütü ÇÜRÜDÜ (M-1759). OPUS 86
+gerçek sınır hattı üzerinde doğrudan bisektör-sapması ölçen bir alet
+yazıp paylaştı (`denetim/olc_sinir_sapma.py`, iki yönde sınanmış). Kendi
+kolumda koşturdum:
 
 ```
-Tell Abyad (YENİ)  ↔  Akçakale (VERİDE ZATEN VAR)        ~30 km
-Ras al-Ayn (YENİ)   ↔  Ceylanpınar (YENİ)                 ~3-4 km  ← EN İYİ ÇİFT
+py denetim/olc_sinir_sapma.py Turkey Syria,Iraq --kutu 35.0 36.0 45.0 38.5
+
+SAPMA DAĞILIMI (537 örnek, ~1004 km kara sınırı)
+  ortanca  8,0 km  ·  en kötü 67,7 km
+  ≤5 km: %38  ·  5-15 km arası: 154 örnek  ·  >15 km: 177 örnek
+  5 km'yi AŞAN kesim: ~592 km (%59 — Trakya'nın %59'undan ÇOK DAHA KÖTÜ)
 ```
-Kaynak: Wikipedia "Tell Abyad" ve "Ras al-Ayn" maddeleri (WebFetch ile
-doğrudan alıntı çekildi, koordinatlar dahil) — TDV bu taneciği (küçük
-demiryolu istasyonları) kapsamıyor, `§4` tanecik boşluğu meşru kullanıldı.
-Pre-1918 sahiplik zinciri bölgesel emsalden (Rakka, Nusaybin — komşu ve
-aynı idari/askeri tarih) alındı, ayrıca belirtildi.
+⚠️ **Etiket:** bu BUGÜNKÜ sınıra sapmadır (OPUS 86'nın uyardığı gibi).
+Hatay (1939), Musul (1926, aşağıda §③) ve Batum (1921) 1923'ten ayrılan
+kesimlerdir — o kesimlerin sapması AYRICA bir bulgudur, karıştırılmasın.
 
-Ras al-Ayn/Ceylanpınar çifti göreve TAM uyuyor: aynı şehrin 1921'de
-bölünmesiyle doğmuş, ~3-4 km ayrı — hedefin (10 km) bile altında.
-
-## ⑤ NEYİ YAPMADIM / SONRAKİ TURA
-
+### En kötü tek kesim — TAM benim bulduğum "boşluk", ama çaresi FARKLI
 ```
-Irak sınırı (Silopi↔Zaho DIŞINDA)   HİÇ ÇALIŞILMADI — Musul meselesi
-                                     1923'te henüz çözülmemişti (1926'ya
-                                     kadar), sınır o dönemde BELİRSİZDİ;
-                                     bu kendi başına ayrı bir araştırma
-                                     ister (hangi gün hangi çizgi geçerli).
-Suriye sınırının batı ucu            Meydan-ı Ekbez (Meidan Ekbis) — 1921
-(Çobanbey/Meydan Ekbez)             Antlaşması'nın BAŞLANGIÇ noktası,
-                                     araştırılmadı.
-7 var olan iyi çift                  sinir:true bayrağı eklenmedi (§7,
-                                     benim dosyam değil, yukarıda not).
+37,10K 41,62D → 36,71K 38,68D  (153 örnek, ~275 km)
+en kötü +67,7 km @ 36,86/40,08 — en yakın çift: Ceylanpınar ↔ Rakka
 ```
+Bu, sapmanın YARISINDAN FAZLASINI taşıyan tek kesim (Trakya'daki "§3.5.1
+tek kesim" deseninin BİREBİR aynısı). Doğal aday (Tell Abyad/Ras al-Ayn)
+①'de anlatıldığı gibi YAPISAL OLARAK KAPALI (ikiz şehir, 3 km kuralı).
+**Buraya İHTİYAÇ OLAN ŞEY, sınırdan biraz UZAK ama Rakka'dan (140 km)
+ÇOK DAHA YAKIN, GERÇEK ve 1923'te VAR OLAN bir Suriye yerleşimi** —
+ben bu turda BULAMADIM (aday olarak düşündüğüm el-Haseke 1928'de
+Fransızlar tarafından KURULMUŞ, 1923'te YOK — kontrol ettim, yazmadım).
 
-## ÖZET — istenen rapor biçiminde
+### Diğer kötü kesimler (Irak sınırı boyunca, hepsi Silopi/Çölemerik/
+Yüksekova çevresi) — küçük, dağınık, tek bir "kazanç" kesimi yok.
 
-**3 nokta yazıldı (Tell Abyad, Ras al-Ayn, Ceylanpınar) → 2 yeni çift
-oluştu, 7 var olan çift raporlandı (yeni kayıt değil). Kalan kesim: Irak
-sınırının tamamı (Musul sorunu nedeniyle 1923'te belirsiz) ve Suriye
-sınırının batı ucu (Meydan Ekbez) boş kaldı — sebebi zaman/kapsam, devam
-edilecek.**
+---
+
+## ③ 🔴🔴 KRİTİK HUKUKİ BULGU — 1923'te Türkiye-Irak sınırı YASAL OLARAK YOKTU
+
+`yerlesimler_ek25.js`'in kendi başlığında (11 Ağustos, koordinatör
+tarafından ZATEN tesbit edilmiş, ben yalnız yeniden buldum):
+> *"Lozan md. 3/2: Irak sınırı dokuz ay içinde İngiltere ile anlaşmaya,
+> olmazsa Milletler Cemiyeti'ne bırakıldı ⇒ 1923'te TÜRKİYE-IRAK SINIRI
+> YOK... (1926-06-05 Ankara Antlaşması'nı bekler.)"*
+⇒ Musul/Kerkük/Süleymaniye hattı 1923'te FİİLEN tartışmalıydı (Türk
+ordusu 1922'de bile bölgede iddialıydı). "1923 sınırı" diye bir çizgi
+ÇİZMEK, var olmayan bir kesinliği uydurmak olur — Kural①'in ("gerçek
+yerleşim, uydurma köy yok") RUHUNA aykırı, bu sefer yerleşim değil SINIR
+uydurmuş oluruz.
+**SORU KOORDİNATÖRE:** Irak "sınırı" için ne yapayım — (a) bugünkü
+sınırı 1923 için de kullan (basitleştirme, açıkça etiketlenir) ·
+(b) 1926 Ankara hattını kullan ve "1923'te belirsizdi" notu düş ·
+(c) bu kesimi TAMAMEN BOŞ bırak (en dürüst ama görevin "Irak sınırı"
+parçasını boş bırakır). Karar bekliyorum, tek taraflı seçmedim.
+
+---
+
+## ④ ÖZET — istenen rapor biçiminde
+
+**0 yeni nokta yazıldı (3'ü geri çekildi, ikisi mükerrer/reddedilmiş
+tasarım, biri ad çakışması riski taşıyordu). Gerçek ölçüm: sınırın %59'u
+(592/1004 km) 5 km hedefinin dışında, ortanca sapma 8 km. En büyük tek
+kazanç fırsatı (275 km'lik Ceylanpınar-Rakka kesimi) doğal adayları
+yapısal olarak kapalı çıktı — yeni bir Suriye yerleşimi ARANIYOR ama
+bulunamadı. Irak sınırının 1923'te YASAL OLARAK var olmadığı bulundu —
+karar koordinatörden bekleniyor.**
