@@ -240,3 +240,45 @@ taşımadığı için yer_yama ile PATCH edilecek bir madde değil — nokta
 partisi işi. Beşini de tek bir hükümle kapattım, ayrı ayrı "araştırma"
 yapmadım (zaten yapılmıştı).
 
+---
+
+## ⑫ GECE PARTİSİ 2. TUR — ORTADAKİ 11 madde (devir, M-1717)
+
+Beş oturum ölü çıkınca UYGULAMA-2'nin VERİ kovasının ortadaki 11 maddesi de
+bana geçti (UYGULAMA-2 hiç başlamamış, `git log -- data/yer_yama_gece_v2.js`
+boş). Aynı dosyaya (`data/yer_yama_gece_v1.js`) yazdım.
+
+```
+UYGULANMAYA ÇALIŞILDI, GERİ ÇEKİLDİ    1   0031/H-0007 (Mersin)
+ZATEN-DOĞRU                              2   0033/H-0016 · 0019 ailesiyle
+                                            aynı desen
+DEVREDİLDİ (yeni nokta)                  4   0033/H-0007·H-0008·H-0009·H-0014
+DEVREDİLDİ (büyük araştırma/başka görev) 3   0021/H-0028 · 0025/H-0009 ·
+                                            0033/H-0019
+DEVREDİLDİ (etiketleme/ARAYÜZ)           1   0034/H-0001
+                                        ──
+                                        11
+```
+
+### En öğretici an — Mersin'de KENDİ kaydımı geri çektim
+TDV+devletler.js'in kendi kronolojisinden (1352 kuruluş → 1517 Osmanlı
+tâbiliği → 1608 doğrudan eyalet) üç fazlı, dikkatle kaynaklı bir düzeltme
+yazdım. `_sahiplik_uygula.py` çakışma verdi: `data/yer_yama_p35.js`'te
+ZATEN bir kayıt vardı, o da aynı kusuru (Mersin'in `d:` 1352'den başlaması)
+düzeltiyordu ama DAHA BASİT bir modelle (ramazanoglu → 1516-08-24
+Mercidabık'ta doğrudan Osmanlı, tâbi ara-dönemi yok). Tarsus ve Adana'yı
+(aynı beylik, komşu kayıtlar) canlı veriden kontrol ettim: İKİSİ DE bu
+BASİT deseni kullanıyor. Benim üç-fazlı modelim tarihen daha nüanslı
+olabilirdi ama Mersin'i iki kardeşinden FARKLI bir desene sokup YENİ bir
+tutarsızlık üretecekti — üstelik 1608 sınırım Değişmez-2'yi 70 gün aşıyordu
+(en yakın çekirdek maddesi 'Oruç Ovası zaferi', 1607-10-23). Kardeş-kayıt
+tutarlılığını esas aldım, kendi kaydımı YAZMADAN geri çektim — Sivrihisar
+ve Bağdat'ta uyguladığım aynı ilke.
+
+### 0033/H-0016 — "sıra yanlış mı" sorusuna doğrudan ölçümle cevap
+Kullanıcı Erzurum/Aşkale/Palu/Siverek/Urfa'dan ÖNCE Bitlis/Diyarbakır/
+Silopi/Nusaybin'in fethedilip fethedilmediğini sormuştu. Canlı veriden
+sıra çıkarıldı: Silopi/Nusaybin (1515-01-01) → Bitlis (1515-09-15) →
+Palu/Siverek/Urfa (1516-05-01) → Erzurum (1518-01-01) — güneyden kuzeye,
+coğrafi ve tarihen tutarlı bir ilerleme. Enklav yok, hata yok.
+

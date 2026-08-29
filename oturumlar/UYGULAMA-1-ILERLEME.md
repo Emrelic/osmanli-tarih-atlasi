@@ -69,3 +69,20 @@ SIRADA/DEVİR            3   0019/H-0056(B) · H-0026 · 0013/H-0001
 Tam detay: `denetim/HUKUM-UYGULAMA-1.json` (parti-0006, parti-emrelic-0008,
 -0013, -0019 anahtarları) + `denetim/BULGU-UYGULAMA-1.md` §⑪.
 Koşu CANLI, `arac/`ye dokunmadım. Sıradaki adım: tahtayı dinliyorum.
+
+## GÜNCELLEME 4 — DEVİR: UYGULAMA-2'nin ortadaki 11 maddesi (M-1717)
+Beş oturum ölü çıktı (ORHANGAZİ ölçtü), UYGULAMA-2'nin VERİ kovası bana
+geçti. 11/11 işlendi, aynı dosyaya (`data/yer_yama_gece_v1.js`) yazdım.
+```
+GERİ ÇEKİLDİ            1   0031/H-0007 Mersin — yer_yama_p35.js'teki
+                            kardeş-kayıt (Tarsus/Adana) tutarlı versiyonu
+                            lehine kendi 3-fazlı kaydımı YAZMADAN sildim
+ZATEN-DOĞRU              1   0033/H-0016 (Erzurum/Bitlis sırası tutarlı)
+DEVREDİLDİ (nokta)       4   0033/H-0007·H-0008·H-0009·H-0014
+DEVREDİLDİ (büyük iş)    3   0021/H-0028 · 0025/H-0009 · 0033/H-0019
+DEVREDİLDİ (etiketleme)  1   0034/H-0001
+```
+Detay: `denetim/HUKUM-UYGULAMA-1.json` (parti-emrelic-0021/-0025/-0031/
+-0033/-0034) + `denetim/BULGU-UYGULAMA-1.md` §⑫.
+Toplam bu gece: 22/22 madde işlendi (2 UYGULANDI, 1 geri çekildi kardeş
+kayıt lehine, kalanı zaten-doğru/devir). Sıradaki adım: tahtayı dinliyorum.

@@ -18,6 +18,15 @@ window.YER_YAMA_GECE_V1 = [
  kaynak:"data/olaylar_ek13.js:237-335 (A-12…A-19, önceki bir oturumun TDV `bahreyn` gövdesinden çıkardığı tam kronoloji zinciri) — TDV metni doğrudan alıntılanmış: 1417 Cebrîler, 1521 Portekiz (\"Portekizliler, 1521'de Bahreyn'i ele geçirdiler\"), 1602 Safevî (\"1602'de İran'a bağlı kuvvetler tarafından\"), 1717 Umman istilâsı, 1753 Âl-i Mezkûr (Zend adına), 1783 Âl-i Halîfe (\"Utûb kabilesinden... hâkimiyetine girdi\"). `cebri`/`portekiz`/`safevi`/`umman`/`zend`/`bahreyn`/`ingiltere` — yedisi de data/devletler.js'te tanımlı, künye ömürleriyle çakışma yok (cebri 1417-1524 içinde 1417-1521 kullanıldı).",
  neden:"p0006/H-0001'in bıraktığı 'İran ÇEKİRDEĞİ'/Bahreyn zinciri kalemi — PAKET SIRADA (20 Ağustos) bu altı kırılmanın altısının da kronoloji maddesinin ZATEN yazılı olduğunu bulmuştu ('data/olaylar_ek13.js:270-330 — eksik olan tek şey data/yerlesimler.js:993 Manama kaydının s: dizisi, 1281→1861 arası boş'). Bugün ölçtüm: hâlâ boştu (yalnız 1861-05-31→1923-10-29 ingiltere vardı). Altı kırılma günü de (1417/1521/1602/1717/1753/1783) çekirdekte 0 gün farkla ZATEN maddeli — bu kayıt yalnız var olan kronolojiyi haritaya BAĞLIYOR, yeni madde gerektirmiyor.",
  not:"İKİ AÇIK NOKTA, BİLEREK UYGULANMADI: (1) 1281-01-01→1417-01-01 arası (136 yıl) DOKUNULMADI — TDV bu dönemde Bahreyn'in sırasıyla 'Uyûnîler, Salgurlular, Tabîler' idaresinde kaldığını yazıyor ama HİÇBİRİNE tarih vermiyor; devletler.js'te bu üç kimlik için künye yok. Sahipsiz kalıyor, ayrı bir araştırma gerektirir. (2) 1559 Osmanlı seferi (data/olaylar_ek13.js A-14) BİLEREK ATLANDI: TDV metni ('tekrar Portekizliler'in idaresine geçen') bir kısa süreli Osmanlı `d:` dönemini işaret ediyor, batı literatürü ise seferin BAŞARISIZ olduğunu (kuşatma kırıldı, veba, teslim şartları) yazıyor — önceki oturum bu çelişkiyi ÇÖZMEDEN bıraktı ('SEÇİM YAPILMADI — brifing gereği'). Ben de TEK TARAFLI seçim yapmadım: batı okumasını (d: yok) esas aldım çünkü TDV okumasının GEREKTİRDİĞİ ikinci bir tarih (Portekiz'in NE ZAMAN geri döndüğü) hiçbir kaynakta yok — uydurmadan uygulanamaz. Koordinatör TDV okumasını tercih ederse (kısa bir d:1559 dönemi, dönüş günü YYYY-01-01 yaklaşıklığıyla) bunu ayrıca değerlendirebilir."
-}
+},
+
+// 🔴 Mersin BURADAN ÇIKARILDI (30 Ağustos) — data/yer_yama_p35.js'te ZATEN
+// bir kayıt var ve o daha tutarlı: Tarsus/Adana (aynı beylik, komşu kayıtlar)
+// s:ramazanoglu'yu 1516-08-24'e (Mercidabık) kadar taşıyıp doğrudan oradan
+// d:(OSMANLI)'ya geçiyor — 1517 tâbi/1608 eyalet ayrımı YOK. Benim üç-fazlı
+// modelim (devletler.js'in kendi kronolojisinden) tarihen daha nüanslıydı
+// ama Mersin'i kardeşlerinden (Tarsus/Adana) FARKLI bir desene sokup yeni
+// bir tutarsızlık üretirdi — üstelik 1608 sınırı Değişmez-2'yi 70 gün
+// aşıyordu. Kardeş kayıtlarla tutarlılık kazandı; kayıt yazmadım.
 
 ];

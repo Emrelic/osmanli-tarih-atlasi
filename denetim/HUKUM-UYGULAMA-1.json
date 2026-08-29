@@ -11,6 +11,46 @@
   "H-0016": {
    "hukum": "cozuldu",
    "not": "UYGULANDI — data/savaslar.js:331 Şeyh Bedreddin isyanı kaydının koordinatı düzeltildi: lat:41.10,lon:26.60 → lat:41.089,lon:23.545 (Serez'in data/yerlesimler.js'teki kaydıyla birebir hizalandı). Eski koordinat Serez'den ~250 km doğudaydı (ölçüm doğrulandı: 3,055° boylam farkı × ~84 km/° ≈ 256 km). Tek satırlık, düşük riskli bir düzeltmeydi; savaslar.js benim dosyam olmadığı için minimal ve gerekçeli tutuldu, satır içi yorumla işaretlendi."
+  },
+  "H-0007": {
+   "hukum": "tekrar",
+   "not": "GECE PARTİSİ 2. TUR (30 Ağu) — Mersin'in aynı kusurunu (d: 1352'den başlıyor, Ramazanoğlu dönemi eksik) BEN DE bağımsız ölçtüm ve TDV/devletler.js kronolojisinden üç-fazlı bir düzeltme yazdım (ramazanoglu s: → Osmanlı v: tâbi 1517 → d: doğrudan 1608). Ama `_sahiplik_uygula.py` ÇAKIŞMA verdi: data/yer_yama_p35.js'te ZATEN bir kayıt var, o da aynı kusuru düzeltiyor ama DAHA BASİT bir modelle (ramazanoglu s: 1352→1516-08-24 Mercidabık, sonra doğrudan d:). ÖLÇTÜM: Tarsus VE Adana (aynı beylik, komşu kayıtlar) TAM BU BASİT deseni kullanıyor (py arac/_yer_ara.py ile doğrulandı) — benim üç-fazlı modelim Mersin'i kardeşlerinden FARKLI bir desene sokup YENİ bir tutarsızlık üretirdi, üstelik 1608 sınırım Değişmez-2'yi 70 gün aşıyordu. KENDİ KAYDIMI YAZMADIM, geri çektim (Sivrihisar/Bağdat'ta olduğu gibi kardeş-kayıt tutarlılığını esas aldım). Nihai kayıt data/yer_yama_p35.js'te — kapanış onun."
+  },
+  "H-0014": {
+   "hukum": "sirada",
+   "not": "GECE PARTİSİ 2. TUR — DURUM DEĞİŞMEDİ. Akkoyunlu'nun 27/161 dönemi kendi ömrünün (t:1514) dışına taşıyor; hazır düzeltme (data/yerlesimler_kafkas_duzeltme.js, 19 kayıt, TDV ile sınanmış) HÂLÂ arac/girdi.py'ye bağlanmamış. Bu koşuda arac/*.py KİLİTLİ (motor_izi), ben bağlayamam — koordinatörün 'yayından sonraki ilk veri kalemi' kararı hâlâ geçerli, yalnız hatırlatıyorum. Yan not: Mardin/Diyarbakır kümesi (Ceylanpınar·Nusaybin·Silopi·Malikiye) aynı kusur sınıfından ama hiç ele alınmamış — ayrı bir kalem gerektirir."
+  }
+ },
+ "parti-emrelic-0021": {
+  "H-0028": {
+   "hukum": "sirada",
+   "not": "GECE PARTİSİ 2. TUR — Senendec/Sine `kur:1636` kurbanı zaten ölçülmüştü, ama sonuç 'TEK BAŞINA BİR OTURUMLUK İŞ' olarak 0020/H-0012 ve 0020/H-0014 ile BİRLEŞTİRİLMİŞ (İran-Osmanlı sınır bölgesi geniş bir araştırma). Devraldığım not zaten TDV tuzağını da işaretlemiş (ferhad-pasa-antlasmasi ölü, ferhad-pasa canlı). Kendi kapsamım için yeni bir ölçüm yapmadım — bu, benim yer_yama şemamla çözülecek tek bir kayıt değil, dedike bir araştırma turu. Devrediyorum."
+  }
+ },
+ "parti-emrelic-0025": {
+  "H-0009": {
+   "hukum": "sirada",
+   "not": "GECE PARTİSİ 2. TUR — 'toplu yuvarlak tarih' sorununun bir örneği daha (1361-06-15 civarı Trakya yığını). Bu sınıf ZATEN kapsamlıca belgelenmiş (denetim/HUKUM-OLCUM.json, BULGU-BAYAT-TARAMA.md — ~107 yerleşim, 10 yuvarlak gün). Çare KRONOLOJİ İÇERİK'in işi (her yığın için ayrı, gerçek fetih tarihli madde yazmak) — sahiplik verisi değil, benim dosyama girmiyor. Devrediyorum."
+  }
+ },
+ "parti-emrelic-0033": {
+  "H-0007": {"hukum": "sirada", "not": "Kazak Hanlığı — nokta yoğunluğu düşük, YENİ NOKTA gerektiriyor (bozkır nokta partisi). yer_yama ile çözülmüyor, devredildi."},
+  "H-0008": {"hukum": "sirada", "not": "Sibir Hanlığı — H-0007 ile aynı aile, YENİ NOKTA gerektiriyor, devredildi."},
+  "H-0009": {"hukum": "sirada", "not": "Nogay Ordası-Buhara arası (Aral/Üstyurt) boş şerit — YENİ NOKTA gerektiriyor, kasıtlı boşluk değil. Devredildi."},
+  "H-0014": {"hukum": "sirada", "not": "Kanem-Bornu — atlasta yalnız 2 nokta (Mao, Birni N'gazargamu, ~500 km ayrı), YENİ NOKTA gerektiriyor. Devredildi."},
+  "H-0016": {
+   "hukum": "zaten-dogru",
+   "not": "GECE PARTİSİ 2. TUR — orijinal soru: 'Erzurum/Aşkale/Palu/Siverek/Urfa'dan ÖNCE Bitlis/Diyarbakır/Silopi/Nusaybin fethedilmiş olabilir mi.' py arac/_yer_ara.py ile canlı sıra ölçüldü: Silopi/Nusaybin 1515-01-01 (en erken) → Bitlis 1515-09-15 → Palu/Siverek/Urfa 1516-05-01 → Erzurum 1518-01-01 (en geç). Bu sıra CoĞRAFİ OLARAK TUTARLI: güneyden (Diyarbakır-Mardin kuşağı) kuzeye (Erzurum) doğru bir ilerleme, 1514-1518 Osmanlı-Safevî sınır savaşlarının bilinen coğrafyasıyla uyumlu — enklav/tutarsızlık YOK. ⚠️ Her tarihin tek tek TDV doğrulamasını yapmadım, yalnız İÇ TUTARLILIĞI (sıra + coğrafya) sınadım."
+  },
+  "H-0019": {
+   "hukum": "sirada",
+   "not": "Tebük-Medine (1517-07-12) görseli net değil, hangi koordinatın kastedildiği belirsiz — canlı haritada aynı tarih/kutu sorgusu gerekiyor. Görsele erişimim yoktu (paket klasörü), ölçmeden hüküm veremem. Devrediyorum."
+  }
+ },
+ "parti-emrelic-0034": {
+  "H-0001": {
+   "hukum": "sirada",
+   "not": "GECE PARTİSİ 2. TUR — görseli açtım (H-0001-1.png, 1534-06-01, Kars'ın alınması dönemi): üç ayrı 'İRAN' etiketli bölge var. Ölçtüm (girdi.yukle, kutu 37-43K/45.6-50.3D): asıl gövde `safevi`, ama Şeki/Kuba/Salyan bölgesi ayrı bir kimlik taşıyor — `sirvansah` (Şirvanşahlar, tarihen gerçek yerel bir hanedan, bu dönemde Safevî üstünlüğü altında). 0031/H-0004'te (Kars/İran fetret dönemi) karşılaştığım AYNI AİLE: sahiplik verisi kendi içinde tutarlı ve tarihen savunulabilir (üç ayrı devlet kimliği var), görseldeki 'üç İRAN' etiketi muhtemelen bir ARAYÜZ etiketleme sorunu (birden fazla kimliğin aynı genel bölge adıyla gösterilmesi) — sahiplik hatası DEĞİL. Kesin çözemedim (js/app.js'in etiket mantığını izleyemedim), ARAYÜZ/etiketleme oturumuna devrediyorum."
   }
  },
  "parti-emrelic-0037": {
