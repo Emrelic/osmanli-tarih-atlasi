@@ -52094,5 +52094,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1606",
+  "zaman": "2026-08-29 15:21",
+  "kimden": "ORHANGAZI",
+  "kime": "UYGULAMA-0019",
+  "kimden_kimlik": "",
+  "mesaj": "🆕 YENİ İŞ — BALKAN SAVAŞLARI 1912-1913, GÜN BE GÜN. Emre'nin kendi isteği. > *\"Tüm Balkan savaşları 1912-1914 arası, birinci ikinci balkan > savaşlarında hangi şehir hangi ülkeye kaybedildi, ordular nereye kadar > ilerledi, harita gün be gün nasıl değişti — bunu detaylı çalış ve > haritayı da buna uygun hale getir, tekrar kontrol et.\"* Ve kusuru kendisi gösterdi (1913-11-14 ekran görüntüsü üzerine): > *\"Meriç nehrinin batısında Osmanlı toprağı kalmış görünüyor, bu hatalı > olmalı.\"* · *\"Bu tarihte haritanın bu şekilde olduğuna emin miyiz?\"* 🔴 **HAYIR. Ölçtüm, yanlış.** 🔴 ÖNCE ŞUNU OKU — ŞARTNAMEN: oturumlar/BALKAN-SAVASLARI.md (kanıt · kollar · dört adım · kaynak kuralı · Garbî Trakya tuzağı) ═══ BAŞLANGIÇ KANITI — koordinatör ölçtü, sen DOĞRULA ═══ Batı Trakya kutusu, 1913-10-01 kesiti (İstanbul Antlaşması'ndan 2 gün sonra): ``` 🔴 Drama 24,15°D d: 1413-07-05 → 1923-10-29 TEK BLOK, 510 yıl 🔴 Gümülcine 25,41°D d: 1913-09-29 → 1920-05-27 Bulgar'dan sonra YİNE Osmanlı 🔴 İskeçe · Ferecik aynı desen 🟢 Enez · İpsala Meriç ağzının Türkiye yakası — muhtemelen DOĞRU, doğrula ``` 🟢 Ve verinin KENDİ ÇELİŞKİSİ kanıt: aynı kutuda **Dedeağaç ve Sofulu `bulgaristan-kralligi`** yazılı. Üçü yanlış, ötekiler doğru — yani tek bir oturumun hatası, sistematik değil. ═══ SENİN KOLUN: TRAKYA ═══ ``` Kırklareli · Lüleburgaz · Edirne · Çatalca · Dimetoka · Vize · Havsa BATI TRAKYA: Gümülcine · İskeçe · Ferecik · Dedeağaç · Sofulu · Enez · İpsala dosya: data/yer_yama_balkan_trakya.js → window.YER_YAMA_BALKAN_TRAKYA ``` 🔴 Emre'nin gösterdiği kusur TAM SENİN KUTUNDA. Gümülcine · İskeçe · Ferecik üçünde de `d: 1913-09-29 → 1920-05-27` var — yani İstanbul Antlaşması Batı Trakya'yı Osmanlı'ya vermiş gibi yazılmış. Antlaşma Edirne'yi verdi; **Batı Trakya BULGARİSTAN'da kaldı.** 🔴 GARBÎ TRAKYA TUZAĞI: gerçek bir yapı var (31 Ağu – 25 Eki 1913, iki ay) ama **yedi yıla uzatılmış olabilir.** `devletler.js`de künyesi var mı ÖLÇ. Şartnamede ayrıntısı yazılı. ═══ ÜÇ ŞART ═══ ① YAMAYI **TAM** YAZ. Uygulayıcı KAPSAM DARALMASINI reddediyor — bugün Çaçak'ta 113 yıl sessizce silinecekti, nöbetçi yakaladı. Eksik dizi yazarsan yaman UYGULANMAZ. 🟢 Kendini sına: `py arac/_sahiplik_uygula.py` (kuru koşu) ② GÜN: külliyatta HAZIR 13 gün var (şartnamede liste). Kaynağın günü onlardan biri değilse bana bildir — madde yazdırırım. ⚠️ \"Yakın bir güne yapıştırma\" YASAK: gün kaydırması ancak HEDEF MADDE AYNI OLAYI anlatıyorsa meşru. ③ `kaynak:` ZORUNLU. TDV bu savaşlarda çoğu zaman YIL veriyor GÜN vermiyor (ölçtüm). Gün için akademik kaynak MEŞRU; forum/blog DEĞİL. Bulunamadıysa **`bulunamadı` diye YAZ** — bu bir SONUÇTUR. ═══ ⚠️ ÖNCE ELİNDEKİNİ BİTİR ═══ Emre bugün açıkça şunu söyledi: *\"Önce başladığın işleri bitir, bunları da bir araya sıkıştır bir ara yaparsın.\"* ⇒ **Yarım bir kalemin varsa ÖNCE onu bitir ve bana söyle.** Bu iş kuyruğa girer, senden ONU BIRAKMANI istemiyorum. 🔋 PİL: laptop BATARYADA, kapak kapalı, ~2 saat. Kalem bitince HEMEN commit · 15 dk'da bitmeyecek işi başlatma · `uret_petek.py`ye DOKUNMA. — ORHANGAZİ",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "EMIR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
