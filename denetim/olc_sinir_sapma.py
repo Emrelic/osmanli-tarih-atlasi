@@ -78,6 +78,35 @@ def main(argv):
     else:
         kutu = None
 
+    # 🔴🔴 UYARI EN BASTA — 30 Agustos 2026'da olculdu ve GEREKTI.
+    # Bu uyari once ciktinin SONUNDAYDI. UYGULAMA-1 sonuc tablosunu okuyup
+    # Payas-Antakya kesimine (-29,4 km) nokta eklemek uzereydi; oysa o
+    # sapmanin TAMAMI Hatay artefaktiydi (veri 1923'te Hatay'i dogru
+    # sekilde FRANSIZ mandasi gosteriyor, alet BUGUNKU sinira olcuyor).
+    # Nokta eklenseydi sapma kapanacak, DOGRU VERI BOZULACAKTI.
+    # 📌 §11: "gec oten alarm, otmeyen alarmdan yalniz biraz iyidir."
+    print(u"=" * 68)
+    print(u"🔴 BU ALET **BUGUNKU** SINIRA OLCER — 1923 sinirina DEGIL.")
+    print(u"   Ikisinin AYRILDIGI kesimde cikan sapma KUSUR DEGIL ARTEFAKTTIR")
+    print(u"   ve oraya nokta eklemek olcumu duzeltip TARIHI BOZAR.")
+    print(u"")
+    print(u"   ⓪ ONCE SOR: bu kesimde bugunku sinir = 1923 siniri mi?")
+    print(u"      HAYIR -> nokta EKLENMEZ, 'olculemez' diye KAYDEDILIR")
+    print(u"      EVET  -> ancak o zaman isaret kurali isler:")
+    print(u"               sapma > 0 (OSMANLI FAZLA) -> YABANCI yakaya nokta")
+    print(u"               sapma < 0 (OSMANLI EKSIK) -> OSMANLI yakasina nokta")
+    print(u"")
+    print(u"   BILINEN AYRISMA BOLGELERI (olculdu ya da bildirildi):")
+    print(u"      Hatay   1939'da Turkiye'ye  -> Payas-Antakya TAMAMEN artefakt")
+    print(u"      Musul   1926'ya kadar tartismali")
+    print(u"      Batum   1921'de Gurcistan'a")
+    print(u"")
+    print(u"   ⚠️ VE SEZGI TERSINE CALISIR: sinir degisikligi ~30 km oynatir,")
+    print(u"      nokta seyrekligi ~10 km. Yani 'en kotu kesimden basla'")
+    print(u"      seni DOGRUDAN artefaktlara goturur.")
+    print(u"=" * 68)
+    print(u"")
+
     Y = girdi.yukle(sessiz=True)
     ic = [y for y in Y if sahip(y, gun) in ("OSMANLI", "tabi")]
     dis = [y for y in Y if sahip(y, gun) not in (None, "OSMANLI", "tabi")]
