@@ -126,6 +126,25 @@ MUAF_AD_ALANI = {
         "CANLI ve bekleyen işi tehdit ediyor.",
 }
 
+# ── ⑥ HİÇBİR KAPININ OKUMADIĞI `yerlesimler*.js` ───────────────────────
+# 🔴 KAPSAM BOŞLUĞU, 30 Ağustos 2026'da ölçüldü: ② yalnız "index'te VAR,
+# motorda YOK"a bakıyordu. Ama bir dosya İKİSİNDE DE olmayabilir — ve adı
+# `yerlesimler` ile başlıyorsa bu en tehlikeli hâldir, çünkü ad CANLI VERİ
+# VAADİ taşır: dosyayı gören *"bu bağlı"* sanır.
+# Gerçekleşen vaka: `yerlesimler_kafkas_duzeltme.js` — 19 kayıtlık bir YAMA,
+# adı `yerlesimler_` diye başladığı için AYLARCA "bağlı" sanıldı, ve 19
+# kaydın 19'u da hiç inmedi (M-1388 · koordinatör 30 Ağu'da doğruladı).
+# 📌 `§7`in *"ayrı dosya vermek, ayrı ad alanı vermek değildir"* dersinin
+# ÜÇÜNCÜ yüzü: burada ad ne çakışıyor ne eksik — **YANILTIYOR.**
+#
+# ⚠️ BU DAL YAYINI DURDURMAZ ve sebebi ölçülmüş: `denetle_yayin.py` yetim
+# dosyaları ZATEN sayıyor ve ihlal veriyor. İkinci bir veto koymak aynı
+# kusuru iki kez cezalandırmak olur — bu aletin katkısı VETO değil TASNİF:
+# *"bu yetim bir sözlük mü, yoksa canlı veri VAAT EDEN bir dosya mı?"*
+MUAF_YERLESIM_YETIMI = {
+    # "ornek.js": "NİÇİN hiçbir kapının okumaması doğru — ölçümüyle",
+}
+
 MUAF_TARAYICI_VAR_MOTOR_YOK = {
     # `yerlesimler.js` çekirdek dosyadır ve `window.YERLESIMLER`i (öneksiz)
     # tanımlar; birleştirmenin TOHUMUDUR, öneki olmadığı için ③'e takılmasın.
@@ -294,6 +313,35 @@ def denetle(ayrinti=False):
             print(f"     🟡 window.{k}  MUAF — {g}")
     ihlal += len(c_ihlal)
 
+    # ── ⑥ HİÇBİR KAPININ OKUMADIĞI `yerlesimler*.js` ───────────────────
+    yetim = []
+    for yol in sorted(glob.glob(os.path.join(KOK, "data", "yerlesimler*.js"))):
+        d = os.path.basename(yol)
+        if d in m_kume or d in MUAF_YERLESIM_YETIMI:
+            continue
+        ham = open(yol, encoding="utf-8").read()
+        yetim.append((d, len(re.findall(r'(?<![A-Za-z_])ad\s*:', ham)),
+                      dosya_degiskeni(yol)))
+    print(f"\n⑥ ADI YANILTAN DOSYA         {'⚠️' if yetim else '✓'}  "
+          f"{len(yetim)} uyarı · {len(MUAF_YERLESIM_YETIMI)} muaf")
+    if yetim:
+        print(f"     bu dal 'yetim mi' DEMİYOR — onu `denetle_yayin.py` zaten "
+              f"sayıyor ve kendi BEKLEYEN sözlüğü var.")
+        print(f"     bu dalın sorduğu: **AD YALAN SÖYLÜYOR MU?** "
+              f"`yerlesimler*.js` adı, projede 'motorun okuduğu yerleşim "
+              f"girdisi' demektir.")
+    for d, n, dg in yetim:
+        print(f"     ⚠️ {d}  ~{n} kayıt → window.{dg}")
+        print(f"        `girdi.py` bu dosyayı OKUMUYOR — yani ad, taşımadığı "
+              f"bir şeyi vaat ediyor. Vaka: `yerlesimler_kafkas_duzeltme.js` "
+              f"bir YAMA'ydı, adı yüzünden AYLARCA 'bağlı' sanıldı, 19 kaydın "
+              f"19'u da inmedi.")
+        print(f"        ⇒ çare KAYIT DEĞİL AD: yama ise `yama_`/`yer_yama_` "
+              f"diye yeniden adlandır; gerçekten girdiyse `girdi.py`ye bağla.")
+    if ayrinti:
+        for d, g in MUAF_YERLESIM_YETIMI.items():
+            print(f"     🟡 {d}  MUAF — {g}")
+
     print()
     if ihlal:
         print(f"SONUÇ: {ihlal} İHLAL — çıkış kodu 1")
@@ -305,8 +353,12 @@ def denetle(ayrinti=False):
         # *"bakılacak bir şey yok"* diye okunur ve uyarı sessizce ölür —
         # `CLAUDE.md §11`: *"'ölçülemedi' asla 'temiz' diye raporlanmaz"*ın
         # kardeşi: **yayını durdurmayan bir bulgu da GİZLENMEZ.**
-        ek = (f" · {len(c_uyari)} UYARI duruyor (yayını durdurmuyor, "
-              f"yukarıda)" if c_uyari else "")
+        # ⚠️ ⑤ VE ⑥'nın uyarıları BİRLİKTE sayılır. Yalnız ⑤ sayılsaydı
+        # özet satırı ⑥'yı yutardı — ve bu alet tam da o kusuru (bir bulgunun
+        # toplu bir satırda görünmez olması) ölçmek için yazıldı.
+        n_uyari = len(c_uyari) + len(yetim)
+        ek = (f" · {n_uyari} UYARI duruyor (yayını durdurmuyor, yukarıda)"
+              if n_uyari else "")
         print(f"SONUÇ: TEMİZ — iki kapı da aynı dosyaları tanıyor{ek}")
     return ihlal
 
