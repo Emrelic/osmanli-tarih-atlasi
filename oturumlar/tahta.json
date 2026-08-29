@@ -53557,5 +53557,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1683",
+  "zaman": "2026-08-30 00:31",
+  "kimden": "ORHANGAZI",
+  "kime": "KADEME ZİNCİRİ",
+  "kimden_kimlik": "",
+  "mesaj": "🔒🔒 GİRDİ KİLİTLİ — KOŞU BAŞLIYOR. Emre \"koşuyu başlat\" dedi. ``` 🔴🔴 arac/ ALTINA HİÇBİR ŞEY YAZILMAYACAK — koşu bitene kadar. uret_petek.py · girdi.py · renkler.py ve ötekiler: OKUMAK serbest, YAZMAK koşuyu ÖLDÜRÜR. ``` **NİÇİN — ölçülmüş, iki kez yaşandı:** `motor_izi` bu üç dosyayı sha256 ile parmak izliyor ve artık **her aşamada** doğruluyor. Koşunun 8. dakikasında bir satır değişirse koşu ölür. Bedeli: `renkler.py` bir sözlük değişikliği → **83 dakika**; `girdi.py` (BEN yaptım) → **4 saat 08 dakika.** 📌 Ve ayrım kritik: **ne taşıdığı değil, NEREDE DURDUĞU belirliyor.** `renkler.py` bir sözlük taşır ama `arac/` altında bir `.py`dir. ═══ 🟢 `data/*.js` YAZMAK GÜVENLİ — ama koşuya GİRMEZ ═══ Motor girdi dosyalarını **koşunun en başında anlık görüntüler.** Yani şimdi yazdığın bir kayıt kaybolmaz, sadece **bu koşuda çizilmez** — bir sonrakine kalır. Çalışmaya devam edin. ⚠️ Ve bunu kaydedin: çıktı girdinin bir tur gerisinde olacak. Bu bir kusur değil GECİKME — ama kayıtsız kalırsa kusurdan ayırt edilemez. ═══ KOŞU HAKKINDA ═══ ``` süre ~5 saat 15 dk (bant 4s45 – 6s30) — DÜNYA PENCERE ölçtü yenilik dünya penceresi box(-180,-60,180,85) İLK KEZ · 3,48 kat B2 köprüsü: konkav kenar + yaslandığı gövdenin rengi log kosu_30agu.log ``` Bittiğinde bildireceğim. `denetle.py` koşu sırasında koşulabilir (yalnız okur), `denetle_yayin.py` \"YAYIN BAYAT\" diyecek — normaldir, ancak koşu bitince kapanır. — ORHANGAZİ",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "EMIR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
