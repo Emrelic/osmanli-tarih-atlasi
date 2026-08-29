@@ -11,7 +11,20 @@ Her kalem bitince: **denetim koş · commit · burada işaretle.**
 
 ---
 
-## ⏳ 1. DÜNYA PENCERESİ — YARIM, denetim ŞU AN KIRMIZI
+## ✅ 1. DÜNYA PENCERESİ — **BİTTİ** (29 Ağu · denetim TEMİZ · çıkış kodu 0)
+
+```
+BOLGE = box(-180, -60, 180, 85)        3,48 kat
+17 nokta düzeltildi (40,45 km → 0,10 km)
+Bâdis: iki kez aracın önerisi tutmadı; tam maskeyle sondalandı,
+       35.1721,-4.3009 → 35.1727,-4.3007 (67 m). ✓
+denetle.py: SONUÇ temiz · konum 0 · Değişmez 7 ✓ 488
+```
+📌 Ve iki kusur yol boyunca çıktı: ayrıştırıcım iki satırı sessizce
+kaçırdı (sayı tutuyor mu kilidi eklendi), ilk sondam maskeyi YEREL
+sadeleştirip yanlış cevap verdi (evren dardı).
+
+<details><summary>eski hâli</summary>
 
 `BOLGE = box(-180,-60,180,85)` yazıldı (3,48 kat), ama **179 noktanın
 "pencere dışı" muafiyeti kalkınca 18'i kara maskesi dışında çıktı.**
@@ -25,14 +38,19 @@ Denetim önerileri hazır ve **sınanmış** (`⚠️ bu öneri sınandı ve GE�
 damgası taşımayanlar güvenli). 17'si ≤5 km kıyı düzeltmesi, biri
 (Bâdis) kendi testini geçmiyor.
 
-- [ ] 17 noktayı öneriyle düzelt
-- [ ] Bâdis'i ayrı ele al (öneri sınandı ve GEÇMEDİ)
-- [ ] `denetle.py` yeşil, çıkış kodu 0
-- [ ] commit
+- [x] 17 noktayı öneriyle düzelt
+- [x] Bâdis'i ayrı ele al (öneri sınandı ve GEÇMEDİ)
+- [x] `denetle.py` yeşil, çıkış kodu 0
+- [x] commit — `0f688ec` + bu
+</details>
 
 ---
 
-## 🔵 2. MERİÇ'İN BATISI — ölçüldü, DÜZELTİLMEDİ
+## ⏳ 2. MERİÇ'İN BATISI — ölçüldü, **KALEM 3'E DEVREDİLDİ**
+
+Ölçüm aşağıda duruyor ve BALKAN TRAKYA kolunun şartnamesine **başlangıç
+kanıtı** olarak kondu — aynı kutu, aynı üç şehir. Ayrı iş olarak
+tutmuyorum ki iki yerden birden yazılmasın.
 
 > Emre: *"Balkan savaşlarından sonra Meriç nehrinin batısında Osmanlı
 > toprağı kalmış görünüyor, bu hatalı olmalı. Teyid et düzelt."*
@@ -83,12 +101,14 @@ doğru, üçü yanlış — tek bir oturumun hatası.
 Kalem 2 bunun **küçük bir parçası**; bu iş bütün Rumeli'yi kapsıyor.
 Oturumlara bölünecek (dosya bazlı):
 
-- [ ] şartname yaz · oturumlara sevk et
-- [ ] Makedonya kolu (Selanik · Manastır · Üsküp · Kumanova)
-- [ ] Trakya kolu (Kırklareli · Lüleburgaz · Edirne · Çatalca)
-- [ ] Arnavutluk-Epir kolu (Yanya · İşkodra · Draç)
-- [ ] Ege adaları (Limni · Midilli · Sakız · Rodos)
-- [ ] uygulama + denetim + **Emre'ye tekrar kontrol**
+- [x] şartname yaz — `oturumlar/BALKAN-SAVASLARI.md`
+- [x] üç kola sevk et (3/3 adresli, 29 Ağu)
+- [⏳] **TRAKYA** → UYGULAMA-0019 · Meriç kusuru BU KUTUDA
+- [⏳] **MAKEDONYA** → ALTI BARDAK · Drama'nın 510 yıllık tek bloğu burada
+- [⏳] **BATI** (Arnavutluk-Epir-Sancak) → YAMA KURTARMA
+- [ ] Ege adaları (Limni · Midilli · Sakız · Rodos) — henüz sevk EDİLMEDİ
+- [ ] yamaları uygula (`_sahiplik_uygula.py`) + denetim
+- [ ] **Emre'ye tekrar kontrol** — kendisi *"tekrar kontrol et"* dedi
 
 ---
 

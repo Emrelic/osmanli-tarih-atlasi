@@ -110,15 +110,24 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   // ⚠️ Konum 11 METRE taşındı — kayalık, Natural Earth maskesinin sınırına
   // teğet geçiyordu. Bu, `konum` denetiminin neden örneklemeyle değil tam
   // taramayla koşturulması gerektiğinin ölçüsü: 11 m'lik sapma da ihlaldir.
-  // 🔴 lat 35.1721 → 35.1725 (40 m kuzey), 29 Ağustos 2026. Dünya penceresi
-  // açılınca bu nokta kara maskesinin 0,06 km dışında çıktı. `denetle.py`nin
-  // kendi önerisi (-4.3006) KENDİ TESTİNİ GEÇMEDİ ve öyle damgalandı —
-  // damga doğruydu: o boylam simplify edilmiş maskede bir boşluğa düşüyor.
-  // Çevre 4 ondalık ızgarada tarandı (5146 geçerli nokta bulundu); en yakın
-  // GEÇERLİ olan bu. Boylam DEĞİŞMEDİ. Peñón de Vélez minik bir kayalık ve
-  // `KARA_TOL=0.002` sadeleştirmesi kıyısını törpülüyor — kusur veride değil,
-  // maskenin çözünürlüğünde.
-  { ad:"Bâdis (Peñón de Vélez)", tur:"kale", lat:35.1725, lon:-4.3009, g:0, k:4, m:null,
+  // 🔴 35.1721,-4.3009 → 35.1727,-4.3007 (67 m), 29 Ağustos 2026.
+  // Dünya penceresi açılınca "pencere dışı" muafiyeti kalktı ve bu nokta
+  // kara maskesinin 0,06 km dışında çıktı. Peñón de Vélez minik bir
+  // kayalık; `KARA_TOL=0.002` (~200 m) sadeleştirmesi kıyısını törpülüyor.
+  //
+  // ⚠️ `denetle.py`nin önerisi İKİ KEZ kendi testini GEÇMEDİ ve iki kez
+  //   öyle damgalandı — damga HER İKİSİNDE DE haklıydı: önerdiği boylam
+  //   sadeleştirilmiş maskede bir boşluğa düşüyor. Öneri yakınsıyordu
+  //   (0,06 → 0,03 km) ama hiç tutmuyordu; körlemesine iterlemek sonsuz
+  //   bir döngüydü.
+  //
+  // 🔴 VE İLK SONDAM DA YANILDI: maskeyi YEREL alt kümede kurup
+  //   sadeleştirdim, "tutuyor" dedi, denetim "tutmuyor" dedi. Sebep:
+  //   `simplify` BİRLEŞİMİN TAMAMINA uygulanınca başka sonuç veriyor.
+  //   ⇒ Ölçüm doğru, EVREN DAR. İkinci sonda `denetle.py`nin maskesini
+  //     BİREBİR kurdu (aynı BOLGE · aynı KARA_TOL · göller çıkarılmış) ve
+  //     ±1,3 km'de 19.435 geçerli nokta buldu; bu, en yakın olanı.
+  { ad:"Bâdis (Peñón de Vélez)", tur:"kale", lat:35.1727, lon:-4.3007, g:0, k:4, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1564-01-01",d:"sadi"},
        {f:"1564-01-01",t:"1923-10-29",d:"ispanya",enklav:true}], d:[], v:[] },
 
