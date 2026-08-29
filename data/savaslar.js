@@ -328,7 +328,7 @@ window.SAVASLAR = [
 // Not: bu bölümdeki isyanların çoğu devlet-i aliyye içi hareketlerdir; devletler.js'te
 // karşılığı olan bir "taraf devlet" yok, o yüzden taraf alanı yalnız Sırp/Rum isyanlarında
 // var (bu ikisi doğrudan bir devletler.js kaydının kuruluş anına denk geliyor).
-{ t:"1416-05-01", tur:"isyan", ad:"Şeyh Bedreddin isyanı",  taraf_metin:"iç isyan", sonuc:"zafer", seri:"ic",  lat:41.10, lon:26.60, sure:400, taraf:["osmanli"] },
+{ t:"1416-05-01", tur:"isyan", ad:"Şeyh Bedreddin isyanı",  taraf_metin:"iç isyan", sonuc:"zafer", seri:"ic",  lat:41.089, lon:23.545, sure:400, taraf:["osmanli"] }, // DÜZELTİLDİ (UYGULAMA-1, p0031/H-0016): eski lon:26.60 Serez'den (isyanın kronoloji konumu) ~250 km doğudaydı, "Meriç civarı" değil. Yeni koordinat data/yerlesimler.js Serez kaydıyla (41.089/23.545) birebir hizalandı.
 { t:"1416-05-01", tur:"isyan", ad:"Börklüce Mustafa",       taraf_metin:"iç isyan", sonuc:"zafer", seri:"ic",  lat:37.86, lon:27.26, sure:400, taraf:["osmanli"] },
 { t:"1416-09-01", tur:"isyan", ad:"Torlak Kemal",           taraf_metin:"iç isyan", sonuc:"zafer", seri:"ic",  lat:38.61, lon:27.43, sure:300, taraf:["osmanli"] },
 { t:"1511-03-01", tur:"isyan", ad:"Şahkulu (Teke)",         taraf_metin:"iç isyan", sonuc:"zafer", seri:"ic",  lat:36.89, lon:30.70, sure:400, taraf:["osmanli"] },

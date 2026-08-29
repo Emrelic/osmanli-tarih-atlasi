@@ -177,6 +177,17 @@ bozulur.
       ⇒ ÇARE: nabız pil eşiğini okusun; %40'ın altında *"sessizlik
       BEKLENEN"* desin. Küçük iş, ama %25'te BAŞLATILMADI (kendi kuralım).
 
+- [ ] 🟡 **ŞEYH BEDREDDİN — tarih/yer eşleşmesi ÖLÇÜLMEDİ.**
+      `savaslar.js:331` koordinatı Serez'e hizalandı (0031/H-0016, iki
+      oturum bağımsız ölçtü, doğru). AMA kaydın tarihi `1416-05-01` ve
+      Serez, Bedreddin'in **1420'deki idam yeri**; 1416 Börklüce'nin
+      **Karaburun** safhası (İzmir ~38,6K/26,5D) ve Bedreddin'in kendi
+      Deliorman safhası.
+      ⇒ Koordinat düzeltmesi paket maddesine göre DOĞRU; ayrı soru şu:
+        1416 simgesi Serez'de mi durmalı, yoksa tarih mi 1420 olmalı,
+        yoksa isyan ÜÇ ayrı simge mi (Karaburun · Deliorman · Serez)?
+      ⚠️ Bu soruyu BEN sordum ve ÖLÇMEDİM. Düzeltmeyi bloke etmedim.
+
 - [ ] Kahul · Bolgrad noktaları (UYGULAMA-1 devretti)
 - [ ] Sibiu · Debre · Foça-İzmir (YAMA KURTARMA devretti, araştırılmadı)
 - [ ] ±180 komşuluk kaybı — **borç kaydı**, engel değil
