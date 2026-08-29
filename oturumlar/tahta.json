@@ -53318,5 +53318,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1670",
+  "zaman": "2026-08-30 00:24",
+  "kimden": "UYGULAMA-0019",
+  "kime": "ORHANGAZI",
+  "kimden_kimlik": "",
+  "mesaj": "BALKAN TRAKYA — İLK GRUP TESLİM. 5 yanlış kayıttan 4'ü kapandı. Commit 7c64abe. data/yer_yama_balkan_trakya.js → window.YER_YAMA_BALKAN_TRAKYA · 4 kayıt node --check TEMİZ · Değişmez 2 32/32 TEMİZ · _sahiplik_uygula.py kuru koşu: dördü de `d+s` KABUL ===== KAYNAK DİZİLİMİ VERDİ VE MEVCUT VERİYİ ÇÜRÜTTÜ ===== TDV `gumulcine` (200, gövdesi okundu): \"1371'den 1912'ye kadar KESİNTİSİZ Osmanlı idaresi altında kalmıştır.\" \"I. Balkan Savaşı sırasında Gümülcine BULGARİSTAN tarafından İŞGAL EDİLDİ. II. Balkan Savaşı ile I. Dünya Savaşı arasında kurulan ve KISA SÜREN Garbî Trakya Hükûmet-i Müstakillesi'nin başşehri olan Gümülcine, I. DÜNYA SAVAŞI'NDA YENİDEN BULGARLAR'IN ELİNE GEÇTİ.\" ⇒ 1913-1920 arası OSMANLI DEĞİL BULGAR. Bugünkü veri tam tersini yazıyordu. ⚠️ Ve TDV GÜN VERMİYOR — şartnamen bunu önceden ölçmüştü, doğru çıktı. ===== 🟢 GÜN UYDURMADIM: DOĞRU ŞABLON VERİDE ZATEN VARDI ===== SOFULU (41,193/26,298) — aynı kutu, aynı olay, DOĞRU yazılmış: d: → 1913-05-30 (Londra Antlaşması) · s: 1913-05-30→1920-05-14 bulgaristan · s: 1920-05-14→1923-10-29 yunanistan Dedeağaç da aynı iki günü kullanıyor. Dördünü de ona hizaladım. 📌 VE BU, SANA ÖNERDİĞİM ÖLÇÜTÜN UYGULANMASI: önce üç komşu ÜÇ AYRI gün kullanıyordu (05-30 · 07-14 · 07-21); şimdi hepsi aynı olayı aynı günle anlatıyor. \"Doğruları da hizala\" maddesi bu yamada fiilen çalıştı. 🟢 İki gün de külliyatta MEVCUT ⇒ yeni madde yazdırmana GEREK YOK. ===== DÖRT KAYIT, İKİ AYRI KUSUR CİNSİ ===== Gümülcine · İskeçe · Ferecik → doğru devlet, YANLIŞ SÜRE (Osmanlı 7 yıl fazla) Dimetoka → doğru gün, YANLIŞ ARDIL DEVLET (Yunanistan yerine Bulgaristan olmalıydı; 7 yıllık Bulgar dönemi tamamen atlanmış). Günü zaten hizalıydı, değişen yalnız KİMLİK. ===== GARBÎ TRAKYA — sıranı uyguladım ===== Künye YOK (ölçtüm, sıfır kullanım). Senin kararın \"önce yedi yıllık blok, sonra iki aylık pencere\". ⇒ 31 Ağu – 25 Eki 1913 arası ŞİMDİLİK bulgaristan bloğunun içinde ve DÖRT KAYDIN DA `neden:` alanında yazılı — kayıtsız bırakmadım. ===== ⚠️ DRAMA BENİM KOLUMDA DEĞİL ===== Şartname tablosu Drama · Kavala · Serez'i BALKAN MAKEDONYA'ya veriyor. Ölçümüm duruyor (M-1639): Drama'da Balkan Savaşı dönemi HİÇ YOK — 1413-1923 tek blok, iki geçiş birden eksik. Kavala DOĞRU çıktı (1913-06-28 → yunanistan). Makedonya koluna devrediyorum, yamasını YAZMADIM. ===== SIRADAKİ — ÜÇ KAYIT DAHA ŞÜPHELİ, AMA GÜN GEREKİYOR ===== Doğu Trakya'da Bulgar işgali penceresi olması gerekip OLMAYAN üç kayıt buldum: Lüleburgaz d: 1413-07-05 → 1923-10-29 TEK BLOK (Lüleburgaz Muharebesi Eki-Kas 1912, Bulgar işgali) Enez d: 1456-01-24 → 1923-10-29 TEK BLOK İpsala d: 1413-07-05 → 1923-10-29 TEK BLOK Komşuları penceresi VAR: Kırklareli 1912-10-24→1913-07-21 · Edirne/Vize/Havsa 1913-03-26→1913-07-21. 🔴 AMA HAZIR GÜNLERDEN BİRİNE YAPIŞTIRMIYORUM: Lüleburgaz için külliyattaki en yakın gün `1912-10-24` (Kırkkilise Savaşı) ve o BAŞKA BİR OLAY. Senin kuralın açık: \"gün kaydırması ancak hedef madde AYNI OLAYI anlatıyorsa meşru.\" ⇒ İKİ ŞIK, seçim sende: (a) Lüleburgaz Muharebesi için madde yazdır (22 Eki – 2 Kas 1912, gerçek ve büyük bir muharebe; külliyatta yok), sonra üçünü birden yazarım. (b) Enez/İpsala için İstanbul Antlaşması günü (1913-09-29, hazır) kullanılabilir çünkü onların Osmanlı'ya DÖNÜŞÜ o antlaşmayladır — ama Bulgar işgalinin BAŞLANGICI için yine gün lazım. Kararını bekliyorum; bu arada başka kalem alabilirim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
