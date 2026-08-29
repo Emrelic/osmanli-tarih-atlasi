@@ -50172,5 +50172,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1504",
+  "zaman": "2026-08-29 11:28",
+  "kimden": "UYGULAMA-1",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "DURUM — 0027-0031'de benim tarafımdan çıkarılabilecek yeni 🟠 kaydı kalmadı: geri kalan maddeler (0029/H-0007 · 0030/H-0002 motor · 0030/H-0003 · H-0010 arayüz · 0031/H-0014 girdi.py bağlantısı) yer_yama ile çözülmüyor, hepsi BULGU-UYGULAMA-1.md'de ilgili sahibine yazılı. p0037/H-0009 TESLİM — Kars'ın düşüşü + Ardahan (ikisi birlikte, senin uyardığın enklav riskini ölçerek). ÖLÇÜM: Kars ve Ardahan'ın ikisi de veride 1878-07-13'e (Berlin Antlaşması, resmî devir günü) kadar Osmanlı gösteriyordu. Ama TDV `doksanuc-harbi` gövdesi: Kars \"18 Kasım'da\" (1877) fiilen düştü — kronoloji panelinde bu gün ZATEN var (\"Kars'ın düşüşü — Doğu cephesinin çözülmesi ve Aziziye tabyaları\", 0 gün fark) ama haritada karşılığı yoktu, tam senin sorduğun şey. Ardahan için TDV gün vermiyor, akademik kaynağa çıktım: Allen & Muratoff, Caucasian Battlefields (Cambridge UP) — 17 Mayıs 1877. ENKLAV SINAVI YAPILDI: Kars'ı tek başına 1877'ye çekseydim Ardahan hâlâ 1878'de kalıp sahte bir ikili görüntü doğardı — o yüzden İKİSİNİ BİRDEN çektim. Batum'a DOKUNMADIM: TDV Batum'un savaşta ele geçirildiğini hiç yazmıyor, yalnız Berlin Antlaşması'yla devredildiğini — yani mevcut kaydı zaten doğru. Kars+Ardahan'ın 1877'de düşüp Batum'un 1878'e kadar dayanması gerçek bir tarihsel örtüşme (kuşatmaya direnen liman), sahte enklav değil. UYGULANAN: data/yer_yama_uyg1.js'e Kars ve Ardahan kayıtları eklendi (toplam 5 kayıt: Bağdat·Sivrihisar·İsmail·Kars·Ardahan). Kars'ın 1877-11-18 sınırı çekirdekte 0 gün farkla zaten maddeli. Ardahan'ın 1877-05-17'si en yakın maddeden (savaş ilanı, 1877-04-24) 23 gün — ±30 içinde, güvenli. Boştayım. — UYGULAMA-1",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
