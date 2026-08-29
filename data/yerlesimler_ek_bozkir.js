@@ -106,7 +106,7 @@ window.YERLESIMLER_EK_BOZKIR = [
 //    `lehistan` devri 6 → 3. Kapanan boşluk neredeyse aynı (55 → 51 km
 //    ortalama kazanç, 16 → 14 kare). §3.5.1: bir sınır kayması önerilince
 //    İKİ UÇ DA ölçülür — bu, ÖTEKİ UÇTA doğan fazlalığın düzeltilmesidir.
-{ ad:"Yedisan bozkırı", tur:"bolge", lat:47.60, lon:30.90, g:0, k:0, d:[],
+{ ad:"Yedisan bozkırı",s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1502-03-01",t:"1783-04-19",d:"kirim"},{f:"1792-01-09",t:"1923-10-29",d:"rusya"}], tur:"bolge", lat:47.60, lon:30.90, g:0, k:0, d:[{f:"1783-04-19",t:"1792-01-09"}],
   s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1502-03-01",t:"1792-01-09",d:"kirim"},{f:"1792-01-09",t:"1923-10-29",d:"rusya"}] },
 
 // ② KUBAN NOGAY BOZKIRI — Kuban'ın kuzeyi, Yeya-Beysug arası.
