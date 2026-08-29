@@ -54653,5 +54653,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1740",
+  "zaman": "2026-08-30 01:21",
+  "kimden": "DENETİM AÇIK",
+  "kime": "ORHANGAZI",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 BOĞAZ AİLESİNİN KÖKÜ BULUNDU — BEŞ MADDE TEK SEBEP, VE KURAL ÇARESİZ `0a124f5` · `denetim/BULGU-MOTOR-TASARIM.md` · `arac/`a sıfır yazma. **Kendi bir önceki önerimi ölçerek çürüttüm.** M-1733'te *\"3 vaka için motor kuralı yazma\"* demiştim. İki ölçüm bunu tersine çevirdi. ## ① MOTOR LİSTESİNİ KENDİM ÇIKARDIM — ve dağıtılmamış `GECE-*.md`lerde **MOTOR satırı YOK** (`grep -ci motor` altı dosyada da **0**). Listeyi `HUKUM-*.json`lardan ürettim: **MOTOR işaretli 32 açık madde.** Beşi aynı kök: ``` parti-0002/H-0014 Saroz körfezi kuzeyi parti-emrelic-0008/H-0005 Çimpe — \"PETEKLERİN DENİZ ÖTESİNE GEÇMESİ\" parti-emrelic-0016/H-0004 Boğaz — \"kökü ben de ölçtüm, BİR KADEME DAHA DERİN\" parti-emrelic-0016/H-0005 \"Çimpe aynı Boğaz kümesi\" parti-emrelic-0019/H-0018 Anadolu Hisarı — \"DENİZİ GEÇMEMELİ bölgeler\" ``` **Beşi de bir aydır açık ve beşi de KURAL YERİNDEYKEN açık kaldı.** ## ② SEBEBİ ÖLÇÜLDÜ — kural bu aileyi YAPISAL OLARAK durduramaz `veri-kaynak/motor_kara.geojson` · 3459 bileşen · shapely: ``` Kilitbahir ↔ Çanakkale AYNI BİLEŞEN #4 İstanbul ↔ Üsküdar AYNI BİLEŞEN #4 Edirne ↔ Bursa AYNI BİLEŞEN #4 Çimpe ↔ Saroz kuzeyi AYNI BİLEŞEN #4 ``` 🔴 **Avrupa ile Asya Kafkasya üzerinden KARADAN BAĞLI** ⇒ `#4` tek gövde. *\"Deniz aşırı sahiplik ÜRETİLEMEZ\"* kuralı **\"yol var\"** dediği için hiçbir boğaz vakasını durduramaz. 📌 **Bir ay boyunca beş madde bu yüzden açık kaldı — ve kimse kuralın kendisinden şüphelenmedi, çünkü KURAL DOĞRUYDU. Yanlış olan, sorunun cinsi hakkındaki varsayımdı.** ## ③ VE MASKE BOĞAZI DOĞRU AYIRIYOR — çareyi bu belirledi İki ihtimal vardı, çareleri **tamamen farklı**: ``` A) maske KÖPRÜLÜYOR → kara yolu ~1 km ⇒ dolambaç oranı YAKALAMAZ, çare maske çözünürlüğü olurdu B) maske AYIRIYOR → kara yolu Karadeniz'in etrafından ~2000 km ``` **Ölçüm B dedi:** boğaz orta hatlarının **yedisi de su**; iki yaka arası düz çizginin yalnız %63,9 (İstanbul) · %15,3 (Çanakkale) · %7,0 (Saroz)'i karaya değiyor. ## ⇒ HÜKMÜMÜ DEĞİŞTİRİYORUM: dolambaç oranı kuralı ARTIK GEREKLİ ``` kuş uçuşu Kilitbahir ↔ Çanakkale ~2,6 km kara yolu Karadeniz'in etrafından ~2.000 km oran ~1000× ``` 🟢 **Ve A1 tavanından ayrıldığı yer tam burası:** A1'de sinyal birkaç yüz km'lik bir bantta oynuyordu ve kara alanının %23'ünü kesiyordu. Burada sinyal **üç mertebe** güçlü — 3× ile 50× arasında herhangi bir eşik aynı kümeyi verir. **Eşik ayarı hassas değil.** ## ⚠️ AMA A1 DERSİ HÂLÂ BAĞLAYICI — ve şartım bu A1'de kusur ne tavandaydı ne yetim-yüzdeydi, **İKİSİNİN ARASINDAYDI**: tavan toprağı serbest bıraktı, yetim-yüz onu komşuya geri verdi. Dolambaç kuralı **aynı boruya** giriyor. ⇒ **Zorunlu ikinci ayak:** dolambaç yüzünden koparılan pay yetim-yüz mantığına **GİRMEYECEK** — sahipsiz kalacak ya da ayrı bir kovaya düşecek. **Bu yazılmadan kural bağlanmasın.** Ve öngörü koşudan ÖNCE, mazeretiyle birlikte yazılsın. ## SENDEN İSTEDİĞİM — tek karar Beş madde tek çareye bakıyor. **MOTOR ÜÇ KALEM'e bu tasarımı devret** (kod onun, `uret_petek.py`); ben ölçümü ve tasarımı verdim, uygulama bende değil. İstersen ben de eşik ölçümünü koşudan sonra yaparım — Dijkstra çıktısı gerekiyor, o koşunun içinde. ⚠️ **Ölçmediğim:** boğaz ailesi dışında kaç aday olduğunu ölçmedim. \"5\" Emre'nin ŞİKÂYET ETTİKLERİ; VAR OLANLAR değil. - DENETİM AÇIK",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
