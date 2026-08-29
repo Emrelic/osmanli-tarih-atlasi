@@ -142,19 +142,62 @@ import girdi  # noqa: E402
 DOSYALAR = list(girdi.GIRDI_DOSYALARI)
 AD_RX = re.compile(r'\bad:\s*"((?:[^"\\]|\\.)*)"')
 
+def _denge(s):
+    """Satırdaki { } [ ] dengesi — tırnak ve kaçış farkında."""
+    d = 0
+    tirnak = False
+    kacis = False
+    for c in s:
+        if kacis:
+            kacis = False
+            continue
+        if c == "\\":
+            kacis = True
+            continue
+        if c == '"':
+            tirnak = not tirnak
+            continue
+        if tirnak:
+            continue
+        if c in "{[":
+            d += 1
+        elif c in "}]":
+            d -= 1
+    return d
+
+
+# 🔴 KAYIT BİR SATIR DEĞİL, BİR ARALIKTIR — ve bu ÖLÇÜLDÜ.
+#   İlk sürüm satır tabanlıydı ve `Şehrizor`da "d:[ kapanmıyor" dedi.
+#   Tek bir kayıt sanıp elle düzeltmeye kalkmadan önce sayıldı:
+#       TEK satırlık kayıt :  900
+#       ÇOK satırlı  kayıt : 1724      ⇒ verinin %66'sı
+#   Yani alet, dokunabildiğini sandığı verinin ancak ÜÇTE BİRİNE
+#   ulaşıyordu — ve bunu hiç söylemiyordu, çünkü inen 24 kaydın
+#   hepsi rastlantıyla tek satırlıktı.
+# 📌 "Şehrizor'u elle düzelt" kararı, %66'lık bir körlüğü BİR VAKA
+#   sanmak olurdu. Ölçüm on saniye sürdü.
 konum = collections.defaultdict(list)
 icerik = {}
 for dosya in DOSYALAR:
-    yol = os.path.join(VERI, os.path.basename(dosya))
+    ad_d = os.path.basename(dosya)
+    yol = os.path.join(VERI, ad_d)
     if not os.path.exists(yol):
         continue
     satirlar = io.open(yol, encoding="utf-8", newline="").read().split("\n")
-    icerik[os.path.basename(dosya)] = satirlar
+    icerik[ad_d] = satirlar
     for i, satir in enumerate(satirlar):
         m = AD_RX.search(satir)
-        if m:
-            konum[m.group(1)].append((os.path.basename(dosya), i))
-print("TABAN: %d benzersiz ad, %d dosya" % (len(konum), len(icerik)))
+        if not m:
+            continue
+        d = _denge(satir)
+        j = i
+        while d != 0 and j + 1 < len(satirlar) and (j - i) < 60:
+            j += 1
+            d += _denge(satirlar[j])
+        konum[m.group(1)].append((ad_d, i, j))     # ARALIK: [i..j]
+_cs = sum(1 for l in konum.values() for x in l if x[2] > x[1])
+print("TABAN: %d benzersiz ad, %d dosya (%d kayıt ÇOK SATIRLI)"
+      % (len(konum), len(icerik), _cs))
 
 # ────────────────────────────────────────── ④ ÇAKIŞMA — aynı ad, iki yama
 gruplu = collections.defaultdict(list)
@@ -272,6 +315,7 @@ ist = collections.Counter()
 atlanan = []
 degisiklik = collections.defaultdict(int)
 inen = []
+duzenleme = []        # (dosya, i, j, yeni_satirlar) — TERSTEN uygulanır
 
 for ad, liste in sorted(gruplu.items()):
     x = liste[0]
@@ -318,8 +362,10 @@ for ad, liste in sorted(gruplu.items()):
             if g and not maddesi_var(g):
                 zayif.append(g)
 
-    dosya, i = yerler[0]
-    satir = icerik[dosya][i]
+    dosya, i, j = yerler[0]
+    # Kaydın TAMAMI — çok satırlıysa satırlar birleştirilip öyle yamanır,
+    # sonra aynı aralığa geri yazılır (aşağıda, TERSTEN sırayla).
+    satir = "\n".join(icerik[dosya][i:j + 1])
     yeni_satir = satir
     dokunulan = []
     hata = None
@@ -382,10 +428,15 @@ for ad, liste in sorted(gruplu.items()):
                         % "; ".join("%s→%s" % x for x in kayip_ar[:3])))
         continue
 
-    icerik[dosya][i] = yeni_satir
+    # 🔴 HEMEN YAZMA — aralık değişimi sonraki kayıtların satır
+    #   numaralarını kaydırır. Bütün düzenlemeler toplanır ve dosya
+    #   sonundan başına doğru (TERSTEN) uygulanır; böylece henüz
+    #   uygulanmamış aralıkların indeksleri geçerli kalır.
+    duzenleme.append((dosya, i, j, yeni_satir.split("\n")))
     ist["uygulandi"] += 1
     degisiklik[dosya] += 1
-    inen.append((ad, dosya, "+".join(dokunulan), zayif))
+    inen.append((ad, dosya, "+".join(dokunulan), zayif,
+                 (j - i + 1) if j > i else 1))
 
 # ───────────────────────────────────────────────────────────── ⑦ rapor
 print()
@@ -399,9 +450,10 @@ for k in ("uygulandi", "zaten-boyle", "cakisma", "kendi-kilidi",
 if inen:
     print()
     print("İNEN (%d):" % len(inen))
-    for ad, dosya, alanlar, zayif in inen:
+    for ad, dosya, alanlar, zayif, nsat in inen:
         ek = ("  ⚠️ 2s zayıf gün: " + ", ".join(sorted(set(zayif))[:3])) if zayif else ""
-        print("  %-28s %-30s %s%s" % (ad[:28], dosya, alanlar, ek))
+        cs = ("  [%d satır]" % nsat) if nsat > 1 else ""
+        print("  %-28s %-30s %s%s%s" % (ad[:28], dosya, alanlar, cs, ek))
 
 if degisiklik:
     print()
@@ -416,6 +468,12 @@ if atlanan:
         print("  %-28s %s" % (ad[:28], sebep))
 
 if YAZ:
+    # 🔴 TERSTEN — dosya SONUNDAN başına doğru. Bir kaydın satır sayısı
+    #   değişirse (çok satırlı kayıt tek satıra inebilir) ondan SONRAKİ
+    #   kayıtların indeksleri kayar; tersten yazınca henüz uygulanmamış
+    #   aralıklar hep geçerli kalır.
+    for dosya, i, j, yeni in sorted(duzenleme, key=lambda x: (x[0], -x[1])):
+        icerik[dosya][i:j + 1] = yeni
     for dosya in degisiklik:
         io.open(os.path.join(VERI, dosya), "w", encoding="utf-8",
                 newline="").write("\n".join(icerik[dosya]))
