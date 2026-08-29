@@ -102,7 +102,63 @@ CIKTI = os.path.join(KOK, "data", "donemler.js")
 #   mevcut peteklere emilir ve Moğolistan'ın Uliastay'ı Arktik Sibirya'yı,
 #   Sapporo Arktik adalarını boyardı (ölçüldü, `CLAUDE.md §2`).
 #   `yerlesimler_ek8.js` (39 nokta, 64,5-80,3°K) bu koşuda birlikte iniyor.
-BOLGE = unary_union([box(-12, -11, 146, 82), box(-25, 60, -12, 82)])
+# ═══════════════════════════════════════════════════════════════════════
+# 🌍 29 AĞUSTOS 2026 — PENCERE BÜTÜN DÜNYAYA AÇILDI
+#     Emre: *"Yapabilirsen tüm dünyayı ekle gitsin… böyle ilerleyelim,
+#            bir görelim bakalım ne çıkacak önümüze, tüm dünyayı açalım."*
+#
+# ESKİ: unary_union([box(-12,-11,146,82), box(-25,60,-12,82)])   (L şekli)
+# YENİ: box(-180, -60, 180, 85)
+#
+# 🔴 `CLAUDE.md §6` bunu YASAKLIYORDU: *"Kars'ın peteği Çin'i, Fas'ınki
+#   Atlantik'i boyar."* O uyarı YAZILDIĞINDA DOĞRUYDU — ama üç koruma o
+#   günden sonra geldi ve ölçüldü:
+#       ADA KURALI (:1731)            gövdeyi karaya kırpar
+#       KARA-KISITLI SAHİPLİK (:1819) Dijkstra KARA ızgarasında yürür,
+#                                     deniz aşırı sahiplik ÜRETİLEMEZ
+#       TAVAN_KM {1:700,2:420,3:280,4:140,0:280}  yarıçap tavanı
+#   Ve doğrudan kanıt koşu 1'in KENDİ BAŞARISIZLIĞINDAN geldi: tavan
+#   uygulanınca kaybolan toprak uzak komşulara EMİLMEDİ, **sahipsiz**
+#   kaldı. Yani emilme korkusu ölçümle çürüdü.
+#
+# ═══ SINIRLAR NİÇİN TAM BU DÖRT SAYI — DÜNYA PENCERE ölçtü ═══
+#   `denetim/BULGU-DUNYA-PENCERE.md` · 2609/2609 nokta içeride
+#
+#   🔴 VE ÖNCE YANLIŞ BİR SINIR SEÇİLECEKTİ. Yalnız NOKTA uç değerlerine
+#     bakılsaydı (-44,0 Yeni Zelanda) *"-50 yeter, ızgarada %7 tasarruf"*
+#     denecekti. Ama `BOLGE` kara maskesini de kesiyor ⇒ noktamız olmayan
+#     kıyı da kesilir:
+#         Tierra del Fuego -55,9  ⇒ -50 GÜNEY AMERİKA'NIN UCUNU KOPARIRDI
+#         Güney Georgia    -54,4      Falkland -51,7
+#         Grönland kuzey ucu 83,6 ⇒ 85 doğru, 83 YETMEZDİ
+#     ⇒ **-60 cömert değil, GEREKLİ.** Sınırı belirleyen NOKTA değil KARA.
+#
+# ═══ ±180 SARMASI — sorulmuş, ölçülmüş, KAYDEDİLMİŞ BORÇ ═══
+#   *"Bir petek 179°D'den 179°B'ye atlayabilir mi?"* — HAYIR, ve ölçülebilir:
+#   bir hücrenin meridyeni atlaması için tek poligonun hem -179 hem +179'da
+#   tepesi olması gerekir; ±5° enlem kuşağında **iki kenara birden dayanan
+#   site: 0**.
+#   🔴 AMA GERÇEK ZARAR BAŞKA — **KOMŞULUK KAYBI**:
+#       Bau (Fiji) 178,57°D ↔ Lapaha (Tonga) -175,12°B
+#       gerçek mesafe 750 km · MOTORUN GÖRDÜĞÜ 353,7 DERECE
+#   Gövdeler doğru çizilir, ama **komşuluk ağı eksik kurulur** — buna
+#   dayanan her şey (renk çakışması, ortak kenar) Pasifik'te yanılır.
+#   ⇒ Bugün etkilenen TEK çift Fiji↔Tonga ⇒ pencere bunun için ERTELENMEZ.
+#   ⚠️ Pasifik'e nokta eklendikçe (Samoa · Hawaii · Aleutlar) BÜYÜR.
+#     **Çözülmesi gereken engel değil, kaydedilmesi gereken borç.**
+#
+# ═══ UYGULANMAYAN: SEYREK BÖLGE EŞİĞİ ═══
+#   DÜNYA PENCERE `SEYREK_ESIK_KM = 300` önerdi (313 nokta, %12,0 etkilenir;
+#   Çin 198 km → K. Amerika 406 km arasında doğal kopma). ⚠️ AMA KENDİSİ
+#   *"uygulamadan önce ölçülmeli"* dedi ve üç ölçmediğini yazdı: N=5
+#   seçiminin duyarlılığı · eşik değerinin (8/6/12) ne olacağı · ölçütün
+#   PETEĞE mi NOKTAYA mı ait olduğu. ⇒ **Uygulanmadı.** Bugünkü koruma
+#   `TAVAN_KM`dir ve o zaten yürürlükte.
+#   📌 Ve bir yan bulgu: çöl ile seyreklik RAKİP DEĞİL, DİK. Sahra "çöl AMA
+#     yoğun" (141 km — 149 dolgu noktası kasten konmuş), Sibirya "çöl DEĞİL
+#     ama seyrek" (505 km). Doğru bileşim `max(...)`, biri ötekini ezmez.
+# ═══════════════════════════════════════════════════════════════════════
+BOLGE = box(-180, -60, 180, 85)
 
 # ---------------- Devlet boya tablosu ----------------
 # Yerleşimlerin s alanındaki kimlikler; her devlet haritada kendi renginde

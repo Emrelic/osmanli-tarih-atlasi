@@ -41,7 +41,7 @@ window.YERLESIMLER_SIBIRYA = [
   s:[] },
 
 // ---------- ③ UZAK DOĞU — Kamçatka (fetih) · Çukotka (devletsiz) ----------
-{ ad:"Petropavlovsk-Kamçatskiy", tur:"liman", lat:53.01, lon:158.65, g:1, k:3,
+{ ad:"Petropavlovsk-Kamçatskiy", tur:"liman", lat:53.0113, lon:158.6514, g:1, k:3,
   kur:"1740-01-01",
   s:[{f:"1740-01-01",t:"1923-10-29",d:"rusya"}] },
 { ad:"Anadır (Anadyrsk)", tur:"kale", lat:64.75, lon:177.48, g:0, k:0,

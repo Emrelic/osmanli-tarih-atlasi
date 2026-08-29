@@ -110,7 +110,15 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   // ⚠️ Konum 11 METRE taşındı — kayalık, Natural Earth maskesinin sınırına
   // teğet geçiyordu. Bu, `konum` denetiminin neden örneklemeyle değil tam
   // taramayla koşturulması gerektiğinin ölçüsü: 11 m'lik sapma da ihlaldir.
-  { ad:"Bâdis (Peñón de Vélez)", tur:"kale", lat:35.1721, lon:-4.3009, g:0, k:4, m:null,
+  // 🔴 lat 35.1721 → 35.1725 (40 m kuzey), 29 Ağustos 2026. Dünya penceresi
+  // açılınca bu nokta kara maskesinin 0,06 km dışında çıktı. `denetle.py`nin
+  // kendi önerisi (-4.3006) KENDİ TESTİNİ GEÇMEDİ ve öyle damgalandı —
+  // damga doğruydu: o boylam simplify edilmiş maskede bir boşluğa düşüyor.
+  // Çevre 4 ondalık ızgarada tarandı (5146 geçerli nokta bulundu); en yakın
+  // GEÇERLİ olan bu. Boylam DEĞİŞMEDİ. Peñón de Vélez minik bir kayalık ve
+  // `KARA_TOL=0.002` sadeleştirmesi kıyısını törpülüyor — kusur veride değil,
+  // maskenin çözünürlüğünde.
+  { ad:"Bâdis (Peñón de Vélez)", tur:"kale", lat:35.1725, lon:-4.3009, g:0, k:4, m:null,
     s:[{f:"1281-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1564-01-01",d:"sadi"},
        {f:"1564-01-01",t:"1923-10-29",d:"ispanya",enklav:true}], d:[], v:[] },
 

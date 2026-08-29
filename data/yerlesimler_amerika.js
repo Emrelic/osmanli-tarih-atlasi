@@ -640,7 +640,7 @@ window.YERLESIMLER_AMERIKA = [
 // kaynak: Cambridge History of Latin America, Vol. I (Bethell, 1984) — Pernambuco kaptanlığının ilk merkezi.
 // k gerekçesi: kaptanlık merkezi — k:2
 
-{ ad:"São Luís", tur:"liman", lat:-2.5297, lon:-44.3028, g:1, k:3, kur:"1612-09-01",
+{ ad:"São Luís", tur:"liman", lat:-2.5300, lon:-44.3015, g:1, k:3, kur:"1612-09-01",
   s:[{f:"1612-09-01",t:"1615-11-04",d:"fransa"},
      {f:"1615-11-04",t:"1822-09-07",d:"portekiz-brezilyasi"},
      {f:"1822-09-07",t:"1889-11-15",d:"brezilya-imparatorlugu"},
@@ -700,7 +700,7 @@ window.YERLESIMLER_AMERIKA = [
 // kaynak: Charles Stanish, "Ancient Titicaca" (Univ. of California Press, 2003), s. 200-215.
 // k gerekçesi: Colla Krallığı'nın başkenti — k:3
 
-{ ad:"Chucuito", tur:"sehir", lat:-15.8833, lon:-69.7500, g:1, k:3,
+{ ad:"Chucuito", tur:"sehir", lat:-15.8884, lon:-69.7666, g:1, k:3,
   s:[{f:"1281-01-01",t:"1450-01-01",d:"lupaqa-krallik"},
      {f:"1450-01-01",t:"1533-01-01",d:"inka-imparatorlugu"},
      {f:"1533-01-01",t:"1542-11-20",d:"ispanya"},
@@ -802,7 +802,7 @@ window.YERLESIMLER_AMERIKA = [
 //         İngiltere'ye yazıldı, AÇIKÇA işaretli.
 // k gerekçesi: Onondaga konfederasyon merkezi k:2, dört üye millet k:1
 
-{ ad:"Werowocomoco (Powhatan Konfederasyonu Başkenti)", tur:"sehir", lat:37.3868, lon:-76.6394, g:2, k:2,
+{ ad:"Werowocomoco (Powhatan Konfederasyonu Başkenti)", tur:"sehir", lat:37.3939, lon:-76.6302, g:2, k:2,
   s:[{f:"1281-01-01",t:"1646-10-01",d:"powhatan"},
      {f:"1646-10-01",t:"1776-07-04",d:"ingiltere"},
      {f:"1776-07-04",t:"1923-10-29",d:"abd"}] },
@@ -873,7 +873,7 @@ window.YERLESIMLER_AMERIKA = [
 //         ediyor. Dancing Rabbit Creek Antlaşması, 27 Eylül 1830.
 // k gerekçesi: konfederasyonun köken/kutsal merkezi — k:2
 
-{ ad:"Quebec", tur:"sehir", lat:46.8139, lon:-71.2080, g:2, k:2, kur:"1608-07-03",
+{ ad:"Quebec", tur:"sehir", lat:46.8219, lon:-71.2187, g:2, k:2, kur:"1608-07-03",
   s:[{f:"1608-07-03",t:"1763-02-10",d:"fransa"},
      {f:"1763-02-10",t:"1923-10-29",d:"ingiliz-kuzey-amerika"}] },
 { ad:"Montreal (Ville-Marie)", tur:"sehir", lat:45.5019, lon:-73.5674, g:2, k:1, kur:"1642-05-17",
@@ -910,7 +910,7 @@ window.YERLESIMLER_AMERIKA = [
 //         (gün belirsiz). 8 Eylül 1664: Stuyvesant'ın İngiliz filosuna teslimi.
 // k gerekçesi: Yeni Hollanda'nın başkenti k:2, Fort Orange kürk ticareti üssü k:1
 
-{ ad:"Jamestown", tur:"sehir", lat:37.2094, lon:-76.7794, g:2, k:2, kur:"1607-05-14",
+{ ad:"Jamestown", tur:"sehir", lat:37.1997, lon:-76.7880, g:2, k:2, kur:"1607-05-14",
   s:[{f:"1607-05-14",t:"1776-07-04",d:"ingiltere"},
      {f:"1776-07-04",t:"1923-10-29",d:"abd"}] },
 { ad:"Plymouth (Massachusetts)", tur:"sehir", lat:41.9584, lon:-70.6673, g:1, k:1, kur:"1620-12-21",
@@ -922,7 +922,7 @@ window.YERLESIMLER_AMERIKA = [
 { ad:"Philadelphia", tur:"sehir", lat:39.9526, lon:-75.1652, g:2, k:2, kur:"1682-10-27",
   s:[{f:"1682-10-27",t:"1776-07-04",d:"ingiltere"},
      {f:"1776-07-04",t:"1923-10-29",d:"abd"}] },
-{ ad:"Charleston (Charles Town)", tur:"sehir", lat:32.7765, lon:-79.9311, g:1, k:1, kur:"1670-04-15",
+{ ad:"Charleston (Charles Town)", tur:"sehir", lat:32.7839, lon:-79.9343, g:1, k:1, kur:"1670-04-15",
   s:[{f:"1670-04-15",t:"1776-07-04",d:"ingiltere"},
      {f:"1776-07-04",t:"1923-10-29",d:"abd"}] },
 { ad:"Savannah", tur:"sehir", lat:32.0809, lon:-81.0912, g:1, k:1, kur:"1733-02-12",
@@ -933,7 +933,7 @@ window.YERLESIMLER_AMERIKA = [
 //         (15 Nisan 1670), Savannah (12 Şubat 1733).
 // k gerekçesi: 13 koloninin büyük şehirleri — k:1-2
 
-{ ad:"Detroit (Fort Pontchartrain du Détroit)", tur:"sehir", lat:42.3314, lon:-83.0458, g:1, k:1, kur:"1701-07-24",
+{ ad:"Detroit (Fort Pontchartrain du Détroit)", tur:"sehir", lat:42.3356, lon:-83.0494, g:1, k:1, kur:"1701-07-24",
   s:[{f:"1701-07-24",t:"1763-02-10",d:"fransa"},
      {f:"1763-02-10",t:"1796-07-11",d:"ingiltere"},
      {f:"1796-07-11",t:"1923-10-29",d:"abd"}] },
@@ -1005,7 +1005,7 @@ window.YERLESIMLER_AMERIKA = [
 // (13 Ağustos, Değişmez 1b düzeltmesi — bkz. San Antonio'nun kendi girdisi yukarıda).
 // k gerekçesi: İspanyol Kuzey Amerika'sının güneybatı sınır şehirleri — k:1-2
 
-{ ad:"Novoarkhangelsk (Sitka)", tur:"sehir", lat:57.0531, lon:-135.3300, g:1, k:2, kur:"1799-07-01",
+{ ad:"Novoarkhangelsk (Sitka)", tur:"sehir", lat:57.0560, lon:-135.3287, g:1, k:2, kur:"1799-07-01",
   s:[{f:"1799-07-01",t:"1867-10-18",d:"rusya"},
      {f:"1867-10-18",t:"1923-10-29",d:"abd"}] },
 // kaynak: Britannica "Sitka"/"Alexander Baranov" — Baranov'un ilk kalesi Temmuz 1799.
@@ -1106,7 +1106,7 @@ window.YERLESIMLER_AMERIKA = [
 // 🔴 DİKKAT: devletler.js'te "kuba" id'si ZATEN VAR ama Orta Afrika'daki Kuba Krallığı —
 //    bu yüzden id kesinlikle "kuba-cumhuriyeti", "kuba" KULLANILMADI.
 
-{ ad:"Caparra", tur:"sehir", lat:18.4265, lon:-66.1088, g:0, k:3, kur:"1508-01-01",
+{ ad:"Caparra", tur:"sehir", lat:18.4255, lon:-66.1111, g:0, k:3, kur:"1508-01-01",
   bit:"1521-01-01",
   s:[{f:"1508-01-01",t:"1521-01-01",d:"ispanya"}] },
   // 1521'de nüfus bugünkü San Juan adacığına taşındı, Caparra terk edildi.
@@ -1139,7 +1139,7 @@ window.YERLESIMLER_AMERIKA = [
 //         1534-1872 arası Jamaika'nın başkenti.
 // k gerekçesi: Jamaika'nın idari başkenti (1872'ye kadar) — k:1
 
-{ ad:"Port Royal", tur:"liman", lat:17.9370, lon:-76.8410, g:0, k:2, kur:"1655-01-01",
+{ ad:"Port Royal", tur:"liman", lat:17.9370, lon:-76.8318, g:0, k:2, kur:"1655-01-01",
   s:[{f:"1655-01-01",t:"1923-10-29",d:"ingiltere"}] },
 // kaynak: Black (1958) — ana deniz/korsan üssü. 1692 depremi (7 Haziran) kentin 2/3'ünü yıktı
 //         ama egemenlik değişmedi.
@@ -1207,7 +1207,7 @@ window.YERLESIMLER_AMERIKA = [
 //         devletler.js'te ZATEN VAR (satır 780), yeni kimlik gerekmedi.
 // k gerekçesi: Fransız Guyanası'nın idari başkenti — k:1
 
-{ ad:"Colonia del Sacramento", tur:"sehir", lat:-34.4738, lon:-57.8412, g:0, k:2, kur:"1680-01-01",
+{ ad:"Colonia del Sacramento", tur:"sehir", lat:-34.4723, lon:-57.8410, g:0, k:2, kur:"1680-01-01",
   s:[{f:"1680-01-01",t:"1705-01-01",d:"portekiz"},
      {f:"1705-01-01",t:"1715-01-01",d:"ispanya"},
      {f:"1715-01-01",t:"1762-01-01",d:"portekiz"},
