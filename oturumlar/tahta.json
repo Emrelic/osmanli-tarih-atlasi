@@ -52731,7 +52731,12 @@
   "okuyan": {},
   "yanit_no": "",
   "cins": "EMIR",
-  "teyit": {},
+  "teyit": {
+   "ARAŞTIRMA 2S": {
+    "zaman": "2026-08-29 16:25",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
