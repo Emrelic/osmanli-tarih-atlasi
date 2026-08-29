@@ -1326,13 +1326,35 @@ _KARA_HAZIR = prep(KARA)     # bir kez hazırlanır; B2'nin deniz sınavı bunu 
 #   toprak Osmanlı olduğu için `covers` testini geçiyorlardı. Birleşik
 #   gövdede ayrı parça bile değiller.
 B2_ENKLAV_KM = 250.0        # Emre: "karasal" · ölçülen en uzak vaka 223 km
+# 0038/H-0003 — köprü kenarının İÇ BÜKEYLİĞİ. 0 = düz yamuk (eski hâl),
+# 0,35 = ortasından %35 içeri bastırılmış parabolik bel. Uçlar HER HÂLDE
+# tam genişlikte kalır (sin(0)=sin(π)=0), yani kaynak yeri incelmez.
+# ⚠️ TAVAN 0,5 — ve sebebi ÖLÇÜLDÜ, tahmin edilmedi.
+#   Önce buraya *"0,5'in üstünde köprü KOPAR"* diye yazmıştım; sınav onu
+#   ÇÜRÜTTÜ: KAVIS=1,0'da bile shapely `is_valid=True`, tek parça, alan
+#   0,437 diyor. Yani geometrik olarak KOPMUYOR.
+#   🔴 Ama t=0,5'te yarı-genişlik TAM SIFIR oluyor: köprü ortasından bir
+#   NOKTAYA sıkışıyor. Ekranda kopuk görünür, `is_valid` ötmez, hiçbir
+#   denetim bunu yakalamaz — yani sessiz bir kusur.
+#   ⇒ Tavan hâlâ 0,5; gerekçesi *"geçersiz olur"* değil, ***"geçerli
+#     görünür ama sıfır genişliğe iner"***. Daha kötüsü, çünkü sessiz.
+B2_KAVIS = 0.35
 B3_KAPAMA_DER = 0.45        # ≈50 km yarıçaplı kapama; koridor ölçeği
 B3_SADELIK = 0.02           # ≈2 km — YALNIZ koridor adayını bulmak için
 _B23_SAYAC = {
     "b2_birlesti": 0, "b2_deniz": 0, "b2_uzak": 0, "b2_yerlesim": 0,
     "b3_dolduruldu": 0, "b3_sig": 0, "b3_yerlesim": 0, "b3_kb": 0,
     "b3_kapali": 0,
+    # 0038/H-0004 — köprü hangi katmana yazıldı. İkisi de SIFIR çıkarsa
+    # renk dalı HİÇ ateşlememiş demektir; `b2_kopru_tabi` sıfırsa da
+    # tâbi girintiye hiç köprü kurulmamış demektir — ikisi de BULGU.
+    "b2_kopru_dogrudan": 0, "b2_kopru_tabi": 0,
 }
+# 0038/H-0004 — köprünün hangi gövdeye yaslandığını ölçen tampon (derece).
+# ~0,02° ≈ 2 km: köprü `difference` ile üretildiği için iki gövdeye de
+# DEĞMEZ; temas ancak tamponla ölçülür. Çok küçük seçilirse ikisi de sıfır
+# çıkar ve karar sessizce "doğrudan"a düşer.
+B2_TEMAS = 0.02
 
 
 def _km_derece(lat):
@@ -1448,22 +1470,41 @@ def _b2_enklav_birlestir(g, sahip_ix):
         # enklav ucunda `w_e`, anakara ucunda `2 × w_e` ile açılan bir
         # YAMUK. Tam üçgen `d`ye orantılı açılırdı; bu sabit bir oranla
         # açılıyor, yani uzaklık arttıkça üçgenden UZAKLAŞIYOR.
+        #
+        # 🟢 VE 0038/H-0003 — EMRE ŞEKLİ TAM TARİF ETTİ (29 Ağustos 2026):
+        #   *"İki yerleşimin bölgeleriyle İÇ BÜKEY KAVİSLİ bir doğru ile
+        #    birleşmeli. Ne bir DİKDÖRTGEN ÇUBUK çıkmalı, ne üç şehir üçgen
+        #    alan boyamalı. KENARLARDAN BASTIRILMIŞ kavisli, PARABOLİK."*
+        #
+        #   ⇒ Yamuk DOĞRU YÖNDEYDİ ama DÜZ KENARLIYDI. Artık kenar, uçları
+        #     aynı bırakıp ORTASINDAN içeri bastırılıyor:
+        #         w(t) = lin(t) · (1 − KAVIS · sin(π·t))
+        #     t=0 ve t=1'de çarpan 1 ⇒ iki gövdeye TAM GENİŞLİKTE kaynıyor
+        #     (dar kaynak, köprüyü koparır ve enklav yine ayrı görünür).
+        #     t=0,5'te %35 içeri ⇒ göze bel vermiş, kavisli bir geçiş.
+        #   ⚠️ KAVIS 0,5'i geçerse orta yerde SIFIRA yaklaşır ve köprü
+        #     kopar; 0,35 kasıtlı ve tavanı burada yazılı.
         x0, y0, x1, y1 = p.bounds
         _la = (y0 + y1) / 2.0
         w_e = min((x1 - x0) * _km_derece(_la), (y1 - y0) * 110.574)   # km
         w_e = max(w_e, 25.0)                    # çok küçük kırıntı için taban
         en_enklav = (w_e / 2.0) / _km_derece(_la)          # yarı-genişlik, derece
         en_ana = min(2.0 * en_enklav, 3.0)                 # anakara ucu, tavan 3°
-        # Yamuğu hattın diklerinden kur
+        # Kavisi hattın diklerinden kur
         _dxu, _dyu = (n2.x - n1.x), (n2.y - n1.y)
         _bo = math.hypot(_dxu, _dyu) or 1e-9
         _px, _py = -_dyu / _bo, _dxu / _bo                 # birim dik
-        bant = Polygon([
-            (n1.x + _px * en_ana,    n1.y + _py * en_ana),
-            (n2.x + _px * en_enklav, n2.y + _py * en_enklav),
-            (n2.x - _px * en_enklav, n2.y - _py * en_enklav),
-            (n1.x - _px * en_ana,    n1.y - _py * en_ana),
-        ]).buffer(0)
+        _N = 24                                            # örnekleme
+        _sol, _sag = [], []
+        for _i in range(_N + 1):
+            _t = _i / float(_N)
+            _lin = en_ana + (en_enklav - en_ana) * _t      # yamuğun düz kenarı
+            _w = _lin * (1.0 - B2_KAVIS * math.sin(math.pi * _t))
+            _cx = n1.x + _dxu * _t
+            _cy = n1.y + _dyu * _t
+            _sol.append((_cx + _px * _w, _cy + _py * _w))
+            _sag.append((_cx - _px * _w, _cy - _py * _w))
+        bant = Polygon(_sol + list(reversed(_sag))).buffer(0)
 
         yasak = _yasakli_mi(bant.difference(g), sahip_ix)
         if yasak:
@@ -4424,10 +4465,23 @@ for i in range(len(tarihler) - 1):
     # çünkü doğrudan toprağa DEĞİYOR.
     _birlesik = unary_union([x for x in (_g_ham, _gt_ham) if x is not None and not x.is_empty])
     _duzelt = gosterim_duzelt(_birlesik, aktif) if not _birlesik.is_empty else _birlesik
-    # Eklenen köprüler DOĞRUDAN gövdeye yazılır: bir koridor Osmanlı'nın
-    # idare ettiği topraktır, bir vasalın değil. Böylece aşağıdaki
-    # `difference` hiçbir şeyi yanlış yiyemez (Emre'nin ⑤. kuralı:
-    # İKİ RENK ÜST ÜSTE BİNMEZ).
+    # 🔴 0038/H-0004 — BU SATIR 29 AĞUSTOS'TA DEĞİŞTİ, EMRE İTİRAZ ETTİ VE HAKLI.
+    #
+    # ESKİ HÂLİ: köprüler koşulsuz DOĞRUDAN gövdeye yazılıyordu. Gerekçe
+    # savunulabilirdi — *"bir koridor Osmanlı'nın idare ettiği topraktır,
+    # bir vasalın değil"* — ama SONUCU YANLIŞTI: tâbi bir girintiyi dolduran
+    # köprü KOYU kırmızı çıkıyor ve göze yama gibi görünüyordu.
+    #   Emre: *"Dolgular DOLDURDUKLARI GİRİNTİ İLE AYNI RENKTE olmalı…
+    #          doldurdukları renk ile SENKRONİZE hareket ederler."*
+    #
+    # YENİ ÖLÇÜT: her köprü parçası, EN ÇOK HANGİ GÖVDEYE YASLANIYORSA
+    # onun katmanına yazılır. Yaslanma, parçanın `B2_TEMAS` kadar
+    # tamponunun her iki ham gövdeyle KESİŞİM ALANIYLA ölçülür — köprü
+    # `difference` ile üretildiği için ikisine de değmez, tampon şart.
+    # ⚠️ Beraberlikte DOĞRUDAN kazanır: eski davranış, sessizce
+    #    değişmemesi gereken taraf.
+    # 📌 `İKİ RENK ÜST ÜSTE BİNMEZ` kuralı bozulmuyor: aşağıdaki
+    #    `g = g.difference(gt)` her hâlde koşuyor.
     try:
         _kopru = poligonal(_duzelt.difference(_birlesik))
     except Exception:
@@ -4435,7 +4489,24 @@ for i in range(len(tarihler) - 1):
     gt = _gt_ham
     g = _g_ham
     if _kopru is not None and not _kopru.is_empty:
-        g = poligonal(unary_union([g, _kopru]))
+        _par = list(_kopru.geoms) if _kopru.geom_type == "MultiPolygon" else [_kopru]
+        _kg, _kt = [], []
+        for _q in _par:
+            try:
+                _cev = _q.buffer(B2_TEMAS)
+            except Exception:
+                _kg.append(_q); continue
+            _ad = _cev.intersection(_g_ham).area if (_g_ham is not None and not _g_ham.is_empty) else 0.0
+            _at = _cev.intersection(_gt_ham).area if (_gt_ham is not None and not _gt_ham.is_empty) else 0.0
+            if _at > _ad:
+                _kt.append(_q); _B23_SAYAC["b2_kopru_tabi"] += 1
+            else:
+                _kg.append(_q); _B23_SAYAC["b2_kopru_dogrudan"] += 1
+        if _kg:
+            g = poligonal(unary_union([g] + _kg))
+        if _kt:
+            gt = poligonal(unary_union([x for x in ([gt] if gt is not None else []) + _kt
+                                        if x is not None and not x.is_empty]))
     # Tâbi bölge doğrudan gövdenin içinden çıkarılır; yoksa delik doldurma
     # Suriye'yi/Mısır'ı yutar ve iki katman üst üste biner.
     if gt is not None and not gt.is_empty:
@@ -4568,6 +4639,9 @@ else:
           f"{_B23_SAYAC['b2_deniz']} DENİZ AŞIRI diye reddedildi · "
           f"{_B23_SAYAC['b2_uzak']} uzak · "
           f"{_B23_SAYAC['b2_yerlesim']} içinde başka devletin yerleşimi var")
+    print(f"  🎨 B2 KÖPRÜ RENGİ: {_B23_SAYAC['b2_kopru_dogrudan']} DOĞRUDAN · "
+          f"{_B23_SAYAC['b2_kopru_tabi']} TÂBİ  "
+          f"(0038/H-0004 — köprü, yaslandığı gövdenin rengini alır)")
     print(f"  🧩 B3 KORİDOR: {_B23_SAYAC['b3_dolduruldu']} dolduruldu · "
           f"{_B23_SAYAC['b3_sig']} SIĞ diye BIRAKILDI (Emre bunu istiyor) · "
           f"{_B23_SAYAC['b3_kapali']} kapalı · "
