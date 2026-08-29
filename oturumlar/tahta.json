@@ -51615,7 +51615,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "UYGULAMA-0035": "2026-08-29 13:54"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
