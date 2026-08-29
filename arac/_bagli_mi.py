@@ -285,6 +285,10 @@ def denetle(ayrinti=False):
         print(f"        yayına zarar vermiyor (tarayıcıya {len(v & t_kume)} "
               f"tanesi yükleniyor) — ama bu dosyaları TEK BAĞLAMDA okuyan "
               f"bir uygulayıcı sonuncusu dışındakileri KAYBEDER (`§7`)")
+        print(f"        ⓘ 29 Ağu ölçümü: bu adı okuyan bir UYGULAYICI BETİK "
+              f"YOK (`grep -rl` → yalnız denetle_yayin + bu alet). Yani risk "
+              f"GERÇEK ama BUGÜN tüketicisi yok — uyarı olmasının sebebi bu. "
+              f"Biri uygulayıcı yazarsa ÖNCE değişkenleri ayrıştırsın.")
     if ayrinti:
         for k, g in MUAF_AD_ALANI.items():
             print(f"     🟡 window.{k}  MUAF — {g}")
