@@ -141,4 +141,57 @@ window.OLAYLAR_EK20 = [
   d:"1315'te Memlük idaresine giren Malatya, İlhanlı Devleti'nin çözülme yıllarında bir süre Eretnaoğulları'nın eline geçmişti. TDV'nin Malatya maddesi dönüşü tek cümleyle veriyor: şehre 1338'den itibaren yeniden Memlükler hâkim oldu. Bu, Anadolu'nun güneydoğusunda İlhanlı sonrası boşluğun Memlük ve Eretna arasında paylaşıldığı yılların bir kesitidir. TDV yılı veriyor, günü vermiyor; kayıt bu yüzden gün hassasiyeti olmadan yazıldı.",
   kaynak:"malatya" },
 
+// ⑧ 1510-07-25 — veri: Trablus  hafsi → ispanya
+//    TDV `trablusgarp` OLAYI ve YILI veriyor, GÜNÜ VERMİYOR:
+//      "Ammâroğulları'ndan sonra Trablusgarp'ta Hafsîler'in hâkimiyeti 1510
+//       yılına kadar sürdü."
+//      "1510'da Trablusgarp, Oliveto Kontu Don Pedro Navarro kumandasındaki
+//       İspanyollar tarafından işgal edildi."
+//    ⇒ Verideki gün (25 Temmuz) TDV ile ÇELİŞMİYOR, standart akademik
+//    anlatıdan geliyor. TDV'nin sustuğu tanecik AÇIKÇA belirtildi (§4).
+{ t:"1510-07-25",
+  b:"Trablusgarp'ın İspanyollar'ca işgali — Hafsî hâkimiyetinin sonu",
+  tur:"savas",
+  onem:2, dunya:2, kapsam:"dis",
+  etiket:["toprak-kayip","savas"],
+  yer:"Trablus",
+  yer_id:"Trablus",
+  kisiler:"Don Pedro Navarro",
+  d:"Ammâroğulları'ndan sonra Trablusgarp'ta Hafsîler'in hâkimiyeti 1510 yılına kadar sürdü. O yıl şehir, Oliveto Kontu Don Pedro Navarro kumandasındaki İspanyollar tarafından işgal edildi; katliamdan kurtulan müslümanlar şehri terketti. İşgal, İspanya'nın Kuzey Afrika kıyısında Melilla'dan Trablus'a uzanan kale zincirinin doğu ucuydu. Trablusgarp halkı 925'te (1519) İstanbul'a bir heyet yollayarak İspanyol istilâsına karşı Osmanlı'dan yardım isteyecek, şehir 1551'de Turgut Reis ve Sinan Paşa tarafından alınarak Osmanlı idaresine girecektir. TDV maddesi yılı veriyor, günü vermiyor; 25 Temmuz standart akademik anlatıdandır.",
+  kaynak:"trablusgarp" },
+
+// ⑨ 1530-03-24 — veri: Malta · Trablus  napoli/ispanya → sovalye
+//    TDV `malta` OLAYI ve YILI veriyor, GÜNÜ VERMİYOR:
+//      "Kanûnî Sultan Süleyman'ın Rodos'tan çıkardığı (928/1522) Saint Jean
+//       şövalyelerini İspanya-Almanya Kralı V. Carlos Malta'ya yerleştirdi (1530)."
+{ t:"1530-03-24",
+  b:"Malta ve Trablus Saint Jean şövalyelerine verildi — Rodos'tan sürülen tarikatın yeni üssü",
+  tur:"siyasi",
+  onem:2, dunya:2, kapsam:"dis",
+  etiket:["toprak-kazanc"],
+  yer:"Malta",
+  yer_id:"Malta",
+  kisiler:"Şarlken (V. Carlos)",
+  d:"Kanûnî Sultan Süleyman'ın 928'de (1522) Rodos'tan çıkardığı Saint Jean (Hospitalier) şövalyeleri sekiz yıl yurtsuz kaldıktan sonra, İspanya-Almanya Kralı V. Carlos tarafından Malta'ya yerleştirildi; aynı bağışla Trablusgarp'ın savunması da tarikata verildi. Malta, sahip olduğu ideal limanlarıyla denizlerde etkili olan şövalyeler için elverişli bir üs hâline geldi: önce Birgu'ya yerleştiler, Saint Angelo Kalesi'ni tahkim ettiler ve Senglea ucunda Saint Michel Kalesi'ni yaptılar. Bu yerleşme, Akdeniz'in ortasında Osmanlı deniz yollarını kesen kalıcı bir düşman üssü doğurdu; Turgut Reis'in 947'de (1540) Gozo'ya akınıyla başlayan çatışmalar 1565 Malta kuşatmasına kadar sürecekti. TDV maddesi yılı veriyor, günü vermiyor.",
+  kaynak:"malta" },
+
+// ⑩ 1887-01-07 — veri: Harar · Cîcîga · Dagahbûr  adal → habesistan
+//    🔴 VERİDEKİ GÜN 1887-01-06, TDV `harar` 7 OCAK DİYOR — BİR GÜN FARK:
+//      "Cihad ilân eden Emîr Abdullah 5000 kişiyle 7 Ocak 1887 günü
+//       Habeşler'i Şeleneko'da karşıladı; ancak yenileceğini anlayınca
+//       güney Harar'da bulunan Ogaden bölgesine kaçtı."
+//    ⇒ Madde TDV'nin verdiği güne yazıldı (§4: TDV esastır). Kırılma günü
+//    1887-01-06'da duruyor ve ±30 içinde olduğu için `2s` yine kapanır;
+//    ama VERİNİN GÜNÜ DE 01-07'ye çekilmeli — koordinatöre bildirildi.
+{ t:"1887-01-07",
+  b:"Çelenko Savaşı — Harar Emirliği'nin sonu ve Habeş işgali",
+  tur:"savas",
+  onem:2, dunya:2, kapsam:"dis",
+  etiket:["toprak-kayip","savas"],
+  yer:"Harar",
+  yer_id:"Harar",
+  kisiler:"Emîr Abdullah",
+  d:"Dâvûd Aussa imamı olunca Oromolar'ın idaresindeki toprakların ortasında kalan Harar yeniden bağımsız bir emirlik hâline gelmiş ve bu hâlini 1887'deki Habeş işgaline kadar sürdürmüştü. Cihad ilân eden Emîr Abdullah 5000 kişiyle 7 Ocak 1887 günü Habeşler'i Şeleneko'da (Çelenko) karşıladı; yenileceğini anlayınca güney Harar'daki Ogaden bölgesine kaçtı. Savaş, ateşli silâhlarla donanmış Habeş ordusuyla emirliğin kuvvetleri arasındaki dengesizliği gösterdi ve Kızıldeniz ardındaki son bağımsız müslüman emirliklerinden birini ortadan kaldırdı. Harar, Cîcîga ve Dagahbûr böylece Habeşistan'a katıldı.",
+  kaynak:"harar" },
+
 ];
