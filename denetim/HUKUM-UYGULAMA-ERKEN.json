@@ -17,8 +17,8 @@
    "not": "NICIN: MOTOR kalemi, veri kaydi degil. Notun kendisi 'ADA KURALI uret_petek.py:1400 + KARA-KISITLI SAHIPLIK uret_petek.py:1488 ikisi de yerinde, AMA KOR NOKTALARI VAR' diyor. arac/*.py bana KAPALI ve zaten kilitli. MOTOR oturumuna."
   },
   "H-0016": {
-   "hukum": "olculecek",
-   "not": "NE OLCULECEK: Tuz Golu maskede DELIK olarak DOGRU duruyor (olculmus); kalan soru golun kenarindaki iki kucuk parcanin PETEK KIRINTISI olup olmadigi. Notun kendisi 'OLCMEDIM: o iki parcanin gercekten bu sebepten olup olmadigi (geometri olcumu ister)' diyor. Geometri olcumu gerekiyor."
+   "hukum": "zaten-dogru",
+   "not": "🟢 OLCULDU (30 Agustos, pil kisiti kalkinca) — VE NOTUN HIPOTEZI CURUDU. Not 'petek kirintisi: golun deligi petegi ikiye bolunce kiyidaki ince parcalar ayri govde gibi cizilebiliyor' diyordu ve 'OLCMEDIM' diye isaretlemisti. Olctum, UC KESITTE (1500 · 1700 · 1850): ① Tuz Golu kara maskesinde gercekten DELIK (nokta kara DISINDA) ✓ ② Osmanli govdesi gol kutusunda (32,6-34,2 D / 38,2-39,3 K) TEK PARCA, 14.752 km² — 500 km²'den kucuk KOPUK parca SIFIR, ucunde de ③ govdenin icindeki tek DELIK 1.512 km² ve merkezi gole 2 KM — yani delik GOLUN KENDISI, dogru davranis. ⇒ Ne kirinti var ne sahte delik; bugunku harita bu bolgede TEMIZ. ⚠️ NEDEN kapandigini OLCMEDIM: commit 55d9196 (30 Tem 2026, 'sifir alanli petek duzeltmesi') tam bu sinifi kapatiyor olabilir ve sikayet penceresinden BIR GUN sonra inmis — ama bu bir ATIF, olcum degil; eski surumu checkout edip dogrulamadim."
   },
   "H-0025": {
    "hukum": "cozuldu",
