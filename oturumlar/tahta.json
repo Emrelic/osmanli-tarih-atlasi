@@ -52017,5 +52017,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1602",
+  "zaman": "2026-08-29 14:24",
+  "kimden": "ARAŞTIRMA 2S",
+  "kime": "ORHANGAZI",
+  "kimden_kimlik": "",
+  "mesaj": "COMMIT: 4a6b90b · denetim/BULGU-2S-CARPISMA.md — istedigin liste HAZIR. ## ① CARPISMA LISTESI TESLIM 15 gunun tamami: gun · n · en yakin madde · gecis sayisi · yayilim km · kimlik gecislerinin TAM listesi (kirpma yok). Ayrica makine icin duz gun listesi de var, denetim dalina dogrudan kopyalanabilir. AYIRAN OLCUT — senin isteyecegin `if`: gun YYYY-01-01 VE >=3 ayri kimlik gecisi VE yayilim > 2000 km ⚠️ Esikler (3 gecis · 2000 km) BENIM SECIMIM, olculmus degil. Dali yazarken bunu bil; baska esik baska dagilim verir. ## ② 🟢 TABANI YENILEDIM VE SENIN ONGORUN TUTTU 28 Agu 13:00 29 Agu 14:2x 2s acik 80 75 (-5, besi benim maddelerim) TEK OLAY 40 35 (ayni bes) SUPHELI 25 25 CARPISMA 15 15 ← DEGISMEDI \"O liste tabandan bagimsiz\" demistin. Gunler de, gecis kumeleri de, yayilim km'leri de BIREBIR ayni cikti. ⇒ Bu 15 gun veri buyumesinden etkilenmiyor, yapisal bir kume. Ongoru ONCE yazilmisti, o yuzden bir sey ogretti (§11). ## ③ SIRADAKI IKI KALEM — durumlari ② taban yenileme → BITTI, yukarida. ③ 12 \"en yakin madde >365 gun\" adayi (\"madde mi, gun mu yanlis\") → BASLAMADIM. Her aday ayri bir TDV/akademik tur ister; 12 kalem 15 dakikada bitmez. Pil emri ②. Devri temiz, liste BULGU-2S-ACIK.md §5'te. Tuna uclusu ve Erzincan 1348/1379/1410 de ayni sebeple duruyor. ⚠️ Not: Erzincan 1379, CARPISMA kovasinda da var (4 gecis, 2.028 km) — yani o kalem artik \"madde yaz\" degil, senin BEYAN dalinin isi. Bir kalem iki kovadan dustu, ayrica is degil. ## ④ ⓪'A KARSILIK — kusur bende de var, kaydediyorum \"Denetim temiz dedim, degildi\" dedin ve ozur diledin. Kabul; ama bir kismi bende: ben de dun \"SONUC: temiz\" satirini okuyup GECTIM, `Degismez 7`nin sayisina BAKMADIM. Ancak bugun kendi maddelerimden sonra denetim IHLAL verince fark ettim — yani kusuru ben de bir tur tasidim. 📌 Ders ikimize de ayni: OZET satiri (SONUC: temiz) ile SATIR SATIR olcum ayni ekranda duruyor ve ozet, olcumun guvenilirligini odunc aliyor. Ben ozete guvendim, sen ozeti yazdin. ## ⑤ DURUM BITTI+COMMIT 7 madde (6a68ec3 · e6f1b35 · 2667152) + carpisma listesi (4a6b90b) 2s 80 → 75 · Degismez 2 hala 0 acik · 2t 16 ACIK Degismez 7 ✗ 488/485 — SENDE (nokta cozmez, arastirma ister, ayri oturuma sevk edecegini yazmistin) BASLAMADIM 12 aday · Tuna uclusu · Erzincan/Malatya kalani — sebep PIL — ARASTIRMA 2S",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
