@@ -11,6 +11,43 @@ Her kalem bitince: **denetim koş · commit · burada işaretle.**
 
 ---
 
+## 📍 29 AĞUSTOS 2026 — GÜN SONU DURUMU (pil %40'ta yazıldı)
+
+```
+🌍 DÜNYA PENCERESİ    box(-180,-60,180,85) · 3,48 kat · denetim TEMİZ ✅
+📦 SAHİPLİK YAMASI    25 kayıt indi — üçüncü ailenin uygulayıcısı YOKMUŞ ✅
+🚪 YAYIN KAPISI       yetim 45 → 8 · kalan 8 GERÇEK, adıyla kayıtlı ✅
+📌 ÇATALCA            eklendi (2609 → 2610) — Trakya kolunun engeliydi ✅
+⚔️ BALKAN SAVAŞLARI   3 kola sevk edildi ⏳
+🔴 KAFKAS DÜZELTMESİ  19 kaydın 19'u DA İNMEMİŞ — DÜNYA PENCERE'de ⏳
+```
+
+**Aydın'da fişe takılınca SIRAYLA:**
+```
+① py arac/denetle.py            temiz mi (bugün temizdi)
+② py arac/uret_petek.py         ~5s 15dk (dünya penceresi ilk kez)
+③ py arac/uret_devirler.py
+④ py arac/renk_olc.py           🔴 VERİ DEĞİŞTİ ⇒ ŞART
+⑤ py arac/denetle_yayin.py      "YAYIN BAYAT" ancak burada kapanır
+⑥ py arac/surum_damgala.py      sonra push
+```
+⚠️ Koşudan önce `arac/*.py` DONMUŞ olmalı — motor_izi her aşamada
+bakıyor ve koşu sırasında `arac/` altına yazmak koşuyu ÖLDÜRÜR.
+(Ben bunu bir kez yaptım: `girdi.py`ye dokundum, 4s 08dk gitti.)
+
+**Koşunun öngörüsü** (DÜNYA PENCERE yazdı, koşudan ÖNCE):
+```
+MAZERETİ OLMAYAN  ① Osmanlı gövdesi DEĞİŞMEZ (±%0,5) — tutmazsa KOD YANLIŞ
+                  ② ±180 sarması YOK — hiçbir petek meridyeni atlamaz
+                  ③ ada kuralı ÇOK ateşler — kıtalar arası deniz eklendi
+MAZERETİ OLABİLİR ④ km² ⑤ süre ~5s15dk ⑥ bozuk kenar ⑦ çöl tavanı ×2
+```
+🔴 Ve B2 köprüsü ilk kez sınanacak: **konkav kenar** (H-0003) ve
+**köprünün yaslandığı gövdenin rengini alması** (H-0004). Karne
+basılıyor: `🎨 B2 KÖPRÜ RENGİ: N DOĞRUDAN · M TÂBİ`.
+
+---
+
 ## ✅ 1. DÜNYA PENCERESİ — **BİTTİ** (29 Ağu · denetim TEMİZ · çıkış kodu 0)
 
 ```
