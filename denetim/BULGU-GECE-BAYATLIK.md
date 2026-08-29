@@ -101,6 +101,39 @@ güven artırıyor, ama bunlar "yeni bulgu" değil):
 
 ---
 
+## İKİNCİ TUR — mükerrer kesinleştirme (M-1743 ③) + TASNIFSIZ devam (M-1743 ④)
+
+### Mükerrerler KESİNLEŞTİRİLDİ (M-1744'te raporlandı)
+- **0008/H-0009·H-0010·H-0011·H-0012·H-0014** — TEK soru ("1281 boşlukları"),
+  `denetim/BULGULAR-SIRADA.md:781`'de ÖNCEDEN de tespit edilmiş (orada 6
+  H-kodu, H-0013 dahil). Beş fazla H-kodu.
+- **0035/H-0097 = 0035/H-0100** — birebir aynı soru. KISMEN işlenmiş:
+  `data/yer_yama_erken.js` üç yerleşime (Kili·Akkirman·Hotin) isg:rusya
+  eklemiş, kaynağı açıkça "0035/H-0097". Kalan altı yerleşim (Ruscuk·
+  Silistre·Bender·İsmail·Vidin·Nigbolu·Yergögü·Turnu Severin) hiçbir
+  yer_yama_*.js'de isg: taşımıyor (tüm dosyalar tarandı) — VERİ kovası,
+  dokunmadım.
+- **0036/H-0012** — GERÇEK MÜKERRER MADDE, iki dosyada TAM METİN: `olaylar_ek8.js:228`
+  VE `olaylar_ek22.js:28`, ikisi de `t:"1835-01-01"`, ikisi de Abdullah b.
+  Reşîd'in Hâil'i alışını anlatıyor. Yayınlanırsa kronoloji panelinde aynı
+  gün İKİ madde görünür — biri silinmeli.
+- **0031/H-0002** (GECE-SAVAS.md) — YANLIŞ KOVA, MOTOR/geometri sorusu
+  (bowtie poligon), savaşla ilgisi yok.
+
+### TASNIFSIZ — ek tarama (toplam 31 satırın 8'i bu turda kontrol edildi)
+| madde | bulgu |
+|---|---|
+| 0033/H-0018, 0036/H-0009 | "HAREKET tipolojisi ZATEN VAR mı" ön-sorusu **ÖLÇÜLDÜ: EVET** — `js/app.js:2530`, 9 tür tam çalışıyor (bu gecenin ARAYUZ turunda ben de doğruladım). Hüküm DEĞİŞMEDİ (sirada) ama SEBEP değişti: eksik olan tipoloji değil, `data/savaslar.js`e güzergah verisi. |
+| 0035/H-0054, H-0055, H-0087 | Üçü de aynı not ("BEŞ-ALTYAPI'nın 5. unsuru, zaten planlı"). `BES-ALTYAPI.md:297` ile doğrulandı: koridor ağı GERÇEKTEN aktif/eksik iş (106 düğümün 26'sı koordinatsız). Bayat DEĞİL, doğru sınıflanmış. |
+| 0030/H-0001, 0030/H-0010, 0032/H-0009 | 🟠 "çare yazılmış, uygulanmamış" — üçü de GERÇEKTEN hâlâ uygulanmamış (MOTOR/ARAYÜZ seviyesi), bayat değil. |
+| 0019/H-0023 | "etiketsiz/dizinsiz nöbetçi yok" tespiti — `arac/denetle.py` taranarak doğrulandı, doğru, bayat değil. |
+
+⚠️ **Kalan 21 TASNIFSIZ satırı bu turda da TARANMADI** (0003/H-0009 ·
+0019/H-0003 · 0022/H-0001 · 0023/H-0005 · 0024/H-0002 · 0030/H-0002 ·
+0030/H-0005 · 0031/H-0004 · 0032/H-0010 · 0032/H-0013 · 0033/H-0013 ·
+0034/H-0017·H-0019·H-0023·H-0036·H-0044 · 0036/H-0006·H-0015 · 0038/H-0006).
+Zaman kısıtı; bu bir "temiz" hükmü DEĞİL.
+
 ## SAYIYLA
 
 ```
