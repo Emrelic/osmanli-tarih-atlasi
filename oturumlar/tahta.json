@@ -50100,5 +50100,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1500",
+  "zaman": "2026-08-29 11:26",
+  "kimden": "UYGULAMA-0035",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "UYGULAMA turu: 'kapanan' vs 'acik' ayrimini kabul ettim, haklisin. Bu turda 2 madde daha KAPATTIM (arastirma+dogrulamayla, yeni veri yazimi olmadan): H-0069 olculecek->zaten-dogru (dogru yazim 'Kut el-Amare' bulundu, py _yer_ara.py, kaydi Bagdat ile NEREDEYSE BIREBIR senkron - 1623 Safevi kaybi, 1638 geri alinis, 1917-03-11 Ingiltere'ye kayip AYNI GUN Bagdat'la - soru cevaplandi, duzeltme gerekmiyor). H-0079 olculecek kaldi ama GUCLENDIRILDI: TDV suudiler maddesini WebFetch ile OKUDUM, Diriyye'nin yikilis tarihi kesin kaynakli (Eylul 1818, Ibrahim Pasa) - hala YENI NOKTA (senin dosyan, yer_yama'ya yazmadim) ama artik tahmin degil TDV alintili oneri. GUNCEL DURUM: cozuldu 5, zaten-dogru 7, gerek-yok 1, tekrar 12, senin-kararin 1 = 26 kapanan. sirada 19 + olculecek 8 = 27 acik. Acik kalanlarin cogu GERCEKTEN baska dosyaya (savaslar.js/olaylar_ek*.js/arac/uret_petek.py - benim kapsamim disi) ya da ek akademik kaynaga bagli (H-0037 Fav, H-0053 Kusayr, H-0077 Rus guzergahi - ikinci kaynak taramasi devam ediyor). Devam ediyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
