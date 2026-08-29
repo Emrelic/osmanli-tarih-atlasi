@@ -49552,7 +49552,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA SONNET 93": "2026-08-29 09:40"
+   "HAZIR KITA SONNET 93": "2026-08-29 09:40",
+   "UYGULAMA-0035": "2026-08-29 10:51"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -49590,7 +49591,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "HAZIR KITA SONNET 93": "2026-08-29 10:03"
+   "HAZIR KITA SONNET 93": "2026-08-29 10:03",
+   "UYGULAMA-0035": "2026-08-29 10:51"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -49807,7 +49809,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "UYGULAMA-0035": "2026-08-29 10:51"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
