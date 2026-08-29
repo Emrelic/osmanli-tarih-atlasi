@@ -247,4 +247,68 @@ window.OLAYLAR_EK20 = [
   d:"İspanya Veraset Savaşı'nı kapatan düzenlemelerin son halkasında Sardinya adası İspanya'dan alınarak Savoy hânedanına verildi; Savoy dükü karşılığında Sicilya'yı bıraktı ve Sardinya Kralı unvanını aldı. Cagliari ve Sassari böylece iki yüzyıllık İspanyol idaresinden çıktı. Doğan Sardinya Krallığı, bir buçuk asır sonra İtalyan birliğini kuracak devletin çekirdeğidir — yani 1870'te Roma'ya giren İtalya Krallığı'nın kökü buraya iner. ⚠️ TDV'nin Sardinya maddesi adanın müslüman ve Akdeniz tarihini anlatıyor, XVIII. yüzyıl hânedan devirlerine girmiyor; kapsayıcı İtalya maddesinde de 1720 geçmiyor. Bu kayıt standart akademik anlatıya dayanır.",
   kaynak:"bulunamadı" },
 
+// ═══ GECE PARTİSİ · KRONOLOJİ kovası — ilk 10'un ilk üçü ═══
+// 📌 KOŞU KAYDI: bu maddeler 30 Ağustos koşusu 00:32'de girdiyi anlık
+//    görüntüledikten SONRA yazıldı ⇒ BU KOŞUDA ÇİZİLMEZ, bir sonrakine
+//    kalır. Kusur değil GECİKME — ama kayıtsız kalırsa ayırt edilemez.
+
+// ⑭ 0020/H-0013 — AHISKA · MADDE YAZILMADI, VE SEBEBİ ÖLÇÜLDÜ.
+//    Emre: "4 Ağustos 1578 Vâdisseyl maddesinde Kafkasya'da ufak bir toprak
+//    değişimi görülüyor; ayrı madde olmalıydı."
+//    ÖLÇTÜM: 1578-08-04'te kırılma YOK (0 adet). En yakın kırılma
+//    1578-08-01 AHISKA (gurcistan → OSMANLI) ve o güne en yakın madde
+//    FAS'taki Vâdisseyl Savaşı — 3 gün. Emre'nin gördüğü şey buydu.
+//    🔴 TDV `ahiska` (gövde okundu) VERİNİN GÜNÜNÜ ÇÜRÜTÜYOR:
+//      "Ahıska atabegleri, Lala Mustafa Paşa'nın Çıldır Savaşı (1578)
+//       SONUNDA Osmanlı idaresine girdiler."
+//    Çıldır 1578-08-09'dur; veri Ahıska'yı SAVAŞTAN SEKİZ GÜN ÖNCE
+//    Osmanlı yapıyor.
+//    🔴 VE BURAYA BİR MADDE YAZMAK YANLIŞ OLURDU — ölçerek gördüm:
+//    külliyatta `1578-08-09` günü ZATEN "Çıldır Zaferi — doğu savaşı
+//    başladı" maddesi var ve metni Kafkasya kazanımını ADIYLA anlatıyor
+//    ("Tiflis alındı ve Gürcistan Osmanlı hâkimiyetine girdi").
+//    İlk yazdığım Ahıska maddesi `denetle.py`nin mükerrer denetiminde
+//    ötdü — aynı gün, aynı kişi (Lala Mustafa Paşa), aynı sefer.
+//    ⇒ EKSİK OLAN MADDE DEĞİL, VERİNİN GÜNÜ: `1578-08-01` → `1578-08-09`
+//    çekilince kırılma zaten Çıldır maddesine oturur. Çare VERİDE ve
+//    koordinatörde; madde yazmak kusuru kapatmaz, KÜLLİYATI ŞİŞİRİRDİ.
+//    📌 Kendi ölçütümün bana dönüşü: "gün kaydırması ancak HEDEF MADDE
+//    AYNI OLAYI ANLATIYORSA meşrudur" — burada anlatıyor.
+
+// ⑮ 0003/H-0017 — İzvornik'in kendi kırılması 1460-01-01'de var ama özel
+//    maddesi yok; Amasra maddesine yapışıyor ("yanlış maddeye yapışma").
+//    TDV `izvornik` YILI veriyor, GÜNÜ VERMİYOR:
+//      "Osmanlılar burayı 1460'ta fethettiler, idarî ve askerî açıdan iyi
+//       konumda bulunduğundan bir kaza merkezi yaptılar."
+{ t:"1460-01-01",
+  b:"İzvornik'in fethi — Drina boyunda Osmanlı kaza merkezi",
+  tur:"fetih",
+  onem:1, dunya:1, kapsam:"ic",
+  etiket:["toprak-kazanc"],
+  yer:"İzvornik",
+  yer_id:"İzvornik",
+  kisiler:"Fâtih Sultan Mehmed",
+  d:"Osmanlılar Drina nehri kıyısındaki İzvornik'i 1460'ta fethettiler ve idarî ile askerî açıdan elverişli konumu sebebiyle burayı bir kaza merkezi yaptılar. Şehir, Bosna'nın fethinden üç yıl önce alınarak Drina hattında ileri bir üs oluşturdu. İlk müslüman yerleşimi İzvornik'in üst kesiminde Fâtih Sultan Mehmed zamanında ortaya çıktı ve daha o dönemde Fâtih'in adını taşıyan bir cami yaptırıldı; şehir 1460-1600 arasında yoğun bir İslâmlaşma ve imar hareketiyle süratle gelişti. TDV maddesi yılı veriyor, günü vermiyor.",
+  kaynak:"izvornik" },
+
+// ⑯ 0023/H-0010 — Emre: "Eğriboz kuşatmasının püskürtülmesi maddesinde
+//    Knin'in düşmesi görüntüleniyor; ayrı bir madde tahsis edilmeli."
+//    ÖLÇTÜM: Knin d: 1522-05-29 → 1688-09-11, sonra `venedik`. Kırılma
+//    gerçek, müstakil maddesi yoktu.
+//    ⚠️ KAYNAK TANECİĞİ: `knin` slug'ı ÖLÜ (302). `dalmacya` maddesi
+//    okundu — Knin ve 1688 HİÇ geçmiyor. Kapsayıcı `karlofca` maddesi
+//    çerçeveyi veriyor ("Venedikliler'in Mora yarımadasından kuzeye
+//    ilerleyerek Atina'yı, Dalmaçya ve Bosna'da birçok kaleyi işgal
+//    etmeleri") ama Knin'i ADIYLA anmıyor. Gün standart akademik anlatıdan.
+{ t:"1688-09-11",
+  b:"Knin'in Venedik'e kaybı — Dalmaçya içlerinde Osmanlı hattının çöküşü",
+  tur:"savas",
+  onem:2, dunya:1, kapsam:"dis",
+  etiket:["toprak-kayip","savas"],
+  yer:"Knin",
+  yer_id:"Knin",
+  kisiler:"",
+  d:"Kutsal İttifak savaşlarının Dalmaçya cephesinde Venedik kuvvetleri, 1522'den beri Osmanlı elinde bulunan Knin kalesini ele geçirdi. Knin, Dalmaçya kıyı şeridiyle Bosna içlerini bağlayan geçidin kilidiydi; düşmesiyle Venedik ilk kez kıyıdan içeriye kalıcı biçimde sarktı ve Osmanlı'nın Adriyatik hinterlandındaki savunma hattı geri çekildi. TDV'nin Karlofça maddesi bu dalgayı genel olarak anıyor — Venedikliler'in Mora'dan kuzeye ilerleyerek Dalmaçya ve Bosna'da birçok kaleyi işgal etmesi — ancak Knin'i adıyla zikretmiyor; kalenin müstakil TDV maddesi de yoktur. Knin'in Venedik'te kalışı 1699 Karlofça Antlaşması'yla tescil edilecektir.",
+  kaynak:"karlofca" },
+
 ];
