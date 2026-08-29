@@ -100,3 +100,16 @@ DOĞRULADIM (devraldığım taban değil, kendi ölçümüm):
 ```
 Koşu canlı, `neden:` alanlarına "bir sonraki koşuya" yazıldı.
 Sıradaki: SINIR YERLEŞİMİ (güney kolu) üzerinde çalışıyorum.
+
+## GÜNCELLEME 6 — SINIR YERLEŞİMİ, GÜNEY kolu, tur 1 (M-1748)
+Dosya: `data/yerlesimler_sinir_guney.js` (window.YERLESIMLER_SINIR_GUNEY).
+Rapor: `denetim/BULGU-SINIR-GUNEY.md`.
+```
+3 nokta yazıldı: Tell Abyad · Ras al-Ayn · Ceylanpınar
+2 yeni çift: Tell Abyad↔Akçakale (~30km) · Ras al-Ayn↔Ceylanpınar (~3-4km)
+7 var olan çift RAPORLANDI (zaten oturmuş, sinir:true bayrağı koordinatörde)
+```
+Boş kalan: Irak sınırının tamamı (Musul meselesi 1923'te çözülmemişti) ve
+Suriye'nin batı ucu (Meydan Ekbez) — devam edilecek.
+Koşu canlı, arac/'a dokunmadım. Sıradaki adım: SINIR YERLEŞİMİ'ne devam ya
+da tahtayı dinliyorum.
