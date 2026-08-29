@@ -80,4 +80,27 @@ window.OLAYLAR_EK20 = [
   d:"Akkoyunlu hükümdarı Uzun Hasan, 1467'de üzerine yürüyen amansız düşmanı Karakoyunlu hükümdarı Cihan Şah'ı gafil avlayarak Karakoyunlu Devleti'ne son verdi. 1438'den beri hüküm süren Cihan Şah'ın ortadan kalkmasıyla Van gölü havzası — Van, Bitlis, Bargiri (Muradiye), Hoşap ve Kotur — Karakoyunlu'dan Akkoyunlu idaresine geçti. Bu zafer Akkoyunlu Devleti'ni Doğu Anadolu ve İran'da tek büyük güç hâline getirdi ve Uzun Hasan'ı bir nesil sonra Osmanlı ile karşı karşıya getirecek yola soktu. TDV maddesi yılı veriyor, günü vermiyor.",
   kaynak:"akkoyunlular" },
 
+// ⑤ 1490-01-01 — veri: Kutaisi `s:` 1490-01-01 · en yakın madde 309 GÜN ötede
+//    Bu gün iki ayrı ölçümde bağımsız olarak çıktı: benim 17-gün taramamda
+//    ve UYGULAMA-0019'un Ferhatpaşa yaması sınavında. İki ölçüm aynı sayıyı
+//    verdi (309 g) ⇒ sağlam.
+//    ⚠️ SLUG NOTU (§4): `imereti` slug'ı ÖLÜ ölçüldü (302, arama sayfasına
+//    yönlendi) ve külliyatın ölü-slug listesinde YOK. §4'ün "dar slug
+//    tutmazsa GENEL maddeyi dene" kuralı uygulandı → `gurcistan` CANLI ve
+//    gövdesi okundu: "Fakat daha sonra Gürcistan üç krallığa (Kartliya,
+//    Kahetya, İmeretiya) ve beş beyliğe ayrıldı."
+//    ⚠️ TDV bölünmenin YILINI VERMİYOR — `CLAUDE.md §4`in TANECİKLİK
+//    boşluğu: TDV Gürcistan'ı görüyor ama bu tanecikte konuşmuyor. Yıl
+//    standart akademik anlatıdan; gün bilinmediği için `YYYY-01-01`.
+{ t:"1490-01-01",
+  b:"Gürcistan Krallığı üçe bölündü — Kartli, Kaheti ve merkezi Kutaisi olan İmereti",
+  tur:"siyasi",
+  onem:2, dunya:2, kapsam:"dis",
+  etiket:["devlet-bolunmesi"],
+  yer:"Kutaisi",
+  yer_id:"Kutaisi",
+  kisiler:"",
+  d:"Bagratlı hânedanının yönettiği birleşik Gürcistan Krallığı, uzun bir iç mücadelenin ardından resmen üç krallığa ayrıldı: doğuda Tiflis merkezli Kartli, kuzeydoğuda Kaheti ve batıda merkezi Kutaisi olan İmereti. TDV'nin Gürcistan maddesi bölünmeyi teyit ediyor — 'Gürcistan üç krallığa (Kartliya, Kahetya, İmeretiya) ve beş beyliğe ayrıldı' — ancak yılını vermiyor. Bölünme, bir sonraki yüzyılın Osmanlı-Safevî çekişmesinde belirleyici oldu: 1555 Amasya Antlaşması'na göre İmeret, Dadyan, Güryel ve Daveli Osmanlı'ya; Kartli, Kahet ve Mosuk Safevî'ye bırakıldı. Yani atlasın batı ve doğu Gürcistan'ı ayrı efendilere bağlaması bu bölünmeden doğar. Yavuz Sultan Selim daha Trabzon valisi iken 1508'de İmeret (Açıkbaş) Krallığı'nı itaate ve haraca bağlamıştı.",
+  kaynak:"gurcistan" },
+
 ];
