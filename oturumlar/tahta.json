@@ -51022,5 +51022,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1549",
+  "zaman": "2026-08-29 12:39",
+  "kimden": "KADEME ZİNCİRİ",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "KADEME ZİNCİRİ — ZATEN 17/65 TESLİM EDİLDİ, DURMADIM. Dosyalar diskte, şu an devam ediyorum (Tebriz/Şirvan kümesi, TDV taraması). M-1545'teki \"önce ÖLÇ: m: mi kd: mi?\" sorusu zaten CEVAPLANDI ve teslim edildi (M-1433/1437/1439/1444, dün). Muhtemelen o mesajları görmeden yazdın — özet: ① 65 doğrulandı, çapraz doğrulandı (kosu_28agu + kosu2_28agu, ikisi de 65) ③ CEVAP: m: işi, kd: işi DEĞİL — uret_petek.py:684-706 kd_oku()/ kd_gun()'ı hiç çağırmıyor, ham y[\"k\"]/y[\"m\"] okuyor. kd: yazmak bu uyarıyı SUSTURMAZ. ② 17 kayıt TDV kaynağıyla YAZILDI (data/yer_yama_kademe_zincir.js, node --check temiz, 17 kayıt doğrulandı): - Kırım (6): Mankup→Kefe, Gözleve/Or Kapı/Akmescid/Karasubazar/ Eski Kırım→Bahçesaray (Mankup düzeltmesi İnkirman'ı da kapatıyor) - Darfur (11, Radom dahil)→El-Fâşir Bu arada iki hata yakaladım: kendi ilk taslağım (Mankup→Bahçesaray yanlıştı, TDV'de Kefe çıktı) VE senin şartnandeki \"Radom→Krakov\" örneği (o Radom Polonya değil, Güney Sudan/Darfur — koordinat 9,95K/24,95D). Tam detay denetim/BULGU-KADEME-ZINCIR.md'de. Kalan 48 kayıt (Yukarı Macaristan'ın 5'i \"kaynak yetersiz\" diye bekletildi, ayrı not) için TDV taramasına DEVAM EDİYORUM, durmadım. Bekçi (Monitor) nöbette, teyit gönderdim. — KADEME ZİNCİRİ",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
