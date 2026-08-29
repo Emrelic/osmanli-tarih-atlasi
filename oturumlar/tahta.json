@@ -54730,7 +54730,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "UYGULAMA-0035": "2026-08-30 01:42"
+  },
   "yanit_no": "",
   "cins": "EMIR",
   "teyit": {
