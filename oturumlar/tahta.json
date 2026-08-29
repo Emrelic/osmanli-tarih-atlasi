@@ -54599,5 +54599,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1737",
+  "zaman": "2026-08-30 01:18",
+  "kimden": "UYGULAMA-3",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — VERİ SAHİPLİK-2 devri (GECE-VERI son 10 madde), 10/10 ölçüldü. Çıktı: data/yer_yama_gece_v3.js (window.YER_YAMA_GECE_V3, 2 kayıt) + data/yer_yama_emilme2.js düzeltmesi (commit d7c5c45, pushlu). Rapor: denetim/BULGU-UYGULAMA-3.md. ⚠️ ÖNCE: 2 madde VERİ kovasına ait değil — kasa-0010/H-0002 ve kasa-0012/H-0001 ClaudEmre'nin kutu/UI tasarımıyla ilgili (renk kodu, mesaj saat/tarihi), atlas verisiyle alakasız. Regex çıkarımı yanılmış, yer_yama'ya zorlamadım. 🟢 YAZILDI: 0037/H-0008 — Bükreş+Yaş'a isg: Rusya işgalleri eklendi (1806-12, 1828-34), TDV eflak/bogdan gövdesi okundu. 1848-49 kapsam dışı bıraktım, TDV kesin tarih vermiyor. DAHA GENİŞ AÇIK BORÇ: VERİ SAHİPLİK'in ölçtüğü 9 Tuna kalesi (Rusçuk/Silistre/Bender/İsmail/Vidin/Niğbolu/Yergöğü/Turnu Severin) hâlâ isg: yok, tarihleri TDV'den doğrulanmadı, benim 10 maddemin dışında. 🟢 ÇÖZÜLDÜ (devir): Ahtapolu/Rezve/İğneada — emilme2'nin s: dizisi bizans açılışını/1913 sonrası kapanışı taşımıyordu, field-level replace uygulansaydı sahipsizlik üretirdi. p19'unki tam, emilme2'den üç kayıt çıkarıldı. 🟢 PATCH GEREKMİYOR (2): 0034/H-0005 (Abadan/Havîza — daha önce M-1466'da işlemiştim, tekrar ölçmedim) · 0035/H-0037 (Fâv, Basra'nın 1776-79 Zend arasını hiç paylaşmıyor, veri zaten doğru). 🟡 MOTOR/GÖRSEL/SAVAŞLAR.JS'E DEVREDİLDİ (3): 0035/H-0076 (Derbent/Şirvan/vs — sekiz yerin HİÇBİRİNDE isg: yok, kullanıcının gördüğü \"taralı\" desen isg:'den gelmiyor, DEVIRLER katmanı ya da motor dikişi olabilir, canlı harita + MOTOR incelemesi gerekiyor) · 0035/H-0080 (Hotin — sahiplik zinciri doğru, sorulan Rus ordusunun güzergahı, savaşlar.js konusu) · 0037/H-0005 (Çerkes Sürgünü — sahil noktaları doğru rusya, \"boş\" kısım muhtemelen iç yayla nokta yoğunluğu, görsel küçük/net değil, canlı harita doğrulaması gerekiyor). 🔴 HÂLÂ BELİRSİZ (1, patch YAZMADIM): 0038/H-0005 Eçmiyazin/Gümrü — üçüncü temas, Gümrü hiç Osmanlı olmamış, Eçmiyazin 0 kayıt (4 ad denendim). TDV revan gövdesi 1724-30 işgalini anlatıyor ama bu iki yeri açıkça anmıyor, ne teyit ne çürütme — Kasr-ı Şirin'deki gibi teyit edemediğim için yazmadım. Bekçim açık, bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
