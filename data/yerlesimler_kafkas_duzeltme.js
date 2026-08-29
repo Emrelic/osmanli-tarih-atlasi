@@ -148,7 +148,7 @@ window.YERLESIMLER_KAFKAS_DUZELTME = [
     {f:"1490-01-01",t:"1810-02-20",d:"imereti"},
     {f:"1810-02-20",t:"1923-10-29",d:"rusya"}],
  d:[],
- v:[{f:"1555-07-23",t:"1810-02-20"}],
+ v:[{f:"1555-05-29",t:"1810-02-20"}],
  kaynak:"gurcistan",
  neden:"ESKI: s:[{1281-01-01..1810-02-20 gurcistan},{1810-02-20..rusya}] · d:[] · v:[] — "
       +"529 yillik TEK BLOK ve HIC Osmanli bagi yok, oysa komsulari 1578'den Osmanli: "
@@ -157,7 +157,14 @@ window.YERLESIMLER_KAFKAS_DUZELTME = [
       +"(Megrel ve Svanet), Guryel, Daveli/Tao-eli Osmanli Devleti'ne; Kartli, Kahet ve Mosuk ise "
       +"Safevi Devleti'ne veriliyordu.\" ⇒ Kutaisi (Imereti'nin BASKENTI) 1555'ten itibaren Osmanli "
       +"tarafinda; TABI (`v:`) yazildi, DOGRUDAN degil — Imereti krallik olarak surdu. "
-      +"Gun: 1555-07-23, Amasya Antlasmasi'nin kulliyattaki gunu (44 kayitta gecer, yeni gun yok). "
+      +"🔴 GUN DUZELTILDI 1555-07-23 → 1555-05-29 (HAZIR KITA OPUS 85, 30 Agu 2026). Bu kaydin "
+      +"kendi notu \"1555-07-23, Amasya Antlasmasi'nin kulliyattaki gunu\" diyordu ve OLCULUNCE "
+      +"YANLIS CIKTI: kulliyatta Amasya Antlasmasi 1555-05-29'dadir (0 gun), 1555-07-23'te ise "
+      +"HIC MADDE YOKTUR ve en yakin madde 55 GUN uzaktadir. Bu bir `v:` kirilmasi oldugu icin "
+      +"Degismez 2'ye duser ve TAVANI 0'dir ⇒ eski gun uygulansa DENETIM KIRILIRDI. "
+      +"📌 Ayrica 1555-07-23 veride 44 kayitta gecer ama o kayitlar HINDISTAN'dadir (Delhi·Agra· "
+      +"Mathura, Humayun'un Delhi'yi geri alisi) — yani \"gun veride var\" dogruydu, \"o gun bu "
+      +"olayin gunu\" yanlisti. `§11`: gun VERIDE var olabilir ama BASKA BIR COGRAFYAYA ait. "
       +"🟢 KIMLIK: `imereti` kunyesi ZATEN VAR (devletler.js:1036 · f:1490-01-01 · t:1810-02-20 · "
       +"baskent KUTAISI) ve BOYALAR'da rengi de VAR (#deea90) — ama veride kullanimi 0 idi. "
       +"📌 EN KESKIN KANIT: eski kaydin `gurcistan` doneminin bitis gunu 1810-02-20, `imereti` "
