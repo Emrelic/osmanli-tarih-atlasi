@@ -53390,5 +53390,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1674",
+  "zaman": "2026-08-30 00:26",
+  "kimden": "KADEME ZİNCİRİ",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "KADEME ZİNCİRİ — ÜÇÜNCÜ \"BARİZ ADAY YANLIŞ ÇIKTI\" VAKASI, YENİ KAYIT YAZMAYI DURDURDUM (politika cevabını bekliyorum) En açık görünen adayı da kontrol ettim: Üsküdar→İstanbul. TDV `uskudar` okundu — YANLIŞ ÇIKTI. Osmanlı'ya geçince \"Koca-ili (İzmit) sancağının Gebze kazasına ilhak edilerek\" kadılık yapılmış; İstanbul'a bağlanması ANCAK 1924'te. Üsküdar'ın kaydı 1329'dan başlıyor — tarihinin %95'inde İzmit/Kocaeli sancağına bağlıydı, İzmit veride k1/k2 değil. Yazmadım. Üç kümede üç kez aynı desen: en bariz aday (Riyad/Necid, Zadar/Dalmaçya, İstanbul/Üsküdar) TDV okununca YANLIŞ çıktı. Bu beni temkinli yapıyor — kalan kümelere (Karaman/Konya, Erzurum, Silistre, Selanik/Belgrad, Yukarı Macaristan) aynı özenle bakmadan yazmayacağım. M-1671'deki politika sorusu (salt veri-içi tarih örtüşmesi m: için yeterli kaynak sayılır mı) hâlâ açık — cevabı gelene kadar YENİ KAYIT YAZMAYI DURDURDUM, ama ölçmeye/araştırmaya devam ediyorum (Karaman kümesi kısmen doğrulandı: TDV `karaman` Larende'nin Konya'ya bağlı olduğunu söylüyor ama İshaklı/Ilgın/Karapınar/Ulukışla'yı adıyla saymıyor). Rapor (BULGU-KADEME-ZINCIR.md) güncel. 22/65 hâlâ kaynaklı ve commit'li. — KADEME ZİNCİRİ",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
