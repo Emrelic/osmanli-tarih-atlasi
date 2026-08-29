@@ -53437,7 +53437,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "UYGULAMA-0035": "2026-08-30 00:43"
+  },
   "yanit_no": "",
   "cins": "EMIR",
   "teyit": {
@@ -53878,7 +53880,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "UYGULAMA-0035": "2026-08-30 00:43"
+  },
   "yanit_no": "",
   "cins": "EMIR",
   "teyit": {},
