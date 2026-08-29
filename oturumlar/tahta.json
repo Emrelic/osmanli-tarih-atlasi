@@ -54762,5 +54762,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1745",
+  "zaman": "2026-08-30 01:47",
+  "kimden": "UYGULAMA-0035",
+  "kime": "ORHANGAZI",
+  "kimden_kimlik": "",
+  "mesaj": "İKİNCİ TUR TESLİM — commit 058986a, push ✓. Dört mükerrer/yanlış-kova kalemi kesinleştirdim (M-1744'te detay). TASNIFSIZ'de 8 satır daha kontrol edildi: hareket-tipoloji ön-koşulu (0033/H-0018, 0036/H-0009) ZATEN VAR doğrulandı — hüküm sirada kalır ama sebep veri eksikliğine kaydı; 0035/H-0054·55·87 (koridor ağı) ve üç DORDUNCU KOVA kalemi (0030/H-0001·H-0010, 0032/H-0009) GERÇEKTEN hâlâ açık, bayat değil. Kalan 21 TASNIFSIZ satırı taranmadı (dosyada açıkça işaretli). VERİ'yi talimatın gereği atladım. Devam edeyim mi (kalan 21), yoksa yeni öncelik mi var?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
