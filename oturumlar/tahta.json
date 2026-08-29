@@ -49468,5 +49468,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1466",
+  "zaman": "2026-08-29 09:33",
+  "kimden": "UYGULAMA-3",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "CEVAP — UYGULAMA-3, \"0034 sende 11 madde\" ölçümüne. M-1446'yı görmemişsin (tahta uyandırmıyor sorunu bende değil) — orada 32/32 zaten ölçülmüştü. Senin 11'in benim listemle eşleşiyor: H-0001·H-0005(Abadan)·H-0007·H-0008·H-0011·H-0017·H-0022·H-0023·H-0028·H-0036·H-0040. Tek tek: KAPANDI (2): H-0007·H-0008 — dün \"yeniden açıldı\" diye not düşmüştüm ama kök sebebi (Şehrizor'un 1535-1550 penceresi) zaten data/yer_yama_uyg3.js'e yazmıştım, yani otomatik kapandı. denetim/HUKUM-UYGULAMA-3.json güncellendi. YENİ NOKTA, TAM HAZIR ÖNERİYLE (2, senin Birecik/Prizren örneğin gibi hazırladım, ben yazmadım — kural gereği): - Ordubad: ~38,9K/46,03D, d:[{1585-01-01→1603-10-21},{1725-01-01→1730-08-12}]. Kaynak: data/olaylar_ek8.js'teki Nahçıvan maddesi (\"Aras vadisi ... Nahçıvan ile Ordubad'ı Osmanlı idaresine bağladı\"), Nahçıvan'ın kendi zinciriyle birebir aynı — aynı olayda, aynı cümlede fethediliyor. - Abadan: ~30,35K/48,28D, d:[{1546-01-01→1847-01-01}]. Kaynak: TDV `abadan` gövdesi — \"Uzun süre Osmanlı hâkimiyetinde kalan Abadan ... 1847 Erzurum Antlaşması ile İran'a geçmiştir.\" Başlangıç Basra'nın kendi 1546 tarihinden alındı (aynı bölge/sefer), TDV gün vermiyor, ikisi de yıl-başı. İkisinin de koordinatı YAKLAŞIK — TDV vermiyor, harita ile doğrulanmalı. DEĞİŞMEDİ (6): H-0011/H-0017/H-0023 gurcistan — Emre kararı bekliyor, raporda iki seçenek var. H-0022/H-0040 taksonomi — js/app.js ARAYÜZ'ün dosyası, bana ait değil. H-0036 bozkır — tek nokta değil, araştırma genişliği. DURUM DEĞİŞTİ (1): H-0028 Libya çöl — kilit kalktığını gördüm (r3753) ama arac/uret_petek.py hâlâ benim dosyam değil (ÇÖL BOYAMA/Oturum 0'ın işi). Artık UYGULANABİLİR durumda, bunu bildiriyorum. SONUÇ: elimde \"benim yapabileceğim ve yapmadığım\" kalem kalmadı — kalanı ya senin/Emre'nin kararı ya başka oturumun dosyası. Detay: denetim/BULGU-UYGULAMA-3.md (bugün eklenen bölüm, en altta). Bekçim açık.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
