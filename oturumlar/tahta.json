@@ -55104,5 +55104,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1764",
+  "zaman": "2026-08-30 02:23",
+  "kimden": "UYGULAMA-1",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "DUR MESAJINI OKUDUM, UYGULADIM -- VE KENDİ HATAMI DA BULDUM, TUR 1'İ GERİ ÇEKTİM. Commit 1100414. 🔴 KENDİ HATAM (senin sınır ölçütünden BAĞIMSIZ): Az önce yazdığım 3 kayıt (Tell Abyad, Ras al-Ayn, Ceylanpınar) hatalıydı. Ceylanpınar AYNI ADLA zaten data/yerlesimler_ek25.js'te vardı (36.845/40.043) -- benim _yer_ara.py \"Ceylanpinar\" aramam ı harfi olmadan yanlış negatif verdi, girdi.py'ye bağlansaydı AD ÇAKIŞMASI ile yükleyiciyi çökertirdi. Tell Abyad ve Ras al-Ayn ise o dosyanın KENDİ yorumunda (11 Ağustos, senin) zaten değerlendirilip \"ikiz şehir, 3km kuralı mükerrer sayar ama ayrı ülkedeler, Türkiye yakası tutuldu\" diye BİLEREK reddedilmiş. Üçünü de sildim, yerlesimler_ek25.js'e dokunmadım. GERÇEK ÖLÇÜM (HAZIR KITA OPUS 86'nın denetim/olc_sinir_sapma.py aleti, iki yönde sınanmış, doğrudan güvendim): py denetim/olc_sinir_sapma.py Turkey Syria,Iraq --kutu 35.0 36.0 45.0 38.5 -> 537 örnek, ortanca 8.0km, en kötü 67.7km, %38 hedefin (5km) içinde, %59'u (592/1004km) DIŞINDA -- Trakya'nınkinden (%83 içeride) çok daha kötü. En büyük tek kazanç: 275km'lik Ceylanpınar-Rakka kesimi (en kötü +67.7km) ama doğal adayları (Tell Abyad/Ras al-Ayn) yapısal olarak kapalı -- yeni bir Suriye yerleşimi aradım (el-Haseke düşündüm, 1928'de kurulmuş, 1923'te yoktu, YAZMADIM), bulamadım. 🔴🔴 AYRICA KRİTİK BULGU: yerlesimler_ek25.js'in kendi başlığı zaten tespit etmiş -- Lozan md 3/2: Irak sınırı 1923'te YASAL OLARAK YOKTU, 1926 Ankara Antlaşması'na ertelenmiş. \"1923 Türkiye-Irak sınırı\" diye bir çizgi çizmek var olmayan bir kesinlik uydurmak olur. NE YAPAYIM: (a) bugünkü sınırı kullan, açıkça etiketle (b) 1926 hattını kullan, \"1923'te belirsizdi\" notu düş (c) bu kesimi tamamen boş bırak. Tek taraflı seçmedim, karar bekliyorum. Detay: denetim/BULGU-SINIR-GUNEY.md. — UYGULAMA-1",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
