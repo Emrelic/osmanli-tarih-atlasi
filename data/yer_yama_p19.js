@@ -102,37 +102,31 @@ window.YER_YAMA_P19 = [
   // ⇒ Osmanli idaresine giren BOLGE'dir; Halepce onun icinde.
   // 🟢 YENI GUN UYDURULMADI — veride ZATEN VAR OLAN Sehrizor gunune
   //    hizalandi. Oteki donemlerin hicbirine dokunulmadi.
-  // 🔴🔴 BU KAYIT TEK BASINA UYGULANMAZ — DEGISMEZ 2'YI ACAR.
-  //    Koordinatorun "17 maddesiz gun" uyarisi uzerine KENDI YAMAMI
-  //    sinadim ve ilk taramam SAHTE GECTI: `kronoloji_*.js`i de saymistim,
-  //    oysa `arac/denetle.py:714` Degismez 2 icin YALNIZ `olaylar*.js`
-  //    tariyor. (CLAUDE.md: "bu gun zaten var YETMIYOR — HANGI KOVADA
-  //    oldugu da sorulmali." Cekirdek vs kuyruk.)
-  //    DOGRU EVRENDE SONUC:
-  //        1638-12-25   en yakin madde  1 gun   ✓  (koordinatorun listesi
-  //                     bu gunu isaretlemis ama BENIM yamamda sorun YOK)
-  //        1554-08-22   en yakin madde 82 GUN   🔴 MADDESIZ
-  //    Oteki 29 kirilma gununun 29'u temiz.
+  // 🔴🔴 BURAYA BIR D2 KILIDI KOYMUSTUM — GERI ALDIM, CUNKU OLCUMUM
+  //    YANLISTI. Kayit icin gecmisi siliyorum degil, KAYDEDIYORUM:
   //
-  // ⇒ SECIM (a): O GUNE MADDE YAZILSIN. Olay gercek ve kaynak TAM GUNU
-  //    veriyor; kirilmayi baska gune kaydirmak (secenek b) tarihi
-  //    bozardi cunku Sehrizor kaydi ZATEN 1554-08-22 kullaniyor.
-  //    HAZIR MADDE METNI (data/olaylar*.js BENIM DOSYAM DEGIL, ONERIYORUM):
-  //        t: "1554-08-22"
-  //        b: "Sehrizor'un fethi — Zalm Kalesi'nin zapti ve sancak kurulusu"
-  //        y: "Sehrizor"   yer_id: "Sehrizor"
-  //        metin: "Bagdat beylerbeyi Baltaci Mehmed Pasa, Osman Pasa'nin
-  //                vefati uzerine Sehrizor bolgesinin merkezi Zalm
-  //                (Kal'a-i Zalim) Kalesi'ni zaptetti. Bolge sancak haline
-  //                getirilerek Murad Bey'e verildi; boylece Sehrizor ve
-  //                cevresi (Halepce dahil) Safevi idaresinden cikip Osmanli
-  //                idaresine girdi."
-  //        kaynak: "islamansiklopedisi.org.tr/sehrizor"
-  //    ⚠️ Madde INMEDEN bu kayit uygulanirsa Degismez 2 BIR YERDEN ACILIR.
+  //    Koordinatorun "17 maddesiz gun" uyarisi uzerine yamami sinadim.
+  //    ① Ilk tarama: `kronoloji_*.js`i de saydim -> "0 maddesiz" ⇒ SAHTE
+  //       GECIS (denetle.py:714 yalniz `olaylar*.js` tariyor).
+  //    ② Ikinci tarama: evreni daralttim -> "1554-08-22 82 GUN MADDESIZ"
+  //       ⇒ kilidi koydum ve hazir madde metni yazdim.
+  //    ③ UYGULAMA-3 itiraz etti: "o madde ZATEN VAR, olaylar_ek8.js".
+  //       Olctum — HAKLIYDI. Madde orada duruyor:
+  //           "t": "1554-08-22" ... "22 Agustos 1554'te alindi. Boylece
+  //            Zagros'un bati yamacindaki Sehrizor havzasi Osmanli
+  //            idaresine girdi..."
+  //    KUSUR BENIM ALETIMDE: regex'im `t:"..."` ariyordu, o dosya JSON
+  //    uslubunda `"t": "1554-08-22"` yaziyor. Suzgec BICIME baglanmisti
+  //    ve gormedigi maddeyi YOK saydi.
+  //    📌 Bu projenin kayitli sinifi ("suzgec BICIME baglanmisti ve yeni
+  //       yamalari SESSIZCE eledi") — ve bu sefer bir DENETIM aletinde.
+  //    ⇒ Duzeltilmis olcum: 30 kirilma gununun 30'u TEMIZ, MADDESIZ 0.
+  //    ⚠️ VE AYNI KUSUR IKINCI BIR HUKMUMU DE CURUTTU: "yer_yama_ferhatpasa
+  //       Kutaisi 1490 maddesiz" demistim ve koordinatorun listesini
+  //       "bagimsiz dogruladim" diye yazmistim. Duzeltilmis olcumde o da
+  //       TEMIZ (9/9). O dogrulama DEGERSIZDI ve geri aliyorum.
   {
     ad: "Halepçe",
-    d2_gerek: "1554-08-22 gunu icin kronoloji maddesi SART — yukaridaki " +
-              "hazir metin. Madde inmeden UYGULAMA.",
     d: [
       { f: "1554-08-22", t: "1623-11-28" },
       { f: "1638-12-25", t: "1917-03-11" }
