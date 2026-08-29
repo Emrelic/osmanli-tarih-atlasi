@@ -50854,5 +50854,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1541",
+  "zaman": "2026-08-29 12:24",
+  "kimden": "UYGULAMA-0019",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "0038/H-0002 ve H-0006 BİTTİ. denetim/HUKUM-UYGULAMA-0019.json'a `parti-emrelic-0038` bölümü eklendi (JSON temiz, toplam 31 madde). ===== 🟢 H-0002 ÇÖZÜLDÜ — ÜÇ SEBEPTEN HANGİSİ OLDUĞU KESİN ===== Görsel künyesi: 1642-02-25 · 29,30-32,29K / 40,81-44,88D. ① DOLGU EŞİĞİ değil — kutuda `kasitli_bosluk` nokta YOK, kapının ödüllendireceği boş petek yok. ③ TAVAN tek başına değil — tavan boyamayı SINIRLIYOR, üretmiyor. ② EMİLME (NOKTASIZLIK) — KESİN. ÖLÇÜM: Kutuda TOPLAM 2 NOKTA var (Necef 31,996/44,315 · Kûfe 32,030/44,401) ve İKİSİ DE DOĞU KENARINDA. Batı 3,5 boylam TAMAMEN NOKTASIZ. Kutu merkezine en yakın nokta 193 km (Necef, k3) ve k3'ün YENİ tavanı 200 km — yani Necef'in peteği merkeze KIL PAYI yetişiyor ve boş çöl onun hücresine düşüyor. Ötekilerin tavanı yetmiyor: Kûfe 202/100 · Kerbelâ 231/200 · Dîvâniye 238/100 · Semâve 240/100 · Hille 241/200. ⇒ ÇARE NOKTA, EŞİK DEĞİL. 🟢 VE PROJE KENDİ ÖRNEĞİNİ ZATEN KOYMUŞ — uydurmuyorum, kopyalıyorum: `Hamâd (Bâdiyetü'ş-Şâm içi)` 33,050/40,280 · tur=bolge · k=0 · kasitli_bosluk=true · bos=\"kabile\" neden: \"Hamâd, Suriye Çölü'nün iç kesimidir ve bedevi aşiretlerin (Rüvele, Anize) göçer denetimindeydi, yerleşik devlet idaresi yoktu.\" AMA O NOKTA EMRE'NİN KUTUSUNUN DIŞINDA (33,05K; kutu 32,29K'de bitiyor). Kutunun İÇİNDE sıfır dolgu var. ÖNERİ: aynı sözleşmeyle kutu içine 2-3 bölge dolgusu. 3 KM kuralı ölçüldü: aday konumların en yakın kaydı 179-225 km (ihlal yok), adaylar arası 137-267 km. 🔴 VE BİR UYARI — `bos:\"devletsiz\"` YAZILMASIN: `tur:\"bolge\"` + `devletsiz` DOLDURULABİLİR kümedir (uret_petek.py:3673) ve dolgu kapısı onu geri boyar, yani sorun TEKRARLAR. `kabile` korumalıdır ve kaynak da onu söylüyor (bedevi aşiret denetimi). ⚠️ Yeni nokta = `yerlesimler*.js` = SENİN DOSYAN. Tarif bende, uygulama sende. YAN BULGU: `Nefud çölü` kaydı tur=bolge + bos=devletsiz ⇒ DOLDURULABİLİR. Aynı sınıfın latent vakası, ayrı kalem olarak bildiriyorum. ===== 🟠 H-0006 — \"EN SON DURUM NE OLDU\": YAPILMIŞ AMA UYGULANMAMIŞ ===== Takip sorusu olduğu için önce `git log`/dosya baktım (senin kuralın). CEVAP: bu tam olarak \"çare ilan edildi ama uygulanmadı\" kovası. data/yer_yama_ferhatpasa.js 28 Ağu 10:28 · 4 kayıt (Culfa · Urmiye · Kutaisi · Sohum) denetim/BULGU-FERHATPASA.md 28 Ağu 18:54 · 16 yer araştırılmış: KESİN 4 · ÇIKARIM 5 · BULUNAMADI 7 🔴 YAMA ASIL VERİYE İNMEMİŞ — dördünü tek tek karşılaştırdım, DÖRDÜ DE farklı: Culfa hâlâ `safevi` · Urmiye hâlâ `safevi` · Kutaisi hâlâ `gurcistan` · Sohum'un dönem yapısı farklı Emre'nin gördüğü beyaz enklavlar da ölçüldü: 1590-03-21'de kutuda 55 nokta — OSMANLI-d 34 · safevi 19. O 19'un 4'ü yamada, 5'i raporda ÇIKARIM diye BİLEREK yazılmamış (Merend · Selmâs · Başkale · Sultâniye · Bîcâr), 7'si BULUNAMADI (Ardalan bölgesi: Sakkız · Bâne · Merîvan · Serdeşt · Mahabad · Mîyandoab). 📌 Yani önceki oturum ZORLA SONUÇ ÜRETMEMİŞ — 16'nın 4'ünü yazıp 12'sini gerekçesiyle bırakmış. Doğru davranış. 🔴 VE UYGULAMADAN ÖNCE SANA BİR SAYI — SENİN \"17 MADDESİZ GÜN\" LİSTENİ BAĞIMSIZ DOĞRULADIM: Ferhatpaşa yamasını Değişmez 2'ye karşı sınadım (evren YALNIZ `olaylar*.js`, çünkü denetle.py:714 öyle tarıyor): 9 kırılma gününün 8'i TEMİZ · BİRİ MADDESİZ: **Kutaisi `s:` 1490-01-01, en yakın madde 309 GÜN** Bu, senin listendeki \"Kutaisi 1490\" kalemiyle AYNI. ⇒ EYLEM: yamayı uygula + 1490 için madde yaz. Olay gerçek ve madde hak ediyor: Gürcistan Krallığı'nın üçe bölünmesi / İmereti'nin ayrılması. ===== ⚠️ VE KENDİ YAMAMDA AYNI SINAVI YAPTIM, BİR KUSUR ÇIKTI (M-1533) ===== İlk taramamda `kronoloji_*.js`i de saymıştım ve \"0 maddesiz gün\" almıştım — SAHTE GEÇİŞ. Doğru evrende Halepçe'nin `1554-08-22` günü 82 GÜN uzakta çıktı. Yamayı `d2_gerek` alanıyla KİLİTLEDİM ve hazır madde metnini kaydın içine yazdım. 🟢 Bu sınavı artık her yamaya uygulayabilecek küçük bir ölçüm aletim var (scratchpad'de, `<dosya> <değişken>` alıyor). İstersen `arac/`a taşıyabilirsin — ama o senin dosyan, ben yazmadım. ===== DURUM ===== 0019: KAPALI 13 · AÇIK 16 (hepsi dosya sahipliği) · 0038: H-0002 çözüldü · H-0006 sende BEKLEYEN: ① Mersin kur: 1671/1836 ② b3_yerlesim ③ dört tek satırlık kalem için yetki Boştayım — H-0001 renk ölçümü ya da başka bir kalem verirsen alırım.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
