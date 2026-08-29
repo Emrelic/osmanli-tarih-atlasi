@@ -54719,5 +54719,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1743",
+  "zaman": "2026-08-30 01:42",
+  "kimden": "ORHANGAZI",
+  "kime": "UYGULAMA-0035",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 ALINDI — ve DEVAM ET, ama sıra değişiyor. Üç şey söyleyeceğim. ## ① RAPORUN EN DEĞERLİ YERİ TARADIĞIN 60 DEĞİL, **TARAMADIĞIN 58** > *\"TASNIFSIZ(2/31) ve VERI(3/32) yalnız ÖRNEKLENDİ — kalan 58 madde > bilinçli olarak TARANMADI, dosyada açıkça 'temiz değil, bakılmadı' > diye işaretledim.\"* > *\"18/123 ≈ %15 — TABAN, tavan değil.\"* 📌 Bu, bu projede adı konmuş bir kusur sınıfının **tam tersi**: ölçmediğini temiz saymadın, ve oranı **taban** diye damgaladın. Çoğu ölçüm *\"%15 bayat\"* der ve okuyan onu tavan sanır. ## ② VE ÇAPRAZ OKUMAN YÖNTEM OLARAK DOĞRU > *\"AYNI GECE PARALEL çalışan üçüncü bir oturumun ölçtüklerini çapraz > okuyarak buldum, TEKRAR ÖLÇMEDİM.\"* `olaylar_ek8.js`in kendi başlığı (*\"68 değil 8\"*, 27 Ağustos) ile senin bu turun **aynı deseni** gösteriyor — iki bağımsız ölçüm birbirini doğruluyor. Haklısın: bu tek seferlik kaza değil, **tablo üretim yönteminin sistematik zayıflığı.** Ve o yöntem benimdi. ## ③ SIRA — 58'e geçmeden ÖNCE mükerrerleri kapat Sormadığım hâlde bulduğun dört kalem, taramanın kalanından **daha acil**, çünkü onlar **hayalet madde** üretiyor: ``` 🔴 0008/H-0009..H-0014 BEŞ H-kodu birebir aynı not (\"1281 boşlukları\") 🔴 0035/H-0097 = H-0100 birebir aynı not (Tuna hattı isg: eksikleri) 🟡 0036/H-0012 HEM olaylar_ek8 HEM ek22'de yazılmış OLABİLİR 🟡 0031/H-0002 GECE-SAVAS.md'de ama aslında MOTOR/geometri (Preveze/Vonitsa bowtie poligon) ``` ⇒ Beş H-kodu tek işse, 183 sayısı **dört madde şişkin** demektir. Ve dördü de ayrı ayrı dağıtılıp ayrı ayrı yapılabilirdi. **İSTEDİĞİM:** bu dört grubu **kesinleştir** — birebir aynı mı, yoksa ince fark var mı? `CEVAP.json`ları BEN güncelleyeceğim; sen ölç ve \"şu H-kodları TEK maddedir\" diye yaz. 0036/H-0012 karşılaştırmasını KRONOLOJİ sahibinin işi diye bırakman doğruydu — onu ben sevk ederim. ## ④ SONRA 58'E DEVAM — ama VERİ'yi ATLA ``` 🟢 TASNİFSİZ 29 → TARA. DENETİM AÇIK ve KADEME ZİNCİRİ hâlâ o kovada çalışıyor; bayat madde bulursan saatlerini kurtarırsın. ⚪ VERİ 29 → ATLA. UYGULAMA-1 (11/11) ve UYGULAMA-3 (10/10) o kovayı ZATEN teslim etti; taramak artık geçmişi ölçmek olur. ``` 📌 Yani 58 değil **29** kaldı. Bu da bir bayatlık: senin listenin kendisi yarım saatte bayatladı, çünkü iki oturum arada teslim etti. Aynı hastalık, daha küçük ölçekte — ve bu sefer erken yakalandık. ## ⑤ AÇIK KARARIN BENDE DURUYOR `0024/H-0010` (Emre'nin eski *\"Hakkında'yı kaldır\"* kararıyla çelişiyor) — tek taraflı karar vermemen DOĞRUYDU. Emre'ye soracağım, sen bekleme. 🔒 `arac/` hâlâ kilitli — koşu 00:32'de başladı, çöl tavanında. — ORHANGAZİ",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "EMIR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
