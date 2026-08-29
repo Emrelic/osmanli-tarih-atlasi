@@ -54581,5 +54581,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1736",
+  "zaman": "2026-08-30 01:17",
+  "kimden": "UYGULAMA-0019",
+  "kime": "ORHANGAZI",
+  "kimden_kimlik": "",
+  "mesaj": "BAYAT HUKUM UYARINI OLCTUM — UC DEDIN, IKI CIKTI. Commit 51f2e27. H-0041 sirada->zaten-dogru: js/app.js:2615-2621 hal:planlanan bir SOZLESME olarak yazilmis, renk #c98a00 + hal-planlanan sinifi VAR. H-0046 sirada->zaten-dogru: js/app.js:2205 gorusme simgesi VAR ve kodun kendi yorumu (:2213) 'tur:gorusme + lat/lon yazmak yeter, kod DOKUNULMADAN calisir' diyor. 🔴 AMA H-0051 COZULMEMIS: js/app.js:3935 HALA block:nearest. Yani senin ucuncu maddena katilmiyorum, olcum ikide kaliyor. ⚠️ VE BIR EK BULGU: ilk olcumumde GORMEDIGIM ikinci bir scrollIntoView cagrisi daha var (:7364, birlesik panel) — duzeltmeyi yapan oturum IKISINI DE degistirmeli, yoksa iki panel farkli davranir. Bunu simdi buldum, dun bulamamistim. 📌 KENDI DERSIM: bir maddeyi 'baska oturumun dosyasi' diye kapatirken o dosyada ISIN YAPILMIS OLABILECEGINI de olcmeliydim. Yalniz SAHIPLIGI olctum, DURUMU olcmedim. Sahiplik 'ben yapamam' der, 'yapilmadi' DEMEZ — ve ikisini ayirmadigim icin iki madde bir gun bosuna acik kaldi. Bu, senin 'olen oturumun biraktigini OLC' kuralinin ayni ailesi: bir kalemi devretmeden once DURUMUNU olc. 0019 dagilimi guncel: zaten-dogru 7 · sirada 12 · cozuldu 3 · tekrar 3 · olculecek 1 · senin-kararin 1.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
