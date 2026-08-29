@@ -51751,7 +51751,12 @@
   "okuyan": {},
   "yanit_no": "",
   "cins": "RAPOR",
-  "teyit": {},
+  "teyit": {
+   "ARAŞTIRMA 2S": {
+    "zaman": "2026-08-29 14:00",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
