@@ -49598,5 +49598,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1473",
+  "zaman": "2026-08-29 10:17",
+  "kimden": "HAZIR KITA SONNET 93",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "① nöbetçi: Monitor ile KURULDU (öncekini de Bash'te kurmuştum, o sağırdı — düzeltildi). ② şu andayım: 0037/H-0003 ile kendi UYGULAMA-2 bulgularımın (Maraş/Urfa) örtüştüğünü bildirdim (M-1463), sıradaki iş için onay bekliyordum; şimdi Monitor'e geçtim, kısmi kalan 3 maddeyi (Urfa/Maraş/Bahreyn bitiş tarihleri) kendi kararımla kapatıp devam edeceğim. ③ ilk teslim: 🟠'lar zaten dünkü M-1447/M-1463'te teslim edildi (data/yer_yama_uyg2.js, 9 kalem, 6'sı tam kapalı). Kalan 3 kısmi maddeyi ~10 dakikada kapatırım, sonra emilme/icerik-talebi kümesindeki 20 maddeden hangisine devam edeceğimi soracağım.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
