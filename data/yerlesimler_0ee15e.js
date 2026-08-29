@@ -124,7 +124,7 @@ window.YERLESIMLER_0EE15E = [
 //         arası ticaret kavşağı (İspanya'nın Peru gümüşünü Avrupa'ya taşıdığı
 //         güzergâh) — k:1, Havana ile aynı tier.
 
-{ ad:"Guayaquil (Santiago de Guayaquil)", tur:"sehir", lat:-2.1894, lon:-79.8890, g:1, k:1, kur:"1538-01-01",
+{ ad:"Guayaquil (Santiago de Guayaquil)", tur:"sehir", lat:-2.1919, lon:-79.9009, g:1, k:1, kur:"1538-01-01",
   s:[{f:"1538-01-01",t:"1822-05-24",d:"ispanyol-peru"},
      {f:"1822-05-24",t:"1830-05-13",d:"gran-kolombiya"},
      {f:"1830-05-13",t:"1923-10-29",d:"ekvador-cumhuriyeti"}] },

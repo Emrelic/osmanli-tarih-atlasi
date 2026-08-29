@@ -431,7 +431,7 @@ window.YERLESIMLER_EK29 = [
 // Sırp despotluğu → 1459 Osmanlı → 1717-1739 Avusturya → 1830 muhtar
 // Sırbistan (v:) → 1878 istiklâl.
 // kaynak: bulunamadı — çizgi kardeş kayıt Kragujevac'tan
-{ ad:"Yagodina (Jagodina)",s:[{f:"1689-09-24",t:"1690-09-09",d:"avusturya"}],d:[{f:"1459-06-20",t:"1689-09-24"},{f:"1690-09-09",t:"1717-08-18"}], tur:"kasaba", lat:43.9772, lon:21.2617, g:0, k:4,
+{ ad:"Yagodina (Jagodina)",s:[{f:"1281-01-01",t:"1439-08-27",d:"sirbistan"},{f:"1444-08-01",t:"1459-06-20",d:"sirp-despotlugu"},{f:"1689-09-24",t:"1690-09-09",d:"avusturya"},{f:"1717-08-18",t:"1739-09-18",d:"avusturya"},{f:"1878-07-13",t:"1882-03-06",d:"sirbistan-prensligi"},{f:"1882-03-06",t:"1918-12-01",d:"sirbistan-kralligi"},{f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],d:[{f:"1439-08-27",t:"1444-08-01"},{f:"1459-06-20",t:"1689-09-24"},{f:"1690-09-09",t:"1717-08-18"},{f:"1739-09-18",t:"1830-11-08"}], tur:"kasaba", lat:43.9772, lon:21.2617, g:0, k:4,
   s:[{f:"1281-01-01",t:"1439-08-27",d:"sirbistan"},
      {f:"1444-08-01",t:"1459-06-20",d:"sirp-despotlugu"},
      {f:"1717-08-18",t:"1739-09-18",d:"avusturya"},

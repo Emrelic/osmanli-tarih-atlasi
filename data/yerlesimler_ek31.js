@@ -149,7 +149,7 @@ window.YERLESIMLER_EK31 = [
 
 // kaynak: bulunamadı — Çuvan ve Yukagir için TDV ARANDI (16 Ağu), madde YOK.
 //   Akademik literatür aranmadı.
-{ ad:"Doğu Sibirya kıyısı (Çuvan-Yukagir)", tur:"bolge", lat:70.000, lon:161.000, g:0, k:0,
+{ ad:"Doğu Sibirya kıyısı (Çuvan-Yukagir)", tur:"bolge", lat:69.6462, lon:160.9149, g:0, k:0,
   kasitli_bosluk:true, bos:"veri-yok", neden:"veri-yok — 68-72°K / 152-168°D hücreleri 507-709 km uzakta; kuzey kıyı şeridi 1281'de noktasızdı. Çuvan/Yukagir için TDV ARANDI: madde YOK.",
   s:[], d:[], v:[] },
 
@@ -170,7 +170,7 @@ window.YERLESIMLER_EK31 = [
 // kaynak: bulunamadı — Penjina/Koryak havzası için TDV'de madde yok,
 //   akademik literatür ARANMADI (İtelmen/Yukagir kayıtlarıyla aynı gerekçe)
 
-{ ad:"Penjina havzası (kuzey Koryak)", tur:"bolge", lat:61.000, lon:156.500, g:0, k:0,
+{ ad:"Penjina havzası (kuzey Koryak)", tur:"bolge", lat:61.1723, lon:156.4398, g:0, k:0,
   kasitli_bosluk:true, bos:"veri-yok", neden:"veri-yok — 60°K/156°D hücresi en yakın 1281 noktasına 576 km. Kamçatka boynu ile Koryak yaylası arasındaki şerit noktasızdı. Koryak için TDV ARANDI: madde YOK.",
   s:[], d:[], v:[] },
 
