@@ -1,9 +1,8 @@
 {
   "_olcen": "UYGULAMA-0019 · 28 Agustos 2026 · ORHANGAZI sevkiyle",
   "_kapsam": "parti-emrelic-0019 (27) + parti-kasa-0010 (1) + parti-kasa-0012 (1) = 29 madde. Sayi DOGRULANDI (SINIFLANMADI.md satir sayimi).",
-  "_yama": "data/donem_yama_p19.js -> window.DONEM_YAMA_P19 (DIZI, 4 kayit). Ad NICIN yer_yama_p19 DEGIL: arac/yama_uygula.js 'data/yer_yama*.js dosyalarinin HEPSINI okur' ve KRONOLOJI bicimi bekliyor; bu kayitlar YERLESIM DONEMI cerrahisi. Cakismayi onlemek icin ad ayrildi (M-1453).",
-  "_grup": "GRUP 1 — 10 madde. Kalan 19 sirada.",
-
+  "_yama": "data/yer_yama_p19.js -> window.YER_YAMA_P19 (DIZI, 3 kayit: Igneada · Rezve · Ahtapolu). ONCE donem_yama_p19.js adiyla yazilmisti (yama_uygula.js ile cakismamak icin); ama koordinatorun yer_yama* taramasinda GORUNMEZ kaldi ⇒ ad ve BICIM calisan yamalara (ad: + tam donem dizileri) hizalandi. Halepce kaydi UYGULAMA-3 lehine GERI CEKILDI (uc olcumde de onunki dogru cikti). AYRICA: data/yer_yama_balkan_trakya.js (4 kayit) ve data/yer_yama_balkan_makedonya.js (1 kayit) ayni oturumun BALKAN kollari, ayri ad alanlari.",
+  "_grup": "29 madde hukumlu (0019) + 0038 iki madde. Guncelleme 30 Agustos.",
   "parti-emrelic-0019": {
     "H-0001": {
       "hukum": "zaten-dogru",
@@ -46,7 +45,6 @@
       "not": "Emre: 'haritada hicbir zaman noktasinda ETIKETSIZ toprak parcasi olmamali, bir kontrol calistiralim'. Devraldigim olcum dogru: `arac/denetle.py` icinde 'etiketsiz'/'dizinsiz'/'kimliksiz' SIFIR eslesme — boyle bir nobetci YOK. BENDE COZULEMEZ: `arac/denetle.py` benim dosyam DEGIL. Yeni denetim dali olarak DENETIM oturumuna devredilmeli. ⚠️ Ve yazilirken CLAUDE.md'nin C13 kurali gecerli: dal IKI YONDE de (gecme + atesleme) sinanmadan 'calisiyor' sayilmaz.",
       "_grup": 1
     },
-
     "H-0025": {
       "hukum": "zaten-dogru",
       "not": "Emre: 'Eflak Osmanli vasali olarak egemenlige katiliyor ama Eflak ETIKETI haritada gorunmuyor'. H-0022 ile AYNI SINIF ve ayni olcum gecerli: tabilik VERIDE VAR (Bukres eflak 1281 -> OSMANLI-tabi 1462-06-01 -> romanya 1878) ve `v[].k` alani 'Eflak Voyvodaligi' diye YAZILI (16 donem). Kusur veride DEGIL: `arac/girdi.py:657` `v[].k` icin birebir 'tabi devletin adi — MOTOR OKUMAZ, gosterim icin' diyor. ⇒ Etiketin cizilmesi ARAYUZ isi (`js/app.js`), benim dosyam degil. Devraldigim not 'bir kaydin donem zinciri kaynakla teyit edilecek' diyordu; olctum, zincir SAGLAM.",
@@ -58,8 +56,8 @@
       "_grup": 2
     },
     "H-0041": {
-      "hukum": "sirada",
-      "not": "Emre: 'planlanan guzergahlar SARI KESIKLI gosterilsin, siyah cizgi yurunmus algisi veriyor'. Devraldigim olcum dogru: tipoloji VAR VE ZENGIN — `js/app.js:2297` dokuz hareket turu, her biri kendi kesik deseniyle (sefer [1.5,1.5] · cekilme [5,4] · akin [1,2] · kusatma [0.5,2] · deniz [4,3] · teslim [2,3] · seyahat [1,3] · isyan [0.5,1.5]) ve RENK VERIDEN geliyor (coalesce get renk). EKSIK OLAN: 'planlanan' diye bir tur/durum YOK. ⇒ Iki dosyaya birden dokunmayi gerektiriyor: `js/app.js` (yeni katman/desen) ve `data/savaslar.js` (kayitlara 'planlanan' isareti). IKISI DE BENIM DEGIL.",
+      "hukum": "zaten-dogru",
+      "not": "🔴 KENDI HUKMUMU DUZELTIYORUM — 29 Agustos'ta `sirada` yazip 'js/app.js + savaslar.js, ikisi de benim degil' demistim. OLCTUM (30 Agu), ARAYUZ TARAFI ZATEN COZULMUS ve BENIM HUKMUMDEN GUNLER ONCE (27 Agustos): `js/app.js:2615-2621` — `hal:\"planlanan\"` bir SOZLESME olarak yazilmis, renk #c98a00 ve `hal-planlanan` sinifi var. Yani Emre'nin istedigi 'sari kesikli' gosterim KODDA HAZIR. ⇒ Kalan is ARAYUZ degil VERI: `data/savaslar.js`teki guzergah kayitlarina `hal:\"planlanan\"` yazilmasi. Kod dokunulmadan calisiyor. 📌 Ders: bir maddeyi 'baska oturumun dosyasi' diye kapatirken o dosyada ISIN YAPILMIS OLABILECEGINI de olcmek gerekiyordu; ben yalnizca SAHIPLIGI olctum, DURUMU olcmedim.",
       "_grup": 2
     },
     "H-0043": {
@@ -73,8 +71,8 @@
       "_grup": 2
     },
     "H-0046": {
-      "hukum": "sirada",
-      "not": "Emre: 'gorusme yerine bir gorusme sembolu konulabilir, tum kronolojilerde tespit edilip konabilir'. Devraldigim olcum dogru: `data/savaslar.js` icinde `tur:\"gorusme\"` SIFIR eslesme; isaret tipolojisi ise zaten zengin (css/style.css:856 meydan/kusatma/ic isyan/deniz + antlasma glifi). ⇒ Eksik olan yalnizca yeni bir `tur` degeri + glif + o turu tasiyan KAYITLAR. Once VERI isi (hangi gorusmeler), sonra arayuz. Iki dosya da benim degil.",
+      "hukum": "zaten-dogru",
+      "not": "🔴 KENDI HUKMUMU DUZELTIYORUM — `sirada` yazmistim. OLCTUM, ARAYUZ TARAFI ZATEN COZULMUS: `js/app.js:2205` `antlasma: \"📜\", gorusme: \"🤝\"`. Ve kodun kendi yorumu (:2213) kalan isi tarif ediyor: '`tur:\"gorusme\"` + `lat`/`lon` yazmak yeter, kod DOKUNULMADAN calisir.' ⇒ Kalan is VERI: hangi gorusmelerin isaretlenecegi ve `data/savaslar.js`e yazilmasi. Benim 29 Agustos olcumum ('`tur:\"gorusme\"` sifir eslesme') HALA DOGRU — ama ondan 'altyapi yok' degil 'VERI yok' sonucu cikmaliydi.",
       "_grup": 2
     },
     "H-0047": {
@@ -89,7 +87,7 @@
     },
     "H-0051": {
       "hukum": "sirada",
-      "not": "Emre: 'aktif kronoloji maddesi pencerede suzgec satirinin HEMEN ALTINDA gorunmeli, scroll gerekmemeli'. Devraldigim olcum dogru ve sebebi tek satir: `js/app.js:3110` `scrollIntoView({block:\"nearest\"})` — 'en az kaydirma' politikasi, madde gorunur alana girsin yeter, o yuzden cogu zaman pencerenin ALTINDA kaliyor. Emre'nin istedigi `block:\"start\"` davranisi. ⇒ TEK SATIRLIK degisiklik ama `js/app.js` BENIM DOSYAM DEGIL. ARAYUZ oturumuna devredilmeli — bu, kapanmasi en ucuz maddelerden biri.",
+      "not": "🟢 BU MADDE COZULMEDI — koordinator uc madde saydi, OLCTUM, IKISI cozulmus. `js/app.js:3935` HALA `scrollIntoView({block: \"nearest\"})` ve :7364'te ikinci bir cagri daha ayni sekilde. Emre'nin istedigi `block:\"start\"` davranisi. ⇒ Kalem ACIK ve hala kolun en ucuz maddesi: iki satirlik degisiklik. `js/app.js` benim dosyam DEGIL. ⚠️ VE IKINCI CAGRIYI (:7364, birlesik panel) ilk olcumumde GORMEMISTIM — duzeltmeyi yapan oturum IKISINI DE degistirmeli, yoksa iki panel farkli davranir.",
       "_grup": 2
     },
     "H-0056": {
@@ -97,7 +95,6 @@
       "not": "Emre: 'Sahra cevresinde ve icinde isaretlenmemis yerlesim kalmis mi bakalim, 1281-1923 arasi tum yerlesimlerin indexde ve haritada oldugundan emin olalim'. IKI PARCA: (A) 🔴 DEVRALDIGIM NOTUN 'kutudaki 29 kasitli_bosluk kaydinin 27'SININ CINSI YAZILMAMIS' HUKMU CURUDU. Olctum (kutu 15-33K / -17..+33D, 157 nokta, 29 kasitli_bosluk): `bos:` alanina gore devletsiz 23 · kabile 4 · veri-yok 2 = 29/29 DOLU; `bos:` alani gercekten bos olan SIFIR. Notun 27'si nereden geliyor, onu da olctum: `neden:` SERBEST METNINDE cins kelimesi gecmeyen kayit sayisi TAM 27. ⇒ Soru dogru, EVREN yanlis — cins `neden:` metninde degil `bos:` ALANINDA duruyor. 📌 Bu, 24 Agustos'ta BULGU-BOSLUK-CINSI.md'de belgeledigim tuzagin IKINCI VAKASI (orada ayni yontem 152 'yazilmamis' vermisti, gercek 0'di). (B) Emre'nin ASIL istegi — 'isaretlenmemis yerlesim kalmis mi' ve BIR TAMAMLIK OLCUTU — hala ACIK. Kutuda yogunluk 1,5 nokta/100.000 km2. Bu bir SAHRA NOKTA YOGUNLUGU partisi ve yeni nokta gerektiriyor ⇒ `yerlesimler*.js`, benim dosyam degil.",
       "_grup": 2
     },
-
     "H-0058": {
       "hukum": "sirada",
       "not": "Emre: 'Bogurdelen'in fethi maddesinde haritada GOSTERIM YERI YOK, ucusta imparatorluk gorunumune geciyor (7 Temmuz 1521)'. Devraldigim olcum dogru ve mekanizmayi da veriyor: `data/savaslar.js` icinde 'delen' SIFIR eslesme — Bogurdelen (Sabac) kusatmasinin SAVAS kaydi yok; kronolojide madde VAR (1521-07-07, yer_id Bogurdelen) ama `js/app.js:1916` isaret uretmek icin `s.lat` tasiyan bir SAVAS kaydi ariyor, bulamayinca gosterim yeri uretilmiyor. ⇒ Care `data/savaslar.js`e bir kusatma kaydi eklemek; O DOSYA BENIM DEGIL. ⚠️ Devraldigim '0 eslesme' olcumunu KENDIM TEKRARLAMADIM.",
@@ -134,7 +131,6 @@
       "_grup": 3
     }
   },
-
   "parti-kasa-0010": {
     "H-0002": {
       "hukum": "sirada",
@@ -142,7 +138,6 @@
       "_grup": 3
     }
   },
-
   "parti-emrelic-0038": {
     "H-0002": {
       "hukum": "cozuldu",
@@ -153,7 +148,6 @@
       "not": "Emre: 'bu aradaki koridor ve enklavlar Osmanli alani olup olmadigini ogrenmemis miydik, EN SON DURUM NE OLDU'. Gorsel 1590-03-21 · 35,02-41,48K / 43,11-48,43D · madde 'Ferhad Pasa Antlasmasi — doguda en genis sinirlar'. TAKIP SORUSU oldugu icin ONCE 'bu is yapilmis mi' diye baktim (koordinatorun kurali). CEVAP: 🟠 YAPILMIS AMA UYGULANMAMIS — bu tam olarak 'care ilan edildi ama uygulanmadi' kovasi. OLCUM: `data/yer_yama_ferhatpasa.js` VAR (28 Agu 10:28, 4 kayit: Culfa · Urmiye · Kutaisi · Sohum) ve `denetim/BULGU-FERHATPASA.md` (28 Agu 18:54) 16 yeri arastirmis (KESIN 4 · CIKARIM 5 · BULUNAMADI 7). YAMA ASIL VERIYE INMEMIS: dordunu de tek tek karsilastirdim, DORDU DE farkli — Culfa hala `safevi`, Urmiye hala `safevi`, Kutaisi hala `gurcistan`, Sohum'un donem yapisi farkli. Emre'nin gordugu beyaz enklavlar da olculdu: 1590-03-21'de kutuda 55 nokta, 34 OSMANLI-d · 19 safevi. O 19'un 4'u yamada, 5'i raporda CIKARIM diye BILEREK yazilmamis (Merend · Selmas · Baskale · Sultaniye · Bicar), 7'si BULUNAMADI (Ardalan bolgesi: Sakkiz · Bane · Merivan · Serdest · Mahabad · Miyandoab). 🔴 VE UYGULAMADAN ONCE BIR SAYI: yamayi Degismez 2'ye karsi sinadim (evren YALNIZ `olaylar*.js`, cunku denetle.py:714 oyle tariyor) — 9 kirilma gununun 8'i temiz, BIRI MADDESIZ: Kutaisi `s:` 1490-01-01, en yakin madde 309 GUN. Bu, koordinatorun '17 maddesiz gun' listesindeki 'Kutaisi 1490' kalemiyle AYNI ve bagimsiz olarak dogrulanmis oldu. ⇒ EYLEM: yamayi uygula + 1490 icin madde yaz (Gurcistan Kralligi'nin uce bolunmesi / Imereti'nin ayrilmasi gercek bir olay ve madde hak ediyor). Ikisi de BENIM DOSYAM DEGIL (`yerlesimler*.js` · `olaylar*.js`) ⇒ koordinatore devredildi."
     }
   },
-
   "parti-kasa-0012": {
     "H-0001": {
       "hukum": "sirada",
