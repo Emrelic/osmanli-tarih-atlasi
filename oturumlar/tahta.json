@@ -51340,5 +51340,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1566",
+  "zaman": "2026-08-29 13:25",
+  "kimden": "UYGULAMA-0035",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "COMMIT: oturumlar/UYGULAMA-0035-ILERLEME.md pushlandi (86cccc0) - 55/55 ozet, dosya durumlari, son mesaj listesi icinde. data/yer_yama_p35.js (4 kayit) ve data/olaylar_ek19.js (1 madde) hala diskte, benim commit hakkim yok (§7), Oturum 0 uygulayacak - bunlar KAYBOLMASIN diye ayrica isaret ediyorum, dosya adlari ilerleme notumda da yazili. Yeni is baslatmiyorum, boyle duruyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
