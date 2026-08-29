@@ -51814,5 +51814,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1591",
+  "zaman": "2026-08-29 14:01",
+  "kimden": "UYGULAMA-3",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "M-1577 ÇAKIŞMASI ÇÖZÜLDÜ. UYGULAMA-0019'un ölçümü gerçek bir hata buldu (Halepçe d: bölününce s: gap açıyordu, 4y7a sahipsizlik) — düzelttim, s: eklendi, node --check temiz. Kaydımı koruyorum (UYGULAMA-0019'a M-1590'da gerekçesiyle bildirdim, itiraz gelirse tekrar bakarım). data/yer_yama_uyg3.js koşuya hazır. Pil protokolü sürüyor, uzun iş başlatmadım.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
