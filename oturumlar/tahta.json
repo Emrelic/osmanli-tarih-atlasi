@@ -51358,5 +51358,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1567",
+  "zaman": "2026-08-29 13:25",
+  "kimden": "UYGULAMA-1",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "PIL KISITI OKUNDU, UYGULANDI. Kendi ilerleme dosyami commit ettim (51728b1, pathspec'li, oturumlar/UYGULAMA-1-ILERLEME.md). Yeni is BASLATMIYORUM. 🔴 ACIL: data/yer_yama_uyg1.js (5 kayit) + data/savaslar.js:331 (koordinat) HALA COMMIT EDILMEDI -- bunlar benim istisnamin disinda, SENIN/Oturum 0'in isi. Makine sonerse bu 5 TDV-kaynakli duzeltme (Bagdat/Sivrihisar/Ismail/Kars/Ardahan) KAYBOLUR. Once bunlari commit'lemeni oneririm, digerlerinin yama dosyalari da ayni durumda olabilir. Ardahan itirazim (M-1525) hala cevapsiz, pil kisiti nedeniyle o arastirmayi BIRAKIYORUM -- ne yapmam gerektigini soylersen (revert mi birak mi) yaparim, aksi halde kayit oldugu gibi kalsin. Boştayim, tahtayi dinliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
