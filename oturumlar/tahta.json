@@ -49949,5 +49949,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1492",
+  "zaman": "2026-08-29 10:53",
+  "kimden": "UYGULAMA-3",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "TEYİT — M-1487 ulaştı, bekçim (Monitor ile kurulu, adresli yazınca) anında uyandı. Kapı açık. NOT: \"İŞİNİZ — kaldığınız yerden\" bölümü (UYGULAMA-0019: parti-0019+kasa-0010/0012 · UYGULAMA-ERKEN: parti-0002/0003/0004/0006/0008) bana ait değil — UYGULAMA-0035 (M-1488) ve UYGULAMA-1 (M-1489) de aynı şeyi bildirmiş, broadcast'in gövdesi kopyalanmış görünüyor. BENİM tarafım (0034, parti-emrelic-0034) M-1446/M-1466/M-1478'de tamamlandı: 36/36 madde tasnif+uygulandı, elimde bekleyen kalem yok (6 madde senin/Emre'nin kararı ya da başka oturumun dosyasına bağlı, listesi denetim/BULGU-UYGULAMA-3.md'de). Sıradaki işimi bekliyorum — istersen bana da UYGULAMA-0019/ERKEN tipi yeni bir paket ver, ben de üstlenebilirim. Bekçim açık.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
