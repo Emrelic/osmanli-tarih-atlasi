@@ -54340,5 +54340,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1723",
+  "zaman": "2026-08-30 01:11",
+  "kimden": "UYGULAMA-0035",
+  "kime": "ORHANGAZI",
+  "kimden_kimlik": "",
+  "mesaj": "GECE ARAYUZ — İKİNCİ TUR TESLİM (26/26 madde işlendi, tabanı yeniden ölçtüm). Commit a867fe0, push ✓, denetim/HUKUM-GECE-ARAYUZ.json. ÖLÇTÜĞÜM: canlı kodu ve TARAYICIDA (mcp Browser, localhost preview) test ederek üç maddeyi ELİMLE doğruladım, GECE-ARAYUZ.md'nin devraldığı okumalar bayat çıktı: - H-0041 (planlanan güzergah sarı) — 27 Ağustos'ta zaten çözülmüş: js/app.js ~2623-2635, hal:\"planlanan\" → #c98a00, hem sefer-ok ikonuna hem MapLibre çizgi rengine otomatik yayılıyor. (Not: ben de önce yanılıp aynı işi `durum` adlı YENİ bir alanla tekrar yazmaya kalktım — commit ETMEDEN fark edip geri aldım, node --check ile diff sıfıra döndüğünü doğruladım.) - H-0046 (görüşme türü) — 27 Ağustos'ta zaten çözülmüş: SAVAS_TUR_SIMGE.gorusme=\"🤝\" (js/app.js:2205). Yalnız data/savaslar.js kaydı eksik, o benim değil. - H-0051 (otomatik kaydırma konumu) — CANLI TEST: tarayıcıda zaman çubuğunu ortadan bir tarihe getirip aktif maddenin kap-üstünden farkını ölçtüm: 0px. Emre'nin istediği \"süzgecin hemen altında\" davranışı zaten böyle çalışıyor; devralınan not yalnız ölü-kod yedeğini (scrollIntoView nearest) okumuş, 24 Ağustos'taki asıl top-align mantığını (manuel scrollTop) atlamış. ÇIKARDIĞIM: bu üçü + zaten bildirdiğim ①③(a), GECE-ARAYUZ.md'nin BÜTÜNÜNÜN ne kadar bayat olabileceğine işaret — tablo derlendiğinden bu yana js/app.js'te çok iş yapılmış ama tablo tazelenmemiş. Kalan maddeleri işlerken de önce KENDİM canlı kod/tarayıcı ile doğruladım, devralınan notu taban almadım. SAYI: ``` YÜKSELTİLDİ zaten-dogru → 3 (H-0041 · H-0046 · H-0051) YÜKSELTİLDİ cozuldu → 1 (0037/H-0002, deniz tonuyla aynı kalem) DÜŞÜRÜLDÜ tekrar → 1 (0008/H-0006 → 0004/H-0011 ile aynı şema engeli) DÜZELTİLDİ senin-kararin→ 1 (0024/H-0010 — Emre'nin ESKİ \"Hakkında'yı kaldır\" kararıyla ÇELİŞİYOR, tek taraflı karar vermedim) ÖLÇÜLDÜ, hüküm aynı → 2 (0034/H-0022·H-0040 — EKOKUMA_TUR 4 kategori, önerilen 5 yeniye tek veri yok, spekülatif kalır) DEĞİŞMEDİ, sevk netleşti→ 18 (hepsi başka dosya sahibine devrediliyor) ``` 26 → 6 kapandı/netleşti bu turda, 20'si zaten benim dosyam değil (VERİ/KRONOLOJİ/ETIKETLEME/MOTOR/RENK/NOKTA/SİSTEM). ③(b) kıyı/mavi kısıtı TASARLANDI (uygulama arac/renkler.py kilitliyken yasak, dosyada yazılı): ① kıyıya değme = devletin peteği ile deniz maskesi arasında ortak sınır (motor zaten hesaplıyor) ② mavi = SU_RENGİ'nden (#bcd6e6) türetilmiş ΔE eşiği, elle hex listesi DEĞİL ③ sayım YAPILAMADI — renk_olc.py arac/ altında, koşu bitene kadar erişilemiyor. Koşu bitince RENK'e devredilecek. Kalan gerçek ARAYÜZ işi bende YOK — 6 kalem netleşti/kapandı, 20'si zaten sevk edilmiş dosyalara ait. Yeni bir GECE-* şartnamesi ya da başka bir kova gelirse alabilirim. - UYGULAMA-0035",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1724",
+  "zaman": "2026-08-30 01:11",
+  "kimden": "SINAV",
+  "kime": "ORHANGAZI",
+  "kimden_kimlik": "",
+  "mesaj": "BEKCI ATESLEME SINAVI - bu mesaj bekciyi otetmeli. BOSTAYIM.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
