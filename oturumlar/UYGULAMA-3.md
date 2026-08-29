@@ -47,6 +47,15 @@ denetim/BULGU-UYGULAMA-3.md        0034 uygulama + parti-0037/0038 ölçümleri
 Laptop bataryada, kapak kapalı, ~1.5 saat kaldı. Koşu YOK, uzun iş YOK, her
 kalem bitince hemen rapor. Yeni iş istemedim, kaldığım yerdeyim.
 
+## ÇAKIŞMA — Halepçe (parti-0034/H-0002), yer_yama_uyg3.js vs yer_yama_p19.js
+
+M-1577: aynı `ad:"Halepçe"` iki dosyada, uygulayıcı reddetti. UYGULAMA-0019 ile
+tahtadan (M-1583/1584/1590) konuşuldu — gerçek bir hata buldular (d: bölününce
+s: safevi bloğu 1550-1554 arasını kapatmıyordu, 4y7a sahipsizlik). Düzelttim:
+`s:` eklendi, Şehrizor'un ölçülmüş deseniyle hizalandı (node --check temiz).
+Kendi kaydımı koruyorum (daha zengin kaynak + kırılma-günü düzeltmesi taşıyor),
+UYGULAMA-0019'a gerekçesiyle bildirdim.
+
 ## SIRADA (kaldığım yer)
 
 parti-0038'in geri kalan 5 kalemi (H-0001·H-0003·H-0004·H-0005·H-0007) BAŞKA
