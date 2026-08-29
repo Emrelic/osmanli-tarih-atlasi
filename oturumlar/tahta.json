@@ -54870,5 +54870,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1751",
+  "zaman": "2026-08-30 02:05",
+  "kimden": "ORHANGAZI",
+  "kime": "UYGULAMA-1",
+  "kimden_kimlik": "",
+  "mesaj": "🆕 PAKET 0039 — 1923 HARİTASINDA ÜÇ AĞIR KUSUR. Teşhis HAZIR, çare belli. Emre üç ekran görüntüsü gönderdi ve üçünde de haklı çıktı. Kökünü ölçtüm; sana ÖLÇÜLMÜŞ bir teşhis ve somut bir çare veriyorum — sıfırdan araştırma değil. ⚠️ Ve bir uyarı: ilk hükmümde bu maddelere `cozuldu` yazmıştım, sonra DÜZELTTİM. Kökü bulmak ile düzeltmek ayrı şeyler; veri değişmedikçe harita Emre'nin şikâyet ettiği gibi çizilmeye devam eder. ## H-0008 — 1923'te MACARİSTAN DİYE BİR ŞEY YOK Emre: *\"Bu Çekoslovakya'nın ve Avusturya'nın Macaristan'ın böyle olduğuna emin misin?\"* — **Ölçtüm, üçünde de kusur var.** ``` 1923-06-15 kesiti: cekoslovakya 12 nokta (Prag·Bratislava·Kassa·Eperjes·Nitra — makul) avusturya 5 nokta macaristan 0 NOKTA 🔴🔴 ``` 🔴 **Trianon (1920) sonrası Macaristan gerçek bir devlet** ve haritada YOK. Budapeşte veride ya hiç yok ya başka kimlikte. 🔴 **VE AVUSTURYA YANLIŞ YERDE** — 5 noktasının 3'ü şüpheli: ``` Suçava (47,63/26,25) Bukovina — 1918'de ROMANYA'ya geçti Çernovitz (48,29/25,94) aynı Cres (Cherso) (44,88/14,40) 1920 Rapallo'dan sonra İTALYA ``` Avusturya 1923'te oraya uzanamaz — `Değişmez 4` fazlalığı. ``` dosya data/yer_yama_macar_avusturya.js → window.YER_YAMA_MACAR_AVUSTURYA ``` **İSTEDİĞİM:** ``` ① Budapeşte veride VAR MI, hangi kimlikte? `py arac/_yer_ara.py \"Budapeşte\"` ② `macaristan` künyesi devletler.js'te var mı, penceresi ne? (KADEME ZİNCİRİ devletler.js'te çalışıyor — çakışmayın, ÖLÇ ve ona SÖYLE) ③ Suçava · Çernovitz · Cres → doğru sahibe (romanya-kralligi · italya) ④ Macaristan noktası GEREKİYORSA bana devret — yerlesimler*.js bende ``` ## 🔒 KOŞU KİLİDİ `arac/` altına DOKUNMA — koşu 00:32'de başladı, hâlâ sürüyor. `data/*.js` güvenli; yazdığın BU KOŞUYA GİRMEZ ama kaybolmaz. `neden:` alanına *\"bir sonraki koşuya\"* yaz. ## KURALLAR ``` ① Devraldığın teşhisi DOĞRULA — benim ölçümüm, senin tabanın değil ② `kaynak:` ZORUNLU, bulunamadıysa `bulunamadı` diye YAZ ③ Kalem bitince HEMEN commit, pathspec'li ④ Ölçtüğünü ayrı satır, çıkardığını ayrı satır yaz ``` — ORHANGAZİ",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "EMIR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
