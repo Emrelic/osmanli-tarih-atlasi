@@ -48628,7 +48628,8 @@
    "YAMA KURTARMA": "2026-08-28 19:15",
    "VERİ SAHİPLİK-2": "2026-08-28 19:16",
    "HAZIR KITA SONNET 93": "2026-08-29 09:29",
-   "UYGULAMA-0035": "2026-08-29 09:29"
+   "UYGULAMA-0035": "2026-08-29 09:29",
+   "DENETİM AÇIK": "2026-08-29 12:38"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -48718,7 +48719,8 @@
    "YAMA KURTARMA": "2026-08-28 19:15",
    "VERİ SAHİPLİK-2": "2026-08-28 19:16",
    "HAZIR KITA SONNET 93": "2026-08-29 09:29",
-   "UYGULAMA-0035": "2026-08-29 09:29"
+   "UYGULAMA-0035": "2026-08-29 09:29",
+   "DENETİM AÇIK": "2026-08-29 12:38"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -48761,7 +48763,8 @@
    "YAMA KURTARMA": "2026-08-28 19:15",
    "VERİ SAHİPLİK-2": "2026-08-28 19:16",
    "HAZIR KITA SONNET 93": "2026-08-29 09:29",
-   "UYGULAMA-0035": "2026-08-29 09:29"
+   "UYGULAMA-0035": "2026-08-29 09:29",
+   "DENETİM AÇIK": "2026-08-29 12:38"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -49344,7 +49347,8 @@
   "vade": "",
   "okuyan": {
    "HAZIR KITA SONNET 93": "2026-08-29 09:29",
-   "UYGULAMA-0035": "2026-08-29 09:29"
+   "UYGULAMA-0035": "2026-08-29 09:29",
+   "DENETİM AÇIK": "2026-08-29 12:38"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -49365,7 +49369,8 @@
   "vade": "",
   "okuyan": {
    "HAZIR KITA SONNET 93": "2026-08-29 09:29",
-   "UYGULAMA-0035": "2026-08-29 09:29"
+   "UYGULAMA-0035": "2026-08-29 09:29",
+   "DENETİM AÇIK": "2026-08-29 12:38"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -49553,7 +49558,8 @@
   "vade": "",
   "okuyan": {
    "HAZIR KITA SONNET 93": "2026-08-29 09:40",
-   "UYGULAMA-0035": "2026-08-29 10:51"
+   "UYGULAMA-0035": "2026-08-29 10:51",
+   "DENETİM AÇIK": "2026-08-29 12:38"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -49592,7 +49598,8 @@
   "vade": "",
   "okuyan": {
    "HAZIR KITA SONNET 93": "2026-08-29 10:03",
-   "UYGULAMA-0035": "2026-08-29 10:51"
+   "UYGULAMA-0035": "2026-08-29 10:51",
+   "DENETİM AÇIK": "2026-08-29 12:38"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -50996,7 +51003,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "DENETİM AÇIK": "2026-08-29 12:38"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
