@@ -1,0 +1,51 @@
+{
+  "kaynak": "oturumlar/GECE-ARAYUZ.md (26 madde) + M-1518/M-1699'daki üç Emre kararı",
+  "oturum": "UYGULAMA-0035 — GECE PARTİSİ",
+  "tarih": "2026-08-30",
+  "kararlar": {
+    "1_panel_dugmesi": {
+      "hukum": "zaten-dogru",
+      "not": "0027/H-0012 'GİDECEĞİ durum' kararı 24 Ağustos'ta zaten uygulanmış (PANEL_KADEMELER/PANEL_ETIKET, js/app.js ~5548-5619). GECE-ARAYUZ.md'nin devraldığı '0027/H-0012 BULUNDUĞU durum' bilgisi bayat. M-1706'da raporlandı."
+    },
+    "2_sekizinci_boyut": {
+      "hukum": "cozuldu",
+      "not": "dunya-ac ayarı (localStorage, varsayılan kapalı) + olaylar dizisi filtresi eklendi (kapsam:'konu' hariç tutuluyor kapalıyken). Pilot madde data/olaylar_ek19.js (Bastille). index.html script satırı KOORDİNATÖRÜN işi, henüz eklenmedi — bildirildi. Commit b86891a. M-1706'da raporlandı."
+    },
+    "3a_deniz_tonu": {
+      "hukum": "zaten-dogru",
+      "not": "SU_RENGI = #bcd6e6, 24 Ağustos'ta zaten uygulanmış (ΔE ölçülerek 'bir tık'). GECE-ARAYUZ.md'nin devraldığı #a8c8dc bilgisi bayat. M-1706'da raporlandı. AYRICA 0037/H-0002 bu kararla ÇÖZÜLÜYOR — aşağıda ayrıca işaretlendi."
+    },
+    "3b_kiyi_mavi_kisiti": {
+      "hukum": "tasarlandi_uygulanmadi",
+      "not": "arac/renkler.py KOŞU BİTENE KADAR kilitli, uygulama yasak. TASARIM: ① 'kıyıya değiyor' = devletin herhangi bir döneminin peteği (uret_petek.py çıktısı) ile deniz maskesi arasında ortak sınır varsa (motor zaten kıyı-yaslama için bu kesişimi hesaplıyor, MIMARI.md §2). ② 'mavi' = SU_RENGİ'nden (#bcd6e6) türetilmiş bir ΔE eşiği (ör. ΔE<25 novgorod #84c9cf gibi mevcut yakın-mavi uyarısının kullandığı eşikle TUTARLI) — elle bir hex listesi DEĞİL, deniz tonu değişince kendiliğinden kayar. ③ SAYIM yapılmadı — renkler.py kilitliyken devletler.js+uret_petek.py çıktısı üzerinden kaç devletin kıyı+mavi kesiştiğini ölçmek renk_olc.py'nin kendisini gerektiriyor, o da arac/ altında. Koşu bitince ①②③ ölçülüp renk/RENK oturumuna devredilecek."
+    }
+  },
+  "26_madde": {
+    "0002-H-0005": { "hukum": "sirada", "sevk": "MOTOR/RENK", "not": "Bizans gövdesinin RENGİ sorunlu (katman değil). arac/renkler.py koşu bitene kadar kilitli. Değişmedi." },
+    "0004-H-0011": { "hukum": "sirada", "sevk": "VERİ (devletler.js şema)", "not": "Yabancı devlet başkent yıldızı — engel doğrulandı: devletler.js `baskent` TEK DEĞER, zaman penceresi yok. js/app.js:1797-1815'te ölçüm zaten yazılı ve Osmanlı için yaklaşık çözüm (d: periyodundan türetme) uygulanmış. Yabancılar için şema değişmeden yapılamaz. Değişmedi." },
+    "0008-H-0001": { "hukum": "olculecek", "sevk": "KRONOLOJİ/VERİ (TDV sahibata kademe tarihleri)", "not": "Değişmedi, benim dosyam değil." },
+    "0008-H-0006": { "hukum": "tekrar", "not": "0004/H-0011 İLE AYNI ENGEL — 'yabancı künyelerin baskent alanı zaten dolu, eksik çizim' iyimserliği YANLIŞ: tek-değerli alan başkenti DEĞİŞEN devletler için (çoğunluğu değil ama bilinmeyen bir alt kümesi) anakronik yıldız üretir (CLAUDE.md §3.5 hayalet-devlet sınıfı). Şema (zaman penceresi) olmadan güvenli ayırt edilemez. DÜŞÜRÜLDÜ: sirada → tekrar, 0004/H-0011'e yönlendirildi." },
+    "0010-H-0001": { "hukum": "sirada", "sevk": "SİSTEM (ClaudEmre KUTU)", "not": "Atlas koordinatörüne değil sisteme ait, zaten iletilmiş. Değişmedi." },
+    "0019-H-0041": { "hukum": "zaten-dogru", "not": "CANLI KOD OKUNDU: 27 Ağustos 2026'da p0019/H-0041·H-0062 için ÇÖZÜLMÜŞ — js/app.js ~2623-2635, `hal:\"planlanan\"` → renk #c98a00 (koyu sarı/turuncumsu), hem sefer-ok DOM ikonuna (ic.style.color, .hal-planlanan class) hem GeoJSON `renk` alanı üzerinden MapLibre çizgi katmanına otomatik yayılıyor. Bugün hiçbir SEFERLER kaydı hal:planlanan taşımıyor — veri tarafı ayrı, ama ARAYÜZ tarafı TAM. GECE-ARAYUZ.md'nin devraldığı 'planlanan diye bir tur/durum YOK' bilgisi bayat (muhtemelen 27 Ağustos'tan önceki bir taramanın kalıntısı). YÜKSELTİLDİ: sirada → zaten-dogru." },
+    "0019-H-0046": { "hukum": "zaten-dogru", "not": "CANLI KOD OKUNDU: 27 Ağustos 2026'da p0019/H-0046 için ÇÖZÜLMÜŞ — js/app.js:2205, SAVAS_TUR_SIMGE'ye `gorusme: \"🤝\"` zaten eklenmiş, özel CSS gerekmiyor (.savas-isaret .sv-ikon genel stili yeterli). Eksik olan yalnız VERİ: data/savaslar.js'e tur:\"gorusme\"+lat/lon yazmak — benim dosyam değil. YÜKSELTİLDİ: sirada → zaten-dogru (arayüz kısmı için)." },
+    "0019-H-0051": { "hukum": "zaten-dogru", "not": "CANLI TARAYICIDA ÖLÇÜLDÜ (mcp Browser, preview localhost): zaman çubuğu ortadan bir tarihe (1602-06-01) getirilip aktif maddenin konumu ölçüldü — deltaFromTop = 0px, yani madde kabın TAM ÜSTÜNE hizalanıyor, Emre'nin istediği 'süzgeç satırının hemen altında, scroll gerekmeden' davranışı BİREBİR. Kod: js/app.js:3906-3937 (ve 7354-3968 birleşik liste eşi), 24 Ağustos'ta 'başa al' mantığıyla yazılmış manuel scrollTop hesaplaması — devralınan raporun okuduğu `scrollIntoView({block:\"nearest\"})` satırı yalnız kabın zaten TAMAMEN göründüğü (scroll gerekmeyen) durumun ölü-kod yedeği, ana yol değil. YÜKSELTİLDİ: sirada → zaten-dogru." },
+    "0019-H-0058": { "hukum": "sirada", "sevk": "VERİ (data/savaslar.js — Böğürdelen kuşatması kaydı yok)", "not": "Değişmedi, benim dosyam değil." },
+    "0024-H-0010": { "hukum": "senin-kararin", "not": "🔴 EMRE'NİN İKİ İSTEĞİ ÇELİŞİYOR — kod DEĞİŞTİRİLMEDİ, karar bekleniyor. index.html:23-28: Emre kendi isteğiyle 'Hakkında' butonunu TAMAMEN kaldırttı ('artık gerek yok, tek bir aç butonuna tıklayınca dizilsin' — p2/H-0010). Şimdiki istek (p0024/H-0010) tam o butonu, koşu/yayın tarihi bilgisiyle GERİ istiyor. Bu iki kayıt aynı kullanıcının birbirini iptal eden iki kararı — hangisi güncel, koordinatör/Emre'den doğrulanmadan kodda YAZILMAYACAK. DÜZELTİLDİ: sirada → senin-kararin." },
+    "0027-H-0006": { "hukum": "sirada", "sevk": "MOTOR+ARAYÜZ (büyük görselleştirme)", "not": "Kutsal İttifak rozet gösterimi, BAŞLANMADI, bu gece önceliklendirilmedi (M-1518 sıra listesinde 3. sırada, panel/8.boyut/mavi'den sonra). Değişmedi." },
+    "0033-H-0010": { "hukum": "olculecek", "sevk": "NOKTA (Kandehar yoğunluk)", "not": "Değişmedi, benim dosyam değil." },
+    "0034-H-0022": { "hukum": "sirada", "sevk": "ARAYÜZ (kısmen mümkün) + İÇERİK (veri gerekli)", "not": "ÖLÇÜLDÜ (bu tur): EKOKUMA_TUR bugün yalnız 4 kategori taşıyor (sebep-sonuc, magazin, merak, antlasma — js/app.js:5142-5185) ve kaynak dosyaları (data/ekokuma.js, data/merak.js) bu 4'ün DIŞINDA hiçbir tur değeri taşımıyor. Önerilen 5 yeni kategoriye (kimdir/bilimsel-teknik/dis-ulke-yankilari/sok-haberler/tartisma) karşılık gelen TEK BİR kayıt yok. H-0041/H-0046 emsalinin aksine (orada tek bir pilot kayıt/karar vardı), burada test edilecek veri ve Emre onaylı bir kategori seti henüz yok — altyapıyı şimdiden açmak spekülatif kalır. Kapanmadı, sebep netleştirildi." },
+    "0034-H-0040": { "hukum": "sirada", "not": "0034/H-0022 ile AYNI KALEM, aynı ölçüm geçerli." },
+    "0035-H-0034": { "hukum": "sirada", "sevk": "ETIKETLEME", "not": "Değişmedi, benim dosyam değil." },
+    "0035-H-0035": { "hukum": "olculecek", "sevk": "VERİ SAHİPLİK", "not": "Değişmedi, benim dosyam değil — muhtemelen VERİ SAHİPLİK turunda zaten kapanmış (Hotin kaydı doğru ölçülmüştü), teyit VERİ SAHİPLİK'in işi." },
+    "0035-H-0059": { "hukum": "sirada", "sevk": "KRONOLOJİ (data/olaylar_ek.js:45 başlık düzeltmesi)", "not": "Değişmedi, benim dosyam değil." },
+    "0035-H-0066": { "hukum": "sirada", "sevk": "ETIKETLEME (25 kategorilik taksonomi + 1223 madde)", "not": "Değişmedi, benim dosyam değil, devasa iş." },
+    "0035-H-0077": { "hukum": "olculecek", "sevk": "VERİ SAHİPLİK/KORİDOR", "not": "Değişmedi, benim dosyam değil." },
+    "0035-H-0081": { "hukum": "sirada", "sevk": "VERİ (Çeşme Baskını deniz rotası — data/savaslar.js tur:\"deniz\" altyapısı ZATEN var)", "not": "Değişmedi, benim dosyam değil." },
+    "0035-H-0090": { "hukum": "sirada", "sevk": "KRONOLOJİ (savaş başlangıcı maddeleri eksik)", "not": "Değişmedi, benim dosyam değil." },
+    "0035-H-0093": { "hukum": "sirada", "sevk": "VERİ (data/savaslar.js — Napolyon/Akka)", "not": "Değişmedi, benim dosyam değil." },
+    "0035-H-0094": { "hukum": "sirada", "sevk": "VERİ (data/savaslar.js — Vehhabî hareketleri)", "not": "Değişmedi, benim dosyam değil." },
+    "0035-H-0098": { "hukum": "sirada", "sevk": "VERİ (data/savaslar.js — Tosun Paşa Hicaz seferi)", "not": "Değişmedi, benim dosyam değil. H-0093/94/98 tek partiyle kapanabilir (not zaten öyle diyor)." },
+    "0037-H-0002": { "hukum": "cozuldu", "not": "Deniz mavisi ÇOK KOYU şikâyeti — 3(a) kararıyla (SU_RENGI #bcd6e6, 24 Ağustos, ΔE ölçülerek 'bir tık' açıldı) ÇÖZÜLDÜ. YÜKSELTİLDİ: sirada → cozuldu. Not: renk_olc.py'nin 'su rengine çok yakın devlet' uyarısı (bugün novgorod ΔE 16,6) yeni tonla yeniden ölçülmeli — bu arac/ altı, koşu bitince RENK'in işi." },
+    "0038-H-0001": { "hukum": "sirada", "sevk": "MOTOR/RENK (arac/renkler.py, koşu bitene kadar kilitli)", "not": "Rus işgali taralı gösterimi — isg: örtüsü zaten üretiliyor (83 kayıt), eksik olan işgalci renginin (rus yeşili, Osmanlı kırmızısı değil) renkler.py'de tanımlanması. Değişmedi." }
+  }
+}
