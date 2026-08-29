@@ -137,4 +137,41 @@ window.YERLESIMLER_SERHAT = [
      {f:"1454-01-01",t:"1878-07-13"}],
   v:[] },
 
+// ─────────────────────────────────────────────────────────────────────
+// ÇATALCA — 29 Ağustos 2026, BALKAN SAVAŞLARI kolu için eklendi
+//
+// 🔴 UYGULAMA-0019 ölçtü ve bildirdi: *"Senin verdiğin Trakya listesinde
+//   Çatalca var ama veride KAYIT YOK (ad ekseninde de aradım). Çatalca
+//   Hattı 1912'nin en kritik cephesi — kol bir yerleşim eksiğiyle
+//   başlıyor. Yeni nokta = yerlesimler*.js = sende."*
+//   ⇒ Doğru tespit, kayıt gerçekten yoktu.
+//
+// KAYNAK: 🔴 TDV'DE YOK — üç slug da ölçüldü, ÜÇÜ DE HTTP 302 (ölü):
+//   `catalca` · `catalca--istanbul` · `metrai`
+//   *"TDV'de yok"* demek bir SONUÇTUR (`CLAUDE.md §4`) ve uydurmaktan
+//   kat kat değerlidir.
+//
+// GÜN NEREDEN: 19,1 km'deki **Silivri**den — en yakın komşu, ve deseni
+//   bu koridorda proje genelinde kullanılıyor:
+//       Silivri   s: bizans 1281-01-01 → 1453-05-29 · d: 1453-05-29 →
+//       İstanbul  AYNI
+//       Boğaziçi (Rumeli yakası)  AYNI
+//   ⚠️ Bu bir KAYNAK GÜNÜ DEĞİL, TUTARLILIK seçimidir ve açıkça
+//     yazılıyor — `Mîyandoab` emsalinin aynısı. Başka bir gün yazmak,
+//     Çatalca'yı 19 km'deki Silivri'den koparıp yapay bir ada üretirdi.
+//   📌 Çorlu 55 km ötede ve 1362'de Osmanlı; Çatalca ona değil Silivri'ye
+//     yakın, ve Bizans'ın İstanbul hinterlandında 1453'e kadar kaldı.
+//
+// FETRET YOK: Silivri'de de yok — bölge o tarihte Bizans'taydı, şehzade
+//   dönemleri buraya İŞLEMEZ. (Üsküdar/Beykoz'da var çünkü onlar 1402'de
+//   zaten Osmanlı'ydı.)
+//
+// 🟢 3 km mükerrer taraması yapıldı: en yakın nokta 19,1 km (Silivri).
+//   `CLAUDE.md §11` "yakın mükerrer yerleşim" tuzağı — temiz.
+{ ad:"Çatalca", tur:"kasaba", lat:41.1436, lon:28.4611, g:0, k:4, m:"İstanbul",
+  s:[{f:"1281-01-01",t:"1453-05-29",d:"bizans"}],
+  d:[{f:"1453-05-29",t:"1923-10-29"}],
+  v:[],
+  kaynak:"bulunamadı — TDV'de `catalca` · `catalca--istanbul` · `metrai` üçü de ÖLÜ (HTTP 302, 2026-08-29 ölçüldü). Gün 19,1 km'deki Silivri'den alındı (aynı bizans→1453-05-29→Osmanlı deseni İstanbul ve Boğaziçi kayıtlarında da var); TUTARLILIK seçimi, kaynak günü değil." },
+
 ];
