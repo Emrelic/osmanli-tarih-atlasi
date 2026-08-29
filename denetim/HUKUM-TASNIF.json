@@ -1,0 +1,754 @@
+{
+ "parti-0002": {
+  "H-0004": {
+   "hukum": "olculecek",
+   "not": "NE OLCULECEK: notun kendisi bir kume isareti tasimiyor, OKUNARAK atanmasi gerekiyor. Notun ozu: S-005 — kıyı hassasiyeti 220 m'de KORUNDU, senin A kararınla. Daha ince kıyı = daha büyük dosya; ondalık kısaltma reddedildi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0009": {
+   "hukum": "sirada",
+   "not": "KUME: cizim-geometri. NICIN sirada: js/app.js ya da css kalemi; ARAYUZ oturumuna gider.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0011": {
+   "hukum": "sirada",
+   "not": "KUME: sahiplik-teyidi. NICIN sirada: bir kaydin donem zinciri kaynakla teyit edilecek; VERI oturumunun kalemi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0014": {
+   "hukum": "sirada",
+   "not": "KUME: emilme (CLAUDE.md §2 — noktasi olmayan bolge en yakin petege emilir). NICIN sirada: kok bilinen ve ORTAK; tek tek duzeltme degil nokta ekleme / kasitli_bosluk beyani gerekiyor.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0016": {
+   "hukum": "sirada",
+   "not": "KUME: emilme (CLAUDE.md §2 — noktasi olmayan bolge en yakin petege emilir). NICIN sirada: kok bilinen ve ORTAK; tek tek duzeltme degil nokta ekleme / kasitli_bosluk beyani gerekiyor.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0025": {
+   "hukum": "sirada",
+   "not": "🟠 CARE ILAN EDILDI AMA UYGULANMADI. Notu 'Kosu biter bitmez YAZILACAK' diyor; UC KOSU gecti. YENIDEN OLCTUM (py arac/_yer_ara.py Bagdat, taban 2607 nokta/56 dosya, M-1385'in istedigi resmi alet): Bagdat zinciri ilhanli>celayirli>karakoyunlu>akkoyunlu>safevi>OSM>safevi>OSM>ingiltere — `timurlu` HALA YOK. NICIN sirada: is TARIF EDILMIS, yalniz yazilmamis; kume sahiplik-teyidi, tek satirlik iki donem eklemesi."
+  }
+ },
+ "parti-0003": {
+  "H-0008": {
+   "hukum": "tekrar",
+   "not": "parti-0002/H-0025 ile BIREBIR AYNI kayit (notun kendisi soyluyor). Orada olculdu ve 'ilan edildi, uygulanmadi' damgasi konuldu."
+  },
+  "H-0009": {
+   "hukum": "olculecek",
+   "not": "NE OLCULECEK: notun kendisi bir kume isareti tasimiyor, OKUNARAK atanmasi gerekiyor. Notun ozu: Fetret devri Timurlu valilikleri + hortlatılan beylikler — sınır teyidi. Araştırma kalemi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0017": {
+   "hukum": "sirada",
+   "not": "KUME: degismez2. NICIN sirada: kirilma gununun ±30 gun kronoloji maddesi yazilacak; KRONOLOJI oturumunun kalemi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0018": {
+   "hukum": "sirada",
+   "not": "KUME: icerik-talebi. NICIN sirada: kusur degil ICERIK talebi; kronoloji derinlestirme partisinin kalemi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0022": {
+   "hukum": "tekrar",
+   "not": "parti-0003/H-0015 ile ayni; notun kendisi 'orada olculdu ve care yazildi' diyor. Ayri is degil."
+  }
+ },
+ "parti-0004": {
+  "H-0003": {
+   "hukum": "sirada",
+   "not": "🟠 DORDUNCU KOVA ①: care YAZILMIS, UYGULANMAMIS. NICIN sirada: is TARIF EDILMIS ve kok BULUNMUS; eksik olan yalnizca elle uygulama. Bu ne KAPANMIS'tir ne YENI IS — ayri tutulmazsa 'tarif edilmis ama unutulmus' is gorunmez kalir. Kume: icerik-talebi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0006": {
+   "hukum": "sirada",
+   "not": "KUME: sahiplik-teyidi. NICIN sirada: bir kaydin donem zinciri kaynakla teyit edilecek; VERI oturumunun kalemi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0011": {
+   "hukum": "sirada",
+   "not": "🟠 DORDUNCU KOVA ①: care YAZILMIS, UYGULANMAMIS. NICIN sirada: is TARIF EDILMIS ve kok BULUNMUS; eksik olan yalnizca elle uygulama. Bu ne KAPANMIS'tir ne YENI IS — ayri tutulmazsa 'tarif edilmis ama unutulmus' is gorunmez kalir. Kume: sahiplik-teyidi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  }
+ },
+ "parti-0006": {
+  "H-0001": {
+   "hukum": "sirada",
+   "not": "PARCALI KAPANIS — (a) OLCULDU VE KAPANDI: Katif zinciri bugun usfuri>cebri>safevi>OSM>benihalid>suud>benihalid>suud-ikinci>OSM>suud-ucuncu, `iran` HIC GECMIYOR. NICIN hala sirada: madde UC PARCALI, (b) ve (c) acik (CAPRAZ IBERYA kalemi). Kapanan parca yazilmazsa yarin yeniden olculur."
+  },
+  "H-0005": {
+   "hukum": "sirada",
+   "not": "KUME: degismez2. NICIN sirada: kirilma gununun ±30 gun kronoloji maddesi yazilacak; KRONOLOJI oturumunun kalemi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0007": {
+   "hukum": "sirada",
+   "not": "KUME: sahiplik-teyidi. NICIN sirada: bir kaydin donem zinciri kaynakla teyit edilecek; VERI oturumunun kalemi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0008": {
+   "hukum": "sirada",
+   "not": "KUME: sahiplik-teyidi. NICIN sirada: bir kaydin donem zinciri kaynakla teyit edilecek; VERI oturumunun kalemi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0010": {
+   "hukum": "sirada",
+   "not": "KUME: sahiplik-teyidi. NICIN sirada: bir kaydin donem zinciri kaynakla teyit edilecek; VERI oturumunun kalemi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  }
+ },
+ "parti-0007": {
+  "H-0008": {
+   "hukum": "sirada",
+   "not": "OLCTUM, NOT DOGRULANDI: `kirim` donemi 1783-04-19'dan SONRA biten 4 kayit bugun de duruyor — Soci (Sase) 1441>1829-09-14 · Tuapse ayni · Maykop ayni · Yedisan bozkiri 1502-03-01>1792-01-09. NICIN sirada: is TARIF EDILMIS (dort kaydin bitisi 1783-04-19'a cekilecek), yalniz uygulanmamis. Kume: sahiplik-teyidi."
+  }
+ },
+ "parti-emrelic-0008": {
+  "H-0001": {
+   "hukum": "sirada",
+   "not": "KUME: sahiplik-teyidi. NICIN sirada: bir kaydin donem zinciri kaynakla teyit edilecek; VERI oturumunun kalemi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0003": {
+   "hukum": "sirada",
+   "not": "KUME: sahiplik-teyidi. NICIN sirada: bir kaydin donem zinciri kaynakla teyit edilecek; VERI oturumunun kalemi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0005": {
+   "hukum": "sirada",
+   "not": "KUME: emilme (CLAUDE.md §2 — noktasi olmayan bolge en yakin petege emilir). NICIN sirada: kok bilinen ve ORTAK; tek tek duzeltme degil nokta ekleme / kasitli_bosluk beyani gerekiyor.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0006": {
+   "hukum": "sirada",
+   "not": "KUME: sahiplik-teyidi. NICIN sirada: bir kaydin donem zinciri kaynakla teyit edilecek; VERI oturumunun kalemi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0009": {
+   "hukum": "sirada",
+   "not": "KUME: emilme (CLAUDE.md §2 — noktasi olmayan bolge en yakin petege emilir). NICIN sirada: kok bilinen ve ORTAK; tek tek duzeltme degil nokta ekleme / kasitli_bosluk beyani gerekiyor.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0010": {
+   "hukum": "sirada",
+   "not": "KUME: emilme (CLAUDE.md §2 — noktasi olmayan bolge en yakin petege emilir). NICIN sirada: kok bilinen ve ORTAK; tek tek duzeltme degil nokta ekleme / kasitli_bosluk beyani gerekiyor.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0011": {
+   "hukum": "sirada",
+   "not": "KUME: emilme (CLAUDE.md §2 — noktasi olmayan bolge en yakin petege emilir). NICIN sirada: kok bilinen ve ORTAK; tek tek duzeltme degil nokta ekleme / kasitli_bosluk beyani gerekiyor.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0012": {
+   "hukum": "sirada",
+   "not": "KUME: emilme (CLAUDE.md §2 — noktasi olmayan bolge en yakin petege emilir). NICIN sirada: kok bilinen ve ORTAK; tek tek duzeltme degil nokta ekleme / kasitli_bosluk beyani gerekiyor.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0014": {
+   "hukum": "sirada",
+   "not": "KUME: emilme (CLAUDE.md §2 — noktasi olmayan bolge en yakin petege emilir). NICIN sirada: kok bilinen ve ORTAK; tek tek duzeltme degil nokta ekleme / kasitli_bosluk beyani gerekiyor.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  }
+ },
+ "parti-emrelic-0010": {
+  "H-0001": {
+   "hukum": "sirada",
+   "not": "KUME: cizim-geometri. NICIN sirada: js/app.js ya da css kalemi; ARAYUZ oturumuna gider.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  }
+ },
+ "parti-emrelic-0013": {
+  "H-0001": {
+   "hukum": "olculecek",
+   "not": "NE OLCULECEK: notun kendisi bir kume isareti tasimiyor, OKUNARAK atanmasi gerekiyor. Notun ozu: AKADEMİK KAYNAK HARİTASI — TDV dışındaki güvenilir kaynakların listesi. İstenen üç kademe: ① Türkiye kaynakları · bilimsel dergiler · hakemli makalele  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0002": {
+   "hukum": "sirada",
+   "not": "KUME: cizim-geometri. NICIN sirada: js/app.js ya da css kalemi; ARAYUZ oturumuna gider.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  }
+ },
+ "parti-emrelic-0016": {
+  "H-0002": {
+   "hukum": "sirada",
+   "not": "KUME: emilme (CLAUDE.md §2 — noktasi olmayan bolge en yakin petege emilir). NICIN sirada: kok bilinen ve ORTAK; tek tek duzeltme degil nokta ekleme / kasitli_bosluk beyani gerekiyor.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0004": {
+   "hukum": "sirada",
+   "not": "KUME: emilme (CLAUDE.md §2 — noktasi olmayan bolge en yakin petege emilir). NICIN sirada: kok bilinen ve ORTAK; tek tek duzeltme degil nokta ekleme / kasitli_bosluk beyani gerekiyor.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0005": {
+   "hukum": "sirada",
+   "not": "KUME: emilme (CLAUDE.md §2 — noktasi olmayan bolge en yakin petege emilir). NICIN sirada: kok bilinen ve ORTAK; tek tek duzeltme degil nokta ekleme / kasitli_bosluk beyani gerekiyor.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  }
+ },
+ "parti-emrelic-0017": {
+  "H-0001": {
+   "hukum": "sirada",
+   "not": "KUME: sahiplik-teyidi. NICIN sirada: bir kaydin donem zinciri kaynakla teyit edilecek; VERI oturumunun kalemi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  }
+ },
+ "parti-emrelic-0019": {
+  "H-0001": {
+   "hukum": "sirada",
+   "not": "KUME: sahiplik-teyidi. NICIN sirada: bir kaydin donem zinciri kaynakla teyit edilecek; VERI oturumunun kalemi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0003": {
+   "hukum": "sirada",
+   "not": "KUME: sahiplik-teyidi. NICIN sirada: bir kaydin donem zinciri kaynakla teyit edilecek; VERI oturumunun kalemi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0004": {
+   "hukum": "sirada",
+   "not": "KUME: sahiplik-teyidi. NICIN sirada: bir kaydin donem zinciri kaynakla teyit edilecek; VERI oturumunun kalemi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0007": {
+   "hukum": "sirada",
+   "not": "KUME: renk-kimlik. NICIN sirada: RENK oturumunun kalemi (palet/kimlik). ⚠️ CLAUDE.md §11: renk gorunmuyorsa ONCE veride o donem var mi diye bakilir — teshis yonu yanlis kurulmasin.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0008": {
+   "hukum": "sirada",
+   "not": "KUME: renk-kimlik. NICIN sirada: RENK oturumunun kalemi (palet/kimlik). ⚠️ CLAUDE.md §11: renk gorunmuyorsa ONCE veride o donem var mi diye bakilir — teshis yonu yanlis kurulmasin.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0016": {
+   "hukum": "sirada",
+   "not": "KUME: sahiplik-teyidi. NICIN sirada: bir kaydin donem zinciri kaynakla teyit edilecek; VERI oturumunun kalemi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0018": {
+   "hukum": "sirada",
+   "not": "KUME: emilme (CLAUDE.md §2 — noktasi olmayan bolge en yakin petege emilir). NICIN sirada: kok bilinen ve ORTAK; tek tek duzeltme degil nokta ekleme / kasitli_bosluk beyani gerekiyor.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0019": {
+   "hukum": "sirada",
+   "not": "KUME: emilme (CLAUDE.md §2 — noktasi olmayan bolge en yakin petege emilir). NICIN sirada: kok bilinen ve ORTAK; tek tek duzeltme degil nokta ekleme / kasitli_bosluk beyani gerekiyor.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0020": {
+   "hukum": "sirada",
+   "not": "KUME: sahiplik-teyidi. NICIN sirada: bir kaydin donem zinciri kaynakla teyit edilecek; VERI oturumunun kalemi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0022": {
+   "hukum": "sirada",
+   "not": "KUME: sahiplik-teyidi. NICIN sirada: bir kaydin donem zinciri kaynakla teyit edilecek; VERI oturumunun kalemi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0023": {
+   "hukum": "sirada",
+   "not": "KUME: etiketleme. NICIN sirada: ETIKETLEME.md'nin kalemi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0025": {
+   "hukum": "sirada",
+   "not": "KUME: sahiplik-teyidi. NICIN sirada: bir kaydin donem zinciri kaynakla teyit edilecek; VERI oturumunun kalemi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0026": {
+   "hukum": "sirada",
+   "not": "KUME: etiketleme. NICIN sirada: ETIKETLEME.md'nin kalemi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0041": {
+   "hukum": "sirada",
+   "not": "KUME: renk-kimlik. NICIN sirada: RENK oturumunun kalemi (palet/kimlik). ⚠️ CLAUDE.md §11: renk gorunmuyorsa ONCE veride o donem var mi diye bakilir — teshis yonu yanlis kurulmasin.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0043": {
+   "hukum": "olculecek",
+   "not": "NE OLCULECEK: notun kendisi bir kume isareti tasimiyor, OKUNARAK atanmasi gerekiyor. Notun ozu: 🔴 ÖLÇTÜM — HAKLIYDIN, VE SAYISI ŞU: 29 KAYIT, 646 KM'YE KADAR. Mercidabık günü (**1516-08-24**) `d:` başlangıcı taşıyan Osmanlı kaydı: ``` 21 km Kilis  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0045": {
+   "hukum": "sirada",
+   "not": "KUME: cizim-geometri. NICIN sirada: js/app.js ya da css kalemi; ARAYUZ oturumuna gider.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0046": {
+   "hukum": "sirada",
+   "not": "KUME: degismez2. NICIN sirada: kirilma gununun ±30 gun kronoloji maddesi yazilacak; KRONOLOJI oturumunun kalemi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0047": {
+   "hukum": "tekrar",
+   "not": "parti-emrelic-0019/H-0045 ile AYNI SINIF; notun kendisi soyluyor."
+  },
+  "H-0048": {
+   "hukum": "sirada",
+   "not": "KUME: emilme (CLAUDE.md §2 — noktasi olmayan bolge en yakin petege emilir). NICIN sirada: kok bilinen ve ORTAK; tek tek duzeltme degil nokta ekleme / kasitli_bosluk beyani gerekiyor.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0051": {
+   "hukum": "sirada",
+   "not": "KUME: cizim-geometri. NICIN sirada: js/app.js ya da css kalemi; ARAYUZ oturumuna gider.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0056": {
+   "hukum": "sirada",
+   "not": "KUME: etiketleme. NICIN sirada: ETIKETLEME.md'nin kalemi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0058": {
+   "hukum": "sirada",
+   "not": "KUME: hareket-tipoloji. ⚠️ NICIN once OLCULMELI: CLAUDE.md §11 'HAREKET tipolojisi 9 tur/9 glif/9 katman commit 591a5c6' diyor — istenen sey ZATEN VAR olabilir.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0062": {
+   "hukum": "sirada",
+   "not": "KUME: renk-kimlik. NICIN sirada: RENK oturumunun kalemi (palet/kimlik). ⚠️ CLAUDE.md §11: renk gorunmuyorsa ONCE veride o donem var mi diye bakilir — teshis yonu yanlis kurulmasin.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0067": {
+   "hukum": "olculecek",
+   "not": "NE OLCULECEK: notun kendisi bir kume isareti tasimiyor, OKUNARAK atanmasi gerekiyor. Notun ozu: 🔴 ÖLÇTÜM — ANAKRONİZM GERÇEK VE SENİN TEŞHİSİN BİREBİR DOĞRU. ``` Fuzûlî'nin kaside sunması madde tarihi 1534-06-01 Bağdat'ın fethi 1534-12-04 ← ALTI   ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0069": {
+   "hukum": "sirada",
+   "not": "KUME: sahiplik-teyidi. NICIN sirada: bir kaydin donem zinciri kaynakla teyit edilecek; VERI oturumunun kalemi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0076": {
+   "hukum": "sirada",
+   "not": "KUME: emilme (CLAUDE.md §2 — noktasi olmayan bolge en yakin petege emilir). NICIN sirada: kok bilinen ve ORTAK; tek tek duzeltme degil nokta ekleme / kasitli_bosluk beyani gerekiyor.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0077": {
+   "hukum": "sirada",
+   "not": "KUME: renk-kimlik. NICIN sirada: RENK oturumunun kalemi (palet/kimlik). ⚠️ CLAUDE.md §11: renk gorunmuyorsa ONCE veride o donem var mi diye bakilir — teshis yonu yanlis kurulmasin.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0078": {
+   "hukum": "sirada",
+   "not": "KUME: renk-kimlik. NICIN sirada: RENK oturumunun kalemi (palet/kimlik). ⚠️ CLAUDE.md §11: renk gorunmuyorsa ONCE veride o donem var mi diye bakilir — teshis yonu yanlis kurulmasin.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  }
+ },
+ "parti-emrelic-0020": {
+  "H-0005": {
+   "hukum": "sirada",
+   "not": "KUME: emilme (CLAUDE.md §2 — noktasi olmayan bolge en yakin petege emilir). NICIN sirada: kok bilinen ve ORTAK; tek tek duzeltme degil nokta ekleme / kasitli_bosluk beyani gerekiyor.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0012": {
+   "hukum": "sirada",
+   "not": "KUME: sahiplik-teyidi. NICIN sirada: bir kaydin donem zinciri kaynakla teyit edilecek; VERI oturumunun kalemi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0013": {
+   "hukum": "sirada",
+   "not": "KUME: degismez2. NICIN sirada: kirilma gununun ±30 gun kronoloji maddesi yazilacak; KRONOLOJI oturumunun kalemi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0014": {
+   "hukum": "sirada",
+   "not": "KUME: sahiplik-teyidi. NICIN sirada: bir kaydin donem zinciri kaynakla teyit edilecek; VERI oturumunun kalemi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  }
+ },
+ "parti-emrelic-0021": {
+  "H-0002": {
+   "hukum": "sirada",
+   "not": "KUME: emilme (CLAUDE.md §2 — noktasi olmayan bolge en yakin petege emilir). NICIN sirada: kok bilinen ve ORTAK; tek tek duzeltme degil nokta ekleme / kasitli_bosluk beyani gerekiyor.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0005": {
+   "hukum": "sirada",
+   "not": "KUME: renk-kimlik. NICIN sirada: RENK oturumunun kalemi (palet/kimlik). ⚠️ CLAUDE.md §11: renk gorunmuyorsa ONCE veride o donem var mi diye bakilir — teshis yonu yanlis kurulmasin.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0007": {
+   "hukum": "sirada",
+   "not": "KUME: sahiplik-teyidi. NICIN sirada: bir kaydin donem zinciri kaynakla teyit edilecek; VERI oturumunun kalemi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0010": {
+   "hukum": "sirada",
+   "not": "KUME: sahiplik-teyidi. NICIN sirada: bir kaydin donem zinciri kaynakla teyit edilecek; VERI oturumunun kalemi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0017": {
+   "hukum": "sirada",
+   "not": "KUME: emilme (CLAUDE.md §2 — noktasi olmayan bolge en yakin petege emilir). NICIN sirada: kok bilinen ve ORTAK; tek tek duzeltme degil nokta ekleme / kasitli_bosluk beyani gerekiyor.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0021": {
+   "hukum": "sirada",
+   "not": "KUME: sahiplik-teyidi. NICIN sirada: bir kaydin donem zinciri kaynakla teyit edilecek; VERI oturumunun kalemi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0024": {
+   "hukum": "sirada",
+   "not": "KUME: emilme (CLAUDE.md §2 — noktasi olmayan bolge en yakin petege emilir). NICIN sirada: kok bilinen ve ORTAK; tek tek duzeltme degil nokta ekleme / kasitli_bosluk beyani gerekiyor.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0027": {
+   "hukum": "sirada",
+   "not": "KUME: sahiplik-teyidi. NICIN sirada: bir kaydin donem zinciri kaynakla teyit edilecek; VERI oturumunun kalemi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0028": {
+   "hukum": "sirada",
+   "not": "KUME: renk-kimlik. NICIN sirada: RENK oturumunun kalemi (palet/kimlik). ⚠️ CLAUDE.md §11: renk gorunmuyorsa ONCE veride o donem var mi diye bakilir — teshis yonu yanlis kurulmasin.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0029": {
+   "hukum": "sirada",
+   "not": "KUME: emilme (CLAUDE.md §2 — noktasi olmayan bolge en yakin petege emilir). NICIN sirada: kok bilinen ve ORTAK; tek tek duzeltme degil nokta ekleme / kasitli_bosluk beyani gerekiyor.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0030": {
+   "hukum": "sirada",
+   "not": "KUME: hareket-tipoloji. ⚠️ NICIN once OLCULMELI: CLAUDE.md §11 'HAREKET tipolojisi 9 tur/9 glif/9 katman commit 591a5c6' diyor — istenen sey ZATEN VAR olabilir.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  }
+ },
+ "parti-emrelic-0022": {
+  "H-0001": {
+   "hukum": "olculecek",
+   "not": "NE OLCULECEK: notun kendisi bir kume isareti tasimiyor, OKUNARAK atanmasi gerekiyor. Notun ozu: ÜÇ ALT SORUNUN ÜÇÜ DE ÖLÇÜLDÜ — kalan iş yalnız KAYNAK. ① PARGA / KORFU KARŞI KIYISI (1665-06-15, 39,28/20,40): RAKİP · Parga **1 km** → `venedik` · O  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0005": {
+   "hukum": "sirada",
+   "not": "KUME: sahiplik-teyidi. NICIN sirada: bir kaydin donem zinciri kaynakla teyit edilecek; VERI oturumunun kalemi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  }
+ },
+ "parti-emrelic-0023": {
+  "H-0003": {
+   "hukum": "sirada",
+   "not": "🟠 DORDUNCU KOVA ③: RAPOR ya da TASARIM teslim edilmis, UYGULAMA yazilmamis. NICIN sirada: kalan is gercek is (kod), ama sifirdan arastirma DEGIL — tasarim hazir. commit d9b255e'nin kendi mesaji 'KOD YAZILMADI' diyor. Kume: ARTIK.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0005": {
+   "hukum": "olculecek",
+   "not": "NE OLCULECEK: notun kendisi bir kume isareti tasimiyor, OKUNARAK atanmasi gerekiyor. Notun ozu: BAYAT AVCISI (27 Ağu 2026, grup-H) NİÇİN HÂLÂ AÇIK / NE GEREKİYOR: Kalocsa+Şimontorna hâlâ Budin ile birebir aynı gün (1686-09-02) — kopyalanmış tarih  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0010": {
+   "hukum": "sirada",
+   "not": "KUME: degismez2. NICIN sirada: kirilma gununun ±30 gun kronoloji maddesi yazilacak; KRONOLOJI oturumunun kalemi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0011": {
+   "hukum": "olculecek",
+   "not": "NOTU CURUTEN OLCUM: not 'Semendire eklendi ama Kragujevac/Yagodina/Cacak kaynaksiz' diyor; bugun DORDU DE ayni zincire sahip (sirbistan>OSM 1439-08-27>sirp-despotlugu 1444-08-01). NE OLCULECEK: notun asil sikayeti VARLIK degil KAYNAK'ti — bu uc kaydin `kaynak:` alani dolu mu? BEN OLCMEDIM."
+  }
+ },
+ "parti-emrelic-0024": {
+  "H-0001": {
+   "hukum": "sirada",
+   "not": "KUME: sahiplik-teyidi. NICIN sirada: bir kaydin donem zinciri kaynakla teyit edilecek; VERI oturumunun kalemi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0002": {
+   "hukum": "olculecek",
+   "not": "NE OLCULECEK: notun kendisi bir kume isareti tasimiyor, OKUNARAK atanmasi gerekiyor. Notun ozu: DÖRT ALT SORUNUN DÖRDÜ DE ÖLÇÜLDÜ VE DÖRDÜ DE EMRE'Yİ DOĞRULUYOR. (1) \"Batum-Soçi kısmına Trabzon bölgesi demiş, mantıklı mı\" ÖLÇÜM: Batum m=Trabzon ·  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0005": {
+   "hukum": "sirada",
+   "not": "KUME: sahiplik-teyidi. NICIN sirada: bir kaydin donem zinciri kaynakla teyit edilecek; VERI oturumunun kalemi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0008": {
+   "hukum": "sirada",
+   "not": "KUME: renk-kimlik. NICIN sirada: RENK oturumunun kalemi (palet/kimlik). ⚠️ CLAUDE.md §11: renk gorunmuyorsa ONCE veride o donem var mi diye bakilir — teshis yonu yanlis kurulmasin.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0010": {
+   "hukum": "sirada",
+   "not": "KUME: cizim-geometri. NICIN sirada: js/app.js ya da css kalemi; ARAYUZ oturumuna gider.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  }
+ },
+ "parti-emrelic-0025": {
+  "H-0001": {
+   "hukum": "sirada",
+   "not": "KUME: etiketleme. NICIN sirada: ETIKETLEME.md'nin kalemi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0004": {
+   "hukum": "sirada",
+   "not": "KUME: renk-kimlik. NICIN sirada: RENK oturumunun kalemi (palet/kimlik). ⚠️ CLAUDE.md §11: renk gorunmuyorsa ONCE veride o donem var mi diye bakilir — teshis yonu yanlis kurulmasin.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0005": {
+   "hukum": "sirada",
+   "not": "KUME: renk-kimlik. NICIN sirada: RENK oturumunun kalemi (palet/kimlik). ⚠️ CLAUDE.md §11: renk gorunmuyorsa ONCE veride o donem var mi diye bakilir — teshis yonu yanlis kurulmasin.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0009": {
+   "hukum": "olculecek",
+   "not": "NE OLCULECEK: notun kendisi bir kume isareti tasimiyor, OKUNARAK atanmasi gerekiyor. Notun ozu: 🔴 ÖLÇTÜM — **ŞİKÂYETİN HAKLI, VE SEBEBİ TOPLU YUVARLAK TARİH.** ## ① YAYIN TARAFI — kusur ÜRÜYOR ``` 1361-06-15 · yayında (donemler.js) OSMANLI olanla  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  }
+ },
+ "parti-emrelic-0027": {
+  "H-0004": {
+   "hukum": "sirada",
+   "not": "KUME: sahiplik-teyidi. NICIN sirada: bir kaydin donem zinciri kaynakla teyit edilecek; VERI oturumunun kalemi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  }
+ },
+ "parti-emrelic-0028": {
+  "H-0001": {
+   "hukum": "sirada",
+   "not": "🟠 DORDUNCU KOVA ②: is BASKA BIR OTURUMA SEVK EDILMIS ve o oturum OLMUS/OKUMAMIS. NICIN sirada: yeniden sevk gerekiyor, yeniden OLCUM degil. Iki kayit acikca 'MOTOR EPOK'a sevk edildi (M-1186), oturum OLU, okunmadi' diyor. Kume: ARTIK.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0003": {
+   "hukum": "sirada",
+   "not": "🟠 DORDUNCU KOVA ②: is BASKA BIR OTURUMA SEVK EDILMIS ve o oturum OLMUS/OKUMAMIS. NICIN sirada: yeniden sevk gerekiyor, yeniden OLCUM degil. Iki kayit acikca 'MOTOR EPOK'a sevk edildi (M-1186), oturum OLU, okunmadi' diyor. Kume: ARTIK.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0007": {
+   "hukum": "sirada",
+   "not": "🟠 DORDUNCU KOVA ②: is BASKA BIR OTURUMA SEVK EDILMIS ve o oturum OLMUS/OKUMAMIS. NICIN sirada: yeniden sevk gerekiyor, yeniden OLCUM degil. Iki kayit acikca 'MOTOR EPOK'a sevk edildi (M-1186), oturum OLU, okunmadi' diyor. Kume: emilme.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  }
+ },
+ "parti-emrelic-0029": {
+  "H-0002": {
+   "hukum": "sirada",
+   "not": "🟠 DORDUNCU KOVA ②: is BASKA BIR OTURUMA SEVK EDILMIS ve o oturum OLMUS/OKUMAMIS. NICIN sirada: yeniden sevk gerekiyor, yeniden OLCUM degil. Iki kayit acikca 'MOTOR EPOK'a sevk edildi (M-1186), oturum OLU, okunmadi' diyor. Kume: emilme.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0003": {
+   "hukum": "sirada",
+   "not": "🟠 DORDUNCU KOVA ②: is BASKA BIR OTURUMA SEVK EDILMIS ve o oturum OLMUS/OKUMAMIS. NICIN sirada: yeniden sevk gerekiyor, yeniden OLCUM degil. Iki kayit acikca 'MOTOR EPOK'a sevk edildi (M-1186), oturum OLU, okunmadi' diyor. Kume: koridor-agi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0007": {
+   "hukum": "sirada",
+   "not": "🟠 DORDUNCU KOVA ②: is BASKA BIR OTURUMA SEVK EDILMIS ve o oturum OLMUS/OKUMAMIS. NICIN sirada: yeniden sevk gerekiyor, yeniden OLCUM degil. Iki kayit acikca 'MOTOR EPOK'a sevk edildi (M-1186), oturum OLU, okunmadi' diyor. Kume: emilme.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  }
+ },
+ "parti-emrelic-0030": {
+  "H-0001": {
+   "hukum": "sirada",
+   "not": "🟠 DORDUNCU KOVA ①: care YAZILMIS, UYGULANMAMIS. NICIN sirada: is TARIF EDILMIS ve kok BULUNMUS; eksik olan yalnizca elle uygulama. Bu ne KAPANMIS'tir ne YENI IS — ayri tutulmazsa 'tarif edilmis ama unutulmus' is gorunmez kalir. Kume: ARTIK.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0002": {
+   "hukum": "olculecek",
+   "not": "NE OLCULECEK: notun kendisi bir kume isareti tasimiyor, OKUNARAK atanmasi gerekiyor. Notun ozu: Pelakanon (1329) sonrasi Bogazici'nin Rumeli yakasi erken Osmanli. 🟢 KOK SEBEP BULUNDU — SONNET 78 olctu (denetim/BULGU-RUMELI-0030.js): \"kara maskesi  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0003": {
+   "hukum": "sirada",
+   "not": "KUME: hareket-tipoloji. ⚠️ NICIN once OLCULMELI: CLAUDE.md §11 'HAREKET tipolojisi 9 tur/9 glif/9 katman commit 591a5c6' diyor — istenen sey ZATEN VAR olabilir.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0005": {
+   "hukum": "olculecek",
+   "not": "NE OLCULECEK: notun kendisi bir kume isareti tasimiyor, OKUNARAK atanmasi gerekiyor. Notun ozu: Yuvarlak isaret bazi maddelerde yanip sonmuyor. BENDE, henuz olculmedi. 0031'de ayni ailenin uc maddesi daha var (H-0006 · H-0018 · H-0020 — hepsi \"ay  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0007": {
+   "hukum": "sirada",
+   "not": "🟠 DORDUNCU KOVA ②: is BASKA BIR OTURUMA SEVK EDILMIS ve o oturum OLMUS/OKUMAMIS. NICIN sirada: yeniden sevk gerekiyor, yeniden OLCUM degil. Iki kayit acikca 'MOTOR EPOK'a sevk edildi (M-1186), oturum OLU, okunmadi' diyor. Kume: renk-kimlik.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0010": {
+   "hukum": "sirada",
+   "not": "🟠 DORDUNCU KOVA ①: care YAZILMIS, UYGULANMAMIS. NICIN sirada: is TARIF EDILMIS ve kok BULUNMUS; eksik olan yalnizca elle uygulama. Bu ne KAPANMIS'tir ne YENI IS — ayri tutulmazsa 'tarif edilmis ama unutulmus' is gorunmez kalir. Kume: ARTIK.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0013": {
+   "hukum": "sirada",
+   "not": "KUME: emilme (CLAUDE.md §2 — noktasi olmayan bolge en yakin petege emilir). NICIN sirada: kok bilinen ve ORTAK; tek tek duzeltme degil nokta ekleme / kasitli_bosluk beyani gerekiyor.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0014": {
+   "hukum": "sirada",
+   "not": "🟠 DORDUNCU KOVA ③: RAPOR ya da TASARIM teslim edilmis, UYGULAMA yazilmamis. NICIN sirada: kalan is gercek is (kod), ama sifirdan arastirma DEGIL — tasarim hazir. commit d9b255e'nin kendi mesaji 'KOD YAZILMADI' diyor. Kume: ARTIK.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0017": {
+   "hukum": "sirada",
+   "not": "KUME: emilme (CLAUDE.md §2 — noktasi olmayan bolge en yakin petege emilir). NICIN sirada: kok bilinen ve ORTAK; tek tek duzeltme degil nokta ekleme / kasitli_bosluk beyani gerekiyor.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0018": {
+   "hukum": "sirada",
+   "not": "🟠 DORDUNCU KOVA ②: is BASKA BIR OTURUMA SEVK EDILMIS ve o oturum OLMUS/OKUMAMIS. NICIN sirada: yeniden sevk gerekiyor, yeniden OLCUM degil. Iki kayit acikca 'MOTOR EPOK'a sevk edildi (M-1186), oturum OLU, okunmadi' diyor. Kume: ARTIK.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  }
+ },
+ "parti-emrelic-0031": {
+  "H-0002": {
+   "hukum": "olculecek",
+   "not": "NE OLCULECEK: notun kendisi bir kume isareti tasimiyor, OKUNARAK atanmasi gerekiyor. Notun ozu: NE OLCULECEK: goruntudeki taranmis/cizgili sekil isgal ortusu mu (19.yy'a ozgu, 1386'da beklenmez) yoksa sefer/hareket guzergahi oku mu belli degil; c  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0003": {
+   "hukum": "sirada",
+   "not": "KUME: sahiplik-teyidi. NICIN sirada: bir kaydin donem zinciri kaynakla teyit edilecek; VERI oturumunun kalemi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0004": {
+   "hukum": "olculecek",
+   "not": "NE OLCULECEK: notun kendisi bir kume isareti tasimiyor, OKUNARAK atanmasi gerekiyor. Notun ozu: NICIN: kullanicinin kendi metni zaten 'ayri bir oturum gorevlendir, detayli baksin' diyor - genis kapsamli arastirma talebi; hedef cografya gorsele bu  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0005": {
+   "hukum": "sirada",
+   "not": "KUME: emilme (CLAUDE.md §2 — noktasi olmayan bolge en yakin petege emilir). NICIN sirada: kok bilinen ve ORTAK; tek tek duzeltme degil nokta ekleme / kasitli_bosluk beyani gerekiyor.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0007": {
+   "hukum": "olculecek",
+   "not": "NE OLCULECEK: notun kendisi bir kume isareti tasimiyor, OKUNARAK atanmasi gerekiyor. Notun ozu: NICIN: YENI olculen veri hatasi - Mersin d: 1352-01-01'den basliyor ama Orhan Gazi doneminde (1326-1362) Osmanli Mersin'e hic ulasmamisti; 1352 tarihi  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0008": {
+   "hukum": "sirada",
+   "not": "KUME: sahiplik-teyidi. NICIN sirada: bir kaydin donem zinciri kaynakla teyit edilecek; VERI oturumunun kalemi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0010": {
+   "hukum": "sirada",
+   "not": "KUME: renk-kimlik. NICIN sirada: RENK oturumunun kalemi (palet/kimlik). ⚠️ CLAUDE.md §11: renk gorunmuyorsa ONCE veride o donem var mi diye bakilir — teshis yonu yanlis kurulmasin.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0014": {
+   "hukum": "sirada",
+   "not": "KUME: renk-kimlik. NICIN sirada: RENK oturumunun kalemi (palet/kimlik). ⚠️ CLAUDE.md §11: renk gorunmuyorsa ONCE veride o donem var mi diye bakilir — teshis yonu yanlis kurulmasin.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0016": {
+   "hukum": "sirada",
+   "not": "KUME: hareket-tipoloji. ⚠️ NICIN once OLCULMELI: CLAUDE.md §11 'HAREKET tipolojisi 9 tur/9 glif/9 katman commit 591a5c6' diyor — istenen sey ZATEN VAR olabilir.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0019": {
+   "hukum": "sirada",
+   "not": "KUME: emilme (CLAUDE.md §2 — noktasi olmayan bolge en yakin petege emilir). NICIN sirada: kok bilinen ve ORTAK; tek tek duzeltme degil nokta ekleme / kasitli_bosluk beyani gerekiyor.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0020": {
+   "hukum": "tekrar",
+   "not": "parti-emrelic-0031/H-0018'de kapaniyor; koordinatorun kendi tasnifi (commit 07c33b2) H-0006/H-0018/H-0020/0030-H-0005 dortlusunu TEK KOK diye isaretlemis."
+  },
+  "H-0022": {
+   "hukum": "sirada",
+   "not": "KUME: emilme (CLAUDE.md §2 — noktasi olmayan bolge en yakin petege emilir). NICIN sirada: kok bilinen ve ORTAK; tek tek duzeltme degil nokta ekleme / kasitli_bosluk beyani gerekiyor.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  }
+ },
+ "parti-emrelic-0032": {
+  "H-0003": {
+   "hukum": "olculecek",
+   "not": "NE OLCULECEK: notun kendisi bir kume isareti tasimiyor, OKUNARAK atanmasi gerekiyor. Notun ozu: NE OLCULECEK: TDV'nin kendisi Uzun Hasan'in Karakoyunlu'ya son verdigi savasin kesin mahallini vermiyor (yalniz Hasan Ali'nin sonraki kacis yonunu, Ge  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0009": {
+   "hukum": "sirada",
+   "not": "🟠 DORDUNCU KOVA ①: care YAZILMIS, UYGULANMAMIS. NICIN sirada: is TARIF EDILMIS ve kok BULUNMUS; eksik olan yalnizca elle uygulama. Bu ne KAPANMIS'tir ne YENI IS — ayri tutulmazsa 'tarif edilmis ama unutulmus' is gorunmez kalir. Kume: ARTIK.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0010": {
+   "hukum": "olculecek",
+   "not": "NE OLCULECEK: notun kendisi bir kume isareti tasimiyor, OKUNARAK atanmasi gerekiyor. Notun ozu: NICIN: kendi metni zaten 'bunun icin bir oturum gorevlendir' diyor - Sultani (ilk Osmanli altini) maddesine hangi gorselin (madeni para) konacagini, t  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0014": {
+   "hukum": "olculecek",
+   "not": "NE OLCULECEK: notun kendisi bir kume isareti tasimiyor, OKUNARAK atanmasi gerekiyor. Notun ozu: NICIN: MERAK.md kuyrugunda 4. madde olarak ZATEN kayitli ('Otranto seferi Fatih'ten sonra nicin surdurulmedi') - yeni bir istek degil, var olan kuyrug  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0016": {
+   "hukum": "sirada",
+   "not": "KUME: emilme (CLAUDE.md §2 — noktasi olmayan bolge en yakin petege emilir). NICIN sirada: kok bilinen ve ORTAK; tek tek duzeltme degil nokta ekleme / kasitli_bosluk beyani gerekiyor.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  }
+ },
+ "parti-emrelic-0033": {
+  "H-0001": {
+   "hukum": "sirada",
+   "not": "KUME: sahiplik-teyidi. NICIN sirada: bir kaydin donem zinciri kaynakla teyit edilecek; VERI oturumunun kalemi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0002": {
+   "hukum": "sirada",
+   "not": "KUME: renk-kimlik. NICIN sirada: RENK oturumunun kalemi (palet/kimlik). ⚠️ CLAUDE.md §11: renk gorunmuyorsa ONCE veride o donem var mi diye bakilir — teshis yonu yanlis kurulmasin.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0003": {
+   "hukum": "sirada",
+   "not": "KUME: sahiplik-teyidi. NICIN sirada: bir kaydin donem zinciri kaynakla teyit edilecek; VERI oturumunun kalemi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0006": {
+   "hukum": "sirada",
+   "not": "KUME: emilme (CLAUDE.md §2 — noktasi olmayan bolge en yakin petege emilir). NICIN sirada: kok bilinen ve ORTAK; tek tek duzeltme degil nokta ekleme / kasitli_bosluk beyani gerekiyor.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0007": {
+   "hukum": "olculecek",
+   "not": "NE OLCULECEK: notun kendisi bir kume isareti tasimiyor, OKUNARAK atanmasi gerekiyor. Notun ozu: Kazak Hanlığı için aynı sebep — nokta yoğunluğu düşük; NE ölçülecek: H-0006 ile aynı, bozkır nokta partisi gerekiyor.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0008": {
+   "hukum": "olculecek",
+   "not": "NE OLCULECEK: notun kendisi bir kume isareti tasimiyor, OKUNARAK atanmasi gerekiyor. Notun ozu: Sibir Hanlığı için aynı sebep — nokta yoğunluğu düşük; NE ölçülecek: H-0006/H-0007 ile aynı bozkır nokta partisi kapsamına girer.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0009": {
+   "hukum": "olculecek",
+   "not": "NE OLCULECEK: notun kendisi bir kume isareti tasimiyor, OKUNARAK atanmasi gerekiyor. Notun ozu: Nogay Ordası ile Buhara Hanlığı arasında (Aral/Üstyurt civarı) koca bir boş şerit var, kasıtlı sahipsiz listede değil, muhtemelen nokta eksikliği; Emr  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0010": {
+   "hukum": "olculecek",
+   "not": "NE OLCULECEK: notun kendisi bir kume isareti tasimiyor, OKUNARAK atanmasi gerekiyor. Notun ozu: Kandehar'ın pergel görünümü nokta yoğunluğu düşüklüğünden; Emre'nin kendi metni zaten doğru çerçeveyi çiziyor (kayıt varsa nokta artırılır, yoksa doku  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0013": {
+   "hukum": "olculecek",
+   "not": "NE OLCULECEK: notun kendisi bir kume isareti tasimiyor, OKUNARAK atanmasi gerekiyor. Notun ozu: Görsel Songhay'ın büyük pergel dairesini gösteriyor (H-0006 ailesi) ama metin özellikle 'güneybatıdaki küçük boyama'dan bahsediyor, sıkıştırılmış görü  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0014": {
+   "hukum": "olculecek",
+   "not": "NE OLCULECEK: notun kendisi bir kume isareti tasimiyor, OKUNARAK atanmasi gerekiyor. Notun ozu: Kanem-Bornu'nun atlasta yalnız 2 noktası var (Mao ve Birni N'gazargamu, ~500 km ayrı), görsel bunu iki ayrı pergel dairesi olarak doğruluyor; NE ölçül  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0015": {
+   "hukum": "sirada",
+   "not": "KUME: degismez2. NICIN sirada: kirilma gununun ±30 gun kronoloji maddesi yazilacak; KRONOLOJI oturumunun kalemi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0016": {
+   "hukum": "sirada",
+   "not": "KUME: sahiplik-teyidi. NICIN sirada: bir kaydin donem zinciri kaynakla teyit edilecek; VERI oturumunun kalemi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0017": {
+   "hukum": "olculecek",
+   "not": "NE OLCULECEK: notun kendisi bir kume isareti tasimiyor, OKUNARAK atanmasi gerekiyor. Notun ozu: Görsel GÜRCİSTAN'ın Kafkas sırtının kuzeyine dar bir üçgenle taştığını gösteriyor; veri gurcistan'ı tek kesintisiz kimlik olarak tutuyor (Kartli/Kahet  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0018": {
+   "hukum": "sirada",
+   "not": "KUME: hareket-tipoloji. ⚠️ NICIN once OLCULMELI: CLAUDE.md §11 'HAREKET tipolojisi 9 tur/9 glif/9 katman commit 591a5c6' diyor — istenen sey ZATEN VAR olabilir.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0019": {
+   "hukum": "olculecek",
+   "not": "NE OLCULECEK: notun kendisi bir kume isareti tasimiyor, OKUNARAK atanmasi gerekiyor. Notun ozu: Görsel (Tebük-Medine, 1517-07-12) açıkça boş bir alan göstermiyor, hangi koordinatın kastedildiği net değil; NE ölçülecek: canlı haritada aynı tarih/k  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0020": {
+   "hukum": "sirada",
+   "not": "KUME: sahiplik-teyidi. NICIN sirada: bir kaydin donem zinciri kaynakla teyit edilecek; VERI oturumunun kalemi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0021": {
+   "hukum": "sirada",
+   "not": "KUME: emilme (CLAUDE.md §2 — noktasi olmayan bolge en yakin petege emilir). NICIN sirada: kok bilinen ve ORTAK; tek tek duzeltme degil nokta ekleme / kasitli_bosluk beyani gerekiyor.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  }
+ },
+ "parti-emrelic-0034": {
+  "H-0001": {
+   "hukum": "sirada",
+   "not": "KUME: sahiplik-teyidi. NICIN sirada: bir kaydin donem zinciri kaynakla teyit edilecek; VERI oturumunun kalemi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0002": {
+   "hukum": "olculecek",
+   "not": "NE OLCULECEK: notun kendisi bir kume isareti tasimiyor, OKUNARAK atanmasi gerekiyor. Notun ozu: Halepçe verisi Necef/Bağdat/Musul/Erbil bloğuyla aynı tarihte hareket ediyor ve H-0007/H-0008'in görsellerinde (1554-08-22) Şehrizor ile aynı blokta,   ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0005": {
+   "hukum": "sirada",
+   "not": "KUME: sahiplik-teyidi. NICIN sirada: bir kaydin donem zinciri kaynakla teyit edilecek; VERI oturumunun kalemi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0009": {
+   "hukum": "sirada",
+   "not": "KUME: degismez2. NICIN sirada: kirilma gununun ±30 gun kronoloji maddesi yazilacak; KRONOLOJI oturumunun kalemi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0010": {
+   "hukum": "sirada",
+   "not": "KUME: cizim-geometri. NICIN sirada: js/app.js ya da css kalemi; ARAYUZ oturumuna gider.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0011": {
+   "hukum": "sirada",
+   "not": "KUME: sahiplik-teyidi. NICIN sirada: bir kaydin donem zinciri kaynakla teyit edilecek; VERI oturumunun kalemi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0016": {
+   "hukum": "olculecek",
+   "not": "NE OLCULECEK: notun kendisi bir kume isareti tasimiyor, OKUNARAK atanmasi gerekiyor. Notun ozu: data/yerlesimler_ek_ferhadpasa.js yalnız Van eyaletinin doğu sancaklarını (Mahmudi/Kotur/Çölemerik/Bargiri) doğruladı, kendi notunda batı sancaklarını  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0017": {
+   "hukum": "olculecek",
+   "not": "NE OLCULECEK: notun kendisi bir kume isareti tasimiyor, OKUNARAK atanmasi gerekiyor. Notun ozu: H-0011 ile aynı kök (gurcistan'ın tek kimlik olması), aynı tasarım kararına bağlı.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0019": {
+   "hukum": "olculecek",
+   "not": "NE OLCULECEK: notun kendisi bir kume isareti tasimiyor, OKUNARAK atanmasi gerekiyor. Notun ozu: Görsel açılmadı, 'bu şehirler kime aitmiş' sorusunun hangi şehirleri kastettiği net değil; NE ölçülecek: görsel açılıp şehir listesi ve tarih tespit e  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0020": {
+   "hukum": "sirada",
+   "not": "🟠 DORDUNCU KOVA ①: care YAZILMIS, UYGULANMAMIS. NICIN sirada: is TARIF EDILMIS ve kok BULUNMUS; eksik olan yalnizca elle uygulama. Bu ne KAPANMIS'tir ne YENI IS — ayri tutulmazsa 'tarif edilmis ama unutulmus' is gorunmez kalir. Kume: degismez2.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0023": {
+   "hukum": "olculecek",
+   "not": "NE OLCULECEK: notun kendisi bir kume isareti tasimiyor, OKUNARAK atanmasi gerekiyor. Notun ozu: H-0011/H-0017 ile aynı kök (gurcistan tek kimlik) — Tiflis/Gence kaybı sonrası yeni yerlerin Gürcistan mı İran'a mı ait sayılacağı da bu tasarım karar  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0028": {
+   "hukum": "olculecek",
+   "not": "NE OLCULECEK: notun kendisi bir kume isareti tasimiyor, OKUNARAK atanmasi gerekiyor. Notun ozu: 0033-H-0021 ile birebir aynı kusur (Libya çöl boyaması, aynı bölge: Gat/Zilla/Sebha/El Katrun/Calu/Ecdabiye/Tobruk), motor kararı Emre'de bekliyor.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0036": {
+   "hukum": "olculecek",
+   "not": "NE OLCULECEK: notun kendisi bir kume isareti tasimiyor, OKUNARAK atanmasi gerekiyor. Notun ozu: Görsel açılmadı, hangi bölge/tarih için 'sadece kayıtlı yerleşimler mi var' sorusunun sorulduğu net değil; NE ölçülecek: görsel açılıp bölge/tarih tes  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0044": {
+   "hukum": "olculecek",
+   "not": "NE OLCULECEK: notun kendisi bir kume isareti tasimiyor, OKUNARAK atanmasi gerekiyor. Notun ozu: İÇERİK TALEBİ, kusur değil — Hafız Osman gibi maddelerde görsellere hat sanatı örnekleri konulması isteniyor.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0045": {
+   "hukum": "sirada",
+   "not": "KUME: emilme (CLAUDE.md §2 — noktasi olmayan bolge en yakin petege emilir). NICIN sirada: kok bilinen ve ORTAK; tek tek duzeltme degil nokta ekleme / kasitli_bosluk beyani gerekiyor.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  }
+ },
+ "parti-emrelic-0036": {
+  "H-0002": {
+   "hukum": "sirada",
+   "not": "KUME: cizim-geometri. NICIN sirada: js/app.js ya da css kalemi; ARAYUZ oturumuna gider.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0003": {
+   "hukum": "sirada",
+   "not": "KUME: cizim-geometri. NICIN sirada: js/app.js ya da css kalemi; ARAYUZ oturumuna gider.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0004": {
+   "hukum": "olculecek",
+   "not": "NE OLCULECEK: notun kendisi bir kume isareti tasimiyor, OKUNARAK atanmasi gerekiyor. Notun ozu: BAYAT AVCISI (27 Ağu 2026, parti-emrelic-0036 triyajı): Aynı kök — görüntü koordinatları (41.35-41.59K/42.87-43.16D) düzeltilmiş devirler.js'teki Rusy  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0005": {
+   "hukum": "sirada",
+   "not": "KUME: emilme (CLAUDE.md §2 — noktasi olmayan bolge en yakin petege emilir). NICIN sirada: kok bilinen ve ORTAK; tek tek duzeltme degil nokta ekleme / kasitli_bosluk beyani gerekiyor.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0006": {
+   "hukum": "olculecek",
+   "not": "NE OLCULECEK: notun kendisi bir kume isareti tasimiyor, OKUNARAK atanmasi gerekiyor. Notun ozu: BAYAT AVCISI (27 Ağu 2026, parti-emrelic-0036 triyajı): H-0007'nin aynı sahnesi (1832-11-21 Konya), ayrı metin yok, ayrı hüküm gerektirmiyor.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0007": {
+   "hukum": "olculecek",
+   "not": "NE OLCULECEK: notun kendisi bir kume isareti tasimiyor, OKUNARAK atanmasi gerekiyor. Notun ozu: BAYAT AVCISI (27 Ağu 2026, parti-emrelic-0036 triyajı): Konya kısmı zaten doğru (Kütahya Sözleşmesi sonrası 1833-06-30 tahliye tutarlı). Belen Geçidi   ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0008": {
+   "hukum": "olculecek",
+   "not": "NE OLCULECEK: notun kendisi bir kume isareti tasimiyor, OKUNARAK atanmasi gerekiyor. Notun ozu: BAYAT AVCISI (27 Ağu 2026, parti-emrelic-0036 triyajı): Urfa'nın v:1832-08-15→1841-02-25 kaydı TDV ile ÇELİŞİYOR: TDV sanliurfa maddesi işgali 1839'da  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0009": {
+   "hukum": "sirada",
+   "not": "KUME: hareket-tipoloji. ⚠️ NICIN once OLCULMELI: CLAUDE.md §11 'HAREKET tipolojisi 9 tur/9 glif/9 katman commit 591a5c6' diyor — istenen sey ZATEN VAR olabilir.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0011": {
+   "hukum": "olculecek",
+   "not": "NE OLCULECEK: notun kendisi bir kume isareti tasimiyor, OKUNARAK atanmasi gerekiyor. Notun ozu: BAYAT AVCISI (27 Ağu 2026, parti-emrelic-0036 triyajı): Adana zaten doğru. Maraş: TDV kahramanmaras maddesi işgalin 1833'te başlayıp ~19 ay sürdüğünü   ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0012": {
+   "hukum": "sirada",
+   "not": "KUME: degismez2. NICIN sirada: kirilma gununun ±30 gun kronoloji maddesi yazilacak; KRONOLOJI oturumunun kalemi.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0014": {
+   "hukum": "sirada",
+   "not": "KUME: cizim-geometri. NICIN sirada: js/app.js ya da css kalemi; ARAYUZ oturumuna gider.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  },
+  "H-0015": {
+   "hukum": "olculecek",
+   "not": "NE OLCULECEK: notun kendisi bir kume isareti tasimiyor, OKUNARAK atanmasi gerekiyor. Notun ozu: BAYAT AVCISI (27 Ağu 2026, parti-emrelic-0036 triyajı): §2 teşhisi doğrulandı: Polesya/Pinsk bataklık bölgesinde (51,58-52,57K/24,25-25,90D, genişleti  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  }
+ },
+ "parti-kasa-0010": {
+  "H-0002": {
+   "hukum": "sirada",
+   "not": "KUME: renk-kimlik. NICIN sirada: RENK oturumunun kalemi (palet/kimlik). ⚠️ CLAUDE.md §11: renk gorunmuyorsa ONCE veride o donem var mi diye bakilir — teshis yonu yanlis kurulmasin.  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  }
+ },
+ "parti-kasa-0012": {
+  "H-0001": {
+   "hukum": "olculecek",
+   "not": "NE OLCULECEK: notun kendisi bir kume isareti tasimiyor, OKUNARAK atanmasi gerekiyor. Notun ozu: IKI AYRI ISTEK, ikisi de gecerli. ① ZAMAN DAMGASI — 'yoksa belli mi' diye sormussun: OLCTUM, cevap 'veri VAR, gosterim YOK'. durum.json'daki her sohbe  ⚠️ Bu satir KUME ATAMASIDIR; kusurun gercekligi TEK TEK OLCULMEDI."
+  }
+ }
+}

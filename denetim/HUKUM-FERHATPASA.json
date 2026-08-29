@@ -1,0 +1,100 @@
+{
+  "_kunye": {
+    "oturum": "FERHAT PAŞA 1590",
+    "tarih": "2026-08-28",
+    "koordinator": "ORHANGAZİ",
+    "ciktilar": [
+      "data/yer_yama_ferhatpasa.js  -> window.YER_YAMA_FERHATPASA (4 gerçek kayıt)",
+      "denetim/BULGU-FERHATPASA.md  -> 16 satırlık tablo, GÜVEN sütunlu"
+    ],
+    "_not_paket_maddesi": "🔴 Bu oturuma ATANMIŞ bir paket madde numarası YOK. Şartname (oturumlar/FERHAT-PASA-1590.md §7) 'ilgili paket maddeleri VARSA' diyor. Emre'nin isteği doğrudan gelmiş, bir parti maddesine bağlanmamış. Aşağıdaki tek paket kalemi, koordinatörün M-1388'de bana SINAMAM için devrettiği yamanın kendi kaynak maddesidir. Kendi 16 şehrimin hükümleri `_ferhatpasa_16` altında, paket dışı olduğu açıkça işaretli."
+  },
+
+  "parti-emrelic-0024": {
+    "H-0001": {
+      "hukum": "cozuldu",
+      "not": "Devredilen `data/yerlesimler_kafkas_duzeltme.js` yamasının 19 kaydının 19'u da sınandı (M-1434, M-1436). BİÇİM: 19/19 kayıtta `ad` + `s`/`d`/`v` var, uygulanabilir; girdi.py'ye bağlı DEĞİL (ölçüldü). İÇERİK: 🟢 13 · 🟡 6 · 🔴 0. 🔴 GERÇEK HATA 1: Kutaisi'nin başlangıç günü 1555-07-23, o gün HİNDİSTAN'a ait — veride onu kullanan 22 yerleşimin hepsi Delhi/Agra/Mathura/Mîrat (sur-hanedani→babur) ve ±30'undaki tek kronoloji maddesi 'Hümâyun, Safevî desteğiyle Delhi'yi geri aldı'. Doğrusu 1578-08-09 (Batum·Sohum·Tiflis·Zagem dördü de kullanıyor). Düzeltilmiş kayıt data/yer_yama_ferhatpasa.js'te. ⚠️ 6 'sarı'nın 5'i (Kars·Ardahan·Digor·Arpaçay·Iğdır) BENİM SÜZGECİMİN YANLIŞ ALARMI: 'Osmanlı dönemi 1603-1607'de kapanmalı' kuralı yalnız savaş bölgesinin DOĞUSU için geçerli; bu beşi Osmanlı çekirdeğidir ve 1878'e kadar Osmanlı kalmaları DOĞRUDUR — Iranica bunu doğruluyor: Şah Abbas 'advanced towards Kars. But, faced with a strong Ottoman counter-offensive, the shah decided to retreat'. Gerçek sarı: 1 (Kutaisi)."
+    }
+  },
+
+  "_ferhatpasa_16": {
+    "_not": "🔴 BUNLAR PAKET MADDESİ DEĞİLDİR — Emre'nin doğrudan isteğinden gelen 16 yerin hükümleri. Koordinatör birleştirirken (arac/_hukum_birlestir.py) bu bloğu paket hükümleriyle karıştırmasın diye ayrı anahtar altında ve altçizgi önekiyle yazıldı. Gerekçeler ve BİREBİR alıntılar denetim/BULGU-FERHATPASA.md'de.",
+
+    "Culfa": {
+      "hukum": "cozuldu",
+      "not": "GÜVEN: KESİN. Encyclopaedia Iranica 'JULFA i. SAFAVID PERIOD' birebir: 'the taxes of Old Julfa, when under Ottoman occupation in the last decade of the 16th century, had been the property of the sultan's mother'. Kayıt yazıldı: d:[{f:1585-01-01, t:1603-10-21, y:savas}]. Günler Aras vadisi komşularından BİREBİR (Nahçıvan 33,9 km · Ordubad 34,5 km, ikisi de aynı gün çifti). Yeni gün üretilmedi."
+    },
+    "Urmiye": {
+      "hukum": "cozuldu",
+      "not": "GÜVEN: olay KESİN, gün ÇIKARIM. TDV `urmiye` (Özgüdenli, c.42, 179-180) birebir: 'XVI. yüzyılın sonlarında kısa bir süre Osmanlı egemenliğine geçtiyse de Şah I. Abbas tarafından yeniden Safevî Devleti'ne bağlandı'. TDV GÜN VERMİYOR — 1585/1590/1603/1639'un hiçbiri maddede geçmiyor, ölçüldü. Gün Tebriz kuşağından alındı (Merâga·Hoy·Miyâne·Tebriz DÖRDÜ DE 1585-09-25→1603-10-21, uyuştukları sınandı). Kayıt yazıldı."
+    },
+    "Zencan": {
+      "hukum": "zaten-dogru",
+      "not": "GÜVEN: KESİN. TDV `zencan` (Özaydın, c.44, 251-253) 16. yy Osmanlı hâkimiyetinden HİÇ söz etmiyor; andığı ilk Osmanlı antlaşması 1724 İstanbul Muahedesi. Yalnız 'Osmanlı-İran mücadelesine SAHNE OLDU' diyor — sahne olmak el değiştirmek değildir. Veri `safevi` diyor ve kaynak onu DESTEKLİYOR. Kayıt YAZILMADI, gerek yok. 📌 Bu, şartnamedeki 'antlaşma veriye eksik yansımış' çıkarımını kısmen çürütür: 14 şehrin hepsi değişmeyecek."
+    },
+    "Sohum": {
+      "hukum": "zaten-dogru",
+      "not": "GÜVEN: KESİN. TDV `sohum` (Mustafa Aydın, EK-2, 519-522): '1578'de İran seferi esnasında Sohum eyaleti oluşturuldu', başına Çerkez Haydar Paşa getirildi — eyalet kurup VALİ ATAMAK doğrudan idaredir, `d:` doğru seçim. Emre'nin 'Osmanlı mı tâbi mi' sorusunun cevabı: DOĞRUDAN. ⚠️ TDV kale ile iç bölgeyi ayırıyor (çevredeki Abaza beyleri tâbi) ama veri NOKTA modelliyor. 🔴 TEK KALEM: bitiş 1810-07-01 → 1810-07-11 (TDV: '11 Temmuz 1810'da Ruslar'ın eline geçti'), 10 gün. Kayıt yazıldı ama bu kalem reddedilirse geri kalan yine doğru."
+    },
+    "Kutaisi": {
+      "hukum": "cozuldu",
+      "not": "GÜVEN: ÇIKARIM (güçlü). Emre'nin 'Gürcistan'a mı, Osmanlı'ya mı, Safevî'ye mi' sorusunun cevabı ÜÇÜ DE DEĞİL: İMERETİ KRALLIĞI'nın başkenti (künye 1490-01-01→1810-02-20 VAR, renk BOYALAR['imereti']=('İmereti Krallığı','#deea90') VAR — regex değil IMPORT ile ölçüldü) ve 1578-08-09'dan Osmanlı TÂBİSİ. Safevî HİÇ değil. Kalıp Zagem (Kaheti)'den birebir: v:[{f,t,k:'... krallığı (tâbi)'}]. Bugünkü veri 'gurcistan' diyor ⇒ yanlış krallık + Osmanlı bağı yok ⇒ 12/12 komşusu Osmanlı iken PEMBE ENKLAV görünüyor; Emre'nin 1594-09-27 görüntüsünde gördüğü budur. ⚠️ Bitişin 1603-1606'da kesilmemesi ÇIKARIM: Şah Abbas Tiflis/Kaheti'yi (DOĞU) aldı, İmereti BATI'dır ve oraya ulaşmadı; İmereti'ye özel kaynak ARANDI, BULUNAMADI."
+    },
+    "Merend": {
+      "hukum": "olculecek",
+      "not": "GÜVEN: ÇIKARIM. Kayıt YAZILMADI. Tek dayanak komşu kuşatması: 150 km çevresinin %58'i 1595'te Osmanlı (Ordubad 56,8 km · Tebriz 59,8 · Hoy 72,8). 🔴 Komşu kuşatması NEREYE BAKACAĞIMI söyler, NE OLDUĞUNU söylemez — kaynak değildir. TDV `merend` 302; Iranica `marand` 404."
+    },
+    "Selmâs (Dilman)": {
+      "hukum": "olculecek",
+      "not": "GÜVEN: ÇIKARIM. Kayıt YAZILMADI. Komşu kuşatması %65 (Hoy 42,4 km · Kotur 44,6 OSMANLI). TDV `selmas` 302; Iranica `salmas` 404."
+    },
+    "Başkale": {
+      "hukum": "olculecek",
+      "not": "GÜVEN: ÇIKARIM. Kayıt YAZILMADI. Komşu kuşatması %71 — listenin en yükseği (Hoşap 30,5 km · Çölemerik 57,4 · Kotur 58,5 · Özalp 68,2, hepsi OSMANLI). Bugünkü veri 1514-09-06→1639-05-17 safevi, sonra Osmanlı. ⚠️ Devredilen kafkas yaması Başkale'ye DOKUNUYOR ama yalnız 1281-1467 zincirini düzeltiyor; kendi notu '1514-09-06 ve sonrası DEĞİŞMEDİ' diyor ve sınandı, öyle. Yani 1590 sorusu yamayla da açık kalıyor. TDV `baskale` 302."
+    },
+    "Sultâniye": {
+      "hukum": "olculecek",
+      "not": "GÜVEN: ÇIKARIM. Kayıt YAZILMADI. Komşu kuşatması %12 — Zencan'la aynı kuşakta (39,1 km) ve Zencan için TDV Osmanlı hâkimiyeti YOK diyor. ⇒ Muhtemelen `zaten-dogru`, ama Sultâniye'ye özel kaynak yok: TDV `sultaniye` 302; Iranica `soltaniya` 404."
+    },
+    "Bîcâr": {
+      "hukum": "olculecek",
+      "not": "GÜVEN: ÇIKARIM. Kayıt YAZILMADI. Komşu kuşatması %17. Iranica `bijar` CANLI ama 1590 geçmiyor; TDV `bicar` 302."
+    },
+    "Sakkız (Saqqez)": {
+      "hukum": "sirada",
+      "not": "GÜVEN: BULUNAMADI. TDV `sakkiz` 302. Iranica `saqqez` CANLI AMA MADDE SAKIZ REÇİNESİ (Pistacia mutica) — §4 ②'nin Iranica'daki karşılığı, canlı adres yanlış madde. 🔴 AD TUZAĞI AYRICA: 'Sakkız' (Saqqez, 36,246K/46,263D, safevi) ile 'Sakız' (CHIOS ADASI, 38,368K/26,135D, OSMANLI) veride AYRI iki kayıt — bir harf fark, 1700 km. Veri doğru ayırmış; ad eşleşmesiyle arayan birleştirebilir."
+    },
+    "Bâne": {
+      "hukum": "sirada",
+      "not": "GÜVEN: BULUNAMADI. TDV `bane` 302; Iranica `bana` CANLI ama 1590 geçmiyor."
+    },
+    "Merîvan": {
+      "hukum": "sirada",
+      "not": "GÜVEN: BULUNAMADI. TDV `merivan` 302; Iranica `marivan` 404."
+    },
+    "Serdeşt (Sardasht)": {
+      "hukum": "sirada",
+      "not": "GÜVEN: BULUNAMADI. TDV `serdest` 302; Iranica `sardast` 404. Komşu kuşatması %50."
+    },
+    "Mahabad (Sâvücbulak)": {
+      "hukum": "sirada",
+      "not": "GÜVEN: BULUNAMADI. TDV `mahabad` 302; Iranica `mahabad` 404."
+    },
+    "Mîyandoab": {
+      "hukum": "sirada",
+      "not": "GÜVEN: BULUNAMADI. TDV `miyandoab` 302; Iranica `miandoab` 404."
+    },
+    "_kurdistan_altilisi_ORTAK_NOT": {
+      "hukum": "sirada",
+      "not": "🔴 ALTISI İÇİN ORTAK SEBEP — ve bu bir SONUÇ, boşluk değil: bu altı yer ARDALAN Kürt beyliğinin alanında ve Ardalan 1590-1616 arasında büyük ölçüde bağımsızdı. Yani 'Osmanlı mı Safevî mi' sorusunun CEVABI OLMAYABİLİR. ⚠️ Bu bilginin dayanağı Vikipedi — tek dayanak sayılmaz, o yüzden hiçbir kayda YAZILMADI, yalnız 'nereye bakılacak' olarak kaydedildi. 🔴 `ardalan` künyesi devletler.js'te YOK (431 künye tarandı), rengi de yok ⇒ doğru çözüm bir KÜNYE İŞİ olabilir, benim dosyam değil. 🟢 BAĞIMSIZ TEYİT: aynı bölgedeki Senendec (Sine) kaydı ZATEN kaynak:'bulunamadi' taşıyor ve notu 'erdelan 302 · kirmansah kapsayıcı — ad + idarî terim YOK' diyor. Başka bir oturum aynı duvara çarpmış; benimki ikinci bağımsız ölçüm."
+    },
+    "Gümrü (Aleksandropol)": {
+      "hukum": "olculecek",
+      "not": "🔴 KOORDİNATÖRÜN İSTEDİĞİ ÜÇÜNCÜ ÖLÇÜM (M-1436'dan sonraki görev ③). SONUÇ: kaynak BULUNAMADI, ama VERİ İÇİ TUTARSIZLIK ölçüldü. ① Yamanın KENDİ `kaynak:` alanı zaten 'bulunamadı' diyor — yani yama da bu kayıt için kaynaksız, 'komşu Nahçıvan/Şerur deseninden' türetilmiş. ② Iranica: `gyumri` 404. ③ ÖLÇÜM: Gümrü 1595'te safevi, ama en yakın 6 komşusunun 5'i OSMANLI — Arpaçay 44,4 km · Digor 59,0 · Kars 66,7 · Ahılkelek 74,7 · Revan 87,9. ⇒ 'Hiç Osmanlı olmamış' hükmü ŞÜPHELİ ama ÇÜRÜTÜLEMEDİ. Kayıt YAZILMADI."
+    },
+    "Eçmiyadzin": {
+      "hukum": "olculecek",
+      "not": "🔴 ÜÇÜNCÜ ÖLÇÜM, Gümrü ile aynı görev. ① Yamanın kaynağı yine 'bulunamadı' ('Gümrü ile aynı gerekçe'). ② Iranica `ejmiatsin` CANLI ve OKUNDU — ama madde manastırı ve 19. yüzyılı anlatıyor, 1583-1604 sorusuna CEVAP VERMİYOR. ③ 🔴 EN GÜÇLÜ İŞARET: Eçmiyadzin REVAN'A 19 KM ve Revan veride 1583-06-01→1604-06-08 OSMANLI. 19 km ötedeki eyalet merkezi Osmanlı iken Eçmiyadzin'in safevi kalması iç tutarsızlıktır. ⚠️ Ayrıca Iranica JULFA maddesi Şah Abbas'ın 1604-1605'te 'the province of Chukhuri Sa'd' (= Revan/Erivan eyaleti, Eçmiyadzin onun içinde) halkını tehcir ettiğini yazıyor — tehcir OSMANLI'dan ÇEKİLİRKEN yapıldı. ⇒ Bölgenin Osmanlı elinde olduğuna dolaylı işaret, ama Eçmiyadzin ADIYLA geçmiyor ⇒ ÇIKARIM, kayıt YAZILMADI."
+    }
+  }
+}

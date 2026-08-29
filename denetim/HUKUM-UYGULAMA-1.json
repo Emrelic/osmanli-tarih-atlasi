@@ -1,0 +1,22 @@
+{
+ "parti-emrelic-0031": {
+  "H-0003": {
+   "hukum": "cozuldu",
+   "not": "UYGULANDI — data/yer_yama_uyg1.js'e Bağdat kaydı yazıldı: celayirli 1335-12-01→1411-01-01 tek bloğu, 1401-01-01/1405-01-01 sınırlarıyla bölünüp arasına `timurlu` eklendi. Kaynak TDV `bagdat`. Değişmez 1 (süreklilik) ve Değişmez 2 (her iki yeni kırılma günü çekirdekte 0 gün farkla maddeli) node ile sınandı, temiz. Koordinatörün data/yerlesimler.js'e birleştirmesi bekleniyor."
+  },
+  "H-0008": {
+   "hukum": "tekrar",
+   "not": "0031/H-0003 ile aynı kök (Bağdat'ın eksik timurlu alt-dönemi) — H-0003 UYGULANDI, bu madde onunla birlikte kapanıyor."
+  },
+  "H-0016": {
+   "hukum": "cozuldu",
+   "not": "UYGULANDI — data/savaslar.js:331 Şeyh Bedreddin isyanı kaydının koordinatı düzeltildi: lat:41.10,lon:26.60 → lat:41.089,lon:23.545 (Serez'in data/yerlesimler.js'teki kaydıyla birebir hizalandı). Eski koordinat Serez'den ~250 km doğudaydı (ölçüm doğrulandı: 3,055° boylam farkı × ~84 km/° ≈ 256 km). Tek satırlık, düşük riskli bir düzeltmeydi; savaslar.js benim dosyam olmadığı için minimal ve gerekçeli tutuldu, satır içi yorumla işaretlendi."
+  }
+ },
+ "parti-emrelic-0037": {
+  "H-0001": {
+   "hukum": "sirada",
+   "not": "KISMEN UYGULANDI — data/yer_yama_uyg1.js'e İsmail kaydı yazıldı: 1812-1923 kesintisiz `rusya` bloğu, 1856-03-30/1878-07-13 sınırlarıyla bölünüp arasına `v:` (tâbi, Boğdan Voyvodalığı) eklendi. Kaynak TDV `bogdan` (gövdesi okundu): '1856 Paris Antlaşması ile Kahul/İsmail/Bolgrad Boğdan'a geri verildi, 1878 Berlin Antlaşması ile üçü de tekrar Rusya'ya.' İki yeni kırılma günü de çekirdekte 0 gün farkla maddeli (Paris Antlaşması, Berlin Antlaşması). 🔴 AMA Kahul ve Bolgrad'ın KENDİSİ veride HİÇ YOK (aranan sluglar: Kahul/Cahul/Kagul/Bolgrad/Bolgrado, hepsi 0 eşleşme) — ikisi de YENİ NOKTA, yer_yama'ya yazılmadı, koordinatöre devredildi (yaklaşık koordinatlar not alanında). Bu yüzden madde tam kapanmadı: İsmail'in kendi kaydı düzeldi ama komplenin üçte biri (İsmail) yalnız uygulanmış oldu, sirada bırakıyorum."
+  }
+ }
+}

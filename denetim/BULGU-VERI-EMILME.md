@@ -147,13 +147,26 @@ korunup madde kapatılmadan bırakılsın.
 ## 6. Teslim
 
 ```
-data/yer_yama_emilme2.js          window.YER_YAMA_EMILME2 — 3 kayıt (tek fix, 2 madde)
+data/yer_yama_emilme2.js          window.YER_YAMA_EMILME2 — DİZİ, 3 kayıt (ad:/d:/s:/kaynak:/neden:)
 denetim/HUKUM-VERI-EMILME.json    16/16 madde hükümlü
-denetim/BULGU-VERI-EMILME.md      bu dosya
+denetim/HUKUM-VERI-EMILME2.json   aynı içerik (ORHANGAZİ'nin istediği ikinci ad)
+denetim/BULGU-VERI-EMILME.md      bu dosya — ölçüm/gerekçe burada, KAYIT dosyasında değil
 ```
 
-**48 → 16 → 2 gerçek düzeltme, 9 zaten-doğru, 4 başka işe bağlı, 1 kaynaksız.**
-Rapor değil iş: 16 maddenin 16'sı ölçüldü, kalan tek açık madde (H-0021) için
-sebep ve öneri yazılı.
+🔴 **DÜZELTME (28 Ağustos, ikinci tur):** `yer_yama_emilme2.js`'in ilk sürümü
+NESNE'ydi (`olcum`/`zaten_dogru`/`baska_ise_bagli`/`olculemedi` anahtarlarıyla)
+— motor bunu okuyamıyordu. ORHANGAZİ'nin uyarısıyla düzeltildi: artık **DİZİ**,
+yalnız 3 gerçek kayıt taşıyor (`ad:` alanı `py arac/_yer_ara.py` ile doğrulandı).
+Ölçüm/gerekçe içeriği bu dosyaya (yukarıdaki §1-5) taşındı, kayıp olmadı.
+
+🟢 **BAĞIMSIZ DOĞRULAMA:** aynı üç nokta (Ahtapolu/Rezve/İğneada) ve aynı fix,
+başka bir oturum tarafından `data/yer_yama_veri31.js`de de tespit edilmiş
+("GERÇEK VERİ EKSİĞİ, 3 nokta ile SINIRLI ve KESİN"). İki bağımsız ölçüm aynı
+sonuca vardı; kaynak dosya (`data/yerlesimler_ek24.js`) bugün itibarıyla HÂLÂ
+düzeltilmemiş — ikisi de henüz uygulanmamış açık bir yama.
+
+**48 → 16 → 2 gerçek düzeltme (3 nokta, tek desen), 9 zaten-doğru, 4 başka işe
+bağlı, 1 kaynaksız.** Rapor değil iş: 16 maddenin 16'sı ölçüldü, kalan tek açık
+madde (H-0021) için sebep ve öneri yazılı.
 
 — VERİ SAHİPLİK-2

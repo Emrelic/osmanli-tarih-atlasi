@@ -1,0 +1,180 @@
+{
+ "_kunye": {
+  "oturum": "TASNİF-C",
+  "tarih": "2026-08-28",
+  "kapsam": "parti-emrelic-0020 · 0021 · 0022 · 0023 · 0024 · 0025",
+  "olculen_taban": "SINIFLANMADI.md'de bu paketlerin 30 satiri (sartname ~27 diyordu; grep '^| parti-emrelic-002[0-5] ' → 0020:4 0021:11 0022:2 0023:4 0024:5 0025:4)",
+  "veri_tabani": "girdi.yukle() · 2607 nokta · 56 dosya · py arac/_yer_ara.py",
+  "yayin_tabani": "data/donemler.js 2026-08-27 17:25 (son kosu) · index.html ?v=r3556",
+  "kovalar": "🟢 kapanmis 2 · 🔵 kumeye git 13 · 🟠 care ilan edildi UYGULANMADI 3 · 🔴 yeni is 12",
+  "yetki": "YALNIZ OLCUM VE HUKUM. data/ arac/ js/ ve kok *.md dosyalarina YAZILMADI (CLAUDE.md §7, Oturum 2 kurali). CEVAP.json'a ve baska HUKUM dosyalarina dokunulmadi."
+ },
+
+ "parti-emrelic-0020": {
+  "H-0005": {
+   "hukum": "sirada",
+   "kova": "🟠 CARE ILAN EDILDI AMA UYGULANMADI",
+   "not": "MALTA KIYI ORTUSMESI. OLCTUM (bugun, arac/uret_petek.py): KARA_TOL = 0.002 satir 404 · SADE_TOL = 0.012 satir 1146 — ikisi de 14 Agustos'tan beri DEGISMEMIS (git log -S'SADE_TOL = ' son degisiklik eec59ab, 2026-07-28). Satir numaralari 376/1061'den 404/1146'ya kaymis, yani dosya degismis ama SABITLER degismemis. Kiyi hala 6 kat kabalasiyor. Care `Z-0015` diye kayitli (BEKLEYENLER.md:311 'yarin Z-0019 · Z-0014 · Z-0015 (kiyi) · Z-0016') ve HUKUM-BAYAT.json:369 da ayni hukmu vermis. ⇒ Bu bir kusur DEGIL, KABUL EDILMIS BORC; ama sekiz gundur kuyrukta ve veride karsiligi yok. DOSYA: arac/uret_petek.py (Oturum 0 / MOTOR)."
+  },
+  "H-0012": {
+   "hukum": "sirada",
+   "kova": "🔵 KUMEYE GIT — sahiplik-teyidi",
+   "not": "FERHAT PASA SINIRLARI. OLCTUM: bu isin ACIK BIR OTURUMU VAR — oturumlar/FERHAT-PASA-1590.md, 16 yer icin (Zencan · Sultaniye · Bicar · Merivan · Sakkiz · Bane · Serdest · Mahabad · Miyandoab · Urmiye · Baskale · Selmas · Merend · Culfa · Sohum · Kutaisi) uc soru soruyor: 1590'da kime birakildi · hangi GUN el degistirdi · 1603-1612 Sah Abbas geri alisinda ne oldu. Emre'nin bu maddedeki sorusu o sartnamenin BIREBIR konusu. ⇒ Yeni is DEGIL, acik oturumun kalemi. Koordinator FERHAT PASA 1590'a baglasin."
+  },
+  "H-0013": {
+   "hukum": "sirada",
+   "kova": "🔴 YENI IS",
+   "not": "VADISSEYL 1578-08-04 — SIKAYET CANLI VE SEBEBI BUGUN OLCULDU. ① 1578-08-04'te veride KIRILMA YOK (0 adet, tam tarama). ② En yakin kirilma 1578-08-01: AHISKA gurcistan → OSMANLI (41,64 K / 42,99 D) — TEK kayit, yani Emre'nin gordugu 'Kafkasya'da ufak toprak degisimi' TAM OLARAK BU. ③ O gune en yakin kronoloji maddesi: 1578-08-04 'Vadisseyl (Kasrilkebir) Savasi ve Fas'in Osmanli himayesine girmesi' — 3 gun. Ikinci sirada 1578-08-09 'Cildir Zaferi — dogu savasi basladi' — 8 gun. ⇒ AHISKA'NIN FETHI, FAS'TAKI BIR SAVASIN MADDESINE YAPISMIS. Degismez 2 bunu TEMIZ goruyor cunku ±30 gunde madde VAR; maddenin AYNI SEYI anlatip anlatmadigini sormuyor. 🔴 IKINCI BULGU: 1578-08-01 tarihi Cildir Zaferi'nden (08-09) ONCE — Ahiska Cildir'dan sonra alindiysa tarih de yanlis. KAYNAKLA SINANMADI. ISTENEN: (a) Ahiska'nin fethine ayri kronoloji maddesi, (b) 1578-08-01 tarihinin TDV ile teyidi. DOSYA: data/olaylar_ek*.js (KRONOLOJI) + data/yerlesimler.js (koordinator). 🟠 YAN KALEM: genel caresi olarak gosterilen `arac/denetle_iddia.py` (T-0109) DOSYA OLARAK YOK — ls ile olctum; sartnamesi TESPIH-20260804.md:152'de 'hazir' diyor, betik yazilmamis."
+  },
+  "H-0014": {
+   "hukum": "sirada",
+   "kova": "🔵 KUMEYE GIT — sahiplik-teyidi",
+   "not": "DOGU SEFERI 1578-1590. H-0012 ile ayni oturumun kalemi: oturumlar/FERHAT-PASA-1590.md. Emre'nin saydigi adlarin (Urmiye · Baskale · Caldiran · Serur · Hoy · Culfa · Merend · Selmas · Miyandoab · Mahabad · Sakkiz · Bicar · Bane · Merivan · Senendec · Zencan · Sultaniye · Dizful · Ahvaz · Abadan · Suster · Ramhurmuz) TAMAMI o sartnamenin kapsaminda. ⇒ FERHAT PASA 1590'a bagla; ayri is acma."
+  }
+ },
+
+ "parti-emrelic-0021": {
+  "H-0002": {
+   "hukum": "sirada",
+   "kova": "🔵 KUMEYE GIT — sahiplik-teyidi (kaynak) · ama NOKTA BORCU ODENMIS",
+   "not": "DALMACYA KIYISI VE ADALARI. 🟢 OLCTUM VE CLAUDE.md §3.5.1 BAYATLAMIS: orada 'Dalmacya anakarasi 0 nokta, Karlofca'nin yedi kalesi yok' yaziyor. BUGUN o kutuda (42,5-45,5 K / 15,0-18,0 D) 24 NOKTA var ve 1593-07-01 sahipleri tutarli: OSMANLI 11 (Bihac · Banaluka · Yayca · Travnik · Nadin · Knin · Vrana · Livno · Sin · Konice · Klis · Mostar), venedik 10 (Pag · Zadar · Uzunada · Sibenik · Split · Brakya · Hvar · Vis · Korcula · Mliyet), avusturya 2 (Karlovac · Sisak). ⇒ Emre'nin sordugu yapinin VERI TARAFI artik var. KALAN IS yalniz KAYNAK: kiyi seridindeki Osmanli/Venedik ayriminin TDV/akademik teyidi. ⚠️ CLAUDE.md §3.5.1'in o iki cumlesi damgalanmali (bkz. §11'in 'ders SILINMEZ, vakanin durumu DAMGALANIR' kurali) — koordinatorun isi, ben kok *.md'ye yazmiyorum."
+  },
+  "H-0005": {
+   "hukum": "sirada",
+   "kova": "🔵 KUMEYE GIT — emilme",
+   "not": "TUNA — 'buradaki iki bosluk neden'. Koordinatorun 1594-11-13 kutu merkezi olcumu BOYALI diyor (Babadagi 51 km, Osm 76) — yani sikayet kutu merkezinde URETILMIYOR. GORSELLE ESLESTIRME HALA YAPILMADI ve ben de YAPMADIM: bu maddenin cevabi ancak H-0005-1.png'deki iki bosluk noktasinin koordinati okunarak verilir. ⇒ Kutu merkezi olcumu bu madde icin YETERSIZ bir alet; emilme kumesine, gorsel okumasiyla birlikte gitmeli."
+  },
+  "H-0007": {
+   "hukum": "sirada",
+   "kova": "🟠 CARE ILAN EDILDI AMA UYGULANMADI",
+   "not": "🔴 KOORDINATORUN TALIMATI CURUDU — 'H-0007 ve H-0021'i bu gece kapattim, cozuldu yaz' denmisti. OLCTUM (py arac/_yer_ara.py 'Manama'): Manama (Bahreyn) 26,228/50,586 · TEK DONEM: s: 1861-05-31 → 1923-10-29 ingiltere. Portekiz (1521-1602) ve Safevi (1602-) donemleri VERIDE YOK — kayit DEGISMEMIS. Emre'nin sikayeti 'Safevilerin Bahreyn'i Portekizlilerden almasi haritada yansitilmiyor' idi; BUGUN DE YANSIMIYOR. ⇒ Kapanan sey H-0021 (Katar yarimadasinin kirmizisi), H-0007 DEGIL. 🟢 VE CARE HAZIR, UYGULANMAMIS: data/yerlesimler_ek_korfez.js'in kendi basligi bunu ACIKCA yaziyor — 'H-0007 ile ILGILI AYRI BULGU (bu dosyaya YAZILMADI, cunku Manama'nin kaydi data/yerlesimler.js'te ve bu oturumun dosyasi DEGIL)' — ve TDV `bahreyn` maddesi 2026-08-20'de DOGRULANMIS (HTTP 200, govde okundu): 'Portekizliler, 1521'de Bahreyn'i ele gecirdiler ... 1602'de Iran'a bagli kuvvetler tarafindan disari cikarilmalarina kadar onlarin idaresinde kaldi.' ⇒ Kaynak var, olcum var, YAZAN YOK. Sekiz gundur bekliyor. DOSYA: data/yerlesimler.js (koordinator) — Manama'ya s: portekiz 1521→1602, s: safevi 1602→1717 ve sonrasi."
+  },
+  "H-0010": {
+   "hukum": "sirada",
+   "kova": "🔵 KUMEYE GIT — sahiplik-teyidi (kaynak turu)",
+   "not": "BAGDAT'IN KUZEYI. OLCTUM (1638-12-24, IV. Murad'in Bagdat'i aldigi gun): Bagdat OSMANLI · Musul OSMANLI · Erbil safevi · Kerkuk safevi · Samerra safevi · Tikrit safevi · Sehrizor safevi. ⇒ Emre'nin gordugu sey gercek ve bugun de duruyor: Bagdat alinmis, kuzeyindeki dort sehir hala Safevi. Sorusu 'kayitlarda hic mi gecmiyor' — cevap kaynakta ve KAYNAK TURU YAPILMADI. TDV `bagdat` ve `murad-iv` maddelerinden fetih gunleri cikarilacak. Bu bir motor isi degil, KAYNAK isi."
+  },
+  "H-0017": {
+   "hukum": "sirada",
+   "kova": "🔵 KUMEYE GIT — emilme",
+   "not": "MISIR / KUM OMBO — 'su aradaki bosluk neden Osmanli gorunmuyor'. Koordinatorun 1577-01-01 kutu merkezi olcumu BOYALI (Kum Ombo 136 km, Osm 38). H-0005 ile AYNI SINIF: sikayet kutu merkezinde uretilmiyor, gorselle eslestirme yapilmadi. BEN DE YAPMADIM. ⇒ Emilme kumesine, gorselin bosluk koordinatiyla birlikte."
+  },
+  "H-0021": {
+   "hukum": "cozuldu",
+   "kova": "🟢 KAPANMIS — ama HARITAYA BIR TUR GECIKMEYLE INECEK",
+   "not": "BAHREYN KIRMIZILIGI. OLCTUM: data/yerlesimler_ek_korfez.js VAR ve arac/girdi.py:543'te BAGLI ('yerlesimler_ek_korfez.js  # Katar yarimadasi dolgu (1 nokta)'). Dosyanin kendi olcumu: kirmizilik Manama'dan degil KATAR YARIMADASI'ndan geliyordu — yarimadanin hicbir noktasi olmadigi icin Ukayr'in (Lahsa, Osmanli vassal) petegine emiliyordu (106,6 km ve 138,5 km'de iki test noktasi KIRMIZI cikmisti). Care: yarimadaya sahiplendirilmeyen tek dolgu noktasi; 3 km mukerrer kontrolu yapilmis (en yakin Doha 59,5 km). ⚠️ VE BIR TUR GECIKME VAR, KAYDA GECIYORUM (CLAUDE.md §11 'cikti girdinin bir tur gerisindedir'): arac/girdi.py'deki baglama HENUZ COMMIT EDILMEMIS (git log -S 'yerlesimler_ek_korfez.js' -- arac/girdi.py → 0 sonuc; git status M arac/girdi.py) ve son kosu data/donemler.js 2026-08-27 17:25. ⇒ Dolgu noktasi BIR SONRAKI KOSUDA haritaya iner. Bugunku yayinda (r3556) kirmizilik HALA GORUNUR. Bu kusur degil GECIKME — ama kayitsiz kalirsa yarin kusur diye yeniden bulunur."
+  },
+  "H-0024": {
+   "hukum": "sirada",
+   "kova": "🔵 KUMEYE GIT — nokta yogunlugu (Kol A veri borcu)",
+   "not": "ORTA ASYA BOSLUKLARI. Koordinatorun olcumu: 1577-01-01 merkez 45,76/66,79 → Kazak bozkiri (Sarisu) 139 km → `kazak-hanligi`, A1 tavani k0=280 km ⇒ tavan yetisiyor, MOTOR KUSURU YOK. Emre'nin ikinci sorusu ('siyasi yapi nasil, devlet hanlik yapisi filan') KAYNAK isi ve yapilmadi. ⇒ Iki ayri kuyruk: nokta yogunlugu Kol A'da kayitli veri borcu; siyasi yapi sorusu devlet kunyesi isi. Ikisi de var olan kuyruklarda, YENI IS DEGIL."
+  },
+  "H-0027": {
+   "hukum": "sirada",
+   "kova": "🔵 KUMEYE GIT — sahiplik-teyidi",
+   "not": "'Tebriz alinmis ama Van'in dogusundaki topraklar alinmamis mi'. Verinin kendi iddiasi bu: Tebriz/Nahcivan/Revan OSMANLI, aralarindaki Hoy/Merend/Culfa/Serur safevi. Yani motor artefakti degil, VERI boyle diyor. Cozecek sey olcum degil KAYNAK ⇒ oturumlar/FERHAT-PASA-1590.md. H-0028 ve 0020/H-0012, 0020/H-0014 ile TEK KALEM."
+  },
+  "H-0028": {
+   "hukum": "sirada",
+   "kova": "🔵 KUMEYE GIT — sahiplik-teyidi",
+   "not": "FERHAT PASA — 21 SEHIR. Koordinatorun 1590-03-21 dokumu: OSMANLI 7 (Kars · Van · Tebriz · Nahcivan · Revan · Gence · Hemedan) · safevi 15 · iran 4 (Caldiran · Baskale · Ozalp · Yuksekova) · o gun YOK 1 (Senendec, kur:1636) · kaydi HIC YOK 7 (Selmas · Miyandoab · Sultaniye · Dizful · Suster · Dogubeyazit ayri yazim · Meku). ⇒ FERHAT PASA 1590'in birebir konusu. ⚠️ Not: `iran` 4 kaydi icin bkz. 0024/H-0001 — o hayalet 129 → 8'e indi (commit edb4134, 25 Agu), kalan 7 donemin bu dorde denk gelip gelmedigi AYRI OLCULMELI, ben olcmedim."
+  },
+  "H-0029": {
+   "hukum": "cozuldu",
+   "kova": "🟢 KAPANMIS",
+   "not": "DALMACYA ADACIKLARINA SICRAYAN KIRMIZI. OLCTUM: bes adanin BESI DE artik kendi kaydini tasiyor ve 1281-01-01 → 1797-10-17 arasi `venedik`: Brakya (Brac) 43,323/16,644 · Hvar (Lesina) 43,164/16,699 · Korcula (Kurzola) 42,945/16,904 · Vis (Lissa) 43,054/16,148 · Mliyet (Mljet) 42,753/17,522 (hepsi k4, tur:kale). ⇒ Mostar'in peteginden sicrayan kirmizi kesildi — CLAUDE.md §2'nin adiyla andigi vaka ('Brac, Hvar, Korcula 1483'ten itibaren Osmanli oldu, Mostar'dan') KAPANDI. 🟢 VE YAYINA GIRMIS: 'Brakya' dizgisi data/donemler.js icinde geciyor, yani 27 Agustos 17:25 kosusu bu noktalari GORDU. Emre'nin sikayeti 17-18 Agustos'ta yazildi, care ondan sonra indi. Vrana/Ladin'in Osmanli gorunmesi de dogru: Vrana (Urana) d: 1540-10-02 → 1699-01-26, Nadin ayni. ⚠️ OLCMEDIM: adacik peteklerinin yayinda gorsel olarak dogru cizildigini — yalniz veriyi ve donemler.js'te varligini olctum."
+  },
+  "H-0030": {
+   "hukum": "sirada",
+   "kova": "🔴 YENI IS (arayuz) — ama YARISI ZATEN INMIS",
+   "not": "EFLAK SEFERI ISARETLERI. 🟢 INEN YARI (commit 4581d71, 19 Agu 23:24, r2598): ANTLASMALAR kayitlarinin 41'inde lat/lon YOKTU → eklendi; savasIsaretleri yalniz SAVASLAR'i okuyordu → antlasmalar da okunur oldu; muharebe isaretleri sehir etiketlerine cakisma elemesinde feda ediliyordu → duzeltildi. ⚠️ O oturum kendi duzeltmesini GOREMEDI (WebGL basmadi), yani Eflak seferi isaretinin ekrana CIKTIGI DOGRULANMADI. 🔴 KALAN IS (hic dokunulmadi): (a) uc voyvodaligin baskentine uc ates emojisi — voyvodaliklarin es zamanli ayaklanmasini ayirt eden gosterim, (b) voyvodaliklarin saldirdigi sehir/kalelerin gosterimi, (c) birkac kronoloji maddesi. DOSYA: js/app.js + index.html (ARAYUZ) · kronoloji icin data/olaylar_ek*.js. ILK IS: r3556'da Eflak seferi isaretinin gercekten ciziliyor olup olmadigini EKRANDA dogrulamak — yoksa (a)/(b) yanlis zemine kurulur."
+  }
+ },
+
+ "parti-emrelic-0022": {
+  "H-0001": {
+   "hukum": "sirada",
+   "kova": "🔵 KUMEYE GIT — sahiplik-teyidi (kaynak)",
+   "not": "PARGA · CEHRIN · BAR. Uc alt sorunun ucu de VERI tarafinda olculmus ve cevaplanmis: ① Parga'nin kendi kaydi var ve `venedik` (1665) ② Cehrin 1672'de `lehistan` — Emre'nin 'Lehistan'dan kopuk gorunuyor' gozlemi dogru, gercekten bir Leh cikintisi ③ Mejibuji 1672-08-27'de OSMANLI, yani 'Kamanice'den sonra baglandi' iddiasi veride yazili. ⇒ UCUNDE DE KALAN IS TEK: KAYNAK. Bucas Antlasmasi (1672) hukumleri TDV `kamanice`/`podolya` maddelerinden cikarilmadi; Parga'nin 1401-1797 Venedik himayesi TDV'den dogrulanmadi (⚠️ `parga` slug'i OLU olarak olculmus — CLAUDE.md §4, genel madde denenmeli: `yanya` ya da `venedik`). Yeni is degil, kaynak turu."
+  },
+  "H-0005": {
+   "hukum": "sirada",
+   "kova": "🔵 KUMEYE GIT — sahiplik-teyidi (buyuk kaynak kalemi)",
+   "not": "YEDI BOZKIR + KAFKAS KIYISI, 1678. Emre'nin dort sorusunun DORDU DE cevaplanmis: ① sistem uc kuralla karar veriyor (Voronoi → A1 yaricap tavani k1=700/k2=420/k3=280/k4=140/k0=280 → puanlama kapisi 0-200 km=4p, esik 4) ② yerlesim VAR — yedi bozkirin altisinin kendi kaydi var ③ devlet yapisi VAR ve yazili ④ 'neden Kirim'a katilmamis' → 🔴 ALTI OLCUMUN BESINDE SAHIP ZATEN `kirim`; yani sikayet kutu merkezlerinde URETILMIYOR. ⚠️ Bu maddede GORSEL YOK — koordinator koordinatlari adlardan turetmis, kendi deyimiyle 'bu olcumun en zayif yani'. ⇒ KALAN GERCEK IS: 'tum bu alanlarin kronolojileri cikarilmali' — bozkir kayitlarinin s: donemleri KABA; Dest-i Kipcak'in Nogay/Kalmuk/Kirim/Rus arasinda el degistirmesi gun hassasiyetinde YAZILI DEGIL. Bu tek basina bir KAYNAK oturumu."
+  }
+ },
+
+ "parti-emrelic-0023": {
+  "H-0003": {
+   "hukum": "sirada",
+   "kova": "🟠 CARE ILAN EDILDI AMA UYGULANMADI",
+   "not": "KUTSAL ITTIFAK ROZETI + ANIMASYON. OLCTUM: `data/ittifaklar.js` DOSYA OLARAK YOK (ls ile dogrulandi). Tasarim 24 Agustos'ta yapilmis (commit d9b255e) ve commit mesajinin kendisi 'KOD YAZILMADI' diyor. ⇒ Dort gundur tasarim var, uygulama yok — kayit 'cozulmus' gibi okunuyor, veri bos. Bu, kovanin en saf ornegi. NE GEREKIYOR: data/ittifaklar.js (uye devletler + ittifak penceresi + amblem) + js/app.js'te tek seferlik vurgu animasyonu + index.html'e script satiri. Emre'nin istegi tekrarlanabilir olmasi ('bundan sonra ittifak maddelerinde bu animasyonu uye devletler acisindan tekrarlarsin') ⇒ tek vakaya ozel kod DEGIL, veri tabanli genel mekanizma. 0027/H-0006 ile AYNI KALEM (baska bir tasnif oturumunun paketinde — koordinator ikisini tek ise baglasin)."
+  },
+  "H-0005": {
+   "hukum": "sirada",
+   "kova": "🔵 KUMEYE GIT — sahiplik-teyidi (kaynak)",
+   "not": "KALOCSA VE SIMONTORNA BUDIN ILE AYNI GUN MU DUSTU. OLCTUM (bugun): Budin d: 1541-08-29 → 1686-09-02 · Kalocsa d: 1541-08-29 → 1686-09-02 (IKI TARIH DE BIREBIR AYNI) · Simontorna d: 1544-09-01 → 1686-09-02 (yalniz BITIS ayni). ⇒ Emre'nin 'haritada ayni anda gorunuyor' gozlemi dogru, ve Kalocsa'nin HEM baslangici HEM bitisi Budin'in kopyasi — kopyalanmis tarih suphesi guclu. BAGIMSIZ DOGRULAMA BULUNAMADI (BAYAT AVCISI 27 Agu da bulamamis). ⚠️ Ben de kaynak turu YAPMADIM. NE GEREKIYOR: TDV `budin` · `kalocsa`/`macaristan` maddelerinden Kalocsa ve Simontorna'nin gercek dusus gunleri. Onem: DUSUK (Degismez 2 ihlali yok, uc kayit da ayni gunde madde altinda)."
+  },
+  "H-0010": {
+   "hukum": "sirada",
+   "kova": "🔴 YENI IS",
+   "not": "KNIN'IN VENEDIK'E KAYBI — MUSTAKIL KRONOLOJI MADDESI YOK. OLCTUM (bugun): Knin d: 1522-05-29 → 1688-09-11, sonra s: 1688-09-11 → 1797-10-17 `venedik`. Yani 1688-09-11'de gercek bir kirilma VAR. Emre o degisimi 'Venedik'in Egriboz kusatmasinin puskurtulmesi, Ekim 1688' maddesinde gormus; BAYAT AVCISI 27 Agu'da ±30 gun penceresinde yalniz alakasiz 'Belgrad'in kaybi' maddesinin bulundugunu olcmus. ⇒ 0020/H-0013 (Ahiska → Fas savasi) ile AYNI SINIF: kirilma dogru gunde ama YANLIS MADDENIN altinda beliriyor, Degismez 2 temiz goruyor. Emre'nin kendi sozu sarti belirliyor: 'tercihen ayri bir madde ve madde aciklamasi tahsis edilmeli' (CLAUDE.md §10: bu Degismez 2 ihlali sayilir). NE GEREKIYOR: 1688-09-11 icin Knin'in Venedik'e gecisini anlatan kronoloji maddesi. DOSYA: data/olaylar_ek*.js (KRONOLOJI). Onem: ORTA."
+  },
+  "H-0011": {
+   "hukum": "sirada",
+   "kova": "🔵 KUMEYE GIT — sahiplik-teyidi (Degismez 7 / enklav)",
+   "not": "NIS-VIDIN ENKLAVI. Yarisi odenmis: Semendire eklenmis (commit cb24187). Kalan: Kragujevac · Yagodina · Cacak 'kaynak bulunamadi' denip YAZILMAMIS. BAYAT AVCISI 27 Agu 02:49 (commit e53c86a, Degismez 7 enklav denetimi) Nis+Vidin'in HALA 'C-hakiki' enklav olarak isaretli oldugunu olcmus; denetim/BULGU-ENKLAV-SORGU.md:21 ayni ucluyu ('Nis+Vidin+Sehirkoy, bir uclu ada') bagimsiz olarak dogruluyor. ⇒ Kusur canli ve KAYITLI bir denetimin cikti listesinde duruyor — yeni is acmaya gerek yok, enklav kuyruguna. Onem: ORTA-YUKSEK. ⚠️ 'Kaynak bulunamadi' hukmu CLAUDE.md §4'un 'dar slug tutmazsa GENEL maddeyi dene' kuraliyla bir kez daha sinanmali: `kragujevac` olu ise `sirbistan` / `semendire` genel maddeleri denenmemis olabilir."
+  }
+ },
+
+ "parti-emrelic-0024": {
+  "H-0001": {
+   "hukum": "sirada",
+   "kova": "🟢 (a) KAPANMIS + 🔴 (b) YENI IS — TEK SATIRDA IKI AYRI HUKUM",
+   "not": "(a) 'GUMRU 1705'TE KIME AITTI, NEDEN BASKA RENK' → 🟢 COZULDU. OLCTUM: Gumru (Aleksandropol) 1705-01-01 → `safevi`. Commit 073df09 (20 Agu 10:36) yedi kaydi `iran`dan `safevi`ye cevirmis; Emre'nin gordugu farkli renk `iran` kunyesinin #cc1664'uydu, komsulari `safevi` #a56cab tasiyordu. Gumru ozelinde KAPANDI.\n\n(b) '~35 SEHRIN KRONOLOJISINI CIKARALIM' → 🔴 ACIK, ama koordinatorun notu BIR NOKTADA BAYAT: \n🔴 `iran` HAYALETI 50 DEGIL 7. Notta '50 donemde hala var, 46'si data/yerlesimler.js icinde' yaziyor. BUGUN OLCTUM: d:'iran' donemi 7 · kayit 7. Sebep commit edb4134 (2026-08-25 02:42) 'HAYALET DONEM 129 -> 8 · ENKLAV BEYANI 22 -> 58'. ⇒ T-0101 borcu 124 → 50 → 7; %94'u odenmis. Koordinatorun notu 20 Agustos olcumune dayaniyor, arada odeme yapilmis. ⚠️ KALAN 7 DONEM HANGI KAYITLARDA — OLCMEDIM.\n\n🔴 UC AYRI ACIK KUSUR (ucunu de bugun dogruladim):\n① KUTAISI — `imereti` kunyesi VAR (devletler.js:1036, f:1490-01-01 t:1810-02-20, baskent KUTAISI) ve rengi VAR (#deea90), ama OLCTUM: veride `imereti` kimligini kullanan donem sayisi = 0. Kutaisi hala `gurcistan`. En keskin kanit: Kutaisi'nin gurcistan doneminin bitisi 1810-02-20, imereti kunyesinin t'siyle BIREBIR ayni — kaydi yazan Imereti'yi kastetmis, kimligi yanlis yazmis. Ayrica Osmanli donemi HIC yok, oysa TDV `gurcistan`: 'Amasya Antlasmasi'na gore (1555) Imeret ... Osmanli Devleti'ne veriliyordu' ve komsulari Osmanli (Batum 1578-1878 · Sohum 1578-1810 · Ahiska 1578-1829).\n② KARS — 253 yillik tek blok `gurcistan`, ve TDV `kars` o donemi ALTIYA boluyor (Ilhanli → 1358 Celayirli → 1380 Karakoyunlu → 1386 Timur → Karakoyunlu → 1467 Akkoyunlu). Fetih tarihi de 1534-06-01 yazili, TDV '944'te (1537)' diyor ⇒ ~3 YIL ERKEN. KONTROL.md 13-04'teki Bagdat tek-blok deseninin ikinci vakasi.\n③ DERBEND — uc tarihten ikisi tutmuyor: safevi 1501-07-01 ↔ TDV 1509 (~8 yil erken) · OSMANLI 1583-01-01 ↔ TDV 1578 (~5 yil gec) · rusya 1722-08-23 ↔ TDV 1722 Agustos ✓. Slug notu: `derbend` OLU ama `derbend--dagistan` CANLI — CLAUDE.md §4'un `--` deseni, belgede kayitli degil.\n④ AKKOYUNLU KUYRUGU — kunye t:1514-01-01 ama veride bes kayit 1534-01-01'e kadar akkoyunlu (Arpacay · Digor · Igdir · Gumru · Ecmiyadzin) = 20 YIL hayalet; ayri bes kayit 1514-09-06 = 8 ay tasma, o MESRU band. Ikisi ayri kovaya konmali.\nDOSYA: data/yerlesimler.js (koordinator) + data/devletler.js (kartli/kaheti kunyesi icin, bkz. 0025/H-0001)."
+  },
+  "H-0002": {
+   "hukum": "sirada",
+   "kova": "🔴 YENI IS (kisa vade) + 🔵 yapisal (uzun vade)",
+   "not": "BOLGE (`m:`) DELIKLERI — EMRE 4/4 HAKLI, BUGUN DOGRULADIM. ① Batum/Sohum/Rize m=Trabzon ama Artvin/Hopa m=Erzurum ⇒ atama kendi icinde ters (Hopa 41,39 K Erzurum'a bagli, ondan DAHA KUZEYDEKI Batum 41,64 K Trabzon'a). ② Askale m=(YOK) — Erzurum ile Erzincan'in TAM ARASINDA, bolge govdesini ikiye boluyor; Emre'nin gordugu 'iki parca' bu. ③ OLCTUM: Kelkit · Tosya · Karapinar · Ulukisla · Ilgin — BESININ BESI DE m=(YOK), hepsi k=4. Askale ile birlikte 6/6. ④ Izmit/Gebze/Adapazari m=Istanbul, Iznik/Yalova m=Bursa ⇒ Kocaeli yarimadasinda iki bolge govdesi ic ice. \n🔴 ORTAK KOK VE OLCUSU: m: alani BOS olan kayit 1862 / 2607 = %71,4 (bugun olctum; koordinatorun notu 1861/2593 = %71,8 diyordu, taban buyudugu icin oran hafif dustu — sayi degil ORAN karsilastirilmali). \nKISA VADE (belirti): alti kayda m: yazilmasi — Askale · Kelkit · Tosya · Karapinar · Ulukisla · Ilgin. Emre'nin gordugu deliklerin TAMAMI bu alti. DOSYA: data/yerlesimler.js (koordinator).\nUZUN VADE (kusur): CLAUDE.md §3 Degismez 3 zaten 'saglanmiyor' diyor ve teshis BOYUTLAR.md'de: kusur m:'nin guncellenmemesi degil, YANLIS EKSENDE olmasi (idari/siyasi bag, cografi gruplama icin kullaniliyor, ve zaman boyutu yok). Care VERI-YAPISI.md'de ZATEN TASARLANMIS: `kd:[{f,t,k,m}]`. ⚠️ Yeni alan icat edilmemeli (§11'in 8 Agustos dersi)."
+  },
+  "H-0005": {
+   "hukum": "sirada",
+   "kova": "🔴 YENI IS",
+   "not": "BASRA'YI CAPRAZLAMA GECEN SAFEVI DILI. Gorselin kunyesi: 1703-08-22 · 27,08-29,83 K · 45,35-48,98 D. Koordinatorun teshisi: pencerede TEK nokta (Kuveyt) ve o da sahipsiz; Basra'nin guney/dogusunda SAHIPLI nokta olmadigi icin toprak Abadan'in (safevi) petegine dusuyor ⇒ CLAUDE.md §2 emilmesi, kayit hatasi degil.\n🟢 KOORDINATORUN 'OLCMEDIM' DEDIGI SEYI OLCTUM VE TESHISI DOGRULADI: Kuveyt `kur:1716-01-01` · Muhammere `kur:1812-01-01`. Yani ikisinin de 1703'te sahipsiz olmasi MESRU — sehirler henuz kurulmamis. ⇒ Care sahip yazmak DEGIL (o anakronik olurdu), ARAYA DOLGU NOKTASI koymaktir — H-0021'de Katar icin yapilanin aynisi.\nCEVRESI (1703-08-22, bugun olctum): Basra OSMANLI · Fav OSMANLI · Abadan safevi.\nNE GEREKIYOR: Sattularap agzi ile Kuveyt korfezi arasina Osmanli tarafinda 1-2 nokta. OLCTUM: `Zubeyr` ve `Ummu Kasr` adlarinin VERIDE KAYDI YOK (tek 'Zubeyr' eslesmesi Deym Zubeyr, 7,700 K / 26,217 D — Sudan, alakasiz). DOSYA: data/yerlesimler.js ya da yeni nokta oturumu.\n🔴 §3.5.1 SARTI: bu bir SINIR KAYMASI onerisidir, IKI UC DA olculmeli — nokta eklenince Safevi tarafinda yeni bir eksiklik doguyor mu, uretimden sonra bakilmali."
+  },
+  "H-0008": {
+   "hukum": "sirada",
+   "kova": "🔴 YENI IS",
+   "not": "ST. PETERSBURG / INGRIYA. Gorselin kunyesi: 1703-05-27 · 58,67-61,35 K · 28,79-30,58 D · Madde: St. Petersburg'un kurulusu. Koordinatorun teshisi: 'iki renklendirmenin ust uste binmesi' DEGIL — pencerede tek nokta (St. Petersburg, `rusya`) ve kuruldugu gun dogup butun Ingriya'yi kapliyor. Tarihi taraf: Ingriya 1703'te DE FACTO Rus (Noteborg Ekim 1702, Nyenskans Mayis 1703) ama DE JURE 1721 Nystad'a kadar Isvec'in ⇒ bolge var, kusur sinirin KESKINLIGINDE ve GENISLIGINDE.\n🟢 OLCTUM VE DOGRULADIM: Nyen · Koporye · Ivangorod · Kingisepp — DORDU DE VERIDE YOK (aksan-duyarsiz tam tarama; 'Yam' aramasi yalniz alakasiz eslesmeler veriyor: Ayamavra, Yamurgi, Okayama…). Narva ve Oresek (Noteborg) VAR.\nNE GEREKIYOR: 3-4 Ingriya noktasi — `isvec` 1617 (Stolbova) → 1703, sonra `rusya`. Onlar olsaydi 1703'te bolge Isvec kalir, kaleler tek tek duserdi. DOSYA: data/yerlesimler.js ya da yeni nokta oturumu."
+  },
+  "H-0010": {
+   "hukum": "sirada",
+   "kova": "🔴 YENI IS (arayuz) — 🔴 VE UYGULAYICIYA BIR UYARI VAR",
+   "not": "'HAKKINDA MENUSU OLSUN, KOSU VE YAYIN TARIHI GIBI BILGILER OLSUN'.\n🔴 EN ONEMLI BULGU: BU BUTON VARDI VE EMRE'NIN KENDI ISTEGIYLE SILINDI. index.html:23-28 aynen soyle diyor — 'p2/H-0010 — kullanici: \"Hakkinda butonuna artik gerek yok. Buradaki butonlari tek bir butonlari ac butonuna tiklaninca dizilecek sekilde saklayalim.\" ... Hakkinda (proje kunyesi + BEKLEYENLER tablosu) TAMAMEN kaldirildi — js/app.js'teki hakkindaKur ve esleri de silindi.' js/app.js:4238 ayni notu tasiyor.\n⇒ AMA ISTEK TEKRAR DEGIL: silinen HAKKINDA 'proje kunyesi + BEKLEYENLER tablosu' idi (ic isleyis); bugun istenen 'KOSU VE YAYIN TARIHI' (surum bilgisi). AYNI AD, BASKA ICERIK. Eski modali geri getirmek Emre'nin reddettigi seyi geri getirmek olur.\n🟢 VERISI ZATEN URETILIYOR, ICAT ETMEYE GEREK YOK: arac/surum_damgala.py index.html'e `?v=rNN` yaziyor (bugun r3556) ve uretim kosusu data/donemler.js'i kosunun SONUNDA damgaliyor (bugun 2026-08-27 17:25). Iki damga da okunabilir halde duruyor.\n⚠️ OLCMEDIM: bu iki damganin arayuzden okunabilir bir yerde gosterilip gosterilmedigini.\nDOSYA: index.html + js/app.js (ARAYUZ). Kucuk ve bagimsiz is."
+  }
+ },
+
+ "parti-emrelic-0025": {
+  "H-0001": {
+   "hukum": "sirada",
+   "kova": "🔴 YENI IS",
+   "not": "1711'DE GURCISTAN IKI KOPUK PARCA. Koordinatorun olcumu: 1711-07-19 Kafkasya kutusunda 22 nokta — OSMANLI 16, `gurcistan` 3 (Kutaisi batida · Tiflis ve Zagem doguda), `kirim` 2. Aralarindaki Ahiska-Ahilkelek koridoru Osmanli ⇒ iki hucre kumesi birbirine degmiyor. 🟢 VE KOPUKLUK TARIHEN DOGRU: 1711'de 'Gurcistan' diye tek devlet yok — Imereti (Kutaisi, Osmanli tabiiyetinde) · Kartli (Tiflis, Iran tabiiyetinde) · Kaheti (Zagem, Iran tabiiyetinde). Yanlis olan kopukluk degil, UCUNU TEK KIMLIK altinda toplamak.\n🟢 BUGUN OLCTUM: `imereti` kunyesi VAR ama veride 0 donem · `kartli` 0 donem · `kaheti` 0 donem (ikisinin KUNYESI DE devletler.js'te YOK).\nNE GEREKIYOR: (a) data/devletler.js'e `kartli` ve `kaheti` kunyeleri + renkleri, (b) Kutaisi'nin `gurcistan` donemi → `imereti` (kunye hazir, rengi hazir), (c) Tiflis ve Zagem'in s: alanlari. ⚠️ Kaynak DOGRULANMADI (§4) — TDV `gurcistan` · `imereti` okunmali. 0024/H-0001①(Kutaisi) ile AYNI KAYIT; koordinator ikisini tek ise baglasin, yoksa iki oturum ayni satiri ters yonlerde degistirir."
+  },
+  "H-0004": {
+   "hukum": "sirada",
+   "kova": "🔴 YENI IS",
+   "not": "1561 VILNIUS — KONIGSBERG VE MEMEL `almanya` YAZILI. Gorselin kunyesi: 1561-11-28 · 54,77-57,66 K · 21,19-22,71 D · Madde: Vilnius Antlasmasi. Koordinatorun olcumu: Emre'nin kutusunda TEK NOKTA var — Klaipeda (Memel), `almanya` — ve ekranin tamamini onun petegi boyuyor. Kutu genisletilince 11 nokta: `almanya` 2 (Klaipeda · Konigsberg) 🔴 ANAKRONIK · `isvec` 1 (Tallinn) ✓ · `lehistan` 8 ✓.\n🔴 KUSUR: 1561'de orasi Prusya Dukaligi (1525'te kuruldu, LEHISTAN'IN VASALI, ve Kutsal Roma Imparatorlugu'nun DISINDA). `almanya` etiketi hem devleti hem tabiiyeti yanlis gosteriyor.\n🟢 BUGUN OLCTUM: `prusya` · `prusya-dukaligi` · `kurlandiya` · `livonya` — DORDUNUN DE veride 0 donemi var VE kunyeleri devletler.js'te YOK.\nNE GEREKIYOR: (a) devletler.js'e `prusya-dukaligi` (1525-1618) ve `kurlandiya` (1561-1795) kunyeleri + renk, (b) Konigsberg ve Klaipeda: almanya → prusya-dukaligi (1525'ten), (c) nokta yogunlugu: kutuda tek nokta var, Tilsit · Gumbinnen · Ragnit eklenirse petek bu kadar tasmaz.\n⚠️ AYRI SUPHE (koordinator sinamamis, ben de sinamadim): Tartu (Dorpat) 1561'de `lehistan` yazili ama Rusya Dorpat'i 1558'de aldi ve 1582'ye kadar tuttu."
+  },
+  "H-0005": {
+   "hukum": "senin-kararin",
+   "kova": "🔴 YENI IS — AMA ONCE KOORDINATOR KARARI",
+   "not": "1566 ZIGETVAR — ACIK YESIL MACARISTAN. SORUYA CEVAP: 'Osmanli mi, Avusturya mi, bagimsiz Macaristan mi?' → Hicbiri: KRALIYET MACARISTANI (Habsburg kralinin yonettigi Macar Kralligi). Ve tarihen dogru: Egri Osmanli'ya 1596'da, Kanije 1600'de dustu ⇒ 1566'da ikisi de Macar ✓.\n🔴 KUSUR TUTARSIZLIK: ayni devletin sehirleri IKI AYRI KIMLIGE dagilmis — Egri · Kanije → `macaristan` (#20d880 acik yesil) · Bratislava · Sopron · Nitra · Komarom · Uyvar → `avusturya` (#bdab3f). Oysa Kraliyet Macaristani'nin BASKENTI Bratislava'dir (1536'dan beri). Ekranda tek siyasi varlik iki renkte gorunuyor — Emre'nin 'burasi ne?' sorusunu doguran sey bu. 📌 p0006/H-0007'de olculen kusurun aynisi: Uyvar ve Nitra 1281'den beri `avusturya` yazili, oysa Habsburglar Macaristan'a 1526'da geldi.\n🟢 BUGUN OLCTUM: `macaristan` veride 60 donem · `kraliyet-macaristani` 0 donem, kunyesi YOK.\n🔴 KARAR KOORDINATORUN: (a) hepsi `macaristan` → Habsburg mulku ayri gorunmez · (b) hepsi `avusturya` → Macar Kralligi yok olur · (c) yeni `kraliyet-macaristani` kunyesi — koordinatorun onerisi bu. Karar verilmeden VERIYE DOKUNULMAMALI; hangi sik secilirse 60 donemin bir kismi tasinacak. DOSYA: data/devletler.js + data/yerlesimler.js."
+  },
+  "H-0009": {
+   "hukum": "sirada",
+   "kova": "🔴 YENI IS",
+   "not": "TRAKYA 1361 — FETIH SIRASI TERS. 🟢 BUGUN BIREBIR DOGRULADIM: 1361-01-01'de TEK GUNDE 12 yerlesim Osmanli oluyor — Ahtapolu (Ahtopol) · Demirkoy · Derekoy (Kirklareli) · Havsa · Kofcaz · Lalapasa · Malko Tirnova · Mustafapasa (Svilengrad) · Orestiada (Kumciftligi) · Rezve (Rezovo) · Vize · Igneada. Dimetoka 1361-02-01 · EDIRNE 1361-03-01 · Kirklareli ve Luleburgaz 1362-06-01 · Cirmen ve Uzunkopru 1371-09-26.\n⇒ Igneada · Rezve · Ahtapolu KARADENIZ KIYISINDA, Edirne'nin 150 km kuzeydogusunda — ve veri onlari EDIRNE'DEN IKI AY ONCE Osmanli yapiyor. Emre'nin 'aradaki topraklari atlayarak mi diger yerler ele gecti' sorusunun cevabi: VERIDE OYLE GORUNUYOR, VE BU YANLIS. Tarihen Trakya'nin fethi guneybatidan kuzeydoguya ilerledi; Istranca ve Karadeniz kiyisi 1370'lerde, Cirmen'den (1371) sonra.\n📌 CLAUDE.md §11: 'yuvarlak tarih yalniz yanlis degildir, celiskiyi de saklar.' 1361-01-01 on iki kaydi tek gune toplayip sirayi gorunmez kilmis.\nRECETE (koordinatorun; kaynakla SINANMADI): Edirne cevresi (Mustafapasa · Orestiada · Havsa · Lalapasa) → 1361-03-01 SONRASI · Istranca + Karadeniz (Kofcaz · Derekoy · Demirkoy · Igneada · Rezve · Ahtapolu · Vize · Malko Tirnova) → 1371-09-26 SONRASI. Kaynak: TDV `edirne` · `vize` · `kirklareli` · `cirmen-savasi`.\n🟢 EK BULGU, BUGUN DOGRULANDI: Babaeski · Pinarhisar KAYDI YOK (tam tarama). 'Saray (Tekirdag)' de yok — veride yalniz Saraybosna · Bahcesaray · Ozalp(Saray) · Saray(Selitrennoye) · Yeni Saray(Tsarev) var, ucu de baska cografya. Ucu de Trakya'nin orta kusaginda ve yokluklari peteklerin gereginden genis olmasina yol aciyor.\n⚠️ VE BU MADDE 0020/H-0013 ve 0023/H-0010 ILE AYNI AILEDE DEGIL: orada madde yoktu, burada TARIH yanlis. Karistirilmasin. DOSYA: data/yerlesimler.js (koordinator)."
+  }
+ }
+}

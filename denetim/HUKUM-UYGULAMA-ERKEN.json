@@ -1,0 +1,130 @@
+{
+ "parti-0002": {
+  "H-0004": {
+   "hukum": "zaten-dogru",
+   "not": "Notun kendisi kapanmis: 'kiyi hassasiyeti 220 m'de KORUNDU, senin A kararinla; ondalik kisaltma REDDEDILDI.' Karar verilmis, uygulanmis, acik kalan bir is yok."
+  },
+  "H-0009": {
+   "hukum": "zaten-dogru",
+   "not": "Notun kendisi kapanmis: 'cevaplandi: motorun cizdigi veri kutusunun siniri. r690'da kutu buyudu, dugme de duzeltildi (app.js).'"
+  },
+  "H-0011": {
+   "hukum": "sirada",
+   "not": "NICIN: veri kaydi DEGIL, SEMA degisikligi. devletler.js'te `baskent` alani TEK DEGER, penceresi yok; 'Sogut>Bursa>Edirne>Istanbul' zinciri icin f:/t: pencereli olmali. yer_yama_ ile yapilamaz — DEVLET KUNYESI kalemi. p0004/H-0011 ve pe0008/H-0006 ayni ise bagli."
+  },
+  "H-0014": {
+   "hukum": "sirada",
+   "not": "NICIN: MOTOR kalemi, veri kaydi degil. Notun kendisi 'ADA KURALI uret_petek.py:1400 + KARA-KISITLI SAHIPLIK uret_petek.py:1488 ikisi de yerinde, AMA KOR NOKTALARI VAR' diyor. arac/*.py bana KAPALI ve zaten kilitli. MOTOR oturumuna."
+  },
+  "H-0016": {
+   "hukum": "olculecek",
+   "not": "NE OLCULECEK: Tuz Golu maskede DELIK olarak DOGRU duruyor (olculmus); kalan soru golun kenarindaki iki kucuk parcanin PETEK KIRINTISI olup olmadigi. Notun kendisi 'OLCMEDIM: o iki parcanin gercekten bu sebepten olup olmadigi (geometri olcumu ister)' diyor. Geometri olcumu gerekiyor."
+  },
+  "H-0025": {
+   "hukum": "cozuldu",
+   "not": "data/yer_yama_erken.js kaydi YAZILDI (window.YER_YAMA_ERKEN). Bagdat'a Timur'un IKI isgali eklendi: celayirli 1335>1393 · TIMURLU 1393>1394 · celayirli 1394>1401 · TIMURLU 1401>1405 · celayirli 1405>1411. Kaynak TDV `bagdat` govdesi: 'Timur tarafindan 795'te (1393) ve 803'te (1401) olmak uzere iki defa isgal edildi' + 'Ahmed Celayir 1405'te Bagdat'a donerek'. Yalniz 1394 donusu TDV'de yok, cikarim; neden: alaninda damgali."
+  }
+ },
+ "parti-0003": {
+  "H-0008": {
+   "hukum": "tekrar",
+   "not": "parti-0002/H-0025 ile BIREBIR AYNI kayit; orada cozuldu — Bagdat'a timurlu iki donem yazildi (data/yer_yama_erken.js)."
+  },
+  "H-0009": {
+   "hukum": "sirada",
+   "not": "NICIN: ARASTIRMA kalemi, uygulama degil. 'Fetret devri Timurlu valilikleri + hortlatilan beylikler — sinir teyidi' — hangi beylik hangi tarihte diriltildi sorusu kaynak taramasi ister; bu turda yetismedi ve kapsamim UYGULAMA."
+  },
+  "H-0017": {
+   "hukum": "sirada",
+   "not": "NICIN: KRONOLOJI kalemi, yer_yama degil. Izvornik'in kendi kirilmasi 1460-01-01'de var ama ozel maddesi yok; Amasra maddesine yapisiyor ('yanlis maddeye yapisma' deseni). Care data/olaylar_*.js'e madde yazmak — benim dosyam degil."
+  },
+  "H-0018": {
+   "hukum": "gerek-yok",
+   "not": "Notun kendisi olcup kapatmis: 'Eflak seferi tek madde (1462-06-01), ama TUM Eflak yerlesimleri ayni gun degisiyor — DEGISMEZ 2 IHLALI YOK, yalniz anlatim-zenginligi talebi. Onem: DUSUK.' Kusur yok; talep icerik kovasina ait ve zaten dusuk oncelikli. Ayri bir is acmaya gerek yok."
+  },
+  "H-0022": {
+   "hukum": "tekrar",
+   "not": "parti-0003/H-0015 ile ayni; notun kendisi 'orada olculdu ve care yazildi' diyor."
+  }
+ },
+ "parti-0004": {
+  "H-0003": {
+   "hukum": "sirada",
+   "not": "NICIN: KRONOLOJI kalemi. Cem Sultan rehin diplomasisi icin YENI KRONOLOJI MADDESI isteniyor (2. Bayezid'in Papalik'a odedigi yillik 40.000 duka). data/olaylar_*.js benim dosyam degil."
+  },
+  "H-0006": {
+   "hukum": "cozuldu",
+   "not": "data/yer_yama_erken.js kaydi YAZILDI (window.YER_YAMA_ERKEN). Erzincan IKI kusurla duzeltildi: (1) 1473-08-11 Otlukbeli'yi Osmanli devri sayiyordu — TDV 'Otlukbeli Savasi'ndan (1473) SONRA DA Erzincan AKKOYUNLU sinirlari icinde kaldi' diyor; (2) 1502-1514 SAFEVI donemi HIC YOKTU. Yeni zincir: akkoyunlu 1410>1502 · safevi 1502>1514 · d:OSMANLI 1514-10-23'ten. Tarih TDV'den TAM GUN: 'Erzincan, Bayburt ile birlikte 23 EKIM 1514'te Biyikli Mehmed Bey'e beylerbeyilik olarak verilmisti.' Komsulari (Erzurum/Van/Ercis/Kemah) 1502'yi zaten kullaniyordu."
+  },
+  "H-0011": {
+   "hukum": "sirada",
+   "not": "NICIN: p0002/H-0011 ile AYNI is (baskent yildizi) ve ayni engel: devletler.js `baskent` alani penceresiz. ARAYUZ + DEVLET KUNYESI kalemi, yer_yama ile yapilamaz."
+  }
+ },
+ "parti-0006": {
+  "H-0001": {
+   "hukum": "sirada",
+   "not": "NICIN: (a) KAPANMIS (Katif'ten `iran` gitmis, olculdu), ama madde UC PARCALI ve (b)+(c) CAPRAZ IBERYA oturumunun kalemi. Kapanan parcanin yazilmasi sart ki yarin yeniden olculmesin; kalan iki parca benim kapsamimda degil."
+  },
+  "H-0005": {
+   "hukum": "sirada",
+   "not": "NICIN: KRONOLOJI kalemi. savaslar.js:315'te `Kalender Sah` 1526-01-01 kayitli, kronolojide KARSILIGI YOK (en yakin madde 240 gun otede Mohac). Care: olaylar_*.js'e madde yazmak — benim dosyam degil. ⚠️ Notun ikinci bulgusu ayri ve daha degerli: denetle.py savas senkronundaki 10 acik kaydin hepsini 'kusatma kaymasi' diye mazur gosteriyor; o bir DENETIM kusuru ve ayri sevk ister."
+  },
+  "H-0007": {
+   "hukum": "cozuldu",
+   "not": "data/yer_yama_erken.js kaydi YAZILDI (window.YER_YAMA_ERKEN). Yanikkale (Gyor) enklavi kapandi: `macaristan 1281>1594` tek blogu Mohac gununde (1526-08-29) bolundu, 1526 sonrasi `avusturya` oldu. 1533-07-22'de enklav bulucu Yanikkale'yi `macaristan`, en yakin dort komsusunu (Komarom 37,7 km · Uyvar 51,6 · Bratislava 64,4 · Nitra 76,5) DORDUNU DE `avusturya` bulmustu. Kok: kayit ortacag Macar Kralligi ile Mohac sonrasi Habsburg Kraliyet Macaristani'ni ayirmiyordu. TDV `yanikkale` bibliyografyasi Gyor serhad baskaptanligini 1526-1598 diye veriyor. 1594-09-27 ve 1598-03-29 tarihlerine DOKUNULMADI (TDV ikisini de dogruluyor)."
+  },
+  "H-0008": {
+   "hukum": "tekrar",
+   "not": "parti-0006/H-0007 ile AYNI kayit (Yanikkale enklavi) — orada cozuldu."
+  },
+  "H-0010": {
+   "hukum": "tekrar",
+   "not": "parti-0006/H-0007 ile AYNI kayit (Yanikkale enklavi) — orada cozuldu."
+  }
+ },
+ "parti-0007": {
+  "H-0008": {
+   "hukum": "cozuldu",
+   "not": "data/yer_yama_erken.js kaydi YAZILDI (window.YER_YAMA_ERKEN). `kirim` kimliginin 1783-04-19 sonrasina uzanan DORT kaydi duzeltildi: Soci (Sase) · Tuapse · Maykop (Cerkezya) 1829-09-14'ten 1783-04-19'a (+46,4 yil hayalet), Yedisan bozkiri 1792-01-09'dan 1783-04-19'a (+8,7 yil). 🔴 VE DELIK ACILMADI: §3.5.1 geregi ikinci uc olculdu — komsu Anapa veride `kirim>1781` sonra `d:OSMANLI>1829-09-14` sonra `rusya` deseni kullaniyor; ayni desen uygulandi, 1783-1829 (ve Yedisan icin 1783-1792) arasi `d:OSMANLI` konuldu. ⚠️ TDV `kirim-hanligi` slug'i OLU (HTTP 302, olculdu); dayanak komsu kayit."
+  }
+ },
+ "parti-emrelic-0008": {
+  "H-0001": {
+   "hukum": "olculecek",
+   "not": "NE OLCULECEK: Germiyan'in iki parca gorunumu GERCEK ve savunulur (Sivrihisar ana kumeden kopuk, arada Afyon/sahibata var). Kalan kusur: `sahibata` 1281-1341 TEK donem, 1300 ile 1330 tablolari BIREBIR ayni — Germiyan'in kademeli yutmasi yazilmamis. Kademe tarihleri KAYNAKTAN cikarilmali; TDV `sahibataogullari` denenmedi. Bu bir ARASTIRMA kalemi, elimde tarih yok ve UYDURMAYACAGIM."
+  },
+  "H-0003": {
+   "hukum": "olculecek",
+   "not": "NE OLCULECEK: Divrigi · Arapkir · Malatya `memluk 1281-01-01`de basliyor — atlasin ACILIS gunu, yani 'arastirilmamis' isareti. Notun kendisi bunu SINIF ilan etmis: '10.403 donemin 2.074'u (%19,9) EPOK'ta basliyor.' Gercek tarihler kaynaktan cikarilmali; bu uc sehir icin Memluk hakimiyetinin BASLANGICI arastirilmali. Tarihsiz kayit yazmayacagim."
+  },
+  "H-0005": {
+   "hukum": "sirada",
+   "not": "NICIN: MOTOR kalemi ve notun kendisi soyluyor — 'bir hata raporu degil BIR MOTOR KURALI'. Cozum surtunme motoru (acik deniz sonsuz surtunme). arac/uret_petek.py bana KAPALI ve kilitli. MOTOR oturumuna."
+  },
+  "H-0006": {
+   "hukum": "sirada",
+   "not": "NICIN: ARAYUZ kalemi, veri hazir. Notun kendisi 'yabanci kunyelerin `baskent:` alani 390 kunyenin neredeyse tamaminda ZATEN DOLU ⇒ veri hazir, eksik olan CIZIM' diyor. js/app.js isi; p0002/H-0011 ve p0004/H-0011 ile ayni aile."
+  },
+  "H-0009": {
+   "hukum": "sirada",
+   "not": "NICIN: YENI NOKTA gerekiyor, yer_yama ile YAPILAMAZ — sartname acik: 'kayit yoksa YENI NOKTA, bana devret'. '1281 BOSLUKLARI' kumesi: noktasiz ve >60.000 km² olan 101 hucre (19,6 MILYON km²) olculmus, cevap da olculmus (insan vardi · bazi yerlerde devlet YOKTU · VERI yoktu). Bes maddenin besi AYNI olcume dayaniyor, yani TEK is. Koordinatore devrediyorum."
+  },
+  "H-0010": {
+   "hukum": "sirada",
+   "not": "NICIN: YENI NOKTA gerekiyor, yer_yama ile YAPILAMAZ — sartname acik: 'kayit yoksa YENI NOKTA, bana devret'. '1281 BOSLUKLARI' kumesi: noktasiz ve >60.000 km² olan 101 hucre (19,6 MILYON km²) olculmus, cevap da olculmus (insan vardi · bazi yerlerde devlet YOKTU · VERI yoktu). Bes maddenin besi AYNI olcume dayaniyor, yani TEK is. Koordinatore devrediyorum."
+  },
+  "H-0011": {
+   "hukum": "sirada",
+   "not": "NICIN: YENI NOKTA gerekiyor, yer_yama ile YAPILAMAZ — sartname acik: 'kayit yoksa YENI NOKTA, bana devret'. '1281 BOSLUKLARI' kumesi: noktasiz ve >60.000 km² olan 101 hucre (19,6 MILYON km²) olculmus, cevap da olculmus (insan vardi · bazi yerlerde devlet YOKTU · VERI yoktu). Bes maddenin besi AYNI olcume dayaniyor, yani TEK is. Koordinatore devrediyorum."
+  },
+  "H-0012": {
+   "hukum": "sirada",
+   "not": "NICIN: YENI NOKTA gerekiyor, yer_yama ile YAPILAMAZ — sartname acik: 'kayit yoksa YENI NOKTA, bana devret'. '1281 BOSLUKLARI' kumesi: noktasiz ve >60.000 km² olan 101 hucre (19,6 MILYON km²) olculmus, cevap da olculmus (insan vardi · bazi yerlerde devlet YOKTU · VERI yoktu). Bes maddenin besi AYNI olcume dayaniyor, yani TEK is. Koordinatore devrediyorum."
+  },
+  "H-0014": {
+   "hukum": "sirada",
+   "not": "NICIN: YENI NOKTA gerekiyor, yer_yama ile YAPILAMAZ — sartname acik: 'kayit yoksa YENI NOKTA, bana devret'. '1281 BOSLUKLARI' kumesi: noktasiz ve >60.000 km² olan 101 hucre (19,6 MILYON km²) olculmus, cevap da olculmus (insan vardi · bazi yerlerde devlet YOKTU · VERI yoktu). Bes maddenin besi AYNI olcume dayaniyor, yani TEK is. Koordinatore devrediyorum."
+  }
+ }
+}

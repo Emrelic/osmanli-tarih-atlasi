@@ -1,0 +1,202 @@
+{
+ "_kaynak": "data/yer_yama_iran.js (28 Agustos 2026 oncesi NESNE hali)",
+ "_tasiyan": "YAMA KURTARMA — dosya diziye cevrildi, 2 gercek kayit orada kaldi. Bu dosya OLCUM/RAPOR kismini tasiyor: olcum · bulunamadi · duzeltme. A_yazilabilir da tam hali korunsun diye burada.",
+ "olcum": {
+  "tarih": "2026-08-27",
+  "A_yazilabilir_donem": 2,
+  "A_yerlesim": 2,
+  "bulunamadi_kalem": 3,
+  "bugunku_durum": {
+   "Hoy": {
+    "var_mi": true,
+    "koordinat": [
+     38.5503,
+     44.9521
+    ],
+    "osmanli_donemi": [
+     [
+      "1585-09-25",
+      "1603-10-21"
+     ]
+    ]
+   },
+   "Merâga": {
+    "var_mi": true,
+    "koordinat": [
+     37.3894,
+     46.2381
+    ],
+    "osmanli_donemi": [
+     [
+      "1585-09-25",
+      "1603-10-21"
+     ],
+     [
+      "1725-08-04",
+      "1730-08-12"
+     ]
+    ]
+   },
+   "Mîyandoab": {
+    "var_mi": true,
+    "koordinat": [
+     36.9694,
+     46.1028
+    ],
+    "osmanli_donemi": []
+   },
+   "Selmâs": {
+    "var_mi": true,
+    "koordinat": [
+     38.1983,
+     44.7654
+    ],
+    "osmanli_donemi": []
+   },
+   "Urmiye": {
+    "var_mi": true,
+    "koordinat": [
+     37.553,
+     45.076
+    ],
+    "osmanli_donemi": []
+   },
+   "Tebriz": {
+    "var_mi": true,
+    "koordinat": [
+     38.08,
+     46.292
+    ],
+    "osmanli_donemi": [
+     [
+      "1514-09-06",
+      "1514-09-15"
+     ],
+     [
+      "1534-07-13",
+      "1535-06-01"
+     ],
+     [
+      "1548-07-27",
+      "1548-08-15"
+     ],
+     [
+      "1585-09-25",
+      "1603-10-21"
+     ],
+     [
+      "1725-08-04",
+      "1730-08-12"
+     ]
+    ]
+   },
+   "Ahar": {
+    "var_mi": true,
+    "koordinat": [
+     38.4772,
+     47.07
+    ],
+    "osmanli_donemi": [
+     [
+      "1585-09-25",
+      "1603-10-21"
+     ],
+     [
+      "1725-08-04",
+      "1730-08-12"
+     ]
+    ]
+   },
+   "Nahçıvan": {
+    "var_mi": true,
+    "koordinat": [
+     39.209,
+     45.412
+    ],
+    "osmanli_donemi": [
+     [
+      "1585-01-01",
+      "1603-10-21"
+     ],
+     [
+      "1725-01-01",
+      "1730-08-12"
+     ]
+    ]
+   },
+   "Revan": {
+    "var_mi": true,
+    "koordinat": [
+     40.183,
+     44.515
+    ],
+    "osmanli_donemi": [
+     [
+      "1583-06-01",
+      "1604-06-08"
+     ],
+     [
+      "1635-08-08",
+      "1636-04-01"
+     ],
+     [
+      "1724-09-28",
+      "1735-06-19"
+     ]
+    ]
+   }
+  }
+ },
+ "A_yazilabilir": [
+  {
+   "yerlesim": "Hoy",
+   "alan": "d",
+   "durum": "EKSİK — yazılabilir",
+   "ekle": [
+    {
+     "f": "1724-01-01",
+     "t": "1739-01-01"
+    }
+   ],
+   "kaynak": "TDV `hoy`: \"1724 yılında III. Ahmed döneminde Hoy tekrar Osmanlı hâkimiyeti altına girdi\" ve on beş yıl Osmanlı kontrolünde kaldı, 1739'da İran'a döndü",
+   "gun": "TDV YIL veriyor GÜN vermiyor ⇒ `§4` kuralı: YYYY-01-01",
+   "not": "1585-09-25→1603-10-21 dönemi ARTIK VAR (gece uygulandı) — bu yama onu TEKRARLAMIYOR. `s:` zinciri DOKUNULMADAN kalır; Merâga'nın 1725-08-04→1730-08-12 kaydı aynı deseni zaten kullanıyor (s: safevî 1736'ya kadar sürerken d: üstüne yazılı, motor Osmanlı'yı kazandırıyor)."
+  },
+  {
+   "yerlesim": "Mîyandoab",
+   "alan": "d",
+   "durum": "EKSİK — yazılabilir",
+   "ekle": [
+    {
+     "f": "1585-09-25",
+     "t": "1603-10-21"
+    }
+   ],
+   "kaynak": "TDV `tebriz` 1593 idarî taksimi: Tebriz eyaleti livâları arasında Merâga; ve Merâga'nın NAHİYELERİ arasında \"Miyândûvab\". TDV `meraga`: şehir 993 (1585) yılında Osmanlılar'ın eline geçti ve \"bir süre de bu devlete bağlı kaldı\", Osmanlı sisteminde SANCAK.",
+   "gun": "Tarihler bağlı olduğu SANCAK MERKEZİ Merâga'nın veride yazılı günleriyle AYNI seçildi (1585-09-25 · 1603-10-21). 🔴 Bu bir kaynak günü DEĞİL, TUTARLILIK seçimidir: başka bir gün yazmak nahiyeyi sancağından koparıp yapay bir ada üretirdi.",
+   "not": "🟡 Merâga'nın İKİNCİ dönemi (1725-08-04→1730-08-12) Mîyandoab'a YAZILMADI — TDV o dönem için nahiyeyi adıyla anmıyor. Aynı deseni uygulamak savunulabilir ama KAYNAKSIZ; karar koordinatörde."
+  }
+ ],
+ "bulunamadi": [
+  {
+   "yerlesim": "Urmiye",
+   "sebep": "TDV `urmiye` XVI. yüzyıl dönemine HİÇBİR YIL vermiyor (\"XVI. yüzyılın sonlarında kısa bir süre\"). 1724 dönemi için de bitiş çıkarılamadı: aynı madde hem \"1724 yılında bir defa daha Osmanlı hâkimiyetine girdi\" hem \"Hekimoğlu Ali Paşa ve Rüstem Paşa ... Urmiye'yi ele geçirdiler (1730)\" diyor. ⇒ YAZILMADI."
+  },
+  {
+   "yerlesim": "Selmâs (Dilman)",
+   "sebep": "Nokta VERİDE VAR ama Osmanlı dönemi yok. TDV `selmas` ve `salmas` sluglarının İKİSİ DE ÖLÜ (302). `tebriz` maddesinin livâ listesinde de geçmiyor. ⇒ Kaynak BULUNAMADI, yazılmadı."
+  },
+  {
+   "yerlesim": "Sulduz · Dizmâr · Sarukurgân · Saidâbâd",
+   "sebep": "TDV `tebriz` bunları 1593 taksiminde livâ olarak sayıyor, yani OSMANLI STATÜSÜ doğrulanmış durumda. AMA veride NOKTA YOK ve koordinat için kabul edilebilir kaynak açılamadı (Iranica 403 · Britannica 403 · GeoNames gövdesi gelmedi). ⇒ NOKTA YAZILMADI."
+  }
+ ],
+ "duzeltme": {
+  "baslik": "M-1313 raporumdaki bir hükmü ÇÜRÜTÜYORUM",
+  "hatali_hukum": "\"Merağa · Miyandoab · Sulduz VERİDE HİÇ KAYIT YOK\"",
+  "gercek": "Merâga ve Mîyandoab veride VAR (şapkalı yazılıyor). Merâga'nın Osmanlı dönemleri de ZATEN VARDI — git ile doğrulandı: edb4134 ile HEAD aynı satırı taşıyor.",
+  "kok": "`ad.startswith(\"Merağa\")` ile aradım; veri \"Merâga\" yazıyor. Şapkalı harf ön eki bozdu. Ölçüm doğru koşuyordu, EVRENİ dardı.",
+  "ayirt_edildi": "Hoy için rapor DOĞRUYDU: edb4134'te d:[] idi, gece uygulandı. Merâga için YANLIŞTI. İki hüküm ayrı ayrı git ile sınandı — \"veri değişti\" ile \"ölçümüm dardı\" karıştırılmadı.",
+  "ders": "Türkçe veride ad araması ŞAPKA/İ-I KATLAMASIYLA yapılmalı; ham `startswith` bu külliyatta sessizce yanlış negatif üretiyor."
+ }
+}

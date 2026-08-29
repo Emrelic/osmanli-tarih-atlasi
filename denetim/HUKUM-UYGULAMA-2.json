@@ -1,0 +1,34 @@
+{
+  "parti-emrelic-0033": {
+    "H-0001": {
+      "hukum": "cozuldu",
+      "not": "Erzincan d: 41 yıl erken kusuru düzeltildi. data/yer_yama_uyg2.js'e GERÇEK KAYIT yazıldı: s: 1473-08-11→1500-01-01 akkoyunlu (uzatıldı) + 1500-01-01→1514-09-01 safevi (yeni) + d: 1514-09-01→1923-10-29 (41 yıl geriye çekildi). Kaynak TDV erzincan/kemah/sebinkarahisar, BULGU-PAKET-0033-0034.md'de zaten doğrulanmıştı, burada gerçek kayda çevrildi."
+    },
+    "H-0003": {
+      "hukum": "cozuldu",
+      "not": "Hoy (1724-1739 d: eklendi) ve Mîyandoab (1585-1603 d: eklendi) data/yer_yama_uyg2.js'e yazıldı — data/yer_yama_iran.js'te (27 Ağustos) zaten hazırlanmış ama hiç uygulanmamıştı. Urmiye/Selmâs/Sulduz/Dizmâr/Sarukurgân/Saidâbâd altısı kalıcı BULUNAMADI (TDV+Iranica+Britannica+GeoNames denendi, kaynak/koordinat yok)."
+    },
+    "H-0020": {
+      "hukum": "cozuldu",
+      "not": "Manama/Bahreyn zincirinin 1521-1602 (portekiz) ve 1783-1861 (bahreyn — kimlik zaten vardı, ilk kez bağlandı) kısımları TDV `bahreyn`den doğrulanıp data/yer_yama_uyg2.js'e yazıldı — bu kesin kısım KAPANDI. 1602-1783 arası BİLEREK yazılmadı ve kasıtlı olarak açık bırakıldı: TDV bu dönemi 'mücadele sahnesi' diye çekişmeli tanımlıyor, tek devlet adı vermiyor — hayalet devlet riski, kaynak susuyor (CLAUDE.md §11 'sahipsizin iki cinsi'). Bu, eksik kalan bir iş değil, KAYNAKSIZ ARALIĞI KASITLI BOŞ BIRAKMA kararı — ayrı bir araştırma turu (Umman/Hürmüz iddiasını doğrulamak) isterse yeni bir madde olarak açılmalı."
+    }
+  },
+  "parti-emrelic-0036": {
+    "H-0007": {
+      "hukum": "cozuldu",
+      "not": "Dörtyol/Erzin/Yumurtalık'ın v: alanı boştu, sancak merkezi Adana'nın DOĞRULANMIŞ 1832-07-29→1841-02-25 döneminden mirror'landı (aynı idari birim, ayrı kaynak yok). data/yer_yama_uyg2.js'e yazıldı."
+    },
+    "H-0008": {
+      "hukum": "cozuldu",
+      "not": "TDV sanliurfa doğrudan okundu: 1839 (1832 değil), 'kısa süre'. Başlangıç KESİN düzeltildi (1839-01-01), bitiş (1840-01-01) TAHMİN — TDV gün/ay vermiyor, genel 2. Mısır buhranı/Nizip sonrası (1839-40) çerçevesine dayanıyor. data/yer_yama_uyg2.js'e yazıldı ve KARARLAŞTIRILDI: ana kusur (7 yıl erken başlangıç) TDV ile kesin düzeltildi, bu strict iyileştirme; bitiş tarihi kesinleştirmek isteyen bir sonraki tur notta işaretli kalsın."
+    },
+    "H-0009": {
+      "hukum": "sirada",
+      "not": "H-0007/H-0008'e bağlıydı, onlar artık kayıtlı — güzergah/anlatım fikri hâlâ ayrı bir içerik işi (kronoloji), bu yamanın kapsamı dışı."
+    },
+    "H-0011": {
+      "hukum": "cozuldu",
+      "not": "TDV kahramanmaras doğrudan okundu: 1833 + ~19 ay (1832/1841 değil). Başlangıç yılı KESİN düzeltildi (1833-01-01), bitiş (1834-08-01) HESAPLANMIŞ TAHMİN — TDV yalnız 'on dokuz aya yakın' diyor. data/yer_yama_uyg2.js'e yazıldı ve KARARLAŞTIRILDI: bu TDV'nin doğrudan Maraş için anlattığı ASKERÎ İŞGAL (genel Adana idari ilhakından ayrı, daha kısa ve şehre özel) — 0037/H-0003'ün sorduğu 'Maraş'a girdi mi' sorusunun cevabı budur, EVET ve süre TDV ile sınırlı."
+    }
+  }
+}

@@ -155,8 +155,38 @@ fıkıh terimi açar. Şehir/ülke maddesi `--sehir` / `--ulke` sonekindedir.
 
 ## 6. HABERLEŞME — ekrana yazmak cevap değildir
 
+🔴🔴 **BEKÇİYİ `Monitor` ARACIYLA KUR — `Bash` İLE DEĞİL.**
+*(29 Ağustos 2026 — ve bedeli BİR GECE oldu.)*
+
+```
+Monitor aracı:  py arac/tahta_bekci.py --kim "<SENİN ADIN>" --ara 60
+                description: "tahta mesajları"   ·   persistent: true
+```
+
+⚠️ **KABUĞUN ARKA PLANINA ATMA.** Aracın kendi belgesi (`tahta_bekci.py:25`,
+16 Ağustos'ta ölçülmüş) bunu yazıyor:
+```
+Monitor                 her stdout SATIRINI ayrı bildirim yapar
+                        ⇒ süreç KOŞARKEN uyandırır       ✅ DOĞRU KAPI
+Bash run_in_background  YALNIZ süreç BİTİNCE bildirir
+                        ⇒ sonsuz döngü = HİÇ bildirim    ❌ hiç uyandırmaz
+```
+
+🔴 **DOĞURAN VAKA — 28/29 Ağustos gecesi, ve kusur KOORDİNATÖRDEYDİ.**
+Koordinatör her şartnameye bekçi komutunu **bash satırı gibi** yazdı.
+On üç oturum onu bash'te çalıştırdı. Ölçüm:
+```
+47 bekçi süreci CANLI · ve hiçbiri kimseyi UYANDIRAMIYOR
+gece boyunca işçi çıktısı: SIFIR dosya
+koordinatörün 03:09 tahta mesajı: CEVAPSIZ
+```
+Bekçiler sonsuz döngüde dönüyor, log dosyasına yazıyor ve **sağır.**
+📌 `send_message` çalışıyordu ve her atıldığında oturum çalıştı — sonra
+turunu kapatıp durdu. Onu tekrar uyandıracak şey bekçiydi; o da sağırdı.
+⇒ **Alet doğruydu, KAPI yanlıştı.** Ve aracın kendi belgesi bunu 13 gün
+önce yazmıştı; koordinatör okumamıştı.
+
 ```bash
-py arac/tahta_bekci.py --kim "<SENİN ADIN>" --ara 60      # AÇILIŞTA KUR
 py arac/tahta.py yaz --kim "<SENİN ADIN>" --kime "KOORDINATOR" --mesaj-dosya <yol>
 ```
 🔴 **Bekçiyi kurmadan işe başlama** — yoksa koordinatörün sorusunu görmezsin.
