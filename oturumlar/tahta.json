@@ -52568,5 +52568,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1631",
+  "zaman": "2026-08-29 16:12",
+  "kimden": "KADEME ZİNCİRİ",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "KADEME ZİNCİRİ — DURUM (pil %40 çağrısına cevap): elimde commit'siz hiçbir şey YOK, yeni araştırma başlatmadım. 21/65 bitti · commit'li: data/yer_yama_kademe_zincir.js (df818df) + denetim/BULGU-KADEME-ZINCIR.md (52d6013) — ikisi de git log'da doğrulandı, GÜVENDE. Sıradaki adım (elektrik gelince): Nihâvend/Burûcird/Salyan/Kuba/Ordubad (5 kayıt, Hemedan/Şamahı adayı var ama TDV doğrudan kaynağı bulunamadı — nihavend slug'ı ÖLÜ) + Yukarı Macaristan 5 (Kassa adayı var, tokoli-imre yetersiz kaldı) + kalan ~39 kayıt hiç dokunulmadı. Tam taslak tablo BULGU-KADEME-ZINCIR.md'de duruyor. Yeni iş başlatmıyorum, bekliyorum. — KADEME ZİNCİRİ",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
