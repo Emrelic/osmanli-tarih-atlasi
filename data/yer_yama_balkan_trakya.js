@@ -22,18 +22,30 @@
 //    I. DUNYA SAVASI'NDA YENIDEN BULGARLAR'IN ELINE GECTI."
 // ⇒ 1913-1920 arasi OSMANLI DEGIL BULGAR. Bugunku veri tam tersini yaziyor.
 //
-// ═══ GUN — UYDURULMADI, KOMSUDAN ALINDI ═══
-// 🟢 DOGRU SABLON ZATEN VERIDE: **SOFULU** (41,193/26,298), ayni kutuda,
-//    ayni olayi yasamis ve DOGRU yazilmis:
-//        d: ... -> 1913-05-30                      (Londra Antlasmasi)
-//        s: 1913-05-30 -> 1920-05-14 bulgaristan-kralligi
-//        s: 1920-05-14 -> 1923-10-29 yunanistan
-//    Dedeagac da ayni iki gunu kullaniyor.
-// ⇒ Dordunu de Sofulu'ya HIZALADIM. Iki gun de KULLIYATTA MEVCUT
-//    (1913-05-30 hazir gun listesinde) ⇒ Degismez 2 acilmaz.
-// 📌 Ve bu, kendi kurdugum olcutun uygulanmasi: "komsu kayitlar ayni olayi
-//    anlatiyorsa AYNI gunu kullanmali; farkli gun ancak farkli olay varsa."
-//    Once uc komsu uc ayri gun kullaniyordu (05-30 · 07-14 · 07-21).
+// ═══ GUN — UYDURULMADI. IKI GUN, IKI AYRI KAYNAKTAN ═══
+//
+// ① 1913-05-30 — LONDRA ANTLASMASI (Osmanli doneminin bitisi)
+//    Sartnamedeki HAZIR GUN listesinde var, ve ayni kutuda SOFULU ile
+//    DEDEAGAC bu gunu ZATEN kullaniyor (ikisi de dogru yazilmis kayit).
+//
+// ② 1920-05-27 — YUNAN ISGALI (Bulgar doneminin bitisi)
+//    🔴 BU GUNU ONCE SOFULU'DAN (1920-05-14) ALMISTIM, SONRA CEKIRDEK
+//    KULLIYATI TARADIM VE DAHA IYISINI BULDUM:
+//        olaylar_ek6.js · "1920-05-27" · "Gumulcine'nin isgali —
+//                          Bati Trakya'nin kaybi"
+//    Yani kulliyatta TAM BU OLAYI ANLATAN ve TAM BU YERI ADIYLA ANAN
+//    bir madde var. Sofulu/Dedeagac'in 1920-05-14'u ise maddesiz (en
+//    yakin madde bu, 13 gun oteden).
+//    ⇒ Hizalama hedefi SOFULU degil, MADDENIN KENDISI olmali.
+//
+// 📌 Ve bu, kendi kurdugum olcutun kendi uzerimde calismasi: "komsu
+//    kayitlar ayni olayi anlatiyorsa AYNI gunu kullanmali." Once uc
+//    komsu UC AYRI gun kullaniyordu (05-30 · 07-14 · 07-21) ve Yunan
+//    devri IKI AYRI gunde (05-14 · 05-27). Simdi dordu de tek gunde.
+// ⚠️ VE BIR IS KALDI, KAYITSIZ BIRAKMIYORUM: **SOFULU ve DEDEAGAC hala
+//    1920-05-14 kullaniyor.** Onlar bu yamanin kapsaminda DEGIL (ikisi
+//    de "dogru" sayilmisti) ama artik dordumuzden AYRI dusuyorlar.
+//    Koordinatore bildirildi; ayni gune cekilmeleri gerekiyor.
 //
 // ═══ GARBI TRAKYA — koordinatorun sevk sirasi ═══
 // Kunye `garbi-trakya` devletler.js'te YOK (olctum, sifir kullanim).
@@ -52,12 +64,14 @@ window.YER_YAMA_BALKAN_TRAKYA = [
         {f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},
         {f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},
         {f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},
-        {f:"1913-05-30",t:"1920-05-14",d:"bulgaristan-kralligi"},
-        {f:"1920-05-14",t:"1923-10-29",d:"yunanistan"}],
+        {f:"1913-05-30",t:"1920-05-27",d:"bulgaristan-kralligi"},
+        {f:"1920-05-27",t:"1923-10-29",d:"yunanistan"}],
     kaynak: "TDV `gumulcine` govdesi: 'I. Balkan Savasi sirasinda Bulgaristan " +
             "tarafindan isgal edildi ... I. Dunya Savasi'nda YENIDEN " +
-            "BULGARLAR'IN eline gecti.' Gunler komsu SOFULU kaydindan alindi " +
-            "(ayni kutu, ayni olay, dogru yazilmis).",
+            "BULGARLAR'IN eline gecti.' GUNLER: 1913-05-30 Londra Antlasmasi " +
+            "(hazir gun listesi + komsu Sofulu/Dedeagac) · 1920-05-27 " +
+            "CEKIRDEK KULLIYATTAKI maddeden: olaylar_ek6.js " +
+            "'Gumulcine'nin isgali — Bati Trakya'nin kaybi'.",
     neden: "Eski kayit `d: 1913-09-29 -> 1920-05-27` yaziyordu, yani Istanbul " +
            "Antlasmasi'nin Bati Trakya'yi Osmanli'ya GERI VERDIGINI. Antlasma " +
            "EDIRNE'yi verdi; Bati Trakya Bulgaristan'da kaldi. ⚠️ 31 Agu - " +
@@ -74,11 +88,12 @@ window.YER_YAMA_BALKAN_TRAKYA = [
         {f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},
         {f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},
         {f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},
-        {f:"1913-05-30",t:"1920-05-14",d:"bulgaristan-kralligi"},
-        {f:"1920-05-14",t:"1923-10-29",d:"yunanistan"}],
-    kaynak: "TDV `iskece` (200) + `gumulcine` govdesi; gunler komsu SOFULU " +
-            "kaydindan. Iskece Gumulcine ile ayni idari ve askeri kaderi " +
-            "paylasti (Bati Trakya, 27 km ara).",
+        {f:"1913-05-30",t:"1920-05-27",d:"bulgaristan-kralligi"},
+        {f:"1920-05-27",t:"1923-10-29",d:"yunanistan"}],
+    kaynak: "TDV `iskece` (200) + `gumulcine` govdesi. Gunler Gumulcine kaydiyla " +
+            "AYNI: 1913-05-30 Londra · 1920-05-27 kulliyattaki " +
+            "'Gumulcine'nin isgali' maddesi. Iskece Gumulcine ile ayni " +
+            "idari ve askeri kaderi paylasti (27 km ara).",
     neden: "Gumulcine ile AYNI kusur ve ayni care. Garbi Trakya notu ayni."
   },
 
@@ -90,10 +105,12 @@ window.YER_YAMA_BALKAN_TRAKYA = [
         {f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},
         {f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},
         {f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},
-        {f:"1913-05-30",t:"1920-05-14",d:"bulgaristan-kralligi"},
-        {f:"1920-05-14",t:"1923-10-29",d:"yunanistan"}],
-    kaynak: "Gunler komsu SOFULU ve DEDEAGAC kayitlarindan (Ferecik ikisinin " +
-            "arasinda, Meric'in BATI yakasi). TDV'de mustakil madde ARANMADI.",
+        {f:"1913-05-30",t:"1920-05-27",d:"bulgaristan-kralligi"},
+        {f:"1920-05-27",t:"1923-10-29",d:"yunanistan"}],
+    kaynak: "1913-05-30 komsu SOFULU ve DEDEAGAC kayitlarindan (Ferecik ikisinin " +
+            "arasinda, Meric'in BATI yakasi); 1920-05-27 CEKIRDEK " +
+            "KULLIYATTAKI 'Gumulcine'nin isgali — Bati Trakya'nin kaybi' " +
+            "maddesinden. TDV'de mustakil madde ARANMADI.",
     neden: "Gumulcine ile AYNI kusur ve ayni care. Garbi Trakya notu ayni."
   },
 
@@ -105,10 +122,12 @@ window.YER_YAMA_BALKAN_TRAKYA = [
         {f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},
         {f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},
         {f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},
-        {f:"1913-05-30",t:"1920-05-14",d:"bulgaristan-kralligi"},
-        {f:"1920-05-14",t:"1923-10-29",d:"yunanistan"}],
-    kaynak: "Gunler komsu SOFULU kaydindan (12 km). Dimetoka Meric'in BATI " +
-            "yakasinda ve Sofulu ile ayni idari kaderi paylasti.",
+        {f:"1913-05-30",t:"1920-05-27",d:"bulgaristan-kralligi"},
+        {f:"1920-05-27",t:"1923-10-29",d:"yunanistan"}],
+    kaynak: "1913-05-30 komsu SOFULU kaydindan (12 km); 1920-05-27 CEKIRDEK " +
+            "KULLIYATTAKI 'Gumulcine'nin isgali — Bati Trakya'nin kaybi' " +
+            "maddesinden. Dimetoka Meric'in BATI yakasinda ve Sofulu ile " +
+            "ayni idari kaderi paylasti.",
     neden: "🔴 AYRI BIR KUSUR CINSI: eski kayit `s: 1913-05-30 -> 1923-10-29 " +
            "YUNANISTAN` diyordu — GUNU DOGRU ama ARDIL DEVLETI YANLIS. " +
            "Dimetoka 1913'te Bulgaristan'a gecti, Yunanistan'a 1920'de. " +
