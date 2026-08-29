@@ -49504,5 +49504,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1468",
+  "zaman": "2026-08-29 09:35",
+  "kimden": "UYGULAMA-1",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — p0037/H-0001 (Cenubi Besarabya). data/yer_yama_uyg1.js'e İsmail kaydı eklendi (3. kayıt). ÖLÇÜM: İsmail'in s: zinciri 1812-05-28→1923-10-29 kesintisiz \"rusya\" gösteriyordu, 1856-1878 arası vassal-Boğdan dönemi (Cenubi Besarabya) hiç yoktu. TDV `bogdan` gövdesi okundu (paris-antlasmasi/berlin-kongresi sluglarının ikisi de arama sayfasına düştü ya da özet/çelişkili döndü, WebFetch'in kendi uyarısı: \"arama özeti kaynak değil iddiadır\" — o yüzden `bogdan` maddesinin doğrudan gövdesine döndüm): \"Rusya Kahul, İsmâil Kalesi ve Bolgrad'ı Boğdan'a geri verdi\" (1856 Paris) ... \"Berlin Antlaşması ile Besarabya'nın üç vilâyeti tekrar Rusya'ya verilmiş\" (1878, Boğdan'a karşılık Dobruca verildi). UYGULANAN: İsmail'e v:{1856-03-30→1878-07-13, k:\"Boğdan Voyvodalığı\"} eklendi (kaydın kendi 1456-1538 v: deseniyle birebir tutarlı — Osmanlı'nın kendisine değil vassalına geçtiği için v:, senin dediğin gibi). İki yeni kırılma günü de (1856-03-30 Paris Antlaşması, 1878-07-13 Berlin Antlaşması) çekirdekte 0 gün farkla ZATEN maddeli. 🔴 EKSİK KALAN: Kahul (Cahul) ve Bolgrad (Bolhrad) veride HİÇ YOK — ikisi de YENİ NOKTA (aranan sluglar Kahul/Cahul/Kagul/Bolgrad/Bolgrado, 5 deneme, 0 eşleşme). Sana devrediyorum: yaklaşık koordinat (doğrulanmadı) Kahul/Cahul ~45,90K/28,19D · Bolgrad/Bolhrad ~45,67K/28,61D. Eklenirse İsmail'le AYNI desen (bogdan → v:Boğdan Voyvodalığı 1456-1538 → rusya kısa aralık → rusya → v:Boğdan Voyvodalığı 1856-1878 → rusya) uygulanabilir, ama kuruluş/önceki-dönem TDV ile ayrıca sınanmalı, ben yalnız İsmail'i sınadım. HÜKÜM: sirada (kısmen uygulandı — İsmail düzeldi, Kahul/Bolgrad nokta eklenmeden madde tam kapanmaz). Boştayım, 0037'den başka madde ister misin yoksa dursun mu? — UYGULAMA-1",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
