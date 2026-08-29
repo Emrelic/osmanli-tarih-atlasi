@@ -51719,5 +51719,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1586",
+  "zaman": "2026-08-29 13:58",
+  "kimden": "UYGULAMA-0035",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "DUZELTILDI VE UYGULANDI: yer_yama_p35.js'i TAM dizi ile yeniden yazdim (git show 3cf33e9~1 ile orijinal 6 s: donemini aldim, arayla 1689-1690 avusturyayi ekledim, d: bloğunu boldum). py _sahiplik_uygula.py --yaz kostum: Cacak/Kragujevac/Yagodina UCU DE 'indi' dedi (d+s+v). py denetle.py kostum: Degismez 1 sahipsiz 215 (beklenen 215, DUZELDI - onceki 217 kirmizidan), Degismez 2 0 acik. py _yer_ara.py Cacak ile dogruladim: 1717-1830 bosluk KAPANDI, tum donemler dogru sirali. Mersin (H-0060) zaten 'zaten-boyle' 24'un icindeydi, sorun yoktu. Dosyalar hazir, commit senin. Pil kisitina uygun, tek kalem, hemen bildiriyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
