@@ -49560,5 +49560,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1471",
+  "zaman": "2026-08-29 09:42",
+  "kimden": "UYGULAMA-0019",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 29/29 BİTTİ — UYGULAMA-0019 TESLİM. denetim/HUKUM-UYGULAMA-0019.json JSON temiz · 29 madde (0019:27 · kasa-0010:1 · kasa-0012:1) denetim/BULGU-UYGULAMA-0019.md ölçüm raporu data/donem_yama_p19.js node --check temiz · DİZİ · 6 kayıt DAĞILIM: sirada 16 · zaten-dogru 5 · cozuldu 3 · tekrar 3 · olculecek 1 · senin-kararin 1 ===== ÇÖZÜLEN ÜÇ — üçünde de tarih VERİDEN ya da KAYNAKTAN alındı, UYDURULMADI ===== H-0004 Fetret'te dört nokta düz `d:` OSMANLI kalıyor (Ahtapolu · Rezve · İğneada + Mersin). Sözleşme Kırklareli·Dereköy·Vize'den BİREBİR alındı. H-0043 Mercidabık: 30 kayıt (not 29 diyordu), 11-658 km. İKİ SINAV TERS SONUÇ VERDİ: 🟢 DİVRİĞİ 322 km DOĞRU — TDV \"kesin olarak ... 24 Ağustos 1516 Mercidâbık Zaferi'nden SONRADIR\" 🔴 MALATYA 223 km 27 GÜN GEÇ — TDV \"ordu 28 TEMMUZ 1516'da ulaştı ... MALATYA'YI ELE GEÇİRDİ\" ⇒ UZAKLIK TEK BAŞINA ÖLÇÜT DEĞİL. Emre'nin sezgisi 322'de tutmadı, 223'te tuttu ve TERS yönde. H-0069 Halepçe enklavı GERÇEK: Halepçe d:1534-12-04 · aradaki Şehrizor d:1554-08-22 (20 yıl). TDV `sehrizor` karar verdi: \"Zalm ... ZAPTEDİLDİ (22 AĞUSTOS 1554). BÖLGE SANCAK HÂLİNE GETİRİLEREK...\" + \"Şehrizor ... SAFEVÎLER'İN YÖNETİMİNDE KALDI\". ⇒ Halepçe bölgenin içinde, Şehrizor'un gününe HİZALANDI — yeni gün uydurulmadı. ===== 🔴 DÖRT DEVRALDIĞIM NOT ÇÜRÜDÜ ===== H-0022 \"başkentlerin kaydı YOK\" → DÖRDÜ DE VAR · H-0020 \"hiç başlanmamış\" → `dunya:` kırk dosyada H-0056 \"27'sinin cinsi yazılmamış\" → `bos:` alanına göre 29/29 DOLU · H-0043 \"29 kayıt\" → 30 🔴 VE H-0056 KENDİ BELGELEDİĞİM TUZAĞIN İKİNCİ VAKASI: notun 27'si `neden:` SERBEST METNİNDE cins kelimesi aramaktan geliyor (ölçtüm, tam 27). 24 Ağustos'ta BULGU-BOSLUK-CINSI.md'de aynı tuzak 152 vermişti, gerçek 0'dı. Aynı hata iki ayrı oturumda, BEŞ GÜN ARAYLA. 🟢 ÖNERİ: `arac/`ta tek satırlık `bos_cinsi(y)` yardımcısı olsun ki kimse `neden:` metnini bir daha cins sanmasın. Senin dosyan, yazmadım. ===== ⚠️ VE BİR ALETİN YANLIŞ GÜVENCESİ (ikinci kez bildiriyorum) ===== `_yer_ara.py` \"Târgovişte\" için \"KAYIT YOK — ve bu hüküm GÜVENİLİR (55 dosyanın tamamı tarandı)\" bastı. YANLIŞTI; kayıt 44,925/25,457'de duruyor. Ben ASCII varyant aramıştım, veri şapkalı yazıyor. Kaydı `--kutu` buldu. ⇒ Güvence yalnız ARANAN DİZE için geçerli, KAYIT için değil — ve okuru doğrulamaktan ALIKOYUYOR. Satır \"bu dize için güvenilir; ad ekseni için --kutu ile teyit et\" demeli. ===== İKİ KÖK, ALTI MADDE — ayrı iş sanılmasın ===== `v[].k` motor okumuyor → H-0022 · H-0025 \"planlanan\" hareket türü yok → H-0041 · H-0062 kronoloji başlığı eksik anıyor→ H-0045 · H-0047 · H-0048 Van'ın yanındaki pembe=safevi → H-0077 · H-0078 📌 EN UCUZ KALEM H-0051: sebep TEK SATIR — js/app.js:3110 `scrollIntoView({block:\"nearest\"})`, istenen `block:\"start\"`. Arayüz oturumuna bir cümleyle geçer. ===== SENİN KARARIN ===== ① H-0008 MERSİN `kur:` — 1671 (Evliya, en erken) mi 1836 (Texier, en sağlam) mı? Çukurova kıyısını 165 yıl değiştiriyor. ⚠️ 1836 seçilirse `v:1832-1841` kuruluştan ÖNCE başlar; 1671'de bu sorun yok. İkisi de yamada askıda. ② DOSYA ADI — `donem_yama_p19.js` mi kalsın, `yer_yama_p19.js`e mi döneyim? (M-1453'ten beri soruyorum.) Ayrık adı seçtim çünkü risk asimetrik: yer_yama adı kronoloji uygulayıcısı tarafından yakalanır ve kayıtlarım \"karar-yok\" diye raporlanır. ③ KOŞU KARNESİ — `b3_yerlesim` kaç? `b3_kb=0` benim dalım; `b3_yerlesim` de 0 ise dal ÖLÜ, değilse sadece iş çıkmamış. ===== NE ÖLÇMEDİM (raporda tam listesi var) ===== H-0003 doğu Anadolu kutusu · Mercidabık'ın uzak altı kaydı (Musul çevresi — en şüphelendiğim küme) · H-0045/H-0048 kırılma sayıları (devraldım) · H-0058 savaslar.js sayımı (devraldım) · H-0076 Zeydî sürekliliği (TDV ile sınamadım) · H-0077 renk değerleri (renkler.py'den doğrulamadım) · kasa maddeleri (sistem tarafı, uygulamadım) YAN BULGU: `Adapazarı` (40,780/30,403) 1403-06-15'te SAHİPSİZ — Değişmez 1 adayı, bu paketin maddesi değil. BOŞTAYIM, bekçim açık.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
