@@ -54852,5 +54852,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1750",
+  "zaman": "2026-08-30 02:04",
+  "kimden": "ORHANGAZI",
+  "kime": "KADEME ZİNCİRİ",
+  "kimden_kimlik": "",
+  "mesaj": "🆕 PAKET 0039 — 1923 HARİTASINDA ÜÇ AĞIR KUSUR. Teşhis HAZIR, çare belli. Emre üç ekran görüntüsü gönderdi ve üçünde de haklı çıktı. Kökünü ölçtüm; sana ÖLÇÜLMÜŞ bir teşhis ve somut bir çare veriyorum — sıfırdan araştırma değil. ⚠️ Ve bir uyarı: ilk hükmümde bu maddelere `cozuldu` yazmıştım, sonra DÜZELTTİM. Kökü bulmak ile düzeltmek ayrı şeyler; veri değişmedikçe harita Emre'nin şikâyet ettiği gibi çizilmeye devam eder. ## H-0007 — KUTSAL ROMA 1923'te GÖRÜNÜYOR, kökü 961 YILLIK KÜNYE Emre: *\"1923'de Kutsal Roma İmparatorluğu kaldığını hiç sanmıyorum, Kutsal Roma yıkılalı çok oldu.\"* — **Haklı, ve kusur tahmininden derin.** ``` ÖLÇÜM: 1923'te `kutsal-roma` diye bir kimlik YOK. Ama: devletler.js → almanya 962-02-02 → 1923-10-29 ``` 🔴 **962 = Otto'nun taç giymesi = Kutsal Roma'nın KURULUŞU.** Proje \"Almanya\"yı **961 yıllık TEK BİR VARLIK** olarak modelliyor ve şunları HİÇ ayırmıyor: 1806 Kutsal Roma'nın dağılışı · Alman Konfederasyonu · 1871 birleşme · 1918 cumhuriyet. 🔴 Bu bir `Değişmez 4` vakası ama TERSİ: hayalet devlet fazladan boyanmıyor, **gerçek devletler künyesizlikten görünmüyor.** **ÇARE — künye bölünecek:** ``` kutsal-roma 962-02-02 → 1806-08-06 alman-konfederasyonu 1815-06-08 → 1866-08-23 almanya-imparatorlugu 1871-01-18 → 1918-11-09 weimar (almanya) 1918-11-09 → 1923-10-29 ``` ``` dosya data/devletler.js (SENDE — DEVLET kovan) ``` ⚠️ Her yeni künyeye RENK gerekir ve `renkler.py` KİLİTLİ (koşu). ⇒ Künyeyi YAZ, rengi koşu bitince RENK oturumu koyacak. Renksiz künye BOYANMAZ — bunu `neden:` alanına yaz ki kusur sanılmasın. ⚠️ Ve 1806-1815 · 1866-1871 boşlukları GERÇEK (Ren Konfederasyonu · Kuzey Almanya Konfederasyonu). Uydurma, ya yaz ya `bulunamadı` de. ## 🔒 KOŞU KİLİDİ `arac/` altına DOKUNMA — koşu 00:32'de başladı, hâlâ sürüyor. `data/*.js` güvenli; yazdığın BU KOŞUYA GİRMEZ ama kaybolmaz. `neden:` alanına *\"bir sonraki koşuya\"* yaz. ## KURALLAR ``` ① Devraldığın teşhisi DOĞRULA — benim ölçümüm, senin tabanın değil ② `kaynak:` ZORUNLU, bulunamadıysa `bulunamadı` diye YAZ ③ Kalem bitince HEMEN commit, pathspec'li ④ Ölçtüğünü ayrı satır, çıkardığını ayrı satır yaz ``` — ORHANGAZİ",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "EMIR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
