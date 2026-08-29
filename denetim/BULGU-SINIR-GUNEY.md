@@ -101,3 +101,46 @@ kazanç fırsatı (275 km'lik Ceylanpınar-Rakka kesimi) doğal adayları
 yapısal olarak kapalı çıktı — yeni bir Suriye yerleşimi ARANIYOR ama
 bulunamadı. Irak sınırının 1923'te YASAL OLARAK var olmadığı bulundu —
 karar koordinatörden bekleniyor.**
+
+---
+
+## ⑤ ORHANGAZİ'NİN CEVABI (M-1766) VE SONUÇLARI
+
+### Irak sınırı — DÖRDÜNCÜ ŞIK kabul edildi: fiilî tasarruf, antlaşma hattı değil
+`CLAUDE.md`: *"Atlas seferi değil tasarrufu boyar."* Doğru soru "sınır
+nereden geçiyordu" değil, "1923'te hangi köy kimin fiilî idaresindeydi."
+**ÖLÇTÜM: Mevcut veri ZATEN BU MODELİ kullanıyor** — Silopi·Nusaybin·
+Çölemerik·Yüksekova·Başkale·Van·Bitlis·Mardin `OSMANLI/tabi`; Zaho·Duhok·
+Musul·Sincar·Akra·Erbil·Rewândiz·Telafer `ingiltere`. Bu zaten fiilî
+tasarrufu yansıtıyor (İngiliz mandası Musul vilâyetini 1918'den beri
+fiilen tutuyordu). Kalan büyük sapmalar (Yüksekova↔Akra ~45-50 km,
+Çölemerik↔Duhok ~47 km) bu modelin YANLIŞLIĞINDAN değil, Hakkâri-Zaho
+dağlık kuşağının GERÇEKTEN seyrek olmasından geliyor — yeni 1923'te var
+olan bir yerleşim ARADIM (bu bölgede), BULAMADIM. `neden:` disiplinini
+(*"1923'te sınır hukuken belirsizdi, bu nokta fiilî tasarrufa göre
+yazıldı"*) yeni bir kayıt yazarsam uygulayacağım — şimdilik yazacak yeni
+kayıt yok.
+
+### Suriye'nin 275 km'lik boşluğu — araştırıldı, DÜŞÜK GÜVENLE elendi
+ORHANGAZİ'nin önerdiği Tell Tamer/Aşağı Habur kuşağı araştırıldı:
+- **Tell Tamer**: WebSearch ile doğrulandı — Asurî yerleşimi ESAS OLARAK
+  **1930'larda** (1933 Simele Katliamı sonrası Irak'tan kaçış) kuruldu.
+  1923'te bu hâliyle YOKTU.
+- **el-Haseke**: İlk turda "1928'de kuruldu" dediğim YANLIŞTI — TEKRAR
+  ARAŞTIRDIM: aslında 1907'de bir OSMANLI ASKERÎ KIŞLASI çevresinde küçük
+  bir köy olarak vardı, 1932'den sonra Asurî yerleşimiyle büyüdü.
+  ⇒ **1923'te teknik olarak VAR ama küçük bir garnizon-köyü**, boyutu ve
+  tam 1923 durumu için güvenilir bir kaynak BULAMADIM (Britannica genel
+  bilgi veriyor, tarih/nüfus vermiyor).
+- **GENEL BULGU**: Bölgenin kendisi Osmanlı döneminde "seyrek nüfuslu"
+  olarak doğrulandı (Bedevi göçebe kuşağı, yerleşik köy azlığı) — yani bu
+  275 km'lik boşluk MUHTEMELEN VERİ EKSİĞİ DEĞİL, GERÇEK TARİHSEL
+  SEYREKLİK (Sahra/Rub'ul-Hâlî ile aynı sınıf, `CLAUDE.md §11`'in
+  "kasıtlı boşluk" kategorisi).
+
+⚠️ **KARARIMI AÇIKLIYORUM:** el-Haseke'yi GÜVENİM ORTA olduğu için
+YAZMADIM (OPUS 86'nın Trakya'da uyguladığı aynı ölçüt: *"ORTA güvenli bir
+koordinatla 5 km hedefi tutturmak mantıksız, hatanın kendisi hedef kadar
+büyük"*). İstersen (a) ben daha derin araştırayım (akademik kaynak —
+French mandate cadastral kayıtları), (b) bu kesimi "kasıtlı boşluk /
+tarihsel seyreklik" diye damgalayıp KAPATALIM, (c) sen karar ver.

@@ -129,3 +129,16 @@ arandı, bulunamadı.
 (Lozan md 3/2, 1926'ya ertelenmiş) — nasıl davranacağımı sordum.
 Detay: denetim/BULGU-SINIR-GUNEY.md (düzeltilmiş). Sıradaki: koordinatörün
 Irak kararını bekliyorum.
+
+## GÜNCELLEME 8 — dördüncü şık + Suriye 275km araştırması (M-1766)
+Irak sınırı için "fiilî tasarruf" modeli KABUL EDİLDİ — ölçtüm, MEVCUT
+VERİ ZATEN BU MODELİ KULLANIYOR (Silopi/Nusaybin/... OSMANLI, Zaho/Duhok/
+Musul/... ingiltere). Kalan büyük sapmalar Hakkâri-Zaho dağlık kuşağının
+gerçek seyrekliğinden — yeni nokta aradım, bulamadım.
+Suriye'nin 275km boşluğu için Tell Tamer (1930'larda kurulmuş, 1923'te
+YOK) ve el-Haseke'yi (1907 Osmanlı kışlası, teknik olarak VAR ama 1923
+durumu için güvenilir kaynak yok, güvenim ORTA) araştırdım. Bölgenin
+Osmanlı döneminde gerçekten seyrek nüfuslu olduğu doğrulandı — bu boşluk
+muhtemelen veri eksiği değil GERÇEK TARİHSEL SEYREKLİK.
+Koordinatöre üç seçenek sundum (derinleş / kasıtlı-boşluk damgala / karar
+ver). Detay: BULGU-SINIR-GUNEY.md §5. Cevap bekliyorum.
