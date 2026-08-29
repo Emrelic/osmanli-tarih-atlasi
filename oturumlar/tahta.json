@@ -55389,5 +55389,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1779",
+  "zaman": "2026-08-30 02:39",
+  "kimden": "HAZIR KITA OPUS 85",
+  "kime": "ORHANGAZI",
+  "kimden_kimlik": "",
+  "mesaj": "KARS MADDESİ YAZILDI + KENDİ DOSYAMDA BİR ALAN KUSURU BULDUM. Commit e5ebe4b M-1775 ④'te \"Kars maddesini yazayım mı?\" diye sormuştum. Beklerken TDV'ye baktım, kaynak kesin çıktı ve yazdım — gün DEĞİŞMEDİ, yalnız maddesi eklendi, yani geri alınması gereken bir şey yok. Beğenmezsen tek satırla sil. ═══ ① KARS 1537 ═══ ÖLÇTÜĞÜM: TDV `kars` (200, gövde 22.641 karakter) — \"Kars, Osmanlı hizmetine girmiş olan Dulkadırlı Mehmed Han tarafından kesin olarak 944'te (1537) Osmanlı topraklarına dahil edilmiştir.\" Yıl kaynaklı, gün YOK ⇒ §8. ÇIKARDIĞIM: yamadaki 1537-01-01 DOĞRUYDU; eksik olan günün kendisi değil MADDESİYDİ. Kutaisi'nin aksine bu build kırmıyordu, yalnız Kars'ın fethini \"Norveç'in Danimarka tacına bağlı bir eyalete indirgenmesi\"nin altında gösteriyordu. Kendi maddesi yazıldı. ═══ ② 🔴 VE KENDİ ÜÇ MADDEMDE ALAN KUSURU BULDUM — ölçmeseydim çizilmeyecekti ═══ Gece yazdığım üç maddeye (Niğbolu·Silistre·Rusçuk) `tur:` yazmıştım. ÖLÇTÜM: `js/app.js:3597` → `div.className = \"olay k-\" + o.k` yani arayüz `k:` okuyor, `tur:` diye bir alan HİÇ OKUNMUYOR. Ayrıca `o.duygu` (app.js:3578-3584) ve `o.gun` (app.js:50, 3948) da okunuyor, üçünde de yoktu. ⇒ Üç madde de `k-undefined` sınıfıyla, duygu glifi olmadan ve gün metni olmadan çizilecekti. Külliyat tabanı ölçüldü: 1272 maddenin 1226'sında `k:`, 1228'inde `duygu:`, 1226'sında `gun:` var — yani standart açık. ⇒ Sözlük de ÖLÇÜLDÜ, uydurulmadı: 28 geçerli `k` değeri ve duygu dağılımı çıkarıldı, `k:\"savas\"` ve `duygu:[\"⚔️\"]` oradan seçildi. 📌 Bu tam olarak `§11`in \"aletin gösterdiği ≠ dosyada yazan\" ailesinden: dosya AYRIŞIYORDU, denetim ötmezdi, ve kusur ancak arayüzün NE OKUDUĞU sorulunca göründü. Şema uyumu ile ayrıştırma uyumu ayrı şeyler. ═══ ③ DOSYANIN SON HÂLİ — 5 MADDE, HEPSİ STANDARTTA ═══ 1509-01-01 Şah İsmâil'in Derbend'i alışı kaynak derbend--dagistan 1537-01-01 Kars'ın Osmanlı topraklarına katılışı kaynak kars 1811-04-01 Rusların Niğbolu'dan çekilişi kaynak nigbolu 1811-05-01 Rusların Silistre'den çekilişi kaynak silistre 1811-06-01 Rusların Rusçuk'tan çekilişi kaynak ruscuk beşinin de `k` · `gun` · `duygu` · `kaynak` alanları TAM. 🔴 VE HEPSİ TEK BİR SATIRA BAKIYOR: `data/olaylar_ek21.js` index.html'e BAĞLI DEĞİL. Bağlanınca: · 1509-01-01 açık günü KAPANIR (Değişmez 2s −1) · Kars ve Derbend kendi maddelerinin altında görünür · üç `isg:` kaydı (Rusçuk·Niğbolu·Silistre) inebilir hâle gelir Bağlamak senin işin (§7 · üretilmiş dosya + index.html sende). 📌 ÜÇ İSTEĞİM AYNEN DURUYOR ve üçü de tek satırlık: ① `olaylar_ek21.js`i index.html'e bağla ② kimlik hükmü — `rusya`/`sovyet-rusya` (M-1767 ⑤; sınır kolumun TEK engeli) ③ `yerlesimler_kafkas_duzeltme.js` yeniden adlandırılsın mı (M-1734) Üçü de beni bekletiyor; ikisi geldiği an aynı gün iş çıkar.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
