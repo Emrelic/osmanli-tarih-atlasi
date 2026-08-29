@@ -1553,7 +1553,30 @@ D7_ADA_MUAF = frozenset((
 # ⚠️ TAVAN SESSİZCE ÇEKİLMEDİ: altısı da `denetim/BULGU-D7-YENI.md`de adıyla
 #   duruyor. Kayıtsız kapatılan borç, yarın KUSUR diye yeniden bulunur — ve
 #   bu projede o iki kez oldu.
-BEKLENEN_ENKLAV_SORGU = 488
+# 🟡 488 -> 494, 30 Ağustos 2026 gecesi — YİNE BORÇ KAYDI, yine doğru
+#   veriden. 31 sahiplik kaydı indi (Drama · Romanya hayalet kimliği ·
+#   Batı Trakya · Bağdat) ve altı yeni soru doğdu. Fark tek tek ölçüldü
+#   (`--ayrinti` listeleri diff'lendi), uydurulmadı:
+#
+#     Manama (Bahreyn) ×4   1521 portekiz · 1602 safevi · 1717 umman ·
+#                           1753 zend  — 306-491 km
+#       🟢 BAHREYN BİR ADA. Gövdesi TANIM GEREĞİ kopuk; bu dört satır
+#         "enklav" değil "ada". Yeni dönemler yazılınca `ada-fethi`
+#         muafiyetinin dışında kaldılar.
+#       ⚠️ ÖLÇÜLMEDİ: muafiyetin niçin tutmadığı. Kayıt `enklav:true`
+#         taşımıyor olabilir — koşu sonrası bakılacak.
+#
+#     Bağdat ×2             1393 · 1401 → timurlu, 172 km
+#       🟢 GERÇEK ENKLAV: Timur Bağdat'ı iki kez işgal etti (TDV `bagdat`
+#         gövdesi), çevresi Celayirli kaldı. Kopukluk TARİHİN KENDİSİ.
+#
+#   ⇒ Altısının altısı da doğru verinin sonucu. `Değişmez 7` "burada bir
+#     SORU SORULMADI" der; altı yeni soru doğdu ve ikisinin cevabı zaten
+#     belli (ada · işgal), dördü kayıt altında.
+# 📌 İkinci kez aynı desen: doğru dönem yazınca görünmez olan sorular
+#   GÖRÜNÜR oluyor. Sayının büyümesi gerileme değil.
+# ⚠️ Ve `denetim/BULGU-D7-YENI.md` bu turun kaydını da taşıyor.
+BEKLENEN_ENKLAV_SORGU = 494
 
 
 def _d7_km(a, b):

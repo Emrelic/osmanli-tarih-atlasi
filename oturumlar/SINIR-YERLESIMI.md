@@ -67,6 +67,51 @@ onu **ÖLÇ**, mesafeden **TÜRETME**.
 
 ---
 
+## 🔴🔴 İKİNCİ ÇÜRÜME — "EN KÖTÜ KESİMDEN BAŞLA" SEZGİSİ YANLIŞ
+*(30 Ağustos 02:42, HAZIR KITA OPUS 86 · ve bu sezgiyi buraya BEN yazmıştım)*
+
+Alet sapmayı **BUGÜNKÜ** sınıra ölçüyor. Sınır 1923'ten sonra değiştiyse
+o sapma bir **ARTEFAKT** — veri doğru, karşılaştırma çizgisi yanlış.
+
+**Ölçülmüş vaka — Hatay:**
+```
+Payas–Antakya kesimi   -29,4 km  "OSMANLI EKSİK"  ⇒ kurala göre nokta gerek
+ÖLÇÜM: Erzin·Dörtyol·Payas 1923'te OSMANLI      ✓ DOĞRU
+       İskenderun·Antakya  1923'te fransa        ✓ DOĞRU
+       (Hatay 1939'da katıldı — veri ÖZENLE yazılmış)
+⇒ Sapmanın TAMAMI, aletin bugünkü sınıra bakmasından.
+```
+🔴 **Nokta eklenseydi: sapma KAPANACAK, DOĞRU VERİ BOZULACAK, ve bir daha
+FARK EDİLMEYECEKTİ — çünkü denetim artık temiz olurdu.**
+📌 `CLAUDE.md`nin *"pencere dışı / kara dışı"* vakasının birebir aynısı:
+alet iki ayrı şeyi tek satırda söylüyor ve **çareleri TERS.**
+
+### ⚠️ VE SEZGİ TERSİNE ÇALIŞIYOR — en önemli kısmı bu
+```
+sınır DEĞİŞİKLİĞİ  ~30 km oynatır
+nokta SEYREKLİĞİ   ~10 km
+⇒ "en kötü kesimden başla" seni DOĞRUDAN ARTEFAKTLARA götürür
+⇒ EN BÜYÜK SAPMALAR muhtemelen DÜZELTİLECEK ŞEYLER DEĞİLDİR
+```
+
+### DÜZELTİLMİŞ KURAL — önüne bir şart geldi
+```
+⓪ ÖNCE SOR: bu kesimde bugünkü sınır = 1923 sınırı mı?
+   HAYIR → nokta EKLENMEZ. "ölçülemez, sınır X yılında değişti" diye
+           AYRI BİR KOVAYA yazılır — KUSUR kovasına DEĞİL.
+   EVET  → ancak o zaman sapmanın işaretine bakılır:
+           sapma > 0 (OSMANLI FAZLA)  → YABANCI yakaya nokta
+           sapma < 0 (OSMANLI EKSİK)  → OSMANLI yakasına nokta
+```
+**Bilinen ayrışma bölgeleri:** Hatay (1939) · Musul (1926) · Batum (1921) ·
+Batı Trakya (Lozan'dan beri AYNI ⇒ orada ölçüm geçerli).
+
+🟢 Alet düzeltildi (`9007c0d`): uyarı artık çıktının **BAŞINDA** — eskiden
+sonundaydı, *"vardı ama yetmedi, çünkü okunan yer sonuç tablosuydu."*
+📌 `CLAUDE.md`: *"geç öten alarm, ötmeyen alarmdan yalnız biraz iyidir."*
+
+---
+
 ## 🔴 ZORUNLU İLK ADIM — ölçmeden yazma
 
 Her kol, nokta yazmadan **önce** kendi hattında sapmayı doğrudan ölçer:

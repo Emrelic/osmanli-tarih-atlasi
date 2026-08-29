@@ -410,21 +410,11 @@ window.YERLESIMLER_EK29 = [
 //   1878-07-13 Berlin (Romanya'ya devir) günlerine yaslandı
 
 { ad:"Babadağı (Babadag)", tur:"kasaba", lat:44.8917, lon:28.7169, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1393-09-01",d:"bulgaristan"},
-     {f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},
-     {f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},
-     {f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},
-     {f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},
-     {f:"1878-07-13",t:"1923-10-29",d:"romanya"}],
+  s:[{f:"1281-01-01",t:"1393-09-01",d:"bulgaristan"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1878-07-13",t:"1881-03-26",d:"romanya"},{f:"1881-03-26",t:"1923-10-29",d:"romanya-kralligi"}],
   d:[{f:"1393-09-01",t:"1402-07-28"},{f:"1413-07-05",t:"1878-07-13"}], v:[] },
 
 { ad:"İshakçı (Isaccea)", tur:"kale", lat:45.2736, lon:28.4600, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1393-09-01",d:"bulgaristan"},
-     {f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},
-     {f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},
-     {f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},
-     {f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},
-     {f:"1878-07-13",t:"1923-10-29",d:"romanya"}],
+  s:[{f:"1281-01-01",t:"1393-09-01",d:"bulgaristan"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1878-07-13",t:"1881-03-26",d:"romanya"},{f:"1881-03-26",t:"1923-10-29",d:"romanya-kralligi"}],
   d:[{f:"1393-09-01",t:"1402-07-28"},{f:"1413-07-05",t:"1878-07-13"}], v:[] },
 
 // YAGODİNA (Jagodina) — Kragujevac (28,4 km) çizgisiyle birebir:
