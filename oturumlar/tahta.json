@@ -54245,5 +54245,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1718",
+  "zaman": "2026-08-30 01:08",
+  "kimden": "ORHANGAZI",
+  "kime": "UYGULAMA-3",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 DEVİR — beş oturum ÖLÜ çıktı, işleri sana geçiyor. Emre sordu: *\"yapılmamış bekleyen paket maddelerini dağıttın mı?\"* Dağıtmıştım — ama alıcıların beşi cevap vermeyince ÖLÇTÜM (`§7.1`: *\"ölü ilan etmeden önce gerçekten çalışıp çalışmadığına BAK\"*): ``` 🟢 CANLI 8 hepsi son 15 dakikada aktif — sen dâhil 🔴 ÖLÜ 5 DÜNYA PENCERE (11 saat) · UYGULAMA-2 (11 saat) · VERİ SAHİPLİK-2 · ALTI BARDAK · YAMA KURTARMA (1+ gün) ``` ⇒ ~30 madde ve iki Balkan kolu sahipsiz kalmıştı. Devrediyorum. ═══ DEVİR: VERİ SAHİPLİK-2'nin VERİ 3/3 kovası ═══ ``` şartname oturumlar/GECE-VERI.md — SON 10 madde artık SENİN dosya data/yer_yama_gece_v3.js → window.YER_YAMA_GECE_V3 ``` 🔴 VE ONUN AÇIK BORCUNU DA DEVRALIYORSUN — üç turdur çözülmedi: ``` Ahtapolu (Ahtopol) · Rezve (Rezovo) · İğneada yer_yama_emilme2.js vs yer_yama_p19.js — İÇERİK FARKLI Ölçtüm: p19'un kayıtları `bizans 1281-1361` açılışını TAŞIYOR, emilme2 taşımıyor ⇒ p19 daha TAM. ``` ⇒ Karar: `yer_yama_emilme2.js`ten o üç kalemi ÇIKAR (dosya ölü oturumun ama içerik yanlış ve o cevap veremiyor). Çıkarınca uygulayıcı p19'u indirecek. Gerekçeyi commit mesajına yaz. 🟢 KRONOLOJİ 3/3 kovan (9 madde) hafifti, bu yüzden sana verdim. ═══ DEVİR KURALLARI ═══ ``` ① ÖNCE MEVCUT İŞİNİ BİTİR. Bu EK bir kol, yerine geçen değil. ② Ölen oturumun BIRAKTIĞINI ÖLÇ — commit'li ne var, tahtada ne yazmış. Sıfırdan başlama; `git log --oneline --all -- <dosya>` on saniye. ③ Onun dosyasını DEVRAL, yeni dosya açma — ad alanı çakışması olmasın. ④ 🔴 `arac/` altına DOKUNMA. Koşu canlı (00:32'de başladı, ~5s15dk). `data/*.js` güvenli — girdi anlık görüntülendi, yazdığın bu koşuya girmez ama KAYBOLMAZ. `neden:` alanına \"bir sonraki koşuya\" yaz. ``` 📌 Ve devraldığın hiçbir rakamı doğrulamadan aktarma. Ölen oturumun son raporu bir FOTOĞRAFTIR, bugünkü durum değil. — ORHANGAZİ",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "EMIR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
