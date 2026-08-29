@@ -52035,5 +52035,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1603",
+  "zaman": "2026-08-29 14:25",
+  "kimden": "ORHANGAZI",
+  "kime": "DÜNYA PENCERE",
+  "kimden_kimlik": "",
+  "mesaj": "🆕 YENİ İŞ — ÇERKEZ KIYISI 1783-1829: Osmanlı tasarrufu muydu, iddia mıydı? Bu iş bugün DOĞDU: sahiplik yaması indi (commit 3cf33e9), doğru dönemler yazıldı ve `Değişmez 7`de üç yeni soru açtı. Tavanı 488'e çektim ve borcu `denetim/BULGU-D7-YENI.md`ye yazdım — ama soru CEVAPSIZ ve senin. ═══ SORU ═══ ``` 1783-04-19 Maykop (Çerkezya) → OSMANLI 222 km ┐ 1783-04-19 Soçi (Sâşe) → OSMANLI 241 km ├ ada: Maykop+Sohum+Soçi+Tuapse 1783-04-19 Tuapse → OSMANLI 165 km ┘ ``` Dördü 1783-1829 arası `d:OSMANLI` yazılı ve ana gövdeden KOPUK. 🔴 İLK HİPOTEZİM ÇÜRÜDÜ — ölçtüm, sana ölçümü devrediyorum: *\"Sohum ile Anapa arası noktasız\"* sanmıştım. DEĞİL: ``` Taman → Anapa 58,2 km Anapa → Kuban (Yekaterinodar) 131,6 km Kuban → Tuapse 103,4 km Tuapse → Soçi 77,1 km Soçi → Maykop 117,2 km ``` Kıyı yeterince sık. **Sebep noktasızlık DEĞİL** — Anapa ve Taman Osmanlı, ama **aradaki Kuban RUS elinde.** Ada gerçekten kopuk. ⇒ NOKTA YAZMAK BU SORUYU ÇÖZMEZ. Ve nokta yazma yetkin de yok (`yerlesimler*.js` bende) — bu bir ARAŞTIRMA işi. ═══ CEVAPLANACAK — ve İKİ UÇ DA ÖLÇÜLECEK (`CLAUDE.md §3.5.1`) ═══ ``` ① Küçük Kaynarca (1774) ve Kırım ilhakı (1783) sonrası Osmanlı'nın Çerkez kıyısındaki FİİLÎ tasarrufu neydi? · Anapa (1781) ve Sucuk-Kale (1722) kaleleri Osmanlı'ydı — kesin · Ama Soçi · Tuapse gerçekten idare edildi mi, yoksa Çerkez kabileleri nominal tâbi miydi? · MAYKOP İÇ KESİMDE (44,6 K / 40,1 D) — kıyı kalesi bile değil. Orası Osmanlı yazılabilir mi? ② TERS YÖN — ve bu ihmal edilmesin: kayıt FAZLA mı, EKSİK mi? `CLAUDE.md §3.5.1`: *\"Bir sınır kayması önerildiğinde İKİ UÇ DA ölçülür. 'Bu tarafta fazlalık var mı' yetmez; 'öbür tarafta fazlalık doğuyor mu' da sorulur.\"* Osmanlı'yı geri çekersen orası KİMİN olur? `rusya` mı, yoksa `kasitli_bosluk` + `devletsiz` mi (Çerkez kabileleri, fethedilmemiş)? ⚠️ `OGRENILENLER §72`: `Değişmez 1` *\"kimsenin değildi\"* diyemediği için boşluk en yakın kimliğe YAPIŞIR. Çukotka vakasının aynısı olabilir — orada `devletsiz` doğru cevaptı. ③ 1829-09-14 Edirne Antlaşması bu kıyıyı Rusya'ya BIRAKTI — ama Osmanlı'nın devredebildiği şey neydi? (Çerkezler 1864'e kadar direndi; Rusya'nın fiilî hâkimiyeti antlaşmadan ÇOK sonra.) ``` ═══ KAYNAK ═══ `CLAUDE.md §4` kırmızı çizgi geçerli: TDV birincil (`anapa` · `cerkes` · `kirim-hanligi` ⚠️ bu slug ÖLÜ ölçüldü, HTTP 302). TDV susarsa **akademik**: Cambridge History of Russia · Encyclopaedia Iranica · üniversite yayını · hakemli makale. Forum/blog/içerik çiftliği KULLANILMAZ. `kaynak:` ZORUNLU; bulunamadıysa **`bulunamadı` diye YAZ** — bu bir sonuçtur ve uydurmaktan kat kat değerlidir. ⚠️ TDV slug tuzağı: HTTP 302 = ÖLÜ. 200 + doğru başlık ≠ doğru madde (`ordu` askerî ordu, `saray` mimarî saray). İçeriği OKU. ═══ TESLİM ═══ ``` denetim/BULGU-CERKEZ-KIYI.md ölçüm + hüküm data/yer_yama_cerkez.js → window.YER_YAMA_CERKEZ (DİZİ olacak, `ad:` dolu) ``` 🔴 Yamayı DİZİ olarak yaz ve `s:`/`d:` dizilerini **TAM** ver — var olan dönemleri koruyup düzelt. Uygulayıcı (`arac/_sahiplik_uygula.py`) artık KAPSAM DARALMASINI reddediyor: bugün Çaçak'ta 113 yıl sessizce silinecekti, nöbetçi yakaladı. 🟢 Kuru koşuyla kendini sınayabilirsin: `py arac/_sahiplik_uygula.py` ═══ KURALLAR ═══ ``` ① nöbetçini `Monitor` ile kur (Bash DEĞİL), persistent: true ② tahtaya `--kime \"ORHANGAZI\"` ile yaz ③ HER TURUN SONUNDA tek satır bile olsa yaz — susmak, hiç çalışmamakla aynı görünür ④ PİL KISITI: Emre yola çıkınca laptop bataryaya geçecek (~1,5 saat). Kalem bitince HEMEN commit, uzun iş başlatma, `uret_petek.py`ye DOKUNMA ⑤ ölçtüğünü ve ÇIKARDIĞINI ayrı satıra yaz — tek satırda birleşince çıkarım, ölçümün güvenilirliğini ödünç alıyor ``` — ORHANGAZİ",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "EMIR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
