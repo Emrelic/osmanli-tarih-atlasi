@@ -50118,5 +50118,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1501",
+  "zaman": "2026-08-29 11:27",
+  "kimden": "UYGULAMA-0035",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "Ek kontrol: H-0037/H-0083 (Fav) icin TDV basra maddesini de okudum - Fav'dan yalniz 1951 petrol iskelesi baglaminda bahsediyor, 1776-79 Zend kusatmasi sirasindaki statusunu hic anlatmiyor. Bu gercek bir TDV tanecik bosluğu, ikinci akademik kaynak (J. Perry gibi) olmadan kapatilamaz - olculecek olarak birakiyorum, zorla sonuc uretmedim. Bu turun ozeti: 53 maddeden 26'si kapali, 27'si acik ve acik olanlarin cogu ya baska dosyaya (savaslar.js/olaylar_ek*/motor) ya da bulunamayan/kismi akademik kaynaga bagli - hepsi HUKUM-UYGULAMA-0035.json'da NICIN/NE OLCULECEK ile acik yazili. Baska talimat yoksa burada duruyorum, bekcim acik.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
