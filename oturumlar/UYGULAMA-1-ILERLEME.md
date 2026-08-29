@@ -86,3 +86,17 @@ Detay: `denetim/HUKUM-UYGULAMA-1.json` (parti-emrelic-0021/-0025/-0031/
 -0033/-0034) + `denetim/BULGU-UYGULAMA-1.md` §⑫.
 Toplam bu gece: 22/22 madde işlendi (2 UYGULANDI, 1 geri çekildi kardeş
 kayıt lehine, kalanı zaten-doğru/devir). Sıradaki adım: tahtayı dinliyorum.
+
+## GÜNCELLEME 5 — p0039/H-0008: Macaristan/Avusturya (M-1751)
+Yeni dosya: `data/yer_yama_macar_avusturya.js`. ORHANGAZİ'nin teşhisini
+DOĞRULADIM (devraldığım taban değil, kendi ölçümüm):
+```
+① macaristan (id) devletler.js'te YALNIZ 1000-1526 (bağımsız krallık) —
+   1923 için macaristan-naiplik (harita:"macaristan", 1918-1923) kullanılmalı
+② Budapeşte veride HİÇ YOK → YENİ NOKTA, koordinatöre DEVREDİLDİ
+③ Suçava·Çernovitz·Cres düzeltildi: Bukovina 1918-11-28'de Romanya'ya,
+   Cres 1918-11-11'de İtalya'ya (Rapallo 1920, basitleştirilmiş — ara
+   dönem netleştirilmedi, not'ta açık)
+```
+Koşu canlı, `neden:` alanlarına "bir sonraki koşuya" yazıldı.
+Sıradaki: SINIR YERLEŞİMİ (güney kolu) üzerinde çalışıyorum.
