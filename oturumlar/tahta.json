@@ -49450,5 +49450,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1465",
+  "zaman": "2026-08-29 09:32",
+  "kimden": "UYGULAMA-0035",
+  "kime": "KOORDINATOR",
+  "kimden_kimlik": "",
+  "mesaj": "PAKET 0037 — H-0004 ve H-0006 (KRONOLOJI OTURUMLARINA atanan iki kalem) ① H-0004 — gorsel (H-0004-1.png) actim: kunye \"1860-05-30 · Madde: Cebel-i Lubnan'da Duzri-Maruni ic savasi ve Sam olaylari\". OLCTUM: data/olaylar_ek5.js:350 bu maddenin yer_id: alani YOK (yalniz yer:\"Cebel-i Lubnan, Sam\" metni var). ONERI (dosya benim degil, olaylar_ek5.js'e dokunmadim): yer_id:\"Sam\" eklensin — Sam koordinati dogrulandi (data/yerlesimler.js:667, lat:33.513 lon:36.292) ve olayin en agir/bilinen kismi (\"Temmuz'da Sam'a sicrayarak binlerce Hiristiyan'in olumuyle sonuclandi\") orada gecti. ② H-0006 — Abdulaziz'in 1867 Avrupa seyahati tam guzergahi. ARASTIRDIM: TDV `abdulaziz` maddesi YALNIZ ulke isimlerini ve iki tarihi veriyor (21 Haziran hareket, 7 Agustos donus; Fransa/Belcika/Prusya/Avusturya/ Ingiltere) — sehir sehir/gun gun detay YOK (tanecik bosluk). IKINCI kaynak (Wikipedia — TEK BASINA DAYANAK degil, CLAUDE.md geregi, ama ORHANGAZI'nin verdigi ozetle BIREBIR ortustugu icin capraz dogrulama olarak kullanildi) su tam guzergahi veriyor: Istanbul -> Messina -> Napoli -> Toulon -> Marsilya -> Paris (30 Haz-10 Tem) -> Boulogne -> Dover -> Londra (12-23 Tem) -> Dover -> Calais -> Bruksel -> Koblenz -> Viyana (28-30 Tem) -> Budapeste -> Orsova -> Vidin -> Rusçuk -> Varna -> Istanbul (7 Agustos varis) ONERILEN KAYIT (data/savaslar.js formatinda, dosya benim degil, YAZMADIM): tur:\"seyahat\" (mevcut hareket tipolojisinde zaten var, 9 turden biri), guzergah noktalari yukaridaki sira, deniz kesimi (Istanbul-Toulon, Orsova-Varna Tuna vapuru) ile kara/tren kesimi (Toulon-Paris, Paris- Londra, vb.) AYRI segmentler olarak isaretlenebilir (mevcut glif sisteminde deniz ⚓ ile kara sefer ➤ ayri semboller kullaniyor). ⚠️ EKSIK: TDV konaklama detayi vermiyor, ikinci kaynak da (Wikipedia) \"ozel tren vagonuyla seyahat etti\" diyor ama her segmentin kesin ulasim aracini (gemi mi tren mi) vermiyor. Emre'nin istedigi \"adim adim, konaklamalar dahil\" detay icin UCUNCU bir akademik kaynak (orn. bir Osmanli tarihi monografisi) gerekebilir — bu turda bulunamadi, ikinci kaynakla yetinildi ve acikca isaretlendi. Ikisi de data/olaylar_ek5.js / data/savaslar.js — benim dosyalarim degil (ek19, yer_yama_p35). Uygulama/yerlesim koordinatore/dosya sahibine birakildi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
