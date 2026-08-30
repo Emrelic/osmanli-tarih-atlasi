@@ -112,7 +112,7 @@ window.YERLESIMLER_EK20 = [
 //    `PARTİ 20`de Ayan · Blagoveşçensk · Selenginsk'te üç kez öğrendiğim
 //    ders: kasabanın kuruluşu ile toprağın idaresi ayrı sorulardır.
 { ad:"Zaysan", tur:"kale", lat:47.4667, lon:84.8667, g:0, k:4, d:[],
-  s:[{f:"1281-01-01",t:"1347-01-01",d:"cagatay"},{f:"1347-01-01",t:"1634-01-01",d:"mogulistan"},{f:"1634-01-01",t:"1755-01-01",d:"cungar"},{f:"1755-01-01",t:"1864-10-07",d:"qing-hanedani"},{f:"1864-10-07",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1347-01-01",d:"cagatay"},{f:"1347-01-01",t:"1634-01-01",d:"mogulistan"},{f:"1634-01-01",t:"1755-01-01",d:"cungar"},{f:"1755-01-01",t:"1864-10-07",d:"qing-hanedani"},{f:"1864-10-07",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // ── ④ CUNGARYA HAVZASI — coğrafî dolgu, kasaba DEĞİL ────────────────
 // Ürümçi (286 km) ile Gulca arasındaki susuz havza. `Bozkır (Deşt-i

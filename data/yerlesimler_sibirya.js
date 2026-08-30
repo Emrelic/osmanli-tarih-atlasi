@@ -24,15 +24,15 @@ window.YERLESIMLER_SIBIRYA = [
 // notuyla). Mükerrer isim olurdu, sessizce çıkarıldı (koordinatör onayı: ①).
 { ad:"Ket Ostrogu (Ketsk)", tur:"kale", lat:58.70, lon:81.40, g:0, k:4,
   kur:"1602-01-01",
-  s:[{f:"1602-01-01",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1602-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 { ad:"Kazak bozkırı (Turgay)", tur:"bolge", lat:49.60, lon:63.50, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1500-01-01",d:"altinorda"},{f:"1500-01-01",t:"1868-01-01",d:"kazak-hanligi"},{f:"1868-01-01",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1500-01-01",d:"altinorda"},{f:"1500-01-01",t:"1868-01-01",d:"kazak-hanligi"},{f:"1868-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 { ad:"Kazak bozkırı (Sarısu)", tur:"bolge", lat:47.00, lon:67.00, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1500-01-01",d:"altinorda"},{f:"1500-01-01",t:"1868-01-01",d:"kazak-hanligi"},{f:"1868-01-01",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1500-01-01",d:"altinorda"},{f:"1500-01-01",t:"1868-01-01",d:"kazak-hanligi"},{f:"1868-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // ---------- ② ORTA SİBİRYA — Buryat (kuzey-yuan) · Yakut/Koryak (veri-yok) ----------
 { ad:"Buryat toprakları (Selenge havzası)", tur:"bolge", lat:53.00, lon:110.00, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1631-01-01",d:"kuzey-yuan"},{f:"1631-01-01",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1631-01-01",d:"kuzey-yuan"},{f:"1631-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 { ad:"Yakut toprakları (Orta Lena)", tur:"bolge", lat:65.00, lon:123.00, g:0, k:0,
   kasitli_bosluk:true,bos:"kabile", neden:"kabile — TDV yakutlar maddesi 1620 öncesini AÇIKÇA tartışıyor: Yakutlar 'hemen hemen bütün Lena havzası boyunca yarı uruğlar (küçük kabileler) halinde yaşıyordu', her uruğun 'kendi beyleri (toyon)' var, hepsinin başındaki idareciye 'ulu toyon' deniyor, en kuvvetli uruğ Namaslar. Kuzeye göç XIII. yüzyılda Moğol baskısıyla yoğunlaştı; Ruslar 25 Eylül 1632'de Lena Kalesi'ni kurdu. Kaynak SUSMUYOR ⇒ önceki 'veri-yok' hükmü ÇÜRÜDÜ (VERİ ZAMAN 2 ve ek31 oturumu BAĞIMSIZ olarak aynı sonuca vardı).", kaynak:"TDV yakutlar — islamansiklopedisi.org.tr/yakutlar, HTTP 200, gövde okundu; `yakut` slug 302 ÖLÜ",
   s:[] },
@@ -43,7 +43,7 @@ window.YERLESIMLER_SIBIRYA = [
 // ---------- ③ UZAK DOĞU — Kamçatka (fetih) · Çukotka (devletsiz) ----------
 { ad:"Petropavlovsk-Kamçatskiy", tur:"liman", lat:53.0113, lon:158.6514, g:1, k:3,
   kur:"1740-01-01",
-  s:[{f:"1740-01-01",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1740-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 { ad:"Anadır (Anadyrsk)", tur:"kale", lat:64.75, lon:177.48, g:0, k:0,
   kur:"1649-01-01", kasitli_bosluk:true,bos:"devletsiz", neden:"devletsiz — kale 1649'da kuruldu ama Çukçiler hiç boyun eğmedi, haraç hiç ödenmedi (kaynağın kendi ifadesiyle \"salt biçimsel bile değil\"), 1764'te kale TERK edildi; resmî ilhak ancak Sovyet döneminde (1923 ufkunun dışında)",
   s:[] },

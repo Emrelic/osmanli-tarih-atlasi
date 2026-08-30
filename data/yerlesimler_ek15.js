@@ -63,24 +63,24 @@ window.YERLESIMLER_EK15 = [
 // 🔴 Bugün Taşkent'i boyayan nokta KAŞGAR: 604,7 km doğuda ve 1912'ye
 //    kadar Qing. Yani Orta Asya'nın en büyük şehri haritada Çin renginde.
 { ad:"Taşkent", tur:"sehir", lat:41.3110, lon:69.2800, g:0, k:1,kd:[{f:"1867-01-01",t:"1923-10-29",k:1,m:null}], d:[],
-  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1503-01-01",d:"timurlu"},{f:"1503-01-01",t:"1809-01-01",d:"buhara"},{f:"1809-01-01",t:"1865-06-17",d:"hokand"},{f:"1865-06-17",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1503-01-01",d:"timurlu"},{f:"1503-01-01",t:"1809-01-01",d:"buhara"},{f:"1809-01-01",t:"1865-06-17",d:"hokand"},{f:"1865-06-17",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // ── ② FERGANA HAVZASI — hanlığın çekirdeği ──────────────────────────
 { ad:"Hokand", tur:"sehir", lat:40.5290, lon:70.9430, g:0, k:2,kd:[{f:"1710-01-01",t:"1876-02-19",k:1,m:"Hokand"}], d:[],
-  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1500-01-01",d:"timurlu"},{f:"1500-01-01",t:"1710-01-01",d:"buhara"},{f:"1710-01-01",t:"1876-02-19",d:"hokand"},{f:"1876-02-19",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1500-01-01",d:"timurlu"},{f:"1500-01-01",t:"1710-01-01",d:"buhara"},{f:"1710-01-01",t:"1876-02-19",d:"hokand"},{f:"1876-02-19",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 { ad:"Andican", tur:"sehir", lat:40.7830, lon:72.3500, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1500-01-01",d:"timurlu"},{f:"1500-01-01",t:"1710-01-01",d:"buhara"},{f:"1710-01-01",t:"1876-02-19",d:"hokand"},{f:"1876-02-19",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1500-01-01",d:"timurlu"},{f:"1500-01-01",t:"1710-01-01",d:"buhara"},{f:"1710-01-01",t:"1876-02-19",d:"hokand"},{f:"1876-02-19",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 { ad:"Oş", tur:"sehir", lat:40.5140, lon:72.8040, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1500-01-01",d:"timurlu"},{f:"1500-01-01",t:"1710-01-01",d:"buhara"},{f:"1710-01-01",t:"1876-02-19",d:"hokand"},{f:"1876-02-19",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1500-01-01",d:"timurlu"},{f:"1500-01-01",t:"1710-01-01",d:"buhara"},{f:"1710-01-01",t:"1876-02-19",d:"hokand"},{f:"1876-02-19",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // 🔴 HUCEND ÜÇ NOKTADAN DA FARKLI GÜN TAŞIYOR — kopyalanmadı.
 //    Hokand'a 1802'de girdi (Fergana'nın üçünden sekiz yıl önce),
 //    Ruslara 24 Mayıs 1866'da düştü (hanlığın ilgasından on yıl önce).
 //    Zinciri kopyalasaydım şehir on yıl fazla Hokand görünecekti.
 { ad:"Hucend", tur:"sehir", lat:40.2840, lon:69.6220, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1500-01-01",d:"timurlu"},{f:"1500-01-01",t:"1802-01-01",d:"buhara"},{f:"1802-01-01",t:"1866-05-24",d:"hokand"},{f:"1866-05-24",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1500-01-01",d:"timurlu"},{f:"1500-01-01",t:"1802-01-01",d:"buhara"},{f:"1802-01-01",t:"1866-05-24",d:"hokand"},{f:"1866-05-24",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // ── ③ SIRDERYA HATTI — Kazak hanlarından Hokand'a, oradan Rusya'ya ──
 // ⚠️ Bu ikisinin ortasında `buhara` DEĞİL `kazak-hanligi` var ve bu
@@ -88,9 +88,9 @@ window.YERLESIMLER_EK15 = [
 //    hanlarının makamıydı, Buhara'nın değil. Fergana zincirini buraya
 //    kopyalamak şehri iki yüzyıl yanlış hanlıkta gösterirdi.
 { ad:"Türkistan (Yesi)", tur:"sehir", lat:43.3020, lon:68.2530, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1500-01-01",d:"timurlu"},{f:"1500-01-01",t:"1598-01-01",d:"buhara"},{f:"1598-01-01",t:"1815-01-01",d:"kazak-hanligi"},{f:"1815-01-01",t:"1864-06-12",d:"hokand"},{f:"1864-06-12",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1500-01-01",d:"timurlu"},{f:"1500-01-01",t:"1598-01-01",d:"buhara"},{f:"1598-01-01",t:"1815-01-01",d:"kazak-hanligi"},{f:"1815-01-01",t:"1864-06-12",d:"hokand"},{f:"1864-06-12",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 { ad:"Çimkent", tur:"kale", lat:42.3170, lon:69.5960, g:0, k:4, d:[],
-  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1500-01-01",d:"timurlu"},{f:"1500-01-01",t:"1598-01-01",d:"buhara"},{f:"1598-01-01",t:"1815-01-01",d:"kazak-hanligi"},{f:"1815-01-01",t:"1864-09-22",d:"hokand"},{f:"1864-09-22",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1500-01-01",d:"timurlu"},{f:"1500-01-01",t:"1598-01-01",d:"buhara"},{f:"1598-01-01",t:"1815-01-01",d:"kazak-hanligi"},{f:"1815-01-01",t:"1864-09-22",d:"hokand"},{f:"1864-09-22",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 ];

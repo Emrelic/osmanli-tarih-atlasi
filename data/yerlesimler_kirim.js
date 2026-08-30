@@ -136,32 +136,32 @@ window.YERLESIMLER_KIRIM = [
 
 // ── A) HAN TOPRAĞI — Bahçesaray zincirinin birebir aynısı ────────────
 { ad:"Gözleve (Kezlev)", tur:"liman", lat:45.1904, lon:33.3669, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1475-06-06",d:"kirim"},{f:"1771-07-01",t:"1774-07-21",d:"rusya"},{f:"1774-07-21",t:"1783-04-19",d:"kirim"},{f:"1783-04-19",t:"1923-10-29",d:"rusya"}],
+  s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1475-06-06",d:"kirim"},{f:"1771-07-01",t:"1774-07-21",d:"rusya"},{f:"1774-07-21",t:"1783-04-19",d:"kirim"},{f:"1783-04-19",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
   d:[], v:[{f:"1475-06-06",t:"1771-07-01",k:"Kırım Hanlığı"}] },
 
 { ad:"Or Kapı (Ferahkirman)", tur:"kale", lat:46.1600, lon:33.6900, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1475-06-06",d:"kirim"},{f:"1771-07-01",t:"1774-07-21",d:"rusya"},{f:"1774-07-21",t:"1783-04-19",d:"kirim"},{f:"1783-04-19",t:"1923-10-29",d:"rusya"}],
+  s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1475-06-06",d:"kirim"},{f:"1771-07-01",t:"1774-07-21",d:"rusya"},{f:"1774-07-21",t:"1783-04-19",d:"kirim"},{f:"1783-04-19",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
   d:[], v:[{f:"1475-06-06",t:"1771-07-01",k:"Kırım Hanlığı"}] },
 
 { ad:"Akmescid", tur:"sehir", lat:44.9521, lon:34.1024, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1475-06-06",d:"kirim"},{f:"1771-07-01",t:"1774-07-21",d:"rusya"},{f:"1774-07-21",t:"1783-04-19",d:"kirim"},{f:"1783-04-19",t:"1923-10-29",d:"rusya"}],
+  s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1475-06-06",d:"kirim"},{f:"1771-07-01",t:"1774-07-21",d:"rusya"},{f:"1774-07-21",t:"1783-04-19",d:"kirim"},{f:"1783-04-19",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
   d:[], v:[{f:"1475-06-06",t:"1771-07-01",k:"Kırım Hanlığı"}] },
 
 { ad:"Karasubazar", tur:"sehir", lat:45.0556, lon:34.6000, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1475-06-06",d:"kirim"},{f:"1771-07-01",t:"1774-07-21",d:"rusya"},{f:"1774-07-21",t:"1783-04-19",d:"kirim"},{f:"1783-04-19",t:"1923-10-29",d:"rusya"}],
+  s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1475-06-06",d:"kirim"},{f:"1771-07-01",t:"1774-07-21",d:"rusya"},{f:"1774-07-21",t:"1783-04-19",d:"kirim"},{f:"1783-04-19",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
   d:[], v:[{f:"1475-06-06",t:"1771-07-01",k:"Kırım Hanlığı"}] },
 
 // Solhat / Eski Kırım — Altın Orda'nın Kırım valiliğinin merkeziydi ve
 // yarımadaya adını veren yerdir (TDV `kirim`). Kefe'ye 21,58 km; sahil
 // şeridi ile iç toprağın rengi arasındaki gerçek sınırı O taşıyor.
 { ad:"Eski Kırım (Solhat)", tur:"sehir", lat:45.0281, lon:35.1078, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1475-06-06",d:"kirim"},{f:"1771-07-01",t:"1774-07-21",d:"rusya"},{f:"1774-07-21",t:"1783-04-19",d:"kirim"},{f:"1783-04-19",t:"1923-10-29",d:"rusya"}],
+  s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1475-06-06",d:"kirim"},{f:"1771-07-01",t:"1774-07-21",d:"rusya"},{f:"1774-07-21",t:"1783-04-19",d:"kirim"},{f:"1783-04-19",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
   d:[], v:[{f:"1475-06-06",t:"1771-07-01",k:"Kırım Hanlığı"}] },
 
 // ── B) KEFE SANCAĞI SAHİLİ — Kefe zincirinin birebir aynısı ──────────
 // TDV `kefe`: Suğdak sancağın beş kazasından biri.
 { ad:"Sudak (Suğdak)", tur:"liman", lat:44.8494, lon:34.9747, g:0, k:3, m:"Kefe",
-  s:[{f:"1281-01-01",t:"1475-06-06",d:"ceneviz"},{f:"1783-04-19",t:"1923-10-29",d:"rusya"}],
+  s:[{f:"1281-01-01",t:"1475-06-06",d:"ceneviz"},{f:"1783-04-19",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
   d:[{f:"1475-06-06",t:"1783-04-19"}],
   isg:[{f:"1771-07-01",t:"1783-04-19",d:"rusya",kaynak:"kirim"}] },
 
@@ -169,7 +169,7 @@ window.YERLESIMLER_KIRIM = [
 // partide YOK (renk engeli, yukarıda), o yüzden m: sancak merkezini
 // gösteriyor — zincir Kefe ile aynı olduğu için Değişmez 3 çelişkisi yok.
 { ad:"Balaklava (Cembalo)", tur:"liman", lat:44.5000, lon:33.5997, g:0, k:4, m:"Kefe",
-  s:[{f:"1281-01-01",t:"1475-06-06",d:"ceneviz"},{f:"1783-04-19",t:"1923-10-29",d:"rusya"}],
+  s:[{f:"1281-01-01",t:"1475-06-06",d:"ceneviz"},{f:"1783-04-19",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
   d:[{f:"1475-06-06",t:"1783-04-19"}],
   isg:[{f:"1771-07-01",t:"1783-04-19",d:"rusya",kaynak:"kirim"}] },
 
@@ -178,12 +178,12 @@ window.YERLESIMLER_KIRIM = [
 // olmadan güney sahili Bahçesaray ile Sudak'ın orta dikmesine kalıyordu —
 // yani han toprağı denize iniyor, sancak şeridi kopuk görünüyordu.
 { ad:"Yalta", tur:"liman", lat:44.4952, lon:34.1663, g:0, k:4, m:"Kefe",
-  s:[{f:"1281-01-01",t:"1475-06-06",d:"ceneviz"},{f:"1783-04-19",t:"1923-10-29",d:"rusya"}],
+  s:[{f:"1281-01-01",t:"1475-06-06",d:"ceneviz"},{f:"1783-04-19",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
   d:[{f:"1475-06-06",t:"1783-04-19"}],
   isg:[{f:"1771-07-01",t:"1783-04-19",d:"rusya",kaynak:"kirim"}] },
 
 { ad:"Aluşta", tur:"kale", lat:44.6764, lon:34.4103, g:0, k:4, m:"Kefe",
-  s:[{f:"1281-01-01",t:"1475-06-06",d:"ceneviz"},{f:"1783-04-19",t:"1923-10-29",d:"rusya"}],
+  s:[{f:"1281-01-01",t:"1475-06-06",d:"ceneviz"},{f:"1783-04-19",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
   d:[{f:"1475-06-06",t:"1783-04-19"}],
   isg:[{f:"1771-07-01",t:"1783-04-19",d:"rusya",kaynak:"kirim"}] },
 

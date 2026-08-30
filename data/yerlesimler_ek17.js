@@ -120,29 +120,29 @@ window.YERLESIMLER_EK17 = [
 //    1654 Pereyaslav ile tekrar Rusya'ya geçti. Haritada bugün bu üç
 //    devrin HİÇBİRİ görünmüyor — kuşakta nokta yok.
 { ad:"Çernigov", tur:"sehir", lat:51.4982, lon:31.2893, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda"},{f:"1362-01-01",t:"1503-04-02",d:"litvanya-buyuk-dukalik"},{f:"1503-04-02",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1618-12-11",d:"rusya"},{f:"1618-12-11",t:"1654-01-08",d:"lehistan"},{f:"1654-01-08",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda"},{f:"1362-01-01",t:"1503-04-02",d:"litvanya-buyuk-dukalik"},{f:"1503-04-02",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1618-12-11",d:"rusya"},{f:"1618-12-11",t:"1654-01-08",d:"lehistan"},{f:"1654-01-08",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 { ad:"Novgorod-Seversk", tur:"sehir", lat:51.9874, lon:33.2620, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda"},{f:"1362-01-01",t:"1503-04-02",d:"litvanya-buyuk-dukalik"},{f:"1503-04-02",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1618-12-11",d:"rusya"},{f:"1618-12-11",t:"1654-01-08",d:"lehistan"},{f:"1654-01-08",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda"},{f:"1362-01-01",t:"1503-04-02",d:"litvanya-buyuk-dukalik"},{f:"1503-04-02",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1618-12-11",d:"rusya"},{f:"1618-12-11",t:"1654-01-08",d:"lehistan"},{f:"1654-01-08",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // ⚠️ PUTİVL ÖTEKİ İKİSİNİN ZİNCİRİNİ TAŞIMIYOR — kopyalanmadı.
 //    Deulino (1618) Çernigov ve Novgorod-Seversk'i Polonya'ya verdi ama
 //    Putivl **Moskova'da kaldı** ve sınır kalesi oldu. Kopyalasaydım
 //    şehir 36 yıl yanlış devlette görünecekti.
 { ad:"Putivl", tur:"kale", lat:51.3364, lon:33.8703, g:0, k:4, d:[],
-  s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda"},{f:"1362-01-01",t:"1503-04-02",d:"litvanya-buyuk-dukalik"},{f:"1503-04-02",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda"},{f:"1362-01-01",t:"1503-04-02",d:"litvanya-buyuk-dukalik"},{f:"1503-04-02",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // ── ② YUKARI OKA — Litvanya'nın doğu ucu ────────────────────────────
 // Bryansk 1503'te değil **1500'de** Moskova'ya geçti (Vedroşa savaşı).
 // 🟢 Ve bu günün kronolojide maddesi VAR (8 gün) — üç kırılmadan biri.
 { ad:"Bryansk", tur:"sehir", lat:53.2436, lon:34.3639, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1356-01-01",d:"altinorda"},{f:"1356-01-01",t:"1500-08-01",d:"litvanya-buyuk-dukalik"},{f:"1500-08-01",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1356-01-01",d:"altinorda"},{f:"1356-01-01",t:"1500-08-01",d:"litvanya-buyuk-dukalik"},{f:"1500-08-01",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 { ad:"Kursk", tur:"sehir", lat:51.7304, lon:36.1926, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda"},{f:"1362-01-01",t:"1503-04-02",d:"litvanya-buyuk-dukalik"},{f:"1503-04-02",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda"},{f:"1362-01-01",t:"1503-04-02",d:"litvanya-buyuk-dukalik"},{f:"1503-04-02",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 { ad:"Orel", tur:"sehir", lat:52.9700, lon:36.0700, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda"},{f:"1362-01-01",t:"1503-04-02",d:"litvanya-buyuk-dukalik"},{f:"1503-04-02",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda"},{f:"1362-01-01",t:"1503-04-02",d:"litvanya-buyuk-dukalik"},{f:"1503-04-02",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // ── ③ RYAZAN — dosyanın en tartışmalı kaydı, ve işaretli ────────────
 // ⚠️ Ryazan 1521'e kadar **ayrı bir büyük knezlikti**, Moskova'nın değil.
@@ -154,17 +154,17 @@ window.YERLESIMLER_EK17 = [
 //    arası yanlış rengi, Voronej'in bugün 300 km kuzeye taşıdığı
 //    `kirim` yanlışından KÜÇÜK.
 { ad:"Ryazan", tur:"sehir", lat:54.6250, lon:39.7360, g:0, k:1, d:[],
-  s:[{f:"1281-01-01",t:"1521-01-01",d:"ryazan"},{f:"1521-01-01",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1521-01-01",d:"ryazan"},{f:"1521-01-01",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // ── ④ YABANİ OVA'NIN KUZEY KENARI — Kırım taşmasını kesen üç nokta ──
 // Üçü de Voronej'in desenini taşıyor (`altinorda → kirim → rusya`) ama
 // KENDİ kale kuruluş günleriyle. Voronej'in kaydı DEĞİŞMİYOR; değişen,
 // onun peteğinin nereye kadar uzandığı.
 { ad:"Belgorod", tur:"kale", lat:50.5950, lon:36.5870, g:0, k:4, d:[],
-  s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1596-01-01",d:"kirim"},{f:"1596-01-01",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1596-01-01",d:"kirim"},{f:"1596-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 { ad:"Tambov", tur:"kale", lat:52.7210, lon:41.4520, g:0, k:4, d:[],
-  s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1636-04-17",d:"kirim"},{f:"1636-04-17",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1636-04-17",d:"kirim"},{f:"1636-04-17",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // ⚠️ PENZA'NIN ORTASI `kirim` DEĞİL `nogay` — ve bu kasıtlı.
 //    Sura-Volga arası Nogay Ordası'nın otlağıydı, Kırım'ın değil.
@@ -175,12 +175,12 @@ window.YERLESIMLER_EK17 = [
 //    ise (Kırım'ın kuruluşu) ZATEN VAR. Bir yıllık kaydırma bilgi
 //    kaybetmiyor — Altın Orda'nın parçalanması zaten o aralığa yazılı.
 { ad:"Penza", tur:"kale", lat:53.2000, lon:45.0000, g:0, k:4, d:[],
-  s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1663-01-01",d:"nogay"},{f:"1663-01-01",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1663-01-01",d:"nogay"},{f:"1663-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // ── ⑤ ORTA VOLGA — Kazan Hanlığı'nın güney kanadı ───────────────────
 // Zincir canlı `Kazan` kaydından birebir; ikisi de aynı hanlığın
 // toprağıydı ve aynı gün düştü.
 { ad:"Simbirsk", tur:"kale", lat:54.3180, lon:48.4000, g:0, k:4, d:[],
-  s:[{f:"1281-01-01",t:"1438-01-01",d:"altinorda"},{f:"1438-01-01",t:"1552-10-02",d:"kazan"},{f:"1552-10-02",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1438-01-01",d:"altinorda"},{f:"1438-01-01",t:"1552-10-02",d:"kazan"},{f:"1552-10-02",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 ];

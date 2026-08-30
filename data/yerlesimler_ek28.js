@@ -104,7 +104,7 @@ window.YERLESIMLER_EK28 = [
   // kaynak: borcka.bel.tr resmi tarihçe ("Şehrin Nüfusu ve Tarihi") +
   //   Artvin/Şavşat kaydıyla aynı bölgesel desen (İskender Paşa 1551,
   //   San Stefano 1878-03-03, Kars Antlaşması 1921-10-13)
-  s:[{f:"1281-01-01",t:"1551-01-01",d:"gurcistan"},{f:"1878-03-03",t:"1921-10-13",d:"rusya"}],
+  s:[{f:"1281-01-01",t:"1551-01-01",d:"gurcistan"},{f:"1878-03-03",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-10-13",d:"sovyet-rusya"}],
   d:[{f:"1551-01-01",t:"1878-03-03"},{f:"1921-10-13",t:"1923-10-29"}], v:[] },
 
 // ───────── ⑦ DOĞU SINIRI · Kars sanjağı (Sarıkamış) ─────────
@@ -118,7 +118,7 @@ window.YERLESIMLER_EK28 = [
   //   TDV sarikamis-harekati (canlı, HTTP 200)
   // Tarihler Kars kaydıyla (data/yerlesimler.js:232) BİREBİR aynı —
   // aynı sanjak, aynı kader.
-  s:[{f:"1281-01-01",t:"1534-06-01",d:"gurcistan"},{f:"1878-07-13",t:"1918-05-25",d:"rusya"}],
+  s:[{f:"1281-01-01",t:"1534-06-01",d:"gurcistan"},{f:"1878-07-13",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-05-25",d:"sovyet-rusya"}],
   d:[{f:"1534-06-01",t:"1878-07-13"},{f:"1918-05-25",t:"1923-10-29"}], v:[] },
 
 // ───────── ⑧ DOĞU SINIRI · Ahılkelek (Gürcistan tarafı — Ahıska'nın komşusu) ─────────
@@ -138,7 +138,7 @@ window.YERLESIMLER_EK28 = [
   //   yüzden Ahıska'nın (yerlesimler.js:757) ORİJİNAL kaydı gibi 1829'dan
   //   1923'e kadar KESİNTİSİZ rusya; ek26'daki 1921 kırılmalı ikinci
   //   Ahıska kaydını (muhtemel mükerrer/tutarsızlık) TEKRARLAMADIM.
-  s:[{f:"1281-01-01",t:"1551-01-01",d:"gurcistan"},{f:"1829-09-14",t:"1923-10-29",d:"rusya"}],
+  s:[{f:"1281-01-01",t:"1551-01-01",d:"gurcistan"},{f:"1829-09-14",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
   d:[{f:"1551-01-01",t:"1829-09-14"}], v:[] },
 
 ];

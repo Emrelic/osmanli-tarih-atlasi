@@ -96,10 +96,10 @@ window.YERLESIMLER_EK3 = [
 //   Zincir "Bozkır (Deşt-i Kıpçak)"ın birebir aynısı; üçü de s:→s:,
 //   kırılma üretmiyor.
 { ad:"Yediçkul bozkırı", tur:"bolge", lat:46.90, lon:34.60, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1502-03-01",t:"1783-04-19",d:"kirim"},{f:"1783-04-19",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1502-03-01",t:"1783-04-19",d:"kirim"},{f:"1783-04-19",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 { ad:"Camboyluk bozkırı", tur:"bolge", lat:47.10, lon:36.80, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1502-03-01",t:"1783-04-19",d:"kirim"},{f:"1783-04-19",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1502-03-01",t:"1783-04-19",d:"kirim"},{f:"1783-04-19",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // ── ③ PORTEKİZ FASI (Oturum 0, ÇAPRAZ İBERYA D3) ──────────────────────
 // =====================================================================

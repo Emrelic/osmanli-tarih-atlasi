@@ -49,7 +49,7 @@ window.YERLESIMLER_EK11 = [
 
 // ── KUZEY ESTONYA — Lehistan safhası YOK ────────────────────────────
 { ad:"Tallinn (Reval)", tur:"liman", lat:59.4370, lon:24.7540, g:0, k:1,kd:[{f:"1918-02-24",t:"1923-10-29",k:1,m:null}], d:[],
-  s:[{f:"1281-01-01",t:"1561-11-28",d:"almanya"},{f:"1561-11-28",t:"1721-08-30",d:"isvec"},{f:"1721-08-30",t:"1918-02-24",d:"rusya"},{f:"1918-02-24",t:"1923-10-29",d:"estonya"}] },
+  s:[{f:"1281-01-01",t:"1561-11-28",d:"almanya"},{f:"1561-11-28",t:"1721-08-30",d:"isvec"},{f:"1721-08-30",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-02-24",d:"sovyet-rusya"},{f:"1918-02-24",t:"1923-10-29",d:"estonya"}] },
 
 // ⚠️ Narva 1558-1581 arasında RUS elindeydi (Livonya Savaşı) ve bu dönem
 //    YAZILMADI: 23 yıllık bir Rus safhası, aynı noktanın 1561 ve 1581'de
@@ -57,13 +57,13 @@ window.YERLESIMLER_EK11 = [
 //    haritada 40 km'lik bir noktada görünmeyecek bir ayrıntı için iki
 //    fazladan geçiş yazmadım — ama atlandığı burada YAZILI.
 { ad:"Narva", tur:"kale", lat:59.3770, lon:28.1900, g:0, k:4, d:[],
-  s:[{f:"1281-01-01",t:"1561-11-28",d:"almanya"},{f:"1561-11-28",t:"1721-08-30",d:"isvec"},{f:"1721-08-30",t:"1918-02-24",d:"rusya"},{f:"1918-02-24",t:"1923-10-29",d:"estonya"}] },
+  s:[{f:"1281-01-01",t:"1561-11-28",d:"almanya"},{f:"1561-11-28",t:"1721-08-30",d:"isvec"},{f:"1721-08-30",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-02-24",d:"sovyet-rusya"},{f:"1918-02-24",t:"1923-10-29",d:"estonya"}] },
 
 // ── GÜNEY ESTONYA — Livonya Dukalığı, Lehistan safhası VAR ──────────
 { ad:"Tartu (Dorpat)", tur:"sehir", lat:58.3780, lon:26.7290, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1561-11-28",d:"almanya"},{f:"1561-11-28",t:"1621-09-15",d:"lehistan"},{f:"1621-09-15",t:"1721-08-30",d:"isvec"},{f:"1721-08-30",t:"1918-02-24",d:"rusya"},{f:"1918-02-24",t:"1923-10-29",d:"estonya"}] },
+  s:[{f:"1281-01-01",t:"1561-11-28",d:"almanya"},{f:"1561-11-28",t:"1621-09-15",d:"lehistan"},{f:"1621-09-15",t:"1721-08-30",d:"isvec"},{f:"1721-08-30",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-02-24",d:"sovyet-rusya"},{f:"1918-02-24",t:"1923-10-29",d:"estonya"}] },
 
 { ad:"Pärnu", tur:"liman", lat:58.3860, lon:24.4970, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1561-11-28",d:"almanya"},{f:"1561-11-28",t:"1621-09-15",d:"lehistan"},{f:"1621-09-15",t:"1721-08-30",d:"isvec"},{f:"1721-08-30",t:"1918-02-24",d:"rusya"},{f:"1918-02-24",t:"1923-10-29",d:"estonya"}] },
+  s:[{f:"1281-01-01",t:"1561-11-28",d:"almanya"},{f:"1561-11-28",t:"1621-09-15",d:"lehistan"},{f:"1621-09-15",t:"1721-08-30",d:"isvec"},{f:"1721-08-30",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-02-24",d:"sovyet-rusya"},{f:"1918-02-24",t:"1923-10-29",d:"estonya"}] },
 
 ];

@@ -128,16 +128,16 @@ window.YERLESIMLER_EK8 = [
 // Oulu (1605) atlasın kaçırdığı en büyük Fin şehriydi: 64°K'nin 1,2 km
 // kuzeyinde kaldığı için kutunun dışındaydı.
 { ad:"Tornio", tur:"sehir", lat:65.8482, lon:24.1436, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-12-06",d:"rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}] },
+  s:[{f:"1281-01-01",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}] },
 
 { ad:"Oulu", tur:"sehir", lat:65.0121, lon:25.4651, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-12-06",d:"rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}] },
+  s:[{f:"1281-01-01",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}] },
 
 { ad:"Rovaniemi", tur:"sehir", lat:66.5039, lon:25.7294, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-12-06",d:"rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}] },
+  s:[{f:"1281-01-01",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}] },
 
 { ad:"Sodankylä", tur:"sehir", lat:67.4167, lon:26.5833, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-12-06",d:"rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}] },
+  s:[{f:"1281-01-01",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}] },
 
 // GÖL DÜZELTMESİ — nokta suyun üstündeydi, taşındı.
 //    İlk yazılan 68,9058/27,0289 **Inarijärvi'nin İÇİNDE** (NE 10m poligonu
@@ -167,7 +167,7 @@ window.YERLESIMLER_EK8 = [
 //    (ihlal saymıyor, yalnız bağırıyor) ve yazıldığı gün Eğirdir ile
 //    Västerås'ı yakaladı.
 { ad:"İnari", tur:"sehir", lat:68.9257, lon:27.0337, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-12-06",d:"rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}] },
+  s:[{f:"1281-01-01",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}] },
 
 // 🔴 PETSAMO — pencerenin İÇİNDE kalan tek Fin toprak kazancı.
 // Kola yarımadasının batı ucu, Peçenga manastırının (1533) çevresi;
@@ -178,7 +178,7 @@ window.YERLESIMLER_EK8 = [
 //    İkisi ters yönde ilerliyor; kopyalasaydım Petsamo 1809'dan önce İsveç
 //    görünecekti ve bu YANLIŞ olurdu.
 { ad:"Petsamo (Peçenga)", tur:"sehir", lat:69.5500, lon:31.2200, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1478-01-15",d:"novgorod"},{f:"1478-01-15",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1920-10-14",d:"rusya"},{f:"1920-10-14",t:"1923-10-29",d:"finlandiya"}] },
+  s:[{f:"1281-01-01",t:"1478-01-15",d:"novgorod"},{f:"1478-01-15",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1920-10-14",d:"sovyet-rusya"},{f:"1920-10-14",t:"1923-10-29",d:"finlandiya"}] },
 
 // ── ④ KOLA ve RUS KUZEYİ — Novgorod'un kuzey mirası ─────────────────
 // ⚠️ Bu altı nokta DÜZ `rusya 1281→1923` taşıyor ve bu bir seçimdir:
@@ -190,28 +190,28 @@ window.YERLESIMLER_EK8 = [
 //    düzeltilir (bir yerde `novgorod` yazıp öbüründe yazmamak, iki ayrı
 //    kural gibi görünürdü).
 { ad:"Kola", tur:"kale", lat:68.8815, lon:33.0186, g:0, k:4, d:[],
-  s:[{f:"1281-01-01",t:"1478-01-15",d:"novgorod"},{f:"1478-01-15",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1478-01-15",d:"novgorod"},{f:"1478-01-15",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 { ad:"Kandalakşa", tur:"sehir", lat:67.1550, lon:32.4117, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1478-01-15",d:"novgorod"},{f:"1478-01-15",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1478-01-15",d:"novgorod"},{f:"1478-01-15",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 { ad:"Ponoy", tur:"sehir", lat:67.0833, lon:41.1500, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1478-01-15",d:"novgorod"},{f:"1478-01-15",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1478-01-15",d:"novgorod"},{f:"1478-01-15",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 { ad:"Arhangelsk", tur:"liman", lat:64.5401, lon:40.5433, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1478-01-15",d:"novgorod"},{f:"1478-01-15",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1478-01-15",d:"novgorod"},{f:"1478-01-15",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 { ad:"Mezen", tur:"sehir", lat:65.8447, lon:44.2394, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1478-01-15",d:"novgorod"},{f:"1478-01-15",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1478-01-15",d:"novgorod"},{f:"1478-01-15",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // Peçora'nın çıpası. 1499'da kurulan Pustozersk Ural'ın batısındaki ilk
 // Rus Arktik kasabasıdır; XX. yy'da terk edildi ama pencerenin tamamında
 // yaşıyor, o yüzden `bit:` yazılmadı.
 { ad:"Pustozersk", kur:"1499-01-01", kaynak:"Kanyukova V.P., Forum molodyh uchenyh 2019 (CyberLeninka) — \"osnovan ... osen'yu 1499 goda\"; TDV bu tanecigi kapsamiyor", tur:"kale", lat:67.5200, lon:52.7000, g:0, k:4, d:[],
-  s:[{f:"1499-01-01",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1499-01-01",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 { ad:"Ust-Tsilma", tur:"sehir", lat:65.4392, lon:52.1508, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1478-01-15",d:"novgorod"},{f:"1478-01-15",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1478-01-15",d:"novgorod"},{f:"1478-01-15",t:"1547-01-16",d:"moskova"},{f:"1547-01-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // ── ⑤ YAMAL · OB' KUZEYİ — "sahipsiz, SONRA devlet" sınıfı ──────────
 // 🔴 BURADAN İTİBAREN ZİNCİR KISALIYOR ve kısalması KASITLI.
@@ -228,11 +228,11 @@ window.YERLESIMLER_EK8 = [
 //    ILERLEME.md'de tek tek yazılı ve hepsi kasıtlıdır.
 { ad:"Obdorsk (Salehard)", tur:"kale", lat:66.5300, lon:66.6019, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"devletsiz", neden:"1595 öncesi Yugra/Nenets toprağı — TDV sibir-hanligi hanlığın sınırını Tura-Tobol-İşim ve İrtiş civarı diye veriyor, Ob' ağzı bu sınırın DIŞINDA. Devletsiz dönem uydurma devletle doldurulmadı.",
-  s:[{f:"1595-01-01",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1595-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 { ad:"Yamal ucu", tur:"bolge", lat:70.1667, lon:72.5167, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"devletsiz", neden:"Obdorsk ile aynı gerekçe; yarımadanın kuzey ucu için dolgu noktası — noktasız kalırsa Perm'in peteği 2.100 km uzaktan buraya uzanır.",
-  s:[{f:"1595-01-01",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1595-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // Mangazeya, Taz nehrindeki kürk ticaret şehri — 1601'de kuruldu, 1670'lerde
 // terk edildi. `bit:` YAZILMADI: yerini Yeni Mangazeya (Turuhansk) aldı ve
@@ -240,43 +240,43 @@ window.YERLESIMLER_EK8 = [
 // aynı toprak iki kez sahiplendirilirdi.
 { ad:"Mangazeya", tur:"kale", lat:66.6900, lon:82.3300, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"devletsiz", neden:"1601 öncesi Nenets/Selkup toprağı, devletsiz.",
-  s:[{f:"1601-01-01",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1601-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // ── ⑥ YENİSEY · TAYMIR ──────────────────────────────────────────────
 { ad:"Turuhansk", tur:"kale", lat:65.7972, lon:87.9553, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"devletsiz", neden:"1607 öncesi Evenk/Ket toprağı, devletsiz.",
-  s:[{f:"1607-01-01",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1607-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 { ad:"Dudinka", tur:"sehir", lat:69.4058, lon:86.1778, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"devletsiz", neden:"1667 öncesi Nganasan/Enets toprağı, devletsiz.",
-  s:[{f:"1667-01-01",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1667-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // Taymır'ın çıpası. Bu nokta olmadan yarımada (1,8 milyon km²) Perm'e
 // 2.973 km uzaktan bağlanıyordu — atlasın ölçülmüş EN UZAK emilmesi.
 { ad:"Hatanga", tur:"kale", lat:71.9769, lon:102.4675, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"devletsiz", neden:"1626 öncesi Nganasan toprağı, devletsiz.",
-  s:[{f:"1626-01-01",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1626-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // ── ⑦ LENA · YANA · İNDİGİRKA ───────────────────────────────────────
 { ad:"Jigansk", tur:"kale", lat:66.7697, lon:123.3708, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"devletsiz", neden:"1632 öncesi Evenk/Yakut toprağı, devletsiz.",
-  s:[{f:"1632-01-01",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1632-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 { ad:"Bulun", tur:"sehir", lat:70.6667, lon:127.4000, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"devletsiz", neden:"Lena deltası; 1632 öncesi devletsiz. Tarih Jigansk'la aynı çünkü ikisi de Lena havzasının aynı yılki Rus ilerlemesiyle bağlandı.",
-  s:[{f:"1632-01-01",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1632-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 { ad:"Verhoyansk", tur:"kale", lat:67.5500, lon:133.3833, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"devletsiz", neden:"1638 öncesi Yakut/Even toprağı, devletsiz.",
-  s:[{f:"1638-01-01",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1638-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 { ad:"Ust-Yansk", tur:"sehir", lat:70.9000, lon:136.5500, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"devletsiz", neden:"Yana ağzı; Verhoyansk ile aynı 1638 ilerlemesi.",
-  s:[{f:"1638-01-01",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1638-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 { ad:"Zaşiversk", tur:"kale", lat:67.2500, lon:142.8500, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"devletsiz", neden:"İndigirka; 1639 öncesi Yukagir/Even toprağı, devletsiz.",
-  s:[{f:"1639-01-01",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1639-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // ── ⑧ YÜKSEK ARKTİK ADALARI — pencerenin TAMAMINDA sahipsiz ─────────
 // 🔴 KOORDİNATÖR "ONAYLA, VARSAYMA" DEDİ. Dördü tek tek bakıldı:
@@ -315,14 +315,14 @@ window.YERLESIMLER_EK8 = [
 
 { ad:"Novaya Zemlya kuzeyi", tur:"bolge", lat:74.5000, lon:57.0000, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"insansiz", neden:"1877 öncesi kalıcı yerleşim ve fiilî idare yok (Pomor avcılığı idare değildir). 🔴 1877-01-01 TDV'ye BASMIYOR.",
-  s:[{f:"1877-01-01",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1877-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 { ad:"Novaya Zemlya güneyi", tur:"bolge", lat:71.5000, lon:53.0000, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"insansiz", neden:"Novaya Zemlya kuzeyi ile aynı hüküm; 900 km'lik ada tek noktayla temsil edilemezdi.",
-  s:[{f:"1877-01-01",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1877-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 { ad:"Vaygaç", tur:"bolge", lat:69.9000, lon:59.3000, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"insansiz", neden:"Novaya Zemlya ile aynı hüküm. ⚠️ maske: ada merkezi 10m maskesinde deniz görünüyordu, 11 km kuzeye çekildi — dosyadaki EN BÜYÜK kaydırma.",
-  s:[{f:"1877-01-01",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1877-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 ];

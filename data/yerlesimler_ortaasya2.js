@@ -167,7 +167,7 @@ window.YERLESIMLER_ORTAASYA2 = [
      {f:"1510-12-02", t:"1736-03-08", d:"safevi"},
      {f:"1736-03-08",t:"1796-01-01",d:"afsar"}, {f:"1796-01-01",t:"1860-01-01",d:"turkmen"},
      {f:"1860-01-01", t:"1881-01-30", d:"turkmen"},
-     {f:"1881-01-30", t:"1923-10-29", d:"rusya"}] },
+     {f:"1881-01-30",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // Aşkabad. TDV TÜRKMENİSTAN: "1881: Aşkabad işgal edildi (30 Ocak)" —
 // Göktepe'nin düşüşünden (24 Ocak 1881) altı gün sonra. Rus Mâverâ-yi Hazar
@@ -180,7 +180,7 @@ window.YERLESIMLER_ORTAASYA2 = [
 // O pencerede aynı vahanın sahibini komşu Nesâ kaydı taşıyor.
 { ad:"Aşkabad", tur:"sehir", lat:37.9500, lon:58.3800, g:1, k:3, d:[],
   kur:"1881-01-30",
-  s:[{f:"1881-01-30", t:"1923-10-29", d:"rusya"}] },
+  s:[{f:"1881-01-30",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // ===== 2. KAZAK BOZKIRI — Küngrat'ın kuzeye taşmasını durduran beş nokta =====
 
@@ -192,7 +192,7 @@ window.YERLESIMLER_ORTAASYA2 = [
 { ad:"Aral kuzeyi", tur:"bolge", lat:47.2000, lon:61.5000, g:0, k:0, d:[],
   s:[{f:"1281-01-01", t:"1500-01-01", d:"altinorda"},
      {f:"1500-01-01", t:"1868-01-01", d:"kazak-hanligi"},
-     {f:"1868-01-01", t:"1923-10-29", d:"rusya"}] },
+     {f:"1868-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // Üstyurt platosunun KUZEY ucu — birinci partideki "Üstyurt platosu (batı)"
 // ve "(doğu)" noktalarının kuzeyi. ⚠️ Koordinat tarihî Aral'ın batısında
@@ -206,7 +206,7 @@ window.YERLESIMLER_ORTAASYA2 = [
   s:[{f:"1281-01-01", t:"1500-01-01", d:"altinorda"},
      {f:"1500-01-01", t:"1644-01-01", d:"nogay"},
      {f:"1644-01-01", t:"1868-01-01", d:"kazak-hanligi"},
-     {f:"1868-01-01", t:"1923-10-29", d:"rusya"}] },
+     {f:"1868-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // Emba (Cem) ırmağı havzası — TDV NOGAYLAR'ın adıyla andığı doğu sınırı.
 // Zincir Üstyurt kuzeyi ile aynıdır.
@@ -214,7 +214,7 @@ window.YERLESIMLER_ORTAASYA2 = [
   s:[{f:"1281-01-01", t:"1500-01-01", d:"altinorda"},
      {f:"1500-01-01", t:"1644-01-01", d:"nogay"},
      {f:"1644-01-01", t:"1868-01-01", d:"kazak-hanligi"},
-     {f:"1868-01-01", t:"1923-10-29", d:"rusya"}] },
+     {f:"1868-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // Aktöbe (Aktyubinsk) — 1869'da Rus bozkır karakolu olarak kuruldu.
 // ⚠️ TDV'de maddesi yok; kuruluş yılı standart akademik referanstan,
@@ -222,7 +222,7 @@ window.YERLESIMLER_ORTAASYA2 = [
 // 1869 öncesi bozkırın sahibini komşu Emba ve Üstyurt kuzeyi kayıtları taşır.
 { ad:"Aktöbe", tur:"kale", lat:50.2833, lon:57.1667, g:0, k:4, d:[],
   kur:"1869-01-01",
-  s:[{f:"1869-01-01", t:"1923-10-29", d:"rusya"}] },
+  s:[{f:"1869-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // Guryev (Atyrau) — Yayık (Ural) ırmağının Hazar'a döküldüğü yerde 1640'ta
 // Guryev ailesinin kurduğu Rus balıkçı kalesi; taş kale 1640'ların sonunda.
@@ -232,6 +232,6 @@ window.YERLESIMLER_ORTAASYA2 = [
 // bozkırı partisiyle birlikte artık gerekli oldu (Astrahan'a 308 km).
 { ad:"Guryev (Atyrau)", tur:"liman", lat:47.1100, lon:51.9200, g:0, k:3, d:[],
   kur:"1640-01-01",
-  s:[{f:"1640-01-01", t:"1923-10-29", d:"rusya"}] },
+  s:[{f:"1640-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 ];

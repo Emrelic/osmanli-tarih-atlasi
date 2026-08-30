@@ -157,7 +157,7 @@ window.YERLESIMLER_SEYREK = [
 // 📌 `d:`/`v:` yok ⇒ kırılma üretmiyor. Etki: 49K/47D'de en yakın nokta
 //    185 km → 37 km (5,1× yakın).
 { ad:"Rın kumulları (Volga-Yayık arası)", tur:"bolge", lat:49.000, lon:47.500, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1502-03-01",t:"1556-01-01",d:"nogay"},{f:"1556-01-01",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1502-03-01",t:"1556-01-01",d:"nogay"},{f:"1556-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // =====================================================================
 // PARTİ 2b — RUMELİ / ANADOLU · kullanıcı maddelerinin coğrafyası
@@ -195,8 +195,8 @@ window.YERLESIMLER_SEYREK = [
 // açıldı ama bu iki tarih hiçbir olaylar*.js'de yok — Değişmez 2 borcu
 // doğurmamak için 2 aylık dilim BİLEREK EKLENMEDİ, bkz. yerlesimler.js:1268.
 { ad:"İskeçe", tur:"sehir", lat:41.140, lon:24.890, g:0, k:4, m:"Selanik",
-  s:[{f:"1281-01-01",t:"1373-01-01",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-07-14",t:"1913-09-29",d:"bulgaristan-kralligi"},{f:"1913-09-29",t:"1920-05-27",d:"bulgaristan-kralligi"},{f:"1920-05-27",t:"1923-10-29",d:"yunanistan"}],
-  d:[{f:"1373-01-01",t:"1402-07-28"},{f:"1413-07-05",t:"1913-07-14"}] },
+  s:[{f:"1281-01-01",t:"1373-01-01",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-05-30",t:"1920-05-27",d:"bulgaristan-kralligi"},{f:"1920-05-27",t:"1923-10-29",d:"yunanistan"}],
+  d:[{f:"1373-01-01",t:"1402-07-28"},{f:"1413-07-05",t:"1913-05-30"}] },
 
 // Rodop'un kuzey yarısı Gümülcine ile Filibe arasında 120 km boştu.
 // TDV `kircaali`: Arda üzerinde, Hasköy'ün 50 km güneyinde; yerleşim Türk

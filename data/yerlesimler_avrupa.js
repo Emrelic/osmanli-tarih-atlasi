@@ -327,10 +327,10 @@ window.YERLESIMLER_AVRUPA = [
 { ad:"Trondheim", tur:"liman", lat:63.431, lon:10.395, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec"},{f:"1905-06-07",t:"1923-10-29",d:"norvec"}] },
 
 // ── FİNLANDİYA (isvec → 1809 rusya → 1917 finlandiya) ──────────────────────
-{ ad:"Turku (Åbo)", tur:"liman", lat:60.452, lon:22.267, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-12-06",d:"rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}] },
+{ ad:"Turku (Åbo)", tur:"liman", lat:60.452, lon:22.267, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}] },
 // Helsinki mevcut yerlesimler.js'te zaten var (kur:1550-06-12) — buraya eklenmedi
-{ ad:"Hämeenlinna", tur:"kale", lat:60.996, lon:24.464, g:0, k:4, d:[], s:[{f:"1281-01-01",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-12-06",d:"rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}] },
-{ ad:"Viipuri (Vyborg)", tur:"kale", lat:60.713, lon:28.733, g:0, k:4, d:[], s:[{f:"1281-01-01",t:"1721-09-10",d:"isvec"},{f:"1721-09-10",t:"1917-12-06",d:"rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}] },
+{ ad:"Hämeenlinna", tur:"kale", lat:60.996, lon:24.464, g:0, k:4, d:[], s:[{f:"1281-01-01",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}] },
+{ ad:"Viipuri (Vyborg)", tur:"kale", lat:60.713, lon:28.733, g:0, k:4, d:[], s:[{f:"1281-01-01",t:"1721-09-10",d:"isvec"},{f:"1721-09-10",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}] },
 
 // ── ALÇAK ÜLKELER: Hollanda Cumhuriyeti toprakları ─────────────────────────
 // Zincir mevcut Amsterdam kaydıyla aynı: almanya → 1516 ispanya → 1581 hollanda

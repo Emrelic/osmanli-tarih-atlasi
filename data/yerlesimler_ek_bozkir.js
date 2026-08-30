@@ -106,8 +106,8 @@ window.YERLESIMLER_EK_BOZKIR = [
 //    `lehistan` devri 6 → 3. Kapanan boşluk neredeyse aynı (55 → 51 km
 //    ortalama kazanç, 16 → 14 kare). §3.5.1: bir sınır kayması önerilince
 //    İKİ UÇ DA ölçülür — bu, ÖTEKİ UÇTA doğan fazlalığın düzeltilmesidir.
-{ ad:"Yedisan bozkırı",s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1502-03-01",t:"1783-04-19",d:"kirim"},{f:"1792-01-09",t:"1923-10-29",d:"rusya"}], tur:"bolge", lat:47.60, lon:30.90, g:0, k:0, d:[{f:"1783-04-19",t:"1792-01-09"}],
-  s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1502-03-01",t:"1792-01-09",d:"kirim"},{f:"1792-01-09",t:"1923-10-29",d:"rusya"}] },
+{ ad:"Yedisan bozkırı",s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1502-03-01",t:"1783-04-19",d:"kirim"},{f:"1792-01-09",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}], tur:"bolge", lat:47.60, lon:30.90, g:0, k:0, d:[{f:"1783-04-19",t:"1792-01-09"}],
+  s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1502-03-01",t:"1792-01-09",d:"kirim"},{f:"1792-01-09",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // ② KUBAN NOGAY BOZKIRI — Kuban'ın kuzeyi, Yeya-Beysug arası.
 //    Zincir Kuban (Yekaterinodar) kaydının BİREBİR aynısı; ona 183 km.
@@ -116,7 +116,7 @@ window.YERLESIMLER_EK_BOZKIR = [
 //    44,0K'daki Kafkas SIRTINDAN bir kare alıyordu (Sohum'un 136 km'lik
 //    kolu); yeni konumda devirler 45,5-46,0K bozkır kuşağında kalıyor.
 { ad:"Kuban Nogay bozkırı", tur:"bolge", lat:45.20, lon:41.00, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1783-04-19",d:"kirim"},{f:"1783-04-19",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1783-04-19",d:"kirim"},{f:"1783-04-19",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // ③ STAVROPOL–KUMA BOZKIRI (Küçük Nogay) — Kabartay'ın 189 km'lik kolunun
 //    hedefi. TDV `nogaylar`: Kazi Mirza'nın bölüğü 1557-58'de İdil'i geçip
@@ -127,6 +127,6 @@ window.YERLESIMLER_EK_BOZKIR = [
 //    devralınan kare 6 → 3 · kuzey erişimi 46,0K → 45,5K (Manıç'ın
 //    güneyinde kalıyor). Kapsanan kare 22 → 20, yani bedeli iki kare.
 { ad:"Stavropol–Kuma bozkırı", tur:"bolge", lat:44.85, lon:42.60, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1783-04-19",d:"kirim"},{f:"1783-04-19",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1783-04-19",d:"kirim"},{f:"1783-04-19",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 ];

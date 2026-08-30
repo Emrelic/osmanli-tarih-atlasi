@@ -69,12 +69,12 @@ window.YERLESIMLER_EK6 = [
 // taşıyor — yani Çerkask'ın devri (1570-1721) ile Rostov'unki (1749→)
 // ÇAKIŞMIYOR; ikisi aynı havzanın iki ayrı çağıdır.
 { ad:"Çerkask (Razdory)", tur:"kale", lat:47.240, lon:40.050, g:0, k:1, d:[],
-  s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1502-03-01",t:"1570-01-01",d:"kirim"},{f:"1570-01-01",t:"1721-01-01",d:"don-kazak"},{f:"1721-01-01",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1502-03-01",t:"1570-01-01",d:"kirim"},{f:"1570-01-01",t:"1721-01-01",d:"don-kazak"},{f:"1721-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // Hücre 10 (46-48K / 42-44D) — Sal vadisi.
 // ⚠️ 43,00 yerine 42,30: doğusu Kalmuk sahasına giriyor (yukarıdaki not).
 { ad:"Don bozkırı (Sal)", tur:"bolge", lat:47.000, lon:42.300, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1502-03-01",t:"1570-01-01",d:"kirim"},{f:"1570-01-01",t:"1721-01-01",d:"don-kazak"},{f:"1721-01-01",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1502-03-01",t:"1570-01-01",d:"kirim"},{f:"1570-01-01",t:"1721-01-01",d:"don-kazak"},{f:"1721-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // Hücre 8 (48-50K / 38-40D) — Donets bozkırı.
 // ⚠️ Bu hücre Sloboda (Rus) ile Don Ordası arasındaki geçiş kuşağıdır ve
@@ -83,6 +83,6 @@ window.YERLESIMLER_EK6 = [
 //    `Sloboda bozkırı` (49,20/37,20, kirim→1654→rusya) temsil ediyor.
 //    İki nokta arasındaki orta dikme o geçişi kabaca çiziyor.
 { ad:"Donets bozkırı", tur:"bolge", lat:48.800, lon:39.000, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1502-03-01",t:"1570-01-01",d:"kirim"},{f:"1570-01-01",t:"1721-01-01",d:"don-kazak"},{f:"1721-01-01",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1502-03-01",t:"1570-01-01",d:"kirim"},{f:"1570-01-01",t:"1721-01-01",d:"don-kazak"},{f:"1721-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 ];

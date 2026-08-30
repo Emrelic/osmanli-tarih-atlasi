@@ -116,7 +116,7 @@ window.YERLESIMLER_EK4 = [
 // 📌 1502-03-01 `Bozkır (Deşt-i Kıpçak)`tan; 1552-01-01 ve 1775-06-16
 //    `devletler.js` künyesinin kendi tarihleri.
 { ad:"Zaporojye Seçi", tur:"kale", lat:47.75, lon:34.80, g:0, k:1, d:[],
-  s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1502-03-01",t:"1552-01-01",d:"kirim"},{f:"1552-01-01",t:"1775-06-16",d:"zaporojye"},{f:"1775-06-16",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1502-03-01",t:"1552-01-01",d:"kirim"},{f:"1552-01-01",t:"1775-06-16",d:"zaporojye"},{f:"1775-06-16",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // ── LİBYA İÇ ÇÖLÜ — koordinatörün kararı, tek nokta ─────────────────
 // Karar gerekçesi (koordinatör): Osmanlı Libya'da **kıyı + vaha** devletiydi —
@@ -174,7 +174,7 @@ window.YERLESIMLER_EK4 = [
 //    olamaz. Harkov'u Oturum 0 taşıyacak, bu kayıt önden hizalandı.
 //    📌 `s:→s:` geçişi olduğu için değişiklik hiçbir kırılma/borç üretmiyor.
 { ad:"Sloboda bozkırı", tur:"bolge", lat:49.20, lon:37.20, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1654-01-18",d:"kirim"},{f:"1654-01-18",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1654-01-18",d:"kirim"},{f:"1654-01-18",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 ];
 

@@ -111,19 +111,19 @@ window.YERLESIMLER_EK18 = [
 // `_ek9`in Tomsk deseni birebir: fetihten önce kasten sahipsiz, sonra Rus.
 { ad:"Tara", tur:"kale", lat:56.9021, lon:74.3714, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"devletsiz", neden:"1594 öncesi Sibir Hanlığı'nın çevresi; hanlığın çekirdeği Tura-Tobol-İşim'di ve Tara İrtiş'in aşağısında, sınırın dışında. 🔴 1594 TDV'ye basmıyor.",
-  s:[{f:"1594-01-01",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1594-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 { ad:"Omsk", tur:"kale", lat:54.9885, lon:73.3242, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"devletsiz", neden:"1716 öncesi Baraba/İrtiş bozkırı, devletsiz. 🔴 TDV'ye basmıyor.",
-  s:[{f:"1716-01-01",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1716-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 { ad:"Kainsk (Baraba)", tur:"kale", lat:55.3600, lon:78.3600, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"devletsiz", neden:"1722 öncesi Baraba bozkırı. ⚠️ `cungar` YAZILMADI: Baraba Cungar'ın değil Sibir Hanlığı'nın çevresiydi (`_ek9` gerekçesi) ve Cungar'ı buraya yazmak onu 600 km kuzeye taşırdı. 🔴 TDV'ye basmıyor.",
-  s:[{f:"1722-01-01",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1722-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 { ad:"Kuznetsk", tur:"kale", lat:53.7570, lon:87.1360, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"devletsiz", neden:"1618 öncesi Şor/Teleüt toprağı, devletsiz. 🔴 TDV'ye basmıyor.",
-  s:[{f:"1618-01-01",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1618-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // ── ② YUKARI IRTIŞ ve ALTAY ETEĞİ — Cungar sınırının çizildiği yer ──
 // 🔴 BU ALTI KAYIT PARTİNİN ASIL İŞİ. Bugün Kobdo'nun peteği buraya
@@ -133,11 +133,11 @@ window.YERLESIMLER_EK18 = [
 //    ve zaten çekirdek kırılma günü (kronolojide 0 gün ötede maddesi var).
 { ad:"Biysk", tur:"kale", lat:52.5390, lon:85.2140, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"devletsiz", neden:"1635 öncesi Teleüt toprağı, devletsiz. 🔴 1709 TDV'ye basmıyor.",
-  s:[{f:"1635-01-01",t:"1709-01-01",d:"cungar"},{f:"1709-01-01",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1635-01-01",t:"1709-01-01",d:"cungar"},{f:"1709-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 { ad:"Barnaul", tur:"sehir", lat:53.3480, lon:83.7780, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"devletsiz", neden:"1635 öncesi Teleüt toprağı, devletsiz. 🔴 1730 TDV'ye basmıyor.",
-  s:[{f:"1635-01-01",t:"1730-01-01",d:"cungar"},{f:"1730-01-01",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1635-01-01",t:"1730-01-01",d:"cungar"},{f:"1730-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // ⚠️ ZMEİNOGORSK ATILABİLİRDİ ve `2s`yi 6'dan 5'e indirirdi — atılmadı.
 //    Kolıvan-Voskresensk maden bölgesi, Rusya'nın Altay'ı tutma
@@ -146,19 +146,19 @@ window.YERLESIMLER_EK18 = [
 //    `PARTİ 22`de reddettiğim davranışın aynısı olurdu.
 { ad:"Zmeinogorsk", tur:"sehir", lat:51.1580, lon:82.1880, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"devletsiz", neden:"1635 öncesi Altay eteği, devletsiz. 🔴 1736 TDV'ye basmıyor.",
-  s:[{f:"1635-01-01",t:"1736-01-01",d:"cungar"},{f:"1736-01-01",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1635-01-01",t:"1736-01-01",d:"cungar"},{f:"1736-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 { ad:"Pavlodar (Koryakov)", tur:"kale", lat:52.2850, lon:76.9670, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"devletsiz", neden:"1635 öncesi yukarı İrtiş bozkırı. 🔴 1720 TDV'ye basmıyor.",
-  s:[{f:"1635-01-01",t:"1720-01-01",d:"cungar"},{f:"1720-01-01",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1635-01-01",t:"1720-01-01",d:"cungar"},{f:"1720-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 { ad:"Semipalatinsk", tur:"kale", lat:50.4110, lon:80.2270, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"devletsiz", neden:"1635 öncesi yukarı İrtiş bozkırı. 🔴 1718 TDV'ye basmıyor.",
-  s:[{f:"1635-01-01",t:"1718-01-01",d:"cungar"},{f:"1718-01-01",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1635-01-01",t:"1718-01-01",d:"cungar"},{f:"1718-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // Kutunun güney ucu — Kobdo'nun kuzeybatı menzilini kesen nokta.
 { ad:"Ust-Kamenogorsk", tur:"kale", lat:49.9480, lon:82.6280, g:0, k:0, d:[],
   kasitli_bosluk:true,bos:"devletsiz", neden:"1635 öncesi Altay eteği, devletsiz. 🔴 1720 TDV'ye basmıyor.",
-  s:[{f:"1635-01-01",t:"1720-01-01",d:"cungar"},{f:"1720-01-01",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1635-01-01",t:"1720-01-01",d:"cungar"},{f:"1720-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 ];

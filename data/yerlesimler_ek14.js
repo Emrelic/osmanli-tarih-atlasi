@@ -113,7 +113,7 @@ window.YERLESIMLER_EK14 = [
 // 🔴 DOSYANIN EN ÖNEMLİ İKİ KAYDI. Semerkant 1370-1500 arası Timurlu
 //    başkenti, 1500-1868 arası Özbek hanlarının; ikisi de haritada YOKTU.
 { ad:"Semerkant", tur:"sehir", lat:39.6542, lon:66.9758, g:0, k:2, d:[],
-  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1500-01-01",d:"timurlu"},{f:"1500-01-01",t:"1868-05-14",d:"buhara"},{f:"1868-05-14",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1500-01-01",d:"timurlu"},{f:"1500-01-01",t:"1868-05-14",d:"buhara"},{f:"1868-05-14",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // Buhara Emirliği 1868'de Rus himayesine girdi ama ILGA EDİLMEDİ —
 // hanlık 1920'ye kadar ayrı bir devlet olarak durdu. Semerkant'ın 1868'de
@@ -150,7 +150,7 @@ window.YERLESIMLER_EK14 = [
 //    Semerkant'tan iki yıl ÖNCE, 18 Ekim 1866'da aldı. Kopyala-yapıştır
 //    yapılsaydı iki yıl geç boyanacaktı.
 { ad:"Cizzah", tur:"kale", lat:40.1150, lon:67.8420, g:0, k:4, d:[],
-  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1500-01-01",d:"timurlu"},{f:"1500-01-01",t:"1866-10-18",d:"buhara"},{f:"1866-10-18",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1370-01-01",d:"cagatay"},{f:"1370-01-01",t:"1500-01-01",d:"timurlu"},{f:"1500-01-01",t:"1866-10-18",d:"buhara"},{f:"1866-10-18",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // ── ④ YEDİSU — zinciri Mâverâünnehir'inkinden BAŞKA ─────────────────
 // ⚠️ Bu kayıt öbür sekizin zincirini KOPYALAMIYOR ve sebebi coğrafî:
@@ -161,6 +161,6 @@ window.YERLESIMLER_EK14 = [
 //    `kazak-hanligi` t=1847-01-01 diyor. Kaleyi başlangıç yapsaydım hanlığı
 //    yedi yıl fazla yaşatırdım — Batnoz'un (Patmos) aynısı.
 { ad:"Almatı (Vernıy)", tur:"kale", lat:43.2380, lon:76.8890, g:0, k:4, d:[],
-  s:[{f:"1281-01-01",t:"1347-01-01",d:"cagatay"},{f:"1347-01-01",t:"1634-01-01",d:"mogulistan"},{f:"1634-01-01",t:"1758-01-01",d:"cungar"},{f:"1758-01-01",t:"1847-01-01",d:"kazak-hanligi"},{f:"1847-01-01",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1347-01-01",d:"cagatay"},{f:"1347-01-01",t:"1634-01-01",d:"mogulistan"},{f:"1634-01-01",t:"1758-01-01",d:"cungar"},{f:"1758-01-01",t:"1847-01-01",d:"kazak-hanligi"},{f:"1847-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 ];

@@ -66,13 +66,13 @@ window.YERLESIMLER_EK10 = [
 // TDV `kucum-han`: "Merkezi Tura (bugün Tümen) şehri olan Sibir Hanlığı".
 // Ruslar 1586'da bugünkü Tümen'i kurdu (TDV, yıl).
 { ad:"Tümen (Çimgi-Tura)", tur:"sehir", lat:57.1530, lon:65.5343, g:0, k:1, d:[],
-  s:[{f:"1281-01-01",t:"1430-01-01",d:"altinorda"},{f:"1430-01-01",t:"1598-08-20",d:"sibir-hanligi"},{f:"1598-08-20",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1430-01-01",d:"altinorda"},{f:"1430-01-01",t:"1598-08-20",d:"sibir-hanligi"},{f:"1598-08-20",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // İsker/Sibir — hanlığa adını veren başkent, bugünkü Tobolsk'un yakını.
 // TDV: "Muhammed Tayboğa'nın başşehrini Sibir (Tatarcası İsker 'eski kale')
 // şehrine taşıması ile hanlık Sibir Hanlığı olarak anılmaya başlandı."
 { ad:"Tobolsk (İsker)", tur:"sehir", lat:58.1990, lon:68.2560, g:0, k:1, d:[],
-  s:[{f:"1281-01-01",t:"1430-01-01",d:"altinorda"},{f:"1430-01-01",t:"1598-08-20",d:"sibir-hanligi"},{f:"1598-08-20",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1430-01-01",d:"altinorda"},{f:"1430-01-01",t:"1598-08-20",d:"sibir-hanligi"},{f:"1598-08-20",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // İrtiş yukarısı. TDV `kucum-han`: "İlk olarak İrtiş'in yukarısında, yani
 // Küçüm'e daha yakın bir yerde Tara şehrini kurdular" (1594).
@@ -93,6 +93,6 @@ window.YERLESIMLER_EK10 = [
 //    kasıtlı — bölgesel işgal tarihlerini ayrı ayrı yazsaydım hanlık parça
 //    parça erirdi ve her parça ayrı bir kırılma isterdi.
 { ad:"Baraba bozkırı", tur:"bolge", lat:55.2000, lon:78.5000, g:0, k:0, d:[],
-  s:[{f:"1281-01-01",t:"1430-01-01",d:"altinorda"},{f:"1430-01-01",t:"1598-08-20",d:"sibir-hanligi"},{f:"1598-08-20",t:"1923-10-29",d:"rusya"}] },
+  s:[{f:"1281-01-01",t:"1430-01-01",d:"altinorda"},{f:"1430-01-01",t:"1598-08-20",d:"sibir-hanligi"},{f:"1598-08-20",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 ];
