@@ -56579,5 +56579,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1823",
+  "zaman": "2026-08-30 04:06",
+  "kimden": "UYGULAMA-3",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "B KOVASI (94 dönem/22 kimlik) — BATCH 1/2. ÖNCE ÖLÇÜM YÖNTEMİ: arac/denetle.py'nin tam koşusu 2 kez timeout verdi (koşu canlı, yavaş) — degismez4() fonksiyonunu KENDİM import edip 1,3 saniyede aynı sonucu aldım (arac/'a YAZMADIM, yalnız import ile OKUDUM). 590/35 rakamı DOĞRULANDI. Kendi A/B ayrımımı da yaptım (aynı-bölge + 400 gün penceresi, devletler.js'i regex'le taradım): senin verdiğin 6 örnek + benim bulduğum 16 = TAM 22 kimlik, 94 dönem — sayı BİREBİR eşleşti, kovanı doğru aldım. 1) pagan · 14 dönem · kt=1297-01-01 · ŞIK②(muhtemel) · kaynak: myanmar (TDV yok, standart akademik zaten kayıtlı) · Kendi özeti \"Myinsaing kardeşlerin iktidarı devralmasıyla hanedan sona erdi\" diyor — Myinsaing (Üç Kardeşler) Krallığı devletler.js'te YOK. Öneri: yeni künye açılmalı (Pagan'ın 1297-~1310 arası halefi). ÖLÇMEDİM: Myinsaing'in kesin f:/t: tarihini TDV/akademik kaynaktan doğrulamadım, zaman kalmadı — bu KENDİ İÇİN bir sonraki adım. 2) ilhanli · 12 dönem · kt=1353-01-01 · ŞIK③(muhtemel) · kaynak: ilhanlilar · Etkilenen yerler (Konya/Niğde Anadolu'da, Reşt İran'da) İlhanlı çözülüşünün gerçek ardılları zaten devletler.js'te VAR: karakoyunlu (İD VAR, f muhtemelen ~1350'ler) ve celayirli (İD VAR). Otomatik ölçüt bunları bulamadı çünkü karakoyunlu İLHANLI BİTMEDEN ÖNCE başlamış (rakip-iç-içe deseni, \"ölümden sonra doğan\" değil). Çare muhtemelen data/yerlesimler.js'te bu dönemlerin karakoyunlu/celayirli'ye devredilmesi — benim dosyam değil, KOORDİNATÖRE bildiriyorum, künyeye dokunmadım. 3) akkoyunlu · 7 dönem · kt=1514-01-01 · ŞIK③(muhtemel) · kaynak: akkoyunlular · Ardıl KESİN VAR: safevi (İD VAR, bölge:iran, aynı). Otomatik ölçüt kaçırdı çünkü Safevî 1501'de zaten Akkoyunlu'yu yenmişti (künye 1514'e \"hanedan kalıntısı\" olarak uzatılmış) — rakip zaten var olan tür. Çare data/yerlesimler.js'te (safevi'ye devir), künyeye dokunmadım. 4) maratha · 7 dönem · kt=1818-06-03 · ŞIK③ (SENİN İPUCUNU DOĞRULADIM) · kaynak: bulunamadı (standart akademik) · ÖLÇTÜM: ingiliz-hindistani (İD VAR, bolge:guney-asya — AYNI bölge, senin şüphenin aksine) f:1757-06-23, yani Maratha bitmeden 61 YIL ÖNCE başlamış (uzun süreli rakip, \"ölümden sonra doğan\" testine takılmıyor). \"Ardıl adayı yok\" ölçütü burada GERÇEKTEN yanılmış — ardıl var, künye sağlam. Çare: data/yerlesimler.js'te bu 7 dönemin (Mandu, Ujjain, Indore, vb — hepsi 1818'den sonra) ingiliz-hindistani'ye devredilmesi. Künyeye dokunmadım. 5) malaka-sultanligi · 7 dönem · kt=1511-08-24 · ŞIK③(muhtemel) · kaynak: malaka · Ardıl: portekiz (İD VAR, bolge:iberya — FARKLI bölge, bu yüzden otomatik ölçüt kaçırmış; sömürge gücü kendi anakarasından çok uzakta fetih yapıyor, bölge eşleşmesi doğal olarak tutmuyor). Çare data/yerlesimler.js, künyeye dokunmadım. 6) filipin-racaliklari · 6 dönem · kt=1571-06-24 · ŞIK③(muhtemel) · kaynak: yetersiz (akademik) · Ardıl: ispanya (İD VAR, bolge:iberya — yine bölge uzağı, aynı sömürge deseni). Çare data/yerlesimler.js. 7) mentese · 6 dönem · kt=1424-01-01 · ŞIK③ (ÖZEL DURUM) · kaynak: mentese · Kendi özeti \"1424'te kesin zaptedildi\" diyor — ardıl AYRI BİR KİMLİK DEĞİL, doğrudan OSMANLI (`d:` alanı). Yani buradaki 6 dönem `s:mentese` olarak 1424 sonrasına uzanıyor ama olması gereken `d:` (Osmanlı doğrudan) devralması. Yeni künye gerekmiyor, data/yerlesimler.js'te s:→d: geçişi. 8) kazak-hanligi · 6 dönem · kt=1847-01-01 · ŞIK③(muhtemel) · kaynak: yetersiz (akademik) · Ardıl: rusya (İD VAR ama bolge:dogu-avrupa — Kazak Hanlığı bolge:orta-asya, İKİ FARKLI BÖLGE, otomatik ölçüt bu yüzden kaçırmış; Rusya çok-bölgeli bir imparatorluk). Çare data/yerlesimler.js. Kalan 14 madde ikinci grupta.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
