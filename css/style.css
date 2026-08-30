@@ -2103,3 +2103,20 @@ html:has(#yanpanel.dar) #olay-detay { width: var(--panel-dar); }
 }
 #harita.cok-uzak .savas-isaret .sv-ad { display: none; }
 #harita.cok-uzak .savas-isaret .sv-ikon { transform: scale(0.72); }
+
+/* 0024/H-0010 — sürüm + yayın tarihi etiketi. Eski "Hakkında" MODALININ
+   yerine DEĞİL (o Emre'nin kendi isteğiyle kaldırıldı, bkz. index.html
+   ve js/app.js notları) — MapLibre'nin hiç kullanmadığı bottom-left
+   kontrol yuvasına oturan, tıklama gerektirmeyen küçük bir etiket.
+   Diğer maplibregl-ctrl kutularıyla (üstteki yakınlaştırma) aynı beyaz
+   kutu görünümünü paylaşıyor ki yabancı bir eklenti gibi durmasın. */
+#surum-etiketi {
+  font-size: 10px;
+  color: #5a5245;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 2px 6px;
+  border-radius: 3px;
+  white-space: nowrap;
+  cursor: default;
+  user-select: text;
+}

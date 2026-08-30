@@ -584,15 +584,25 @@ function donemBul(t) {
 // SEÇİM ÖLÇÜLDÜ, göz kararı DEĞİL:
 //     #a8c8dc  L*=78,9   (eski)
 //     #b4d0e2  L*=82,0   eskisinden ΔE 3,5 — fark edilmeyecek kadar az
-//     #bcd6e6  L*=84,2   eskisinden ΔE 6,0 ✓ SEÇİLEN — "bir tık"
-//     #c4dcea  L*=86,4   eskisinden ΔE 8,6 — iki tık
-// 🟢 VE AÇILMA TEK BAŞINA BİR İHLALİ KAPATTI: 392 devlet renginin suya
-//    en yakını `novgorod` (#84c9cf) idi, ΔE 14,5. Su açılınca 16,6'ya
-//    çıktı ve ΔE<15 kovasında ihlal 1 → 0 oldu.
+//     #bcd6e6  L*=84,2   eskisinden ΔE 6,0   "bir tık" (24 Ağustos SEÇİMİ)
+//     #c4dcea  L*=86,4   eskisinden ΔE 8,6 ✓ SEÇİLEN — "iki tık"
+// 🟢 24 Ağustos'taki açılma TEK BAŞINA BİR İHLALİ KAPATTI: 392 devlet
+//    renginin suya en yakını `novgorod` (#84c9cf) idi, ΔE 14,5. Su
+//    açılınca 16,6'ya çıktı ve ΔE<15 kovasında ihlal 1 → 0 oldu.
 //    ⇒ Emre'nin iki isteği (suyu aç · suya yakın tonları yasakla) aynı
 //      yöne çekiyormuş; birincisi ikincisinin işini kolaylaştırdı.
+//
+// 🔴 27 Ağustos — 0037/H-0002: "haritadaki diğer mavi renkler ile deniz
+//    rengi karışmasın" — "bir tık" (ΔE 6,0) hâlâ yetmedi, novgorod'a
+//    (ΔE 16,6) marj eşiğin (18) altında kalıyordu. "İki tık"a (#c4dcea,
+//    ΔE 8,6) geçildi — bu ölçüm zaten yukarıda hazır duruyordu, yeniden
+//    hesaplamadım, uyguladım.
+// ⚠️ SEVK: RENK oturumu bu değişiklikten SONRA `arac/renk_olc.py`yi
+//    yeniden koştursun — deniz açılınca su-yakınlığı mesafeleri hepsi
+//    kayar, başka bir devlet rengi yeni sınıra girebilir. Ben (ARAYÜZ)
+//    bu tabloyu doğrulayacak alete sahip değilim.
 // Yasak eşiği `arac/renkler.py`de (`SU_ESIK_DE`) — orada gerekçesiyle.
-var SU_RENGI = "#bcd6e6";
+var SU_RENGI = "#c4dcea";
 var harita = new maplibregl.Map({
   container: "harita",
   style: {
@@ -1840,6 +1850,50 @@ function osmanliBaskentMi(ad, t) {
   return false;
 }
 
+// 0008/H-0006 — kullanıcı: "bugün yalnız Osmanlı başkentleri işaretli,
+// yabancı devletlerin başkentleri de işaretlenmeli." ÖLÇÜLDÜ: devletler.js
+// künyesinde `baskent:` alanı 390 kaydın neredeyse tamamında ZATEN DOLU —
+// veri hazır, eksik olan ÇİZİMDİ.
+//
+// YÖNTEM — Osmanlı'nınkinden FARKLI, çünkü ELİMİZDE OSMANLI_BASKENT_SIRA
+// gibi elle doğrulanmış bir sıra YOK (390 devlet için tek tek araştırmak
+// ayrı bir VERİ kalemi). Onun yerine `baskent:` alanının GÖSTERDİĞİ şehrin
+// kendi `s:` (yabancı sahiplik) dönemlerinden, o şehrin GERÇEKTEN o devlete
+// ait olduğu pencereler süzülüyor — veri zaten "bu şehir bu devlete aitti"
+// diyorsa, "ve bu devletin başkenti buymuş" bilgisini o pencereyle
+// kesiştiriyoruz. Devlet başka bir şehre taşındıysa (başkent DEĞİŞTİYSE)
+// bu YAKALANMAZ — `baskent:` TEK DEĞER (osmanlıBaskentPencereleriKur'un
+// yorumundaki aynı sınır) — ama bugünkü veri hiçbir devlet için birden
+// çok başkent kaydetmiyor, yani bu bir YAKLAŞIKLIK değil BUGÜNKÜ VERİNİN
+// birebir okunuşu.
+// ⚠️ ÖLÇMEDİM: `baskent:` alanındaki ad ile `yerlesimler*.js`teki `ad:`
+// alanının TAM (aksan dahil) eşleşme ORANI. Eşleşmeyen kayıt sessizce
+// yıldızsız kalır — çökmez, eksik gösterir. Ölçülmesi gereken bir sonraki
+// adım, ama bugünkü hâl "hiç yabancı başkent yok"tan iyi.
+var YABANCI_BASKENT_PENCERE = {};   // şehir adı -> [{fi, ti}, ...]
+(function yabanciBaskentPencereleriKur() {
+  var ham = {};
+  (window.YERLESIMLER || []).forEach(function (y) { if (!ham[y.ad]) ham[y.ad] = y; });
+  (window.DEVLETLER || []).forEach(function (d) {
+    if (!d.baskent) return;
+    var y = ham[d.baskent];
+    if (!y || !y.s || !y.s.length) return;
+    var pl = [];
+    y.s.forEach(function (p) {
+      if (p.d === d.id && p.f) pl.push({ fi: gunIdx(p.f), ti: gunIdx(p.t) });
+    });
+    if (pl.length) {
+      YABANCI_BASKENT_PENCERE[d.baskent] = (YABANCI_BASKENT_PENCERE[d.baskent] || []).concat(pl);
+    }
+  });
+})();
+function yabanciBaskentMi(ad, t) {
+  var pl = YABANCI_BASKENT_PENCERE[ad];
+  if (!pl) return false;
+  for (var i = 0; i < pl.length; i++) if (t >= pl[i].fi && t < pl[i].ti) return true;
+  return false;
+}
+
 function sehirGuncelle(t) {
   if (!haritaHazir) return;
   if (!OLAY_YERI) olayYeriKur();
@@ -2072,7 +2126,7 @@ function sehirGuncelle(t) {
     }
 
     var sinif = "sehir d" + d + (asgariMi ? " asgari" : "") +
-                (osmanliBaskentMi(m.s.ad, t) && d >= 3 ? " baskent" : "") +
+                ((osmanliBaskentMi(m.s.ad, t) || yabanciBaskentMi(m.s.ad, t)) && d >= 3 ? " baskent" : "") +
                 (yaklasan[mi] && !anilan[mi] ? " yaklasan" : "");
     if (m.ic.className !== sinif) m.ic.className = sinif;
     // Pencere içindeyse: ediniliş yöntemi simgesi (⚔ ♜ 📜 🤝) ve kale ise 🏰.
@@ -7545,3 +7599,55 @@ var KRONOLOJI_ID_OZEL = {};             // { "KRONOLOJI_XYZ": "gercek-id" } — 
 
 // İlk çizim
 guncelle();
+
+// ═══════════════════════════════════════════════════════════════════════
+// 0024/H-0010 — kullanıcı: "'Hakkında' menüsü olsun, koşu ve yayın tarihi
+// gibi bilgiler olsun."
+//
+// 🔴 EN ÖNEMLİ ÖLÇÜM: bu buton zaten VARDI ve Emre'nin KENDİ isteğiyle
+// silindi (index.html'in kendi notu: "Hakkında butonuna artık gerek yok.
+// Buradaki butonları tek bir 'butonları aç' butonuna tıklayınca dizilecek
+// şekilde saklayalım."). Silinen "Hakkında" proje künyesi + BEKLEYENLER
+// tablosuydu (iç işleyiş) — AYNI AD, BAŞKA İÇERİK. Bugün istenen yalnız
+// SÜRÜM BİLGİSİ (koşu + yayın tarihi). ⇒ Eski ağır modalı GERİ GETİRMEK
+// Emre'nin reddettiği şeyi geri getirmek olurdu — o yüzden burada YENİ
+// bir modal/menü YOK, yalnız haritanın kendi boş köşesine (MapLibre'nin
+// hiç kullanmadığı `bottom-left` kontrol yuvası, ölçüldü: 0×0, boş)
+// tıklama gerektirmeyen, küçük, sabit bir etiket ekleniyor.
+//
+// VERİ ZATEN ÜRETİLİYOR, İCAT EDİLMEDİ:
+//   sürüm     — bu betiğin kendi `<script src="js/app.js?v=rNN">` etiketi
+//   yayın     — `data/donemler.js`nin HTTP Last-Modified'ı (koşu SONUNDA
+//               bu dosyayı yazan üretim betiğinin damgası, CLAUDE.md §9)
+// ⚠️ ÖLÇMEDİM: GitHub Pages'in (Fastly CDN) Last-Modified başlığını
+// production'da BİREBİR git-commit tarihiyle verip vermediğini — yerelde
+// (bu sunucu) veriyor, orada varsayım. Vermezse etiket sessizce sürüm
+// numarasını gösterir, tarihi boş bırakır (aşağıdaki catch) — çökmez.
+(function surumEtiketiKur() {
+  var kaynakSrc = (document.currentScript && document.currentScript.src) || "";
+  var m = /[?&]v=([^&]+)/.exec(kaynakSrc);
+  var surum = m ? m[1] : "";
+  var el = document.createElement("div");
+  el.id = "surum-etiketi";
+  el.textContent = surum ? surum : "…";
+  el.title = "Osmanlı Tarih Atlası" + (surum ? " · sürüm " + surum : "");
+  var kontrolYuvasi = document.createElement("div");
+  kontrolYuvasi.className = "maplibregl-ctrl";
+  kontrolYuvasi.appendChild(el);
+  harita.addControl({
+    onAdd: function () { return kontrolYuvasi; },
+    onRemove: function () {}
+  }, "bottom-left");
+
+  var AY_KISA = ["Oca", "Şub", "Mar", "Nis", "May", "Haz",
+                 "Tem", "Ağu", "Eyl", "Eki", "Kas", "Ara"];
+  fetch("data/donemler.js", { method: "HEAD" }).then(function (r) {
+    var lm = r.headers.get("last-modified");
+    if (!lm) return;
+    var d = new Date(lm);
+    if (isNaN(d.getTime())) return;
+    var okunur = d.getDate() + " " + AY_KISA[d.getMonth()] + " " + d.getFullYear();
+    el.textContent += " · " + okunur;
+    el.title += " · yayın (data/donemler.js üretimi): " + d.toLocaleString("tr-TR");
+  }).catch(function () { /* sessizce sürüm-yalnız kalır, çökmez */ });
+})();
