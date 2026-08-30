@@ -49,6 +49,29 @@ window.YERLESIMLER_KAFKAS_DUZELTME = [
 
 // ─────────────────────────────────────────────────────────────────────
 // 1 · KARS — 253 yıllık tek blok `gurcistan`, ve fetih tarihi 3 yıl erken
+//
+// 🔴 30 AĞU 2026 · DÖRT KAYIT 1534-06-01'DE HİZALANDI (HAZIR KITA OPUS 85)
+// Hüküm ORHANGAZİ'den (M-1805 ④), gerekçesi ölçüm. Bu yama Kars'ı
+// 1537-01-01'e taşıyordu; Digor · Arpaçay · Iğdır ise 1534-01-01'deydi.
+// Külliyata soruldu ve İKİSİ DE YANLIŞ ÇIKTI:
+//   1537-01-01 → o günün maddesi "Norveç'in Danimarka tacına bağlı bir
+//                eyalete indirgenmesi"
+//   1534-01-01 → o günün maddeleri "Kanunî – Hürrem Sultan nikâhı" ve
+//                "Matrakçı Nasuh'un Beyân-ı Menâzil'i"
+//   1534-06-01 → "Kars'ın alınması ve kuzeydoğu sınırının açılması" VE
+//                "Kars çevresinin bütünleşmesi: Arpaçay, Digor ve
+//                 Iğdır'ın Osmanlı..."  ← ÜÇÜNÜ ADIYLA SAYIYOR
+// ⇒ Doğru gün külliyatta ZATEN vardı ve dört kaydın dördü de ondan
+//   uzağa bağlanmıştı. Denetim susuyordu (her iki günde de madde VAR),
+//   bozuk olan ANLAMdı — Kars'ın fethi bir düğünün altında beliriyordu.
+// 📌 TDV `kars` ikisini de destekler ve AYIRIR: 1534 Irakeyn seferinde
+//   bağlanma "kuvvetle muhtemel", 1537'de Dulkadırlı Mehmed Han eliyle
+//   "kesin olarak dahil". Yerleşim kaydı bir KIRILMA tutar (haritada bu
+//   gün değişti); 1537 NÜANSI `data/olaylar_ek21.js`teki kronoloji
+//   maddesinde durur. Kayıt ≠ nüans.
+// ⚠️ 1878 SONRASI AYRIŞMA BU DÜZELTMENİN DIŞINDA: Kars/Ardahan
+//   1918-05-25, Digor/Arpaçay/Iğdır 1921-10-13 kullanıyor. ORHANGAZİ
+//   hüküm vermedi, ben de UYDURMADIM — ölçümü M-1810'da raporlandı.
 // ─────────────────────────────────────────────────────────────────────
 {ad:"Kars",
  s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},
@@ -56,9 +79,9 @@ window.YERLESIMLER_KAFKAS_DUZELTME = [
     {f:"1386-01-01",t:"1406-10-21",d:"timurlu"},
     {f:"1406-10-21",t:"1467-01-01",d:"karakoyunlu"},
     {f:"1467-01-01",t:"1514-09-06",d:"akkoyunlu"},
-    {f:"1514-09-06",t:"1537-01-01",d:"safevi"},
+    {f:"1514-09-06",t:"1534-06-01",d:"safevi"},
     {f:"1878-07-13",t:"1918-05-25",d:"rusya"}],
- d:[{f:"1537-01-01",t:"1878-07-13",y:"kusatma"},{f:"1918-05-25",t:"1923-10-29",y:"antlasma"}],
+ d:[{f:"1534-06-01",t:"1878-07-13",y:"kusatma"},{f:"1918-05-25",t:"1923-10-29",y:"antlasma"}],
  v:[],
  kaynak:"kars",
  // 🔴 `y:` ALANI KORUNDU — ve bunu TESLİMDEN SONRA fark ettim.
@@ -394,9 +417,9 @@ window.YERLESIMLER_KAFKAS_DUZELTME = [
     {f:"1386-01-01",t:"1406-10-21",d:"timurlu"},
     {f:"1406-10-21",t:"1467-01-01",d:"karakoyunlu"},
     {f:"1467-01-01",t:"1514-09-06",d:"akkoyunlu"},
-    {f:"1514-09-06",t:"1534-01-01",d:"safevi"},
+    {f:"1514-09-06",t:"1534-06-01",d:"safevi"},
     {f:"1878-03-03",t:"1921-10-13",d:"rusya"}],
- d:[{f:"1534-01-01",t:"1878-03-03"},{f:"1921-10-13",t:"1923-10-29"}],
+ d:[{f:"1534-06-01",t:"1878-03-03"},{f:"1921-10-13",t:"1923-10-29"}],
  v:[],
  kaynak:"bulunamadı — kimlik zinciri komşu Kars'tan (20 km); Kars'ın kendi zinciri TDV `kars` ile "
        +"bu yamada düzeltildi",
@@ -413,9 +436,9 @@ window.YERLESIMLER_KAFKAS_DUZELTME = [
     {f:"1386-01-01",t:"1406-10-21",d:"timurlu"},
     {f:"1406-10-21",t:"1467-01-01",d:"karakoyunlu"},
     {f:"1467-01-01",t:"1514-09-06",d:"akkoyunlu"},
-    {f:"1514-09-06",t:"1534-01-01",d:"safevi"},
+    {f:"1514-09-06",t:"1534-06-01",d:"safevi"},
     {f:"1878-03-03",t:"1921-10-13",d:"rusya"}],
- d:[{f:"1534-01-01",t:"1878-03-03"},{f:"1921-10-13",t:"1923-10-29"}],
+ d:[{f:"1534-06-01",t:"1878-03-03"},{f:"1921-10-13",t:"1923-10-29"}],
  v:[],
  kaynak:"bulunamadı — Digor ile aynı gerekçe (Kars'a 25 km)",
  neden:"Digor ile birebir aynı kusur ve aynı çare."},
@@ -426,9 +449,9 @@ window.YERLESIMLER_KAFKAS_DUZELTME = [
     {f:"1386-01-01",t:"1406-10-21",d:"timurlu"},
     {f:"1406-10-21",t:"1467-01-01",d:"karakoyunlu"},
     {f:"1467-01-01",t:"1514-09-06",d:"akkoyunlu"},
-    {f:"1514-09-06",t:"1534-01-01",d:"safevi"},
+    {f:"1514-09-06",t:"1534-06-01",d:"safevi"},
     {f:"1878-03-03",t:"1921-10-13",d:"rusya"}],
- d:[{f:"1534-01-01",t:"1878-03-03"},{f:"1921-10-13",t:"1923-10-29"}],
+ d:[{f:"1534-06-01",t:"1878-03-03"},{f:"1921-10-13",t:"1923-10-29"}],
  v:[],
  kaynak:"bulunamadı — Digor ile aynı gerekçe",
  neden:"Digor ile birebir aynı kusur ve aynı çare. ⚠️ Iğdır Revan'a (65 km) Kars'tan (95 km) "
