@@ -1407,19 +1407,47 @@ def _gun_farki(a, b):
     return None if (x is None or y is None) else (x - y).days
 
 
+ATLAS_SONU = "1923-10-29"
+# 🔴 4c TAVANI — ÜÇÜNCÜ DALIN AYRI SAYACI. `BEKLENEN_HAYALET`e EKLENMEZ.
+# Sebebi ölçülmüş bir kaygı: 136 ölçülmüş bir borç ve tavanı; üstüne bu
+# dalın sayısını eklemek İKİ AYRI BORCU TEK KOVAYA koyar ve hangisinin
+# indiği görünmez olur. Ayrı kova = ayrı ilerleme.
+# Bugünkü ölçüm konuyor, SIFIR değil — yayın kapısı kapanmasın (`§11`:
+# *"gürültü üreten denetime kimse bakmaz"* ve *"sıfır tavan meşru olanı
+# ihlal sayar"*). Borç ödendikçe İNER.
+BEKLENEN_ASAN = 590
+
+
 def degismez4(Y):
     """Bir devletin ÖMRÜ DIŞINDA yazılmış sahiplik dönemi var mı.
 
-    Döner: (ihlaller, kunyesiz, olculdu_mu)
+    Döner: (ihlaller, kunyesiz, olculdu_mu, asan)
       ihlaller  — devlet ölmüşken/doğmamışken boyanan dönemler
       kunyesiz  — `d:` kimliği devletler.js'te YOK (ayrı kova: ölçülemedi)
+      asan      — dönem devletin ÖLÜMÜNÜ AŞIYOR (ÜÇÜNCÜ DAL, ayrı sayaç)
     ⚠️ `kunyesiz` bir İHLAL DEĞİL ama TEMİZ de değil — ölçülemeyeni temiz
     saymak, süzgecin en sinsi kusuru (`§11`).
+
+    🔴🔴 ÜÇÜNCÜ DAL — 30 Ağustos 2026, ve NİÇİN GEREKTİĞİ ÖLÇÜLDÜ.
+    Bu değişmez iki soru soruyordu ve ikisi de dönemin devletin ömrünün
+    TAMAMEN DIŞINDA olmasını arıyordu:
+        ① dönem BAŞI  künye sonundan SONRA  → devlet ölmüş, dönem sonra başlıyor
+        ② dönem SONU  künye başından ÖNCE   → devlet doğmamış
+    **Sormadığı hâl:** dönem devletin İÇİNDE başlayıp ölümünü AŞIYOR mu?
+    Kars `rusya` 1877-11-18 → 1918-05-25: başlangıç testine takılmıyor
+    (1877'de Rusya sağ), ama künye 1917-03-15'te bitiyor ⇒ Çarlık Rusyası
+    haritada **14 ay fazladan** boyanıyor.
+    ⇒ En sık hâl, en az sorulan hâldi: 590 dönem · 35 kimlik.
+
+    📌 Ve bu, `§3.5`in kurucu vakalarının BİÇİMİ: *"Batnoz — `bizans`
+    1537'ye kadar, gerçek son 1453"* bir dönemin devleti **AŞMASI**dır,
+    sonra başlaması değil. Yani değişmez, kendisini doğuran vakanın
+    biçimini yakalamıyordu.
     """
     K = _devletler_yukle()
     if K is None:
         return [], [], False
-    ihlal, kunyesiz = [], []
+    ihlal, kunyesiz, asan = [], [], []
     for y in Y:
         for p in (y.get("s") or []):
             kim = p.get("d")
@@ -1442,7 +1470,16 @@ def degismez4(Y):
                 ihlal.append((y["ad"], kim, p.get("f"), p.get("t"),
                               "devlet %s'te kuruldu, dönem %.1f yıl ÖNCE bitiyor"
                               % (kf, g2 / 365.25)))
-    return ihlal, kunyesiz, True
+                continue
+            # ── ③ dönem, devletin ÖLÜMÜNÜ AŞIYOR mu (AYRI KOVA) ────────
+            # ⚠️ Atlas sonuna kadar yaşayan künyeler HARİÇ: onlarda "aşma"
+            #   diye bir şey yoktur, dönem atlasın kendi sınırında biter.
+            if kt and kt < ATLAS_SONU:
+                g3 = _gun_farki(p.get("t"), kt)
+                if g3 is not None and g3 > HAYALET_TOLERANS_GUN:
+                    asan.append((y["ad"], kim, p.get("f"), p.get("t"), kt,
+                                 g3 / 365.25))
+    return ihlal, kunyesiz, True, asan
 
 
 # ---------------- Değişmez 5 — HAYALET YERLEŞİM ---------------------------
@@ -2858,7 +2895,7 @@ def main():
         print( "               iki sayının AYRIŞMASI beklenen davranıştır.")
 
     # ── Değişmez 4 — HAYALET DEVLET ──────────────────────────────────
-    hayalet, kunyesiz, olculdu = degismez4(Y)
+    hayalet, kunyesiz, olculdu, asan = degismez4(Y)
     if not olculdu:
         print("\nDeğişmez 4  ⚠️  ÖLÇÜLEMEDİ — node yok ya da devletler.js "
               "ayrıştırılamadı.")
@@ -2880,6 +2917,45 @@ def main():
             print(f"    {ad:<24} {kim:<16} {f}→{t}  {sebep}")
         if n4 > 12:
             print(f"    … {n4 - 12} tane daha (--ayrinti)")
+
+        # ── Değişmez 4c — DÖNEM DEVLETİN ÖLÜMÜNÜ AŞIYOR (ÜÇÜNCÜ DAL) ──
+        # AYRI SAYAÇ · AYRI TAVAN: `BEKLENEN_HAYALET`e KARIŞTIRILMAZ.
+        n4c = len(asan)
+        durum4c = "✓" if n4c <= BEKLENEN_ASAN else "✗"
+        if n4c > BEKLENEN_ASAN:
+            ihlal = True
+        print(f"\nDeğişmez 4c {durum4c}  {n4c} dönem devletin ÖLÜMÜNÜ AŞIYOR "
+              f"(beklenen {BEKLENEN_ASAN})")
+        print( "               ⚠️ 4'ten AYRI KOVA: orada dönem devletin ömrünün "
+               "TAMAMEN dışında,")
+        print( "                  burada İÇİNDE başlayıp ölümünü aşıyor — "
+               "başlangıç testine takılmaz.")
+        if n4c < BEKLENEN_ASAN:
+            print(f"               ⚠️ TAVAN GEVŞEK — BEKLENEN_ASAN = {n4c} "
+                  f"yapılmalı; aradaki {BEKLENEN_ASAN - n4c} GÖRÜNMEZ.")
+        if asan:
+            _kimlik = {}
+            for _a, _k, _f, _t, _kt, _yil in asan:
+                d = _kimlik.setdefault(_k, [0, 0.0, _kt])
+                d[0] += 1
+                d[1] = max(d[1], _yil)
+            print( "               en çok aşan kimlikler "
+                   "(dönem sayısı · en büyük aşma):")
+            for _k, (_n, _en, _kt) in sorted(
+                    _kimlik.items(), key=lambda x: -x[1][0])[:10]:
+                print(f"    {_k:<26} {_n:4d} dönem · en büyük {_en:6.1f} yıl "
+                      f"· künye {_kt}'te bitiyor")
+            if args.ayrinti:
+                for _a, _k, _f, _t, _kt, _yil in asan:
+                    print(f"      {_a:<22} {_k:<18} {_f}→{_t}  "
+                          f"künye {_kt}  +{_yil:.1f} yıl")
+            else:
+                print(f"               ({len(_kimlik)} kimlik — tamamı için "
+                      f"--ayrinti)")
+        print( "               🔴 DÜZELTME BİR TARİH KARARIDIR (`§3.5`): sınırı "
+               "aşan dönemi BÖLMEK")
+        print( "                  mekanik iş değil — ardıl künye hangi gün "
+               "devraldı, kaynağa sorulur.")
         if kunyesiz:
             kim_say = {}
             for _, kim in kunyesiz:
