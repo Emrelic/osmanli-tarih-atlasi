@@ -2917,17 +2917,37 @@ def main():
     if mk:
         ihlal = True
     print(f"Ek denetim  {durum5}  mükerrer madde: {len(mk)} şüpheli çift (beklenen 0)")
-    if zayif:
-        print(f"            i {len(zayif)} çift ZAYIF ölçütte (aynı kişi + ±3 gün, "
-              f"AYRI gün) — ihlal DEĞİL, gözden geçirilecek liste; --ayrinti ile tamamı")
-        for yil, oran, a2, b2, olcut in (zayif if args.ayrinti else zayif[:8]):
-            print(f"              [{olcut}] {a2['t']}  {a2['b'][:48]}")
-            print(f"              {b2['t']}  {b2['b'][:48]}")
+    # 🔴🔴 SIRA BİLEREK BÖYLE — 30 Ağustos 2026, İKİ KEZ ISIRDIKTAN SONRA.
+    # Eskiden ZAYIF liste önce basılıyordu ve İHLALLER onun altında kalıyordu.
+    # Zayıf liste 47-48 çift, ihlal listesi 1-4 çift ⇒ göz, başlıktaki
+    # "mükerrer madde: N" satırının hemen altındaki UZUN listeyi ihlal sanıyor.
+    # Ölçülmüş bedeli:
+    #   28 Ağu  koordinatör `grep -A 22` ile başı aldı, ZAYIF listeyi okudu,
+    #           "yedisi yanlış pozitif" diye hüküm verdi — hüküm ÇÜRÜDÜ,
+    #           altısı gerçek mükerrerdi ve silindiler.
+    #   30 Ağu  aynı hata TEKRAR: 6 aday gün dağıtıldı, İKİ oturum (koordinatör
+    #           + UYGULAMA-3) onları ölçtü, ikisi de "benimle ilgisi yok"
+    #           dedi ve HAKLIYDILAR — altısı da ZAYIF listedendi. İki teşhis
+    #           birden çürüdü, sebep alette değil OKUMA SIRASINDAYDI.
+    # 📌 `CLAUDE.md`nin *"ölçüm doğru, çıkarım yanlış"* ailesinin OKUMA yüzü:
+    #   çıktı doğruydu, önekleriyle (`[başlık]` · `[kişi!]` · `[kişi:]`) ayırıyordu
+    #   bile — ama sıralama gözü yanlış bloğa çekiyordu.
+    # ⇒ Çare bir uyarı satırı DEĞİL: İHLALLER ÖNCE, zayıf liste SONRA ve
+    #   varsayılan olarak SAYIYLA. Ayrıntı `--ayrinti` ile gelir.
     if mk:
         for yil, oran, a, b, olcut in (mk if args.ayrinti else mk[:20]):
             print(f"    [{olcut}] {yil}  {a['t']}  {a['b'][:52]}")
             print(f"           {b['t']}  {b['b'][:52]}")
         print("    → gerçekten ayrı olaylarsa denetle.py'deki BILINEN_AYRI kümesine ekle")
+    if zayif:
+        print(f"            i {len(zayif)} çift ZAYIF ölçütte (aynı kişi + ±3 gün, "
+              f"AYRI gün) — İHLAL DEĞİL, yukarıdaki listeyle KARIŞTIRMA")
+        if args.ayrinti:
+            for yil, oran, a2, b2, olcut in zayif:
+                print(f"              [{olcut}] {a2['t']}  {a2['b'][:48]}")
+                print(f"              {b2['t']}  {b2['b'][:48]}")
+        else:
+            print("              (gözden geçirme listesi — tamamı için --ayrinti)")
 
     # ÖNEK ÖLÇÜTÜ — bugünkü belirtecin 6-harf kırpmasının GÖRMEDİĞİ çiftler
     onek = onek_olcutu(O)
