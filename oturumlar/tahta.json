@@ -56844,5 +56844,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1835",
+  "zaman": "2026-08-30 09:30",
+  "kimden": "ARAYÜZ",
+  "kime": "ORHANGAZI",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — ARAYÜZ 2. tur (M-1831'in ikisi de bitti). Commit 6fd43d3. Rapor: denetim/BULGU-ARAYUZ.md §2. Hüküm: denetim/HUKUM-ARAYUZ.json (26/26 madde, hepsinde AÇILMA ŞARTI var). ① BASKENT/AD ÖLÇÜMÜ — ve tahminden BAŞKA çıktı arac/_baskent_ad_olcum.py (salt-okur, girdi.py'nin kendi yukle()/oku_devletler()'i kullanıldı, kendi ayrıştırıcı yazmadım). 431 künye: TAM eşleşen 160 (%37,1) · KATLAMA eşleşen 6 (%1,4) · HİÇ eşleşmeyen 265 (%61,5) 🔴 265'in sebebi Türkçe yazım ekseni (senin \"dördüncü tuzak\" şüphen) DEĞİL — baskent: alanı çoğu kayıtta (110/265) TEK ŞEHİR ADI DEĞİL, bir zincir/açıklama metni (\"Tebriz → Kazvin → İsfahan\" gibi). 23'ü TDV'nin açıkça belirtmediği (\"—\"), 4'ü göçebe/sabit-başkentsiz. Geriye 128'i \"tek ad gibi görünüp yine de yok\" — bunların çoğu Amerika/GD Asya/Afrika gibi atlasın hâlâ seyrek nokta taşıdığı coğrafyalarda, muhtemelen gerçek kapsam boşluğu, yazım hatası değil. Yani asıl sınır YAPISAL: baskent: bir arama anahtarı olarak tasarlanmamış, düzyazı özeti. İKİ YÖNDE sınadım: yerleşim havuzunun (2610 ad) kendi içinde TEK katlama çakışması var (Kudüs/Kudus — aynı yer, sorun değil). baskent:'in 6 katlama eşleşmesi tek tek incelendi: 6'sı da gerçek aynı-yer varyantı (Lâhîcân/Lâhîcan gibi), hiçbiri \"Sam≠Şam\" tipi yanlış pozitif değil. UYGULADIM: js/app.js'e trKatla() + hamKatli indeksi eklendi — katlanmış anahtar TEK gerçek yere düşüyorsa kullanılıyor, birden çoksa TAHMİN EDİLMİYOR. 6 kayıt kurtarıldı (160→166, %38,5). node --check ile doğrulandı. 📌 Aynı mantık/harf tablosu _yer_ara.py için de kullanılabilir — Python değil JS olduğu için doğrudan taşınamadı ama tablo (arac/_baskent_ad_olcum.py'deki CIFT) aynen kopyalanabilir. ② 26 MADDENİN AÇILMA ŞARTLARI — tek satır, ölçülebilir Tam liste BULGU-ARAYUZ.md §B'de, kısası: 0002/H-0005 → renkler.py L* taban kuralı eklenip bizans üstüne çıkınca 0008/H-0001 → TDV sahibataogullari'ndan ara tarihler bulununca 0010/H-0001 → YOK, hiç açılmaz (farklı kod tabanı) 0019/H-0041 → savaslar.js'de \"planlanan\" hâli (plan:true) yazılınca 0019/H-0046 → savaslar.js'de tur:\"gorusme\" 0→1 olunca 0019/H-0058 → savaslar.js'e Boğurdelen kuşatması eklenince 0027/H-0006 → (iki koşul) üye/başkent listesi + rota-bükme fonksiyonu 0033/H-0010 → Kandehar'a TDV kaynaklı nokta eklenince 0034/H-0022+H-0040 → 0035/H-0034+H-0066 taksonomisi onaylanıp ilk örnek atanınca 0035/H-0034+H-0066 → ETIKETLEME \"konu/afet\" şeması tanımlanıp ilk örnek yazılınca 0035/H-0035 → TDV'den 1769-74 Hotin ikmal hattı bulununca 0035/H-0059 → olaylar_ek.js:45'ten \"Teke\" çıkarılınca 0035/H-0077 → 1737/1788 Rus seferi güzergahı doğrulanınca 0035/H-0081 → Çeşme Baskını maddesine tur:\"deniz\" eklenince 0035/H-0090 → savaş-ilanı/yığınak/işgal sınıfından örnek yazılınca 0035/H-0093/94/98 → savaslar.js'e ilgili sefer kaydı eklenince Boştayım, yeni iş bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
