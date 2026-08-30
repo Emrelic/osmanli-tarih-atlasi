@@ -1,7 +1,7 @@
 {
   "surum": 1,
   "proje": "Osmanlı Tarih Atlası",
-  "guncelleme": "2026-08-27T00:17",
+  "guncelleme": "2026-08-27T21:15",
   "isler": [
     {
       "id": "T-0001",
@@ -1894,7 +1894,7 @@
     {
       "id": "T-0111",
       "baslik": "Basarim nobetcisi — kutu penceresinin acilis/tazeleme sureleri olculup esik asilinca uyarilsin",
-      "hal": "oneri",
+      "hal": "bekleyen",
       "kanal": 6,
       "onem": 3,
       "irilik": 2,
@@ -1909,7 +1909,8 @@
       "girdi": "2026-08-12T00:38",
       "basladi": null,
       "bitti": null,
-      "olcum": null
+      "olcum": null,
+      "onaylandi": "2026-08-27T21:15"
     },
     {
       "id": "T-0112",

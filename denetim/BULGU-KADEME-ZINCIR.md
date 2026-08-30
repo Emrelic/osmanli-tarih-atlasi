@@ -127,7 +127,25 @@ sorulmalı (`kaynak: darfur` maddesi TDV'de canlı, henüz bu oturumda
 ⇒ İkisi için de **🟡 aday**: bölgesel güç merkezleri kendileri zaten
 büyük devletlere tabi değildi; TDV'ye sorulmadan MUAFİYET verilmiyor.
 
-## GÜNCELLEME — 14/65 kaynaklandı ve YAZILDI (`data/yer_yama_kademe_zincir.js`)
+## 🔴 POLİTİKA HÜKMÜ GELDİ (M-1705, ORHANGAZİ) — HAYIR, veri-içi yetmez
+
+Aşağıdaki "POLİTİKA SORUSU" bölümündeki soruya cevap geldi: **salt
+veri-içi tarih örtüşmesi `m:` için kaynak SAYILMAZ.** Gerekçe: `m:`
+siyasî bir bağ, tarih örtüşmesi zamansal bir olgu; ikisi ayrı şeyler,
+ve kendi ölçtüğüm 3/3 "bariz aday" (Riyad/Necid, Zadar/Dalmaçya,
+Üsküdar/İstanbul) TDV okununca yanlış çıkması bunun kanıtı.
+
+⇒ **GERİ ÇEKİLDİ:** Ahar/Sarâb/Miyâne→Tebriz (Hoy'un TDV kaynağını
+ödünç almıştı, kendileri için doğrudan TDV yok) ve Segesvár→Erdel (salt
+veri-içi). Dördü de `bulunamadı`ya döndü. **Hoy→Tebriz KALDI** — TDV
+`hoy` doğrudan ve açıkça "Tebriz'e bağlı bir sancak" diyor.
+
+**Güncel toplam: 18/65 kaynaklı ve yazılı** (Kırım 6 + Darfur 11 + Hoy 1).
+
+**Sonuç:** kalan 47 kaydın büyük kısmı muhtemelen `bulunamadı` çıkacak
+— ORHANGAZİ'nin sözüyle *"BU BAŞARISIZLIK DEĞİL."*
+
+## GÜNCELLEME (ESKİ, kısmen geri çekildi) — kaynaklandı ve YAZILDI (`data/yer_yama_kademe_zincir.js`)
 
 **Kırım (6):** TDV `kefe` okundu ve kendi taslağımı ÇÜRÜTTÜ — Mankup
 Bahçesaray'a (Kırım Hanlığı) değil, **doğrudan Kefe sancağına** bağlıymış
@@ -161,6 +179,12 @@ taşıyor, yani bu beşiyle aynı siyasi olayın parçası) ama `CLAUDE.md §4`
 (Kassa'nın Thököly'nin fiilî merkezi olduğu) yazmak yerine BEKLETTİM.
 Daha güçlü bir TDV/akademik kaynak bulunursa 5 kayıt daha kapanır.
 
+**Nihâvend, Burûcird, Salyan, Kuba, Ordubad → `bulunamadı` (ORHANGAZİ
+talimatıyla, M-1701, gece partisi).** Doğrudan TDV metni bulunamadı
+(nihavend slug'ı ölü, şirvan/sirvan maddesi Salyan'ı bölgeye yerleştirir
+ama Şemâhî'ye mi Derbend'e mi bağlı olduğunu netleştirmez). Bu bir
+SONUÇTUR — 5 kayıt açık kalıyor, kaynak taraması burada durduruldu.
+
 **Tebriz eyaleti (4):** TDV `hoy` doğrudan doğrulandı — "Tebriz'e bağlı
 bir sancak merkezi haline getirilerek" (1585, sancak beyi Alâeddin Bey).
 Hoy'un `d:` penceresi (1585-09-25→1603-10-21) Tebriz'in kendi ilk işgal
@@ -170,7 +194,56 @@ taşıyor (veri-içi korelasyon + Hoy'un doğrulanmış TDV kaynağı) →
 eşleşmesi var (Hemedan/Şamahı ile) ama doğrudan TDV metni bulunamadı
 (`nihavend` slug'ı ÖLÜ — `CLAUDE.md`de zaten kayıtlı) — BEKLETİLDİ.
 
-**Toplam: 21/65 kaynaklı ve yazılı.**
+**Erdel (1):** Segesvár→Erdel (Kaloşvar). 🔴 BU KAYDIN KAYNAĞI SALT
+VERİ-İÇİ — TDV metni bulunamadı. `v:` dönemleri (1526-1541, 1541-1687)
+Erdel'in kendi kaydıyla **gün gününe** aynı. Bu, `CLAUDE.md §4`nün
+"kaynağı açıkça yaz" şartını harfiyen karşılamıyor — açık bir POLİTİKA
+SORUSU doğuruyor, aşağıya bkz.
+
+**Toplam: 22/65 kaynaklı ve yazılı.**
+
+## 🔴 POLİTİKA SORUSU — karar ORHANGAZİ'de, bekletiyorum
+
+`m:` alanı bir TARİH iddiası değil (kim kime ait), bir İDARİ BAĞLAMA
+iddiası (hangi merkeze kayıtlı) — ve motorun kendi yorumu bunun bedelini
+"kozmetik" sayıyor (`uret_petek.py:680`: "toprak boyaması etkilenmiyor").
+Kalan ~40 kaydın çoğu için TDV küçük kasabaların idari bağlılığını
+**yazmıyor** (taneciklik boşluğu) ama **veri kendi içinde** (aynı `v:`/`s:`
+dönem dizisi, gün gününe) çok güçlü kanıt taşıyor — Segesvár/Erdel gibi.
+
+SORU: **Salt veri-içi tarih örtüşmesini (TDV/akademik metin OLMADAN) `m:`
+için yeterli kaynak sayabilir miyim?** Yoksa `CLAUDE.md §4` kırmızı
+çizgisi `m:` için de harfiyen mi uygulanıyor — o zaman kalan kayıtların
+çoğu `bulunamadı` ile kapanacak (muafiyet değil, sadece "kaynaklanamadı").
+
+**İki AYRI vaka bu soruyu ACİL yaptı:**
+1. **Necid/Kasîm (Buraydâ, Uneyze, Şakrâ):** TDV `suudi-arabistan` okundu
+   — Riyad'ın başkent olması **1902** (Üçüncü Suud Devleti), ama bu üç
+   kaydın dönemi **1744'te başlıyor** (Birinci Suud Devleti, başkenti
+   **Diriyye** — veride k1/k2 olarak YOK). Riyad'ı yazmak 1744-1818 dilimi
+   için tarihen KESİN YANLIŞ olur; ama veride başka aday da yok.
+2. **Dalmaçya (Knin, Sin/Sinj, Vrana, Nadin, Herseknovi):** kendimi
+   durdurdum — ilk aklıma gelen "Zadar"a bağlamaktı ama Zadar **HİÇ
+   Osmanlı olmadı** (s: venedik 1281-1918 boyunca kesintisiz), oysa
+   Vrana/Nadin `d:` (doğrudan Osmanlı) 1540-1699. Zadar'a bağlamak
+   `§3.5.1`in ta kendisi olurdu — Venedik'e ait bir şehre Osmanlı kasabası
+   bağlamak. Klis (k:2, d:1537-1648) tarihen daha yakın ama pencere tam
+   örtüşmüyor (Vrana/Nadin 1699'a kadar Osmanlı, Klis 1648'de düşüyor).
+   Herseknovi/Saraybosna da benzer gevşek örtüşme. **Bu beşi BEKLETTİM.**
+3. **Üsküdar → İstanbul, ÜÇÜNCÜ ÖRNEK:** en "bariz" görünen aday bile
+   yanlış çıktı. TDV `uskudar`: Osmanlı'ya geçince "Koca-ili (İzmit)
+   sancağının Gebze kazasına ilhak edilerek" kadılık yapılmış; İstanbul'a
+   bağlanması ancak **1924'te**, kaza statüsüyle. Üsküdar'ın veri kaydı
+   1329'dan başlıyor — yani tarihinin **%95'inde** İstanbul'a değil
+   İzmit/Kocaeli sancağına bağlıydı, ve İzmit veride k1/k2 DEĞİL. Bu
+   kayıt da BEKLETİLDİ.
+
+⇒ **Üç kümede üç kez, "en açık" aday YANLIŞ çıktı** (Riyad/Necid,
+Zadar/Dalmaçya, İstanbul/Üsküdar). Kalan kümelere (Karaman/Konya,
+Erzurum, Silistre, Selanik/Belgrad, Yukarı Macaristan) aynı temkinle
+yaklaşıyorum — TDV metniyle doğrulanmadan yazmıyorum. Politika sorusu
+cevaplanana kadar YENİ KAYIT YAZMAYI DURDURDUM, ölçmeye devam
+ediyorum.
 
 Kalan **44 kayıt** (Nihâvend/Burûcird/Salyan/Kuba/Ordubad ve Yukarı
 Macaristan'ın 5'i dahil) henüz kaynaklanmadı, aşağıdaki taslak

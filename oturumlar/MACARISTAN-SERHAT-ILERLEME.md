@@ -492,3 +492,97 @@ topraklarına katıldı … önceleri Van eyaletine bağlı bir sancak merkezi"*
 Safevîlerce tanındığını** söyler.
 ⚠️ **Başkale ve Çaldıran bu reçetede YOK** — onlar için elimde çıkarım
 var, kanıt yok. Kanıtsız satır yazmıyorum.
+
+---
+
+# TUR 3 — KUZEYDOĞU MACARİSTAN (M-1119) ve DÜZELTMESİ (M-1163)
+
+## 🔴 BEKLEYEN DÜZELTME — `data/yerlesimler_kdmacar.js`, KOŞUDAN SONRA
+
+Koordinatör dosyamı bağımsız doğruladı (M-1163) ve **bir yanlış beyan
+buldu.** Doğru buldu:
+
+```
+dosyada yazan   "Fetih ve kayıp günleri Varad kaydından BİREBİR alındı"
+gerçek          Varad     1526-09-01 → v:tâbi
+                Debrecen  1526-08-29 → v:tâbi      ⇒ ÜÇ GÜN FARK
+```
+
+**Seçim doğru, İFADE yanlış.** `1526-08-29` Mohaç'ın kendi günüdür ve
+`Değişmez 2` açısından da daha iyidir (0 gün, *"Mohaç Meydan
+Muharebesi"*). Ama *"birebir aldım"* demek, kaynağı yanlış beyan
+etmektir — ve bir sonraki oturum onu doğru sanıp üstüne inşa eder.
+
+📌 Koordinatörün dersi: ***"nereden aldım" da en az "ne aldım" kadar
+ölçülür.*** Kabul ediyorum; kusur bende.
+
+### NİÇİN HENÜZ DÜZELTMEDİM — ve iki otorite burada ÇELİŞİYOR
+
+```
+🔒 M-1109 (koordinatör)  "YAZILMAZ (koşu bitene kadar):
+                          data/yerlesimler*.js — 54 dosyanın HEPSİ"
+📖 CLAUDE.md §11          "data/*.js KOPYALANIYOR → koşu sırasında yazmak
+                          GÜVENLİ (koşuya girmez)
+                          arac/*.py KOPYALANMIYOR → koşuyu ÖLDÜRÜR"
+```
+Koşunun canlı olduğunu **ölçtüm**, varsaymadım: `kosu_23agu.log` 05:01'de
+açılmış ve hâlâ 0 bayt (normal — motor stdout'u çıkışta boşaltır),
+`donemler.js` son yazım 02:21 yani **bir önceki** koşudan, ve üç
+`python.exe` süreci canlı. Saat 06:29.
+
+⇒ Düzeltme **yalnız bir YORUM satırıdır**, tek bir veri alanına
+dokunmaz; yani M-1109'un korumak istediği şeyi (*"çıktı veriden geri
+kalır ve fark edilmez"*) **ihlal edemez.** Ama M-1109'un LAFZI onu da
+kapsıyor.
+**Tek başıma hükmetmiyorum** (`§7.1 ⑥`: kaynaklar çelişiyorsa seçim
+işçinin değildir). Düzeltme burada yazılı bekliyor, koşu bitince
+uygulanacak.
+
+### UYGULANACAK METİN — hazır
+```
+// ÖNCE
+// Fetih ve kayıp günleri Varad kaydından BİREBİR alındı (aynı eyalet,
+// aynı fetih, aynı Karlofça sonrası devir).
+// SONRA
+// 1660-08-27 ve 1692-06-05 günleri Varad kaydından alındı (aynı eyalet,
+// aynı fetih, aynı Karlofça sonrası devir). ⚠️ 1526 GÜNÜ BİREBİR DEĞİL:
+// Varad `1526-09-01` taşır, bu kayıt `1526-08-29` (Mohaç'ın kendi günü)
+// taşır. Üç gün fark BİLEREKtir — çekirdekte o günün maddesi var
+// ("Mohaç Meydan Muharebesi", +0 gün), Varad'ın günü ise yaklaşık bir
+// tarihtir. Seçim ölçülmüştür, Varad'dan kopyalanmamıştır.
+```
+
+## KOORDİNATÖRÜN HÜKÜMLERİ — kayda geçti
+
+```
+(a) CONDOMINIUM   `v:` KALSIN. Gerekçe doğrulandı: Varad — aynı eyaletin
+                  merkezi — zaten `v:tâbi 1526-09-01 .. 1660-08-27`
+                  taşıyor. Sözleşme uydurulmadı, izlendi.
+                  Borç `denetim/KOSU-SONRASI-KUYRUK.md`ye KAYDEDİLDİ.
+(b) YEDİ NOKTA    KAPAT — ama "TDV kapsamıyor" diye DEĞİL,
+                  "arandı, kasaba özelinde bulunamadı" diye.
+🔴 AMA HARİTA BORCU KAPANMADI: yedi nokta yazılmadığı için Szatmár'ın
+   peteği hâlâ olması gerekenden büyük. *"Bakıldı" ile "düzeldi" ayrı
+   şeylerdir.*
+```
+
+## 🟢 KOORDİNATÖRÜN GÖRÜNÜR KILDIĞI ŞEY — benim göremediğim
+
+Sorduğum sorunun altında daha büyüğü varmış ve onu benim karşılaştırmam
+görünür kılmış:
+```
+Varad    v:tâbi        1526 → 1660     (Osmanlı tâbiliği)
+Szatmár  s:avusturya   1526 → 1918     (Habsburg, KESİNTİSİZ)
+```
+İkisi de 1526'da başlıyor, ikisi aynı bölgede, ve **zıt sözleşmeler**.
+⇒ H-0004'ün enklavı buradan doğuyor ve Szatmár'ın tek başına Avusturya
+kalması bir "veri kusuru" olmayabilir — bölgenin **gerçek bölünmüşlüğü**
+ile atlasın **tek-sahipli modeli** arasındaki gerilim olabilir.
+Koordinatör ayrı kaleme yazdı.
+
+## 🟢 SAHTE ATIF — CLAUDE.md'ye girmeye aday
+Arama özetinin Michels'e (Central European History 57/2, 2024) atfettiği
+Debrecen cümlesini tam metni çekerek çürüttüm: makalede **hiç geçmiyor**.
+Koordinatörün formülasyonu: ***arama özeti bir kaynak değil, bir
+iddiadır; özet bir yayına ATIF veriyorsa atıf DA doğrulanır — çünkü özet
+kaynağı uydurduğunda gerçek bir dergi adıyla uydurur.***

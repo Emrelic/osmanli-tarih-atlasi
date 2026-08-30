@@ -294,3 +294,227 @@ bozulur.
 
 **Bataryada koşu YOK.** Pil 14,8 Wh (sağlık %49) ⇒ koşu 25-35 dakikada
 ölür ve motor `donemler.js`i EN SONDA yazdığı için **sıfır** üretir.
+
+
+---
+
+# 30 AĞUSTOS 2026 · GECE — ÜÇ KÖR DAL AÇILDI
+
+Emre uyurken yapılanların **ölçülmüş** dökümü. Sabah bunu oku, tahtayı
+baştan okumana gerek yok.
+
+## 🔴 EN BÜYÜK BULGU: ÜÇ DENETİM DALI KÖRDÜ, ÜÇÜ DE "TEMİZ" DİYORDU
+
+```
+① savaş senkronu      AYLARDIR hiç ölçmüyordu — ayrıştırıcı kırıktı
+② mükerrer çıktı      ihlaller ZAYIF listenin ALTINDA basılıyordu
+③ Değişmez 4 (hayalet) ÜÇÜNCÜ HÂLİ hiç sormuyordu
+```
+
+### ① SAVAŞ SENKRONU — kök: Türkçe kesme işareti
+`oku_pencere` yorumları siliyordu ama yalnız **satır BAŞINDAKİLERİ**.
+`savaslar.js`in yorumları satır SONUNDA ve içlerinde `20'sinde` ·
+`js'ten` var. Gövdede **309 tek tırnak — TEK SAYI** ⇒ ayrıştırıcı hayalî
+bir dizgede kalıp kapanış `]`ini hiç görmüyordu. Dosya sağlamdı (node
+okuyor: 171 savaş). `_yorumsuz()` yazıldı (`0df4651`).
+
+**İlk koşuda iki ölçüm:**
+```
+savaş senkronu      164/171 kaydın maddesi var · 7 açık
+hassasiyet düşüşü   15/164 çiftte dizin GÜNÜ biliyor, kronoloji BİLMİYOR
+```
+🟢 **15 → 0 KAPANDI** (ARAŞTIRMA 2S, `17fa60a`). On bir meşhur muharebe
+ay hassasiyetinden güne çıktı — I. Kosova 1389-06-15 · Varna 1444-11-10 ·
+İnebahtı 1571-10-07 · II. Viyana 1683-09-12 · Çanakkale 1915-03-18 ·
+**Sakarya 1921-09-13**. Gün uydurulmadı, `savaslar.js`ten kopyalandı.
+⚠️ Bedeli kaydedildi: `2t` 16 → 17 (tavan 42, ihlal değil).
+
+📌 Kalan 7 kayıt **kusur değil MODEL BOŞLUĞU**: dizin kuşatmanın
+BAŞLADIĞI günü, kronoloji BİTTİĞİ günü yazıyor. İkinci bir tarih alanı
+yok. (Cecora +387g · Rodos +66g · II. Viyana +49g · Bağdat +39g ·
+Hotin +37g · Çanakkale +37g · Şahkulu +31g)
+
+### ② MÜKERRER — kök: çıktı SIRASI, ve beni İKİ KEZ yanılttı
+Zayıf ölçüt listesi (47 çift) ihlal listesinin (2-4 çift) ÜSTÜNDE
+basılıyordu; göz uzun olana düşüyor. Ben iki kez zayıf listeyi gerçek
+ihlal sanıp öyle iş dağıttım. DENETİM AÇIK kökü buldu ve sırayı
+çevirdi: **ihlaller ÖNCE, zayıf liste SONRA ve yalnız SAYIYLA.**
+🟢 **Mükerrer 4 → 0.** (2S iki tanesini kaldırdı, KRONOLOJİ başlıkları
+ayrıştırdı, UYGULAMA-3 Şammar'ı kapattı.)
+
+### ③ DEĞİŞMEZ 4 — ve bu, gecenin en sert bulgusu
+Denetim yalnız *"dönem BAŞI künyeden sonra mı"* diye soruyordu.
+**Sormadığı: dönem devletin ölümünü AŞIYOR mu?**
+```
+🔴 590 dönem · 35 kimlik — üç yıldır görünmez
+   rusya   315 dönem   6,6 yıla kadar
+   zend    129 dönem
+   maratha   7 dönem   105,4 YIL (1818'de öldü, 1923'e kadar boyanıyor)
+   filipin-racaliklari 63,5 yıl · macaristan 40,0 · akkoyunlu 20,0
+```
+
+🔴🔴 **VE DENETİM AÇIK ŞUNU İSPATLADI:** `CLAUDE.md §3.5`in dört kurucu
+vakasının **ÜÇÜ DE bu biçimdeydi** —
+```
+Batnoz   bizans 1281→1537   künye biter 1453-05-29   dönem BAŞI künye İÇİNDE
+İbrim    memluk →1555       künye biter 1517-04-13
+Sevâkin  memluk →1557       künye biter 1517-04-13
+```
+⇒ **Değişmez 4, kendisini doğuran vakaların çoğunu yapısal olarak
+yakalayamıyordu.** Üç yıl boyunca *"o vakaları önlüyorum"* sanılarak durdu.
+
+Dal indi (`Değişmez 4c`, `BEKLENEN_ASAN = 590`, ayrı sayaç, `C13` 4/4
+sınandı). Kova dökümü:
+```
+🟡 A) ardıl künye VAR    367   → kimlik dönüşümü (rusya 315 · macaristan 15 · hafsi 12)
+🔴 B) ardıl künye YOK    223   → künye araştırması (zend 129 · pagan 14 · ilhanli 12)
+```
+
+## 🟢 YAYIN KUSURU — üç dosya bir gündür görünmüyordu
+`olaylar_ek19.js` (29 Ağu) · `ek21.js` · `ek22.js` `data/` altında
+yaşıyordu ama **`index.html`de YOKTU.** `denetle.py` glob'ladığı için
+denetim TEMİZ diyordu, **kullanıcı maddeleri GÖRMÜYORDU.**
+Bağlandı (`7b11b50`), doğrulandı: 25/25, ölü referans yok.
+📌 Ve bu ders `index.html`in kendi yorumunda **zaten yazılıydı**.
+Ders vardı, **nöbetçi yoktu.**
+
+## SINIR YERLEŞİMİ — ŞARTNAMEM İKİNCİ KEZ ÇÜRÜDÜ
+İki kol da dosyalarını **KASTEN BOŞ** bıraktı ve gerekçesi ölçüm:
+```
+benim vekilim (çift mesafesinin yarısı)   ~35-75 km öngörüyordu
+OPUS 85'in gerçek ölçümü                   ortanca 6,37 km
+OPUS 86'nın ölçümü                         ortanca 3,3 km
+⇒ İŞ SANILANDAN ÇOK AZ. Hedef "her kesimi düzelt" değil,
+  "KÖTÜ KESİMLERİ BUL" olmalı.
+```
+🔴 **Ve çift kuralı artık bir teorem:** `sapma = |dB−dA|/2`
+```
++Çıldır tek              6,37 → 6,83   KÖTÜLEŞTİ (tek nokta devleti BÜYÜTÜR)
++Çıldır ↔ +Kartsakhi     6,37 → 6,18   çift VE simetrik
++Nehrî  ↔ +Uşnu          6,37 → 6,83   çift AMA simetrik değil (20↔30 km)
+```
+⇒ **Çift olmak yetmiyor, SİMETRİK olmalı.**
+
+## KOŞU
+00:32'de başladı · devlet 80/396 · ~2 saat kaldı · PID 8384 sağ.
+**Bitince:** `denetle.py` → `uret_devirler.py` → `renk_olc.py` (ŞART,
+veri değişti) → `denetle_yayin.py` → `surum_damgala.py` → push.
+
+## KOŞUDAN SONRA — kilitli oldukları için bekleyenler
+```
+① data/yerlesimler_sinir_*.js → girdi.py'ye kaydet
+② Kafkas dosyası yeniden adlandırma (M-1734)
+③ _yer_ara.py Türkçe yanlış-negatif (ı/i · ş/s · ğ/g · ç/c · ö/o · ü/u)
+④ MOTOR kovasındaki 58 kalem
+```
+
+## AÇIK MADDE: 187 → dağıtıldı
+```
+MOTOR 58   koşuya bağlı, BEKLİYOR
+ARAYUZ 26  → ARAYÜZ oturumu (js/app.js · css/style.css)
+KRONOLOJI  → ARAŞTIRMA 2S
+VERI       → UYGULAMA-1 (rusya 315) + kalanlar
+? 32       → UYGULAMA-3 sınıflandırdı, kovalara dağıldı
+B kovası 94 → UYGULAMA-3 (künye araştırması)
+zend 129    → DENETİM AÇIK (tek künye düzeltmesiyle kapanabilir mi)
+```
+
+
+---
+
+# 30 AĞUSTOS 09:40 · KOŞU BİTTİ, YAYIN ÇIKTI — SABAH RAPORU
+
+## 🟢 YAYIN r4325 CANLIDA
+```
+koşu        00:32 → 08:31 (8 saat) · çıkış kodu 0
+            "Doğrulama: tüm yerleşimlerin peteği geçerli ✓"
+denetim     SONUÇ: temiz · çıkış kodu 0 · SIFIR ihlal
+damga       r3753 → r4325
+```
+**İlk kez kullanıcıya giden üç motor değişikliği:**
+```
+DÜNYA PENCERESİ   BOLGE L-şekli → box(-180,-60,180,85)
+İÇBÜKEY KÖPRÜ     B2_KAVIS 0.35
+KÖPRÜ RENGİ       yaslandığı gövdenin rengini alır
+```
+Yabancı alan **+6,9% … +19,5%** (dokuz kesitin dokuzu) — pencere açılıyor.
+Osmanlı −0,1% … −0,8% (köprü daralması, beklenen).
+
+## 🔴 BİLEREK YAYINLANAN GECİKME — Emre bunu bilmeli
+`denetle_yayin.py` *"YAYIN BAYAT"* diyor ve **doğru söylüyor**: koşu
+başladıktan sonra **30 yerleşim dosyası** değişti. Motor girdiyi koşu
+başında anlık görüntüler.
+```
+⇒ EN BÜYÜĞÜ: HAYALET-RUSYA partisi (344 dönem)
+  Bu haritada Çarlık Rusyası HÂLÂ 1923'e kadar boyalı görünüyor.
+  Bir sonraki koşuda düzelecek.
+```
+📌 Kusur değil **gecikme** — ama kayıtsız gecikme kusurdan ayırt edilemez.
+
+## GECENİN BİLANÇOSU — dört kör dal açıldı
+```
+① savaş senkronu    AYLARDIR hiç ölçmüyordu (Türkçe kesme işareti
+                    ayrıştırıcıyı kırıyordu) → açıldı, 15 kalem verdi,
+                    15 → 0 kapandı (11 meşhur muharebe güne çıktı)
+② mükerrer sırası   ihlaller zayıf listenin ALTINDA basılıyordu, beni
+                    İKİ KEZ yanılttı → sıra çevrildi, mükerrer 4 → 0
+③ Değişmez 4c/4d/4s "dönem künyeyi kısmen örtüyor mu" HİÇ sorulmuyordu
+                    → 911 dönem görünür oldu (136'nın 6,7 katı)
+④ denetle_yayin     kapının KENDİSİ çöküyordu (KeyError), sürüm damgası
+                    denetimi hiç koşmuyordu → düzeltildi
+```
+🔴 **VE ③'ÜN EN SERT SONUCU:** `CLAUDE.md §3.5`in dört kurucu vakasının
+**üçü de** `4c` biçimindeymiş — yani `Değişmez 4` üç yıl boyunca
+*kendisini doğuran vakaları* yapısal olarak yakalayamıyormuş.
+
+## BİTEN İŞLER
+```
+HAYALET-RUSYA   344 → 0     (rusya → sovyet-rusya, tek commit'te)
+hassasiyet      15 → 0      (I. Kosova · Varna · İnebahtı · Sakarya…)
+mükerrer         4 → 0
+Değişmez 4     136 → 8      (iran/macaristan/romanya ardıl künyeleri)
+ARAYÜZ         26/26 işlendi, 3'ü uygulandı (deniz rengi · yabancı
+                başkentler · sürüm etiketi)
+32 sınıflandırılmamış kalem → kovalara dağıtıldı
+```
+
+## 🔴 SIRADAKİ KOŞUNUN İLK İŞLERİ
+```
+① RENK BORCU — renk_olc 3 çakışma buldu (renkler.py'ye dokunulmadan!)
+     5,5  isvec ↔ sovyet-rusya            ← 14 → 344 kullanıma çıktı
+     9,9  ingiliz-kuzey-amerika ↔ ispanya ← dünya penceresi
+    10,1  meiji-japonya ↔ sovyet-rusya
+   + novgorod #84c9cf su rengine ΔE 16,6 (kıyı gövdesi suya karışıyor)
+② girdi.py'ye bağlanacak partiler (yayın kapısı sayıyor):
+   yerlesimler_4ff22b · yerlesimler_amerika2 · yerlesimler_hindistan ·
+   yerlesimler_8beb2b   ⇒ "6. koşunun İLK işi" diye damgalılar
+③ 9 yetim dosya sınıflandırılacak — en önemlisi
+   yerlesimler_kafkas_duzeltme.js (20 kayıtlık YAMA, uygulanmayı bekliyor)
+④ _yer_ara.py Türkçe yanlış-negatif (ı/i · ş/s · ğ/g · ç/c · ö/o · ü/u)
+⑤ Kafkas dosyası yeniden adlandırma (M-1734)
+```
+
+## ⚠️ EMRE'YE SORULACAK — TEK SORU
+**Yerleşim rehberi (gazetteer) indirilsin mi?**
+```
+① ne için    sınır yerleşimi programı, köy düzeyinde koordinat
+② niçin      hedef 5 km sapma; elle tahmin ±3-5 km ⇒ hatanın kendisi
+             hedef kadar büyük, o yüzden nokta YAZILMADI
+③ ölçüldü    depoda yok. Viabundus açıldı: 1092 kasaba ama
+             48,72-60,72 K (Kuzey Avrupa) — Türkiye sınırına DEĞMİYOR,
+             Balkanlarda da yaramaz (Belgrad 44,8 K)
+```
+🔴 Bu cevap gelmeden **sınır yerleşimi Doğu kolu kapalı** — ve iki kol da
+dosyalarını KASTEN BOŞ bıraktı, çünkü ölçüm noktaların sapmayı
+BÜYÜTTÜĞÜNÜ gösterdi.
+
+## SINIR PROGRAMI — şartnamem İKİ KEZ çürütüldü, ikisi de kayıtlı
+```
+benim vekilim   ~35-75 km sapma öngörüyordu
+gerçek ölçüm    ortanca 6,37 km (Doğu) · 3,3 km (Güney)
+⇒ İŞ SANILANDAN ÇOK AZ. Hedef "her kesimi düzelt" değil
+  "KÖTÜ KESİMLERİ BUL" olmalı.
+```
+Ve çift kuralı artık bir **teorem**: `sapma = |dB−dA|/2` ⇒ tek yakaya
+nokta koymak bisektörü karşı yakaya iter, yani **devleti büyütür.**
+Çift olmak yetmiyor, **SİMETRİK** olmalı (Nehrî↔Uşnu 20↔30 km, kötüleşti).

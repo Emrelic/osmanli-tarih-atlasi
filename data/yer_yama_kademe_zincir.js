@@ -68,16 +68,14 @@ window.YER_YAMA_KADEME_ZINCIR = [
 {ad:"Hoy", m:"Tebriz",
  kaynak:"TDV `hoy` — \"Tebriz'e bağlı bir sancak merkezi haline getirilerek\" (1585, Şahkuluoğulları idaresinde, sancak beyi Alâeddin Bey)",
  neden:"k:3, m:— idi. d: 1585-09-25→1603-10-21, Tebriz'in kendi ilk işgal penceresiyle (1585-09-25→1603-10-21) BİREBİR AYNI gün."},
-{ad:"Ahar (Karadağ)", m:"Tebriz",
- kaynak:"TDV `hoy` (Tebriz sancağı olduğu doğrulanan komşu) + veri-içi tarih eşleşmesi: d: 1585-09-25→1603-10-21 Tebriz'in ilk işgal penceresiyle BİREBİR AYNI",
- neden:"k:4, m:— idi."},
-{ad:"Sarâb", m:"Tebriz",
- kaynak:"TDV `hoy` (Tebriz sancağı olduğu doğrulanan komşu) + veri-içi tarih eşleşmesi: d: 1585-09-25→1603-10-21 Tebriz'in ilk işgal penceresiyle BİREBİR AYNI",
- neden:"k:4, m:— idi."},
-{ad:"Miyâne", m:"Tebriz",
- kaynak:"TDV `hoy` (Tebriz sancağı olduğu doğrulanan komşu) + veri-içi tarih eşleşmesi: d: 1585-09-25→1603-10-21 Tebriz'in ilk işgal penceresiyle BİREBİR AYNI",
- neden:"k:4, m:— idi."},
 ];
+
+// 🔴 GERİ ÇEKİLDİ (30 Ağustos, ORHANGAZİ M-1705 — politika hükmü HAYIR):
+// Ahar/Sarâb/Miyâne→Tebriz VE Segesvár→Erdel salt veri-içi tarih
+// örtüşmesiyle yazılmıştı, TDV bu üçü için AÇIKÇA "X Tebriz'e/Erdel'e
+// bağlıydı" demiyor (yalnız Hoy için diyor). Kayıt YUKARIDAKİ diziden
+// SİLİNDİ, hüküm `bulunamadı`ya çevrildi — bkz. BULGU-KADEME-ZINCIR.md.
+// Hoy→Tebriz KALDI çünkü TDV `hoy` maddesi doğrudan ve açıkça söylüyor.
 
 // ⚠️ KALAN 50 KAYIT — biçim ve veri-içi adaylar denetim/BULGU-KADEME-ZINCIR.md'de.
 // TDV/akademik kaynak okunmadan buraya eklenmedi.

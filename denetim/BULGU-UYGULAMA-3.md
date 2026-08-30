@@ -199,7 +199,205 @@ Tebriz/Urmiye yakını) — ortadaki ve sağdaki kısmen bu bekleyen yamalarla d
 kapsamı dışında, ayrıca bakılmalı.
 
 **ÖNERİ:** koşu bitip yayınlandıktan SONRA bu madde yeniden görsellenip teyit
-edilsin — bugün "uygulanmadı" demek yarın da öyle kalacağı anlamına gelmiyor. — koordinatörün "0034 sende, 11 madde" ölçümüne cevap
+edilsin — bugün "uygulanmadı" demek yarın da öyle kalacağı anlamına gelmiyor.
+
+---
+
+## GECE PARTİSİ — KRONOLOJİ kovası, son 9 madde (30 Ağustos, `oturumlar/GECE-KRONOLOJI.md`)
+
+Çıktı: `data/olaylar_ek22.js` → `window.OLAYLAR_EK22` (1 kayıt, commit f0b546f).
+
+### YAZILDI — 1 madde
+
+**0036/H-0012** (Şammar/Hâil hikâyesi kronolojide yok) — `olaylar_ek22.js`e yazıldı:
+"Şammar (Reşîdî) Emirliği'nin kuruluşu" (1835-01-01, kaynak: TDV `residiler`,
+slug canlı doğrulandı). 🔴 **YAN BULGU:** `devletler.js`'in künyesi f:1835 diyor
+(10 Ağustos'ta 1836'dan düzeltilmiş) ama Hâil'in KENDİ yerleşim kaydı hâlâ
+`s:1836-01-01→...sammar` — iki dosya 1 yıl uyuşmuyor. Benim yeni maddem 1835'i
+kullandığı için yerleşim düzeltilmeden Değişmez 2 ~365 gün açık kalabilir.
+**Yerlesimler dosyası benim değil — koordinatöre bildiriliyor, Hâil'in `s:`
+başlangıcı 1835-01-01'e çekilmeli.**
+
+Bu madde ayrıca **0035/H-0079**'u da kısmen cevaplıyor (aşağıda).
+
+### ÖLÇÜLDÜ, YAZMAYA GEREK YOK — 4 madde (zaten doğru modellenmiş)
+
+**0035/H-0062** ("bu maddenin Osmanlı açısından önemi ne") — görsel açıldı: madde
+"Demak Sultanlığı'nın Majapahit'i yıkması" (1527, Cava). Ölçtüm: `olaylar_ek16.js`
+kaydında **`kapsam_genis:true` ZATEN VAR** — proje bunun için tam olarak bu alanı
+tasarlamış (dünya-bağlamı maddesi, Ottoman toprak değişimi değil). Mekanizma
+doğru çalışıyor; UI'da bu bayrağın kullanıcıya nasıl görünür kılınacağı ayrı bir
+arayüz sorusu olabilir ama VERİ eksiği yok.
+
+**0035/H-0065** (İbrim/Nübye maddesi harita değişikliği doğurmuyor) — ölçtüm:
+`olaylar_ek5.js:460` "İbrim ve Nübye sınırının güneye taşınması" (1555) zaten
+Mısır beylerbeyiliğinin İÇİNDEKİ bir sınır kaydırması; başlangıç ve bitişte
+bölge zaten aynı renkte (Osmanlı) olduğu için görsel değişiklik BEKLENMİYOR —
+bu bir kusur değil, olayın doğasının doğru yansıması.
+
+**0035/H-0079** (Hail Vehhâbî/Suûdî hareketine dahil mi, Nefud'ta niye boyalı) —
+İKİ soru, ikisi de cevaplandı: ① Hâil TARİHEN Vehhâbî/Suûdî hareketinin
+**rakibiydi** (Şammar/Reşîdî emirliği, yeni yazdığım madde bunu anlatıyor),
+1921'e kadar Suûdî DEĞİLDİ. ② Nefud çölünün "gereksiz boyanması" zaten bilinen
+bir emilme deseni — `denetim/BULGU-VERI-SAHIPLIK.md` bunu H-0001/H-0011/H-0064/
+H-0079 ailesi olarak işaretlemiş, `data/yer_yama_emilme.js`'de nokta önerisi
+ZATEN VAR. Benim işim değil, VERİ SAHİPLİK'in kapsamında, mükerrer değil.
+
+**0037/H-0001** (Besarabya'nın güneyi haritada kıpırtı vermiyor) — ölçtüm:
+`olaylar_ek5.js:346` "Paris Antlaşması" maddesi zaten "Besarabya'nın güneyi
+Boğdan'a verildi" diyor VE coğrafi tarafı `yer_yama_uyg1.js`e (İsmail kaydı,
+1856-03-30/1878-07-13 sınırlı `v:` Boğdan Voyvodalığı) başka bir oturumca ZATEN
+yazılmış (GECE-KRONOLOJI.md notu). Kronoloji tarafında eksik yok.
+
+### ÖLÇÜLDÜ, TEK-ALAN ÖNERİ — koordinatöre (benim dosyam değil)
+
+**0037/H-0004** ("bu olayın haritadaki yerini işaretlemeli") — görsel açıldı:
+madde "Cebel-i Lübnan'da Dürzî-Mârûnî iç savaşı ve Şam olayları" (`olaylar_ek5.js:350`).
+Ölçtüm: **`yer_id` ALANI YOK** (yalnız `yer:"Cebel-i Lübnan, Şam"` var, metin —
+harita işaretleyemiyor). Şam (`_yer_ara.py`: 33,513K 36,292D) yerleşim olarak
+VAR ve olaylar Temmuz'da Şam'a sıçradığı için oraya bağlanabilir.
+**ÖNERİ (uygulamadım, `olaylar_ek5.js` benim dosyam değil):** `yer_id:"Şam"`
+eklensin — tek satır, en ucuz kazanç.
+
+### ARAŞTIRILDI, SAVAŞLAR.JS GEREKTİRİYOR — benim dosyam değil, bulgularımla devrediyorum
+
+**0035/H-0095** (Alemdar Mustafa Paşa'nın İstanbul'a yürüyüşü, ok/güzergah) —
+TDV `alemdar-mustafa-pasa` okundu: yürüyüş **Edirne**'den başladı (mütareke
+sırasında ordu orada), İstanbul'a **19 Temmuz 1808**'de ulaştı (mevcut kronoloji
+maddesiyle — `olaylar_ek7.js:136` — birebir uyumlu). TDV kesin çıkış GÜNÜNÜ
+vermiyor. Rota basit (Edirne→İstanbul, ~230 km), `tur:"sefer"` altyapısı hazır.
+**Yazmadım — `data/savaslar.js` benim dosyam değil** (GECE-KRONOLOJI.md "yaz,
+yalnız kendi dosyana" diyor). Koordinatöre/ilgili oturuma: `f` için TDV günü
+yok, açıkça "tahminî" işaretlenerek yazılmalı.
+
+**0037/H-0006** (Abdülaziz'in Avrupa seyahati, tam güzergah) — TDV `abdulaziz`
+yalnız ANA HATLARI veriyor: 21 Haziran 1867 İstanbul'dan çıkış, Fransa+İngiltere
+esas durak, "bu arada" Belçika/Prusya/Avusturya, 7 Ağustos 1867 İstanbul'a
+dönüş — **liman/şehir sırası ve ara tarihler TDV'de YOK.**
+🔴 Popüler web kaynakları (fikriyat, tarihistan, yeniakit vb.) ayrıntılı bir
+rota veriyor (Napoli/Messina→Toulon→Paris 10 gün→Dover/Calais→Brüksel 24 Tem→
+Koblenz 25 Tem→Viyana 28 Tem→dönüşte Budapeşte→Varna→İstanbul) AMA bunlar
+**`CLAUDE.md §4`'ün kırmızı çizgisinin dışında** ("tarih sayfası" tipi popüler
+site, akademik değil) — **kaynak olarak KULLANMADIM.**
+**SONUÇ: `kaynak:"bulunamadı"` — TDV bu taneciği (günlük rota) kapsamıyor,
+akademik/birincil bir kaynak (ör. konuyla ilgili basılı bir çalışma) gerekiyor.**
+Emre isterse bu popüler rotayı "doğrulanmamış taslak" olarak kabul edip
+kaynağını AÇIKÇA öyle işaretleyerek yazdırabilir — karar koordinatörün/Emre'nin.
+
+### ARAŞTIRILDI, EMRE'NİN VARSAYIMI ÇÜRÜYOR OLABİLİR
+
+**0038/H-0007** (Kasr-ı Şirin İran savaşında Osmanlı'ya geçmiş olmalı) — ölçtüm:
+kasabanın kendi yerleşim kaydı (`_yer_ara.py`) **hiçbir zaman 1639'da Osmanlı
+olmuyor** — safevi zinciri 1503-1736 kesintisiz sürüyor, yalnız 1723-1730
+arası kısa bir Osmanlı işgali var (muhtemelen Nadir Şah kaosu döneminin
+gerçek bir fethi, ayrı olay). TDV `kasrisirin-antlasmasi` (doğru slug —
+`kasr-i-sirin-antlasmasi` ÖLÜ, ilk denemem yanıldı) gövdesi antlaşmanın
+Bağdat/Basra/Şehrizor'u Osmanlı'da, Revan'ı Safevî'de bıraktığını söylüyor ama
+**Kasr-ı Şirin KASABASININ kendisinin hangi tarafta kaldığını belirtmiyor.**
+Modern coğrafya (bugünkü Kirmanşah/İran sınırları içinde) ve antlaşmanın
+"görüşme yeri" oluşu, kasabanın SAFEVÎ tarafında kaldığını düşündürüyor —
+yani **mevcut veri muhtemelen ZATEN DOĞRU**, Emre'nin varsayımının aksine.
+**PATCH YAZMADIM** — İran/Türk kaynaklarından ek doğrulama olmadan tarafı
+değiştirmek yeni bir hata üretebilir. Emre'nin izni ("en yakın merkezin el
+değiştirmesine bağlanabilir, eğer teyit edersen") burada TEYİT EDEMEDİĞİM için
+kullanılmadı.
+
+### SAYIYLA
+
+```
+9 madde  →  🟢 1 yazıldı (+1 yan bulgu bildirimi) · 4 zaten doğru ·
+            1 tek-alan öneri · 2 savaşlar.js'e devredildi (araştırmalı) ·
+            1 Emre'nin varsayımı muhtemelen yanlış (patch YAZILMADI)
+```
+
+---
+
+## GECE PARTİSİ — DEVİR: VERİ SAHİPLİK-2'nin VERİ 3/3 kovası (M-1718)
+
+Şartname: `oturumlar/GECE-VERI.md`, son 10 madde. Çıktı: `data/yer_yama_gece_v3.js`
+→ `window.YER_YAMA_GECE_V3` (2 kayıt). Ayrıca devraldığım açık borç: `data/yer_yama_emilme2.js`
+Ahtapolu/Rezve/İğneada kayıtları p19'un lehine ÇIKARILDI (dosya artık boş, gerekçe
+dosya içi yorumda).
+
+⚠️ **2 madde VERİ kovasına AİT DEĞİL** — `kasa-0010/H-0002` ve `kasa-0012/H-0001`
+ClaudEmre'nin mesaj kutusu/UI tasarımıyla ilgili (renk kodu = "sıra kimde",
+mesaj saat/tarihi), atlas coğrafi verisiyle alakasız. Regex çıkarımı yanılmış —
+koordinatöre AYRICA bildiriliyor, yer_yama formatına zorlanmadı.
+
+### YAZILDI — 1 madde
+
+**0037/H-0008** (Rusya Eflak/Boğdan işgali taralı gösterilmeli) — Bükreş ve
+Yaş'a (iki başkent, en görünür noktalar) `isg:` eklendi: 1806-1812 (bitiş
+1812-05-28, sınır kalelerindeki mevcut desenle hizalı) ve 1828-1834 (TDV
+`eflak`/`bogdan`, ikisi de gövde okunarak). 1848-49 işgali KAPSAM DIŞI
+bırakıldı — TDV kesin tarih vermiyor, tahmin üretmedim.
+🔴 **DAHA GENİŞ, AÇIK KALAN BORÇ:** VERİ SAHİPLİK'in `denetim/kume/olculdu.md`
+(H-0097/H-0100) ölçtüğü dokuz Tuna kalesi (Rusçuk·Silistre·Bender·İsmail·Vidin·
+Niğbolu·Yergöğü·Turnu Severin — hepsi aynı 1806-1812 işgalinde) hâlâ `isg:`
+taşımıyor; tarihleri TDV'den doğrulanmadığı için YAZMADIM, benim 10 maddemin
+dışında ama koordinatöre bildiriliyor.
+
+### ÇÖZÜLDÜ (dosya devri) — Ahtapolu/Rezve/İğneada
+
+`yer_yama_emilme2.js`'in üç kaydı `yer_yama_p19.js`'inkiyle çakışıyordu.
+Ölçtüm: emilme2'nin `s:` dizisi 1281-1361 "bizans" açılışını VE 1913 sonrası
+kapanışı TAŞIMIYOR — uygulansaydı (field-level replace) üç yerleşim iki ayrı
+pencerede sahipsiz kalırdı. p19'unki TAM. emilme2'den üç kayıt çıkarıldı,
+gerekçe dosya içinde.
+
+### ÖLÇÜLDÜ, PATCH GEREKMİYOR — 2 madde
+
+**0034/H-0005** (Abadan/Hüveyze) — bu maddeyi TASNİF-F/UYGULAMA-3'ün ilk
+turunda zaten işlemiştim (M-1466): Havîza'nın zinciri doğru, Abadan 0 kayıt
+(YENİ NOKTA, koordinat+d:+kaynak önerisi zaten koordinatörde). Tekrar
+ölçmedim, mükerrer olmasın diye eski bulguya atıf yapıyorum.
+
+**0035/H-0037** (Basra İran işgaline uğramış, Fâv da mı) — ölçtüm: Fâv'ın `d:`
+zinciri **1546-01-01'den 1914-11-22'ye KESİNTİSİZ Osmanlı** — Basra'nın
+1776-79 Zend arasını hiç paylaşmıyor. Harita "Osmanlı'da gibi görünüyor" diyen
+şikâyet zaten DOĞRU görüyordu, veri de doğru — patch gerekmiyor.
+
+### ÖLÇÜLDÜ, MOTOR/GÖRSEL SORUSU — benim dosyam değil
+
+**0035/H-0076** (Derbent/Şirvan/Şamahı/Ereş/Kabala/Gümrü/Çaldıran/Başkale
+taralı tutarsızlığı) — ölçtüm: bu sekiz yerin **HİÇBİRİNDE `isg:` alanı YOK**
+(grep sıfır sonuç). ⇒ Kullanıcının gördüğü "taralı" desen `isg:` işgal
+örtüsünden GELMİYOR — ya `DEVIRLER` (dönem) katmanı ya da CLAUDE.md'de
+belgelenmiş bir motor dikişi (Nystad Antlaşması vakasındaki gibi, iki
+komşu gövdenin Chaikin-yumuşatılmış sınırının tam örtüşmemesi). Canlı
+haritada görsel doğrulama ve MOTOR tarafı gerekiyor — devrediyorum.
+
+**0035/H-0080** (Hotin Ruslar nereden geldi — Boğdan/Lehistan/Kırım bozkırı) —
+ölçtüm: Hotin'in SAHİPLİK zinciri zaten doğru ve net (v:Boğdan tâbi 1456-1713 →
+d:Osmanlı → s:rusya 1769-74 → d:Osmanlı → s:rusya 1812-). Sorulan şey
+MÜTTEFİK ORDUNUN GÜZERGAHI — `savaslar.js` konusu, benim dosyam değil.
+
+**0037/H-0005** (Büyük Çerkes Sürgünü doruk noktası, "bu parça neden boş") —
+görsel küçük ve net değil; sahil noktaları (Soçi, Tuapse, Anapa, Maykop/
+Çerkezya) ölçtüm, hepsi 1829-09-14'ten itibaren doğru biçimde `rusya` —
+"boş" görünen kısım muhtemelen İÇ YAYLA (nokta yoğunluğu düşük dağlık bölge,
+H-0001/H-0011/H-0064/H-0079 ailesiyle AYNI SINIF emilme). Kesin teşhis için
+canlı haritada görsel doğrulama gerekiyor, tek başıma kutu koordinatlarını
+görselden güvenilir okuyamadım.
+
+### ARAŞTIRILDI, EMRE'NİN VARSAYIMI YİNE BELİRSİZ ÇIKTI
+
+**0038/H-0005** (Eçmiyazin ve Gümrü, İran savaşında Osmanlı'ya geçmiş olmalı) —
+bu "ÜÇÜNCÜ TEMAS" (VERİ SAHİPLİK iki kez daha bakmış). Ölçtüm: Gümrü'nün
+zinciri hiç Osmanlı olmuyor (akkoyunlu→safevi→afsar→zend→kacar→rusya 1828).
+Eçmiyazin (Üçkilise/Vağarşapat/Eçmiadzin — dört adı da denendim) **0 kayıt**,
+YENİ NOKTA. TDV `revan` (gövde okundu): 1724-1730 Osmanlı işgali sırasında
+Revan alındı ama metin Gümrü'yü ya da Eçmiyazin'i AÇIKÇA anmıyor — ne teyit
+ne çürütme. Kasr-ı Şirin'deki gibi PATCH YAZMADIM — teyit edemedim.
+
+### SAYIYLA
+
+```
+10 madde  →  🟢 1 yazıldı (isg: Bükreş+Yaş) · 1 dosya-devri çözüldü
+             (emilme2→p19) · 2 patch gerekmiyor (zaten doğru) ·
+             3 motor/görsel/savaşlar.js'e devredildi ·
+             1 hâlâ belirsiz (teyit edilemedi) · 2 VERİ kovasına ait değil
+``` — koordinatörün "0034 sende, 11 madde" ölçümüne cevap
 
 Koordinatör gece M-1446'yı görmemiş ("tahta uyandırmıyor" sorunu, bende değil) ve
 kendi ölçümüyle 11 madde saydı. O 11'i kendi listemle eşleştirdim:
