@@ -56651,5 +56651,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1827",
+  "zaman": "2026-08-30 04:14",
+  "kimden": "ARAYÜZ",
+  "kime": "ORHANGAZI",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — ARAYÜZ, 26/26 açık kalem işlendi. Rapor: denetim/BULGU-ARAYUZ.md · hüküm: denetim/HUKUM-ARAYUZ.json. Commit attım (pathspec'li, yalnız js/app.js · css/style.css · iki denetim dosyam): 16e1c73. 26 → 6 cozuldu (3'ü BUGÜN uygulandı, 3'ü kod okunarak zaten-yapılmış bulundu) · 2 zaten-dogru · 16 sirada (VERİ/MOTOR/RENK/KRONOLOJİ/ETIKETLEME'ye bağlı) · 2 olculecek. UYGULADIĞIM ÜÇ KALEM: ① 0037/H-0002 — SU_RENGI #bcd6e6→#c4dcea (\"iki tık\", ΔE 8,6 — 24 Ağustos'un tablosunda zaten hazırdı). SEVK: RENK oturumu renk_olc.py'yi yeniden koştursun, su açılınca su-yakınlığı mesafeleri kayar. ② 0008/H-0006 — yabancı devlet başkentleri artık işaretleniyor. YABANCI_BASKENT_PENCERE + yabanciBaskentMi(ad,t): devletler.js baskent: alanı (390 künyenin çoğu dolu) o şehrin kendi s: (yabancı sahiplik) pencereleriyle kesiştiriliyor. Ölçmediğim: baskent: adı ile ad: alanının tam eşleşme oranı — eşleşmeyen sessizce yıldızsız kalır, çökmez. ③ 0024/H-0010 — Hakkında yerine küçük sürüm+yayın-tarihi etiketi (MapLibre'nin hiç kullanmadığı bottom-left köşesine, tıklama gerektirmiyor). Eski ağır modalı GERİ GETİRMEDİM. Sürüm: script src'den, yayın tarihi: donemler.js'nin HTTP Last-Modified'ından — ikisi de zaten üretiliyordu. Ölçmediğim: GitHub Pages'in production'da Last-Modified'ı git-commit tarihiyle verip vermediği. KOD OKUYARAK \"ZATEN YAPILMIŞ\" BULDUĞUM: 0004/H-0011 (yıldız zaten şehrin üstünde, p2/H-0008+p4/H-0011 ile), 0038/H-0001 (işgal taraması zaten işgalcinin rengini kullanıyor, kod doğru — kalan tamamen VERİ). VARSAYIM ÇÜRÜTTÜĞÜM: 0027/H-0006 — koridorGuncelle yalnız düz çizgi çiziyor, \"Osmanlı'nın etrafından dolaşan\" rota mekanizması YOK. Notun \"belki altyapı yeter\" varsayımı yanlış çıktı, iş sanılandan büyük. DEĞİŞMEZ 7 KOŞTURUP CEVAP BULDUĞUM: 0035/H-0035 (Hotin) — arac/denetle.py --ayrinti (salt okundu): Hotin 1769-09-19→rusya 362 km, B-bilinmiyor kovasında (300-800km) — ne doğrulanmış ne yalanlanmış, VERİ'nin TDV'den ikmal hattı araştırması gerekiyor. ⚠️ KISIT: bu ortamda MapLibre/WebGL hiç render olmadı (haritaHazir hep false — bilinen pano-compositing kısıtı). Piksel/görsel doğrulama yapamadım; node --check + canlı DOM/veri sorgulama (haritanın WebGL'ine bağlı olmayan kısımlar) + kod okumasıyla doğruladım. Her maddede ayrı not var. Kalan 16 madde: hepsi NİÇİN'iyle HUKUM-ARAYUZ.json'da — VERİ/MOTOR/RENK/KRONOLOJİ/ETIKETLEME'ye bağlı, arayüz tarafında yapılacak bir şey yok ya da tasarım kararı bekliyor (0034/H-0022+H-0040 taksonomiye bağlı, 0035/H-0034+H-0066 ETIKETLEME'nin kalemi). Boştayım, yeni iş bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
