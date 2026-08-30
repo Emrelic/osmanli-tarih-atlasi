@@ -548,6 +548,86 @@ değil** — üç önceki kalem açık: `git`te izlenmeyen 1 dosya · yetim 45 �
 
 ---
 
+## 3.9 `zend` HİPOTEZİM ÇÜRÜDÜ — ve yerine DÖRDÜNCÜ BİR KÖR NOKTA çıktı
+
+*(30 Ağustos 2026 · `Değişmez 4c`nin ardından)*
+
+`4c`yi yazarken bir hipotez kurmuştum: *"`zend`in 129 döneminde en büyük
+aşma 2 yıl; 129 bağımsız hata beklenmez, kusur künyenin `t:`inde olabilir."*
+Koordinatör ölçmemi istedi. **Ölçüldü — yarısı doğru, yarısı yanlış.**
+
+### ② VERİ: toplu yazım DOĞRULANDI
+```
+`zend` dönemi: 131
+  farklı BAŞLANGIÇ: 4   → 1747-06-20'de 128 dönem (%98)
+  farklı BİTİŞ:     3   → 1796-01-01'de 129 dönem (%98)
+```
+⇒ **Tek toplu yazım.** 129 bağımsız karar değil, bir karar × 129 kayıt.
+
+🔴 **VE KENDİ HÜKÜM SATIRIM KABAYDI:** betiğim *"3 farklı bitiş günü var
+⇒ hipotez ZAYIF"* diye bastı. Ölçüt **hep-ya-hiç**ti; oysa sorulması
+gereken **yığılma**ydı. 131'in 129'u tek günde olması, "3 farklı gün"
+ifadesinin gizlediği şeydi. *Ölçüm doğruydu, betiğin çıkarımı yanlıştı.*
+
+### ① TDV: KÜNYE DOĞRU, VERİ YANLIŞ — hipotezim ÇÜRÜDÜ
+```
+zendiler · zend · lutfali-han   → 302 ÖLÜ
+kacarlar · kerim-han-zend       → 200, gövdeleri OKUNDU
+   ZENDLER   "İran'da hüküm süren bir hânedan (1751-1794)"
+   KAÇARLAR  "…İran'da hüküm süren bir hânedan (1796-1925)"
+```
+⇒ Künye `zend 1751-01-01 → 1794-01-01` **TDV ile birebir.** Yanlış olan
+künye değil, **veri** — ve iki uçtan birden:
+```
+veri  1747-06-20 → 1796-01-01     (Nâdir Şah'ın öldürüldüğü gün → Kaçar tacı)
+TDV   1751       → 1794
+```
+📌 **Toplu yazım hânedanı kendi tarihlerine değil KOMŞU OLAYLARA
+bağlamış**: başlangıcı Nâdir Şah'ın ölümüne, bitişi Kaçar taç giymesine.
+Ve TDV'nin kendi iki cümlesi arasında **1794-1796 boşluğu** var — gerçek
+bir fetret. `CLAUDE.md §11`in İran 1335-1340 vakasının birebir tekrarı:
+*"`Değişmez 1` 'kimsenin değildi' diyemediği için boşluk bir kimliğe
+itiliyor."*
+
+### ③ SİMÜLASYON — ve niçin UYGULANMAMALI
+Künye `t:` 1796'ya çekilseydi `4c` **590 → 461** olurdu (−129).
+🔴 **Ama bu, bir kusuru denetimden gizlemek olurdu:** künye doğru, veri
+yanlış. Sayıyı düşüren en kolay yol, **yanlış olanı meşrulaştırmak.**
+⇒ Doğru çare: 129 kaydın `t:`si 1794'e, `f:`si 1751'e çekilsin ve
+1794-1796 arası **fetret olarak** ifade edilsin. Karar veri sahibinin.
+
+---
+
+## 3.10 🔴 DÖRDÜNCÜ BİÇİM DE SORULMUYOR — `4d`, 461 dönem
+
+`zend` ölçümünün yan ürünü: dönem künyeyi **iki uçtan da** aşıyordu.
+`4c` bitişi yakaladı. **Başlangıcı hiçbir dal yakalamıyor.**
+
+```
+① dönem BAŞI  künye SONUNDAN sonra   ✓ var
+② dönem SONU  künye BAŞINDAN önce    ✓ var
+③ dönem SONU  künye SONUNDAN sonra   ✓ 4c olarak eklendi  (590)
+④ dönem BAŞI  künye BAŞINDAN önce    🔴 HİÇ SORULMUYOR    (461)
+```
+Ölçüm (tolerans 400 gün · atlas başından önce doğan künyeler hariç ·
+mevcut dalların yakaladıkları çıkarıldı): **461 dönem · 40 kimlik.**
+```
+zend 128 · isvec 42 (en büyük 242,4 yıl) · adal 37 · celayirli 32 ·
+somali 26 (219,0) · napoli 24 · lehistan 24 (288,5) · umman 18 ·
+akkoyunlu 14 · eflak 13 · bogdan 13 · ispanya 9 (198,0) …
+4c ile ORTAK: 140   ⇒ BİRLEŞİK KÜME: 590 + 461 − 140 = 911 dönem
+```
+⚠️ **461 bir kusur sayısı DEĞİL, bir SORU sayısıdır.** `isvec` künyesi
+1523'te (Vasa) başlıyor ama veri daha erken "İsveç" diyor olabilir ve
+bu **künyenin dar olması** da olabilir. `Değişmez 7`nin dili burada da
+geçerli: *"burada bir SORU SORULMADI"* der, *"burası YANLIŞ"* demez.
+
+📌 Ve toplu resim şu: `Değişmez 4` **yalnız tam ayrıklığı** ölçüyordu
+(136). İki gövdenin **kısmen örtüşmesi** — ki hayat böyle görünür —
+hiç sorulmuyordu: **911 dönem, 136'nın 6,7 katı.**
+
+---
+
 ## 4. ÖLÇMEDİĞİM ŞEYLER — açıkça
 
 ```
