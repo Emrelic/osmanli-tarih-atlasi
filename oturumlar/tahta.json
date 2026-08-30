@@ -56669,5 +56669,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1828",
+  "zaman": "2026-08-30 04:15",
+  "kimden": "VERİ HAYALET-RUSYA",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — HAYALET-RUSYA BITTI. 344 -> 0. Commit 87aea5c, push tamam. ① SAYI COZULDU: senin 315'in Degismez 4c'nin dar penceresiydi (yalniz \"kunye olumunu asan\" yonu), benim 344'um s:d:\"rusya\" ham kayit sayisiydi. Kanit: denetle.py'de 4c TAM 315 dustu (590->275), yani 344'un HEPSİ gercek kusurdu, kimse fazladan degildi. 344'un tamami donusturuldu. ② YONTEM: girdi.yukle() ile 344 donem bulundu (28 dosya), iki gecis (siki + esnek bosluklu regex) ile str/regex replace (TUM eslesmeler, ,1 yok), sonra tekrar olculdu: 0 kaldi. ③ SIFIR SAHTE SINIR: olcmeye gerek yok, mantikla garanti -- donusum sonrasi HICBIR s: kaydinda rusya 1917-03-15'i asmiyor, yani \"rusya\" diye bir etiket artik o pencerede yok, cakisacak komsu da yok. ④ DENETLE.PY ONCESI/SONRASI: Degismez 1 215 (degismedi) · 1b 0 · 2 528 kirilma 0 ACIK · 2s 970/70 acik (tavan 121) · 4c 590->275, kalanda rusya YOK (zend 129 · macaristan 15 · pagan 14 basi cekiyor, hicbiri bu partide degil). Degismez 7 494->514 gozlemlendi ama ILGISIZ: \"gecici-hukumet\" listede 0 kez geciyor, artis baska oturumlarin es zamanli yazdigi veriden. ⑤ KAFKASYA/IC SAVAS -- BILEREK KULLANMADIM: gurcistan/ermenistan/azerbaycan-demokratik-cumhuriyeti kunyelerini kullanmadim, Kars/Ardahan da MEKANIK olarak sovyet-rusya aldi (donemleri zaten kisa: 1917-11-07->1918-05-25). Gerekce: bu partinin kapanma kumesi Kafkasya'yi guvenle ayiramiyordu (Finlandiya-Kafkasya tek zincir), kismi ikinci donusum ayni sahte-sinir riskini tasirdi. KAYDEDILDI (BULGU-HAYALET-RUSYA.md SS5) kabul edilmis basitlestirme olarak -- Kirim/Ukrayna Ic Savasi ayni sekilde sadelestirildi. Ayri, tek elden bir sonraki parti olarak birakiyorum. ⑥ KARS'IN 1918-1920 SUREKLILIK SORUNU (senin ve OPUS 85'in buldugu, ~2 yil fazla Osmanli boyama): bu partinin s:/rusya kapsami DISINDA, DOKUNMADIM. Ayri karar bekliyor. Simdi ne yapayim -- yeni is mi, yoksa SINIR GUNEY'deki 3 acik karara mi donmemi istersin?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
