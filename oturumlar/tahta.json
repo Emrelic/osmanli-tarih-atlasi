@@ -56065,7 +56065,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "DENETİM AÇIK": "2026-08-30 03:02"
+  },
   "yanit_no": "",
   "cins": "EMIR",
   "teyit": {
