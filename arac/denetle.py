@@ -1415,7 +1415,30 @@ ATLAS_SONU = "1923-10-29"
 # Bugünkü ölçüm konuyor, SIFIR değil — yayın kapısı kapanmasın (`§11`:
 # *"gürültü üreten denetime kimse bakmaz"* ve *"sıfır tavan meşru olanı
 # ihlal sayar"*). Borç ödendikçe İNER.
-BEKLENEN_ASAN = 590
+# ⚠️ 590 → 275, 30 Ağustos 04:1x — VE BU BİR DÜZELTME DEĞİL, HAREKETLİ
+# VERİDE ALINMIŞ BİR ANLIK GÖRÜNTÜ. Dal yazılırken sayı ON DAKİKA içinde
+# 590 → 386 → 275 diye düştü: başka bir oturum `rusya`nın 315 dönemini
+# (toplamın %53'ü) tam o sırada düzeltiyordu.
+# ⇒ Tavan bir DOĞRULUK BEYANI değil, bir BORÇ DAMGASIDIR; hareketli veride
+#   çakıldığı an bayatlar. Kendi kendini düzeltmesi `TAVAN GEVŞEK`
+#   uyarısına bırakılmıştır: ölçüm tavanın ALTINA inince denetim bir
+#   sonraki oturuma "bu sabiti indir" der ve borç görünür kalır.
+BEKLENEN_ASAN = 275
+ATLAS_BASI = "1281-01-01"
+# 🔴 4d TAVANI — DÖRDÜNCÜ BİÇİM: dönem devletin DOĞUMUNDAN ÖNCE başlıyor.
+# 4c'den AYRI KOVA, ve sebebi ÇARENİN YÖNÜ:
+#     4c dönem SONU künye sonundan sonra → çare: ardıl kimlik / dönemi KISALT
+#     4d dönem BAŞI künye başından önce  → çare: çoğu zaman künyeyi GENİŞLET
+# İki çare ZIT YÖNDE. Tek sayaçta birleşirlerse biri inerken öteki çıkar ve
+# TOPLAM SABİT KALIR — borç ödendiği hâlde tablo kıpırdamaz.
+BEKLENEN_ONCE = 461
+# 🔴 SARAN — İKİ UÇTAN DA aşan dönemler, yani dönem künyeyi TAMAMEN İÇİNE
+# ALIYOR. `4c ∩ 4d`, yani AYRI BİR KOVA DEĞİL KESİŞİM — üçü TOPLANMAZ.
+# Ayrı basılmasının sebebi teşhis: bir dönem künyeyi tamamen sarıyorsa, o
+# kimlik bir DEVLET olarak değil bir BÖLGE ETİKETİ olarak kullanılıyordur.
+# `CLAUDE.md §3.5`in dördüncü kurucu vakası tam bu: `iran` künyesi Pehlevî
+# İran'ı, veri onu ortaçağ Persia'sı için kullanıyor.
+BEKLENEN_SARAN = 140
 
 
 def degismez4(Y):
@@ -1447,7 +1470,7 @@ def degismez4(Y):
     K = _devletler_yukle()
     if K is None:
         return [], [], False
-    ihlal, kunyesiz, asan = [], [], []
+    ihlal, kunyesiz, asan, once = [], [], [], []
     for y in Y:
         for p in (y.get("s") or []):
             kim = p.get("d")
@@ -1479,7 +1502,17 @@ def degismez4(Y):
                 if g3 is not None and g3 > HAYALET_TOLERANS_GUN:
                     asan.append((y["ad"], kim, p.get("f"), p.get("t"), kt,
                                  g3 / 365.25))
-    return ihlal, kunyesiz, True, asan
+            # ── ④ dönem, devletin DOĞUMUNDAN ÖNCE mi başlıyor ──────────
+            # ⚠️ `continue` YOK: bir dönem ÜÇÜNE DE düşebilir (zend tam
+            #   böyle — künyeyi iki uçtan da aşıyor). Kesişim AYRI basılır.
+            # ⚠️ Atlasın başından önce doğan künyeler HARİÇ: orada "önce
+            #   başlamak" atlasın kendi sınırıdır, veri kusuru değil.
+            if kf and kf > ATLAS_BASI:
+                g4 = _gun_farki(kf, p.get("f"))
+                if g4 is not None and g4 > HAYALET_TOLERANS_GUN:
+                    once.append((y["ad"], kim, p.get("f"), p.get("t"), kf,
+                                 g4 / 365.25))
+    return ihlal, kunyesiz, True, asan, once
 
 
 # ---------------- Değişmez 5 — HAYALET YERLEŞİM ---------------------------
@@ -1945,6 +1978,34 @@ def degismez3z(Y):
 # yakalandı. Doğru pozitif oranını korumak için gerçekten AYRI olan çiftler
 # aşağıya tek tek yazıldı — listeye eklemeden önce iki maddeyi de OKU.
 BILINEN_AYRI = {
+    # ⭐ "ASKERÎ OLAY ile KÜLTÜR OLAYI" SINIFI — 30 Ağustos 2026.
+    # 1534-12-04'te iki madde var ve ikisi AYRI CİNSTEN:
+    #   "Bağdat'ın fethi — Irakeyn Seferi"                    ← ASKERÎ
+    #   "Fuzûlî'nin … Kanuni'ye kaside sunması"               ← KÜLTÜR
+    # Ölçüt `[kişi!]` dalıyla yakalıyor: aynı gün + ortak kişi (Kanûnî) +
+    # ortak kelime ("Bağdat" · "fethi"). Ama biri bir şehrin alınması,
+    # öteki bir şairin kaside takdimi — kümenin kendi sorusu ("aynı şeyi
+    # mi anlatıyor, yoksa aynı şeye iki AYRI CİNSTEN mi bakıyor") bunu
+    # ikinciye koyuyor.
+    #
+    # 🔴 VE ÇİFTİ DOĞURAN ŞEY BİR DÜZELTMEYDİ, BİR KUSUR DEĞİL.
+    # ARAŞTIRMA 2S (0019/H-0067) bir ANAKRONİZM buldu: kaside maddesi
+    # 1534-06-01'deydi, yani başlığındaki fetihten ALTI AY ÖNCE — madde
+    # kendi başlığıyla çelişiyordu. TDV `fuzuli` (44.043 karakter okundu):
+    #   "Kanûnî Bağdat'ı fethedince … padişaha beş kaside takdim etmiş."
+    # TDV kaside için ayrı gün vermiyor ⇒ gün UYDURULMADI, kaynağın
+    # çerçevelediği güne taşındı. Taşınınca bu çift doğdu.
+    #
+    # ⚠️ VE OTURUM İKİ ŞIKKI AÇIKÇA TARTIP SEÇTİ:
+    #   (a) anakronizmi bırak, denetim yeşil kalsın
+    #   (b) anakronizmi düzelt, reçetesi YAZILI bir alarmı aç
+    # (b) seçildi. Doğru seçim: *kusuru düzeltmek, alarmı susturmaktan
+    # önceliklidir* — hele alarmın çaresi belirsiz değilken.
+    # 📌 Ve bu, kümenin baştaki uyarısının TERS YÜZÜ: oradaki tehlike
+    # "denetimi düzeltmek değil KAPATMAK"tı; burada muafiyet bir kusuru
+    # örtmüyor, düzeltilmiş bir kusurun YAN ÜRÜNÜNÜ tanıyor.
+    ("Bağdat'ın fethi — Irakeyn Seferi",
+     "Fuzûlî'nin Bağdat'ın fethi sonrası Kanuni'ye kaside sunması"),
     # ⭐ "OLAY ile PORTRE" SINIFI — 28 Ağustos 2026, ve TEK ÇİFT.
     # 1617-11-22'de iki madde var ve ikisi AYRI CİNSTEN:
     #   "I. Ahmed'in ölümü ve I. Mustafa'nın cülûsu — ekberiyet…"  ← OLAY
@@ -2895,7 +2956,7 @@ def main():
         print( "               iki sayının AYRIŞMASI beklenen davranıştır.")
 
     # ── Değişmez 4 — HAYALET DEVLET ──────────────────────────────────
-    hayalet, kunyesiz, olculdu, asan = degismez4(Y)
+    hayalet, kunyesiz, olculdu, asan, once = degismez4(Y)
     if not olculdu:
         print("\nDeğişmez 4  ⚠️  ÖLÇÜLEMEDİ — node yok ya da devletler.js "
               "ayrıştırılamadı.")
@@ -2956,6 +3017,70 @@ def main():
                "aşan dönemi BÖLMEK")
         print( "                  mekanik iş değil — ardıl künye hangi gün "
                "devraldı, kaynağa sorulur.")
+
+        # ── Değişmez 4d — DÖNEM DEVLETİN DOĞUMUNDAN ÖNCE BAŞLIYOR ─────
+        n4d = len(once)
+        durum4d = "✓" if n4d <= BEKLENEN_ONCE else "✗"
+        if n4d > BEKLENEN_ONCE:
+            ihlal = True
+        print(f"\nDeğişmez 4d {durum4d}  {n4d} dönem devletin DOĞUMUNDAN ÖNCE "
+              f"başlıyor (beklenen {BEKLENEN_ONCE})")
+        # 🔴 BU CÜMLE ÇIKTIDA KALACAK — sebebi ölçülmüş: bir sonraki oturum
+        #   bu sayıyı BORÇ sanıp DOĞRU VERİYİ düzeltmeye kalkabilir.
+        #   (`§11` — "aracın söylediğini yapmadan önce aracın ne ölçtüğünü
+        #    anla": orada bir öneri altı noktayı 1020 km taşıyacaktı.)
+        print( "               ⚠️ BU BİR KUSUR SAYISI DEĞİL, BİR SORU SAYISIDIR —")
+        print( "                  `isvec` künyesi 1523'te (Vasa) başlıyor; veri "
+               "daha erken")
+        print( "                  'İsveç' diyorsa KÜNYENİN DAR olması da olabilir. "
+               "Çare çoğu")
+        print( "                  zaman künyeyi GENİŞLETMEKTİR, veriyi kısaltmak "
+               "değil.")
+        if once:
+            _k2 = {}
+            for _a, _k, _f, _t, _kf, _yil in once:
+                d = _k2.setdefault(_k, [0, 0.0, _kf])
+                d[0] += 1
+                d[1] = max(d[1], _yil)
+            for _k, (_n, _en, _kf) in sorted(
+                    _k2.items(), key=lambda x: -x[1][0])[:10]:
+                print(f"    {_k:<26} {_n:4d} dönem · en erken {_en:6.1f} yıl "
+                      f"· künye {_kf}'te kuruluyor")
+            if args.ayrinti:
+                for _a, _k, _f, _t, _kf, _yil in once:
+                    print(f"      {_a:<22} {_k:<18} {_f}→{_t}  "
+                          f"künye {_kf}  −{_yil:.1f} yıl")
+            else:
+                print(f"               ({len(_k2)} kimlik — tamamı için "
+                      f"--ayrinti)")
+
+        # ── SARAN — dönem künyeyi İKİ UÇTAN da aşıyor (4c ∩ 4d) ────────
+        _s4c = {(a, k, f, t) for a, k, f, t, _x, _y in asan}
+        _s4d = {(a, k, f, t) for a, k, f, t, _x, _y in once}
+        saran = _s4c & _s4d
+        n4s = len(saran)
+        durum4s = "✓" if n4s <= BEKLENEN_SARAN else "✗"
+        if n4s > BEKLENEN_SARAN:
+            ihlal = True
+        print(f"\nDeğişmez 4s {durum4s}  {n4s} dönem künyeyi TAMAMEN SARIYOR "
+              f"(beklenen {BEKLENEN_SARAN})")
+        print( "               🔴 AYRI KOVA DEĞİL KESİŞİM — 4c ∩ 4d. ÜÇÜ "
+               "TOPLANMAZ:")
+        print(f"                  4c yalnız {len(_s4c) - n4s} · 4d yalnız "
+              f"{len(_s4d) - n4s} · ikisi birden {n4s} · BİRLEŞİK "
+              f"{len(_s4c | _s4d)}")
+        print( "               📌 Bir dönem künyeyi tamamen sarıyorsa o kimlik "
+               "bir DEVLET olarak")
+        print( "                  değil bir BÖLGE ETİKETİ olarak kullanılıyor "
+               "olabilir — `§3.5`in")
+        print( "                  `iran` vakası (künye Pehlevî İran'ı, veri "
+               "ortaçağ Persia'sı).")
+        if saran:
+            _k3 = {}
+            for _a, _k, _f, _t in saran:
+                _k3[_k] = _k3.get(_k, 0) + 1
+            for _k, _n in sorted(_k3.items(), key=lambda x: -x[1])[:8]:
+                print(f"    {_k:<26} {_n:4d} dönem")
         if kunyesiz:
             kim_say = {}
             for _, kim in kunyesiz:
