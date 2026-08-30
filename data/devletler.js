@@ -1351,6 +1351,21 @@ window.DEVLETLER = [
     { t:"1885-09-18", tur:"son", b:"Filibe darbesiyle Bulgaristan Prensliği'ne katıldığını ilan etti (Osmanlı fiilen müdahale etmedi)" }
   ]
 },
+// 🔴 YENİ KÜNYE — M-1721 (30 Ağustos 2026, ORHANGAZİ kararı). Gerekçe:
+// UYGULAMA-0019 ölçtü, künye YOKTU ve o toprak bu yüzden YEDİ YIL düz
+// Osmanlı boyanıyordu (bkz. yerlesimler.js:1268, yerlesimler_seyrek.js
+// İskeçe kaydı). Rengi HENÜZ yok — arac/renkler.py bu gece koşu için
+// donduruldu, RENK oturumu koşu bitince eklemeli (harita: alanı da o
+// zaman açılabilir).
+{ id:"garbi-trakya", ad:"Garbî Trakya Hükûmet-i Müstakillesi", tur:"gecici-hukumet", bolge:"balkanlar",
+  f:"1913-08-31", t:"1913-10-25", baskent:"Gümülcine",
+  ozet:"Bükreş sonrası Bulgaristan'a bırakılan Batı Trakya'da yerel Müslüman halkın kurduğu, elli yedi gün yaşayan kısa ömürlü özerk yönetim; Osmanlı Devleti büyük devletlerin baskısıyla resmî destek veremedi.",
+  kaynak:"TDV `bati-trakya` — \"31 Ağustos 1913'te kuruldu... Müderris Sâlih Efendi hükümet başkanlığında... 29 Eylül 1913 tarihli İstanbul Muahedesi ile Batı Trakya Bulgarlar'a bırakıldı. 25 Ekim 1913'e kadar Bulgaristan'a teslimi şart koşulan Garbî Trakya Hükûmet-i Müstakillesi varlığını ancak elli yedi gün sürdürebildi.\"",
+  kronoloji:[
+    { t:"1913-08-31", tur:"kurulus", b:"Dedeağaç'ın alınmasının ardından Müderris Sâlih Efendi başkanlığında bağımsızlığını ilan etti" },
+    { t:"1913-10-25", tur:"son", b:"İstanbul Muahedesi'nin (29 Eylül 1913) şart koştuğu teslim süresi doldu, bölge fiilen Bulgaristan'a devredildi" }
+  ]
+},
 { id:"bulgaristan-kralligi", ad:"Bulgaristan Krallığı (Çarlık)", tur:"krallik", bolge:"balkanlar",
   f:"1908-10-05", t:"1923-10-29", baskent:"Sofya", harita:"bulgaristan",
   ozet:"Bulgaristan Prensliği'nin (bkz. [[bulgaristan-prensligi]]) bağımsızlığını ilan edip Çar unvanı almasıyla doğan krallık (1923 sonrasında da sürdü).",
@@ -1598,6 +1613,22 @@ window.DEVLETLER = [
     { t:"1415-01-01", tur:"son", b:"Son sultan Sâdeddin, Zeyla adasına sığındıysa da kıstırılıp öldürüldü; emirlik sona erdi" }
   ]
 },
+// 🔴 `evfat` KÜNYESİNİN 4d BAĞLAMI — HAZIR KITA OPUS 85, 30 Ağu 2026
+// Bu künyeyi ben de yazmıştım; MÜKERRER çıktı ve KENDİ KAYDIMI GERİ ÇEKTİM
+// (yukarıdaki, satır ~1606, her açıdan daha zengin: Ömer Veleşma · Sâdeddin ·
+//  684 h.). Benim `kaynak:"harar"`ım da gereksizdi: `evfat` slug'ını sınadım,
+//  CANLI (HTTP 200) — yani onların kaynağı doğru, benimki yalnız yedekti.
+// Geri çekmeden önce ölçtüğüm ve KAYBOLMAMASI gereken üç şey:
+//   ① Bu künye `Değişmez 4d` triyajının çözdüğü bir kalem: veride 37 dönem
+//      `adal` yazıp 1281-01-01'de başlıyordu, `adal` ise 1415-01-01'de
+//      başlar ⇒ 134 yıllık aşma. Triyaj şıkkı ② (VERİ YANLIŞ, künye doğru).
+//   ② `evfat` t:1415-01-01 ile `adal` f:1415-01-01 KUSURSUZ DEVİR — ölçüldü.
+//   🔴 ③ RENK: `evfat` `renkler.py`de YOK. Veri bu künyeye göç etmeden ÖNCE
+//      rengi yazılmalı, yoksa 37 dönem BOYANMAZ (§8 harita deliği).
+//      `arac/` kilitli ve benim dosyam değil ⇒ RENK oturumuna iletildi.
+// ⚠️ Ve 1281-01-01 → 1285-01-01 arası (4 yıl) bu künyeyle de KAPANMAZ:
+//    atlasın sol kenarı Evfât'ın kuruluşundan önce. TDV o çağ için bir
+//    devlet adı vermiyor.
 { id:"adal", ad:"Adal Sultanlığı / Harar Emirliği", tur:"sultanlik", bolge:"dogu-afrika",
   f:"1415-01-01", t:"1887-01-06", baskent:"Zeyla → Harar", harita:"adal",
   ozet:"Osmanlı'dan top ve tüfek desteği alarak Habeşistan'ı istila eden sultanlık; ardılı Harar emirliği 1887'de Habeş'e katıldı.",
