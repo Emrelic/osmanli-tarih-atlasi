@@ -7,29 +7,23 @@
 // 🔴 BU DOSYAYA YAZAN: EKLE, YENİDEN YAZMA (bkz. olaylar_ek18.js'in dersi).
 // ---------------------------------------------------------------------------
 //
-// TEK MADDE: 0036/H-0012 — "Şammar Hâil yapılanmasının hikâyesi kronolojide
-// yok" şikâyeti. devletler.js:1500 (`sammar` künyesi) zaten TDV `residiler`
-// kaynaklı bir "devlet kronolojisi" taşıyor ama bu, ana zaman çizgisinin
-// (olaylar*.js) AYRI bir sistemi — Emre'nin gördüğü panelde çıkmıyor.
-//
-// ⚠️ TARİH UYUMSUZLUĞU BULUNDU VE AÇIKÇA BİLDİRİLİYOR (kaynak gizlenmez):
-//   devletler.js künyesi f:"1835-01-01" diyor (10 Ağustos 2026'da "TDV
-//   residiler maddesi kuruluşu net biçimde 1835 veriyor" diye 1836'dan
-//   düzeltilmiş) AMA Hâil'in kendi yerleşim kaydı (`_yer_ara.py` ile
-//   ölçüldü) hâlâ `s: 1836-01-01 -> 1921-11-02 sammar` — yani İKİ dosya
-//   farklı yıl taşıyor. Bu maddeyi TDV'nin kendi tarihiyle (1835) yazdım —
-//   künyenin gerekçesi net. ⇒ Hâil'in yerleşim kaydı (yerlesimler*.js,
-//   benim dosyam değil) 1836'dan 1835'e çekilmezse bu madde ile o kırılma
-//   arasında ~365 gün açık kalır (Değişmez 2 riski) — KOORDİNATÖRE
-//   AYRICA bildirildi (tahta).
+// 🔴 30 AĞUSTOS — MÜKERRER MADDE, KENDİ GÜNCELLEMEM (ORHANGAZİ M-1798)
+// Buraya yazdığım tek madde ("Şammar (Reşîdî) Emirliği'nin kuruluşu",
+// 1835-01-01) SİLİNDİ — `data/olaylar_ek8.js`de (satır ~227) AYNI OLAYI
+// anlatan, AYNI kaynağa (TDV `residiler`) dayanan, daha ÖNCE yazılmış ve
+// daha ZENGİN bir madde zaten varmış: "Abdullah b. Reşîd Hâil emirliğini
+// ele geçirdi — Şammar (Reşîdî) hânedanının kuruluşu" — 1818 Mehmed Ali
+// Paşa/Dir'iyye/İbn Ali ön tarihini de anlatıyor, `tur:/onem:/dunya:/
+// kapsam:` alanları dolu, VE benim ayrıca bulduğum 1836-vs-1835 (yerleşim
+// kaydıyla künye arasındaki 1 yıllık) uyumsuzluğu KENDİ `d:` metninde
+// ZATEN not düşmüş. İki bağımsız oturum aynı TDV maddesini okuyup aynı
+// sonuca varmış — kaynak çakışması değil, KEŞİF çakışması.
+// KARAR: `olaylar_ek8.js`teki madde KALDI (daha eski + daha zengin),
+// buradaki SİLİNDİ. `git log -S "Şammar"` ile doğrulandı: `f0b546f`
+// (benim commit'im, 30 Ağustos) `olaylar_ek8.js`deki maddeden SONRAYDI.
+// ⇒ BİR SONRAKİ OTURUM: "Şammar/Hâil kronoloji maddesi yok" diye
+// YENİDEN YAZMASIN — `olaylar_ek8.js`de zaten var.
 // ---------------------------------------------------------------------------
 window.OLAYLAR_EK22 = [
-
-{ t:"1835-01-01", k:"kurulus", etiket:["siyaset","kurulus"],
-  b:"Şammar (Reşîdî) Emirliği'nin kuruluşu — Abdullah b. Reşîd'in Hâil'i ele geçirmesi",
-  gun:"1835", yer:"Hâil, Cebel Şammar", yer_id:"Hâil",
-  kisiler:"Abdullah b. Reşîd",
-  d:"Cebel Şammar bölgesinde İbn Ali ailesine karşı verdiği mücadeleyi kardeşi Ubeyd ile birlikte kazanan Abdullah b. Reşîd, Hâil merkezli emirliğin hâkimiyetini kurarak Reşîdî hânedanının başına geçti. Osmanlı'ya yakın duran emirlik, kısa sürede Arap yarımadasının kuzeyinde Vehhâbî/Suûdî hareketinin tarihî rakibi hâline geldi — Necid'in denetimi bu iki güç arasında onlarca yıl el değiştirdi (1891 Müleyde zaferi, 1902 Riyad'ın Suûdîler'e kaybı). Emirlik, 1921'de Hâil'in İbn Suûd'a teslimiyle sona erdi. TDV yalnız yıl veriyor, ay/gün belirtmiyor; 1835-01-01 yıl beyanıdır.",
-  kaynak:"residiler", duygu:["🏛"] }
 
 ];
