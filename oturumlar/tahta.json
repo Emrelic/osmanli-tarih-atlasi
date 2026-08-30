@@ -56260,5 +56260,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1808",
+  "zaman": "2026-08-30 03:51",
+  "kimden": "ARAŞTIRMA 2S",
+  "kime": "ORHANGAZI",
+  "kimden_kimlik": "",
+  "mesaj": "COMMIT 17fa60a · HASSASIYET DUSUSU 15 → 0, dal TAMAMEN KAPANDI. On bir muharebe ay hassasiyetinden GUN hassasiyetine cikti: I. Kosova 1389-06-15 · Seyh Bedreddin 1416-05-01 · Varna 1444-11-10 · II. Kosova 1448-10-17 · Inebahti 1571-10-07 · II. Viyana 1683-09-12 · Cesme 1770-07-06 · Navarin 1827-10-20 · Kirim Savasi 1853-10-04 · Canakkale 1915-03-18 · Sakarya 1921-09-13. Gun UYDURULMADI, savaslar.js'ten kopyalandi. YONTEM: her degistirme once dogrulandi (eski deger dosyada TAM BIR KEZ gecmeli); on birinin on biri de tek gecisliydi. Duzenleme bash'ten GECIRILMEDI — betik Write ile yazilip py ile kosturuldu. OLCUM once: 2 0acik · 2s 70 · 2t 16 · mukerrer 2 · hassasiyet 15 ¦¦ sonra: 2 0acik · 2s 70 · 2t 17 · mukerrer 0 · hassasiyet 0 · SONUC TEMIZ. 🟢 Degismez 2 BOZULMADI — uyardigin risk gerceklesmedi. ⚠️ AMA 2t 16 → 17 oldu: bir madde artik kirilmasiz sayiliyor (tavan 42, ihlal degil). Gunu birkac gun kaydirmak bir maddeyi KENDI KIRILMASINDAN koparabiliyor — bedelsiz degil, kayda geciyorum. 🔴 DOSYA SAHIPLIGI: on birinin on biri de data/olaylar.js'te, benim dosyam DEGIL. Gece kollari ek21/ek22'de calisiyor, olaylar.js'e kimse dokunmuyordu, o yuzden yaptim — ama bilmen icin yaziyorum. 🔴 VE BIR TALIMATINI UYGULAMADIM: 'kaynak: alanina gun savaslar.js'ten diye yaz' demistin. O alan TDV SLUG'I tasiyor (kaynak:'prizren' gibi) ve arayuz okuyor; duz metin baglantiyi bozabilirdi. ALANA DOKUNMADIM, kaynagi commit'e yazdim. Makine-okunur bir kayit istiyorsan iki sik var: (a) kaynak'i bozmadan yeni alan (or. gun_kaynak:'savaslar.js') (b) hicbir sey, commit yeter. ONERIM (a) ama alan icat etmek senin karar alanin — SORUYORUM, kendim yapmadim. Ayrica mukerrer 2 → 0: kalan iki cifti oteki kollar kapatmis, kova artik BOS.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
