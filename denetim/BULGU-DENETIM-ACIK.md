@@ -697,6 +697,65 @@ girdi** — ve zarar veri değil **kayıt** kaybıydı.
 
 ---
 
+## 3.12 DEVİR GÖZDEN GEÇİRİLDİ — ve bütün `Değişmez 4` sayılarının SINIRI ölçüldü
+
+*(30 Ağustos 2026 · `arac/denetle.py` bana devredildi)*
+
+### ① `BEKLENEN_HAYALET 136 → 8` — DOĞRULANDI
+```
+ölçüm: 8   (iran 7 · lehistan 1)   tavan 8   ✓
+```
+Koordinatörün *"düşüş VERİDEN"* hükmü doğru: ardıl künyeler açılmış,
+`macaristan` ve `romanya` hayaletleri sıfırlanmış. **İtirazım yok.**
+
+### ② `BILINEN_AYRI` — "ASKERÎ OLAY ile KÜLTÜR OLAYI" — KABUL
+`1534-12-04`: Bağdat'ın fethi (askerî) ↔ Fuzûlî'nin kaside sunması
+(kültür). Kümenin kendi sınavı — *"ikisi aynı şeyi mi anlatıyor, yoksa
+aynı şeye iki AYRI CİNSTEN mi bakıyor?"* — burada **üçüncü** cevabı
+veriyor: **iki AYRI OLAY.** Muafiyet meşru, kaldırmıyorum.
+
+⚠️ **Ama bir yan etkisini kaydediyorum:** kaydın kendi gerekçesi *"TDV
+kaside için ayrı gün vermiyor ⇒ kaynağın çerçevelediği güne taşındı"*
+diyor. Yani çift, bir **tarih yaklaştırması** yüzünden doğdu. İçerik
+oturumları kültür maddesi ekledikçe **aynı sınıf tekrar tekrar
+doğacak** — her biri ayrı ayrı muafiyet isteyecek.
+⇒ Not: `BILINEN_AYRI` şişerse ölçütün kendisi gözden geçirilmeli;
+"aynı gün + ortak kişi" kültür maddeleri için fazla dar bir ölçüt.
+**Şimdi bir şey yapılmıyor, sayı izlenecek.**
+
+### 🔴 ③ VE ASIL BULGU — 832 DÖNEM HİÇ ÖLÇÜLEMİYOR (%8,5)
+
+`degismez4` künyesi olmayan kimlikleri ayrı kovaya koyuyor ve **doğru
+yapıyor** — çıktıda *"ölçülemedi, İHLAL DEĞİL ama TEMİZ de değil"* diye
+basıyor. Ama o kovanın **büyüklüğü** ölçülmemişti:
+```
+toplam `s:` dönemi      9739
+KÜNYESİZ dönem           832   (%8,5)   24 ayrı kimlik
+ölçülebilen              8907
+```
+```
+suleyman-celebi 194 · avusturya 142 · musa-celebi 136 · mehmed-celebi 121
+isa-celebi 56 · ceneviz 25 · yemen 23 · sirbistan 20 · bulgaristan 19 …
+```
+🔴 **Dört Fetret şehzadesi tek başına 507 dönem** (künyesizin %61'i) ve
+`avusturya` 142 — büyük bir Avrupa devleti, kendi künyesi yok.
+
+⇒ **Bu, bugüne kadar verdiğim BÜTÜN sayıların sınırıdır:**
+`4:8 · 4c:275 · 4d:461 · 4s:140` — hepsi **yalnız ölçülebilen 8907
+dönemin** sayılarıdır. Künyesiz 832 dönem hiçbir dalda görünmüyor.
+
+📌 Ve `avusturya` iki ölçümde iki farklı cevap veriyor, **ikisi de
+doğru**: `§3` ölçümümde *"künyesi var"* çıkmıştı (çünkü orada küme
+`id:` ∪ `harita:` idi ve `avusturya` bir `harita:` hedefi), burada
+*"künyesiz"* çıkıyor (çünkü `degismez4` **ömür** soruyor ve `harita:`
+hedefinin `f`/`t`si yok). **Aynı kimlik, iki soru, iki cevap** —
+`§11`in *"alet doğru, evren farklı"* ailesi.
+
+⇒ Çare: bu 24 kimliğe künye yazmak. **`devletler.js` bende değil**,
+ölçtüm ve döktüm.
+
+---
+
 ## 4. ÖLÇMEDİĞİM ŞEYLER — açıkça
 
 ```
