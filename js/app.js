@@ -1859,24 +1859,62 @@ function osmanliBaskentMi(ad, t) {
 // gibi elle doğrulanmış bir sıra YOK (390 devlet için tek tek araştırmak
 // ayrı bir VERİ kalemi). Onun yerine `baskent:` alanının GÖSTERDİĞİ şehrin
 // kendi `s:` (yabancı sahiplik) dönemlerinden, o şehrin GERÇEKTEN o devlete
-// ait olduğu pencereler süzülüyor — veri zaten "bu şehir bu devlete aitti"
-// diyorsa, "ve bu devletin başkenti buymuş" bilgisini o pencereyle
-// kesiştiriyoruz. Devlet başka bir şehre taşındıysa (başkent DEĞİŞTİYSE)
-// bu YAKALANMAZ — `baskent:` TEK DEĞER (osmanlıBaskentPencereleriKur'un
-// yorumundaki aynı sınır) — ama bugünkü veri hiçbir devlet için birden
-// çok başkent kaydetmiyor, yani bu bir YAKLAŞIKLIK değil BUGÜNKÜ VERİNİN
-// birebir okunuşu.
-// ⚠️ ÖLÇMEDİM: `baskent:` alanındaki ad ile `yerlesimler*.js`teki `ad:`
-// alanının TAM (aksan dahil) eşleşme ORANI. Eşleşmeyen kayıt sessizce
-// yıldızsız kalır — çökmez, eksik gösterir. Ölçülmesi gereken bir sonraki
-// adım, ama bugünkü hâl "hiç yabancı başkent yok"tan iyi.
+// ait olduğu pencereler süzülüyor.
+//
+// 🔴 29 Ağustos — ORHANGAZİ'nin istediği ölçüm yapıldı (arac/_baskent_ad_olcum.py,
+// salt-okur, 431 künye tarandı). SONUÇ, tahmin ettiğimden BAŞKA ÇIKTI:
+//     TAM eşleşen      : 160  (%37,1)
+//     KATLAMA eşleşen  :   6  (%1,4)  — Türkçe yazım farkı (aksan/ı-i)
+//     HİÇ eşleşmeyen   : 265  (%61,5)
+// ⚠️ AMA 265'in asıl sebebi Türkçe yazım EKSENİ DEĞİL — `baskent:` alanı
+// çoğu kayıtta TEK BİR ŞEHİR ADI DEĞİL, bir ZİNCİR/açıklama metni
+// ("Tebriz → Kazvin → İsfahan", "(göçebe, sabit başkent yok)", "çeşitli
+// merkezler" gibi): 110 zincir · 23 "TDV belirtmemiş" · 4 göçebe · yalnız
+// 128'i TEK AD gibi görünüp yine de eşleşmiyor (çoğu, atlasın o coğrafyada
+// hâlâ seyrek nokta taşımasından — Amerika/Güneydoğu Asya/Afrika).
+// ⇒ Bu YAPISAL bir sınır: `baskent:` alanı bir LOOKUP ANAHTARI olarak
+// tasarlanmamış, bir DÜZYAZI özeti. Kod bunu "düzeltemez" — yalnız
+// TEK-AD gibi görünen ve GERÇEKTEN eşleşen adayları YAKALAR.
+//
+// KATLAMA — ölçülüp İKİ YÖNDE sınandı: yerleşim havuzunun kendi içinde
+// (2610 ad) tek bir katlama çakışması var (Kudüs/Kudus, ikisi de AYNI
+// yer) ve `baskent:`in 6 katlama eşleşmesinin 6'sı da gerçek aynı-yer
+// varyantı (Lâhîcân/Lâhîcan, Sennâr/Sennar, El-Faşir/El-Fâşir, Oyo-İle/
+// Oyo-Ile, Bharatpûr/Bharatpur, Bhopâl/Bhopal) — hiçbiri "Sam≠Şam" tipi
+// YANLIŞ POZİTİF değil. Yine de tek adaylıkla sınırlandı (aşağı bak):
+// katlanmış anahtar BİRDEN ÇOK farklı gerçek yere düşüyorsa TAHMİN
+// EDİLMİYOR — sessizce boş kalıyor, yanlış şehri işaretlemek boş
+// bırakmaktan kötüdür.
+var TR_KATLA_TABLO = { "I":"i","ı":"i","İ":"i","i":"i", "Ş":"s","ş":"s",
+  "Ğ":"g","ğ":"g", "Ç":"c","ç":"c", "Ö":"o","ö":"o", "Ü":"u","ü":"u",
+  "Â":"a","â":"a", "Î":"i","î":"i", "Û":"u","û":"u" };
+function trKatla(s) {
+  if (!s) return s;
+  var out = "";
+  for (var i = 0; i < s.length; i++) {
+    var c = s[i];
+    out += TR_KATLA_TABLO[c] !== undefined ? TR_KATLA_TABLO[c] : c.toLowerCase();
+  }
+  return out;
+}
 var YABANCI_BASKENT_PENCERE = {};   // şehir adı -> [{fi, ti}, ...]
 (function yabanciBaskentPencereleriKur() {
-  var ham = {};
-  (window.YERLESIMLER || []).forEach(function (y) { if (!ham[y.ad]) ham[y.ad] = y; });
+  var ham = {}, hamKatli = {};
+  (window.YERLESIMLER || []).forEach(function (y) {
+    if (!ham[y.ad]) ham[y.ad] = y;
+    var k = trKatla(y.ad);
+    (hamKatli[k] = hamKatli[k] || []).push(y);
+  });
   (window.DEVLETLER || []).forEach(function (d) {
     if (!d.baskent) return;
     var y = ham[d.baskent];
+    if (!y) {
+      // Katlanmış anahtar TEK bir gerçek yere düşüyorsa güven; birden
+      // çoksa (örn. ölçülen Kudüs/Kudus gibi bir çakışma ailesi başka bir
+      // adla tekrarlanırsa) hangisi olduğu belirsizdir, TAHMİN ETME.
+      var aday = hamKatli[trKatla(d.baskent)];
+      if (aday && aday.length === 1) y = aday[0];
+    }
     if (!y || !y.s || !y.s.length) return;
     var pl = [];
     y.s.forEach(function (p) {

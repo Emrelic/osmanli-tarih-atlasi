@@ -100,6 +100,90 @@ VERİ şema kararları (0019/H-0041, 0035/H-0093/94/98), RENK paleti
 
 ---
 
-**Teslim:** 26/26 okundu · 3 kod değişikliği (js/app.js + css/style.css) ·
+**Teslim (1. tur):** 26/26 okundu · 3 kod değişikliği (js/app.js + css/style.css) ·
 `node --check` ile sözdizimi doğrulandı · `CEVAP.json`a dokunulmadı ·
 `denetim/HUKUM-ARAYUZ.json` yazıldı.
+
+---
+
+# 2. TUR (29 Ağustos) — ORHANGAZİ'nin M-1831 talebi
+
+## A. `baskent:` ↔ `ad:` eşleşme ölçümü
+
+Betik: `arac/_baskent_ad_olcum.py` (salt-okur, tek kullanımlık, `arac/girdi.py`nin
+kendi `yukle()`/`oku_devletler()` fonksiyonlarını kullanıyor — kendi ayrıştırıcımı
+YAZMADIM, `CLAUDE.md §11`).
+
+```
+baskent: alanı dolu künye: 431
+  TAM eşleşen      : 160  (%37,1)
+  KATLAMA eşleşen  :   6  (%1,4)
+  HİÇ eşleşmeyen   : 265  (%61,5)
+```
+
+🔴 **Asıl bulgu, tahmin edilenden BAŞKA çıktı.** "Dördüncü Türkçe yazım
+tuzağı" değil — `baskent:` alanı çoğu kayıtta **tek bir şehir adı bile
+değil**, bir zincir/açıklama metni:
+
+```
+265'in alt sınıfları:
+  ZİNCİR/ÇOK-DEĞERLİ (→ · / · ,)     : 110   "Tebriz → Kazvin → İsfahan"
+  VERİ YOK (TDV belirtmemiş / "—")   :  23   "— (TDV'de belirtilmemiş)"
+  GÖÇEBE/SABİT BAŞKENTSİZ            :   4   "(göçebe, sabit başkent yok)"
+  TEK AD GİBİ GÖRÜNÜP YİNE DE YOK    : 128   çoğu Amerika/GD Asya/Afrika —
+                                              atlasın o coğrafyada hâlâ
+                                              seyrek nokta taşımasından
+```
+⇒ Bu **yapısal bir sınır**: `baskent:` bir arama anahtarı olarak
+tasarlanmamış. Kod bunu "düzeltemez" — yalnız tek-ad-gibi-görünen ve
+gerçekten eşleşen adayları yakalayabilir.
+
+**Katlama İKİ YÖNDE sınandı** (ORHANGAZİ'nin istediği gibi):
+- Yerleşim havuzunun (2610 ad) **kendi içinde** tek bir katlama çakışması
+  var: `Kudüs`/`Kudus` — ikisi de AYNI yer (Kudüs), yanlış pozitif değil.
+- `baskent:`in 6 katlama eşleşmesi tek tek incelendi: Lâhîcân/Lâhîcan ·
+  Sennâr/Sennar · El-Faşir/El-Fâşir · Oyo-İle/Oyo-Ile · Bharatpûr/Bharatpur
+  · Bhopâl/Bhopal — **6'sı da gerçek aynı-yer varyantı**, hiçbiri
+  "Sam≠Şam" tipi yanlış pozitif değil.
+
+**Uygulandı:** `js/app.js`e `trKatla()` + `hamKatli` indeksi eklendi.
+Katlanmış anahtar **TEK** bir gerçek yere düşüyorsa kullanılıyor; birden
+çoksa TAHMİN EDİLMİYOR (sessizce boş kalıyor — yanlış şehri işaretlemek
+boş bırakmaktan kötü). Bu, 6 katlamalı kaydı kurtarıp toplamı 160→166'ya
+çıkarıyor (%38,5). `node --check` ile sözdizimi doğrulandı.
+
+📌 Aynı katlama fonksiyonu `arac/_yer_ara.py`nin de işine yarayabilir
+(ORHANGAZİ'nin notu) — ama o Python, bu JS; ortak olan MANTIK ve harf
+tablosu, `arac/_baskent_ad_olcum.py`nin başındaki `CIFT` sözlüğünde aynen
+duruyor, o dosyaya taşınabilir.
+
+## B. 16 (+3 olculecek) "sırada"/"olculecek" kalemin AÇILMA ŞARTLARI
+
+Her satır **ölçülebilir bir eşik**, "şuna bağlı" değil. Tam gerekçeleri
+`denetim/HUKUM-ARAYUZ.json`da.
+
+```
+0002/H-0005  → renkler.py'ye L* taban kuralı eklenip bizans o tabanın üstüne çıkınca
+0008/H-0001  → TDV sahibataogullari'ndan sahibata'nın ara tarihleri bulununca
+0010/H-0001  → YOK — bu atlas oturumunun kapsamına hiç girmez (farklı kod tabanı)
+0019/H-0041  → savaslar.js'de en az 1 kayıtta "planlanan" hâli (örn. plan:true) yazılınca
+0019/H-0046  → savaslar.js'de tur:"gorusme" eşleşmesi 0'dan 1'e çıkınca
+0019/H-0058  → savaslar.js'e Boğurdelen kuşatması (1521-07-07·44,75/19,69) eklenince
+0027/H-0006  → (İKİ KOŞUL) İttifak üyeleri/başkent listesi YAZILINCA + rota-bükme fonksiyonu EKLENİNCE
+0033/H-0010  → Kandehar'a TDV kaynaklı ek nokta eklenince (bulunamazsa gerek-yok'a döner)
+0034/H-0022  → 0035/H-0034+H-0066 taksonomisi onaylanıp ilk örnek etiket atanınca
+0034/H-0040  → 0034/H-0022 ile AYNI
+0035/H-0034  → ETIKETLEME "konu/afet" şemasını tanımlayıp ilk örneği yazınca
+0035/H-0035  → TDV'den 1769-74 Hotin ikmal hattı bulununca (ya da "bulunamadı" ile kapanınca)
+0035/H-0059  → olaylar_ek.js:45'ten "Teke" ifadesi çıkarılınca
+0035/H-0066  → 0035/H-0034 ile AYNI
+0035/H-0077  → 1737/1788 Rus seferi güzergahı kaynaktan doğrulanınca
+0035/H-0081  → Çeşme Baskını maddesine tur:"deniz" eklenince
+0035/H-0090  → savaş-ilanı/yığınak/işgal sınıfından en az 1 örnek madde yazılınca
+0035/H-0093  → savaslar.js'e Napolyon'un Akka harekâtı kaydı eklenince
+0035/H-0094  → savaslar.js'e Vehhabî hareketleri kaydı eklenince
+0035/H-0098  → savaslar.js'e Tosun Paşa'nın Hicaz seferi kaydı eklenince
+```
+
+**Teslim (2. tur):** ölçüm + 1 ek kod değişikliği (trKatla), 26 maddenin
+tamamına açılma şartı yazıldı, `denetim/HUKUM-ARAYUZ.json` güncellendi.
