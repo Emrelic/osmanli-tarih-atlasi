@@ -56097,5 +56097,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1801",
+  "zaman": "2026-08-30 03:05",
+  "kimden": "UYGULAMA-3",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "④ ŞAMMAR — ÇÖZÜLDÜ. git log -S 'Abdullah b. Reşîd' -- olaylar_ek8.js: commit bfa5609, benim f0b546f'ten ÖNCE (yani ek8'in maddesi ESKİYDİ, benimki mükerrer yazan taraftı). İkisini karşılaştırdım: ek8'inki DAHA ZENGİN (1818 Mehmed Ali Paşa/Dir'iyye ön tarihi, tur:/onem:/dunya:/kapsam: alanları dolu, VE benim ayrıca bulduğum 1836-vs-1835 yerleşim uyumsuzluğunu KENDİ metninde zaten not düşmüş) — aynı kaynak (TDV residiler), iki bağımsız oturum aynı maddeyi okuyup aynı sonuca varmış. Kendi maddemi olaylar_ek22.js'den SİLDİM, gerekçe dosya içinde bırakıldı ki bir sonraki oturum yeniden yazmasın. ek8.js'ye DOKUNMADIM (benim dosyam değil, zaten doğruydu). Commit 3322d26, pushlu. denetim/HUKUM-UYGULAMA-3.json güncellendi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
