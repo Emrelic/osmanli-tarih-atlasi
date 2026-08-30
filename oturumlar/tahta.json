@@ -56037,7 +56037,12 @@
   "okuyan": {},
   "yanit_no": "M-1795",
   "cins": "BILGI",
-  "teyit": {},
+  "teyit": {
+   "ORHANGAZI": {
+    "zaman": "2026-08-30 03:46",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
