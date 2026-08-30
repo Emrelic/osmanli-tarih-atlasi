@@ -17,7 +17,7 @@
 window.OLAYLAR_EK21 = [
 
   { t: "1811-04-01",
-    b: "Rusların Niğbolu'dan çekilişi — kale havaya uçuruldu",
+    b: "Niğbolu'nun geri alınışı — altı aylık Rus işgali sona erdi",
     k: "savas",
     onem: 2,
     dunya: 0,
@@ -31,7 +31,7 @@ window.OLAYLAR_EK21 = [
     kaynak: "nigbolu", duygu: ["⚔️"] },
 
   { t: "1811-05-01",
-    b: "Rusların Silistre'den çekilişi — surlar havaya uçuruldu",
+    b: "Silistre'nin tahliyesi — Tuna'nın orta kalesi surları yıkılarak bırakıldı",
     k: "savas",
     onem: 2,
     dunya: 0,
@@ -45,7 +45,7 @@ window.OLAYLAR_EK21 = [
     kaynak: "silistre", duygu: ["⚔️"] },
 
   { t: "1811-06-01",
-    b: "Rusların Rusçuk'tan çekilişi — Kutuzov istihkâmı havaya uçurdu",
+    b: "Kutuzov Rusçuk'u boşalttı — dokuz aylık tutuş bozgunla bitti",
     k: "savas",
     onem: 3,
     dunya: 0,
