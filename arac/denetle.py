@@ -602,11 +602,75 @@ BEKLENEN_CELISKI_UST_SINIR = 387
 HARF = "a-zçğıöşüâîû"
 
 
+def _yorumsuz(js):
+    """JS metninden yorumları çıkarır — DİZGE FARKINDA.
+
+    🔴 30 AĞUSTOS 2026 — bu fonksiyon bir KÖRLÜKTEN doğdu. `oku_pencere`
+    yorumları şöyle siliyordu:
+        "\\n".join(l for l in js.split("\\n") if not l.strip().startswith("//"))
+    yani yalnız **satır BAŞINDAKİ** yorumları. `savaslar.js`in yorumları
+    ise SATIR SONUNDA:
+        { t:"1285-01-01", ... },  // koordinat yerlesimler.js'ten: Kulacahisar
+    ve içlerinde TÜRKÇE KESME İŞARETİ var (`20'sinde` · `js'ten`).
+    Her biri tarayıcının gözünde bir DİZGE AÇIYOR; gövdede 309 tek tırnak
+    ölçüldü — TEK SAYI ⇒ tarayıcı hayalî bir dizgede kalıp kapanış `]`ini
+    hiç görmüyordu.
+
+    ⇒ `savaş senkronu` dalı AYLARDIR ölçmüyordu ve kimse fark etmedi,
+      çünkü hata satırı yolu 60 karakterde kırpıp `"...\\data\\s"` diye
+      basıyordu. **Ölçemeyen bir denetim, temiz denetim değildir.**
+    🟢 Dosya SAĞLAMDI: `node --check` temiz; node okuyunca SAVASLAR 171 ·
+      SERILER 16 · ANTLASMALAR 41 · SEFERLER 61.
+
+    ⚠️ `//` ve `/*` yalnız DİZGE DIŞINDAYKEN yorumdur — yoksa
+      `"https://..."` içindeki eğik çizgiler satırın kalanını yerdi.
+    """
+    cik = []
+    dizge = None
+    kacis = False
+    i = 0
+    n = len(js)
+    while i < n:
+        c = js[i]
+        if kacis:
+            cik.append(c)
+            kacis = False
+            i += 1
+            continue
+        if dizge:
+            cik.append(c)
+            if c == "\\":
+                kacis = True
+            elif c == dizge:
+                dizge = None
+            i += 1
+            continue
+        if c in "\"'`":
+            dizge = c
+            cik.append(c)
+            i += 1
+            continue
+        if c == "/" and i + 1 < n:
+            if js[i + 1] == "/":
+                j = js.find("\n", i)
+                if j < 0:
+                    break
+                i = j                      # satır sonu KORUNUR
+                continue
+            if js[i + 1] == "*":
+                j = js.find("*/", i + 2)
+                i = (j + 2) if j >= 0 else n
+                continue
+        cik.append(c)
+        i += 1
+    return "".join(cik)
+
+
 def oku_pencere(yol, degisken):
     """`window.<degisken> = [ ... ];` biçimindeki dosyayı JSON'a çevirip döker.
     Yöntem uret_petek.py'nin 274-281. satırlarından birebir alınmıştır."""
     js = open(yol, encoding="utf-8").read()
-    js = "\n".join(l for l in js.split("\n") if not l.strip().startswith("//"))
+    js = _yorumsuz(js)
     anahtar = f"window.{degisken} = "
     govde = js[js.index(anahtar) + len(anahtar):]
     # 🔴 ESKİDEN `govde.rindex("]")` idi: dosyanın SON köşeli parantezi.
@@ -616,8 +680,33 @@ def oku_pencere(yol, degisken):
     # olduğu yer veriyi okunamaz sanmaya yol açıyordu; veri sağlamdı.
     # Şimdi EŞLEŞEN parantez bulunuyor — metin içindeki köşeli parantezler
     # sayılmasın diye dizge ve kaçış farkındalığıyla.
+    # 🔴 30 AĞUSTOS 2026 — YORUM FARKINDALIĞI EKLENDİ, ve sebebi ölçüldü.
+    #   Bu dal AYLARDIR "savaş senkronu ÖLÇÜLEMEDİ" diyordu ve kimse
+    #   bakmadı — çünkü hata satırı yolu 60 karakterde kırpıyordu
+    #   ("...\data\s") ve okunmuyordu bile.
+    #
+    #   TEŞHİS: yukarıdaki satır yorumları siliyor AMA yalnız satır
+    #   BAŞINDAKİLERİ (`l.strip().startswith("//")`). `savaslar.js`in
+    #   yorumları SATIR SONUNDA:
+    #       { t:"1285-01-01", ... },  // koordinat yerlesimler.js'ten: Kulacahisar
+    #   ve içlerinde TÜRKÇE KESME İŞARETİ var: `20'sinde` · `js'ten` ·
+    #   `22'sinde`. Her biri tarayıcının gözünde bir DİZGE AÇIYOR.
+    #   Ölçüldü: gövdede 309 tek tırnak — TEK SAYI ⇒ tarayıcı hayalî bir
+    #   dizgenin içinde kalıyor ve kapanış `]`ini HİÇ görmüyor.
+    #
+    # 🟢 Dosya SAĞLAMDI: `node --check` temiz, node okuyunca
+    #   SAVASLAR 171 · SERILER 16 · ANTLASMALAR 41 · SEFERLER 61.
+    #   Kusur veride değil AYRIŞTIRICIDAYDI — ve bu, dosyanın kendi
+    #   yorumunun zaten anlattığı hatanın (`rindex("]")`) kardeşi.
+    #
+    # ⚠️ `//` yalnız DİZGE DIŞINDAYKEN yorum sayılır — yoksa
+    #   `"https://..."` içindeki çift eğik çizgi satırın kalanını yerdi.
     derinlik, i, dizge, kacis = 0, 0, None, False
+    _atla = 0
     for i, c in enumerate(govde):
+        if _atla:
+            _atla -= 1
+            continue
         if kacis:
             kacis = False
             continue
@@ -628,6 +717,20 @@ def oku_pencere(yol, degisken):
             if c == dizge:
                 dizge = None
             continue
+        # ── dizge DIŞINDAYIZ: yorum mu?
+        if c == "/" and i + 1 < len(govde):
+            if govde[i + 1] == "/":
+                _son = govde.find("\n", i)
+                if _son < 0:
+                    break
+                _atla = _son - i
+                continue
+            if govde[i + 1] == "*":
+                _son = govde.find("*/", i + 2)
+                if _son < 0:
+                    break
+                _atla = _son + 1 - i
+                continue
         if c in "\"'":
             dizge = c
         elif c == "[":
