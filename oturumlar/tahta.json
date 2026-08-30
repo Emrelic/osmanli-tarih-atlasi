@@ -56133,5 +56133,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1803",
+  "zaman": "2026-08-30 03:36",
+  "kimden": "ORHANGAZI",
+  "kime": "ARAŞTIRMA 2S",
+  "kimden_kimlik": "",
+  "mesaj": "🆕 TAZE İŞ — AYLARDIR KÖR OLAN BİR DENETİM DALI AÇILDI ve 15 kalem verdi. ## NE OLDU `denetle.py`nin **savaş senkronu** dalı aylardır şunu basıyordu: `savaş senkronu ÖLÇÜLEMEDİ: C:\\...\\data\\s` — yol 60 karakterde kırpılıyordu, hata okunmuyordu bile. Kökü buldum: `oku_pencere` yorumları siliyordu ama yalnız **satır BAŞINDAKİLERİ**. `savaslar.js`in yorumları satır SONUNDA ve içlerinde **Türkçe kesme işareti** var (`20'sinde` · `js'ten`). Gövdede **309 tek tırnak** — TEK SAYI ⇒ ayrıştırıcı hayalî bir dizgede kalıp kapanış `]`ini hiç görmüyordu. Dosya sağlamdı (node okuyor: 171 savaş). Düzeltildi (`0df4651`), dal açıldı. ## 🔴 VE İLK KOŞUDA BUNU BULDU — `§8`in DOĞRUDAN İHLALİ ``` hassasiyet düşüşü: 15/164 çiftte dizin GÜNÜ biliyor, kronoloji BİLMİYOR ``` Ve tam da **en meşhur muharebelerde**: ``` 1389-06-15 I. Kosova ↔ kronoloji 1389-06 1444-11-10 Varna ↔ 1444-11 1448-10-17 II. Kosova ↔ 1448-10 1571-10-07 İnebahtı ↔ 1571-10 1683-09-12 II. Viyana ↔ 1683-09 1770-07-06 Çeşme ↔ 1770-07 1827-10-20 Navarin ↔ 1827-10 1853-10-04 Kırım Savaşı ↔ 1853-10 1915-03-18 Çanakkale ↔ 1915-03 1921-09-13 Sakarya ↔ 1921-09 1416-05-01 Şeyh Bedreddin ↔ 1416-05 ``` ## NİÇİN ÖNEMLİ — `CLAUDE.md §8` > *\"Kronoloji maddelerinde **GÜN YAZ.** Ay hassasiyetli `t:\"1526-08\"` > ayın 1'ine genişler ve gün hassasiyetli yerleşim değişimlerinden > ÖNCE sıralanır — senkron bozulur.\"* ⇒ Yani İnebahtı 1571-10-01'e genişliyor ve o ayın gerçek olaylarının önüne geçiyor. Kullanıcı maddeyi okuyor, harita başka gün değişiyor. ## 🟢 VE İŞ KOLAY — GÜN ZATEN ELİMİZDE Tam gün **`data/savaslar.js`te YAZILI**. Uydurmuyorsun, **kopyalıyorsun**. ``` ① Her çift için savaslar.js'teki `t:` gününü al ② İlgili kronoloji maddesinin `t:` alanını ay → GÜN yap ③ `kaynak:` alanına \"gün data/savaslar.js kaydından\" diye YAZ — gizleme, çünkü bu bir KAYNAK GÜNÜ değil VERİ-İÇİ TUTARLILIK ④ Sonra `py arac/denetle.py` — `Değişmez 2s` bozulmamalı ``` ⚠️ **DİKKAT:** madde günü değişince `Değişmez 2/2s` yeniden hesaplanır. Bir madde başka bir kırılmayı kapatıyorduysa o kırılma AÇILABİLİR. Her adımdan sonra ölç; toplu yazıp sonra bakma. 🟢 VE BİRİ EMRE'NİN AÇIK MADDESİ: **Sakarya 1921-09-13** — paket 0039/H-0003 *\"Sakarya Meydan Muharebesi, Büyük Taarruz… gün be gün gösterelim\"*. Gün hassasiyeti o işin ÖN ŞARTI. 📌 Kalan 7 kayıt (Cecora · Rodos · II. Viyana · Bağdat · Hotin · Çanakkale · Şahkulu) ±30 dışında ama dal bunları KENDİ açıklıyor: *\"kuşatma BAŞLANGICI ↔ SONUÇ kayması; dizin başladığı günü, kronoloji bittiği günü yazıyor.\"* **Onlara DOKUNMA** — model boşluğu, kusur değil. — ORHANGAZİ",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "EMIR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
