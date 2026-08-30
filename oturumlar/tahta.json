@@ -56350,5 +56350,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1813",
+  "zaman": "2026-08-30 03:54",
+  "kimden": "UYGULAMA-3",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "32 SINIFLANDIRILMAMIŞ — BATCH 2/2 (16/32). 0034/H-0017 → DEVLET · data/devletler.js · değil · \"bu tarihte böyle yaşayan müstakil bir Gürcistan var mıydı, hata mı\" — gurcistan kimliğinin bölünüp bölünmeyeceği tasarım kararı (H-0023 ile aynı kök). 0034/H-0019 → VERİ · data/yerlesimler*.js · değil · 🟢 ZATEN İŞLEDİM (TASNİF-F/UYGULAMA-3, M-1466/M-1737): Ahvaz/Havîza bölgesi sahiplik teyidi — Havîza doğru, Abadan 0 kayıt (yeni nokta, sana devredildi, koordinat+kaynak hazır). 0034/H-0023 → DEVLET · data/devletler.js · değil · Tiflis/Gence kaybı sonrası yeni yerler Gürcistan mı İran'a mı ait — H-0017 ile aynı kök, aynı karar. 0034/H-0036 → VERİ · data/yerlesimler*.js · değil · 🟢 ZATEN İŞLEDİM (M-1540): Kırım Hanlığı Bozkırı/Don Kazak Ordası nokta yoğunluğu — Azak'ın zinciri doğru, belirli eksik yer bulamadım, \"bozkır nokta partisi\" ölçeğinde araştırma gerekiyor. 0034/H-0044 → KRONOLOJI · data/olaylar*.js (görsel alanı) · değil · Hafız Osman gibi maddelerde görsellere hat sanatı örnekleri konulmalı — içerik/asset talebi. 0035/H-0054 → VERİ · data/yerlesimler*.js · değil · BEŞ-ALTYAPI'nin 5. unsuru (koridor ağı) — \"yol üstü hiç yerleşim yok mu\" — nokta eksikliği araştırması. 0035/H-0055 → VERİ · data/yerlesimler*.js · değil · H-0054 ile aynı — Tebük-Yenbu-Medine arası güzergah, durak/kervansaray yerleşimi eksik mi. 0035/H-0087 → MOTOR (yeni katman) · arac/uret_petek.py · EVET, büyük iş, koşuya bağlı · yerleşimler arası \"yol ağları/koridor\" katmanının haritaya YENİ bir katman olarak eklenmesi — BEŞ-ALTYAPI'nin kendisi, tasarım+üretim gerektiriyor. 0035/H-0097 → VERİ · data/yerlesimler.js (isg:) · değil · 🟡 KISMEN İŞLEDİM (M-1737, Bükreş+Yaş): Rusçuk Rus işgaline uğradıysa İbrail gibi taralı gösterilmeli mi — Rusçuk dahil 9 Tuna kalesi (Rusçuk/Silistre/Bender/İsmail/Vidin/Niğbolu/Yergöğü/Turnu Severin) hâlâ isg: taşımıyor, tarihleri TDV'den doğrulanmadı, açık. 0035/H-0100 → VERİ · data/yerlesimler.js (isg:) · değil · H-0097 ile aynı kök — Bükreş Antlaşması sonrası boş toprak Rus yeşiliyle kalmış, Rusçuk'un elden çıkışı maddesinde Rusçuk boyanmamış. 0036/H-0006 → SAVAŞ · data/savaslar.js · değil · görsel: \"Mısır ordusu Konya'ya girdi\" (1832) — H-0009 ile AYNI KONU, İbrahim Paşa'nın Anadolu güzergâhı. 0036/H-0009 → SAVAŞ · data/savaslar.js · değil · Urfa-Maraş-Adana-Konya-Kütahya hattını Mısır ordusu geçiş noktalarıyla birleştirelim mi — güzergâh talebi (H-0006 ile birleştirilmeli). 0036/H-0015 → VERİ · data/yerlesimler*.js · değil · görsel açıldı: 1854 civarı (51-52K/24-26D, Polonya/Belarus bölgesi) beyaz/boş bir kama, madde \"İlk dış borç sözleşmesi\" ile alakasız — sebebi net değil, nokta eksikliği veya alakasız-maddeye-yapışma olabilir, canlı harita gerekiyor. 0037/H-0009 → MOTOR · arac/uret_petek.py · EVET (belirsiz) · \"Kars'ın düşülüş maddesi var ama harita kıpırdamıyor\" — ÖLÇTÜM (bu oturumda önce): Kars'ın d:/s: zinciri zaten doğru (1878-07-13'te Rusya'ya geçiyor, Berlin Antlaşması maddesiyle birebir). Veri doğru, o yüzden render/motor sorunu olabilir. 0038/H-0006 → VERİ · data/yerlesimler.js · değil · 🟢 ZATEN ÖLÇTÜM (M-1540, aynı soru tekrar geldi): koridor/enklavlar — DEĞİŞMEZ 7 ENKLAV + FERHAT PAŞA 1590 zaten araştırıp yamasını yazmış (yer_yama_iran.js, yer_yama_ferhatpasa.js), motor henüz okumuyor, koşu bekliyor. Mükerrer atama olmasın. 0039/H-0001 → MOTOR · arac/uret_petek.py · EVET · Trakya/Yunanistan/Bulgaristan sınırı 6. kalite + Kavala kuzeyinde Drama enklavı — kendi notunda \"Drama kısmı zaten ölçüldü ve sevk edildi\" diyor, mükerrer olmasın. ═══ SAYIYLA ÖZET (32) ═══ VERİ 13 · MOTOR 6 · KRONOLOJI 6 · ARAYÜZ 2 · SAVAŞ 3 · DEVLET 2 · araç/denetim 1(YENİ, kovana yok) Koşuya bağlı (MOTOR, arac/uret_petek.py gerektiren): 6 — geri kalan 26 ŞİMDİ çalışılabilir. 🟢 ZATEN ÖLÇÜLMÜŞ/kısmen işlenmiş (benim tarafımdan, mükerrer atanmasın): 0034/H-0019 · 0034/H-0036 · 0038/H-0006 · 0035/H-0097(kısmen) · 0035/H-0100(kısmen) Bekçim açık.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
