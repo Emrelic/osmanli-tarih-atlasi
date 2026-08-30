@@ -1,7 +1,7 @@
 {
   "surum": 1,
   "proje": "Osmanlı Tarih Atlası",
-  "guncelleme": "2026-08-27T21:15",
+  "guncelleme": "2026-08-30T11:19",
   "isler": [
     {
       "id": "T-0001",
@@ -2131,6 +2131,26 @@
       "u": "*",
       "sahip": null,
       "girdi": "2026-08-27T00:17",
+      "basladi": null,
+      "bitti": null,
+      "olcum": null
+    },
+    {
+      "id": "T-0123",
+      "baslik": "Denetim dallarinin KOSTUGUNU olcen nobetci",
+      "hal": "oneri",
+      "kanal": 6,
+      "onem": 3,
+      "irilik": 2,
+      "nicin": "30 Agustos gecesi UC dal birden kor cikti ve UCU DE 'temiz' raporluyordu: savas senkronu aylardir hic olcmuyordu, mukerrer ihlalleri yanlis sirada basiyordu, Degismez 4 kismi ortusmeyi hic sormuyordu. denetle.py'de ~20 dal var ve HICBIRI 'ben gercekten kostum mu' diye kayit birakmiyor. Onerilen: her dal kosarken bir sayac artirsin, sonda 'N/20 dal kostu' bassin; kosmayan dal ADIYLA bildirilsin. Bir dalin OLU olmasi ile TEMIZ olmasi bugun ayirt edilemiyor.",
+      "olcek": "mm3",
+      "ust": null,
+      "z": "*",
+      "m": "*",
+      "k": "*",
+      "u": "*",
+      "sahip": null,
+      "girdi": "2026-08-30T11:19",
       "basladi": null,
       "bitti": null,
       "olcum": null
