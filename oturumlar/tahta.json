@@ -56296,5 +56296,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1810",
+  "zaman": "2026-08-30 03:54",
+  "kimden": "UYGULAMA-3",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "32 SINIFLANDIRILMAMIŞ — BATCH 1/2 (16/32), her satır PARTI.md'nin orijinal metni okunarak yazıldı. 0003/H-0009 → KRONOLOJI · data/olaylar*.js · koşuya bağlı DEĞİL · Fetret devri Timurlu valilikleri + hortlatılan beylikler kronolojisi, araştırma kalemi. (PARTI.md bulunamadı — eski format paket, dikkat: kutu'da yok.) 0019/H-0003 → VERİ · data/yerlesimler*.js · değil · Emre: \"Ankara Savaşı sonrası Doğu Anadolu haritası doğru mu\" — sahiplik teyidi. 0019/H-0023 → MOTOR(araç/denetim) · arac/denetle.py · değil (denetle.py kilitli DEĞİL, yalnız uret_petek/girdi/renkler kilitli) · Emre yeni bir denetim istiyor: \"hiçbir zaman çizelgesindeki noktada etiketsiz toprak olmamalı\", otomatik kontrol. 0022/H-0001 → VERİ · data/yerlesimler*.js · değil · dört sahiplik-teyidi sorusu: 1665 Parga/Korfu karşı kıyı, 1672 Çehrin/Lehistan, Yazlofça-Mejibuji-Bar Kamaniçe sonrası. 0023/H-0005 → VERİ · data/yerlesimler*.js · değil · 2. Viyana sonrası Simontorna/Kalocsa Budin'den önce mi sonra mı elden çıktı, senkron teyidi. 0024/H-0002 → VERİ · data/yerlesimler*.js (m: bölge alanı) · değil · dört alt-soru: Batum/Soçi→Trabzon bölgesi mantıklı mı, Erzurum/Aşkale kopukluğu, Kelkit/Tosya/Karapınar/Ulukışla/Ilgın bölgesiz görünüyor, İstanbul/Bursa/Kocaeli ortak bölüm. 0030/H-0001 → MOTOR · arac/uret_petek.py · EVET, koşuya bağlı (önceki notta \"çare YAZILMIŞ, UYGULANMAMIŞ\" deniyor) · koyu kırmızı = Bizans mavisi üstüne Osmanlı kırmızısı eklenme hatası. 0030/H-0002 → MOTOR · arac/uret_petek.py · EVET · Pelakanon Savaşı maddesinde Rumelihisarı/boğaz geçişi render hatası + Bizans mavisinin dolgu altında çekilmemesi (3 ayrı görsel hata). 0030/H-0005 → ARAYÜZ · js/app.js · değil · olay-yeri yuvarlak işaretin (isaretYanipSon) bazı maddelerde yanıp sönmemesi, tutarsızlık. 0030/H-0010 → ARAYÜZ · js/app.js · değil · aynı güne denk gelen iki kronoloji maddesi (Doğu Trakya ilerleyişi + Yeniçeri Ocağı kuruluşu) birlikte oynatılıyor, ayrı ayrı oynatılmalı — oynatma/kuyruk mantığı. 0031/H-0004 → VERİ · data/yerlesimler*.js · değil · Timur Devleti'nin bu tarihte bu bölgeleri alıp almadığı — özel araştırma isteniyor. 0032/H-0009 → KRONOLOJI · data/ekokuma.js / merak.js · değil · Topkapı Sarayı maddesine merak/ek okuma/mimari butonları — içerik talebi. 0032/H-0010 → KRONOLOJI · data/olaylar*.js (görsel/asset alanı) · değil · \"İlk Osmanlı altını basıldı\" gibi maddelerde padişah portresi yerine olayla ilgili görsel — hangi maddeye ne görsel konulacağını araştıran bir oturum isteniyor. 0032/H-0013 → KRONOLOJI · data/ekokuma.js / merak.js · değil · TÜM maddelere merak/ek okuma/sebep-sonuç/magazin/dış yankı butonları — genel talep, standart taksonomi. 0033/H-0013 → VERİ · data/yerlesimler*.js · değil · görsel açıldı: Songhay İmparatorluğu klasik \"pergel\" (yuvarlak petek) görünümü — nokta yoğunluğu düşük, bozkır/çöl nokta partisi ailesiyle aynı sınıf. 0033/H-0018 → SAVAŞ · data/savaslar.js · değil · Yavuz'un Tebriz harekâtı güzergâhı: hangi şehir hangi sırayla alındı, kronolojik sıralama + harita oynatma sırası buna göre düzenlensin. Bekçim açık, kalan 16 madde ikinci grupta geliyor.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
