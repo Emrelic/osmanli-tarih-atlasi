@@ -628,6 +628,75 @@ hiç sorulmuyordu: **911 dönem, 136'nın 6,7 katı.**
 
 ---
 
+## 3.11 `4d` ve `4s` İNDİ — sınav 8/8 · ve TAVAN HAREKETLİ VERİDE ALINDI
+
+*(30 Ağustos 2026, 04:0x-04:2x)*
+
+```
+4d  dönem devletin DOĞUMUNDAN ÖNCE başlıyor      461 dönem · 40 kimlik
+4s  dönem künyeyi TAMAMEN SARIYOR  (4c ∩ 4d)     140 dönem
+    ⇒ 4c yalnız 135 · 4d yalnız 321 · ikisi birden 140 · BİRLEŞİK 596
+```
+
+**AYRI KOVA, ve sebebi ÇARENİN YÖNÜ:**
+```
+4c dönem SONU künye sonundan sonra → çare: ardıl kimlik / dönemi KISALT
+4d dönem BAŞI künye başından önce  → çare: çoğu zaman künyeyi GENİŞLET
+```
+İki çare **zıt yönde**. Tek sayaçta birleşirlerse biri inerken öteki
+çıkar ve **toplam sabit kalır** — borç ödendiği hâlde tablo kıpırdamaz.
+
+`4s` **ayrı kova değil KESİŞİM**; çıktı bunu açıkça yazıyor (*"ÜÇÜ
+TOPLANMAZ"*). Teşhis değeri: bir dönem künyeyi tamamen sarıyorsa o kimlik
+**devlet olarak değil BÖLGE ETİKETİ olarak** kullanılıyordur — `§3.5`in
+`iran` vakası (künye Pehlevî İran'ı, veri ortaçağ Persia'sı).
+
+### 🔴 TAVAN, ALTINDAN AKAN BİR VERİDE ÇAKILDI
+
+`BEKLENEN_ASAN` **590 → 275**. Sebep bir düzeltme değil:
+```
+dal yazılırken sayı ON DAKİKA içinde  590 → 386 → 275
+sebep: başka bir oturum `rusya`nın 315 dönemini (toplamın %53'ü)
+       tam o sırada düzeltiyordu
+```
+⇒ **Tavan bir DOĞRULUK BEYANI değil bir BORÇ DAMGASIDIR** ve hareketli
+veride çakıldığı an bayatlar. Kendi kendini düzeltmesi `TAVAN GEVŞEK`
+uyarısına bırakıldı: ölçüm tavanın altına inince denetim bir sonraki
+oturuma *"bu sabiti indir"* der ve borç görünür kalır.
+
+### SINAV — 8/8, ve BİR SINAVIM ZAYIF ÇIKTI
+```
+✓ ATEŞLEME  4c 275 · 4d 461 · 4s 140      (gerçek veri)
+✓ GEÇME     4c 0 · 4d 0 — tolerans 400 → 400.000 gün ZORLANDI
+✓ SARAN her iki kovanın ALT KÜMESİ
+✓ 4 ile 4c/4d ortak kayıt 0 ⇒ ÇİFT SAYIM YOK
+✓ ATLAS_BASI muafiyeti CANLI
+```
+🔴 **Ve son sınavın ilk hâli hiçbir şey ispatlamıyordu:** muafiyeti
+GENİŞLETİP *"sayı artmalı"* demiştim; `461 = 461` çıktı — yani eşitlikle
+"geçti". Ters yönden zorlandı:
+```
+ATLAS_BASI 1000 → 4d 461      1281 → 461      1500 → 273      1700 → 146
+1281 öncesi doğan künye: 123  ⇒ muafiyet GERÇEKTEN eliyor
+```
+📌 **Eşitlikle geçen bir sınav, geçmiş sayılmaz.** `C13`ün yazılmamış
+ayağı: *bir zorlamanın sayıyı DEĞİŞTİRDİĞİNİ de görmek gerekir.*
+
+### ⚠️ VE BİR `§7` VAKASI — kodum BAŞKASININ COMMIT'İYLE indi
+
+Çalışma ağacındaki düzenlemelerim, ben commit etmeden önce başka bir
+oturumun commit'ine (`b72d882` — *"DENETIM BILINEN_AYRI…"*) dâhil olup
+push'landı. **Kod kaybolmadı** (`git diff origin/main` boş), ama
+**gerekçesi git geçmişine geçmedi**: sınav sonuçları, tavanın hareketli
+veride alındığı, "soru sayısı değil" cümlesinin niçin konduğu — hiçbiri
+o commit mesajında yok. Bu bölüm onların kaydıdır.
+📌 `CLAUDE.md §7`nin tam tarif ettiği hâl: *"git index PAYLAŞILIYOR; yol
+adı yazılmazsa başka bir oturumun sahnelediği dosya senin commit'ine
+girer."* Bu sefer ters yönde oldu — **benim dosyam başkasının commit'ine
+girdi** — ve zarar veri değil **kayıt** kaybıydı.
+
+---
+
 ## 4. ÖLÇMEDİĞİM ŞEYLER — açıkça
 
 ```
