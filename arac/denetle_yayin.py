@@ -1081,7 +1081,25 @@ def main():
         print("  i %d dosya ARA ÇIKTI (üretim aracı tüketir, tarayıcı "
               "bilerek yüklemez):" % len(ara_bulunan))
         for y in ara_bulunan:
-            print("      %-34s %s" % (y, ARA_CIKTI[y]))
+            # 🔴 30 AĞUSTOS 2026 — BURASI ÇÖKÜYORDU: `ARA_CIKTI[y]`.
+            # Yukarıda (satır ~1058) bir dosya İKİ yoldan bu listeye
+            # girebiliyor: ① `ARA_CIKTI` sözlüğünde adıyla yazılıysa
+            # ② `_ARA_DESENLER`den bir REGEX'e uyuyorsa. Ama basım yalnız
+            # ①'i varsayıyordu ⇒ desenle giren ilk dosyada `KeyError`.
+            # Vaka: `data/yer_yama.js` (332 KB, 23 Ağustos) — `yer_yama_*`
+            # ailesinin SONEKSİZ üyesi. Kardeşlerinin hepsi (43 dosya)
+            # aynı desene uyuyordu; çöken, alfabetik olarak İLK gelendi.
+            # ⚠️ Ve çöküş YAYIN KAPISINI komple durdurdu: dosya dökümü
+            # basılıyor, sürüm damgası ve kalan denetimler HİÇ koşmuyordu.
+            # 📌 Bir süzgeci iki girişli yapıp çıkışı tek girişli bırakmak
+            # — `§11`in "ölçemediğini eleyen süzgeç" ailesinin basım yüzü.
+            _ac = ARA_CIKTI.get(y)
+            if _ac is None:
+                for _rx, _neden in _ARA_DESENLER:
+                    if _rx.match(y):
+                        _ac = _neden
+                        break
+            print("      %-34s %s" % (y, _ac or "desen eşleşmesi (gerekçe yazılmamış)"))
 
     # sürüm damgası tutarlılığı: hepsi aynı ?v=rNN taşımalı
     damgalar = set(re.findall(r'\?v=(r\d+)', html))
