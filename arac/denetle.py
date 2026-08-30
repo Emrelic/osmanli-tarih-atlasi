@@ -1771,7 +1771,35 @@ D7_ADA_MUAF = frozenset((
 # 📌 İkinci kez aynı desen: doğru dönem yazınca görünmez olan sorular
 #   GÖRÜNÜR oluyor. Sayının büyümesi gerileme değil.
 # ⚠️ Ve `denetim/BULGU-D7-YENI.md` bu turun kaydını da taşıyor.
-BEKLENEN_ENKLAV_SORGU = 494
+# 🟢 494 → 514, 30 Ağustos 2026 · DÜNYA PENCERESİ KOŞUSUNDAN SONRA.
+# Koordinatör *"20 kalem pencere açıldığı için doğdu"* dedi ve dürüstçe
+# ekledi: *"tek tek doğrulamadım, 14 satırlık örneklem."* ⇒ Çıkarım bir
+# SAYIYA bağlandı ve sınandı:
+#
+#   ESKİ PENCERE  unary_union([box(-12,-11,146,82), box(-25,60,-12,82)])
+#   514 ihlalin konumu tek tek sınandı (shapely):
+#       ESKİ pencere İÇİNDE : 492      ← 494'ün ALTINDA
+#       ESKİ pencere DIŞINDA:  22
+#       konumu bulunamayan  :   0
+#
+# ⇒ Eski coğrafyada ARTIŞ YOK, **2 AZALMA var.** Artışın tamamı yeni
+#   çizilen dünyadan geliyor: Maní · Zaachila · Cholula · Puebla ·
+#   Iximché · Utatlán (Meksika-Guatemala) · Oneida · Onondaga (İrokua).
+#   Hiçbiri eski L-şeklinin içinde değil. Çıkarım DOĞRULANDI.
+#
+# 🔴 VE TAVANI YÜKSELTMEK BU SEFER MEŞRU, ÇÜNKÜ ÖLÇÜLDÜ. Aynı gece bir
+# simülasyon REDDEDİLMİŞTİ (`zend` künyesini 1796'ya çekmek `4c`yi 590 →
+# 461 yapıyordu) çünkü orada sayıyı düşüren şey YANLIŞI MEŞRULAŞTIRMAKTI.
+# Buradaki fark ölçüde: orada veri yanlıştı, burada COĞRAFYA BÜYÜDÜ.
+# *Tavanı yükseltmek de düşürmek de, ancak ölçüm neyin değiştiğini
+#  söylediğinde meşrudur.*
+#
+# ⚠️ VE BİR KÖR NOKTA BIRAKIYOR — bir sonraki ölçüm bunu bilsin:
+#   Tek bir 514 tavanı, ARTIK İÇERİDE BİR GERİLEMEYİ GİZLEYEBİLİR:
+#   içerideki 492 → 512'ye çıkarken dışarıdaki 22 → 2'ye inerse toplam
+#   yine 514 olur ve denetim TEMİZ der. ⇒ Bir sonraki tur içerideki
+#   sayıyı AYRICA ölçsün; bugünkü taban **içeride 492 · dışarıda 22**.
+BEKLENEN_ENKLAV_SORGU = 514
 
 
 def _d7_km(a, b):
