@@ -1363,7 +1363,29 @@ def degismez3(Y):
 # kullanıyordu. Yedi dönem taşındı, uydurma YOK: var olan künyeye geçiş.
 # ⚠️ Sınırı AŞAN 20 dönem (1881 önce başlayıp sonra biten) DOKUNULMADI —
 # onları bölmek bir tarih kararıdır, mekanik iş değil.
-BEKLENEN_HAYALET = 136
+# 🟢 136 → 8, 30 AĞUSTOS 2026. VE DÜŞÜŞÜN GERÇEK OLDUĞU ÖLÇÜLDÜ.
+# Aracın kendi çift yönlü nöbetçisi *"TAVAN GEVŞEK — 128 puanlık gerçek
+# regresyon GÖRÜNMEZ"* diye öttü. İndirmeden ÖNCE tek soru soruldu:
+# **denetim mi sessizleşti, veri mi düzeldi?**
+#   ① `degismez4` akışı okundu: iki özgün dal HÂLÂ önce koşuyor ve
+#      `continue` ediyor ⇒ 4c/4d eklenmesi `ihlal` sayacını AZALTMIYOR.
+#   ② veri sayıldı:  `iran`  s: dönemi  →  7   (eskiden 424 yıllık
+#      ortaçağ kullanımı vardı, `§3.5`in adıyla saydığı kusur)
+#      `macaristan` 60 dönem ama hayalet **0** — `macaristan-naiplik`
+#      (20) açılmış · `romanya` 20 dönem, hayalet 0 — `romanya-kralligi`
+#      (28) açılmış.
+# ⇒ Düşüş VERİDEN. Denetim kapanmadı, borç ödendi.
+#
+# KALAN 8 — ve ikisi ayrı sınıf, bir sonraki oturum yeniden keşfetmesin:
+#   7 × `iran`     1281→1501/1510   künye Pehlevî İran'ı (1925-12-12)
+#                  Tarki · Ağraham burnu · Hürmüz · Kişm · Kiş ·
+#                  Dihistan ovası · Kızılarvat
+#                  ⇒ çare: ortaçağ kimliği (akkoyunlu · timurlu · safevi)
+#   1 × `lehistan` Varşova 1806-11-28 → 1815-06-09
+#                  künye 1795-10-24'te bitiyor (taksimler)
+#                  ⇒ bu VARŞOVA DÜKALIĞI (Napolyon), ayrı bir devlet —
+#                    çare künyeyi uzatmak DEĞİL, yeni künye açmak
+BEKLENEN_HAYALET = 8
 HAYALET_TOLERANS_GUN = 400      # ~13 ay: teslim gecikmesi meşru, yıllar değil
 
 
