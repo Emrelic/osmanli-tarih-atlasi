@@ -1,113 +1,150 @@
 // -*- coding: utf-8 -*-
-// YERLESIMLER_SINIR_DOGU -- HAZIR KITA OPUS 85, SINIR YERLEŞİMİ (oturumlar/SINIR-YERLESIMI.md)
+// YERLESIMLER_SINIR_DOGU -- REHBER 1923 (eski ad: HAZIR KITA OPUS 85)
 // KOL: DOĞU — Ermenistan · Gürcistan (SSCB) + İran (Kaçar) sınırları.
+// PİLOT: Türkiye–İran sınırı, 37,4–38,7 K kesimi (113 örnek ≈ 226 km).
 //
-// 🔴🔴 DİZİ KASTEN BOŞ. Sebep varsayım değil ÖLÇÜM — üç kayıt yazmıştım,
-// gerçek sınır poligonundan sapmayı ölçtüm ve ÜÇÜ DE SAPMAYI BÜYÜTTÜ.
-// Geri almadım (M-1760 ②): kayıtlar aşağıda tam metniyle duruyor, ölçüm
-// hangisinin ne zaman açılacağını da söylüyor.
+// 🔒 Bu dosya `girdi.py`ye HENÜZ BAĞLI DEĞİL (ORHANGAZİ bağlayacak) ⇒
+// buradaki noktalar BU KOŞUDA ÇİZİLMEZ, bir sonrakine kalır. Kusur değil GECİKME.
 //
-// ═══ ÖLÇÜM — vekil değil, gerçek sınır çizgisi ═══
-// veri-kaynak/ne_10m_admin_0_countries.geojson · TUR sınırı ~2 km'de bir
-// örneklendi · komşu poligona <1,5 km olanlar KARA sınırı sayıldı
-//   543 örnek ≈ 1086 km hat   (GEO 290 · ARM 300 · IRN 486 · AZE 10 km)
-// Sapma = |d(örnek,en yakın YABANCI) − d(örnek,en yakın OSMANLI)| / 2
-// ⚠️ Etiket: "BUGÜNKÜ sınıra sapma" — 1923 sınırına DEĞİL (M-1760 uyarısı).
-//    Bu kolda ikisi büyük ölçüde ÖRTÜŞÜYOR (1921 Kars Antlaşması ve 1913
-//    İstanbul Protokolü sınırları bugün de yürürlükte), Hatay/Musul cinsinden
-//    bir kayma YOK — ama örtüşme VARSAYILMADI, etiket yine de ayrı tutuldu.
+// ═══ NİÇİN BU KESİM SEÇİLDİ — üç engelin üçü de burada YOK ═══
+//   KİMLİK   `kacar` künyesi 1789-03-21 → 1923-10-29 CANLI (rusya hayaleti yok)
+//   ARTEFAKT 1932 Küçük Ağrı düzenlemesi 39,6 K'de — bu kesim onun GÜNEYİNDE
+//   KOORDİNAT GeoNames rehberi indirildi (Emre'nin onayıyla), koordinatlar
+//            ARTIK TAHMİN DEĞİL — ölçülmüş.
 //
-//   TABAN                          ortanca 6,37 km · en kötü 22,9 · ≤5km %35
-//   komşuya göre:  GEO 4,30 (en kötü  9,7 · ≤5km %63)   ← ZATEN İYİ
-//                  ARM 7,90 (en kötü 20,1 · ≤5km %22)
-//                  IRN 8,40 (en kötü 19,9 · ≤5km %27)
-//                  AZE 21,9 (en kötü 22,9 · ≤5km  %0)   ← EN KÖTÜ KESİM
-//   ⇒ Koordinatörün vekili (çift mesafesinin yarısı) bu kolda ~35-75 km
-//     sapma öngörüyordu; gerçek ortanca 6,37. İŞ SANILANDAN ÇOK AZ.
+// ═══ REHBER — ne indirildi, nerede duruyor ═══
+//   GeoNames allCountries.zip · CC BY 4.0 · 420.737.984 bayt (~401 MB)
+//   Last-Modified 31 Ağu 2026 · açılmış hâli 1.703 MB
+//   🔴 HAM DOSYA DEPONUN DIŞINDA (scratchpad) — git onu hiç görmüyor,
+//      siteye hiç ulaşmıyor. Depoya yalnız bu dosyadaki 4 kayıt giriyor.
+//   Kutuda (35-43,5 K / 25-46,5 D) P sınıfı yerleşim: 90.459
+//   Kara sınırına ≤50 km olan: 45.827  (TR 22.227 · SY 5.882 · IQ 3.921 …)
 //
-// ═══ 🔴 VE ASIL BULGU: TEK TARAFLI EKLEME SAPMAYI BÜYÜTÜR ═══
-// Kural ② ("çift olacak") bugüne kadar bir GEREKÇEYDİ; artık SAYISI var:
-//   +Çıldır tek                6,37 → 6,83   (≤5km %35 → %33)   KÖTÜLEŞTİ
-//   +Nehrî tek                 6,37 → 7,01   (≤5km %35 → %33)   KÖTÜLEŞTİ
-//   +üçü birden                6,37 → 7,29   (≤5km %35 → %31)   KÖTÜLEŞTİ
-// Sebep: sapma |dB−dA|/2. Sınıra YAKIN bir Osmanlı noktası eklemek dA'yı
-// küçültür; karşı yakada eşi yoksa dB aynı kalır ⇒ bisektör yabancı yakaya
-// İTİLİR. Yani tek taraflı nokta sınırı çizmez, "o devleti BÜYÜTÜR" —
-// şartnamedeki cümlenin birebir ölçülmüş hâli.
+// ═══ TAMPON 50 km — "kendin ölçerek seç" dendi, ÖLÇÜLDÜ ═══
+//   1923 sahipliği ile BUGÜNKÜ ülke poligonu Türkiye kuşağında 403 kaydın
+//   399'unda uyuşuyor; sapan 4'ün en büyüğü **Antakya 22,3 km** (Hatay 1939).
+//   Bu bir ALT SINIR (ıssız şeritte kayıt yok) ⇒ 22,3 × 2 ≈ 45 → 50 km.
+//   Ayrıca çift kurmak için her iki yakadan ~10-20 km derinlik gerekiyor.
 //
-// ═══ 🔴 İKİNCİ BULGU: ÇİFT OLMAK YETMİYOR, SİMETRİK OLMALI ═══
-//   +Çıldır ↔ +Kartsakhi       6,37 → 6,18   ≤5km %35 → %38    🟢 İYİLEŞTİ
-//   +Aralık ↔ +Sardarabad      6,37 → 5,67   ≤5km %35 → %43    🟢 EN İYİSİ
-//                              en kötü 22,9 → 18,8
-//   +Nehrî  ↔ +Uşnu            6,37 → 6,83   ≤5km %35 → %34    🔴 ÇİFT AMA KÖTÜ
-// Nehrî sınıra ~20 km, Uşnu ~30 km ⇒ çift ama SİMETRİK DEĞİL. Ve Urmiye'den
-// daha sınıra yakın gerçek bir İran yerleşimi YOK (Zagros sırtı yerleşimsiz).
-// ⇒ Bu kesim GERÇEK YERLEŞİMLE İYİLEŞTİRİLEMEZ. Uydurma köy yazılmadı (kural ①).
-//   HEPSİ: 3 simetrik çift → 5,72 · +4 Gürcü/Ermeni nokta → 5,32 (≤5km %48)
+// ═══ 🔴 SÜZGEÇTE YAKALADIĞIM KUSUR — yazmadan önce ═══
+//   İlk sürüm ülke poligonunun `boundary`sini sınır saydı. `boundary`
+//   KIYI ÇİZGİSİNİ de içerir ve ölçüldü: dünya sınır örneğinin 660.252'sinin
+//   yalnız **173.458'i (%26,3) KARA SINIRI** — geri kalan %74 kıyı.
+//   Kıyı bir sınır değildir: karşı yakaya nokta konmaz, çünkü karşı yaka deniz.
+//   ⇒ v2 yalnız komşu bir ülke poligonuna değen örnekleri sayıyor.
 //
-// ═══ 🔴 TEK ENGEL: KİMLİK HÜKMÜ (M-1753, cevap bekliyor) ═══
-// Ölçüm iyileştiren çiftleri gösterdi ama HER BİRİNİN yabancı yakası
-// Ermenistan/Gürcistan ve o yaka bir hükme takılı:
-//   devletler.js  rusya 1547-01-16 → 1917-03-15 · sovyet-rusya 1917-11-07 → 1923-10-29
-//   veri          `s:"rusya"` 1917-03-15'ten SONRA süren 344 kayıt, hepsi
-//                 t:1923-10-29 ⇒ fazlalık 2419 gün = 6,6 YIL (koridorumda 27)
-//   `sovyet-rusya` yazarsam komşusu Gümrü/Ahıska `rusya` olduğu için
-//   ERMENİSTAN'IN İÇİNDEN SAHTE SINIR geçer; `rusya` yazarsam hayalete eklerim.
-// ⇒ Hüküm gelir gelmez aşağıdaki üç çift AYNI GÜN yazılır; ölçüm hazır.
+// ═══ ÖLÇÜM — pilot kesimde sapma (bugünkü sınıra) ═══
+//   TABAN                        ortanca 10,69 km · en kötü 18,8 · ≤5km %14
+//   +Bacirge ↔ Sero              ortanca  2,98 km · en kötü 18,8 · ≤5km %55
+//   +Şemdinli ↔ Rāzhān           ortanca  9,76 km
+//   İKİ ÇİFT BİRLİKTE            ortanca  4,53 km · ≤5km %52   ← YAZILAN
+//   ⇒ ortanca 10,69 → 4,53 km. HEDEF 5 km'nin ALTINA İNDİ.
+//
+// 🔴 VE KENDİ "TEOREMİMİ" DÜZELTİYORUM: *"tek taraflı ekleme sapmayı
+//   BÜYÜTÜR"* diye yazmıştım ve koordinatör onu şartnameye geçirdi.
+//   FAZLA GENELMİŞ. Ölçüm: `+Şemdinli tek` 10,69 → 11,68 (kötüleşti) ama
+//   `+Sero tek` 10,69 → **6,84 (İYİLEŞTİ)**. Doğrusu şu: sapma |dB−dA|/2
+//   olduğu için, ZATEN UZAK OLAN yakaya nokta eklemek sapmayı KÜÇÜLTÜR,
+//   yakın olana eklemek BÜYÜTÜR. Yön, o kesimin İŞARETİNE bağlı.
+//
+// ═══ AD SORUNU — rehber koordinatı çözdü, ADI da çözdü ═══
+//   TR yakasındaki köy adlarının çoğu 1950-60 yeniden adlandırması
+//   (Altınsu · Günyazı · Kırıkdağ · Elaçmaz…) — 1923'te O ADLA yoktular.
+//   GeoNames'in `alternatenames` alanı tarihî adı veriyor:
+//     Esendere → **Bacirga / Bacirge / Bajirge**   (bu kayıtta kullanıldı)
+//     Albayrak → Der · Şikefti · Zapbaşı
+//     Şemdinli → Şemdinni · Navşar
+//   ⇒ Proje deyimi ("Yüksekova (Gever)" · "Özalp (Saray)") korunarak
+//     TARİHÎ AD ÖNCE, modern ad parantezde yazıldı.
+//
+// ═══ KURAL ④ · 3 km MÜKERRER TARAMASI — koordinatla, adla değil ═══
+//   Bacirge 31,4 · Sero 35,4 · Şemdinli 38,9 · Rāzhān 26,4 km — dördü TEMİZ.
+//   (Ad ekseniyle aramadım: `_yer_ara.py`nin Türkçe yanlış-negatifi var.)
+//
+// ═══ DEĞİŞMEZ 2 (tavan 0) — HİÇBİR GÜN UYDURULMADI ═══
+//   Kullanılan 5 kırılma günü veride ZATEN kırılma ve külliyatta 0 gün
+//   sapmayla maddeli: 1514-09-06 (Tebriz'e giriş) · 1548-08-25 (Van'ın
+//   fethi) · 1585-09-25 (Tebriz'in fethi) · 1603-10-21 (Tebriz'in kaybı).
+//   Zincirler bitişik Yüksekova (Gever) ve Urmiye kayıtlarından BİREBİR alındı.
 
-window.YERLESIMLER_SINIR_DOGU = [];
+window.YERLESIMLER_SINIR_DOGU = [
 
-// ════════════════════════════════════════════════════════════════════
-// HÜKÜM GELİNCE AÇILACAK — üçü de ölçülmüş, kaynaklı, gün-güvenli.
-// Değişmez 2 (tavan 0) sınavı: kullanılan 8 kırılma gününün 8'i de veride
-// ZATEN kırılma ve külliyatta 0 GÜN sapmayla maddeli (1514-09-06 · 1548-08-25
-// · 1578-08-09 · 1585-09-25 · 1603-10-21 · 1878-03-03 · 1921-10-13).
-// 3 km mükerrer taraması: Çıldır 25,5 · Nehrî 37,5 · Uşnu 56,1 km — temiz.
-// ════════════════════════════════════════════════════════════════════
-//
-// ── ÇİFT A (ölçüm: 6,37 → 6,18 🟢) — Çıldır ↔ Kartsakhi ──
-// {ad:"Çıldır", tur:"kasaba", lat:41.1300, lon:43.1300, g:0, k:4, m:null,
-//  sinir:true,
-//  s:[{f:"1281-01-01", t:"1578-08-09", d:"gurcistan"},
-//     {f:"1878-03-03", t:"1921-10-13", d:"<KİMLİK HÜKMÜ>"}],
-//  d:[{f:"1578-08-09", t:"1878-03-03"}, {f:"1921-10-13", t:"1923-10-29"}],
-//  kaynak:"TDV `cildir-eyaleti` (HTTP 200, GÖVDE OKUNDU, 15.721 karakter):
-//    '1551'de ise Erzurum Beylerbeyi İskender Paşa Ardanuç ve Ardahan
-//    yöresini alarak Ahılkelek ve Ahıska civarına kadar ilerledi... Böylece
-//    Atabeglik toprakları Çıldır bölgesine kadar Osmanlı' ve '1578'de
-//    yeniden başlayan Osmanlı-Safevî mücadelesi, Çıldır ve yöresinin
-//    tamamen Osmanlılar'ın eline geçmesine yol açtı'.
-//    ⚠️ TDV KOMŞU KAYDI ÇÜRÜTTÜ: Hanak/Ardahan/Posof 1551-01-01 kullanıyor
-//    ve külliyattaki madde de 'Ardahan ve Çıldır havzasının alınması' diyor
-//    — ama TDV 1551'i 'Çıldır BÖLGESİNE KADAR ilerleme', ŞEHRİN KENDİSİNİ
-//    1578 diye veriyor. CLAUDE.md §4: çelişirse TDV esastır ⇒ 1578-08-09.
-//    Dar slug `cildir` ÖLÜ (302); §4 'dar slug tutmazsa kapsayıcı maddeyi
-//    dene' uygulandı.",
-//  neden:"sınır çifti: Kartsakhi (Gürcistan yakası, aşağıda) — 1921 Kars
-//    Antlaşması sınırı Çıldır (Hozapin) gölü havzasından, ikisinin
-//    ARASINDAN geçer. ÖLÇÜLDÜ: ikisi birlikte ortanca sapmayı 6,37 → 6,18
-//    km'ye indirir; Çıldır TEK BAŞINA 6,83'e ÇIKARIR."}
-//
-// {ad:"Kartsakhi (Hozapin)", tur:"koy", lat:41.2378, lon:43.2222, g:0, k:4,
-//  m:null, sinir:true, s:[ ... <KİMLİK HÜKMÜ> ... ],
-//  kaynak:"bulunamadı — TDV bu taneciği kapsamıyor; koordinat DOĞRULANMASI
-//    gerekiyor (M-1758'in coğrafî referans yetkisi kapsamında).",
-//  neden:"sınır çifti: Çıldır ile 15,6 km, sınır aralarından geçer."}
-//
-// ── ÇİFT B (ölçüm: 6,37 → 5,67 🟢🟢 EN İYİSİ) — Aralık ↔ Sardarabad ──
-// Kolun EN KÖTÜ kesimi: Iğdır–Aralık–Dilucu koridoru (Türkiye·Nahçıvan·
-// Ermenistan·İran dörtlü kavşağı). 543 örneğin en kötü 8'i burada, hepsi
-// 20-22,9 km ve hepsinde en yakın Osmanlı noktası 62 km ötedeki Doğubayazıt.
-// Bu çift en kötüyü 22,9 → 18,8 km'ye indirir.
-//
-// ── ÇİFT C — Nehrî (Şemdinli) ↔ Uşnu 🔴 YAZILMAYACAK ──
-// Ölçüldü: çift olmasına rağmen 6,37 → 6,83 (KÖTÜLEŞTİRİR), çünkü simetrik
-// değil (20 km ↔ 30 km) ve Urmiye'den sınıra daha yakın gerçek bir İran
-// yerleşimi yok. Kaynak araştırması TAMAMLANDI ve sonucu şudur:
-//   `semdinli`·`nehri`·`semdinan`·`ubeydullah` DÖRDÜ DE ÖLÜ (HTTP 302);
-//   `hakkari` CANLI (200) ama gövdesinde (17.020 karakter) 'Şemdin'·'Nehrî'·
-//   'Ubeydullah' HİÇ GEÇMİYOR. `usnu`/`usnuye` ÖLÜ; `urmiye` CANLI (200)
-//   ama gövdesinde (12.919 karakter) 'Uşnu' HİÇ GEÇMİYOR.
-//   ⇒ §4 TANECİKLİK boşluğu, ikisi de `bulunamadı`. Bu bir SONUÇTUR.
-// ⇒ Türkiye-İran sınırının güney kesimi GERÇEK YERLEŞİMLE İYİLEŞTİRİLEMEZ.
-//   Kaydedildi ki bir sonraki tur "niçin boş" diye yeniden aramasın.
+// ══ ÇİFT A — Bacirge (TR) ↔ Sero (İran) · 4,1 km ══════════════════════
+// Kolun en iyi çifti: ortanca sapmayı TEK BAŞINA 10,69 → 2,98 km'ye indiriyor.
+// İkisi de sınır hattının hemen yanında (0,4 km ↔ 5,3 km) ve 4,1 km arayla —
+// yani petek kenarı gerçekten aralarından geçiyor.
+{ad:"Bacirge (Esendere)", tur:"koy", lat:37.7114, lon:44.6010, g:0, k:4, m:null,
+ sinir:true,
+ s:[{f:"1281-01-01", t:"1514-09-06", d:"akkoyunlu"},
+    {f:"1514-09-06", t:"1548-08-25", d:"safevi"}],
+ d:[{f:"1548-08-25", t:"1923-10-29"}],
+ kaynak:"GeoNames (CC BY 4.0), allCountries 31 Ağu 2026: 37.7114 K / 44.6010 D, feature class P, kod PPLA3; `alternatenames` alanı tarihî adı veriyor: 'Bacirga, Bacirge, Bajirge'. Koordinat TAHMİN DEĞİL, rehberden. ⚠️ TDV bu taneciği kapsamıyor (§4 taneciklik boşluğu): `semdinli`·`nehri`·`semdinan` sluglarının üçü de ÖLÜ (302), kapsayıcı `hakkari` maddesi CANLI (200) ama gövdesinde (17.020 karakter) Şemdinli/Nehrî HİÇ GEÇMİYOR. ⚠️ Ve şunu AÇIKÇA yazıyorum: yerleşimin VARLIĞI ve KONUMU doğrulandı, 1923'te de var olduğu AYRICA BELGELENEMEDİ — Kürtçe köy adlarının sürekliliği yüksektir ama bu bir kaynak değil, bir beklentidir.",
+ neden:"sınır çifti: Sero (İran, bu dosyada) ile 4,1 km — 1913 İstanbul Protokolü sınırı tam aralarından geçer. Bacirge sınıra 0,4 km, Sero 5,3 km ⇒ sapma |5,3−0,4|/2 = 2,45 km, hedef 5 km'nin ALTINDA. ÖLÇÜLDÜ: bu çift pilot kesimin ortanca sapmasını 10,69 → 2,98 km'ye, ≤5km oranını %14 → %55'e taşıyor. Dönem günleri bitişik Yüksekova (Gever) kaydından (31,4 km) birebir alındı, uydurulmadı. BU KOŞUDA ÇİZİLMEZ, bir sonrakine kalır."
+},
+
+{ad:"Sero", tur:"koy", lat:37.7275, lon:44.6427, g:0, k:4, m:null,
+ sinir:true,
+ s:[{f:"1281-01-01", t:"1340-01-01", d:"ilhanli"},
+    {f:"1340-01-01", t:"1386-01-01", d:"celayirli"},
+    {f:"1386-01-01", t:"1406-10-21", d:"timurlu"},
+    {f:"1406-10-21", t:"1468-04-01", d:"karakoyunlu"},
+    {f:"1468-04-01", t:"1501-07-01", d:"akkoyunlu"},
+    {f:"1501-07-01", t:"1736-03-08", d:"safevi"},
+    {f:"1736-03-08", t:"1747-06-20", d:"afsar"},
+    {f:"1747-06-20", t:"1796-01-01", d:"zend"},
+    {f:"1796-01-01", t:"1923-10-29", d:"kacar"}],
+ d:[{f:"1585-09-25", t:"1603-10-21"}],
+ kaynak:"GeoNames (CC BY 4.0): 37.7275 K / 44.6427 D, feature class P; `alternatenames`: 'Sero, Serow, Siroo, Sīroo, سرو'. 📌 Bu kaydı DÜN yazmayı REDDETMİŞTİM: koordinatını hafızadan 37,7333/44,6167 diye tahmin ediyordum ve güvenim ORTA'ydı. Rehber ölçtü — tahminim 2,3 km yanlışmış, yani reddetmek DOĞRU karardı. ⚠️ TDV `serow`/`sero` maddesi YOK; Urmiye-Van kervan yolu üzerindeki tarihî geçit yerleşimi olduğu standart akademik literatürde geçer, ama 1923 varlığı AYRICA BELGELENEMEDİ.",
+ neden:"sınır çifti: Bacirge (Esendere) (OSMANLI, bu dosyada) ile 4,1 km. ⚠️ `d:`/`s:` ÖRTÜŞMESİ KASITLI: 1585-1603 Osmanlı devri safevi `s:` dönemiyle örtüşüyor — projenin ÇOĞUNLUK deseni ve motor önceliği (uret_petek.py:3005, sıra d>v>s) çözüyor; bitişik Urmiye kaydı (42,7 km) birebir aynısını yapıyor ve zincir ondan alındı. BU KOŞUDA ÇİZİLMEZ."
+},
+
+// ══ ÇİFT B — Şemdinli (TR) ↔ Rāzhān (İran) · 27,2 km ═══════════════════
+// İkinci çift: tek başına 10,69 → 9,76, ama A ile BİRLİKTE 2,98 → 4,53…
+// ⚠️ DİKKAT: birleşik sayı A'nın tek başınakinden BÜYÜK. Sebebi B'nin
+// kötülüğü değil, A'nın kendi kesiminde çok iyi olması — B başka bir
+// kesimi (güney uç) düzeltiyor ve ortanca ikisinin ortalamasına oturuyor.
+// ≤5km oranı %55 → %52; en kötü ikisinde de 18,8. Yani B ortancayı biraz
+// yükseltip KAPSAMI genişletiyor. Yazıldı, ama bu ödünleşme KAYDA GEÇTİ.
+{ad:"Şemdinli (Şemdinni)", tur:"kasaba", lat:37.3051, lon:44.5742, g:0, k:4, m:null,
+ sinir:true,
+ s:[{f:"1281-01-01", t:"1514-09-06", d:"akkoyunlu"},
+    {f:"1514-09-06", t:"1548-08-25", d:"safevi"}],
+ d:[{f:"1548-08-25", t:"1923-10-29"}],
+ kaynak:"GeoNames (CC BY 4.0): 37.3051 K / 44.5742 D, kod PPLA2, nüfus 18.978; `alternatenames` 23 ad taşıyor, aralarında 'Şemdinni' ve 'Navşar'. Hafızamdaki 37,3167/44,5667 tahmini 1,7 km yanlışmış. ⚠️ TDV taneciklik boşluğu (yukarıda ölçüldü). Şemdinan (Nehrî) şeyhleri ve Şeyh Ubeydullah'ın 1880 ayaklanması standart literatürde (M. van Bruinessen, Agha, Shaikh and State) — yani yerleşimin 19. yüzyılda varlığı BELGELİ, bu da 1923 sürekliliğini kuvvetle destekliyor.",
+ neden:"sınır çifti: Rāzhān (İran, bu dosyada) ile 27,2 km. İkisi de sınıra 12,3 km ⇒ SİMETRİK (fark 0,0 km), ve simetri mesafeden önemli: sapma |dB−dA|/2 olduğu için eşit uzaklıkta sapma SIFIRA gider. ÖLÇÜLDÜ: tek başına 10,69 → 9,76; A çiftiyle birlikte 4,53 ve ≤5km %52. BU KOŞUDA ÇİZİLMEZ."
+},
+
+{ad:"Rāzhān", tur:"koy", lat:37.3833, lon:44.8667, g:0, k:4, m:null,
+ sinir:true,
+ s:[{f:"1281-01-01", t:"1340-01-01", d:"ilhanli"},
+    {f:"1340-01-01", t:"1386-01-01", d:"celayirli"},
+    {f:"1386-01-01", t:"1406-10-21", d:"timurlu"},
+    {f:"1406-10-21", t:"1468-04-01", d:"karakoyunlu"},
+    {f:"1468-04-01", t:"1501-07-01", d:"akkoyunlu"},
+    {f:"1501-07-01", t:"1736-03-08", d:"safevi"},
+    {f:"1736-03-08", t:"1747-06-20", d:"afsar"},
+    {f:"1747-06-20", t:"1796-01-01", d:"zend"},
+    {f:"1796-01-01", t:"1923-10-29", d:"kacar"}],
+ d:[{f:"1585-09-25", t:"1603-10-21"}],
+ kaynak:"GeoNames (CC BY 4.0): 37.3833 K / 44.8667 D, feature class P, nüfus 3.783; `alternatenames`: 'Razhan, Rāzhān, راژان'. ⚠️ TDV'de müstakil maddesi YOK; Urmiye'nin batı yakasındaki köylerden, zincir Urmiye maddesinden (TDV `urmiye`, 200, gövde okundu) türetildi. 1923 varlığı AYRICA BELGELENEMEDİ — nüfusu ve `alternatenames` çeşitliliği eski bir yerleşim olduğunu düşündürüyor ama bu kaynak değil, işaret.",
+ neden:"sınır çifti: Şemdinli (Şemdinni) (OSMANLI, bu dosyada) ile 27,2 km — ikisi de sınıra 12,3 km, yani TAM SİMETRİK. BU KOŞUDA ÇİZİLMEZ."
+}
+
+];
+
+// ══════════════════════════════════════════════════════════════════════
+// YAZILMAYANLAR — ve her birinin ÖLÇÜLMÜŞ sebebi
+// ══════════════════════════════════════════════════════════════════════
+// 🔴 Albayrak (TR 38,1425/44,2012) ↔ Sīlvānā (İR 37,4222/44,8532)
+//    Ölçüm İYİ: birlikte ortanca 8,62, üç çiftle 4,18 ve en kötü 18,8→16,6.
+//    AMA ARALARI **98,3 km** ⇒ bu bir ÇİFT DEĞİL, birbirinden bağımsız iki
+//    ekleme. Kural ② "her kayıt `neden:` alanında EŞİNİ ve MESAFESİNİ yazar"
+//    diyor; 98 km'ye "eş" diyemem. YAZILMADI, koordinatöre soruldu:
+//    kural ② işareti doğru olan TEK TARAFLI eklemeye izin veriyor mu?
+// 🔴 Ermenistan · Gürcistan yakası — KİMLİK engeli sürüyor (M-1815/M-1818):
+//    `rusya` künyesi 1917-03-15'te bitiyor, 344 kayıt aşıyor, ve kapanma
+//    testi 27 → 260 kayda yayıldı (Finlandiya'dan Kafkasya'ya). Küresel
+//    parti bekleniyor. Rehber bu engeli ÇÖZMEZ — ayrı bir sorudur.
+// 🔴 Iğdır–Aralık–Dilucu (39,6-39,7 K) — 1932 ARTEFAKT şüphesi, ölçülemedi.
+//    Kolun en kötü kesimi ama rehber onu da çözmez: soru koordinat değil,
+//    1923 sınırının bugünkünden farklı olup olmadığı.
