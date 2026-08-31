@@ -2946,7 +2946,11 @@ _paylasim_dogrula()
 #    gerekce: renk secimi geometriyi etkilemiyor, sert kapi yanlis yerde
 #    durur. Ve mesajlarda ASCII disi karakter YOK (sarmalanmamis konsolda
 #    patlayan bir uyari, uyarisizliktan kotudur).
-SU_RENGI = "#bcd6e6"      # js/app.js'teki `SU_RENGI` ile AYNI olmali
+# 29 Agustos - RENK ACIKLIK TABANI: js/app.js'teki SU_RENGI 0037/H-0002
+# ile #bcd6e6 ("bir tik") -> #c4dcea ("iki tik") oldu, buradaki KOPYA
+# BAYATLAMISTI (yorum "AYNI olmali" diyordu, degildi) - _su_yakinligi_dogrula
+# bu bayat degerle her kostugunda YANLIS mesafe olcuyordu, sessizce.
+SU_RENGI = "#c4dcea"      # js/app.js'teki `SU_RENGI` ile AYNI olmali
 SU_ESIK_DE = 18.0
 
 
@@ -3000,3 +3004,147 @@ def _su_yakinligi_dogrula():
 
 
 _su_yakinligi_dogrula()
+
+
+# ═══════════════════════════════════════════════════════════════════════════
+# AÇIKLIK (L*) TABANI — RENK AÇIKLIK TABANI oturumu, 29 Ağustos 2026
+# ═══════════════════════════════════════════════════════════════════════════
+# Emre bugün açıkça sordu: "dolgu renklerinin ana renklerle, vassal ya da
+# Osmanlı kırmızısı ile uyumlu olması meselesi çözüldü mü?" ÖLÇÜLDÜ: HAYIR.
+# Kök zaten `parti-0002/H-0005`te bulunmuştu: `bizans` #0f0f5d BİNDİRİLMİŞ
+# (yabancı opaklığı 0.44, `js/app.js`) L*=56,0 — ALTLIK'ın kendi L*'ı (89,0)
+# ile arasında öyle bir uçurum var ki renk kimlik değil GÖLGE gibi okunuyor.
+# `renkler.py`de ΔE kısıtı (`_su_yakinligi_dogrula` gibi) vardı, AÇIKLIK
+# TABANI hiç yoktu — 3000 satırın hepsi ölçüm/yorum, sabit değil.
+#
+# ÖLÇÜM (arac/_renk_aciklik_olcum.py, salt-okur, BOYALAR'a dokunmadan):
+#   396 kimlik · bindirilmiş L* p05=59,2 · p50=72,3 · p95=86,2
+#   19 kimlik p05'in ALTINDA — bizans bunlardan biri (2. en koyu);
+#   fransa-cumhuriyet #09095a DAHA koyu (L*=55,0) ve HENÜZ ŞİKÂYET
+#   EDİLMEMİŞTİ — aynı hastalığı taşıyordu, ölçülmeden görünmüyordu.
+#
+# TABAN: bindirilmiş L* ≥ 59 — kafadan değil, paletin KENDİ dağılımından:
+# %95'i zaten bu değerin üstünde, alttaki %5 geri kalanla TUTARSIZ bir
+# aşırılık. (Yalnız `OPAKLIK["yabanci"]`ye göre — BOYALAR yabancı devlet
+# paletidir, Osmanlı kırmızısı/tâbi tonu ayrı sabitlerle `renk_olc.py`de.)
+#
+# YÖNTEM — HUE/KROMA KORUNARAK LIFT, hex'te değil Lab'ta: tabanın altındaki
+# her kayıt için RAW hex'in Lab L*'ı, BİNDİRİLMİŞ L* tabana ULAŞANA kadar
+# ikili aramayla yükseltiliyor; a*/b* (ton + doygunluk) HİÇ DEĞİŞMİYOR —
+# yalnız parlaklık artıyor. 19 hex'i elle tek tek değiştirmek (hataya
+# açık, "kimin değiştiğini" izlemek zor) yerine TEK fonksiyon, HERKESE
+# AYNI KURAL. `_lab_cevir` yukarıda ZATEN TANIMLI, ikinci bir Lab
+# dönüştürücü YAZMADIM — yalnız TERSİ (Lab->hex) eksikti, o eklendi.
+#
+# ⚠️ ΔE_KOMSU (12,0, `renk_olc.py`) bozulmadığı BURADA gösterilemez — o,
+#   GERÇEK Voronoi komşuluğu ister (bu dosyada YOK). Bu yüzden ORHANGAZİ'nin
+#   ④'ü ("py arac/renk_olc.py KOŞTUR") atlanmıyor, TAMAMLAYICI: aşağıdaki
+#   lift en fazla ΔL*≈4 (fransa-cumhuriyet 55,0→59,0) kaydırıyor — ΔE_KOMSU
+#   eşiğinin (12,0) çok altında, yani var olan bir ayrımı YOK ETME riski
+#   düşük ama GARANTİ DEĞİL; asıl doğrulama koşudan önce `renk_olc.py` ile.
+ACIKLIK_TABANI_L = 59.0   # ASCII isim: konsol/encoding sorunu yaşamasın (bilerek)
+
+
+def _lab_ters(L, a, b):
+    """Lab -> hex. `_lab_cevir`in (hex->Lab) tersi, aynı sabitlerle (D65)."""
+    fy = (L + 16) / 116.0
+    fx = fy + a / 500.0
+    fz = fy - b / 200.0
+
+    def _finv(t):
+        t3 = t ** 3
+        return t3 if t3 > 0.008856 else (t - 16.0 / 116) / 7.787
+    x, y, z = _finv(fx) * 0.95047, _finv(fy) * 1.00000, _finv(fz) * 1.08883
+    r = x * 3.2406 + y * -1.5372 + z * -0.4986
+    g = x * -0.9689 + y * 1.8758 + z * 0.0415
+    b2 = x * 0.0557 + y * -0.2040 + z * 1.0570
+
+    def _gam(c):
+        c = max(0.0, min(1.0, c))
+        return 12.92 * c if c <= 0.0031308 else 1.055 * (c ** (1 / 2.4)) - 0.055
+    r, g, b2 = _gam(r), _gam(g), _gam(b2)
+    return "#%02x%02x%02x" % (round(r * 255), round(g * 255), round(b2 * 255))
+
+
+def _bindirilmis_L(hx, opaklik):
+    r, g, b = [int(hx.lstrip("#")[i:i + 2], 16) for i in (0, 2, 4)]
+    karisim = tuple(opaklik * c + (1 - opaklik) * a for c, a in zip((r, g, b), ALTLIK))
+    return _lab_cevir("#%02x%02x%02x" % tuple(int(round(v)) for v in karisim))[0]
+
+
+def _aciklik_yukselt(hx, taban_L, opaklik):
+    """Ton/doygunluk (a*/b*) SABİT, yalnız RAW Lab L* ikili aramayla
+    yükseltilir, ta ki BİNDİRİLMİŞ L* tabana ulaşana kadar."""
+    L0, a0, b0 = _lab_cevir(hx)
+    lo, hi = L0, 100.0
+    for _ in range(24):
+        mid = (lo + hi) / 2
+        aday = _lab_ters(mid, a0, b0)
+        if _bindirilmis_L(aday, opaklik) < taban_L:
+            lo = mid
+        else:
+            hi = mid
+    return _lab_ters(hi, a0, b0)
+
+
+# 🔴 29 Ağustos — İKİ ÇAKIŞMA DOĞDU, ÖLÇÜLDÜ, DURULDU (ORHANGAZİ'nin
+# kendi uyarısı: "açıklığı yükseltmek iki rengi birbirine yaklaştırabilir.
+# Çakışırsa DUR ve bana yaz, eşik pazarlığı benim işim.").
+# `py arac/renk_olc.py` lift SONRASI koşuldu ve "KOMŞUSUYLA ÇAKIŞAN"
+# listesinde 5 çiftten İKİSİ lift'ten ÖNCE GÜVENLİYDİ, lift'ten SONRA
+# eşiğin (ΔE 12) altına düştü:
+#   fransa-cumhuriyet ↔ ingiltere   ÖNCE 15,6 → SONRA 11,5  (komşu, gerçek çift)
+#   ferrara           ↔ mantua      ÖNCE 12,0 → SONRA 10,9  (komşu, gerçek çift)
+# (Diğer üç çakışma — isvec↔sovyet-rusya · ingiliz-kuzey-amerika↔ispanya ·
+# meiji-japonya↔sovyet-rusya — bu tabanla İLGİSİZ, hiçbiri lift LİSTESİNDE
+# değil, ÖNCEDEN de vardı.)
+# ⇒ Bu iki kimlik BURADAN HARİÇ TUTULUYOR — L* tabanının ALTINDA kalmaya
+# DEVAM EDİYORLAR (koyu, ama YENİ bir çakışma üretmiyorlar; eski hâlleri
+# en azından KOMŞULARINDAN güvenli mesafedeydi). Hangi yönde çözüleceği
+# (floor'u ikisi için farklı bir hedefe kaydırmak mı, hue'yu da oynatmak
+# mı, yoksa eşiği mi gevşetmek) ORHANGAZİ'nin kararı — kendi başıma
+# seçmedim.
+_ACIKLIK_ISTISNA = {"fransa-cumhuriyet", "ferrara"}
+
+
+def _aciklik_tabani_uygula():
+    """BOYALAR'ı YERİNDE değiştirir — import anında, bir kez.
+
+    `_su_yakinligi_dogrula` gibi RAPOR etmiyor, UYGULUYOR: bir taban
+    kuralı yalnız yazıyla dursa yarın yeni bir koyu renk eklenir ve
+    kimse fark etmez (`bizans` tam böyle sızdı). Uygulama YAZILI: her
+    değişiklik listelenir, sessiz değildir.
+    """
+    degisen = []
+    atlanan = []
+    for kid, v in list(BOYALAR.items()):
+        if not isinstance(v, (tuple, list)) or len(v) < 2:
+            continue
+        ad, hx = v[0], v[1]
+        if not isinstance(hx, str) or not hx.startswith("#") or len(hx) < 7:
+            continue
+        simdiki_L = _bindirilmis_L(hx, OPAKLIK["yabanci"])
+        if simdiki_L >= ACIKLIK_TABANI_L:
+            continue
+        if kid in _ACIKLIK_ISTISNA:
+            atlanan.append((kid, hx, simdiki_L))
+            continue
+        yeni_hx = _aciklik_yukselt(hx, ACIKLIK_TABANI_L, OPAKLIK["yabanci"])
+        BOYALAR[kid] = (ad, yeni_hx) if isinstance(v, tuple) else [ad, yeni_hx]
+        degisen.append((kid, hx, yeni_hx, simdiki_L))
+    if degisen:
+        print("  RENK acikma: %d kimlik ACIKLIK_TABANI_L=%.0f'a cekildi "
+              "(hex DEGISTI, ton/doygunluk AYNI):"
+              % (len(degisen), ACIKLIK_TABANI_L))
+        for kid, eski, yeni, L0 in sorted(degisen, key=lambda t: t[3]):
+            print("    L*=%4.1f  %-28s %s -> %s" % (L0, kid, eski, yeni))
+    if atlanan:
+        print("  RENK acikma ATLANDI (%d kimlik) - lift YENI komsu "
+              "cakismasi uretiyordu, ORHANGAZI karari bekleniyor:"
+              % len(atlanan))
+        for kid, hx, L0 in atlanan:
+            print("    L*=%4.1f  %-28s %s  (DEGISMEDI)" % (L0, kid, hx))
+    return degisen
+
+
+_ACIKLIK_DEGISEN = _aciklik_tabani_uygula()
