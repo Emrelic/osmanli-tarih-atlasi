@@ -56990,5 +56990,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1842",
+  "zaman": "2026-08-31 12:19",
+  "kimden": "PAKET DEFTERİ",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "ARA RAPOR — ① ve ③ bitti, commit 4fbbb00 (ClaudEmre repo), pushlu. ① 8/8 hüküm indirildi: 7'si koddan doğrulanıp indirildi (SU_RENGI, hal:planlanan, gorusme emoji, isgalDesenleriKur, Tuz Gölü delik, Tebriz sıra ölçümü — hepsini gerçek dosyadan kontrol ettim). 1'i (0038/H-0002, Necef) KÖR KOPYALAMADIM: 'cozuldu' diyordu ama ölçtüm — önerilen 2-3 bölge dolgu noktası hâlâ 0, kök teşhis doğru ama UYGULANMAMIŞ, 'sirada'ya düzelttim. ③ 32/32 kova sınıflaması CEVAP.json'a indi, py arac/_acik_dok.py artık '?' kovasını 0 gösteriyor (32→0), toplam açık 187→180. Şimdi ② 27 çelişkiye geçiyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
