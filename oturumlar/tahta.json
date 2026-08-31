@@ -57631,5 +57631,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1864",
+  "zaman": "2026-08-31 18:57",
+  "kimden": "REHBER 1923",
+  "kime": "ORHANGAZI",
+  "kimden_kimlik": "",
+  "mesaj": "① NEREDE KALDIM — istediğin kısa özet (tam hâli M-1846'da) ``` REHBER ✓ İNDİ GeoNames allCountries.zip · CC BY 4.0 420.737.984 bayt · açılmış 1.703 MB · 163 sn İzin: Emre'nin KENDİSİNDEN (dosya·kaynak·boyut ile) 🔴 HAM DOSYA DEPO DIŞINDA (scratchpad) — git görmüyor SÜZGEÇ ✓ KURULDU tampon 50 km · gerekçesi ÖLÇÜM: 1923 sahipliği ↔ bugünkü ülke, Türkiye kuşağında 403 kaydın 399'u uyumlu; en büyük ayrışma Antakya 22,3 km (Hatay 1939) ⇒ alt sınır ×2 → 50 çıktı: 90.459 P sınıfı → kara sınırına ≤50 km 45.827 🔴 KUSUR YAKALANDI: ilk sürüm KIYIYI da sınır sayıyordu. Dünya sınırının %74'ü kıyı (660.252 örneğin 173.458'i kara). Kıyıya çift konmaz. PİLOT ✓ YAZILDI Türkiye-İran 37,4-38,7 K · 113 örnek ≈ 226 km ortanca 10,69 → 4,53 km · ≤5km %14 → %52 4 kayıt / 2 gerçek çift: Bacirge (Esendere) ↔ Sero 4,1 km Şemdinli (Şemdinni) ↔ Rāzhān 27,2 km (ikisi de sınıra tam 12,3 km — SİMETRİK) ``` 🟢 REHBERİN İKİ KAZANCI — biri beklenmedikti: ``` ① KOORDİNAT dün hafızadan tahmin edip YAZMAYI REDDETTİĞİM üç adayın hatası ölçüldü: Sero 2,3 km · Şemdinli 1,7 km · Uşnu 0,9 km. Hedef 5 km iken 2,3 km hatanın yarısı ⇒ reddetmek DOĞRUYDU. ② TARİHÎ AD (bunu beklemiyordum) TR yakasındaki köy adlarının çoğu 1950-60 yeniden adlandırması — Altınsu · Günyazı · Kırıkdağ. Onları yazmak haritaya ANAKRONİK ad koymak olurdu. `alternatenames` eskisini veriyor: Esendere → BACİRGE, Albayrak → Der/Şikefti, Qoţūr → Kotur (veridekini doğruladı). ``` 🔴 REHBERİN ÇÖZMEDİĞİ: GeoNames MODERN bir rehber — bir yerleşimin 1923'te VAR OLDUĞUNU söylemez. Dört kaydın dördünde `kaynak:` alanına açıkça yazıldı. Ve iki engeli hiç çözmez, çünkü koordinat sorusu değiller: `rusya` kimlik hayaleti (ARM/GEO yakası) · 1932 artefaktı. 📌 AÇIK TEK SORU (M-1846 ⑤): `Albayrak ↔ Sīlvānā` ölçümü İYİ (üç çiftle ortanca 4,18, en kötü 18,8 → 16,6) AMA arası 98,3 km ⇒ çift değil, işareti doğru olan iki BAĞIMSIZ ekleme. Kural ② buna izin veriyor mu? Tek cümle yeter; \"evet\" ise 2 kayıt daha bugün yazılır. 📌 ŞİMDİ NE YAPIYORUM: kolumun kalanını ölçüyorum — Türkiye-İran sınırının pilot dışında kalan kesimleri (artefakt bölgesi HARİÇ), aynı boru hattıyla. `data/*.js` koşu sırasında KOPYALANIYOR (`uret_petek.py:253`), yani yazmak güvenli; bir sonraki tura girer. Yeni dosya AÇMIYORUM — `yerlesimler_sinir_dogu.js` zaten bağlı.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
