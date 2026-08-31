@@ -1445,7 +1445,19 @@ ATLAS_SONU = "1923-10-29"
 #   çakıldığı an bayatlar. Kendi kendini düzeltmesi `TAVAN GEVŞEK`
 #   uyarısına bırakılmıştır: ölçüm tavanın ALTINA inince denetim bir
 #   sonraki oturuma "bu sabiti indir" der ve borç görünür kalır.
-BEKLENEN_ASAN = 275
+# 275 → 277 · 31 Ağustos 2026. `girdi.py`ye üç dosya bağlandı (57 → 60);
+# `yerlesimler_sinir_dogu.js` dört gerçek nokta taşıyor (Bacirge/Esendere ·
+# Sero · Şemdinli · Rāzhān — Türkiye-İran hattı). Dönem zincirleri BİLİNEN
+# iki kovaya düşüyor, yeni kusur DEĞİL:
+#     s: ilhanli 1281-01-01 → 1340-01-01     (künye 1256 → 1353)
+#     s: zend    1747-06-20 → 1796-01-01     (künye 1751 → 1794, TDV ile
+#                                             birebir; YANLIŞ olan VERİ)
+# 🔴 VE BURADA ÖLÇÜLEN ASIL ŞEY BU: `zend` dönemi 131 → 133.
+#   30 Ağustos'ta *"129 bağımsız karar değil, BİR karar × 129 kayıt"*
+#   diye ölçülmüştü; bugün o karar **kopyalanıyor.** Düzeltilmemiş bir
+#   künye/veri uyuşmazlığı, sonraki oturumlar tarafından ÇOĞALTILIYOR —
+#   yani borç sabit durmuyor, FAİZ İŞLİYOR.
+BEKLENEN_ASAN = 277
 ATLAS_BASI = "1281-01-01"
 # 🔴 4d TAVANI — DÖRDÜNCÜ BİÇİM: dönem devletin DOĞUMUNDAN ÖNCE başlıyor.
 # 4c'den AYRI KOVA, ve sebebi ÇARENİN YÖNÜ:
@@ -1453,14 +1465,25 @@ ATLAS_BASI = "1281-01-01"
 #     4d dönem BAŞI künye başından önce  → çare: çoğu zaman künyeyi GENİŞLET
 # İki çare ZIT YÖNDE. Tek sayaçta birleşirlerse biri inerken öteki çıkar ve
 # TOPLAM SABİT KALIR — borç ödendiği hâlde tablo kıpırdamaz.
-BEKLENEN_ONCE = 461
+# 461 → 465 · 31 Ağustos 2026, aynı dört sınır noktası.
+# ⚠️ ATIF DÜZELTMESİ: sevk mesajı artışı *"ilhanli 1281-01-01 — ATLASIN
+#   SOL KENARI sınıfı"*na bağlıyordu. ÖLÇÜLDÜ, TUTMUYOR: `ilhanli`nin
+#   4d'ye katkısı **0** (künye 1256'da başlıyor, dönem 1281'de — yani
+#   dönem künyeden SONRA başlıyor, bu dalın sorusu değil).
+#   4d'de ölçülen artışın 2'si `zend` (128 → 130); kalan 2'yi kimlik
+#   bazında ÖLÇMEDİM, tahmin de etmiyorum.
+# ⇒ Sayı doğru, ATIF eksik. (`§11` — "ölçüm doğru, çıkarım yanlış".)
+BEKLENEN_ONCE = 465
 # 🔴 SARAN — İKİ UÇTAN DA aşan dönemler, yani dönem künyeyi TAMAMEN İÇİNE
 # ALIYOR. `4c ∩ 4d`, yani AYRI BİR KOVA DEĞİL KESİŞİM — üçü TOPLANMAZ.
 # Ayrı basılmasının sebebi teşhis: bir dönem künyeyi tamamen sarıyorsa, o
 # kimlik bir DEVLET olarak değil bir BÖLGE ETİKETİ olarak kullanılıyordur.
 # `CLAUDE.md §3.5`in dördüncü kurucu vakası tam bu: `iran` künyesi Pehlevî
 # İran'ı, veri onu ortaçağ Persia'sı için kullanıyor.
-BEKLENEN_SARAN = 140
+# 140 → 142 · 31 Ağustos 2026. Kesişim de aynı iki `zend` kaydından
+# büyüdü: o dönemler künyeyi İKİ UÇTAN da aşıyor (f 1747 < 1751 ve
+# t 1796 > 1794), yani tek kayıt üç sayacı birden büyütüyor.
+BEKLENEN_SARAN = 142
 
 
 def degismez4(Y):
