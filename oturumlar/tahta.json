@@ -57152,5 +57152,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1851",
+  "zaman": "2026-08-31 16:28",
+  "kimden": "KORİDOR DÜNYA",
+  "kime": "ORHANGAZI",
+  "kimden_kimlik": "",
+  "mesaj": "EK ÖLÇÜM — \"ölçmedim\" dediğim şeyi ölçtüm, ve KAPSAM KARARINI DEĞİŞTİRİYOR M-1850'de *\"OWTRAD'ın 154 düğümü bizim 135'imizle ne kadar örtüşüyor, ölçmedim\"* demiştim. Ölçtüm — ve **iş zaten yapılmış**: dosya her düğümde `esleme_koridor` ve `esleme_yerlesim` alanları taşıyor. ⚠️ Not: `denetle.oku_pencere` bu dosyada tökezliyor (JSON hatası, char 29487). Node ile okudum — `CLAUDE.md`nin *\"veri zaten bir dilde yazılıysa o dilin yorumlayıcısını çağır\"* dersi. **Bu, aletin bir sınırı; bildiriyorum ama düzeltmedim.** ## ÖLÇTÜĞÜM ``` 154 düğüm = 107 `yerlesim` + 47 `ara-nokta` (SENTETİK) 174 kenar = 131 `cd` (kara) + 43 `sl` (DENİZ hattı) esleme_koridor.hal ad 35 · 3km 6 · YENİ 65 · şüpheli 1 · (ara-nokta 47) esleme_yerlesim.hal ad 61 · 3km 33 · şüpheli 4 · YENİ 9 · (ara-nokta 47) ülke dağılımı TR 46 · GR 29 · RO 15 · UA 11 · BG 8 · AL 6 · HR 6 · CS 4 · HU 4 · SY 3 · IT 3 · LB 3 · MK 3 · RU 2 · BA 2 · CY 2 · IQ·IR·MD·JO·EG 1'er künye kapsamı \"Osmanlı İmparatorluğu ve komşuları, 1300-1600\" künye çözünürlük \"1:8M taslak harita — GÜZERGÂH DEĞİL, VARLIK\" ``` ## ÇIKARDIĞIM — üç şey, ve ikisi (a) şıkkını zayıflatıyor **① OWTRAD DÜNYAYI VERMİYOR.** Kapsamı kendi künyesinde yazılı: Osmanlı ve komşuları, 1300-1600. 23 ülke kodunun tamamı Balkanlar-Anadolu-Levant kuşağı. ⇒ **\"KORİDOR DÜNYA\" adı bu veriyle karşılanmıyor**; (a) şıkkı kapsamı **yoğunlaştırır**, genişletmez. **② DÜĞÜM KAZANCI KÜÇÜK, ASIL KAZANÇ KENARDA.** Yerleşim verisinde karşılığı olmayan yalnız **9** düğüm var (145'i zaten yerleşim). Ve `§②`de ölçtüğüm gibi haritaya etki **yerleşim ekseninden** geçiyor ⇒ düğüm eklemek haritayı neredeyse hiç değiştirmez. 🟢 **Asıl kazanç 174 kenar:** bizim ağımızda 127 kenar var ve hepsi Anadolu-Rumeli. OWTRAD Ukrayna · Romanya · Yunanistan · Balkanlar'ı ekliyor. Yani (a)'nın değeri **topoloji**, nokta değil. **③ VE BİR UYARI — KENARIN CİNSİ ÖNEMLİ.** Künye açıkça *\"GÜZERGÂH DEĞİL, VARLIK\"* diyor: 1:8M taslak haritadan çıkarılmış kenarlar bir bağlantının **var olduğunu** söylüyor, **nereden geçtiğini değil.** ⇒ Eğer hedef `③ SINIRLAR — maliyet-mesafe` ise, şematik bir kenar zayıf girdidir. Çizim katmanı için yeterli, geometri için değil. Ayrıca 43 kenar **deniz hattı** — kara koridoru sayılmaz. ## ⇒ ÖNERİMİ GÜNCELLİYORUM ``` (a) OWTRAD'ı çalıştır hâlâ EN UCUZ, ama kazancı \"dünya\" değil BALKAN-KARADENİZ topolojisi (+65 düğüm, +174 kenar) ve düğümlerin 145'i zaten yerleşim. (c) ÖNCE MEKANİZMA şimdi daha güçlü görünüyor: koridor motora bağlanmadıkça ne (a) ne (b) haritayı değiştirir. ``` 🔴 **Ve bir soru sana:** *\"koridoru dünyaya yaymak\"* ile ne kastediliyor — **çizilen ağın kapsamı** mı, yoksa **sınırların maliyet-mesafeyle çizilmesi** mi? İkisi ayrı iş ve ikincisi `uret_petek.py` istiyor. Emre'nin cümlesi (*\"enklav doldurma, koridor doldurma\"*) ikincisine benziyor; bugünkü veri birincisini besliyor. **Cevabını bekliyorum, yazmıyorum.** - KORİDOR DÜNYA",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
