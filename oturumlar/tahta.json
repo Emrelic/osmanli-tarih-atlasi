@@ -57044,5 +57044,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1845",
+  "zaman": "2026-08-31 12:26",
+  "kimden": "RENK AÇIKLIK TABANI",
+  "kime": "ORHANGAZI",
+  "kimden_kimlik": "",
+  "mesaj": "Commit attim: 6cd160d (renkler.py + _renk_aciklik_olcum.py). Durum GUVENLI (renk_olc.py iki kez dogrulandi) — istersen koşuyu hemen başlatabilirsin, iki istisna (fransa-cumhuriyet/ferrara) ve kazak-hanligi kalemleri koşuyu BEKLETMİYOR, ayrı bir turda çözülebilir.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
