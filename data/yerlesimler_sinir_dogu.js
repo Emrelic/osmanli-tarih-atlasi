@@ -128,6 +128,44 @@ window.YERLESIMLER_SINIR_DOGU = [
  d:[{f:"1585-09-25", t:"1603-10-21"}],
  kaynak:"GeoNames (CC BY 4.0): 37.3833 K / 44.8667 D, feature class P, nüfus 3.783; `alternatenames`: 'Razhan, Rāzhān, راژان'. ⚠️ TDV'de müstakil maddesi YOK; Urmiye'nin batı yakasındaki köylerden, zincir Urmiye maddesinden (TDV `urmiye`, 200, gövde okundu) türetildi. 1923 varlığı AYRICA BELGELENEMEDİ — nüfusu ve `alternatenames` çeşitliliği eski bir yerleşim olduğunu düşündürüyor ama bu kaynak değil, işaret.",
  neden:"sınır çifti: Şemdinli (Şemdinni) (OSMANLI, bu dosyada) ile 27,2 km — ikisi de sınıra 12,3 km, yani TAM SİMETRİK. BU KOŞUDA ÇİZİLMEZ."
+},
+
+// ══ ÇİFT C — Şeyhrumi (TR) ↔ Şeyh Salû-yi Ulyâ (İran) · 8,2 km ═════════
+// KOLUN KALANI ÖLÇÜLDÜ: Türkiye-İran hattı üç kesime bölündü ve kazancın
+// nerede olduğu çıktı:
+//   GÜNEY 37,10-37,40 K  ortanca 1,39 · ≤5km %100  ⇒ ZATEN HEDEFTE, iş YOK
+//   PİLOT 37,40-38,70 K  ortanca 4,53 (A+B yazıldıktan sonra)
+//   KUZEY 38,70-39,55 K  ortanca 7,30 · ≤5km %29   ⇒ ASIL BOŞLUK BURADA
+// KUZEY ikiye bölündü, çünkü kazanç 1932 artefakt bölgesinin dibinde
+// kümeleniyordu ve oraya nokta yazmak `M-1800`de kendi geri çektiğim şeydi:
+//   KUZEY-A 38,70-39,20 (artefakttan UZAK)  ortanca 7,29 · ≤5km %27
+//   KUZEY-B 39,20-39,55 (artefakta KOMŞU)   ortanca 7,64 — YAZILMADI
+// Bütün TR×İR aday çiftleri tarandı (132 × 422) ve en iyisi bu çıktı:
+//   ortanca 7,29 → 0,73 km · ≤5km %27 → %100 · çift arası 8,2 km
+//   ve SİMETRİ neredeyse tam: 4,2 km ↔ 4,8 km (fark 0,6 km)
+{ad:"Şeyhrumi (Yücelen)", tur:"koy", lat:38.9619, lon:44.1132, g:0, k:4, m:null,
+ sinir:true,
+ s:[{f:"1281-01-01", t:"1514-09-06", d:"akkoyunlu"},
+    {f:"1514-09-06", t:"1639-05-17", d:"safevi"}],
+ d:[{f:"1639-05-17", t:"1923-10-29"}],
+ kaynak:"GeoNames (CC BY 4.0), allCountries 31 Ağu 2026: 38.9619 K / 44.1132 D, feature class P. `alternatenames` tarihî adı veriyor: 'Sehrumi, Seyhrumi, Şehrumi, Şeyhrumi' — 'Yücelen' 1950-60 yeniden adlandırmasıdır, 1923 haritasına yazılamaz. ⚠️ TDV bu taneciği kapsamıyor. ⚠️ Ve açıkça: yerleşimin varlığı ve konumu doğrulandı, 1923'te de var olduğu AYRICA BELGELENEMEDİ. Dönem zinciri en yakın komşu Çaldıran'dan (26,8 km) BİREBİR alındı — üç kırılma günü de külliyatta 0 gün sapmayla maddeli (1514-09-06 Tebriz'e giriş · 1639-05-17 Kasr-ı Şirin).",
+ neden:"sınır çifti: Şeyh Salû-yi Ulyâ (İran, bu dosyada) ile 8,2 km. Şeyhrumi sınıra 4,2 km, eşi 4,8 km ⇒ SİMETRİ FARKI 0,6 km, yani bisektör gerçek sınıra oturuyor. ÖLÇÜLDÜ: KUZEY-A kesiminin (38,70-39,20 K · 37 örnek ≈ 74 km) ortanca sapmasını 7,29 → 0,73 km'ye, ≤5km oranını %27 → %100'e taşıyor. 132 TR × 422 İR adayın tamamı tarandı, en iyisi bu. BU KOŞUDA ÇİZİLMEZ, bir sonrakine kalır."
+},
+
+{ad:"Şeyh Salû-yi Ulyâ", tur:"koy", lat:38.9926, lon:44.2001, g:0, k:4, m:null,
+ sinir:true,
+ s:[{f:"1281-01-01", t:"1340-01-01", d:"ilhanli"},
+    {f:"1340-01-01", t:"1386-01-01", d:"celayirli"},
+    {f:"1386-01-01", t:"1406-10-21", d:"timurlu"},
+    {f:"1406-10-21", t:"1468-04-01", d:"karakoyunlu"},
+    {f:"1468-04-01", t:"1501-07-01", d:"akkoyunlu"},
+    {f:"1501-07-01", t:"1736-03-08", d:"safevi"},
+    {f:"1736-03-08", t:"1747-06-20", d:"afsar"},
+    {f:"1747-06-20", t:"1796-01-01", d:"zend"},
+    {f:"1796-01-01", t:"1923-10-29", d:"kacar"}],
+ d:[{f:"1548-08-25", t:"1639-05-17"}],
+ kaynak:"GeoNames (CC BY 4.0): 38.9926 K / 44.2001 D, feature class P. `alternatenames` 19 ad taşıyor ve aralarında TÜRKÇE olanı da var: 'Shaikh Silu Yukari' (= Şeyh Salû Yukarı), ayrıca 'Sheykh Salū-ye Bālā', 'شِيخ سَلوی عُليا'. Aşağı köyü (Soflá/Pā’īn) 2,9 km güneyde ayrıca kayıtlı — yani ikiz köy, bölgede eski yerleşim deseni. ⚠️ TDV'de maddesi YOK; 1923 varlığı AYRICA BELGELENEMEDİ. 🔴 ZİNCİR KURULURKEN BİR TUZAK ATLANDI: en yakın İran kaydı Kotur'un (59 km) zinciri `1351-01-01` gününü kullanıyor ve o gün külliyatta 365 GÜN AÇIKTA. Onu devralsaydım Değişmez 2s'ye dokunurdum. Bunun yerine erken zincir Mâku'dan (43 km, günleri temiz), Osmanlı devri ise Kotur'dan (1548-08-25 → 1639-05-17) alındı — sınır kalesi Kotur bu köyün 20 km doğusunda ve aynı serhat kuşağında.",
+ neden:"sınır çifti: Şeyhrumi (Yücelen) (OSMANLI, bu dosyada) ile 8,2 km, simetri farkı 0,6 km. ⚠️ `d:`/`s:` örtüşmesi (1548-1639 Osmanlı devri safevi dönemiyle) KASITLI — projenin çoğunluk deseni, motor önceliği d>v>s çözüyor (uret_petek.py:3005). BU KOŞUDA ÇİZİLMEZ."
 }
 
 ];
