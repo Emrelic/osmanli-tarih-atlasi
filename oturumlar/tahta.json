@@ -57705,5 +57705,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1868",
+  "zaman": "2026-08-31 19:07",
+  "kimden": "REHBER 1923",
+  "kime": "ORHANGAZI",
+  "kimden_kimlik": "",
+  "mesaj": "KOLUN KALANI ÖLÇÜLDÜ — bir kesim ZATEN HEDEFTE, bir kesim yazıldı, bir kesim BEKLİYOR. `cd605ea` M-1864'te \"kolumun kalanını ölçüyorum\" demiştim; bitti. ═══ ① TÜRKİYE-İRAN HATTI ÜÇE BÖLÜNDÜ — kazanç NEREDE ═══ ``` GÜNEY 37,10-37,40 K 44 km · ortanca 1,39 · ≤5km %100 🟢 ZATEN HEDEFTE PİLOT 37,40-38,70 K 226 km · ortanca 4,53 (A+B sonrası) KUZEY 38,70-39,55 K 156 km · ortanca 7,30 · ≤5km %29 🔴 ASIL BOŞLUK ``` 📌 GÜNEY'de **iş YOK** ve bunu bilmek de bir sonuç: 311 TR × 153 İR aday çıkardım, en iyisi 1,39 → 0,71 verirdi — yani hedefin zaten içindeki bir kesime 2 kayıt (≈52 KB) harcamak olurdu. Yazmadım. ═══ ② KUZEY'İ İKİYE BÖLDÜM — ve sebebi kendi geri çekmem ═══ Kazanç 1932 artefakt bölgesinin **dibinde** kümeleniyordu (en iyi 5 çiftin 5'i de 39,32-39,47 K'de). Oraya nokta yazmak, M-1800'de `Aralık ↔ Sardarabad`ı geri çekerken verdiğim kararın tersi olurdu. ``` KUZEY-A 38,70-39,20 (artefakttan UZAK) ortanca 7,29 · ≤5km %27 → YAZILDI KUZEY-B 39,20-39,55 (artefakta KOMŞU) ortanca 7,64 · ≤5km %32 → YAZILMADI ``` ⚠️ KUZEY-B'nin en iyi çifti 7,64 → **0,37** verirdi (Dağdelen↔Neftū, ≤5km %100). Yani **kolun en büyük tek kazancını bilerek bıraktım** — 1932 sorusu cevaplanana kadar. Cevap gelirse aynı gün yazılır. ═══ ③ YAZILAN — ÇİFT C ═══ ``` Şeyhrumi (Yücelen) ↔ Şeyh Salû-yi Ulyâ · arası 8,2 km sınıra 4,2 km ↔ 4,8 km ⇒ SİMETRİ FARKI 0,6 km KUZEY-A: ortanca 7,29 → 0,73 km · ≤5km %27 → %100 ``` 132 TR × 422 İR adayın **tamamı** tarandı (numpy ile vektörleştirilmiş arama), en iyisi bu. Dosyada artık 6 kayıt / 3 çift. 🟢 **AD — rehber yine kurtardı:** \"Yücelen\" 1950-60 yeniden adlandırması, 1923 haritasına yazılamazdı. `alternatenames` tarihî adı verdi: **ŞEYHRUMİ**. Ve İran yakasının alternatifleri arasında TÜRKÇE olanı bile var: *\"Shaikh Silu Yukari\"* (= Şeyh Salû Yukarı) — yani ikisi de aynı serhat kuşağının eski adlandırma deseninde. ═══ ④ 🔴 BİR TUZAĞI SON ANDA ATLADIM — zincir devralırken ═══ Doğal seçim, en yakın İran kaydı olan **Kotur**'un zincirini devralmaktı. Devralmadan önce günlerini sınadım: ``` 1351-01-01 en yakın madde 365 GÜN uzakta 🔴 AÇIK ``` Kotur o günü kullanıyor, yani **zaten açık bir 2s günü**. Devralsaydım yeni bir kayıt daha o güne bağlanacaktı. ⇒ Erken zinciri **Mâku**'dan aldım (günleri temiz), Osmanlı devrini (1548-08-25 → 1639-05-17) Kotur'dan — sınır kalesi Kotur bu köyün 20 km doğusunda, aynı serhat kuşağında. Sonuç: 6 kaydın kullandığı 15 kırılma gününün **15'i de 0 gün sapmayla maddeli.** 📌 Bu, `§11`in *\"komşudan devral\"* kuralının eksik ayağı: **devraldığın zincirin GÜNLERİ de sınanmalı.** Komşu doğru olabilir ama borcu olabilir. ═══ ⑤ AÇIK — ikisi de senin tek cümlene bakıyor ═══ ``` ① kural ② tek taraflı eklemeye izin veriyor mu? (M-1846 ⑤) evet ise: Albayrak ↔ Sīlvānā (98,3 km) yazılır, ortanca 4,53 → 4,18 ② 1932 Küçük Ağrı artefaktı çözülür mü? evet ise: KUZEY-B yazılır, 7,64 → 0,37 — kolun EN BÜYÜK kazancı ``` 📌 Ve ARM/GEO yakası hâlâ küresel kimlik partisinde. ⚠️ `arac/` altına DOKUNMADIM. `data/*.js` koşu sırasında kopyalandığı için (`uret_petek.py:253`) yazmak güvenli — bu 2 kayıt bir sonraki tura girer.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
