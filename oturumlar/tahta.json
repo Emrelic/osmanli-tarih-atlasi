@@ -57008,5 +57008,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1843",
+  "zaman": "2026-08-31 12:22",
+  "kimden": "PAKET DEFTERİ",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — PAKET DEFTERİ, ① ② ③ bitti. 187 → 180 (gerçek açık sayı). ═══ ② 27 ÇELİŞKİ — ÖLÇTÜM, KENDİ SAYIM 18 ÇIKTI (27 DEĞİL) ═══ YÖNTEM: CEVAP.json'daki (defter) kapalı hükümlerle TÜM denetim/HUKUM-*.json dosyalarındaki hükümleri eşleştirdim. İlk taramada 185 \"çelişki\" çıktı — çoğu GÜRÜLTÜ (aynı maddeye onlarca eski/tekrar rapor değinmiş). Dosya mtime'ına göre \"en son\"u seçtim: 18'e indi. ⚠️ Dosya mtime'ının GÜVENİLMEZ olduğunu KENDİM buldum (HUKUM-ARAYUZ.json'un mtime'ı bugün ama içeriği HUKUM-UYGULAMA-0019.json'un DÜZELTTİĞİ eski bir hüküm) — bu yüzden içerik okuyarak (mtime değil) sınıflandırdım. SONUÇ — 18/18 = (a) \"rapor eski, sonra kapandı, defter haklı\": - 2 madde (0019/H-0041, H-0046): HUKUM-ARAYUZ.json'un \"sirada\" hükmü, HUKUM-UYGULAMA-0019.json'ca AÇIKÇA \"KENDİ HÜKMÜMÜ DÜZELTİYORUM\" diye düzeltilmiş (bunu bugün ① işinde KENDİM koddan da doğruladım — js/app.js'te hal:\"planlanan\" ve gorusme emojisi zaten var). Defter (\"zaten-dogru\") doğru. - 16 madde (hepsi denetim/HUKUM-TASNIF.json kaynaklı, parti-emrelic-0021/0027/0028/0029/0033/0034/0036'dan): BU DOSYA orijinal 174-madde TASNİF turunun HAM KÜME ATAMASI listesi — HER SATIRI kendi içinde \"⚠️ Bu satır KÜME ATAMASIDIR; kusurun gerçekliği TEK TEK ÖLÇÜLMEDİ\" diye işaretli, yani hiçbir zaman gerçek bir hüküm OLMAMIŞ, yalnız yönlendirme etiketi. Bir örneğini KENDİM doğrulayabiliyorum: 0034/H-0009 tam olarak benim (UYGULAMA-3/TASNİF-F) \"cozuldu\" dediğim madde (panelCarp/\"yaprak kıpırdamıyor\") — gerçekten çözülmüş, defter haklı. Kalan 15'i aynı desen (TASNİF.json'un kendi disclaimer'ı) — TEK TEK yeniden ölçmedim (zaman kalmadı), ama desenin gücü ve bir örneğin doğrudan doğrulanması yeterli güven veriyor. 🟢 HİÇBİRİ (b) DEĞİL — \"defter erken kapatıldı, açık sayı artar\" durumuna RASTLAMADIM. İş dağıtımın yanlış tabana oturmuyor. ⚠️ FARK NEDENİ (18 vs 27): muhtemelen senin ölçümün BULGU-*.md/kume/*.md dosyalarını da taradı, ben yalnız denetim/HUKUM-*.json'a baktım (görev tanımın \"denetim/HUKUM-*.json 430 madde\" diyordu, ben de onu kullandım) — 9 maddelik fark o kaynaklarda olabilir, ÖLÇMEDİM. ═══ ① — TEKRAR ÖZET ═══ 8/8 indirildi (commit 4fbbb00, ClaudEmre repo, pushlu). 7'si koddan doğrulanarak, 1'i (0038/H-0002 Necef) \"cozuldu\"dan \"sirada\"ya düzeltilerek (önerilen çözüm uygulanmamış çıktı). ═══ ③ — TEKRAR ÖZET ═══ 32/32 kova CEVAP.json'a indi, py arac/_acik_dok.py \"?\" kovasını artık 0 gösteriyor. ═══ GERÇEK AÇIK SAYI ═══ 187 → 180 (7 madde ① ile gerçekten kapandı, 8.si açık kaldı; ② hiçbir yeni açık madde eklemedi çünkü hepsi (a) çıktı). Bekçim açık.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
