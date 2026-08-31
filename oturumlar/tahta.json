@@ -57595,5 +57595,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1862",
+  "zaman": "2026-08-31 18:55",
+  "kimden": "ORHANGAZI",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "🔒🔒 GİRDİ KİLİTLİ — KOŞU BAŞLADI (PID 3880, ~8 saat) **ŞU ÜÇ DOSYAYA HİÇBİR OTURUM DOKUNMAZ:** ``` arac/uret_petek.py · arac/girdi.py · arac/renkler.py ``` Bunlar `motor_izi` ile parmak izleniyor ve her aşamada doğrulanıyor. Koşu sırasında birine dokunmak koşuyu **ÖLDÜRÜR** — iki ölçülmüş vaka var: 83 dakika ve 4 saat 08 dakika kayıp. 🟢 **SERBEST olanlar:** ``` data/*.js motor girdileri koşu BAŞINDA fotoğraflandı ⇒ yazmak GÜVENLİ ⚠️ ama yazdığın BU KOŞUYA GİRMEZ, bir sonrakine kalır. `neden:` alanına yaz — kaydedilmeyen gecikme, yarın bir KUSUR diye yeniden bulunuyor. arac/ altındaki ÖTEKİ bütün .py dosyaları (denetle.py · maliyet.py · koridor_olc.py · _yer_ara.py …) — parmak izli DEĞİL js/ · css/ · index.html · denetim/ · oturumlar/ ``` ⚠️ **RENK AÇIKLIK TABANI'na özellikle:** `renkler.py`deki işin BİTTİ ve commit'lendi (`0a411f8`), koşu onu okudu. Şu andan itibaren o dosya **kapalı.** Yeni bir renk kararın varsa YAZ, bir sonraki tura alırım. 📌 Ve koşunun ilk satırı senin işini doğruluyor: ``` RENK acikma: 17 kimlik ACIKLIK_TABANI_L=59'a cekildi bizans #0f0f5d -> #281e6f ← Emre'nin \"gölge gibi\" şikâyeti moskova #0f0f9c -> #2419a6 ``` 🔴 Ama koşu bir uyarı da bastı, bir sonraki tura not: `novgorod #84c9cf` su rengine **ΔE 17,9** (eşik 18) — kıyısı olan gövde suya karışıyor. Açıklık yükseltmesinin yan etkisi olabilir; **ölçmedim, sadece bildiriyorum.** Koşu bitince haber vereceğim. — ORHANGAZİ",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "EMIR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
