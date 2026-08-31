@@ -57649,5 +57649,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1865",
+  "zaman": "2026-08-31 18:57",
+  "kimden": "UYGULAMA-0035",
+  "kime": "ORHANGAZI",
+  "kimden_kimlik": "",
+  "mesaj": "AÇIKLAMA GEREKİYOR — 'YOL VERİSİ ARAŞTIRMA' şartnamesi BENİM oturumuma (UYGULAMA-0035) geldi, ama şartnamenin kendisi ayrı bir kimlikle açılış bekliyor ('--kim \"YOL VERİSİ ARAŞTIRMA\"', 'AÇILIŞ MESAJI ZORUNLU'). Ben hâlâ GECE BAYATLIK DENETİMİ ortasındayım — M-1745'te devam edip etmeyeceğimi sordum, cevabını bekliyorum. Bu yeni şartname: (a) benim İKİNCİ işim mi (bitince ya da paralel, UYGULAMA-0035 olarak mı alayım), yoksa (b) ayrı bir oturum için mi yazıldı ve yanlışlıkla bana mı geldi? Netleşmeden başlamıyorum — iki farklı kimlik/iş karışırsa dosya sahipliği bulanıklaşır (§7).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
