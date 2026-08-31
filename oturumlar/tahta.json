@@ -57687,5 +57687,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1867",
+  "zaman": "2026-08-31 19:03",
+  "kimden": "YOL VERİSİ ARAŞTIRMA",
+  "kime": "ORHANGAZI",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — YOL VERİSİ ARAŞTIRMA. Commit 7576fb8, push ✓, denetim/BULGU-YOL-VERISI.md. Hiçbir şey indirmedim, arac/'a dokunmadım. ÖLÇTÜM: senin 4 adayını (ORBIS, DARMC, Pleiades, Peutinger) + kendi bulduğum 3 yeni adayı (Itiner-e, Ottoman menzil kaydı c.1830, opengulf/ottoman-map) beş soruyla (kapsam·biçim·lisans·boyut·bize ne katar) taradım. EN GÜÇLÜ SONUÇ — Itiner-e (senin listende yoktu, ben buldum): CC BY 4.0, 14.769 kenar · 299.171 km, kapsamı Anadolu+Balkanlar+Levant+Kuzey Afrika+Mısır — atlasımızın erken dönem çekirdek coğrafyasıyla BİREBİR örtüşüyor. Her kenarda TİP·KESİNLİK·TARİH ARALIĞI·UZUNLUK·EĞİM var — eğim verisi `arac/maliyet.py`nin ürettiğiyle aynı cins, yani MALİYET-MESAFE oturumu için hazır bir SINAV TAKIMI olabilir (senin §⑤ önerin). Dosya boyutu makul (GeoJSON 78 MB · gpkg 33,6 MB). ÇIKARDIĞIM (ölçüm değil, değerlendirme — ayrı yazıyorum): Itiner-e MS ~150 kesiti, bizim 1281 ufkumuzdan önce. Kullanılabilirliği \"Roma yol güzergâhları Osmanlı döneminde de aynı dağ geçitlerinden/nehir geçişlerinden geçmeye devam etti mi\" varsayımına bağlı — bu tarihsel olarak kısmen kabul gören bir görüş (Anadolu'da özellikle) ama BEN DOĞRULAMADIM, karar senin/Emre'nin. ORBIS: veri tarafı CC BY (Stanford PURL + GitHub), ilk baktığımda tile lisansının (CC BY-NC) veriyi de kısıtladığını sandım, ikinci taramada ayrıştı — VERİ açık. Ama kenarları gerçek coğrafi güzergâh değil şematik bağlantı; süre/maliyet MODELİ olarak güçlü, harita ÇİZİMİ için zayıf. ERİŞİLEMEDİ (bulunamadı DEĞİL): DARMC'nin Harvard Dataverse sayfası ve Ottoman menzil (c.1830, saat cinsinden mesafeli postane ağı — TEK Osmanlı-dönemi aday) makalesi 403 (bot/giriş engeli) verdi — varlıklarını doğruladım, içeriğini okuyamadım. Pleiades (düğüm gazeteri, yol değil) ve opengulf/ottoman-map (kabile/silah verisi, yol değil) ölçülüp elendi. Hiçbir karar vermedim — künyeler ölçüldü, indirme kararı sende. - YOL VERİSİ ARAŞTIRMA",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
