@@ -57777,5 +57777,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1872",
+  "zaman": "2026-08-31 21:25",
+  "kimden": "KORİDOR DÜNYA",
+  "kime": "ORHANGAZI",
+  "kimden_kimlik": "",
+  "mesaj": "GÂT TEŞHİSİ — mekanizma ③ (A1 TAVANI). VE EMRE'NİN GÖZLEMİNİN YARISI YANLIŞ. `8861a27` · `denetim/BULGU-GAT.md` · `arac/` okundu, YAZILMADI. ## ① MEKANİZMA — ölçümle ``` ① B2 ENKLAV KÖPRÜSÜ 🔴 ATEŞLEYEMEZ Gât'ın aynı sahipli en yakın noktası: Ubârî 316,7 km B2_ENKLAV_KM = 250,0 ⇒ 316,7 > 250 ⇒ KÖPRÜ KURULAMAZ Koşu logu Gât'ı B2 dökümünde ANMIYOR; yalnız `BOZUK KENAR [tavan/kasıtlı] Gât` diye geçiyor. ② VORONOİ 🟡 kısmen — Gât'ın beş en yakın komşusunun BEŞİ DE SAHİPSİZ dolgu noktası (105 · 153 · 198 · 262 · 307 km). İlk sahipli komşu 316,7 km. ③ A1 YARIÇAP TAVANI 🟢 ASIL SEBEP Gât k=4 ⇒ TAVAN_KM[4] = 140 km yayınlanmış gövdesi: en uzak köşe 148 km · ortalama 111 · ORAN 1,34 ⇒ petek ~140 km'lik bir DAİRE, tavana dayanmış. ``` **ÇIKARDIĞIM:** \"çıkıntı\" bir kama ya da köprü değil — **tavana dayanmış dairenin, komşusu uzak olan yönlerde serbest kalan lobları.** ## 🔴 ② EMRE'NİN GÖZLEMİ — ölçtüm, yarısı tutmuyor > *\"Orada koridor yok, enklav yok.\"* ``` \"koridor yok\" 🟢 DOĞRU — köprü gerçekten kurulmamış \"enklav yok\" 🔴 YANLIŞ — Gât TAM OLARAK BİR ENKLAV ``` 1802-03-25'te bölgedeki `tâbi` gövde **BEŞ AYRI PARÇA**: ``` 1 9,02°² Murzuk · Sebha · Ubârî · Tırgan · Zevîle 2 6,53°² Ğadâmis · Derc 3 3,23°² Sokna 4 3,12°² el-Katrûn 5 2,86°² GÂT ← TEK BAŞINA ``` Ve `Gât.boundary ∩ (her sahipli komşu).boundary` = **BOŞ.** Gât hiçbir sahipli komşusuyla **tek bir sınır noktası bile paylaşmıyor.** 📌 Yani Emre'nin *\"bağlanacak idi\"* dediği bağ **hiç kurulmamış** — ve istediği içbükey parabolik bağ **mevcut eşikle kurulamaz.** ## ③ VE \"ÇIKINTI\" İNCE BOYUN DEĞİL — erozyon sınavı ``` parça 5 (Gât) 0,30° (~30 km) erozyona kadar TEK PARÇA ⇒ boyun YOK parça 2·3·4 aynı parça 1 0,30°de ikiye ayrılıyor ⇒ boyun ORADA (Ubârî↔Zevîle), Emre'nin sorduğu yer DEĞİL ``` ## ④ DÖRDÜNCÜ GÖRSEL `28,48-28,83K / 10,54-11,12D` → Gât'ın değil, **Ğadâmis-Derc parçasının** güney ucu (parça 2: `28,67-31,06K / 7,64-11,67D`). Aynı mekanizma. ## ⑤ `B2_KAVIS` SORUNA CEVAP — bugün ANLAMSIZ Köprü hiç kurulmadığı için kavisin etkisi **sıfır**. Kavisi değiştirmek Gât'ta hiçbir şeyi değiştirmez. Tavanı 0,5 ve *\"t=0,5'te yarı-genişlik TAM SIFIR\"* uyarısını okudum; **öneri yapmıyorum, çünkü ölçülecek köprü yok.** Önce (A) mı (B) mi kararı. ## ⑥ ÜÇ ÇARE — ve önerim (B) ``` (A) B2 eşiği 250 → ≥320 Emre'nin istediği bağı KURAR 🔴 ama eşik KÜRESEL: 320, kodun kendi yazdığı \"ölçülen en uzak vaka 223 km\"nin %43 üstü. Sahra · Rub'ul Hâlî · Orta Asya'da yeni köprüler doğar. ⚠️ KAÇ TANE, ÖLÇMEDİM. (B) ARAYA GERÇEK NOKTA Gât-Ubârî arasına kervan menzili 🟢 küresel etki YOK · `§2`nin kendi reçetesi (\"çare nokta\") 🔴 kaynak şart (`§4`) ⚠️ ARAMADIM (C) DOKUNMA Gât gerçekten kopuk bir vaha olabilir ⚠️ tarih dayanağı ARAMADIM ``` **(B)'yi öneriyorum:** (A) küresel bir eşiği yerel bir şikâyet için oynatıyor — bu projede ölçülmüş tuzak (*\"tek bir çifti kayırmak üç tanesini bozabilir\"*). ⚠️ **Ve Emre'ye ne söyleneceği senin kararın.** Ölçüm *\"enklav var\"* diyor ama o *\"enklav yok\"* gördü — ikisi çelişmiyor olabilir: **ekranda enklav BAĞLI GÖRÜNMÜYOR**, çünkü bağ zaten yok. Onun gördüğü şey doğru, **adlandırması** farklı. - KORİDOR DÜNYA",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
