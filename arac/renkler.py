@@ -2732,6 +2732,55 @@ BOYALAR = {
     #   girdi.py'ye girince) `py arac/renk_olc.py` bunu KENDİ ölçecek —
     #   o koşuda görünmez/çakışma sayıları ARTMAMALI.
     "teodoro":                 ("Theodoro Prensliği (Mankup)",       "#42ba42"),
+
+    # ═══ BEŞ RENKSİZ KİMLİK — RENK AÇIKLIK TABANI oturumu, M-1848 ②'nin
+    # EK İŞİ. ORHANGAZİ üç yerleşim dosyasını bağlamaya hazırlanıyor
+    # (yerlesimler_4ff22b.js · yerlesimler_amerika2.js ·
+    # yerlesimler_hindistan.js) ve beşi de renksizdi — `CLAUDE.md §8`:
+    # "kimlik BOYALAR'da tanımlı olmalı, yoksa bölge BOYANMAZ" ⇒ dosyalar
+    # bağlanırsa harita DELİĞİ açılırdı. Üçü `devletler.js`te de YOK
+    # (kaynak dosyalarının kendi notu: "YENİ KÜNYE BORCU") — o benim işim
+    # değil, yalnız RENK yazıyorum, künye ayrı bir VERİ kalemi.
+    #
+    # Hepsi L* TABANININ (59) ÜSTÜNDE ve arac/_renk_aciklik_olcum.py'nin
+    # yöntemiyle (bindirilmiş Lab, ikili arama) seçildi. `komanci` ve
+    # `apaci-ovalar` GERÇEKTEN KOMŞU (ikisi de Güney Ova, aynı yerleşimin
+    # ardışık iki dönemi — yerlesimler_amerika2.js:52-53) ve ORHANGAZİ
+    # "taban ΔE 12 yetmez, hedefi yükselt (≥20 dene)" dedi — ikisi
+    # arasında ΔE 33,6 (bugis↔gova emsaliyle aynı yöntem). Beşinin
+    # KENDİ ARALARINDAKİ en dar ΔE 13,7 (farukiler↔apaci-ovalar) —
+    # aynı partide tanıtılan beş rengin birbiriyle KARIŞMAMASI için ayrıca
+    # sınandı, yalnız coğrafi komşuluk yetmez dendi.
+    # Bölgesel doğrulama (Kuzey Amerika, komanci/apaci-ovalar için):
+    #   apaci-ovalar en yakın Amerika-ailesi komşusu ΔE 18,1 (ingiliz-
+    #     kuzey-amerika) · komanci ΔE 18,4 (yeni-ispanya) — ikisi de eşiğin
+    #     (12) üstünde, RAHAT.
+    #
+    # 🔴 İLK SEÇİMİM (2. denemede) `py arac/renk_olc.py`nin "ALTLIKTAN
+    # AYRIŞMAYAN" (ΔE<15, DE_ALTLIK) dalını 2 kimlikte (farukiler 7,5 ·
+    # apaci-ovalar 13,1) ATEŞLEDİ — L* tabanına ulaşmak için seçtiğim ilk
+    # tonlar AŞIRI PASTELDİ (yüksek L*, düşük kroma) ve altlığın kendisi
+    # de açık/nötr bir renk (#e8dfc8, L*89) olduğu için ikisi neredeyse
+    # ZEMİNE KARIŞIYORDU — kimlik değil GÖRÜNMEZLİK üretiyordu, tam da bu
+    # tabanın önlemeye çalıştığı hatanın KARDEŞİ. ⇒ Kroma ARTIRILARAK
+    # (daha doygun, altlıktan daha net ayrışan) yeniden seçildi:
+    #   farukiler     L88 C74  DE_altlık 30,3   (yeşil aile)
+    #   apaci-ovalar  L80 C74  DE_altlık 34,7   (amber aile)
+    # 📌 Ders: L* TABANI TEK BAŞINA yetmez — "koyu → gölge" riskini
+    # kapatırken "çok açık/soluk → zemine karışma" riskini AÇABİLİR.
+    # İkisi de aynı ailenin (görünürlük) iki ucu, tek yönlü ölçüm kör.
+    #
+    # ⚠️ ÖLÇÜLMEDİ: hawaii-kralligi/merina'nın GERÇEK Voronoi komşuları
+    # (Pasifik/Madagaskar'da BOYALAR'lı başka kimlik neredeyse yok, global
+    # en-yakın eşleşmeler coğrafi olarak UZAK — ama bu bir VARSAYIM,
+    # `py arac/renk_olc.py`nin dosyalar bağlandıktan SONRAKİ koşusu kesin
+    # cevabı verecek). `py arac/renk_olc.py` TAM koşusu (29 Ağustos) bu
+    # beşi için "0 görünmez · 0 çakışma · 0 aynı-hex" doğruladı.
+    "hawaii-kralligi":         ("Hawaii Krallığı",                   "#ffa5d6"),
+    "merina":                  ("Merina Krallığı",                   "#73c0a0"),
+    "farukiler":               ("Fârûkîler (Handeş Sultanlığı)",     "#80f67e"),
+    "apaci-ovalar":            ("Ova Apaçileri",                     "#d7a300"),
+    "komanci":                 ("Komançiler",                        "#78bdff"),
 }
 
 
@@ -3066,10 +3115,21 @@ def _lab_ters(L, a, b):
     return "#%02x%02x%02x" % (round(r * 255), round(g * 255), round(b2 * 255))
 
 
-def _bindirilmis_L(hx, opaklik):
+def _bindirilmis_lab(hx, opaklik):
     r, g, b = [int(hx.lstrip("#")[i:i + 2], 16) for i in (0, 2, 4)]
     karisim = tuple(opaklik * c + (1 - opaklik) * a for c, a in zip((r, g, b), ALTLIK))
-    return _lab_cevir("#%02x%02x%02x" % tuple(int(round(v)) for v in karisim))[0]
+    return _lab_cevir("#%02x%02x%02x" % tuple(int(round(v)) for v in karisim))
+
+
+def _bindirilmis_L(hx, opaklik):
+    return _bindirilmis_lab(hx, opaklik)[0]
+
+
+def _de3(lab1, lab2):
+    """CIE76 — renk_olc.py'nin `dE`siyle AYNI formül (Lab öklit).
+    Burada da tanımlı çünkü renkler.py `renk_olc.py`yi İTHAL EDEMEZ —
+    o zaten BUNU ithal ediyor (döngüsel bağımlılık olurdu)."""
+    return sum((x - y) ** 2 for x, y in zip(lab1, lab2)) ** 0.5
 
 
 def _aciklik_yukselt(hx, taban_L, opaklik):
@@ -3087,6 +3147,27 @@ def _aciklik_yukselt(hx, taban_L, opaklik):
     return _lab_ters(hi, a0, b0)
 
 
+def _aciklik_yukselt_hue(hx, taban_L, opaklik, aci_derece):
+    """`_aciklik_yukselt` ile AYNI ikili arama, farkla: a*/b* de (ton
+    açısı) `aci_derece` kadar döndürülüyor, KROMA (a*/b*'nin büyüklüğü)
+    sabit kalıyor. Saf L-lift bir komşuya çok yaklaştırınca (§ORHANGAZİ
+    M-1848 — 'SIRA bağlıyor olabilir' dersinin ikinci geçişi) kullanılır."""
+    import math as _math
+    L0, a0, b0 = _lab_cevir(hx)
+    kroma = (a0 ** 2 + b0 ** 2) ** 0.5
+    aci = _math.atan2(b0, a0) + _math.radians(aci_derece)
+    a1, b1 = kroma * _math.cos(aci), kroma * _math.sin(aci)
+    lo, hi = 0.0, 100.0
+    for _ in range(24):
+        mid = (lo + hi) / 2
+        aday = _lab_ters(mid, a1, b1)
+        if _bindirilmis_L(aday, opaklik) < taban_L:
+            lo = mid
+        else:
+            hi = mid
+    return _lab_ters(hi, a1, b1)
+
+
 # 🔴 29 Ağustos — İKİ ÇAKIŞMA DOĞDU, ÖLÇÜLDÜ, DURULDU (ORHANGAZİ'nin
 # kendi uyarısı: "açıklığı yükseltmek iki rengi birbirine yaklaştırabilir.
 # Çakışırsa DUR ve bana yaz, eşik pazarlığı benim işim.").
@@ -3098,13 +3179,35 @@ def _aciklik_yukselt(hx, taban_L, opaklik):
 # (Diğer üç çakışma — isvec↔sovyet-rusya · ingiliz-kuzey-amerika↔ispanya ·
 # meiji-japonya↔sovyet-rusya — bu tabanla İLGİSİZ, hiçbiri lift LİSTESİNDE
 # değil, ÖNCEDEN de vardı.)
-# ⇒ Bu iki kimlik BURADAN HARİÇ TUTULUYOR — L* tabanının ALTINDA kalmaya
-# DEVAM EDİYORLAR (koyu, ama YENİ bir çakışma üretmiyorlar; eski hâlleri
-# en azından KOMŞULARINDAN güvenli mesafedeydi). Hangi yönde çözüleceği
-# (floor'u ikisi için farklı bir hedefe kaydırmak mı, hue'yu da oynatmak
-# mı, yoksa eşiği mi gevşetmek) ORHANGAZİ'nin kararı — kendi başıma
-# seçmedim.
-_ACIKLIK_ISTISNA = {"fransa-cumhuriyet", "ferrara"}
+# ⇒ İlk turda bu iki kimlik BURADAN HARİÇ TUTULMUŞTU (L* tabanının
+# ALTINDA kalmaya devam ediyorlardı). ORHANGAZİ'nin kararı (M-1848):
+# "atlaman DOĞRU — L* tabanı bir OKUNABİLİRLİK iyileştirmesi, ΔE eşiği
+# bir AYIRT EDİLEBİLİRLİK ihlali; birincisi için ikincisini bozmak
+# kazançtan büyük bir kayıp." AMA bir İKİNCİ GEÇİŞ istendi — bu projenin
+# "çözülemedi"nin ÜÇÜNCÜ cinsi (SIRA bağlıyor) dersine göre, saf L*-lift
+# (a*/b* SABİT) tek yön denemişti; a*/b*'yi de (ton açısını) ufak
+# oynatan bir arama HİÇ denenmemişti.
+#
+# İKİNCİ GEÇİŞ ÖLÇÜLDÜ — YAPISAL DEĞİLMİŞ: ton açısı biraz oynatılınca
+# ikisi de tabanı VE eşiği rahat geçiyor:
+#   fransa-cumhuriyet  -10°  #09095a -> #00297c  ΔE(ingiltere) 11,5->18,7
+#   ferrara            +30°  #300c93 -> #7a005c  ΔE(mantua)    10,9->19,6
+#
+# 🔴 VE FERRARA'NIN İLK DÜZELTMESİ (-10°) KENDİ YENİ ÇAKIŞMASINI DOĞURDU —
+# `py arac/renk_olc.py`nin TAM koşusu (yalnız TEK komşuya bakan kendi
+# ölçümüm DEĞİL) yakaladı: -10° mantua'dan kaçarken `parma`ya (ΔE 7,4,
+# başka bir GERÇEK komşu, ben hiç sınamamıştım) çarpmış. ⇒ Tek komşuya
+# göre "ikinci geçiş" YETMEZ — bir kimliğin BİRDEN ÇOK gerçek komşusu
+# varsa hepsine birden bakılmalı. +30° yönünde arayınca hem mantua (19,6)
+# hem parma (33,0) hem savoya (23,6) hem fransa-cumhuriyet (27,7) AÇILDI.
+# 📌 Bu, `§11`in "yeni yazılan denetim iki yönde sınanmadan çalışıyor
+# sayılmaz" dersinin bir türevi: bir DÜZELTME de TEK komşuya göre
+# doğrulanmışsa doğrulanmış SAYILMAZ.
+_ACIKLIK_ISTISNA_HUE = {
+    # kimlik              engelleyen komşu(lar)         ton kaydırma (derece)
+    "fransa-cumhuriyet": (["ingiltere"],                -10.0),
+    "ferrara":           (["mantua", "parma"],           30.0),
+}
 
 
 def _aciklik_tabani_uygula():
@@ -3115,8 +3218,17 @@ def _aciklik_tabani_uygula():
     kimse fark etmez (`bizans` tam böyle sızdı). Uygulama YAZILI: her
     değişiklik listelenir, sessiz değildir.
     """
+    # ORHANGAZİ'nin kendi eşiği (`renk_olc.py`deki DE_KOMSU=12.0) burada
+    # KOPYA — renkler.py `renk_olc.py`yi ithal edemez (döngüsel bağımlılık:
+    # o BUNU ithal ediyor). Bir güvenlik payıyla (13.0) sınandı — sınırda
+    # (12,0-13,0) geçen bir aday KABUL EDİLMEZ, ikinci geçiş de YAPISAL
+    # sayılır; amaç ucu ucuna değil RAHATÇA geçmek.
+    _DE_KOMSU_KOPYA = 12.0
+    _GUVENLI_PAY = 13.0
+
     degisen = []
     atlanan = []
+    ikinci_gecis = []
     for kid, v in list(BOYALAR.items()):
         if not isinstance(v, (tuple, list)) or len(v) < 2:
             continue
@@ -3126,8 +3238,27 @@ def _aciklik_tabani_uygula():
         simdiki_L = _bindirilmis_L(hx, OPAKLIK["yabanci"])
         if simdiki_L >= ACIKLIK_TABANI_L:
             continue
-        if kid in _ACIKLIK_ISTISNA:
-            atlanan.append((kid, hx, simdiki_L))
+        if kid in _ACIKLIK_ISTISNA_HUE:
+            komsu_idler, aci = _ACIKLIK_ISTISNA_HUE[kid]
+            aday_hx = _aciklik_yukselt_hue(hx, ACIKLIK_TABANI_L, OPAKLIK["yabanci"], aci)
+            aday_lab = _bindirilmis_lab(aday_hx, OPAKLIK["yabanci"])
+            # TÜM listelenen komşulara birden bakılıyor — tek komşuya göre
+            # doğrulamak `ferrara/parma` vakasını (yukarıdaki yorum)
+            # DOĞRULAMIŞ gibi görünüp aslında YANLIŞ komşuyu sınardı.
+            en_kotu_de, en_kotu_komsu = None, None
+            for komsu_id in komsu_idler:
+                komsu_v = BOYALAR.get(komsu_id)
+                komsu_hx = komsu_v[1] if isinstance(komsu_v, (tuple, list)) else komsu_v
+                if not komsu_hx:
+                    continue
+                d = _de3(aday_lab, _bindirilmis_lab(komsu_hx, OPAKLIK["yabanci"]))
+                if en_kotu_de is None or d < en_kotu_de:
+                    en_kotu_de, en_kotu_komsu = d, komsu_id
+            if en_kotu_de is not None and en_kotu_de >= _GUVENLI_PAY:
+                BOYALAR[kid] = (ad, aday_hx) if isinstance(v, tuple) else [ad, aday_hx]
+                ikinci_gecis.append((kid, hx, aday_hx, simdiki_L, en_kotu_komsu, en_kotu_de))
+            else:
+                atlanan.append((kid, hx, simdiki_L, en_kotu_komsu, en_kotu_de or -1))
             continue
         yeni_hx = _aciklik_yukselt(hx, ACIKLIK_TABANI_L, OPAKLIK["yabanci"])
         BOYALAR[kid] = (ad, yeni_hx) if isinstance(v, tuple) else [ad, yeni_hx]
@@ -3138,13 +3269,20 @@ def _aciklik_tabani_uygula():
               % (len(degisen), ACIKLIK_TABANI_L))
         for kid, eski, yeni, L0 in sorted(degisen, key=lambda t: t[3]):
             print("    L*=%4.1f  %-28s %s -> %s" % (L0, kid, eski, yeni))
+    if ikinci_gecis:
+        print("  RENK acikma IKINCI GECIS (%d kimlik) - saf L-lift komsuya "
+              "cok yaklastiriyordu, ton acisi da kaydirildi (ORHANGAZI M-1848):"
+              % len(ikinci_gecis))
+        for kid, eski, yeni, L0, komsu, de in ikinci_gecis:
+            print("    L*=%4.1f  %-28s %s -> %s  (<-%s DE=%.1f)"
+                  % (L0, kid, eski, yeni, komsu, de))
     if atlanan:
-        print("  RENK acikma ATLANDI (%d kimlik) - lift YENI komsu "
-              "cakismasi uretiyordu, ORHANGAZI karari bekleniyor:"
-              % len(atlanan))
-        for kid, hx, L0 in atlanan:
-            print("    L*=%4.1f  %-28s %s  (DEGISMEDI)" % (L0, kid, hx))
-    return degisen
+        print("  RENK acikma ATLANDI (%d kimlik) - ikinci gecis de "
+              "guvenli payi gecemedi, YAPISAL sayiliyor:" % len(atlanan))
+        for kid, hx, L0, komsu, de in atlanan:
+            print("    L*=%4.1f  %-28s %s  (DEGISMEDI, <-%s DE=%.1f)"
+                  % (L0, kid, hx, komsu, de))
+    return degisen, ikinci_gecis, atlanan
 
 
-_ACIKLIK_DEGISEN = _aciklik_tabani_uygula()
+_ACIKLIK_DEGISEN, _ACIKLIK_IKINCI_GECIS, _ACIKLIK_YAPISAL = _aciklik_tabani_uygula()
