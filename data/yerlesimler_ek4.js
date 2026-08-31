@@ -68,6 +68,25 @@ window.YERLESIMLER_EK4 = [
 { ad:"Hamâd (Bâdiyetü'ş-Şâm içi)", tur:"bolge", lat:33.05, lon:40.28, g:0, k:0, d:[], kasitli_bosluk:true, bos:"kabile", neden:"Hamâd, Suriye Çölü'nün iç kesimidir ve bedevi aşiretlerin (Rüvele, Anize) göçer denetimindeydi, yerleşik devlet idaresi yoktu." },
 
 // =====================================================================
+// 0038/H-0002 — NECEF'İN GÜNEYBATISI (29-32,5K / 40,5-44,5D) BOŞLUĞU
+// =====================================================================
+// Emre ekran görüntüsüyle sordu: kutu içinde tur:"bolge" nokta SIFIR,
+// kutu merkezini (30,75/42,50) Necef'in peteği 221,3 km'den emiyor —
+// aynı "noktasız bölge en yakın peteğe emilir" sınıfı (§2), Hamâd/Vâdî
+// Sirhân ile birebir aynı desen, yalnız BU kare atlanmış.
+// 3 km mükerrer taraması: her iki ad da (ve alternatif yazımları) 0 eşleşme
+// (`_yer_ara.py`, iki yazımla da) — en yakın gerçek nokta >170 km, çakışma
+// riski yok.
+// 🔴 GECİKME: bu kayıt çalışan üretim koşusuna (PID 7788) girmez — girdi
+// koşu başında fotoğraflandı. Bir sonraki koşuda görünür.
+{ ad:"Widyân (el-Widyân)", tur:"bolge", lat:31.20, lon:41.50, g:0, k:0, d:[], kasitli_bosluk:true, bos:"kabile",
+  kaynak:"USGS Bulletin 2202-E, 'Petroleum Geology and Total Petroleum Systems of the...' (pubs.usgs.gov) — 'Widyan Basin includes the Western and Southwestern Deserts of Iraq... extends from Al-Anbar province... across the deserts of Karbala and Najaf to the borders with Saudi Arabia'",
+  neden:"Necef'in güneybatısındaki bu çöl platosu (Widyan havzası) yerleşik devlet idaresi taşımaz, göçer bedevi aşiretlerin denetimindeydi — Hamâd/Vâdî Sirhân ile aynı sınıf." },
+{ ad:"Nuhayb (Nukhayb)", tur:"bolge", lat:32.04, lon:42.25, g:0, k:0, d:[], kasitli_bosluk:true, bos:"kabile",
+  kaynak:"coğrafi konum: 32°02'28\"K 42°15'17\"D (genel coğrafi bilgi, tartışmasız) + Darb Zübeyde hac güzergâhı akademik literatürü (UNESCO Dünya Mirası aday listesi, whc.unesco.org) — Nuhayb bölgesi tarihen Şammar/Aneze aşiret denetimindeydi (en.wikipedia.org/wiki/Nukhayb, TEK BAŞINA dayanak SAYILMADI, yalnız tarafları doğrulamak için kullanıldı); Osmanlı dönemine ÖZGÜ doğrudan akademik kaynak BULUNAMADI",
+  neden:"Necef'in peteğinin 221 km'ye kadar yetiştiği bölgede gerçek, tarihî bir vaha/kuyu; yerleşik idare yoktu, göçer aşiret denetimindeydi." },
+
+// =====================================================================
 // ZAPOROJYE SEÇİ — `zaporojye` kimliğine İLK GÖVDE
 // =====================================================================
 // RENK'in raporu: `renkler.py:643` `"zaporojye": ("Zaporojye Kazak
