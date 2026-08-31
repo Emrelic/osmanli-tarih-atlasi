@@ -518,3 +518,196 @@ gerçek ölçüm    ortanca 6,37 km (Doğu) · 3,3 km (Güney)
 Ve çift kuralı artık bir **teorem**: `sapma = |dB−dA|/2` ⇒ tek yakaya
 nokta koymak bisektörü karşı yakaya iter, yani **devleti büyütür.**
 Çift olmak yetmiyor, **SİMETRİK** olmalı (Nehrî↔Uşnu 20↔30 km, kötüleşti).
+
+
+---
+
+# 31 AĞUSTOS 2026 · DEVİR NOTU — compact öncesi sağlama
+
+> Bu bölüm **compact ya da bayrak devri** için yazıldı. Devralan
+> koordinatör tahtayı baştan okumasın; buradan devam etsin.
+> Yazan: ORHANGAZİ · saat ~20:30
+
+## 🟢 KOŞU — ŞU AN KOŞUYOR
+
+```
+başladı   31 Ağustos ~18:53      log: kosu_31agu.log
+durum     devlet 70/401 · ~1 saat kaldı (20:20 itibarıyla)
+süreç     PID 7788 · CPU 4885s · 1,9 GB
+```
+
+🔒 **KİLİTLİ:** `arac/uret_petek.py · arac/girdi.py · arac/renkler.py`
+Dokunmak koşuyu ÖLDÜRÜR (83 dk ve 4s08dk, iki ölçülmüş vaka).
+🟢 `data/*.js` yazmak GÜVENLİ (girdi başta fotoğraflandı) — ama **bu
+koşuya girmez**, bir sonrakine kalır.
+
+### KOŞU BİTİNCE — altı adım, sırayla
+```
+① py arac/denetle.py                temiz mi
+② py arac/uret_devirler.py          devirler.js — uret_petek'ten SONRA
+③ py arac/renk_olc.py               🔴 ŞART — veri değişti
+④ py arac/denetle_yayin.py          yayın kapısı
+⑤ py arac/surum_damgala.py          ?v=rNN yükselt
+⑥ git push                          ~40-60 sn sonra canlıda
+```
+⚠️ Koşu bitince **MOTOR kovasındaki 62 madde açılır** — o güne kadar
+onlara dokunulmaz.
+
+## EMRE'NİN BUGÜNKÜ KARARLARI — beşi de kayda geçti
+
+```
+① BEŞ İŞ SIRASI: RENK TABANI → KOŞU → PAKET TRİYAJI → 1923 ÇIPASI
+   → KORİDOR AĞININ DÜNYAYA YAYILMASI
+   + "arada imkân oldukça paketleri bitirmek için görevlendirme yap,
+      HIZ ve DOĞRULUKTAN TAVİZ VERMEDEN"
+② REHBER: "B'yi yapalım, TAM DÜNYA — ama SADECE SINIR YERLEŞİMLERİNİ
+   alacak şekilde süzelim." Ham dosya depoya GİRMEZ.
+③ SIRA TERS: "Önce 1923 sınırlarını BİREBİR çizelim, sonra GERİYE
+   gelerek sınırı değişmiş ülke varsa o sene için kesinleştirelim.
+   Almanya 1918'de değiştiyse yansıtalım."
+④ 🔴 EN BÜYÜĞÜ — TOPOGRAFYA: "Yerleşim yerlerinin bölgelerini artık
+   TAMAMEN topografyaya dayandıralım. Dağ, tepe, nehir, geçit, koridor
+   — yayılımlar gerçekçi olsun. Sınırlar dağa ya da nehire yaslansın.
+   Aralarındaki bölgeleri bu topografyaya göre bölsün. Ne gerekiyorsa yapalım."
+⑤ CEPHANE: haftalık limit %58 (31 Ağustos öğleden sonra ölçümü)
+```
+
+## KİM NEREDE — ⚠️ AD ile OTURUM BAŞLIĞI AYRIŞIYOR
+
+```
+tahta adı              oturum başlığı      iş
+────────────────────────────────────────────────────────────────
+RENK AÇIKLIK TABANI    ARAYÜZ              ✅ BİTTİ (0a411f8)
+PAKET DEFTERİ          UYGULAMA-3          8 inmemiş hüküm + 27 çelişki
+REHBER 1923            UYGULAMA-ERKEN      ✅ ilk parti (4 nokta) · rehber sürüyor
+KORİDOR DÜNYA          KORİDOR DÜNYA       kapsam kararı BEKLİYOR (aşağıda)
+KRONOLOJİ TRİYAJ       ARAŞTIRMA 2S        KRONOLOJI 36
+VERİ TRİYAJ            UYGULAMA-1          VERI 40
+YOL VERİSİ ARAŞTIRMA   UYGULAMA-0035       (b) — ORBIS/DARMC ölçümü
+MALİYET-MESAFE         UYGULAMA-0019       🔴 topografya işi — 20:2x'te sevk
+```
+
+## 🔴 BUGÜN BULUNAN İKİ HABERLEŞME KUSURU
+
+### ① `tahta.json` alan adı: `kimden`, `kim` DEĞİL
+```
+`kim` alanını kullanan mesaj:     0
+`kimden` alanını kullanan mesaj:  1857
+```
+⇒ Tahtayı `kim` ile sorgulayan **her betik sessizce boş döner.**
+🔴 Bu yüzden REHBER 1923'ü **haksız yere sessiz ilan ettim**; üç mesajı
+ve bir commit'i vardı. Kanıt ekrandaydı (her satır `None → ORHANGAZI`
+basıyordu) ve **görmezden geldim.** Bulan: REHBER 1923.
+⚠️ Aleti düzeltmek AÇIK BİR İŞ — henüz kimseye verilmedi.
+
+### ② Tahtaya yazmak BOŞTA DURAN oturumu UYANDIRMIYOR
+`MALİYET-MESAFE` görevini tahtaya yazdım; o adda oturum yoktu ve
+**kimse almadı.** Emre'nin en büyük talimatı ~4 saat sahipsiz kaldı.
+```
+⇒ KURAL: idle oturuma iş vermek için `send_message` ŞART.
+   Tahta yalnız bekçisi koşan oturuma ulaşır.
+```
+
+## KORİDOR — HEDEF TANIMI DÜZELTİLDİ, KARAR EMRE'DE
+
+🔴 **"Koridor" adı İKİ AYRI ve İLGİSİZ şeyde kullanılıyor:**
+```
+uret_petek.py:1576  _b3_koridor_kirp()  → GEOMETRİ: dar girintiyi kapatır
+data/koridor*.js    KORIDOR_*_DUGUM     → MENZİL AĞI: konak + saat/km
+                    (grep KORIDOR uret_petek.py → SIFIR sonuç)
+```
+Benim brifingim ikisini birleştirmişti; KORİDOR DÜNYA ayırdı.
+
+**Ve "dünyaya yayma" mevcut kaynakla KARŞILANMIYOR:**
+```
+OWTRAD künyesi: "Osmanlı ve komşuları, 1300-1600"
+154 düğüm (107 yerleşim + 47 sentetik) · 174 kenar (131 kara + 43 deniz)
+23 ülke kodunun HEPSİ Balkan-Anadolu-Levant
+yerleşim karşılığı OLMAYAN düğüm: yalnız 9 ⇒ kazanç DÜĞÜMDE değil KENARDA
+```
+⇒ Emre'ye üç şık sunuldu, **(a) seçildi:**
+```
+(a) KARMA — Osmanlı kuşağında OWTRAD, dünyada DEM'den TÜRET   ← SEÇİLDİ
+(b) dış veri tabanlarını ölç (ORBIS/DARMC)                     ← PARALEL, sevk edildi
+(c) yalnız Osmanlı kuşağında yoğunlaştır
+```
+
+## MALİYET-MESAFE — altyapı ZATEN VAR
+
+```
+arac/maliyet.py            32 KB · 15 Ağustos · PROTOTİP
+veri-kaynak/yukseklik/     atlas 192 MB + dunya 626 MB  ← İKİSİ DE DİSKTE
+uret_petek.py              EGIM_CARPANI = 0.005 (kalibre)
+                           KARA-KISITLI DIJKSTRA (:1819)
+denetim/MALIYET-ONGORU.md · denetim/EGIM-CARPANI-OLCUM.md
+```
+Prototipin kendi notu: *"yükseklik — VERİ YOK — katman duruyor, ağırlığı
+0. **Veri gelince TEK SATIRLA açılır.**"* ⇒ **O gün geldi.**
+
+⚠️ `altyapi_durum.py` *"topoğrafya motora BAĞLANMADI"* diyor — **BU SATIR
+YANLIŞ**, kod eğim çarpanını kullanıyor. Alet düzeltilmeli.
+
+**Sınav ölçütü:** `CLAUDE.md §2`de ADIYLA sayılan vakalar düzeliyor mu?
+Sardinya/Annaba · Kefalonya/Ayamavra · Brač-Hvar-Korčula/Mostar.
+**En belirleyici sayı:** Dijkstra ızgarası koşuyu kaç kat büyütür?
+
+## TAVAN POLİTİKASI — bugün konuldu
+
+> **Tavanı yükseltmek de düşürmek de, ancak ÖLÇÜM neyin değiştiğini
+> söylediğinde meşrudur.**
+
+```
+zend'de sayıyı DÜŞÜREN çare REDDEDİLDİ — künye doğruydu, veri yanlıştı
+   ("sayıyı düşüren en kolay yol, yanlışı meşrulaştırmaktır")
+Değişmez 7 494 → 514 KABUL EDİLDİ — 514'ün 492'si eski pencere İÇİNDE
+   (eski tavan 494'ün altında) ⇒ eski coğrafyada artış YOK
+4c/4d/4s 275/461/140 → 277/465/142 — 4 sınır noktası bağlandı, dönemleri
+   `ilhanli 1281-01-01` ve `zend 1747-1796` bilinen kovalarında
+```
+🔴 **Ve bir uyarı (KORİDOR DÜNYA):** üç turdur aynı iki kayıt ailesi için
+tavan yükseltiyoruz. *"Borç büyüdü"* demek yerine *"beklenen budur"*
+demeye başlıyor. **`zend`in 133 kaydı artık bir tavan işi değil bir
+DURDURMA işi** — her yeni sınır partisi onu büyütüyor. Tarif hazır:
+`f: 1747-06-20 → 1751-01-01` · `t: 1796-01-01 → 1794-01-01`, arada FETRET.
+
+## AÇIK MADDE — 180
+
+```
+MOTOR      62   🔒 koşuya bağlı
+VERI       40   KRONOLOJI 36   ARAYUZ 24   DEVLET 8   SAVAS 5   RENK 5
+```
+```
+defterin dediği 187 → ölçüldü 180 (7 kapandı)
+8 inmemiş hüküm  · 27 çelişki (defter kapalı, rapor açık) → UYGULAMA-3'te
+```
+**Ölçülmüş hız:** 9 günde 451 madde geldi, 376 kapandı.
+Net tempo 30 Ağustos gecesi **+5/gün** (324 commit'e rağmen — iş altyapıya
+gitti), 28 Ağustos'ta **+81/gün** (triyaj günü).
+⇒ *Emek ≠ paket kapanması.* Süreyi belirleyen, oturumların **neye
+yöneltildiği.**
+
+## 🔴 BUGÜN DÜŞTÜĞÜM ÜÇ ÖLÇÜM TUZAĞI — devralan tekrarlamasın
+
+```
+① `x`/`y` okudum, kanonik şema `lat`/`lon` (girdi.py:644)
+   ⇒ 3 km mükerrer testim BÜTÜN kayıtları atladı ve "0" dedi.
+     Boş test, doğru testle TESADÜFEN aynı sonucu verdi.
+② `kim` okudum, alan adı `kimden`
+   ⇒ 1857 mesajın hepsi `None`; bir oturumu haksız yere ölü ilan ettim.
+③ `maddeler` sarmalayıcısı aradım; HUKUM-*.json'da ÜST SEVİYE doğrudan
+   {paket: {madde: {hukum}}}  ⇒ üç kez yanlış şema tahmin ettim,
+   dördüncüde DOSYAYA BAKTIM.
+```
+📌 Üçü de aynı aile: **şemayı tahmin etme, veriye bak.** Ve ②'nin
+kanıtı ekrandaydı — `None` satırları. *Aletin bastığı uyarıyı okumak,
+onu çalıştırmak kadar önemli.*
+
+## YARININ İLK İŞLERİ
+```
+① Koşu bitişini bekle → altı adımlık yayın dizisi
+② MOTOR 62 kalemini aç ve dağıt
+③ `kimden`/`kim` alet kusurunu düzelt (kimseye verilmedi)
+④ `altyapi_durum.py`nin "topoğrafya bağlanmadı" satırını düzelt
+⑤ Koridor kapsamı: (a) karma yol — DEM'den türetme pilotu
+⑥ 8 inmemiş hüküm + 27 çelişki (UYGULAMA-3'te, rapor bekleniyor)
+```
