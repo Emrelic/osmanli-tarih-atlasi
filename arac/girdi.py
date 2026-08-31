@@ -550,6 +550,48 @@ GIRDI_DOSYALARI = [
     # temiz raporladı, çünkü denetimler "yama UYGULANDI mı" diye sorar,
     # "yama BAĞLANDI mı" diye sormaz.
     "yerlesimler_ek_korfez.js",       # Katar yarımadası dolgu (1 nokta)
+
+    # ══ 31 AĞUSTOS 2026 — SINIR YERLEŞİMİ PROGRAMI ve bir BOŞ ÖLÇÜM ══
+    # 🔴 ÜÇÜ DE KÖRÜ KÖRÜNE BAĞLANMADI — dördü ayrı ayrı ölçüldü:
+    #   ① ad çakışması (canlı külliyatta aynı ad var mı)
+    #   ② 3 km mükerrer (`CLAUDE.md §11` — Varat/Varad vakası)
+    #   ③ kimlikler `BOYALAR`da tanımlı mı (`§8` — yoksa harita DELİĞİ)
+    #   ④ node ile ayrıştırılıyor mu (sözdizimi)
+    # Üçü de dört testten TEMİZ geçti.
+    #
+    # ⚠️ VE AYNI TURDA DÖRT DOSYA BAĞLANMADI, sebepleri ölçüldü:
+    #   yerlesimler_4ff22b.js     2 nokta · `hawaii-kralligi` · `merina` RENKSİZ
+    #   yerlesimler_amerika2.js   2 nokta · `apaci-ovalar` · `komanci` RENKSİZ
+    #   yerlesimler_hindistan.js  2 nokta · `farukiler` RENKSİZ
+    #     ⇒ üçü de `§8` gereği bekliyor: renksiz kimlik BOYANMAZ, yani
+    #       bağlamak nokta eklemez, HARİTA DELİĞİ açar. RENK oturumuna
+    #       sevk edildi; renkler inince bağlanacaklar.
+    #   yerlesimler_kafkas_duzeltme.js  19 nokta · 19 AD ÇAKIŞMASI
+    #     ⇒ Bu bir YERLEŞİM dosyası DEĞİL, bir YAMA: Kars · Ardahan ·
+    #       Derbend · Kutaisi'nin DÜZELTİLMİŞ hâllerini taşıyor. Bağlanırsa
+    #       aynı yerleşim İKİ KEZ girer. Uygulanacak (`_sahiplik_uygula.py`),
+    #       bağlanmayacak. 📌 Adı "yerlesimler_" ile başlıyor diye yerleşim
+    #       dosyası sanmak, bu turda kıl payı önlenen hatadır — dosyanın
+    #       CİNSİNİ adı değil İÇERİĞİ belirler.
+    "yerlesimler_sinir_dogu.js",      # sınır çifti — Türkiye-İran hattı
+                                      # (Bacirge/Esendere · Sero · Şemdinli
+                                      #  · Rāzhān). Emre 31 Ağu: "1923
+                                      # sınırlarını birebir çizmeliyiz."
+    "yerlesimler_sinir_guney.js",     # sınır çifti — Suriye/Irak kolu.
+                                      # 🔴 ŞU AN BOŞ VE BU KASITLI: ilk tur
+                                      # 3 nokta yazmıştı, sapma ÖLÇÜLDÜ ve
+                                      # noktalar sapmayı BÜYÜTÜYORDU ⇒ geri
+                                      # çekildi. Şimdiden bağlı, çünkü rehber
+                                      # gelince dolacak ve o gün girdi.py
+                                      # kilitli olabilir.
+    "yerlesimler_8beb2b.js",          # Yakutistan · Kamçatka · Çukotka ·
+                                      # Kolıma. 🔴 SIFIR NOKTA, VE KASITLI:
+                                      # araştırma "buraya nokta yazılmamalı"
+                                      # diye SONUÇLANDI (kaynak susuyor ⇒
+                                      # `veri-yok`, kaynak konuşuyor ⇒
+                                      # `devletsiz` ayrımı). Boşluk bir
+                                      # eksiklik değil bir ÖLÇÜM; bağlı
+                                      # olması "bu dosya görüldü" demektir.
 ]
 
 YAKINLIK_ESIK_KM = 3.0          # CLAUDE.md §11: 3 km içinde ikinci nokta açma
