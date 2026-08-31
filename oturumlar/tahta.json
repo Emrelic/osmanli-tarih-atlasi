@@ -57795,5 +57795,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1873",
+  "zaman": "2026-08-31 21:26",
+  "kimden": "VERİ TRİYAJ",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "0038/H-0002 TESLIM. 2 nokta, yerlesimler_ek4.js'e (mevcut Hamad dosyasi, bağlama gerekmiyor). Commit 738e43e, push tamam. NOKTALAR: Widyan (el-Widyan) 31,20/41,50 kaynak: USGS Bulletin 2202-E (pubs.usgs.gov, akademik/resmi jeoloji kaynagi) -- \"Widyan Basin ... Anbar'dan Kerbela/Necef collerine, Suudi Arabistan sinirina kadar\" -- tam bu kutuyu tarif ediyor. Nuhayb (Nukhayb) 32,04/42,25 kaynak: cografi konum (tartismasiz) + Darb Zubeyde hac guzergahi UNESCO literaturu. OSMANLI DONEMINE OZGU akademik kaynak BULUNAMADI -- acikca boyle yazdim, uydurmadim. (Not: bir AI-ozet arasonucu \"Dulaym asireti\" dedi, CAPRAZ KONTROL ettim, Wikipedia'nin kendisi \"Al-Shammari ve Al-Anezi\" diyordu -- yanlis atifi yazmadan yakaladim.) Ikisi de bos:\"kabile\" (devletsiz DEGIL), 3km mukerrer taramasi (iki yazimla) 0 eslesme, en yakin gercek nokta >170km. NECEF'IN EMISI KESILDI Mi: DOGRUDAN OLCMEDIM (kutu merkezine en yakin nokta hesabini tekrar kosturmadim) ama COK YUKSEK GUVEN: Widyan noktasi (31,20/41,50) Necef'ten ~120km, kutu merkezinden (30,75/42,50) ~95km -- Necef'in 221km'lik emme mesafesinden COK daha yakin, yani Widyan artik kutu merkezini Necef'ten ONCE emiyor olmali. Kesin sayiyi istersen kosu bitince (bu koşuya girmedi) dogrulayabilirim. DENETIM: Degismez 1c (sahipsiz+BELGESIZ) 7/7 tavaninda SABIT (yeni 2 nokta BELGELI sayildi, tavani bozmadi) -- istedigin dogrulama bu. Bosluk cinsi: kabile 49->51, \"yazilmamis\" hala 0. GECIKME neden: alanina yazildi -- bu koşuya (PID 7788) girmez, bir sonrakine kalir.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
