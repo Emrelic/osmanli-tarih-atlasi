@@ -291,4 +291,30 @@ window.OLAYLAR_EK20 = [
 //      ölçüm değildir. Bu turda o iki ölçümü ATLADIM; kaydı budur.
 //    ⚠️ Eski maddeler DURUYOR ve doğrudur; benimkiler kaldırıldı.
 
+// ⑰ 0004/H-0003 — CEM SULTAN REHİN DİPLOMASİSİ
+//    Emre: "Cem Sultan rehin diplomasisi yeni kronoloji maddesi hak ediyor;
+//    II. Bayezid'in Papalık'a ödediği yıllık 40.000 duka 'haraç' değil
+//    REHİN MASRAFI adı altındaydı."
+//    🟢 ÖNCE KÜLLİYAT ARANDI (bu turun kuralı): "Cem Sultan'ın Rodos'a
+//    sığınması" · "Yenişehir Muharebesi" · "Fatih'in ölümü — Cem Sultan
+//    olayı" VAR; ama Roma'ya devir ve ödeme düzeni YOK. Boşluk gerçek.
+//    KAYNAK — İKİ TDV maddesi, ikisinin de gövdesi okundu:
+//      `cem-sultan`: "Pierre d'Aubusson ile anlaşarak Cem'i Roma'ya
+//                     getirtti (4 Mart 1489)."
+//      `bayezid-ii`: "Cem'i gözaltında bulundurmaları için şövalyelere her
+//                     yıl 40.000 duka ödenmesine ve onlara Osmanlı
+//                     topraklarında serbestçe ticaret hakkı tanınmasına
+//                     dair bir anlaşma yapıldı."
+//    ⇒ Emre'nin 40.000 duka rakamı TDV'de BİREBİR doğrulandı.
+{ t:"1489-03-04",
+  b:"Cem Sultan Roma'ya getirildi — rehin diplomasisi ve yıllık 40.000 duka",
+  tur:"siyasi",
+  onem:3, dunya:3, kapsam:"dis",
+  etiket:["siyaset","diplomasi"],
+  yer:"Roma",
+  yer_id:"Roma",
+  kisiler:"Cem Sultan, II. Bayezid, Papa VIII. Innocent, Pierre d'Aubusson",
+  d:"Papa VIII. Innocent, Rodos şövalyelerinin reisi Pierre d'Aubusson ile anlaşarak Cem Sultan'ı Roma'ya getirtti (4 Mart 1489). Cem 29 Temmuz 1482'de Rodos'a sığınmış, oradan Savoie topraklarına, sonunda papalık gözetimine geçmişti. II. Bayezid, kardeşini gözaltında tutmaları karşılığında şövalyelere yıllık 40.000 duka ödemeyi ve onlara Osmanlı topraklarında serbest ticaret hakkı tanımayı kabul etmişti. Bu ödeme bir haraç değil, tahtın meşrû rakibini Avrupa'da hareketsiz tutmanın bedeliydi: Cem serbest kalsaydı Anadolu'da ordu toplayabilir, üstelik bir Haçlı seferinin meşrûiyet kaynağı olabilirdi. Böylece bir hânedan meselesi, otuz yıl boyunca Osmanlı dış siyasetinin ana kısıtı hâline geldi — Bayezid'in Batı'da ihtiyatlı davranmasının sebebi budur. Cem'in 1495'teki ölümüyle bu kısıt kalktı.",
+  kaynak:"cem-sultan" },
+
 ];
