@@ -711,3 +711,70 @@ onu çalıştırmak kadar önemli.*
 ⑤ Koridor kapsamı: (a) karma yol — DEM'den türetme pilotu
 ⑥ 8 inmemiş hüküm + 27 çelişki (UYGULAMA-3'te, rapor bekleniyor)
 ```
+
+
+---
+
+## 🔴 31 AĞUSTOS · EMRE KARARI — TAVAN KALDIRILACAK (ek)
+
+> *"Maliyet-mesafe indiğinde tavanı **önce tamamen kaldıralım.** Duruma
+> göre sonra bir **emniyet kemeri** olarak koyarız geri."*
+
+```
+① maliyet-mesafe üretime girince TAVAN_KM TAMAMEN KALKAR (küçültülmez)
+② ÖLÇÜLÜR
+③ gerekirse GERİ konur — ana mekanizma olarak değil, emniyet kemeri olarak
+```
+
+### VE BUNUN ÖLÇÜLMÜŞ BİR GEÇMİŞİ VAR — tekrarlanmasın
+```
+27 Ağu   Emre {1:400, 2:400, 3:200, 4:100} dedi. Gerekçesi SAĞLAMDI.
+28 Ağu   GERİ ALINDI: 1600 −%10,6 · 1700 −%12,1 · 1800 −%16,8 · 1900 −%19,0
+         Koşudan ÖNCE yazılmış "±%2" öngörüsü MAZERETSİZDİ, çürüdü.
+```
+🔴 **Niçin tutmadı — ve bu, tavansız senaryonun ölçütünü belirler:**
+> *"Tavan komşu ortasında KESMİYOR, peteğin YARIÇAPINI MUTLAK kırpıyor.
+> Aradaki toprak SAHİPSİZ kalıyor — sınır kaymıyor, HARİTADA DELİK açılıyor."*
+> ⇒ *"Kaç nokta tavana çarpar" yanlış soru; doğrusu **"kaç km² toprağı
+> sahipsizleştirir"**.*
+
+### ⚠️ VE BİR YÖNETİM KUSURU KAYDEDİLDİ
+Emre'nin 27 Ağustos kararı 28 Ağustos'ta geri alındı. **Geri alma
+DOĞRUYDU** (ölçüm net ve öngörü mazeretsizdi). Ama:
+```
+· gerekçe KODA yazıldı
+· Emre'ye bildirildiğine dair TAHTADA İZ YOK (arandı, bulunamadı)
+· Emre bugün (31 Ağu) hâlâ yürürlükte sanarak sordu ⇒ bildirilmemiş
+```
+📌 **Kullanıcının KENDİ kararını geri almak, kullanıcının onayını
+gerektirir.** Ölçüm haklı olsa bile. Bu, *"defter kapalı diyor gerçek
+açık"* ailesinin en ağır üyesi — çünkü burada kapanan şey bir madde
+değil, **bir karar.**
+⇒ KURAL: Emre'nin adıyla verdiği bir karar geri alınacaksa, geri alma
+**ona bildirilir** — koda yazmak yetmez.
+
+### TAVANSIZ SENARYONUN ÖLÇÜTÜ (MALİYET-MESAFE'ye verildi)
+```
+① kaç km² SAHİPSİZLEŞİYOR        ← 28 Ağustos'u çürüten sayı
+② Değişmez 1 / 1b bozuluyor mu
+③ Osmanlı doğrudan+tâbi toplamı — 1600·1700·1800·1900 kesitlerinde
+④ ve ANCAK sonra: kaç petek değişti, sınır sırta oturdu mu
+```
+🔴 **Asıl sınav ÇÖL:** Sardinya/Kefalonya deniz engeliyle çözülür (kolay).
+Ama Sahra **düz ve alçak** — eğim çarpanı orada az ceza verir. Maliyet-
+mesafe çölde tavanın işini yapmayabilir; `COL_PUAN_ESIK` (8) ile birlikte
+çalışması gerekebilir (o mekanizma 27 Ağustos koşusunda ÇALIŞTI:
+14.468 petek-gün çölde takıldı).
+
+### GÂT VAKASI — tavanın yan etkisinin canlı örneği
+Emre 31 Ağustos'ta Gât'ın iki yanındaki çıkıntıyı sordu. Ölçüldü:
+```
+Gât   k4 → tavan 140 km        Ubârî 317 km ötede, o da k4
+      140+140 = 280 < 317      ⇒ arada 37 km KİMSENİN DEĞİL
+Murzuk k2 → tavan 420 km, 390 km ötede ⇒ YETİŞİYOR, boşluğu dolduruyor
+⇒ Gât'ın 140 km'lik DAİRESİ Murzuk'un gövdesine yapışıyor
+⇒ bir daire bir gövdeye yapışınca TAM İKİ KÖŞE çıkar = Emre'nin gördüğü omuzlar
+```
+🟢 Emre'nin *"orada koridor yok, enklav yok"* gözlemi ÖLÇÜMLE DOĞRULANDI
+(B2 eşiği 250 km, Gât 317 km ötede ⇒ köprü kurulmuyor).
+⇒ **Sebep A1 yarıçap tavanı** — yani tavan kalkınca bu vaka da kapanır.
