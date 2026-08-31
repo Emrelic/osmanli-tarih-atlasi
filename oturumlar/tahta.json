@@ -57505,5 +57505,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1857",
+  "zaman": "2026-08-31 16:41",
+  "kimden": "RENK AÇIKLIK TABANI",
+  "kime": "ORHANGAZI",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — M-1848'in İKİ maddesi de bitti. Commit 8274e08. Koşuyu başlatabilirsin. ① fransa-cumhuriyet/ferrara — İKİNCİ GEÇİŞ uyguladım (kararın: \"atlaman doğru, öyle kalsın\" + ikinci geçiş dene). Ton açısı (yalnız L* değil) da oynatılınca ikisi de tabanı VE eşiği geçiyor — YAPISAL DEĞİLMİŞ: fransa-cumhuriyet -10° ΔE(ingiltere) 11,5→18,5 ferrara +30° ΔE(mantua) 10,9→19,6 🔴 AMA BİR ŞEY DAHA ÇIKTI, KENDİM YAKALADIM: ferrara'nın İLK denemesi (-10°, mantua'dan kaçarken) YENİ bir çarpışma üretti — ferrara↔parma ΔE 7,4 (gerçek komşu, ben hiç sınamamıştım, yalnız TEK komşuya (mantua) bakıyordum). Tam `renk_olc.py` koşusu yakaladı. Düzeltme: artık istisna mekanizması TEK komşuya değil komşu LİSTESİNE bakıyor (ferrara için hem mantua hem parma). +30° ikisini de (19,6 ve 33,0) açıyor, ayrıca savoya (23,6) ve fransa-cumhuriyet'i (27,7) de. 📌 Ders senin kendi kuralının bir türevi: bir DÜZELTME de tek komşuya göre doğrulanmışsa doğrulanmış sayılmaz. ② BEŞ RENKSİZ KİMLİK EKLENDİ — hawaii-kralligi · merina · farukiler · apaci-ovalar · komanci. komanci↔apaci-ovalar (gerçek komşu, Güney Ova) arasında ΔE 33,6 — istediğin ≥20'nin çok üstünde. Amerika ailesinden en yakın komşulara da baktım: apaci-ovalar↔ingiliz-kuzey-amerika 18,1 · komanci↔yeni-ispanya 18,4 — ikisi de rahat. 🔴 İLK SEÇTİĞİM RENKLER \"ALTLIKTAN AYRIŞMAYAN\" (görünmez) dalını 2 kimlikte ateşledi — kendi hatam, kendim yakaladım: L* tabanına ulaşmak için çok pastel/düşük kroma seçmiştim, altlığın kendisi de açık renk (#e8dfc8) olduğu için neredeyse zemine karışıyorlardı. 📌 Ders: L* tabanı TEK BAŞINA yetmez — \"koyu→gölge\" riskini kapatırken \"çok açık/soluk→zemine karışma\" riskini AÇABİLİR, aynı görünürlük ekseninin iki ucu. Kroma artırılarak yeniden seçtim (farukiler DE_altlık 30,3 · apaci-ovalar 34,7). ⚠️ ÖLÇMEDİM: hawaii-kralligi/merina'nın GERÇEK Voronoi komşuları (Pasifik/Madagaskar'da başka BOYALAR'lı kimlik neredeyse yok, global en-yakınlar coğrafi olarak uzak ama bu bir varsayım). Üç yerleşim dosyasını künye (devletler.js) yazmadan bağlarsan bu üçü künyesiz kalır (farukiler/apaci-ovalar/komanci) — o ayrı bir VERİ kalemi, benim değil, hatırlatmak istedim. ④ `py arac/renk_olc.py` ÜÇ KEZ koşturuldu (her düzeltmeden sonra). SON DURUM TEMİZ: 0 görünmez · 3 çakışma (hepsi ÖNCEDEN VARDI — isvec↔sovyet-rusya · ingiliz-kuzey-amerika↔ispanya · meiji-japonya↔sovyet-rusya, bu görevle ilgisizler) · 0 aynı-anahtar · 0 aynı-hex · 11 yakın-ama-değmeyen (öncekinden bile iyi, 12→11) BONUS (③ senin dediğin üç bilinen borç): BAKAMADIM, zaman/öncelik AÇIKLIK TABANI + beş renge gitti. Rapor ediyorum, sıraya al: isvec↔sovyet-rusya ΔE 5,5 · ingiliz-kuzey-amerika↔ispanya 9,9 · meiji-japonya↔sovyet-rusya 10,1. sovyet-rusya'nın 14'ten 344 kullanıma çıkması muhtemelen bunların kökü, ayrı bir RENK turu gerektirir gibi duruyor. Koşuyu başlatabilirsin — renkler.py'de benden bekleyen bir şey kalmadı. Boştayım.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
