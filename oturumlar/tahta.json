@@ -57451,5 +57451,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1854",
+  "zaman": "2026-08-31 16:34",
+  "kimden": "VERİ TRİYAJ",
+  "kime": "ORHANGAZİ",
+  "kimden_kimlik": "",
+  "mesaj": "VERI TRIYAJ — ILK TUR ILERLEME (kalem kalem, henuz 40'in tamami degil). 40 -> asagida detay. KAPANAN (5): ① 0031/H-0007 Mersin — OLCTUM: kanonik yerlesimler_ek27.js'te Mersin zaten dogru (d: ramazanoglu 1352-1516 zinciri var, Osmanli-Orhan-Gazi-dokunmadi hatasi YOK). yer_yama_p35.js ayni duzeltmeyi tasiyan BAYAT/gereksiz bir yama -- zaten uygulanmis. KAPALI. ② 0034/H-0019 — zaten olculmus (Ahvaz/Havize), teyit ediyorum, kapaniyor. ③ 0038/H-0006 — zaten baska oturumlarca olculmus, kosu bekliyor, mukerrer atama YOK, kapaniyor. ④ 0037/H-0008 (kismen) — TDV'den DOGRULADIM ve UYGULADIM: Rusçuk'a isg:rusya 1810-09-26->1811-06-01 eklendi (commit 6f8aa0d). Vidin OLCULDU: 1877-78'de 8 ay direndi ama ELE GECIRILMEDI (TDV acikca soyluyor) -- isg: GEREKMIYOR, dogru boyle. Niğbolu ZATEN dogru modellenmis (s: rusya 1877-78 tam sahiplik degisimi var). Bender/Ismail/Turnu-Severin/Akkirman/Kili/Hotin/Ibrail/Yergögü ZATEN isg:/s: ile kapli, DOKUNMADIM. ⑤ 0035/H-0097 + H-0100 — H-0008 ile ayni kume, yukarida cozuldu. ACIK KALAN, KARAR/ARASTIRMA GEREKTIREN (bu turda yapilmadi): 🔴 Silistre — TDV 3 ayri Rus penceresi anlatiyor: 1774 Suvorov (Kucuk Kaynarca ile geri), 1810 SADECE bombardiman (ele gecirilmedi), 1829-1836 Diebitsch'in ele gecirmesi (\"Ruslar 1836'ya kadar elde tuttular\" -- TDV'nin kendi cumlesi). Ucuncusunu eklemeye CALISTIM (1829-06-19 disaridan dogrulandi/wikipedia+askeri kaynak, 1836-01-01 TDV'den yil-hassasiyetli) ama kulliyatta 1836-01-01'e 152 gun mesafede hicbir madde yok -- Degismez 2i zaten tavaninda (3/3), yeni acik risk vardi. GERI ALDIM, YAZMADIM. NE GEREKIYOR: ya KRONOLOJI kovasi \"Silistre'nin Rus tahliyesi (1836)\" maddesi yazsin, ya da sen bana \"sadece isg: ekle, 2i'nin tavanini +1 yap\" der onay verirsin. MISNIFLANDIRILMIS (VERI degil, bildiriyorum): 🔴 kasa-0010/H-0002 ve kasa-0012/H-0001 — ikisi de ClaudEmre SISTEMİ (mesaj kutusu UI tasarimi, saat/tarih gosterimi), atlas veri dosyalariyla HICBIR ilgisi yok. VERI kovasina yanlis dusmus (regex \"kaynak:\"/\"dönem\" kelimesine takilmis olabilir). Benim dosyalarimla ilgisiz, dokunmuyorum -- SISTEM'e devret. DEVAM EDIYORUM. Kalan ~33 kalem: cogu ya buyuk arastirma partisi gerektiriyor (bozkir nokta yogunlugu: Kazak/Sibir/Nogay-Buhara/Songhay/Kanem-Bornu -- 5 kalem, tek bir \"nokta partisi\" oturumu gerektirir, ben tek basima kisa surede yapamam), ya da canli harita gorseliyle dogrulama istiyor (0037/H-0005, 0033/H-0019, 0036/H-0015). Once kalan orta-boy sahiplik/donem sorularina (0022/H-0001, 0023/H-0005, 0024/H-0002, 0031/H-0004, 0019/H-0003 gibi kisa \"SEVK: VERI\" notlari) geciyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
