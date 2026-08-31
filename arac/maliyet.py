@@ -730,13 +730,13 @@ def sinav(adim=0.02, dem=False):
                      if kimler else ""))
 
 
-def kutu_kos(kutu, adim, dem=False):
-    print("kutu %s · adım %.3f°" % (str(kutu), adim))
+def kutu_kos(kutu, adim, dem=False, gun="1352-03-02"):
+    print("kutu %s · adım %.3f° · gün %s" % (str(kutu), adim, gun))
     print("SÜRTÜNME: %s" % ("DEM + eğim" if dem else "poligon · eğim YOK"))
     nx, ny = izgara(kutu, adim)
     print("ızgara: %d x %d = %d hücre" % (nx, ny, nx * ny))
     fr, nehir, _kb = surtunme_sec(kutu, adim, dem)
-    nk = noktalar(kutu)
+    nk = noktalar(kutu, gun)
     print("nokta: %d" % len(nk))
     if not nk:
         return 1
@@ -756,6 +756,43 @@ def kutu_kos(kutu, adim, dem=False):
           % (kara_h, fark, 100.0 * fark / kara_h if kara_h else 0, ulasilmaz))
     print("📌 ULAŞILAMAYAN = karadan gidilemeyen ada/enklav. Voronoi bunu")
     print("   GÖREMEZ; sahibi varmış gibi boyar. Asıl bulgu budur.")
+
+    # 🔴 ERİŞİM MESAFESİ — `TAVAN_KM`in TAM OLARAK kırptığı büyüklük.
+    #
+    # 30 Ağustos 2026: Emre tavanı kaldırma kararı verdi ve şartname
+    # ölçüt olarak *"kaç km² sahipsizleşiyor"* koydu. O ölçüt `TAVAN_KM`
+    # için doğruydu — tavan yarıçapı kırpıp arada SAHİPSİZ toprak
+    # bırakıyordu. Ama maliyet-mesafe her hücreyi en ucuz sahibe atar;
+    # **bağlı karada delik AÇAMAZ**, yani o ölçüt yapısal olarak geçer
+    # ve geçmesi hiçbir şey kanıtlamaz.
+    #
+    # ⇒ Tavanın gerçek işlevi delik önlemek değil **ERİŞİMİ SINIRLAMAK**tı.
+    #   Kaldırılmasının riski de delik değil **AŞIRI ERİŞİM**. Ölçülmesi
+    #   gereken büyüklük bu: bir noktanın sahiplendiği EN UZAK hücreye
+    #   olan kuş uçuşu mesafe — çünkü tavan tam olarak onu kesiyordu.
+    #   (öngörü: denetim/MALIYET-ASAMA2-ONGORU.md ⑤, ölçümden ÖNCE yazıldı)
+    for ad, s in (("VORONOİ", s_md), ("MALİYET", s_mm)):
+        en = {}
+        for j in range(ny):
+            lat = kutu[1] + (j + 0.5) * adim
+            for i in range(nx):
+                k = s[j][i]
+                if k is None or k < 0:
+                    continue
+                p = nk[k]
+                d = _km_enlem(lat - p["lat"]) ** 2 + \
+                    _km_boylam(kutu[0] + (i + 0.5) * adim - p["lon"], lat) ** 2
+                if d > en.get(k, 0.0):
+                    en[k] = d
+        if not en:
+            continue
+        v = sorted(math.sqrt(x) for x in en.values())
+        ust = [(nk[k]["ad"], math.sqrt(d)) for k, d in
+               sorted(en.items(), key=lambda x: -x[1])[:3]]
+        print("   %s erişim km — ortanca %.0f · EN UZAK %.0f · >400 km nokta: %d/%d"
+              % (ad, v[len(v) // 2], v[-1],
+                 sum(1 for x in v if x > 400), len(v)))
+        print("      en uzağı: %s" % " · ".join("%s %.0f" % t for t in ust))
     return 0
 
 
@@ -839,7 +876,8 @@ def main(argv):
         a = 0.02
         if "--adim" in argv:
             a = float(argv[argv.index("--adim") + 1])
-        return kutu_kos(b, a, dem="--dem" in argv)
+        g = argv[argv.index("--gun") + 1] if "--gun" in argv else "1352-03-02"
+        return kutu_kos(b, a, dem="--dem" in argv, gun=g)
     print("bilinmeyen komut: %s" % argv[0])
     return 2
 
