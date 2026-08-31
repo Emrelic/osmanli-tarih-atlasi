@@ -662,7 +662,27 @@ BOYALAR = {
     # Kullanıcı o mücadeleyi okurken tarafları ayırt edemezse, eşiği
     # teknik olarak geçen bir renk kat kat kötüdür. Ölçüm: ΔE 25,2.
     "litvanya-buyuk-dukalik": ("Litvanya Büyük Dukalığı", "#060cff"),
-    "sovyet-rusya": ("Sovyet Rusya",         "#33eddb"),
+    # 🔴 29 Ağustos 2026 — RENK AÇIKLIK TABANI, ORHANGAZİ M-1858.
+    # `sovyet-rusya` bir gece önce (hayalet Çarlık Rusyası düzeltmesiyle)
+    # 14 kullanımdan 344'e çıktı — Voronoi ayak izi böyle büyüyünce YENİ
+    # komşularla karşılaştı ve RENK HİÇ DEĞİŞMEDİĞİ HALDE iki çakışma
+    # doğdu (`CLAUDE.md §9`, bu dersin dördüncü ve en büyük vakası):
+    #   isvec #48eac3 ΔE 5,5 · meiji-japonya #1bb790 ΔE 10,1
+    # (Eski #33eddb da bir teal/camgöbeği — üçü de aynı ailedeydi.)
+    # ⇒ ESKİ RENGİ TAŞIMAK yerine (isvec/meiji-japonya'yı ayrı ayrı
+    # taşımak İKİ iş ederdi ve her biri kendi komşularında yeni risk
+    # taşırdı) `sovyet-rusya`nın KENDİSİ taşındı — TEK hamle, İKİ çakışma
+    # kapanıyor. Ton, olası TÜM gerçek komşulara göre arandı (yalnız
+    # isvec/meiji değil): rusya · rusya-gecici-hukumet · estonya ·
+    # novgorod · litvanya* · finlandiya · norvec* · kazak-hanligi ·
+    # cungar · hive · buhara · iran · kacar · gurcistan · altinorda ·
+    # qing-hanedani · joseon · mogolistan · tibet · ryazan · don-kazak ·
+    # teke · turkmen · yarkent-hanligi · sibir-hanligi · kuzey-yuan ·
+    # afgan-durrani — HEPSİNDEN ΔE ≥ 17,5. En dar: isvec 18,7.
+    # Ayrıca ALTLIK'tan (ΔE 34,6) ve deniz'den (ΔE 34,0) de güvenli —
+    # M-1858'in "taban bir aralık, tek yönlü ölçüm kör" dersi burada da
+    # sınandı.
+    "sovyet-rusya": ("Sovyet Rusya",         "#00d9ff"),
     "rusya":      ("Rusya",                  "#4f7d4f"),
     # ═══ SON PARTİ — kalan 21 çakışma + 5 görünmez BİRLİKTE çözüldü ═══
     # (RENK oturumu, 2026-08-03 · ①·② yazıldıktan SONRA güncel palete karşı)
@@ -1365,7 +1385,18 @@ BOYALAR = {
     "guatemala":                ("Guatemala",                 "#d4a424"),
     "haiti":                    ("Haiti",                     "#2834d8"),
     "haudenosaunee":            ("Haudenosaunee (İrokua)",    "#24d494"),
-    "ingiliz-kuzey-amerika":    ("İngiliz Kuzey Amerikası",   "#d8802c"),
+    # 🔴 29 Ağustos 2026 — RENK AÇIKLIK TABANI, ORHANGAZİ M-1858. Dünya
+    # penceresi açılınca `ispanya` (#d59f63) ile Kuzey Amerika'da GERÇEK
+    # komşu oldu, ΔE 9,9 — ikisi de sıcak turuncu-bej aynı aile. `ispanya`
+    # metropol kimlik, taşınması geniş bir yükü etkiler; bunun yerine
+    # DAHA DAR kapsamlı `ingiliz-kuzey-amerika` taşındı. Ton, ispanya +
+    # Kuzey/Güney Amerika ailesinin TAMAMINA göre arandı (cherokee ·
+    # choctaw · creek-konfederasyonu · haudenosaunee · powhatan ·
+    # natchez · yeni-ispanya · ispanyol-peru · meksika · abd ·
+    # gran-kolombiya · haiti · teksas-cumhuriyeti · apaci-ovalar ·
+    # komanci · fransa-cumhuriyet) — hepsinden ΔE ≥ 13,9, ispanya'dan
+    # ΔE 43,1. ALTLIK'tan (ΔE 33,2) ve deniz'den (ΔE 36,6) de güvenli.
+    "ingiliz-kuzey-amerika":    ("İngiliz Kuzey Amerikası",   "#00ade2"),
     "inka-imparatorlugu":       ("İnka İmparatorluğu",        "#2424d4"),
     "ispanyol-peru":            ("İspanyol Perusu",           "#24d45c"),
     "kolombiya-cumhuriyeti":    ("Kolombiya Cumhuriyeti",     "#248094"),
@@ -3286,3 +3317,51 @@ def _aciklik_tabani_uygula():
 
 
 _ACIKLIK_DEGISEN, _ACIKLIK_IKINCI_GECIS, _ACIKLIK_YAPISAL = _aciklik_tabani_uygula()
+
+
+# ═══════════════════════════════════════════════════════════════════════
+# AÇIKLIK ARALIĞI — TAVAN, RENK AÇIKLIK TABANI oturumu, ORHANGAZİ M-1858
+# ═══════════════════════════════════════════════════════════════════════
+# "L* tabanı tek başına yetmez. Koyu→gölge riskini kapatırken açık→
+# görünmez riskini açıyor. Taban bir ARALIK olmalı, bir zemin değil."
+#
+# Doğuran vaka: beş renksiz kimliğe (hawaii-kralligi · merina · farukiler
+# · apaci-ovalar · komanci) L*≥59 tabanını sağlamak için ilk seçtiğim
+# tonlar çok pastel/düşük kromaydı; ALTLIK (#e8dfc8, kendi L*'ı 89,0)
+# da açık bir renk olduğu için ikisi neredeyse ZEMİNE KARIŞIYORDU
+# (`py arac/renk_olc.py`nin "ALTLIKTAN AYRIŞMAYAN" dalı, ΔE<15, DE_ALTLIK
+# renk_olc.py'de) — kroma artırılarak düzeltildi (§yukarıdaki yorum).
+#
+# ⚠️ BU FONKSİYON `_su_yakinligi_dogrula` GİBİ YALNIZ RAPOR EDER,
+# UYGULAMAZ — `_aciklik_tabani_uygula`nın aksine burada OTOMATİK
+# DÜZELTME YOK. Sebep: bir kimliği "altlıktan çok az ayrışıyor" diye
+# otomatik koyulaştırmak onu YENİDEN L* tabanının altına düşürebilir —
+# iki kural birbirini döngüsel olarak iptal eder. Tavan İHLALİ elle,
+# kromayı artırarak (parlaklığı azaltmadan) çözülür — aşağıdaki liste
+# kimin bakılması gerektiğini söyler.
+ACIKLIK_TAVANI_DE_ALTLIK = 15.0   # renk_olc.py'nin DE_ALTLIK'ıyla AYNI değer
+
+
+def _aciklik_tavani_dogrula():
+    _ALT = _lab_cevir("#%02x%02x%02x" % ALTLIK)
+    _cok_acik = []
+    for _kid, _v in BOYALAR.items():
+        _hx = _v[1] if isinstance(_v, (tuple, list)) else _v
+        if not isinstance(_hx, str) or not _hx.startswith("#") or len(_hx) < 7:
+            continue
+        _lab = _bindirilmis_lab(_hx, OPAKLIK["yabanci"])
+        _d = _de3(_lab, _ALT)
+        if _d < ACIKLIK_TAVANI_DE_ALTLIK:
+            _cok_acik.append((_d, _kid, _hx))
+    if not _cok_acik:
+        return
+    _cok_acik.sort()
+    print("  UYARI aciklik tavani: %d kimlik ALTLIKTAN yeterince ayrismiyor "
+          "(esik DE %.0f) - zemine karisip GORUNMEZ olabilir:"
+          % (len(_cok_acik), ACIKLIK_TAVANI_DE_ALTLIK))
+    for _d, _kid, _hx in _cok_acik:
+        print("    DE %5.1f  %-28s %s   <- kroma artirilarak duzeltilmeli"
+              % (_d, _kid, _hx))
+
+
+_aciklik_tavani_dogrula()
