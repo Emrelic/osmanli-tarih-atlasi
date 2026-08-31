@@ -285,6 +285,71 @@ def surtunme_dem(kutu, adim, sessiz=False):
     egim = np.hypot(gx, gy)
     kara = z > 0
     fr = np.where(kara, 1.0 + EGIM_CARPANI * egim, np.inf)
+
+    # 🔴🔴 GÖL DÜZELTMESİ — 30 Ağustos 2026, ÖLÇÜLEREK bulundu.
+    #
+    # Bu işlevin üstündeki gerekçe şöyle diyordu: *"o soru gereksiz —
+    # DEM zaten cevabı taşıyor. Deniz = negatif."* **Denizde doğru,
+    # İÇ GÖLDE YANLIŞ.** Van gölü 1640 m'dedir; `z > 0` onu KARA sayar.
+    #
+    # YAKALANMA: Doğu Anadolu kutusu iki yoldan koşuldu.
+    #     poligon   kara 16246 · "göl 4"     (Van dâhil, ÇIKARILMIŞ)
+    #     DEM       kara 16700 · kara %100,0  ← göl YOK, hepsi kara
+    # 454 hücre farkı ≈ 5.000 km², ve Van gölü tek başına 3.755 km².
+    # ⚠️ Ve bu HİÇBİR TOPLAM ÖLÇÜMDE ötmezdi: kıyı kutusunda (Gelibolu)
+    #    göl yok, orada iki yol %96,8 uyuşuyordu. Kusur ancak GÖLLÜ bir
+    #    kutuya bakınca göründü — `§11`: *"temiz çıkan bir örneklem,
+    #    örneklemin dışını temiz ilan etmez."*
+    #
+    # 📌 Ve ikinci kayıp SESSİZDİ: `nehir` dizisi açıkça sıfırlanıyordu,
+    # yani DEM yolunda nehir geçiş bedeli de YOKTU. Poligon yolu onu
+    # hesaplıyor. İki yol yan yana ölçülecekse (ASAMA 2) aradaki fark
+    # "yöntem" sanılırdı; oysa KATMAN farkıydı.
+    goller = _sekiller(_geojson("ne_10m_lakes.geojson"), kutu)
+    nehirler = _sekiller(_geojson("ne_10m_rivers.geojson"), kutu)
+    nehir = np.zeros((ny, nx), dtype=bool)
+    if goller or nehirler:
+        from shapely.geometry import Point as _Pt, box as _box
+        from shapely.prepared import prep as _prep
+        pg = [_prep(g) for g in goller]
+        gol_h = 0
+        for g in goller:
+            mnx, mny, mxx, mxy = g.bounds
+            i0 = max(0, int((mnx - lon0) / adim) - 1)
+            i1 = min(nx, int((mxx - lon0) / adim) + 2)
+            j0 = max(0, int((mny - lat0) / adim) - 1)
+            j1 = min(ny, int((mxy - lat0) / adim) + 2)
+            for j in range(j0, j1):
+                lat = lat0 + (j + 0.5) * adim
+                for i in range(i0, i1):
+                    if not np.isfinite(fr[j][i]):
+                        continue
+                    if any(q.contains(_Pt(lon0 + (i + 0.5) * adim, lat))
+                           for q in pg):
+                        fr[j][i] = np.inf
+                        gol_h += 1
+        for g in nehirler:
+            try:
+                mnx, mny, mxx, mxy = g.bounds
+            except Exception:
+                continue
+            i0 = max(0, int((mnx - lon0) / adim) - 1)
+            i1 = min(nx, int((mxx - lon0) / adim) + 2)
+            j0 = max(0, int((mny - lat0) / adim) - 1)
+            j1 = min(ny, int((mxy - lat0) / adim) + 2)
+            for j in range(j0, j1):
+                for i in range(i0, i1):
+                    if not np.isfinite(fr[j][i]) or nehir[j][i]:
+                        continue
+                    if g.intersects(_box(lon0 + i * adim, lat0 + j * adim,
+                                         lon0 + (i + 1) * adim,
+                                         lat0 + (j + 1) * adim)):
+                        nehir[j][i] = True
+        kara = np.isfinite(fr)
+        if not sessiz:
+            print("  göl %d parça → %d hücre KAPATILDI · nehir %d parça"
+                  % (len(goller), gol_h, len(nehirler)))
+
     bilgi = {
         "hucre": int(z.size), "kara": int(kara.sum()),
         "kara_yuzde": 100.0 * float(kara.mean()),
@@ -299,9 +364,45 @@ def surtunme_dem(kutu, adim, sessiz=False):
             print("  🔴 EĞİM ÇARPANI = %.1f — ÖLÇÜLMEDİ, sonuca ETKİSİ YOK."
                   % EGIM_CARPANI)
             print("     T-0112 ile ayarlanacak (41 sefer güzergâhı sınavı).")
-    # nehir katmanı bu yolla gelmiyor — ayrı ve AÇIKÇA boş
-    nehir = np.zeros((ny, nx), dtype=bool)
+    # nehir artık YUKARIDA hesaplanıyor — bu satır onu SIFIRLIYORDU.
     return fr.tolist(), nehir.tolist(), bilgi
+
+
+def surtunme_sec(kutu, adim, dem=False, sessiz=False):
+    """SÜRTÜNME KAYNAĞINI SEÇ — poligon maskesi ya da DEM.
+
+    🔴 NİÇİN BİR SEÇİCİ, NİÇİN DEĞİŞTİRME DEĞİL (30 Ağustos 2026).
+    Şartname *"yükseklik katmanının ağırlığını 0'dan çıkar"* diyordu.
+    Ölçüldü: **ağırlık sıfır değil.** `EGIM_CARPANI = 0.005` yazılı,
+    `EGIM_OLCULDU = True`, ve `surtunme_dem()` eğimi gerçekten
+    uyguluyor (`:287`). Eksik olan **ağırlık değil KABLO**:
+
+        surtunme()      :129   poligon · kara 1,0 / deniz ∞ · EĞİM YOK
+        surtunme_dem()  :232   DEM · eğim ÇARPANLI, kalibre, ÇALIŞIR
+        sinav() · kutu_kos() · agirlik_sinavi()  ÜÇÜ DE surtunme() çağırıyordu
+        surtunme_dem()'i çağıran tek yer: kara_farki() — bir KARŞILAŞTIRMA
+
+    ⇒ İş *"aç"* değil *"bağla"*ydı. Ve bağlarken **değiştirmek yerine
+    seçenek** yapıldı, çünkü `ASAMA 2` iki yöntemi **aynı gün, aynı
+    veriyle yan yana** ölçmeyi şart koşuyor. Eskisini silseydim
+    karşılaştırma imkânsız olurdu — ve `§11`: *"iki alet farklı evrende
+    koşarsa fark ölçülemez."* Aynı gerekçe `kara_farki()`nin kendi
+    başlığında da yazılı.
+
+    ⚠️ DEM yoksa SESSİZCE poligona DÜŞMEZ. Sessiz düşüş, `§11`in
+    *"ölçemediğini eleyen süzgeç onu temiz sayar"* tuzağıdır: çıktı
+    *"DEM ile ölçüldü"* sanılırdı. Hata AÇIKÇA döner.
+    """
+    if not dem:
+        fr, nehir = surtunme(kutu, adim, sessiz=sessiz)
+        return fr, nehir, {"kaynak": "poligon", "egim": False}
+    fr, nehir, bilgi = surtunme_dem(kutu, adim, sessiz=sessiz)
+    if fr is None:
+        raise RuntimeError("DEM okunamadi: %s — sessizce poligona DUSULMEDI"
+                           % bilgi.get("hata", "?"))
+    bilgi["kaynak"] = "dem"
+    bilgi["egim"] = True
+    return fr, nehir, bilgi
 
 
 def kara_farki(kutu, adim):
@@ -527,15 +628,17 @@ def kara_bilesenleri(kutu, adim, fr):
     return bil, no
 
 
-def sinav(adim=0.02):
+def sinav(adim=0.02, dem=False):
     kutu = SINAV_KUTU
     print("=" * 72)
     print("SINAV — ÇİMPE / GELİBOLU · kutu %s · adım %.3f°" % (str(kutu), adim))
     print("öngörü: denetim/MALIYET-ONGORU.md (KOD YAZILMADAN ÖNCE yazıldı)")
+    print("SÜRTÜNME: %s" % ("DEM + eğim (EGIM_CARPANI=%.3f)" % EGIM_CARPANI
+                            if dem else "poligon maskesi · EĞİM YOK"))
     print("=" * 72)
     nx, ny = izgara(kutu, adim)
     print("ızgara: %d x %d = %d hücre" % (nx, ny, nx * ny))
-    fr, nehir = surtunme(kutu, adim)
+    fr, nehir, _kb = surtunme_sec(kutu, adim, dem)
     kara_h = sum(1 for j in range(ny) for i in range(nx) if fr[j][i] != DENIZ)
     print("  kara hücre: %d (%%%.1f)" % (kara_h, 100.0 * kara_h / (nx * ny)))
 
@@ -627,11 +730,12 @@ def sinav(adim=0.02):
                      if kimler else ""))
 
 
-def kutu_kos(kutu, adim):
+def kutu_kos(kutu, adim, dem=False):
     print("kutu %s · adım %.3f°" % (str(kutu), adim))
+    print("SÜRTÜNME: %s" % ("DEM + eğim" if dem else "poligon · eğim YOK"))
     nx, ny = izgara(kutu, adim)
     print("ızgara: %d x %d = %d hücre" % (nx, ny, nx * ny))
-    fr, nehir = surtunme(kutu, adim)
+    fr, nehir, _kb = surtunme_sec(kutu, adim, dem)
     nk = noktalar(kutu)
     print("nokta: %d" % len(nk))
     if not nk:
@@ -715,7 +819,7 @@ def main(argv):
         a = 0.02
         if "--adim" in argv:
             a = float(argv[argv.index("--adim") + 1])
-        sinav(a)
+        sinav(a, dem="--dem" in argv)
         return 0
     if argv[0] == "agirlik":
         return agirlik_sinavi()
@@ -735,7 +839,7 @@ def main(argv):
         a = 0.02
         if "--adim" in argv:
             a = float(argv[argv.index("--adim") + 1])
-        return kutu_kos(b, a)
+        return kutu_kos(b, a, dem="--dem" in argv)
     print("bilinmeyen komut: %s" % argv[0])
     return 2
 
