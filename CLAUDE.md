@@ -72,20 +72,20 @@ gerekir. Projenin bütün kalite kuralları (§3) bu tek cümleden türer.
 
 | Katman | Ölçülen durum |
 |---|---|
-| Yerleşim (motorun okuduğu) | **2603** nokta, 53 girdi dosyası |
-| Kronoloji | **1223** madde · 1223 duygu etiketli · 811 `yer_id` · 26 `vefat_id` |
-| Değişmez 1 — sahipsizlik | ✓ 2603 yerleşim, 214 sahipsiz (beklenen 214) |
+| Yerleşim (motorun okuduğu) | **2624** nokta, 63 girdi dosyası |
+| Kronoloji | **1277** madde · 1227 duygu etiketli · 1182 `yer_id` · 28 `vefat_id` |
+| Değişmez 1 — sahipsizlik | ✓ 2624 yerleşim, 219 sahipsiz (beklenen 219) |
 | Değişmez 1b — iç boşluk | ✓ BEYANSIZ pencere arası boşluk: 0 (beklenen 0) · beyanlı 3/3 — tam tarama |
-| Değişmez 2 — Osmanlı senkronu | ✓ 515 kırılma, 0 açık (beklenen 0) |
-| Değişmez 2s — yabancı senkron | ✓ 945 YABANCI kırılması · 80 AÇIK (tavan 121) · 178 KAPSAM DIŞI |
-| Değişmez 2i — işgal senkronu | ✓ 20 İŞGAL kırılması, 3 açık (tavan 3) |
-| Değişmez 2t — kırılmasız madde | ✓ kırılmasız madde: 32 (tavan 42) — bilinen borç |
-| Konum denetimi | 179 nokta PENCERE DIŞINDA — ihlal DEĞİL, pencere oraya açılana kadar BEKLEYEN veri |
-| Devletler dizini | **431** künye · **400** renk (`renkler.py`) |
-| Dizinsiz harita kimliği | 🔴 **1** kimlik / 2 pencere karşılıksız · *kapsam: `girdi.py`nin okuduğu 53 dosya — bağlanmamış partiler HARİÇ* |
+| Değişmez 2 — Osmanlı senkronu | ✓ 528 kırılma, 0 açık (beklenen 0) |
+| Değişmez 2s — yabancı senkron | ✓ 977 YABANCI kırılması · 70 AÇIK (tavan 121) · 176 KAPSAM DIŞI |
+| Değişmez 2i — işgal senkronu | ✓ 24 İŞGAL kırılması, 3 açık (tavan 3) |
+| Değişmez 2t — kırılmasız madde | ✓ kırılmasız madde: 17 (tavan 42) — bilinen borç |
+| Konum denetimi | 0 nokta kara maskesinin dışında (beklenen 0) |
+| Devletler dizini | **432** künye · **411** renk (`renkler.py`) |
+| Dizinsiz harita kimliği | 🔴 **5** kimlik / 7 pencere karşılıksız · *kapsam: `girdi.py`nin okuduğu 63 dosya — bağlanmamış partiler HARİÇ* |
 | Padişah · kartvizit | 41 kayıt · 36 portre · **41** kartvizit dolu |
-| Harita penceresi | `unary_union([box(-12, -11, 146, 82), box(-25, 60, -12, 82)])` |
-| Yayın | **r2973** · `52c45dc` |
+| Harita penceresi | `box(-180, -60, 180, 85)` |
+| Yayın | **r4391** · `b598771` |
 
 > ⚙️ **BU TABLO ELLE YAZILMAZ — ÜRETİLİR.**
 > ```bash

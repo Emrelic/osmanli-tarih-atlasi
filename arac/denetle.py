@@ -1094,7 +1094,9 @@ def degismez2(Y, O, kategoriler=("d", "v")):
     `s:` ayrı çağrılıyor çünkü ayrı KADEMEDE raporlanıyor: `d:`/`v:` için açık
     sayısı 0 olmalı (İHLAL), `s:` için bilinen borç + tavan.
     """
-    ol = [{"g": gun_no(o["t"]), "b": o["b"]} for o in O]
+    # `yer_id` da taşınıyor — aşağıdaki BERABERLİK BOZUCU için (bkz. en_yakin).
+    ol = [{"g": gun_no(o["t"]), "b": o["b"],
+           "yer": o.get("yer_id") or o.get("yer")} for o in O]
     kir = {}
     for y in Y:
         donemler = []
@@ -1109,8 +1111,38 @@ def degismez2(Y, O, kategoriler=("d", "v")):
     acik = []
     for d in sorted(kir):
         gd = gun_no(d)
-        en_yakin = min(ol, key=lambda o: abs(o["g"] - gd)) if ol else {"g": gd, "b": "—"}
-        fark = abs(en_yakin["g"] - gd)
+        # 🔴 BERABERLİK BOZUCU — 2 Eylül 2026, PAKET-0035-B'nin ölçümüyle.
+        #
+        #   Eski hâl: `min(ol, key=uzaklık)`. Aynı güne düşen BİRDEN ÇOK madde
+        #   varsa hangisinin seçildiği LİSTE SIRASINA bağlıydı, yani RASTLANTI.
+        #   Ölçüm (üç oturum bağımsız olarak aynı duvara çarptı):
+        #       1299 Bilecik · 1417 Avlonya · 1513 Sin — ÜÇÜNDE DE doğru madde
+        #       AYNI GÜN, AYNI KOVADA duruyordu ve eşleştirici onu SEÇMİYORDU.
+        #   ⇒ Kusur veride değil ÖLÇÜTTE: "en yakın GÜN" bir maddeyi TEK BAŞINA
+        #     belirlemiyor; gün eşitken ikinci bir ayırt edici gerekiyor.
+        #
+        #   ⚠️ VE BU, HÜKMÜ DEĞİŞTİRMEZ — kasten öyle kuruldu:
+        #     tercih YALNIZ pencere İÇİNDEKİ (≤30 gün) maddeler arasında yapılır.
+        #     Pencerede `yer_id` eşleşmesi yoksa eski davranış aynen sürer.
+        #     Yani `fark > 30` kararı ve AÇIK sayısı BİREBİR aynı kalır;
+        #     değişen tek şey RAPORDA HANGİ MADDENİN gösterildiği.
+        #   📌 `denetle_eslesme.py`nin kendi uyarısı geçerli: A bölümünün
+        #     şüphelilerinin bir kısmı DOĞRU eşleşmedir (Londra Protokolü 21
+        #     noktayı adlarını saymadan devreder). O yüzden `yer_id` eşleşmesi
+        #     bir ŞART değil bir TERCİH — bulunmazsa kimse suçlanmaz.
+        if not ol:
+            en_yakin, fark = {"g": gd, "b": "—"}, 0
+        else:
+            en_yakin = min(ol, key=lambda o: abs(o["g"] - gd))
+            fark = abs(en_yakin["g"] - gd)
+            if fark <= 30:
+                adlar = kir[d]["ad"]
+                yakinlar = [o for o in ol if abs(o["g"] - gd) <= 30]
+                esli = [o for o in yakinlar if o["yer"] and o["yer"] in adlar]
+                if esli:
+                    # yer_id eşleşenler arasından yine EN YAKINI
+                    en_yakin = min(esli, key=lambda o: abs(o["g"] - gd))
+                    fark = abs(en_yakin["g"] - gd)
         if fark > 30:
             acik.append((d, kir[d]["t"], sorted(kir[d]["ad"])[:4], en_yakin["b"], fark))
     return kir, acik
