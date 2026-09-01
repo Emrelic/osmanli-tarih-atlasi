@@ -1,4 +1,4 @@
-<!-- DURUM: BITTI ¦ 2026-09-02 00:20 ¦ parti-0035 orta üçte bir: 13 madde -> 13 hüküm, 3 nokta yazıldı, bağlanmayı bekliyor -->
+<!-- DURUM: BITTI ¦ 2026-09-02 01:40 ¦ ikinci tur da bitti: altı yeni kalem -> 6 hüküm, üçü düzeltme önerisi, biri KENDİ kalemimin çürütülmesi -->
 
 # OPUS HAZIR KITA 102 — ilerleme
 
@@ -40,6 +40,26 @@ Etiket ölçümünün ilk geçişinde **Türkçe harf katlaması yapmadım**;
 yanlışlıkla *"karşılığı yok"* çıktı. İkinci geçişte düzeltildi.
 📌 *Ölçüm doğruydu, evren dardı* — ve bunu ancak sonucun kendisi
 mantıksız göründüğü için fark ettim, bir denetim yakalamadı.
+
+## İKİNCİ TUR — altı yeni kalem (koordinatör "sende kalsın" dedi)
+```
+6 → 6 hükme bağlandı · rapor: denetim/BULGU-0035-ORTA-2.md
+  düzeltme önerisi hazır  3   Tiflis 1578-08-24 · Nahçıvan 1735-06-19 · Herceg Novi 1539-08-10
+  "kusur yok" çıktı       2   Özi (iki ayrı kaynak takvimi) · Vehhâbî kesintisi (TDV susuyor)
+  ÇÜRÜDÜ                  1   Nûbe 1555 — KENDİ açtığım kalem yanlıştı
+```
+🟢 **Takvim sorusu ölçüldü, varsayılmadı.** TDV `tiflis` maddesindeki
+*"29 Ağustos CUMA günü"* ifadesi tek değişkenli bir sınav verdi:
+29 Ağustos 1578 **Jülyen'de Cuma**, Gregoryen'de Salı ⇒ **TDV bu dönemde
+Jülyen (Rûmî) veriyor.** Ve atlasın kendi geleneği de öyle (İstanbul
+29 Mayıs 1453 = Jülyen). ⇒ Düzeltmelerde **çevirme YAPILMAMALI.**
+📌 Bu proje çapında bir bulgu ve hiçbir belgede yazılı değildi.
+
+🔴 İki kalemde de aynı desen çıktı: **bir seferin/zaferin günü, bütün
+bölgeye toptan yazılmış.** Çıldır (1578-08-09) → 5 yerleşim · Nâdir'in batı
+İran taarruzu (1730-08-12) → 12 kayıt, ikisi (Nahçıvan · Ordubad) Aras'ın
+KUZEYİNDE ve TDV'ye göre 1735'e kadar Osmanlı.
+⚠️ Ve `Değişmez 2` bunu göremiyor: o günde bir madde VAR, ama YANLIŞ madde.
 
 ## Koordinatörden bekleyen
 ```
