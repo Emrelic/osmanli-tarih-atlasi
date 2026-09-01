@@ -827,11 +827,75 @@ def yerlesimleri_yukle():
     import girdi
     Y = girdi.yukle(sessiz=True)
     yakin = girdi.yakin_ciftler(Y)
-    if yakin:
-        print(f"  i {len(yakin)} nokta çifti {girdi.YAKINLIK_ESIK_KM} km'den yakın:")
-        for d, a, b in yakin[:10]:
+    beyansiz, beyanli, bozuk = ikiz_ayikla(Y, yakin)
+    if beyansiz:
+        print(f"  i {len(beyansiz)} nokta çifti {girdi.YAKINLIK_ESIK_KM} km'den yakın "
+              f"ve BEYANSIZ:")
+        for d, a, b in beyansiz[:10]:
             print(f"      {d:.2f} km  {a} <-> {b}")
+    # 🔴 (c) ŞARTI — beyanlı çift SESSİZCE GEÇMEZ, AYRI KOVADA SAYILIR.
+    #   Gerekçe bu projenin en pahalı ders ailesi: *"ölçülemedi asla temiz
+    #   diye raporlanmaz."* Beyanlı bir istisna rapordan kaybolursa GÖRÜNMEZ
+    #   BORÇ olur — yarın biri yanlış beyan eder, denetim susar, ve kimse o
+    #   beyanın hiç denetlenmediğini bilmez. Sayılırsa bir sonraki oturum
+    #   "bu N beyanın N'i hâlâ geçerli mi" diye SORABİLİR.
+    if beyanli:
+        print(f"  i ikiz beyanı: {len(beyanli)} çift — 3 km altı AMA beyanlı, "
+              f"ihlal DEĞİL (gözden geçirme kovası):")
+        for d, a, b in beyanli:
+            print(f"      {d:.2f} km  {a} <-> {b}")
+    for ne in bozuk:
+        print(f"  ✗ ikiz beyanı BOZUK: {ne}")
     return Y
+
+
+# ---------------- `ikiz:` beyanlı istisna ----------------
+# 🔴 NİÇİN VAR — iki oturum aynı duvara BİRBİRİNDEN HABERSİZ çarptı:
+#     TRAKYA   Karaağaç <-> Edirne 2,6 km              → EKLENEMEDİ
+#     GÜNEY    Tel Abyad / Ras al-Ayn "ikiz şehir"     → REDDEDİLDİ
+#   3 km kuralı MÜKERRER yakalamak için yazıldı (Varat/Varad · Afyon /
+#   Karahisâr-ı Sâhib) ama AYRI GERÇEK yerleşimleri de blokluyor — üstelik
+#   sınır işinin en çok ihtiyaç duyduğu yerde: iki nokta ne kadar yakınsa
+#   bisektör sınıra o kadar oturur.
+#
+# 🔴 VE "FARKLI SAHİPLİ ÇİFT OTOMATİK MUAF" ÖNERİSİ ÇÜRÜDÜ — kendi vakamızla:
+#   "Afyon ve Karahisâr-ı Sâhib 100 m arayla ÇELİŞEN zaman çizgileriyle
+#    duruyordu" (§11) ⇒ MÜKERRER KAYDIN BELİRTİSİ DE FARKLI SAHİPLİKTİR.
+#   "Farklı sahip" iyi ikizi kötü mükerrerden AYIRMIYOR.
+# ⇒ Fark mekanik değil: *"aynı yer mi?"* bir KAYNAK sorusudur, `if` sorusu
+#   değil. O yüzden çare otomatik muafiyet değil BEYAN.
+#
+# Karar: 1.MURAT, 1 Eylül 2026 — `BULGU-SINIR-TRAKYA.md §9` önerisi + (c) şartı.
+def ikiz_ayikla(Y, yakin):
+    """(beyansiz, beyanli, bozuk) — beyan KARŞILIKLI ve KAYNAKLI olmalı."""
+    ix = {}
+    for y in Y:
+        ix.setdefault(y.get("ad"), y)
+    beyansiz, beyanli, bozuk = [], [], []
+    for d, a, b in yakin:
+        ya, yb = ix.get(a), ix.get(b)
+        ia = (ya or {}).get("ikiz")
+        ib = (yb or {}).get("ikiz")
+        if not ia and not ib:
+            beyansiz.append((d, a, b))
+            continue
+        # (a) KARŞILIKLI — tek taraflı beyan yazım hatasıdır, sessizce geçmez
+        if ia != b or ib != a:
+            bozuk.append(f"{a} <-> {b}: beyan TEK TARAFLI "
+                         f"({a}.ikiz={ia!r} · {b}.ikiz={ib!r}) — karşılıklı olmalı")
+            beyansiz.append((d, a, b))
+            continue
+        # (b) kaynak ZORUNLU — beyan eden "bunlar AYRI yerleşimdir" diye
+        #     kaynak göstermek zorunda. Mükerrer tespiti bu yüzden hiç
+        #     zayıflamaz: takma-ad çiftleri beyan EDİLEMEZ.
+        eksik = [n for n, y in ((a, ya), (b, yb)) if not (y or {}).get("kaynak")]
+        if eksik:
+            bozuk.append(f"{a} <-> {b}: `kaynak:` YOK ({', '.join(eksik)}) — "
+                         f"beyan kaynaksız geçmez")
+            beyansiz.append((d, a, b))
+            continue
+        beyanli.append((d, a, b))
+    return beyansiz, beyanli, bozuk
 
 
 def olaylari_yukle():

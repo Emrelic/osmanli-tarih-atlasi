@@ -73,7 +73,16 @@ for (const k of Object.keys(global.window)) {
   const v = global.window[k];
   if (!Array.isArray(v)) continue;
   for (const r of v) {
-    if (r && r.ad !== undefined && (r.d || r.s || r.v || r.isg)) {
+    // 🔴 SÜZGEÇ 1 Eylül 2026'da GENİŞLETİLDİ — ve dar hâli bir DAL ÖLDÜRÜYORDU.
+    //   Python tarafına `m:`/`kaynak:` desteği yazıldı, sonra sınandı ve
+    //   HİÇ ATEŞLEMEDİ: skaler-only kayıtlar BURADA eleniyordu, yani yeni
+    //   kod Python'a hiç ULAŞMIYORDU. `CLAUDE.md §11`: *"ölçemediğini
+    //   eleyen bir süzgeç, onu TEMİZ sayar."* Sınanmasaydı bu betik
+    //   "skaler yamaları destekliyor" sanılacak, ve yazılan her `m:`
+    //   yaması SESSİZCE hiçbir şey yapmayacaktı — tam da bu betiğin
+    //   önlemek için var olduğu kusur.
+    if (r && r.ad !== undefined &&
+        (r.d || r.s || r.v || r.isg || r.m !== undefined || r.kaynak !== undefined)) {
       cik.push({ __dosya: kaynak[k] || '?', __alan: k, r: r });
     }
   }
@@ -216,6 +225,39 @@ for ad, liste in gruplu.items():
 
 # ───────────────────────────────────────────────────── ⑤ alanı değiştir
 ALAN_RX = {a: re.compile(r'(\b%s:\s*)\[' % a) for a in ("d", "s", "v", "isg")}
+
+# ══ SKALER ALANLAR — 1 Eylül 2026, 1.MURAT ══════════════════════════════
+# 🔴 NİÇİN EKLENDİ — ölçülmüş bir TIKANMA:
+#   PAKET-0023 sekiz maddeyi ölçtü, birini çözdü, ve ALTISI *"kimin
+#   dosyası, kim yazsın"* sorusunda durdu. Üçü tam olarak bu iki alandı:
+#     Kelkit·Tosya·Karapınar·Ulukışla·Ilgın   `m:` alanı YOK (beşinde de)
+#     Niş·Vidin·Kragujevac·Çaçak              `kaynak:` alanı YOK
+#   Bu betik `d·s·v·isg` DİZİLERİNİ indiriyordu; `m:` ve `kaynak:`
+#   SKALER, ve dizi mantığı onlarda ÇALIŞMAZ (`dizi_sonu` `[` arar).
+#   ⇒ Yama YAZILABİLİYOR ama İNECEK YOL YOKTU.
+#
+# 📌 Ve bu, bu betiğin KENDİ doğuş sebebinin tekrarı: sekiz oturum
+#   sahiplik yaması yazmış, hiçbiri inmemişti, betik onun için yazıldı.
+#   `CLAUDE.md §7`: *"denetimler 'yama UYGULANDI mı' diye sorar, 'yama
+#   OKUNDU mu' diye SORMAZ."* Aynı boşluk, iki alan ötede.
+#
+# ⚠️ ARALARINDAKİ FARK KASITLI:
+#   m:      ÜZERİNE YAZILIR    — bir kaydın tek bir bağlı merkezi olur;
+#                                yamanın amacı zaten onu düzeltmek
+#   kaynak: ÜZERİNE YAZILMAZ   — dolu bir `kaynak:`ı ezmek, DOĞRULANMIŞ
+#                                bir dayanağı silmektir. Yalnız BOŞSA yazılır;
+#                                doluysa `kaynak-dolu` diye sayılır ve
+#                                ATLANIR. Değiştirmek isteyen ELLE yapar.
+SKALER_ALANLAR = ("m", "kaynak")
+SKALER_RX = {a: re.compile(r'(\b%s:\s*)"((?:[^"\\]|\\.)*)"' % a)
+             for a in SKALER_ALANLAR}
+# `m:null` de geçerli bir yazım — ayrıca aranır, yoksa "alan yok" sanılır
+SKALER_NULL_RX = {a: re.compile(r'\b%s:\s*null\b' % a) for a in SKALER_ALANLAR}
+
+
+def js_metin(s):
+    """Bir Python dizesini JS çift tırnaklı dizesi olarak yazar."""
+    return '"%s"' % s.replace("\\", "\\\\").replace('"', '\\"')
 
 
 def dizi_sonu(satir, bas):
@@ -387,6 +429,39 @@ for ad, liste in sorted(gruplu.items()):
                 hata = "ad: çıpası yok"
                 break
             yeni_satir = (yeni_satir[:ma.end()] + ",%s:%s" % (alan, yeni_js)
+                          + yeni_satir[ma.end():])
+        dokunulan.append(alan)
+
+    # ── SKALER ALANLAR (`m:` · `kaynak:`) — dizi mantığından AYRI ──────
+    for alan in SKALER_ALANLAR:
+        if hata or alan not in r:
+            continue
+        deger = r[alan]
+        if deger is None or deger == "":
+            atlanan.append((ad, "%s: yamada BOŞ — boş değer yazılmaz" % alan))
+            continue
+        m = SKALER_RX[alan].search(yeni_satir)
+        mn = SKALER_NULL_RX[alan].search(yeni_satir)
+        if m:
+            # 🔴 `kaynak:` DOLUYSA EZİLMEZ — doğrulanmış dayanağı silmek,
+            #   eksik dayanaktan kötüdür. Sessizce geçmez, SAYILIR.
+            if alan == "kaynak" and m.group(2).strip():
+                ist["kaynak-dolu"] += 1
+                atlanan.append((ad, "kaynak: ZATEN DOLU, ezilmedi — "
+                                    "değiştirmek isteyen elle yapar"))
+                continue
+            yeni_satir = (yeni_satir[:m.start()] + m.group(1)
+                          + js_metin(deger) + yeni_satir[m.end():])
+        elif mn:
+            # `m:null` → gerçek değer. Bu bir DOLDURMADIR, ezme değil.
+            yeni_satir = (yeni_satir[:mn.start()] + "%s:%s" % (alan, js_metin(deger))
+                          + yeni_satir[mn.end():])
+        else:
+            ma = AD_RX.search(yeni_satir)
+            if not ma:
+                hata = "ad: çıpası yok (%s)" % alan
+                break
+            yeni_satir = (yeni_satir[:ma.end()] + ",%s:%s" % (alan, js_metin(deger))
                           + yeni_satir[ma.end():])
         dokunulan.append(alan)
 
