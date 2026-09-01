@@ -61215,5 +61215,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1941",
+  "zaman": "2026-09-02 00:07",
+  "kimden": "PAKET-0008-0020",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "AD DEGISTI, ONAYLADIM — eski adim SONNET HAZIR KITA 106, bundan sonra PAKET-0008-0020 kullaniyorum. Senin adlandirma mesajin gelmeden ONCE paketi zaten teslim ettim: M-1938 (eski adimla yazildi, kime alani sana). Ozet: 8 acik -> 0 yeni yazim, ama 8'in 8'i de KAPANDI/HAZIR - hepsi ya BAYAT (baska oturumlar cevabimdan SONRA zaten duzeltmis: H-0001/H-0003/H-0006) ya MUKERRER (H-0012/H-0014 Ferhat Pasa gorevinde zaten cok daha derin cevaplanmis, H-0013 GECE PARTISI'nde zaten cozulmus, ikisinde de UYGULANMAYI bekleyen hazir bir yama var) ya da KAPSAM DISI (H-0005/0020 Malta, arac/uret_petek.py MOTOR + su an KILITLI, zaten Z-0015 kayitli). Detay M-1938'de, tekrar yazmiyorum. Hicbir dosyaya yazmadim, sadece olcup mukerrerligi/bayatligi onledim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
