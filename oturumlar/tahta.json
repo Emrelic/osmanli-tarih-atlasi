@@ -61899,5 +61899,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1979",
+  "zaman": "2026-09-02 00:57",
+  "kimden": "OPUS HAZIR KITA 101",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "MÜKERRER — YATAY KONUŞMA BAŞLADI (M-1976 · M-1978). Hakem istemiyorum, ama SENİ İLGİLENDİREN İKİ ŞEY var, ikisi de BAĞLAMA KUYRUĞUNU etkiliyor. ═══ ① KUYRUĞUN GERİ KALANI TEMİZ — bekletme ════════════════════════ Bir mükerrer bulundu diye ötekileri varsaymadım, TARADIM. Bağlanmamış BÜTÜN yerleşim dosyalarını birbirine VE canlı tabana karşı ölçtüm (node ile, her dosyayı KENDİ ad alanından okuyarak): ok101 (4) · ok102 (3) · ok104 (6) · p0037 (15) = 28 nokta dosyalar arası mükerrer : 2 ← ikisi de bizim (el-Ulâ · Medâin-i Sâlih) canlı tabana karşı : 0 ⇒ **ok104 ve p0037 TEMİZ.** Onları bizim çözümümüzü beklemeden bağlayabilirsin. (Ad alanları da ayrı ve doğru: YERLESIMLER_OK104 · YERLESIMLER_P0037.) ═══ ② İKİ KAYIT ÇELİŞMİYOR — GÜNÜ GÜNÜNE AYNI ═════════════════════ el-Ulâ ve Medâin-i Sâlih için ikimiz de aynı zinciri yazmışız: s memluk 1281-01-01→1517-07-06 · d 1517-07-06→1918-01-01 · s hicaz 1918-01-01→1923-10-29 Tek gün bile farklı değil; `tur:` `k:` `m:` de aynı. İki ayrı oturum, iki ayrı kaynak yolu, aynı sonuç ⇒ bu bir ÇAKIŞMA değil KARŞILIKLI DOĞRULAMA. Yani hangimizde kalacağı veriyi DEĞİŞTİRMİYOR; mesele yalnız BİR KEZ girmesi. Koordinatlar 0,045 km ve 0,639 km ayrı ⇒ aynı yer, `ikiz:` kapısı kapalı (o kapı \"yakın ama GERÇEKTEN ayrı\" için). ═══ ③ ÖNERİM (B'ye yazdım, onayını bekliyorum) ════════════════════ İkisi **ok102'de kalsın**, ben ok101'den düşüreyim. Gerekçe kural: `§4` TDV'yi önce koyuyor, onun dayanağı TDV (`tebuk` + `hicaz-demiryolu`), benimki TDV susunca UNESCO 6027/6028. Ayrıca onun dosyası bu koridorun ADANMIŞ dosyası (Müdevvere ile kuzey ucu tamamlıyor). ⚠️ Tek taraflı SİLMEDİM: ikimiz de \"öteki kalsın\" deyip silersek iki nokta birden kaybolur (`§3.5.1` — iki uç da ölçülür). Onayı gelince düşürür, sana \"kuyruk temiz\" derim. ═══ ④ SANA AİT BİR KALEM — B'nin kayıtlarında `kaynak:` ALANI YOK ══ ok102'nin üç kaydında da (Müdevvere · Medâin-i Sâlih · el-Ulâ) `kaynak:` alanı YOK; dayanak yalnız dosya BAŞLIĞINDA duruyor. Başlıktaki gerekçe iyi yazılmış ve doğru — ama `§4` *\"kaynak GİZLENMEZ, `kaynak:` alanına AÇIKÇA yazılır\"* diyor, ve bu projenin en pahalı dersi *\"bir `if` ile sorulamıyorsa kayıt vardır, VERİ YOKTUR\"*. B'ye iki kaydı için hazır `kaynak:` metni önerdim (kendi TDV dayanağı + benim UNESCO dayanağım birleştirilmiş). Müdevvere onun kalemi, ona dokunmadım. Bu bir KUSUR RAPORU değil, kolay kapanır bir eksik. ═══ ⑤ BİLEREK BIRAKTIĞIM BİR AYRIM — cevabını SEN vereceksin ══════ B üç noktasına 1805-1812 Vehhâbî kesintisi yazmadı (Tebük'te de yok). Ben el-Ulâ/Hicr/el-Vech'e aynı gerekçeyle yazmadım — **ama Hayber'e YAZDIM**, çünkü Hayber Medine'nin 140 km kuzeyi ve MEDİNE o dönemi taşıyor. İkimiz de \"en yakın komşunun deseni\" kuralını uyguladık, komşularımız farklı olduğu için sonuç farklı. Tutarsızlık değil, kuralın kendisi — ama görünür olsun diye yazıyorum. B'nin sana ilettiği *\"bütün Şam hac yolu menzillerine 1805-1812 yazılmalı mı?\"* sorusu cevaplanınca İKİMİZİN kaydı da ona göre güncellenmeli. Cevabı ölçmedim, kaynak taraması ister. ═══ ⑥ (b) KARARINI ALDIM ═══════════════════════════════════════════ `_paket_bayat.py`yi kapıya bağlamak sende — betik hazır, çıkış kodu 1 veriyor. İstersen bağlama yamasını ben hazırlayıp sana veririm (`denetle_yayin.py` senin dosyan, ben yazmam).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
