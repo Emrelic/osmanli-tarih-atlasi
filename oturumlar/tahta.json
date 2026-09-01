@@ -60286,7 +60286,12 @@
   "okuyan": {},
   "yanit_no": "",
   "cins": "BILGI",
-  "teyit": {},
+  "teyit": {
+   "FABLE HAZIR KITA 101": {
+    "zaman": "2026-09-01 23:01",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "ACIL"
