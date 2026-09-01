@@ -5194,7 +5194,52 @@ window.DEVLETLER = [
 //   mutapa            iki uç da YÜZYIL düzeyinde, kesin gün değil
 //   zimbabve-kralligi f: BULUNAMADI, uydurulmadı; yazılan 1281
 //                     ATLASIN UFKU, kuruluş tarihi DEĞİL
+//
+// 🔴 VE AYNI SINIF 2 EYLÜL 2026'DA TEKRARLADI — üstelik ALTINCISI
+//    BURADA "sahibinde ölçülüyor" diye BEKLETİLİYORDU ve 17 GÜN AÇIK KALDI.
+//    Bugün üç dosya daha bağlandı (`_4ff22b` · `_amerika2` · `_hindistan`)
+//    ve üç kimlik daha dizinsiz kaldı. Koordinatör bağlarken RENGİ
+//    kontrol etti (`§8`), KÜNYEYİ kontrol etmedi.
+//    ⇒ Aynı kusur, aynı sebeple, ikinci kez.
+//
+// 📌 VE ASIL DERS BULAN OTURUMUN (PAKET-0033): *"Kusur bilinmiyor
+//    değildi — KAYIT VARDI, SORAN YOKTU."* Yukarıdaki satırlar 16
+//    Ağustos'ta yazıldı, doğruydu, ve hiçbir makine onu okuyamadı çünkü
+//    SERBEST METİNDİ. `§11`: *"bu bilgiyi bir `if` ile sorabiliyor
+//    muyum? Sorulamıyorsa kayıt vardır, VERİ YOKTUR."*
+//    ⇒ Çare bu yorumu uzatmak değil: `arac/denetle_renk_kunye_ok107.py`
+//      yazıldı ve artık bu sınıfı MAKİNE soruyor (çıkış kodu 1).
+//
+// ⚠️ Aşağıdaki dördünün ÜÇÜ TDV DEĞİL akademik kaynağa dayanıyor —
+//    `§4` kırmızı çizgisi coğrafî ve tanecik boşluğunda buna izin
+//    veriyor, ve hangi eser olduğu `kaynak:` alanında YAZILI, gizli değil.
+//    Ve iki künyenin bir ucu ATLASIN UFKU, devletin gerçek ucu DEĞİL —
+//    `ozet:` içinde açıkça söyleniyor (`zimbabve-kralligi` biçimi).
 // ===================================================================
+{ id:"farukiler", ad:"Fârûkîler (Handeş Sultanlığı)", tur:"sultanlik", bolge:"guney-asya",
+  f:"1370-01-01", t:"1601-01-01", baskent:"Asîrgarh / Burhânpûr",
+  ozet:"Handeş'te (Hindistan) hüküm süren hânedan. Melik Ahmed merkezî idarenin zayıflaması üzerine istiklâlini ilân ederek kurdu; Bâbürlüler'in 1601'de Asîrgarh'ı almasıyla sona erdi ve Handeş Bâbürlü eyaleti oldu.",
+  kaynak:"TDV `farukiler` md. — maddenin AÇILIŞ CÜMLESİ: \"Handeş'te (Hindistan) 1370-1601 yılları arasında hüküm süren…\" · \"Melik Ahmed … istiklâlini ilân ederek Fârûkīler hânedanını kurmuştur (772/1370)\" · \"Başşehirleri Asîrgarh ve Burhânpûr'dur.\" Ek: TDV `burhanpur` md.",
+  kronoloji:[]
+},
+{ id:"apaci-ovalar", ad:"Ovalar Apaçileri (Plains Apache)", tur:"devlet", bolge:"kuzey-amerika",
+  f:"1281-01-01", t:"1750-01-01", baskent:"—",
+  ozet:"Güney Büyük Ovalar'da yarı-yerleşik Apaçi grupları. Künyenin başı ATLASIN UFKUDUR, kuruluş tarihi DEĞİL (Apaçiler bölgede en az 1100'den beri). Bitiş, at ve tüfek ticaretinin birleştiği ~1750'de Komançi baskısıyla ovalardan çekilmeleridir.",
+  kaynak:"Standart akademik — Encyclopaedia Britannica \"Apache\" md.: \"semisedentary Plains Apache farmers were living along the Dismal River … as recently as 1700. When the horse and gun trades converged in the central Plains about 1750 … The remaining Plains Apache were severely pressured and retreated.\" Gün düzeyi kesinlik YOK, yıl veriliyor ⇒ YYYY-01-01. TDV `amerika` md. Büyük Ovalar'ı hiç anmıyor (tanecik/coğrafya boşluğu, §4).",
+  kronoloji:[]
+},
+{ id:"komanci", ad:"Komançi (Comanchería)", tur:"devlet", bolge:"kuzey-amerika",
+  f:"1750-01-01", t:"1875-01-01", baskent:"—",
+  ozet:"Güney Büyük Ovalar'da atlı Komançi bantlarının kurduğu, sabit başkenti olmayan siyasî hâkimiyet alanı (Comanchería). Bitiş, Quanah Parker'ın teslimiyle son direnişin sona ermesidir.",
+  kaynak:"Standart akademik — Encyclopedia.com \"Comanche\" md.: \"Between 1750 and 1875 Comanche groups spread across central and western Texas…This 24,000-square-mile area became known as the Comanchería.\" · \"1874-75: The Comanche make their last stand; Quanah Parker and his followers are the last Comanches to surrender.\" Britannica \"Apache\" ile 1750 sınırında BİREBİR uyuşuyor. 1875-01-01 muhafazakâr (erken) tarafa çekildi; tam gün için üçüncü kaynak gerekir.",
+  kronoloji:[]
+},
+{ id:"panama-cumhuriyeti", ad:"Panama Cumhuriyeti", tur:"cumhuriyet", bolge:"orta-amerika-karayip",
+  f:"1903-11-03", t:"1923-10-29", baskent:"Panamá (Panama City)",
+  ozet:"Kolombiya'dan ayrılarak kurulan cumhuriyet; kanal bölgesinin ABD'ye devri aynı yıl imzalanan antlaşmayla oldu. Künyenin bitişi atlasın ufkudur, devletin sonu DEĞİL.",
+  kaynak:"Standart akademik — Encyclopaedia Britannica \"Panama City\" md.: \"In 1903 independence from Colombia was declared there.\" 3 Kasım 1903 ayrılığın genel kabul gören günüdür. TDV `amerika` md. Panama kıstağını yalnız keşif bağlamında anıyor, cumhuriyeti KAPSAMIYOR (§4 tanecik boşluğu).",
+  kronoloji:[]
+},
 { id:"tui-tonga-imparatorlugu", ad:"Tuʻi Tonga İmparatorluğu", tur:"imparatorluk", bolge:"okyanusya",
   f:"1220-01-01", t:"1845-12-04", baskent:"Muʻa (Lapaha)",
   ozet:"Pasifik'in en geniş deniz imparatorluğu — Tuʻi Tonga hanedan çizgisi geleneksel olarak ~950'ye dayanır, zirvesi 1200-1500 arasıdır. Künyenin bitişi [[tonga-kralligi]]'nin başlangıcıyla BİREBİR hizalıdır (4 Aralık 1845): ikisi aynı gövde DEĞİLDİR, modern krallık Tuʻi Tonga'nın devamı değil onu siyasî olarak yeniden kuran olaydan doğar; devir boşluksuzdur.",
