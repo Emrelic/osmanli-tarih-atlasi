@@ -2672,7 +2672,101 @@ function isyanYayilmaUret() {
   return out;
 }
 
-var seferler = (window.SEFERLER || []).concat(isyanYayilmaUret()).map(function (s) {
+// ═══════════════════════════════════════════════════════════════════════
+// SEFERLER AD ALANI SÜZGECİ — OPUS HAZIR KITA 103 · 2 Eylül 2026 (M-1955)
+// ═══════════════════════════════════════════════════════════════════════
+// 🔴 NİÇİN VAR: bu satır 2 Eylül'e kadar `(window.SEFERLER || [])` idi ve
+//    `grep -n "SEFERLER" js/app.js` TEK okuma noktası veriyordu. Yani bir
+//    oturum `data/seferler_<ad>.js` → `window.SEFERLER_<AD>` yazsa,
+//    `index.html`e BAĞLANSA bile hiçbir ok çizilmezdi: dosya yüklenir,
+//    değişken tanımlanır, burası ona HİÇ BAKMAZDI. Ne hata, ne uyarı.
+//    Karşılaştırma, aynı dosyada:
+//      app.js  OLAYLAR   /^OLAYLAR(_[A-Za-z0-9]+)?$/     ✅ ek ad alanı okunur
+//      app.js  KORIDOR   /^KORIDOR_YAMA_[A-Za-z0-9]+$/   ✅ ek ad alanı okunur
+//      app.js  SEFERLER  window.SEFERLER                 🔴 ÇIPLAK AD
+//
+// 📌 `CLAUDE.md §7`in ölçülmüş dersi burada BİREBİR uygulanıyor:
+//    *"③ app.js süzgeci ada değil BİÇİME bağlıydı — yeni yamaların biçimi
+//    tanınmadı, ikisi de ELENDİ."* ve *"Süzgeç tanımadığını SESSİZCE
+//    ELEMEZ, SAYIP BASAR."*
+//    ⇒ Süzgeç ÖNEK DESENİNE bağlı (biçime DEĞİL), ve elediği her şeyi
+//      konsola yazıyor. `SEFERLER_X` diye bir değişken var ama dizi
+//      değilse, ya da bir kaydın `yol`u iki noktadan kısaysa, o kayıt
+//      atlanır AMA GÖRÜNÜR olur — bir sonraki oturum aynı duvara
+//      sessizce çarpmasın diye.
+//
+// ⚠️ SIRA: çıplak `SEFERLER` önce, ek ad alanları alfabetik. Sıra yalnız
+//    çizim sırasını (üst üste binen okların hangisi üstte) belirler; hiçbir
+//    kayıt ötekini EZMEZ — bu `concat`, `OLAYLAR`daki gibi bir birleştirme.
+//    Yine de deterministik tutuldu: aynı veri her yüklemede aynı sırada.
+//
+// ⚠️ ÖLÇTÜM AMA DOKUNMADIM (kapsamım yalnız ad alanı süzgeci): aşağıdaki
+//    `HAREKET[s.tur] || HAREKET.sefer` satırı TANIMSIZ bir `tur`u sessizce
+//    "sefer"e çeviriyor — aynı sınıftan ikinci bir sessiz kabul. Ayrı bir
+//    kalem; koordinatöre bildirildi.
+// 🔴 DESEN NİÇİN `[A-Za-z0-9_]` (İKİ ALTÇİZGİYE de izin verir):
+//    İlk yazımda `OLAYLAR`ın deseni birebir kopyalanmıştı —
+//    `/^OLAYLAR(_[A-Za-z0-9]+)?$/`, yani TEK altçizgi. Sınav bunu yakaladı:
+//    `SEFERLER_YAMA_X` o desene UYMUYOR ve **sessizce elenecekti** — yani
+//    düzeltmeye çalıştığım kusurun aynısı, bir kademe içeride. Oysa aynı
+//    dosyadaki `KORIDOR_YAMA_<ad>` tam o adlandırmayı kullanıyor; bir
+//    sonraki oturumun `SEFERLER_YAMA_<ad>` yazması beklenen bir şey.
+//    ⇒ Desen gerçek ÖNEK desenine genişletildi.
+// 🔴 VE İKİNCİ AĞ: `SEFERLER` ile BAŞLAYIP desene UYMAYAN bir ad (yazım
+//    hatası: `SEFERLERX`, `SEFERLER-X`) da sessizce geçmiyor, ayrıca
+//    bildiriliyor. Bir harflik hata yüzünden bütün bir dosyanın kaybolması
+//    bu projede ölçülmüş bir zarardır.
+function seferKayitlariniTopla() {
+  var out = [], kaynaklar = [], tanimsiz = [], bozukYol = [], benzeyen = [];
+  Object.keys(window).forEach(function (k) {
+    if (k.indexOf("SEFERLER") !== 0) return;
+    if (!/^SEFERLER(_[A-Za-z0-9_]+)?$/.test(k)) benzeyen.push(k);
+  });
+  Object.keys(window)
+    .filter(function (k) { return /^SEFERLER(_[A-Za-z0-9_]+)?$/.test(k); })
+    .sort(function (a, b) {
+      // çıplak "SEFERLER" her zaman başta; gerisi alfabetik
+      if (a === "SEFERLER") return -1;
+      if (b === "SEFERLER") return 1;
+      return a < b ? -1 : a > b ? 1 : 0;
+    })
+    .forEach(function (k) {
+      var v = window[k];
+      if (!Array.isArray(v)) {
+        tanimsiz.push(k + " (" + (v === null ? "null" : typeof v) + ")");
+        return;
+      }
+      var alinan = 0;
+      v.forEach(function (s, i) {
+        // Ok çizmek için EN AZ İKİ nokta şart: aşağıdaki kod son iki noktadan
+        // ok başının açısını hesaplıyor. `yol` yoksa eski kod TypeError atıp
+        // bütün katmanı düşürüyordu; kısa `yol` ise NaN açı üretiyordu.
+        if (!s || !Array.isArray(s.yol) || s.yol.length < 2) {
+          bozukYol.push(k + "[" + i + "] " + ((s && s.ad) || "adsız"));
+          return;
+        }
+        out.push(s);
+        alinan++;
+      });
+      kaynaklar.push(k + " " + alinan + "/" + v.length);
+    });
+  console.log("Atlas: sefer güzergâhları — " + out.length + " kayıt · " +
+              (kaynaklar.length ? kaynaklar.join(" · ") : "ad alanı YOK"));
+  if (tanimsiz.length)
+    console.warn("Atlas: sefer güzergâhı — 🔴 DİZİ DEĞİL, OKUNMADI: " +
+                 tanimsiz.join(" · ") +
+                 "  (beklenen: window.SEFERLER_<AD> = [ {ad,tur,f,t,yol}, … ])");
+  if (bozukYol.length)
+    console.warn("Atlas: sefer güzergâhı — 🔴 `yol` YOK ya da iki noktadan KISA, " +
+                 bozukYol.length + " kayıt atlandı: " + bozukYol.join(" · "));
+  if (benzeyen.length)
+    console.warn("Atlas: sefer güzergâhı — 🔴 ADI BENZİYOR AMA DESENE UYMUYOR, " +
+                 "OKUNMADI: " + benzeyen.join(" · ") +
+                 "  (desen: SEFERLER ya da SEFERLER_<harf/rakam/altçizgi>)");
+  return out;
+}
+
+var seferler = seferKayitlariniTopla().concat(isyanYayilmaUret()).map(function (s) {
   var son = s.yol[s.yol.length - 1], onceki = s.yol[s.yol.length - 2];
   // ok başının dönüşü: son parçanın ekran yönü (kuzeyden saat yönünde derece)
   var dx = (son[0] - onceki[0]) * Math.cos(son[1] * Math.PI / 180);
