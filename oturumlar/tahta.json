@@ -60815,5 +60815,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1919",
+  "zaman": "2026-09-01 23:16",
+  "kimden": "OPUS HAZIR KITA 103",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 AKSAKLIK — BEKLETMEDEN. ŞARTNAMENİN ④. MADDESİ BENİM KÜMEMDE ÇALIŞMIYOR: `SEFERLER`in AD ALANI SÜZGECİ YOK. Durmuyorum, ölçümü koşturup soruyla birlikte sunuyorum (⑧). ═══ ① NE ÖLÇTÜM ═══ Kesimimin BEŞ maddesi (H-0081 · H-0093 · H-0094 · H-0095 · H-0098) tek ve aynı çareye bakıyor: `window.SEFERLER`e harekât güzergâhı kaydı yazmak. Altyapı gerçekten hazır — `data/savaslar.js:520` şeması, 9 tür, `tur:\"deniz\"` ve `tur:\"sefer\"` kayıtları ve çizim kodu duruyor. Şartname ④ diyor ki: *kendi dosyanı aç, ad alanını dosya adından türet* ⇒ `data/seferler_ok103.js` → `window.SEFERLER_OK103`. **Ama `js/app.js:2675` şunu yazıyor:** ```js var seferler = (window.SEFERLER ¦¦ []).concat(isyanYayilmaUret()).map(...) ``` `grep -n \"SEFERLER\" js/app.js` → **tek okuma noktası, o satır.** ═══ ② ÇIKARIM (ölçüm DEĞİL — ayrı satır) ═══ `SEFERLER` için `OLAYLAR`daki gibi bir ad-alanı süzgeci **YOK.** Karşılaştırma, aynı dosyada: ``` app.js:3609 OLAYLAR /^OLAYLAR(_[A-Za-z0-9]+)?$/ ✅ ek ad alanı OKUNUR app.js:2853 KORIDOR /^KORIDOR_YAMA_[A-Za-z0-9]+$/ ✅ ek ad alanı OKUNUR app.js:2675 SEFERLER window.SEFERLER 🔴 YALNIZ ÇIPLAK AD ``` ⇒ `data/seferler_ok103.js` dosyasını yazsam, sen `index.html`e BAĞLASAN bile **hiçbir ok çizilmez.** Dosya yüklenir, değişken tanımlanır, app.js ona **hiç bakmaz.** Ne hata verir, ne uyarır — **sessizce yok sayar.** 📌 Bu tam olarak `CLAUDE.md §7`nin ③. vakası: *\"app.js süzgeci ada değil BİÇİME bağlıydı — yeni yamaların biçimi tanınmadı, ikisi de ELENDİ.\"* Orada beş dosyanın tek ad kullanması %74 kayıp riski doğurmuştu; burada ad **doğru** ama **okuyan yok.** Aynı ailenin öteki yüzü. ⚠️ Ve sessizliği önemli: hiçbir denetim ötmez. Denetimler *\"yama UYGULANDI mı\"* diye sorar, *\"yama OKUNDU mu\"* diye sormaz — senin kendi şartnamende yazan cümle. ═══ ③ NE İSTİYORUM — üç şık, ÖNERİMLE ═══ ``` Ⓐ js/app.js:2675 TEK SATIR değişir: /^SEFERLER(_[A-Za-z0-9]+)?$/ deseniyle toplanır → OLAYLAR'ın ZATEN kullandığı desen, yeni icat yok. ⚠️ ama js/app.js ARAYÜZ oturumunun dosyası, BENİM DEĞİL. Ben yazmam. Ⓑ Ben dosyamı `window.SEFERLER = (window.SEFERLER¦¦[]).concat([...])` diye yazarım. Paylaşılan DOSYAYA yazmam, paylaşılan DİZİYE eklerim. Emsali VAR: `savaslar.js:479` `window.ANTLASMALAR.push(...)` diyor. Ekleme atama değildir — iki oturum aynı anda eklese ikisi de durur. Ⓒ Dosyayı `SEFERLER_OK103` diye yazarım, çizilmez, bir sonraki tura kalır. ``` 🟢 **ÖNERİM: Ⓐ + Ⓒ birlikte.** Ben Ⓒ'yi yazarım (ad alanı temiz, ölçülebilir, §7'ye uygun); Ⓐ'yı ARAYÜZ oturumuna tek satırlık iş olarak verirsin. Böylece desen **kalıcı** olur — benden sonraki her `SEFERLER` yaması da okunur. Ⓑ tek başına işi bugün bitirir ama deseni bir daha kimse düzeltmez, ve `SEFERLER` sonsuza kadar ad alanı süzgeci olmayan tek katman kalır. ⏳ Cevabını BEKLEMİYORUM: dosyayı Ⓒ biçiminde yazmaya başlıyorum, çünkü Ⓐ da Ⓑ de aynı KAYITLARI istiyor — değişen yalnız son satırdaki sarmalayıcı. Kararın gelince tek satırla dönüştürürüm. ═══ ④ İKİNCİ, DAHA KÜÇÜK SORU ═══ H-0092 · H-0097 · H-0100 var olan yerleşim kayıtlarına `isg:` **eklemek** istiyor — yeni kayıt değil, mevcut kaydı değiştirmek. ④'ün \"kendi dosyanı aç\" çaresi buna doğrudan uymuyor. M-1909'da sormuştum, tekrar ediyorum çünkü aynı sınıf: `isg:` için bir YAMA kanalı var mı, yoksa `data/isgal_yama_ok103.js` → `window.ISGAL_YAMA_OK103` mu açayım? Bu da aynı süzgeç sorusuna çarpabilir — ölçüp bildireceğim.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "ARIZA",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "js/app.js:2675 · app.js:3609 · data/savaslar.js:520",
+  "aciliyet": "ACIL"
  }
 ]
