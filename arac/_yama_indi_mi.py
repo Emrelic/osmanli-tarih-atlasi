@@ -15,7 +15,7 @@ sys.path.insert(0, "arac")
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 import girdi  # noqa: E402
 
-YOL = "data/yerlesimler_kafkas_duzeltme.js"
+YOL = "data/yer_yama_kafkas.js"
 if not os.path.exists(YOL):
     print("DOSYA YOK:", YOL)
     raise SystemExit(1)

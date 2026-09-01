@@ -566,6 +566,10 @@ GIRDI_DOSYALARI = [
     #     ⇒ üçü de `§8` gereği bekliyor: renksiz kimlik BOYANMAZ, yani
     #       bağlamak nokta eklemez, HARİTA DELİĞİ açar. RENK oturumuna
     #       sevk edildi; renkler inince bağlanacaklar.
+    #     🟢 1 EYLÜL 2026 — BEŞ RENK DE YAZILDI (RENK AÇIKLIK TABANI):
+    #       hawaii-kralligi #ffa5d6 · merina #73c0a0 · farukiler #80f67e
+    #       apaci-ovalar #d7a300 · komanci #78bdff
+    #       ⇒ ENGEL KALKTI, üçü de aşağıda BAĞLANDI.
     #   yerlesimler_kafkas_duzeltme.js  19 nokta · 19 AD ÇAKIŞMASI
     #     ⇒ Bu bir YERLEŞİM dosyası DEĞİL, bir YAMA: Kars · Ardahan ·
     #       Derbend · Kutaisi'nin DÜZELTİLMİŞ hâllerini taşıyor. Bağlanırsa
@@ -584,6 +588,31 @@ GIRDI_DOSYALARI = [
                                       # çekildi. Şimdiden bağlı, çünkü rehber
                                       # gelince dolacak ve o gün girdi.py
                                       # kilitli olabilir.
+    # ══ 1 EYLÜL 2026 — RENK ENGELİ KALKTI, ÜÇÜ DE BAĞLANDI ══
+    # Dünkü tur bu üçünü *"kimlikleri renksiz"* diye bekletmişti; RENK
+    # oturumu beş rengi de yazdı ⇒ engel kalktı. Dördü de yeniden ölçüldü:
+    # ad çakışması 0 · 3 km mükerrer 0 · koordinat VAR · node temiz.
+    # ⚠️ Ve BU KOŞUYA GİRMEDİLER — motor girdiyi 18:53'te fotoğrafladı,
+    #    bağlama 1 Eylül'de yapıldı. Altı nokta BİR SONRAKİ koşuda çizilir.
+    #    Kusur değil GECİKME; yayın kapısı (`_bagli_mi.py`) bu üçünü
+    #    *"adı yerleşim vaat ediyor ama girdi.py okumuyor"* diye durdurdu
+    #    ve haklıydı — çare bağlamaktı.
+    # 🔴 1 EYLUL 2026 — UCU DE GERI ALINDI, ve sebebi KODDA YAZILIYDI.
+    #   Bu turda once bagladim (renkler inmisti, engel kalkti sandim),
+    #   sonra `denetle_yayin.py:955-975` okundu ve UCUNU DE ADIYLA
+    #   sayiyordu: *'5. kosuda BAGLANAMADI => 6. kosunun ILK isi'*.
+    # 🔴 KURAL (denetle_yayin.py, iki kez yazili):
+    #   **Anlik goruntu 'YAZABILIRSIN' der, 'BAGLAYABILIRSIN' demez.**
+    #   Kosudan SONRA baglamak yayini BAYAT yapar; index.html'e de
+    #   eklenirse *nokta gorunur ama peteği olmaz* -- kullanici
+    #   sahipsiz bir isaret gorur.
+    # ⇒ DOGRU AN: bir sonraki kosu BASLAMADAN HEMEN ONCE.
+    #   yerlesimler_4ff22b.js · yerlesimler_amerika2.js ·
+    #   yerlesimler_hindistan.js  (2'ser nokta, renkleri HAZIR)
+    # 📌 Ve iki alet ZIT ogut verdi: `_bagli_mi.py` *'bagla'* dedi,
+    #   `denetle_yayin.py` *'bunlar kasten bekliyor'* diyordu. Once
+    #   kosturdugumun ogudune uydum. ⇒ Bir aletin ogudunu uygulamadan
+    #   once OTEKI aletin ayni dosya hakkinda ne dedigine bak.
     "yerlesimler_8beb2b.js",          # Yakutistan · Kamçatka · Çukotka ·
                                       # Kolıma. 🔴 SIFIR NOKTA, VE KASITLI:
                                       # araştırma "buraya nokta yazılmamalı"

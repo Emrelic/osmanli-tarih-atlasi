@@ -148,7 +148,18 @@ BEKLENEN_YERLESIM = 968
 #    Ders orada YAZILIYDI; buraya UYGULANMAMISTI.
 # 182 -> 180: 172 +6 EMILME (Orta Afrika) +4 SIBIRYA idi; iki nokta sonradan
 # sahip kazandi. Sabit olculene cekildi.
-BEKLENEN_SAHIPSIZ = 215   # 214 +1 — 28 Agustos: Katar yarimadasi dolgu noktasi
+# 🟢 1 EYLUL 2026 — 215 -> 217. IKI DOLGU NOKTASI, VE IKISI DE BELGELI.
+#   Widyan (el-Widyan) 31,20/41,50 · Nuhayb (Nukhayb) 32,04/42,25
+#   tur:bolge · kasitli_bosluk:true · bos:kabile
+# 🔴 EMRE'NIN 0038/H-0002 SIKAYETININ CARESI, ve o madde bir kez
+#   'cozuldu' diye isaretlenip UYGULANMAMISTI (30 Agu'ta geri acildi).
+#   OLCUM: Necef k3, tavani 280 km, Hamad colune 221 km YETISIYOR ve
+#   orayi Osmanli boyuyordu. Kutuda (29-32,5K/40,5-44,5D) tur:'bolge'
+#   nokta SIFIRDI. Iki dolgu emisi kesiyor.
+#   Emsal zaten vardi: Hamad (Badiyetu's-Sam ici) 33,05/40,28 kuzeyde,
+#   Vadi Sirhan 31,00/37,80 batida — TAM BU KARE atlanmisti.
+# ⚠️ BELGELI olduklari icin `1c` (sahipsiz VE BELGESIZ) 7'de SABIT.
+BEKLENEN_SAHIPSIZ = 217   # 214 +1 — 28 Agustos: Katar yarimadasi dolgu noktasi
 # 🔴 214 -> 215, 28 Agustos 2026 — `yerlesimler_ek_korfez.js` BAGLANDI.
 # Tek kayit: "Katar Yarimadasi (ic, dolgu)", `kasitli_bosluk:true` ·
 # `bos:"devletsiz"`. Sahipsizligi KUSUR DEGIL AMAC: Katar yarimadasinin
@@ -1457,7 +1468,14 @@ ATLAS_SONU = "1923-10-29"
 #   diye ölçülmüştü; bugün o karar **kopyalanıyor.** Düzeltilmemiş bir
 #   künye/veri uyuşmazlığı, sonraki oturumlar tarafından ÇOĞALTILIYOR —
 #   yani borç sabit durmuyor, FAİZ İŞLİYOR.
-BEKLENEN_ASAN = 277
+# 🟢 1 EYLUL 2026 +1 — kosu SIRASINDA yazilan IKI SINIR KOYUNDEN:
+#   Seyhrumi (Yucelen) 38,96/44,11 · Seyh Salu-yi Ulya 38,99/44,20
+#   Turkiye-Iran hatti, ~7,5 km arayla SIMETRIK cift (sinir programi,
+#   Emre'nin '1923 sinirlarini birebir cizelim' karari).
+#   Donem zincirleri BILINEN kovalarda (ilhanli 1281-01-01 'atlasin
+#   sol kenari' sinifi · kacar). YENI KUSUR DEGIL, var olan borcun
+#   iki kayit buyumesi.
+BEKLENEN_ASAN = 278
 ATLAS_BASI = "1281-01-01"
 # 🔴 4d TAVANI — DÖRDÜNCÜ BİÇİM: dönem devletin DOĞUMUNDAN ÖNCE başlıyor.
 # 4c'den AYRI KOVA, ve sebebi ÇARENİN YÖNÜ:
@@ -1473,7 +1491,14 @@ ATLAS_BASI = "1281-01-01"
 #   4d'de ölçülen artışın 2'si `zend` (128 → 130); kalan 2'yi kimlik
 #   bazında ÖLÇMEDİM, tahmin de etmiyorum.
 # ⇒ Sayı doğru, ATIF eksik. (`§11` — "ölçüm doğru, çıkarım yanlış".)
-BEKLENEN_ONCE = 465
+# 🟢 1 EYLUL 2026 +2 — kosu SIRASINDA yazilan IKI SINIR KOYUNDEN:
+#   Seyhrumi (Yucelen) 38,96/44,11 · Seyh Salu-yi Ulya 38,99/44,20
+#   Turkiye-Iran hatti, ~7,5 km arayla SIMETRIK cift (sinir programi,
+#   Emre'nin '1923 sinirlarini birebir cizelim' karari).
+#   Donem zincirleri BILINEN kovalarda (ilhanli 1281-01-01 'atlasin
+#   sol kenari' sinifi · kacar). YENI KUSUR DEGIL, var olan borcun
+#   iki kayit buyumesi.
+BEKLENEN_ONCE = 467
 # 🔴 SARAN — İKİ UÇTAN DA aşan dönemler, yani dönem künyeyi TAMAMEN İÇİNE
 # ALIYOR. `4c ∩ 4d`, yani AYRI BİR KOVA DEĞİL KESİŞİM — üçü TOPLANMAZ.
 # Ayrı basılmasının sebebi teşhis: bir dönem künyeyi tamamen sarıyorsa, o
@@ -1483,7 +1508,14 @@ BEKLENEN_ONCE = 465
 # 140 → 142 · 31 Ağustos 2026. Kesişim de aynı iki `zend` kaydından
 # büyüdü: o dönemler künyeyi İKİ UÇTAN da aşıyor (f 1747 < 1751 ve
 # t 1796 > 1794), yani tek kayıt üç sayacı birden büyütüyor.
-BEKLENEN_SARAN = 142
+# 🟢 1 EYLUL 2026 +1 — kosu SIRASINDA yazilan IKI SINIR KOYUNDEN:
+#   Seyhrumi (Yucelen) 38,96/44,11 · Seyh Salu-yi Ulya 38,99/44,20
+#   Turkiye-Iran hatti, ~7,5 km arayla SIMETRIK cift (sinir programi,
+#   Emre'nin '1923 sinirlarini birebir cizelim' karari).
+#   Donem zincirleri BILINEN kovalarda (ilhanli 1281-01-01 'atlasin
+#   sol kenari' sinifi · kacar). YENI KUSUR DEGIL, var olan borcun
+#   iki kayit buyumesi.
+BEKLENEN_SARAN = 143
 
 
 def degismez4(Y):
