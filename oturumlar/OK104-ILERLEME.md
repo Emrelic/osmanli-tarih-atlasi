@@ -188,10 +188,78 @@ Veri tarafı doğru; kök aynı maske. *"Kök kapanmadan bu maddenin veri taraf�
 düzeltmek görünür değişiklik üretmez"* — TASNIF haklıydı, ve **düzeltilecek
 veri tarafı da yokmuş.**
 
-### ⏳ Henüz el atmadıklarım — 4 kalem
-`H-0007` (Gürcistan↔Karakoyunlu magenta · `renkler.py` **kilitli**) ·
-`H-0023` (yeni etiket denetimi) · `H-0051` (`js/app.js` kaydırma) ·
-`H-0056` (Sahra nokta yoğunluğu).
+### 🟢 H-0023 · etiketsiz toprak denetimi — `cozuldu` (yeni nöbetçi)
+`denetim/denetle_etiket_ok104.py` yazıldı ve koştu. Bugün **4 gerçek kusur**
+(`panama-cumhuriyeti` · `farukiler` · `apaci-ovalar` · `komanci` — rengi var,
+künyesi yok ⇒ **adsız boyanıyorlar**), ve **üçü dünkü renk partisinden
+doğmuş**: renkler yazılmış, künyeler yazılmamış.
+🔴 İlk sürümüm **26 sahte kusur** bildirdi (künyeyi yalnız `id` ile aradım;
+`id ∪ harita` dersi `§11`de zaten yazılıydı). Ters dizin kuruldu → **26 → 4.**
+C13 iki yönde de sınandı; **zorlanması gereken geçme yoluydu.**
+Ayrıntı: `denetim/BULGU-ETIKET-OK104.md`.
+
+### 🟡 H-0007 · Gürcistan ↔ Karakoyunlu — `senin-kararin` (reçete)
+TASNIF *"%44 opaklıkta fark azalıyor"* demiş ama **ölçmemişti. Ölçtüm:**
+```
+gurcistan #e020b0 ↔ karakoyunlu #e018e0
+   tam opaklık        ΔE 25,7   ← renk_olc.py'nin BAKTIĞI sayı
+   %44 opaklıkta      ΔE 12,7   ← kullanıcının GÖRDÜĞÜ sayı (taban 12)
+karşılaştırma: öteki üç çift %44'te 56 · 76 · 86'da kalıyor
+```
+Zemin tahmin edilmedi, **koddan okundu**: `js/app.js:670` `#e8dfc8` ·
+`:674` `#6d5636` @0.15 · `:838` **`fill-opacity: 0.44`**.
+🔴 **Eşik yanlış değere uygulanıyor.** Ölçtüğüm dört çiftte sıkışma oranı
+0,49-0,53 ⇒ **paletteki 12 eşiği ekranda fiilen ~6.**
+⚠️ **Ölçmedim:** kaç çift bu sınıfta — doğru evren *"aynı anda sahnede VE
+komşu"* ve o küme bende yok.
+
+### 🟡 H-0051 · kronoloji kaydırma — `senin-kararin` (reçete)
+TASNIF'in satır numaraları **bayat** (3110/3107/3086 → **4027/~4020/4003**;
+içerik aynı, ~900 satır kaymış). 🔴 **Ve İKİ yer var, TASNIF birini saymış:**
+`js/app.js:4027` (`olayDom`) **ve** `js/app.js:7456` (`birlesikDom`) — ikisi de
+`block:"nearest"`. Tek yerde düzeltilirse birleşik listede kusur **sürer**.
+
+### 🟡 H-0056 · Sahra — `senin-kararin` (ölçüm + ölçüt hazır)
+`denetim/olc_sahra_bosluk_ok104.js`. Kuşak 3×3° hücrelere bölündü:
+**102 hücre · dolu 54 · boş 48 (%47) · 157 nokta.**
+En derin boşluk **926 km** (19,5K/−15,5D → Valata). 🔴 En derin on boşluğun
+**dokuzu Atlantik Sahrası'nda** ve **yedisi tek bir noktaya** (Valata ya da
+Ğulmîm) bağlanıyor — o iki nokta yarıçapı 900 km'ye varan petek taşıyor.
+🟢 **Emre'nin istediği "tamamlık ölçütü" üretildi:** *bir kuşak tamamdır ⇔
+hiçbir 3×3 hücrenin merkezi en yakın noktadan X km uzakta değil.* Eşik
+koordinatörün.
+⚠️ Betik *"boş"* der, **"kusur" demez** — boşluğun kasıtlı mı olduğunu ancak
+kaynak söyler. **O ayrımı yapmadım.**
+
+### 🔴 H-0003 · Doğu Anadolu — şüphem TDV ile DOĞRULANDI
+`akkoyunlular` maddesi açıldı (200, gövde okundu):
+```
+1402 sonrası  Timur Karayülük'e ÂMİD'İ (Diyarbakır) verdi; doğuda hâkimiyetini
+              "SAĞLAMLAŞTIRMAYA ÇALIŞTI"
+ERZURUM       1434'te alındı, AĞUSTOS 1435'te kaybedildi
+öncesi        "Karakoyunlular MUSUL'DAN ERZURUM'A KADAR olan yerleri..."
+tam yayılma   Uzun Hasan, 1465 · Karakoyunlu'nun sonu 1467
+Revan/Erivan  maddede SIFIR geçiş
+```
+⇒ Atlasın 1400/1403 kesitlerinde `akkoyunlu` kuzeydoğuda **~30 yıl ve birkaç
+yüz km ileri sarılmış.**
+🔴 **Düzeltmeyi YAPMADIM** — `§3.5.1`: *bir sınır kayması önerildiğinde İKİ UÇ
+DA ölçülür.* Akkoyunlu'yu geri çekmek toprağı **başkasına vermek** demektir ve
+her devir yeni kırılma günü açar. Tek başıma yazmak, bir hayaleti kapatıp
+başkasını açardı (İbrim/Sevâkin vakası). Ölçüm hazır, devredilebilir.
+
+---
+
+## 6. Nihai sayım — 12 açık madde
+
+```
+cozuldu       5   H-0026 · H-0076 · H-0058 · H-0045 · H-0023
+bayat         1   H-0067  (şikâyet ölmüş, iş zaten yapılmış)
+zaten-dogru   2   H-0018 · H-0019  (VERİ yarısı; kalan kök MASKE, kilitli)
+senin-kararin 4   H-0003 · H-0007 · H-0051 · H-0056
+```
+**Bende iş kalmadı.** Dördü kilitli ya da başkasının dosyasında; dördünün de
+ölçümü yapıldı ve reçetesi yazıldı.
 
 ---
 
