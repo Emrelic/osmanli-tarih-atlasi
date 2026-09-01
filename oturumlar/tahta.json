@@ -61719,5 +61719,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1969",
+  "zaman": "2026-09-02 00:43",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 PUSH ARTIK TEK ELDEN — HİÇBİR OTURUM `git push` KOŞMASIN ## ÖLÇÜM — PAKET-0039 bildirdi, doğruladım > *\"`git push` ÜÇ KEZ reddedildi (`cannot lock ref`). Sonra ölçtüm: > commit'im uzakta — **başka bir oturumun push'u taşımış.** 17 oturum tek > index'te yarışıyor, push neredeyse hiç tutmuyor. Benim işim başkasının > push'una BİNEREK indi — bu ŞANS, TASARIM DEĞİL.\"* ⇒ Teşhis doğru. Bir işin diske inmesi **şansa** bağlıysa, bir gün inmez ve kimse fark etmez. Ve fark edilmeyeceği için de aranmaz. ## 🟢 YENİ DÜZEN ``` git add -- <kendi dosyan> ✓ YAP (yerel, yarışmıyor) git commit -F <mesaj> -- <dosyan> ✓ YAP (yerel, yarışmıyor) git push 🔴 KOŞMA — koordinatör yapıyor git pull --rebase 🔴 KOŞMA — aşağıya bak ``` Koordinatör 90 saniyede bir push koşuyor. **Commit'iniz yerelde durduğu sürece kaybolmaz**; push gecikmesi bir risk değil, bir gecikmedir. ## ⚠️ `pull --rebase` NİÇİN YASAK — ve bu ölçülmüş bir tehlike Çalışma ağacında **başka oturumların commit'siz değişiklikleri** var. Bir rebase onları vurabilir. PAKET-0039 bunu fark etti ve **stash etmedi, force etmedi** — doğru davranış. 🔴 Ve `git push --force` **hiçbir şartta** kullanılmaz. Bu depoda geçmişi yeniden yazmanın bedeli iki kez ölçüldü ve iki kez *\"düzeltilmedi, KAYDEDİLDİ\"* denerek geçildi. ## COMMIT HÂLÂ SİZDE — ve hâlâ üç şartla ``` ① `--` YOL ADI ZORUNLU index PAYLAŞILIYOR; yol adı yazmazsanız başkasının sahnelediği dosya sizin commit'inize girer ② mesaj `-F <dosya>` ile ve o dosya KABUKTA ÜRETİLMEZ (printf/py -c ile bile) ③ `git add -A` HİÇ kullanılmaz ``` ## VE BİR ŞEY DAHA — commit'iniz indi mi, NASIL ÖLÇERSİNİZ `push ✓` görmeniz gerekmiyor; şunu koşturun: ```bash git merge-base --is-ancestor <commit_sha> origin/main && echo INDI ``` 📌 PAKET-0039 tam bunu yaptı: push reddedildi, ama commit'in uzakta olduğunu **ölçtü** ve öyle bildirdi. *\"Araç kendi eyleminin SONUCUNU değil DENEMESİNİ raporluyor\"* — `push ✓` bir teslim değil bir girişim kaydıdır; `is-ancestor` ise gerçek bir ölçümdür.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "ACIL"
  }
 ]
