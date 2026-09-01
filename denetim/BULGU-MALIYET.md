@@ -209,3 +209,109 @@ Dijkstra ızgarası bunu KAÇ KAT büyütür?
 `MALIYET-ONGORU.md ⑤` zaten yazıyor: *"yavaşsa çözüm çözünürlük düşürmek
 DEĞİL, numpy'a taşımaktır."* Yani ölçülen süre **yöntemin** değil **bu
 uygulamanın** süresidir; ikisi karıştırılırsa yöntem haksız yere reddedilir.
+
+---
+
+# AŞAMA 3 — HIZ BEDELİ
+
+## 6.1 🔴 ÖNCE BİR DOĞRULUK KUSURU — hız ölçülemeden önce çıktı
+
+Ⓑ'yi *tahmin* bırakmamak için aynı maliyet modelini saf numpy ile yazdım
+(`maliyet_mesafe_np`) ve kendi kapımı koydum: *"sahiplik uyuşmuyorsa hız
+ölçümü anlamsızdır."* **Kapıdan geçemedim** — iki çözücü ayrıştı, ve
+ayrışan hücrede **numpy DAHA UCUZ yol buluyordu**, yani Dijkstra en kısa
+yolu kaçırıyordu.
+
+Tek değişkenli sınav (bütün ağırlıklar `1.0`):
+```
+adım    ağırlık                UYUŞMAZ   np DAHA UCUZ
+0.080   gerçek (k: kademesi)        1          2
+0.080   HEPSİ 1.0 (sınav)           0          0
+0.060   gerçek (k: kademesi)        1          4
+0.060   HEPSİ 1.0 (sınav)           0          0
+```
+
+**Sebep:** `maliyet_mesafe()` her hücrede **tek** bir skor tutup yeni
+geleni onunla buduyor:
+```python
+yeni = s + bedel / nk[n]["agirlik"]
+```
+Ama gelecekteki artışlar **sahibin ağırlığına** bağlı. Ağırlığı büyük bir
+sahip şu an daha pahalı olsa bile **adım başına daha ucuz** ilerler ve
+sonra öne geçebilir. Tek skor dizisiyle budamak bunu engelliyor ⇒
+**Dijkstra erken buduyor ve en kısa yolu kaçırıyor.**
+
+⚠️ **Kusur gerçek veride ETKİN**: ağırlık `k:` kademesinden geliyor ve
+kademe farkı olan her yerde çalışıyor. Bugün etkisi küçük (4038 hücrede
+1), ama `ALTYAPI` kademe ağırlıklarını **ayırmayı** hedefliyor — ağırlıklar
+yayıldıkça kusur büyür.
+📌 Ve bu kusur **hız sorusunun yan ürünü** olarak çıktı: kimse *"Dijkstra
+doğru mu"* diye sormamıştı, çünkü Dijkstra'nın doğruluğu varsayılırdı.
+
+## 6.2 Ⓐ ve Ⓑ — ve Ⓑ hipotezim ÇÜRÜDÜ
+
+Büyük ızgarada (Sahra kutusu, 21k → 192k hücre):
+```
+adım    hücre     Ⓐ Dijkstra   Ⓑ numpy gevşetme   tur
+0.120   21.411      0,14 sn        0,22 sn         73
+0.080   48.125      0,72 sn        1,13 sn        109
+0.060   85.511      0,63 sn        2,18 sn        146
+0.040  192.500      1,53 sn       15,86 sn        217
+ölçekleme üssü:    Ⓐ n^1,09      Ⓑ n^1,95
+```
+🔴 **Ⓑ hipotezim çürüdü.** *"numpy'a taşımak hızlandırır"* beklentisi
+yanlış: gevşetme **tur sayısı ızgara çapıyla büyüdüğü** için asimptotik
+olarak kötü. Dijkstra `n log n`; gevşetme pratikte `n²`ye yakın.
+⇒ **Ⓑ (vektörleştirme) bu iş için YANLIŞ KAPI.** Gerçek Ⓑ derlenmiş bir
+Dijkstra olurdu (`scipy.csgraph` / `skimage.graph`) — **ikisi de bu
+ortamda YOK** (ölçüldü). Ama gerek de kalmadı: **Ⓐ zaten yetiyor.**
+
+## 6.3 ASIL ÇARPAN — ve devraldığım sayı yanlıştı
+
+Tek koşunun süresi anlamsız; motor bölümlemeyi **nokta kümesi ya da
+ağırlık değişince** yeniden kurar.
+```
+farklı kur: tarihi                262
+farklı bit: tarihi                 13
+kur/bit birleşimi                 272
+kd: (ZAMANLI kademe) 190 kayıt    239 tarih — 186'sı YENİ
+──────────────────────────────────────────────
+GERÇEK ÇARPAN                     458
+```
+🔴 İlk ölçümüm **272** demişti; `kd:`yi hesaba katmamıştım. Zamanlı
+kademe ağırlığı değiştirir, ağırlık bölümlemeyi değiştirir ⇒ çarpan
+**%68 daha büyük.**
+
+## 6.4 ATLAS PENCERESİ — kara oranıyla düzeltilmiş
+
+Pencerenin çoğu deniz ve deniz hücresi Dijkstra'ya **hiç girmez**:
+```
+ana kutu    235.104 hücre · kara 133.069 (%56,6)
+kuzeybatı     4.576 hücre · kara   1.344 (%29,4)
+TOPLAM kara oranı %56,1
+```
+
+**Ⓐ · atlas · çarpan 458 · kara düzeltmeli:**
+```
+adım        ~km    tek koşu    TOPLAM     bugünkü 2 saate göre
+0,10°     11 km      7,7 sn     59 dk     0,5×   🟢 BUGÜNKÜNDEN HIZLI
+0,05°    5,5 km     34,1 sn    4,3 saat   2,2×   🟢 EŞİĞİN ALTINDA
+0,02°    2,2 km      253 sn     32 saat    16×   🔴 RED
+0,01°    1,1 km     1076 sn    137 saat    68×   🔴 RED
+```
+
+### 🟢 HÜKÜM: YÖNTEM YAŞAR — ama çözünürlük **0,05°'de tavanlanır**
+
+Koordinatörün eşiği *"Ⓑ ≤ 3× yaşar"*. Ⓐ **0,05°'de 2,2×** ⇒ eşiği
+**Ⓑ'ye hiç ihtiyaç duymadan** geçiyor.
+
+⚠️ **VE BURADA BİR ŞART VAR, ÖLÇMEDİM:** bugünkü motor kıyıyı **1,3 km**'ye
+sadeleştiriyor. 5,5 km'lik bir ızgara bundan **kabaca dört kat kaba**.
+Yani hız sorusu çözüldü ama yerine **kalite sorusu** geçti: *0,05°'de
+çizilen sınır yeterince iyi mi?* **Ölçmedim** — ve bu, yayın kararı
+verilmeden önce ölçülmeli.
+
+📌 Ve bir mühendislik kolu duruyor: çarpan 458, her değişimde **bütün
+pencereyi** yeniden hesaplamayı varsayıyor. Bir nokta eklendiğinde
+yalnız **etkilenen bölge** yeniden hesaplansa çarpan çok küçülür. Bunu
+**ölçmedim**, ama 0,02°'yi erişilebilir kılacak tek kol bu.

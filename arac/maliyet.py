@@ -562,6 +562,101 @@ def maliyet_mesafe(kutu, adim, fr, nehir, nk):
     return sahip, skor
 
 
+def maliyet_mesafe_np(kutu, adim, fr, nehir, nk):
+    """AYNI maliyet modeli, SAF NUMPY — Ⓑ'yi TAHMİN değil ÖLÇÜM yapmak için.
+
+    🔴 NİÇİN YAZILDI. Koordinatörün kabul ölçütü iki sayı istiyor:
+        Ⓐ bu uygulamanın süresi   (saf Python Dijkstra) — ölçülür
+        Ⓑ yöntemin alt sınırı     (derlenmiş/vektör hâl) — TAHMİN edilir
+    ve **red hükmü yalnız Ⓑ'ye** veriliyor. Yani projenin en belirleyici
+    sayısı bir tahmin olacaktı.
+
+    `scipy` ve `skimage` bu ortamda **YOK** (ölçüldü), yani hazır bir
+    derlenmiş çözücü çağrılamıyor. Ama `numpy` var ⇒ min-plus gevşetme
+    (Bellman-Ford tarzı süpürme) tamamen vektörleştirilebilir.
+    ⇒ **Ⓑ tahmin olmaktan çıkıp ÖLÇÜM oluyor.** Bu, `§11`in *"ölçmediğini
+    ölçmedim diye yaz"* kuralının tersten uygulaması: ölçülebilecek bir
+    şeyi tahmin diye bırakmak da bir eksiktir.
+
+    ⚠️ DOĞRULUK ŞARTI: bu işlev `maliyet_mesafe()` ile **birebir aynı
+    sahiplik** üretmelidir. Üretmiyorsa hızlı olması hiçbir şey ifade
+    etmez — `hiz` komutu bunu her koşuda sınar ve uyuşmazlığı BASAR.
+    """
+    import numpy as np
+    lon0, lat0, lon1, lat1 = kutu
+    nx, ny = izgara(kutu, adim)
+    F = np.array(fr, dtype="float64")
+    N = np.array(nehir, dtype=bool)
+    gecilir = np.isfinite(F)
+    A = np.array([p["agirlik"] for p in nk], dtype="float64")
+
+    dist = np.full((ny, nx), np.inf)
+    own = np.full((ny, nx), -1, dtype="int32")
+    for n, p in enumerate(nk):
+        i = int((p["lon"] - lon0) / adim)
+        j = int((p["lat"] - lat0) / adim)
+        if not (0 <= i < nx and 0 <= j < ny):
+            continue
+        if not gecilir[j, i]:                       # kıyı yuvarlaması
+            bul = None
+            for r in range(1, 6):
+                j0, j1 = max(0, j - r), min(ny, j + r + 1)
+                i0, i1 = max(0, i - r), min(nx, i + r + 1)
+                alt = gecilir[j0:j1, i0:i1]
+                if alt.any():
+                    dj, di = np.argwhere(alt)[0]
+                    bul = (j0 + dj, i0 + di)
+                    break
+            if bul is None:
+                continue
+            j, i = bul
+        if 0.0 < dist[j, i]:
+            dist[j, i] = 0.0
+            own[j, i] = n
+
+    # satır başına km — dkm KAYNAK satırın enlemine bağlı (Dijkstra da öyle)
+    lat = lat0 + (np.arange(ny) + 0.5) * adim
+    dy = _km_enlem(adim)
+    dx = np.array([_km_boylam(adim, float(t)) for t in lat])
+
+    YON = ((1, 0), (-1, 0), (0, 1), (0, -1),
+           (1, 1), (1, -1), (-1, 1), (-1, -1))
+    tur = 0
+    while True:
+        tur += 1
+        degisti = False
+        for dj, di in YON:
+            # kaynak dilimi -> hedef dilimi
+            sj0, sj1 = max(0, -dj), ny - max(0, dj)
+            si0, si1 = max(0, -di), nx - max(0, di)
+            tj0, tj1 = sj0 + dj, sj1 + dj
+            ti0, ti1 = si0 + di, si1 + di
+            sd = dist[sj0:sj1, si0:si1]
+            so = own[sj0:sj1, si0:si1]
+            ok = (so >= 0)
+            if not ok.any():
+                continue
+            hf = F[tj0:tj1, ti0:ti1]
+            hgec = gecilir[tj0:tj1, ti0:ti1]
+            dkm = np.hypot(dy * dj, dx[sj0:sj1] * di)[:, None]
+            bedel = dkm * hf
+            if NEHIR_BEDELI:
+                yeni_nehir = N[tj0:tj1, ti0:ti1] & ~N[sj0:sj1, si0:si1]
+                bedel = bedel + yeni_nehir * NEHIR_BEDELI
+            agir = np.where(ok, A[np.clip(so, 0, None)], 1.0)
+            cand = np.where(ok & hgec, sd + bedel / agir, np.inf)
+            hd = dist[tj0:tj1, ti0:ti1]
+            iyi = cand < hd
+            if iyi.any():
+                degisti = True
+                dist[tj0:tj1, ti0:ti1] = np.where(iyi, cand, hd)
+                ho = own[tj0:tj1, ti0:ti1]
+                own[tj0:tj1, ti0:ti1] = np.where(iyi, so, ho)
+        if not degisti:
+            break
+    return own.tolist(), dist.tolist(), tur
+
+
 def voronoi(kutu, adim, fr, nk):
     """Düz Voronoi — bugünkü motorun sorduğu soru: EN YAKIN nokta kim."""
     lon0, lat0, lon1, lat1 = kutu
@@ -848,6 +943,80 @@ def agirlik_sinavi(kutu=SINAV_KUTU, adim=0.03):
     return 0
 
 
+def hiz(kutu=(39.0, 37.5, 44.0, 40.5), adimlar=(0.12, 0.08, 0.06, 0.04),
+        gun="1600-06-15", dem=True):
+    """AŞAMA 3 · HIZ BEDELİ — Ⓐ ölçülür, Ⓑ de ÖLÇÜLÜR (tahmin değil).
+
+    Ⓐ  saf Python Dijkstra          `maliyet_mesafe`
+    Ⓑ  saf numpy min-plus gevşetme  `maliyet_mesafe_np`
+    Her adımda ikisi de koşar, SAHİPLİKLERİ KARŞILAŞTIRILIR (uyuşmazlık
+    varsa hız anlamsızdır), süreler ölçülür ve atlas penceresine
+    ölçeklenir.
+    """
+    import time
+    import numpy as np
+    print("=" * 72)
+    print("HIZ BEDELİ · kutu %s · gün %s · sürtünme %s"
+          % (str(kutu), gun, "DEM" if dem else "poligon"))
+    print("Ⓐ saf Python Dijkstra   ·   Ⓑ saf numpy min-plus gevşetme")
+    print("=" * 72)
+    nk = noktalar(kutu, gun)
+    print("nokta: %d" % len(nk))
+    satir = []
+    for a in adimlar:
+        nx, ny = izgara(kutu, a)
+        fr, nehir, _ = surtunme_sec(kutu, a, dem, sessiz=True)
+        t0 = time.perf_counter()
+        s_a, _ = maliyet_mesafe(kutu, a, fr, nehir, nk)
+        ta = time.perf_counter() - t0
+        t0 = time.perf_counter()
+        s_b, _, tur = maliyet_mesafe_np(kutu, a, fr, nehir, nk)
+        tb = time.perf_counter() - t0
+        A_, B_ = np.array(s_a), np.array(s_b)
+        gec = np.array([[x != DENIZ for x in r] for r in fr])
+        ayri = int(((A_ != B_) & gec).sum())
+        kh = int(gec.sum())
+        satir.append((a, nx * ny, kh, ta, tb, tur, ayri))
+        print("  adım %.3f · %7d hücre · Ⓐ %7.2fs · Ⓑ %6.2fs (%d tur) · "
+              "hızlanma %5.1f× · UYUŞMAZ %d"
+              % (a, nx * ny, ta, tb, tur, ta / tb if tb else 0, ayri))
+        if ayri:
+            print("     🔴 SAHİPLİK UYUŞMUYOR — hız ölçümü ANLAMSIZ, önce bu düzelir")
+
+    # ölçekleme üssü: t = c * h^k
+    if len(satir) >= 2:
+        import math as _m
+        (h0, n0, _, a0, b0, _, _) = satir[0]
+        (h1, n1, _, a1, b1, _, _) = satir[-1]
+        ka = _m.log(a1 / a0) / _m.log(n1 / n0) if a0 > 0 else 1
+        kb = _m.log(b1 / b0) / _m.log(n1 / n0) if b0 > 0 else 1
+        print("\n  ölçekleme üssü (hücre sayısına göre): Ⓐ n^%.2f · Ⓑ n^%.2f" % (ka, kb))
+
+        # ATLAS PENCERESİ — CLAUDE.md §1.5
+        # unary_union([box(-12,-11,146,82), box(-25,60,-12,82)])
+        alan_derece = (146 - -12) * (82 - -11) + (-12 - -25) * (82 - 60)
+        print("\n  ATLAS PENCERESİ ölçeklemesi (%d derece²):" % alan_derece)
+        print("  %-8s %13s %12s %12s" % ("adım", "hücre", "Ⓐ", "Ⓑ"))
+        for h in (0.10, 0.05, 0.02, 0.01):
+            n = alan_derece / (h * h)
+            fa = a1 * (n / n1) ** ka
+            fb = b1 * (n / n1) ** kb
+            print("  %-8.3f %13s %12s %12s"
+                  % (h, "{:,}".format(int(n)), _sure(fa), _sure(fb)))
+    print("\n  ⚠️ Bu tek bir kutudan ölçeklemedir. Atlas penceresinin çoğu")
+    print("     DENİZDİR ve deniz hücresi Dijkstra'ya hiç girmez — gerçek")
+    print("     süre bu tablodan DÜŞÜK çıkar. Tablo ÜST SINIRDIR.")
+    return 0
+
+
+def _sure(s):
+    if s < 90:
+        return "%.1f sn" % s
+    if s < 5400:
+        return "%.1f dk" % (s / 60.0)
+    return "%.1f saat" % (s / 3600.0)
+
+
 def main(argv):
     if not argv or argv[0] in ("--yardim", "-h"):
         print(__doc__)
@@ -860,6 +1029,12 @@ def main(argv):
         return 0
     if argv[0] == "agirlik":
         return agirlik_sinavi()
+    if argv[0] == "hiz":
+        b = SINAV_KUTU
+        if "--b" in argv:
+            b = tuple(float(x) for x in argv[argv.index("--b") + 1].split(","))
+        g = argv[argv.index("--gun") + 1] if "--gun" in argv else "1600-06-15"
+        return hiz(b, gun=g, dem="--poligon" not in argv)
     if argv[0] == "kara-fark":
         b = SINAV_KUTU
         if "--b" in argv:
