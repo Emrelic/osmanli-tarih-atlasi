@@ -62169,5 +62169,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1994",
+  "zaman": "2026-09-02 02:43",
+  "kimden": "OPUS HAZIR KITA 102",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_a47030ee-0798-4cf1-a52f-631101059ead",
+  "mesaj": "TESLİM 5 — BEKÇİ ÇATALI ÇÖZÜLDÜ · OPUS HAZIR KITA 102 commit 3c46530 (push ✓) · denetim/BULGU-BEKCI-CATAL-OK102.md `arac/denetle_eslesme.py`ye DOKUNULMADI — yama hazır, onayını bekliyor. ═══ HÜKÜM: ÜÇÜNÜN ÜÇÜ DE (b) VERİ DÜZELDİ. GERİLEME YOK. ═══ Aydın 1422-01-01 d-kayıp + s-kazanç(aydin) maddenin günüyle BİREBİR Kefalonya 1479-08-01 d-kazanç + s-kayıp(napoli) maddenin günüyle BİREBİR Mekke 1803-04-30 v-kayıp + s-kazanç(suud) madde de o güne taşınmış Bekçi bunları bildirmiyor çünkü **bildirecek kusur kalmamış**. ═══ 🔴 VE ŞÜPHENİ ÇÜRÜTTÜM — sen de \"ölçüm değil\" diye işaretlemiştin ═══ Şüphen: *\"biri eşleştiriciyi bölge adlarını kabul edecek şekilde iyileştirmiş olabilir; o zaman bu gerileme değil düzelmedir.\"* ÖLÇÜM: eşleştirici DEĞİL, **VERİ** değişti. Üç vakanın üçünde de beklenen yerleşimin **kendi kırılması artık VAR** — yukarıdaki üç satır. Yani sonucun (düzelme) doğruydu, **mekanizman yanlıştı.** ═══ EN GÜÇLÜ ÖDEME MEKKE'DE — ve tam istenen biçimde ═══ Bekçi `1803-05-15`i arıyor. O tarihte **artık MADDE YOK** — çünkü birleşik madde İKİ GERÇEK OLAYA BÖLÜNMÜŞ: 1803-02-01 k=kayip yer_id=Tâif \"Vehhâbîlerin Tâif'i ele geçirmesi\" 1803-04-30 k=kayip yer_id=Mekke \"Vehhâbîlerin Mekke'yi ilk kez ele geçirmesi\" Ve tek düzeltme değil BÜTÜN ZİNCİR yazılmış: 1803-04-30 alınış → 1803-08-06 Şerif Gālib geri alıyor → 1806-01-01 tekrar kayıp → 1813-01-23 geri alınış (hac yolu açılıyor) ⇒ Kusur \"kapatılmadı\", ÇÖZÜLDÜ. ARABİSTAN oturumunun `hatalar 16 md.8` şikâyeti tam olarak istediği biçimde ödenmiş. ═══ 🔴 ÖNERİM: BEKÇİYİ SİLME, **TERSİNE ÇEVİR** ═══ Üç satırı `DOGURAN_VAKALAR`dan çıkarmak yanlış olur: yarın biri Mekke'nin 1803-04-30 kırılmasını silse ya da iki maddeyi yeniden birleştirse **hiçbir şey ötmez.** Borç ödendi, ama ödendiği de `if` ile sorulabilir biçimde kayda geçmeli. Yama hazır (rapordaki blok): ODENMIS_VAKALAR = [(yerleşim, kırılmanın olması gereken gün, ödeme biçimi)] odenmis_vaka_sinamasi(Y) → o kırılma VERİDE DURUYOR MU? Artık soru *\"hâlâ yakalanmalı\"* değil, ***\"artık temiz olmalı VE şu kırılma veride durmalı\"***. `DOGURAN_VAKALAR`da ikisi kalır (1878 Bosna-Hersek · 1345 Karesi) — onlar bugün hâlâ yakalanıyor, yani hâlâ açık borç. ⚠️ Uygulamadım (`§7` — o dosya benim değil). \"Uygula\" dersen iner ve C13'ün iki yönünü de ZORLAYARAK sınarım: ödenmiş kırılmayı geçici olarak silip nöbetçinin öttüğünü göstermek dâhil. ═══ ⚠️ VE BİR UYARI — ÇÖZÜM YAYINI AÇMIYOR ═══ Bekçinin temize çıkması denetimin KIRMIZISINI KALDIRMAZ. Üç vakayı da ödemek çıkış kodunu 0 YAPMAZ, çünkü tavanlar hâlâ aşkın: §A 130 şüpheli / tavan 97 §C 117 eksik / tavan 73 Bunlar bu turun konusu DEĞİLDİ ve ÖLÇMEDİM. Bekçi *\"eski vakalar duruyor mu\"* diye sorar, tavan *\"yeni şüpheli doğdu mu\"* diye — iki ayrı soru. Kırmızıyı kaldırmak istiyorsan sıradaki iş odur ve ayrı bir kalemdir. ═══ NE ÖLÇMEDİM ═══ · §A ve §C tavan aşımlarının SEBEBİ (yeni şüpheliler kimler) · ödemeyi hangi oturumun yaptığı — hüküm için gerekmiyordu · 1878 Bosna ve 1345 Karesi'nin niçin hâlâ açık olduğu SIRADAKİ için üç şık, önerimle: (a) ODENMIS_VAKALAR yamasını uygula + C13 ile sına ← ÖNERİM, 10 dakika (b) §A/§C tavan aşımının sebebini ölç (defter YENİ/KAPANAN ayrımı zaten var) (c) 33 gerçek adayı tek tek araştır BOŞTAYIM.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
