@@ -64,3 +64,60 @@ kırılan yerleşimin adı/`yer_id`si o günün maddesinde geçiyor mu?
   Bedir · Akabe · Tercan · Bayburt · Ahlat · Adilcevaz · Sultaniye.
 - **TDV tuzağı, canlı vaka:** `timbuktu` 200 + doğru başlık + **boş gövde**;
   doğru slug Türkçe yazımıyla **`tinbuktu`** (16.562 karakter, tarih dolu).
+
+---
+
+# İKİNCİ İŞ — NOKTA PARTİSİ (commit 221fc83)
+`data/yerlesimler_ok107.js` · 20 aday → **14 yazıldı**, 6 yazılmadı.
+Kapı: ad çakışması 0 · 3 km 0 · Değişmez 2 `d:` açık 0 · dönem bozuk 0 ·
+beyanlı sahipsiz pencere 2 (Cizre 7,7 yıl · Hasankeyf 181 yıl).
+Kapı üç kusurumu yakaladı (Cizre 116 yıllık hayalet · Siirt 31 yıl ·
+"Vâdilkurâ" yerine **Ulâ**) ve bir kusuru kendi aletimindi (künye
+penceresini düz string karşılaştırıyordum: `"1902-01-01" < "962-02-02"`
+sözlükte doğru, takvimde yanlış → 6 sahte alarm).
+
+# ÜÇÜNCÜ İŞ — RENKLİ-KÜNYESİZ NÖBETÇİSİ
+`arac/denetle_renk_kunye_ok107.py`
+
+**Sorduğu soru** — `§8`in bugüne kadar sorulmamış TERS yönü:
+```
+RENGİ VAR · KÜNYESİ YOK · `harita:` takma adı DEĞİL · VE VERİDE KULLANILIYOR
+```
+Böyle bir kimlik **çizilir ama dizinde görünmez**, ve `Değişmez 4` onun
+ömrünü denetleyemez (`f`/`t` yok) — yani `§3.5` hayalet taraması üstünden
+atlar.
+
+**İlk koşusu, gerçek veride:**
+```
+BOYALAR 401 · künye id 432 · `harita:` takma 237
+🔴 İHLAL 4 : apaci-ovalar · komanci · farukiler · panama-cumhuriyeti
+🟢 ÖLÜ RENK 0
+çıkış kodu 1
+```
+
+**C13 — beş dal, ikisi ZORLANARAK** (`--sina`, 5/5 geçti):
+| dal | nasıl |
+|---|---|
+| ① GEÇME | gerçek veride temiz hâl YOK ⇒ **sahte evrenle zorlandı** |
+| ② ATEŞLEME | gerçek veride 4 yetim var, kendiliğinden koşuyor |
+| ③ ÖLÜ RENK | ayrı kova — ihlal değil, **bekleyen** ihlal |
+| ④ TAKMA AD | `harita:` hedefi SESSİZ kalmalı |
+| ④b | süzgeç KAPATILIP sahte alarmın **doğduğu** gösterildi |
+
+**🔴 KOŞU SIRASINDA `arac/` ALTINA YAZMANIN GÜVENLİ OLDUĞUNU ÖLÇTÜM,
+VARSAYMADIM:** `girdi.motor_izi()` yalnız üç dosyayı parmak izliyor
+(`uret_petek.py` · `renkler.py` · `girdi.py`); `parmak_izi()` ise
+`GIRDI_DOSYALARI` + göl. Yeni bir `arac/*.py` ikisinde de YOK.
+Ayrıca `renkler.py` içe aktarılıyor — dosyaya **yazmadığı** ölçüldü
+(`open(...,"w")` · `.write(` · `json.dump` · `os.replace` = 0 eşleşme).
+
+**🔴 VE SINIFIN 17 GÜNLÜK BİR VAKASI KAYITLIYMIŞ.** `data/devletler.js`
+5190. satır:
+> *"Dört uzak coğrafya dosyası girdi.py'ye bağlanınca 6 kimlik dizinsiz
+> kaldı. Beşi burada; altıncısı (panama-cumhuriyeti) sahibinde ölçülüyor."*
+
+16 Ağustos'ta yazılmış. Bugün 2 Eylül ve `panama-cumhuriyeti` hâlâ yok.
+⇒ Kusur bilinmiyordu değil — **bilinen bir borç, nöbetçisi olmadığı için
+17 gün açık kaldı.** Bu nöbetçi olsaydı ertesi gün öterdi.
+📌 `§11`: *"kabul edilmiş borç kayıtsız kalırsa yarın kusur diye yeniden
+bulunur"* — burada kayıt VARDI, **soran yoktu.**
