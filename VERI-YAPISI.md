@@ -10,6 +10,55 @@ kullanılmaz.
 
 ---
 
+## 🔴 TAKVİM — bütün tarih alanlarını bağlar, ve BUGÜNE KADAR YAZILI DEĞİLDİ
+
+> **Bu atlasın tarihleri JÜLYEN'dir. ÇEVİRME YAPILMAZ.**
+
+Bu kural 2 Eylül 2026'da **ölçülerek** kondu. Ondan önce hiçbir belgede
+yoktu — ve yokluğu iki oturumu *"veri ile TDV çelişiyor"* sanmaya
+götürdü. Çelişki yoktu; **ölçüt yazılı değildi.**
+
+### Nasıl ölçüldü — tek cümlelik kanıt
+TDV `tiflis` maddesi olayı *"**29 Ağustos Cuma** günü"* diye veriyor.
+```
+29 Ağustos 1578  Jülyen'de   CUMA    ✓ TDV'nin dediği gün
+29 Ağustos 1578  Gregoryen'de SALI    ✗
+```
+⇒ **TDV bu dönem için JÜLYEN veriyor.** Kaynağın kendi haftagünü, hangi
+takvimi kullandığını ele veriyor — tarihin kendisi vermiyor.
+
+### Ve atlasın kendi geleneği de Jülyen
+```
+İstanbul'un fethi   29 Mayıs 1453   ← Jülyen. Veride böyle yazılı.
+```
+İki taraf uyuşuyor, yani **dönüştürme gereksiz ve ZARARLI**: bir kaydı
+Gregoryen'e çevirmek onu komşularından 10-13 gün ayırır ve `Değişmez 2`
+senkronunu bozar.
+
+### 🔴 KURAL
+```
+TDV'den gelen tarih          OLDUĞU GİBİ yazılır
+Batı kaynağından gelen tarih kaynağın hangi takvimde olduğu ÖLÇÜLÜR
+                             (haftagünü · kaynağın kendi beyanı)
+Hicrî tarih                  karşılığı verilmişse o alınır, kendin ÇEVİRME
+çevirme                      YAPILMAZ — ve yapıldıysa `kaynak:`ta YAZILIR
+```
+
+### ⚠️ VE BİR VARYANT ÇATIŞMASI ÇEVİRİYLE ÇÖZÜLMEZ, NOTLA ÇÖZÜLÜR
+Ölçülmüş vaka — Özi: veri `1737-07-13`, TDV `11 Temmuz`. İki gün fark
+takvim varyantından geliyor (Rus eski takvimi ↔ Hicrî kayıt). **Doğrusu
+tarihi değiştirmek değil**, `kaynak:` alanına varyantı **not düşmek** —
+çünkü hangisinin doğru olduğu değil, **hangi kaydın hangi takvimde
+tutulduğu** bilinmiyor.
+
+📌 Ve bunun tersi de ölçüldü, karıştırılmasın: **Tiflis'te sorun takvim
+DEĞİLDİ.** `1578-08-09` Tiflis'in fethi değil **Çıldır Savaşı'nın günü**;
+o gün beş yerleşime ve dokuz dönem ucuna toptan yazılmış. ⇒ *"İki tarih
+çelişiyor"* gördüğünde **önce takvimi, sonra OLAYIN KENDİSİNİ** ölç —
+ikisi farklı kusur sınıfıdır ve çareleri terstir.
+
+---
+
 ## `data/yerlesimler.js` — coğrafi çekirdek 🔑
 
 Haritanın **tek elle yazılan kaynağı**. Bütün geometri buradan üretilir.
