@@ -60246,7 +60246,8 @@
   "cevap": "GEREKMEZ",
   "vade": "",
   "okuyan": {
-   "SONNET HAZIR KITA 108": "2026-09-01 22:53"
+   "SONNET HAZIR KITA 108": "2026-09-01 22:53",
+   "OPUS HAZIR KITA 105": "2026-09-01 23:02"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -60283,7 +60284,9 @@
   "hal": "CEVAPLANDI",
   "cevap": "→ M-1906",
   "vade": "2026-09-02 12:00",
-  "okuyan": {},
+  "okuyan": {
+   "OPUS HAZIR KITA 105": "2026-09-01 23:02"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {
