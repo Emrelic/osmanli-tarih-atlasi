@@ -148,3 +148,64 @@ ediyor. ⇒ **Duyarsız bir kalibrasyon ölçütü, duyarlı bir sonucu gizler.*
            hız bedeli (AŞAMA 3) · nehir geçiş bedelinin payı
            41 iç-bölge kara ayrışmasının sebebi
 ```
+
+---
+
+## 5. DEVİR NOTU — bağlamda kalan her şey buraya indi
+
+> Bu bölüm **bayrak devri için** yazıldı: bir sonraki oturum bu dosyadan
+> devam edebilsin, benim bağlamıma ihtiyaç duymasın diye.
+
+### 5.1 Ölçümlerin TAM tekrar komutları
+```bash
+py arac/maliyet.py sinav                 # poligon — eski sayılar (geçme yolu)
+py arac/maliyet.py sinav --dem           # DEM + eğim
+py arac/maliyet.py kara-fark             # iki kara tanımının ayrışması
+
+py arac/maliyet.py kutu --b 39.0,37.5,44.0,40.5  --adim 0.03 --dem                     # DAĞ
+py arac/maliyet.py kutu --b -2.0,18.0,20.0,32.0  --adim 0.10 --gun 1600-06-15 --dem    # ÇÖL
+py arac/maliyet.py kutu --b 6.0,35.0,11.0,41.5   --adim 0.04 --gun 1533-06-15 --dem    # SARDİNYA
+py arac/maliyet.py kutu --b 19.0,37.0,22.0,39.5  --adim 0.03 --gun 1600-06-15 --dem    # KEFALONYA
+```
+⚠️ Kutu **koordinatları** §0 tablosunda yoktu, yalnız adları vardı. Adım
+ve gün de sonucu değiştirir — bu satırlar olmadan tablo **tekrarlanamazdı.**
+
+### 5.2 Tek değişkenli sınav — yöntem, dosya değil
+Çarpanın payını ayırmak için `maliyet` modülü **içe aktarılıp**
+`EGIM_CARPANI` çalışma anında değiştirildi; dosya düzenlenmedi:
+```python
+import maliyet as M
+M.EGIM_CARPANI = 0.0        # ya da 0.005 / 0.020
+M.EGIM_OLCULDU = True       # uyarı basmasın, KASTEN sıfırlıyoruz
+M.kutu_kos((39.0, 37.5, 44.0, 40.5), 0.03, dem=True)
+```
+📌 Betikler scratchpad'deydi ve **kaybolacaklar**; kalması gereken şey
+dosya değil bu **üç satırlık yöntem.**
+
+### 5.3 🔴 AÇIK UÇLAR — yapılmadı, unutulmasın
+```
+① agirlik_sinavi()  hâlâ surtunme() çağırıyor — --dem'e ÇEVRİLMEDİ.
+   sinav() ve kutu_kos() çevrildi, üçüncüsü ATLANDI. Bilerek değil.
+② COL_PUAN_ESIK     prototipe BAĞLI DEĞİL. "Emniyet kemeri çöl freni
+   olmalı" önerisi bu yüzden ÖLÇÜLMEMİŞ bir öneridir.
+③ 41 iç-bölge ayrışması  `kara-fark` "🔴 İNCELE" diyor; göl/baraj/deniz
+   seviyesi altı ayrımı YAPILMADI. Göl düzeltmesinden SONRA yeniden
+   ölçülmeli — sayı düşmüş olabilir.
+④ 'sinir' alanı     `yerlesimler_sinir_dogu.js` girdi.py'nin tanımadığı
+   bir alan yazıyor (6 kayıt). Her koşuda uyarı basıyor. BENİM DOSYAM
+   DEĞİL, sahibine bildirildi.
+```
+
+### 5.4 Bir sonraki oturuma: AŞAMA 3'ün ilk sorusu
+Hız bedeli **ölçülmedi** ve şartname onu *"kararın en belirleyici sayısı
+olabilir"* diye işaretliyor. Ölçülecek şey:
+```
+bugünkü koşu ~2 saat (Voronoi)
+Dijkstra ızgarası bunu KAÇ KAT büyütür?
+   → prototipte hücre sayısı ↔ süre eğrisi çıkarılır, atlas penceresine
+     (unary_union([box(-12,-11,146,82), box(-25,60,-12,82)])) ölçeklenir
+```
+⚠️ Ve şu tuzak baştan bilinsin: prototip **saf Python Dijkstra**.
+`MALIYET-ONGORU.md ⑤` zaten yazıyor: *"yavaşsa çözüm çözünürlük düşürmek
+DEĞİL, numpy'a taşımaktır."* Yani ölçülen süre **yöntemin** değil **bu
+uygulamanın** süresidir; ikisi karıştırılırsa yöntem haksız yere reddedilir.
