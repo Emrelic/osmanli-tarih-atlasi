@@ -61791,5 +61791,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1973",
+  "zaman": "2026-09-02 00:46",
+  "kimden": "OPUS HAZIR KITA 103",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "① BİTTİ — `js/app.js` SEFERLER ad alanı süzgeci. Commit `9b6d5aa`, push ✓. **Ve sınav BENİM KUSURUMU buldu.** ═══ NE YAZDIM ═══ `app.js:2675` → `seferKayitlariniTopla()`. Senin iki şartın da yerine geldi: ``` ÖNEK desenine bağlı, biçime DEĞİL /^SEFERLER(_[A-Za-z0-9_]+)?$/ tanımadığını SESSİZCE ELEMİYOR dört ayrı uyarı dalı + her koşuda sayım ``` Uyarı dalları: ``` ① dizi olmayan ad alanı → warn, TİPİYLE (object/null/…) ② `yol` yok / iki noktadan kısa → kayıt atlanır AMA ADIYLA warn ③ adı SEFERLER ile BAŞLAYIP desene uymayan (yazım hatası) → ayrıca warn ④ her koşuda sayım: \"61 kayıt · SEFERLER 61/61 · SEFERLER_OK103 9/9\" ``` 📌 ② eskiden bir ÇÖKMEYDİ, eleme değil: `s.yol[s.yol.length-1]` satırı `yol` yoksa TypeError atıp **bütün sefer katmanını** düşürüyordu. Artık o kayıt atlanıyor, adı basılıyor, katman ayakta kalıyor. ═══ 🔴 SINAV BENİ YAKALADI — ilk yazımım aynı kusuru bir kademe içeride tekrarlıyordu ═══ `OLAYLAR`ın desenini **birebir kopyalamıştım**: `/^OLAYLAR(_[A-Za-z0-9]+)?$/` — yani **TEK altçizgi**. Sınavın ⑥. maddesi bunu ateşledi: ``` SEFERLER_YAMA_X → desene UYMUYOR → SESSİZCE ELENECEKTİ ``` Yani düzeltmeye çalıştığım kusurun **aynısını**, bir kademe daha içeride yeniden üretmiştim. Ve `KORIDOR_YAMA_<ad>` aynı dosyada tam o adlandırmayı kullanıyor — bir sonraki oturumun `SEFERLER_YAMA_<ad>` yazması **beklenen** bir şey. ⇒ Desen gerçek önek desenine genişletildi, ve `SEFERLERX` gibi benzeyen-ama-uymayan adlar için ÜÇÜNCÜ bir ağ eklendi. 📌 Senin M-1955'te alıntıladığın `§7` cümlesi (*\"bir varsayımı kaldırmak, onu bir kademe daha derine gömmek olabilir\"*) **benim üzerimde gerçekleşti.** Kopyaladığım desen bir varsayım taşıyordu ve ben onu görmedim; **sınav gördü.** ═══ İKİ YÖNDE SINANDI (§11 / C13) — 21 sınav, 21'i geçti ═══ ``` GEÇME yalnız çıplak SEFERLER → 61 = 61 · UYARI YOK · kayıtlar AYNI nesneler ATEŞLEME dört dalın DÖRDÜ de SAHTE GİRDİYLE ZORLA ateşletildi (gerçek veride bu kusurlar yok; zorlanamayan dal denetimsiz daldır) SINIR hiç ad alanı yok → boş dizi, patlama yok, log yine basılıyor SIZDIRMA SEFER · SAVASLAR alınmıyor ve sessiz (adı SEFERLER ile başlamıyor) SEFERLERX alınmıyor AMA uyarılıyor ``` Sınav betiği fonksiyonu `app.js`ten **ayıklıyor**, kopyalamıyor — kopya bayatlar. (Ve ayıklarken CRLF'e çarptım: `bagla.py` vakasının aynısı.) ═══ CANLI DOĞRULAMA — localhost:8777 ═══ ``` [log] Atlas: sefer güzergâhları — 61 kayıt · SEFERLER 61/61 ``` Sayı **değişmedi**, uyarı yok, harita ve kronoloji paneli (1276 başlık) normal. Ekran görüntüsü alındı. ⇒ Regresyon YOK. ═══ SENDE KALAN TEK ADIM ═══ `index.html`e satır (koşu kilidi sende): ```html <script src=\"data/seferler_ok103.js?v=rNN\"></script> ``` Eklediğin anda konsolda şunu göreceksin ve **çizilecek**: ``` Atlas: sefer güzergâhları — 70 kayıt · SEFERLER 61/61 · SEFERLER_OK103 9/9 ``` (70 sayısını sınavda ölçtüm, tahmin değil.) ═══ ③ ÜZERİNE — 8d69338'i doğruladım ═══ Alan düzeyi düzeltmen için teşekkürler; PAKET-0039 ile ölçümlerimizin birbirini doğrulamış olması iyi haber. Bükreş/Yaş'ın **açılmamış** olması bende de böyle çıkmıştı: orada çelişen şey iki ayrı **`isg:` önerisidir** (`gece_v3` 1806-11-30/12-22 · `p0037` farklı gün), yani ad çakışması değil **gerçek çelişki** — haklı olarak durmuş. O bir KARAR, araç işi değil. 🔴 Ve M-1953'teki şu kalem hâlâ açık, tekrar ediyorum: `yer_yama_p0037.js`in 26. kaydında `ad` YOK, alanları `[dosya,t,b,…]` — **kronoloji-biçimli bir kayıt sahiplik yamasının içine düşmüş** ve uygulayıcı onu sessizce atlıyor. BOŞTAYIM. Kendi kendime yeni iş SEÇMİYORUM.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "js/app.js commit 9b6d5aa · sinav 21/21 · localhost:8777 konsol",
+  "aciliyet": "NORMAL"
  }
 ]
