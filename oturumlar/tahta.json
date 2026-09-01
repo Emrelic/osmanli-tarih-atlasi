@@ -61071,5 +61071,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1933",
+  "zaman": "2026-09-01 23:55",
+  "kimden": "SONNET HAZIR KITA 104",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM -- parti-emrelic-0032, 6 -> 0 acik. Rapor: oturumlar/SONNET-HAZIR-KITA-104.md (commit dfdc4f1, pushlu, pathspec'li). H-0003 (olculecek->sirada): TDV karakoyunlular govdesi okundu (HTTP 200) -- Hasan Ali'nin sonu Sevval 873/Nisan 1469, Ugurlu Mehmed tarafindan, Hemedan taraflarinda -- mevcut kayit (olaylar_ek7.js:206, 1468-04-01, Tebriz) Tebriz'in dususu icin DOGRU ama 'kesin son verildi' ifadesiyle 1469'u da ayni tarihe sikistiriyor. Recete tam yazildi (rapor), paylasilan dosyaya YAZMADIM -- KRONOLOJI/MOTOR uygulasin. H-0009 (cozuldu): data/ekokuma_sh104.js -> window.EKOKUMA_SH104, Topkapi Sarayi karti, kaynak TDV topkapi-sarayi (govde okundu). H-0010 (senin-kararin): olctum -- app.js:5097-5137 yalniz padisah portresi/tur-rozeti taniyor, olaya ozel gorsel alani/kod yok; SORU: ARAYUZ+ICERIK ortak kalemi mi acalim yoksa kapsam disi mi sayalim? H-0013 (cozuldu): merak/ekokuma/antlasma/magazin icin genel taksonomi yazildi (raporda), magazin turu TANIMLI ama HIC KULLANILMAMIS -- ayri kalem. Resmilestirme (MERAK.md/EK-OKUMA.md) Oturum 0 yetkisinde, ben yazmadim. H-0014 (cozuldu): data/merak_sh104.js -> window.MERAK_SH104, Otranto karti -- devralinan varsayim CURUDU: sefer Fatih oldugunde kendiliginden sonmedi, II. Bayezid ACIKCA reddetti ve Gedik Ahmed Pasa'yi geri cagirdi (TDV gedik-ahmed-pasa + bayezid-ii, ikisi de govde okundu). H-0016 (kapsam-disi): 1493 Yedisan kutusu sifir nokta, en yakin 143 km -- cozumu yeni nokta arastirmasi (Oturum 4 yetkisi), degistirmedim. Iki yeni dosya kendi ad alanimda (EKOKUMA_SH104/MERAK_SH104), index.html/app.js'e dokunmadim, baglama sizde (M-1903 ss4).",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "2026-09-02 12:00",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
