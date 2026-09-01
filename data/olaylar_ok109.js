@@ -163,6 +163,66 @@ window.OLAYLAR_OK109 = [
     kisiler: "Miklós Horthy",
     d: "1 Mart 1920'de Horthy'nin kral nâibliğine getirilmesinden üç ay sonra imzalanan Trianon Antlaşması gereğince Macaristan ağır toprak ve insan kaybına uğradı: Hırvatistan hariç 283.000 km²'lik arazisinin üçte ikisi ve üç milyondan fazla Macar dahil nüfusunun yüzde altmışı sınır dışında kaldı, ordusu 35.000 kişiye indirildi. Atlasta Macaristan Naipliği'nin yirmi yerleşimi bu küçülmüş devleti gösterir; Erdel ve Yukarı Macaristan çoktan Romanya ve Çekoslovakya rengindedir.",
     kaynak: "macaristan"
+  },
+
+  // ═══════════════════════════════════════════════════════════════════════
+  // İKİNCİ PARTİ — I. DÜNYA SAVAŞI'NI BİTİREN ÖTEKİ ANTLAŞMALAR
+  // 2 Eylül 2026 · koordinatör 1.MURAT · yukarıdaki ⑧ yan bulgusunun karşılığı
+  // ═══════════════════════════════════════════════════════════════════════
+  //
+  // 🔴 ÖNCE ÖLÇÜLDÜ — koordinatörün uyarısı ("bugün ben o adımı atlayıp bir
+  //   oturuma yapılmış iş verdim") aynen uygulandı. Yedi antlaşma günü,
+  //   iki soru: külliyatta maddesi VAR MI · o gün KIRILMA günü MÜ?
+  //
+  //   gün          antlaşma        külliyat        kırılma         karar
+  //   1919-06-28   Versailles      🔴 YOK           🟢 8 uç         YAZILDI
+  //   1919-09-10   Saint-Germain   🟢 VAR (bugün)   🔴 0            —
+  //   1919-11-27   Neuilly         🔴 YOK           🔴 0            YAZILDI (ayrıldı)
+  //   1920-06-04   Trianon         🟢 VAR (bugün)   🔴 0            —
+  //   1920-08-10   Sevr            🟢 VAR (eski)    🔴 0            DOKUNULMADI
+  //   1923-07-24   Lozan           🟢 VAR (eski)    🔴 0            DOKUNULMADI
+  //   1918-10-30   Mondros         🟢 VAR (eski)    🟢 52 uç        DOKUNULMADI
+  //
+  // 🟢 Sevr ve Lozan'ın maddesi ZATEN VARDI — koordinatörün tam da uyardığı
+  //   şey. Ölçülmeseydi ikisi yeniden yazılacaktı.
+  // ⚠️ Versailles taramasında bir YANLIŞ POZİTİF çıktı: külliyatta
+  //   "Versailles Antlaşması" geçen bir madde var ama tarihi 1768-05-15 ve
+  //   konusu Korsika'nın Ceneviz'den Fransa'ya satılması — BAŞKA bir
+  //   antlaşma. Ad eşleşmesi yetmiyor, TARİHİNE de bakmak gerekti.
+  //
+  // 🔴 SLUG TUZAĞI — dördü de ÖLÜ, ve kapsayıcı madde kurtardı (`§4`):
+  //   versay-antlasmasi 302 · versailles 302 · neuilly 302 · alsas 302
+  //   ⇒ `birinci-dunya-savasi` (200, gövde okundu) antlaşma takvimini
+  //     TEK CÜMLEDE veriyor ve iki tarihi de o doğruladı.
+  // 🔴 VE BİR YAZIM EKSENİ VAKASI: `bulgaristan` gövdesinde "Neuilly"
+  //   ARANDI, 0 GEÇİŞ çıktı — TDV onu **"Neully"** diye yazıyor. İlk ölçümüm
+  //   "TDV Bulgaristan maddesi Neuilly'yi kapsamıyor" diyecekti ve YANLIŞ
+  //   olacaktı. `CLAUDE.md`nin Türkçe/yazım ekseni dersinin (`aceh` →
+  //   `ace-sultanligi`) kaynak-gövdesi tarafı.
+  //
+  // ⚠️ 2t AYRIMI (koordinatörün istediği): 1919-06-28 KIRILMA günü ⇒
+  //   maliyetsiz. 1919-11-27 kırılmasız ⇒ yeni gün açar. Bu sefer TAHMİN
+  //   YAZMIYORUM — geçen sefer "2t 17 → 22" dedim, ölçüm 17 dedi, modelim
+  //   yanlıştı. Yazdıktan SONRA ölçüp bildireceğim.
+
+  {
+    t: "1919-06-28", k: "antlasma", etiket: ["antlasma", "toprak-kaybi"],
+    b: "Versailles Antlaşması — Alsas-Loren Fransa'ya döndü",
+    gun: "28 Haziran 1919",
+    yer: "Versailles, Strazburg, Metz, Colmar, Mulhouse",
+    kisiler: "—",
+    d: "Paris Barış Konferansı 18 Ocak 1919'da toplandı ve 28 Haziran'da Almanya ile Versailles Antlaşması imzalandı. Atlasta bu gün Strazburg, Metz, Colmar ve Mulhouse Almanya'dan Fransa'ya geçer — 1871'den beri Alman olan Alsas-Loren'in dönüşü. Aynı konferans dizisi Avusturya ile Saint-Germain'i (10 Eylül 1919), Bulgaristan ile Neuilly'yi (27 Kasım 1919), Macaristan ile Trianon'u (4 Haziran 1920) ve Osmanlı Devleti ile Sevr'i (10 Ağustos 1920) doğurdu.",
+    kaynak: "birinci-dunya-savasi — antlaşmanın günü ve tarafları TDV'nin bu maddesinden doğrudan alındı: \"28 Haziran'da Almanya ile Versailles, 10 Eylül'de Avusturya ile Saint-Germain, 27 Kasım'da Bulgaristan ile Neuilly, 4 Haziran 1920'de Macaristan ile Trianon\". ⚠️ TANECİKLİK BOŞLUĞU (CLAUDE.md §4): TDV Alsas-Loren'in devrini bu ayrıntıda anlatmıyor; `versay-antlasmasi` · `versailles` · `alsas` sluglarının üçü de 302 (ÖLÜ). Dört şehrin el değiştirmesi atlasın KENDİ verisinden okunmuştur (1919-06-28'de almanya → fransa-cumhuriyet, 4 kayıt), tarih dışı bir iddia eklenmemiştir."
+  },
+
+  {
+    t: "1919-11-27", k: "antlasma", etiket: ["antlasma", "toprak-kaybi"],
+    b: "Neuilly Antlaşması — Bulgaristan Batı Trakya'yı ve Ege kıyısını kaybetti",
+    gun: "27 Kasım 1919",
+    yer: "Neuilly-sur-Seine, Gümülcine, İskeçe, Dedeağaç, Sofya",
+    kisiler: "Çar Ferdinand, Boris",
+    d: "Savaşın yenilgiyle bitmesi üzerine Çar Ferdinand mütareke istemek ve oğlu Boris lehine tahttan çekilmek zorunda kalmıştı (29 Eylül 1918). Savaşı sona erdiren Neuilly Antlaşması'yla Bulgaristan Sırplar lehine stratejik toprak kaybına uğradı, Batı Trakya'nın tamamını kaybetti, Ege denizi kıyısını Yunanistan'a bırakmak durumunda kaldı ve Güney Dobruca'yı Romanya'ya veren Bükreş Antlaşması hükümlerini onayladı. Atlasta bu devrin karşılığı antlaşma gününde değil, idarenin fiilen el değiştirdiği 1920 Mayıs'ındadır: Dedeağaç, Sofulu, Orestiada ve Çirmen 14 Mayıs'ta, Gümülcine, İskeçe, Dimetoka ve Ferecik 27 Mayıs'ta Yunanistan'a geçer.",
+    kaynak: "bulgaristan — gövde okundu: \"Savaşı sona erdiren Neully Antlaşması'yla (27 Kasım 1919) Bulgaristan Sırplar lehine belirli bir stratejik toprak kaybına uğramış, Batı Trakya'nın tamamını kaybetmiş, Ege denizi kıyısını Yunanistan'a bırakmak durumunda kalmış ve Güney Dobruca'yı Romanya'ya veren Bükreş Barış Antlaşması hükümlerini de onaylamıştır.\" ⚠️ TDV antlaşmanın adını \"Neully\" diye yazıyor; \"Neuilly\" aramasi bu maddede 0 sonuç verir. `neuilly` slugu 302 (ÖLÜ)."
   }
 
 ];
