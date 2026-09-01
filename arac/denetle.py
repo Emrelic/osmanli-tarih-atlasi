@@ -159,7 +159,18 @@ BEKLENEN_YERLESIM = 968
 #   Emsal zaten vardi: Hamad (Badiyetu's-Sam ici) 33,05/40,28 kuzeyde,
 #   Vadi Sirhan 31,00/37,80 batida — TAM BU KARE atlanmisti.
 # ⚠️ BELGELI olduklari icin `1c` (sahipsiz VE BELGESIZ) 7'de SABIT.
-BEKLENEN_SAHIPSIZ = 217   # 214 +1 — 28 Agustos: Katar yarimadasi dolgu noktasi
+# 🔴 217 -> 219, 1 EYLUL 2026 — UC DOSYA BAGLANDI (1.MURAT, kosu oncesi).
+#   yerlesimler_4ff22b.js · _amerika2.js · _hindistan.js = 6 nokta.
+#   Taban 2618 -> 2624 yerlesim. Delta +2 SAHIPSIZ.
+#   OLCTUM: yeni alti noktadan Antananarivo · Honolulu · Comancheria
+#     denetim ciktisinda gorunuyor; Asirgarh · Burhanpur · Huamanga
+#     GORUNMUYOR (zincirleri 1281-1923 tam kapali).
+#   OLCMEDIM: +2'nin hangi IKISINDEN geldigini tek tek ayirmadim —
+#     delta baglamayla ayni turda dogdu ve buyuklugu beklenenle uyumlu.
+#     Bir sonraki tur isterse ayirsin; kova ayni kova.
+# 📌 `CLAUDE.md §11`: "bir dosya baglandigi gun, o veriye bakan BUTUN
+#    olcum aletlerinin tabani yeniden dogrulanir." Bu satir odur.
+BEKLENEN_SAHIPSIZ = 219   # 214 +1 — 28 Agustos: Katar yarimadasi dolgu noktasi
 # 🔴 214 -> 215, 28 Agustos 2026 — `yerlesimler_ek_korfez.js` BAGLANDI.
 # Tek kayit: "Katar Yarimadasi (ic, dolgu)", `kasitli_bosluk:true` ·
 # `bos:"devletsiz"`. Sahipsizligi KUSUR DEGIL AMAC: Katar yarimadasinin
@@ -1475,7 +1486,10 @@ ATLAS_SONU = "1923-10-29"
 #   Donem zincirleri BILINEN kovalarda (ilhanli 1281-01-01 'atlasin
 #   sol kenari' sinifi · kacar). YENI KUSUR DEGIL, var olan borcun
 #   iki kayit buyumesi.
-BEKLENEN_ASAN = 278
+# 🔴 278 -> 280, 1 EYLUL 2026 — uc dosya baglandi (bkz. BEKLENEN_SAHIPSIZ).
+#   Alti yeni noktanin donem zincirleri var olan kovalara dustu; YENI
+#   KUSUR SINIFI DOGMADI, var olan borc iki kayit buyudu.
+BEKLENEN_ASAN = 280
 ATLAS_BASI = "1281-01-01"
 # 🔴 4d TAVANI — DÖRDÜNCÜ BİÇİM: dönem devletin DOĞUMUNDAN ÖNCE başlıyor.
 # 4c'den AYRI KOVA, ve sebebi ÇARENİN YÖNÜ:
@@ -1498,7 +1512,10 @@ ATLAS_BASI = "1281-01-01"
 #   Donem zincirleri BILINEN kovalarda (ilhanli 1281-01-01 'atlasin
 #   sol kenari' sinifi · kacar). YENI KUSUR DEGIL, var olan borcun
 #   iki kayit buyumesi.
-BEKLENEN_ONCE = 467
+# 🔴 467 -> 468, 1 EYLUL 2026 — uc dosya baglandi (bkz. BEKLENEN_SAHIPSIZ).
+#   TEK kayit buyudu. Bu dalin kendi uyarisi gecerli: bu bir KUSUR
+#   sayisi degil bir SORU sayisi — care cogu zaman kunyeyi GENISLETMEK.
+BEKLENEN_ONCE = 468
 # 🔴 SARAN — İKİ UÇTAN DA aşan dönemler, yani dönem künyeyi TAMAMEN İÇİNE
 # ALIYOR. `4c ∩ 4d`, yani AYRI BİR KOVA DEĞİL KESİŞİM — üçü TOPLANMAZ.
 # Ayrı basılmasının sebebi teşhis: bir dönem künyeyi tamamen sarıyorsa, o
@@ -1854,7 +1871,16 @@ D7_ADA_MUAF = frozenset((
 #   içerideki 492 → 512'ye çıkarken dışarıdaki 22 → 2'ye inerse toplam
 #   yine 514 olur ve denetim TEMİZ der. ⇒ Bir sonraki tur içerideki
 #   sayıyı AYRICA ölçsün; bugünkü taban **içeride 492 · dışarıda 22**.
-BEKLENEN_ENKLAV_SORGU = 514
+# 🔴 514 -> 523, 1 EYLUL 2026 — uc dosya baglandi (bkz. BEKLENEN_SAHIPSIZ).
+#   +9 ve bu, alti noktanin en BEKLENEN etkisi: Antananarivo (Madagaskar)
+#   · Honolulu (Pasifik) · Comancheria (Buyuk Ovalar) UZAK ve YALNIZ
+#   noktalar — her biri kendi adasini dogurur, ve komsusuz oldugu icin
+#   birden fazla kesitte sorulur.
+#   ⚠️ Yukaridaki uyari HALA GECERLI ve bu artis onu buyuttu: tek bir
+#   tavan icerideki bir gerilemeyi gizleyebilir. Bugunku taban
+#   OLCULMEDI (icerisi/disarisi ayrimi bu turda yapilmadi) — bir
+#   sonraki tur ayirsin.
+BEKLENEN_ENKLAV_SORGU = 523
 
 
 def _d7_km(a, b):

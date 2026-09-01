@@ -613,6 +613,24 @@ GIRDI_DOSYALARI = [
     #   `denetle_yayin.py` *'bunlar kasten bekliyor'* diyordu. Once
     #   kosturdugumun ogudune uydum. ⇒ Bir aletin ogudunu uygulamadan
     #   once OTEKI aletin ayni dosya hakkinda ne dedigine bak.
+    #
+    # ══ 1 EYLÜL 2026 · 22:40 — DOĞRU AN GELDİ, ÜÇÜ DE BAĞLANDI ══
+    # Yukarıdaki satır *"DOĞRU AN: bir sonraki koşu BAŞLAMADAN HEMEN
+    # ÖNCE"* diyor. O an BUDUR: koordinatör (1.MURAT) yeni koşuyu
+    # başlatmadan hemen önce, girdi kilidi ilan edilmeden bağlıyor.
+    # Emre'nin sözü (1 Eylül): *"elde ne var ise koşsun; koşuya
+    # yetişmeyenler bir sonraki koşuda katılırlar."*
+    # 🔴 KAYIT DÖRDÜNCÜ KEZ BAYATLAMADI — çünkü bu sefer bağlama
+    #    koşunun KENDİSİYLE aynı işlemde yapıldı, ayrı bir kalem
+    #    olarak kuyrukta bırakılmadı.
+    # Ölçüldü (bağlamadan önce, dördü de): ad çakışması 0 · 3 km
+    # mükerrer 0 · beş kimliğin beş rengi de `renkler.py`de VAR ·
+    # node ile ayrıştırma temiz.
+    "yerlesimler_4ff22b.js",          # 2 nokta · hawaii-kralligi #ffa5d6
+                                      #          · merina #73c0a0
+    "yerlesimler_amerika2.js",        # 2 nokta · apaci-ovalar #d7a300
+                                      #          · komanci #78bdff
+    "yerlesimler_hindistan.js",       # 2 nokta · farukiler #80f67e
     "yerlesimler_8beb2b.js",          # Yakutistan · Kamçatka · Çukotka ·
                                       # Kolıma. 🔴 SIFIR NOKTA, VE KASITLI:
                                       # araştırma "buraya nokta yazılmamalı"
