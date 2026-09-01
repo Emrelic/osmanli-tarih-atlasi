@@ -377,11 +377,47 @@ def c_coklu_yer(Y, O, ix):
 # Buraya yalnız GERÇEK, KAYNAĞA DAYALI vaka girer — sentetik örnek değil.
 DOGURAN_VAKALAR = [
     # (tarih, başlıkta geçen ibare, eksik çıkması BEKLENEN yerleşim, kim buldu)
-    ("1803-05-15", "Mekke ve Tâif", "Mekke", "ARABİSTAN · hatalar 16 md.8"),
-    ("1422-01-01", "Cüneyd Bey", "Aydın", "çoklu-yer ölçümü"),
     ("1878-07-29", "Bosna-Hersek", "Saraybosna", "çoklu-yer ölçümü"),
-    ("1479-08-01", "İyon adaları", "Kefalonya", "çoklu-yer ölçümü"),
     ("1345-01-01", "Karesi Beyliği", "Mihaliç (Karacabey)", "çoklu-yer ölçümü"),
+]
+
+
+# ── ÖDENMİŞ VAKALAR — BEKÇİNİN TERS YÜZÜ ─────────────────────────────────
+# 🔴 2 Eylül 2026: yukarıdaki listenin ÜÇ vakası "artık yakalanmıyor" diye
+# ötüyordu. OPUS 102 çatalı ölçtü — bekçinin kendi cümlesiyle:
+#     "son değişikliği geri al ya da vakanın gerçekten DÜZELTİLDİĞİNİ
+#      DOĞRULA; ikisi aynı şey değildir."
+# Ölçüm: ÜÇÜ DE (b) — VERİ DÜZELDİ, gerileme YOK. Beklenen yerleşimin kendi
+# kırılması artık VERİDE VAR:
+#     Aydın      1422-01-01  d-kayıp + s-kazanç(aydin)
+#     Kefalonya  1479-08-01  d-kazanç + s-kayıp(napoli)
+#     Mekke      1803-04-30  v-kayıp + s-kazanç(suud)
+# Ve Mekke en güçlü biçimde ödenmiş: bekçinin aradığı `1803-05-15` diye bir
+# madde ARTIK YOK — birleşik madde İKİ GERÇEK OLAYA bölünmüş (1803-02-01
+# Tâif · 1803-04-30 Mekke) ve zincirin tamamı yazılmış (1803 alınış ·
+# 1803-08-06 geri alış · 1806-01-01 tekrar kayıp · 1813-01-23 geri alış).
+# ⇒ Kusur "kapatılmadı", ÇÖZÜLDÜ. (`denetim/BULGU-BEKCI-CATAL-OK102.md`)
+#
+# 🔴 AMA ÜÇÜNÜ LİSTEDEN SİLİP GEÇMEK KORUMA KAYBIDIR: yarın biri Mekke'nin
+# 1803-04-30 kırılmasını silse ya da iki maddeyi yeniden birleştirse
+# HİÇBİR ŞEY ÖTMEZ. Bekçiyi silmek yalan güven, bırakmak yalan alarm.
+# ⇒ ÜÇÜNCÜ YOL: soru TERSİNE ÇEVRİLİYOR.
+#     DOGURAN_VAKALAR  "bu kusur HÂLÂ yakalanmalı"        (açık borç)
+#     ODENMIS_VAKALAR  "bu kusur ARTIK OLMAMALI, ve ödemenin KENDİSİ
+#                       (şu kırılma) VERİDE DURMALI"      (ödenmiş borç)
+# 📌 `CLAUDE.md §11`in *"kabul edilmiş bir borç kayıtsız kalırsa yarın kusur
+#    diye yeniden bulunur"* dersinin TERS YÜZÜ: ödenmiş bir borç da kayıtsız
+#    kalırsa yarın GERİ ALINABİLİR ve kimse fark etmez. Kayıt iki yöne de
+#    gerekiyor — ve `if` ile sorulabilir olmalı (§11 ⑪).
+ODENMIS_VAKALAR = [
+    # (yerleşim, ödemenin kırılma günü, ödeme biçimi)
+    ("Mekke", "1803-04-30",
+     "birleşik madde İKİYE BÖLÜNDÜ (1803-02-01 Tâif · 1803-04-30 Mekke); "
+     "zincir 1803/1806/1813 modellendi"),
+    ("Aydın", "1422-01-01",
+     "Aydın'ın kendi kırılması yazıldı (d bitiş → s:aydin)"),
+    ("Kefalonya", "1479-08-01",
+     "Kefalonya'nın kendi kırılması yazıldı (d kazanç, s:napoli kayıp)"),
 ]
 
 
@@ -460,6 +496,28 @@ def b_defteri(yok, yaz=False):
     return _defter(B_DEFTERI,
                    {"%s|%s" % (t, (y or "?")): b for t, y, b in yok},
                    yaz, _B_NOT)
+
+
+def odenmis_vaka_sinamasi(Y):
+    """ÖDENMİŞ borç GERİ ALINDI mı? — bekçinin ters yüzü.
+
+    Soru: ödemenin kendisi (o kırılma) VERİDE hâlâ duruyor mu?
+    ⚠️ `bit:`/`kur:` bakılmaz — kırılmanın VARLIĞI sorulur, geçerliliği değil;
+    kayıt silinirse ya da günü kaydırılırsa bu blok öter.
+    """
+    geri_alinan = []
+    for ad, gun, nasil in ODENMIS_VAKALAR:
+        var = False
+        for y in Y:
+            if y["ad"] != ad:
+                continue
+            for kat in ("d", "v", "s"):
+                for p in (y.get(kat) or []):
+                    if p.get("f") == gun or p.get("t") == gun:
+                        var = True
+        if not var:
+            geri_alinan.append((ad, gun, nasil))
+    return geri_alinan
 
 
 def doguran_vaka_sinamasi(eksik):
@@ -595,6 +653,21 @@ def main():
         print( "        düzeltildiğini DOĞRULA; ikisi aynı şey değildir.")
     else:
         print(f"  ✓ {len(DOGURAN_VAKALAR)}/{len(DOGURAN_VAKALAR)} doğuran vaka hâlâ yakalanıyor")
+
+    geri = odenmis_vaka_sinamasi(Y)
+    print()
+    print("=== ÖDENMİŞ VAKA SINAMASI — bekçinin ters yüzü ===")
+    print( "    Ödenmiş bir borç KAYITSIZ kalırsa yarın geri alınabilir ve")
+    print( "    kimse fark etmez. Bu blok ödemenin KENDİSİNİ bekler.")
+    if geri:
+        ihlal += 1
+        print(f"  ✗ {len(geri)}/{len(ODENMIS_VAKALAR)} ÖDEME GERİ ALINMIŞ:")
+        for ad, gun, nasil in geri:
+            print(f"      {ad} — {gun} kırılması VERİDE YOK   ({nasil})")
+        print( "      → ödeme silinmiş ya da günü kaymış olabilir; kaydı")
+        print( "        bulup DOĞRULA, gerekiyorsa ODENMIS_VAKALAR'ı güncelle.")
+    else:
+        print(f"  ✓ {len(ODENMIS_VAKALAR)}/{len(ODENMIS_VAKALAR)} ödeme veride duruyor")
 
     print()
     print("SONUÇ:", "temiz ✓" if not ihlal else f"İHLAL VAR ({ihlal} başlık) — çıkış kodu 1")
