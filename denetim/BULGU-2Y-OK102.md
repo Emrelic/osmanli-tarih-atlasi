@@ -172,7 +172,95 @@ doğuran vakayı silmiş olabilir"* diye itiraz ediyor. **Ben dokunmadım**
 
 ---
 
-## 7. NE ÖLÇMEDİM
+---
+
+# İKİNCİ TUR — KOORDİNATÖRÜN İKİ EKİ (2 Eylül 2026)
+
+## 8. ② KUYRUK KOVASI — ve BU EK ÖLÇÜMÜ KÖKTEN DEĞİŞTİRDİ
+
+Uyarı doğruydu ve **doğuran vakanın kendisinde** kanıtlandı:
+```
+çekirdek  data/olaylar*.js     29 dosya · 1291 madde
+KUYRUK    data/kronoloji*.js   42 dosya · 4838 madde · %75,1'inde yer_id
+          (42 dosyanın 42'si ayrıştırıldı, BOZUK 0)
+```
+**İki kova birleştirilmedi** — `Değişmez 2`nin ölçütü çekirdektir ve onu
+değiştirmek bu aracın yetkisi değil. Yerine **iki aşamalı huni** kuruldu:
+```
+AŞAMA A  Değişmez 2 ne eşleştirdiyse o — hüküm kademesi AYNI
+AŞAMA B  eşleşmeyenler için: doğru madde HERHANGİ bir kovada var mı?
+```
+
+### 🟢 VE AŞAMA B DOĞURAN VAKAYI MAKİNEYLE KAPATTI
+`--sinav` çıktısından, aletin kendi ağzından:
+```
+ATEŞLEME-1 ✓ 1578-08-09 EŞLEŞMİYOR kovasında (yer_id=Ardahan, "Çıldır Zaferi")
+   ve AŞAMA B doğru maddeyi buldu:
+   (15 gün, 'kuyruk', "Tiflis'in Lala Mustafa Paşa tarafından fethi", 1578-08-24)
+```
+⇒ Artık *"doğru madde var, 15 gün ötede, kuyrukta"* hükmü **elle değil
+aletle** veriliyor.
+
+### HUNİNİN SAYILARI — ve 128'in üçte biri sahte çıktı
+```
+EŞLEŞMİYOR                        128
+  🟡 doğru madde BAŞKA yerde       30   çekirdek 15 · kuyruk 15
+     ⇒ GERÇEK AÇIK DEĞİL: madde var, EŞLEŞTİRME yanlış
+  🔴 hiçbir kovada yok             98   ← gerçek açık
+       mesafe kademesi: temsilî 38 · uyarı 27 · ŞÜPHELİ 33 · çözülemedi 0
+```
+🔴 **VE 30'UN İÇİ, KUSURUN NEREDE OLDUĞUNU SÖYLÜYOR:**
+```
+1299-01-01  yer_id=Söğüt   "Osmanlı Beyliği'nin kuruluşu"
+            ⤷ DOĞRUSU ÇEKİRDEKTE, AYNI GÜN (0g): "Bilecik ve Yarhisar'ın gece baskını"
+1417-01-01  yer_id=Manama  "Bahreyn adalarının Cebrîler'e geçmesi"
+            ⤷ DOĞRUSU ÇEKİRDEKTE, AYNI GÜN (0g): "Avlonya, Berat ve Kanina'nın fethi"
+1513-01-01  yer_id=Gelibolu "Pîrî Reis'in dünya haritası"
+            ⤷ DOĞRUSU ÇEKİRDEKTE, AYNI GÜN (0g): "Sin (Sinj) Kalesi'nin fethi"
+```
+⇒ Doğru madde **aynı gün, aynı kovada** duruyor ve eşleştirici onu seçmiyor.
+**Kusur veride değil, EŞLEŞTİRME ÖLÇÜTÜNDE:** `Değişmez 2` yalnız *en yakın
+GÜNE* bakıyor; aynı gün birden çok madde varsa hangisini aldığı rastlantı.
+🟢 **Tek satırlık çare (öneri, uygulamadım — `denetle.py` benim dosyam değil):**
+*±30 gün içindeki maddeler arasında, `yer_id`si kırılmanın yerleşimlerinden
+birini gösteren VARSA onu tercih et.* Bu 30 satırın en az yarısını tek
+hamlede kapatır ve `Değişmez 2`nin hükmünü hiç değiştirmez.
+
+## 9. ① YÖN EKSENİ — dal çalışıyor, ama vaka BUGÜN ÜREMİYOR
+
+Sözlük ölçülerek kuruldu: `k:` fetih 272 / kayip 165 · `etiket:`
+toprak-kazanc 365 / toprak-kayip 218 / toprak-kaybi 3.
+```
+yeri DOĞRU olan 383 satıra soruldu:
+  🔴 YÖN ÇELİŞKİSİ    3
+  ⚠️  YÖN BİLİNMİYOR 26   madde yönünü söylemiyor — "çelişki yok" DEĞİL
+```
+Üçü de aynı sınıf — **Osmanlı kaybediyor, madde ötekinin kazancını anlatıyor**:
+```
+1402-07-28  kayıp ↔ kazanç   "Ankara Savaşı — Fetret Devri başladı"
+1821-03-25  kayıp ↔ kazanç   "Yunan İsyanı başladı"
+1832-11-22  kayıp ↔ kazanç   "Emîr Abdülkādir'in devletinin kuruluşu"
+```
+⇒ Bunlar **yanlış eşleşme değil, bakış açısı farkı.** Kayıt ediyorum ama
+şüpheli saymıyorum; `k:`/`etiket:` sözlüğünün yönü *kimin* açısından
+söylediği yazılı değil — bu bir **şema borcu** (VERI-YAPISI.md).
+
+### 🔴 PAKET-0033'ÜN TEBRİZ VAKASI BENDE ÜREMEDİ — ölçtüm, aktarmadım
+Şartname *"Tebriz 1514-09-15 ÇIKIŞ → Tebriz'e GİRİŞ maddesi"* diyordu.
+Bugünkü veride ölçüm:
+```
+Tebriz  d: 1514-09-06 → 1514-09-15   (tek dönem)
+1514-09-06  kazanç ↔ "Yavuz Sultan Selim'in Tebriz'e girişi"   (k=fetih)   ✓ EŞLEŞİYOR
+1514-09-15  kayıp  ↔ "Tebriz'den çekiliş — bir haftalık işgalin sonu"     ✓ EŞLEŞİYOR
+YÖN ÇELİŞKİSİ listesinde 1514: YOK
+```
+⇒ **İki kırılmanın ikisi de doğru maddeye eşleşiyor.** Vakaları ayıran şey
+ya farklı bir eşleştirici ya da daha eski bir veri hâli. **Hükmü ben
+vermiyorum**; PAKET-0033'e tahtadan soruldu.
+🟢 Ama dalın kendisi çalışıyor: `--sinav` sahte bir vakayla (kırılma KAYIP,
+madde `k:fetih`) **zorlanarak** ateşlendi ve öttü (`C13`).
+
+## 10. NE ÖLÇMEDİM (ikinci tur)
 
 - `--s` (yabancı `s:` kırılmaları) **koşturulmadı** — `Değişmez 2s`nin kendi
   tavanı ve kapsam-dışı kovası var; onunla birleştirmeden sayı üretmek
