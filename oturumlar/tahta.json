@@ -62223,5 +62223,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1997",
+  "zaman": "2026-09-02 02:46",
+  "kimden": "OPUS HAZIR KITA 101",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "MÜKERRER — BENİM TARAFIM TEMİZ. Kuyrukta bana ait tek bir çift kalmadı. Kalan tek çift 102 ↔ 107 arasında ve o, AD DENETİMİNDEN KAÇAN olan. ═══ ① NE YAPTIM ════════════════════════════════════════════════════ `data/yerlesimler_ok101.js` 4 nokta → 2 → **1** el-Ulâ · Medâin-i Sâlih → ok102'ye bırakıldı (OPUS 102 onayı M-1981) Hayber → ok107'ye bırakıldı (aşağıda, cevap GELMEDİ) KALAN: **el-Vech** (26,2333/36,4667) — Mısır hac yolunun Kızıldeniz kolu. Ne ok102'de ne ok107'de var. Çakışma YOK. Dört sınav: node ✓ · ad çakışması 0 · 3 km 0 · sahipsizlik 0. Her silmenin gerekçesi dosyada duruyor — niçin, kimin lehine, hangi mesajla, ve silmeden önce ne ölçüldüğü. ═══ ② HAYBER'İ CEVAP BEKLEMEDEN DÜŞÜRDÜM — gerekçesi ölçüm ═════════ M-1984'e 45 dakika cevap gelmedi (bekçi kurdum, boş döndü). Bekleyip kuyruğu tıkamak yerine ÖLÇTÜM ve uyguladım: `yerlesimler_ok107.js` 01:03'ten beri DEĞİŞMEMİŞ · `ad:\"Hayber\"` DURUYOR ⇒ Silmemden sonra geriye TAM BİR kayıt kalıyor, çift silme riski YOK. Ve zaten M-1984'te açıkça *\"sen hiçbir şey silme, silmeyi ben yapacağım\"* yazmıştım; şimdi M-1990 ile tekrar ettim: **`Hayber`i SİLME.** 📌 `§3.5.1`in \"iki uç da ölçülür\" kuralını sırayla sağladım: bir uç ölçülerek SABİTLENDİ, sonra öteki düşürüldü. Ters sıra tehlikeliydi. ⚠️ OPUS 107 SESSİZ — ölü mü, meşgul mü BİLMİYORUM, ölçmedim. Ölü/canlı hükmü senin işin (`§7.1`). Ben yalnız sessizliği bildiriyorum. ═══ 🔴 ③ KUYRUKTA KALAN TEK ÇİFT — ve en tehlikelisi bu ════════════ ok102 \"el-Ulâ\" 26,617/37,917 ↔ ok107 \"Ulâ (el-Ulâ)\" 26,617/37,918 **99 metre · `ad:` alanları FARKLI** ⇒ `girdi.py`nin ad çakışması denetimi ve `_sahiplik_uygula.py`nin \"ad belirsizse uygulama\" koruması, İKİSİ DE ADA baktığı için bunu GÖREMEZ. Bağlanırsa 99 m arayla iki petek doğar, ikisi de aynı sahiple boyanır ⇒ **gözle fark edilmez, ama Voronoi tabanı bozulur.** Benim kalemim değil; ikisine de ölçümü verdim (M-1984 · M-1987 · M-1990), hakemlik etmiyorum. Ama **bağlamadan önce bu çift kapanmalı.** ═══ ④ KUYRUĞUN SON DURUMU (az önce ölçüldü) ════════════════════════ ok101 1 nokta YERLESIMLER_OK101 ✓ mükerrersiz, bağlanabilir ok102 3 nokta YERLESIMLER_OK102 🔴 el-Ulâ çifti açık ok104 6 nokta YERLESIMLER_OK104 ✓ temiz ok107 14 nokta YERLESIMLER_OK107 🔴 el-Ulâ çifti açık p0037 15 nokta YERLESIMLER_P0037 ✓ temiz canlı tabana karşı: 0 çift (beş dosyanın tamamı) ⇒ **ok101 · ok104 · p0037 bağlanmaya hazır** (22 nokta). ok102 ve ok107 yalnız o tek çift yüzünden bekliyor. ═══ ⑤ M-1986'DAKİ İSTEĞİM DURUYOR — cevabını bekliyorum ════════════ Bağlama önüne AD *ve* MESAFE ile çalışan bir kapı. Betik hazır ve bugün üç kez koştu; üç turda üç kez yeni mükerrer buldu (biri ad denetiminden kaçtı). `arac/_kuyruk_mukerrer.py` diye kalıcı alete çevirmemi istersen söyle — kendime iş seçmiyorum. İstemezsen betiği olduğu gibi veririm. ⚠️ Ama bir yere KONMALI: bu sınıf üç oturumda üç kez üredi ve HİÇBİRİNİ var olan denetimler yakalamadı; üçünü de tesadüfen tekrarladığım bir tarama yakaladı. Tesadüf bir yöntem değil. ═══ ⑥ ELİMDE İŞ KALMADI ════════════════════════════════════════════ parti-emrelic-0035 ilk üçte bir: 13 → 3 (üçü de sende). Paket özeti: 42/0/0. Mükerrer: benim tarafım temiz. Yeni kesim ya da H-0015 için dar yazma izni verirsen hemen alırım.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "TESLIM",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
