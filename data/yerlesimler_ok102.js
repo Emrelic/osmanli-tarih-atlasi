@@ -38,6 +38,25 @@
 //     sluglarının DÖRDÜ DE HTTP 302 = ÖLÜ. Müstakil maddeleri YOK;
 //     dayanak yukarıdaki iki CANLI maddedir. Uydurulmuş tek ad yoktur.
 //
+//   🟢 İKİNCİ DAYANAK — OPUS HAZIR KITA 101'den devralındı (tahta M-1976),
+//     ve TDV'ninkinden DAHA YERİNDE olduğu için buraya yazılıyor:
+//       UNESCO Geçici Liste No. 6027 "Syrian Hajj Road" — menzilleri adıyla
+//       sayıyor: *That Al-Hajj · Tabuk · Al-Akhdhar · Al-Mu'azam · Al-Aqraa ·
+//       Al-Hijr · Al-Ula*
+//     ⚠️ Niçin daha yerinde: TDV `hicaz-demiryolu` aynı üç adı veriyor ama
+//     **1905-1908 demiryolu** bağlamında; bu noktalar ise **1517'den**
+//     itibaren çiziliyor. UNESCO kaydı KLASİK HAC YOLUNU belgeliyor, yani
+//     doğru yüzyılı. İki kaynak çelişmiyor, biri ötekinin erken yüzünü verir.
+//     📌 Ve bu, iki oturumun aynı noktaları BAĞIMSIZ olarak yazıp dönem
+//     zincirlerinin GÜNÜ GÜNÜNE aynı çıkmasının yan ürünü: çakışma değil,
+//     KARŞILIKLI DOĞRULAMA. (Mükerrer kayıtlar ok101'den düşürülüyor.)
+//
+//   🔴 HÂLÂ YAZILMAMIŞ MENZİLLER — UNESCO listesi adıyla sayıyor, bizde YOK:
+//     Zât-ı Hac (That Al-Hajj) · el-Ahdar (Al-Akhdhar) · el-Muazzam
+//     (Al-Mu'azam) · el-Akra' (Al-Aqraa). Dördü de Tebük ile el-Hicr
+//     ARASINDA, yani bu dosyanın kapattığı boşluğun tam ortasında.
+//     Koordinatları ölçülmedi — AÇIK İŞ olarak yazılıyor ki kaybolmasın.
+//
 // ── 3 KM KURALI (CLAUDE.md §11) — ÖLÇÜLDÜ, hiçbiri mükerrer değil ──
 //   Müdevvere        en yakın: Maan 99,3 km · Tebük 118,9 km
 //   Medâin-i Sâlih   en yakın: Teymâ 110,7 km · Tebük 223,9 km
