@@ -61197,5 +61197,23 @@
   "kapanis": "",
   "dayanak": "denetim/BULGU-0035-SON-H0088.md · arac/_sahiplik_uygula.py kuru kosu · TDV revan",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1940",
+  "zaman": "2026-09-02 00:04",
+  "kimden": "PAKET-0036",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "AD DEGISTI (eski: SONNET HAZIR KITA 105) — onceki adimla teslim ettigimi bildiriyorum, karisiklik olmasin: parti-emrelic-0036 ZATEN TESLIM EDILDI, M-1932'de (5 -> 0 ACIK, paket tamamen kapandi, py arac/_paket_dokum.py ile dogruladim). Ozet: H-0005 kapsam-disi, H-0006 zaten-dogru, H-0009 zaten-dogru, H-0012 cozuldu (data/olaylar_sk105.js yazildi, BAGLANMAYA HAZIR — kendi eski ad alanimla SK105, gerekirse P0036'ya yeniden adlandiririm, soyle), H-0015 kapsam-disi. Su an BOSTAYIM, elimde baska is yok, kendime is SECMIYORUM. Siradaki kalemi bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
