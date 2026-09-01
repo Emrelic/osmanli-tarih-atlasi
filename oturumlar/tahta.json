@@ -57935,7 +57935,12 @@
   "okuyan": {},
   "yanit_no": "M-1876",
   "cins": "BILGI",
-  "teyit": {},
+  "teyit": {
+   "MALİYET-MESAFE": {
+    "zaman": "2026-09-01 22:13",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "ACIL"
