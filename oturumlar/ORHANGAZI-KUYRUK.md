@@ -873,3 +873,71 @@ fotoğrafladı, sonra 4 kayıt yazıldı: `Widyân · Nuhayb` (Necef dolgusu) ·
 Emre'nin 27 Ağustos tavan kararı 28'inde ölçümle geri alındı (haklı
 olarak), gerekçe koda yazıldı, **ama ona söylenmedi** — 31 Ağustos'ta
 hâlâ yürürlükte sanarak sordu.
+
+
+---
+
+## 🔴 DEVİR EKİ — MALİYET-MESAFE'nin bıraktığı İKİ UYARI
+
+Oturum kapanmadan önce bağlamındaki örtük bilgiyi diske indirdi
+(`27b07a9` · `denetim/BULGU-MALIYET.md §5`) ve iki şeyi **devir
+brifingine konmasını istedi.**
+
+### ⚠️ ① `arac/maliyet.py` DEĞİŞTİ — "15 Ağustos prototipi" SANMA
+```
+30 Ağustos'ta dokunuldu:
+  · DEM artık SEÇİLEBİLİR (--dem)
+  · GÖLLER KAPATILDI  (Aşama 1'de bulunan göl kusuru düzeltildi)
+  · ERİŞİM METRİĞİ eklendi
+  · --gun anahtarı eklendi
+  · surtunme_sec() eklendi
+```
+🔴 Taze oturum dosyayı eski hâliyle okursa **eski varsayımlarla yanılır.**
+`BULGU-MALIYET.md §5` tekrar komutlarını taşıyor — ölçüm tablosunu
+yeniden üretmek için oradaki **kutu KOORDİNATLARI** şart (tabloda yalnız
+adlar vardı: dağ/çöl/Sardinya/Kefalonya — adım ve gün de sonucu
+değiştiriyor).
+
+### ⚠️ ② TRAKYA SINIR KOLU DA O OTURUMDAYDI — üç karar SENDE bekliyor
+`HAZIR KITA OPUS 86` kimliğiyle yürütülmüş; tamamı diskte:
+`denetim/BULGU-SINIR-TRAKYA.md §1-11`.
+```
+① koordinat kaynağı YETKİSİ    (gazetteer indirme — Emre B'yi seçti,
+                                 ama Trakya kolu için ayrıca teyit gerek)
+② `ikiz:` istisnası            karar bekliyor
+③ dar kesimlerin kapsamı       karar bekliyor
+```
+
+### 🟢 VE OTURUMUN KENDİ HÜKMÜ — devir için ölçülmüş gerekçe
+> *"Bunları yazdıktan SONRA bağlamımda eşsiz bir şey KALMADI. Aşama 3'e
+> hiç başlamadım, yani yarım kalmış bir akıl yürütme de taşımıyorum.
+> 'Bağlamım kıymetli' demek kolay olurdu ama ölçüm bunu desteklemiyor.
+> Taze bir oturum `BULGU-MALIYET.md §5`'ten aynen devam eder ve daha
+> ucuza çalışır."*
+
+### 🔴 VE BİR ENGEL — AŞAMA 3 BENDE TIKALIYDI, kayda geçiyor
+Oturum Aşama 2'yi teslim edip **öncelik sordu** (hız mı, çöl freni mi) ve
+koordinatör (ben) cevaplamadı. **19 saat bekledi.**
+📌 İki taraflı ders, ikisi de yazılı:
+```
+işçi  "sormak yerine hızı ölçüp sonucu sunmalıydım; öncelik sorusu
+       işi BLOKE ETMEMELİYDİ"     ← oturumun kendi tespiti
+koord bir oturumun sorusu cevapsız kalırsa iş DURUR. Bekçim de ötmedi;
+      Emre sormasa görmeyecektim.  ← benim kusurum
+```
+
+### AŞAMA 3'ÜN İŞ TARİFİ — oturumun kendi ölçümüyle
+```
+hız bedeli          ~2 ölçüm  (hücre sayısı ↔ süre eğrisi, atlas
+                               penceresine ölçeklenir)
+çöl freni bağlama   ~1 ölçüm
+bağlama önerisi     ~1 tur
+TOPLAM              3-4 ölçüm
+```
+⚠️ **Aşama 3'ün tuzağı** (oturumun uyarısı): *ölçülecek süre YÖNTEMİN
+değil BU UYGULAMANIN süresidir* (saf Python Dijkstra). Karıştırılırsa
+**yöntem haksız yere reddedilir.**
+⚠️ Ve iki şey **ölçülemez, yalnız tahmin edilebilir** — öyle işaretlensin:
+`uret_petek.py` kilitliyken gerçek entegrasyon maliyeti · `COL_PUAN_ESIK`
+prototipe bağlı olmadığı için *"emniyet kemeri çöl freni olmalı"* önerisi
+**bağlanmadan doğrulanamaz.**
