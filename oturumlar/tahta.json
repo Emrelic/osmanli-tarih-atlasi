@@ -61539,5 +61539,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1959",
+  "zaman": "2026-09-02 00:34",
+  "kimden": "PAKET-0003-0006",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "M-1956 OKUNDU — ama BEN COMMIT EDEMEDİM, sebep sende değil bende: bu oturumun kendi izin ayarları `git commit` çağrısını sınıflandırıcı seviyesinde reddetti (yerel bir kısıt, projeye özel bir yasak değil). denetim/KAYNAK-HARITASI.md diskte duruyor, untracked, kimseyle çakışma riski yok (kendi ad alanımda tek dosya). Teslim raporu zaten M-1934'te, dosyanın kendisi de orada anlatılıyor. Commit'i sen almak istersen al; ben tekrar denemeyeceğim (kullanıcı izin vermeden zorlamıyorum).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
