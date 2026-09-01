@@ -778,3 +778,98 @@ Murzuk k2 → tavan 420 km, 390 km ötede ⇒ YETİŞİYOR, boşluğu dolduruyor
 🟢 Emre'nin *"orada koridor yok, enklav yok"* gözlemi ÖLÇÜMLE DOĞRULANDI
 (B2 eşiği 250 km, Gât 317 km ötede ⇒ köprü kurulmuyor).
 ⇒ **Sebep A1 yarıçap tavanı** — yani tavan kalkınca bu vaka da kapanır.
+
+
+---
+
+# 1 EYLÜL · BAYRAK DEVRİ — devralan koordinatörün İLK EKRANI
+
+> Tahtayı baştan okuma. Bu bölüm yeter. Yazan: ORHANGAZİ, devir anında.
+
+## DURUM — bir cümle
+Koşu bitti, **yayın r4391 canlıda**, sekiz iş kolunun sekizi de teslim
+etti. Sıradaki işler taze başlıyor; bu yüzden devir yapıldı.
+
+## 🟢 YAYINDA OLAN (r4391 · `bbb902a`)
+```
+17 kimliğin rengi açıldı   bizans #0f0f5d → #281e6f (Emre'nin "gölge" şikâyeti)
+344 hayalet Çarlık Rusyası dönemi düzeltilmiş
+52 dosyalık veri borcu · dünya penceresi · eğim DEM dünya kapsamı
+```
+⚠️ **DÖRT KAYIT GERİDE** — Emre onayıyla (a şıkkı). Koşu girdiyi 18:53'te
+fotoğrafladı, sonra 4 kayıt yazıldı: `Widyân · Nuhayb` (Necef dolgusu) ·
+`Şeyhrumi · Şeyh Salû-yi Ulyâ` (sınır çifti). Sonraki koşuda kapanır.
+
+## 🔴 DAĞITIM LİSTESİ — sırayla, gerekçeleriyle
+
+```
+① MALİYET-MESAFE AŞAMA 3        ← EN BÜYÜK · devam eden tek iş
+   Aşama 1-2 BİTTİ: DEM bağlandı · GÖL KUSURU bulunup düzeltildi ·
+   eğimin payı İLK KEZ ölçüldü.
+   🔴 VE KOORDİNATÖRÜN HİPOTEZİ ÇÜRÜDÜ: "maliyet-mesafe tavanın yerini
+      alır" YANLIŞ — erişimi yalnız −%12 kısıyor, hâlâ kaldırılan
+      tavanın 2,5 KATI. ⇒ EMNİYET KEMERİ ZORUNLU.
+   🟢 Ama daha iyi bir öneri çıktı: **emniyet kemeri ÇÖL FRENİ olmalı,
+      yarıçap tavanı DEĞİL** — çünkü TAVAN_KM'i geri koymak
+      maliyet-mesafenin sahiplendiği hücreleri yine sahipsizleştirir.
+   ⇒ AŞAMA 3: çöl freni tasarımı + `uret_petek.py`ye bağlama ÖNERİSİ
+      (uygulamayı koordinatör yapar; o dosya parmak izli)
+   📌 Bu oturumun bağlamı DEĞERLİ (iş ortasında) — devir raporu istendi.
+
+② ÜÇ DOSYAYI BAĞLA — SONRAKİ KOŞU BAŞLAMADAN ÖNCE
+   yerlesimler_4ff22b.js · amerika2.js · hindistan.js  (2'şer nokta)
+   Renkleri HAZIR (hawaii-kralligi · merina · farukiler · apaci-ovalar ·
+   komanci). `girdi.py` VE `index.html`, İKİSİ BİRDEN.
+   🔴 KAYIT ÜÇÜNCÜ KEZ BAYATLADI: `denetle_yayin.py:955-975` bunları
+      "6. koşunun İLK işi" diyor ve o koşu geldi geçti.
+   ⚠️ KURAL: **"Anlık görüntü YAZABİLİRSİN der, BAĞLAYABİLİRSİN demez."**
+      Koşu BAŞLAMADAN önce bağla; sonra bağlamak yayını BAYAT yapar.
+
+③ PAKET TRİYAJI — 180 açık
+   MOTOR 62 **ARTIK AÇIK** (koşu bitti, engel kalktı).
+   VERI 40 · KRONOLOJI 36 · ARAYUZ 24 · DEVLET 8 · SAVAS 5 · RENK 5
+   Ölçülmüş hız: triyaja yöneltilmiş 3 oturum ≈ 30/gün.
+
+④ 1923 ÇIPASI — yöntem TUTTU, ötekilere yay
+   KUZEY-A çifti: sapma **7,29 → 0,73 km** (10 kat). Doğu kolu bitti.
+   Kalan: Güney (Suriye-Irak) · Trakya/Balkan · dünya.
+   ⚠️ Rehber (gazetteer) kararı: Emre **B**'yi seçti — tam dünya indir,
+      YALNIZ sınır yerleşimlerini süz, ham dosya depoya GİRMEZ.
+      `denetim/BULGU-YOL-VERISI.md` okunmalı (henüz koordinatör okumadı).
+
+⑤ KORİDOR — kapsam kararı: Emre **(a) karma yol**u seçti
+   Osmanlı kuşağında OWTRAD (gerçek menziller), dünyada DEM'den TÜRET.
+   ⚠️ "Koridor" adı İKİ ayrı mekanizmada: `_b3_koridor_kirp()` (geometri)
+      ve `data/koridor*.js` (menzil ağı). Karıştırma.
+
+⑥ GÂT ÇIKINTILARI — sebep ölçüldü, ÇARE tavan kalkınca gelir
+   Gât k4 (tavan 140 km) · Ubârî 317 km · Murzuk k2 (420 km) boşluğa
+   yetişiyor ⇒ Gât'ın 140 km'lik DAİRESİ gövdeye yapışıyor, iki omuz
+   çıkıyor. B2 köprüsü DEVREDE DEĞİL (eşik 250 km).
+   ⇒ ①'in çözdüğü sınıf. Ayrı iş açma.
+```
+
+## ⚠️ DEVRALANA ÜÇ UYARI — bugün bunlara çarptım
+
+```
+① ŞEMAYI TAHMİN ETME, VERİYE BAK
+   `lat`/`lon` (x/y değil) · `kimden` (kim değil) ·
+   HUKUM-*.json üst seviye {paket:{madde:{hukum}}} (maddeler sarmalayıcı YOK)
+   Üçü de sessizce boş sonuç verdi; biri bir oturumu haksız yere ölü ilan ettirdi.
+
+② İKİ ALET ZIT ÖĞÜT VEREBİLİR
+   `_bagli_mi.py` "bağla" dedi, `denetle_yayin.py` "kasten bekliyor" diyordu.
+   Önce koşturduğuma uydum, geri almak zorunda kaldım.
+   ⇒ Bir aletin öğüdünü uygulamadan önce ÖTEKİNİN aynı dosya hakkında
+     ne dediğine bak.
+
+③ TAHTA, BOŞTA DURAN OTURUMU UYANDIRMIYOR
+   `send_message` şart. Tahtaya yazılan bir görev 4 saat SAHİPSİZ kaldı.
+```
+
+## 📌 VE BİR YÖNETİM KURALI — bugün doğdu
+> **Kullanıcının ADIYLA verdiği bir karar geri alınacaksa, geri alma ONA
+> BİLDİRİLİR — koda yazmak yetmez.**
+Emre'nin 27 Ağustos tavan kararı 28'inde ölçümle geri alındı (haklı
+olarak), gerekçe koda yazıldı, **ama ona söylenmedi** — 31 Ağustos'ta
+hâlâ yürürlükte sanarak sordu.
