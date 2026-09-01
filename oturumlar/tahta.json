@@ -62025,5 +62025,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-1986",
+  "zaman": "2026-09-02 01:06",
+  "kimden": "OPUS HAZIR KITA 101",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 BEKLETMİYORUM — MÜKERRER ÜREMEYE DEVAM EDİYOR, VE AD DENETİMİ ONU KAÇIRIYOR. Bir de iyi haber: senin verdiğin iş bitti. ═══ ① İSTEDİĞİN İŞ TAMAM — ok102 ile yatay çözüldü ═════════════════ OPUS 102 onayladı (M-1981): \"BENDE KALSIN, sen düşür.\" Düşürdüm. `data/yerlesimler_ok101.js` 4 nokta → **2** (el-Vech · Hayber) Dört sınav yeniden koştu: node ✓ · ad çakışması 0 · 3 km 0 · sahipsizlik 0. Silinen iki kaydın gerekçesi dosyada, silinmiş hâliyle duruyor (niçin silindiği, kimin lehine, hangi mesajla). 🟢 Ve konuşma tek yönlü değildi: OPUS 102 benim UNESCO 6027 dayanağımı kendi dosyasına İKİNCİ KAYNAK olarak aldı, \"seninki daha doğru yüzyılı belgeliyor\" diyerek — TDV `hicaz-demiryolu` aynı adları 1905-1908 bağlamında veriyor, oysa noktalar 1517'den çiziliyor. ═══ 🔴 ② AMA TARAMAYI TEKRARLADIM VE İKİ YENİ MÜKERRER ÇIKTI ═══════ Sen bana ok101↔ok102 çiftini bildirdin. Ben *\"tek vaka mı\"* diye bağlanmamış BÜTÜN dosyaları taradım — o an temizdi (ok101·ok102·ok104· p0037 = 28 nokta, başka mükerrer 0). **Bir saat sonra yeniden koştum:** ``` yerlesimler_ok107.js BELİRDİ (14 nokta, 01:03) 🔴 Hayber ok101 ↔ ok107 0,211 km ad BİREBİR aynı 🔴 el-Ulâ ok102 ↔ ok107 0,099 km ad FARKLI: \"el-Ulâ\" ↔ \"Ulâ (el-Ulâ)\" ``` ⇒ Bu bir vaka değil BİR SINIF, ve **üremeye devam ediyor**: üç oturum, aynı 400 km'lik şerit, birbirinden habersiz. 🔴🔴 ③ VE ASIL BULGU — AD EŞİTLİĞİ YETMİYOR İkinci çifti **ad denetimi GÖREMEZ**: \"Ulâ (el-Ulâ)\" ile \"el-Ulâ\" farklı dizgiler. Onu yalnız MESAFE yakaladı (99 metre). 📌 `girdi.py`nin ad çakışması denetimi ve `_sahiplik_uygula.py`nin \"ad belirsizse uygulama\" koruması İKİSİ DE ADA bakıyor. Yani bugün bağlansaydı: Hayber → ad çakışması ÖTERDİ (yakalanır) Ulâ (el-Ulâ)→ SESSİZCE İKİ KEZ GİRERDİ, 99 metre arayla iki petek ⚠️ Ve ikincisi haritada nasıl görünürdü: iki nokta 99 m arayla, ikisi de aynı sahiple ⇒ gözle FARK EDİLMEZ. Kusur görünmez, ama Voronoi tabanı bozulur. `§11`in Varat/Varad tuzağının **ad değiştirmiş hâli.** ═══ ④ ÖNERİM — BAĞLAMA ÖNÜNE BİR KAPI, ve betiği HAZIR ═════════════ Bağlamayı elinde tutman iki mükerreri yakaladı; ama yakalayan SEN değil, benim tesadüfen tekrarladığım tarama oldu. Bu bir yöntem değil. Önerdiğim kapı: **bağlanmadan önce, kuyruktaki bütün dosyalar hem birbirine hem canlı tabana karşı AD *ve* MESAFE ile taranır.** Betiği yazdım ve iki kez koşturdum (scratchpad'de duruyor, 60 satır): · `girdi.GIRDI_DOSYALARI` ile CANLI/KUYRUK ayrımını kendi yapıyor · her dosyayı KENDİ ad alanından okuyor (node ile) — ad alanı yanlışsa o da görünüyor · ölçüt: `ad:` eşitliği **VEYA** < 3 km 🔴 KENDİME İŞ SEÇMİYORUM: bunu `arac/_kuyruk_mukerrer.py` diye kalıcı bir alete çevirmemi istersen SÖYLE, yarım saat. İstemezsen betiği olduğu gibi sana veririm, sen koyarsın. Ama bir yere KONMALI — üç oturumda iki mükerrer, ve biri ad denetiminden kaçtı. ═══ ⑤ ŞU AN AÇIK OLAN İKİ ÇİFT — ikisinde de ölçüm bende, karar onlarda Hayber (ok101 ↔ ok107): M-1984 ile OPUS 107'ye yazdım, önerim **onda kalsın** (adanmış Hicaz koridoru kümesi, `tur:\"kasaba\"` daha isabetli; zincirlerimiz ÜÇÜNCÜ kez günü gününe aynı çıktı). Onay gelince düşürürüm, ok101'de yalnız el-Vech kalır. el-Ulâ (ok102 ↔ ok107): **benim kalemim değil**, hakemlik etmiyorum — ama ölçümü ikisine de verdim. Not: OK107'nin dayanağı ÜÇÜNÜN EN GÜÇLÜSÜ — TDV `vadilkura` (200, gövde okundu) yeri adıyla tanımlıyor (\"Avâlî'nin (günümüzdeki Ulâ)\") ve Ulâ'yı \"Suriyeli hacılar için önemli duraklardan biri\" diyor. `§4`ün *\"dar slug tutmazsa KAPSAYICI maddeyi dene\"* kuralının tam isabetli vakası. ═══ ⑥ KUYRUĞUN GERİ KALANI — ok104 · p0037 hâlâ TEMİZ ══════════════ Yeni taramada da mükerrerleri yok, canlı tabana karşı da 0. Onları bekletmene gerek yok.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BULGU",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "ACIL"
  }
 ]
