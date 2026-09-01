@@ -213,15 +213,57 @@ gruplu = collections.defaultdict(list)
 for x in yama:
     gruplu[x["r"]["ad"]].append(x)
 
+# 🔴 İMZA ALAN ALAN KURULUR — KAYDIN TAMAMINDAN DEĞİL.
+#   Bulan: PAKET-0039 (OPUS HAZIR KITA 109), 2 Eylül 2026. Ve kusur
+#   VERİDE DEĞİL ALETTEYDİ:
+#     `yer_yama_romanya.js`ın 20 kaydının 18'i indi; Bükreş ve Yaş İNMEDİ.
+#     Sebep: `gece_v3` yalnız `isg:`e, `romanya` yalnız `s:`e dokunuyor.
+#     ÇATIŞMIYORLAR — ama imza kaydın TAMAMINDAN kurulduğu için iki
+#     sözlük farklı çıkıyor ve İKİSİ DE bloke ediliyor.
+#   ⇒ Çakışmanın gerçek birimi KAYIT değil ALAN: iki yama ancak AYNI
+#     alanı FARKLI değerle yazıyorsa çatışır.
+#   Ölçüm: 8 çakışmanın 2'si SAHTE, 6'sı gerçek.
+#
+# ⚠️ VE AYNI DÜZELTME BENİM KENDİ KUSURUMU DA KAPATIYOR:
+#   `m:`/`kaynak:` desteğini eklerken bu imzaya EKLEMEYİ UNUTTUM. İki
+#   yama aynı `m:`i FARKLI değerlerle yazsa çakışma HİÇ GÖRÜNMEZDİ —
+#   sessizce biri ötekini ezerdi. Yeni alan eklerken çakışma imzasını
+#   güncellememek, `§11`in *"denetim var ≠ o soruyu soruyor"* ailesinin
+#   en sessiz üyesi.
+#   ⚠️ Burada `SKALER_ALANLAR` sabitine BAKILMAZ: o aşağıda tanımlanıyor
+#     ve buraya taşımak dosyanın okunma sırasını bozar. İki yerde duran
+#     bir liste AYRIŞIR (`§11`: "bir bilgi iki yerde duruyorsa biri
+#     güncellenince öteki bayatlar") — o yüzden aşağıdaki tanım bu
+#     satırla SINANIYOR, ve ayrışırsa betik DURUYOR (en altta assert).
+CATISABILIR = ("d", "s", "v", "isg", "m", "kaynak")
+
 cakisan = {}
+cakisan_alan = {}
+sahte_cakisma = 0
 for ad, liste in gruplu.items():
     if len(liste) < 2:
         continue
-    imza = {json.dumps({k: v for k, v in x["r"].items()
-                        if k in ("d", "s", "v", "isg")},
-                       sort_keys=True, ensure_ascii=False) for x in liste}
-    if len(imza) > 1:                            # içerik FARKLI ⇒ çakışma
+    catisan_alanlar = []
+    for alan in CATISABILIR:
+        yazanlar = [x for x in liste if alan in x["r"]]
+        if len(yazanlar) < 2:
+            continue                     # tek yazan ⇒ çatışma YOK
+        degerler = {json.dumps(x["r"][alan], sort_keys=True,
+                               ensure_ascii=False) for x in yazanlar}
+        if len(degerler) > 1:            # AYNI alan, FARKLI değer ⇒ ÇATIŞMA
+            catisan_alanlar.append(alan)
+    if catisan_alanlar:
         cakisan[ad] = liste
+        cakisan_alan[ad] = catisan_alanlar
+    else:
+        # Aynı adı birden çok yama taşıyor ama AYRIK alanlara dokunuyorlar.
+        # Eski alet bunu çakışma sayıyordu; SAYMIYORUZ — ama SESSİZ de
+        # geçmiyoruz: kaç tanesinin böyle olduğu BASILIYOR.
+        sahte_cakisma += 1
+if sahte_cakisma:
+    print("  i %d ad birden çok yamada geçiyor ama AYRIK alanlara dokunuyor"
+          " — çakışma DEĞİL (eski alet bunları bloke ediyordu)"
+          % sahte_cakisma)
 
 # ───────────────────────────────────────────────────── ⑤ alanı değiştir
 ALAN_RX = {a: re.compile(r'(\b%s:\s*)\[' % a) for a in ("d", "s", "v", "isg")}
@@ -249,6 +291,13 @@ ALAN_RX = {a: re.compile(r'(\b%s:\s*)\[' % a) for a in ("d", "s", "v", "isg")}
 #                                doluysa `kaynak-dolu` diye sayılır ve
 #                                ATLANIR. Değiştirmek isteyen ELLE yapar.
 SKALER_ALANLAR = ("m", "kaynak")
+# 🔴 İKİ LİSTE AYRIŞMASIN — `CATISABILIR` yukarıda elle yazılı (o blok bu
+#   satırdan ÖNCE koşuyor). Bir bilgi iki yerde durunca biri güncellenip
+#   öteki bayatlar; bu `assert` o bayatlamayı SESSİZ olmaktan çıkarır.
+#   Yeni bir skaler alan eklersen ikisini de güncelle — yoksa burası durur.
+assert set(CATISABILIR) == {"d", "s", "v", "isg"} | set(SKALER_ALANLAR), (
+    "CATISABILIR ile SKALER_ALANLAR AYRIŞTI: %r vs %r — yeni alan "
+    "eklenirken çakışma imzası güncellenmemiş." % (CATISABILIR, SKALER_ALANLAR))
 SKALER_RX = {a: re.compile(r'(\b%s:\s*)"((?:[^"\\]|\\.)*)"' % a)
              for a in SKALER_ALANLAR}
 # `m:null` de geçerli bir yazım — ayrıca aranır, yoksa "alan yok" sanılır
