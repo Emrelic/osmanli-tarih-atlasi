@@ -1,0 +1,63 @@
+{
+ "parti-emrelic-0034": {
+  "H-0001": {
+   "hukum": "bayat",
+   "not": "OPUS HAZIR KITA 106 (2 Eylul 2026, sartname M-1903). OLCUM: gorsel kunyesi 1534-06-01 / 37,09-42,91K / 45,69-50,29D. Bugunku veride o kutuda `iran` kimligi tasiyan nokta SIFIR; dagilim safevi 22 - sirvansah 3 - gilan-kiya 2 - gurcistan 1 - sahipsiz 1. CIKARIM (ayri satir): Emre'nin gordugu uc pembe benek bugunku veriyle URETILEMEZ; `iran` hayaleti o kutuda kapanmis ve yerini 1534'te TARIHEN YASAYAN iki kimlik almis (sirvansah kunye 861-1538 renk #d2cc24; gilan-kiya 1371-1592 renk #4272c3). GECE PARTISI 2. TUR ayni gece bagimsiz olarak AYNI sonuca varmisti (sirvansah) - iki olcum ortusuyor. YAN BULGU (paket disi, devredildi): `iran` hayaleti 7 donemde SURUYOR ve kunye 1925-12-12'de basliyor - Agraham burnu, Tarki, Kis, Hurmuz Adasi, Kism, Dihistan ovasi, Kizilarvat. Rapor: denetim/BULGU-0034-SON-UC.md"
+  },
+  "H-0005": {
+   "hukum": "cozuldu",
+   "not": "OPUS HAZIR KITA 106. UC YERIN UCU AYRI CEVAP ALDI. (1) ABADAN - KUSUR, YAZILDI: veride hic `d:` yoktu, 1546-1847 arasi Safevi/Afsar/Zend/Kacar boyaniyordu. TDV `abadan` (200, govde okundu): 'Uzun sure Osmanli hakimiyetinde kalan Abadan, 1847 Erzurum Antlasmasi ile Iran'a gecmistir.' YAZILAN: data/yer_yama_ok106.js (window.YER_YAMA_OK106) Abadan d:[1546-01-01 -> 1847-05-31]. (2) AHVAZ - ZATEN DOGRU: TDV `huzistan`, Musa'sa'lar 1508'den itibaren Safevi tabiiyetinde; veri `safevi` diyor. (3) HAVIZA - BULUNAMADI: TDV'de mustakil madde YOK, dort slug 302 olculdu (huveyze, havize, huveyzeliler, musasa). UYDURULMADI. KRITIK: devralinan recete (M-1466) 1847-01-01 diyordu ve OLDUGU GIBI uygulansaydi YAYIN KAPISINI KAPATIRDI - `data/olaylar*.js` cekirdeginde 1847 tarihli madde SIFIRDI (en yakinlar 1846-11-29 ve 1848-09-01), Degismez 2'nin acik tavani 0. Once madde yazildi: data/olaylar_ok106.js (window.OLAYLAR_OK106), 1847-05-31 II. Erzurum Antlasmasi, kaynak TDV `sattularap` ('1847 Mayisinda Erzurum'da imzalanan'). IKI DOSYA BIRLIKTE BAGLANMALI. Sinandi: node --check temiz, _sahiplik_uygula.py kuru kosu Abadan'i INEN kovasina koydu, denetle.py tam kosu 2=528 kirilma 0 ACIK, 2t=17 (tavan 42), digerleri de gecti."
+  },
+  "H-0011": {
+   "hukum": "zaten-dogru",
+   "not": "OPUS HAZIR KITA 106. Gorsel kunyesi 1566-01-01 / 40,90-44,91K / 39,23-47,38D. OLCUM: iki pembe govdenin arasina giren dogrudan Osmanli topragi 1551-01-01 tarihli DOKUZ kayit (Ahilkelek, Ardahan, Artvin, Borcka, Hanak, Hopa, Posof, Sarp, Savsat); Ahilkelek (43,48D) tam Ahiska (42,99) ile Tiflis (44,78) arasinda. KAYNAK: TDV `gurcistan`, 1555 Amasya - 'Imeret, Dadyan (Megrel ve Svanet), Guryel, Daveli/Tao-eli Osmanli Devleti'ne; Kartli, Kahet ve Mosuk ise Safevi Devleti'ne veriliyordu.' CIKARIM: kopukluk bir cizim kusuru DEGIL - 1555'ten beri iki yari AYRI imparatorluklarin nufuzunda; Emre'nin ikinci sikki gecerli, Gurcu hakimiyetinde bir KORIDOR ARANMAMALI. ARARKEN CIKAN YENI BULGU: 1566'da atlas IKI PARCAYI DA BAGIMSIZ boyuyor, oysa Amasya'dan beri bati Osmanli, dogu Safevi nufuzunda - bu H-0023'un kokunun 40 yil erken hali. BATI AYAGI BU TURDA KAPANDI: Kutaisi'nin Osmanli tabiiyeti 1578-08-09'dan 1555-05-29'a cekildi (koordinator karari, sik B); cakisan iki yama (yer_yama_kafkas.js vs yer_yama_ferhatpasa.js) hizalandi ve kayit artik INIYOR. DOGU ayagi H-0023'te, sema karari bekliyor. Raporlar: denetim/BULGU-GURCISTAN-0034.md, denetim/BULGU-KUTAISI-CAKISMA.md"
+  },
+  "H-0017": {
+   "hukum": "bayat",
+   "not": "OPUS HAZIR KITA 106. Gorsel kunyesi 1599-06-01 / 40,51-44,46K / 39,89-45,40D. OLCUM: bugunku veride o kutuda `gurcistan` donemi tasiyan nokta SIFIR; Kutaisi Osmanli-TABI, kimligi `imereti`. CIKARIM: Emre'nin gordugu pembe adacik bugunku veriyle URETILEMEZ. Duzeltmeyi KAFKAS KRONOLOJI (20 Agustos) yapmis, Kutaisi'nin 8,4 yillik ikinci hayaletini de o kapatmis. Tarih de ayni yonde: TDV'ye gore 1590 antlasmasindan sonra Gurcistan Osmanli idaresinde, yani 1599'da mustakil bir Gurcistan YOKTU ve veri bunu dogru gosteriyor. OLCMEDIGIM: gorselin hangi yayindan oldugunu dogrulayamadim (kronoloji paneli kirpilmis); hukum gorselin tarihine degil, verinin o govdeyi urete-me-mesine dayaniyor. Rapor: denetim/BULGU-GURCISTAN-0034.md"
+  },
+  "H-0019": {
+   "hukum": "zaten-dogru",
+   "not": "OPUS HAZIR KITA 106. Gorsel kunyesi 1602-01-01 / 29,68-33,18K / 46,48-50,34D - H-0005'in BIREBIR AYNI bolgesi. OLCUM (1602-01-01): Dizful, Suster, Ahvaz, Haviza, Ramhurmuz, Behbehan `safevi`; Basra, Kurne, Fav Osmanli dogrudan. KAYNAK: TDV `huzistan` - 'Ahvaz, Dizful ve Suster'i hakimiyetlerine alan Musa'sa'lar'in yaklasik yetmis yil suren bagimsizliklari, Sah Ismail'in 1508'de Bagdat seferi sirasinda sona erdiyse de Safeviler bu bolgeyi kendilerine bagli kalmak sartiyla yine onlarin idaresine biraktilar.' CIKARIM: Emre'nin saydigi sehirlerin HEPSI dogru boyaniyor; tek istisna Abadan ve o H-0005'te kapatildi. KALAN EKSIK ALT-KIMLIK: Musa'sa' emirliginin kendi kunyesi yok, bolge dogrudan `safevi` boyaniyor - bu GURCISTAN vakasiyla BIREBIR AYNI model boslugu (yabanci tabiiyet ifade edilemiyor), H-0023 ile TEK karara bagli. Rapor: denetim/BULGU-0034-SON-UC.md"
+  },
+  "H-0022": {
+   "hukum": "senin-kararin",
+   "not": "OPUS HAZIR KITA 106. OLCUM (js/app.js:5236 EKOKUMA_TUR + node ile veri): mekanizma VAR ve calisiyor - tanimli tur 4 (sebep-sonuc, magazin, merak, antlasma). Emre'nin 11 baslikli listesinden TANIMLI 3 (merak, sebep-sonuc, magazin), EKSIK 7 (tartisma, teknik-bilimsel, kimdir, dis-yankilar, kahramanlik, menkibeler, sok-haberler). VERI: EKOKUMA 8 kayit (sebep-sonuc 4, antlasma 4), MERAK 14 kayit; `magazin` turu TANIMLI ama veride 0 KAYIT, yani buton hic cikmiyor. KAPSAMA: en az bir butonu olan kronoloji maddesi 93/1277 = %7,3. BAYAT DEGIL: data/ekokuma.js 6 Agustos'ta dogdu, sikayet 24 Agustos - Emre mekanizmayi GORDUKTEN sonra genisletilmesini istemis. NICIN KALDI: `EKOKUMA_TUR` js/app.js'te ve yama mekanizmasi KOD dosyasina yazmaz; ayrica app.js su an PAKET-0035-C'de. SORU: 7 turu ARAYUZ mu ekler, eklenirse icerigi ben kendi ad alanima (data/ekokuma_ok106.js) yazayim mi? Bugunku kaynak fonksiyonlari YALNIZ window.EKOKUMA okuyor."
+  },
+  "H-0023": {
+   "hukum": "senin-kararin",
+   "not": "OPUS HAZIR KITA 106. Gorsel kunyesi 1606-01-01 / 36,83-44,56K / 39,66-50,66D, madde 'Tiflis ve Gence'nin kaybi'. EMRE'NIN SORUSUNUN CEVABI NET: IRAN'A. TDV `gurcistan`: '1603'te Sah I. Abbas Tiflis sehrini Osmanlilar'dan geri alip KARTLI'YI HANLIK OLARAK ILAN ETTI.' TDV `tiflis`: X. Georgi olunce yerine 'Sah Abbas tarafindan II. Laursab getirildi (1606-1616)'. Yani bagimsiz bir Gurcistan Kralligi DEGIL, kralini sahin atadigi bir SAFEVI HANLIGI. OLCULEN KUSUR: Tiflis ve Zagem `s:gurcistan` 1281 -> 1801-09-12, yani 1606-01-01'den 1801'e 195,7 YIL BAGIMSIZ boyaniyor (1723-1735 Osmanli isgali veride zaten var, o kisim dogru). NICIN KALDI: care tek basina yazilamaz - VERI-YAPISI.md'ye gore `v:` YALNIZ Osmanli tabiiyetini ifade ediyor, yabanci devletin vasali diye bir hal YOK. UC SIK: (a) s:'safevi' - renk dogru ama GURCISTAN adi ekrandan silinir; (b) kartli/kaheti kunyesi - yanilgi biter, tabiiyet yine ifade edilemez; (c) semaya yabanci tabiiyet alani (s:[{d:'gurcistan', tabi:'safevi'}] + acik ton) - EN DOGRUSU, EN PAHALISI. Egilimim (c), KARARIM DEGIL. NOT: H-0019'daki Musa'sa' emirligi BIREBIR AYNI bosluk, ikisi TEK karara baglanmali. YAN BULGU: Tiflis'in kayip gunu UC YERDE UC AYRI - yerlesim d: 1606-01-01, olaylar_ek6 1606-01-01, kronoloji_gurcistan 1603-10-21; TDV `tiflis` '1603'te' diyor, yani harita ~2,2 yil GEC. 1603-10-21 kulliyatta ZATEN kirilma gunu (±0). YAZMADIM: 1606-01-01'de Zagem'in v:'si de bitiyor ve o gun ek6 maddesinin kirilmasi; Tiflis'i cekmek Degismez 2'nin IKI UCUNU birden oynatir (§3.5.1). Istenirse tek turda yaparim, kabul olcutum 2 ve 2t sayilarinin DEGISMEMESI. Rapor: denetim/BULGU-GURCISTAN-0034.md"
+  },
+  "H-0028": {
+   "hukum": "senin-kararin",
+   "not": "OPUS HAZIR KITA 106. OLCUM: bu madde ZATEN olculmus ve RECETESI YAZILMIS - denetim/BULGU-MOTOR-ACIK.md KOK 2 (27 Agustos): col tavani ISLEVSIZ (COL_TAVAN_KM=300 iken k0=280, k3=280, k4=140 hepsi altinda; motorun kendi yorumu uret_petek.py:789 'ceberrutlukla 2283/2356 noktada hicbir sey kesemez'). RECETE (b): col poligonu icinde dolgu kapisinin PUAN_ESIK'i 4 -> 8; damgali ongoru 7 dolgu noktasi duser (Tazirbu, Vadi el-Milk, Tasili n'Accer, Lakiye Arbain, Serir, Serir Kalansu, Vav el-Kebir), ~250-400 bin km2 bosalir ve isabet yeri DOGRU: Libya bosalir, Sudan'a dokunmaz. Ayrica denetim/BULGU-GAT.md (31 Agustos) Gat'in asil sebebini A1 YARICAP TAVANI olarak olcmus ve Emre 31 Agustos'ta tavanin maliyet-mesafe inince TAMAMEN KALKMASINA karar vermis (040acd5). NICIN KALDI: uygulama arac/uret_petek.py'de ve o dosya kosu boyunca KILITLI; ayrica M-1878'in 6. kalemi bu sinifi MALIYET-MESAFE'ye baglamis. SORU: recete (b) maliyet-mesafe INMEDEN once ayri bir motor kalemi mi, yoksa tavan kalkinca gereksiz mi kaliyor?"
+  },
+  "H-0036": {
+   "hukum": "senin-kararin",
+   "not": "OPUS HAZIR KITA 106. Gorsel kunyesi 1637-06-18 / 42,36-51,16K / 29,02-48,58D, madde 'Azak Kalesi'nin Don Kazaklarina kaybi'. OLCUM - yogunluk, iki kiyas kutusuyla: BOZKIR 61 nokta / ~1.461 bin km2 = 4,2 nokta/100.000 km2, en yakin komsu ortanca 71 km. KIYAS Bati Anadolu 89 nokta / 231 bin km2 = 38,5 (21 km). KIYAS Rumeli 103 / 334 bin = 30,8 (23 km). ⇒ bozkir 7-9 KAT SEYREK, komsu araligi 3,2 kat genis. 61 noktanin 16'si k=0 dolgu noktasi, yani gercek yerlesim 45. VERI KALITESI IYI ve bunu ayri yaziyorum: ornekledigim 14 kaydin zincirleri ozenli (Altinorda -> Kirim/Nogay/Astarhan -> Rusya) ve 18. yy Rus kuruluslarinda `kur:` VAR (Taganrog 1698-09-12, Rostov 1749-12-15, Yenotayevsk 1741, Krasniy Yar 1667, Cerniy Yar 1627) - bu yuzden 1637'de Taganrog ve Rostov SAHIPSIZ gorunuyor ve bu DOGRU. CIKARIM: kusur KAYITTA degil YOGUNLUKTA. Emre'nin gordugu dort parcali 'KIRIM HANLIGI BOZKIRI' iki sebebin toplami ve ikisi AYRILMALI: (a) GERCEK - Ozi, Akkirman, Kerc, Taman, Azak gibi Osmanli/Kazak noktalari bozkiri gercekten kesiyor; (b) ARTEFAKT - 71 km'lik araliktaki Voronoi emilmesi parca sayisini artiriyor. Hangisinin ne kadar katki verdigini OLCMEDIM (donemler.js kosu canliyken bayat). BOYUT: kutuyu Rumeli'nin YARISINA cikarmak ~158 yeni nokta demek ⇒ AYRI OTURUM isi, paket maddesi degil; yeni nokta yama ile de inmiyor. Rapor: denetim/BULGU-0034-SON-UC.md"
+  },
+  "H-0040": {
+   "hukum": "senin-kararin",
+   "not": "OPUS HAZIR KITA 106. H-0022 ILE AYNI KOK, ayni olcumle kapaniyor: mekanizma VAR (4 tur tanimli), Emre'nin 'TUM MADDELERI donatan yapi' istegi bugun 93/1277 = %7,3 kapsamada. Eksik olan sey altyapi degil (a) 7 TUR TANIMI ve (b) ICERIK. NICIN KALDI: EKOKUMA_TUR js/app.js'te, yama mekanizmasi koda yazmaz, ve app.js su an PAKET-0035-C'de. H-0022 ile TEK karara baglanmali."
+  },
+  "H-0044": {
+   "hukum": "senin-kararin",
+   "not": "OPUS HAZIR KITA 106. OLCUM: 'Hafiz Osman' kronoloji maddesi 2 tane (olaylar_ek14.js:71 1679 uslubunu gelistirmesi; :72 1695 II. Mustafa'ya hoca tayini). KRONOLOJI SEMASINDA `gorsel` ALANI YOK - 1277 maddenin tamami tarandi, 24 alan var, hicbiri gorsel degil. PANEL GORSEL YUVASI js/app.js:5102 `ob-gorsel` YALNIZ PADISAH PORTRESI basiyor (vefat_id ya da kisiler'de gecen padisah); ikisi de yoksa emoji rozet ⇒ Hafiz Osman maddelerinde bugun ☾ rozeti cikiyor. assets/ altinda yalniz portreler/ (36 padisah), hat/eser gorseli klasoru YOK. CIKARIM: istek uc katman istiyor - (1) semaya `gorsel:` alani, (2) app.js'te padisah-disi gorsel dali, (3) kamu mali gorsel varliklari. OLCMEDIGIM: kamu mali hat gorseli bulunabilirligini olcmedim. SORU: bu bir SEMA genislemesi mi, yoksa 8. boyut (kultur-sanat, CLAUDE.md §1.6 kasten kapali) oldugu icin `gerek-yok` mu?"
+  }
+ },
+ "_ek": {
+  "oturum": "OPUS HAZIR KITA 106",
+  "tarih": "2026-09-02",
+  "kanal_notu": "Bu dosya M-2022'nin duzelttigi DOGRU KANAL. Ayni hukumler 2 Eylul sabahi CEVAP.json'a da yazilmisti (o zamanki kural M-2015'ti); koordinator onlarin KALMASINA karar verdi, bu dosya onlarin isci tarafindaki kaydi.",
+  "yazilan_dosyalar": [
+   "data/olaylar_ok106.js  (window.OLAYLAR_OK106) — 2 madde: 1847-05-31 II. Erzurum Antlasmasi · 1703-01-01 Yenikale'nin insasi",
+   "data/yer_yama_ok106.js (window.YER_YAMA_OK106) — 1 kayit: Abadan d:",
+   "data/yerlesimler_ok106.js (window.YERLESIMLER_OK106) — 1 nokta: Yenikale",
+   "denetim/BULGU-GURCISTAN-0034.md",
+   "denetim/BULGU-0034-SON-UC.md",
+   "denetim/BULGU-KUTAISI-CAKISMA.md",
+   "denetim/ONERI-BOZKIR-NOKTA-0034.md"
+  ],
+  "baglanmadi": "girdi.py ve index.html koordinatorde ve kosu sirasinda kilitli. olaylar_ok106.js denetle.py tarafindan glob ile ZATEN okunuyor; oteki ikisi baglanmayi bekliyor."
+ }
+}

@@ -63,6 +63,24 @@ window.OLAYLAR_OK106 = [
     b:"II. Erzurum Antlaşması — Şattülarap sınırı ve Hûzistan kıyısının bırakılması",
     gun:"Mayıs 1847", yer:"Erzurum", yer_id:"Erzurum",
     d:"Yüzyılı aşkın süredir çözülemeyen Osmanlı-İran sınır anlaşmazlığı, İngiliz ve Rus arabuluculuğunda yürütülen uzun görüşmelerin ardından Erzurum'da imzalanan ikinci antlaşmayla düzenlendi. Şattülarap suyolunun tamamı Osmanlı'da kaldı; buna karşılık nehrin doğu yakasındaki yerleşimler -Muhammere limanı ve karşısındaki Abadan adası dâhil- Kaçarlar'a bırakıldı. Böylece Basra'nın 1546'daki ilhakından beri Osmanlı idaresinde sayılan Hûzistan kıyı şeridi üç yüz yıl sonra elden çıktı. Antlaşmanın çizdiği hattı yerinde tesbit etmek üzere kurulan sınır komisyonunun üyesi Mehmed Hurşid Paşa, 1848-1852 arasında bölgeyi dolaşarak Seyâhatnâme-i Hudûd'u kaleme aldı.",
-    kaynak:"sattularap", duygu:["🤝","😔"] }
+    kaynak:"sattularap", duygu:["🤝","😔"] },
+
+  // ── 1703 · YENİKALE — `data/yerlesimler_ok106.js`in AÇTIĞI KIRILMANIN MADDESİ
+  // 🔴 NİÇİN BURADA: Yenikale 1703'te SIFIRDAN kurulan bir kale ve ilk `d:`
+  //    döneminin başı bir Osmanlı kırılmasıdır ⇒ Değişmez 2, tavanı SIFIR.
+  //    Ölçüldü: `data/olaylar*.js` çekirdeğinde 1703-01-01 tarihli madde YOKTU
+  //    (o yılın günleri 1703-03-01 · 05-27 · 07-17 · 08-22 — hiçbiri ±30'da
+  //    değil). Madde yazılmadan nokta bağlansaydı yayın kapısı kapanırdı.
+  //    📌 `H-0005`teki 1847 vakasının BİREBİR tekrarı: ÖNCE MADDE, SONRA DÖNEM.
+  // 🟡 GÜN: TDV yıl veriyor ("1115'te (1703)"), gün VERMİYOR ⇒ `§4`: YYYY-01-01.
+  // 🟡 `yer_id:"Kerç"` — kalenin kendi noktası (`Yenikale`) HENÜZ BAĞLI DEĞİL;
+  //    bağlanmamış bir ada `yer_id` vermek kırık bağ üretir. Kerç 10,4 km ötede
+  //    ve TDV maddesi konumu ona göre tarif ediyor. Nokta bağlanınca
+  //    `yer_id:"Yenikale"`ye çevrilebilir — koordinatörün kararı.
+  { t:"1703-01-01", k:"mimari", etiket:["mimari","denizcilik"],
+    b:"Yenikale'nin inşası — Kerç Boğazı'nın kilitlenmesi",
+    gun:"1115 (1703)", yer:"Yenikale, Kerç Boğazı", yer_id:"Kerç",
+    d:"Azak'ın 1700'de Rusya'ya bırakılmasının ardından Karadeniz'in Azak Denizi'ne açılan tek kapısı stratejik bir sınır hattına dönüştü. Osmanlı Devleti, Kerç şehrinin on kilometre kuzeydoğusunda Akıntı Burnu mevkiinde yeni bir istihkâm yaptırarak boğaz geçişini top menziline aldı; kaleye kelimenin kendisi olan Yenikale adı verildi. Kale yetmiş yıl boyunca Kırım'ın doğu kilidi olarak kaldı ve 1774 Küçük Kaynarca Antlaşması'nın on dokuzuncu maddesiyle Kerç ile birlikte Rusya'ya terkedildi.",
+    kaynak:"kerc", duygu:["🏛"] }
 
 ];
