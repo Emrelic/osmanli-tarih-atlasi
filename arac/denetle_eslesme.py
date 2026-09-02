@@ -436,16 +436,41 @@ ODENMIS_VAKALAR = [
 # Tavanın kendisi kalıyor; defter onun neden değiştiğini SÖYLEYEN kısım.
 A_DEFTERI = os.path.join(denetle.KOK, "denetim", "ESLESME-A-DEFTERI.json")
 B_DEFTERI = os.path.join(denetle.KOK, "denetim", "ESLESME-B-DEFTERI.json")
+# 🔴 §C DEFTERİ — 2 Eylül 2026'da AÇILDI, ve niçin bir aydır YOKTU:
+# Bu dosyanın kendi başlığı *"tavan bir SAYI, defter bir KÜMEDİR"* diyor ve
+# A ile B için kurulmuş; C için kurulmamış. Oysa bugün tavanı aşan ve
+# bekçisi öten bölüm tam olarak C (117 / tavan 73) — ve "hangileri yeni,
+# hangileri bir aydır orada" sorusu CEVAPLANAMIYORDU.
+# 📌 `CLAUDE.md §11`: *"bir dersin yazılı olması uygulandığı anlamına
+#    gelmiyor."* Ders bu dosyanın kendi başlığındaydı.
+C_DEFTERI = os.path.join(denetle.KOK, "denetim", "ESLESME-C-DEFTERI.json")
 
 
 def _a_kimlik(kayit):
-    """(tarih, kırılan ilk yer) — kırılmanın kararlı kimliği.
+    """KIRILMA GÜNÜ — kırılmanın kararlı kimliği.
 
     ⚠️ Madde başlığı kimliğe GİRMEZ: madde düzeltilince kimlik değişir ve
     aynı kırılma "kapandı + yeni açıldı" diye iki kez görünürdü.
+
+    🔴 2 EYLÜL 2026 — "KIRILAN İLK YER" DE KİMLİKTEN ÇIKARILDI, ve sebebi
+    yukarıdaki uyarının ta kendisi: başlık için görülen tuzak ilk yer için
+    görülmemişti. O güne YENİ BİR YERLEŞİM eklenince alfabetik ilk sıra
+    kayıyor, kimlik değişiyor, aynı kırılma bir KAPANAN + bir YENİ olarak
+    sayılıyordu. ÖLÇÜLDÜ (OPUS 102): 18 tarih hem YENİ hem KAPANAN
+    listesindeydi — 1393-09-01 Köstence→Babadağı · 1463-06-01 Travnik→
+    Koniçe · 1878-07-13 Ardahan→Alacahisar …
+        kimlik ekseninde  YENİ 45 · KAPANAN 24
+        TARİH ekseninde   YENİ 27 · KAPANAN  6      ← gerçek
+    ⇒ "gerileme adayı" listesinin %40'ı gürültüydü.
+    📌 `CLAUDE.md §11`: *"bir varsayımı kaldırmak, onu bir kademe daha
+       derine gömmek olabilir."* Başlık çıkarıldı, kararsızlık ilk yere
+       taşındı ve orada görünmez oldu.
+
+    🟢 Tarihin tek başına yeterli olduğu ÖLÇÜLDÜ, varsayılmadı:
+       130 şüpheli satır · 130 FARKLI tarih · bir tarihte >1 satır: 0.
+       §A her kırılma GÜNÜ için en çok bir satır üretir.
     """
-    dt, yerler = kayit[0], kayit[1]
-    return "%s|%s" % (dt, yerler[0] if yerler else "?")
+    return kayit[0]
 
 
 def _defter(yol, simdi, yaz, not_metni):
@@ -472,12 +497,36 @@ def _defter(yol, simdi, yaz, not_metni):
     return yeni, kapanan, len(eski)
 
 
-_A_NOT = ("TEMEL DEFTER, 2026-08-01. ⚠️ TAVAN AŞILMIŞ HÂLDEYKEN yazıldı "
-          "(109 şüpheli / tavan 97). Yani bu defterdeki üyelerin yaklaşık "
-          "12'si tavan konduktan SONRA ortaya çıkmış ve TEK TEK "
+_A_NOT = ("TABAN 2026-09-02'de SIFIRLANDI — çünkü kimlik anahtarı değişti "
+          "('tarih|ilk yer' → 'tarih'). Eski anahtarlar bu defterde "
+          "KARŞILAŞTIRILAMAZ hâle geldiği için sıfırlama zorunluydu. "
+          "ÖNCEKİ DEFTER SİLİNMEDİ: denetim/ESLESME-A-DEFTERI.ONCEKI.json "
+          "(2026-08-01 tabanı, 109 kayıt, 'tarih|ilk yer' anahtarıyla). "
+          "SIFIRLAMANIN SEBEBİ ÖLÇÜLDÜ (OPUS 102, denetim/BULGU-TAVAN-OK102.md): "
+          "eski anahtar kararsızdı, o güne yeni bir yerleşim eklenince "
+          "değişiyordu; 45 YENİ / 24 KAPANAN raporunun 18'i sahteydi. "
+          "⚠️ ÖNCEKİ DEFTERİN UYARISI HÂLÂ GEÇERLİ: bu taban da TAVAN AŞILMIŞ "
+          "HÂLDEYKEN yazıldı (130 şüpheli / tavan 97) ve üyeler TEK TEK "
           "İNCELENMEMİŞTİR — 'defterde var' demek 'incelendi ve kabul edildi' "
           "DEMEK DEĞİLDİR. Defterin işlevi ileriye dönük: bundan sonraki her "
-          "ekleme YENİ diye adıyla raporlanır. Geriye dönük temizlik ayrı iş.")
+          "ekleme YENİ diye adıyla raporlanır. Geriye dönük temizlik ayrı iş. "
+          "📌 Ve tavanın kendisi de ölçüldü: 1 Ağustos tabanı 109 kayıtla "
+          "yazılmıştı, tavan 97 — yani taban yazıldığı gün zaten tavanın "
+          "üstündeydi. Tavan kararı bilerek ERTELENDİ (koordinatör, 2 Eylül): "
+          "önce anahtar düzelsin, sonra sayılsın, sonra karar verilsin.")
+
+_C_NOT = ("TEMEL DEFTER, 2026-09-02 — §C'nin İLK defteri. Bir aydır yoktu ve "
+          "bu yüzden 'tavan aşıldı' denirken HANGİLERİNİN yeni olduğu "
+          "söylenemiyordu (tavan bir SAYI, defter bir KÜMEDİR — dosyanın kendi "
+          "başlığındaki ders, C için uygulanmamıştı). "
+          "ANAHTAR: 'tarih|yer_id' ve ÖNCE ÖLÇÜLDÜ: 117 satırda çakışma 0. "
+          "'tarih' tek başına yetmiyor — 1884-01-01'de iki ayrı madde var. "
+          "⚠️ TAVAN AŞILMIŞ HÂLDEYKEN yazıldı (117 / tavan 73): üyeler TEK TEK "
+          "İNCELENMEMİŞTİR, 'defterde var' ≠ 'incelendi ve kabul edildi'. "
+          "İşlevi ileriye dönük: bundan sonraki her ekleme YENİ diye adıyla çıkar. "
+          "⚠️ İki satırda yer_id yok (1715 Suda-Spinalonga · 1692 Granbosa); "
+          "onlara yer_id yazılırsa anahtarları değişir ve bir kez "
+          "KAPANAN+YENİ görünürler — sebebi budur, gerileme değildir.")
 
 _B_NOT = ("TEMEL DEFTER, 2026-08-01. ⚠️ TAVAN AŞILMIŞ HÂLDEYKEN yazıldı "
           "(19 / tavan 17). Üyelerin çoğu BÖLGE adıdır (Teselya, Dobruca, "
@@ -486,9 +535,49 @@ _B_NOT = ("TEMEL DEFTER, 2026-08-01. ⚠️ TAVAN AŞILMIŞ HÂLDEYKEN yazıldı
           "'Defterde var' ≠ 'incelendi ve kabul edildi'.")
 
 
+def _c_kimlik(kayit, yer_id):
+    """`tarih|yer_id` — §C satırının kararlı kimliği.
+
+    🔴 KİMLİK ÖNCE ÖLÇÜLDÜ, SONRA SEÇİLDİ (koordinatörün şartı: "§A'da
+    düzelttiğin kusuru yeni deftere TAŞIMA"). Beş aday, 117 satır:
+        tarih                farklı 116 · ÇAKIŞAN 1 · KAYBOLAN 1 satır
+        tarih|k              farklı 116 · ÇAKIŞAN 1 · KAYBOLAN 1 satır
+        tarih|yer_id         farklı 117 · ÇAKIŞAN 0            ← SEÇİLEN
+        tarih|ilk-eksik-yer  farklı 117 · ÇAKIŞAN 0  ama KARARSIZ (§A'nın kusuru)
+        tarih|baslik         farklı 117 · ÇAKIŞAN 0  ama KARARSIZ (dosyanın kendi uyarısı)
+
+    ⚠️ `tarih` TEK BAŞINA YETMİYOR ve sebebi ölçüldü: 1884-01-01'de İKİ
+    AYRI madde var — "Zeyla ve Somali sahilinin İngiliz idaresine geçişi"
+    (eksik: Berbera, Bulhar) ve "Doğu Sudan'ın Mehdî kuvvetlerine geçişi"
+    (eksik: Sinkat). §A'dan farkı bu: orada her kırılma GÜNÜ bir satırdı,
+    burada her MADDE bir satır ve bir güne birden çok madde düşebiliyor.
+
+    🟢 `yer_id`nin kararsızlığı §A'daki "ilk yer"in kararsızlığıyla AYNI
+    ŞEY DEĞİL: "ilk yer" bulgu değişmeden değişiyordu (saf gürültü);
+    `yer_id` değişirse maddenin GÖSTERDİĞİ YER değişir, yani bulgunun
+    kendisi değişir — onu KAPANAN+YENİ diye görmek DOĞRUDUR.
+    📌 Kural: *anahtar, değişmesi bulguyu değiştiren şeylere dayanmalı.*
+
+    ⚠️ İki satırda `yer_id` YOK (1715 Suda-Spinalonga · 1692 Granbosa);
+    anahtarları `tarih|None` olur. Çakışmıyorlar (tarihleri farklı) ama
+    bu bir BORÇ: o iki maddeye `yer_id` yazılırsa anahtar değişir ve
+    defterde bir kez KAPANAN+YENİ görünürler. Sebebi burada yazılı.
+    """
+    return "%s|%s" % (kayit[2], yer_id)
+
+
 def a_defteri(supheli, yaz=False):
     return _defter(A_DEFTERI, {_a_kimlik(k): k[2] for k in supheli},
                    yaz, _A_NOT)
+
+
+def c_defteri(eksik, O, yaz=False):
+    b_ix = {(o.get("t"), o.get("b")): o for o in O}
+    simdi = {}
+    for r in eksik:
+        yid = (b_ix.get((r[2], r[4])) or {}).get("yer_id")
+        simdi[_c_kimlik(r, yid)] = "%s — eksik: %s" % (r[4][:60], ", ".join(r[5][:3]))
+    return _defter(C_DEFTERI, simdi, yaz, _C_NOT)
 
 
 def b_defteri(yok, yaz=False):
@@ -638,6 +727,22 @@ def main():
         print(f"      {r[0]:2d}/{r[1]:2d} eksik  {r[2]}  {r[3]:9s} {r[4][:42]:42s} {r[5][:3]}")
     if not ayrinti and len(eksik) > 14:
         print(f"      … {len(eksik)-14} satır daha (--ayrinti)")
+
+    yeni_c, kapanan_c, c_boyu = c_defteri(eksik, O, yaz="--defter-yaz" in sys.argv)
+    if not c_boyu:
+        print("    i C defteri BOŞ — ilk kez yazmak için: --defter-yaz")
+    else:
+        print(f"    C defteri: {c_boyu} kayıt · YENİ {len(yeni_c)} · KAPANAN {len(kapanan_c)}")
+        for k in (yeni_c if ayrinti else yeni_c[:12]):
+            print(f"      + YENİ    {k}")
+        if not ayrinti and len(yeni_c) > 12:
+            print(f"      … {len(yeni_c)-12} YENİ daha (--ayrinti)")
+        for k in (kapanan_c if ayrinti else kapanan_c[:8]):
+            print(f"      - KAPANAN {k}")
+        if not ayrinti and len(kapanan_c) > 8:
+            print(f"      … {len(kapanan_c)-8} KAPANAN daha (--ayrinti)")
+        print( "      → YENİ olanlar gerileme adayıdır: madde eskiden kapsamı")
+        print( "        tutuyordu, artık tutmuyor. KAPANAN = borç ödendi.")
 
     kayip = doguran_vaka_sinamasi(eksik)
     print()
