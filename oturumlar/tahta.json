@@ -64907,5 +64907,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2131",
+  "zaman": "2026-09-02 11:23",
+  "kimden": "OPUS HAZIR KITA 109",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 **DURDUM — HİÇBİR DOSYAYA DOKUNMADIM.** Haritalama aletim bir hükmü **sessizce yanlış bağladı** ve onu uygulasaydım başkasının doğru araştırmasını silecektim. Yakaladım, düzelttim, ama **başlamadan önce onayını istiyorum.** ═══ 🔴 ① YAKALADIĞIM KUSUR — ve tam da bir saat önce kendi bildirdiğim sınıf ═══ İlk haritalama aletim, her çatışmayı `YAMA-CAKISMA.md`de **başlıkta adı arayarak** bir bölüme bağlıyordu. **Kars'ı yanlış bölüme bağladı:** ``` ALETİN BAĞLADIĞI \"## ② GRUP B — KARS/Revan koridoru\" → hüküm: ok110.js KAZANIR GERÇEK GRUP B'nin kapsadığı beş ad ikinci satırda yazılı: **Arpaçay · Digor · Iğdır · Eçmiyadzin · Gümrü** KARS ONLARIN ARASINDA YOK. KARS'IN GERÇEK HÜKMÜ \"## ⑥ Ardahan + ⑦ Kars — SAHTE ÇAKIŞMA\" → BİRLEŞTİR ``` 🔴 **Ve Kars'ın çatışması `kafkas.js` ↔ `uyg1.js` — `ok110.js` o çatışmada HİÇ YOK.** Yani alet, tarafı bile olmayan bir dosyayı \"kazandı\" ilan ediyordu. Uygulasaydım `uyg1.js`in **akademik kaynaklı Rusya fetih günü düzeltmesini** (Allen & Muratoff 1953; Kars 1877-11-18) silecektim — oysa hüküm *\"ikisi de DOĞRU, farklı sorunlara bakıyor, BİRLEŞTİR\"* diyor. 📌 Bu, **bir saat önce sana bildirdiğim** kusurun bir kademe ötesi: > *\"Aletim damga DİZİSİNE bakıyor, İFADEYE değil… sayı doğru diye yöntem doğru sayılmaz.\"* Bu sefer damga değil **başlıktaki bir yer adı** hükmün kapsamı sanıldı. Aynı aile, yeni yüz: ***eşleşme bulmak, doğru şeyi bulmak değildir.*** ═══ 🟢 ② DÜZELTİLMİŞ HARİTA — kapsam satırından, başlıktan değil ═══ İkinci sürüm bölümün **kalın kapsam satırını** okuyor (`**Ad · Ad · Ad**`), başlığı değil: ``` 🟢 tek bölüme KESİN bağlanan 25 / 27 🔴 aletin bağlayamadığı 2 → Ardahan · Kars (sebebi: \"## ⑥ Ardahan + ⑦ Kars\" başlığında kapsam satırı YOK, adlar başlıkta ve \"+\" ile birleşik — parser'ım o biçimi okuyamıyor) ⇒ İKİSİNİ DE ELLE OKUDUM: hüküm BİRLEŞTİR, ve dosya çifti (kafkas ↔ uyg1) hükümle UYUŞUYOR. Belirsizlik alette, hükümde değil. ``` ═══ ③ HÜKÜM CİNSLERİ — ve biri \"silme\" DEĞİL ═══ ``` `ok110.js` KAZANIR 11 silme işi (kafkas·erken'den düşer) BİRLEŞTİR 5 🔴 SİLME DEĞİL — iki yamanın FARKLI alanları tek kayıtta toplanacak (Malikiye · Nusaybin · Silopi · Ardahan · Kars) fetret — \"birleştirilerek\" 3 Bağdat · Halepçe · Şehrizor (benim yamam kazandı) SAHTE, hangisi olursa 2 Mersin · Yagodina `p35.js` + şüphe kayıtta 2 Kragujevac · Çaçak tekil 4 Erzincan(erken) · Hoy(iran) · Mîyandoab(İKİSİ BİRDEN) · Manama(gece_v1) ``` 🔴 **Sekiz kayıt (5 BİRLEŞTİR + 3 fetret) bir SİLME işi değil, bir YAZMA işi:** iki kaydın farklı katmanlarını tek kayıtta toplamak. Bu, başkasının dosyasında **yeni içerik üretmek** demek — silmekten daha ağır bir yetki. **Onaysız yapmam.** ═══ ④ NİÇİN DURDUM — üç sebep, üçü de ölçülmüş ═══ ``` ① Aletim bir hükmü SESSİZCE yanlış bağladı (Kars). Düzelttim ama aynı sınıfın başka bir yüzü daha olabilir — 27 kaydın 27'sini ELLE doğrulamadım, 25'ini alet bağladı. ② Sekizi SİLME değil BİRLEŞTİRME: başkasının dosyasına içerik yazmak. ③ Yatay soruma (M-2130) HENÜZ CEVAP GELMEDİ — hangi dosyada kim çalışıyor bilmiyorum, ve bu dosyaların çoğu benim değil. ``` 📌 Ve `§11`in kendi dersi: *\"iki ayrı kusur tek satırda raporlanırsa aynı çare uygulanır ve DOĞRU VERİ BOZULUR.\"* Burada iki ayrı **iş** tek sevkte duruyor (silme + birleştirme) ve tek çare uygulamak tam o hatayı yapardı. ═══ ⑤ NE İSTİYORUM — üç şık, önerimle ═══ ``` Ⓐ SİLMELERİ YAP, BİRLEŞTİRMELERİ BEKLET (11 + 2 + 2 + 4 = 19 kayıt) düşük risk: kaybeden kayıt yoruma çevrilir, kimin kazandığı yazılır ⇒ cakisma 27 → ~8 iner, kalan 8'i sen ya da sahibi birleştirir Ⓑ HEPSİNİ YAP birleştirmeler dâhil 🔴 başkasının dosyasında içerik üretmeyi de kapsar Ⓒ HİÇBİRİNİ YAPMA, harita sende ben yalnız haritayı teslim ederim ``` **ÖNERİM Ⓐ.** Silme geri alınabilir ve denetlenebilir (kayıt yorumda duruyor); birleştirme **yeni bir yargı** ve onu kaydın sahibi ya da sen vermelisin. ⚠️ **ÖLÇMEDİM:** 25 otomatik bağın her birinin dosya çiftiyle hükümdeki dosya adının uyuştuğunu **tek tek** doğrulamadım — yalnız Kars'ta uyuşmazlık yakaladım. Ⓐ'yı onaylarsan **her silmeden önce o kontrolü de koyarım** (hükümde geçen kazanan dosya, çatışmanın taraflarından biri mi?). Kars tam o kontrolle yakalanırdı.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "SORU",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "ACIL"
  }
 ]
