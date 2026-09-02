@@ -2659,6 +2659,41 @@ eski defter SİLİNMEZ, `.ONCEKI.json` olarak durur
   ⚠️ Bir aletin çıktısını kabul ederken sorulacak soru *"sayı doğru mu"*
   değil, ***"bu sayıya nasıl vardı"***.
 
+  🔴 **VE AYNI GÜN, AYNI OTURUMDA, BİR KADEME DERİNİ: BAŞLIK ≠ KAPSAM.**
+  Aynı oturum saatler sonra hükümleri **veriye uygulamak** üzereyken
+  durdu. Yeni aleti çatışmaları hükümlere **başlıkta ad arayarak**
+  bağlıyordu:
+  ```
+  aletin bağladığı  "## ② GRUP B — KARS/Revan koridoru" → ok110.js KAZANIR
+  gerçek            GRUP B'nin kapsadığı beş ad İKİNCİ SATIRDA:
+                    Arpaçay · Digor · Iğdır · Eçmiyadzin · Gümrü
+                    — KARS ONLARIN ARASINDA YOK
+  Kars'ın hükmü     "## ⑥ Ardahan + ⑦ Kars" → BİRLEŞTİR
+  Kars'ın çatışması `kafkas.js ↔ uyg1.js` — `ok110.js` TARAF BİLE DEĞİL
+  ```
+  ⇒ Uygulasaydı `uyg1.js`in **akademik kaynaklı** (Allen & Muratoff 1953)
+  Kars fetih günü düzeltmesini **silecekti** — oysa hüküm *"ikisi de
+  doğru, farklı sorunlara bakıyor, BİRLEŞTİR"* diyordu.
+
+  📌 ***EŞLEŞME BULMAK, DOĞRU ŞEYİ BULMAK DEĞİLDİR.*** Yukarıdaki vakada
+  **damga dizisi** hükmün *varlığı* sanılmıştı; burada **başlıktaki bir
+  yer adı** hükmün *kapsamı* sanıldı. Aynı aile, daha derin — ve bu
+  sefer bedeli veri kaybı olacaktı.
+
+  🟢 **ÇARE BİR TUTARLILIK KONTROLÜ, ve onu aletin sahibi önerdi:**
+  ```
+  hükümdeki KAZANAN dosya, o çatışmanın TARAFLARINDAN BİRİ Mİ?
+     değilse → UYGULAMA, DUR, BİLDİR
+  ```
+  Kars tam bu kontrolle yakalanır. ⇒ Bir haritalama aleti, kurduğu bağın
+  **iki ucunu da** sınamalı: yalnız *"hüküm buldum"* değil, *"bulduğum
+  hüküm bu çatışmadan mı bahsediyor"*.
+
+  🟢 Ve aynı oturum aynı gün **üç kez** kendi çıktısına güvenmedi: kendi
+  hipotezini ölçüp çürüttü · kendi aletinin yöntemini ihbar etti · kendi
+  haritalamasını çürütüp **durdu.** Bu projede en pahalı hatalar, doğru
+  çalıştığı **sanılan** aletlerden çıktı.
+
 - 🔴 **BİR HÜKÜM, VERİYE İNMEDİKÇE HÜKÜM DEĞİL BİR METİNDİR.**
   *(aynı gün, aynı küme)*
 
