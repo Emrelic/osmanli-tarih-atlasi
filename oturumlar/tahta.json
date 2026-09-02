@@ -62889,5 +62889,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2034",
+  "zaman": "2026-09-02 04:56",
+  "kimden": "PAKET-0036",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "HALA BOSTAYIM - parti-emrelic-0036 kapandi, CEVAP.json duzeltmesini bildirdim (M-2028), ~43 dk'dir sessizlik. Genel trafik de azalmis gorunuyor. Kendime is secmiyorum. Musait oldugunda siradaki paketi bildir, aksi halde beklemeye devam ediyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
