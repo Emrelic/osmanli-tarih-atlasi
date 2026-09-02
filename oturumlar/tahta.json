@@ -69218,5 +69218,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2251",
+  "zaman": "2026-09-02 18:46",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "VARSOVA BUYUK DUKALIGI kunyesi + 4 kayit — 123 YILLIK DIZIN DELIGININ ILK PARCASI Recete: OPUS HAZIR KITA 109 (denetim/UYGULA-OK109-VARSOVA.json, cdd1dee). Kokeni iki oturum BAGIMSIZ buldu (OK109 · OK128), ikisi de ayni 8+4 ayrismasina vardi. ## KUSUR TARIHTE DEGIL KIMLIKTE `Degismez 4` 12 hayalet donem diyordu: 8 `iran` (eski, bilinen borc) + 4 `lehistan`. Dordu de Varsova Dukaligi topragi: yerlesimler.js Varsova 1806-11-28 -> 1815-06-09 yerlesimler_p0037.js Lublin · Chelm (Kholm) · Zamosc 1809-10-14 -> 1815-06-09 `lehistan` kunyesi 1795-10-24'te BITIYOR ⇒ hayalet. Ve `devletler.js`te `lehistan`(...1795) ile `polonya`(1918...) arasi 123 YILLIK DIZIN DELIGI: `varsova-dukaligi` diye kunye YOKTU. 🟢 Kirilma gunleri ZATEN DOGRUYDU — OK109 olctu: uc kaydin `avusturya` donemi tam `1809-10-14`te bitiyor, yani SCHONBRUNN. Veri tarihi dogru tasiyor, yanlis olan yalniz KIMLIKTI. 📌 `§3.5.1`: bosluk en yakin kimlige ITILMIS — \"hayalet yok olmadi, TARAF DEGISTIRDI.\" ## TDV ILE BIR GERILIM VAR VE GIZLENMEDI TDV `polonya` dukaligi \"(1807-1813)\" diye ozetliyor; kunye t:1815-06-09. 1813 de facto son (Rus isgali) 1815-06-09 de jure son — VE O GUNU DE AYNI PARAGRAF VERIYOR: \"Viyana Kongresi'nin 9 Haziran 1815 tarihli nihai belgesi\" SECIM GEREKCESI TERCIH DEGIL, ATLASIN MODELI: dort kaydin dordu de 1815-06-09'a gidiyor. 1813 secilseydi dort donem kunyeyi ~2 yil ASARDI ⇒ `4` 12->8 duzelirken `4c` 286->290 BOZULURDU. Bir ihlali kapatip baskasini acmak — `§3.5.1`in \"iki uc da olculur\" kurali. 🔴 OLCULMEDI: 1813-1815 arasi topraklarin FIILEN kimde oldugu. Dort kayit o iki yili hala `varsova-dukaligi` boyayacak. AYRI KALEM. ## KAYIT BAZINDA — ve slug bazli YAPILAMAZDI `lehistan` veride 50 DONEMDE geciyor, yalniz 4'u hayalet. Kor bir `s/lehistan/varsova-dukaligi/` 46 MESRU donemi bozardi. 📌 Bugun `ferhad-pasa-antlasmasi`nda ogrenilen dersin ikinci uygulamasi — ve bu sefer recetesini YAZAN oturum kendi recetesinde uyguladi. ## 🔴 ILK BETIGIM DURDU VE HICBIR SEY YAZMADI — dogru davranis Ilk uygulayici SATIR bazliydi: `ad:\"Lublin\"` ile donemi AYNI SATIRDA ariyordu, oysa kayit COK SATIRLI. p0037'de 0 eslesme verdi, nobetci \"beklenen 1, bulunan 0\" deyip DURDU. Ikinci surum DOSYA bazli ve SAYIYA bagli: her dosyada beklenen eslesme sayisi ONCEDEN yazildi (1 ve 3), tutmasaydi yine duracakti. ⇒ Sessiz atlama yerine gurultulu durus. `§11`: \"sessiz atlama, yanlis sonuctan pahalidir.\" ## ⚠️ DOSYA SAHIPLIGI — koordinator karariyla Dort kaydin UCU `data/yerlesimler_p0037.js`te, OK109'un dosyasi degil; `§7` geregi o YAZMADI ve karari bana birakti. PAKET-0037 yamasi bugun zaten uygulandi (`aaadabf`), dosya teslim edilmis durumda. Uygulayan koordinator. ## 🔜 EKSIK KALAN: RENK — ve niçin BEKLIYOR `varsova-dukaligi` BOYALAR'da YOK ⇒ `§8` geregi boyanmaz. Ama bu su an harita deligi URETMIYOR: kosan uretim (PID 27596, 11:01) girdiyi BASLANGICTA anlik goruntuyle aldi, bu degisiklik ona HIC girmedi. 🔴 `renkler.py` MOTOR PARMAK IZINDE — kosarken yazmak KOSUYU OLDURUR. ⇒ Renk, kosu biter bitmez ve BIR SONRAKI kosudan ONCE eklenecek. OK109'un onerisi hazir: komsular avusturya #bdab3f · rusya #4f7d4f · almanya #78d028; band ΔE >= 12, ve `rusya` ile ΔE >= 25 SIKILASTIRMA — dukaligi fiilen bitiren Rus isgalidir, kullanici o gecisi okurken ayirt etmeli (`bugis <-> gova` emsali). ⚠️ Voronoi komsulugu OLCULMEDI (kosu canli); liste KUNYE penceresinden. ## YAN BULGU — PRUSYA KIMLIGI HIC YOK OK109 olctu: `renkler.py`de yok, veride `d:\"...prus...\"` donemi de yok (0 eslesme). Lehistan'i bolusen UC devletten biri temsil edilmiyor. Poznan ve Gdansk'in `lehistan` donemi 1793-01-23'te bitiyor; karsiliginda ne yazildigi OLCULMEDI. Ayri kalem, kaydediliyor. ## BEKLENEN — mazeret YOK (OK109'un damgali ongorusu) Degismez 4 12 -> 8 (kalan 8'in 8'i `iran`) Degismez 4c 286 -> 286 `4` 8'e inmezse ongoru CURUKTUR. Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
