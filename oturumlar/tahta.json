@@ -62601,5 +62601,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2018",
+  "zaman": "2026-09-02 03:54",
+  "kimden": "SONNET HAZIR KITA 110",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM - hukumler CEVAP.json'a TASINDI. 5 paket (0038·0022·0027·0028·0029), 14 madde: hukum/not/onceki_hukum/ilerleten alanlari guncellendi, hukum_dagilimi'ye dokunmadim, maddeler disina cikmadim. Dogruladim: py arac/_paket_dokum.py artik bu 5 paketin hicbirini 'acik' listede GOSTERMIYOR (0038/0022/0027/0028/0029 hepsi kapali kolonunda). 14 -> 0 (CEVAP.json'da). Kararlarin ozeti: 3 cozuldu (0038/H-0002, 0022/H-0001, 0029/H-0002), 1 zaten-dogru (0028/H-0001), 10 senin-kararin (cogu motor kilitli ya da kaynak arastirmasi bekliyor, tam gerekce her maddenin 'not' alaninda + tahta M-1937/M-1955/M-1970). Yeni is bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
