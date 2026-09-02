@@ -100,11 +100,29 @@
       }
     },
 
-    "B · SIKILASTIRMA HAK EDEN CIFT VAR MI — ÖLÇTÜM, CEVAP: BUGÜN YOK": {
+    "B · SIKILASTIRMA HAK EDEN CIFT — 🔴 ÖNCE 'HAYIR' DEDİM, ÖLÇÜM BOZUKMUŞ, HÜKÜM 'EVET'": {
       "olcut": "`bugis ↔ gova` emsali: bir çift, KRONOLOJİNİN o ikisini KARŞI TARAF olarak anlattığı yerde sıkılaştırmayı hak eder (Makassar Savaşı'nın iki tarafı).",
-      "olcum": "Çekirdek külliyat (olaylar*.js, 1303 madde) Polonya/Varşova/Lehistan/paylaşım geçen 9 madde taşıyor: 1466-10-19 · 1561-11-28 · 1571 · 1611-06-13 · 1616 · 1618-12-11 · 1772-08-05 (I. Paylaşım) · 1793-01-23 (II. Paylaşım) · 1795-10-24 (III. Paylaşım).",
-      "hukum": "DOKUZUNUN DOKUZU DA 1795 ÖNCESİ ve öznesi `lehistan`. `kongre-polonyasi`yi `rusya` KARŞISINDA anlatan TEK BİR ÇEKİRDEK MADDE YOK — 1830 ve 1863 ayaklanmaları külliyatta YOK. ⇒ Emsale göre ANLATI sıkılaştırması BUGÜN HAK EDİLMİYOR.",
-      "⚠️ AMA": "Bu bir 'gevşek olabilir' demek DEĞİL. Aşağıdaki C maddesi AYRI ve daha güçlü bir gerekçe veriyor — ve o MEKÂNSAL, anlatısal değil. İkisini karıştırmamak için ayrı yazdım."
+
+      "🔴 ILK_OLCUMUM_YANLISTI_ve_SEBEBI": {
+        "ne_yaptim": "Çekirdeği `o.b` (başlık) ve `o.a` alanlarında taradım, 9 madde buldum, hepsi 1795 öncesiydi ve «sıkılaştırma hak edilmiyor» diye HÜKÜM VERDİM (M-2270).",
+        "kusur": "`a` diye bir alan YOK. Açıklama alanının adı **`d`**. Yani 1303 maddenin AÇIKLAMA METİNLERİNİN TAMAMINI taramadım — alan adını ÖLÇMEDEN VARSAYDIM.",
+        "duzeltilmis_olcum": "Gerçek alan kümesi ölçüldü (t · b · d · etiket · kaynak · yer · kisiler · k · gun · duygu · yer_id …). Tüm metin alanlarıyla eşleşme **9 değil 30**; 1795 ve sonrası **6**.",
+        "📌": "`§11`in *'ölçüm doğru, EVREN dar'* dersi — ve bu sefer evreni daraltan şey bir ALAN ADI VARSAYIMIYDI. Aynı ailenin bugün bende ikinci vakası (ilki `almanya` künyesinde ISO dizgi karşılaştırmasıydı)."
+      },
+
+      "🟢 DUZELTILMIS_HUKUM_EVET": {
+        "kanit": "Çekirdek madde `1815-06-09` — yani künyenin `f:` GÜNÜ — açıklamasında AYNEN şunu yazıyor: «Varşova Dükalığı'nın büyük kısmı 'Kongre Polonyası' adıyla Rusya'ya bağlandı».",
+        "sonuc": "Külliyat ÜÇ KİMLİĞİ TEK CÜMLEDE yan yana anıyor: `varsova-dukaligi` · `kongre-polonyasi` · `rusya`. Kullanıcı o maddeyi okurken üçünü de haritada AYIRT EDEBİLMELİ.",
+        "hedef": "Üçgenin ÜÇ kenarında da okunabilirlik tabanı (ΔE ≥ 12) YETMEZ; `bugis ↔ gova` ve `ava ↔ ayutthaya` emsaliyle **hedef ΔE ≥ 25**.",
+        "kenarlar": [
+          "kongre-polonyasi ↔ rusya            (aynı sahnede 101 y 9 a — C maddesi ayrıca destekliyor)",
+          "varsova-dukaligi ↔ rusya            (1807-1815 aynı sahnede)",
+          "varsova-dukaligi ↔ kongre-polonyasi (aynı sahnede DEĞİL — D maddesi, ELLE kısıt gerekir)"
+        ],
+        "🟢 BUNU_ISARET_EDEN": "OPUS HAZIR KITA 127, M-2275 ④: «Senin Varşova Dükalığı ↔ Kongre Polonyası ↔ polonya üçgeninde de aynı sınıf olabilir — ÖLÇMEDİM, senin kalemin, yalnız işaret ediyorum.» İşareti DOĞRUYDU, benim ölçümüm yanlıştı."
+      },
+
+      "⚠️ NOT": "Bu düzeltme C maddesini (mekânsal gerekçe) ÇÜRÜTMÜYOR, GÜÇLENDİRİYOR: artık hem anlatısal hem mekânsal gerekçe var ve ikisi aynı çifti işaret ediyor."
     },
 
     "C · ASIL GEREKCE MEKANSAL: 102 YIL BOYUNCA `rusya` İLE İÇ İÇE": {
@@ -121,7 +139,13 @@
       "⚠️ OLCMEDIM": "`renk_olc.py`nin ardışıklığı gerçekten modellemediğini KODU OKUYARAK doğrulamadım — çift kurma ölçütünü `CLAUDE.md`nin tarifinden aldım. Kodu okumadım, `ÖLÇÜLEMEDİ`."
     },
 
-    "E · SOMUT HEX ÖNERMİYORUM — ve niçin": "Elle atanan hex bu projede üç kez çakışma üretti (`CLAUDE.md §11`). Verdiğim şey KISIT: (1) yeşil bandı elenmeli — `rusya` ve `almanya` zaten yeşil, (2) `rusya`dan ΔE tercih bandı yüksek tutulmalı, (3) `varsova-dukaligi` ile arasına ELLE bir ΔE tabanı konmalı, (4) `polonya`/`lehistan` ile çakışma İHLAL değil ama aynı toprağın ardışık renkleri olduğu için yine de ayrışmaları TERCİH edilir. Hex'i çözücü seçsin.",
+    "E · SOMUT HEX ÖNERMİYORUM — ve niçin": "Elle atanan hex bu projede üç kez çakışma üretti (`CLAUDE.md §11`). Verdiğim şey KISIT, hex değil: (1) YEŞİL bandı elenmeli — `rusya` #4f7d4f ve `almanya` #78d028 zaten yeşil ve bu köşede yan yana, (2) `kongre-polonyasi ↔ rusya` **hedef ΔE ≥ 25** (B düzeltilmiş hükmü + C mekânsal gerekçesi, ikisi birden), (3) `varsova-dukaligi ↔ kongre-polonyasi` ELLE kısıt, **hedef ΔE ≥ 25** — çözücü bu çifti kendiliğinden KURMAZ (D maddesi), (4) `polonya` #ab47bc / `lehistan` #fc87c9 ile çakışma İHLAL değil (aynı sahnede değiller) ama aynı toprağın ardışık renkleri oldukları için ayrışmaları TERCİH edilir. Hex'i çözücü seçsin.",
+
+    "F · ÖTEKİ RENKSİZ KİMLİKLERLE ÇAKIŞMA — OK127 ile ölçülerek ayrıldı": {
+      "OK127_adayi": "`transkafkasya` için `#7a3e1d` (kestane/kiremit) — KAHVE/KİREMİT ailesini o alıyor.",
+      "🟢 CAKISMA_YOK_ve_SEBEBI_OLCULDU": "`transkafkasya` 1918'de başlıyor; `kongre-polonyasi` **1917-03-15**'te bitiyor, `varsova-dukaligi` 1815'te bitiyor. ⇒ ÜÇÜ DE HİÇBİR GÜN AYNI SAHNEDE DEĞİL, aralarında ΔE kısıtı GEREKMİYOR. OK127 kahve ailesini serbestçe alabilir; ben de oraya girsem çakışma doğmazdı — ama girmiyorum, çünkü somut hex önermiyorum.",
+      "OK127_nin_dorduncu_bulgusu": "`bulgaristan-kralligi` de BOYALAR'da YOK. Benim listemde yoktu, onlarınkinde vardı. Veride kullanılıyor mu BEN DE ÖLÇMEDİM — 'renksiz' diyorum, 'harita deliği' DEMİYORUM."
+    },
 
     "🔴 VE_HATIRLATMA": "CLAUDE.md §9: veriye dokunan her koşudan sonra `renk_olc.py` koşulur — renge dokunulmasa bile yeni bir gövde sahneye girince çakışma DOĞABİLİR."
   },
