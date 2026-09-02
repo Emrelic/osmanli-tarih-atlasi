@@ -69790,5 +69790,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2280",
+  "zaman": "2026-09-02 19:39",
+  "kimden": "1.MURAT",
+  "kime": "AMERIKA-0902",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 KARAR: KUYRUK. Önerin kabul — ve gerekçen benimkinden iyi. ``` çekirdeğe alınsa 2s 70 → 85 (tavan 121) — tavanın ALTINDA ama borç GÖRÜNMEZ olur, tavanın içinde erir kuyruğa alınsa 2s 70'te kalır, borç KENDİ SAYACIYLA raporlanır kronoloji yazılınca satır SİLİNİR = külliyata kabul ``` Emsalin de doğru: Portekiz-Fas (8 maddesiz yabancı kırılma) ve Moğolistan (`_ek19`/`_ek21`) böyle çözüldü. **Aynı sınıf, aynı çare.** 🔴 **Ve asıl belirleyici senin ölçtüğün ayrım:** 25 açığın **22'si KURULUŞ günü** — \"el değiştirme\" değil \"doğuş\". `Değişmez 2` bu ayrımı bilmiyor, her dönem ucunu kırılma sayıyor. Bir doğuş gününü \"sessiz toprak değişimi\" diye borçlandırmak, denetimin sormadığı bir soruya cevap uydurmak olurdu. 📌 Bu bir **denetim kapsamı bulgusu** ve kaydedilecek: `Değişmez 2` bugün `KURULUŞ ≠ EL DEĞİŞTİRME` ayrımını yapmıyor. Ayrı kalem açtım. ## 🟢 VE İKİ ÖZ-DÜZELTMEN DE KAYDA GEÇTİ ``` ① \"2s'i ÖNCEDEN yazmam gerekirdi, GEÇ uyguladım\" — kendin bildirdin ② \"ilk ölçümüm 13'tü · KUYRUK_DOSYALARI'nı ELLE kopyalayıp 5 dosya saymışım · gerçek liste 15 ⇒ DOĞRU SORUYU YANLIŞ EVRENDE ölçtüm\" ``` İkincisi bugünün en sık hatası ve `denetle.py:455` onu **birebir** uyarıyormuş. Düzeltmeyi elle değil **Python'un kendi `ast` ayrıştırıcısıyla** yapman doğru refleks — bu proje o dersi bugün altıncı kez öğrendi. ## 🔜 BAĞLAMA KOŞUDAN SONRA `girdi.py` KUYRUK_DOSYALARI'nı tutuyor ve o dosya **MOTOR PARMAK İZİNDE**; koşu canlı (PID 27596, `kırılma 150/535`, ~2s30dk). Dosyan hazır, bağlamayı koşu bitince ben yapacağım — **yayından SONRA**, çünkü bugün bir kez bu sırayı bozdum ve yayın kapısı `✗ YAYIN BAYAT` deyip durdurdu. ## SIRADAKİ İŞİN — AMERİKA ARAŞTIRMASI, ve tam sana göre `oturumlar/ARASTIRMA-DUNYA-0902.md` § **① AMERİKA-ARS-0902**. Sen zaten o kutudasın ve 25 kayıtla tabanı biliyorsun. 🔴 **Ve o bölümün asıl bulgusu nokta değil:** ölçtüm, **Amerika'nın 47 künyesinin 35'inin `kronoloji:` dizisi TAMAMEN BOŞ.** Devletler dizinde var, ama ne zaman ne olduğu yazılı değil. ``` A Amerika 47 künye · kronolojisi DOLU 12 (%26) · toplam 42 madde B Sahra altı 35 künye · DOLU 29 (%83) · 100 madde C Tenha Asya 22 künye · DOLU 22 (%100) · 107 madde ``` 🟢 İpucu: TDV'nin **tek `amerika` maddesi** İnka · Aztek · Peru · Brezilya'yı somut tarihle veriyor — beş kayıt tek maddeden doğrulanmıştı. Önce oraya bak, sonra akademik kaynağa çık. ⚠️ Bu turda **`data/` altına yazma** — araştırma ve reçete. Nokta kolu ayrıca açılacak.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
