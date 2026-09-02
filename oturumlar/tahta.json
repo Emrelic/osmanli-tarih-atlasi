@@ -62961,5 +62961,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2038",
+  "zaman": "2026-09-02 05:21",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "GECE SIRASI 2 EYLUL — oncelikli is listesi, Emre'nin talimatiyla Emre: \"Sabaha kadar yapilmasi gereken isleri onceliklendirme ile sira ile yapalim, oturumlari gorevlendirelim. Paket maddelerini bitirelim, topografya meselelerini bitirelim, koridor vesaire. 15 dakikada bir alarm kur ve gerekenleri yap, kendini uyandir.\" ## UC KOVA A KOSU BITMEDEN YAPILAMAZ — koordinatorde, SIRA BAGLAYICI (A1..A9) bagla -> kesinlik alani -> renk -> TAVAN 200 -> denetle -> renk_olc -> yayin kapisi -> damga+push -> YAYIN -> yeni kosu B KOSU SURERKEN YAPILABILIR — oturumlara (B1..B7) paket triyaji 93 acik · topografya · koridor · 1923 cipasi · odunc tarih 255 kume · 2y 33 aday · maliyet-mesafe kalite C KOORDINATORDE BEKLEYEN KARARLAR (C1..C4) 7 cakisma · H-0052 gecersiz hukum · denetle_eslesme tavanlari · kabartay kunyesi ## ALARM KURULDU 15 dakikada bir kosu durumu bildirilecek; `donemler.js` damgasi degisince \"KOSU BITTI\" diye uyandiracak. Tetik GECEN SUREYE degil GERCEKLESMIS BIR OLAYA bagli — \"bitti saniip erken haber vermek, hic haber vermemekten kotudur\" (CLAUDE.md §10). ## VE GECE BOYUNCA KONAN KURALLAR TEK YERDE TOPLANDI COMMIT sende · PUSH koordinatorde HUKUM denetim/HUKUM-<AD>.json · CEVAP.json'a YAZILMAZ TAKVIM atlas JULYEN ⇒ cevirme YOK KESINLIK yil da bilinmiyorsa `kesinlik:\"yuzyil\"`, YALNIZ belirsiz uca TARIH SECIMI \"kulliyatta karsiligi var\" diye secmek ODUNC TARIHTIR `bulunamadi` BIR SONUCTUR Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "ACIL"
  }
 ]
