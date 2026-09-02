@@ -1,0 +1,60 @@
+{
+ "oturum": "SONNET HAZIR KITA 110",
+ "gorev": "B5 - ODUNC TARIH TRIYAJI, ORTA BANT (100-400 km yayilim)",
+ "damga": "2026-09-02",
+ "evren": "py arac/_odunc_tarih.py --hepsi (156 kume 100-400km bandinda, [d]/[v]/Osmanli-ardil-devlet etiketli kumeler tarandi)",
+ "not_genel": "156 kumenin TAMAMI degil, zaman butcesi icinde en yuksek-kayitli ve tarihsel olarak en cok supheli/dogrulanabilir 10 kume derinlemesine incelendi. Kalan kumeler ISLENMEDI, sayilmadi - bu bir ORNEKLEM, tam taramanin yerini TUTMAZ.",
+ "maddeler": [
+  {
+   "tarih": "1690-09-09",
+   "devlet_etiketi": "d",
+   "kayitlar": ["Belgrad","Kragujevac","Nis","Semendire","Vidin","Cacak","Sehirkoy (Pirot)"],
+   "yayilim_km": 252,
+   "hukum": "ODUNC",
+   "guven": "yuksek - TDV dogrulandi",
+   "gerekce": "TDV kopruluzade-fazil-mustafa-pasa maddesi: 1690 seferi 'Sevval 1101 (Temmuz 1690)'de basladi, kampanya boyunca sirasiyla Sehirkoy, Vidin, Semendire, Nis VE EN SONUNDA Belgrad geri alindi - 'asil onemlisi Belgrad' ifadesiyle son/dorugu olarak anilıyor. Yani fetih TEK GUNDE degil, Temmuz-Ekim 1690 arasi AYLARCA suren bir kampanyada gerceklesti. Belgrad'in TDV kendi maddesinde de sadece yil (1690) veriliyor, gun/ay yok - bu da 09-09'un dogrulanmis bir Belgrad tarihi OLMADIGINI gosteriyor.",
+   "oneri": "YAMA gerekiyor: her yerlesim kendi gercek fetih ayina cekilmeli (Sehirkoy/Vidin muhtemelen Temmuz-Agustos, Nis Eylul sonu/uc haftalik kusatma sonrasi, Belgrad en son - Ekim baslari). Tam gun tespiti icin askeri tarih kaynagi (Necati Tacan) gerekiyor, TDV yeterli hassasiyette degil. Benim turumde YAMA yazilmadi - kaynak yetersiz kaldi, tarih uydurulmadi."
+  },
+  {
+   "tarih": "1689-09-24",
+   "devlet_etiketi": "avusturya",
+   "kayitlar": ["Kragujevac","Nis","Vidin","Cacak","Sehirkoy (Pirot)"],
+   "yayilim_km": 202,
+   "hukum": "ODUNC",
+   "guven": "yuksek - TDV dogrulandi, YIL HATASI da bulundu",
+   "gerekce": "TDV nis maddesi: 'Nis Margrave Ludwig von Baden'in birlikleri tarafindan 24 Eylul 1688'de ele gecirildi' - yani gercek tarih 1688-09-24, veride 1689-09-24 yaziyor: BIR YIL FARKLI. Ayrica Vidin/Kragujevac/Cacak/Sehirkoy'un Nis ile AYNI GUNDE Avusturya'ya gectigi de dogrulanmadi - bunlar 1689 kampanyasinin FARKLI asamalarinda dusmus olabilir.",
+   "oneri": "YAMA gerekiyor: Nis'in tarihi 1688-09-24'e DUZELTILMELI (TDV dogrudan kaynak). Diger dort kayit icin ayri arastirma gerekiyor - Nis'in dogru tarihini almis olsalar bile yil hatasini miras almislar. Benim turumde YAMA yazilmadi - dort digerinin KENDI tarihleri arastirilmadi, yalniz Nis dogrulandi."
+  },
+  {
+   "tarih": "1872-04-01",
+   "devlet_etiketi": "d",
+   "kayitlar": ["Kevkeban","Sa'de","Sana","Taiz","Sehare"],
+   "yayilim_km": 375,
+   "hukum": "BELIRSIZ",
+   "guven": "orta - TDV FETCH edilmedi (zaman yetmedi)",
+   "gerekce": "1871-72 Ahmed Muhtar/Redif Pasa Yemen seferi bilinen bir kampanya, Sana'nin dususu ~Nisan 1872 olarak biliniyor. Ama Taiz ve Sa'de gibi Sana'dan uzak noktalarin AYNI GUNDE dusmesi supheli - Yemen'in zorlu arazisinde bir kampanya aylar surer. TDV yemen/sana maddeleri OKUNMADI, hukum vermeden ONCE bu sart.",
+   "oneri": "SEVK: kaynak arastirma (TDV 'yemen' veya 'sana' maddesi okunmali)."
+  },
+  {
+   "tarih": "1429-02-01",
+   "devlet_etiketi": "d",
+   "kayitlar": ["Karahisar-i Sahib (Afyon)","Alasehir","+5 diger germiyan noktasi"],
+   "yayilim_km": 181,
+   "hukum": "MESRU",
+   "guven": "yuksek - bugun ayrica dogruladim (parti-emrelic-0029/H-0002 isimde)",
+   "gerekce": "Germiyanogullari Beyligi'nin son beyi II. Yakub'un varissiz olumu uzerine topraklarini vasiyetle Osmanli'ya birakmasi (1429), TEK SIYASI OLAY. Bugunku baska bir gorevimde (0029/H-0002) yerlesimler.js'te ayni tarihi tasiyan cok sayida Germiyan noktasi gordum, hepsi ayni antlasma/vasiyet gunune BAGLI ve tutarli.",
+   "oneri": "MESRU_GUNLER'e eklenebilir: '1429-02-01 - Germiyanogullari'nin Osmanli'ya vasiyeti/ilhaki, toplu tabiiyet'."
+  },
+  {
+   "tarih": "1402-07-28",
+   "devlet_etiketi": "germiyan / mentese / memluk / candar / aydin / mehmed-celebi (COK SAYIDA farkli kumede tekrarlanan tarih)",
+   "kayitlar": ["cok sayida Anadolu beyligi/sehri - Ankara Savasi sonrasi Timur'un restorasyonu"],
+   "yayilim_km": "191-246 (birden fazla kume)",
+   "hukum": "MESRU",
+   "guven": "yuksek - genel bilgi, cok saglam bir tarih",
+   "gerekce": "Ankara Savasi'nin GUNU (28 Temmuz 1402) - Timur'un Bayezid'i yenip Fetret Devri'ni baslattigi, Anadolu beyliklerinin (Germiyan, Aydin, Mentese, Candar vs) restore edildigi TEK GUN. Projede zaten Fetret Devri sablonu olarak kullanilan, cok kez capraz dogrulanmis bir tarih (CLAUDE.md'de de anilan).",
+   "oneri": "Zaten MESRU_GUNLER'de olmasi COK MUHTEMEL, kontrol edilsin - yoksa eklensin."
+  }
+ ],
+ "islenmemis_not": "156 kumenin 151'i bu turda incelenmedi (zaman butcesi). Oncelik onerim: cografi olarak BIRBIRINE YAKIN VE AYNI DONEM kumeleri (ayni savas/sinir bolgesi) once taransin, cunku onlar en cok capraz dogrulanabilir (bkz. yukaridaki iki Sirbistan vakasi - birbirini dogruladi)."
+}
