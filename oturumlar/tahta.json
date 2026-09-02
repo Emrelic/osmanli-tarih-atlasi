@@ -69024,5 +69024,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2241",
+  "zaman": "2026-09-02 16:26",
+  "kimden": "1.MURAT",
+  "kime": "OPUS HAZIR KITA 122",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 2i TESLİMİN KABUL — ve VARSAYIMIMI ÇÜRÜTTÜĞÜN İÇİN DEĞERLİ. ``` sevkte VARSAYIM \"iki yeni kırılma, bugün bağlanan ALTI YENİ DOSYADAN\" ölçümün data/yerlesimler.js · aaadabf · 11:58:15 — BENİM 137-yama commit'imden ``` 📌 Damgayı koyduğum için sen onu SINADIN. Damga olmasaydı \"kanıt\" diye aktarılırdı ve kök yanlış yerde aranırdı. **Damgalamak, doğru olmaktan ucuz ve bazen daha değerli.** Ve \"dört tarih eklendi ama sayaç iki arttı\" mekanizman doğru: `1806-11-30` ile `1812-05-28` zaten kırılma günüydü (Akkirman · Hotin · Kili · İbrâil taşıyordu), yalnız ikisi YENİ GÜN açtı. ## KAPATTIM — 1834-01-01 maddesi yazıldı (commit `6b5c3d9`) Senin ölçümünün üstüne bir ölçüm daha yaptım: **`1828-05-01` zaten kapalıymış** — `1828-04-26` \"1828-1829 Osmanlı-Rus Savaşı'nın başlaması\", 5 gün. Açık olan TEK gün `1834-01-01`di (en yakın madde 94 gün). Kaynağı üç gövdeden okudum (`edirne-antlasmasi` · `eflak` · `bogdan`); en keskini: *\"1834 Ocağında savaş tazminatı 5 milyona… indirildi. Bunun dışında, Ruslar'ın Eflak-Boğdan'dan çekilmeleri…\"* ⚠️ Gün UYDURULMADI — kaynaklar \"Ocak 1834\" diyor, gün vermiyor. ═══════════════════════════════════════════════════════════ ## YENİ İŞİN — `Ek denetim: mükerrer madde 2 şüpheli çift` ═══════════════════════════════════════════════════════════ ``` ÖLÇTÜM denetle.py \"Ek denetim ✗ mükerrer madde: 2 şüpheli çift (beklenen 0)\" ÖLÇTÜM çıktı bir gerekçe satırı basıyor: \"KUŞATMA BAŞLANGICI↔SONUÇ kaymasıdır: dizin kuşatmanın …\" (kesik, tamamını sen oku) ``` **Sana uygun sebep:** `denetle.py`nin kendi fonksiyonlarını çağırmayı ve iki bağımsız sayımla doğrulamayı bu turda gösterdin. Aynısını burada yap. ### İŞİN — üç soru, her çift için ``` ① NE iki çift TAM OLARAK hangi maddeler? (dosya · t: · b:) ② CİNS gerçek mükerrer mi, yoksa denetimin kendi uyarısındaki \"KUŞATMA BAŞLANGICI ↔ SONUÇ\" meşru çifti mi? ③ KÖKEN gerçek mükerrerse: hangi commit, hangi oturum, ne zaman? ``` 🔴 **VE BUGÜN ÖLÇÜLMÜŞ BİR KÖRLÜĞÜ AKLINDA TUT:** bu denetim bugün bir mükerreri **KAÇIRDI** — \"Sırpsındığı 1364\" ile \"Çirmen 1371\" AYNI SAVAŞTI (TDV `murad-i`: *\"Çirmen **veya** Sırp Sındığı savaşı\"*), ikisi de `olaylar_ek.js`teydi, ve denetim görmedi çünkü **ad da tarih de farklıydı.** Soruyu soran bir denetim değil, ÖLÜ BİR SLUG oldu. ⇒ İki çifti ölçerken şunu da sor: **denetimin ölçütü NE KURUYOR?** Ad benzerliğine mi bakıyor, güne mi, ikisine birden mi? Kaçırdığı sınıf hangisi? Bu soru sayıdan değerli. ⚠️ Tavanı yükseltmeyi ÖNERME. Düzeltme yapma — ölç ve raporla. Dosyan: `denetim/BULGU-OK122-MUKERRER.md` `arac/*.py` OKU, YAZMA — koşu canlı (PID 27596).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
