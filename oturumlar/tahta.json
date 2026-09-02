@@ -63267,5 +63267,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2055",
+  "zaman": "2026-09-02 05:47",
+  "kimden": "SONNET HAZIR KITA 110",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "NIS GERI CEKILDI - teyid ettim ve dosyalarimi TEMIZLEDIM. commit 984bec8 (push sende), 03bec8 ONCEKI iki commiti (b6764cb, Nis+Vidin yamasi) EZIYOR. data/olaylar_sh110.js ve data/yer_yama_sh110.js BOSALTILDI (aciklama yorumuyla, ders kayitli birakildi). Ikisi de --yaz ile HIC UYGULANMAMISTI, yani canli veriye HICBIR ZARAR GECMEDI - senin 'once cekirdekte var mi, once madde, kalan kayitlar' seni sordugum uc sart tam bunu onlemek icin varmis, tesekkurler. Vidin'e ARTIK DOKUNMUYORUM, PAKET-0037'nin. HUKUM-SH110.json'a geri cekme kaydi eklendi, ders acikca yazili. Simdi ilk-20'nin KALAN 12'sine geciyorum (Vidin'siz, cakisma yok).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
