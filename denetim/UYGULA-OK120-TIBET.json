@@ -146,20 +146,82 @@
     }
   },
 
-  "ACIK_KARAR": {
-    "ACIK_KARAR_1": {
+  "🟢_KARAR_VERILDI": {
+    "karar_veren": "EMRE — 3 Eylul 2026, dogrudan soruldu",
+    "KARAR_1": {
       "soru": "1751-1910 arasi (159 yil) HANGI KIMLIK?",
-      "secenek_A": "tibet-ganden-phodrang — TDV 'vasal devlet' diyor; joseon/ryukyu/nepal emsali",
-      "secenek_B": "qing-hanedani — TDV 1720'den beri Qing idaresi; Mogolistan/Kobdo emsali",
-      "ONERIM": "B, yukaridaki dort sebeple. AMA A savunulabilir ve karar senin.",
-      "🔴_ETKI": "159 yil. Secenek A secilirse 1720-1751 tek basina 31 yillik bir Qing dilimi kalir ve 1751-1910 yine bagimsiz gorunur."
+      "KARAR": "qing-hanedani — Mogolistan emsali",
+      "sonuc": "1720-1910 TEK PARCA Qing. Tibet haritada 190 yil Qing renginde gorunur.",
+      "gerekce": "atlasin kendi emsali: Kobdo · Urga · Karakurum ayni donemde qing-hanedani tasiyor; Tibet Qing idaresindeki TEK bolgeydi ki tasimiyordu"
     },
-    "ACIK_KARAR_2": {
-      "soru": "Cin Cumhuriyeti donemi Lhasa'da NE ZAMAN biter?",
-      "olcum": "Camdo'da 1918-08-19 yaziyor ama o KHAM'in tarihi. Lhasa icin ayri tarih gerekir.",
-      "aday": "1913-01-01 (XIII. Dalay Lama'nin donusu ve Cin garnizonunun tasfiyesi)",
-      "🔴_KAYNAK_DURUMU": "TDV bu gunu VERMIYOR. Aday tarihi AKADEMIK KAYNAKTAN dogrulanmali; BEN ARAMADIM. Kaynaksiz yazilmasin — uydurma tarih bu projede yasak."
+    "KARAR_2": {
+      "soru": "Lhasa'da Cin Cumhuriyeti donemi ne zaman biter?",
+      "KARAR": "ONCE KAYNAK ARANSIN — simdilik YAZILMASIN",
+      "sonuc": "1912-02-12 sonrasi Lhasa·Sigatse·Gyantse'de tibet-ganden-phodrang OLARAK KALIR (bugunku hali). Cin Cumhuriyeti dilimi bu partide YAZILMAZ.",
+      "gerekce": "TDV gunu vermiyor, ben aramadim, kaynaksiz tarih bu projede yasak",
+      "🔜_ACILACAK_IS": "Shakabpa `Tibet: A Political History` (1967) ve Petech taramasi — XIII. Dalay Lama'nin donusu ve Cin garnizonunun tasfiyesi gunu"
     }
+  },
+
+  "🟢_KARARIN_BEKLENMEDIK_YAN_ETKISI": {
+    "bulgu": "KARAR_1 bir kirilma gununu ORTADAN KALDIRDI",
+    "aciklama": [
+      "1720-1910 tek parca Qing olunca 1751-01-01 ARTIK KIRILMA DEGIL.",
+      "Ve 1751-01-01, Degismez 2 sinavinin EN KOTU gunuydu:",
+      "  CEKIRDEK en yakin madde 712 GUN uzakta (ACIK ihlal).",
+      "Ayrica 1910-02-12 de kirilma olmaktan cikti (oncesi ve sonrasi qing).",
+      "⇒ Onerilen YENI kirilma gunu sayisi 3'ten 2'ye dustu."
+    ],
+    "damga": "Karar sadeligi ARTIRDI — daha az gun, daha az madde borcu"
+  },
+
+  "🟢_UYGULANACAK_NIHAI_ZINCIR": {
+    "Lhasa · Sigatse · Gyantse (UCU DE AYNI)": [
+      "s: yuan-hanedani          1281-01-01 -> 1354-01-01   DEGISMEZ",
+      "s: tibet                  1354-01-01 -> 1642-01-01   DEGISMEZ",
+      "s: tibet-ganden-phodrang  1642-01-01 -> 1720-01-01   ← t: KISALDI (eski 1923-10-29)",
+      "s: qing-hanedani          1720-01-01 -> 1912-02-12   ← YENI donem",
+      "s: tibet-ganden-phodrang  1912-02-12 -> 1923-10-29   ← YENI donem (eskinin kalani)"
+    ],
+    "Camdo (Chamdo)": [
+      "s: yuan-hanedani          1281-01-01 -> 1354-01-01   DEGISMEZ",
+      "s: tibet                  1354-01-01 -> 1642-01-01   DEGISMEZ",
+      "s: tibet-ganden-phodrang  1642-01-01 -> 1720-01-01   ← t: KISALDI (eski 1910-02-12)",
+      "s: qing-hanedani          1720-01-01 -> 1912-02-12   ← mevcut 1910-1912 dilimiyle BIRLESIR",
+      "s: cin-cumhuriyeti        1912-02-12 -> 1918-08-19   DEGISMEZ (mevcut)",
+      "s: tibet-ganden-phodrang  1918-08-19 -> 1923-10-29   DEGISMEZ (mevcut)"
+    ],
+    "🔴_CAMDO_LHASA_FARKI_KASITLIDIR": [
+      "Camdo 1912-1918 arasi cin-cumhuriyeti, Lhasa DEGIL.",
+      "Sebep: Lhasa'da Cin garnizonu 1912-13'te tasfiye edildi, Kham'da",
+      "1918'e kadar surdu. IKI AYRI OLAY, ve Camdo'nun 1918-08-19'u",
+      "Lhasa'ya TASINMAZ. Bu fark KUSUR DEGIL, veridir.",
+      "⚠️ Lhasa'nin 1912-1913 arasi Cin dilimi KARAR_2 geregi YAZILMADI —",
+      "  yani bu zincir Lhasa icin EKSIK ama YANLIS DEGIL: 1912-02-12'de",
+      "  Qing biter ve Tibet kendi rengine doner. Arada ~1 yillik Cin",
+      "  garnizonu donemi ifade EDILMEZ, ve bu KAYITLI bir borctur."
+    ]
+  },
+
+  "🔴_YENI_KIRILMA_GUNU_SADECE_IKI": {
+    "1720-01-01": {
+      "ne": "Qing ordusunun Lhasa'ya girisi, dogrudan idarenin baslamasi",
+      "kaynak": "TDV `tibet` — yil veriyor, gun VERMIYOR ⇒ §4: YYYY-01-01",
+      "Degismez_2": "🔴 CEKIRDEKTE 0 gun uzaklikta madde VAR ama ALAKASIZ (Levni'nin Surname-i Vehbi'yi resimlemesi)",
+      "SART": "CEKIRDEGE kendi maddesi YAZILMALI — yoksa Tibet'in el degistirmesi bir minyatur maddesinin altinda belirir"
+    },
+    "1912-02-12": {
+      "ne": "Qing hanedaninin sona ermesi; Tibet kendi rengine doner",
+      "kaynak": "qing-hanedani kunyesinin kendi t: gunu — ZATEN projede",
+      "Degismez_2": "KUYRUKTA 0 gun (kronoloji_cin.js: Puyi'nin feragati) · CEKIRDEKTE 30 gun (Sisam — alakasiz)",
+      "SART": "CEKIRDEGE madde yazilmali ya da kuyruktaki madde cekirdege TASINMALI",
+      "not": "Camdo'da bu kirilma ZATEN var; Lhasa·Sigatse·Gyantse icin YENI"
+    },
+    "DUSEN_GUNLER": [
+      "1751-01-01 — KARAR_1 sonrasi kirilma DEGIL (712 gun acikti, sorun ORTADAN KALKTI)",
+      "1910-02-12 — Camdo'da kirilma olmaktan cikti (oncesi de sonrasi da qing)",
+      "ACIK_KARAR_2 gunu — KARAR_2 geregi bu partide YAZILMIYOR"
+    ]
   },
 
   "IKI_UC_DA_OLCULDU": {
@@ -254,13 +316,17 @@
   ],
 
   "SAYIM": {
+    "🟢_KARAR_SONRASI": "Emre'nin iki karariyla guncellendi, 3 Eylul 2026",
     "dokunulacak_kayit": 4,
     "dokunulacak_dosya": 1,
     "yeni_kunye": 0,
     "yeni_renk": 0,
     "yeni_kimlik": 0,
-    "yeni_kirilma_gunu": "3 yeni (1720 · 1751 · ACIK_KARAR_2) + 2 yayilan (1910-02-12 · 1912-02-12, Camdo'da ZATEN var)",
-    "yazilmasi_gereken_kronoloji_maddesi": 5,
-    "acik_karar": 2
+    "yeni_kirilma_gunu": 2,
+    "yeni_kirilma_gunleri": ["1720-01-01", "1912-02-12"],
+    "yazilmasi_gereken_kronoloji_maddesi": 2,
+    "acik_karar": 0,
+    "kayitli_borc": 1,
+    "borc": "Lhasa'da 1912-1913 arasi Cin garnizonu donemi — KARAR_2 geregi kaynak arandiktan SONRA yazilacak. Bu bir GECIKMEDIR, kusur DEGIL, ve burada KAYITLIDIR (§11: kayitsiz gecikme yarin kusur diye yeniden bulunur)."
   }
 }
