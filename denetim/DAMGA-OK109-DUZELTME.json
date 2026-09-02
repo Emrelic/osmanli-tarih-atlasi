@@ -1,0 +1,82 @@
+{
+  "is": "6 `bulunamadı` damgasının yeniden sınanması — ARALIK + HİCRÎ + SLUG VARYANTI",
+  "oturum": "OPUS HAZIR KITA 109",
+  "damga": "2026-09-02 · sevk: 1.MURAT, `anadolu-hisari` damgasını çürüttükten sonra",
+  "uyari": "VERİYE DOKUNULMADI. Uygulama koordinatörün.",
+
+  "🔴_SONUC": "ALTI DAMGANIN YALNIZ BİRİ DOĞRUYMUŞ. 3 çürüdü · 1 ayakta · 2 ÖLÇÜLEMEDİ",
+
+  "nicin_curudu_ALETIN_UC_KUSURU": {
+    "①_yil_bicimi": "Düz `1395` araması, kaynağın yazdığı `\"1394-95\"` dizgisini bulmaz — içinde `1395` ALT-DİZGİSİ yoktur. Aralık biçimi hiç aranmamıştı.",
+    "②_hicri": "Kaynak çoğu zaman hicrî veriyor (`797` · `982` · `998`). Hicrî yıl hiç aranmamıştı.",
+    "③_slug_bicimi": "`anadolu-hisari` 3.556 karakterlik BOİLERPLATE döndürüyor; canlı madde TİRESİZ `anadoluhisari` ve 12.502 karakter. Benim boşluk eşiğim 2000'di ve 3556 ONU GEÇTİ ⇒ boilerplate 'gövde geldi' sayıldı.",
+    "④_anahtar_kalibi": "`ferhad-pasa` için anahtarım `İstanbul antlaşma` idi; kaynak `İstanbul'DA YAPILAN antlaşma` yazıyor — eşleşmez. Ve bu cümle CLAUDE.md §4'te ZATEN ALINTILIYDI; kendi belgemizdeki cevabı kullanmadım.",
+    "ortak_kok": "Dördü de aynı aile: ALET, ARADIĞI ŞEYİN NEREDE OLMAYACAĞINI bilmiyor — başka yıl biçiminde, başka takvimde, başka slug yazımında, başka cümle kalıbında."
+  },
+
+  "A_CURUYEN_UC": [
+    {
+      "kayit": "olaylar_ek.js · 1395-08-01 · «Anadolu Hisarı'nın yapımı»",
+      "damga_yerine": "anadoluhisari",
+      "bulan": "1.MURAT (koordinatör)",
+      "kanit": "«Nişancı Mehmed Paşa'ya göre ise burası 797'de (1394-95) yapılmıştır»",
+      "durum": "koordinatör uyguladı, commit e9ba26c"
+    },
+    {
+      "kayit": "olaylar_ek2.js · 1590-03-21 · «Ferhad Paşa Antlaşması — doğuda en geniş sınırlar»",
+      "damga_yerine": "luristan",
+      "bulan": "OPUS HAZIR KITA 109",
+      "kanit": "«Bir ara 998'de (1590) İstanbul'da yapılan antlaşmaya göre Osmanlı idaresine bağlanan Luristan'ı Şah I. Abbas Safevîler'e tam olarak bağladı (1603)»",
+      "🔴_ozel_not": "Bu cümle CLAUDE.md §4'te KELİMESİ KELİMESİNE alıntılı: «TDV'deki adı 'İstanbul antlaşması' olarak geçiyor (`luristan` maddesi)». Yani cevap belgede YAZILIYDI ve ben aletimi ona göre kurmadım.",
+      "durum": "ÖNERİ — uygulanmadı"
+    },
+    {
+      "kayit": "olaylar_ek2.js · 1575-03-01 · «Selimiye Camii tamamlandı»",
+      "damga_yerine": "edirne",
+      "bulan": "OPUS HAZIR KITA 109",
+      "kanit": "«Edirne'yi taçlandıran Selimiye Camii ise Mimar Sinan'ın şaheseri olup II. Selim tarafından 976-982 (1568-1574) yılları arasında yaptırılmıştır»",
+      "bulunma_yolu": "HİCRÎ 982 kalıbı — düz `1575` araması bunu HİÇ bulamazdı",
+      "🟡_TARIH_NOTU_AYRI_KOVA": {
+        "kayit_diyor": "1575-03-01",
+        "TDV_diyor": "976-982 (1568-1574) — yani tamamlanma 1574",
+        "celiski_var_mi": "HAYIR, ama örtüşme dar: 982 AH ≈ 23 Nisan 1574 – 12 Nisan 1575. Kaydın 1575-03-01 tarihi 982 AH'ın İÇİNDE. TDV miladî karşılığı 1574 diye YAZIYOR.",
+        "hukum": "Adres doğru; TARİH ayrı bir karardır ve BENDE DEĞİL. Sırpsındığı vakasının aynı sınıfı — ama orada TDV kaydın yılını AÇIKÇA 'yanlıştır' diyordu, burada DEMİYOR.",
+        "🔴_olcmedigim": "Kaydın 1575-03-01 gününün nereden geldiğini araştırmadım."
+      },
+      "durum": "ÖNERİ — uygulanmadı"
+    }
+  ],
+
+  "B_AYAKTA_KALAN_TEK_DAMGA": {
+    "kayit": "olaylar_ek.js · 1421-08-15 · «Düzmece Mustafa ayaklanması»",
+    "damga": "bulunamadı — arandı, TDV'de 1421 için olayı tarihiyle veren gövde yok",
+    "nicin_saglam": "BEŞ gövde tam olarak okundu (mustafa-celebi 15.776 · murad-ii 61.296 · mehmed-i 30.473 · edirne 111.618 · gelibolu 37.439 karakter). Beşi de «Düzmece»yi anıyor, hiçbiri 1421/1422/824/825 ya da aralık biçimini onun yanına koymuyor.",
+    "hicri_ve_aralik_de_denendi": true
+  },
+
+  "C_🔴_OLCULEMEDI_IKI": {
+    "aciklama": "Bu ikisi 'arandı, yok' DEĞİLDİR ve öyle raporlanamaz — en ilgili maddelerinin GÖVDESİ ALINAMADI (§4④). Kendi kuralım: 'ölçülemedi asla TEMİZ diye raporlanmaz', ve 'arandı, yok' bir temizlik biçimidir.",
+    "kayitlar": [
+      {
+        "kayit": "olaylar_ek3.js · 1691-08-19 · «Salankamen bozgunu — Fâzıl Mustafa Paşa şehit»",
+        "okunabilen": ["belgrad (12.183)", "avusturya (68.327)"],
+        "OKUNAMAYAN": ["fazil-mustafa-pasa — 2.368 kar. boilerplate, ÜÇ denemede de aynı",
+                       "koprulu-ailesi — ölü", "petrovaradin — ölü", "salankamen — ölü"],
+        "🔴_neden_agir": "Fâzıl Mustafa Paşa SALANKAMEN'DE ŞEHİT DÜŞTÜ — yani damganın EN İLGİLİ maddesi ve gövdesi hiç gelmedi. Damga o gövde okunmadan verilemez."
+      },
+      {
+        "kayit": "olaylar_ek3.js · 1684-03-05 · «Kutsal İttifak kuruldu»",
+        "okunabilen": ["viyana (38.908)", "mehmed-iv (35.988)", "avusturya (68.327)", "venedik (21.981)"],
+        "OKUNAMAYAN": ["karlofca-antlasmasi — ölü (ARAMA sayfası)",
+                       "lehistan — 2.305 kar. boilerplate, ÜÇ denemede de aynı"],
+        "not": "Dört hatırı sayılır gövde okundu ve hiçbirinde yok — ama Kutsal İttifak'ı bitiren antlaşmanın maddesi ile Lehistan maddesi okunamadı. Daha zayıf bir 'ölçülemedi', ama yine de 'arandı, yok' değil."
+      }
+    ]
+  },
+
+  "D_ALET_KUSURU_KAYDI": {
+    "boilerplate_esigi": "2000 → 6000'e çekildi VE 'anahtar hiç geçmiyor' şartıyla birleştirildi. Eski eşik 2305-3556 arası boilerplate'leri GEÇİRİYORDU.",
+    "uc_denemeli_dogrulama": "§4④ 'çekilemedi, tekrar denenecek' der. Üç deneme yapıldı; dördü de HER SEFERİNDE aynı boyutu döndürdü ⇒ geçici değil, KALICI. Bu, `mazenderan` vakasının aynısı.",
+    "yil_kaliplari": "Artık düz yıl + `YYYY-YY` + `YYYY-YYYY` (iki yönde) + hicrî adaylar birlikte aranıyor."
+  }
+}
