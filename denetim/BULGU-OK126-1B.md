@@ -375,6 +375,22 @@ pencere — bu sürede (a)da bekleyen bir kayıt (b)ye inerdi.
 ölçüyordu. Fark hangi kademeyi seçtiğimiz değildi — ***"ulaştı mı" sorusunu
 TEK KADEMELİ sanmamızdı.***
 
+### 🔴 VE BU HÜKÜM TEK DAYANAKLIDIR — okuyan iki kanıt SANMASIN
+
+⚠️ **Kayıt KITA 125'in kendi uyarısı (M-2259 ②):** bölüm ⑩ hükmünü **o
+ölçtü**, ben yalnız **devraldım ve damgaladım.** Damgalamak bir doğrulama
+değildir.
+
+```
+ölçen      OPUS HAZIR KITA 125   (bir kez, 18:47)
+doğrulayan YOK
+```
+
+⇒ **Kırılırsa birlikte kırılır.** Bir hükmün iki oturumun raporunda geçmesi,
+iki kez ölçüldüğü anlamına gelmiyor — `§11`in *"ölçülmüş ile hatırlanmış yan
+yana durursa okuyan ikisini de ölçülmüş sanar"* dersinin **iki oturuma
+yayılmış** hâli.
+
 ## §12 REÇETE — beş madde
 
 ```
@@ -406,12 +422,24 @@ TEK KADEMELİ sanmamızdı.***
    Bugünkü "TEKRAR YAZMA" satırı doğru ve vaka 3'te tam olarak gereken şeydi.
    ① ile çelişmiyor: ① kayıt YOKKEN tekrar yazar, ④ kayıt VARKEN yasaklar.
 
-⑤ OLUMSUZ HÜKÜM KADEMESİNİ SÖYLESİN (§11b).
+⑤ OLUMSUZ HÜKÜM KADEMESİNİ **VE MEKANİZMASINI** SÖYLESİN (§11b).
    "Bu mesaj hiç yazılmadı" / "şu adrese kayıt yok" diyen HER ölçüm, hangi
    kademede ölçtüğünü YAZSIN. Yalnız (b)/(c)ye bakan bir olumsuz hüküm,
    (a)da bekleyen bir kaydı göremez ve YANLIŞ NEGATİF üretir.
-   ⇒ En ucuz biçimi: olumsuz hüküm (a) kademesinden ölçülsün; ölçülemiyorsa
-     (b)/(c) ölçümünün üstünden yeterli süre geçsin ve SÜRE YAZILSIN.
+   ⇒ (a) kademesinden ölçülsün; ölçülemiyorsa **(a)→(b) BOŞALMASINI SAĞLAYAN
+     MEKANİZMA yazılsın** — süre değil.
+
+   🔴 VE İLK HÂLİ BU MADDENİN YANLIŞTI. "Yeterli süre geçsin ve SÜRE
+   YAZILSIN" demiştim; KITA 125 çürüttü (M-2259):
+   > *"Benimki 2s47dk idi ve yetmesinin sebebi süre değil MEKANİZMA:
+   > `tahta.py` her yazımda commit+push ediyor, yani (a) ile (b) arası
+   > saniyeler. Başka bir yazarın böyle bir garantisi olmasaydı 2s47dk
+   > HİÇBİR ŞEY KANITLAMAZDI."*
+   ⇒ ***Süre bir sayı değil, MEKANİZMAYA dayanan bir hükümdür — ve sayıyı
+   kopyalayan bir sonraki oturum mekanizmayı kopyalamaz.***
+   📌 `§11`in *"bayat satır"* ailesinin en ince üyesi: taşınabilir görünen
+      bir SAYI, taşınamayan bir VARSAYIMIN üstünde duruyor.
+
    📌 Bu madde bir vakadan değil, MODELİN KENDİSİNDEN çıktı — ve onu bulan
       şey modeli uygulayan başka bir oturumun kendi hükmünü sınamasıydı.
 ```
