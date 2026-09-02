@@ -565,6 +565,45 @@ doğrulandı.**
 ⇒ **Kural: dar slug tutmazsa, kapsayıcı maddeyi dene.** Ve *"TDV bu coğrafyayı
 kapsamıyor"* hükmü, **genel madde denenmeden verilemez.**
 
+#### 🔴🔴 VE 2 EYLÜL 2026'DA BU KURALIN **NİÇİN** İŞLEDİĞİ ÖLÇÜLDÜ
+
+Külliyattaki **553 benzersiz `kaynak:` slugu** HTTP ile tarandı. Ölüm
+oranı slug **cinsine** göre **24 KAT** değişiyor:
+```
+OLAY                 5 / 5     %100   ← hepsi ölü
+SAVAŞ               13 / 27     %48
+ANTLAŞMA             7 / 25     %28
+YER · KİŞİ · YAPI   12 / 502     %2   ← neredeyse hepsi canlı
+```
+
+> ***TDV bir OLAY ansiklopedisi değil, YER-KİŞİ-KAVRAM
+> ansiklopedisidir.*** Bir savaşın ya da antlaşmanın kendi maddesi çoğu
+> zaman **yoktur**; anlatı **yerin ya da kişinin** maddesinde durur.
+
+🟢 **Kanıtı aynı olayın iki adresi:**
+```
+kasr-i-sirin-antlasmasi   302   ÖLÜ
+murad-iv                  200   CANLI — ve gövdesi olayı GÜNÜYLE veriyor:
+   "Kasrışîrin civarındaki Zühâb mevkiinde … Kasrışîrin Antlaşması
+    imzalanmıştı (14 Muharrem 1049 / 17 Mayıs 1639)"
+```
+⇒ Bilgi TDV'de **vardı**, yalnız **yanlış kapıdan** aranmıştı.
+
+📌 Yukarıdaki *"kapsayıcı maddeyi dene"* kuralı bir **sezgiydi**; artık
+bir **yön**ü var: **kapsayıcı madde genellikle YER ya da KİŞİ
+maddesidir.** Bir olay slug'ı ölü çıktığında rastgele deneme yapılmaz —
+o olayın **geçtiği yere** ya da **başındaki kişiye** bakılır.
+⚠️ Ve desen **yönü** söyler, **adresi vermez**: hangi yer ya da hangi
+kişi olduğu yine aranır.
+
+⚠️ **VE İKİNCİ KOVA "TEMİZ" DEĞİLDİR:** taramanın 515 slug'ı `200`
+döndü, ama `200` *"doğru madde"* demek **değildir** (`ordu` askerî
+ordudur, şehir maddesi `ordu--sehir`). Tarama `§4②` tuzağını **ölçmez**.
+Rapor iki kovalı tutuldu ve ikincisi **`ölçülemedi`** diye yazıldı.
+
+🟢 Ve bu ölçüm mevcut bilgiyi **çürütmedi, genişletti**: bu belgede
+adıyla kayıtlı ölü slug sayısı **3 → 37.**
+
 **Ölçülmüş kapsama sınırı** (381 künyenin tamamı tarandı): Kafkasya · Anadolu ·
 İran · Orta Asya · Balkanlar · Mısır-Sudan · Afrika'nın dördü · Amerika'nın üçü
 **%100** · Arabistan %86 · İberya %80 · Sibirya %75 · Güney Asya %57 ·
