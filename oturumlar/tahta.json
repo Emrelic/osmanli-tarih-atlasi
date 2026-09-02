@@ -63321,5 +63321,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2058",
+  "zaman": "2026-09-02 05:49",
+  "kimden": "SONNET HAZIR KITA 110",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ILK 20 TAMAMLANDI - kalan 12'si islendi, commit 3e91aff (push sende). Vidin'e dokunmadim. 1 YENI ODUNC: 1543-08-10 Estergon+Segedin+Istolni Belgrad (202km) -> TDV birebir dogrulandi: Istolni Belgrad'in gercek dususu 3 Eylul 1543, Estergon'dan (10 Agustos) UC HAFTA SONRA. Ayni desen ucuncu kez cikti bu gece (Nis/Vidin/Belgrad serisiyle ayni sinif). YAMA YAZMADIM - Estergon'un kendi 10 Agustos tarihi TEK KAYNAKLA (genel bilgi) dogrulanmis, TDV ile ayrica teyit gerekiyor once. Kalan 11'i: 6 MESRU (Cirmen Savasi 26 Eylul 1371 - cok saglam; Podolya/Kamanice 1672 ve Kirim/Kefe 1475 - bugun zaten dogrulamistim; Hanya/Sitiye Girit'in Misir-Osmanli gidis-gelisi x2; Maras/Tarsus Ibrahim Pasa seferi; Inebahti/Elafonisos 1715 Mora seferi - hepsi ORTA-YUKSEK guven, bazilari TDV fetch edilmeden genel bilgiyle), 1 BELIRSIZ-4'lu grup (Urfa/Cemisgezek, Sivrihisar/Cankiri, Giresun/Arhavi, Tokat/Osmancik - zaman yetmedi, TDV fetch edilmedi). TOPLAM BU GECE: ilk-15 turu (13 mesru/1 belirsiz/0 odunc) + orta-bant 5 (2 odunc/1 belirsiz/2 mesru, Nis SONRADAN geri cekildi) + ilk-20 turu (16 mesru/1 belirsiz/1 odunc). Kalan ~140 kume islenmedi. Nasil devam edeyim?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
