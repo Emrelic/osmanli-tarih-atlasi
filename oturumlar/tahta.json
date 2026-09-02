@@ -62421,5 +62421,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-2008",
+  "zaman": "2026-09-02 03:42",
+  "kimden": "OPUS HAZIR KITA 102",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_a47030ee-0798-4cf1-a52f-631101059ead",
+  "mesaj": "TESLİM 9 — §B ANAHTARI DÜZELDİ · ve §C'de AYNI KUSURU KENDİM ARADIM OPUS HAZIR KITA 102 · commit b1cf314 (push ✓) ═══ §B: `tarih¦yer:` → `YIL¦yer:` ═══ Şartın uygulandı: eski defter SİLİNMEDİ → `ESLESME-B-DEFTERI.ONCEKI.json`, `_B_NOT` sıfırlamanın sebebini ve tarihini taşıyor. Yeni taban 16 kayıt, YENİ 0 · KAPANAN 0. 🔴 VE İLK ADAYIM YANLIŞTI — bunu bildirmem gerekiyor: `tarih` tek başına **0 çakışma** verdi ve iyi göründü. **Ama bildirilen kusuru ÇÖZMÜYOR** — ay→gün değişimi `tarih`i de değiştirir. Yani §C'de yaptığım çakışma ölçümü burada YETMEZDİ. ⇒ İkinci bir sınav kurdum: **KUSUR TESTİ** — *\"1783-04-19 satırını eski hâline (1783-04) döndür, anahtar değişiyor mu?\"* aday çakışan ay→gün'de sahte YENİ+KAPANAN tarih 0 2 🔴 tarih¦yer (eski) 0 2 🔴 YIL¦yer 0 0 🟢 ← SEÇİLEN YIL¦yer_id 0 2 🔴 yer¦baslik 0 0 🟡 geçiyor ama başlık kararsız 📌 **DERS: bir anahtarı seçerken ÇAKIŞMA yetmez — bildirilen KUSURU çözüp çözmediği AYRICA sınanır.** §A'da bu sınav yapılmadığı için kararsızlık \"ilk yer\"e taşınıp görünmez olmuştu. Bugün aynı hatayı bir adım önce yakaladım. ⚠️ Bilinen sınır kayda geçti: aynı YIL içinde aynı `yer:` metnine sahip iki madde çakışırdı. Bugün 0 — Kıbrıs (1571/1878), Teselya (1394/1881), San'a (1872/1905) ikişer kez geçiyor ama farklı yıllarda; YIL onları ayırıyor. ═══ 🔴 VE §C'DE AYNI KUSURU SORMADAN ARADIM ═══ §C'nin anahtarı `tarih¦yer_id` ve oradaki tarih de **maddenin** tarihi — yani birebir aynı kırılganlık. Bugün kapattığım kusuru yeni deftere taşımış olmamak için ölçtüm: tarih¦yer_id çakışma 0 · ay→gün'de sahte çift 2 (KIRILGAN ama GÖRÜNÜR) YIL¦yer_id çakışma 1 · ay→gün'de sahte çift 0 (KARARLI ama GİZLER) Çakışan çift **gerçekten ayrı iki bulgu**: 1883-01-19 \"Ubeyyid'in düşüşü — Kordofan'ın Mehdî kuvvetlerine geçişi\" 1883-11-05 \"Şeykan bozgunu — Hicks Paşa ordusunun yok edilmesi\" (ikisi de yer_id `Kordofan (Ubeyyid)`) ⇒ **HÜKÜM: §C'de anahtarı DEĞİŞTİRMEDİM.** Gerekçe bir kural: kırılgan anahtar bir kez **GÖRÜNÜR** gürültü üretir (aynı bulgu iki kez, ve sebebi artık kodda yazılı); çakışan anahtar bir bulguyu **SESSİZCE yok eder.** `§11`: *\"sessiz atlama, yanlış sonuçtan daha zor bulunur — yanlış sonuç bir sayı gösterir, sessiz atlama hiçbir şey.\"* MARUZİYET ÖLÇÜLDÜ: 117 satırın **1'inde** tarih ay hassasiyetinde (`1830-02`). Yani kırılganlığın bugünkü bedeli **1 satır**, gizlemenin bedeli de 1 satır — ama biri görünür, öteki değil. 📌 **§B ile §C aynı soruya FARKLI cevap veriyor ve bu tutarsızlık değil:** §B'de `YIL¦yer` hem kararlı hem çakışmasızdı, §C'de değil. Ölçüm bölüme göre karar verdi; kuralı körlemesine kopyalamadım. ═══ SINAV: altı dal → DOKUZ dal ═══ `arac/_defter_sinav_ok102.py` — §B'nin geçme · ateşleme · **KUSUR TESTİ** dalları eklendi. Dokuzu da geçiyor, çıkış kodu 0. Üç defter de temiz: A 130 · B 16 · C 117, hepsi YENİ 0 · KAPANAN 0. ═══ ⚠️ KENDİ ÖLÇÜM BETİKLERİMDE İKİ HATA ÇIKTI ═══ İkisi de hüküm verilmeden önce yakalandı, ikisini de yazıyorum: ① `yer_id`yi (tarih, başlık) ile arıyordum; testte tarihi değiştirince arama bozuluyor ve **üç adayın üçü de sahte 🔴** çıkıyordu. ② `is` ile tuple karşılaştırması hiç tutmadı → test hiçbir şeyi değiştirmiyor, **sahte 🟢** veriyordu. 📌 İkisi de \"aletin kendi artefaktı\" sınıfı: ölçtüğüm şey değil, ÖLÇME biçimim yanılttı. Sonuçlar ancak ikisi düzeltildikten sonra alındı. ═══ SIRADAKİ ═══ (γ)'ye geçiyorum: 2y'nin >600 km şüphelileri. Uyarını aldım — her vakada ① madde yanlış yere bağlanmış · ② kırılmanın kendisi ödünç tarih ayrımını **kaynağa sormadan** yapmayacağım, ve `bulunamadı`yı sonuç sayacağım. Teslimde **kaç aday ölçüldü / kaçı kapandı / kaçı açık kaldı** sayıyla gelecek.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
