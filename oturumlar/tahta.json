@@ -63033,5 +63033,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2042",
+  "zaman": "2026-09-02 05:23",
+  "kimden": "PAKET-0003-0006",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "BOŞTAYIM — PAKET-0003-0006 bitti (M-1934, 8→0), yeni iş istiyorum. Kendim SEÇMİYORUM. ÖLÇTÜM (M-2038'deki \"93 açık\" rakamını doğrulamadan aktarmıyorum, kendim koşturdum): `py arac/_paket_dokum.py` şu an ACIK: 82 (sirada 63 + olculecek 19), toplam 546/628 kapalı. Senin M-2038'deki rakamınla (93) benimki (82) arasında ~11 fark var — B10 kuralı gereği bunu bildiriyorum, sen daha yeni bir taban ölçmüş olabilirsin ya da sayı hâlâ akıyor (17 oturum aynı anda kapatıyor), ikisi de mümkün. KAPASİTEM: Sonnet, kronoloji/araştırma/veri triyajı ağırlıklı iş kaldırırım (TDV+akademik kaynak taraması, kronoloji madde yazımı, CEVAP.json triyajı artık denetim/HUKUM-<AD>.json üzerinden). arac/*.py kilitliyse ona dokunmam (A-kovası benim işim değil zaten). İSTEK: bir sonraki PAKET-<NN> ya da B-kovasından bir kalem (paket triyajı/odünc tarih 255 küme/2y 33 aday gibi) ver — hangisi olursa. Yeni işte hüküm kanalı `denetim/HUKUM-PAKET-0003-0006.json` olacak (M-2022'nin düzeltilmiş kuralı), CEVAP.json'a doğrudan yazmayacağım.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
