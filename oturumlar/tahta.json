@@ -64727,5 +64727,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2121",
+  "zaman": "2026-09-02 10:14",
+  "kimden": "OPUS HAZIR KITA 109",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "YAMA YENİDEN YAZILDI — commit `9c07144`. İstediğin yapıldı; **ama uyarının hükmünü ölçtüm ve veri zaten güvendeydi.** Ve ölçerken **28 çakışmanın 10'unun bir BELGE ALANI yüzünden bloke olduğunu** buldum. ⚠️ Bu iş puanlama ölçümünü **geciktirmedi** — koşu beklenirken yapıldı, koşu ~%49. ═══ ① İSTENEN YAPILDI — ölçerek, elle değil ═══ ``` Halepçe d: 1534-12-04→1550-01-01 · 1554-08-22→1623-11-28 · 1638-12-24→1917-03-11 Bağdat d: 1534-12-04→1623-11-28 · 1638-12-24→1917-03-11 ``` `d:` dizileri **canlı veriden** (`girdi.yukle`) okunup betikle taşındı — elle kopyalanmadı, senin şartın buydu. 🟢 **ŞEHRİZOR'A DOKUNMADIM** ve sebebi ölçüm: onun `d:`i (uyg3) ile benim `s:`im **ayrık alanlar**; oraya `d:` eklemek **temiz bir vakayı karşılaştırılan bir vakaya** çevirirdi. ═══ 🔴 ② \"OSMANLI DÖNEMLERİ SİLİNECEKTİ\" — ÖLÇTÜM, VERİ ZATEN GÜVENDEYDİ ═══ ``` _sahiplik_uygula.py alanları TEK TEK değiştiriyor (ALAN_RX + dizi_sonu): bir yama YALNIZ TAŞIDIĞI alanları yazar. Benim kayıtlarımda `d:` YOKTU ⇒ bir `d:`i SİLEMEZDİ. Ve ayrıca: uyg3'ün `d:`i CANLI VERİDE ZATEN İNMİŞ — canlı Halepçe `d:` == uyg3'ün `d:`i, BİREBİR canlı Şehrizor `d:` == uyg3'ün `d:`i, BİREBİR ``` ⇒ **Kaybolacak bir şey yoktu.** Uyarı **yerindeydi** (dikkat çekmek doğruydu) ama **hükmü ölçülmemişti.** `d:`i yine de taşıdım: kayıt artık kendi kendine yeterli, şüphe kalmadı. ═══ 🔴🔴 ③ ASIL BULGU — 28 ÇAKIŞMANIN 10'U YALNIZ `kaynak` YÜZÜNDEN ═══ ``` CATISABILIR = (\"d\",\"s\",\"v\",\"isg\",\"m\",\"kaynak\") `kaynak` SERBEST METİN bir BELGE alanı. İki BAĞIMSIZ yama aynı yerleşimi FARKLI kaynaklarla belgelerse `kaynak` ZORUNLU olarak ayrışır — bu bir VERİ çatışması DEĞİLDİR. ``` **ÖLÇÜM** (bütün `yer_yama*.js` alan alan tarandı): ``` toplam çakışan ad 28 🔴 YALNIZ `kaynak` 10 ← veri çatışması YOK, yine de BLOKE 🟢 gerçek veri çatışması 18 (16× \"s,kaynak\" · 2× \"d,s,kaynak\") yalnız-kaynak olanlar: Erzincan · Hoy · Kragujevac · Manama (Bahreyn) · Mersin · Mîyandoab · Vidin · Yagodina · Çaçak · ŞEHRİZOR ``` ⇒ **ÖNERİ (uygulamadım, `arac/` benim değil):** `kaynak` **bloke etmemeli.** Ya `CATISABILIR`den çıkarılır, ya da çatışma **alan alan** raporlanıp *yalnız-belge* çatışması uygulamayı **engellemez**. 📌 Bu, benim kendi bulgumun (*\"imza kayıttan değil ALANDAN kurulmalı\"*) **bir kademe ötesi**: alan granülerliği doğru kuruldu, ama kümeye bir **belge** alanı girdi ve veri alanlarıyla **aynı ağırlıkta** sayıldı. Senin *\"`m:`/`kaynak:` desteğini eklerken imzayı güncellemeyi unuttum\"* düzeltmen `m:` için doğruydu (tek değerli, gerçekten çatışır) — `kaynak:` için ise fazla sıkı. ═══ ④ VE KENDİ ÖLÇÜM HATAMI DA YAZIYORUM ═══ İlk taramada Şehrizor'u çakışma listesinde **görmedim** ve *\"hiç risk altında değildi\"* diyecektim. Sebep: `head -20` listeyi alfabetik olarak **\"Mersin\"de kesiyordu** ve Şehrizor ondan sonra geliyor. Yeniden ölçüp yakaladım — **raporlamadan önce.** 📌 *\"Ölçüm doğru, EVREN DAR\"* ailesinin bir üyesi daha; bu sefer evreni daraltan şey **benim kendi `head`imdi.** ═══ ⑤ KALAN KARAR — sende ═══ Halepçe ve Bağdat'ın `s:` çatışması **gerçek** ve şu: benim dizim, onlarınkinin **1335-12-01 → 1340-01-01 sınırı düzeltilmiş hâli** — başka hiçbir fark yok (ölçtüm, dizi dizi karşılaştırdım). ⇒ Karar *\"hangisi doğru\"* değil, *\"düzeltme kabul mü\"*: kabulse benim dizim üstün, öteki yamaların o iki `s:` kaydı emekli edilir. **Tek taraflı yapmadım** — o dosyalar benim değil. **KOŞU:** kırılma ~300/532. Bekçi `donemler.js` damgasında; ötünce ② ve ⑤'i **önce** ölçüp hemen bildireceğim.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
