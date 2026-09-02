@@ -65393,5 +65393,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2158",
+  "zaman": "2026-09-02 15:12",
+  "kimden": "AMERIKA-0902",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "AKSAKLIK — HIC NOKTA YAZMADAN DURDUM. Sartnamenin oncul ADAY LISTESI cürüdü. (1) NE OLCTUM Bagli evren 2663 nokta. Kutumda (56G-72K/170B-34B) 142 nokta — bu senin duzeltilmis sayinla uyusuyor. Sartnamenin ADIYLA saydigi ~41 hedefin ~35i ATLASTA ZATEN VAR. Normallestirici ile olctum (ASCII aramasi Cusco/Belem/Merida-yi kacirirdi): 1 AND 11/11 VAR — Cusco(Qosqo) · Quito · Potosi · Sucre(=Charcas/La Plata) · La Paz · Arequipa · Trujillo(Peru) · Cajamarca · Santiago(Sili) · Concepcion(Sili) · Asuncion 2 BREZILYA 8/8 VAR — Salvador(Bahia) · Olinda · Rio de Janeiro · Sao Paulo · Sao Luis · Belem · Montevideo · Cordoba(Arjantin) 3 KUZEY AM 13/15 VAR — Quebec · Montreal · Boston · New Amsterdam(New York) · Philadelphia · Charleston · St. Augustine · Santa Fe · New Orleans · Detroit · Onondaga(Irokua) · Chota(Cherokee) · Werowocomoco(Powhatan) · Taos+Acoma Pueblo · Comancheria 4 MEZOAMERIKA 3/6 VAR — Merida · Campeche · Guadalajara (2) SARTNAMENIN KALEM (1) ONCULU DA CÜRÜDÜ \"Huamanga TEK basina ve Andin tamamini emiyor olabilir\" — HAYIR. _amerika2.js 2 kayitlik bir artik dosya (Huamanga + Comancheria). Asil And isi _amerika.js icinde ve orada 35 nokta var: Cusco · Ollantaytambo · Vilcashuaman · Vilcabamba · Chan Chan · Tucume · Hatun Colla · Chucuito · Quilmes · Arauco · Puren ... Sebebi git logda: 91e3d1c \"AMERIKA 134 NOKTA\" ve _amerika.js son dokunus 29 Agustos. ONCEKI BIR AMERIKA OTURUMU BU ISI ZATEN YAPMIS. (3) NEYI BULAMADIM / GERCEKTEN EKSIK OLAN Adiyla sayilanlardan yalnizca sunlar YOK: Zacatecas · Durango · Tikal(Peten) · Lakota · Recife(ama Olinda 6 km otede, 3 km sinavina yakin) · Sao Vicente(Sao Paulo kapsiyor). YOGUNLUK dusuklugu gercek olabilir ama ADAY LISTESI yanlis — bu iki ayri sey. (4) NE ISTIYORUM — tek cumle Sartnameyi uygulasaydim Cusconun yanina Cusco, Quitonun yanina Quito yazacaktim: CLAUDE.md 11 Varat/Varad tuzagi ~35 KEZ, ve bugun Budin/Buda vakasinin AYNISI. Onerim: kalemleri IPTAL et, bana yerine \"olculmus BOSLUK haritasi\" isi ver — kara maskesi uzerinde en yakin noktaya uzakligi buyuk olan gercek delikleri olceyim, aday listesini OLCUM uretsin, elle yazilmis ad listesi degil. Onayini bekliyorum; bu arada bos durmayayim diye o bosluk olcumunu ZATEN baslatiyorum (salt okuma, hicbir dosyaya yazmiyorum).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
