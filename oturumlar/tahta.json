@@ -65033,5 +65033,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2138",
+  "zaman": "2026-09-02 14:28",
+  "kimden": "OPUS HAZIR KITA 107",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_fe942ee1-5107-4075-8242-0e1a199e7709",
+  "mesaj": "DURDUM VE SÖYLÜYORUM — 0033/0032'de NE KADAR İLERLEDİM (sorduğun gibi). ═══════════════════════════════════════════════════════════════════ ① NE YAPTIM — ve iyi haber: ÇÖPE GİDECEK BİR ŞEY YOK ═══════════════════════════════════════════════════════════════════ ``` yazılan dosya : YOK commit : YOK veriye dokunma : YOK yapılan : yalnız ÖLÇÜM ve OKUMA ``` Sırasıyla: `_acik_madde.py` ile iki paketin tabanını ölçtüm (0032→7 · 0033→11 · toplam 18) · 0032'nin altı açık maddesinin TAM notunu ve Emre'nin orijinal metnini okudum · 0032/H-0003 için külliyatı taradım. ⇒ **PAKET-0036 ile çakışan tek şey okuma emeği.** Mükerrer yazım YOK. ═══════════════════════════════════════════════════════════════════ 🔴 ② VE ÖLÇÜMÜN BİRİ PAKET-0036'YA HEDİYE — 0032/H-0003 ═══════════════════════════════════════════════════════════════════ Madde: *\"Uzun Hasan'ın Karakoyunlu'ya son vermesi maddesinde harita olay mahalline gitmeli.\"* Notu *\"tarih 1468-04-01, TDV Temmuz 1468 diyor, ~3 ay fark\"* diyor. Külliyatı taradım ve mesele **tarihten büyük çıktı:** 🔴 **KÜLLİYAT KARAKOYUNLU'NUN SONUNU DÖRT AYRI GÜNDE ANLATIYOR — BEŞ AYRI DOSYADA:** ``` 1467-01-01 \"Uzun Hasan Karakoyunlu Devleti'ne son verdi\" yer_id=Van olaylar_ek20.js 1467-01-01 \"Akkoyunlu, Karakoyunlu'yu yendi\" yer_kon=[38.8861,40.5017] kronoloji_iran.js 1467-11-10 \"Karakoyunlu Devleti'nin çöküşü: Cihan Şah'ın öldürülmesi\" yer_kon=[39.1,40.4] olaylar_ek5.js 1467-11-10 \"BİNGÖL BASKINI — Cihan Şah öldürüldü, Karakoyunlu çöktü\" kronoloji_akkoyunlu.js + kronoloji_karakoyunlu.js 1468-04-01 \"Uzun Hasan'ın Karakoyunlu Devleti'ne son vermesi\" yer_id=Tebriz olaylar_ek7.js ← H-0003'ÜN MADDESİ BU 1469-04-01 \"Hasan Ali öldürüldü — Karakoyunlu hanedanı sona erdi\" yer_id=Hemedan kronoloji_karakoyunlu.js ``` ⇒ Aynı olay **dört gün · üç ayrı yer** (Van · Bingöl · Tebriz · Hemedan) ile külliyatta duruyor. H-0003'ün sorduğu *\"harita olay mahalline gitsin\"* sorusu, önce **hangi olay** sorusunu gerektiriyor. 📌 Bunlar birbirini dışlamıyor olabilir (Bingöl 1467 = Cihan Şah'ın ölümü · Hemedan 1469 = hânedanın sonu) ama **üçü de \"Karakoyunlu'ya son verdi\" diye yazılmış.** Bir kullanıcı için bu, aynı devletin üç kez yıkılması demek. ⚠️ **BU BİR HÜKÜM DEĞİL, BİR ÖLÇÜM.** Hangisinin doğru olduğunu ölçmedim — kol değişti, orada durdum. PAKET-0036 buradan devam edebilir. Ayrıca 0032'nin öteki beşini okurken çıkan tasnif (yine yalnız gözlem): ``` H-0009 · H-0013 · H-0014 İÇERİK/ARAYÜZ ailesi (merak · ek-okuma butonları) `data/ekokuma.js` + `js/app.js` istiyor; H-0013 kendi notunda \"6064 maddenin TAMAMI, tek turda yetişmez\" diyor ⇒ ÇOK OTURUMLUK bir faz H-0010 görsel araştırması (Sultanî altını) — TELİF ekseni var, `§1.6`nın 8. boyut kuralı burada bağlayıcı H-0016 Bug-Dinyester (Yedisan) boşluğu — YENİ NOKTA işi, benim nokta dosyamın kolundaydı ``` ═══════════════════════════════════════════════════════════════════ ③ YENİ KOLU ALDIM — taban ÖLÇÜLDÜ ═══════════════════════════════════════════════════════════════════ ``` py arac/_acik_madde.py parti-emrelic-0030 parti-emrelic-0031 parti-emrelic-0030 → 8 (H-0001·0002·0004·0006·0009·0013·0014·0018) parti-emrelic-0031 → 4 (H-0002·0005·0019·0022) TOPLAM 12 · `senin-kararin` damgalı: 0 ✓ (dört kuralın ①'i zaten sağlanmış) ``` İlk okumada iki aile görünüyor ve ikisi de bana uygun: ``` KÖKÜ ÖLÇÜLMÜŞ, ÇARESİ UYGULANMAMIŞ 0030/H-0001 · H-0004 · H-0009 · H-0013 EMİLME (§2, nokta yokluğu) 0031/H-0019 · H-0022 (+0030/H-0004·H-0013) ``` ⇒ İkincisi tam olarak `data/yerlesimler_ok107.js` kolumun devamı. Dört kuralı aldım: hüküm `denetim/HUKUM-PAKET-00XX.json`a, `CEVAP.json`a DEĞİL · ölçmeden `cozuldu` yok · bulamadığımı `bulunamadı` yazacağım. ═══════════════════════════════════════════════════════════════════ ④ VE BİR ŞEYİ DÜZELTMEK İSTİYORUM — övgü fazla ═══════════════════════════════════════════════════════════════════ *\"Kimsenin yapmadığı şeyi yaptın\"* dedin. Ölçüye çekeyim: kuru koşuyu **merakımdan** okumadım — senin verdiğin işi yapmaya giderken **dosyanın benim olmadığını** görüp durdum, ve durunca elimde zaten açık bir alet vardı. Yani bulguyu **adres hatan** buldurdu. 📌 Kayda değer olan taraf şu: *yanlış adrese giden bir iş, durup ölçüldüğü için 27 çatışmayı açtı.* Ders bende değil, **durmakta.**",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
