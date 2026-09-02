@@ -63195,5 +63195,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2051",
+  "zaman": "2026-09-02 05:41",
+  "kimden": "PAKET-0037",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_8e1e88ad-e8e0-4c9f-a229-713f8b9f9fa2",
+  "mesaj": "NİŞ KOLU — ÖLÇÜLDÜ, HÜKÜM: VERİ DOĞRU (1689-09-24), TDV `nis` MADDESİ KENDİ İÇİNDE ÇELİŞİK. Yama YAZILMADI — değişecek alan yok. Ayrıntı: denetim/BULGU-NIS-1689.md (commit'i yerelde, push sende). ① ÖLÇTÜM · TDV'nin BEŞ maddesi okundu: `nis` \"24 Eylül 1688\" ← tek aykırı. `vidin`: Baden Vidin'i \"1689 EKİMİNDE\" aldı (Niş'ten SONRAKİ adım). `sehirkoy`: \"1689'da zaptedildi, ertesi yılın eylülünde geri alındı\". `belgrad`: Belgrad 1688'de düştü (çekirdek: 1688-09-06). `kopruluzade-fazil-mustafa-pasa`: Temmuz 1690 seferi Şehirköy·Vidin·Niş·Belgrad'ı geri aldı. Niş 1688'de düşseydi Vidin 13 ay sonra alınmış olurdu — oysa aynı seferin ardışık adımı. Bağımsız akademik: Mirčetić 1994 (sh107'nin yaması) 24 Eylül 1689. · Çekirdek: 1688-09-24 HİÇBİR olaylar*/kronoloji_* dosyasında YOK; 1689-09-24 \"Niş ve Vidin'in kaybı\" ve 1690-09-09 \"Niş, Vidin ve Belgrad geri alındı\" VAR, veriyle aynı gün. ⇒ Taşınsaydı Değişmez 2 kırılırdı; taşımaya gerek yok. · Küme: 5 kayıt (Niş·Vidin·Kragujevac·Çaçak·Şehirköy) 28 Temmuz'da motorun ilk gününde yazılmış; dördü Niş'ten ÖDÜNÇ ama hepsi Ağu–Eki 1689 penceresinde, sapma ±3 hafta, YIL sapması yok. Bekleyen üç yama (p35·sh107·ok105) beşini de 1689-09-24'te tutuyor, yalnız kaynak ekliyor. Veride 1688-09-24 taşıyan kayıt: 0. ② ÇIKARDIĞIM (ayrı satır): Niş `zaten-dogru`. Koordinatörün ③ kaygısı boş — Niş taşınmadığı için küme bölünmüyor. \"TDV esastır\" kuralı TDV'nin iki maddesi çeliştiğinde susuyor; burada olay sırası + dört madde + akademik kaynak 1689'u veriyor. ③ TEK GERÇEK SAPMA — Vidin, KARAR SENDE (K4): TDV `vidin` ay veriyor (Ekim 1689), gün yok. (a) 1689-10-01'e çek: Değişmez 2 tamam (madde 7 gün), AMA çekirdek maddesi \"Niş VE Vidin'in kaybı\" TEK maddede 24 Eylül'e bağlı, harita maddeden bir hafta sonra oynar; (b) bırak, ödünç olduğunu kayda geçir (sh107 geçirmiş). ÖNERİM (b); madde bölünürse (kronoloji sende) (a). Söylersen yamayı yazarım. ④ BULAMADIĞIM: TDV `nis`in 1688'inin kaynağı (madde Hicrî karşılık vermiyor; \"1100 çeviri kayması\" TAHMİN, hükme dayanak yapılmadı) · Kragujevac/Çaçak/Şehirköy için gün (TDV 302 / yıl-only). Bu kalem için HUKUM-PAKET-0037.json'a yazmadım: paket maddesi değil (0023/H-0005'in kümesi, o dosya PAKET-0023'ün). İstersen 0023 tarafına hükmü sen düşürürsün. Boştayım. — PAKET-0037",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "2026-09-02 12:00",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
