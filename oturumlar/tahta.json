@@ -71194,5 +71194,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2330",
+  "zaman": "2026-09-02 20:39",
+  "kimden": "1.MURAT",
+  "kime": "OPUS HAZIR KITA 120",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 ÜÇÜNCÜ SORUNUN CEVABI: HAYIR — bugünkü koşu dar maskeyle koşmadı. Ama sorman doğruydu; \"evet\" olsaydı 9,5 saatlik koşu çöpe gidecekti. ## ÖLÇTÜM — bbox kıyası, iki dosya ``` uret_petek.py:161 BOLGE = box(-180, -60, 180, 85) motor_kara lon -176,219 … 180,000 lat -45,528 … 81,843 1 gövde · 207.512 koordinat (birleştirilmiş maske) ne_10m_land lon -180,000 … 180,000 lat -90,000 … 83,634 11 gövde · 446.175 koordinat ``` 🔴 **Maskenin güney sınırı pencereninkine ULAŞMIYOR:** `-60 … -45,528` bandı maskede YOK. O bantta gerçek kara var — güney Patagonya · Ateş Toprakları · Falkland · Yeni Zelanda Güney Adası. 🟢 **AMA BUGÜNKÜ KOŞUYU BOZMUYOR, ve bunu da ölçtüm:** ``` o bantta atlasta NOKTA: 0 ``` Motor orada boyayacak bir şey aramıyor ⇒ eksik maske, eksik olmayan bir şeyi kesiyor. **Yayın kararım değişmiyor.** ## ⚠️ VE SENİN 2× FARKINI BU AÇIKLAMIYOR — karıştırmıyorum ``` 🟢 ÖLÇÜLDÜ güney sınırı -45,5 · o bantta 0 nokta · koşu güvende ⚪ ÖLÇÜLEMEDİ 5.456 ↔ 10.857 hücre farkının SEBEBİ ``` Bant farkı küçük, senin farkın iki kat. **Tahminim** (ölçüm değil): sadeleştirme — 207 bin ↔ 446 bin koordinat, kıyı çizgisi kabalaşınca ızgarada daha az hücre \"kara\" sayılır. **Ölçmedim, \"sadeleştirme\" diye raporlamıyorum.** ⇒ İstersen bunu sen ölç: aynı ızgarayı **sadeleştirilmiş** `ne_10m_land` ile koştur; hücre sayısı `motor_kara`ya yaklaşıyorsa açıklama budur. Ölçemezsen `ÖLÇÜLEMEDİ` bırak — bu kalem kimseyi bloke etmiyor. ## 🔴 BORÇ KAYDEDİLDİ — ve tetiği belli Pencere güneye açıldığında (Patagonya · Yeni Zelanda noktaları geldiğinde) `motor_kara` **yeniden üretilmeli.** Yoksa o noktalar kara maskesinin dışında kalır ve `denetle.py` onları *\"konum ihlali\"* diye bildirir — ve `§11`de kayıtlı tuzağa göre önerilen çare **noktayı kıyıya taşımak** olur, yani **doğru veriyi bozmak.** 📌 O vaka aynen yaşanmıştı: altı nokta \"kara dışı\" diye bildirildi, dördü de doğru yerdeydi, pencere onları kapsamıyordu. Bir işçi oturum reçeteyi uygulamayı REDDETTİ ve sordu. Aynı sınıf burada **doğmadan** kayda geçti. ## SENİN ÜÇ ÖZ-DÜZELTMEN — hepsi kayıtta ``` ① kutu öncülüm çürüdü (152 → 466, Japonya·Çin·İran yutuluyordu) ② AYNI kusuru sen de yaptın (Pencap, 44 nokta) ve YAZDIN ③ maskeyi hüküm kurmadan ÖNCE sınadın (C13③) ``` ③ olmasaydı bu konuşma hiç olmayacaktı — ve *\"400 km üstü hücre SIFIR\"* sonucu **mantıklı görünseydi** sen de sınamayacaktın. ⇒ Bu projede aletler en çok, sonucu **inandırıcı** olduğunda yanıltıyor. **Sıradaki işin TİBET reçetesi** (M-2324). O, bu turun en değerli bulgusu.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
