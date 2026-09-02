@@ -65249,5 +65249,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2150",
+  "zaman": "2026-09-02 15:01",
+  "kimden": "PAKET-0035-0902",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "KALEM 1-3 · IKI NOT CURUDU, BIRI GERCEK KUSUR. Devraldigim uc oncul olculdu: [1] H-0013 CURUDU. Not: \"TAYGAN'IN YERLESIM KAYDI YOK, nokta eklenmeli\". OLCUM: kayit VAR - ad \"Taganrog\" (47.237/38.897), dosya yerlesimler_h2_rusya.js, zinciri tam (s:rusya 1698-1711 / s:kirim 1711-07-21..1739 / s:rusya 1739-). Commit d5e8fc5, 8 AGUSTOS - notun yazildigi 27-28 Agustos'tan UC HAFTA ONCE. => Not BAYAT DEGIL, YANLIS yazilmis. Sebep: Osmanlica adiyla (\"Taygan\") arandi, kayit Rusca adiyla duruyor. _yer_ara.py'nin kendi ipucu \"Taganrog->Taygan\" der; ipucu TERS YONDE kullanilmis. => Sevk uygulansaydi ayni koordinata IKINCI bir nokta yazilacakti (0 km). [2] H-0079 CURUDU. Not: \"Diriyye AYRI nokta olarak bulunamadi, YENI NOKTA onerilir ~24.7343K/46.5721D\". OLCUM: kayit VAR - ad \"Dir'iye (Necid)\" 24.733/46.575, yani onerilen koordinattan 60 METRE. Commit 28 TEMMUZ, notun bir ay oncesi. Sebep yine ad ekseni: \"Diriyye\" arandi, kayit \"Dir'iye\" yazimiyla. DIKKAT: benim Turkce normallestiricim de BULAMADI (cift y / tek y farki); bulan sey KUTU aramasi oldu. => Sartnamedeki 4. kirmizi cizgi (3 KM) calisti, ad araması calismadi. Esanlam sozlugu kalemi icin somut bir vaka daha. [3] H-0097/H-0100 GERCEK KUSUR, ENGELI KALKMIS AMA KAYIT INMEMIS. Notun sayimi (\"yalniz Ibrail'in isg: kaydi var, dokuzunda yok\") BUGUN yanlis: Ruscuk isg:rusya 1810-09-26..1811-06-01 (commit 6f8aa0d, 31 Agu, 0037/H-0008) Kili isg:rusya 1806-01-01..1812-05-28 (commit 3cf33e9, 29 Agu) => 9 degil 7 eksik. ASIL BULGU: data/olaylar_ek21.js (30 Agustos, GECE KRONOLOJI) UC MADDEYI tam bu isg: kayitlarinin onunu acmak icin yazmis; dosyanin kendi basligi diyor ki \"Bu uc madde inince o uc isg: kaydi da inebilir (M-1539 / M-1690)\". Maddeler INDI (index.html'de bagli, denetle.py'nin olaylar*.js evreninde), Ruscuk'unki 31 Agustos'ta yazildi - NIGBOLU ve SILISTRE'ninki HALA YOK. Engel yok, is yarim kalmis. VE UCUNCU, HIC SAYILMAMIS KUSUR - Emre'nin H-0100'deki \"bukres anlasmasindan sonra bile bu parca rus topragi gibi gorunuyor\" sikayeti: Yergogu (Giurgiu) s:rusya 1810-09-27 -> 1829-09-14 ONYEDI YIL FAZLA TDV \"yergogu\" govdesi okundu (HTTP 200, govde 12 KB): \"Yergogu 27 Eylul 1810'da Ruslar'in eline gecti.\" \"1828-1829 Osmanli-Rus Savasi neticesinde Edirne Antlasmasi'na gore (2-14 Eylul 1829) Ibrail ve Kule/Turnu ile Eflak Prensligi'ne birakildi.\" \"1828-1829 savasi oncesi sadece topcu sayisi 213'u buluyordu (BA, KK, nr.4834)\" => 1812 Bukres'ten 1829 Edirne'ye kadar OSMANLI'ydi. Kayit s: degil isg: olmali ve d: 1829-09-14'e uzamali - yani Ibrail'in deseninin AYNISI (Ibrail: d ...->1829-09-14, isg:rusya 1809-12-02..1812-05-28 + 1828-06-23..1829-09-14). Emre'nin gordugu \"kalici rus yesili\" TAM BUDUR, ve hicbir notta sayilmamis. SIRADAKI ADIMIM: data/yer_yama_p0035.js yaziyorum (Yergogu + Nigbolu). SILISTRE'yi YAZMIYORUM: isgal BASLANGIC gunu TDV'de YOK - \"silistre\" govdesi okundu (20 KB), yalniz \"1810'da sehir Ruslar tarafindan bombalandi\" diyor, ay/gun vermiyor. Kapsayici madde denendi: mahmud-ii 302, ii-mahmud 302. Uydurmayacagim; \"bulunamadi\" diye ayri kalemde bildirecegim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
