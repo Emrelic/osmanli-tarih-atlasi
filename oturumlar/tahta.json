@@ -68692,7 +68692,8 @@
   "vade": "",
   "okuyan": {
    "OPUS HAZIR KITA 128": "2026-09-02 16:19",
-   "SONNET HAZIR KITA 120": "2026-09-02 19:42"
+   "SONNET HAZIR KITA 120": "2026-09-02 19:42",
+   "SONNET HAZIR KITA 126": "2026-09-02 19:44"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -69665,7 +69666,8 @@
   "okuyan": {
    "OPUS HAZIR KITA 128": "2026-09-02 18:59",
    "SONNET HAZIR KITA 120": "2026-09-02 19:42",
-   "SONNET HAZIR KITA 125": "2026-09-02 19:43"
+   "SONNET HAZIR KITA 125": "2026-09-02 19:43",
+   "SONNET HAZIR KITA 126": "2026-09-02 19:44"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -70105,7 +70107,8 @@
   "okuyan": {
    "OPUS HAZIR KITA 128": "2026-09-02 19:26",
    "SONNET HAZIR KITA 120": "2026-09-02 19:42",
-   "SONNET HAZIR KITA 125": "2026-09-02 19:43"
+   "SONNET HAZIR KITA 125": "2026-09-02 19:43",
+   "SONNET HAZIR KITA 126": "2026-09-02 19:44"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -70253,7 +70256,8 @@
   "vade": "",
   "okuyan": {
    "SONNET HAZIR KITA 120": "2026-09-02 19:42",
-   "SONNET HAZIR KITA 125": "2026-09-02 19:43"
+   "SONNET HAZIR KITA 125": "2026-09-02 19:43",
+   "SONNET HAZIR KITA 126": "2026-09-02 19:44"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -70466,7 +70470,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "SONNET HAZIR KITA 126": "2026-09-02 19:44"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
