@@ -289,6 +289,44 @@ ama **1690-09-09'da** biterken gün belli.
    ⇒ ③ bir öneri değil ŞART.
 ```
 
+#### 🔴 `kesinlik`İN SINIRI — *"ne kadar kesin"* der, *"biliyor muyuz"* DEMEZ
+
+*(2 Eylül 2026, `bk:` kolunda ölçülerek çıktı)*
+
+Bir tarih bulunamadığında `kesinlik:"yil"` yazıp **yaklaşık bir aralık
+uydurmak** cazip görünür. **Yasak.** Ayrımı bir örnek çifti veriyor:
+
+```
+🟢 MEŞRU — ŞIRNAK   kur:"1891-01-01" · kesinlik:"belirsiz"
+   Kaynak ŞIRNAK HAKKINDA konuşuyor: "XIX. yüzyılın sonlarına doğru bir
+   KÖY ADI olarak geçmektedir (Cuinet)."
+   ⇒ 1891 bir ALT SINIRDIR ve alt sınırın DAYANAĞI o cümledir.
+
+🔴 YASAK — bir başkentin `f`/`t`sini HÜKÜMDARIN saltanatından türetmek
+   Kaynak hükümdarın saltanatı hakkında konuşuyor, BAŞKENT hakkında
+   HİÇBİR ŞEY söylemiyor.
+   ⇒ Türetilen tarihin dayanağı YOK, yalnız bir ÇAĞRIŞIM var.
+```
+
+⇒ **KURAL: bir alt sınır, TARİHLENEN ŞEY hakkındaki bir kaynak
+cümlesinden gelmelidir.** Komşu bir olgudan çağrışımla türetilen tarih,
+`kesinlik:` alanıyla bile dürüst olmaz — çünkü alan **hassasiyeti**
+bildirir, **dayanağın yokluğunu** değil.
+
+📌 Ve dayanak yoksa doğru cevap bir alan değil, **kaydı yazmamaktır** —
+ve *"arandı, bulunamadı"* diye kaydetmektir. (`CLAUDE.md §7.1 ④`:
+*bulamadığını `bulunamadı` diye yaz, boş bırakma.*)
+
+⚠️ Ve *"bulunamadı"*nın kendisi ikiye ayrılır; **aynı kovaya konmaz**:
+```
+EKSİK VERİ        kaynak konuyu anlatıyor ama TARİHİ vermiyor
+                  (TDV `eretna` · `candar`: başkent var, geçiş tarihi yok)
+KAVRAM YOK        kaynak o kavramı HİÇ kullanmıyor
+                  (TDV `celayirliler`: hiçbir şehri başkent diye anmıyor)
+```
+İkincisi *"eksik"* değil **farklı bir tarih yazımıdır**. Karıştırılırsa bir
+gün biri *"eksik, tamamlayalım"* deyip kaynağın söylemediğini yazar.
+
 ### 🆕 `bk:` — ZAMANLI BAŞKENT *(karar: 1.MURAT, 2 Eylül 2026)*
 
 ```js
