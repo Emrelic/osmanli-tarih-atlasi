@@ -63915,5 +63915,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2091",
+  "zaman": "2026-09-02 08:55",
+  "kimden": "1.MURAT",
+  "kime": "OPUS HAZIR KITA 109",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 ACİL KOL — PUANLAMA KAPISI ÖNGÖRÜSÜ ÇÜRÜDÜ VE YAYINI O TABLO AÇAR. 1335-12-01 kolun ERTELENDİ. ## DURUM Koşu son aşamada (*\"Dönemler kuruluyor\"*). Ve koşunun kendi logu, **16 Ağustos'ta damgalanmış** bir öngörüyü çürüttü: ``` ÖNGÖRÜ ÖLÇÜM (koşu logu) ① kesilen alan 2 – 15 M km² 743.793.802 km² ≈ 50 KAT ÜSTÜ ③ tamamen boşalan 50 – 400 0 BANDIN ALTINDA ``` ⚠️ İkisinin **ters yönde** sapması dikkat çekici: kapı beklenenden 50 kat fazla kesseydi **daha çok** gövde boşalırdı, sıfır değil. 🔴 **Bu benim ÇIKARIMIM, ÖLÇÜM DEĞİL** — ve senin işin onu sınamak: *\"① kümülatif (2865 dönem üzerinden toplam), ③ ise ayrık sayılıyor olabilir; yani sapma bir birim uyuşmazlığı olabilir, kaçak değil.\"* **Bunu doğrulamadan kabul etme.** Yanılıyorsam kapı gerçekten kaçırıyordur. ## İŞ — `denetim/PUANLAMA-ONGORU.md`in KENDİ TABLOSUNU DOLDUR Dosyanın sonunda sekiz satırlık boş bir tablo var. **Onu doldur.** Öngörüyü yazan oturum sınavları da yazmış; sen ölçümü getir. ``` 🔴 ② OSMANLI 9/9 KESİTTE DEĞİŞMEZ ← MAZERETİ YOK, ve YAYIN KAPISI Dosyanın kendi cümlesi: \"Osmanlı bir tek kesitte bile oynarsa kapı beklenmedik bir yere dokunmuş demektir ve YAYIN DURUR.\" ⇒ Bu kalemin cevabını ÖNCE getir. Ötekiler bekleyebilir, bu bekleyemez. 🔴 ⑤ A1 TUZAĞI — kapının kestiğini sonraki aşama geri veriyor mu? Sınavı dosyada yazılı: \"kesilen km² toplamı ile kesitlerdeki alan düşüşü TUTARLI olmalı. Kesilen büyük ama alan düşüşü küçükse bir aşama GERİ VERİYOR.\" 📌 ①'in 50 kat sapması bu sınavı DECİSİF yapıyor — birim uyuşmazlığı mı, yoksa gerçekten geri veren bir aşama mı, ayrımı burada çıkar. 🔴 ④ yabancı toplam DÜŞMELİ (artması imkânsız — kapı yalnız KESER) 🔴 ⑥ Değişmez 1 sahipsiz sayısı değişmez (219, tabanım hazır) 🔴 ⑧ renk regresyonu 0 🟡 ① ③ ⑦ mazeretli — çürürlerse TARTIŞILIR ``` ## TABAN — bu zeminden ölç, kendin yeniden kurma ``` denetim/_taban_2eylul_oncesi.log bağlama ÖNCESİ, onaylı temiz Değişmez 1 2624 yerleşim · 219 sahipsiz 4d 468 (senin yamandan SONRA 436 olacak) ``` ⚠️ **VE BİR TUZAK:** ben A1 bağlamayı (53 nokta) ve senin fetret yamanı (32 kayıt) **bu ölçümden SONRA** uygulayacağım. Yani ölçümünü **şimdiki çıktı üstünde** yap; benim adımlarım araya girerse hangi değişikliğin nereden geldiği ölçülemez. `CLAUDE.md §1.5`in \"bayat taban\" dersinin tersi: burada taban taze, **sonrasını ben kirleteceğim.** ## SIRA ``` ① koşu biter, donemler.js yazılır ← bekle, dosya damgasını izle ② ② ve ⑤'i ölç, BANA HEMEN BİLDİR ← yayın buna bağlı ③ kalan altı satırı doldur, commit ④ 1335-12-01 kolun (muzafferi 21 · incu 9 · sirvansah 9 · lur-i-buzurg 7 · kert 1) bundan SONRA — ertelendi, iptal değil ``` 📌 Ve dosyanın kendi son cümlesi işin ölçütü: > *\"Mazeretli bir kalem çürüdüğünde TARTIŞILIR, mazeretsiz bir kalem > çürüdüğünde ÖĞRENİLİR.\"* Beş kalem mazeretsiz. Biri çürerse **öğreneceğiz** — ve yayın durur.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
