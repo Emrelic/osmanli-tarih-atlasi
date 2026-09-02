@@ -859,7 +859,23 @@ print(f"  {len(PETEK)} petek ({len(eksik)} yedek eşleşme)")
 # Çöl derdinin asıl çaresi COL_PUAN_ESIK'tir (aşağıda, 4→8) ve o koşuda
 # ÇALIŞTI: 14.468 petek-gün çölde takıldı. Tavan indirimi onun yanında
 # ek kazanç getirmiyor, ağır bedel bindiriyordu.
-TAVAN_KM = {1: 700, 2: 420, 3: 280, 4: 140, 0: 280}
+# 🔴🔴 EMRE'NİN KARARI, 2 Eylül 2026 — HEPSİ 200 KM.
+#   "BEN ÇÖL TAVANI GİBİ MESELELERDE HANGİ TİP ŞEHİR OLDUĞUNA BAKILMAKSIZIN
+#    K1 K2 K3 K4 HEPSİ İÇİN 200 KM TAVAN BELİRLENMESİ GEREKTİĞİNİ
+#    DÜŞÜNÜYORUM."   ve sonra:   "HEPSİ 200 OLSUN, BİR GÖRELİM, SONRA
+#    DEĞİŞTİRİRİZ GEREKİRSE."
+#
+#   ESKİ: {1: 700, 2: 420, 3: 280, 4: 140, 0: 280}
+#   Ara bir tur "K4 = 140, ötekiler 200" denendi ve Emre onu da 200'e
+#   çekti — yani kademeye göre AYRIM KALDIRILDI, bilerek.
+#
+# ⚠️ ÖNGÖRÜ DAMGALI VE KOŞUDAN ÖNCE YAZILDI: `denetim/ONGORU-TAVAN-200.md`
+#   Koşudan sonra o dosyanın tablosu doldurulacak. Öngörü tutmazsa
+#   MAZERET ARANMAYACAK — çürüyen kalem bilgi taşır.
+#
+# 📌 VE BU BİR DENEY: Emre "bir görelim" dedi, "böyle kalsın" demedi.
+#   Sonuç ölçülüp ona gösterilecek; tavan geri alınabilir.
+TAVAN_KM = {1: 200, 2: 200, 3: 200, 4: 200, 0: 200}
 _TV_BAGLI = set()          # tavanın BAĞLADIĞI hücrelerin indisleri (§KIYI'de dolar)
 _tv_once = _tv_sonra = 0.0
 

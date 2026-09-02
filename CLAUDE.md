@@ -2549,3 +2549,79 @@ eski defter SİLİNMEZ, `.ONCEKI.json` olarak durur
   ağında 4 kenar kopardı · bir ad süzgeci yanlış kabul etti · bir sonraki
   yanlış reddetti · ve `bk:` kolunda dördüncü kez çıktı. **Aynı kayıt,
   dört alet, dört yön.** Tesadüf değil — sözlüğün yokluğunun imzası.
+
+- 🔴 **BİR ÖNGÖRÜ, SINAVININ KOŞULACAĞI ANI DA TARİF ETMELİDİR — damga
+  yetmiyor.** *(2 Eylül 2026, puanlama kapısı öngörüsü)*
+
+  Proje öngörü disiplinini üç adımda öğrenmişti: *ölçümden ÖNCE yaz* ·
+  *mazereti de önceden yaz* · *hangi çıktıdan hangi BİRİMDE okuyacağını
+  yaz*. Dördüncüsü bugün ölçüldü ve eksikti.
+
+  16 Ağustos'ta sekiz kalemlik damgalı bir öngörü yazıldı. 2 Eylül'de
+  sınandı ve **dördü ölçülemedi** — hepsinin kökü tek:
+  ```
+  öngörü kapının İLK koşusu için yazılmıştı
+  ama kapı 27 AĞUSTOS'TAN BERİ açık
+  ⇒ varsayılan deney (kapısız → kapılı) HİÇ YAPILMAMIŞ
+  ```
+  Kıyas *"dün bugün ne değişti"* sorusunu cevaplıyordu; öngörünün sorduğu
+  *"kapı ne yaptı"* sorusunu **değil.** Alet doğru çalıştı, **kontrol
+  grubu yoktu.**
+  📌 Aynı öngörünün ①'inde eksik olan **birim**di, ④⑤⑦'sinde **kontrol
+  grubu**. İkisi de "doğru aleti yanlış evrenle koşturmak" ailesinden.
+
+  🟢 **KURAL:** her öngörü kalemi dört şey yazar —
+  ```
+  ① NE bekliyorum        (sayı ya da yön)
+  ② MAZERETİ var mı      (yoksa "mazeret YOK" diye YAZ)
+  ③ HANGİ ÇIKTIDAN, HANGİ BİRİMDE okuyacağım
+  ④ 🆕 HANGİ KOŞUDA ve NEYE KARŞI ölçülecek
+  ```
+  ④ olmadan bir öngörü **damgalı ama sınanamaz** olur: kimse onu
+  çürütemez, kimse doğrulayamaz, ve yalnız yanıltır.
+
+- 🟢 **VE BİR ÖNGÖRÜ ÜÇ AYRI CİNSTEN ÇÜRÜR — ÜÇÜNCÜSÜ EN DEĞERLİSİ.**
+  Aynı turda ölçüldü:
+  ```
+  ① SAYI YANLIŞ        öngörü 900-1400, ölçüm 604 — bant kayması
+  ② ÖLÇÜLEMEDİ         alet o soruyu cevaplamıyor (kalem AÇIK kalır)
+  ③ MEKANİZMA YOK      🆕 tarif edilen şey YAPISAL OLARAK imkânsız
+  ```
+  ③'ün vakası: öngörü *"50-400 gövde TAMAMEN boşalır"* diyordu. İşçi
+  oturum sayıyı çürütmedi, **mekanizmanın var olamayacağını** gösterdi:
+  ```
+  PUAN_ESIK = 4  ve  0-200 km halkası = 4 puan
+  ⇒ bir devletin KENDİ noktasının 200 km'si tek başına eşiği geçiyor
+  ⇒ gövde kendi noktalarından kurulduğu için EN AZ BİR NOKTASI OLAN
+    GÖVDE ASLA TAMAMEN BOŞALAMAZ — sayaç 0'dan başka değer ALAMAZ
+  ```
+  ⇒ ①'de sayıyı düzeltmek yeter; ③'te **soruyu değiştirmek** gerekir.
+  📌 Ve ③ ancak **kodu okuyarak** bulunur; hiçbir koşu sayısı onu
+  göstermez, çünkü sayı hep 0 çıkar ve *"demek hiç boşalmıyor"* diye
+  okunur.
+
+- 🟢 **BİR KOD ARGÜMANI, BİR KONTROL KOŞUSUNDAN GENİŞ OLABİLİR —
+  ve 11,5 SAAT KURTARDI.** *(aynı gün, aynı öngörü)*
+
+  Yayın kapısı şu kalemde asılıydı: *"kapı Osmanlı'ya dokundu mu?"*
+  Sayısal cevap bir **kontrol koşusu** istiyordu (`MOTOR_PUAN_KAPALI=1`,
+  ~11,5 saat). Bunun yerine kod okundu ve **dört bağımsız ayakla**
+  gösterildi:
+  ```
+  ① kapı `for … BOYALAR.items()` döngüsünün İÇİNDE          (:4354-60)
+  ② BOYALAR 403 anahtar · "osman" 0 · "tabi/vassal" 0
+  ③ kapı bloğunda `PETEK_D`ye YAZIM YOK (4340-4405 tarandı)
+  ④ Osmanlı gövdesi yabancıların TÜMLEYENİ DEĞİL — kendi hücrelerinin
+     birleşimi: `unary_union([_pe[j] for j in dogrudan])`   (:4470±)
+  ```
+  ⇒ Kapı, Osmanlı gövdesinin girdisine **hiçbir yoldan** dokunamıyor.
+
+  📌 **Ve gerekçe kapanışın kendisinden değerli:** *"kontrol koşusu BİR
+  koşuyu ölçerdi; kod argümanı BÜTÜN koşuları kapsar."* Bir ölçüm tek bir
+  örneği doğrular, bir yapı argümanı **sınıfı** doğrular.
+  ⚠️ Sınırı da yazıldı ve kapanışı zayıflatmadı, **kullanılabilir kıldı:**
+  *"bu STATİK bir doğrulama; `petek_epok` içinde kapıdan etkilenen bir
+  önbellek gibi bir yan etkiyi kaçırmış olabilirim — onu ÖLÇMEDİM."*
+  ⇒ Kayıt *"ölçülemedi"* değil, **"kod üzerinden KANITLANDI, sayısal
+  kontrol koşusu gerekmiyor"** diye tutuldu. Laundering değil, çünkü
+  hangi soruya hangi yoldan cevap verildiği **yazılı.**

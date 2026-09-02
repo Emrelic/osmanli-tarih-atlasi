@@ -677,8 +677,33 @@ GIRDI_DOSYALARI = [
     #     KAPI oldu. `§11`in "kural yetmiyor, ALET gerekiyor" dersinin
     #     bugünkü dördüncü vakası — ve bu sefer alet kazandı.
     #
-    # 🔜 SIRA: yayın (damga+push) → ANINDA yeniden bağla → A4 tavan 200
-    #    → yeni koşu. Metin `oturumlar/BAGLAMA-KUYRUGU.md`de duruyor.
+    # 🟢 YAYIN YAPILDI (r4776, commit db9d87f) — ALTI DOSYA ŞİMDİ BAĞLANDI,
+    #    yani bir SONRAKİ koşu onları görecek. Sıra artık doğru:
+    #    koşu biter → YAYINLA → bağla → yeni koşu.
+    "yerlesimler_ok101.js",           # 1 nokta · el-Vech (Tebük-Medine hac yolu)
+    "yerlesimler_ok104.js",           # 6 nokta · Mat · Leş · Kevkebân ·
+                                      # Hasankeyf. Hasankeyf
+                                      # `eyyubi-hisnikeyfa` kullanıyor ve
+                                      # o renk A3'te YAZILDI (#108810);
+                                      # renksiz kimlik = harita deliği (§8)
+    "yerlesimler_ok106.js",           # 11 nokta · Sloboda/Kırım hattı ·
+                                      # İzyum · Yenikale · Çuguyev
+    "yerlesimler_ok109.js",           # 2 nokta · İmâdiye (Musul sancağının
+                                      # altıncı kazası) · Şırnak.
+                                      # `kesinlik:"belirsiz"` taşır — A2'de
+                                      # BILINEN_ALANLAR'a kaydedildi.
+                                      # Şırnak'ın `kur:"1891-01-01"`i bir
+                                      # ALT SINIRDIR, kuruluş günü DEĞİL.
+    "yerlesimler_ok110.js",           # 1 nokta · Darende
+    "yerlesimler_p0037.js",           # 15 nokta · Bolgrad · Kahul · Zamość
+                                      # ⚠️ Zamość/Lublin/Chełm `lehistan`
+                                      # kullanıyor ama o künye 1795'te
+                                      # bitiyor — 1809-1815 VARŞOVA
+                                      # DÜKALIĞI'dır ve künyesi YOK.
+                                      # `Değişmez 4` 8 → 11 bunun yüzünden.
+                                      # 🔜 `varsova-dukaligi` künyesi +
+                                      #   rengi + dört kaydın hedefi:
+                                      #   AÇIK KALEM, sevk edildi.
     "yerlesimler_8beb2b.js",          # Yakutistan · Kamçatka · Çukotka ·
                                       # Kolıma. 🔴 SIFIR NOKTA, VE KASITLI:
                                       # araştırma "buraya nokta yazılmamalı"
