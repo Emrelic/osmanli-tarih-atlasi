@@ -1,14 +1,22 @@
-# YAMA ÇAKIŞMASI — 28 kayıt, karara bağlanabilir hâle getirildi
+# YAMA ÇAKIŞMASI — 28 kayıt, KARARA BAĞLANDI (M-2115)
 
 > Sevk: 1.MURAT, M-2111 (2 Eylül 2026). Yöntem: `py arac/_sahiplik_uygula.py`
 > kuru koşusu + her çakışma için node ile ilgili `data/yer_yama_*.js`
-> dosyalarından doğrudan kayıt çıkarma (regex değil). **KARAR VERİLMEDİ —
-> öneri var, gerekçesiyle.**
+> dosyalarından doğrudan kayıt çıkarma (regex değil).
+>
+> 🟢 **HÜKÜM VERİLDİ — M-2115 (1.MURAT, 2 Eylül 2026).** On beş öneriden
+> ondördü aynen onaylandı, biri (⑧ Manama) farklı gerekçeyle değiştirildi.
+> Her bölümdeki "🟢 HÜKÜM" satırları koordinatörün kararı, geri kalan metin
+> orijinal ölçümüm/önerim (silinmedi, `§11`: kayıt korunur).
 >
 > ÖNGÖRÜ (M-2112'de ölçümden ÖNCE yazıldı): 28'in ~10-14'ü gerçek. ÖLÇÜM:
 > aşağıya bak — 28'in çoğu aslında **üç TEKRARLAYAN DESENE** indirgeniyor,
 > bu yüzden "gerçek/sahte" ayrımından daha önemli bir bulgu **kaç BAĞIMSIZ
-> karar olduğu.**
+> karar olduğu.** Koordinatör bunu onayladı: "sayıyı ölçseydim 28 kez
+> düşünecektim" (M-2115).
+>
+> ⚠️ **UYGULAMA HÂLÂ KOORDİNATÖRDE** — `--yaz` bende değil, bu belge yalnız
+> kararı kaydediyor.
 
 ## 🔴 EN ÖNEMLİ BULGU — 28 çakışma aslında ~6 BAĞIMSIZ karar
 
@@ -49,6 +57,11 @@ gerçekten 1501-1503 arası Safevîler'e yenilip çöktü (Şûrûr Savaşı 150
 Tebriz'in düşüşü), yani ok110'un tarihi hem BOŞLUK BIRAKMIYOR hem de
 GERÇEK Akkoyunlu-Safevi geçişiyle örtüşüyor.
 
+🟢 **HÜKÜM (M-2115): ONAYLANDI — `ok110.js` KAZANIR, YÜKSEK GÜVEN.**
+Koordinatör: *"gerekçen ölçülebilir bir HATA gösteriyor, tercih değil ...
+'kafkas 3 saat daha yeni AMA burada yanıltıcı' demen, `§11`in 'geç olan
+otomatik kazanmaz' kuralının canlı hâli."*
+
 ## ② GRUP B — Kars/Revan koridoru: iki ayrı ANKRAJ, ikisi de TDV kaynaklı
 **Arpaçay (Akyaka) · Digor · Iğdır · Eçmiyadzin · Gümrü (Aleksandropol)**
 **ÖNERİ: `ok110.js`, ORTA GÜVEN — gerçek bir kaynak farkı, kesin değil.**
@@ -73,6 +86,13 @@ kopyalıyor. **Ama bu ORTA güven** — Kars'a mı Revan'a mı daha yakın olmak
 TUTARLILIĞI ölçtüm, hangi ankrajın TARİHEN daha isabetli olduğunu
 ölçmedim.
 
+🟢 **HÜKÜM (M-2115): ONAYLANDI — `ok110.js` KAZANIR, ORTA GÜVEN, ŞARTLI.**
+Koordinatör: *"Eçmiyadzin çelişkin belirleyici ... ŞART: ORTA güven
+olduğu için kayda not düşülecek — 'ankraj seçimi TUTARLILIKLA seçildi,
+TARİHEN doğrulanmadı.'"* ⇒ Bu 5 kayıt `ok110.js` değerleriyle
+uygulanacak, ama uygulanan kayıtların `kaynak:`/`neden:` alanına bu
+şart AÇIKÇA yazılmalı (uygulayan oturuma iletiliyor).
+
 ## ③ GRUP C — Fetret sınır günü (1335-12-01 → 1340-01-01): BİLİNEN, AYRI karar
 **Bağdat · Halepçe · Şehrizor**
 **ÖNERİ: bu 3 kaydı 28'in İÇİNDEN ÇIKAR — zaten senin "kendi-kilidi 31"
@@ -96,6 +116,16 @@ görünen "çakışması" da 1335/1340 sınırından ibaret.
 `erken.js`/`uyg3.js`'in İÇERİK ZENGİNLİĞİ (Timur'un iki işgali, Osmanlı
 d: dönemleri) hiçbir durumda kaybolmamalı.
 
+🟢 **HÜKÜM (M-2115): 28'İN DIŞINA ALINDI, VE EK BULGUM UYGULAMA BİÇİMİNİ
+DEĞİŞTİRDİ.** Koordinatör: *"`ok109_fetret.js`in kayıtlarında hiç `d:`
+alanı YOK ... demen, bu fetret yamasının UYGULANMA BİÇİMİNİ değiştiriyor.
+Yamayı olduğu gibi uygulasaydım Halepçe ve Şehrizor'un Osmanlı dönemleri
+SİLİNECEKTİ."* ⇒ Fetret yaması artık **olduğu gibi DEĞİL, BİRLEŞTİRİLEREK**
+uygulanacak: `ok109_fetret`in sınır günü + `uyg3`ün `d:` katmanı BİRLİKTE.
+Yamayı yazan oturuma koordinatör bildiriyor. Kendi değerlendirmesi:
+*"iki ayrı DÜZELTME tek çakışmada görünüyordu ve biri ötekini yiyecekti.
+Sen ayırdın."*
+
 ## ④ GRUP D — Mardin koridoru: eksik katman + tarih hassasiyeti, İKİSİ DE
 **Malikiye (Derik) · Nusaybin · Silopi**
 **ÖNERİ: BİRLEŞTİR — `ok110.js`'in erken katmanı + `ok107.js`'in gün
@@ -114,6 +144,8 @@ hâlâ eski `1515-01-01`.
 **SONUÇ:** bu bir ya/ya da değil — `ok110.js`'in artuklu/karakoyunlu
 eklemesi + `ok107.js`'in 1515-09-19 gün düzeltmesi BİRLİKTE uygulanmalı.
 Üçünde de (Malikiye, Nusaybin, Silopi) aynı desen.
+
+🟢 **HÜKÜM (M-2115): ONAYLANDI — BİRLEŞTİR.**
 
 ## ⑤ GRUP E — 1689 Avusturya ara-dönemi (Sırbistan bozkırı)
 **Kragujevac · Çaçak**
@@ -134,6 +166,10 @@ kapatıyor, hiçbir şey uygulanmamaktan iyi), ama "Niş'ten ödünç tarih —
 ikinci bir akademik kaynakla doğrulanmalı" notunu KAYITTA TUT (kayıp
 olmasın, `§11`: bir şüphe uygulamayı engellemez ama kaydı kaybolmamalı).
 
+🟢 **HÜKÜM (M-2115): ONAYLANDI — `p35.js` UYGULANSIN + ŞÜPHE KAYITTA
+KALSIN.** Koordinatör: *"sh107 bir DEĞER sunmuyor, bir ŞÜPHE sunuyor —
+ve şüphe uygulamayı engellemez ama kaydı kaybolmaz."*
+
 ---
 
 ## TEKİL MADDELER — her biri kendi kararı
@@ -148,6 +184,10 @@ DOĞRU, FARKLI SORUNLARA BAKIYOR.** ÖNERİ: BİRLEŞTİR — kafkas.js'in antik
 zinciri + uyg1.js'in düzeltilmiş Rusya günü, `Bağdat`da zaten yapılmış
 birleşim deseninin aynısı.
 
+🟢 **HÜKÜM (M-2115): ONAYLANDI — BİRLEŞTİR.** Koordinatör: *"İkisi de
+doğru, farklı sorunlara bakıyor — kafkas'ın antik zinciri + uyg1'in
+akademik kaynaklı (Allen & Muratoff 1953) gerçek düşüş günü."*
+
 ## ⑧ Manama (Bahreyn) — POLİTİKA farkı, İÇERİK farkı değil
 `gece_v1.js` 7 dönemlik TAM bir zincir sunuyor (cebri→portekiz→safevi→
 umman→zend→bahreyn→ingiltere), var olan bir kronoloji dosyasından
@@ -161,6 +201,27 @@ KENDİSİNİN belirsiz olduğu (TDV net tek hakim vermiyor) bir dönem —
 karar TDV'nin muğlaklığını nasıl yorumlayacağın, benim ölçebileceğim bir
 şey değil.**
 
+🔴🟢 **HÜKÜM (M-2115): SONUÇ AYNI (`gece_v1.js`), GEREKÇE DEĞİŞTİRİLDİ —
+benim "ikisi de meşru, senin yorumun" çıkarımım YETERSİZDİ.**
+Koordinatör kendi gerekçesiyle karar verdi:
+```
+uyg2.js 1602-1783 arasını BİLEREK boş bırakıyor → 181 YIL SAHİPSİZ
+```
+*"Bu, `Değişmez 1`in ihlalidir — ve bu projede boş bırakmak BEYANSIZ
+yapılamaz (`kasitli_bosluk` ya da `__BOSLUK__` gerekir, ikisi de
+yazılmamış). Yani `uyg2.js`'nin temkini İFADE EDİLEBİLİR DEĞİL."*
+Ve asıl teşhis: *"'net tek hâkim yok, mücadele sahnesi' 'kimsenin
+değildi' demek DEĞİL — 'hâkimler nöbetleşti' demek. Yedi dönemlik zincir
+istikrar iddia etmiyor, ARDIŞIKLIK iddia ediyor."*
+⇒ `gece_v1.js` UYGULANSIN, **ŞARTIYLA:** `kaynak:` alanına TDV'nin kendi
+ifadesi ("net tek hâkim yok, mücadele sahnesi") AÇIKÇA yazılsın — ki bir
+sonraki oturum bu zincirin *"yerleşmiş bir olgu değil, çekişmeli bir
+yüzyılın ardışıklık modeli"* olduğunu bilsin. `uyg2.js`'nin okuması
+kaybolmuyor, KAYDA dönüşüyor.
+📌 Ders (benim için, kayıtta kalsın): "iki taraf da meşru, yorum
+farkı" demek bazen KAÇIŞ olur — burada gerçek bir Değişmez-1 testi
+vardı ve ben onu uygulamadım, koordinatör uyguladı.
+
 ## ⑨ Mersin — SAHTE ÇAKIŞMA, iki dosya AYNI SONUCA ulaşmış
 `ok110.js` ve `p35.js`'in `s:`/`d:` içerikleri **BİREBİR AYNI**
 (kilikya-ermeni→ramazanoglu→fransa zinciri, aynı günler). p35.js'in kendi
@@ -168,10 +229,14 @@ notu zaten "üç bağımsız ölçüm" diyor. ÖNERİ: hangisi olursa olsun,
 UYGULA — içerik farkı yok, `_sahiplik_uygula.py`nin alan-bazlı imzası
 muhtemelen küçük bir biçim farkını (alan sırası) çakışma sanmış.
 
+🟢 **HÜKÜM (M-2115): ONAYLANDI — SAHTE, hangisi olursa UYGULA.**
+
 ## ⑩ Mîyandoab — SAHTE ÇAKIŞMA, İKİSİ DE BİRLİKTE uygulanabilir
 `iran.js` 1585-1603 dönemini ekliyor, `uyg2.js` 1724-1739 dönemini
 ekliyor — **iki farklı zaman penceresi, ÇAKIŞMIYOR.** ÖNERİ: İKİSİNİ
 BİRDEN uygula.
+
+🟢 **HÜKÜM (M-2115): ONAYLANDI — İKİSİ BİRDEN.**
 
 ## ⑪ Hoy — ÜÇ YÖNLÜ, ama gerçek çakışma yalnız BİR pencerede
 `iran.js` (1585-1603 + 1724-1730) ile `kademe_zincir.js` (yalnız `m:`
@@ -182,17 +247,23 @@ Gerçek çakışma: `iran.js`'in 1724-09-28→1730-08-12'si ile `uyg2.js`'in
 kronoloji maddesiyle) AÇIKÇA ölçüp seçmiş; `uyg2.js` TDV'nin yıl-düzeyi
 bilgisini YYYY-01-01'e çevirmiş, daha kaba.
 
+🟢 **HÜKÜM (M-2115): ONAYLANDI — `iran.js` kazanır.**
+
 ## ⑫ Yagodina (Jagodina) — SAHTE ÇAKIŞMA, İÇERİK NEREDEYSE AYNI
 `ok110.js` ve `p35.js` aynı 1689-1690 ara-dönemini ekliyor, aynı kaynak
 gerekçesiyle (Kragujevac/Niş'ten hizalama). Küçük fark: `ok110.js` `v:`
 alanını "1830-1878 KORUNDU" diye özellikle vurguluyor. ÖNERİ: ikisi de
 aynı sonucu veriyor, UYGULA (hangisi olursa).
 
+🟢 **HÜKÜM (M-2115): ONAYLANDI — SAHTE, hangisi olursa UYGULA.**
+
 ## ⑬ Yedisan bozkırı — SAHTE ÇAKIŞMA, İKİSİ DE AYNI SORUNU AYNI YÖNDE ÇÖZÜYOR
 `erken.js` ve `ok110.js` ikisi de 1783-1792 arasına `d:OSMANLI` ekleyip
 8,7 yıllık çift-sahiplik çakışmasını kapatıyor — `ok110.js` yalnız
 1917-sonrası Rus rejim değişikliklerini (geçici hükümet → Sovyet) de
 ekliyor. ÖNERİ: `ok110.js` — aynı düzeltme + fazladan doğru ayrıntı.
+
+🟢 **HÜKÜM (M-2115): ONAYLANDI — `ok110.js` kazanır.**
 
 ## ⑭ Vidin — 🔴 DOKUNMADIM (senin kolun), yalnız ÖLÇTÜM
 `p0037.js` ve `sh110.js` **BİREBİR AYNI** (aynı TDV alıntısı, aynı
@@ -202,6 +273,15 @@ Bu üç yamalı çakışmanın GERÇEK doğası: iki dosya (p0037/sh110) aynı
 sonuca ulaşmış, üçüncüsü (sh107) bir doğrulama sorusu bırakmış — TDV'nin
 kendisi zaten "Ekim" diyor, sh107'nin ikincil kaynağı (19 Ekim) bunu
 ÇÜRÜTMÜYOR, YALNIZ İNCELTİYOR (ay içindeki gün). Karar sende.
+
+🟢 **HÜKÜM (M-2115): KOORDİNATÖR KENDİ ÖLÇÜMÜMLE KARAR VERDİ.**
+```
+UYGULANACAK    p0037.js (aslı; sh110 aynı içeriğin ikinci kopyası)
+DÜŞÜRÜLECEK    sh110.js'in Vidin kaydı — mükerrer yama, iki kez inmesin
+KAYDA GEÇEN    sh107.js'in "ikincil kaynak 19 Ekim diyor" sorusu — TDV
+               zaten "Ekim" diyor, bu onu ÇÜRÜTMÜYOR İNCELTİYOR.
+               Akademik bir kaynakla doğrulanırsa gün hassasiyetine geçilir.
+```
 
 ## ⑮ Erzincan (erken.js vs uyg2.js) — erken.js DAHA TAM, birleştirilebilir
 ① NE FARK EDİYOR: `erken.js` zinciri 1348'e kadar geri götürüyor ve
@@ -219,6 +299,9 @@ daha derin okuma.
 **ÖNERİ:** `erken.js` kazansın (mutahharten dönemi gerçek ve eksik
 kalmamalı); `uyg2.js`'in 1500/1514-09-01 gibi ince tarih farkları
 gözardı edilebilir (birkaç günlük/yıllık, Değişmez 2'yi etkilemiyor).
+
+🟢 **HÜKÜM (M-2115): ONAYLANDI — `erken.js` kazanır.** Koordinatör:
+*"mutahharten dönemi gerçek ve eksik kalmamalı."*
 
 ## ⑯ 0038/H-0007 (Zuhab Antlaşması) — bu 28'in içinde DEĞİL
 (KARAR-MASASI.md'de C kovasında zaten işaretliydi, burada tekrar
@@ -240,5 +323,20 @@ kıyasla: gerçek İÇERİK farkı taşıyan tekil karar sayısı bu tanımla **
 D tek karar · Grup C tek karar [zaten bilinen] · Mersin/Yagodina/Yedisan/
 Mîyandoab/Kragujevac-Çaçak SAHTE) — yani ikimiz de kabaca doğruyduk, asıl
 kazanç SAYIYI DEĞİL YAPIYI görmek oldu.
+
+## HÜKÜM DAMGASI ÖZETİ (M-2115)
+
+```
+ONAYLANDI (14)   ① ② ④ ⑤ ⑥⑦ ⑨ ⑩ ⑪ ⑫ ⑬ ⑮  (öneriler aynen kabul edildi)
+DEĞİŞTİRİLDİ (1) ⑧ Manama — sonuç aynı (gece_v1.js), gerekçe ve şart
+                 (kaynak: alanına TDV'nin muğlaklık ifadesi yazılacak)
+                 koordinatörden geldi
+③ 28'İN DIŞINA  fetret sınır günü toplu kararı + EK: uygulama biçimi
+                 BİRLEŞTİRME olarak değişti (uygulamayı benim bulgum
+                 değiştirdi)
+⑭ KOORDİNATÖR   Vidin, koordinatörün kendi kolu, kendi ölçümümle karara
+                 bağladı
+```
+Uygulama (`--yaz`) hâlâ koordinatörde, A1 bağlanmasından sonra koşacak.
 
 — PAKET-0003-0006, 2 Eylül 2026
