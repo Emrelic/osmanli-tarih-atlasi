@@ -1,0 +1,44 @@
+{
+ "parti-emrelic-0037": {
+
+  "H-0001": {
+   "hukum": "cozuldu",
+   "not": "Kahul (45,905/28,198) ve Bolgrad (45,681/28,613, kur:1821) data/yerlesimler_p0037.js'e YAZILDI (window.YERLESIMLER_P0037); zincir İsmail'inkiyle aynı desen, TDV `bogdan` gövdesi 1856 iadesini ve 1878 geri alınışını ikisini de adıyla veriyor. Bolgrad kuruluş yılı doğrulanamadı (TDV 302, Encyclopedia of Ukraine sayfası yok) — kaynak alanında açık. Dosya girdi.py/index.html'e BAĞLI DEĞİL (M-1901 kilidi) → koordinatör sonraki koşu öncesi bağlar. — PAKET-0037, tahta M-1958"
+  },
+
+  "H-0003": {
+   "hukum": "cozuldu",
+   "not": "ÖLÇÜM: Mısır işgali veride `v:` 'Mısır (İbrâhim Paşa)' olarak 19 noktada yazılı; aralarındaki Antep·Kilis·Payas·Humus·Mersin·Yumurtalık yazısızdı ⇒ 'benek' bu. Urfa v: 1832→1841 ama TDV `sanliurfa` yalnız 1839 'kısa süre' (7 yıl fazla); Maraş v: 1832→1841 ama TDV `kahramanmaras` '1833'te … on dokuz aya yakın' (6,5 yıl fazla). Emre'nin sorusu: Kütahya evet (Şub–Haz 1833), Konya evet (Kas 1832–Haz 1833), Adana evet (1832–41), Maraş evet ama 1833'ten ~19 ay, Urfa yalnız Nizip sonrası 1839. YAZILDI: Antep·Kilis·Payas·Humus → yer_yama_p0037.js (kuru koşu 4/4 iner); Urfa·Maraş·Yumurtalık·Mersin → yama_p0037_bekleyen.js (uyg2/ok110/p35 ile AD çakışması, koordinatör kararı K1). Konya–Kütahya koridoru şehir şehir kaynaksız, yazılmadı. Açık soru K2: v: (tâbi) mi isg: mi — koordinatörde. — PAKET-0037, tahta M-1958"
+  },
+
+  "H-0004": {
+   "hukum": "cozuldu",
+   "not": "Madde olaylar_ek5.js, `yer_id` YOK, `yer:` 'Cebel-i Lübnan, Şam' iki yer. yer_yama_p0037.js'e aile-A kaydı: eksik_nokta Deyrülkamer (33,696/35,565) → yer_kon; TDV `lubnan` gövdesi. yama_uygula.js kuru koşu: olaylar_ek5.js 1 'yazilacak'. — PAKET-0037, tahta M-1958"
+  },
+
+  "H-0005": {
+   "hukum": "cozuldu",
+   "not": "ÖLÇÜM: görsel kutusu 67,10-69,12K/34,29-39,25D 1864'te 0 NOKTA; Kola·Kandalakşa batıda, Ponoy doğuda ⇒ yarımadanın içi yarıçap tavanı boşluğu (emilme değil, kasıtlı boşluk değil). YAZILDI: Lovozero (68,005/35,015) ve Varzuga (66,397/36,620), Kola'nın zinciri, yerlesimler_p0037.js. TDV kapsam dışı; kaynak 'bulunamadı + genel akademik/coğrafî' diye açık. — PAKET-0037, tahta M-1958"
+  },
+
+  "H-0006": {
+   "hukum": "cozuldu",
+   "not": "savaslar.js:743 kaydı 5 düz noktaydı. İki HAKEMLİ kaynak (Osmangazi Üniv. SBD 4/1, 2003 — dergipark 112955; M. Yurtbilir, Eklektik/Gedik Üniv. s.129-160) indirilip okundu; 27 düğümlü rota data/seferler_p0037.js'e yazıldı (window.SEFERLER_P0037): İstanbul→Mora→Messina→Napoli→Toulon(29 Haz)→Marsilya→Lyon→Paris(30 Haz–10 Tem)→Boulogne→Dover→Londra(–23 Tem)→Dover→Calais(VARSAYIM)→Brüksel→Koblenz→Nürnberg→Passau→Viyana(–31 Tem)→Tuna: Peşte→Novi Sad→Belgrad→Orşova→Vidin→Rusçuk(4 Ağu)→tren Varna(6 Ağu)→İstanbul(7 Ağu). UYGULAMA koordinatörde: app.js yalnız window.SEFERLER okur ⇒ savaslar.js kaydını değiştir YA DA app.js:2675'te concat. — PAKET-0037, tahta M-1958"
+  },
+
+  "H-0007": {
+   "hukum": "cozuldu",
+   "not": "ÖLÇÜM: görsel kutusu 50,62-52,57K/21,84-25,93D 1867'de 0 nokta; geniş kutuda 6 nokta. Lvov (avusturya) peteği Lublin-Volhinya'yı boyuyor (görselde Habsburg sarısı 52K'ya çıkıyor — §2 emilme), Varşova/Minsk ile arada tavan şeridi ⇒ 'boşluk'. YAZILDI: Lublin·Chełm·Zamość·Białystok·Brest-Litovsk·Pinsk·Grodno·Kovel·Lutsk·Volodymyr·Rivne (11), yerlesimler_p0037.js; TDV `lehistan` gövdesi boilerplate (§4 ④), dayanak N. Davies. İki yeni yabancı kırılma günü: 1809-10-14 · 1921-03-18 (2s +2, tavan 121). — PAKET-0037, tahta M-1958"
+  },
+
+  "H-0008": {
+   "hukum": "cozuldu",
+   "not": "ÖLÇÜM: 1877 görselindeki 'RUSYA' lekesi Plevne değil NİĞBOLU peteği (s:rusya 1877-07-16, gerçek düşüş); Romanya 1877'de Rusya'nın müttefiki, işgal yok ⇒ 1877 için isg YAZILMADI. Asıl kusur: (a) İbrail·Yergöğü 1829 sonrası s:eflak/romanya (yeşil), komşuları v: ⇒ yeşil adacıklar — v:'ye çekildi; (b) gerçek işgaller 1806-12 · 1828-34 · 1848-49 16 prenslik noktasının 14'ünde hiç isg taşımıyordu ⇒ üç pencere isg yazıldı (TDV `bogdan`), 1853-54 TDV'de bulunamadı. HEPSİ yama_p0037_bekleyen.js'te (romanya.js/gece_v3 ile AD çakışması → K1 kararı). K2: 1877-78 fetihleri (Kars·Ardahan·Niğbolu·Plevne +3) s:rusya düşüş gününden — Berlin'e kadar isg olmalı mı, koordinatörde. — PAKET-0037, tahta M-1958"
+  },
+
+  "H-0009": {
+   "hukum": "cozuldu",
+   "not": "BAYAT → çözüldü (bu paketten önce). ÖLÇÜM: şikâyet 29 Ağu 03:04; Kars s:rusya 1877-11-18 (düşüş günü) commit 3cf33e9 29 Ağu 13:51 — şikâyetten 11 saat sonra inmiş; görsel eski yayından. Bu notun 'Berlin günüyle birebir, MOTOR' teşhisi bugünkü veriyle uyuşmuyor: veri düşüş gününde kıpırdıyor, 1-2 Eyl koşusunda çizilecek. MOTOR'a iş YOK. Politika sorusu (işgal mi sahiplik mi) K2'de. — PAKET-0037, tahta M-1958"
+  }
+ }
+}
