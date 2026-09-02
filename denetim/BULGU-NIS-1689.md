@@ -74,6 +74,47 @@ tarihin sapması ±3 hafta, YIL sapması yok. Bekleyen yamalar (p35 · sh107 · 
 - **TDV'ye hata bildirimi** projenin işi değil; ama `nis` slug'ına dayanan başka bir kayıt
   1688 yazmışsa yanlıştır — tarandı: veride 1688-09-24 taşıyan kayıt **0**.
 
+## 4. EK (2 Eyl 09:00) — Şehirköy · Kragujevac · Çaçak: gün ARANDI, BULUNAMADI; küme yılda tutarlı
+
+Koordinatörün uyarısı baştan tutuldu: *"üçü de gerçekten 1689-09-24 olabilir; kümeyi ödünç ilan
+etmek için de kanıt gerekir."* Ölçüm:
+
+```
+Şehirköy (Pirot)  TDV `sehirkoy`: "1689'da şehir müttefik hıristiyan kuvvetlerince zaptedildi ...
+                  Ertesi yılın eylülünde Köprülüzâde Fâzıl Mustafa Paşa kasabayı üç gün süren
+                  mücadelenin ardından geri aldı."                     → 1689 (gün/ay YOK) · Eylül 1690
+                  TDV `kopruluzade-fazil-mustafa-pasa`: 1690 seferinde "Şehirköy (Pirot), Vidin,
+                  Pasarofça, Güvercinlik, Semendire, Niş ve ... Belgrad geri alındı" — Şehirköy İLK.
+                  İkincil (Karpoş isyanı maddesi, wiki): "Ekim 1689 sonuna kadar Niş, Pirot ve Bela
+                  Palanka alındı" — akademik değil, yalnız yön verir: Niş'ten SONRA, Ekim sonundan ÖNCE.
+Kragujevac        TDV 302. Batoçina muharebesi 29-30 Ağustos 1689 (Kragujevac'ın 15 km kuzeydoğusu);
+Çaçak             Sırp milisi (Nestorović) 1689 başından itibaren Semendire sancağında ayaklanmayı
+                  örgütledi; "1689-1692 arası Orta Sırbistan Habsburg denetiminde" (Ćirković 2004,
+                  The Serbs — wiki bibliyografyasından; gövdesine erişilemedi). Kasaba kasaba GÜN
+                  hiçbir kaynakta yok. Batoçina bibliyografyası: Tomić 1902 · Tanić 2005 (Sırpça,
+                  erişilemedi).
+```
+
+### Çıkardığım
+- **Üçü için de `bulunamadı` bir SONUÇTUR.** Yıl (1689) üçünde de bağımsız destekli; ay-gün için
+  akademik kaynak yok. 1689-09-24 (Niş'in günü) Şehirköy için *erken sınır* (Niş'ten sonra
+  düştü), Kragujevac/Çaçak için *geç sınır* (Batoçina 30 Ağustos'tan sonra, Niş'ten önce
+  Habsburg/milis denetimi başlamış olabilir). Yani ödünç günün yönü iki kasabada TERS —
+  ama ikisi de 1689 Ağustos–Ekim penceresinde; **yıl sapması yok, taşıma gerekçesi yok.**
+- **Kümeyi "ödünç" ilan etmek için kanıt YOK, "doğru" ilan etmek için de yok.** Doğru damga
+  `kesinlik:"yil"` (TDV yalnız yıl veriyor; M-2038 kuralı: bilinen en ince kademe).
+- 🔴 **Şema boşluğu:** `kesinlik` dönem NESNESİNE bağlanıyor, ama bir dönemin iki ucu farklı
+  hassasiyette olabiliyor — Şehirköy'de `f` yıl (1689), `t` ay (Eylül 1690). Tek alan bunu
+  ifade edemiyor. Karar koordinatörün (K5); `kesinlik_f/kesinlik_t` gibi bir alan İCAT
+  EDİLMEDİ.
+- **Yama YAZILMADI**, iki sebeple: ① değişecek TARİH yok, yalnız damga; ② üç kaydın `s:`/`d:`
+  dizileri zaten bekleyen yamalarda (Kragujevac·Çaçak → yer_yama_p35.js · Şehirköy →
+  yer_yama_ok105.js) — aynı alana ikinci yama alan-alan çakışma açar. Damga, o yamaların
+  sahiplerine/uygulanmış hâline eklenmeli.
+- Yan bulgu: MUTAD 2023 (Ozan Çekmez, "Niş Muhacirleri", hakemli) Niş işgalini
+  "24 Eylül 1689 – **10** Eylül 1690" diye veriyor; veri 1690-09-09. Bir günlük fark;
+  takvim/kaynak farkı olabilir, ÖLÇÜLMEDİ, kayda geçti.
+
 ## 3. Ne yapılmadı ve niçin
 - Yama YAZILMADI: değişecek bir alan yok. Vidin için karar koordinatörün (K4).
 - TDV `nis`in kaynağı olan Hicrî tarih maddede yok; "1100" yazsaydı 1688-89 çevirisi olarak
