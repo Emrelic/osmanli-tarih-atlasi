@@ -2909,6 +2909,32 @@ eski defter SİLİNMEZ, `.ONCEKI.json` olarak durur
   yazılıydı: **Türkçe yazım ekseni** (`usku` ≠ `Üsküp`, `İ`/`I`).
 
   ⇒ ***Ortak kök tek: alet, aradığı şeyin NEREDE OLMAYACAĞINI bilmiyor.***
+
+  🔴 **VE EN SİNSİ ALTINCI EKSEN: OLMAYAN BİR ALANI ARAMAK.**
+  Aynı gün, aynı aile, ama ötekilerden farklı: burada alet **yanlış yerde**
+  aramadı — **var olmayan bir yerde** aradı.
+  ```
+  aranan alan  o.b  ·  o.a
+  gerçek       açıklama alanının adı `d` — `a` DİYE BİR ALAN YOK
+  sonuç        1303 maddenin AÇIKLAMA METİNLERİ hiç taranmadı
+               eşleşme 9 sanıldı · gerçek 30
+  ```
+  ⚠️ **`0`, "yok" ile "bakmadım" arasında ayrım yapmaz** — ve alet hiç
+  ötmedi. Öteki eksenlerde yanlış bir sonuç çıkıyordu; burada **hiçbir
+  sonuç çıkmadı ve o boşluk «temiz» diye okundu.**
+  🟢 Bulunan cümle tam orada duruyormuş, üstelik künyenin `f:` gününde:
+  *"Varşova Dukalığı'nın büyük kısmı «Kongre Polonyası» adıyla Rusya'ya
+  bağlandı"* — üç kimlik tek cümlede, ve renk sıkılaştırmasını hak eden
+  bir anlatı. Yanlış ölçüm *"sıkılaştırma hak edilmiyor"* diye hüküm
+  vermişti.
+  ⇒ **Çare: gerçek alan kümesini ÖLÇ, varsayma.** (Bulan oturum 23 alan
+  adını tek tek çıkardı: `t · b · d · etiket · kaynak · yer · kisiler ·
+  k · gun · duygu · yer_id · yer_kon · tur · onem · dunya · kapsam ·
+  vefat_id · fethedilen · statu_dogrudan · statu_vasal · kaybedilen ·
+  boyut · kesinlik`.)
+  📌 Ve bu, `§11`in *"kendi yazdığın ayrıştırıcı her zaman kötüdür"*
+  dersinin **alan adı** yüzü: veriyi kendi dilinin yorumlayıcısına verip
+  `Object.keys()` sormak, alan adını hatırlamaya çalışmaktan güvenlidir.
   📌 Ve `§4`ün *"kaynağın kendi uyarısını da oku"* kuralının bir kademe
   ötesi çıktı: **`ferhad-pasa`nın cevabı `CLAUDE.md §4`te ZATEN ALINTILIYDI**
   (`luristan` maddesi: *"998'de (1590) İstanbul'da yapılan antlaşma"*), ve
