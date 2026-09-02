@@ -182,7 +182,69 @@ teşkilâtı literatürü (DergiPark hakemli makale) — **bu turda denenmedi.**
 
 ---
 
-## 4. YEDİ `bulunamadı` — ikinci turda da kapanmadı
+## 3.5 🔴 TUR 5 — PAKET B'NİN RUS TARAFI: BEŞİ DE `bulunamadı`, VE SEBEBİ ÖLÇÜLDÜ
+
+Koordinatörün gerekçesi şuydu: *"Mozdok · Georgiyevsk · Stavropol Kafkas
+hattıdır ⇒ TDV %100 bölgesi, önce oraya bak."* **Bakıldı ve premis çürüdü.**
+
+```
+DAR SLUG            mozdok 302 · georgiyevsk 302 · stavropol 302
+                    kizlar 302 · terek 302 · kabartay 302 · mecer 302
+KAPSAYICI MADDE     ÜÇÜ DE OKUNDU (gövde), ÜÇÜ DE FORT TARİHİ VERMİYOR:
+  `kabartaylar`     "Ruslar 1563 ve 1567'de Terek nehrinin kıyısında iki ayrı
+                     kale inşa ederek…" — 18. yy kaleleri ANILMIYOR;
+                     "Azak-Mozdok hattı" / "Kafkas hattı" ifadesi YOK
+  `kafkasya`        "1770'ten 1796'ya kadar Doğu Osetya, Çerkezistan, Kabartay,
+                     Tarku Şemhallığı, Gazi-Kumuk, Çeçenistan … Rusya'nın
+                     hâkimiyetine girdi" — kale adı ve kuruluş tarihi YOK
+  `dagistan`        "1785'te Kafkasya valiliğini ihdas ederek…" — Kızlar (1735)
+                     ve Mozdok (1763) ANILMIYOR
+```
+📌 **HÜKÜM: `CLAUDE.md:520`deki "Kafkasya %100" ölçümü DEVLET KÜNYELERİ
+kapsamasıdır, ŞEHİR/KALE TARİHİ kapsaması değil.** İkisi farklı sorulardır ve
+bu turda ayrıştı. `§4`ün TANECİKLİK boşluğu Kafkasya'da da geçerli.
+
+**Öteki kaynak aileleri de denendi ve ikisi de KAPALI çıktı:**
+```
+Internet Encyclopedia of Ukraine   Rus şehirlerini kapsamıyor (Ukrayna eseri)
+bigenc.ru (Rus Bilimler Akademisi) madde adresleri tahmin edilebilir değil;
+                                   arama sayfası 404 döndürdü
+DergiPark (hakemli Türk dergileri) 🔴 ARAMA SAYFASI İNSAN DOĞRULAMASI
+                                   (CAPTCHA) İSTİYOR — geçilmedi ve
+                                   geçilmeyecek. Bu bir araç kısıtıdır,
+                                   araştırma başarısızlığı değil; koordinatöre
+                                   ve kullanıcıya AÇIKÇA bildirildi.
+```
+⇒ **Uryupinsk · Stavropol · Georgiyevsk · Mozdok · Macar** için elimde
+erişilebilir bir akademik kaynak KALMADI. Yazılmadı, uydurulmadı.
+
+---
+
+## 3.6 🟢 AMA ARARKEN BAŞKA BİR ŞEY BULUNDU — KABARTAY'IN 35 YILI
+
+TDV `kabartaylar` (gövde okundu) iki cümle veriyor ve ikincisi veride VAR,
+birincisi YOK:
+```
+"Belgrad Antlaşması (1739) … Kabartayların yaşadığı bölgeyi TARAFSIZ BİR
+ ÜLKE hâline getirmiştir"                                     ← VERİDE YOK
+"Küçük Kaynarca (1774) … Kabartayları Rusya ile birleştirdi"   ← VERİDE VAR ✓
+```
+Bugünkü kayıt:
+```
+Kabartay (Nalçik)  k=0  s: altinorda 1281→1441 · kirim 1441→1774-07-21 ·
+                        rusya 1774-07-21→…
+```
+⇒ **1739-1774 arası 35 yıl `kirim` boyanıyor, oysa kaynak o dönemi TARAFSIZ
+ilan ediyor.** Bu, `§11`in Sibirya dersindeki ayrımın tam vakası: *kaynak
+KONUŞUYORSA `devletsiz`.* Burada kaynak konuşuyor ve adını da koyuyor.
+
+**Gün hazır ve ±0:** külliyatta `1739-10-03` — *"Niş Antlaşması — Rusya ile
+barış"* (Belgrad'ın Rusya ayağı; `1739-09-18` Belgrad maddesi de var).
+
+🔴 **YAZMADIM.** Üç sebep: ① kayıt benim değil (yama gerekir), ② 35 yıllık bir
+**sahipsiz pencere** açar ve `Değişmez 1`in belgeli-boşluk kovasına doğru
+biçimde girmesi gerekir, ③ nokta `k=0` bir dolgu noktası — boşaltmanın petek
+etkisi ölçülmeli. **Koordinatör kararı.**
 
 `Arabat · Temrük · Kopıl · Açuyev · Sucuk Kale · Dubossary · Kodak`
 ```
