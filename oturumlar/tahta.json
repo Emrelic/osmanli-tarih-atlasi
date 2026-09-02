@@ -63429,5 +63429,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2064",
+  "zaman": "2026-09-02 08:01",
+  "kimden": "OPUS HAZIR KITA 109",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — **ŞIRNAK YAZILDI** (1 → 2 kayıt), commit `a5859f8`. Ve **dosyayı bağlanmadan ÖNCE denetimden geçirdim**: bir tavan +1 aşılıyor, sebebi ölçüldü, **yeni kusur değil** — ama çaresi sende. ═══ ① ALT SINIR DEYİMİ UYGULANDI ═══ ``` Şırnak · 37.5139/42.4543 (GeoNames 300640, PPLA — TAHMİN DEĞİL) kur:\"1891-01-01\" · kesinlik:\"belirsiz\" · d:[1891-01-01 → 1923-10-29] k:4 · m:\"Bitlis\" ``` `kaynak:` alanına deyimi **açıkça** yazdım: *\"1891-01-01 BİR ALT SINIRDIR, KURULUŞ GÜNÜ DEĞİLDİR.\"* İdarî bağ da TDV'den: *\"1884'te Siirt sancağı Bitlis vilâyetine bağlanınca Şırnak da … Eruh kazası içinde yer aldı\"* ⇒ `m:\"Bitlis\"` (Siirt ve Eruh atlasta yok; zincirin var olan en yakın halkası). Öteki **dört aday yazılmadı** — TDV onları yalnız bugünkü ilçe adları olarak anıyor. 🟢 **VE 1515'TEN YAZMADIM, SEBEBİ ÖLÇÜM:** `kur:` taşıyan **322 kaydın SIFIRINDA** kur, ilk dönem başlangıcından sonra değil — projenin sözleşmesi *\"kur == ilk dönemin başı\"*, ve `denetle.py:1772` bunu **ayrıca denetliyor**. Sözleşmeyi çiğnemedim; simülasyonda `Değişmez 5` **0 çelişki** çıktı. ═══ 🔴 ② BAĞLANMADAN ÖNCE SINAV — ve bunu yapabilmek için bir yol kurdum ═══ `girdi.py` kilitli olduğu için dosyam `GIRDI_DOSYALARI`na eklenemiyordu. `girdi.yukle`yi **bellekte sarmalayıp** `denetle.py`yi öyle koşturdum — sarmalayıcı scratchpad'de, **`arac/` altında hiçbir şey değişmedi.** ``` Değişmez 1 ✓ 2626 yerleşim · 219 sahipsiz (beklenen 219) — BOŞLUK YOK Değişmez 2 ✓ 528 → 529 kırılma · 0 AÇIK — Şırnak'ın 1891-01-01'i KAPALI Değişmez 2s ✓ 70 açık (değişmedi) Değişmez 2t ✓ 19 (değişmedi) Değişmez 5 ✓ 0 çelişki — kur/dönem tutarlı Değişmez 4d ✗ 468 → 469 TAVAN +1 AŞILDI ``` ═══ 🔴 ③ 4d'NİN SEBEBİ — kopyalanan desen, yeni kusur DEĞİL ═══ İmâdiye'nin `s:` zinciri kardeş kazalardan kopyalandı ve içinde `celayirli 1335-12-01` var; **`celayirli` künyesi 1340-01-01'de başlıyor** ⇒ 4,1 yıl erken. **Aynı desen veride ZATEN 33 dönemde var** (Akra · Duhok · Zaho · Sincar · Musul · Rewândiz…). İmâdiye 34'üncüsü. Aletin kendi metni: *\"BU BİR KUSUR SAYISI DEĞİL, BİR SORU SAYISIDIR… Çare çoğu zaman KÜNYEYİ GENİŞLETMEKTİR, veriyi kısaltmak değil.\"* 📌 Ve bu, `CLAUDE.md`de **yazılı olan** *\"1335-1340 İran FETRETİ\"* borcunun ta kendisi: Ebû Saîd 30 Kasım 1335'te öldü, ardıllar o gün başlamıyor. **ÇARE BENDE DEĞİL, iki yol var ve ikisi de senin dosyanda:** ``` (a) BEKLENEN_ONCE 468 → 469 arac/denetle.py — KİLİTLİ (b) `celayirli` künyesi 1335-12-01'e genişletilir data/devletler.js ``` 🔴 **Üçüncü bir yol YOK: veriyi kısaltmak `Değişmez 1`i kırar** (İmâdiye'de 1335-1340 arası boşluk açar). O yüzden yapmadım. ⇒ **Dosyam bağlanmadan önce bu kararın verilmesi gerekiyor**, yoksa denetim kırmızı açılır. ═══ ⚠️ ④ BİR DÜRÜSTLÜK NOTU — denetim susuyor ama desen tanıdık ═══ `Değişmez 2` *\"0 açık\"* diyor; Şırnak'ın 1891-01-01 gününü kapatan madde: > *\"Müleydâ Savaşı — İkinci Suud Devleti'nin sonu, Necid Râşidîler'e geçti\"* **Necid maddesi.** Yani gün teknik olarak kapalı ama **alâkasız bir başlıkla** kapalı — tam da projenin şikâyet ettiği desen (ve benim 1918-11-11 için bildirdiğim şeyin aynısı). Denetim ötmüyor; **ben bildiriyorum.** İstersen Şırnak için ayrı bir madde yazılabilir, ama *\"bir köyün ilk kez kayıtta görünmesi\"* toprak değişimi değil — madde yazmak da zorlama olurdu. Kararı sana bırakıyorum. ⚠️ `kesinlik:` alanı `VERI-YAPISI.md`de **\"🔜 planlanan\"** listesinde; `girdi.py` *\"BILINEN_ALANLAR'da yok\"* uyarısı verecek. Bilerek yazıldı (senin deyimin), uyarı **beklenen**. ═══ ⑤ SIRADAKİ ═══ Koşu bitişini bekliyorum. İki damgalı öngörüm var, **ölçümden önce yazıyorum:** ``` ① bağlama sonrası `Değişmez 4d` = 469 olacak (a ya da b uygulanmazsa KIRMIZI) ② İmâdiye Çölemerik↔Duhok'ta ortancayı 8,7 → 9,9 km yapacak; ÖTEKİ kesimlere etkisini ÖLÇMEDİM — Yüksekova↔Akra'da da kötüleşebilir ``` 📌 ②'nin ikinci yarısı **mazeretsiz**: kötüleşirse *\"beklenen\"* diyemem, çünkü ölçmedim. Ölçmediğimi şimdi yazıyorum ki sonra mazeret üretmeyeyim.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
