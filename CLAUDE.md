@@ -2625,3 +2625,56 @@ eski defter SİLİNMEZ, `.ONCEKI.json` olarak durur
   ⇒ Kayıt *"ölçülemedi"* değil, **"kod üzerinden KANITLANDI, sayısal
   kontrol koşusu gerekmiyor"** diye tutuldu. Laundering değil, çünkü
   hangi soruya hangi yoldan cevap verildiği **yazılı.**
+
+- 🔴 **DOĞRU SONUCU GÜVENİLMEZ YOLDAN VEREN ALET — ve kendini ELE VERMEZ.**
+  *(2 Eylül 2026, işçi oturumun kendi aletini ihbarı)*
+
+  Bu proje *"yanlış sonuç veren alet"* vakalarını çok kaydetti. Bugün
+  eksik olan sınıf ölçüldü: **doğru sayıya vardığı hâlde yöntemi
+  güvenilmez olan alet.**
+
+  Bir oturum *"27 çatışmanın kaçı karara bağlandı"* diye sordu ve iki kez
+  ölçtü:
+  ```
+  ① AD ARAMASI      "adı belgede geçiyor mu"     → 18/18 kapsanmış
+  ② BÖLÜM AYIRMA    "adın geçtiği BÖLÜMDE hüküm var mı"
+                     (20 bölüm · 16'sında HÜKÜM satırı, ilk satırlar basıldı)
+  ```
+  ⇒ *"'Adı geçiyor' ile 'hükme bağlanmış' AYNI ŞEY DEĞİL."* Birinci ölçüm
+  doğru sayıya varıyordu ama **yanlış soruyu** soruyordu.
+
+  🔴 **Ve ikinci alet de bir yanlış pozitif verdi:** `Manama` için
+  önsözdeki *"HÜKÜM VERİLDİ — M-2115…"* satırını eşleşme saydı; o
+  bölümün kendi hükmü değildi. Elle açıldı, hüküm **gerçekten vardı** —
+  ama standart damgayı taşımıyordu.
+
+  📌 **Ve asıl kayıt oturumun kendi cümlesi:**
+  > *"Aletim damga DİZİSİNE bakıyor, İFADEYE değil. Bugün doğru sayıya
+  > vardı ama **TESADÜFEN** — bir sonraki belgede aynı yazım farkı sessiz
+  > bir yanlış negatif üretir. **Sayı doğru diye yöntem doğru sayılmaz.**"*
+
+  ⇒ Bu sınıf ötekilerden **daha sinsi**, çünkü kendini ele vermiyor:
+  yanlış sonuç bir gün fark edilir, **doğru sonuç asla sorgulanmaz.**
+  Aletin kırılganlığı ancak **onu yazan** söylerse bilinir.
+  ⚠️ Bir aletin çıktısını kabul ederken sorulacak soru *"sayı doğru mu"*
+  değil, ***"bu sayıya nasıl vardı"***.
+
+- 🔴 **BİR HÜKÜM, VERİYE İNMEDİKÇE HÜKÜM DEĞİL BİR METİNDİR.**
+  *(aynı gün, aynı küme)*
+
+  27 yama çatışmasının 27'si karara bağlandı ve `YAMA-CAKISMA.md`ye
+  yazıldı. Sonra ölçüldü:
+  ```
+  py arac/_sahiplik_uygula.py
+     uygulandi 83 · cakisma 27      ← 27'sinin 27'si HÂLÂ BLOKE
+  ```
+  Sebep basit ve kolay gözden kaçar: **uygulayıcı betik o belgeyi hiç
+  açmıyor.** Hüküm *"hangi yama kazanır"* diyor, ama kazanmak
+  kendiliğinden olmuyor — **kaybeden kaydın kendi dosyasından
+  düşürülmesi** gerekiyor.
+
+  📌 `§11`in *"bir ders veriye SERBEST METİN olarak inerse inmiş
+  sayılmaz"* dersinin **karar** tarafı: orada bir bilgi makinenin
+  göremeyeceği yere yazılmıştı, burada bir **hüküm.** İkisinde de
+  `grep` *"var"* der, makine *"yok"* der.
+  🟢 Sınavı aynı tek soru: ***bu hükmü bir `if` ile sorabiliyor muyum?***
