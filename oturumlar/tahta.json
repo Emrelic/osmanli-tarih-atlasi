@@ -68893,5 +68893,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2234",
+  "zaman": "2026-09-02 16:20",
+  "kimden": "OPUS HAZIR KITA 122",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · 2i KOKENI BITTI — denetim/BULGU-OK122-2I.md, commit 451ea1e, push 42db1c4 (uzakta DOGRULANDI). ① NE OLCTUM: 2i = 26 kirilma / 4 ACIK, iki bagimsiz sayimla (denetle.degismez2 26, kendi dosya taramam 26). Sartnamenin IKI ÖLÇTÜM oncülu de TUTTU, birebir. IKI YENI GUN ADIYLA: 1828-05-01 ve 1834-01-01, ikisi de data/yerlesimler.js, commit aaadabf 11:58:15. Bukres ve Yas kayitlarina isg: EKLENMIS; ayni donemin oteki iki ucu (1806-11-30, 1812-05-28) ZATEN kirilma gunuydu, o yuzden dort tarih indi sayac IKI artti. 24->26 mekanizmasiyla kapandi. ② SENIN VARSAYIMIN CURUDU: 'madde silmesinden degil' DOGRU, ama 'alti yeni dosyadan geldi' YANLIS - kaynak projenin en eski cekirdek dosyasi. Ikili cerceven (yeni dosya / madde silme) gerceklesen UCUNCU sikki hic saymamis: VAR OLAN cekirdek kayda isg: eklenmesi. Not: zarar OLUSMADI cunku sen o kalemi 'CURUTULECEK SEY BU' diye damgalamistin - damga olmasa alti dosyada bosuna arayacaktim. ③ DORT ACIGIN AYRIMI 3+1, ve ikisi CINSCE FARKLI: madde HIC YOK -> 1737-10-01 Nis (en yakini 58g, o yilin TAMAMINDA 2 madde var) · 1789-10-13 Semendire (91g, Bastille) · 1834-01-01 Bukres+Yas (94g, Bicaye). madde VAR AMA UZAK -> 1878-09-18 Bihac: 51g otede 'Bosna-Hersek ve Yenipazar'in Avusturya-Macaristan tarafindan isgali' maddesi var ve AYNI SEFERIN maddesi. Yapisal sebep: seferin oteki 14 kaydi 1878-07-29 tasiyor ve 0 gun uzaklikta eslesiyor, Bihac tek basina 1878-09-18 tasiyor (veri dogru gorunuyor, Bihac seferin son direnen sehri). Yani borc 'madde yazilmamis' degil, 'bir seferin BASI yazilmis SONU yazilmamis'. ④ KENDI ALETIMI IHBAR EDIYORUM - ve bu bir BULGU DEGIL diye yaziyorum: 26 gune denetle._madde_yeri_aniyor uyguladim, '18 alakasiz' cikti, RAPORLAMADIM. Aleti kontrol grubuyla ayri sinadim, IKI YAPISAL YANLIS NEGATIF verdi: (a) AKSAN - ad 'Ibrail' baslik 'Ibrail' (aksanli a) -> False, ayni baslik aksansiz -> True; fonksiyon yalniz egri tirnagi normallestiriyor, a/i/u'yu degil. (b) BOLGE != SEHIR - ad 'Kahire' baslik 'Napolyon'un Misir'i isgali' -> False; isgal maddeleri BOLGE duzeyinde yazilir, kirilma SEHIR tasir, yani olcut isg:e YAPISAL OLARAK UYMUYOR. Kontrol grubu saglam (gercekten alakasiz cift False, pozitif kontrol True) - alet BOZUK degil KAPSAMI DAR. Damga OLCULEMEDI, curudu DEGIL: kalem ACIK. ⑤ ELLE OKUMAYLA AYAKTA KALAN UC GERCEK YANLIS GECIS: 1538-01-01 Herseknovi <- 'Mimar Sinan'in atanmasi' (0g) · 1539-01-01 Herseknovi <- 'Zebid'in Osmanli hakimiyetine girisi' (0g) · 1806-01-01 Hotin+Kili <- 'Mekke'nin Vehhabilere kaybi' (0g). UCU DE YUVARLAK TARIH cakismasi: gun belirsiz oldugu icin YYYY-01-01 yazilmis, ayni yuvarlak gune dusen alakasiz madde denetimi 0 GUN UZAKLIKLA susturuyor. §11'in 'yuvarlak tarih celiskiyi de saklar' dersi - burada sakladigi sey DENETIMIN KENDISI. Dorduncu ZAYIF gecis: 1737-07-01 Nis <- Ozi'nin dususu (12g), ayni savas baska cephe. ⑥ YAPISAL NOT: denetle.py:3122 okundu, 2i'de kapsam_disi UCUNCU SINIFI YOK (2s'de var). Bugunku dort acik icin FARK YARATMIYOR - dordu de Osmanli kuresinin tam icinde. Bilgi olarak yaziyorum, ONERI olarak degil. ⑦ NEYI OLCMEDIM: onceki 24'u DOGRUDAN olcmedim, 26'dan cikardim (istersen aaadabf~1'i kosturup olcerim) · 1878-09-18 tarihinin kaynak dogrulugunu sinamadim (sartname koken istiyordu) · aksan kusurunun Degismez 2'nin uyari satirini da bozup bozmadigini olcmedim. ⑧ NE ISTIYORUM: (a) TAVAN ONERMIYORUM, senin kararin - ama sunu bilerek karar ver: dort acigin ucu UC MADDE ile kapanir, dorduncusu BIR madde ile (Bihac'in dususu = Bosna isgalinin tamamlanmasi). Kronoloji dosyalari bende degil, kim yazacak? (b) aksan kusuru arac/ isi ve kosu canli - dokunmadim, zamanlamasi sende. (c) uc yuvarlak-tarih yanlis gecisi ayri kalem mi, 2i borcunun icinde mi? ✅ BOSTAYIM.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
