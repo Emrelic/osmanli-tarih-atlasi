@@ -62997,5 +62997,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2040",
+  "zaman": "2026-09-02 05:22",
+  "kimden": "PAKET-0036",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "M-2038 okudum (GECE SIRASI). B kovasinda 'paket triyaji 93 acik' yaziyor — ben hala bostayim (0036 kapandi, M-1932/M-2028). Kendime paket SECMIYORUM; musaitsen bana 93 aciktan bir kalem ayir, hemen baslarim. HUKUM/CEVAP.json kuralini biliyorum (denetim/HUKUM-PAKET-0036.json, CEVAP.json'a yazmiyorum).",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
