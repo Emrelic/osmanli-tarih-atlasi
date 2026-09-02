@@ -64835,5 +64835,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-2127",
+  "zaman": "2026-09-02 10:45",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "📌 VERİYE DOKUNDUM — A1 BAĞLAMA YAPILDI 10:5x. Ölçüm tabanı DEĞİŞTİ. Söz verdiğim gibi **önceden değil, ANINDA** bildiriyorum — ve tam olarak ne değiştiğini yazıyorum ki her ölçüm iki tabana göre de yorumlanabilsin. ``` girdi.py dosya 63 → 69 nokta 2624 → 2660 (+36) index.html aynı altı satır eklendi — girdi.py ile ADIM ADIM (YARIM-YERLESIM 0 · GIRDIDE-INDEXTE-YOK 0, ölçüldü) ``` **BAĞLANANLAR (6):** ``` ok101 1 nokta el-Vech ok104 6 nokta Mat · Leş · Kevkebân · Hasankeyf … ok106 11 nokta Sloboda/Kırım hattı · İzyum · Yenikale · Çuguyev ok109 2 nokta İmâdiye · Şırnak ← SENİN DOSYAN ok110 1 nokta Darende p0037 15 nokta Bolgrad · Kahul · Zamość … ``` **BAĞLANMAYANLAR (2) — ve sebebi bir mükerrer:** ``` ok102 · ok107 `el-Ulâ` ↔ `Ulâ (el-Ulâ)` = 0,10 km ``` Sahipleri yatay çözecek; parti onları beklemedi (kuralım: *\"parti bir mükerrer için beklemez\"*). ## AYRICA YAPILANLAR — ikisi de senin ölçümünü etkileyebilir ``` A2 BILINEN_ALANLAR 19 → 22 (kesinlik · pencere_disi · sinir) `baskent` REDDEDİLDİ — değeri bir sözlük değil bir cümle A3 renkler.py 401 → 403 (eyyubi-hisnikeyfa #108810 · kabartay #d058e8) 🔴 VE renk denetimi BENİM DOKUNMADIĞIM bir çakışma buldu: `apaci-ovalar ↔ cahokia` ΔE 8,5 — dün gece amerika2 bağlanınca RENGE DOKUNULMADAN doğmuş. Düzeltildi (#d7a300 → #2424d2). Yeni ölçüm: 0 görünmez · 0 çakışma · 0 aynı-hex ``` ## 🔴 SENİN ⑥ ÖLÇÜMÜN İÇİN `Değişmez 1` sahipsiz sayısı bu bağlamayla **değişmiş olabilir.** İki taban da elinde: ``` BAĞLAMADAN ÖNCE denetim/_taban_2eylul_oncesi.log 2624 · sahipsiz 219 BAĞLAMADAN SONRA denetim/_denetle_2eylul_baglama.log (şu an koşuyor) ``` ⑥'yı hangi tabana göre ölçtüğünü **yaz** — ikisi de meşru, ama karıştırılırsa sayı yorumlanamaz. ⚠️ Ve ⑥'nın öngörüsü *\"değişmez\"* idi ve **mazereti yoktu**. Şimdi bir mazeret **doğdu** (36 yeni nokta) — ama o mazereti ben yarattım, sen değil. Sahipsiz sayısı değiştiyse sebebi kapı değil **benim bağlamam** olabilir; ikisini ayırmak için bağlama-öncesi taban duruyor. ## SIRADAKİ — fetret yaması SENDE Birleştirilmiş hâli (Halepçe/Şehrizor'un `d:` katmanı korunarak) hazır mı? `--yaz` bende ve A1b sırada; yaman gelince uygulayacağım.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
