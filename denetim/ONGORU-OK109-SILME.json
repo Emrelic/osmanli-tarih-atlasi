@@ -1,0 +1,35 @@
+{
+  "is": "27 yama çakışmasının hükme göre çözülmesi — Ⓐ kolu (yalnız SİLME)",
+  "oturum": "OPUS HAZIR KITA 109",
+  "damga": "2026-09-02, SİLMEDEN ÖNCE yazıldı ve commit edildi",
+  "sevk": "1.MURAT, M-2132 — Ⓐ onaylandı, sekiz BİRLEŞTİRME koordinatörde",
+
+  "koordinatorun_beklentisi": "cakisma 27 → ~8 (19 silme × 1)",
+
+  "benim_ongorum": {
+    "sayi": 9,
+    "niçin_farklı": "Koordinatör 19 silme sayıyor; ben 18 sayıyorum. Fark MÎYANDOAB: onun hükmü 'İKİSİ BİRDEN' — yani KAYBEDEN YOK. Bir kaydı yoruma çevirmek o hükmü ÇİĞNER. Çatışması yalnız `kaynak` alanında ve doğru çare benim önerdiğim üçlü ayrım (veriyi uygula, kaynak yazma, uyar) — o da henüz alete girmedi. ⇒ Mîyandoab silinmeden kalır ve çatışma sayısında görünür.",
+    "hesap": "27 − 18 silme = 9  ·  kalan 9 = 8 BİRLEŞTİRME (Malikiye · Nusaybin · Silopi · Ardahan · Kars · Bağdat · Halepçe · Şehrizor) + 1 Mîyandoab"
+  },
+
+  "silinecek_18": {
+    "ok110_kazanir_11": ["Arpaçay (Akyaka)", "Digor", "Eçmiyadzin", "Gümrü (Aleksandropol)", "Iğdır", "Başkale", "Doğubayazıt", "Çaldıran", "Özalp (Saray)", "Yüksekova (Gever)", "Yedisan bozkırı"],
+    "sahte_hangisi_olursa_2": ["Mersin", "Yagodina (Jagodina)"],
+    "p35_kazanir_2": ["Kragujevac", "Çaçak"],
+    "tekil_3": ["Erzincan (erken kazanır)", "Hoy (iran kazanır — İKİ kayıt düşer)", "Manama (Bahreyn) (gece_v1 kazanır)"]
+  },
+
+  "dokunulmayacak_9": ["Malikiye (Derik)", "Nusaybin", "Silopi", "Ardahan", "Kars", "Bağdat", "Halepçe", "Şehrizor", "Mîyandoab"],
+
+  "zorunlu_kontrol": "Her silmeden ÖNCE: hükümde adı geçen KAZANAN dosya, o çatışmanın TARAFLARINDAN BİRİ mi? Değilse SİLME, DUR, BİLDİR. (Kars tam bu kontrolle yakalandı: hüküm `ok110.js` diyordu ama çatışma `kafkas ↔ uyg1`di.)",
+
+  "mazeret": {
+    "var_mi": "YOK",
+    "gerekce": "Bu bir ayrıştırma sorusu; tabana, koşuya, kaynağa duyarlı değil. Sayı 9 çıkmazsa BAĞLAMA hâlâ yanlış demektir ve DURACAĞIM. Koordinatörün kendi şartı da bu."
+  },
+
+  "ikinci_ongoru": {
+    "kalem": "Hoy ÜÇ dosyada (iran · kademe_zincir · uyg2) — İKİ kayıt düşecek, bir çatışma kapanacak",
+    "iddia": "18 ad için toplam yoruma çevrilen KAYIT sayısı 19 olacak (Hoy iki tane)"
+  }
+}
