@@ -67,7 +67,49 @@ window.DEVLETLER_BK_OK106 = [
     kaynak: "atlasın kendi `baskent` alanı (\"Ferrara → Modena (1598 " +
             "sonrası)\"). ⚠️ TDV bu künyeyi KAPSAMIYOR (İtalya); dayanak " +
             "projenin kendi kaydıdır, DIŞARIDAN DOĞRULANMADI. Gün yok ⇒ " +
-            "YYYY-01-01 (§4). \"1598 sonrası\" ifadesi bir ALT SINIRDIR." }
+            "YYYY-01-01 (§4). \"1598 sonrası\" ifadesi bir ALT SINIRDIR." },
+
+  // ═══ TUR 2 — beş künyelik dilim (M-2106 ③) ═══
+
+  // ── HAMİDOĞULLARI — künye 1297-01-01 → 1391-01-01 ────────────────────
+  //  TDV `hamidogullari` (200, gövde okundu):
+  //    "Hamîd Bey, muhtemelen 1297 yılında müstahkem bir yer olan Uluborlu'yu
+  //     hükümet merkezi yaptı."
+  //    "Hükümet merkezinin Eğridir'e nakli MUHTEMELEN 1307 yılına veya biraz
+  //     öncesine rastlamaktadır."
+  // 🟢 Ve künyenin `f`si (1297-01-01) TDV'nin verdiği yılla BİREBİR tutuyor —
+  //    bağımsız bir çapraz doğrulama.
+  // 🟡 "MUHTEMELEN" iki kez geçiyor: kaynağın kendi ihtiyatı, ve gizlenmiyor.
+  // 🔴 AD SEÇİMİ — `Diyarbekir/Diyarbakır` ailesinin dördüncü üyesi:
+  //    TDV "Eğridir" yazıyor, atlasın `baskent` alanı "Eğirdir" diyor.
+  //    ÖLÇÜLDÜ: yerleşim adı **"Eğirdir"** (VAR) · "Eğridir" (YOK).
+  //    ⇒ `bk[].ad` ATLASIN yazımıyla yazıldı; kaynağın yazımı burada kayıtlı.
+  // 🔴 `Isparta` YAZILMADI: "/" ile ayrılmış — sıra değil YAN MERKEZ.
+  { id: "hamid",
+    bk: [
+      { f: "1297-01-01", t: "1307-01-01", ad: "Uluborlu" },
+      { f: "1307-01-01", t: "1391-01-01", ad: "Eğirdir" }
+    ],
+    kaynak: "TDV `hamidogullari`: Uluborlu \"muhtemelen 1297\", Eğridir'e nakil " +
+            "\"MUHTEMELEN 1307 yılına veya biraz öncesine\". ⚠️ Kaynak İKİ KEZ " +
+            "\"muhtemelen\" diyor ⇒ 1307 bir ALT SINIRDIR, kesin gün DEĞİL. " +
+            "AD: TDV \"Eğridir\" yazıyor, atlasta yerleşim \"Eğirdir\" — motorun " +
+            "gördüğü ad yazıldı, kaynağınki bu nota kaydedildi." },
+
+  // ── ADAL SULTANLIĞI — künye 1415-01-01 → 1887-01-06 ──────────────────
+  //  TDV `harar` (200, gövde okundu):
+  //    "Zeyla' Emirliği başşehrinin Zeyla'dan Valasma hânedanı sultanı Ebû
+  //     Bekir b. Muhammed b. Ezhereddin tarafından 926'da (1520) Harar'a
+  //     taşınması"
+  // 🟢 Hicrî karşılığıyla birlikte verilmiş (926/1520) — bu turun EN SAĞLAM
+  //    tarihi. Gün yok ⇒ `§4`: YYYY-01-01.
+  { id: "adal",
+    bk: [
+      { f: "1415-01-01", t: "1520-01-01", ad: "Zeyla" },
+      { f: "1520-01-01", t: "1887-01-06", ad: "Harar" }
+    ],
+    kaynak: "TDV `harar`: \"başşehrinin Zeyla'dan … 926'da (1520) Harar'a " +
+            "taşınması\". Hicrî karşılığıyla verilmiş. Gün YOK ⇒ YYYY-01-01 (§4)." }
 
 ];
 
@@ -87,3 +129,28 @@ window.DEVLETLER_BK_OK106 = [
 //              Bu "tarih yok" DEĞİL, **"başkent kavramı hiç kullanılmamış"**.
 //              ⚠️ Aynı kovaya konursa bir gün biri *"eksik, tamamlayalım"*
 //                deyip kaynağın SÖYLEMEDİĞİNİ yazar. Ayrı duruyor.
+//
+// ═══ TUR 2'NİN BULUNAMADILARI ═══
+//   nizamsahiler  TDV `nizamsahiler` arandı · Ahmednagar'ın 1495'te başkent
+//                 yapıldığı VAR, ama DEVLETÂBÂD'a geçiş tarihi YOK.
+//                 🔴 VE BİR VERİ SORUSU: TDV, Melik Anber'in **Khirki
+//                   (Evrengâbâd)**'yi merkez edindiğini söylüyor;
+//                   **Devletâbâd'ı hiç anmıyor.** Yani yalnız TARİH değil,
+//                   atlasın `baskent` alanındaki HEDEF ŞEHİR de şüpheli.
+//                   Düzeltilmedi — koordinatöre bildirildi.
+//   bengal-sultanligi  TDV `bengal-sultanligi` arandı · Gaur'un kuruluşu
+//                 (Ballâl Sen, 1108-1119) var ama Pandua ↔ Gaur başkent
+//                 değişiminin tarihi YOK. Sınıf: tarih yok.
+//
+// 🔴🔴 GOLKONDA — TARİHİ BULUNDU AMA **YAZILAMADI**, ve sebebi ÖNEMLİ
+//   TDV `kutubsahiler`: *"Muhammed Kulı tarafından 1590-1591'de kurulan
+//   Haydarâbâd da hânedana başşehirlik yapmıştır"* ⇒ tarih SAĞLAM.
+//   AMA nokta sınavı: atlasta **`Haydarâbâd` YOK**; en yakın ad
+//   **`Haydarâbâd (Sind)`** ve o **BAŞKA BİR ŞEHİR** — Pakistan'daki Sind
+//   Haydarâbâd'ı, Dekken'dekinden ~1500 km uzakta.
+//   ⇒ Yazılsaydı başkent yıldızı YANLIŞ ÜLKEYE düşerdi. Ad benzerliği
+//     yine bir tuzak kurdu ve bu sefer NOKTA sınavı yakaladı.
+//   📌 Ve bu, turun en önemli ayrımını gösteriyor:
+//     **TARİH BULUNMASI ≠ KAYIT YAZILABİLMESİ.** Ad kapısı ayrı bir kapıdır.
+//   ⇒ Dekken Haydarâbâd'ı `(c) EKSİK NOKTA` kovasına yazıldı; nokta gelince
+//     bu künye TEK TURDA tamamlanır, tarihi hazır.
