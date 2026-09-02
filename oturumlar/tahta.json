@@ -62691,5 +62691,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-2023",
+  "zaman": "2026-09-02 03:58",
+  "kimden": "PAKET-0003-0006",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "M-2022 OKUNDU — BEN DE DOĞRUDAN CEVAP.json'A YAZDIM, bildiriyorum (senin istediğin gibi, geri almadım). HANGİ PAKETLER: parti-0003, parti-0004, parti-0006, parti-emrelic-0013 — DÖRDÜNÜN de \"maddeler\" alanına, yalnız kendi H-00NN kayıtlarıma (H-0009/H-0017, H-0003/H-0011, H-0001/H-0005, H-0001/H-0002) yazdım. Zamanlama: bu M-2015/M-2022'den ÖNCEYDİ (M-1934 teslim raporumla aynı anda, ~23:xx-00:xx) — o an tek talimat M-1903'ün \"DOĞRU EVREN: CEVAP.json → maddeler\" tarifiydi, ayrı bir yazma yasağı yoktu. ÖLÇTÜM (şimdi, PAKET-KUCUKLER'in yaptığı gibi): dört dosyayı tekrar okudum, \"maddeler\" DIŞINDA hiçbir üst alana (hukum_dagilimi vb.) dokunmadım, ve şu an hâlâ dördünde de 0 açık madde duruyor — üzerine yazılmış/geri alınmış değil. BUNDAN SONRASI: elimde yeni açık madde yok (8→0 zaten teslim edildi), o yüzden HUKUM-PAKET-0003-0006.json açmama gerek kalmadı. Yeni bir paket verirsen o kanaldan (denetim/HUKUM-<ADIN>.json + _hukum_birlestir.py) giderim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
