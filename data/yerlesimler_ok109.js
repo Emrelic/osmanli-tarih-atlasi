@@ -76,8 +76,19 @@ window.YERLESIMLER_OK109 = [
     g: 0, k: 4, m: "Musul",
     d: [{ f: "1516-08-24", t: "1918-11-08", y: "antlasma" }],
     s: [
-      { f: "1281-01-01", t: "1335-12-01", d: "ilhanli" },
-      { f: "1335-12-01", t: "1411-01-01", d: "celayirli" },
+      // 🔴 SINIR GÜNÜ DÜZELTİLDİ (2 Eylül, ikinci tur) — kardeş kazalardan
+      //   kopyaladığım 1335-12-01 TDV'ye göre YANLIŞTI:
+      //     TDV `ilhanlilar`: "İlhanlılar — İran'da kurulan bir Moğol
+      //       devleti (1256-1353)" ve ilhan listesi 1335 SONRASINI sayıyor
+      //       (Arpa 1335 · Mûsâ 1336 · Muhammed 1336 · Tuga Timur 1337 ·
+      //        Cihan Timur 1338 · Sâtî Beg 1339 · Süleyman 1340 …)
+      //     TDV `celayirliler`: "1340-1431 yılları arasında … hüküm süren
+      //       Moğol hânedanı", "bağımsız bir devlet kurdu (1340)"
+      //   ⇒ 1335-1340 arası SAHİPSİZ DEĞİLDİ; İlhanlı hukuken sürüyordu.
+      //   Aynı düzeltme öteki 32 kayıt için `data/yer_yama_ok109_fetret.js`
+      //   yamasında HAZIR ama UYGULANMADI (koordinatör kararı bekliyor).
+      { f: "1281-01-01", t: "1340-01-01", d: "ilhanli" },
+      { f: "1340-01-01", t: "1411-01-01", d: "celayirli" },
       { f: "1411-01-01", t: "1469-01-01", d: "karakoyunlu" },
       { f: "1469-01-01", t: "1508-01-01", d: "akkoyunlu" },
       { f: "1508-01-01", t: "1516-08-24", d: "safevi" },
