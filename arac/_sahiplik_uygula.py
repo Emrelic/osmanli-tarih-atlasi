@@ -240,6 +240,8 @@ CATISABILIR = ("d", "s", "v", "isg", "m", "kaynak")
 cakisan = {}
 cakisan_alan = {}
 sahte_cakisma = 0
+kaynak_ayrisan = []   # yalnız `kaynak` ayrışıyor VE hedefin kaynağı BOŞ:
+                      # veri iner, `kaynak` YAZILMAZ, uyarı basılır
 for ad, liste in gruplu.items():
     if len(liste) < 2:
         continue
@@ -252,7 +254,47 @@ for ad, liste in gruplu.items():
                                ensure_ascii=False) for x in yazanlar}
         if len(degerler) > 1:            # AYNI alan, FARKLI değer ⇒ ÇATIŞMA
             catisan_alanlar.append(alan)
-    if catisan_alanlar:
+    # 🔴 YALNIZ `kaynak` AYRIŞIYORSA BU BİR VERİ ÇATIŞMASI DEĞİLDİR.
+    #   *(2 Eylül 2026 — OPUS HAZIR KITA 109 ölçtü, koordinatör daralttı)*
+    #
+    #   Ölçüm: 27 çatışmanın **9'unda** ayrışan tek alan `kaynak`tı. O dokuz
+    #   kaydın GEOMETRİSİ tartışmasız — bloke olan şey tartışmasız veriydi.
+    #
+    #   🔴 VE ÖNCE İKİ YANLIŞ ÖNERİ ÖLÇÜLDÜ, İKİSİ DE ÇÜRÜDÜ:
+    #   ① "kaynak zaten ezilmiyor (SKALER kuralı), o hâlde çatışma ÂTIL"
+    #      → ÇÜRÜDÜ: dokuz hedefin DOKUZUNDA `kaynak:` BOŞ; hangi yamanın
+    #        seçildiği gerçekten belgeyi değiştiriyor.
+    #   ② "`kaynak`ı CATISABILIR'den çıkar"
+    #      → ÇÜRÜDÜ: çıkarılsaydı alet `liste[0]`ı, yani DOSYA ADININ
+    #        ALFABETİK SIRASINI seçerdi — bu aletin kendi başlığının
+    #        mahkûm ettiği davranış.
+    #   ⇒ Bugünkü davranış YANLIŞ DEĞİL, **FAZLA GENİŞ.** Çare çıkarmak
+    #     değil DALLANDIRMAK.
+    #
+    #   İKİ dal (işçi oturum ÜÇ önerdi, koordinatör İKİYE indirdi):
+    #     veri alanı (d·s·v·isg·m) ayrışıyor  → BLOKE  (değişmedi)
+    #     yalnız `kaynak` ayrışıyor           → VERİYİ UYGULA, `kaynak`
+    #                                           YAZMA, ve UYARI BAS
+    #
+    #   🟢 NİÇİN İKİ, ÜÇ DEĞİL: öneri hedefin `kaynak:`ı DOLU olan hâli
+    #   ayrı (sessiz) bir dala koyuyordu. Ama iki hâlin SONUCU AYNI —
+    #   `SKALER_ALANLAR` kuralı zaten dolu bir `kaynak`ı ezmiyor, yani
+    #   dolu hâlde de yazmıyoruz. Ayrım yalnız UYARININ basılıp
+    #   basılmamasını değiştiriyordu; fazla uyarmak, az uyarmaktan
+    #   güvenli. (Ve o dalın bugünkü vaka sayısı ölçüldü: 0.)
+    #   ⚠️ Bir yan sebep daha: hedefin `kaynak:`ını okumak `konum`
+    #   sözlüğünden geçmiyor — o SATIR ARALIĞI tutuyor, ayrıştırılmış
+    #   kayıt değil. Okumak için metni yeniden ayrıştırmak gerekirdi ve
+    #   bu projede "kendi ayrıştırıcını yazma" dersi pahalı öğrenildi.
+    #
+    #   Tartışmasız geometri iner, belge sorusu AÇIK ve GÖRÜNÜR kalır,
+    #   alfabetik kaza olmaz.
+    #
+    # ⚠️ `kaynak` `CATISABILIR`den ÇIKARILMADI — `assert` onu bekliyor
+    #    (satır ~298) ve iki listenin ayrışmasını o assert koruyor.
+    if catisan_alanlar == ["kaynak"]:
+        kaynak_ayrisan.append(ad)        # veri iner, `kaynak` YAZILMAZ
+    elif catisan_alanlar:
         cakisan[ad] = liste
         cakisan_alan[ad] = catisan_alanlar
     else:
@@ -264,6 +306,13 @@ if sahte_cakisma:
     print("  i %d ad birden çok yamada geçiyor ama AYRIK alanlara dokunuyor"
           " — çakışma DEĞİL (eski alet bunları bloke ediyordu)"
           % sahte_cakisma)
+
+if kaynak_ayrisan:
+    print("  🟡 %d adda YALNIZ `kaynak` ayrışıyor — veri İNECEK, kaynak "
+          "YAZILMAYACAK (hangisi doğru: KARARA BAĞLANMALI)" % len(kaynak_ayrisan))
+    for _a in sorted(kaynak_ayrisan):
+        print("       %-28s %s" % (_a, " vs ".join(sorted(
+            {y["__dosya"] for y in gruplu[_a]}))))
 
 # ───────────────────────────────────────────────────── ⑤ alanı değiştir
 ALAN_RX = {a: re.compile(r'(\b%s:\s*)\[' % a) for a in ("d", "s", "v", "isg")}
@@ -484,6 +533,17 @@ for ad, liste in sorted(gruplu.items()):
     # ── SKALER ALANLAR (`m:` · `kaynak:`) — dizi mantığından AYRI ──────
     for alan in SKALER_ALANLAR:
         if hata or alan not in r:
+            continue
+        # 🔴 YALNIZ `kaynak` AYRIŞAN AD: veri indi, ama HANGİ kaynağın
+        #   doğru olduğu KARARA BAĞLANMADI. Alfabetik olarak ilk dosyanın
+        #   kaynağını yazmak, kararı yargıyla değil dosya adıyla vermek
+        #   olur — bu aletin başlığının adıyla mahkûm ettiği şey.
+        #   ⇒ Kaynak YAZILMAZ, soru AÇIK ve GÖRÜNÜR kalır.
+        if alan == "kaynak" and ad in kaynak_ayrisan:
+            atlanan.append((ad, "kaynak: %d yama FARKLI kaynak yazıyor — "
+                                "VERİ İNDİ, kaynak YAZILMADI; hangisinin "
+                                "doğru olduğu KARARA BAĞLANMALI"
+                            % len(gruplu[ad])))
             continue
         deger = r[alan]
         if deger is None or deger == "":
