@@ -9,7 +9,12 @@
 
   "TABAN_UYARISI": {
     "olcum_ani": "2026-09-02 ~15:50 (denetle.py --ayrinti) · kunye evreni ~19:00'da YENIDEN okundu",
-    "bayatlayan": "15:50'de 4 LEHISTAN hayaleti vardi; 19:00'da o kayitlar `varsova-dukaligi` tasiyor ve kunye YAZILMIS (438 -> 439 -> 440). Koordinator dogruladi: 607deb0.",
+    "bayatlayan": "15:50'de 4 LEHISTAN hayaleti vardi; 19:00'da o kayitlar `varsova-dukaligi` tasiyor ve kunye YAZILMIS. Koordinator dogruladi: 607deb0.",
+    "🔴 KUNYE SAYISI — HER SAYININ YANINDA ANI YAZILI": {
+      "16:00": 438, "19:00": 439, "19:35": 440,
+      "kendi_kusurum": "Ilk surumde '440' yazmistim ama o an OLCMEMISTIM — koordinatorun M-2273'unden DEVRALMISTIM ve damgalamamistim. OPUS HAZIR KITA 128 farki yakaladi (o 19:00'da 439 olcmustu). 19:35'te KENDIM olctum: 440. Sayi dogruymus, ama YAZDIGIM ANDA dayanagi yoktu.",
+      "ders": "Kunye sayisi bugun saatlik degisiyor ⇒ her sayinin yanina ANI yazilir. Iki oturumun farkli sayi olcmesi celiski DEGIL, farkli an demektir."
+    },
     "duran": "11 rusya + 2 Erzurum kaydinin KENDISI degismedi — girdi evreninden tek tek yeniden okundu.",
     "hukum": "`4c = 286` sayisi 15:50'nindir. Recete uygulanmadan once denetle.py YENIDEN kosulmali."
   },
@@ -87,7 +92,7 @@
         "durum": "🟢 hedef ZATEN fazlasiyla geciliyor, ek kisit GEREKMIYOR"
       },
       "yatay_haber": "OPUS HAZIR KITA 128'e M-2275 ile bildirildi (varsova-dukaligi + kongre-polonyasi ayni anda renksiz bekliyor; yesil ve lacivert aileleri dolu; kahve/kiremit ailesini aldigimi ONCEDEN ilan ettim).",
-      "🔴 EK_OLCUM": "`bulgaristan-kralligi` de BOYALAR'da YOK (403 renk / 440 kunye). Veride kullanilip kullanilmadigini OLCMEDIM ⇒ 'renksiz' diyorum, 'harita deligi' DEMIYORUM."
+      "🔴 EK_OLCUM": "`bulgaristan-kralligi` de BOYALAR'da YOK (19:35 olcumu: 403 renk / 440 kunye). Veride kullanilip kullanilmadigini OLCMEDIM ⇒ 'renksiz' diyorum, 'harita deligi' DEMIYORUM."
     }
   },
 
