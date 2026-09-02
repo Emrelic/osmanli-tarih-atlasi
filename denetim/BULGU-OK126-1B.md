@@ -465,6 +465,84 @@ pencereden düşer. **İkincil kusur — birincisi SORUNUN KENDİSİ.**
 DAL B **doğru** dedi, çünkü o kayıt kendi commit'iyle gitti. Sayı doğruydu,
 **yöntem değildi.**
 
+## §11d 🔴🔴 EN AĞIR VAKA — DAL B **YANLIŞ POZİTİF** DE ÜRETİYOR, VE O SUSTURUYOR
+
+§11c yanlış **negatifi** ölçtü. Bu bölüm aynı kusurun öteki yüzünü ölçüyor ve
+zararı kat kat büyük.
+
+**VAKA 4 — KITA 125'in AÇILIŞ MESAJI (M-2332 bildirdi, ÖLÇTÜM):**
+
+```
+ÖLÇTÜM  kimden="OPUS HAZIR KITA 125" kayıt: 15 · en eskisi M-2218 (16:07)
+        ⇒ AÇILIŞ mesajı YOK
+ÖLÇTÜM  oturum kimliği "local_47ec49ca" geçen kayıt: 2 — ikisi de bugün
+        yazdığı ŞİKÂYET mesajları (M-2331, M-2332). Açılış kaydı YOK.
+ÖLÇTÜM  M-2185 bugün OPUS HAZIR KITA 129'un açılış mesajını taşıyor
+ÖLÇTÜM  commit BAŞLIĞINDA "M-2185" geçen TEK commit: eaccea1
+        "TAHTA M-2185 — OPUS HAZIR KITA 129 -> 1.MURAT"  15:42:05
+ÖLÇTÜM  M-2185'in ilk göründüğü sürüm de eaccea1 — yani git geçmişinde
+        HİÇBİR SÜRÜM KITA 125'in açılışını taşımamış
+```
+
+⇒ **Yazım (a) kademesinde, HİÇ commit edilmeden ezilmiş.** İçerik gerçekten
+kayboldu; §10 VAKA 2'nin *"mükerrer gövdeydi, içerik kaybedilmedi"*
+daraltması **o kayıt için doğru, SINIF için yanlış.**
+
+### VE ARAÇ ONA "ULAŞMIŞ" DEDİ
+
+KITA 125'in aldığı çıktı:
+
+> *"M-2185 COMMIT EDİLDİ — mesaj ULAŞMIŞ. Başka bir oturumun push'u onu
+> taşımış. **TEKRAR YAZMA — mükerrer olur.**"*
+
+**KOD ARGÜMANI (ölçüm değil — onun koşusunu görmedim):** DAL B'nin ölçütü
+`_no in git log HEAD --oneline -40`, yani **numaranın bir commit BAŞLIĞINDA**
+geçmesi. `eaccea1`in başlığı *"TAHTA M-2185"* içeriyordu — **başka birinin
+M-2185'i.** Ölçüt sağlandı, hüküm verildi, gövde hiç okunmadı.
+
+```
+NUMARA KARARSIZLIĞI  (§10 VAKA 2)     iki yazıma aynı numara
+        +
+DAL B'NİN ÖLÇÜTÜ     (§11c)          numarayı BAŞLIKTA arıyor
+        =
+YANLIŞ POZİTİF                        "ulaşmış" — ulaşmamıştı
+```
+
+### 🔴 VE ZARARI ASİMETRİK: YANLIŞ POZİTİF **SUSTURUYOR**
+
+```
+YANLIŞ NEGATİF  ("ulaşmadı", ulaşmıştı)   → fazladan iş · MÜKERRER mesaj riski
+YANLIŞ POZİTİF  ("ulaştı",  ulaşmamıştı)  → SESSİZLİK · kayıp GİZLENİR
+```
+
+**ÖLÇÜLEN BEDEL (KITA 125'in kendi bildirimi, DEVRALDIM):** kaybolan şey
+**açılış mesajıydı**; koordinatör onun açıldığını bilmedi ve **beş saat**
+sevk edemedi.
+
+📌 Ve bu, `tahta.py`nin kendi başlığında yazılı olan uyarının ta kendisi:
+*"`send_message` İYİMSER yanılıyordu ve kaybı GİZLİYORDU… bir kanal
+yanılacaksa **teslim ettiğini inkâr etsin, etmediğini iddia etmesin**."*
+⇒ Araç, **yerini almak için yazıldığı kusuru** DAL B'de üretiyor.
+
+### KAYIP KAYITLAR TEK KOVA DEĞİL — GÖVDE BENZERSİZ Mİ?
+
+KITA 125'in önerisi (M-2332 ②), kabul:
+
+```
+MÜKERRER gövde   (M-2211)   kayıp ZARARSIZ — aynı içerik başka numarada duruyor
+BENZERSİZ gövde  (M-2185)   kayıp TAM — ve bu vakada BEŞ SAAT sessizliğe mal oldu
+```
+**Aynı mekanizma, ayrı hasar.** Bir kayıp raporlanırken gövdenin benzersiz
+olup olmadığı ölçülmeli.
+
+### ÜÇÜNCÜ AYAK — OLUMLU HÜKÜM DE BAYATLAR
+
+§12⑤'in ikinci ayağı *olumsuz* hükmü tekrar ölçtürüyordu. Bu vaka simetriğini
+gösterdi: **"ULAŞTI" hükmü de VERİLDİĞİ ANIN hükmüdür.** Araç 15:41'de
+(kendi ölçütüne göre) doğru konuştu; kayıt bir süre sonra ezildi.
+⇒ Zaman ekseni **her iki yönde de** geçerli — ve olumlu tarafta daha
+tehlikeli, çünkü olumlu hüküm **yeniden ölçmeyi gereksiz gösterir.**
+
 ## §12 REÇETE — beş madde
 
 ```
@@ -499,9 +577,19 @@ DAL B **doğru** dedi, çünkü o kayıt kendi commit'iyle gitti. Sayı doğruyd
    tahta.py'nin numara atama kodunu OKUMADIM (koşu canlı, yalnız gerekeni
    okudum).
 
-④ MÜKERRER YAZMA YASAĞI KALSIN.
-   Bugünkü "TEKRAR YAZMA" satırı doğru ve vaka 3'te tam olarak gereken şeydi.
-   ① ile çelişmiyor: ① kayıt YOKKEN tekrar yazar, ④ kayıt VARKEN yasaklar.
+④ 🔴 MÜKERRER YAZMA YASAĞI **KOŞULLU** OLSUN — ilk hâli yanlıştı.
+   Yazdığım: *"yasak kalsın, vaka 3'te tam olarak gereken şeydi."*
+   §11d ÇÜRÜTTÜ: yasak, **sağlam bir teslim doğrulamasına** yaslanmak
+   zorunda. DAL B'ninki sağlam değil ⇒ yasak, YANLIŞ POZİTİFİ susturmaya
+   çeviriyor. KITA 125'in açılış mesajı tam böyle kayboldu.
+       bugün    "TEKRAR YAZMA — mükerrer olur"      (koşulsuz)
+       olmalı   "TAHTADAN DOĞRULA; kayıt yoksa TEKRAR YAZ"
+   ⚠️ Ve maliyet asimetrisi bunu tek başına belirliyor:
+       mükerrer mesaj   UCUZ   — okuyan iki kez okur
+       kayıp açılış     PAHALI — ölçüldü: beş saat sevk edilememe
+   ⇒ Şüphede kalınırsa **yaz.** ① ile çelişmiyor, onu genelliyor:
+     ① kayıt YOKKEN yazar · ④ kayıt VARLIĞI **DOĞRULANMIŞSA** yasaklar.
+   📌 Öneri KITA 125'in (M-2332 ④); ben ölçümüyle birlikte kabul ettim.
 
 ⑤ OLUMSUZ HÜKÜM KADEMESİNİ **VE MEKANİZMASINI** SÖYLESİN (§11b).
    "Bu mesaj hiç yazılmadı" / "şu adrese kayıt yok" diyen HER ölçüm, hangi
@@ -550,6 +638,20 @@ DAL B **doğru** dedi, çünkü o kayıt kendi commit'iyle gitti. Sayı doğruyd
    ```
    📌 §11b'de bu asimetrinin yalnız **kademe** yarısını yazmıştım. Öteki
       yarısı **zaman** ve onu bir hata öğretti.
+
+   🔴 ÜÇÜNCÜ AYAK — **OLUMLU HÜKÜM DE BAYATLAR** (§11d).
+   İkinci ayak yalnız *olumsuz* hükmü tekrar ölçtürüyordu. VAKA 4 simetriğini
+   gösterdi: araç 15:41'de *"M-2185 ULAŞMIŞ"* dedi ve kayıt sonradan ezildi.
+   ***"Ulaştı" hükmü de VERİLDİĞİ ANIN hükmüdür.***
+   ⚠️ Ve olumlu tarafta daha tehlikeli: olumsuz hüküm okuyanı **ölçmeye**
+      iter, olumlu hüküm **ölçmeyi gereksiz gösterir.**
+
+   🔴 DÖRDÜNCÜ AYAK — **KAYIP RAPOR EDİLİRKEN GÖVDE BENZERSİZ Mİ?** (§11d)
+   ```
+   MÜKERRER gövde   kayıp ZARARSIZ — içerik başka numarada duruyor
+   BENZERSİZ gövde  kayıp TAM — ölçülen bedel: beş saat sevk edilememe
+   ```
+   Aynı mekanizma, ayrı hasar. Öneri KITA 125'in (M-2332 ②).
 ```
 
 ## §13 SINAV TARİFİ — `C13` üç ayak, ve HEDEF SEÇİMİ
