@@ -26,6 +26,24 @@
    "oneri": "YAMA gerekiyor: Nis'in tarihi 1688-09-24'e DUZELTILMELI (TDV dogrudan kaynak). Diger dort kayit icin ayri arastirma gerekiyor - Nis'in dogru tarihini almis olsalar bile yil hatasini miras almislar. Benim turumde YAMA yazilmadi - dort digerinin KENDI tarihleri arastirilmadi, yalniz Nis dogrulandi."
   },
   {
+   "tarih": "1689-09-24 KUME - DERINLEMESINE TAKIP (koordinator istegi uzerine)",
+   "hukum": "ODUNC - detayli bulgu, YAMA HENUZ YAZILMADI (iki dosyayi birden ilgilendiriyor)",
+   "guven": "yuksek - NIS ve VIDIN icin TDV BIREBIR ALINTIYLA dogrulandi; SEHIRKOY icin TDV yil (1689) veriyor ama gun vermiyor; KRAGUJEVAC ve CACAK icin TDV FETCH EDILMEDI (zaman yetmedi)",
+   "TEK_TEK_BULGU": {
+    "Nis": "TDV birebir alinti: '24 Eylul 1688'de Nis, Margrave Ludwig von Baden'in birlikleri tarafindan ele gecirildi.' -> veride 1689-09-24 yaziyor, DOGRUSU 1688-09-24. YIL hatasi.",
+    "Vidin": "TDV birebir: '1689 Ekiminde... Margrave Ludwig von Baden... Vidin'i savasmadan ele gecirdi.' -> veride 1689-09-24 yaziyor, DOGRUSU ~1689-10 (Ekim 1689, tam gun TDV'de yok). YIL dogru, AY yanlis.",
+    "Sehirkoy_Pirot": "TDV: 'XVII. yuzyilin son ceyregindeki... 1689'da sehir muttefik hiristiyan kuvvetlerince zaptedildi.' -> YIL (1689) DOGRULANDI, tam gun TDV'de yok, veride 09-24 kullanilan gun NIS'TEN ODUNC alinmis (dosyanin kendi yorumu boyle diyor: 'Nis (1689-09-24) ile Vidin arasindaki hattin eksik halkasi budur').",
+    "Kragujevac_Cacak": "TDV FETCH EDILMEDI. Coğrafi olarak Nis/Vidin'in guneyinde/batisinda, 1689 kampanyasinin DAHA ILERI bir asamasinda dusmus olmalari tarihen makul ama DOGRULANMADI."
+   },
+   "KORDINATORUN_UC_SORUSU": {
+    "① cekirdekte 1688-09-24 var mi": "HAYIR - grep ile aradim, data/olaylar*.js'te 1688-09-24 tarihli hicbir madde yok. Niş'in tarihini 1688-09-24'e tasimak, ESLESEN MADDESI OLMAYAN yeni bir kirilma acar (Degismez 2 ihlali riski) - kronoloji maddesi de (olaylar_ek3.js:31, 'Nis ve Vidin'in kaybi') AYNI ANDA tasinmali/duzeltilmeli.",
+    "② once madde yaz sonra donem": "olaylar_ek3.js SHARED bir kronoloji dosyasi, benim dosya sahipligim (§7) disinda - bu maddeyi BEN DEGISTIRMEDIM. Onerilen yeni metin asagida, uygulama kararini ve dosyaya kimin yazacagini KOORDINATORE birakiyorum.",
+    "③ kalan dort kayit ne olacak": "OLCULDU - Sehirkoy'un YILI (1689) BAGIMSIZ TDV kaynagiyla dogrulaniyor, yani Nis tasinsa bile Sehirkoy'un 1689'da KALMASI dogru olabilir (ay/gun hala belirsiz). Vidin'in de YILI dogru (1689) ama AYI yanlis (Ekim olmali, Eylul degil). Kragujevac/Cacak arastirilmadi. SONUC: dorduncu kayit TEK BIR PAKETTE tasinamaz - herbirinin KENDI kanıtı FARKLI, toplu tasima YENI hatalar uretir."
+   },
+   "ONERILEN_MADDE_METNI_TASLAK": "olaylar_ek3.js:31'deki mevcut madde (t:1689-09-24, gun:'24 Eylul 1689') IKIYE BOLUNMELI: (a) Nis icin YENI/TASINMIS madde t:1688-09-24 gun:'24 Eylul 1688' b:'Nis'in kaybi' kaynak:nis; (b) Vidin icin AYRI madde t:1689-10-01 (kesinlik:ay, TDV tam gun vermiyor) b:'Vidin'in kaybi' kaynak:vidin. Sehirkoy/Kragujevac/Cacak icin mevcut olaylar_ek3.js metni DEGISTIRILMEDEN (1689 yili KORUNARAK) birakilabilir ama bunu KOORDINATOR/kronoloji sahibi karar versin - ben yalniz TASLAK sunuyorum, YAZMADIM.",
+   "oneri": "Bu YUKSEK ONCELIKLI bir kalem ama IKI shared dosyayi (yerlesimler.js + olaylar_ek3.js) BIRLIKTE, DIKKATLE degistirmek gerekiyor. Ben tek basima yazmadim - kimin yazacagina/COMMIT edecegine KOORDINATOR karar versin. Tahtada M-'ye ayrica sordum."
+  },
+  {
    "tarih": "1872-04-01",
    "devlet_etiketi": "d",
    "kayitlar": ["Kevkeban","Sa'de","Sana","Taiz","Sehare"],
@@ -56,5 +74,32 @@
    "oneri": "Zaten MESRU_GUNLER'de olmasi COK MUHTEMEL, kontrol edilsin - yoksa eklensin."
   }
  ],
- "islenmemis_not": "156 kumenin 151'i bu turda incelenmedi (zaman butcesi). Oncelik onerim: cografi olarak BIRBIRINE YAKIN VE AYNI DONEM kumeleri (ayni savas/sinir bolgesi) once taransin, cunku onlar en cok capraz dogrulanabilir (bkz. yukaridaki iki Sirbistan vakasi - birbirini dogruladi)."
+ "oncelik_siralamasi": {
+  "yontem": "TARAMADAN ucuz imzalarla skorlama: kucuk kume (<=5 kayit = sefer olcegi, +3p) > orta (6-7 kayit, +2p) > buyuk (8+, +0p); Osmanli cekirdek etiketi d/v (+2p); dar yayilim <=250km (+1p, tek gunluk sefer mesafesine yakin). Not: --hepsi ciktisi zaten YUVARLAK GUNLERI (-01-01) disarida birakiyor, o filtre ayrica uygulanmadi.",
+  "script": "arac/_odunc_tarih.py --hepsi ciktisi uzerinde calisan ozel bir siralama scripti (denetim'e tasinmadi, gerekirse tekrar uretilebilir)",
+  "zaten_hukum_verilenler_listeden_cikarildi": ["1479-01-25 İşkodra/Sisam (MESRU)", "1783-04-19 Soçi/Yedisan (MESRU)", "1517-07-06 Hicaz v+d (MESRU)", "1514-09-06 Erzincan/Tebriz (MESRU)", "1538-08-03 Aden (MESRU)", "1517-01-22 Süveyş/Kusayr (MESRU)", "1429-02-01 Germiyan (MESRU)", "1690-09-09 Belgrad (ODUNC)", "1689-09-24 Nis kumesi (ODUNC, detay yukarida)", "1872-04-01 Yemen (BELIRSIZ)"],
+  "sonraki_tur_icin_TAZE_oncelik_sirasi_ilk_20": [
+   "1739-09-18 [d] 5kayit 151km Böğürdelen<->Yagodina",
+   "1470-07-12 [d] 3kayit 155km Karistos<->Oreoi",
+   "1393-09-01 [d] 4kayit 160km Silistre<->İshakçı",
+   "1590-03-21 [d] 5kayit 162km Kirmanşah<->Burûcird",
+   "1813-01-23 [v] 3kayit 173km Mekke<->Râbiğ",
+   "1383-09-19 [d] 5kayit 174km Köstendil<->Drama",
+   "1669-09-27 [d] 3kayit 179km İsfakiye<->Sitiye",
+   "1871-04-20 [d] 4kayit 180km Lahsa<->Cübeyl",
+   "1841-02-25 [d] 3kayit 192km Hanya<->Sitiye",
+   "1830-11-01 [v] 5kayit 192km Hanya<->Sitiye (AYNI COGRAFYA, farkli donem - capraz kontrol firsati)",
+   "1832-07-29 [v] 4kayit 195km Maraş<->Tarsus",
+   "1543-08-10 [d] 3kayit 202km Estergon<->Segedin",
+   "1672-08-27 [d] 4kayit 206km Bar<->Yazlofça (DIKKAT: bu Podolya, bugun ayri bir gorevde s: alaniyla dogrulamistim - MESRU olmasi cok muhtemel, hizli teyit yeterli)",
+   "1516-05-01 [d] 5kayit 212km Urfa<->Çemişgezek",
+   "1354-08-01 [d] 3kayit 219km Sivrihisar<->Çankırı",
+   "1715-07-01 [d] 4kayit 235km İnebahtı<->Elafonisos",
+   "1461-08-15 [d] 4kayit 250km Giresun<->Arhavi",
+   "1371-09-26 [d] 6kayit 158km Dedeağaç<->Elhova",
+   "1393-06-01 [d] 6kayit 165km Tokat<->Osmancık",
+   "1475-06-06 [v] 6kayit 167km Or Kapı<->Eski Kırım"
+  ],
+  "not": "156 kumenin 10'u bu turda ve onceki turda islendi. Kalan ~146 icin TAM liste (skor+sebep) uretildi ama dosyaya TASINMADI (script tekrar calistirilabilir); ilk 20'si yukarida. Bir sonraki oturum ilk 20'den baslayip derinlemesine islerse en verimli ucdan devam eder."
+ }
 }
