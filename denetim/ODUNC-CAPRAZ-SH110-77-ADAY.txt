@@ -1,0 +1,166 @@
+  UYARI alan: 'baskent' BILINEN_ALANLAR'da yok — 1 kayıtta (yerlesimler_amerika2.js:Comanchería (Güney Büyük Ovalar)). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
+  UYARI alan: 'pencere_disi' BILINEN_ALANLAR'da yok — 2 kayıtta (yerlesimler_4ff22b.js:Antananarivo, yerlesimler_4ff22b.js:Honolulu). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
+  UYARI alan: 'sinir' BILINEN_ALANLAR'da yok — 6 kayıtta (yerlesimler_sinir_dogu.js:Bacirge (Esendere), yerlesimler_sinir_dogu.js:Sero, yerlesimler_sinir_dogu.js:Şemdinli (Şemdinni)…). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
+ÖDÜNÇ TARİH — MAKİNE İMZASI (iki aletin kesişimi)
+yerleşim: 2624 · çekirdek madde: 1303 · şüpheli küme: 289
+  🔴 GÜÇLÜ ADAY     77  — yer_id kümenin BİR üyesi, N>1
+  🟡 AYRI SORU      62  — yer_id kümede yok (2y'nin alanı)
+  🟢 MEŞRU          46  — antlaşma türü madde
+  ⚪ ÖLÇÜLEMEDİ     104  — madde yok ya da yer_id yok
+  (sinyal yok — çoklu isabet)     0
+
+=== 🔴 GÜÇLÜ ADAYLAR ===
+  1517-07-06 [v] 4 üye · 1207 km — madde yer_id='Mekke' b="Hicaz'ın savaşsız katılışı: Mekke Şerifi'nin oğlu "
+       üyeler: Medine, Mekke, Tâif, Zebîd
+  1844-03-04 [fransa-cumhuriyet] 10 üye · 840 km — madde yer_id='Biskra' b="Biskra'nın işgali — Sahra kapısının kaybı"
+       üyeler: Ayn Temûşent, Aynı Beydâ, Batna, Biskra, Bû Sa'âde, Dellîs, Hanşele (Khenchela), Mesîle, Sûk Ahrâs, Tebesse
+  1818-09-09 [v] 7 üye · 691 km — madde yer_id="Dir'iye (Necid)" b="Dir'iye düştü — ilk Suûdî Devleti sona erdi"
+       üyeler: Buraydâ (Kasîm), Dir'iye (Necid), Necid içi, Nefud çölü, Riyad, Uneyze, Şakrâ
+  1824-06-01 [suud-ikinci] 7 üye · 691 km — madde yer_id='Riyad' b="İkinci Suûdî Devleti'nin Riyad'da kurulması"
+       üyeler: Buraydâ (Kasîm), Dir'iye (Necid), Necid içi, Nefud çölü, Riyad, Uneyze, Şakrâ
+  1514-09-06 [d] 3 üye · 617 km — madde yer_id='Tebriz' b="Yavuz Sultan Selim'in Tebriz'e girişi"
+       üyeler: Doğubayazıt, Erzincan, Tebriz
+  1832-11-22 [abdulkadir] 11 üye · 575 km — madde yer_id='Muaskar' b="Emîr Abdülkādir'in devletinin kuruluşu — batı Ceza"
+       üyeler: Ayn Temûşent, Bû Sa'âde, Dellîs, Mesîle, Muaskar, Mustagānim, Nedrûme, Sîdî Bel Abbès, Tenes, Tâhert (Tiaret), Şelif
+  1821-01-04 [v] 12 üye · 564 km — madde yer_id='Dongola' b='Dongola alındı — Kölemen bakiyesi dağıtıldı'
+       üyeler: Abrî (Mahas), Berber, Debbe, Delgo (Sükkût), Dongola, Ebû Hamed, Ed-Dâmer, Kabûşiyye, Kerma, Kortî, Merevî, Şereyk
+  1640-12-01 [portekiz] 10 üye · 548 km — madde yer_id='Lizbon' b='Restauração: Portekiz bağımsızlığını geri aldı'
+       üyeler: Aveiro, Braga, Bragança, Coimbra, Faro, Lagos (Algarve), Lizbon, Porto, Setúbal, Évora
+  1538-08-03 [d] 4 üye · 545 km — madde yer_id='Aden' b="Aden'in zaptı ve Yemen sahilinin ilhakı"
+       üyeler: Aden, Ferasan (Farasan), Kemeran (Kamaran), Moha
+  1526-09-01 [v] 8 üye · 541 km — madde yer_id='Budin' b='Macaristan Osmanlı himayesinde'
+       üyeler: Brassó (Braşov), Budin, Erdel (Kaloşvar), Erdel Belgradı (Gyulafehérvár), Peşte, Segesvár (Sighişoara), Varad (Oradea), Yanova (Ineu)
+  1475-06-06 [d] 9 üye · 537 km — madde yer_id='Kefe' b="Kırım'ın Osmanlı himayesine girişi"
+       üyeler: Aluşta, Azak, Balaklava (Cembalo), Kefe, Kerç, Mankup, Sudak (Suğdak), Yalta, İnkirman (Kalamita)
+  1687-08-12 [avusturya] 5 üye · 536 km — madde yer_id='Mohaç' b="İkinci Mohaç (Harşan) bozgunu — Erdel'in ve Mohaç'"
+       üyeler: Brassó (Braşov), Erdel (Kaloşvar), Erdel Belgradı (Gyulafehérvár), Mohaç, Segesvár (Sighişoara)
+  1381-04-01 [timurlu] 3 üye · 496 km — madde yer_id='Herat' b="Timur Herat'ı aldı: Kert hânedanının sonu ve Horas"
+       üyeler: Herat, Meşhed, Tebbes
+  1798-07-01 [fransa] 7 üye · 480 km — madde yer_id='İskenderiye' b="Napolyon'un Mısır'ı işgali"
+       üyeler: Asyut, Dimyat, Kahire, Reşîd (Rosetta), Sina güneyi, Süveyş, İskenderiye
+  1830-07-05 [fransa-cumhuriyet] 6 üye · 446 km — madde yer_id='Cezayir' b="Cezayir'in Fransız işgali — üç yüz yıllık ocağın s"
+       üyeler: Blida, Cezayir, Medea (Titteri), Miliana, Tilimsan, Şerşel (Cherchell)
+  1901-02-21 [fransa-cumhuriyet] 4 üye · 443 km — madde yer_id='Advâr (Tuvât)' b="Tuvât · Gûrâre · Tîdîkelt vahalarının Fransa'ya il"
+       üyeler: Advâr (Tuvât), Benî Abbâs (Sâvre), Reggân, Tîmîmûn (Gûrâre)
+  1462-06-01 [v] 12 üye · 424 km — madde yer_id='Bükreş' b='Eflak seferi: Kazıklı Voyvoda'
+       üyeler: Buzău, Bükreş, Krayova (Craiova), Kımpulung (Câmpulung), Piteşti, Rimnik (Râmnicu Vâlcea), Rimnik-i Sârat (Râmnicu Sărat), Slatina, Turnu Severin, Tırgovişte, Tırgu Jiu, İbrail
+  1537-10-01 [d] 5 üye · 414 km — madde yer_id='Karpatos' b="Barbaros'un Ege seferi: Venedik'in doğrudan yönett"
+       üyeler: Batnoz (Patmos), Egina (Aegina), Karpatos, Kaşot (Kasos), İstanbulya (Astipalya)
+  1461-06-01 [d] 12 üye · 372 km — madde yer_id='Sinop' b="Amasra ve Sinop'un katılışı"
+       üyeler: Akçakoca, Bartın, Bolu, Devrek, Eflani, Karadeniz Ereğli, Kastamonu, Konurapa (Düzce), Mudurnu, Safranbolu, Sinop, Tosya
+  1516-08-28 [d] 4 üye · 372 km — madde yer_id='Halep' b="Halep'in Osmanlı hâkimiyetine girişi"
+       üyeler: Antakya, Deyrizor, Halep, Rakka
+  1902-01-15 [suud-ucuncu] 6 üye · 326 km — madde yer_id='Riyad' b="Abdülazîz b. Suûd'un Riyad'ı Reşîdîler'den geri al"
+       üyeler: Buraydâ (Kasîm), Dir'iye (Necid), Necid içi, Riyad, Uneyze, Şakrâ
+  1832-06-15 [v] 6 üye · 289 km — madde yer_id='Şam' b='Şam teslim oldu'
+       üyeler: Beyrut, Hama, Sayda, Tedmür (Palmyra), Trablusşam, Şam
+  1797-05-12 [avusturya] 6 üye · 278 km — madde yer_id='Venedik' b="Venedik Cumhuriyeti'nin sonu — Büyük Meclis kendin"
+       üyeler: Bergamo, Brescia, Padova, Udine, Venedik, Verona
+  1585-09-25 [d] 10 üye · 273 km — madde yer_id='Tebriz' b="Tebriz'in fethi"
+       üyeler: Ahar (Karadağ), Hoy, Merâga, Miyâne, Mîyandoab, Rāzhān, Sarâb, Sero, Tebriz, Urmiye
+  1578-11-01 [d] 7 üye · 267 km — madde yer_id='Şamahı' b="Şirvan'ın fethi: Şamahı'nın alınışı"
+       üyeler: Ereş, Kabala, Mahmudâbâd, Salyan, Şamahı, Şeki (Nuha), Şâbüran
+  1516-09-27 [d] 3 üye · 266 km — madde yer_id='Şam' b="Şam'ın (Dımaşk) Osmanlı hâkimiyetine girişi"
+       üyeler: Beyrut, Tedmür (Palmyra), Şam
+  1398-07-15 [d] 3 üye · 254 km — madde yer_id='Sivas' b="Kadı Burhâneddin Devleti'nin yıkılışı"
+       üyeler: Kayseri, Kırşehir, Sivas
+  1690-09-09 [d] 7 üye · 252 km — madde yer_id='Niş' b='Niş, Vidin ve Belgrad geri alındı'
+       üyeler: Belgrad, Kragujevac, Niş, Semendire, Vidin, Çaçak, Şehirköy (Pirot)
+  1461-08-15 [d] 4 üye · 250 km — madde yer_id='Trabzon' b="Trabzon'un fethi"
+       üyeler: Arhavi, Giresun, Rize, Trabzon
+  1852-12-04 [fransa-cumhuriyet] 3 üye · 246 km — madde yer_id='Ağvât' b="Ağvât'ın (Laghouat) düşüşü — Sahra kapısının açılm"
+       üyeler: Ağvât, Cilfe (Djelfa), Gardâye
+  1392-11-01 [d] 8 üye · 244 km — madde yer_id='Kastamonu' b="Kastamonu'nun ilhakı"
+       üyeler: Akçakoca, Bartın, Devrek, Eflani, Karadeniz Ereğli, Kastamonu, Safranbolu, Tosya
+  1715-07-01 [d] 4 üye · 235 km — madde yer_id='Mora' b="Mora'nın geri alınışı"
+       üyeler: Balyabadra (Patras), Elafonisos (Cervi), Mora (Tripoliçe), İnebahtı
+  1829-05-01 [yunanistan] 4 üye · 230 km — madde yer_id='İnebahtı' b="İnebahtı, Eğriboz ve Karistos'un Yunanistan'a bıra"
+       üyeler: Eğriboz, Karistos (Kızılhisar), Oreoi (İstiaia), İnebahtı
+  1548-08-25 [d] 11 üye · 219 km — madde yer_id='Van' b="Van'ın fethi ve doğu sınırının sabitlenmesi"
+       üyeler: Bacirge (Esendere), Bargiri (Muradiye), Erciş, Hoşap (Mahmudi), Kotur, Van, Yüksekova (Gever), Çölemerik (Hakkâri), Özalp (Saray), Şemdinli (Şemdinni), Şeyh Salû-yi Ulyâ
+  1354-08-01 [d] 3 üye · 219 km — madde yer_id='Ankara' b="Ankara'nın alınışı"
+       üyeler: Ankara, Sivrihisar, Çankırı
+  1397-07-01 [d] 6 üye · 217 km — madde yer_id='Konya' b="Karaman'ın ilk ilhakı"
+       üyeler: Aksaray, Ermenek, Ilgın, Karaman, Karapınar, Konya
+  1912-05-12 [italya] 10 üye · 217 km — madde yer_id='Karpatos' b="Onikiada'nın İtalyan işgali"
+       üyeler: Batnoz (Patmos), Herke (Halki), Karpatos, Kaşot (Kasos), Kelemez (Kalimnos), Sömbeki (Simi), İleryoz (Leros), İlyaki (Tilos), İncirli (Nisiros), İstanbulya (Astipalya)
+  1918-10-01 [fransa-cumhuriyet] 4 üye · 216 km — madde yer_id='Şam' b="Şam'ın kaybı"
+       üyeler: Hama, Humus, Tedmür (Palmyra), Şam
+  1838-10-13 [fransa-cumhuriyet] 4 üye · 212 km — madde yer_id='Setif' b="Setif'in işgali"
+       üyeler: Berc Bû Areric, Kolo, Setif, Sikikde
+  1672-08-27 [d] 4 üye · 206 km — madde yer_id='Kamaniçe' b="Kamaniçe'nin fethi ve Podolya Eyaleti'nin kurulmas"
+       üyeler: Bar (Podolya), Kamaniçe, Meciboj (Mejibuji), Yazlofça (Yazlovets)
+  1689-09-24 [avusturya] 5 üye · 202 km — madde yer_id='Niş' b="Niş ve Vidin'in kaybı — en kritik yıl"
+       üyeler: Kragujevac, Niş, Vidin, Çaçak, Şehirköy (Pirot)
+  1543-08-10 [d] 3 üye · 202 km — madde yer_id='Estergon' b="Estergon ve İstolni Belgrad'ın fethi"
+       üyeler: Estergon, Segedin (Szeged), İstolni Belgrad
+  1887-01-06 [habesistan] 3 üye · 200 km — madde yer_id='Harar' b="Çelenko Savaşı — Harar Emirliği'nin sonu ve Habeş "
+       üyeler: Cîcîga, Dagahbûr, Harar
+  1898-12-01 [yunanistan] 5 üye · 192 km — madde yer_id='Girit' b="Girit'e özerklik"
+       üyeler: Girit (Resmo), Hanya, Kandiye (Girit), Sitiye (Sitia), İsfakiye (Sfakia)
+  1830-11-01 [v] 5 üye · 192 km — madde yer_id='Girit' b="Girit'in idaresi Mehmed Ali'ye bırakıldı"
+       üyeler: Girit (Resmo), Hanya, Kandiye (Girit), Sitiye (Sitia), İsfakiye (Sfakia)
+  1399-09-01 [d] 6 üye · 188 km — madde yer_id='Malatya' b="Malatya'nın alınışı"
+       üyeler: Arapkir, Behisni (Besni), Divriği, Hısn-ı Mansûr (Adıyaman), Kâhta, Malatya
+  1429-02-01 [d] 7 üye · 181 km — madde yer_id='Kütahya' b="Germiyan'ın vasiyetle ilhakı"
+       üyeler: Alaşehir, Emet (Eğrigöz), Karahisâr-ı Sâhib (Afyon), Kütahya, Simav, Tavşanlı, Uşak
+  1871-04-20 [d] 4 üye · 180 km — madde yer_id='Lahsa' b="Midhat Paşa'nın Necid seferi: Lahsâ'da Osmanlı hâk"
+       üyeler: Cübeyl, Katîf, Lahsa, Ukayr (Uceyr)
+  1669-09-27 [d] 3 üye · 179 km — madde yer_id='Kandiye (Girit)' b="Girit'in fethi tamamlandı"
+       üyeler: Kandiye (Girit), Sitiye (Sitia), İsfakiye (Sfakia)
+  1383-09-19 [d] 5 üye · 174 km — madde yer_id='Serez' b="Serez'in fethi"
+       üyeler: Drama, Köstendil, Nevrokop (Gotse Delçev), Petriç, Serez
+  1393-06-01 [d] 6 üye · 165 km — madde yer_id='Amasya' b="Amasya'nın Osmanlı topraklarına katılması"
+       üyeler: Amasya, Ladik (Amasya), Merzifon, Osmancık, Tokat, Çorum
+  1310-08-15 [sovalye] 9 üye · 162 km — madde yer_id='Rodos' b="Rodos ve Oniki Ada'nın St. Jean (Hospitalier) şöva"
+       üyeler: Herke (Halki), Kelemez (Kalimnos), Lindos, Rodos, Sömbeki (Simi), İleryoz (Leros), İlyaki (Tilos), İncirli (Nisiros), İstanköy
+  1393-09-01 [d] 4 üye · 160 km — madde yer_id='Silistre' b="Dobruca'nın katılışı"
+       üyeler: Babadağı (Babadag), Köstence, Silistre, İshakçı (Isaccea)
+  1371-09-26 [d] 6 üye · 158 km — madde yer_id='Çirmen' b='Çirmen Savaşı — Meriç vadisinin denetimi'
+       üyeler: Dedeağaç (Alexandroupoli), Elhova (Elhovo), Meriç (İpsala kuzeyi), Sofulu (Soufli), Uzunköprü, Çirmen
+  1470-07-12 [d] 3 üye · 155 km — madde yer_id='Eğriboz' b="Eğriboz'un fethi"
+       üyeler: Eğriboz, Karistos (Kızılhisar), Oreoi (İstiaia)
+  1913-07-21 [d] 12 üye · 154 km — madde yer_id='Edirne' b="Edirne'nin geri alınışı"
+       üyeler: Demirköy, Dereköy (Kırklareli), Edirne, Havsa, Kofçaz, Kırklareli, Lalapaşa, Meriç (İpsala kuzeyi), Tekirdağ, Uzunköprü, Vize, İğneada
+  1913-03-26 [bulgaristan-kralligi] 10 üye · 154 km — madde yer_id='Edirne' b="Edirne'nin Bulgarlara düşüşü"
+       üyeler: Demirköy, Dereköy (Kırklareli), Edirne, Havsa, Kofçaz, Lalapaşa, Meriç (İpsala kuzeyi), Uzunköprü, Vize, İğneada
+  1415-06-01 [d] 8 üye · 154 km — madde yer_id='İzmir' b="İzmir'in Aydınoğlu Cüneyd Bey'den alınışı"
+       üyeler: Ayasuluk (Selçuk), Aydın, Birgi, Kuşadası, Söke, Tire, Çeşme, İzmir
+  1725-08-04 [d] 5 üye · 145 km — madde yer_id='Tebriz' b="Tebriz'in zaptı — Azerbaycan'ın ele geçirilmesi"
+       üyeler: Ahar (Karadağ), Merâga, Miyâne, Sarâb, Tebriz
+  1344-10-28 [sovalye] 3 üye · 144 km — madde yer_id='İzmir' b="İzmir Limanı'nın Haçlı donanmasına kaybı — Aydınoğ"
+       üyeler: Aydın, Çeşme, İzmir
+  1878-06-04 [ingiltere] 6 üye · 144 km — madde yer_id='Lefkoşa' b="Kıbrıs'ın İngiliz idaresine bırakılması"
+       üyeler: Baf (Paphos), Girne (Kyrenia), Lefkoşa, Limasol, Magosa, Tuzla (Larnaka)
+  1686-09-02 [avusturya] 5 üye · 137 km — madde yer_id='Budin' b="Budin'in kaybı — 145 yıllık Macar başkenti"
+       üyeler: Budin, Hatvan, Kalocsa, Peşte, Şimontorna
+  1920-05-27 [yunanistan] 4 üye · 136 km — madde yer_id='Gümülcine' b="Gümülcine'nin işgali — Batı Trakya'nın kaybı"
+       üyeler: Dimetoka, Ferecik (Feres), Gümülcine, İskeçe
+  1881-07-02 [yunanistan] 4 üye · 134 km — madde yer_id='Tırhala' b="Teselya'nın Yunanistan'a bırakılması"
+       üyeler: Arta, Tırhala, Yenişehir (Larissa), İzdin (Lamia)
+  1453-05-29 [d] 5 üye · 134 km — madde yer_id='İstanbul' b="İstanbul'un Fethi"
+       üyeler: Boğaziçi (Rumeli yakası), Marmara Adası, Silivri, Çatalca, İstanbul
+  1544-09-01 [d] 3 üye · 133 km — madde yer_id='Hatvan' b="Budin'in kuzey ve batı savunma kuşağı: Vaç, Hatvan"
+       üyeler: Hatvan, Vaç (Vác), Şimontorna
+  1725-09-12 [d] 5 üye · 129 km — madde yer_id='Gence' b="Gence'nin fethi — Kafkasya seferinin sonu"
+       üyeler: Berde (Karabağ), Ereş, Gence, Kabala, Şeki (Nuha)
+  1387-04-09 [d] 4 üye · 128 km — madde yer_id='Selanik' b="Selanik'in ilk teslimi"
+       üyeler: Kavala, Lanzaka (Lagkadas), Praviște (Eleftheroupoli), Selanik
+  1460-05-29 [d] 7 üye · 127 km — madde yer_id='Mora' b="Mora'nın fethi"
+       üyeler: Damala (Troizen), Elafonisos (Cervi), Ermiyoni (Hermione), Kranidi, Methana, Mora (Tripoliçe), Çamlıca (Hidra)
+  1444-08-01 [sirp-despotlugu] 5 üye · 125 km — madde yer_id='Semendire' b="Semendire'nin fiilen Sırbistan'a iadesi"
+       üyeler: Alacahisar (Kruševac), Kragujevac, Semendire, Yagodina (Jagodina), Çaçak
+  1798-10-23 [d] 3 üye · 119 km — madde yer_id='Preveze' b="Preveze'nin Fransızlardan alınışı — Nikopolis Muha"
+       üyeler: Butrint (Butrinto), Preveze, Vonitsa
+  1717-08-18 [avusturya] 5 üye · 113 km — madde yer_id='Belgrad' b="Belgrad'ın ikinci kez kaybı — Prens Eugen'in kuşat"
+       üyeler: Belgrad, Kragujevac, Semendire, Yagodina (Jagodina), Çaçak
+  1516-12-28 [d] 3 üye · 112 km — madde yer_id='Yafa' b="Filistin'in katılışı: Yafa, Nablus ve Amman"
+       üyeler: Amman, Nablus, Yafa
+  1885-09-18 [bulgaristan-prensligi] 3 üye · 110 km — madde yer_id='Filibe' b="Doğu Rumeli'nin Bulgaristan'a katılması"
+       üyeler: Eski Zağra (Stara Zagora), Filibe, Tatarpazarcığı
+  1541-08-29 [d] 3 üye · 108 km — madde yer_id='Budin' b="Budin'in ilhakı — Macaristan Osmanlı eyaleti"
+       üyeler: Budin, Kalocsa, Peşte
+  1837-10-13 [fransa-cumhuriyet] 3 üye · 104 km — madde yer_id='Konstantin' b="Konstantin'in düşüşü — doğu Cezayir beyliğinin son"
+       üyeler: Kalme (Guelma), Konstantin, Mîle
+  1479-08-01 [d] 4 üye · 104 km — madde yer_id='Ayamavra (Lefkada)' b='İyon adalarının fethi — Tocco düklüğünün sonu: Aya'
+       üyeler: Ayamavra (Lefkada), Kefalonya, Zaklise (Zakynthos), İthaki
