@@ -148,7 +148,122 @@ arasında **123 yıllık dizin deliği**; `varsova-dukaligi` künyesi **YOK**.
 
 ---
 
-## ③ ÖLÇEMEDİKLERİM — ayrı kova, "temiz" DEĞİL
+## ③ SINIF MI, TEK KAYIT MI — **kendi hipotezimi ölçtüm ve ÇÜRÜTTÜM**
+
+M-2219'da koordinatöre şunu yazdım: *"bu bir TEK KAYIT sorunu olmayabilir;
+157 harcanmış yama kaydının kaçında `bos:`/`neden:` vardı ve sessizce düştü —
+ben ölçmedim."* **Ölçtüm. Hipotezim çürüdü** — ve çürüten şey alan ayrımıydı.
+
+Yöntem: 58 yama dosyası + 69 bağlı dosya, **regex yok** — her dosyayı
+node'un kendi ayrıştırıcısı okudu (`§11`: *veri zaten bir dilde yazılıysa
+o dilin yorumlayıcısını çağır*). Bağlı evren 2663 kayıt / 2663 benzersiz
+ad · **okunamayan 0**.
+
+### Ham sayı — korkutucu görünüyor
+
+```
+bos/neden/not TAŞIYAN yama kaydı : 134
+  ├─ bağlı veride alanı VAR       :   3
+  └─ bağlı veride alanı YOK       : 131   (%97,8)
+```
+
+### Alan alan ayırınca — **sayı dağılıyor**
+
+```
+`bos:`    yamada    1  ·  veride VAR   0  ·  DÜŞEN    1   ← Timbuktu (ok107)
+`neden:`  yamada  128  ·  veride VAR   4  ·  DÜŞEN  124
+`not:`    yamada   10  ·  veride VAR   0  ·  DÜŞEN   10
+```
+
+**ÖLÇTÜĞÜM:** `bos:` alanını taşıyan yama kaydı **tam olarak bir tanedir**
+ve o da Timbuktu'dur.
+**ÇIKARDIĞIM (ölçüm değil):** yamalardaki `neden:`/`not:` alanlarının
+büyük çoğunluğu bir **veri alanı değil, yama yazarının gerekçesi** —
+yani commit mesajı cinsinden. Destekleyen ölçüm: bağlı evrende **229 kayıt
+zaten `bos:` taşıyor** ve `denetle.py` *"Boşluğun cinsi ✓ cinsi yazılmamış:
+0"* diyor ⇒ beyan mekanizması **çalışıyor**; Timbuktu, beyanı **taşıyamayan
+bir yamadan** geldiği için tek başına kaldı.
+
+⚠️ **ÖLÇMEDİM:** 124 `neden:` kaydının her birinin veriye inmesi *amaçlanmış
+mıydı*. 124 kaydı tek tek OKUMADIM. O yüzden *"124'ü de zararsız"* DEMİYORUM
+— *"ölçmedim"* diyorum.
+
+⇒ **`1b` için hüküm: SINIF DEĞİL, TEK KAYIT.** Timbuktu'ya `bos:`/`neden:`
+elle konursa satır kapanır ve arkasından ikinci bir kayıt gelmez.
+
+---
+
+## ④ §1.5 TABLOSU — fark satır satır (ÇIKARILDI, YAZILMADI)
+
+`py arac/durum_tablosu.py` (⚠️ `--yaz` **kullanılmadı**; kök `*.md`
+koordinatörün dosyası).
+
+| satır | `CLAUDE.md §1.5` | ÜRETİLEN (bugün) | fark |
+|---|---|---|---|
+| Yerleşim | 2624 nokta · 63 dosya | **2663 · 69** | +39 nokta · +6 dosya |
+| Kronoloji | 1279 · 1227 · 1182 · 28 | **1289 · 1237 · 1194 · 28** | +10 · +10 · +12 · 0 |
+| Değişmez 1 | ✓ 2624 · 219 sahipsiz | ✓ **2663** · 219 | taban +39, **sahipsiz AYNI** |
+| Değişmez 1b | ✓ 0 (beklenen 0) | ✗ **1** | 🔴 **YEŞİL → KIRMIZI** |
+| Değişmez 2 | ✓ 528 · 0 açık | ✓ **534** · 0 | +6 kırılma |
+| Değişmez 2s | ✓ 977 · 70 açık · 176 kapsam dışı | ✓ **994 · 75 · 173** | +17 · +5 · −3 |
+| Değişmez 2i | ✓ 24 · 3 açık (tavan 3) | ✗ **26 · 4** (tavan 3) | 🔴 **YEŞİL → KIRMIZI**, tavan aşıldı |
+| Değişmez 2t | ✓ 19 (tavan 42) | ✓ **18** | −1 (**iyileşme**) |
+| Konum | 0 | 0 | aynı |
+| Devletler dizini | 436 künye · 401 renk | **438 · 403** | +2 · +2 |
+| Dizinsiz harita kimliği | ✓ 0/0 · kapsam 63 dosya | ✓ 0/0 · kapsam **69** | sayı aynı, **kapsam +6** |
+| Kasıtlı boşluk kimliği | 🟡 1 kimlik / 1 pencere | 🟡 1 / **2** | +1 pencere |
+| Renkli-künyesiz kimlik | ✓ 0 | ✓ 0 | aynı |
+| Padişah · kartvizit | 41 · 36 · 41 | 41 · 36 · 41 | aynı |
+| Harita penceresi | `box(-180,-60,180,85)` | aynı | aynı |
+| Yayın | r4391 · `eee4ad1` | **r4776 · `c42034f`** | +385 sürüm |
+
+**16 satırın 11'i değişmiş, 5'i aynı. İkisi yeşilden kırmızıya döndü.**
+
+### 🔴 VE TABLONUN ASIL KUSURU BAYATLIK DEĞİL — **EKSİKLİK**
+
+`CLAUDE.md §1.5` kendi hakkında şunu iddia ediyor:
+
+> *"Değişmez satırlarını uydurmaz, **`denetle.py`ye sorar.** Yani tablo ile
+> denetim **asla ayrışamaz**."*
+
+**Bu iddia yarım doğrudur ve yarısı tehlikelidir.** Tablonun **gösterdiği**
+satırlar gerçekten ayrışamaz. Ama tabloda **satırı olmayan** denetimler var
+ve `denetle.py` bugün onların ikisinde **kırmızı** veriyor:
+
+```
+denetle.py bugün KIRMIZI     §1.5'te satırı VAR MI?
+  1b  beyansız boşluk 1        ✓ var  → görünür
+  2i  26/4 (tavan 3)           ✓ var  → görünür
+  4   12 hayalet (bekl. 8)     ✗ YOK  → GÖRÜNMEZ
+  4c  286 (bekl. 280)          ✗ YOK  → GÖRÜNMEZ
+  Ek  mükerrer madde 2 çift    ✗ YOK  → GÖRÜNMEZ
+```
+
+Satırı hiç olmayanlar: `3` · `3z` · `4` · `4c` · `4d` · `4s` · `5` · `5b` ·
+`5c` · `7` · dönem sağlığı · mükerrer madde · savaş senkronu.
+
+⇒ **§1.5'ten başlayan bir oturum zemini "2 kırmızı" sanır; gerçek 5.**
+Ve bu **koşturmakla düzelmez** — satır yok. Tablonun kendi uyarısı
+(*"bir oturum tabloya güvenmeden önce bu komutu koştursun"*) bu kusuru
+**kapatmıyor**: koşu da aynı eksik satır kümesini basıyor.
+📌 Sessizlik bir ayrışma değildir — ama **aynı zararı üretir.**
+
+### Ek gözlem — tablo koşusunun bastığı üç şema uyarısı
+
+```
+`baskent`     1 kayıt · yerlesimler_amerika2.js (Comanchería)
+              🔴 M-2097'de koordinatör bunu REDDETMİŞTİ ("değeri bir
+                 sözlük değil bir cümle") — kayıt HÂLÂ düzeltilmemiş
+`ikiz`        4 kayıt · yerlesimler.js (Budin · Peşte · Anadolu Hisarı…)
+              yeni alan; `e9ba26c IKIZ BEYANI` commit'inden — BILINEN_ALANLAR'a
+              kaydı henüz yapılmamış (arac/*.py, koşu bitmeden olmaz)
+`s.kesinlik`  2 kayıt · yerlesimler.js:Vidin · ok106:Kızıkermen
+```
+⚠️ Bunların hiçbiri benim kalemim değil; **bilgi olarak** yazıyorum.
+
+---
+
+## ⑤ ÖLÇEMEDİKLERİM — ayrı kova, "temiz" DEĞİL
 
 ```
 ÖLÇÜLEMEDİ  Varşova üç tarihinin kaynak doğrulaması (TDV/akademik)
@@ -164,7 +279,7 @@ arasında **123 yıllık dizin deliği**; `varsova-dukaligi` künyesi **YOK**.
 
 ---
 
-## ④ SİSTEM BULGUSU — bekçinin adres-tuzağı uyarısı YANLIŞ POZİTİF verdi
+## ⑥ SİSTEM BULGUSU — bekçinin adres-tuzağı uyarısı YANLIŞ POZİTİF verdi
 
 `arac/tahta_bekci.py` M-2209 için bana `[ADRES-TUZAGI] KIME='OPUS HAZIR
 KITA 12' — benim tam anahtarım 'OPUS HAZIR KITA 128'. Mesaj bana ULAŞMADI`
