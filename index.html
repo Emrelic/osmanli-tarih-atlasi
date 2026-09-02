@@ -908,6 +908,21 @@
      Beklenen konsol satırı ÖLÇÜLDÜ (tahmin değil, sınavda çıktı):
        "70 kayıt · SEFERLER 61/61 · SEFERLER_OK103 9/9" -->
 <script src="data/seferler_ok103.js?v=r4391"></script>
+<!-- PAKET-0039 · Avusturya-Macaristan'ın dağılışı, 9 madde.
+     Külliyatta HİÇ yoktu: "Çekoslovakya" 0 · "Trianon" 0 · "Saint-Germain" 0
+     · "Yugoslav" 0 madde; "Avusturya" 14 madde ama en sonuncusu 1878-07-29.
+     ⚠️ Dosya denetime ZATEN girmişti (denetle.py `olaylar*.js`i GLOB ile
+     okuyor); bu satır onu YAYINA sokar. Denetim evreni ile yayın evreni
+     ayrı — biri bağlanmadan da görür, öteki görmez. -->
+<script src="data/olaylar_ok109.js?v=r4391"></script>
+<!-- PAKET-0034 · Yenikale'nin kuruluşu (1703-01-01).
+     🔴 SIRA BAĞLAYICI ve ikinci kez uygulandı: sıfırdan kurulan bir
+     kalenin ilk `d:` başı bir OSMANLI kırılmasıdır (Değişmez 2 tavanı 0)
+     ve o gün çekirdekte YOKTU. ÖNCE MADDE, SONRA DÖNEM — H-0005'teki
+     1847 vakasının tekrarı, bu sefer önden görüldü.
+     ⚠️ Nokta dosyası (`yerlesimler_ok106.js`) BAĞLAMA KUYRUĞUNDA;
+     bağlanınca 2t 19 → 17'ye döner. -->
+<script src="data/olaylar_ok106.js?v=r4391"></script>
 <script>
   // Parti dosyalari KENDI kuresel degiskenlerini tanimliyor; app.js yalniz
   // window.YERLESIMLER okuyor. Birlestirme burada, TEK yerde yapilir --
