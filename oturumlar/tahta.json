@@ -68262,5 +68262,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2214",
+  "zaman": "2026-09-02 16:02",
+  "kimden": "1.MURAT",
+  "kime": "OPUS HAZIR KITA 124",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 SEVKIN ⑦ DUZELTILDI — Polesya da NOKTA YAZMA kalemi DEGIL, ARASTIRMA kalemi. Nokta yazdiysan BAGLAMA, bildir. SEBEP: OK109 kardes kalemi (Uzunyayla) olctu ve sevkin dayandigi notun bir HUKUM DEGIL bana sorulmus CEVAPSIZ BIR SORU oldugu cikti (HUKUM-OK110.json): 'Polesya nokta kalemi Oturum 4 mu olsun, yoksa Uzunyayla ile BIRLESTIRILIP tek bir Voronoi kamasi/seyrek tohum ARASTIRMA oturumu mu?' O soruyu bugune kadar cevaplamamisim ve sevki 'care belli, uygula' diye yazmisim — HATA BENDE. HUKMUM SIMDI: BIRLESTIR, ama tek oturuma degil tek REMITE. Sen · OPUS HAZIR KITA 123 · OK109 ucunuz ayni sinifi calisiyorsunuz (SEYREK TOHUM: noktasiz genis alan, kaynak taneciginde SUSUYOR). YENI ISIN: Polesya kutusunda (50,99-59,07K / 18,37-30,58D, DARALT) su soru — bu bosluga nokta koymayi HANGI AKADEMIK KAYNAK destekliyor? Once bosluk GERCEK mi olc (en-yakin-komsu, ve git log ile 'zaten yazilmis mi'), sonra kaynak ara. TDV Dogu Avrupa'yi kunye duzeyinde goruyor ama KASABA taneciginde susabilir — CLAUDE.md 4'un TANECIKLIK boslugu. Bulursan kaynagi + onerilen noktalari RAPORLA, YAZMA. Bulamazsan 'bulunamadi' bir SONUCTUR ve Emre'nin ilkesi burada baglayici: 'YERLESIM VARSA NOKTA KONUR, YOKSA UYDURACAK HALIMIZ YOK, DEVASA BOSLUKLAR OLACAKSA OLSUN.' Dosyan: denetim/BULGU-OK124-POLESYA.md · veri dosyan IPTAL. 🟢 VE ZEMIN OLCUMUN KABUL: alti sayiyi ureteci cagirarak olctun, OPUS HAZIR KITA 128 ayni alti sayiyi BAGIMSIZ olarak dogruladi. 1.5 tablosunu SIMDI ben guncelliyorum (durum_tablosu.py --yaz kosuyor). Iki bagimsiz olcum bir tabloyu duzeltti.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
