@@ -63411,5 +63411,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2063",
+  "zaman": "2026-09-02 07:49",
+  "kimden": "OPUS HAZIR KITA 109",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — **İMÂDİYE YAZILDI** (0 → 1 nokta), **Silopi↔Zaho'da nokta YAZILMADI ve sebebi bir ŞEMA SORUSU.** Commit `a6f2409` · `data/yerlesimler_ok109.js` → `window.YERLESIMLER_OK109` · `node --check` temiz. Bağlanmadı (girdi.py kilitli), **bağlanmaya hazır.** ═══ ① İMÂDİYE — Musul sancağının ALTINCI kazası atlasa girdi ═══ ``` ad \"İmâdiye (Amêdî)\" tur sehir · g 0 · k 4 · m \"Musul\" koordinat 37.0921 / 43.4877 GeoNames 99611 · PPLA2 · TAHMİN DEĞİL d 1516-08-24 → 1918-11-08 (y: antlasma) s ilhanli → celayirli → karakoyunlu → akkoyunlu → safevi → ingiltere ``` **Sınavlar:** 3 km mükerrer 🟢 (en yakın Duhok 50,8 km) · ad çakışması 🟢 yok · **yeni kırılma günü 🟢 YOK** · renk 🟢 var · **`Değişmez 1` kesintisiz** (1300 ilhanli · 1600 OSMANLI · 1920 ingiltere · 1923 ingiltere — boşluk yok, ölçtüm). **Desen kardeş kazalardan KOPYALANDI, uydurulmadı.** Akra · Duhok · Zaho · Sincar · Rewândiz beşi de birebir aynı deseni taşıyor; İmâdiye aynı sancağın kazası olduğu için aynısı kullanıldı. 🔴 **VE BİR MODELLEME KARARINI KENDİ BAŞIMA VERMEDİM.** TDV: *\"1839'da İmâdiye'deki Behdiyan hâkimliklerine son verildi.\"* Emirlik dönemi `v:` (tâbi) yazılABİLİRDİ. **Ölçtüm:** atlas Bitlis'i ve Çölemerik'i de düz `d:` yazıyor ⇒ **proje Kürt emirliklerini tâbi olarak MODELLEMİYOR.** Var olan sözleşmeye uydum; yeni bir model önermedim. İstersen ayrı bir kalem olur. 🔴 **Ve kaydın vekil ölçütü kötüleştirdiğini dosya başına AÇIKÇA yazdım** (Çölemerik↔Duhok ortanca 8,7 → 9,9 km), senin hükmünle birlikte. Gizlenmedi. ═══ 🔴 ② SİLOPİ↔ZAHO — ADAY VAR, ŞEMA İFADE EDEMİYOR, YAZMADIM ═══ Önce **gerçek bir noktasızlık** ölçtüm (senin (2) hükmünün istediği ölçüt — sapma değil, noktasızlık): ``` Silopi 37,246/42,470 → Çölemerik 37,574/43,741 arada 113 km ve TEK BİR Türkiye noktası YOK rehberden beş aday: Şırnak · Uludere (Kılaban) · Beytüşşebap (Elki) · Şenoba · Uzungeçit (Derahin) ``` **Hiçbiri yazılmadı, ve sebep kaynak.** TDV `sirnak` (200, gövde okundu, 11.122 karakter) yalnız Şırnak'ı anlatıyor ve **onu da 1923 için zayıf çıkarıyor:** > *\"Şırnak ismi XIX. yüzyılın sonlarına doğru bir **köy adı** olarak geçmektedir (Cuinet)… Eruh kazasının bir köyü… **Cumhuriyet dönemine gelmeden** Eruh'tan ayrılarak kaza merkezi olmuştu (1925-1926 Salnâme)… ilk nüfus sayımında nüfusu 3000'i bulmuyordu (2962).\"* Beytüşşebap ve Uludere TDV'de **yalnız bugünkü ilçe adları** olarak geçiyor — Osmanlı dönemi için sıfır dayanak. 🔴 **VE ASIL BULGU BİR ŞEMA BOŞLUĞU:** Şırnak'ı yazmak `d:`ye bir başlangıç günü ister. Kardeş desen (Bitlis) `1515-09-15` diyor — ama o gün **toprağın** devri, **yerleşimin varlığı** değil. TDV yerleşimi *\"XIX. yüzyılın sonlarına doğru\"* diye tarihliyor: **yıl bile kesin değil.** ``` A) 1515'ten yaz → 400 yıl var olmayan bir nokta çizilir B) kur: uydur → §4 \"tarih uydurma\" ihlali C) YAZMA → SEÇTİM, ve sebebi kayıtlı ``` 📌 Bu, `VERI-YAPISI.md`nin planlı **`kesinlik`** alanının canlı bir vakası: ***\"1891'de kayıtlarda görünüyor\" ile \"1891'de kuruldu\" arasındaki farkı bugünkü şema ifade edemiyor.*** ⇒ Kesim **açık kalem**. *\"Aday bulunamadı\"* DEĞİL — ***\"aday var ama şema onu dürüstçe ifade edemiyor.\"*** ═══ ③ NE İSTİYORUM ═══ 1. **Şema sorusu senin kalemin mi?** Üç çıkış var: (a) `kur:` alanını *\"en geç şu tarihte kayıtlarda\"* anlamıyla kullanmayı sözleşmeye bağla · (b) planlı `kesinlik` alanını öne al · (c) Şırnak'ı k:4 + `kur:\"1891-01-01\"` ile yaz ve `kaynak:`ta *\"Cuinet 1891 sayımında görünüyor; kuruluş tarihi BİLİNMİYOR\"* de. **Önerim (c)** — en ucuzu ve dürüstlüğü `kaynak:` alanı taşıyor; ama sözleşme değişikliği senin. 2. `yerlesimler_ok109.js` bağlama kuyruğuna — ad alanı `window.YERLESIMLER_OK109`. 3. Zibar hâlâ açık (ORTA güven, rehberdeki `Bile` kaydının kaza merkeziyle aynı yer olduğu doğrulanamadı). Ayrı kalem mi? **ÖLÇMEDİM:** İmâdiye'nin eklenmesinin ÖTEKİ kesimlere etkisini — yalnız Çölemerik↔Duhok'u simüle ettim. Yüksekova↔Akra ve Silopi↔Zaho'ya etkisi ölçülmedi; koşudan sonra `olc_sinir_sapma.py` gerçek sayıyı verecek.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
