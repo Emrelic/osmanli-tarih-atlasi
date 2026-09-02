@@ -1,0 +1,107 @@
+{
+  "is": "1815-1918 KONGRE POLONYASI — REÇETE (uygulama değil)",
+  "oturum": "OPUS HAZIR KITA 128",
+  "damga": "2026-09-02 · sevk: M-2247 (1.MURAT)",
+  "uyari": "VERİYE DOKUNULMADI · devletler.js açılmadı · renkler.py motor parmak izinde ve koşu CANLI (PID 27596), yalnız OKUNDU",
+
+  "⓪ SINIR — OK109 ile ÇAKIŞMA YOK, ölçüldü": {
+    "OK109": "varsova-dukaligi  f:1807-07-22  t:1815-06-09   (UYGULA-OK109-VARSOVA.json)",
+    "BEN": "kongre-polonyasi  f:1815-06-09  t:1917-03-15",
+    "temas": "OK109'un `t:`si benim `f:`im — GÜN BİRE BİR, boşluk da örtüşme de YOK.",
+    "not": "Aynı 123 yıllık dizin deliğinin iki ucundayız; ikisi birlikte 1795-1807 (11 yıl 9 ay) hariç deliğin tamamını kapatır."
+  },
+
+  "① KUNYE_ONERISI": {
+    "id": "kongre-polonyasi",
+    "ad": "Kongre Polonyası (Kraliyet Polonyası)",
+    "ad_nicin_boyle": "TDV'nin KENDİ yazdığı iki adın ikisi de bu — «(Kraliyet Polonyası / Kongre Polonyası)». §4'ün Türkçe yazım ekseni: kendi transliterasyonumu değil kaynağın adını alıyorum.",
+    "f": "1815-06-09",
+    "t": "1917-03-15",
+    "bolge": "Orta Avrupa",
+    "harita": "kongre-polonyasi",
+    "kaynak": "polonya — TDV, gövde BENİM TARAFIMDAN çekildi ve okundu (HTTP 200, 216.662 bayt ham / ~133.384 karakter etiketsiz). Devraldığım alıntı DEĞİL."
+  },
+
+  "② KAYNAK_KANITI — kendim okudum, OK109'dan devralmadım": {
+    "alinti": "«Varşova Büyük Dukalığı topraklarının diğer kısmını, Rus Çarlığı hâkimiyeti altında çarın aynı zamanda Polonya kralı unvanını taşıyacağı bir krallık haline getirdi (Kraliyet Polonyası / Kongre Polonyası).»",
+    "baslangic_gunu": "Aynı paragraf: «Viyana Kongresi'nin 9 Haziran 1815 tarihli nihaî belgesi» ⇒ f:1815-06-09 TDV'nin KENDİ günü, uydurulmadı.",
+    "🔴 TDV_BITIS_GUNU_VERMIYOR": {
+      "olcum": "Normalleştirilmiş gövde taraması: «1867» → 0 kez. «1863» → 3, «1864» → 1 (ayaklanma), «1918» → 8 (yeniden kuruluş bağlamı).",
+      "hukum": "TDV Kongre Polonyası'nın BİTİŞİNİ SÖYLEMİYOR. §4: kaynak susuyorsa uydurulmaz. `t:` bu yüzden ATLASIN KENDİ MODELİNDEN türetildi (aşağıda), TDV'den DEĞİL — ve bu AÇIKÇA yazılıyor."
+    }
+  },
+
+  "③ VERI_DUZELTMESI_KAYIT_BAZINDA — 4 kayıt, HEPSİ ölçüldü": {
+    "🔴 SLUG_BAZLI_YAPILAMAZ": "`rusya` veride ÇOK sayıda dönemde geçiyor ve bunların yalnız 4'ü Kongre Polonyası. Kör bir değiştirme Batı Krayı'nı da Polonya yapardı.",
+    "🟢 AYIRT_EDICI_OLCULDU": "Veri Kongre Polonyası'nı Batı Krayı'ndan ZATEN ayırıyor — `rusya` döneminin BAŞLANGIÇ GÜNÜ ile: 1815-06-09 = Kongre Polonyası · 1807-07-09 (Białystok, Tilsit) ve 1795-10-24 (üçüncü bölüşme) = DEĞİL. Yani ölçüt uydurma değil, verinin kendi günü.",
+    "kayitlar": [
+      { "dosya": "data/yerlesimler.js", "ad": "Varşova",
+        "eski": "{f:\"1815-06-09\",t:\"1917-03-15\",d:\"rusya\"}",
+        "yeni": "{f:\"1815-06-09\",t:\"1917-03-15\",d:\"kongre-polonyasi\"}" },
+      { "dosya": "data/yerlesimler_p0037.js", "ad": "Lublin",
+        "eski": "{f:\"1815-06-09\",t:\"1917-03-15\",d:\"rusya\"}",
+        "yeni": "{f:\"1815-06-09\",t:\"1917-03-15\",d:\"kongre-polonyasi\"}" },
+      { "dosya": "data/yerlesimler_p0037.js", "ad": "Chełm (Kholm)",
+        "eski": "{f:\"1815-06-09\",t:\"1917-03-15\",d:\"rusya\"}",
+        "yeni": "{f:\"1815-06-09\",t:\"1917-03-15\",d:\"kongre-polonyasi\"}" },
+      { "dosya": "data/yerlesimler_p0037.js", "ad": "Zamość",
+        "eski": "{f:\"1815-06-09\",t:\"1917-03-15\",d:\"rusya\"}",
+        "yeni": "{f:\"1815-06-09\",t:\"1917-03-15\",d:\"kongre-polonyasi\"}" }
+    ],
+    "DOKUNULMAYACAKLAR_ve_NICIN": {
+      "Białystok": "rusya 1807-07-09'dan — Belostok Oblastı, Kongre Polonyası DEĞİL",
+      "Brest-Litovsk · Grodno · Volodymyr-Volynskyi": "rusya 1795-10-24'ten — Batı Krayı",
+      "Kaunas": "rusya 1795-10-24'ten — Batı Krayı (sonrası litvanya)",
+      "Krakov · Lvov": "avusturya — Galiçya",
+      "Poznan · Gdansk · Königsberg": "almanya — Prusya payı"
+    },
+    "🔴 DOSYA_SAHIPLIGI": "Dördün ÜÇÜ `data/yerlesimler_p0037.js` — benim dosyam DEĞİL (parti-0037). OK109 aynı uyarıyı aynı üç kayıt için yaptı. Uygulama koordinatörde."
+  },
+
+  "④ IKI_UC_DA_OLCULDU (§3.5.1) — YENİ İHLAL DOĞMUYOR": {
+    "Degismez_2s_kirilma_gunleri": {
+      "1815-06-09": "ÇEKİRDEKTE 0 GÜN uzaklıkta madde VAR — «Viyana Kongresi Nihai Senedi — Napolyon sonrası Avrupa haritası»",
+      "1917-03-15": "ÇEKİRDEKTE 4 gün uzaklıkta madde VAR — «Bağdat'ın kaybı» (1917-03-11)",
+      "sonuc": "İki uç da ZATEN kırılma günü ve ZATEN maddeli ⇒ YENİ AÇIK KIRILMA DOĞMAZ, 2s 75'te kalır.",
+      "kova_notu": "§11 gereği ÇEKİRDEĞE baktım (olaylar*.js, 1303 madde), kuyruğa değil."
+    },
+    "Degismez_4": "Dönem künyeyle BİREBİR aynı (f=f, t=t) ⇒ ne hayalet ne aşma. 4 ve 4c DEĞİŞMEZ.",
+    "Degismez_1": "Sahiplik kesintisiz devrediyor (dukalık → kongre → rusya-gecici-hukumet) ⇒ sahipsiz pencere DOĞMAZ.",
+    "OK109_ile_zincir": "OK109'un `t:1815-06-09`u ile benim `f:1815-06-09`um aynı gün ⇒ ikisi birlikte uygulanırsa da boşluk YOK. AYRI AYRI uygulanırsa da yok (biri uygulanmazsa öteki `lehistan`/`rusya` ile komşu kalır)."
+  },
+
+  "⑤ 🔴 EN ZAYIF HALKA — `t:` TARİHSEL OLARAK TARTIŞILIR, GİZLEMİYORUM": {
+    "gerilim": "Kongre Polonyası'nın ÖZERKLİĞİ 1863-64 ayaklanmasından sonra kaldırıldı; 1867'den itibaren idarî olarak Rusya'ya katıldı (Vistül Vilâyeti). `t:1917-03-15` seçmek, 1867-1917 arası ~50 yılı hâlâ ayrı bir gövde gibi boyar — bu §3.5'in HAYALET DEVLET sınıfına yakın durur.",
+    "alternatif_B_OLCULDU_ve_BEDELI": {
+      "oneri": "t:1867-01-01, sonrası yeniden `rusya`",
+      "bedel": "1867-01-01'e ÇEKİRDEKTEKİ en yakın madde 75 GÜN (1866-10-18 Cizzah). ±30'u AŞIYOR ⇒ 4 kayıtta YENİ AÇIK kırılma, `2s` 75 → 76. Ve 1867 günü için TDV DAYANAK VERMİYOR (gövdede 0 kez), yani gün TDV dışı bir kaynaktan gelmek zorunda.",
+      "not": "Bu bir RET gerekçesi DEĞİL: Değişmez 2 zaten «harita değişiyorsa maddesini yaz» diyor, yani bedel bir kusur değil NORMAL FİYAT. Ama fiyatı ödemeden uygulanamaz."
+    },
+    "hangisini_oneriyorum": "A (t:1917-03-15) — ama KOŞULLU.",
+    "gerekce": "① de jure: çar 1917'ye kadar «Polonya kralı» unvanını taşıdı, krallık nominal olarak sürdü. ② EMSAL: OK109 bitişik künyede aynı ikilemi (de facto 1813 / de jure 1815) yaşadı ve DE JURE'yi seçti; iki komşu künyenin farklı ölçüt kullanması tutarsızlık olurdu. ③ ÖLÇÜM: A sıfır yeni ihlal doğuruyor, B bir tane doğuruyor.",
+    "🔴 OLCMEDIM": "«De jure krallık 1917'ye kadar sürdü» cümlesini TDV'de BULAMADIM ve akademik kaynağa da SORMADIM. Bu bir ÇIKARIM ve EMSAL argümanı, ÖLÇÜM DEĞİL. Reçetenin en zayıf halkası burasıdır ve KOORDİNATÖRÜN KARARINA bırakıyorum: 1867 tercih edilirse `t:`yi değiştirmek tek satır, ama bir kronoloji maddesi BORCU doğar."
+  },
+
+  "⑥ RENK_ONERISI_YAZILMADI": {
+    "🔴": "`renkler.py`ye DOKUNULMADI — motor parmak izli, koşu canlı. Bu bir ÖNERİDİR, uygulama koşudan SONRA.",
+    "BOYALAR_toplam": 403,
+    "kongre-polonyasi": "YOK — künye eklenirse renk BORCU doğar (aksi hâlde §8: boyanmayan kimlik = harita DELİĞİ)",
+    "ayni_sahnedeki_komsular_1815_1917": {
+      "rusya": "#4f7d4f",
+      "avusturya": "#bdab3f",
+      "almanya": "#78d028",
+      "polonya": "#ab47bc",
+      "sovyet-rusya": "#00d9ff",
+      "rusya-gecici-hukumet": "#12397e"
+    },
+    "oneri_yonu": "Polonya ailesiyle akraba ama `polonya` (#ab47bc) ve `lehistan` (#fc87c9) ile karışmayacak bir ton; en yakın coğrafî komşusu `rusya` (#4f7d4f) olduğu için ondan ΔE mesafesi en kritik olan. Somut hex ÖNERMİYORUM — seçimi `renk_olc.py`nin çözücüsü yapmalı, elle atanan hex bu projede üç kez çakışma üretti.",
+    "🔴 VE_HATIRLATMA": "CLAUDE.md §9: veriye dokunan her koşudan sonra `renk_olc.py` koşulur — renge dokunulmasa bile yeni bir gövde sahneye girince çakışma DOĞABİLİR."
+  },
+
+  "⑦ OLCMEDIKLERIM — ayrı kova, 'temiz' DEĞİL": [
+    "1867 sonrası Vistül Vilâyeti'nin ayrı bir künye hak edip etmediği",
+    "1795-10-24 → 1807-07-22 arası (11 yıl 9 ay) — deliğin kalan ucu; ne bende ne OK109'da",
+    "Prusya kimliğinin yokluğu (OK109'un yan bulgusu). BEN ÖLÇTÜM ve onun 'ölçmedim' dediği yarısını kapattım: Poznan · Gdansk 1793-01-23'ten sonra `almanya` taşıyor, Königsberg 1281'den beri `almanya`. Yani Prusya'nın karşılığı `almanya` şemsiyesi. Bunun DOĞRU MODELLEME mi eksiklik mi olduğuna KARAR VERMEDİM — künyenin adı «Kutsal Roma / Almanya» ve 962-1923 kapsıyor, yani denetim onu hayalet saymıyor.",
+    "Chełm'in 1912'de Kongre Polonyası'ndan ayrılıp ayrı vilâyet yapılması — veride karşılığı YOK, ölçmedim"
+  ]
+}
