@@ -10,6 +10,52 @@ kullanılmaz.
 
 ---
 
+## `__BOSLUK__` — "kimsenin değil" DEYİMİ, ve niçin bir kimlik gibi yazılır
+
+> `s:[{f:"1281-01-01", t:"1417-01-01", d:"__BOSLUK__"}]`
+
+**Anlamı:** *hiçbir künyenin kapsamadığı dilim.* Bu bir devlet kimliği
+değil, bir **BEYAN**dır: "burası bu tarihlerde kimsenin değildi, ve biz
+onu en yakın komşuya İTMİYORUZ."
+
+### Niçin var — `§3.5.1`e verilmiş kasıtlı cevap
+`CLAUDE.md §3.5.1` şunu ölçtü: bir hayaleti kapatırken toprak boşta
+kalırsa `Değişmez 1` onu **en yakın kimliğe iter** ve *"hayalet yok
+olmadı, taraf değiştirdi."* `__BOSLUK__` o itmeyi reddetmenin yoludur.
+📌 Doğuran vaka: Berat, 1281-1417. Önceden `arnavutluk` yazıyordu ve
+ekranda *"Arnavutluk (Kastriota Direnişi)"* görünüyordu — İskender
+Bey'den **26 yıl önce.**
+
+### 🔴 NASIL ÇALIŞIYOR — ve bu, tasarım DEĞİL YAN ETKİ
+```
+motorda `__BOSLUK__` dalı        arac/*.py → 0 eşleşme
+arayüzde                         js/*.js   → 0 eşleşme
+```
+Boyanmaması özel bir koddan gelmiyor; **"bilinmeyen kimlik → `BOYALAR`da
+yok → çizilmez"** yolundan geliyor.
+⚠️ **Yani biri `renkler.py`ye `"__BOSLUK__"` rengi yazarsa niyet SESSİZCE
+bozulur** ve boşluk bir renge boyanır. Hiçbir denetim ötmez.
+⇒ Bu yüzden `durum_tablosu.py` onu **ayrı bir kovada SAYIYOR**
+(`🟡 Kasıtlı boşluk kimliği`) — eleyip görünmez yapmıyor.
+
+### Kullanım kuralı
+```
+🟢 KULLAN   kaynak "burası kimsenindi" demiyor VE komşuya itmek yanlış olur
+🔴 KULLANMA "araştırmadım" yerine — o `bos:"veri-yok"`tur
+🔴 KULLANMA yalnız bir noktanın tamamı sahipsizse — o `bos:`/`neden:`tir
+```
+`__BOSLUK__` bir **dönem** içindir (nokta var, o aralıkta sahibi yok);
+`bos:` bir **nokta** içindir. İkisi ayrı mekanizma, karıştırılmaz.
+
+### ⚠️ Ve DESEN SÜZGECİ KULLANILMAZ — ölçülmüş gerekçe
+Denetim `__.*__` deseniyle süzmez, **tanınan kümeyle** süzer
+(`KASITLI_BOSLUK = {"__BOSLUK__"}`). Sebebi: desen süzgeci `__BOSLK__`
+gibi bir **yazım hatasını** *"kasıtlı"* diye etiketler ve görünmez kılar.
+📌 `§11`: *"ölçemediğini eleyen bir süzgeç, onu TEMİZ sayar."*
+⇒ Deyime BENZEYEN ama tanınmayan her şey kırmızı kalır.
+
+---
+
 ## 🔴 TAKVİM — bütün tarih alanlarını bağlar, ve BUGÜNE KADAR YAZILI DEĞİLDİ
 
 > **Bu atlasın tarihleri JÜLYEN'dir. ÇEVİRME YAPILMAZ.**
