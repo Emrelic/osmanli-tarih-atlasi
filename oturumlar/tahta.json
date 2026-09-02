@@ -65285,5 +65285,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2152",
+  "zaman": "2026-09-02 15:06",
+  "kimden": "PAKET-0035-0902",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "KALEM 4-5 · YAMA YAZILDI, BIRI INDI BIRI BLOKE + BIR ALET KUSURU OLCULDU data/yer_yama_p0035.js yazildi (window.YER_YAMA_P0035, iki kayit). py arac/_sahiplik_uygula.py KURU KOSU: uygulandi 1 cakisma 1 [4] NIGBOLU INIYOR — isg:rusya 1810-10-01..1811-04-01. Dayanak TDV \"nigbolu\" govdesi (HTTP 200, 17 KB, okundu): \"1810 yili Ekim ayinda ... Nigbolu, mesur Rus Generali Michail Kutuzov'un kuvvetleri tarafindan ele gecirildi. Ruslar, sehri terketmeden once 1811 Nisaninda kalenin onemli kismini havaya ucurup sehre buyuk zarar verdiler.\" TDV yalniz AYI veriyor => ikisi de ayin ilkine (CLAUDE.md §8). Kirilma gunleri CEKIRDEK kovada olculdu: 1810-10-01 -> en yakin madde 1810-09-26 (5 gun) · 1811-04-01 -> AYNI GUN madde var. Yeni gun DOGURULMADI. d: alanina DOKUNULMADI - isgal de jure sahipligi kaldirmaz; Ibrail ve Ruscuk'ta da d: isgal boyunca kesintisiz suruyor, desen korundu. [5] YERGOGU BLOKE - VE ENGEL BIR *HARCANMIS* YAMA. KARAR ISTIYORUM. Alet: \"CAKISMA: yer_yama_p0035.js vs yer_yama_romanya.js - icerik farkli, KARAR GEREK\". Olctum, ve cakisma SAHTE degil ama ENGEL OLU: yer_yama_romanya.js (30 Agu, UYGULAMA-3, 0039/H-0006) Yergogu'nun s:'ini romanya -> romanya-kralligi 1881-03-26 bolmesi icin yaziyor. O BOLME VERIDE ZATEN VAR: yerlesimler.js:2139'un s:'i ile romanya yamasinin s:'i BIREBIR AYNI - yani o kayit UYGULANMIS, yama HARCANMIS. ⇒ Diskte duran harcanmis bir yama, ayni kayda gelen YENI yamayi BLOKE EDIYOR. Bu bende bir vaka ama SINIF olarak genel: uygulanmis yamalar diskten dusmedigi surece her yeni yama onlara carpacak. ISTEDIGIM (tek cumle): yer_yama_romanya.js'in YALNIZ \"Yergogu (Giurgiu)\" kaydi dusurulsun (harcanmis, veriye esit) - o dosya benim degil, ben dokunmadim; ya da p0035'in oncelikli oldugu soylensin. ONERIM: birincisi. Cunku ikincisi harcanmis kaydi diskte birakir ve bir sonraki oturum ayni duvara carpar. [!] ALET KUSURU - arac/_sahiplik_uygula.py (BENIM DOSYAM DEGIL, RAPOR EDIYORUM) Alet Nigbolu icin \"kaynak: ZATEN DOLU, ezilmedi\" bastı. Nigbolu'nun kaydinda kaynak: alani YOK (yerlesimler.js:327, olculdu). SEBEP: SKALER_RX satirin TAMAMINDA \\bkaynak:\\s*\" ariyor; benim isg: dizimin ICINDEKI kaynak:\"nigbolu\"yu KAYIT DUZEYI alani sandi. KAPSAM OLCULDU (140 raporun tamami tarandi, diziler silinip kalanda arandi): KAYIT DUZEYINDE kaynak: gercekten var : 127 YALNIZ dizi icinde gomulu (RAPOR YANLIS): 13 kayit bulunamadi : 0 Onüçü: Akkirman · Bukres · Hotin · Kili · Kusayr · Mankup · Nigbolu · Nis · Seface · Sina guneyi · Suveys · Tur (Sina) (+1) ZARAR: veri kaybi DEGIL, BELGE kaybi - geometri iniyor, kaynak: yazilmiyor, ve rapor sebebi TERS soyluyor (\"zaten dolu\" degil \"ic ice geceni yakaladim\"). §4'un kirmizi cizgisi tam burada isliyor: \"kaynagi yazilmayan bilgi, kaynagi olmayan bilgiden ayirt edilemez.\" 📌 Ve bu, bugunun dersinin (alet aradigi seyin NEREDE OLMAYACAGINI da bilmeli) dogrudan bir vakasi: alet dogru seyi ariyor, YANLIS EVRENDE. Not: onucun dordu (Kusayr · Sina guneyi · Suveys · Tur) H-0053'un, ucu (Akkirman · Hotin · Kili) H-0035/H-0080'in noktalari - bu kalemler hala bende, oradan da degecegim. SILISTRE: hala \"bulunamadi\" (isgal BASLANGIC gunu TDV'de yok). Yazmadim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
