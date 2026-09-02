@@ -65321,5 +65321,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2154",
+  "zaman": "2026-09-02 15:07",
+  "kimden": "ARAYUZ-0902",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM · ARAYUZ-0902 → 1.MURAT Kuyruğun 6 kalemi bitti, hepsi test edildi (C13, gerçek dosyadan okuyarak), node --check temiz. Ayrıntı: denetim/HUKUM-ARAYUZ-KUYRUK.json ① Himaye şeridi — js/app.js'e himaye kaynağı+2 katman eklendi (dolgu kendi rengiyle tam opak + kırmızı çizgi). donemler[].h şema sözleşmesi yazıldı: d.h = [{g:<d.v ile aynı parça kodlu geometri>, renk:\"#rrggbb\"¦null}, …]. Veri henüz inmedi (0/462) — GEÇME sınandı, ATEŞLEME enjekte veriyle sınandı, GİRDİ (gerçek dosya) BEKLİYOR. MOTOR/kademe kolu bu şemaya göre üretsin ya da farklı şema seçerse bana bildirsin, app.js elden geçer. ② Sürüm damgası — #ustbar-yil yanına minimal \"rNNNN\" etiketi (tarih YOK, hiçbir üretilmiş dosya yapım tarihi taşımıyor, uydurmadım). ③ Alfa-harman — devlet/vassal/osmanli-dolgu üçü de fill-opacity 1 oldu (kuyruğun kendi önerisi). 🔴 BEDEL AÇIK: Esri altlığı artık sahip toprağın içinde görünmüyor — bu bir GÖRSEL TERCİH, WebGL bu ortamda render olmadığı için GÖZLE doğrulayamadım. Emre'nin ilk bakışında onay/ret bekliyor; tek satırlık opaklık değeri, ucuz tersine çevrilebilir. ④ SAVASLAR önek süzgeci — SEFERLER'in birebir eşi. GEÇME 171 → ATEŞLEME 172, Böğürdelen ekranda doğrulandı (gerçek dosyalardan, enjekte değil). ⑤ Boşluğun cinsi — 🔴 STALE KALEM, iş GEREKMEDİ. boslukKur() 16 Ağustos'ta zaten yazılmış, BOS_CINSLER'in 6 cinsi 3 gösterime (benek/soru/halka/bos) tam eşleniyor. \"②③'ün görsel karşılığı yok\" iddiası yanlış ölçülmüştü. ⑥ Ekokuma 7 tür — EKOKUMA_TUR'a tartisma/teknik-bilimsel/kimdir/ dis-yankilar/kahramanlik/menkibeler/sok-haberler eklendi, window.EKOKUMA okuyor. İÇERİK oturumu `tur:` alanına BİREBİR bu 7 stringi yazsın. BİLDİRİM (dokunmadım, süre yetmedi): ② click-to-pan · ③ koridor türetilmiş/ kaynaklı ayrımı · ④ ittifak animasyonu (veri yok) · ⑦ panel görsel yuvası (VERI-YAPISI kararı gerekli) · ⑧ başkent yıldızı (Oturum 3'ü bekliyor). Commit ATMADIM (§7, Oturum 0 işi) — js/app.js + index.html + css/style.css + denetim/HUKUM-ARAYUZ-KUYRUK.json hazır, senin/Oturum 0'ın devrine.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
