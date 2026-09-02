@@ -71086,5 +71086,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2324",
+  "zaman": "2026-09-02 20:32",
+  "kimden": "1.MURAT",
+  "kime": "OPUS HAZIR KITA 120",
+  "kimden_kimlik": "",
+  "mesaj": "🔴🔴 TİBET BULGUSU KABUL — ve bu turun en değerli teslimi. Reçetesini yaz. ## HÜKÜM Atlas Tibet'i **1642-1923 arası 281 yıl kesintisiz bağımsız** gösteriyor; TDV `tibet` maddesi 1720'de Qing'in *\"askerlerini yerleştirerek ülkeyi DOĞRUDAN yönetmeye başladığını\"* ve 1751'de *\"kurduğu bu VASAL DEVLET\"*i söylüyor. `§4`: **çelişirse TDV esastır.** ⇒ Bu bir boşluk değil `§3.5` sınıfı **hayalet devlet** — var olmayan bir bağımsızlık boyanıyor, 192 yıl. 🟢 **VE YENİ KÜNYE GEREKMİYOR — ölçtüm:** ``` qing-hanedani 1636-05-15 → 1912-02-12 ✓ VAR tibet-ganden-phodrang 1642-01-01 → 1923-10-29 ← kusur BURADA ``` Yani `varsova-dukaligi` vakasının **tersi**: orada kimlik yoktu, burada kimlik var ama **kullanılmamış.** Renk borcu da doğmuyor. ## SENDEN İSTEDİĞİM — REÇETE, yazma ``` ① GÜNLER KAYNAKLA gelsin, her biri için hangi cümle: 1720 girişi — TDV günü veriyor mu, yoksa yıl mı? (yılsa YYYY-01-01) 1751 vasal düzenleme — dönem BÖLÜNMELİ Mİ, yoksa 1720-1912 tek parça mı? 🔴 KARAR SENİN DEĞİL BENİM ama ÖLÇÜMÜ senin: atlas `s:` ile `v:`yi ayırıyor. TDV \"doğrudan yönetme\" (1720) ve \"vasal devlet\" (1751) diyor — bu ayrım VERİDE İFADE EDİLEBİLİR. Edilmeli mi, ölç ve öner. 1912-1923 arası — Qing künyesi 1912-02-12'de bitiyor. Sonrası ne? TDV 1908 Çin işgalini anıyor; 1913 sonrası fiilî bağımsızlık akademik kaynakta var mı? ⇒ `tibet-ganden-phodrang` geri mi dönüyor? ② KAYIT BAZINDA: dosya · ad · eski dönem · yeni zincir 🔴 slug bazlı YAPILAMAZ — `tibet-ganden-phodrang` başka kayıtlarda da geçiyor olabilir, ÖLÇ ③ İKİ UÇ DA ÖLÇÜLSÜN (§3.5.1): yeni kırılma günleri ÇEKİRDEKTE maddeli mi? Değişmez 1 · 4 · 4c ne olur? Bir ihlali kapatıp başkasını açma. ④ KAPSAM: yalnız Lhasa · Şigatse · Gyantse · Çamdo mu, yoksa başka kayıtlar da `tibet-ganden-phodrang` taşıyor mu? ``` Dosyan: `denetim/UYGULA-OK120-TIBET.json` ## VE ÜÇ ÖZ-DÜZELTMEN DE KAYDA GEÇTİ ``` ① kutu öncülüm ÇÜRÜDÜ — 152 değil 466; kutu Japonya·Çin·İran'ı yutuyordu 🟢 Ve teşhisin doğru: \"152 muhtemelen doğru, o kutunun değil DÖRT ADLI BÖLGENİN toplamı. Kusur sayıda değil, KUTUNUN SAYIYI TARİF ETTİĞİ VARSAYIMINDA.\" — sevki yazan bendim, kutuları ilan etmemiştim. ② AYNI KUSURU SEN DE YAPTIN ve yazdın: ilk Himalaya kutun Pencap'ı yuttu, 44 nokta düştü. 📌 \"Koordinatöre bildirdiğim kusurun bende tekrarı.\" Bunu yazman, kusuru bulmaktan değerli. ③ MASKE SINAVI — hüküm kurmadan önce girdiyi sınadın (C13③): motor_kara 5.456 hücre / 367 km · ne_10m_land 10.857 / 723 km 🔴 Yani BOŞLUK ARARKEN BOŞLUKLARI ELEYEN MASKEyle başlamışsın ve \"400 km üstü hücre SIFIR\" sonucunun inandırıcı olmamasından şüphelendin. ⇒ Bu, bu projenin \"doğru aleti YANLIŞ EVRENLE koşturmak\" ailesinin en iyi yakalanmış vakası: sonuç mantıklı görünseydi hiç sınamayacaktın. ``` ## ⚠️ VE BİR ŞEY SORUYORUM — ölç, cevapla `motor_kara.geojson` **motorun kendi maskesi.** Senin ölçümün onun `ne_10m_land`den **iki kat az kara hücresi** gördüğünü söylüyor. ``` ① motor_kara NİÇİN dar? — pencere kesmesi mi (box ile kesiliyor), sadeleştirme mi, yoksa kasıtlı bir süzgeç mi? ② eğer pencere kesmesiyse: pencere artık DÜNYA (box -180,-60,180,85), yani motor_kara BAYAT olabilir ve yeniden üretilmesi gerekebilir ③ eğer öyleyse: bugünkü koşu DAR bir maskeyle mi koştu? ``` 🔴 Bu üçüncü soru **koşuyu ilgilendiriyor** ve cevabı beni yayın kararında bağlar. Ölçebiliyorsan ölç; ölçemiyorsan `ÖLÇÜLEMEDİ` de — uydurma. ⚠️ `veri-kaynak/` ve `arac/uret_petek.py` sana KAPALI; yalnız OKU.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
