@@ -695,6 +695,24 @@ GIRDI_DOSYALARI = [
                                       # Şırnak'ın `kur:"1891-01-01"`i bir
                                       # ALT SINIRDIR, kuruluş günü DEĞİL.
     "yerlesimler_ok110.js",           # 1 nokta · Darende
+    # ───── 3 Eylül 2026 · ÜÇ DOSYA BAĞLANDI, dördüncüsü BAĞLANMADI ─────
+    # Üçü de `_baglama_onsinav.py`dan KIRMIZI 0 ile geçti (ad çakışması ·
+    # 3 km · alan sınavı). Yayın kapısı dördünü de "ADI YANILTAN DOSYA"
+    # diye uyarıyordu: adları `yerlesimler_` ama `girdi.py` okumuyordu.
+    "yerlesimler_amerika3.js",        # 25 nokta · Kuzey Meksika · Kaliforniya
+                                      # misyonları (AMERIKA-0902)
+                                      # ⚠️ 2s'e etkisi ÖLÇÜLDÜ: +15 (70→85,
+                                      # tavan 121) ve 25 açığın 22'si
+                                      # KURULUŞ günü — "el değiştirme" değil
+                                      # "doğuş". Değişmez 2 bu ayrımı BİLMİYOR.
+    "yerlesimler_ortaasya3.js",       # 22 nokta · Yedisu · Kazak bozkırı ·
+                                      # Doğu Türkistan (ORTAASYA-0902)
+    "yerlesimler_ok107.js",           # 21 nokta · Orta Asya · Cizre-Midyat
+    # 🔴 `yerlesimler_ok102.js` BAĞLANMADI — ön sınav 2 KIRMIZI verdi:
+    #   ad çakışması: "Medâin-i Sâlih (el-Hicr)" · "el-Ulâ" BAĞLI EVRENDE VAR
+    #   3 km: el-Ulâ → el-Ulâ  0,04 km
+    #   ⇒ `yukle()` ad çakışmasında ValueError ATAR ve MOTOR HİÇ BAŞLAMAZ.
+    #   Bağlansaydı koşu daha ilk saniyede ölürdü. Sahibiyle çözülecek.
     "yerlesimler_p0037.js",           # 15 nokta · Bolgrad · Kahul · Zamość
                                       # ⚠️ Zamość/Lublin/Chełm `lehistan`
                                       # kullanıyor ama o künye 1795'te
@@ -856,6 +874,29 @@ BILINEN_ALANLAR = {
            "True ise 1923 sınır hattı köyü — Emre'nin 'sınırları birebir "
            "çizelim' kararının kayıtları. denetle.py'nin 4d yorumu "
            "bunları adıyla anıyor",
+    "ikiz":
+           "3 km'den yakın AMA mükerrer OLMAYAN çiftin karşılıklı beyanı. "
+           "`denetle.ikiz_ayikla` iki şart koşar: beyan KARŞILIKLI olacak "
+           "(tek taraflı beyan yazım hatasıdır) ve İKİ TARAFTA DA `kaynak:` "
+           "bulunacak — 'beyan kaynaksız geçmez', böylece takma-ad çiftleri "
+           "beyan EDİLEMEZ ve mükerrer tespiti zayıflamaz. "
+           "🔴 3 km bir YASAK değil bir ŞÜPHE EŞİĞİDİR: kuralın doğduğu "
+           "vakalarda (Varat/Varad · Afyon-Karahisâr) kusur yakınlık değil "
+           "AYNI YERİN İKİ KEZ ve TUTARSIZ yazılmasıydı. Zaman çizgileri "
+           "FARKLIYSA iki nokta mükerrer değildir. "
+           "Bugünkü beyanlılar: Anadolu Hisarı ↔ Rumeli Hisarı (1,54 km, "
+           "Boğaz'ın iki yakası) · Budin ↔ Peşte (1,57 km, Tuna'nın iki "
+           "yakası). Karaağaç bu kapıdan GEÇMEDİ: ölçüldü, sahibi hiçbir "
+           "gün Edirne'den farklı değil ⇒ ifade edilecek fark YOK, kalem "
+           "geometriye düştü",
+    "not":
+           "Serbest metin — yamayı yazan oturumun gerekçesi. "
+           "🔴 3 Eylül 2026'da eklendi ve gecikmesi ölçüldü: "
+           "`_sahiplik_uygula.py` bu alanı 2 Eylül'de yazmaya başlamıştı "
+           "ama BILINEN_ALANLAR'da yoktu ⇒ inen her kayıt UYARI üretecekti. "
+           "Bağlı evrende o gün 0 kayıt taşıyordu, yani zarar DOĞMADAN "
+           "kapatıldı — `bos:`/`neden:`in Timbuktu'da doğurduğu vakanın "
+           "tersi (orada alan araçta yoktu ve beyan SESSİZCE DÜŞTÜ)",
 }
 # 🔴 `baskent` BİLEREK EKLENMEDİ — 2 Eylül 2026'da ölçüldü ve REDDEDİLDİ.
 #   Tek kayıtta geçiyor (yerlesimler_amerika2.js: Comanchería) ve değeri

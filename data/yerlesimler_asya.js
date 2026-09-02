@@ -2470,21 +2470,27 @@ window.YERLESIMLER_ASYA = [
 { ad:"Lhasa", tur:"sehir", lat:29.6520, lon:91.1720, g:2, k:1,kd:[{f:"1642-01-01",t:"1923-10-29",k:1,m:"Lhasa"}], d:[],
   s:[{f:"1281-01-01", t:"1354-01-01", d:"yuan-hanedani"},
      {f:"1354-01-01", t:"1642-01-01", d:"tibet"},
-     {f:"1642-01-01", t:"1923-10-29", d:"tibet-ganden-phodrang"}] },
+     {f:"1642-01-01", t:"1720-01-01", d:"tibet-ganden-phodrang"},
+     {f:"1720-01-01", t:"1912-02-12", d:"qing-hanedani"},
+     {f:"1912-02-12", t:"1923-10-29", d:"tibet-ganden-phodrang"}] },
 
 // Şigatse — Tsangpa hânedanının başkenti (1565-1642) ve Pançen Lama'nın
 // makamı Taşilhunpo'nun şehri.
 { ad:"Şigatse", tur:"sehir", lat:29.2680, lon:88.8810, g:1, k:1,kd:[{f:"1354-01-01",t:"1642-01-01",k:1,m:"Şigatse"}], d:[],
   s:[{f:"1281-01-01", t:"1354-01-01", d:"yuan-hanedani"},
      {f:"1354-01-01", t:"1642-01-01", d:"tibet"},
-     {f:"1642-01-01", t:"1923-10-29", d:"tibet-ganden-phodrang"}] },
+     {f:"1642-01-01", t:"1720-01-01", d:"tibet-ganden-phodrang"},
+     {f:"1720-01-01", t:"1912-02-12", d:"qing-hanedani"},
+     {f:"1912-02-12", t:"1923-10-29", d:"tibet-ganden-phodrang"}] },
 
 // Gyantse — 1904 İngiliz seferinin en kanlı çarpışmasının yeri; Şigatse'ye
 // 70 km.
 { ad:"Gyantse", tur:"kale", lat:28.9500, lon:89.6020, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1354-01-01", d:"yuan-hanedani"},
      {f:"1354-01-01", t:"1642-01-01", d:"tibet"},
-     {f:"1642-01-01", t:"1923-10-29", d:"tibet-ganden-phodrang"}] },
+     {f:"1642-01-01", t:"1720-01-01", d:"tibet-ganden-phodrang"},
+     {f:"1720-01-01", t:"1912-02-12", d:"qing-hanedani"},
+     {f:"1912-02-12", t:"1923-10-29", d:"tibet-ganden-phodrang"}] },
 
 // Çamdo — doğu Tibet (Kham); 1910'da Qing ordusu Zhao Erfeng ile bölgeyi
 // doğrudan idareye almaya çalıştı, 1912'den sonra Tibet geri aldı.

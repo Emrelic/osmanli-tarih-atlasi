@@ -2392,6 +2392,16 @@ window.DEVLETLER = [
     { t:"1863-01-22", tur:"isyan", b:"Ocak Ayaklanması — bastırıldıktan sonra özerklik fiilen kaldırıldı" }
   ]
 },
+{ id:"transkafkasya", ad:"Transkafkasya (Komiserlik → Seym → Demokratik Federatif Cumhuriyet)", tur:"federasyon", bolge:"kafkasya",
+  f:"1917-11-07", t:"1918-05-28", baskent:"Tiflis", harita:"transkafkasya",
+  ozet:"Rusya Geçici Hükûmeti'nin düşmesinden sonra Gürcü, Ermeni ve Azerî siyasî güçlerinin Kafkasötesi'nde kurduğu ortak idare; Komiserlik (1917-11) → Seym (1918-02) → Demokratik Federatif Cumhuriyet (1918-04-22) safhalarından geçti ve 1918-05-26/28'de üç millî cumhuriyete ayrıldı. ⚠️ Bağımsızlığı YALNIZ TDFR safhası ilan etti; 1917-11-07 → 1918-04-22 arası fiilî bir özerk idaredir, ilan edilmiş bir devlet değil — künye bunu kapsıyor ve bu bir SADELEŞTİRMEDİR. Bkz. [[gurcistan-demokratik-cumhuriyeti]] · [[ermenistan-demokratik-cumhuriyeti]] · [[azerbaycan-demokratik-cumhuriyeti]].",
+  kaynak:"bulunamadı — TDV'de madde YOK (yedi slug varyantı sınandı, yedisi de 302). Dayanak: Brisku & Blauvelt (ed.), The Transcaucasian Democratic Federative Republic of 1918, Routledge 2021 — üç safhanın ARDIŞIK ve birbirinden türeyen anayasal biçimler olduğu, ayrı devletler olmadığı.",
+  kronoloji:[
+    { t:"1917-11-07", tur:"kurulus", b:"Kafkasötesi Komiserliği kuruldu — Geçici Hükûmet düştükten sonra bölgesel ortak idare" },
+    { t:"1918-04-22", tur:"siyaset", b:"Kafkasötesi Demokratik Federatif Cumhuriyeti bağımsızlığını ilan etti" },
+    { t:"1918-05-26", tur:"kayip", b:"Gürcistan ayrıldı — federasyon dağıldı; 28 Mayıs'ta Ermenistan ve Azerbaycan da ayrıldı" }
+  ]
+},
 { id:"polonya", ad:"Polonya Cumhuriyeti (II. Cumhuriyet)", tur:"cumhuriyet", bolge:"dogu-avrupa",
   f:"1918-11-11", t:"1923-10-29", baskent:"Varşova", harita:"polonya",
   ozet:"123 yıllık paylaşılmışlığın ardından Almanya, Avusturya-Macaristan ve Rusya topraklarından yeniden kurulan devlet; Piłsudski önderliğinde bağımsızlığını Sovyetler'e karşı da savundu (1923 sonrasında da sürdü). Bkz. [[lehistan]] (eski Lehistan-Litvanya Birliği ile doğrudan devamlılığı yok).",

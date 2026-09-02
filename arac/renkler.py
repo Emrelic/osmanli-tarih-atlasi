@@ -1538,6 +1538,25 @@ BOYALAR = {
     # cekoslovakya  #5d4037 → #930c5d  (toplu tur)
     "cekoslovakya": ("Çekoslovakya", "#930c5d"),
     "polonya":      ("Polonya Cumhuriyeti",   "#ab47bc"),
+    # ───── 3 Eylül 2026 · 123 YILLIK DİZİN DELİĞİNİN İKİ PARÇASI ─────
+    # `lehistan`(…1795) ile `polonya`(1918…) arasındaki boşluk iki künyeyle
+    # kapandı; renkleri `arac/_uc_renk_kisit.py` ile ÇÖZÜLDÜ.
+    # 🔴 NİÇİN AYRI BİR ARAÇ: `renk_olc.py --oner` üçünü de birbirine karşı
+    #   KISITLAMADI ("yeniler arası komşuluk: 0 çift") ve neredeyse aynı üç
+    #   maviyi önerdi (#242ad2 · #2430d2 · #2436d2). Sebep `engel_kumesi()`in
+    #   VORONOİ KOMŞULUĞUNA dayanması: varsova ile kongre AYNI NOKTALARIN
+    #   farklı zamanları, hiçbir gün aynı sahnede değiller ⇒ çözücü o kenarı
+    #   KURAMAZ. `luba ↔ lunda` tuzağının birebir tekrarı, ve bunu koşudan
+    #   ÖNCE OPUS HAZIR KITA 128 bildirdi.
+    # 🔴 KISIT ANLATIDAN GELİYOR: çekirdek maddenin açıklaması, künyenin
+    #   `f:` gününde (1815-06-09): "Varşova Dukalığı'nın büyük kısmı
+    #   «Kongre Polonyası» adıyla Rusya'ya bağlandı" — ÜÇ KİMLİK TEK
+    #   CÜMLEDE. Hedef ΔE ≥ 25 (`bugis ↔ gova` emsali).
+    # ÖLÇÜLDÜ: varsova↔kongre 143,1 · varsova↔transkafkasya 97,5 ·
+    #   kongre↔transkafkasya 106,6 · dış kenar ihlali 0
+    "varsova-dukaligi":  ("Varşova Büyük Dukalığı",     "#831cc8"),
+    "kongre-polonyasi":  ("Kongre Polonyası",           "#c82d1c"),
+    "transkafkasya":     ("Transkafkasya (Federasyon)", "#1cc81c"),
     "yugoslavya":   ("Yugoslavya (SHS)",      "#00695c"),
     # ↓ Baltık kümesi — üçü de değişti (bkz. `isvec` üstündeki blok)
     #   letonya    ton kayması 122,5° — köşenin en kalabalık düğümüydü (4
