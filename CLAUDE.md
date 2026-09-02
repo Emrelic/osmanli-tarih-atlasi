@@ -73,19 +73,21 @@ gerekir. Projenin bütün kalite kuralları (§3) bu tek cümleden türer.
 | Katman | Ölçülen durum |
 |---|---|
 | Yerleşim (motorun okuduğu) | **2624** nokta, 63 girdi dosyası |
-| Kronoloji | **1277** madde · 1227 duygu etiketli · 1182 `yer_id` · 28 `vefat_id` |
+| Kronoloji | **1279** madde · 1227 duygu etiketli · 1182 `yer_id` · 28 `vefat_id` |
 | Değişmez 1 — sahipsizlik | ✓ 2624 yerleşim, 219 sahipsiz (beklenen 219) |
 | Değişmez 1b — iç boşluk | ✓ BEYANSIZ pencere arası boşluk: 0 (beklenen 0) · beyanlı 3/3 — tam tarama |
 | Değişmez 2 — Osmanlı senkronu | ✓ 528 kırılma, 0 açık (beklenen 0) |
 | Değişmez 2s — yabancı senkron | ✓ 977 YABANCI kırılması · 70 AÇIK (tavan 121) · 176 KAPSAM DIŞI |
 | Değişmez 2i — işgal senkronu | ✓ 24 İŞGAL kırılması, 3 açık (tavan 3) |
-| Değişmez 2t — kırılmasız madde | ✓ kırılmasız madde: 17 (tavan 42) — bilinen borç |
+| Değişmez 2t — kırılmasız madde | ✓ kırılmasız madde: 19 (tavan 42) — bilinen borç |
 | Konum denetimi | 0 nokta kara maskesinin dışında (beklenen 0) |
-| Devletler dizini | **432** künye · **411** renk (`renkler.py`) |
-| Dizinsiz harita kimliği | 🔴 **5** kimlik / 7 pencere karşılıksız · *kapsam: `girdi.py`nin okuduğu 63 dosya — bağlanmamış partiler HARİÇ* |
+| Devletler dizini | **436** künye · **401** renk (`renkler.py`) |
+| Dizinsiz harita kimliği | ✓ **0** kimlik / 0 pencere karşılıksız · *kapsam: `girdi.py`nin okuduğu 63 dosya, `s:`+`isg:` alanları — bağlanmamış partiler HARİÇ* |
+| Kasıtlı boşluk kimliği | 🟡 **1** kimlik / 1 pencere · *`__BOSLUK__` — hiçbir künyenin kapsamadığı dilim; en yakın kimliğe İTİLMEDİ (`§3.5.1`). Kusur değil, BEYAN* |
+| Renkli-künyesiz kimlik | ✓ **0** çiziliyor ama dizinsiz · *kapsam: `renkler.py` BOYALAR − (künye `id` ∪ `harita:`)* |
 | Padişah · kartvizit | 41 kayıt · 36 portre · **41** kartvizit dolu |
 | Harita penceresi | `box(-180, -60, 180, 85)` |
-| Yayın | **r4391** · `b598771` |
+| Yayın | **r4391** · `eee4ad1` |
 
 > ⚙️ **BU TABLO ELLE YAZILMAZ — ÜRETİLİR.**
 > ```bash
@@ -636,14 +638,17 @@ index.html              Tek sayfa uygulama. Tüm data/*.js buradan script ile y�
 js/app.js               Harita + gün bazlı zaman akışı + paneller + dizinler
 css/style.css           Görünüm
 
-data/yerlesimler.js     ⭐ ELLE YAZILAN TEK COĞRAFİ KAYNAK — 740 yerleşim
-data/olaylar.js         Ana kronoloji (84 madde, detaylı)
-data/olaylar_ek*.js     Derinleştirme partileri 1-7 — toplam 958 kronoloji maddesi
-data/devletler.js       Devletler dizini (213 kayıt, dünya)
-data/padisahlar.js      41 kayıt (36 padişah + Fetret + ara dönemler)
-data/kisiler.js         90 kişi
-data/savaslar.js        123 savaş + 33 antlaşma + 15 seri + 41 sefer güzergâhı
-data/sehirler.js        62 şehir/kale kartı
+data/yerlesimler.js     ⭐ ELLE YAZILAN TEK COĞRAFİ KAYNAK
+data/olaylar*.js        Kronoloji ÇEKİRDEĞİ — `denetle.py`nin Değişmez 2 evreni
+data/kronoloji*.js      Kronoloji KUYRUĞU — index.html'de bağlı (CANLI) ama
+                        `Değişmez 2`nin evreninde DEĞİL. İki kova KASITLI:
+                        `§11` *"bu gün zaten var yetmiyor — HANGİ KOVADA
+                        olduğu da sorulmalı."*
+data/devletler.js       Devletler dizini (künye + `harita:` boya anahtarı)
+data/padisahlar.js      Padişah kartları (36 padişah + Fetret + ara dönemler)
+data/kisiler.js         Kişi dizini
+data/savaslar.js        Savaş · antlaşma · seri · sefer güzergâhı (`SEFERLER`)
+data/sehirler.js        Şehir/kale kartları
 
 🔴 **HANGİ DOSYA CANLI — tek doğru kaynak `arac/girdi.py` `GIRDI_DOSYALARI`.**
    Bu satırlar 31 Temmuz'a kadar `yerlesimler_afrika.js`'i "merge bekliyor"
@@ -687,12 +692,12 @@ doğrulamak yetmiyor, hangi DOSYALARI okuduğunu da doğrulamak gerekiyor."*
 Ders yazılıydı; **bayatlayan şey dersin kendisi değil, yanındaki listeydi.**
 ⇒ Çare yeni bir uyarı satırı değil, **listeyi buradan KALDIRMAK.** Yapıldı.
 
-data/donemler.js        🤖 ÜRETİLMİŞ — 12 MB. ELLE DÜZENLEME.
-data/devletler_harita.js 🤖 ÜRETİLMİŞ — 14 MB. ELLE DÜZENLEME.
-data/bolgeler.js        🤖 ÜRETİLMİŞ — 61 idari bölge. ELLE DÜZENLEME.
+data/donemler.js        🤖 ÜRETİLMİŞ — ELLE DÜZENLEME.
+data/devletler_harita.js 🤖 ÜRETİLMİŞ — ELLE DÜZENLEME.
+data/bolgeler.js        🤖 ÜRETİLMİŞ — idarî bölgeler. ELLE DÜZENLEME.
 
 arac/uret_petek.py      ⭐ TEK ÜRETİM BETİĞİ.
-arac/renkler.py         Devlet renkleri (BOYALAR) — 104 devlet, DSATUR ölçümü
+arac/renkler.py         Devlet renkleri (BOYALAR) — DSATUR ölçümü
                         ve "kompozit ΔE" uyarısı dosya başında
 arac/denetle.py         ⭐ BEŞ DENETİM — üç değişmez + dönem sağlığı + mükerrer madde
 arac/surum_damgala.py   index.html'deki ?v=rNN damgasını günceller
