@@ -1,8 +1,8 @@
 {
   "parti-emrelic-0039": {
     "H-0001": {
-      "hukum": "senin-kararin",
-      "not": "TRAKYA SINIR KOLU — SAHİBİ BELİRSİZ. Bu madde H-0009'un TRAKYA kolunun ta kendisi ve o kol 30 Ağustos'ta UYGULAMA-0019'a sevk edilmiş. ÖLÇTÜM (2 Eylül 2026): girdi.py 63 dosya okuyor, içinde `yerlesimler_sinir_dogu.js` ve `yerlesimler_sinir_guney.js` VAR, TRAKYA dosyası YOK — data/ altında trakya sınır yerleşimi dosyası bulunamadı (`yer_yama_balkan_trakya.js` başka bir iş). ÇIKARDIĞIM (ayrı satır): kol teslim edilmemiş. KARAR GEREKEN: UYGULAMA-0019 hâlâ bu kolda mı, yoksa devredilecek mi? Kendime iş SEÇMİYORUM."
+      "hukum": "sirada",
+      "not": "TRAKYA KOLU — KOL SERBEST, YENİDEN SEVK BEKLİYOR. Koordinatör 2 Eylül'de hükmü verdi: 'KOL UYGULAMA-0019'DAN ALINDI, YENİDEN SEVK EDİLECEK.' ÖLÇÜMÜM (2 Eylül): `girdi.py` 63 dosya okuyor; `yerlesimler_sinir_dogu.js` (6 nokta) ve `yerlesimler_sinir_guney.js` (0 nokta, kasten boş) BAĞLI, ama TRAKYA dosyası data/ altında YOK — kol teslim edilmemiş. ⇒ Artık 'kim yapacak' sorusu değil, 'sıradaki tur' sorusu: hüküm verildi, uygulama bekliyor. Önceki `senin-kararin` hükmüm bu kararla KARŞILANDI."
     },
     "H-0002": {
       "hukum": "sirada",
@@ -21,20 +21,26 @@
       "not": "TEŞHİS AYAKTA, ÖLÇÜM TEKRARLANDI (2 Eylül 2026). `isg:` işgal örtüsü toplam 94 kayıt taşıyor (paket 30 Ağustos'ta 83 demişti — 11 kayıt eklenmiş ama hepsi BAŞKA dönemlere). 1921-06-15 kesitinde AKTİF isg kaydı: SIFIR. Yani Yunan · İtalyan · Fransız · İngiliz işgali veride HÂLÂ HİÇ TEMSİL EDİLMİYOR. Altyapı hazır (alan var, taralı desenle çiziliyor), eksik olan VERİ. Tek oturumluk iş değil."
     },
     "H-0006": {
-      "hukum": "senin-kararin",
-      "not": "KÖK BULUNDU, ÇARE KOORDİNATÖRDE. ÖLÇTÜM: `yer_yama_romanya.js`in 20 kaydının 18'i canlı veriye inmiş, Bükreş ve Yaş İNMEMİŞ — yani 42 yıllık hayalet kimlik Romanya'nın BAŞKENTİNDE duruyor. Sebep veride değil alette: `_sahiplik_uygula.py` çakışma imzasını KAYDIN TAMAMINDAN kuruyordu, oysa gerçek birim ALAN; `yer_yama_gece_v3.js` yalnız `isg:`e, `yer_yama_romanya.js` yalnız `s:`e dokunuyor, çatışmıyorlar. Sekiz çakışmayı alan alan tasnif ettim: 2 sahte, 6 gerçek. Koordinatör aleti düzeltti (8d69338) ve 13 ad açıldı; ama Bükreş/Yaş sonradan yazılan `yer_yama_p0037.js` yüzünden ÜÇ YÖNLÜ çakışmaya döndü ve koordinatör 'bunu ben çözeceğim, sen dokunma' dedi. ÜÇÜNCÜ BİR YAMA YAZMADIM — üçüncü dosya çakışmayı çözmez, büyütür."
+      "hukum": "cozuldu",
+      "not": "KAPANDI — ve bayat isteğim GERİ ALINDI (2 Eylül, ikinci tur). Bu madde daha önce bende `senin-kararin` diye duruyordu; defter (CEVAP.json) onu `cozuldu` yapmıştı ve benim dosyam her birleştirmede eski isteği YENİDEN DAYATIYORDU — koordinatörün M-2136'da bildirdiği gürültü. ÖLÇTÜM (hukum_durum.py): benimki AÇIK, defter KAPALI; ayrışan TEK madde buydu. Kökü zaten bulunmuştu: `yer_yama_romanya.js`in 20 kaydının 18'i inmiş, Bükreş ve Yaş inmemişti; sebep veride değil aletteydi (`_sahiplik_uygula.py` çakışma imzasını KAYDIN TAMAMINDAN kuruyordu). Koordinatör aleti düzeltti ve çakışma bugün 28 → 0 indi. ⇒ Madde kapalı, isteğim düşürüldü."
     },
     "H-0007": {
       "hukum": "sirada",
       "not": "TEŞHİS DOĞRULANDI, İŞ BENDE DEĞİL. ÖLÇTÜM (2 Eylül 2026): `devletler.js`te `almanya` künyesi 962-02-02 → 1923-10-29 ve künyenin ADI zaten 'Kutsal Roma / Almanya'. Ardıl künyelerin ALTISI DA YOK: kutsal-roma · ren-konfederasyonu · alman-konfederasyonu · almanya-imparatorlugu · weimar · prusya. 1700-06-15 kesitinde 33 nokta, 1923-06-15 kesitinde de 33 nokta — aynı gövde, 223 yıl. Künye bölme + renk işi; ikisi de koordinatörün dosyalarında, benim ad alanımda değil."
     },
     "H-0008": {
-      "hukum": "senin-kararin",
-      "not": "ÜÇ KALEMİN İKİSİ KAPANDI, ÜÇÜNCÜSÜ İKİ ÖN ŞARTA BAĞLI — ikisi de sende. (1) Suçava · Çernovitz · Cres: `yer_yama_macar_avusturya.js` 3/3 İNDİ, ölçtüm, KAPANDI. (2) 'macaristan 1923'te SIFIR nokta' iddiası zaten çürütülmüştü (macaristan-naiplik 20 nokta); ben de doğruladım, KAPANDI. (3) AYAKTA: avusturya 1923-06-15'te yalnız 2 nokta (Viyana, Graz) — ve altında pakette yazmayan bir kusur buldum: `avusturya` kimliğinin `id:` künyesi YOK, `harita:` üzerinden `habsburg`a (1526-08-29 → 1918-11-11) çözülüyor, yani Viyana ve Graz 4,9 YIL HAYALET taşıyor. Doğru künye `avusturya-cumhuriyet` veride VAR ve HİÇ kullanılmıyor. Yamayı yazdım (`data/yer_yama_ok109.js`) ama UYGULANMAMALI: (a) `avusturya-cumhuriyet` rengi yok, uygulanırsa hayalet DELİĞE döner; (b) künye f:1918-11-12, yama f:1918-11-11, düzeltilmezse Değişmez 4d 468 tavanını 470'e çıkarır. Uygulayıcının kendi kilidini (`d2_gerek`) iki kayda da koydum ve sınadım: bugün `--yaz` koşsa bile delik açılmıyor. Ayrıca Linz · Salzburg · Innsbruck · Klagenfurt yokluğu ölçüldü ama YENİ NOKTA yazmadım — bana verilmedi."
+      "hukum": "sirada",
+      "not": "İKİ KALEM KAPANDI, ÜÇÜNCÜSÜ İKİ ÖN ŞARTA BAĞLI — ve ön şartlar KOORDİNATÖRDE, sırada. (1) Suçava · Çernovitz · Cres: yama 3/3 İNDİ. (2) 'macaristan 1923'te sıfır nokta' iddiası çürütüldü (macaristan-naiplik 20 nokta), ben de doğruladım. (3) AYAKTA: Viyana ve Graz 1918-11-11 → 1923-10-29 arası `avusturya` taşıyor; o kimlik `harita:` üzerinden `habsburg`a (ölüm 1918-11-11) çözülüyor ⇒ 4,9 yıl hayalet. Yama YAZILDI (`data/yer_yama_ok109.js`) ve `d2_gerek` ile KİLİTLİ; kilidin şartları: ① `avusturya-cumhuriyet` rengi (renkler.py — koşu sürerken PARMAK İZLİ, koordinatör koşu bitince yazacak) ② künye günü 1918-11-12 → 1918-11-11 (devletler.js). İkisi de koordinatörün dosyası. Kilit sınandı: bugün `--yaz` koşsa bile delik açılmıyor. Önceki `senin-kararin` hükmüm, koordinatörün 'ben yazacağım, sıraya alındı' cevabıyla KARŞILANDI."
     },
     "H-0009": {
       "hukum": "cozuldu",
       "not": "YÖNTEM KARARI VERİLDİ VE UYGULAMAYA GEÇTİ. Emre 30 Ağustos'ta şık ①'i seçti: hedef çift mesafesi ~10 km, en kötü sapma ≤5 km; sanal nokta (b) ve motor ağırlığı (c) seçilmedi. `oturumlar/SINIR-YERLESIMI.md` yazıldı, `arac/_sinir_envanteri.py` ölçtü (174 komşu devlet çifti: 26 oturmuş · 58 orta · 90 tahminle), Faz 1 üç kola sevk edildi. DOĞRULADIM (2 Eylül): `girdi.py` 63 dosya okuyor ve `yerlesimler_sinir_dogu.js` ile `yerlesimler_sinir_guney.js` BAĞLI; veride `sinir:true` taşıyan 6 nokta var. ⇒ Bu maddenin sorusu (hangi yöntem?) KAPANDI. Kolların UYGULAMASI ayrı iki madde olarak açık duruyor: TRAKYA H-0001'de, DOĞU/GÜNEY H-0002'de."
+    }
+  },
+  "parti-emrelic-0038": {
+    "H-0007": {
+      "hukum": "zaten-dogru",
+      "not": "ZUHÂB (KASR-I ŞÎRÎN) ANTLAŞMASI — ATLAS ZATEN DOĞRU, ve maddenin kendi ÖNCÜLÜ çürüdü. ① ÖNCÜL: madde '`zuhab-antlasmasi` CANLI' diyordu; `§4`ün İKİ testiyle de ölçtüm — HTTP 302 ve izlenen sayfanın <title>'ı 'Arama - TDV İslâm Ansiklopedisi', yani ÖLÜ. Aynısı `kasr-i-sirin-antlasmasi` · `kasr-i-sirin` · `kasrisirin` · `zuhab` için de: BEŞ slug ölü, TDV aramasi madde bağlantısı döndürmüyor. ② KAPSAYICI MADDE KURTARDI (`§4`): `murad-iv` CANLI (200), gövde OKUNDU (51.477 karakter): 'Kasrışîrin civarındaki ZÜHÂB mevkiinde İran savaşlarına nihayet veren … KASRIŞÎRİN ANTLAŞMASI imzalanmıştı (14 Muharrem 1049 / 17 MAYIS 1639).' ③ ATLAS ÖLÇÜLDÜ: külliyatta `1639-05-17 · Kasr-ı Şirin Antlaşması` maddesi VAR ve TDV ile BİREBİR; veride o gün 9 kırılma ucu (OSMANLI 5 · safevi 4); `Değişmez 2` sıfır gün uzaklıkta ve İLGİLİ maddeyle kapalı; 1639'un öteki günleri Osmanlı-Safevî sınırıyla ilgisiz (Moğol/Rus/İngiltere) ⇒ tutarsızlık YOK. ⇒ Araştırma sonucu DEĞİŞTİRMİYOR, DOĞRULUYOR. 🔴 YAN BULGU (ayrı kalem): o maddenin `kaynak:` alanı `kasr-i-sirin-antlasmasi` gösteriyor — ÖLÜ slug. 'Doğru bilgi, ölü adres.' Önerim `murad-iv`; UYGULAMADIM çünkü `olaylar.js` ve `olaylar_ek5.js` benim ad alanım değil, ve koordinatör 553'lük slug taramasının sonucunu bekleyip TOPLU uygulayacak."
     }
   }
 }
