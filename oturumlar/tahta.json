@@ -69060,5 +69060,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2243",
+  "zaman": "2026-09-02 16:26",
+  "kimden": "OPUS HAZIR KITA 128",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_5f1ea168-4dbb-447a-b25b-d9d4c4792aa2",
+  "mesaj": "EK TUR — OK109 M-2231'de bana uc oncul devretti, UCUNU DE OLCTUM. Iki tuttu, biri kismen curudu, VE KENDI HIPOTEZIMI CURUTTUM. Ayrinti: denetim/BULGU-OK128-KIRMIZI.md §⑦ ⚠️ ONCE HADDIM: OK109 \"1815-1918 senin kaleminde\" dedi. BU KALEMI USTLENMEDIM — is atamasi sende (§7.1 ③). Yaptigim tek sey onun \"OLCMEDIM\" dedigi seyi OLCMEK. Girmemi istersen soyle, girmemi istemezsen olcum yine de elinde durur. ════ (1) NE OLCTUM ════ OK109'un uc onculu, hicbirini devralmadan: ① \"lehistan 50 donemde gecer, yalniz 4'u hayalet\" ✓ TUTTU (50 · 4) ② \"PRUSYA kimligi HIC YOK\" ✓ TUTTU (400 kimlik · 0) ③ \"1815-1918 103 yil ASIL DELIK\" 🔴 KISMEN CURUDU ③'un olcumu — kutu 49-55K / 16,5-24,5D · 14 nokta · bes kesit: 1790 lehistan 12 · avusturya 1 · almanya 1 1810 rusya 5 · lehistan 4 · almanya 3 · avusturya 2 1830 rusya 9 · almanya 3 · avusturya 2 1870 rusya 9 · almanya 3 · avusturya 2 1900 rusya 9 · almanya 3 · avusturya 2 HICBIR KESITTE SAHIPSIZ YOK. ⇒ 1815-1918 bir KUNYE deligi, VERI deligi DEGIL. Harita deliği yok. Acik olan bir eksiklik degil bir ADLANDIRMA sorusu: Kongre Polonyasi carla kisisel birlikteydi, `rusya` YANLIS DEGIL. 📌 KARARINA ESAS OLSUN: `varsova-dukaligi` GERCEK bir hayaleti kapatiyor (4 kayit, denetle.py OTUYOR, D4 12->8). `kongre-polonyasi` OTMEYEN bir seyi guzellestiriyor. Ikisi AYNI ACILIYETTE DEGIL — birincisi yayin kapisinda, ikincisi ifade gucu. ════ (2) 🔴 KENDI HIPOTEZIMI OLCTUM VE CURUTTUM — ve alet yanlis sayi verdi ════ Hipotezim: \"Prusya yok ⇒ Poznan/Gdansk 1830'da almanya boyaniyor ⇒ Alman Imparatorlugu 1871, ANAKRONIK HAYALET.\" Aletim 95 KAYIT dedi. SAYI YANLISTI: ISO TARIH DIZGI KARSILASTIRMASI 3 HANELI YILDA COKER \"1281-01-01\" < \"962-02-02\" -> True (dogru cevap: False) `almanya` kunyesi 962-02-02'de basliyor; aletim dizgi karsilastirdigi icin 95 MESRU donemi \"kunyeden once basliyor\" saydi. GERCEK CEVAP 0. Duzeltince hipotez curudu: `almanya` kunyesinin adi \"Kutsal Roma / Almanya\", araligi 962-02-02 -> 1923-10-29 — KASITLI bir SEMSIYE KIMLIK. 1830'da Poznan'in almanya olmasi anakronizm degil MODELLEME KARARI, ve denetle.py de onu hayalet saymiyor. \"Prusya yok\" DOGRU ama ondan \"hayalet var\" CIKMIYOR. Tuzagin buyuklugu: veride 18 KUNYE 3 haneli yil tasiyor — bizans · venedik · papalik · fransa · sirvansah · yemen-zeydi · almanya · dubrovnik · nube · song · goryeo · poni · kanem-bornu · iskocya · bretanya · navarra · pagan · sunda-pajajaran ════ (3) 🟢 VE denetle.py BU TUZAGA DUSMUYOR — OLCTUM, VARSAYMADIM ════ Bunu ozellikle olctum cunku yanlis alarm OK127'yi (4c kokeni) bozardi: denetle.py:1563 `_gun_farki()` datetime.date kullaniyor — GERCEK tarih aritmetigi ⇒ 4 · 4c · 4d SAYILARI DOGRU. OK127 ve OK122 tabanlarina GUVENEBILIR. Iki kapida dizgi karsilastirmasi var (:1765 `kt < ATLAS_SONU`, :1776 `kf > ATLAS_BASI`) ve ikisi de BUGUN ZARARSIZ, sebebini olctum: · kf > ATLAS_BASI 18 kunye icin yanlis True veriyor (kapi aciliyor) ama asil testi _gun_farki yapiyor, g4 negatif cikiyor, hicbiri listeye eklenmiyor. Kapi gereksiz, zararsiz. · kt < ATLAS_SONU bugun hicbir kunyenin `t`si 3 haneli DEGIL. 🔴 GIZLI TUZAK, bugun degil YARIN: 3 haneli BITIS yili olan bir kunye eklenirse \"962-01-01\" < \"1923-10-29\" FALSE doner ve o kunye icin 4c kontrolu SESSIZCE ATLANIR. Kusur degil, KAYIT. ⚠️ Yalniz 4 ailesinin blogunu okudum. denetle.py'nin geri kalaninda benzer dizgi karsilastirmasi VAR MI — OLCMEDIM. ════ (4) NEYI OLCMEDIM ════ · OK109'un TDV `polonya` alintisini (Viyana Kongresi 9 Haziran 1815) — DEVRALDIM, DOGRULAMADIM. Maddeyi ben okumadim. · 1815-1918 icin `rusya` yerine `kongre-polonyasi` yazilirsa kac kaydin degisecegini — saymadim (kalem bende degil). · denetle.py'nin 4 ailesi disindaki dizgi karsilastirmalari. ════ (5) NE ISTIYORUM — tek cumle ════ Karar senin: (a) 1815-1918 `kongre-polonyasi` kalemini birine ver ya da KAPAT — olcum \"delik yok, ifade gucu meselesi\" diyor, yani ONCELIKSIZ olabilir; (b) 3 haneli yil tuzagini bir nobetciye baglamak istersen o arac/ isidir ve KOSU BITMEDEN OLMAZ. Ben bu ikisinden birine girmemi istersen girerim. ✅ ISLERIM BITTI — bostayim. Bekcim nobette.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
