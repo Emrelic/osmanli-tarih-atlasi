@@ -48,18 +48,16 @@ window.YER_YAMA_P0037 = [
   kaynak:"TDV `ibrahim-pasa-kavalali` (gövdesi okundu): '16 Haziran'da Şam'ı zaptedip Humus üzerine yürüdü ve burada Halep Valisi Mehmed Paşa idaresindeki öncü Osmanlı kuvvetlerini yendi (8 Temmuz)'. TDV `humus` 302. Bitiş külliyatın Şam/Hama günü. Çekirdekte 1832-07-08 'Humus Muharebesi' maddesi VAR (0 gün).",
   gerekce:"p0037/H-0003 — Şam ve Hama işgalli, aradaki Humus yazısız ⇒ Suriye'nin ortasında koyu kırmızı ada." },
 
-// ═══════════════ K4 · Vidin — ödünç gün düzeltmesi (1.MURAT kararı, 2 Eyl 06:05) ═══════════════
-// Vidin'in Avusturya dönemi Niş'in gününden (1689-09-24) başlıyordu; TDV `vidin` "1689 Ekiminde"
-// diyor. Gün yok, ay var ⇒ 1689-10-01 + kesinlik:"ay" (VERI-YAPISI.md:171 — 🔜 alan, uygulayıcı/
-// girdi.py "bilinmeyen dönem alanı" uyarısı basabilir, BEKLENEN). Maddesi data/olaylar_p0037.js'te
-// (önce madde, sonra dönem — K4 sırası). `v:` (1878 Bulgaristan Prensliği) dokunulmadı.
-// kesinlik YALNIZ belirsiz uca: s:avusturya döneminin f'si; d: döneminin t'si aynı gün, ikinci kez
-// damgalanmadı (tek belirsiz tarih, tek damga).
-{ ad:"Vidin",
-  s:[{f:"1281-01-01",t:"1396-10-01",d:"bulgaristan"},{f:"1689-10-01",t:"1690-09-09",d:"avusturya",kesinlik:"ay"},{f:"1908-10-05",t:"1923-10-29",d:"bulgaristan-kralligi"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"}],
-  d:[{f:"1396-10-01",t:"1402-07-28",y:"ilhak"},{f:"1413-07-05",t:"1689-10-01"},{f:"1690-09-09",t:"1878-07-13"}],
-  kaynak:"TDV `vidin` (gövdesi okundu): '1689 Ekiminde hıristiyan birliğiyle yapılan savaşlarda Margrave Ludwig von Baden, Fethülislâm ve Florentin ile birlikte Vidin'i savaşmadan ele geçirdi. Fakat bir yıl geçmeden ... Vidin'i geri almayı başardı.' Gün yok ⇒ ayın 1'i + kesinlik:'ay'. Öteki dönemler mevcut kaydın kendisi, dokunulmadı. Bitiş 1690-09-09 Niş'in günü (TDV vidin 'bir yıl geçmeden' — ay/gün yok), ÖDÜNÇ olarak kaldı, kayda geçti.",
-  gerekce:"K4 (1.MURAT, 2 Eyl): 1689-09-24 Niş'ten ödünç gündü, TDV Ekim diyor ⇒ düzelt. Değişmez-2: 1689-10-01'e olaylar_p0037.js maddesi (0 gün) + çekirdek 1689-09-24 (7 gün). denetim/BULGU-NIS-1689.md §1d." },
+// ─── K4 · Vidin — BURADAN ÇIKARILDI (2 Eyl 2026, ~09:30; 1.MURAT'ın ölçümü ve isteği) ───
+// Aynı ada ÜÇ yama yazıyordu (p0037 · sh110 · sh107) ve `_sahiplik_uygula.py` çakışanı UYGULAMAZ:
+// Vidin'in 1689-10-01 · kesinlik:"ay" düzeltmesi bu yüzden veriye İNMİYORDU.
+// KAZANAN: data/yer_yama_sh110.js (commit 1a8becb) — ÖLÇÜLDÜ (node eval, 2 Eyl 09:2x): aynı s:/d:
+// zinciri (avusturya f:1689-10-01 kesinlik:"ay" · d: ucu 1689-10-01) ARTI `v:` (Bulgaristan
+// Prensliği 1878-1908) — yani sh110 daha TAM. Buradaki kayıt içerik kaybı olmadan çıkarıldı.
+// sh107'nin kaynak-only kaydını koordinatör düşürdü.
+// ⚠️ Vidin'in MADDESİ ise BURADA DEĞİL, data/olaylar_p0037.js'te DURUYOR ve tek kopyadır:
+//    OLAYLAR_SH110 = 0 madde (ölçüldü). Onu SİLME — Değişmez-2 için 1689-10-01'in maddesi odur
+//    (index.html:957'de bağlı). Gerekçe ve ölçüm: denetim/BULGU-NIS-1689.md.
 
 // ═══════════════ H-0004 · kronoloji yaması (aile A — yama_uygula.js) ═══════════════
 // kuru koşu 2 Eylül: EŞLEŞTİ, "yazilacak" listesinde (olaylar_ek5.js · 1).
