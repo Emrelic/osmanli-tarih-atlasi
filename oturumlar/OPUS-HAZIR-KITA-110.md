@@ -99,8 +99,87 @@ silinmezse bu yama da aynı şekilde ölür.** Uyguladıktan sonra `py _mukerrer
 
 ---
 
-## Açık kalan üç soru (koordinatörde)
+---
 
-1. H-0005/H-0019 — `js/app.js` katman sırası: ARAYÜZ sevki mi, motor kuyruğu mu?
-2. H-0022 — Rumeli Hisarı: `kur:`ı kaldır (a) mı, yeni Bizans alan noktası (b) mi?
+# İKİNCİ TUR — kuyruk 11'e çıktı, 0'a indi
+
+**Görev:** 1.MURAT ikinci sevk · paket 0031 (8) + 0010 · 0014 · 0017 (1'er) = **11**
+
+## 🔴 NİÇİN 11'DE KALMIŞTI — raporun teslim olmadığı yer
+
+İlk turda 9 madde için hüküm verdim ve tahtaya yazdım. `CEVAP.json` hâlâ *"açık"*
+diyordu. Sebep ölçüldü:
+
+```
+hükümler CEVAP.json'a RAPORDAN inmiyor  →  denetim/HUKUM-*.json'dan iniyor
+uygulayıcı: arac/_hukum_birlestir.py
+bütün CEVAP.json'ların damgası AYNI: 01:11 — bugün hiçbir işçi oraya yazmamış
+```
+
+> ***Rapor teslim değildir; teslim, sayının İNDİĞİ YERDİR.***
+> `§7.1 ⑤` *"commit teslim değildir"* der — bu vaka bir kademe ötesi:
+> **mesaj da teslim değildi.**
+
+⇒ `denetim/HUKUM-OK110.json` yazıldı — **11 madde.**
+
+## 🔴🔴 YAMAM 21 KAYDIN 16'SINDA ÇAKIŞIYOR
+
+`M-1903 ⑥` *"git log — bu iş zaten yapılmış mı?"* diyor. Ben bunu **yerleşim
+dosyaları için** yaptım, **`data/yer_yama_*.js` kümesine hiç bakmadım.**
+
+```
+node _cakisma110.js   →  53 yama dosyası · benim 21 kaydım
+                         KAYIT düzeyinde ortak 16 · ALAN düzeyinde ÇAKIŞAN 16
+```
+
+📌 **Tuzağın biçimi öğretici:** *"bu nokta düzeltilmiş mi"* diye **veriye** baktım,
+veri kirliydi, iş yapılmamış sandım. **Oysa düzeltme yapılmıştı — sadece
+UYGULANMAMIŞTI.** *Uygulanmamış bir yama, veriye bakan biri için hiç yazılmamış
+görünür.*
+
+Alan alan kıyasladım (`_kiyas110.js`) ve **üç ayrı sonuç** çıktı — hiçbiri "kopya" değil:
+
+| küme | karşı dosya | sonuç |
+|---|---|---|
+| Mersin · Yagodina | `yer_yama_p35.js` | **birebir AYNI** — bağımsız iki ölçüm, aynı cevap |
+| Yedisan | `yer_yama_erken.js` | benimki daha zengin (1917 devrimi dilimleri) |
+| Kafkas 5 | `yer_yama_kafkas.js` | **onlarda TİMURLU var (bende yok)**, bende akkoyunlu'nun DOĞRU bitişi var (onlarda yok) — **ikisi de eksik, eksikleri birbirini tamamlıyor** |
+| Van 5 | `yer_yama_kafkas.js` | **esaslı tarih ayrılığı**: Özalp'in Osmanlı günü bende 1548-08-25 (Van'la aynı), onlarda 1639-05-17 — 91 yıl. Hakem gerek |
+| Mardin 3 | `yer_yama_ok107.js` | **CANLI oturum** · aynı kayıtta İKİ FARKLI kusur: onlar Osmanlı gününü, ben açılış hayaletini |
+
+⇒ **Hiçbirini tek taraflı silmedim/birleştirmedim.** OPUS 107'ye doğrudan yazdım
+(`M-2019`), koordinatöre karar sordum (`M-2020`).
+
+## Yeni iki kalem
+
+**`0017/H-0001` · Orta Anadolu kaması** — kutuda **2 nokta** var; en büyük boşluk
+`37,88K/35,89D`, en yakın noktaya **98,1 km**. **Darende** eklendi
+(`data/yerlesimler_ok110.js`, TDV `dulkadirogullari`: *"Dârende: 1338'de işgal
+edildi"*), beş kapıdan geçti. 🔴 **Ama asıl boşluk kapanmadı** — `goksun` TDV'de
+madde yok, `darende` müstakil madde yok, Feke/Vahka için `kilikya-ermeni` kalıcı
+`bulunamadı`. **Tarih uydurmadım.**
+
+**`0014/H-0005` · Baltık kaması** — 17 nokta, en büyük boşluk `52,19K/24,87D`,
+**262,0 km**. Orta Anadolu'nunkinin **iki buçuk katı**. Novogrudok — Litvanya
+Büyük Knezliği'nin **ilk başkenti** — veride hiç yok. TDV `litvanya` **ölü**;
+nokta eklemedim.
+
+⇒ İkisi **aynı sınıf**: seyrek tohum / Voronoi kaması. Tek araştırma kalemi
+olarak birleştirilmelerini önerdim.
+
+## Üçüncü tur nöbetçisi
+
+```
+_cakisma110.js      bir yama yazılmadan ÖNCE "bu kayıt başka bir yamada var mı"
+                    diye sorar · bugün 16 yakalıyor · böyle bir kapı BUGÜN YOK
+_nokta_sina110.py   yeni nokta kapısı: ad çakışması · 3 km · süreklilik · BOYALAR
+```
+
+## Bekleyen kararlar (altısı da koordinatörde)
+
+1. `H-0005`/`H-0019` — `js/app.js` katman sırası: ARAYÜZ mü, motor kuyruğu mu?
+2. `H-0022` — Rumeli Hisarı: `kur:`ı kaldır (a) mı, yeni Bizans noktası (b) mi?
 3. `0010/H-0001` — atlas kuyruğundan düşsün mü?
+4. **ÇAKIŞMA** — Kafkas 5 birleşsin mi · Van 5'te hakem · Mardin 3'te OPUS 107 ile birleşme
+5. **SÖZLÜK** — `M-1903 ⑤` `bayat` diyor, `_hukum_birlestir.py:15` onu **reddeder**
+6. **KAMA** — Uzunyayla + Polesya tek kalem olsun mu?
