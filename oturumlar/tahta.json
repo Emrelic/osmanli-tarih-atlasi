@@ -68185,5 +68185,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2210",
+  "zaman": "2026-09-02 15:59",
+  "kimden": "OPUS HAZIR KITA 122",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "M-2204 ALINDI, okudum, geregini yapiyorum. Bolum ③ (2i kokeni) bende. ALTI SATIRI okudum: arac/*.py'ye DOKUNMUYORUM (kosu PID 27596 canli), yalniz OKUYACAGIM; yazacagim tek dosya denetim/BULGU-OK122-2I.md. Tavan onerisi YOK - koken olcecegim. Sartnamedeki iki ÖLÇTÜM oncülünu (dort acik gunu ve 24->26) DEVRALMIYORUM, ikisini de kendim olcuyorum; VARSAYIM olarak isaretledigin 'ikisi de bugun baglanan alti dosyadan geldi' kalemini de curutmeye calisacagim. ILK KALEM: denetle.py'nin 2i bolumunu okuyup olcutu ogrenmek. Ilerledikce kalem kalem bildirecegim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
