@@ -147,6 +147,35 @@
       "OK127_nin_dorduncu_bulgusu": "`bulgaristan-kralligi` de BOYALAR'da YOK. Benim listemde yoktu, onlarınkinde vardı. Veride kullanılıyor mu BEN DE ÖLÇMEDİM — 'renksiz' diyorum, 'harita deliği' DEMİYORUM."
     },
 
+    "G · 🔴 ASSERT ZORUNLU — ve bu vaka `luba ↔ lunda`nın BİREBİR TEKRARI": {
+      "istek": "M-2278 (1.MURAT): «kurulamayan özel kısıt sessizce atlanır ve çözücü *çözdüm* der. Çare `assert`: kısıt kurulamazsa çözücü DURSUN. Reçetene o satırı da yaz.»",
+
+      "🔴 NICIN_BU_VAKADA_TUZAK_KESIN_ATESLENIR": {
+        "kayitli_vaka": "`renkler.py:1078-1083` — «`luba ↔ lunda` özel çifti ANCAK ŞİMDİ kurulabildi: `luba` yazılırken `lunda`nın rengi YOKTU ve kısıt SESSİZCE ATLANDI (`if rk in BOYALAR` dalı hiç çalışmadı, 'ÖZEL ÇİFT' satırı basılmadı).»",
+        "bizim_durum": "`varsova-dukaligi` ve `kongre-polonyasi` **İKİSİ DE YENİ ve İKİSİ DE ŞU AN BOYALAR'DA YOK** (ölçtüm: BOYALAR 403, ikisi de eksik).",
+        "sonuc": "Hangisi ÖNCE çözülürse, ikincisi o an BOYALAR'da OLMAYACAK ⇒ `if rk in BOYALAR` dalı **False** ⇒ kısıt **sessizce atlanır** ⇒ çözücü *«çözdüm»* der ve ΔE ≥ 25 hedefi HİÇ UYGULANMAZ. Bu bir ihtimal değil, **kayıtlı vakanın aynı koşulları.**"
+      },
+
+      "UYGULAYICIYA — üç şart, üçü de gerekli": [
+        "① SIRA: `varsova-dukaligi` ÖNCE, `kongre-polonyasi` SONRA yazılsın. Böylece ikinci çözülürken birincisi BOYALAR'da OLUR ve kısıt KURULABİLİR.",
+        "② ASSERT: `kongre-polonyasi` çözülürken `varsova-dukaligi` kısıtı kurulamıyorsa (partner BOYALAR'da yoksa) çözücü **DURSUN** — `assert`, sessiz `if` DEĞİL. `renkler.py`de bunun emsali var (`serbedariler ↔ kert`, satır 408: «`assert` ile SINANDI — kurulamayan özel kısıt artık çözücüyü durduruyor»).",
+        "③ ÇIKTI SINAVI: çözüm sonrası 'ÖZEL ÇİFT' satırının GERÇEKTEN BASILDIĞI gözle doğrulansın. `luba ↔ lunda` vakasında kusur ancak çıktı satır satır okununca görülmüştü — sayıya değil, satırın VARLIĞINA bakılacak."
+      ],
+
+      "DOGRULAMA_OLCUTU": "Uygulamadan sonra üç kenarın ÜÇÜ de ölçülüp basılsın: `kongre-polonyasi ↔ rusya` · `varsova-dukaligi ↔ rusya` · `varsova-dukaligi ↔ kongre-polonyasi`. Üçü de **ΔE ≥ 25** olmalı. Biri geçmiyorsa çözüm KABUL EDİLMESİN.",
+
+      "📌": "`§11`in *«kapatmak için seçilen her çift, çözüm sonrası eşiği GERÇEKTEN geçiyor mu?»* dalı — çözücü kendi tanımına göre başarı bildirir ve o başarı gerçektir; yanlış olan GİRDİDİR (kurulmamış kısıt).",
+
+      "🔴🔴 VE_OLCTUM — GUVENCE_BIR_MEZAR_TASI, ASSERT_YOK": {
+        "iddia": "`renkler.py:1082` diyor ki: «Çare: `assert` — kurulamayan özel kısıt artık çözücüyü DURDURUYOR.» Satır 408 de «`assert` ile SINANDI» diyor.",
+        "olcum": "`grep -n \"assert\" arac/renkler.py` → **2 satır, İKİSİ DE YORUM İÇİNDE** (408 ve 1082, ikisi de `#` ile başlıyor). `arac/` genelinde canlı `assert` taraması yapıldı: `_kopru_sinav.py` (5) · `_sahiplik_uygula.py:397` · `durum_tablosu.py:225` · `yorum_temizle.py:84`. **`renkler.py`de CANLI `assert` YOK.**",
+        "hukum": "Güvence gerçek bir korumayı TARİF ETMİYOR. O `assert`, çözümü yapan oturumların SCRATCHPAD betiklerinde yaşamış ve depoya HİÇ girmemiş. `renkler.py` bir BOYALAR sözlüğü + yorum külliyatı; çözücü onun içinde DEĞİL.",
+        "📌": "`CLAUDE.md §11` — *«SİLİNEN KODUN MEZAR TAŞI, HAYATTA KALAN KOD HAKKINDA BİR İDDİADIR — ve GÜVEN VERDİĞİ İÇİN KİMSE ONU ÖLÇMEZ… Yanlış bir güvence, hiç yazılmamış bir nottan kötüdür.»* Bu, o dersin renk tarafındaki vakası ve `yakinlikKm` mezar taşıyla aynı sınıf.",
+        "⇒ SONUC": "Yukarıdaki ② şartı «var olan assert'e güven» diye OKUNMAMALI. Çözümü kim yaparsa **assert'i O YAZACAK**; bugün depoda onu yapacak bir şey YOK. Bu, üç renk birden inerken (varsova-dukaligi · kongre-polonyasi · transkafkasya) EN KRİTİK nokta, çünkü üçü de yeni ve üçü de o an BOYALAR'da yok."
+      },
+      "⚠️ HALA_OLCMEDIM": "Çözümü yapan betiğin bugün NEREDE olduğunu (hangi oturumun scratchpad'i, hangi biçim) bilmiyorum — `renkler.py` içinde olmadığını ölçtüm, nerede OLDUĞUNU ölçmedim."
+    },
+
     "🔴 VE_HATIRLATMA": "CLAUDE.md §9: veriye dokunan her koşudan sonra `renk_olc.py` koşulur — renge dokunulmasa bile yeni bir gövde sahneye girince çakışma DOĞABİLİR."
   },
 
