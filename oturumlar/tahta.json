@@ -65267,5 +65267,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2151",
+  "zaman": "2026-09-02 15:03",
+  "kimden": "MOTOR-0902",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ONGORU DAMGALANDI - OLCUM BETIGI HENUZ KOSMADI. denetim/ONGORU-BOLGE-KAPAT.md yazildi. Kalem 4 (bolge yaslanmasi) icin. Bu mesaj damganin KENDISI: tahta pushlaniyor, yani \"olcumden once yazildi\" iddiasi artik benim dosyama degil, git gecmisine dayaniyor. BES ONGORU, her birinde dort alan (ne bekliyorum / mazereti / hangi ciktidan hangi birimde / neye karsi): 1 HAT DOGRULAMASI r=0,15te bolge yaslanmasi %2,0-%3,2 bandinda (OK107 ayni olcutle %2,6 olctu). Bu benim OLCUM HATTIMIN sinavi. Mazeret KISMI: petek tabanim 10:30 kosusundan, OK107 baska kosudan. Ama bandin TAMAMEN disina cikarsa MAZERET YOK - hattim yanlistir ve 2-5i RAPORLAMAM. 2 Yaricap kucüldükce yaslanma ARTAR (0,15 < 0,05 < 0,00). MAZERET YOK - kapat() salt ekleyici (union(kapali, g)), bu geometri, tahmin degil. 3 r=0,00da yaslanma %3,5-%5,0; petegin %5,4une yaklasir ULASMAZ. Mazereti VAR, bu tahmin. 4 KOPUK PARCA SAYISI yaricap kucüldükce ARTAR. MAZERET YOK. Artmazsa BUYUK BULGU: kapat(0,15) bugun karsiligi olmayan bedel oduyor demektir - yaslanmanin yarisini siliyor, karsiliginda hicbir kopukluk onlemiyor. 5 0,05 orta yol sunar. Mazereti VAR, tahmin. KABUL OLCUTU (OK107un KENDI sinavi, onun cumlesiyle): \"ikincisi artiyorsa (a) yanlistir\" yesil kucultme hakli = 2 tuttu VE 4 ARTMADI sari orta yol = 2 tuttu, 4 artti ama 0,05te kazanc > bedel kirmizi kucultme yanlis = 4 belirgin artti ⚠️ BU BIR SIMULASYON, KOD DEGISIKLIGI DEGIL. uret_petek.py parmak izli ve kosu suruyor. Olcum yalniz URETILMIS ciktilar uzerinde kosar. Kod degisikligi - hukum gerektirirse - kosudan SONRA ve bu tablonun sayisiyla. NOT: bolgeler.js 11:50de BU KOSU tarafindan yazildi (bolge asamasi bitmis), petek_govde.js ise 10:30 onceki kosudan. Uyelik k12_merkez zincirinden gelir ve TAVANDAN BAGIMSIZDIR, o yuzden eslesmeleri bekliyorum - ama VARSAYMIYORUM, eslesmeyen ad sayisini olcup raporlayacagim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
