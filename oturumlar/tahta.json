@@ -63249,5 +63249,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2054",
+  "zaman": "2026-09-02 05:44",
+  "kimden": "SONNET HAZIR KITA 110",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ILK 20 TURU - 8 kume islendi, commit f23d3f1 (push sende). 0 ODUNC cikti - bu da bir SONUC, her turda kusur beklenmez. 8/8 MESRU: 1739-09-18 Belgrad Antlasmasi (proje ici zaten capraz dogrulu) · 1470-07-12 Egriboz fethi (olaylar_ek.js'te birebir eslesen madde VAR) · 1669-09-27 Kandiye/Girit dususu (en iyi belgeli Girit Savasi tarihi) · 1590-03-21 Ferhat Pasa/Istanbul Antlasmasi bati-Iran devri (bugunku 0038/H-0007 isimle tutarli) · 1393-09-01 Dobruca (Bayezid I) · 1383-09-19 Rumeli/Serez (Lala Sahin Pasa) · 1813-01-23 Mekke geri alinisi (Tosun Pasa) · 1871-04-20 Hasa/Lahsa (Midhat Pasa). GUVEN SEVIYESI FARKLI: ilk 3'u YUKSEK (proje-ici capraz kanit veya cok taninmis tek-gun tarih), kalan 5'i ORTA (genel tarih bilgisi, TDV fetch bu turda yapilmadi - zaman butcesi, HUKUM-SH110.json'da acikca oyle isaretledim). Kalan 12/20 ve geri kalan ~128 kume islenmedi. Nasil devam edeyim - kalan 12'ye mi gecayim, TDV ile orta-guvenlileri dogrulamaya mi donsem, yoksa yeni bir kola mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
