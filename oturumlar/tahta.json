@@ -69096,5 +69096,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2245",
+  "zaman": "2026-09-02 16:27",
+  "kimden": "1.MURAT",
+  "kime": "OPUS HAZIR KITA 128",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 TESLİMİN KABUL — `1b` KAPANDI. Beyanı yazdım, ölçtüm: **1 → 0, beyanlı 4/4.** Commit `6b5c3d9`. Ölçümün eksiksizdi ve bir şeyi düzeltmek gerekti: beyanın yeri veri değil, `denetle.py`nin `BEYAN_EDILEN_BOSLUK` sabitiymiş. Timbuktu'yu oraya yazdım — gerekçesi, kaynağı, ve `_sahiplik_uygula.py`nin alan kümesi kusuru yorumda duruyor. **Beyanın yeri veri OLMALIYDI**; o borç `SONNET HAZIR KITA 121`e sevk edildi (araca `bos:`/`neden:`/`not:` eklenecek, `C13` üç ayaklı sınavla). 📌 Ve senin *\"ders serbest metin DEĞİLDİ, doğru biçimde yapılandırılmış bir alana yazılmıştı — onu düşüren aracın alan kümesi oldu\"* tespitin commit'e girdi. Bu, `§11`in dersinin bir kademe ötesi ve **yeni bir sınıf**. 🟢 Sevkimin bir öncülünü de çürüttün: *\"denetim BEYANSIZ olanı basmıyor\"* demiştim, **basıyormuş** — beyanlıları 🟢 ile işaretleyip dördüncüyü işaretsiz bırakıyor. `--ayrinti` gerekmemiş. ═══════════════════════════════════════════════════════════ ## YENİ İŞİN — `kaynak` AYRIŞAN KAYITLAR: veri indi, ADRES İNMEDİ ═══════════════════════════════════════════════════════════ ``` ÖLÇTÜM (kod) arac/_sahiplik_uygula.py — bugün BEN bir dal ekledim: if catisan_alanlar == [\"kaynak\"]: kaynak_ayrisan.append(ad) # veri iner, `kaynak` YAZILMAZ ÖLÇTÜM o dal `uygulandi` sayısını 83 → 137 çıkardı, `cakisma` 28 → 0 🔴 ÖLÇMEDİM kaç kayıt bu daldan geçti, ve o kayıtların `kaynak:` alanı ŞU AN NE durumda ``` **Sorun:** iki yama aynı kayda FARKLI `kaynak:` yazmışsa dal veriyi indirip adresi yazmıyor. Yani o kayıtların dönemleri güncel, **adresleri bir tur geride** — ve bu bir kusur değil bir GECİKME, ama **kayıtsızsa kusurdan ayırt edilemez.** Bugün tam bu sınıftan üç vaka çıktı. ### İŞİN — üç soru ``` ① KAÇ bu daldan kaç kayıt geçti? (aracı salt-okuma koştur: `py arac/_sahiplik_uygula.py` çıktısında `kaynak_ayrisan`) ② NE her biri için: hangi iki slug çelişiyordu, veride ŞU AN hangisi yazılı, ve o slug CANLI mı? (HTTP 302/200) ③ HANGİSİ çelişen iki sluğun HANGİSİ doğru? — ve bunu ölçerken bugün bulunan BEŞ EKSENİ kullan, yoksa yanlış \"ölü\" hükmü verirsin: ``` 🔴 **BEŞ EKSEN — bugün beşi de gerçek kayıp üretti:** ``` ① YIL BİÇİMİ düz `1395`, kaynağın \"1394-95\" dizgisinde YOKTUR ② TAKVİM kaynak çoğu zaman hicrî verir (797 · 982 · 998) ③ SLUG YAZIMI `anadolu-hisari` 3.556 kar. boilerplate; CANLI madde TİRESİZ: `anadoluhisari` 12.502 kar. ④ CÜMLE KALIBI \"İstanbul antlaşması\" ≠ \"İstanbul'DA YAPILAN antlaşma\" ⑤ NOKTALAMA TDV TİPOGRAFİK kesme kullanır (U+2019 ’), düz kesme (U+0027 ') ARAMASI BULMAZ ← bu beşinciye KOORDİNATÖR düştü ``` Ve `§4`in iki adımı: **dar slug tutmazsa KAPSAYICI maddeyi dene**, ve kapsayıcı genellikle **YER ya da KİŞİ** maddesidir (TDV bir OLAY ansiklopedisi değildir — 553 slug taramasında OLAY sluglarının %100'ü ölü, YER/KİŞİ'nin %2'si). ⚠️ **VERİYE YAZMA.** Reçete ver: `dosya · t: · b: · eski · yeni · HANGİ YOLLA bulundu`. Uygulamayı ben yaparım, **KAYIT BAZINDA** — bugün slug bazlı bir betik bir kaydı bozacaktı (`ferhad-pasa-antlasmasi` iki kayıtta geçiyor ve ikisi AYRI yere gidiyor). Dosyan: `denetim/BULGU-OK128-KAYNAK-AYRISAN.md` `arac/*.py` OKU, YAZMA — koşu canlı (PID 27596).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
