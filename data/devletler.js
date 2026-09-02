@@ -5251,6 +5251,34 @@ window.DEVLETLER = [
 // 🟢 Ve aynı ölçüm bir ÇIKARIMI KAYNAĞA BAĞLADI: 1462 ilk turda Siirt'ten
 //   türetilmiş ve *"bu bir HİZALAMADIR, kaynak değil"* diye kaydedilmişti;
 //   TDV o günü şimdi Hasankeyf için ADIYLA veriyor. Çıkarım → kaynak.
+// 🔴 KUZEY KAFKASYA'NIN İLK KİMLİĞİ — 2 Eylül 2026, ve boşluk ÖLÇÜLDÜ:
+//   `bolge:"kafkasya"` künyeleri ALTI taneydi ve altısı da güney/doğu
+//   Kafkasya (gurcistan · imereti · üç demokratik cumhuriyet · sirvansah).
+//   **Kuzey Kafkasya dağlık kuşağının tek bir kimliği yoktu.**
+//
+// 🔴 DOĞURAN VAKA — veri kaynakla ÇELİŞİYORDU:
+//   `Kabartay (Nalçik)` 1441→1774 kesintisiz `kirim` yazıyordu; TDV
+//   `kabartaylar` ise 1739 Belgrad'ın bölgeyi "TARAFSIZ BİR ÜLKE" hâline
+//   getirdiğini söylüyor ⇒ **35 yıl kaynakla çelişik.**
+//   Ara çözüm olarak `__BOSLUK__` yazıldı ("kimsenin değil, ve komşuya
+//   İTİLMEDİ"); bu künye onun kalıcı hâlidir.
+//
+// ⚠️ SIRA BAĞLAYICI ve bozulursa kusur SESSİZ olur:
+//   ① künye (bu satır) → ② RENK (`renkler.py`) → ③ ancak ondan sonra
+//   `__BOSLUK__` dilimi `d:"kabartay"`a çevrilir → ④ Değişmez 4 kontrolü.
+//   🔴 Künye inip RENK inmezse çevirmeyin: renksiz künye ne denetimde ne
+//     ekranda görünür, yalnız bölge boş kalır (`§8`).
+{ id:"kabartay", ad:"Kabartay (Kabardey) Beylikleri", tur:"beylik", bolge:"kafkasya",
+  f:"1281-01-01", t:"1774-07-21",
+  baskent:"(beylikler hâlinde, sabit başkent yok)",
+  ozet:"Kuzey Kafkasya'nın orta kesiminde, Terek ve Malka havzalarında yaşayan Adige (Çerkes) kolunun kurduğu beylikler topluluğu; pşi denen beylerin yönettiği, tek merkeze bağlanmayan bir düzendi. Kırım Hanlığı ile Rusya arasında yüzyıllarca el değiştiren bölge, 1739 Belgrad Antlaşması'yla iki devletin de dışında TARAFSIZ ilan edildi; 1774 Küçük Kaynarca'nın 21. maddesiyle Küçük ve Büyük Kabartaylar Rusya'ya bırakıldı. ⚠️ BAŞLANGIÇ TARİHİ ATLAS UFKUDUR (1281), kuruluş tarihi DEĞİLDİR: TDV `kabartaylar` maddesi bir kuruluş tarihi vermiyor ve uydurulmadı. ⚠️ BİTİŞ 1774'tür çünkü kaynak siyasî bağlanmayı o tarihe veriyor; Rus idaresinin fiilen yerleşmesi daha uzun sürdü, o süreç ÖLÇÜLMEDİ.",
+  kaynak:"TDV `kabartaylar` md. (gövdesi okundu) — yük taşıyan cümle: \"Belgrad Antlaşması (1739) … Kabartayların yaşadığı bölgeyi TARAFSIZ BİR ÜLKE hâline getirmiştir.\" Bitiş için Küçük Kaynarca md. 21. ⚠️ BULUNAMADI ve UYDURULMADI (TDV gövdesi künye sorularıyla yeniden okundu): kuruluş tarihi · Büyük/Küçük Kabartay ayrımının tarihi · başkent · Kırım-Osmanlı ilişkilerinin tarihleri · 1774 sonrası süreç. Ölü sluglar: cerkesler · cerkes · adigeler · kabardey · besleney (beşi de 302).",
+  kronoloji:[
+    { t:"1739-09-18", tur:"antlasma",
+      b:"Belgrad Antlaşması — Kabartay iki imparatorluğun dışında tarafsız ilan edildi" },
+    { t:"1774-07-21", tur:"son",
+      b:"Küçük Kaynarca'nın 21. maddesiyle Küçük ve Büyük Kabartaylar Rusya'ya bırakıldı" }
+  ] },
 { id:"eyyubi-hisnikeyfa", ad:"Hısnıkeyfâ Eyyûbîleri", tur:"beylik", bolge:"anadolu",
   f:"1232-01-01", t:"1462-01-01", baskent:"Hısnıkeyfâ (Hasankeyf)",
   ozet:"Eyyûbî hânedanının Yukarı Dicle'deki kolu. el-Melikü'l-Kâmil 1232'de Hısnıkeyfâ'yı Artuklular'dan alıp oğlu el-Melikü's-Sâlih'e bıraktı; Mısır ve Suriye kolları söndükten sonra hânedanın Hama ile birlikte ayakta kalan iki beyliğinden biri oldu. Moğol ve Timurlu devirlerini atlatan kol, Akkoyunlu Uzun Hasan tarafından 1462'de ortadan kaldırıldı. Künyenin İKİ UCU DA GERÇEK uçtur — atlas ufku değil.",
