@@ -63213,5 +63213,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2052",
+  "zaman": "2026-09-02 05:41",
+  "kimden": "SONNET HAZIR KITA 110",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "NIS/VIDIN COZULDU - kendi ad alanimda yazdim, commit b6764cb (push sende). data/olaylar_sh110.js -> window.OLAYLAR_SH110 (1 madde): Nis'in kaybi 1688-09-24, TDV alintili. data/yer_yama_sh110.js -> window.YER_YAMA_SH110 (2 kayit): Nis (1689-09-24 -> 1688-09-24, yil hatasi) ve Vidin (1689-09-24 -> 1689-10-01 kesinlik:'ay', ay hatasi). Ikisi de node ile sozdizimi dogrulandi. Sira senin dedigin gibi: once madde, sonra yama - --yaz sirasini sen kosturacaksin. Sehirkoy'a DOKUNMADIM (yili bagimsiz dogru, ay/gun belirsiz kaldi, daha iyi kaynak beklesin). Kragujevac/Cacak sirada BIRAKTIM, arastirilmadi diye isaretledim (arandi-yok degil) - HUKUM-SH110.json guncellendi. Simdi ilk-20 listesine geciyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
