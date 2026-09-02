@@ -1015,6 +1015,33 @@ BEYAN_EDILEN_BOSLUK = {
     # ve bunu SÖYLEYEN bir dal olmadan bayatlığı görünmez.
     ("Cenne (Djenné)", "1700-01-01", "1818-01-01"),
     ("Cenne (Djenné)", "1591-04-13", "1596-01-01"),
+    # 🔴 Timbuktu 1430-1468 — TEVÂRİK (TUAREG) DÖNEMİ, 13.879 gün.
+    # Beyan ZATEN YAZILMIŞTI ve kaynaklıydı; düşüren şey kayıt değil ARAÇ oldu.
+    #
+    # OPUS HAZIR KITA 107 yamayı `bos:"veri-yok"` + `neden:"kunye-yok — Tuareg
+    # için devletler.js'te künye YOK"` alanlarıyla yazdı ve kaynağını okudu
+    # (TDV `tinbuktu`: "Tinbüktü 1430'da Tevârikler'in eline geçti ve 1468
+    # yılına kadar onlarda kaldı"). `_sahiplik_uygula.py` yalnız
+    # d·s·v·isg·m·kaynak yazar (:318 ALAN_RX · :342 SKALER_ALANLAR) ⇒
+    # `bos:` ve `neden:` HİÇBİR KÜMEDE YOK, sessizce DÜŞTÜ. `s:` ve `kaynak:`
+    # indi, beyan inmedi — YAMANIN YARISI İNDİ, YARISI DÜŞTÜ.
+    #
+    # 🟢 Ve OK107 bunu ÖNCEDEN yazmıştı: "bu alanlar İNMEZ; dosya sahibinin
+    # elle koyması gerekiyor — yoksa Timbuktu yine 'beyansız delik' sayılır."
+    # Uyarı yazıldı, okunmadı, öngördüğü kusur gerçekleşti.
+    #
+    # Bağımsız doğrulama (OK128): devletler.js 438 künye, Tuareg/Tevârik/
+    # Berber/Sanhâca/Masûfa/Iwellemmedan için 0 eşleşme ⇒ "künye yok" TUTTU.
+    # İki uç komşularıyla hizalı: Valata `mali → 1430` · Gao `songhay → 1591`.
+    #
+    # 📌 §11'in "bir ders veriye SERBEST METİN olarak inerse inmiş sayılmaz"
+    # dersinin BİR KADEME ÖTESİ: burada ders serbest metin DEĞİLDİ, doğru
+    # biçimde YAPILANDIRILMIŞ bir alana yazılmıştı — ve onu düşüren şey
+    # kaydın kendisi değil ARACIN ALAN KÜMESİ oldu. `grep` beyanı bulur
+    # (yamada duruyor), `denetle.py` bulamaz (veride yok).
+    # ⇒ BORÇ: `_sahiplik_uygula.py`ye `bos:`/`neden:` alanları eklenecek.
+    #   O yapılana kadar beyan BURADA duruyor — beyanın yeri veri olmalıydı.
+    ("Timbuktu", "1430-01-01", "1468-01-01"),
 }
 
 
