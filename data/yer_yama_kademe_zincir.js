@@ -65,9 +65,15 @@ window.YER_YAMA_KADEME_ZINCIR = [
  neden:"k:4, m:— idi."},
 
 // ── TEBRİZ EYALETİ (Ferhat Paşa 1585-1603 işgal penceresi) ──
-{ad:"Hoy", m:"Tebriz",
- kaynak:"TDV `hoy` — \"Tebriz'e bağlı bir sancak merkezi haline getirilerek\" (1585, Şahkuluoğulları idaresinde, sancak beyi Alâeddin Bey)",
- neden:"k:3, m:— idi. d: 1585-09-25→1603-10-21, Tebriz'in kendi ilk işgal penceresiyle (1585-09-25→1603-10-21) BİREBİR AYNI gün."},
+// 🔴 HÜKÜMLE DÜŞTÜ — SİLİNMEDİ, YORUMA ÇEVRİLDİ (kayıt korunur)
+//    hüküm  : denetim/YAMA-CAKISMA.md · M-2115 (1.MURAT)
+//    kazanan: yer_yama_iran.js
+//    uygulayan: OPUS HAZIR KITA 109 · 2 Eylül 2026 · sevk M-2132
+//    ⚠️ Araştırma kaybolmadı; yalnız uygulayıcıyı bloke etmeyi bıraktı.
+//       Hükmün yanlış olduğunu düşünen KOORDİNATÖRE yazsın.
+// {ad:"Hoy", m:"Tebriz",
+//  kaynak:"TDV `hoy` — \"Tebriz'e bağlı bir sancak merkezi haline getirilerek\" (1585, Şahkuluoğulları idaresinde, sancak beyi Alâeddin Bey)",
+//  neden:"k:3, m:— idi. d: 1585-09-25→1603-10-21, Tebriz'in kendi ilk işgal penceresiyle (1585-09-25→1603-10-21) BİREBİR AYNI gün."},
 ];
 
 // 🔴 GERİ ÇEKİLDİ (30 Ağustos, ORHANGAZİ M-1705 — politika hükmü HAYIR):

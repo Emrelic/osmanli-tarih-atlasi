@@ -22,43 +22,55 @@ window.YER_YAMA_UYG2 = [
  // ============================================================
  // 🟠 parti-emrelic-0033 / H-0001 — Erzincan'ın Osmanlı tarihi 41 yıl erken
  // ============================================================
- {
-  "no": "H-0001",
-  "parti": "parti-emrelic-0033",
-  "ad": "Erzincan",
-  "koordinat_kontrol": "39.750,39.492 — tekil eşleşme, tuzak yok",
-  "alan": "s ve d (birlikte)",
-  "eski": {
-   "s_son_pencere": {"f":"1410-01-01","t":"1473-08-11","d":"akkoyunlu"},
-   "d_hatali": {"f":"1473-08-11","t":"1923-10-29"}
-  },
-  "yeni": {
-   "s_ekle_1": {"f":"1473-08-11","t":"1500-01-01","d":"akkoyunlu"},
-   "s_ekle_2": {"f":"1500-01-01","t":"1514-09-01","d":"safevi"},
-   "d_duzeltilmis": {"f":"1514-09-01","t":"1923-10-29"}
-  },
-  "aciklama": "TDV `erzincan`: 1473 Otlukbeli sonrası Akkoyunlu sınırlarında kaldı (Otlukbeli bir SAVAŞ ZAFERİ, doğrudan ilhak değil) · 1500-1512 Safevî Şah İsmail hakimiyeti (Nûr Ali Halife vali) · 1514 Çaldıran seferi sırasında SAVAŞSIZ Osmanlı'ya girdi. Veri Otlukbeli'yi (1473) doğrudan ilhak sanmış, 41 yıl erken d: başlatmış — komşusu Kemah'ın (doğru tarihte Safevî'ye geçen) 'enklav' görünmesinin kökü budur. Kesin geçiş günü TDV'de yok ('Çaldıran seferi sırasında'); Çaldıran savaşı 23 Ağustos 1514, atlasın kendi Çaldıran (şehir) kaydı Safevî'ye 1514-09-06'da geçiyor — 1514-09-01 bu pencereye tutarlı, savaşsız olduğu için y: alanı BOŞ bırakıldı.",
-  "kaynak": "TDV erzincan, kemah, sebinkarahisar (denetim/BULGU-PAKET-0033-0034.md H-0001'de birebir alıntılı, orada uygulanmamıştı — burada gerçek kayda çevrildi)",
-  "hukum": "cozuldu-yazildi"
- },
+ // 🔴 HÜKÜMLE DÜŞTÜ — SİLİNMEDİ, YORUMA ÇEVRİLDİ (kayıt korunur)
+//    hüküm  : denetim/YAMA-CAKISMA.md · M-2115 (1.MURAT)
+//    kazanan: yer_yama_erken.js
+//    uygulayan: OPUS HAZIR KITA 109 · 2 Eylül 2026 · sevk M-2132
+//    ⚠️ Araştırma kaybolmadı; yalnız uygulayıcıyı bloke etmeyi bıraktı.
+//       Hükmün yanlış olduğunu düşünen KOORDİNATÖRE yazsın.
+// {
+//   "no": "H-0001",
+//   "parti": "parti-emrelic-0033",
+//   "ad": "Erzincan",
+//   "koordinat_kontrol": "39.750,39.492 — tekil eşleşme, tuzak yok",
+//   "alan": "s ve d (birlikte)",
+//   "eski": {
+//    "s_son_pencere": {"f":"1410-01-01","t":"1473-08-11","d":"akkoyunlu"},
+//    "d_hatali": {"f":"1473-08-11","t":"1923-10-29"}
+//   },
+//   "yeni": {
+//    "s_ekle_1": {"f":"1473-08-11","t":"1500-01-01","d":"akkoyunlu"},
+//    "s_ekle_2": {"f":"1500-01-01","t":"1514-09-01","d":"safevi"},
+//    "d_duzeltilmis": {"f":"1514-09-01","t":"1923-10-29"}
+//   },
+//   "aciklama": "TDV `erzincan`: 1473 Otlukbeli sonrası Akkoyunlu sınırlarında kaldı (Otlukbeli bir SAVAŞ ZAFERİ, doğrudan ilhak değil) · 1500-1512 Safevî Şah İsmail hakimiyeti (Nûr Ali Halife vali) · 1514 Çaldıran seferi sırasında SAVAŞSIZ Osmanlı'ya girdi. Veri Otlukbeli'yi (1473) doğrudan ilhak sanmış, 41 yıl erken d: başlatmış — komşusu Kemah'ın (doğru tarihte Safevî'ye geçen) 'enklav' görünmesinin kökü budur. Kesin geçiş günü TDV'de yok ('Çaldıran seferi sırasında'); Çaldıran savaşı 23 Ağustos 1514, atlasın kendi Çaldıran (şehir) kaydı Safevî'ye 1514-09-06'da geçiyor — 1514-09-01 bu pencereye tutarlı, savaşsız olduğu için y: alanı BOŞ bırakıldı.",
+//   "kaynak": "TDV erzincan, kemah, sebinkarahisar (denetim/BULGU-PAKET-0033-0034.md H-0001'de birebir alıntılı, orada uygulanmamıştı — burada gerçek kayda çevrildi)",
+//   "hukum": "cozuldu-yazildi"
+//  },
 
  // ============================================================
  // 🟠 parti-emrelic-0033 / H-0003 — İran Koridoru: Hoy + Mîyandoab
  // (data/yer_yama_iran.js, 27 Ağustos, İRAN KORİDORU oturumu — hazırdı,
  //  girdi.py'ye/uygulamaya hiç bağlanmamıştı, burada gerçek kayda çevrildi)
  // ============================================================
- {
-  "no": "H-0003a",
-  "parti": "parti-emrelic-0033",
-  "ad": "Hoy",
-  "koordinat_kontrol": "38.5503,44.9521 — tekil eşleşme",
-  "alan": "d (ekle)",
-  "eski": {"d_hoy_1724_1739": "YOK"},
-  "yeni": {"d_ekle": {"f":"1724-01-01","t":"1739-01-01"}},
-  "aciklama": "1585-09-25→1603-10-21 dönemi zaten veride var, bu yama onu TEKRARLAMIYOR. Yeni pencere 1724-1739 EKLENİYOR. `s:` zinciri dokunulmadan kalır.",
-  "kaynak": "TDV `hoy`: \"1724 yılında III. Ahmed döneminde Hoy tekrar Osmanlı hâkimiyeti altına girdi\" ve on beş yıl Osmanlı kontrolünde kaldı, 1739'da İran'a döndü. Gün yok ⇒ YYYY-01-01.",
-  "hukum": "cozuldu-yazildi"
- },
+ // 🔴 HÜKÜMLE DÜŞTÜ — SİLİNMEDİ, YORUMA ÇEVRİLDİ (kayıt korunur)
+//    hüküm  : denetim/YAMA-CAKISMA.md · M-2115 (1.MURAT)
+//    kazanan: yer_yama_iran.js
+//    uygulayan: OPUS HAZIR KITA 109 · 2 Eylül 2026 · sevk M-2132
+//    ⚠️ Araştırma kaybolmadı; yalnız uygulayıcıyı bloke etmeyi bıraktı.
+//       Hükmün yanlış olduğunu düşünen KOORDİNATÖRE yazsın.
+// {
+//   "no": "H-0003a",
+//   "parti": "parti-emrelic-0033",
+//   "ad": "Hoy",
+//   "koordinat_kontrol": "38.5503,44.9521 — tekil eşleşme",
+//   "alan": "d (ekle)",
+//   "eski": {"d_hoy_1724_1739": "YOK"},
+//   "yeni": {"d_ekle": {"f":"1724-01-01","t":"1739-01-01"}},
+//   "aciklama": "1585-09-25→1603-10-21 dönemi zaten veride var, bu yama onu TEKRARLAMIYOR. Yeni pencere 1724-1739 EKLENİYOR. `s:` zinciri dokunulmadan kalır.",
+//   "kaynak": "TDV `hoy`: \"1724 yılında III. Ahmed döneminde Hoy tekrar Osmanlı hâkimiyeti altına girdi\" ve on beş yıl Osmanlı kontrolünde kaldı, 1739'da İran'a döndü. Gün yok ⇒ YYYY-01-01.",
+//   "hukum": "cozuldu-yazildi"
+//  },
  {
   "no": "H-0003b",
   "parti": "parti-emrelic-0033",
@@ -85,26 +97,32 @@ window.YER_YAMA_UYG2 = [
  // ============================================================
  // 🔵 parti-emrelic-0033 / H-0020 — Manama (Bahreyn) sahiplik zinciri
  // ============================================================
- {
-  "no": "H-0020",
-  "parti": "parti-emrelic-0033",
-  "ad": "Manama (Bahreyn)",
-  "koordinat_kontrol": "26.228,50.586 — tekil eşleşme",
-  "alan": "s (tam değişim)",
-  "eski": {
-   "s": [{"f":"1861-05-31","t":"1923-10-29","d":"ingiltere"}]
-  },
-  "yeni": {
-   "s": [
-    {"f":"1521-01-01","t":"1602-01-01","d":"portekiz"},
-    {"f":"1783-01-01","t":"1861-05-31","d":"bahreyn"},
-    {"f":"1861-05-31","t":"1923-10-29","d":"ingiltere"}
-   ]
-  },
-  "aciklama": "TDV `bahreyn` (doğrudan okundu): '1521'de Portekizliler Bahreyn'i ele geçirdi ... 1602'de İran'a bağlı kuvvetler tarafından çıkarılmalarına kadar onların idaresinde kaldı. Bu tarihten sonra İranlılarla Arap kabilelerinin hakimiyet mücadelelerine SAHNE OLDU (TDV'nin kendi ifadesi — tek net hakim yok) ... 1783 yılında Utûb kabilesinden Âl-i Halîfe'nin hakimiyetine girdi.' ⇒ `bahreyn` kimliği devletler.js:2475'te ZATEN VAR (f:1783-t:1923, renk zaten atanmış #4a48be, 0 kayıt kullanıyordu) — bu yama onu ilk kez bir yerleşime bağlıyor. 🔴 1602-1783 arası BİLEREK BOŞ bırakıldı: TDV kendi ifadesiyle bu dönemi çekişmeli/net-tek-hakimsiz tanımlıyor ('mücadele sahnesi'), tek bir devlet adı yazmak hayalet devlet riski taşırdı (§3.5). ⚠️ SINIFLANMADI.md notundaki '1602-1717 Safevî/Hürmüz, 1717-1783 Umman' iddiası bu TDV maddesinde YOK — başka bir kaynağa dayanıyor olmalı, TDV ile doğrulanamadı, YAZILMADI. 1281-1521 arası da (Uyûnîler/Salgurlular/Tâbiler/Cebrîler yerel hanedanları, TDV kesin tarih vermiyor) boş bırakıldı.",
-  "kaynak": "TDV bahreyn (islamansiklopedisi.org.tr/bahreyn, 200, içerik doğrudan okundu)",
-  "hukum": "cozuldu-yazildi — 1602-1783 ve 1281-1521 KASITLI BOS (kaynak susuyor, hayalet devlet riski), ayri madde olarak ayrildi"
- },
+ // 🔴 HÜKÜMLE DÜŞTÜ — SİLİNMEDİ, YORUMA ÇEVRİLDİ (kayıt korunur)
+//    hüküm  : denetim/YAMA-CAKISMA.md · M-2115 (1.MURAT)
+//    kazanan: yer_yama_gece_v1.js
+//    uygulayan: OPUS HAZIR KITA 109 · 2 Eylül 2026 · sevk M-2132
+//    ⚠️ Araştırma kaybolmadı; yalnız uygulayıcıyı bloke etmeyi bıraktı.
+//       Hükmün yanlış olduğunu düşünen KOORDİNATÖRE yazsın.
+// {
+//   "no": "H-0020",
+//   "parti": "parti-emrelic-0033",
+//   "ad": "Manama (Bahreyn)",
+//   "koordinat_kontrol": "26.228,50.586 — tekil eşleşme",
+//   "alan": "s (tam değişim)",
+//   "eski": {
+//    "s": [{"f":"1861-05-31","t":"1923-10-29","d":"ingiltere"}]
+//   },
+//   "yeni": {
+//    "s": [
+//     {"f":"1521-01-01","t":"1602-01-01","d":"portekiz"},
+//     {"f":"1783-01-01","t":"1861-05-31","d":"bahreyn"},
+//     {"f":"1861-05-31","t":"1923-10-29","d":"ingiltere"}
+//    ]
+//   },
+//   "aciklama": "TDV `bahreyn` (doğrudan okundu): '1521'de Portekizliler Bahreyn'i ele geçirdi ... 1602'de İran'a bağlı kuvvetler tarafından çıkarılmalarına kadar onların idaresinde kaldı. Bu tarihten sonra İranlılarla Arap kabilelerinin hakimiyet mücadelelerine SAHNE OLDU (TDV'nin kendi ifadesi — tek net hakim yok) ... 1783 yılında Utûb kabilesinden Âl-i Halîfe'nin hakimiyetine girdi.' ⇒ `bahreyn` kimliği devletler.js:2475'te ZATEN VAR (f:1783-t:1923, renk zaten atanmış #4a48be, 0 kayıt kullanıyordu) — bu yama onu ilk kez bir yerleşime bağlıyor. 🔴 1602-1783 arası BİLEREK BOŞ bırakıldı: TDV kendi ifadesiyle bu dönemi çekişmeli/net-tek-hakimsiz tanımlıyor ('mücadele sahnesi'), tek bir devlet adı yazmak hayalet devlet riski taşırdı (§3.5). ⚠️ SINIFLANMADI.md notundaki '1602-1717 Safevî/Hürmüz, 1717-1783 Umman' iddiası bu TDV maddesinde YOK — başka bir kaynağa dayanıyor olmalı, TDV ile doğrulanamadı, YAZILMADI. 1281-1521 arası da (Uyûnîler/Salgurlular/Tâbiler/Cebrîler yerel hanedanları, TDV kesin tarih vermiyor) boş bırakıldı.",
+//   "kaynak": "TDV bahreyn (islamansiklopedisi.org.tr/bahreyn, 200, içerik doğrudan okundu)",
+//   "hukum": "cozuldu-yazildi — 1602-1783 ve 1281-1521 KASITLI BOS (kaynak susuyor, hayalet devlet riski), ayri madde olarak ayrildi"
+//  },
 
  // ============================================================
  // 🔵 parti-emrelic-0036 / H-0007 — Dörtyol · Erzin · Yumurtalık, 1832 Mısır işgali

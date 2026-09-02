@@ -38,12 +38,18 @@ window.YER_YAMA_P35 = [
   kaynak:"bulunamadı — TDV'de Kragujevac'a özel gün yok; tarih komşu Niş/Vidin kaydıyla (data/olaylar.js, 1689-09-24 / 1690-09-09) hizalandı, aynı 1689 Habsburg seferi/1690 Köprülü taarruzu",
   neden:"1689-1690 Avusturya dönemi (H-0005) hiç yoktu; DÜZELTME 2: dizi TAM yazıldı, önceki kısmi yazım 1717-1830 arasını 113 yıl sahipsiz bırakmıştı"},
 
- {ad:"Yagodina (Jagodina)",
-  d:[{f:"1439-08-27",t:"1444-08-01"}, {f:"1459-06-20",t:"1689-09-24"}, {f:"1690-09-09",t:"1717-08-18"}, {f:"1739-09-18",t:"1830-11-08"}],
-  s:[{f:"1281-01-01",t:"1439-08-27",d:"sirbistan"}, {f:"1444-08-01",t:"1459-06-20",d:"sirp-despotlugu"}, {f:"1689-09-24",t:"1690-09-09",d:"avusturya"}, {f:"1717-08-18",t:"1739-09-18",d:"avusturya"}, {f:"1878-07-13",t:"1882-03-06",d:"sirbistan-prensligi"}, {f:"1882-03-06",t:"1918-12-01",d:"sirbistan-kralligi"}, {f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],
-  v:[{f:"1830-11-08",t:"1878-07-13"}],
-  kaynak:"bulunamadı — TDV'de Yagodina'ya özel gün yok; tarih komşu Niş/Vidin kaydıyla (data/olaylar.js, 1689-09-24 / 1690-09-09) hizalandı, aynı 1689 Habsburg seferi/1690 Köprülü taarruzu",
-  neden:"1689-1690 Avusturya dönemi (H-0005) hiç yoktu; DÜZELTME 2: dizi TAM yazıldı, önceki kısmi yazım 1717-1830 arasını 113 yıl sahipsiz bırakmıştı"},
+ // 🔴 HÜKÜMLE DÜŞTÜ — SİLİNMEDİ, YORUMA ÇEVRİLDİ (kayıt korunur)
+//    hüküm  : denetim/YAMA-CAKISMA.md · M-2115 (1.MURAT)
+//    kazanan: yer_yama_ok110.js
+//    uygulayan: OPUS HAZIR KITA 109 · 2 Eylül 2026 · sevk M-2132
+//    ⚠️ Araştırma kaybolmadı; yalnız uygulayıcıyı bloke etmeyi bıraktı.
+//       Hükmün yanlış olduğunu düşünen KOORDİNATÖRE yazsın.
+// {ad:"Yagodina (Jagodina)",
+//   d:[{f:"1439-08-27",t:"1444-08-01"}, {f:"1459-06-20",t:"1689-09-24"}, {f:"1690-09-09",t:"1717-08-18"}, {f:"1739-09-18",t:"1830-11-08"}],
+//   s:[{f:"1281-01-01",t:"1439-08-27",d:"sirbistan"}, {f:"1444-08-01",t:"1459-06-20",d:"sirp-despotlugu"}, {f:"1689-09-24",t:"1690-09-09",d:"avusturya"}, {f:"1717-08-18",t:"1739-09-18",d:"avusturya"}, {f:"1878-07-13",t:"1882-03-06",d:"sirbistan-prensligi"}, {f:"1882-03-06",t:"1918-12-01",d:"sirbistan-kralligi"}, {f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],
+//   v:[{f:"1830-11-08",t:"1878-07-13"}],
+//   kaynak:"bulunamadı — TDV'de Yagodina'ya özel gün yok; tarih komşu Niş/Vidin kaydıyla (data/olaylar.js, 1689-09-24 / 1690-09-09) hizalandı, aynı 1689 Habsburg seferi/1690 Köprülü taarruzu",
+//   neden:"1689-1690 Avusturya dönemi (H-0005) hiç yoktu; DÜZELTME 2: dizi TAM yazıldı, önceki kısmi yazım 1717-1830 arasını 113 yıl sahipsiz bırakmıştı"},
 
  // H-0060 — üç BAĞIMSIZ ölçümle doğrulanmış veri hatası (bugün erken BAYAT
  // AVCISI turu + bu oturumun node sorgusu + alt-oturum taraması, hepsi aynı
@@ -53,10 +59,16 @@ window.YER_YAMA_P35 = [
  // Osmanlı) aradaki ramazanoglu dönemi (164 yıl) atlanmış, muhtemelen
  // kopyala-yapıştır hatası. Orhan Gazi döneminde (1326-1362) Osmanlı Mersin'e
  // hiç ulaşmamıştı — pkg 0031/H-0007'nin de bağımsız bulduğu aynı kusur.
- {ad:"Mersin",
-  d:[{f:"1516-08-24",t:"1918-10-30"}, {f:"1921-10-20",t:"1923-10-29"}],
-  s:[{f:"1281-01-01",t:"1352-01-01",d:"kilikya-ermeni"}, {f:"1352-01-01",t:"1516-08-24",d:"ramazanoglu"}, {f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet"}],
-  kaynak:"BULGU-BAYAT-TARAMA.md + bu oturumun node sorgusu + alt-oturum taraması (üç bağımsız ölçüm) — Tarsus/Adana'nın aynı desenine göre",
-  neden:"d: 1352-01-01'den başlıyordu (Orhan Gazi döneminde Osmanlı Mersin'e hiç ulaşmamıştı); komşu Tarsus/Adana deseninde eksik olan ramazanoglu dönemi (1352->1516-08-24) eklendi, d: başlangıcı Mercidabık'a (1516-08-24) çekildi"},
+ // 🔴 HÜKÜMLE DÜŞTÜ — SİLİNMEDİ, YORUMA ÇEVRİLDİ (kayıt korunur)
+//    hüküm  : denetim/YAMA-CAKISMA.md · M-2115 (1.MURAT)
+//    kazanan: yer_yama_ok110.js
+//    uygulayan: OPUS HAZIR KITA 109 · 2 Eylül 2026 · sevk M-2132
+//    ⚠️ Araştırma kaybolmadı; yalnız uygulayıcıyı bloke etmeyi bıraktı.
+//       Hükmün yanlış olduğunu düşünen KOORDİNATÖRE yazsın.
+// {ad:"Mersin",
+//   d:[{f:"1516-08-24",t:"1918-10-30"}, {f:"1921-10-20",t:"1923-10-29"}],
+//   s:[{f:"1281-01-01",t:"1352-01-01",d:"kilikya-ermeni"}, {f:"1352-01-01",t:"1516-08-24",d:"ramazanoglu"}, {f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet"}],
+//   kaynak:"BULGU-BAYAT-TARAMA.md + bu oturumun node sorgusu + alt-oturum taraması (üç bağımsız ölçüm) — Tarsus/Adana'nın aynı desenine göre",
+//   neden:"d: 1352-01-01'den başlıyordu (Orhan Gazi döneminde Osmanlı Mersin'e hiç ulaşmamıştı); komşu Tarsus/Adana deseninde eksik olan ramazanoglu dönemi (1352->1516-08-24) eklendi, d: başlangıcı Mercidabık'a (1516-08-24) çekildi"},
 
 ];

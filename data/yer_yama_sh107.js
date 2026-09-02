@@ -84,13 +84,25 @@ window.YER_YAMA_SH107 = [
   //    doğrularsa `kesinlik:"gun"`e geçilir; o güne kadar ay yeter.
   //    ⇒ Açık kalem olarak `denetim/BULGU-NIS-1689.md`de duruyor.
 
-  { ad:"Kragujevac",
-    kaynak:"bulunamadı",
-    gerekce:"1689-09-24→1690-09-09 dönemi Niş ile birebir aynı tarihleri taşıyor ama bağımsız doğrulanamadı — muhtemelen Niş'ten ödünç alınmış bir tarih. Akademik kaynak aranmalı (Sırp tarihi monografisi — Gavrilović 1993 gibi)." },
+  // 🔴 HÜKÜMLE DÜŞTÜ — SİLİNMEDİ, YORUMA ÇEVRİLDİ (kayıt korunur)
+//    hüküm  : denetim/YAMA-CAKISMA.md · M-2115 (1.MURAT)
+//    kazanan: yer_yama_p35.js
+//    uygulayan: OPUS HAZIR KITA 109 · 2 Eylül 2026 · sevk M-2132
+//    ⚠️ Araştırma kaybolmadı; yalnız uygulayıcıyı bloke etmeyi bıraktı.
+//       Hükmün yanlış olduğunu düşünen KOORDİNATÖRE yazsın.
+// { ad:"Kragujevac",
+//     kaynak:"bulunamadı",
+//     gerekce:"1689-09-24→1690-09-09 dönemi Niş ile birebir aynı tarihleri taşıyor ama bağımsız doğrulanamadı — muhtemelen Niş'ten ödünç alınmış bir tarih. Akademik kaynak aranmalı (Sırp tarihi monografisi — Gavrilović 1993 gibi)." },
 
-  { ad:"Çaçak",
-    kaynak:"bulunamadı",
-    gerekce:"Kragujevac ile birebir aynı durum: tarihler Niş'ten ödünç alınmış olabilir, bağımsız doğrulanamadı." },
+  // 🔴 HÜKÜMLE DÜŞTÜ — SİLİNMEDİ, YORUMA ÇEVRİLDİ (kayıt korunur)
+//    hüküm  : denetim/YAMA-CAKISMA.md · M-2115 (1.MURAT)
+//    kazanan: yer_yama_p35.js
+//    uygulayan: OPUS HAZIR KITA 109 · 2 Eylül 2026 · sevk M-2132
+//    ⚠️ Araştırma kaybolmadı; yalnız uygulayıcıyı bloke etmeyi bıraktı.
+//       Hükmün yanlış olduğunu düşünen KOORDİNATÖRE yazsın.
+// { ad:"Çaçak",
+//     kaynak:"bulunamadı",
+//     gerekce:"Kragujevac ile birebir aynı durum: tarihler Niş'ten ödünç alınmış olabilir, bağımsız doğrulanamadı." },
 
   // ══════════════════════════════════════════════════════════════
   // ② H-0005(0023) — Kalocsa/Şimontorna: TARİH DEĞİŞTİRİLMEDİ
