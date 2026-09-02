@@ -62277,5 +62277,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2000",
+  "zaman": "2026-09-02 03:01",
+  "kimden": "OPUS HAZIR KITA 102",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_a47030ee-0798-4cf1-a52f-631101059ead",
+  "mesaj": "TESLİM 6 — (a) İNDİ ve SINANDI · (b) ÖLÇÜLDÜ · OPUS HAZIR KITA 102 commit 558dce2 (yama+sınav) · 9eededb (tavan raporu) · push ✓ ═══ (a) ODENMIS_VAKALAR İNDİ — ve dört dal da ZORLANARAK sınandı ═══ DOGURAN_VAKALAR 5 → 2 (1878 Bosna · 1345 Karesi — hâlâ AÇIK borç) ODENMIS_VAKALAR YENİ 3 + odenmis_vaka_sinamasi(Y) arac/_odenmis_sinav_ok102.py — C13 sınavı, ayrı dosya (denetimin çıktısını kirletmesin diye) C13 SONUÇLARI (çıkış kodu 0): 🟢 GEÇME gerçek veride 0 geri alınan — nöbetçi TEMİZ diyor 🟢 ATEŞLEME ÜÇ ödemenin ÜÇÜ DE ayrı ayrı silindi → nöbetçi TAM O vakayı bildirdi. (Tek vaka silip \"çalışıyor\" demedim: liste büyüdükçe yalnız ilk satırı okuyan bir kusur sessiz kalırdı.) 🟢 YALITIM bir vakayı silmek ötekileri ötürtmedi 🟢 GÜN KAYMASI silme değil TARİH DEĞİŞTİRME de yakalandı — asıl risk bu: kayıt silinmez, günü kayar (§11 yuvarlak tarih ailesi) ⚠️ Silme YALNIZ hafızada; data/ dosyalarına dokunulmadı. KOŞU: iki bekçi bloğu da TEMİZ (2/2 · 3/3). İhlal 3 → 2. ⚠️ VE UYARIM TUTTU: çıkış kodu HÂLÂ 1 — tavanlar aşkın. Sırada (b) idi. ═══ (b) TAVAN AŞIMININ SEBEBİ — üç cümlede ═══ 🔴 ① §A DEFTERİNİN KİMLİĞİ KARARSIZ, \"45 YENİ\"NİN 18'İ SAHTE. `_a_kimlik = \"tarih¦kırılan İLK yer\"`. O güne yeni bir yerleşim eklenince alfabetik ilk sıra kayıyor → aynı kırılma bir KAPANAN + bir YENİ sayılıyor. ÖLÇÜLDÜ, 18 tarih ikisinde de var: 1393-09-01 Köstence→Babadağı · 1463-06-01 Travnik→Koniçe 1466-06-01 İlbasan→Trebinye · 1878-07-13 Ardahan→Alacahisar … (18) KİMLİK ekseninde 45/24 → TARİH ekseninde 27/6 ⇒ \"gerileme adayı\" listesinin %40'ı GÜRÜLTÜ. 📌 Ve dosyanın kendi yorumu aynı tuzağı BAŞLIK için görmüş (\"madde düzeltilince kimlik değişir\") — aynı kusur \"ilk yer\"de de var, görülmemiş. 🟢 ÇARE ÖLÇÜLDÜ: 130 şüpheli / 130 farklı tarih / 0 çakışma ⇒ TARİH tek başına hem benzersiz hem kararlı. Yama raporda hazır. ⚠️ UYGULAMADIM ve sebebi karar seviyesinde: kimlik değişince VAR OLAN DEFTER GEÇERSİZ olur, `--defter-yaz` ile taban sıfırlanır. Tabanı sıfırlamak senin kararın; \"uygula\" dersen iner ve sıfırlamayı kayda geçiririm. ⚠️ Yan kusur: `_NOT` açıklama anahtarı kayıt sayılıyor (110 deniyor, 109). 🟢 ② UYARIN ÖLÇÜLDÜ — VE ÇÜRÜDÜ (senin lehine bir çürütme değil ama net): \"tavan aşımı bugün inen maddelerden olabilir\" dedin. ÖLÇÜM: BUGÜN değişmiş dosyadan gelen : 0 20-31 Ağustos dosyalarından : 27 Bugün değişen tek yerleşim dosyaları BAĞLANMAMIŞ kuyruk dosyaları (ok101 02:44 · ok107 01:03 · ok102 01:00 · p0037 · ok104) ve ölçüme HİÇ girmiyorlar; canlı taban `yerlesimler.js` 31 Ağustos 16:30. ⇒ Tavan aşımı bugünün işi değil, Ağustos boyunca biriken borç. 📌 Ve tavanın kendisi de bayat: defter 1 Ağustos'ta 109 KAYITLA yazılmış, tavan 97 — **taban yazıldığı gün zaten tavanın üstündeydi.** Bir aydır aşkın; bugün görünmesinin sebebi bekçinin ayrı bir dalda ötmesi. 🔴 ③ §C'NİN SEBEBİ ÖLÇÜLEMEZ — §C'NİN DEFTERİ YOK. §A defter VAR · §B defter VAR · §C DEFTER YOK ve tavanı aşan, bekçisi yeni öten bölüm tam olarak §C (117/73). \"Hangileri yeni, hangileri bir aydır orada\" sorusu **bugün cevaplanamıyor**. 📌 Dosyanın kendi başlığındaki dersin uygulanmamış üçüncü ayağı: *\"tavan bir SAYI, defter bir KÜMEDİR\"* — A ve B için kurulmuş, C için değil. ÖNERİ: `_defter` gövdesi ortak, §C defteri neredeyse bedava. ⚠️ Ama kimlik ÖNCE ÖLÇÜLMELİ: §C'de bir tarihte birden çok madde olabilir (§A'da 1:1 çıktı, §C'de `tarih¦k:` gerekebilir). Ölçmeden yazmam. 27'NİN CİNSİ: 7'si antlaşma/toplu devir (dosyanın kendi yorumunun \"yanlış eşleşme değil, eksik `yer:`\" dediği meşru sınıf — Kırım 11 · Ayastefanos 11 · Kars 10 …), 20'si tekil. Gerçek kuyruk o 20'de. ═══ NE ÖLÇMEDİM ═══ · §C'nin 117 satırının içi — defter yokken tahmin yazmadım · 20 tekil adayın hiçbiri araştırılmadı (liste, hüküm değil) · commit düzeyinde izleme yapmadım — soru \"bugün mü\" idi, dosya damgası yetti ve cevap SIFIR çıktı · TAVANLARIN NE OLMASI GEREKTİĞİNİ ÖNERMİYORUM — tavan bir karardır, ölçüm değil. Ölçtüğüm: 130'un 18'i defter gürültüsü, 7'si meşru sınıf. ═══ SIRADAKİ — üç şık, önerimle ═══ (α) §A kimlik yamasını uygula + defteri --defter-yaz ile SIFIRLA (taban sıfırlaması kayda geçer) ← ucuz, ve her koşuda tekrar üreyen %40 gürültüyü kökten keser (β) §C defteri aç (önce kimlik çakışmasını ölç, sonra yaz) (γ) 20 tekil adayı + 33 gerçek adayı (2y) tek tek araştır ÖNERİM: (α) → (β) → (γ). BOŞTAYIM.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
