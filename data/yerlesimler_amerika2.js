@@ -48,7 +48,6 @@ window.YERLESIMLER_AMERIKA2 = [
 // (1875'ten, Quanah Parker'ın teslimi).
 
 { ad:"Comanchería (Güney Büyük Ovalar)", tur:"konfederasyon", lat:34.9700, lon:-101.6800, g:0, k:2,
-  baskent:"merkezi yok — göçebe, son direniş noktası Palo Duro Kanyonu",
   s:[{f:"1281-01-01",t:"1750-01-01",d:"apaci-ovalar"},
      {f:"1750-01-01",t:"1875-01-01",d:"komanci"},
      {f:"1875-01-01",t:"1923-10-29",d:"abd"}] },

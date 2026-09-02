@@ -5249,7 +5249,7 @@ window.DEVLETLER = [
   kronoloji:[]
 },
 { id:"komanci", ad:"Komançi (Comanchería)", tur:"devlet", bolge:"kuzey-amerika",
-  f:"1750-01-01", t:"1875-01-01", baskent:"—",
+  f:"1750-01-01", t:"1875-01-01", baskent:"merkezi yok — göçebe, son direniş noktası Palo Duro Kanyonu",
   ozet:"Güney Büyük Ovalar'da atlı Komançi bantlarının kurduğu, sabit başkenti olmayan siyasî hâkimiyet alanı (Comanchería). Bitiş, Quanah Parker'ın teslimiyle son direnişin sona ermesidir.",
   kaynak:"Standart akademik — Encyclopedia.com \"Comanche\" md.: \"Between 1750 and 1875 Comanche groups spread across central and western Texas…This 24,000-square-mile area became known as the Comanchería.\" · \"1874-75: The Comanche make their last stand; Quanah Parker and his followers are the last Comanches to surrender.\" Britannica \"Apache\" ile 1750 sınırında BİREBİR uyuşuyor. 1875-01-01 muhafazakâr (erken) tarafa çekildi; tam gün için üçüncü kaynak gerekir.",
   kronoloji:[]
