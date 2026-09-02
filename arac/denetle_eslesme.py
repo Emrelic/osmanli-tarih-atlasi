@@ -528,8 +528,14 @@ _C_NOT = ("TEMEL DEFTER, 2026-09-02 — §C'nin İLK defteri. Bir aydır yoktu v
           "onlara yer_id yazılırsa anahtarları değişir ve bir kez "
           "KAPANAN+YENİ görünürler — sebebi budur, gerileme değildir.")
 
-_B_NOT = ("TEMEL DEFTER, 2026-08-01 · 2026-09-02'de YENİDEN TABANLANDI "
-          "(19 → 16: dört kayıt KAPANDI, biri YENİ göründü). "
+_B_NOT = ("TABAN 2026-09-02'de SIFIRLANDI — anahtar 'tarih|yer:' → 'YIL|yer:' "
+          "olduğu için eski anahtarlar KARŞILAŞTIRILAMAZ hâle geldi. "
+          "ÖNCEKİ DEFTER SİLİNMEDİ: denetim/ESLESME-B-DEFTERI.ONCEKI.json. "
+          "SEBEP ÖLÇÜLDÜ: '1783-04|Kırım' → '1783-04-19|Kırım' — maddenin `t:` "
+          "alanı aydan güne indi, AYNI OLAY, ama satır bir KAPANAN + bir YENİ "
+          "göründü. Anahtar seçimi iki sınavla yapıldı (çakışma + KUSUR TESTİ); "
+          "ayrıntısı `_b_kimlik` içinde. "
+          "── ÖNCEKİ TABAN NOTU (2026-08-01, hâlâ geçerli): "
           "⚠️ TAVAN AŞILMIŞ HÂLDEYKEN yazıldı (tavan 17). Üyelerin çoğu BÖLGE "
           "adıdır (Teselya, Dobruca, Bosna, Kıbrıs) — yerleşim kaydı beklenmez; "
           "'defterde var' ≠ 'incelendi ve kabul edildi'. "
@@ -582,6 +588,29 @@ def _c_kimlik(kayit, yer_id):
     anahtarları `tarih|None` olur. Çakışmıyorlar (tarihleri farklı) ama
     bu bir BORÇ: o iki maddeye `yer_id` yazılırsa anahtar değişir ve
     defterde bir kez KAPANAN+YENİ görünürler. Sebebi burada yazılı.
+
+    🔴 VE BİLİNEN BİR KIRILGANLIK — 2 Eylül'de §B'de bulunan kusurun bu
+    bölümdeki hâli: buradaki `tarih` MADDENİN tarihidir ve AYDAN GÜNE
+    inebilir (§B'de `1783-04` → `1783-04-19` tam bunu yaptı). O zaman bu
+    anahtar da değişir ve satır bir kez sahte KAPANAN+YENİ olarak görünür.
+    ⇒ MARUZİYET ÖLÇÜLDÜ: 117 satırın **1'inde** tarih ay hassasiyetinde
+      (`1830-02` — "Yunanistan'ın bağımsızlığı"). Ötekilerin hepsi gün.
+
+    ⚠️ VE `YIL|yer_id` DENENDİ, ÖLÇÜLDÜ, REDDEDİLDİ — bedeli daha ağırdı:
+        tarih|yer_id  çakışma 0 · ay→gün'de sahte çift 2   (kırılgan, GÖRÜNÜR)
+        YIL|yer_id    çakışma 1 · ay→gün'de sahte çift 0   (kararlı, GİZLER)
+      Çakışan çift GERÇEKTEN AYRI iki bulgu:
+        1883-01-19 "Ubeyyid'in düşüşü — Kordofan'ın Mehdî kuvvetlerine…"
+        1883-11-05 "Şeykan bozgunu — Hicks Paşa ordusunun yok edilmesi"
+      İkisi de yer_id `Kordofan (Ubeyyid)`; YIL anahtarı BİRİNİ SİLERDİ.
+    ⇒ HÜKÜM: kırılgan anahtar bir kez **görünür** gürültü üretir
+      (aynı bulgu iki kez, sebebi burada yazılı); çakışan anahtar bir
+      bulguyu **sessizce yok eder.** Bu depoda sessiz kayıp her zaman daha
+      pahalıdır (`CLAUDE.md §11`: *"sessiz atlama, yanlış sonuçtan daha zor
+      bulunur: yanlış sonuç bir sayı gösterir, sessiz atlama hiçbir şey"*).
+    📌 Yani §B ile §C AYNI SORUYA FARKLI CEVAP VERİYOR ve bu bir tutarsızlık
+      değil: §B'de `YIL|yer` hem kararlı hem çakışmasızdı, §C'de değil.
+      Ölçüm bölüme göre karar verdi, kural körlemesine kopyalanmadı.
     """
     return "%s|%s" % (kayit[2], yer_id)
 
@@ -600,10 +629,42 @@ def c_defteri(eksik, O, yaz=False):
     return _defter(C_DEFTERI, simdi, yaz, _C_NOT)
 
 
+def _b_kimlik(kayit):
+    """`YIL|yer:` — §B satırının kararlı kimliği.
+
+    🔴 2 EYLÜL 2026'da `tarih|yer:`ten DEĞİŞTİRİLDİ, ve sebebi ölçülmüş bir
+    vaka: `1783-04|Kırım` → `1783-04-19|Kırım`. Maddenin `t:` alanı AYDAN
+    GÜNE indi — daha iyi bir tarih, AYNI OLAY — ve satır bir KAPANAN + bir
+    YENİ olarak göründü. Hiçbir bulgu değişmeden.
+    ⇒ `CLAUDE.md` bu oturumda kurulan ölçüt: *anahtar, DEĞİŞMESİ BULGUYU
+      DEĞİŞTİREN şeylere dayanmalı.* Tarihin kesinleşmesi bulguyu değiştirmez.
+
+    🔴 VE İLK ADAYIM YANLIŞTI — kayda geçiyor: `tarih` tek başına 0 çakışma
+    verdiği için iyi göründü, ama KUSURU ÇÖZMÜYOR (ay→gün onu da değiştirir).
+    Çakışma ölçmek yetmedi; ayrıca **KUSUR TESTİ** koşuldu: "1783-04-19
+    satırını eski hâline (1783-04) döndür, anahtar değişiyor mu?"
+        aday                çakışan   ay→gün'de sahte YENİ+KAPANAN
+        tarih                   0          2      🔴
+        tarih|yer (eski)        0          2      🔴
+        YIL|yer                 0          0      🟢  ← SEÇİLEN
+        YIL|yer_id              0          2      🔴
+        yer|baslik              0          0      🟡 geçer AMA başlık kararsız
+                                                     (dosyanın kendi uyarısı)
+    📌 Ders: *bir anahtarı seçerken ÇAKIŞMA yetmez — bildirilen KUSURU
+       çözüp çözmediği ayrıca sınanır.* §A'da bu sınav yapılmadığı için
+       kararsızlık "ilk yer"e taşınıp görünmez olmuştu.
+
+    ⚠️ BİLİNEN SINIR: aynı YIL içinde aynı `yer:` metnine sahip iki madde
+    çakışır ve biri defterde görünmez. Bugün ölçüldü: 0 çakışma. Kıbrıs
+    (1571/1878), Teselya (1394/1881) ve San'a (1872/1905) ikişer kez geçiyor
+    ama farklı yıllarda — yıl onları AYIRIYOR, `yer:` tek başına ayıramazdı.
+    """
+    return "%s|%s" % (kayit[0][:4], kayit[1] or "?")
+
+
 def b_defteri(yok, yaz=False):
-    """B kimliği: `tarih|yer:` — madde başlığı kimliğe GİRMEZ (A'daki gerekçe)."""
     return _defter(B_DEFTERI,
-                   {"%s|%s" % (t, (y or "?")): b for t, y, b in yok},
+                   {_b_kimlik(r): r[2] for r in yok},
                    yaz, _B_NOT)
 
 

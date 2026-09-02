@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-DEFTER ANAHTARLARININ C13 SINAVI — §A (düzeltilen) ve §C (yeni açılan)
-=======================================================================
-2 Eylül 2026'da iki değişiklik yapıldı:
+DEFTER ANAHTARLARININ C13 SINAVI — §A · §B · §C
+================================================
+2 Eylül 2026'da üç değişiklik yapıldı:
     §A  `_a_kimlik`  "tarih|kırılan ilk yer" → "tarih"      (KUSUR DÜZELTİLDİ)
+    §B  `_b_kimlik`  "tarih|yer:"            → "YIL|yer:"   (KUSUR DÜZELTİLDİ)
     §C  `_c_kimlik`  YENİ: "tarih|yer_id"                   (DEFTER AÇILDI)
 
 🔴 `CLAUDE.md §11` (`C13`): *"yeni yazılan denetim, İKİ YÖNDE DE sınanmadan
@@ -21,7 +22,7 @@ sorulur. §A'da 18 sahte YENİ tam bu soruyu kimse sormadığı için doğdu.
 ⚠️ Hiçbir dal `data/` dosyalarına DOKUNMAZ; bozma yalnız hafızadadır.
 
 ÇALIŞTIRMA
-    py arac/_defter_sinav_ok102.py      # çıkış kodu 0 = altı dal da geçti
+    py arac/_defter_sinav_ok102.py      # çıkış kodu 0 = dokuz dal da geçti
 """
 import copy
 import io
@@ -98,6 +99,35 @@ def main():
               "ESKİ KUSUR GERİ GELDİ" % (len(ya3), len(ka3)))
         kod = 1
 
+    # ── ③b §B — geçme · ateşleme · ve KUSUR TESTİ (tarih hassasiyeti) ────
+    # §B'nin anahtarı 2 Eylül'de `tarih|yer:` → `YIL|yer:` oldu; sebebi
+    # ölçülmüş bir vaka (1783-04 → 1783-04-19 aynı satırı iki kez saydırdı).
+    # Bu dal onun GERİ GELMEDİĞİNİ sınar.
+    yok_b, _ = esl.b_madde_sehri(O, ix)
+    yb, kb, bb = esl.b_defteri(yok_b, yaz=False)
+    if not yb and not kb and bb:
+        print("  🟢 GEÇME §B ✓ defter %d kayıt · YENİ 0 · KAPANAN 0" % bb)
+    else:
+        print("  🔴 GEÇME §B ✗ YENİ %d · KAPANAN %d (defter %d)" % (len(yb), len(kb), bb))
+        kod = 1
+    yb2, kb2, _ = esl.b_defteri(yok_b[1:], yaz=False)
+    if len(kb2) == 1 and not yb2:
+        print("  🟢 ATEŞLEME §B ✓ bir satır silindi → KAPANAN 1, YENİ 0 (%s)" % kb2[0])
+    else:
+        print("  🔴 ATEŞLEME §B ✗ YENİ %d · KAPANAN %d" % (len(yb2), len(kb2)))
+        kod = 1
+    # KUSUR TESTİ: bir satırın tarihi GÜNDEN AYA döndürülür (1783-04-19 →
+    # 1783-04). Eski anahtarda bu 1 KAPANAN + 1 YENİ üretiyordu.
+    bozuk_b = [(r[0][:7], r[1], r[2]) if r[0] == "1783-04-19" else r for r in yok_b]
+    yb3, kb3, _ = esl.b_defteri(bozuk_b, yaz=False)
+    if not yb3 and not kb3:
+        print("  🟢 KUSUR TESTİ §B ✓ tarih güne→aya döndü, anahtar DEĞİŞMEDİ "
+              "(1783-04-19|Kırım vakası GERİ GELMEZ)")
+    else:
+        print("  🔴 KUSUR TESTİ §B ✗ YENİ %d · KAPANAN %d — ESKİ KUSUR GERİ GELDİ"
+              % (len(yb3), len(kb3)))
+        kod = 1
+
     # ── ④ KARARLILIK §C — "ilk eksik yer" değişince anahtar DEĞİŞMEMELİ ──
     bozuk_c = copy.deepcopy(eksik)
     for i, r in enumerate(bozuk_c):
@@ -114,7 +144,7 @@ def main():
         kod = 1
 
     print()
-    print("SONUÇ:", "altı dal da geçti ✓" if not kod else "🔴 SINAV BAŞARISIZ")
+    print("SONUÇ:", "dokuz dal da geçti ✓" if not kod else "🔴 SINAV BAŞARISIZ")
     return kod
 
 
