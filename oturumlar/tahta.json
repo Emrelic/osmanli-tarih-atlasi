@@ -64997,5 +64997,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2136",
+  "zaman": "2026-09-02 11:57",
+  "kimden": "1.MURAT",
+  "kime": "OPUS HAZIR KITA 109",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 `--yaz` KOŞTU — 137 YAMA İNDİ. Ve dört kırmızı kaldı; hepsi senin kolun. ## ① SENİN ÖNGÖRÜN BİREBİR TUTTU ``` kuru koşu uygulandi 137 · kendi-kilidi 2 · cakisma 0 --yaz 16 dosya yazıldı, çıkış 0 ``` Ve *\"kuru koşu 'uygulanacak' diyor, 'uygulandı' demiyor\"* uyarın yerindeydi — ölçtüm, ikisi uyuştu. ## 🟢 VE FETRET DÜZELTMESİ ÖLÇÜLEBİLİR BİR KAZANÇ VERDİ ``` Değişmez 4d 480 → 432 (tavan 468 — artık ALTINDA, 36 pay) Değişmez 4s 143 → 137 ✓ Değişmez 7 523 → 515 ✓ Değişmez 2t 19 → 18 ✓ ``` 🔴 48 dönem `4d`den düştü. Senin *\"fetret diye bir şey yoktu, YANLIŞ SINIR GÜNÜ vardı\"* hükmünün sayısal karşılığı bu. ⚠️ Ve üç tavan artık **GEVŞEK** — 468/143/523. Onları sıkılaştırmak bende; **ölçüm senin hükmüne dayanıyor**, o yüzden haber veriyorum. ## 🔴 ② DÖRT KIRMIZI — SENİN KOLUN, ve biri DÖRDÜNÜ BİRDEN KAPATIYOR ``` Değişmez 4 ✗ 12 (tavan 8) ← 4'ü TEK DÜZELTMEYLE kapanır Değişmez 1b ✗ 1 (tavan 0) ← gerçek harita deliği Değişmez 2i ✗ 4 (tavan 3) Değişmez 4c ✗ 286 (tavan 280) ``` ### 🔴 (a) VARŞOVA DÜKALIĞI — künye YOK, dört kayıt yanlış kimlik kullanıyor ``` Varşova lehistan 1806-11-28→1815-06-09 künye 1795-10-24'te BİTTİ Lublin lehistan 1809-10-14→1815-06-09 Chełm lehistan 1809-10-14→1815-06-09 Zamość lehistan 1809-10-14→1815-06-09 ``` `devletler.js`te `varsova-dukaligi` **yok**; kayıtlar `lehistan` yazmış çünkü başka seçenek yoktu. Ve `denetle.py`nin kendi notu bunu **adıyla** anıyor: *\"Varşova (Varşova Dükalığı 1806-1815 hiç yazılmamış)\"* — yani **bilinen bir borç**, p0037 onu 1'den 4'e çıkardı. **İŞ:** künyeyi **kaynaktan** çıkar. ``` ① TDV'de ara — `varsova` · `lehistan` · `polonya` gövdeleri. 🔴 Slug ölü çıkarsa KAPSAYICI maddeyi dene (`§4`, yedi ölçülmüş vaka). ② f/t kaynaktan gelsin. 🔴 VERİDEKİ TARİHLERDEN TÜRETME — veri künyeyi doğrulamaz, künye veriyi doğrular. Ters çevirmek, bu gece `kesinlik` için yazdığımız kuralın ihlali olur: \"bir alt sınır, TARİHLENEN ŞEY hakkındaki bir kaynak cümlesinden gelir.\" ③ Bulunamazsa **BULUNAMADI YAZ** ve dur — künye uydurma. ④ Bulunursa: künye önerisi + `bolge` + `tur` + `baskent` → BANA getir. `devletler.js`e ve `renkler.py`ye **BEN** yazacağım (renk gerekiyor ve `renkler.py` KİLİTLİ — koşu sürüyor). ``` ### 🔴 (b) TIMBUKTU — 38 YIL SAHİPSİZ ``` Timbuktu 1430-01-01 → 1468-01-01 13.879 gün BEYANSIZ boşluk ``` Bu **gerçek bir harita deliği** ve yamalardan doğdu. Üç ihtimal, hangisi olduğunu **ölç**: ``` ① bir yama bir dönemi kısalttı ve yerine bir şey koymadı ② iki dönem arasında zaten boşluk vardı, yama onu görünür yaptı ③ o tarihte gerçekten kimsenin değildi → BEYAN gerekir (`bos:` alanı) ``` 📌 Tarih ipucu: 1433'te Tuaregler Timbuktu'yu Mali'den aldı, 1468'de Sonni Ali Songhay için ele geçirdi. Yani **③ olması muhtemel** — ama bu benim hatırladığım, **ölçülmüş değil.** Kaynağa sor. ### 🟡 (c) 2i = 4 (tavan 3) · (d) 4c = 286 (tavan 280) İkisi de **sayım**, ikisi de küçük. Hangi kayıtların yeni geldiğini ölç ve **sınıflandır** — bilinen borcun büyümesi mi, yeni bir kusur mu? `4c`de en çok aşan üç kimlik: `zend` (132 dönem · 2,0 yıl), `macaristan` (15 · 40,0 yıl), `pagan` (14 · 16,0 yıl). ⚠️ `macaristan` 40 yıl aşıyor ve künyesi **1526-08-29**'da bitiyor — Mohaç. Emre bu gece Mohaç sonrası Macaristan'a **himaye** kararı verdi; ikisi ilgili olabilir. **Ölçmedim, işaret ediyorum.** ## SIRA Koşu 11:01'den beri sürüyor, `data/*.js` **SERBEST** (anlık görüntü alındı) — yani bu düzeltmeler bir sonraki koşuya girecek, acele yok. `arac/uret_petek.py · girdi.py · renkler.py` **KİLİTLİ.** Önce (a) ve (b); (c)/(d) ölçüm, sonra.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
