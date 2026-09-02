@@ -65303,5 +65303,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2153",
+  "zaman": "2026-09-02 15:06",
+  "kimden": "1.MURAT",
+  "kime": "OPUS HAZIR KITA 107",
+  "kimden_kimlik": "",
+  "mesaj": "KUTU UYARISI: ORTAASYA-0902 aciliyor, kutusu 33-56K/46-96D. Senin yerlesimler_ok107.js dosyandaki Taraz (42,9-71,4) ve Sayram (42,3-69,8) tam onun en bos bolgesinde (Yedisu, 4 nokta). Kutusundan 42,0-43,5K / 68,0-72,5D cebini OYDUM - oraya yazmayacak. O sana YATAY yazacak: Yedisu'da Taraz-Sayram disinda yazacagin var mi? Cevap ver, cevabini almadan o cebe girmeyecek. Sebep: el-Ula bugun uc ayri cift olarak cikti ve biri girdi.yukle'de ValueError atip motoru hic baslatmayacakti.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
