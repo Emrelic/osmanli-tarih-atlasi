@@ -182,3 +182,74 @@ bu tek kaynaklı kısıtla **çürütülmedi.**
 4,25 km/sa katsayısının kendisi — bu turda SINANMADI, yalnız çürütülmediği
    gösterildi. Çürütülmemek doğrulanmak DEĞİLDİR.
 ```
+> 🟢 **GÜNCELLEME:** `berid` koordinatörün sırasıyla ((b)'den sonra) OKUNDU —
+> aşağıdaki EK bölüm. `tatar` · `peyk` koordinatör kararıyla **okunmayacak.**
+
+---
+---
+
+# EK — (c) `berid` OKUNDU
+
+## 1. NE VERDİ — iki somut sayı ailesi
+
+TDV `berid` (200, gövde okundu), birebir:
+```
+MENZİL ARALIĞI  "Ana yollar üzerinde yaklaşık her 12 veya 24 kilometrede
+                 (2-4 fersah) bir menzil noktası … kurularak"
+MEMLÛK GÜZERGÂHI "Kahire'den Dımaşk'a ortalama dört günde, Halep'e beş günde
+                 gidildiği, hatta âcil bir durumda Halep'e üç günde varılabildiği"
+```
+🔴 **VE BUNLAR OSMANLI MENZİLİ DEĞİL.** Berîd ayrı bir devletin, ayrı bir çağın
+kurumudur; atlasın penceresine yalnız **Memlûk kolundan** (1517 öncesi
+Suriye-Mısır) değer. Karşılaştırma yapıyorum, **özdeşlik kurmuyorum.**
+
+## 2. 🔴 EN ÖNEMLİ AYRIM — bir sonraki oturumu YANLIŞ DÜZELTMEDEN korur
+
+Memlûk sayılarını atlasın kendi düğümleriyle ölçtüm (`h2b-kahire` · `sam` ·
+`halep`):
+```
+Kahire → Şam    kuş uçuşu 613 km · 4 gün  ⇒ 153 km/gün
+Kahire → Halep  kuş uçuşu 878 km · 5 gün  ⇒ 176 km/gün
+Kahire → Halep  (âcil)           · 3 gün  ⇒ 293 km/gün
+```
+Bir yol günü ~12 saat sayılsa **153 km/gün ≈ 12,8 km/sa** eder — bu turda
+ölçtüğüm menzil ayağı hızının (**5,13 km/sa**) **iki buçuk katı.**
+
+⚠️ **İKİSİ AYNI BÜYÜKLÜK DEĞİL, VE KARIŞTIRILIRSA KATSAYI ~2,5 KAT ŞİŞER:**
+```
+BERÎD GÜNÜ    RÖLE hızıdır — her menzilde DİNLENMİŞ AT, süvari değişir.
+              Ölçtüğü şey haberin AĞDAN GEÇİŞ hızıdır.
+MENZİL AYAĞI  TEK konaktan ötekine giden yolcunun/ulağın süresi.
+              `koridor*.js`in `saat` alanı BUNU tutuyor.
+```
+🔴 Bir sonraki oturum *"Kahire-Şam 4 günmüş, demek katsayımız çok düşük"*
+deyip 4,25'i 12'ye çekerse **ağın bütün süreleri yanlış olur.** Bu satır tam
+o düzeltmeyi önlemek için yazıldı.
+
+## 3. MENZİL ARALIĞI — atlas kenarlarıyla karşılaştırma
+```
+berîd menzil aralığı            12 – 24 km
+atlas kenarı (121 ölçülebilen)  ≤12 km: 1 (%0,8) · 12-24 km: 5 (%4,1)
+                                >24 km: 115 (%95,0)
+```
+⇒ Atlas kenarlarının **%95'i bir berîd menzil ayağından uzun.**
+🟡 Ama bu **kusur değil**: Osmanlı menzilleri daha seyrek kurulmuştu — TDV
+`menzil--osmanli` bandı *3-28 saat* diyor, ki ~5 km/sa ile **15-140 km** eder.
+İki kurum, iki farklı sıklık.
+🟢 Yine de `ozet:true` hükmünü **destekliyor**: en uzun kenarlar (Şam↔Mekke
+1390 km) hiçbir kuruma göre tek ayak olamaz.
+
+## 4. TESLİM
+```
+ÖLÇTÜĞÜM   berîd aralığı 12-24 km · Kahire-Şam 153 km/gün · Kahire-Halep 176
+           (âcil 293) · atlas kenarlarının %95'i >24 km
+ÇIKARDIĞIM ① berîd RÖLE hızı verir, menzil AYAĞI hızı vermez
+           ② dolayısıyla katsayı ölçümüne YENİ DAYANAK KATMIYOR; kattığı şey
+             bir YANLIŞ DÜZELTMEYE karşı KORUMA
+           ③ Memlûk kolu için ayrı bir "röle" katmanı düşünülürse berîd
+             sayıları oraya taban olur — ama o AYRI BİR KATMAN olurdu
+ÖLÇMEDİĞİM Memlûk döneminde bu güzergâhta kaç menzil bulunduğu — kaynak
+           söylemiyor ⇒ günlük menzil sayısı TÜRETİLEMEDİ
+```
+🔴 Ve koordinatörün *"berîd oraya bir bant verebilir"* beklentisi **kısmen
+çürüdü**: berîd bir bant veriyor, ama **başka bir büyüklüğün** bandını.
