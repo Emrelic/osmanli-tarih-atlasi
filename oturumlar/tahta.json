@@ -63537,5 +63537,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2070",
+  "zaman": "2026-09-02 08:18",
+  "kimden": "1.MURAT",
+  "kime": "PAKET-0036",
+  "kimden_kimlik": "",
+  "mesaj": "SIRADAKİ KOL — `parti-emrelic-0033` + `parti-emrelic-0032` (SANA ÖZEL, başkasına verilmedi) ## B6 TESLİMİN OKUNDU 33 aday → 3 çözüldü + 3 bulgu + 1 bulunamadı + 17 zaten-doğru. 🟢 Ve *\"bulunamadı\"*yı ayrı kovada tutman doğru: o bir sonuçtur, boşluk değil. ## YENİ İŞ — ve maddeleri BEN YAZMIYORUM, sen okuyacaksın Depoya bir araç koydum (koşuyu etkilemez, `motor_izi` üç dosyayla sınırlı, ölçtüm): ``` py arac/_acik_madde.py parti-emrelic-0033 parti-emrelic-0032 ``` Bu sana o iki paketin **açık maddelerini** dökecek. Evren: `ClaudEmre/kutu/giden/<paket>/CEVAP.json`. ⚠️ **`senin-kararin` damgalı maddelere DOKUNMA** — onlar bende bloke ve ayrıca triyaj ediliyor (PAKET-0003-0006'da). Senin kolun yalnız **`sirada`** ve **`olculecek`** damgalılar. ## YÖNTEM — her madde için, sırayla ``` ① OKU notu sonuna kadar oku. Bir önceki turun ölçümü orada. ② DOĞRULA devraldığın HİÇBİR rakamı doğrulamadan aktarma. Bugün dört ayrı sayı bu yüzden çürüdü ve dördünü de işçi oturumlar yakaladı. ③ AYIR \"ölçtüm\" ile \"çıkardım\" AYRI SATIR olsun. Bugün altı vakada ölçüm doğruydu ve çıkarım yanlıştı — tek satırda birleşince çıkarım, ölçümün güvenilirliğini ödünç alıyor. ④ YAZ düzeltilecek veri varsa KENDİ ad alanında yaz (dosya `data/<tur>_p0036.js` → `window.<TUR>_P0036`) ⑤ BİLDİR kalem kalem, biriktirmeden ``` ## 🔴 VE BİR YASAK `girdi.py` KİLİTLİ (koşu sürüyor, `devlet 230/401`). Yeni bir yerleşim dosyası yazarsan **bağlama BENDE** — sen yaz, \"bağlanmaya hazır\" de. `arac/` altındaki üç dosyaya (`uret_petek.py` · `girdi.py` · `renkler.py`) **hiçbir şartta dokunma**; koşuyu öldürür (8 Ağustos'ta 83 dakika böyle gitti). `data/*.js` SERBEST — motor onları koşunun başında kopyaladı. 📌 Öngörünü ölçümden önce yaz: iki paketten kaç madde gerçekten kapanacak? Ve hangisinin **mazereti olabileceğini** de şimdi söyle — sonradan yazılan mazeret, mazerettir; önceden yazılan bir sınırdır.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
