@@ -106,7 +106,7 @@ window.YERLESIMLER_EK_BOZKIR = [
 //    `lehistan` devri 6 → 3. Kapanan boşluk neredeyse aynı (55 → 51 km
 //    ortalama kazanç, 16 → 14 kare). §3.5.1: bir sınır kayması önerilince
 //    İKİ UÇ DA ölçülür — bu, ÖTEKİ UÇTA doğan fazlalığın düzeltilmesidir.
-{ ad:"Yedisan bozkırı",s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1502-03-01",t:"1783-04-19",d:"kirim"},{f:"1792-01-09",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}], tur:"bolge", lat:47.60, lon:30.90, g:0, k:0, d:[{f:"1783-04-19",t:"1792-01-09"}],
+{ ad:"Yedisan bozkırı",kaynak:"külliyatın kendi maddeleri: \"1783-04-19 II. Katerina'nın manifestosuyla Rusya Kırım'ı, Taman'ı ve Kuban'ı ilhak etti — Kırım Hanlığı sona erdi\" ve \"1792-01-09 Yaş Antlaşması — Kırım'ın ilhakı tanındı, sınır Dinyester'e taştı\". Yeni tarih ARAŞTIRILMADI, yeni gün EKLENMEDİ — yalnız var olan iki gün tutarlı hâle getirildi.",s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1502-03-01",t:"1783-04-19",d:"kirim"},{f:"1792-01-09",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}], tur:"bolge", lat:47.60, lon:30.90, g:0, k:0, d:[{f:"1783-04-19",t:"1792-01-09"}],
   s:[{f:"1281-01-01",t:"1502-03-01",d:"altinorda"},{f:"1502-03-01",t:"1792-01-09",d:"kirim"},{f:"1792-01-09",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 // ② KUBAN NOGAY BOZKIRI — Kuban'ın kuzeyi, Yeya-Beysug arası.

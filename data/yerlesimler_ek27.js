@@ -48,7 +48,7 @@ window.YERLESIMLER_EK27 = [
   d:[{f:"1551-01-01",t:"1878-03-03"},{f:"1921-10-13",t:"1923-10-29"}], v:[] },
 
 // ───────── ÇUKUROVA · Akdeniz kıyısı ─────────
-{ ad:"Mersin",s:[{f:"1281-01-01",t:"1352-01-01",d:"kilikya-ermeni"},{f:"1352-01-01",t:"1516-08-24",d:"ramazanoglu"},{f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet"}],d:[{f:"1516-08-24",t:"1918-10-30"},{f:"1921-10-20",t:"1923-10-29"}], tur:"liman", lat:36.800, lon:34.633, g:0, k:3, m:"Adana",
+{ ad:"Mersin",kaynak:"TDV `ramazanogullari`: beylik 753'te (1352) kuruldu, sahası \"başta Adana olmak üzere Çukurova yöresi\" — Tarsus, Sîs, Ayas, Misis dâhil; Osmanlı hâkimiyeti \"Mercidâbık zaferi (25 Receb 922 / 24 Ağustos 1516)\" sonrası kesinleşti. Veri tarafı: Tarsus ve Adana kayıtları bu zinciri zaten taşıyor (birebir aynı günler).",s:[{f:"1281-01-01",t:"1352-01-01",d:"kilikya-ermeni"},{f:"1352-01-01",t:"1516-08-24",d:"ramazanoglu"},{f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet"}],d:[{f:"1516-08-24",t:"1918-10-30"},{f:"1921-10-20",t:"1923-10-29"}], tur:"liman", lat:36.800, lon:34.633, g:0, k:3, m:"Adana",
   s:[{f:"1281-01-01",t:"1352-01-01",d:"kilikya-ermeni"},{f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet"}],
   d:[{f:"1352-01-01",t:"1918-10-30"},{f:"1921-10-20",t:"1923-10-29"}], v:[] },
 

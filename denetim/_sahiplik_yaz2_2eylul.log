@@ -1,0 +1,200 @@
+YAMA KAYDI: 172
+KRONOLOJİ: 1218 benzersiz gün
+TABAN: 2677 benzersiz ad, 69 dosya (1773 kayıt ÇOK SATIRLI)
+  i 3 ad birden çok yamada geçiyor ama AYRIK alanlara dokunuyor — çakışma DEĞİL (eski alet bunları bloke ediyordu)
+  🟡 4 adda YALNIZ `kaynak` ayrışıyor — veri İNECEK, kaynak YAZILMAYACAK (hangisi doğru: KARARA BAĞLANMALI)
+       Bağdat                       yer_yama_erken.js vs yer_yama_ok109_fetret.js
+       Halepçe                      yer_yama_ok109_fetret.js vs yer_yama_uyg3.js
+       Mîyandoab                    yer_yama_iran.js vs yer_yama_uyg2.js
+       Şehrizor                     yer_yama_ok109_fetret.js vs yer_yama_uyg3.js
+
+=== SAHİPLİK YAMASI — YAZILDI ===
+benzersiz ad: 165
+  uygulandi         137
+  zaten-boyle        24
+  kendi-kilidi        2
+  veride-yok          1
+
+İNEN (137):
+  Abâdân                       yerlesimler.js                 d+kaynak
+  Ahtapolu (Ahtopol)           yerlesimler_ek24.js            d+s+kaynak  [3 satır]
+  Akmescid                     yerlesimler_kirim.js           m+kaynak  [3 satır]
+  Akra                         yerlesimler.js                 s+kaynak
+  Ammâre                       yerlesimler.js                 s+kaynak
+  Antep                        yerlesimler.js                 v+kaynak
+  Arapkir                      yerlesimler.js                 s+kaynak
+  Ardahan                      yerlesimler.js                 d+s+kaynak
+  Arpaçay (Akyaka)             yerlesimler_ek26.js            s+kaynak  [3 satır]  ⚠️ 2s zayıf gün: 1410-01-01
+  Azak                         yerlesimler.js                 d+s+kaynak
+  Bacirge (Esendere)           yerlesimler_sinir_dogu.js      s  [8 satır]  ⚠️ 2s zayıf gün: 1351-01-01
+  Basra                        yerlesimler.js                 s+kaynak
+  Başkale                      yerlesimler_ek26.js            s+kaynak  [3 satır]  ⚠️ 2s zayıf gün: 1351-01-01
+  Bitlis                       yerlesimler.js                 s+kaynak  ⚠️ 2s zayıf gün: 1351-01-01
+  Burâm                        yerlesimler_h2_afrika.js       m+kaynak  [3 satır]
+  Bükreş                       yerlesimler.js                 isg
+  Ceylanpınar                  yerlesimler_ek25.js            s+kaynak  [3 satır]
+  Cres (Cherso)                yerlesimler.js                 s+kaynak
+  Culfa                        yerlesimler.js                 d+kaynak
+  Derbend                      yerlesimler.js                 d+s+v+kaynak  [2 satır]
+  Digor                        yerlesimler_ek26.js            s+kaynak  [3 satır]  ⚠️ 2s zayıf gün: 1410-01-01
+  Dimetoka                     yerlesimler.js                 d+s+kaynak
+  Divriği                      yerlesimler.js                 s+kaynak
+  Doğubayazıt                  yerlesimler_ek26.js            s+kaynak  [3 satır]  ⚠️ 2s zayıf gün: 1351-01-01
+  Drama                        yerlesimler.js                 d+s+kaynak  [3 satır]
+  Duhok                        yerlesimler.js                 s+kaynak
+  Dîvâniye                     yerlesimler.js                 s+kaynak
+  Dörtyol                      yerlesimler_ek28.js            kaynak  [6 satır]
+  Ed-Da'în                     yerlesimler_h2_afrika.js       m+kaynak  [3 satır]
+  Erbil                        yerlesimler.js                 s+kaynak
+  Erzin                        yerlesimler_ek28.js            kaynak  [7 satır]
+  Erzincan                     yerlesimler.js                 d+s+kaynak  ⚠️ 2s zayıf gün: 1348-01-01, 1379-01-01, 1410-01-01
+  Erzurum                      yerlesimler.js                 d+s+kaynak  ⚠️ 2s zayıf gün: 1360-01-01, 1387-01-01, 1408-01-01
+  Eski Kırım (Solhat)          yerlesimler_kirim.js           m+kaynak  [3 satır]
+  Eçmiyadzin                   yerlesimler_ek26.js            s+kaynak  [3 satır]  ⚠️ 2s zayıf gün: 1410-01-01
+  Fellûce                      yerlesimler.js                 s+kaynak
+  Ferecik (Feres)              yerlesimler.js                 d+s+kaynak
+  Fâv                          yerlesimler.js                 s+kaynak
+  Gence                        yerlesimler.js                 d+s+v+kaynak  [2 satır]
+  Gözleve (Kezlev)             yerlesimler_kirim.js           m+kaynak  [3 satır]
+  Gümrü (Aleksandropol)        yerlesimler_ek26.js            s+kaynak  [3 satır]  ⚠️ 2s zayıf gün: 1410-01-01
+  Gümülcine                    yerlesimler.js                 d+s+kaynak
+  Halepçe                      yerlesimler.js                 d+s
+  Hemedan                      yerlesimler.js                 d+s+v+kaynak  [3 satır]
+  Hille                        yerlesimler.js                 s+kaynak
+  Hoy                          yerlesimler.js                 d+kaynak
+  Humus                        yerlesimler.js                 v+kaynak
+  Hânekîn                      yerlesimler.js                 s+kaynak
+  Hît                          yerlesimler.js                 s+kaynak
+  Ilgın                        yerlesimler_ek29.js            m+kaynak  [7 satır]
+  Iğdır                        yerlesimler_ek26.js            s+kaynak  [3 satır]  ⚠️ 2s zayıf gün: 1410-01-01
+  Kabartay (Nalçik)            yerlesimler.js                 s+kaynak
+  Kalocsa                      yerlesimler.js                 kaynak
+  Karahisâr-ı Sâhib (Afyon)    yerlesimler.js                 s+kaynak
+  Karapınar                    yerlesimler_ek29.js            m+kaynak  [5 satır]
+  Karasubazar                  yerlesimler_kirim.js           m+kaynak  [3 satır]
+  Kars                         yerlesimler.js                 d+s+kaynak
+  Kasr-ı Şîrîn                 yerlesimler.js                 d+s+v+kaynak
+  Kebkâbiye                    yerlesimler_h2_afrika.js       m+kaynak  [3 satır]
+  Kelkit                       yerlesimler_ek29.js            m+kaynak  [7 satır]
+  Kerbelâ                      yerlesimler.js                 s+kaynak
+  Kerkük                       yerlesimler.js                 s+kaynak
+  Kifri                        yerlesimler.js                 s+kaynak
+  Kilis                        yerlesimler_ek25.js            v+kaynak  [3 satır]
+  Kirmanşah                    yerlesimler.js                 d+s+v+kaynak  [2 satır]
+  Kragujevac                   yerlesimler.js                 d+s+v+kaynak
+  Kusayr                       yerlesimler_afrika.js          d+s  [4 satır]
+  Kutaisi                      yerlesimler.js                 s+v+kaynak
+  Kutum                        yerlesimler_h2_afrika.js       m+kaynak  [3 satır]
+  Kûfe                         yerlesimler.js                 s+kaynak
+  Kût el-Amâre                 yerlesimler.js                 s+kaynak
+  Kürne                        yerlesimler.js                 s+kaynak
+  Malatya                      yerlesimler.js                 s+kaynak
+  Malikiye (Derik)             yerlesimler_ek25.js            d+s+kaynak  [3 satır]
+  Manama (Bahreyn)             yerlesimler.js                 s+kaynak
+  Mankup                       yerlesimler_ek2.js             m  [4 satır]
+  Maraş                        yerlesimler.js                 kaynak  [2 satır]
+  Maykop (Çerkezya)            yerlesimler.js                 d+s+kaynak
+  Mellît                       yerlesimler_h2_afrika.js       m+kaynak  [3 satır]
+  Mersin                       yerlesimler_ek27.js            d+s+kaynak  [3 satır]
+  Meşkinşehr (Hiyav)           yerlesimler_kalite4.js         s+kaynak  [13 satır]
+  Musul                        yerlesimler.js                 s+kaynak
+  Necef                        yerlesimler.js                 s+kaynak
+  Nusaybin                     yerlesimler_ek25.js            d+s+kaynak  [3 satır]
+  Nyala                        yerlesimler_afrika.js          m+kaynak  [3 satır]
+  Or Kapı (Ferahkirman)        yerlesimler_kirim.js           m+kaynak  [3 satır]
+  Payas                        yerlesimler_ek28.js            v+kaynak  [4 satır]
+  Radom                        yerlesimler_h2_afrika.js       m+kaynak  [3 satır]
+  Revan                        yerlesimler.js                 d+s+v+kaynak  [3 satır]
+  Rewândiz                     yerlesimler.js                 s+kaynak
+  Rezve (Rezovo)               yerlesimler_ek24.js            d+s+kaynak  [3 satır]
+  Sefâce                       yerlesimler_afrika.js          d+s  [4 satır]
+  Semâve                       yerlesimler.js                 s+kaynak
+  Silopi                       yerlesimler_ek25.js            d+s+kaynak  [3 satır]
+  Sina güneyi                  yerlesimler.js                 d+s
+  Sincar                       yerlesimler.js                 s+kaynak
+  Sivrihisar                   yerlesimler.js                 d+s+kaynak
+  Sohum                        yerlesimler.js                 d+s+kaynak
+  Soçi (Sâşe)                  yerlesimler.js                 d+s+kaynak
+  Suçava (Suceava)             yerlesimler.js                 s+v+kaynak
+  Sâmerrâ                      yerlesimler.js                 s+kaynak
+  Süveyş                       yerlesimler.js                 d+s  [3 satır]
+  Tikrit                       yerlesimler.js                 s+kaynak
+  Timbuktu                     yerlesimler.js                 s+kaynak  ⚠️ 2s zayıf gün: 1430-01-01, 1591-04-13, 1700-01-01
+  Tosya                        yerlesimler_ek29.js            m+kaynak  [5 satır]
+  Tuapse                       yerlesimler.js                 d+s+kaynak
+  Tuz Hurmatu                  yerlesimler.js                 s+kaynak
+  Tîne (Dârfûr)                yerlesimler_h2_afrika.js       m+kaynak  [3 satır]
+  Tûr (Sînâ)                   yerlesimler_afrika.js          d+s  [4 satır]
+  Ulukışla                     yerlesimler_ek29.js            m+kaynak  [5 satır]
+  Urfa                         yerlesimler.js                 kaynak  [2 satır]
+  Urmiye                       yerlesimler.js                 d+kaynak
+  Vidin                        yerlesimler.js                 d+s+v+kaynak
+  Vâsıt                        yerlesimler.js                 s+kaynak
+  Yagodina (Jagodina)          yerlesimler_ek29.js            d+s+v+kaynak  [8 satır]
+  Yanıkkale (Győr)             yerlesimler.js                 s+kaynak
+  Yaş                          yerlesimler.js                 isg
+  Yedisan bozkırı              yerlesimler_ek_bozkir.js       d+s+kaynak  [2 satır]
+  Yumurtalık                   yerlesimler_ek28.js            kaynak  [8 satır]
+  Yüksekova (Gever)            yerlesimler_ek26.js            s+kaynak  [3 satır]  ⚠️ 2s zayıf gün: 1351-01-01
+  Zaho                         yerlesimler.js                 s+kaynak
+  Zâlincî                      yerlesimler_h2_afrika.js       m+kaynak  [3 satır]
+  Âne                          yerlesimler.js                 s+kaynak
+  Çaldıran                     yerlesimler_ek26.js            s+kaynak  [3 satır]  ⚠️ 2s zayıf gün: 1351-01-01
+  Çaçak                        yerlesimler.js                 d+s+v+kaynak
+  Çernovitz (Çernivtsi)        yerlesimler.js                 s+v+kaynak
+  Özalp (Saray)                yerlesimler_ek26.js            s+kaynak  [3 satır]  ⚠️ 2s zayıf gün: 1351-01-01
+  Ümmü Keddâde                 yerlesimler_h2_afrika.js       m+kaynak  [3 satır]
+  İskeçe                       yerlesimler_seyrek.js          d+s+kaynak  [3 satır]
+  İsmail                       yerlesimler.js                 d+s+v+kaynak
+  İğneada                      yerlesimler_ek24.js            d+s+kaynak  [3 satır]
+  Şa'riyye                     yerlesimler_h2_afrika.js       m+kaynak  [3 satır]
+  Şehirköy (Pirot)             yerlesimler_serhat.js          d+s+kaynak  [9 satır]
+  Şehrizor                     yerlesimler.js                 s
+  Şemdinli (Şemdinni)          yerlesimler_sinir_dogu.js      s  [8 satır]  ⚠️ 2s zayıf gün: 1351-01-01
+  Şeyhrumi (Yücelen)           yerlesimler_sinir_dogu.js      s  [8 satır]  ⚠️ 2s zayıf gün: 1351-01-01
+  Şimontorna                   yerlesimler.js                 kaynak
+
+DOSYA DOSYA (16):
+  yerlesimler.js                           81
+  yerlesimler_ek26.js                      10
+  yerlesimler_h2_afrika.js                 10
+  yerlesimler_ek29.js                       6
+  yerlesimler_kirim.js                      5
+  yerlesimler_ek25.js                       5
+  yerlesimler_ek28.js                       4
+  yerlesimler_afrika.js                     4
+  yerlesimler_ek24.js                       3
+  yerlesimler_sinir_dogu.js                 3
+  yerlesimler_ek2.js                        1
+  yerlesimler_ek27.js                       1
+  yerlesimler_kalite4.js                    1
+  yerlesimler_ek_bozkir.js                  1
+  yerlesimler_seyrek.js                     1
+  yerlesimler_serhat.js                     1
+
+[!] ATLANAN (23) — sebebiyle:
+  Ahıska                       KAPSAM DARALDI — 1578-08-01→1578-08-09 (yama EKLEME mi DEĞİŞTİRME mi belirsiz)
+  Akkirman                     kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Bacirge (Esendere)           kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Bağdat                       kaynak: 2 yama FARKLI kaynak yazıyor — VERİ İNDİ, kaynak YAZILMADI; hangisinin doğru olduğu KARARA BAĞLANMALI
+  Bükreş                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Graz                         KENDİ KİLİDİ: Viyana ile AYNI iki ön şart — renk + künye günü. İkisi inmeden UYGULAM
+  Halepçe                      kaynak: 2 yama FARKLI kaynak yazıyor — VERİ İNDİ, kaynak YAZILMADI; hangisinin doğru olduğu KARARA BAĞLANMALI
+  Hotin                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Kili                         kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Kusayr                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Mankup                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Mîyandoab                    kaynak: 2 yama FARKLI kaynak yazıyor — VERİ İNDİ, kaynak YAZILMADI; hangisinin doğru olduğu KARARA BAĞLANMALI
+  Niş                          kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Sefâce                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Sina güneyi                  kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Süveyş                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Tûr (Sînâ)                   kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Urmiye · Selmâs · Sulduz · D veride YOK — yeni nokta, yama ile yazılmaz
+  Viyana                       KENDİ KİLİDİ: İKİ ÖN ŞART: ① `avusturya-cumhuriyet` rengi `renkler.py` BOYALAR'a gir
+  Yaş                          kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Şehrizor                     kaynak: 2 yama FARKLI kaynak yazıyor — VERİ İNDİ, kaynak YAZILMADI; hangisinin doğru olduğu KARARA BAĞLANMALI
+  Şemdinli (Şemdinni)          kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Şeyhrumi (Yücelen)           kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+
+16 dosya yazıldı. 🔴 ŞİMDİ `py arac/denetle.py` KOŞTUR.

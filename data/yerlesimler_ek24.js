@@ -85,7 +85,7 @@ window.YERLESIMLER_EK24 = [
   s:[{f:"1281-01-01",t:"1361-01-01",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-03-26",t:"1913-07-21",d:"bulgaristan-kralligi"}],
   d:[{f:"1361-01-01",t:"1402-07-28"},{f:"1413-07-05",t:"1913-03-26"},{f:"1913-07-21",t:"1923-10-29"}], v:[] },
 
-{ ad:"İğneada", tur:"liman", lat:41.8890, lon:28.0258, g:0, k:3, m:"Edirne",
+{ ad:"İğneada",kaynak:"veri-ici sozlesme: Kirklareli · Derekoy · Vize kayitlari", tur:"liman", lat:41.8890, lon:28.0258, g:0, k:3, m:"Edirne",
   s:[{f:"1281-01-01",t:"1361-01-01",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-03-26",t:"1913-07-21",d:"bulgaristan-kralligi"}],
   d:[{f:"1361-01-01",t:"1402-07-28"},{f:"1413-07-05",t:"1913-03-26"},{f:"1913-07-21",t:"1923-10-29"}], v:[] },
 
@@ -130,11 +130,11 @@ window.YERLESIMLER_EK24 = [
   s:[{f:"1281-01-01",t:"1361-01-01",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-09-29",t:"1923-10-29",d:"bulgaristan-kralligi"}],
   d:[{f:"1361-01-01",t:"1402-07-28"},{f:"1413-07-05",t:"1913-09-29"}], v:[] },
 
-{ ad:"Ahtapolu (Ahtopol)", tur:"liman", lat:42.099, lon:27.937, g:0, k:3, m:"Edirne",
+{ ad:"Ahtapolu (Ahtopol)",kaynak:"veri-ici sozlesme: Kirklareli · Derekoy · Vize kayitlari", tur:"liman", lat:42.099, lon:27.937, g:0, k:3, m:"Edirne",
   s:[{f:"1281-01-01",t:"1361-01-01",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-09-29",t:"1923-10-29",d:"bulgaristan-kralligi"}],
   d:[{f:"1361-01-01",t:"1402-07-28"},{f:"1413-07-05",t:"1913-09-29"}], v:[] },
 
-{ ad:"Rezve (Rezovo)", tur:"koy", lat:41.9935, lon:28.0192, g:0, k:3, m:"Edirne",
+{ ad:"Rezve (Rezovo)",kaynak:"veri-ici sozlesme: Kirklareli · Derekoy · Vize kayitlari", tur:"koy", lat:41.9935, lon:28.0192, g:0, k:3, m:"Edirne",
   s:[{f:"1281-01-01",t:"1361-01-01",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-09-29",t:"1923-10-29",d:"bulgaristan-kralligi"}],
   d:[{f:"1361-01-01",t:"1402-07-28"},{f:"1413-07-05",t:"1913-09-29"}], v:[] },
 

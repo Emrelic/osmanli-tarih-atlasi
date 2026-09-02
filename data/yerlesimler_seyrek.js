@@ -194,7 +194,7 @@ window.YERLESIMLER_SEYREK = [
 // TRAKYA HÜKÛMET-İ MÜSTAKİLLESİ (1913-08-31→1913-10-25) künyesi devletler.js'e
 // açıldı ama bu iki tarih hiçbir olaylar*.js'de yok — Değişmez 2 borcu
 // doğurmamak için 2 aylık dilim BİLEREK EKLENMEDİ, bkz. yerlesimler.js:1268.
-{ ad:"İskeçe", tur:"sehir", lat:41.140, lon:24.890, g:0, k:4, m:"Selanik",
+{ ad:"İskeçe",kaynak:"TDV `iskece` (200) + `gumulcine` govdesi. Gunler Gumulcine kaydiyla AYNI: 1913-05-30 Londra · 1920-05-27 kulliyattaki 'Gumulcine'nin isgali' maddesi. Iskece Gumulcine ile ayni idari ve askeri kaderi paylasti (27 km ara).", tur:"sehir", lat:41.140, lon:24.890, g:0, k:4, m:"Selanik",
   s:[{f:"1281-01-01",t:"1373-01-01",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-05-30",t:"1920-05-27",d:"bulgaristan-kralligi"},{f:"1920-05-27",t:"1923-10-29",d:"yunanistan"}],
   d:[{f:"1373-01-01",t:"1402-07-28"},{f:"1413-07-05",t:"1913-05-30"}] },
 

@@ -75,8 +75,7 @@ window.YERLESIMLER_SINIR_DOGU = [
 // yani petek kenarı gerçekten aralarından geçiyor.
 {ad:"Bacirge (Esendere)", tur:"koy", lat:37.7114, lon:44.6010, g:0, k:4, m:null,
  sinir:true,
- s:[{f:"1281-01-01", t:"1514-09-06", d:"akkoyunlu"},
-    {f:"1514-09-06", t:"1548-08-25", d:"safevi"}],
+ s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-25",d:"safevi"}],
  d:[{f:"1548-08-25", t:"1923-10-29"}],
  kaynak:"GeoNames (CC BY 4.0), allCountries 31 Ağu 2026: 37.7114 K / 44.6010 D, feature class P, kod PPLA3; `alternatenames` alanı tarihî adı veriyor: 'Bacirga, Bacirge, Bajirge'. Koordinat TAHMİN DEĞİL, rehberden. ⚠️ TDV bu taneciği kapsamıyor (§4 taneciklik boşluğu): `semdinli`·`nehri`·`semdinan` sluglarının üçü de ÖLÜ (302), kapsayıcı `hakkari` maddesi CANLI (200) ama gövdesinde (17.020 karakter) Şemdinli/Nehrî HİÇ GEÇMİYOR. ⚠️ Ve şunu AÇIKÇA yazıyorum: yerleşimin VARLIĞI ve KONUMU doğrulandı, 1923'te de var olduğu AYRICA BELGELENEMEDİ — Kürtçe köy adlarının sürekliliği yüksektir ama bu bir kaynak değil, bir beklentidir.",
  neden:"sınır çifti: Sero (İran, bu dosyada) ile 4,1 km — 1913 İstanbul Protokolü sınırı tam aralarından geçer. Bacirge sınıra 0,4 km, Sero 5,3 km ⇒ sapma |5,3−0,4|/2 = 2,45 km, hedef 5 km'nin ALTINDA. ÖLÇÜLDÜ: bu çift pilot kesimin ortanca sapmasını 10,69 → 2,98 km'ye, ≤5km oranını %14 → %55'e taşıyor. Dönem günleri bitişik Yüksekova (Gever) kaydından (31,4 km) birebir alındı, uydurulmadı. BU KOŞUDA ÇİZİLMEZ, bir sonrakine kalır."
@@ -107,8 +106,7 @@ window.YERLESIMLER_SINIR_DOGU = [
 // yükseltip KAPSAMI genişletiyor. Yazıldı, ama bu ödünleşme KAYDA GEÇTİ.
 {ad:"Şemdinli (Şemdinni)", tur:"kasaba", lat:37.3051, lon:44.5742, g:0, k:4, m:null,
  sinir:true,
- s:[{f:"1281-01-01", t:"1514-09-06", d:"akkoyunlu"},
-    {f:"1514-09-06", t:"1548-08-25", d:"safevi"}],
+ s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-25",d:"safevi"}],
  d:[{f:"1548-08-25", t:"1923-10-29"}],
  kaynak:"GeoNames (CC BY 4.0): 37.3051 K / 44.5742 D, kod PPLA2, nüfus 18.978; `alternatenames` 23 ad taşıyor, aralarında 'Şemdinni' ve 'Navşar'. Hafızamdaki 37,3167/44,5667 tahmini 1,7 km yanlışmış. ⚠️ TDV taneciklik boşluğu (yukarıda ölçüldü). Şemdinan (Nehrî) şeyhleri ve Şeyh Ubeydullah'ın 1880 ayaklanması standart literatürde (M. van Bruinessen, Agha, Shaikh and State) — yani yerleşimin 19. yüzyılda varlığı BELGELİ, bu da 1923 sürekliliğini kuvvetle destekliyor.",
  neden:"sınır çifti: Rāzhān (İran, bu dosyada) ile 27,2 km. İkisi de sınıra 12,3 km ⇒ SİMETRİK (fark 0,0 km), ve simetri mesafeden önemli: sapma |dB−dA|/2 olduğu için eşit uzaklıkta sapma SIFIRA gider. ÖLÇÜLDÜ: tek başına 10,69 → 9,76; A çiftiyle birlikte 4,53 ve ≤5km %52. BU KOŞUDA ÇİZİLMEZ."
@@ -145,8 +143,7 @@ window.YERLESIMLER_SINIR_DOGU = [
 //   ve SİMETRİ neredeyse tam: 4,2 km ↔ 4,8 km (fark 0,6 km)
 {ad:"Şeyhrumi (Yücelen)", tur:"koy", lat:38.9619, lon:44.1132, g:0, k:4, m:null,
  sinir:true,
- s:[{f:"1281-01-01", t:"1514-09-06", d:"akkoyunlu"},
-    {f:"1514-09-06", t:"1639-05-17", d:"safevi"}],
+ s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1639-05-17",d:"safevi"}],
  d:[{f:"1639-05-17", t:"1923-10-29"}],
  kaynak:"GeoNames (CC BY 4.0), allCountries 31 Ağu 2026: 38.9619 K / 44.1132 D, feature class P. `alternatenames` tarihî adı veriyor: 'Sehrumi, Seyhrumi, Şehrumi, Şeyhrumi' — 'Yücelen' 1950-60 yeniden adlandırmasıdır, 1923 haritasına yazılamaz. ⚠️ TDV bu taneciği kapsamıyor. ⚠️ Ve açıkça: yerleşimin varlığı ve konumu doğrulandı, 1923'te de var olduğu AYRICA BELGELENEMEDİ. Dönem zinciri en yakın komşu Çaldıran'dan (26,8 km) BİREBİR alındı — üç kırılma günü de külliyatta 0 gün sapmayla maddeli (1514-09-06 Tebriz'e giriş · 1639-05-17 Kasr-ı Şirin).",
  neden:"sınır çifti: Şeyh Salû-yi Ulyâ (İran, bu dosyada) ile 8,2 km. Şeyhrumi sınıra 4,2 km, eşi 4,8 km ⇒ SİMETRİ FARKI 0,6 km, yani bisektör gerçek sınıra oturuyor. ÖLÇÜLDÜ: KUZEY-A kesiminin (38,70-39,20 K · 37 örnek ≈ 74 km) ortanca sapmasını 7,29 → 0,73 km'ye, ≤5km oranını %27 → %100'e taşıyor. 132 TR × 422 İR adayın tamamı tarandı, en iyisi bu. BU KOŞUDA ÇİZİLMEZ, bir sonrakine kalır."

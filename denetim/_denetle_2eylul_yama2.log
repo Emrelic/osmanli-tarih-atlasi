@@ -1,0 +1,276 @@
+Veri okunuyor...
+  UYARI alan: 'baskent' BILINEN_ALANLAR'da yok — 1 kayıtta (yerlesimler_amerika2.js:Comanchería (Güney Büyük Ovalar)). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
+  UYARI alan: 's.kesinlik' BILINEN_ALANLAR'da yok — 2 kayıtta (yerlesimler.js:Vidin, yerlesimler_ok106.js:Kızıkermen (Gazi Kerman)). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
+  i 2 nokta çifti 3.0 km'den yakın ve BEYANSIZ:
+      1.54 km  Anadolu Hisarı <-> Rumeli Hisarı
+      1.57 km  Budin <-> Peşte
+  2663 yerleşim, 1303 kronoloji maddesi
+
+Değişmez 1  ✓  2663 yerleşim, 219 sahipsiz (beklenen 219)
+            ! yerleşim sayısı beklenenden farklı (2663 ≠ 968) — sadece bilgi
+Değişmez 1c ✓  sahipsiz ve BELGESİZ: 7 (tavan 7) — belgeli 212
+Değişmez 1b ✗  BEYANSIZ pencere arası boşluk: 1 (beklenen 0) · beyanlı 3/3 — tam tarama
+    🟢 beyanlı  Gao                      1700-01-01 → 1898-01-01  (72318 gün)
+    🟢 beyanlı  Cenne (Djenné)           1700-01-01 → 1818-01-01  (43098 gün)
+    🟢 beyanlı  Cenne (Djenné)           1591-04-13 → 1596-01-01  (1724 gün)
+    Timbuktu                     1430-01-01 → 1468-01-01  (13879 gün sahipsiz)
+            ⚠️ BU KONTROL YENİ (2026-07-30) ve ilk koşuda 20 boşluk buldu;
+               hepsi ÖLÇÜLDÜ, düzeltme Oturum 0'a ait ve sırada. Başka bir
+               oturum bunları görüp yerlesimler.js'e YAZMASIN — dosya devri
+               sözle yapılır (CLAUDE.md §7 kilit kuralı). Bilinen küme:
+               Varşova (Varşova Dükalığı 1806-1815 hiç yazılmamış) · Doha ·
+               Bicâye · Hacıbey · Ankara bozgunu sonrası 16 Anadolu şehri
+               (1402-07-28 → 09-15: Timur'un elindeydi, 'timurlu' yazılacak)
+Boşluk cinsi ✓  cinsi yazılmamış: 0 (beklenen 0) — dağılım: devletsiz 120, hata 7, insansiz 9, kabile 51, veri-yok 14
+
+Değişmez 2  ✓  534 kırılma, 0 açık (beklenen 0)
+            ! kırılma sayısı beklenenden farklı (534 ≠ 476) — sadece bilgi
+Değişmez 2s ✓  994 YABANCI kırılması · 75 AÇIK (tavan 121) · 173 KAPSAM DIŞI
+            i KAPSAM DIŞI = Osmanlı küresine 2014 km'den uzak; maddesi bu kronolojide OLAMAZ, yazılmamış DEĞİL.
+Değişmez 2i ✗  26 İŞGAL kırılması, 4 açık (tavan 3)
+    1737-10-01  (  1) Niş                                          | en yakın 58g: Banaluka Zaferi — Bosna'nın kurtar
+    1789-10-13  (  1) Semendire                                    | en yakın 91g: Bastille'in düşüşü — Fransız Devri
+    1834-01-01  (  2) Bükreş, Yaş                                  | en yakın 94g: Bicâye'nin (Bougie) işgali
+    1878-09-18  (  1) Bihaç (Bihać)                                | en yakın 51g: Bosna-Hersek ve Yenipazar'ın Avust
+            i iki yabancı devlet arasındaki devir de haritada renk
+              değiştirir; Değişmez 2 bunu bugüne kadar hiç sormadı.
+    1351-01-01  (  4) Bacirge (Esendere), Bargiri (Muradiye), Başk | en yakın 365g: Orhan Gazi'nin Cenevizlilerle ilk kapi
+    1353-01-01  (  4) Burûcird, Luristan, Nihâvend                 | en yakın 306g: Çimpe Kalesi — Rumeli'ye geçiş
+    1362-01-01  (  4) Kiev, Kursk, Lubnı                           | en yakın 59g: I. Murad tahta çıktı
+    1379-01-01  (  4) Erzincan, Hazârasp, Hîve                     | en yakın 731g: Germiyan çeyizi: Kütahya'nın katılışı
+    1410-01-01  (  4) Arpaçay (Akyaka), Digor, Erzincan            | en yakın 43g: Yanbolu Savaşı — Mûsâ Çelebi Edirne'ye
+    1500-01-01  (  4) Andican, Buhara, Cizzah                      | en yakın 126g: Sapienza (Zonchio) Deniz Zaferi — Akde
+    1515-04-01  (  4) Buraymî, Hürmüz Adası, Kişm (Qeshm)          | en yakın 48g: Kemah Kalesi'nin Safevîler'den fethi
+    1556-01-01  (  4) Astrahan, Kalmuk bozkırı, Kamışin            | en yakın 94g: Kara Ahmed Paşa idam edildi, Rüstem Pa
+    … 67 satır daha (--ayrinti)
+Kuyruk      i  yerlesimler_ortaasya2.js: 7 nokta · 15 kırılma · 2 MADDESİZ — iş kuyruğu, borç değil
+Kuyruk      i  yerlesimler_avrupa.js: 237 nokta · 114 kırılma · 65 MADDESİZ — iş kuyruğu, borç değil
+Kuyruk      i  yerlesimler_asya.js: 344 nokta · 482 kırılma · 326 MADDESİZ — iş kuyruğu, borç değil
+Kuyruk      i  yerlesimler_ek3.js: 9 nokta · 24 kırılma · 4 MADDESİZ — iş kuyruğu, borç değil
+Kuyruk      i  yerlesimler_ek19.js: 6 nokta · 5 kırılma · 3 MADDESİZ — iş kuyruğu, borç değil
+Kuyruk      i  yerlesimler_gdasya.js: 128 nokta · 102 kırılma · 68 MADDESİZ — iş kuyruğu, borç değil
+Kuyruk      i  yerlesimler_emilme.js: 32 nokta · 26 kırılma · 12 MADDESİZ — iş kuyruğu, borç değil
+Kuyruk      i  yerlesimler_sibirya.js: 9 nokta · 7 kırılma · 3 MADDESİZ — iş kuyruğu, borç değil
+Kuyruk      i  yerlesimler_kalite4.js: 5 nokta · 11 kırılma · 0 MADDESİZ — iş kuyruğu, borç değil
+Kuyruk      i  yerlesimler_ek21.js: 6 nokta · 7 kırılma · 4 MADDESİZ — iş kuyruğu, borç değil
+Kuyruk      i  yerlesimler_h2_afrika.js: 180 nokta · 37 kırılma · 5 MADDESİZ — iş kuyruğu, borç değil
+Kuyruk      i  yerlesimler_h2_rusya.js: 88 nokta · 47 kırılma · 25 MADDESİZ — iş kuyruğu, borç değil
+Kuyruk      i  yerlesimler_h2_kuzeyafrika.js: 64 nokta · 46 kırılma · 2 MADDESİZ — iş kuyruğu, borç değil
+            i tavana katılmaz (borç etiketi alarmı uyuşturur —
+              2s 119→192 vakası); kuyruk EKSİLİR: madde yazıldıkça
+              iner, düşmüyorsa VERİ KRONOLOJİ'ye haber ver.
+Değişmez 2t ✓  kırılmasız madde: 18 (tavan 42) — bilinen borç
+            i kronoloji 'Girit Mehmed Ali'ye bırakıldı' diyor ama
+              hiçbir nokta el değiştirmiyor — madde var, kırılma yok.
+            tür dağılımı: antlasma×7, fetih×6, savas×3, vassal×1, None×1
+            ⚠️ `antlasma` çoğunlukla MEŞRU: statükoyu teyit eden
+               barış (Kasr-ı Şirin, Zitvatorok) o gün sınır oynatmaz.
+            2t defteri: 49 kayıt · YENİ 7 · KAPANAN 38
+              + YENİ    1488-01-01|Safi'nin Portekiz nüfuzuna girmesi
+              + YENİ    1513-09-01|Azemmûr'un alınışı — Ümmürrebî' ağzının denetimi
+              + YENİ    1515-01-01|Nusaybin ve Cizre-Mardin çevresinin İdrîs-i Bitlisî eliyle Osmanlı'
+              + YENİ    1560-07-30|Cerbe kalesinin düşüşü — adanın Osmanlı idaresine geçişi
+              + YENİ    1811-04-01|Niğbolu'nun geri alınışı — altı aylık Rus işgali sona erdi
+              + YENİ    1919-06-28|Versailles Antlaşması — Alsas-Loren Fransa'ya döndü
+              + YENİ    1919-11-27|Neuilly Antlaşması — Bulgaristan Batı Trakya'yı ve Ege kıyısını kay
+              - KAPANAN 1362-03|I. Murad tahta çıktı
+              - KAPANAN 1362-09-01|Rumeli Beylerbeyliği kuruldu
+              - KAPANAN 1381-10-01|Eretna Beyliği'nin sona ermesi ve Kadı Burhâneddin Devleti'nin kuru
+              - KAPANAN 1400-08-01|Timur Sivas'ı yerle bir etti
+              - KAPANAN 1402-12-14|Timur İzmir'i Saint Jean şövalyelerinden aldı
+              - KAPANAN 1402-12-20|Îsâ Çelebi Bursa'yı ele geçirdi — Anadolu payı doğdu
+               ASIL SİNYAL `fetih` — bir yer fethedilip hiçbir nokta
+               el değiştirmemişse ya madde ya veri yanlıştır.
+    1426-01-01  Cüneyd Bey ve ailesinin idamı — Aydınoğulları Beyliği'nin sonu
+    1560-07-30  Cerbe kalesinin düşüşü — adanın Osmanlı idaresine geçişi
+    1513-09-01  Azemmûr'un alınışı — Ümmürrebî' ağzının denetimi
+    1529-09-08  Budin'in alınıp Zapolya'ya verilmesi
+    1555-01-01  İbrim ve Nübye sınırının güneye taşınması
+    1896-09-23  Dongola'nın geri alınışı — Nil boyu seferinin başlaması
+
+Sayaç       ·  452 `m:`/egemen uyuşmazlığı — ŞEMA borcu, veri kusuru DEĞİL
+               `m:` zamansız; her yeni yerleşim bu sayıyı artırır.
+               Tavanı yok, ihlal değil — bkz. MIMARI.md §3.4
+
+Değişmez 3z ·  zamansız (`m:`) 452  |  zamanlı (`kd:`) 445  |  gerçek `kd:` yazılı kayıt: 190
+               🟢 190 kayıt gerçek zaman derinliği taşıyor;
+               iki sayının AYRIŞMASI beklenen davranıştır.
+
+Değişmez 4  ✗  12 hayalet dönem (beklenen 8) — devlet ömrü dışında boyama
+               tolerans 400 gün: bölgesel teslim gecikmesi MEŞRU, yıllar mertebesi DEĞİL
+    Tarki (Tarku)            iran             1281-01-01→1501-07-01  devlet 1925-12-12'te kuruldu, dönem 424.4 yıl ÖNCE bitiyor
+    Ağraham burnu            iran             1281-01-01→1501-07-01  devlet 1925-12-12'te kuruldu, dönem 424.4 yıl ÖNCE bitiyor
+    Derbend                  iran             1281-01-01→1509-01-01  devlet 1925-12-12'te kuruldu, dönem 416.9 yıl ÖNCE bitiyor
+    Varşova                  lehistan         1806-11-28→1815-06-09  devlet 1795-10-24'te bitti, dönem 11.1 yıl SONRA başlıyor
+    Hürmüz Adası             iran             1281-01-01→1510-12-02  devlet 1925-12-12'te kuruldu, dönem 415.0 yıl ÖNCE bitiyor
+    Kişm (Qeshm)             iran             1281-01-01→1510-12-02  devlet 1925-12-12'te kuruldu, dönem 415.0 yıl ÖNCE bitiyor
+    Kiş (Kish)               iran             1281-01-01→1508-01-01  devlet 1925-12-12'te kuruldu, dönem 417.9 yıl ÖNCE bitiyor
+    Dihistan ovası (Meşhed-i Misriyân) iran             1507-05-24→1510-12-02  devlet 1925-12-12'te kuruldu, dönem 415.0 yıl ÖNCE bitiyor
+    Kızılarvat               iran             1507-05-24→1510-12-02  devlet 1925-12-12'te kuruldu, dönem 415.0 yıl ÖNCE bitiyor
+    Lublin                   lehistan         1809-10-14→1815-06-09  devlet 1795-10-24'te bitti, dönem 14.0 yıl SONRA başlıyor
+    Chełm (Kholm)            lehistan         1809-10-14→1815-06-09  devlet 1795-10-24'te bitti, dönem 14.0 yıl SONRA başlıyor
+    Zamość                   lehistan         1809-10-14→1815-06-09  devlet 1795-10-24'te bitti, dönem 14.0 yıl SONRA başlıyor
+
+Değişmez 4c ✗  286 dönem devletin ÖLÜMÜNÜ AŞIYOR (beklenen 280)
+               ⚠️ 4'ten AYRI KOVA: orada dönem devletin ömrünün TAMAMEN dışında,
+                  burada İÇİNDE başlayıp ölümünü aşıyor — başlangıç testine takılmaz.
+               en çok aşan kimlikler (dönem sayısı · en büyük aşma):
+    zend                        132 dönem · en büyük    2.0 yıl · künye 1794-01-01'te bitiyor
+    macaristan                   15 dönem · en büyük   40.0 yıl · künye 1526-08-29'te bitiyor
+    pagan                        14 dönem · en büyük   16.0 yıl · künye 1297-01-01'te bitiyor
+    ilhanli                      13 dönem · en büyük   18.0 yıl · künye 1353-01-01'te bitiyor
+    hafsi                        12 dönem · en büyük    2.3 yıl · künye 1574-09-13'te bitiyor
+    rusya                        11 dönem · en büyük    6.6 yıl · künye 1917-03-15'te bitiyor
+    maratha                       7 dönem · en büyük  105.4 yıl · künye 1818-06-03'te bitiyor
+    malaka-sultanligi             7 dönem · en büyük   16.4 yıl · künye 1511-08-24'te bitiyor
+    mentese                       6 dönem · en büyük    1.4 yıl · künye 1424-01-01'te bitiyor
+    kazak-hanligi                 6 dönem · en büyük   21.0 yıl · künye 1847-01-01'te bitiyor
+               (36 kimlik — tamamı için --ayrinti)
+               🔴 DÜZELTME BİR TARİH KARARIDIR (`§3.5`): sınırı aşan dönemi BÖLMEK
+                  mekanik iş değil — ardıl künye hangi gün devraldı, kaynağa sorulur.
+
+Değişmez 4d ✓  432 dönem devletin DOĞUMUNDAN ÖNCE başlıyor (beklenen 468)
+               ⚠️ BU BİR KUSUR SAYISI DEĞİL, BİR SORU SAYISIDIR —
+                  `isvec` künyesi 1523'te (Vasa) başlıyor; veri daha erken
+                  'İsveç' diyorsa KÜNYENİN DAR olması da olabilir. Çare çoğu
+                  zaman künyeyi GENİŞLETMEKTİR, veriyi kısaltmak değil.
+    zend                        131 dönem · en erken    3.5 yıl · künye 1751-01-01'te kuruluyor
+    isvec                        42 dönem · en erken  242.4 yıl · künye 1523-06-06'te kuruluyor
+    adal                         37 dönem · en erken  134.0 yıl · künye 1415-01-01'te kuruluyor
+    lehistan                     35 dönem · en erken  288.5 yıl · künye 1569-07-01'te kuruluyor
+    somali                       26 dönem · en erken  219.0 yıl · künye 1500-01-01'te kuruluyor
+    napoli                       24 dönem · en erken    1.2 yıl · künye 1282-03-30'te kuruluyor
+    umman                        18 dönem · en erken  113.0 yıl · künye 1624-01-01'te kuruluyor
+    bogdan                       14 dönem · en erken   78.0 yıl · künye 1359-01-01'te kuruluyor
+    eflak                        13 dönem · en erken   49.0 yıl · künye 1330-01-01'te kuruluyor
+    ispanyol-peru                13 dönem · en erken   23.3 yıl · künye 1542-11-20'te kuruluyor
+               (39 kimlik — tamamı için --ayrinti)
+
+Değişmez 4s ✓  137 dönem künyeyi TAMAMEN SARIYOR (beklenen 143)
+               🔴 AYRI KOVA DEĞİL KESİŞİM — 4c ∩ 4d. ÜÇÜ TOPLANMAZ:
+                  4c yalnız 149 · 4d yalnız 295 · ikisi birden 137 · BİRLEŞİK 581
+               📌 Bir dönem künyeyi tamamen sarıyorsa o kimlik bir DEVLET olarak
+                  değil bir BÖLGE ETİKETİ olarak kullanılıyor olabilir — `§3.5`in
+                  `iran` vakası (künye Pehlevî İran'ı, veri ortaçağ Persia'sı).
+    zend                        131 dönem
+    meysur                        3 dönem
+    katalan                       1 dönem
+    maratha                       1 dönem
+    adal                          1 dönem
+               i 852 dönem KÜNYESİZ kimlik kullanıyor (23 ayrı kimlik) — ölçülemedi, İHLAL DEĞİL ama TEMİZ de değil
+                 suleyman-celebi      196 dönem
+                 avusturya            145 dönem
+                 musa-celebi          138 dönem
+                 mehmed-celebi        121 dönem
+                 isa-celebi           56 dönem
+                 yemen                29 dönem
+
+Değişmez 5  ✓  0 çelişki (beklenen 0) — dönem `kur:`dan ÖNCE başlıyor
+Değişmez 5b i  121 nokta: `kur:` YOK ve ilk dönemi 1381'den sonra başlıyor
+               ⇒ İHLAL DEĞİL, BORÇ LİSTESİ. Bir nokta gerçekten
+                 eski olup ilk kaydı geç başlıyor OLABİLİR — ama
+                 sayılmayan borç yarın kusur diye keşfedilir.
+                 Manama (Bahreyn)           ilk 1417-01-01 (cebri         )   26.23,   50.59
+                 Onondaga (İrokua Konfederasyon Merkezi) ilk 1450-01-01 (haudenosaunee )   43.03,  -76.18
+                 Mohawk (Kayenlaha'ke)      ilk 1450-01-01 (haudenosaunee )   42.95,  -74.33
+                 Seneca (Ganondagan)        ilk 1450-01-01 (haudenosaunee )   42.91,  -77.43
+                 Cayuga                     ilk 1450-01-01 (haudenosaunee )   42.73,  -76.75
+                 Oneida                     ilk 1450-01-01 (haudenosaunee )   43.09,  -75.63
+                 Cajamarca                  ilk 1465-01-01 (inka-imparatorlugu)   -7.16,  -78.51
+                 Tumbes                     ilk 1470-01-01 (inka-imparatorlugu)   -3.57,  -80.45
+                 Cenne (Djenné)             ilk 1473-01-01 (songhay-imparatorlugu)   13.91,   -4.55
+                 Quito                      ilk 1487-01-01 (inka-imparatorlugu)   -0.23,  -78.52
+                 … 111 tane daha (--ayrinti)
+Değişmez 5c i  2070 nokta: `kur:` HİÇ YOK ve 1281'de ZATEN SAHİPLİ
+               🔴 BU SAYI KÜRESEL OLARAK İŞE YARAMAZ ve sebebini
+                 yazıyorum: Bursa · Konya · Kahire de bu kovada,
+                 üçü de MEŞRU. 1281'de var olmak Anadolu'da
+                 normaldir, SİBİRYA'da şüphelidir — yani anlamı
+                 BÖLGEYE bağlı ve bu dal bölge bilmiyor.
+               ⇒ KULLANIMI: kendi kutunda süz. Aşağıdaki DOSYA
+                 dağılımı o yüzden basılıyor — bir araştırma
+                 partisi kendi dosyasının satırına bakar.
+               ⚠️ `tur:"bolge"` dolgu noktaları DIŞARIDA tutuldu
+                 (kurulmazlar, hep vardırlar). Kalanı meşru/şüpheli
+                 diye ayırmak ARAŞTIRMADIR — bu dal nereye
+                 BAKILACAĞINI söyler, ne YAZILACAĞINI değil.
+                 yerlesimler.js                     713
+                 yerlesimler_asya.js                258
+                 yerlesimler_avrupa.js              235
+                 yerlesimler_afrika.js              161
+                 yerlesimler_h2_afrika.js           120
+                 yerlesimler_gdasya.js              113
+                 yerlesimler_h2_kuzeyafrika.js      59
+                 yerlesimler_h2_rusya.js            58
+
+Değişmez 7  ✓  515 sorgusuz enklav (beklenen 523) — kopuk gövde, koridor sorulmadı
+            muaf: beyan 53 · cografi-tecrit 2407 · ada-fethi 9 · kucuk-devlet 217 · gecici-cephe 54
+            🔴 BU DAL VERİ DEĞİL YÖNTEM ÖLÇER. Bir ada, veri YANLIŞ
+               olduğu için de DOĞRU olduğu için de doğar. Aşağıdaki
+               liste *"burada bir SORU SORULMADI"* der, *"burası
+               YANLIŞ"* DEMEZ. Kayıtları silerek kapatmak, hakiki
+               enklavları yok etmek olur.
+            ⚠️ TAVAN GEVŞEK — BEKLENEN_ENKLAV_SORGU = 515 yapılmalı. Aradaki 8 puanlık gerçek gerileme GÖRÜNMEZ.
+            A-koridor      386   ana gövde ≤300 km ⇒ ARADAKİ KAYITLARA dönem yazılmalı mı?
+            B-bilinmiyor   127   300-800 km ⇒ kaynak susuyorsa KAYDET, uydurma
+            C-hakiki         2   800 km üstü / gövdesiz ⇒ muhtemelen HAKİKİ enklav, çare `enklav:true`
+    ── A-koridor (386)
+       1475-06-06  Azak                   → OSMANLI            300 km  ada: Azak
+       1337-09-09  Dâmgan                 → serbedariler       299 km  ada: Bistâm+Dihistan ovası (Meşhed-i Misriyân)+D…
+       1557-01-01  Masavva                → OSMANLI            298 km  ada: Arkîko+Dahlak+Masavva
+       1865-01-01  Masavva                → OSMANLI            298 km  ada: Arkîko+Dahlak+Masavva
+       1642-02-26  Azak                   → OSMANLI            298 km  ada: Azak
+       1502-01-01  Kemah                  → safevi             298 km  ada: Aşkale+Erzincan+Erzurum+Kemah
+       … 380 tane daha (--ayrinti)
+    ── B-bilinmiyor (127)
+       1510-07-25  Trablus                → ispanya            792 km  ada: Trablus
+       1674-03-15  Zeytun (Quanzhou)      → san-fan            680 km  ada: Fuzhou+Zeytun (Quanzhou)+Zhangzhou
+       1667-11-18  Makassar               → hollanda-dogu-     663 km  ada: Bantaeng+Makassar
+       1674-03-15  Zhangzhou              → san-fan            625 km  ada: Fuzhou+Zeytun (Quanzhou)+Zhangzhou
+       1777-01-01  Oneida                 → ingiltere          611 km  ada: Cayuga+Mohawk (Kayenlaha'ke)+Oneida+Onondag…
+       1777-01-01  Onondaga (İrokua Konfe → ingiltere          567 km  ada: Cayuga+Mohawk (Kayenlaha'ke)+Oneida+Onondag…
+       … 121 tane daha (--ayrinti)
+    ── C-hakiki (2)
+       1816-12-04  Çandernagor            → fransa-cumhuri    1514 km  ada: Çandernagor
+       1816-12-04  Pondişeri              → fransa-cumhuri    1514 km  ada: Pondişeri
+
+Ek denetim  ✓  dönem sağlığı: 0 sıfır-uzunluk, 0 ters, 0 kategori-içi çakışma (beklenen: hepsi 0)
+            i 74 s×d/v + 26 d×v örtüşmesi — uret_petek.py'de kasıtlı (Osmanlı/tâbi kazanır), ihlal SAYILMADI
+Ek denetim  ✗  mükerrer madde: 2 şüpheli çift (beklenen 0)
+    [kişi!bitlis,biyikl,diyarb] 1515  1515-09-19  Âmid'in (Diyarbekir) fethi ve Diyarbekir beylerbeyil
+           1515-09-19  Nusaybin, Derik ve Silopi'nin Osmanlı'ya katılması —
+    [başlık] 1835  1835-01-01  Abdullah b. Reşîd Hâil emirliğini ele geçirdi — Şamm
+           1835-01-01  Şammar (Reşîdî) Emirliği'nin kuruluşu — Hâil
+    → gerçekten ayrı olaylarsa denetle.py'deki BILINEN_AYRI kümesine ekle
+            i 49 çift ZAYIF ölçütte (aynı kişi + ±3 gün, AYRI gün) — İHLAL DEĞİL, yukarıdaki listeyle KARIŞTIRMA
+              (gözden geçirme listesi — tamamı için --ayrinti)
+            i 7 çift ÖNEK ölçütünde (ortak kök var ama 6-harf kırpma öldürüyor) — ihlal DEĞİL, gözden geçirme
+              0.500  1912-10     Balkan Savaşları başladı
+                     1913-06-29  II. Balkan Savaşı'nın başlaması: müttefikler
+              0.500  1912-10     Balkan Savaşları başladı
+                     1912-10-08  I. Balkan Savaşı'nın başlaması — Karadağ'ın 
+              0.500  1553-12-01  Kaptan-ı derya Pîrî Reis idam edildi
+                     1554-01-01  Pîrî Reis'in idamı
+              0.429  1798-07-21  Piramitler Muharebesi ve Kahire'nin Fransızl
+                     1798-10-23  Preveze'nin Fransızlardan alınışı — Nikopoli
+              0.400  1918-03-03  Brest-Litovsk Antlaşması: Kars, Ardahan ve B
+                     1918-05-25  Elviye-i Selâse: Kars ve Ardahan'ın geri alı
+              0.375  1918-03-03  Brest-Litovsk Antlaşması: Kars, Ardahan ve B
+                     1918-04-14  Batum'un geri alınışı
+              … 1 çift daha (--ayrinti)
+Ek denetim  i  savaş senkronu: 164/171 kaydın ±30 gün içinde maddesi var
+            i 7 kayıt açık — ihlal DEĞİL, çünkü çoğu
+              KUŞATMA BAŞLANGICI↔SONUÇ kaymasıdır: dizin kuşatmanın
+              başladığı günü, kronoloji bittiği günü yazıyor.
+              İkinci tarih alanı gelince ölçüt sonuca bakacak.
+              1620-09-17  meydan   Cecora (Ţuţora)                 +387g  Hotin Seferi ve Hotin Antlaşması
+              1480-05-23  kusatma  Rodos kuşatması                  +66g  Rodos kuşatmasının başarısızlığı
+              1683-07-14  kusatma  II. Viyana kuşatması             +60g  II. Viyana Kuşatması bozgunu
+              1638-11-15  kusatma  Bağdat kuşatması                 +39g  Kemankeş Kara Mustafa Paşa sadraza
+              1621-09-02  kusatma  Hotin kuşatması                  +37g  Hotin Seferi ve Hotin Antlaşması
+              1657-07-19  deniz    Çanakkale zaferi                 +37g  Çanakkale zaferi ve Bozcaada'nın g
+              1511-03-01  isyan    Şahkulu (Teke)                   +31g  Şahkulu isyanının başlaması
+   ⚠️ SINIRDA: 1 nokta ham göl poligonunun içinde ama sadeleştirilmişin dışında (ihlal DEĞİL, motor da böyle görüyor — ama nokta suyun üstünde): Detroit (Fort Pontchartrain du Détroit)
+Ek denetim  ✓  konum: 0 nokta kara maskesinin dışında (beklenen 0)
+
+SONUÇ: İHLAL VAR — çıkış kodu 1

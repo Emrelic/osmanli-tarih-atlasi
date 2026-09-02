@@ -306,13 +306,13 @@ window.YERLESIMLER_AFRIKA = [
 // Yukarı Mısır'ın Hicaz kapısı: Kına-Kusayr kervan yolu hac ve zahire
 // nakliyesinin ana hattıydı.
 { ad:"Kusayr", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"liman", lat:26.104, lon:34.283, g:0, k:4, m:"Kahire",
-  s:[{f:"1281-01-01",t:"1517-01-22",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-01-22",t:"1805-07-03"}],
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+  d:[{f:"1517-04-13",t:"1805-07-03"}],
   v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
 { ad:"Sefâce", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"liman", lat:26.733, lon:33.933, g:0, k:4, m:"Kahire",
-  s:[{f:"1281-01-01",t:"1517-01-22",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-01-22",t:"1805-07-03"}],
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+  d:[{f:"1517-04-13",t:"1805-07-03"}],
   v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
 // Kusayr ile Halâib arasındaki 300 km'lik kıyı boşluğunu kapatır.
@@ -325,8 +325,8 @@ window.YERLESIMLER_AFRIKA = [
 // Yarımadanın İÇ çölüne nokta konmadı; mevcut "Sina güneyi" dolgusu kasten
 // sahipsiz kalmaya devam ediyor.
 { ad:"Tûr (Sînâ)", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"liman", lat:28.241, lon:33.623, g:0, k:4, m:"Kahire",
-  s:[{f:"1281-01-01",t:"1517-01-22",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
-  d:[{f:"1517-01-22",t:"1805-07-03"}],
+  s:[{f:"1281-01-01",t:"1517-02-15",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+  d:[{f:"1517-02-15",t:"1805-07-03"}],
   v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
 // Nûbe: İbrim kâşifliğinin güney ucu. Zincir mevcut İbrim kaydıyla birebir
@@ -959,7 +959,7 @@ window.YERLESIMLER_AFRIKA = [
   s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)"}] },
 
-{ ad:"Nyala", tur:"sehir", lat:12.048, lon:24.882, g:0, k:4,
+{ ad:"Nyala",kaynak:"TDV `darfur` — \"Merkezi Fâşir şehridir\"; kasaba taneciğinde TDV susuyor (TANECİKLİK boşluğu), s:/v: dizisi El-Fâşir'le birebir",m:"El-Fâşir", tur:"sehir", lat:12.048, lon:24.882, g:0, k:4,
   s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)"}] },
 

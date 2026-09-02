@@ -131,7 +131,7 @@ window.YERLESIMLER_EK2 = [
 //    📌 Karabiga'da aynı sorun çıkmıştı ama orada çözüm VARDI: gerçek
 //      merkezi (Biga) zinciri aynıydı. Mankup'ta öyle bir merkez YOK —
 //      Kefe'nin 1475 öncesi sahibi farklı. Aynı kusur, iki farklı çare.
-{ ad:"Mankup", tur:"kale", lat:44.5942, lon:33.8044, g:0, k:3,
+{ ad:"Mankup",m:"Kefe", tur:"kale", lat:44.5942, lon:33.8044, g:0, k:3,
   s:[{f:"1281-01-01",t:"1349-01-01",d:"bizans"},{f:"1349-01-01",t:"1475-06-06",d:"teodoro"},{f:"1783-04-19",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
   d:[{f:"1475-06-06",t:"1783-04-19"}],
   isg:[{f:"1771-07-01",t:"1783-04-19",d:"rusya",kaynak:"kirim"}] },

@@ -288,7 +288,7 @@ window.YERLESIMLER_EK29 = [
 //   BU KAYDA YAZILMADI: Ilgın için ayrıca doğrulayamadım. Ölçmediğimi
 //   ölçmedim diye yazıyorum; karşı kanıt çıkarsa eklenir.
 // kaynak: bulunamadı — çizgi kardeş kayıt Konya'dan
-{ ad:"Ilgın", tur:"kasaba", lat:38.2792, lon:31.9139, g:0, k:4,
+{ ad:"Ilgın",kaynak:"bulunamadı — çizgi kardeş kayıt Konya'dan (yerlesimler_ek29.js:288-290 yorumu)",m:"Konya", tur:"kasaba", lat:38.2792, lon:31.9139, g:0, k:4,
   s:[{f:"1281-01-01",t:"1308-01-01",d:"selcuklu"},
      {f:"1308-01-01",t:"1366-01-01",d:"ilhanli"},
      {f:"1366-01-01",t:"1397-07-01",d:"karaman"},
@@ -298,7 +298,7 @@ window.YERLESIMLER_EK29 = [
 
 // KARAPINAR — Konya-Adana yolunun ortası, Karaman (66,5 km) çizgisiyle aynı.
 // kaynak: bulunamadı — çizgi kardeş kayıt Karaman'dan
-{ ad:"Karapınar", tur:"kasaba", lat:37.7156, lon:33.5514, g:0, k:4,
+{ ad:"Karapınar",kaynak:"bulunamadı — çizgi kardeş kayıt Karaman'dan (yerlesimler_ek29.js:299-300 yorumu)",m:"Karaman", tur:"kasaba", lat:37.7156, lon:33.5514, g:0, k:4,
   s:[{f:"1281-01-01",t:"1397-07-01",d:"karaman"},
      {f:"1402-07-28",t:"1402-09-15",d:"timurlu"},
      {f:"1402-09-15",t:"1468-01-01",d:"karaman"}],
@@ -306,7 +306,7 @@ window.YERLESIMLER_EK29 = [
 
 // ULUKIŞLA — Gülek Boğazı'nın kuzey ağzı, Niğde (49,7 km) çizgisiyle aynı.
 // kaynak: bulunamadı — çizgi kardeş kayıt Niğde'den
-{ ad:"Ulukışla", tur:"kasaba", lat:37.5461, lon:34.4869, g:0, k:4,
+{ ad:"Ulukışla",kaynak:"bulunamadı — çizgi kardeş kayıt Niğde'den (yerlesimler_ek29.js:307-308 yorumu)",m:"Niğde", tur:"kasaba", lat:37.5461, lon:34.4869, g:0, k:4,
   s:[{f:"1281-01-01",t:"1308-01-01",d:"selcuklu"},
      {f:"1308-01-01",t:"1366-01-01",d:"ilhanli"},
      {f:"1366-01-01",t:"1468-01-01",d:"karaman"}],
@@ -314,7 +314,7 @@ window.YERLESIMLER_EK29 = [
 
 // TOSYA — Kastamonu (45,8 km) çizgisiyle aynı: Candaroğlu, 1461'de kesin Osmanlı.
 // kaynak: bulunamadı — çizgi kardeş kayıt Kastamonu'dan
-{ ad:"Tosya", tur:"kasaba", lat:41.0161, lon:34.0397, g:0, k:4,
+{ ad:"Tosya",kaynak:"bulunamadı — çizgi kardeş kayıt Kastamonu'dan (yerlesimler_ek29.js:315-316 yorumu)",m:"Kastamonu", tur:"kasaba", lat:41.0161, lon:34.0397, g:0, k:4,
   s:[{f:"1281-01-01",t:"1309-01-01",d:"cobanogullari"},
      {f:"1309-01-01",t:"1392-11-01",d:"candar"},
      {f:"1402-07-28",t:"1461-06-01",d:"candar"}],
@@ -341,7 +341,7 @@ window.YERLESIMLER_EK29 = [
 // KELKİT — Erzincan (42,3 km) çizgisiyle aynı: Mutahharten sonrası Akkoyunlu,
 // 1473 Otlukbeli'yle Osmanlı.
 // kaynak: bulunamadı — çizgi kardeş kayıt Erzincan'dan
-{ ad:"Kelkit", tur:"kasaba", lat:40.1281, lon:39.4381, g:0, k:4,
+{ ad:"Kelkit",kaynak:"bulunamadı — çizgi kardeş kayıt Erzincan'dan (yerlesimler_ek29.js:341-343 yorumu)",m:"Erzincan", tur:"kasaba", lat:40.1281, lon:39.4381, g:0, k:4,
   s:[{f:"1281-01-01",t:"1348-01-01",d:"ilhanli"},
      {f:"1348-01-01",t:"1379-01-01",d:"akkoyunlu"},
      {f:"1379-01-01",t:"1401-02-01",d:"mutahharten"},
@@ -421,7 +421,7 @@ window.YERLESIMLER_EK29 = [
 // Sırp despotluğu → 1459 Osmanlı → 1717-1739 Avusturya → 1830 muhtar
 // Sırbistan (v:) → 1878 istiklâl.
 // kaynak: bulunamadı — çizgi kardeş kayıt Kragujevac'tan
-{ ad:"Yagodina (Jagodina)",s:[{f:"1281-01-01",t:"1439-08-27",d:"sirbistan"},{f:"1444-08-01",t:"1459-06-20",d:"sirp-despotlugu"},{f:"1689-09-24",t:"1690-09-09",d:"avusturya"},{f:"1717-08-18",t:"1739-09-18",d:"avusturya"},{f:"1878-07-13",t:"1882-03-06",d:"sirbistan-prensligi"},{f:"1882-03-06",t:"1918-12-01",d:"sirbistan-kralligi"},{f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],d:[{f:"1439-08-27",t:"1444-08-01"},{f:"1459-06-20",t:"1689-09-24"},{f:"1690-09-09",t:"1717-08-18"},{f:"1739-09-18",t:"1830-11-08"}], tur:"kasaba", lat:43.9772, lon:21.2617, g:0, k:4,
+{ ad:"Yagodina (Jagodina)",kaynak:"bulunamadı — TDV'de Yagodina/Jagodina müstakil maddesi yok. Dayanak KARDEŞ KAYIT: Kragujevac (28,4 km, aynı Morava koridoru) birebir aynı günleri taşıyor; 1690-09-09 günü külliyatta \"Niş, Vidin ve Belgrad geri alındı\" maddesiyle zaten kayıtlı.",s:[{f:"1281-01-01",t:"1439-08-27",d:"sirbistan"},{f:"1444-08-01",t:"1459-06-20",d:"sirp-despotlugu"},{f:"1689-09-24",t:"1690-09-09",d:"avusturya"},{f:"1717-08-18",t:"1739-09-18",d:"avusturya"},{f:"1878-07-13",t:"1882-03-06",d:"sirbistan-prensligi"},{f:"1882-03-06",t:"1918-12-01",d:"sirbistan-kralligi"},{f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],d:[{f:"1439-08-27",t:"1444-08-01"},{f:"1459-06-20",t:"1689-09-24"},{f:"1690-09-09",t:"1717-08-18"},{f:"1739-09-18",t:"1830-11-08"}], tur:"kasaba", lat:43.9772, lon:21.2617, g:0, k:4,
   s:[{f:"1281-01-01",t:"1439-08-27",d:"sirbistan"},
      {f:"1444-08-01",t:"1459-06-20",d:"sirp-despotlugu"},
      {f:"1717-08-18",t:"1739-09-18",d:"avusturya"},

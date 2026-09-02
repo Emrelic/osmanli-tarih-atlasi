@@ -27,19 +27,11 @@ window.YERLESIMLER_KALITE4 = [
 // TEK zincir kullanıyor (ayrı bir "Erdelan/Mükrî" künyesi YOK, mevcut
 // veri ayrı renk kullanmıyor), o yüzden yeni künye ÖNERMİYORUM.
 
-{ ad:"Meşkinşehr (Hiyav)", tur:"sehir", lat:38.40, lon:47.68, g:0, k:3,
+{ ad:"Meşkinşehr (Hiyav)",kaynak:"TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.", tur:"sehir", lat:38.40, lon:47.68, g:0, k:3,
   // Sasani dönemine (MS 337) kadar giden yerleşim, Azerbaycan Atabegleri
   // sikkeleriyle doğrulanmış — komşu Erdebil/Sarâb ile AYNI tam zincir.
   // kaynak: standart akademik (Encyclopaedia Iranica/Wikipedia, TDV müstakil maddesi yok)
-  s:[{f:"1281-01-01",t:"1335-12-01",d:"ilhanli"},
-     {f:"1335-12-01",t:"1386-01-01",d:"celayirli"},
-     {f:"1386-01-01",t:"1406-10-21",d:"timurlu"},
-     {f:"1406-10-21",t:"1468-04-01",d:"karakoyunlu"},
-     {f:"1468-04-01",t:"1501-07-01",d:"akkoyunlu"},
-     {f:"1501-07-01",t:"1736-03-08",d:"safevi"},
-     {f:"1736-03-08",t:"1747-06-20",d:"afsar"},
-     {f:"1747-06-20",t:"1796-01-01",d:"zend"},
-     {f:"1796-01-01",t:"1923-10-29",d:"kacar"}] },
+  s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},{f:"1340-01-01",t:"1386-01-01",d:"celayirli"},{f:"1386-01-01",t:"1406-10-21",d:"timurlu"},{f:"1406-10-21",t:"1468-04-01",d:"karakoyunlu"},{f:"1468-04-01",t:"1501-07-01",d:"akkoyunlu"},{f:"1501-07-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1796-01-01",d:"zend"},{f:"1796-01-01",t:"1923-10-29",d:"kacar"}] },
 
 { ad:"Mahabad (Sâvücbulak)", tur:"sehir", lat:36.77, lon:45.72, g:0, k:3,
   kur:"1501-07-01",

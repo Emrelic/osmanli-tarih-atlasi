@@ -285,11 +285,11 @@ window.YERLESIMLER_H2_AFRIKA = [
 // k:0 ve m: YOK — Dârfûr egemen bir sultanlıktı (mevcut kayıtların gerekçesi).
 // ===========================================================================
 
-{ ad:"Kutum", tur:"sehir", lat:14.200, lon:24.660, g:0, k:4,
+{ ad:"Kutum",kaynak:"TDV `darfur` — aynı gerekçe (Nyala'ya bkz.)",m:"El-Fâşir", tur:"sehir", lat:14.200, lon:24.660, g:0, k:4,
   s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)"}] },
 
-{ ad:"Kebkâbiye", tur:"sehir", lat:13.650, lon:24.083, g:0, k:4,
+{ ad:"Kebkâbiye",kaynak:"TDV `darfur` — aynı gerekçe",m:"El-Fâşir", tur:"sehir", lat:13.650, lon:24.083, g:0, k:4,
   s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)"}] },
 
@@ -299,19 +299,19 @@ window.YERLESIMLER_H2_AFRIKA = [
   s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)"}] },
 
-{ ad:"Zâlincî", tur:"sehir", lat:12.905, lon:23.483, g:0, k:4,
+{ ad:"Zâlincî",kaynak:"TDV `darfur` — aynı gerekçe",m:"El-Fâşir", tur:"sehir", lat:12.905, lon:23.483, g:0, k:4,
   s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)"}] },
 
-{ ad:"Ed-Da'în", tur:"sehir", lat:11.462, lon:26.128, g:0, k:4,
+{ ad:"Ed-Da'în",kaynak:"TDV `darfur` — aynı gerekçe",m:"El-Fâşir", tur:"sehir", lat:11.462, lon:26.128, g:0, k:4,
   s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)"}] },
 
-{ ad:"Burâm", tur:"sehir", lat:10.833, lon:25.167, g:0, k:4,
+{ ad:"Burâm",kaynak:"TDV `darfur` — aynı gerekçe",m:"El-Fâşir", tur:"sehir", lat:10.833, lon:25.167, g:0, k:4,
   s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)"}] },
 
-{ ad:"Ümmü Keddâde", tur:"sehir", lat:13.600, lon:26.690, g:0, k:4,
+{ ad:"Ümmü Keddâde",kaynak:"TDV `darfur` — aynı gerekçe",m:"El-Fâşir", tur:"sehir", lat:13.600, lon:26.690, g:0, k:4,
   s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)"}] },
 
@@ -326,7 +326,7 @@ window.YERLESIMLER_H2_AFRIKA = [
 // 📌 Ders: "biraz doğuya kaydırdım, artık Sudan'dadır" bir TAHMİNDİR.
 //   Dârfûr zinciri taşıyan bir noktanın Çad'da durması §3.5.1'in ta
 //   kendisidir (yanlış devletin toprağını boyamak) ve tahminle kapatılamaz.
-{ ad:"Tîne (Dârfûr)", tur:"sehir", lat:15.060, lon:23.000, g:0, k:4,
+{ ad:"Tîne (Dârfûr)",kaynak:"TDV `darfur` — aynı gerekçe",m:"El-Fâşir", tur:"sehir", lat:15.060, lon:23.000, g:0, k:4,
   s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)"}] },
 
@@ -965,15 +965,15 @@ window.YERLESIMLER_H2_AFRIKA = [
   d:[{f:"1557-01-01",t:"1885-02-05"}], v:[] },
 
 // ── Dârfûr (D zinciri) ─────────────────────────────────────────────────
-{ ad:"Mellît", tur:"sehir", lat:14.130, lon:25.570, g:0, k:4,
+{ ad:"Mellît",kaynak:"TDV `darfur` — aynı gerekçe",m:"El-Fâşir", tur:"sehir", lat:14.130, lon:25.570, g:0, k:4,
   s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)"}] },
 
-{ ad:"Şa'riyye", tur:"sehir", lat:12.900, lon:25.420, g:0, k:4,
+{ ad:"Şa'riyye",kaynak:"TDV `darfur` — aynı gerekçe",m:"El-Fâşir", tur:"sehir", lat:12.900, lon:25.420, g:0, k:4,
   s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)"}] },
 
-{ ad:"Radom", tur:"sehir", lat:9.950, lon:24.950, g:0, k:4,
+{ ad:"Radom",kaynak:"TDV `darfur` — aynı gerekçe. UYARI: bu Radom POLONYA'DAKİ şehir DEĞİL — koordinat 9,95°K/24,95°D, Güney Sudan/Darfur bölgesi (Radom Millî Parkı). ORHANGAZİ'nin şartnamesindeki 'Radom → Krakov' önerisi bu kaydı Polonya sanıyordu, YANLIŞ olurdu — s:/v: dizisi ötekilerle birebir aynı, Darfur kümesinin 11.'si.",m:"El-Fâşir", tur:"sehir", lat:9.950, lon:24.950, g:0, k:4,
   s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)"}] },
 
