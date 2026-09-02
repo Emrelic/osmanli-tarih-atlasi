@@ -147,7 +147,25 @@ Sınırlar elle çizilmez, hazır atlas kesitlerinden de gelmez. Her yerleşim
 çevresindeki toprağı temsil eden bir **petek** (Voronoi hücresi) sahibidir. Petek
 sınırı komşuların tam ortasından geçer, sonra gerçek kıyı çizgisine, nehir yataklarına
 ve dağ sırtlarına yaslanır, Chaikin ile yumuşatılır, Natural Earth kara maskesiyle
-kesilir, 89 göl çıkarılır (28 modern baraj gölü KASTEN bırakılır — anakronik delik açıyorlardı). Bir yerleşim el değiştirince peteği bütün olarak değişir.
+kesilir, **705** göl çıkarılır (28 modern baraj gölü KASTEN bırakılır — anakronik delik açıyorlardı). Bir yerleşim el değiştirince peteği bütün olarak değişir.
+
+> ⚠️ **BU PARAGRAFTAKİ SAYILAR KOŞUNUN LOGUNDAN GELİR, ELLE YAZILMAZ.**
+> 2 Eylül 2026'da **beşi birden** bayat çıktı ve hepsini bir işçi oturum
+> (OPUS HAZIR KITA 107) koşan üretimin **kendi logundan** ölçtü:
+> ```
+> göl              89 →  705      nehir parçası   187 →  293  (211 adlı akarsu)
+> dağ sırası      127 →  275      idarî bölge      61 →   77
+> çöl tavanı  "yapısal olarak hiçbir şey kesemez" → 60 petek · 1.297.338 km²
+> ```
+> 📌 Beşi de **dünya penceresi açıldıktan** (`box(-180,-60,180,85)`) sonra
+> bayatladı. Kusur ölçümde değil **anlatıda**: sayılar kodda dinamik, yalnız
+> yorumlar eski. Ve `uret_petek.py:888`inki ayrı bir sınıf — orada *"bu
+> mekanizma hiçbir şey yapmıyor"* yazıyordu ve **1,3 milyon km² kesiyordu**;
+> bir koordinatör o yoruma dayanıp Emre'ye *"çöl tavanı âtıl"* dedi ve
+> koşunun kendi logu onu çürüttü.
+> ⇒ **Bir sayı okumadan önce koşunun logunu aç.** `§1.5`in "elle yazma,
+> ÜRET" dersinin motor tarafı; orada çare bir betikti, burada henüz yok —
+> bu satır o borcun kaydıdır.
 
 Bütün geometri `data/yerlesimler.js`'ten **her gün için yeniden** üretilir.
 
