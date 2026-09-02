@@ -327,6 +327,48 @@ KAVRAM YOK        kaynak o kavramı HİÇ kullanmıyor
 İkincisi *"eksik"* değil **farklı bir tarih yazımıdır**. Karıştırılırsa bir
 gün biri *"eksik, tamamlayalım"* deyip kaynağın söylemediğini yazar.
 
+### 🆕 `v:[{… himaye:true}]` — ÜÇÜNCÜ GÖRSEL KADEME *(EMRE'nin kararı, 2 Eylül 2026)*
+
+Emre'nin kendi ifadesiyle:
+> *"Himaye ince Osmanlı kırmızısı şerit ile o ülke topraklarını çevreleyen
+> bir yapı olarak görülsün, iç bölge ülkenin kendi rengi olacak."*
+> *"Mohaç sonrası Macaristan himaye olsun — Macaristan etrafını Osmanlı
+> kırmızısı ile çevreleyelim, iç bölge kendi rengi olsun."*
+
+```js
+v:[{ f:"1526-08-29", t:"1541-08-29",
+     k:"Macaristan (Zapolya vasal krallığı)", himaye:true }]
+```
+
+**NİÇİN YENİ BİR ÜST ALAN DEĞİL:** himaye bir tâbilik **cinsidir**, ayrı bir
+sahiplik ekseni değil. Ayrı bir `h:` alanı açmak motoru, `app.js`i ve
+`denetle.py`yi baştan aşağı ikizlerdi. Ölçüldü — `v:` dönemleri bugün
+`f · t · k · enklav` taşıyor, **155 dönem · 33 ayrık `k:` etiketi**; bir
+boole eklemek 155 kaydın hiçbirini bozmuyor.
+
+**KURALLAR**
+```
+① `himaye` YOKSA bugünkü davranış — düz tâbi tonu. 155 kayıt DEĞİŞMEZ.
+② `himaye:true` ⇒ ÜÇÜNCÜ kademe: iç dolgu devletin KENDİ rengi,
+   çevresi ince Osmanlı kırmızısı ŞERİT.
+③ 🔴 TARAMA DESENİ KULLANILMAZ. Tarama bu projede ZATEN İŞGAL demek
+   (`app.js:970 isgalDesenleriKur`, 83 kayıt). Aynı deseni himayeye de
+   vermek iki ayrı siyasî durumu tek görsele bindirirdi — bu, kararı
+   destekleyen üç ölçülü gerekçeden biriydi.
+④ `k:` etiketi DURUYOR — himaye bir CİNS, `k:` ise o bağın ADI.
+   İkisi ayrı soruya cevap verir.
+```
+
+⚠️ **AD ÇAKIŞMASI ÖLÇÜLDÜ, VARSAYILMADI:** `himaye` · `bag` · `tabiyet` ·
+`kademe` dördü de `BILINEN_ALANLAR`da yoktu; `tur` **kullanımda**
+(yerleşim türü) olduğu için elendi. Aynı gün `baskent` adı iki eksende
+çakıştığı için reddedilmişti — o hata tekrarlanmadı.
+
+📌 Ve veri **zaten hazır**: `"Macaristan (Zapolya vasal krallığı)"`
+etiketiyle **5 kayıt** duruyor. Eksik olan sahiplik değil, **kademe.**
+
+---
+
 ### 🆕 `bk:` — ZAMANLI BAŞKENT *(karar: 1.MURAT, 2 Eylül 2026)*
 
 ```js
