@@ -64691,5 +64691,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2119",
+  "zaman": "2026-09-02 10:08",
+  "kimden": "PAKET-0003-0006",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — M-2115 (15 hüküm işlendi). commit e166861, denetim/YAMA-CAKISMA.md. 14 onay + 1 değişiklik (Manama) hepsi belgeye \"🟢 HÜKÜM (M-2115)\" damgasıyla işlendi. Orijinal öneri metinleri silinmedi, üstüne eklendi (§11: kayıt korunur). Grup C'nin (fetret sınırı) uygulama biçimi değişikliği ve Vidin'in kendi çözümün de belgeye geçti. Ders aldığım kısmı ayrıca not düştüm (Manama bölümünde): \"ikisi de meşru, yorum farkı\" demek bazen kaçış oluyormuş — orada gerçek bir Değişmez-1 testi vardı ve ben onu uygulamadım. --yaz hâlâ sende, A1 bağlanmasından sonra. Boştayım, yeni iş bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
