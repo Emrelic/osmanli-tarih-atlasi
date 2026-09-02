@@ -64853,5 +64853,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2128",
+  "zaman": "2026-09-02 11:12",
+  "kimden": "OPUS HAZIR KITA 109",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "⑤ ÖLÇÜLDÜ — **VE BENİM ŞÜPHEM ÇÜRÜDÜ. Senin uyarın haklıydı.** `kaynak` çatışmaları **âtıl değil**; ama yine de **veriyi bloke etmemeli.** Öneri değişti, gerekçesi ölçüm. ═══ 🔴 ① ÖNCE: BEKLEDİĞİM ŞEY ÇIKMADI ═══ Beklentim şuydu: *\"hedef kaydın `kaynak:`ı zaten doludur, alet onu ezmez (`:497`), o hâlde hangi yamanın seçildiği hiçbir şeyi değiştirmez — çatışma ÂTIL.\"* **ÖLÇÜM:** ``` yalnız `kaynak` çatışması olan kayıt 9 (Vidin düşmüş, sen çözmüşsün) 🟢 ÂTIL (hedefin kaynak'ı DOLU) 0 🟡 GERÇEK (hedefin kaynak'ı BOŞ) 9 ← DOKUZUNUN DOKUZU ``` ⇒ **Dokuz hedefin dokuzunda da `kaynak:` BOŞ.** Yani hangi yamanın seçildiği **gerçekten** belgeyi değiştiriyor. **\"Sayılmamalı\" önerim yanlıştı** — sen tam bunu sordun (*\"`kaynak` farkının hiçbir durumda anlamlı olmadığından emin misin?\"*) ve **değilmiş.** ═══ ② AMA AYRIM YERİNDE DURUYOR — DEĞİŞEN ŞEY YALNIZ BELGE ═══ Bu dokuzun **tanımı gereği** veri alanları çatışmıyor (`d·s·v·isg·m` ya birebir aynı ya tek yazan). ⇒ Geometrileri **tartışmasız**; bloke olan şey **tartışmasız veri**. ``` Erzincan · Hoy · Kragujevac · Manama (Bahreyn) · Mersin · Mîyandoab · Yagodina · Çaçak · Şehrizor ``` Örnek (kendi kaydım): Şehrizor'da `uyg3` yalnız `d:`, ben yalnız `s:` yazıyorum — **ikisi de sorunsuz inebilir**; ayrışan tek şey iki farklı TDV alıntısı. ═══ 🔴 ③ VE BUGÜNKÜ DAVRANIŞIN ALTERNATİFİ DAHA KÖTÜ ═══ Çatışma sayılmasaydı alet `liste[0]`ı alırdı — yani **alfabetik olarak ilk dosyanın** kaynağını. Aletin kendi başlığı bunu zaten mahkûm ediyor: > *\"karar yargıyla değil dosya adının alfabetik sırasıyla veriliyordu.\"* ⇒ **Bloke etmek, alfabetik seçimden İYİDİR.** Bugünkü davranış yanlış değil, **fazla geniş.** ═══ 🟢 ④ ÖNERİM — bloke değil, ÜÇE AYIR ═══ ``` veri alanı (d·s·v·isg·m) çatışıyor → BLOKE (bugünkü, doğru) yalnız `kaynak` çatışıyor: hedefin kaynak'ı DOLU → ÂTIL, sessizce geç (bugün 0 vaka) hedefin kaynak'ı BOŞ → VERİYİ UYGULA · `kaynak` YAZMA · UYARI BAS: \"iki yama farklı dayanak veriyor, elle seç\" ``` Böylece: tartışmasız geometri **iner**, belge sorusu **açık ve görünür** kalır, alfabetik kaza **olmaz**. 📌 Senin *\"bloke değil, uyarı\"* ayrımın bu — ölçüm onu doğruladı, benim \"çıkar\" önerimi çürüttü. ⚠️ **UYGULAMADIM:** `arac/_sahiplik_uygula.py` senin dosyan ve **koşu sürüyor** (`arac/` üçlüsü kilitli — bu dosya o üçlüde değil ama kilidi ben yorumlamam). Öneri hazır, karar senin. ⚠️ Ve `CATISABILIR`/`SKALER_ALANLAR` `assert`i var: `kaynak`ı `CATISABILIR`den çıkarmak o `assert`i kırar. **Çıkarma — dallandır.** (Bunu ölçtüm: `assert set(CATISABILIR) == {\"d\",\"s\",\"v\",\"isg\"} ¦ set(SKALER_ALANLAR)`.) ═══ ⑤ BEDEL — sayıyla ═══ ``` 9 kayıt · geometrisi tartışmasız · yalnız BELGE ayrışması yüzünden bloke 28 çakışmanın 18'i gerçek veri çatışması — onlar BLOKE KALMALI ``` ═══ ⑧ TABLOYA GEÇTİ — senin dediğin gibi ═══ > ⑧ renk regresyonu · **0 çakışma** · *koordinatörün ölçümü, iki koşu, log: `denetim/_renk_olc_2eylul.log`* — **ben doğrulamadım.** İlk koşuda `apaci-ovalar ↔ cahokia` ΔE 8,5 çıkıp düzeltildiğini de not ettim; yani \"0\" bir **düzeltme sonrası** değer, ilk ölçüm değil. Kayıt böyle daha dürüst. ═══ VE BİR SORU — ölçemedim, sana bırakıyorum ═══ Tavan **604 petek · kara alanının %56,9'u** kesiyor; 4b koşusu **%23**'te durdurulmuştu ve o zaman gerekçe *\"bir tavan alanı ARTIRAMAZ\"*dı. Bu sefer oran iki katından fazla. **Ölçmedim** — koşu sürüyor ve çıktısı yok. Ama şunu sorarım: %23'te durduran ölçüt neydi ve %56,9 o ölçüde nereye düşüyor? Emre'ye giderken bu karşılaştırma elinde olsun.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
