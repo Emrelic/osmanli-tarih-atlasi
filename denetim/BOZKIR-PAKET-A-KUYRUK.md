@@ -241,10 +241,50 @@ KONUŞUYORSA `devletsiz`.* Burada kaynak konuşuyor ve adını da koyuyor.
 **Gün hazır ve ±0:** külliyatta `1739-10-03` — *"Niş Antlaşması — Rusya ile
 barış"* (Belgrad'ın Rusya ayağı; `1739-09-18` Belgrad maddesi de var).
 
-🔴 **YAZMADIM.** Üç sebep: ① kayıt benim değil (yama gerekir), ② 35 yıllık bir
-**sahipsiz pencere** açar ve `Değişmez 1`in belgeli-boşluk kovasına doğru
-biçimde girmesi gerekir, ③ nokta `k=0` bir dolgu noktası — boşaltmanın petek
-etkisi ölçülmeli. **Koordinatör kararı.**
+~~🔴 **YAZMADIM.** Üç sebep: ① kayıt benim değil (yama gerekir), ② 35 yıllık bir
+**sahipsiz pencere** açar…~~
+
+> 🟢 **YAZILDI (tur 6).** Koordinatör kararı geldi ve ②'deki endişem **yersiz
+> çıktı**: `__BOSLUK__` bir *boşluk* değil bir **dönem**dir, `Değişmez 1` onu
+> SAHİPLİ sayar. Yama: `data/yer_yama_ok106.js`, `Kabartay (Nalçik)`.
+> Kuru koşu: `Kabartay (Nalçik)  yerlesimler.js  s+kaynak` → **İNEN.**
+>
+> **Ve koordinatörün önerdiği GÜNDEN saptım, sebebi kaynak:** o `1739-10-03`
+> (Niş) dedi; `1739-09-18` (Belgrad) yazdım, çünkü TDV cümlesi tarafsızlığı
+> **adıyla Belgrad Antlaşması'na** bağlıyor. Külliyatta ikisi de ±0 olurdu —
+> yani seçim **erişilebilirlikle değil KAYNAKLA** yapıldı (Kızıkermen'de
+> konan kuralın ikinci uygulaması).
+>
+> 🟡 **Daha iyi çözüm başkadır ve kayda geçti:** Kabardey beylikleri 1739-1774
+> arası yok olmadı, iki imparatorluğun **dışında** kaldılar. Doğrusu bir
+> `kabartay` künyesi açmaktır — ölçtüm, `devletler.js`te Kabartay/Çerkes/
+> Kumuk/Oset/Çeçen kimliği **YOK** (12 kalıp tarandı). `__BOSLUK__` onun
+> yerine geçen **dürüst bir ara çözümdür**; künye açılırsa bu dilim ona
+> çevrilmelidir.
+>
+> 🔴 **Ölçülmemiş ve "ölçtüm" demiyorum:** nokta `k=0` bir dolgu; bu dilimde
+> boyanmayı bırakmasının **petek etkisi** ancak bağlandıktan sonraki koşuda
+> ölçülebilir.
+
+---
+
+## 3.7 🔴 BALTA — KALICI `bulunamadı` DAMGASI (koordinatör onayı, tur 6)
+
+**Dört kaynak ailesi denendi, dördü de statüyü ayırt etmiyor:**
+```
+TDV `balta` · `balta--sehir`       302
+TDV `ozu`                          Balta adı GEÇMİYOR
+TDV `yas-antlasmasi`               toprakları tek tek saymıyor; Balta YOK
+Internet Encyclopedia of Ukraine   "belonged to Turkey until 1791" —
+                                   DOĞRUDAN mı TÂBİ mi AYIRT ETMİYOR
+```
+Ve ayrım atlasta **renk farkıdır** (`d:` koyu kırmızı ↔ `v:`/`kirim` açık),
+yani `§3.5.1`in *"Osmanlı fazla mı görünüyor?"* sınıfına doğrudan girer.
+⇒ **Kayıt açılmadı.** Bu bir eksiklik değil, ölçülmüş bir **sonuç**tur:
+*"arandı, dört kaynakta da yok."*
+🟢 Kazanç: bitiş günü hem külliyattan hem TDV'den doğrulandı —
+`1792-01-10`, TDV `yas-antlasmasi`: *"15 Cemâziyelevvel 1206 (10 Ocak 1792)"*.
+⇒ Statü kaynağı bir gün çıkarsa kayıt **tek turda** yazılır; yarısı hazır.
 
 `Arabat · Temrük · Kopıl · Açuyev · Sucuk Kale · Dubossary · Kodak`
 ```

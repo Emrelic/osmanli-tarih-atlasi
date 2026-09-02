@@ -86,6 +86,86 @@ window.YER_YAMA_OK106 = [
            "geçmiştir.\" · TDV huzistan — 1847 Erzurum ile \"Şattülarap " +
            "Osmanlılar'da kalmak üzere bu yerler Kaçarlar'a bırakıldı.\" · " +
            "TDV sattularap — \"1847 Mayısında Erzurum'da imzalanan\" antlaşma."
+  },
+
+  // ── KABARTAY (NALÇİK) — 35 YILLIK TARAFSIZLIK, `__BOSLUK__` ile ────
+  // 🔴 KUSUR: veri 1441'den 1774-07-21'e KESİNTİSİZ `kirim` diyor. Kaynak
+  //    o aralığın son 35 yılını AÇIKÇA çürütüyor.
+  //  TDV `kabartaylar` (200, gövde okundu), iki cümle — biri veride VAR,
+  //  öteki YOKTU:
+  //    "Belgrad Antlaşması (1739) … Kabartayların yaşadığı bölgeyi
+  //     TARAFSIZ BİR ÜLKE hâline getirmiştir."            ← veride YOKTU 🔴
+  //    "Küçük Kaynarca (1774) … Kabartayları Rusya ile birleştirdi"
+  //                                                        ← veride VAR ✓
+  //  Ve `kucuk-kaynarca-antlasmasi` maddesi bunu madde numarasıyla
+  //  doğruluyor: "Küçük ve Büyük Kabartaylar (md. 21) Rusya'ya
+  //  bırakılmaktaydı." ⇒ 1774-07-21 ucu DOĞRU, dokunulmadı.
+  //
+  // ═══ NİÇİN `__BOSLUK__`, NİÇİN BİR KİMLİK DEĞİL ═══
+  // ÖLÇTÜM: `data/devletler.js`te Kabartay/Çerkes/Kumuk/Oset/Çeçen
+  // kimliği **YOK** (aranan 12 kalıbın tamamı tarandı; yalnız `nogay`
+  // çıktı, o da başka bir halk). `renkler.py` de kilitli.
+  // ⇒ `__BOSLUK__`un `VERI-YAPISI.md`deki tanımı bu duruma BİREBİR uyuyor:
+  //   *"hiçbir künyenin kapsamadığı dilim … burası bu tarihlerde kimsenin
+  //   değildi, ve biz onu en yakın komşuya İTMİYORUZ."*
+  //   Kullanım kuralının iki şartı da sağlanıyor: kaynak Kırım'a ait
+  //   demiyor, ve komşuya (Kırım'a) itmek kaynağın açıkça reddettiği şey.
+  // 🟡 AMA DAHA İYİ ÇÖZÜM BAŞKA VE ONU DA YAZIYORUM: Kabardey beylikleri
+  //   1739-1774 arası YOK OLMADI, iki imparatorluğun DIŞINDA kaldılar.
+  //   Doğrusu bir `kabartay` KÜNYESİ açmak; `__BOSLUK__` onun yerine
+  //   geçen dürüst bir ARA ÇÖZÜMDÜR. Künye + renk işi `devletler.js` ve
+  //   `renkler.py`de, ikisi de benim dosyam değil. Açılırsa bu dilim
+  //   `__BOSLUK__`tan o künyeye çevrilmelidir.
+  //
+  // ═══ GÜN — KOORDİNATÖRÜN ÖNERDİĞİ GÜNDEN SAPTIM, SEBEBİ KAYNAK ═══
+  // Koordinatör `1739-10-03` (Niş Antlaşması) önerdi. **`1739-09-18`
+  // (Belgrad Antlaşması) yazdım**, çünkü TDV cümlesi tarafsızlığı
+  // ADIYLA o antlaşmaya bağlıyor: "Belgrad Antlaşması (1739) …".
+  // Külliyatta ikisi de var ve ikisi de ±0 olurdu:
+  //     1739-09-18  "Belgrad Antlaşması — Belgrad, Semendire ve kuzey
+  //                  Sırbistan'ın geri alınışı"
+  //     1739-10-03  "Niş Antlaşması — Rusya ile barış"
+  // ⚠️ Yani seçim ERİŞİLEBİLİRLİKLE YAPILMADI — ikisi de erişilebilirdi.
+  //    Seçim KAYNAĞIN ADLANDIRDIĞI antlaşmaya göre yapıldı. ±0 eşleşme
+  //    burada da bir YAN FAYDADIR, gerekçe değil (Kızıkermen'deki
+  //    kuralın ikinci uygulaması).
+  // 🟡 Ve bir belirsizliği kaydediyorum: 1739 Osmanlı-Rus barışı Belgrad'da
+  //    imzalandı, Niş ise onu tamamlayan sözleşmedir; külliyatın Belgrad
+  //    maddesi metninde AVUSTURYA cephesini anlatıyor. Yani gün doğru,
+  //    maddenin gövdesi bu kırılmanın konusunu tam anlatmıyor —
+  //    Kabartay'ın tarafsızlığı için ayrı bir madde yazılabilir.
+  //
+  // 🔴 ÖLÇÜLMEMİŞ, VE "ÖLÇTÜM" DEMİYORUM: `Kabartay (Nalçik)` `k=0` bir
+  //    DOLGU noktasıdır. Bu dilimde boyanmayı bırakması, çevredeki
+  //    peteklerin nasıl davranacağını değiştirir — petek etkisi ancak
+  //    BAĞLANDIKTAN SONRAKİ koşuda ölçülebilir.
+  {
+    ad: "Kabartay (Nalçik)",
+    // MEVCUT: s:[altinorda 1281→1441 · kirim 1441→1774-07-21 · rusya … ]
+    // Değişen TEK ŞEY: `kirim` dilimi 1739-09-18'de kesiliyor ve araya
+    // `__BOSLUK__` giriyor. Öteki dört dilim AYNEN korunuyor.
+    s: [
+      { f: "1281-01-01", t: "1441-01-01", d: "altinorda" },
+      { f: "1441-01-01", t: "1739-09-18", d: "kirim" },
+      { f: "1739-09-18", t: "1774-07-21", d: "__BOSLUK__" },
+      { f: "1774-07-21", t: "1917-03-15", d: "rusya" },
+      { f: "1917-03-15", t: "1917-11-07", d: "rusya-gecici-hukumet" },
+      { f: "1917-11-07", t: "1923-10-29", d: "sovyet-rusya" }
+    ],
+    kaynak: "kabartaylar",
+    neden: "TDV `kabartaylar` (gövde okundu): \"Belgrad Antlaşması (1739) … " +
+           "Kabartayların yaşadığı bölgeyi TARAFSIZ BİR ÜLKE hâline " +
+           "getirmiştir\" ve \"Küçük Kaynarca (1774) … Kabartayları Rusya ile " +
+           "birleştirdi\". Veri ikinci cümleyi taşıyordu, birincisini " +
+           "taşımıyordu; 1739-1774 arası 35 yıl `kirim` boyanıyordu. " +
+           "`__BOSLUK__` seçildi çünkü devletler.js'te Kabartay/Çerkes/Kumuk/" +
+           "Oset/Çeçen kimliği YOK (ölçüldü) — doğrusu bir `kabartay` künyesi " +
+           "açmaktır, bu dürüst bir ARA ÇÖZÜMDÜR. GÜN: koordinatörün önerdiği " +
+           "1739-10-03 (Niş) yerine 1739-09-18 (Belgrad) alındı, çünkü TDV " +
+           "tarafsızlığı ADIYLA Belgrad Antlaşması'na bağlıyor; külliyatta " +
+           "ikisi de ±0 olurdu, yani seçim erişilebilirlikle değil KAYNAKLA " +
+           "yapıldı. Nokta k=0 dolgu olduğu için petek etkisi ÖLÇÜLMEDİ — " +
+           "bağlandıktan sonraki koşuda ölçülecek."
   }
 
 ];
