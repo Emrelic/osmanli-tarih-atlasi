@@ -53,7 +53,6 @@ window.YER_YAMA_P0037 = [
 { dosya:"olaylar_ek5.js", t:"1860-05-30", b:"Cebel-i Lübnan'da Dürzî-Mârûnî iç savaşı ve Şam olayları",
   eksik_nokta:{ ad:"Deyrülkamer (Deir el-Kamer)", enlem:33.696, boylam:35.565,
                 kaynak:"TDV `lubnan` (gövdesi okundu): 'Mayıs ayında Sayda yakınlarında öldürülen iki Dürzî bölgenin bilinen en kanlı Dürzî-Mârûnî çatışmasına yol açtı ... çatışmalar haziran boyunca devam etti'; Deyrülkamer Cebel-i Lübnan emirliğinin merkezi ve 1860 katliamının ana sahnesi — yer seçimi genel akademik/coğrafî bilgi. Koordinat: coğrafî bilgi." },
-  not:"p0037/H-0004 — Emre: 'bu olayın haritadaki yerini işaretlemeli'. Madde olaylar_ek5.js'te, `yer_id` YOK (ölçüldü: grep 0), `yer:` alanı 'Cebel-i Lübnan, Şam' iki yer sayıyor. Tek yerleşim seçilemeyeceği için `yer_kon` (petek almaz, toprak boyamaz) tercih edildi; Şam'daki Temmuz olayları ayrı bir yer olarak maddenin metninde duruyor.",
-  kaynak:"TDV `lubnan`" }
+  not:"p0037/H-0004 — Emre: 'bu olayın haritadaki yerini işaretlemeli'. Madde olaylar_ek5.js'te, `yer_id` YOK (ölçüldü: grep 0), `yer:` alanı 'Cebel-i Lübnan, Şam' iki yer sayıyor. Tek yerleşim seçilemeyeceği için `yer_kon` (petek almaz, toprak boyamaz) tercih edildi; Şam'daki Temmuz olayları ayrı bir yer olarak maddenin metninde duruyor. Kaynak: TDV `lubnan` (eksik_nokta.kaynak içinde). ⚠️ Bu kayıtta ÜST DÜZEY `kaynak:` alanı KASTEN YOK: `_sahiplik_uygula.py` `kaynak` gören her kaydı toplayıp `ad` bulamayınca SESSİZCE atlıyordu (1.MURAT'ın 2 Eyl 01:05 bulgusu). Kayıt aile A'nındır (`yama_uygula.js`, dosya+t+b anahtarı), aile C onu görmemeli." }
 
 ];
