@@ -71,6 +71,9 @@ koordinatör kaynağı tahtadan kendi bulmalı.**
 
 ## ④ İTTİFAK ANİMASYONU — tasarım hazır, kod yok
 **ÖLÇÜLMÜŞ, İKİ BAĞIMSIZ RAPOR AYNI KONUYA ÇIKIYOR**
+**🟢 ONAYLANDI (M-2104, 2 Eylül) — parti-emrelic-0030/H-0003'ün "senin-kararin"
+sevk sorusu buraya YÖNLENDİRİLDİ, resmen ARAYÜZ kuyruğunun kalemi. Bkz.
+denetim/HUKUM-P0003.json.**
 
 ```
 kaynak   parti-emrelic-0030/H-0003 · parti-emrelic-0023/H-0003

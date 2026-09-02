@@ -33,5 +33,69 @@
    "not": "GEÇERSİZ HÜKÜM DÜZELTİLDİ — 'baska-ise-bagli' geçerli kümede yok (cozuldu/zaten-dogru/tekrar/sirada/olculecek/gerek-yok/senin-kararin). OLÇTÜM: kaynağı HUKUM-VERI-EMILME.json — teşhis kendi içinde net: 'Görsel yanlış bölgeyi gösteriyor (Kosova Ovası değil, Doğu Bulgaristan/Dobruca) — kronoloji maddesine tıklayınca haritanın o konuma KAYMAMASI bir ARAYÜZ (js/app.js) sorunu, veri/emilme sorunu değil.' Yani bu madde §2 emilme kusuru DEĞİL, kronoloji-tıklama→harita-odaklanma (click-to-pan) hatası. NEDEN 'sirada' DEĞİL (H-0047/H-0102'nin 'MOTOR ÜÇ KALEM'e bağlı' deseninin aksine): grep ettim (js/app.js, YAPILACAKLAR.md) — bu spesifik click-to-pan hatası için AKTİF/BİLİNEN bir ARAYÜZ kalemi YOK; var olan ARAYÜZ backlog kalemleri (idarî katman düğmesi, bölge etiketleri, künye paneli) başka konular. ⇒ Yönlendirilecek hazır bir kuyruk yok, YENİ bir ARAYÜZ kalemi açılması gerekiyor ya da mevcut bir işe eklenmesi — bu senin kararın. NOT: bu benim (kronoloji/veri) dosyalarımın dışında, js/app.js'e dokunmadım."
   }
  },
- "_kaynak": "PAKET-0003-0006 (Sonnet) — C1+C2 hazirlik, 2 Eylul 2026. Yontem: git log + dogrudan dosya okuma (data/yer_yama_iran.js, data/bos_alanlar.js, data/yer_yama_emilme2.js, js/app.js) ile her iki tarafin (eski/yeni) kaynak HUKUM-*.json dosyasinin TARIHI ve ICERIGI karsilastirildi. arac/*.py'ye hic dokunulmadi (kilitli)."
+ "_kaynak": "PAKET-0003-0006 (Sonnet) — C1+C2 hazirlik, 2 Eylul 2026. Yontem: git log + dogrudan dosya okuma (data/yer_yama_iran.js, data/bos_alanlar.js, data/yer_yama_emilme2.js, js/app.js) ile her iki tarafin (eski/yeni) kaynak HUKUM-*.json dosyasinin TARIHI ve ICERIGI karsilastirildi. arac/*.py'ye hic dokunulmadi (kilitli).",
+ "parti-emrelic-0010": {
+  "H-0001": {
+   "hukum": "cozuldu",
+   "not": "KOORDINATOR ONAYI (M-2104, 2 Eylul): DUSSUN. Atlas kuyrugu atlas isleri icindir; ClaudEmre kutusuna tek satirlik kayit gitsin. TAKIP: bu kayit ClaudEmre/kutu tarafina BENIM ULASAMADIGIM bir sevk - repo disi, bu benim islem alanim disinda, koordinator ya da Emre'nin kendi elle yapmasi gerekiyor."
+  }
+ },
+ "parti-emrelic-0012": {
+  "H-0001": {
+   "hukum": "sirada",
+   "not": "KOORDINATOR ONAYI (M-2104): (a) enklav doldurma UYGULANSIN - parametresiz, risksiz. UYGULANMADI - motor (arac/uret_petek.py) isi, dosya KILITLI (kosu suruyor). Kosu bitince motor oturumuna/koordinatore dusuyor."
+  },
+  "H-0002": {
+   "hukum": "sirada",
+   "not": "KOORDINATOR ONAYI (M-2104): (b) cok yonlu takviye ONAYLANMADI - AYRI kalem, once (a) kossun, ETKISI OLCULSUN, sonra (b) tartisilsin. (a) uygulanip olculmeden bu madde ilerleyemez."
+  }
+ },
+ "parti-emrelic-0019": {
+  "H-0075": {
+   "hukum": "sirada",
+   "not": "KOORDINATOR ONAYI (M-2104): (a) ince Osmanli seridi + ic renk kendi rengi ONAYLANDI - Emre zaten (a)'yi secmisti, iscinin uc gerekcesi olcumle destekliyor. UYGULANMADI: hangi kayitlarin 'himaye' sayilacagi henuz olculmedi (iscinin kendi notu: OLCMEDIM), veri tarafinda yeni bir kademe alani gerekiyor. js/app.js + veri, ikisi de benim degil."
+  }
+ },
+ "parti-emrelic-0025": {
+  "H-0005": {
+   "hukum": "sirada",
+   "not": "KOORDINATOR ONAYI (M-2104): Kraliyet Macaristani ayri kunye ACILSIN (c sikki). SIRA BAGLAYICI: once RENK, sonra KUNYE, sonra VERI - renksiz kunye harita deligi olur (CLAUDE.md S8). UCU DE UYGULANMADI. DOSYA: data/devletler.js + data/yerlesimler.js, ikisi de benim degil."
+  }
+ },
+ "parti-emrelic-0030": {
+  "H-0006": {
+   "hukum": "sirada",
+   "not": "KOORDINATOR ONAYI (M-2104): dugme GIDECEGI durumu yazsin (0030 kazandi, 0027/H-0012'nin BULUNDUGU-durum kurali GERI ALINDI). UYGULANMADI - js/app.js degisikligi, benim dosyam degil."
+  },
+  "H-0003": {
+   "hukum": "cozuldu",
+   "not": "KOORDINATOR ONAYI (M-2104): ARAYUZ'e sevk edildi. UYGULANDI: denetim/KUYRUK-ARAYUZ-P0003.md'ye kalem olarak eklendi (bkz. o dosyanin ④ Ittifak Animasyonu maddesi, artik 'ONAYLANDI: arayuz kuyruguna resmi olarak eklendi' notuyla)."
+  }
+ },
+ "parti-emrelic-0031": {
+  "H-0005": {
+   "hukum": "sirada",
+   "not": "KOORDINATOR ONAYI (M-2104): (b) BUGUN UYGULANSIN, VE '(c) DOGRUSUYDU, (b) ile 0031/H-0019 ORTULDU' diye ACIKCA kaydedilsin - kayitsiz bir ortme yarin kusur diye yeniden bulunur (koordinatorun kendi cumlesi). UYGULANMADI: js/app.js katman sirasi degisikligi, Oturum 1'in dosyasi, benim degil."
+  },
+  "H-0019": {
+   "hukum": "sirada",
+   "not": "H-0005 ile BIRLIKTE karar verildi ve BIRLIKTE uygulanacak. Bkz. H-0005."
+  },
+  "H-0022": {
+   "hukum": "sirada",
+   "not": "KOORDINATOR ONAYI (M-2104): (b) sikki ONAYLANDI - Avrupa yakasina 1453-05-29'a kadar Bizans olan yeni bir alan noktasi. UYGULANMADI: yeni NOKTA yazimi gerekiyor, bana/kimseye henuz verilmedi."
+  }
+ },
+ "parti-emrelic-0038": {
+  "H-0006": {
+   "hukum": "sirada",
+   "not": "TEYIT ISTENDI (M-2104), OLCTUM (py arac/_yama_indi_mi.py, SIMDI kosturuldu): KAPANMADI. data/yer_yama_kafkas.js'in 19 kaydinin 19'u HALA canli veriden FARKLI (0/19 inmis, ayni sayilar 8 Agustos'taki gibi). Koordinatorun kararı (--yaz kosunun kosu sonrasi calistirilmasi) HENUZ UYGULANMADI - karar verildi ama is yapilmadi. Hukmu 'senin-kararin'dan 'sirada'ya cektim cunku karar ARTIK YOK, yalniz uygulama bekleniyor (kosu bitmesi + --yaz calismasi)."
+  }
+ },
+ "parti-emrelic-0039": {
+  "H-0006": {
+   "hukum": "cozuldu",
+   "not": "TEYIT ISTENDI (M-2104), OLCTUM (arac/girdi.py ile canli veri dogrudan okundu): KAPANDI. Bukres VE Yas'in ikisi de simdi dogru: s:[...eflak/bogdan...,{f:1878-07-13,t:1923-10-29,d:'romanya'}] - voyvodalik bitisi (1878-07-13) ile romanya baslangici TAM ORTUSUYOR, 42 yillik hayalet BOSLUK YOK. Koordinatorun 'ben cozecegim' dedigi mudahale basarili olmus."
+  }
+ }
 }
