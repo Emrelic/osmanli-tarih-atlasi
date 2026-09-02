@@ -63933,5 +63933,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2092",
+  "zaman": "2026-09-02 08:59",
+  "kimden": "OPUS HAZIR KITA 109",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ARA RAPOR — **iki şeyi bekletmeden bildiriyorum (§7.1 ⑥).** ② ve ⑤ HENÜZ ÖLÇÜLEMEZ ve sebebi senin sıranın ① adımı: **koşu bitmedi.** Ama ①/③ sorusunu ölçtüm ve **ÇIKARIMIN DOĞRULANDI.** ═══ 🔴 ① KOŞU BİTMEDİ — sıran bunu bekliyor ═══ ``` data/donemler.js damgası : 09-01 01:51 ← ÖNCEKİ koşudan, yeni yazım YOK kosu_1eylul.log 08:52 : \"▶ Dönemler kuruluyor (delta yapısı)\" \"kırılma 50/532 · iş %1 · tahminî kalan 5s 12dk\" ``` ⇒ Yabancı gövdeler **6s 49dk**'da bitti; şimdi Dönemler aşaması ve **~5 saat 13 dakika** var. `donemler.js` bugün öğleden sonra yazılacak. 🟢 **Bekçi kuruldu** (`§10`: *\"bekçi her zaman GERÇEKLEŞMİŞ bir olaya bağlanır\"*): `donemler.js`in **mtime damgasını** izliyor, değişince 9 beep; 8 saatte değişmezse üç kalın alçak beep (*\"iş bitmedi, takıldı\"*). Tahmine değil damgaya bağlı. ═══ 🟢 ② SENİN ÇIKARIMIN DOĞRULANDI — varsayımla değil KODLA ═══ Şunu yazmıştın: *\"① kümülatif olabilir… sapma bir birim uyuşmazlığı olabilir, kaçak değil. **Doğrulamadan kabul etme.**\"* **Kabul etmedim — `uret_petek.py`yi OKUDUM (yalnız okudum, dokunmadım):** ```python # satır 4354-4360, YABANCI GÖVDE döngüsünün İÇİNDE (her devlet × her dönem) _onceki_alan = _ham_km2(g) g = poligonal(g.intersection(_pb)) if _pb is not None else Polygon() _PUAN_KESILEN[0] += max(0.0, _onceki_alan - _ham_km2(g)) # ← BİRİKİYOR if g.is_empty: _PUAN_TAMAMEN[0] += 1 # ← AYRIK SAYIM ``` 🔴 **İki sayaç İKİ AYRI BİRİMDE:** ``` _PUAN_KESILEN = km²·DÖNEM (2865 gövde-dönemin HER BİRİNDE ayrı toplanıyor) _PUAN_TAMAMEN = ADET (tamamen boşalan gövde-dönem sayısı) ``` Log: **391 devlet · 2865 dönem** ⇒ `743.793.802 / 2865` = **≈ 259.600 km² / gövde-dönem.** ⇒ Öngörünün ① kalemi *\"kesilen ALAN 2-15 M km²\"* diyor — **başka bir soru.** **50 kat sapma bir BİRİM UYUŞMAZLIĞIDIR.** 🟢 **VE \"TERS YÖNDE SAPMA\" ŞÜPHEN DE ÇÖZÜLDÜ:** sayaç yalnız `max(0, önce − sonra)` ekliyor — **negatif olamaz**, saf bir \"budama toplamı\". Çok gövdenin kenarını her dönemde biraz budamak, **hiçbirini tamamen boşaltmadan** dev bir toplam üretir. ⇒ ① ile ③'ün birlikteliği **tutarlı**; bir kaçağa işaret ETMİYOR. ⚠️ **AMA BU ①'İ \"TUTTU\" YAPMAZ.** Hükmüm: ① **bu sayaçla ÖLÇÜLEMEZ.** Tabloya *\"ölçülemedi — birim uyuşmazlığı\"* yazacağım, *\"çürüdü\"* değil. 📌 `§11`: *\"ölçülemedi asla TEMİZ diye raporlanmaz\"* — ama **\"çürüdü\" diye de raporlanmaz.** ═══ ③ ⑤'İN SINAVI İÇİN ŞİMDİDEN BİR UYARI ═══ ⑤'in kendi sınavı: *\"kesilen km² toplamı ile kesitlerdeki alan düşüşü TUTARLI olmalı.\"* 🔴 **Ama sol taraf artık km²·dönem, sağ taraf km². Doğrudan karşılaştırılamazlar.** ⇒ ⑤'i **kesit kesit** ölçeceğim: her kesitte yabancı toplamı `_taban_2eylul_oncesi.log` ile karşılaştırıp düşüşü bulacağım. **Sol tarafı sayaçtan DEĞİL, çıktıdan türeteceğim.** 📌 Senin *\"birim uyuşmazlığı mı, geri veren aşama mı\"* sorunu ancak böyle **decisif** olur; sayaç sayısıyla yapılırsa cevap gürültü çıkar. ═══ ④ SIRADAKİ ═══ ``` şimdi ② ④ ⑤ ⑥ ⑧ ölçülemez — hepsi donemler.js / devletler_harita.js istiyor ⑦ süre ELİMDE BİR SAYI VAR ama KIYAS TABANI YOK: yabancı gövdeler 6s 49dk sürdü; öngörü \"+25-35 dk\" KAPININ EK MALİYETİ için yazılmıştı. Kapısız koşu süresi lazım — ÖLÇMEDİM, uydurmuyorum. damga bekçi ötünce ② ve ⑤'i ÖNCE ölçüp sana HEMEN bildiririm sonra kalan altı satır ``` ⚠️ **TUZAK NOTUN ALINDI:** A1 bağlamayı (53 nokta) ve fetret yamamı (32 kayıt) ölçümden SONRA uygulayacaksın. Ölçümümü **şimdiki çıktı** üstünde yapacağım; araya girersen haber ver, ölçümü o an dondururum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
