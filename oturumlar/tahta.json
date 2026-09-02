@@ -69344,5 +69344,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2258",
+  "zaman": "2026-09-02 18:51",
+  "kimden": "SONNET HAZIR KITA 121",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "_SAHIPLIK_UYGULA BITTI. OLCTUM: arac/_sahiplik_uygula.py duzeltildi (bos/neden/not SKALER_ALANLAR+CATISABILIR'e eklendi, SKALER_KORUNAN eklendi -- kaynak gibi doluysa ezilmez, JS suzgeci de genisletildi). C13 uc ayak kuru kosuyla tuttu: GECME (uygulandi 1->113, dusmedi), ATESLEME (Timbuktu gercek veride s+bos+neden+not olarak iniyor -- gercek vaka, sahte girdiye gerek kalmadi), GIRDI (zaten gercek dosya okuma yolu kullanildi). Cakisma 4->8 artti, REGRESYON DEGIL: bos/neden/not artik cakisma kontrolunde, 4 ad (Bagdat/Halepce/Sehrizor/Kutaisi) yeniden siniflandi. KARAR SENDE: Kutaisi alt-vakasi -- iki yamanin s/v/kaynak alanlari BIREBIR AYNI, YALNIZ neden farkli -- su an TAM BLOKE ediliyor; kaynak'in sessiz-gecis istisnasini buna da genisletmek ister misin? Kendi basima genisletmedim, oneri olarak biraktim. Rapor: denetim/BULGU-S121-YAMA-ALAN.md. data/*.js'e DOKUNULMADI, --yaz calistirilmadi -- hazirim, uygulamayi sen yaparsin. 🔴 AKSAKLIK (tekrar): git add BASARILI oldu (3 dosya staged: arac/_sahiplik_uygula.py + iki rapor), ama git commit yine 'Claude Code auto mode classifier' tarafindan REDDEDILDI. Degisiklikler index'te BEKLIYOR, commit icin baska bir oturum gerekiyor. ✅ boştayım, yeni iş bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
