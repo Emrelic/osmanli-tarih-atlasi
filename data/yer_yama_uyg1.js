@@ -64,32 +64,48 @@ window.YER_YAMA_UYG1 = [
  not:"Kahul (Cahul) ve Bolgrad (Bolhrad) AYNI olayın parçası ama data/yerlesimler*.js'te KAYIT YOK (py arac/_yer_ara.py ile sınandı: 'Kahul'·'Cahul'·'Kagul'·'Bolgrad'·'Bolgrado' hepsi 0 eşleşme) — İKİSİ DE YENİ NOKTA, yer_yama'ya yazılmadı, koordinatöre DEVREDİLİYOR. Yaklaşık koordinat (doğrulanmadı, yalnız yönlendirme için): Kahul/Cahul ~45,90K/28,19D · Bolgrad/Bolhrad ~45,67K/28,61D. İkisi de eklenirse İsmail'le AYNI s:/v: deseni (bogdan → Boğdan Voyvodalığı → rusya → Boğdan Voyvodalığı(1856-1878) → rusya) uygulanabilir; kuruluş tarihleri ve önceki dönemleri (1281'den itibaren) TDV ile ayrıca sınanmalı, ben yalnız İsmail'i sınadım."
 },
 
-{ad:"Kars",
- s:[
-   {f:"1281-01-01", t:"1534-06-01", d:"gurcistan"},
-   {f:"1877-11-18", t:"1918-05-25", d:"rusya"}
- ],
- d:[
-   {f:"1534-06-01", t:"1877-11-18"},
-   {f:"1918-05-25", t:"1923-10-29"}
- ],
- kaynak:"TDV `doksanuc-harbi` — gövdesi okundu (WebFetch, 2026-08-29): \"General Lazarov'un idaresindeki kuvvetler ... 18 Kasım'da Kars'ı ele geçirdiler.\" (1877). Eski kayıt 1878-07-13'e (Berlin Antlaşması, resmî devir günü) kadar Osmanlı gösteriyordu — oysa şehir FİİLEN 8 ay önce, kuşatmayla düşmüştü.",
- neden:"p0037/H-0009 (ORHANGAZİ, tahta M-1460/M-1494) — Kars'ın düşüşü kronoloji panelinde VAR ('Kars'ın düşüşü — Doğu cephesinin çözülmesi ve Aziziye tabyaları', 1877-11-18, olaylar_ek*.js) ama haritada karşılığı yoktu, çünkü veri Berlin Antlaşması gününü (siyasi devir) kullanıyordu, fiilî düşüş gününü değil. ⚠️ ORHANGAZİ'nin uyardığı 'tek başına düzeltilirse enklav' riski ÖLÇÜLDÜ ve GERÇEK DEĞİL: Ardahan da AYNI turda 1877-05-17'ye çekildi (aşağıda), böylece iki nokta birlikte ve tutarlı hareket ediyor. Batum'a DOKUNULMADI — TDV `doksanuc-harbi` Batum'un savaş sırasında ele geçirildiğini hiç yazmıyor, yalnız Berlin Antlaşması'yla (1878-07-13) devredildiğini biliyoruz; yani Batum'un mevcut kaydı zaten DOĞRU. Kars+Ardahan'ın 1877'de düşüp Batum'un 1878'e kadar dayanması TARİHEN GERÇEK bir örtüşme (Rus kuşatmasına direnen liman kalesi), sahte enklav değil.",
- gun_dogrulama:"1877-11-18: data/olaylar*.js'te 'Kars'ın düşüşü — Doğu cephesinin çözülmesi ve Aziziye tabyaları' 0 gün farkla ZATEN maddeli — bu YENİ bir kırılma değil, var olan bir maddenin haritaya BAĞLANMASI."
-},
+// 🔴 BİRLEŞİMLE DÜŞTÜ — SİLİNMEDİ, YORUMA ÇEVRİLDİ (kayıt korunur)
+//    hüküm  : denetim/YAMA-CAKISMA.md · M-2116 (1.MURAT)
+//    kazanan: data/yer_yama_birlesim_1murat.js — İKİ yamanın farklı
+//             katmanları orada TEK kayıtta birleştirildi (c8e535f)
+//    uygulayan: OPUS HAZIR KITA 109 · 2 Eylül 2026 · sevk M-2134
+//    ⚠️ Bu kaydın katkısı KAYBOLMADI: birleşim kaydı hem `d:` hem
+//       `s:` taşıyor ve ölçülerek doğrulandı.
+//       Hükmün yanlış olduğunu düşünen KOORDİNATÖRE yazsın.
+// {ad:"Kars",
+//  s:[
+//    {f:"1281-01-01", t:"1534-06-01", d:"gurcistan"},
+//    {f:"1877-11-18", t:"1918-05-25", d:"rusya"}
+//  ],
+//  d:[
+//    {f:"1534-06-01", t:"1877-11-18"},
+//    {f:"1918-05-25", t:"1923-10-29"}
+//  ],
+//  kaynak:"TDV `doksanuc-harbi` — gövdesi okundu (WebFetch, 2026-08-29): \"General Lazarov'un idaresindeki kuvvetler ... 18 Kasım'da Kars'ı ele geçirdiler.\" (1877). Eski kayıt 1878-07-13'e (Berlin Antlaşması, resmî devir günü) kadar Osmanlı gösteriyordu — oysa şehir FİİLEN 8 ay önce, kuşatmayla düşmüştü.",
+//  neden:"p0037/H-0009 (ORHANGAZİ, tahta M-1460/M-1494) — Kars'ın düşüşü kronoloji panelinde VAR ('Kars'ın düşüşü — Doğu cephesinin çözülmesi ve Aziziye tabyaları', 1877-11-18, olaylar_ek*.js) ama haritada karşılığı yoktu, çünkü veri Berlin Antlaşması gününü (siyasi devir) kullanıyordu, fiilî düşüş gününü değil. ⚠️ ORHANGAZİ'nin uyardığı 'tek başına düzeltilirse enklav' riski ÖLÇÜLDÜ ve GERÇEK DEĞİL: Ardahan da AYNI turda 1877-05-17'ye çekildi (aşağıda), böylece iki nokta birlikte ve tutarlı hareket ediyor. Batum'a DOKUNULMADI — TDV `doksanuc-harbi` Batum'un savaş sırasında ele geçirildiğini hiç yazmıyor, yalnız Berlin Antlaşması'yla (1878-07-13) devredildiğini biliyoruz; yani Batum'un mevcut kaydı zaten DOĞRU. Kars+Ardahan'ın 1877'de düşüp Batum'un 1878'e kadar dayanması TARİHEN GERÇEK bir örtüşme (Rus kuşatmasına direnen liman kalesi), sahte enklav değil.",
+//  gun_dogrulama:"1877-11-18: data/olaylar*.js'te 'Kars'ın düşüşü — Doğu cephesinin çözülmesi ve Aziziye tabyaları' 0 gün farkla ZATEN maddeli — bu YENİ bir kırılma değil, var olan bir maddenin haritaya BAĞLANMASI."
+// },
 
-{ad:"Ardahan",
- s:[
-   {f:"1281-01-01", t:"1551-01-01", d:"gurcistan"},
-   {f:"1877-05-17", t:"1918-05-25", d:"rusya"}
- ],
- d:[
-   {f:"1551-01-01", t:"1877-05-17"},
-   {f:"1918-05-25", t:"1923-10-29"}
- ],
- kaynak:"TDV `doksanuc-harbi` gövdesi okundu ama gün VERMİYOR ('General Melikof'un idare ettiği kuvvetler ... Ardahan'a girdiler', tarihsiz). Gün için AKADEMİK kaynağa çıkıldı (§4 kırmızı çizgi): W.E.D. Allen & Paul Muratoff, *Caucasian Battlefields* (Cambridge University Press, 1953) — bu kampanyanın standart askerî tarih referansı — Ardahan'ın düşüşünü 17 Mayıs 1877 olarak verir; tarih ayrıca güncel ikincil literatürde (ör. 'Battle of Ardahan' genel kaynakları) bağımsız doğrulanmış görünüyor. TDV bu GÜNÜ vermiyor ama olayın 1877'de, savaşın erken safhasında olduğunu doğruluyor — çelişki yok, yalnız TANECİKLİK farkı (§4).",
- neden:"p0037/H-0009 — Kars'ı tek başına düzeltmek Ardahan hâlâ 1878'e bağlıyken sahte bir enklav doğuracaktı (ORHANGAZİ'nin uyarısı); Ardahan da aynı savaşın aynı türde kalemi olduğu için BİRLİKTE düzeltildi.",
- gun_dogrulama:"1877-05-17: çekirdekte en yakın madde 'Rusya'nın savaş ilânı — Doksanüç Harbi'nin başlaması' (1877-04-24), 23 gün fark — ±30 gün içinde, Değişmez 2 için yeterli, yeni madde gerekmiyor."
-}
+// 🔴 BİRLEŞİMLE DÜŞTÜ — SİLİNMEDİ, YORUMA ÇEVRİLDİ (kayıt korunur)
+//    hüküm  : denetim/YAMA-CAKISMA.md · M-2116 (1.MURAT)
+//    kazanan: data/yer_yama_birlesim_1murat.js — İKİ yamanın farklı
+//             katmanları orada TEK kayıtta birleştirildi (c8e535f)
+//    uygulayan: OPUS HAZIR KITA 109 · 2 Eylül 2026 · sevk M-2134
+//    ⚠️ Bu kaydın katkısı KAYBOLMADI: birleşim kaydı hem `d:` hem
+//       `s:` taşıyor ve ölçülerek doğrulandı.
+//       Hükmün yanlış olduğunu düşünen KOORDİNATÖRE yazsın.
+// {ad:"Ardahan",
+//  s:[
+//    {f:"1281-01-01", t:"1551-01-01", d:"gurcistan"},
+//    {f:"1877-05-17", t:"1918-05-25", d:"rusya"}
+//  ],
+//  d:[
+//    {f:"1551-01-01", t:"1877-05-17"},
+//    {f:"1918-05-25", t:"1923-10-29"}
+//  ],
+//  kaynak:"TDV `doksanuc-harbi` gövdesi okundu ama gün VERMİYOR ('General Melikof'un idare ettiği kuvvetler ... Ardahan'a girdiler', tarihsiz). Gün için AKADEMİK kaynağa çıkıldı (§4 kırmızı çizgi): W.E.D. Allen & Paul Muratoff, *Caucasian Battlefields* (Cambridge University Press, 1953) — bu kampanyanın standart askerî tarih referansı — Ardahan'ın düşüşünü 17 Mayıs 1877 olarak verir; tarih ayrıca güncel ikincil literatürde (ör. 'Battle of Ardahan' genel kaynakları) bağımsız doğrulanmış görünüyor. TDV bu GÜNÜ vermiyor ama olayın 1877'de, savaşın erken safhasında olduğunu doğruluyor — çelişki yok, yalnız TANECİKLİK farkı (§4).",
+//  neden:"p0037/H-0009 — Kars'ı tek başına düzeltmek Ardahan hâlâ 1878'e bağlıyken sahte bir enklav doğuracaktı (ORHANGAZİ'nin uyarısı); Ardahan da aynı savaşın aynı türde kalemi olduğu için BİRLİKTE düzeltildi.",
+//  gun_dogrulama:"1877-05-17: çekirdekte en yakın madde 'Rusya'nın savaş ilânı — Doksanüç Harbi'nin başlaması' (1877-04-24), 23 gün fark — ±30 gün içinde, Değişmez 2 için yeterli, yeni madde gerekmiyor."
+// }
 
 ];

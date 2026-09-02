@@ -55,31 +55,55 @@
 // ============================================================================
 window.YER_YAMA_OK107 = [
 
-{ ad:"Nusaybin",
-  s:[{f:"1281-01-01",t:"1507-01-01",d:"akkoyunlu"},
-     {f:"1507-01-01",t:"1515-09-19",d:"safevi"},
-     {f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet"}],
-  d:[{f:"1515-09-19",t:"1918-10-30"},
-     {f:"1921-10-20",t:"1923-10-29"}],
-  kaynak:"nusaybin",
-  not:"H-0015 · d: 1515-01-01 -> 1515-09-19 (enklav ve alakasiz-madde kusuru). TDV nusaybin govdesi okundu." },
+// 🔴 BİRLEŞİMLE DÜŞTÜ — SİLİNMEDİ, YORUMA ÇEVRİLDİ (kayıt korunur)
+//    hüküm  : denetim/YAMA-CAKISMA.md · M-2116 (1.MURAT)
+//    kazanan: data/yer_yama_birlesim_1murat.js — İKİ yamanın farklı
+//             katmanları orada TEK kayıtta birleştirildi (c8e535f)
+//    uygulayan: OPUS HAZIR KITA 109 · 2 Eylül 2026 · sevk M-2134
+//    ⚠️ Bu kaydın katkısı KAYBOLMADI: birleşim kaydı hem `d:` hem
+//       `s:` taşıyor ve ölçülerek doğrulandı.
+//       Hükmün yanlış olduğunu düşünen KOORDİNATÖRE yazsın.
+// { ad:"Nusaybin",
+//   s:[{f:"1281-01-01",t:"1507-01-01",d:"akkoyunlu"},
+//      {f:"1507-01-01",t:"1515-09-19",d:"safevi"},
+//      {f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet"}],
+//   d:[{f:"1515-09-19",t:"1918-10-30"},
+//      {f:"1921-10-20",t:"1923-10-29"}],
+//   kaynak:"nusaybin",
+//   not:"H-0015 · d: 1515-01-01 -> 1515-09-19 (enklav ve alakasiz-madde kusuru). TDV nusaybin govdesi okundu." },
 
-{ ad:"Silopi",
-  s:[{f:"1281-01-01",t:"1507-01-01",d:"akkoyunlu"},
-     {f:"1507-01-01",t:"1515-09-19",d:"safevi"},
-     {f:"1918-10-30",t:"1921-10-20",d:"ingiltere"}],
-  d:[{f:"1515-09-19",t:"1918-10-30"},
-     {f:"1921-10-20",t:"1923-10-29"}],
-  kaynak:"cizre",
-  not:"H-0015 · TDV silopi slugu OLU (302); dayanak TDV cizre maddesi — Cizre ve cevresi ayni Dogu Anadolu harekatinda alindi, Diyarbekir eyaletine baglandi." },
+// 🔴 BİRLEŞİMLE DÜŞTÜ — SİLİNMEDİ, YORUMA ÇEVRİLDİ (kayıt korunur)
+//    hüküm  : denetim/YAMA-CAKISMA.md · M-2116 (1.MURAT)
+//    kazanan: data/yer_yama_birlesim_1murat.js — İKİ yamanın farklı
+//             katmanları orada TEK kayıtta birleştirildi (c8e535f)
+//    uygulayan: OPUS HAZIR KITA 109 · 2 Eylül 2026 · sevk M-2134
+//    ⚠️ Bu kaydın katkısı KAYBOLMADI: birleşim kaydı hem `d:` hem
+//       `s:` taşıyor ve ölçülerek doğrulandı.
+//       Hükmün yanlış olduğunu düşünen KOORDİNATÖRE yazsın.
+// { ad:"Silopi",
+//   s:[{f:"1281-01-01",t:"1507-01-01",d:"akkoyunlu"},
+//      {f:"1507-01-01",t:"1515-09-19",d:"safevi"},
+//      {f:"1918-10-30",t:"1921-10-20",d:"ingiltere"}],
+//   d:[{f:"1515-09-19",t:"1918-10-30"},
+//      {f:"1921-10-20",t:"1923-10-29"}],
+//   kaynak:"cizre",
+//   not:"H-0015 · TDV silopi slugu OLU (302); dayanak TDV cizre maddesi — Cizre ve cevresi ayni Dogu Anadolu harekatinda alindi, Diyarbekir eyaletine baglandi." },
 
-{ ad:"Malikiye (Derik)",
-  s:[{f:"1281-01-01",t:"1507-01-01",d:"akkoyunlu"},
-     {f:"1507-01-01",t:"1515-09-19",d:"safevi"},
-     {f:"1918-10-30",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1515-09-19",t:"1918-10-30"}],
-  kaynak:"nusaybin",
-  not:"H-0015 · TDV derik slugu OLU (302); dayanak TDV nusaybin — Mardin ovasinin ayni kolu, ayni harekat. 1918 sonrasi donemine DOKUNULMADI." },
+// 🔴 BİRLEŞİMLE DÜŞTÜ — SİLİNMEDİ, YORUMA ÇEVRİLDİ (kayıt korunur)
+//    hüküm  : denetim/YAMA-CAKISMA.md · M-2116 (1.MURAT)
+//    kazanan: data/yer_yama_birlesim_1murat.js — İKİ yamanın farklı
+//             katmanları orada TEK kayıtta birleştirildi (c8e535f)
+//    uygulayan: OPUS HAZIR KITA 109 · 2 Eylül 2026 · sevk M-2134
+//    ⚠️ Bu kaydın katkısı KAYBOLMADI: birleşim kaydı hem `d:` hem
+//       `s:` taşıyor ve ölçülerek doğrulandı.
+//       Hükmün yanlış olduğunu düşünen KOORDİNATÖRE yazsın.
+// { ad:"Malikiye (Derik)",
+//   s:[{f:"1281-01-01",t:"1507-01-01",d:"akkoyunlu"},
+//      {f:"1507-01-01",t:"1515-09-19",d:"safevi"},
+//      {f:"1918-10-30",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+//   d:[{f:"1515-09-19",t:"1918-10-30"}],
+//   kaynak:"nusaybin",
+//   not:"H-0015 · TDV derik slugu OLU (302); dayanak TDV nusaybin — Mardin ovasinin ayni kolu, ayni harekat. 1918 sonrasi donemine DOKUNULMADI." },
 
 // ─────────────────────────────────────────────────────────────────── H-0013
 // Emre: "burada haritanın güney batısındaki küçük boyamanın sebebi nedir"

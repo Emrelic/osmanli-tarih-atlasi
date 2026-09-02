@@ -73,65 +73,81 @@ window.YERLESIMLER_KAFKAS_DUZELTME = [
 //   1918-05-25, Digor/Arpaçay/Iğdır 1921-10-13 kullanıyor. ORHANGAZİ
 //   hüküm vermedi, ben de UYDURMADIM — ölçümü M-1810'da raporlandı.
 // ─────────────────────────────────────────────────────────────────────
-{ad:"Kars",
- s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},
-    {f:"1340-01-01",t:"1386-01-01",d:"celayirli"},
-    {f:"1386-01-01",t:"1406-10-21",d:"timurlu"},
-    {f:"1406-10-21",t:"1467-01-01",d:"karakoyunlu"},
-    {f:"1467-01-01",t:"1514-09-06",d:"akkoyunlu"},
-    {f:"1514-09-06",t:"1534-06-01",d:"safevi"},
-    {f:"1878-07-13",t:"1918-05-25",d:"rusya"}],
- d:[{f:"1534-06-01",t:"1878-07-13",y:"kusatma"},{f:"1918-05-25",t:"1923-10-29",y:"antlasma"}],
- v:[],
- kaynak:"kars",
- // 🔴 `y:` ALANI KORUNDU — ve bunu TESLİMDEN SONRA fark ettim.
- //   Orijinal kayıtta `d:[{…,y:"kusatma"},{…,y:"antlasma"}]` vardı; ilk
- //   yazdığım yama onları TAŞIMIYORDU. Koordinatör yamayı olduğu gibi
- //   işleseydi iki alan SESSİZCE silinecekti — hiçbir denetim ötmezdi,
- //   çünkü denetimler "dönem var mı" diye sorar, "alanı eksildi mi" diye
- //   sormaz. Ölçtüm: 19 kaydın YALNIZ Kars'ında `y:` var (1/19).
- neden:"ESKI: s:[{1281-01-01..1534-06-01 gurcistan},{1878..rusya}] · d:[{1534-06-01..1878-07-13}] "
-      +"— 253 yillik TEK BLOK ve fetih 1534-06-01. "
-      +"TDV `kars` maddesi (HTTP 200, GOVDESI OKUNDU) o 253 yili alti katmana boluyor, aynen: "
-      +"\"Sehir 1336 yilina kadar Ilhanlilar'in, ardindan da mahalli hanedanlarin idaresinde kaldi\" · "
-      +"\"759'da (1358) Celayirliler tarafindan ele gecirildi\" · "
-      +"\"782'de ise (1380) Karakoyunlu idaresi altindaydi\" · "
-      +"\"788'de (1386) Timur tarafindan alindiginda Firuzbaht adli biri tarafindan yonetiliyordu\" · "
-      +"\"Timur'un olumunden sonra ... Karakoyunlular Kars'i yeniden hakimiyetlerine aldilar\" · "
-      +"\"Sehir 871'de (1467) Akkoyunlu Hukumdari Uzun Hasan tarafindan ele gecirildi\". "
-      +"FETIH: TDV \"944'te (1537) Osmanli topraklarina dahil edilmistir\" ⇒ veri 3 YIL ERKENDI. "
-      +"⚠️ IKI SADELESTIRME, ikisini de yaziyorum: (a) TDV Celayirli'yi 1358'de baslatiyor, ben "
-      +"komsularin (Serur · Nahcivan) kullandigi 1340-01-01'i aldim — yeni kirilma gunu dogmasin diye; "
-      +"(b) TDV'nin 1380-1386 Karakoyunlu araligi ATLANDI, cunku 1380 kulliyatta hic gecmiyor ve "
-      +"6 yillik bir aralik icin iki yeni gun dogurmak Degismez 2'ye daha pahaliya mal olurdu. "
-      +"1514-09-06..1537-01-01 safevi araligi TDV'de ADIYLA GECMIYOR — Akkoyunlu kunyesi 1514-01-01'de "
-      +"bitiyor ve fetih 1537, aradaki 23 yil bos kalamazdi; komsu Caldiran/Ozalp/Baskale ayni gunde "
-      +"safevi'ye geciyor, onlarla hizaladim. Bu bir CIKARIM, TDV alintisi DEGIL."},
+// 🔴 BİRLEŞİMLE DÜŞTÜ — SİLİNMEDİ, YORUMA ÇEVRİLDİ (kayıt korunur)
+//    hüküm  : denetim/YAMA-CAKISMA.md · M-2116 (1.MURAT)
+//    kazanan: data/yer_yama_birlesim_1murat.js — İKİ yamanın farklı
+//             katmanları orada TEK kayıtta birleştirildi (c8e535f)
+//    uygulayan: OPUS HAZIR KITA 109 · 2 Eylül 2026 · sevk M-2134
+//    ⚠️ Bu kaydın katkısı KAYBOLMADI: birleşim kaydı hem `d:` hem
+//       `s:` taşıyor ve ölçülerek doğrulandı.
+//       Hükmün yanlış olduğunu düşünen KOORDİNATÖRE yazsın.
+// {ad:"Kars",
+//  s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},
+//     {f:"1340-01-01",t:"1386-01-01",d:"celayirli"},
+//     {f:"1386-01-01",t:"1406-10-21",d:"timurlu"},
+//     {f:"1406-10-21",t:"1467-01-01",d:"karakoyunlu"},
+//     {f:"1467-01-01",t:"1514-09-06",d:"akkoyunlu"},
+//     {f:"1514-09-06",t:"1534-06-01",d:"safevi"},
+//     {f:"1878-07-13",t:"1918-05-25",d:"rusya"}],
+//  d:[{f:"1534-06-01",t:"1878-07-13",y:"kusatma"},{f:"1918-05-25",t:"1923-10-29",y:"antlasma"}],
+//  v:[],
+//  kaynak:"kars",
+//  // 🔴 `y:` ALANI KORUNDU — ve bunu TESLİMDEN SONRA fark ettim.
+//  //   Orijinal kayıtta `d:[{…,y:"kusatma"},{…,y:"antlasma"}]` vardı; ilk
+//  //   yazdığım yama onları TAŞIMIYORDU. Koordinatör yamayı olduğu gibi
+//  //   işleseydi iki alan SESSİZCE silinecekti — hiçbir denetim ötmezdi,
+//  //   çünkü denetimler "dönem var mı" diye sorar, "alanı eksildi mi" diye
+//  //   sormaz. Ölçtüm: 19 kaydın YALNIZ Kars'ında `y:` var (1/19).
+//  neden:"ESKI: s:[{1281-01-01..1534-06-01 gurcistan},{1878..rusya}] · d:[{1534-06-01..1878-07-13}] "
+//       +"— 253 yillik TEK BLOK ve fetih 1534-06-01. "
+//       +"TDV `kars` maddesi (HTTP 200, GOVDESI OKUNDU) o 253 yili alti katmana boluyor, aynen: "
+//       +"\"Sehir 1336 yilina kadar Ilhanlilar'in, ardindan da mahalli hanedanlarin idaresinde kaldi\" · "
+//       +"\"759'da (1358) Celayirliler tarafindan ele gecirildi\" · "
+//       +"\"782'de ise (1380) Karakoyunlu idaresi altindaydi\" · "
+//       +"\"788'de (1386) Timur tarafindan alindiginda Firuzbaht adli biri tarafindan yonetiliyordu\" · "
+//       +"\"Timur'un olumunden sonra ... Karakoyunlular Kars'i yeniden hakimiyetlerine aldilar\" · "
+//       +"\"Sehir 871'de (1467) Akkoyunlu Hukumdari Uzun Hasan tarafindan ele gecirildi\". "
+//       +"FETIH: TDV \"944'te (1537) Osmanli topraklarina dahil edilmistir\" ⇒ veri 3 YIL ERKENDI. "
+//       +"⚠️ IKI SADELESTIRME, ikisini de yaziyorum: (a) TDV Celayirli'yi 1358'de baslatiyor, ben "
+//       +"komsularin (Serur · Nahcivan) kullandigi 1340-01-01'i aldim — yeni kirilma gunu dogmasin diye; "
+//       +"(b) TDV'nin 1380-1386 Karakoyunlu araligi ATLANDI, cunku 1380 kulliyatta hic gecmiyor ve "
+//       +"6 yillik bir aralik icin iki yeni gun dogurmak Degismez 2'ye daha pahaliya mal olurdu. "
+//       +"1514-09-06..1537-01-01 safevi araligi TDV'de ADIYLA GECMIYOR — Akkoyunlu kunyesi 1514-01-01'de "
+//       +"bitiyor ve fetih 1537, aradaki 23 yil bos kalamazdi; komsu Caldiran/Ozalp/Baskale ayni gunde "
+//       +"safevi'ye geciyor, onlarla hizaladim. Bu bir CIKARIM, TDV alintisi DEGIL."},
 
 // ─────────────────────────────────────────────────────────────────────
 // 2 · ARDAHAN — 270 yıllık tek blok; Osmanlı günü DEĞİŞTİRİLMEDİ
 // ─────────────────────────────────────────────────────────────────────
-{ad:"Ardahan",
- s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},
-    {f:"1340-01-01",t:"1386-01-01",d:"celayirli"},
-    {f:"1386-01-01",t:"1406-10-21",d:"timurlu"},
-    {f:"1406-10-21",t:"1467-01-01",d:"karakoyunlu"},
-    {f:"1467-01-01",t:"1514-09-06",d:"akkoyunlu"},
-    {f:"1514-09-06",t:"1551-01-01",d:"safevi"},
-    {f:"1878-07-13",t:"1918-05-25",d:"rusya"}],
- d:[{f:"1551-01-01",t:"1878-07-13"},{f:"1918-05-25",t:"1923-10-29"}],
- v:[],
- kaynak:"ardahan",
- neden:"ESKI: s:[{1281-01-01..1551-01-01 gurcistan}] — 270 yillik TEK BLOK. "
-      +"TDV `ardahan` (HTTP 200, GOVDESI OKUNDU): \"Mogollar'in, Ilhanlilar'in\" hakimiyeti · "
-      +"\"Karakoyunlular'in ve Akkoyunlular'in hakimiyet sahasi\" icinde · "
-      +"\"KISA BIR SURE Guru prenslerinin\". ⇒ veri Gurculere 270 yil veriyor, TDV \"kisa bir sure\" diyor. "
-      +"🔴 OSMANLI GUNUNU DEGISTIRMEDIM ve sebebi bir CELISKI: TDV \"I. Selim zamaninda Osmanli "
-      +"topraklarina katilmistir\" diyor (1512-1520), veri 1551-01-01 diyor — arada ~35 yil var. "
-      +"TDV bu cumlede GUN de KOMUTAN da SEFER de VERMIYOR; tek cumlelik bir ifade uzerine "
-      +"35 yillik bir kayma yazmak, duzeltmek degil BASKA BIR TAHMIN yazmak olurdu. "
-      +"⇒ Bu kalem `olculecek` olarak ACIK kaliyor: ikinci bir akademik kaynak (Cildir Eyaleti / "
-      +"Erzurum beylerbeyligi literaturu) gerekiyor. Bugun DUZELTTIGIM sey yalniz 270 yillik blok."},
+// 🔴 BİRLEŞİMLE DÜŞTÜ — SİLİNMEDİ, YORUMA ÇEVRİLDİ (kayıt korunur)
+//    hüküm  : denetim/YAMA-CAKISMA.md · M-2116 (1.MURAT)
+//    kazanan: data/yer_yama_birlesim_1murat.js — İKİ yamanın farklı
+//             katmanları orada TEK kayıtta birleştirildi (c8e535f)
+//    uygulayan: OPUS HAZIR KITA 109 · 2 Eylül 2026 · sevk M-2134
+//    ⚠️ Bu kaydın katkısı KAYBOLMADI: birleşim kaydı hem `d:` hem
+//       `s:` taşıyor ve ölçülerek doğrulandı.
+//       Hükmün yanlış olduğunu düşünen KOORDİNATÖRE yazsın.
+// {ad:"Ardahan",
+//  s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},
+//     {f:"1340-01-01",t:"1386-01-01",d:"celayirli"},
+//     {f:"1386-01-01",t:"1406-10-21",d:"timurlu"},
+//     {f:"1406-10-21",t:"1467-01-01",d:"karakoyunlu"},
+//     {f:"1467-01-01",t:"1514-09-06",d:"akkoyunlu"},
+//     {f:"1514-09-06",t:"1551-01-01",d:"safevi"},
+//     {f:"1878-07-13",t:"1918-05-25",d:"rusya"}],
+//  d:[{f:"1551-01-01",t:"1878-07-13"},{f:"1918-05-25",t:"1923-10-29"}],
+//  v:[],
+//  kaynak:"ardahan",
+//  neden:"ESKI: s:[{1281-01-01..1551-01-01 gurcistan}] — 270 yillik TEK BLOK. "
+//       +"TDV `ardahan` (HTTP 200, GOVDESI OKUNDU): \"Mogollar'in, Ilhanlilar'in\" hakimiyeti · "
+//       +"\"Karakoyunlular'in ve Akkoyunlular'in hakimiyet sahasi\" icinde · "
+//       +"\"KISA BIR SURE Guru prenslerinin\". ⇒ veri Gurculere 270 yil veriyor, TDV \"kisa bir sure\" diyor. "
+//       +"🔴 OSMANLI GUNUNU DEGISTIRMEDIM ve sebebi bir CELISKI: TDV \"I. Selim zamaninda Osmanli "
+//       +"topraklarina katilmistir\" diyor (1512-1520), veri 1551-01-01 diyor — arada ~35 yil var. "
+//       +"TDV bu cumlede GUN de KOMUTAN da SEFER de VERMIYOR; tek cumlelik bir ifade uzerine "
+//       +"35 yillik bir kayma yazmak, duzeltmek degil BASKA BIR TAHMIN yazmak olurdu. "
+//       +"⇒ Bu kalem `olculecek` olarak ACIK kaliyor: ikinci bir akademik kaynak (Cildir Eyaleti / "
+//       +"Erzurum beylerbeyligi literaturu) gerekiyor. Bugun DUZELTTIGIM sey yalniz 270 yillik blok."},
 
 // ─────────────────────────────────────────────────────────────────────
 // 3 · DERBEND — üç tarihten ikisi yanlıştı; üçüncüsü zaten doğruydu
