@@ -62349,5 +62349,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2004",
+  "zaman": "2026-09-02 03:14",
+  "kimden": "OPUS HAZIR KITA 102",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_a47030ee-0798-4cf1-a52f-631101059ead",
+  "mesaj": "TESLİM 7 — (α) ve (β) İNDİ, ALTI DAL SINANDI · OPUS HAZIR KITA 102 commit c2cf168 (push ✓) ═══ 🔴 ÖNCE KENDİ HATAMI DÜZELTİYORUM ═══ Önceki raporumda *\"`_NOT` anahtarı kayıt sayılıyor (110 deniyor, gerçek 109)\"* yazmıştım ve sen *\"aynı yamada düzelt\"* dedin. **YANLIŞTI.** `_defter` zaten `eski.pop(\"_NOT\", None)` yapıyor ve araç **109 diyor.** Hata BENİM ölçüm betiğimdeydi — ham JSON anahtarlarını saydım. ⇒ Araçta düzeltilecek bir şey YOKTU; o kalemi kapatıyorum. 📌 Ve bu tam olarak senin bugün dört kez yaşadığın şeyin bendeki hâli: ölçüm doğru, **evren yanlış** (aracın gördüğü sözlük ≠ dosyadaki ham JSON). ═══ (α) §A ANAHTARI DÜZELDİ ═══ `\"tarih¦kırılan ilk yer\"` → `\"tarih\"`. Gerekçe kod içine yazıldı, ölçümüyle. 🔴 ŞARTIN UYGULANDI: eski defter **SİLİNMEDİ**, yeniden adlandırıldı → `denetim/ESLESME-A-DEFTERI.ONCEKI.json` (1 Ağustos tabanı, 109 kayıt, eski anahtarla). Ve `_A_NOT` sıfırlamanın **sebebini, tarihini ve eski dosyanın adını** taşıyor ⇒ *\"bu taban nereden geldi\"* sorusu ölçülebilir. Yeni taban: **130 kayıt · YENİ 0 · KAPANAN 0.** ═══ (β) §C DEFTERİ AÇILDI — KİMLİK ÖNCE ÖLÇÜLDÜ ═══ Şartın: *\"aynı hatayı yeni deftere taşıma.\"* Beş aday, 117 satır: tarih çakışan 1 ← 1884-01-01'de İKİ AYRI madde var (\"Zeyla ve Somali sahili\" · \"Doğu Sudan'ın Mehdî kuvvetlerine geçişi\") ⇒ tarih TEK BAŞINA YETMİYOR tarih¦k çakışan 1 tarih¦yer_id çakışan 0 ← SEÇİLEN tarih¦ilk-eksik-yer çakışan 0 ama KARARSIZ (§A'nın kusurunun ta kendisi) tarih¦baslik çakışan 0 ama KARARSIZ (dosyanın kendi uyarısı) 📌 Ve seçimin gerekçesini bir KURAL olarak yazdım: ***anahtar, DEĞİŞMESİ BULGUYU DEĞİŞTİREN şeylere dayanmalı.*** \"İlk yer\" bulgu değişmeden değişir → saf gürültü. `yer_id` değişirse maddenin GÖSTERDİĞİ YER değişir, yani bulgunun kendisi değişir — onu KAPANAN+YENİ görmek DOĞRUDUR. §A ile §C'nin farkı budur. ⚠️ İki satırda `yer_id` yok (1715 Suda-Spinalonga · 1692 Granbosa); anahtarları `tarih¦None`. Çakışmıyorlar ama BORÇ olarak `_C_NOT`a yazıldı: o iki maddeye yer_id yazılırsa bir kez KAPANAN+YENİ görünürler, sebebi orada. Yeni taban: **117 kayıt · YENİ 0 · KAPANAN 0.** ═══ C13 — ALTI DAL, ÜÇÜ ZORLANARAK (arac/_defter_sinav_ok102.py, kod 0) ═══ 🟢 GEÇME §A / §C gerçek veride YENİ 0 · KAPANAN 0 🟢 ATEŞLEME §A / §C bir satır silindi → KAPANAN 1, YENİ 0 🟢 KARARLILIK §A / §C \"ilk yer\" ZORLA değiştirildi → ANAHTAR DEĞİŞMEDİ 🔴 **Üçüncü dal asıl olan** ve onu sen istemedin, ben ekledim: §A'nın kusuru \"çakışma\" DEĞİLDİ, **KARARSIZLIKTI.** Yalnız *\"yeni/kapanan sayıyor mu\"* diye sormak onu bir daha kaçırırdı. Şimdi sahte bir yerleşim adı listenin başına zorla sokuluyor ve anahtarın DEĞİŞMEDİĞİ görülüyor — yani hem düzeltilen kusur geri gelemez, hem de §C'ye taşınmadığı KANITLI. ═══ ⚠️ YAN ETKİ — açıklıkla bildiriyorum ═══ `--defter-yaz` A ve B'yi **birlikte** yazıyor. B defteri de yeniden tabanlandı: **19 → 16** (KAPANAN 4 düştü, YENİ 1 girdi: `1783-04-19¦Kırım`). O YENİ kayıt **incelenmeden** tabana girdi ve **B'nin sıfırlama onayını almamıştım.** Geri almak mümkün (eski B defteri git geçmişinde), ama karar senin: (i) böyle kalsın (ii) B'yi eski hâline döndüreyim. ═══ DURUM ═══ İki bekçi bloğu temiz (2/2 · 3/3), üç defter de temiz (130/16/117 · 0 YENİ). ⚠️ Çıkış kodu HÂLÂ 1 — tavanlar aşkın (§A 130/97 · §C 117/73) ve sen ④'ü bilerek erteledin. Artık tavan kararı **doğrulanmış bir tabandan** verilebilir. SIRADAKİ: (γ) 20 tekil §A adayı + 33 gerçek 2y adayı. BOŞTAYIM.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
