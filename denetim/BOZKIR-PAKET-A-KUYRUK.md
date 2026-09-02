@@ -109,7 +109,38 @@ başlangıç günü hem KAYNAKLI hem MADDELİ olmak zorunda. Bugün ikisi de yok
 
 ---
 
+## 2.3 🟢 GÜNCELLEME (tur 3) — KIZIKERMEN YAZILDI, BALTA HÂLÂ KUYRUKTA
+
+Koordinatör §3'teki soruyu cevapladı (2 Eylül): **`kesinlik:"yuzyil"`**, ve alan
+`VERI-YAPISI.md:171`de **zaten tanımlıymış** (🔜 planlanmış, henüz hiçbir alet
+okumuyor). Belirsiz uca yazılır, sağlam uca yazılmaz.
+
+**Kızıkermen yazıldı** (`data/yerlesimler_ok106.js`) — ve gün seçimi
+şıklardan sapıyor, sebebiyle: `1450-01-01` (yüzyıl ortası) yerine
+**`1441-01-01`** alındı, çünkü o gün külliyatta ZATEN var ve **konusu da
+doğru**: *"Kırım Hanlığı'nın kuruluşu — Hacı Giray'ın Altınorda'dan ayrılışı"*
+(±0 gün). Kalenin Tatar dönemi hanlıktan önce başlayamaz ⇒ hem kaynakla uyumlu
+hem **karşılıksız gün doğurmuyor**. `kesinlik:"yuzyil"` yine de kondu: gerçek
+tarih yüzyıl hassasiyetinde ve arayüz kullanıcıya kesin bir gün göstermemeli.
+
+🔴 **BALTA YAZILMADI — ve sebebi artık `kur:` değil, STATÜ:**
+```
+IEU "Balta": "belonged to Turkey until 1791"
+SORU: bu DOĞRUDAN Osmanlı idaresi mi (`d:`, koyu kırmızı), yoksa Yedisan
+      Nogaylarının/Kırım Hanlığı'nın toprağı mı (`v:` ya da s:"kirim")?
+```
+Kaynak *"Turkey"* diyor ama atlas ikisini **ayrı renkte** boyuyor ve fark
+Emre'nin en çok şikâyet ettiği sınıfa giriyor (*"Osmanlı fazla mı görünüyor?"*,
+`CLAUDE.md §3.5.1`). Elimdeki kaynak bunu **ayırt etmiyor**, ve `d:` yazmak
+Değişmez 2'nin tavanı SIFIR olan koluna girer.
+⇒ **Statü kaynağı bulunmadan yazılmayacak.** Bitiş günü hazır ve doğrulandı:
+`1792-01-10` — külliyatta *"Yaş Antlaşması — Kırım'ın kesin kaybı"*, ±0 gün.
+
+---
+
 ## 3. 🔴 KOORDİNATÖRE TEK SORU — ve iki kayıt buna bağlı
+> 🟢 **CEVAPLANDI (2 Eylül, 1.MURAT): `kesinlik:"yuzyil"`.** Aşağıdaki bölüm
+> sorunun ilk hâlidir, kayıt olarak duruyor. Uygulaması §2.3'te.
 
 > **`§4` "gün bilinmiyorsa `YYYY-01-01`" diyor. Peki YIL da bilinmiyor,
 > yalnız YÜZYIL biliniyorsa ne yazılır?**

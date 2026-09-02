@@ -123,7 +123,159 @@ window.YERLESIMLER_OK106 = [
        {f:"1793-01-23",t:"1917-03-15",d:"rusya"},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
        {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
-    kaynak:"bulunamadı — TDV'de Ukrayna'daki Uman maddesi YOK (`uman` slug'ı Arabistan'daki Umân'ı açıyor, ölçüldü). Dayanak: Internet Encyclopedia of Ukraine (Canadian Institute of Ukrainian Studies, University of Alberta), madde \"Uman\"" }
+    kaynak:"bulunamadı — TDV'de Ukrayna'daki Uman maddesi YOK (`uman` slug'ı Arabistan'daki Umân'ı açıyor, ölçüldü). Dayanak: Internet Encyclopedia of Ukraine (Canadian Institute of Ukrainian Studies, University of Alberta), madde \"Uman\"" },
+
+  // ═══════════════════════════════════════════════════════════════════
+  // TUR 3 — PAKET A'nın son kalemi (Kızıkermen) + PAKET B'nin yedisi
+  // Hepsinin kaynağı: Internet Encyclopedia of Ukraine (CIUS, University
+  // of Alberta). Gövdeler tek tek okundu; alıntılar kayıtların içinde.
+  // ═══════════════════════════════════════════════════════════════════
+
+  // ── KIZIKERMEN — atlasta İLK `kesinlik:` YAZIMI ────────────────────
+  // 🟢 Koordinatör kararı (2 Eylül): belirsiz uca `kesinlik:"yuzyil"`,
+  //    sağlam uçlara YAZILMAZ. Bu kayıt o kuralın ilk uygulaması.
+  //  IEU madde "Beryslav" (kalenin yerindeki bugünkü şehir), birebir:
+  //    "the Tatars re-took the site and built here the fortress of
+  //     Kazi-Kermen"                                     ← MID-15th CENTURY
+  //    "in 1526 assumed direct control of the right bank with Kazi-Kermen
+  //     as its northern outpost"                          ← 1526, DOĞRUDAN
+  //    "Following the Russo-Turkish War of 1768-74, Kazi-Kermen was
+  //     incorporated into the Russian Empire"             ← 1774
+  //
+  // 🟡 BAŞLANGIÇ GÜNÜ — kaynak YÜZYIL veriyor, ve seçimimi yazıyorum:
+  //    `1450-01-01` (yüzyıl ortası) yerine **`1441-01-01`** alındı, çünkü
+  //    o gün külliyatta ZATEN var ve KONUSU DA DOĞRU: "Kırım Hanlığı'nın
+  //    kuruluşu — Hacı Giray'ın Altınorda'dan ayrılışı" (±0 gün).
+  //    Kalenin TATAR dönemi hanlıktan önce başlayamaz ⇒ hem kaynakla
+  //    uyumlu hem karşılıksız gün doğurmuyor. Yine de gerçek tarih yüzyıl
+  //    hassasiyetinde olduğu için `kesinlik:"yuzyil"` konuldu — arayüz
+  //    kullanıcıya "1 Ocak 1441" diye KESİN bir gün göstermesin.
+  // 🔴 1526-01-01 ±0 gün karşılık buluyor AMA madde ALAKASIZ ("Pîrî Reis'in
+  //    Kitâb-ı Bahriye'yi genişletmesi"). Denetimi geçer; bunu KAZANÇ değil
+  //    KUSUR sayıyorum ve kaydediyorum — Çuguçak vakasının aynısı.
+  // ⚠️ 1670 Kazak baskını ve 1695-1700 Rus işgali YAZILMADI: günleri
+  //    kaynakta yok ve IEU kalıcı devri 1774'e tarihliyor. Kayıtlı borç.
+  { ad:"Kızıkermen (Gazi Kerman)", tur:"kale", lat:46.8400, lon:33.4200, g:0, k:4,
+    kur:"1441-01-01",
+    d:[{f:"1526-01-01",t:"1774-07-21"}],
+    s:[{f:"1441-01-01",t:"1526-01-01",d:"kirim",kesinlik:"yuzyil"},
+       {f:"1774-07-21",t:"1917-03-15",d:"rusya"},
+       {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
+       {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+    kaynak:"bulunamadı — TDV'de müstakil madde YOK (`kizikermen`·`gazikerman`·`gazi-kerman` 302; kapsayıcı `ozu` maddesi Dinyeper kalelerini anmıyor). Dayanak: Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Beryslav\". BAŞLANGIÇ yüzyıl hassasiyetindedir — `kesinlik:\"yuzyil\"` beyanı kayıtta duruyor" },
+
+  // ── KREMENÇUK ──────────────────────────────────────────────────────
+  //  IEU "Kremenchuk": "Kremenchuk was founded in 1571." · "A Polish castle
+  //  was built there in 1596." · Kazak Hetmanlığı'nda bölük/alay merkezi
+  //  (1648-61, 1661-3, 1667-1765) · "capital of New Russia gubernia in 1765-83".
+  // 🟡 Rusya'ya geçiş günü: komşu `Poltava`nın kullandığı `1654-01-18`
+  //    (Pereyaslav Radası, külliyatta 1654-01-08 ±10 gün). Bu bir KAYNAK
+  //    GÜNÜ DEĞİL, komşu kalıbı — açıkça yazılıyor. IEU 1765'i idarî
+  //    kademe olarak veriyor, HÂKİMİYET devri olarak değil.
+  // 🔴 `1571-01-01` çekirdekte KARŞILIKSIZ (en yakın madde 106 gün) ⇒
+  //    `2s` AÇIK +1 bekleniyor.
+  { ad:"Kremençuk", tur:"sehir", lat:49.0700, lon:33.4200, g:0, k:3,
+    kur:"1571-01-01",
+    s:[{f:"1571-01-01",t:"1654-01-18",d:"lehistan"},
+       {f:"1654-01-18",t:"1917-03-15",d:"rusya"},
+       {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
+       {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+    kaynak:"bulunamadı — TDV kapsamı dışı. Dayanak: Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Kremenchuk\"" },
+
+  // ── LUBNI — atlas ufkundan ESKİ, o yüzden `kur:` YOK ────────────────
+  //  IEU "Lubny": "It was founded as a fortified frontier town in 988 by
+  //  Grand Prince Volodymyr the Great of Kyiv." · "Rebuilt in the latter
+  //  half of the 16th century by the Wiśniowiecki family" · "In the Hetman
+  //  state it was a regimental capital (1648, 1658-1781)."
+  // ⇒ 1281'de zaten vardı ⇒ `kur:` yazılmaz, zincir 1281'den başlar.
+  // 🟡 1281-1654 zinciri komşu `Poltava`dan BİREBİR alındı (altinorda →
+  //    lehistan 1362 → rusya 1654-01-18). Bu bir TUTARLILIK seçimidir ve
+  //    yazılıyor: IEU Lubnı için o iki günü vermiyor, ama şehir Poltava'nın
+  //    55 km kuzeybatısında, aynı alayda ve aynı siyasî çemberde.
+  // 🟢 Yeni gün doğurmaz: iki gün de Poltava'da ZATEN kullanılıyor.
+  { ad:"Lubnı", tur:"sehir", lat:50.0200, lon:33.0000, g:0, k:3,
+    s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda"},
+       {f:"1362-01-01",t:"1654-01-18",d:"lehistan"},
+       {f:"1654-01-18",t:"1917-03-15",d:"rusya"},
+       {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
+       {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+    kaynak:"bulunamadı — TDV kapsamı dışı. Dayanak: Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Lubny\"; 1281-1654 zinciri komşu Poltava kaydının kalıbıdır (tutarlılık seçimi, kaynak günü değil)" },
+
+  // ── SUMI ───────────────────────────────────────────────────────────
+  //  IEU "Sumy": "It was founded in 1652 by peasants and Cossacks from Bila
+  //  Tserkva regiment in Right-Bank Ukraine led by Colonel Herasym
+  //  Kondratiev." · "fortified by the Muscovite voivode K. Arsenev (1656-8)"
+  //  · "the center of Sumy regiment (1658-1765)".
+  // ⇒ Slobodskaya Ukrayna: kuruluşundan itibaren Moskova/Rusya çemberinde.
+  // 🔴 `1652-01-01` çekirdekte KARŞILIKSIZ (121 gün) ⇒ `2s` AÇIK +1.
+  { ad:"Sumı", tur:"sehir", lat:50.9100, lon:34.8000, g:0, k:3,
+    kur:"1652-01-01",
+    s:[{f:"1652-01-01",t:"1917-03-15",d:"rusya"},
+       {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
+       {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+    kaynak:"bulunamadı — TDV kapsamı dışı. Dayanak: Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Sumy\"" },
+
+  // ── ÇUGUYEV ────────────────────────────────────────────────────────
+  //  IEU "Chuhuiv": "Chuhuiv was founded in 1638 as a frontier settlement by
+  //  Yakiv Ostrianyn and his Cossacks." · "From the middle of the 17th
+  //  century to 1765 it was a company town in the Kharkiv regiment."
+  // 🔴 `1638-01-01` çekirdekte KARŞILIKSIZ (151 gün) ⇒ `2s` AÇIK +1.
+  { ad:"Çuguyev", tur:"sehir", lat:49.8300, lon:36.6800, g:0, k:3,
+    kur:"1638-01-01",
+    s:[{f:"1638-01-01",t:"1917-03-15",d:"rusya"},
+       {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
+       {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+    kaynak:"bulunamadı — TDV kapsamı dışı. Dayanak: Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Chuhuiv\"" },
+
+  // ── İZYUM ──────────────────────────────────────────────────────────
+  //  IEU "Izium": "in 1681 it was fortified by Kharkiv regiment's Col
+  //  H. Donets, and the fortress served as an important defense outpost" ·
+  //  Izium alayının merkezi (1685-1765).
+  // 🟢 `1681-01-01`in ±10 günde karşılığı VAR ve konusu da yakın:
+  //    "Bahçesaray Antlaşması — Rusya ile ilk resmî barış" (1681-01-11).
+  //    Aynı sınırın aynı yılı ⇒ eşleşme alakasız DEĞİL.
+  // ⚠️ 3 km kapısı: en yakın nokta `Sloboda bozkırı` 6,6 km — ama o bir
+  //    `k=0` DOLGU noktası, gerçek yerleşim değil. İzyum indikten sonra o
+  //    dolgunun hâlâ gerekli olup olmadığı AYRICA ölçülmeli (kayıtlı borç).
+  { ad:"İzyum", tur:"sehir", lat:49.2100, lon:37.2900, g:0, k:3,
+    kur:"1681-01-01",
+    s:[{f:"1681-01-01",t:"1917-03-15",d:"rusya"},
+       {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
+       {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+    kaynak:"bulunamadı — TDV kapsamı dışı. Dayanak: Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Izium\"" },
+
+  // ── BAHMUT ─────────────────────────────────────────────────────────
+  //  IEU "Bakhmut": "the leader of the Cossack Izium regiment appealed to
+  //  Tsar Peter I for permission to construct the fortress of Bakhmut,
+  //  which they built in 1703." · tuzlaları 1707-8 Bulavin isyanından sonra
+  //  Rus devlet işletmesi oldu · "in 1783 Bakhmut became a county town in
+  //  Katerynoslav gubernia".
+  // 🟡 `1703-01-01` ±0 karşılık buluyor — ama o madde BU OTURUMUN yazdığı
+  //    "Yenikale'nin inşası". İkisi de 1703 kale kuruluşu, ama AYNI OLAY
+  //    DEĞİL. Denetimi geçer; eşleşmenin zayıf olduğunu KAYDEDİYORUM.
+  { ad:"Bahmut", tur:"sehir", lat:48.6000, lon:38.0000, g:0, k:3,
+    kur:"1703-01-01",
+    s:[{f:"1703-01-01",t:"1917-03-15",d:"rusya"},
+       {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
+       {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+    kaynak:"bulunamadı — TDV kapsamı dışı. Dayanak: Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Bakhmut\"" },
+
+  // ── YELİSAVETGRAD (Aziz Yelizaveta Kalesi) ─────────────────────────
+  //  IEU "Kropyvnytskyi": "The city was founded in 1754 on Zaporozhian
+  //  Cossack territory as the Saint Elizabeth Fortress, which was built to
+  //  protect the Russian Empire's southern frontier." — kale, Yeni Sırbistan
+  //  bölgesindeki Balkan göçmenlerini Osmanlı ve Kırım akınlarından korumak
+  //  için yapıldı.
+  // 🔴 `1754-01-01` çekirdekte KARŞILIKSIZ (346 gün) ⇒ `2s` AÇIK +1.
+  // 📌 Bu nokta atlasın konusuna DOĞRUDAN değiyor: kalenin kuruluş gerekçesi
+  //    Osmanlı-Kırım akın hattıdır; noktasız bırakıldığında o hattın kuzey
+  //    yakası en yakın peteğe emiliyor (`§2`).
+  { ad:"Yelisavetgrad (Aziz Yelizaveta Kalesi)", tur:"kale", lat:48.5100, lon:32.2600, g:0, k:4,
+    kur:"1754-01-01",
+    s:[{f:"1754-01-01",t:"1917-03-15",d:"rusya"},
+       {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
+       {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+    kaynak:"bulunamadı — TDV kapsamı dışı. Dayanak: Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Kropyvnytskyi\" (`Yelysavethrad` maddesi ona yönlendiriyor)" }
 
 ];
 
