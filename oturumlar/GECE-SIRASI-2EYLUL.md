@@ -103,3 +103,70 @@ TARİH SEÇİMİ bir günü "külliyatta karşılığı var" diye seçmek ÖDÜN
          Kaynak neyi adlandırıyorsa o alınır; ±0 eşleşme YAN FAYDADIR.
 `bulunamadı` BİR SONUÇTUR — uydurmaktan kat kat değerli
 ```
+
+---
+
+# 🔴 SIRA REVİZE EDİLDİ — 2 Eylül 08:55, koşu bitmek üzere (%100)
+
+Gece boyunca üç yeni kalem doğdu ve **sıra bağlayıcı** oldukları için
+A-listesi yeniden yazıldı. Değişenler işaretli.
+
+```
+A0  el-Ulâ MÜKERRERİ ÇÖZÜLSÜN                                    🆕 ENGEL
+    `el-Ulâ` (ok102) ↔ `Ulâ (el-Ulâ)` (ok107) — 100 METRE.
+    Sahipleri yatay çözüyor (M-2072/M-2073). ÇÖZÜLMEDEN o iki dosya
+    bağlanmaz; ÖTEKİ ALTI bağlanır — parti bir mükerrer için beklemez.
+
+A3' RENK ÖNCE — `renkler.py`                                     🔀 SIRA DEĞİŞTİ
+    eyyubi-hisnikeyfa #108810 · kabartay #d058e8
+    karar + gerekçe: `denetim/A3-RENK-KARARI.md`
+    🔴 A1'DEN ÖNCE, çünkü `yerlesimler_ok104.js` Hasankeyf taşıyor ve o
+      `eyyubi-hisnikeyfa` kullanıyor. Renk yazılmadan bağlanırsa
+      Hasankeyf'in peteği BOYANMAZ (§8 = harita deliği).
+    sonra: `py arac/renk_olc.py --dogrula`  ← ATLANMAZ
+
+A2  `kesinlik` → `girdi.py` BILINEN_ALANLAR                      🔀 A1'DEN ÖNCE
+    `yerlesimler_ok109.js` (Şırnak) bu alanı taşıyor. Kaydedilmezse
+    girdi.py her kayıtta "bilinmeyen alan" uyarısı basar.
+    🆕 VE ÜÇ ALAN DAHA ÖLÇÜLDÜ, aynı anda kaydedilsin:
+       `baskent`      1 kayıt  (yerlesimler_amerika2.js: Comanchería)
+       `pencere_disi` 2 kayıt  (yerlesimler_4ff22b.js: Antananarivo · Honolulu)
+       `sinir`        6 kayıt  (yerlesimler_sinir_dogu.js: Bacirge · Sero …)
+    ⚠️ Bunlar `renk_olc.py`nin kendi uyarısından geldi — yani ZATEN
+      canlı veride duruyorlar ve girdi.py onları her koşuda soruyor.
+
+A1  BAĞLAMA — `girdi.py` + `index.html`, İKİSİ BİRDEN
+    sekiz dosya · 53 nokta · 2624 → 2677
+    metinler HAZIR: scratchpad `A1_girdi_blok.txt` · `A1_index_blok.txt`
+    ön sınav GEÇİLDİ: `arac/_baglama_onsinav.py` (ad alanı 8/8 · ad
+    çakışması 0 · 3 km 0 · node 8/8)
+    🟢 index.html birleştirmesi ÖNEK DESENİYLE otomatik — elle liste YOK,
+      yalnız `<script src>` satırı gerekiyor.
+
+A1b FETRET YAMASI — `data/yer_yama_ok109_fetret.js` (32 kayıt)      🆕
+    `ilhanli t:` ve `celayirli f:` 1335-12-01 → 1340-01-01
+    Değişmez 4d  468 → **436**
+    🔴 A1'DEN SONRA, ayrı adımda: bağlamanın etkisi ile yamanın etkisi
+      AYRI ayrı görünsün. Aynı anda yapılırsa hangi sayının nereden
+      geldiği ölçülemez.
+    sonra: `denetle.py` `BEKLENEN_ONCE` 468 → **436**
+    ⚠️ BU ADIM ATLANIRSA denetim gevşek kalır ve kendi uyarısını basar.
+
+A4  TAVAN 200 (hepsi) — `uret_petek.py` `TAVAN_KM`
+    öngörü DAMGALI: `denetim/ONGORU-TAVAN-200.md`
+    ⚠️ Bu bir SONRAKİ koşuyu etkiler, bu yayını DEĞİL.
+
+A5  `py arac/denetle.py`
+    taban karşılaştırması: `denetim/_taban_2eylul_oncesi.log`
+    beklenen: yerleşim 2624 → 2677 · 4d 468 → 436
+A6  `py arac/renk_olc.py`        🔴 ŞART — veriye dokunuldu
+A7  `py arac/denetle_yayin.py`
+A8  `py arac/surum_damgala.py` + push → **YAYIN**
+A9  YENİ KOŞU (tavan 200 ile)
+```
+
+## 🟡 EMRE'NİN KARARINI BEKLEYEN — yayını DURDURMUYOR
+`data/koridor_owtrad.js` lisans çelişkisi (HTML sayfası CC BY-**NC** ·
+indirilen ZIP **Open Publication License**, künyesinde *"çelişki
+ÇÖZÜLMEDİ"* yazılı) ve dosya `index.html`de **bağlı**. Üç kez soruldu,
+cevap gelmedi. Yayın bu dosya dışında engelsiz.
