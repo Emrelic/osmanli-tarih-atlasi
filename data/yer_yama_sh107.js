@@ -47,9 +47,42 @@ window.YER_YAMA_SH107 = [
     kaynak:"Mirčetić, Dragoljub (1994), Vojna istorija Niša, Prosveta, ISBN 978-87-7455-152-2 — Avusturya'nın Nişi ele geçirmesi 24 Eylül 1689 (Louis William, Baden Markgrafı)",
     gerekce:"WebFetch ile Wikipedia 'Battle of Niš (1689)' maddesinin bibliyografyasından doğrulandı: 24 Eylül 1689 tarihi veride ZATEN doğru (f:'1689-09-24'). Tarih DEĞİŞTİRİLMEDİ, yalnız kaynak eklendi." },
 
-  { ad:"Vidin",
-    kaynak:"bulunamadı — VERİDEKİ TARİHLE (1689-09-24) İKİNCİL BİR KAYNAK ÇELİŞİYOR",
-    gerekce:"⚠️ ÖLÇÜM: WebSearch (ikincil kaynak, akademik değil) Vidin'in gerçek teslimini 19 Ekim 1689 olarak veriyor (Piccolomini/Baden'in Niş'ten sonra Vidin'e yürüyüp 14 Ekim'de saldırıp 19 Ekim'de teslim aldığı anlatılıyor) — veride ise Vidin Niş ile AYNI GÜN (1689-09-24) başlıyor. Bu, H-0005(0023)'teki 'ödünç tarih' örüntüsüyle aynı sınıf bir şüphe. Akademik kaynakla doğrulanmadığı için TARİHE DOKUNULMADI; koordinatör/VERİ oturumu karar versin." },
+  // 🔴 VİDİN KAYDI ÇIKARILDI — 1.MURAT, 2 Eylül 2026. VERİ KAYBI YOK:
+  //    bu kayıt HİÇBİR VERİ taşımıyordu (ne `s:` ne `d:` ne `v:`), yalnız
+  //    bir ŞÜPHE taşıyordu — ve şüphe aşağıda AYNEN duruyor.
+  //
+  // 🔴 NİÇİN ÇIKARILDI — bir şüphe, bir DÜZELTMEYİ kilitliyordu:
+  //    `_sahiplik_uygula.py` aynı ada yazan yamaları alan bazında
+  //    karşılaştırır. Vidin'e ÜÇ dosya yazıyordu:
+  //       p0037.js  s + d + kaynak        (düzeltme)
+  //       sh110.js  s + d + v + kaynak    (düzeltme, DAHA TAM)
+  //       sh107.js  yalnız kaynak         (VERİ YOK, yalnız şüphe)
+  //    Üç farklı `kaynak:` değeri ⇒ ÇAKIŞMA ⇒ **hiçbiri uygulanmadı.**
+  //    Yani Vidin'in "1689-10-01 · kesinlik:ay" düzeltmesi haftalardır
+  //    yazılmış olduğu hâlde VERİYE İNMİYORDU, ve bunu ancak üçüncü bir
+  //    oturum (PAKET-0033) aletin kuru koşusunu okuyarak fark etti.
+  //    📌 Ders: bir ŞÜPHE, bir YAMA DOSYASINA kayıt olarak yazılırsa
+  //       yalnız kendini bildirmez — o adı yazan HER düzeltmeyi bloke
+  //       eder. Şüphenin yeri yama değil, BULGU dosyasıdır.
+  //
+  // ⚠️ ŞÜPHE KORUNDU, aynen (SONNET HAZIR KITA 107, 1 Eylül 2026):
+  //    "kaynak: bulunamadı — VERİDEKİ TARİHLE (1689-09-24) İKİNCİL BİR
+  //     KAYNAK ÇELİŞİYOR"
+  //    "⚠️ ÖLÇÜM: WebSearch (ikincil kaynak, akademik DEĞİL) Vidin'in
+  //     gerçek teslimini 19 Ekim 1689 olarak veriyor (Piccolomini/Baden
+  //     Niş'ten sonra Vidin'e yürüyüp 14 Ekim'de saldırmış, 19 Ekim'de
+  //     teslim almış) — veride ise Vidin Niş ile AYNI GÜN (1689-09-24)
+  //     başlıyor. Bu, H-0005(0023)'teki 'ödünç tarih' örüntüsüyle aynı
+  //     sınıf bir şüphe. Akademik kaynakla doğrulanmadığı için TARİHE
+  //     DOKUNULMADI; koordinatör/VERİ oturumu karar versin."
+  //
+  // 🟢 HÜKÜM (1.MURAT): şüphe HAKLI ama TARİHİ ÇÜRÜTMÜYOR, İNCELTİYOR.
+  //    TDV `vidin` gövdesi zaten "1689 Ekiminde" diyor; kazanan kayıt
+  //    (`sh110.js`) `1689-10-01` + `kesinlik:"ay"` yazıyor — yani AY
+  //    doğru, GÜN iddia edilmiyor. İkincil kaynağın "19 Ekim"i bu ayın
+  //    İÇİNDE ve onu çürütmüyor. Akademik bir kaynak 19 Ekim'i
+  //    doğrularsa `kesinlik:"gun"`e geçilir; o güne kadar ay yeter.
+  //    ⇒ Açık kalem olarak `denetim/BULGU-NIS-1689.md`de duruyor.
 
   { ad:"Kragujevac",
     kaynak:"bulunamadı",
