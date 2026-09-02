@@ -160,3 +160,93 @@ adres tarafı: **TDV yanlış kapıya gelen okuyucuya doğru kapıyı gösteriyo
 ### KARAR ÖLÇÜTÜ
 Koordinatörün eşiği: `≥5/8 ⇒ desen adres de veriyor, kalan 28'i koştur.`
 **Ölçüm 6/8** ⇒ eşik **geçildi**.
+
+---
+
+## ⑥ İKİNCİ TUR — 28 SLUG · **ÖNGÖRÜM ÇÜRÜDÜ**
+
+Öngörü (`ONGORU-OK109-ADRES.json`, **koşmadan önce** damgalandı): **18-22 / 28**.
+
+```
+ÖLÇÜM (pilotla AYNI eşik, AYNI alet, tek tur)
+   🟢 BULUNDU  13
+   🟡 ZAYIF     9   (anılıyor, tarih YOK — BULUNDU sayılmadı)
+   🔴 YOK       6
+                28
+```
+🔴 **13/28 = %46.** Öngörü bandının (%64-79) **çok altında** — ve pilot %75'ti.
+⇒ ***Öngörüm ÇÜRÜDÜ, ve mazereti yoktu (önceden öyle yazmıştım).***
+
+### NİÇİN ÇÜRÜDÜ — dördüncü ayak cevabı verdi
+Öngörüye *"neye karşı ölçülecek"* diye şunu yazmıştım:
+> *"İkinci tur belirgin biçimde DÜŞÜKSE (<%55) bu, pilotun 8'inin KOLAY
+> seçilmiş olduğunu gösterir — oysa ben zoru seçtiğimi iddia etmiştim."*
+
+**Ölçüm %46 < %55.** ⇒ **Kendi sınavımı kaybettim:** pilotun sekizi, *"zoru
+seçtim"* dediğim hâlde **kolaydı** — çünkü adaylarını **elle, olay bilgisiyle**
+kurmuştum (`varna`→`varna`, `preveze`→`barbaros-hayreddin-pasa`). 28'de aynı
+özeni her kaleme veremedim ve oran düştü.
+📌 ***Bir pilotun yüksek çıkması, yöntemin değil SEÇİMİN başarısı olabilir* —
+ve bunu ancak ikinci turu ÖNCEDEN tarif ederek yakalayabildim.**
+
+### DUYARLILIK — eşiği değil UYGULAMAYI sınadım
+Eşik **semantikti** (*"gövde olayı adıyla ve tarihiyle veriyor"*); `±170 karakter`
+onun **uygulamasıydı**. Pencere `±600`e açılınca 9 `ZAYIF`ın **3'ü** geçiyor:
+```
+🟢 rumeli-hisari → mehmed-ii     GERÇEK: "Şubat 1452'de sahilde ilk kale yükselmiş"
+🟢 camurlu-savasi → musa-celebi  savunulabilir: "1413 yılı yazına doğru Rumeli'ye geçti"
+🔴 reji → duyun-i-umumiyye       REDDEDİLDİ — eşleşme BİBLİYOGRAFYADA
+                                  (Quartaert, "…1881-1908", kaynakça satırı)
+```
+⇒ **13 (kayıtlı ölçüt) · en fazla 15 (savunulabilir genişletme).** Her iki sayı da
+öngörünün altında; **çürüme genişletmeyle kurtarılmıyor** ve kurtarmaya
+çalışmadım.
+🔴 Ve `reji` vakası bir uyarı: **pencereyi büyütmek yanlış pozitif üretir** —
+bibliyografya satırlarında yıl boldur. Dar pencere fazla katıydı ama geniş
+pencere **yanlış**tır; ölçütü ben değil, kanıt seçer.
+
+### 🔴 VE ①. YOL ÖLÇÜLEMEDİ — payda 1
+```
+TDV'nin kendi göndermesi:  izlenebildi 1 · tuttu 0
+```
+Koordinatör *"payda 10'u geçmeden kural yazma"* demişti. **Geçmedi — hem de
+çok.** Sebep ölçüm değil **uygulama**: aletim gönderme taramasına ancak
+kapsayıcı aday başarısız olduğunda ulaşıyordu, ve çoğu kalemde ya erken
+başarılı oldu ya hiç gövde okunmadı.
+⇒ **①. yol hâlâ ÖLÇÜLMEMİŞTİR.** Pilottaki `2/2`ye dayanarak kural yazılamaz;
+ben de yazmıyorum. *"Ölçülemedi"* — ne temiz, ne çürük.
+
+### HARİTA — 13 doğrulanmış adres
+```
+eski slug                        →  yeni slug                          yol
+balkan-savaslari                 →  balkan                             ② kapsayıcı
+bukres-antlasmasi                →  bukres-antlasmalari                ③ ek değişimi
+edirne-segedin-antlasmasi        →  edirne-segedin-antlasmalari        ③ ek değişimi
+buyuk-taarruz                    →  milli-mucadele                     ② kapsayıcı
+bab-i-ali-baskini                →  enver-pasa                         ② kapsayıcı
+candarli-halil-hayreddin-pasa    →  candarli-kara-halil-hayreddin-pasa ② kapsayıcı
+cildir-savasi                    →  cildir-eyaleti                     ② kapsayıcı
+cumhuriyet                       →  turkiye                            ② kapsayıcı
+hasimiler                        →  serif-huseyin                      ② kapsayıcı
+kirim-hanligi                    →  kirim                              ② kapsayıcı
+kirim-savasi                     →  kirim                              ② kapsayıcı
+mesaleler-savasi                 →  hacova-meydan-muharebesi           ② kapsayıcı
+ulubat                           →  ulubat--bursa                      ② kapsayıcı
+```
+**Yol dağılımı: ② kapsayıcı 11 · ③ ek değişimi 2 · ① gönderme 0.**
+⇒ Bugünkü ölçümde **çalışan tek yol kapsayıcı yer/kişi maddesidir**; ek
+değişimi 2/28, gönderme ölçülemedi.
+
+### 🔴 BULUNAMADI — AYRI KOVA (6)
+`anadolu-hisari` · `izladi-savasi` · `kutsal-ittifak` ·
+`ozdemiroglu-osman-pasa` · `salankamen-savasi` · `sirpsindigi-savasi`
+⚠️ Bu **"canlı ama doğrulanmadı"** DEĞİLDİR: bunlar için **aday adresler
+denendi ve olayı tarihiyle veren gövde bulunamadı.** İkisi ayrı şey.
+
+### 🟡 ZAYIF — 6 (üçü yukarıda geçti)
+`derbend` · `duzmece-mustafa` · `kosmidion` · `ozi` ·
+`selimiye-camii-ve-kulliyesi` · `ferhad-pasa-antlasmasi`
+📌 Ve altısında ölçtüm: kapsayıcı gövdede **olayın YILI hiç geçmiyor**
+(`derbend` 1796 → 0 geçiş · `duzmece` 1422 → 0 · `kosmidion` 1410 → 0 ·
+`selimiye` 1575 → 0 · `ferhad-pasa` 1590 → 0). ⇒ Bu **pencere sorunu değil**:
+o maddeler olayı **tarihsiz** anıyor, ya da yalnız hicrî veriyor.
