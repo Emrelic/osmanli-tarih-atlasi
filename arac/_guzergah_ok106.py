@@ -66,13 +66,29 @@ def km_arasi(a, b):
         math.cos(la1) * math.cos(la2) * math.sin((lo2 - lo1) / 2) ** 2))
 
 
-def adaylar(dugumler, k=3, tavan_km=1200.0):
+def adaylar(dugumler, k=3, taban_km=25.0, tavan_km=1400.0):
     """k-en-yakın komşu çiftleri. Çift TEK KEZ döner (a<b sırasıyla).
 
-    `tavan_km` — bundan uzak çiftler ELENİR. Gerekçe: koridor bir MENZİL
-    ağıdır; iki bin kilometrelik tek bir kenar yol değil, özettir.
-    ⚠️ 1200 km bir BAŞLANGIÇ sayısıdır, ölçülmedi. Osmanlı ayağının kenar
-    uzunluğu dağılımıyla ayarlanmalı — `kenar-sinav` komutu o dağılımı basar.
+    🟢 İKİ SINIR DA ÖLÇÜLDÜ — sezgiden değil, Osmanlı ayağının KENDİ
+    kenarlarından türetildi (2 Eylül 2026, 121 kenarın koordinattan
+    hesaplanan uzunluğu; `km` alanı dolu olan 85 kenar aynı sonucu veriyor):
+
+        min  3,4 · %5  25,6 · %10  37,9 · ortanca 84,9 · %90 158,2 · max 1388,5
+
+    `taban_km=25` — 5. yüzdelik. Altındaki tek gerçek kenar **İstanbul-Üsküdar
+        boğaz geçişi (3,4 km)** ve o bir MENZİL AYAĞI DEĞİL, bir GEÇİT:
+        elle yazılmış özel bir kenar. ⇒ Taban **türetilen kara koridorları**
+        için geçerlidir; elle yazılan geçit/boğaz kenarlarını BAĞLAMAZ.
+        📌 Niçin gerekli: tabansız üretimde ilk beş aday `Caparra ↔ San Juan`
+        (4,5 km) · `Trujillo ↔ Chan Chan` (5,2 km) gibi **aynı yerin iki
+        noktası** çıkıyordu — menzil kenarı değil.
+        ÖLÇÜLDÜ: taban 25 km, 2516 adayın **40'ını** eler (%1,6).
+    `tavan_km=1400` — ölçülen en uzun gerçek kenar 1388,5 km. Önceki
+        değer 1200'dü ve **UYDURMAYDI**; ölçüm onu çürüttü (gerçek kenar
+        tavanın üstünde kalıyordu).
+    ⚠️ Ve tavanın kendisi bir MODEL kararıdır: 1388 km'lik bir kenar bir
+        yol değil bir ÖZETtir. Tavanı düşürmek meşrudur ama o zaman
+        gerçek kenarların bir kısmı da elenir — karar koordinatörün.
     """
     cift = {}
     for i, a in enumerate(dugumler):
@@ -80,7 +96,7 @@ def adaylar(dugumler, k=3, tavan_km=1200.0):
             ((km_arasi((a["lat"], a["lon"]), (b["lat"], b["lon"])), j)
              for j, b in enumerate(dugumler) if j != i))[:k]
         for d, j in uzak:
-            if d > tavan_km:
+            if d < taban_km or d > tavan_km:
                 continue
             anahtar = (min(i, j), max(i, j))
             if anahtar not in cift or d < cift[anahtar]:
