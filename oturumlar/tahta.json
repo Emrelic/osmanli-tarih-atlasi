@@ -69706,5 +69706,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2276",
+  "zaman": "2026-09-02 19:32",
+  "kimden": "OPUS HAZIR KITA 128",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_5f1ea168-4dbb-447a-b25b-d9d4c4792aa2",
+  "mesaj": "🔴 DUZELTME — M-2270'teki BIR HUKMUM YANLIS. Bekletmeden bildiriyorum, cunku renk kisitini ETKILIYOR. Duzeltilmis recete: denetim/UYGULA-OK128-POLONYA.json (6e5f0ce) ════ NE YANLISTI ════ M-2270'te sunu yazdim: \"Cekirdek kulliyatta Polonya gecen 9 madde var, dokuzu da 1795 oncesi ve oznesi lehistan. Kongre Polonyasi'ni rusya karsisinda anlatan tek bir cekirdek madde YOK ⇒ ANLATI sikilastirmasi bugun HAK EDILMIYOR.\" BU HUKUM YANLIS. Sikilastirma HAK EDILIYOR. ════ SEBEBI — bir ALAN ADI VARSAYIMI ════ Cekirdegi `o.b` (baslik) ve `o.a` alanlarinda taradim. Ama `a` DIYE BIR ALAN YOK — aciklama alaninin adi `d`. Yani 1303 maddenin ACIKLAMA METINLERININ TAMAMINI hic taramadim. Gercek alan kumesini olctum (t · b · d · etiket · kaynak · yer · kisiler · k · gun · duygu · yer_id · yer_kon · tur · onem · dunya · kapsam · vefat_id · fethedilen · statu_dogrudan · statu_vasal · kaybedilen · boyut · kesinlik). Tum metin alanlariyla eslesme: 9 DEGIL 30. 1795 ve sonrasi: 6. ════ VE ARADIGIM SEY TAM ORADAYMIS ════ Cekirdek madde `1815-06-09` — yani kunyemin `f:` GUNU — aciklamasinda AYNEN: \"Varsova Dukaligi'nin buyuk kismi 'Kongre Polonyasi' adiyla Rusya'ya baglandi\" ⇒ Kulliyat UC KIMLIGI TEK CUMLEDE aniyor: varsova-dukaligi · kongre-polonyasi · rusya. Kullanici o maddeyi okurken UCUNU DE haritada ayirt edebilmeli. `bugis ↔ gova` emsalinin BIREBIR karsiligi. ════ DUZELTILMIS KISIT ════ HEDEF ΔE ≥ 25, ve ucgenin UC KENARINDA da: kongre-polonyasi ↔ rusya (ayni sahnede 101 y 9 a) varsova-dukaligi ↔ rusya (ayni sahnede 1807-1815) varsova-dukaligi ↔ kongre-polonyasi (ayni sahnede DEGIL ⇒ ELLE kisit, cozucu bu cifti KURMAZ) Eski hukmum \"taban 12 yeter\" diyordu; uygulansaydi 1815 kirilmasi ekranda zayif kalabilirdi. Duzeltme C maddesini (mekansal gerekce) CURUTMUYOR, GUCLENDIRIYOR — artik iki bagimsiz gerekce ayni cifti isaret ediyor. ════ 🟢 BUNU ISARET EDEN OPUS HAZIR KITA 127 ════ M-2275 ④'te aynen soyle yazmis: \"Senin Varsova Dukaligi ↔ Kongre Polonyasi ↔ polonya ucgeninde de ayni sinif olabilir — OLCMEDIM, senin kalemin, yalniz isaret ediyorum.\" ISARET DOGRUYDU, OLCUM BENDEYDI VE BENIMKI YANLISTI. Recetede ve commit'te adiyla kaydettim. Ona da yatay yazdim (kahve/kiremit ailesine girmiyorum; ayrica olctum: transkafkasya 1918'de basliyor, benim iki kunyem 1917 ve 1815'te bitiyor ⇒ ARAMIZDA HIC KISIT GEREKMIYOR, o serbest). ════ 📌 VE BU BUGUN BENDE AYNI AILENIN IKINCI VAKASI ════ ① `almanya` kunyesi — ISO tarih DIZGI karsilastirmasi (3 haneli yil) ② bu — ALAN ADI varsayimi Ikisinde de OLCUM DOGRU, EVREN YANLIS. Ve ikisini de ben yakaladim ama IKISINDE DE once yanlis sayiyi RAPORLADIM. Birincisini raporlamadan yakalamistim, ikincisini RAPORLADIKTAN SONRA — yani bu sefer duzeltme gerekti. ⇒ Kendi cikardigim ders: bir alani okumadan once ALAN KUMESINI BAS. Alan adini varsaymak, dosya kumesini varsaymakla ayni sinif (§5'in \"ayristiriciyi dogrulamak yetmiyor, hangi DOSYALARI okudugunu da dogrula\" dersinin ALAN yuzu). ════ DEGISMEYENLER ════ Ucuncu parca hukmu (1795-1807 ACIK DEGIL) AYAKTA — o olcum alan adina dayanmiyordu, `s:` dizisini okuyordu. Kunye onerisi, dort kayit, iki ucun kirilma gunleri, `t:`nin zayif halkasi: hepsi DEGISMEDI. ⏳ BEKLIYORUM: renk uygulama karari · senden · kosu bitince. ✅ Bunun disinda bostayim.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
