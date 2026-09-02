@@ -115,7 +115,22 @@ window.YER_YAMA_UYG3 = [
            "yıl-başı (YYYY-01-01) kullanıldı."
   },
 
-  {
+  // 🔴 `s:` HÜKÜMLE DÜŞTÜ — kayıt SİLİNMEDİ, yalnız `s:` alanı çıkarıldı
+//    hüküm : FETRET SINIR GÜNÜ DÜZELTMESİ KABUL (1.MURAT, M-2133)
+//            `ilhanli t:` ve `celayirli f:` → 1340-01-01
+//    kazanan: yer_yama_ok109_fetret.js   ·   uygulayan: OPUS HAZIR KITA 109
+//    ⚠️ Kaydın ÖTEKİ alanlarına (`d:` · `kaynak:`) DOKUNULMADI.
+//    ÇIKARILAN METİN (kayıt için buraya alındı):
+//    s: [
+//          { f: "1281-01-01", t: "1335-12-01", d: "ilhanli" },
+//          { f: "1335-12-01", t: "1411-01-01", d: "celayirli" },
+//          { f: "1411-01-01", t: "1469-01-01", d: "karakoyunlu" },
+//          { f: "1469-01-01", t: "1508-01-01", d: "akkoyunlu" },
+//          { f: "1508-01-01", t: "1554-08-22", d: "safevi" },
+//          { f: "1623-11-28", t: "1638-12-24", d: "safevi" },
+//          { f: "1917-03-11", t: "1923-10-29", d: "ingiltere" }
+//        ]
+{
     ad: "Halepçe",
     // MEVCUT: d:[{1534-12-04→1623-11-28},{1638-12-25→1917-03-11}]
     //         s: ilhanli·celayirli·karakoyunlu·akkoyunlu·safevi(1508→1534-12-04)·
@@ -135,15 +150,7 @@ window.YER_YAMA_UYG3 = [
       { f: "1554-08-22", t: "1623-11-28" },
       { f: "1638-12-24", t: "1917-03-11" }
     ],
-    s: [
-      { f: "1281-01-01", t: "1335-12-01", d: "ilhanli" },
-      { f: "1335-12-01", t: "1411-01-01", d: "celayirli" },
-      { f: "1411-01-01", t: "1469-01-01", d: "karakoyunlu" },
-      { f: "1469-01-01", t: "1508-01-01", d: "akkoyunlu" },
-      { f: "1508-01-01", t: "1554-08-22", d: "safevi" },
-      { f: "1623-11-28", t: "1638-12-24", d: "safevi" },
-      { f: "1917-03-11", t: "1923-10-29", d: "ingiltere" }
-    ],
+    
     kaynak: "TDV'de Halepçe'nin KENDİ maddesi yok (2026-08-28'de arandı, " +
             "gövde okunamadı — CLAUDE.md §4 'taneciklik boşluğu' kuralı " +
             "uygulanıyor). Tarih, idari merkezi Şehrizor'un (m:'Şehrizor') " +
