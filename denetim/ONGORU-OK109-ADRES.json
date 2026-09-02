@@ -3,9 +3,7 @@
   "oturum": "OPUS HAZIR KITA 109",
   "damga": "2026-09-02, ARAMADAN ÖNCE yazıldı ve commit edildi",
   "sevk": "1.MURAT, M-2142 — 'sekizde dur ve ölç'",
-
   "yontem": "Desenin YÖNÜNÜ kullan: olay slugu ölüyse ÖNCE yer, sonra kişi maddesi denenir. Her aday HTTP ile sınanır; 200 dönerse GÖVDESİ okunur.",
-
   "esik_dorduncu_alan": {
     "soru": "Bir adres ne zaman 'BULUNDU' sayılır?",
     "BULUNDU": "gövde olayı ADIYLA ve TARİHİYLE (en az yıl) veriyor — çünkü `kaynak:` alanı TARİHLİ bir kronoloji maddesini dayandırıyor; tarihsiz bir anma o maddeyi dayandırmaz",
@@ -13,26 +11,110 @@
     "YOK": "aday sluglar ölü, ya da canlı gövde olayı hiç anmıyor",
     "niçin_onceden": "Eşiği sonradan koymak, sonucu gördükten sonra 'bu da sayılır' demeyi mümkün kılar. §11: mazeret de önceden yazılır."
   },
-
   "secilen_sekiz": [
-    {"olu": "varna-savasi", "cins": "SAVAS", "yil": 1444, "aday": ["varna", "murad-ii"]},
-    {"olu": "preveze-deniz-savasi", "cins": "SAVAS", "yil": 1538, "aday": ["preveze", "barbaros-hayreddin-pasa"]},
-    {"olu": "istanbulun-fethi", "cins": "OLAY", "yil": 1453, "aday": ["istanbul", "mehmed-ii"]},
-    {"olu": "belgrad-antlasmalari", "cins": "ANTLASMA", "yil": 1739, "aday": ["belgrad", "mahmud-i"]},
-    {"olu": "zenta-savasi", "cins": "SAVAS", "yil": 1697, "aday": ["zenta", "mustafa-ii"]},
-    {"olu": "nasuh-pasa-antlasmasi", "cins": "ANTLASMA", "yil": 1612, "aday": ["nasuh-pasa", "ahmed-i"]},
-    {"olu": "sakarya-meydan-muharebesi", "cins": "SAVAS", "yil": 1921, "aday": ["sakarya", "milli-mucadele"]},
-    {"olu": "cimpe-kalesi", "cins": "YER", "yil": 1352, "aday": ["cimpe", "suleyman-pasa"]}
+    {
+      "olu": "varna-savasi",
+      "cins": "SAVAS",
+      "yil": 1444,
+      "aday": [
+        "varna",
+        "murad-ii"
+      ]
+    },
+    {
+      "olu": "preveze-deniz-savasi",
+      "cins": "SAVAS",
+      "yil": 1538,
+      "aday": [
+        "preveze",
+        "barbaros-hayreddin-pasa"
+      ]
+    },
+    {
+      "olu": "istanbulun-fethi",
+      "cins": "OLAY",
+      "yil": 1453,
+      "aday": [
+        "istanbul",
+        "mehmed-ii"
+      ]
+    },
+    {
+      "olu": "belgrad-antlasmalari",
+      "cins": "ANTLASMA",
+      "yil": 1739,
+      "aday": [
+        "belgrad",
+        "mahmud-i"
+      ]
+    },
+    {
+      "olu": "zenta-savasi",
+      "cins": "SAVAS",
+      "yil": 1697,
+      "aday": [
+        "zenta",
+        "mustafa-ii"
+      ]
+    },
+    {
+      "olu": "nasuh-pasa-antlasmasi",
+      "cins": "ANTLASMA",
+      "yil": 1612,
+      "aday": [
+        "nasuh-pasa",
+        "ahmed-i"
+      ]
+    },
+    {
+      "olu": "sakarya-meydan-muharebesi",
+      "cins": "SAVAS",
+      "yil": 1921,
+      "aday": [
+        "sakarya",
+        "milli-mucadele"
+      ]
+    },
+    {
+      "olu": "cimpe-kalesi",
+      "cins": "YER",
+      "yil": 1352,
+      "aday": [
+        "cimpe",
+        "suleyman-pasa"
+      ]
+    }
   ],
   "niçin_bu_sekiz": "Dört yüzyıl aralığı (1352-1921), dört tür (SAVAS 3 · ANTLASMA 2 · OLAY 1 · YER 1) ve biri (cimpe-kalesi) desenin ZAYIF olduğu kovadan — YER cinsinde ölüm oranı %2 iken bu ölü çıkmış, yani deseni ÇÜRÜTME ihtimali en yüksek olan örnek. Kolay olanları seçmedim.",
-
   "ongoru": {
     "BULUNDU": "5-6 / 8",
     "gerekce": "Desen (yer/kişi maddelerinde ölüm %2) adresin CANLI olacağını güçlü biçimde söylüyor. Ama 'canlı' ile 'olayı tarihiyle içeriyor' AYNI ŞEY DEĞİL — ikinci şart ayrıca tutmalı. `murad-iv` vakasında tuttu (gün verdi); her maddede tutacağını varsaymıyorum.",
     "koordinatorun_beklentisi": "≥5 (yüksek)",
-    "en_supheli_iki": ["sakarya-meydan-muharebesi (1921 — TDV'nin Cumhuriyet dönemi taneciği zayıf, bugün ölçüldü: 1918-1923 için TDV gün gün ilerlemeyi vermiyor)", "cimpe-kalesi (zaten YER cinsinde ve ölü — desenin istisnası)"],
+    "en_supheli_iki": [
+      "sakarya-meydan-muharebesi (1921 — TDV'nin Cumhuriyet dönemi taneciği zayıf, bugün ölçüldü: 1918-1923 için TDV gün gün ilerlemeyi vermiyor)",
+      "cimpe-kalesi (zaten YER cinsinde ve ölü — desenin istisnası)"
+    ],
     "mazeret": "YOK. 8'in kaçının bulunduğu tek bir ayrıştırma sorusudur; tabana, koşuya, saate duyarlı değil."
   },
-
-  "durma_kurali": "Sonuç ≤1/8 çıkarsa DURULACAK ve 'desen yön veriyor ama adres vermiyor' diye raporlanacak — koordinatörün kuralı."
+  "durma_kurali": "Sonuç ≤1/8 çıkarsa DURULACAK ve 'desen yön veriyor ama adres vermiyor' diye raporlanacak — koordinatörün kuralı.",
+  "ikinci_tur": {
+    "damga": "2026-09-02, KOŞMADAN ÖNCE eklendi · sevk M-2147",
+    "kapsam": "kalan 28 ölü slug",
+    "sayi_kontrolu": "37 ölü − 8 pilot − 1 zaten çözülmüş (kasr-i-sirin-antlasmasi → murad-iv) = 28. Koordinatörün sayısıyla uyuşuyor; devralmadım, saydım.",
+    "ongoru": {
+      "BULUNDU": "18-22 / 28",
+      "gerekce": "Pilotta 6/8 (%75). Kalan 28'de iki ZAYIF sınıf daha yoğun: geç dönem (buyuk-taarruz · bab-i-ali-baskini · cumhuriyet · reji · balkan-savaslari · kirim-savasi) ve küçük yer (kosmidion · ulubat · cimpe zaten düştü). Bu yüzden oranı %75'ten %64-79 bandına ÇEKİYORUM, yukarı değil.",
+      "mazeret": "YOK"
+    },
+    "dorduncu_ayak_HANGI_KOSUDA_NEYE_KARSI": {
+      "hangi_kosuda": "aynı koşu — tek turda, aynı alet, aynı eşik",
+      "neye_karsi": "pilotun 8'ine karşı: pilot %75 verdi (6/8). İkinci tur belirgin biçimde DÜŞÜKSE (<%55) bu, pilotun 8'inin KOLAY seçilmiş olduğunu gösterir — oysa ben zoru seçtiğimi iddia etmiştim (cimpe-kalesi'ni bilerek koydum). Yani bu ölçüm SEÇİMİMİ de sınıyor.",
+      "niçin_gerekli": "§11'in dördüncü ayağı: 'bir öngörü, sınavının koşulacağı ANI ve NEYE KARŞI ölçüleceğini de tarif etmelidir.' Bugün puanlama kapısında bu eksikti ve dört kalem ölçülemedi."
+    },
+    "yol_sayimi_AYRI": {
+      "niçin": "Koordinatör haklı: 'TDV'nin kendi göndermesi %100' bir ORAN DEĞİL, İKİ VAKA. Payda 2. Kör yeniden adlandırmanın paydası 10'du, o yüzden %20 anlamlıydı.",
+      "olculecek": "① gönderme KAÇ kez izlenebildi (yani gövdede 'bk. X' gibi bir gönderme VAR mıydı) · ② izlenebildiğinde KAÇ kez tuttu. Payda 10'u geçmeden kural yazılmayacak.",
+      "benim_ongorum": "gönderme 28'in ~6-10'unda BULUNUR; bulunduğunda tutma oranı YÜKSEK (>%80) — çünkü gönderme TDV'nin KENDİ adresidir, tahmin değil."
+    }
+  }
 }
