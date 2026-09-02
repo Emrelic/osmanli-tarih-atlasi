@@ -323,8 +323,35 @@ başkentken** yıldıza dönüşecek — bunun için zaman penceresi şart.
 ④ `ad` alanı bir YERLEŞİM ADIDIR ve `yerlesimler*.js`teki `ad` ile
    BİREBİR eşleşmelidir — yıldız o noktaya konacak.
    ⚠️ Eşleşmeyen ad SESSİZ BAŞARISIZLIKTIR: yıldız hiç çizilmez, hata
-   da vermez. Bir sonraki denetim turunda `bk[].ad` → yerleşim eşleşmesi
-   ötecek bir nöbetçi yazılacak. (`§11`: "ölçülemedi ≠ temiz")
+   da vermez.
+   🔴 **NÖBETÇİ ARTIK BORÇ DEĞİL ÖN ŞART** *(2 Eylül, OPUS HAZIR KITA
+   106'nın sorusu üzerine):* `arac/_bk_nobetci.py` — her `bk[].ad`ın bir
+   yerleşimle eşleşip eşleşmediğini sorar, eşleşmeyenleri **adıyla**
+   basar. **`bk:` yazımı bu nöbetçiden ÖNCE başlamaz.**
+   **Niçin ön şart oldu:** ölçüldü — çok-başkentli 91 künyenin
+   adaylarından **42'sinin atlasta noktası yok**, ve aralarında Iaşi ·
+   Buda · Pozsony · Smederevo · Skopje · Larende gibi **atlasın
+   konusunun tam ortasındaki** yerler var.
+   ⇒ Karar: bu künyelere `bk:` **YAZILIR** (veri doğru; bir görüntü
+   kısıtı veriye hükmedemez — `pencere_disi` emsali: *"araştırılmış
+   doğru veriyi silmek, onu yeniden araştırmaktan pahalıdır"*), **ama
+   nöbetçi o 42'yi listeler.**
+   📌 ***Sessizlik zararlı değildir; KAYITSIZ sessizlik zararlıdır.***
+   Nöbetçinin listesi aynı zamanda nokta yazacak oturumun iş sırasıdır.
+
+⑤ 🟡 **AD EŞLEME BİR SÜZGEÇ İŞİ DEĞİL, SÖZLÜK İŞİDİR** — ölçüldü.
+   İki bağımsız süzgeç denendi ve ikisi de yetmedi:
+   ```
+   salt ad benzerliği   Sa'da(Yemen)→Sayda(Lübnan) · Vlorë→Vellore(Hindistan)
+                        · Birgu(Malta)→Birgi(Aydın)          YANLIŞ KABUL
+   + coğrafî sınav      Diyarbekir→Diyarbakır                YANLIŞ RED
+                        Bianjing→Tiencin (ikisi de Çin'de)   YETERSİZ AYIRT
+   ```
+   🔴 Ve `Diyarbekir/Diyarbakır` **üç ayrı alette, üç ayrı yönde** ısırdı
+   (koridor ağında 4 kenar kopardı · birinci süzgeç yanlış kabul etti ·
+   ikincisi yanlış reddetti). Tesadüf değil, **işaret.**
+   🔜 Çare bir eşanlamlı sözlüğü (`data/ad_esanlam.js`) — üç aleti birden
+   düzeltir. Ayrı kalem, **kaydedildi**, açılmadı.
 ⑤ Dönemler çakışmaz, ters olmaz, sıfır uzunlukta olmaz — `d:`/`s:` ile
    aynı disiplin.
 ```
