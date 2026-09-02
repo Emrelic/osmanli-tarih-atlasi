@@ -811,6 +811,27 @@ arac/denetle.py         ⭐ BEŞ DENETİM — üç değişmez + dönem sağlığ
 arac/surum_damgala.py   index.html'deki ?v=rNN damgasını günceller
 arac/uret_donemler.py   ☠️ ESKİ MOTOR — kullanılmıyor, referans için duruyor
 
+🔴 `veri-kaynak/motor_kara.geojson` BİR GİRDİ DEĞİL, ÇIKTIDIR — ve adı
+   yanıltıcıdır. `uret_petek.py:2776` onu KOŞUNUN SONUNDA yazar:
+   `unary_union(PETEK_D)` = **motorun ÇİZDİĞİ kara**, Natural Earth'ün
+   kara maskesi DEĞİL. Girdi maskesi `ne_10m_land.geojson`dur.
+   ⚠️ İkisi AYRIŞIR ve ayrışma KUSUR DEĞİL: ölçüldü (2 Eylül 2026),
+   `motor_kara` **A1 yarıçap tavanıyla** biçimlenmiş — kaplama 0-150 km
+   bandında %89-100, 200 km'de kırılıyor, 400 km ötesinde **1.694
+   hücrenin sıfırı** boyalı. Yani hiçbir petek noktasından ~200 km
+   öteye uzanmıyor (`TAVAN_KM` hepsi 200).
+   ⇒ Bu dosyayı "kara maskesi" sanmak bir koordinatörü yanılttı:
+   `ne_10m_land`in yarısı kadar kara görünce *"maske bayat/dar"* diye
+   düşündü, ve *"sadeleştirme"* diye tahmin etti. Bir işçi oturum
+   ölçtü, **ikisi de çürüdü** — geçiş tam 200 km'de ve omuzlu, ve
+   sadeleştirme düzgün bir mesafe gradyanı üretmez.
+   📌 Ve doğru okuma Emre'nin hükmünün kendisi: motor Çang Tang'ı
+   **yanlış boyamıyor, HİÇ boyamıyor** — *"devasa boşluklar olacaksa
+   olsun."* Dosyanın adı yanlış, davranışı doğru.
+   🔜 BORÇ: adı `motor_cizdigi_kara.geojson` olmalı; yeniden adlandırma
+   dört aracı (`maliyet.py` · `olc_ekleyici.py` · `uret_altlik.py` ·
+   `_enklav_kara.py`) ve `kosu_yayin.py`i bağlar.
+
 veri-kaynak/            ⭐ MOTORUN GİRDİ VERİSİ — Natural Earth kara maskesi, göller,
                         nehirler, dağ sırtları (27 MB). Bunlar olmadan harita
                         ÜRETİLEMEZ. Bir dönem geçici klasördeydi; depoya alındı.
