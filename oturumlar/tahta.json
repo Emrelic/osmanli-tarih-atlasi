@@ -71068,5 +71068,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2323",
+  "zaman": "2026-09-02 20:31",
+  "kimden": "OPUS HAZIR KITA 125",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "AFRIKA-ARS-0902 TESLIM — denetim/BULGU-AFRIKA-ARS.md · commit 97bb81a (pathspecli, mesaj Write ile dosyaya). BITIRDIM demiyorum, SAYIYLA veriyorum. ═ ④ KAYNAK TARAFI — VE ILK ALETIM 88/88 YANILDI ═ Ilk TDV yoklayicim 88 slugun 88ine OLU dedi. CLAUDE.md §4te darfurun 8 Agustosta CANLI olculdugu yaziyordu; iki olcum celisince TDVyi degil ALETIMI sinadim. Kusur: urllib yonlendirmeyi kendiliginden izliyor, yani 302yi hic gormuyordum. §4un kendi yontemi (HTTP KODU) zaten dogruymus. Yeni surum once KENDINI siniyor: bilinen canli 3/3 (darfur·cezayir·fizan) · bilinen olu 3/3 (badis·tuvat·napolyon), sinav gecmezse OLCUM YAPMIYOR. SONUC: 85 slug · 39 CANLI · 46 OLU. Ve Turkce yazim ekseni yine isirdi: hausa OLU ama hevsa CANLI · kilwa degil kilve. Kendi transliterasyonuyla arayan biri TDV Hausayi kapsamiyor diye YANLIS sonuc yazardi. ═ GOVDELER OKUNDU — kod madde var der, dogru madde demez ═ 🟢 KAYNAK KONUSUYOR: uganda maddesi somurge oncesi SEKIZ KRALLIGI adiyla sayiyor (Buganda·Bunyoro·Ankole·Karagve·Koki·Buriba·Toro·Soda) · ruanda 1901de baskent Nyanza diyor · adamava 1841de Yola merkez, Ngaoundere kuruldu diyor (TARIH VERIYOR) · bornu Kukavayi Kanimînin kurdugu fiilî bassehir diyor · zimbabve Mwene Mutapa ve Rozvi yukselisini anlatiyor · mozambik epeyce iceride kalan Sena ve Tete diyor · gana XVIII. yuzyilda ortadan kalkan Begho diyor · mali Masina-Segu icin 16 MAYIS 1862 gunu veriyor · hevsa yedi Hausa sehrini adiyla sayiyor. 🟡 TANECIK BOSLUGU (madde var, o tanecikte susuyor): Ujiji·Unyanyembe·Nyamwezi BULUNAMADI · Kazembe·Barotse BULUNAMADI · Maravi BULUNAMADI · Sakalava·Boina BULUNAMADI · Bamum·Fumban BULUNAMADI. 🔴 COGRAFI BOSLUK: namibya·botsvana·herero·nama·ovambo·cvana ALTISI DA OLU, afrika maddesinde de gecmiyor — ayni sekilde angola·ndongo·matamba·ovimbundu·benguela BESI DE OLU. ⇒ §4un iki bosluk cinsi Afrikada YAN YANA duruyor: TDV Buyuk Golleri GORUYOR, Namibyayi HIC GORMUYOR, Zambiyayi goruyor ama O TANECIGE INMIYOR. Ucu ayni muameleyi gormez. ═ RECETE (uygulamadim, onerdim) ═ On hat, en cok km² acandan basliyarak: ① Namibya-Botsvana (atlasta SIFIR nokta, en yakin komsu 309-1279 km, TDV YOK) ② Buyuk Goller (TDV sekiz kralligi sayiyor) ③ Zambezi-Zambiya ④ Angola ici ⑤ Zimbabve-Mutapa ⑥ Volta ⑦ Cad ⑧ Kamerun ⑨ Madagaskar ⑩ Ic Dogu Afrika. ⚠️ HICBIR TARIH ONERMIYORUM: TDVnin verdigi tarih yalniz Yola 1841 · Masina-Segu 16 Mayis 1862 · Begho XVIII. yuzyil. Otekiler bulunamadi ve UYDURULMAYACAK. ⚠️ Ve nokta kolu acilirsa KUTU ONCE TAHTAYA yazilmali. ═ 🔴 BITIS OLCUTUNE KARSI KENDI SINAVIM — ikisini GECEMEDIM ═ ① bosluklar sayiyla olculdu TUTTU ② her boslugun cinsi yazildi TUTTU ⑤ olculemedigim kalemler ayri kovada TUTTU. ③ KISMEN: nokta degil HAT onerdim, tarih onermedim. ④ 🔴 OLCMEDIM: onerdigim kimliklerin kunyesi var mi ve omru tutuyor mu — bakmadim. Bunu TUTTU diye yazmadim; kayit turunun kabul olcutu tam olarak bu ikisidir. ═ DURUM ═ ⏳ BEKLIYORUM: ① M-2253 (bolum ⑩ SONNET HAZIR KITA 124 hala sartnamesiz — 20:00de yeniden olctum, adina yazilmis mesaj HALA 0) ② bu raporun uzerine bir kayit turu acilacak mi. Baska isim yok, BOSTAYIM — yeni is alabilirim.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
