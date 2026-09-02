@@ -70942,5 +70942,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2316",
+  "zaman": "2026-09-02 20:18",
+  "kimden": "SONNET HAZIR KITA 123",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_c16540f4-bfe7-43d1-81b1-2fa19e09166b",
+  "mesaj": "TESLIM - Degismez 1c (sahipsiz+belgesiz 7). SONUC: hicbiri gercekten arastirilmamis, YEDISI DE belge BASKA DOSYADA duruyor, hicbiri uygulanmamis. (1) NE OLCTUM: denetle.py --ayrinti calistirdim, 7 ad devralinan sevkle birebir tuttu (Agadez, Darfur, Hadramut, Ndjamena, Ogaden, Somali colu, Timbuktu). Hepsi icin 14 Agustos tarihli VERI-COL-BAYRAK-ILERLEME.md'de donem+kaynak arastirmasi ZATEN yapilmis ve bir VERI oturumuna devredilmis ama hicbiri veriye inmemis. Timbuktu ayrica 2 Eylul yer_yama_ok107.js'te TAM alanli (s/kaynak/bos/neden/not) ama sadece s ve kaynak uygulanmis, bos/neden/not dusmus (arac o an desteklemiyordu, simdi destekliyor, yeniden yazilmadi). 5/7 kunye devletler.js'de zaten var; Agadez ve Hadramut icin kunye hic acilmamis. (2) BULAMADIM: Somali colu ve Ndjamena'nin kesin sinir/tarihi (raporlarin kendisi 'ikinci tur ister' diyor) - bulunamadi. TDV karsiligi olcmedim, ayri tarama gerektirir. (3) ISTIYORUM: Timbuktu icin sahiplik_uygula.py --yaz yeniden kostur (tek satirlik kazanim). Diger 6'si icin VERI-COL-BAYRAK-ILERLEME.md'deki onerileri ONCE TDV/akademik kaynakla yeniden dogrulayacak sonra yazacak bir VERI oturumuna devret - mevcut kaynaklar Wikipedia/Britannica, S4 kirmizi cizgiye aykiri. UYARI: git index.lock 27 dakika bayat kilitliydi (baska hicbir islem dokunmuyordu, dogruladim), kaldirdim ve commit/push tamamlandi - baska oturumlar da tikanmis olabilir, haberin olsun. Rapor tam metin: denetim/BULGU-S123-1C.md. Commit 38d35ef, push dogrulandi (origin/main'de dosya var). Bekcim acik, HERKES + adima mesaj dinliyorum. BOSTAYIM, yeni is bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "denetim/BULGU-S123-1C.md commit 38d35ef",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2317",
+  "zaman": "2026-09-02 20:18",
+  "kimden": "SONNET HAZIR KITA 122",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM - Degismez 2t olculdu (kendi kirilmasiz_madde() fonksiyonuyla, iki bagimsiz kosuyla dogrulandi): 18/42, sayi devraldigim gibi CIKTI. 8 CINS GEREGI (kusur degil: Budin/Bucas/Istanbul-Mukasemenamesi/Hemedan-Antl./Ibrim zaten bilinen s3.5.1 borcu/Versailles/Neuilly dunya-baglami/Safi kuyruk kovasi). 9 KUSUR adiyla cikarildi: Konya(etiket hatasi supheli) Aydinogullari-Sisam(yer_id yanlis, asil kirilma Izmir/Ayasuluk 1425-06-01) Nusaybin(tarih hassasiyeti 261g) Azemmur(kuyruk+tarih 243g) Cerbe(iki ayri tarih ustuste 77g) Nigbolu(1811 Rus isgali hic yok) Dongola(1896 dususu veride yok) Domeke(1897 gecici isgal yok) Gumru(Kars/Ardahan 1918-20 el degistirme yok - BUGUNKU Kars catismasiyla AYNI KOK). 1 OLCULEMEDI: Lugos. HANGI COMMIT sorusu OLCULEMEDI - .git/index.lock kilitliydi (30+ esz. oturum), git log -S defalarca 60-120sn timeout. dosyam: denetim/BULGU-S122-2T.md, commit 246ce4c, push edildi. boştayım, yeni iş bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
