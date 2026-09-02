@@ -1,0 +1,37 @@
+{
+ "parti-emrelic-0035": {
+  "H-0069": {
+   "hukum": "zaten-dogru",
+   "not": "ÇAKIŞMA ÇÖZÜLDÜ — (b) ESKİ HÜKÜM HAKLI. Çakışan iki kaynak: HUKUM-0035.json (27 Ağustos 04:50, 'olculecek', not: 'KÜME HÜKMÜ VERİLEMEDİ ... bu turda YETİŞMEDİ, kapasite sınırı') ↔ HUKUM-UYGULAMA-0035.json (29 Ağustos 12:15, 'zaten-dogru', Kut el-Amâre/Bağdat tarih senkronu tek tek doğrulanmış, py arac/_yer_ara.py ile). Tarihe bakınca: HUKUM-0035.json AÇIKÇA 'ölçülmedi, yetişmedi' diyor — bu bir ölçüm değil bir BOŞLUK KAYDI. İKİ GÜN SONRA HUKUM-UYGULAMA-0035.json aynı maddeyi GERÇEKTEN ölçmüş (tarihler karşılaştırılmış: 1623-11-28, 1638-12-24/25, 1917-03-11 — üçü de senkron). Mevcut 'zaten-dogru' KALSIN, HUKUM-0035.json'daki 'olculecek' bir kapasite-sınırı notu olarak zaten kendi kendini geçersiz kılıyor."
+  },
+  "H-0022": {
+   "hukum": "zaten-dogru",
+   "not": "ÇAKIŞMA ÇÖZÜLDÜ — (b) ESKİ HÜKÜM HAKLI. HUKUM-0035.json (27 Ağustos, 'sirada') bu maddeyi TEK TEK ölçmediğini kendi metninde İTİRAF EDİYOR: yedi maddeye (H-0022/31/49/50/61/75/52) AYNI kopyala-yapıştır 'TEK KÖK: emilme kuralı ... 18 ayrı iş DEĞİL, TEK iş ... madde tek tek ÖLÇÜLMEDİ' notunu yazmış — bu bir KÜME varsayımı, madde ölçümü değil. HUKUM-VERI-EMILME.json (28 Ağustos, bir gün SONRA) maddeyi GERÇEKTEN açmış: görsel (1725-09-12 Gence fethi) okunmuş, Tebriz-Azerbaycan koridorunun dolu olduğu ve data/yer_yama_iran.js'in (27 Ağustos) bu bölgeyi zaten güçlendirdiği doğrulanmış. Doğrudan kontrol ettim: yer_yama_iran.js dosyası VAR. Mevcut 'zaten-dogru' KALSIN."
+  },
+  "H-0031": {
+   "hukum": "zaten-dogru",
+   "not": "ÇAKIŞMA ÇÖZÜLDÜ — (b) ESKİ HÜKÜM HAKLI. Aynı desen (bkz. H-0022): HUKUM-0035.json'un 'sirada'sı ölçülmemiş küme varsayımı. HUKUM-VERI-EMILME.json'un 'zaten-dogru'su ÖLÇÜLMÜŞ: doğrudan kontrol ettim, data/bos_alanlar.js:98'de Hâil gerçekten 'devletsiz-yerlesim' olarak, CLAUDE.md §3 gerekçesiyle (1744 öncesi Necid) kayıtlı. Mevcut 'zaten-dogru' KALSIN."
+  },
+  "H-0049": {
+   "hukum": "zaten-dogru",
+   "not": "ÇAKIŞMA ÇÖZÜLDÜ — (b) ESKİ HÜKÜM HAKLI. Aynı desen. HUKUM-0035.json'un 'sirada'sı kopyala-yapıştır küme notu. HUKUM-VERI-EMILME.json'un 'zaten-dogru'su görsel-özel: 1386 Niş fethinde çevrenin 'SIRBİSTAN' etiketiyle dolu olduğu, emilme olmadığı belirtilmiş — bu iddiayı doğrulayacak bağımsız bir kaynağım yok ama notun kendisi ÖLÇÜLMÜŞ bir gözlem, HUKUM-0035'inki DEĞİL. Mevcut 'zaten-dogru' KALSIN."
+  },
+  "H-0050": {
+   "hukum": "cozuldu",
+   "not": "ÇAKIŞMA ÇÖZÜLDÜ — (b) ESKİ HÜKÜM HAKLI, ve bu en netlerinden. HUKUM-0035.json'un 'sirada'sı ölçülmemiş küme notu. HUKUM-VERI-EMILME.json 'cozuldu' diyor ve GERÇEK BİR BUG'I anlatıyor: Ahtapolu/Rezve/İğneada Fetret split'i almamış. Doğrudan kontrol ettim — data/yer_yama_emilme2.js DOSYASI VAR ve içinde Ahtapolu/Rezve/İğneada isimleri GEÇİYOR. Bu ölçülmüş, uygulanmış, doğrulanabilir bir düzeltme. Mevcut 'cozuldu' KALSIN."
+  },
+  "H-0061": {
+   "hukum": "cozuldu",
+   "not": "ÇAKIŞMA ÇÖZÜLDÜ — (b) ESKİ HÜKÜM HAKLI. H-0050 ile birebir aynı gerekçe (madde metninin kendisi de 'H-0050 ile AYNI madde/aynı görsel/aynı fix' diyor). Bkz. H-0050. Mevcut 'cozuldu' KALSIN."
+  },
+  "H-0075": {
+   "hukum": "zaten-dogru",
+   "not": "ÇAKIŞMA ÇÖZÜLDÜ — (b) ESKİ HÜKÜM HAKLI. Aynı desen. HUKUM-0035.json'un 'sirada'sı küme notu. HUKUM-VERI-EMILME.json 'zaten-dogru'su görsel-özel: Tebriz/Nahçıvan/Revan/Şehrizor/Hemedan'ın hepsinin noktalı olduğu ve iki ayrı Osmanlı-Safevi savaşının (1585-1603 Ferhad Paşa, 1724-1730 İstanbul) izini taşıyan d: kayıtlarına sahip olduğu belirtilmiş. Mevcut 'zaten-dogru' KALSIN."
+  },
+  "H-0052": {
+   "hukum": "senin-kararin",
+   "not": "GEÇERSİZ HÜKÜM DÜZELTİLDİ — 'baska-ise-bagli' geçerli kümede yok (cozuldu/zaten-dogru/tekrar/sirada/olculecek/gerek-yok/senin-kararin). OLÇTÜM: kaynağı HUKUM-VERI-EMILME.json — teşhis kendi içinde net: 'Görsel yanlış bölgeyi gösteriyor (Kosova Ovası değil, Doğu Bulgaristan/Dobruca) — kronoloji maddesine tıklayınca haritanın o konuma KAYMAMASI bir ARAYÜZ (js/app.js) sorunu, veri/emilme sorunu değil.' Yani bu madde §2 emilme kusuru DEĞİL, kronoloji-tıklama→harita-odaklanma (click-to-pan) hatası. NEDEN 'sirada' DEĞİL (H-0047/H-0102'nin 'MOTOR ÜÇ KALEM'e bağlı' deseninin aksine): grep ettim (js/app.js, YAPILACAKLAR.md) — bu spesifik click-to-pan hatası için AKTİF/BİLİNEN bir ARAYÜZ kalemi YOK; var olan ARAYÜZ backlog kalemleri (idarî katman düğmesi, bölge etiketleri, künye paneli) başka konular. ⇒ Yönlendirilecek hazır bir kuyruk yok, YENİ bir ARAYÜZ kalemi açılması gerekiyor ya da mevcut bir işe eklenmesi — bu senin kararın. NOT: bu benim (kronoloji/veri) dosyalarımın dışında, js/app.js'e dokunmadım."
+  }
+ },
+ "_kaynak": "PAKET-0003-0006 (Sonnet) — C1+C2 hazirlik, 2 Eylul 2026. Yontem: git log + dogrudan dosya okuma (data/yer_yama_iran.js, data/bos_alanlar.js, data/yer_yama_emilme2.js, js/app.js) ile her iki tarafin (eski/yeni) kaynak HUKUM-*.json dosyasinin TARIHI ve ICERIGI karsilastirildi. arac/*.py'ye hic dokunulmadi (kilitli)."
+}
