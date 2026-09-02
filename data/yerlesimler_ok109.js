@@ -86,6 +86,67 @@ window.YERLESIMLER_OK109 = [
     v: [],
     kaynak: "TDV `musul--irak` (HTTP 200, gövde okundu): \"1892-1910 yılları arasında Musul vilâyeti Musul, Kerkük ve Süleymaniye sancaklarından oluşmaktaydı. Musul sancağının kazaları Akra, Zibar, Dıhok, Zaho, Sincar ve İmâdiye'dir.\" — kaza merkezi olduğu ve 1923'te var olduğu buradan. Devir günü aynı maddeden: \"İngilizler … 8 (veya 10) Kasım 1918'de Musul'a girdi.\" KOORDİNAT: GeoNames allCountries (CC BY 4.0, 31 Ağu 2026), kayıt 99611, 37.09214/43.48769, PPLA2 — tahmin DEĞİL, rehberden. ⚠️ Müstakil TDV maddesi YOK: `imadiye` · `amadiye` · `imadiyye` · `amediye` sluglarının dördü de 302 (ÖLÜ); kapsayıcı madde kullanıldı (`CLAUDE.md §4`: dar slug tutmazsa kapsayıcı maddeyi dene).",
     neden: "Musul sancağının altı kazasından biri ve atlasta yoktu; kardeş dördü (Akra · Duhok · Zaho · Sincar) zaten kayıtlıydı. Toprağı bugüne kadar Duhok ve Akra peteklerine emiliyordu — ikisi de `ingiltere` olduğu için RENK HATASI üretmiyordu, yani bu kayıt bir boyama kusurunu değil bir VERİ EKSİĞİNİ kapatıyor. ⚠️ Sınır sapması ölçütünü KÖTÜLEŞTİRİYOR (Çölemerik↔Duhok kesiminde ortanca 8,7 → 9,9 km); koordinatörün 2 Eylül hükmüyle bilerek yazıldı: vekil ölçüt, veriyi yönetmez."
+  },
+
+  // ═══════════════════════════════════════════════════════════════════════
+  // ŞIRNAK — "ALT SINIR" DEYİMİYLE. Ve niçin bu deyim gerekti.
+  // ═══════════════════════════════════════════════════════════════════════
+  //
+  // Silopi (37,246/42,470) ile Çölemerik (37,574/43,741) arasında 113 km
+  // ve TEK BİR Türkiye noktası yoktu — `CLAUDE.md §2`nin "noktasızlık"
+  // vakası. Rehberden beş aday çıktı; DÖRDÜ YAZILMADI çünkü TDV onları
+  // yalnız BUGÜNKÜ ilçe adları olarak anıyor (Beytüşşebap · Uludere ·
+  // Şenoba · Uzungeçit — Osmanlı dönemi için sıfır dayanak).
+  //
+  // 🔴 ŞIRNAK'IN KENDİ ZORLUĞU — ve şemanın ifade edemediği şey:
+  //   TDV `sirnak` (200, gövde okundu, 11.122 karakter):
+  //     "Şırnak ismi XIX. yüzyılın sonlarına doğru bir KÖY ADI olarak
+  //      geçmektedir (Cuinet, II, 612)... Bitlis vilâyetinin Siirt
+  //      sancağının ERUH KAZASININ BİR KÖYÜ... Cumhuriyet dönemine
+  //      gelmeden Eruh'tan ayrılarak Siirt iline bağlı bir kaza merkezi
+  //      olmuştu (1925-1926 Devlet Salnâmesi). Cumhuriyet'in ilk nüfus
+  //      sayımında... nüfusu 3000'i bulmuyordu (2962)."
+  //   ⇒ 1923'te VARDI ama bir KÖYDÜ; kaza merkezi olması 1925-26.
+  //   ⇒ Kuruluş tarihi BİLİNMİYOR — TDV "yüzyılın sonlarına doğru" diyor,
+  //     yani YIL BİLE kesin değil.
+  //
+  // 🟢 ÇARE `kesinlik` DEĞİL, **ALT SINIR** DEYİMİ (koordinatör, 2 Eylül;
+  //   Kızılkermen vakasında kurulmuş biçim):
+  //     `kesinlik` tarihin HASSASİYETİdir  — "yıl belli, gün belli değil"
+  //     buradaki sorun tarihin ANLAMIdır   — "gün belli ama NEYİN günü?"
+  //   1891-01-01 bir **ALT SINIRDIR, KURULUŞ GÜNÜ DEĞİLDİR.** Cuinet'nin
+  //   sayımı yerleşimi o tarihte KAYITTA gösteriyor; ondan öncesi
+  //   bilinmiyor ve UYDURULMADI.
+  //   📌 Ve `kur:` alanı zaten "nokta haritada NE ZAMAN BELİRİR" demek,
+  //     "ne zaman kuruldu" değil. Atlas bu noktayı 1891'den itibaren
+  //     çizer — *"o tarihte kuruldu"* DEMEZ, *"o tarihte VARDI"* der.
+  //
+  // ── NİÇİN 1515'TEN YAZILMADI (ölçüldü, tercih değil) ──────────────────
+  //   Kardeş desen (Bitlis) `d: 1515-09-15`ten başlıyor. Şırnak'ı öyle
+  //   yazmak 400 yıl VAR OLMAYAN bir nokta çizerdi. Ve ölçtüm:
+  //     `kur:` taşıyan 322 kaydın **SIFIRINDA** `kur` ilk dönem
+  //     başlangıcından SONRA değil — yani projenin sözleşmesi
+  //     "kur == ilk dönemin başı". `denetle.py:1772` bunu ayrıca
+  //     DENETLİYOR ("dönem kuruluştan ÖNCE başlıyor mu").
+  //   ⇒ `kur` ve `d.f` aynı güne konuldu; sözleşme çiğnenmedi.
+  //
+  // ⚠️ `kesinlik:` alanı `VERI-YAPISI.md`de "🔜 planlanan" listesinde —
+  //   `girdi.py` onu tanımayacak ve "BILINEN_ALANLAR'da yok" uyarısı
+  //   verecek. Bilerek yazıldı (koordinatörün deyimi), uyarı beklenen.
+  // ═══════════════════════════════════════════════════════════════════════
+
+  {
+    ad: "Şırnak",
+    tur: "sehir",
+    lat: 37.5139, lon: 42.4543,
+    g: 0, k: 4, m: "Bitlis",
+    kur: "1891-01-01",
+    kesinlik: "belirsiz",
+    d: [{ f: "1891-01-01", t: "1923-10-29" }],
+    s: [],
+    v: [],
+    kaynak: "TDV `sirnak` (HTTP 200, gövde okundu, 11.122 karakter): \"Şırnak ismi XIX. yüzyılın sonlarına doğru bir köy adı olarak geçmektedir (Cuinet, II, 612). O tarihlerdeki Bitlis vilâyetinin Siirt sancağına bağlı Eruh kazasının bir köyü olan bu küçük yerleşme… Cumhuriyet dönemine gelmeden Eruh'tan ayrılarak Siirt iline bağlı bir kaza merkezi olmuştu (1925-1926 Türkiye Cumhuriyeti Devlet Salnâmesi). Cumhuriyet'in ilk nüfus sayımında köy boyutlarındaki bu kaza merkezinin nüfusu 3000'i bulmuyordu (2962).\" 🔴 1891-01-01 BİR ALT SINIRDIR, KURULUŞ GÜNÜ DEĞİLDİR: Cuinet'nin sayımı yerleşimi o tarihte KAYITTA gösteriyor, öncesi BİLİNMİYOR ve uydurulmadı. KOORDİNAT: GeoNames allCountries (CC BY 4.0, 31 Ağu 2026), kayıt 300640, 37.51393/42.45432, PPLA — tahmin DEĞİL. İdarî bağ da TDV'den: \"1884'te Siirt sancağı Bitlis vilâyetine bağlanınca Şırnak da Bitlis vilâyetinin Siirt sancağının Eruh kazası içinde yer aldı\" ⇒ `m:\"Bitlis\"` (Siirt ve Eruh atlasta kayıtlı değil, zincirin var olan en yakın halkası Bitlis).",
+    neden: "Silopi ile Çölemerik arasındaki 113 km'lik noktasızlığı kapatan tek KAYNAKLI aday. ⚠️ 1923'te bir KAZA MERKEZİ DEĞİL, Eruh kazasının bir KÖYÜDÜR; `k:4` (alt kademe) onu kaza saydığı için değil, ölçekte köy kademesi bulunmadığı için verildi — `k:0` ise \"kademesiz/yabancı/dolgu\" demek ve daha yanlış olurdu. ⚠️ Öteki dört aday (Beytüşşebap · Uludere · Şenoba · Uzungeçit) YAZILMADI: TDV onları yalnız bugünkü ilçe adları olarak anıyor, Osmanlı dönemi dayanağı yok."
   }
 
 ];
