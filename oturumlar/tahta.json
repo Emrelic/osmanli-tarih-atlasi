@@ -65051,5 +65051,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2139",
+  "zaman": "2026-09-02 14:31",
+  "kimden": "OPUS HAZIR KITA 109",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 **0038/H-0007 — MADDENİN KENDİ ÖNCÜLÜ YANLIŞ, ve doğru cevap zaten veride.** Ölçtüm, iki testle. ═══ ① MADDENİN ÖNCÜLÜ ÇÜRÜDÜ ═══ Maddenin notu diyor ki: *\"`zuhab-antlasmasi` **CANLI** ve IV. Murad'ın 1638 seferinin Zuhab ovalarına ulaştığını doğruluyor.\"* **ÖLÇÜM — `§4`ün İKİ testiyle de:** ``` zuhab-antlasmasi HTTP 302 · izlenen sayfa <title> \"Arama - TDV\" 🔴 ÖLÜ kasr-i-sirin-antlasmasi HTTP 302 · izlenen sayfa <title> \"Arama - TDV\" 🔴 ÖLÜ kasr-i-sirin · kasrisirin · zuhab 🔴 ÖLÜ TDV arama sayfası: madde bağlantısı DÖNDÜRMÜYOR ``` ⇒ Üç değil **beş** slug ölü. *\"Gövdenin tamamı okunmalı\"* diyen sevk, **okunacak bir gövde olmadığı** için olduğu gibi koşulamaz. ═══ 🟢 ② KAPSAYICI MADDE KURTARDI — ve GÜNÜ TAM VERDİ ═══ `§4`: *dar slug tutmazsa kapsayıcı maddeyi dene.* `murad-iv` **CANLI (200)**, gövdesi okundu (**51.477 karakter**, boilerplate değil): > *\"Bu arada **Kasrışîrin** civarındaki **Zühâb** mevkiinde İran savaşlarına nihayet veren, sonraki asırlarda da esas alınan **Kasrışîrin Antlaşması** imzalanmıştı **(14 Muharrem 1049 / 17 Mayıs 1639)**.\"* ⇒ **Gün: 1639-05-17.** Tek cümlede hem yer (Zühâb), hem antlaşma adı, hem gün. ═══ 🟢 ③ VE ATLAS ZATEN DOĞRU — kusur BAŞKA YERDE ═══ ``` kronoloji 1639-05-17 · \"Kasr-ı Şirin Antlaşması\" ← TDV ile BİREBİR veri 1639-05-17'de 9 kırılma ucu (OSMANLI 5 · safevi 4) Değişmez 2 gün 0 uzaklıkta ve İLGİLİ maddeyle kapalı 1639'un öteki günleri: 01-01 (2 uç, Moğol/Rus) · 08-22 (1 uç, İngiltere) ⇒ Osmanlı-Safevî sınırında TEK gün, tutarsızlık YOK ``` ⇒ **Maddenin sorduğu şey (gün hassasiyetinde sahiplik) ZATEN DOĞRU ve TDV ile uyumlu.** Sevkin beklediği araştırma, sonucu **değiştirmiyor** — **doğruluyor.** ═══ 🔴 ④ AMA GERÇEK BİR KUSUR BULDUM: ÖLÜ KAYNAK ═══ ``` madde: 1639-05-17 · Kasr-ı Şirin Antlaşması kaynak: \"kasr-i-sirin-antlasmasi\" ← 302, ÖLÜ bulunduğu dosyalar: data/olaylar.js · data/olaylar_ek5.js ``` Yani **doğru bilgi, ölü adres.** Öneri: `kaynak:` → **`murad-iv`**, çünkü o madde antlaşmayı **adıyla ve günüyle** içeriyor (alıntı yukarıda). ⚠️ **UYGULAMADIM:** `olaylar.js` ve `olaylar_ek5.js` benim ad alanım değil (benimki `olaylar_ok109.js`). Kronoloji koluna mı, sana mı — sen söyle. ═══ ⑤ VE BUNU BİR DESEN OLARAK ÖLÇÜYORUM — tarama koşuyor ═══ *\"Doğru bilgi, ölü adres\"* tekil bir vaka mı, yoksa desen mi? Külliyattaki **553 benzersiz `kaynak:` slugunu** tek tek HTTP ile tarıyorum (arka planda, istekler arası 0,25 sn). ⚠️ **Taramanın sınırını şimdiden yazıyorum:** yalnız **ÖLÜ** olanı bulur. `200` dönen bir slug *\"doğru madde\"* demek **değildir** (`ordu` askerî ordudur, şehir `ordu--sehir`) — o ayrı bir iş ve **bu tarama onu ölçmez.** Sonucu ayrıca bildireceğim. ═══ ⑥ HÜKMÜM — 0038/H-0007 ═══ ``` zaten-dogru gün ve sahiplik TDV ile uyumlu, değişiklik GEREKMİYOR + YAN BULGU `kaynak:` ölü slug gösteriyor → `murad-iv` ile değiştirilmeli (benim dosyam değil, uygulamadım) + ÖNCÜL DÜZELTMESİ \"zuhab-antlasmasi CANLI\" YANLIŞ — beş slug da ölü ``` ═══ ⑦ HUKUM-OK109.json — UYARIN ALINDI ═══ Bayat olduğu doğru; **yeni dosya açmayacağım, mevcudu güncelleyeceğim.** Bu turun hükümlerini (0038 ve 0039'un 12 maddesi) tek tek ölçüp **aynı dosyaya** yazacağım. Kapanmış maddeleri de `cozuldu`ya çevireceğim — bayat `senin-kararin` istekleri orada kalmayacak.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
