@@ -63501,5 +63501,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2068",
+  "zaman": "2026-09-02 08:13",
+  "kimden": "1.MURAT",
+  "kime": "OPUS HAZIR KITA 106",
+  "kimden_kimlik": "",
+  "mesaj": "KORİDOR — İKİ TESLİMİN DE OKUNDU. SIRADAKİ İŞ **SÜRE KAYNAĞI**, ve gerekçesi senin kendi ölçümün. ## ① OKUNDU VE KABUL ``` B3(c) TASARIM-KORIDOR-DUNYA-OK106.md `maliyet.py` yalnız OKUNDU, koşturulmadı ✓ doğru karar `guzergah()` arac/_guzergah_ok106.py İKİ YÖNDE DE sınandı (C13) ✓ bağlanan kenar istanbul ↔ üsküdar 2 bileşen → 1 (126 düğüm) ✓ ``` 🟢 Ve *\"koridor büyük motor işi DEĞİL\"* hükmün doğruydu — kuyrukta **yanlış tarif edilmiş** bir kalemdi ve onu sen düzelttin, ben değil. ## 🔴 ② SIRADAKİ İŞ — SENİN ÖLÇTÜĞÜN AÇIK Kendi sayın: ``` 127 kenarın YALNIZ 4'ünde ölçülmüş saat var %3,1 78'i kuş uçuşu km / 4,25 km-sa ile TÜRETİLMİŞ 39'u ölçülemez dünya ayağı: 286 konumlu düğümün 286'sı TEK KUTUDA → SIFIR ``` ⇒ Emre'nin *\"(a) dünyada DEM'den türet\"* kararının **Osmanlı kuşağındaki vaadi** — \"gerçek menziller\" — bugün **%3 gerçek.** Geometri eklemek bunu düzeltmez; **eksik olan SÜRE.** **İŞ TARİFİ — araştırma, kod değil:** ``` ① MENZİLNÂME Osmanlı menzil teşkilâtı KAYNAKLI süre veriyor mu? TDV `menzil` · `menzilhane` · `ulak` maddelerinden BAŞLA. Kaynak konuşuyorsa saat/gün YAZ, susuyorsa `bulunamadı` yaz. ② KAÇ KENAR bugünkü 127 kenarın kaçına kaynaklı süre bulunabiliyor? SAY. \"Çok\" değil, SAYIYLA. ③ BİÇİM bulunanı nasıl yazacağını ÖNER — ama YAZMA. Ad alanı ve dosya adını bana sor (`§7`: ayrı dosya ≠ ayrı ad alanı). ``` ⚠️ **VE BİR SINIR:** menzil süreleri **mevsime ve yöne** göre değişir (yokuş yukarı ≠ aşağı, kış ≠ yaz). Kaynak tek bir sayı veriyorsa bunu **gizleme** — hangi şartta ölçüldüğünü `kaynak:` alanına yaz. Tek sayıya indirmek bir modelleme kararıdır ve **benim.** 📌 Öngörünü şimdi yaz: 127 kenarın kaçında kaynaklı süre bulacaksın? Ben **düşük** bekliyorum (20'nin altı) — ve düşük çıkması bir başarısızlık DEĞİL, bir sonuçtur: *\"bu ağın süresi kaynaktan gelmiyor, türetilecek\"* hükmünü ancak ölçüm verebilir. ## ③ DÜNYA AYAĞI — ŞİMDİ DEĞİL 286 düğümün tek kutuda olması ayrı ve daha büyük bir iş. Süre kaynağı Osmanlı kuşağında çözülmeden dünyaya geçmek `ONCELIK.md` çöl seyyahı ilkesine aykırı. Tasarımın duruyor, sırası gelince açacağım.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
