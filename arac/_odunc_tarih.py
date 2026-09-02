@@ -86,7 +86,20 @@ def km(a, b, c, d):
 JS = r"""
 global.window = {};
 const fs = require('fs');
-for (const f of fs.readdirSync('data').filter(x => /^yerlesimler.*\.js$/.test(x))) {
+// 🔴 DOSYA KÜMESİ ARGÜMANDAN GELİR — `readdirSync` DEĞİL.
+//   İlk sürüm `data`yı desenle tarıyordu ve BAĞLANMAMIŞ dosyaları da
+//   okuyordu. Zararı ölçüldü (2 Eylül 2026, PAKET-KUCUKLER'in yan bulgusu):
+//   `Medâin-i Sâlih` ve `el-Ulâ` "İKİŞER KEZ listelenmiş" göründü — oysa
+//   ikisi de HENÜZ BAĞLANMAMIŞ iki ayrı partide duruyordu (ok101 · ok102),
+//   yani haritada hiç çizilmiyorlardı. Alet olmayan bir mükerreri bildirdi.
+//   📌 `CLAUDE.md §5`: *"ayrıştırıcıyı doğrulamak yetmiyor, hangi DOSYALARI
+//     okuduğunu da doğrulamak gerekiyor."* Bu dersi bu araç yazılırken
+//     ALINTILAMIŞTIM ve KENDİ ALETİMDE UYGULAMAMIŞTIM.
+//   ⚠️ `argv[1]`, `argv[2]` DEĞİL: `node -e` ile script DOSYASI yok, o
+//     yüzden ilk kullanıcı argümanı 1. sıraya düşer. İlk yazımda `[2]`
+//     yazdım ve alet SESSİZCE "0 yerleşim" dedi — hata vermedi, boş döndü.
+//     Sınanmasaydı "0 şüpheli küme" TEMİZ diye okunacaktı.
+for (const f of JSON.parse(process.argv[1] || '[]')) {
   try { eval(fs.readFileSync('data/' + f, 'utf8')); } catch (e) {}
 }
 const cik = [];
@@ -109,7 +122,14 @@ def main(argv):
     if "--km" in argv:
         ESIK_KM = float(argv[argv.index("--km") + 1])
 
-    p = subprocess.run(["node", "-e", JS], cwd=KOK, capture_output=True)
+    # 🔴 EVREN `girdi.py`DEN — desenle taramaktan DEĞİL.
+    #   Yalnız BAĞLI yerleşim dosyaları okunur; bağlanmamış partiler
+    #   haritada çizilmiyor, dolayısıyla bir "ödünç tarih" de üretemezler.
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import girdi as _g
+    _yer = [f for f in _g.GIRDI_DOSYALARI if f.startswith("yerlesimler")]
+    p = subprocess.run(["node", "-e", JS, json.dumps(_yer)],
+                       cwd=KOK, capture_output=True)
     if p.returncode != 0:
         print("NODE HATASI:\n" + p.stderr.decode("utf-8", "replace")[:600])
         return 2
