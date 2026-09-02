@@ -543,6 +543,88 @@ gösterdi: **"ULAŞTI" hükmü de VERİLDİĞİ ANIN hükmüdür.** Araç 15:41'
 ⇒ Zaman ekseni **her iki yönde de** geçerli — ve olumlu tarafta daha
 tehlikeli, çünkü olumlu hüküm **yeniden ölçmeyi gereksiz gösterir.**
 
+## §11e TARAMA — **KAÇ AÇILIŞ MESAJI DAHA KAYBOLMUŞ?** (Emre sordu)
+
+### CEVAP: **1 — yalnız bilinen vaka. Başka kayıp açılış bulunamadı.**
+
+Ama sayıdan önce **ölçüt**, çünkü ilk iki ölçütüm yanlıştı ve ikisini de
+kendi çıktım ele verdi.
+
+```
+① ASCII/TÜRKÇE kaçağı    desenim `acildim` (düz küçük) aramıyordu
+                         ⇒ 6 sahte aday. §4'ün "Türkçe yazım ekseni"nin
+                           benim üzerimde gerçekleşmiş hâli.
+② PENCERE artifaktı      "bugün" süzgeci önceki dalganın açılışlarını
+                         kapsamıyordu ⇒ 9 sahte aday
+③ 🔴 ANLATAN ≠ OLAN      "açılış" kelimesi GEÇEN mesajı AÇILIŞ MESAJI saydı
+                         ⇒ BİLİNEN TEK VAKAYI KAÇIRDI: KITA 125'in kaybı
+                           ANLATAN iki mesajı, detektöre açılış göründü
+```
+
+📌 ③ en pahalısıydı ve `§11`in *"eşleşme bulmak, DOĞRU ŞEYİ bulmak
+değildir"* dersinin bu koldaki hâli. **Çare: işaret gövdenin İLK 40
+karakterinde aranıyor** — açılış mesajı *"AÇILDIM…"* diye **başlar**, kaybı
+anlatan mesaj başka bir şeyle başlar.
+
+### C13 — DETEKTÖR İKİ YÖNDE SINANDI (sayılar ondan sonra alındı)
+
+```
+① ATEŞLEME  bilinen KAYIP vakası (KITA 125, 15 kayıt)
+            hiçbiri açılış sayılmamalı            🟢 GEÇTİ
+② GEÇME     bilinen 10 GERÇEK açılış mesajı
+            (M-2144 · 2147 · 2155 · 2156 · 2167 · 2168 · 2170-2173)
+            onunu da yakalamalı                   🟢 10/10
+```
+⚠️ Sınav geçmeseydi sayılar basılmayacaktı — betik `exit 1` ile duruyor.
+
+### ÖLÇÜM
+
+```
+bugün tahtaya yazan farklı ad              44
+  açılış kaydı OLAN                        34
+  aday (açılış kaydı yok)                  10
+     ├─ önceki dalgadan (ilk kaydı 00:03-03:46)     9
+     │     bunların ADI DEĞİŞMİŞ olanı              5   (eski adıyla açılmış)
+     │     1.MURAT — koordinatör, açılış yazmaz     1
+     └─ 🔴 BUGÜNKÜ dalgada (06:00+) açılışsız       1   = OPUS HAZIR KITA 125
+```
+
+### KÖR NOKTA KAPATILDI — "hiç yazmamış" oturumlar
+
+Yukarıdaki tarama yalnız **sonradan bir şey yazmış** oturumu görür. Açılışı
+kaybolup **bir daha hiç yazmamış** bir oturum onun evreninde **değildir** —
+ve hasarı en büyük sınıf odur.
+
+```
+DAĞITIM-0902-AKSAM.md'de bölümü olan (sevk edilmiş) ad        9
+bunlardan tahtaya HİÇ YAZMAMIŞ                                0   🟢
+```
+
+### 🟡 YAN BULGU — ters tarama ADRES TUZAĞI çıkardı, kayıp değil
+
+```
+bugün kendisine mesaj yazılmış ad                            39
+bunlardan hiç yazmamış                                        3
+   1.MURAT HÜDAVENDİGAR   2 mesaj — koordinatörün TAM anahtarı "1.MURAT"
+                          ⇒ ADRES TUZAĞI, iki mesaj muhtemelen ulaşmadı
+   PAKET-0035-B           2 mesaj — tahtada yazan ad "PAKET-0035-0902"
+                          ⇒ ad varyantı görünümlü
+   PAKET-0033             1 mesaj — oturum listesinde var, KAPALI (11:44)
+                          ⇒ meşru sessizlik
+```
+⚠️ Üçü de **ölçülmedi**, aday olarak işaretlendi. Ama ilk ikisi bu kolun
+değil `tahta_bekci.py`nin `[ADRES-TUZAGI]` kovasının işi.
+
+### KAPSAM — bu taramanın ÖLÇEMEDİĞİ
+
+```
+· Açılışı kaybolmuş + bir daha HİÇ yazmamış + dağıtım dosyasında adı
+  GEÇMEYEN bir oturum. Tahtadan görünmez; ancak oturum listesiyle
+  karşılaştırılarak aranabilir — YAPMADIM.
+· Commit'lenmiş sürümler arası kayıp AYRI ölçüldü: 500 sürümde 1 (M-2211).
+  KITA 125'inki orada GÖRÜNMÜYOR çünkü hiç commit edilmemişti.
+```
+
 ## §12 REÇETE — beş madde
 
 ```
