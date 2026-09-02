@@ -47,6 +47,27 @@ def yaz(s):
     print(str(s).encode("ascii", "replace").decode("ascii"))
 
 kaynaklar = sorted(glob.glob(os.path.join(PROJE, "denetim", "HUKUM-*.json")))
+
+# 🔴 KOORDINATOR DOSYALARI EN SONA — 2 Eylul 2026'da olculdu.
+#   `senin-kararin` ACIK kumesine eklendikten sonra (bkz. yukarisi) yeni
+#   bir yan etki dogdu: bir ISCI dosyasi, koordinatorun verdigi karari
+#   `senin-kararin`e GERI CEVIRIYORDU — cunku ACIK -> ACIK gecisi
+#   "ilerleme" sayiliyor ve uygulaniyor.
+#   Vaka: 11 bloke maddenin 11'ine hukum verildi ve birlestirici kosuldu;
+#   6'si indi, 5'i GERI DONDU (0014/H-0005 · 0034/H-0022 · 0034/H-0040 ·
+#   0039/H-0001 · 0039/H-0008). Sebep sira: `HUKUM-1MURAT-*` alfabetik
+#   olarak `HUKUM-OK106`/`HUKUM-OK109`ten ONCE geliyordu ve o BAYAT
+#   dosyalar eski `senin-kararin` istegini yeniden dayatiyordu.
+#   ⚠️ Ve bu bir kusur DEGIL bir SIRA meselesi: isci oturumun bir maddeyi
+#   koordinatore ESKALE ETMESI mesru bir gecistir. Yanlis olan, ESKALE
+#   EDILMIS bir maddeye VERILMIS CEVABIN sonra yine eskale edilmesiydi.
+# ⇒ KURAL: koordinatorun hukmu SON SOZDUR (`CLAUDE.md §7`: CEVAP.json'a
+#   yalniz koordinator yazar). Dosyalari oyle siralayalim.
+_KOORD = ("HUKUM-1MURAT",)
+kaynaklar = ([y for y in kaynaklar
+              if not os.path.basename(y).startswith(_KOORD)] +
+             [y for y in kaynaklar
+              if os.path.basename(y).startswith(_KOORD)])
 if not kaynaklar:
     yaz("[!] denetim/HUKUM-*.json bulunamadi — DUR.")
     sys.exit(2)

@@ -1,0 +1,46 @@
+{
+  "_kaynak": "1.MURAT (koordinatör) · 2 Eylül 2026 · KOORDİNATÖRDE BLOKE KALAN SON 11 MADDE. Emre'nin talimatı: 'BENDE KALAN 11 MADDEYİ KAPAT.' Her hüküm ya bugün ölçülmüş bir sonuca ya Emre'nin bugünkü bir kararına dayanıyor; dayanağı olmayan hiçbir madde 'cozuldu' yapılmadı.",
+
+  "parti-emrelic-0014": {
+    "H-0005": { "hukum": "sirada",
+      "not": "HÜKÜM (1.MURAT, 2 Eylül): NOKTA İŞİ — ve ölçütü Emre'nin bugünkü ilkesi. Ölçülen: Polesya kutusunda (50,99-59,07K / 18,37-30,58D) 1281-01-01'de 17 nokta var ama en büyük boşluk 262 km — Orta Anadolu boşluğunun (98 km) İKİ BUÇUK KATI. 🔴 ÇARE BİR EŞİK DEĞİL: Emre bugün (soru ㉑/㉒) eşik mantığını REDDETTİ — 'YERLEŞİM VAR İSE NOKTA KONUR, YOK İSE UYDURACAK HALİMİZ YOK.' ⇒ Kalan iş: Polesya'da (Brest · Pinsk · Slonim · Novogrudok hattı) o tarihte GERÇEKTEN var olan yerleşimleri KAYNAKTAN çıkarmak. Bulunursa yazılır; bulunmazsa boşluk KUSUR DEĞİL SONUÇTUR ve kayda geçer. Kaynak araştırma dalgasına (0021/H-0010) eklendi." }
+  },
+
+  "parti-emrelic-0019": {
+    "H-0050": { "hukum": "sirada",
+      "not": "İKİ PARÇA, İKİSİ DE KARARA BAĞLANDI. ② 'Öncü kuvvetlerin aldığı bölgeleri TARAMA ile gösterelim mi?' → 🔴 HAYIR. Tarama deseni bu projede ZATEN İŞGAL demek (app.js:970 isgalDesenleriKur, 83 kayıt); aynı deseni öncü kuvvete de vermek iki ayrı askerî durumu tek görsele bindirirdi. Ve Emre bugün AYNI GEREKÇEYLE himaye için de taramayı reddetti (şerit seçti) — karar tutarlı. ① 'Canbirdi Gazâlî daha ileride bir toprakta yenilmiş — aradaki topraklar geçmeden ileri harekât mı yapıldı?' → ÖLÇÜLEBİLİR ve ÖLÇÜLMEDİ; madde bu ölçüm için açık kalıyor." }
+  },
+
+  "parti-emrelic-0021": {
+    "H-0012": { "hukum": "cozuldu",
+      "not": "BUGÜN ÖLÇÜLDÜ VE SORU CEVAPLANDI (OPUS HAZIR KITA 106, 2 Eylül). Madde koridor ağının şartnamesiydi ve 'Osmanlı dünyası için ayrı kaynak gerekiyor' diyordu. Ölçüm: ① kenar başına süre kaynaklarda YOK — TDV `menzil` ve `menzilhane` slug'ları ölü, asıl madde `menzil--osmanli`; üç slug'ın gövdesi okundu, hiçbiri kenar süresi vermiyor. ② AMA kaynaklı bir BANT var: 'üç saatten yirmi sekiz saate kadar olan mesafelerde tesis edilmiştir' — ve türetilmiş 78 kenarın %84,1'i o bandın içinde, dört ölçülmüş kenarın DÖRDÜ de içinde. ⇒ İki bağımsız kaynak birbirini doğruluyor. ③ Viabundus (19.283 kenar) coğrafyası Kuzey Avrupa, kullanılamaz — bu madde onu zaten söylüyordu ve DOĞRUYDU. ⇒ Şartnamenin sorusu kapandı; kalan iş (4,25 → ~5,0 km/sa katsayı düzeltmesi) AYRI kalem ve ölçüldü." }
+  },
+
+  "parti-emrelic-0024": {
+    "H-0003": { "hukum": "gerek-yok",
+      "not": "HÜKÜM (1.MURAT, 2 Eylül): AYRI BİR 'MESAJ KOORDİNATÖRÜ' OTURUMU AÇILMAYACAK — ve gerekçesi bugün ÖLÇÜLDÜ. Sorunun varsayımı 'darboğaz mesaj yönlendirmesindedir' idi. Bugün darboğaz iki kez ölçüldü ve İKİSİNDE DE BAŞKA YERDE ÇIKTI: ① 145 açık maddenin 63'ü koordinatörde bloke — yani sevk değil KARAR darboğazıydı; ② ve o 63'ün açılamamasının sebebi bir ALET AYRIŞMASIYDI (`_hukum_birlestir.py` `senin-kararin`i KAPALI sayıyor, `_acik_madde.py` AÇIK sayıyordu) — verilen her karar geri sekiyordu. Düzeltilince 63 → 11. ⇒ Bir mesaj koordinatörü bu iki darboğazın HİÇBİRİNİ çözmezdi. 🟢 Mesajlaşma tarafında yapılan ise ayrı ve yeterli oldu: `oturumlar/OTURUM-KUNYE.md` açıldı (iki ad uzayının ayrışması ölçüldü ve `session_id` tek adres ilan edildi). ⚠️ Emre isterse bu hüküm geri alınabilir — süreç kararı nihayetinde onun." }
+  },
+
+  "parti-emrelic-0034": {
+    "H-0022": { "hukum": "sirada",
+      "not": "🟢 EMRE KARAR VERDİ (2 Eylül, soru ⑭): 'EKSİK EK OKUMA TÜRLERİ TANIMLANSIN.' Ölçüm (OPUS HAZIR KITA 106): mekanizma VAR ve çalışıyor (js/app.js:5236 EKOKUMA_TUR), tanımlı 4 tür, Emre'nin 11 başlığından EKSİK 7 (tartışma · teknik-bilimsel · kimdir · dış-yankılar · kahramanlık · menkıbeler · şok-haberler). ⇒ Karar bekleyen kısım KAPANDI; kalan iş ARAYÜZ (EKOKUMA_TUR js/app.js'te) ve kuyruğa girdi. İçerik ataması AYRI ve sonra — 'tanım küçük, içerik büyük; ayırmak ilerlemeyi hızlandırır' (bugünkü kapsama %7,3 = 93/1277)." },
+    "H-0040": { "hukum": "sirada",
+      "not": "H-0022 ile TEK karar, Emre'nin aynı cevabıyla kapandı. Kalan iş aynı ARAYÜZ kalemi." }
+  },
+
+  "parti-emrelic-0038": {
+    "H-0003": { "hukum": "sirada",
+      "not": "HÜKÜM (1.MURAT, 2 Eylül): MOTOR KUYRUĞUNA — ve ön koşulu artık YOK. Ölçüm doğrulanmıştı: enklav köprü kuralının üçü de (en yakın nokta bağlantısı · aynı kapsamda birleşme · farklı enklavlar birleşmez) motorda DOĞRU çalışıyor; ayrışan tek şey kenarın ŞEKLİ (Emre konkav/parabolik tarif etmiş, motor yamuk/düz çiziyor). 🔴 Madde 'koşu sürüyordu, dokunmadım' diye bekliyordu — o kilit artık geçerli değil, çünkü bekleyen şey koşu değil SEVK'ti. `_b2_enklav_birlestir` motor dosyasında; koşu bitince yazılacak. H-0004 ile TEK sevk." },
+    "H-0004": { "hukum": "sirada",
+      "not": "H-0003 ile TEK sevk. Ölçülmüş kusur: köprü rengi bağlanan parçanın KATMANINI almalı (tâbi→tâbi, doğrudan→doğrudan) ama şu an HEP DOĞRUDAN yazılıyor. Gerekçe doğru ve H-0003'ün kurallarıyla çelişmiyor. Motor kuyruğunda, koşu sonrası." },
+    "H-0007": { "hukum": "sirada",
+      "not": "HÜKÜM (1.MURAT, 2 Eylül): KAYNAK ARAŞTIRMA DALGASINA — Emre bugün (soru ⑪) 'tek dalga' dedi ve bu madde tam o türden. Ölçülmüş durum: TDV `kasr-i-sirin` ve `kasr-i-sirin-antlasmasi` slug'ları ÖLÜ (302), `zuhab-antlasmasi` CANLI ve IV. Murad'ın 1638 seferinin Zuhab ovalarına ulaştığını doğruluyor — ama gün hassasiyetinde sahiplik aralığı ÖZETTEN çıkmadı, GÖVDENİN TAMAMI okunmalı. ⇒ 0021/H-0010 · H-0027 · H-0028 · 0022/H-0005 · 0024/H-0005 · 0024/H-0008 ile aynı dalgaya eklendi." }
+  },
+
+  "parti-emrelic-0039": {
+    "H-0001": { "hukum": "sirada",
+      "not": "HÜKÜM (1.MURAT, 2 Eylül): KOL UYGULAMA-0019'DAN ALINDI, YENİDEN SEVK EDİLECEK. Ölçüm (2 Eylül): `girdi.py` 63 dosya okuyor, içinde `yerlesimler_sinir_dogu.js` ve `yerlesimler_sinir_guney.js` VAR ama TRAKYA dosyası YOK; `data/` altında trakya sınır yerleşimi dosyası bulunamadı (`yer_yama_balkan_trakya.js` BAŞKA bir iş). ⇒ 30 Ağustos'ta sevk edilen kol TESLİM EDİLMEMİŞ. 🔴 Ve sahibi 'belirsiz' değil, ARTIK YOK: kol serbest, yeni bir oturuma verilecek. Not: 1923 sınır hattı kayıtları `sinir:true` alanı taşıyor ve o alan bugün BILINEN_ALANLAR'a kaydedildi — yeni kol o deseni izleyecek." },
+    "H-0008": { "hukum": "sirada",
+      "not": "ÜÇ KALEMİN İKİSİ KAPANDI (Suçava·Çernovitz·Cres 3/3 indi; 'macaristan 1923'te sıfır nokta' iddiası çürütüldü — macaristan-naiplik 20 nokta). AYAKTA KALAN: avusturya 1923-06-15'te yalnız 2 nokta (Viyana, Graz). 🔴 ÖN KOŞULU KOORDİNATÖRDE VE ADIYLA BİLİNİYOR: `avusturya-cumhuriyet` rengi `renkler.py` BOYALAR'a girecek + künye günü 1918-11-12 → 1918-11-11 düzeltilecek. İkisi de `arac/renkler.py` ve `data/devletler.js` — koordinatörün dosyaları. ⚠️ `renkler.py` şu an PARMAK İZLİ (koşu 11:01'den beri sürüyor); yazmak koşuyu öldürür. Koşu bitince A3'ün ikinci turu olarak yapılacak. Bu madde o iki satır inince kapanır." }
+  }
+}
