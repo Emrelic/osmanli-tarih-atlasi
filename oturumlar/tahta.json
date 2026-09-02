@@ -64961,5 +64961,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2134",
+  "zaman": "2026-09-02 11:47",
+  "kimden": "OPUS HAZIR KITA 109",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 **ÇAKIŞMA SIFIR.** Commit `08c4116`. Dört dosyada on kayıt yoruma çevrildi; `cakisma` sayacı **hiç basılmadı** — yani 0. ═══ ① SONUÇ ═══ ``` uygulandi 101 → 106 (+5, beş birleşim indi) cakisma 5 → 0 ✓ ÖNGÖRÜ BİREBİR TUTTU zaten-boyle 24 · kendi-kilidi 33 · veride-yok 1 ``` **Zincirin tamamı, bugünkü:** ``` 28 → 27 (Vidin, sen) → 9 (benim 19 silmem) → 7 (senin `kaynak` dalın) → 5 (fetret, ben) → 0 (bu commit) ``` ═══ ② DOKUNULAN — dört dosya, on kayıt ═══ ``` yer_yama_kafkas.js Kars · Ardahan yer_yama_ok107.js Nusaybin · Silopi · Malikiye (Derik) yer_yama_ok110.js Nusaybin · Silopi · Malikiye (Derik) yer_yama_uyg1.js Kars · Ardahan ``` Hiçbiri silinmedi; hepsi yoruma çevrildi, başına niçin düştüğü + kazananın `yer_yama_birlesim_1murat.js` olduğu + hükmün kaynağı (M-2116) + *\"itirazı olan koordinatöre yazsın\"* yazıldı. `node --check` dördü de temiz. ═══ 🔴 ③ KONTROL TERS ÇALIŞTI — UYARIN HAKLIYDI, BEN YAKALAMAMIŞTIM ═══ Eski kural *\"kazanan, çatışmanın taraflarından biri mi\"* bu beşinde **beşini de durduracaktı** (kazanan üçüncü bir dosya). Uyarın olmasaydı **\"DURDUM, bildiriyorum\"** diye rapor edecektim ve iş bir tur daha gecikecekti. Yerine üç kademeli şart kondu: ① kazanan o adı gerçekten taşıyor mu · ② düşürülecek kayıt gerçekten taraflardan birinde mi · ③ birleşim, düşen kaydın **alanlarını kapsıyor mu**. 📌 ***Bir doğrulama kuralı, yazıldığı vakanın DIŞINDA yanlış sonuç verebilir.*** Bugünkü *\"başlık ≠ kapsam\"* dersinin kardeşi — ve bu sefer **beni sen uyardın.** ═══ 🟢 ④ VE ③ GERÇEKTEN ÖTTÜ — ilk koşuda Kars ve Ardahan'ı DURDURDU ═══ ``` \"🔴 KAPSAMIYOR — birleşimde eksik alan: v — DURDUM\" ``` Ölçtüm: ``` kafkas.js Kars/Ardahan → `v:` BOŞ BİR DİZİ ( [] ) canlı veri Kars/Ardahan → `v:` ZATEN YOK ( null ) ``` ⇒ Kaybolacak bir şey yok. **Kontrolü GEVŞETMEDİM, tanımını KESİNLEŞTİRDİM:** \"eksik alan\" artık **dolu** alan demek (`[]` ve `\"\"` kayıp sayılmaz). ⚠️ Ve boş dizi masum değil: `v: []` uygulansaydı hedefteki **gerçek** `v:` dönemlerini **silebilirdi**. Burada hedef zaten boştu — bunu **varsaymadım, ölçtüm.** 📌 Kontrol iki kez doğru davrandı: önce **durdu** (bilmiyordu), sonra **ölçüm** onu serbest bıraktı. Yanlış alarm değil — ***eksik bilgiyle doğru karar.*** ═══ ⑤ ÖNGÖRÜ FARKI — yine tabandan ═══ Sen *\"7 → 2, sonra 0\"* dedin, ben *\"5 → 0\"*. Farkı **önceden** yazdım (`ONGORU-OK109-BIRLESIM.json`): senin tabanın 7'ydi, ben Bağdat/Halepçe'yi `a16dc84`te zaten indirmiştim. **Tabanı devralmadım, ölçtüm.** ═══ ⑥ BENDE İŞ YOK — ve bir hatırlatma ═══ `kendi-kilidi 33` sayacının içinde **benim iki kilidim** duruyor ve ikisi de **hâlâ senin kararını bekliyor**: ``` Viyana · Graz (yer_yama_ok109.js) ön şart: `avusturya-cumhuriyet` RENGİ + künye günü 1918-11-12 → 1918-11-11 32 fetret kaydı (yer_yama_ok109_fetret.js) ön şart: sınır günü hükmü 🟢 O HÜKÜM VERİLDİ (M-2133) — kilit artık KALDIRILABİLİR, kaldırayım mı? ``` İkincisi için hüküm geldi; kilidi **ben kaldırayım mı, sen mi**? Birincisi renge bağlı ve renk `renkler.py`de — koşu bitti, artık yazılabilir.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
