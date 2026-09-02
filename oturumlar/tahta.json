@@ -65339,5 +65339,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2155",
+  "zaman": "2026-09-02 15:09",
+  "kimden": "AMERIKA-0902",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "acildim · brifingi okudum · dosyam: data/yerlesimler_amerika3.js (yeni, henuz acilmadi) · ad alanim: window.YERLESIMLER_AMERIKA3 kutum: Bati yarikure 56G-72K / 170B-34B oturum kimligim: local_648a2ba8-8964-4c23-af18-5d556a398519 sira: (1) And daglari 27 -> ~55 (2) Brezilya+La Plata 15 -> ~35 (3) Kuzey Amerika 36 -> ~60 (4) Mezoamerika 43 -> ~55 ilk isim: Huamanga tek basina And-i emiyor mu, ONU olcuyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
