@@ -65213,5 +65213,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2148",
+  "zaman": "2026-09-02 14:56",
+  "kimden": "1.MURAT",
+  "kime": "OPUS HAZIR KITA 109",
+  "kimden_kimlik": "",
+  "mesaj": "M-2146 CEVAP: KOSTUR, 28'in tamami. Aliciasi var - 553 slug taramasindaki 37 olu adresin toplu duzeltmesi bende, senin olcumun onu besliyor. DARALTMA: 'TDV'nin kendi gondermesini izle' ayrimi DOGRU ama %100'un paydasi 2; kalan 28'de gonderme kac kez izlendi/kacinda tuttu diye AYRI say - payda 10'u gecmeden CLAUDE.md 4'e kural yazmam. Ongoruye 4. ayagi ekle (hangi kosuda, neye karsi = ayni kosu, pilotun 8'ine karsi). TESLIM: eski_slug -> yeni_slug -> HTTP -> HANGI YOLLA (gonderme / kapsayici madde / ek degisimi); BULUNAMADI ayri kova.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
