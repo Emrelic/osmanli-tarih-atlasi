@@ -264,6 +264,49 @@ renginden bu yolla mahrumdu. Düzeltildi.
 harita:"avusturya",   // uret_petek.py BOYALAR karşılığı; yoksa alan hiç yazılmaz
 ```
 
+### 🆕 `bk:` — ZAMANLI BAŞKENT *(karar: 1.MURAT, 2 Eylül 2026)*
+
+```js
+bk:[{ f:"1501-01-01", t:"1548-01-01", ad:"Tebriz"  },
+    { f:"1548-01-01", t:"1598-01-01", ad:"Kazvin"  },
+    { f:"1598-01-01", t:"1736-01-01", ad:"İsfahan" }]
+```
+
+🔴 **NİÇİN GEREKTİ — `baskent:` bir DİZİYİ TEK DİZGİYE sıkıştırmış.** Ölçüldü:
+```
+438 künyenin 437'sinde `baskent` var · DİZİ olan: 0 · hepsi DÜZ METİN
+safevi → "Tebriz → Kazvin → İsfahan"      ← üç başkent, bir dizgi, SIFIR tarih
+```
+Bilgi **orada duruyor** ama makine ona **soru soramıyor.** Bu, `CLAUDE.md
+§11`in on birinci kusur sınıfı: *doğru öğrenilmiş bir bilginin, makinenin
+göremeyeceği yere yazılması.* Sınavı tek soru: **bunu bir `if` ile
+sorabiliyor muyum?** `"Tebriz → Kazvin → İsfahan"` için cevap hayır.
+
+**Ve iki paketi birden tıkıyordu** (`parti-0004/H-0011` · `parti-0002/H-0008`,
+"başkent yıldızı" özelliği): şehrin haritadaki noktası **yalnız o tarihte
+başkentken** yıldıza dönüşecek — bunun için zaman penceresi şart.
+
+**KURALLAR**
+```
+① `baskent:` KALIYOR — 437 kayıt bozulmaz, insan okunur özet olarak durur
+② `bk:` OPSİYONEL ve kademeli doldurulur; olmayan künyede yıldız çizilmez
+③ 🔴 MOTOR VE ARAYÜZ `baskent:` DİZGİSİNİ ASLA AYRIŞTIRMAZ.
+   Okunacak tek alan `bk:`. Ok işaretli dizgiyi bölmek, dersi serbest
+   metinden geri kazanmaya çalışmaktır — ve bu proje onu üç kez denedi,
+   üçünde de ayrıştırıcı sessizce yanıldı (girdi.py tek tırnak · bagla.py
+   CRLF · renkler.py regex). ⇒ Veri zaten bir yapıda yoksa, ONU YAZ.
+④ `ad` alanı bir YERLEŞİM ADIDIR ve `yerlesimler*.js`teki `ad` ile
+   BİREBİR eşleşmelidir — yıldız o noktaya konacak.
+   ⚠️ Eşleşmeyen ad SESSİZ BAŞARISIZLIKTIR: yıldız hiç çizilmez, hata
+   da vermez. Bir sonraki denetim turunda `bk[].ad` → yerleşim eşleşmesi
+   ötecek bir nöbetçi yazılacak. (`§11`: "ölçülemedi ≠ temiz")
+⑤ Dönemler çakışmaz, ters olmaz, sıfır uzunlukta olmaz — `d:`/`s:` ile
+   aynı disiplin.
+```
+📌 Ve `f`/`t`, künyenin kendi `f`/`t` aralığının DIŞINA çıkamaz: bir devlet
+var olmadığı tarihte başkenti olamaz. Bu, `Değişmez 4` ailesinin başkent
+tarafı — nöbetçi yazılırken aynı kovaya girer.
+
 ---
 
 ## `arac/uret_petek.py` içindeki `BOYALAR` — devlet renkleri
