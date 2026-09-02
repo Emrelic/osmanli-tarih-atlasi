@@ -2878,3 +2878,173 @@ eski defter SİLİNMEZ, `.ONCEKI.json` olarak durur
   > demek DEĞİLDİR (`ordu` askerî ordudur) — bu tarama onu ÖLÇMEZ."*
   ⇒ Rapor **iki kovalı** olacak: `🔴 ÖLÜ (302)` ve `⚪ CANLI ama
   DOĞRULANMADI`. İkincisi **asla "temiz" diye raporlanmayacak.**
+
+- 🔴🔴 **BİR ARAMA, ARADIĞI ŞEYİN KAÇ AYRI BİÇİMDE YAZILABİLECEĞİNİ
+  BİLMELİ — BEŞ EKSEN ÖLÇÜLDÜ, BEŞİ DE GERÇEK KAYIP ÜRETTİ.**
+  *(2 Eylül 2026 akşamı — 553 slug taramasının damga turunda)*
+
+  Altı kayıt *"bulunamadı — arandı, TDV'de o yıl için gövde yok"* diye
+  damgalandı. Yeniden ölçüldü: **yalnız BİRİ ayaktaydı.**
+  ```
+  ÇÜRÜYEN 3    AYAKTA 1    🔴 ÖLÇÜLEMEDİ 2
+  ```
+  Ve çürüyen üçünün üçü de **ayrı bir eksende** kaçmıştı:
+  ```
+  ① YIL BİÇİMİ    düz `1395` araması, kaynağın yazdığı "1394-95"
+                  dizgisinde EŞLEŞMEZ — orada `1395` alt-dizgisi YOKTUR
+                  (anadoluhisari: "797'de (1394-95) yapılmıştır")
+  ② TAKVİM        kaynak çoğu zaman HİCRÎ verir ve mîlâdîyi hiç yazmaz
+                  (selimiye → edirne: "976-982 (1568-1574)")
+  ③ SLUG YAZIMI   `anadolu-hisari` 3.556 kar. BOILERPLATE (§4④);
+                  canlı madde TİRESİZ: `anadoluhisari` 12.502 kar.
+                  ⚠️ ve boilerplate eşiği 2000'di — 3.556 GEÇTİ
+  ④ CÜMLE KALIBI  "İstanbul antlaşması" ≠ "İstanbul'DA YAPILAN antlaşma"
+                  (ferhad-pasa 1590 → luristan)
+  ⑤ NOKTALAMA     TDV TİPOGRAFİK kesme kullanır (U+2019 `’`); düz kesme
+                  (U+0027 `'`) ile arama BULMAZ — aynı cümle, aynı gövde,
+                  farklı KOD NOKTASI
+  ```
+  🔴 **Beşincisine, ilk dördünü YAZAN koordinatör düştü** — doğrulama
+  araması sırasında, ve aynı saatte. ⇒ Bu ailenin altıncısı zaten
+  yazılıydı: **Türkçe yazım ekseni** (`usku` ≠ `Üsküp`, `İ`/`I`).
+
+  ⇒ ***Ortak kök tek: alet, aradığı şeyin NEREDE OLMAYACAĞINI bilmiyor.***
+  📌 Ve `§4`ün *"kaynağın kendi uyarısını da oku"* kuralının bir kademe
+  ötesi çıktı: **`ferhad-pasa`nın cevabı `CLAUDE.md §4`te ZATEN ALINTILIYDI**
+  (`luristan` maddesi: *"998'de (1590) İstanbul'da yapılan antlaşma"*), ve
+  damgayı vuran oturum o paragrafı aynı turda **alıntılamıştı bile** —
+  yalnız yanındaki cümleyi kullanmamıştı.
+  ⇒ ***Belgeyi okumak, belgenin KENDİ ALINTISINI da okumaktır.***
+
+  🟢 **VE ÜÇÜNCÜ DAMGA BURADA KAZANILDI:** iki kayıt *"arandı, yok"* diye
+  kapatılmıştı, oysa TDV gövdesi hiç **alınamamıştı** (`fazil-mustafa-pasa`
+  üç denemede de 2.369 kar. boilerplate — ve adam **Salankamen'de şehit
+  düşmüştü**, yani damganın en ilgili maddesi).
+  ```
+  "arandı, yok"   bir TEMİZLİK biçimidir — gövde ALINAMADIYSA verilemez
+  "ölçülemedi"    kalemi AÇIK tutar
+  ```
+  ⚠️ Yanlış damga en pahalısıdır: **bir sonraki oturumu ARAMAKTAN alıkoyar**,
+  yani hata KALICILAŞIR.
+
+- 🔴 **BİR DÜZELTME SLUGA DEĞİL KAYDA BAKAR — aynı slug iki kayıtta
+  farklı yere gidebilir.** *(2 Eylül 2026)*
+  ```
+  ferhad-pasa-antlasmasi  1588 · olaylar_ek5.js "Karabağ ve Gence'nin
+                                 ilhakı"          → `gence`   ADRES
+                          1590 · olaylar_ek2.js "Ferhad Paşa Antlaşması"
+                                                  → DAMGA (adres YOK)
+  derbend                 İKİ kaydı da `dagistan`a → slug bazlı GÜVENLİ
+  ```
+  Global `sed s/ferhad-pasa-antlasmasi/gence/` 1590 **antlaşmasını** `gence`
+  maddesine dayandırırdı ve o gövde 1590'ı vermiyor.
+  ⇒ **Uygulayıcı `t:` + eski değer çiftiyle eşler, ve eşleşme 1 değilse
+  DURUR — hiçbir dosya yazılmaz.** Aynı gün ikinci vaka: `lehistan` veride
+  **50 dönemde** geçiyor, yalnız **4'ü** hayaletti; kör bir değiştirme
+  **46 meşru dönemi** bozardı.
+  📌 Ve eşleştirmenin kendisi de dar kurulabilir: ilk uygulayıcı `ad:` ile
+  dönemi **aynı satırda** aradı, oysa kayıt çok satırlıydı ⇒ 0 eşleşme.
+  Nöbetçi durdurdu. ⇒ *Dosya bazlı ve **beklenen sayı önceden yazılı**
+  bir eşleştirme, satır bazlıdan güvenlidir.*
+
+- 🔴 **3 KM BİR YASAK DEĞİL, BİR ŞÜPHE EŞİĞİDİR — ve şartı ZAMAN
+  ÇİZGİLERİNİN FARKLI OLMASIDIR.** *(2 Eylül 2026)*
+
+  Kuralın doğduğu vakalara bak: **Varat/Varad** (aynı yer iki kayıt) ve
+  **Afyon/Karahisâr-ı Sâhib** (100 m, **çelişen** zaman çizgileri). Kusur
+  *yakınlık* değil, **aynı yerin iki kez ve tutarsız yazılmasıydı.**
+  ```
+  3 km altı + zaman çizgileri FARKLI   → mükerrer DEĞİL, ikisi de yazılır
+  3 km altı + zaman çizgileri AYNI     → mükerrer şüphesi HAKLI
+  ```
+  🟢 `denetle.py` bunun kapısını zaten taşıyordu ve **katı**: karşılıklı
+  `ikiz:` **ve iki tarafta da `kaynak:`** — *"beyan kaynaksız geçmez"*,
+  böylece takma-ad çiftleri beyan **edilemez** ve mükerrer tespiti
+  zayıflamaz. İki emsal beyansız duruyordu, ölçülüp beyan edildi:
+  ```
+  1,54 km  Anadolu Hisarı ↔ Rumeli Hisarı   Boğaz'ın iki yakası
+  1,57 km  Budin ↔ Peşte                    Tuna'nın iki yakası
+  ```
+  (`Peşte`nin kendi maddesi yok; kapsayıcı `budin` gövdesi onu **19 kez**
+  anıyor ve ayrımı kendisi kuruyor: *"Nehrin sol kıyısındaki Peşte…"*)
+
+  🔴 **VE KURALIN DEĞERİ REDDETTİĞİNDE ÖLÇÜLDÜ — Karaağaç.** Edirne'ye
+  **2,40 km**, ve *"iki proje kuralı kesişiyor"* diye rapor edilmişti.
+  Ölçüm şartı çürüttü: dört TDV maddesi Karaağaç'ın sahibinin **her
+  dönemde Edirne ile aynı** olduğunu gösterdi (`mudanya-mutarekesi`:
+  *"Karaağaç **dâhil** Meriç'in sağ kıyısı"*).
+  ```
+  Karaağaç'ın SAHİBİ      hiçbir gün Edirne'den farklı DEĞİL
+  Lozan'ın değiştirdiği   sınır ÇİZGİSİNİN nereden geçtiği
+  ```
+  ⇒ Atlas **sahiplik** boyuyor, **sınır geometrisi** boyamıyor. Voronoi
+  noktası bu farkı ifade edemez, **çünkü ifade edilecek fark yok.**
+  ⇒ Kalem nokta işi değil **geometri** işi.
+  📌 Ve bir ayrım kalemi doğru kapattı: ***"Yunanistan bıraktı" demek
+  "Yunanistan'ın elindeydi" demek DEĞİLDİR.*** Tazminat hukukî
+  **gerekçe**, tasarruf başka şey — ve atlas tasarrufu boyar.
+
+- 🔴 **BİR BEYAN, ARACIN ALAN KÜMESİNDE YOKSA SESSİZCE DÜŞER — VE
+  YAMANIN YARISI İNER, YARISI DÜŞER.** *(2 Eylül 2026)*
+
+  `Değişmez 1b`nin tek beyansız boşluğu **Timbuktu 1430-1468** (13.879 gün,
+  Tevârik dönemi) çıktı. Boşluk **kaza değildi**: ölçülmüş, kaynaklanmış
+  (TDV `tinbuktu`), bilerek bırakılmıştı. Düşüren şey kayıt değil **araç**:
+  ```
+  _sahiplik_uygula.py:318  ALAN_RX        = d · s · v · isg
+  _sahiplik_uygula.py:342  SKALER_ALANLAR = m · kaynak
+  ⇒ `bos:` ve `neden:` HİÇBİR KÜMEDE YOK
+  yamada:  s: ✓ İNDİ · kaynak: ✓ İNDİ · bos: ✗ DÜŞTÜ · neden: ✗ DÜŞTÜ
+  ```
+  🟢 **Ve yamayı yazan oturum bunu ÖNCEDEN yazmıştı:** *"bu alanlar İNMEZ;
+  dosya sahibinin elle koyması gerekiyor — yoksa Timbuktu yine 'beyansız
+  delik' sayılır."* **Uyarı yazıldı, okunmadı, öngördüğü kusur gerçekleşti.**
+
+  📌 `§11`in *"bir ders veriye SERBEST METİN olarak inerse inmiş sayılmaz"*
+  dersinin **bir kademe ötesi**: burada ders serbest metin **değildi**,
+  doğru biçimde **yapılandırılmış bir alana** yazılmıştı — ve onu düşüren
+  şey kaydın kendisi değil **aracın alan kümesi** oldu. `grep` beyanı
+  bulur (yamada duruyor), `denetle.py` bulamaz (veride yok).
+  ⇒ Sınav yine tek soru: ***bu bilgiyi bir `if` ile sorabiliyor muyum?***
+  Ve yeni bir soru daha: ***onu yazan araç, o alanı yazabiliyor mu?***
+
+- 🔴 **BİR DÖNGÜDE BAŞARI VARLIKLA, HATA YOKLUKLA BİLDİRİLİRSE HATA
+  GÖRÜNMEZ — VE ÇIKIŞ KODU SON YİNELEMENİNKİDİR.** *(2 Eylül 2026)*
+
+  Dört oturuma toplu sevk yollandı:
+  ```bash
+  for … ; do py arac/tahta.py yaz … >/dev/null 2>&1 && echo "-> $k"; done
+  ```
+  Çıktı **üç ad** bastı, dördüncüsü yoktu, ve komut **exit 0** verdi.
+  Sonuç: bir oturum **üç buçuk saat** iş beklemeden bekledi ve
+  **beklediğini bilmiyordu** (tahtada ona giden mesaj: 0/2254).
+  ```
+  🔴 hata /dev/null'a gitti      → NİÇİN düştüğü kayboldu
+  🔴 başarı VARLIK, hata YOKLUK  → yokluk SAYILMADAN görünmez
+  🔴 exit 0 = SON yineleme       → "hepsi başardı" DEMEK DEĞİL
+  ```
+  🟢 Yakalayan bir denetim değil, **başka bir işçi oturum** oldu:
+  *"bölüm ⑩'un adresine giden mesaj: HÂLÂ 0"* diye **saydı**.
+  ⇒ Toplu bir işlemde **beklenen sayı önceden yazılır ve sonunda
+  DOĞRULANIR**; `&&`li bir echo teslim kanıtı değildir.
+
+- 🔴 **BİR HÜKÜM DOSYASI BİR ÖLÇÜM DEĞİL, ÖLÇÜMÜN FOTOĞRAFIDIR — ve
+  fotoğraf eskir.** *(2 Eylül 2026 — bir günde ÜÇ kalem)*
+
+  Koordinatör `denetim/HUKUM-OK110.json`dan üç iş türetti; **üçü de bayat
+  çıktı ve üçünü de işçi oturumlar ölçerek çürüttü:**
+  ```
+  Trakya      "Kofçaz ↔ Malko Tırnova 51 km boşluk"
+              → şerit 11 Ağustos'ta `d333096` ile KURULMUŞ (16 nokta),
+                ve o commit'i yazan KOORDİNATÖRÜN KENDİSİYDİ
+  Uzunyayla   "çare belli, dört nokta yaz"
+              → `Darende` yazılmış (başka oturumun dosyasında), ve
+                "çare" sanılan şey bana sorulmuş CEVAPSIZ BİR SORUYDU
+  Polesya     "262 km boşluk · Brest 183 · Pinsk 221"
+              → 81,3 km · Brest VAR · Pinsk VAR
+  ```
+  ⇒ Üçünde de kusur ölçümde değil **yaşta**. Ve `§11`in *"işe dönüştürmeden
+  önce `git log`"* kuralı üç kez birden ihlal edildi — **on saniyelik iş.**
+  📌 En keskin ders: ***kendi ödediğin borcu, kaydını okumadan yeniden iş
+  sanabilirsin.*** Kayıt iki yöne de gerekiyor — açık borç için de,
+  **ödenmiş** borç için de.
