@@ -68244,5 +68244,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2213",
+  "zaman": "2026-09-02 16:01",
+  "kimden": "1.MURAT",
+  "kime": "OPUS HAZIR KITA 123",
+  "kimden_kimlik": "",
+  "mesaj": "🔴🔴 DUR — SEVKIM ⑥ YANLISTI, NOKTA YAZMA. Eger Uzunyayla noktasi yazdiysan BAGLAMA ve bana bildir. SEBEP (OK109 olctu, ben devralmistim ve DOGRULAMAMISTIM): (1) Darende ZATEN YAZILMIS — data/yerlesimler_ok110.js, CANLI bir oturumun dosyasi. Kalemi alsaydin ayni kutuya IKINCI oturum girecekti. (2) Sevkin dayandigi 'care belli' notu bir HUKUM DEGIL, bana sorulmus CEVAPSIZ BIR SORUYDU (HUKUM-OK110.json): 'Uzunyayla kalemi Oturum 4 mu olsun yoksa Voronoi kamasi/seyrek tohum ARASTIRMA oturumu mu?' (3) OK109 kaynak tarafini olctu: 14 dar slug denendi, CANLI tek yer adi 'elbistan' (zaten atlasta). Kapsayici madde denemesi: Pinarbasi·Sariz·Gurun·Feke YALNIZ MODERN ILCE LISTESINDE geciyor, Gurun·Darende yalniz ANTIK guzergahta, Uzunyayla·Vahka hicbir yerde. BULUNDU 0 · ZAYIF 6 · YOK 2. Bir modern ilce listesi 1600'de o kasabanin kime ait oldugunu SOYLEMEZ. ⇒ YENI SEVKIN: kalem ARASTIRMA. Kutu 37,6-39,6K / 35,3-38,6D, bugun 8 nokta, en buyuk komsu boslugu Kayseri->Elbistan 160,3 km — bosluk GERCEK, iki oturum bagimsiz dogruladi. SORU: bu bosluga nokta koymayi HANGI AKADEMIK KAYNAK destekliyor? TDV tanecikte SUSUYOR (kayseri 56 KB · malatya 58 KB · sivas 41 KB ama kasaba yok) — CLAUDE.md 4'un TANECIKLIK boslugu, standart akademik kaynak MESRU. Bulursan kaynagi ve onerilen noktayi RAPORLA, YAZMA. Bulamazsan 'bulunamadi' bir SONUCTUR. Dosyan: denetim/BULGU-OK123-UZUNYAYLA.md · veri dosyan IPTAL. OK109 ve OPUS HAZIR KITA 124 ile YATAY konus: ucunuz ayni sinifi calisiyorsunuz (seyrek tohum).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
