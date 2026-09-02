@@ -28,6 +28,46 @@ def _oku(y):
     return io.open(y, encoding="utf-8", newline="").read()
 
 
+# ══════════════════════════════════════════════════════════════════════════
+# KASITLI BOŞLUK DEYİMİ — 2 Eylül 2026'da kovalandı
+#
+# `__BOSLUK__` bir devlet kimliği DEĞİL, bir BEYANDIR: *"bu dilimi hiçbir
+# künye kapsamıyor ve en yakın kimliğe İTMİYORUZ."* `data/yer_yama_hayalet2.js`
+# kendi yorumunda böyle tarif ediyor ve gerekçesi `§3.5.1`dir:
+#     "hayalet yok olmadı, TARAF DEĞİŞTİRDİ" — boşluğu komşuya itmek
+#     bir hayaleti kapatıp yenisini doğurmaktır.
+#
+# ⚠️ ÖLÇÜLDÜ (2 Eylül): deyim KASITLI ama MOTORDA KARŞILIĞI YOK.
+#     `__BOSLUK__` → arac/*.py 0 eşleşme · js/*.js 0 eşleşme
+#     yani boyanmaması "bilinmeyen kimlik → renk yok → çizilmez" yolundan
+#     geliyor, ÖZEL BİR DAL'dan değil. Bugün doğru çalışıyor; ama biri
+#     `renkler.py`ye `"__BOSLUK__"` diye bir renk yazarsa niyet SESSİZCE
+#     bozulur ve hiçbir denetim ötmez.
+# 📌 Bu yüzden SÜZGEÇ DEĞİL KOVA: elenirse satır 0/0 der ve deyim görünmez
+#   olur; sayılırsa hem kusur sayılmaz hem de yanlış yere yazılırsa görünür.
+#
+# 🔴 VE TİPO KORUMASI: yalnız TANINAN dizi sarı kovaya girer. `__BOSLK__`
+#   gibi deyime BENZEYEN ama tanınmayan bir kimlik KIRMIZI kovada kalır —
+#   yoksa bir yazım hatası "kasıtlı" diye etiketlenip görünmez olurdu.
+KASITLI_BOSLUK = {"__BOSLUK__"}
+
+
+def bosluk_kovalari(kul, diz):
+    """Dizinde olmayan kimlikleri İKİ KOVAYA ayırır: (eksik, kasitli).
+
+        eksik    🔴 bilinmeyen kimlik — kusur
+        kasitli  🟡 tanınan boşluk beyanı — kusur DEĞİL, ama SAYILIR
+
+    🔴 SAF FONKSİYON — C13 dallarının zorlanabilmesi için dosya okumaz.
+    """
+    eksik, kasitli = {}, {}
+    for k, n in kul.items():
+        if k in diz:
+            continue
+        (kasitli if k in KASITLI_BOSLUK else eksik)[k] = n
+    return eksik, kasitli
+
+
 def renk_kovalari(boyalar, diz, kul):
     """RENGİ VAR + DİZİNDE YOK olan kimlikleri İKİ KOVAYA ayırır.
 
@@ -82,6 +122,28 @@ def _sina():
     #      kuralın gerekliliğini iddia değil ÖLÇÜM söylesin diye.
     dal("4b TAKMA AD (diz'den cikarilinca SAHTE ALARM)", {"a", "hicaz"},
         {"a"}, {"hicaz": 5}, 1, 0)
+    print("C13 SINAMASI — bosluk_kovalari()")
+
+    def bdal(ad, kul, diz, bek_e, bek_k):
+        nonlocal gecti, t
+        t += 1
+        e, k = bosluk_kovalari(kul, diz)
+        ok = (len(e) == bek_e and len(k) == bek_k)
+        gecti += 1 if ok else 0
+        print("  %s %-42s eksik %d/%d · kasitli %d/%d"
+              % ("OK " if ok else "!!!", ad, len(e), bek_e, len(k), bek_k))
+
+    # ⑤ GEÇME — her kimliğin dizin karşılığı var. Gerçek veride BU HÂL YOK
+    #    (`__BOSLUK__` hep orada) ⇒ ZORLANDI.
+    bdal("5 GECME (hepsi dizinde)", {"a": 2, "b": 1}, {"a", "b"}, 0, 0)
+    # ⑥ ATEŞLEME — bilinmeyen kimlik KIRMIZI kovada
+    bdal("6 ATESLEME (bilinmeyen kimlik)", {"yetim": 3}, set(), 1, 0)
+    # ⑦ KASITLI — tanınan beyan SARI kovada, kırmızıyı KİRLETMEZ
+    bdal("7 KASITLI (__BOSLUK__ -> sari)", {"__BOSLUK__": 1}, set(), 0, 1)
+    # ⑧ TİPO KORUMASI — deyime BENZEYEN ama TANINMAYAN kimlik KIRMIZI kalır.
+    #    Desenle (`__.*__`) süzseydim bu yazım hatası "kasıtlı" diye
+    #    etiketlenip GÖRÜNMEZ olurdu; tanınan KÜME kullanmanın sebebi bu.
+    bdal("8 TIPO (__BOSLK__ -> KIRMIZI kalir)", {"__BOSLK__": 1}, set(), 1, 0)
     print("SINAMA: %d/%d dal beklendigi gibi" % (gecti, t))
     return 0 if gecti == t else 1
 
@@ -136,9 +198,12 @@ def olc():
             for sm in re.finditer(kat + r"\s*\[(.*?)\]\s*[,}]", t, re.S):
                 for m in re.finditer(r'\bd:\s*"([^"]+)"', sm.group(1)):
                     kul[m.group(1)] += 1
-    eksik = {k: n for k, n in kul.items() if k not in diz}
+    eksik, kasitli = bosluk_kovalari(kul, diz)
     o["kimlik_eksik"] = len(eksik)
     o["kimlik_eksik_pencere"] = sum(eksik.values())
+    o["kasitli_bosluk"] = len(kasitli)
+    o["kasitli_bosluk_pencere"] = sum(kasitli.values())
+    o["kimlik_eksik_ad"] = sorted(eksik)
 
     # 🔴 RENK SAYACI 2 EYLÜL 2026'DA DÜZELTİLDİ — REGEX 8 FAZLA SAYIYORDU.
     # Eski satır: re.findall(r'^\s*"([a-z0-9\-]+)"\s*:', renkler.py)
@@ -238,6 +303,13 @@ def tablo(o):
              "karşılıksız · *kapsam: `girdi.py`nin okuduğu %d dosya, `s:`+`isg:` "
              "alanları — bağlanmamış partiler HARİÇ* |"
              % (o["kimlik_eksik"], o["kimlik_eksik_pencere"], o["girdi_dosya"]))
+    # 🟡 KASITLI BOŞLUK — kusur DEĞİL ama SAYILIR. Elenirse deyim görünmez
+    # olur; sayılırsa yanlış yere yazıldığında görünür.
+    s.append("| Kasıtlı boşluk kimliği | %s **%d** kimlik / %d pencere · "
+             "*`__BOSLUK__` — hiçbir künyenin kapsamadığı dilim; en yakın "
+             "kimliğe İTİLMEDİ (`§3.5.1`). Kusur değil, BEYAN* |"
+             % ("🟡" if o["kasitli_bosluk"] else "✓",
+                o["kasitli_bosluk"], o["kasitli_bosluk_pencere"]))
     # KAPSAM YİNE SATIRIN YANINDA: bu ölçüm RENKTEN başlar, üstteki VERİDEN.
     # İkisi ayrı soru; tek satıra sıkıştırmak hangisinin görüldüğünü gizler.
     s.append("| Renkli-künyesiz kimlik | %s **%d** çiziliyor ama dizinsiz%s · "
@@ -259,6 +331,8 @@ if __name__ == "__main__":
     o = olc()
     t = tablo(o)
     print(t)
+    if o["kimlik_eksik_ad"]:
+        print("\n🔴 DİZİNSİZ KİMLİK: %s" % ", ".join(o["kimlik_eksik_ad"]))
     if o["renk_kunyesiz"]:
         print("\n🔴 RENKLİ-KÜNYESİZ (çiziliyor, dizinde yok): %s"
               % ", ".join(o["renk_kunyesiz"]))
