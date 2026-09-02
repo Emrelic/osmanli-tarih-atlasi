@@ -2810,8 +2810,55 @@ BOYALAR = {
     "hawaii-kralligi":         ("Hawaii Krallığı",                   "#ffa5d6"),
     "merina":                  ("Merina Krallığı",                   "#73c0a0"),
     "farukiler":               ("Fârûkîler (Handeş Sultanlığı)",     "#80f67e"),
-    "apaci-ovalar":            ("Ova Apaçileri",                     "#d7a300"),
+    # 🔴 #d7a300 -> #2424d2, 2 EYLÜL 2026. VE RENGE DOKUNULMADAN DOĞMUŞ
+    # BİR ÇAKIŞMAYDI — `CLAUDE.md §9`un adıyla uyardığı vaka:
+    #   "PALET VERİNİN FONKSİYONUDUR — renk değişmese bile denetim değişir."
+    # 1 Eylül gecesi `yerlesimler_amerika2.js` bağlandı (2 nokta) ve
+    # `apaci-ovalar` ilk kez veride gövde kazandı. `renkler.py`de tek bayt
+    # değişmediği hâlde Voronoi komşuluğu doğdu:
+    #   apaci-ovalar ↔ cahokia   ΔE 8,5   (eşik 12)
+    # ⇒ `git diff arac/renkler.py` BOŞTU; çakışmayı yalnız `renk_olc.py`
+    #   gördü. Bu, o dersin dördüncü ölçülmüş vakası.
+    # Yeni renk `--oner` ile seçildi ve bu sefer araç KOMŞU ÖLÇEBİLDİ
+    # (5 komşu · 7 renkli engel · en yakın engel ΔE 16,3) — aynı gün
+    # eyyubi-hisnikeyfa/kabartay'da 0 komşu ölçülebilmişti, o yüzden
+    # oradaki öneri reddedilip elle seçilmişti. Fark: veri.
+    "apaci-ovalar":            ("Ova Apaçileri",                     "#2424d2"),
     "komanci":                 ("Komançiler",                        "#78bdff"),
+
+    # ═══ 2 EYLÜL 2026 — A3 · ve `renk_olc.py --oner`İN ÇIKTISI REDDEDİLDİ
+    # Araç şunu önerdi:  eyyubi-hisnikeyfa #2424d2 · kabartay #242ad2
+    # İkisi arasında ΔE = 3,32.  Okunabilirlik tabanı 12.
+    #
+    # 🔴 SEBEBİ ARACIN KENDİ UYARISINDA YAZILIYDI:
+    #   "komşusu ölçülemeyen kimlik: eyyubi-hisnikeyfa, kabartay
+    #    (verisi girdi.py'nin okuduğu dosyalarda DEĞİL)"
+    #   "yeniler arası komşuluk: 0 çift"
+    # İkisinin de verisi yok ⇒ Voronoi komşuluğu kurulamadı ⇒ BİRBİRLERİNE
+    # KARŞI HİÇ KISITLANMADILAR ve neredeyse aynı maviyi aldılar.
+    # 📌 `CLAUDE.md §11`deki `kuba ↔ lunda` vakasının birebir tekrarı:
+    #    verisi olmayan aday ENGEL SAYILMIYOR, sonra veri gelince çakışıyor.
+    #    Orada çare "EN KÖTÜ HÂL VARSAYILIR" idi; burada da öyle yapıldı.
+    #
+    # ⚠️ VE İKİSİ AYNI ANDA SAHNEDE: künyeleri 1281-1462 arası **181 YIL**
+    #    örtüşüyor (eyyubi-hisnikeyfa 1232-1462 · kabartay 1281-1774),
+    #    bölgeler `anadolu` ve `kafkasya`, aralarında ~700 km — projenin
+    #    kademesinde UYARI bandı. `kaffa ↔ sidamo` (ΔE 2,8) dersi:
+    #    *iki gövde değmeden de aynı ekranda yan yana durur.*
+    #
+    # SEÇİLEN ÇİFT — 401 rengin TAMAMINA karşı ölçüldü (yalnız komşulara
+    # değil; komşuluk ölçülemediği için en kötü hâl varsayıldı):
+    #   eyyubi-hisnikeyfa  en yakın mevcut renk ΔE 14,0 (filipin-racaliklari)
+    #   kabartay           en yakın mevcut renk ΔE 14,7 (bolivya-cumhuriyeti)
+    #   ikisi arası        ΔE 156,5                      (hedef ≥ 25)
+    # Kırmızı aile elendi (Osmanlı ailesine ayrılmıştır): 98 aday → 82.
+    # Karar ve tam gerekçe: `denetim/A3-RENK-KARARI.md`
+    #
+    # 🔜 SIRA BAĞLAYICI: `kabartay` henüz hiçbir `s:` döneminde DEĞİL —
+    #    `__BOSLUK__` → `d:"kabartay"` dönüşümü bu renkten SONRA yapılır.
+    #    Ters sıra Kabartay toprağını bir koşu boyunca BOYASIZ bırakırdı.
+    "eyyubi-hisnikeyfa":       ("Hısnıkeyfâ Eyyûbîleri",             "#108810"),
+    "kabartay":                ("Kabartay (Kabardey) Beylikleri",    "#d058e8"),
 }
 
 

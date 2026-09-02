@@ -1,0 +1,101 @@
+  UYARI su: 1 devlet rengi SU RENGINE cok yakin (esik DE 18)
+    DE  17.9  novgorod                     #84c9cf   <- kiyisi olan govde suya karisir
+  RENK acikma: 17 kimlik ACIKLIK_TABANI_L=59'a cekildi (hex DEGISTI, ton/doygunluk AYNI):
+    L*=55.9  bizans                       #0f0f5d -> #281e6f
+    L*=56.7  inancogullari                #3f0c12 -> #4f1a1f
+    L*=57.0  moskova                      #0f0f9c -> #2419a6
+    L*=57.5  kutai                        #4b0f15 -> #55191d
+    L*=57.5  kert                         #0808f0 -> #1b0ff4
+    L*=57.6  cunagadh                     #3c1515 -> #451d1c
+    L*=57.6  astarhan                     #421212 -> #4c1b1a
+    L*=57.6  savoya                       #12129f -> #2119a6
+    L*=57.7  afgan-durrani                #3c1239 -> #451b41
+    L*=58.1  gova-makassar                #281098 -> #30169d
+    L*=58.1  san-fan                      #4e1218 -> #55191d
+    L*=58.3  laos-kralliklari             #421539 -> #46193d
+    L*=58.3  bhopal                       #451539 -> #49193c
+    L*=58.4  litvanya-buyuk-dukalik       #060cff -> #1310ff
+    L*=58.4  bonacolsi                    #421542 -> #461945
+    L*=58.8  kandy                        #600f3c -> #60103c
+    L*=59.0  nebhani                      #60121b -> #61131b
+  RENK acikma IKINCI GECIS (2 kimlik) - saf L-lift komsuya cok yaklastiriyordu, ton acisi da kaydirildi (ORHANGAZI M-1848):
+    L*=55.1  fransa-cumhuriyet            #09095a -> #00297c  (<-ingiltere DE=18.5)
+    L*=57.8  ferrara                      #300c93 -> #7a005c  (<-mantua DE=19.6)
+  UYARI aciklik tavani: 2 kimlik ALTLIKTAN yeterince ayrismiyor (esik DE 15) - zemine karisip GORUNMEZ olabilir:
+    DE  14.9  le-hanedani                  #9ceded   <- kroma artirilarak duzeltilmeli
+    DE  15.0  ispanya                      #d59f63   <- kroma artirilarak duzeltilmeli
+  UYARI alan: 'baskent' BILINEN_ALANLAR'da yok — 1 kayıtta (yerlesimler_amerika2.js:Comanchería (Güney Büyük Ovalar)). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
+  UYARI alan: 'pencere_disi' BILINEN_ALANLAR'da yok — 2 kayıtta (yerlesimler_4ff22b.js:Antananarivo, yerlesimler_4ff22b.js:Honolulu). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
+  UYARI alan: 'sinir' BILINEN_ALANLAR'da yok — 6 kayıtta (yerlesimler_sinir_dogu.js:Bacirge (Esendere), yerlesimler_sinir_dogu.js:Sero, yerlesimler_sinir_dogu.js:Şemdinli (Şemdinni)…). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
+canlı veri 2624 nokta · 403 kimlik · altlık #e8dfc8 · opaklık 0.44
+eşikler: komşudan ΔE ≥ 12 · altlıktan ≥ 15
+
+========================================================================
+ALTLIKTAN AYRIŞMAYAN — 0 kimlik (ΔE < 15)
+========================================================================
+  yok
+
+========================================================================
+DENİZLE KARIŞAN — DAL1 ΔE<15: 4 · DAL2 |ΔL*|<4∧ΔE<20 (ek): 9 · birleşim 13 (deniz #c4dcea)
+========================================================================
+   19.29  ΔL* 2.52  afganistan               #e4b1d5  Afganistan Emirliği
+   18.48  ΔL* 3.22  avad                     #deabe4  Avad (Oudh) Nevablığı
+   15.48  ΔL* 2.53  bosna                    #90f3f3  Bosna Krallığı
+   16.95  ΔL* 0.81  estonya                  #88e8e0  Estonya
+   18.89  ΔL* 3.36  floransa                 #deabd8  Floransa Cumhuriyeti
+    4.49  ΔL* 4.30  komanci                  #78bdff  Komançiler
+   14.61  ΔL* 2.10  le-hanedani              #9ceded  Lê Hanedanı (Đại Việt)
+   18.89  ΔL* 1.74  lur-i-kucek              #ffccf3  Lur-i Küçek (Hurşîdîler)
+   13.95  ΔL*12.54  norvec-kralligi          #2490d2  Norveç Krallığı (Birlik Öncesi ve Kalmar Dönemi)
+   13.25  ΔL* 3.12  novgorod                 #84c9cf  Novgorod Cumhuriyeti
+   19.16  ΔL* 2.96  sukhothai                #e1aed5  Sukhothai Krallığı
+   19.37  ΔL* 2.99  tibet                    #e1aed2  Tibet (Phagmodrupa-Tsangpa)
+   18.03  ΔL* 3.45  tidore-sultanligi        #72ccc0  Tidore Sultanlığı (Moluk)
+
+========================================================================
+KOMŞUSUYLA ÇAKIŞAN — 0 çift (ΔE < 12)
+========================================================================
+  yok
+
+========================================================================
+AYNI ANAHTARI PAYLAŞIP TARİHİ ÖRTÜŞEN — 0 çift (ΔE 0!)
+  (devletler.js 438 kayıt · 6 anahtar paylaşımlı · 6 anahtar ardışık/örtüşmesiz: susuldu)
+========================================================================
+  yok
+  UYARI alan: 'baskent' BILINEN_ALANLAR'da yok — 1 kayıtta (yerlesimler_amerika2.js:Comanchería (Güney Büyük Ovalar)). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
+  UYARI alan: 'pencere_disi' BILINEN_ALANLAR'da yok — 2 kayıtta (yerlesimler_4ff22b.js:Antananarivo, yerlesimler_4ff22b.js:Honolulu). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
+  UYARI alan: 'sinir' BILINEN_ALANLAR'da yok — 6 kayıtta (yerlesimler_sinir_dogu.js:Bacirge (Esendere), yerlesimler_sinir_dogu.js:Sero, yerlesimler_sinir_dogu.js:Şemdinli (Şemdinni)…). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
+
+========================================================================
+AYNI HEX'İ PAYLAŞIP EŞZAMANLI VE 600 KM'DEN YAKIN — 0 çift (ΔE 0!)
+========================================================================
+  yok
+  i 4 çift ÖLÇÜLEMEDİ — canlı veride dönemi olmayan kimlikler ('ölçülemedi' ≠ 'temiz') — dökümü: --ayrinti
+  UYARI alan: 'baskent' BILINEN_ALANLAR'da yok — 1 kayıtta (yerlesimler_amerika2.js:Comanchería (Güney Büyük Ovalar)). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
+  UYARI alan: 'pencere_disi' BILINEN_ALANLAR'da yok — 2 kayıtta (yerlesimler_4ff22b.js:Antananarivo, yerlesimler_4ff22b.js:Honolulu). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
+  UYARI alan: 'sinir' BILINEN_ALANLAR'da yok — 6 kayıtta (yerlesimler_sinir_dogu.js:Bacirge (Esendere), yerlesimler_sinir_dogu.js:Sero, yerlesimler_sinir_dogu.js:Şemdinli (Şemdinni)…). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
+  UYARI alan: 'baskent' BILINEN_ALANLAR'da yok — 1 kayıtta (yerlesimler_amerika2.js:Comanchería (Güney Büyük Ovalar)). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
+  UYARI alan: 'pencere_disi' BILINEN_ALANLAR'da yok — 2 kayıtta (yerlesimler_4ff22b.js:Antananarivo, yerlesimler_4ff22b.js:Honolulu). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
+  UYARI alan: 'sinir' BILINEN_ALANLAR'da yok — 6 kayıtta (yerlesimler_sinir_dogu.js:Bacirge (Esendere), yerlesimler_sinir_dogu.js:Sero, yerlesimler_sinir_dogu.js:Şemdinli (Şemdinni)…). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
+
+========================================================================
+YAKIN AMA DEĞMEYEN — 11 İHLAL (ΔE < 12 · eşzamanlı · 600 km'den yakın)
+  (Voronoi komşusu olmayan 89 çift kuruldu; komşu olanları yukarıdaki bölüm basıyor)
+========================================================================
+    3.34    451 km  hollanda             ↔ sardinya             1581-1861
+    3.44    284 km  ceneviz              ↔ teke                 1321-1423
+    5.06    450 km  eflak                ↔ teodoro              1349-1475
+    5.80    569 km  isa-celebi           ↔ memluk               1402-1403
+    6.28    598 km  ramazanoglu          ↔ sovalye              1352-1516
+    6.97    365 km  aydin                ↔ sirbistan            1308-1425
+   10.16    430 km  farukiler            ↔ gond-kralliklari     1370-1601
+   10.72    132 km  musa-celebi          ↔ napoli               1410-1413
+   11.04     94 km  bizans               ↔ karaman              1281-1473
+   11.78    110 km  inancogullari        ↔ sovalye              1310-1368
+   11.92    324 km  avusturya            ↔ siena                1281-1555
+
+  i 78 çift SINIRDA (12 ≤ ΔE < 15) — EKRAN, çıkış kodunu etkilemez — dökümü: --ayrinti
+  i 385 çift ÖLÇÜLEMEDİ ('ölçülemedi' ≠ 'temiz') — dökümü: --ayrinti
+
+========================================================================
+  🔴 0 görünmez · 0 çakışma · 0 aynı-anahtar örtüşmesi · 0 aynı-hex çakışması · 11 yakın-ama-değmeyen
