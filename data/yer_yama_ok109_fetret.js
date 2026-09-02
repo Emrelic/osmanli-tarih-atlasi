@@ -59,6 +59,20 @@
 //     ve orada düzeltildi.
 // ════════════════════════════════════════════════════════════════════════
 
+// ═══════════════════════════════════════════════════════════════════════
+// 🟢 KİLİT KALDIRILDI — 2 Eylül 2026, OPUS HAZIR KITA 109
+//    Bu dosyanın 32 kaydı `d2_gerek` ile KİLİTLİYDİ; kilidin şartı şuydu:
+//        "bu yama 32 kaydın SINIR GÜNÜNÜ 1335-12-01'den 1340-01-01'e
+//         taşır; uygulanmadan önce koordinatör onaylamalı."
+//    🟢 ŞART GELDİ: 1.MURAT, M-2133 —
+//        "HÜKÜM: FETRET SINIR GÜNÜ DÜZELTMESİ KABUL. `ilhanli t:` ve
+//         `celayirli f:` → 1340-01-01."
+//    Dayanağı: TDV `ilhanlilar` (1256-1353, ilhan listesi 1335 sonrasını
+//    sayıyor) + TDV `celayirliler` ("1340-1431… kurdu (1340)").
+//    ⇒ `d2_gerek` alanları KALDIRILDI. Kilit sessizce yok olmadı; niçin
+//      konduğu ve niçin kalktığı burada yazılı.
+//    ⚠️ `kaynak:` ve `neden:` alanlarına DOKUNULMADI.
+// ═══════════════════════════════════════════════════════════════════════
 window.YER_YAMA_OK109_FETRET = [
 
   {
@@ -71,7 +85,6 @@ window.YER_YAMA_OK109_FETRET = [
       {"f": "1508-01-01", "t": "1516-08-24", "d": "safevi"},
       {"f": "1918-11-08", "t": "1923-10-29", "d": "ingiltere"}
     ],
-    d2_gerek: "KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-01'den 1340-01-01'e tasir. Tek tek degil TOPLU bir duzeltmedir; uygulanmadan once koordinator onaylamali. Kaynak ve gerekce dosya basinda.",
     kaynak: "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
     neden: "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
   },
@@ -86,7 +99,6 @@ window.YER_YAMA_OK109_FETRET = [
       {"f": "1508-01-01", "t": "1546-01-01", "d": "safevi"},
       {"f": "1914-11-22", "t": "1923-10-29", "d": "ingiltere"}
     ],
-    d2_gerek: "KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-01'den 1340-01-01'e tasir. Tek tek degil TOPLU bir duzeltmedir; uygulanmadan once koordinator onaylamali. Kaynak ve gerekce dosya basinda.",
     kaynak: "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
     neden: "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
   },
@@ -102,7 +114,6 @@ window.YER_YAMA_OK109_FETRET = [
       {"f": "1508-01-01", "t": "1546-01-01", "d": "safevi"},
       {"f": "1914-11-22", "t": "1923-10-29", "d": "ingiltere"}
     ],
-    d2_gerek: "KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-01'den 1340-01-01'e tasir. Tek tek degil TOPLU bir duzeltmedir; uygulanmadan once koordinator onaylamali. Kaynak ve gerekce dosya basinda.",
     kaynak: "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
     neden: "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
   },
@@ -126,7 +137,6 @@ window.YER_YAMA_OK109_FETRET = [
       {"f": "1623-11-28", "t": "1638-12-24", "d": "safevi"},
       {"f": "1917-03-11", "t": "1923-10-29", "d": "ingiltere"}
     ],
-    d2_gerek: "KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-01'den 1340-01-01'e tasir. Tek tek degil TOPLU bir duzeltmedir; uygulanmadan once koordinator onaylamali. Kaynak ve gerekce dosya basinda.",
     kaynak: "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
     neden: "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
   },
@@ -141,7 +151,6 @@ window.YER_YAMA_OK109_FETRET = [
       {"f": "1508-01-01", "t": "1516-08-24", "d": "safevi"},
       {"f": "1918-11-08", "t": "1923-10-29", "d": "ingiltere"}
     ],
-    d2_gerek: "KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-01'den 1340-01-01'e tasir. Tek tek degil TOPLU bir duzeltmedir; uygulanmadan once koordinator onaylamali. Kaynak ve gerekce dosya basinda.",
     kaynak: "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
     neden: "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
   },
@@ -157,7 +166,6 @@ window.YER_YAMA_OK109_FETRET = [
       {"f": "1623-11-28", "t": "1638-12-25", "d": "safevi"},
       {"f": "1917-03-11", "t": "1923-10-29", "d": "ingiltere"}
     ],
-    d2_gerek: "KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-01'den 1340-01-01'e tasir. Tek tek degil TOPLU bir duzeltmedir; uygulanmadan once koordinator onaylamali. Kaynak ve gerekce dosya basinda.",
     kaynak: "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
     neden: "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
   },
@@ -173,7 +181,6 @@ window.YER_YAMA_OK109_FETRET = [
       {"f": "1623-11-28", "t": "1638-12-25", "d": "safevi"},
       {"f": "1917-03-11", "t": "1923-10-29", "d": "ingiltere"}
     ],
-    d2_gerek: "KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-01'den 1340-01-01'e tasir. Tek tek degil TOPLU bir duzeltmedir; uygulanmadan once koordinator onaylamali. Kaynak ve gerekce dosya basinda.",
     kaynak: "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
     neden: "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
   },
@@ -189,7 +196,6 @@ window.YER_YAMA_OK109_FETRET = [
       {"f": "1623-11-28", "t": "1638-12-25", "d": "safevi"},
       {"f": "1917-03-11", "t": "1923-10-29", "d": "ingiltere"}
     ],
-    d2_gerek: "KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-01'den 1340-01-01'e tasir. Tek tek degil TOPLU bir duzeltmedir; uygulanmadan once koordinator onaylamali. Kaynak ve gerekce dosya basinda.",
     kaynak: "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
     neden: "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
   },
@@ -204,7 +210,6 @@ window.YER_YAMA_OK109_FETRET = [
       {"f": "1508-01-01", "t": "1546-01-01", "d": "safevi"},
       {"f": "1914-11-22", "t": "1923-10-29", "d": "ingiltere"}
     ],
-    d2_gerek: "KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-01'den 1340-01-01'e tasir. Tek tek degil TOPLU bir duzeltmedir; uygulanmadan once koordinator onaylamali. Kaynak ve gerekce dosya basinda.",
     kaynak: "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
     neden: "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
   },
@@ -225,7 +230,6 @@ window.YER_YAMA_OK109_FETRET = [
       {"f": "1623-11-28", "t": "1638-12-24", "d": "safevi"},
       {"f": "1917-03-11", "t": "1923-10-29", "d": "ingiltere"}
     ],
-    d2_gerek: "KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-01'den 1340-01-01'e tasir. Tek tek degil TOPLU bir duzeltmedir; uygulanmadan once koordinator onaylamali. Kaynak ve gerekce dosya basinda.",
     kaynak: "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
     neden: "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
   },
@@ -241,7 +245,6 @@ window.YER_YAMA_OK109_FETRET = [
       {"f": "1623-11-28", "t": "1638-12-25", "d": "safevi"},
       {"f": "1917-03-11", "t": "1923-10-29", "d": "ingiltere"}
     ],
-    d2_gerek: "KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-01'den 1340-01-01'e tasir. Tek tek degil TOPLU bir duzeltmedir; uygulanmadan once koordinator onaylamali. Kaynak ve gerekce dosya basinda.",
     kaynak: "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
     neden: "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
   },
@@ -257,7 +260,6 @@ window.YER_YAMA_OK109_FETRET = [
       {"f": "1623-11-28", "t": "1638-12-25", "d": "safevi"},
       {"f": "1917-03-11", "t": "1923-10-29", "d": "ingiltere"}
     ],
-    d2_gerek: "KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-01'den 1340-01-01'e tasir. Tek tek degil TOPLU bir duzeltmedir; uygulanmadan once koordinator onaylamali. Kaynak ve gerekce dosya basinda.",
     kaynak: "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
     neden: "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
   },
@@ -273,7 +275,6 @@ window.YER_YAMA_OK109_FETRET = [
       {"f": "1623-11-28", "t": "1638-12-25", "d": "safevi"},
       {"f": "1917-03-11", "t": "1923-10-29", "d": "ingiltere"}
     ],
-    d2_gerek: "KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-01'den 1340-01-01'e tasir. Tek tek degil TOPLU bir duzeltmedir; uygulanmadan once koordinator onaylamali. Kaynak ve gerekce dosya basinda.",
     kaynak: "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
     neden: "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
   },
@@ -289,7 +290,6 @@ window.YER_YAMA_OK109_FETRET = [
       {"f": "1623-11-28", "t": "1638-12-25", "d": "safevi"},
       {"f": "1917-03-11", "t": "1923-10-29", "d": "ingiltere"}
     ],
-    d2_gerek: "KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-01'den 1340-01-01'e tasir. Tek tek degil TOPLU bir duzeltmedir; uygulanmadan once koordinator onaylamali. Kaynak ve gerekce dosya basinda.",
     kaynak: "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
     neden: "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
   },
@@ -305,7 +305,6 @@ window.YER_YAMA_OK109_FETRET = [
       {"f": "1623-11-28", "t": "1638-12-25", "d": "safevi"},
       {"f": "1918-10-30", "t": "1923-10-29", "d": "ingiltere"}
     ],
-    d2_gerek: "KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-01'den 1340-01-01'e tasir. Tek tek degil TOPLU bir duzeltmedir; uygulanmadan once koordinator onaylamali. Kaynak ve gerekce dosya basinda.",
     kaynak: "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
     neden: "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
   },
@@ -321,7 +320,6 @@ window.YER_YAMA_OK109_FETRET = [
       {"f": "1623-11-28", "t": "1638-12-25", "d": "safevi"},
       {"f": "1917-03-11", "t": "1923-10-29", "d": "ingiltere"}
     ],
-    d2_gerek: "KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-01'den 1340-01-01'e tasir. Tek tek degil TOPLU bir duzeltmedir; uygulanmadan once koordinator onaylamali. Kaynak ve gerekce dosya basinda.",
     kaynak: "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
     neden: "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
   },
@@ -337,7 +335,6 @@ window.YER_YAMA_OK109_FETRET = [
       {"f": "1623-11-28", "t": "1638-12-25", "d": "safevi"},
       {"f": "1917-03-11", "t": "1923-10-29", "d": "ingiltere"}
     ],
-    d2_gerek: "KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-01'den 1340-01-01'e tasir. Tek tek degil TOPLU bir duzeltmedir; uygulanmadan once koordinator onaylamali. Kaynak ve gerekce dosya basinda.",
     kaynak: "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
     neden: "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
   },
@@ -353,7 +350,6 @@ window.YER_YAMA_OK109_FETRET = [
       {"f": "1623-11-28", "t": "1638-12-25", "d": "safevi"},
       {"f": "1917-03-11", "t": "1923-10-29", "d": "ingiltere"}
     ],
-    d2_gerek: "KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-01'den 1340-01-01'e tasir. Tek tek degil TOPLU bir duzeltmedir; uygulanmadan once koordinator onaylamali. Kaynak ve gerekce dosya basinda.",
     kaynak: "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
     neden: "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
   },
@@ -368,7 +364,6 @@ window.YER_YAMA_OK109_FETRET = [
       {"f": "1508-01-01", "t": "1546-01-01", "d": "safevi"},
       {"f": "1914-11-22", "t": "1923-10-29", "d": "ingiltere"}
     ],
-    d2_gerek: "KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-01'den 1340-01-01'e tasir. Tek tek degil TOPLU bir duzeltmedir; uygulanmadan once koordinator onaylamali. Kaynak ve gerekce dosya basinda.",
     kaynak: "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
     neden: "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
   },
@@ -386,7 +381,6 @@ window.YER_YAMA_OK109_FETRET = [
       {"f": "1747-06-20", "t": "1796-01-01", "d": "zend"},
       {"f": "1796-01-01", "t": "1923-10-29", "d": "kacar"}
     ],
-    d2_gerek: "KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-01'den 1340-01-01'e tasir. Tek tek degil TOPLU bir duzeltmedir; uygulanmadan once koordinator onaylamali. Kaynak ve gerekce dosya basinda.",
     kaynak: "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
     neden: "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
   },
@@ -401,7 +395,6 @@ window.YER_YAMA_OK109_FETRET = [
       {"f": "1508-01-01", "t": "1516-08-24", "d": "safevi"},
       {"f": "1918-11-08", "t": "1923-10-29", "d": "ingiltere"}
     ],
-    d2_gerek: "KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-01'den 1340-01-01'e tasir. Tek tek degil TOPLU bir duzeltmedir; uygulanmadan once koordinator onaylamali. Kaynak ve gerekce dosya basinda.",
     kaynak: "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
     neden: "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
   },
@@ -417,7 +410,6 @@ window.YER_YAMA_OK109_FETRET = [
       {"f": "1623-11-28", "t": "1638-12-25", "d": "safevi"},
       {"f": "1917-03-11", "t": "1923-10-29", "d": "ingiltere"}
     ],
-    d2_gerek: "KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-01'den 1340-01-01'e tasir. Tek tek degil TOPLU bir duzeltmedir; uygulanmadan once koordinator onaylamali. Kaynak ve gerekce dosya basinda.",
     kaynak: "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
     neden: "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
   },
@@ -432,7 +424,6 @@ window.YER_YAMA_OK109_FETRET = [
       {"f": "1508-01-01", "t": "1516-08-24", "d": "safevi"},
       {"f": "1918-11-08", "t": "1923-10-29", "d": "ingiltere"}
     ],
-    d2_gerek: "KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-01'den 1340-01-01'e tasir. Tek tek degil TOPLU bir duzeltmedir; uygulanmadan once koordinator onaylamali. Kaynak ve gerekce dosya basinda.",
     kaynak: "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
     neden: "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
   },
@@ -447,7 +438,6 @@ window.YER_YAMA_OK109_FETRET = [
       {"f": "1508-01-01", "t": "1546-01-01", "d": "safevi"},
       {"f": "1914-11-22", "t": "1923-10-29", "d": "ingiltere"}
     ],
-    d2_gerek: "KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-01'den 1340-01-01'e tasir. Tek tek degil TOPLU bir duzeltmedir; uygulanmadan once koordinator onaylamali. Kaynak ve gerekce dosya basinda.",
     kaynak: "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
     neden: "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
   },
@@ -462,7 +452,6 @@ window.YER_YAMA_OK109_FETRET = [
       {"f": "1508-01-01", "t": "1516-08-24", "d": "safevi"},
       {"f": "1918-11-08", "t": "1923-10-29", "d": "ingiltere"}
     ],
-    d2_gerek: "KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-01'den 1340-01-01'e tasir. Tek tek degil TOPLU bir duzeltmedir; uygulanmadan once koordinator onaylamali. Kaynak ve gerekce dosya basinda.",
     kaynak: "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
     neden: "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
   },
@@ -478,7 +467,6 @@ window.YER_YAMA_OK109_FETRET = [
       {"f": "1623-11-28", "t": "1638-12-25", "d": "safevi"},
       {"f": "1917-03-11", "t": "1923-10-29", "d": "ingiltere"}
     ],
-    d2_gerek: "KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-01'den 1340-01-01'e tasir. Tek tek degil TOPLU bir duzeltmedir; uygulanmadan once koordinator onaylamali. Kaynak ve gerekce dosya basinda.",
     kaynak: "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
     neden: "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
   },
@@ -494,7 +482,6 @@ window.YER_YAMA_OK109_FETRET = [
       {"f": "1623-11-28", "t": "1638-12-25", "d": "safevi"},
       {"f": "1917-03-11", "t": "1923-10-29", "d": "ingiltere"}
     ],
-    d2_gerek: "KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-01'den 1340-01-01'e tasir. Tek tek degil TOPLU bir duzeltmedir; uygulanmadan once koordinator onaylamali. Kaynak ve gerekce dosya basinda.",
     kaynak: "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
     neden: "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
   },
@@ -510,7 +497,6 @@ window.YER_YAMA_OK109_FETRET = [
       {"f": "1623-11-28", "t": "1638-12-25", "d": "safevi"},
       {"f": "1917-03-11", "t": "1923-10-29", "d": "ingiltere"}
     ],
-    d2_gerek: "KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-01'den 1340-01-01'e tasir. Tek tek degil TOPLU bir duzeltmedir; uygulanmadan once koordinator onaylamali. Kaynak ve gerekce dosya basinda.",
     kaynak: "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
     neden: "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
   },
@@ -526,7 +512,6 @@ window.YER_YAMA_OK109_FETRET = [
       {"f": "1623-11-28", "t": "1638-12-25", "d": "safevi"},
       {"f": "1917-03-11", "t": "1923-10-29", "d": "ingiltere"}
     ],
-    d2_gerek: "KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-01'den 1340-01-01'e tasir. Tek tek degil TOPLU bir duzeltmedir; uygulanmadan once koordinator onaylamali. Kaynak ve gerekce dosya basinda.",
     kaynak: "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
     neden: "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
   },
@@ -541,7 +526,6 @@ window.YER_YAMA_OK109_FETRET = [
       {"f": "1508-01-01", "t": "1516-08-24", "d": "safevi"},
       {"f": "1918-11-08", "t": "1923-10-29", "d": "ingiltere"}
     ],
-    d2_gerek: "KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-01'den 1340-01-01'e tasir. Tek tek degil TOPLU bir duzeltmedir; uygulanmadan once koordinator onaylamali. Kaynak ve gerekce dosya basinda.",
     kaynak: "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
     neden: "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
   },
@@ -557,7 +541,6 @@ window.YER_YAMA_OK109_FETRET = [
       {"f": "1623-11-28", "t": "1638-12-25", "d": "safevi"},
       {"f": "1917-03-11", "t": "1923-10-29", "d": "ingiltere"}
     ],
-    d2_gerek: "KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-01'den 1340-01-01'e tasir. Tek tek degil TOPLU bir duzeltmedir; uygulanmadan once koordinator onaylamali. Kaynak ve gerekce dosya basinda.",
     kaynak: "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
     neden: "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
   },
@@ -573,7 +556,6 @@ window.YER_YAMA_OK109_FETRET = [
       {"f": "1623-11-28", "t": "1638-12-25", "d": "safevi"},
       {"f": "1918-10-30", "t": "1923-10-29", "d": "ingiltere"}
     ],
-    d2_gerek: "KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-01'den 1340-01-01'e tasir. Tek tek degil TOPLU bir duzeltmedir; uygulanmadan once koordinator onaylamali. Kaynak ve gerekce dosya basinda.",
     kaynak: "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
     neden: "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
   }
