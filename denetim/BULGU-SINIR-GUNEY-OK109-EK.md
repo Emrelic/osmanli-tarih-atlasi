@@ -121,3 +121,56 @@ yöntem, aynı cevap — ve ikisi de yazılı kalıyor.
   1918'de Musul'a girdi. 15 Kasım'da buradaki Türk kuvvetleri geri
   çekilmek zorunda kaldı."* Verideki gün TDV ile uyumlu; **ölçtüm,
   değiştirmedim.**
+
+---
+
+## ⑥ SONRAKİ TUR — İMÂDİYE YAZILDI, SİLOPİ↔ZAHO ARAŞTIRILDI
+
+**İmâdiye yazıldı** (`data/yerlesimler_ok109.js` → `window.YERLESIMLER_OK109`),
+koordinatörün 2 Eylül hükmüyle: *"sapma bir VEKİL ölçüt; vekili iyileştirmek
+için gerçek veriyi dışarıda bırakmak, göstergeyi amaç sanmaktır."*
+`node --check` temiz · sahiplik 1281→1923 kesintisiz (`Değişmez 1` sınandı:
+ilhanli → … → OSMANLI → ingiltere, boşluk yok) · yeni kırılma günü yok.
+
+### SİLOPİ↔ZAHO (23 km, −6,4 km, Osmanlı yakası) — ADAY BULUNAMADI
+
+Sinyal kuralı burada **Osmanlı yakasına** nokta istiyor. Ölçtüm:
+```
+Silopi 37,246/42,470  →  Çölemerik 37,574/43,741
+arada 113 km ve TEK BİR Türkiye noktası YOK — gerçek bir NOKTASIZLIK
+rehberden adaylar (≥4000 nüfus, 37,30-37,62°K / 42,45-43,40°D):
+   Şırnak 37,514/42,454 · Uludere (Kılaban) 37,441/42,852 ·
+   Beytüşşebap (Elki) 37,563/43,166 · Şenoba 37,463/42,723 ·
+   Uzungeçit (Derahin) 37,494/42,993
+```
+🔴 **Hiçbiri yazılmadı, ve sebep kaynak.** TDV `sirnak` (200, gövde okundu,
+11.122 karakter) yalnız Şırnak'ı anlatıyor ve **onu da 1923 için zayıf
+çıkarıyor:**
+> *"Şırnak ismi XIX. yüzyılın sonlarına doğru bir **köy adı** olarak
+> geçmektedir (Cuinet, II, 612)… Bitlis vilâyetinin Siirt sancağının
+> **Eruh kazasının bir köyü**… **Cumhuriyet dönemine gelmeden** Eruh'tan
+> ayrılarak Siirt iline bağlı bir kaza merkezi olmuştu (1925-1926 Devlet
+> Salnâmesi). Cumhuriyet'in ilk nüfus sayımında… nüfusu 3000'i bulmuyordu
+> (2962)."*
+
+⇒ Şırnak 1923'te **vardı ama bir köydü**; kaza merkezi olması **1925-26**.
+Beytüşşebap ve Uludere ise TDV'de **yalnız bugünkü ilçe adları olarak**
+geçiyor, Osmanlı dönemi için hiçbir dayanak yok.
+
+🔴 **VE BİR ŞEMA SORUSU DOĞDU — uydurmamak için durdum:**
+Şırnak'ı yazmak `d:` alanına bir başlangıç günü ister. Kardeş desen
+(Bitlis) `1515-09-15` diyor — ama o gün **toprağın** Osmanlı'ya geçişidir,
+**yerleşimin varlığı** değil. TDV yerleşimi *"XIX. yüzyılın sonlarına
+doğru"* diye tarihliyor: **yıl bile kesin değil.** `kur:` alanına bir gün
+yazmak, `CLAUDE.md §4`ün *"tarih uydurma"* yasağına girer.
+```
+seçenek A   d: 1515'ten yaz     → 400 yıl var olmayan bir nokta çizilir
+seçenek B   kur: uydur          → §4 ihlali
+seçenek C   YAZMA               → seçildi, ve sebebi kayıtlı
+```
+📌 Bu, `VERI-YAPISI.md`nin *"🔜 `kesinlik` — tarih hassasiyeti"* planlı
+alanının canlı bir vakası: **"1891'de kayıtlarda görünüyor" ile "1891'de
+kuruldu" arasındaki farkı bugünkü şema ifade edemiyor.**
+
+⇒ Kesim **açık kalem** olarak bırakıldı. Kapalı değil — *"aday bulunamadı"*
+değil, ***"aday var ama şema onu dürüstçe ifade edemiyor"***.
