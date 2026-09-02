@@ -1,0 +1,297 @@
+{
+  "_": "REÇETE — 4c'nin 13 YENİ kaydı. VERİYE YAZILMADI. Uygulama Oturum 0'da.",
+  "oturum": "OPUS HAZIR KITA 127",
+  "koordinator": "1.MURAT",
+  "sevk": "M-2262",
+  "tarih": "2026-09-02",
+  "cins": "OLCUM + RECETE — duzeltme UYGULANMADI, hicbir data/ ya da arac/ dosyasina yazilmadi",
+
+  "TABAN_UYARISI": {
+    "_": "🔴 KENDI OLCUMUM BAYATLADI — kayda geciyorum, ustune insa edilmesin diye.",
+    "olcum_ani": "2026-09-02 ~15:50 (denetle.py --ayrinti)",
+    "recete_ani": "2026-09-02 ~19:15",
+    "arada_degisen": [
+      "15:50'de Degismez 4'te 4 LEHISTAN hayaleti vardi (Varsova · Lublin · Chelm · Zamosc).",
+      "19:00'da olctum: o kayitlar artik d:'varsova-dukaligi' tasiyor ve KUNYE DE YAZILMIS.",
+      "kunye sayisi 438 -> 439 · varsova-dukaligi 1807-07-22 -> 1815-06-09 · harita:'varsova-dukaligi'",
+      "=> Sabahki bulgum (M-2198) baska bir oturum tarafindan KAPATILDI."
+    ],
+    "hukum": "11 rusya + 2 Erzurum kaydinin KENDISI degismedi — 19:00'da girdi evreninden tek tek yeniden okudum, hepsi duruyor. Ama '4c = 286' sayisi 15:50'nin sayisidir; bu recete uygulanmadan once denetle.py YENIDEN kosulmali."
+  },
+
+  "KALEM_1_RUSYA": {
+    "ozet": "11 kayit. Kunye `rusya` 1547-01-16 -> 1917-03-15. Onbirinin de donemi bu gunu asiyor.",
+    "ortak_bas": [
+      { "kimlik": "rusya", "t": "1917-03-15", "not": "her kaydin mevcut rusya donemi BURADA biter" },
+      { "kimlik": "rusya-gecici-hukumet", "f": "1917-03-15", "t": "1917-11-07", "kunye": "VAR (olculdu)" }
+    ],
+    "🔴_ORTAK_BOSLUK": {
+      "pencere": "1917-11-07 -> 1918-05-26 (Kafkasya) · degiskene gore 1918-05-25 (Kars/Ardahan)",
+      "gercek": "Transkafkasya Komiserligi -> Seym -> Transkafkasya Demokratik Federatif Cumhuriyeti (1918-04-22)",
+      "kunye": "🔴 YOK — olctum, 439 kunye tarandi, `transkafkasya`/`tdfc` ve ad kalibi eslesen HICBIRI yok",
+      "etki": "ALTI kaydi birden bagliyor: Sohum · Kutaisi · Gence · Revan · Kars · Ardahan",
+      "secenek_A": "TEK YENI KUNYE yazilir (Transkafkasya, 1917-11-07 -> 1918-05-26) ve alti kayit da temizlenir",
+      "secenek_B": "o pencere `sovyet-rusya`ya verilir — 🔴 ONERMIYORUM: Transkafkasya Kasim 1917'de fiilen ayrilmisti, Bolsevik Rusya orayi DENETLEMIYORDU. `§3.5` hayalet sinifi olur: var olmayan hakimiyeti boyamak.",
+      "onerim": "A"
+    },
+    "kayitlar": [
+      {
+        "ad": "Kutaisi", "dosya": "data/yerlesimler.js",
+        "eski": { "f": "1810-02-20", "t": "1923-10-29", "d": "rusya", "asma_yil": 6.6 },
+        "yeni_zincir": [
+          { "f": "1810-02-20", "t": "1917-03-15", "d": "rusya" },
+          { "f": "1917-03-15", "t": "1917-11-07", "d": "rusya-gecici-hukumet" },
+          { "f": "1917-11-07", "t": "1918-05-26", "d": "<TRANSKAFKASYA — KUNYE YOK>" },
+          { "f": "1918-05-26", "t": "1921-03-16", "d": "gurcistan-demokratik-cumhuriyeti" },
+          { "f": "1921-03-16", "t": "1923-10-29", "d": "sovyet-rusya" }
+        ],
+        "kunye_durumu": "4/5 VAR · 1 EKSIK (Transkafkasya)",
+        "kaynak": "TDV `gurcistan` (200, govde okundu): '26 Mayis 1918'de Gurcistan Seym'den ayrilarak bagimsizligini ilan etti' · 'Subat 1921'de Sovyet Rusya isgal etti'. Kunye tarihleri devletler.js: gurcistan-demokratik-cumhuriyeti 1918-05-26 -> 1921-03-16.",
+        "olcmedim": "TDV `gurcistan` Kutaisi/Imereti ozelinde AYRI tarih VERMIYOR — olctum ve yaziyorum. Zincir il duzeyindedir, sehir duzeyinde dogrulanmadi."
+      },
+      {
+        "ad": "Sohum", "dosya": "data/yerlesimler.js",
+        "eski": { "f": "1810-07-11", "t": "1923-10-29", "d": "rusya", "asma_yil": 6.6 },
+        "yeni_zincir": "Kutaisi ile AYNI",
+        "kunye_durumu": "4/5 VAR · 1 EKSIK (Transkafkasya)",
+        "kaynak": "TDV `gurcistan` (ayni govde). TDV `sohum` 200 CANLI ama govdesini OKUMADIM.",
+        "🔴_olcmedim": "ABHAZYA 1918-1921 arasi Gurcistan icinde TARTISMALIYDI (Abhaz Halk Konseyi, Bolsevik ayaklanmalari, Gurcu askeri idaresi). TDV `abhazya` slug'i 302 OLU (olctum). Sohum'u Kutaisi ile AYNI zincire koymak bir BASITLESTIRMEDIR ve boyle isaretliyorum — 'temiz' demiyorum."
+      },
+      {
+        "ad": "Gence", "dosya": "data/yerlesimler.js",
+        "eski": { "f": "1813-10-24", "t": "1923-10-29", "d": "rusya", "asma_yil": 6.6 },
+        "yeni_zincir": [
+          { "f": "1813-10-24", "t": "1917-03-15", "d": "rusya" },
+          { "f": "1917-03-15", "t": "1917-11-07", "d": "rusya-gecici-hukumet" },
+          { "f": "1917-11-07", "t": "1918-05-28", "d": "<TRANSKAFKASYA — KUNYE YOK>" },
+          { "f": "1918-05-28", "t": "1920-04-27", "d": "azerbaycan-demokratik-cumhuriyeti" },
+          { "f": "1920-04-27", "t": "1923-10-29", "d": "sovyet-rusya" }
+        ],
+        "kunye_durumu": "4/5 VAR · 1 EKSIK (Transkafkasya)",
+        "kaynak": "TDV `azerbaycan` (200, govde okundu): '28 Mayis 1918'de Azerbaycan Demokratik Cumhuriyeti ilan edildi' · '27 Nisan 1920'de Azerbaycan'i isgal eden Kizil Ordu parlamento ve hukumeti feshederek' · '28 Nisan'da Azerbaycan Sovyet Sosyalist Cumhuriyeti kuruldu'. Kunye devletler.js ile BIREBIR uyuyor (1918-05-28 -> 1920-04-27).",
+        "olcmedim": "TDV `azerbaycan` govdesi GENCE ozelinde tarih vermiyor (olctum, aynen: 'Gence'den spesifik bir tarihi rol belirtilmemektedir'). Gence ADC'nin ilk baskentiydi — bunu TDV'den DOGRULAYAMADIM, yazmiyorum."
+      },
+      {
+        "ad": "Revan", "dosya": "data/yerlesimler.js",
+        "eski": { "f": "1828-02-22", "t": "1923-10-29", "d": "rusya", "asma_yil": 6.6 },
+        "yeni_zincir": [
+          { "f": "1828-02-22", "t": "1917-03-15", "d": "rusya" },
+          { "f": "1917-03-15", "t": "1917-11-07", "d": "rusya-gecici-hukumet" },
+          { "f": "1917-11-07", "t": "1918-05-28", "d": "<TRANSKAFKASYA — KUNYE YOK>" },
+          { "f": "1918-05-28", "t": "1920-12-02", "d": "ermenistan-demokratik-cumhuriyeti" },
+          { "f": "1920-12-02", "t": "1923-10-29", "d": "sovyet-rusya" }
+        ],
+        "kunye_durumu": "4/5 VAR · 1 EKSIK (Transkafkasya)",
+        "kaynak": "Kunye tarihleri devletler.js: ermenistan-demokratik-cumhuriyeti 1918-05-28 -> 1920-12-02.",
+        "🔴_kaynak_uyarisi": "TDV `revan` (200, govde okundu) donemi KAPSIYOR ama GUN VERMIYOR — aynen: 'Revan Ermenistan'a katildi' (1917) ve '1921'de Ermenistan SSC'nin bassehri oldu'. YIL var, GUN yok. TDV `ermenistan` slug'i 302 OLU (olctum). => Gunler KUNYEDEN geliyor, TDV'den DEGIL. Bu bir `§4` TANECIKLIK boslugudur ve boyle yaziliyor."
+      },
+      {
+        "ad": "Kars", "dosya": "data/yerlesimler.js",
+        "eski": { "f": "1877-11-18", "t": "1918-05-25", "d": "rusya", "asma_yil": 1.2 },
+        "yeni_zincir": [
+          { "f": "1877-11-18", "t": "1917-03-15", "d": "rusya" },
+          { "f": "1917-03-15", "t": "1917-11-07", "d": "rusya-gecici-hukumet" },
+          { "f": "1917-11-07", "t": "1918-05-25", "d": "<TRANSKAFKASYA — KUNYE YOK>" }
+        ],
+        "🔴_DOKUNMA": "d: 1918-05-25 -> 1923-10-29 (Osmanli) AYNEN KALIR. O gun cekirdekte 0 gun uzaklikta madde tasiyor: 'Elviye-i Selase: Kars ve Ardahan'in geri alinisi' [olaylar_ek5.js]. Oynatilirsa Degismez 2 kirilir.",
+        "kaynak": "TDV `elviye-i-selase` (200, govde okundu): '3 Mart 1918 Brest-Litovsk ile Bolsevik Rusya bu topraklari Osmanli'ya iade etti'."
+      },
+      {
+        "ad": "Ardahan", "dosya": "data/yerlesimler.js",
+        "eski": { "f": "1877-05-17", "t": "1918-05-25", "d": "rusya", "asma_yil": 1.2 },
+        "yeni_zincir": "Kars ile AYNI (f: 1877-05-17)",
+        "🔴_DOKUNMA": "d: 1918-05-25 -> 1923-10-29 AYNEN KALIR"
+      },
+      {
+        "ad": "Derbend", "dosya": "data/yerlesimler.js",
+        "eski": { "f": "1813-10-24", "t": "1923-10-29", "d": "rusya", "asma_yil": 6.6 },
+        "yeni_zincir": [
+          { "f": "1813-10-24", "t": "1917-03-15", "d": "rusya" },
+          { "f": "1917-03-15", "t": "1917-11-07", "d": "rusya-gecici-hukumet" },
+          { "f": "1917-11-07", "t": "1920-03-30", "d": "<DAGISTAN / KUZEY KAFKASYA CUMHURIYETI — KUNYE YOK>" },
+          { "f": "1920-03-30", "t": "1923-10-29", "d": "sovyet-rusya" }
+        ],
+        "kunye_durumu": "3/4 VAR · 1 EKSIK (Dagistan Cumhuriyeti)",
+        "kaynak": "TDV `dagistan` (200, govde okundu): '11 Mayis 1918'de Dagistan ... bagimsizligini ilan etti' (Dagistan ve Kuzey Kafkasya Cumhuriyeti, Abdulmecid Cermoyev) · '30 Mart 1920'de Kizil Ordu Timurhansura'ya girdi' · '20 Ocak 1921'de Dagistan Ozerk SSC kuruldu'.",
+        "🔴_olcmedim": "TDV `dagistan` DERBEND OZELINDE 1917-1920 gecislerini VERMIYOR — aynen olctum. Bu bir TANECIKLIK boslugu. 1918-1919'da Derbend'de Osmanli destegi, Ingiliz ve Denikin gecisleri oldu; ONLARI OLCMEDIM.",
+        "slug_notu": "🟢 YENI: `derbend` 302 OLU ama `derbend--dagistan` 200 CANLI. `§4`un `--<bolge>` soneki deseninin yeni bir vakasi (hurmuz--iran · nisabur--iran ile ayni aile). CLAUDE.md'de `derbend` OLU diye kayitli, CANLI karsiligi kayitli DEGIL."
+      },
+      {
+        "ad": "İsmail", "dosya": "data/yerlesimler.js",
+        "eski": { "f": "1878-07-13", "t": "1923-10-29", "d": "rusya", "asma_yil": 6.6 },
+        "yeni_zincir": [
+          { "f": "1878-07-13", "t": "1917-03-15", "d": "rusya" },
+          { "f": "1917-03-15", "t": "1917-11-07", "d": "rusya-gecici-hukumet" },
+          { "f": "1917-11-07", "t": "1918-04-09", "d": "<MOLDOVA DEMOKRATIK CUMHURIYETI — KUNYE YOK>" },
+          { "f": "1918-04-09", "t": "1923-10-29", "d": "romanya-kralligi" }
+        ],
+        "kunye_durumu": "3/4 VAR · 1 EKSIK (kucuk pencere, ~4 ay)",
+        "🔴_BU_KAYIT_OTEKILERDEN_FARKLI": "Burada kusur yalniz 1917 sinirinda DEGIL. Besarabya 1918'de ROMANYA'ya katildi ve 1940'a kadar Romanya'da kaldi. Veri 1878-1923 arasini BUTUNUYLE `rusya` diyor ⇒ BES YILLIK bir hakimiyet hatasi, 4c'nin olctugu 6,6 yillik asmadan AYRI ve daha buyuk. `romanya-kralligi` kunyesi VAR (1881-03-26 -> 1923-10-29), yani yazilabilir.",
+        "kaynak": "Encyclopedia of Ukraine, `Izmail` maddesi (akademik): 'From 1918 to 1940 and from 1941 to 1944 it belonged to Romania.' Birlesme karari Sfatul Tarii, 27 Mart / 9 Nisan 1918 (Julian/Gregoryen farki).",
+        "kaynak_notu": "TDV `besarabya` ve `ismail--sehir` sluglari 302 OLU (olctum) ⇒ `§4` COGRAFI kapsam disi, akademik kaynak MESRU. Vikipedi arama sonuclarinda cikti ama TEK DAYANAK OLARAK KULLANILMADI.",
+        "olcmedim": "1918-04-09 ile 1920 Paris Antlasmasi arasinda uluslararasi taninma tartismaliydi; atlasin 'fiili hakimiyet' olcutune gore 1918 dogru, ama bunu proje olcutune karsi SINAMADIM."
+      },
+      {
+        "ad": "Maykop (Çerkezya)", "dosya": "data/yerlesimler.js",
+        "eski": { "f": "1829-09-14", "t": "1923-10-29", "d": "rusya", "asma_yil": 6.6 },
+        "grup": "KUBAN UCLUSU",
+        "yeni_zincir": [
+          { "f": "1829-09-14", "t": "1917-03-15", "d": "rusya" },
+          { "f": "1917-03-15", "t": "1917-11-07", "d": "rusya-gecici-hukumet" },
+          { "f": "1917-11-07", "t": "1920-03-<GUN>", "d": "<KUBAN HALK CUMHURIYETI — KUNYE YOK>" },
+          { "f": "1920-03-<GUN>", "t": "1923-10-29", "d": "sovyet-rusya" }
+        ],
+        "kunye_durumu": "2/4 VAR · 1 EKSIK · 1 GUN BELIRSIZ",
+        "🔴_KAYNAK_YETERSIZ": "TDV `kuban` · `maykop` · `soci` sluglarinin UCU DE 302 OLU (olctum). Elimdeki tek dayanak genel ansiklopedi/arama sonucu: Kuban Rada 28 Ocak 1918 ilan, 16 Subat bagimsizlik, 6 Kasim 1919 Denikin fiili isgali, 1920 bahari Sovyet ilhaki. GUN duzeyinde AKADEMIK DOGRULAMA YAPILMADI. Bu ucu icin recete EKSIKTIR ve 'tamam' diye teslim ETMIYORUM."
+      },
+      { "ad": "Tuapse", "dosya": "data/yerlesimler.js", "grup": "KUBAN UCLUSU", "yeni_zincir": "Maykop ile AYNI", "eski": { "f": "1829-09-14", "t": "1923-10-29", "d": "rusya" } },
+      {
+        "ad": "Soçi (Sâşe)", "dosya": "data/yerlesimler.js", "grup": "KUBAN UCLUSU",
+        "eski": { "f": "1829-09-14", "t": "1923-10-29", "d": "rusya" },
+        "🔴_UCUNCUSU_AYRI": "Soci'yi Maykop/Tuapse ile AYNI zincire koymak YANLIS OLABILIR: Soci sancagi 1918 yazinda Gurcistan tarafindan isgal edildi ve Gurcistan ile Denikin arasinda tartismaliydi. OLCMEDIM. Ucunu tek kalem sayan bir recete bu ayrimi gizler — o yuzden AYRI satir actim."
+      }
+    ]
+  },
+
+  "KALEM_2_ERZURUM": {
+    "_": "🔴 AYRI RAPORLANIYOR (sevkin sarti). 11 rusya ile KARISTIRILMASIN — baska yuzyil, baska mekanizma.",
+    "ihlal": [
+      { "d": "ilhanli", "f": "1281-01-01", "t": "1360-01-01", "kunye_sonu": "1353-01-01", "asma_yil": 7.0 },
+      { "d": "eretna", "f": "1360-01-01", "t": "1385-01-01", "kunye_sonu": "1381-01-01", "asma_yil": 4.0 }
+    ],
+    "KOKEN_OLCULDU": {
+      "commit": "aaadabf (2 Eylul 11:58)",
+      "yama": "data/yer_yama_ok104.js — TEK kayit, ve o kayit ERZURUM. `s:` zinciri bugunku veriyle BIREBIR.",
+      "yamanin_kaynagi": "TDV erzurum · TDV akkoyunlular",
+      "🟢_DEVRALDIGIM_ONCUL_TUTTU": "OK109 'BUNLAR FETRET YAMASINDAN DEGIL' demis ve olcmedigini yazmisti. OLCTUM: `yer_yama_ok109_fetret.js` 32 kayit tasiyor ve HEPSI Irak-i Arab (Bagdat · Basra · Musul · Kerkuk · Kerbela · Necef · Hille · Kufe · Sehrizor ...). ERZURUM ICINDE YOK. Hukum DOGRULANDI, ve kaynagi da bulundu: ok104.",
+      "🔴_KENDI_TARAMAM_CURUDU_VE_DUZELTTIM": "Ilk taramam `ad:\"Erzurum\"` dizesini aradi ve HICBIR yama dosyasinda bulamadi — 'Erzurum hicbir yamada yok' diye yazacaktim. Duz `Erzurum` aramasi YEDI dosyada buldu. Sebep: yama dosyalarinin alan bicimleri farkli. `§11`in 'bir yazim bicimi != bicimin tamami' tuzagi; ikinci olcum yakaladi. Cozum: dosyalari `eval` ile okuyup `JSON.stringify` uzerinde aradim — kendi ayristiricimi yazmak yerine JS'in kendi yorumlayicisini cagirdim."
+    },
+    "OLCULEN_GERCEK": {
+      "kaynak": "TDV `erzurum` (200, govde okundu)",
+      "alintilar": [
+        "1335 Ilhanli parcalanmasindan sonra Erzurum 'tarihinin en karisik donemine' girdi",
+        "sehir Sutay Noyan oglu Haci Togay'in denetimine girdi (1336)",
+        "1360'ta Erzurum, Eretnaogullari ve onlarin Erzincan valisi Mutahharten'in nufuzuna girdi",
+        "1385'te sehir Karakoyunlu'nun eline gecti, 1387'de Timur kuvvetlerince istila edildi",
+        "Akkoyunlu Uzun Hasan ... sehri aldi (1467) · Safevi Sah Ismail (1502) · Osmanli fethi 1518-1519"
+      ],
+      "hukum": "Verinin 1360 · 1385 · 1467 · 1502 gunleri TDV ile BIREBIR uyuyor. Kusur bu gunlerde DEGIL, o gunlere GIDEN KIMLIKLERDE: (a) 1336-1360 arasi Ilhanli'nin degil HACI TOGAY'in, (b) 1381-1385 arasi Eretna'nin degil MUTAHHARTEN'in."
+    },
+    "SECENEK_A_KAYNAGA_TAM_UYUM": {
+      "zincir": [
+        { "f": "1281-01-01", "t": "1335-12-01", "d": "ilhanli" },
+        { "f": "1335-12-01", "t": "1360-01-01", "d": "<SUTAYOGULLARI / HACI TOGAY — KUNYE YOK>" },
+        { "f": "1360-01-01", "t": "1381-01-01", "d": "eretna" },
+        { "f": "1381-01-01", "t": "1385-01-01", "d": "mutahharten" }
+      ],
+      "kunye": "1 YENI KUNYE gerekir (Sutayogullari). `mutahharten` kunyesi ZATEN VAR: 1379-01-01 -> 1410-01-01, pencereyi tam kapsiyor.",
+      "gun_secimi": "1336-01-01 DEGIL 1335-12-01. Sebep OLCULDU: 1336-01-01'in cekirdekteki en yakin maddesi 31 GUN uzakta — esik 30, yani BIR GUN farkla YENI BIR ACIK dogururdu. O madde zaten '1335-12-01 Ilhanli Devleti'nin dagilmasi' [olaylar_ek7.js]. 1335-12-01 secilirse uzaklik 0.",
+      "maliyet": "yeni kunye 1 · yeni acik 2s kirilmasi 0"
+    },
+    "SECENEK_B_YENI_KUNYE_ISTEMEYEN": {
+      "zincir": [
+        { "f": "1281-01-01", "t": "1353-01-01", "d": "ilhanli" },
+        { "f": "1353-01-01", "t": "1381-01-01", "d": "eretna" },
+        { "f": "1381-01-01", "t": "1385-01-01", "d": "mutahharten" }
+      ],
+      "kunye": "SIFIR yeni kunye — eretna 1335-01-01'de basliyor, 1353'u kapsiyor.",
+      "maliyet": "🔴 1353-01-01 cekirdekte ACIK (en yakin madde 306 gun) ⇒ Degismez 2s 75 -> 76 (tavan 121, guvenli ama BEDEL). Ve TDV ile CELISIR: TDV 1360 diyor, bu 1353 diyor.",
+      "durus": "ONERMIYORUM — kaynagi olmayan bir gun uydurmak, kunye borcundan pahalidir (`§4`: tarih uydurma)."
+    },
+    "ONERIM": "SECENEK A. Ve 1381-01-01 BEDAVA: cekirdekte 0 gun uzaklikta madde var ('Germiyan ceyizi: Kutahya'nin katilisi', olaylar_ek.js). Yani `eretna -> mutahharten` bolmesi hicbir yeni acik dogurmuyor ve TEK BASINA +4,0 yillik ihlali kapatiyor. Kunye beklemeden UYGULANABILIR."
+  },
+
+  "IKINCI_UC_OLCULDU": {
+    "_": "🔴 `§3.5.1` — bir sinir kaymasi onerildiginde IKI UC DA olculur. 4c'yi kapatan bolme, `s:` kirilmasi doguruyor ve onu `Degismez 2s` olcuyor.",
+    "yontem": "Her yeni bolme gunu icin CEKIRDEK (olaylar*.js — 2s'nin evreni) ve KUYRUK (kronoloji*.js) AYRI AYRI arandi. `§11`: 'bu gun zaten var' yetmiyor, HANGI KOVADA oldugu da sorulur.",
+    "sonuc": [
+      { "gun": "1917-03-15", "cekirdek": "KAPALI (4g)", "not": "🟡 kapatan madde 'Bagdat'in kaybi' — KONUYLA ILGISIZ. Konuya uygun madde ('II. Nikolay tahttan cekildi', 0 gun) KUYRUKTA, yani 2s'nin evreni DISINDA. Mekanik olarak gecer; oneri: o madde cekirdege alinsin." },
+      { "gun": "1917-11-07", "cekirdek": "KAPALI (0g)", "not": "Ucuncu Gazze Muharebesi — ayni gun. Kuyrukta da 'Ekim Devrimi' 0 gun." },
+      { "gun": "1918-05-26", "cekirdek": "KAPALI (1g)", "not": "Elviye-i Selase maddesi" },
+      { "gun": "1918-05-28", "cekirdek": "KAPALI (3g)" },
+      { "gun": "1918-04-09", "cekirdek": "KAPALI (5g)" },
+      { "gun": "1920-04-27", "cekirdek": "KAPALI (4g)" },
+      { "gun": "1920-12-02", "cekirdek": "KAPALI (1g)", "not": "Gumru Antlasmasi" },
+      { "gun": "1921-03-16", "cekirdek": "KAPALI (16g)" },
+      { "gun": "1381-01-01", "cekirdek": "KAPALI (0g)" },
+      { "gun": "1353-01-01", "cekirdek": "🔴 ACIK (306g)" },
+      { "gun": "1336-01-01", "cekirdek": "🔴 ACIK (31g) — ESIGI BIR GUN ASIYOR" },
+      { "gun": "1335-12-01", "cekirdek": "KAPALI (0g)" }
+    ],
+    "hukum": "Onerilen zincirlerin dogurdugu gunlerin HEPSI cekirdekte kapali. `Degismez 2s`in ACIK sayisi (75, tavan 121) BUYUMEZ; yalniz toplam kirilma sayisi artar (994 -> ~1020), ki tavan ona bakmiyor. ⇒ 4c'yi kapatan bu recete 2s'yi BOZMUYOR — olculdu, varsayilmadi."
+  },
+
+  "KUNYE_BORCU": {
+    "_": "Oturum 3'un dosyasi (data/devletler.js). BEN YAZMIYORUM. `§3.5`: kunyesiz kimlik hayalet uretir.",
+    "liste": [
+      { "kunye": "Transkafkasya (Komiserlik / Seym / Demokratik Federatif Cumhuriyet)", "pencere": "1917-11-07 -> 1918-05-26", "kac_kayit": 6, "oncelik": "EN YUKSEK — tek kunye alti kaydi birden temizler" },
+      { "kunye": "Dagistan / Kuzey Kafkasya Cumhuriyeti", "pencere": "1918-05-11 -> 1920-03-30", "kac_kayit": 1, "kaynak_hazir": "TDV `dagistan` gunleri VERIYOR" },
+      { "kunye": "Kuban Halk Cumhuriyeti", "pencere": "1918 -> 1920", "kac_kayit": 3, "durum": "🔴 KAYNAK ARASTIRMASI GEREKIR — TDV uc slug da OLU" },
+      { "kunye": "Moldova Demokratik Cumhuriyeti", "pencere": "1917-12 -> 1918-04-09", "kac_kayit": 1, "not": "~4 ay; atlanip dogrudan romanya-kralligi'na baglanmasi savunulabilir, ama o zaman ATLANDIGI YAZILMALI" },
+      { "kunye": "Sutayogullari / Haci Togay", "pencere": "1335-12-01 -> 1360-01-01", "kac_kayit": 1, "kaynak_hazir": "TDV `erzurum` adiyla aniyor" }
+    ]
+  },
+
+  "YAN_BULGULAR": {
+    "_": "Benim kalemim DEGIL — olctum, bildiriyorum, DOKUNMADIM.",
+    "liste": [
+      {
+        "bulgu": "🔴 `avusturya` KUNYESI YOK ama UC kayit onu kullaniyor",
+        "kayitlar": "Lublin · Chelm (Kholm) · Zamosc — hepsi `s: 1795-10-24 -> 1809-10-14 d:'avusturya'`",
+        "dosya": "data/yerlesimler_p0037.js",
+        "olcum": "439 kunye tarandi, `avusturya` id'si YOK. Karsiligi `habsburg` (1526-08-29 -> 1918-11-11) VAR.",
+        "not": "denetle.py'nin '852 donem KUNYESIZ kimlik kullaniyor (23 ayri kimlik) — olculemedi, IHLAL DEGIL ama TEMIZ de degil' satirinin somut bir uyesi."
+      },
+      {
+        "bulgu": "🟢 `varsova-dukaligi` kunyesi YAZILMIS — sabahki bulgum kapandi",
+        "olcum": "kunye 438 -> 439 · varsova-dukaligi 1807-07-22 -> 1815-06-09",
+        "not": "M-2198'de bunun EKSIK oldugunu ve Degismez 4'un 4 hayaletinin sebebi oldugunu CIKARIM olarak yazmistim; aaadabf'in govdesi olcmus ('p0037 onu 1'den 4'e cikardi') ve baska bir oturum kunyeyi yazmis."
+      },
+      {
+        "bulgu": "🔴 Kars ve Ardahan'in 1918-1921 arasi EKSIK olabilir",
+        "olcum": "TDV `elviye-i-selase` (govde okundu): Kars '30 Ekim 1920'de Kazim Karabekir Pasa tarafindan Ermeni kuvvetlerinden geri alindi' · Ardahan-Cildir-Posof '23 Subat 1921'de Gurcu isgalinden kurtarildi'. Veri ise 1918-05-25 -> 1923-10-29 arasini KESINTISIZ Osmanli/Turkiye gosteriyor.",
+        "durus": "🔴 BU BENIM KALEMIM DEGIL ve DUZELTME ONERMIYORUM: `d:` donemine dokunmak `Degismez 2`yi ilgilendirir ve 1918-05-25 gunu cekirdekte madde tasiyor. Yalniz OLCTUGUMU bildiriyorum."
+      },
+      {
+        "bulgu": "🟢 YENI CANLI TDV SLUG'I: `derbend--dagistan` (200)",
+        "not": "CLAUDE.md `§4` `derbend`i OLU diye kaydediyor ama CANLI karsiligini kaydetmiyor. `--<bolge>` soneki deseninin yeni vakasi."
+      },
+      {
+        "bulgu": "TDV slug sinavi — bu partide olculen 29 slug",
+        "canli": ["derbend--dagistan", "dagistan", "gence", "kars", "ardahan", "revan", "erivan", "sohum", "gurcistan", "azerbaycan", "tuna", "kirim", "kafkasya", "elviye-i-selase"],
+        "olu_302": ["derbend", "gence--azerbaycan", "kars--sehir", "sohumkale", "kutaisi", "ermenistan", "besarabya", "ismail--sehir", "kuban", "maykop", "soci", "abhazya", "imereti", "brest-litovsk-antlasmasi", "batum-antlasmasi"],
+        "🔴_SINIR": "Bu tarama YALNIZ olu slug'i bulur. 200 donen bir slug 'DOGRU madde' demek DEGILDIR (`§4②`). Govdesini gercekten OKUDUGUM slug sayisi: 6 (elviye-i-selase · azerbaycan · gurcistan · dagistan · revan · erzurum). Otekiler icin '200' diyorum, 'dogrulandi' DEMIYORUM."
+      }
+    ]
+  },
+
+  "OLCMEDIKLERIM": [
+    "Kuban uclusunun (Maykop · Tuapse · Soci) 1918-1920 gun duzeyi — akademik kaynak taranmadi, recete EKSIK.",
+    "Soci'nin 1918 yazindaki Gurcistan isgali — duyuldu, DOGRULANMADI.",
+    "Abhazya'nin (Sohum) 1918-1921 ic durumu — TDV `abhazya` OLU, baska kaynak taranmadi.",
+    "Gence'nin Azerbaycan Demokratik Cumhuriyeti icindeki baskentlik rolu — TDV govdesi VERMIYOR, baska kaynaga gidilmedi.",
+    "11 kaydin `Degismez 4d`/`4s` uzerindeki etkisi — bolme yalniz `t:` ucunu degistirdigi ve hepsi kunye DOGUMUNDAN sonra basladigi icin 4d'ye GIRMEZLER; bunu MANTIKLA cikardim, KOSARAK dogrulamadim.",
+    "Bu recetenin uygulanmasindan sonraki 4c sayisi — ONGORU: 286 - 13 = 273 (Erzurum ikisi ve rusya onbiri kalkar). AMA bu bir ONGORU, olcum DEGIL; uygulama sonrasi denetle.py kosulmali."
+  ],
+
+  "ONGORU": {
+    "_": "🔴 Uygulamadan ONCE yaziliyor (`§11`: sonra yazilan beklenti curutulemez).",
+    "nasil_olculecek": "recete uygulandiktan SONRA `py arac/denetle.py --ayrinti`, bugunku ayrinti127.log'a karsi",
+    "kalemler": [
+      { "no": 1, "beklenti": "4c 286 -> 273", "mazeret": "YOK — 13 kaydin 13'u de reçetede adiyla var", "birim": "denetle.py Degismez 4c basligi, ADET" },
+      { "no": 2, "beklenti": "4c'de `rusya` 11 -> 0 ve `eretna` 1 -> 0", "mazeret": "YOK", "birim": "4c kimlik dagilimi, ADET" },
+      { "no": 3, "beklenti": "4c'de `ilhanli` 13 -> 12", "mazeret": "YOK — yalniz Erzurum kalkar, Konya/Nigde/Rest/Lahican vb. DURUR", "birim": "ADET" },
+      { "no": 4, "beklenti": "Degismez 2s ACIK sayisi 75'te KALIR (buyumez)", "mazeret": "🟡 VAR — baska oturumlar ayni anda veri yaziyor; 2s baskasinin kalemiyle de oynayabilir. O yuzden bu kalem 'benim recetem yuzunden buyudu mu' diye SORULMALI, duz sayiya bakilmamali.", "birim": "ADET" },
+      { "no": 5, "beklenti": "Degismez 1 (sahipsizlik) 219'da KALIR", "mazeret": "YOK — hicbir donem KISALTILIP yerine bos birakilmiyor; her bolme bir ardil kimlik yaziyor. Kunyesi olmayan pencereler UYGULANMAZSA o kayit HIC DOKUNULMAMIS kalir, delik acilmaz.", "birim": "ADET" },
+      { "no": 6, "beklenti": "Degismez 4 (hayalet) BUYUR", "yon": "ARTAR", "mazeret": "YOK — ve bu KASITLIDIR: `<KUNYE YOK>` isaretli pencereler kunye yazilmadan uygulanirsa her biri YENI bir hayalet uretir. ⇒ RECETE PARCA PARCA UYGULANMAZ: kunyesi olmayan pencere, kunyesi yazilana kadar BEKLER.", "birim": "ADET" }
+    ]
+  },
+
+  "NE_ISTIYORUM": [
+    "1. Kunye borcu listesindeki BIRINCI kalem (Transkafkasya) Oturum 3'e sevk edilsin — tek kunye ALTI kaydi birden acar.",
+    "2. Erzurum SECENEK A'nin ikinci yarisi (eretna -> mutahharten, 1381-01-01) kunye beklemeden UYGULANABILIR: kunye VAR, madde VAR, maliyet SIFIR.",
+    "3. Kuban uclusu icin AYRI bir kaynak arastirma kalemi acilsin — bende kaynak YOK ve uydurmuyorum.",
+    "4. Ismail kaydi 4c kalemi DEGIL, bes yillik bir hakimiyet hatasi — ayri ve daha yuksek oncelikli sayilmali.",
+    "5. `§11`e oneri: 1917-03-15'i kapatan cekirdek maddesi konuyla ilgisiz. 'II. Nikolay tahttan cekildi' maddesi kuyruktan CEKIRDEGE alinsin — 2s o gunu artik ONBIR kayit icin soracak."
+  ]
+}
