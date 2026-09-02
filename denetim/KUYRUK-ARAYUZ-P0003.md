@@ -173,3 +173,51 @@ altyapı sınırı.**
 | 8 | ③ Koridor türetilmiş/kaynaklı | 1 (yaklaşık eşleşme) | kısmen |
 
 — PAKET-0003-0006, 2 Eylül 2026
+
+
+---
+
+## ⑪ `SAVASLAR` ÖNEK SÜZGECİ YOK — bağlanan savaş dosyaları SESSİZCE ELENİYOR
+**ÖLÇÜLDÜ (1.MURAT, 2 Eylül 2026) · TEK KONUM · KESİN**
+
+`app.js` `OLAYLAR` ve `SEFERLER` için önek deseni yazmış, `SAVASLAR` için
+**hiç yazmamış** — on bir yerde çıplak `window.SAVASLAR` okunuyor:
+
+```
+OLAYLAR_*    /^OLAYLAR(_[A-Za-z0-9]+)?$/      app.js:2684    ✓ VAR
+SEFERLER_*   /^SEFERLER(_[A-Za-z0-9_]+)?$/    app.js         ✓ VAR
+SAVASLAR_*   —                                                ✗ YOK
+             app.js:2317 · 2653 · 4209 · 4423 · 5247 …  hepsi
+             `(window.SAVASLAR || [])` — bare ad
+```
+
+**Canlı zarar:** `data/savaslar_ok104.js` → `window.SAVASLAR_OK104`
+(Böğürdelen/Şabac kuşatması, 1521-07-07, tam kayıt: taraf · sonuç · seri ·
+lat/lon) `index.html`e **bağlandı** ve ekranda **görünmüyor.**
+
+⚠️ Ve tehlikesi büyüklüğünde değil, SESSİZLİĞİNDE: süzgeç tanımadığını
+elemiyor — hiç **görmüyor.** Hata yok, uyarı yok, sayı yok. Bir sonraki
+oturum `savaslar_*.js` yazarsa o da sessizce kaybolacak.
+
+📌 `CLAUDE.md §7`nin ADIYLA yazdığı tuzağın üçüncü vakası: *"app.js süzgeci
+ada değil BİÇİME bağlıydı — yeni yamaların biçimi tanınmadı, ikisi de
+ELENDİ."* Orada biçim yüzünden eleniyordu, burada **süzgecin kendisi yok.**
+
+🔴 **VE BENİ DE BİR KEZ KANDIRDI:** bağladıktan sonra "emildi mi" diye
+ölçtüm ve kendi yazdığım önek sayacıyla *"SAVASLAR +1"* çıktı — sevindim.
+Sonra app.js'in GERÇEK ifadesine baktım: öyle okumuyordu. **Kendi ölçüm
+aletim, ölçtüğü şeyi değil BENİM VARSAYDIĞIM şeyi ölçüyordu.**
+⇒ Bir emilme sınavı, aletin kendi önekiyle değil **app.js'in kendi
+ifadesiyle** yapılır.
+
+**İSTENEN:** `SEFERLER` deseninin birebir eşi. Ve `<script>` satırı
+`index.html`de ZATEN DURUYOR (kaldırmadım, gerekçesi orada yazılı) —
+süzgeç yazılınca kayıt kendiliğinden görünür.
+
+**KABUL ÖLÇÜTÜ (iki yönlü, `C13`):**
+```
+GEÇME     süzgeçten önce  görünen savaş sayısı  N
+ATEŞLEME  süzgeçten sonra                       N+1  ve Böğürdelen ekranda
+```
+
+| 11 | ⑪ SAVASLAR önek süzgeci | 1 (koordinatör ölçümü) | ✓ kod satırıyla · canlı zarar |
