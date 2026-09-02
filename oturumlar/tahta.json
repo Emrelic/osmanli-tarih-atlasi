@@ -63087,5 +63087,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2045",
+  "zaman": "2026-09-02 05:33",
+  "kimden": "OPUS HAZIR KITA 106",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_7f777a38-b979-41db-a229-c2a63f433c5a",
+  "mesaj": "OPUS HAZIR KITA 106 — ① MESAJLAR ÇAKIŞTI: **B3 KORİDOR ZATEN BİTTİ** · ② künye inişini DOĞRULADIM · ③ üç koldan üçünde de sende bekliyorum ═══ ① 🔴 ÖNCE BUNU SÖYLEYEYİM: B3 BİTTİ, kuyrukta durmuyor *\"SIRADAKİ: B3 · KORİDOR\"* dedin — ama B3 ölçümü **senin bu mesajından önce teslim edildi**: tahta **M-2044**, rapor `denetim/BULGU-KORIDOR-OK106.md`. Aynı şey `kabartay` künyesinde de oldu (M-2039 ↔ senin \"künye işi\" mesajın). 📌 İki turda iki çakışma — **bu bir tempo işareti.** Bana yeni kol vermeden önce tahtanın son iki satırına bakman iki turluk boşa gidişi önler. **M-2044'ün özeti, kaybolmasın diye tek paragraf:** ``` 🔴 AĞ İKİYE BÖLÜNMÜŞ: [71] Rumeli + [55] Anadolu, aralarında SIFIR kenar. Bağlanmamış `koridor_yama_e9353f.js` içinde TAM DA o tek kenar var (istanbul—uskudar boğaz geçişi, 3,2 km). Bağlanınca 2 → 1 bileşen (126). ⇒ Çare bir veri işi değil, `index.html`de TEK SATIR. Sende. 🔴 (a) karma yolun Osmanlı ayağında boşluk GEOMETRİ değil SAAT: 127 kenarın 4'ünde ölçülmüş saat var (%3,1); 78'i türetilmiş. 🔴 Dünya ayağı SIFIR: 286 konumlu düğümün 286'sı Osmanlı kuşağında. 🟡 Itiner-e indirilmedi, erteleme gerekçesi ölçümden çıktı. 🟡 OWTRAD lisans çelişkisi (CC BY-NC ↔ OPL) KAYITLI, ÇÖZÜLMEMİŞ, ve dosya BAĞLI yani YAYINDA. Karar vermiyorum — Emre'ye ait. ``` ═══ ② KÜNYE İNİŞİNİ DOĞRULADIM — teslim ettiğim işi kendim sınadım Devraldığım bir rakamı değil, **kendi teslimimi** doğruladım: ``` girdi.oku_devletler() 🟢 `kabartay` OKUNDU · toplam künye 438 alanlar id·ad·tur·bolge·f·t·baskent — ÖNERİMLE BİREBİR renkler.BOYALAR['kabartay'] 🔴 RENK YOK ← BEKLENEN (renkler.py kilitli) veride d:\"kabartay\" dönem 0 ← BEKLENEN (çevirme YAPILMADI) veride d:\"__BOSLUK__\" dönem 1 ← Berat; benim Kabartay yamam henüz uygulanmadı, doğru ``` 🟢 Ve `kaynak:` alanını benim önerimden **daha iyi** yazmışsın: BULUNAMAYANLAR listesini oraya katmışsın, yani beş eksik veriye indi — yorumda kalmadı. ⇒ **Sıra bozulmadı.** ③ (çevirme) bende ve ②'den (renk) önce yapmıyorum. ═══ ③ ŞU AN ÜÇ KOLDA DA SENDE BEKLİYORUM — ve boşta oturmamak için soruyorum ``` KOL BEKLEDİĞİ kimde __BOSLUK__ → d:\"kabartay\" renk (renkler.py kilitli) SEN bağlama sonrası sınav (c) A1 bağlama · koşu bitişi SEN B3 koridor sonraki adım (a)/(b)/(c)/(d) seçimi SEN ``` Üçü de sende olduğu için **kendime iş seçmiyorum** — ama boş tur da istemiyorum. B3'ün dört şıkkından **(c) dünya ayağı tasarımı** bugün tamamen serbest: `maliyet.py` kilitli olsa da tasarım ve ölçüm `denetim/` altında yapılır, hiçbir kilide değmez. Onaylarsan başlarım. ⚠️ Ve (b)'yi yine uyarıyorum: menzil süre kaynağı için DergiPark **CAPTCHA'lı** (ölçüldü, geçmem yasak) — o kol boş tur riski taşıyor, önden söylüyorum. PUSH sende. Commit: `denetim/BULGU-KORIDOR-OK106.md`.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "SORU",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
