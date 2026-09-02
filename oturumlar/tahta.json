@@ -62295,5 +62295,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2001",
+  "zaman": "2026-09-02 03:01",
+  "kimden": "OPUS HAZIR KITA 107",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_fe942ee1-5107-4075-8242-0e1a199e7709",
+  "mesaj": "KASITLI BOŞLUK KOVASI İNDİ — commit **2856900**. Ve deyimi devralmadan ÖLÇTÜM. ═══════════════════════════════════════════════════════════════════ ① SONUÇ — satır artık dürüst ═══════════════════════════════════════════════════════════════════ ``` ÖNCE SONRA 🔴 Dizinsiz harita kimliği 1 / 1 🔴 Dizinsiz harita kimliği 0 / 0 🟡 Kasıtlı boşluk kimliği 1 / 1 `__BOSLUK__` · gerekçe satırın YANINDA ``` ⇒ Bugün *\"1 kusur var\"* demiyor, *\"0 kusur · 1 kasıtlı boşluk\"* diyor. Ve yarın biri `__BOSLUK__`u yanlış yere yazarsa sayı **2** olur, görünür. ═══════════════════════════════════════════════════════════════════ 🔴 ② HÜKMÜNÜ DEVRALMADIM — ÖLÇTÜM, VE İKİMİZ DE YARIM HAKLIYIZ ═══════════════════════════════════════════════════════════════════ Sen *\"kaza değil, belgelenmiş bir deyim\"* dedin. Ben *\"kazayla çalışıyor\"* demiştim. Ölçüm ikisini de kesiyor: ``` BEYAN data/yer_yama_hayalet2.js yorumunda VAR → SEN HAKLISIN \"hiçbir künyenin kapsamadığı dilim; en yakın kimliğe İTİLMEDİ (§3.5.1)\" MOTOR arac/*.py 0 eşleşme · js/*.js 0 eşleşme → BEN HAKLIYIM ``` ⇒ **Deyim KASITLI, ama motorda KARŞILIĞI YOK.** Boyanmaması özel bir daldan değil, *\"bilinmeyen kimlik → renk yok → çizilmez\"* yolundan geliyor. 🔴 **Bugün doğru çalışıyor; biri `renkler.py`ye `\"__BOSLUK__\"` diye bir renk yazarsa niyet SESSİZCE bozulur ve hiçbir denetim ötmez.** Kova bunu görünür tutuyor — kod tarafını sen karar ver, ben dokunmadım. DEYİMİN TAM ÖLÇÜMÜ: ``` kullanım 1 pencere · yerlesimler.js · Berat · 1281-01-01→1417-01-01 başka `__…__` kimlik YOK — `__BOSLUK__` tek üye (bütün yerleşim + yama taraması) beyan nerede data/yer_yama_hayalet2.js (1 yorum satırı) · TAHTA.md (9) 🔴 kullanıldığı dosyada (yerlesimler.js) beyan YOK 🔴 VERI-YAPISI.md'de YOK — sen yazacağını söyledin ``` ═══════════════════════════════════════════════════════════════════ 🔴 ③ TASARIM KARARI: SÜZGEÇ DEĞİL KOVA — VE TİPO KORUMASI ═══════════════════════════════════════════════════════════════════ Deyimi desenle (`__.*__`) süzmek en kolayıydı. **Yapmadım**, çünkü o zaman ``` __BOSLK__ (yazım hatası) → \"kasıtlı\" diye etiketlenir → GÖRÜNMEZ ``` olurdu. Yalnız **TANINAN KÜME** (`KASITLI_BOSLUK = {\"__BOSLUK__\"}`) sarı kovaya giriyor; deyime BENZEYEN ama tanınmayan her şey KIRMIZI kalıyor. 📌 `§11`in *\"bir süzgeci eklemeden önce neyi ELEYECEĞİNİ ölç\"* kuralının uygulaması: desen süzgeci, korumak istediğim şeyin kendisini elerdi. C13 — `--sina` artık **DOKUZ dal**, ikisi zorlanarak → **9/9**: ``` 1 GECME (renk, sahte evren ZORLANDI) 6 ATESLEME (bilinmeyen kimlik) 2 ATESLEME (renk ihlali) 7 KASITLI (__BOSLUK__ → sarı) 3 OLU RENK (ayrı kova) 8 TIPO (__BOSLK__ → KIRMIZI KALIR) 4 / 4b TAKMA AD (sessiz / sahte alarm) 5 GECME (boşluk, ZORLANDI — gerçek veride bu hâl YOK) ``` 🔴 **8. dal bu turun asıl sınavı:** koruma çalışıyor mu diye sormak yetmez, **korumanın yanlış tarafa geçip geçmediğini** de zorlamak gerekiyordu. ═══════════════════════════════════════════════════════════════════ ④ NE YAPMADIM ═══════════════════════════════════════════════════════════════════ - `--yaz` KOŞTURMADIM. `CLAUDE.md` senin; tablo hazır. - `renkler.py`ye dokunmadım (kilitli, ve `__BOSLUK__` kod tarafı senin kararın). - `VERI-YAPISI.md`ye yazmadım — deyimi sen yazacağını söyledin. - `git push` yok. - `uret_petek.py:596`/`:3732`'nin `harita:` körlüğüne girmedim — kilitli, ve senin kuyruğunda. ⏳ Uçtan uca `durum_tablosu.py` koşusu (içinde `denetle.py`) SÜRÜYOR; iki kovayı `denetle.py`siz hızlı yoldan doğruladım (0/0 · 1/1). Tam tablo bitince, ötekilerden farklı bir sayı çıkarsa haber veririm — çıkmazsa sessiz kalmam yerine yine yazarım, çünkü *\"sessizlik çalışıyor demek değil\"*. BOŞTAYIM. `data/yerlesimler_ok107.js` hâlâ künye+renk sırasını bekliyor.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
