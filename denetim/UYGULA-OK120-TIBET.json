@@ -1,0 +1,266 @@
+{
+  "is": "TIBET SAHIPLIK ZINCIRI — Qing donemi atlasta yok",
+  "oturum": "OPUS HAZIR KITA 120",
+  "sevk": "M-2324 (1.MURAT)",
+  "damga": "2026-09-02",
+  "uygulayan": "KOORDINATOR — ben olcum oturumuyum, VERIYE DOKUNMADIM",
+  "dosya": "data/yerlesimler_asya.js  (DORT kaydin dordu de burada)",
+
+  "🔴_UYGULAMADAN_ONCE_OKU": [
+    "Bu bir RECETEDIR, bir HUKUM DEGIL. Iki kalem KOORDINATORUN KARARINA",
+    "birakildi ve asagida 'ACIK_KARAR' altinda duruyor. Karar verilmeden",
+    "uygulanirsa 1751-1910 arasi 159 yil YANLIS eksende yazilir.",
+    "Ve §11: bir hukum veriye inmedikce hukum degil METINDIR — bu dosya",
+    "uygulanmadikca hicbir sey degismez."
+  ],
+
+  "KAPSAM_OLCUMU": {
+    "soru": "④ yalniz Lhasa·Sigatse·Gyantse·Camdo mu? SLUG BAZLI YAPILAMAZ, OLC",
+    "yontem": "bagli evrenin 2663 noktasi tarandi, s[].d alani 'tibet' ve 'tibet-ganden-phodrang' icin",
+    "sonuc": "TAM DORT KAYIT — baska kayit YOK",
+    "kayitlar": ["Lhasa", "Sigatse", "Gyantse", "Camdo (Chamdo)"],
+    "hepsi_ayni_dosyada": "data/yerlesimler_asya.js",
+    "damga": "TUTTU — koordinatorun ④ sorusu kapandi"
+  },
+
+  "🟢_CAMDO_ZATEN_DOGRU_DESENI_TASIYOR": {
+    "bulgu": "Camdo'nun zinciri OTEKI UCUNDEN AYRI ve daha dogru",
+    "camdo": [
+      "yuan-hanedani           1281-01-01 -> 1354-01-01",
+      "tibet                   1354-01-01 -> 1642-01-01",
+      "tibet-ganden-phodrang   1642-01-01 -> 1910-02-12",
+      "qing-hanedani           1910-02-12 -> 1912-02-12",
+      "cin-cumhuriyeti         1912-02-12 -> 1918-08-19",
+      "tibet-ganden-phodrang   1918-08-19 -> 1923-10-29"
+    ],
+    "lhasa_sigatse_gyantse": [
+      "yuan-hanedani           1281-01-01 -> 1354-01-01",
+      "tibet                   1354-01-01 -> 1642-01-01",
+      "tibet-ganden-phodrang   1642-01-01 -> 1923-10-29   ← TEK PARCA"
+    ],
+    "cikarim": [
+      "Kusur 'kimse bilmiyordu' degil: proje 1910 Qing isgalini ve 1912",
+      "Cumhuriyet gecisini ZATEN yazmis — ama TEK NOKTAYA. Bu, PAKET-0035'in",
+      "M-2162'de olctugu 'sablon kopyalanmis, bir blok dusmus' sinifinin",
+      "TERSI: sablon YAYILMAMIS.",
+      "⇒ 1910 ve 1912 gunleri icin YENI KAYNAK ARAMAYA GEREK YOK; proje",
+      "  onlari zaten kabul etmis. YENI olan yalniz 1720 ve 1751."
+    ]
+  },
+
+  "KAYNAK": {
+    "birincil": "TDV `tibet` — https://islamansiklopedisi.org.tr/tibet",
+    "http": "200",
+    "govde_sinavi": "OKUNDU · 14.987 karakter metin · 26 ayri yil dizgisi ⇒ §4④ boilerplate DEGIL",
+    "tasidigi_gunler": {
+      "1354": "Phag Mo Gru Pa idarenin basina gecti — ATLASLA UYUSUYOR, degisiklik yok",
+      "1617-1682": "V. Dalay Lama; Kosot Mogollari ulkeyi ona birakti — atlasin 1642'sini destekler",
+      "1720": "Ch'ing hanedani bolgeyi ele gecirdi, askerlerini yerlestirerek DOGRUDAN yonetmeye basladi",
+      "1751": "mahalli hukumet organize edildi — 'kurdugu bu VASAL DEVLET'",
+      "1893": "cok daha genis boyutta egemenlik",
+      "1904": "Ingiliz kuvvetleri Lhasa'ya girdi",
+      "1908": "Ingilizler cekilince Cinliler ulkeyi isgal etti"
+    },
+    "🔴_GUN_HASSASIYETI": [
+      "TDV bu maddede GUN VERMIYOR — yalniz YIL. §4: 'gun bilinmiyorsa",
+      "YYYY-01-01 yaz'. Asagidaki oneriler bu kurala gore YYYY-01-01'dir.",
+      "GUN isteniyorsa akademik kaynak gerekir ve BEN ARAMADIM:",
+      "  Petech, `China and Tibet in the Early XVIIIth Century` (1720 seferi)",
+      "  Shakabpa, `Tibet: A Political History`, New Haven 1967",
+      "    ⇒ ikincisi TDV'nin KENDI kaynakcasinda duruyor",
+      "DAMGA: ARANMADI — 'bulunamadi' DEGIL."
+    ],
+    "olu_sluglar": "lhasa · dalay-lama · pancen-lama · gelugpa · lamaizm hepsi 302 ⇒ §4 TANECIKLIK boslugu"
+  },
+
+  "EMSAL_OLCUMU": {
+    "soru": "③ TDV 'dogrudan yonetme'(1720) ve 'vasal devlet'(1751) diyor — bu ayrim VERIDE IFADE EDILEBILIR MI?",
+    "yontem": "Karar koordinatorun. Benim isim OLCMEK: atlas BASKA yabanci tabileri nasil yaziyor? Emsal varsa karar emsale dayanir, benim kanaatime degil.",
+    "🔴_YAPISAL_BULGU": [
+      "Atlasta yabanci-yabanci tabilik icin AYRI BIR EKSEN YOK.",
+      "`v:` alani (360/2663 kayitta) OSMANLI tabiligi icindir (CLAUDE.md).",
+      "Butun kayitlarda gecen alan adlari tarandi: _kaynak, ad, bit, bos, d,",
+      "g, go, ikiz, isg, k, kasitli_bosluk, kaynak, kd, kesinlik, kur, lat,",
+      "lon, m, neden, pencere_disi, s, sinir, tur, v — tabilik tasiyan",
+      "baska alan BULUNAMADI.",
+      "⇒ Secenek ikidir: ya suzerenin kimligi (`s:`), ya kendi kimligi."
+    ],
+    "emsal_A_TABILIK_kendi_kimligini_korur": {
+      "joseon (Seul · Pyongyang)": "1392-07-17 -> 1910-08-29 KESINTISIZ — oysa Kore 1637'den beri Qing'e tabi",
+      "ryukyu (Suri/Naha)": "1281 -> 1879-04-04 KESINTISIZ — hem Satsuma'ya hem Ming/Qing'e tabi",
+      "nepal (Katmandu)": "1281 -> 1923 KESINTISIZ — 1792'den beri Qing'e harac"
+    },
+    "emsal_B_DOGRUDAN_IDARE_suzerenin_kimligi": {
+      "Kobdo (Hovd)": "cungar 1635-1755 → qing-hanedani 1755-01-01 -> 1912-08-20 → mogolistan",
+      "Urga (Ulan Batur)": "kuzey-yuan → qing-hanedani 1691-05-30 -> 1911-12-29 → mogolistan → cin-cumhuriyeti 1919 → mogolistan 1921",
+      "Karakurum": "kuzey-yuan → qing-hanedani 1635-01-01 -> 1911-12-29 → mogolistan"
+    },
+    "🔴_ONEMLI_ASIMETRI_gizlemiyorum": [
+      "Iki emsal ailesi CELISIYOR ve ben bunu duzeltmiyorum, BILDIRIYORUM.",
+      "Mogolistan da Qing doneminde NOMINAL OLARAK OZERKTI — Halha hanlari",
+      "unvanlarini korudu, amban araciligiyla yonetildi. Atlas yine de",
+      "`qing-hanedani` yaziyor. Kore de tabiydi, atlas `joseon` yaziyor.",
+      "⇒ Ayrimin olcutu 'tabi miydi' DEGIL; atlas fiilen 'IDARI APARAT",
+      "  suzerenin mi' olcutunu kullanmis gorunuyor — ama bu BENIM",
+      "  OKUMAM, yazili bir kural DEGIL. Yazili kural ARANDI, BULUNAMADI."
+    ],
+    "ONERIM": [
+      "Tibet 1720-1912 icin MOGOLISTAN emsali (B) — DORT sebeple:",
+      "① ayni suzeren (Qing), ayni cag, ayni aparat (amban)",
+      "② TDV 1720 icin acikca 'DOGRUDAN yonetmeye basladi' diyor",
+      "③ atlas Camdo'da ZATEN qing-hanedani yaziyor (1910-1912) — yani bu",
+      "   cografyada Qing kimligini kullanmayi zaten kabul etmis",
+      "④ Tibet su an atlasta Qing idaresindeki TEK bolge ki qing-hanedani",
+      "   TASIMIYOR: Mogolistan tasiyor, Dogu Turkistan tasiyor, Camdo tasiyor",
+      "⚠️ AMA 1751-1910 icin emsal A da savunulabilir ve KARAR SENIN."
+    ]
+  },
+
+  "ONERILEN_ZINCIR": {
+    "Lhasa · Sigatse · Gyantse (UCU DE AYNI, birebir)": {
+      "degismeyen": [
+        "s: yuan-hanedani          1281-01-01 -> 1354-01-01",
+        "s: tibet                  1354-01-01 -> 1642-01-01"
+      ],
+      "degisen": [
+        "s: tibet-ganden-phodrang  1642-01-01 -> 1720-01-01   ← KISALDI (eski t: 1923-10-29)",
+        "s: qing-hanedani          1720-01-01 -> 1751-01-01   ← YENI · TDV 'dogrudan'",
+        "s: <ACIK_KARAR_1>         1751-01-01 -> 1910-02-12   ← YENI · TDV 'vasal devlet'",
+        "s: qing-hanedani          1910-02-12 -> 1912-02-12   ← YENI · Camdo'dan, proje ZATEN kabul etmis",
+        "s: cin-cumhuriyeti        1912-02-12 -> <ACIK_KARAR_2> ← YENI",
+        "s: tibet-ganden-phodrang  <ACIK_KARAR_2> -> 1923-10-29"
+      ]
+    },
+    "Camdo (Chamdo)": {
+      "degisen": [
+        "s: tibet-ganden-phodrang  1642-01-01 -> 1720-01-01   ← KISALDI (eski t: 1910-02-12)",
+        "s: qing-hanedani          1720-01-01 -> 1751-01-01   ← YENI",
+        "s: <ACIK_KARAR_1>         1751-01-01 -> 1910-02-12   ← YENI"
+      ],
+      "dokunulmayan": [
+        "1910-02-12 -> 1912-02-12 qing-hanedani     ZATEN VAR",
+        "1912-02-12 -> 1918-08-19 cin-cumhuriyeti   ZATEN VAR",
+        "1918-08-19 -> 1923-10-29 tibet-ganden-phodrang ZATEN VAR"
+      ],
+      "not": "Camdo'nun 1918-08-19'u KHAM'a aittir (Rongbatsa hatti) ve Lhasa'ya TASINMAZ — Lhasa'da Cin garnizonu 1912-13'te tasfiye edildi, Kham'da 1918'e kadar surdu. IKI AYRI OLAY."
+    }
+  },
+
+  "ACIK_KARAR": {
+    "ACIK_KARAR_1": {
+      "soru": "1751-1910 arasi (159 yil) HANGI KIMLIK?",
+      "secenek_A": "tibet-ganden-phodrang — TDV 'vasal devlet' diyor; joseon/ryukyu/nepal emsali",
+      "secenek_B": "qing-hanedani — TDV 1720'den beri Qing idaresi; Mogolistan/Kobdo emsali",
+      "ONERIM": "B, yukaridaki dort sebeple. AMA A savunulabilir ve karar senin.",
+      "🔴_ETKI": "159 yil. Secenek A secilirse 1720-1751 tek basina 31 yillik bir Qing dilimi kalir ve 1751-1910 yine bagimsiz gorunur."
+    },
+    "ACIK_KARAR_2": {
+      "soru": "Cin Cumhuriyeti donemi Lhasa'da NE ZAMAN biter?",
+      "olcum": "Camdo'da 1918-08-19 yaziyor ama o KHAM'in tarihi. Lhasa icin ayri tarih gerekir.",
+      "aday": "1913-01-01 (XIII. Dalay Lama'nin donusu ve Cin garnizonunun tasfiyesi)",
+      "🔴_KAYNAK_DURUMU": "TDV bu gunu VERMIYOR. Aday tarihi AKADEMIK KAYNAKTAN dogrulanmali; BEN ARAMADIM. Kaynaksiz yazilmasin — uydurma tarih bu projede yasak."
+    }
+  },
+
+  "IKI_UC_DA_OLCULDU": {
+    "kural": "§3.5.1 — bir sinir kaymasi onerildiginde IKI UC DA olculur. Bir ihlali kapatip baskasini acma.",
+
+    "DEGISMEZ_2_KIRILMA_GUNU_SINAVI": {
+      "yontem": "Onerilen her gun icin CEKIRDEK (data/olaylar*.js, 1291 madde) ve KUYRUK (data/kronoloji*.js, 4836 madde) AYRI AYRI tarandi. §11: 'bu gun zaten var' yetmiyor, HANGI KOVADA oldugu sorulmali.",
+      "1720-01-01": "CEKIRDEK 0 gun — AMA ALAKASIZ MADDE (Levni'nin Surname-i Vehbi'yi resimlemesi)",
+      "1751-01-01": "🔴 CEKIRDEK ACIK — en yakin 712 gun",
+      "1910-02-12": "🔴 CEKIRDEK ACIK — en yakin 48 gun · KUYRUK da ACIK 42 gun",
+      "1912-02-12": "CEKIRDEK 30 gun (Sisam — ALAKASIZ) · KUYRUK 0 gun (kronoloji_cin.js: Puyi'nin feragati) 🟢",
+      "1913-01-01": "CEKIRDEK 22 gun (Bab-i Ali Baskini — ALAKASIZ) · KUYRUK 0 gun",
+      "1918-08-19": "🔴 CEKIRDEK ACIK — en yakin 43 gun",
+
+      "🔴🔴_EN_ONEMLI_SATIR": [
+        "'Degismez 2 geciyor' ile 'degisim ACIKLANIYOR' AYNI SEY DEGIL.",
+        "1720-01-01 cekirdekte 0 gun uzaklikta bir madde buluyor ve o madde",
+        "Levni'nin bir minyatur albumu resimlemesi. Denetim TEMIZ raporlar;",
+        "kullanici Tibet'in el degistirdigini bir OSMANLI MINYATUR maddesinin",
+        "altinda gorur.",
+        "📌 CLAUDE.md'nin Degismez 2 gerekcesi aynen bu: 'degisim, o gune",
+        "   rastgele denk gelen ALAKASIZ bir maddenin altinda belirir —",
+        "   kullanicinin en cok sikayet ettigi hata bu.'",
+        "⇒ RECETENIN SARTI: bu kalem uygulanirsa HER kirilma gunu icin",
+        "  CEKIRDEGE kendi maddesi yazilmali. Gun sayisi yetmez."
+      ],
+      "yazilmasi_gereken_madde": [
+        "1720 — Qing ordusunun Lhasa'ya girisi ve dogrudan idarenin baslamasi",
+        "1751 — Lhasa'da mahalli hukumetin (Kasag) kurulmasi",
+        "1910-02-12 — Qing kuvvetlerinin Lhasa'yi isgali (Camdo'da ZATEN kirilma var, maddesi YOK)",
+        "1912-02-12 — Qing'in sona ermesi (KUYRUKTA var, CEKIRDEKTE yok)",
+        "<ACIK_KARAR_2> — XIII. Dalay Lama'nin donusu"
+      ],
+      "🔴_TAVAN_ETKISI": "Bu gunler maddesiz yazilirsa `Degismez 2s` (su an 75 acik, tavan 121) ARTAR. Kac artacagini SAYAMADIM cunku hangi kayitlarin ayni gunu paylastigi uygulamaya bagli — DAMGA: OLCULEMEDI."
+    },
+
+    "DEGISMEZ_4_4c_4d": {
+      "qing-hanedani kunye": "1636-05-15 -> 1912-02-12",
+      "onerilen qing donemleri": "1720-01-01 · 1751-01-01 · 1910-02-12 · hepsi 1912-02-12'den ONCE biter ⇒ KUNYE ICINDE, yeni hayalet YOK",
+      "cin-cumhuriyeti kunye": "1911-10-10 -> 1923-10-29 ⇒ 1912-02-12 sonrasi KUNYE ICINDE",
+      "tibet-ganden-phodrang kunye": "1642-01-01 -> 1923-10-29 — KISALTILAN donemler kunyenin ICINDE kalir ⇒ ihlal DOGMAZ",
+      "damga": "TUTTU — Degismez 4/4c/4d'ye YENI IHLAL EKLENMIYOR",
+
+      "🔴_VE_BIR_SINIF_BULGUSU": [
+        "Degismez 4 bu hayaleti GOREMEZ — ve sebebi yapisal:",
+        "§3.5'in hayaleti 'kunye devletin oldugunu soyluyor ama veri hala",
+        "boyuyor' demektir. BURADA KUNYE ILE VERI ANLASMIS DURUMDA:",
+        "kunye 'tibet-ganden-phodrang 1642-1923' diyor, veri de oyle yaziyor.",
+        "Celiski VERI ile KAYNAK arasinda.",
+        "⇒ Bu, hayalet devletin ucuncu cinsi: kunyenin KENDISI yanlis.",
+        "  Hicbir denetim betigi bunu soramaz cunku hepsi kunyeyi OLCUT",
+        "  olarak kullaniyor. Yalniz KAYNAGA SORMAK bulur."
+      ]
+    },
+
+    "DEGISMEZ_1_SAHIPSIZLIK": {
+      "olcum": "Onerilen zincirde HIC BOSLUK YOK — her donemin t: bir sonrakinin f:'i. 1281'den 1923'e kesintisiz.",
+      "damga": "TUTTU — sahipsizlik DOGMUYOR"
+    },
+
+    "RENK": {
+      "olcum": "qing-hanedani ve cin-cumhuriyeti kimlikleri VERIDE ZATEN kullaniliyor (Kobdo · Urga · Karakurum · Camdo). BOYALAR'da varliklari bu kayitlarla KANITLI.",
+      "damga": "TUTTU — yeni renk borcu DOGMUYOR",
+      "⚠️": "Ama `renk_olc.py` yine de kosulmali: CLAUDE.md §9 'veriye dokunan her kosudan sonra' — komsuluk degisir, cakisma DOGABILIR. Bunu BEN OLCMEDIM."
+    }
+  },
+
+  "ETKILENEN_ALAN": {
+    "🔴_ONCEKI_RAPORUMDAKI_SAYI_ABARTILIYDI_duzeltiyorum": [
+      "denetim/BULGU-TENHA-ASYA-ARS.md §3.1'de 'tibet-ganden-phodrang",
+      "1.034.836 km²' yazdim. O sayi EN YAKIN KOMSU ile hesaplandi ve",
+      "A1 YARICAP TAVANINI (200 km) hesaba KATMIYOR.",
+      "Tavan olculdu: 350 km'nin otesinde boyali hucre SIFIR (1.694 hucre).",
+      "⇒ Gercek boyali alan cok daha kucuk; kesin rakam ayrica olculuyor.",
+      "📌 §11 'olcum dogru, cikarim yanlis': mesafeyi dogru olctum,",
+      "   'bu mesafe boyama uretiyor' cikarimi yanlisti."
+    ],
+    "🟢_AMA_BULGU_AYAKTA": [
+      "Qing kusuru bir MESAFE kusuru degil, bir ZINCIR kusuru.",
+      "Lhasa · Sigatse · Gyantse'nin KENDI hucreleri (0-200 km, tavanin TAM",
+      "ICINDE) 1720-1912 arasi tibet-ganden-phodrang boyaniyor.",
+      "Tavan bunu kesmiyor, KESEMEZ. Bulgunun ALANI kuculdu, KENDISI durmuyor."
+    ]
+  },
+
+  "OLCULEMEDI": [
+    "1720 · 1751 · 1913 icin GUN hassasiyeti — TDV yil veriyor, akademik kaynak ARANMADI",
+    "ACIK_KARAR_2'nin (Lhasa'da Cin doneminin sonu) tarihi — kaynaksiz",
+    "Degismez 2s'nin kac artacagi — uygulamaya bagli",
+    "renk_olc.py etkisi — kosulmadi",
+    "Tibet'in 1751-1910 statusunun akademik tartismasi — TDV disina CIKILMADI"
+  ],
+
+  "SAYIM": {
+    "dokunulacak_kayit": 4,
+    "dokunulacak_dosya": 1,
+    "yeni_kunye": 0,
+    "yeni_renk": 0,
+    "yeni_kimlik": 0,
+    "yeni_kirilma_gunu": "3 yeni (1720 · 1751 · ACIK_KARAR_2) + 2 yayilan (1910-02-12 · 1912-02-12, Camdo'da ZATEN var)",
+    "yazilmasi_gereken_kronoloji_maddesi": 5,
+    "acik_karar": 2
+  }
+}

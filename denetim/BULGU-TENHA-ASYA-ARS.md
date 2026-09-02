@@ -153,7 +153,56 @@ boyuyor.** Yâkub Beg Kunlun'un güneyine hiç inmedi.
 Tang'da nokta olmadığı için plato üç ayrı komşuya bölünüyor ve sınır
 tarihten değil **geometriden** çıkıyor.
 
+### 🔴🔴 3.0 DÜZELTME — AŞAĞIDAKİ TABLO ABARTILI, SEBEBİ ÖLÇÜLDÜ
+
+> **Bu bölümü okumadan 3.1'i okuma.** Aşağıdaki tablo **en yakın komşu**
+> ile hesaplandı ve **A1 yarıçap tavanını hesaba katmıyor.**
+
+`uret_petek.py:878` — `TAVAN_KM = {1:200, 2:200, 3:200, 4:200, 0:200}`
+(27 Ağustos 2026, Emre'nin kararı). Hiçbir petek noktasından ~200 km
+öteye uzanamaz. Hipotezi sınadım — 10.857 hücre, bant bant:
+
+| bant (km) | boyalı | boş | % boyalı |
+|---|---:|---:|---:|
+| 0–50 | 377 | 1 | **100%** |
+| 50–100 | 1.050 | 18 | 98% |
+| 100–150 | 1.390 | 176 | 89% |
+| 150–200 | 1.149 | 700 | 62% |
+| 200–250 | 523 | 1.178 | 31% |
+| 250–300 | 95 | 1.365 | 7% |
+| 300–350 | 3 | 1.137 | **0%** |
+| 350+ | **0** | **1.694** | **0%** |
+
+**DAMGA: TUTTU.** Geçiş tam 200 km'de, omuzlu — `A1b`nin yöne duyarlı
+tavanı bunu birebir açıklar. **350 km'nin ötesinde boyalı hücre SIFIR.**
+
+⇒ **Aşağıdaki "yalanların" büyük kısmı HARİTADA YOK:**
+```
+yakub-beg Tibet platosunu boyuyor   716 km  🔴 BOYAMIYOR — tavan kesiyor
+nepal 196.357 km² (580 km)          580 km  🔴 o kadarını boyamıyor
+kuzey-yuan 224.971 km² (434 km)     434 km  🔴 boyamıyor
+tibet-ganden-phodrang 1.034.836     723 km  🔴 GERÇEK: 338.911 km² (%33)
+```
+**ÇANG TANG YANLIŞ BOYANMIYOR — HİÇ BOYANMIYOR.** Ve bu, Emre'nin
+hükmünün ta kendisi: *"DEVASA BOŞLUKLAR OLACAKSA OLSUN."* Motor zaten
+öyle yapıyor.
+
+📌 `§11` *"ölçüm doğru, çıkarım yanlış"* — bende. Mesafeleri doğru
+ölçtüm; ***"bu mesafe boyama üretiyor"*** çıkarımı yanlıştı, çünkü
+**arada bir tavan var** ve onu hesaba katmadım. Ve bu, bu belgenin
+`§1`inde kendi yazdığım dersin ikinci yarısı: orada *girdiyi* sınamıştım,
+burada **aradaki aşamayı** sınamamıştım.
+
+🟢 **AMA `§4`ÜN TİBET BULGUSU AYAKTA** — ve sebebi ayrı: Qing kusuru bir
+**mesafe** kusuru değil bir **zincir** kusuru. Lhasa · Şigatse ·
+Gyantse'nin **kendi hücreleri** (0–200 km, tavanın tam içinde) 1720–1912
+arası `tibet-ganden-phodrang` boyanıyor. **Tavan bunu kesmiyor, kesemez.**
+Bulgunun **alanı** küçüldü (1.034.836 → 338.911 km²), **kendisi**
+durmuyor.
+
 ### 3.1 YALAN KAÇ km²? — kimlik başına boyanan alan
+*(⚠️ TAHMİN sütunu; gerçek boyalı alan için §3.0'daki orana bak — ölçülen
+oran %33–66 arası)*
 
 Her kesitte her kara hücresi en yakın noktanın sahibiyle boyanıp kimlik
 başına toplandı (yaklaşık km², 0,5° ızgara). **En uzak çekim** sütunu, o
