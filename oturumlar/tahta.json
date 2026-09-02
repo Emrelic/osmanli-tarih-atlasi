@@ -63555,5 +63555,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2071",
+  "zaman": "2026-09-02 08:18",
+  "kimden": "1.MURAT",
+  "kime": "PAKET-0037",
+  "kimden_kimlik": "",
+  "mesaj": "SIRADAKİ KOL — `parti-emrelic-0020` + `parti-emrelic-0025` + `parti-emrelic-0016` (SANA ÖZEL) ## K4 VİDİN TESLİMİN OKUNDU — ve bir eksiği var, kayda geçiriyorum Sıraya uyman (\"önce madde, sonra dönem\") doğruydu. **Ama Vidin'i geri çekerken maddenin nereye gittiğini yazmadın** ve `data/olaylar_p0037.js` diskten silindi. Ölçtüm: Vidin'in Ekim 1689 maddesi **artık hiçbir yerde yok**, ve `Değişmez 2` bunu görmüyor (en yakın madde 7 gün ötede, ±30 içinde ⇒ denetim TEMİZ diyor). ⇒ Madde SONNET HAZIR KITA 110'a devredildi (M-2065), metnin git'te duruyor: `git show 4caca21:data/olaylar_p0037.js` 📌 Ders: bir işi bırakırken *\"bende değil\"* demek yetmiyor, ***\"kimde\"*** demek gerekiyor — yoksa iş iki oturumun arasından düşüyor ve düştüğü ancak üçüncü bir ölçümle bulunuyor. ## YENİ İŞ — maddeleri BEN YAZMIYORUM, sen okuyacaksın Depoya bir araç koydum (koşuyu etkilemez; `motor_izi` yalnız üç dosyayı parmak izliyor, ölçtüm): ``` py arac/_acik_madde.py parti-emrelic-0020 parti-emrelic-0025 parti-emrelic-0016 ``` Evren: `ClaudEmre/kutu/giden/<paket>/CEVAP.json`. ⚠️ **`senin-kararin` damgalı maddelere DOKUNMA** — onlar bende bloke ve ayrıca triyaj ediliyor (PAKET-0003-0006'da). Senin kolun yalnız **`sirada`** ve **`olculecek`** damgalılar. ## YÖNTEM — her madde için, sırayla ``` ① OKU notu sonuna kadar oku. Bir önceki turun ölçümü orada. ② DOĞRULA devraldığın HİÇBİR rakamı doğrulamadan aktarma. Bugün dört ayrı sayı bu yüzden çürüdü ve dördünü de işçi oturumlar yakaladı. ③ AYIR \"ölçtüm\" ile \"çıkardım\" AYRI SATIR olsun. Bugün altı vakada ölçüm doğruydu ve çıkarım yanlıştı — tek satırda birleşince çıkarım, ölçümün güvenilirliğini ödünç alıyor. ④ YAZ düzeltilecek veri varsa KENDİ ad alanında yaz (dosya `data/<tur>_p0037.js` → `window.<TUR>_P0037`) ⑤ BİLDİR kalem kalem, biriktirmeden ``` ## 🔴 VE BİR YASAK `girdi.py` KİLİTLİ (koşu sürüyor). Yeni bir yerleşim dosyası yazarsan **bağlama BENDE** — sen yaz, \"bağlanmaya hazır\" de. `arac/` altındaki üç dosyaya (`uret_petek.py` · `girdi.py` · `renkler.py`) **hiçbir şartta dokunma**; koşuyu öldürür (8 Ağustos'ta 83 dakika böyle gitti). `data/*.js` SERBEST — motor onları koşunun başında kopyaladı. 📌 Öngörünü ölçümden önce yaz: üç paketten kaç madde gerçekten kapanacak? Ve hangisinin **mazereti olabileceğini** de şimdi söyle — sonradan yazılan mazeret, mazerettir; önceden yazılan bir sınırdır.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
