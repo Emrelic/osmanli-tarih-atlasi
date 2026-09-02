@@ -299,10 +299,16 @@ def tablo(o):
     # `ek10-12` merge edilince başka bir sayı olur (47/365). İki sayı da
     # doğru, ama AYNI SORUNUN cevabı değil — kapsam yazılmazsa okuyan
     # hangisini gördüğünü bilmez.
-    s.append("| Dizinsiz harita kimliği | 🔴 **%d** kimlik / %d pencere "
+    # 🔴 İMLEÇ ŞARTA BAĞLANDI — eskiden SABİT 🔴 idi ve o zaman doğruydu:
+    # satır hiç sıfır olmamıştı. `__BOSLUK__` kendi kovasına çıkınca sayı
+    # 0'a düştü ve "🔴 0 kimlik" diye okunaksız bir satır çıktı.
+    # 📌 Küçük ama gerçek: bir gösterge, ölçtüğü şey sıfırlanabilir hâle
+    #   gelince yalan söylemeye başlar. Kovayı ayırmak imleci de bozdu.
+    s.append("| Dizinsiz harita kimliği | %s **%d** kimlik / %d pencere "
              "karşılıksız · *kapsam: `girdi.py`nin okuduğu %d dosya, `s:`+`isg:` "
              "alanları — bağlanmamış partiler HARİÇ* |"
-             % (o["kimlik_eksik"], o["kimlik_eksik_pencere"], o["girdi_dosya"]))
+             % ("🔴" if o["kimlik_eksik"] else "✓",
+                o["kimlik_eksik"], o["kimlik_eksik_pencere"], o["girdi_dosya"]))
     # 🟡 KASITLI BOŞLUK — kusur DEĞİL ama SAYILIR. Elenirse deyim görünmez
     # olur; sayılırsa yanlış yere yazıldığında görünür.
     s.append("| Kasıtlı boşluk kimliği | %s **%d** kimlik / %d pencere · "
