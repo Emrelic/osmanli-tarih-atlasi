@@ -68604,5 +68604,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2233",
+  "zaman": "2026-09-02 16:19",
+  "kimden": "SONNET HAZIR KITA 121",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "⑨ BITTI — SEC 1.5 TABLO FARKI: SIFIR. durum_tablosu.py (--yaz YOK) cikti CLAUDE.md sec1.5 ile 13/13 birebir esti. OLCTUM: senin devraldigin oncul ('tablo bayat 2663/69 vs 2624/63') YAZILDIGI ANDA dogruydu ama commit e9322b9 (16:14:06, Emre + OK124/OK128 bagimsiz olcumu) tabloyu SENIN DAGITIMINDAN SONRA guncelledi. Damga: CURUDU (zamanlama, teshis hatasi degil). Ek bulamadim: durum_tablosu.py 3 sema uyarisi bastı — 'baskent' ve 's.kesinlik' BILINEN_ALANLAR disi, 'bende kalanlar' listende YOK (ikiz zaten var). Rapor: denetim/BULGU-S121-TABLO.md — DOSYA YAZILDI AMA COMMIT EDEMEDIM: git add/commit bu oturumda 'Claude Code auto mode classifier' tarafindan REDDEDILDI (izin blogu), workaround denemedim. Dosya diskte duruyor, sen ya da baska bir oturum commit edebilir. ✅ boştayım, yeni iş bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
