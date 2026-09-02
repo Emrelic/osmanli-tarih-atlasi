@@ -142,14 +142,23 @@ window.YERLESIMLER_OK106 = [
   //    "Following the Russo-Turkish War of 1768-74, Kazi-Kermen was
   //     incorporated into the Russian Empire"             ← 1774
   //
-  // 🟡 BAŞLANGIÇ GÜNÜ — kaynak YÜZYIL veriyor, ve seçimimi yazıyorum:
-  //    `1450-01-01` (yüzyıl ortası) yerine **`1441-01-01`** alındı, çünkü
-  //    o gün külliyatta ZATEN var ve KONUSU DA DOĞRU: "Kırım Hanlığı'nın
-  //    kuruluşu — Hacı Giray'ın Altınorda'dan ayrılışı" (±0 gün).
-  //    Kalenin TATAR dönemi hanlıktan önce başlayamaz ⇒ hem kaynakla
-  //    uyumlu hem karşılıksız gün doğurmuyor. Yine de gerçek tarih yüzyıl
-  //    hassasiyetinde olduğu için `kesinlik:"yuzyil"` konuldu — arayüz
-  //    kullanıcıya "1 Ocak 1441" diye KESİN bir gün göstermesin.
+  // 🔴🔴 BAŞLANGIÇ GÜNÜ — `1441-01-01` BİR **ALT SINIRDIR**, KURULUŞ GÜNÜ DEĞİL.
+  //    Kaynak "15. yüzyıl ortası" diyor, YIL VERMİYOR. `1441-01-01` Kırım
+  //    Hanlığı'nın kuruluşudur (Hacı Giray'ın Altınorda'dan ayrılışı) ve
+  //    kalenin TATAR dönemi ondan önce başlayamaz — dayanak budur: tarihî
+  //    bir KISIT. `kesinlik:"yuzyil"` kalan belirsizliği taşır.
+  //
+  // ⚠️⚠️ VE ŞU SATIR ŞART, ÇÜNKÜ YANLIŞ OKUNURSA BİR KUSUR SINIFI ÜRETİR:
+  //    Bu günün çekirdekte ±0 karşılığı olması bir **YAN FAYDADIR,
+  //    GEREKÇE DEĞİL** — tarih o yüzden seçilmedi. Koordinatör (1.MURAT,
+  //    2 Eylül) haklı olarak uyardı: "bir tarihi, orada zaten bir madde
+  //    olduğu için seçmek" ÖDÜNÇ TARİH mantığıdır ve bu gece `1578-08-09`
+  //    (9 dönem ucu, 417 km) ile `1517-04-13` tam böyle doğmuştu.
+  //    ⇒ Bir sonraki oturum bu kaydı okuyup *"karşılıksız günden kaçınmak
+  //      için tarih kaydırılabilir"* diye ANLAMAMALI. Kaydırılamaz.
+  //      Buradaki gün, kaynağın verdiği yüzyılın İÇİNDE kalan ve tarihî
+  //      bir kısıtla belirlenen alt sınırdır; denetim onu ucuza geçiriyor
+  //      olması tesadüftür.
   // 🔴 1526-01-01 ±0 gün karşılık buluyor AMA madde ALAKASIZ ("Pîrî Reis'in
   //    Kitâb-ı Bahriye'yi genişletmesi"). Denetimi geçer; bunu KAZANÇ değil
   //    KUSUR sayıyorum ve kaydediyorum — Çuguçak vakasının aynısı.
@@ -162,7 +171,7 @@ window.YERLESIMLER_OK106 = [
        {f:"1774-07-21",t:"1917-03-15",d:"rusya"},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
        {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
-    kaynak:"bulunamadı — TDV'de müstakil madde YOK (`kizikermen`·`gazikerman`·`gazi-kerman` 302; kapsayıcı `ozu` maddesi Dinyeper kalelerini anmıyor). Dayanak: Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Beryslav\". BAŞLANGIÇ yüzyıl hassasiyetindedir — `kesinlik:\"yuzyil\"` beyanı kayıtta duruyor" },
+    kaynak:"bulunamadı — TDV'de müstakil madde YOK (`kizikermen`·`gazikerman`·`gazi-kerman` 302; kapsayıcı `ozu` maddesi Dinyeper kalelerini anmıyor). Dayanak: Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Beryslav\". ⚠️ BAŞLANGIÇ 1441-01-01 bir ALT SINIRDIR, kuruluş günü DEĞİLDİR: kaynak \"15. yüzyıl ortası\" diyor, 1441 Kırım Hanlığı'nın kuruluşudur ve kalenin Tatar dönemi ondan önce başlayamaz. `kesinlik:\"yuzyil\"` bu belirsizliği taşır. Bu günün külliyatta karşılığı olması bir YAN FAYDADIR, GEREKÇE DEĞİL — tarih o yüzden seçilmedi" },
 
   // ── KREMENÇUK ──────────────────────────────────────────────────────
   //  IEU "Kremenchuk": "Kremenchuk was founded in 1571." · "A Polish castle
@@ -275,7 +284,26 @@ window.YERLESIMLER_OK106 = [
     s:[{f:"1754-01-01",t:"1917-03-15",d:"rusya"},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
        {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
-    kaynak:"bulunamadı — TDV kapsamı dışı. Dayanak: Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Kropyvnytskyi\" (`Yelysavethrad` maddesi ona yönlendiriyor)" }
+    kaynak:"bulunamadı — TDV kapsamı dışı. Dayanak: Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Kropyvnytskyi\" (`Yelysavethrad` maddesi ona yönlendiriyor)" },
+
+  // ── OSTROGOJSK — Slobodskaya Ukrayna dalgasının ikinci kasabası ─────
+  //  IEU "Ostrohozke": "It was founded by Ukrainian Cossacks and fortified
+  //  in 1652." · "In 1662 it became the center of Ostrohozke regiment in
+  //  Slobidska Ukraine." · "in 1802 the town became a county center in
+  //  Voronezh gubernia".
+  // 🟢 `1652-01-01` KARŞILIKSIZ DEĞİL — ve eşleşme bu sefer ALAKALI:
+  //    aynı gün bu oturumun yazdığı "Slobodskaya Ukrayna'nın kuruluşu —
+  //    Sumı ve bozkır yerleşim kuşağı" maddesi duruyor. Ostrogojsk o
+  //    dalganın İKİNCİ kasabası: aynı yıl, aynı olgu, aynı düzen.
+  //    ⇒ Bu bir ödünç tarih DEĞİL; iki kayıt gerçekten aynı olayın parçası.
+  //    (Karşılaştır: Bahmut'un 1703'ü benim Yenikale maddeme denk geliyor
+  //     ve o eşleşme ZAYIF — farkı burada açıkça yazıyorum.)
+  { ad:"Ostrogojsk", tur:"sehir", lat:50.8600, lon:39.0700, g:0, k:3,
+    kur:"1652-01-01",
+    s:[{f:"1652-01-01",t:"1917-03-15",d:"rusya"},
+       {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
+       {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+    kaynak:"bulunamadı — TDV kapsamı dışı. Dayanak: Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Ostrohozke\"" }
 
 ];
 

@@ -136,6 +136,26 @@ Değişmez 2'nin tavanı SIFIR olan koluna girer.
 ⇒ **Statü kaynağı bulunmadan yazılmayacak.** Bitiş günü hazır ve doğrulandı:
 `1792-01-10` — külliyatta *"Yaş Antlaşması — Kırım'ın kesin kaybı"*, ±0 gün.
 
+### 🔴 BALTA — TUR 4'TE BİR KEZ DAHA ARANDI, STATÜ YİNE BULUNAMADI
+Denenen kaynaklar ve ne verdikleri:
+```
+TDV `balta` · `balta--sehir`   302 (tur 1'de ölçüldü)
+TDV `ozu`                      Özi eyaletini anlatıyor; Balta ADI GEÇMİYOR
+TDV `yas-antlasmasi` 🆕        gövde okundu. İmza tarihi DOĞRULANDI:
+                               "15 Cemâziyelevvel 1206 (10 Ocak 1792)" ⇒
+                               külliyatın `1792-01-10` günü TEYİT EDİLDİ.
+                               Ama toprakları TEK TEK saymıyor: "Turla
+                               (Dinyester) nehrinin sol kıyısı Rusya'ya, sağ
+                               kıyısı Osmanlı Devleti'ne ait olmak üzere yeni
+                               sınır kabul edildi." Yalnız Özü Kalesi anılıyor.
+                               🔴 Balta HİÇ GEÇMİYOR, statü hiç anlatılmıyor.
+IEU                            madde YOK
+```
+⇒ Üç TDV maddesi + IEU denendi; **hiçbiri `d:` ile `v:`/`kirim` arasında
+seçim yaptıracak bir cümle vermiyor.** Sıradaki katman: Osmanlı taşra
+teşkilâtı literatürü (DergiPark hakemli makale) — **bu turda denenmedi.**
+🟢 Kazanç: bitiş günü artık TDV ile de doğrulanmış durumda.
+
 ---
 
 ## 3. 🔴 KOORDİNATÖRE TEK SORU — ve iki kayıt buna bağlı
