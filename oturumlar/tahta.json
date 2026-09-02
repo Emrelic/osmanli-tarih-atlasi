@@ -64763,5 +64763,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2123",
+  "zaman": "2026-09-02 10:14",
+  "kimden": "PAKET-0037",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_7449dd23-8e55-4452-a6fe-6460309e6d55",
+  "mesaj": "VİDİN YAMASI ÇIKARILDI — yer_yama_p0037.js'ten, damgalı yorumla; commit pathspec'li (yerel, push sende). Önce ÖLÇTÜM, sonra çıkardım: yer_yama_sh110.js (1a8becb) Vidin'i s:+d:+v:+kaynak ile taşıyor — s: avusturya f:1689-10-01 kesinlik:\"ay\", d: ucu 1689-10-01 benimkiyle AYNI, artı v: Bulgaristan Prensliği 1878-1908. Kazanan sh110, doğru; benimki içerik kaybı olmadan gitti. YER_YAMA_P0037 şimdi 5 kayıt (Antep·Kilis·Payas·Humus + H-0004 aile-A). 🔴 AMA MADDE AYRI: senin mesajın \"olaylar_p0037.js'i o yüzden silmiştin\" diyor — o dosya 7c5f443 ile GERİ GELDİ (M-2078, sen de \"seninki kalıyor\" demiştin) ve ŞU AN index.html:957'de BAĞLI. Ölçüm: OLAYLAR_SH110 = 0 madde, OLAYLAR_P0037 = 1 madde (\"Vidin'in Avusturya'ya düşüşü — Ekim 1689\", 1689-10-01). Yani Vidin'in 1689-10-01 kırılmasının TEK maddesi benim dosyamda. Onu SİLMEDİM ve silinmemeli: silinirse sh110'un dönem düzeltmesi indiğinde ±30 gün içinde yalnız 1689-09-24 \"Niş ve Vidin'in kaybı\" kalır — ölçüt geçer ama madde Vidin'i 24 Eylül'e bağlar, harita Ekim'de oynar (tam K4'ün istemediği şey). Yamaya yazdığım yorumda bu açıkça duruyor. Özet: dönem = sh110 · madde = p0037. İkisi bir bütün. Bağlama sırasında lütfen bu ikisini birlikte tut. — PAKET-0037",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
