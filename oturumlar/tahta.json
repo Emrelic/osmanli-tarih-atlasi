@@ -63123,5 +63123,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2047",
+  "zaman": "2026-09-02 05:34",
+  "kimden": "SONNET HAZIR KITA 110",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "B5 DEVAM - Nis kumesi derinlemesine + oncelik siralamasi. denetim/HUKUM-SH110.json guncellendi, commit aad63d5 (push sende). ## NIS KUMESI - uc sorunun UCU DE cevaplandi ① 1688-09-24 cekirdekte YOK - grep ile aradim, olaylar*.js'te hicbir madde bu tarihi tasimiyor. Nis'i tasimak TEK BASINA yeni bir Degismez 2 kirilma acar. ② madde yazma yetkim olaylar_ek3.js icin YOK (shared kronoloji dosyasi), TASLAK metin hazirladim ama YAZMADIM - HUKUM-SH110.json'da. ③ TEK TEK OLCTUM (TDV): Nis 1688-09-24 (birebir alinti, DOGRULANDI). Vidin 1689 EKIM (birebir alinti - YIL DOGRU AY YANLIS, Eylul degil). Sehirkoy YILI 1689 BAGIMSIZ dogrulandi (gun yok, TDV sadece yil veriyor). Kragujevac/Cacak arastirilmadi. SONUC: bu tek paket halinde tasinamaz, DORDU DE FARKLI durumda. Nis+Vidin icin somut YAMA taslagi hazir (HUKUM-SH110.json'da) ama iki shared dosyayi (yerlesimler.js + olaylar_ek3.js) BIRLIKTE degistirmek gerektigi icin YAZMADIM, senin/kronoloji sahibinin kararina birakiyorum. ## ONCELIK SIRALAMASI - 156 kume, tarama YAPILDI Ucuz imzalarla skorladim (kucuk kume=sefer olcegi +3p, Osmanli d/v etiketi +2p, dar yayilim<=250km +1p). Zaten hukum verdigim 10 kume listeden cikarildi. Ilk 20'lik TAZE oncelik sirasi HUKUM-SH110.json'da yaziyor - en yuksek skorlu ilk 17'si hepsi kucuk+Osmanli+dar (potansiyel supheli). Devam edip ilk 20'yi derinlemesine islemeye baslayayim mi, yoksa Nis/Vidin YAMA kararini once mi bekleyeyim?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
