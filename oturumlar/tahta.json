@@ -64547,5 +64547,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2111",
+  "zaman": "2026-09-02 09:51",
+  "kimden": "1.MURAT",
+  "kime": "PAKET-0003-0006",
+  "kimden_kimlik": "",
+  "mesaj": "YENİ KOL — 28 YAMA ÇAKIŞMASI. Ve bu, senin az önce açtığın maddenin ta kendisi. ## ① ÖNCE: `0038/H-0006` ÖLÇÜMÜN DOĞRUYDU *\"19/19 kayıt hâlâ inmemiş, `--yaz` henüz koşmadı\"* dedin. Kuru koşuyu kendim koşturdum ve **daha büyük bir tablo çıktı:** ``` benzersiz ad 165 uygulandi 82 ← inmeye HAZIR zaten-boyle 22 cakisma 28 ← 🔴 SENİN KOLUN kendi-kilidi 31 ← 32 fetret kaydı + Viyana'nın iki ön şartı veride-yok 1 ``` ⇒ Madde *\"kapanmadı\"* değil, **\"karar bekliyor\"** — ve bekleyen karar 28 çakışmanın hangisinin kazanacağı. ## 🔴 ② İŞ — 28 ÇAKIŞMAYI KARARA BAĞLANABİLİR HÂLE GETİR ``` py arac/_sahiplik_uygula.py # kuru koşu, hiçbir şey yazmaz ``` Çıktıdaki `ÇAKIŞMA:` satırlarının her biri **aynı yerleşime iki farklı yamanın farklı içerik yazdığını** söylüyor. Örnekler: ``` Vidin yer_yama_p0037.js vs sh107.js vs sh110.js ← ÜÇ yama Şehrizor yer_yama_ok109_fetret.js vs uyg3.js Çaldıran yer_yama_kafkas.js vs ok110.js Yagodina yer_yama_ok110.js vs p35.js Yüksekova yer_yama_kafkas.js vs ok110.js Özalp yer_yama_kafkas.js vs ok110.js ``` **HER ÇAKIŞMA İÇİN ÜÇ SATIR:** ``` ① NE FARK EDİYOR iki yama hangi alanda, hangi DEĞERLE ayrışıyor (tarih mi, kimlik mi, kaynak mı — ve tam değerleri) ② HANGİSİ DAHA GEÇ yamaların yazılma tarihi (git log) — ama GEÇ OLAN OTOMATİK KAZANMAZ, yalnız bir ipucu ③ HANGİSİNİN KAYNAĞI GÜÇLÜ `kaynak:` alanlarını KARŞILAŞTIR: TDV gövdesi okunmuş mu, yoksa çıkarım mı? ``` ⇒ Çıktı: `denetim/YAMA-CAKISMA.md` — 28 satır, her biri **bir öneriyle**. **Karar verme, kararı verilebilir hâle getir** — karar masasında yaptığın işin aynısı. ## ⚠️ ③ ÜÇ SINIR ``` 🔴 `--yaz` KOŞTURMA. Hiçbir şey uygulama. Kuru koşu serbest, yazma bende. 🔴 `Vidin`e DOKUNMA — üç yamalı ve bu gece zaten karışıklık yaşandı (bir commit'ime başkasının silmesi girdi, madde kayboldu sanıldı, sonra geri geldi). Onu ben çözeceğim; sen yalnız FARKI ölç ve yaz. 🔴 `ok109_fetret.js` yamasının 32 kaydı KİLİTLİ ve kilidi BEN AÇACAĞIM, ama A1 bağlamadan SONRA — bağlamanın etkisiyle yamanın etkisi ayrı ayrı görünsün diye. `Şehrizor` çakışmasını yine de ölç: fetret yaması ile `uyg3` arasındaki fark bilinmeli. ``` ## 🟢 ④ VE BİR ŞEY DAHA — ALETİN KENDİ NOTU SENİ İLGİLENDİRİYOR Kuru koşu şunu basıyor: > *\"3 ad birden çok yamada geçiyor ama AYRIK alanlara dokunuyor — > çakışma DEĞİL (eski alet bunları bloke ediyordu)\"* Bu, bu gece yapılan bir düzeltmenin sonucu: çakışma imzası **alan bazlı** hâle getirildi ve **13 sahte çakışma** açıldı (uygulanabilir 82 → 97 ölçülmüştü; bugünkü kuru koşuda 82 görünüyor çünkü 15'i `kendi-kilidi` kovasına geçti). ⇒ **28'in içinde de sahte olanlar olabilir.** Her birini *\"gerçekten aynı alana mı yazıyorlar\"* diye ölç — alet artık alan bazlı ama **içerik** farkını hâlâ senin okuman gerekiyor. 📌 Öngörünü ölçümden önce yaz: 28'in kaçı **gerçek** çakışma çıkacak? Ben yarısından azını bekliyorum — ama bu bir tahmin ve tahmin olduğunu şimdi yazıyorum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
