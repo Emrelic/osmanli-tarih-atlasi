@@ -82,20 +82,65 @@
     "🔴 OLCMEDIM": "«De jure krallık 1917'ye kadar sürdü» cümlesini TDV'de BULAMADIM ve akademik kaynağa da SORMADIM. Bu bir ÇIKARIM ve EMSAL argümanı, ÖLÇÜM DEĞİL. Reçetenin en zayıf halkası burasıdır ve KOORDİNATÖRÜN KARARINA bırakıyorum: 1867 tercih edilirse `t:`yi değiştirmek tek satır, ama bir kronoloji maddesi BORCU doğar."
   },
 
-  "⑥ RENK_ONERISI_YAZILMADI": {
-    "🔴": "`renkler.py`ye DOKUNULMADI — motor parmak izli, koşu canlı. Bu bir ÖNERİDİR, uygulama koşudan SONRA.",
+  "⑥ RENK_ONERISI — M-2268 ile istendi · YAZILMADI, ÖLÇÜLDÜ": {
+    "🔴": "`renkler.py`ye DOKUNULMADI — motor parmak izli, koşu canlı (PID 27596). Bu bir ÖNERİDİR, uygulama koşudan SONRA.",
     "BOYALAR_toplam": 403,
-    "kongre-polonyasi": "YOK — künye eklenirse renk BORCU doğar (aksi hâlde §8: boyanmayan kimlik = harita DELİĞİ)",
-    "ayni_sahnedeki_komsular_1815_1917": {
-      "rusya": "#4f7d4f",
-      "avusturya": "#bdab3f",
-      "almanya": "#78d028",
-      "polonya": "#ab47bc",
-      "sovyet-rusya": "#00d9ff",
-      "rusya-gecici-hukumet": "#12397e"
+    "🔴 IKI_RENK_BORCU_BIRDEN": "`kongre-polonyasi` YOK **ve `varsova-dukaligi` DE YOK** (ölçtüm: BOYALAR'da ikisi de eksik, künye 439'a çıkmış ama renk 403'te kalmış). Koordinatörün sırası doğru: iki künye + iki renk BİRLİKTE, sonra `renk_olc.py`, sonra koşu.",
+
+    "A · AYNI SAHNEDEKI KOMSULAR (1815-06-09 → 1917-03-15) — ölçüldü": {
+      "rusya": "#4f7d4f  ← coğrafî olarak SARAN gövde, en kritik çift",
+      "avusturya": "#bdab3f  ← güney komşu (Galiçya)",
+      "almanya": "#78d028  ← batı komşu (Prusya payı)",
+      "🔴 UYARI": "`rusya` (#4f7d4f) ve `almanya` (#78d028) İKİSİ DE YEŞİL ve bu bölgede yan yana duruyorlar. ÜÇÜNCÜ BİR YEŞİL bu köşeyi okunamaz yapar ⇒ yeşil bandı ELENMELİ.",
+      "sahnede_DEGIL": {
+        "lehistan": "#fc87c9 — 1795-10-24'te bitiyor, çakışma riski YOK",
+        "polonya": "#ab47bc — 1918-11-11'de başlıyor, çakışma riski YOK",
+        "sovyet-rusya": "#00d9ff — 1917-03-15 SONRASI",
+        "rusya-gecici-hukumet": "#12397e — 1917-03-15 SONRASI"
+      }
     },
-    "oneri_yonu": "Polonya ailesiyle akraba ama `polonya` (#ab47bc) ve `lehistan` (#fc87c9) ile karışmayacak bir ton; en yakın coğrafî komşusu `rusya` (#4f7d4f) olduğu için ondan ΔE mesafesi en kritik olan. Somut hex ÖNERMİYORUM — seçimi `renk_olc.py`nin çözücüsü yapmalı, elle atanan hex bu projede üç kez çakışma üretti.",
+
+    "B · SIKILASTIRMA HAK EDEN CIFT VAR MI — ÖLÇTÜM, CEVAP: BUGÜN YOK": {
+      "olcut": "`bugis ↔ gova` emsali: bir çift, KRONOLOJİNİN o ikisini KARŞI TARAF olarak anlattığı yerde sıkılaştırmayı hak eder (Makassar Savaşı'nın iki tarafı).",
+      "olcum": "Çekirdek külliyat (olaylar*.js, 1303 madde) Polonya/Varşova/Lehistan/paylaşım geçen 9 madde taşıyor: 1466-10-19 · 1561-11-28 · 1571 · 1611-06-13 · 1616 · 1618-12-11 · 1772-08-05 (I. Paylaşım) · 1793-01-23 (II. Paylaşım) · 1795-10-24 (III. Paylaşım).",
+      "hukum": "DOKUZUNUN DOKUZU DA 1795 ÖNCESİ ve öznesi `lehistan`. `kongre-polonyasi`yi `rusya` KARŞISINDA anlatan TEK BİR ÇEKİRDEK MADDE YOK — 1830 ve 1863 ayaklanmaları külliyatta YOK. ⇒ Emsale göre ANLATI sıkılaştırması BUGÜN HAK EDİLMİYOR.",
+      "⚠️ AMA": "Bu bir 'gevşek olabilir' demek DEĞİL. Aşağıdaki C maddesi AYRI ve daha güçlü bir gerekçe veriyor — ve o MEKÂNSAL, anlatısal değil. İkisini karıştırmamak için ayrı yazdım."
+    },
+
+    "C · ASIL GEREKCE MEKANSAL: 102 YIL BOYUNCA `rusya` İLE İÇ İÇE": {
+      "olcum": "Kongre Polonyası dört noktayla temsil ediliyor ve dördü de Rus İmparatorluğu'nun İÇİNDE bir enklav gibi duruyor; `rusya` onu üç yandan sarıyor ve ikisi 1815-06-09 → 1917-03-15 arası, yani 101 yıl 9 ay, KESİNTİSİZ aynı sahnede.",
+      "sonuc": "`kongre-polonyasi ↔ rusya` çifti, çözücünün EN SIKI ÇALIŞMASI GEREKEN çiftidir — okunabilirlik tabanı (ΔE ≥ 12) burada asgarîdir, tercih edilen bant DAHA YÜKSEK olmalı."
+    },
+
+    "D · 🔴 VE ÇÖZÜCÜNÜN MODELLEMEDİĞİ ÜÇÜNCÜ BİR KOMŞULUK — ARDIŞIKLIK": {
+      "olcum": "Aynı toprakta ARDIŞIK BEŞ kimlik var: lehistan (→1795-10-24) → almanya/avusturya (1795→1806/1809) → varsova-dukaligi (→1815-06-09) → kongre-polonyasi (→1917-03-15) → rusya-gecici-hukumet/sovyet-rusya/polonya.",
+      "sorun": "`renk_olc.py` çiftleri *'aynı anda sahnede VE komşu'* diye kuruyor. Ardışık iki kimlik ASLA aynı anda sahnede olmaz ⇒ çözücü bu çifti HİÇ KURMAZ. Ama kullanıcı zaman çubuğunu sürüklerken aynı toprağın renk DEĞİŞTİRDİĞİNİ görmek zorunda: iki ardışık kimlik birbirine yakın renkteyse 1815 geçişi EKRANDA GÖRÜNMEZ.",
+      "somut_risk": "`varsova-dukaligi` ile `kongre-polonyasi` ikisi de YENİ ve ikisi de aynı dört noktayı boyuyor. İkisine birbirine yakın hex atanırsa, atlasın anlatmak için eklendiği kırılma (Viyana Kongresi) görünmez olur.",
+      "onerim": "İki yeni künyenin hex'leri ATANIRKEN birbirlerine de bir ΔE tabanı konsun — çözücü bu çifti kendiliğinden kurmayacağı için ELLE kısıt olarak verilmeli.",
+      "📌": "Bu, `§11`in *'denetim var ≠ o soruyu soruyor'* ailesinden ve `kaffa ↔ sidamo` vakasının ZAMAN eksenindeki hâli: orada iki gövde komşu olmadan aynı ekrandaydı, burada iki gövde aynı yerde ama aynı anda değil.",
+      "⚠️ OLCMEDIM": "`renk_olc.py`nin ardışıklığı gerçekten modellemediğini KODU OKUYARAK doğrulamadım — çift kurma ölçütünü `CLAUDE.md`nin tarifinden aldım. Kodu okumadım, `ÖLÇÜLEMEDİ`."
+    },
+
+    "E · SOMUT HEX ÖNERMİYORUM — ve niçin": "Elle atanan hex bu projede üç kez çakışma üretti (`CLAUDE.md §11`). Verdiğim şey KISIT: (1) yeşil bandı elenmeli — `rusya` ve `almanya` zaten yeşil, (2) `rusya`dan ΔE tercih bandı yüksek tutulmalı, (3) `varsova-dukaligi` ile arasına ELLE bir ΔE tabanı konmalı, (4) `polonya`/`lehistan` ile çakışma İHLAL değil ama aynı toprağın ardışık renkleri olduğu için yine de ayrışmaları TERCİH edilir. Hex'i çözücü seçsin.",
+
     "🔴 VE_HATIRLATMA": "CLAUDE.md §9: veriye dokunan her koşudan sonra `renk_olc.py` koşulur — renge dokunulmasa bile yeni bir gövde sahneye girince çakışma DOĞABİLİR."
+  },
+
+  "⑧ ÜÇÜNCÜ PARÇA (1795-1807) — M-2268 ile istendi · ÖNCÜL ÇÜRÜDÜ": {
+    "sevkin_onculu": "«Üçüncü parça 1795-1807 (11 y 9 a) HÂLÂ AÇIK»",
+    "🔴 OLCUM": "AÇIK DEĞİL — pencere TAMAMEN DOLU, ve doğru bölünmüş:",
+    "kayitlar": {
+      "Varşova": "lehistan →1795-10-24 · **almanya** 1795-10-24 → 1806-11-28 · varsova-dukaligi 1806-11-28 → 1815-06-09",
+      "Lublin · Chełm · Zamość": "lehistan →1795-10-24 · **avusturya** 1795-10-24 → 1809-10-14 · varsova-dukaligi 1809-10-14 → 1815-06-09"
+    },
+    "🟢 VE_TARIHEN_DOGRU": "III. Bölüşme'de Varşova PRUSYA payına, Lublin-Chełm-Zamość ise AVUSTURYA payına (Batı Galiçya) düştü. Veri bu ayrımı ZATEN taşıyor; `avusturya` doğrudan doğru, `almanya` ise Prusya'nın yerine geçen ŞEMSİYE.",
+    "prusya_kimligi": {
+      "olcum": "devletler.js **439 künye** · prusya/brandenburg eşleşmesi **0** · veride `d:\"…prus…\"` dönemi **0**. (OK109'un ölçümünü bağımsız doğruladım.)",
+      "ama": "Bu bir DELİK ÜRETMİYOR: Varşova'nın 1795-1806 dönemi `almanya` künyesiyle kapalı ve o künyenin adı «Kutsal Roma / Almanya», aralığı 962-02-02 → 1923-10-29. Prusya 1806'ya kadar Kutsal Roma'nın bir parçasıydı ⇒ şemsiye o pencerede SAVUNULABİLİR, ve Varşova'nın `almanya` dönemi tam 1806-11-28'de bitiyor.",
+      "hukum": "`prusya` künyesi AÇMAK bir İFADE GÜCÜ kalemidir, bir İHLAL düzeltmesi DEĞİL. `denetle.py` bugün bu kayıtlarda hiçbir şey ötmüyor. ⇒ Kongre Polonyası reçetesinin ÖNKOŞULU DEĞİL; ayrı ve düşük öncelikli bir kalem.",
+      "⚠️ OLCMEDIM": "Prusya'nın öteki topraklarında (Poznan · Gdansk · Königsberg — hepsi `almanya`) şemsiyenin 1806 SONRASI için de savunulabilir olup olmadığı. Orada Kutsal Roma yok, Alman İmparatorluğu 1871. Bu ayrı bir soru ve BAKMADIM."
+    },
+    "SONUC": "123 yıllık dizin deliğinin ÜÇ parçasından İKİSİ reçeteli (OK109 1807-1815 · ben 1815-1917), ÜÇÜNCÜSÜ ZATEN KAPALI. Delik için üçüncü bir tur GEREKMİYOR."
   },
 
   "⑦ OLCMEDIKLERIM — ayrı kova, 'temiz' DEĞİL": [
