@@ -1611,7 +1611,29 @@ ATLAS_BASI = "1281-01-01"
 # 🔴 467 -> 468, 1 EYLUL 2026 — uc dosya baglandi (bkz. BEKLENEN_SAHIPSIZ).
 #   TEK kayit buyudu. Bu dalin kendi uyarisi gecerli: bu bir KUSUR
 #   sayisi degil bir SORU sayisi — care cogu zaman kunyeyi GENISLETMEK.
-BEKLENEN_ONCE = 468
+# 🔴 468 -> 469, 2 EYLUL 2026 — IMADIYE (Musul sancaginin altinci kazasi).
+#   OPUS HAZIR KITA 109 dosyayi BAGLAMADAN ONCE denetimden gecirdi ve
+#   tavanin +1 asilacagini ONCEDEN bildirdi. Iki cikis onerdi, ikisini de
+#   olctum; (b) REDDEDILDI:
+#     (a) tabani yukselt                     <- SECILDI
+#     (b) `celayirli` kunyesini 1335-12-01'e genislet
+#   (b) NICIN REDDEDILDI: tarihen YANLIS olurdu. `CLAUDE.md 11` bu tam
+#   vakayi olcmus ve yazmis: Ebu Said 30 Kasim 1335'te oldu, ILHANLI
+#   fiilen bitti — ama ARDILLARIN HICBIRI o gun baslamiyor (serbedariler
+#   1337-09-09 · celayirli 1340-01-01 · muzafferi 1318 · kert 1245).
+#   Kunyeyi 1335'e cekmek, Celayirlilerin Ebu Said'in olum gununde
+#   hukum surmeye basladigini IDDIA etmek olur. Tavani kurtarmak icin
+#   kunyeye yalan yazmak, olcutu amac sanmaktir.
+# ⇒ ASIL BORC BU SATIRDA DEGIL: 1335-1340 arasi Iran'da bir FETRET var ve
+#   VERI ONU IFADE ETMIYOR. Ayni desen veride ZATEN 33 donemde duruyor
+#   (Akra · Duhok · Zaho · Sincar · Musul · Rewandiz…); Imadiye 34'uncusu.
+#   Yani bu +1 YENI bir kusur degil, BILINEN bir borcun bir kayit
+#   buyumesi — ve dalin kendi uyarisi gecerli: bu bir KUSUR sayisi degil
+#   bir SORU sayisidir.
+#   🔜 Cozum tek kayitta DEGIL, 34'unde BIRDEN: fetret `__BOSLUK__` ile
+#   ifade edilir. Bir modeli tek bir kayit icin degistirmek, o kaydi
+#   kardeslerinden ayirir (ayni oturumun kendi dersi, ayni gun).
+BEKLENEN_ONCE = 469
 # 🔴 SARAN — İKİ UÇTAN DA aşan dönemler, yani dönem künyeyi TAMAMEN İÇİNE
 # ALIYOR. `4c ∩ 4d`, yani AYRI BİR KOVA DEĞİL KESİŞİM — üçü TOPLANMAZ.
 # Ayrı basılmasının sebebi teşhis: bir dönem künyeyi tamamen sarıyorsa, o

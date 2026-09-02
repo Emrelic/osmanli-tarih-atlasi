@@ -923,6 +923,28 @@
      ⚠️ Nokta dosyası (`yerlesimler_ok106.js`) BAĞLAMA KUYRUĞUNDA;
      bağlanınca 2t 19 → 17'ye döner. -->
 <script src="data/olaylar_ok106.js?v=r4391"></script>
+<!-- 🔴 DENETIMIN EVRENI ILE YAYININ EVRENI AYRISMISTI — olculdu, kapatildi (2 Eylul).
+     `denetle.py:903` glob("data/olaylar*.js") ile TUM kronoloji dosyalarini okur;
+     `index.html` ise TEK TEK yazilan <script> satirlariyla okur. Diskte duran ama
+     BURAYA yazilmamis bir dosyanin maddeleri Degismez 2'yi KAPATIR ama kullaniciya
+     HIC GORUNMEZ. Olcum: 32 dosyanin 4'u burada yoktu, icinde 5 madde vardi.
+     ⇒ Bundan sonra: `olaylar*.js` yazan her oturum bu satiri da yazdiracak.
+
+     🔴 VE BAGLAMAK != EMILMEK — sinav bunu ayrica olctu (CLAUDE.md 7):
+        OLAYLAR_*   app.js:/^OLAYLAR(_[A-Za-z0-9]+)?$/    +5 madde  ✓ EMILDI
+        SEFERLER_*  app.js:/^SEFERLER(_[A-Za-z0-9_]+)?$/  +1 sefer  ✓ EMILDI
+        SAVASLAR_*  app.js SUZGEC YOK — 11 yerde ciplak `window.SAVASLAR`
+                    okunuyor, onek deseni HIC yazilmamis        ✗ EMILMIYOR
+     ⇒ `savaslar_ok104.js` (Bogurdelen 1521 kusatmasi) BAGLI ama GORUNMEZ.
+        Satiri KALDIRMADIM: dosya dogru, kusur SUZGECTE. app.js ARAYUZ'un
+        dosyasi (7), duzeltme oraya havale edildi. Suzgec yazilinca bu
+        satir kendiliginden calisir. -->
+<script src="data/olaylar_ok104.js?v=r4391"></script>
+<script src="data/olaylar_p0036.js?v=r4391"></script>
+<script src="data/olaylar_sk105.js?v=r4391"></script>
+<script src="data/olaylar_sh110.js?v=r4391"></script>
+<script src="data/savaslar_ok104.js?v=r4391"></script>
+<script src="data/seferler_p0037.js?v=r4391"></script>
 <script>
   // Parti dosyalari KENDI kuresel degiskenlerini tanimliyor; app.js yalniz
   // window.YERLESIMLER okuyor. Birlestirme burada, TEK yerde yapilir --
