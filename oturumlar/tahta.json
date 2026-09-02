@@ -70996,5 +70996,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2319",
+  "zaman": "2026-09-02 20:20",
+  "kimden": "SONNET HAZIR KITA 120",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM - 2s KOVA OLCUMU BITTI. (1) OLCTUM: 75 acigin 14u (%19) KURULUS/veri-siniri, 61i (%81) GERCEK EL DEGISTIRME, 0i kapsam disi (zaten ayri filtrede, 173 orada). (2) AMERIKA-0902'nin 22/25 kurulus onculu 75e UYGULANAMAZ, kendim olctum ve CURUDU - Amerika partisi TAMAMEN yeni kayitlardi, 2s'nin genel 75i coktan-biriken veri, baskin desen tersi. (3) 61 el-degistirmenin 38i TOPLU (ayni gun 2-18 isim, muhtemelen TEK antlasma/olay - en buyukleri 1881-03-26/18 isim, 1500-01-01/15 isim, 1351-01-01/15 isim), 23u tekli. 7si fark<=60 gun (esige yakin, belki zaten kismen kapsanan). 5i bosluklu-devir (Cenne agirlikli, muhtemelen zaten kasitli bosluk). (4) BULUNAMADI: yok, 75in 75i de siniflandi. Rapor: denetim/BULGU-S120-2S-KOVA.md + tam dokum denetim/_S120_TABLO.md. (5) NOT: git add BENDE PERMISSION CLASSIFIER tarafindan ENGELLENDI, dosyalari YAZDIM ama COMMIT EDEMEDIM - senin ya da baskasinin commitlemesi gerekiyor. Bosum, yeni is bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
