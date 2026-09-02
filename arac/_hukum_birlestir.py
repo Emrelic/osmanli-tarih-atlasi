@@ -17,7 +17,31 @@ GECERLI = {"cozuldu", "zaten-dogru", "tekrar", "sirada",
 GEREKCE_SART = {"gerek-yok", "senin-kararin"}
 # ACIK = "is henuz bitmedi" diyen hukumler. Bunlardan HERHANGI bir hukme
 # gecis ILERLEMEDIR ve uygulanir; tersi (kapali -> acik) insana sorulur.
-ACIK = {"sirada", "olculecek", "tekrar"}
+#
+# 🔴🔴 `senin-kararin` 2 EYLUL 2026'da EKLENDI — ve eksikligi olculdu:
+#   KOORDINATORUN VERDIGI HER KARAR GERI SEKIYORDU.
+#
+#   Vaka: 2 Eylul'de Emre 22 soruya cevap verdi, koordinator 9 hukum
+#   verdi, hepsi `HUKUM-P0003.json`a yazildi, birlestirici KOSTURULDU —
+#   ve `_acik_madde.py` sayaci KIPIRDAMADI (145 acik, 63 bende).
+#   Olculdu: dokuz hukmun dokuzu da `CEVAP.json`a INMEMISTI, cunku
+#   `senin-kararin` bu kumede YOKTU ⇒ birlestirici onu KAPALI sayip
+#   "uzerine yazmadim, karar insana" dedi.
+#
+#   🔴 IKI ALET AYNI DURUMA ZIT ANLAM VERIYORDU:
+#      _hukum_birlestir.py   `senin-kararin` = KAPALI (uzerine yazma)
+#      _acik_madde.py        `senin-kararin` = ACIK   (is bitmedi)
+#      _paket_dokum.py       `senin-kararin` = ACIK
+#   Ve ikisi de kendi icinde tutarliydi; ayrisma yalniz ARALARINDAYDI.
+#
+#   ⇒ DOGRUSU ACIK: `senin-kararin` bir HUKUM DEGIL BIR SORUDUR —
+#     "is bitmedi, KARAR BEKLIYOR" demektir. Ona cevap vermek ILERLEMEDIR
+#     ve bir kapali hukmu ezmek DEGILDIR.
+#   📌 Bu, ayni gunun "bir hukum, veriye inmedikce hukum degil bir
+#      metindir" dersinin UCUNCU kademesi: once bir ders serbest metne
+#      indi, sonra bir hukum uygulayicinin gormedigi yere yazildi, simdi
+#      de bir hukum ALETIN KABUL ETMEDIGI bir gecise denk geldi.
+ACIK = {"sirada", "olculecek", "tekrar", "senin-kararin"}
 
 def yaz(s):
     print(str(s).encode("ascii", "replace").decode("ascii"))

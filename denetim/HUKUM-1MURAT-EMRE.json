@@ -1,0 +1,104 @@
+{
+  "_kaynak": "1.MURAT (koordinatör) · 2 Eylül 2026 · EMRE'NİN DOĞRUDAN CEVAPLARI. Kaynak: denetim/EMRE-KARARLARI-2EYLUL.md ve denetim/EMREYE-SORULAR.md'deki KAPATIR satırları. 🔴 Bu dosya bir AKTARIMDIR, yorum değil — her hüküm Emre'nin kendi cevabından geliyor ve yorum gerektiren üç yerde (21·22·10) o ayrıca işaretlendi.",
+
+  "parti-emrelic-0024": {
+    "H-0010": { "hukum": "sirada",
+      "not": "EMRE'NİN KARARI (2 Eylül): 'HAKKINDA GERİ GELSİN.' Sürüm/koşu tarihi gösteren küçük bir alan geri eklenecek. ⇒ ARAYÜZ işi (index.html + js/app.js). Kapsam: minimal bir sürüm damgası (ör. 'r4776 · 2 Eylül'). Kararın kendisi VERİLDİ; kalan iş uygulamadır." }
+  },
+
+  "parti-emrelic-0021": {
+    "H-0010": { "hukum": "sirada",
+      "not": "EMRE'NİN KARARI (2 Eylül, soru ⑪): '(a) TEK DALGA.' Beş açık araştırma kalemi (Bağdat kuzeyi 4 şehir · Tebriz-Van · bozkır hanlıkları · Basra dolgu · İngria 4 nokta) tek bir KAYNAK ARAŞTIRMA oturumuna verilecek — beşi de aynı iş türü (kaynak okuma + tarih çıkarma), tek oturumda bağlam yeniden kurulmaz." },
+    "H-0027": { "hukum": "sirada",
+      "not": "EMRE'NİN KARARI (2 Eylül, soru ⑪): tek dalga — H-0010 ile aynı sevk." },
+    "H-0028": { "hukum": "sirada",
+      "not": "EMRE'NİN KARARI (2 Eylül, soru ⑪): tek dalga — H-0010 ile aynı sevk." },
+    "H-0005": { "hukum": "sirada",
+      "not": "🔴 EMRE SORUYU DÜZELTTİ (2 Eylül, soru ㉒): 'SEYREK BÖLGELERDE EĞER TARİHÎ OLARAK O TARİHTE EKLENECEK BİR YERLEŞİM VAR İSE EKLEMELİYİZ. YOK İSE UYDURACAK HALİMİZ YOK.' ⇒ Ölçüt COĞRAFÎ BOŞLUK DEĞİL TARİHÎ VARLIK. Bir mesafe eşiği nokta yazma gerekçesi değildir. Kalan iş: o bölgelerde gerçekten var olan yerleşimleri KAYNAKTAN çıkarmak; bulunamazsa boşluk KUSUR DEĞİL SONUÇTUR." },
+    "H-0030": { "hukum": "sirada",
+      "not": "EMRE'NİN KARARI (2 Eylül, soru ⑯): '(a)' — Eflak seferinde saldırılan şehirlerin VERİSİ kronoloji oturumu tarafından ŞİMDİ yazılsın; gösterim (ateş simgesi/ok) ARAYÜZ kuyruğuna eklensin. Veri gösterimi bloke etmiyor." }
+  },
+
+  "parti-emrelic-0019": {
+    "H-0061": { "hukum": "sirada",
+      "not": "🔴 EMRE'NİN KARARI (2 Eylül): 'MOHAÇ SONRASI MACARİSTAN HİMAYE OLSUN — MACARİSTAN ETRAFINI OSMANLI KIRMIZISI İLE ÇEVRELEYELİM, İÇ BÖLGE KENDİ RENGİ OLSUN.' ⚠️ Emre 'A şıkkı' yazdı ama o soruda (a) TÂBİ, (b) HİMAYE idi; TARİFİ kesin olduğu için tarife uyuldu, harfe değil — ve bu ayrım Emre'ye açıkça bildirildi. Şema yazıldı: v:[{f,t,k,himaye:true}] (VERI-YAPISI.md, commit 39278dd). Kalan iş: 1526-1541 arası Macaristan'ın hangi kısmı d:/himaye/Habsburg — ÖLÇÜLMEDİ, sevk edildi." },
+    "H-0075": { "hukum": "cozuldu",
+      "not": "🔴 EMRE'NİN KARARI (2 Eylül): '(a) HİMAYE İNCE OSMANLI KIRMIZISI ŞERİT İLE O ÜLKE TOPRAKLARINI ÇEVRELEYEN BİR YAPI OLARAK GÖRÜLSÜN, İÇ BÖLGE ÜLKENİN KENDİ RENGİ OLACAK.' Şema yazıldı (v: içinde himaye:true), ARAYÜZ kuyruğuna 12. kalem olarak girdi. 🔴 TARAMA DESENİ YASAK — tarama bu projede ZATEN İŞGAL demek (app.js:970, 83 kayıt)." },
+    "H-0008": { "hukum": "cozuldu",
+      "not": "EMRE'NİN KARARI (2 Eylül, soru ⑰): '(a) 1671 — Evliya Çelebi. Daha erken, tek kaynaklı.' Mersin'in kuruluşu 1671 alınacak." },
+    "H-0056": { "hukum": "cozuldu",
+      "not": "🔴 EMRE SORUYU REDDETTİ (2 Eylül, soru ㉑) ve YERİNE BİR İLKE KOYDU: 'EĞER YERLEŞİM VAR İSE NOKTA KONUR. YOK İSE UYDURACAK HALİMİZ YOK. DEVASA BOŞLUKLAR OLACAKSA OLSUN.' ⇒ TAMAMLIK EŞİĞİ DİYE BİR SAYI YOK. Ölçüt tarihî varlıktır; boşluk kusur değil SONUÇTUR. Ve boşluğun gösterimi üç kademeli: ① siyasî yapı var → o devletin krallığı şeklinde BOYANIR ② aşiret yapısı var → haritada GÖSTERİLİR ③ hiçbir şey yok → BOŞ KALIR. ⚠️ ② ve ③'ün GÖRSEL karşılığı bugün YOK (bos: alanı kaydediyor ama harita göstermiyor) — ARAYÜZ borcu olarak açıldı." },
+    "H-0081": { "hukum": "sirada",
+      "not": "EMRE'NİN KARARI (2 Eylül, soru ⑥): 'DAHA AÇIK BİR MAVİ OLSUN, BİR TIK AÇIK OLSUN.' Bugünkü su tonu #a8c8dc. ⚠️ Değişiklikten SONRA renk denetimi ŞART: bugün 13 kimlik deniz rengine yakın ölçülüyor (DENİZLE KARIŞAN dalı); tonu açmak o sayıyı DEĞİŞTİRİR. Ölçülmeden uygulanmayacak." }
+  },
+
+  "parti-emrelic-0035": {
+    "H-0043": { "hukum": "cozuldu",
+      "not": "🔴 EMRE'NİN KARARI (2 Eylül, soru ⑧): 'SEKİZİNCİ BOYUTU AÇ.' CLAUDE.md §1.6'daki 'kasten kapalıdır' paragrafının üstü çizildi (commit 7297135). ⚠️ AÇILAN BİR KAPI, BİR BÜTÇE DEĞİL: ONCELIK.md çöl seyyahı ilkesi yürürlükte, 8. boyut hâlâ devletler ve sınırlardan SONRA. Şu an açılan iki somut kalem: kronoloji görselleri (0034/H-0044) + ek okuma türleri (0034/H-0022+H-0040). Askerî · sosyal · bilim · felsefe · din HÂLÂ SEVK BEKLİYOR." },
+    "H-0091": { "hukum": "cozuldu",
+      "not": "EMRE'NİN KARARI (2 Eylül, soru ⑧): H-0043 ile aynı — 8. boyut açıldı, sınırıyla birlikte." },
+    "H-0067": { "hukum": "gerek-yok",
+      "not": "EMRE'NİN KARARI (2 Eylül, soru ⑤): '(b)' — küçük toprak kayıpları için özel görsel vurgu EKLENMEYECEK. Veri zaten doğru; işçi oturumun (a) önerisi kendi ifadesiyle 'Emre'nin zevkine bağlı' idi ve Emre (b) dedi." }
+  },
+
+  "parti-emrelic-0034": {
+    "H-0044": { "hukum": "sirada",
+      "not": "🔴 EMRE'NİN KARARI (2 Eylül, soru ⑨): 'KRONOLOJİ MADDELERİNE O KONU İLE İLGİLİ GÖRSEL EKLEYELİM.' 8. boyutun açılan iki kaleminden biri. 🔴 LİSANS KIRMIZI ÇİZGİSİ: YALNIZ kamu malı / CC0, ve kaynağı ayrı bir alana (gorsel_kaynak:) AÇIKÇA yazılacak — §4'ün 'kaynağı yazılmayan bilgi, kaynağı olmayan bilgiden ayırt edilemez' kuralının görsel ekseni." },
+    "H-0022": { "hukum": "sirada",
+      "not": "EMRE'NİN KARARI (2 Eylül, soru ⑭): 'EKSİK EK OKUMA TÜRLERİ TANIMLANSIN.' 11 başlığın tanımsız 7'si (tartışma · teknik-bilimsel · kimdir · dış yankılar · kahramanlık · menkıbeler · şok haberler) tanımlanacak; içerik ataması AYRI ve sonra. Ölçülü gerekçe: bugünkü kapsama %7,3 (1277 maddenin 93'ü)." },
+    "H-0040": { "hukum": "sirada",
+      "not": "EMRE'NİN KARARI (2 Eylül, soru ⑭): H-0022 ile aynı sevk." },
+    "H-0028": { "hukum": "sirada",
+      "not": "EMRE'NİN KARARI (2 Eylül, soru ㉔): '(b)' — çöl tavanı reçetesi MALİYET-MESAFE işini BEKLESİN; o iş bittiğinde bu kalem gereksiz kalabilir. Aynı sorunu iki kez çözmemek için." }
+  },
+
+  "parti-emrelic-0027": {
+    "H-0006": { "hukum": "sirada",
+      "not": "EMRE'NİN KARARI (2 Eylül, soru ⑫): 'SEFER GÜZERGÂHLARI GERÇEK YOLA OTURSUN.' Yatırım ONAYLANDI. ⚠️ Ölçülmüş sınır: koridor ağının 127 kenarının yalnız 4'ünde (%3,1) ölçülmüş saat var; 78'i türetilmiş, 39'u ölçülemez. Ve dünya ayağı SIFIR düğüm. ⇒ Asıl iş yeni geometri değil SÜRE KAYNAĞI." }
+  },
+
+  "parti-emrelic-0023": {
+    "H-0003": { "hukum": "sirada",
+      "not": "EMRE'NİN KARARI (2 Eylül, soru ⑬): '(a) VERİ ŞİMDİ YAZILSIN.' İttifak verisi (üye devletler + tarih penceresi) animasyonu beklemeyecek; animasyon ARAYÜZ kuyruğunda (kalem ④). Veri arayüzü bloke etmiyor." }
+  },
+
+  "parti-emrelic-0013": {
+    "H-0002": { "hukum": "gerek-yok",
+      "not": "EMRE'NİN KARARI (2 Eylül, soru ㉓): 'ELİMİZDEKİ VERİLER İLE YETİNELİM.' + sorduğu soru ölçülerek cevaplandı: EVET, yükseklik verisi zaten indirilmiş ve KULLANILIYOR — veri-kaynak/yukseklik/etopo2022_30s_dunya.tif (43200×17280, ~818 MB), motorda eğim yüzeyi olarak (uret_petek.py:2126), medyan sürtünme 1,111, ızgarada sahibi değişen hücre %8,37. Sorulan şey daha incesiydi (yalnız Söğüt-Domaniç için yüksek çözünürlük) ve BEKLEMEYE alındı." }
+  },
+
+  "parti-emrelic-0033": {
+    "H-0017": { "hukum": "sirada",
+      "not": "EMRE'NİN KARARI (2 Eylül, soru ⑱): '(a) KARTLİ, KAHETİ, İMERETİ, SAMTSKHE DİYE BÖL — TASARIM İŞİ.' Gürcistan tek künyeden alt krallıklara ayrılacak. 🔴 SIRA BAĞLAYICI: her yeni künye RENK gerektirir; renksiz künye = harita deliği (§8). Önce renk, sonra künye, sonra veri." }
+  },
+
+  "parti-emrelic-0032": {
+    "H-0002": { "hukum": "sirada",
+      "not": "EMRE'NİN KARARI (2 Eylül, soru ⑲): '(b) YİNE DE KUSUR SAY, ARAŞTIRILSIN.' Karakoyunlu çöküşü sahnesinde çevrenin Akkoyunlu renginde görünmesi — veri kaynakla örtüşse de araştırılacak." }
+  },
+
+  "parti-emrelic-0038": {
+    "H-0005": { "hukum": "sirada",
+      "not": "EMRE'NİN KARARI (2 Eylül, soru ⑳): '(a) ÇIKARIMLA DOLDUR — VE KAYNAK ALANINA \"ÇIKARIM\" DİYE AÇIKÇA YAZ.' Gümrü'nün Revan ile aynı kaderi paylaştığı çıkarımı yazılacak, AMA İŞARETLİ. §4'ün 'bulunamadı bir sonuçtur' ilkesiyle çelişmez — gizlenmediği sürece." }
+  },
+
+  "parti-emrelic-0016": {
+    "H-0003": { "hukum": "sirada",
+      "not": "EMRE'NİN KARARI (2 Eylül, soru ⑦): '(c) SEÇİCİ İNCE.' Yalnız Osmanlı çekirdeğindeki göller ince çözünürlükle. ⚠️ BEDELİ BİLİNEREK: bir kaynağı kısmen değiştirmek İKİ OTORİTE doğurur (§11) ve atlas tutarsız görünebilir — bir göl keskin, yanındaki kaba." }
+  },
+
+  "parti-emrelic-0014": {
+    "H-0004": { "hukum": "sirada",
+      "not": "EMRE'NİN KARARI (2 Eylül, soru ⑦): '(c) SEÇİCİ İNCE' — 0016/H-0003 ile aynı karar. ⚠️ Ve ölçülmemiş bir yan bulgu kayıtta duruyor: Aral Gölü 20. yüzyılda büyük ölçüde KURUDU; atlas 2026'ya uzarsa tek bir göl geometrisi yetmez. Bilgi notu, ayrı kalem." }
+  },
+
+  "parti-0004": {
+    "H-0011": { "hukum": "sirada",
+      "not": "EMRE'NİN KARARI (2 Eylül, soru ㉑): '(a) DEVLET KÜNYELERİNİN ZAMAN PENCERELİ HÂLE GELMESİ İŞİYLE BİRLEŞTİR — AYNI KÖKTEN İŞ.' 🟢 Şema o gece YAZILDI: bk:[{f,t,ad}] (VERI-YAPISI.md). Sebep ölçülmüştü: baskent alanı 438 künyenin 437'sinde DÜZ METİN ve safevi'de 'Tebriz → Kazvin → İsfahan' — üç başkent, bir dizgi, sıfır tarih; makine soru soramıyordu. ⚠️ Ölçülmüş kapsam sınırı: çok-başkentli 91 künyenin adaylarından 42'sinin atlasta noktası YOK, ve tarih verimi 1/4." }
+  },
+
+  "parti-emrelic-0030": {
+    "H-0014": { "hukum": "sirada",
+      "not": "🔴 EMRE SORUDAN GENELİNİ SÖYLEDİ (2 Eylül, soru ⑩): '(a) TÜM DÜNYA İÇİN KURAL TUTARLI OLSUN. AVUSTURYA'YA BAKIYOR İSEK OSMANLI DIŞ ÜLKE OLACAK.' ⇒ Bu bir süzgeç ayarı değil bir BAKIŞ AÇISI MODELİ: atlas 'Osmanlı merkezli' değil 'SEÇİLEN DEVLET merkezli' çalışacak; Osmanlı yalnız VARSAYILAN odak. ⚠️ KAPSAMI ÖLÇÜLMEDİ: js/app.js bugün Osmanlı'yı ayrı katmanda çiziyor (osmanli-dolgu) ve kronoloji Osmanlı çekirdeği üzerine kurulu. Büyüklüğü BİLİNMİYOR ve tahmin edilmiyor." }
+  }
+}
