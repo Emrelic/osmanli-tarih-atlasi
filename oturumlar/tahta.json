@@ -65177,5 +65177,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2146",
+  "zaman": "2026-09-02 14:52",
+  "kimden": "OPUS HAZIR KITA 109",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 **PİLOT BİTTİ: 6/8 BULUNDU — eşik geçildi.** Commit `2316618`. Ve **iki fazladan bulgu**, ikincisi birincisini daraltıyor. ═══ ① KARNE — öngörü bandın ÜST ucunda ═══ ``` öngörü (aramadan ÖNCE damgalandı) 5-6 / 8 ölçüm 6/8 ✓ eşik de önceden konuldu: BULUNDU = gövde olayı ADIYLA ve TARİHİYLE veriyor varna-savasi 🟢 varna preveze-deniz-savasi 🟢 barbaros-hayreddin-pasa istanbulun-fethi 🟢 istanbul belgrad-antlasmalari 🟢 belgrad zenta-savasi 🟢 zenta nasuh-pasa-antlasmasi 🟢 nasuh-pasa sakarya-meydan-muharebesi 🟡 ZAYIF (anılıyor, 1921 YOK) cimpe-kalesi 🔴 YOK (üç aday da tutmadı) ``` 🟢 **Ve çürüyen ikisi, öngörüde önceden \"en şüpheli\" diye işaretlediğim ikisiydi** (`sakarya` — TDV'nin Cumhuriyet taneciği zayıf · `cimpe-kalesi` — zaten `YER` cinsindeyken ölü, desenin kendi istisnası). Öngörünün **sayısı** değil **şekli** de tuttu. ═══ 🔴 ② ALETİME GÜVENMEDİM — dördünü ELLE doğruladım ═══ Birinci geçişin kanıt penceresi dört vakada şüpheliydi; **`zenta`nınki HTML/CSS artığıydı** (*\"rastgele bir madde… style=…\"*). İkinci geçiş yılın etrafında dar pencere alıp etiket kalıntısını eledi. **Altısı da doğrulandı** — `zenta`nınki gerçekten maddenin **kendi tanım cümlesi**ymiş: *\"ZENTA — 1697'de Osmanlı ordusunun Kutsal İttifak güçleri tarafından bozguna uğratıldığı yer.\"* 📌 Bugün beşinci kez aynı refleks: **alet \"buldum\" dedi, ben ölçtüm.** ═══ 🟢 ③ FAZLADAN BULGU — olayın KENDİ maddesi bazen VAR, adı farklı ═══ TDV'nin **kendi çapraz göndermesi** doğru slugu veriyor: ``` `varna` gövdesi \"… (bk. VARNA MUHAREBESİ)\" `barbaros-hayreddin-pasa` gövdesi \"PREVEZE DENİZ MUHAREBESİ … (945/1538)\" sınandı: varna-muharebesi 200 🟢 · preveze-deniz-muharebesi 200 🟢 ``` ⇒ Külliyat *\"savaşı\"* yazmış, TDV *\"muharebesi\"* diyor. ═══ 🔴 ④ AMA HEMEN DARALTTIM — kör yeniden adlandırma ÇALIŞMIYOR ═══ ``` \"savasi\" → \"muharebesi\" körlemesine: 2 / 10 (%20) TDV'nin KENDİ göndermesi izlendi: 2 / 2 (%100) ölü kalanlar: zenta · cildir · sirpsindigi · mesaleler · salankamen · camurlu · izladi · kirim (hepsi `-muharebesi` de 302) ``` ⇒ ***Kural \"eki değiştir\" DEĞİL, \"kaynağın kendi göndermesini İZLE\".*** 📌 `§4`ün *\"kaynağı okumak, kaynağın kendi uyarısını da okumaktır\"* dersinin **adres** tarafı: **TDV yanlış kapıya gelen okuyucuya doğru kapıyı gösteriyor** — yeter ki gövde okunsun. ⚠️ Bu ayrımı yapmasaydım *\"savaşı→muharebesi yap\"* diye bir kural önerecektim ve **%80'i yanlış** olacaktı. ═══ ⑤ NE İSTİYORUM ═══ Eşiğin **geçildi** (6/8 ≥ 5). **Kalan 28'i koşturayım mı?** Tahminî maliyet: 28 × 2-3 aday × gövde okuması ≈ 70-90 istek, ~15 dk. ⚠️ Ve şimdiden söylüyorum: **28'in hepsi bulunmayacak.** Pilotun iki kaybı tesadüf değil — `sakarya` **1921** (Cumhuriyet dönemi, TDV taneciği zayıf) ve `cimpe-kalesi` **küçük bir kale**. Kalan 28'de aynı iki sınıf var: `buyuk-taarruz` · `bab-i-ali-baskini` · `cumhuriyet` · `reji` (hepsi geç dönem) ve `kosmidion` · `ulubat` (küçük yer). **Öngörüm: 28'in 18-22'si BULUNDU.** **Hiçbir `kaynak:` alanına dokunmadım** — toplu uygulama sende.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
