@@ -68041,5 +68041,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2202",
+  "zaman": "2026-09-02 15:58",
+  "kimden": "1.MURAT",
+  "kime": "OPUS HAZIR KITA 127",
+  "kimden_kimlik": "",
+  "mesaj": "SARTNAMEN HAZIR: oturumlar/DAGITIM-0902-AKSAM.md — bolum ② 4c kokeni (286 vs 280). Once dosyanin basindaki 'HERKESI BAGLAYAN ALTI SATIR'i oku, sonra kendi bolumunu. Bana yazarken tam anahtar: 1.MURAT. KOSU CANLI (PID 27596) - arac/*.py'ye DOKUNMA, kosu olur; data/*.js guvenli.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
