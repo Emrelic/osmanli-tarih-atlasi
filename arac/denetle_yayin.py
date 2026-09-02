@@ -1237,9 +1237,77 @@ def main():
         _bagli = True
         print("\n✗  bağlılık nöbetçisi ÖLÇEMEDİ: %s" % str(_e)[:70])
 
+    # ── DİZİNSİZ HARİTA KİMLİĞİ (2 Eylül 2026, PAKET-0033'ün ölçümüyle) ──
+    # Çizilen bir gövdenin dizinde karşılığı yoksa iki şey birden olur:
+    #   ① kullanıcı gövdeyi görür ama ADINI öğrenemez
+    #   ② `Değişmez 4` (hayalet dönem) o kimliğin ÖMRÜNÜ denetleyemez
+    #      ⇒ hayalet taraması SESSİZCE EKSİK koşar
+    # ②'si durdurmayı hak ettiriyor: bir denetimin kapsamı sessizce
+    # daralıyorsa, temiz raporu artık bir şey ifade etmez.
+    # 🔴 VE BU BOŞLUK 17 GÜN AÇIK KALDI: `panama-cumhuriyeti` 16 Ağustos'ta
+    #   `devletler.js` YORUMUNDA kaydedilmişti — *"kayıt VARDI, SORAN
+    #   YOKTU."* Kapı, o soruyu soran şeydir.
+    #
+    # ⚠️ YALNIZ "dizinsiz kimlik" BAĞLANDI — üçü de değil, ve gerekçesi ÖLÇÜM:
+    #   renkli-künyesiz  tek gerçek örnekte dizinsizle BİREBİR AYNI küme
+    #                    (4/4, A\B ve B\A boş) ⇒ bağlamak AYNI kusuru İKİ KEZ
+    #                    saydırırdı. Tabloda rapor olarak kalıyor.
+    #   ölü renk         bugün zarar YOK, bir BEKLEYEN kusur ⇒ uyarı, kapı değil
+    #   kasıtlı boşluk   bir BEYAN, kusur değil ⇒ kapıya hiç girmez
+    # 📌 Ve bir sahte alarmdan dönüldü: kullanılan 400 kimliğin 9'unun rengi
+    #   yok ama SEKİZİ `harita:` ile renkli bir anahtara düşüyor
+    #   (`bulgaristan-kralligi`→`bulgaristan` gibi), dokuzuncusu `__BOSLUK__`.
+    #   *"8 devlet boyanmıyor"* denecekti; ölçüm çürüttü.
+    #
+    # 🔴 `durum_tablosu.olc()` ÇAĞRILMIYOR — içeride `denetle.py` koşuyor ve
+    #   kapıyı dakikalara çıkarırdı. Saf fonksiyon çağrılıyor. Bu, hemen
+    #   yukarıdaki `_bagli_mi` dersinin aynısı: kapıya alet eklerken aletin
+    #   MALİYETİ ve YAN ETKİSİ de ölçülür.
+    try:
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        # 🔴 IMPORT STDOUT'U ÖLDÜRÜYOR — ölçüldü, ve bu YUKARIDAKİ `argparse`
+        #   DERSİNİN KARDEŞİ. `durum_tablosu.py:20` MODÜL DÜZEYİNDE
+        #       sys.stdout = io.TextIOWrapper(sys.stdout.buffer, ...)
+        #   yapıyor. İçe aktarılınca stdout YENİ bir sarmalayıcıya döner;
+        #   eskisi çöpe gidince ALTTAKİ TAMPONU KAPATIR ve kapının bundan
+        #   sonraki her `print`i `ValueError: I/O operation on closed file`
+        #   ile patlar — kapı ÖLÜR.
+        #   İlk yazımımda tam bu oldu; sınamasaydım kapı sessizce çökecekti.
+        # ⇒ stdout korunuyor: yeni sarmalayıcı `detach()` ile tamponu BIRAKIR
+        #   (kapatmadan), sonra eski stdout geri konur.
+        # 📌 Ders: bir modülü TEK BİR FONKSİYON için içe aktarmak, o modülün
+        #   BÜTÜN modül düzeyi yan etkilerini de içeri alır.
+        _eski_stdout = sys.stdout
+        try:
+            import durum_tablosu as _dt
+        finally:
+            if sys.stdout is not _eski_stdout:
+                try:
+                    sys.stdout.detach()
+                except Exception:
+                    pass
+                sys.stdout = _eski_stdout
+        _kul, _diz = _dt.kimlik_evreni()
+        _eksik, _kasitli = _dt.bosluk_kovalari(_kul, _diz)
+        _dizinsiz = len(_eksik)
+        if _dizinsiz:
+            print("\n✗  DİZİNSİZ HARİTA KİMLİĞİ: %d kimlik / %d pencere — "
+                  "çiziliyor ama dizinde YOK"
+                  % (_dizinsiz, sum(_eksik.values())))
+            for _k, _n in sorted(_eksik.items())[:10]:
+                print("     %-28s %d pencere" % (_k, _n))
+        else:
+            print("\n✓  dizinsiz harita kimliği: 0"
+                  + ("  (kasıtlı boşluk: %d — BEYAN, kusur değil)" % len(_kasitli)
+                     if _kasitli else ""))
+    except Exception as _e:
+        # ÖLÇÜLEMEDİ asla TEMİZ sayılmaz — `_bagli` ile aynı desen.
+        _dizinsiz = 1
+        print("\n✗  dizinsiz kimlik nöbetçisi ÖLÇEMEDİ: %s" % str(_e)[:70])
+
     if (yoklar or izlenmeyenler or kayitsiz or len(damgalar) > 1
             or damga_ihlali or bayat or izsiz or iz_bayat or _sz
-            or _bagli):
+            or _bagli or _dizinsiz):
         print("SONUÇ: İHLAL VAR — çıkış kodu 1")
         return 1
     print("SONUÇ: temiz")

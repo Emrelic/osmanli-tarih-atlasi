@@ -52,6 +52,35 @@ def _oku(y):
 KASITLI_BOSLUK = {"__BOSLUK__"}
 
 
+def kimlik_evreni():
+    """(kul, diz) — kullanım sayacı ve dizin kümesi. `denetle.py` KOŞMAZ.
+
+    🔴 NİÇİN AYRI FONKSİYON — 2 Eylül 2026, yayın kapısı bağlanırken.
+      Kapı (`denetle_yayin.py`) bu iki kümeye ihtiyaç duyuyor ama
+      `olc()`i ÇAĞIRAMAZ: `olc()` içeride `denetle.py` koşturuyor ve
+      kapıyı saniyelerden DAKİKALARA çıkarırdı.
+      İlk çözüm "kapıya 15 satır kopyala" idi — REDDEDİLDİ:
+      **bir bilgi iki yerde durursa biri güncellenince öteki bayatlar**
+      (`§11`, bu projede üç kez ölçüldü). Kapsam bu dosyada bugün bir kez
+      genişledi (`s:` → `s:`+`isg:`); kopya kalsaydı kapı ESKİ kapsamla
+      ölçmeye devam ederdi ve kimse fark etmezdi.
+    ⇒ Tek otorite burası. `olc()` de kapı da BURAYI çağırır.
+    """
+    d = _oku("data/devletler.js")
+    diz = (set(re.findall(r'\bid:\s*"([^"]+)"', d))
+           | set(re.findall(r'\bharita:\s*"([^"]+)"', d)))
+    yer = [f for f in girdi.GIRDI_DOSYALARI if f.startswith("yerlesimler")]
+    kul = collections.Counter()
+    for f in yer:
+        t = _oku(os.path.join("data", f))
+        t = "\n".join(l for l in t.split("\n") if not l.lstrip().startswith("//"))
+        for kat in (r"\bs:", r"\bisg:"):
+            for sm in re.finditer(kat + r"\s*\[(.*?)\]\s*[,}]", t, re.S):
+                for m in re.finditer(r'\bd:\s*"([^"]+)"', sm.group(1)):
+                    kul[m.group(1)] += 1
+    return kul, diz
+
+
 def bosluk_kovalari(kul, diz):
     """Dizinde olmayan kimlikleri İKİ KOVAYA ayırır: (eksik, kasitli).
 
@@ -189,15 +218,11 @@ def olc():
     # ⇒ Dört değil İKİ alan taranır. `d:`/`v:` eklemek, kimlik olmayan yerde
     #   kimlik aramak olurdu — bulunmayan şeyi "temiz" diye raporlardı.
     # 📌 `§11`: aletin EVRENİ, doğruluğundan ayrı ölçülür.
-    yer = [f for f in girdi.GIRDI_DOSYALARI if f.startswith("yerlesimler")]
-    kul = collections.Counter()
-    for f in yer:
-        t = _oku(os.path.join("data", f))
-        t = "\n".join(l for l in t.split("\n") if not l.lstrip().startswith("//"))
-        for kat in (r"\bs:", r"\bisg:"):
-            for sm in re.finditer(kat + r"\s*\[(.*?)\]\s*[,}]", t, re.S):
-                for m in re.finditer(r'\bd:\s*"([^"]+)"', sm.group(1)):
-                    kul[m.group(1)] += 1
+    # 🔴 Evren kurulumu `kimlik_evreni()`ye TAŞINDI — yayın kapısı da onu
+    #   çağırıyor. İkisi aynı yerden okuyor, yani kapsam bir daha genişlerse
+    #   ikisi BİRLİKTE genişler. (Gerekçe: fonksiyonun kendi başlığında.)
+    kul, _diz2 = kimlik_evreni()
+    assert _diz2 == diz, "kimlik_evreni() ile olc() AYRIŞTI — dizin kümesi farklı"
     eksik, kasitli = bosluk_kovalari(kul, diz)
     o["kimlik_eksik"] = len(eksik)
     o["kimlik_eksik_pencere"] = sum(eksik.values())
