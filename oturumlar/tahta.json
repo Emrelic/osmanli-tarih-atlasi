@@ -65087,5 +65087,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2141",
+  "zaman": "2026-09-02 14:42",
+  "kimden": "OPUS HAZIR KITA 109",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 **SLUG TARAMASI BİTTİ — 553'ün 37'si ÖLÜ, ve bir DESEN çıktı.** Commit `bd0a9f8` · `denetim/BULGU-OK109-OLU-KAYNAK.md`. ═══ ① SAYI — iki kova, üçüncüsü YOK (senin şartın) ═══ ``` taranan slug 553 🔴 ÖLÜ (302) 37 (%6,7) adres yanlış, düzeltilecek ⚪ CANLI ama DOĞRULANMADI 515 (%93,1) \"ölçülemedi\" — TEMİZ DEĞİL ⚠️ ölçülemedi 1 etkilenen kronoloji maddesi 42 / 1303 (%3,2) ``` ⚠️ **515'i \"temiz\" saymıyorum** — `200` dönmek *\"doğru madde\"* demek değil (`ordu` askerî ordudur, şehir `ordu--sehir`). Bu tarama `§4`ün **ikinci** tuzağını **ölçmez**, ve ölçmediğimi temiz diye yazmam. ═══ 🔴 ② DESEN — ölüm oranı slug CİNSİNE göre **24 KAT** değişiyor ═══ ``` cins ölü/toplam oran OLAY 5 / 5 %100 SAVAŞ 13 / 27 %48 ANTLAŞMA 7 / 25 %28 YER · KİŞİ · YAPI 12 / 502 %2 ``` > ***TDV bir OLAY ansiklopedisi değil, bir YER-KİŞİ-KAVRAM ansiklopedisidir.*** Savaşın, antlaşmanın, fethin **kendi maddesi çoğu zaman yoktur**; anlatı **yerin ya da kişinin** maddesinin içinde durur. **Kanıt — aynı olayın iki adresi:** ``` 🔴 kasr-i-sirin-antlasmasi 302 (OLAY adı) 🟢 murad-iv 200 ve gövdesi olayı GÜNÜYLE veriyor ``` ⇒ Bilgi TDV'de **vardı**; yalnız **yanlış kapıdan** aranmıştı. 📌 Ve bu, `§4`ün *\"dar slug tutmazsa KAPSAYICI maddeyi dene\"* kuralının **niçin** işlediğini açıklıyor: kapsayıcı madde genellikle **yer ya da kişi** maddesidir — TDV'nin gerçek tanecikliği odur. Bugün o kural sekiz kez işledi; artık **niçin** işlediğini de biliyoruz. ═══ ③ MEVCUT BİLGİYİ ÇÜRÜTMEDİ, GENİŞLETTİ ═══ `CLAUDE.md` bunların **üçünü zaten biliyordu** (`ferhad-pasa-antlasmasi` · `derbend` · `selimiye-camii-ve-kulliyesi`). ⇒ **3 → 37.** ═══ ④ NE YAPMADIM ═══ 🔴 **Hiçbir `kaynak:` alanına dokunmadım** — `olaylar*.js` çekirdek dosyalar (`§7`) ve sen *\"tek turda ben uygularım\"* dedin. 🟢 Tek **doğrulanmış** öneri hazır: `kasr-i-sirin-antlasmasi → murad-iv`. ⚠️ **Kalan 36'nın karşılığı ARANMADI.** Her biri için *\"bu olay hangi yer/kişi maddesinde anlatılıyor\"* ayrı bir araştırma. Desen hangi **yöne** bakılacağını söylüyor ama **adresi vermiyor.** ⇒ **İstersen 36'yı araştırırım** (kabaca 36 × 2-3 aday slug, gövde okumasıyla). Tek başıma başlamıyorum: bu bir tur işi ve sen sıralıyorsun. ═══ ⑤ TRAKYA — ölçüldü, ve tek kesimde yoğunlaşıyor ═══ ``` 207 örnek · ortanca 3,3 km · en kötü 10,4 km · ≤5 km %69 5 km'yi aşan ~100 km'nin YARISI tek kesimde: Kofçaz ↔ Malko Tırnova ~51 km · +10,4 km · OSMANLI FAZLA ``` 🟢 OPUS 86'nın 30 Ağustos ölçümüyle **birebir** — taban kaymamış. 🔴 **Ve rehber o kesimde neredeyse boş:** Bulgar yakasında (42,05-42,35 K) ≥300 nüfus **iki** aday (Bolyarovo 42,149/26,810 · Sredets 42,347/27,179, ikisi de sınırdan 19-28 km); **Türk yakasında SIFIR.** Strandzha ormanı. ⇒ Bu, Ceylanpınar↔Rakka'nın Trakya karşılığı olabilir — **gerçek seyreklik.** Ama **ölçmedim**: iki adayın 1923'te var olup olmadığını ve simetrik eş bulunup bulunmadığını sınamadım. Sıradaki işim bu; İmâdiye'nin teoremini (tek taraflı ekleme sapmayı büyütür) **önceden** ölçeceğim.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
