@@ -863,6 +863,55 @@ def main():
     # (yerlesimler_ortaasya2.js buradan ÇIKTI: İş A/27e234c ile canlıya
     #  alındı, artık girdi.py izin listesinde. Sayılar 2 Ağustos ölçümü.)
     BEKLEYEN = {
+        # ══ 2 EYLÜL 2026 BAĞLAMA KUYRUĞU — SEKİZ DOSYA, TEK ÖN KOŞUL ══
+        # Sekizi de `arac/_baglama_onsinav.py`den GEÇTİ (ad alanı 8/8 · ad
+        # çakışması 0 · 3 km mükerrer 0 · node ayrıştırma 8/8) ve altısı
+        # 10:5x'te BAĞLANDI — sonra GERİ ALINDI.
+        # 🔴 Sebep: yayın kapısı "YAYIN BAYAT" dedi ve HAKLIYDI. Koşu
+        #   22:51'de bu dosyalar OLMADAN başladı, 10:30'da bitti; koşudan
+        #   sonra bağlamak `donemler.js`in 36 noktayı HİÇ görmemesi demek
+        #   — nokta ekranda belirir, PETEĞİ OLMAZ.
+        # 📌 `oturumlar/BAGLAMA-KUYRUGU.md` bunu ADIYLA yazıyordu:
+        #   "DOĞRU AN: bir sonraki koşu BAŞLAMADAN HEMEN ÖNCE."
+        #   Koordinatör A-sırasını "koşu biter → bağla → yayınla" diye
+        #   kurdu; doğrusu "koşu biter → YAYINLA → bağla → yeni koşu".
+        #   ⇒ Kural yazılıydı, sıra yanlış kuruldu, ve yakalayan İNSAN
+        #     DEĞİL KAPI oldu.
+        # ⚠️ İKİSİ AYRICA BİR MÜKERRER TAŞIYOR: `el-Ulâ` (ok102) ile
+        #   `Ulâ (el-Ulâ)` (ok107) arasında 0,10 km = 100 METRE. Tek tek
+        #   sınavda görünmüyordu (adlar farklı yazılmış, ikisi de bağlı
+        #   değildi); yalnız KUYRUĞUN TAMAMI üstünde yakalandı. Sahipleri
+        #   birleştirecek — o ikisi ötekilerden bir tur SONRA bağlanır.
+        "data/yerlesimler_ok101.js":     "1 nokta (el-Vech) — yayın sonrası bağlanacak",
+        "data/yerlesimler_ok104.js":     "6 nokta (Hasankeyf dâhil; rengi A3'te yazıldı) — yayın sonrası",
+        "data/yerlesimler_ok106.js":     "11 nokta (Sloboda/Kırım hattı) — yayın sonrası",
+        "data/yerlesimler_ok109.js":     "2 nokta (İmâdiye · Şırnak) — yayın sonrası",
+        "data/yerlesimler_ok110.js":     "1 nokta (Darende) — yayın sonrası",
+        "data/yerlesimler_p0037.js":     "15 nokta (Bolgrad · Kahul · Zamość) — yayın sonrası",
+        "data/yerlesimler_ok102.js":     "3 nokta — AYRICA `el-Ulâ` mükerreri (ok107 ile 100 m), önce birleşme",
+        "data/yerlesimler_ok107.js":     "14 nokta — AYRICA `Ulâ (el-Ulâ)` mükerreri (ok102 ile 100 m), önce birleşme",
+
+        # ══ 2 EYLÜL GECESİ DOĞAN ÇALIŞMA DOSYALARI ══
+        # Üçü de bu gece açılan kolların ÜRÜNÜ ve hiçbiri tarayıcıya
+        # gitmez: ikisi bir ARACIN girdisi, biri henüz yarım.
+        "data/ad_esanlam.js":            "eşanlamlı ad sözlüğü — ARAÇ girdisi (Budin↔Buda, Üsküp↔Skopje); tarayıcıya gitmez",
+        "data/devletler_bk_ok106.js":    "`bk:` zamanlı başkent yaması — koordinatör işler, tarayıcıya gitmez",
+        "data/gecitler.js":              "geçit verisi — motor/araç girdisi, tarayıcıya gitmez",
+
+        # ══ YAMA DOSYALARI — TASARIM GEREĞİ YETİM ══
+        # Bunlar bir UYGULAYICI BETİĞİN girdisi; `yerlesimler*.js`e ya da
+        # `olaylar*.js`e işlenirler ve tarayıcıya HİÇ gitmezler. Adları
+        # zaten `yama`/`kron` taşıyor — `§7`nin "adı yanıltan dosya"
+        # dalının tam tersi: ad DOĞRU söylüyor.
+        "data/olay_yama_ok104.js":       "YAMA — olaylar*.js'e işlenir, tarayıcıya gitmez",
+        "data/yama_kronoloji_eslesme.js": "YAMA — kronoloji eşleme, uygulayıcı girdisi",
+        "data/yama_p0037_bekleyen.js":   "YAMA — p0037'nin bekleyen kalemleri, uygulayıcı girdisi",
+        "data/yer_kron_anadolu.js":      "YAMA — yerleşim×kronoloji eşleme, uygulayıcı girdisi",
+        "data/yer_kron_dogu.js":         "YAMA — yerleşim×kronoloji eşleme, uygulayıcı girdisi",
+        "data/etiket_yama.js":           "YAMA — etiket düzeltmeleri, uygulayıcı girdisi",
+        "data/etiket_sozluk.js":         "etiket sözlüğü — ARAÇ girdisi, tarayıcıya gitmez",
+        "data/ekokuma_sh104.js":         "ek okuma partisi — ARAYÜZ kuyruğunda (11 türün 7'si tanımsız, Emre 2 Eylül'de tanımlanmasına karar verdi)",
+        "data/merak_sh104.js":           "merak/ek okuma partisi — ARAYÜZ kuyruğunda, ekokuma_sh104 ile aynı kol",
         "data/yerlesimler_avrupa.js":    "237 nokta, 15 kimlik renkler.py'de tanımsız",
         "data/yerlesimler_asya.js":      "344 nokta, 135 kimlik tanımsız + harita penceresi 62°D'de bitiyor",
         # PETEK/NOKTA parti 12, 3 Agustos 2026. Gyula (Gole) -- CLAUDE.md

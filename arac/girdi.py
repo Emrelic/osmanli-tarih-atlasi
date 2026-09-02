@@ -631,6 +631,54 @@ GIRDI_DOSYALARI = [
     "yerlesimler_amerika2.js",        # 2 nokta · apaci-ovalar #d7a300
                                       #          · komanci #78bdff
     "yerlesimler_hindistan.js",       # 2 nokta · farukiler #80f67e
+
+    # ═══ 2 EYLÜL 2026 PARTİSİ — ALTI dosya, 36 nokta, 2624 → 2660.
+    # Sekizi de `arac/_baglama_onsinav.py` ile BAĞLAMADAN ÖNCE sınandı
+    # (araç aynı gün yazıldı, C13'ün üç ayağıyla: geçme çıkış 0 ·
+    # ateşleme çıkış 1 · bilinmeyen-alan dalı ayrıca).
+    #   ad alanı §7 kuralı        8/8 ✓   (dosya adının ayırt edici
+    #                                     parçası değişken adında)
+    #   bağlı evrende ad çakışması  0 ✓
+    #   3 km mükerrer (bağlı)       0 ✓   en yakın 6,6 km
+    #   node ayrıştırma             8/8 ✓
+    #
+    # 🔴 AMA İKİSİ BAĞLANMADI — kuyruğun KENDİ İÇİNDE bir mükerrer var:
+    #   `el-Ulâ` (ok102) ↔ `Ulâ (el-Ulâ)` (ok107)   →  0,10 km = 100 METRE
+    # Tek tek sınavda GÖRÜNMÜYORDU: ad çakışması denetimi kaçırdı (adlar
+    # farklı yazılmış), tek tek sınav da kaçırdı (ikisi de bağlı DEĞİLDİ,
+    # hiç karşılaşmadılar). Yakalayan tek şey MESAFE oldu, ve ancak
+    # KUYRUĞUN TAMAMI üstünde.
+    # 📌 Ve `el-Ulâ` aynı gece İKİNCİ kez keşfedildi: ok101-ok102 arasında
+    #    zaten çözülmüştü, ama karşılaştırma İKİ DOSYA arasında yapılmıştı;
+    #    üçüncü kopya ok107'de duruyordu.
+    #    ⇒ Bir mükerrer avı, KUYRUĞUN TAMAMI üzerinde yapılmazsa yarım
+    #      kalır — ve yarım kaldığı BELLİ OLMAZ.
+    # Ölçüldü: ok107 `kaynak:"vadilkura"` taşıyor (ok102'de kaynak YOK,
+    # `§4` kırmızı çizgisi), ok102 ise `m:"Medine"` ve `g:` taşıyor.
+    # ⇒ Doğrusu bir BİRLEŞME ve sahiplerinin işi; parti onları beklemedi.
+    # 🔜 `yerlesimler_ok102.js` · `yerlesimler_ok107.js` — çözülünce bağlanır.
+    # 🔴🔴 BU ALTI SATIR 2 EYLÜL 10:5x'te EKLENDİ VE 11:0x'te GERİ ALINDI.
+    #   Yayın kapısı (`denetle_yayin.py`) durdurdu ve HAKLIYDI:
+    #     "✗ YAYIN BAYAT — üretim girdiden geride (girdi DOSYA KÜMESİ
+    #      değişmiş: ok101, ok104, ok106, ok109, ok110, p0037)"
+    #   Koşu 22:51'de bu ALTI DOSYA OLMADAN başlamıştı; 10:30'da bitti.
+    #   Koşudan SONRA bağlamak, `donemler.js`in 36 noktayı HİÇ görmemesi
+    #   demek — nokta ekranda belirir, PETEĞİ OLMAZ.
+    #
+    # 📌 VE BUNU KENDİ KUYRUK DOSYAM ADIYLA YAZIYORDU
+    #   (`oturumlar/BAGLAMA-KUYRUGU.md`):
+    #     "Koşudan SONRA bağlamak yayını BAYAT yapar: index.html'e de
+    #      eklenirse NOKTA GÖRÜNÜR AMA PETEĞİ OLMAZ, kullanıcı sahipsiz
+    #      bir işaret görür.  ⇒ DOĞRU AN: bir sonraki koşu BAŞLAMADAN
+    #      HEMEN ÖNCE."
+    #   Koordinatör A-sırasını "koşu biter → bağla → yayınla" diye kurdu;
+    #   doğrusu "koşu biter → YAYINLA → bağla → yeni koşu"dur.
+    #   ⇒ Kural yazılıydı, sıra yanlış kuruldu, ve yakalayan İNSAN DEĞİL
+    #     KAPI oldu. `§11`in "kural yetmiyor, ALET gerekiyor" dersinin
+    #     bugünkü dördüncü vakası — ve bu sefer alet kazandı.
+    #
+    # 🔜 SIRA: yayın (damga+push) → ANINDA yeniden bağla → A4 tavan 200
+    #    → yeni koşu. Metin `oturumlar/BAGLAMA-KUYRUGU.md`de duruyor.
     "yerlesimler_8beb2b.js",          # Yakutistan · Kamçatka · Çukotka ·
                                       # Kolıma. 🔴 SIFIR NOKTA, VE KASITLI:
                                       # araştırma "buraya nokta yazılmamalı"
@@ -761,7 +809,41 @@ BILINEN_ALANLAR = {
     # kaydetmek, bilmediğini bilgi diye yazmaktır.
     "kd":  "zamanlı idari kademe+merkez [{f,t,k,m}] — k:/m:'nin yerini "
            "ALACAK; yoksa k:/m:'den türetilir (kd_oku)",
+
+    # ═══ 2 EYLÜL 2026 — A2. ÜÇÜ DE VERİDE ZATEN CANLIYDI.
+    # `renk_olc.py` her koşuda bunları "BILINEN_ALANLAR'da yok — yazım
+    # hatası mı, yeni şema alanı mı?" diye soruyordu. Soru ÖLÇÜLDÜ ve
+    # üçü de MEŞRU çıktı; dördüncü bir aday (`baskent`) REDDEDİLDİ.
+    # 📌 `kaynak` alanının 16 Ağustos vakasının aynısı: kural yazılmış,
+    #    veri yazılmış, ALET güncellenmemişti.
+    "kesinlik":
+           "tarih hassasiyeti: gun|ay|yil|onyil|yuzyil|belirsiz. SKALER "
+           "ya da NESNE ({f,t}) — bir dönemin iki ucu farklı hassasiyette "
+           "olabilir (Vidin: başı ay, sonu gün). VERI-YAPISI.md'de tam. "
+           "⚠️ 'ne kadar kesin' der, 'biliyor muyuz' DEMEZ — dayanaksız "
+           "bir tarihi kesinlik alanıyla meşrulaştırmak YASAK",
+    "pencere_disi":
+           "True ise nokta harita PENCERESİNİN dışında — İHLAL DEĞİL, "
+           "'pencere oraya açılana kadar BEKLEYEN veri'. Sofala vakasında "
+           "öğrenildi: bu kayıtları 'düzeltmek' ihlali kapatır ve DOĞRU "
+           "VERİYİ BOZAR (§11). Pencere büyüyünce KENDİLİĞİNDEN canlanır",
+    "sinir":
+           "True ise 1923 sınır hattı köyü — Emre'nin 'sınırları birebir "
+           "çizelim' kararının kayıtları. denetle.py'nin 4d yorumu "
+           "bunları adıyla anıyor",
 }
+# 🔴 `baskent` BİLEREK EKLENMEDİ — 2 Eylül 2026'da ölçüldü ve REDDEDİLDİ.
+#   Tek kayıtta geçiyor (yerlesimler_amerika2.js: Comanchería) ve değeri
+#   bir sözlük değil bir CÜMLE: "merkezi yok — göçebe, son direniş
+#   noktası Palo Duro Kanyonu". İki ayrı sebep, ikisi de tek başına yeter:
+#   ① İÇERİK  makine ona soru soramaz — `§11`in on birinci kusur sınıfı.
+#             Doğru yeri `neden:` ya da `kaynak:`.
+#   ② AD      aynı gün künye tarafına `bk:[{f,t,ad}]` zamanlı başkent
+#             alanı yazıldı. Yerleşim kaydında `baskent` adlı bir alan
+#             bırakmak, AYNI ADI İKİ EKSENDE iki farklı anlamda kullanmak
+#             olur — ve bir gün biri onu okumaya kalkar.
+#   🔜 O kaydın düzeltilmesi (cümle `neden:`e taşınır, anahtar kalkar)
+#      dosya sahibine bildirildi.
 
 # Dönem nesnelerinin (s/d/v/isg elemanları) alanları
 BILINEN_DONEM_ALANLARI = {

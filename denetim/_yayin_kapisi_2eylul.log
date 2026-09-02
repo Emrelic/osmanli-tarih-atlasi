@@ -1,0 +1,172 @@
+index.html'in çektiği yerel varlık: 163
+  diskte VAR ve git'te izlenen : 163
+
+✓  diskte HİÇ YOK: 0
+✓  diskte var ama GIT'TE İZLENMİYOR: 0
+✓  yetim veri dosyası: 0 / 247  (ne index.html ne girdi.py okuyor)
+  i 27 parti bilerek bekliyor:
+      data/ad_esanlam.js                 eşanlamlı ad sözlüğü — ARAÇ girdisi (Budin↔Buda, Üsküp↔Skopje); tarayıcıya gitmez
+      data/devletler_bk_ok106.js         `bk:` zamanlı başkent yaması — koordinatör işler, tarayıcıya gitmez
+      data/ekokuma_sh104.js              ek okuma partisi — ARAYÜZ kuyruğunda (11 türün 7'si tanımsız, Emre 2 Eylül'de tanımlanmasına karar verdi)
+      data/etiket_sozluk.js              etiket sözlüğü — ARAÇ girdisi, tarayıcıya gitmez
+      data/etiket_yama.js                YAMA — etiket düzeltmeleri, uygulayıcı girdisi
+      data/gecitler.js                   geçit verisi — motor/araç girdisi, tarayıcıya gitmez
+      data/kademe_4ff22b.js              YAMA dosyasi (Arap-Iran kademe/kd:) — mevcut yerlesimler*.js'e KOORDINATOR isler, tarayiciya HIC gitmez
+      data/kademe_8beb2b.js              YAMA dosyasi (Anadolu-Rumeli kademe/kd:), ayni
+      data/kademe_d48240.js              YAMA (Dunya kademe) — UYGULANDI, kapali
+      data/kademe_e9353f.js              YAMA (Afrika ici kademe) — UYGULANDI, kapali
+      data/kademe_f5c9a5.js              YAMA (Asya kademe) — UYGULANDI, kapali
+      data/kunye_9d907c.js               YAMA (32 Amerika kunyesi) — devletler.js'e islendi (392→424), kapali
+      data/kunye_9d907c_2.js             YAMA (tui-tonga kunyesi) — islendi, kapali
+      data/merak_sh104.js                merak/ek okuma partisi — ARAYÜZ kuyruğunda, ekokuma_sh104 ile aynı kol
+      data/olay_yama_ok104.js            YAMA — olaylar*.js'e işlenir, tarayıcıya gitmez
+      data/yama_kronoloji_eslesme.js     YAMA — kronoloji eşleme, uygulayıcı girdisi
+      data/yama_p0037_bekleyen.js        YAMA — p0037'nin bekleyen kalemleri, uygulayıcı girdisi
+      data/yer_kron_anadolu.js           YAMA — yerleşim×kronoloji eşleme, uygulayıcı girdisi
+      data/yer_kron_dogu.js              YAMA — yerleşim×kronoloji eşleme, uygulayıcı girdisi
+      data/yerlesimler_ok101.js          1 nokta (el-Vech) — yayın sonrası bağlanacak
+      data/yerlesimler_ok102.js          3 nokta — AYRICA `el-Ulâ` mükerreri (ok107 ile 100 m), önce birleşme
+      data/yerlesimler_ok104.js          6 nokta (Hasankeyf dâhil; rengi A3'te yazıldı) — yayın sonrası
+      data/yerlesimler_ok106.js          11 nokta (Sloboda/Kırım hattı) — yayın sonrası
+      data/yerlesimler_ok107.js          14 nokta — AYRICA `Ulâ (el-Ulâ)` mükerreri (ok102 ile 100 m), önce birleşme
+      data/yerlesimler_ok109.js          2 nokta (İmâdiye · Şırnak) — yayın sonrası
+      data/yerlesimler_ok110.js          1 nokta (Darende) — yayın sonrası
+      data/yerlesimler_p0037.js          15 nokta (Bolgrad · Kahul · Zamość) — yayın sonrası
+  i 1 dosya EMEKLİ (bağlanmayacak — bekleyen DEĞİL):
+      data/kimlikler.js                  EMEKLİ (0408bca) — harita: değerleri devletler.js'e taşındı, tek otorite o; arayüz HİÇ kullanmayacak
+  i 59 dosya ARA ÇIKTI (üretim aracı tüketir, tarayıcı bilerek yüklemez):
+      data/ekokuma.js                    index.html:125 — tembel yukleme, ayni mekanizma
+      data/merak.js                      index.html:125 — tembel yukleme, ekOkumaMerakYukle() ilk gerektiginde ceker
+      data/petek_govde.js                uret_devirler.py:294-296 okur — motor ara çıktısı, tarayıcıya bilerek gitmez
+      data/yer_yama.js                   arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_acik.js              arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_almanya.js           arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_anadolu.js           arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_balkan_makedonya.js  arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_balkan_trakya.js     arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_cin.js               arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_dogafr.js            arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_emilme.js            arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_emilme2.js           arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_enklav.js            arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_erken.js             arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_ferhatpasa.js        arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_fransa.js            arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_gece_v1.js           arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_gece_v3.js           arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_hayalet.js           arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_hayalet2.js          arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_ing.js               arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_iran.js              arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_ispanya.js           arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_isvec.js             arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_italya.js            arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_japonya.js           arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_kademe.js            arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_kademe2.js           arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_kademe_zincir.js     arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_kafkas.js            arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_kapsam.js            arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_kuzafr.js            arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_macar.js             arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_macar_avusturya.js   arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_memluk.js            arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_misir.js             arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_ok101.js             arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_ok104.js             arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_ok105.js             arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_ok106.js             arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_ok107.js             arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_ok109.js             arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_ok109_fetret.js      arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_ok110.js             arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_owtrad.js            arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_p0037.js             arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_p19.js               arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_p32.js               arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_p35.js               arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_romanya.js           arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_sahiplik.js          arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_sh106.js             arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_sh107.js             arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_sh110.js             arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_uyg1.js              arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_uyg2.js              arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_uyg3.js              arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+      data/yer_yama_veri31.js            arac/yama_uygula.js tarar — kronoloji eşleşmesini uygular
+✓  sürüm damgası: r4391
+✓  damga artışı: son 30 commit'te js/css değiştiren 0 commit damgayı arttırmamış
+
+  UYARI alan: 'baskent' BILINEN_ALANLAR'da yok — 1 kayıtta (yerlesimler_amerika2.js:Comanchería (Güney Büyük Ovalar)). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
+
+✓  yayın tazeliği: girdi ile harita aynı (sha256 izi)
+
+✓  üretim izi: 7/7 üretilen çıktı iz taşıyor · taze 7 · bayat 0 · izsiz 0
+
+⚠️  ÜRETİLİYOR AMA ÇİZİLMİYOR: 13  (32 kasıtlı muaf hariç)
+     AD_ESANLAM             data/ad_esanlam.js           app.js OKUMUYOR · index.html YÜKLEMİYOR
+     DEVLETLER_BK_OK106     data/devletler_bk_ok106.js   app.js OKUMUYOR · index.html YÜKLEMİYOR
+     EKOKUMA_SH104          data/ekokuma_sh104.js        app.js OKUMUYOR · index.html YÜKLEMİYOR
+     MERAK_SH104            data/merak_sh104.js          app.js OKUMUYOR · index.html YÜKLEMİYOR
+     OLAY_YAMA_OK104        data/olay_yama_ok104.js      app.js OKUMUYOR · index.html YÜKLEMİYOR
+     SAVASLAR_OK104         data/savaslar_ok104.js       app.js OKUMUYOR
+     YERLESIMLER_OK101      data/yerlesimler_ok101.js    index.html YÜKLEMİYOR
+     YERLESIMLER_OK102      data/yerlesimler_ok102.js    index.html YÜKLEMİYOR
+     YERLESIMLER_OK104      data/yerlesimler_ok104.js    index.html YÜKLEMİYOR
+     YERLESIMLER_OK107      data/yerlesimler_ok107.js    index.html YÜKLEMİYOR
+     YERLESIMLER_OK109      data/yerlesimler_ok109.js    index.html YÜKLEMİYOR
+     YERLESIMLER_OK110      data/yerlesimler_ok110.js    index.html YÜKLEMİYOR
+     YERLESIMLER_P0037      data/yerlesimler_p0037.js    index.html YÜKLEMİYOR
+     → §40: veri doğru olabilir ama kullanıcı GÖRMÜYOR.
+       Kasıtlıysa CIZILMEYEN_MUAF'a gerekçesiyle eklensin.
+
+✓  inline sözdizimi: 1 <script> bloğu `node --check` ile temiz
+_bagli_mi — İKİ KAPI KARŞILAŞTIRMASI
+  motor    `girdi.GIRDI_DOSYALARI` : 63 dosya
+  tarayıcı `index.html <script>`   : 159 dosya
+
+① MOTOR VAR · TARAYICI YOK   ✓  0 ihlal · 0 muaf
+
+② TARAYICI VAR · MOTOR YOK   ✓  0 ihlal
+
+③ YÜKLENİYOR AMA BİRLEŞMİYOR ✓  0 ihlal
+
+④ KRONOLOJİ YETİMİ           ✓  0 ihlal · 1 muaf
+
+⑤ AD ALANI ÇAKIŞMASI         ✓  0 ihlal · 1 uyarı · 2 muaf
+     ⚠️ window.KADEME_YAMA  ← 4 dosya: kademe_4ff22b.js, kademe_8beb2b.js, kademe_d48240.js, kademe_f5c9a5.js
+        yayına zarar vermiyor (tarayıcıya 0 tanesi yükleniyor) — ama bu dosyaları TEK BAĞLAMDA okuyan bir uygulayıcı sonuncusu dışındakileri KAYBEDER (`§7`)
+        ⓘ 29 Ağu ölçümü: bu adı okuyan bir UYGULAYICI BETİK YOK (`grep -rl` → yalnız denetle_yayin + bu alet). Yani risk GERÇEK ama BUGÜN tüketicisi yok — uyarı olmasının sebebi bu. Biri uygulayıcı yazarsa ÖNCE değişkenleri ayrıştırsın.
+
+⑥ ADI YANILTAN DOSYA         ⚠️  8 uyarı · 0 muaf
+     bu dal 'yetim mi' DEMİYOR — onu `denetle_yayin.py` zaten sayıyor ve kendi BEKLEYEN sözlüğü var.
+     bu dalın sorduğu: **AD YALAN SÖYLÜYOR MU?** `yerlesimler*.js` adı, projede 'motorun okuduğu yerleşim girdisi' demektir.
+     ⚠️ yerlesimler_ok101.js  ~3 kayıt → window.YERLESIMLER_OK101
+        `girdi.py` bu dosyayı OKUMUYOR — yani ad, taşımadığı bir şeyi vaat ediyor. Vaka: `yerlesimler_kafkas_duzeltme.js` bir YAMA'ydı, adı yüzünden AYLARCA 'bağlı' sanıldı, 19 kaydın 19'u da inmedi.
+        ⇒ çare KAYIT DEĞİL AD: yama ise `yama_`/`yer_yama_` diye yeniden adlandır; gerçekten girdiyse `girdi.py`ye bağla.
+     ⚠️ yerlesimler_ok102.js  ~3 kayıt → window.YERLESIMLER_OK102
+        `girdi.py` bu dosyayı OKUMUYOR — yani ad, taşımadığı bir şeyi vaat ediyor. Vaka: `yerlesimler_kafkas_duzeltme.js` bir YAMA'ydı, adı yüzünden AYLARCA 'bağlı' sanıldı, 19 kaydın 19'u da inmedi.
+        ⇒ çare KAYIT DEĞİL AD: yama ise `yama_`/`yer_yama_` diye yeniden adlandır; gerçekten girdiyse `girdi.py`ye bağla.
+     ⚠️ yerlesimler_ok104.js  ~6 kayıt → window.YERLESIMLER_OK104
+        `girdi.py` bu dosyayı OKUMUYOR — yani ad, taşımadığı bir şeyi vaat ediyor. Vaka: `yerlesimler_kafkas_duzeltme.js` bir YAMA'ydı, adı yüzünden AYLARCA 'bağlı' sanıldı, 19 kaydın 19'u da inmedi.
+        ⇒ çare KAYIT DEĞİL AD: yama ise `yama_`/`yer_yama_` diye yeniden adlandır; gerçekten girdiyse `girdi.py`ye bağla.
+     ⚠️ yerlesimler_ok106.js  ~11 kayıt → window.YERLESIMLER_OK106
+        `girdi.py` bu dosyayı OKUMUYOR — yani ad, taşımadığı bir şeyi vaat ediyor. Vaka: `yerlesimler_kafkas_duzeltme.js` bir YAMA'ydı, adı yüzünden AYLARCA 'bağlı' sanıldı, 19 kaydın 19'u da inmedi.
+        ⇒ çare KAYIT DEĞİL AD: yama ise `yama_`/`yer_yama_` diye yeniden adlandır; gerçekten girdiyse `girdi.py`ye bağla.
+     ⚠️ yerlesimler_ok107.js  ~14 kayıt → window.YERLESIMLER_OK107
+        `girdi.py` bu dosyayı OKUMUYOR — yani ad, taşımadığı bir şeyi vaat ediyor. Vaka: `yerlesimler_kafkas_duzeltme.js` bir YAMA'ydı, adı yüzünden AYLARCA 'bağlı' sanıldı, 19 kaydın 19'u da inmedi.
+        ⇒ çare KAYIT DEĞİL AD: yama ise `yama_`/`yer_yama_` diye yeniden adlandır; gerçekten girdiyse `girdi.py`ye bağla.
+     ⚠️ yerlesimler_ok109.js  ~3 kayıt → window.YERLESIMLER_OK109
+        `girdi.py` bu dosyayı OKUMUYOR — yani ad, taşımadığı bir şeyi vaat ediyor. Vaka: `yerlesimler_kafkas_duzeltme.js` bir YAMA'ydı, adı yüzünden AYLARCA 'bağlı' sanıldı, 19 kaydın 19'u da inmedi.
+        ⇒ çare KAYIT DEĞİL AD: yama ise `yama_`/`yer_yama_` diye yeniden adlandır; gerçekten girdiyse `girdi.py`ye bağla.
+     ⚠️ yerlesimler_ok110.js  ~1 kayıt → window.YERLESIMLER_OK110
+        `girdi.py` bu dosyayı OKUMUYOR — yani ad, taşımadığı bir şeyi vaat ediyor. Vaka: `yerlesimler_kafkas_duzeltme.js` bir YAMA'ydı, adı yüzünden AYLARCA 'bağlı' sanıldı, 19 kaydın 19'u da inmedi.
+        ⇒ çare KAYIT DEĞİL AD: yama ise `yama_`/`yer_yama_` diye yeniden adlandır; gerçekten girdiyse `girdi.py`ye bağla.
+     ⚠️ yerlesimler_p0037.js  ~15 kayıt → window.YERLESIMLER_P0037
+        `girdi.py` bu dosyayı OKUMUYOR — yani ad, taşımadığı bir şeyi vaat ediyor. Vaka: `yerlesimler_kafkas_duzeltme.js` bir YAMA'ydı, adı yüzünden AYLARCA 'bağlı' sanıldı, 19 kaydın 19'u da inmedi.
+        ⇒ çare KAYIT DEĞİL AD: yama ise `yama_`/`yer_yama_` diye yeniden adlandır; gerçekten girdiyse `girdi.py`ye bağla.
+
+SONUÇ: TEMİZ — iki kapı da aynı dosyaları tanıyor · 9 UYARI duruyor (yayını durdurmuyor, yukarıda)
+
+✓  dizinsiz harita kimliği: 0  (kasıtlı boşluk: 1 — BEYAN, kusur değil)
+SONUÇ: temiz
