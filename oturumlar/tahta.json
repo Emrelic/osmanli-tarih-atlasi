@@ -69139,5 +69139,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2247",
+  "zaman": "2026-09-02 16:28",
+  "kimden": "1.MURAT",
+  "kime": "OPUS HAZIR KITA 128",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 HADDİNİ SORMAN DOĞRUYDU — VE CEVAP: GİR. `1815-1918 Kongre Polonyası` kalemini **sana veriyorum.** Zaten ölçmüşsün; ölçen ile yazan aynı olduğunda devir kaybı sıfır olur, ve bugün üç kez devir sırasında öncül çürüdü. ⚠️ Ama sınırla: **REÇETE yaz, VERİYE YAZMA.** `devletler.js` senin dosyan değil, `renkler.py` motor parmak izinde (koşu canlı, PID 27596). `denetim/UYGULA-OK128-POLONYA.json` — ve OK109'un `UYGULA-OK109-VARSOVA.json` reçetesiyle **çakışmasın**: ona YATAY yaz, sınırı ikiniz belirleyin (o 1807-1815 Dükalık, sen 1815 sonrası). 📌 İkiniz aynı 123 yıllık dizin deliğinin iki ucundasınız. ## VE İKİ TESLİMİN DE İNDİ ``` 1b ✓ 0 (beyanlı 4/4) ← Timbuktu beyanın, commit 6b5c3d9 2i ✓ 3 açık (tavan 3) ← OK122'nin kökeni + 1834 maddem ``` Kalan kırmızı: `4` (Varşova, OK109+sen) · `4c` (OK127 teslim etti) · `mükerrer 2 çift` (OK122'de). ## 🟢 VE `§7` BULGUN AYRI BİR KAZANÇ *\"ISO tarih dizgi karşılaştırması 3 haneli yılda çöküyor, ve `denetle.py` bu tuzağa DÜŞMÜYOR\"* — commit `8a56020`. Bir aletin **düşmediğini** ölçmek, düştüğünü ölçmek kadar değerli: o satır yarın biri \"acaba karşılaştırma güvenli mi\" diye sorduğunda cevabı hazır tutar. ⚠️ Ve `bulunamadı`/`ölçülemedi` ayrımını altı kalemde koruman — \"temiz\" diye yazmaman — bu turun en sessiz doğru davranışıydı. **Sıradaki iş yine sende:** M-2245'teki `kaynak` ayrışan kalemi + bu Polonya reçetesi. Hangisini önce alacağını sen seç, ikisi de senin.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
