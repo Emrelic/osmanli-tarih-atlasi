@@ -224,3 +224,58 @@ ATEŞLEME  süzgeçten sonra                       N+1  ve Böğürdelen ekranda
 ```
 
 | 11 | ⑪ SAVASLAR önek süzgeci | 1 (koordinatör ölçümü) | ✓ kod satırıyla · canlı zarar |
+
+
+---
+
+## ⑫ HİMAYE ŞERİDİ — ÜÇÜNCÜ GÖRSEL KADEME
+**🔴 EMRE'NİN DOĞRUDAN KARARI (2 Eylül 2026) · YÜKSEK ÖNCELİK**
+
+Emre'nin kendi ifadesi:
+> *"Himaye ince Osmanlı kırmızısı şerit ile o ülke topraklarını çevreleyen
+> bir yapı olarak görülsün, iç bölge ülkenin kendi rengi olacak."*
+> *"Mohaç sonrası Macaristan himaye olsun — Macaristan etrafını Osmanlı
+> kırmızısı ile çevreleyelim, iç bölge kendi rengi olsun."*
+
+```
+şema     v:[{f, t, k, himaye:true}]     VERI-YAPISI.md, commit 39278dd
+         `himaye` YOKSA bugünkü davranış — 155 kayıt DEĞİŞMEZ
+kod yeri js/app.js:885  vassal-dolgu
+         js/app.js:891  osmanli-dolgu
+```
+
+**İSTENEN:** `himaye:true` taşıyan gövde için
+```
+İÇ DOLGU   devletin KENDİ rengi (bugünkü tâbi tonu DEĞİL)
+ÇEVRE      ince Osmanlı kırmızısı ŞERİT (line katmanı, dolgu değil)
+```
+
+### 🔴 BİR YASAK — ve gerekçesi ölçülü
+**TARAMA DESENİ KULLANILMAZ.** Tarama bu projede **zaten İŞGAL** demek
+(`app.js:970 isgalDesenleriKur`, 83 kayıt). Aynı deseni himayeye de
+vermek iki ayrı siyasî durumu tek görsele bindirirdi.
+📌 Bu, kararı destekleyen üç gerekçeden biriydi ve Emre'ye o hâliyle
+sunuldu; şıkkı seçerken bu gerekçeyi gördü.
+
+### ⚠️ KATMAN SIRASI — `§11`de kayıtlı bir tuzak var
+Kuyruğun ① numaralı kalemi (**alfa-harman**) tam bu üç katmanın
+saydamlığından doğuyor: `devlet-dolgu` 0.44 · `vassal-dolgu` 0.60 ·
+`osmanli-dolgu` 0.68, üçü de saydam ve üst üste gelince renk bozuluyor.
+⇒ **Himaye şeridi dördüncü bir saydam katman olarak eklenirse aynı
+aileye yeni bir vaka eklenir.** Şerit bir `line` katmanı olmalı (dolgu
+değil) ve opaklığı **tam** olmalı; iç dolgu zaten devletin kendi rengi
+olduğu için ikinci bir dolgu katmanına gerek yok.
+
+### KABUL ÖLÇÜTÜ (iki yönlü, `C13`)
+```
+GEÇME     `himaye` alanı OLMAYAN bir tâbi gövde — bugünkü görünüm
+          DEĞİŞMEMELİ (155 kayıt)
+ATEŞLEME  `himaye:true` bir gövde — iç renk devletin kendi rengi,
+          çevresi kırmızı şerit
+```
+⚠️ Veri henüz inmedi (kademe işaretlemesi ayrı bir kolda). Sınav için
+**sahte bir kayıt enjekte etmek yeterli DEĞİL** — `C13`ün bu gece eklenen
+üçüncü ayağı: *girdiyi gerçek kaynağından okuma yolu da koşulmalı.*
+Veri inince ikinci kez sına.
+
+| 12 | ⑫ Himaye şeridi | Emre'nin doğrudan kararı | ✓ şema yazıldı, veri kolu açık |
