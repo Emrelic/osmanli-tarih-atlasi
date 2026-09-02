@@ -97,15 +97,41 @@ window.YER_YAMA_FERHATPASA = [
     s: [{ f: "1281-01-01", t: "1490-01-01", d: "gurcistan" },
         { f: "1490-01-01", t: "1810-02-20", d: "imereti" },
         { f: "1810-02-20", t: "1923-10-29", d: "rusya" }],
-    v: [{ f: "1578-08-09", t: "1810-02-20", k: "İmereti krallığı (tâbi)" }],
-    kaynak: "① `imereti` künyesi data/devletler.js: 1490-01-01 → 1810-02-20, " +
-      "rengi renkler.py BOYALAR['imereti'] = ('İmereti Krallığı', '#deea90') " +
-      "— IMPORT ile ölçüldü. ② Gün: Batum · Sohum · Tiflis · Zagem (Kaheti) " +
-      "dördü de 1578-08-09 kullanıyor. ③ Kalıp: Zagem (Kaheti) BİREBİR aynı " +
-      "biçimi taşıyor — v:[{f:\"1578-08-09\", k:\"Kaheti krallığı (tâbi)\"}]. " +
-      "④ Bitiş 1810-02-20 kronolojide: \"İmereti Krallığı'nın ilhakı — Kral " +
-      "II. Solomon tahttan indirildi\".",
-    neden: "🔴 DEVREDİLEN YAMANIN (yerlesimler_kafkas_duzeltme.js) BAŞLANGIÇ " +
+    // 🔴 GÜN DEĞİŞTİRİLDİ 1578-08-09 → 1555-05-29 · KOORDİNATÖR KARARI (1.MURAT,
+    //    2 Eylül 2026, şık (B)) — ve bu kayıt ÇAKIŞMANIN KAYBEDEN TARAFIYDI:
+    //    `_sahiplik_uygula.py` "Kutaisi ÇAKIŞMA: yer_yama_ferhatpasa.js vs
+    //    yer_yama_kafkas.js — KARAR GEREK" diyordu, Kutaisi HİÇ İNMİYORDU.
+    //    Karar dosyası: `denetim/BULGU-KUTAISI-CAKISMA.md` (OPUS HAZIR KITA 106).
+    //    Gerekçe: bu kaydın kendi notu günü "Batum·Sohum·Tiflis·Zagem dördü de
+    //    1578-08-09 kullanıyor" diye TUTARLILIKTAN alıyordu; öteki taraf ise
+    //    KAYNAKTAN — TDV `gurcistan`: "Amasya Antlaşması'na göre (1555) İmeret,
+    //    Dadyan (Megrel ve Svanet), Güryel, Daveli/Tao-eli Osmanlı Devleti'ne …
+    //    veriliyordu." Kaynak günü varken tutarlılığa düşülmez (§4).
+    //    ⚠️ VE 1578-08-09 ÖLÇÜLDÜ: 9 dönem ucu taşıyan bir ÖDÜNÇ TARİH kümesi
+    //    (en uzak çift Sohum ↔ Zagem 417 km) ve külliyatta Tiflis'in kendi
+    //    maddesi 1578-08-24'te; o gün Çıldır Savaşı'nın günü, Tiflis'in fethinin
+    //    değil (PAKET-0035-B, bağımsız ölçüm).
+    //    İki gün de Değişmez 2'den ±0 geçiyor — karar teknik değil TARİHÎ idi.
+    //    `k:` etiketi KORUNDU (Zagem'in "Kaheti krallığı (tâbi)" kalıbıyla hizalı).
+    v: [{ f: "1555-05-29", t: "1810-02-20", k: "İmereti krallığı (tâbi)" }],
+    // 🔴 `kaynak:` DE HİZALANDI (OPUS HAZIR KITA 106, 2 Eylül 2026) — ve sebebi
+    //    ölçüm: `_sahiplik_uygula.py`nin çakışma imzası `CATISABILIR` kümesinde
+    //    `kaynak`ı da SAYIYOR. Yalnız `v:`yi hizalamak çakışmayı KAPATMADI;
+    //    kuru koşu hâlâ "KARAR GEREK" diyordu. ⇒ İki dosyanın `kaynak:`ı da
+    //    aynı olmalı. Eski uzun metin SİLİNMEDİ, aşağıdaki `neden:`e taşındı —
+    //    o alan `CATISABILIR`de yok, yani çakışma üretmez.
+    kaynak: "gurcistan",
+    neden: "ÖNCEKİ `kaynak:` METNİ (aynen korundu, yalnız alanı değişti): " +
+      "\"① `imereti` künyesi data/devletler.js: 1490-01-01 → 1810-02-20, rengi " +
+      "renkler.py BOYALAR['imereti'] = ('İmereti Krallığı', '#deea90') — IMPORT " +
+      "ile ölçüldü. ② Gün: Batum · Sohum · Tiflis · Zagem (Kaheti) dördü de " +
+      "1578-08-09 kullanıyor. ③ Kalıp: Zagem (Kaheti) BİREBİR aynı biçimi " +
+      "taşıyor. ④ Bitiş 1810-02-20 kronolojide: 'İmereti Krallığı'nın ilhakı — " +
+      "Kral II. Solomon tahttan indirildi'.\" " +
+      "⚠️ ②'nin kendisi bugün ÇÜRÜMÜŞ sayılır: 1578-08-09 dokuz dönem ucu taşıyan " +
+      "bir ÖDÜNÇ TARİH kümesidir (en uzak çift 417 km) ve Tiflis'in kendi maddesi " +
+      "külliyatta 1578-08-24'tedir. Komşu hizası bir KAYNAK değildir. " +
+      "🔴 DEVREDİLEN YAMANIN (yerlesimler_kafkas_duzeltme.js) BAŞLANGIÇ " +
       "GÜNÜ DÜZELTİLDİ: 1555-07-23 → 1578-08-09. Yamanın günü HİNDİSTAN'a ait " +
       "(Delhi/Agra/Mathura, sur-hanedani→babur; ±30'daki tek madde \"Hümâyun " +
       "Delhi'yi geri aldı\"). Yamanın `s:` ve bitiş tarihi AYNEN KORUNDU. " +

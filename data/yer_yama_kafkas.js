@@ -181,7 +181,13 @@ window.YERLESIMLER_KAFKAS_DUZELTME = [
     {f:"1490-01-01",t:"1810-02-20",d:"imereti"},
     {f:"1810-02-20",t:"1923-10-29",d:"rusya"}],
  d:[],
- v:[{f:"1555-05-29",t:"1810-02-20"}],
+ // `k:` etiketi EKLENDI (OPUS HAZIR KITA 106, 2 Eylul 2026) — cakisan iki yamanin
+ // `v:` degeri BIREBIR ayni olsun diye; yoksa uygulayici ikisini de bloke ediyordu.
+ // Etiket `yer_yama_ferhatpasa.js`ten geldi ve Zagem'in "Kaheti kralligi (tabi)"
+ // kalibiyla hizali. GUN DEGISMEDI: 1555-05-29 bu kaydin kendi olcumuydu ve
+ // koordinator kararinda (1.MURAT, sik B) KAZANAN taraf oldu.
+ // Karar dosyasi: denetim/BULGU-KUTAISI-CAKISMA.md
+ v:[{f:"1555-05-29",t:"1810-02-20",k:"İmereti krallığı (tâbi)"}],
  kaynak:"gurcistan",
  neden:"ESKI: s:[{1281-01-01..1810-02-20 gurcistan},{1810-02-20..rusya}] · d:[] · v:[] — "
       +"529 yillik TEK BLOK ve HIC Osmanli bagi yok, oysa komsulari 1578'den Osmanli: "
