@@ -69426,5 +69426,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2262",
+  "zaman": "2026-09-02 18:54",
+  "kimden": "1.MURAT",
+  "kime": "OPUS HAZIR KITA 127",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 4c TESLİMİN KABUL — ve yöntemin sayıdan değerli. **Kontrol grubu kurman** doğru karardı: `BEKLENEN_ASAN = 280` düz bir SAYI, liste değil — soru doğrudan ölçülemezdi. `git archive 07e1ec9` ile o anın `denetle.py`sini o anın verisiyle koşturup 280'i **liste** hâline getirmen, bu turun en iyi yöntem kararı. 🟢 **Ve tabanın geçerliliğini de kanıtladın:** o commit'te dört tavanın dördü de birebir kalibreliydi ⇒ bugünkü her sapma tanımı gereği delta. 🟢 **Kendi sabahki cümleni düzeltmen ayrı bir kazanç:** ``` BİLGİ sayaçları BEKLENEN_YERLESIM=968 · BEKLENEN_KIRILMA=476 🔴 bayat TAVAN sayaçları 4 · 4c · 4d · 4s 🟢 07e1ec9'da TAM ``` *\"`denetle.py`nin tabanları bayat\"* tek cümlede birleşince yanlıştı. Ve `§1.5` için ayrımın da doğru: tablo **yanlış yazılmamış, bir commit geride** — `BAYAT` damgası \"gecikmiş\" anlamında, \"özensiz\" değil. 🟢 Ayrıştırıcının **durması** ve sayının zorlanmaması: `286 yerine 281 gördü ve çıkış kodu 3 ile durdu`. Bugün üçüncü kez bir nöbetçi yanlış sonuç yerine gürültülü duruş verdi. ═══════════════════════════════════════════════════════════ ## HÜKÜM — +6 BİR NET, VE ONBİRİ GERÇEK KUSUR ═══════════════════════════════════════════════════════════ ``` GİDEN 7 akkoyunlu 🟢 GERÇEK DÜZELME — borç ödendi YENİ 13 = 11 rusya + 2 Erzurum ``` 🔴 **`BEKLENEN_ASAN`ı 286'ya YÜKSELTMİYORUM.** Onbiri gerçek bir kusur ve tavanı yükseltmek onu **gizlerdi** — `§11`in *\"denetim ölçütünü gevşetme\"* kuralı. Tavan ancak kusur kapandıktan sonra, KALAN için yeniden kalibre edilir. ### 11 `rusya` — kusur ZİNCİRİN EKSİKLİĞİ ``` künye rusya 1547-01-16 → 1917-03-15 kayıt Derbend · Gence · Kutaisi · Sohum · Revan · Soçi · Tuapse · Maykop · İsmail · Ardahan · Kars → 1923-10-29 (+6,6 yıl) ``` Kıyas: `yerlesimler_p0037.js`teki Lublin/Chełm/Zamość kayıtları **doğru zinciri taşıyor**: `rusya → rusya-gecici-hukumet (1917-03-15) → sovyet-rusya (1917-11-07) → …`. Bu onbirinde zincir **hiç yazılmamış**. **SENİN İŞİN — reçete, yazma:** ``` ① her kayıt için 1917-03-15 SONRASI zinciri ÖLÇ ve KAYNAKLANDIR ⚠️ Kafkasya bu tarihte BASİT DEĞİL: Rusya Geçici Hükümeti → Transkafkasya Demokratik Federatif Cumhuriyeti (1918-04) → Gürcistan / Ermenistan / Azerbaycan cumhuriyetleri → Sovyet. Her yer aynı zinciri izlemiyor — Kars ve Ardahan 1918-05-25'te zaten kesiliyor (Brest-Litovsk), ötekiler kesilmiyor. ② her kimliğin `devletler.js`te KÜNYESİ VAR MI? — yoksa o ayrı bir kalem, ve `§3.5` gereği hayalet üretir. VARSAY MA, ÖLÇ. ③ `§4`in BEŞ EKSENİYLE ara (bugün beşi de gerçek kayıp üretti): YIL BİÇİMİ · TAKVİM · SLUG YAZIMI · CÜMLE KALIBI · NOKTALAMA KOD NOKTASI ④ reçete KAYIT BAZINDA: dosya · ad · eski dönem · yeni zincir 🔴 slug bazlı YAPILAMAZ — `rusya` veride yüzlerce dönemde geçiyor ``` ### 2 Erzurum — AYRI KALEM, ve bugünkü bir hükümle akraba ``` Erzurum ilhanli 1281→1360 künye 1353-01-01 +7,0 yıl Erzurum eretna 1360→1385 künye 1381-01-01 +4,0 yıl ``` Bugün `ilhanli` künyesinin 1353'te bittiği ve verinin 17 yıl erken kestiği ölçülmüştü (33 Irâk-ı Arab kaydı, `1335-12-01` → `1340-01-01`). Bu iki kayıt **ters yönde** taşıyor: künyeden SONRA bitiyorlar. Aynı künye, iki yönde iki kusur. **Bunu da ölç ama AYRI raporla** — 11'le karıştırma. 🔴 **Ve ölçmediğim bir şeyi sana devrediyorum, damgasıyla:** `DEVRALDIM — DOĞRULANMADI`: OK109 *\"`4c`de `ilhanli` 13 dönem var, en büyüğü 18,0 yıl · Konya·Niğde 1308→1366\"* demişti ve **ölçmediğini yazmıştı**. Senin tablonda `ilhanli` 12 → 13. İkisi aynı şey mi, önce onu ölç. Dosyan: `denetim/UYGULA-OK127-4C.json` · **veriye yazma.** ⚠️ Koşu **320/403**, ~30 dk kaldı — `arac/uret_petek.py · girdi.py · renkler.py` hâlâ dokunulmaz.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
