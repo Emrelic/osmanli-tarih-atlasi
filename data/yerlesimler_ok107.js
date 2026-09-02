@@ -150,42 +150,35 @@ window.YERLESIMLER_OK107 = [
 //   onları zaten bu günlerle taşıyor. Kendi günlerini yazmak, kaynaksız bir
 //   ENKLAV üretirdi (Hayber Osmanlı iken Medine Suûdî gibi).
 
-{ ad:"Hayber", tur:"kasaba", lat:25.700, lon:39.292, k:4, m:"Medine",
-  // TDV `hayber` (200, gövde 20.072 kr, okundu): "Hicaz'da Medine-Suriye
-  // yolu üzerinde bulunan eski bir yerleşim yeri" · "Medine'nin yaklaşık
-  // 180 km. (kuzeyinde)". Madde ağırlıklı olarak Hayber Gazvesi'ni ve
-  // vahanın coğrafyasını anlatıyor; OSMANLI dönemine dair gün VERMİYOR.
-  // ⇒ günler MEDİNE'nin kaydından (140,7 km) — Hayber, Medine'nin
-  //   hinterlandındaydı ve idarî olarak ona bağlıydı.
-  s:[{f:"1281-01-01",t:"1517-07-06",d:"memluk"},
-     {f:"1805-06-01",t:"1812-12-03",d:"suud"},
-     {f:"1919-01-10",t:"1923-10-29",d:"hicaz"}],
-  d:[],
-  v:[{f:"1517-07-06",t:"1805-06-01",k:"Mekke Şerifliği"},
-     {f:"1812-12-03",t:"1841-05-24",k:"Mısır (Kavalalı)"},
-     {f:"1841-05-24",t:"1919-01-10",k:"Mekke Şerifliği"}],
-  kaynak:"hayber"
-},
-
-{ ad:"Ulâ (el-Ulâ)", tur:"kasaba", lat:26.617, lon:37.918, k:4, m:null,
-  // 🟢 `§4`in "dar slug tutmazsa KAPSAYICI maddeyi dene" kuralının canlı
-  // vakası: `ula` · `el-ula` · `medain-salih` · `hicr` · `dedan` sluglarının
-  // BEŞİ DE 302. Ama TDV `vadilkura` maddesi (200, 14.304 kr, okundu) tam
-  // olarak burayı anlatıyor:
-  //   "…Avâlî'nin (günümüzdeki Ulâ) güneyinde bulunmaktadır."
-  //   "(XI.) yüzyılın ikinci yarısından itibaren … Vâdilkurâ da zamanla
-  //    önemini yitirdi; yerini … Suriyeli hacılar için önemli duraklardan
-  //    birini teşkil eden ULÂ'ya bıraktı."
-  // 🔴 VE BU BİR KAYDI KURTARDI, BİR TANESİNİ DE ÖLDÜRDÜ: "Vâdilkurâ" diye
-  //   nokta yazacaktım; aynı madde onun XIII. yüzyılda harap olduğunu ve
-  //   1877'de adının hâfızalardan silindiğini söylüyor. Yani atlasın
-  //   penceresinde (1281+) yaşayan yerleşim VÂDİLKURÂ DEĞİL, ULÂ'dır.
-  // günler TEBÜK'ten (Suriye hac yolunun aynı kolu) alındı.
-  s:[{f:"1281-01-01",t:"1517-07-06",d:"memluk"},
-     {f:"1918-01-01",t:"1923-10-29",d:"hicaz"}],
-  d:[{f:"1517-07-06",t:"1918-01-01"}],
-  v:[], kaynak:"vadilkura"
-},
+// ═══════════════════════════════════════════════════════════════════════
+// 🔴 HAYBER ve ULÂ BURADAN ÇIKARILDI — 2 Eylül, ve sebebi ÖLÇÜLDÜ
+// ═══════════════════════════════════════════════════════════════════════
+// İkisini de yazmıştım. Kendi teslim kapım yakaladı:
+//   Hayber        ad AYNI · 0,21 km   yerlesimler_ok101.js
+//   Ulâ (el-Ulâ)  0,13 km             yerlesimler_ok101.js  (onun adı `el-Ulâ`)
+// 🔴 `Hayber` bir AD ÇAKIŞMASIDIR: `girdi.yukle()` ad çakışmasında
+//   **ValueError atar** — yani iki dosya birlikte bağlanırsa MOTOR HİÇ
+//   BAŞLAMAZ. Kozmetik bir mükerrer değil, KOŞU ÖLDÜREN bir çakışma.
+// ⇒ `yerlesimler_ok101.js` BAĞLI (GIRDI_DOSYALARI'nda), benimki DEĞİL.
+//   Bağlı olan kalır, bağlanmamış olan çekilir. Çıkardım.
+//
+// 📌 VE İKİ KAYIT NEREDEYSE BİREBİR AYNIYDI — iki Opus oturumu birbirinden
+//   habersiz aynı sonuca vardı: aynı koordinat (4 ondalık), aynı dönem
+//   zinciri (Hayber Medine'yi, Ulâ Tebük'ü aynen izliyor). Kaynakları bile
+//   örtüşüyor. Bu, ölçümün sağlamlığının kanıtı — ve dosya sahipliğinin
+//   NİÇİN gerektiğinin: aynı iş iki kez yapıldı.
+//
+// 🟢 BENDE OLUP ONDA OLMAYAN TEK ŞEY — kaydı silmiyorum, buraya yazıyorum:
+//   `ula`·`el-ula`·`medain-salih`·`hicr`·`dedan` sluglarının BEŞİ DE 302;
+//   ama TDV `vadilkura` maddesi (200, 14.304 kr, gövdesi okundu) burayı
+//   anlatıyor ve ŞUNU SÖYLÜYOR:
+//     "(XI.) yüzyılın ikinci yarısından itibaren … Vâdilkurâ da zamanla
+//      önemini yitirdi; yerini … ULÂ'ya bıraktı."
+//     ve 1877'de Doughty adı hâfızalardan silinmiş buluyor.
+//   ⇒ **Atlasın penceresinde (1281+) yaşayan yerleşim VÂDİLKURÂ DEĞİL,
+//     ULÂ'dır.** Ben "Vâdilkurâ" diye nokta yazacaktım; aynı madde
+//     kurtardı. `ok101`in `el-Ulâ` kaydı bu gerekçeyi TAŞIMIYOR
+//     (kaynağı UNESCO hac yolu listesi) — sahibi isterse ekleyebilir.
 
 { ad:"Bedir", tur:"kasaba", lat:23.780, lon:38.790, k:4, m:null,
   // TDV `bedir` (200, gövde 11.394 kr, OKUNDU) — madde BEDİR GAZVESİ'ni
@@ -315,6 +308,213 @@ window.YERLESIMLER_OK107 = [
   s:[{f:"1281-01-01",t:"1902-01-01",d:"kanem-bornu"},
      {f:"1902-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   d:[], v:[], kaynak:"bornu"
-}
+},
+
+// ═════════════════════════════════════════════════════════════════════════
+// ⑤ VARDAR KORİDORU (9) — parti-emrelic-0030 · H-0013
+// ═════════════════════════════════════════════════════════════════════════
+// Emre: "bu Selânik'in bölgesi kuzeye doğru fazla mı uzuyor … Üsküp'ün alanı
+//        yukarıdan bastırmış. Bu iki şehrin alanlarını topografya ve
+//        Dijkstra'ya göre dağlara nehirlere dayayalım."
+//
+// 🔴 KÖKÜ OPUS HAZIR KITA 105 ÖLÇTÜ VE EMRE'NİN ÇARESİNİ ÇÜRÜTTÜ:
+//   kutuda (40,20-42,60K / 20,60-23,60D) 9 nokta var, ama SELÂNİK ile ÜSKÜP
+//   ARASINDA (~150 km) SIFIR NOKTA. Yaslanacak RAKİP nokta olmadığı için
+//   hiçbir topografya/Dijkstra çalışması o "boğum"u açamaz — petek sınırı
+//   komşunun ortasından geçer; komşu yoksa sınır değil TAVAN vardır.
+//   ⇒ ÇARE NOKTA. 105 dokuz adayı ADIYLA saydı ve dokuzunun da atlasta
+//     OLMADIĞINI doğruladı; **fetih tarihlerini ÖLÇMEDİĞİNİ** açıkça yazdı.
+//   BU BÖLÜM O EKSİĞİ KAPATIYOR: dokuzunun dokuzu TDV'den tarihlendi.
+//
+// ⚠️ ÖLÇTÜM: dokuz adın dokuzu da bugün atlasta YOK (63 dosya tarandı) ve
+//   `data/yerlesimler_ok105.js` diye bir dosya HİÇ YAZILMAMIŞ — mükerrer
+//   yazım riski yok.
+//   3 km kuralı: en yakın çift Doyran↔Gevgili 18,5 km. İHLAL YOK.
+//
+// ═══ TDV SLUG ÖLÇÜMÜ (HTTP + gövde okuması) ═══
+//   🟢 CANLI  koprulu · istip · ustrumca · doyran · gevgili · vodina ·
+//             karaferye · yenice-i-vardar
+//   🔴 ÖLÜ    kilkis · avrathisar · velez · yenice · vardar   (302)
+//   📌 `koprulu` `§4` tuzağı ②'nin adayıydı (ünlü Köprülü ailesi) — gövde
+//     OKUNDU, madde ŞEHRİ anlatıyor: "KÖPRÜLÜ — Makedonya'da tarihî bir
+//     şehir … Makedonca Veles". Tuzak bu sefer ATEŞLEMEDİ ama kontrol edildi.
+//
+// ═══ İKİ TARİH AİLESİ, İKİSİ DE TDV'DEN ═══
+// ① DEJANOVİĆ PRENSLİĞİ (Köprülü · İştip · Ustrumca · Doyran)
+//    TDV `istip`   : "1371'den itibaren … İştip Osmanlılar'a tâbi bir
+//                    prenslikti." · "Konstantin'in 1395'te Rovine'de …
+//                    ölümünden sonra şehir ve arazisi DOĞRUDAN Osmanlı
+//                    idaresine alındı."
+//    TDV `koprulu` : "1371'den beri Osmanlı vasalı olan … bölge savaşsız
+//                    Osmanlılar'ın eline geçmiş olmalıdır (1395)."
+//    TDV `ustrumca`: "1395'te … Konstantin … ölünce küçük devleti …
+//                    Kostadin-ili adıyla bir sancak şeklinde Osmanlılar'a
+//                    intikal etti."
+//    TDV `doyran`  : "…hükümdarı Konstantin'in … öldüğü 1395 yılına kadar
+//                    yarı bağımsız olarak sürdü. … bölge herhangi bir
+//                    değişiklik ve kargaşa olmadan Osmanlı idaresine geçti."
+//    ⇒ v: 1371-09-26 → 1395-05-17   ·   d: 1395-05-17 →
+//      İKİ GÜN DE KÜLLİYATIN KENDİ GÜNÜ, uydurma YOK:
+//        1371-09-26 "Çirmen Savaşı — Meriç vadisinin denetimi" (olaylar_ek.js)
+//        1395-05-17 "Rovine Savaşı — Eflak seferi"             (olaylar_ek.js)
+//
+// 🔴 VE BURADA BİR ÇELİŞKİ BULDUM — KENDİ KAYDIMDA DEĞİL, KOMŞUSUNDA:
+//    Köstendil (Velbužd) AYNI Dejanović prensliğinin BAŞŞEHRİDİR, ama
+//    atlastaki kaydı `d:[{1374-01-01→1383-09-19, y:"vassal"}, {1383-09-19→…}]`
+//    diyor — yani tâbilik 1374'te başlıyor ve doğrudan idare 1383'te.
+//    TDV dört maddede birden 1371 ve 1395 diyor. İkisi aynı anda doğru olamaz.
+//    ⇒ `§4` gereği TDV'yi izledim. Köstendil'in kaydına DOKUNMADIM (benim
+//      değil) ama bu, 1383-1395 arasında Köstendil'i koyu, çevresini açık
+//      gösterecek — yani ölçülmesi gereken bir AYRIŞMA. Rapora yazdım.
+//
+// ② EVRENOS FETİHLERİ (Gevgili · Kılkış · Vodina · Karaferye · Yenice-i Vardar)
+//    TDV `gevgili`  : "1383'ten 1912'ye kadar Osmanlı idaresi altında kalan…"
+//                     "1383'te Serez ile 1387'de Selânik'in fethi arasında
+//                      Gynaikokastro (Avrathisar) ve çevresi Osmanlılar'ın
+//                      eline geçmiş olmalıdır."
+//    TDV `karaferye`: "Diğer Yunan kaynakları ise şehrin Türkler tarafından
+//                      alınmasının 8 MAYIS 1387'de olduğunu yazar." (TDV
+//                      Osmanlı kroniklerinin 1373-74'ünü "çok erken" diye
+//                      REDDEDİYOR — kaynağın kendi tercihini izledim)
+//    TDV `vodina`   : 🔴 DÖRT RAKİP TARİH VERİYOR ve KENDİSİ KARAR VERMİYOR:
+//                      Neşrî "1389'dan hemen sonra" · Kemalpaşazâde "1391,
+//                      Üsküp'ün fethinin ardından" · Âşıkpaşazâde "Üsküp'ten
+//                      sonra, 1391'den önce" · Hoca Sâdeddin "1386".
+//                      ÜÇÜ "Üsküp'ten SONRA" diyor ⇒ atlasın kendi Üsküp
+//                      günü (1392-01-15) alındı. Bu bir SEÇİM, ölçüm değil.
+//    TDV `yenice-i-vardar`: "Gazi Evrenos Bey tarafından XIV. yüzyılın
+//                      SONLARINDA kurulmuştur." — FETİH değil KURULUŞ.
+//                      Yıl yok ⇒ `kur:"1390-01-01"` (`§4`: gün bilinmiyorsa
+//                      YYYY-01-01) ve TDV `doyran`ın "1390'larda Yenice-i
+//                      Vardar ve Vodina ile beraber … ilhak edildi" cümlesi
+//                      bu on yılı destekliyor.
+//
+// ⚠️ AÇIKÇA YAZIYORUM — ÖLÇMEDİĞİM ÜÇ ŞEY:
+//   ① Balkan Savaşı GÜNLERİ tek tek ölçülmedi. Kuzey dörtlü + Gevgili için
+//     Üsküp'ün günü (1912-10-26 → sirbistan-kralligi → yugoslavya), Yunan
+//     tarafındaki dördü için Selânik'in günü (1912-11-08 → yunanistan)
+//     alındı. BÖLGESEL HİZALAMA, kaynak değil.
+//   ② Fetret zinciri (1402-07-28 → 1413-07-05) Üsküp/Serez/Manastır'ın
+//     kaydından BİREBİR kopyalandı — bu üçü aynı bölgede ve aynı zinciri
+//     taşıyor; ayrı ölçüm yapılmadı.
+//   ③ Kılkış'ın kendi TDV maddesi YOK (`kilkis` ve `avrathisar` 302).
+//     Dayanak `gevgili` maddesinin Avrathisar/Gynaikokastro cümlesi.
+
+{ ad:"Köprülü (Veles)", tur:"sehir", lat:41.716, lon:21.775, k:3, m:null,
+  s:[{f:"1281-01-01",t:"1371-09-26",d:"sirbistan"},
+     {f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},
+     {f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},
+     {f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},
+     {f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},
+     {f:"1912-10-26",t:"1918-12-01",d:"sirbistan-kralligi"},
+     {f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],
+  v:[{f:"1371-09-26",t:"1395-05-17",k:"Dejanović Prensliği (Kostadin-ili)"}],
+  d:[{f:"1395-05-17",t:"1402-07-28"},
+     {f:"1413-07-05",t:"1912-10-26"}],
+  kaynak:"koprulu" },
+
+{ ad:"İştip (Štip)", tur:"sehir", lat:41.746, lon:22.195, k:3, m:null,
+  s:[{f:"1281-01-01",t:"1371-09-26",d:"sirbistan"},
+     {f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},
+     {f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},
+     {f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},
+     {f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},
+     {f:"1912-10-26",t:"1918-12-01",d:"sirbistan-kralligi"},
+     {f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],
+  v:[{f:"1371-09-26",t:"1395-05-17",k:"Dejanović Prensliği (Kostadin-ili)"}],
+  d:[{f:"1395-05-17",t:"1402-07-28"},
+     {f:"1413-07-05",t:"1912-10-26"}],
+  kaynak:"istip" },
+
+{ ad:"Ustrumca (Strumica)", tur:"sehir", lat:41.437, lon:22.643, k:3, m:null,
+  s:[{f:"1281-01-01",t:"1371-09-26",d:"sirbistan"},
+     {f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},
+     {f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},
+     {f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},
+     {f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},
+     {f:"1912-10-26",t:"1918-12-01",d:"sirbistan-kralligi"},
+     {f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],
+  v:[{f:"1371-09-26",t:"1395-05-17",k:"Dejanović Prensliği (Kostadin-ili)"}],
+  d:[{f:"1395-05-17",t:"1402-07-28"},
+     {f:"1413-07-05",t:"1912-10-26"}],
+  kaynak:"ustrumca" },
+
+{ ad:"Doyran", tur:"kasaba", lat:41.183, lon:22.717, k:4, m:null,
+  s:[{f:"1281-01-01",t:"1371-09-26",d:"sirbistan"},
+     {f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},
+     {f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},
+     {f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},
+     {f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},
+     {f:"1912-10-26",t:"1918-12-01",d:"sirbistan-kralligi"},
+     {f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],
+  v:[{f:"1371-09-26",t:"1395-05-17",k:"Dejanović Prensliği (Kostadin-ili)"}],
+  d:[{f:"1395-05-17",t:"1402-07-28"},
+     {f:"1413-07-05",t:"1912-10-26"}],
+  kaynak:"doyran" },
+
+{ ad:"Gevgili (Gevgelija)", tur:"kasaba", lat:41.144, lon:22.502, k:4, m:null,
+  s:[{f:"1281-01-01",t:"1345-01-01",d:"bizans"},
+     {f:"1345-01-01",t:"1383-09-19",d:"sirbistan"},
+     {f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},
+     {f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},
+     {f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},
+     {f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},
+     {f:"1912-10-26",t:"1918-12-01",d:"sirbistan-kralligi"},
+     {f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],
+  v:[],
+  d:[{f:"1383-09-19",t:"1402-07-28"},
+     {f:"1413-07-05",t:"1912-10-26"}],
+  kaynak:"gevgili" },
+
+{ ad:"Kılkış (Avrathisar)", tur:"kasaba", lat:40.994, lon:22.874, k:4, m:null,
+  s:[{f:"1281-01-01",t:"1345-01-01",d:"bizans"},
+     {f:"1345-01-01",t:"1383-09-19",d:"sirbistan"},
+     {f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},
+     {f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},
+     {f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},
+     {f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},
+     {f:"1912-11-08",t:"1923-10-29",d:"yunanistan"}],
+  v:[],
+  d:[{f:"1383-09-19",t:"1402-07-28"},
+     {f:"1413-07-05",t:"1912-11-08"}],
+  kaynak:"bulunamadı — TDV'de `kilkis` ve `avrathisar` maddesi YOK (iki slug da 302 ölçüldü). Dayanak TDV `gevgili` maddesi: \"1383'te Serez ile 1387'de Selânik'in fethi arasında Gynaikokastro (Avrathisar) ve çevresi Osmanlılar'ın eline geçmiş olmalıdır.\"" },
+
+{ ad:"Vodina (Edessa)", tur:"sehir", lat:40.803, lon:22.047, k:3, m:null,
+  s:[{f:"1281-01-01",t:"1345-01-01",d:"bizans"},
+     {f:"1345-01-01",t:"1392-01-15",d:"sirbistan"},
+     {f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},
+     {f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},
+     {f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},
+     {f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},
+     {f:"1912-11-08",t:"1923-10-29",d:"yunanistan"}],
+  v:[],
+  d:[{f:"1392-01-15",t:"1402-07-28"},
+     {f:"1413-07-05",t:"1912-11-08"}],
+  kaynak:"vodina" },
+
+{ ad:"Karaferye (Veria)", tur:"sehir", lat:40.524, lon:22.203, k:3, m:null,
+  s:[{f:"1281-01-01",t:"1345-01-01",d:"bizans"},
+     {f:"1345-01-01",t:"1387-05-08",d:"sirbistan"},
+     {f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},
+     {f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},
+     {f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},
+     {f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},
+     {f:"1912-11-08",t:"1923-10-29",d:"yunanistan"}],
+  v:[],
+  d:[{f:"1387-05-08",t:"1402-07-28"},
+     {f:"1413-07-05",t:"1912-11-08"}],
+  kaynak:"karaferye" },
+
+{ ad:"Yenice-i Vardar", tur:"sehir", lat:40.790, lon:22.407, k:3, m:null,
+  kur:"1390-01-01",
+  s:[{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},
+     {f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},
+     {f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},
+     {f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},
+     {f:"1912-11-08",t:"1923-10-29",d:"yunanistan"}],
+  v:[],
+  d:[{f:"1390-01-01",t:"1402-07-28"},
+     {f:"1413-07-05",t:"1912-11-08"}],
+  kaynak:"yenice-i-vardar" }
 
 ];
