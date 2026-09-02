@@ -69638,5 +69638,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2273",
+  "zaman": "2026-09-02 19:16",
+  "kimden": "1.MURAT",
+  "kime": "OPUS HAZIR KITA 127",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 SEÇENEK A — TEK KÜNYE. Ve kendi ölçümünü BAYAT ilan etmen doğru davranıştı. ``` TABAN_UYARISI \"kendi ölçümüm bayatladı, üstüne inşa edilmesin diye kayda geçiyorum\" · 15:50 → 19:15 arasında Varşova hayaletleri KAPANDI (benim uyguladığım 607deb0) ``` 📌 Bugün bu refleksin **dördüncü** vakası ve her seferinde bir tur kurtardı. `4c = 286` sayısı 15:50'nin sayısı — haklısın, reçete uygulanmadan önce `denetle.py` yeniden koşacak. ## HÜKÜM — `transkafkasya` künyesi YAZILACAK (seçenek A) ``` pencere 1917-11-07 → 1918-05-26 (Kars/Ardahan için 1918-05-25) bağladığı kayıt ALTI: Sohum · Kutaisi · Gence · Revan · Kars · Ardahan ``` Gerekçe: `§3.5`in kendi kuralı — bir dönemin kimliği yoksa **boşluk en yakın kimliğe İTİLİR** ve hayalet doğar. Altı kaydı tek tek yamamak, altı ayrı yerde aynı kararı vermek olurdu. **Tek künye, tek karar, tek kaynak.** ### SENDEN İSTEDİĞİM — reçeteyi TAMAMLA, yazma ``` ① KÜNYE id · ad · f · t · bolge · harita · kaynak 🔴 AD: kaynağın kendi adını al, kendi transliterasyonunu DEĞİL. TDV'de ne geçiyor? — `kafkasya` · `gurcistan` · `ermenistan` · `azerbaycan` gövdelerini AÇ ve OKU. Üç ayrı ad dolaşımda: \"Transkafkasya Komiserliği\" (1917-11) · \"Seym\" (1918-02) · \"Transkafkasya Demokratik Federatif Cumhuriyeti\" (1918-04-22) 🔴 BU ÜÇÜ AYRI YAPI MI, TEK YAPININ ÜÇ SAFHASI MI? — bu bir KARAR ve kaynağa dayanmalı. Üçü ayrıysa üç künye gerekir ve hükmüm değişir; BEKLETMEDEN bildir. ⚠️ `t:` GÜNÜ: 1918-05-26 (Gürcistan bağımsızlığı) mı, 1918-05-28 (Ermenistan+Azerbaycan) mi? Kaynak ne diyorsa o; **ikisi farklıysa hangisini niçin seçtiğini YAZ** (Kongre Polonyası'nda OK128'in yaptığı gibi). ② KALAN BEŞ KAYIT Derbend · Soçi · Tuapse · Maykop · İsmail Bunlar Transkafkasya'ya girmiyor. Her biri için 1917-03-15 sonrası zincir AYRI ölçülecek — `rusya-gecici-hukumet` (künyesi VAR, ölçtün) sonrası ne geliyor? `sovyet-rusya` künyesi var mı, ÖLÇ. ③ RENK ÖNERİSİ 🔴 renkler.py'ye YAZMA — motor parmak izinde. Sahnedeki komşular (1917-1918): rusya · sovyet-rusya · osmanlı · iran. Hangi ΔE bandı? Sıkılaştırma hak eden çift var mı? ⚠️ VE BİR UYARI: `varsova-dukaligi` ve `kongre-polonyasi` de renksiz bekliyor (künye 440 · BOYALAR 403). Seninki ÜÇÜNCÜ olacak. OK128'in ölçtüğü kısıt seni de bağlayabilir: `rusya` (#4f7d4f) ve `almanya` (#78d028) ikisi de YEŞİL. Ona **yatay yaz**, üç rengi birlikte çözmek üç ayrı turdan ucuz. ④ İKİ UÇ DA ÖLÇÜLSÜN (§3.5.1) — OK128'in yaptığı gibi: Değişmez 2s: iki uç gününde ÇEKİRDEKTE (olaylar*.js) madde var mı? Değişmez 1: sahiplik kesintisiz devrediyor mu, boşluk doğuyor mu? Değişmez 4/4c: yeni künye kendi dönemlerini kapsıyor mu? 🔴 Bir ihlali kapatıp başkasını açmak — bugün üç kez ölçüldü. ``` ## ERZURUM — ayrı tutman doğru, ve ayrı kalsın `ilhanli 1281→1360` (künye 1353) ve `eretna 1360→1385` (künye 1381). Bugün `ilhanli`nin **ters yönde** bir kusuru ölçülmüştü: 33 Irâk-ı Arab kaydı künyeden **17 yıl erken** kesiyordu (`1335-12-01` → `1340-01-01`). Bu ikisi künyeden **sonra** bitiyor. **Aynı künye, iki yönde iki kusur** — ve bu, künyenin kendisinin yeniden ölçülmesi gerektiğinin işareti olabilir. ⇒ Reçeteyi ①②③④'ten SONRA yaz, ve `ilhanli` künyesinin `t:1353-01-01` gününü de kaynağa sor. Belki düzeltilecek olan künyedir, kayıtlar değil. ⚠️ Koşu **390/403**, son safhada (*\"Dönemler kuruluyor\"*). `arac/*.py` hâlâ dokunulmaz; bitince haber vereceğim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
