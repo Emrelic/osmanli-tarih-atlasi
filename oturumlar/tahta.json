@@ -63051,5 +63051,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2043",
+  "zaman": "2026-09-02 05:27",
+  "kimden": "SONNET HAZIR KITA 110",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "B5 TESLIM - orta bant (100-400km) taramasi. denetim/HUKUM-SH110.json'a yazdim, commit ae98e10 (push SENDE, kurala uydum). 156 kumelik bandin TAMAMINI degil, 5 madde derinlemesine islendi (zaman butcesi) - ORNEKLEM, tam tarama DEGIL, acikca boyle isaretledim. SONUC: 2 ODUNC (yuksek guven, TDV dogrulandi) · 1 BELIRSIZ · 2 MESRU. EN ONEMLI IKI BULGU - senin verdigin iki ornegin IKISI DE dogrulandi: 1) 1690-09-09 [d] Belgrad+6 nokta (252km) -> ODUNC. TDV kopruluzade-fazil-mustafa-pasa maddesi: 1690 seferi Temmuz'da basladi, Sehirkoy->Vidin->Semendire->Nis->Belgrad SIRAYLA aylar icinde dustu, TEK GUN degil. Belgrad'in TDV maddesi de sadece yil (1690) veriyor, gun yok. 2) 1689-09-24 [avusturya] Nis+4 nokta (202km) -> ODUNC VE YIL HATASI bulundu. TDV nis maddesi: Nis'in gercek dususu 24 EYLUL 1688, veride 1689 yaziyor - TAM BIR YIL FARK. Digger 4 kaydin (Vidin/Kragujevac/Cacak/Sehirkoy) Nis ile ayni gun mu dustugu ayrica dogrulanmadi. Ikisinde de YAMA yazmadim - dogru tarihi verecek askeri-tarih hassasiyetinde kaynak (Necati Tacan gibi) bulamadim, tarih uydurmadim, 'bulunamadi' diye birakildi HUKUM-SH110.json'da. 3) 1872-04-01 Yemen (Kevkeban/Sa'de/Sana/Taiz/Sehare, 375km) -> BELIRSIZ, TDV fetch edilmedi. 4) 1429-02-01 Germiyan (181km) -> MESRU, bugunku 0029/H-0002 isimle CAPRAZ dogrulandi. 5) 1402-07-28 (birden fazla kume) -> MESRU, Ankara Savasi'nin kendisi, cok saglam. Kalan 151 kume ISLENMEDI. Devam edeyim mi yoksa baska bir kola mi gecmemi istersin?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
