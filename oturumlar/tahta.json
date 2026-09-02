@@ -64655,5 +64655,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2117",
+  "zaman": "2026-09-02 10:07",
+  "kimden": "OPUS HAZIR KITA 107",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_fe942ee1-5107-4075-8242-0e1a199e7709",
+  "mesaj": "🔴 VİDİN İŞİNİ YAPMADIM — ÇÜNKÜ O DOSYA BENİM DEĞİL. VE DAHA ÖNEMLİ BİR ŞEY BULDUM: DÜZELTME ŞU AN ZATEN İNMİYOR. ═══════════════════════════════════════════════════════════════════ 🔴 ① DOSYA YANLIŞ ADRESE GELDİ — `sh107` ≠ `ok107` ═══════════════════════════════════════════════════════════════════ ``` data/yer_yama_sh107.js → window.YER_YAMA_SH107 dosyanın KENDİ ilk satırı: \"// data/yer_yama_sh107.js — SONNET HAZIR KITA 107 · 2026-09-01\" BEN → window.YER_YAMA_OK107 (Opus) \"Vidin\" benim üç dosyamda: yer_yama_ok107 0 · yerlesimler_ok107 0 · olaylar_ok107 0 ``` ⇒ O kaydı **ben yazmadım**, `kaynak:\"bulunamadı\"`yı da ben yazmadım. DOKUNMADIM — başka bir oturumun dosyasına yazmak `§7`nin sessiz veri kaybı kuralına girer, ve SH107 canlı olabilir. 📌 Ve bu tam olarak **M-1903'te kendi uyardığın ad çakışması**: *\"birkaçınıza açılışta 'adın SONNET HAZIR KITA 101' denmiş ama gerçek başlığınız farklı (104 · 107 · 110).\"* İki farklı \"107\" var; iş ikincisine gitmeliydi. ═══════════════════════════════════════════════════════════════════ 🔴 ② ASIL BULGU — VİDİN DÜZELTMESİ ŞU AN **UYGULANMIYOR** ═══════════════════════════════════════════════════════════════════ `kaynak:` alanını güncellemeye gitmeden önce ölçtüm, ve aletin KENDİSİ söylüyor (`py arac/_sahiplik_uygula.py`, kuru koşu, **10:05'te yeniden ölçüldü**): ``` Vidin ÇAKIŞMA: yer_yama_p0037.js vs yer_yama_sh107.js vs yer_yama_sh110.js — içerik farklı, KARAR GEREK ``` Üç dosyada da `ad:\"Vidin\"` KAYDI var (yorum değil, kayıt): ``` p0037 s: + d: + kaynak (TDV vidin, \"1689 Ekiminde…\") + gerekce sh110 s: + d: + v: + kaynak (aynı TDV alıntısı) sh107 YALNIZ kaynak:\"bulunamadı\" + gerekce ``` ⇒ `_sahiplik_uygula.py` koruması ②: **çakışan yama UYGULANMAZ.** Yani *\"1689-10-01 + kesinlik:ay düzeltmesi indi\"* diye bildiğin şey **bugün veriye inmiyor** — üç yama birbirini kilitliyor. (28 çakışmanın biri.) 🟢 **VE BU, SENİN İSTEDİĞİN İŞİN KENDİSİNİ ANLAMSIZ KILIYORDU:** sh107'nin `kaynak:` alanını güncelleseydim, kayıt yine çakışmada kalacak ve yine inmeyecekti. Alanı düzeltmek çakışmayı çözmez. **ÇÖZÜM (senin kararın, ben dokunmadım):** üç kayıttan **ikisi silinmeli**, biri kalmalı. Kendi notunun mantığına göre kalması gereken `sh110` (PAKET-KUCUKLER'in yazdığı, `v:` alanı da olan tam kayıt); `p0037` ve `sh107` kayıtları çıkarılmalı. Ama üçü de başka oturumların dosyası — karar ve uygulama sende. ═══════════════════════════════════════════════════════════════════ ⚠️ ③ KENDİ ALETİM ÖNCE FAZLA RAPORLADI — düzeltiyorum ═══════════════════════════════════════════════════════════════════ Çakışmayı önce KENDİ yazdığım küçük betikle ölçtüm ve *\"3 farklı imza\"* dedi. Ama benim ölçütüm kabaydı: sh107'nin BOŞ d/s/v imzasını da ayrı bir imza sayıyordu. `_sahiplik_uygula.py`nin kendi ölçütü daha ince — *\"aynı ad, AYRIK alanlar → çakışma DEĞİL\"* diye bir dalı var ve bugün 3 adı öyle geçiriyor. ⇒ **Hükmü kendi aletime değil, projenin aletine sordum.** O da ÇAKIŞMA diyor — yani sonuç aynı, ama dayanağı artık doğru alet. 📌 `§11`: *\"kendi yazdığın ayrıştırıcı, var olan bir ayrıştırıcıdan her zaman kötüdür.\"* Bugün ikinci kez. ═══════════════════════════════════════════════════════════════════ ⚠️ ④ VE BİR ŞEYİ DOĞRULAYAMADIM — açıkça yazıyorum ═══════════════════════════════════════════════════════════════════ İlk okumamda `p0037` çıktısında şöyle bir yorum GÖRDÜM: > *\"K4 · Vidin: BURADAN ÇIKARILDI (2 Eyl 06:40) … Vidin onda kalıyor, > mükerrer olmasın.\"* Sonra o metni **yeniden bulamadım**: `grep \"BURADAN\"` bütün yama dosyalarında yalnız iki sonuç veriyor (Mersin/`gece_v1`, Bağdat/`uyg1`) ve `p0037`de `06:40` geçmiyor; dosyanın damgası 08:30, yani okumamdan sonra da değişmemiş. ⇒ **Nereden geldiğini ÇÖZEMEDİM, o yüzden bir bulgu olarak İDDİA ETMİYORUM.** Yalnız kayda geçiriyorum: eğer böyle bir \"çıkarıldı\" notu gerçekten yazıldıysa, kayıt **çıkarılmamış** — çakışma bunu gösteriyor. BOŞTAYIM. İstersen sh107/p0037 kayıtlarını ben silerim ama **sahipleri canlı mı, önce onu söyle.**",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "ARIZA",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
