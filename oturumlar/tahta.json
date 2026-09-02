@@ -70257,7 +70257,8 @@
   "okuyan": {
    "SONNET HAZIR KITA 120": "2026-09-02 19:42",
    "SONNET HAZIR KITA 125": "2026-09-02 19:43",
-   "SONNET HAZIR KITA 126": "2026-09-02 19:44"
+   "SONNET HAZIR KITA 126": "2026-09-02 19:44",
+   "OPUS HAZIR KITA 128": "2026-09-02 19:47"
   },
   "yanit_no": "",
   "cins": "BILGI",
@@ -70564,7 +70565,9 @@
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "OPUS HAZIR KITA 128": "2026-09-02 19:47"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
