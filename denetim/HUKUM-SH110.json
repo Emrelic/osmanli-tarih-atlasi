@@ -49,8 +49,8 @@
    "hukum": "YUKARIDAKI NIS HUKMU YANLIS - GERI CEKILDI",
    "guven": "yuksek - PAKET-0037'nin capraz kaynak analizi (TDV vidin+sehirkoy+kopruluzade-fazil-mustafa-pasa + Mircetic 1994, dordu de 1689'u destekliyor)",
    "gerekce": "Benim olcumum TDV `nis` maddesini DOGRU aktarmisti (kaynak hatasi degil okuma hatasi degildi) ama TDV `nis` maddesinin KENDISI yanlis cikti - TDV'nin DIGER dort maddesiyle celisiyordu. PAKET-0037 madde-ici tutarlilik + dis kaynakla (Mircetic 1994) curuttu. Cekirdekte zaten 1689-09-24/1690-09-09 vardi, 1688-09-24 hic yoktu - bu da tek basina supheli olmaliydi.",
-   "GERI_ALINAN_ISLEMLER": "data/olaylar_sh110.js (Nis 1688-09-24 maddesi) ve data/yer_yama_sh110.js (Nis + Vidin donem yamasi) BOSALTILDI, aciklama yorumu birakildi, node ile sozdizimi tekrar dogrulandi. HICBIRI --yaz ile UYGULANMAMISTI, yani canli veriye hicbir zarar GECMEDI.",
-   "VIDIN": "Bulgum (TDV: '1689 Ekiminde... ele gecirdi', veri Nis'in gununu odunc almis, gercek odunc tarih) DOGRU kaldi ama koordinator kalemi PAKET-0037'ye devretti (ayni kumeyi cozdukleri icin). Ben Vidin'e ARTIK DOKUNMUYORUM, cakisma yok.",
+   "GERI_ALINAN_ISLEMLER": "data/olaylar_sh110.js'teki Nis maddesi ve data/yer_yama_sh110.js'teki Nis kaydi DAMGALANDI (silinmedi, yorum satirina alindi - CLAUDE.md §11 'kusur silinmedi, KAYDEDILDI'). Ikisi de node ile sozdizimi dogrulandi. HICBIRI --yaz ile UYGULANMAMISTI, yani canli veriye hicbir zarar GECMEDI.",
+   "VIDIN": "DUZELTME (koordinatorun koordinasyon hatasi, kendi ifadesi): once PAKET-0037'ye devredildi dendi, sonra 'Vidin sende kaliyor, 0037'ye BEN bildiriyorum' diye geri geldi. Vidin'in yama kaydi data/yer_yama_sh110.js'te YENIDEN AKTIF - bu kalem BENDE, cakisma koordinator tarafindan cozuluyor.",
    "DERS": "§4'e eklenen inceltme: 'TDV esastir' tek maddeyi degil MADDELER ARASI TUTARLILIGI + dis dogrulamayi gerektirir. Uc sart (once cekirdekte var mi / once madde / kalan kayitlar ne olacak) bu sefer bir duzeltmeyi HIZLANDIRMAK icin degil, YANLIS BIR DUZELTMEYI ONLEMEK icin ise yaradi - yama yazilmamis olmasi (iki shared dosya gerektirdigi icin beklenmisti) dogru veriyi bozulmaktan KURTARDI."
   },
   {

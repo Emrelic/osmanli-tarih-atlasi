@@ -1,37 +1,37 @@
 // =====================================================================
 // OLAYLAR SH110 — SONNET HAZIR KITA 110
 // =====================================================================
-// 🔴 GERİ ÇEKİLDİ (2 Eylül 2026 gecesi) — Niş'in 1688-09-24 maddesi
-// BURADA VARDI, ÇÜRÜTÜLDÜ ve KALDIRILDI. Kayıt, dersin kendisi için
-// tutuluyor.
+// 🔴 ÇÜRÜDÜ — PAKET-0037'nin ölçümü, 2 Eylül 2026; TDV `nis` maddesi
+// kendi kaynağıyla (vidin/sehirkoy/belgrad/kopruluzade-fazil-mustafa-
+// pasa + Mirčetić 1994, dördü de 1689'u destekliyor) çelişiyor.
+// Çekirdekte zaten 1689-09-24 vardı, 1688-09-24 HİÇ yoktu — bu da tek
+// başına şüpheli olmalıydı. Aşağıdaki madde UYGULANMADI, yorumda
+// DAMGALI duruyor: sonraki bir oturum aynı TDV cümlesini okuyup aynı
+// yola girmesin diye.
 //
-// NE OLMUŞTU: TDV `nis` maddesi tek başına okunduğunda "24 Eylül
-// 1688'de Niş... ele geçirildi" diyordu; veride 1689-09-24 vardı;
-// ben bunu BİR YIL HATASI diye ölçtüm ve madde+yama yazdım.
-//
-// NEDEN YANLIŞTI: PAKET-0037 AYNI SORUYU ölçtü ve TDV'nin KENDİ İÇİNDE
-// çeliştiğini buldu — `vidin` "1689 Ekimi", `sehirkoy` "1689",
-// `kopruluzade-fazil-mustafa-pasa` 1690 seferi, ve Mirčetić 1994
-// (Vojna istorija Niša) DÖRDÜ DE 1689'u destekliyor. Çekirdekte zaten
-// 1689-09-24 ve 1690-09-09 vardı, 1688-09-24 hiç yoktu. Tek madde
-// (`nis`) diğer dördüyle tartışıldığında AZINLIKTA kaldı — kaynağın
-// kendi maddelerinden biri (nis) hatalıydı, veri değil.
-//
-// ⇒ HÜKÜM: veri DOĞRUYDU, Niş TAŞINMIYOR. Bu dosyanın (o zamanki)
-// tek maddesi geri çekildi.
-//
-// 📌 DERS (`CLAUDE.md §4`e eklendi): "TDV esastır" tek maddeyi değil,
-// MADDELER ARASI TUTARLILIĞI + dış doğrulamayı gerektirir. Bir TDV
-// maddesi kendi içinde yanlış olabilir (bu proje bu gece bunun İKİNCİ
-// vakasını da buldu: TDV'nin "II. Joseph" dediği kişi aslında
-// I. Franz Joseph'ti).
-//
-// VE ÜÇ ŞART (koordinatörün "önce ölç" kuralı) NEDEN İŞE YARADI:
-// yama YAZILMADI (iki shared dosyayı birlikte değiştirmek gerektiği
-// için bekletildim) — bu sayede doğru veri BOZULMADI. Şartlar bir
-// düzeltmeyi hızlandırmak için değil, YANLIŞ bir düzeltmeyi önlemek
-// için varmış.
+// 📌 DERS (`CLAUDE.md §4`e eklendi): "TDV esastır" tek maddeyi değil
+// MADDELER ARASI TUTARLILIĞI + dış doğrulamayı gerektirir. TDV kendi
+// içinde çelişebilir (bu proje bu gece bunun ikinci vakasını da
+// buldu: TDV'nin "II. Joseph" dediği aslında I. Franz Joseph'ti).
+// Ve üç şart (koordinatörün "önce ölç" kuralı — çekirdekte var mı /
+// önce madde / kalan kayıtlar ne olacak) bu sefer bir düzeltmeyi
+// HIZLANDIRMAK için değil, YANLIŞ bir düzeltmeyi ÖNLEMEK için işe
+// yaradı: yama hiç uygulanmadığı için doğru veri BOZULMADI.
 // =====================================================================
+
+/* 🔴 ÇÜRÜDÜ, UYGULANMADI — bkz. yukarıdaki not:
+
+{ t:"1688-09-24", k:"kayip", etiket:["toprak-kayip","savas"],
+  b:"Niş'in kaybı — Ludwig von Baden'in ilerleyişi",
+  gun:"24 Eylül 1688", yer:"Niş", yer_id:"Niş",
+  kisiler:"Ludwig von Baden (Baden Markgrafı)",
+  d:"Belgrad'ın Eylül 1688'deki kaybından haftalar sonra Niş de Baden "
+   +"Markgrafı Ludwig von Baden'in birlikleri karşısında düştü; "
+   +"Habsburg ilerleyişi Sofya yoluna dayandı. Şehir ancak Köprülüzâde "
+   +"Fâzıl Mustafa Paşa'nın 1690 seferiyle, üç haftalık bir kuşatmanın "
+   +"ardından geri alınabildi.",
+  kaynak:"nis", duygu:["😔"] },
+*/
 
 window.OLAYLAR_SH110 = [
 ];
