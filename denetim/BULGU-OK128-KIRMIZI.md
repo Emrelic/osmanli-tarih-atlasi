@@ -293,3 +293,99 @@ ve canlı bir oturum (`list_sessions`), sevki `DAGITIM-0902-AKSAM.md` bölüm �
 uyarı basılmadan önce `KIME` değerinin tahtada **kendi başına geçerli bir ad
 olup olmadığına** bakılsın; geçerliyse `[ADRES-TUZAGI]` değil `[KOMŞU AD]`
 diye bassın.
+
+---
+
+## ⑦ EK TUR — OK109'un devrettiği kalem (M-2231) · **iki öncülü tuttu, biri
+çürüdü, ve kendi hipotezim de çürüdü**
+
+OK109 Varşova kaleminde reçeteyi yazdı ve bana üç öncül devretti.
+**Üçünü de kendim ölçtüm** (`§7.1 ⑤`: devraldığın sayıyı doğrulamadan
+aktarma). Yöntem: 69 bağlı dosya, node'un kendi ayrıştırıcısı.
+
+```
+① "lehistan veride 50 DÖNEMDE geçiyor, yalnız 4'ü hayalet"
+   ÖLÇÜM: 50 dönem · künye sonrası başlayan 4          ✓ TUTTU
+② "PRUSYA kimliği HİÇ YOK"
+   ÖLÇÜM: veride 400 benzersiz kimlik · prus/brandenburg 0  ✓ TUTTU
+③ "1815-06-09 → 1918-11-11, 103 yıl 5 ay ASIL DELİK, senin kaleminde"
+   ÖLÇÜM: 🔴 KISMEN ÇÜRÜDÜ — bu bir KÜNYE deliği, VERİ deliği DEĞİL
+```
+
+### ③'ün ölçümü — kutuda hiç sahipsiz yok
+
+Kutu `49-55K / 16,5-24,5D` · **14 nokta**:
+
+```
+1790-06-15   lehistan 12 · avusturya 1 · almanya 1
+1810-06-15   rusya 5 · lehistan 4 · almanya 3 · avusturya 2
+1830-06-15   rusya 9 · almanya 3 · avusturya 2
+1870-06-15   rusya 9 · almanya 3 · avusturya 2
+1900-06-15   rusya 9 · almanya 3 · avusturya 2
+```
+
+**Hiçbir kesitte SAHİPSİZ yok.** Varşova · Lublin · Chełm · Zamość ·
+Białystok · Brest-Litovsk · Grodno · Kaunas · Volodymyr `rusya`;
+Gdansk · Poznan · Königsberg `almanya`; Krakov · Lvov `avusturya`.
+
+⇒ 1815-1918 aralığında **harita deliği yoktur**. Açık olan soru bir eksiklik
+değil bir **adlandırma** sorusu: Kongre Polonyası çarla kişisel birlikteydi,
+yani `rusya` yanlış değil — ayrı bir künye **ifade gücü** kazandırır,
+**delik kapatmaz**.
+📌 `§3.5.1`in iki-uç kuralı: Varşova Dükalığı künyesi **gerçek bir hayaleti**
+kapatıyor (4 kayıt, `denetle.py` ötüyor); Kongre Polonyası künyesi
+**ötmeyen** bir şeyi güzelleştiriyor. İkisi aynı aciliyette değil.
+
+### 🔴 VE KENDİ HİPOTEZİM ÇÜRÜDÜ — aletim yanlış sayı verdi, yakaladım
+
+Prusya'nın yokluğundan şunu çıkarmıştım: *"Poznan/Gdansk 1830'da `almanya`
+boyanıyor, Alman İmparatorluğu 1871'de kuruldu ⇒ anakronik hayalet."*
+Ölçmek için yazdığım alet **95 kayıt** dedi. **Sayı yanlıştı:**
+
+```
+ISO tarih DİZGİ karşılaştırması 3 HANELİ YILDA ÇÖKER
+   "1281-01-01" < "962-02-02"   →  True     (doğru cevap: False)
+```
+
+`almanya` künyesi **`962-02-02`** ile başlıyor; aletim dizgi karşılaştırması
+yaptığı için **95 meşru dönemi "künyeden önce" saydı.** Gerçek cevap **0**.
+
+Ve düzeltilmiş ölçüm hipotezimi çürüttü: `almanya` künyesinin adı
+**"Kutsal Roma / Almanya"**, aralığı **962-02-02 → 1923-10-29** — yani
+kasıtlı bir **şemsiye kimlik**. 1830'da Poznan'ın `almanya` olması anakronizm
+değil, **modelleme kararı**; `denetle.py` de onu hayalet saymıyor.
+
+**Bu tuzak veride 18 künyeyi ilgilendiriyor** (3 haneli yıl):
+`bizans · venedik · papalik · fransa · sirvansah · yemen-zeydi · almanya ·
+dubrovnik · nube · song · goryeo · poni · kanem-bornu · iskocya · bretanya ·
+navarra · pagan · sunda-pajajaran`.
+
+### 🟢 `denetle.py` BU TUZAĞA DÜŞMÜYOR — ölçtüm, VARSAYMADIM
+
+Yanlış alarm vermemek için kodu okudum (salt okuma):
+
+```
+denetle.py:1563  _gun_farki()  →  datetime.date ile GERÇEK tarih aritmetiği
+                                  ⇒ 4 · 4c · 4d sayıları DOĞRU
+```
+
+⚠️ **Ama iki KAPIDA dizgi karşılaştırması var** (`:1765` `kt < ATLAS_SONU`,
+`:1776` `kf > ATLAS_BASI`). İkisini de ölçtüm — **bugün zararsızlar**:
+
+```
+kf > ATLAS_BASI   18 künye için YANLIŞ True veriyor (kapı açık kalıyor),
+                  ama asıl testi `_gun_farki` yapıyor ve g4 negatif çıkıyor
+                  ⇒ hiçbiri listeye eklenmiyor. Kapı gereksiz, ZARARSIZ.
+kt < ATLAS_SONU   bugün hiçbir künyenin `t`si 3 haneli DEĞİL (18'inin de
+                  bitişi 4 haneli) ⇒ ZARARSIZ.
+```
+
+🔴 **GİZLİ TUZAK — bugün değil, yarın:** 3 haneli **bitiş** yılı olan bir
+künye eklenirse `"962-01-01" < "1923-10-29"` **False** döner ⇒ o künye için
+`4c` kontrolü **sessizce ATLANIR**. Kusur değil, **kayıt**.
+⚠️ Yalnız `4` ailesinin bloğunu okudum; `denetle.py`nin geri kalanında
+benzer dizgi karşılaştırması **var mı ölçmedim**.
+
+📌 Ve bu turun asıl dersi bende: *aletim doğru soruyu sordu, yanlış cevap
+verdi, ve yanlışlığı ancak **sonucu tuhaf bulup koda bakınca** çıktı.* Sayıyı
+raporlasaydım OK127'ye `4` ailesinde **olmayan bir kusur** ihbar edecektim.
