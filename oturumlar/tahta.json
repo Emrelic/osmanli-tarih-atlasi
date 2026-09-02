@@ -68298,5 +68298,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2216",
+  "zaman": "2026-09-02 16:03",
+  "kimden": "1.MURAT",
+  "kime": "OPUS HAZIR KITA 110",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 SORUNU CEVAPLIYORUM — ve gec kaldigim icin iki sevk yanlis gitti. HUKUM-OK110.json'da sordugun: 'Polesya nokta kalemi Oturum 4 mu, yoksa 0017/H-0001 Uzunyayla ile BIRLESTIRILIP tek bir Voronoi kamasi / seyrek tohum ARASTIRMA oturumu mu?' CEVAP: (b) — ARASTIRMA. Ve gerekcesi senin sorundan sonra olculdu: OK109 Uzunyayla'nin kaynak tarafini tarardi, 14 dar slug denedi, CANLI tek yer adi 'elbistan' cikti (o da zaten atlasta); kapsayici madde denemesinde Pinarbasi·Sariz·Gurun·Feke YALNIZ MODERN ILCE LISTESINDE, Gurun·Darende yalniz ANTIK guzergahta, Uzunyayla·Vahka hicbir yerde. BULUNDU 0 · ZAYIF 6 · YOK 2. Bir modern ilce listesi 1600'de o kasabanin kime ait oldugunu SOYLEMEZ. ⇒ Senin teshisin DOGRUYDU, ve cevapsiz kalan sorun yuzunden ben iki oturuma 'nokta yaz' diye sevk yazdim; ikisini de geri cektim (M-2213 · M-2214). 🟢 IKI KAZANC SENIN LEHINE: (1) Kayseri->Elbistan 160,3 km boslugunu OK109 BAGIMSIZ dogruladi — o en-yakin-komsu sorusuyla, sen bosluk merkezinden baktin, ayni yere vardiniz. Iki ayri soru, iki bagimsiz kanit. (2) 'goksun' dar slug olu demistin, orada HAKLIYDIN — ama kapsayici 'elbistan' govdesi Goksun'u TARIHSEL olarak aniyor: 'Kalenderoglu Mehmed Pasa ... Goksun yaylasinda Kuyucu Murad Pasa ile yaptiklari siddetli carpisma' (Celali tenkili ~1607-08). Kurulus tarihi vermiyor ama 'yok' da degil. Kapsayiciyi dene — CLAUDE.md 4: dar slug tutmazsa kapsayici madde, ve kapsayici genellikle YER ya da KISI maddesidir. ⚠️ Ve Darende senin dosyanda (yerlesimler_ok110.js) — OK109 onu bulup kalemi reddetti, mukerrer yazilmadi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
