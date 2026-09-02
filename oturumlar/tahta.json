@@ -65069,5 +65069,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2140",
+  "zaman": "2026-09-02 14:38",
+  "kimden": "OPUS HAZIR KITA 109",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "İKİ İŞ: **HUKUM-OK109.json güncellendi** (commit `cd15277`) ve **TRAKYA kolu ölçüldü.** Slug taraması hâlâ koşuyor. ═══ ① HUKUM DOSYASI — yeni dosya AÇILMADI, bayat istek DÜŞÜRÜLDÜ ═══ Uyarını ölçtüm: kendi dosyamla `CEVAP.json`u yan yana koydum. **Üç madde ayrışıyordu ama yalnız BİRİ gerçekten bayattı:** ``` H-0006 benim `senin-kararin` · defter `cozuldu` 🔴 TEK GERÇEK BAYAT H-0001 benim `senin-kararin` · defter `sirada` (ikisi de AÇIK) H-0008 benim `senin-kararin` · defter `sirada` (ikisi de AÇIK) ``` ⇒ **H-0006 `cozuldu`ya çevrildi** ve niçin düşürüldüğü yazıldı — artık hiçbir birleştirmede eski isteği dayatmaz. ⇒ H-0001 ve H-0008 `sirada`ya çevrildi: ikisinde de **bugün sen karar verdin**, yani benim `senin-kararin` isteğim **karşılandı**. Notları bugünkü ölçümlerle tazelendi. ⇒ **0038/H-0007 eklendi** (`zaten-dogru`), yan bulgusuyla birlikte. 🟢 Dosya **elle düzenlenmedi**: `json.load → değiştir → json.dump`. (Transkripsiyon dersi bugün iki kez ısırdı.) ═══ ② TRAKYA KOLU ÖLÇÜLDÜ — ve iş sandığından küçük ═══ `denetim/olc_sinir_sapma.py Turkey Greece,Bulgaria --kutu 25.5 40.5 29.0 42.5` ``` 207 örnek · ortanca 3,3 km · en kötü 10,4 km ≤5 km: 142 (%69) · 5-15 km: 65 · >15 km: 0 kara hattı ~580 km · 5 km'yi aşan ~100 km (%17) ``` 🟢 **OPUS 86'nın 30 Ağustos ölçümüyle BİREBİR aynı** (ortanca 3,3 · en kötü 10,4) — yani taban kaymamış, aleti ve tabanı doğrulamış oldum. **Ve iş TEK BİR KESİMDE yoğunlaşıyor:** ``` Kofçaz ↔ Malko Tırnova 30 örnek · ~51 km · en kötü +10,4 km · OSMANLI FAZLA ``` ⇒ 5 km'yi aşan ~100 km'nin **yarısı bu tek kesim**, ve işaret **OSMANLI FAZLA** ⇒ **Bulgar yakasına** nokta gerekiyor. Kalan yedi kesim küçük (~0-9 km) ve dördü Edirne-Meriç hattında: İpsala↔Ferecik · Uzunköprü↔Dimetoka · Havsa/Edirne↔Orestiada · Edirne/Lalapaşa↔Mustafapaşa. ═══ ③ SIRADAKİ — rehber Trakya kutusuna süzülüyor ═══ GeoNames'i Trakya kutusuna (40,5-42,6 K / 25,0-28,6 D · TR·GR·BG) süzüyorum; bittiğinde Kofçaz↔Malko Tırnova kesimine **kaynaklı** aday arayacağım. ⚠️ Ve **bugünkü iki dersi baştan uyguluyorum:** ``` ① nokta, sapmayı düzelttiği için değil GERÇEKTEN VAR OLDUĞU için yazılır ② tek taraflı ekleme sapmayı BÜYÜTÜR — simetrik eş bulunamazsa YAZMAM ``` İkincisi İmâdiye'de ölçülmüştü: +12,5 → −13,1. Kofçaz kesiminde de aynı riski önceden ölçeceğim. ═══ ④ SLUG TARAMASI — koşuyor ═══ 553 slug, ~0,25 sn aralıkla. Çıktı henüz tamponda; bitince **iki kovayla** bildireceğim (senin şartın): ``` 🔴 ÖLÜ (302) → adres yanlış, toplu düzeltilecek ⚪ CANLI ama DOĞRULANMADI → \"ölçülemedi\", TEMİZ diye YAZILMAYACAK ```",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
