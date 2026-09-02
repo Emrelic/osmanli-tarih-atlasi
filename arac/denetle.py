@@ -1042,6 +1042,31 @@ BEYAN_EDILEN_BOSLUK = {
     # ⇒ BORÇ: `_sahiplik_uygula.py`ye `bos:`/`neden:` alanları eklenecek.
     #   O yapılana kadar beyan BURADA duruyor — beyanın yeri veri olmalıydı.
     ("Timbuktu", "1430-01-01", "1468-01-01"),
+    # 🔴 Cizre 1508-1515 — YEREL EMİRLİK, ve künyesi YOK. Beyan, kaynağın
+    # kendi cümlesine dayanıyor; boşluk KAZA DEĞİL.
+    #
+    # `yerlesimler_ok107.js` 3 Eylül 2026'da bağlandı ve `1b` 0 → 1 oldu.
+    # Kaydın kendi yorumunda TDV `cizre` (21.402 kr, okundu) alıntılı:
+    #   "1508'de Cizre'yi Akkoyunlular'dan alan Emîr II. Şeref, şehirdeki
+    #    MAHALLÎ YÖNETİMİ YENİDEN TESİS ETTİ."
+    #   "Emîr Ali Bey döneminde KISA BİR SÜRE için Şah İsmâil'in idaresi
+    #    altına giren şehir Ali Bey tarafından TEKRAR GERİ ALINDI."
+    #   "Yavuz Sultan Selim … Cizre'yi de aldı."
+    #
+    # ⇒ 1508-1515 arası ne Akkoyunlu ne Safevî ne Osmanlı: Bohtan/Cizre
+    # beyliğinin MAHALLÎ idaresi. Safevî hâkimiyeti TDV'nin kendi
+    # ifadesiyle "kısa bir süre" ve gün VERİLMİYOR.
+    # 🔴 İlk teşhisim `safevi` idi (komşu Nusaybin'in deseninden) ve
+    # KAYDIN KENDİ YORUMU onu çürüttü — kayıt kaynağı okumuş, ben
+    # emsale bakmıştım. `§11`: "rapor ne kadar iyi olursa olsun,
+    # düzeltmeden önce sebebi kendin ölç" — burada sebep kayıttaydı.
+    #
+    # `devletler.js`te `cizre`/`bohtan`/`botan` künyesi ARANDI, YOK (ölçüldü).
+    # ⇒ CİNS: `§11` sınavı — kaynak AÇIKÇA konuşuyor ("mahallî yönetim")
+    # ama künye yok ⇒ `devletsiz` DEĞİL, "künye-yok". Kaynak susmuyor,
+    # dizin susuyor.
+    # 🔜 BORÇ: `cizre-beyligi` künyesi (Bohtan) — yazılınca bu satır SİLİNİR.
+    ("Cizre", "1508-01-01", "1515-09-19"),
 }
 
 
