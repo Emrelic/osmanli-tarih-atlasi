@@ -101,3 +101,62 @@ kasr-i-sirin-antlasmasi  →  murad-iv     (gövde okundu, olay günüyle içeri
 ⚠️ **Kalan 36'nın karşılığı ARANMADI.** Her biri için *"bu olay hangi yer/kişi
 maddesinde anlatılıyor"* sorusu ayrı bir araştırmadır ve **ölçmedim.**
 Desen (② tablosu) hangi yöne bakılacağını söylüyor ama **adresi vermiyor.**
+
+---
+
+## ⑤ PİLOT — SEKİZ SLUG İÇİN ADRES ARANDI: **6/8 BULUNDU**
+
+Öngörü `denetim/ONGORU-OK109-ADRES.json`e **aramadan önce** yazıldı: *"5-6 / 8"*,
+ve eşik de önceden konuldu: **BULUNDU = gövde olayı ADIYLA ve TARİHİYLE veriyor**
+(tarihsiz anma `ZAYIF` kovasına gider, BULUNDU sayılmaz).
+
+```
+varna-savasi                 🟢 BULUNDU   varna
+preveze-deniz-savasi         🟢 BULUNDU   barbaros-hayreddin-pasa
+istanbulun-fethi             🟢 BULUNDU   istanbul
+belgrad-antlasmalari         🟢 BULUNDU   belgrad
+zenta-savasi                 🟢 BULUNDU   zenta
+nasuh-pasa-antlasmasi        🟢 BULUNDU   nasuh-pasa
+sakarya-meydan-muharebesi    🟡 ZAYIF     sakarya   (anılıyor, 1921 YOK)
+cimpe-kalesi                 🔴 YOK       —          (üç aday da tutmadı)
+                                          BULUNDU 6/8 · ZAYIF 1 · YOK 1
+```
+🟢 **Ve çürüyen ikisi, öngörüde ÖNCEDEN "en şüpheli" diye işaretlenen ikisiydi**
+(`sakarya` — TDV'nin Cumhuriyet dönemi taneciği zayıf · `cimpe-kalesi` — zaten
+`YER` cinsinde olduğu hâlde ölü, yani desenin kendi istisnası). Öngörünün
+**sayısı** değil **şekli** de tuttu.
+
+### 🔴 VE ALETİME GÜVENMEDİM — dört "BULUNDU"yu ELLE DOĞRULADIM
+Birinci geçişin kanıt penceresi dört vakada şüpheliydi (`zenta`nınki **HTML/CSS
+artığıydı**). İkinci geçiş yılın etrafında dar pencere alıp etiket kalıntısını
+eledi. **Altısı da doğrulandı** — `zenta`nınki gerçekten maddenin kendi tanım
+cümlesiymiş: *"ZENTA — 1697'de Osmanlı ordusunun Kutsal İttifak güçleri
+tarafından bozguna uğratıldığı yer."*
+
+### 🟢 VE İKİ FAZLADAN BULGU
+
+**① Olayın KENDİ maddesi bazen VAR — adı farklı.** TDV'nin **kendi çapraz
+göndermesi** doğru slugu veriyor:
+```
+`varna` gövdesi:                   "… savaş şehir yakınlarında cereyan etti
+                                     (bk. VARNA MUHAREBESİ)"
+`barbaros-hayreddin-pasa` gövdesi: "PREVEZE DENİZ MUHAREBESİ — … (945/1538)"
+sınandı:  varna-muharebesi          200 🟢
+          preveze-deniz-muharebesi  200 🟢
+```
+⇒ Külliyat *"savaşı"* yazmış, TDV *"muharebesi"* diyor.
+
+**② AMA KÖR YENİDEN ADLANDIRMA ÇALIŞMIYOR — ölçüldü:**
+```
+"savasi" → "muharebesi" körlemesine denendi:   2 / 10   (%20)
+TDV'nin KENDİ çapraz göndermesi izlendi:       2 / 2    (%100)
+   ölü kalanlar: zenta · cildir · sirpsindigi · mesaleler ·
+                 salankamen · camurlu · izlad · kirim  (hepsi -muharebesi de 302)
+```
+⇒ ***Kural "eki değiştir" değil, "kaynağın kendi göndermesini izle".*** Bu,
+`§4`ün *"kaynağı okumak, kaynağın kendi uyarısını da okumaktır"* dersinin
+adres tarafı: **TDV yanlış kapıya gelen okuyucuya doğru kapıyı gösteriyor.**
+
+### KARAR ÖLÇÜTÜ
+Koordinatörün eşiği: `≥5/8 ⇒ desen adres de veriyor, kalan 28'i koştur.`
+**Ölçüm 6/8** ⇒ eşik **geçildi**.
