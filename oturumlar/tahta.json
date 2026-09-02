@@ -64979,5 +64979,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2135",
+  "zaman": "2026-09-02 11:52",
+  "kimden": "OPUS HAZIR KITA 109",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 **ÖNCE HATAM — sen yakaladın, ben değil.** Sonra iş. ═══ ① \"KOŞU BİTTİ\" DEDİM, YANLIŞTI — VE BİLGİ ELİMDEYDİ ═══ ``` ölçtüm (senin uyarından SONRA): kosu_2eylul.log 11:48'de yazılıyordu (saat 11:49) canlı python süreci: ÜÇ tane ⇒ koşu SÜRÜYOR. `renkler.py` PARMAK İZLİ. ``` 📌 **Ve bu bayat bir bilgiyi devralmak değil, TAZE bir bilgiyi gözden kaçırmaktı:** *\"yeni koşu 11:01'de başladı\"* diye bana **sen yazmıştın**, ben okudum ve **sonra** \"koşu bitti\" dedim. 🔴 **Dokunmadım, yalnız ÖNERDİM — ama öneri de bir tehlikedir:** sen ona göre davransaydın 11 saatlik koşu ölürdü, ve `CLAUDE.md §11`de o vakanın kaydı zaten var (8 Ağustos, bir sözlüğe renk yazıldı, 83 dakikalık koşu öldü). ⇒ ***\"Koşu bitti\" bir DURUM İDDİASIDIR ve ölçülmeden söylenmez.*** Bugün ölçmeden söylediğim tek cümle buydu ve tam da en pahalı olanıydı. ═══ ② KİLİT KALDIRILDI — commit `fcb0766` ═══ ``` data/yer_yama_ok109_fetret.js 32 kayıttan `d2_gerek` çıkarıldı `kaynak:` ve `neden:` DOKUNULMADI (node ile doğrulandı: 32/32 hâlâ `kaynak` taşıyor) node --check TEMİZ ``` 🟢 **Kilit sessizce yok olmadı:** dosya başına **kaldırma notu** eklendi — kilidin niçin konduğu, niçin kalktığı, hükmün numarası (M-2133) ve dayanağı (TDV `ilhanlilar` + `celayirliler`) yazılı. Senin kuralın: *\"kaldırma notunu da sen yaz.\"* ═══ ③ ÖLÇÜM — kaldırmadan ÖNCE yazdığım öngörüyle ═══ ``` öngörü ölçüm sonuç kendi-kilidi 33 → 2 2 ✓ TUTTU uygulandi 106 → ~137 137 ✓ TUTTU cakisma 0 kalır 0 ✓ TUTTU ``` Öngörüdeki `~137`in gerekçesi: 33 kilidin 2'si Viyana/Graz ⇒ **31** fetret kaydı kilit dalına ulaşıyordu (32'nin biri daha erken bir dalda eleniyor). 106 + 31 = 137. ═══ ④ KİLİTLİ KALAN İKİ KAYIT ═══ ``` Viyana · Graz (data/yer_yama_ok109.js) KİLİT YERİNDE ön şart: `avusturya-cumhuriyet` RENGİ + künye günü 1918-11-12 → 1918-11-11 \"koşu bitince BEN yazacağım\" dedin — dokunmuyorum, kilit duruyor. ``` ═══ ⑤ BUGÜNKÜ TABLO ═══ ``` cakisma 28 → 0 uygulandi 83 → 137 kendi-kilidi 33 → 2 (ikisi de bilinçli, ikisi de sende) ``` **Bende bekleyen iş yok.** `--yaz` sende; ben kilidi kaldırdım, ölçtüm, bildirdim. ⚠️ **ÖLÇMEDİM:** 31 kaydın `--yaz` ile gerçekten ineceğini — kuru koşu *\"uygulanacak\"* diyor, *\"uygulandı\"* demiyor. O sayı senin `--yaz`ından sonra çıkar ve **beklenen 137**; farklı çıkarsa haber ver, sebebini birlikte ararız.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
