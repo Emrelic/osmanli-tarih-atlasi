@@ -1,0 +1,39 @@
+{
+  "is": "Beş birleşimin mekanik yarısı — dört dosyada on kaydı yoruma çevirme",
+  "oturum": "OPUS HAZIR KITA 109",
+  "damga": "2026-09-02, DOKUNMADAN ÖNCE yazıldı ve commit edildi",
+  "sevk": "1.MURAT, M-2134 · birleşim dosyası c8e535f",
+
+  "koordinatorun_beklentisi": "cakisma 7 → 2, sonra 0",
+
+  "benim_ongorum": {
+    "sayi": 0,
+    "niçin_farklı": "Koordinatörün tabanı 7; ben o mesajı almadan önce Bağdat ve Halepçe'yi zaten indirdim (commit a16dc84), yani bugünkü taban 5. Ölçtüm, devralmadım. ⇒ 5 − 5 = 0.",
+    "hesap": "Kalan beş çatışmanın beşi de bu turda kapanır; başka açık çatışma YOK."
+  },
+
+  "olculen_taban": {
+    "cakisma": 5,
+    "kalanlar": ["Ardahan", "Kars", "Malikiye (Derik)", "Nusaybin", "Silopi"],
+    "not": "Beşi de artık ÜÇ YÖNLÜ: birleşim dosyası eklendiği için taraflar 2'den 3'e çıktı."
+  },
+
+  "yoruma_cevrilecek_10": {
+    "yer_yama_ok107.js": ["Nusaybin", "Silopi", "Malikiye (Derik)"],
+    "yer_yama_ok110.js": ["Nusaybin", "Silopi", "Malikiye (Derik)"],
+    "yer_yama_kafkas.js": ["Kars", "Ardahan"],
+    "yer_yama_uyg1.js": ["Kars", "Ardahan"]
+  },
+
+  "kontrol_TERS_CALISIYOR": {
+    "eski_kural": "hükümdeki KAZANAN, çatışmanın TARAFLARINDAN BİRİ mi?",
+    "niçin_burada_yanlış": "Bu beşte kazanan üçüncü bir dosya (`yer_yama_birlesim_1murat.js`) ve o da artık taraf — ama eski kuralın RUHU 'kazanan gerçekten var mı' idi. Koordinatör uyardı: kuralı olduğu gibi koşarsam beşini de durdurur.",
+    "yeni_kural": "① kazanan `yer_yama_birlesim_1murat.js` o adı GERÇEKTEN taşıyor mu (node ile ölçülür) ② düşürülecek kayıt gerçekten o çatışmanın taraflarından birinde mi ③ birleşim kaydı, düşürülecek kayıtların alanlarını KAPSIYOR mu (d ve s)",
+    "ders": "Bir doğrulama kuralı, yazıldığı vakanın DIŞINDA yanlış sonuç verebilir. Bugünkü 'başlık ≠ kapsam' dersinin kardeşi — ve bu sefer beni koordinatör uyardı, ben yakalamadım."
+  },
+
+  "mazeret": {
+    "var_mi": "YOK",
+    "gerekce": "Ayrıştırma sorusu; tabana/koşuya duyarlı değil. 0 çıkmazsa DURACAĞIM ve bildireceğim."
+  }
+}
