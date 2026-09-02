@@ -176,6 +176,19 @@
       "⚠️ HALA_OLCMEDIM": "Çözümü yapan betiğin bugün NEREDE olduğunu (hangi oturumun scratchpad'i, hangi biçim) bilmiyorum — `renkler.py` içinde olmadığını ölçtüm, nerede OLDUĞUNU ölçmedim."
     },
 
+    "H · BEKLENEN KISIT LISTESI — `assert`in GİRDİSİ (M-2302 ile istendi)": {
+      "nicin": "«Liste olmadan `assert` neyi bekleyeceğini bilmez» (1.MURAT, M-2302). Aşağıdaki üç kenar çözücünün KURMAK ZORUNDA olduğu kısıtlardır; kurulamayan varsa çözücü DURMALI.",
+      "kenarlar": [
+        { "a": "kongre-polonyasi", "b": "rusya",            "hedef_dE": 25, "cins": "ayni-sahne", "sure": "1815-06-09 → 1917-03-15 (101 y 9 a)", "gerekce": "anlatısal (1815-06-09 maddesi üçünü tek cümlede anıyor) + mekânsal (rusya onu sarıyor)" },
+        { "a": "varsova-dukaligi", "b": "rusya",            "hedef_dE": 25, "cins": "ayni-sahne", "sure": "1807-07-22 → 1815-06-09", "gerekce": "anlatısal — aynı madde" },
+        { "a": "varsova-dukaligi", "b": "kongre-polonyasi", "hedef_dE": 25, "cins": "🔴 AYNI SAHNEDE DEGIL — ELLE KISIT", "sure": "ardışık, aynı dört nokta", "gerekce": "çözücü bu çifti KENDİLİĞİNDEN KURMAZ (D maddesi); kurulmazsa 1815 kırılması ekranda görünmez" }
+      ],
+      "assert_sozlesmesi": "Çözüm bitince bu üç kenarın ÜÇÜ için de 'ÖZEL ÇİFT' satırı BASILMIŞ olmalı. Basılmayan varsa → `assert` düşsün, çözücü DURSUN. (Satırın VARLIĞI sınanacak, sayının değeri DEĞİL — `luba ↔ lunda` dersi.)",
+      "cozum_sonrasi_dogrulama": "Ayrı sınav (M-2302 ④): üç kenar da ölçülüp ΔE ≥ 25 GERÇEKTEN geçiyor mu? Biri geçmiyorsa çözüm KABUL EDİLMESİN. ⚠️ Bu, assert'ten AYRI bir sınavdır: assert kısıtın KURULDUĞUNU, bu İŞE YARADIĞINI ölçer.",
+
+      "🟢 SIRA SARTIM ARTIK GEREKSIZ — ve bunu yazıyorum ki bayat kalmasın": "G ① maddesinde «varsova-dukaligi ÖNCE» demiştim. M-2302'deki yeni uygulama sırası (① üç kimliği de BOYALAR'a önce geçici değerle yaz ② sonra çöz) bu şartı GEREKSİZ kılıyor — üçü de sözlükte olduğu için hangi sırayla çözüldüğü fark etmez. G ② (assert) ve G ③ (çıktı sınavı) AYNEN GEÇERLİ kalır."
+    },
+
     "🔴 VE_HATIRLATMA": "CLAUDE.md §9: veriye dokunan her koşudan sonra `renk_olc.py` koşulur — renge dokunulmasa bile yeni bir gövde sahneye girince çakışma DOĞABİLİR."
   },
 

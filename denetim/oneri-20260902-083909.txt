@@ -1,0 +1,4 @@
+// renk_olc.py --oner çıktısı — aktarımdan SONRA:
+//   py arac/renk_olc.py --dogrula oneri-20260902-083909.txt
+eyyubi-hisnikeyfa #2424d2
+kabartay #242ad2

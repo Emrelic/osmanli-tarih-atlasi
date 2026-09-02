@@ -1,0 +1,196 @@
+{
+  "paket": "parti-emrelic-0035",
+  "oturum": "PAKET-0035-0902",
+  "koordinator": "1.MURAT",
+  "damga": "2026-09-02",
+  "session_id": "local_f8025e92-8285-4525-91f9-f1f602dee843",
+  "kapsam": "Acik 38 madde (sirada 26 · olculecek 12). CEVAP.json'a YAZILMADI (§7).",
+  "yazilan_dosya": "data/yer_yama_p0035.js  (window.YER_YAMA_P0035, 5 kayit)",
+  "olculen_taban": {
+    "yerlesim": "2663 nokta / 69 girdi dosyasi",
+    "denetle_py": "Degismez 1 ✓ · 1b ✗(1) · 2 ✓(534/0) · 2s ✓(994/75, tavan 121) · 2i ✗(26/4, tavan 3) · 2t ✓(18) · 4 ✗(12) · 4c ✗(286) · 7 ✓ — SONUC: IHLAL VAR, cikis 1",
+    "not": "Zemin BENIM yamamdan ONCE kirmizi. Acik dort isgal kirilmasi (Nis 1737 · Semendire 1789 · Bukres-Yas 1834 · Bihac 1878) ve tek beyansiz bosluk (Timbuktu 1430-1468) benim kalemlerim DEGIL.",
+    "CLAUDE_md_1_5_bayat": "tablo 2624/63 · 528 · 977/70 · 24/3 · 19 diyor; olculen 2663/69 · 534 · 994/75 · 26/4 · 18. durum_tablosu.py --yaz kok *.md'ye yazar, benim dosyam degil."
+  },
+
+  "maddeler": {
+    "H-0013": {
+      "hukum": "zaten-dogru",
+      "olctum": "Taganrog kaydi VAR: 47.237/38.897, yerlesimler_h2_rusya.js, zincir tam (s:rusya 1698-09-12..1711-07-21 / s:kirim 1711-07-21..1739-09-18 / s:rusya 1739-09-18..). Commit d5e8fc5, 8 AGUSTOS 2026; dosya girdi.py'ye ayni gun baglandi (0dcfb30).",
+      "cikardigim": "Devraldigim not ('TAYGAN'IN YERLESIM KAYDI YOK, nokta eklenmeli') YANLIS — ve BAYAT DEGIL, notun yazildigi 27-28 Agustos'tan UC HAFTA ONCE kayit vardi. Sebep ad ekseni: Osmanlica adiyla ('Taygan') arandi, kayit Rusca adiyla duruyor. _yer_ara.py'nin kendi ipucu 'Taganrog->Taygan' der; ipucu TERS YONDE kullanilmis. Sevk uygulansaydi ayni koordinata IKINCI nokta yazilacakti (0 km).",
+      "emrenin_sorusu": "'Azak ve Taygan Prut sonrasi geri alindi ise haritada yanlislik var mi' -> HAYIR. Azak d:1711-07-21..1739-09-18 (dogrudan Osmanli), Taganrog s:kirim ayni araliktatir; ikisi de ciziliyor."
+    },
+    "H-0015": {
+      "hukum": "sirada",
+      "olctum": "Editoryal not HALA DURUYOR: data/olaylar_ek13.js, 'bu turda kesinlestirilemedi' 1 esleme; madde satir 298 (\"Ummanlilar'in Bahreyn'i istilasi\").",
+      "cikardigim": "Devraldigim sevk (KRONOLOJI ICERIK metni sadelestirsin) GECERLI. Veri (yerlesim) tarafinda is YOK.",
+      "sevk": "KRONOLOJI ICERIK"
+    },
+    "H-0020": {
+      "hukum": "zaten-dogru",
+      "olctum": "Sirvan dortlusu (Seki-Nuha · Kabala · Eres · Samahi hatti) 1725-09-12..1735-06-19 arasi d: (dogrudan Osmanli) tasiyor — Istanbul Mukasemenamesi (1724) sonrasi orunutuyle tutarli. Ters-enklav sinavi 1730-01-01'de UC aday verdi (Tabarka · Zagem · Cuha Adasi); SIRVAN BOLGESINDE ADAY YOK.",
+      "cikardigim": "Veri Sirvan'i ENKLAV olarak degil, Osmanli govdesine BITISIK ciziyor. Emre'nin 'sirvan enklav sekilde kalmis' gozlemi bugunku veriyle uretilemiyor (gorsel 25-26 Agustos; o gunden bu yana iki kosu gecti).",
+      "olcmedigim": "Gorselin kendi tarihindeki cikti — eski kosunun geometrisini olcmedim."
+    },
+    "H-0030": { "hukum": "sirada", "olctum": "Kusur degil ICERIK+ARAYUZ talebi (akordeon ek okuma). Veri tarafinda karsiligi yok.", "sevk": "ARAYUZ + KRONOLOJI ICERIK" },
+    "H-0034": { "hukum": "sirada", "olctum": "H-0066'nin bir dali (afet etiketi). Once taksonomi tasarlanmali (ETIKETLEME.md), sonra dagitim.", "sevk": "ETIKET" },
+    "H-0035": {
+      "hukum": "zaten-dogru",
+      "olctum": "1771-06-01 kutusunda (46,5-50,5K / 24-31,5D) 16 nokta: Hotin=rusya · Bender=rusya · Kiev=rusya · Kamanice=LEHISTAN (Hotin'e 19 km) · Bar/Lvov/Mecibaj/Uman/Yazlovca=lehistan · Orhei/Roman/Soroka/Sucava/Yas/Cernovitz=tabi (Bogdan) · Yedisan bozkiri=kirim. Ters-enklav sinavi Hotin'i ADAY OLARAK VERMEDI (en yakin komsulari Osmanli DEGIL).",
+      "cikardigim": "Emre'nin 'Rusya ile kara baglantisi yok gibi gorunuyor' gozlemi DOGRU ve veri de DOGRU: Hotin'in Rusya'ya bitisik bir kara baglantisi YOKTU; Rusya'nin en yakin oz topragi Kiev, 470 km. Aradaki toprak LEH (Podolya) — Rus ordusu Leh toprağindan gecti, Bogdan (tabi) ya da Kirim bozkirindan degil. Bu ayni zamanda H-0080'in cevabidir."
+    },
+    "H-0037": {
+      "hukum": "zaten-dogru",
+      "olctum": "Fav d:1546-01-01..1914-11-22 KESINTISIZ, zend araligi yok. Basra s:1776-04-16..1779-04-01 zend. TDV `basra` (HTTP 200, govde 41 KB, OKUNDU): \"Sehir 1775-1779 yillari arasinda Sadik Han tarafindan zaptedildiyse de tekrar geri alindi.\"",
+      "cikardigim": "TDV Basra'nin Zend isgalini DOGRULUYOR ve Fav'dan HIC bahsetmiyor — yani veriyi CURUTMUYOR. Fav'in kesintisiz Osmanli kalmasi cografi olarak da savunulabilir (Sattularap agzinda ayri kiyi mevkii).",
+      "olcmedigim": "Fav'a OZEL bir kaynak bulunamadi — TDV o tanecikte susuyor (§4 TANECIKLIK boslugu). 'bulunamadi' diye yaziyorum, 'dogrulandi' diye DEGIL."
+    },
+    "H-0039": {
+      "hukum": "cozuldu",
+      "olctum": "UCLU SINAV: kunye id:\"bahreyn\" devletler.js'te VAR (1783-01-01..1923-10-29) · renk renkler.py BOYALAR'da VAR (#4a48be) · veri Manama s:1783-01-01..1861-05-31 VAR · CIZIM data/devletler_harita.js'te VAR: {\"id\":\"bahreyn\",\"renk\":\"#4a48be\",\"dnm\":[{\"f\":\"1783-01-01\",\"t\":\"1861-05-31\"}]}. GIT: ayni kimlik 23 Agustos (536e90c) ve 25 Agustos (8100787) yayinlarinda YOKTU.",
+      "cikardigim": "Emre'nin sikayeti O GUN GECERLIYDI, BUGUN KARSILANMIS — 20 Agustos'ta veri yazildi, 2 Eylul kosusunda (r4776) cizime girdi. Genel sinif ('kimlik veride var ama BOYALAR'da yok => boyanmaz') icin projenin kendi nobetcisi arac/_renksiz_kimlik.py bugun RENKSIZ: 0 diyor.",
+      "kendi_hatam": "Once 'bahreyn cizilmiyor' diye olctum ve YANLISTI: yanlis dosyaya (donemler.js — o OSMANLI geometrisi) baktim. Sonra 'sekiz kimlik cizilmiyor' dedim, o da yanlisti: kendi regex'im dnm dizisini ilk `]}` de kesiyordu. Dogruyu node ile GERCEK ayristirici verdi (sirbistan 28 donem, bulgaristan 23 donem — hepsi harita: yonlendirmesiyle iniyor; kosu logu da 'boya anahtari harita:ya dusen donem: 136' diyor). BIR GUNDE DORT KEZ kendi ayristiricim yaniltti."
+    },
+    "H-0047": { "hukum": "sirada", "olctum": "MOTOR talebi (emilme mekanizmasinin degistirilmesi + girinti yumusatma). arac/*.py bana kapali.", "sevk": "MOTOR", "not": "H-0102 ile AYNI kalem, birlestirilmeli." },
+    "H-0052": {
+      "hukum": "zaten-dogru",
+      "olctum": "1448-06-01 · 1448-10-20 · 1449-06-01 uc kesit: Yergogu (43,904/25,970) ilk ikisinde EFLAK, ucuncusunde OSMANLI. Ruscuk (43,856/25,971) uc kesitte de OSMANLI — iki nokta arasi 5,4 km.",
+      "cikardigim": "Emre'nin gordugu 'girip cikan bos toprak' YERGOGU'nun gercek tarihidir ve TDV birebir dogruluyor (`yergogu` govdesi okundu): \"Bu kale son arastirmalara gore 1417'de degil 1420'de Osmanlilar'ca ele gecirildi\" · \"1427'de Eflaklilar Giurgiu Kalesi'ni geri aldi\" · \"853'te (1449) burasi tekrar Osmanli kontrolu altina girdi\". Gorseldeki ince kama, 5,4 km arayla karsi kiyilarda duran Ruscuk-Yergogu ciftinin Voronoi siniridir; TDV ikisini Osmanli belgelerinde 'Yergogu beri yaka' ve 'Yergogu ote yaka' diye anildigini yaziyor. HATA DEGIL."
+    },
+    "H-0053": {
+      "hukum": "zaten-dogru",
+      "olctum": "Suveys d:1517-02-15 · Kusayr d:1517-04-13 · Sina guneyi d:1517-02-15. Kahire/Ridaniye gunu 1517-01-22.",
+      "cikardigim": "Devraldigim not ('Suveys/Sina guneyi/Kusayr'in HEPSI d.f=1517-01-22, yani Kahire ile AYNI gun') CURUDU — gunler arada ayrisitirilmis. Emre'nin endisesi ('Kahire'den once bu kiyilarin ele gectigini sanmiyorum') bugunku veriyle KARSILANMIS: ucu de Kahire'DEN SONRA. Kusayr'in gunu (1517-04-13) Memluk Devleti'nin sona erdigi gun; Suveys 24 gun sonra Kahire'den.",
+      "olcmedigim": "Kusayr'in 1517-04-13'unu Kahire gununden ayiran KAYNAK okunmadi; yalniz gunlerin ARTIK AYRI oldugunu olctum."
+    },
+    "H-0054": { "hukum": "sirada", "olctum": "BES-ALTYAPI.md'nin besinci unsuru (koridor agi) — planli is.", "sevk": "MOTOR/KORIDOR" },
+    "H-0055": { "hukum": "sirada", "olctum": "H-0054 ile ayni kalem (Tebuk-Yenbu-Medine koridoru).", "sevk": "MOTOR/KORIDOR" },
+    "H-0058": {
+      "hukum": "zaten-dogru",
+      "olctum": "1598-04-09'da: Zagem (Kaheti) v:1578-08-09..1606-01-01 = OSMANLI TABI · Tarki (Tarku) v:1578-11-01..1607-01-01 = OSMANLI TABI · Seki (Nuha) · Kabala · Eres d:1578-11-01..1607-01-01 = DOGRUDAN. Zagem'in alt kimligi s:gurcistan 1281..1801.",
+      "cikardigim": "Emre'nin 'buralar Gurcistan olup vassal miydi o devirde' sorusunun cevabi: EVET, ve harita tam olarak bunu ciziyor — Zagem'in kimligi gurcistan, uzerinde Osmanli tabiiyeti ortusu var. Acik kirmizi (tabi) tonu Kaheti ve Tarki'de, koyu (dogrudan) Seki/Kabala/Eres'te. Harita veriyi DOGRU cizyor.",
+      "olcmedigim": "1578 tabiiyet gunlerinin kaynagi bu turda okunmadi (TDV `kaheti` 302, `tarku` 302 — dar sluglar olu)."
+    },
+    "H-0059": {
+      "hukum": "sirada",
+      "olctum": "data/olaylar_ek.js:45 HALA \"Bati Anadolu beyliklerinin yeniden ilhaki: Aydin, Mentese, Teke\" diyor ve yer: alaninda \"Antalya (Teke/Hamid)\" duruyor.",
+      "cikardigim": "Devraldigim sevk GECERLI ve is YAPILMAMIS. Metinden 'Teke'/'Antalya (Teke/Hamid)' cikarilmali.",
+      "sevk": "KRONOLOJI ICERIK"
+    },
+    "H-0062": { "hukum": "sirada", "olctum": "Veri sorunu degil, maddenin GEREKCESI sorusu.", "sevk": "KRONOLOJI ICERIK" },
+    "H-0063": {
+      "hukum": "sirada",
+      "olctum": "Herseknovi (Herceg Novi) isg:1538-01-01..1539-01-01 ispanya — kulliyattaki TEK isg:ispanya kaydi. Iki kirilma gunu de CEKIRDEKTE bir maddeye dusuyor AMA IKISI DE ALAKASIZ: 1538-01-01 = \"Mimar Sinan'in hassa mimarbasiligina atanmasi\" (Emre'nin gorselinin ALTYAZISI TAM BUDUR) · 1539-01-01 = \"Zebid'in Osmanli hakimiyetine kesin girisi\".",
+      "cikardigim": "IKI KUSUR. (1) Emre'nin ikinci sorusu ('hata degil ise kronolojide neden maddesi yok') HAKLI: isgalin KENDI maddesi yok, degisim alakasiz bir mimarlik maddesinin altinda beliriyor — CLAUDE.md §10'un 'kullanicinin en cok sikayet ettigi hata' tarifi birebir. Degismez 2i bunu KAPALI sayiyor cunku yalnizca '±30 gunde BIR madde var mi' diye soruyor, 'O MADDE BU MU' diye sormuyor. (2) Gunler yuvarlak ve yanlis yonde: Preveze 1538-09-28'dir, Herceg Novi ondan SONRA dusmustur; 1538-01-01 dokuz ay ERKEN.",
+      "olcmedigim": "Gercek gunler. TDV `herseknovi` 302 (olu); kapsayici `hersek` 200 ama govdesi 3 KB ve 1538/1539/Novi kelimelerinin HICBIRI gecmiyor. TARIH UYDURMADIM.",
+      "sevk": "KRONOLOJI ICERIK — once madde yazilsin (akademik kaynakla), sonra isg: gunleri duzeltilsin. Tuna hattindaki olaylar_ek21.js deseninin aynisi."
+    },
+    "H-0065": { "hukum": "sirada", "olctum": "Haritada kirilma dogurmayan madde. Degismez 2'nin TERSI zorunlu degil; editoryal degerlendirme.", "sevk": "KRONOLOJI ICERIK" },
+    "H-0066": { "hukum": "sirada", "olctum": "25 kategorilik taksonomi + 1300 maddeye coklu etiket. Once ETIKETLEME.md tasarimi, sonra veri, en son arayuz.", "sevk": "ETIKET" },
+    "H-0070": {
+      "hukum": "zaten-dogru",
+      "olctum": "Solnok (47,174/20,198) d:1552-09-04..1685-10-19, sonra s:avusturya — cakisma YOK, isg: YOK. devirler.js'te Karlofca Antlasmasi'nin avusturya kutusu 16,4..26,4D / 44,8..50,3K; Solnok BU KUTUNUN ICINDE. devirler.js TAZE: DEVIRLER_KAYNAK_OZET = e7918c6052e82701 ve diskteki donemler.js sha256 = e7918c6052e82701 — BIREBIR.",
+      "cikardigim": "Emre'nin gordugu 'ust uste binme' bir kusur degil, DEVIRLER (antlasma devri) KATMANI. Olcutu devirler.js'in kendi basliginda yazili: (Osmanli govdesi @ savas basi) ∩ (alicinin govdesi @ antlasma). Solnok 1683'te Osmanli, 1699'da Avusturya => tarali ciziliyor, ve tarama YENI SAHIBIN rengi UZERINE biniyor. Tasarim boyle. AMA Emre'nin asil sorusu ('neden direkt elden cikmis gibi gosterilmiyor') bir TASARIM sorusudur ve H-0097'de acikca karar istiyor — oraya bagladim."
+    },
+    "H-0072": { "hukum": "sirada", "olctum": "Govde-govde sinir dikisi (T-junction / Chaikin). Nystad ne DEVIRLER'de ne ISGALLER'de; sıradan gövde siniri.", "sevk": "MOTOR", "not": "H-0101 ile AYNI sinif." },
+    "H-0076": {
+      "hukum": "cozuldu",
+      "olctum": "devirler.js'te Ahmed Pasa Antlasmasi: t:1732-01-10, savas_basi:1730-08-01, TEK alici `safevi`, 9 parca, kutu 43,6..49,5D / 30,3..41,4K. MISIR (25-35D) BU KUTUDA DEGIL. Derbend 42,058K'da; kutunun tavani 41,4K — DISARIDA. Eres ve Kabala d:1725-09-12..1735-06-19 (1727'de Osmanli'da), Derbend s:rusya 1722-08-23..1735-03-10 (1727'de Rusya'da).",
+      "cikardigim": "Emre'nin UC gozlemi de O GUN DOGRUYDU ve UCU DE BUGUN KARSILANMIS: Misir'da tarali alan YOK · Derbend tarali degil · Eres/Kabala'nin taranmamis olmasi veriyle tutarli (Osmanli'da kaldilar). Duzelten sey 27 Agustos'taki TARALI ALAN KOK duzeltmesi (e53c86a); Emre'nin gorseli 26 Agustos 00:32, duzeltme ertesi gun 02:49. Notun hipotezi TUTTU — ve ben onu VARSAYARAK degil KUTUYU OLCEREK dogruladim.",
+      "not": "Notun 'Ahmed Pasa Antlasmasi 1727' cercevesi de yanlisti: veri ve tarih 1732-01-10."
+    },
+    "H-0077": {
+      "hukum": "zaten-dogru",
+      "olctum": "H-0035 ile AYNI OLCUM (1771-06-01 kutusu). Cehrin/Podolya hatti lehistan, Bogdan tabi, Yedisan bozkiri kirim; Rusya'nin oz topragi Kiev (470 km).",
+      "cikardigim": "Emre'nin 'geldikleri yer Rus topragi gorunmuyor' gozlemi DOGRU ve veri de dogru — Ruslar kendi olmayan topraktan (Leh Podolyasi) gectiler. Sahiplik verisi kusursuz; eksik olan GUZERGAH GOSTERIMI (ok/kesikli cizgi), o da ARAYUZ+savaslar.js kalemi.",
+      "sevk": "ARAYUZ (guzergah) — H-0081/H-0093/H-0094/H-0095/H-0098 ile AYNI CARE"
+    },
+    "H-0079": {
+      "hukum": "sirada",
+      "olctum": "(1) Dir'iye kaydi VAR: \"Dir'iye (Necid)\" 24,733/46,575 — notun onerdigi yeni nokta koordinatindan (24,7343/46,5721) 60 METRE. Commit 28 TEMMUZ, notun bir ay oncesi. Sevk uygulansaydi 3 KM kuralini cignerdi. (2) Emre'nin ASIL sorusu olculdu: Hail (27,521/41,691, k1, GERCEK SEHIR) bos:devletsiz ve 1836 oncesi HIC sahibi yok; Nefud colu (28,300/41,000, k0, DOLGU noktasi, 105 km kuzeyi) s:suud 1744-01-01..1818-09-09 tasiyor.",
+      "cikardigim": "IC CELISKI: bos col Suudi boyaniyor, 105 km guneyindeki GERCEK SEHIR boyanmiyor — ve IKISININ `neden:` alani AYNI CUMLE ('1744 oncesi Necid'de merkezi devlet denetimi yoktu'). Ayni gerekce, ters veri. Emre'nin 'neye gore burasi boyanmis' sorusu tam bu noktaya isaret ediyor.",
+      "olcmedigim": "Hail'in 1744-1818 statusu. TDV `hail` 302 · `sammar` 302 · `resid-hanedani` 302; kapsayici `necid` (200, 15 KB) OKUNDU ve Hail'i ADIYLA HIC ANMIYOR, Cebelisemmer'in 1744-1818 statusunu SOYLEMIYOR. TARIH UYDURMADIM, kayit YAZMADIM.",
+      "sevk": "VERI SAHIPLIK — Cebelisemmer/Hail'in Birinci Suudi Devleti icindeki durumu akademik kaynakla olculsun; sonra Hail ile Nefud noktasi AYNI zincire oturtulsun."
+    },
+    "H-0080": { "hukum": "zaten-dogru", "olctum": "H-0035 ile AYNI KAYIT ve AYNI OLCUM.", "cikardigim": "Cevap: LEHISTAN (Podolya) uzerinden. Kamanice Hotin'e 19 km ve o tarihte lehistan; Bogdan noktalari tabi; Yedisan kirim. Baska kara yolu yok." },
+    "H-0081": { "hukum": "sirada", "olctum": "Mekanizma (tur:\"deniz\" + kesikli glif) ZATEN VAR (PAKET-0036/H-0010'da olculmus); Cesme Baskini'nin kendi kaydinda yok.", "sevk": "VERI/savaslar.js" },
+    "H-0087": { "hukum": "sirada", "olctum": "Koridor/yol agi katmani — BES-ALTYAPI.md'nin besinci unsuru, buyuk MOTOR isi.", "sevk": "MOTOR" },
+    "H-0088": {
+      "hukum": "cozuldu",
+      "olctum": "Emre'nin gorselindeki (1590-03-21) SAFEVI kamasini cizen petek KASR-I SIRIN'in. Iki bagimsiz aletle olculdu. (A) ANKRAJ SINAVI (13 kayit): kayitlarin kendi kaynak: alani bir sablon ILAN EDIYOR ve o sablonun Osmanli gunlerini TASIMIYOR — Caldiran EKSIK 90,7 yil · Baskale 90,7 · Gumru 32,4 · Ecmiyadzin 32,4. (B) TERS ENKLAV (K=5, 1595 ve 1600): 7 aday, 4'u mesru (Kotor · Tabarka · Tinos · Yedisan), 3'u kusur (Baskale · Kasr-i Sirin · Merend).",
+      "cikardigim": "HATA — ve tek nokta degil bir SINIF: sablon kopyalanmis, bir blok dusmus. Caldiran/Baskale'nin dort komsusu (Bargiri · Ozalp · Hosap · Colemerik) Van'in zincirini HARFIYEN tasiyor (safevi 1502->1548-08-25 · d:1548-08-25->1923); bu ikisinde safevi blogu 1639-05-17'de bitiyor. Kasr-i Sirin, Kirmansah'in sablonunu tasiyor ve onun IKINCI Osmanli donemini (1723-1730) ZATEN iceriyor, BIRINCISINI (1590-1603) icermiyor.",
+      "kaynak": "TDV `hakkari` (200, 14 KB, okundu): \"XVI. yuzyilin ORTALARINDA Osmanlilar'in Van'i fethetmesi uzerine kurulan VAN EYALETINE BAGLANDI ... sancaklardan (ocaklik) biri haline getirildi.\" · TDV `luristan` (200, okundu): \"Bir ara 998'de (1590) Istanbul'da yapilan antlasmaya gore Osmanli idaresine baglanan Luristan'i Sah I. Abbas Safeviler'e tam olarak bagladi (1603).\" · TDV `kirmansah` (200, okundu) 1590/1603'u ANMIYOR — kaydin kendi 'TDV bu tanecigi kapsamiyor' beyani SINANDI ve TUTTU. `kasr-i-sirin` · `caldiran` · `baskale` sluglari 302.",
+      "yazilan": "yer_yama_p0035.js — Caldiran · Baskale · Kasr-i Sirin. Kullanilan uc gun de CEKIRDEKTE ve TAM GUN esleiyor (1548-08-25 Van'in fethi · 1590-03-21 Ferhad Pasa Antlasmasi · 1603-10-21 Sah Abbas'in karsi taarruzu). YENI GUN DOGURULMADI.",
+      "yazmadigim": "Ecmiyadzin · Gumru · Merend · Igdir — ayni ailenin uyeleri ama sablonlari TUTARSIZ (Igdir Revan'a 46 km ve d:1534-01-01..1878-03-03 tasiyor; ankraji Revan'in kendi Osmanli donemleri 1583-1604 · 1635-36 · 1724-35). Iki komsu nokta birbiriyle celisiyor ve HANGISININ dogru oldugunu OLCMEDIM. Revan/Van/Kars ucgeni bir ARASTIRMA PARTISI ister.",
+      "yeni_alet": "arac/ altina YAZILMADI (benim dizinim degil); olcum betikleri scratchpad'te. Onerim: 'ters enklav' bir DENETIM olarak eklensin — Degismez 7 yalnizca 'bir OSMANLI kazanci ada gibi mi' diye sorar, TERSINI sormaz (§3.5.1: tek yonlu aramak yarisini kacirir)."
+    },
+    "H-0090": {
+      "hukum": "sirada",
+      "olctum": "Ismail'in dususu maddeli ve tam gununde (1790-12-22). Savas ilani/yiginak/Ruslarin Eflak-Bogdan'a girisi maddeleri YOK.",
+      "cikardigim": "Emre BIR SINIF is istiyor ('tum savas baslangiclarinda varsa savas ilani yiginak hareket isgal'), tek madde degil. Cekirdekte 1806-12-22 'Rusya ile savasin baslamasi' gibi ornekler VAR ama sistematik degil.",
+      "sevk": "KRONOLOJI ICERIK (savas ilani maddeleri) + ARAYUZ (hareket oklari — tipoloji zaten var, commit 591a5c6)"
+    },
+    "H-0092": {
+      "hukum": "sirada",
+      "olctum": "isg:fransa tasiyan kayit TAM 7: Kahire · Iskenderiye · Resid · Dimyat · Asyut · Suveys · Sina guneyi — hepsi 1798-07-01..1801-10-09. Devraldigim notun sayimi BIREBIR DOGRULANDI. Misir kutusunda (22-32K/25-36D) 62 nokta var.",
+      "cikardigim": "Notun 'taranan DOGRU, TARANMAYAN yanlis' hukmu gecerli. VE KAYNAGI BULDUM: TDV `misir` (200, govde 230 KB, okundu) isgali ULKE duzeyinde tarif ediyor — \"Fransizlar'in Temmuz 1798'deki isgali Misir'da yeni bir donem acmis ... uc yil surecek olan isgal donemini baslatmistir\" · \"Agustos 1801'de Misir'i terketmek zorunda kaldilar\". Yani kaynak 'yedi sehir' degil MISIR diyor.",
+      "olcmedigim": "HANGI noktanin isg: hak ettigi. TDV ulke duzeyinde konusuyor, kasaba duzeyinde degil (§4 TANECIKLIK). Nil vadisi + Delta ile vahalar (Bahriye · Ferafire · Dahile · Harice) ve Filistin noktalari (Kudus · Gazze · Kerak · Maan) AYNI muameleyi goremez; Akka KUSATILDI AMA ALINAMADI (TDV: \"Akka'da Cezzar Ahmed Pasa'ya yenilen Bonapart\") ve isg: YAZILMAMALI.",
+      "sevk": "VERI SAHIPLIK — nokta nokta liste cikarilsin. Mekanik risk YOK: iki gun de (1798-07-01 · 1801-10-09) cekirdekte zaten var ve yedi kayit onlari kullaniyor, yani yeni acik kirilma DOGMAZ."
+    },
+    "H-0093": { "hukum": "sirada", "olctum": "Altyapi hazir (tur:\"sefer\"). Acilma sarti: data/savaslar.js'e Napolyon'un Akka harekati kaydi.", "sevk": "VERI/savaslar.js" },
+    "H-0094": { "hukum": "sirada", "olctum": "Vehhabi harekatlari icin savaslar.js kaydi gerekiyor.", "sevk": "VERI/savaslar.js", "not": "H-0093/H-0095/H-0098 ile AYNI CARE — tek parti kapatir." },
+    "H-0095": { "hukum": "sirada", "olctum": "Alemdar Mustafa Pasa'nin Istanbul yurusuu icin savaslar.js kaydi gerekiyor.", "sevk": "VERI/savaslar.js", "not": "Kronolojide 1808-07-19 maddesi ZATEN VAR." },
+    "H-0097": {
+      "hukum": "sirada",
+      "olctum": "Devraldigim sayim ('yalniz Ibrail'in isg: kaydi var, dokuzunda yok') BUGUN YANLIS: Ruscuk isg:rusya 1810-09-26..1811-06-01 (commit 6f8aa0d, 31 Agustos) ve Kili isg:rusya 1806-01-01..1812-05-28 (3cf33e9, 29 Agustos) INMIS. 9 degil 7 eksik: Silistre · Bender · Ismail · Vidin · Nigbolu · Yergogu · Turnu Severin.",
+      "cikardigim": "Emre'nin 'Ibrail tarali ama Ruscuk degil' gozlemi O GUN dogruydu, Ruscuk BUGUN tarali. VE ENGEL KALKMIS AMA IS YARIM: data/olaylar_ek21.js (30 Agustos) UC maddeyi tam bu isg: kayitlarinin onunu acmak icin yazmis ve basliginda 'Bu uc madde inince o uc isg: kaydi da inebilir' diyor. Maddeler INDI ve CANLI (index.html'de bagli, denetle.py:903'un olaylar*.js evreninde). Ruscuk'unki yazildi; NIGBOLU ve SILISTRE'ninki yazilmadi.",
+      "yazilan": "yer_yama_p0035.js — Nigbolu isg:rusya 1810-10-01..1811-04-01 (KURU KOSU: INIYOR). Dayanak TDV `nigbolu` (200, 17 KB, okundu): \"1810 yili Ekim ayinda ... Kutuzov'un kuvvetleri tarafindan ele gecirildi. Ruslar, sehri terketmeden once 1811 Nisaninda kalenin onemli kismini havaya ucurup sehre buyuk zarar verdiler.\" TDV yalniz AYI veriyor => ayin ilkine (§8).",
+      "yazmadigim": "SILISTRE. Isgalin BITISI TDV'de var (1811 Mayis) ama BASLANGICI YOK: `silistre` govdesi (200, 20 KB, okundu) yalniz \"1810'da sehir Ruslar tarafindan bombalandi\" diyor, ay/gun VERMIYOR. Kapsayici madde denendi: `mahmud-ii` 302 · `ii-mahmud` 302. 1810-01-01 yazmak bes aylik UYDURMA bir isgal uretirdi. 'bulunamadi' bir SONUCTUR.",
+      "senin_kararin": "Emre'nin ikinci sorusu bir TASARIM KARARIDIR ve bende kalamaz: \"tarali alan gosterimini ne zaman kullanmamiz gerekiyor. bazen antlasmalarda elden cikan ele giren topraklari gosterirken de gosteriyoruz bazen isgalde gosteriyoruz bu kafa karisikligina yol acmamali.\" BUGUN IKI AYRI KATMAN AYNI TARAMAYI KULLANIYOR: (a) isg: — gecici askeri isgal, sahiplik DEGISMEZ (Ibrail 1809-1812) · (b) devirler.js — antlasmayla KALICI el degistiren toprak, yeni sahibin renginin UZERINE (Solnok/Karlofca, H-0070). Ikisi ayni desenle cizilince Emre hakli olarak karistiriyor. KARAR EMRE'NIN: iki katman AYRI desen mi alsin, yoksa devirler taramasi sureli mi olsun?"
+    },
+    "H-0098": { "hukum": "sirada", "olctum": "Tosun Pasa'nin Hicaz seferi icin savaslar.js guzergah kaydi gerekiyor. Kronolojide 1811-09-03 'Hicaz seferi basladi: Tosun Pasa Yenbu'ya cikti' ZATEN VAR.", "sevk": "VERI/savaslar.js" },
+    "H-0100": {
+      "hukum": "cozuldu",
+      "olctum": "🔴 HIC SAYILMAMIS GERCEK KUSUR: Yergogu (Giurgiu) s:rusya 1810-09-27..1829-09-14 — ONYEDI YIL FAZLA. TDV `yergogu` (200, govde 12 KB, okundu): \"Yergogu 27 Eylul 1810'da Ruslar'in eline gecti\" · \"1828-1829 Osmanli-Rus Savasi neticesinde Edirne Antlasmasi'na gore (2-14 Eylul 1829) Ibrail ve Kule/Turnu ile EFLAK PRENSLIGI'NE BIRAKILDI\" · \"1828-1829 savasi oncesi sadece topcu sayisi 213'u buluyordu (BA, KK, nr. 4834)\".",
+      "cikardigim": "1829'da BIRAKABILMESI icin 1829'a kadar Osmanli'nin ELINDE olmasi gerekir, ve savas oncesi orada bir Osmanli topcu garnizonu var. Rus tutusu 1810-1812 arasidir (Bukres Antlasmasi). Emre'nin gordugu 'Bukres anlasmasindan SONRA BILE bu parca rus topragi gibi gorunuyor ... savas bitince de bu bos toprak kalmis rus yesili ile' TAM BUDUR. Ve bu bir MOTOR/renklendirme hatasi DEGIL (Emre oyle sanmis) — duz bir VERI hatasi.",
+      "yazilan": "yer_yama_p0035.js — d: 1449-01-01..1829-09-14'e uzatildi (y:\"savas\" korundu, o alan EDINIMI anlatiyor), s:rusya blogu KALDIRILDI, isg:rusya 1810-09-27..1812-05-28 kondu. Ibrail'in deseninin AYNISI.",
+      "engel": "KURU KOSU: CAKISMA — yer_yama_romanya.js (30 Agustos) ayni kayda dokunuyor. Olctum: o yamanin onerdigi s: dizisi VERIDE ZATEN AYNEN DURUYOR, yani HARCANMIS. Karar koordinatorde (asagiya bak).",
+      "olcmedigim": "Yergogu'nun 1828-29 IKINCI Rus isgali — Ibrail'de var (isg 1828-06-23..1829-09-14) ama TDV `yergogu` Yergogu icin bunu SOYLEMIYOR. Ikinci isg: YAZILMADI."
+    },
+    "H-0101": { "hukum": "sirada", "olctum": "Umman'in Korsan Kiyisi kaybi (1820) ne DEVIRLER'de ne ISGALLER'de; sıradan govde-govde siniri. H-0072 ile AYNI SINIF.", "sevk": "MOTOR", "not": "Hedef RENK degil GEOMETRI." },
+    "H-0102": { "hukum": "sirada", "olctum": "H-0047 ile AYNI TALEP (emilme mekanizmasi). Spesifik cografya belirtilmemis.", "sevk": "MOTOR" }
+  },
+
+  "koordinatore_karar": [
+    {
+      "konu": "HARCANMIS YAMA, YENI YAMAYI BLOKE EDIYOR",
+      "olcum": "_sahiplik_uygula.py kendi sayaci: benzersiz ad 166 · zaten-boyle 157 (%95) · cakisma 4 · uygulandi 1. Bugunku DORT cakismanin DORDU DE harcanmis yamalarla: Yergogu vs yer_yama_romanya.js · Caldiran/Baskale vs yer_yama_ok110.js · Kasr-i Sirin vs yer_yama_kafkas.js. Dordunu de tek tek okudum: rakip yamanin icerigi VERIDE AYNEN DURUYOR.",
+      "teshis": "Alet bir kaydin harcanmis oldugunu ZATEN OLCUYOR ('zaten-boyle') ama o bilgi ADIM ⑤'te hesaplaniyor, cakisma testi ADIM ④'te. Yani alet dogruyu SONRADAN ogreniyor ve kararda KULLANMIYOR.",
+      "onerim": "Cakisma kurulurken, icerigi VERIYE ESIT olan yama kaydi TARAF SAYILMASIN. Tek siralama degisikligi; 157'sini birden cozer. Aletin kendi 'alfabetik sira KARAR VEREMEZ' ilkesine aykiri degil: harcanmis kayit bir GORUS degil bir ARTIK.",
+      "alternatif": "Yalniz bu dort rakip kaydi dosyalarindan dusurmek — bugunku dordunu cozer, yarin ayni duvar cikar."
+    },
+    {
+      "konu": "ALET KUSURU — arac/_sahiplik_uygula.py, kaynak: alani",
+      "olcum": "Alet 140 kayit icin 'kaynak: ZATEN DOLU, ezilmedi' basiyor. 140'in tamamini taradim (d/s/v/isg dizileri silinip kalanda arandi): KAYIT DUZEYINDE kaynak: gercekten olan 127 · YALNIZ DIZI ICINDE gomulu olan 13 (RAPOR YANLIS) · bulunamayan 0.",
+      "sebep": "SKALER_RX satirin TAMAMINDA \\bkaynak: ariyor ve d/s/v/isg dizisinin ICINDEKI kaynak: alanini KAYIT DUZEYI alani saniyor.",
+      "onucu": "Akkirman · Bukres · Hotin · Kili · Kusayr · Mankup · Nigbolu · Nis · Seface · Sina guneyi · Suveys · Tur (Sina) (+1)",
+      "zarar": "Veri kaybi DEGIL, BELGE kaybi — geometri iniyor, kaynak: yazilmiyor, ve rapor sebebi TERS soyluyor. §4: 'kaynagi yazilmayan bilgi, kaynagi olmayan bilgiden ayirt edilemez.'",
+      "not": "arac/ benim dizinim degil — DUZELTMEDIM, bildiriyorum."
+    },
+    {
+      "konu": "DEGISMEZ 2i BIR SORUYU SORMUYOR",
+      "olcum": "Herseknovi isg:1538-01-01..1539-01-01 'kapali' sayiliyor cunku iki gunde de ±30'da madde var. Ama o maddeler 'Mimar Sinan'in hassa mimarbasiligina atanmasi' ve 'Zebid'in Osmanli hakimiyetine kesin girisi' — ikisi de ALAKASIZ.",
+      "teshis": "Denetim '±30 gunde BIR madde var mi' diye soruyor; 'O MADDE BU DEGISIMDEN mi bahsediyor' diye SORMUYOR. CLAUDE.md §10'un 'kullanicinin en cok sikayet ettigi hata'sini denetim GORMUYOR.",
+      "onerim": "Ayri bir olcum kalemi: isg:/d: kirilmasinin yakin maddesi, o kaydin yer_id'sini ya da adini ANIYOR MU? Bir if ile sorulabilir."
+    },
+    {
+      "konu": "H-0097 — TARALI ALAN NE ZAMAN KULLANILIR (EMRE'NIN KARARI)",
+      "ozet": "Iki ayri katman ayni taramayi kullaniyor: isg: (gecici isgal, sahiplik degismez) ve devirler.js (antlasmayla kalici el degisimi, yeni sahibin uzerine). Emre acikca 'bu kafa karisikligina yol acmamali, bir karar vermemiz gerekiyor' diyor. Bende kalamaz."
+    }
+  ],
+
+  "kendi_hatalarim": [
+    "Kendi yazdigim ayristirici bir gunde DORT KEZ yaniltti: (1) 'bahreyn cizilmiyor' — yanlis dosyaya baktim (donemler.js Osmanli geometrisidir, yabanci govdeler devletler_harita.js'te). (2) 'veride kullanilan 400 kimligin 400'u cizilmiyor' — ayni sebep, ve sayinin IMKANSIZLIGI beni durdurdu. (3) 'sekiz kimlik cizilmiyor' — regex dnm dizisini ilk `]}` de kesiyordu; gercek ayristirici (node) sirbistan 28 · bulgaristan 23 donem gosterdi. (4) ilk ankraj sinavim 'zincirler AYNI MI' diye sordu ve BESI YANLIS POZITIF verdi (Bitlis ankrajindan ERKEN Osmanli ve bu MESRU); dogru soru tek yonluydu: 'ankrajda OSMANLI olup noktada OLMAYAN gun var mi'.",
+    "Dordunun de ortak dersi projede zaten yazili: veri kendi dilinde yazilmissa O DILIN YORUMLAYICISINI cagir. Ucunu kendi capraz olcumum yakaladi, birini projenin kendi nobetcisi (_renksiz_kimlik.py RENKSIZ: 0 dedi ve beni durdurdu). Hicbiri rapora gecmedi."
+  ]
+}

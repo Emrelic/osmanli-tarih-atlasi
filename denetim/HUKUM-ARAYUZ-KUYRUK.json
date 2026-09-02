@@ -1,0 +1,73 @@
+{
+  "oturum": "ARAYUZ-0902",
+  "koordinator": "1.MURAT",
+  "tarih": "2026-09-02",
+  "kaynak": "oturumlar/ARAYUZ-KUYRUK-0902.md + denetim/KUYRUK-ARAYUZ-P0003.md",
+  "not": "Bu dosya birleştirilmez — koordinatör CEVAP.json'a taşır (§ RAPOR kuralı).",
+  "kalemler": [
+    {
+      "id": "①-himaye-seridi",
+      "kaynak_ad": "kuyruk ⑫ — Emre'nin doğrudan kararı, 2 Eylül",
+      "durum": "arayuz tarafı tamam · veri kolu açık",
+      "yapilan": "donemler[].h şema sözleşmesi (dizi: {g,renk}, d.v ile aynı parça kodlaması) + himaye kaynağı/iki katmanı (himaye-dolgu tam opak renk, himaye-cizgi #8e0b22 tam opak şerit) js/app.js:880-895 civarı ve guncelle()'de eklendi. Tarama deseni KULLANILMADI (VERI-YAPISI.md §himaye③).",
+      "sinav_C13": {
+        "GECME": "d.h yoksa (bugün 462/462) himVeri boş — 155 kayıtlık bugünkü görünüm DEĞİŞMEDİ ✓",
+        "ATESLEME": "sahte {g,renk} enjekte edilip decode+feature üretimi doğrulandı (renk taşındı, renk yoksa null→paint coalesce #b2384a'ya düşer) ✓",
+        "GIRDI": "gerçek data/donemler.js'te bugün 'h:' alanı 0/462 — beklenen, çünkü motor kolu henüz üretmiyor. VERİ İNİNCE İKİNCİ KEZ SINANMALI, henüz sınanamadı."
+      },
+      "koordinasyon_gerekli": "MOTOR/kademe kolu donemler.js'e d.h alanını YUKARIDAKİ sözleşmeyle (dizi: {g:<d.v ile aynı parça kodlu geometri>, renk:'#rrggbb'|null}) üretmeli. Farklı bir şema seçilirse app.js'in bu bölümü elden geçmeli — tahtaya yazıldı."
+    },
+    {
+      "id": "②-surum-damgasi",
+      "kaynak_ad": "kuyruk ⑤/② P0003 — Emre'nin bugünkü kararı",
+      "durum": "tamam",
+      "yapilan": "index.html #ustbar-yil'in ardına #surum-etiketi eklendi; js/app.js açılışta kendi <script> etiketinin ?v=rNNNN'ini okuyup yazıyor (elle sayı YOK, her yayında kendiliğinden güncel). Tarih EKLENMEDİ — hiçbir üretilmiş dosya yapım tarihi taşımıyor, uydurmak CLAUDE.md §11 'yanlış güvence' sınıfına girerdi. css/style.css'te minimal, soluk stil (10px, %45 opaklık) — #ustbar-yil'in 'kocaman vurgulu' tarifiyle çarpışmasın diye.",
+      "sinav": "node --check js/app.js temiz; regex /[?&]v=(r\\d+)/ hem app.js hem css bağlantısındaki gerçek ?v=r4776 değerine karşı elle doğrulandı."
+    },
+    {
+      "id": "③-alfa-harman",
+      "kaynak_ad": "P0003 ① — 3-4 bağımsız rapor, EN ÇOK RAPOR EDİLEN",
+      "durum": "tamam — GÖRSEL TERCİH İÇERİYOR, GÖZLE ONAY BEKLİYOR",
+      "yapilan": "devlet-dolgu/vassal-dolgu/osmanli-dolgu fill-opacity 0.44/0.60/0.68 → ÜÇÜ DE 1 (tam opak). Kuyruğun kendi önerisi uygulandı ('alttaki gövdeyi üsttekinin altına tam opak boyamak'). Z-sırası (ekleniş sırası: devlet<vassal<himaye<osmanli) artık hangi rengin KAZANDIĞINI kesin belirliyor, alfa blend YOK.",
+      "bedel_acikca": "Esri altlığının dokusu artık sahip toprağın İÇİNDE görünmüyor (önceden yarı saydamdı, terrain hissi kayboluyor); sahipsiz alan ve deniz ETKİLENMEDİ. Bu değer tek satırlık, ucuz tersine çevrilebilir — bu proje MapLibre/WebGL'i bu ortamda RENDER EDEMİYOR (bilinen kısıt, denetim/HUKUM-ARAYUZ.json), yani GÖZLE doğrulanamadı; Emre'nin ilk gerçek bakışında onay/ret bekliyor.",
+      "sinav": "node --check temiz; grep ile üç layer'ın fill-opacity:1 olduğu doğrulandı, eski 0.44/0.60/0.68 değerleri dosyada sıfır kez geçiyor."
+    },
+    {
+      "id": "④-savaslar-onek-suzgeci",
+      "kaynak_ad": "kuyruk ⑪ — koordinatör ölçümü, CANLI ZARAR",
+      "durum": "tamam",
+      "yapilan": "savasKayitlariniTopla() eklendi (SEFERLER/OLAYLAR desenlerinin birebir eşi, /^SAVASLAR(_[A-Za-z0-9_]+)?$/, tanımsız+benzeyen ad SESSİZCE değil SAYILARAK/BASILARAK atlanıyor). 5 çıplak `(window.SAVASLAR||[])` kullanımı `savaslar` değişkenine çevrildi.",
+      "sinav_C13": {
+        "GECME": "gerçek data/savaslar.js: 171 kayıt (eski davranış baz alındı)",
+        "ATESLEME": "gerçek data/savaslar.js + data/savaslar_ok104.js birlikte okundu: 172 kayıt (+1), Böğürdelen kaydı listede DOĞRULANDI",
+        "GIRDI": "test gerçek dosyalardan (fs.readFileSync + eval) okuyarak yapıldı, enjekte değil"
+      }
+    },
+    {
+      "id": "⑤-boslugun-cinsi",
+      "kaynak_ad": "kuyruk ⑤ — '🆕 EMRE'NİN İLKESİ' diye işaretlenmişti",
+      "durum": "🔴 STALE KALEM — zaten yapılmış, bugün İŞ GEREKMEDİ",
+      "olcum": "boslukKur() (js/app.js) 16 Ağustos 2026'da eklenmiş (git log -S). BOS_CINSLER (data/bos_alanlar.js, son değişim 27 Ağustos) 6 cinsin TAMAMINI 3 gösterime eşliyor: kabile→benek(②, çizilir), veri-yok→soru(çizilir), devletsiz-yerlesim→halka(adlı, çizilir), devletsiz/insansiz/hata→bos(③'ün 'boş kalır' talebiyle KASTEN çizilmez). Emre'nin ① maddesi ('siyasî yapı varsa devletin krallığı şeklinde boyanır') zaten TEMEL motor tarafından karşılanıyor — gerçek siyasi yapı bos_alanlar.js'e hiç girmiyor, doğrudan yerlesimler.js/devletler.js üzerinden normal devlet rengiyle boyanıyor.",
+      "sonuc": "'② ve ③'ün görsel karşılığı yok' iddiası YANLIŞ ÖLÇÜLMÜŞ (CLAUDE.md 'ölçüm doğru çıkarım yanlış' ailesi değil, doğrudan bir bayat/hatalı gözlem). Yeni kod YAZILMADI — yazılsaydı mükerrer bir mekanizma doğardı."
+    },
+    {
+      "id": "⑥-ekokuma-7-tur",
+      "kaynak_ad": "P0003 ⑥ — 2 bağımsız madde, aynı kök",
+      "durum": "arayuz kısmı tamam (a) · içerik AYRI iş (b)",
+      "yapilan": "EKOKUMA_TUR'a 7 yeni tür eklendi: tartisma · teknik-bilimsel · kimdir · dis-yankilar · kahramanlik · menkibeler · sok-haberler. Hepsi window.EKOKUMA havuzunu okuyor (sebep-sonuc/magazin ile aynı kaynak) — içerik oturumu yalnız `tur:` alanını bu 7 anahtardan biriyle yazsın, kod dokunulmadan buton çıkar.",
+      "sinav_C13": {
+        "GECME": "window.EKOKUMA boşken 0 buton (değişmedi)",
+        "ATESLEME": "sahte {tur:'tartisma', t, baglanti} enjekte edilip gerçek app.js'ten regex ile ÇIKARILAN EKOKUMA_TUR bloğuna karşı çalıştırıldı — buton üretildi",
+        "GIRDI": "EKOKUMA_TUR bloğu gerçek js/app.js dosyasından okunarak sınandı (kopya değil)"
+      },
+      "koordinasyon_gerekli": "7 tür anahtarı BİR AD ALANI KARARIDIR (kuyruk ölçütü — 'ayrı dosya vermek, ayrı ad alanı vermek değildir'), içerik oturumu tam bu 7 stringi kullanmalı: tartisma, teknik-bilimsel, kimdir, dis-yankilar, kahramanlik, menkibeler, sok-haberler."
+    }
+  ],
+  "kuyrukta_kalan_bildirim": [
+    "② click-to-pan (P0003) — tek doğrudan rapor, geniş etkisi TAHMİN (ölçülmedi). Bu oturumda dokunulmadı, süre yetmedi — haritayiOlayaGotur() (app.js:6150) incelenmeli.",
+    "③ koridor türetilmiş/kaynaklı ayrımı (P0003) — koordinatörün tarifiyle TAM eşleşen bir kaynak bulunamadı (P0003'ün kendi notu), dokunulmadı.",
+    "④ ittifak animasyonu (P0003, ONAYLANDI) — data/ittifaklar.js hâlâ yok (veri kolu), arayuz tarafı (rozet/ışıltı) veri gelmeden ANLAMLI test edilemez; himaye ile aynı 'şema önce mi kod önce mi' sorusu — bu oturumda başlanmadı.",
+    "⑦ panel görsel yuvası (P0003) — kronoloji şemasına 'gorsel' alanı EKLEMEK bir VERI-YAPISI kararı (arayuz tek başına açamaz), rendering kısmı arayuz. Dokunulmadı.",
+    "⑧ başkent yıldızı (P0003, teslim edilmiş) — devletler.js `baskent` alanının pencereli hale gelmesini (Oturum 3) BEKLİYOR, arayuz tarafı o gelmeden anlamsız."
+  ]
+}

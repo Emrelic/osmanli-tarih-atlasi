@@ -1,0 +1,190 @@
+YAMA KAYDI: 196
+KRONOLOJİ: 1218 benzersiz gün
+TABAN: 2674 benzersiz ad, 69 dosya (1770 kayıt ÇOK SATIRLI)
+  i 3 ad birden çok yamada geçiyor ama AYRIK alanlara dokunuyor — çakışma DEĞİL (eski alet bunları bloke ediyordu)
+
+=== SAHİPLİK YAMASI — YAZILDI ===
+benzersiz ad: 165
+  uygulandi          83
+  zaten-boyle        22
+  cakisma            27
+  kendi-kilidi       31
+  veride-yok          1
+
+İNEN (83):
+  Abâdân                       yerlesimler.js                 d+kaynak
+  Ahtapolu (Ahtopol)           yerlesimler_ek24.js            d+s+kaynak  [3 satır]
+  Akmescid                     yerlesimler_kirim.js           m+kaynak  [3 satır]
+  Antep                        yerlesimler.js                 v+kaynak
+  Arapkir                      yerlesimler.js                 s+kaynak
+  Azak                         yerlesimler.js                 d+s+kaynak
+  Bacirge (Esendere)           yerlesimler_sinir_dogu.js      s  [8 satır]  ⚠️ 2s zayıf gün: 1351-01-01
+  Bitlis                       yerlesimler.js                 s+kaynak  ⚠️ 2s zayıf gün: 1351-01-01
+  Burâm                        yerlesimler_h2_afrika.js       m+kaynak  [3 satır]
+  Bükreş                       yerlesimler.js                 isg
+  Ceylanpınar                  yerlesimler_ek25.js            s+kaynak  [3 satır]
+  Cres (Cherso)                yerlesimler.js                 s+kaynak
+  Culfa                        yerlesimler.js                 d+kaynak
+  Derbend                      yerlesimler.js                 d+s+v+kaynak  [2 satır]
+  Dimetoka                     yerlesimler.js                 d+s+kaynak
+  Divriği                      yerlesimler.js                 s+kaynak
+  Drama                        yerlesimler.js                 d+s+kaynak  [3 satır]
+  Dörtyol                      yerlesimler_ek28.js            kaynak  [6 satır]
+  Ed-Da'în                     yerlesimler_h2_afrika.js       m+kaynak  [3 satır]
+  Erzin                        yerlesimler_ek28.js            kaynak  [7 satır]
+  Erzurum                      yerlesimler.js                 d+s+kaynak  ⚠️ 2s zayıf gün: 1360-01-01, 1387-01-01, 1408-01-01
+  Eski Kırım (Solhat)          yerlesimler_kirim.js           m+kaynak  [3 satır]
+  Ferecik (Feres)              yerlesimler.js                 d+s+kaynak
+  Gence                        yerlesimler.js                 d+s+v+kaynak  [2 satır]
+  Gözleve (Kezlev)             yerlesimler_kirim.js           m+kaynak  [3 satır]
+  Gümülcine                    yerlesimler.js                 d+s+kaynak
+  Hemedan                      yerlesimler.js                 d+s+v+kaynak  [3 satır]
+  Humus                        yerlesimler.js                 v+kaynak
+  Ilgın                        yerlesimler_ek29.js            m+kaynak  [7 satır]
+  Kabartay (Nalçik)            yerlesimler.js                 s+kaynak
+  Kalocsa                      yerlesimler.js                 kaynak
+  Karahisâr-ı Sâhib (Afyon)    yerlesimler.js                 s+kaynak
+  Karapınar                    yerlesimler_ek29.js            m+kaynak  [5 satır]
+  Karasubazar                  yerlesimler_kirim.js           m+kaynak  [3 satır]
+  Kasr-ı Şîrîn                 yerlesimler.js                 d+s+v+kaynak
+  Kebkâbiye                    yerlesimler_h2_afrika.js       m+kaynak  [3 satır]
+  Kelkit                       yerlesimler_ek29.js            m+kaynak  [7 satır]
+  Kilis                        yerlesimler_ek25.js            v+kaynak  [3 satır]
+  Kirmanşah                    yerlesimler.js                 d+s+v+kaynak  [2 satır]
+  Kusayr                       yerlesimler_afrika.js          d+s  [4 satır]
+  Kutaisi                      yerlesimler.js                 s+v+kaynak
+  Kutum                        yerlesimler_h2_afrika.js       m+kaynak  [3 satır]
+  Malatya                      yerlesimler.js                 s+kaynak
+  Mankup                       yerlesimler_ek2.js             m  [4 satır]
+  Maraş                        yerlesimler.js                 kaynak  [2 satır]
+  Maykop (Çerkezya)            yerlesimler.js                 d+s+kaynak
+  Mellît                       yerlesimler_h2_afrika.js       m+kaynak  [3 satır]
+  Nyala                        yerlesimler_afrika.js          m+kaynak  [3 satır]
+  Or Kapı (Ferahkirman)        yerlesimler_kirim.js           m+kaynak  [3 satır]
+  Payas                        yerlesimler_ek28.js            v+kaynak  [4 satır]
+  Radom                        yerlesimler_h2_afrika.js       m+kaynak  [3 satır]
+  Revan                        yerlesimler.js                 d+s+v+kaynak  [3 satır]
+  Rezve (Rezovo)               yerlesimler_ek24.js            d+s+kaynak  [3 satır]
+  Sefâce                       yerlesimler_afrika.js          d+s  [4 satır]
+  Sina güneyi                  yerlesimler.js                 d+s
+  Sivrihisar                   yerlesimler.js                 d+s+kaynak
+  Sohum                        yerlesimler.js                 d+s+kaynak
+  Soçi (Sâşe)                  yerlesimler.js                 d+s+kaynak
+  Suçava (Suceava)             yerlesimler.js                 s+v+kaynak
+  Süveyş                       yerlesimler.js                 d+s  [3 satır]
+  Timbuktu                     yerlesimler.js                 s+kaynak  ⚠️ 2s zayıf gün: 1430-01-01, 1591-04-13, 1700-01-01
+  Tosya                        yerlesimler_ek29.js            m+kaynak  [5 satır]
+  Tuapse                       yerlesimler.js                 d+s+kaynak
+  Tîne (Dârfûr)                yerlesimler_h2_afrika.js       m+kaynak  [3 satır]
+  Tûr (Sînâ)                   yerlesimler_afrika.js          d+s  [4 satır]
+  Ulukışla                     yerlesimler_ek29.js            m+kaynak  [5 satır]
+  Urfa                         yerlesimler.js                 kaynak  [2 satır]
+  Urmiye                       yerlesimler.js                 d+kaynak
+  Vidin                        yerlesimler.js                 d+s+v+kaynak
+  Yanıkkale (Győr)             yerlesimler.js                 s+kaynak
+  Yaş                          yerlesimler.js                 isg
+  Yumurtalık                   yerlesimler_ek28.js            kaynak  [8 satır]
+  Zâlincî                      yerlesimler_h2_afrika.js       m+kaynak  [3 satır]
+  Çernovitz (Çernivtsi)        yerlesimler.js                 s+v+kaynak
+  Ümmü Keddâde                 yerlesimler_h2_afrika.js       m+kaynak  [3 satır]
+  İskeçe                       yerlesimler_seyrek.js          d+s+kaynak  [3 satır]
+  İsmail                       yerlesimler.js                 d+s+v+kaynak
+  İğneada                      yerlesimler_ek24.js            d+s+kaynak  [3 satır]
+  Şa'riyye                     yerlesimler_h2_afrika.js       m+kaynak  [3 satır]
+  Şehirköy (Pirot)             yerlesimler_serhat.js          d+s+kaynak  [9 satır]
+  Şemdinli (Şemdinni)          yerlesimler_sinir_dogu.js      s  [8 satır]  ⚠️ 2s zayıf gün: 1351-01-01
+  Şeyhrumi (Yücelen)           yerlesimler_sinir_dogu.js      s  [8 satır]  ⚠️ 2s zayıf gün: 1351-01-01
+  Şimontorna                   yerlesimler.js                 kaynak
+
+DOSYA DOSYA (12):
+  yerlesimler.js                           44
+  yerlesimler_h2_afrika.js                 10
+  yerlesimler_kirim.js                      5
+  yerlesimler_ek29.js                       5
+  yerlesimler_ek28.js                       4
+  yerlesimler_afrika.js                     4
+  yerlesimler_ek24.js                       3
+  yerlesimler_sinir_dogu.js                 3
+  yerlesimler_ek25.js                       2
+  yerlesimler_ek2.js                        1
+  yerlesimler_seyrek.js                     1
+  yerlesimler_serhat.js                     1
+
+[!] ATLANAN (75) — sebebiyle:
+  Ahıska                       KAPSAM DARALDI — 1578-08-01→1578-08-09 (yama EKLEME mi DEĞİŞTİRME mi belirsiz)
+  Akkirman                     kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Akra                         KENDİ KİLİDİ: KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-0
+  Ammâre                       KENDİ KİLİDİ: KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-0
+  Ardahan                      ÇAKIŞMA: yer_yama_kafkas.js vs yer_yama_uyg1.js — içerik farklı, KARAR GEREK
+  Arpaçay (Akyaka)             ÇAKIŞMA: yer_yama_kafkas.js vs yer_yama_ok110.js — içerik farklı, KARAR GEREK
+  Bacirge (Esendere)           kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Basra                        KENDİ KİLİDİ: KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-0
+  Bağdat                       ÇAKIŞMA: yer_yama_erken.js vs yer_yama_ok109_fetret.js — içerik farklı, KARAR GEREK
+  Başkale                      ÇAKIŞMA: yer_yama_kafkas.js vs yer_yama_ok110.js — içerik farklı, KARAR GEREK
+  Bükreş                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Digor                        ÇAKIŞMA: yer_yama_kafkas.js vs yer_yama_ok110.js — içerik farklı, KARAR GEREK
+  Doğubayazıt                  ÇAKIŞMA: yer_yama_kafkas.js vs yer_yama_ok110.js — içerik farklı, KARAR GEREK
+  Duhok                        KENDİ KİLİDİ: KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-0
+  Dîvâniye                     KENDİ KİLİDİ: KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-0
+  Erbil                        KENDİ KİLİDİ: KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-0
+  Erzincan                     ÇAKIŞMA: yer_yama_erken.js vs yer_yama_uyg2.js — içerik farklı, KARAR GEREK
+  Eçmiyadzin                   ÇAKIŞMA: yer_yama_kafkas.js vs yer_yama_ok110.js — içerik farklı, KARAR GEREK
+  Fellûce                      KENDİ KİLİDİ: KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-0
+  Fâv                          KENDİ KİLİDİ: KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-0
+  Graz                         KENDİ KİLİDİ: Viyana ile AYNI iki ön şart — renk + künye günü. İkisi inmeden UYGULAM
+  Gümrü (Aleksandropol)        ÇAKIŞMA: yer_yama_kafkas.js vs yer_yama_ok110.js — içerik farklı, KARAR GEREK
+  Halepçe                      ÇAKIŞMA: yer_yama_ok109_fetret.js vs yer_yama_uyg3.js — içerik farklı, KARAR GEREK
+  Hille                        KENDİ KİLİDİ: KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-0
+  Hotin                        kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Hoy                          ÇAKIŞMA: yer_yama_iran.js vs yer_yama_kademe_zincir.js vs yer_yama_uyg2.js — içerik farklı, KARAR GEREK
+  Hânekîn                      KENDİ KİLİDİ: KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-0
+  Hît                          KENDİ KİLİDİ: KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-0
+  Iğdır                        ÇAKIŞMA: yer_yama_kafkas.js vs yer_yama_ok110.js — içerik farklı, KARAR GEREK
+  Kars                         ÇAKIŞMA: yer_yama_kafkas.js vs yer_yama_uyg1.js — içerik farklı, KARAR GEREK
+  Kerbelâ                      KENDİ KİLİDİ: KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-0
+  Kerkük                       KENDİ KİLİDİ: KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-0
+  Kifri                        KENDİ KİLİDİ: KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-0
+  Kili                         kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Kragujevac                   ÇAKIŞMA: yer_yama_p35.js vs yer_yama_sh107.js — içerik farklı, KARAR GEREK
+  Kusayr                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Kûfe                         KENDİ KİLİDİ: KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-0
+  Kût el-Amâre                 KENDİ KİLİDİ: KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-0
+  Kürne                        KENDİ KİLİDİ: KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-0
+  Malikiye (Derik)             ÇAKIŞMA: yer_yama_ok107.js vs yer_yama_ok110.js — içerik farklı, KARAR GEREK
+  Manama (Bahreyn)             ÇAKIŞMA: yer_yama_gece_v1.js vs yer_yama_uyg2.js — içerik farklı, KARAR GEREK
+  Mankup                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Mersin                       ÇAKIŞMA: yer_yama_ok110.js vs yer_yama_p35.js — içerik farklı, KARAR GEREK
+  Meşkinşehr (Hiyav)           KENDİ KİLİDİ: KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-0
+  Musul                        KENDİ KİLİDİ: KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-0
+  Mîyandoab                    ÇAKIŞMA: yer_yama_iran.js vs yer_yama_uyg2.js — içerik farklı, KARAR GEREK
+  Necef                        KENDİ KİLİDİ: KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-0
+  Niş                          kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Nusaybin                     ÇAKIŞMA: yer_yama_ok107.js vs yer_yama_ok110.js — içerik farklı, KARAR GEREK
+  Rewândiz                     KENDİ KİLİDİ: KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-0
+  Sefâce                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Semâve                       KENDİ KİLİDİ: KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-0
+  Silopi                       ÇAKIŞMA: yer_yama_ok107.js vs yer_yama_ok110.js — içerik farklı, KARAR GEREK
+  Sina güneyi                  kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Sincar                       KENDİ KİLİDİ: KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-0
+  Sâmerrâ                      KENDİ KİLİDİ: KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-0
+  Süveyş                       kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Tikrit                       KENDİ KİLİDİ: KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-0
+  Tuz Hurmatu                  KENDİ KİLİDİ: KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-0
+  Tûr (Sînâ)                   kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Urmiye · Selmâs · Sulduz · D veride YOK — yeni nokta, yama ile yazılmaz
+  Viyana                       KENDİ KİLİDİ: İKİ ÖN ŞART: ① `avusturya-cumhuriyet` rengi `renkler.py` BOYALAR'a gir
+  Vâsıt                        KENDİ KİLİDİ: KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-0
+  Yagodina (Jagodina)          ÇAKIŞMA: yer_yama_ok110.js vs yer_yama_p35.js — içerik farklı, KARAR GEREK
+  Yaş                          kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Yedisan bozkırı              ÇAKIŞMA: yer_yama_erken.js vs yer_yama_ok110.js — içerik farklı, KARAR GEREK
+  Yüksekova (Gever)            ÇAKIŞMA: yer_yama_kafkas.js vs yer_yama_ok110.js — içerik farklı, KARAR GEREK
+  Zaho                         KENDİ KİLİDİ: KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-0
+  Âne                          KENDİ KİLİDİ: KOORDINATOR KARARI BEKLIYOR — bu yama 32 kaydin SINIR GUNUNU 1335-12-0
+  Çaldıran                     ÇAKIŞMA: yer_yama_kafkas.js vs yer_yama_ok110.js — içerik farklı, KARAR GEREK
+  Çaçak                        ÇAKIŞMA: yer_yama_p35.js vs yer_yama_sh107.js — içerik farklı, KARAR GEREK
+  Özalp (Saray)                ÇAKIŞMA: yer_yama_kafkas.js vs yer_yama_ok110.js — içerik farklı, KARAR GEREK
+  Şehrizor                     ÇAKIŞMA: yer_yama_ok109_fetret.js vs yer_yama_uyg3.js — içerik farklı, KARAR GEREK
+  Şemdinli (Şemdinni)          kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+  Şeyhrumi (Yücelen)           kaynak: ZATEN DOLU, ezilmedi — değiştirmek isteyen elle yapar
+
+12 dosya yazıldı. 🔴 ŞİMDİ `py arac/denetle.py` KOŞTUR.
