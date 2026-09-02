@@ -168,3 +168,44 @@ yıldızı hiç çizmez ve HATA DA VERMEZ (koordinatörün "sessiz başarısızl
 uyarısı).
 ```
 ⇒ Sıra önerim: **③ temizliği → ② yazımı**, ve ② dilim dilim.
+
+---
+---
+
+# 🔴 KAPSAM BULGUSU — `bk:` KOLUNU AÇAN HER OTURUM ÖNCE BUNU OKUSUN
+
+> Koordinatör şartı (M-2102 ⑥): *"Bir sonraki oturum bu kolu açarken
+> beklentisini oradan kursun."*
+
+```
+`bk:` alanı DOLDURULABİLİR — ama çoğu kayıt KAYNAKLI BİR GÜN TAŞIMAYACAK.
+ÖLÇÜLEN VERİM: 1/4, ve o biri de YAKLAŞIK.
+```
+
+**Ölçümün kendisi (dört künyelik pilot, TDV gövdeleri okundu):**
+```
+eretna     🔴 "1335-1381 … Sivas ve Kayseri merkez olmak üzere" — GEÇİŞ TARİHİ YOK
+candar     🔴 Eflani → Kastamonu → Sinop anlatılıyor, TARİH YOK
+celayirli  🔴🔴 HİÇBİR ŞEHRİ "BAŞKENT" DİYE ANMIYOR — ötekilerden AYRI SINIF
+aydin      🟡 KISMÎ — "1328 veya 1329" fetih · "1334 sonrası" merkez oluş
+```
+**Ve alanın kendi ipucu da seyrek:**
+```
+çok-başkentli künye                              91
+adları eşleşen (bugün yazılabilir)               44
+bunlardan `baskent` metninde YIL ipucu taşıyan    2   ← %4,5
+```
+
+## 🔴 İKİ SINIFI KARIŞTIRMA — koordinatörün şartı
+```
+"TARİH YOK"                 eksik veri     → aranmaya devam edilebilir
+"BAŞKENT KAVRAMI YOK"       farklı yazım   → kaynak o soruyu SORMUYOR
+```
+`celayirli` ikincisidir. Aynı kovaya konursa bir gün biri *"eksik,
+tamamlayalım"* deyip **kaynağın söylemediğini** yazar.
+
+## 🟢 VE BU BULGU `baskent:` ALANININ NİÇİN KALDIĞINI DOĞRULUYOR
+`bk:` yazılamayan künyede düz `baskent:` metni **duruyor** ve insan okunur
+bilgiyi taşımaya devam ediyor. Şema onu *"437 kayıt bozulmasın"* diye
+tutmuştu; pilot asıl sebebi gösterdi: **`bk:` seyrek kalacak, ve boşluğu
+dolduran şey `baskent:` olacak.**

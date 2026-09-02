@@ -72,20 +72,41 @@ def bk_topla(ek=None):
             if isinstance(b, dict) and b.get("ad"):
                 cik.append((d.get("id"), b["ad"], "devletler.js"))
     # ② yama dosyaları
+    # 🔴🔴 BURADA BİR KEZ REGEX YAZDIM VE SESSİZCE 0 KAYIT OKUDU.
+    #   Kalıbım `id:"…"(.*?)(?=\n\s*\{)` idi; `bk:[` dizisinin İLK ÖĞESİ de
+    #   `\n      {` ile başladığı için gövde BOŞ yakalandı ve hiçbir `ad:`
+    #   görülmedi. Nöbetçi "TEMİZ · 0 kayıt" dedi — yani **var olmak için
+    #   yazıldığı kusuru kendi üzerinde üretti.**
+    #   ⇒ Çare regex'i düzeltmek DEĞİL, REGEX'İ BIRAKMAK: `CLAUDE.md §11`,
+    #     *"veri zaten bir dilde yazılıysa, o dilin yorumlayıcısını çağır."*
+    #     (girdi.py tek tırnak · bagla.py CRLF · renkler.py ayrıştırma —
+    #      proje bunu ÜÇ KEZ öğrendi, bu dördüncüsü.)
+    #   Artık `girdi._cevir` kullanılıyor: motorun KENDİ JS okuyucusu.
     for ad in sorted(os.listdir(DATA)):
         if not re.match(r"^devletler_bk_.*\.js$", ad):
             continue
         metin = io.open(os.path.join(DATA, ad), encoding="utf-8", errors="replace").read()
         for m in re.finditer(r"window\.(DEVLETLER_BK_\w+)\s*=", metin):
-            # 🔴 TANIMADIĞINI SESSİZCE ELEME — sayarak bildir.
-            gövde = metin[m.end():]
-            kayit = re.findall(r'id:\s*"([^"]+)"(.*?)(?=\n\s*\{|\Z)', gövde, re.S)
-            if not kayit:
-                tanimsiz.append("%s :: %s (tanınmayan şekil)" % (ad, m.group(1)))
+            degisken = m.group(1)
+            try:
+                veri = girdi._cevir(metin, degisken)
+            except Exception as e:
+                tanimsiz.append("%s :: %s (ÇEVRİLEMEDİ: %s)" % (ad, degisken, e))
                 continue
-            for kid, gvd in kayit:
-                for b in re.finditer(r'ad:\s*"([^"]+)"', gvd):
-                    cik.append((kid, b.group(1), ad))
+            if not isinstance(veri, list):
+                tanimsiz.append("%s :: %s (DİZİ DEĞİL: %s)" % (ad, degisken, type(veri).__name__))
+                continue
+            bulundu = False
+            for kayit in veri:
+                if not isinstance(kayit, dict) or not isinstance(kayit.get("bk"), list):
+                    tanimsiz.append("%s :: %s içinde `bk` dizisi olmayan kayıt" % (ad, degisken))
+                    continue
+                for b in kayit["bk"]:
+                    if isinstance(b, dict) and b.get("ad"):
+                        cik.append((kayit.get("id"), b["ad"], ad))
+                        bulundu = True
+            if not bulundu:
+                tanimsiz.append("%s :: %s (hiç `bk[].ad` çıkmadı)" % (ad, degisken))
     if ek:
         cik.extend(ek)
     return cik, tanimsiz
