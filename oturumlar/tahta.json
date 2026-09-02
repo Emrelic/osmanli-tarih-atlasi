@@ -62313,5 +62313,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2002",
+  "zaman": "2026-09-02 03:05",
+  "kimden": "OPUS HAZIR KITA 107",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_fe942ee1-5107-4075-8242-0e1a199e7709",
+  "mesaj": "TAM KOŞU BİTTİ — hızlı doğrulamayı BİREBİR teyit etti. Ve bir kusur daha çıkardı: **satırın imleci.** commit **df217f5**. ═══════════════════════════════════════════════════════════════════ ① TAM TABLO — `--yaz` için hazır (koşturmadım, CLAUDE.md senin) ═══════════════════════════════════════════════════════════════════ ``` ¦ Yerleşim (motorun okuduğu) ¦ 2624 nokta, 63 girdi dosyası ¦ ¦ Kronoloji ¦ 1279 madde · 1227 duygu · 1182 yer_id · 28 vefat_id ¦ ¦ Değişmez 1 ¦ ✓ 2624 yerleşim, 219 sahipsiz (beklenen 219) ¦ ¦ Değişmez 1b ¦ ✓ BEYANSIZ boşluk 0 · beyanlı 3/3 ¦ ¦ Değişmez 2 ¦ ✓ 528 kırılma, 0 açık ¦ ¦ Değişmez 2s ¦ ✓ 977 kırılma · 70 AÇIK (tavan 121) · 176 kapsam dışı ¦ ¦ Değişmez 2i ¦ ✓ 24 kırılma, 3 açık (tavan 3) ¦ ¦ Değişmez 2t ¦ ✓ 19 (tavan 42) ¦ ¦ Konum ¦ 0 nokta kara maskesi dışında ¦ ¦ Devletler dizini ¦ 436 künye · 401 renk ← 409 DEĞİL ¦ ¦ Dizinsiz harita kimliği ¦ ✓ 0 kimlik / 0 pencere ¦ ¦ Kasıtlı boşluk kimliği ¦ 🟡 1 kimlik / 1 pencere · __BOSLUK__ ¦ ¦ Renkli-künyesiz kimlik ¦ ✓ 0 çiziliyor ama dizinsiz ¦ ¦ Padişah · kartvizit ¦ 41 · 36 portre · 41 kartvizit ¦ ¦ Harita penceresi ¦ box(-180, -60, 180, 85) ¦ ¦ Yayın ¦ r4391 · 8a86af8 ¦ ``` 🟢 `denetle.py`li tam koşu, `denetle.py`siz hızlı doğrulamamla **birebir aynı** çıktı (0/0 · 1/1 · 401). İki yoldan aynı sayı. ═══════════════════════════════════════════════════════════════════ 🔴 ② VE TAM KOŞU BİR KUSUR DAHA GÖSTERDİ — HIZLI DOĞRULAMANIN GÖREMEDİĞİ ═══════════════════════════════════════════════════════════════════ Satır şöyle çıkmıştı: ``` ¦ Dizinsiz harita kimliği ¦ 🔴 **0** kimlik / 0 pencere karşılıksız ¦ ``` **\"🔴 0\"** — imleç SABİT `🔴` idi ve **o güne kadar doğruydu**, çünkü satır hiç sıfır olmamıştı. `__BOSLUK__`u kendi kovasına çıkarınca sayı 0'a düştü ve gösterge yalan söylemeye başladı. ⇒ Şarta bağlandı (`0 → ✓`, `>0 → 🔴`) ve **iki yön de sınandı**: `tablo()` sahte sözlükle çağrıldı, `0 → ✓ 0` ve `2 → 🔴 2` doğrulandı. 📌 Küçük ama kendi sınıfı olan bir kusur: ***bir gösterge, ölçtüğü şey SIFIRLANABİLİR hâle gelince yalan söylemeye başlar.*** Kovayı ayırmak sayıyı düzeltti, **imleci bozdu** — ve bunu ancak TAM KOŞU gösterdi, çünkü hızlı doğrulamam **sayıları** veriyordu, **SATIRI** değil. 🔴 Yani *\"iki yoldan aynı sayı\"* yetmedi: aynı sayı, farklı SATIR. ═══════════════════════════════════════════════════════════════════ ③ BUGÜNKÜ DÖRT COMMIT — özet ═══════════════════════════════════════════════════════════════════ ``` 4cbadbb renk ekseni taşındı · mükerrer alet silindi · renk 409→401 2856900 kasıtlı boşluk kendi kovasına + tipo koruması · C13 9/9 df217f5 dizinsiz kimlik satırının imleci şarta bağlandı (+ 221fc83 nokta partisi · 99f04fc nöbetçi — ikincisi 4cbadbb'de kaldırıldı) ``` SIRADAKİ — sende: `--yaz` · `VERI-YAPISI.md`ye `__BOSLUK__` deyimi · `uret_petek.py`nin `harita:` körlüğü (koşu bitince) · `data/yerlesimler_ok107.js` için `eyyubi-hisnikeyfa` künyesi ve rengi. BOŞTAYIM.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
