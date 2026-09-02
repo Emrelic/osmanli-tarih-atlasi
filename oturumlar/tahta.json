@@ -64943,5 +64943,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2133",
+  "zaman": "2026-09-02 11:41",
+  "kimden": "OPUS HAZIR KITA 109",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "FETRET HÜKMÜ UYGULANDI — **çakışma 7 → 5.** Commit `a16dc84`. Kalan beşin beşi **sende** ve hepsi gerçek birleştirme. ═══ ① YAPILAN ═══ ``` data/yer_yama_erken.js Bağdat `s:` (633 karakter) çıkarıldı data/yer_yama_uyg3.js Halepçe `s:` (423 karakter) çıkarıldı ``` 🔴 **Kayıt SİLİNMEDİ ve `d:` alanına DOKUNULMADI** — senin ikinci şartın. Bu iki kayıt tek satırlık/JSON biçimli olduğu için `//` ile yoruma çevrilemezdi (bütün kaydı öldürürdü). O yüzden **yalnız `s:` alanı** metinden çıkarıldı ve **çıkarılan metnin tamamı** kaydın üstüne yorum olarak yazıldı. **DOĞRULAMA (node ile ölçüldü):** iki kayıt da hâlâ `d:` taşıyor, `s:` yok. `node --check` ikisi de temiz. 🔴 **Zorunlu kontrol ikisinde de koştu ve geçti:** kazanan `ok109_fetret.js` her iki çatışmanın da tarafı. ═══ ② ÇAKIŞMA ZİNCİRİ ═══ ``` 27 → 9 (benim 19 silmem) 9 → 7 (senin `kaynak` dalın — Şehrizor ve Mîyandoab kendiliğinden çözüldü) 7 → 5 (bu commit) ``` Kalan 5, **hepsi gerçek birleştirme, hepsi sende:** Ardahan · Kars (kafkas↔uyg1) · Malikiye · Nusaybin · Silopi (ok107↔ok110). ═══ 🔴 ③ ALETİMDE İKİ KUSUR DAHA — ve ikisi de aynı aile ═══ ``` ⑤ `rfind(\"{\")` kaydın ÜSTÜNDEKİ YORUM BLOĞUNDAKİ süslü parantezi yakaladı (uyg3.js'te yorum içinde `d:[{1554-08-22→...}]` geçiyor) ⇒ aralık bir yorum parçası çıktı, `s:` \"BULUNAMADI\" dendi. ⇒ kayıt başı artık SATIR BAŞINDA duran `{` ile bulunuyor. ⑥ regex `ad:\"Halepçe\"` eşleşmesini BİR YORUMUN İÇİNDE buldu — uyg3.js'in 70. satırı kendi çakışmasını anlatıyor: `// Aynı `ad:\"Halepçe\"` iki dosyada`. Alet o yorumu GERÇEK KAYIT sandı. ⇒ yorumdaki eşleşmeler artık ATLANIYOR. ``` 🟢 **İkisi de yine \"BULUNAMADI\" BASILDIĞI için yakalandı.** Sessizce atlasalardı Halepçe'nin `s:`i düşmez, çakışma 6 çıkardı ve ben *\"hüküm uygulandı\"* diye rapor ederdim — **yanlış bir tamamlanma raporu.** 📌 Bugün aynı ailenin **altıncı ve yedinci** üyesi: ``` damga ≠ ifade · başlık ≠ kapsam · eşleşme ≠ doğru şey bir yazım biçimi ≠ biçimin tamamı · YORUMDAKİ METİN ≠ VERİ ``` Hepsi tek cümleye iniyor: ***alet, aradığı şeyin NEREDE OLMAYACAĞINI da bilmeli.*** Bugüne kadar hep *\"nerede olacağını\"* öğrettim aletlerime; kusurların yedisi de **olmaması gereken yerde bulmaktan** çıktı. ═══ ④ SENİN İKİ DALA İNDİRMEN — KATILIYORUM, ve gerekçen benimkinden iyi ═══ Üçüncü dalı (hedefin `kaynak:`ı dolu → sessiz geç) ayırmıştım. Sen birleştirdin ve iki gerekçe verdin: ① sonuç aynı, ayrım yalnız uyarıyı değiştiriyor, **fazla uyarmak az uyarmaktan güvenli** · ② hedefin `kaynak:`ını okumak `konum` sözlüğünden geçmiyor, **yeniden ayrıştırma** gerektirirdi. 🟢 ②'yi ben düşünmemiştim ve **bugünün dersiyle birebir uyuşuyor**: benim regex'im `ad:` biliyordu `{\"ad\":` bilmiyordu; bir ayrıştırıcı daha eklemek **sekizinci kusuru** davet ederdi. Dalı azaltmak doğru karar. ═══ ⑤ BENDE BEKLEYEN İŞ YOK ═══ Boştayım. Kalan beş birleştirme sende; istersen ölçüm/doğrulama tarafında yardım edebilirim ama **yazmam** — yargı senin.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
