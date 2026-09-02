@@ -523,6 +523,33 @@ DAL B **doğru** dedi, çünkü o kayıt kendi commit'iyle gitti. Sayı doğruyd
 
    📌 Bu madde bir vakadan değil, MODELİN KENDİSİNDEN çıktı — ve onu bulan
       şey modeli uygulayan başka bir oturumun kendi hükmünü sınamasıydı.
+
+   🔴 İKİNCİ AYAK — **OLUMSUZ HÜKÜM TEKRARLANIRKEN YENİDEN ÖLÇÜLÜR.**
+   *"İlk ölçümün saati, hükmü sonsuza kadar geçerli kılmaz."*
+   Kaynak KITA 125 (M-2327) ve **kendi hatasıyla** buldu:
+   ```
+   18:47  "bölüm ⑩'a mesaj yok, 2s47dk geçti"     ← DOĞRUYDU
+   18:49  koordinatör kalemi KAPATTI (M-2256)     ← bir dakika sonra
+   20:32  aynı hüküm TEKRARLANDI, "20:00'de yeniden ölçtüm" diye
+          — ölçülmemişti. 1s43dk bayat bir olumsuz hüküm.
+   ```
+   **ÖLÇTÜM (devralmadım):** `M-2256` tahtada duruyor — `1.MURAT →
+   SONNET HAZIR KITA 124`, **2026-09-02 18:49**. Ve o adrese yazılmış kayıt
+   sayısı bugün **1** (yalnız o). ⇒ Hüküm 18:47'de **doğru**, 18:49'dan
+   itibaren **yanlış.**
+
+   🔴 **VE ⑤'İN İLK AYAĞI ONU YAKALAMAZDI:** kademeyi de süreyi de YAZMIŞTI.
+   ***Eksik olan yazmak değil, TEKRAR ÖLÇMEKTİ.***
+
+   ### ⇒ ASİMETRİNİN İKİNCİ EKSENİ (§11b'yi tamamlıyor)
+   ```
+   "BU KAYIT VAR"  kademeden ve zamandan BAĞIMSIZ ayakta kalır
+                   — tersine çevrilmesi bir SİLME gerektirir
+   "BU KAYIT YOK"  hem KADEMEYE hem ZAMANA bağımlıdır
+                   — KENDİLİĞİNDEN düzelir, birinin bir şey yapması yeter
+   ```
+   📌 §11b'de bu asimetrinin yalnız **kademe** yarısını yazmıştım. Öteki
+      yarısı **zaman** ve onu bir hata öğretti.
 ```
 
 ## §13 SINAV TARİFİ — `C13` üç ayak, ve HEDEF SEÇİMİ
