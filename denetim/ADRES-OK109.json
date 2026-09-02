@@ -1,0 +1,76 @@
+{
+  "is": "37 ölü `kaynak:` slugunun canlı adresleri — ÖLÇÜLMÜŞ küme",
+  "oturum": "OPUS HAZIR KITA 109",
+  "damga": "2026-09-02, ölçümden SONRA yazıldı — bu bir ÖNGÖRÜ DEĞİL, SONUÇTUR",
+  "uyari": "Bu dosya bir ÖNERİ kümesidir. Hiçbir `kaynak:` alanına DOKUNULMADI; veriye inmesi koordinatörün kararıdır (M-2147 cevabı bekleniyor).",
+
+  "olcut": {
+    "BULUNDU": "gövde olayı ADIYLA ve TARİHİYLE (en az yıl) veriyor — dar pencere (±170 karakter)",
+    "ZAYIF": "anıyor, tarih YOK — BULUNDU sayılmaz",
+    "BULUNAMADI": "aday adresler denendi, olayı tarihiyle veren gövde bulunamadı. ⚠️ 'canlı ama doğrulanmadı' ile AYNI ŞEY DEĞİL"
+  },
+
+  "karne": {
+    "pilot_8": "BULUNDU 6 · ZAYIF 1 (sakarya) · BULUNAMADI 1 (cimpe-kalesi)",
+    "ikinci_tur_28": "BULUNDU 13 · ZAYIF 9 · BULUNAMADI 6",
+    "zaten_cozulmus_1": "kasr-i-sirin-antlasmasi → murad-iv",
+    "TOPLAM": "37 = BULUNDU 20 · ZAYIF 10 · BULUNAMADI 7",
+    "sayim_notu": "20+10+7=37 ✓ · 8 pilot + 28 ikinci tur + 1 zaten çözülmüş = 37 ✓ — iki yönden de sağlandı"
+  },
+
+  "yol_dagilimi": {
+    "1_TDV_gondermesi": "0 tuttu · payda 1 ⇒ ÖLÇÜLEMEDİ, kural yazılmadı",
+    "2_kapsayici_yer_kisi": 18,
+    "3_ek_degisimi": 2
+  },
+
+  "bulundu": [
+    { "eski": "varna-savasi",                  "yeni": "varna",                              "yol": "2-kapsayici", "tur": "pilot" },
+    { "eski": "preveze-deniz-savasi",          "yeni": "barbaros-hayreddin-pasa",            "yol": "2-kapsayici", "tur": "pilot" },
+    { "eski": "istanbulun-fethi",              "yeni": "istanbul",                           "yol": "2-kapsayici", "tur": "pilot" },
+    { "eski": "belgrad-antlasmalari",          "yeni": "belgrad",                            "yol": "2-kapsayici", "tur": "pilot" },
+    { "eski": "zenta-savasi",                  "yeni": "zenta",                              "yol": "2-kapsayici", "tur": "pilot" },
+    { "eski": "nasuh-pasa-antlasmasi",         "yeni": "nasuh-pasa",                         "yol": "2-kapsayici", "tur": "pilot" },
+    { "eski": "kasr-i-sirin-antlasmasi",       "yeni": "murad-iv",                           "yol": "2-kapsayici", "tur": "onceden" },
+    { "eski": "balkan-savaslari",              "yeni": "balkan",                             "yol": "2-kapsayici", "tur": "ikinci" },
+    { "eski": "buyuk-taarruz",                 "yeni": "milli-mucadele",                     "yol": "2-kapsayici", "tur": "ikinci" },
+    { "eski": "bab-i-ali-baskini",             "yeni": "enver-pasa",                         "yol": "2-kapsayici", "tur": "ikinci" },
+    { "eski": "candarli-halil-hayreddin-pasa", "yeni": "candarli-kara-halil-hayreddin-pasa", "yol": "2-kapsayici", "tur": "ikinci" },
+    { "eski": "cildir-savasi",                 "yeni": "cildir-eyaleti",                     "yol": "2-kapsayici", "tur": "ikinci" },
+    { "eski": "cumhuriyet",                    "yeni": "turkiye",                            "yol": "2-kapsayici", "tur": "ikinci" },
+    { "eski": "hasimiler",                     "yeni": "serif-huseyin",                      "yol": "2-kapsayici", "tur": "ikinci" },
+    { "eski": "kirim-hanligi",                 "yeni": "kirim",                              "yol": "2-kapsayici", "tur": "ikinci" },
+    { "eski": "kirim-savasi",                  "yeni": "kirim",                              "yol": "2-kapsayici", "tur": "ikinci" },
+    { "eski": "mesaleler-savasi",              "yeni": "hacova-meydan-muharebesi",           "yol": "2-kapsayici", "tur": "ikinci" },
+    { "eski": "ulubat",                        "yeni": "ulubat--bursa",                      "yol": "2-kapsayici", "tur": "ikinci" },
+    { "eski": "bukres-antlasmasi",             "yeni": "bukres-antlasmalari",                "yol": "3-ek-degisimi", "tur": "ikinci" },
+    { "eski": "edirne-segedin-antlasmasi",     "yeni": "edirne-segedin-antlasmalari",        "yol": "3-ek-degisimi", "tur": "ikinci" }
+  ],
+
+  "zayif": [
+    { "eski": "sakarya-meydan-muharebesi",  "en_yakin": "milli-mucadele" },
+    { "eski": "derbend",                    "en_yakin": "derbent",                  "yil_gecisi": 0 },
+    { "eski": "duzmece-mustafa",            "en_yakin": "mustafa-celebi",           "yil_gecisi": 0 },
+    { "eski": "kosmidion",                  "en_yakin": "eyup",                     "yil_gecisi": 0 },
+    { "eski": "ozi",                        "en_yakin": "ozu",                      "yil_gecisi": 1 },
+    { "eski": "selimiye-camii-ve-kulliyesi","en_yakin": "selimiye-camii",           "yil_gecisi": 0 },
+    { "eski": "ferhad-pasa-antlasmasi",     "en_yakin": "ferhad-pasa-antlasmalari", "yil_gecisi": 0 },
+    { "eski": "reji",                       "en_yakin": "duyun-i-umumiyye", "duyarlilik": "±600'de eşleşti ama BİBLİYOGRAFYADA (Quartaert, '…1881-1908') — REDDEDİLDİ" },
+    { "eski": "camurlu-savasi",             "en_yakin": "musa-celebi",      "duyarlilik": "±600'de savunulabilir eşleşme; kayıtlı dar pencerede YOK" },
+    { "eski": "rumeli-hisari",              "en_yakin": "mehmed-ii",        "duyarlilik": "±600'de GERÇEK eşleşme ('Şubat 1452'de sahilde ilk kale yükselmiş'); kayıtlı dar pencerede YOK" }
+  ],
+
+  "yil_gecisi_notu": "`yil_gecisi: 0` demek: kapsayıcı gövdede olayın YILI HİÇ geçmiyor. Bu bir PENCERE sorunu değildir — o maddeler olayı tarihsiz anıyor ya da yalnız hicrî veriyor. Pencereyi büyütmek bunları KURTARMAZ.",
+
+  "bulunamadi": [
+    "cimpe-kalesi",
+    "anadolu-hisari",
+    "izladi-savasi",
+    "kutsal-ittifak",
+    "ozdemiroglu-osman-pasa",
+    "salankamen-savasi",
+    "sirpsindigi-savasi"
+  ],
+
+  "bulunamadi_notu": "Yedisi de 'arandı, yok' damgasını hak ediyor — 'araştırılmadı' DEĞİL. §4: 'bulunamadı' demek bir SONUÇTUR ve uydurmaktan kat kat değerlidir."
+}
