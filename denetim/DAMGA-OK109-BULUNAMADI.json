@@ -1,0 +1,102 @@
+{
+  "is": "M-2148 — 12 çözülmemiş `kaynak:` slugu için `bulunamadı` damgası hazırlığı",
+  "oturum": "OPUS HAZIR KITA 109",
+  "damga": "2026-09-02",
+  "uyari": "VERİYE İNMEDİ. Toplu uygulama koordinatörün (kendi talimatı).",
+
+  "🔴_SEVKIN_ONCULU_CURUDU": {
+    "sevk": "'BULUNAMADI 6 + ZAYIF 6 = 12 kayda bulunamadı damgası hazırla'",
+    "olcum": "12 slug 14 KAYITTA geçiyor, ve 14'ün 8'i AslInda BULUNABİLİYOR",
+    "sebep": "Slugları ölçerken YILI kendi bilgimden vermiştim; kayıtlar okununca dördünün yılı tutmuyordu — ve yıl düzeltilince adresler çıktı",
+    "yanlis_yil_tablosu": {
+      "derbend": "ölçtüğüm 1796 · KAYITLAR 1722 ve 1735",
+      "duzmece-mustafa": "ölçtüğüm 1422 · KAYIT 1421",
+      "anadolu-hisari": "ölçtüğüm 1394 · KAYIT 1395",
+      "ferhad-pasa-antlasmasi": "ölçtüğüm 1590 · KAYITLAR 1590 VE 1588"
+    },
+    "hukum": "12 kayda blanket damga VURULMAMALI. Damga hak eden 6 KAYIT var, 8 kayıt ADRES hak ediyor.",
+    "kimin_hatasi": "BENİM. `kaynak:` alanı bir KAYDI dayandırır; ben SLUGU ölçtüm, kaydı değil. Ölçüm doğru, EVREN yanlıştı."
+  },
+
+  "A_YENI_BULUNAN_ADRESLER": {
+    "aciklama": "8 kayıt — kaydın KENDİ yılıyla ölçüldü, kanıt gövdeden alındı. Damga DEĞİL, ADRES hak ediyorlar.",
+    "kayitlar": [
+      { "dosya": "olaylar_ek7.js", "t": "1722-08-23", "b": "Rus kuvvetlerinin Derbend'i alması",
+        "eski": "derbend", "yeni": "dagistan",
+        "kanit": "«Rus Çarı Büyük Petro … 1722'de İran'a karşı bir savaş açtı ve Derbend'i işgal etti»" },
+      { "dosya": "olaylar_ek7.js", "t": "1735-03-10", "b": "Gence Antlaşması: Derbend ve Bakü'nün İran'a iadesi",
+        "eski": "derbend", "yeni": "dagistan",
+        "kanit": "«Nâdir Şah … Derbend ve Bakü'yü, 1735 tarihli antlaşma ile de Sulak ve Kura nehirleri arasında kalan bazı toprakları ele geçirdi»" },
+      { "dosya": "olaylar_ek5.js", "t": "1588-01-01", "b": "Karabağ ve Gence'nin ilhakı",
+        "eski": "ferhad-pasa-antlasmasi", "yeni": "gence",
+        "kanit": "«20 Temmuz 1588'de Erzurum'dan hareket eden Ferhad Paşa idaresindeki kalabalık Osmanlı kuvvetleri … Gence önlerine geldiler»" },
+      { "dosya": "olaylar_ek.js", "t": "1443-11-01", "b": "İzladi bozgunu — 'Uzun Sefer'",
+        "eski": "izladi-savasi", "yeni": "murad-ii",
+        "kanit": "«Tuna'yı aştı (Receb 847 / Ekim 1443) … II. Murad bunları Zlatića/Zlatitsa (İzlâdi) Geçidi'nde k…»" },
+      { "dosya": "olaylar_ek2.js", "t": "1585-09-25", "b": "Tebriz'in fethi",
+        "eski": "ozdemiroglu-osman-pasa", "yeni": "tebriz",
+        "kanit": "«Özdemiroğlu Osman Paşa 30 Ramazan 993'te (25 Eylül 1585) şehri ele geçirdi» — GÜNÜ GÜNÜNE tutuyor" },
+      { "dosya": "olaylar_ek3.js", "t": "1410-06-15", "b": "Kosmidion Savaşı",
+        "eski": "kosmidion", "yeni": "musa-celebi",
+        "kanit": "«15 Haziran 1410'da Mûsâ Çelebi'yi Kosmidion'da (Hasköy) yendi» — GÜNÜ GÜNÜNE tutuyor" },
+      { "dosya": "olaylar_ek.js", "t": "1788-12-17", "b": "Özi'nin düşüşü",
+        "eski": "ozi", "yeni": "ozu",
+        "kanit": "«1788 Aralığında Rus Mareşali Suvarov, Özü Kalesi'ne saldırdı»" },
+      { "dosya": "olaylar_ek.js", "t": "1364-07-01", "b": "Sırpsındığı baskını",
+        "eski": "sirpsindigi-savasi", "yeni": "murad-i",
+        "kanit": "«Osmanlı rivayetine göre Çirmen veya Sırp Sındığı savaşı (15 Rebîülevvel 773 / 26 Eylül 1371)»",
+        "🔴_UYGULAMA": "BEKLET — aşağıdaki TARİH ÇELİŞKİSİ çözülmeden yazılmasın" }
+    ]
+  },
+
+  "🔴_B_TARIH_CELISKISI": {
+    "kayit": "olaylar_ek.js · t:\"1364-07-01\" · «Sırpsındığı baskını»",
+    "TDV_ne_diyor": "`murad-i` gövdesi: «Biga kuşatmasının 1371 yazında olduğu kesindir (Osmanlı rivayetinde verilen 766/1364-65 tarihi YANLIŞTIR). Osmanlı rivayetine göre Çirmen veya Sırp Sındığı savaşı (15 Rebîülevvel 773 / 26 Eylül 1371)…»",
+    "yani": "TDV, kaydın taşıdığı 1364 tarihini AÇIKÇA reddediyor ve 26 Eylül 1371 diyor",
+    "nicin_onemli": "§4: «TDV maddesi varsa başkasına dayanma; çelişirse TDV esastır.» Bu bir adres sorunu değil, TARİH sorunu — ve 7 yıllık bir kayma.",
+    "OLCMEDIGIM": "Bu kaydın Değişmez 2 bakımından hangi kırılmalara bağlı olduğunu ÖLÇMEDİM. Tarih değişirse senkron etkilenebilir; o ayrı bir ölçüm ve bende değil.",
+    "ne_istiyorum": "Bu KARAR SENİN. Ben veriye dokunmadım ve bu kaydın adresini de yazmadım — tarih çözülmeden adres yazmak, yanlış tarihi kaynaklı göstermek olur."
+  },
+
+  "C_DAMGA_HAK_EDEN_ALTI_KAYIT": {
+    "aciklama": "Bunlar gerçekten 'arandı, yok'. Her biri kaydın KENDİ yılıyla ve DAR anahtarla ölçüldü.",
+    "onerilen_deger": "bulunamadı — arandı, TDV'de olayı tarihiyle veren gövde yok",
+    "kayitlar": [
+      { "dosya": "olaylar_ek.js", "t": "1395-08-01", "b": "Anadolu Hisarı'nın yapımı",
+        "eski": "anadolu-hisari", "denenen": ["bayezid-i", "istanbul", "bogazici", "yildirim-bayezid", "anadoluhisari"],
+        "olcum": "`bayezid-i` gövdesinde 1395 üç kez geçiyor ama «Anadolu Hisarı/Güzelce» HİÇ geçmiyor" },
+      { "dosya": "olaylar_ek3.js", "t": "1684-03-05", "b": "Kutsal İttifak kuruldu",
+        "eski": "kutsal-ittifak", "denenen": ["viyana", "mehmed-iv", "karlofca-antlasmasi", "lehistan", "avusturya"],
+        "olcum": "beş kapsayıcının hiçbirinde 1684 ile «İttifak» yan yana gelmiyor" },
+      { "dosya": "olaylar_ek3.js", "t": "1691-08-19", "b": "Salankamen bozgunu — Fâzıl Mustafa Paşa şehit",
+        "eski": "salankamen-savasi", "denenen": ["fazil-mustafa-pasa", "koprulu-ailesi", "belgrad", "avusturya", "zenta"],
+        "olcum": "beş kapsayıcının hiçbiri 1691 ile «Salankamen/Slankamen»i yan yana vermiyor" },
+      { "dosya": "olaylar_ek2.js", "t": "1575-03-01", "b": "Selimiye Camii tamamlandı",
+        "eski": "selimiye-camii-ve-kulliyesi", "denenen": ["selimiye-camii", "edirne", "mimar-sinan", "selim-ii"],
+        "olcum": "«Selimiye» dört gövdede geçiyor, 1575 ile yan yana HİÇ gelmiyor" },
+      { "dosya": "olaylar_ek2.js", "t": "1590-03-21", "b": "Ferhad Paşa Antlaşması — doğuda en geniş sınırlar",
+        "eski": "ferhad-pasa-antlasmasi", "denenen": ["ferhad-pasa-antlasmalari", "gence", "murad-iii", "ferhad-pasa", "luristan"],
+        "olcum": "1588 kaydı `gence` ile çözüldü ama 1590 ANTLAŞMASI için hiçbir gövde günü/yılı vermiyor",
+        "not": "CLAUDE.md §4 zaten yazıyor: «Ferhat Paşa Antlaşması'nın TDV'de müstakil maddesi yok; hükümleri yer maddelerinden toplanır.» Bu ölçüm o satırı DOĞRULUYOR." },
+      { "dosya": "olaylar_ek.js", "t": "1421-08-15", "b": "Düzmece Mustafa ayaklanması",
+        "eski": "duzmece-mustafa", "denenen": ["mustafa-celebi", "murad-ii", "mehmed-i", "edirne", "gelibolu"],
+        "olcum": "DÖRT gövde «Düzmece»yi anıyor, hiçbiri 1421/1422 ile yan yana vermiyor",
+        "yanlis_pozitif_notu": "Gevşek anahtarla (`Düzmece|Mustafa`) `murad-ii` önce BULUNDU vermişti; eşleşme «Erkek kardeşleri Mustafa, Ahmed, Yûsuf» cümlesindeydi — o, Murad'ın KARDEŞİ Küçük Mustafa. REDDEDİLDİ. (`reji` bibliyografya vakasının aynı sınıfı.)" }
+    ]
+  },
+
+  "D_KAPSAM_NOTU": {
+    "sevkin_disinda_kalan_bes": "Koordinatörün 12'si ikinci turun kovalarıydı. Tam kümede beş kayıt daha çözülmemiş durumda ve HER BİRİ AYRI muamele istiyor:",
+    "cimpe-kalesi": "pilotta BULUNAMADI — damgayı hak ediyor",
+    "sakarya-meydan-muharebesi": "pilotta ZAYIF — damgayı hak ediyor",
+    "rumeli-hisari": "±600'de GERÇEK eşleşme var (`mehmed-ii`: «Şubat 1452'de sahilde ilk kale yükselmiş») — damga DEĞİL, ADRES hak ediyor olabilir; dar pencereyle yeniden ölçülmeli",
+    "camurlu-savasi": "±600'de savunulabilir eşleşme (`musa-celebi`) — aynı, yeniden ölçülmeli",
+    "reji": "±600 eşleşmesi BİBLİYOGRAFYADA idi, REDDEDİLDİ — damgayı hak ediyor"
+  },
+
+  "OZET": {
+    "sevkte_yazan": "12 kayda damga",
+    "olculen": "14 kayıt · 8'i ADRES · 6'sı DAMGA · 1'i (Sırpsındığı) TARİH ÇELİŞKİSİ ve ikisinin de dışında",
+    "istenen_karar": "① 7 adresi uygulayayım mı (Sırpsındığı hariç) · ② 6 damgayı bu metinle mi vurayım · ③ Sırpsındığı tarihi ayrı bir kalem mi olsun"
+  }
+}
