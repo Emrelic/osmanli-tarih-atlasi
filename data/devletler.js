@@ -2382,6 +2382,16 @@ window.DEVLETLER = [
     { t:"1815-06-09", tur:"kayip", b:"Viyana Kongresi nihaî senedi — dukalık dağıtıldı, toprakları Rusya, Prusya ve Avusturya arasında paylaşıldı" }
   ]
 },
+{ id:"kongre-polonyasi", ad:"Kongre Polonyası (Kraliyet Polonyası)", tur:"kralik", bolge:"dogu-avrupa",
+  f:"1815-06-09", t:"1917-03-15", baskent:"Varşova", harita:"kongre-polonyasi",
+  ozet:"Viyana Kongresi'nin Varşova Dukalığı topraklarından kurduğu, Rus çarının aynı zamanda Polonya kralı olduğu krallık; 1830 ve 1863 ayaklanmalarından sonra özerkliği kademeli olarak kaldırıldı ve Vistül Ülkesi'ne çevrildi. Bkz. [[varsova-dukaligi]] (öncülü) ve [[polonya]] (1918).",
+  kaynak:"polonya — TDV; kuruluş günü TDV'nin kendi verdiği «Viyana Kongresi'nin 9 Haziran 1815 tarihli nihaî belgesi». ⚠️ BİTİŞ GÜNÜ TDV'DE YOK: gövde taramasında «1867» hiç geçmiyor. `t:1917-03-15` TDV'den DEĞİL, atlasın kendi modelinden (Rus Çarlığı künyesinin sonu) türetildi — açıkça yazılıyor.",
+  kronoloji:[
+    { t:"1815-06-09", tur:"kurulus", b:"Viyana Kongresi nihaî senedi — Varşova Dukalığı toprakları üzerinde krallık kuruldu" },
+    { t:"1830-11-29", tur:"isyan", b:"Kasım Ayaklanması başladı" },
+    { t:"1863-01-22", tur:"isyan", b:"Ocak Ayaklanması — bastırıldıktan sonra özerklik fiilen kaldırıldı" }
+  ]
+},
 { id:"polonya", ad:"Polonya Cumhuriyeti (II. Cumhuriyet)", tur:"cumhuriyet", bolge:"dogu-avrupa",
   f:"1918-11-11", t:"1923-10-29", baskent:"Varşova", harita:"polonya",
   ozet:"123 yıllık paylaşılmışlığın ardından Almanya, Avusturya-Macaristan ve Rusya topraklarından yeniden kurulan devlet; Piłsudski önderliğinde bağımsızlığını Sovyetler'e karşı da savundu (1923 sonrasında da sürdü). Bkz. [[lehistan]] (eski Lehistan-Litvanya Birliği ile doğrudan devamlılığı yok).",
