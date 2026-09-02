@@ -98,3 +98,60 @@ bitene kadar kilitli.
 yalnız bir dönem tarihi değişerek yeni bir çakışma doğabilir — üç ayrı
 vakada ölçüldü (`cungar↔buhara` · `norvec↔portekiz` · `cohor↔kamboc`) ve
 üçünde de `git diff arac/renkler.py` BOŞTU.
+
+---
+
+# 🔴 ÖN SINAV — 2 Eylül 2026, koşu %85'teyken (1.MURAT)
+
+Kuyruktaki **sekiz** yerleşim dosyası, koşu bitmeden **önceden** sınandı ki
+A1 (bağlama) koşu biter bitmez anında yapılabilsin. Araç: `arac/_baglama_onsinav.py`
+(yeni; iki yönde de sınandı — ateşleme kod 1, geçme kod 0).
+
+```
+dosya                     kayıt  ad alanı  bağlı evrende ad  en yakın komşu
+yerlesimler_ok101.js         1      ✓          yok           218,4 km
+yerlesimler_ok102.js         3      ✓          yok            99,1 km
+yerlesimler_ok104.js         6      ✓          yok            21,2 km
+yerlesimler_ok106.js        11      ✓          yok             6,6 km
+yerlesimler_ok107.js        14      ✓          yok            15,7 km
+yerlesimler_ok109.js         2      ✓          yok            29,8 km
+yerlesimler_ok110.js         1      ✓          yok            46,5 km
+yerlesimler_p0037.js        15      ✓          yok            40,6 km
+                          ────
+                            53 nokta  →  2624 + 53 = 2677 bekleniyor
+```
+🟢 `§7` ad alanı kuralı **8/8 geçti** — her dosyanın değişkeni dosya adının
+ayırt edici parçasını taşıyor.
+
+## 🔴 VE BİR MÜKERRER ÇIKTI — TEK TEK SINAVDA GÖRÜNMEYEN
+```
+el-Ulâ        yerlesimler_ok102.js
+Ulâ (el-Ulâ)  yerlesimler_ok107.js      ARALARINDA 0,10 km = 100 METRE
+```
+**İki denetim de kaçırdı, sebepleri ayrı:**
+```
+AD ÇAKIŞMASI   "el-Ulâ" ile "Ulâ (el-Ulâ)" FARKLI dizgiler       → göremedi
+TEK TEK SINAV  her dosya yalnız BAĞLI evrenle karşılaştırıldı;
+               ikisi de bağlı DEĞİL, hiç karşılaşmadılar          → göremedi
+```
+Yakalayan tek şey **mesafe** oldu, ve ancak **kuyruğun tamamı** üstünde.
+
+⚠️ Ve `el-Ulâ` bu gece **ikinci kez** keşfedildi: ok101–ok102 arasında zaten
+çözülmüştü (ok101 düşürdü) — ama karşılaştırma **iki dosya** arasında
+yapılmıştı, kuyruğun tamamı üstünde değil. Üçüncü kopya ok107'de duruyordu.
+📌 ***Bir mükerrer avı, kuyruğun TAMAMI üzerinde yapılmazsa yarım kalır ve
+yarım kaldığı belli olmaz.***
+
+⇒ ok102 ve ok107 sahiplerine gönderildi (M-2070 · M-2071), **yatay
+çözecekler**; ben hakem olmadım. **Çözülmeden bu iki dosya BAĞLANMAZ.**
+
+## 🟡 A2 DOĞRULANDI — `kesinlik` alanı BILINEN_ALANLAR'da YOK
+```
+BILINEN_ALANLAR (19): ad bit bos d g go isg k kasitli_bosluk kaynak
+                      kd kur lat lon m neden s tur v
+yerlesimler_ok109.js  🟡 BILINEN_ALANLAR dışı: kesinlik
+```
+Alan **bilerek** yazıldı (alt sınır deyimi) ve `VERI-YAPISI.md:171`'de
+planlı. `girdi.py` KİLİTLİ olduğu için kaydı A2'de, koşudan sonra.
+⚠️ Bağlama A2'den ÖNCE yapılırsa `girdi.py` her ok109 kaydında uyarı basar
+— **beklenen**, ama sırayı bozmamak için A2 önce.
