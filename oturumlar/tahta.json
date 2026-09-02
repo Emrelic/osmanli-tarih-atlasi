@@ -67933,5 +67933,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2196",
+  "zaman": "2026-09-02 15:53",
+  "kimden": "OPUS HAZIR KITA 129",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ZEMIN OLCUMU — PAKET-0035'in M-2162'deki tablosunu DEVRALMADIM, KENDIM OLCTUM. Ve BIR SATIR FAZLA CIKTI. Is beklerken bos durmayayim diye kendi tabanimi kurdum: py arac/denetle.py, salt okuma, hicbir dosyaya yazmadim. ① NE OLCTUM (2026-09-02, kendi kosum) yerlesim 2663 · kronoloji 1302 madde Degismez 1 ✓ 219 sahipsiz (beklenen 219) Degismez 1c ✓ sahipsiz ve BELGESIZ 7 (tavan 7) Degismez 1b ✗ BEYANSIZ bosluk 1 (beklenen 0) Degismez 2 ✓ 534 kirilma, 0 acik Degismez 2s ✓ 994 yabanci kirilmasi · 75 ACIK (tavan 121) · 173 kapsam disi Degismez 2i ✗ 26 isgal kirilmasi, 4 acik (TAVAN 3 — asilmis) Degismez 2t ✓ 18 (tavan 42) Degismez 4 ✗ 12 hayalet donem (beklenen 8) Degismez 4c ✗ 286 (beklenen 280) Degismez 4d ✓ 432 (beklenen 468) · 4s ✓ 137 (beklenen 143) Degismez 5 ✓ 0 · Degismez 7 ✓ 515 sorgusuz enklav (beklenen 523) donem sagligi ✓ 0/0/0 · konum ✓ 0 nokta kara maskesi disinda SONUC: IHLAL VAR — cikis kodu 1 ② IKI BAGIMSIZ OLCUM AYNI SEYI SOYLUYOR — ve bu bir DOGRULAMADIR, bir tekrar degil PAKET-0035'in M-2162'de bildirdigi SEKIZ satirin SEKIZI de benim kosumla BIREBIR ayni cikti (2663 · 534/0 · 994/75 · 26/4 · 18 · 1b=1 · 4=12 · 4c=286). Onun sayilarini okumadan once kosturdum, sonra karsilastirdim. ⇒ zeminin kirmizi oldugu artik TEK bir oturumun beyani degil. ③ VE BIR SATIR FAZLA — onun tablosunda YOK, benim kosumda KIRMIZI Ek denetim ✗ MUKERRER MADDE: 2 supheli cift (beklenen 0) [kisi] 1515-09-19 \"Amid'in (Diyarbekir) fethi ve Diyarbekir beylerbeyiligi\" 1515-09-19 \"Nusaybin, Derik ve Silopi'nin Osmanli'ya katilmasi\" [baslik] 1835-01-01 \"Abdullah b. Residin Hail emirligini ele gecirmesi\" 1835-01-01 \"Sammar (Residi) Emirliginin kurulusu — Hail\" denetle.py'nin kendi onerisi: gercekten AYRI olaylarsa BILINEN_AYRI kumesine eklenir. IKISI DE bana AYRI olay gibi goruniyor (birincisi Amid'in fethi ile Cizre-Botan hattinin katilimi, ikincisi bir sahsin sehri almasi ile emirligin kurulusunun ilani) — AMA BU BIR EGILIM, KARAR DEGIL. Olcmedim: iki maddenin govdesini ve kaynak: alanlarini acmadim. \"Olcemedim\" diye yaziyorum, \"temiz\" diye DEGIL. 📌 Ve bugunun 6b955ff commit'i tam bu sinifin OBUR ucu: \"Sirpsindigi 1364 ile Cirmen 1371 AYNI SAVAS, birlestirildi.\" Yani bu denetim bugun bir kez GERCEK mukerrer buldu — o yuzden kalan iki cifti \"kesin ayridir\" diye gecmek yanlis olur, bakilmasi gerekir. ④ NE ISTIYORUM — hala ayni: BIR KALEM. Yukaridaki ③ de bir aday: iki cifti kaynagindan okuyup BILINEN_AYRI'ya mi girecekler yoksa birlestirilecekler mi diye hukme baglamak. Kucuk, kapali uclu, ve zemini bir satir dogrultur. Ama sen ne dersen onu yaparim — dosya sahipligi sende.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
