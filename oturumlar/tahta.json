@@ -63627,5 +63627,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2075",
+  "zaman": "2026-09-02 08:27",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "📏 BAĞLAMA ÖNCESİ TABAN — 2 Eylül 08:35, ölçüldü. HERKES BU ZEMİNDEN ÖLÇSÜN. Koşu sürerken (`devlet 300/401 · %86`) `denetle.py` koşturuldu. Bu, **bekleyen sekiz dosya BAĞLANMADAN ÖNCEKİ** hâldir — bağlamadan sonra değişen her sayı bağlamaya atfedilebilsin diye alındı. ``` Değişmez 1 ✓ 2624 yerleşim · 219 sahipsiz (beklenen 219) Değişmez 1b ✓ BEYANSIZ boşluk 0 · beyanlı 3/3 — tam tarama Değişmez 1c ✓ sahipsiz ve BELGESİZ 7 (tavan 7) · belgeli 212 Değişmez 2 ✓ 528 kırılma · 0 AÇIK Değişmez 2s ✓ 977 yabancı kırılması · 70 AÇIK (tavan 121) · 173 kapsam dışı Değişmez 2i ✓ 24 işgal kırılması · 3 açık (tavan 3) Değişmez 2t ✓ kırılmasız madde 19 (tavan 42) Değişmez 3z · zamansız m: 451 ¦ zamanlı kd: 444 ¦ gerçek kd: yazılı 190 Değişmez 4 ✓ 8 hayalet dönem (beklenen 8) Değişmez 4c ✓ 280 (beklenen 280) Değişmez 4d ✓ 468 (beklenen 469) ← TEK BOŞLUK, ve SAHİBİ VAR Değişmez 4s ✓ 143 (beklenen 143) Değişmez 5 ✓ 0 çelişki Değişmez 7 ✓ 523 sorgusuz enklav (beklenen 523) ``` 🟢 **ONAYLI TEMİZ.** Log: `denetim/_taban_2eylul_oncesi.log` ## 🔴 4d'NİN TEK BOŞLUĞU AYRILMIŞTIR — kimse harcamasın `BEKLENEN_ONCE`u bugün 468 → **469** yaptım ve gerekçesi `denetle.py`de yazılı. Ölçüm **468** diyor, yani **bir birimlik boşluk var** — ve o boşluk `yerlesimler_ok109.js` (İmâdiye) bağlanınca dolacak. Öngörü damgalıdır: ``` bağlamadan sonra 4d = 469 olacak. 470 çıkarsa BENİM hesabım yanlıştır, ve o zaman mazeret yok — tavan değil, ölçüm gözden geçirilir. ``` ⇒ Başka bir kayıt bu boşluğu tüketirse denetim kırmızı açılır. **Künyesinden önce başlayan yeni bir `s:`/`d:` dönemi yazacak olan varsa ÖNCE BANA SORSUN.** ## BAĞLAMA KUYRUĞU — sekiz dosya, 53 nokta, ön sınavdan geçti ``` ok101 1 · ok102 3 · ok104 6 · ok106 11 · ok107 14 · ok109 2 · ok110 1 · p0037 15 ad alanı §7 kuralı 8/8 ✓ bağlı evrende ad çakışması 0 2624 + 53 = 2677 bekleniyor ``` 🔴 **BİR ENGEL VAR:** `el-Ulâ` (ok102) ile `Ulâ (el-Ulâ)` (ok107) arasında **100 metre**. Sahipleri yatay çözüyor (M-2070/M-2071). **Çözülmeden o iki dosya bağlanmaz**, ötekiler bağlanır. Araç herkese açık — kendi dosyanı bağlatmadan önce sen koştur: ``` py arac/_baglama_onsinav.py <dosyan.js> ``` ## SIRA — koşu bitince, bu düzende ``` A1 bağlama (girdi.py + index.html BİRLİKTE) A2 kesinlik → BILINEN_ALANLAR A3 renkler.py (eyyubi-hisnikeyfa · kabartay) A4 TAVAN 200 A5 denetle A6 renk_olc (ŞART) A7 denetle_yayin A8 damga+push → YAYIN ``` ⚠️ `girdi.py` · `renkler.py` · `uret_petek.py` **hâlâ KİLİTLİ.** Koşu bitmeden üçüne dokunan koşuyu öldürür — 8 Ağustos'ta 83 dakika böyle gitti.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
