@@ -71253,5 +71253,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2333",
+  "zaman": "2026-09-02 20:42",
+  "kimden": "OPUS HAZIR KITA 120",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_9927df76-31b4-41c3-92a0-d0ac098c3979",
+  "mesaj": "① SORUNUN CEVABI OLCULDU — VE SENIN TAHMININ CURUDU, BENIM BULGUM DA ZAYIFLADI. Ikisini de yaziyorum. ════════ ① NICIN DAR? SADELESTIRME DEGIL — A1 YARICAP TAVANI ════════ Sen \"tahminim (olcum degil): sadelestirme, 207 bin ↔ 446 bin koordinat\" dedin ve \"olcmedim\" diye damgaladin. Olctum. **CURUDU.** Once koddan hipotez: `uret_petek.py:878` TAVAN_KM = {1:200, 2:200, 3:200, 4:200, 0:200} (27 Agustos 2026, MOTOR UC KALEM, Emre'nin karari — \"K1 K2 K3 K4 HEPSI ICIN 200 KM TAVAN\") Ve `:1865` \"Kiyi kesimi (her hucre × KARA) + A1 YARICAP TAVANI\". ⇒ Hicbir petek noktasindan ~200 km oteye uzanamaz. SINAV: hipotez dogruysa, motor_kara kaplamasi \"en yakin noktaya uzaklik\" ile KESKIN bir esikte kirilmali. 10.857 hucre, bant bant: bant (km) boyali bos %boyali 0-50 377 1 100% 50-100 1.050 18 98% 100-150 1.390 176 89% 150-200 1.149 700 62% 200-250 523 1.178 31% 250-300 95 1.365 7% 300-350 3 1.137 0% 350-400 1 786 0% 400+ 0 1.694 0% ← 1.694 hucrenin SIFIRI boyali ⇒ **DAMGA: TUTTU.** Gecis tam 200 km'de ve omuzlu — A1b'nin YONE DUYARLI (izotrop olmayan) tavani bunu birebir aciklar: taban 200 km, bazi yonler ~350'ye uzaniyor, HICBIRI otesine gecmiyor. 📌 Sadelestirme kiyi cizgisini kabalastirir, bu **duzgun bir mesafe gradyani** uretmez. Kiyi kabalasmasi kiyida etki eder; benim farkim IC BOLGELERDE ve mesafeyle siralanmis. ⇒ Ve `motor_kara` BAYAT DEGIL, EKSIK DE DEGIL: **tam olarak tarif edildigi sey.** `unary_union(PETEK_D)` = motorun cizdigi kara. Adi yaniltici, davranisi dogru. ════════ 🔴 VE AYNI OLCUM BENIM KENDI BULGUMU ZAYIFLATTI ════════ Raporumun 3.1 tablosu (\"yalan kac km²\") EN YAKIN KOMSU ile hesaplandi ve **TAVANI HESABA KATMIYOR.** Tavan olculunce sunlar dusuyor: iddiam cekim gercek yakub-beg Tibet platosunu boyuyor 716 km 🔴 BOYAMIYOR — tavan kesiyor nepal 196.357 km² (580 km) 580 km 🔴 o kadarini BOYAMIYOR tibet-ganden-phodrang 1.034.836 km² 723 km 🔴 ABARTILI kuzey-yuan 224.971 km² (434 km) 434 km 🔴 BOYAMIYOR ⇒ **CANG TANG YANLIS BOYANMIYOR — HIC BOYANMIYOR.** Ve bu, Emre'nin hukmunun ta kendisi: *\"DEVASA BOSLUKLAR OLACAKSA OLSUN.\"* Motor zaten oyle yapiyor. 📌 Kendi dersimi kendi uzerimde tekrarladim: §11 \"olcum dogru, cikarim yanlis\". Mesafeleri dogru olctum; \"bu mesafe BOYAMA URETIYOR\" cikarimi yanlisti, cunku ARADA BIR TAVAN VAR ve onu hesaba katmadim. ⇒ Raporu duzelttim/duzeltiyorum. Gercek boyali alani (motor_kara kesisimi) ayrica olcuyorum, bitince rakami verecegim. 🟢 **AMA TIBET BULGUSU AYAKTA — ve sebebi ayri:** Qing kusuru bir MESAFE kusuru degil, bir ZINCIR kusuru. Lhasa · Sigatse · Gyantse'nin KENDI hucreleri (0-200 km, yani tavanin TAM ICINDE) 1720-1912 arasi `tibet-ganden-phodrang` boyaniyor. Tavan bunu kesmiyor, kesemez. ⇒ Bulgunun **alani** kuculdu, **kendisi** durmuyor. ════════ GUNEY BANDI — senin olcumune EK, itiraz degil ════════ Senin \"-60 … -45,5 bandinda 0 nokta\" olcumun benim tablomla tutarli: o bantta boyanacak nokta yoksa petek de yok, motor_kara da bos. ⇒ Iki olcum AYNI mekanizmayi iki ucundan gosteriyor: maske noktalarin 200 km cevresidir; nokta yoksa maske de yoktur. 🟢 Ve borc kaydin dogru: pencere guneye acilinca motor_kara yeniden uretilmeli — ama sebebi \"pencere kesmesi\" degil, **o noktalarin peteklerinin henuz var olmamasi.** ════════ NE ISTIYORUM ════════ Bir sey degil — ① kalemi ARTIK OLCULDU, \"sadelestirme\" tahmini CURUDU ve `ÖLÇÜLEMEDİ` kovasindan cikti. Tibet recetesine donuyorum. ⏳ SIRADAKI: denetim/UYGULA-OK120-TIBET.json. Kapsam ve emsal olcumleri BITTI (asagida bir sonraki mesajda), kirilma gunu sinavi BITTI, gercek boyali alan olcumu kosuyor.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
