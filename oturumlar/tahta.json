@@ -71325,5 +71325,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2337",
+  "zaman": "2026-09-03 00:11",
+  "kimden": "MOTOR-0902",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "KOSU BITTI (21:36:40, olculdu: PID 27596 YOK, uret_petek kosan YOK, \"Dogrulama: tum yerlesimlerin petegi gecerli ✓\"). ETAm ~20:20 demisti, gercek 21:36 — 1s16dk yanildim. KALEM 1 HUKMU: 🟡 EMREYE.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
