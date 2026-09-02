@@ -64781,5 +64781,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2124",
+  "zaman": "2026-09-02 10:23",
+  "kimden": "1.MURAT",
+  "kime": "PAKET-0003-0006",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 EMRE KARAR VERDİ — HİMAYE KADEMESİ AÇILDI. Veri kolu sende. ## KARAR (Emre'nin kendi ifadesi, 2 Eylül) > *\"Himaye ince Osmanlı kırmızısı şerit ile o ülke topraklarını çevreleyen > bir yapı olarak görülsün, iç bölge ülkenin kendi rengi olacak.\"* > *\"Mohaç sonrası Macaristan himaye olsun.\"* Şema yazıldı (`VERI-YAPISI.md`, commit `39278dd`): yeni bir üst alan **değil**, var olan `v:` döneminin içine bir boole — ```js v:[{ f:\"…\", t:\"…\", k:\"Macaristan (Zapolya vasal krallığı)\", himaye:true }] ``` `himaye` yoksa bugünkü davranış; **155 kayıt değişmiyor.** ## 🔴 İŞ — VE ASIL KISMI İŞARETLEME DEĞİL, ÖLÇME `\"Macaristan (Zapolya vasal krallığı)\"` etiketiyle veride **5 kayıt** var. Ama işaretlemeden önce cevaplanması gereken soru şu — ve paket maddesi (`0019/H-0061`) bunu açıkça *\"ÖLÇMEDİM\"* diye bırakmış: ``` 1526-1541 arası Macaristan'ın HANGİ KISMI ne? doğrudan Osmanlı (`d:`) — Mohaç'tan sonra fiilen alınan yerler Zapolya himayesi (`v:` + himaye:true) Habsburg (Kraliyet Macaristanı, `s:`) ``` ⇒ **Üç bölge var ve sınırları ölçülmemiş.** Beş kaydın beşi de doğru kovada mı, yoksa bazıları Habsburg tarafında mı kalıyor? **ADIMLAR:** ``` ① SAY o pencerede Macaristan kutusundaki TÜM yerleşimleri çıkar (bugün hangisi `d:` · hangisi `v:` · hangisi `s:`) ② KAYNAK TDV `macaristan` · `mohac-savasi` · `zapolya` (varsa) — gövdeleri OKU, üç bölgenin sınırını kaynaktan çıkar 🔴 slug ölü çıkarsa kapsayıcı maddeyi dene (`§4`, yedi vaka) ③ AYIR beş Zapolya kaydını doğrula; yanlış kovada olan varsa BİLDİR, DÜZELTME — sahiplik değişikliği ayrı bir karar ④ YAZ doğrulanan kayıtlara `himaye:true` — KENDİ ad alanında: `data/yer_yama_himaye_<senin-ekin>.js` ⚠️ `yerlesimler*.js`e DOKUNMA, yama olarak yaz ``` ## ⚠️ İKİ SINIR — ikisi de kapsam ``` 🔴 YALNIZ MACARİSTAN. Emre yalnız Mohaç sonrası Macaristan'a karar verdi. Eflak · Boğdan · Erdel · Kırım · Mekke Şerifliği · Cezayir Ocaklığı — bunların da himaye sayılıp sayılmayacağı SORULMADI. ⇒ Onlara DOKUNMA. Ama aday gördüklerini AYRI BİR LİSTEYE yaz; Emre'ye toplu soracağım. Liste bir öneri değil bir ENVANTER olsun. 🔴 SAHİPLİK DEĞİŞTİRME. Bu iş bir KADEME işaretlemesi — kimin toprağı olduğu değişmiyor, nasıl ÇİZİLDİĞİ değişiyor. Bir kaydın yanlış kovada olduğunu ölçersen BİLDİR, düzeltme. ``` ## 📌 VE BİR UYARI — bu gece pahalı öğrenildi `k:` etiketi **serbest metin** ve 33 ayrık değeri var. `\"Macaristan (Zapolya vasal krallığı)\"` diye ararken **birebir dizgi eşleşmesine güvenme** — yazım varyantı olabilir. Normalleştirici kullan. Bu gece altı mükerrer nokta tam bu yüzden yazılmak üzereydi (`Buda` atlasta `Budin`di, `Skopje` `Üsküp`tü) ve ilk yanılan bendim. ## SIRA Motor tarafı (`uret_petek.py` himaye hücrelerini ayrı katmana çıkarsın) **bende** ve koşu bitince yapılacak. Arayüz tarafı (şerit çizimi) ARAYÜZ kuyruğuna giriyor. Senin kolun **veri** — ve o üçünün ilki. Koşu `kırılma 400/532 · %76 · ~25 dk`.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
