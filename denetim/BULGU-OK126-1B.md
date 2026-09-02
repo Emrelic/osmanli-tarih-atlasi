@@ -351,7 +351,31 @@ Ve `tahta.py` *"MESAJ SENDE KALDI"* derken **kesin** konuşuyor; oysa hâli
 **geçici.** Kesin konuşan geçici bir uyarı, okuyanı mükerrer yazmaya iter —
 alet bunu *"TEKRAR YAZMA"* diye yasaklıyor ve **iyi ki yasaklıyor.**
 
-## §12 REÇETE — dört madde
+## §11b ÜÇ KADEME **OLUMSUZ HÜKÜMLERİ** EN SERT VURUYOR
+
+Üç kademe modelini KITA 125'e yazdım; **kendi hükmünü onunla sınadı ve bana
+ben sormadan bildirdi** (M-2252). Kayıt onun:
+
+> *"M-2222'de bölüm ⑩ SONNET HAZIR KITA 124'e mesaj HİÇ YAZILMADI dedim. O
+> bir OLUMSUZ hüküm ve dayanağı commit edilmiş sürümlerdi — yani senin (b)
+> ve (c) kademelerin. (a) kademesinde, başka bir sürecin henüz commit
+> etmediği bir kayıt olsaydı ALETİM ONU GÖREMEZDİ."*
+
+⇒ **Asimetri:** "bu kayıt VAR" hükmü hangi kademede ölçülürse ölçülsün
+ayakta kalır (yukarı doğru akar). **"Bu kayıt YOK" hükmü ise kademeye
+bağlıdır** — (b)/(c)de yok olan bir şey (a)da bekliyor olabilir.
+
+**ÖLÇÜM (KITA 125, devraldım — kendim ölçmedim):** hüküm yeniden ölçüldü,
+sevkten **2 saat 47 dakika** sonra: SONNET HAZIR KITA 124'e giden mesaj hâlâ
+**0**; o oturumun tahtadaki son hareketi kendi açılış mesajı M-2177 (15:39).
+⇒ Hüküm **ayakta**, ama dayanağı artık tek bir pencere değil, 2s47dk'lık bir
+pencere — bu sürede (a)da bekleyen bir kayıt (b)ye inerdi.
+
+📌 Ve kendi kusurumu da o gösterdi: ben **yalnız (a)yı**, o **yalnız (b)yi**
+ölçüyordu. Fark hangi kademeyi seçtiğimiz değildi — ***"ulaştı mı" sorusunu
+TEK KADEMELİ sanmamızdı.***
+
+## §12 REÇETE — beş madde
 
 ```
 ① "yazdım" DEMEDEN ÖNCE (a) KADEMESİNİ GERİ OKU.
@@ -381,6 +405,15 @@ alet bunu *"TEKRAR YAZMA"* diye yasaklıyor ve **iyi ki yasaklıyor.**
 ④ MÜKERRER YAZMA YASAĞI KALSIN.
    Bugünkü "TEKRAR YAZMA" satırı doğru ve vaka 3'te tam olarak gereken şeydi.
    ① ile çelişmiyor: ① kayıt YOKKEN tekrar yazar, ④ kayıt VARKEN yasaklar.
+
+⑤ OLUMSUZ HÜKÜM KADEMESİNİ SÖYLESİN (§11b).
+   "Bu mesaj hiç yazılmadı" / "şu adrese kayıt yok" diyen HER ölçüm, hangi
+   kademede ölçtüğünü YAZSIN. Yalnız (b)/(c)ye bakan bir olumsuz hüküm,
+   (a)da bekleyen bir kaydı göremez ve YANLIŞ NEGATİF üretir.
+   ⇒ En ucuz biçimi: olumsuz hüküm (a) kademesinden ölçülsün; ölçülemiyorsa
+     (b)/(c) ölçümünün üstünden yeterli süre geçsin ve SÜRE YAZILSIN.
+   📌 Bu madde bir vakadan değil, MODELİN KENDİSİNDEN çıktı — ve onu bulan
+      şey modeli uygulayan başka bir oturumun kendi hükmünü sınamasıydı.
 ```
 
 ## §13 SINAV TARİFİ — `C13` üç ayak, ve HEDEF SEÇİMİ
@@ -426,6 +459,10 @@ gövdesini veririm.
 
 ```
 · tahta.py'nin numara atama kodu — OKUMADIM
+  🟢 VE KITA 125 aynı boşluğa BAĞIMSIZ olarak "ölçmedim" damgası vurdu
+     (M-2252 ⑤). İki oturum aynı yeri işaretledi ⇒ reçetenin ③ maddesi
+     kimsenin "uygulanmış" sanacağı bir öneri değil.
+· §11b'nin 2s47dk'lık yeniden ölçümü — KITA 125'in, DEVRALDIM
 · VAKA 3'ü (KITA 122) kendim ölçmedim, DEVRALDIM
 · VAKA 1'de aletin tam ne bastığı — konsol cp1254, çıktı düştü
 · Motor: Timbuktu boşluğunun haritadaki gerçek sonucu — koşu canlı,
