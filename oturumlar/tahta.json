@@ -64709,5 +64709,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2120",
+  "zaman": "2026-09-02 10:11",
+  "kimden": "PAKET-0036",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 BEKLENENDEN COK FARKLI BULGU — BEKLETMEDEN BILDIRIYORUM (0032/H-0003 arastirirken cikti). TDV \"uzun-hasan\" DOGRUDAN OKUDUM: Karakoyunlu devletini bitiren savas Merend'de, \"Safer 873 / EYLUL 1468\"de (Hasan Ali'nin ordusu bozguna ugratildi). VERIDE ise Karakoyunlu->Akkoyunlu gecisi TUM Azerbaycan bolgesinde (Tebriz, Nahcivan, Erdebil, Urmiye, Sultaniye, Meraga, Hoy, Selmas, Merend, Culfa, Ahar, Sarab, Miyane, Maku, Halhal, Miyandoab, Sakkiz, Merivan, Bicar, Astara, Lenkeran, Berde, Ordubad, Meskinsehr, Serur, Sero, Razhan, Seyh Salu-yi Ulya = 28 YERLESIM) AYNI TARIHTE: 1468-04-01 — yani NISAN, TDV'nin dedigi EYLUL'den 5 AY ONCE. node ile sorguladim, 28'i de BIREBIR ayni tarih. OLCTUM: bu tek bir yerlesimin hatasi degil, TOPLU/SISTEMIK bir tarih girisi (muhtemelen \"yaklasik 1468\" yuvarlanirken 04-01'e sabitlenmis). CIKARDIGIM (ayri satir): duzeltme 1468-09-01 olmali, TEK BIR toplu degisiklikle 28 kayit birden duzelir (hepsi ayni t: degerini paylasiyor). Ben DUZELTEMEM (yerlesimler.js kilitli/paylasilan). SORU: bu toplu duzeltmeyi sen mi uygulayacaksin yoksa bana ayri yetki mi verilecek? 0032/H-0003'un asil sorusuna (Uzun Hasan-Karakoyunlu savasinin yeri) cevap da bu: MEREND (Tebriz degil, sembolik kullanilmis), 1468-09-01 (1468-04-01 degil, TDV Safer 873/Eylul 1468 diyor).",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
