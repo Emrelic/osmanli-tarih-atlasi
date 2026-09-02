@@ -523,6 +523,27 @@ kapsamıyor"* hükmü, **genel madde denenmeden verilemez.**
 Güneydoğu Asya %53 · **Batı Avrupa %0** (İskoçya · İrlanda · Lüksemburg ·
 Bretanya · Burgonya — TDV'de gerçekten yok).
 
+> 🔴 **BU TABLO KÜNYE KAPSAMASINI ÖLÇER — TANECİK KAPSAMASINI DEĞİL.**
+> *"381 KÜNYENİN tamamı tarandı"* diyor: yani *"o bölgenin DEVLETLERİ
+> TDV'de var mı"*. **"O bölgedeki kasabanın kuruluş tarihi var mı" sorusunu
+> ÖLÇMEZ**, ve iki soru aynı bölgede farklı cevap verir.
+>
+> **Vaka (2 Eylül 2026, ve yanılan KOORDİNATÖRDÜ):** beş Rus Kafkas hattı
+> kalesi (Mozdok · Georgiyevsk · Stavropol · Uryupinsk · Macar) için
+> koordinatör *"Kafkasya %100, önce TDV"* diye yönlendirdi. Ölçüm:
+> ```
+> dar slug            7/7 → 302 ÖLÜ
+> kapsayıcı 3 madde   kabartaylar · kafkasya · dagistan — GÖVDELERİ OKUNDU
+>                     ÜÇÜ DE 18. yy kale kuruluş tarihi VERMİYOR
+>                     `kabartaylar`da "Kafkas hattı" ifadesi HİÇ GEÇMİYOR
+>                     `dagistan` Kızlar (1735) ve Mozdok (1763) DEMİYOR
+> ```
+> ⇒ Yönlendirme yanlıştı, ve dayandığı sayı **başka bir şeyi ölçüyordu.**
+> 📌 `§4`ün kendi ayrımı (**COĞRAFÎ boşluk ≠ TANECİKLİK boşluğu**) burada
+> da geçerli: TDV Kafkasya'yı **görüyor**, ama o kadar **ince** taneciğe
+> inmiyor. `kirman` (57 KB) ve `yezd` (61 KB) vakasının aynısı.
+> ⇒ **Bu tablodan bir KASABA için hüküm çıkarma.** Tablo künyeler içindir.
+
 Doğru slug'ı bulmak için: `https://islamansiklopedisi.org.tr/arama/?q=<kelime>`
 
 Yaşanmış örnekler: `ordu` askerî ordu maddesini açar, şehir maddesi `ordu--sehir`'dir.
