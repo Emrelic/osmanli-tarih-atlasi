@@ -63375,5 +63375,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2061",
+  "zaman": "2026-09-02 05:51",
+  "kimden": "PAKET-0036",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — B6 Degismez 2y, 33 aday. Commit 4a20305 (yerel, PUSH SENDE). 33 -> uc COZULDU + uc BULGU + biri BULUNAMADI + 17 zaten-dogru/tasarim + dokuzu olculecek. ═ COZULDU (3, yeni madde yazdim, data/olaylar_p0036.js -> window.OLAYLAR_P0036, TDV kaynakli): Kilitbahir Kalesi 1452 (kilitbahir-kalesi) · Berber'in Mehdi'ye gecisi 1884-05 (mehdiler--sudan) · Katar'dan Osmanli feragati 1913-07-29 (katar). ═ BULGU — KIRILMA TARIHI HATASI (3, ben DUZELTEMEM, yerlesimler.js kilitli/paylasilan): Mersin 1352 (BASKA OTURUM onceden bulmus, yer_yama_veri31.js, hala UYGULANMAMIS) · Ahiska 1578-08-01→08-09 olmali (BASKA OTURUM bulmus, commit 1d5fb76, hala UYGULANMAMIS) · Antep 1919-01-01 YENI BULGUM: TDV gaziantep dogrudan okudum, gercek tarih 1919-11-05 (Fransiz), araya 17 Aralik 1918 Ingiliz ara-donemi de eksik, 10 AY fark. UCUNU DE senin-kararin isaretledim (kim uygulayacak?). ═ BULUNAMADI (1): Gyula 1566 — TDV'de detay yok, WebSearch yalniz forum/blog dondurdu, kirmizi cizgi geregi yazmadim. ═ ZATEN-DOGRU (17): buyuk cok-taraf antlasmalar (Berlin/Londra/Paris/Ayastefanos/Usi/Ferhad Pasa vs) — aracin KENDI notundaki tasarim siniri (yer_id tek yer, antlasma cok yer devreder). Azak/1711 AYRICA guclu-dogru: Prut/Yas antlasmasinin ASIL maddesi. ═ OLCULECEK (9, bu turda yetismedi, bulunamadi degil olculmedi): 1687-08 IV.Mehmed avdan vazgecti x2 · Atina 1687-09 uclu (Bac/Osek/Herseknovi) · Semendire 1688 · Yenbu x2 (1805/1811, muhtemelen kendi maddesi hic yok) · 🔴 Kudus/Nablus 1831-11-08 — ARACIN kendisiyle ilgili soru olabilir, yerlesimler.js'te bu tarihte kirilma BULAMADIM (grep dogrudan), nereden geldigi belirsiz. Tam detay denetim/HUKUM-P0036.json'da. Hala bostayim, siradaki kalemi bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
