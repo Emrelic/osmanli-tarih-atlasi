@@ -5240,6 +5240,23 @@ window.DEVLETLER = [
   kaynak:"Standart akademik — Encyclopaedia Britannica \"Panama City\" md.: \"In 1903 independence from Colombia was declared there.\" 3 Kasım 1903 ayrılığın genel kabul gören günüdür. TDV `amerika` md. Panama kıstağını yalnız keşif bağlamında anıyor, cumhuriyeti KAPSAMIYOR (§4 tanecik boşluğu).",
   kronoloji:[]
 },
+// 🔴 VE BU KÜNYE, YAZANIN KENDİ ÖNERİSİNİ ÇÜRÜTEREK GELDİ — 2 Eylül 2026.
+//   İlk öneri `1232 → 1517-05-01`di. Koordinatör *"`§3.5.1`: devletin
+//   yıkılışı ≠ o yerin fethi — ÖLÇ"* dedi; oturum TDV gövdesini okudu:
+//     "Hısnıkeyfâ kolu ise 1462'de Akkoyunlular'dan Uzun Hasan
+//      tarafından ORTADAN KALDIRILDI."
+//   ⇒ Doğru bitiş 1462. 1517'de olan şey hânedanın sürmesi değil,
+//     Melik Halîl'in Osmanlı desteğiyle idareye getirilmesi — TAYİN,
+//     devam DEĞİL. Ölçülmeseydi 55 YILLIK hayalet künye yazılacaktı.
+// 🟢 Ve aynı ölçüm bir ÇIKARIMI KAYNAĞA BAĞLADI: 1462 ilk turda Siirt'ten
+//   türetilmiş ve *"bu bir HİZALAMADIR, kaynak değil"* diye kaydedilmişti;
+//   TDV o günü şimdi Hasankeyf için ADIYLA veriyor. Çıkarım → kaynak.
+{ id:"eyyubi-hisnikeyfa", ad:"Hısnıkeyfâ Eyyûbîleri", tur:"beylik", bolge:"anadolu",
+  f:"1232-01-01", t:"1462-01-01", baskent:"Hısnıkeyfâ (Hasankeyf)",
+  ozet:"Eyyûbî hânedanının Yukarı Dicle'deki kolu. el-Melikü'l-Kâmil 1232'de Hısnıkeyfâ'yı Artuklular'dan alıp oğlu el-Melikü's-Sâlih'e bıraktı; Mısır ve Suriye kolları söndükten sonra hânedanın Hama ile birlikte ayakta kalan iki beyliğinden biri oldu. Moğol ve Timurlu devirlerini atlatan kol, Akkoyunlu Uzun Hasan tarafından 1462'de ortadan kaldırıldı. Künyenin İKİ UCU DA GERÇEK uçtur — atlas ufku değil.",
+  kaynak:"TDV `eyyubiler` md. (gövdesi okundu): \"el-Melikü'l-Kâmil 630 (1232) yılında Güneydoğu Anadolu'da idarî düzenlemelere girişti. Önce Âmid'i, daha sonra Hısnıkeyfâ'yı zaptederek Artuklular'ın Hısnıkeyfâ koluna son verdi.\" · \"Eyyûbîler'in elinde sadece Hama ve Hısnıkeyfâ beylikleri kaldı.\" · \"Hısnıkeyfâ kolu ise 1462'de Akkoyunlular'dan Uzun Hasan tarafından ortadan kaldırıldı.\" Ek: TDV `hasankeyf` md. aynı olayı 629/1232 diye verir (iki madde hicrî yılda 629/630 AYRIŞIYOR, milâdî 1232'de UYUŞUYOR — kaynağın kendi içindeki ayrışma gizlenmiyor); gün düzeyi kesinlik YOK ⇒ YYYY-01-01. Slug notu: `eyyubi` · `hisnikeyfa-eyyubileri` · `melik-halil` ÜÇÜ DE 302 ÖLÜ; `hisnikeyfa` 200 döner ama gövdesi boilerplate (§4 tuzak ④). Canlı olanlar: `eyyubiler` ve `hasankeyf`.",
+  kronoloji:[]
+},
 { id:"tui-tonga-imparatorlugu", ad:"Tuʻi Tonga İmparatorluğu", tur:"imparatorluk", bolge:"okyanusya",
   f:"1220-01-01", t:"1845-12-04", baskent:"Muʻa (Lapaha)",
   ozet:"Pasifik'in en geniş deniz imparatorluğu — Tuʻi Tonga hanedan çizgisi geleneksel olarak ~950'ye dayanır, zirvesi 1200-1500 arasıdır. Künyenin bitişi [[tonga-kralligi]]'nin başlangıcıyla BİREBİR hizalıdır (4 Aralık 1845): ikisi aynı gövde DEĞİLDİR, modern krallık Tuʻi Tonga'nın devamı değil onu siyasî olarak yeniden kuran olaydan doğar; devir boşluksuzdur.",
