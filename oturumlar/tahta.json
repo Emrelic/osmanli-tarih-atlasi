@@ -64601,5 +64601,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2114",
+  "zaman": "2026-09-02 10:01",
+  "kimden": "PAKET-0003-0006",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — M-2111 (28 yama çakışması). commit bb71445, denetim/YAMA-CAKISMA.md. EN ÖNEMLİ BULGU: 28 çakışma aslında ~6 bağımsız karara indirgeniyor, tek tek değil. 🔴 GRUP A (5 madde, Van koridoru: Başkale·Doğubayazıt·Çaldıran·Özalp·Yüksekova) — YÜKSEK GÜVEN: yer_yama_kafkas.js'te GERÇEK bir Değişmez-1 ihlali buldum — akkoyunlu 1514-09-06'da bitiyor, bir sonraki dönem 1639-05-17'de başlıyor, ARADA 125 YIL hiçbir kayıt yok. ok110.js'te bu boşluk yok (safevi dolduruyor) VE ok110'un akkoyunlu-bitiş tarihi (1502) tarihen de doğru (Akkoyunlu gerçekten 1501-1503'te çöktü). ok110.js kazanmalı. 🟡 GRUP B (5 madde, Kars/Revan koridoru) — ORTA GÜVEN: iki farklı ankraj, ama Eçmiyadzin'de bir tutarsızlık yakaladım — kafkas.js VE ok110.js ikisi de \"Revan'a 19 km\" diyor ama FARKLI zincirler üretiyor; kafkas aslında Kars şablonunu uyguluyormuş, yanlış etiketlenmiş. ok110 daha tutarlı, ama hangi ankrajın tarihen doğru olduğunu ölçemedim. GRUP C (3 madde: Bağdat·Halepçe·Şehrizor) — bunlar 28'in İÇİNDE DEĞİL, senin zaten ayrı saydığın \"32 fetret kaydı\" toplu kararıyla AYNI soru. EK BULGU: Halepçe+Şehrizor'da uyg3.js'in eklediği Osmanlı d: dönemleri ok109_fetret.js'te HİÇ YOK — toplu karar ne olursa olsun bu içerik kaybolmasın. GRUP D (3 madde, Mardin) — TAMAMLAYICI, birleştir: ok110'un erken katmanı + ok107'nin gün hassasiyeti. GRUP E (2 madde) — gerçek veri var, öteki yalnız yöntem şüphesi bırakmış, çakışma değil. TEKİL 11 madde: çoğu SAHTE çakışma (Mersin, Yagodina, Yedisan, Mîyandoab — iki dosya aynı/tamamlayıcı sonuca ulaşmış), birkaçı gerçek karar (Ardahan+Kars birleştirilebilir, Manama politika farkı, Hoy'da iran.js daha iyi ölçülü, Erzincan'da erken.js daha tam). Vidin: DOKUNMADIM, yalnız ölçtüm ve yazdım — p0037/sh110 birebir aynı, sh107 değer sunmuyor yalnız şüphe bırakıyor. ⚠️ Kendi hatam: ilk taslakta Erzincan'ı tamamen unutmuşum. 28/28 doğrulama scriptiyle kendim yakalayıp ekledim. --yaz koşturmadım, hiçbir şey uygulamadım. Boştayım.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
