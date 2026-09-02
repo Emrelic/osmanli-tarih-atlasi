@@ -99,17 +99,33 @@ window.YERLESIMLER_OK107 = [
   //   "Melik Halîl … Mısır seferi sırasında (1517) Mardin'in fethinin
   //    ardından Osmanlılar'ın desteğiyle Hasankeyf'i ele geçirdi. Şehrin
   //    idaresi ona bırakıldı ve böylece burada Osmanlı dönemi başladı."
-  // 🔴 1281-1462 BİLEREK BOŞ ve BU BÜYÜK BİR DELİK (181 yıl): Hasankeyf
-  //   Eyyûbîleri'nin künyesi YOK (`eyyubi` diye bir kayıt aradım, YOK).
-  //   ⚠️ KOORDİNATÖRE: bu tek kayıt, bugün komşularının boyadığı bir alanda
-  //   YENİ BİR DELİK açar. `eyyubi` künyesi yazılana kadar bu kaydı
-  //   dosyadan çıkarmak tek satırlık iştir; kararı sana bırakıyorum.
-  s:[{f:"1462-01-01",t:"1507-01-01",d:"akkoyunlu"},
+  // 🟢 181 YILLIK DELİK KAPANDI — 2 Eylül 2026, ve onu kapatan şey bir
+  //   VARSAYIM DEĞİL, TDV'nin İKİNCİ bir maddesi oldu.
+  //   İlk yazışımda 1281-1462 arası `bos:"veri-yok" · neden:"kunye-yok"`
+  //   idi, çünkü Hısnıkeyfâ Eyyûbîleri'nin künyesi yoktu. Künye istenince
+  //   TDV `eyyubiler` maddesi okundu ve ARANAN İKİ UCU DA VERDİ:
+  //     "el-Melikü'l-Kâmil 630 (1232) yılında … Önce Âmid'i, daha sonra
+  //      Hısnıkeyfâ'yı zaptederek Artuklular'ın Hısnıkeyfâ koluna son verdi."
+  //     "Hısnıkeyfâ kolu ise 1462'de Akkoyunlular'dan Uzun Hasan tarafından
+  //      ORTADAN KALDIRILDI."
+  //   🔴 VE BU, İLK TURDA ÇIKARIM OLAN 1462'Yİ KAYNAĞA BAĞLADI: o günü
+  //     Siirt'in Akkoyunlu yılından TÜRETMİŞTİM ("iki şehir 60 km"), şimdi
+  //     TDV onu Hasankeyf için ADIYLA söylüyor. Çıkarım → kaynak.
+  s:[{f:"1281-01-01",t:"1462-01-01",d:"eyyubi-hisnikeyfa"},
+     {f:"1462-01-01",t:"1507-01-01",d:"akkoyunlu"},
      {f:"1507-01-01",t:"1517-05-01",d:"safevi"}],
   d:[{f:"1517-05-01",t:"1923-10-29"}],
   v:[], kaynak:"hasankeyf",
-  bos:"veri-yok",
-  neden:"kunye-yok — 1281-01-01 / 1462-01-01 arasi (181 yil) BILEREK bos. TDV hasankeyf maddesi bu araligi ACIKCA anlatiyor: 1232'den itibaren Hasankeyf EYYUBI melikleri sehri yonetiyor ve Karakoyunlu/Akkoyunlu'ya zaman zaman baglanarak varliklarini surduruyorlar. Yani kaynak KONUSUYOR; devletler.js'te `eyyubi` kunyesi YOK. 1462 gunu Siirt'in TDV'de verilen Akkoyunlu yilindan alindi (iki sehir 60 km); Uzun Hasan'in Hasankeyf'i zapt gunu TDV'de YOK. KUNYE ONERISI raporda."
+  // ⚠️ 1517-05-01 BİR TABANDIR, ÖLÇÜLMÜŞ GÜN DEĞİL — açıkça yazıyorum.
+  //   TDV hasankeyf: "Mısır seferi sırasında (1517) MARDİN'İN FETHİNİN
+  //   ARDINDAN Osmanlılar'ın desteğiyle Hasankeyf'i ele geçirdi." Yani
+  //   gerçek gün 1517-05-01'den SONRA, ama TDV günü VERMİYOR.
+  //   Külliyatta 1517-05-01'den sonraki günler ölçüldü: 05-19 İskenderiye ·
+  //   07-06 Hicaz · 07-12 Medine · 08-28 ve 09-10/11 Kahire. HİÇBİRİ
+  //   Diyarbekir'le ilgili değil ⇒ birini seçmek, H-0015'te teşhis ettiğim
+  //   "değişim ALÂKASIZ bir maddenin altında belirir" kusurunu ÜRETİRDİ.
+  //   Uydurmak da `§4` yasağı. ⇒ Bölgenin kendi belgeli günü (Mardin
+  //   kalesinin teslimi) tutuldu ve sınırı BURAYA yazıldı.
 },
 
 { ad:"Midyat", tur:"kasaba", lat:37.418, lon:41.372, k:4, m:"Mardin",
