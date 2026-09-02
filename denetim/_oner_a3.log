@@ -1,0 +1,48 @@
+  UYARI su: 1 devlet rengi SU RENGINE cok yakin (esik DE 18)
+    DE  17.9  novgorod                     #84c9cf   <- kiyisi olan govde suya karisir
+  RENK acikma: 17 kimlik ACIKLIK_TABANI_L=59'a cekildi (hex DEGISTI, ton/doygunluk AYNI):
+    L*=55.9  bizans                       #0f0f5d -> #281e6f
+    L*=56.7  inancogullari                #3f0c12 -> #4f1a1f
+    L*=57.0  moskova                      #0f0f9c -> #2419a6
+    L*=57.5  kutai                        #4b0f15 -> #55191d
+    L*=57.5  kert                         #0808f0 -> #1b0ff4
+    L*=57.6  cunagadh                     #3c1515 -> #451d1c
+    L*=57.6  astarhan                     #421212 -> #4c1b1a
+    L*=57.6  savoya                       #12129f -> #2119a6
+    L*=57.7  afgan-durrani                #3c1239 -> #451b41
+    L*=58.1  gova-makassar                #281098 -> #30169d
+    L*=58.1  san-fan                      #4e1218 -> #55191d
+    L*=58.3  laos-kralliklari             #421539 -> #46193d
+    L*=58.3  bhopal                       #451539 -> #49193c
+    L*=58.4  litvanya-buyuk-dukalik       #060cff -> #1310ff
+    L*=58.4  bonacolsi                    #421542 -> #461945
+    L*=58.8  kandy                        #600f3c -> #60103c
+    L*=59.0  nebhani                      #60121b -> #61131b
+  RENK acikma IKINCI GECIS (2 kimlik) - saf L-lift komsuya cok yaklastiriyordu, ton acisi da kaydirildi (ORHANGAZI M-1848):
+    L*=55.1  fransa-cumhuriyet            #09095a -> #00297c  (<-ingiltere DE=18.5)
+    L*=57.8  ferrara                      #300c93 -> #7a005c  (<-mantua DE=19.6)
+  UYARI aciklik tavani: 2 kimlik ALTLIKTAN yeterince ayrismiyor (esik DE 15) - zemine karisip GORUNMEZ olabilir:
+    DE  14.9  le-hanedani                  #9ceded   <- kroma artirilarak duzeltilmeli
+    DE  15.0  ispanya                      #d59f63   <- kroma artirilarak duzeltilmeli
+  UYARI alan: 'baskent' BILINEN_ALANLAR'da yok — 1 kayıtta (yerlesimler_amerika2.js:Comanchería (Güney Büyük Ovalar)). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
+  UYARI alan: 'pencere_disi' BILINEN_ALANLAR'da yok — 2 kayıtta (yerlesimler_4ff22b.js:Antananarivo, yerlesimler_4ff22b.js:Honolulu). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
+  UYARI alan: 'sinir' BILINEN_ALANLAR'da yok — 6 kayıtta (yerlesimler_sinir_dogu.js:Bacirge (Esendere), yerlesimler_sinir_dogu.js:Sero, yerlesimler_sinir_dogu.js:Şemdinli (Şemdinni)…). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
+canlı veri 2624 nokta · istenen 2 yeni kimlik
+  🔴 komşusu ölçülemeyen kimlik: eyyubi-hisnikeyfa, kabartay
+     (verisi girdi.py'nin okuduğu dosyalarda DEĞİL —
+      öneri yalnız altlık ve Osmanlı ikilisine dayanır)
+  eyyubi-hisnikeyfa          0 komşu,   2 renkli engel
+  kabartay                   0 komşu,   2 renkli engel
+
+  yeniler arası komşuluk: 0 çift
+  altlıktan ayrışan aday: 73455
+
+========================================================================
+ÖNERİ
+========================================================================
+  eyyubi-hisnikeyfa        #2424d2  L* 61.2 ton 296.6°  en yakın engel ΔE 46.2
+  kabartay                 #242ad2  L* 61.8 ton 295.1°  en yakın engel ΔE 45.7
+
+  📌 Bu liste ONAY İSTER. Araç 'meşru' der, 'güzel' demez.
+  artefakt: C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ\denetim\oneri-20260902-083909.txt
+  aktarımdan sonra: py arac/renk_olc.py --dogrula denetim/oneri-20260902-083909.txt
