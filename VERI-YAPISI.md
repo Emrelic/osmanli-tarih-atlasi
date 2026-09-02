@@ -264,6 +264,31 @@ renginden bu yolla mahrumdu. Düzeltildi.
 harita:"avusturya",   // uret_petek.py BOYALAR karşılığı; yoksa alan hiç yazılmaz
 ```
 
+### 🆕 `kesinlik:` İKİ BİÇİM ALIR *(karar: 1.MURAT, 2 Eylül 2026)*
+
+```js
+kesinlik:"ay"                    // SKALER — kaydın tamamı için geçerli
+kesinlik:{ f:"gun", t:"ay" }     // NESNE  — dönemin UÇLARI ayrı hassasiyette
+```
+Değerler değişmedi: `gun · ay · yil · onyil · yuzyil · belirsiz`.
+
+🔴 **Niçin gerekti** — PAKET-0037'nin ölçtüğü vaka (Vidin): *"bir dönemin
+iki ucu farklı hassasiyette olabiliyor, tek alan yetmiyor."* Vidin'in
+Avusturya dönemi **Ekim 1689'da** başlıyor (TDV ay veriyor, gün vermiyor)
+ama **1690-09-09'da** biterken gün belli.
+
+**KURALLAR**
+```
+① SKALER VARSAYILAN. Uçlar aynı hassasiyetteyse nesne YAZILMAZ —
+   gereksiz yapı veriyi okunmaz yapar.
+② NESNE yalnız uçlar AYRIŞTIĞINDA, ve ayrıştığı `kaynak:`ta belli olsun.
+③ 🔴 OKUYUCU HER İKİ BİÇİMİ DE KABUL ETMELİ.
+   Tek biçim varsayan bir ayrıştırıcı ötekini **sessizce atlar** — ve bu
+   projede tam bu desen ısırdı: `§7` *"app.js süzgeci ada değil BİÇİME
+   bağlıydı — yeni yamaların biçimi tanınmadı, İKİSİ DE ELENDİ."*
+   ⇒ ③ bir öneri değil ŞART.
+```
+
 ### 🆕 `bk:` — ZAMANLI BAŞKENT *(karar: 1.MURAT, 2 Eylül 2026)*
 
 ```js
