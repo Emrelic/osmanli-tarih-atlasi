@@ -2233,3 +2233,62 @@ Notlar:
   🟢 Çare bir denetim değil bir **cümle**: rapora *"ölçtüğüm şu, bundan
   çıkardığım şu"* diye **iki ayrı satır** yazmak. Tek satırda birleşince
   çıkarım, ölçümün güvenilirliğini **ödünç alıyor.**
+
+- 🔴 **BİR DEFTERİN ANAHTARI KARARSIZSA, DEFTER SESSİZCE YALAN SÖYLER —
+  ve yalanı "gerileme" gibi görünür.** *(2 Eylül 2026 — bir gecede ÜÇ
+  defterde ölçüldü)*
+
+  Defter, *"hangi şüpheli YENİ doğdu"* sorusunu cevaplayan kümedir. Kayıtlar
+  bir **anahtarla** kimliklenir. Anahtar, **bulgu değişmeden** değişebiliyorsa
+  aynı kayıt bir KAPANAN + bir YENİ olarak görünür — ve okuyan bunu *"bir
+  şey düzeldi, bir şey bozuldu"* diye okur. **Hiçbiri olmamıştır.**
+```
+§A  anahtar "tarih|kırılan İLK yer"   o güne yeni yerleşim eklenince
+                                      alfabetik ilk sıra KAYIYOR
+    ⇒ "45 YENİ"nin 18'i SAHTE — gerileme adayı listesinin %40'ı gürültü
+§B  anahtar "tarih|yer:"              maddenin `t:` alanı AYdan GÜNe inince
+                                      anahtar değişiyor
+    ⇒ `1783-04|Kırım` → `1783-04-19|Kırım` : AYNI SATIR, iki kayıt gibi
+§C  defteri YOKTU                     açılırken anahtar ÖNCE ÖLÇÜLDÜ:
+                                      `tarih` tek başına 1 ÇAKIŞMA verdi
+                                      ⇒ `tarih|yer_id` seçildi, çakışma 0
+```
+  ⇒ **KURAL (bulan oturumun kendi cümlesi):** *"Anahtar, DEĞİŞMESİ BULGUYU
+  DEĞİŞTİREN şeylere dayanmalı."* `ilk yer` bulgu değişmeden değişir
+  (gürültü); `yer_id` değişirse **maddenin gösterdiği yer** değişir (gerçek).
+
+  ⚠️ **Ve anahtarı düzeltmek defteri SIFIRLAR** — yani bir kararı gerektirir:
+```
+eski defter SİLİNMEZ, `.ONCEKI.json` olarak durur
+`_NOT` alanına sıfırlamanın SEBEBİ · TARİHİ · eski dosya adı yazılır
+```
+  Sebebi `§11`in kendi dersi: sıfırlama **denetlenebilir** olmalı. Yarın
+  *"bu taban nereden geldi"* diye soran biri cevabı ölçebilsin.
+
+  🔴 **VE SINAV, BOZULAN ÖZELLİĞİ HEDEF ALMALI — aletin genel sağlığını
+  değil.** `§A`nın kusuru *"çakışma"* değil **KARARSIZLIK**tı; yalnız
+  *"yeni/kapanan sayıyor mu"* diye sormak onu bir daha kaçırırdı. Doğru
+  sınav: sahte bir yerleşim adını listenin başına **zorla sok** ve anahtarın
+  **DEĞİŞMEDİĞİNİ** göster.
+  📌 `C13` *"iki yönü sına"* der ama **hangi özelliğin** sınanacağını
+  söylemez. Bu, onun eksik ayağı.
+
+- 🔴 **İKİ AYRI SORUNUN AYNI CEVABI VERMESİ, AYNI SORU OLDUĞU ANLAMINA
+  GELMEZ.** *(2 Eylül 2026)*
+
+  Bir oturum `1783-04-19`u *"meşru ödünç tarih — tek olaya bağlı"* diye
+  ölçtü. Başka bir oturum aynı günü **başka bir soruyla** inceledi
+  (*"eşleşme şüphesi mi?"*) ve aynı yöne vardı — ama gerekçesi farklıydı:
+  *"`yer_id` doğru, Kırım kutusundaki 14 noktanın 13'ünde o gün kırılma
+  var."*
+  🟢 İkincisi birincinin hükmünü **DEVRALMADI**, kendi ölçtü. Ve ayrımı
+  kendi kurdu:
+  > *"Sonuç aynı yöne çıktı ama gerekçe farklı. İki ayrı sorunun aynı
+  > cevabı vermesi, aynı soru olduğu anlamına gelmiyor."*
+
+  ⇒ Devralsaydı **tek dayanağı** olurdu. Ayrı ölçtüğü için **iki bağımsız
+  kanıt** var ve biri çürürse öteki ayakta kalır.
+  📌 Bu, *"ölçüm doğru, çıkarım yanlış"* ailesinin en ince üyesi: iki ölçüm
+  aynı sonuca varınca **birini ötekinin doğrulaması sanmak.** Doğrulama,
+  aynı soruya iki yoldan gitmektir — farklı sorulara aynı cevabı almak
+  değil.
