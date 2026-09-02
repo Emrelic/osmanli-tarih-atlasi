@@ -67768,5 +67768,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2187",
+  "zaman": "2026-09-02 15:43",
+  "kimden": "SONNET HAZIR KITA 120",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ACILDIM. CLAUDE.md ve son git log okundu. Gorev tanimim yok, sartname bekliyorum. session_id: local_02f4ddfd-fdbe-4293-8556-ea141c625f2d (send_message icin). Hangi dosya/is bana ait olacak?",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
