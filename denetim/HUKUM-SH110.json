@@ -75,6 +75,19 @@
    "oneri": "Zaten MESRU_GUNLER'de olmasi COK MUHTEMEL, kontrol edilsin - yoksa eklensin."
   }
  ],
+ "ilk_20_turu_sonuclari": {
+  "not": "8 kume islendi (genel tarih bilgisi + proje-ici capraz dogrulama ile, TDV fetch bu turda YAPILMADI - zaman butcesi; guven seviyeleri buna gore isaretli). Hicbiri kesin ODUNC cikmadi - bu da bir SONUC, her turda kusur bulunmasi beklenmez.",
+  "maddeler": [
+   {"tarih":"1739-09-18","kayitlar":["Belgrad","Böğürdelen","Kragujevac","Yagodina","Çaçak"],"km":151,"hukum":"MESRU","guven":"yuksek","gerekce":"Belgrad Antlasmasi (1739), 1737-39 Avusturya savasini bitiren TEK antlasma gunu - proje ICINDE ZATEN capraz dogrulanmis: data/yerlesimler_serhat.js kendi yorumunda bu tarihi '✓ hepsi mevcut kayitta ZATEN VAR' diye listeliyor."},
+   {"tarih":"1470-07-12","kayitlar":["Eğriboz","Karistos","Oreoi"],"km":155,"hukum":"MESRU","guven":"yuksek","gerekce":"Ucu de AYNI ADADA (Eğriboz/Euboea) - ada tek kusatmayla dustu, data/olaylar_ek.js'te zaten 'Egriboz'un fethi, 12 Temmuz 1470' maddesi VAR, birebir tarih eslesiyor."},
+   {"tarih":"1669-09-27","kayitlar":["Kandiye (Girit)","Sitiye","İsfakiye"],"km":179,"hukum":"MESRU","guven":"yuksek","gerekce":"Kandiye'nin (Kandia/Heraklion) 21 yillik kusatma sonrasi dususu - Girit Savasi'nin en unlu, en iyi belgeli tek tarihi. Adanin geri kalani kusatma sonrasi ayni dalgada teslim oldu, tarihsel olarak beklenen."},
+   {"tarih":"1590-03-21","kayitlar":["Kirmanşah","Hemedan","Burûcird","Luristan","Nihâvend"],"km":162,"hukum":"MESRU","guven":"orta-yuksek","gerekce":"1578-1590 Osmanli-Safevi savasini bitiren 1590 Istanbul/Ferhat Pasa Antlasmasi'nin GETIRDIGI toplu batı-Iran devri - bugunku BASKA bir gorevimde (0038/H-0007) ayni sefer/antlasma baglamini zaten arastirmistim, tutarli."},
+   {"tarih":"1393-09-01","kayitlar":["Babadağı","Köstence","Silistre","İshakçı"],"km":160,"hukum":"MESRU","guven":"orta","gerekce":"I. Bayezid'in Dobruca seferi (~1388-1393) - genel bilgi, TDV fetch edilmedi, dogrulanmasi ONERILIR."},
+   {"tarih":"1383-09-19","kayitlar":["Köstendil","Drama","Nevrokop","Petriç","Serez"],"km":174,"hukum":"MESRU","guven":"orta","gerekce":"Lala Şahin Paşa'nin Rumeli seferi, Serez'in 1383 dususu genel bilgi - TDV fetch edilmedi, dogrulanmasi ONERILIR."},
+   {"tarih":"1813-01-23","kayitlar":["Cidde","Mekke","Râbiğ"],"km":173,"hukum":"MESRU","guven":"orta","gerekce":"Tosun Pasa'nin Mekke'yi Suudilerden geri alisi (1812-13) - genel bilgi, TDV fetch edilmedi."},
+   {"tarih":"1871-04-20","kayitlar":["Cübeyl","Katîf","Lahsa","Ukayr"],"km":180,"hukum":"MESRU","guven":"orta","gerekce":"Midhat Pasa'nin 1871 Hasa/Necid seferi, kiyi seridi hizli alindi - genel bilgi, TDV fetch edilmedi."}
+  ]
+ },
  "oncelik_siralamasi": {
   "yontem": "TARAMADAN ucuz imzalarla skorlama: kucuk kume (<=5 kayit = sefer olcegi, +3p) > orta (6-7 kayit, +2p) > buyuk (8+, +0p); Osmanli cekirdek etiketi d/v (+2p); dar yayilim <=250km (+1p, tek gunluk sefer mesafesine yakin). Not: --hepsi ciktisi zaten YUVARLAK GUNLERI (-01-01) disarida birakiyor, o filtre ayrica uygulanmadi.",
   "script": "arac/_odunc_tarih.py --hepsi ciktisi uzerinde calisan ozel bir siralama scripti (denetim'e tasinmadi, gerekirse tekrar uretilebilir)",
