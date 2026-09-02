@@ -73,7 +73,57 @@ window.YERLESIMLER_OK106 = [
     s:[{f:"1774-07-21",t:"1917-03-15",d:"rusya"},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
        {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
-    kaynak:"kerc" }
+    kaynak:"kerc" },
+
+  // ── UMAN — TDV'nin GÖREMEDİĞİ yerin AKADEMİK kaynakla kapanması ─────
+  // 🔴 ÖNCE BİR TUZAK: TDV slug'ı `uman` HTTP 200 döndürüyor ve başlığı da
+  //    "UMÂN" — ama açtığı madde **Arabistan'daki Umân ülkesi.** Ukrayna
+  //    şehriyle hiçbir ilgisi yok. `§4②`nin (canlı slug, YANLIŞ madde)
+  //    altıncı ölçülmüş vakası: `ordu · saray · cin · mogadisu · nis · uman`.
+  //    İçeriği okumasaydım bu kayıt "TDV'de var" diye yazılacaktı.
+  // ⇒ `§4`ün TANECİKLİK/COĞRAFÎ boşluk hükmü işletildi: standart akademik
+  //    kaynak, ve hangi eser olduğu AÇIKÇA yazılıyor.
+  //
+  //  KAYNAK — Internet Encyclopedia of Ukraine (Canadian Institute of
+  //  Ukrainian Studies, University of Alberta; basılı Encyclopedia of
+  //  Ukraine'in, University of Toronto Press, çevrimiçi sürümü), madde
+  //  "Uman". Gövdesi okundu, birebir:
+  //    "It was first mentioned in historical documents in 1616, when it was
+  //     under Polish rule."
+  //    1648'de "it was liberated from the Poles by Ivan Hanzha, a colonel of
+  //     Bohdan Khmelnytsky."
+  //    "Under the ownership of the Potocki family of Polish magnates
+  //     (1726-1832) the town grew in economic and cultural importance."
+  //    "After the partition of Poland in 1793, Uman was annexed by Russia."
+  //
+  // 🟡 `kur:1616-01-01` — kaynak "ilk kez 1616'da anılıyor" diyor, KURULUŞ
+  //    demiyor. İkisi aynı şey değil ve bunu yazıyorum: alan "ilk kayıt"
+  //    anlamında kullanıldı. Gün yok ⇒ `§4`: YYYY-01-01.
+  // 🔴 VE BU GÜN ÇEKİRDEKTE KARŞILIKSIZ — ölçtüm, gizlemiyorum:
+  //    1616-01-01'in en yakın maddesi 160 gün ötede (1616-06-09, Sultan
+  //    Ahmed Camii). Bu bir YABANCI (`s:`) kırılması ⇒ `Değişmez 2s`,
+  //    tavan 121, bugün 70 ⇒ AÇIK 70 → 71. Tavanın çok altında ama
+  //    SESSİZ değil: borç burada yazılı. Kapanması için 1616 civarına bir
+  //    Lehistan-Ukrayna maddesi gerekiyor.
+  // 🟢 Bitiş günü ise ±0: `1793-01-23` külliyatta "Polonya'nın İkinci
+  //    Paylaşımı — Rusya ve Prusya" maddesiyle duruyor ve kaynağın
+  //    "after the partition of Poland in 1793" cümlesiyle BİREBİR aynı olay.
+  //
+  // ⚠️ YAZMADIĞIM İKİ PENCERE — kasıtlı, ve gerekçesi komşu kayıt:
+  //    ① 1648-1667 Kazak (Hmelnitski) dönemi
+  //    ② 1672-1699 Osmanlı/Bratslav dönemi ihtimali
+  //    Komşu `Çehrin (Çigirin)` kaydı ①'i HİÇ modellemiyor (Kazak
+  //    Hetmanlığı'nın BAŞKENTİ olduğu hâlde `s:"lehistan"` taşıyor) ve
+  //    ②'yi yalnız 1678-07-19→1699-01-26 olarak, kendi kuşatmasıyla
+  //    yazıyor. Uman için ikisinin de GÜNÜ elimdeki kaynakta YOK.
+  //    ⇒ Uydurmak yerine KAYDETTİM: bu iki pencere açık borçtur.
+  { ad:"Uman", tur:"sehir", lat:48.7484, lon:30.2219, g:0, k:3,
+    kur:"1616-01-01",
+    s:[{f:"1616-01-01",t:"1793-01-23",d:"lehistan"},
+       {f:"1793-01-23",t:"1917-03-15",d:"rusya"},
+       {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
+       {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+    kaynak:"bulunamadı — TDV'de Ukrayna'daki Uman maddesi YOK (`uman` slug'ı Arabistan'daki Umân'ı açıyor, ölçüldü). Dayanak: Internet Encyclopedia of Ukraine (Canadian Institute of Ukrainian Studies, University of Alberta), madde \"Uman\"" }
 
 ];
 
