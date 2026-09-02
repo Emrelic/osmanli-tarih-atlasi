@@ -2372,6 +2372,16 @@ window.DEVLETLER = [
     { t:"1920-06-04", tur:"antlasma", b:"Trianon Antlaşması Macaristan'ın Slovakya'yı bırakmasını sağladı" }
   ]
 },
+{ id:"varsova-dukaligi", ad:"Varşova Büyük Dukalığı", tur:"dukalik", bolge:"dogu-avrupa",
+  f:"1807-07-22", t:"1815-06-09", baskent:"Varşova", harita:"varsova-dukaligi",
+  ozet:"Napolyon'un Tilsit sonrasında Prusya'nın aldığı Polonya topraklarından kurduğu tampon devlet; 1809'da Schönbrunn ile Avusturya'dan Batı Galiçya'yı aldı, 1813'te Rus işgaliyle fiilen çöktü ve Viyana Kongresi'nin 9 Haziran 1815 tarihli nihaî senediyle hukuken dağıtıldı. Bkz. [[lehistan]] (1795'te sona erdi) ve [[polonya]] (1918).",
+  kaynak:"polonya",
+  kronoloji:[
+    { t:"1807-07-22", tur:"kurulus", b:"Dresden'de anayasa verildi — dukalık kuruldu" },
+    { t:"1809-10-14", tur:"antlasma", b:"Schönbrunn Antlaşması: Batı Galiçya (Lublin, Chełm, Zamość) dukalığa katıldı" },
+    { t:"1815-06-09", tur:"kayip", b:"Viyana Kongresi nihaî senedi — dukalık dağıtıldı, toprakları Rusya, Prusya ve Avusturya arasında paylaşıldı" }
+  ]
+},
 { id:"polonya", ad:"Polonya Cumhuriyeti (II. Cumhuriyet)", tur:"cumhuriyet", bolge:"dogu-avrupa",
   f:"1918-11-11", t:"1923-10-29", baskent:"Varşova", harita:"polonya",
   ozet:"123 yıllık paylaşılmışlığın ardından Almanya, Avusturya-Macaristan ve Rusya topraklarından yeniden kurulan devlet; Piłsudski önderliğinde bağımsızlığını Sovyetler'e karşı da savundu (1923 sonrasında da sürdü). Bkz. [[lehistan]] (eski Lehistan-Litvanya Birliği ile doğrudan devamlılığı yok).",
