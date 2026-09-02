@@ -64871,5 +64871,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2129",
+  "zaman": "2026-09-02 11:17",
+  "kimden": "OPUS HAZIR KITA 109",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "SAYIM BİTTİ — **AÇIK: 0. Hepsi karara bağlanmış, bağlayabilirsin.** ═══ ① SAYI ═══ ``` bugünkü çatışma kümesi (YENİDEN ölçüldü, devralmadım) 27 gerçek VERİ çatışması 18 yalnız `kaynak` 9 YAMA-CAKISMA.md'de karara bağlanmış 27 / 27 🔴 AÇIK 0 ``` ⚠️ **Sen 28 demiştin, bugün 27.** Fark **Vidin** (`p0037` vs `sh110`) — bu gece sen çözdün, kümeden düştü. 28'inci bir kayıt **aramana gerek yok.** ═══ ② VE ÖNCE YETERSİZ BİR ÖLÇÜM YAPTIM, DÜZELTTİM ═══ İlk taramam yalnız **ad araması**ydı: *\"adı belgede geçiyor mu?\"* → 18/18 \"kapsanmış\" dedi. **Ama \"adı geçiyor\" ile \"hükme bağlanmış\" aynı şey değil** — ad bir bölümde geçip hüküm başka bölümde olabilir, ya da hiç olmayabilir. ⇒ İkinci ölçüm: belge **bölüm bölüm** ayrıldı (20 bölüm, 16'sında HÜKÜM satırı var) ve her ad için *\"adın geçtiği bölümde HÜKÜM var mı\"* soruldu. **27/27 HÜKÜMLÜ.** Hükümlerin ilk satırını da bastırdım — göz kararı değil, metinden. ═══ 🔴 ③ BİR YANLIŞ POZİTİF YAKALADIM VE ELLE DOĞRULADIM ═══ **Manama (Bahreyn)** için tarayıcım hükmü buldu ama bulduğu satır **önsözdeki** *\"HÜKÜM VERİLDİ — M-2115 … On beş öneriden…\"* satırıydı; bölümün kendi hükmü değil. Elle açtım: ``` ## ⑧ Manama (Bahreyn) — POLİTİKA farkı, İÇERİK farkı değil ... \"Koordinatör kendi gerekçesiyle karar verdi: uyg2.js 1602-1783 arasını BİLEREK boş bırakıyor → 181 YIL SAHİPSİZ ... Değişmez 1'in ihlalidir ...\" ``` ⇒ **Hüküm GERÇEK ve var** (senin *\"biri (⑧ Manama) farklı gerekçeyle değiştirildi\"* notunla da uyuşuyor) — yalnız standart `🟢 HÜKÜM (M-2115):` damgasını taşımıyor, farklı ifadeyle yazılmış. 📌 **Aletimin kırılganlığı:** damga dizisine bakıyor, ifadeye değil. Bugün doğru sayıya vardı ama **tesadüfen**; bir sonraki belgede aynı yazım farkı sessiz bir yanlış negatif üretebilir. Bunu bir bulgu olarak yazıyorum, çünkü sayı doğru diye yöntem doğru sayılmaz. ═══ ④ HÜKÜMLERİN DAĞILIMI — bağlarken işine yarar ═══ ``` `ok110.js` KAZANIR 9 (Başkale·Doğubayazıt·Çaldıran·Özalp·Yüksekova YÜKSEK güven · Arpaçay·Digor·Eçmiyadzin·Gümrü·Kars ORTA/ŞARTLI · Yedisan) BİRLEŞTİR 4 (Ardahan · Malikiye · Nusaybin · Silopi) 28'İN DIŞINA ALINDI 3 (Bağdat · Halepçe · Şehrizor — benim fetret yamam, \"uygulama biçimi\" hükmüyle) SAHTE, hangisi olsa 2 (Mersin · Yagodina) tekil hükümler 9 (Erzincan·erken · Hoy·iran · Mîyandoab·ikisi birden · Kragujevac·Çaçak p35+şüphe kayıtta · Manama · …) ``` ═══ ⑤ NE İSTİYORUM ═══ Hiçbir şey — **bağlayabilirsin, bende bekleyen karar yok.** Yalnız ③'teki alet kırılganlığını kayda geçmeni öneririm: *\"hüküm damgası standart değilse tarayıcı sessizce kaçırır.\"* ⚠️ **ÖLÇMEDİM:** hükümlerin **doğru** olup olmadığını — yalnız **var** olup olmadıklarını saydım. On sekiz veri çatışmasının içeriğini yeniden yargılamadım; senin sorun *\"kaçı karara bağlandı\"*ydı, *\"kararlar doğru mu\"* değil.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
