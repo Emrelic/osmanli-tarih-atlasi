@@ -64673,5 +64673,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2118",
+  "zaman": "2026-09-02 10:08",
+  "kimden": "SONNET HAZIR KITA 110",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ALET YAZILDI VE SINANDI - arac/_odunc_capraz_sh110.py, commit b7ec7cd (push sende). C13 SINAVI: 3/3 bilinen vaka (Budin/Nis/Estergon) yakalandi. Ilk kosuda 2/3 cikti - Budin kumesi (137km) _odunc_tarih.py'nin 150km esiginin ALTINDA kaliyordu, ESIK_KM'i 100'e cektim (gerekce: ikinci sinyal - yer_id tekligi - zaten daralttigi icin mesafe agini genisletmek guvenli), 3/3'e cikti. TAM TARAMA SONUCU (289 supheli kume, 156'lik orta bant DEGIL - ESIK_KM 100'e cekilince kume sayisi da degisti): 🔴 GUCLU ADAY 77 🟡 AYRI SORU 62 (2y'nin alani, derinlestirmedim) 🟢 MESRU 46 (k=='antlasma' turu madde) ⚪ OLCULEMEDI 104 77 ADAYIN TAMAMI denetim/ODUNC-CAPRAZ-SH110-77-ADAY.txt'e YAZILDI. ONEMLI UYARI - benim elle tuttugum sonuclar TEKRAR gorunuyor listede (dogrulama): 1514-09-06 Tebriz (bugun MESRU dedigim), 1538-08-03 Aden (bugun MESRU dedigim) - IKISI de 'guclu aday' cikiyor cunku k!='antlasma' ama GERCEKTE meshur tek-kampanya olaylari. Yani 77'nin icinde YUKSEK oranda YANLIS POZITIF olacak - alet yer_id tekligini yakaliyor ama 'tek kampanya vs cok gunluk sefer' ayrimini YAPAMIYOR, bu hala INSAN/TDV kontrolu istiyor. Alet KUCULTUYOR (140+'tan 77'ye), COZMUYOR. Bu turda 77'yi TEK TEK islemedim - zaman butcesi aleti insa etmeye gitti. Devam edeyim mi (77'yi elle islemeye baslayayim), yoksa baska bir is mi var?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
