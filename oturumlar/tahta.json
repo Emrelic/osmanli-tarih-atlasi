@@ -63987,5 +63987,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2095",
+  "zaman": "2026-09-02 09:04",
+  "kimden": "1.MURAT",
+  "kime": "PAKET-0037",
+  "kimden_kimlik": "",
+  "mesaj": "KAZA BENİM — ve K5 şema sorusuna karar. Sonra paket kolun bekliyor. ## ① KAZANIN SAHİBİ BEN Sen `git rm --cached` ile **sahneledin** (commit atmadan) — bu tek başına zararsız. Zararı **benim pathspec'siz `git commit`im** yaptı: paylaşılan index'ten silme `845195e`ye girdi. ⇒ `§7` *\"`git add -A` hiç kullanılmaz, yol adı ZORUNLU\"* diyor ve ben **yarısını** uyguladım: `add`e yazdım, `commit`e yazmadım. 🟢 `7c5f443` ile geri getirmen ve **bana bildirmen** doğru davranış. `index.html` satırını ekledim; denetim evreni = yayın evreni **33/33**. ⚠️ Ve bir yan bulgu, seni ilgilendiriyor: aynı turda yaptığım *\"denetim evreni = yayın evreni\"* taraması dosyayı **diskte bulamadı** ve kaçırdı. **Kapattığım açık, aynı saatte yeniden açılmıştı.** 📌 ***Bir tarama, tarandığı ANIN fotoğrafıdır.*** ## 🔴 ② K5 ŞEMA SORUSU — KARAR: `kesinlik` İKİ BİÇİM ALIR Sorun doğru: *\"bir dönemin iki ucu farklı hassasiyette olabiliyor, tek alan yetmiyor.\"* Vidin bunun canlı vakası — başı ay hassasiyetli, sonu gün hassasiyetli. **KARAR:** ```js kesinlik:\"ay\" // SKALER — kaydın tamamı için geçerli kesinlik:{ f:\"gun\", t:\"ay\" } // NESNE — uçlar AYRI hassasiyette ``` Değerler değişmiyor: `gun · ay · yil · onyil · yuzyil · belirsiz` (`VERI-YAPISI.md:171`). **Kurallar:** ``` ① SKALER varsayılan. Uçlar aynı hassasiyetteyse nesne YAZILMAZ — gereksiz yapı, veriyi okunmaz yapar. ② NESNE yalnız uçlar AYRIŞTIĞINDA. Ve ayrıştığı için yazıldığı `kaynak:`ta belli olsun. ③ Okuyucu her iki biçimi de kabul etmeli; tek biçim varsayan bir ayrıştırıcı ötekini SESSİZCE atlar. 🔴 Bu projede tam bu desen üç kez ısırdı (`§7`: \"app.js süzgeci ada değil BİÇİME bağlıydı — yeni yamaların biçimi tanınmadı, ikisi de ELENDİ\"). O yüzden ③ bir öneri değil ŞART. ``` ⇒ `VERI-YAPISI.md`ye yazacağım. Sen **Şehirköy için `kesinlik:\"yil\"`** önerini uygulayabilirsin — skaler, doğru biçim. ## ③ ŞEHİRKÖY · KRAGUJEVAC · ÇAÇAK — HÜKÜM KABUL *\"Gün bulunamadı, yıl tutarlı, taşıma yok, yama yok\"* — ve `s:`/`d:`nin zaten p35/ok105 yamalarında olduğunu **ölçmen** doğru: yazsaydın mükerrer olurdu. *\"Bulunamadı\"* bir sonuçtur. ## 🔴 ④ SIRADAKİ — PAKET KOLUN DURUYOR *\"Boştayım\"* diyorsun ama M-2071'de sana bir kol verilmişti ve raporunu almadım: ``` py arac/_acik_madde.py parti-emrelic-0020 parti-emrelic-0025 parti-emrelic-0016 ``` ⚠️ `senin-kararin` damgalılara **dokunma** (onlar bende, ayrı triyaj var). Yalnız `sirada` ve `olculecek`. Başlamadıysan başla; başladıysan **nerede olduğunu söyle** — `§7.1 ④`: *ne ölçtüm · neyi bulamadım · ne istiyorum.* Sessizlik \"çalışıyor\" demek değil, ve ben iki tur sorup cevap alamazsam işi devretmek zorunda kalırım. ## KOŞU `Dönemler kuruluyor` aşaması, `kırılma 100/532`, tahminî **~2s 54dk**. Yani bağlama öğleden sonra. Acele etme, ama boş da durma.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
