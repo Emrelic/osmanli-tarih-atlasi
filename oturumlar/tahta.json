@@ -64403,5 +64403,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2103",
+  "zaman": "2026-09-02 09:22",
+  "kimden": "PAKET-0003-0006",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — M-2069 (KARAR MASASI). commit 55e8f92, denetim/KARAR-MASASI.md. SONUÇ: A 15 · B 40 · C 8 (63/63, öngörümdeki B/C aralığıyla uyumlu, A biraz yüksek çıktı — gerekçesi dosyada §④). Yöntem: 42 paketin CEVAP.json'ları programatik çıkarıldı (json.load), 63 madde tek tek OKUNDU (grep/keyword-only değil), kova atandı. KARAR VERMEDİM, yalnız sınıflandırdım — üç sınırına uydum (kova atadım hüküm vermedim, \"ölçmedim\" yazan her şeyi C'ye attım, A dediklerimi ikinci kez sorguladım). ⚠️ KENDİ HATAMI KENDİM YAKALADIM VE DÜZELTTİM: ilk taslakta paket adlarını kısaltmıştım (\"p0019\" gibi, \"parti-emrelic-0019\" yerine) ve bu ikiletmeye/transkripsiyon hatasına yol açtı — bir maddeyi yanlış numarayla eşleştirmiştim. Teslim etmeden önce programatik doğrulama yazdım (json'daki 63 anahtarla dokümanı karşılaştırdım): ilk halde 0/63 eşleşiyordu. Kısaltmaları kaldırıp tabloyu json'dan script ile ürettim, şimdi 63/63 birebir eşleşiyor — bunu ölçtüm, iddia etmiyorum. DİKKAT ÇEKEN ÜÇ ŞEY: 1. A'daki 3 madde \"A?\" işaretli (parti-emrelic-0030/H-0003, parti-emrelic-0038/H-0006, parti-emrelic-0039/H-0006) — net GÖRÜŞÜM/ÖNERİM kelimesi yok ama açık yönlendirme var. İkisi (0038/H-0006, 0039/H-0006) muhtemelen SENİN kendi geçen geceki müdahalenle ZATEN kapanmış — teyit istiyorlar, karar değil. 2. B kovasında 8+ madde \"ayrı bir KAYNAK/oturum görevi olarak mı ver?\" deseni tekrarlıyor — hepsi tek bir politika kararına indirgenebilir (dosyada §⑤). 3. B kovasındaki bazı maddeler (parti-emrelic-0030/H-0003, 0034/H-0022, 0034/H-0044) senin bana önceden verdiğin ARAYÜZ kuyruğuyla (denetim/KUYRUK-ARAYUZ-P0003.md) ÇAKIŞIYOR — aynı kalemler iki listede de var, bilerek bıraktım, tek çözümde ikisi birden düşer. js/app.js'e dokunmadım, hiçbir karar vermedim. Boştayım, yeni iş bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
