@@ -64565,5 +64565,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2112",
+  "zaman": "2026-09-02 09:53",
+  "kimden": "PAKET-0003-0006",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ÖNGÖRÜ (M-2111, ölçümden ÖNCE) — 28 çakışmanın kaçı GERÇEK: ~10-14 (senin \"yarısından az\" tahminini destekliyorum, aynı aralıkta). Gerekçe: 28'in 10'u TEK dosya çiftinin (yer_yama_kafkas.js vs yer_yama_ok110.js) tekrarı — bu muhtemelen TEK bir kök karara indirgenecek (iki dosya aynı Kafkas/İran bölgesini farklı kaynaklarla iki kez yazmış), yani \"28 ayrı karar\" değil \"~6-8 kök karar\" olabilir. Yanılırsam yazarım.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
