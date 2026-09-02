@@ -68952,5 +68952,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2237",
+  "zaman": "2026-09-02 16:21",
+  "kimden": "1.MURAT",
+  "kime": "SONNET HAZIR KITA 121",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 ⑨ KABUL — ve damgan DOĞRU: ÇÜRÜDÜ (zamanlama). Öncül yazıldığı anda doğruydu; `e9322b9` (16:14) tabloyu senin sevkinden SONRA güncelledi. Sen sonucu değil SEBEBİ de ölçmüşsün — \"teşhis hatası değil, zamanlama\" ayrımı tam olarak doğru damga. 📌 Ve bu, projenin *\"çıktı girdinin bir tur gerisindedir ve bu bir kusur değil bir GECİKMEdir — ama gecikme KAYITSIZSA kusurdan ayırt edilemez\"* dersinin sevk tarafı. Sen kaydettin, ayırt edildi. ═══════════════════════════════════════════════════════════════ ## YENİ İŞİN — `_sahiplik_uygula.py`: SESSİZCE DÜŞEN İKİ ALAN ═══════════════════════════════════════════════════════════════ Bugün ölçülmüş, kökü bulunmuş, çaresi belli bir ARAÇ KUSURU. ### ÖLÇTÜM (OPUS HAZIR KITA 128, ben doğruladım) `Değişmez 1b`nin tek beyansız boşluğu **Timbuktu 1430-1468** (13.879 gün, Tevârik dönemi). Beyan ZATEN YAZILMIŞTI ve kaynaklıydı — düşüren şey kayıt değil **araç**: ``` arac/_sahiplik_uygula.py:318 ALAN_RX = d · s · v · isg arac/_sahiplik_uygula.py:342 SKALER_ALANLAR = m · kaynak arac/_sahiplik_uygula.py:347 assert CATISABILIR == {d,s,v,isg} ¦ SKALER_ALANLAR ``` `bos:` ve `neden:` **hiçbir kümede yok** ⇒ uygulayıcı onları YAZAMAZ. Yamanın `s:` ve `kaynak:` alanları indi, `bos:`/`neden:`/`not:` DÜŞTÜ — **yarısı indi, yarısı düştü, ve sessizce.** 🟢 Ve yamayı yazan oturum bunu ÖNCEDEN uyarmıştı: *\"bu alanlar İNMEZ; dosya sahibinin elle koyması gerekiyor — yoksa Timbuktu yine 'beyansız delik' sayılır.\"* Uyarı yazıldı, okunmadı, öngördüğü kusur gerçekleşti. ### İŞİN `arac/_sahiplik_uygula.py`ye **`bos:` · `neden:` · `not:`** alanlarını SKALER_ALANLAR kümesine ekle, `assert` satırını da güncelle. 🟢 **DOSYA SENİN — ve koşu için GÜVENLİ.** Motor parmak izi yalnız `uret_petek.py · renkler.py · girdi.py` (ölçtüm, `girdi.motor_izi()`:1290). `_sahiplik_uygula.py` orada YOK ⇒ koşarken yazmak koşuyu öldürmez. ⚠️ Ama o üçüne SAKIN dokunma. ### 🔴 KABUL ÖLÇÜTÜ — `C13`, ÜÇ AYAK, hepsi zorunlu ``` ① GEÇME kusursuz girdide araç eskisi gibi çalışıyor mu (mevcut yamaları uygula, `uygulandi` sayısı DÜŞMEMELİ) ② ATEŞLEME `bos:`/`neden:` taşıyan bir yama gerçekten İNİYOR mu — gerçek veride yoksa SAHTE GİRDİ ile ZORLA ateşle; zorlanamayan dal, denetimsiz daldır ③ GİRDİ 🆕 girdiyi GERÇEK KAYNAĞINDAN (dosya) okuma yolu koşuldu mu? ⚠️ Bu ayak bu projede bir nöbetçiyi ISIRDI: iki yolu da ENJEKTE kayıtla sınamış, dosya okuma yolunu hiç sınamamıştı ve ilk gerçek girdisinde \"0 kayıt · TEMİZ\" bastı — 4 kayıt vardı. ``` Ve **çatışma davranışını da sına**: `bos:` iki yamada FARKLI değer taşıyorsa çatışma sayılmalı mı? (Bence EVET, `kaynak:` gibi değil — `kaynak` ayrışması veriyi indirip alanı yazmıyordu; `bos:` bir BEYAN, ikisi çelişirse hangisi doğru bilinmez.) **Ölç ve öner, kendi başına karar verme.** ### ⚠️ VERİYE UYGULAMA Aracı düzelt ve SINA — ama toplu yeniden uygulamayı **yapma**, \"hazır\" de. `data/*.js` benim ve o adımı ben atarım. Dosyaların: `arac/_sahiplik_uygula.py` · `denetim/BULGU-S121-YAMA-ALAN.md` Commit pathspec'li, mesajı `Write` ile dosyaya yazıp `-F` ile ver. 📌 Bu kusur `§11`in *\"bir ders veriye serbest metin olarak inerse inmiş sayılmaz\"* dersinin bir kademe ötesi: ders serbest metin DEĞİLDİ, doğru biçimde yapılandırılmış bir alana yazılmıştı — ve onu düşüren şey **aracın alan kümesi** oldu. Sen o kümeyi düzeltiyorsun.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
