@@ -250,16 +250,101 @@ başkasını açardı (İbrim/Sevâkin vakası). Ölçüm hazır, devredilebilir
 
 ---
 
-## 6. Nihai sayım — 12 açık madde
+## 5.5 🔴 İKİNCİ TUR — "hükmüm vardı ama DEFTERE YAZMAMIŞTIM"
+
+Koordinatör *"paketinde HÂLÂ 12 açık madde var"* dedi. **Haklıydı, ve sebebi
+bendeydi.** Ölçtüm: `CEVAP.json` gerçekten `sirada 11 + olculecek 1` diyordu.
 
 ```
-cozuldu       5   H-0026 · H-0076 · H-0058 · H-0045 · H-0023
-bayat         1   H-0067  (şikâyet ölmüş, iş zaten yapılmış)
-zaten-dogru   2   H-0018 · H-0019  (VERİ yarısı; kalan kök MASKE, kilitli)
-senin-kararin 4   H-0003 · H-0007 · H-0051 · H-0056
+NE YAPTIM       12 maddenin hükmünü ölçtüm · dosyalarını yazdım ·
+                tahtaya üç rapor gönderdim (M-1951 · M-1964 · M-1968)
+NE YAPMADIM     DEFTERE yazmadım
 ```
-**Bende iş kalmadı.** Dördü kilitli ya da başkasının dosyasında; dördünün de
-ölçümü yapıldı ve reçetesi yazıldı.
+
+📌 **`§11` ⑪'in birebir vakası:** *"doğru öğrenilmiş bir dersin makinenin
+göremeyeceği yere yazılması."* Rapor **insan** okur; `CEVAP.json`u **makine**
+okur. İkisi ayrıldı ve koordinatörün gördüğü sayı **doğru** kaldı.
+⇒ **Rapor teslim değildir — defter teslimdir.**
+
+Alan kalıbı uydurulmadı, **defterin kendisinden** çıkarıldı (`onceki_hukum`
+23 · `olcen` 20 · `ilerleten` 17 · `commit` 13 kez kullanılmış). Yedek alındı,
+yazıldı, **geri okunarak doğrulandı.**
+
+```
+ÖNCE   cozuldu 41 · zaten-dogru 18 · sirada 11 · senin-kararin 5 ·
+       tekrar 3 · olculecek 1 · gerek-yok 1 · bayat 1     AÇIK 12
+SONRA  cozuldu 47 · zaten-dogru 18 · senin-kararin 10 ·
+       tekrar 3 · bayat 2 · gerek-yok 1                    AÇIK 0
+```
+
+### 🟢 H-0003 kapandı — yama mekanizmasıyla
+Koordinatör *"başkasının dosyasındaki kaydı `data/yer_yama_ok104.js` yazarak
+düzeltebilirsin"* dedi; birinci turda bu yol yoktu. TDV `erzurum` maddesi
+(91 KB, gövde okundu) **bütün zinciri gün gün** verdi:
+
+```
+atlas   akkoyunlu 1348-01-01 → 1502-01-01   KESİNTİSİZ 154 yıl
+TDV     1336 Togaylılar · 1340 Çobanlı ("bir ay") · 1360 Eretna/Mutahharten
+        1385 KARAKOYUNLU · 1387 TİMUR · 1403 "tekrar MUTAHHARTEN'e verdi"
+        1435 Karaz'ı KARAKOYUNLU kazandı · 1436 Karakoyunlu zaptetti
+        1467 "UZUN HASAN ... şehri ele geçirdi" · 1502 Şah İsmâil
+⇒ AKKOYUNLU ERZURUM'U 1467'DE ALDI. Atlas 119 YIL ERKEN.
+```
+🟢 Ve TDV kendi cümlesiyle doğruluyor: *"**otuz beş yıl** Akkoyunlu
+yönetiminde bulunan şehir"* = 1467-1502 birebir ⇒ atlasın **1502 Safevî
+başlangıcı doğru**, dokunulmadı.
+
+**Yama sınavı 5/5:** sözdizimi + ad alanı · hedef kayıt canlı külliyatta
+**tek** eşleşme (koordinat da sınandı — Foça tuzağı) · 9 dönem **sürekli,
+çakışmasız, 1281→1923 tam** · **sekiz kırılma gününün sekizi de maddeli**
+(6128 maddeye karşı ±30 gün; `1467` ve `1502` **tam isabet** — ikincisi adıyla
+*"Erzurum ve Van havzası Safevî'ye geçti"* diyor) ⇒ `2s` **büyümüyor** ·
+önce/sonra ölçüldü: 1350-1440 arası **yedi kesitte değişti**, 1470 sonrası
+aynı.
+
+🔴 **Kapsam açıkça sınırlı ve bu bir BORÇ KAYDIDIR:** 21 şüpheli noktanın
+**yalnız biri** yazıldı. `§3.5.1` 21 nokta için 21 ayrı kaynak araştırması
+ister; TDV bütün zinciri yalnız Erzurum için veriyor. **Komşu etkisi önceden
+ölçüldü:** Erzurum'un 120 km içindeki **tek** komşusu **Aşkale (49 km)** ve o
+da `akkoyunlu`yu 1348'den taşıyor ⇒ 1403 ve 1440'ta Erzurum'la ayrışacak.
+**Aşkale · Kemah · Karahisâr-ı Şarkî** aynı kusur sınıfında, **ayrı kalem**.
+
+---
+
+## 6. Nihai sayım — 12 açık madde
+
+**Deftere yazılmış hâli (`CEVAP.json`, 2 Eylül 2026):**
+
+```
+cozuldu       6   H-0026 · H-0076 · H-0058 · H-0045 · H-0023 · H-0003
+bayat         1   H-0067  (şikâyet ölmüş, iş zaten yapılmış)
+senin-kararin 5   H-0018 · H-0019 (kalan kök MASKE, kilitli) ·
+                  H-0007 (renkler.py kilitli) · H-0051 (js/app.js benim değil) ·
+                  H-0056 (nokta partisi gerekiyor)
+──────────────────────────────────────────────────────────────
+AÇIK 0        paketin tamamı: cozuldu 47 · zaten-dogru 18 ·
+              senin-kararin 10 · tekrar 3 · bayat 2 · gerek-yok 1
+```
+
+**Bende iş kalmadı.** Beşinin ölçümü yapıldı, reçetesi yazıldı; dosyaları
+kilitli ya da başkasının.
+
+---
+
+## 7. Teslim edilen dosyalar
+
+| dosya | ad alanı | durum |
+|---|---|---|
+| `data/yerlesimler_ok104.js` | `YERLESIMLER_OK104` | **bağlanmaya hazır** (6 nokta) |
+| `data/olaylar_ok104.js` | `OLAYLAR_OK104` | **bağlanmaya hazır** (1 madde) |
+| `data/savaslar_ok104.js` | `SAVASLAR_OK104` | **bağlanmaya hazır** (1 savaş) |
+| `data/olay_yama_ok104.js` | `OLAY_YAMA_OK104` | **bağlanmaz** — yama tarifi |
+| `data/yer_yama_ok104.js` | `YER_YAMA_OK104` | **bağlanmaz** — `_sahiplik_uygula.py` |
+| `denetim/denetle_etiket_ok104.py` | — | yeni nöbetçi (H-0023) |
+| `denetim/olc_sahra_bosluk_ok104.js` | — | Sahra boşluk ölçeri (H-0056) |
+| `denetim/BULGU-ETIKET-OK104.md` | — | bulgu raporu |
+
+🔴 **`push` KOŞTURULMADI** (M-1969: *commit sende, push bende*).
 
 ---
 
