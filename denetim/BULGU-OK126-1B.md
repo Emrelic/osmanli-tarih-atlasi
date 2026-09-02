@@ -324,12 +324,17 @@ VAKA 2  OPUS HAZIR KITA 125 (M-2220/M-2224) · LOST UPDATE + ANAHTAR KARARSIZ
   🟢 KITA 125 kendi iddiasını DARALTTI: yutulan gövde M-2209'un aynısıydı,
      İÇERİK kaybolmadı. Ölçümüm onu doğruluyor.
 
-VAKA 3  OPUS HAZIR KITA 122 (M-2236) · GEÇİCİ ALARM — DEVRALDIM, ÖLÇMEDİM
+VAKA 3  OPUS HAZIR KITA 122 (M-2236) · GEÇİCİ ALARM — ÖNCE DEVRALDIM, SONRA ÖLÇTÜM
   M-2221: tahta.py "yazıldı" + "commit kod=128" + "MESAJ SENDE KALDI,
   TEKRAR YAZMA" dedi. Mesaj tahta.json'da VARDI, index'te sahnelenmişti,
   commit edilmemişti. Dakikalar sonra BAŞKA bir oturumun commit'i onu taşıdı
   ve origin/main'e indi — kimse bir şey yapmadan.
-  ⚠️ Bu vakayı DEVRALDIM, kendim ölçmedim (§11: devraldığını işaretle).
+  🟢 KITA 122 kanıt yolunu M-2265'te verdi ve ÖLÇTÜM: M-2221 bugün
+     (a)=1 (b)=1 (c)=1 · ilk taşıyan commit 7a7c9a6, konusu
+     "TAHTA M-2222 — OPUS HAZIR KITA 125 -> 1.MURAT" ⇒ BAŞKASININ commit'i.
+     Anlattığının tamamı tuttu.
+  ⚠️ HÂLÂ ÖLÇMEDİĞİM: onun o an GÖRDÜĞÜ geçici hâl ((b)=0, (c)=0 anı).
+     Ben SONUCU ölçtüm, ANI değil.
 ```
 
 ## §11 TEŞHİS — "ULAŞTI MI" TEK SORU DEĞİL, ÜÇ KADEME
@@ -391,6 +396,75 @@ iki kez ölçüldüğü anlamına gelmiyor — `§11`in *"ölçülmüş ile hat�
 yana durursa okuyan ikisini de ölçülmüş sanar"* dersinin **iki oturuma
 yayılmış** hâli.
 
+## §11c 🔴🔴 KÖK SEBEP BULUNDU — `tahta.py`nin İKİ TESLİM DALI, İKİ AYRI SORU
+
+KITA 122 (M-2265) *"hangi kolun hangi kademeyi ölçtüğünü ÖLÇMEDİM, senin
+reçetene bir kalem olarak bırakıyorum"* dedi. **Ölçtüm** — `arac/tahta.py`
+okundu (yalnız okundu; zaten motor parmak izinde değil).
+
+```
+DAL A   push kod == 0   satır 424-455
+        SORU: "kayıt uzaktaki DOSYADA var mı?"
+              origin/main → bulamazsa fetch → FETCH_HEAD → ölçemezse ALARM ÇALMAZ
+        🟢 DOĞRU SORU · (c) kademesini ölçüyor · bayat kopya tuzağı kapalı
+
+DAL B   push kod != 0   satır 489-497
+        SORU: "mesaj NUMARAM son 40 commit'in BAŞLIĞINDA geçiyor mu?"
+              _ulasti = _no in git log HEAD --oneline -40
+        🔴 YANLIŞ SORU · commit BAŞLIĞINA bakıyor, DOSYA İÇERİĞİNE değil
+```
+
+🔴 **Ve dosyanın KENDİ yorumu doğru soruyu satır 421'de yazıyor:**
+
+> *"Doğru soru tek: **'mesaj uzaktaki DOSYADA var mı?'** — kimin
+> commit'iyle gittiği ALAKASIZ."*
+
+O düzeltme **DAL A'ya uygulanmış, DAL B'ye uygulanmamış.** Ve dosya bu
+deseni de kendi kaydetmiş: *"önce yön yanlıştı, sonra **bir dal düzeltilip
+öteki unutuldu**"* — **aynı yarım düzeltme bir kez daha duruyor.**
+
+### ÖLÇÜM — üç kayıt, kaydı HANGİ COMMIT taşıdı
+
+Kendi betiğimle (sürümleri eskiden yeniye yürüyüp kaydın ilk göründüğü
+commit'i buluyor — `git log -S` bu boyuttaki dosyada bitmiyor, KITA 122 onu
+denemiş ve `ÖLÇMEDİM` diye damgalamıştı):
+
+```
+M-2167  (BENİM)      ilk taşıyan 37a4256  "TAHTA M-2169 — OPUS HAZIR KITA 109 -> HERKES"
+M-2221  (KITA 122)   ilk taşıyan 7a7c9a6  "TAHTA M-2222 — OPUS HAZIR KITA 125 -> 1.MURAT"
+M-2260  (KITA 122)   ilk taşıyan f97a367  "TAHTA M-2260 — OPUS HAZIR KITA 122 -> 1.MURAT"
+```
+
+⇒ İlk ikisini **başkasının commit'i** taşıdı ⇒ numaraları hiçbir commit
+başlığında doğmadı ⇒ **DAL B onları "ULAŞMADI" diye bildirir.** Üçüncüsünü
+**kendi commit'i** taşıdı ⇒ DAL B doğru bildirdi.
+
+### 🔴 VE BU, BU OTURUMUN AÇILIŞ RAPORUNU DÜZELTİYOR
+
+Oturumun ilk dakikasında `tahta.py` bana şunu bastı:
+
+> *"M-2167 COMMIT EDİLMEDİ — MESAJ HENÜZ KİMSEYE ULAŞMADI."*
+
+Bunu koordinatöre ve kullanıcıya **ARIZA-1** diye bildirdim.
+**ÖLÇÜLDÜ: o alarm YANLIŞTI.** M-2167 aynı dakika içinde (15:37:20)
+`37a4256` ile taşınmıştı. Benim `git push`um düştü — ama **mesaj
+ulaşmıştı.**
+
+📌 Yani `§10 VAKA 1`in gürültülü yarısı (ARIZA-1) bir **yanlış negatifti**,
+ve onu üreten şey tam olarak DAL B. Sessiz yarısı (kaybolan ikinci yazım)
+**gerçek** ve yerinde duruyor.
+
+### DAL B'NİN İKİNCİ KUSURU — pencere
+
+`-40` commit. **ÖLÇTÜM:** bugün son 40 `tahta.json` commit'i
+**16:26 → 19:06**, yani ~2s40dk. Bugünkü tempoda bağlayıcı değil; ama ölçüt
+zamana değil **commit sayısına** bağlı ve tempo artarsa kendi commit'i bile
+pencereden düşer. **İkincil kusur — birincisi SORUNUN KENDİSİ.**
+
+📌 `§11`in *"doğru sonucu güvenilmez yoldan veren alet"* sınıfı: M-2260'ta
+DAL B **doğru** dedi, çünkü o kayıt kendi commit'iyle gitti. Sayı doğruydu,
+**yöntem değildi.**
+
 ## §12 REÇETE — beş madde
 
 ```
@@ -399,12 +473,19 @@ yayılmış** hâli.
    Bulamazsa: TEKRAR YAZ (kayıt yok, mükerrer riski yok) ve bunu BASSIN.
    ⇒ VAKA 1'i kapatır. Bugün kullandığım sarmalın yaptığı tam bu.
 
-② (b)/(c) KADEMESİNİ AYRI ve GEÇİCİ RAPORLA.
-   commit/push düştüğünde bugünkü metin "MESAJ SENDE KALDI" diyor — KESİN.
-   Doğrusu: "tahta.json'da VAR · commit YOK · bu HÂL GEÇİCİ OLABİLİR,
-   başka bir oturumun commit'i taşıyabilir. TEKRAR YAZMA.
-   Kontrol: git show origin/main:oturumlar/tahta.json | grep -c <NO>"
-   ⇒ VAKA 3'ü kapatır. Kod değişikliği değil, YALNIZ METİN.
+② 🔴 DAL B, DAL A'NIN SORUSUNU SORSUN — ve bu ARTIK BİR METİN İŞİ DEĞİL.
+   İlk yazımımda "yalnız METİN düzeltilsin, kod değişikliği değil" demiştim.
+   §11c ölçümü bunu ÇÜRÜTTÜ: kusur ifadede değil ÖLÇÜTTE.
+       bugün DAL B:   _no in `git log HEAD --oneline -40`   (commit BAŞLIĞI)
+       olması gereken: _no `git show <ref>:oturumlar/tahta.json` içinde mi
+                       (DOSYA İÇERİĞİ — DAL A'nın 60 satır yukarıdaki kodu)
+   🟢 VE YAZILACAK YENİ BİR ŞEY YOK: `_uzakta(ref)` yardımcısı DAL A'da
+      ZATEN duruyor, fetch geri çekilmesiyle birlikte. Yapılacak şey onu
+      fonksiyon kapsamına çıkarıp DAL B'den de çağırmak.
+      📌 "İstenen şeyin altyapısı zaten vardı" — aynı dosyanın içinde.
+   ⇒ VAKA 3'ü VE bu oturumun kendi ARIZA-1'ini birlikte kapatır.
+   ⚠️ Metin de düzelsin ama İKİNCİL: "MESAJ SENDE KALDI" kesin konuşuyor,
+      hâli geçici olabilir.
 
 ③ NUMARA ATAMASINI KARARLI YAP — asıl kusur bu.
    M-2211 iki farklı mesajı gösterdi. --yanit · teyit · okundu · bekleyen:
@@ -491,7 +572,8 @@ gövdesini veririm.
      (M-2252 ⑤). İki oturum aynı yeri işaretledi ⇒ reçetenin ③ maddesi
      kimsenin "uygulanmış" sanacağı bir öneri değil.
 · §11b'nin 2s47dk'lık yeniden ölçümü — KITA 125'in, DEVRALDIM
-· VAKA 3'ü (KITA 122) kendim ölçmedim, DEVRALDIM
+· VAKA 3'ün SONUCUNU ölçtüm, GEÇİCİ ANINI ölçmedim (o an (b)=0,(c)=0 idi)
+· tahta.py'nin iki teslim dalını OKUDUM (§11c); NUMARA ATAMA kodunu OKUMADIM
 · VAKA 1'de aletin tam ne bastığı — konsol cp1254, çıktı düştü
 · Motor: Timbuktu boşluğunun haritadaki gerçek sonucu — koşu canlı,
   yalnız KOD ARGÜMANI kurdum (_ENKLAV · yetim yüz · petek_epok bakılmadı)
