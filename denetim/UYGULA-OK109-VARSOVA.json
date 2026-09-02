@@ -1,0 +1,94 @@
+{
+  "is": "⑪ `varsova-dukaligi` künyesi — REÇETE (uygulama değil)",
+  "oturum": "OPUS HAZIR KITA 109",
+  "damga": "2026-09-02 · sevk: DAGITIM-0902-AKSAM.md §⑪",
+  "uyari": "VERİYE DOKUNULMADI · `renkler.py`ye DOKUNULMADI (motor parmak izi, koşu PID 27596 canlı) · `arac/*.py` hiç açılmadı, yalnız OKUNDU",
+
+  "① KUNYE_ONERISI": {
+    "id": "varsova-dukaligi",
+    "ad": "Varşova Büyük Dukalığı",
+    "ad_nicin_boyle": "TDV'nin KENDİ kullandığı ad: «Napolyon'un kurduğu Varşova Büyük Dukalığı». `§4`ün Türkçe yazım ekseni — kendi transliterasyonumu değil kaynağın adını alıyorum.",
+    "f": "1807-07-22",
+    "t": "1815-06-09",
+    "bolge": "Orta Avrupa",
+    "harita": "varsova-dukaligi",
+    "kaynak": "polonya — TDV; kuruluş GÜNÜ TDV'de YOK, gün için standart akademik kaynak (Dresden anayasası, 22 Temmuz 1807); kapanış günü TDV'nin kendi verdiği «Viyana Kongresi'nin 9 Haziran 1815 tarihli nihaî belgesi»"
+  },
+
+  "② KAYNAK_KANITI": {
+    "TDV_polonya_govde": "86.835 karakter, CANLI",
+    "alinti_1": "«Napolyon'un kurduğu Varşova Büyük Dukalığı'nı (1807-1813) özgür Polonya'nın öncüsü kabul ettiler»",
+    "alinti_2": "«Viyana Kongresi'nin 9 Haziran 1815 tarihli nihaî belgesi Polonya topraklarının bölünmüşlüğünü yeniden düzenledi»",
+    "alinti_3": "«Varşova Büyük Dukalığı topraklarının diğer kısmını, Rus Çarlığı hâkimiyeti altında çarın aynı zamanda Polonya kralı unvanını taşıyacağı bir krallık haline getirdi (Kraliyet Polonyası / Kongre Polonyası)»",
+
+    "🔴 TDV_ILE_GERILIM_VE_COZUMU": {
+      "gerilim": "TDV dukalığı «(1807-1813)» diye veriyor; önerilen künye `t:1815-06-09`. İki yıl fark var ve GİZLENMEMELİ.",
+      "nicin_1813": "de facto son — 1813'te Rus kuvvetleri dukalığı işgal etti, kurumları çalışmaz oldu",
+      "nicin_1815-06-09": "de jure son — dukalık HUKUKEN Viyana Nihaî Senedi ile dağıtıldı, ve o günü de TDV'nin AYNI PARAGRAFI veriyor",
+      "hangisi_secildi_ve_NICIN": "1815-06-09. Gerekçe ATLASIN KENDİ MODELİ: atlas TASARRUFU boyuyor ve dört kaydın dördü de 1815-06-09'a kadar gidiyor. 1813 seçilseydi dört dönem künyeyi ~2 yıl AŞARDI ⇒ `4` 12→8 düzelirken `4c` 286→290 BOZULURDU: bir ihlali kapatıp başkasını açmak (`§3.5.1` — iki uç da ölçülür).",
+      "🟢 kaynak_celiskisi_YOK": "İki gün de AYNI TDV maddesinden. TDV'nin «1807-1813»i bir ÖZET aralık; «9 Haziran 1815» ise TARİHLİ bir belge. Tarihli olanı almak TDV'yi çürütmek değil, TDV'nin kendi verdiği günü kullanmaktır.",
+      "🔴 OLCMEDIGIM": "Dukalığın 1813'teki fiilî çöküşü ile 1815 arasında toprakların kimde göründüğü — dört kaydın o iki yılı hâlâ `varsova-dukaligi` boyayacak. Tarihen o dönem Rus işgali. Bu AYRI bir kalem ve ölçmedim."
+    }
+  },
+
+  "③ VERI_DUZELTMESI_KAYIT_BAZINDA": {
+    "🔴 SLUG_BAZLI_YAPILAMAZ": "`lehistan` veride 50 DÖNEMDE geçiyor; yalnız 4'ü hayalet. Kör bir `s/lehistan/varsova-dukaligi/` 46 MEŞRU dönemi bozardı. (Bugün `ferhad-pasa`da öğrenilen ders.)",
+    "kayitlar": [
+      { "dosya": "data/yerlesimler.js", "satir": 904, "ad": "Varşova",
+        "eski": "{f:\"1806-11-28\",t:\"1815-06-09\",d:\"lehistan\"}",
+        "yeni": "{f:\"1806-11-28\",t:\"1815-06-09\",d:\"varsova-dukaligi\"}" },
+      { "dosya": "data/yerlesimler_p0037.js", "satir": 73, "ad": "Lublin",
+        "eski": "{f:\"1809-10-14\",t:\"1815-06-09\",d:\"lehistan\"}",
+        "yeni": "{f:\"1809-10-14\",t:\"1815-06-09\",d:\"varsova-dukaligi\"}" },
+      { "dosya": "data/yerlesimler_p0037.js", "satir": 78, "ad": "Chełm (Kholm)",
+        "eski": "{f:\"1809-10-14\",t:\"1815-06-09\",d:\"lehistan\"}",
+        "yeni": "{f:\"1809-10-14\",t:\"1815-06-09\",d:\"varsova-dukaligi\"}" },
+      { "dosya": "data/yerlesimler_p0037.js", "satir": 83, "ad": "Zamość",
+        "eski": "{f:\"1809-10-14\",t:\"1815-06-09\",d:\"lehistan\"}",
+        "yeni": "{f:\"1809-10-14\",t:\"1815-06-09\",d:\"varsova-dukaligi\"}" }
+    ],
+    "🔴 DOSYA_SAHIPLIGI_UYARISI": "Dördün ÜÇÜ `data/yerlesimler_p0037.js` içinde — bu benim dosyam DEĞİL (parti-0037). `§7`: uygulamadan önce o dosyanın sahibiyle konuşulmalı ya da koordinatör uygulamalı. Ben yazmadım.",
+    "🟢 1809-10-14_DOGRULANDI": "Üç kaydın da `avusturya` dönemi 1795-10-24 → 1809-10-14, sonrası dukalık. Bu gün Schönbrunn Antlaşması'dır (Batı Galiçya'nın dukalığa katılması) ve veri onu ZATEN doğru taşıyor — kimlik yanlıştı, TARİH değil."
+  },
+
+  "④ VARSOVA_KAYDININ_BASLANGICI_AYRI_SORU": {
+    "gozlem": "Varşova'nın dönemi `1806-11-28`de başlıyor — dukalık kurulmadan ~8 ay ÖNCE. O gün Fransız kuvvetlerinin Varşova'ya girişidir.",
+    "denetime_etkisi": "YOK. `denetle.py` `4`ün iki dalı var: (a) dönem künye ÖLÜMÜNDEN sonra başlıyor, (b) dönem künye DOĞUMUNDAN önce bitiyor. «Dönem künyeden önce BAŞLIYOR ama örtüşüyor» diye bir dal YOK (kodun kendi yorumu: «dönem künyeden SONRA başlıyor, bu dalın sorusu değil»). ⇒ Bu öneri `4`ü 12 → 8 yapar ve yeni ihlal DOĞURMAZ.",
+    "yine_de_oneri": "Tarihen daha doğrusu kaydı ikiye bölmek: `1806-11-28 → 1807-07-22` = `fransa`, sonrası `varsova-dukaligi`. AMA bu bir yapı değişikliği ve `4`ü düzeltmek için GEREKLİ DEĞİL ⇒ ayrı kalem olarak öneriyorum, kendiliğimden yazmıyorum."
+  },
+
+  "⑤ RENK_ONERISI_YAZILMADI": {
+    "🔴": "`renkler.py`ye DOKUNULMADI — motor parmak izli ve koşu canlı (PID 27596). Bu bir ÖNERİDİR.",
+    "sahnedeki_komsular_1807_1815": {
+      "avusturya": "#bdab3f",
+      "rusya": "#4f7d4f",
+      "almanya": "#78d028  — «Kutsal Roma / Almanya»",
+      "lehistan": "#fc87c9  (1795'te bittiği için AYNI SAHNEDE DEĞİL — çakışma riski yok)"
+    },
+    "🔴 YAN_BULGU_PRUSYA_KIMLIGI_YOK": {
+      "olcum": "`renkler.py`de `prusya`/`brandenburg` YOK; veride `d:\"...prus...\"` dönemi de YOK (0 eşleşme). Prusya bu atlasta HİÇ temsil edilmiyor.",
+      "nicin_onemli": "Lehistan'ı bölüşen ÜÇ devletten biri Prusya'dır ve Varşova Dukalığı'nın batı komşusudur. Poznan ile Gdansk'ın `lehistan` dönemi 1793-01-23'te (II. Bölüşme) bitiyor — o topraklar Prusya'ya geçti, ama karşılığında hangi kimliğin yazıldığını ÖLÇMEDİM.",
+      "durum": "Bu kalemin işi DEĞİL. Ayrı bir bulgu olarak kaydediyorum — reçeteyi etkilemiyor, çünkü dukalığın komşusu olarak sahnede `almanya` duruyor."
+    },
+    "gereken_band": "ΔE ≥ 12 (okunabilirlik tabanı) — `avusturya` ve `rusya` ile eşzamanlı ve komşu.",
+    "🔴 SIKILASTIRMA_ONERISI": "`rusya` ile ΔE ≥ 25 hedeflenmeli. Gerekçe kronolojiden: dukalığı fiilen bitiren Rus işgalidir ve kullanıcı 1813-1815 geçişini okurken iki gövdeyi ayırt edebilmeli. (`bugis ↔ gova` emsali — eşik gevşetilmez, SIKILAŞTIRILIR.)",
+    "🟡 lehistan_ile_YAKINLIK_ONERISI": "`lehistan` ile AKRABA görünmesi tercih edilebilir (dukalık Lehistan'ın ardılı sayılıyor) — ama ikisi hiç aynı sahnede olmadığı için bu bir ZORUNLULUK değil, TERCİH. `§11`: tercih ile eşiği karıştırma.",
+    "🔴 OLCMEDIGIM": "Voronoi komşuluğunu ölçmedim (koşu canlı, `renk_olc.py` koşturmadım). Bu liste KÜNYE penceresinden çıkarıldı, VERİ penceresinden değil."
+  },
+
+  "⑥ OK128in_BULGUSU_DOGRULANDI_VE_GENISLETILDI": {
+    "dizin_deligi": "ÖLÇTÜM: `lehistan` f:1569-07-01 t:1795-10-24 · `polonya` f:1918-11-11 t:1923-10-29 ⇒ arada 123 yıl 0 ay.",
+    "bu_kunye_ne_kadarini_kapatir": "1807-07-22 → 1815-06-09 = 7 yıl 11 ay. Yani 123 yılın ~%6,4'ü.",
+    "KALAN_DELIK": ["1795-10-24 → 1807-07-22  (11 yıl 9 ay — üç bölüşen devlet)",
+                    "1815-06-09 → 1918-11-11  (103 yıl 5 ay)"],
+    "🟢 TDVin_verdigi_ADAY": "İkinci delik için TDV'nin kendi adı var: «Kraliyet Polonyası / Kongre Polonyası» — «Rus Çarlığı hâkimiyeti altında çarın aynı zamanda Polonya kralı unvanını taşıyacağı bir krallık». Bu, `kongre-polonyasi` künyesi için hazır bir dayanak.",
+    "⚠️": "Onu ÖNERİYORUM ama ÖLÇMEDİM — hangi kayıtların 1815-1918 arası `lehistan` ya da başka bir kimlik taşıdığını saymadım. OK128'in kalemi."
+  },
+
+  "⑦ BEKLENEN_SONUC": {
+    "Degismez_4": "12 → 8 (kalan 8'in 8'i `iran` — eski, ayrı borç)",
+    "Degismez_4c": "286 → 286 (DEĞİŞMEZ — dönemler künye sonuyla birebir bitiyor)",
+    "yeni_ihlal": "beklenmiyor · gerekçe ④'te kodla birlikte yazılı",
+    "🔴 mazeret": "YOK. `4` 8'e inmezse öngörüm çürüktür."
+  }
+}
