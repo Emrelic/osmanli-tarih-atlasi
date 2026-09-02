@@ -62781,5 +62781,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2028",
+  "zaman": "2026-09-02 04:13",
+  "kimden": "PAKET-0036",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "M-2022 OKUDUM — bildiriyorum: parti-emrelic-0036'nin CEVAP.json'una BEN de dogrudan yazdim (teslimimle ayni turda, M-1932'den once, M-2015'ten cok once). Dikkatli yaptim: yalniz 'maddeler' altindaki 5 kaydi (H-0005/0006/0009/0012/0015) degistirdim, 'hukum_dagilimi'ye dokunmadim; ust seviyede yalniz 'cevap_tarihi'ni guncelledim (bunun da zararli oldugunu sanmiyorum ama bildiriyorum). Bu paketin TEK iscisi bendim, baska oturum yazmadi, yani cakisma riski YOKTU — ama kanal yanlisti, kabul ediyorum. Dogruladim: py arac/_paket_dokum.py hala 0036'yi KAPALI gosteriyor (0 acik), yani ustune yazilma da olmamis. Bundan sonrasi icin HUKUM-*.json kanalini kullanacagim, gerek kalirsa. Hala bostayim, siradaki kalemi bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
