@@ -1,0 +1,42 @@
+{
+  "is": "1335-1340 İRAN FETRETİ — 34 kaydın tasnifi",
+  "oturum": "OPUS HAZIR KITA 109",
+  "damga": "2026-09-02, ÖLÇÜMDEN ÖNCE yazıldı ve commit edildi",
+  "niçin_önce": "CLAUDE.md §11: 'Sonradan yazılan beklenti, ölçümü gördükten sonra farkında olmadan ona göre şekillenir ve hiçbir zaman yanlış çıkmaz — yani hiçbir şey öğretmez. Önce yazılan beklenti YANLIŞ ÇIKABİLİR, ve ancak yanlış çıkabilen bir şey bilgi taşır.'",
+
+  "ongoruler": [
+    {
+      "no": "①",
+      "iddia": "34 dönemin TAMAMI `d:\"celayirli\"` ve `f:\"1335-12-01\"` olacak — tek bir toplu yazımdan geldikleri için tarih birebir aynı.",
+      "gerekce": "denetle.py çıktısı `celayirli 33 dönem · en erken 4,1 yıl` diyor; 4,1 yıl = 1335-12-01 ile künye başı 1340-01-01 arası. İmâdiye 34'üncü ve onu ben kardeşlerden kopyaladım.",
+      "mazeret_var_mi": "YOK — bu saf bir ayrıştırma sorusu, tabana duyarlı değil."
+    },
+    {
+      "no": "②",
+      "iddia": "Kayıtlar coğrafî olarak Irak · Batı İran · Doğu Anadolu kuşağında toplanacak; Musul sancağı kazaları (Akra · Duhok · Zaho · Sincar · Rewândiz · Musul · İmâdiye) bu kümenin içinde olacak.",
+      "gerekce": "İmâdiye'yi yazarken kardeş kazaların hepsinde aynı zinciri gördüm.",
+      "mazeret_var_mi": "YOK."
+    },
+    {
+      "no": "③",
+      "iddia": "34'ün TAMAMI gerçek fetret DEĞİL. Tahminim: 10-15'i `devletsiz`/`veri-yok` kovasına düşecek, 19-24'ü ise ASLINDA BAŞKA BİR DEVLETE ait olacak.",
+      "gerekce": "1335-1340 arası bir 'kimsesizlik' değildi: Ebû Saîd'in ölümünden sonra ÇOBANLILAR Azerbaycan ve Irâk-ı Acem'de fiilen hâkim oldu, Celâyirliler Bağdat'ta yükseldi. Yani boşluk SİYASÎ değil, VERİDEKİ bir boşluk olabilir.",
+      "mazeret_var_mi": "KISMEN — sayı aralığı geniş tuttum. Ama YÖNÜ mazeretsiz: 'hepsi fetret' çıkarsa ÖNGÖRÜM ÇÜRÜR."
+    },
+    {
+      "no": "④",
+      "iddia": "`cobanli` / `cobanlilar` diye bir künye `devletler.js`te YOK olacak — yani doğru çare bir künye eksikliğini de ortaya çıkaracak.",
+      "gerekce": "CLAUDE.md §4'te `cobanlilar` slugu ÖLÜ (302) diye kayıtlı; TDV tarafı zayıfsa künye tarafı da yazılmamış olabilir.",
+      "mazeret_var_mi": "YOK — tek `if` ile sorulabilir."
+    },
+    {
+      "no": "⑤",
+      "iddia": "En az BİR kayıt 'atlasın sol kenarı' sınıfına düşecek: yani 1335-12-01 tarihi o kayıt için fetretle ilgisiz, sadece verinin başlangıç günü olarak konmuş olacak.",
+      "gerekce": "Koordinatör bu ihtimali özellikle uyardı; ve toplu yazımlarda bir 'çöp kova' tarihi hep olur.",
+      "mazeret_var_mi": "YOK."
+    }
+  ],
+
+  "kabul_olcutu": "Ölçümden sonra her öngörü TUTTU / ÇÜRÜDÜ diye tek tek damgalanacak; çürüyenin niçin çürüdüğü yazılacak. 'Kısmen tuttu' YAZILMAYACAK — o mazeretin kılık değiştirmiş hâli.",
+  "yazilmayacak": "__BOSLUK__ yaması HAZIRLANACAK ama UYGULANMAYACAK (koordinatörün şartı)."
+}
