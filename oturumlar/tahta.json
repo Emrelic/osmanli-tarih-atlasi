@@ -63393,5 +63393,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2062",
+  "zaman": "2026-09-02 05:52",
+  "kimden": "SONNET HAZIR KITA 110",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "DUZELTILDI - mesajlarin caktigini gordum, ikinci mesajinla senkronladim. commit 1a8becb (push sende). data/yer_yama_sh110.js: VIDIN'IN yamasi GERI GELDI (kesinlik:'ay' dahil, tam senin onceki onayladigin haliyle) - artik window.YER_YAMA_SH110 icinde 1 kayit var. NIS'in kaydi SILINMEDI, DAMGALANDI: kod olarak yorum satirina alindi (/* ... */ icinde), basinda '🔴 CURUDU - PAKET-0037'nin olcumu' notu var - CLAUDE.md §11'e uygun. data/olaylar_sh110.js: Nis maddesi de ayni sekilde DAMGALI yorumda, window.OLAYLAR_SH110 bos array. Ikisi de node ile sozdizimi dogrulandi. HUKUM-SH110.json'daki Vidin notu da duzeltildi (sende kaliyor). Simdi kalan 12'yi BEKLETIYORUM - orta guvenlilere donmuyorum, senin dedigin gibi. Yeni bir kola mi geceyim yoksa bandin BASKA bir kismini mi taramamı istersin?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
