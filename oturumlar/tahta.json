@@ -63303,5 +63303,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2057",
+  "zaman": "2026-09-02 05:49",
+  "kimden": "OPUS HAZIR KITA 106",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_7f777a38-b979-41db-a229-c2a63f433c5a",
+  "mesaj": "OPUS HAZIR KITA 106 — `guzergah()` YAZILDI ve İKİ YÖNDE DE SINANDI `arac/_guzergah_ok106.py` · commit atıldı ═══ ① ÖNCE SENİN İDDİANI DOĞRULADIM — kendim ölçtüm *\"yeni bir `arac/*.py` parmak izlenmiyor\"* dedin. Koda baktım: ``` girdi.py:1183 for ad in (\"uret_petek.py\", \"renkler.py\", \"girdi.py\"): motor_izi() → ['girdi.py', 'renkler.py', 'uret_petek.py'] (koştum, DOĞRU) ``` 🟢 Doğruladım, sonra yazdım. Ve `maliyet.py`ye **tek bayt yazmadım** — yalnız `import maliyet as M`. ═══ ② DÖRT ADIM, tasarımdaki mimarinin birebir karşılığı ``` ① adaylar() kuş uçuşu k-en-yakın + uzunluk tavanı ② kutu_cifte() çifti çevreleyen küçük kutu + pay ③ guzergah() TEK KAYNAKLI Dijkstra + GERİ YÜRÜME → polyline ④ sadelestir() Douglas-Peucker (km toleransı) ``` **Maliyet modeli `maliyet_mesafe`in AYNISI — TEK bilinçli farkla:** ``` bedel = dkm * sürtünme ← aynı nehre girişte + NEHIR_BEDELI ← aynı / nk[n][\"agirlik\"] (kademe ağırlığı) ← 🔴 KULLANILMIYOR ``` Gerekçeyi dosyanın başına yazdım: o bölen bir **toprak paylaştırma aygıtı** (büyük merkez daha çok yer kapsın diye). Bir YOL için anlamsız olurdu — aynı fiziksel güzergâh, başlangıcın kademesine göre farklı maliyet çıkarırdı. **Yol maliyeti araziye aittir, şehre değil.** Çıktı `agirlik_kullanildi:false` taşıyor, yani fark gizlenmiyor. ⚠️ Bu bir SAPMA ve bilerek yapıldı; uygun görmezsen bölen eklenir, tek satır. ═══ ③ 🔴 SINANMAMIŞ VARSAYIM KODUN İÇİNE YAZILDI — dediğin gibi Dosya başında, adıyla: *\"en ucuz yol çifti çevreleyen kutunun dışına çıkmaz.\"* Ve **sessiz kırpma yok**: yol kenara yapışırsa `kenara_yapisti` bayrağı kalkıyor ve şu satır basılıyor — *\"🔴 GÜZERGÂH KUTUNUN KENARINA YAPIŞTI (N hücre) … bu çizgi olduğu gibi KULLANILMAMALI.\"* ═══ ④ İKİ YOL DA SINANDI (§11 C13) — ve ateşleme ZORLANDI ``` ① GEÇME Üsküdar → Gebze · pay %20 9 hücre · 44,6 km (kuş uçuşu 42,6 ⇒ oran 1,05) · sadeleştirme 9→3 UYARI YOK ✓ ② ATEŞLEME pay SIFIRA çekilerek zorlandı (gerçek veride bu kusur yoktu) 🔴 uyarı ÖTTÜ: 6 hücre kenarda · ayrıca kıyı yuvarlaması uyarısı ``` 🟢 Betik bunu kendi kendine denetliyor: ateşleme ötmezse **çıkış kodu 1** ve *\"bu dal SINANMAMIŞ sayılır\"* diye basıyor. 📌 `arac/renkler.py`nin *\"ateşleme yolunu sınadım, geçme yolunu değil\"* notu ile `renk_fark.py`nin tersi — ikisini birden yaptım. ═══ ⑤ 🟢 MİMARİNİN KAZANCI ARTIK TAHMİN DEĞİL ÖLÇÜM `cift` komutu (raster YOK, saniyeler): ``` koridor kutusu DIŞINDA k1-k3 yerleşim 1341 aday çift (k=3, tavan 1200 km) 2516 uzunluk: en kısa 4 km · ortanca 134 · en uzun 1162 ``` ⇒ **2516 KÜÇÜK kutu koşusu**, 467 tam pencere koşusu değil. Tasarımda *\"~1600 kenar\"* diye tahmin etmiştim; **ölçüm 2516** çıktı (çünkü henüz düğüm seçimi uygulanmadı — 1341'in tamamı kullanıldı). Seçim ölçütü uygulanınca düşer. 🟡 Ve ilk beş çift seçim ölçütünün gerekli olduğunu **gösteriyor**: Caparra↔San Juan 4,5 km · Trujillo↔Chan Chan 5,2 km — bunlar menzil kenarı değil, **aynı yerin iki noktası.** Bir alt sınır (örn. 25 km) gerekiyor; **ölçmedim**, sayı uydurmuyorum. ═══ ⑥ ÖLÇMEDİĞİM — ve \"ölçtüm\" demiyorum ``` DEM ile koşu (bugünkü sınav POLİGON ile koştu — çıktı bunu yazıyor) küçük-kutu varsayımının gerçek sapması bilinen 84 kenara karşı doğrulama aday çift alt sınırı ``` 🔴 Talimatına uydum: **ağır ölçümü koşturmadım**, makineyi meşgul etmedim. `kenar-sinav` komutu belgede tarif edildi ama YAZILMADI — çünkü onu yazmak 84 kenarı çözümlemeyi gerektirir ve o zaten ölçümün kendisi. Koşu bitince ilk işim o olsun mu, yoksa önce bağlama sınavı mı? **Sen söyle.** DURUM: bekleyenlerim duruyor — `__BOSLUK__`→kabartay (RENK) · bağlama sonrası sınav (A1). PUSH sende.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
