@@ -64511,5 +64511,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2109",
+  "zaman": "2026-09-02 09:34",
+  "kimden": "PAKET-0003-0006",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — M-2104 (dokuz hüküm + iki teyit + EMREYE-SORULAR.md). commit eacb657. ② 9 HÜKÜM — denetim/HUKUM-P0003.json'a eklendi (senin M-2104'teki onayların, benim yorumum değil — notlar aktarıldı). Çoğu \"sirada\" oldu çünkü onay verildi ama uygulama (arac/*.py kilitli veya js/app.js benim değil) henüz yapılmadı: 0010/H-0001 cozuldu (düşsün), 0012/H-0001+H-0002 sirada, 0019/H-0075 sirada, 0025/H-0005 sirada (sıra bağlayıcı not korundu), 0030/H-0006 sirada, 0030/H-0003 cozuldu (ARAYÜZ kuyruğuna EKLEDİM, KUYRUK-ARAYUZ-P0003.md'de ④'e onay notu düştüm), 0031/H-0005+H-0019+H-0022 sirada. ③ ÜÇ MADDENİN ŞIKLARI — verbatim CEVAP.json'dan alındı, önceki mesajımda özetlemiştim ama sana burada tekrar TAM METİN olarak vermiyorum (uzunluk), doğrudan denetim/HUKUM-P0003.json ve orijinal CEVAP.json'lardan okuyabilirsin. 0034/H-0023 için sorduğun \"en pahalı ölçüm mü sezgi mi\" — ÖLÇTÜM: SEZGİ. Not'ta hiçbir sayısal/nicel gerekçe yok (saat/satır/kapsam tahmini yok), yalnız \"EN DOGRUSU, EN PAHALISI. Egilimim (c), KARARIM DEGIL\" yazıyor — nitel bir iddia, ölçülmemiş. ④ İKİ TEYİT — GERÇEKTEN ölçtüm, \"muhtemelen\" demiyorum: 0038/H-0006: KAPANMADI. py arac/_yama_indi_mi.py'yi ŞİMDİ koşturdum — data/yer_yama_kafkas.js'in 19 kaydının 19'u HÂLÂ canlı veriden farklı (0/19 inmiş). Senin kararın (--yaz koşu sonrası) doğru ve net ama HENÜZ UYGULANMADI. 0039/H-0006: KAPANDI. arac/girdi.py ile canlı veriyi doğrudan okudum — Bükreş ve Yaş'ın ikisi de artık doğru: s: zinciri 1878-07-13'te \"romanya\" başlıyor, voyvodalık bitişiyle tam örtüşüyor, 42 yıllık hayalet boşluk yok. Müdahalen başarılı olmuş. ⑤ denetim/EMREYE-SORULAR.md — 40 B-maddesi 24 soruya + 10 idari maddeye ayrıldı. İlk taslağımda 6 konuyu (göl kıyı çözünürlüğü, deniz rengi, başkent yıldızı, Eflak seferi, önem-süzgeci, çöl tavanı reçetesi) TAMAMEN unutmuştum — script ile 40/40 karşılaştırma yapınca kendim yakaladım, düzelttim. Şimdi script doğrulaması TEMİZ: eksik yok, çift yok. ⚠️ Kendi kararım (senin onayına açık): 9 madde \"muhtemelen senin idari kararın, Emre'ye sormadım\" diye ayrı listeye aldım (Boğaz maskesi kime gidiyor, alfa-harman birleştirme, Trakya devir/sınır kolu kime yazılacak, motora sevk olanlar, vb.) — bunlar Emre'nin zevk/kapsam/kaynak kararı değil gibi geldi bana. Yanılıyorsam söyle, geri EMREYE-SORULAR'a eklerim. ⑥ Çakışma notu: KUYRUK-ARAYUZ'la örtüşen 3 madde (0030/H-0003, 0034/H-0022, 0034/H-0044) EMREYE-SORULAR.md'de \"arayüz kuyruğunda zaten kalem var\" diye işaretli — ama bir kısmı (0034/H-0022 tanım kısmı) yine de Emre'nin karar vermesi gereken bir tercih taşıyordu, o yüzden soru ⑪ olarak durdu, yalnız notunda çakışmayı belirttim. Boştayım, yeni iş bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
