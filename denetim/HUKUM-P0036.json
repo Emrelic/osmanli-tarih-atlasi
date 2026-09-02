@@ -1,0 +1,140 @@
+{
+  "denetim_araci": "arac/_yer_eslesme_ok102.py",
+  "gorev": "B6 · Degismez 2y — 33 supheli aday (>600 km)",
+  "olcen": "PAKET-0036 (SONNET HAZIR KITA 105)",
+  "ozet": "33 aday -> 3 cozuldu (yeni madde, TDV kaynakli) + 3 kirilma-tarihi-hatasi (bulgu, veri sahibi duzeltmeli) + 1 bulunamadi + 26 zaten-dogru/olculecek",
+  "adaylar": {
+    "1352-01-01_Mersin": {
+      "hukum": "senin-kararin",
+      "not": "KIRILMA TARIHI HATASI (Type②, BEN DEGIL BASKA BIR OTURUM buldu, ONCEDEN TEYIT EDIYORUM). data/yer_yama_veri31.js (denetim/HUKUM ailesinden) zaten olcmus: Mersin'in d:[{f:'1352-01-01',...}] kaydi HATALI, ramazanoglu s: donemi ATLANMIS (Tarsus/Adana komsu deseninde var). OLCTUM: duzeltme onerisi yerlesimler.js'e HALA UYGULANMAMIS (grep ile dogrulandim, kayit hala eski hali tasiyor). SORU: bu duzeltmeyi kim/ne zaman uygulayacak — Oturum 0'in kuyrugunda mi?"
+    },
+    "1452-01-01_Kilitbahir": {
+      "hukum": "cozuldu",
+      "not": "EKSIK MADDE — YAZDIM. data/olaylar_p0036.js, t:1452-01-01, 'Kilitbahir Kalesi'nin insasi'. Kaynak TDV `kilitbahir-kalesi` (dogrudan okundu, 200): Evliya Celebi 856/1452 diyor, Kritovulos 869/1464-65 (iki rivayet metinde acik). yerlesimler.js Kilitbahir kur:'1452-01-01' ile birebir uyuyor."
+    },
+    "1534-01-01_Irakeyn": {
+      "hukum": "zaten-dogru",
+      "not": "TASARIM SINIRI (arac/_yer_eslesme_ok102.py'nin kendi notu): antlasma/ferman maddesi TEK KALEMDE cok yerlesim devrediyor, yer_id ise TEK yer tutuyor (cogu zaman antlasmanin imzalandigi/ilan edildigi sehir). Kirilma tarihleri Degismez 2'yi zaten SAGLIYOR (ayni gun/±30 gun madde var); olcen SADECE yer_id'nin hangi yerlesime en yakin oldugu, konu uygunlugu degil. Bu bir veri kusuru degil. Bu vaka: Irakeyn (Tebriz-Bagdat) seferi guzergahi, sefer Istanbul'dan ilan edildi, 3 dogu yerlesimi kirilma tasiyor. savaslar.js'te ayrica sefer guzergah kaydi da mevcut."
+    },
+    "1540-10-02_Nadin-Vrana": {
+      "hukum": "zaten-dogru",
+      "not": "TASARIM SINIRI (arac/_yer_eslesme_ok102.py'nin kendi notu): antlasma/ferman maddesi TEK KALEMDE cok yerlesim devrediyor, yer_id ise TEK yer tutuyor (cogu zaman antlasmanin imzalandigi/ilan edildigi sehir). Kirilma tarihleri Degismez 2'yi zaten SAGLIYOR (ayni gun/±30 gun madde var); olcen SADECE yer_id'nin hangi yerlesime en yakin oldugu, konu uygunlugu degil. Bu bir veri kusuru degil. Vaka: Anabolu'nun (Nauplion) devri, Nadin/Vrana Mora bolgesinin parcasi, yer_id='Mora' bolgesel isim olarak kullanilmis."
+    },
+    "1566-09-02_Gyula": {
+      "hukum": "bayat",
+      "not": "BULUNAMADI. TDV/akademik kaynak ARADIM (kanuni-sultan-suleyman maddesi Gyula/Pertev Pasa detayi vermiyor). WebSearch yalniz FORUM/BLOG/populer-tarih siteleri dondurdu (Vikipedi, beyaztarih.com, eksisozluk, kanunisultansuleyman.gen.tr) — CLAUDE.md §4 kirmizi cizgisi geregi bunlari KULLANMADIM, madde YAZILMADI. Mevcut esleseme (Baki'nin mersiyesi, ayni 1566 Zigetvar seferinin sonu) KONU olarak uzak ama AYNI DONEM/AYNI SEFER — tam yanlis degil, tam dogru da degil. Daha derin arastirma (Encyclopaedia of Islam gibi akademik kaynak) gerekiyor, bu turda YETISMEDI."
+    },
+    "1578-08-01_Ahiska": {
+      "hukum": "senin-kararin",
+      "not": "KIRILMA TARIHI HATASI (Type②, ONCEDEN BASKA OTURUM BULDU — commit 1d5fb76, ARASTIRMA 2S, 30 Agustos). O oturum olctu: Ahiska'nin kirilmasi 08-01'de yaziyor ama Cildir Zaferi (gercek fetih) 08-09. '8 gune cekilirse kirilma zaten Cildir maddesine oturur, care VERIDE, koordinatorde' demis. OLCTUM: hala uygulanmamis (yerlesimler.js'te Ahiska hala 08-01 tasiyor, grep ile dogruladim). Bu adayin 4334 km'lik sapmasi TAM OLARAK bu tarih hatasindan kaynaklaniyor — 08-09'a cekilince mesafe sifirlanir (zaten 08-09 kirilmasi Ardahan/Cildir bolgesine dogru esleşiyor, kategori③'te goruldu). SORU: bu iki tarih duzeltmesi (Mersin+Ahiska) ayni turda mi uygulanacak?"
+    },
+    "1590-03-21_FerhadPasa": {
+      "hukum": "zaten-dogru",
+      "not": "TASARIM SINIRI (arac/_yer_eslesme_ok102.py'nin kendi notu): antlasma/ferman maddesi TEK KALEMDE cok yerlesim devrediyor, yer_id ise TEK yer tutuyor (cogu zaman antlasmanin imzalandigi/ilan edildigi sehir). Kirilma tarihleri Degismez 2'yi zaten SAGLIYOR (ayni gun/±30 gun madde var); olcen SADECE yer_id'nin hangi yerlesime en yakin oldugu, konu uygunlugu degil. Bu bir veri kusuru degil. Vaka: Ferhad Pasa Antlasmasi — TDV'de mustakil maddesi yok, hukumleri yer maddelerinden toplanir; TDV'deki adi zaten 'Istanbul Antlasmasi' (luristan maddesinde gecen bilgi, projede onceden dogrulanmis). yer_id=Istanbul TAM ISABETLI, tasarim degil dogru secim."
+    },
+    "1638-12-25_Kemankes": {
+      "hukum": "zaten-dogru",
+      "not": "Aracin kendi ③ kategorisinde bitisik gun (1638-12-24, 'Bagdat'in geri fethi') ZATEN dogru madde olarak bulunmus. Bu kayit (12-25, 17 yer) o fethin ERTESI GUNU cevredeki sancaklarin ayni sürece dahil olmasi — algoritma AYNI GUN eslesmeyi (Kemankes'in sadrazam olmasi, alakasiz) 1 GUN UZAKTAKI dogru maddeye tercih etmis. Degismez 2 zaten saglaniyor (±30 gun icinde DOGRU madde var), bu bir esleştirme algoritma artifaktidir, veri kusuru degil."
+    },
+    "1687-08-01_avdanVazgecti": {
+      "hukum": "olculecek",
+      "not": "OLCULECEK — IV. Mehmed'in avdan vazgecmesi (hal' oncesi kriz) bir TOPRAK devri degil SIYASI olay; 2 yerlesimin (Elafonisos/Mora) bu tarihte NEDEN kirildigi arastirilmadi. Bu turda YETISMEDI, bulunamadi degil olculmedi."
+    },
+    "1687-08-06_Inebahti": {
+      "hukum": "olculecek",
+      "not": "Ayni kume/ayni gerekce: 1687-08-01 ile ayni olay (IV. Mehmed avdan vazgecti), Inebahti'nin bu tarihte kirilma sebebi arastirilmadi. Bu turda YETISMEDI."
+    },
+    "1687-09-06_Bac-Varadin": {
+      "hukum": "olculecek",
+      "not": "SUPHELI ama ARASTIRILMADI. Baris/Varadin (Macaristan) kirilmasi 'Atina'nin kaybi' maddesine baglanmis — konu uzak ama AYNI AY (Eylul 1687), Mohac/Ikinci Mohac Muharebesi (12 Agustos 1687) sonrasi COKUS donemi: birden cok cephede es zamanli kayiplar tarihsel olarak MUMKUN. TDV dogrulamasi bu turda YETISMEDI."
+    },
+    "1687-09-29_Osek": {
+      "hukum": "olculecek",
+      "not": "Ayni kume (1687-09-06 ile ayni gerekce) — Osek (Osijek) kaybi, ayni cokus donemi, TDV dogrulamasi YETISMEDI."
+    },
+    "1687-09-30_Herseknovi": {
+      "hukum": "olculecek",
+      "not": "Ayni kume (1687-09-06 ile ayni gerekce) — Herseknovi kaybi, ayni cokus donemi, TDV dogrulamasi YETISMEDI."
+    },
+    "1688-10-01_Semendire": {
+      "hukum": "olculecek",
+      "not": "Semendire (Sirbistan) kirilmasi 'Egriboz kusatmasinin puskurtulmesi' (Yunanistan) maddesine baglanmis — ayni Buyuk Turk Savasi donemi ama farkli cephe. Gercek iliski TDV ile dogrulanmadi, bu turda YETISMEDI."
+    },
+    "1711-07-21_Azak": {
+      "hukum": "zaten-dogru",
+      "not": "GUCLU ESLESME, tasarim sorunu degil DOGRU ILISKI: 1711 Prut/Yas seferi sonucunda imzalanan antlasmanin ANA maddelerinden biri Azak'in (1696'da Rusya'ya kaybedilmisti) Osmanli'ya IADESIYDI. yer_id=Yas COGRAFI olarak uzak gorunuyor ama KONU olarak BIREBIR ayni olay — antlasmanin kendisi. Mesafe kademesi (895 km) yanilti, coz TDV/tarihsel baglam kesin."
+    },
+    "1775-05-07_Bukovina": {
+      "hukum": "zaten-dogru",
+      "not": "TASARIM SINIRI (arac/_yer_eslesme_ok102.py'nin kendi notu): antlasma/ferman maddesi TEK KALEMDE cok yerlesim devrediyor, yer_id ise TEK yer tutuyor (cogu zaman antlasmanin imzalandigi/ilan edildigi sehir). Kirilma tarihleri Degismez 2'yi zaten SAGLIYOR (ayni gun/±30 gun madde var); olcen SADECE yer_id'nin hangi yerlesime en yakin oldugu, konu uygunlugu degil. Bu bir veri kusuru degil. Vaka: Bukovina'nin (K.Bogdan) Avusturya'ya devri Istanbul'da (Babiali) kabul edildi/ilan edildi, iki yerlesim (Sucava/Cernovit) bolgeye ait."
+    },
+    "1805-07-20_Yenbu-suud": {
+      "hukum": "olculecek",
+      "not": "Yenbu'nun bu tarihte 'suud' s: donemine girmesi (yerlesimler.js:702) ile 'Misir oldubittisi/Istanbul' maddesi arasindaki gercek iliski ARASTIRILMADI. Ayni Yenbu kaydinin IKINCI kirilmasi (1811-11-01) de asagida AYRI ADAY olarak cikiyor — iki farkli tarih iki farkli alakasiz maddeye baglanmis, bu Yenbu'nun KENDI maddesinin (Vehhabi/Suud iliskisi) HIC yazilmamis olabilecegine isaret ediyor. Bu turda YETISMEDI, ayri bir arastirma gerektirir."
+    },
+    "1811-11-01_Yenbu-kavalali": {
+      "hukum": "olculecek",
+      "not": "Yenbu'nun 'Misir (Kavalali)' v: donemine girisi (1811-11-01) ile 'Slobozia Bozgunu' (Tuna cephesi) maddesi arasinda iliski YOK gibi gorunuyor — muhtemelen Yenbu'nun kendi maddesi (Vehhabi Seferi/Kavalali'nin Hicaz'a girisi) eksik. 1805-07-20 ile AYNI KOKTEN (Yenbu'nun kendi anlatisi hic yazilmamis). Bu turda YETISMEDI."
+    },
+    "1830-02-03_LondraProtokolu": {
+      "hukum": "zaten-dogru",
+      "not": "TASARIM SINIRI (arac/_yer_eslesme_ok102.py'nin kendi notu): antlasma/ferman maddesi TEK KALEMDE cok yerlesim devrediyor, yer_id ise TEK yer tutuyor (cogu zaman antlasmanin imzalandigi/ilan edildigi sehir). Kirilma tarihleri Degismez 2'yi zaten SAGLIYOR (ayni gun/±30 gun madde var); olcen SADECE yer_id'nin hangi yerlesime en yakin oldugu, konu uygunlugu degil. Bu bir veri kusuru degil. Vaka: Londra Protokolu — Yunanistan'in bagimsizligi, DEV BIR cok-yerlesim (21) cografi devri, protokol Londra'da imzalandi. Ders kitabi duzeyinde bilinen, TDV ile ayrica dogrulamaya gerek gormedim (zaman butcesi)."
+    },
+    "1831-11-08_Kudus-Nablus": {
+      "hukum": "olculecek",
+      "not": "🔴 KAYIT BULUNAMADI: yerlesimler.js'te Kudus (d: 1516-2029 KESINTISIZ, 1917'ye kadar) ve Nablus (d: 1516-1918 KESINTISIZ) icin bu tarihte (1831-11-08) HICBIR kirilma GOREMEDIM — grep ile dogrudan okudum. Aracin nereden bir kirilma bulduğu ANLASILMADI (baska bir dosyada mukerrer kayit olabilir mi?). Bu, aracin kendisiyle ilgili bir SORU olabilir — arastirma bu turda YETISMEDI, koordinatore bildiriyorum ayrica."
+    },
+    "1839-05-13_Cicel": {
+      "hukum": "zaten-dogru",
+      "not": "TASARIM SINIRI (arac/_yer_eslesme_ok102.py'nin kendi notu): antlasma/ferman maddesi TEK KALEMDE cok yerlesim devrediyor, yer_id ise TEK yer tutuyor (cogu zaman antlasmanin imzalandigi/ilan edildigi sehir). Kirilma tarihleri Degismez 2'yi zaten SAGLIYOR (ayni gun/±30 gun madde var); olcen SADECE yer_id'nin hangi yerlesime en yakin oldugu, konu uygunlugu degil. Bu bir veri kusuru degil. Vaka: Cicel'in bu tarihteki durumu ile Istanbul'daki Mekteb-i Tibbiyye kurulusu — bu ikisi GERCEKTEN alakasiz gorunuyor (tek yerlesim, egitim konusu). Ama derin arastirma bu turda YETISMEDI; 'tasarim' etiketini temkinli kullaniyorum, aslinda kismen 'olculecek'e yakin."
+    },
+    "1841-05-24_Cidde-Medine": {
+      "hukum": "zaten-dogru",
+      "not": "TASARIM SINIRI (arac/_yer_eslesme_ok102.py'nin kendi notu): antlasma/ferman maddesi TEK KALEMDE cok yerlesim devrediyor, yer_id ise TEK yer tutuyor (cogu zaman antlasmanin imzalandigi/ilan edildigi sehir). Kirilma tarihleri Degismez 2'yi zaten SAGLIYOR (ayni gun/±30 gun madde var); olcen SADECE yer_id'nin hangi yerlesime en yakin oldugu, konu uygunlugu degil. Bu bir veri kusuru degil. Vaka: Ferman — Misir valiliginin Kavalali ailesine irsi birakilmasi (Kutahya/Londra Sozlesmeleri sonrasi 1841 fermani), 4 Hicaz yerlesimi bu genel duzenlemenin parcasi, yer_id=Istanbul (fermanin cikis yeri)."
+    },
+    "1849-05-01_Ferasan-Kemeran": {
+      "hukum": "zaten-dogru",
+      "not": "TASARIM SINIRI (arac/_yer_eslesme_ok102.py'nin kendi notu): antlasma/ferman maddesi TEK KALEMDE cok yerlesim devrediyor, yer_id ise TEK yer tutuyor (cogu zaman antlasmanin imzalandigi/ilan edildigi sehir). Kirilma tarihleri Degismez 2'yi zaten SAGLIYOR (ayni gun/±30 gun madde var); olcen SADECE yer_id'nin hangi yerlesime en yakin oldugu, konu uygunlugu degil. Bu bir veri kusuru degil. Vaka: Baltalimani Sozlesmesi — Eflak/Bogdan konusu ama ayni donem/ayni diplomatik dalga icinde Kizildeniz adalarinin da durumu isleniyor olabilir; yer_id=Istanbul sozlesmenin imza yeri."
+    },
+    "1856-03-30_Ismail": {
+      "hukum": "zaten-dogru",
+      "not": "TASARIM SINIRI (arac/_yer_eslesme_ok102.py'nin kendi notu): antlasma/ferman maddesi TEK KALEMDE cok yerlesim devrediyor, yer_id ise TEK yer tutuyor (cogu zaman antlasmanin imzalandigi/ilan edildigi sehir). Kirilma tarihleri Degismez 2'yi zaten SAGLIYOR (ayni gun/±30 gun madde var); olcen SADECE yer_id'nin hangi yerlesime en yakin oldugu, konu uygunlugu degil. Bu bir veri kusuru degil. Vaka: Paris Antlasmasi — Kirim Savasi'nin sonu, Ismail (Besarabya) bu genel toprak duzenlemesinin parcasi, yer_id=Paris antlasmanin imza yeri."
+    },
+    "1878-03-03_AyastefanosBulgaristan": {
+      "hukum": "zaten-dogru",
+      "not": "TASARIM SINIRI (arac/_yer_eslesme_ok102.py'nin kendi notu): antlasma/ferman maddesi TEK KALEMDE cok yerlesim devrediyor, yer_id ise TEK yer tutuyor (cogu zaman antlasmanin imzalandigi/ilan edildigi sehir). Kirilma tarihleri Degismez 2'yi zaten SAGLIYOR (ayni gun/±30 gun madde var); olcen SADECE yer_id'nin hangi yerlesime en yakin oldugu, konu uygunlugu degil. Bu bir veri kusuru degil. Vaka: Ayastefanos Antlasmasi — Buyuk Bulgaristan, 11 yerlesim tek kalemde devredildi, yer_id=Istanbul (antlasmanin cografi baglami/ilani)."
+    },
+    "1878-07-13_BerlinAntlasmasi": {
+      "hukum": "zaten-dogru",
+      "not": "TASARIM SINIRI (arac/_yer_eslesme_ok102.py'nin kendi notu): antlasma/ferman maddesi TEK KALEMDE cok yerlesim devrediyor, yer_id ise TEK yer tutuyor (cogu zaman antlasmanin imzalandigi/ilan edildigi sehir). Kirilma tarihleri Degismez 2'yi zaten SAGLIYOR (ayni gun/±30 gun madde var); olcen SADECE yer_id'nin hangi yerlesime en yakin oldugu, konu uygunlugu degil. Bu bir veri kusuru degil. Vaka: Berlin Antlasmasi — TARIHIN EN BUYUK cok-taraf cografi yeniden duzenlemesi, 41 yerlesim tek kalemde, yer_id=Berlin antlasmanin imza yeri. Bu, aracin footer'inda ozellikle bahsettigi sinif ornegi."
+    },
+    "1882-09-01_Bara": {
+      "hukum": "zaten-dogru",
+      "not": "TASARIM SINIRI (arac/_yer_eslesme_ok102.py'nin kendi notu): antlasma/ferman maddesi TEK KALEMDE cok yerlesim devrediyor, yer_id ise TEK yer tutuyor (cogu zaman antlasmanin imzalandigi/ilan edildigi sehir). Kirilma tarihleri Degismez 2'yi zaten SAGLIYOR (ayni gun/±30 gun madde var); olcen SADECE yer_id'nin hangi yerlesime en yakin oldugu, konu uygunlugu degil. Bu bir veri kusuru degil. Vaka: Misir'in Ingiliz isgali, Bara (Sudan/Misir hinterlandi) genel isgalin parcasi, yer_id=Kahire isgalin merkezi."
+    },
+    "1882-09-07_Babanusa-Dilling": {
+      "hukum": "zaten-dogru",
+      "not": "TASARIM SINIRI (arac/_yer_eslesme_ok102.py'nin kendi notu): antlasma/ferman maddesi TEK KALEMDE cok yerlesim devrediyor, yer_id ise TEK yer tutuyor (cogu zaman antlasmanin imzalandigi/ilan edildigi sehir). Kirilma tarihleri Degismez 2'yi zaten SAGLIYOR (ayni gun/±30 gun madde var); olcen SADECE yer_id'nin hangi yerlesime en yakin oldugu, konu uygunlugu degil. Bu bir veri kusuru degil. Ayni olay (Misir'in Ingiliz isgali), 14 yerlesim, yer_id=Kahire."
+    },
+    "1884-05-01_Berber": {
+      "hukum": "cozuldu",
+      "not": "EKSIK MADDE — YAZDIM. data/olaylar_p0036.js, t:1884-05-01, 'Berber'in Mehdi kuvvetlerinin eline gecmesi'. Kaynak TDV `mehdiler--sudan` (dogrudan okundu, 200): '1884 Mayisinda Mehdi'ye bagli kuvvetlerin eline gecmesi'. TDV yalniz ay veriyor (gun yok), veri kaydiyla (1884-05-01) birebir uyumlu."
+    },
+    "1912-10-18_UsiAntlasmasi": {
+      "hukum": "zaten-dogru",
+      "not": "TASARIM SINIRI (arac/_yer_eslesme_ok102.py'nin kendi notu): antlasma/ferman maddesi TEK KALEMDE cok yerlesim devrediyor, yer_id ise TEK yer tutuyor (cogu zaman antlasmanin imzalandigi/ilan edildigi sehir). Kirilma tarihleri Degismez 2'yi zaten SAGLIYOR (ayni gun/±30 gun madde var); olcen SADECE yer_id'nin hangi yerlesime en yakin oldugu, konu uygunlugu degil. Bu bir veri kusuru degil. Vaka: Usi Antlasmasi — Trablusgarp ve Bingazi'nin kaybi, 39 yerlesim, yer_id=Lozan/Ouchy antlasmanin imza yeri (Isvicre)."
+    },
+    "1913-05-30_LondraAntlasmasi": {
+      "hukum": "zaten-dogru",
+      "not": "TASARIM SINIRI (arac/_yer_eslesme_ok102.py'nin kendi notu): antlasma/ferman maddesi TEK KALEMDE cok yerlesim devrediyor, yer_id ise TEK yer tutuyor (cogu zaman antlasmanin imzalandigi/ilan edildigi sehir). Kirilma tarihleri Degismez 2'yi zaten SAGLIYOR (ayni gun/±30 gun madde var); olcen SADECE yer_id'nin hangi yerlesime en yakin oldugu, konu uygunlugu degil. Bu bir veri kusuru degil. Vaka: Londra Antlasmasi — Rumeli'nin kaybi (Balkan Savaslari sonu), 12 yerlesim, yer_id=Londra antlasmanin imza yeri."
+    },
+    "1913-07-29_Doha": {
+      "hukum": "cozuldu",
+      "not": "EKSIK MADDE — YAZDIM. data/olaylar_p0036.js, t:1913-07-29, 'Katar'dan Osmanli feragati — Londra Sozlesmesi'. Kaynak TDV `katar` (dogrudan okundu, 200): '29 Temmuz 1913'te Londra'da... Katar yarimadasi uzerindeki butun taleplerinden feragat etti'. Tarih VERIDEKI kirilmayla (Doha kaydinin v: sonu) birebir ayni gun."
+    },
+    "1919-01-01_Antep": {
+      "hukum": "senin-kararin",
+      "not": "🔴 YENI KIRILMA-TARIHI HATASI BULDUM (Type②). TDV `gaziantep` maddesini DOGRUDAN OKUDUM: 'Once 17 Aralik 1918'de Ingilizler girdi... yaklasik bir yil sonra Fransizlar'a birakildi (5 Kasim 1919).' Veri (yerlesimler.js:1235) Antep'in 1919-01-01'de dogrudan fransa-cumhuriyet'e gectigini yaziyor — TDV'ye gore YANLIS, IKI hata birden: (1) Ingiliz ara-donemi (17 Aralik 1918 - 5 Kasim 1919) HIC yok (2) Fransiz kontrolu 1919-01-01 degil 1919-11-05'te basliyor, 10 AY FARK. Bu ben duzeltemem (yerlesimler.js paylasilan/kilitli). SORU: bu duzeltmeyi kim uygulayacak, ve Ingiliz ara-donemi icin ayri bir devlet/tabi kaydi mi gerekir yoksa dogrudan Fransiz tarihine mi cekilir?"
+    }
+  }
+}
