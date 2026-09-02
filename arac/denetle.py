@@ -1633,7 +1633,33 @@ ATLAS_BASI = "1281-01-01"
 #   🔜 Cozum tek kayitta DEGIL, 34'unde BIRDEN: fetret `__BOSLUK__` ile
 #   ifade edilir. Bir modeli tek bir kayit icin degistirmek, o kaydi
 #   kardeslerinden ayirir (ayni oturumun kendi dersi, ayni gun).
-BEKLENEN_ONCE = 469
+#
+# 🔴🔴 469 -> 468 GERI ALINDI — AYNI GUN, ve sebebi YUKARIDAKI PARAGRAFIN
+#   TAMAMEN YANLIS OLMASI. Orada "cozum 34'unde BIRDEN: fetret __BOSLUK__
+#   ile ifade edilir" yaziyor. OPUS HAZIR KITA 109 kaynaga sordu ve
+#   FETRET DIYE BIR SEY CIKMADI:
+#     TDV `ilhanlilar` (govde okundu): "Iran'da kurulan bir Mogol devleti
+#       (1256-1353)" — ve 1335 SONRASI ilhanlari TEK TEK sayiyor:
+#       Arpa 1335 · Musa 1336 · Muhammed 1336 · Tuga Timur 1337 ·
+#       Cihan Timur 1338 · Sati Beg 1339 · Suleyman 1340 · Nusirevan 1344-53
+#     TDV `celayirliler` (govde okundu): "1340-1431 yillari arasinda…",
+#       "bagimsiz bir devlet kurdu (1340)"
+#   => 1335-1340 arasi SAHIPSIZ DEGILDI. Veri bir FETRET tasimyor,
+#      YANLIS SINIR GUNU tasiyor.
+#   📌 Ve `devletler.js` ZATEN DOGRUYU SOYLUYORDU: `ilhanli` kunyesi
+#      1256-01-01 -> 1353-01-01. Veri, kunyesinden 17 YIL ERKEN kesiyordu.
+#
+#   ⚠️ VE KUSUR KOORDINATORDEYDI: isi "fetret var, kovalari ayir" diye
+#   sevk ettim. O bir OLCUM DEGIL BIR VARSAYIMDI. Ucuncu ihtimali —
+#   DOGRU KIMLIK, YANLIS TARIH — hic saymamistim, ve gercek oydu.
+#   ⇒ Bir cerceve vermek, cercevenin dogrulugunu pesinen kabul ettirmektir;
+#     isci oturum ucunu de olcup ucunu de curuttu.
+#
+#   Imadiye'nin +1'i kaynakla KALKTI ⇒ tavan gevsek kalirdi ve denetimin
+#   kendi uyarisi oterdi ("TAVAN GEVSEK … aradaki 1 GORUNMEZ").
+#   🔜 `data/yer_yama_ok109_fetret.js` (32 kayit) uygulaninca bu sayi
+#      468 -> 436 olacak; tavan o zaman 436'ya cekilir.
+BEKLENEN_ONCE = 468
 # 🔴 SARAN — İKİ UÇTAN DA aşan dönemler, yani dönem künyeyi TAMAMEN İÇİNE
 # ALIYOR. `4c ∩ 4d`, yani AYRI BİR KOVA DEĞİL KESİŞİM — üçü TOPLANMAZ.
 # Ayrı basılmasının sebebi teşhis: bir dönem künyeyi tamamen sarıyorsa, o
