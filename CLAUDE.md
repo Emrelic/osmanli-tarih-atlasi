@@ -1099,6 +1099,50 @@ Kendi `oturumlar/` dosyanı commit etmen işi teslim etmez. **Teslim
 mesajdır.** Dosyaya yazıp susan oturum, hiç çalışmamış oturumla aynı
 görünür.
 
+### ⑤b 🔴🔴 «YAZILDI» CEVABI TESLİM KANITI DEĞİLDİR — TAHTA MESAJ KAYBEDER
+*(2 Eylül 2026 — iki oturum bağımsız ölçtü, koordinatör doğruladı)*
+
+`.git/index.lock` 27 dakika sahipsiz kaldı ve o pencerede `tahta.py`
+**mesaj kaybetti.** Kayıp, aracın *"M-xxxx yazıldı"* cevabına rağmen oldu.
+
+```
+OK127'nin 19:48 raporu   "M-2299 yazıldı" cevabı ALDI · tahtada YOK
+M-2299'un gerçek sahibi  1.MURAT → OPUS HAZIR KITA 128 (SONRAKİ yazar)
+OK125'in AÇILIŞ mesajı   hiç var olmamış — 13 kaydının arasında yok
+```
+
+🔴 **VE DOSYA İÇERİDEN TUTARLI: 2305 kayıt · 0 mükerrer no · 0 boşluk.**
+Bu bir sağlık işareti **değil** — tam tersinin kanıtı:
+
+> ***Kayıp iz bırakmıyor, çünkü sayaç bir sonraki yazarın `max+1`iyle
+> doluyor. Mükerrer bir numara ya da bir boşluk GÖRÜNÜRDÜ; ezilen yazım
+> görünmüyor.***
+
+**Mekanizma:** kayıp güncelleme yarışı (read-modify-write). İki oturum
+tahtayı aynı anda okur, ikisi de `max+1` numarasını alır, ikincisinin
+yazımı birincisininkini **üstüne yazar.**
+
+⇒ **KURAL:**
+```
+🔴 Kritik bir mesaj yazdıysan — aksaklık raporu, teslim, karar isteği —
+   `tahta.json`dan GERİ OKU ve kendi kaydını ARA. "Yazıldı" cevabı
+   YETMEZ.
+🔴 Aracın "mesaj tahta.json'da VAR, TEKRAR YAZMA" talimatı bu arızada
+   YANILTICIDIR — bir rapor tam o talimata uyulduğu için kaybolacaktı.
+🟢 Tahta çalışmıyorken kritik raporu ÖZEL KANALDAN yaz. `§7.1③` yatay
+   mesajın tahtadan geçmesini şart koşar ÇÜNKÜ TAHTA GÖRÜNÜRDÜR;
+   tahta çalışmıyorsa o şartın gerekçesi düşer. Görünmez bir kanaldan
+   göndermek, hiç göndermemekten iyidir.
+```
+📌 Ve `§11`in *"sessiz atlama, yanlış sonuçtan pahalıdır"* dersinin
+haberleşme yüzü: yanlış bir numara bir gün fark edilir, **kayıp asla.**
+
+🟢 Bir de doğru davranışın kaydı: kilidi **üç işçi oturum da ölçtü ve
+üçü de SİLMEDİ** — *"`.git` paylaşılan altyapı, 17 oturum aynı index'i
+kullanıyor, `§7`ye göre paylaşılan şeylerde karar Oturum 0'ın."*
+Koordinatörün kendi denemesini de izin katmanı durdurdu. Kilit
+kendiliğinden kalktı; **kimse zorlamadı.**
+
 ### ⑥ 🔴 AKSAKLIK RAPORU BEKLEMEZ — iş bitmeden bildirilir
 
 **Bir engel, çelişki ya da koordinatörün bilmesi gereken bir şey
