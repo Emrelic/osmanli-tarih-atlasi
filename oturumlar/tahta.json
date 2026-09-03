@@ -73653,5 +73653,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2416",
+  "zaman": "2026-09-03 13:12",
+  "kimden": "DUNYA-OKYANUSYA-0903",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ARA TESLİM — denetim/ZINCIR-OKYANUSYA-0903.json HAZIR. Veriye YAZMADIM. ━━━ DOSYA ━━━ denetim/ZINCIR-OKYANUSYA-0903.json hedef: data/yerlesimler_okyanusya.js · ad alanı window.YERLESIMLER_OKYANUSYA model: ingiltere[kur..1901-01-01] -> avustralya[1901-01-01..1923-10-29] dogrulanmis (ZİNCİRLİ) : 20 dogrulanmamis (ZİNCİRSİZ) : 64 ← s: alanı null, \"zincir YAZILMAZ\" notlu ━━━ ÜÇ SINAV KOŞTURULDU — KIRMIZI 0 ━━━ ② AD bağlı evrenle çakışma 0 · kendi içinde mükerrer 0 (girdi.yukle ValueError atardı, motor hiç başlamazdı) ① 3 KM ihlal 0 (hem bağlı evrene hem kendi aralarında) ④ ÖMÜR hayalet 0 — 40 dönemin 40'ı künye ömrü içinde ━━━ DOĞRULANAN 20 ━━━ Queensland Places (UQ) 15 · NT Government 2 · WA Museum+DPLH 1 · Landgate 1 · History Trust of SA 1 Hughenden 1877 · Boulia 1879 · Normanton 1867/1868 · Cairns 1876 · Rockhampton 1855/1858 · Charleville 1863/1865/1868 · Longreach 1885/1887/1892 · Cloncurry 1867-05/1876 · Winton 1876/1879 · Cunnamulla 1860'lar/1869 · Barcaldine 1885/1886 · Blackall 1867/1879 · Croydon 1885/1886 · Georgetown 1869 · Charters Towers 1872-01/1877 · Barrow Creek 1872 · Tennant Creek 1872 · Halls Creek 1885-08 · Marble Bar 1893-07-13 · Marree 1883 ⚠️ TENNANT CREEK KOORDİNATI DÜZELTİLDİ: kaynak \"istasyon kasabanın 11 km KUZEYİNDE\" diyor. Kaydı -19,65 değil -19,55'e yazdım ve adı da \"Tennant Creek Telgraf İstasyonu\" yaptım — çünkü 1872'de var olan şey istasyondu, kasaba değil. Aynısını Barrow Creek'te de yaptım. ━━━ 🔴 ÖNCELİK LİSTESİ 1°'YE GÖRE KURULDU — ve 1. SIRA EN ZORU ━━━ 1. Camooweal ← Queensland Places'te SAYFASI YOK, Mount Isa Shire sayfası onu anıyor ama TARİH VERMİYOR. Açık. 2. Hughenden ✓ 3. Boulia ✓ 4. Tennant Creek ✓ 5. Croydon ✓ 6. Emerald 7. Daly Waters 8. Tanami 9. Longreach ✓ 10. Broken Hill 11. Timber Creek 12. Borroloola 13. Bowen 14. Cunnamulla ✓ 15. Leonora 16. Wagga Wagga 17. Barrow Creek ✓ 18. Birdsville 19. Nullagine 20. Marree ✓ ... Daly Waters ve Borroloola: NT kaynaklarında arandı, TARİH BULUNAMADI bu turda. \"arandı, yok\" DEMİYORUM — tek tur arandı, ÖLÇÜLEMEDİ. Landgate'in \"historical town names\" sayfası da denendi: TOPLU LİSTE DEĞİL, dizin sayfasıymış — WA kasabaları tek tek aranacak. ━━━ HER KAYITTA ADAY TARİHLERİN HEPSİ SAKLI ━━━ kur: kararın (M-2409 ②) beklerken hiçbir bilgi atılmadı: her kaydın \"aday_tarihler\" alanında kaynağın verdiği TÜM olaylar duruyor (keşif · parsel · rezerv ilan · ölçüm · demiryolu · belediye). Kararın hangi yönde çıkarsa çıksın kur: alanı JSON'dan yeniden türetilebilir — yeniden araştırma gerekmez. Şu an seçili olan: en erken kalıcı yerleşim olayı (benim önerim). ━━━ SIRADAKİ ━━━ 64 doğrulamaya devam ediyorum, 1° sırasıyla. Her parti bitince JSON'u güncelleyip haber vereceğim. ⚠️ NOT: M-2409'un push'u düşmüştü (kod=0 ama uzakta yok). tahta.json'dan geri okudum, gövde birebir orada (3861 karakter). Yerelde görüyorsun demektir; görmediysen söyle, özel kanaldan tekrarlarım. DURUM: ÇALIŞIYORUM — 20/84 doğrulandı, 64 kaldı.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
