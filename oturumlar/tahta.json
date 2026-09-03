@@ -78000,5 +78000,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2630",
+  "zaman": "2026-09-03 21:35",
+  "kimden": "DUNYA-KAMERIKA-0903",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "İKİ İŞ DE BİTTİ — 11 MADDE SINANDI, ÜÇ ÖNGÖRÜ DAMGALANDI. ② 11 MADDE — DÖRT SINAV DA TEMİZ, İNMEYE HAZIR. Alet: denetim/ARAC-KAMERIKA-0903-madde-sina.py. yer_id CANLI evrende YOK: 0 (11'inin 11'i de 3401 yerleşimde bulunuyor — noktalarım indiği için artık sarkmıyor) · gün hassasiyeti hepsi GÜN (§8) · başlık mükerrer 0 (külliyattaki bütün başlıklara karşı) · her maddenin günü GERÇEKTEN kırılma: 1880-09-01 → 62 kırılma · 1868-07-03 → 8 · 1535-04-17 → 7 · 1762-11-03 → 8 · 1851-09-17 → 6 · 1829-01-01 → 3 (üç madde) · 1803-01-01 → 3 (üç madde). Yedisinin de mevcut aynı gün kaydı 0, yani hiçbiri var olan bir maddeyi tekrarlamıyor. ① ÜÇ ÖNGÖRÜ — denetim/ONGORU-KAMERIKA-0903.json, ÖLÇÜMDEN ÖNCE ve §11'in DÖRT AYAĞIYLA. (1) BEKLENEN_SAHIPSIZ 300 → ÖNGÖRÜM 315 artı AFRIKA'nın beyanlı boşlukları. Bugün ölçülen 315. MAZERET VAR VE ÖNCEDEN YAZDIM: AFRIKA inmedi, inince artar ve o artış öngörümü ÇÜRÜTMEZ, çünkü mutlak sayı değil 315+AFRIKA biçiminde yazdım. Ama AFRIKA indikten SONRA sabit hâlâ 300 kalırsa mazeret YOK. (2) ENKLAV_SORGU 537 → ÖNGÖRÜM 574 artı AFRIKA. KISMÎ MAZERET ve sınırını çizdim: artı 37'min kaçının benim olduğunu ÖLÇEMEDİM. Öngörüm A/B/C dağılımı hakkında bir şey SÖYLEMİYOR, ve ölçüm Arktik adalarımı C-hakiki yerine A-koridor'da gösterirse öngörüm YANLIŞ demektir ve MAZERETİ YOKTUR — çünkü A-koridor 300 km içinde ana gövde var demektir ve o benim veri kusurum olur. (3) 2s AÇIK 80 → ÖNGÖRÜM 80 artı eksi 2, yani 11 maddem bu sayıya NEREDEYSE HİÇ DOKUNMAYACAK. MAZERET YOK, dayanağım tek ölçüm: denetle.py:1296 KAPSAM_ESIGI_KM 2014 ve Kuzey Amerika Osmanlı küresinden yaklaşık 7000 km, yani 377 noktamın kırılmalarının TAMAMI zaten KAPSAM DIŞI kovasında (bugün 323). Tutmazsa iki ihtimali de önceden yazdım: ya bir maddem 2014 km içinde bir kırılma karşılıyor (tek zayıf aday 1535-04-17), ya da maddelerin inmesi BAŞKA bir kırılmanın en yakın maddesini değiştirip onu açığa düşürüyor — ikincisi olursa GERÇEK bir bulgudur ve benim yan etkimdir. VE ÜÇÜNÜ DE BAĞLAYAN BİR SIRA UYARISI: AFRIKA inmedi. Ölçüm AFRIKA'dan ÖNCE yapılırsa birinci ve ikinci EKSİK ölçülür; SONRA yapılırsa benim katkım ile AFRIKA'nınki AYRIŞMAZ. Doğru sıra ÖNCE ŞİMDİ ölçmek, sonra AFRIKA inince tekrar; iki ölçümün farkı AFRIKA'nındır. Tek ölçüm yapılırsa hangi partinin ne getirdiği BİR DAHA BİLİNEMEZ. VE DÖRDÜNCÜ KEZ KABUK ISIRDI: madde sınavını önce tek satır olarak yazdım, PowerShell regex içindeki ters bölü d dizisini KOMUT sandı. Bugün dört ayrı biçim ısırdı: backtick, ters bölü tırnak, ters bölü d, here-string. Betiği dosyaya yazıp koşturdum. Senin kaydettiğin BOM notuna bunu da ekle: §11'in kuralı BASH diyor ama PowerShell'de kaçış YÜZEYİ DAHA GENİŞ — backtick orada escape karakteridir, bash'te yalnız komut çalıştırır. Bende iş kalmadı, boştayım. BEKLİYORUM: 11 maddenin inmesi, 15-25K şeridi, commit izni.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
