@@ -1,5 +1,5 @@
 {
- "_NOT": "DUNYA-SIBIRYA-0903 · 3 Eylül 2026 · ARAŞTIRMA turu çıktısı. Bu bir KUYRUK dosyasıdır, VERİ DEĞİLDİR (M-2413 ②: `bos:` beş kova veri alanı, kuyruk sınıfları denetim/ altında yaşar). data/ altına indirmek koordinatörün işi. Ayrıntılı gerekçe ve kaynak künyeleri: denetim/BULGU-SIBIRYA-0903.md · İKİNCİ KAYNAK TURU işlendi (3 Eylül, öğleden sonra). · ÜÇÜNCÜ TUR: 3 km sınavı · hongoray taşıyıcısı · altı halkın sınıflandırması. · DÖRDÜNCÜ KAYNAK TURU. · BEŞİNCİ TUR: ölçüt zaman körü (M-2472) kutuda ölçüldü.",
+ "_NOT": "DUNYA-SIBIRYA-0903 · 3 Eylül 2026 · ARAŞTIRMA turu çıktısı. Bu bir KUYRUK dosyasıdır, VERİ DEĞİLDİR (M-2413 ②: `bos:` beş kova veri alanı, kuyruk sınıfları denetim/ altında yaşar). data/ altına indirmek koordinatörün işi. Ayrıntılı gerekçe ve kaynak künyeleri: denetim/BULGU-SIBIRYA-0903.md · İKİNCİ KAYNAK TURU işlendi (3 Eylül, öğleden sonra). · ÜÇÜNCÜ TUR: 3 km sınavı · hongoray taşıyıcısı · altı halkın sınıflandırması. · DÖRDÜNCÜ KAYNAK TURU. · BEŞİNCİ TUR: ölçüt zaman körü (M-2472) kutuda ölçüldü. · ALTINCI TUR: M-2478'in 1300 ayrımı.",
  "oturum": "DUNYA-SIBIRYA-0903",
  "kutu": {
   "latG": 50,
@@ -1278,6 +1278,61 @@
   "OLCULMEDI": [
    "10 beyan zonu noktası eklendiğinde erken kesitin ne olacağı — beyan noktalarının `kur:`ı yok, yani 1281'den sahnedeler ve ölçütte hücre KAPATIRLAR; ama `s:` taşımadıkları için haritada TOPRAK BOYAMAZLAR. Ölçütün bunu nasıl saydığı ÖLÇÜLMEDİ.",
    "1281 kesiti (atlasın ilk günü) hiç ölçülmedi — 1300 ile arasında fark olmaması beklenir ama BAKILMADI."
-  ]
+  ],
+  "M2478_AYRIM": {
+   "_soru": "1300 kesitindeki 351 açık hücrenin kaçı BEYAN kovasında, kaçı gerçekten araştırılmamış?",
+   "toplam": 351,
+   "beyanli": {
+    "hucre": 253,
+    "yuzde": 72.1,
+    "not": "cinsi ÖNERİLMİŞ sekiz zon içinde — beyan bir CEVAPTIR, boşluk değil"
+   },
+   "olculemedi": {
+    "hucre": 41,
+    "yuzde": 11.7,
+    "dagilim": "Altay-Sayan-Baykal 27 · Vasyugan 14"
+   },
+   "ARASTIRILMAMIS": {
+    "hucre": 57,
+    "yuzde": 16.2
+   },
+   "HUKUM": "Sibirya'nın erken kesit boşluğunun %72'si BEYANLA cevaplanmış durumda — yani 'devasa boşluk' hükmü ölçülen kısmın çoğunluğu için DOĞRU. Gerçek araştırma borcu 57 hücre (%16,2).",
+   "zon_zon_1300": {
+    "Yana-İndigirka-Kolıma yaylası": 60,
+    "ARAŞTIRILMAMIŞ": 57,
+    "Aşağı Tunguska platosu (Evenkiya)": 47,
+    "Vilyuy-Olenyok yukarısı": 34,
+    "Taymır + Putorana": 34,
+    "Aldan-Stanovoy": 28,
+    "Altay-Sayan-Baykal (ölçülemedi)": 27,
+    "Kuzey Ural + Yamal batısı": 27,
+    "Çukotka": 16,
+    "Vasyugan (ölçülemedi)": 14,
+    "Kamçatka-Koryak": 7
+   },
+   "ARASTIRILMAMIS_57_NEREDE": {
+    "_not": "57 hücre RASTGELE DEĞİL — dört bloğa toplanıyor",
+    "① Orta ve Güney Ural + Trans-Ural (51-59K / 56-66D)": {
+     "hucre": 24,
+     "OLCUM": "Bu kutuda MEVCUT nokta sayısı 4, ve ÜÇÜ 1300'de sahnede DEĞİL (Perm kur:1723 · Kungur kur:1648 · Orsk kur:1735). Yalnız Tümen (Çimgi-Tura) 1300'de sahnede ve sahibi `altinorda`.",
+     "HUKUM": "🔴 BU BİR «DEVASA BOŞLUK» DEĞİL, GERÇEK BİR ARAŞTIRMA BORCU. 1300'de burası Altın Orda tâbiiyetindeki Başkurt ülkesiydi. `altinorda` künyesi VAR ve kutumda ZATEN 9 noktada kullanılıyor (hepsi 65°D'nin DOĞUSUNDA). Eksik olan 65°D'nin BATISINDA XIV. yüzyıl noktası.",
+     "KUNYE_BOSLUGU": "`baskurt` künyesi YOK. M-2425 ölçütüne göre aşiret konfederasyonu KÜNYE ALIR (emsal `turkmen`·`nogay`·`komanci`) ⇒ künye adayı olabilir — ama BU TURDA ÖLÇMEDİM.",
+     "damga": "HİPOTEZ — coğrafya ve künye kullanımı ölçüldü, Başkurt yerleşimleri ARANMADI"
+    },
+    "② Amur ve aşağı Amur (51-59K / 132-138D + 53K/158D)": {
+     "hucre": 9,
+     "damga": "ARAŞTIRILMADI"
+    },
+    "③ Kuzey Buz Denizi kıyısı (71-73K / 116-156D)": {
+     "hucre": 12,
+     "damga": "muhtemelen GERÇEK boşluk (Anabar-Olenyok deltası, Doğu Sibirya Denizi kıyısı) ama zon kutularımın DIŞINDA kaldı — sınıflandırılmadı"
+    },
+    "④ Yenisey ortası ve Vasyugan kenarı (57K/90-98D · 63-65K/82-86D)": {
+     "hucre": 12,
+     "damga": "ARAŞTIRILMADI"
+    }
+   },
+   "OLCULMEDI_2": "57'nin 33'ü (② ③ ④) için hiçbir hipotezim yok; yalnız ①'i inceledim."
+  }
  }
 }
