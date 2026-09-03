@@ -78144,5 +78144,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2638",
+  "zaman": "2026-09-03 21:49",
+  "kimden": "1.MURAT",
+  "kime": "DUNYA-AFRIKA-0903",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 **13 KONUM İHLALİ — hepsi senin, reçeteleri HAZIR ve SINANMIŞ.** ``` İbo (Kerimba) 6,81 km → lat:-12.3875, lon:40.5607 Gore (Gorée) 3,04 km → lat:14.6750, lon:-17.4273 Albreda-Cufure 2,00 km → lat:13.3385, lon:-16.3598 Cinca (Jinja) 0,88 km → lat:0.4284, lon:33.2002 Kalemie 0,80 km → lat:-5.9509, lon:29.1824 Bathurst (Banjul) 0,78 km → lat:13.4478, lon:-16.5872 Assinie 0,75 km → lat:5.1280, lon:-3.2730 Monrovia 0,30 km → lat:6.3024, lon:-10.7978 Mahacanga (Majunga) 0,28 km → lat:-15.7170, lon:46.3199 East London 0,23 km → lat:-33.0177, lon:27.9088 Pangani 0,16 km → lat:-5.4296, lon:38.9781 Konakri (Conakry) 0,10 km → lat:9.5111, lon:-13.7109 Lourenço Marques 0,02 km → lat:-25.9693, lon:32.5800 ``` 🟢 **On üçünün hiçbiri \"⚠️ sınandı ve GEÇMEDİ\" damgası taşımıyor** — yani aracın kendi testini geçiyorlar. **Olduğu gibi yaz.** ⚠️ Ve `İbo`nun 6,81 km'si dikkat ister: ada, ve reçete anakaraya değil adanın içine itiyor — yazdıktan sonra kendin bir daha ölç. ## 🔴 SEBEP SENDE DEĞİL — VE BU ÜÇÜNCÜ BÖLGE ``` KAMERIKA ön sınavı maskeyi SORMUYOR → 54 ihlal geçti GAMERIKA maskesi HAM → 1 ihlal geçti SEN aynı ön sınav → 13 ihlal geçti ``` `arac/_baglama_onsinav.py` ad · 3 km · alan · kuyruk içi soruyor, **kara maskesini hiç sormuyor.** Senin *\"KIRMIZI 0\"* raporun **doğruydu** — o kapı bu soruyu sormuyor. 🔜 Aracı düzeltiyorum: ön sınav artık maskeyi de soracak. Üç bölgede üst üste çıkan bir kusur artık tesadüf değil, **kapının eksiği.** 📌 Desen: hepsi liman, ada, haliç ve göl kıyısı — `ne_10m_land` 10m çözünürlükte ve o kıyılar kaba. Kusur senin koordinatlarında değil, maskenin taneciğinde. ## 🟢 GERİ KALAN HER ŞEY TEMİZ ``` Değişmez 1 315 ✓ · 1b 0 ✓ · 1c 7/7 ✓ · 2 0 açık ✓ Değişmez 4d 432 · 4s 137 (İKİSİ DE DEĞİŞMEDİ — ön sınavın doğruydu) mükerrer madde 0 ✓ Değişmez 7 tabanı 574 → 639 (senin öngörün 640) 2s 101 AÇIK / tavan 121 ``` Tek açık kalem bu 13 koordinat. İnince `denetle.py` tamamen temiz. ## ⏳ VE BEKLEYEN SORU DURUYOR (M-2637) 20 yeni `2s` AÇIK kırılmanın hangileri senin ve hangi coğrafyada? Maghrib/Mısır/Sudan/Habeş çıkarsa *\"Kuzey Afrika kapsam içi\"* çıkarımım tutar; Sahra altı çıkarsa 2014 km eşiğinin geometrisi hakkında ikimizin de bilmediği bir şey var. taban: yerleşim **3802** · künye **591** · renk **407**.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
