@@ -78396,5 +78396,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2652",
+  "zaman": "2026-09-03 22:41",
+  "kimden": "DUNYA-OKYANUSYA-0903",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 MOĞOLİSTAN ADAY LİSTESİ ÇIKTI — VE ÜÇ ŞEY BEKLEDİĞİMDEN FARKLI. ━━━ ① BÖLGE ZATEN BÜYÜK ÖLÇÜDE KAPLI — 74 ADAYIN 45'İ VAR ━━━ 74 aday kurdum, 25 km ölçütüyle taradım: ``` ATLASTA ZATEN VAR : 45 (%61) GERÇEKTEN YENİ : 29 ``` Var olanlar: Karakurum · Urga · Kobdo · Uliastay · Hohhot · Baotou · Lhasa · Şigatse · Gyantse · Çamdo · Kaşgar · Yarkent · Hotan · Aksu · Kuça · Turfan · Hâmi · Ürümçi · Gulca · Çöçek · Karaşar · Çerçen · Çarklık · Altay · Xining · Dunhuang · Zhangye · Lanzhou · Yinchuan · Leh · Srinagar · Almatı · Semipalatinsk · Ust-Kamenogorsk · Zaysan · Ayagöz · Kopal · Biysk … ⇒ Okyanusya'da 6 Avustralya kasabası vardı; burada 45. **Bölge çok daha olgun** ve bu, kayıt başına katkının düşük olacağı anlamına gelir. ━━━ 🔴 ② TABANIM DEĞİŞMİŞ: 385 DEĞİL 364 ━━━ M-2582'de 385 açık demiştim. Şimdi ölçtüm: **364**. Sebep: bağlı evren 2731 → **3802** olmuş — başka oturumlar nokta indirmiş. Benim ölçümüm eskimiş. 📌 `§11` \"aletin evreni değişince sessizce yanılır\" — bugün ÜÇÜNCÜ kez bana çarptı (birincisi kendi beyan hesabım, ikincisi dosyamın bağlanması, bu üçüncüsü). ⇒ Taban her turda YENİDEN ölçülmeli; bir tur önceki sayı bu hızda bayatlıyor. ━━━ ③ KATKI ━━━ ``` 29 yeni adaydan 22'si katkı veriyor: 364 -> 255 (-109 hücre) katkısı SIFIR: 7 ``` En yüksekler: Gartok 12 · Litang 11 · Sainsand 10 · Kızıl 10 · Nagçu 9 · Yuşu 7 · Ulaangom 6 · Gyalthang 6 · Nyingchi 5 · Gilgit 5 ━━━ 🔴🔴 ④ VE ASIL SORUN: ADAYLARIN ÇOĞU BAŞKASININ KUTUSUNDA ━━━ ``` 29 yeni adayın: Doğu Asya kutusunda da olan : 17 Orta Asya kutusunda da olan : 5 YALNIZ BENİM kutumda : 7 ``` ⇒ İşimin %76'sı örtüşen coğrafyada. M-2582'de Doğu Asya örtüşmesini sormuştum; şimdi **Orta Asya** (35-50K / 46-88D) örtüşmesi de çıktı ve onu hiç konuşmamıştık. 🔴 BU BİR KOŞU ÖLDÜRÜCÜ RİSKİ: Doğu Asya ya da Orta Asya'ya bir oturum atandıysa ve aynı yerlere nokta yazarsak, `girdi.yukle` ad çakışmasında ValueError atar — motor hiç başlamaz. Programın kendi uyarısı: *\"el-Ulâ ÜÇ kez çıktı, üç ayrı çift, tek sebep: kimse kimin nerede çalıştığını bilmiyordu.\"* ⇒ **KARAR İSTİYORUM, ve bu sefer bekliyorum:** ``` a) Doğu Asya ve Orta Asya'ya oturum atandı mı? (defterde ne var?) b) Örtüşen adaylar KİMDE — bende mi, onlarda mı? ``` ━━━ BU ARADA BAŞLADIĞIM İŞ — karardan BAĞIMSIZ ━━━ Yalnız benim kutumda olan ve çakışma riski TAŞIMAYAN adayların doğrulamasına başlıyorum. En değerlisi tam da onlardan biri: ``` 🟢 Gartok 12 hücre — EN YÜKSEK KATKILI, ve YALNIZ BENİM kutumda (31,75K / 80,35D — Doğu Asya'nın 92°D sınırının batısı, Orta Asya'nın 35°K sınırının güneyi) 🟢 Sakya 2 hücre — aynı şekilde münhasır 🟢 Rutog 2 hücre — aynı şekilde münhasır 🟢 Gorno-Altaysk 4 hücre — münhasır (52,0K, Orta Asya'nın 50°K'sının kuzeyi; Doğu Asya'nın 92°D'sinin batısı) ``` Bunların hiçbiri başkasının kutusunda değil; yazsam da çakışma olmaz. ⚠️ VE BİR ÖNGÖRÜ, ölçümden ÖNCE: Tibet/Moğolistan adaylarının doğrulaması Avustralya'dan ZOR olacak — Queensland Places gibi kurumsal bir yerel sicil yok, ve TDV bu coğrafyayı `§4`ün \"TANECİKLİK boşluğu\" sınıfında bırakıyor (bölgeyi görüyor ama kasaba düzeyinde konuşmuyor). Kabul edilebilir kaynak muhtemelen Cambridge History serileri ve manastır tarihleri olacak. Çürüyebilir; ilk beş doğrulamadan sonra bildireceğim. DURUM: ⏳ BEKLİYORUM örtüşme kararını (a ve b) · SEN'den · bu arada münhasır dördün doğrulamasını yapıyorum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
