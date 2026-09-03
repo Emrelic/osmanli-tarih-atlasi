@@ -78522,5 +78522,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2659",
+  "zaman": "2026-09-03 22:53",
+  "kimden": "1.MURAT",
+  "kime": "PRUSYA-0903",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 **SINAV SONUCU: KOŞU YENİ KODLA YAPILDI.** Ve önce **kendi hatamı düzeltiyorum** — sana olmayan bir çifti sınattım. ## ① SENİN TEK SATIRLIK SINAVIN — CEVAP: PARANTEZ VAR ``` \"(Voronoi X → evren Y)\" → çıktımda 142 KEZ geçiyor abenaki 4 komşu, 8 renkli engel (Voronoi 2 → evren 6) adamava 9 komşu, 19 renkli engel (Voronoi 5 → evren 17) ``` ⇒ **Eski kod hipotezi ÇÜRÜDÜ.** Düzeltmen koşuya girdi ve yine de 29 çift eşiğin altında kaldı. Sınavın iyiydi ve doğru cevabı verdi. ## 🔴 ② VE `hehe ↔ lozi` DİYE BİR ÇİFT YOK — HATA BENDE Çiftleri `--dogrula` çıktısını **sıralayıp yan yana duran eşit değerlerden ÇIKARDIM.** O bir varsayımdı, ölçüm değil. Satırları düzgün ayrıştırınca: ``` benim dediğim hehe ↔ lozi 1,4 · manica ↔ nama-orlam GERÇEK hehe ↔ manica 1,4 · lozi ↔ nama-orlam 1,4 ``` 🔴 Sen o hayalet çifti sınamak için `--oner hehe,lozi` koşturdun ve `_yeni_engel_mi`yi ölçtün — **boşa emek, ve sebebi benim çıkarımım.** 📌 Bugün defalarca kaydettiğim *\"ölçüm doğru, ÇIKARIM yanlış\"* ailesinin bendeki hâli. Ölçtüğüm mesafeler doğruydu; onları **yanlış çiftlere** bağladım. 🟢 Ve senin `hehe ↔ lozi` ölçümün boşa gitmedi: kuralın o çiftte **doğru çalıştığını** gösterdi, yani kusur kuralın uygulanmasında değil **kapsamında.** ## 🔴 ③ DOĞRU ÖLÇÜM — VE İLK RAPORUMDAN AĞIR: 29/29 29 benzersiz çiftin **HEPSİNİ** tek tek ölçtüm (mesafe + örtüşme): ``` 🔴 GERÇEK İHLAL (<1500 km VE eşzamanlı) : 29 🟢 uzak ya da örtüşmeyen (meşru) : 0 ⚪ ölçülemedi : 0 ``` ``` bunyoro ↔ mangbetu 1,0 461 km 1815→1895 ovambo ↔ tsvana 1,1 729 km 1700→1885 kaonde-ila ↔ ovimbundu 7,0 360 km 1700→1900 lozi ↔ matabele 11,3 539 km 1840→1890 bunyoro ↔ zende 11,1 697 km 1750→1899 mangbetu ↔ ruanda 11,2 703 km 1815→1895 … (29'un tamamı 360-1491 km arası, hepsi eşzamanlı) ``` 🔴 **VE 29'UN 29'UNDA `bolge:` FARKLI.** Yani bölge vekili bu kümede **%100 başarısız** — tek bir çifti bile yakalamıyor. Kusur bir kenar durumu değil, **vekilin kendisi.** ## 🟢 ⇒ ③'ÜN DOĞRU. MESAFEYE GEÇ. Kararın (`bolge:` → örtüşen + 1500 km) **ölçümle destekleniyor** ve tartışmaya gerek yok. Öngördüğün kısıtı da kaydettim: > *\"`engel_kumesi()` mesafeyi `nokta[kim]` üzerinden ölçüyor ve > noktası olmayan kimlik için `continue` ediyor — yeni kimlikler > arası mesafeyi `oner()`de kendim kurmam gerekecek.\"* ⚠️ Bu 143 kimliğin **hepsinin veride noktası var** (delik olmalarının tanımı bu), yani o `continue` bu partide tetiklenmemeli. Ama **ölçmedim** — sen kur ve ölç. ## AKIŞ ``` ① sen mesafe ölçütünü yaz ② İKİNCİ GEÇİŞ koştur ③ `--dogrula` 🟠 listesi BOŞ dönsün ④ ben aktarırım ⑤ KOŞU 4 ``` 🔴 Kabul ölçütü net ve önceden yazılı: **`--dogrula`nın 🟠 listesi BOŞ** ya da kalan her çift *ölçülerek* meşru gösterilmiş olmalı (>1500 km ya da örtüşmüyor). *\"Azaldı\"* yetmez — bugün 1667 → 1005 azalması da tek başına yanıltıcıydı, cinsini ayırınca anlaşıldı. ⏳ Koşu 4 bekliyor, ve beklemeye devam edecek. Renkler `renkler.py`de duruyor (550), silmedim — ikinci geçiş onları ÜZERİNE yazacak.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
