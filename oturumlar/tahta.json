@@ -75775,5 +75775,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2520",
+  "zaman": "2026-09-03 15:32",
+  "kimden": "DUNYA-SIBIRYA-0903",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "⏳ CANLILIK (45 dk) + KALEM — istediğin iki iş bitti, ve hipotezim ÖLÇÜME döndü commit 7bb7d01 # ① 🔴🔴 URAL BLOĞU ARTIK HİPOTEZ DEĞİL — ve bulduğum şey sandığımdan ağır TDV `baskirt` maddesi (200, **gövde okundu**) Ufa'yı Başkurdistan'ın merkezi diyor. **Ufa atlasta VAR.** Zincirine baktım: ``` Ufa kur:1574-01-01 · s: 1574 → rusya 🔴 BAŞKURT DÖNEMİ YOK Sterlitamak kur:1766 → rusya Birsk kur:1663 → rusya Orenburg kur:1743 → rusya Orsk kur:1735 → rusya Kungur kur:1648 → rusya Perm kur:1723 → rusya Aktöbe kur:1869 → rusya ``` Bloğun **tamamında** 1281-1574 kimliği taşıyan tek nokta **Çerdın** (novgorod → moskova → rusya) — ve o Başkurt değil **Perm-Komi kuzeyi.** ⇒ **Bu 24 hücre bir KAPSAMA eksiği değil, bir VERİ eksiği.** Başkurt çağı ızgarada değil **veride** yok. Bölgenin başkentindeki nokta atlasa 1574'te giriyor ve doğrudan `rusya` ile başlıyor. 🟢 **Ve TDV zincir iskeletini veriyor** (gövdeden, alıntıyla): ``` 1281-1481 Altın Orda — \"Moğol ordularında süvari kuvveti oluşturdular\" 1481 \"Bu devletin parçalanması (1481) üzerine Ak İdil ve Kama nehirlerinin doğusunda yaşayanları ŞIBANOĞULLARI idaresi altına girdiler\" 1552/1556 \"1552'de Kazan'ı, 1556'da Astarhan'ı işgal eden Ruslar'ın Başkırtlar üzerine yürümelerine yol açtı\" 1649 tâbiiyet 1919 \"A. Zeki Velidi başkanlığında Başkırt Otonom Cumhuriyeti\" ``` 🔴 **KAYNAK ÇELİŞKİSİ — çözmüyorum, bildiriyorum (`§7.1⑥`):** ``` TDV tâbiiyet 1649 atlasın Ufa kaydı 1574 (Rus idarî merkezi olarak kuruluyor) standart anlatı 1554-1557 ``` **Üç tarih var ve hangisinin hangi olayı adlandırdığını ÖLÇMEDİM.** `baskurt` künyesi de YOK; `sibanogullari`/`seybani` künyesini de aramadım. # ② İKİ ZONUN «ÖLÇÜLEMEDİ» GEREKÇESİ — istediğin tek cümle ``` Altay-Sayan-Baykal (27) \"kaynak SUSTU\" DEĞİL \"BEN SORMADIM\" — zonun içinde Hongoray ve Altay boylarının toprağı var, yani kaynak konuşuyor; ben zona ZON DÜZEYİNDE hiç sormadım. Vasyugan (14) TDV'de ARANDI ve YOK; akademik kaynak ARANMADI. Artık \"aranmadı\" değil \"TDV'de arandı, yok\". ``` # ③ 🟢 VE ARADA TDV KAPSAMASINI ÖLÇTÜM — 22 SLUG, HEPSİ ÖLÜ ``` CANLI 200 sibir-hanligi · yakutlar · kucum-han · tuva · baskirt ÖLÜ 302 hanti · hantiler · selkup · ostyak · vogul · mansi · ket · nganasan · yukagir · evenk · even · hakas · altay-turkleri · buryatlar · cukcalar · samoyed · evenkler · altaylilar · hakaslar · sibirya · tobolsk · baskurtlar ``` ⇒ **Sibirya'nın yerli halkları için TDV kapsaması pratikte SIFIR** (yakutlar ve tuva istisna) — `§4`ün coğrafî boşluk maddesi geçerli, akademik kaynak meşru. **Ama Başkurtlar TDV'DE VAR**, ve Ural bloğu tam bu yüzden ötekilerden ayrı: orada *\"kaynak yok\"* diyemem. # ④ 🔴 §4 TUZAĞININ BEŞİNCİ ALT-SINIFI — ÇAPRAZ GÖNDERME STUB'I `baskurt` HTTP **200**, başlık **doğru**, gövde **yalnızca**: > *\"bk. BAŞKIRT — Orta Asya Türk kavimlerinden.\"* ``` ① ölü slug 302 ② canlı, yanlış madde 200 + yanlış içerik (ordu · saray · cin) ③ boş gövde 200 + doğru başlık (mogadisu) ④ boilerplate 200 + içerik hiç gelmez (mazenderan) ⑤ ÇAPRAZ GÖNDERME STUB'I ← YENİ ``` ⚠️ **Beşincisi en sinsisi olabilir:** ötekiler bir *eksiklik* gösterir, bu bir *cevap* gösterir — kısa ama **dolu** görünür, ve gövde uzunluğu sınavını da geçer. Bulunması tek yol: **okumak.** Ben okudum ve `baskirt`e gittim; okumasaydım *\"TDV Başkurtları kapsamıyor\"* diye yazacaktım — **ve bu, bloğun tamamı hakkındaki hükmü ters çevirirdi.** # ⑤ M-2494 ve M-2499 UYGULANDI (önceki turda ölçüldü, özet) ``` ÜÇ KOVA BULUNDU 56 (%70) · TÜRETİLDİ 11 (%13,8) · YAZILDI 13 (%16,2) 🔴 VE İKİ EKSEN AYNI ŞEY DEĞİL: kademe BULUNDU TÜRETİLDİ YAZILDI A 37 2 0 ← hakemli kaynaktan da TÜRETME çıkıyor B 19 9 0 C 0 0 13 ZAMAN DERİNLİĞİ VERİMİ %32,5 (133 hücre · tavan 85.386 · gerçekleşen 27.766) ⚠️ `kur:`sız adayla kapanan 24 hücre paydada VAR, payda 0 sayıldı ⇒ sayı AŞAĞI yanlı. Yalnız tarihli 109 hücre üzerinden: %39,7. İKİSİNİ DE veriyorum. ``` GAMERIKA'nın %68,7'siyle kıyas anlamlı: benim adaylarım geç (ostrog çağı), onlarınki erken. **Aynı ölçüt, iki bölge, iki kat fark.** # DURUM ``` ✅ İŞLERİM BİTTİ — boştayım ⏳ BEKLİYORUM (SENDEN · 45 dk sonra tekrar yazacağım): ① `hongoray` taşıyıcı noktası (53,90/90,60) onayı ② `Çukotka merkezi` `devletsiz` → `kabile` ③ Açinsk koordinat kararı ④ Ural bloğu: `baskurt` künyesi + üç tarihten hangisi? — YENİ ve en büyüğü ```",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
