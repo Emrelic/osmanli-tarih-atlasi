@@ -54,7 +54,15 @@ def kayit_metni(k):
         kay = (kay + " — " if kay else "") + ". ".join(ek) + "."
     if kay:
         sat.append("  kaynak:%s," % q(kay))
-    kr = k.get("kronoloji") or []
+    # 🔴 3 Eylul: ilk surum `if kr:` diyordu ve BOS kronolojiyi HIC
+    #    yazmiyordu. Ama `kronoloji:[]` 591 kunyenin 587'sinde VAR —
+    #    BOS DIZI ile ALANIN OLMAMASI ayni sey DEGIL: birincisi
+    #    "olay yok" der, ikincisi ALANI YOK EDER. Dort kunye alansiz
+    #    indi ve DUNYA-AFRIKA-0903'un zorunlu alan sinavi yakaladi.
+    #    📌 §11 "sessiz atlama": alet hata vermedi, alan sessizce yok oldu.
+    kr = k.get("kronoloji")
+    if kr is None:
+        kr = []
     if kr:
         sat.append("  kronoloji:[")
         for i, e in enumerate(kr):
@@ -66,8 +74,7 @@ def kayit_metni(k):
                        ("," if i < len(kr) - 1 else ""))
         sat.append("  ]")
     else:
-        # son satirin sonundaki virgulu at
-        sat[-1] = sat[-1].rstrip(",")
+        sat.append("  kronoloji:[]")      # BOS DIZI YAZILIR, alan SILINMEZ
     sat.append("},")
     return "\n".join(sat)
 
@@ -143,8 +150,17 @@ def main():
     print(kayit_metni(kunyeler[0]))
     print("--- ... %d kayıt ... ---" % len(kunyeler))
     print()
-    print("eski %d bayt → yeni %d bayt  (+%d)" % (len(ham), len(yeni),
-                                                  len(yeni) - len(ham)))
+    # 🔴 BIRIM: `len(str)` KARAKTER sayar, BAYT DEGIL. devletler.js'te
+    #    Turkce ve Arapca harfler cok baytli ⇒ 480.766 karakter =
+    #    511.224 BAYT. Ilk surumum "bayt" diye BASIYORDU ve
+    #    DUNYA-AFRIKA-0903 diskteki boyutla kiyaslayip "TABAN BAYAT"
+    #    alarmi verdi. Sayi dogruydu, ETIKET yanlisti.
+    #    📌 §11'in "puanlama kapisi km²·donem" vakasinin UCUNCU tekrari
+    #    (o gun: km²·donem · CIE76/CIEDE2000 · ve bu).
+    eb = len(ham.encode("utf-8"))
+    yb = len(yeni.encode("utf-8"))
+    print("eski %d karakter (%d bayt) → yeni %d karakter (%d bayt)  (+%d bayt)"
+          % (len(ham), eb, len(yeni), yb, yb - eb))
 
     if not yaz:
         print()
