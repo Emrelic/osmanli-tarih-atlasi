@@ -1,5 +1,5 @@
 {
- "_NOT": "DUNYA-SIBIRYA-0903 · 3 Eylül 2026 · ARAŞTIRMA turu çıktısı. Bu bir KUYRUK dosyasıdır, VERİ DEĞİLDİR (M-2413 ②: `bos:` beş kova veri alanı, kuyruk sınıfları denetim/ altında yaşar). data/ altına indirmek koordinatörün işi. Ayrıntılı gerekçe ve kaynak künyeleri: denetim/BULGU-SIBIRYA-0903.md · İKİNCİ KAYNAK TURU işlendi (3 Eylül, öğleden sonra). · ÜÇÜNCÜ TUR: 3 km sınavı · hongoray taşıyıcısı · altı halkın sınıflandırması. · DÖRDÜNCÜ KAYNAK TURU.",
+ "_NOT": "DUNYA-SIBIRYA-0903 · 3 Eylül 2026 · ARAŞTIRMA turu çıktısı. Bu bir KUYRUK dosyasıdır, VERİ DEĞİLDİR (M-2413 ②: `bos:` beş kova veri alanı, kuyruk sınıfları denetim/ altında yaşar). data/ altına indirmek koordinatörün işi. Ayrıntılı gerekçe ve kaynak künyeleri: denetim/BULGU-SIBIRYA-0903.md · İKİNCİ KAYNAK TURU işlendi (3 Eylül, öğleden sonra). · ÜÇÜNCÜ TUR: 3 km sınavı · hongoray taşıyıcısı · altı halkın sınıflandırması. · DÖRDÜNCÜ KAYNAK TURU. · BEŞİNCİ TUR: ölçüt zaman körü (M-2472) kutuda ölçüldü.",
  "oturum": "DUNYA-SIBIRYA-0903",
  "kutu": {
   "latG": 50,
@@ -1227,5 +1227,57 @@
   "OLCTUGUM": "Skobelev & Çurikov (Vestnik NGU, 2010) 1641 ostrogunun modern Açinsk'te DEĞİL, Çulım (eski İyus) kıyısında modern Balahta civarında (~55,4/91,6) aranması gerektiğini savunuyor. Modern Açinsk 56,27/90,50 — fark ~120 km.",
   "SECEMEDIGIM": "1641 tarihini HANGİ koordinata bağlayacağım: tartışmalı 1641 yerine mi, bugünkü Açinsk'e mi? Ostrogun bugünkü yerde ne zaman tesis edildiğini BULAMADIM.",
   "ONERIM": "Bugünkü Açinsk (56,27/90,50) + kur:1641, ve `kaynak:` alanına tartışmanın AÇIKÇA yazılması. Üç gerekçe: ① kapsama modern yerde değerli (2 açık hücre), tartışmalı yer zaten Abakan/Minusinsk'in menzilinde ② 120 km, motorun 200 km tavanının İÇİNDE ③ tartışma akademik olarak AÇIK, ben taraf tutamam. ⚠️ Bedeli: 1641 tarihi ~120 km yanlış yere düşer. KARAR KOORDİNATÖRÜN."
+ },
+ "olcut_zaman_koru": {
+  "_kaynak": "M-2472 — DUNYA-AFRIKA-0903 buldu, koordinatör dünya çapında doğruladı; bu blok SİBİRYA kutusunun kendi ölçümüdür",
+  "_ne": "`_dunya_bosluk.py` `kur:`a BAKMAZ, noktayı 1281-1923 boyunca var sayar. Motor (`petek_epok`) BAKAR: `kur:`tan önce peteği komşuya devreder.",
+  "kara_hucresi": 612,
+  "kesitler_2derece": {
+   "zamansiz_adaysiz": {
+    "acik": 338,
+    "yuzde": 55.2
+   },
+   "zamansiz_adayli": {
+    "acik": 205,
+    "yuzde": 33.5,
+    "not": "RAPORUN MANŞET SAYISI"
+   },
+   "1300_adaysiz": {
+    "acik": 358,
+    "yuzde": 58.5
+   },
+   "1300_adayli_gevsek": {
+    "acik": 315,
+    "yuzde": 51.5,
+    "not": "`kur:` bilinmeyen 13 aday sahnede SAYILDI — İYİMSER"
+   },
+   "1300_adayli_KATI": {
+    "acik": 351,
+    "yuzde": 57.4,
+    "sahnedeki_aday": 2,
+    "not": "`kur:` bilinmeyen aday sahnede SAYILMADI — DÜRÜST OLAN BU"
+   },
+   "1500_adayli_KATI": {
+    "acik": 349,
+    "yuzde": 57.0,
+    "sahnedeki_aday": 2
+   },
+   "1700_adayli_gevsek": {
+    "acik": 236,
+    "yuzde": 38.6
+   },
+   "1900_adayli_gevsek": {
+    "acik": 213,
+    "yuzde": 34.8
+   }
+  },
+  "HUKUM": "🔴 Manşet sayım (205) YALNIZ GEÇ YÜZYILLAR İÇİN DOĞRU. 1300 kesitinde KATI ölçüm 351 veriyor — fark 146 hücre, yani zamansız ölçüt erken yüzyıllarda kapsamayı %71 FAZLA gösteriyor.",
+  "SEBEP": "80 adayın YALNIZ İKİSİ 1300'de sahnede: `Nadım gorodok` ve `Voykar gorodok` — ve ikisi de RUS OSTROGU DEĞİL, YERLİ (Ugor) müstahkem kasabası. Kalan 78 aday Rus yayılmasının ürünü (en erkeni Pelım 1593). ⇒ AFRIKA'nın teşhisi ('fark ADAYIN CİNSİNDEN doğuyor, bölgeden değil') bu kutuda EN SERT hâlinde doğrulanıyor: Kuzey Afrika'nın kadîm vahaları fark üretmiyordu, benim Rus ostroglarım 146 hücre fark üretiyor.",
+  "AMA_BU_BIR_KUSUR_DEGIL": "Sibirya'da 1600 öncesi sabit yerleşim GERÇEKTEN yoktu. 1300'ün 351 açık hücresi bir VERİ EKSİĞİ değil bir TARİHÎ OLGU — Emre'nin hükmünün («devasa boşluklar olacaksa olsun») tam alanı. ⇒ Erken yüzyılların çaresi DAHA ÇOK NOKTA değil, BEYAN ZONLARIDIR (`bos:` taşıyan bölge noktalarının `kur:`ı yoktur, 1281'den sahnededirler).",
+  "KALDIRAC": "Erken yüzyılların açık hücresini gerçekten düşürebilecek TEK aday sınıfı YERLİ müstahkem yerleşimlerdir (Nadım · Voykar cinsi). Ostrog eklemek 1300'ü HİÇ değiştirmez. Bu, bir sonraki nokta partisinin sırasını belirler.",
+  "OLCULMEDI": [
+   "10 beyan zonu noktası eklendiğinde erken kesitin ne olacağı — beyan noktalarının `kur:`ı yok, yani 1281'den sahnedeler ve ölçütte hücre KAPATIRLAR; ama `s:` taşımadıkları için haritada TOPRAK BOYAMAZLAR. Ölçütün bunu nasıl saydığı ÖLÇÜLMEDİ.",
+   "1281 kesiti (atlasın ilk günü) hiç ölçülmedi — 1300 ile arasında fark olmaması beklenir ama BAKILMADI."
+  ]
  }
 }
