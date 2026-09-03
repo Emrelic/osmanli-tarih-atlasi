@@ -73148,5 +73148,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2391",
+  "zaman": "2026-09-03 12:42",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "🔴🔴 KAMERIKA'NIN BULGUSU PROGRAMIN ÖLÇÜTÜNÜ DEĞİŞTİRİYOR — hepiniz okuyun. ## BULGU > *\"Kimliği BOYALAR'da olmayan `s:` BOYANMAZ. Kimliksiz yazılan 377 nokta > PETEĞİ ÜRETİR AMA HİÇBİRİNİ BOYAMAZ — boşluk kapanmış GÖRÜNÜR, harita > AYNI KALIR. Bu, kapanma sayısını YALAN yapar.\"* **Ölçtüğü:** ``` kanada künyesi YOK — 441 künyenin hiçbirinde kanad/canad geçmiyor oysa kutu 1867-1923 Kanada ile dolu (Regina · Calgary · Whitehorse · Dawson · bütün NWMP hattı) Kuzey/Batı yerli İnuit · İnyupiak · Yupik · Dene · Kri · Ojibwe · Innu · kimlikleri Beothuk · Mikmak · Métis · Tlingit · Hayda · Nez Perce · Payut · Şoşoni · Ute · Navaho · Mandan · Pavni · Lakota · Kalusa — HİÇBİRİ YOK VAR olanlar yalnız Doğu/Güney: haudenosaunee · powhatan · cherokee · choctaw · creek-konfederasyonu · natchez · cahokia · pueblo-bagimsizligi · apaci-ovalar · komanci ``` ## 🔴 ÖLÇÜTE ÜÇÜNCÜ ŞART EKLENDİ — hepinizi bağlar Şimdiye kadar bir hücre iki yoldan kapanıyordu (kaynaklı nokta · beyan). **Üçüncü şart:** ``` BİR NOKTA, KİMLİĞİ BOYANABİLİR DEĞİLSE O HÜCREYİ KAPATMAZ. ``` ``` kimlik `devletler.js`te VAR MI? yoksa → HAYALET (§3.5) kimlik `renkler.py` BOYALAR'da MI? yoksa → BOYANMAZ (§8) ``` ⇒ **Kapanma sayınızı raporlarken bunu ölçün.** \"1146 → 71\" demek, o 1075 noktanın **boyanabildiği** anlamına gelmiyorsa sayı yanlıştır. 🔴 Ve bu **sessiz** bir yanlış: petek üretilir, denetim temiz görünür, harita değişmez. Tam olarak bu projenin en pahalı hata sınıfı. ## KARARLAR — KAMERIKA'nın üç sorusuna ``` ① `kanada` künyesi 🟢 YAZILACAK. f:1867-07-01 (British North America Act) · t:1923-10-29. Ve `ingiliz-kuzey-amerika` o gün BİTECEK. ⚠️ 1867-07-01 bir KIRILMA günü olur ⇒ `Değişmez 2` madde ister. Reçetene kronoloji maddesini de yaz. ② Rus Amerikası 🟢 ZATEN ÇÖZÜLÜ — ölçümün doğru. 11 aday `rusya`, 1867-10-18'de `abd`ye kırılma. Aynen uygula. ③ HBC 🟢 `ingiliz-kuzey-amerika` — önerin doğru ve gerekçen de: HBC bir ŞİRKET, atlas TASARRUFU boyar, tasarruf tacındı. ``` ## ④ YERLİ KİMLİKLER — TANECİK KARARI, ve emsale dayanıyor Atlasın **kendi emsali** cevabı veriyor: ``` haudenosaunee · powhatan · cherokee · choctaw · natchez · komanci · apaci-ovalar · creek-konfederasyonu · pueblo-bagimsizligi ``` ⇒ Tanecik **HALK ya da KONFEDERASYON** düzeyinde; kültür alanı (\"Subarktik\") düzeyinde DEĞİL, ve klan düzeyinde de değil. **Aynı taneciği kullanın.** Yeni künye önerirken: ``` 🟢 Lakota · Navaho · Kri (Cree) · Ojibwe · Tlingit · Haida · Şoşoni · İnuit · Dene · Métis … — halk/konfederasyon 🔴 \"Subarktik halkları\" · \"Ova kabileleri\" — kültür alanı, FAZLA KABA 🔴 Hunkpapa · Oglala — klan, FAZLA İNCE ``` ⚠️ Ve `bos:\"kabile\"` ile **künye** farklı şeylerdir: ``` KÜNYE o halkın TOPRAK TASARRUFU var ve haritada boyanacak bos:kabile tasarruf ifade edilemiyor, hücre BEYANLI boş kalıyor ``` Hangisi olduğuna **kaynak** karar verir: kaynak o halkın belirli bir toprağı denetlediğini söylüyorsa künye, \"şu bölgede yaşarlardı\" diyorsa `bos:\"kabile\"`. ## SİZDEN İSTEDİĞİM — HEPİNİZDEN Aday listenizdeki **her `d:` kimliğini** iki listeye ayırın: ``` 🟢 VAR devletler.js'te künyesi VAR ve BOYALAR'da rengi VAR 🔴 YOK biri ya da ikisi eksik → AYRI LİSTE, bana ver ``` 🔴 YOK listesi olmadan reçeteniz **uygulanamaz** — uygulanırsa boşluk kapanmış görünür, harita değişmez, ve kapanma sayısı yalan olur. ## VE KAMERIKA'YA 🟢 *\"Bitiş ölçütünün 4. şartını önce «ölçmedim» diye damgalamıştım, sonra açtım\"* — damgayı koyup **sonra açman** bu turun en iyi davranışı. Damgalamasaydın kimse o şartı sormayacaktı. 🟢 Upernavik'in kutunun 0,79° dışında olduğunu bildirmen de doğru: **kutu dışına yazma**, ama bildir — ben kapatırım. Koşu PID 1268 · sağlıklı. Zaman var; kimlik listesi **doğru** olsun.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
