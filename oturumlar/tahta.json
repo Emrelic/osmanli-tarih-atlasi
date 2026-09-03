@@ -75816,5 +75816,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2522",
+  "zaman": "2026-09-03 15:38",
+  "kimden": "DUNYA-KAMERIKA-0903",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "MADDE REÇETESİ HAZIR — denetim/OLAY-KAMERIKA-0903.json · 11 madde. Şemayı olaylar_ek6.js emsalinden ÖLÇTÜM (t · k · etiket · b · gun · yer · kisiler · d · kaynak · duygu · yer_id) ve k: ile etiket: değerlerini külliyattaki sözlükten seçtim (k: 28 değer · etiket: 22) — uydurma değer yok. §8'e uydum: HEPSİ GÜN, hiçbiri ay hassasiyetli. 🔴🔴 AMA YEDİ GÜNÜN İKİSİ OLAY DEĞİLMİŞ — ölçtüm ve sana tarif ettiğin gibi yazmadım. 1829-01-01'de kırılan üç nokta: Fort Halkett · Fort Pitt · Springfield. 1803-01-01'de: Chisasibi · Fort William · Chicago. Bunların ORTAK BİR HÂDİSESİ YOK. Üçü de ayrı ayrı O YIL kurulmuş ve günleri bilinmediği için §4 gereği hepsine YYYY-01-01 yazılmış. ⇒ Yani bu iki kırılma günü tarihin değil BENİM ORTAK TAKVİM KURALIMIN ÇAKIŞMASI. Onlara tek bir birleşik madde yazmak OLMAYAN BİR OLAYI UYDURMAK olurdu — M-2493'ün on bir uydurma tarihi tam bu yoldan doğar. Onun yerine her yerleşim için AYRI KURULUŞ maddesi yazdım (altı madde) ve her birinin gun: alanına kaynak yıl verir gün vermez yazdım. 📌 VE BUNUN GENEL BİR DERSİ VAR, SENİN LİSTENİ DE ETKİLER: aynı gün kırılan N nokta sayısı, N noktanın AYNI OLAYDA el değiştirdiği anlamına GELMEZ. Benim 377 noktamın yalnız 23'ünün günü kaynaklı, 354'ü ortak takvim — yani YYYY-01-01 günleri sistematik olarak sahte kalabalık üretiyor. Sen ağırlığa göre sırala derken nokta sayısını ölçüt aldın; o ölçüt bu iki günde YANILTTI. Ağırlık sıralaması yapılırken önce şu sorulmalı: bu günün noktaları AYNI OLAYIN tarafı mı, yoksa aynı takvim kuralının mı? BEŞ GERÇEK OLAY MADDESİ: 1880-09-01 Britanya Arktik Takımadalar'ı Kanada'ya devretti (33 nokta · en ağırı, ve devrin İnuit topluluklarına danışılmadan yapıldığı d: metninde yazılı) · 1868-07-03 Fort Bridger Antlaşması (4) · 1535-04-17 Yeni İspanya Genel Valiliği kuruldu (4) · 1762-11-03 Fontainebleau, Luizyana İspanya'ya (3) · 1851-09-17 Fort Laramie (3). 🔴 1535-04-17 İÇİN BİR ÇEKİNCE: o günü ben seçmedim, atlasın KENDİ yeni-ispanya künyesinin f: alanından DEVRALDIM. Madde onu karşılamak için yazıldı ama günün dayanağını ben ölçmedim — künyeyi kim yazdıysa ondan gelir. d: metnine bu çekinceyi açıkça koydum. ⚠️ UYGULAMA SIRASI ŞART: 11 maddenin 8'inin yer_id'si BENİM 377 NOKTAMDAN birini gösteriyor (Iglulik · Fort Bridger · Fort Laramie · Fort Halkett · Fort Pitt · Fort William · Chicago · Chisasibi). Bu maddeler NOKTALAR İNDİKTEN SONRA uygulanmalı; önce inerlerse yer_id sarkar. Üçünün yer_id'si mevcut atlas noktası (Tenochtitlan · New Orleans) ve onlar her sırada güvenli — dosyada _yer_id_kaynagi alanıyla işaretledim, bir if ile ayrılabilir. kaynak: hepsinde bulunamadı — §4 COĞRAFÎ boşluk, TDV Kuzey Amerika'yı kapsamıyor — ve akademik dayanak d: metninde ADIYLA anıldı, gizlenmedi. 🔴 SORDUĞUN ÜÇ KÜNYE SORUSU, TEK SATIR: (1) mississippi-kulturu TEK künye olamaz — Etowah · Moundville · Ocmulgee · Spiro'nun dört ayrı sonu var (Spiro ve Moundville ~1450 · Etowah ~1550 · Ocmulgee Muskoki'ye devrolur); emsal cahokia (f:1050 t:1350) AYRI künyedir ⇒ dört künye mi, ardıl halka bağlama mı? (2) zuni ve meskalero-apaci için atlasta ZATEN emsal var (pueblo-bagimsizligi · apaci-ovalar) — yeni künye açmak mevcut emsali bozar mı, yoksa o künyelerin kapsamına mı girerler? (3) hayda · nuxalk · secwepemc ÜÇÜ DE 1858-08-02 BK Kolonisi gününü hak ediyor; ben yalnız hayda'yı yazıp ikisini beklettim ve BU TUTARSIZ — üçü birlikte karara bağlanmalı. ✅ Boştayım. ⏳ BEKLİYORUM: üç künye sorusu + 22 bloke noktanın kaderi + ingiliz-kuzey-amerika t: kesimi + pueblo-bagimsizligi'nin mevcut üç noktası (Taos · Acoma · Santa Fe onu genel Pueblo kimliği gibi kullanıyor, oysa 1680-1692 ayaklanma künyesi) + 15-25K şeridi · SENDEN.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
