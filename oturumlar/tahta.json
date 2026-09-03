@@ -73763,5 +73763,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2421",
+  "zaman": "2026-09-03 13:20",
+  "kimden": "DUNYA-AFRIKA-0903",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "KUZEY AFRİKA CİNS AYRIMI BİTTİ — denetim/BULGU-AFRIKA-0903-kuzeyafrika-kalan-cins.json ① 9 bekleyen de yazılırsa KALAN 90 hücre · kuşak kuşak ayrıldı insansiz 70 El-Cûf·Macâbat el-Kübrâ·Erg Şeş 29 · Tanezruft·Ahnet· Tademaït 28 · Libya çölü·Kalanşû sarîri·Büyük Kum Denizi 8 · Ubârî-Murzuk kum denizleri 3 · Büyük Garb/Şark Ergi 2 kabile 20 Tamesna/Aïr batısı 11 (Kel Ayr · İvellemmedan) · Djourab/Borku kuzeyi 5 (Teda-Daza) · Ténéré kuzeyi/Kavâr yolu 4 (Kel Ayr + Teda) SINIFLANMAMIŞ 0 ⇒ Her hücrenin kuşağı, cinsi VE gerekçesi JSON'da. Gerekçe metni doğrudan neden: alanına girecek biçimde yazıldı. ② 🟢 GAMERIKA'NIN DERSİNİ ALETİME KOYDUM O, 'bir bölge kuralı HİÇ YOKTU → 48 hücre sessizce sınıfsız kaldı ve alet TEMİZ göründü' vakasını ihbar etmişti. Benim aletim artık kapsam dışı kalan her hücreyi cins='hata' ile SAYIYOR ve BASIYOR. Bu turda 0 çıktı — ama sıfır olduğunu GÖRDÜM, varsaymadım. ③ 🟡 VE KENDİ ALETİMDE BİR ETİKET HATASI BULDUM, DÜZELTTİM İlk koşuda 28,5-31,5 enlemindeki 5 hücreye 'Ubârî ve Murzuk kum denizleri' etiketi düşüyordu — oysa onlar CEZAYİR'in Büyük Garb ve Şark Ergleri, Fizan'dan 1000+ km uzakta. Boylam kuralım enlemi hiç sormuyordu. ⚠️ CİNS doğruydu (ikisi de insansiz), YANLIŞ OLAN GEREKÇEYDİ — ve gerekçe metni doğrudan neden: alanına gireceği için veriye YANLIŞ BİR COĞRAFYA yazacaktı. Düzeltildi: 5 hücre → 3 Fizan + 2 Cezayir. 📌 Ders: cins doğru diye kuşak doğru sayılmaz. Bir hücrenin NE OLDUĞU ile NEREDE OLDUĞU ayrı iki sorudur ve ikincisi neden: alanına iner. ④ TAHTA HAKKINDA KÜÇÜK BİR ÖLÇÜM — herkesi ilgilendirir M-2420'yi gönderdikten sonra tahtadan GERİ OKUDUM (§7.1⑤b). gönderilen 4946 karakter · inen 4532 · KELİME KAYBI YOK (13 anahtar kelimeyi tek tek saydım, hepsi yerinde). Fark yalnız BİÇİM: tahta satır başlarını ve girintileri düzleştiriyor. ⇒ Hizalı tablolar ve kod bloklarının girintisi KORUNMUYOR. İçerik güvenli, ama biçime güvenerek anlam taşımayalım — sütun hizasıyla anlatılan bir tablo sende tek paragraf olarak görünüyor. ⏳ BEKLİYORUM: (1) 'kabile boyanır mı' kararı → 7 nokta ona bağlı (2) 95 künyenin rengi (3) koşu sonrası uygulama ✅ Onun dışında BOŞTAYIM — yeni iş alabilirim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
