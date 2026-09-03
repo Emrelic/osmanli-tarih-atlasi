@@ -4,6 +4,18 @@
   "damga": "2026-09-03 · KOŞU CANLI (PID 1268) · ÇÖZÜCÜ HENÜZ KOŞMADI",
   "nicin_simdi": "§11: 'sonradan yazılan beklenti, ölçümü gördükten sonra farkında olmadan ona göre şekillenir ve hiçbir zaman yanlış çıkmaz — yani hiçbir şey öğretmez. Önce yazılan beklenti YANLIŞ ÇIKABİLİR, ve ancak yanlış çıkabilen bir şey bilgi taşır.'",
 
+  "🔴_DUZELTME_2026-09-03_15-10": {
+    "kim": "PRUSYA-0903 ölçtü · 1.MURAT uyguladı",
+    "nicin": "Öngörü ÇÖZÜCÜ KOŞMADAN, sınavı yapacak oturum tarafından SINANABİLİRLİK açısından ölçüldü. Üç kalem sınavı BOZACAK cinstendi. §11: 'bir öngörü, aletin bastığı BİRİMİ doğrulamadan yazılırsa ÇÜRÜTÜLEMEZ hâle gelir — ne tutar ne çürür, yalnız yanıltır.'",
+    "🔴_NE_DEGISTI": [
+      "① BİRİM: 'CIEDE2000' → 'CIE76'. `renk_olc.py:129` `def dE(a,b): '''CIE76 — Lab uzayında öklit'''`. Dosyada 'CIEDE2000' geçen: 0. İkisi AYNI SAYIYI VERMEZ.",
+      "② ÖLÇÜM NOKTASI: ham hex DEĞİL `gorunen()` zinciri. `renk_olc.py:482` `dE(gorunen(a), gorunen(b))` — renk ALTLIĞA BİNDİRİLMİŞ hâliyle ölçülüyor. Fark 88 PUANA kadar çıkıyor (sokoto↔kanem-bornu ham 157,61 · görünen 68,96).",
+      "③ KİMLİK ADI: 'Bornu' → 'kanem-bornu'. `bornu`/`borno` diye künye de boya da YOK. (§4 yazım ekseninin künye yüzü — aynı gün `torun` ve `Üsküp` vakalarından sonra üçüncüsü.)",
+      "④ KALEM ⑤ YENİDEN YAZILDI: bir ÖNGÖRÜ değil bir TABAN ölçümü olarak. Sebebi: hedef ZATEN SAĞLANMIŞ (68,96 · 71,94 ≥ 25), ve zaten sağlanmış bir şey için 'sağlanmalı' demek ÇÜRÜTÜLEMEZ bir kalem üretir."
+    ],
+    "🟢_NE_DEGISMEDI": "Kalem ①'in '5-20 bandı' ve ②'nin 'çoğunluğu bati-afrika'da' BEKLENTİLERİ. Yalnız ÖLÇÜM YOLU düzeltildi, BEKLENTİ değil — öngörüyü ölçüme göre ayarlamak §11'in yasakladığı şeydir."
+  },
+
   "0_TABAN_OLCUMU": {
     "arac": "denetim/ARAC-RENK-BASINC-0903.py",
     "yeni_kunye": 98,
@@ -30,7 +42,7 @@
       "no": "①",
       "ne_bekliyorum": "98'in çoğu çözülür; ΔE 12'nin altında kalan çift sayısı 5-20 bandında",
       "mazereti_var_mi": "🟡 VAR ve önceden yazılıyor: 44 bir ALT SINIR ölçümü; gerçek komşuluk daha seyrek olabilir ve bant aşağı kayabilir",
-      "hangi_ciktidan_hangi_birimde": "renk_olc.py çıktısı · CIEDE2000 ΔE · eşik 12 · birim: ÇİFT SAYISI",
+      "hangi_ciktidan_hangi_birimde": "renk_olc.py çıktısı · 🔴 CIE76 ΔE (CIEDE2000 DEĞİL — renk_olc.py:129) · 🔴 `gorunen()` zinciriyle, HAM HEX DEĞİL (renk_olc.py:482) · eşik 12 · birim: ÇİFT SAYISI",
       "hangi_kosuda_neye_karsi": "98 künye devletler.js'e indikten SONRA, çözücünün BİRİNCİ geçişinde; taban = bugünkü ihlal sayısı"
     },
     {
@@ -56,10 +68,20 @@
     },
     {
       "no": "⑤",
-      "ne_bekliyorum": "Sokoto ↔ Bornu ve Aşanti ↔ Dahomey çiftleri, eşiği geçseler bile SIKILAŞTIRMAYI hak eder (hedef ΔE ≥ 25)",
-      "mazereti_var_mi": "🔴 MAZERET YOK — bu bir TERCİH değil bir ÖLÇÜT: kullanıcı o savaşları okurken tarafları ayırt edememek, eşiği teknik olarak geçen bir renkten kat kat kötüdür (`bugis ↔ gova` emsali, ölçülmüş).",
-      "hangi_ciktidan_hangi_birimde": "renk_olc.py · o dört kimliğin ikili ΔE'si · birim: ΔE",
-      "hangi_kosuda_neye_karsi": "ikinci geçişten sonra"
+      "🔴_YENIDEN_YAZILDI": "İlk hâli 'Sokoto ↔ Bornu ve Aşanti ↔ Dahomey SIKILAŞTIRMAYI hak eder (hedef ≥25)' diyordu. PRUSYA-0903 ölçtü: hedef ZATEN SAĞLANMIŞ ⇒ kalem ÇÜRÜTÜLEMEZ. Bir TABAN ölçümüne çevrildi.",
+      "TABAN_olculdu_2026-09-03": {
+        "sokoto ↔ kanem-bornu": 68.96,
+        "asanti ↔ dahomey": 71.94,
+        "sokoto ↔ asanti": 60.19,
+        "kanem-bornu ↔ dahomey": 70.53,
+        "sokoto ↔ dahomey": 39.73,
+        "🟡 asanti ↔ kanem-bornu": 18.08
+      },
+      "ne_bekliyorum": "98 künye indikten sonra bu beş çiftin HİÇBİRİ ΔE 25'in altına DÜŞMEYECEK",
+      "mazereti_var_mi": "🔴 MAZERET YOK. Taban ölçülü, hedef net, ve `renk_fark.py` 'düşen çift' sayısını zaten basıyor.",
+      "hangi_ciktidan_hangi_birimde": "renk_olc.py · CIE76 ΔE · `gorunen()` zinciriyle · birim: ΔE",
+      "hangi_kosuda_neye_karsi": "renk partisinden SONRA, yukarıdaki taban değerlerine karşı",
+      "🟡_KARAR_asanti_kanem-bornu": "ΔE 18,08 · 12-25 uyarı bandında. SIKILAŞTIRILMAYACAK. Gerekçe: sıkılaştırma ölçütü MESAFE değil ANLATIdır (`bugis ↔ gova` = Makassar Savaşı'nın iki tarafı; `ava ↔ ayutthaya` = Burma-Siyam savaşları). Aşanti (Gana) ile Kanem-Bornu (Çad) ~2000 km ve ORTAK BİR ANLATIYA girdikleri ÖLÇÜLMEDİ. Bir çift, yalnız kullanıcının onları AYNI MADDEDE okuması hâlinde sıkılaştırmayı hak eder. ⚠️ 'ölçülmedi' — ortak bir savaş/antlaşma bulunursa karar YENİDEN VERİLİR."
     }
   ],
 
