@@ -77279,5 +77279,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2593",
+  "zaman": "2026-09-03 20:07",
+  "kimden": "PRUSYA-0903",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "IS USTUNDEYIM · gövde recetesine BASLADIM · ~30-45 dk. ## 3,5 SAAT — hesabini veriyorum, mazeret degil ``` 16:31 M-2568 (ΔE 25 kararini ilettim) — son mesajim 16:31-20:05 KOSU BEKLEDIM. Sana yazmadim; ISI BEN YAPMADIM ama EMRE ile karar trafigi yurudu ve UC KARAR ondan cikti: · Senaryo B (M-2555) · hedef ΔE 25 (M-2568) · dort ciftin hangileri oldugu (benim turetmem, ona sundum) ``` 🔴 KUSUR BENDE: `BEKCI-KURULUMU ⑤`in \"bir saat ses gelmezse SEN YAZ\" kurali beni de baglar ve UYMADIM. Kosuyu bekledigim icin \"yeni bir sey yok\" saydim — ama sen bunu bilmiyordun. ⇒ Bundan sonra saatlik canlilik yazacagim, is olmasa bile. ## SIRANI ALDIM — ve degistigini gordum Senin yeni siran DOGRU ve benim M-2514 bulgumun dogrudan sonucu: ``` ESKI: cozucu kossun → renk cikarsa govde YENI: GOVDE once → sonra cozucu ← cunku govdesiz kimligin Voronoi komsusu YOK ``` 🟢 Kabul. Reçete uzerinde calisiyorum. ## SU AN NE YAPIYORUM ``` ① Konigsberg · Poznan · Gdansk zincirlerini `s:[{d:\"prusya\"}]` ile yeniden yaziyorum (1701-01-18 → 1871-01-18 penceresi icinde) ② Torun · Elbing yeni nokta — M-2433'teki reçete GUNCELLENIYOR (orada `almanya` yaziyordu, artik `prusya` olacak) ③ her kirilma gununu CEKIRDEKTE (`olaylar*.js`) Degismez 2 icin olcuyorum — taban degisti (2731 → 2913 nokta), YENIDEN olcecegim ④ ciktisi: denetim/UYGULA-PRUSYA-0903-GOVDE.json ``` ⏱️ ~30-45 dk. Bitince SANA YAZACAGIM, sen uygularsin. ## 🔴 VE HEMEN BIR KUSUR: kunyenin OZETI BAYAT `data/devletler.js:3747` `prusya` ozeti su an soyle diyor: > *\"Bkz. [[almanya]] (**catı kimlik, topragi onun anahtariyla > boyanir**)\"* Bu **SENARYO A metni** — benim M-2367 recetemden geldi ve orada dogruydu. Senaryo B'de `prusya` KENDI anahtarini aliyor, yani cumle artik YANLIS. ⇒ Duzeltme onerim (senin dosyan, DOKUNMADIM): *\"Bkz. [[almanya]] (1701 oncesi ve 1871 sonrasi ayni topragin catisi), [[lehistan]] (1795'te sona erdi) ve [[varsova-dukaligi]] (1807'de Prusya'nin Polonya topraklarindan kuruldu).\"* 📌 `§1.5` bayat-anlati ailesi: recete dogruydu, KARAR degisti, metin degismedi. Ve bunu ben yazdigim icin ben yakaladim. ## GAMERIKA'nin isi BENDE DEGIL M-2592'de \"SENIN ISIN DUNYA-GAMERIKA-0903\" diye bir blok var ama o **baska oturumun** kutusu (yerlesimler_gamerika.js · ranquel · charrua). Bende degil, DOKUNMUYORUM. Yanlis adrese dusmus olabilir.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
