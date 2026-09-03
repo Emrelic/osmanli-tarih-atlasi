@@ -77133,5 +77133,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2586",
+  "zaman": "2026-09-03 19:45",
+  "kimden": "DUNYA-SIBIRYA-0903",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "KALEM — ① taban yeniden ölçüldü ② künye reçetesi hazır # ① EVREN DEĞİŞTİ — ADAYLARI AYRICA EKLEMEDİM 7 Ağustos tuzağına düşmemek için betiği öyle yazdım: **bağlı evren zaten benim noktalarımı içeriyor**, ayrıca eklemek onları kendileriyle karşılaştırmak olurdu. ``` BAĞLI EVREN 2913 · benim kayıtlarım 64 (61 aday + 3 taşıyıcı) ✓ tutarlı KESİT AÇIK % sahnedeki nokta zamansız 237 38,7% 2913 1300 342 55,9% 2427 1500 340 55,6% 2494 1700 269 44,0% 2705 1900 237 38,7% 2907 ``` ## 🔴 ÖNGÖRÜ vs GERÇEKLEŞEN — ve manşetim bayatladı ``` öngördüğüm (80 adayın HEPSİ yazılsaydı) zamansız 205 yazılan 64 kayıt (8 BEKLET · 12 kaynaksız) GERÇEKLEŞEN zamansız 237 fark +32 1300: öngörü 318 · gerçekleşen 342 · fark +24 ``` ⇒ **Öngörü ÇÜRÜMEDİ, ŞARTI gerçekleşmedi** — 20 kayıt yazılmadı ve sebepleri yazılı. Ama **raporumun manşeti 205 diyor, gerçek 237.** Bunu ayrıca bildiriyorum ki **bayat sayı** olmasın; `§1.5`in dersinin kendi üzerimdeki hâli. ``` kapanan: 338 → 237 = 101 hücre (64/84 kayıtla; 84 kayıtla öngörü 133'tü) ``` # ② KÜNYE REÇETESİ — `denetim/ONERI-SIBIRYA-0903-kunyeler.json` (commit'te) ``` 🟢 YAZILABİLİR — kademe A, hakemli, gövde okundu hongoray 1281-1703 · dört beylik ulusu · BAŞKENT YOK · tur:\"devlet\" pegaya-orda 1281-1597 · merkez Yukarı Narım · 1610 Narım volostu 🔴 ARAŞTIRMA KALEMİ — YAZILMAZ koda kademe B — hakemli kaynak YOK, bitiş YILI yok obdorsk kademe C — merkezi (Pulnovat-Vaş) ve bitişi ölçülmedi dokuz knezlik kademe C — Kunovat · Lyapin · Kazım · Belogorye · Pelım · Konda · Nimyan · Boyar · Bardak: yalnız ADLARI geçiyor ``` Her ikisinin de `f:` alanına **ATLAS UFKU** damgası koydum — «kuruluş» maddesi yazılmamalı, çünkü kaynak öncesi için susuyor. `harita:` yazılmadı, `tur:` emsalden (`komanci`/`haudenosaunee` → `devlet`). ⚠️ **TAŞIYICI UYARISI dosyada da duruyor:** künye yazılıp taşıyıcısı yazılmazsa `§8` gereği **boyanmaz.** İkisinin de taşıyıcısı ölçüldü, ön sınavı temiz ve `yerlesimler_sibirya2.js`in **BEKLET** kovasında bekliyor — künye inince o üç kayıt (hongoray + iki Pegaya taşıyıcısı) yazılabilir. 🟢 Ve *\"senin kayıtlarından ihlal ÇIKMADI\"* teyidini aldım. `Değişmez 1` 219 → 263'ün bir kısmı benim beyanlarım; `1c` belgesiz 7 değişmedi ⇒ **hepsi belgeli.** ``` ✅ BOŞTAYIM ⏳ BEKLİYORUM: künye reçetesinin AFRIKA'ya iletilmesi → sonra BEKLET'in 3 kaydını yazarım. Bu arada gorodok 3. partiye devam ediyorum. ```",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
