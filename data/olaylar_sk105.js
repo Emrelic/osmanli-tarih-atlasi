@@ -31,8 +31,21 @@
 // ============================================================================
 window.OLAYLAR_SK105 = [
 
+// 🔴 3 EYLÜL 2026 — BU MADDE KALDIRILDI, ve bu ÜÇÜNCÜ vaka.
+//    `data/olaylar_ek8.js:229` AYNI olayı, AYNI gün (1835-01-01), AYNI
+//    kişiyle (Abdullah b. Reşîd), AYNI kaynağa (TDV `residiler`)
+//    dayanarak ve DAHA ZENGİN anlatıyor: 1818 Mehmed Ali Paşa /
+//    Dir'iyye / İbn Ali ön tarihini de veriyor, `tur:/onem:/dunya:/
+//    kapsam:` alanları dolu.
+//    ⚠️ Ve `data/olaylar_ek22.js:11-20` 30 Ağustos'ta AYNI mükerreri
+//    bulup KENDİ maddesini silmiş — üç bağımsız oturum aynı TDV
+//    maddesini okuyup aynı sonuca vardı.
+//    📌 Kaynak çakışması değil, KEŞİF çakışması. Ve `denetle.py`nin
+//    "mükerrer madde" nöbetçisi onu üçünde de yakaladı.
+/*
 { t:"1835-01-01", k:"kurulus", etiket:["siyaset"], b:"Şammar (Reşîdî) Emirliği'nin kuruluşu — Hâil", gun:"1835", yer:"Hâil, Cebel Şammar", yer_id:"Hâil", kisiler:"Abdullah b. Reşîd",
   d:"Cebel Şammar bölgesinde nüfuzlu bir aşiret reisi olan Abdullah b. Reşîd, kardeşi Ubeyd ile birlikte bölgeye o zamana kadar hâkim olan İbn Ali ailesine karşı verdiği mücadeleyi kazanarak Hâil emirliğini ele geçirdi ve Reşîdî hânedanının hâkimiyetini kurdu. Necid'in kuzeyinde, o sırada merkezî bir otoriteden yoksun Hâil bölgesinde doğan bu emirlik, kısa sürede Osmanlı'ya yakın durarak Suûdîlerin tarihî rakibi hâline geldi; 1891'de Müleyde zaferiyle Riyad'ı da ele geçirip Necid'e hâkim oldu, nihayet 1921'de İbn Suûd'a teslim olarak tarihe karıştı. Bkz. [[suud-ikinci]], [[suud-ucuncu]].",
   kaynak:"residiler", duygu:["🏛"] }
+*/
 
 ];

@@ -177,7 +177,7 @@ BEKLENEN_YERLESIM = 968
 #    ⚠️ Bu sabit bir HEDEF degil bir FOTOGRAF: dunya yerlesim programi
 #    surerken her beyan partisi onu buyutur. Buyume KUSUR DEGIL —
 #    `1c`nin BELGESIZ sayisi buyurse O kusurdur.
-BEKLENEN_SAHIPSIZ = 263   # 214 +1 (Katar dolgu) +4 +44 (Okyanusya beyanlari)
+BEKLENEN_SAHIPSIZ = 300   # 263 +37 (G.Amerika beyanlari, 3 Eylul 20:30)
 # 🔴 214 -> 215, 28 Agustos 2026 — `yerlesimler_ek_korfez.js` BAGLANDI.
 # Tek kayit: "Katar Yarimadasi (ic, dolgu)", `kasitli_bosluk:true` ·
 # `bos:"devletsiz"`. Sahipsizligi KUSUR DEGIL AMAC: Katar yarimadasinin
@@ -2388,6 +2388,21 @@ BILINEN_AYRI = {
     # sonu). "Olay ↔ sonucu" da yukarıdaki sınırın bir üyesi.
     ("Patrona Halil İsyanı",
      "Sâdâbâd'ın Patrona Halil isyanında tahrip edilmesi"),
+    # ⭐ "AYNI SEFER, AYRI YERLER" SINIFI — 3 Eylül 2026.
+    # 1515-09-19'da iki madde var ve ikisi AYRI YERİ anlatıyor:
+    #   "Âmid'in (Diyarbekir) fethi ve Diyarbekir beylerbeyiliği"
+    #   "Nusaybin, Derik ve Silopi'nin Osmanlı'ya katılması"
+    # Ölçüt `[kişi!]` dalıyla eşleşiyor çünkü kişiler ORTAK (Bıyıklı
+    # Mehmed Paşa · İdrîs-i Bitlisî · Yavuz) ve gün AYNI. Ama biri
+    # Âmid'in teslimi, öteki Yukarı Cezîre'nin güney kolunun katılması —
+    # yaklaşık 200 km ötede, ve ikincisi birincinin ARDINDAN geliyor
+    # (`d:` metni bunu açıkça söylüyor: "Âmid'in teslim alınıp … ardından").
+    # 📌 "Olay ↔ sonucu" sınıfının COĞRAFÎ kardeşi: aynı seferin iki
+    # ayrı yerde, aynı gün kaydedilmiş iki kalemi. Bir sefer birden çok
+    # yeri aynı gün alabilir; ölçüt bunu ayırt edemez, KİŞİ ortaklığı
+    # onu mükerrer sanıyor.
+    ("Âmid'in (Diyarbekir) fethi ve Diyarbekir beylerbeyiliğinin kuruluşu",
+     "Nusaybin, Derik ve Silopi'nin Osmanlı'ya katılması — Diyarbekir'in güney kolu"),
     # ⭐ "OLAY ↔ O OLAY HAKKINDAKİ KAYNAK UYARISI" — 28 Ağustos 2026.
     # Yukarıdaki "olay ↔ sonucu" sınıfının kardeşi ve bir kademe ötesi:
     # burada ikinci madde olayın kendisini değil, KAYNAĞIN O OLAY HAKKINDA
