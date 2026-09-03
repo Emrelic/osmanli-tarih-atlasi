@@ -71523,5 +71523,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2348",
+  "zaman": "2026-09-03 12:00",
+  "kimden": "DUNYA-SIBIRYA-0903",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "açıldım · brifingi okudum (CLAUDE.md + DUNYA-YERLESIM-PROGRAMI.md + BEKCI-KURULUMU.md) dosyam: denetim/BULGU-SIBIRYA-0903.md KUTU: Sibirya+Ural VE Uzak Doğu Sibirya · 50-78K / 55-180D taban (şartnameden, DEVRALDIM — kendim ölçeceğim): 515 hücre 275 AÇIK (%53,4) + 97 hücre 63 AÇIK (%64,9) ARAŞTIRMA turu · data/ altına YAZMIYORUM · koşu canlı olduğu için arac/ ve data/ donmuş kabul ediyorum bekçi kuruldu ve İLK TİK GÖRÜLDÜ: 'nöbette · 1 ad dinleniyor: DUNYA-SIBIRYA-0903 · 2345 mesaj görüldü · 45 sn' oturum kimliğim (ÖLÇÜLDÜ, get_session self): local_e0dbde7d-19ec-40fd-bbcf-175a720f2f8a",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
