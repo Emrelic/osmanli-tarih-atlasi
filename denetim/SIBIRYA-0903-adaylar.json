@@ -1,5 +1,5 @@
 {
- "_NOT": "DUNYA-SIBIRYA-0903 · 3 Eylül 2026 · ARAŞTIRMA turu çıktısı. Bu bir KUYRUK dosyasıdır, VERİ DEĞİLDİR (M-2413 ②: `bos:` beş kova veri alanı, kuyruk sınıfları denetim/ altında yaşar). data/ altına indirmek koordinatörün işi. Ayrıntılı gerekçe ve kaynak künyeleri: denetim/BULGU-SIBIRYA-0903.md · İKİNCİ KAYNAK TURU işlendi (3 Eylül, öğleden sonra). · ÜÇÜNCÜ TUR: 3 km sınavı · hongoray taşıyıcısı · altı halkın sınıflandırması. · DÖRDÜNCÜ KAYNAK TURU. · BEŞİNCİ TUR: ölçüt zaman körü (M-2472) kutuda ölçüldü. · ALTINCI TUR: M-2478'in 1300 ayrımı. · YEDİNCİ TUR: Ural bloğu ölçüldü, TDV slug taraması, iki zonun gerekçesi.",
+ "_NOT": "DUNYA-SIBIRYA-0903 · 3 Eylül 2026 · ARAŞTIRMA turu çıktısı. Bu bir KUYRUK dosyasıdır, VERİ DEĞİLDİR (M-2413 ②: `bos:` beş kova veri alanı, kuyruk sınıfları denetim/ altında yaşar). data/ altına indirmek koordinatörün işi. Ayrıntılı gerekçe ve kaynak künyeleri: denetim/BULGU-SIBIRYA-0903.md · İKİNCİ KAYNAK TURU işlendi (3 Eylül, öğleden sonra). · ÜÇÜNCÜ TUR: 3 km sınavı · hongoray taşıyıcısı · altı halkın sınıflandırması. · DÖRDÜNCÜ KAYNAK TURU. · BEŞİNCİ TUR: ölçüt zaman körü (M-2472) kutuda ölçüldü. · ALTINCI TUR: M-2478'in 1300 ayrımı. · YEDİNCİ TUR: Ural bloğu ölçüldü, TDV slug taraması, iki zonun gerekçesi. · SEKİZİNCİ TUR: Ural üç-devlet ölçümü · taşıyıcı sınavları.",
  "oturum": "DUNYA-SIBIRYA-0903",
  "kutu": {
   "latG": 50,
@@ -46,7 +46,8 @@
   "okrlib": "Государственная библиотека Югры (okrlib.ru) — 1637 Samarovskiy ve Demyanskiy yamları",
   "prlib": "Президентская библиотека им. Б.Н. Ельцина (prlib.ru) — Çaus ostrogu 1713",
   "ez-chita": "Энциклопедия Забайкалья (ez.chita.ru) — Sretensk 1689",
-  "tdv-baskirt": "TDV islamansiklopedisi.org.tr/baskirt — HTTP 200, gövde okundu. ⚠️ `baskurt` slug'ı da 200 döner ama GÖVDESİ YALNIZCA ÇAPRAZ GÖNDERMEDİR ('bk. BAŞKIRT Orta Asya Türk kavimlerinden.') — §4 tuzağının BEŞİNCİ alt-sınıfı"
+  "tdv-baskirt": "TDV islamansiklopedisi.org.tr/baskirt — HTTP 200, gövde okundu. ⚠️ `baskurt` slug'ı da 200 döner ama GÖVDESİ YALNIZCA ÇAPRAZ GÖNDERMEDİR ('bk. BAŞKIRT Orta Asya Türk kavimlerinden.') — §4 tuzağının BEŞİNCİ alt-sınıfı",
+  "baskurt-cyberleninka": "cyberleninka — Başkurt bölgesinin Rusya'ya entegrasyonu ve «Башкиры и Казанское ханство» makaleleri; boy boy katılma tarihleri ve üçlü tâbiiyet dağılımı"
  },
  "adaylar": [
   {
@@ -1016,7 +1017,8 @@
    },
    "dayanak": "Zuev (NSU): yasak 'son derece istikrarsızdı — düzensiz, önemsiz ve keyfî miktarlarda ödendi, bir kısmı, muhtemelen önemli bir kısmı HİÇ ödemedi'; İtelmen ve Koryaklar 'ancak XVIII. yy ortasına doğru yatıştırılabildi'; tundra çavçu / kıyı nımılan ayrımı",
    "gerekce": "kaydın bugünkü gerekçesi 'kaynak Koryakların Rusya'ya tâbilik/haraç ilişkisini netleştirmiyor' diyor; Zuev tam o ilişkiyi netleştiriyor",
-   "not": "kıyı şeridi ayrı ele alınmalı: orada yerleşim VAR ⇒ devletsiz + tur≠bolge"
+   "not": "kıyı şeridi ayrı ele alınmalı: orada yerleşim VAR ⇒ devletsiz + tur≠bolge",
+   "ONAY": "🟢 M-2523 — Çukotka merkezi `devletsiz` → `kabile` ONAYLANDI (M-2404 sınavı)"
   },
   {
    "kayit": "Kolıma havzası (Yukagir) VE Doğu Sibirya kıyısı (Çuvan-Yukagir)",
@@ -1143,7 +1145,18 @@
       "harita: YAZILMAYACAK — kimliğin kendisi boya anahtarı",
       "1703 GÜNÜ bilinmiyor; kaynak 'ЛЕТОМ 1703 г.' diyor ⇒ 1703-01-01 (§4)",
       "tur: mevcut değerlerden — `komanci`/`haudenosaunee` emsali `devlet`; İCAT EDİLMEDİ"
-     ]
+     ],
+     "ONAY": "🟢 M-2523 — koordinatör taşıyıcı noktayı ONAYLADI",
+     "ON_SINAV": {
+      "ad_tam_dizgi": "0 çakışma",
+      "ad_normallestirilmis": "0 çakışma",
+      "normallestirici_sinandi": "İ→i ✓ · Üsküp→uskup ✓ (iki bilinen tuzak)",
+      "3km_bagli": "227,9 km (en yakın: Kuznetsk) 🟢",
+      "3km_adaylar": "58,7 km (en yakın: Abakan ostrogu) 🟢",
+      "kara_maskesi": "🟢 içinde",
+      "EK_KAPATTIGI_HUCRE": 0,
+      "🔴 AYRIM": "Taşıyıcı HİÇ HÜCRE KAPATMIYOR ve bu bir kusur DEĞİL: değeri kapsamada değil KÜNYEYİ TAŞIMAKTA. ⇒ «kapatma» ile «taşıma» iki ayrı iştir ve hücre sayısı ikincisini ÖLÇMEZ. Bir taşıyıcıyı hücre sayısına göre değerlendiren bir ölçüt onu GEREKSİZ görür."
+     }
     }
    },
    {
@@ -1756,5 +1769,61 @@
   ],
   "HUKUM": "Sibirya'nın YERLİ HALKLARI için TDV kapsaması pratikte SIFIR (yakutlar ve tuva istisna). §4'ün «coğrafî boşluk» maddesi geçerli ⇒ akademik kaynak MEŞRU. Ama Başkurtlar TDV'DE VAR — ve blok tam bu yüzden ötekilerden AYRI.",
   "YENI_ALT_SINIF": "🔴 §4 tuzağının BEŞİNCİ alt-sınıfı ölçüldü: `baskurt` HTTP 200 döner, başlık doğrudur, ama gövde YALNIZCA bir çapraz göndermedir («bk. BAŞKIRT Orta Asya Türk kavimlerinden.»). ① ölü 302 · ② canlı ama yanlış madde · ③ boş gövde · ④ boilerplate · ⑤ ÇAPRAZ GÖNDERME STUB'I ← YENİ. Dördü de `<title>` sınavını geçer; beşincisi GÖVDE UZUNLUĞU sınavını da geçer (kısa ama dolu görünür)."
+ },
+ "cukotka_karari": {
+  "kayit": "Çukotka merkezi (66,00/172,00)",
+  "eski": "bos:devletsiz",
+  "yeni": "bos:kabile",
+  "ONAY": "🟢 M-2523",
+  "gerekce": "M-2404 sınavı: adlandırılabilir kabile örgütlenmesi VAR, kaynak susmuyor (Zuev)",
+  "ACIK_KALAN": "⚠️ `Anadır (Anadyrsk)` kaydı `tur:'kale'` olduğu için türetmede `devletsiz-yerlesim` çıkıyor ve KATILMIYOR; `Çukotka merkezi` `tur:'bolge'` olduğu için `devletsiz` çıkıyordu ve KATILIYORDU. `kabile`ye çevrilince ikisi de katılmaz hâle gelir — ama iki kaydın hâlâ FARKLI cinsi olur. Bunun kasıtlı mı olduğu ÖLÇÜLMEDİ."
+ },
+ "ural_blogu_olcumu": {
+  "_soru": "M-2523: `nogay` ↔ `sibir-hanligi` ayrımı — hangisi?",
+  "CEVAP": "🔴 İKİSİ DE. Kaynak Başkurtları ÜÇ devlet arasında COĞRAFÎ olarak bölüyor.",
+  "kaynak": "baskurt-cyberleninka + tdv-baskirt",
+  "uc_bolunme": {
+   "kuzeybatı Başkurtlar": "KAZAN HANLIĞI — «В составе Казанского ханства находились северо-западные башкиры, жившие по рр. Кама, Белая, Ик, Мензеля, Зай»",
+   "merkez ve güney": "NOGAY ORDASI — «территории, подконтрольные ранее им [ногайцам], заселялись башкирами и делились между их родами и племенами»",
+   "kuzeydoğu / Zaural": "SİBİR HANLIĞI — «зауральских родов башкир, оказавшихся в сфере непосредственного подчинения правителям Сибирского ханства»"
+  },
+  "KATILMA_TARIHLERI_BOY_BOY": {
+   "1554-1555": "batı Başkurtlar (Kazan'ın düşüşünden sonra)",
+   "1555": "Min ve Yurmatı boyları",
+   "≤1556": "güneydoğu: Burzyan · Kıpsak · Userğan · Tamyan",
+   "1556-1557": "merkez ve doğu",
+   "XVI. yy sonu - XVII. yy başı": "KUZEYDOĞU Başkurtlar (Sibir Hanlığı hâkimiyetindekiler)"
+  },
+  "UC_TARIH_SORUSUNUN_CEVABI": {
+   "hukum": "🔴 TEK BİR TARİH YOK — ve kaynak bunu AÇIKÇA söylüyor",
+   "alinti": "«1557 г., отмечаемый как год присоединения Башкирии к России, — в значительной мере УСЛОВНОСТЬ, вызванная абсолютизацией Никоновской летописи»",
+   "cikarim": "1557 bir OLAY değil bir KONVANSİYON; tâbiiyet boy boy ve 1554'ten XVII. yy başına yayılıyor.",
+   "1574": "Ufa'nın KURULUŞU — `kur:`, tasarruf kırılması DEĞİL (koordinatörün hükmü doğru)",
+   "1649": "⚪ HÂLÂ ÖLÇÜLMEDİ — TDV bu tarihi veriyor ama neyi adlandırdığı bulunamadı"
+  },
+  "ONERILEN_ZINCIR": {
+   "_not": "YENİ KÜNYE GEREKMİYOR — dördü de mevcut",
+   "merkez/güney blok": [
+    "1281-01-01 → 1502-01-01 altinorda",
+    "1502-01-01 → 1555-01-01 nogay",
+    "1555-01-01 → rusya"
+   ],
+   "kuzeydoğu (Trans-Ural)": [
+    "1281-01-01 → 1430-01-01 altinorda",
+    "1430-01-01 → 1598-08-20 sibir-hanligi",
+    "1598-08-20 → rusya",
+    "⇒ atlasın `Tümen (Çimgi-Tura)` kaydının zinciriyle BİREBİR AYNI"
+   ],
+   "UYARI": "🔴 `s:` mi `v:` mi ÖLÇÜLMEDİ. Kaynak Başkurtların Nogay'a ve Sibir'e TÂBİ olduğunu söylüyor; doğrudan idare mi tâbiiyet mi ayrımını yapmıyor. Selenginsk/Setsen Han vakasıyla AYNI SINIF — ikisi birlikte karara bağlanmalı."
+  },
+  "TASIYICI_YERLESIMI": {
+   "1300de_acik_blok_hucresi": 17,
+   "_izgara_notu": "17 vs daha önce raporladığım 24: fark SINIR ARTIFAKTI — bu tarama 51-59K/56-66D kutusunu ADIM 2° ile ve lat<59, lon<66 kesitiyle aldı; 24'lük sayım 59K satırını ve 66D sütununu da içeriyordu. ÇELİŞKİ DEĞİL.",
+   "en_iyi_TEK_nokta": "54,0K / 62,5D → 17 hücrenin YALNIZ 6'sı · en yakın bağlı nokta 399 km",
+   "ikinci_nokta": "56,5K / 59,0D → kalan 11'in 5'i",
+   "HUKUM": "🔴 TEK NOKTA YETMİYOR — blok ~3 taşıyıcı istiyor. Ve bu tesadüf değil: kaynak Başkurtları ZATEN ÜÇ devlet arasında bölüyor, yani coğrafî bölünme siyasî bölünmeyle ÖRTÜŞÜYOR."
+  },
+  "UFA_KARARI": "🟢 Koordinatörün hükmü alındı: Ufa kur:1574, geriye çekilmez. Taşıyıcı AYRI `tur:'bolge'` noktaları olacak.",
+  "BEYAN_MI_ZINCIR_MI": "🟢 ZİNCİR — beyan DEĞİL. Kaynak toprağın SAHİPLİ olduğunu söylüyor (Altın Orda → Nogay/Kazan/Sibir → Rusya). `bos:` yazmak, sahipli bir toprağı sahipsiz ilan etmek olurdu. `Buryat toprakları` kalıbı."
  }
 }
