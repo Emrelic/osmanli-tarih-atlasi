@@ -72527,5 +72527,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2373",
+  "zaman": "2026-09-03 12:22",
+  "kimden": "DUNYA-GAMERIKA-0903",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "KALEM 10 — 🔴 AKSAKLIK: KAYNAK ERISIM ORANINI OLCTUM, SARTNAMEYLE UYUSMUYOR. Sartname \"her acik hucre icin kaynaga sor\" diyor. 1138 acik hucrem var. Kaynak erisimini OLCTUM (tahmin degil, sayim): denenen erisim 13 KULLANILABILIR tarih verdi 4 (%31) URL olu / 404 5 govde var ama TARIH YOK 2 403 Forbidden 2 (UNESCO whc.unesco.org · IBGE cidades) Ve genel web aramasi par.4'un KIRMIZI listesine dusuyor: \"Punta Arenas 1848\" sorgusunun on sonucundan yedisi Vikipedi ya da turizm sitesi. Par.4: \"forum · blog · icerik ciftligi · kaynaksiz derleme · populer tarih sayfasi KULLANILMAZ\" ve \"Vikipedi TEK DAYANAK DEGIL\". CALISAN KAYNAK ZEMINI (olculdu, ucu de par.4 YESIL): 🟢 Memoria Chilena / Biblioteca Nacional de Chile — MUKEMMEL calisti. Kolonizacion de Magallanes sayfasi tek fetchte UC tarih verdi: Fuerte Bulnes 1843-10-30 · Punta Arenas 1848 · Porvenir 1894 (ve bir DUZELTME: yaygin \"Bulnes 1843 Mayis\" bilgisi yanlis; Mayis SEFERIN kalkisi, 21 Eylul zilyetlik, 30 Ekim KALE) 🟢 encyclopedia.com — icerigi \"Encyclopedia of Latin American History and Culture\" (Scribner's), par.4 anlaminda \"alanin standart el kitabi\". AMA slug tahmini TUTMUYOR: dogru desen /humanities/encyclopedias-almanacs-transcripts-and-maps/<slug> ve her sehir icin ONCE ARAMA gerekiyor => nokta basina 2 cagri. 🔴 UNESCO whc.unesco.org 403 🔴 IBGE cidades.ibge.gov.br 403 (Brezilya belediye tarihcelerinin resmi kaynagiydi — 149 hucrelik Mato Grosso kolunun ana damari) HESAP: ~200 nokta x 2 cagri x (1 / 0,31 isabet) ≈ 1300 erisim. Bu bir oturumda bitmez. Sana TAHMIN degil OLCUM veriyorum. BENIM ONERIM — kapsami DARALT, derinligi KORU: Bu tur 1138 hucrenin hepsini KAPATMAZ. Bunun yerine: ① yapisal bulgular (KALEM 6-9) — BITTI, ve nokta yazmadan once cozulmesi gereken seyler onlar (kunye altyapisi · 18 hayalet) ② 40-60 noktalik, GERCEKTEN DOGRULANMIS bir ilk parti — alt bolge basina en cok kazandiran noktalar ③ geri kalani icin \"olculmedi\" damgasi, alt bolge alt bolge => bir sonraki oturum NEREDEN baslayacagini bilir 40-60 iyi yerlestirilmis nokta ~400-600 hucre kapatir (bir nokta 1 derece izgarada ~10 hucre). Yani %73,8 -> ~%35-40. ALTERNATIF (senin karariniz): dogrulama esigini gevsetip \"standart basvuru eserinin kapsadigi, ama bu turda web'den teyit EDILMEMIS\" diye DAMGALI nokta yazmak. Ben bunu ONERMIYORUM — par.4'un \"kaynagi yazilmayan bilgi, kaynagi olmayan bilgiden ayirt edilemez\" kuralinin tam sinirinda ve damga zamanla dusuyor. SORULARIM: (1) ② yi onayliyor musun, yoksa baska bir oncelik mi var? (2) UNESCO/IBGE 403'u sende de var mi? Baska bir oturum bu portallara erisebiliyorsa 149 hucrelik Mato Grosso kolu ONA verilmeli — bende erisim YOK. (3) KALEM 8'deki kunye eksigi bu isi ONCELER: Rio de la Plata · Yeni Granada · Sili Genel Kaptanligi · Guarani misyonlari kunyeleri olmadan yazacagim noktalarin yarisi kimliksiz kalir. Bu is kimde? BEKLERKEN DURMUYORUM — Patagonya kolunu (133 hucre, en uzak bosluk) dogrulanmis kaynakla yaziyorum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
