@@ -1,0 +1,1116 @@
+{
+ "_NOT": "DUNYA-SIBIRYA-0903 · 3 Eylül 2026 · ARAŞTIRMA turu çıktısı. Bu bir KUYRUK dosyasıdır, VERİ DEĞİLDİR (M-2413 ②: `bos:` beş kova veri alanı, kuyruk sınıfları denetim/ altında yaşar). data/ altına indirmek koordinatörün işi. Ayrıntılı gerekçe ve kaynak künyeleri: denetim/BULGU-SIBIRYA-0903.md · İKİNCİ KAYNAK TURU işlendi (3 Eylül, öğleden sonra).",
+ "oturum": "DUNYA-SIBIRYA-0903",
+ "kutu": {
+  "latG": 50,
+  "latK": 78,
+  "lonB": 55,
+  "lonD": 180
+ },
+ "olcum": {
+  "izgara_derece": 2.0,
+  "tavan_km": 200,
+  "maske": "veri-kaynak/ne_10m_land.geojson",
+  "bagli_nokta": 2731,
+  "acik_once": 338,
+  "acik_sonra": 205,
+  "kapanan": 133,
+  "yontem": "IZGARA YENİDEN TARANDI (M-2413 ③) — çıkarma YAPILMADI. Aday başına 1,66 hücre.",
+  "kademe_dagilimi": {
+   "A": 38,
+   "B": 23,
+   "C": 19
+  }
+ },
+ "kademe_sozlugu": {
+  "A": "hakemli akademik makale / üniversite yayını / birincil kaynak neşri — GÖVDE OKUNDU",
+  "B": "ansiklopedik · resmî · bölgesel kaynak — gövde okundu, hakemli DEĞİL",
+  "C": "KAYNAK BULUNAMADI — tarih ön bilgidir, bu turda DOĞRULANMADI. YAZILMAMALI."
+ },
+ "kaynaklar": {
+  "mazaev2014": "Мазаев А.Г., Формирование и развитие системы расселения Урала (XVII-XIX вв.), Академический вестник УралНИИпроект РААСН, 2014 (cyberleninka)",
+  "zuev": "Зуев А.С., Русские остроги на крайнем Северо-Востоке Сибири… / Хроника присоединения крайнего Северо-Востока Сибири к России, Сибирская Заимка (ISSN 2308-4073); aslı Новосибирский гос. университет, 2002",
+  "karih2008": "Карих Е.В., Анюйская ярмарка во второй половине XIX – начале XX в., Вестник Томского гос. университета, 2008 (cyberleninka)",
+  "buryatia": "Присоединение Бурятии к России: геополитические сценарии трансграничья в XVII-XIX вв. (cyberleninka)",
+  "hakasya": "О результатах исследования архитектурно-пространственного развития городов Хакасии (cyberleninka)",
+  "kardash": "Кардаш О.В., Надымский городок kazıları — dendrokronolojik tarihleme (Северная археология)",
+  "krasheninnikov1755": "Крашенинников С.П., Описание земли Камчатки (1755) — Викитека neşri",
+  "tdv-sibir": "TDV islamansiklopedisi.org.tr/sibir-hanligi — HTTP 200, gövde okundu",
+  "tdv-yakutlar": "TDV islamansiklopedisi.org.tr/yakutlar — HTTP 200, gövde okundu",
+  "tdv-tuva": "TDV islamansiklopedisi.org.tr/tuva — HTTP 200, gövde okundu",
+  "bolgesel": "Taymır Dolgan-Nenets belediye tarihçesi · bölgesel ansiklopedik kaynaklar (hakemli DEĞİL)",
+  "skobelev2010": "Скобелев С.Г., Чуриков Р.С., К вопросу о месте расположения первого Ачинского острога, Вестник Новосибирского гос. университета. Серия: История. Филология, 2010 (cyberleninka)",
+  "chertikov2009": "Чертиков М.А., Этнополитическая ситуация на территории Хонгорая XVII – начале XVIII в., Вестник Томского гос. университета, 2009 (cyberleninka)",
+  "buryat-halha": "Burjat tarihi makaleleri (cyberleninka): Hori Buryatları Setsen Han'ın DANNİK (haraçgüzâr) tebaası; Selenge Buryatları 'Halha Moğollarından az farklıydı'; orta Selenge'de Tabangut Moğol grupları iskân edilmiş"
+ },
+ "adaylar": [
+  {
+   "ad": "Çelyabinsk",
+   "lat": 55.16,
+   "lon": 61.4,
+   "kur": "1736-09-02",
+   "kademe": "A",
+   "kaynak": "mazaev2014",
+   "hucre": 3,
+   "olay": "Çelyabinsk kalesi kuruldu (2 Eylül 1736)"
+  },
+  {
+   "ad": "Kurgan",
+   "lat": 55.45,
+   "lon": 65.34,
+   "kur": "1662-01-01",
+   "kademe": "A",
+   "kaynak": "mazaev2014",
+   "hucre": 2,
+   "olay": "sloboda"
+  },
+  {
+   "ad": "Zlatoust",
+   "lat": 55.17,
+   "lon": 59.67,
+   "kur": "1754-01-01",
+   "kademe": "A",
+   "kaynak": "mazaev2014",
+   "hucre": 2,
+   "olay": "maden/izabe kasabası"
+  },
+  {
+   "ad": "Dalmatovo",
+   "lat": 56.25,
+   "lon": 62.94,
+   "kur": "1644-01-01",
+   "kademe": "A",
+   "kaynak": "mazaev2014",
+   "hucre": 3,
+   "olay": "manastır sloboda"
+  },
+  {
+   "ad": "Kamışlov",
+   "lat": 56.85,
+   "lon": 62.71,
+   "kur": "1668-01-01",
+   "kademe": "A",
+   "kaynak": "mazaev2014",
+   "hucre": 1,
+   "olay": "sloboda"
+  },
+  {
+   "ad": "Yalutorovsk",
+   "lat": 56.66,
+   "lon": 66.31,
+   "kur": "1639-01-01",
+   "kademe": "A",
+   "kaynak": "mazaev2014",
+   "hucre": 1,
+   "olay": "sloboda"
+  },
+  {
+   "ad": "Verhoturye",
+   "lat": 58.86,
+   "lon": 60.8,
+   "kur": "1598-01-01",
+   "kademe": "A",
+   "kaynak": "mazaev2014",
+   "hucre": 2,
+   "olay": "devlet seferiyle ostrog, sonra ahşap kremlin"
+  },
+  {
+   "ad": "Turinsk",
+   "lat": 58.05,
+   "lon": 63.7,
+   "kur": "1600-01-01",
+   "kademe": "A",
+   "kaynak": "mazaev2014",
+   "hucre": 3,
+   "olay": "şehir kuruldu"
+  },
+  {
+   "ad": "Irbit",
+   "lat": 57.68,
+   "lon": 63.06,
+   "kur": "1631-01-01",
+   "kademe": "A",
+   "kaynak": "mazaev2014",
+   "hucre": 3,
+   "olay": "Irbit slobodası"
+  },
+  {
+   "ad": "Yekaterinburg",
+   "lat": 56.84,
+   "lon": 60.61,
+   "kur": "1723-01-01",
+   "kademe": "A",
+   "kaynak": "mazaev2014",
+   "hucre": 1,
+   "olay": "fabrika-şehir"
+  },
+  {
+   "ad": "Nijniy Tagil",
+   "lat": 57.92,
+   "lon": 59.97,
+   "kur": "1722-01-01",
+   "kademe": "A",
+   "kaynak": "mazaev2014",
+   "hucre": 2,
+   "olay": "demir fabrikası"
+  },
+  {
+   "ad": "Troitsk",
+   "lat": 54.09,
+   "lon": 61.56,
+   "kur": "1743-01-01",
+   "kademe": "B",
+   "kaynak": "bolgesel",
+   "hucre": 5,
+   "olay": "Uy hattı kalesi (hat 1739-1743)"
+  },
+  {
+   "ad": "Pelım ostrogu",
+   "lat": 59.6,
+   "lon": 63.05,
+   "kur": "1593-01-01",
+   "kademe": "B",
+   "kaynak": "bolgesel",
+   "hucre": 4,
+   "olay": "ostrog",
+   "uyari": "KOORDİNAT ⚠️ — modern Pelım kasabası 61,02/61,98'dir ve 169 km uzaktadır. Bu koordinat DOĞRULANMADI."
+  },
+  {
+   "ad": "Nadım gorodok",
+   "lat": 65.9,
+   "lon": 72.7,
+   "kur": "1281-01-01",
+   "kademe": "A",
+   "kaynak": "kardash",
+   "hucre": 6,
+   "olay": "XII. yy sonunda kurulan yerli (Hantı/Nenets) müstahkem kasabası; 1731'e kadar yaşadı. Dendrokronolojik tarihleme.",
+   "bitis": "1731-01-01",
+   "uyari": "KOORDİNAT ⚠️ — kaynak 'Nadım şehrinden 60 km, nehir ağzından 32 km' diyor; kesinleştirilmeli."
+  },
+  {
+   "ad": "Narım",
+   "lat": 58.36,
+   "lon": 81.58,
+   "kur": "1596-01-01",
+   "kademe": "B",
+   "kaynak": "bolgesel",
+   "hucre": 1,
+   "olay": "Narım ostrogu (1596 ya da 1598)"
+  },
+  {
+   "ad": "Abakan ostrogu",
+   "lat": 53.72,
+   "lon": 91.44,
+   "kur": "1707-01-01",
+   "kademe": "A",
+   "kaynak": "hakasya",
+   "hucre": 4,
+   "olay": "I. Petro'nun 1706 fermanıyla 'Kırgız toprağının merkezinde' kurulan ostrog; Hakas beyleri surları dibinde Rus tâbiiyeti yemini etti"
+  },
+  {
+   "ad": "Sayansk ostrogu",
+   "lat": 52.85,
+   "lon": 91.9,
+   "kur": "1709-01-01",
+   "kademe": "A",
+   "kaynak": "hakasya",
+   "hucre": 3,
+   "olay": "ostrog",
+   "uyari": "KOORDİNAT yaklaşık"
+  },
+  {
+   "ad": "Belotsarsk (Kızıl)",
+   "lat": 51.72,
+   "lon": 94.44,
+   "kur": "1914-01-01",
+   "kademe": "A",
+   "kaynak": "tdv-tuva",
+   "hucre": 5,
+   "olay": "Rus himayesi yılında kurulan idarî merkez"
+  },
+  {
+   "ad": "Verhneangarsk ostrogu",
+   "lat": 55.8,
+   "lon": 109.6,
+   "kur": "1647-01-01",
+   "kademe": "A",
+   "kaynak": "buryatia",
+   "hucre": 4,
+   "olay": "ostrog — Buryatya'nın Rusya'ya katılışının başlangıcı"
+  },
+  {
+   "ad": "Barguzin",
+   "lat": 53.62,
+   "lon": 109.65,
+   "kur": "1648-01-01",
+   "kademe": "A",
+   "kaynak": "buryatia",
+   "hucre": 2,
+   "olay": "ostrog"
+  },
+  {
+   "ad": "Bauntovsk",
+   "lat": 55.18,
+   "lon": 113.0,
+   "kur": "1652-01-01",
+   "kademe": "A",
+   "kaynak": "buryatia",
+   "hucre": 4,
+   "olay": "ostrog"
+  },
+  {
+   "ad": "Irgen",
+   "lat": 51.8,
+   "lon": 112.3,
+   "kur": "1654-01-01",
+   "kademe": "A",
+   "kaynak": "buryatia",
+   "hucre": 4,
+   "olay": "ostrog",
+   "uyari": "KOORDİNAT yaklaşık — kaynak göl adı veriyor"
+  },
+  {
+   "ad": "Telembinsk",
+   "lat": 52.5,
+   "lon": 113.9,
+   "kur": "1658-01-01",
+   "kademe": "A",
+   "kaynak": "buryatia",
+   "hucre": 2,
+   "olay": "ostrog",
+   "uyari": "KOORDİNAT yaklaşık"
+  },
+  {
+   "ad": "Kabansk",
+   "lat": 52.05,
+   "lon": 106.65,
+   "kur": "1660-01-01",
+   "kademe": "A",
+   "kaynak": "buryatia",
+   "hucre": 0,
+   "olay": "ostrog"
+  },
+  {
+   "ad": "İlyinsk",
+   "lat": 51.95,
+   "lon": 107.2,
+   "kur": "1660-01-01",
+   "kademe": "A",
+   "kaynak": "buryatia",
+   "hucre": 0,
+   "olay": "ostrog (önceki adı Bolşaya Zaimka)"
+  },
+  {
+   "ad": "Verhneudinsk",
+   "lat": 51.83,
+   "lon": 107.6,
+   "kur": "1665-01-01",
+   "kademe": "A",
+   "kaynak": "buryatia",
+   "hucre": 1,
+   "olay": "Uda ağzında Udinsk zimovyesi — ostrogun ve şehrin başlangıcı"
+  },
+  {
+   "ad": "Uyandina (Nijneindigirsk) zimovyesi",
+   "lat": 68.35,
+   "lon": 145.6,
+   "kur": "1638-01-01",
+   "kademe": "A",
+   "kaynak": "zuev",
+   "hucre": 5,
+   "olay": "zimovye",
+   "uyari": "KOORDİNAT yaklaşık"
+  },
+  {
+   "ad": "Podşiversk",
+   "lat": 66.45,
+   "lon": 143.3,
+   "kur": "1636-01-01",
+   "kademe": "A",
+   "kaynak": "zuev",
+   "hucre": 2,
+   "olay": "zimovye",
+   "uyari": "KOORDİNAT yaklaşık"
+  },
+  {
+   "ad": "Alazeya ostrogu",
+   "lat": 68.5,
+   "lon": 154.5,
+   "kur": "1642-01-01",
+   "kademe": "A",
+   "kaynak": "zuev",
+   "hucre": 5,
+   "olay": "zimovye s ostrojkom",
+   "uyari": "KOORDİNAT yaklaşık"
+  },
+  {
+   "ad": "Srednekolımsk",
+   "lat": 67.46,
+   "lon": 153.72,
+   "kur": "1643-07-30",
+   "kademe": "A",
+   "kaynak": "zuev",
+   "hucre": 5,
+   "olay": "Stadukhin ve Zıryan Kolıma'da 'nagorodnya'lı zimovye kurdu (30 Temmuz 1643)"
+  },
+  {
+   "ad": "Nijnekolımsk",
+   "lat": 68.53,
+   "lon": 160.9,
+   "kur": "1644-01-01",
+   "kademe": "A",
+   "kaynak": "zuev",
+   "hucre": 2,
+   "olay": "Büyük Anyuy'un Kolıma'ya katıldığı yerde zimovye"
+  },
+  {
+   "ad": "Ostrovnoye (Anyuy panayırı)",
+   "lat": 68.1,
+   "lon": 164.1,
+   "kur": "1794-01-01",
+   "kademe": "A",
+   "kaynak": "karih2008",
+   "hucre": 5,
+   "olay": "panayır Büyük Anyuy'daki adaya taşındı (Nijnekolımsk'ten 200 verst); 1848 sonrası Küçük Anyuy sol kıyısına",
+   "uyari": "KOORDİNAT yaklaşık; panayır ÜÇ ayrı yerde bulundu"
+  },
+  {
+   "ad": "Tauysk",
+   "lat": 59.6,
+   "lon": 149.2,
+   "kur": "1652-09-10",
+   "kademe": "A",
+   "kaynak": "zuev",
+   "hucre": 3,
+   "olay": "Stadukhin, Taui ağzında (10 Eylül 1652); 1648'de Motıkley zimovyesi"
+  },
+  {
+   "ad": "Yama zimovyesi",
+   "lat": 59.4,
+   "lon": 154.2,
+   "kur": "1692-01-01",
+   "kademe": "A",
+   "kaynak": "zuev",
+   "hucre": 1,
+   "olay": "Yama ağzında zimovye",
+   "uyari": "KOORDİNAT yaklaşık"
+  },
+  {
+   "ad": "Gijiga",
+   "lat": 61.98,
+   "lon": 160.35,
+   "kur": "1651-01-01",
+   "kademe": "A",
+   "kaynak": "zuev",
+   "hucre": 3,
+   "olay": "Gijiga ağzında zimovye (1651 sonbaharı); kale 1752"
+  },
+  {
+   "ad": "Penjinsk ostrogu",
+   "lat": 62.5,
+   "lon": 165.5,
+   "kur": "1709-01-01",
+   "kademe": "A",
+   "kaynak": "zuev",
+   "hucre": 1,
+   "olay": "ostrog",
+   "uyari": "KOORDİNAT yaklaşık"
+  },
+  {
+   "ad": "Nijnekamçatsk",
+   "lat": 56.28,
+   "lon": 162.0,
+   "kur": "1697-01-01",
+   "kademe": "A",
+   "kaynak": "zuev",
+   "hucre": 3,
+   "olay": "ostrog (1697 sonbaharı)"
+  },
+  {
+   "ad": "Verhnekamçatsk",
+   "lat": 54.75,
+   "lon": 158.9,
+   "kur": "1698-01-01",
+   "kademe": "A",
+   "kaynak": "zuev",
+   "hucre": 0,
+   "olay": "ostrog (1698 yaz sonu-sonbahar başı)"
+  },
+  {
+   "ad": "Bolşeretsk",
+   "lat": 52.43,
+   "lon": 156.42,
+   "kur": "1704-08-06",
+   "kademe": "A",
+   "kaynak": "zuev",
+   "hucre": 0,
+   "olay": "ostrog (6 Ağustos 1704)"
+  },
+  {
+   "ad": "Olyutorsk (Arhangelsk)",
+   "lat": 60.0,
+   "lon": 166.5,
+   "kur": "1714-01-01",
+   "kademe": "A",
+   "kaynak": "zuev",
+   "hucre": 1,
+   "olay": "ostrog (1714 sonbaharı)",
+   "uyari": "KOORDİNAT yaklaşık"
+  },
+  {
+   "ad": "Ust-Olenyok zimovyesi",
+   "lat": 72.9,
+   "lon": 119.8,
+   "kur": "1633-01-01",
+   "kademe": "B",
+   "kaynak": "bolgesel",
+   "hucre": 5,
+   "olay": "Rebrov nehrin AĞZINDA zimovye kurdu; dokuz Tunguz'dan 45 samur yasak alındı",
+   "uyari": "KOORDİNAT ⚠️ — modern Olenyok kasabası 68,50/112,44'tür ve 558 km uzaktadır"
+  },
+  {
+   "ad": "Voloçanka (Voloçanı zimovyesi)",
+   "lat": 70.98,
+   "lon": 94.53,
+   "kur": "1643-01-01",
+   "kademe": "B",
+   "kaynak": "bolgesel",
+   "hucre": 4,
+   "olay": "Vasiliy Sıçev'in müfrezesi, Heta-Pyasina volokunda yasak zimovyesi"
+  },
+  {
+   "ad": "Verhnekolımsk",
+   "lat": 65.44,
+   "lon": 150.9,
+   "kur": "1647-01-01",
+   "kademe": "B",
+   "kaynak": "bolgesel",
+   "hucre": 1,
+   "olay": "zimovye"
+  },
+  {
+   "ad": "Amga",
+   "lat": 60.9,
+   "lon": 131.98,
+   "kur": "1652-01-01",
+   "kademe": "B",
+   "kaynak": "bolgesel",
+   "hucre": 1,
+   "olay": "Amginskaya slobodası — Voin Bogdanov ve altı sürgün",
+   "uyari": "🔴 KALICI DEĞİL: 1661'e gelindiğinde tarım yerleşiminden geriye HİÇBİR ŞEY kalmamıştı. Yeniden iskân tarihi ÖLÇÜLMEDİ. M-2413 ① 'KALICI' şartına takılıyor."
+  },
+  {
+   "ad": "Markovo",
+   "lat": 64.68,
+   "lon": 170.42,
+   "kur": "1840-01-01",
+   "kademe": "B",
+   "kaynak": "bolgesel",
+   "hucre": 2,
+   "olay": "1840'larda Rus meşin/köylüleri Yukagir, Çuvan ve Lamutlarla birlikte yerleşti; 1866 Rus-Amerikan telgraf seferi",
+   "uyari": "kur: yılı yaklaşık — kaynak '1840'lar' diyor"
+  },
+  {
+   "ad": "Şadrinsk",
+   "lat": 56.09,
+   "lon": 63.63,
+   "kur": "1662-01-01",
+   "kademe": "B",
+   "kaynak": "bolgesel",
+   "hucre": 4,
+   "olay": "'Şadrin' lakaplı Yuri Maleyev'in Şadrinskaya zaimkası (slobodası); 1686'da Batı Sibirya'nın en büyüğü"
+  },
+  {
+   "ad": "Kustanay",
+   "lat": 53.21,
+   "lon": 63.62,
+   "kur": null,
+   "kademe": "C",
+   "kaynak": null,
+   "hucre": 2,
+   "olay": null
+  },
+  {
+   "ad": "Ivdel",
+   "lat": 60.69,
+   "lon": 60.42,
+   "kur": null,
+   "kademe": "C",
+   "kaynak": null,
+   "hucre": 3,
+   "olay": null
+  },
+  {
+   "ad": "Lyapin (Saranpaul)",
+   "lat": 64.27,
+   "lon": 60.9,
+   "kur": null,
+   "kademe": "C",
+   "kaynak": null,
+   "hucre": 3,
+   "olay": "Kunovat-Lyapin knezliği merkezi — KÜNYE adayı da olabilir"
+  },
+  {
+   "ad": "Voykar gorodok",
+   "lat": 65.85,
+   "lon": 64.0,
+   "kur": null,
+   "kademe": "C",
+   "kaynak": null,
+   "hucre": 1,
+   "olay": "Obdorsk knezliğinin şehri"
+  },
+  {
+   "ad": "Samarovo",
+   "lat": 61.0,
+   "lon": 69.0,
+   "kur": null,
+   "kademe": "C",
+   "kaynak": null,
+   "hucre": 2,
+   "olay": null
+  },
+  {
+   "ad": "Demyanskoye",
+   "lat": 59.6,
+   "lon": 69.28,
+   "kur": null,
+   "kademe": "C",
+   "kaynak": null,
+   "hucre": 1,
+   "olay": null
+  },
+  {
+   "ad": "Habarovo (Yugorsk Şarı)",
+   "lat": 69.63,
+   "lon": 60.45,
+   "kur": null,
+   "kademe": "C",
+   "kaynak": null,
+   "hucre": 1,
+   "olay": null
+  },
+  {
+   "ad": "Laryak (Vah)",
+   "lat": 61.1,
+   "lon": 80.25,
+   "kur": null,
+   "kademe": "C",
+   "kaynak": null,
+   "hucre": 3,
+   "olay": null
+  },
+  {
+   "ad": "Kolıvan (Çaus)",
+   "lat": 55.31,
+   "lon": 82.74,
+   "kur": null,
+   "kademe": "C",
+   "kaynak": null,
+   "hucre": 1,
+   "olay": null
+  },
+  {
+   "ad": "Açinsk",
+   "lat": 56.27,
+   "lon": 90.5,
+   "kur": "1641-01-01",
+   "kademe": "A",
+   "kaynak": "skobelev2010",
+   "hucre": 2,
+   "olay": "Yenisey Kırgız beyleriyle 1641-42 mücadelesi sırasında kurulan ostrog",
+   "uyari": "🔴 KOORDİNAT TARTIŞMALI — makale ilk ostrogun MODERN Açinsk'te değil, Çulım (eski İyus) kıyısında, modern BALAHTA civarında aranması gerektiğini savunuyor (~55,4/91,6; 56,27/90,50'den ~120 km). Modern Açinsk yeri SONRAKİ bir tesistir. Yazılmadan önce KARAR gerekiyor."
+  },
+  {
+   "ad": "Kansk",
+   "lat": 56.2,
+   "lon": 95.71,
+   "kur": "1636-01-01",
+   "kademe": "B",
+   "kaynak": "bolgesel",
+   "hucre": 4,
+   "olay": "Krasnoyarsk atamanı M. Koltsov ve 50 Kazak, Bratsk geçidinin aşağısında ostrog",
+   "uyari": "⚠️ 1640'ta BUGÜNKÜ yerine taşındı, 1646'da tamamlandı. 1636-1640 arası koordinat BAŞKA bir yerdir."
+  },
+  {
+   "ad": "Minusinsk",
+   "lat": 53.71,
+   "lon": 91.69,
+   "kur": "1739-01-01",
+   "kademe": "B",
+   "kaynak": "bolgesel",
+   "hucre": 4,
+   "olay": "Minusa'nın Yenisey koluna kavuştuğu yerde Minyusinskoye köyü; 1822 şehir statüsü"
+  },
+  {
+   "ad": "Samagaltay",
+   "lat": 50.6,
+   "lon": 95.02,
+   "kur": null,
+   "kademe": "C",
+   "kaynak": null,
+   "hucre": 2,
+   "olay": null
+  },
+  {
+   "ad": "Onguday",
+   "lat": 50.75,
+   "lon": 86.15,
+   "kur": "1891-01-01",
+   "kademe": "B",
+   "kaynak": "bolgesel",
+   "hucre": 1,
+   "olay": "1891'e gelindiğinde önemli bir transit noktası",
+   "uyari": "⚠️ 'kuruldu' değil 'artık önemliydi' — `kur:` için ZAYIF dayanak"
+  },
+  {
+   "ad": "Ust-Koksa (Uymon)",
+   "lat": 50.27,
+   "lon": 85.61,
+   "kur": "1720-01-01",
+   "kademe": "B",
+   "kaynak": "bolgesel",
+   "hucre": 1,
+   "olay": "yukarı Katun'un Rus iskânı Sibirya tarihçilerince 1720'lere tarihleniyor; Uymon Eski İnanışlıları",
+   "uyari": "⚠️ '1720'ler' — yıl kesin DEĞİL, on yıl bandı"
+  },
+  {
+   "ad": "Koş-Agaç",
+   "lat": 50.02,
+   "lon": 88.67,
+   "kur": null,
+   "kademe": "C",
+   "kaynak": null,
+   "hucre": 2,
+   "olay": null
+  },
+  {
+   "ad": "Nijneudinsk",
+   "lat": 54.9,
+   "lon": 99.03,
+   "kur": "1648-10-01",
+   "kademe": "B",
+   "kaynak": "bolgesel",
+   "hucre": 2,
+   "olay": "Krasnoyarsk atamanı E. Tyumentsev, Uda sağ kıyısında POKROV gününde 'devlet zimovyesi'; 1644'te küçük bir zimovye vardı",
+   "uyari": "Pokrov = 1 Ekim (Julien). Gün kaynağın verdiği bayram adından türetildi."
+  },
+  {
+   "ad": "Balagansk",
+   "lat": 54.0,
+   "lon": 103.05,
+   "kur": "1654-05-01",
+   "kademe": "B",
+   "kaynak": "bolgesel",
+   "hucre": 0,
+   "olay": "Soylu D. Firsov, Angara sol kıyısında Osinov adasının karşısında (Mayıs-Haziran 1654)",
+   "uyari": "kaynak 'Mayıs-Haziran' diyor; gün yok"
+  },
+  {
+   "ad": "Verholensk",
+   "lat": 53.94,
+   "lon": 107.28,
+   "kur": "1641-01-01",
+   "kademe": "B",
+   "kaynak": "bolgesel",
+   "hucre": 2,
+   "olay": "Kazak yüzbaşı Martın Vasilyev, Lena sağ kıyısında Kulunga ağzından 4 verst"
+  },
+  {
+   "ad": "Bodaybo",
+   "lat": 57.85,
+   "lon": 114.2,
+   "kur": "1864-01-01",
+   "kademe": "B",
+   "kaynak": "bolgesel",
+   "hucre": 6,
+   "olay": "Bodaybo çayının Vitim'e döküldüğü yerde 'Bodaybinskaya rezidentsiya' — yük deposu ve aktarma noktası; aynı yıl altın bulundu"
+  },
+  {
+   "ad": "Vitim",
+   "lat": 59.45,
+   "lon": 112.58,
+   "kur": null,
+   "kademe": "C",
+   "kaynak": null,
+   "hucre": 4,
+   "olay": null
+  },
+  {
+   "ad": "Çara",
+   "lat": 56.91,
+   "lon": 118.26,
+   "kur": null,
+   "kademe": "C",
+   "kaynak": null,
+   "hucre": 3,
+   "olay": null
+  },
+  {
+   "ad": "Sretensk",
+   "lat": 52.25,
+   "lon": 117.71,
+   "kur": null,
+   "kademe": "C",
+   "kaynak": null,
+   "hucre": 1,
+   "olay": null
+  },
+  {
+   "ad": "Çita",
+   "lat": 52.03,
+   "lon": 113.5,
+   "kur": "1653-01-01",
+   "kademe": "B",
+   "kaynak": "bolgesel",
+   "hucre": 3,
+   "olay": "İngoda zimovyesi (Читинское плотбище)"
+  },
+  {
+   "ad": "Suntar",
+   "lat": 62.15,
+   "lon": 117.63,
+   "kur": "1740-01-01",
+   "kademe": "B",
+   "kaynak": "bolgesel",
+   "hucre": 2,
+   "olay": "Voin Şahov Rus idaresini ve ilk müstahkem zimovyeyi kurdu",
+   "uyari": "⚠️ Bu RUS idaresinin tarihi; Suntar naslegi (Yakut) daha önce vardı — Yakut yerleşim tarihi ÖLÇÜLMEDİ"
+  },
+  {
+   "ad": "Nyurba",
+   "lat": 63.28,
+   "lon": 118.33,
+   "kur": null,
+   "kademe": "C",
+   "kaynak": null,
+   "hucre": 2,
+   "olay": null
+  },
+  {
+   "ad": "Ust-Maya",
+   "lat": 60.42,
+   "lon": 134.53,
+   "kur": "1844-01-01",
+   "kademe": "B",
+   "kaynak": "bolgesel",
+   "hucre": 5,
+   "olay": "Ayan-Maya (Amga-Ayan) traktının durağı, 1844-45'te kuruldu; tahıl ambarı yapıldı"
+  },
+  {
+   "ad": "Nelkan",
+   "lat": 57.65,
+   "lon": 136.14,
+   "kur": "1844-01-01",
+   "kademe": "B",
+   "kaynak": "bolgesel",
+   "hucre": 4,
+   "olay": "Ayan-Maya traktının durağı, 1844-45; Ayan limanından Yakutya'ya ren kervanı yolu"
+  },
+  {
+   "ad": "Tigil",
+   "lat": 57.8,
+   "lon": 158.67,
+   "kur": "1747-01-01",
+   "kademe": "B",
+   "kaynak": "bolgesel",
+   "hucre": 3,
+   "olay": "ilk yerleşim 1747; Tigil kalesini 1751-52'de Teğmen Holmov inşa etti"
+  },
+  {
+   "ad": "Hantayka zimovyesi",
+   "lat": 68.35,
+   "lon": 90.9,
+   "kur": null,
+   "kademe": "C",
+   "kaynak": null,
+   "hucre": 4,
+   "olay": "Yenisey sağ kıyısında yasak zimovyesi — varlığı kaynakta geçiyor, TARİHİ bulunamadı"
+  },
+  {
+   "ad": "Dudinka ikinci nokta (Ust-Port hattı)",
+   "lat": 69.68,
+   "lon": 84.35,
+   "kur": null,
+   "kademe": "C",
+   "kaynak": null,
+   "hucre": 2,
+   "olay": null
+  },
+  {
+   "ad": "Sofiysk (Amur)",
+   "lat": 52.25,
+   "lon": 133.9,
+   "kur": null,
+   "kademe": "C",
+   "kaynak": null,
+   "hucre": 4,
+   "olay": null,
+   "uyari": "🔴 AD ÇAKIŞMASI — İKİ Sofiysk var. Muravyov'un TEMMUZ 1858'de Cay burnunda kurdurduğu Sofiysk AŞAĞI Amur'dadır (~52,3/139,9) ve orayı Nikolayevsk zaten kapatıyor. 52,25/133,90 BAŞKA bir Sofiysk (Bureya altın sahası). Bu aday ÇÖZÜLMEDİ — hangi Sofiysk olduğu belirlenmeden yazılmamalı."
+  },
+  {
+   "ad": "Tugur",
+   "lat": 53.75,
+   "lon": 136.75,
+   "kur": "1653-01-01",
+   "kademe": "B",
+   "kaynak": "bolgesel",
+   "hucre": 1,
+   "olay": "Uvarov müfrezesinden Nagiba, Amur'dan gelerek Tugur zimovyesini kurdu; aynı yıl Tugur ostrogu adını aldı"
+  },
+  {
+   "ad": "Zeya ağzı (Mançu yerleşimi)",
+   "lat": 53.74,
+   "lon": 127.27,
+   "kur": null,
+   "kademe": "C",
+   "kaynak": null,
+   "hucre": 4,
+   "olay": "Ç'ing hükûmetinin Zeya ağzına Mançu yerleştirdiği kaynakta geçiyor — tarih bulunamadı"
+  }
+ ],
+ "reddedilen_adaylar": {
+  "_gerekce": "1281-1923 ufkunun DIŞINDA kuruldular. Bunları yazmak, atlasın zaman ufkunun dışından nokta getirmek olurdu. 65 açık hücre YALNIZ bu noktalarla kapanabilirdi ⇒ kapanmayacaklar.",
+  "liste": [
+   "Tura 1924",
+   "Vanavara 1932 (1899 tüccar uğrağı)",
+   "Baykit",
+   "Igarka 1929",
+   "Susuman 1936",
+   "Batagay 1939",
+   "Saskılah",
+   "Gıda",
+   "Ust-Port",
+   "Dikson",
+   "Seymçan",
+   "Çirinda",
+   "Jilinda",
+   "Ekonda",
+   "Tomtor (Oymyakon)",
+   "Tazovsk"
+  ]
+ },
+ "beyan_zonlari": [
+  {
+   "zon": "Aşağı Tunguska platosu (Evenkiya)",
+   "hucre": 55,
+   "km2": 1195436,
+   "onerilen_bos": "kabile",
+   "olcut": "band/klan düzeyi, datable bitiş yok (M-2414 ③)",
+   "celiski": "atlastaki `Essey` kaydı AYNI coğrafyayı `devletsiz` diyor — tutarlılık kararı koordinatörün"
+  },
+  {
+   "zon": "Yana-İndigirka-Kolıma yaylası",
+   "hucre": 34,
+   "km2": 727184,
+   "onerilen_bos": "kabile",
+   "olcut": "Yukagir/Even klan düzeyi",
+   "damga": "⚠️ Yukagir siyasî örgütlenmesi ÖLÇÜLEMEDİ — okunan makale odak almıyor"
+  },
+  {
+   "zon": "Taymır + Putorana",
+   "hucre": 32,
+   "km2": 435195,
+   "onerilen_bos": "kabile",
+   "olcut": "Nganasan; etnos konsolidasyonu XVII-XVIII yy",
+   "ek": "77K/96-106D dört hücre (Çelyuskin) `insansiz` olabilir"
+  },
+  {
+   "zon": "Aldan-Stanovoy",
+   "hucre": 16,
+   "km2": 428731,
+   "onerilen_bos": "kabile",
+   "olcut": "Even/Evenk klan düzeyi"
+  },
+  {
+   "zon": "Kuzey Ural + Yamal batısı",
+   "hucre": 14,
+   "km2": 289720,
+   "onerilen_bos": "kabile",
+   "olcut": "tundra Nenets",
+   "ek": "⚠️ KARMA zon — Obdorsk ve Kunovat-Lyapin knezlikleri teritoryal + datable ⇒ KÜNYE adayı"
+  },
+  {
+   "zon": "Vilyuy-Olenyok yukarısı",
+   "hucre": 10,
+   "km2": 177415,
+   "onerilen_bos": "kabile",
+   "olcut": "⚠️ SINIRDA — TDV 'hepsinin başındaki idareciye ULU TOYON deniyor' diyor (band üstü) ve datable bitiş var (25 Eylül 1632 Lena Kalesi, 1641 Yakutsk kazası). Mevcut kayıt `kabile`, DEĞİŞTİRİLMEDİ."
+  },
+  {
+   "zon": "Çukotka",
+   "hucre": 10,
+   "km2": 196599,
+   "onerilen_bos": "devletsiz",
+   "olcut": "MEVCUT hüküm DOĞRULANDI — Zuev: 'çukçi 1789'da resmen Rus tebaası ilan edildi, fiilî bağımsızlığını 1920'lere kadar korudu'",
+   "damga": "yeni bulgu değil; var olan kayıt akademik kaynağa BAĞLANDI"
+  },
+  {
+   "zon": "Vasyugan + orta Ob bataklığı",
+   "hucre": 7,
+   "km2": 184248,
+   "onerilen_bos": null,
+   "olcut": "ÖLÇÜLEMEDİ — Hantı/Selkup için kaynak ARANMADI"
+  },
+  {
+   "zon": "Altay-Sayan-Baykal kuşağı",
+   "hucre": 6,
+   "km2": 184374,
+   "onerilen_bos": null,
+   "olcut": "ÖLÇÜLEMEDİ — ⚠️ bir kısmı beyan değil NOKTA işi olabilir"
+  },
+  {
+   "zon": "Kamçatka-Koryak",
+   "hucre": 1,
+   "km2": 25521,
+   "onerilen_bos": "kabile",
+   "olcut": "Zuev: tundra çavçu / kıyı nımılan; yasak 'son derece istikrarsız, bir kısmı HİÇ ödemedi'"
+  },
+  {
+   "zon": "zon dışı dağınık",
+   "hucre": 20,
+   "km2": 435019,
+   "onerilen_bos": null,
+   "olcut": "karışık — 51K/136-138D aşağı Amur sol kıyısı, 71K/144-156D Doğu Sibirya Denizi kıyı şeridi"
+  }
+ ],
+ "curuyen_kayit_hukumleri": [
+  {
+   "kayit": "Kamçatka (İtelmen toprakları)",
+   "dosya": "data/yerlesimler_ek31.js",
+   "lat": 55.0,
+   "lon": 158.5,
+   "bugunku": {
+    "tur": "bolge",
+    "bos": "veri-yok"
+   },
+   "onerilen": {
+    "tur": "YERLEŞİM (bolge DEĞİL)",
+    "bos": "devletsiz"
+   },
+   "turetilen_cins": "devletsiz-yerlesim (uret_bosluk.py:120 — `bos==devletsiz && tur!=bolge`)",
+   "dayanak": "Krasheninnikov 1755: 'До покорения российскому владению ительмены жили в совершенной вольности; не имели никаких над собой начальников, не подвергались никаким законам' — VE müstahkem острожки vardı (Şantal ostrogunda ~120 kişi, kendi sayımı)",
+   "gerekce": "kaydın bugünkü gerekçesi 'akademik literatür ARANMADI' diyor; arandı ve kaynak KONUŞUYOR",
+   "UYARI": "🔴 İKİ ALAN BİRLİKTE değişmeli. Yalnız `bos:` düzeltilirse tur:'bolge' kalır, türetme çalışmaz, cins `devletsiz` olur ve o cinsin tanımı 'toprağı KOMŞUSUNA KATILABİLİR' — çürütülmek istenen şeyin TERSİ olur. Ve iki alan da `_sahiplik_uygula.py`nin alan kümesinde YOK."
+  },
+  {
+   "kayit": "Koryak toprakları",
+   "dosya": "data/yerlesimler_sibirya.js",
+   "lat": 62.0,
+   "lon": 166.0,
+   "bugunku": {
+    "tur": "bolge",
+    "bos": "veri-yok"
+   },
+   "onerilen": {
+    "bos": "kabile"
+   },
+   "dayanak": "Zuev (NSU): yasak 'son derece istikrarsızdı — düzensiz, önemsiz ve keyfî miktarlarda ödendi, bir kısmı, muhtemelen önemli bir kısmı HİÇ ödemedi'; İtelmen ve Koryaklar 'ancak XVIII. yy ortasına doğru yatıştırılabildi'; tundra çavçu / kıyı nımılan ayrımı",
+   "gerekce": "kaydın bugünkü gerekçesi 'kaynak Koryakların Rusya'ya tâbilik/haraç ilişkisini netleştirmiyor' diyor; Zuev tam o ilişkiyi netleştiriyor",
+   "not": "kıyı şeridi ayrı ele alınmalı: orada yerleşim VAR ⇒ devletsiz + tur≠bolge"
+  },
+  {
+   "kayit": "Kolıma havzası (Yukagir) VE Doğu Sibirya kıyısı (Çuvan-Yukagir)",
+   "damga": "ÖLÇÜLEMEDİ — ÇÜRÜMEDİ",
+   "gerekce": "Zuev'in kroniği bölgede 1638-1644 arası altı zimovye sayıyor (coğrafya SUSMUYOR) ama okunan makale Yukagirleri ODAK ALMIYOR. Cins hükmü DEĞİŞTİRİLMEDİ; kalem AÇIK.",
+   "not": "'ölçülemedi' ≠ 'çürüdü' ≠ 'temiz'"
+  },
+  {
+   "kayit": "Penjina havzası (kuzey Koryak)",
+   "dosya": "data/yerlesimler_ek31.js",
+   "lat": 61.1723,
+   "lon": 156.4398,
+   "kusur": "AD ile YER uyuşmuyor — kaydın kendi `neden:`i yeri DOĞRU tarif ediyor ('Kamçatka boynu ile Koryak yaylası arasındaki şerit') ama ADI Penjina havzasını gösteriyor; Penjina nehri ağzı 486 km uzakta (ölçüldü). Bir sonraki oturum bu adı okuyup Penjina'ya nokta koyarsa yanlış yere koyar."
+  },
+  {
+   "kayit": "Selenginsk ↔ Buryat toprakları ÇELİŞKİSİ",
+   "olcum": "aralarında 314 km (ölçüldü); ikisi de 1281-1665 aralığını kapsıyor",
+   "celiski": "Selenginsk `bos:veri-yok` — '1665 öncesi Buryat/Halha sınır bozkırı; HANGİ TARAFTA OLDUĞU TANIMSIZDI'; Buryat toprakları ise `s:[1281-1631 kuzey-yuan → 1631 rusya]` yani TANIMLI",
+   "damga": "HANGİSİNİN DOĞRU OLDUĞU ÖLÇÜLMEDİ — çelişki bildiriliyor",
+   "cozum": "🟢 KAYNAK KONUŞUYOR — `veri-yok` ÇÜRÜDÜ. Hori Buryatları Setsen Han'ın haraçgüzâr tebaasıydı ve ona yardımcı asker veriyordu; Selenge Buryatları 'Halha Moğollarından az farklıydı'; orta Selenge'ye Tabangut Moğol grupları iskân edilmişti.",
+   "kaynak": "buryat-halha",
+   "iki_uc": "§3.5.1 — kimliği Selenginsk'e yaymak 350 yıllık deliği kapatır ama tâbilik doğrudan tasarruf DEĞİL (`v:` mi `s:` mi ÖLÇÜLMEDİ; `halha` künyesi de YOK). `veri-yok`u Buryat'a yaymak 350 yıllık gövdeyi SİLER ve kaynak onu desteklemiyor ⇒ ÇÜRÜK."
+  },
+  {
+   "kayit": "Buryat toprakları (Selenge havzası)",
+   "dosya": "data/yerlesimler_sibirya.js",
+   "lat": 53.0,
+   "lon": 110.0,
+   "kusur": "🔴 ÖMÜR KAPISI İHLALİ (M-2410 ③) — 87,7 YIL",
+   "olcum": "kuzey-yuan künyesi f:1368-09-14; kayıt s:[{f:1281-01-01, t:1631-01-01, d:kuzey-yuan}]. Evren tarandı: 19 kuzey-yuan döneminin 18'i temiz, İHLAL EDEN TEK KAYIT bu.",
+   "onerilen": "s:[{f:1281-01-01, t:1368-09-14, d:yuan-hanedani}, {f:1368-09-14, t:1631-01-01, d:kuzey-yuan}, …] — yuan-hanedani f:1271-01-01 t:1368-09-14, uç uca oturuyor",
+   "damga": "İHLAL ÖLÇÜLDÜ (kesin). Yerine yuan-hanedani konması künye ömrü bakımından kusursuz, ama 'Yuan'ın Lingbei eyaleti Selenge havzasını kapsıyordu' önermesi KAYNAKLA DOĞRULANMADI."
+  }
+ ],
+ "kimlik_kapisi": {
+  "_not": "M-2410 ① — bir nokta üç kapıdan geçmeden hücre kapatmaz. Yalnız BİRİNCİ kapı (künye VAR MI) ölçüldü; renk ve ömür kapıları KOŞULMADI (koordinatöre gönderiliyor).",
+  "kunye_VAR": [
+   "rusya",
+   "rusya-gecici-hukumet",
+   "sovyet-rusya",
+   "sibir-hanligi",
+   "cungar",
+   "qing-hanedani",
+   "kuzey-yuan",
+   "altinorda",
+   "kazak-hanligi",
+   "nogay"
+  ],
+  "kunye_YOK_ve_zincirim_ISTIYOR": [
+   {
+    "kimlik": "Yenisey Kırgızları (Hongoray)",
+    "gerekce": "M-2414 ③ ölçütünü NET geçiyor: teritoryal siyasî yapı ✓ (Minusinsk havzasının sahibi 1281-1703) + DATABLE bitiş ✓ (1703 — Cungarlar Kırgızları TOPLUCA sürdü). Kaynak: hakasya (cyberleninka, gövde okundu). Künyesi olmadığı için Minusinsk havzasının 1281-1703 zinciri BUGÜN YAZILAMAZ.",
+    "oncelik": "YÜKSEK",
+    "kaynak": "chertikov2009 + hakasya",
+    "onerilen_kunye": {
+     "id": "hongoray",
+     "ad": "Hongoray (Yenisey Kırgızları)",
+     "tur": "beylikler birliği",
+     "f": "1281-01-01",
+     "t": "1703-01-01",
+     "f_uyari": "ATLAS UFKU — kuruluş tarihi DEĞİL; Kırgız varlığı Kırgız Kağanlığı'na uzanır",
+     "t_uyari": "kaynak 'ЛЕТОМ 1703 г.' (1703 YAZI) diyor; §4 'gün bilinmiyorsa YYYY-01-01' kuralı uygulandı",
+     "baskent": "YOK — dört beylik ulusu: Altısar · İsar (Ezer) · Altır · Tuba",
+     "toprak": "Hakas-Minusinsk havzası",
+     "kronoloji": [
+      {
+       "t": "1703-01-01",
+       "b": "Cungar hanı Tsevang Rabdan Hongoray nüfusunun büyük kısmını (15-20 bin kişi) Cungarya'ya sürdü; sebep Rus baskısı değil Ç'ing askerî tehdidiydi — sürgün Hongoray'ı bağımsız siyasî yapı olarak ortadan kaldırdı"
+      },
+      {
+       "t": "1707-01-01",
+       "b": "Abakan ostrogu kuruldu; Hakas beyleri surları dibinde Rus tâbiiyeti yemini etti"
+      },
+      {
+       "t": "1709-01-01",
+       "b": "Sayan ostrogu — 'Hakasya'nın Rusya'ya katılma tarihi 1707 ya da 1709 sayılabilir'"
+      }
+     ]
+    },
+    "ARA_PENCERE": "1703-1707/09 arası havza boşaldı ve dört grup doldurdu (Kaçin kuzeyden · Motor-Koybal doğudan · Sagay Tomsk yaylasından · Beltir güneyden). Bu aralık ne `hongoray` ne `rusya` — PENCERE BEYANI gerektirebilir."
+   },
+   {
+    "kimlik": "Tuva Halk Cumhuriyeti",
+    "gerekce": "TDV `tuva`: 14 Ağustos 1921 kuruldu. 1717-1911 Ç'ing ve 1914-1921 Rusya mevcut künyelerle yazılabilir; 1921-1923 YAZILAMAZ.",
+    "oncelik": "ORTA"
+   },
+   {
+    "kimlik": "Obdorsk / Kunovat-Lyapin knezlikleri",
+    "gerekce": "teritoryal knezlikler + Rus fethiyle datable bitiş — ama kaynağım ⚪ ZAYIF, künye önerisi olarak DEĞİL, araştırma kalemi olarak bildiriliyor",
+    "oncelik": "DÜŞÜK"
+   }
+  ]
+ },
+ "acik_kalemler": [
+  "25 adayın kaynağı BULUNAMADI (kademe C) — hiçbiri yazılmaya hazır değil",
+  "12 adayın koordinatı YAKLAŞIK — kaynak nehir/göl adı veriyor, koordinat vermiyor",
+  "Vasyugan (7 hücre) ve Altay-Sayan-Baykal (6 hücre) için cins ARANMADI",
+  "Yukagir siyasî örgütlenmesi — ayrı kaynak arandı, BULUNAMADI",
+  "Tuva 1911-1914 arası — TDV boş bırakıyor",
+  "Amur 1689-1858: Nerçinsk Priamurye'yi Ç'ing'e verdi, Aygun 1858 geri aldı. `qing-hanedani` künyesi VAR. Atlasta Albazin ve Zeya-Bureya kuşağı bu aralıkta HANGİ kimlikle boyanıyor — ÖLÇÜLMEDİ",
+  "Altay 'çift haraçlılık' (двоеданство, hem Cungar hem Rus) — veri modeli bunu ifade edebiliyor mu, SORULMADI",
+  "Kimlik kapısının ② renk ve ③ ömür ayakları KOŞULMADI (M-2410: koordinatöre gönderilir)",
+  "`_baglama_onsinav.py` KOŞULMADI — yazılacak dosya yok",
+  "3 km mükerrer sınavı bu adaylar için KOŞULMADI — nokta kolu açılınca ŞART"
+ ]
+}

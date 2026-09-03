@@ -17,12 +17,16 @@ AÇIK hücre (2° ızgara, tavan 200 km)      338   (275 + 63)
 
 aday yerleşim toplamı                      80
   🟢 hakemli/akademik kaynak OKUNDU        38
-  🟡 ansiklopedik/resmî kaynak okundu      17
-  ⚪ kaynak BULUNAMADI — doğrulanmadı      25
+  🟡 ansiklopedik/resmî kaynak okundu      23   (ilk tur 17)
+  ⚪ kaynak BULUNAMADI — doğrulanmadı      19   (ilk tur 25)
 
 beyan bölgesi önerisi (10 zon)            205 hücrenin tamamı
-çürüyen MEVCUT kayıt hükmü                  2  (+1 kısmî, +2 usul)
+çürüyen MEVCUT kayıt hükmü                  3  (+1 kısmî, +2 usul)
 ```
+> ⚠️ **BU BLOK İKİ TURUN TOPLAMIDIR.** Aşağıdaki §3 tabloları **birinci
+> turun** fotoğrafıdır ve 16 kalemde bayattır; güncel kademeler **§D**'de
+> ve `denetim/SIBIRYA-0903-adaylar.json`dadır. Çelişkide **JSON kazanır.**
+> Üçüncü çürüyen hüküm (`Buryat toprakları` ömür kapısı ihlali) **§A**'dadır.
 
 🔴 **Ve asıl bulgu bir sayı değil bir FARK:** ilk aday listem 96 noktaydı ve
 `338 → 140` veriyordu. Kuruluş tarihleri ölçülünce **16 aday 1923'ten SONRA
@@ -368,7 +372,26 @@ Krashenninikov'un kendi sayımında Şantal ostrogunda ~120 kişi.
 `devletsiz-yerlesim` tanımının kelimesi kelimesine karşılığı:
 *"yerleşim VAR ama merkezî bir devlete bağlı değil… Toprağı komşu devlete
 KATILMAZ; hakkı saklıdır."*
-🟡 **ÖNERİ: `veri-yok` → `devletsiz-yerlesim`.** Hükmü ben uygulamadım.
+🔴 **BU SATIRIN İLK HÂLİ YANLIŞTI — kendi önerimi düzeltiyorum.**
+> ~~*"ÖNERİ: `veri-yok` → `devletsiz-yerlesim`"*~~
+
+`devletsiz-yerlesim` **yazılmaz, TÜRETİLİR** (`uret_bosluk.py:120`):
+```python
+if c == "devletsiz" and y.get("tur") != "bolge":
+    c = "devletsiz-yerlesim"
+```
+🟡 **DOĞRU ÖNERİ — ve İKİ ALAN BİRLİKTE değişmeli:**
+```
+bugünkü hâl   tur:"bolge" · bos:"veri-yok"
+doğru hâl     tur: "bolge" DEĞİL   ·   bos:"devletsiz"
+```
+🔴 **Yalnız `bos:` düzeltilirse tuzak kapanır:** `tur:"bolge"` kalır, türetme
+çalışmaz, cins **`devletsiz`** olur — ve o cinsin tanımı *"toprağı KOMŞUSUNA
+KATILABİLİR"*. Yani İtelmen toprağı Rusya'ya erkenden katılır: **çürütülmek
+istenen şeyin tam tersi.**
+⚠️ Ve iki alan da `_sahiplik_uygula.py`nin kümesinde YOK ⇒ yama **yarım
+inebilir**, ve yarım inen hâli hiç inmemiş hâlinden kötüdür. Hükmü ben
+uygulamadım.
 
 ### ② `Koryak toprakları` — `veri-yok` ÇÜRÜDÜ 🔴
 `data/yerlesimler_sibirya.js` · 62,000K/166,000D
@@ -516,3 +539,163 @@ yamalarchaeology.ru         DNS ÇÖZÜLMEDİ
 ```
 📌 Bunlar *"kaynak yok"* demek değil, *"bu turda alınamadı"* demektir
 (`§4④`: canlı adres + alınamayan gövde ⇒ hüküm **"çekilemedi"**, "yok" değil).
+
+---
+---
+
+# 🔴 İKİNCİ TUR — 3 Eylül öğleden sonra
+
+> Koordinatörün beş kararı (M-2410 · M-2413 · M-2414 · M-2425 · M-2431) ve üç
+> soruma verdiği cevap (M-2440) alındıktan sonra yapılan ölçümler.
+> **Yukarıdaki bölümler bu bölümle ÇELİŞİRSE bu bölüm kazanır.**
+
+## A) 🔴🔴 ÖMÜR KAPISI İHLALİ — 87,7 YILLIK HAYALET, ve TAM BİR KAYIT
+
+Koordinatörün (c) sorusunu (Selenginsk ↔ Buryat çelişkisi) ölçerken kimlik
+kapısının **③. ayağına** takıldım:
+```
+kuzey-yuan künyesi        f:"1368-09-14"   t:"1691-05-30"
+Buryat toprakları kaydı   s:[{f:"1281-01-01", t:"1631-01-01", d:"kuzey-yuan"}]
+                               ↑ künye DOĞMADAN 87,7 YIL ÖNCE
+```
+**Evren tarandı: 19 `kuzey-yuan` döneminin 18'i temiz. İHLAL EDEN TEK KAYIT
+budur, ve bu kutudadır.**
+
+🟢 **Çaresi zaten veride ve uç uca oturuyor:**
+```
+yuan-hanedani   f:"1271-01-01"  t:"1368-09-14"  ⟶  kuzey-yuan f:"1368-09-14"
+
+ÖNERİ  s:[{f:"1281-01-01", t:"1368-09-14", d:"yuan-hanedani"},
+          {f:"1368-09-14", t:"1631-01-01", d:"kuzey-yuan"}, …]
+```
+⚠️ **Damga:** ihlal **ÖLÇÜLDÜ** (kesin). `yuan-hanedani`nin yerine konması künye
+ömrü bakımından kusursuz, ama *"Yuan'ın Lingbei eyaleti Selenge havzasını
+kapsıyordu"* önermesini **KAYNAKLA DOĞRULAMADIM.**
+
+📌 `§3.5`in hayalet devlet dersinin **ters yönü**: orada devlet **öldükten
+sonra** boyanıyordu, burada **doğmadan önce.**
+
+## B) SELENGİNSK ↔ BURYAT — kaynak KONUŞUYOR, `veri-yok` ÇÜRÜDÜ
+
+Sınav uygulandı: *Kuzey Yuan / Halha, Selenge havzasında fiilî tasarruf kurmuş
+mu?* Kaynak (cyberleninka, Buryat tarihi makaleleri) **üç ayrı cümleyle**
+konuşuyor:
+```
+"Хоринцы находились в даннической зависимости от ЦЭЦЭН-ХАНА и были его
+ подданными, выставляя для монгольского хана вспомогательное войско и
+ выполняя его задания."
+"Селенгинские буряты и хори-буряты в то время мало отличались от монголов Халхи."
+"В среднем течении реки Селенги … были расселены монгольские группы ТАБАНГУТОВ."
+```
+⇒ Tâbilik soyut değil: **yardımcı asker veriliyor, görev yapılıyor**, ve orta
+Selenge'ye Moğol grupları **iskân edilmiş.** `veri-yok` ("kaynak SUSUYOR") bu
+havza için **yanlıştır.**
+
+⚠️ **`§3.5.1` — iki uç da ölçüldü, bedeli yazılıyor:**
+```
+kimliği Selenginsk'e YAYMAK   350 yıllık delik kapanır
+                              BEDEL: Setsen Han TÂBİLİĞİ, doğrudan tasarruf
+                              DEĞİL. `s:` mi `v:` mi olduğu ÖLÇÜLMEDİ; ve
+                              `halha` künyesi de YOK.
+`veri-yok`u BURYAT'a YAYMAK   350 yıllık gövde SİLİNİR, ve kaynak onu
+                              desteklemiyor ⇒ BU SEÇENEK ÇÜRÜK.
+```
+
+## C) 🟢 KÜNYE ÖNERİSİ — HONGORAY (Yenisey Kırgızları)
+
+M-2414③ ölçütü (*teritoryal siyasî yapı + DATABLE bitiş*) **net karşılanıyor.**
+Kaynak: **Чертиков М.А., «Этнополитическая ситуация на территории Хонгорая
+XVII – начале XVIII в.», Вестник Томского гос. университета, 2009**
+(cyberleninka, gövde okundu) + Hakasya şehirleri makalesi.
+
+```
+id       hongoray            (alternatif: yenisey-kirgiz)
+ad       Hongoray (Yenisey Kırgızları)
+tur      beylikler birliği   — dört BEYLİK ULUSU, tek başkent YOK
+f        1281-01-01   ⚠️ ATLAS UFKU, kuruluş DEĞİL. "kuruluş" diye yazılmamalı
+t        1703-01-01   🔴 kaynak "ЛЕТОМ 1703 г." (1703 YAZI) diyor; §4'ün
+                        "gün bilinmiyorsa YYYY-01-01" kuralı uygulandı
+uluslar  Altısar · İsar (Ezer) · Altır · Tuba — her birinin kendi Kırgız
+         alt-etnik çekirdeği
+toprak   Hakas-Minusinsk havzası
+```
+**Kronoloji maddeleri (üçü de kaynaklı):**
+```
+1703 yazı  Cungar hanı Tsevang Rabdan Hongoray nüfusunun BÜYÜK KISMINI
+           (15-20 BİN kişi) Cungarya'ya sürdü. Sebep RUS BASKISI DEĞİL:
+           "главной причиной … явилась нависшая над Саяно-Алтайским
+            регионом ЦИНСКАЯ ВОЕННАЯ УГРОЗА" — han Kırgızların Ç'ing
+           kumandanlarına geçmesinden korkuyordu. Sürgün Hongoray'ı
+           bağımsız siyasî yapı olarak ORTADAN KALDIRDI.
+1707       Abakan ostrogu; Hakas beyleri surları dibinde Rus tâbiiyeti yemini
+1709       Sayan ostrogu — "Hakasya'nın Rusya'ya katılma tarihi 1707 ya da 1709"
+```
+🔴 **ARA PENCERE — ayrı bir kalem:** 1703 sürgünü ile 1707 ostrogu arasında
+havza **boşaldı** ve dört grup doldurdu (Kaçin kuzeyden · Motor-Koybal
+doğudan · Sagay Tomsk yaylasından · Beltir güneyden). Bu aralık ne `hongoray`
+ne `rusya` — **pencere beyanı** gerektirebilir.
+
+## D) İKİNCİ KAYNAK TURU — ⚪ 25 → 19, ve ÜÇ YENİ TUZAK
+
+`denetim/SIBIRYA-0903-adaylar.json` güncellendi. **Kademe dağılımı: A 38 ·
+B 23 · C 19** (önceki tur: A 38 · B 17 · C 25).
+
+**Kaynaklanan 16 kalem:** Açinsk 1641 · Kansk 1636 · Minusinsk 1739 ·
+Nijneudinsk 1648-10-01 (Pokrov günü) · Balagansk 1654 (Mayıs-Haziran) ·
+Verholensk 1641 · Çita 1653 (İngoda zimovyesi) · Şadrinsk 1662 · Bodaybo 1864 ·
+Ust-Maya 1844 · Nelkan 1844 · Suntar 1740 · Tigil 1747 · Tugur 1653 ·
+Ust-Koksa (Uymon) 1720'ler · Onguday 1891.
+
+### 🔴 VE ÜÇ YENİ TUZAK ÇIKTI — üçü de yazılmadan yakalandı
+
+**① AÇİNSK — koordinat AKADEMİK OLARAK TARTIŞMALI.**
+Skobelev & Çurikov (Vestnik NGU, 2010) tam bu soruyu tartışıyor ve ilk (1641)
+ostrogun **modern Açinsk'te olmadığını** savunuyor: *"острог был поставлен
+значительно севернее, в Ачинской ясачной волости"*, Çulım (eski İyus) kıyısında,
+modern **Balahta** civarında (~55,4/91,6). Benim koordinatım (56,27/90,50)
+**modern şehir** — aradaki fark ~120 km.
+⇒ Tarih 🟢, koordinat **KARAR BEKLİYOR.**
+
+**② SOFİYSK — AD ÇAKIŞMASI, iki ayrı yer.**
+```
+Muravyov'un TEMMUZ 1858'de Cay burnunda kurdurduğu Sofiysk  → AŞAĞI Amur ~52,3/139,9
+benim adayım                                                → 52,25/133,90
+```
+İkincisi **başka bir Sofiysk** (Bureya altın sahası). Aşağı Amur'daki zaten
+Nikolayevsk'in kapsamında. ⇒ Aday **ÇÖZÜLMEDİ**, hangi Sofiysk olduğu
+belirlenmeden yazılmamalı.
+
+**③ ZEYA — ADI YANLIŞTI, düzeltildi.**
+İlk listemde `Zeya ağzı (Mançu yerleşimi)` diye geçiyordu. Zeya'nın **ağzı**
+Blagoveşçensk'tedir (50,28/127,53); 53,74/127,27 **Zeya şehridir** ve 1879'da
+Yukarı Amur altın şirketinin aktarma noktası **Zeyskiy Sklad** olarak kurulmuştur.
+⇒ Ad ve olay düzeltildi; nokta yerinde kaldı.
+
+📌 Üçü de `§11`in Varat/Varad ailesinden ve bu turda **beşinci-altıncı-yedinci**
+vakalar (öncekiler: Pelım 169 km · Olenyok 558 km · Penjina 486 km).
+***Bu kutuda ad ile yer arasındaki mesafe, bu turun en sık hata sınıfıdır.***
+
+## E) KOORDİNATÖRÜN CEVAPLARI — devraldıklarım, ve NE ÖLÇMEDİĞİM
+
+```
+(b) AMUR       🟢 kaygım ÇÜRÜDÜ. Albazin · Blagoveşçensk · Aigun'un
+               `qing-hanedani` dönemleri veride DURUYOR (1689-09-06 → 1858-05-28).
+               ⚠️ BU ÖLÇÜM KOORDİNATÖRÜNDÜR, benim değil — kendi ölçümüm
+               diye yazmıyorum.
+               ⚪ Udskoy ostrogu (1679→1917 kesintisiz `rusya`, Ç'ing dönemi yok)
+               istisnası ikimizde de ÖLÇÜLMEDİ.
+(a) EVENKİYA   🟢 `kabile` hükmü verildi; `Essey` koordinatörde hizalanacak.
+               Ve beyanlar KALICI değil PENCERELİ yazılacak.
+```
+
+## F) BU TURUN AÇIK KALEMLERİ
+```
+⚪ 19 aday hâlâ kaynaksız: Kustanay · Ivdel · Lyapin · Voykar · Samarovo ·
+   Demyanskoye · Habarovo · Laryak · Kolıvan (Çaus) · Samagaltay · Koş-Agaç ·
+   Vitim · Çara · Sretensk · Nyurba · Hantayka zimovyesi · Dudinka ikinci
+   nokta · Sofiysk (ad çakışması) · Zeya ağzı Mançu yerleşimi
+⚪ Açinsk'in 1641 koordinatı — akademik tartışma AÇIK
+⚪ Selenginsk için `s:` mi `v:` mi — ölçülmedi; `halha` künyesi de YOK
+⚪ Yuan'ın Lingbei eyaletinin Selenge havzasını kapsayıp kapsamadığı
+⚪ Udskoy ostrogu / Uda havzasının Nerçinsk'teki statüsü
+```
