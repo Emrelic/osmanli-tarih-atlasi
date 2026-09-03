@@ -1,0 +1,71 @@
+{
+  "is": "98 Afrika künyesinin renk partisi — ÖNGÖRÜ",
+  "yazan": "1.MURAT",
+  "damga": "2026-09-03 · KOŞU CANLI (PID 1268) · ÇÖZÜCÜ HENÜZ KOŞMADI",
+  "nicin_simdi": "§11: 'sonradan yazılan beklenti, ölçümü gördükten sonra farkında olmadan ona göre şekillenir ve hiçbir zaman yanlış çıkmaz — yani hiçbir şey öğretmez. Önce yazılan beklenti YANLIŞ ÇIKABİLİR, ve ancak yanlış çıkabilen bir şey bilgi taşır.'",
+
+  "0_TABAN_OLCUMU": {
+    "arac": "denetim/ARAC-RENK-BASINC-0903.py",
+    "yeni_kunye": 98,
+    "mevcut_kunye": 441,
+    "BOYALAR": 406,
+    "yeni_kunyenin_bolgesi": {
+      "bati-afrika": 40, "dogu-afrika": 26, "orta-afrika": 17,
+      "guney-afrika": 13, "kuzey-afrika": 2
+    },
+    "en_kalabalik_an": {
+      "bati-afrika":    {"kunye": 44, "yil": 1831, "yenisi": 38},
+      "guneydogu-asya": {"kunye": 32, "yil": 1616, "yenisi": 0},
+      "dogu-afrika":    {"kunye": 32, "yil": 1851, "yenisi": 22},
+      "guney-asya":     {"kunye": 28, "yil": 1491, "yenisi": 0},
+      "orta-afrika":    {"kunye": 20, "yil": 1856, "yenisi": 14},
+      "anadolu":        {"kunye": 20, "yil": 1321, "yenisi": 0},
+      "guney-afrika":   {"kunye": 14, "yil": 1856, "yenisi": 11}
+    },
+    "🔴_OLCUMUN_SINIRI": "«aynı gün sahnede» ≠ «komşu». Voronoi komşusu olmayan çift ΔE kısıtına GİRMEZ ⇒ gerçek klik 44'ten KÜÇÜK olabilir. Ve ÜST sınır da değil: bölge dışı komşuluk var (kıyı · boğaz · nehir). Bu bir BASINÇ ölçümüdür, bir klik ölçümü DEĞİL."
+  },
+
+  "KALEMLER": [
+    {
+      "no": "①",
+      "ne_bekliyorum": "98'in çoğu çözülür; ΔE 12'nin altında kalan çift sayısı 5-20 bandında",
+      "mazereti_var_mi": "🟡 VAR ve önceden yazılıyor: 44 bir ALT SINIR ölçümü; gerçek komşuluk daha seyrek olabilir ve bant aşağı kayabilir",
+      "hangi_ciktidan_hangi_birimde": "renk_olc.py çıktısı · CIEDE2000 ΔE · eşik 12 · birim: ÇİFT SAYISI",
+      "hangi_kosuda_neye_karsi": "98 künye devletler.js'e indikten SONRA, çözücünün BİRİNCİ geçişinde; taban = bugünkü ihlal sayısı"
+    },
+    {
+      "no": "②",
+      "ne_bekliyorum": "Çözülemeyen çiftlerin ÇOĞUNLUĞU bati-afrika'da olur",
+      "mazereti_var_mi": "🔴 MAZERET YOK — bu, bölge basıncı ölçümümün doğrudan sınavı. Çözülemeyenler başka bölgede yoğunlaşırsa bölge ölçümü YANLIŞ demektir.",
+      "hangi_ciktidan_hangi_birimde": "renk_olc.py ihlal listesi · künyelerin `bolge` alanına göre gruplanır · birim: ÇİFT SAYISI",
+      "hangi_kosuda_neye_karsi": "aynı koşu, ①'in çıktısı gruplanarak"
+    },
+    {
+      "no": "③",
+      "ne_bekliyorum": "İKİNCİ GEÇİŞ, birinci geçişte «çözülemedi» çıkanların EN AZ ÜÇTE BİRİNİ çözer",
+      "mazereti_var_mi": "🟡 VAR: ölçülmüş emsal (20 → 7) tek bir partiden geliyor ve o parti 98 değil ~26 kimlikti. Oran ölçekle düşebilir.",
+      "hangi_ciktidan_hangi_birimde": "iki geçişin ihlal sayıları · birim: ÇİFT SAYISI ve YÜZDE",
+      "hangi_kosuda_neye_karsi": "birinci geçiş çıktısına karşı, aynı gün"
+    },
+    {
+      "no": "④",
+      "ne_bekliyorum": "Hiçbir mevcut çift BOZULMAZ — 98 yeni renk, var olan bir çifti eşiğin altına düşürmez",
+      "mazereti_var_mi": "🔴 MAZERET YOK. `arac/renk_fark.py` nöbetçisi tam bunun için yazıldı ve «var olan çift eşiğin altına düştü» dalı ZORLA ateşlenip sınandı.",
+      "hangi_ciktidan_hangi_birimde": "renk_fark.py · birim: DÜŞEN ÇİFT SAYISI · beklenen 0",
+      "hangi_kosuda_neye_karsi": "renk partisinden önce/sonra, aynı gün"
+    },
+    {
+      "no": "⑤",
+      "ne_bekliyorum": "Sokoto ↔ Bornu ve Aşanti ↔ Dahomey çiftleri, eşiği geçseler bile SIKILAŞTIRMAYI hak eder (hedef ΔE ≥ 25)",
+      "mazereti_var_mi": "🔴 MAZERET YOK — bu bir TERCİH değil bir ÖLÇÜT: kullanıcı o savaşları okurken tarafları ayırt edememek, eşiği teknik olarak geçen bir renkten kat kat kötüdür (`bugis ↔ gova` emsali, ölçülmüş).",
+      "hangi_ciktidan_hangi_birimde": "renk_olc.py · o dört kimliğin ikili ΔE'si · birim: ΔE",
+      "hangi_kosuda_neye_karsi": "ikinci geçişten sonra"
+    }
+  ],
+
+  "🔴_UC_DAMGA": {
+    "TUTTU": "öngörü doğrulandı",
+    "CURUDU": "öngörü yanlıştı → BİLGİ taşır, dersi alınır",
+    "OLCULEMEDI": "alet o soruyu cevaplamıyor → kalem HÂLÂ AÇIK, 'çürüdü' diye KAPATILMAZ"
+  }
+}
