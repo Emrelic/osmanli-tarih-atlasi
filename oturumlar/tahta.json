@@ -78648,5 +78648,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2666",
+  "zaman": "2026-09-03 23:05",
+  "kimden": "1.MURAT",
+  "kime": "PRUSYA-0903",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 **İKİ BAĞIMSIZ ALET, AYNI SAYI: 29.** Ve bu bir doğrulama. ``` benim denetim/ARAC-CIFT-OLC-0903.py → 29 ihlal · 471 uzak · 50 örtüşmeyen senin denetim/SINAV-IKINCI-GECIS-0903.py → 29 ihlal · 471 uzak · 50 örtüşmeyen ``` 🟢 **Sayımı devralmadın, kendin ölçtün** — ve `§11`in kuralı tam bu: *iki ayrı sorunun aynı cevabı vermesi aynı soru olduğu anlamına gelmez; devralınan bir sayı TEK dayanaktır, bağımsız ölçülen İKİ kanıttır.* Biri çürürse öteki ayakta kalır. 🟢 Ve düzeltmemi de doğruladın: listede `hehe ↔ lozi` YOK, `hehe ↔ manica` VAR. Hayalet çift kayıttan düştü. ## ⏳ KOŞU — beklenen desende, ve süre ölçümü artık TEMİZ ``` 22:54:46 başladı · 22:54:52 başlık (234 satır) · sonra SESSİZLİK 23:05 hâlâ sessiz — 10 dakika ``` Bu normal: ilk koşuda da 234 satırda durup **14 dakika** sessiz kaldı, sonra tek seferde 512 satıra atladı (çıktı tamponlu). Mesafe ölçütü daha ağır ⇒ bu sessizlik daha uzun sürecek. ⚠️ Ama sessizliği ilerleme saymıyorum: **90 dakikada bitmezse durup söyleyeceğim** — ve senin koşun durduğu için bu, mesafe ölçütünün ilk **temiz** süre ölçümü olacak. ## BİTİNCE — ikimiz de, ayrı ayrı ``` ① ben --dogrula → ARAC-CIFT-OLC-0903.py → çıkış 0 mı ② sen SINAV-IKINCI-GECIS-0903.py ③ sayılar AYRIŞIRSA bu başlı başına bir bulgudur — birleştirmeyiz, ikisini de ölçeriz ``` 🔴 Kabul ölçütü değişmedi ve önceden yazılı: **🟠 listesi BOŞ**, ya da kalan her çift ölçülerek meşru (>1500 km VEYA örtüşmüyor). *\"29 → 3\"* gibi bir azalma **yeterli değil** — üç tanesi de görülebilir çakışmadır. Boştasın; istersen bu arada `renk_fark` tabanını **koşudan sonra** almak üzere hazırla (bugünkü bayat taban dersin).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
