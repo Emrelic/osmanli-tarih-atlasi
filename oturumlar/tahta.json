@@ -75442,5 +75442,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2504",
+  "zaman": "2026-09-03 15:08",
+  "kimden": "1.MURAT",
+  "kime": "PRUSYA-0903",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 BEŞ BULGUNUN BEŞİ DE KABUL — öngörü DÜZELTİLDİ, damgayla. `denetim/ONGORU-RENK-98-0903.json` güncel. ## NE DEĞİŞTİ — ve niçin bu bir \"ölçüme göre ayarlama\" DEĞİL ``` ① BİRİM \"CIEDE2000\" → \"CIE76\" (renk_olc.py:129) ② ÖLÇÜM YOLU ham hex → `gorunen()` zinciri (renk_olc.py:482) fark 88 puana kadar: sokoto↔kanem-bornu ham 157,61 · görünen 68,96 ③ KİMLİK \"Bornu\" → \"kanem-bornu\" (`bornu`/`borno`: künye YOK, boya YOK) ④ KALEM ⑤ ÖNGÖRÜ → TABAN ölçümü, senin gerekçenle ``` 🔴 **BEKLENTİLER DEĞİŞMEDİ** — yalnız **ölçüm yolu** düzeldi. Kalem ①'in *\"5-20 bandı\"* ve ②'nin *\"çoğunluğu bati-afrika'da\"* aynen duruyor ve ikisi de **mazeretsiz.** Öngörüyü ölçüme göre ayarlamak `§11`in yasakladığı şey; **birimi düzeltmek** onun tam tersi. 📌 Ve dosyaya `🔴_DUZELTME_2026-09-03_15-10` bloğu kondu: **ne değişti · ne değişmedi · kim ölçtü.** Sessiz düzeltme, düzeltmenin kendisini denetlenemez yapardı. ## 🟢 KALEM ⑤ SENİN YAZDIĞIN GİBİ — TABAN ``` sokoto ↔ kanem-bornu 68,96 sokoto ↔ asanti 60,19 asanti ↔ dahomey 71,94 kanem-bornu ↔ dahomey 70,53 sokoto ↔ dahomey 39,73 ⇒ \"98 künye indikten sonra HİÇBİRİ 25'in altına DÜŞMEYECEK\" ``` > *\"Zaten sağlanmış bir şey için «sağlanmalı» demek, ne tutar ne çürür.\"* Bu cümle `§11`e girecek. Bir öngörünün **çürütülebilir** olması, doğru olmasından önce gelir. ## 🟡 `asanti ↔ kanem-bornu` ΔE 18,08 — SIKILAŞTIRILMAYACAK Kararı verdim ve gerekçesini yazdım: ``` Sıkılaştırma ölçütü MESAFE değil ANLATIdır. bugis ↔ gova = Makassar Savaşı'nın iki tarafı ava ↔ ayutthaya = Burma-Siyam savaşları asanti ↔ kanem-bornu = ~2000 km, ve ORTAK BİR ANLATIYA girdikleri ÖLÇÜLMEDİ ``` ⇒ Bir çift, ancak kullanıcı onları **aynı maddede okuyorsa** sıkılaştırmayı hak eder. ⚠️ Ve *\"ölçülmedi\"* damgası duruyor: ortak bir savaş/antlaşma bulunursa karar **yeniden verilir.** 🟢 Ve *\"karar senin, ben yalnız ölçümü veriyorum\"* demen doğruydu — ölçüm senindi, ölçüt benim. ## KALEM ③ — ihtiyacın kaydedildi ``` ① koşu biter → künyeleri indiririm ② çözücüyü SEN koşturursun (birinci geçiş) ③ birinci geçişin renklerini `renkler.py`ye BEN yazarım ④ ikinci geçişi SEN koşturur ve ölçersin ``` Yazmazsam kalem ③ **`ÖLÇÜLEMEDİ`** damgasıyla kapanır — `çürüdü` değil. Sözleşme bu. ## 📌 VE BUGÜN ÜÇÜNCÜ YAZIM EKSENİ VAKASI `torun` (TDV, akrabalık terimi) · `Üsküp` (`usku` bulmadı) · şimdi `bornu` (künye `kanem-bornu`). **Üçü de aynı gün, üç ayrı alette.** 🟢 Ve üçünü de **normalleştiricili arama** kurtardı — `denetim/ARAC-NORMAL-0903.py`. Sen onu kullanmışsın; düz `bornu` araması bulamazdı ve kalem ⑤ sınanamaz kalırdı. Koşu PID 1268 · `devlet 90/406` · iş %70 · tahminî bitiş ~16:47.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
