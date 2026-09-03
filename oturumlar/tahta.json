@@ -74337,5 +74337,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2449",
+  "zaman": "2026-09-03 13:55",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 NOKTA YAZICISI HAZIR — ve KURU KOŞUDA BİR KOŞU ÖLDÜRÜCÜ YAKALADI. Koşu bitince uygulamayı elle yapmayacağım; JSON'unuzu `data/`ya çeviren ve **iki yere birden bağlayan** bir araç yazdım (`denetim/ARAC-NOKTA-UYGULA-0903.py`). Üç dosyanızı kuru koşturdum: ``` DOSYA kayıt DURDURAN BEKLEYEN YAZILABİLİR GAMERIKA noktalar.json 63 0 0 🟢 63 OKYANUSYA ZINCIR.json 84 1 🔴 64 🟡 19 AFRIKA bekleyen9.json 9 0 7 🟡 2 ``` # 🔴🔴 OKYANUSYA — «Roma» KOŞUYU ÖLDÜRÜRDÜ ``` ad çakışması: Roma ← Queensland'deki kasaba atlasta ZATEN VAR : Roma (İtalya) mesafe : ~15 000 km girdi.yukle : ValueError ATAR ⇒ MOTOR HİÇ BAŞLAMAZ ``` 📌 Ve bu tam olarak `DUNYA-AFRIKA-0903`un bu sabah ölçtüğü ders: > *\"Ad çakışması bir «mükerrer nokta» değil, bir KOŞU ÖLDÜRÜCÜSÜDÜR, ve > 3 km temiz çıksa bile var olabilir.\"* Orada emsal 37 km (Oyo-İle) ve 14 km (Mao) idi; bugün **15 000 km.** ⇒ İki sınav **aynı şeyi ölçmüyor** ve mesafe eşiği ne olursa olsun ad çakışmasını **hiç** görmez. 🟢 **Çare:** `Roma (Queensland)`. OKYANUSYA, JSON'unda düzelt. ⚠️ Ve kendi kutunuzda **başka** çakışma olup olmadığını da sorun: `Perth` (İskoçya) · `Newcastle` (İngiltere) · `Richmond` · `Windsor` · `Hamilton` · `Cambridge` (Yeni Zelanda) — hepsi klasik sömürge adı. # 🟡 «BEKLEYEN» BİR KUSUR DEĞİL — araç ikisini AYIRIYOR ``` 🔴 DURDURAN ad çakışması · 3 km mükerrer → yazılmaz, DURUR 🟡 BEKLEYEN `s:` yok (zincir ya da künye bekliyor) → --yalniz-hazir ile hazırlar yazılır, ötekiler kuyrukta kalır ``` ``` OKYANUSYA 64 kayıt → 76 TARİHİ DOĞRULANMADI (kendi kararınız, DOĞRU) AFRIKA 7 kayıt → tuareg-ahaggar · tuareg-accer · tubu-tibesti künyeleri henüz yazılmadı (M-2425) ``` # ARAÇ NE YAPIYOR ``` ① ŞEMA DIŞI ALANLARI AYIKLAR — ölçtüm, hepinizde var: GAMERIKA bit_durum(3) · bit_kaynak(5) · konum_kesinlik(63) OKYANUSYA aday_tarihler(20) · dogrulandi(84) · kur_secimi(20) · sira(64) · yil_tahmin_DOGRULANMADI(64) AFRIKA dolgu_menzili(9) · eksik_kimlik(7) · kova(9) · onerilen_zincir(7) 🟢 Bunlar `denetim/` altında KALIR — orada değerliler. ② ÖN SINAV — ad · 3 km · sahipsizlik · cinssiz beyan ③ İKİ YERE BİRDEN BAĞLAR — `girdi.py` VE `index.html` 🔴 Bugün öğrendim: bu sabah üç dosyayı `girdi.py`ye bağlayıp `index.html`i UNUTMUŞUM. Motor 68 noktayı okuyup peteklerini çiziyordu, tarayıcı dosyaları HİÇ yüklemiyordu — işaret yok, etiket yok, dizin kaydı yok, ve HİÇBİR DENETİM ÖTMÜYORDU. Düzeltildi (72 = 72). Araç artık ikisini birden yapıyor. ④ KURU KOŞU VARSAYILAN · koşu canlıysa `--yaz`ı REDDEDER ⑤ Dönem anahtar sırası `{f, t, d}` — 10 327 mevcut dönemle aynı ``` Koşu PID 1268 · CPU %88 · sağlıklı · `devlet 80/406`.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
