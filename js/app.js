@@ -89,6 +89,30 @@ function karsiTaraf(k) {
 var BASLANGIC = gunIdx("1281-01-01");
 var BITIS     = gunIdx("1923-10-29");
 
+// ═══════════════════════════════════════════════════════════════════════
+// SON GÜN KAPSAYICI — 4 Eylül 2026, Emre'nin şikâyetiyle doğdu
+// ═══════════════════════════════════════════════════════════════════════
+// > "29 Ekim 1923'te tüm dünyanın harita verisi yok, sadece Türkiye
+// >  verisi var, onu da düzeltmek lazım."
+//
+// ÖLÇÜLDÜ:
+//     1923-10-29  `f<=g && g<t` →    0 nokta ·  0 kimlik   ← BUGÜNKÜ
+//     1923-10-29  `f<=g && g<=t` → 3632 nokta · 96 kimlik
+//     1923-10-28                 → 3632 nokta · 96 kimlik
+//     3632 dönemin 3632'si TAM O GÜN bitiyor.
+//
+// 🔴 VE İLK TEŞHİSİM YANLIŞTI — düzelttim: `t < ti` YANLIŞ DEĞİL. Bir
+// dönem 29 Ekim'de bitiyorsa o gün artık geçerli değildir; yarı açık
+// aralık doğru. Kusur testte değil VERİDE: her şey o gün bitiyor ve
+// ARDIL DÖNEM YOK. Son kare, veri bittiği için boş.
+// ⇒ Ama BOŞ BİR SON KARE, o sabahki dünyayı göstermekten DAHA BÜYÜK bir
+//   yalandır. Bu bir GÖRÜNTÜ kararıdır, veri iddiası değil — ve yalnız
+//   ATLASIN SON GÜNÜNDE geçerlidir; başka hiçbir günde davranış değişmez.
+function aktifAralik(fi, ti, t) {
+  return fi <= t && (t < ti || (t === BITIS && ti === BITIS));
+}
+
+
 // ---------- Dönem verisi ----------
 // PETEK yapısı: her yerleşimin bölgesi bir kez tanımlanır; dönemler yalnızca
 // eklenen/çıkan petek indekslerini tutar (delta). Aktif set dönem dönem kurulur.
@@ -238,7 +262,7 @@ var bolgeler = (window.BOLGELER || []).map(function (b) {
 var BOLGE_EKI = " bölgesi";
 function bolgeVerisi(t) {
   return { type: "FeatureCollection",
-           features: bolgeler.filter(function (b) { return b.fi <= t && t < b.ti; })
+           features: bolgeler.filter(function (b) { return aktifAralik(b.fi, b.ti, t); })
                              .map(function (b) { return b.ft; }) };
 }
 
@@ -318,7 +342,7 @@ function devletGuncelle(t) {
   devletler2.forEach(function (s) {
     for (var i = 0; i < s.dnm.length; i++) {
       var p = s.dnm[i];
-      if (p.fi <= t && t < p.ti) {
+      if (aktifAralik(p.fi, p.ti, t)) {
         imza += s.id + ":" + i + ";";
         // 🔴 21 Ağustos — KUSUR ③ (odak vurgusu) için: `p.ft` zaten "renk"
         // taşıyordu ama devletin KİMLİĞİNİ taşımıyordu (dolgu boyamak için
@@ -363,7 +387,7 @@ function devletiYay(id) {
   if (!s) return;
   var p = null;
   for (var k = 0; k < s.dnm.length; k++) {
-    if (s.dnm[k].fi <= suanki && suanki < s.dnm[k].ti) { p = s.dnm[k]; break; }
+    if (aktifAralik(s.dnm[k].fi, s.dnm[k].ti, suanki)) { p = s.dnm[k]; break; }
   }
   if (!p) return;   // o an bu devlet sahnede değil (nesli tükenmiş/henüz doğmamış)
   var x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity;
@@ -500,7 +524,7 @@ function etiketleriYerlestir() {
   var bAday = [];
   for (var bi = 0; bi < bolgeler.length; bi++) {
     var b = bolgeler[bi];
-    if (!(b.fi <= suanki && suanki < b.ti)) continue;
+    if (!aktifAralik(b.fi, b.ti, suanki)) continue;
     // Geometri dönem boyunca sabit; etiket noktası ve alan kayıt başına BİR KEZ
     // hesaplanıp saklanıyor. Her karede yeniden hesaplansaydı 61 bölgenin
     // ağırlık merkezi her zoom hareketinde yeniden taranırdı.
@@ -571,7 +595,7 @@ function petekVerisi(d) {
 }
 function donemBul(t) {
   for (var i = 0; i < donemler.length; i++) {
-    if (donemler[i].fi <= t && t < donemler[i].ti) return i;
+    if (aktifAralik(donemler[i].fi, donemler[i].ti, t)) return i;
   }
   // Atlasın iki ucunda kırpma: 1281 öncesi ilk döneme, 1923 sonrası son döneme.
   if (t < donemler[0].fi) return 0;
@@ -1392,7 +1416,7 @@ harita.on("load", function () {
     var t = suanki;
     for (var i = 0; i < bolgeler.length; i++) {
       var b = bolgeler[i];
-      if (t < b.fi || t >= b.ti) continue;
+      if (!aktifAralik(b.fi, b.ti, t)) continue;
       var mp = b.ft.geometry.coordinates;
       for (var k = 0; k < mp.length; k++) {
         var dis = mp[k][0];
@@ -1896,7 +1920,7 @@ function osmanliBaskentPencereleriKur() {
 var OSMANLI_BASKENT = osmanliBaskentPencereleriKur();
 function osmanliBaskentMi(ad, t) {
   for (var i = 0; i < OSMANLI_BASKENT.length; i++) {
-    if (OSMANLI_BASKENT[i].ad === ad) return t >= OSMANLI_BASKENT[i].fi && t < OSMANLI_BASKENT[i].ti;
+    if (OSMANLI_BASKENT[i].ad === ad) return aktifAralik(OSMANLI_BASKENT[i].fi, OSMANLI_BASKENT[i].ti, t);
   }
   return false;
 }
@@ -6934,7 +6958,7 @@ function _yabanciImza(t) {
     devletler2.forEach(function (s) {
       for (var i = 0; i < s.dnm.length; i++) {
         var p = s.dnm[i];
-        if (p.fi <= t && t < p.ti) { im += s.id + ":" + i + ";"; break; }
+        if (aktifAralik(p.fi, p.ti, t)) { im += s.id + ":" + i + ";"; break; }
       }
     });
   } catch (e) { return null; }
@@ -7958,10 +7982,19 @@ var KATMAN_KUMESI = [
 ];
 
 function katmanSinifla() {
-  var kova = { cografya: [], yollar: [], siyasi: [], siniflanmamis: [] };
+  var kova = { cografya: [], yollar: [], siyasi: [], siniflanmamis: [],
+               hazir: true };
   var stil;
-  try { stil = harita.getStyle(); } catch (e) { return kova; }
-  (stil && stil.layers || []).forEach(function (l) {
+  // 🔴 STİL HAZIR DEĞİLKEN SESSİZ BOŞ DÖNME — ölçüldü, 4 Eylül 2026.
+  // Sayfa yüklenirken `getStyle()` patlıyor ya da boş dönüyordu; kova
+  // boş kalınca `uygula()` hiçbir katmanı açıp kapatmıyor ve düğme ÖLÜ
+  // görünüyordu — konsolda tek satır bile çıkmadan.
+  // ⇒ Bu projenin bütün gün kaydettiği ailenin aynısı: *bir şey
+  //   bulamadım ⇒ sorun yok*. Artık boşluk BİR BAYRAK taşıyor.
+  try { stil = harita.getStyle(); } catch (e) { kova.hazir = false; return kova; }
+  var kat = (stil && stil.layers) || [];
+  if (!kat.length) { kova.hazir = false; return kova; }
+  kat.forEach(function (l) {
     for (var i = 0; i < KATMAN_KUMESI.length; i++) {
       if (KATMAN_KUMESI[i].kalip.test(l.id)) { kova[KATMAN_KUMESI[i].anahtar].push(l.id); return; }
     }
@@ -7971,13 +8004,22 @@ function katmanSinifla() {
 }
 
 function katmanSeciciKur() {
-  var dugme = document.getElementById("btn-katman");
-  var menu = document.getElementById("katman-menu");
-  if (!dugme || !menu) return;          // markup yoksa sessizce geç, çökme
+  // 🔴 4 Eylül 2026 — Emre: "haritanın üzerinde durmasın".
+  // Seçici artık `#menu-butonlar`ın İÇİNDE; kendi açılır menüsü YOK.
+  var menu = document.getElementById("katman-grup");
+  if (!menu) return;                    // markup yoksa sessizce geç, çökme
 
   function uygula() {
     var kova = katmanSinifla();
     var not = document.getElementById("katman-not");
+
+    // 🔴 STİL HENÜZ HAZIR DEĞİL — sessizce "hiçbir şey yok" DEMEYİZ.
+    // Kullanıcıya söylenir, konsola yazılır, ve `styledata` geldiğinde
+    // KENDİLİĞİNDEN yeniden uygulanır (aşağıda bağlı).
+    if (kova.hazir === false) {
+      if (not) not.textContent = "⏳ harita stili henüz yüklenmedi — katman sayıları birazdan";
+      return;
+    }
 
     menu.querySelectorAll("input[data-katman]").forEach(function (kutu) {
       var a = kutu.getAttribute("data-katman");
@@ -8015,19 +8057,14 @@ function katmanSeciciKur() {
     }
   }
 
-  dugme.addEventListener("click", function () {
-    var acik = menu.hasAttribute("hidden");
-    if (acik) { menu.removeAttribute("hidden"); } else { menu.setAttribute("hidden", ""); }
-    dugme.setAttribute("aria-expanded", acik ? "true" : "false");
-    if (acik) uygula();               // açılırken sayıları tazele
-  });
   menu.addEventListener("change", uygula);
-  document.addEventListener("click", function (e) {
-    var sarmal = document.getElementById("katman-sarmal");
-    if (sarmal && !sarmal.contains(e.target)) {
-      menu.setAttribute("hidden", "");
-      dugme.setAttribute("aria-expanded", "false");
-    }
-  });
+  // Stil hazır olunca KENDİLİĞİNDEN tazele — kullanıcı ikinci kez
+  // tıklamak zorunda kalmasın. `styledata` katman eklendikçe de gelir,
+  // o yüzden sayılar canlı kalır.
+  try { harita.on("styledata", uygula); } catch (e) { /* harita yoksa geç */ }
+  // Menü her açıldığında sayıları TAZELE — işaretçi sayısı yükleme
+  // sırasında büyüyor (ölçüldü: 173 → 481), donmuş bir sayı yanıltır.
+  var anaDugme = document.getElementById("btn-menu");
+  if (anaDugme) anaDugme.addEventListener("click", function () { uygula(); });
   uygula();                            // ilk sayım
 }

@@ -1,54 +1,68 @@
-# 📿 TESPİH — 27 Ağustos 2026 · ORHANGAZİ
+# TESPİH — 4 Eylül 2026 gecesi
 
-> Sıralama ölçütü **`HEDEF − KEŞKİNLİK` değil, `FAYDA ÷ EMEK`.**
-> Ve üç öncelik kuralı sırayla: ① darboğaz ② tekrar eden madde ③ yakınlık.
+> Sıra `FAYDA ÷ EMEK`e göre. Kalem kapandıkça işaretlenir; ertesi gün
+> **buradan** devam edilir. 20 dakikalık uyandırıcı (`cron fb6be0f1`)
+> her turda bu dosyayı okur.
 
-## 🔴 KOŞU KİLİDİ — bu tespihin kurucu gerçeği
+## 🔒 GECENİN KISITI
+```
+KOŞU 4 sürüyor · 00:47 başladı · tahminî bitiş ~07:45
+DONMUŞ : data/*  ·  arac/uret_petek.py · arac/renkler.py · arac/girdi.py
+SERBEST: js/app.js · css/style.css · index.html · denetim/* · oturumlar/*
+```
+🔴 Donmuş bir dosyaya yazmak koşuyu öldürür ya da çıktıyı yayınlanamaz kılar.
 
-Emre'nin kararı: **koşu, üç yapısal iş bitmeden başlamaz.** Ölçüldü, sebebi
-somut:
+---
+
+## SIRA
+
+| # | iş | keskinlik | hedef | niçin bu sırada |
+|---|---|---|---|---|
+| 1 | ⏳ Siyasî katman coğrafyayı örtüyor | %0 | %95 | 🔴 Emre'nin **canlı şikâyeti** · `js/app.js` SERBEST · kökü ölçüldü (üç dolgu da `fill-opacity:1`) |
+| 2 | 🔵 1923-10-29'da yalnız Türkiye görünüyor | %0 | %90 | 🔴 Emre'nin **canlı şikâyeti** · önce ÖLÇÜLECEK: veri mi eksik, çizim mi |
+| 3 | ⏳ Katman seçici — yükleme sonrası doğrulama + yayın | %85 | %100 | taşındı ve yazıldı, sınavı CPU darlığından yarım kaldı |
+| 4 | 🔵 OWTRAD toplamaya girmiyor | %0 | %90 | 154 düğüm + 174 kenar yüklü ama çizilmiyor · `js/app.js` SERBEST |
+| 5 | ⚪ Kronoloji dolumu (205 künye) | %0 | %80 | ölçüt + alet HAZIR · **oturum gerekiyor**, Emre uykuda |
+| 6 | ⚪ Koşu 4 sonrası: denetle → tablo → damga → yayın | — | — | ~07:45'ten sonra |
 
 ```
-🔴 KİLİTLİ (değişirse koşuyu ÖLDÜRÜR — her aşamada parmak izi)
-   arac/uret_petek.py · arac/renkler.py · arac/girdi.py       ← ÜÇÜ, başka yok
-🟡 DONMUŞ (kopyalanıyor — yazmak güvenli, ama O koşuya girmez)
-   56 yerleşim girdi dosyası
-⚠️ CANLI OKUNAN, kopyalanmayan (ilk saniyelerde okunur, sonra serbest)
-   data/devletler.js · data/goller.js
-🟢 KOŞUNUN HİÇ OKUMADIĞI — tamamen serbest
-   js/app.js · css/ · index.html · data/olaylar*.js · savaslar.js ·
-   kisiler.js · sehirler.js · padisahlar.js · denetim/ · oturumlar/
+✅ bitti   ⏳ sürüyor   🔵 sırada   ⚪ bekletildi
 ```
 
-⇒ **Enklav sorgusu `uret_petek.py`ye, renk düzeltmesi `renkler.py`ye
-yazılıyor — ikisi de kilidin İÇİNDE.** Koşu şimdi başlarsa 3,5 saat
-kilitlenirler *ve* çıktı eski motordan olur. Yani boşuna koşulur.
-
-## Sıra
-
-| # | iş | keskinlik | hedef | fayda / niçin bu sırada | sahip |
-|---|---|---|---|---|---|
-| 1 | **DEĞİŞMEZ 7 — enklav sorgusu** | %0 | %90 | 🔓 KOŞUYU AÇAR · bir SINIF kusur (İran hattı + Balkan) tek denetimle | OPUS 87 |
-| 2 | **Taralı alan kökü** (0035 H-0006…10) | %0 | %85 | 🔓 KOŞUYU AÇAR · "düzelt mi kaldır mı" kararı buna bağlı | OPUS 85 |
-| 3 | **Çöl boyaması** (0036 H-0001, 5 görsel) | %30 | %90 | 🔓 KOŞUYU AÇAR · çöl tavanı 730.505 km² boşalttı ama YETMEDİ | OPUS 86 |
-| 4 | 223 maddenin hükümleri | %0 | %80 | koşuyu beklemez · CEVAP.json'u KOORDİNATÖR yazar (çakışma) | ORHANGAZİ |
-| 5 | dört renk düzeltmesi | %100 | %100 | ✅ commit'li — yalnız koşu bekliyor | — |
-
-📌 **①②③ neden önce:** üçü de koşuyu bloke ediyor. 4. sıradaki 223 madde
-daha büyük ama **kimseyi bekletmiyor** — darboğaz kuralı.
-
-## Kutu — 6 paket · 223 madde · 0 hüküm
-
+### Niçin bu sıra
 ```
-0031  22 · 0032  16 · 0033  21 · 0034  45 · 0035 102 · 0036  17
-168 görselli · 55 görselsiz
+① ve ②  Emre'nin KENDİ sözü, ve ikisi de donmuş olmayan dosyalarda
+        ⇒ gece boyunca yapılabilir
+③        neredeyse bitti, kapatmak ucuz
+④        elimizdeki verinin %56'sı görünmez — küçük iş, büyük görünür etki
+⑤        oturum açmayı Emre yapar; şartname hazırlanır, dağıtım sabaha
+⑥        koşu bitmeden başlayamaz
 ```
-⚠️ `CEVAP.json` dosyalarını **yalnız koordinatör** yazar. İşçiler bulgularını
-kendi `denetim/BULGU-*.md` dosyasına yazar — aynı `CEVAP.json`a iki oturum
-yazarsa sessiz veri kaybı olur (`§7`).
 
-## Emre'yi bekleyen — kapanmadı
+---
 
-- 11 karar · 12 cevapsız sohbet (kutuda)
-- T-0121 yayın sonrası görsel duman testi · T-0122 `proje:` alanı tek biçime
-- İşkodra A/B/C · anabolu 1822 · 23 `kaynak:` adresi · `yer_yama_k85.js`
+## BUGÜN KAPANANLAR
+```
+✅ katman seçici yazıldı (4 katman, çoklu seçim) — r5585
+✅ katman seçici HARİTANIN ÜZERİNDEN `#menu-butonlar` içine taşındı
+✅ emeklilik.py acilis.py'ye BAĞLANDI (adım 1f) — 12 sn, bütçe 30
+✅ kronoloji ÖLÇÜTÜ yazıldı — oturumlar/KRONOLOJI-OLCUT-0904.md
+✅ kronoloji KAPSAM ALETİ — denetim/ARAC-KRONOLOJI-KAPSAM-0904.py
+✅ Torun + Elbing indi (3803 → 3805)
+✅ koşu 4 yeniden başlatıldı + bekçisi (60 dk'da bir canlılık)
+```
+
+## AÇIK BULGULAR — iş değil, KAYIT
+```
+🔴 serbest-hale · serbest-cekirdek  MapLibre ifade hatası, HİÇ yüklenmiyor
+   ⇒ "serbest" topraklar bugün haritada hiç çizilmiyor
+🔴 renkler.py OPAKLIK 0.44/0.60/0.68  ·  app.js gerçek 1/1/1
+   ⇒ bütün ΔE ölçümleri var olmayan bir çizim kipine göre
+   ⚠️ renkler.py DONMUŞ — koşudan sonra
+🔴 toprak-kayip 105 · kayip 7 · toprak 2 — aynı cinsin üç yazımı
+🔴 `ic-savas` diye bir `tur` YOK
+🔴 koridor ağı 4 bileşen (86+23+13+1), tek parça değil
+🟡 KRONOLOJI_* eşlenemedi: 18 küresel değişken DEVLETLER'de karşılıksız
+   (cin · hindistan · japonya · misir · ozbek · anadolu · arabistan …)
+🟡 küresel görünüm: MapLibre 4.7.1, `setProjection` YOK — v5 gerekiyor
+```

@@ -2137,24 +2137,24 @@ html:has(#yanpanel.dar) #olay-detay { width: var(--panel-dar); }
    `#harita-dugmeler` içindeki flex-gap desenine oturuyor; o sarmalın
    yorumu zaten "yarın üçüncü bir harita düğmesi eklenirse hazır" diyordu.
    ═══════════════════════════════════════════════════════════════════════ */
-#katman-sarmal { position: relative; }
-
-#katman-menu {
-  position: absolute;
-  top: calc(100% + 4px);
-  right: 0;
-  z-index: 30;
-  min-width: 208px;
-  padding: 6px 4px 4px;
-  background: rgba(28, 24, 18, 0.96);
-  border: 1px solid rgba(247, 241, 227, 0.22);
-  border-radius: 5px;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.45);
+/* 🔴 4 Eylül 2026 — Emre: "haritanın üzerinde durmasın".
+   Seçici `#menu-butonlar`ın İÇİNE taşındı; kendi kutusu ve gölgesi
+   KALKTI — menünün kendi zemini üzerinde duruyor. */
+#katman-grup {
+  margin-top: 4px;
+  padding-top: 5px;
+  border-top: 1px solid rgba(247, 241, 227, 0.16);
   font-size: 12px;
-  color: #f7f1e3;
 }
 
-#katman-menu label {
+#katman-baslik {
+  padding: 2px 8px 4px;
+  font-size: 10px;
+  letter-spacing: 0.4px;
+  color: rgba(247, 241, 227, 0.45);
+}
+
+#katman-grup label {
   display: flex;
   align-items: center;
   gap: 7px;
@@ -2163,12 +2163,12 @@ html:has(#yanpanel.dar) #olay-detay { width: var(--panel-dar); }
   cursor: pointer;
   white-space: nowrap;
 }
-#katman-menu label:hover { background: rgba(247, 241, 227, 0.09); }
-#katman-menu input { margin: 0; cursor: pointer; }
-#katman-menu span { flex: 1 1 auto; }
+#katman-grup label:hover { background: rgba(247, 241, 227, 0.09); }
+#katman-grup input { margin: 0; cursor: pointer; }
+#katman-grup span { flex: 1 1 auto; }
 
 /* katman sayısı — bilgi, gürültü değil: en küçük punto, en düşük ağırlık */
-#katman-menu em {
+#katman-grup em {
   flex: 0 0 auto;
   font-style: normal;
   font-size: 10px;

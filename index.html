@@ -42,6 +42,22 @@
          hatlarıyla da karışmasın. Menzil sistemi TDV'ye göre 1539-1839
          arası kurumdur, katman o aralığın DIŞINDA hiç çizilmez. -->
     <button id="btn-koridor" title="Menzil (ulak/posta) yolları: duraklar ve aralarındaki hatlar. Sınır değil YOL — noktalı çizilir. Yalnız 1539-1839 arasında görünür; içi boş duraklar kaynağı bulunamamış, SEÇİLMİŞ duraklardır.">🐎 Koridor ağı</button>
+    <!-- 🆕 KATMAN SEÇİCİ — 4 Eylül 2026. Emre: "katmanlar comboboxunu da
+         diğer butonların içine kaydıralım, haritanın üzerinde durmasın."
+         Emsal: 18 Ağustos'ta `#bolge` için aynı karar verilmişti.
+         ⚠️ İçine AYRI bir açılır menü konmadı — `#menu-butonlar` zaten
+         açılır; menü içinde menü kötü olurdu. Kutular DOĞRUDAN burada.
+         ⚠️ Ve menü, tıklanan şey <button> DEĞİLSE kapanmaz (app.js:5863)
+         — çoklu seçim için şart: her tıkta kapansaydı dört katmanı
+         seçmek dört kez menü açmayı gerektirirdi. -->
+    <div id="katman-grup">
+      <div id="katman-baslik">KATMANLAR — birden çok seçilebilir</div>
+      <label><input type="checkbox" data-katman="cografya" checked> <span>① Coğrafya</span><em id="kat-sayi-cografya"></em></label>
+      <label><input type="checkbox" data-katman="yerlesim" checked> <span>② Yerleşim yerleri</span><em id="kat-sayi-yerlesim"></em></label>
+      <label><input type="checkbox" data-katman="yollar" checked> <span>③ Yollar ve koridorlar</span><em id="kat-sayi-yollar"></em></label>
+      <label><input type="checkbox" data-katman="siyasi" checked> <span>④ Siyasî yapılar</span><em id="kat-sayi-siyasi"></em></label>
+      <div id="katman-not"></div>
+    </div>
     <button id="btn-tamekran" title="Tam ekran (F11)">⛶</button>
     <!-- 🔴 EMRE, 18 Ağustos 2026: "tüm imparatorluk combobox'ını butonlar
          içine koyabiliriz." p2/H-0010'da üst çubuğa alınmıştı; üst çubuk
@@ -114,30 +130,6 @@
            GEREKMİYOR ama SİLİNMEDİ: yarın üçüncü bir harita düğmesi
            eklenirse aynı flex-gap deseni hazır bekliyor. -->
       <div id="harita-dugmeler">
-        <!-- 🆕 KATMAN SEÇİCİ — 4 Eylül 2026, Emre'nin isteği:
-             "coğrafi katman ismi ile bir buton yapıp katmanları üstüste
-              koyabilmeliyiz ... bu katmanları birden çok seçerek üstüste
-              gösterebilmeliyiz."
-             ⇒ Tek seçimli bir <select> DEĞİL, çoklu seçim: onay kutuları.
-             Sıra Emre'nin verdiği sıradır (coğrafya en altta, siyasî en
-             üstte) ve bu ZATEN haritanın çizim sırası — düğme yeni bir
-             sıra kurmuyor, var olanı GÖRÜNÜR kılıyor.
-             ⚠️ Katman kimlikleri BURAYA YAZILMADI: js/app.js onları
-             çalışma anında SINIFLANDIRIYOR ve tanımadığını SAYIYOR.
-             Sebebi bu dosyanın kendi geçmişi (app.js:3017 civarı, aynı
-             sınıfın DÖRT vakası): elle yazılan bir katman listesi, yeni
-             bir katman eklendiği gün sessizce eksik kalır. -->
-        <div id="katman-sarmal">
-          <button id="btn-katman" aria-expanded="false"
-                  title="Harita katmanlarını seç (birden çok seçilebilir)">▤ Katmanlar</button>
-          <div id="katman-menu" hidden>
-            <label><input type="checkbox" data-katman="cografya" checked> <span>① Coğrafya</span><em id="kat-sayi-cografya"></em></label>
-            <label><input type="checkbox" data-katman="yerlesim" checked> <span>② Yerleşim yerleri</span><em id="kat-sayi-yerlesim"></em></label>
-            <label><input type="checkbox" data-katman="yollar" checked> <span>③ Yollar ve koridorlar</span><em id="kat-sayi-yollar"></em></label>
-            <label><input type="checkbox" data-katman="siyasi" checked> <span>④ Siyasî yapılar</span><em id="kat-sayi-siyasi"></em></label>
-            <div id="katman-not"></div>
-          </div>
-        </div>
         <button id="btn-panel" title="Yan paneli gizle/göster (haritayı büyüt)">⇥ Panel</button>
       </div>
       <div id="alan-goster"></div>
