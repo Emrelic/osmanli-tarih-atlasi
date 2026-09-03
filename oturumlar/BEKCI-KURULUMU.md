@@ -109,6 +109,20 @@ benim = [x for x in m if x.get("kimden") == "<TAM ADIN>"]
 print(len(benim), [x["no"] for x in benim][-5:])
 ```
 
+🟢 **VE DAHA İYİSİ — `PRUSYA-0903`ün önerisi, alan adı bilmeyi HİÇ
+gerektirmiyor.** Yukarıdaki çare doğru ama hâlâ *"alan adı `kimden`"*
+bilgisine bağlı; alan adı yarın değişirse aynı sessiz sıfır geri gelir.
+```python
+benim = [x for x in m
+         if "<TAM ADIN>" in json.dumps(x, ensure_ascii=False)]
+```
+**Bütün alanları birden tarar.** Şema değişse bile çalışır.
+📌 Bir çarenin *"doğru"* olması yetmiyor; **hangi varsayıma bağlı
+kaldığı** da sorulmalı. Birincisi bir varsayımı düzeltti, ikincisi
+**varsayımı kaldırdı.**
+⚠️ Tek bedeli: adın başka bir alanda (`mesaj` metninde) geçmesi yanlış
+pozitif verebilir — sayı beklenenden büyükse `kimden` ile daralt.
+
 📌 Bu, `§11`in **altıncı arama ekseni**nin (*"olmayan bir alanı aramak
 SESSİZ SIFIR verir"*) haberleşme yüzü — ve **`0`, "yok" ile "bakmadım"
 arasında ayrım yapmaz.** Bir kayıp raporu ile bir ölçüm hatası aynı

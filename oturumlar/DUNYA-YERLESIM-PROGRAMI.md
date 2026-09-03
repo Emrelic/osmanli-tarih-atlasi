@@ -225,3 +225,146 @@ beklenenden çok farklı bir sayı ölçtüysen → **bekletmeden** yaz.
 ✅ "İŞLERİM BİTTİ — boştayım, yeni iş bekliyorum."
 ⏳ "BEKLİYORUM: <ne> · <kimden> · <ne zaman tekrar bakacağım>"
 ```
+
+---
+
+# 🔴 3 EYLÜL — BEŞ KURAL DAHA, hepsi ÖLÇÜLEREK doğdu
+
+> ⚠️ **BRİFİNGİNİZ BU DOSYA DEĞİL, BU DOSYANIN AÇILIŞ ANINDAKİ
+> FOTOĞRAFIDIR.** Bir sayıyı ya da kuralı işe dönüştürmeden önce
+> **buraya bakın**; çeliştiğinde **dosya kazanır.**
+> *(Doğuran vaka: `DUNYA-AFRIKA-0903` şartnamedeki "97 nokta" borcunu
+> ölçüp çürüttü — oysa dosya aynı gün düzeltilmişti. Kusur işçide
+> değil KANALDA: dosyayı düzeltmek, o dosyayla açılmış oturumun
+> elindeki kopyayı düzeltmiyor.)*
+
+## ① KİMLİK KAPISI — bir nokta ÜÇ kapıdan geçmeden hücre kapatmaz
+```
+① künye VAR MI       data/devletler.js   yoksa → §3.5 HAYALET
+② rengi VAR MI       arac/renkler.py     yoksa → §8 BOYANMAZ
+③ ömür KAPSIYOR MU   künye f/t dönemi içeriyor mu
+```
+🔴 **Kimliği boyanamayan bir nokta petek ÜRETİR ama HİÇBİR ŞEY
+BOYAMAZ** — boşluk kapanmış *görünür*, harita **aynı kalır**, ve
+kapanma sayısı **yalan** olur. Bu sessiz bir yanlıştır: denetim temiz
+raporlar. *(DUNYA-KAMERIKA-0903 ölçtü.)*
+🟢 Sınavı siz koşturmayın, **koordinatöre gönderin** — üç oturumun üç
+ayrı doğrulayıcı yazması, üç ayrı kör nokta demektir.
+
+⚠️ **KÜNYE VAR AMA RENGİ YOK olan 26 kimlik ölçüldü** ve bugün hiçbiri
+veride kullanılmıyor — yani kusur değil, **sessiz borç.** Ama sizin
+zincirleriniz kullanacak:
+```
+avusturya-cumhuriyet · bohemya · bosna-isgal · cezayir-fransiz ·
+cezayir-ocagi · dubrovnik · erdel · fransiz-misir-seferi · garbi-trakya ·
+girit-devleti · hersek · jin-hanedani · kasim · kibris-ingiliz · kuveyt ·
+mogol-imparatorlugu · mora-despotlugu · naksa-dukaligi · oniki-ada-italyan ·
+polonya-erken · sarki-rumeli · song · tbmm-turkiye · trablusgarp-ocagi ·
+tunus-ocagi · zeta
+```
+Zincirinizde biri geçerse **ayrı bildirin.** Kimliği değiştirmeyin.
+
+## ② ÜÇ HANELİ YIL — dört haneye doldurmadan tarih kıyası YAPMA
+```
+fransa f="987-01-01"  ·  almanya f="962-02-02"  ·  bizans f="330-05-11"
+sözlüksel:  "1659-01-01" < "987-01-01"  →  TRUE   ('1' < '9')
+```
+**Evren 17 künye:** bizans 330 · nube 543 · sunda-pajajaran 669 ·
+venedik 697 · dubrovnik 700 · papalik 756 · kanem-bornu 800 ·
+navarra 824 · iskocya 843 · pagan 849 · sirvansah 861 · yemen-zeydi 897 ·
+goryeo 918 · bretanya 939 · song 960 · almanya 962 · poni 977 · fransa 987
+
+🔴 **Üç oturum aynı gün bağımsız olarak bu tuzağa düştü** (AFRIKA 42
+sahte ihlal · OKYANUSYA 2 · koordinatör 1). Üçü de **gürültülü**
+bozuldu, o yüzden farkedildi. `>` yerine `>=` gibi **sessiz** bir
+bozulmada hiçbir şey ötmez ve hayalet dönemler veriye iner.
+⇒ Kıyası `(yıl, ay, gün)` demetiyle yap, dizgiyle değil.
+
+## ③ KAPANMA ÖLÇÜLÜR, ÇIKARILMAZ
+```
+🔴 "N aday yazdım ⇒ N hücre kapandı"        YANLIŞ
+🟢 adayları koy, IZGARAYI YENİDEN TARA, kapananı SAY
+```
+`TAVAN_KM = 200`: bir nokta 200 km yarıçapa ulaşır ve 1° ızgarada
+**birden çok** hücreye değer. `DUNYA-GAMERIKA-0903` ölçtü —
+koordinatörün `1138 − 45 = 1093` çıkarması yanlıştı, gerçek
+`1138 − 207 = 931`, **aday başına 4,6 hücre.**
+⚠️ Oran **sabit değil**: seyrek bölgede yüksek, doygun bölgede ~1'e
+iner. **Kendi kutunuzda ölçün**, başkasının oranını devralmayın.
+⇒ Teslim raporunda kapanmanın **hangi yoldan** bulunduğu yazılır.
+
+## ④ `bos:` BEŞ KOVA — beş ayrı SINAV
+```
+insansiz    orada KİMSE YAŞAMADI                    fizikî olgu
+kabile      yaşadı, örgütlüydü, ama boyanabilir bir toprak tasarrufu YOK
+            (adlı bir konfederasyon varsa BU kova)
+devletsiz   yaşadı, kaynak AÇIKÇA "devlet otoritesi yoktu" diyor
+veri-yok    kaynak SUSUYOR
+hata        bilinen veri kusuru
+```
+⚠️ Cins **`bos:` alanına** yazılır, `neden:`e değil. `neden:` gerekçenin
+serbest metnidir.
+⚠️ Ve bir beyanı kapatmadan önce **komşu beyanlara bak**: 200 km'den
+yakın bir nokta yazarsan beyan **bayatlar** ve nöbetçi öter.
+
+## ⑤ SÖMÜRGE KİMLİĞİ — metropolün kimliği, ta ki ANAYASAL BELGEYE kadar
+```
+İLKE: SÖMÜRGE = metropolün kimliği. Kendi kimliği, o toprağın
+      DOMİNYON STATÜSÜNÜ kazandığı belge ya da proklamasyonla başlar.
+Kanada     British North America Act      1867-07-01
+Avustralya Commonwealth Constitution Act  1901-01-01
+Y. Zelanda Dominyon proklamasyonu         1907-09-26
+```
+
+> 🔴 **BU İLKENİN İLK YAZIMI YANLIŞTI ve `DUNYA-OKYANUSYA-0903` onu
+> ölçerek çürüttü — aynı gün, yazılmasından yarım saat sonra.**
+> İlk hâli *"TEK ve KENDİ KENDİNİ YÖNETEN bir siyasî bütün hâline
+> geldiği ANAYASAL BELGE"* diyordu. İki bileşen Kanada ve
+> Avustralya'da **aynı belgede çakışıyor**, Yeni Zelanda'da
+> **üç ayrı tarihe dağılıyor:**
+> ```
+> (a) TEK bütün olmak        1841-05-03  (zaten tek koloni, federasyon YOK)
+> (b) kendi kendini yönetmek 1856-05-07  (ilk sorumlu hükûmet, Sewell)
+> dominyon statüsü           1907-09-26
+> NZ'nin ANAYASAL BELGESİ 1852'dir; 1907 bir PROKLAMASYONDUR ve
+> "there was no tangible political or legal shift" (NZ History, resmî)
+> ```
+> ⇒ Eski yazım NZ için **1856'yı** üretirdi, yani savunduğu kararı
+> **üretmiyordu.** Karar (1907-09-26) doğrulandı ve KALDI; değişen
+> **gerekçenin yazımı.**
+>
+> 📌 ***Bir ilke, savunduğu kararı ÜRETMİYORSA ilke değil, sonradan
+> yazılmış bir gerekçedir.*** Ve tehlikesi şu: karar doğru olduğu için
+> kimse ilkeyi sınamaz — ta ki bir sonraki oturum onu **başka bir
+> vakaya uygulayana** kadar.
+> ⚠️ Kaynak da tartışmayı kapatmıyor: NZ Parlamentosu'nun kendi
+> araştırma raporunun **başlığı** *"New Zealand sovereignty: 1857,
+> 1907, 1947, or 1987?"* — dört aday var. Seçimimiz **üç dominyonu
+> aynı ölçütle tutmaktır**, mutlak doğruluk iddiası değil.
+⇒ Ayrı koloni künyesi **açılmaz** (NSW · Victoria · Cape · Van Diemen…);
+hepsi `ingiltere`. Şirket toprağı da öyle: **HBC bir şirkettir, atlas
+TASARRUFU boyar ve tasarruf tacındı** ⇒ `ingiliz-kuzey-amerika`.
+
+## ⑥ YERLİ KİMLİK TANECİĞİ — HALK ya da KONFEDERASYON
+Atlasın kendi emsali karar veriyor: `haudenosaunee · powhatan · cherokee ·
+choctaw · natchez · komanci · apaci-ovalar · creek-konfederasyonu ·
+pueblo-bagimsizligi`.
+```
+🟢 Lakota · Navaho · Kri · Ojibwe · Tlingit · İnuit · Dene · tsvana …
+🔴 "Subarktik halkları" · "Ova kabileleri"   kültür alanı — FAZLA KABA
+🔴 Hunkpapa · Oglala                          klan          — FAZLA İNCE
+```
+⚠️ **Künye ile `bos:"kabile"` farklı şeylerdir.** Kaynak o halkın
+belirli bir toprağı **denetlediğini** söylüyorsa künye; *"şu bölgede
+yaşarlardı"* diyorsa `bos:"kabile"`.
+
+## ⑦ VE BİR ZİNCİRİN DENETİMİ GEÇMESİ, DOĞRU OLDUĞU ANLAMINA GELMEZ
+`DUNYA-AFRIKA-0903` son anda durdurdu: Monrovia ve Harper'a `ingiltere`
+yazılmıştı. Liberya **1847'den beri bağımsız**, hiç İngiliz kolonisi
+olmadı.
+```
+künye canlı ✓ · ömür kapsıyor ✓ · renk var ✓  ⇒  DENETİM TEMİZ DER
+harita ise Liberya'yı bir asır Britanya boyardı
+```
+📌 Üç kapı da **biçimseldir**; **tarihî doğruluğu hiçbiri ölçmez.**
+Onu yalnız kaynağı okumak verir.
