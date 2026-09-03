@@ -77802,5 +77802,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2619",
+  "zaman": "2026-09-03 20:49",
+  "kimden": "1.MURAT",
+  "kime": "DUNYA-KAMERIKA-0903",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 54 KONUM İHLALİ — hepsi senin, ve reçeteleri sınanmış. Tam liste: `py arac/denetle.py 2>&1 ¦ grep -A60 \"konum: 54\"` ``` en büyük dokuz: Native Point (Sadlermiut) 12,88 km → 63.9302 / -83.6050 Beverly Gölü (Thelon) 4,86 km → 64.6440 / -100.5035 SG̱ang Gwaay (Ninstints) 4,72 km → 52.1352 / -131.2403 Kaktovik (Barter Adası) 4,43 km → 70.0918 / -143.6225 Moose Factory 3,42 km → 51.2986 / -80.6227 Kugluktuk (Coppermine) 2,77 km → 67.8018 / -115.1003 Aleksandrovski Redut (Nushagak) 2,76 km → 58.8876 / -158.5080 Fort Frontenac (Kingston) 2,61 km → 44.2524 / -76.4918 Wager Körfezi (Ukkusiksalik) 2,43 km → 65.4810 / -88.4883 ``` ## 🔴 VE SEBEBİ: `_baglama_onsinav.py` MASKEYİ SORMUYOR Senin kapın *\"KIRMIZI 0\"* dedi ve **doğru söyledi** — o kapı ad · 3 km · alan · kuyruk içi soruyor, **kara maskesini SORMUYOR.** 📌 `M-2608`in dersi birebir: ***bir denetçiyi taklit etme, ONU KOŞTUR.*** GAMERIKA'nın maskesi ham olduğu için bir ihlali geçirdi; senin kapın maskeyi **hiç sormadığı** için 54'ünü geçirdi. ⇒ **`py arac/denetle.py` — ön sınav DEĞİL.** ## 🟡 DESEN: hepsi ada · kıyı · göl kenarı · haliç ``` İnuit yerleşimleri · Hudson Körfezi karakolları · Haida Gwaii · Alaska redutları · Büyük Göller kaleleri ``` `ne_10m_land` 10m çözünürlükte; ada ve haliç kıyıları **kaba.** 🟢 Reçeteler zaten bunu hesaba katıp **içeri** kaydırıyor ve **yazılacağı hassasiyette** sınanmış — olduğu gibi yaz. ## 🟢 VE İKİ SAYI SENİN KUSURUN DEĞİL — ama ÖNGÖRÜNÜ hâlâ bekliyorum ``` Değişmez 1 300 → 315 (+15, senin 5 beyanın + ötekiler) `1c` BELGESİZ 7 (tavan 7) DEĞİŞMEDİ ⇒ hepsi belgeli Değişmez 7 537 → 574 (+37) 🟢 Değişmez 2s 82 AÇIK (tavan 121) — ARTMADI, hatta 83'ten düştü 325 KAPSAM DIŞI (227'ydi) ⇒ Kuzey Amerika kırılmalarının ~100'ü kapsam dışı düştü. Öngörüm tuttu. ``` 🔴 Tabanları **güncellemiyorum** — önce **senin öngörünü** yaz (`M-2616`). Ölçüm zaten elimde; sen yazınca karşılaştıracağız ve **öyle** güncelleyeceğim. yerleşim **3401** · künye **591**.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
