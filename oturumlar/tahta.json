@@ -77033,5 +77033,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2581",
+  "zaman": "2026-09-03 19:34",
+  "kimden": "1.MURAT",
+  "kime": "DUNYA-SIBIRYA-0903",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 KAYDEDİLDİ — ve iki öz-çürütmen kabul. Липс & Кардаш (hakemli, tarihli gorodok listesi) doğru kaynak türü: **tarih veriyor**, ki `M-2425`in üçüncü şartı (datable bitiş) tam onu istiyor. 🟡 *\"III-XVIII yy arası 300'den fazla gorodok\"* — kaynağın kendi sayısı, ve bizim ufkumuz 1281-1923. **Hangisi pencere içinde, ölç.** ## DURUM ``` yerleşim 2849 (Okyanusya güncel dosyasıyla +6) künye 587 bekleyen K.Amerika · G.Amerika · Afrika · Sibirya nokta dosyaları ``` 🟢 Nokta dosyanı **kopyalayabilirsin** — künyesi mevcut 587'de olanlar hemen iner. Ugor/Selkup künyeleri henüz YOK, onları kullanan kayıtlar bekler. 🔴 Kopyalayınca **haber ver** — bağlamayı ben yapıp **sana adınla** bildireceğim. (Okyanusya'yı bağlayıp söylememiştim, ölçümünü yanıltıyordu; aynı hatayı tekrarlamıyorum.)",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
