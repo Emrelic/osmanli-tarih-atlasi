@@ -259,7 +259,7 @@ window.YERLESIMLER_AFRIKA2 = [
   s:[{f:"1857-05-25",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
-{ ad:"Gore (Gorée)", tur:"sehir", lat:14.6700, lon:-17.4000, g:0, k:0,
+{ ad:"Gore (Gorée)", tur:"sehir", lat:14.6750, lon:-17.4273, g:0, k:0,
   kur:"1444-01-01",
   s:[{f:"1444-01-01",t:"1627-01-01",d:"portekiz"},
      {f:"1627-01-01",t:"1677-11-01",d:"hollanda"},
@@ -376,12 +376,12 @@ window.YERLESIMLER_AFRIKA2 = [
      {f:"1895-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"burkina-faso" },
 
-{ ad:"Bathurst (Banjul)", tur:"sehir", lat:13.4500, lon:-16.5800, g:0, k:0,
+{ ad:"Bathurst (Banjul)", tur:"sehir", lat:13.4478, lon:-16.5872, g:0, k:0,
   kur:"1816-04-23",
   s:[{f:"1816-04-23",t:"1923-10-29",d:"ingiltere"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
-{ ad:"Albreda-Cufure", tur:"sehir", lat:13.3200, lon:-16.3600, g:0, k:0,
+{ ad:"Albreda-Cufure", tur:"sehir", lat:13.3385, lon:-16.3598, g:0, k:0,
   kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1894-01-01",d:"gambiya-mandinka"},
      {f:"1894-01-01",t:"1923-10-29",d:"ingiltere"}],
@@ -542,7 +542,7 @@ window.YERLESIMLER_AFRIKA2 = [
      {f:"1884-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"bulunamadı" },
 
-{ ad:"Konakri (Conakry)", tur:"sehir", lat:9.5100, lon:-13.7100, g:0, k:0,
+{ ad:"Konakri (Conakry)", tur:"sehir", lat:9.5111, lon:-13.7109, g:0, k:0,
   kur:"1885-01-01",
   s:[{f:"1885-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
@@ -777,7 +777,7 @@ window.YERLESIMLER_AFRIKA2 = [
      {f:"1861-08-06",t:"1923-10-29",d:"ingiltere"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
-{ ad:"Monrovia", tur:"sehir", lat:6.3000, lon:-10.8000, g:0, k:0,
+{ ad:"Monrovia", tur:"sehir", lat:6.3024, lon:-10.7978, g:0, k:0,
   kur:"1822-04-25",
   s:[{f:"1822-04-25",t:"1923-10-29",d:"liberya"}],
   kaynak:"bulunamadı" },
@@ -830,7 +830,7 @@ window.YERLESIMLER_AFRIKA2 = [
      {f:"1902-03-01",t:"1923-10-29",d:"ingiltere"}],
   kaynak:"bulunamadı" },
 
-{ ad:"Assinie", tur:"sehir", lat:5.1300, lon:-3.2800, g:0, k:0,
+{ ad:"Assinie", tur:"sehir", lat:5.1280, lon:-3.2730, g:0, k:0,
   kur:"1687-01-01",
   s:[{f:"1687-01-01",t:"1792-09-22",d:"fransa"},
      {f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}],
@@ -1070,7 +1070,7 @@ window.YERLESIMLER_AFRIKA2 = [
   s:[{f:"1900-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
-{ ad:"Cinca (Jinja)", tur:"sehir", lat:0.4200, lon:33.2000, g:0, k:0,
+{ ad:"Cinca (Jinja)", tur:"sehir", lat:0.4284, lon:33.2002, g:0, k:0,
   kur:"1901-01-01",
   s:[{f:"1901-01-01",t:"1923-10-29",d:"ingiltere"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
@@ -1336,7 +1336,7 @@ window.YERLESIMLER_AFRIKA2 = [
   s:[{f:"1885-01-01",t:"1923-10-29",d:"belcika"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
-{ ad:"Pangani", tur:"sehir", lat:-5.4300, lon:38.9800, g:0, k:0,
+{ ad:"Pangani", tur:"sehir", lat:-5.4296, lon:38.9781, g:0, k:0,
   kur:"1281-01-01",
   s:[{f:"1281-01-01",t:"1698-12-13",d:"svahili-sehirleri"},
      {f:"1698-12-13",t:"1890-11-04",d:"umman-zengibar"},
@@ -1344,7 +1344,7 @@ window.YERLESIMLER_AFRIKA2 = [
      {f:"1916-09-01",t:"1923-10-29",d:"ingiltere"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
-{ ad:"Kalemie", tur:"sehir", lat:-5.9500, lon:29.1900, g:0, k:0,
+{ ad:"Kalemie", tur:"sehir", lat:-5.9509, lon:29.1824, g:0, k:0,
   kur:"1892-01-01",
   s:[{f:"1892-01-01",t:"1923-10-29",d:"belcika"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
@@ -1604,7 +1604,7 @@ window.YERLESIMLER_AFRIKA2 = [
   s:[{f:"1885-12-17",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
-{ ad:"İbo (Kerimba)", tur:"sehir", lat:-12.3400, lon:40.6000, g:0, k:0,
+{ ad:"İbo (Kerimba)", tur:"sehir", lat:-12.3875, lon:40.5607, g:0, k:0,
   kur:"1600-01-01",
   s:[{f:"1600-01-01",t:"1923-10-29",d:"portekiz"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
@@ -1780,7 +1780,7 @@ window.YERLESIMLER_AFRIKA2 = [
   s:[{f:"1720-01-01",t:"1923-10-29",d:"portekiz"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
-{ ad:"Mahacanga (Majunga)", tur:"sehir", lat:-15.7200, lon:46.3200, g:0, k:0,
+{ ad:"Mahacanga (Majunga)", tur:"sehir", lat:-15.7170, lon:46.3199, g:0, k:0,
   kur:"1690-01-01",
   s:[{f:"1690-01-01",t:"1897-02-28",d:"sakalava-boina"},
      {f:"1897-02-28",t:"1923-10-29",d:"fransa-cumhuriyet"}],
@@ -2182,7 +2182,7 @@ window.YERLESIMLER_AFRIKA2 = [
   s:[{f:"1885-01-01",t:"1923-10-29",d:"ingiltere"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
-{ ad:"Lourenço Marques", tur:"sehir", lat:-25.9700, lon:32.5800, g:0, k:0,
+{ ad:"Lourenço Marques", tur:"sehir", lat:-25.9693, lon:32.5800, g:0, k:0,
   kur:"1781-01-01",
   s:[{f:"1781-01-01",t:"1923-10-29",d:"portekiz"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
@@ -2367,7 +2367,7 @@ window.YERLESIMLER_AFRIKA2 = [
   s:[{f:"1835-05-24",t:"1923-10-29",d:"ingiltere"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
-{ ad:"East London", tur:"sehir", lat:-33.0200, lon:27.9100, g:0, k:0,
+{ ad:"East London", tur:"sehir", lat:-33.0177, lon:27.9088, g:0, k:0,
   kur:"1847-01-01",
   s:[{f:"1847-01-01",t:"1923-10-29",d:"ingiltere"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
