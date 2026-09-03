@@ -72632,5 +72632,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2378",
+  "zaman": "2026-09-03 12:28",
+  "kimden": "DUNYA-AFRIKA-0903",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — ARAŞTIRMA TURU BİTTİ · denetim/BULGU-AFRIKA-0903.md (872 satır) + 2 JSON ① NE ÖLÇTÜM kara hücre 1960 · AÇIK 1146 (%58,5) · aday 389 · kalan 71 (%3,6) 1146 -> 71 · kalan 71'in 71'i ÇÖL ya da ihtilaflı şerit, 'öteki' = 0 SINAVLAR: 3km ihlal 0 · iç ihlal 0 · kutu dışı 0 · ad çakışması 6 yakalandı 🔴 Ad sınavı ALTI mükerrer önledi ve İKİSİ 3 KM'Yİ GEÇİYORDU: Oyo-İle 37 km · Mao (Kanem) 14 km — yalnız mesafe sınavı yapılsaydı ikisi de İKİNCİ KEZ yazılacaktı. Mesafe sınavı ad sınavının yerini TUTMUYOR. TDV: 61 slug tarandı · 12 gövde okundu · 10'u somut tarih verdi DESEN: ülke maddesi CANLI, etnik/hanedan maddesi ÖLÜ. Ve ölü ÜLKE maddeleri bir küme: kongo·angola·namibya·botsvana·burundi — beşi de İslâm dışı bölge. §4 COĞRAFÎ boşluğun Afrika içindeki hattı. ② 🔴 ASIL BULGU — DARBOĞAZ NOKTA DEĞİL, KİMLİK Sahra altı Afrika'nın TAMAMI için devletler.js'te künye: 35 389 adayın ihtiyaç duyduğu eksik künye: ~65 (belgede tablo hâlinde) ⇒ Künye ödenmeden nokta yazılırsa noktalar §8 gereği BOYANMAZ: _dunya_bosluk %3,6 der, HARİTA DEĞİŞMEZ. Ölçülebilir bir tuzak. VE BUNU BEN KEŞFETMEDİM: kutumdaki 60 kasitli_bosluk kaydının neden: alanı zaten 'silluk kimliği yok' · 'zende kimliği yok' · 'Oromo krallıkları — kimlik yok' diyor. Önceki oturumlar doğru davranmış (uydurmamış), ama borç ÖDENMEMİŞ, büyümüş. ③ NEYİ BULAMADIM / ÖLÇMEDİM (açıkça) · 389 adayın s: DÖNEM tarihleri — ölçmedim, künye borcu önce · 331 adayın kaynağı çevrimiçi DOĞRULANMADI (58'i TDV gövdesinden okundu, tabloda TDV diye işaretli; kalanı standart akademik el kitabı) · terk edilmiş merkezlerin (Eski Oyo · Khami · Danangombe · Wara · Umgungundlovu) arkeolojik koordinatı — modern merkez kullandım · denetle.py konum denetimi — arac/ donmuştu, koşturmadım · Kongo Serbest Devleti (1885-1908, II. Léopold'ün ŞAHSÎ mülkü) ile belcika künyesinin veride hayalet üretip üretmediği — İŞARET ediyorum, TEŞHİS ETMİYORUM, karar §7 gereği senin ④ NE İSTİYORUM — üç şey a) KUTU KARARI: 12-20K/42-52D dilimindeki 22 hücre bende mi Arabistan'da mı? (dün sordum, hâlâ açık — beyan etmeden bekliyorum) b) SIRA: künye kolu (Oturum 3, ~65 künye) nokta kolundan ÖNCE açılsın — gerekçesi ②. Aksi hâlde bir tur boşa gider. c) DOSYA + AD ALANI: nokta yazma turu bana verilecekse hangi data/ dosyası ve hangi window.<AD_ALANI> — §7 'ayrı dosya vermek ayrı ad alanı vermek DEĞİLDİR'. ⑤ COMMIT ETMEDİM: denetim/ §7'nin oturumlar/ istisnasına girmiyor ve koşu canlı. Dosyalar diskte hazır, commit senin. ✅ İŞLERİM BİTTİ — boştayım, yeni iş bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
