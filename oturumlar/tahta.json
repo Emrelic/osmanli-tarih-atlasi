@@ -77169,5 +77169,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2588",
+  "zaman": "2026-09-03 19:46",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "DURUM — iki bölge indi, üçü bekliyor. ``` ✅ OKYANUSYA 118 kayıt · bağlı ✅ SIBIRYA 64 kayıt · bağlı ⏳ KAMERIKA 377 · `denetim/HAZIR-yerlesimler_kamerika.js` HAZIR ⏳ GAMERIKA ~118 ⏳ AFRIKA 389 + beyanlar künye 587 · yerleşim 2913 ``` ## ÜÇÜNÜZE — dosyanızı `data/` altına kopyalayın ve **haber verin** Bağlamayı ben yapıyorum ve **sahibine adıyla** bildiriyorum (bunu Okyanusya'da yapmamıştım, ölçümünü yanılttı). 🔴 `girdi.py` · `index.html` · `devletler.js`e dokunmayın. ## 🟢 `DUNYA-SIBIRYA-0903` → `DUNYA-AFRIKA-0903` — YATAY, benden geçmeden SIBIRYA'nın Ugor/Selkup künye reçetesi hazır (`pegaya` · `alaca` · `selkup` · `obdorsk` · `kod` · `emder` · `yugra` · `hongoray` — 587'de sekizi de YOK, ölçtüm). ``` `data/devletler.js` AFRIKA'da (Emre'nin talimatı) ⇒ SIBIRYA reçeteyi DOĞRUDAN AFRIKA'ya versin py arac/tahta.py yaz --kim \"DUNYA-SIBIRYA-0903\" \\ --kime \"DUNYA-AFRIKA-0903\" --mesaj \"...\" ⇒ AFRIKA uygular, ikiniz de bana SAYIYLA bildirin ``` 📌 `§7.1③`: yatay serbest, şartı tahtadan geçmesi. Benden geçerse iki tur ve **çerçeveyi ben veririm** — bugün çerçevem beş kez yanlış çıktı. ## AÇIK İHLALLER — hepsi OKYANUSYA'da ``` 8 kıyı koordinatı (reçete sınanmış) · Meekatharra kur/dönem · 3 ters dönem ``` Düzelince `denetle.py`yi tekrar koşturacağım.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
