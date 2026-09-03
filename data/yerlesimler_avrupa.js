@@ -369,7 +369,7 @@ window.YERLESIMLER_AVRUPA = [
 { ad:"Rostock", tur:"liman", lat:54.089, lon:12.140, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"almanya"}] },
 // İsveç Pomeranyası: Westphalia (1648) ile İsveç'e; Stettin 1720'de Prusya'ya,
 // Stralsund 1815'e kadar İsveç'te
-{ ad:"Stettin (Szczecin)", tur:"liman", lat:53.428, lon:14.553, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1648-10-24",d:"almanya"},{f:"1648-10-24",t:"1720-02-01",d:"isvec"},{f:"1720-02-01",t:"1923-10-29",d:"almanya"}] },
+{ ad:"Stettin (Szczecin)", tur:"liman", lat:53.428, lon:14.553, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1648-10-24",d:"almanya"},{f:"1648-10-24",t:"1720-02-01",d:"isvec"},{f:"1720-02-01",t:"1871-01-18",d:"prusya"},{f:"1871-01-18",t:"1923-10-29",d:"almanya"}] },
 { ad:"Stralsund", tur:"liman", lat:54.309, lon:13.082, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1648-10-24",d:"almanya"},{f:"1648-10-24",t:"1815-06-09",d:"isvec"},{f:"1815-06-09",t:"1923-10-29",d:"almanya"}] },
 { ad:"Hannover", tur:"sehir", lat:52.375, lon:9.732, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"almanya"}] },
 { ad:"Münster", tur:"sehir", lat:51.961, lon:7.626, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"almanya"}] },
@@ -378,7 +378,7 @@ window.YERLESIMLER_AVRUPA = [
 { ad:"Trier", tur:"sehir", lat:49.750, lon:6.637, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"almanya"}] },
 { ad:"Mainz", tur:"sehir", lat:49.999, lon:8.273, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"almanya"}] },
 { ad:"Kassel", tur:"sehir", lat:51.313, lon:9.492, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"almanya"}] },
-{ ad:"Magdeburg", tur:"sehir", lat:52.131, lon:11.640, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"almanya"}] },
+{ ad:"Magdeburg", tur:"sehir", lat:52.131, lon:11.640, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1701-01-18",d:"almanya"},{f:"1701-01-18",t:"1871-01-18",d:"prusya"},{f:"1871-01-18",t:"1923-10-29",d:"almanya"}] },
 { ad:"Leipzig", tur:"sehir", lat:51.340, lon:12.375, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"almanya"}] },
 { ad:"Erfurt", tur:"sehir", lat:50.978, lon:11.029, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"almanya"}] },
 { ad:"Würzburg", tur:"sehir", lat:49.791, lon:9.953, g:0, k:3, d:[], s:[{f:"1281-01-01",t:"1923-10-29",d:"almanya"}] },

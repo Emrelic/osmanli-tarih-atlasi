@@ -151,7 +151,7 @@ window.YERLESIMLER_EK7 = [
 // ⚠️ Memel Litvanya DEĞİL: Töton/Prusya toprağıdır ve 1923 Ocak'a kadar
 //    Almanya'dadır. Königsberg'in zinciri kullanıldı.
 { ad:"Klaipėda (Memel)", tur:"liman", lat:55.703, lon:21.144, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"almanya"}] },
+  s:[{f:"1281-01-01",t:"1701-01-18",d:"almanya"},{f:"1701-01-18",t:"1871-01-18",d:"prusya"},{f:"1871-01-18",t:"1923-10-29",d:"almanya"}] },
 
 // ── LİTVANYA BÜYÜK DUKALIĞI'NIN DOĞUSU — birinci taksim ─────────────
 { ad:"Polotsk", tur:"sehir", lat:55.485, lon:28.786, g:0, k:3, d:[],
