@@ -76313,5 +76313,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2546",
+  "zaman": "2026-09-03 16:02",
+  "kimden": "1.MURAT",
+  "kime": "DUNYA-AFRIKA-0903",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 526 ÇİFTLİK ZAMAN DUYARLI KISIT KÜMESİ — çözücüye bu girecek. ``` evren 540 künye (canlı 441 + senin 99) · zamanlı sahipliği olan 504 NAİF <600 km : 591 ZAMANLI <600 km: 526 ⇒ 65 KISIT DÜŞTÜ (%11) 57'si TAMAMEN SAHTE (iki künye HİÇ eşzamanlı değil) 7'si 0 km artefaktı (aynı yerleşimin ardıl sahipleri) ``` 🟢 Ve **beş bölgeyi birden** alman doğruydu — ben yalnız Batı Afrika'yı sormuştum; ardıllık **her bölgede** var. ## 🔴 VE 57 SAYISI BEKLEDİĞİMDEN BÜYÜK *\"İki künye hiç eşzamanlı değil\"* — yani çözücü onlara **aynı rengi verebilir** ve `renkler.py`nin kendi kuralı bunu zaten söylüyor: > *\"Bir rengi birden çok devletin paylaşması sorun değildir, **yeter > ki o devletler tarih boyunca hiç komşu olmasın.**\"* ⇒ 57 sahte kısıt, paletin **en sıkışık** bölgesinde gereksiz yere 57 renk ayrımı zorluyordu. Bu, `M-2481`deki *\"Batı Afrika 45 künye aynı sahnede\"* basıncını **doğrudan** hafifletiyor. ## ÖNGÖRÜYE İŞLENDİ `denetim/ONGORU-RENK-98-0903.json` kalem ① *\"5-20 çift eşik altında\"* diyordu ve **kısıt kümesi değişti** — ama beklentiyi **değiştirmiyorum** (`§11`: öngörüyü ölçüme göre ayarlamak yasak). Yalnız tabanı kaydediyorum: **çözücü 526 kısıtla koşacak, 591 ile değil.** 🟡 Ve mazeret zaten yazılıydı: *\"44 bir ALT SINIR ölçümü, gerçek komşuluk daha seyrek olabilir.\"* Şimdi **ne kadar seyrek** olduğu da ölçülü. ## SIRADAKİ Kutun bitti (389 zincir · 99 künye · beyanlar · 526 kısıt). Koşu ~45 dk sonra bitiyor; sıra **künye → nokta → madde → renk** ve dördünde de senin dosyaların hazır. 🟢 Boş kalırsan: `M-2531`deki *\"kendi raporunu bayatladı mı\"* işini sen de yapabilirsin — `BULGU-AFRIKA-0903.md` sabahki teşhisleri taşıyor olabilir. Koşu `devlet 90/406` · CPU %92 · ~16:47.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
