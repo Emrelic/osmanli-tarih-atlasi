@@ -156,11 +156,25 @@ function hatCoz(dizi) {
            }) };
 }
 
+// 🆕 HİMAYE ŞERİDİ — kuyruk ⑫, Emre'nin kararı (2 Eylül 2026, VERI-YAPISI.md
+// "v:[{…himaye:true}]"). ŞEMA SÖZLEŞMESİ (motor kolu bu sözleşmeye göre
+// donemler.js üretecek, üretmiyorsa `d.h` yok sayılır — aşağıya bak):
+//     d.h : [ { g: <d.v ile AYNI parça-kodlu geometri>, renk: "#rrggbb"|null } … ]
+// Her öğe BİR himaye gövdesi (iç dolgu KENDİ rengiyle, motor doldurur —
+// boşsa aşağıdaki katman #b2384a'ya düşer, bugünkü tâbi tonu). `d.v` bu
+// alanlardan BAĞIMSIZ ve DEĞİŞMEDİ: himaye toprağı zaten tâbi kümesinin bir
+// alt kümesi, `vassal-dolgu` onu bugün olduğu gibi çiziyor — `himaye-dolgu`
+// yalnız ÜSTÜNE TAM OPAK biner (§11 alfa-harman ailesine yeni vaka EKLEMEMEK
+// için — bkz. app.js:885 civarı). `d.h` YOKSA (bugün 462/462 böyle) dizi
+// boş kalır, katman hiç dolmaz — 155 kayıtlık bugünkü görünüm DEĞİŞMEZ.
 var donemler = window.DONEMLER.map(function (d) {
   return { fi: gunIdx(d.f), ti: gunIdx(d.t), ad: d.ad, b: d.b, ao: d.ao,
            av: d.av || 0, e: d.e || [], c: d.c || [],
            o: parcaCoz(d.o, PARCALAR, PARCA_HALKA),
            v: parcaCoz(d.v, PARCALAR, PARCA_HALKA),
+           h: (d.h || []).map(function (hb) {
+             return { g: parcaCoz(hb.g, PARCALAR, PARCA_HALKA), renk: hb.renk || null };
+           }),
            // "sb" boşsa hiç yazılmıyor (çoğu dönemde çölle sınırdaşlık yok),
            // yani d.sb undefined olabilir — hatCoz bunu null'a çeviriyor.
            sb: hatCoz(d.sb),
@@ -833,9 +847,26 @@ harita.on("load", function () {
              data: bosVeri() };
   }
 
+  // 🔴 ALFA-HARMAN DÜZELTMESİ (kuyruk ①, ARAYUZ-0902 — 2 Eylül 2026, DÖRT
+  // bağımsız rapor, TEK kök neden). Üç dolgu (devlet 0.44 · vassal 0.60 ·
+  // osmanli 0.68) SAYDAMDI; `denetle.py`nin henüz sağlamadığı Değişmez 3
+  // (bir petek AYNI anda iki sahiplik iddiasına düşebiliyor — "nokta-içinde"
+  // çakışması, Pirot/Kütahya/Uşak/Simav ÖLÇÜLDÜ) yüzünden iki gövde aynı
+  // toprağı kaplayınca renkler ALFA HARMANLANIYORDU (0.44 mavi + 0.68 koyu
+  // kırmızı = mor gibi) — kullanıcı bunu "harita bozuk" sanıyordu.
+  // ⇒ Kuyruğun kendi önerisi uygulandı: "alttaki gövdeyi üsttekinin ALTINA
+  // TAM OPAK boyamak". Üçü de artık `fill-opacity: 1` — z-sırası (devlet <
+  // vassal < osmanli, ekleniş sırasıyla) hangi rengin KAZANDIĞINI kesin
+  // belirliyor, blend YOK. `himaye-dolgu` (aşağıda) zaten bu ilkeyle
+  // eklenmişti; bu satır geri kalan üçünü AYNI ilkeye getiriyor.
+  // ⚠️ BEDEL, AÇIKÇA YAZILIYOR: Esri altlığının dokusu artık sahip toprağın
+  // İÇİNDE görünmüyor (önceden yarı saydamdı) — sahipsiz alan ve deniz
+  // ETKİLENMEDİ. Bu bir sayı değil bir GÖRÜNÜM tercihi; tek satırlık bir
+  // opaklık değeri olduğu için ucuz TERSİNE ÇEVRİLEBİLİR — gözle
+  // onaylanmadan bu not silinmesin.
   harita.addSource("devlet", agirKaynak());
   harita.addLayer({ id: "devlet-dolgu", type: "fill", source: "devlet",
-    paint: { "fill-color": ["get", "renk"], "fill-opacity": 0.44 } });
+    paint: { "fill-color": ["get", "renk"], "fill-opacity": 1 } });
   harita.addLayer({ id: "devlet-cizgi", type: "line", source: "devlet",
     paint: { "line-color": ["get", "renk"], "line-width": 1.5, "line-opacity": 0.85 } });
   // 🔴 21 Ağustos — KUSUR ③, Emre (ekran görüntüsü): "odaklanan ülke belirgin
@@ -883,13 +914,32 @@ harita.on("load", function () {
   // ayrı devlet gibi görünüyorlar"). Eski: #d4707d @0.52 — Osmanlı #8e0b22
   // @0.68'e karşı hem ton hem doygunluk atlıyordu. Yeni ton aynı aileden.
   harita.addLayer({ id: "vassal-dolgu", type: "fill", source: "vassal",
-    paint: { "fill-color": "#b2384a", "fill-opacity": 0.60 } });
+    paint: { "fill-color": "#b2384a", "fill-opacity": 1 } });
   // Kesikli çizgi KALDIRILDI: "ayrı devlet" algısını en çok o üretiyordu.
   // Tâbi toprağın dış hattı artık imparatorluk halesinden geliyor.
 
+  // 🆕 HİMAYE ŞERİDİ (kuyruk ⑫, Emre — 2 Eylül 2026): "Himaye ince Osmanlı
+  // kırmızısı şerit ile o ülke topraklarını çevreleyen bir yapı olarak
+  // görülsün, iç bölge ülkenin kendi rengi olacak." Şema sözleşmesi ve
+  // GEÇME/ATEŞLEME notu `donemler` kurulumunda (yukarıda, `d.h`). İki
+  // katman: dolgu (iç renk) + çizgi (dış şerit) — vassal-dolgu'nun HEMEN
+  // ÜSTÜNE, ikisi de ayrı gövde olarak eklendi.
+  // 🔴 TARAMA DESENİ KULLANILMADI — VERI-YAPISI.md §himaye③: tarama bu
+  // projede ZATEN İşgal demek (aşağıda isgalDesenleriKur). Aynı deseni
+  // himayeye vermek iki ayrı siyasî durumu tek görsele bindirirdi.
+  // ⚠️ fill-opacity TAM (1) — ①'in (alfa-harman) sebebi üç katmanın SAYDAM
+  // olup üst üste binmesiydi; himaye-dolgu saydam olsaydı altındaki
+  // vassal-dolgu ile harmanlanır, "kendi rengi" iddiası bozulurdu.
+  harita.addSource("himaye", agirKaynak());
+  harita.addLayer({ id: "himaye-dolgu", type: "fill", source: "himaye",
+    paint: { "fill-color": ["coalesce", ["get", "renk"], "#b2384a"], "fill-opacity": 1 } });
+  harita.addLayer({ id: "himaye-cizgi", type: "line", source: "himaye",
+    layout: { "line-cap": "round", "line-join": "round" },
+    paint: { "line-color": "#8e0b22", "line-width": 2, "line-opacity": 1 } });
+
   harita.addSource("osmanli", agirKaynak());
   harita.addLayer({ id: "osmanli-dolgu", type: "fill", source: "osmanli",
-    paint: { "fill-color": "#8e0b22", "fill-opacity": 0.68 } });
+    paint: { "fill-color": "#8e0b22", "fill-opacity": 1 } });
   // Petek modunda iç çizgiler görünmesin diye çizgi katmanı yok; dolgu kendi
   // dış hattını fill-outline ile verir (aynı renk komşu petekte kaybolur).
   harita.addLayer({ id: "osmanli-cizgi", type: "line", source: "osmanli",
@@ -1198,6 +1248,7 @@ harita.on("load", function () {
   })();
 
   koridorKur();
+  katmanSeciciKur();
 
   var lejant = document.createElement("div");
   lejant.className = "lejant";
@@ -2271,6 +2322,52 @@ function sehirGuncelle(t) {
   }
 }
 
+// ═══════════════════════════════════════════════════════════════════════
+// SAVASLAR AD ALANI SÜZGECİ — kuyruk ⑪, ARAYÜZ-0902 · 2 Eylül 2026
+// ═══════════════════════════════════════════════════════════════════════
+// 🔴 NİÇİN VAR: `OLAYLAR` (app.js:3736) ve `SEFERLER` (app.js:2752) ÖNEK
+//    desenine bağlıydı, `SAVASLAR` hiç yazılmamıştı — 5 yerde ÇIPLAK
+//    `savaslar`. Canlı zarar ÖLÇÜLDÜ: `data/savaslar_ok104.js`
+//    → `window.SAVASLAR_OK104` (Böğürdelen/Şabac kuşatması, 1521-07-07)
+//    `index.html`e BAĞLI ama süzgeç onu hiç GÖRMÜYORDU — hata yok, uyarı yok.
+//    `CLAUDE.md §7`in ölçülmüş dersi: *"süzgeç tanımadığını SESSİZCE
+//    ELEMEZ, SAYIP BASAR."* Desen `SEFERLER`in BİREBİR eşi (aynı iki tuzağı
+//    aynı yoldan kapatır: tek altçizgi kısıtı VE benzeyen-ama-uymayan ad).
+function savasKayitlariniTopla() {
+  var out = [], kaynaklar = [], tanimsiz = [], benzeyen = [];
+  Object.keys(window).forEach(function (k) {
+    if (k.indexOf("SAVASLAR") !== 0) return;
+    if (!/^SAVASLAR(_[A-Za-z0-9_]+)?$/.test(k)) benzeyen.push(k);
+  });
+  Object.keys(window)
+    .filter(function (k) { return /^SAVASLAR(_[A-Za-z0-9_]+)?$/.test(k); })
+    .sort(function (a, b) {
+      if (a === "SAVASLAR") return -1;
+      if (b === "SAVASLAR") return 1;
+      return a < b ? -1 : a > b ? 1 : 0;
+    })
+    .forEach(function (k) {
+      var v = window[k];
+      if (!Array.isArray(v)) {
+        tanimsiz.push(k + " (" + (v === null ? "null" : typeof v) + ")");
+        return;
+      }
+      out = out.concat(v);
+      kaynaklar.push(k + " " + v.length);
+    });
+  console.log("Atlas: savaş kayıtları — " + out.length + " kayıt · " +
+              (kaynaklar.length ? kaynaklar.join(" · ") : "ad alanı YOK"));
+  if (tanimsiz.length)
+    console.warn("Atlas: savaş kayıtları — 🔴 DİZİ DEĞİL, OKUNMADI: " +
+                 tanimsiz.join(" · "));
+  if (benzeyen.length)
+    console.warn("Atlas: savaş kayıtları — 🔴 ADI BENZİYOR AMA DESENE UYMUYOR, " +
+                 "OKUNMADI: " + benzeyen.join(" · ") +
+                 "  (desen: SAVASLAR ya da SAVASLAR_<harf/rakam/altçizgi>)");
+  return out;
+}
+var savaslar = savasKayitlariniTopla();
+
 // ---------- Savaş yerleri (⚔) ve sefer okları ----------
 // ⚠️ GENEL KURAL (kullanıcı): görsel işaret, maddenin olayı bitince kalkar.
 // Eskiden her muharebe işareti 730 gün (iki yıl) ekranda kalıyordu; o sürede
@@ -2314,7 +2411,7 @@ var SAVAS_TUR_SIMGE = { meydan: "⚔", kusatma: "◎", isyan: "🔥", deniz: "�
 // kuralının arayüz tarafı.
 // 📜 glifi İCAT EDİLMEDİ: lejant (`app.js:1067`) zaten *"📜 Antlaşmayla
 // alındı"* diyor — kullanıcının öğrendiği dil korundu.
-var savasIsaretleri = (window.SAVASLAR || [])
+var savasIsaretleri = savaslar
   .concat((window.ANTLASMALAR || []).map(function (a) {
     return { t: a.t, ad: a.ad, tur: "antlasma", lat: a.lat, lon: a.lon,
              sonuc: "belirsiz", sure: a.sure };
@@ -2650,7 +2747,7 @@ var SONUC_ROZET = { zafer: "▲", yenilgi: "▼", belirsiz: "" };
 // çok-noktalı isyan eklenirse) kod ELLE DOKUNULMADAN yeni oku üretir.
 function isyanYayilmaUret() {
   var grup = {};
-  (window.SAVASLAR || []).forEach(function (s) {
+  savaslar.forEach(function (s) {
     if (s.tur !== "isyan" || !s.lat || s.ad.indexOf(" (") < 0) return;
     var kok = s.ad.split(" (")[0];
     (grup[kok] = grup[kok] || []).push(s);
@@ -4206,7 +4303,7 @@ function dizinDoldur(sekme) {
       gruplar[tur].forEach(function (k) { satir(k.ad, k.donem || "", k.not || ""); });
     });
   } else if (sekme === "savaslar") {
-    (window.SAVASLAR || []).forEach(function (s) {
+    savaslar.forEach(function (s) {
       var isaret = s.sonuc === "zafer" ? "✔" : s.sonuc === "yenilgi" ? "✖" : "◐";
       satir(kesinlikliYazi(s.t, gunIdx(s.t)), s.ad + " — " + karsiTaraf(s), isaret,
             function () { dizinPencere.classList.add("gizli"); tarihAyarla(gunIdx(s.t)); });
@@ -4420,7 +4517,7 @@ function dizinDoldur(sekme) {
     });
   } else {
     (window.SERILER || []).forEach(function (s) {
-      var say = (window.SAVASLAR || []).filter(function (x) { return x.seri === s.id; }).length;
+      var say = savaslar.filter(function (x) { return x.seri === s.id; }).length;
       satir(s.aralik, s.ad + (say ? " (" + say + " kayıtlı muharebe)" : ""), s.ozet);
     });
   }
@@ -4466,6 +4563,20 @@ var hizSec = document.getElementById("hiz");
 var ustbarTarih = document.getElementById("ustbar-tarih");
 var ustbarYil = document.getElementById("ustbar-yil");
 
+// 🆕 SÜRÜM DAMGASI (kuyruk ⑤/②, Emre — 2 Eylül 2026) — kendi `<script>`
+// etiketinin `?v=rNNNN`ini okuyup yazıyor; elle bir sayı YAZILMADI ki her
+// yayında (surum_damgala.py) kendiliğinden güncel kalsın. Etiket bulunamazsa
+// (yerel test, ?v= yoksa) span BOŞ kalır — sessiz TypeError yok, uydurma yok.
+(function () {
+  var el = document.getElementById("surum-etiketi");
+  if (!el) return;
+  var kendi = document.currentScript ||
+    document.querySelector('script[src*="app.js"]');
+  var src = kendi && kendi.src || "";
+  var m = src.match(/[?&]v=(r\d+)/);
+  if (m) el.textContent = m[1];
+})();
+
 kaydirici.min = BASLANGIC;
 kaydirici.max = BITIS;
 kaydirici.value = BASLANGIC;
@@ -4490,6 +4601,7 @@ function guncelle() {
     aktifDonem = di;
     harita.getSource("osmanli").setData(bosVeri());
     harita.getSource("vassal").setData(bosVeri());
+    harita.getSource("himaye").setData(bosVeri());
     harita.getSource("imparatorluk").setData(bosVeri());
     harita.getSource("serbest").setData(bosVeri());
     harita.getSource("bolge").setData(bosVeri());
@@ -4505,6 +4617,16 @@ function guncelle() {
     var vasVeri = d.v ? tekVeri(d.v) : bosVeri();
     harita.getSource("osmanli").setData(osmVeri);
     harita.getSource("vassal").setData(vasVeri);
+    // Himaye şeridi: `d.h` her öğesi ayrı bir gövde (kendi rengiyle) — bkz.
+    // şema sözleşmesi ve GEÇME notu `donemler` kurulumunda. `d.h` boşsa
+    // (bugün 462/462) himVeri boş kalır, katman hiç dolmaz.
+    var himVeri = { type: "FeatureCollection",
+      features: (d.h || []).filter(function (hb) {
+        return hb.g && hb.g.coordinates && hb.g.coordinates.length;
+      }).map(function (hb) {
+        return { type: "Feature", properties: { renk: hb.renk }, geometry: hb.g };
+      }) };
+    harita.getSource("himaye").setData(himVeri);
     // İmparatorluk halesi: doğrudan + tâbi gövdeler TEK kaynakta. Kalın çizgi
     // dolguların ALTINDA çizildiği için yalnız dış çerçeve görünür, iç sınırlar
     // dolgunun altında kalıp silinir — union'ın görsel karşılığı.
@@ -5244,7 +5366,7 @@ function obGoster(o) {
     d.children[1].textContent = icerik;
     ozel.appendChild(d);
   }
-  var sv = (window.SAVASLAR || []).filter(function (s) {
+  var sv = savaslar.filter(function (s) {
     return Math.abs(gunIdx(s.t) - o.gi) < 60 &&
            (o.b.indexOf(s.ad.split(" (")[0]) >= 0 || s.ad.indexOf(o.b.split(" —")[0]) >= 0);
   })[0];
@@ -5368,7 +5490,24 @@ var EKOKUMA_TUR = {
                        (window.EKOKUMA || []).filter(function (k) {
                          return k.tur === "antlasma";
                        }));
-                   } }
+                   } },
+  // 🆕 kuyruk ⑥ — ARAYUZ-0902, 2 Eylül 2026. Emre'nin 11 başlıklık EK OKUMA
+  // listesinden 4'ü (yukarıda) tanımlıydı, 7'si TANIMSIZDI — yani bu türde
+  // bir kart `data/ekokuma*.js`e yazılsa bile hiçbir buton çıkmıyordu
+  // (`Object.keys(EKOKUMA_TUR).forEach` tanımadığı `tur`u SESSİZCE geçer —
+  // `CLAUDE.md §7`in "süzgeç tanımadığını sayıp basmaz, siler" sınıfı, bu
+  // sefer buton tarafında). Kaynağı `sebep-sonuc`/`magazin` ile AYNI havuz
+  // (`window.EKOKUMA`) — içerik oturumu yalnız `tur:` alanını bu yedi
+  // değerden biriyle yazsın, kod DOKUNULMADAN buton çıkar (kuyruğun kendi
+  // ayrımı: "(a) tür tanımı arayüz-küçük, (b) 1277 maddenin içeriği
+  // veri-büyük" — burada yalnız (a) yapıldı, içerik AYRI iş).
+  "tartisma":        { etiket: "💬 Tartışma",        kaynak: function () { return window.EKOKUMA || []; } },
+  "teknik-bilimsel": { etiket: "🔬 Teknik / Bilimsel", kaynak: function () { return window.EKOKUMA || []; } },
+  "kimdir":          { etiket: "🪪 Kimdir?",           kaynak: function () { return window.EKOKUMA || []; } },
+  "dis-yankilar":    { etiket: "🌐 Dış Yankılar",      kaynak: function () { return window.EKOKUMA || []; } },
+  "kahramanlik":     { etiket: "🛡️ Kahramanlık",      kaynak: function () { return window.EKOKUMA || []; } },
+  "menkibeler":      { etiket: "📖 Menkıbe",           kaynak: function () { return window.EKOKUMA || []; } },
+  "sok-haberler":    { etiket: "📰 Şok Haber",         kaynak: function () { return window.EKOKUMA || []; } }
 };
 
 function ekOkumaButonlariGuncelle(o) {
@@ -7783,3 +7922,112 @@ guncelle();
     el.title += " · yayın (data/donemler.js üretimi): " + d.toLocaleString("tr-TR");
   }).catch(function () { /* sessizce sürüm-yalnız kalır, çökmez */ });
 })();
+
+// ═══════════════════════════════════════════════════════════════════════════
+// KATMAN SEÇİCİ — 4 Eylül 2026, Emre'nin isteği
+// ═══════════════════════════════════════════════════════════════════════════
+// > "coğrafi katman ismi ile bir buton yapıp katmanları üstüste koyabilmeliyiz
+// >  ve ilk katmanda bu olmalı ... bu katmanları birden çok seçerek üstüste
+// >  gösterebilmeliyiz."
+//
+// DÖRT KATMAN, ÇOKLU SEÇİM. Sıra Emre'nin verdiği sıradır ve zaten haritanın
+// çizim sırasıdır — düğme yeni bir sıra KURMUYOR, var olanı GÖRÜNÜR kılıyor.
+//
+// 🔴 KATMAN KİMLİKLERİ ELLE YAZILMADI — ve sebebi bu dosyanın kendi geçmişi.
+// Yukarıda (koridor süzgeci) aynı sınıfın DÖRT vakası kayıtlı:
+//     ① OLAYLAR süzgeci `_EK<n>` ADINI varsaydı        → 4 madde görünmedi
+//     ② koridor.js bağlıydı, çizim yoktu               → yıllarca görünmedi
+//     ③ koridor süzgeci `_DUGUM`/`_KENAR` BİÇİMİNİ varsaydı → 23 düğüm elendi
+//     ④ (4 Eylül, ölçüldü) `KORIDOR_OWTRAD` bir NESNE — süzgeç onu ne topladı
+//        ne de `atlanan` sayacına yazdı: 154 düğüm + 174 kenar HEM görünmez
+//        HEM sayılmaz. Canlı ölçüm: KORIDOR 123/121, OWTRAD 154/174, atlanan 3/7.
+// 📌 Ders aynı: *bir varsayımı kaldırmak, onu bir kademe daha görünmez
+//    yapabilir.* Çare varsayımı yok etmek değil — TANIMADIĞINI SAYMAK.
+// ⇒ Bu yüzden aşağıdaki eşleyici katmanları çalışma anında sınıflandırır,
+//   ve hiçbir kovaya girmeyeni `siniflanmamis` olarak SAYAR ve BASAR.
+//
+// ⚠️ YERLEŞİM KATMANI BİR HARİTA KATMANI DEĞİL: yerleşimler 481 DOM
+//    işaretçisi (`.maplibregl-marker`) olarak çiziliyor, `setLayoutProperty`
+//    onlara işlemez. Ölçüldü, varsayılmadı. Bu yüzden o kova ayrı yolla
+//    (gövdeye sınıf) açılıp kapanıyor.
+var KATMAN_KUMESI = [
+  { anahtar: "cografya", ad: "Coğrafya",  kalip: /^(zemin|altlik|g-)/ },
+  { anahtar: "yollar",   ad: "Yollar",    kalip: /^(koridor-|sefer-)/ },
+  { anahtar: "siyasi",   ad: "Siyasî",
+    kalip: /^(devlet|imparatorluk|vassal|himaye|osmanli|serbest|bolge|devir|isgal|veri-siniri)/ }
+];
+
+function katmanSinifla() {
+  var kova = { cografya: [], yollar: [], siyasi: [], siniflanmamis: [] };
+  var stil;
+  try { stil = harita.getStyle(); } catch (e) { return kova; }
+  (stil && stil.layers || []).forEach(function (l) {
+    for (var i = 0; i < KATMAN_KUMESI.length; i++) {
+      if (KATMAN_KUMESI[i].kalip.test(l.id)) { kova[KATMAN_KUMESI[i].anahtar].push(l.id); return; }
+    }
+    kova.siniflanmamis.push(l.id);
+  });
+  return kova;
+}
+
+function katmanSeciciKur() {
+  var dugme = document.getElementById("btn-katman");
+  var menu = document.getElementById("katman-menu");
+  if (!dugme || !menu) return;          // markup yoksa sessizce geç, çökme
+
+  function uygula() {
+    var kova = katmanSinifla();
+    var not = document.getElementById("katman-not");
+
+    menu.querySelectorAll("input[data-katman]").forEach(function (kutu) {
+      var a = kutu.getAttribute("data-katman");
+      var acik = kutu.checked;
+
+      if (a === "yerlesim") {
+        // DOM işaretçileri — katman değil. Gövdeye sınıf, CSS gizler.
+        document.body.classList.toggle("katman-yerlesim-kapali", !acik);
+      } else {
+        (kova[a] || []).forEach(function (id) {
+          try { harita.setLayoutProperty(id, "visibility", acik ? "visible" : "none"); }
+          catch (e) { /* katman henüz yoksa sessiz geç — stil geç yüklenebilir */ }
+        });
+      }
+
+      var say = document.getElementById("kat-sayi-" + a);
+      if (say) {
+        say.textContent = (a === "yerlesim")
+          ? document.querySelectorAll(".maplibregl-marker").length
+          : (kova[a] || []).length;
+      }
+    });
+
+    // 🔴 TANIMADIĞINI SAY VE BAS — sessizce eleme.
+    if (not) {
+      not.textContent = kova.siniflanmamis.length
+        ? "⚠️ " + kova.siniflanmamis.length + " katman hiçbir kovaya girmedi"
+        : "";
+      not.title = kova.siniflanmamis.join(" · ");
+    }
+    if (kova.siniflanmamis.length) {
+      console.warn("Atlas katman seçici: SINIFLANMAMIŞ " + kova.siniflanmamis.length
+                   + " katman — " + kova.siniflanmamis.join(", ")
+                   + " (kovalara girmedi; düğme onları AÇIP KAPATAMAZ)");
+    }
+  }
+
+  dugme.addEventListener("click", function () {
+    var acik = menu.hasAttribute("hidden");
+    if (acik) { menu.removeAttribute("hidden"); } else { menu.setAttribute("hidden", ""); }
+    dugme.setAttribute("aria-expanded", acik ? "true" : "false");
+    if (acik) uygula();               // açılırken sayıları tazele
+  });
+  menu.addEventListener("change", uygula);
+  document.addEventListener("click", function (e) {
+    var sarmal = document.getElementById("katman-sarmal");
+    if (sarmal && !sarmal.contains(e.target)) {
+      menu.setAttribute("hidden", "");
+      dugme.setAttribute("aria-expanded", "false");
+    }
+  });
+  uygula();                            // ilk sayım
+}
