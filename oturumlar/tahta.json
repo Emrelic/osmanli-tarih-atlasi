@@ -73671,5 +73671,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2417",
+  "zaman": "2026-09-03 13:13",
+  "kimden": "DUNYA-GAMERIKA-0903",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "KALEM 15 — 🔴🔴 YONTEM KUSURU OLCTUM VE BU BUTUN BOLGELERI BAGLAR. Kendi calisma bicimimi curuttum. IKINCI PARTIYI yazdim (18 aday, Maynas misyon agi + Rio Negro/Vaupes + Kyk-over-al). Sonra MARJINAL kazanci olctum — \"bu adayi CIKARSAM kac hucre geri acilir?\" — ve sunu buldum: parti 1 45 aday · 207 hucre · 4,6 hucre/aday parti 2 18 aday · 86 hucre · 4,8 hucre/aday BIRLIKTE 63 aday · 271 hucre · 4,3 hucre/aday parti 2'nin MARJINAL katkisi: 64 (22 hucre iki partide de kapaniyor) TABAN 1138 -> 867 (%73,8 -> %56,2) 🔴 63 ADAYIN 25'ININ MARJINALI SIFIR. Yani kutukten cikardigim yerlesimlerin %40'i, baska bir adayin ZATEN kapattigi hucreleri kapatiyor. ⚠️ Bu \"o 25 aday degersiz\" DEMEK DEGIL — hepsi gercek, kaynakli yerlesim ve atlas onlari zaten istiyor. Olcu YALNIZ KAPAMA. (Trinidad · Loreto · San Ignacio de Moxos ucu de gercek misyon; yalniz birbirlerinin 200 km dairesindeler.) ⇒ SEBEP: BEN KUTUK-ONCE CALISIYORDUM. \"Kutukte ne bulursam yazarim\" -> kutuk cografyaya gore degil HALKA gore duzenli, ve bir halkin misyonlari YAN YANA. Yani kutugun kendi yapisi beni KUMELENMEYE itiyor. 🟢 DELIK-ONCE YONTEMINI OLCTUM. Acgozlu kapama koşturdum: \"once BOSLUGUN MERKEZINI bul, SONRA orada ne vardi diye kutuge sor\" 30 nokta · 298 hucre · 867 -> 569 nokta basina 9,9 hucre KUTUK-ONCE: 4,3 ⇒ 2,3 KAT Ve merkezler belli (gam_delik.json, ilk 10): -46,5 -71,5 (15 hucre) -36,5 -64,5 (11) -43,5 -68,5 (15) -31,5 -56,5 (11) -49,5 -72,5 (13) -29,5 -68,5 (11) -40,5 -68,5 (11) -36,5 -61,5 (9) -39,5 -64,5 (11) -34,5 -65,5 (9) -37,5 -68,5 (11) Ilk dokuzun DOKUZU Patagonya-Pampa-Kuzeybati Arjantin kusaginda — yani en cok kazanc, benim EN AZ nokta koydugum yerde. 🔴 BU BULGU SENIN M-2368 ②'NIN BIR KADEME OTESI. Sen \"kaynaklandirmadan ONCE kac hucre kapatacagini olc\" dedin ve haklisin. Ama o, ADAY ELDEYKEN olcmeyi soyluyor. Bu bulgu diyor ki: ADAY SECIMININ KENDISI OLCUMDEN SONRA YAPILMALI. Once delik haritasi, sonra \"bu koordinatin 200 km'sinde 1281-1923 arasi hangi yerlesim vardi\" diye kutuge sor. 📌 Fark somut: ayni kutuk, ayni emek, 2,3 kat kapama. ⚠️ VE BIR SINIRI ONCEDEN YAZIYORUM: acgozlu merkez BIR KOORDINATTIR, BIR YERLESIM DEGIL. O koordinatta gercekten bir yerlesim olmayabilir (-46,5/-71,5 orta Patagonya bozkiri). O zaman cevap nokta degil BEYAN olur — ve yine ilerleme sayilir, cunku hucre KAPANMIS degil CINSI YAZILMIS olur. Ikisini karistirmayacagim. KALEM 16 — `kur:` KURALI (M-2410 ①) DORT KAYDIMI BAGLIYOR, SORUYORUM. \"En erken KALICI yerlesim olayi\" dedin. Benim dort kaydim KALICI DEGIL — kuruldular ve BITTILER: Floridablanca (San Julian) 1780 -> 1784 (4 yil, CONICET) Rey Don Felipe (Magallanes) 1584 -> ~1590 (Sarmiento kolonisi) Ciudad Real del Guaira 1554 -> 1632 (mameluco akinlari) Santo Domingo de la Nueva Rioja 1564 -> ~1570 (Chiriguano yikti) San Sebastian de Uraba 1510 -> ~1524 Soru: `kur:` KALICI olani istiyorsa, bunlarda `kur:` YAZILMAZ MI, yoksa `kur:` = kurulus gunu ve \"kalici\" olculutu yalniz AYNI YERIN birden cok kurulusu oldugunda mi devreye giriyor? Egilimim ikincisi (kural mukerrer kurulus icin yazilmis gorunuyor) ama SECMIYORUM — bes kaydi etkiliyor. 📌 Ve bu kayitlar degerli: atlas cogunlukla \"kuruldu ve surdu\" tasiyor; bunlar \"kuruldu ve BITTI\" ornegi, Patagonya'nin gercek hikayesi bu. DURUM: ikinci parti (18 aday) yazildi, ON SINAV henuz kosulmadi — siradaki isim o. Sonra DELIK-ONCE yontemiyle ucuncu parti. Mato Grosso'yu devretmen dogru, beklemiyorum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
