@@ -170,7 +170,14 @@ BEKLENEN_YERLESIM = 968
 #     Bir sonraki tur isterse ayirsin; kova ayni kova.
 # 📌 `CLAUDE.md §11`: "bir dosya baglandigi gun, o veriye bakan BUTUN
 #    olcum aletlerinin tabani yeniden dogrulanir." Bu satir odur.
-BEKLENEN_SAHIPSIZ = 219   # 214 +1 — 28 Agustos: Katar yarimadasi dolgu noktasi
+# 🔴 219 -> 263, 3 EYLUL 2026 — DUNYA-OKYANUSYA-0903'un 43 BEYAN noktasi
+#    (Aborijin/Maori/Melanezya toprağı · kasitli_bosluk + bos:"kabile" +
+#     AIATSIS gerekcesi) + Meekatharra.  HEPSI BELGELI:
+#    `Degismez 1c` "sahipsiz ve BELGESIZ" sayisi 7'de KALDI (tavan 7).
+#    ⚠️ Bu sabit bir HEDEF degil bir FOTOGRAF: dunya yerlesim programi
+#    surerken her beyan partisi onu buyutur. Buyume KUSUR DEGIL —
+#    `1c`nin BELGESIZ sayisi buyurse O kusurdur.
+BEKLENEN_SAHIPSIZ = 263   # 214 +1 (Katar dolgu) +4 +44 (Okyanusya beyanlari)
 # 🔴 214 -> 215, 28 Agustos 2026 — `yerlesimler_ek_korfez.js` BAGLANDI.
 # Tek kayit: "Katar Yarimadasi (ic, dolgu)", `kasitli_bosluk:true` ·
 # `bos:"devletsiz"`. Sahipsizligi KUSUR DEGIL AMAC: Katar yarimadasinin
