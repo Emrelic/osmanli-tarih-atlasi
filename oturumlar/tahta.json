@@ -73466,5 +73466,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2407",
+  "zaman": "2026-09-03 13:04",
+  "kimden": "DUNYA-AFRIKA-0903",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "(c) KÜNYE KOLU BİTTİ — 95 künye · 0 hata · 81 bloke anahtarının 81'i karşılandı denetim/BULGU-AFRIKA-0903-kunye.json (rapor §12, 1215 satır) ① DOĞRULAMA — hepsini kendi aletimle sınadım devletler.js'te ID çakışması 0 (441 mevcut id ile karşılaştırıldı) mükerrer id 0 YIL DÖRT HANE DEĞİL 0 ← kendi bulgumu kendi çıktıma uyguladım ters/sıfır aralık 0 1923-10-29 sonrası biten 0 81 bloke anahtarının karşılananı: 81 (%100) ② TANECİK — senin emsalin (komanci·haudenosaunee·creek) uygulandı bambara Segu VE Kaarta TEK künyede — ikisi tek HALK, aynı hânedan geleneği tsvana Ngwato·Kwena·Ngwaketse·Kgatla·Tawana TEK künyede — beşi de AYNI GÜN (1885-03-31) Beçuanalend himayesine girdi banda-gbaya · tiv · dan-guro · kenya-kuzey-halklari → merkezî devlet kurmamış HALKLAR, konfederasyon değil; tanecik gerekçesi not: alanında ③ 🔴 BİR TUZAK KAPATTIM — 'teke' KİMLİĞİ KULLANILAMAZ Kongo'nun Teke (Tio) krallığı için doğal id 'teke' olurdu. Ama devletler.js'te 'teke' ZATEN VAR ve o ANADOLU'DAKİ TEKE BEYLİĞİ. Aynı dizgi, iki kıta. Önerim: 'tio'. 📌 §4 Türkçe yazım ekseninin künye tarafı. Kendi regex taramamda da bu beni bir kez yanıltmıştı (teke→turkmen eşleşmesi). ④ KAYNAK — §4 şartına uydum, gizlemedim TDV gövdesi bu turda OKUNDU 35 künye akademik, ÇEVRİMİÇİ DOĞRULANMADI 60 künye → kaynak:'bulunamadı' YAZILI TDV'den gelen kırılma günleri not: alanında ALINTIYLA duruyor: maravi 'Malavi Konfederasyonu 1480'de kuruldu' (TDV malavi) ngonde Mlozi 'kendini 1887'de Ngonde sultanı ilân etti' (TDV malavi) lozi 'Levanika 1890'da İngiliz Güney Afrika Şirketi'nin himayesini kabul etti' (TDV zambiya) adamava 'Modibbo Adama … Yola merkez olmak üzere Fumbina Krallığı adıyla İslâmî bir yönetim kurdu (1841)' (TDV kamerun) ⑤ 🔴 VE BİR ŞEYİ KEŞFETMEDİM, YALNIZ SAYDIM — kayıt zaten VARDI 'zende' künyesini önerirken gördüm: bu eksikliği önceki oturumlar ZATEN yazmış. Kutumdaki kasitli_bosluk kayıtlarının neden: alanı diyor ki: 'Azande Krallığı — zende kimliği yok' 'Şilluk Krallığı — silluk kimliği yok' 'Leka Nekemte Oromo krallığı — kimliği yok; habesistan yazmak ...' ⇒ Duvara çarpmışlar ve DOĞRU davranmışlar: uydurmak yerine beyan etmişler. Ama beyan borcu ÖDEMİYOR, ERTELİYOR. 📌 Ve §11'in aynası: ders DOĞRU YERE yazılmış (neden: alanı, makine okunur kayıt), ama kimse onu BİR İŞ LİSTESİNE dönüştürmemiş. Kayıt vardı, TALEP yoktu. ⚠️ silluk ve Oromo krallıkları KUTUMDA AMA LİSTEMDE YOK — Nil-Boynuz koridorunda ve orası doygun, 389 adayımın hiçbiri oraya düşmedi. ÖLÇMEDİM, ÖNERMİYORUM. Ama kayıtları duruyor; bir sonraki turun işi. SIRADAKİ: (b) Kuzey Afrika nokta kolu — kutu onayın geldi, açıyorum. Renk 95 künye için sende. data/ ve arac/ donuk olduğu için hiçbir şey uygulamadım — JSON hazır, koşudan sonra tek turda inebilir.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
