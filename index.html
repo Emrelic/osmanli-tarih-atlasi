@@ -86,6 +86,15 @@
        EN SAĞINDA — tarih bloğu (`#ustbar-orta`) sağa yanaşık olarak
        hemen solunda bitiyor (bkz. css/style.css `#ustbar-orta`). -->
   <div id="ustbar-yil"></div>
+  <!-- 🆕 2 Eylül 2026 — kuyruk ⑤/②, Emre'nin bugünkü kararı: p2/H-0010'da
+       kaldırılan "Hakkında" (proje künyesi + BEKLEYENLER tablosu) GERİ
+       GELMİYOR — yalnız MİNİMAL bir sürüm damgası. Değer BURADA elle
+       yazılmaz: js/app.js açılışta kendi `<script>` etiketinin `?v=rNNNN`
+       değerini okuyup buraya yazıyor (surum_damgala.py her yayında bu
+       değeri günceller, bu satıra dokunmaya gerek kalmaz). Tarih EKLENMEDİ
+       — hiçbir üretilmiş dosya bir "yapım tarihi" taşımıyor; uydurulan bir
+       tarih CLAUDE.md §11'in "yanlış güvence" sınıfına girerdi. -->
+  <span id="surum-etiketi" title="Yayın sürümü (git commit sayacı)"></span>
 </header>
 
   <div id="harita">
@@ -920,6 +929,16 @@
 <script src="data/yerlesimler_ok106.js?v=r4776"></script>
 <script src="data/yerlesimler_ok109.js?v=r4776"></script>
 <script src="data/yerlesimler_ok110.js?v=r4776"></script>
+<!-- 🔴 3 Eylül 2026 — bu üç dosya `girdi.py`ye bağlanmış ama BURAYA
+     bağlanmamıştı. Motor 68 noktayı okuyor ve peteklerini çiziyordu;
+     tarayıcı dosyaları HİÇ yüklemiyordu ⇒ o noktaların işareti,
+     etiketi ve dizin kaydı YOKTU, ve hiçbir denetim ötmüyordu.
+     `KOSU-SONRASI-0903 §③`: bir veri dosyası İKİ yere bağlanır —
+     `girdi.py GIRDI_DOSYALARI` (motor) ve buraya (tarayıcı).
+     Bağlanmayan dosya HİÇ OKUNMAZ ve denetim bunu TEMİZ gösterir. -->
+<script src="data/yerlesimler_ok107.js?v=r4776"></script>
+<script src="data/yerlesimler_amerika3.js?v=r4776"></script>
+<script src="data/yerlesimler_ortaasya3.js?v=r4776"></script>
 <script src="data/yerlesimler_p0037.js?v=r4776"></script>
 <!-- PAKET-0033 (OPUS HAZIR KITA 107) · 2 kronoloji maddesi.
      🟢 Koşu sürerken bağlanması GÜVENLİ: kronoloji motoru BESLEMİYOR —

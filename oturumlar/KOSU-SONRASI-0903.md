@@ -120,6 +120,27 @@ ayrı bir tur işi, her kırılma günü `Değişmez 2` maddesi ister.
 
 ---
 
+# ⑤b 🔴 ÖLÇÜLMÜŞ BORÇ — ömür kapısı, 1374 dönem
+`denetim/BULGU-OMUR-KAPISI-0903.md` · araç
+`denetim/ARAC-OMUR-KAPISI-0903.py`
+```
+`s:` dönemi 10 327 · künye ömrünün DIŞINDA 1374 (%13,3) · 112 kimlik
+en kalabalık: zend 132 · musa-celebi 78 · isa-celebi 56 · mehdi 51
+```
+⏸️ **KOL AÇILMADI** — `ONCELIK.md` çöl seyyahı: dünya yerleşim programı
+bitmeden gözden geçirme turu başlamaz.
+🔴 **Ve hepsi hayalet DEĞİL** — en az üç cins var, ayrımı **ölçülmedi**:
+çatı kimlik/dar künye (`lehistan` · `iran` · `sardinya`) · ardıl devam
+etti (`meysur` · `maratha` · `romanya`) · gerçek hayalet (`singhasari`
+51 yıl · `artuklu` 56 · `sirbistan` 53).
+⚠️ Kol açılırsa **iki ucu da ölç** (`§3.5.1`): künyeyi genişletmek
+hayaleti meşrulaştırabilir, dönemi daraltmak **boşluk açar** ve komşusu
+emer.
+🟢 **Taban 1374.** Sonraki ölçüm üstüne çıkarsa yeni hayalet doğmuş,
+altına inerse borç ödenmiş.
+
+---
+
 # ⑥ SIRA — bağımlılık zinciri
 ```
 ① künye  →  ② renk  →  ③ nokta  →  koşu 4
