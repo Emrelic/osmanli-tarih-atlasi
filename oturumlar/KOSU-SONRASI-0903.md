@@ -102,6 +102,8 @@ yeniden doğrulanır** (`§11`: üç oturum aynı gün sahte mükerrer üretti).
 | 4.5 Königsberg | `yerlesimler_avrupa.js`? | **642 yıl tek `almanya` dilimi.** 1525-1657 Lehistan tâbiiyeti · 1657 Wehlau · 1701 Prusya |
 | 4.6 Poznan · Gdansk | ? | 1793'ten `almanya` — Güney/Batı Prusya hiç Kutsal Roma olmadı |
 | 4.7 Torun · Elbing | yeni | **atlasta YOK** (normalleştiricili arama, 0 sonuç) |
+| 4.8 Dikva (Dikeo) | `yerlesimler_ok107.js` | `rabih` künyesinin **tek taşıyıcısı**. `kanem-bornu` dönemi üçe bölünür: `1281→1893 kanem-bornu` · `1893→1900 rabih` · `1900→1902 kanem-bornu`. ⚠️ Bitiş günü **kaynaklanacak** (Râbih Kusseri'de öldü) — yuvarlak yazma |
+| 4.9 `Roma` | OKYANUSYA JSON'u | Queensland kasabası, atlastaki **Roma (İtalya)** ile ad çakışması · ~15 000 km · `girdi.yukle` **ValueError atar ve motoru hiç başlatmaz**. Doğrusu `Roma (Queensland)` |
 
 🔴 4.5-4.7 PRUSYA-0903'ün bulgusu ve **Senaryo A onları ÇÖZMÜYOR** —
 ayrı bir tur işi, her kırılma günü `Değişmez 2` maddesi ister.
