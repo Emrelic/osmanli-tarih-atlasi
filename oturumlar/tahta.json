@@ -78198,5 +78198,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2641",
+  "zaman": "2026-09-03 22:14",
+  "kimden": "PRUSYA-0903",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM ⑤ — `oner()` GENISLETMESI BITTI. Bes kalem damgali: 🟢🟢🔴🟢🟢. Damgalar `denetim/ONGORU-ONER-GENISLETME-0903.json`da. ## ASIL SONUC — kalem ②, ve beklediğimden GUCLU ``` ham sayi ΔE<12 cift 1667 → 1005 (−662, %39,7) GERCEK IHLAL ortusen + (Voronoi ya da ayni bolge) 1337 → **0** ``` 🟢 **Olculebilir butun gercek ihlaller KAPANDI.** Kalan 1005'in cinsini AYIRDIM — \"azalma\" tek basina yaniltici olurdu: ``` 288 ortusMUYOR → paylasim MESRU (kusur DEGIL) 717 ortusen + FARKLI bolge → 🟡 muhtemelen mesru, AMA OLCULMEDI 0 ortusen + ayni bolge/Voronoi → 🔴 gercek ihlal ``` 🔴 **717'yi OLCEMEDIM ve \"temiz\" diye yazmiyorum:** bu kunyelerin veride noktasi yok, mesafe hesaplanamiyor. \"Farkli bolge\" GENELDE uzak demek (abenaki↔antemoro: Amerika ↔ Madagaskar) ama bolge SINIRINDA komsu olan cift olabilir. `§11`: olculemedi ≠ temiz. ## BES KALEM ``` ① 🟢 TUTTU 175/175 kimligin onerisi degisti (beklenen ≥150) zincirleme etki bekledigimden GUCLU; mazeretim gerekmedi ② 🟢 TUTTU yukarida — MAZERETSIZ kalemdi ③ 🔴 CURUDU \"COZULEMEDI 0→pozitif\" bekledim, 0→0 cikti 🟢 VE BILGI TASIYOR: 73.454'luk havuz, engel kumesi 4x buyumesine RAGMEN yeterli. Mazeretimi ONCEDEN yazmistim (\"havuz bol olabilir\") ve O TUTTU. ⇒ kisit sikilastirmanin maliyeti SANILANDAN AZ. ④ 🟢 TUTTU git diff arac/renkler.py BOS — 407 rengin hicbiri degismedi. MAZERETSIZ kalemdi. ⑤ 🟢 TUTTU TAM ISABET — prusya #2478d2, elle buldugumun AYNISI iskocya 2,62→24,25 · savoya 7,18→23,19 · parma 11,78→15,07 ve raporlama da duzeldi: \"16.8\" (yalan) → \"12.3\" (dogru) ``` ## C13 — UC AYAK, ve BIRINDE KENDI HATAM ``` ① GECME prusya tek kimlik → dogru renk 🟢 ② ATESLEME abenaki ↔ aleut → ΔE 15,76, AYRILDILAR 🟢 ③ GIRDI her kosu gercek data/'dan — enjekte kayit YOK 🟢 ``` 🔴 Ilk atesleme ciftim (`bohemya+erdel`) YANLISTI. Ikisi de bitisik renk aldi ve **\"duzeltme calismiyor\" diye rapor edecektim.** Cifti olctum: 1198-1526 vs 1570-1711 — **hic ortusmuyorlar**, yani ayni rengi paylasmalari DOGRU davranis. ⇒ Sinav cifti de OLCULEREK secilmeli. 2174 uygun cift arasindan `abenaki+aleut` boyle bulundu. 📌 `§11` \"dogru aleti YANLIS EVRENLE kosturmak\" — bu sefer kendi SINAVIMDA, ve bugun dorduncu kez kendi uzerimde. ## DEGISIKLIK — `arac/renk_olc.py` (97 ekleme / 29 silme) ``` ① engel evreni k.get(a) → engel_kumesi(a, k=k) ② yeniler arasi _yeni_engel_mi(): kunye ORTUSUYOR **ve** (Voronoi **ya da** ayni bolge) ③ RAPORLAMA ayni evrene gecirildi — \"16.8\" yalanini basan satir ④ ONBELLEK engel_kumesi() her cagrida girdi.yukle() + oku_devletler() yapiyordu; surec omru onbellegi ``` ## ⚠️ MALIYET — gizlemiyorum ``` 175 kimlik eski ~12 dk · yeni 10 dk'da BITMEDI (arka planda tamamlandi) sebep engel kumesi 113 → 432 (4x) ⇒ aday taramasi 4x agirlasti ``` Onbellek olmasaydi cok daha kotu olurdu. Islevsel olarak dogru ama UCUZ DEGIL — **98'lik parti icin sure ayir.** ## SIRA SENDE ``` ① `arac/renk_olc.py` degisikligini gozden gecir (dosya bana devredilmisti) ② 98'i SEN kosturursun — ben kosturmam, sen dedin ③ ciktisini BEN olcerim (SINAV-RENK-98-0903.py hazir, C13 gecti) ``` ⚠️ Ve `denetim/oneri-20260903-*.txt` altinda BENIM urettigim dort artefakt var (biri REDDEDILEN #242ad2'yi tasiyor) — `--dogrula` akisinda karismasin diye soyluyorum. ✅ ISLERIM BITTI — bostayim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
