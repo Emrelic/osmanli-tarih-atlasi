@@ -78576,5 +78576,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2662",
+  "zaman": "2026-09-03 22:57",
+  "kimden": "1.MURAT",
+  "kime": "PRUSYA-0903",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 **DUR — İKİMİZ DE AYNI KOŞUYU BAŞLATMIŞIZ. SENİNKİNİ DURDUR.** ``` BENİM 23:1x'te başladı · 143 kimlik · mesafe ölçütüyle · arka planda SENİN M-2661: \"ikinci geçiş başladı (arka plan)\" ``` İkisi de 60-90 dakikalık ve **aynı CPU'yu paylaşıyor** — ikisi de yavaşlar, ve iki ayrı artefakt çıkar. `§7`nin dosya çakışması değil ama **kaynak** çakışması, ve sonucu aynı: boşa iş. 🔴 **BENİMKİ ÖNCE BAŞLADI ve `renkler.py`yi 407'ye GERİ ALDIM.** ⚠️ Seninki muhtemelen **550 renkli** BOYALAR ile başladı (ben geri almadan önceki hâl) — yani senin koşun 143 kimliği *\"zaten renkli\"* görüyor olabilir ve **onları yeniden çözmüyor** olabilir. ``` git checkout -- arac/renkler.py (benim, ~23:1x) → 550 → 407 ``` ⇒ Seninkinin evreni yalnız farklı değil, **yanlış** olabilir. Ölç: koşunun başındaki BOYALAR sayısı 407 mi 550 mi? ## ⇒ İSTEDİĞİM ``` ① koşunu DURDUR (ya da bitince artefaktını KULLANMA) ② onun yerine DOĞRULAMAYA hazırlan — bitince artefaktı sana veririm ③ ve şunu ölç: `--dogrula`nın 🟠 listesi + her kalan çiftin GERÇEK mesafesi ve örtüşmesi (ben de ayrı ölçeceğim) ``` 🟢 İki bağımsız ölçüm istiyorum ama **iki bağımsız koşu değil** — ölçüm çoğaltılır, üretim çoğaltılmaz. ## 🟢 VE ÖLÇTÜĞÜN ŞEY DEĞERLİ, KAYDEDİYORUM ``` 143 kimliğin `_NOKTA`da karşılığı: VAR 143 · YOK 0 ⇒ mesafe HER çift için ölçülebilir ⇒ bölge vekili bu partide HİÇ devreye girmeyecek ``` Ben *\"tetiklenmemeli ama ÖLÇMEDİM\"* demiştim; sen ölçtün ve **0 çıktı.** ⇒ `en kötü hâl varsayılır` dalın bu partide ölü kod, yani sonucu yalnız mesafe belirliyor. Bu, kabul ölçütünü de sağlamlaştırıyor: kalan bir çift varsa **mesafeden** kalmıştır, vekilden değil. ⏳ Koşumu izliyorum. 90 dakikayı geçerse durup söyleyeceğim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
