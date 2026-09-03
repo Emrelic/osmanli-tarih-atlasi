@@ -122,4 +122,72 @@ r = subprocess.run(["node", "-e", JS, json.dumps(bagli), json.dumps(ADAY),
 print(r.stdout)
 if r.stderr.strip():
     print("STDERR:", r.stderr[:600])
-sys.exit(r.returncode)
+_node_kod = r.returncode
+
+# ═══════════════════════════════════════════════════════════════════════
+# ⑥ KARA MASKESI — 3 Eylul 2026'da eklendi.
+#
+# 🔴 NICIN: UC BOLGE ust uste ayni kusuru gecirdi ve UCUNUN DE on sinavi
+#    "KIRMIZI 0" dedi — ve ucu de DOGRU soyledi, cunku bu kapi maskeyi
+#    HIC SORMUYORDU:
+#        KAMERIKA  54 ihlal   GAMERIKA  1 ihlal   AFRIKA  13 ihlal
+#    Uc kez ust uste cikan bir kusur tesaduf degil, KAPININ EKSIGIDIR.
+#
+# 🟢 CARE: maskeyi yeniden yazma — DENETCIYI CAGIR. Ayni gun bir
+#    koordinator maskeyi kendi kurdu (ne_10m_land ham) ve iki yanlis
+#    koordinat uretti: `ne_10m_land` gollerI ICERMEZ, denetcinin maskesi
+#    705 gol + tarihi golleri CIKARIR. 29 KAT fark.
+#
+# ⚠️ Ve donus METINDEN okunmaz: konum_denetimi HICBIR SEY BASMAZ, iki
+#    listeden olusan bir DEMET dondurur; ogeleri 7 alanli ve
+#        oge[0] = km cinsinden mesafe      oge[1] = AD
+#        oge[6] = onerinin sinavdan GECIP GECMEDIGI
+#    Ayni gun bir alet oge[0]'i ad sandi ve "hepsi temiz" dedi.
+# ═══════════════════════════════════════════════════════════════════════
+def _maske_sinavi(adaylar):
+    try:
+        import denetle as _d
+    except Exception as e:
+        print("\n⚠️ ⑥ KARA MASKESI: denetle.py yuklenemedi (%s) — OLCULEMEDI" % e)
+        print("   ⚠️ 'olculemedi' TEMIZ demek DEGILDIR.")
+        return 0
+    import io as _io, contextlib as _c
+    # 🔴 ADAY DOSYA ADLARIDIR, KAYIT DEGIL — ilk surum bunu varsaydi ve
+    #    AttributeError aldi. Kayitlari motorun KENDI okuyucusuyla al
+    #    (§11: veri zaten bir dilde yazilmissa o dilin yorumlayicisini cagir).
+    nok = []
+    for _ad in adaylar:
+        try:
+            for _y in girdi.oku_dosya(_ad):
+                if (isinstance(_y.get("lat"), (int, float))
+                        and isinstance(_y.get("lon"), (int, float))):
+                    nok.append(_y)
+        except Exception as _e:
+            print("\n⚠️ ⑥ %s okunamadi (%s) — OLCULEMEDI" % (_ad, _e))
+            return 0
+    if not nok:
+        print("\n⚠️ ⑥ KARA MASKESI: koordinatli kayit yok — OLCULEMEDI")
+        return 0
+    _b = _io.StringIO()
+    with _c.redirect_stdout(_b):
+        r = _d.konum_denetimi(nok)
+    ihl = list(r[0]) if isinstance(r, tuple) else list(r or [])
+    print("\n────── ⑥ KARA MASKESI (denetle.konum_denetimi) ──────")
+    if not ihl:
+        print("  ✓ %d noktanin hepsi kara maskesinde" % len(nok))
+        return 0
+    for o in sorted(ihl, key=lambda x: -x[0]):
+        gec = " ⚠️ ONERI SINANDI ve GECMEDI" if len(o) > 6 and not o[6] else ""
+        print("  🔴 %-28s %6.2f km disarida  → lat:%.4f, lon:%.4f%s"
+              % (o[1], o[0], o[4], o[5], gec))
+    print("  🔴 MASKE DISI: %d / %d" % (len(ihl), len(nok)))
+    return len(ihl)
+
+
+_maske_kirmizi = _maske_sinavi(ADAY)
+if _maske_kirmizi:
+    print("\n🔴 TOPLAM KIRMIZI (maske dahil): %d" % _maske_kirmizi)
+    sys.exit(1)
+
+sys.exit(_node_kod)
+

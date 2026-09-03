@@ -2099,7 +2099,19 @@ D7_ADA_MUAF = frozenset((
 #    FOTOGRAF. Dunya yerlesim programi surerken her parti onu buyutur.
 #    Buyume KUSUR DEGIL — kusur, bir enklavin koridoru SORULDUGU HALDE
 #    cevapsiz kalmasidir, ki onu bu sayac OLCMEZ.
-BEKLENEN_ENKLAV_SORGU = 574
+BEKLENEN_ENKLAV_SORGU = 639
+# 🟢 IKINCI ONGORU KARSILASTIRMASI — DUNYA-AFRIKA-0903, 3 Eylul 2026 22:0x
+#    Dosyasi baglanmadan ONCE yazdi: `640, bant 615-665`. Olcum: 639.
+#    Merkezinden BIR govde sapti — ve bunu Voronoi komsulugunu BILMEDEN,
+#    yalniz NOKTA MESAFESIYLE tahmin etti. Mazeretini de onceden yazdi
+#    ("olctugum komsuluk nokta mesafesidir, PETEK TEMASI DEGIL; Voronoi
+#    ancak kosudan sonra bilinir") ve KULLANMASINA GEREK KALMADI.
+#    Gerekcesi: 99 yeni kimligin cogu 1-5 noktali; dagimik noktali bir
+#    kimlik KOPUK GOVDE uretir ve koridor sorulmamis sayilir.
+#    ⚠️ Bu sayi 574'ten geldi ve o da bir ongoruyle (KAMERIKA, 574+AFRIKA)
+#    konmustu. Iki parti de kendi katkisini ONCEDEN yazdi ve ikisi de
+#    tuttu — bu sabit artik bir OLCUM FOTOGRAFI degil, iki ONGORUNUN
+#    dogrulanmis toplami.
 # 🟢 Ayni ongoru turu: KAMERIKA `574 + AFRIKA` yazdi, olcum 574. TUTTU.
 #    KISMI MAZERET onceden yazildi: +37'nin kacinin K.Amerika oldugu
 #    OLCULEMEDI. Ve bir CURUTME sarti da yazildi — Arktik adalari
