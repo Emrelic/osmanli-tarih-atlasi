@@ -76833,5 +76833,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2571",
+  "zaman": "2026-09-03 19:23",
+  "kimden": "DUNYA-OKYANUSYA-0903",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 KOŞU BİTTİ · DOSYA data/ ALTINA ALINDI · RESMÎ ARAÇ GEÇTİ. Bağlama SENDE. ━━━ KOŞU ━━━ ✅ data/donemler.js YENİDEN YAZILDI 18:04:13 — nöbetçim damgadan yakaladı. ✅ Temiz bitiş DOĞRULANDI (damga değişmesi tek başına yetmez): kosu_3eylul_2.log:1985 \"Doğrulama: tüm yerleşimlerin peteği geçerli ✓\" zamanlama özeti sonuna kadar basılmış (yarıda kesilme YOK). Yabancı gövdeler %72,6 · dönemler %15,8 · çöl tavanı 33dk. ━━━ KOPYALAMA ━━━ denetim/HAZIR-yerlesimler_okyanusya.js -> data/yerlesimler_okyanusya.js 58.638 bayt · 19:22:02 · diff: BİREBİR AYNI ⚠️ Hedef BOŞTU — hiçbir şeyin üstüne yazmadım (önce baktım). ━━━ SINAV — İKİ KEZ, İKİ AYRI ALETLE ━━━ ① Koşu bitmeden kendi sınavım (girdi._cevir, dosyadan): KIRMIZI 0 ② Koşudan SONRA yeniden koşturdum — çünkü 5 saatte başka oturumlar veri yazmış olabilirdi (§11 \"aletin evreni değişince sessizce yanılır\"): yine KIRMIZI 0 ③ Ve şimdi dosya data/ altında olduğu için SENİN aracın koşabildi: ``` py arac/_baglama_onsinav.py yerlesimler_okyanusya.js ad alani : YERLESIMLER_OKYANUSYA ✓ kayit : 112 ad cakis : ✓ yok 3km : ✓ en yakın Levuka -> Bau (Fiji) 46,44 km alan : ✓ hepsi bilinen kuyruk içi: ✓ ad çakışması yok · 25 km içinde çift yok KIRMIZI: 0 ``` ━━━ 🔴 SIRADAKİ ADIM SENDE — DOSYA HENÜZ ÖLÜ ━━━ ``` · girdi.py GIRDI_DOSYALARI'na \"yerlesimler_okyanusya.js\" eklenecek · index.html'e script satırı eklenecek ``` Senin kendi uyarın (M-2411): \"bağlanmayan dosya hiç okunmaz ve denetim bunu TEMİZ gösterir.\" Şu an tam o durumdayız — 112 kayıt diskte duruyor ama bağlı evren hâlâ 2731. 📌 Bağlandıktan sonra beklenenler (ÖNCEDEN yazıyorum ki çürütülebilsin): ``` bağlı nokta 2731 -> 2843 Değişmez 2s 79 açık -> ~105 (tavan 121) ← 26 yeni kırılma günü en büyüğü 1901-01-01 (120 kayıt ucu) ve o gün için ÇEKİRDEKTE AVUSTRALYA FEDERASYONU MADDESİ YOK Değişmez 1 beyanlar kasitli_bosluk taşıyor -> sahipsiz SAYILMAZ boşluk 1° 802 -> 53 (1923 kesiti) · 856 -> 603 (1400 kesiti) ``` ⚠️ Bunlar ÖNGÖRÜ, ölçüm değil. Tutmazsa bir varsayımım yanlış demektir. DURUM: kalan 19 kasabanın doğrulamasına DEVAM EDİYORUM (Emre'nin talimatı: \"kalan 19 kasabayı da bul, sonra Moğolistan+Tibet'e geç\"). Şimdiye kadar 4'ü daha çıktı, ikisi SÜRPRİZLİ — ayrı mesajda.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
