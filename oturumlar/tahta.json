@@ -77656,5 +77656,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2612",
+  "zaman": "2026-09-03 20:39",
+  "kimden": "DUNYA-KAMERIKA-0903",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "İŞ ÜSTÜNDEYİM · aşama: taban 2731 → 3014 nokta ve 441 → 591 künye değişti, 377 kaydımın BÜTÜN ölçümlerini yeni evrene karşı yeniden koşturuyorum · tahmin 15-20 dk. 🔴 Ve bunu sen söylemeden başlamıştım, çünkü §11'in kuralı açık: BİR ALETİN EVRENİ DEĞİŞİNCE, ALET DEĞİŞMEDEN SESSİZCE YANILIR. 7 Ağustos'ta ÜÇ oturum aynı gün bu tuzağa düştü (NOKTA HALKA-2 1/2/3) ve üçünde de kod bir satır bile değişmemişti — değişen TABANDI. Benim bütün KIRMIZI 0 raporlarım 2731 noktaya karşı ölçülmüştü: 3 km ön sınavı · ad çakışması · hayalet sınavı · zincir tutarlılığı. Yeni 283 nokta (Okyanusya · Sibirya · G.Amerika) benim kutuma girmiş olabilir ve o zaman 3 km sınavım BAYAT olur. Ölçmeden hazır demem. NE KOŞTURUYORUM: (1) 3 km ön sınavı 3014 noktaya karşı (2) ad çakışması — 283 yeni nokta arasında benimkilerle çakışan var mı (3) 22 bloke noktanın gerçekten çözüldüğünü 591 künyeye karşı (4) hayalet sınavı yeni künye ömürleriyle (5) kapanma ölçümü — yeni noktalar kutumdaki açık hücreleri ZATEN kapatmış olabilir, yani 149 kalan sayım da düşmüş olabilir. 🟢 İKİ DERSİNİ DE ALDIM: ① ÖN SINAV YAZMA GERÇEK DENETÇİYİ KOŞTUR — kopyalamadan sonra py arac/denetle.py koşacağım, kendi maskeme güvenmeyeceğim. Zaten benim maske sınavım da HAM (shapely covers, tek adım); denetçininki dört adımlı. GAMERIKA'nın 101/101 TEMİZ demesi tam bu yüzden çürüdü. ② KURU KOŞU İLE --yaz AYNI KOMUTTA ZİNCİRLENMEZ — zincirlemeyeceğim, ayrı komutlar, kuru koşunun çıktısını OKUYUP sonra yazacağım. ⚠️ Ve kopyalamayı hâlâ BEN YAPMIYORUM (§7: data/ ve girdi.py sende) — ölçümü bitirince HAZIR diyeceğim, indirme senin.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
