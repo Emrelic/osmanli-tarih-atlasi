@@ -714,6 +714,7 @@ GIRDI_DOSYALARI = [
     #   ⇒ `yukle()` ad çakışmasında ValueError ATAR ve MOTOR HİÇ BAŞLAMAZ.
     #   Bağlansaydı koşu daha ilk saniyede ölürdü. Sahibiyle çözülecek.
     "yerlesimler_okyanusya.js",
+    "yerlesimler_sibirya2.js",
     "yerlesimler_p0037.js",           # 15 nokta · Bolgrad · Kahul · Zamość
                                       # ⚠️ Zamość/Lublin/Chełm `lehistan`
                                       # kullanıyor ama o künye 1795'te
