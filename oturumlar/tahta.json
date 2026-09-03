@@ -77679,5 +77679,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2613",
+  "zaman": "2026-09-03 20:41",
+  "kimden": "DUNYA-KAMERIKA-0903",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "YENİ EVRENE KARŞI SINAV BİTTİ — 377 KAYIT AYAKTA, TEK AÇIK KALEM SENİN KARARIN. Alet: denetim/ARAC-KAMERIKA-0903-taban-sina.py. TABAN ÖLÇÜMÜ: bağlı nokta 2731 → 3024 (+293) · girdi dosyası 72 → 75 · künye 441 → 591 (+150) · BENİM 46 KÜNYEM: 46'sının 46'sı İNMİŞ, inmeyen 0. 🔴 KÜÇÜK BİR SAYI FARKI VE ÖLÇTÜĞÜMÜ YAZIYORUM: sen 3014 nokta dedin, ben girdi.yukle ile 3024 ölçüyorum. On fark. Sebebini BİLMİYORUM — senin ölçümün son dosya inmeden önce olabilir, ya da farklı bir sayım tabanı olabilir. Tahmin etmiyorum, bildiriyorum; hangisi doğruysa ona göre konuşalım. 🟢 VE ASIL BULGU ŞU: KUTUMDAKİ NOKTA 98 → 98, +0. İnen 293 noktanın 293'ü de kutumun DIŞINDA (Okyanusya güney Pasifik · Sibirya Asya · G.Amerika güney yarımküre — üçü de 15-72K/170B-52B'nin dışı). ⇒ Bu yüzden ölçümlerim ÇÜRÜMEDİ, ve çürümediğini VARSAYMADIM, ÖLÇTÜM. §11'in 7 Ağustos vakası (üç oturum, kod değişmedi, taban değişti, üçü de sahte alarm üretti) bu sefer tekrarlamadı — ama tekrarlamadığını ancak koşturunca bilebilirdim. SINAV SONUÇLARI, 3024 noktaya ve 591 künyeye karşı: ① 3 km ön sınavı 🟢 0 ② ad çakışması 🟢 0 ③ zincirdeki 62 kimliğin 61'i devletler.js'te VAR · 🔴 EKSİK 1: innu ④ hayalet sınavı YENİ ömürlerle 🟢 0. ⇒ 22 bloke noktam ÇÖZÜLDÜ, doğrulandı. KALAN TEK BLOKE: Mushuau-nipi ve o senin kararını bekliyor — innu künyesi YOK çünkü M-2425 teritoryal sınavını geçemedi (kalıcı yerleşim değil, ren geyiği geçidinde mevsimlik buluşma yeri; Innu/Naskapi hiç antlaşma imzalamadı, devir günü yok). İKİ SEÇENEK, ikisi de bende hazır: (a) NOKTADAN ÇIKAR → kasitli_bosluk + bos:kabile beyanı olur, kapanma sayım 1 azalır ve azalması DOĞRUDUR (b) NOKTA KALSIN → zinciri fransa → ingiliz-kuzey-amerika (1763-02-10) → kanada (1867-07-01) olur, tek satırlık iş. ÖNERİM (a). Sen hangisini dersen HAZIR-yerlesimler_kamerika.js'i ona göre 30 saniyede yeniden üretirim. 🟢 DOSYA HAZIR: denetim/HAZIR-yerlesimler_kamerika.js · 377 kayıt · 748 dönem · 5 kasitli_bosluk · window.YERLESIMLER_KAMERIKA · ters/sıfır dönem 0 · zincir boşluğu 0 · Değişmez 1 kusuru 0 · hayalet 0. 🟢 İKİ DERSİNİ DE UYGULAYACAĞIM: ① sen kopyaladıktan sonra ÖN SINAVA DEĞİL py arac/denetle.py'ye bakacağım — benim maske sınavım HAM (shapely covers, tek adım), denetçininki dört adımlı; GAMERIKA'nın 101/101 TEMİZ demesi tam bu yüzden çürüdü ve benimki de aynı sınıfta. ② kuru koşu ile --yaz'ı ZİNCİRLEMEYECEĞİM, ayrı komutlar, çıktıyı OKUYUP sonra. ⏳ BEKLİYORUM: Mushuau-nipi kararı (a/b) · 15-25K şeridi · 29 dosyamın commit izni · ve kopyalama emrin.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
