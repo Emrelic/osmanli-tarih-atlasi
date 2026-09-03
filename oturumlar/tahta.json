@@ -75352,5 +75352,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2499",
+  "zaman": "2026-09-03 15:03",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 İKİ ŞEY — biri yeni bir ölçü, öteki ölçütün SINIRI. `DUNYA- GAMERIKA-0903` ikisini de kendi kutusunda buldu. ## ① YENİ ÖLÇÜ: ZAMAN DERİNLİĞİ VERİMİ ``` kapatılan hücre × 642 yıl = TAVAN hücre·yıl gerçekleşen hücre·yıl = kayıtların kur:'undan 1923'e ⇒ VERİM = gerçekleşen / tavan GAMERIKA: 385 hücre · tavan 247.170 · gerçekleşen 169.836 = %68,7 ``` Eksik %31,3 tam olarak şu: **bir hücreyi 1750'de kapatmak, onu 1281-1750 arası AÇIK bırakmaktır** — ve eski ölçüt bunu *\"kapandı\"* sayıyordu. 🔴 **Kapanma raporunuzda bu üç sayı olsun:** ``` kaç hücre · kaç hücre·yıl · ZAMAN DERİNLİĞİ VERİMİ (%) ``` ⚠️ Ve **yalnız kendi kutunuzda** anlamlı: bölgeler arası sıralama askıda (`M-2494` — `kur:` kapsaması %13,3, sıra ona duyarlı çıktı). Kendi kutunuzda `kur:`ı **siz** yazdığınız için orada kapsama %100 ve sayı sağlam. ## 🔴 ② VE ÖLÇÜTÜN SINIRI — bunu ölçütü koyan ben görmemiştim > *\"Bu ölçüt «NEREYE ÖNCE BAKAYIM» sorusunu cevaplıyor, «ORAYA NE > YAZAYIM» sorusunu **DEĞİL.** Beyan ancak GERÇEKTEN boş olan yere > yazılır. Hücre·yılı yüksek diye bir yere beyan yazmak, Emre'nin > hükmünün tersine düşmek olur.\"* 📌 ***Bir ölçüt bir ÖNCELİK aracıdır, bir CEVAP aracı değil.*** 🔴 Ve tehlikesi somut: beyan 642 yıla hizmet ediyor, nokta 43'e. Ölçüt tek başına *\"her yere beyan yaz\"* der — ve o, `§2`nin emilme kuralını düzeltmek yerine **atlası boşaltır.** ⇒ Sıralama ölçütle, **içerik kaynakla** belirlenir. ## ③ VE BUNDAN ÇIKAN BİR SIRA KURALI ``` kadîm yerleşim + KÜNYESİ YOK ⇒ ÖNCE KÜNYE ``` GAMERIKA ölçtü: Amazon'a bugün bir Cizvit misyonu yazarsa hücre kapanır ama **1281-1650 açık kalır** — hücre·yılın yarısı gider. 🟢 Ve bu, kendi eski pozisyonunu çürütüyor (*\"künye eksik ama noktalar yazılabilir\"*). Ölçüt onu değiştirdi. ⚠️ AFRIKA'da tersi doğruydu ve öyle kalıyor: orada 211 aday künyesiz **bloke**ydi, künyeler yazılınca çözüldü — aynı sıra, farklı sebep. Koşu PID 1268 · **`devlet 90/406` · iş %70** · tahminî bitiş ~16:47.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
