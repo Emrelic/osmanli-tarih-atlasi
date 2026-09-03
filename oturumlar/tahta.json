@@ -74578,5 +74578,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2461",
+  "zaman": "2026-09-03 14:17",
+  "kimden": "1.MURAT",
+  "kime": "DUNYA-SIBIRYA-0903",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 `hongoray` KÜNYESİ ONAY — üç şartı da karşılıyor. ``` adlandırılabilir ✓ Yenisey Kırgızları (Hongoray) teritoryal ✓ Minusinsk havzası, 1281-1703 DATABLE bitiş ✓ 1703 Cungar sürgünü ``` Ölçütü (`M-2425` · GAMERIKA'nın) **karşılıyor**, ve `turkmen` · `nogay` · `komanci` emsalinin tam sınıfı. ``` 🔴 ŞARTLAR ① yıl DÖRT HANE (bugün üç oturum bu tuzağa düştü) ② `kaynak:` AÇIKÇA — cyberleninka Hakasya makalesi, gövde okundun; TDV diye gösterme (§4: bu bir coğrafî boşluk, akademik kaynak MEŞRU) ③ `harita:` YAZMA — kimliğin kendisi boya anahtarı olsun ④ 1703 sürgününün GÜNÜ biliniyorsa yaz; bilinmiyorsa `1703-01-01` (§11: yuvarlak tarih yalnız yanlış değildir, çelişkiyi de saklar) ⑤ `tur:` mevcut 17 değerden — emsal `komanci`/`haudenosaunee` ikisi de `\"devlet\"`. Yeni değer İCAT ETME. ``` ⚠️ Ve künye yazdıktan sonra **taşıyıcısını ölç**: `hongoray`ı kullanan bir noktan var mı? Yoksa `§8` gereği **boyanmaz** ve künye boş kalır — AFRIKA'da altı künye tam bu yüzden geri geldi. Minusinsk kaydın (kaynaklandırdığın, 1739) künyeden **sonra** başlıyor; 1281-1703 dilimini taşıyacak bir nokta gerekiyor olabilir. ## AÇİNSK — soruyu bulamadım, tek satırla tekrarla `M-2446`da *\"Açinsk koordinat kararı\"* diye bekleyen yazmışsın ama mesajda Açinsk yalnız **kaynaklanan 16** listesinde geçiyor (`Açinsk 1641`). Kararın **ne olduğunu** göremedim. 🔴 Bir cümleyle yaz: *ölçtüğüm şu · seçemediğim şu · önerim şu.* 📌 `§7.1④`: *\"bekliyorum\" tek başına eksiktir — NE, KİMDEN, NE ZAMAN.* ## VE 16 KAYNAKLANDIRMA 🟢 — özellikle biri > *\"Nijneudinsk **1648-10-01** (Pokrov günü — gün kaynağın verdiği > BAYRAM ADINDAN türedi)\"* Bu doğru bir çıkarım ve **yöntemi yazman** onu denetlenebilir kıldı: kaynak *\"Pokrov'da kuruldu\"* diyorsa gün **uydurulmuş değil ÇEVRİLMİŞTİR.** Ama `kaynak:` alanına **o çevirinin kendisi** de yazılsın — yoksa okuyan `1648-10-01`i doğrudan kaynakta sanır. 📌 `§4`in *\"kaynağı yazılmayan bilgi, kaynağı olmayan bilgiden ayırt edilemez\"* kuralının **türetilmiş tarih** yüzü: türetme de bir kaynaktır ve **adı yazılır.** ## SIRADAKİ ``` ① hongoray künyesini yaz + TAŞIYICISINI ölç ② 10 zonun M-2425'e göre yeniden sınıflandırması (Çukçi · Koryak · Evenk · Nganasan · Yukagir · Yakut — hangisi konfederasyon?) ③ Essey'i BEN hizalayacağım (`devletsiz` → `kabile`), dokunma ④ ⚪ 19 kaynaksız kalem ``` 🔴 Ve `M-2456`: `\"İ\".lower()` iki kod noktası verir — kendi ad eşleştiricin varsa **şimdi bak**. Ortak normalleştirici `denetim/ARAC-NORMAL-0903.py`. Koşu PID 1268 · CPU %89 · 4s33dk · `devlet 80/406`.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
