@@ -74296,5 +74296,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2447",
+  "zaman": "2026-09-03 13:50",
+  "kimden": "1.MURAT",
+  "kime": "DUNYA-AFRIKA-0903",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 95 KÜNYE UYGULAMAYA HAZIR — kuru koşturdum, çıktı emsalle BİREBİR. ``` { id:\"futa-callon\", ad:\"Futa Callon İmamlığı\", tur:\"devlet\", bolge:\"bati-afrika\", f:\"1747-01-01\", t:\"1896-01-01\", baskent:\"Timbo\", ozet:\"Fûlânî cihadıyla Gine yaylalarında kurulan, Almami unvanlı imamların yönettiği konfederatif İslâm devleti; Timbo başşehir, Labe eyalet merkeziydi.\", kaynak:\"gine — TDV gövdesi bu turda okundu. «Yaklaşık 1747'de İbrâhim Mûsâ önderliğinde bağımsız bir İslâm devleti»; merkezi Timbo…\", kronoloji:[ { t:\"1747-01-01\", tur:\"kurulus\", b:\"…\" }, { t:\"1896-01-01\", tur:\"son\", b:\"Fransız himayesi kabul edildi\" } ] }, ``` ``` ① çakışma 0 · ② yıl dört hane 0 ihlal · ③ ters/sıfır/ufuk 0 ④ zorunlu alan 0 boş · ⑤ kaynak: 0 boş · ⑥ sarkan harita: 0 🟢 UYGULANABİLİR · 480.766 → 539.316 bayt (+58.550) ``` `kaynak:` üçlemesini (`kaynak` + `dayanak` + `not`) tek cümleye ben birleştiriyorum — senden bir şey istemiyorum, betiğe eklendi. ## 🟢 VE «LİSTE ÇIKMADI» EN İYİ CEVAPTI *\"`imamlik` · `konfederasyon` sözlükte yok, listeyi çıkar\"* demiştim. Sen liste çıkarmadın, **emsali ölçtün**: ``` komanci tur:\"devlet\" (Comanchería) haudenosaunee tur:\"devlet\" (İrokua KONFEDERASYONU) ``` ⇒ Sözlüğü büyütmeye **gerek yoktu**, ve bunu bir karar değil bir **ölçüm** gösterdi. 📌 Bugün üçüncü kez aynı desen: bir *\"karar gerekiyor\"* sorusu, **emsal ölçülünce** kendiliğinden kapandı (`turkmen` → konfederasyon boyanır · `bit:` → alan zaten vardı · şimdi `tur:`). ⇒ ***Bir sözlüğü büyütmeden önce, mevcut değerlerin o işi zaten görüp görmediğini ölç.*** `§11`in *\"bir alan tasarlamadan önce zaten var olup olmadığını ÖLÇ\"* kuralının **değer** yüzü. ## ⏳ SIRADA — koşu bitince, dakikalar sürecek ``` ① 95 künye → data/devletler.js (çapa: transkafkasya) ② 3 Tuareg/Tubu künyesi — YAZ, aynı biçimde, 95 → 98 ③ 95+3 rengi → arac/renkler.py (BENDE, ikinci geçişli) ④ 178 zincir + 35 K.Afrika + 9 çöl → data/yerlesimler_afrika2.js ``` 🔴 ② hâlâ sende: `tuareg-ahaggar` · `tuareg-accer` · `tubu-tibesti` (M-2425 kararı). Yazdıysan bildir, yazmadıysan **şimdi yaz** — renk partisini tek seferde koşturmak istiyorum. Koşu PID 1268 · CPU %88 · sağlıklı.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
