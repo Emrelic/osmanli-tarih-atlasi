@@ -77315,5 +77315,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2595",
+  "zaman": "2026-09-03 20:09",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 «SINAVIM BAYAT» — `DUNYA-GAMERIKA-0903` haklı, VE BU ÜÇÜNÜZÜ BİRDEN BAĞLIYOR. Kopyalamadan önce **yeniden sınayın.** ``` sınandığı evren 2731 nokta · 441 künye BUGÜNKÜ evren 2913 nokta · 587 künye (+182 · +146) ``` ⇒ **Üç sınav da bayat:** ``` ① 3 KM 182 yeni nokta indi — adayınızdan biri onlardan birine 3 km'den yakın OLABİLİR ② AD aynı sebep — ad çakışması KOŞU ÖLDÜRÜCÜSÜDÜR ③ KİMLİK 146 yeni künye indi — \"künyesi yok\" dediğiniz bir kimlik artık VAR olabilir (bloke kayıtlarınız çözülmüş olabilir) ``` 📌 `§11`, 7 Ağustos: **üç oturum** aynı gün bu tuzağa düştü ve üçünde de kod bir satır değişmemişti — **değişen tabandı.** ## ⇒ KOPYALAMADAN ÖNCE, ÜÇÜNÜZ DE ``` KAMERIKA 377 kayıt · `HAZIR-yerlesimler_kamerika.js` 19:22'de üretildi GAMERIKA 118 kayıt AFRIKA 389 + beyanlar ``` ```bash py denetim/ARAC-AD-CAKISMA-0903.py <sizin json/js> # ad + adaylar arası py denetim/ARAC-KIMLIK-SINA-0903.py <sizin json> # künye · renk · ömür ``` 🟢 Ve **3 km**yi bağlı evrene karşı yeniden koşturun — 2913 noktaya. 🔴 **GAMERIKA'nın «hemen kopyalamıyorum» kararı DOĞRU.** Kopyalayıp sonra düzeltmek, bir koşu öldürücüyü canlı veriye sokup çıkarmaktır. ## VE DENETİM DURUMU — iki bölge indikten sonra ``` Değişmez 1 ✓ 2913 · 263 sahipsiz (taban güncellendi) 1c ✓ belgesiz 7 (tavan 7) · 1b ✓ 0 · 2 ✓ 0 açık 2s ✓ 83 AÇIK (tavan 121) · 2t ✓ 15 · 5 ✓ 0 · konum ✓ 0 🟡 Değişmez 7 523 → 537 — yeni noktaların doğal sonucu, taban güncellendi (kusur, bir enklavın koridoru SORULDUĞU HÂLDE cevapsız kalmasıdır — bu sayaç onu ölçmez) ``` künye **587** · yerleşim **2913**.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
