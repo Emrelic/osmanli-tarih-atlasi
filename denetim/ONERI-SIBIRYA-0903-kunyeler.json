@@ -1,0 +1,96 @@
+{
+ "_NOT": "DUNYA-SIBIRYA-0903 · künye reçetesi. `data/devletler.js` AFRIKA oturumunda — bu dosya ONA verilir. Her künye KADEMESİYLE birlikte; 🟡 olanlar ÖNERİ DEĞİL ARAŞTIRMA KALEMİDİR ve yazılmamalıdır.",
+ "_olcut": "M-2414③ / M-2425 — adlandırılabilir + TERİTORYAL siyasî yapı + DATABLE bitiş",
+ "_kademe": {
+  "A": "hakemli akademik kaynak, gövde OKUNDU — yazılabilir",
+  "B": "ansiklopedik/bölgesel kaynak — yazılmadan önce hakemli kaynak aranmalı",
+  "C": "kaynak bulunamadı — YAZILMAZ"
+ },
+
+ "YAZILABILIR": [
+  {
+   "id": "hongoray",
+   "ad": "Hongoray (Yenisey Kırgızları)",
+   "tur": "devlet",
+   "tur_gerekce": "emsal `komanci` ve `haudenosaunee` — ikisi de `devlet`; yeni değer İCAT EDİLMEDİ (M-2461 ⑤)",
+   "bolge": "orta-asya",
+   "f": "1281-01-01",
+   "f_uyari": "🔴 ATLAS UFKU — kuruluş DEĞİL. Kırgız varlığı Kırgız Kağanlığı'na uzanır. `kronoloji`ye «kuruluş» maddesi YAZILMAMALI.",
+   "t": "1703-01-01",
+   "t_uyari": "kaynak «ЛЕТОМ 1703 г.» (1703 YAZI) diyor; gün yok ⇒ §4 gereği YYYY-01-01",
+   "baskent": null,
+   "baskent_uyari": "BAŞKENT YOK — dört beylik ulusu: Altısar · İsar (Ezer) · Altır · Tuba, her birinin kendi Kırgız alt-etnik çekirdeği",
+   "harita": "YAZILMAYACAK — kimliğin kendisi boya anahtarı (M-2461 ③)",
+   "ozet": "Hakas-Minusinsk havzasında dört beylik ulusundan kurulu Yenisey Kırgız birliği. 1703 yazında Cungar hanı Tsevang Rabdan nüfusun büyük kısmını (15-20 bin kişi) Cungarya'ya sürdü ve birliği bağımsız siyasî yapı olarak ortadan kaldırdı; sebep Rus baskısı değil Ç'ing askerî tehdidiydi. Boşalan havzaya 1707 Abakan ve 1709 Sayan ostroglarıyla Rusya girdi.",
+   "kaynak": "Чертиков М.А., «Этнополитическая ситуация на территории Хонгорая XVII – начале XVIII в.», Вестник Томского гос. университета, 2009 (cyberleninka, gövde okundu) + «О результатах исследования архитектурно-пространственного развития городов Хакасии» (cyberleninka)",
+   "kademe": "A",
+   "ONAY": "🟢 M-2461 — koordinatör onayladı, beş şartla; beşi de karşılandı",
+   "TASIYICI": "Hongoray (Yenisey Kırgız ulusları) · tur:bolge · 53,90/90,60 — ön sınavlar TEMİZ, `data/yerlesimler_sibirya2.js`te BEKLET kovasında, künye yazılınca inecek",
+   "kronoloji": [
+    {"t": "1703-01-01", "b": "Cungar hanı Tsevang Rabdan Hongoray nüfusunun büyük kısmını (15-20 bin kişi) Cungarya'ya sürdü; sürgün Hongoray'ı bağımsız siyasî yapı olarak ortadan kaldırdı"},
+    {"t": "1707-01-01", "b": "Abakan ostrogu kuruldu; Hakas beyleri surları dibinde Rus tâbiiyeti yemini etti"},
+    {"t": "1709-01-01", "b": "Sayan ostrogu kuruldu — Hakasya'nın Rusya'ya katılma tarihi 1707 ya da 1709 sayılabilir"}
+   ]
+  },
+  {
+   "id": "pegaya-orda",
+   "ad": "Pegaya Orda (Alaca Orda)",
+   "tur": "devlet",
+   "tur_gerekce": "aynı emsal; kaynak «военно-политическое объединение» (askerî-siyasî birlik) diyor",
+   "bolge": "orta-asya",
+   "f": "1281-01-01",
+   "f_uyari": "🔴 ATLAS UFKU. Rus belgelerinde 1592-1598 arası anılıyor (Chindina); ondan öncesi için kaynak SUSUYOR — «kuruluş» maddesi YAZILMAMALI.",
+   "t": "1597-01-01",
+   "t_gerekce": "Solodkin: 1597 ilkbahar/yazında İvan Kolemin seferi Yukarı Narım'ı ALDI ve yanına ostrog kurdu; «Пегая орда … потеряла независимость на рубеже XVI-XVII вв.» ⇒ TASARRUF değişimi 1597. Gün YOK ⇒ YYYY-01-01.",
+   "baskent": "Yukarı Narım (Верхний Нарым) — Knez Vonya'nın karargâhı",
+   "harita": "YAZILMAYACAK",
+   "ozet": "Orta Ob Selkuplarının askerî-siyasî birliği; toprağı Ket'ten Vasyugan'a, Vah · Tım · Parabel havzalarını kapsıyordu — «вдоль Оби от Бардакова княжества (Сургут) до Нарыма». Knez Vonya haraç ödemeyi reddetti («я с себя и со своих людей ясака не даю») ve 400 kişilik kuvvet komuta etti. 1597'de Yukarı Narım alındı; 1610'da resmen Narım volostuna dönüştü.",
+   "kaynak": "Солодкин Я.Г., «Как Пегая Орда превратилась в Нарымскую волость», Новогардия, 2019 + Чиндина Л.А., «Пегая Орда — Большого Лося сильный народ», Вестник ТГУ. История, 2013 (ikisinin de gövdesi okundu)",
+   "kademe": "A",
+   "TASIYICI": "iki `tur:bolge` noktası ölçüldü — 60,00/83,00 ve 59,50/77,00; ön sınavlar temiz, künye yazılınca yazılacak",
+   "OLCULEMEDI": "Vonya'nın âkıbeti: Solodkin 1597'de ölmemiş, Moskova'ya boyun eğmiş OLABİLİR diyor (oğulları Segey ve Taybohta XVII. yy başına kadar nominal imtiyaz taşımış). İHTİMAL, kesin değil.",
+   "kronoloji": [
+    {"t": "1594-01-01", "b": "Surgut kuruldu; Knez Vonya haraç ödemeyi reddetti ve Küçüm Han'la Surgut'a karşı ortak sefer için görüştü"},
+    {"t": "1597-01-01", "b": "İvan Kolemin seferi Yukarı Narım'ı aldı; sonbaharda Narım ostrogu kuruldu — Pegaya Orda bağımsızlığını kaybetti"},
+    {"t": "1610-01-01", "b": "Pegaya Orda resmen Narım volostuna dönüştü"}
+   ]
+  }
+ ],
+
+ "ARASTIRMA_KALEMI_YAZILMAZ": [
+  {
+   "id_onerisi": "koda",
+   "ad": "Kodskoye knyazhestvo (Koda)",
+   "kademe": "B",
+   "🔴 NICIN_YAZILMAZ": "HAKEMLİ KAYNAK YOK. Eldeki bilgi ansiklopedik/bölgesel (knowledge.su · BSE · AiF-Yugra). Konunun hakemli kaynağı (Перевалова Е.В. 2000, Обдорские князья Тайшины) yamalarchaeology.ru üzerinden DNS ile ERİŞİLEMEDİ.",
+   "eldeki_veri": {
+    "halk": "Hantı", "toprak": "aşağı Ob",
+    "merkez": "Kodsk gorodoku / Nangakar (Nyagan koluna bakan); Koda toprağının merkezinde Alaçev kasabası",
+    "1484": "Koda kendini Rus devletinin vassalı kabul etti ve haraç yükümlülüğü aldı",
+    "1583": "Yermak'ın Kazaklarıyla Knez Alaç arasında ittifak",
+    "1590'lar": "Koda Ostyakları Pelım-Konda knezliğinin fethine katıldı; Obdorsk ve Bardak knezliklerine seferler",
+    "XVII. yy": "muhtariyet kaldırıldı, öteki volostlarla eşitlendi — 🔴 KESİN YIL BULUNAMADI"
+   },
+   "olcut_durumu": "adlandırılabilir ✓ · teritoryal ✓ · DATABLE bitiş 🔴 (yıl yok)"
+  },
+  {
+   "id_onerisi": "obdorsk-knezligi",
+   "kademe": "C",
+   "🔴 NICIN_YAZILMAZ": "Merkezi Pulnovat-Vaş'ın yeri ÖLÇÜLMEDİ; bitiş tarihi YOK. Obdorsk knezleri (Taişinler) hakkındaki hakemli kaynak erişilemedi.",
+   "not": "Atlasta `Obdorsk (Salehard)` NOKTASI var (kur:1595) ama o RUS ostrogudur — knezlik künyesi ayrı şeydir"
+  },
+  {
+   "id_onerisi": "Kunovat · Lyapin · Kazım · Belogorye · Pelım · Konda · Nimyan · Boyar · Bardak knezlikleri",
+   "kademe": "C",
+   "🔴 NICIN_YAZILMAZ": "Adları bir kaynak listesinde GEÇİYOR, ama hiçbiri için toprak · merkez · bitiş tarihi ölçülmedi. Dokuzu da AÇIK ARAŞTIRMA KALEMİ."
+  }
+ ],
+
+ "OLCULEN_BOSLUK": {
+  "_yontem": "data/devletler.js · 587 künye · id taraması (koordinatör M-2576'da doğruladı)",
+  "YOK": ["pegaya", "alaca", "selkup", "obdorsk", "kod", "emder", "yugra", "hongoray"],
+  "HUKUM": "Ugor ve Selkup siyasî yapı katmanı atlasta HİÇ YOK. Batı Sibirya'nın 1281-1600 arası yalnız `altinorda` ve `sibir-hanligi` ile ifade edilebiliyor."
+ },
+
+ "UYARI_TASIYICI": "🔴 Bir künye yazıldıktan sonra TAŞIYICISI ölçülmelidir: onu kullanan bir nokta yoksa §8 gereği BOYANMAZ ve künye boş kalır. `hongoray` ve `pegaya-orda` için taşıyıcılar HAZIR ve `data/yerlesimler_sibirya2.js`in BEKLET kovasında bekliyor."
+}
