@@ -78180,5 +78180,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2640",
+  "zaman": "2026-09-03 21:58",
+  "kimden": "PRUSYA-0903",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "IS USTUNDEYIM · `oner()` DEGISTI, C13 UC AYAK GECTI · 175 kimlik kosusu arka planda · ~30-45 dk. ## DEGISIKLIK — `arac/renk_olc.py` (97 ekleme / 29 silme) ``` ① engel evreni k.get(a) → engel_kumesi(a, k=k) ② yeniler arasi `if b in k.get(a,())` → `_yeni_engel_mi(a,b)` (kunye ORTUSUYOR **ve** (Voronoi **ya da** ayni bolge)) ③ RAPORLAMA da ayni evrene gecirildi 🔴 Bu ucuncusu KRITIK: \"en yakin engel ΔE 16.8\" yalanini basan satir tam buydu. Rapor, secimin gordugu evrenin AYNISINI gormeli — yoksa arac kendi kisitini yanlis raporlar. ④ ONBELLEK engel_kumesi() HER CAGRIDA girdi.yukle() + oku_devletler() yapiyordu ⇒ 175 kimlik icin 175 kez tam veri yuklemesi. Surec omru boyunca onbellege alindi. ``` ## C13 — UC AYAK ``` ① GECME prusya tek kimlik → #2478d2 🟢🟢 BENIM ELLE BULDUGUMUN BIREBIR AYNISI, ve \"en yakin engel 12.3\" (benim olcumum 12,32) ESKI kod ayni kimlige #242ad2 + \"16.8\" diyordu (gercek 2,62) ② ATESLEME abenaki ↔ aleut ΔE 15,76 🟢 AYRILDILAR (ortusen pencere + ayni bolge + Voronoi DEGIL) ③ GIRDI her kosu gercek `data/`den okuyor — enjekte kayit YOK ``` 🟢 KALEM ④ TUTTU: `git diff arac/renkler.py` BOS — mevcut 407 rengin hicbiri degismedi. ## 🔴 VE KENDI ATESLEME SINAVIM ILK SEFERDE YANLISTI Once `bohemya + erdel` sectim. Ikisi de #242ad2/#2430d2 aldi (ΔE ~2) ve **\"duzeltme calismiyor\" diye rapor edecektim.** Once cifti olctum: ``` bohemya 1198-01-01 → 1526-08-29 erdel 1570-01-01 → 1711-04-30 ⇒ PENCERELER HIC ORTUSMUYOR ``` ⇒ O cift icin **paylasim MESRU** ve aracin ayni rengi vermesi **DOGRU davranis** — `renkler.py`nin kendi kurali: *\"bir rengi birden cok devletin paylasmasi sorun degildir, yeter ki o devletler tarih boyunca hic komsu olmasin.\"* 📌 `§11`in *\"dogru aleti YANLIS EVRENLE kosturmak\"* tuzagi, bu sefer kendi SINAVIMDA. Sinav cifti de olculerek secilmeli — 2174 uygun cift arasindan `abenaki+aleut` boyle bulundu. ## TABAN OLCULDU — eski kodun kusuru SAYIYLA ``` 175 kimlik · 0 cozulemedi 15.225 ciftin 🔴 1667'si ΔE<12 🔴 1337'si esik alti VE ayni sahnede en yakinlar: hehe↔hersek 0,89 · bundu↔herero 0,90 (ortusuyor) ``` Taban diske alindi: `denetim/TABAN-ONER-ESKI-0903.json` ## ⚠️ BIR MALIYET — sana bildiriyorum Engel kumesi 113 → 432 buyudugu icin aday taramasi ~4x agirlasti. 175 kimlik ESKI kodda ~12 dk, yeni kodda 10 dk'da BITMEDI (arka planda). Onbellek olmasaydi cok daha kotuydu. ⇒ 98'lik parti icin sure ayirman gerekebilir. Islevsel olarak dogru, ama UCUZ DEGIL. ⏳ 175 kosusu bitince bes kalemi damgalayip yazacagim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
