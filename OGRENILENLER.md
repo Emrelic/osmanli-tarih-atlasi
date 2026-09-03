@@ -4070,3 +4070,158 @@ O gün doğan üç kalıcı denetimin üçü de bu desende oldu: oturum **bulguy
 getirdi, koordinatör **aleti** yazdı (`SINIRDA` göl uyarısı ·
 `inline_sozdizimi()` · `kapsam_disi()`). Ve üçü de **yazıldıkları gün**
 kendi yazarlarının bir hatasını yakaladı.
+
+
+---
+
+## §87 — BİR KAPI AÇILDI VE ARKASINDA BEŞ SESSİZ KUSUR ÇIKTI
+*(3 Eylül 2026 · dünya yerleşim programının birinci turu · altı bölge
+oturumu + koordinatör)*
+
+Emre *"bütün dünyanın yerleşimlerini bitirelim"* dedi. Altı bölge oturumu
+açıldı, 1002 aday nokta ve 98 künye önerdiler. Turun asıl ürünü **noktalar
+değil**, noktaları yazmak için kurulması gereken **kapı** oldu — ve kapı
+kurulur kurulmaz, kendisi için kurulmadığı beş kusuru görünür kıldı.
+
+### Kapı: bir nokta ÜÇ şartı geçmeden hücre kapatmaz
+
+`DUNYA-KAMERIKA-0903` 377 aday teslim etti ve **kendi teslimini durdurdu:**
+
+> *"§8: kimliği BOYALAR'da olmayan `s:` BOYANMAZ. Kimliksiz yazılan 377
+> nokta **PETEĞİ ÜRETİR AMA HİÇBİRİNİ BOYAMAZ** — boşluk kapanmış
+> GÖRÜNÜR, harita AYNI KALIR. Bu, kapanma sayısını YALAN yapar."*
+
+```
+① künye VAR MI      data/devletler.js   yoksa → §3.5 HAYALET
+② rengi VAR MI      arac/renkler.py     yoksa → §8 BOYANMAZ
+③ ömür KAPSIYOR MU  künye f/t dönemi içeriyor mu
+```
+🔴 Ve kusur **sessizdir**: petek üretilir, `denetle.py` temiz raporlar,
+harita değişmez. Bu projede en pahalı sınıf.
+
+### ⇒ VE KAPI, KENDİSİ İÇİN KURULMADIĞI BEŞ ŞEYİ BULDU
+
+**① Mevcut veride 1374 dönem künye ömrünün dışında.**
+`DUNYA-SIBIRYA-0903` kapının üçüncü ayağını **kendi kaydına** uyguladı ve
+87,7 yıllık bir taşma buldu (`Buryat toprakları` `s:` 1281'den
+`kuzey-yuan`, künye `f:1368-09-14`). *"Bir tane varsa başkaları da vardır"*
+diye külliyat tarandı: **10 327 dönemin 1374'ü (%13,3), 112 kimlik.**
+⚠️ **Ve sayım bir hüküm değil:** en az üç cins var ve ayrımı **ölçülmedi**
+— çatı kimlik/dar künye (`lehistan` 1569 BİRLİĞİ · `iran` 1925 PEHLEVÎ) ·
+ardıl devam etti (`meysur` 1799 · `maratha` 1818) · gerçek hayalet
+(`singhasari` 51 yıl · `artuklu` 56). Kol **açılmadı** (`ONCELIK.md`),
+taban **1374** olarak kaydedildi.
+
+**② Üç dosya YARIM BAĞLIYMIŞ — ve iki taraf da kendi içinde tutarlıydı.**
+```
+girdi.py GIRDI_DOSYALARI  72 dosya      ← motor
+index.html <script>       69 dosya      ← tarayıcı
+fark: 3 dosya · 68 nokta
+```
+Motor o 68 noktayı okuyup **peteklerini çiziyordu**; tarayıcı dosyaları
+**hiç yüklemiyordu** ⇒ işaret yok, etiket yok, dizin kaydı yok. Ve hiçbir
+denetim ötmüyordu, çünkü **her iki taraf da kendi içinde tutarlıydı.**
+Kusur aynı sabah koordinatörün kendi elinden çıkmıştı.
+
+**③ `"İ".lower()` iki kod noktası verir.**
+`DUNYA-KAMERIKA-0903` 377 adayın **58'ini** sessizce kaçırdıktan sonra
+buldu:
+```
+"İnyupiak".lower()  →  'i' + U+0307   ⇒  "inyupiak" in ... = False
+len("İstanbul") 8 → 9                 ⇒  dizgi UZUYOR
+casefold() DE ÇÖZMEZ
+```
+`CLAUDE.md §4`ün *Türkçe yazım ekseni* dersinin **kod** yüzü: orada
+kaçıran **insan yazımıydı**, burada kaçıran **standart kütüphane.**
+
+**④ Üç haneli yıl — üç oturum aynı gün, bağımsız olarak.**
+`fransa` f=`987-01-01` · `almanya` f=`962-02-02` · `bizans` f=`330-05-11`
+(evren: **17 künye**). Sözlüksel kıyasta `"1659-01-01" < "987-01-01"`
+**TRUE.** AFRIKA 42 sahte ihlal · OKYANUSYA 2 sahte hayalet ·
+koordinatörün kimlik aracı aynısı. Üçü de **gürültülü** bozuldu; `>`
+yerine `>=` gibi **sessiz** bir bozulmada hiçbir şey ötmezdi.
+
+**⑤ Bir alanın %100 dolu olması, onu birinin YAZDIĞI anlamına gelmiyor.**
+Öneri JSON'ları veriyle kıyaslandı ve *"`d · v · g · k · m · tur ·
+_kaynak` EKSİK"* diye bir alarm üretildi. **Yanlıştı:** o alanlar
+`girdi.py:747 VARSAYILAN` ile **yükleyici tarafından** dolduruluyor.
+Gerçekten zorunlu olan **üç** alan: `ad · lat · lon`.
+⚠️ Ama varsayılanın **sessiz tuzağı** var: `tur:` varsayılanı `"sehir"`,
+ve bir bölge kaydında `tur:"bolge"` yazılmazsa `devletsiz-yerlesim`
+türetmesi yanlış çalışır ve **ekleyici kapı toprağı komşuya katar.**
+
+### Kural — dört cümle
+
+```
+① Kapanma ÖLÇÜLÜR, ÇIKARILMAZ.
+   Koordinatör "1138 − 45 aday = 1093" yazdı; GAMERIKA ölçtü:
+   "1138 − 207 = 931", aday başına 4,6 hücre (TAVAN_KM = 200).
+   Ve oran SABİT DEĞİL — seyrek bölgede yüksek, doygunda ~1.
+② Bir REÇETE, uygulanmadan önce KURU KOŞTURULUR.
+   98 künyenin `tur:` ve `ozet:` alanları eksikti ve doğrulayıcı
+   "UYGULANABİLİR" demişti — dizin 98 boş kartla inecekti. Bunu
+   bulan bir denetim değil, uygulamayı önceden kuru koşturmak oldu.
+   Aynı kuru koşu bir KOŞU ÖLDÜRÜCÜ de buldu: "Roma" (Queensland)
+   ile atlastaki Roma, 15 707 km — `girdi.yukle` ValueError atar.
+③ Bir İLKE, savunduğu kararı ÜRETMİYORSA ilke değil, sonradan
+   yazılmış bir GEREKÇEDİR.
+   Koordinatörün sömürge ilkesi ("TEK ve KENDİ KENDİNİ YÖNETEN bir
+   siyasî bütün hâline geldiği ANAYASAL BELGE") Yeni Zelanda için
+   1856'yı üretiyordu, savunduğu 1907'yi DEĞİL. OKYANUSYA çürüttü;
+   karar KALDI, gerekçe DÜZELDİ. Tehlikesi: karar doğru olduğu için
+   kimse ilkeyi sınamaz — ta ki başka bir vakaya uygulanana kadar.
+④ Bir BRİFİNG bir bağlantı değil, açılış anının FOTOĞRAFIDIR.
+   `DUNYA-AFRIKA-0903` şartnamedeki bir borcu ölçüp çürüttü — oysa
+   dosya aynı gün düzeltilmişti. Bayatlamanın YEDİNCİ yüzü, ve
+   ötekilerden farkı: bayatlayan DOSYA değil, oturumun elindeki KOPYA.
+   Dosyayı düzeltmek onu düzeltmiyor.
+```
+
+### Ve dördüncü kova bir titizlik değil, bir EMNİYET VALFİ
+
+`DUNYA-AFRIKA-0903` künyeleri böldü (`tuareg-ifora` → üç ayrı
+konfederasyon) ama **noktaları bölmedi**; eşleştirme haritası bayatladı
+ve **12 künye taşıyıcısız GÖRÜNDÜ.** Oturumun kendi cümlesi:
+
+> *"Kurtaran şey aletin «ÖLÇÜLEMEDİ»yi **ayrı kova olarak BASMASI** oldu
+> — sessizce 0 dese, 12 künye renksiz inecekti."*
+
+📌 Ve teşhisi de kayda değer: *"bir alanı düzeltmek, onu bir kademe daha
+derine gömebilir."* Künye bölünmesi bir **iyileştirmeydi**, ve
+eşleştirmeyi **bozdu.**
+
+### Turun ölçülmüş imzası: sekiz alet kusuru, sekizini de SAHİBİ ihbar etti
+
+```
+AFRIKA     üç haneli yıl (42 sahte) · kendi cümlesini çürüttü
+           ("girdi.py TAM DİZGİ karşılaştırıyor, ValueError ATMAZ")
+OKYANUSYA  üç haneli yıl (2 sahte) · slug deseni tahmin edilemez
+GAMERIKA   alt-dizgi eşleşmesi · kural sırası sonucu değiştiriyor
+           (Gran Chaco 43 ↔ 54) · bir bölge kuralı HİÇ YOKTU (48 hücre
+           sessizce sınıfsız) · ÜÇ UYDURMA TARİH kendi ilk partisinde
+SIBIRYA    16 kaynaklandırma · 3 ad/yer tuzağı, yazılmadan
+KAMERIKA   "İ".lower()  — teslimden ÖNCE ihbar etti
+PRUSYA     kendi "koşu öldürücü" iddiasını ölçüp ÇÜRÜTTÜ
+1.MURAT    kimlik aracında üç haneli yıl · "1138−45" çıkarması ·
+           26 renksiz künye listesinde `v:` alanını hiç ölçmemesi ·
+           index.html yarım bağlama · uydurduğu bir oturum adı
+```
+
+⇒ ***Bu projede en pahalı hatalar, doğru çalıştığı SANILAN aletlerden
+çıktı.*** Onları yakalayan hiçbir zaman bir denetim betiği olmadı —
+hep **kendi çıktısına güvenmeyen** bir oturum oldu.
+
+### Ve bir karar, atlasın kendi emsalinden çıktı
+
+*"Bir aşiret konfederasyonu boyanabilir künye alır mı?"* sorusu bir
+tasarım tartışması olabilirdi. Ölçüldü:
+```
+turkmen   "Türkmen AŞİRET KONFEDERASYONLARI (Yomut·Teke·Salur·Göklen·Eymir)"
+          künye VAR · renk VAR · veride 9 dönem
+nogay 12 dönem · komanci · apaci-ovalar · haudenosaunee · muisca · maratha
+```
+⇒ Atlas bunu **zaten yapıyordu.** Karar verilmedi, **bulundu.**
+📌 Aynı desen o gün **üç kez** tekrarlandı: `bit:` alanı zaten vardı ·
+`tur:` sözlüğü zaten yetiyordu · `devletsiz-yerlesim` zaten türetiliyordu.
+***Bir sözlüğü büyütmeden önce, mevcut değerlerin o işi zaten görüp
+görmediğini ölç.***
