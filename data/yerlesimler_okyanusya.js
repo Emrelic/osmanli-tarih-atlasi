@@ -41,22 +41,22 @@ window.YERLESIMLER_OKYANUSYA = [
   kaynak:"Encyclopaedia Britannica, 'New Caledonia: History' ve 'Nouméa'; ayrıca Journal de la Société des Océanistes, 'Chronologie de Kanaky Nouvelle-Calédonie (1774-2018)' (hakemli): \"on 24 September 1853, France took possession of 'Grande Terre'\"; Noumea 1854'te Port-de-France adıyla kuruldu. ⚠️ `fransa` künyesi 1792'de bittiği için `fransa-cumhuriyet` kullanıldı — `fransa` yazılsaydı HAYALET olurdu.",
   s:[{f:"1854-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
 
-{ ad:"Tulagi", tur:"sehir", lat:-9.1, lon:160.15, g:1, k:1,
+{ ad:"Tulagi", tur:"sehir", lat:-9.0938, lon:160.1497, g:1, k:1,
   kur:"1893-01-01",
   kaynak:"Encyclopaedia Britannica, 'Solomon Islands: History' ve 'Tulagi'; ayrıca Judith Bennett, 'Wealth of the Solomons: a history of trade, plantations and society, Solomon Islands, c.1800-1942' (ANU Open Research): protektora 1893'te ilan edildi, Tulagi 1893'ten itibaren idarî merkezdi.",
   s:[{f:"1893-01-01",t:"1923-10-29",d:"ingiltere"}] },
 
-{ ad:"Gizo", tur:"sehir", lat:-8.1, lon:156.84, g:1, k:1,
+{ ad:"Gizo", tur:"sehir", lat:-8.1014, lon:156.8364, g:1, k:1,
   kur:"1893-01-01",
   kaynak:"Encyclopaedia Britannica, 'Solomon Islands: History' + Bennett (ANU): İngiliz Solomon Adaları Protektorası 1893. ⚠️ Gizo'nun KENDİ kuruluş yılı ayrıca doğrulanamadı; protektora tarihi kullanıldı.",
   s:[{f:"1893-01-01",t:"1923-10-29",d:"ingiltere"}] },
 
-{ ad:"Levuka", tur:"sehir", lat:-17.68, lon:178.84, g:1, k:1,
+{ ad:"Levuka", tur:"sehir", lat:-17.6814, lon:178.8327, g:1, k:1,
   kur:"1874-10-10",
   kaynak:"Atlasın kendi Suva kaydıyla aynı gün (1874-10-10, Fiji'nin devri) — Encyclopaedia Britannica, 'Fiji: History'. Levuka 1874-1882 arası koloninin ilk başkentiydi.",
   s:[{f:"1874-10-10",t:"1923-10-29",d:"ingiltere"}] },
 
-{ ad:"Samarai", tur:"sehir", lat:-10.61, lon:150.66, g:1, k:1,
+{ ad:"Samarai", tur:"sehir", lat:-10.6098, lon:150.6833, g:1, k:1,
   kur:"1884-11-06",
   kaynak:"Encyclopaedia Britannica, 'Samarai': \"Samarai Island was visited in 1873 by the British captain John Moresby and purchased by the London Missionary Society in the 1880s. In 1884 Britain annexed the southeastern part of New Guinea where Samarai is located.\" Zincir atlasın kendi Port Moresby kaydıyla aynı (İngiliz Papua -> 1906-09-01 Avustralya).",
   s:[{f:"1884-11-06",t:"1906-09-01",d:"ingiltere"},{f:"1906-09-01",t:"1923-10-29",d:"avustralya"}] },
@@ -81,7 +81,7 @@ window.YERLESIMLER_OKYANUSYA = [
   kaynak:"Queensland Places, 'Normanton': \"by 1867 a European settlement was established on the site of the future Normanton township\"; \"The town was proclaimed in August 1868 and town allotments were put up for sale.\"",
   s:[{f:"1867-01-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"1923-10-29",d:"avustralya"}] },
 
-{ ad:"Cairns", tur:"sehir", lat:-16.92, lon:145.77, g:1, k:1,
+{ ad:"Cairns", tur:"sehir", lat:-16.9, lon:145.7651, g:1, k:1,
   kur:"1876-01-01",
   kaynak:"Queensland Places, 'Cairns': \"a township was proclaimed at the mouth of Trinity Inlet and named after the Governor of Queensland, Sir William Cairns\" (1876); \"The first land sales came in 1877\".",
   s:[{f:"1876-01-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"1923-10-29",d:"avustralya"}] },
@@ -186,7 +186,7 @@ window.YERLESIMLER_OKYANUSYA = [
   kaynak:"Australian Dictionary of Biography (ANU), 'Charles Rasp': \"On 5 September 1883, Charles Rasp pegged the first block on the 'Broken Hill', which he thought was a mountain of tin\"; Mount Gipps müdürü George McCulloch'un önerisiyle 'syndicate of seven' kuruldu; 1885'te zengin gümüş cevheri Broken Hill Proprietary Co.'nun kurulmasına yol açtı. TAM GÜN kaynakta.",
   s:[{f:"1883-09-05",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"1923-10-29",d:"avustralya"}] },
 
-{ ad:"Darwin (Palmerston)", tur:"sehir", lat:-12.46, lon:130.84, g:1, k:1,
+{ ad:"Darwin (Palmerston)", tur:"sehir", lat:-12.4577, lon:130.8414, g:1, k:1,
   kur:"1869-02-01",
   kaynak:"Library & Archives NT, 'Surveying Darwin 1869': Güney Avustralya Ölçüm Genel Müdürü G. W. Goyder ve 138 kişilik ekibi Şubat-Eylül 1869 arasında dört kasaba yeri dâhil ~270.000 hektar ölçtü; ana kasaba 'Palmerston' adıyla beş haftada ölçüldü. Adı 1911'de Darwin oldu. ⚠️ 1869-1911 arası adı PALMERSTON'dur — atlas 1923'e kadar geldiği için ikisi de kayıtta.",
   s:[{f:"1869-02-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"1923-10-29",d:"avustralya"}] },
@@ -221,10 +221,10 @@ window.YERLESIMLER_OKYANUSYA = [
   kaynak:"State Library of South Australia / SA Memory, 'Port Augusta: evolution of a city': \"On 24 May 1852, Port Augusta was proclaimed after erecting a flagstaff on the beach.\" TAM GÜN kaynakta.",
   s:[{f:"1852-05-24",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"1923-10-29",d:"avustralya"}] },
 
-{ ad:"Ceduna", tur:"sehir", lat:-32.13, lon:133.67, g:1, k:1,
+{ ad:"Ceduna", tur:"sehir", lat:-32.1347, lon:133.6739, g:1, k:1,
   kur:"1901-06-20",
   kaynak:"State Library of South Australia / SA Memory, 'Developing Trade and Port Histories: Outports - Ceduna/Thevenard': kasaba Haziran 1901'de ilan edildi, \"Ceduna was proclaimed on 20 June 1901\"; önceki adı Murat Bay. TAM GÜN.",
-  s:[{f:"1901-06-20",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"1923-10-29",d:"avustralya"}] },
+  s:[{f:"1901-06-20",t:"1923-10-29",d:"avustralya"}] },
 
 { ad:"Oodnadatta", tur:"sehir", lat:-27.55, lon:135.45, g:1, k:1,
   kur:"1891-01-01",
@@ -236,7 +236,7 @@ window.YERLESIMLER_OKYANUSYA = [
   kaynak:"DPLH inHerit (Heritage Council of WA) / State Library of WA: \"In June 1893, Paddy Hannan and his partners discovered alluvial gold thirty miles (48 kms) north-east of Coolgardie. On 4 September 1894, Hannan's Find was declared the townsite of Kalgoorlie.\"",
   s:[{f:"1893-06-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"1923-10-29",d:"avustralya"}] },
 
-{ ad:"Onslow", tur:"sehir", lat:-21.64, lon:115.11, g:1, k:1,
+{ ad:"Onslow", tur:"sehir", lat:-21.6531, lon:115.0983, g:1, k:1,
   kur:"1885-01-01",
   kaynak:"DPLH inHerit, 'Old Onslow Townsite' (Register of Heritage Places): \"Onslow (Old Onslow) was gazetted in 1885\"; Yeni Onslow Ocak 1924'te ilan edildi. ⚠️ Koordinat ESKİ Onslow'undur — atlas 1923'e kadar geliyor.",
   s:[{f:"1885-01-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"1923-10-29",d:"avustralya"}] },
@@ -254,7 +254,7 @@ window.YERLESIMLER_OKYANUSYA = [
 { ad:"Meekatharra", tur:"sehir", lat:-26.59, lon:118.49, g:1, k:1,
   kur:"1903-01-01",
   kaynak:"DPLH inHerit (Heritage Council of WA), Murchison Goldfields kayıtları: \"A town was not gazetted until 1903\". Komşu Nannine 1893'te, Gabanintha Kasım 1898'de ilan edilmişti.",
-  s:[{f:"1903-01-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"1923-10-29",d:"avustralya"}] },
+  s:[{f:"1903-01-01",t:"1923-10-29",d:"avustralya"}] },
 
 { ad:"Wagga Wagga", tur:"sehir", lat:-35.11, lon:147.37, g:1, k:1,
   kur:"1849-01-01",
@@ -359,7 +359,7 @@ window.YERLESIMLER_OKYANUSYA = [
 { ad:"Wiluna", tur:"sehir", lat:-26.59, lon:120.22, g:1, k:1,
   kur:"1902-01-01",
   kaynak:"DPLH inHerit (Heritage Council of WA), 'Wiluna Mine (fmr)': \"The Wiluna Gold Mine commenced operations in 1902 and was worked very successfully until 1947.\" ⚠️ TAHMİNİM 1898'Dİ — kaynak 1902 diyor.",
-  s:[{f:"1902-01-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"1923-10-29",d:"avustralya"}] },
+  s:[{f:"1902-01-01",t:"1923-10-29",d:"avustralya"}] },
 
 { ad:"Camooweal", tur:"sehir", lat:-19.92, lon:138.12, g:1, k:1,
   kur:"1883-12-15",

@@ -144,7 +144,16 @@ window.YERLESIMLER_ORTAASYA3 = [
 // bir şehirdi (TDV `karahanlilar` anıyor) ama 1281 sonrası ayakta olduğunu
 // gösteren kaynak BULAMADIM — o yüzden şehir adıyla YAZMADIM, havzayı yazdım.
 // Bugün en yakın nokta Almatı (96 km) ve bütün göl havzası ona düşüyor.
-{ ad:"Issık Göl havzası", tur:"bolge", lat:42.4000, lon:77.2000, g:0, k:0,
+// 🔴 3 Eylül 2026 — KOORDİNAT DÜZELTİLDİ: 42.4000/77.2000 kara
+//    maskesinin 25,76 km DIŞINDAYDI (gölün ortası). Maske dışındaki
+//    nokta HİÇ toprak sahibi olamaz ⇒ sekiz dönemin sekizi de
+//    boyanmıyordu. `denetle.py`nin verdiği koordinat, YAZILACAĞI
+//    HASSASİYETTE (4 ondalık) sınanmış hâliyle kondu.
+//    ⚠️ Kusur bu sabah dosya `girdi.py`ye bağlanırken doğdu ve beş
+//    saat sonra, başka bir iş için taban ölçülürken çıktı —
+//    `§11`: "bir dosya bağlandığı gün, o veriye bakan BÜTÜN ölçüm
+//    aletlerinin tabanı yeniden doğrulanır."
+{ ad:"Issık Göl havzası", tur:"bolge", lat:42.1718, lon:77.2414, g:0, k:0,
   kaynak:"bulunamadı — TDV `kirgizlar` maddesi CANLI, gövdesi okundu, Issık Göl'ü ANMIYOR (§4 taneciklik boşluğu); dayanak: standart akademik kaynak",
   s:[{f:"1281-01-01",t:"1347-01-01",d:"cagatay"},
      {f:"1347-01-01",t:"1634-01-01",d:"mogulistan"},
