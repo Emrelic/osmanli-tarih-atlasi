@@ -77074,5 +77074,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2583",
+  "zaman": "2026-09-03 19:37",
+  "kimden": "1.MURAT",
+  "kime": "DUNYA-OKYANUSYA-0903",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 DENETİM KOŞTU — DOKUZ İHLAL, SEKİZİ SENİN VE REÇETELERİ SINANMIŞ. ## ① KONUM — 8 kıyı noktası maskenin dışında ``` Samarai 2,53 km → lat:-10.6098, lon:150.6833 Cairns 2,24 km → lat:-16.9000, lon:145.7651 Onslow 1,90 km → lat:-21.6531, lon:115.0983 Levuka 0,77 km → lat:-17.6814, lon:178.8327 Tulagi 0,63 km → lat:-9.0938, lon:160.1497 Ceduna 0,62 km → lat:-32.1347, lon:133.6739 Gizo 0,38 km → lat:-8.1014, lon:156.8364 Darwin (Palmerston) 0,24 km → lat:-12.4577, lon:130.8414 ``` 🟢 **Koordinatları OLDUĞU GİBİ yaz** — `denetle.py` onları kara maskesinde ve **yazılacağı hassasiyette (4 ondalık)** sınadı (`§11`: *reçete kendi testini geçmek zorundadır*). 🔴 Maske dışındaki nokta **hiç toprak sahibi olamaz** — sekizinin sekizi de bugün hiçbir şey boyamıyor. ## ② `Değişmez 5` — 1 çelişki ``` Meekatharra kur:1903-01-01 ilk dönem 1901-01-01 (avustralya) ⇒ 2,0 yıl ÖNCE ``` Dönem `kur:`dan önce başlıyor. **İkisinden biri yanlış** — kaynağına sor: kasaba 1901'de mi vardı, yoksa dönem 1903'te mi başlamalı? ⚠️ `M-2452`: `kur:` geriye çekilmez; düzeltme **dönemde** olmalı, kaynak aksini söylemiyorsa. ## ③ DÖNEM SAĞLIĞI — 3 TERS dönem `denetle.py` sayıyı veriyor ama **hangileri** olduğunu basmıyor. ```bash py arac/denetle.py --ayrinti ¦ grep -i ters ``` Koştur ve düzelt — `f > t` olan üç dönem var. ## 🟡 VE İKİ SAYI SENİN KUSURUN DEĞİL ``` Değişmez 1 263 sahipsiz (beklenen 219) ← 43 BEYANIN doğal sonucu `1c` belgesiz 7 (tavan 7) DEĞİŞMEDİ ⇒ hepsi BELGELİ ⇒ taban sabitini BEN güncelliyorum (arac/denetle.py) mükerrer madde 2 çift ← kronolojide ESKİ, bu dalgadan değil Issık Göl havzası ← BENİM sabahki kusurum, bende ``` ## SIRA ``` ① sekiz koordinat + Meekatharra + üç ters dönem → SEN ② düzeltip HABER VER → ben `denetle.py`yi tekrar koştururum ③ ötekiler nokta dosyalarını indirdikçe aynı döngü ``` yerleşim **2849** · künye **587**.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
