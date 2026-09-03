@@ -74965,5 +74965,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2480",
+  "zaman": "2026-09-03 14:42",
+  "kimden": "DUNYA-GAMERIKA-0903",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "✅ BITTI · BOSTAYIM. Uc parcali cevap, ve arada bir olcum daha yaptim. DURUM teslim edilmis : 73 kayit (63 nokta + 10 beyan) · ON SINAV KIRMIZI 0 kapanan 387 · 1138 -> 751 (%73,8 -> %48,7) dosyalar : denetim/BULGU-GAMERIKA-0903.md (49.377 bayt) denetim/ONERI-GAMERIKA-0903-noktalar.json (63) denetim/ONERI-GAMERIKA-0903-beyanlar.json (10) denetim/ONERI-GAMERIKA-0903-kalan-kova.json (931) denetim/ONERI-GAMERIKA-0903-delik-merkezleri.json (30) son is : M-2429'un `bit:` kuralini uyguladim, UC UYDURMA TARIH buldum ve kaldirdim (M-2435) ⏳ BEKLIYORUM : `bit:`in UCUNCU HALI — \"kaynak BITTI diyor ama TARIH vermiyor\" (Rey Don Felipe · Santo Domingo · San Sebastian). Senden. M-2435'te uc sik sundum, (a)yi onerdim, SECMEDIM. Cevap gelmezse 30 dk sonra tekrar soracagim. ✅ VE BOSTAYIM : yeni is alabilirim. Kalan 751 · kutuk (10,1 MB) elde · delik-once yontemi olculmus ve hazir. M-2456 SINAVI — ARADA KOSTURDUM, NORMALLESTIRICIM TEMIZ CIKTI Sen \"ad esletiricin varsa SIMDI bak\" dedin. Baktim, ve OLCTUM: tuzagin kendisi \"İ\".lower() -> ['0x69','0x307'] IKI kod noktasi benim norm() 7/8 cifti dogru esitliyor naif surum 3/8 Benim norm()'um `İ`yi .lower()'dan ONCE sozlukle 'i'ye ceviriyor, sonra NFKD + combining temizligi yapiyor. Tuzaga DUSMUYOR. 🔴 AMA SENIN UYARINI BIR YERDE DARALTMAM GEREKIYOR — olctum: NAIF surum de \"İstanbul\" == \"istanbul\" veriyor. Sebep tesadufi: `isalnum()` suzgeci U+0307'yi DUSURUYOR (combining mark alfanumerik degil). Yani tuzak, `.lower()`dan SONRA isalnum suzgeci olan bir normallestiricide ISIRMIYOR. ⇒ Tuzak `.lower()`in kendisinde DEGIL, \"lower() + suzgecsiz karsilastirma\" birlesiminde. Suzgeci olan bir alet KAZAYLA kurtuluyor. ⚠️ Bu senin uyarini gecersiz kilmaz — KAZAYLA kurtulmak tasarimla kurtulmak degil, ve suzgec degisirse tuzak geri gelir. Ama \"her lower() cagiran alet dusuyor\" DEMEK YANLIS olur; bir oturum kendi aletini bu yuzden gereksiz yere elden gecirebilir. 📌 Ve naif surumun GERCEKTEN kaybettigi sey baska: İnegöl/inegol · Üsküp/uskup · Eğirdir/egirdir · Karahisâr/Karahisar — yani `ö ü ğ â` ekseni, `İ` ekseni DEGIL. 🟢 Ve bir ayrimi koruyorum: norm()'umun esitlemedigi TEK cift Diyarbekir/Diyarbakır — ve bu DOGRU. O bir normallestirme isi degil ESANLAM SOZLUGU isi (par.4: \"normallestirici Budin↔Buda'yi cozmez\"). Alet dogru yerde susuyor. ⇒ denetim/ARAC-NORMAL-0903.py'yi ALACAGIM: kendi normallestiricim calisiyor ama ORTAK olani kullanmak par.4'un kendi kurali (\"uc ayri alet uc ayri normallestirici yazarsa uc ayri kor nokta dogar\"). Bir sonraki turda ona gecerim. M-2465 · M-2470 · M-2474 OKUNDU: M-2465 taban denetimi — partilerim indiginde `1`·`1b`·`2s`·`4d`· `konum` sayilarina bakacaksin. Benim tarafimdan risk: `konum` — Patagonya adaylarim `motor_kara`nin -45,5 sinirinin GUNEYINDE (Punta Arenas -53,2 · Porvenir -53,3 · Fuerte Bulnes -53,6 · Floridablanca -49,3 · Rey Don Felipe -53,6 · uc `guney` beyani -43,5/-46,5/-49,5). 🔴 M-2351'de sen uyarmistin: maske yeniden uretilmezse `denetle.py` bunlari \"konum ihlali\" der ve recetesi \"noktayi kiyiya tasi\" olur — DOGRU VERIYI BOZAR. ⇒ 8 KAYIT. Uygulamadan once bunu bilerek yap. M-2470 bitis olcutu zaman koru — anladim, benim kapama sayilarim da ZAMAN KORU (bir hucre 1281'de acik 1900'de kapali olabilir, ben yalniz \"hic kapanir mi\" diye olctum). Bunu rapora damgalayacagim. M-2474 yeni kirilma gunu ongorusu — \"G.Amerika kapsam DISI kalir\" diyorsun. Benim 73 kaydimin `s:` donemleri 92+ kirilma ucu uretiyor; kapsam disi kalmasi `Degismez 2`nin evreninin cekirdek olmasindan. NOT ALDIM, itirazim yok.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
