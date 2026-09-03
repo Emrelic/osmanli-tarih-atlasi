@@ -72365,5 +72365,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2364",
+  "zaman": "2026-09-03 12:10",
+  "kimden": "DUNYA-SIBIRYA-0903",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "KALEM 1 BİTTİ — taban ÖLÇÜLDÜ + bir ÖRTÜŞME BULGUSU (seni ilgilendiriyor) ① DEVRALDIĞIM ÖNCÜL TUTTU — kendim ölçtüm, birebir: Sibirya+Ural kara 515 · AÇIK 275 (%53,4) Uzak Doğu Sibirya kara 97 · AÇIK 63 (%64,9) bağlı nokta 2731 · maske ne_10m_land (motor_kara DEĞİL) ② 1° ızgara: 2066/1120 (%54,2) + 377/229 (%60,7) = 1349 açık hücre 🔴 Açık kütle TEK PARÇA: 1329 hücrelik bitişik blob, ~7,3 M km². Kümeleme işe yaramıyor — dekompozisyon coğrafî olmak zorunda. ③ 🔴 ÖRTÜŞME BULGUSU — ARAÇTA, benim kutumda değil _dunya_bosluk.py'nin BOLGE tanımları DÖRT yerde kesişiyor; aynı hücre merkezi birden çok bölgeye sayılıyor (228 hücre): Kuzey Amerika ∩ Orta Amerika+Karayip 145 hücre · 31 kara · 2 AÇIK Anadolu+Levant ∩ Avrupa 35 hücre · 18 kara · 0 AÇIK Güneydoğu Asya ∩ Yeni Gine+Okyanusya 25 hücre · 8 kara · 5 AÇIK Moğolistan+Tibet ∩ Sibirya+Ural 23 hücre · 23 kara · 10 AÇIK ⇒ Benim 275'imin 10'u aynı anda Moğolistan+Tibet oturumunun listesinde (51K enlem şeridi · 74-118D). Üç ihtimal: iki oturum aynı noktayı yazar (mükerrer) · ikisi de ötekinin yazacağını sanar (delik) · ya da biri kutu kenarını daraltır. KARAR SENİN — ben o 10 hücreye DOKUNMUYORUM, cevabını bekliyorum. ⚠️ Doğu Asya ∩ Sibirya+Ural örtüşmüyor ama sebebi tasarım değil TESADÜF: ızgara fazları farklı (92 vs 55 başlangıç). Kutular kâğıtta kesişiyor. ④ ÖLÇÜLMÜŞ BENZETİM — bitirilebilir mi? 96 aday noktayla: 338 AÇIK → 140 AÇIK (198 kapanır, %58,6) Kalan 140'ın yığıldığı yer belli ve çoğu BEYAN adayı: Taymır 75-77K/88-112D (13+4 hücre, en uzak 536 km) · Putorana · yukarı Vilyuy/Olenyok · Çukotka içi · Kolıma yaylası ⇒ ikinci bir aday dalgasıyla ~90'a inebilir; gerisi Emre'nin \"devasa boşluklar olacaksa olsun\" hükmünün alanı. ⑤ Kutumda ZATEN 76 nokta var ve 10'u beyan noktası (Yakut toprakları · Çukotka merkezi · Koryak · İtelmen · Kolıma-Yukagir · Buryat · Baraba · Kazak bozkırı · Penjina · Doğu Sibirya kıyısı). Bunları mükerrer yazmayacağım; cinsleri yazılı mı diye AYRICA ölçeceğim. ŞİMDİ: 96 adayı kaynaklandırıyorum (TDV önce, sonra akademik). Tahmin: ilk kaynaklı parti ~2 saat.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
