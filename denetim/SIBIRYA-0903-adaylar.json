@@ -1,5 +1,5 @@
 {
- "_NOT": "DUNYA-SIBIRYA-0903 · 3 Eylül 2026 · ARAŞTIRMA turu çıktısı. Bu bir KUYRUK dosyasıdır, VERİ DEĞİLDİR (M-2413 ②: `bos:` beş kova veri alanı, kuyruk sınıfları denetim/ altında yaşar). data/ altına indirmek koordinatörün işi. Ayrıntılı gerekçe ve kaynak künyeleri: denetim/BULGU-SIBIRYA-0903.md · İKİNCİ KAYNAK TURU işlendi (3 Eylül, öğleden sonra). · ÜÇÜNCÜ TUR: 3 km sınavı · hongoray taşıyıcısı · altı halkın sınıflandırması. · DÖRDÜNCÜ KAYNAK TURU. · BEŞİNCİ TUR: ölçüt zaman körü (M-2472) kutuda ölçüldü. · ALTINCI TUR: M-2478'in 1300 ayrımı. · YEDİNCİ TUR: Ural bloğu ölçüldü, TDV slug taraması, iki zonun gerekçesi. · SEKİZİNCİ TUR: Ural üç-devlet ölçümü · taşıyıcı sınavları.",
+ "_NOT": "DUNYA-SIBIRYA-0903 · 3 Eylül 2026 · ARAŞTIRMA turu çıktısı. Bu bir KUYRUK dosyasıdır, VERİ DEĞİLDİR (M-2413 ②: `bos:` beş kova veri alanı, kuyruk sınıfları denetim/ altında yaşar). data/ altına indirmek koordinatörün işi. Ayrıntılı gerekçe ve kaynak künyeleri: denetim/BULGU-SIBIRYA-0903.md · İKİNCİ KAYNAK TURU işlendi (3 Eylül, öğleden sonra). · ÜÇÜNCÜ TUR: 3 km sınavı · hongoray taşıyıcısı · altı halkın sınıflandırması. · DÖRDÜNCÜ KAYNAK TURU. · BEŞİNCİ TUR: ölçüt zaman körü (M-2472) kutuda ölçüldü. · ALTINCI TUR: M-2478'in 1300 ayrımı. · YEDİNCİ TUR: Ural bloğu ölçüldü, TDV slug taraması, iki zonun gerekçesi. · SEKİZİNCİ TUR: Ural üç-devlet ölçümü · taşıyıcı sınavları. · DOKUZUNCU TUR: YERLİ GORODOK KOLU birinci parti.",
  "oturum": "DUNYA-SIBIRYA-0903",
  "kutu": {
   "latG": 50,
@@ -47,7 +47,11 @@
   "prlib": "Президентская библиотека им. Б.Н. Ельцина (prlib.ru) — Çaus ostrogu 1713",
   "ez-chita": "Энциклопедия Забайкалья (ez.chita.ru) — Sretensk 1689",
   "tdv-baskirt": "TDV islamansiklopedisi.org.tr/baskirt — HTTP 200, gövde okundu. ⚠️ `baskurt` slug'ı da 200 döner ama GÖVDESİ YALNIZCA ÇAPRAZ GÖNDERMEDİR ('bk. BAŞKIRT Orta Asya Türk kavimlerinden.') — §4 tuzağının BEŞİNCİ alt-sınıfı",
-  "baskurt-cyberleninka": "cyberleninka — Başkurt bölgesinin Rusya'ya entegrasyonu ve «Башкиры и Казанское ханство» makaleleri; boy boy katılma tarihleri ve üçlü tâbiiyet dağılımı"
+  "baskurt-cyberleninka": "cyberleninka — Başkurt bölgesinin Rusya'ya entegrasyonu ve «Башкиры и Казанское ханство» makaleleri; boy boy katılma tarihleri ve üçlü tâbiiyet dağılımı",
+  "solodkin2019": "Солодкин Я.Г., «Как Пегая Орда превратилась в Нарымскую волость», Новогардия, 2019 (cyberleninka, gövde okundu)",
+  "chindina2013": "Чиндина Л.А., «Пегая Орда — Большого Лося сильный народ», Вестник Томского гос. университета. История, 2013 (cyberleninka, gövde okundu)",
+  "emder": "Эндырское I (Эмдер) gorodişçesi — 1992'den beri kazılıyor (S. Kokşarov · A. Zıkov, Yekaterinburg). ⚠️ Bölgesel/ansiklopedik kaynaklardan derlendi, HAKEMLİ makale gövdesi OKUNMADI",
+  "koda": "Kodskoye knyazhestvo — ansiklopedik/bölgesel kaynaklar (knowledge.su · BSE · AiF-Yugra). 🟡 HAKEMLİ DEĞİL. Perevalova E.V. 2000 (Obdorsk knezleri, yamalarchaeology.ru) DNS ile ERİŞİLEMEDİ."
  },
  "adaylar": [
   {
@@ -2018,5 +2022,133 @@
    "hucre": "57K/62D (1 hücre)",
    "not": "Üç taşıyıcı 17 blok hücresinin 16'sını örtüyor. Dördüncü nokta EKLENMEDİ — bir hücreyi sıfırlamak için nokta uydurmak, ölçütü hedef fonksiyonuna çevirmek olurdu (M-2512)."
   }
+ },
+ "yerli_gorodok_kolu": {
+  "_sevk": "Emre'nin doğrudan sevki: «yerli gorodok araştırmasına devam et»",
+  "_gerekce": "M-2477 ölçümü: 80 adayın yalnız İKİSİ 1300'de sahnede (Nadım · Voykar, ikisi de yerli). Ostrog eklemek 1300'ü HİÇ değiştirmiyor.",
+  "① KUNYE_BOSLUGU_OLCULDU": {
+   "_yontem": "data/devletler.js · 441 künye · id taraması",
+   "YOK": [
+    "pegaya",
+    "alaca",
+    "selkup",
+    "obdorsk",
+    "kod",
+    "emder",
+    "yugra",
+    "ugra"
+   ],
+   "HUKUM": "🔴 Ugor ve Selkup SİYASÎ YAPI katmanı `devletler.js`te HİÇ YOK. Atlas Batı Sibirya'nın 1281-1600 arasını yalnız `altinorda` ve `sibir-hanligi` ile ifade edebiliyor; Ob boyundaki knezlikler ve Selkup birliği için kimlik YOK."
+  },
+  "② PEGAYA_ORDA_KUNYE_ONERISI": {
+   "durum": "🟢 M-2414③ ölçütünü KARŞILIYOR · İKİ HAKEMLİ KAYNAK, ikisinin de gövdesi okundu",
+   "id": "pegaya-orda",
+   "ad": "Pegaya Orda (Alaca Orda)",
+   "tur": "beylikler birliği / kabile birliği",
+   "f": "1281-01-01",
+   "f_uyari": "ATLAS UFKU — kuruluş DEĞİL. Rus belgelerinde 1592-1598 arası anılıyor (Chindina).",
+   "t": "1597-01-01",
+   "t_gerekce": "Solodkin: 1594 Surgut kurulduktan sonra Vonya haracı reddetti; 1597 ilkbahar/yazında İvan Kolemin seferi Yukarı Narım'ı ALDI ve yanına ostrog kurdu. «Пегая орда … потеряла независимость на рубеже XVI-XVII вв.» ⇒ TASARRUF değişimi 1597.",
+   "toprak": "Orta Ob: Ket'ten Vasyugan'a; Vah · Tım · Parabel havzaları. Chindina: «вдоль Оби от Бардакова княжества (район современного Сургута) до Нарыма»",
+   "merkez": "Yukarı Narım (Верхний Нарым) — Knez Vonya'nın karargâhı",
+   "halk": "Selkuplar (+ Ket toplulukları)",
+   "kaynak": "solodkin2019 + chindina2013",
+   "kronoloji": [
+    {
+     "t": "1594-01-01",
+     "b": "Surgut kuruldu; Knez Vonya haraç ödemeyi reddetti: «я с себя и со своих людей ясака не даю»; 400 kişilik kuvvet komuta ediyordu"
+    },
+    {
+     "t": "1597-01-01",
+     "b": "İvan Kolemin seferi Yukarı Narım'ı aldı; sonbaharda Narım ostrogu kuruldu — Pegaya Orda bağımsızlığını kaybetti"
+    },
+    {
+     "t": "1610-01-01",
+     "b": "Pegaya Orda resmen NARIM VOLOSTU'na dönüştü (yeni Narım uyezdi kurulunca)"
+    }
+   ],
+   "OLCULEMEDI": "Vonya'nın âkıbeti: Solodkin 1597'de ölmemiş, Moskova'ya boyun eğmiş OLABİLİR diyor (oğulları Segey ve Taybohta XVII. yy başına kadar nominal imtiyaz taşımış). Bu bir İHTİMAL, kesin değil — kayda öyle geçti."
+  },
+  "③ KODA_KUNYE_ADAYI": {
+   "durum": "🟡 ölçüt karşılanıyor GİBİ ama KAYNAK HAKEMLİ DEĞİL — künye ÖNERMİYORUM, ARAŞTIRMA KALEMİ olarak bildiriyorum",
+   "ad": "Kodskoye knyazhestvo (Koda)",
+   "halk": "Hantı",
+   "toprak": "aşağı Ob",
+   "merkez": "Kodsk gorodoku / Nangakar (Nyagan koluna bakan); Koda toprağının merkezinde Alaçev kasabası",
+   "tarihler": {
+    "1484": "Koda kendini Rus devletinin vassalı kabul etti ve hazineye haraç yükümlülüğü aldı",
+    "1583": "Yermak'ın Kazaklarıyla Knez Alaç arasında ittifak",
+    "1590'lar": "Koda Ostyakları Pelım-Konda knezliğinin fethine katıldı; Obdorsk ve Bardak knezliklerine seferler",
+    "XVII. yy": "Koda'nın muhtariyeti kaldırıldı, öteki volostlarla eşitlendi — 🔴 KESİN YIL BULUNAMADI"
+   },
+   "kaynak": "koda",
+   "BORC": "hakemli kaynak aranmalı; Perevalova 2000 DNS ile erişilemedi"
+  },
+  "④ EMDER_NOKTASI": {
+   "ad": "Emder (Ендырское I)",
+   "tur": "kale",
+   "lat": 61.5,
+   "lon": 66.0,
+   "kur": "1281-01-01",
+   "kur_uyari": "ATLAS UFKU. Kaynak: en erken katman VI-VII. yy; «altın çağ» XII-XVI. yy.",
+   "olay": "Hantı destanlarının efsanevî şehri; Yugra'nın «altın çağının» (XII-XVI. yy) merkezi, «Sibirya Troyası». Kuleli çokgen sur, ~20 mesken, 10 tarihî katman. 1992'den beri kazılıyor (S. Kokşarov · A. Zıkov).",
+   "on_sinav": {
+    "3km_bagli": "275,2 km (Berezov)",
+    "3km_aday": "169,8 km (Samarovo)",
+    "kara_maskesi": "🟢 içinde",
+    "1300de_kapattigi": 3
+   },
+   "🔴 KOORDİNAT_UYARISI": "61,50/66,00 BENİM TAHMİNİM — kaynak koordinat VERMİYOR, yalnız «Nyagan'dan 68 km · Talinka'dan 23 km · Endır nehri, Oktyabrsk rayonu» diyor. Yazılmadan önce KESİNLEŞTİRİLMELİ.",
+   "kaynak": "emder"
+  },
+  "⑤ PEGAYA_ORDA_TASIYICILARI": [
+   {
+    "ad": "Pegaya Orda toprakları (orta Ob)",
+    "tur": "bolge",
+    "lat": 60.0,
+    "lon": 83.0,
+    "hucre_1300": 6,
+    "en_yakin_nokta_km": 171
+   },
+   {
+    "ad": "Vasyugan Selkup toprakları",
+    "tur": "bolge",
+    "lat": 59.5,
+    "lon": 77.0,
+    "hucre_1300": 5,
+    "en_yakin_nokta_km": 252
+   }
+  ],
+  "⑥ ETKI_OLCULDU": {
+   "1300": "332 → 318 (fark 14)",
+   "zamansiz": "205 → 201 (fark 4)",
+   "_not": "ÇIKARILMADI, ızgara YENİDEN TARANDI (M-2413③)"
+  },
+  "⑦ VASYUGAN_OLCULEMEDI_HUKMU_COZULDU": {
+   "eski": "«Hantı/Selkup için kaynak ARANMADI» — zon `ölçülemedi` kovasındaydı (14 hücre)",
+   "yeni": "🟢 KAYNAK KONUŞUYOR: Chindina 2013 Vasyugan havzasını Pegaya Orda toprağı olarak AÇIKÇA sayıyor («бассейны притоков Оби: Ваха, Васюгана, Тыма и Парабели»). ⇒ Bu zon BEYAN DEĞİL, KÜNYE işi. `ölçülemedi` → `künye + nokta`."
+  },
+  "⑧ KENDI_ALETIMIN_KUSURU": {
+   "_ihbar": "🔴 KENDİM YAKALADIM VE KENDİM BİLDİRİYORUM",
+   "ne_oldu": "İlk yerleştirmede açgözlü seçiciye 57-62K/73-85D kutusu verdim — kutuyu KAYNAKTAN değil, kabaca çizdim. Seçici taşıyıcıyı 62,0K/85,0D'ye koydu: Narım'dan 385 km, Surgut'tan 618 km, yani Chindina'nın tarif ettiği «Surgut'tan Narım'a Ob boyu» şeridinin DIŞINDA.",
+   "sinif": "M-2512'nin birebir tekrarı: ölçüt bir betiğe verilince HEDEF FONKSİYONU olur ve hücre sayısını maksimize eder, GERÇEĞİ değil.",
+   "care": "Kutu KAYNAKTAN yeniden kuruldu (58,5-61,5K / 74-83D) ve taşıyıcılar yeniden seçildi.",
+   "BEDELI": "Disiplin 3 HÜCREYE mal oldu: kaynaksız kutu 1300'de 17 hücre kapatıyordu, kaynaklı kutu 14. ⇒ Doğru olan 14.",
+   "ders": "Bir arama kutusu da bir VARSAYIMDIR ve kaynağı yazılmalıdır."
+  },
+  "⑨ KENDI_ADAYIMI_DUZELTTIM_NARIM": {
+   "koordinat": "58,36/81,58 → 58,98/81,57 (modern Narım köyü) — 69 km",
+   "kur": "1596-01-01 → 1597-01-01",
+   "gerekce": "Solodkin 2019 (hakemli, konuya ÖZEL): Narım ostrogu 1597 SONBAHARINDA, Yukarı Narım alındıktan hemen sonra kuruldu. Önceki kaynağım (bölgesel, 🟡) «1596 ya da 1598» diyordu ve Narım ile Ketsk ostrogunu KARIŞTIRIYORDU.",
+   "_not": "Bu, ad-yer tuzağının SEKİZİNCİ vakası ve ilki KENDİ adayımda."
+  },
+  "⑩ HALA_ACIK": [
+   "Obdorsk knezliği — merkezi Pulnovat-Vaş, yeri ÖLÇÜLMEDİ",
+   "Kunovat · Lyapin · Kazım · Belogorye · Pelım · Konda · Nimyan · Boyar · Bardak knezlikleri",
+   "Mönkys urij gorodoku (Kardaş & Vizgalov, 2 cilt) — aranmadı",
+   "Barsova Gora / Bardakov gorodoku — aranmadı",
+   "Koda'nın muhtariyetinin kaldırıldığı KESİN YIL",
+   "Emder'in kesin koordinatı"
+  ]
  }
 }
