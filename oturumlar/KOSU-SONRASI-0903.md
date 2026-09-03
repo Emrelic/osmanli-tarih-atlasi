@@ -44,11 +44,11 @@ denetimi kırar.
 ### 🟢 TOPLAM — ölçüldü 15:19
 ```
 Afrika        98   (BULGU-AFRIKA-0903-kunye.json — üç Tuareg/Tubu DÂHİL)
-K. Amerika    30   (iki parti · kesişim YOK)
-G. Amerika     4
+K. Amerika    43   (ÜÇ parti · kesişim YOK · bloke nokta 22 → 5)
+G. Amerika     4   (ranquel · charrua · guarani-misyonlari · arua)
 prusya + kanada 2
 ────────────────
-             134   ⇒ künye 441 → ~575
+             147   ⇒ künye 441 → ~588
 BÖLGELER ARASI ÇAKIŞMA: 0  (ayrıca ölçüldü — her dosya tek tek temiz
 çıkıyor ve iki bölge aynı `id`yi önerirse İKİSİ DE kendi dosyasında
 TEMİZ görünür)
