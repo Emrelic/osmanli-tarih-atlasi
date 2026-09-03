@@ -2138,4 +2138,14 @@ window.YERLESIMLER = [
 { ad:"Srebrenik", tur:"kale", lat:44.705, lon:18.489, g:0, k:4, m:"Saraybosna", s:[{f:"1281-01-01",t:"1463-06-01",d:"bosna"},{f:"1463-06-01",t:"1512-01-01",d:"macaristan"},{f:"1908-10-05",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1918-12-01",d:"sirbistan-kralligi"}, {f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}], d:[{f:"1512-01-01",t:"1908-10-05"}], isg:[{f:"1878-07-29",t:"1908-10-05",d:"avusturya",kaynak:"berlin-antlasmasi"}] },
 { ad:"Yergöğü (Giurgiu)", tur:"kale", lat:43.904, lon:25.970, g:0, k:4, m:"Sofya", s:[{f:"1281-01-01",t:"1420-01-01",d:"eflak"},{f:"1427-01-01",t:"1449-01-01",d:"eflak"},{f:"1810-09-27",t:"1829-09-14",d:"rusya"},{f:"1829-09-14",t:"1859-01-24",d:"eflak"},{f:"1859-01-24",t:"1881-03-26",d:"romanya"},{f:"1881-03-26",t:"1923-10-29",d:"romanya-kralligi"}], d:[{f:"1420-01-01",t:"1427-01-01"},{f:"1449-01-01",t:"1810-09-27",y:"savas"}] },
 { ad:"Dubrovnik", tur:"sehir", lat:42.650, lon:18.094, g:0, k:3, s:[{f:"1281-01-01",t:"1358-01-01",d:"venedik"},{f:"1358-01-01",t:"1459-03-07",d:"macaristan"},{f:"1806-05-27",t:"1814-01-01",d:"fransa-cumhuriyet"},{f:"1814-01-01",t:"1918-11-11",d:"avusturya"},{f:"1918-11-11",t:"1923-10-29",d:"yugoslavya"}], d:[], v:[{f:"1459-03-07",t:"1806-05-27",k:"Dubrovnik Cumhuriyeti (haraçgüzâr)"}] },
+  // ── TORUN + ELBING — 4 Eylul 2026, receteyi PRUSYA-0903 olctu
+  //    Ikisi de atlasta YOKtu (normallestiricili arama 0 sonuc).
+  //    `kur:` YAZILMADI: 8/8 emsal (Gdansk · Konigsberg · Poznan ·
+  //    Stettin · Varsova · Krakov · Vilnius · Berlin) 1281 oncesi
+  //    kurulmus ve hicbirinde `kur:` yok. Yanlis bir `kur:`
+  //    noktayi yuzyillarca haritadan SILER (Torun 1233, Elbing 1237).
+  //    Kaynak: TDV 15 slugun 14u OLU, tek 200 `torun` AKRABALIK
+  //    terimi — §4 cografi bosluk, akademik kaynak mesru.
+  {ad:"Elbing (Elbląg)",lat:54.1522,lon:19.4088,k:3,s:[{f:"1281-01-01",t:"1466-10-19",d:"almanya"},{f:"1466-10-19",t:"1772-08-05",d:"lehistan"},{f:"1772-08-05",t:"1871-01-18",d:"prusya"},{f:"1871-01-18",t:"1923-10-29",d:"almanya"}]},
+  {ad:"Torun (Toruń)",lat:53.0103,lon:18.6047,k:3,s:[{f:"1281-01-01",t:"1466-10-19",d:"almanya"},{f:"1466-10-19",t:"1793-01-23",d:"lehistan"},{f:"1793-01-23",t:"1807-07-09",d:"prusya"},{f:"1807-07-09",t:"1815-06-09",d:"varsova-dukaligi"},{f:"1815-06-09",t:"1871-01-18",d:"prusya"},{f:"1871-01-18",t:"1920-01-18",d:"almanya"},{f:"1920-01-18",t:"1923-10-29",d:"polonya"}]},
 ];
