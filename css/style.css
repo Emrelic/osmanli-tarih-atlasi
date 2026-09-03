@@ -221,6 +221,17 @@ body {
   letter-spacing: 0.5px;
 }
 
+/* 🆕 SÜRÜM DAMGASI — kuyruk ⑤/②, Emre (2 Eylül 2026). MİNİMAL, kasıtlı
+   soluk: #ustbar-yil'in "kocaman vurgulu" tarifiyle ÇARPIŞMAMASI için en
+   küçük punto ve en düşük görsel ağırlık — bir künye değil, bir dipnot. */
+#surum-etiketi {
+  flex: 0 0 auto;
+  font-size: 10px;
+  color: rgba(247, 241, 227, 0.45);
+  margin-left: 4px;
+  align-self: flex-end;
+}
+
 /* ---------- Gövde ---------- */
 /* 🔴 21 Ağustos 2026 — PAKET 0026/H-0001, Emre: "sağdaki sütun en tepeden
    en aşağıya kadar devam etsin." `#govde` artık KÖK SATIR: sol sütun
