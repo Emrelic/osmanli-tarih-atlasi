@@ -317,4 +317,37 @@ window.OLAYLAR_EK20 = [
   d:"Papa VIII. Innocent, Rodos şövalyelerinin reisi Pierre d'Aubusson ile anlaşarak Cem Sultan'ı Roma'ya getirtti (4 Mart 1489). Cem 29 Temmuz 1482'de Rodos'a sığınmış, oradan Savoie topraklarına, sonunda papalık gözetimine geçmişti. II. Bayezid, kardeşini gözaltında tutmaları karşılığında şövalyelere yıllık 40.000 duka ödemeyi ve onlara Osmanlı topraklarında serbest ticaret hakkı tanımayı kabul etmişti. Bu ödeme bir haraç değil, tahtın meşrû rakibini Avrupa'da hareketsiz tutmanın bedeliydi: Cem serbest kalsaydı Anadolu'da ordu toplayabilir, üstelik bir Haçlı seferinin meşrûiyet kaynağı olabilirdi. Böylece bir hânedan meselesi, otuz yıl boyunca Osmanlı dış siyasetinin ana kısıtı hâline geldi — Bayezid'in Batı'da ihtiyatlı davranmasının sebebi budur. Cem'in 1495'teki ölümüyle bu kısıt kalktı.",
   kaynak:"cem-sultan" },
 
+
+{ t:"1701-01-18",
+  b:"Prusya Krallığı ilan edildi — I. Friedrich Königsberg'de taç giydi",
+  tur:"kurulus",
+  onem:3, dunya:4, kapsam:"dis",
+  etiket:["siyaset","kurulus"],
+  yer:"Königsberg",
+  yer_id:"Königsberg",
+  kisiler:"I. Friedrich, İmparator I. Leopold",
+  d:"Brandenburg Elektörü III. Friedrich, İmparator I. Leopold'un onayıyla Königsberg'de taç giyerek «Prusya'da Kral» unvanını aldı (18 Ocak 1701). Unvan Doğu Prusya'dan alınmıştı, çünkü orası Kutsal Roma İmparatorluğu'nun dışındaydı ve imparatora bağlı bir elektör ancak imparatorluk sınırları dışında kral olabilirdi. Hohenzollern hânedanının dağınık toprakları bu tarihten sonra tek bir devlet adıyla anılmaya başlandı. Atlasta Königsberg, Memel, Berlin ve Magdeburg bu günden itibaren `prusya` kimliğiyle boyanır.",
+  kaynak:"prusya" },
+
+{ t:"1807-07-09",
+  b:"Tilsit Antlaşması — Prusya topraklarının yarısını kaybetti, Varşova Dukalığı kuruldu",
+  tur:"antlasma",
+  onem:3, dunya:4, kapsam:"dis",
+  etiket:["siyaset","diplomasi","antlasma"],
+  yer:"Tilsit",
+  kisiler:"III. Friedrich Wilhelm, Napolyon Bonapart, I. Aleksandr",
+  d:"Jena-Auerstedt bozgunundan sonra Prusya, Napolyon ile Tilsit'te ağır bir barışı kabul etmek zorunda kaldı (9 Temmuz 1807). Elbe'nin batısındaki bütün toprakları ile 1793 ve 1795 paylaşımlarında aldığı Polonya topraklarını bıraktı; bu ikincilerden Varşova Dukalığı kuruldu ve Białystok çevresi Rusya'ya verildi. Prusya nüfusunun ve toprağının yaklaşık yarısını yitirdi, ordusu 42.000 ile sınırlandı. Atlasta Poznan ve Toruń bu günden itibaren Varşova Dukalığı'na, Białystok ise Rusya'ya geçer.",
+  kaynak:"prusya" },
+
+
+{ t:"1648-10-24",
+  b:"Vestfalya Barışı — Otuzyıl savaşları sona erdi, Kutsal Roma'nın birliği çözüldü",
+  tur:"antlasma",
+  onem:2, dunya:5, kapsam:"dis",
+  etiket:["siyaset","diplomasi","antlasma"],
+  yer:"Münster ve Osnabrück",
+  kisiler:"III. Ferdinand, Kraliçe Christina, XIV. Louis",
+  d:"Otuzyıl savaşlarını (1618-1648) bitiren antlaşmalar Münster ve Osnabrück'te aynı gün imzalandı (24 Ekim 1648). Kutsal Roma İmparatorluğu'nun üç yüz kadar prensliği kendi dış siyasetini yürütme hakkı kazandı; imparatorluk bir devlet olmaktan çıkıp bir çatıya dönüştü. TDV `almanya` maddesi barışı ve parçalanmayı anlatır («Almanya 300'e yakın devlete bölündü») ama toprak ayrıntısına girmez; aşağıdaki devir standart akademik anlatıya dayanır: İsveç Batı Pomeranya'yı ve Stettin'i aldı, Brandenburg Doğu Pomeranya ile Magdeburg başpiskoposluğunun beklentisini kazandı — Hohenzollern'in 1701'de krallığa yürüyecek toprak birikimi burada başlar. Hollanda ve İsviçre'nin bağımsızlığı resmen tanındı. Osmanlı açısından önemi dolaylı ama büyüktür: Habsburglar batı cephesinden çekilince Orta Avrupa'da yeniden doğuya dönebilecek bir güç doğdu.",
+  kaynak:"almanya" },
+
 ];

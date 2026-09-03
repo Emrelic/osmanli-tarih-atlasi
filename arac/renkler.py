@@ -599,6 +599,26 @@ BOYALAR = {
     #   çakışmasıydı ve bu hamle onu da kapattı ⇒ almanya artık TEMİZ.
     "almanya":    ("Kutsal Roma / Almanya",  "#78d028"),
     "lehistan":   ("Lehistan-Litvanya",      "#fc87c9"),
+    # 🔴 SEÇİM — çözücünün KENDİ önerisi REDDEDİLDİ (3 Eylül 2026).
+    #    `--oner prusya` → #242ad2 dedi ve "en yakın engel ΔE 16,8" diye
+    #    imzaladı. Bağımsız ölçüm çürüttü: `iskocya` ile **ΔE 2,62**,
+    #    yani pratikte AYNI RENK. Sebep tek satırda:
+    #        oner()          engel = Voronoi komşuları + Osmanlı ikilisi = 10
+    #        engel_kumesi()  engel = künye penceresi ∪ 1500 km eşzamanlı = 41
+    #    ⇒ `oner()` `engel_kumesi()`den DAR bir evren kullanıyor. Ve bu,
+    #    verisi OLAN kimlikler için de geçerli — prusya bunu kanıtladı
+    #    (10 dönem, 8 komşu, ve renk yine kötü çıktı).
+    #    📌 `§11`in `kaffa ↔ sidamo` dersinin ÇÖZÜCÜ tarafı: orada DENETİM
+    #    komşu olmayan çifti kurmuyordu, burada ÇÖZÜCÜ onu engel saymıyor.
+    #    Aynı kör nokta, iki ayrı alette.  🔜 BORÇ: oner() genişletilecek.
+    #    Artefakt denetim/oneri-20260903-210550.txt REDDEDİLEN rengi taşır.
+    #
+    #    Yazılan renk 41 engelle yeniden çözüldü. Emre'nin ölçütü ΔE 25:
+    #        almanya 61,00 · avusturya 49,87 · lehistan 33,55 · rusya 32,92
+    #    En yakın engel `milanoduka` 12,32 — eşiği (12) geçer, SINIRDA.
+    #    Kabul gerekçesi `§11`: sıkılaştırmayı hak eden çifti KRONOLOJİ
+    #    söyler; Prusya ile Milano hiçbir anlatıda yan yana gelmiyor.
+    "prusya":     ("Prusya",                 "#2478d2"),
     # ═══ RUS OVASI KÜMESİ — RENK 2, 7 Ağustos 2026 ═══
     # 🔴 SEBEP 266 YILLIK BİR HAYALET: `devletler.js`te `rusya` 1547-01-16'da
     #   başlıyor, ama `yerlesimler.js` Moskova · Novgorod · Ryazan · Tula ·
