@@ -312,3 +312,75 @@ yarın   Z-0019 (log oku) · Z-0014 (B1) · Z-0015 (kıyı) · Z-0016 (Payas
         ardılı) · Z-0017 (göl toleransı) · Z-0018 (5 terfi adayı)
 sipariş CLAUDEMRE oturumunda — kutu GUI'ye ⏱️ ZAMANLAYICI + 🔢 TOKEN sekmesi
 ```
+
+
+---
+
+# 🌙 3 EYLÜL GECESİ — KOŞU 4 KOŞARKEN
+
+**Durum:** koşu 4 **23:11**'de başladı (~8,5 saat, sabah 07:30-08:00).
+Bekçi nöbette; bitişte 9 beep. `data/` ve üç motor dosyası **DONMUŞ**.
+
+```
+yerleşim 3802 · künye 591 · renk 550 · denetim TEMİZ (çıkış 0)
+yayın r5546 CANLI — koşu 3'ün çıktısı, bugün yayınlandı
+```
+
+## 🟡 ⑥ ÜRETEÇ — üç öneri, ONAYINIZI BEKLİYOR
+
+Kuyruğa **girmediler**; önceliğe siz karar verirsiniz.
+```
+py C:/Users/emrem/OneDrive/Desktop/ClaudEmre/kutu/tespih.py --onayla T-0126
+py C:/Users/emrem/OneDrive/Desktop/ClaudEmre/kutu/tespih.py --reddet T-0126 --neden "..."
+```
+
+**T-0126 · Ters sorgu.** Haritaya tıklayınca o noktanın **tam zaman
+çizgisi** açılsın. Atlas bugün tek yönlü: zaman → harita. *"Kars kimlerin
+elinde kalmış"* sorusu bugün tarihi tek tek gezmeyi gerektiriyor. Veri
+zaten nokta bazlı, şerit **hazır duruyor** — yalnız arayüz gerek.
+
+**T-0127 · Kırılma vurgusu.** Bir maddeye tıklayınca haritada **o gün
+değişen yerler parlasın**. Projenin çekirdek iddiası *"kronoloji ile
+harita birbirini doğrular"* ve `Değişmez 2` bu eşleşmeyi **zaten
+denetliyor** — yani veri var, kullanıcıya gösterilmiyor. İç denetimi
+kullanıcı deneyimine çevirir.
+
+**T-0128 · Belirsizlik görselleştirmesi.** Kural *"gün bilinmiyorsa
+`YYYY-01-01` yaz"* diyor ve **doğru**. Ama harita o gün **keskin** bir
+sınır değişimi çiziyor: kullanıcı 1 Ocak'ta bir şey olduğunu sanıyor.
+⇒ Atlas **taşımadığı bir kesinliği iddia ediyor.** Bugün bir üretim
+uyarısı ihtiyacı ele verdi: iki kayıtta `kesinlik` alanı yazılmış ama
+şemada **yok** — ihtiyaç hissedilmiş, tasarlanmamış.
+
+## 🔴 ⑦ ARAYÜZ OTURUMU — sizin isteğiniz, açan yok
+
+*"Coğrafi katman düğmesi yapıp katmanları üst üste koyabilmeliyiz"*
+demiştiniz: ① coğrafya ② yerleşim ③ koridor ④ siyasî.
+```
+mekanizma VAR (setLayoutProperty · js/app.js)
+dört katmanlı sıralı düğme YOK
+`js/app.js` · `css/style.css` Oturum 1'in — ve açık arayüz oturumu YOK
+```
+⇒ **Açayım mı?** Aynı oturum şu kusuru da temizler: üst bardaki
+`#surum-etiketi` **ölü bir kopya** (aynı `id` iki yerde, üstteki hiç
+doldurulmuyor — çalışan etiket haritanın sol altındaki).
+
+## 🔴 ⑧ COĞRAFYA KATMANI — kararınız gerekiyor
+
+Sorduğunuz *"çöl orman bataklık bozkır ova yayla vadi"* katmanı **hiç
+yok**, ve elimizdeki veri modern sınırlar taşıyor.
+```
+🅐 modern `ne_10m_geography_regions` sınırlarını DAMGAYLA kabul et
+   (hızlı · anakronik · "bu sınırlar bugünkü" diye yazılır)
+🅑 tarihî biyom verisi ara (yavaş · doğru · belirsiz süre)
+```
+📌 Ve `etopo2022_30s` yükseklik verisi **indirilmiş ama hiçbir araç
+okumuyor** — yükseklik/rakım katmanı bu karardan bağımsız açılabilir.
+
+## 🔴 ⑨ YOL EKSENİ — ölçüldü, ve hiç başlamamış
+```
+koridor düğümü 135 · Osmanlı çekirdeğinde 106 · Sahra altı 27 · Orta Asya 2
+K.Amerika · Orta Amerika · G.Amerika · Avustralya · Sibirya · Himalaya: SIFIR
+viabundus ve OWTRAD `veri-kaynak/` altında ama HİÇBİR ARAÇ OKUMUYOR
+```
+⇒ İlk adım yeni veri aramak **değil**, elimizdekini bağlamak.
