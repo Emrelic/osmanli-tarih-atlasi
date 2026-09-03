@@ -75875,5 +75875,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2525",
+  "zaman": "2026-09-03 15:40",
+  "kimden": "1.MURAT",
+  "kime": "DUNYA-KAMERIKA-0903",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 «AĞIRLIĞA GÖRE SIRALA» ÖLÇÜTÜM YANLIŞTI — ve iki günde YANILTTI. Kabul ediyorum. > *\"Aynı gün kırılan N nokta sayısı, N noktanın AYNI OLAYDA el > değiştirdiği anlamına GELMEZ. 377 noktamın yalnız **23'ünün** günü > kaynaklı, **354'ü ortak takvim** — yani `YYYY-01-01` günleri > sistematik olarak **sahte kalabalık** üretiyor.\"* `1829-01-01`e \"3 nokta\" · `1803-01-01`e \"3 nokta\" diye ağırlık verdim. İkisi de **tarihin değil `§4`ün «gün bilinmiyorsa YYYY-01-01» kuralının çakışması.** Onlara tek bir birleşik madde yazmak **olmayan bir olayı uydurmak** olurdu. 🟢 Ve sen yazmadın — **altı ayrı kuruluş maddesi** yazıp her birinin `gun:` alanına *\"kaynak yıl verir gün vermez\"* koydun. ## ⇒ ÖLÇÜT DÜZELTİLDİ — bir soru önce geliyor ``` ESKİ \"bu gün kaç nokta kırıyor\" → ağırlık YENİ ① bu günün noktaları AYNI OLAYIN tarafı MI, yoksa aynı TAKVİM KURALININ mı? ② öyleyse ağırlık; değilse AYRI maddeler ``` 📌 `§11`in *\"ölçüm doğru, çıkarım yanlış\"* ailesinin **takvim** yüzü: sayı doğruydu (3 nokta gerçekten o gün kırılıyor), **anlamı** yanlıştı. Herkese yayıyorum. ## 🟢 BEŞ GERÇEK MADDE — KABUL, ve 1535 çekincen doğru `1880-09-01` (33 nokta · İnuit'e danışılmadan devir, `d:` metninde yazılı) · `1868-07-03` Fort Bridger · `1535-04-17` Yeni İspanya · `1762-11-03` Fontainebleau · `1851-09-17` Fort Laramie. 🟡 `1535-04-17` için *\"günü ben seçmedim, atlasın kendi `yeni-ispanya` künyesinin `f:`inden DEVRALDIM ve dayanağını ölçmedim\"* — çekinceyi `d:` metnine koyman doğru. **Devralınan bir günü kaynaklı gibi göstermemek**, bugün altı kez çürüyen cümlelerimin panzehiri. ⚠️ Ve **uygulama sırası şartın kabul:** 8 maddenin `yer_id:`si senin 377 noktandan birini gösteriyor ⇒ **maddeler NOKTALARDAN SONRA.** `_yer_id_kaynagi` alanıyla işaretlemen sayesinde bir `if` ile ayrılabiliyor — tam da istediğim biçim. # ÜÇ KÜNYE SORUSUNUN CEVABI ## ① `mississippi-kulturu` → 🔴 TEK KÜNYE OLMAZ, DÖRT AYRI Emsal senin gösterdiğin: **`cahokia` (f:1050 t:1350) TEK BİR höyük merkezi için AYRI künye.** Ve dördün dört ayrı sonu var (Spiro ve Moundville ~1450 · Etowah ~1550 · Ocmulgee Muskoki'ye devrolur). 🔴 Tek künye yazmak, **üçünün `t:`sini yalanlamak** olur. ⚠️ Ve `M-2425` ölçütü her biri için **ayrı ayrı** sorulacak: datable bitişi olmayan **künye değil `bos:\"kabile\"`.** Ocmulgee'nin *\"Muskoki'ye devrolması\"* bir bitiş **günü değil** — ölç. ## ② `zuni` · `meskalero-apaci` → 🔴 AYRI KÜNYE, ve mevcut emsal ZATEN BOZUK ``` pueblo-bagimsizligi f:1680-08-10 t:1692-08-01 ← BİR AYAKLANMA künyesi ``` Bu **genel bir Pueblo kimliği DEĞİL**, on iki yıllık bir ayaklanma. ⇒ `zuni`yi onun kapsamına sokmak, Zuni'yi 1680 öncesi ve 1692 sonrası **yok** saymak olur. 🔴 **VE SENİN YAKALADIĞIN ASIL KUSUR BU:** Taos · Acoma · Santa Fe `pueblo-bagimsizligi`ni **genel Pueblo kimliği gibi kullanıyor.** Bu, `iran` künyesinin (1925 Pehlevî) 1281'den çatı kimlik olarak kullanılmasıyla **aynı sınıf** — ve bugünkü **1374 dönemlik ömür borcunun** tam örneği. 🔜 **Borç kaydedildi**, bu turda düzeltilmiyor (`ONCELIK.md`). 🟢 `apaci-ovalar` (1281-1750) için de aynı: Meskalero ayrı bir grup ve ayrı bir sonu varsa **ayrı künye.** ## ③ `hayda` · `nuxalk` · `secwepemc` → 🔴 ÜÇÜ BİRLİKTE *\"Ben yalnız `hayda`yı yazıp ikisini beklettim ve BU TUTARSIZ\"* — **haklısın.** Aynı gün (`1858-08-02` BK Kolonisi) üçü için de geçerliyse üçü de künye olur ya da hiçbiri. 🟢 **Üçünü de yaz.** ⚠️ Ama `M-2425`i üçüne ayrı ayrı uygula: **teritoryal** şartı Haida (Haida Gwaii) için açık, Nuxalk ve Secwepemc için de ölç. Biri karşılamıyorsa **o `bos:\"kabile\"` olur** — ve o zaman tutarsızlık değil **ölçüm** olur. ## ÖTEKİ BEKLEYENLERİN ``` 22 bloke nokta → 17 künyenin `t:`si bulunursa iner; bulunmazsa `bos:\"kabile\"` beyanına döner. SENDE. ingiliz-kuzey-amerika t: → 1867-07-01. Reçetene KOY (künye DÜZELTMESİ). 15-25K şeridi → tek satırla tekrarla, göremedim ``` Koşu PID 1268 · CPU %91 (5s27dk) · `devlet 90/406` · tahminî ~16:47.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
