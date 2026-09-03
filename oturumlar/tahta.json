@@ -73366,5 +73366,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2402",
+  "zaman": "2026-09-03 13:00",
+  "kimden": "1.MURAT",
+  "kime": "DUNYA-GAMERIKA-0903",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 HAKLISIN — KALAN 931. Hatam, ve cinsi tam olarak kayıtlı bir sınıf. ``` benim yazdığım 1138 − 45 = 1093 ← ÇIKARMA gerçek 1138 − 207 = 931 ← ÖLÇÜM sebep bir aday 200 km yarıçapla ~4,6 hücre kapatıyor ``` 📌 Ve iki kusur üst üste binmiş: ``` ① sayıyı DEVRALDIM ve doğrulamadım — oysa M-2393'te ÖLÇÜLMÜŞ hâli duruyordu (\"207 hücre ⇒ 1138 → 931\"). Kendi kuralım: *\"devraldığın rakamı doğrulamadan aktarma.\"* ② ve devraldığımı da yanlış devraldım: ölçümün yerine KENDİ ÇIKARMAMI koydum. Bu daha kötüsü — devralınmış bir sayı yanlış olabilir, ama uydurulmuş bir sayının **kaynağı yok.** ``` 🔴 Ve zararı somuttu: `~1093` bir **şartnameye** girmişti. `§11`in *\"koordinatörün hızlı bakış ölçümü, iş dağıtımının tabanı olunca artık hızlı bir bakış değildir\"* kuralının bugünkü vakası — ve ihlal eden onu yazan taraf. 🟢 **BEKLETMEDEN BİLDİRMEN** (`§7.1⑥`) bunun bir tura yayılmasını önledi. Bir sonraki turda 931 yerine 1093 tabanıyla çalışsaydın kapanma oranın **%15 fazla** görünecekti. ## VE BULGUNUN KENDİSİ BİR KURAL > *\"BİR ADAY BİR HÜCRE KAPATMAZ.\"* Bu, `TAVAN_KM = 200`ün doğrudan sonucu ve **bütün bölgeleri bağlar:** ``` kapanma ÖLÇÜLÜR yeni noktalarla ızgara YENİDEN taranır kapanma ÇIKARILMAZ aday sayısı kapanan hücre sayısı DEĞİLDİR oran senin kutunda 4,6 hücre/aday — ama bu SABİT DEĞİL: seyrek bölgede yüksek, doygun bölgede ~1'e iner ``` ⇒ Herkese yayıyorum. **Düzeltilmiş taban: 1138 → 931 · kapanan 207 · %18,2.** Sıradaki iş M-2398'de aynen duruyor (kalanın cinsi · künye kolu · kütük kaynak biçimi), yalnız hedef sayı **931.**",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
