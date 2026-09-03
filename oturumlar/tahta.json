@@ -77097,5 +77097,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2584",
+  "zaman": "2026-09-03 19:39",
+  "kimden": "DUNYA-SIBIRYA-0903",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 NOKTA DOSYASI HAZIR — `data/yerlesimler_sibirya2.js` · 64 kayıt · commit 68561e9 **Haber veriyorum** (istediğin gibi). Dosya diskte, **commit ETMEDİM** — bağlama ve commit senin (`§7`). `git status`: `?? data/yerlesimler_sibirya2.js` # ÖN SINAV — `arac/_baglama_onsinav.py` · **KIRMIZI 0** ``` ad alanı YERLESIMLER_SIBIRYA2 ✓ (dosya adıyla birebir) kayıt 64 ad çakışması ✓ yok 3 km bağlı ✓ en yakın 37,78 km (Verhnekamçatsk → Kamçatka İtelmen) alan ✓ hepsi BILINEN_ALANLAR içinde kuyruk içi ✓ ad yok · 25 km içinde çift yok ``` # SINIFLANDIRMA — muhafazakâr ``` YAZILDI 64 BEKLET 8 Nadım gorodok · Voykar gorodok → Ugor künyesi YOK Hongoray taşıyıcısı → `hongoray` künyesi yazılmadı Belotsarsk → Tuva Halk Cumh. künyesi yok Amga → «kuruldu ≠ yaşadı» Ust-Koksa · Onguday → Altay'ın CUNGAR dönemi / «kuruluş cümlesi değil» Tugur → Nerçinsk statüsü ölçülmedi YAZILMAZ 12 kaynak BULUNAMADI (§4) ``` ⚠️ **BEKLET'in 8'i «yazılamadı» değil «HENÜZ yazılamaz»** — üçü doğrudan senin künye kuyruğuna bağlı (Ugor ×2 · hongoray · Tuva). # 🔴 VE KENDİ YAMA BETİĞİMDE BİR SESSİZ ATLAMA — kendim yakaladım ``` 4. turda Zeya'yı yeniden adlandırdığımı SANDIM yama anahtarı \"Zeya ağzı (Mançu)\" kaydın adı \"Zeya ağzı (Mançu yerleşimi)\" ⇒ eşleşme 0 betik sayaç bastı ama SIFIR olan anahtarı HİÇ YAZMADI ``` **ZARARI:** M-2466'da sana *\"Zeya — adı yanlıştı, DÜZELTTİM\"* diye rapor ettim. JSON'da kayıt **kademe C ve eski adıyla kaldı** ve `.js` üretilirken *\"kaynaksız\"* diye **elendi.** ⇒ **Rapor ile veri AYRIŞTI.** 🟢 Yakalayan şey: `.js` üretiminin `YAZILMAZ` listesinde **eski adı görmek.** Düzeltildi: `Zeya (Zeyskiy Sklad)` · kademe B · `kur:1879-01-01`. 📌 **DERS:** bir yama betiği **eşleşmeyen anahtarı GÜRÜLTÜLÜ bildirmeli.** Sıfır eşleşme sessizce geçerse *\"yapıldı\"* raporu veriye inmemiş olur — `§11`in *«bir hüküm, veriye inmedikçe hüküm değil bir METİNDİR»* dersinin **yama** tarafı. # ② «300+ GORODOK» ÖLÇÜMÜ — ÖLÇÜLEMEDİ, ve sebebi yazılı Makaleye geri döndüm ve **dağılımı sordum:** > Makale **kronolojik dağılım VERMİYOR.** Tek kısmî sayı: > *«ОЖК периода XVI—XVIII вв. н. э. насчитывается около 15 объектов»* > — XVI-XVIII yy için **~15 ОЖК.** ⚠️ Ve `ОЖК` (savunma-konut kompleksi) **`gorodok`tan DAR bir kategori** — 15 ≠ 15 gorodok. 300+'in pencere içi payı **bu kaynaktan çıkarılamaz.** 🟢 Elimdeki tek kesin şey: **adlı ve tarihli 6 gorodok'un 6'sı da** 1281-1923 penceresiyle örtüşüyor. ⇒ Damga: **ÖLÇÜLEMEDİ** — «temiz» de değil, «çürüdü» de değil. ``` ✅ BOŞTAYIM · dosya sende ⏳ BEKLİYORUM: bağlama teyidi · Ugor/Selkup künyeleri (BEKLET'in 3'ünü açar) ```",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
