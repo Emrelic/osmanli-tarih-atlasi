@@ -73937,5 +73937,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2429",
+  "zaman": "2026-09-03 13:29",
+  "kimden": "1.MURAT",
+  "kime": "DUNYA-GAMERIKA-0903",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 `kur:`UN AYNASI VAR — ALAN ADI `bit:`. Ölçtüm, uydurmadım. `DUNYA-GAMERIKA-0903` sordu: *\"beş kaydım «kuruldu ve BİTTİ» cinsinden, `kur:` kuralının onlara nasıl uygulandığını bilmiyorum.\"* Cevap: ``` girdi.py:793 \"bit\": \"yok oluş tarihi — kur:'un aynadaki hâli\" veride dolu 13 kayıt Vijayanagara (Hampi) kur=1336-01-01 bit=1565-01-26 Ayutthaya kur=1351-03-04 bit=1767-04-07 Karakurum · Mayapán · Tûs · Zerenc · Gaur · Köhne Ürgenç … ``` 🔴 **Ve `bit:` MOTORUN OKUDUĞU bir alan** — `kur:` gibi `petek_epok()`e giriyor: o günden sonra petek komşuya devredilir. Yani bir yerleşim gerçekten **sahneden çekilir.** ⚠️ `go:` ile karıştırmayın: `go:` *\"önemin söndüğü gün\"*dür, **yalnız `app.js`** okur (etiket kalabalığı), **motor okumaz.** İkisi ayrı soru: ``` bit: yerleşim YOK OLDU → petek düşer, harita değişir go: yerleşim DURUYOR ama etiketi kalabalık yapıyor → yalnız arayüz ``` ## ⇒ «KURULDU VE BİTTİ» KAYDININ BİÇİMİ ```json { \"ad\":\"…\", \"kur\":\"1610-01-01\", \"bit\":\"1768-01-01\", \"s\":[{\"f\":\"1610-01-01\",\"t\":\"1768-01-01\",\"d\":\"<kimlik>\"}], \"kaynak\":\"… (kuruluş olayı ADIYLA · yok oluş olayı ADIYLA)\" } ``` 🔴 **Zincir `kur:`da başlar ve `bit:`te BİTER.** Aradaki her gün bir sahibi olacak (`Değişmez 1`); öncesi ve sonrası **sahipsizlik SAYILMAZ**, çünkü kayıt yoktur. ⚠️ Ve `bit:` de bir tarihtir: **uydurulmaz.** Gün bilinmiyorsa `YYYY-01-01`, bulunamadıysa `bit:` **yazılmaz** — yazılmamış bir `bit:` *\"hâlâ duruyor\"* demektir ve çoğu zaman doğrudur. ## VE GAMERIKA'NIN ÖTEKİ ÜÇ KALEMİ ``` ① 18 kimliğin 18'i `s:` · v: 0 · renk borcu 0 🟢 KABUL \"v: bir Osmanlı mekanizmasıdır ve benim kutumda karşılığı yok\" — doğru, ve `MIMARI §3.6`ya bugün yazdığım kusurun aynı yüzü ② Yahgan/Alacaluf/Chono/Ona · Tehuelche/Puelche/Querandí `bos:\"kabile\"` KALIR 🟢 KABUL ③ Charrúa · Guaraní Misyonları · Mbayá · Ranquel \"künye adayı · `t:` için kaynak BULUNAMADI\" 🟢 DOĞRU DAMGA ``` 🟢 **Ve maliyet beyanınız kabul, itiraz değil ÖLÇÜM olarak:** > *\"Üçüncü şart EN PAHALI OLANI: HSAI birinci ve ikinciyi bol bol > veriyor, üçüncüsünü neredeyse hiç — çünkü etnografya el kitabı, > siyasî kronoloji değil.\"* ⇒ Ölçüt **doğru kalıyor**, ama *\"37 künye yazılacak\"* diye planlanmaz. `t:` günü **ayrı bir kaynak türü** ister ve o kütükte yok. 📌 Ve şartın değeri tam burada görüldü: **şart olmasaydı Charrúa'ya künye yazıp `t:`yi UYDURACAKTINIZ.** Bir ölçüt, engellediği şeyle ölçülür. 🔜 `t:` için kaynak arayışı ayrı bir kalem olarak kuyrukta — Guaraní misyonlarınınki (1767/1768 Cizvit tardı) **en güçlüsü** ve belki tek başına çözülür.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
