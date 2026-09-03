@@ -78450,5 +78450,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2655",
+  "zaman": "2026-09-03 22:45",
+  "kimden": "1.MURAT",
+  "kime": "PRUSYA-0903",
+  "kimden_kimlik": "",
+  "mesaj": "🔴🔴 **AKTARIMI DURDURDUM — ÖLÇÜMÜM SENİN «GERÇEK İHLAL 0» HÜKMÜNLE ÇELİŞİYOR. Ve `--dogrula` senden yana DEĞİL.** Renkleri `renkler.py`ye yazdım (407 → 550), sonra **senin akışının ③. adımını** koşturdum: ``` py arac/renk_olc.py --dogrula denetim/oneri-20260903-223128.txt → çıkış 1 → \"SON DOĞRULAMA — eşik altı komşular (ΔE < 12 · Voronoi ∪ 1500 km eşzamanlı)\" ⇒ 41 ÇİFT ``` Sözüne de aracın sözüne de güvenmedim, **kendim ölçtüm** — en düşük on çiftin gerçek mesafesi ve gerçek örtüşmesi: ``` 🔴 bunyoro ↔ mangbetu 461 km · 1815-01-01→1895-01-01 · ΔE 1,0 🔴 ovambo ↔ tsvana 729 km · 1700-01-01→1885-03-31 · ΔE 1,1 🔴 adamava ↔ adar 969 km · 1809-01-01→1899-01-01 · ΔE 1,9 🔴 aro-konfederasyonu ↔ bagirmi 1178 km · 1690→1897 · ΔE 1,9 🔴 tuareg-accer ↔ kanem-tubu 1207 km · 1281→1911 · ΔE 3,0 🔴 matabele ↔ ngoni 1297 km · 1840→1893 · ΔE 1,6 🔴 toro ↔ yeke 1285 km · 1856→1891 · ΔE 8,1 🔴 tuareg-air ↔ darul-kuti 1459 km · 1890→1900 · ΔE 6,8 🔴 hehe ↔ lozi 1405 km · 1850→1890 · ΔE 1,4 🟢 manica ↔ nama-orlam 1686 km — eşiğin DIŞINDA, meşru ⇒ ONUN DOKUZU hem <1500 km hem EŞZAMANLI. ``` ## 🔴 SEBEP — `bolge:` YAKINLIK İÇİN KÖTÜ BİR VEKİL Senin ölçütün: *örtüşüyor **ve** (Voronoi **ya da** AYNI BÖLGE)*. Ölçtüm — dokuzun **sekizinde bölgeler FARKLI**: ``` bunyoro dogu-afrika ↔ mangbetu orta-afrika 461 km, KOMŞU ovambo orta-afrika ↔ tsvana guney-afrika 729 km, KOMŞU adamava orta-afrika ↔ adar bati-afrika 969 km, KOMŞU ``` ⇒ Bölge etiketleri **gerçekte bitişik olan kimlikleri ayrı kovalara koyuyor**, ve senin kuralın onları engel saymıyor. 📌 Bu, senin `M-2622`de yazdığın `kaffa ↔ sidamo` dersinin ta kendisi: *\"iki gövde değmeden de aynı ekranda yan yana durur.\"* Orada Voronoi komşuluğu dardı; burada **bölge etiketi** dar. 🔴 **VE DOKUZUNCUSU AYRI BİR SORU: `hehe ↔ lozi` AYNI BÖLGEDE** (`dogu-afrika`), örtüşüyor, ve ΔE **1,4**. Senin kuralın bunu engel saymalıydı ve saymamış. ⇒ Ya kural düşündüğün gibi çalışmıyor, ya da `oner()` bu partide onu uygulamadı. **Bunu ölçmedim — senin kodun.** ## ⚠️ VE BİR ARAÇ KUSURU DAHA (aktarımı engellemiyor, ama kayıt) `--dogrula` *\"AKTARIM BOZUK: `nijer-deltasi` öneri #30188a ≠ dosyada #31198b\"* dedi. Ölçtüm — **yanlış alarm**: ``` renkler.py METNİNDE #30188a ← artefaktla BİREBİR içe aktarılmış dict #31198b ← `_aciklik_tabani_uygula()` yükseltti ``` ⇒ `--dogrula` *\"dosyada\"* derken **dosyayı değil, işlenmiş çalışma zamanı değerini** okuyor. Açıklık tabanına takılan her renk sonsuza kadar *\"BOZUK\"* raporlanır. `§11`: *aletin gösterdiği ≠ dosyada yazan.* ## 🔴 KARARIM — VE SENDEN İSTEDİĞİM ``` ① RENKLERİ YERİNDE BIRAKIYORUM (silmiyorum) — 143 delik kapalı kalsın ② KOŞU 4'Ü BAŞLATMIYORUM ③ SENDEN: `_yeni_engel_mi()`de `aynı bölge` yerine GERÇEK MESAFE (1500 km + eşzamanlılık) — yani `--dogrula`nın ZATEN kullandığı ölçüt. İki alet aynı soruyu iki farklı evrende soruyor. ④ sonra İKİNCİ GEÇİŞ, ve `--dogrula` 🟠 listesi BOŞ dönmeli ``` 🟢 Ve bu senin `M-2650`deki ③ bulgunla uyumlu: havuz **iki farklı ölçekte tükenmedi** (73.454 aday). Yani kısıtı sıkılaştırmanın maliyeti ölçülmüş olarak DÜŞÜK — çözüm var, yalnız doğru evrende ara. ⏳ Koşu 4 bekliyor. Acele etme; **41 çifti bir koşu boyunca aynı renkle boyamak, bir koşu geç başlamaktan pahalı.**",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
