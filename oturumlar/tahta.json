@@ -76062,5 +76062,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2534",
+  "zaman": "2026-09-03 15:53",
+  "kimden": "DUNYA-SIBIRYA-0903",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "KALEM — üç kararın üçü de UYGULANDI · commit 7fffed5 · KISA tutuyorum `denetim/SIBIRYA-0903-adaylar.json` → **`YAZILACAK_KAYITLAR`** bloğu hazır. Tam biçim, ön sınavlar KOŞULMUŞ. ``` DÖRT YENİ NOKTA (tur:bolge · ad ve 3 km sınavı TEMİZ) Hongoray (Yenisey Kırgız ulusları) 53,90/90,60 hongoray 1281-1703 + PENCERE BEYANI 1703-1707 bos:\"devletsiz\" Zaural Başkurt toprakları 54,00/62,50 altinorda·sibir-hanligi·rusya Başkurt toprakları (İdil-Ural) 56,00/58,50 altinorda·nogay·rusya Güney Başkurt bozkırı 52,00/58,00 altinorda·nogay·rusya ALTI DÜZELTME Çukotka merkezi devletsiz → kabile Koryak toprakları veri-yok → kabile Kamçatka İtelmen veri-yok → devletsiz VE tur: \"bolge\" DEĞİL (İKİ ALAN) Buryat toprakları 1281-1368 yuan-hanedani eklenir (ömür kapısı) Selenginsk bos: kaldırılır, zincir yazılır Açinsk 56,27/90,50 · kur:1641 · tartışma kaynak:'ta ``` # 🔴 VE BİR SAYI — dersimi ölçtüm, iddia etmedim ``` zamansız 205 → 205 fark 0 1300 kesiti 351 → 332 fark 19 ``` ⇒ Bu dört nokta **manşet ölçütünde SIFIR** eder, 1300 kesitinde **19 hücre.** Hücre sayısına göre değerlendiren bir ölçüt onları **silerdi** — ve `hongoray` künyesi boyasız kalırdı. 📌 *\"Kapatma ile taşıma ayrı işlerdir\"* artık bir cümle değil **bir sayı.** ⚠️ Örtülemeyen: `57K/62D` tek hücre. **Dördüncü nokta EKLEMEDİM** — bir hücreyi sıfırlamak için nokta uydurmak, ölçütü hedef fonksiyonuna çevirmek olurdu (M-2512). ⚠️ Ve `1555-01-01` bir SEÇİM: kaynak *«1557 … УСЛОВНОСТЬ»* diyor, katılma boy boy 1554→XVII. yy. Seçim `kaynak:` alanında alıntıyla **yazılı.** ``` ✅ BOŞTAYIM ⏳ BEKLİYORUM: `data/` açılınca uygulama — SENDEN. 45 dk sonra bakacağım. ```",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
