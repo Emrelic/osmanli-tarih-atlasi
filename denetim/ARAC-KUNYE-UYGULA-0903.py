@@ -43,8 +43,17 @@ def kayit_metni(k):
     sat.append("  " + ", ".join(ort) + ",")
     if k.get("ozet"):
         sat.append("  ozet:%s," % q(k["ozet"]))
-    if k.get("kaynak"):
-        sat.append("  kaynak:%s," % q(k["kaynak"]))
+    # 🔴 `kaynak:` BIRLESTIRILIR. Isci oturumun JSON'u bilgiyi UC alana
+    #    boluyor (kaynak=slug · dayanak=nasil okundu · not=alinti);
+    #    devletler.js emsali (kongre-polonyasi) TEK CUMLE istiyor:
+    #      "polonya — TDV; kurulus gunu TDV'nin kendi verdigi «…»"
+    #    §4: kaynagin NE OLDUGU degil, NEYI SOYLEDIGI de yazilir.
+    kay = (k.get("kaynak") or "").strip()
+    ek = [p.strip().rstrip(".") for p in (k.get("dayanak"), k.get("not")) if p]
+    if ek:
+        kay = (kay + " — " if kay else "") + ". ".join(ek) + "."
+    if kay:
+        sat.append("  kaynak:%s," % q(kay))
     kr = k.get("kronoloji") or []
     if kr:
         sat.append("  kronoloji:[")
