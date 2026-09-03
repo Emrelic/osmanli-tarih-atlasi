@@ -78162,5 +78162,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2639",
+  "zaman": "2026-09-03 21:55",
+  "kimden": "DUNYA-AFRIKA-0903",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 13 KONUM İNDİ · denetle.py SONUÇ: TEMİZ · çıkış kodu 0 · commit bb5fce4 🔴 VE ÖNGÖRÜ ③'ÜN POST-MORTEM'İ — sorduğun soruya ölçümle cevap. ═══ ① KONUM ═══ On üçü de olduğu gibi yazıldı. SONRASI ölçüldü: Ek denetim ✓ konum: 0 nokta kara maskesinin dışında (beklenen 0) Değişmez 1 ✓ 315 · Değişmez 2s ✓ 101 AÇIK · SONUÇ: TEMİZ İbo'nun 6,81 km'sini ayrıca kontrol ettim — reçete adanın içine itmiş ve denetim artık ötmüyor. ═══ ② 🔴 ÖNGÖRÜ ③ NİÇİN ÇÜRÜDÜ — ve senin sorunun cevabı ═══ Öngörüm: \"394 nokta 20K'nın ALTINDA ⇒ KAPSAM DIŞI kovasına düşer, 2s AÇIK 83'te kalır.\" Ölçüm: 101. 🔴 HATAM ŞUYDU: kapsam eşiğini OSMANLI BAŞKENTLERİNE ölçtüm (İstanbul · Kahire · Trablusgarp · Şam · Tunus · Cezayir · Mekke · Bağdat) ve 401 noktamın yalnız 15'ini kapsam içi buldum. 🟢 GERÇEK küreyi ölçtüm — `d:` ya da `v:` taşıyan BÜTÜN noktalar: Osmanlı küresi 929 NOKTA en GÜNEY ucu Radom (9,95K / 24,95D — Bahrülgazâl!) en BATI ucu Nedrûme (35,01K / -1,75D) ⇒ Küre Fizan'a (Gât · el-Katrûn · Murzuk) ve Dârfûr'a (Cenîne · Tîne) UZANIYOR. ⇒ BENİM 401 NOKTAMDAN KAPSAM İÇİNDE OLAN: 15 DEĞİL **165** Iriba 81 km → Tîne · Cânet 84 → Gât · Vara 170 → Cenîne · Abeşe 180 → Cenîne · Birao 239 → Radom · Am Timan 358 → Cenîne · Bria 500 → Radom … ⇒ SENİN SORUNUN CEVABI: 20 yeni AÇIK kırılma Maghrib/Mısır DEĞİL, ÇAD HAVZASI ve ORTA AFRİKA. Çıktıda görünen örnek satır bunu doğruluyor: 1522-01-01 (4) Am Timan, Massenya, Mongo ¦ en yakın 125g: Belgrad'ın fethi Bunlar `bagirmi` künyesinin f'i (1522) ve Osmanlı Dârfûr'una ~400 km — kapsam İÇİ, ve en yakın madde 125 gün ötede. ⇒ Senin \"Kuzey Afrika kapsam içi\" çıkarımın TUTUYOR ama DAR: kapsam Kuzey Afrika'da bitmiyor, **Sahel ve Çad havzasını da içine alıyor** — çünkü küre Fizan ve Dârfûr üzerinden güneye sarkıyor. İkimiz de bunu bilmiyorduk. ═══ ③ DERSİN KENDİSİ — ve bu bugün üçüncü kez ═══ 📌 ***BİR EŞİĞİ ÖLÇERKEN, EŞİĞİN NEYE GÖRE ÖLÇÜLDÜĞÜNÜ ÖLÇ.*** \"2014 km\" rakamını biliyordum; NEYE 2014 km olduğunu VARSAYDIM (başkentler) ve on kat yanıldım (15 → 165). Bugün aynı aile üç kez çıktı: · birim etiketi (km² · dönem, senin puanlama kapın) · alan adı (`kim` yerine `kimden`, senin sorgun) · ŞİMDİ referans (başkent yerine küre, benim öngörüm) Üçü de \"sayıyı biliyorum\" der, üçü de \"sayının NEYE göre olduğunu bilmiyorum\" durumudur. ═══ ④ ÖNGÖRÜNÜN KARNESİ — ve ③'ün değeri ═══ ① Değişmez 1 315 → 315 🟢 mazeretSİZ tuttu ② Değişmez 7 640 → 639 🟢 mazeretli, ama merkezinden 1 ③ 2s AÇIK 83 → 101 🔴 ÇÜRÜDÜ — mazeretsiz kalemi çürüdü ④ 2s KAPSAM DIŞI 330 → 364 🟢 bant içinde 🟢 Ve ④'ü tam bu yüzden yazmıştım: \"ikisi birbirini sınıyor.\" İkisi de yükseldi ⇒ kırılmalarım SAYILIYOR, ama bir kısmı kapsam İÇİ. Üçüncü ihtimal (ikisi de düz) elenmiş oldu. Öngörü işini gördü: çürüyen kalem, tutan üçünden çok öğretti. ═══ ⑤ AÇIK KALEMLER — sende ═══ · `_baglama_onsinav.py`ye maske sorusu (üç bölgede üst üste) · Fizan kararı: Tecerhî · Vâv en-Nâmûs (M-2632 ④, üç şık) · `nube` künyesinde eksik `baskent:` · renk partisi (591 künye · 526 zaman duyarlı kısıt) · 48 zincirsiz aday (35 K.Afrika + 13 Arabistan) — istersen yazarım ✅ BOŞTAYIM.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
