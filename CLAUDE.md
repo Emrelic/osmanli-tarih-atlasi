@@ -899,6 +899,59 @@ gibi tek satırlık kayıtlardan oluşan dosyalarda **sessiz veri kaybı** olur.
   ettiği hatanın aynısı, onu düzeltirken üretilmiş hâli. Beşinci boşa giden üretim.
   **Protokol:** üretimi başlatan oturum diğerlerine "girdi kilitli" der, bitince
   "dosya senin" der. İki oturum arası dosya devri sözle yapılır, varsayımla değil.
+
+  🔴🔴 **VE MOTORUN KENDİ SATIRI BU KURALI ÇÜRÜTÜYOR GİBİ OKUNUYOR —
+  2 Eylül 2026'da bir koordinatörü bütün gün yanılttı.** Koşu şunu basar:
+  ```
+  Girdi anlık görüntüsü: 73 dosya kopyalandı → girdi dosyaları SERBEST
+  ```
+  Cümle **yarım doğrudur** ve koordinatör o yarıyı ekibe kural diye
+  tekrarladı (*"`data/*.js` GÜVENLİ, `arac/*.py` KİLİTLİ"*):
+  ```
+  DOĞRU   data/*.js yazmak KOŞUYU ÖLDÜRMEZ — anlık görüntü alındı
+  EKSİK   ama ÇIKTIYI YAYINLANAMAZ HÂLE GETİRİR
+  ```
+  **Bedeli ölçüldü:** koşu 10 saat 35 dakika çalıştı, *"Doğrulama: tüm
+  yerleşimlerin peteği geçerli ✓"* ile temiz bitti, ve yayın kapısı
+  reddetti:
+  ```
+  ✗ YAYIN BAYAT — üretim girdiden geride (sha256 izi, 18 yerleşim dosyası)
+  ✗ üretim izi: taze 3 · BAYAT 4
+    donemler.js · bolgeler.js · devletler_harita.js · petek_govde.js
+  ```
+  Koşu 11:01'de girdiyi dondurdu; 21:36'ya kadar veri **altı kez**
+  değişti (137 yama · ikiz beyanı · Varşova künyesi · Kongre Polonyası —
+  dördü de koordinatörün kendi commit'leri).
+  ⇒ **KOŞU SÜRERKEN `data/` VE `arac/` İKİSİ DE DONMUŞTUR.** Motorun
+  "SERBEST" demesi bunu değiştirmez: o cümle **koşunun sağlığı** hakkında,
+  **çıktının yayınlanabilirliği** hakkında değil.
+  📌 Ve bu, `§11`in *"silinen kodun mezar taşı hayatta kalan kod hakkında
+  bir İDDİADIR ve güven verdiği için kimse onu ölçmez"* dersinin **canlı
+  kod** hâli: burada iddia bir yorumda değil, **koşunun kendi çıktısında**
+  duruyor ve her koşuda tekrar okunuyor.
+
+- 🔴 **NÖBETÇİ DE ALTYAPIYA BAĞLIDIR VE ALTYAPIYLA BİRLİKTE ÖLÜR.**
+  *(3 Eylül 2026)*
+  ```
+  koşu başlangıcı   01:25:36 · PID 16848
+  log son yazım     01:49:26  ← 24 dakika sonra
+  sebep             Emre'nin bilgisayarı kapandı
+  koordinatörün nöbetçisi   AYNI ANDA ÖLDÜ
+  fark edilme       09:37 — SEKİZ SAAT sonra, ve Emre SORDUĞU İÇİN
+  ```
+  🔴 Koordinatör o sabah *"koşu sürüyor"* diye rapor edecekti. Nöbetçi
+  yalnız **olay anında** konuşuyordu; öldüğünde de sustuğu için
+  **sessizlik "iyi gidiyor" diye okundu.**
+  ⇒ **KURAL: bir nöbetçi DÜZENLİ olarak "hâlâ nöbetteyim" demelidir.**
+  Yeni nöbetçi her 60 dakikada bir canlılık raporu basıyor:
+  ```
+  ⏳ koşu SÜRÜYOR · 60 dk · <son log satırı>
+  ```
+  Bir saat ses gelmezse hüküm *"koşu iyi gidiyor"* değil,
+  ***"nöbetçi ölmüş olabilir"*** — ve **sorulur.**
+  📌 `§11`in *"ölçülemedi ≠ temiz"* kuralının **nöbetçi** yüzü: bir
+  nöbetçinin sessizliği bir ölçüm değildir, ve ölçüm sanılırsa en
+  pahalı hâline gelir — çünkü kimse ona bakmaz.
 - **Commit ve push yalnız Oturum 0'dan yapılır** — **TEK İSTİSNA aşağıda.**
   Diğerleri dosyayı yazar, "hazır" der. 12-14 MB'lık üretilmiş dosyalarda git
   çakışması çözmek çok pahalıdır.
