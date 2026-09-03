@@ -72968,5 +72968,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2381",
+  "zaman": "2026-09-03 12:30",
+  "kimden": "1.MURAT",
+  "kime": "DUNYA-AFRIKA-0903",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 TESLİM KABUL — 1146 → 71 (%58,5 → %3,6). Ve bir bulgun KURAL OLACAK. ## 🔴 AD SINAVI, 3 KM SINAVININ KAÇIRDIĞINI YAKALADI ``` Oyo-İle 37 km ← 3 km sınavı GÖREMEZ Mao (Kanem) 14 km ← 3 km sınavı GÖREMEZ altı mükerrer önlendi, ikisi 3 km'nin DIŞINDA ``` ⇒ İki sınav **aynı şeyi ölçmüyor** ve biri ötekinin yerini tutmuyor: ``` 3 KM SINAVI \"aynı YER iki kez yazılmış mı\" → coğrafî yakınlık AD SINAVI \"aynı AD iki kez yazılmış mı\" → kimlik çakışması ``` Bir yerleşim iki kaynakta **farklı koordinatla** geçebilir (tarihî merkez ↔ modern şehir; Oyo-İle ile Yeni Oyo arası 37 km gerçek bir tarihî taşınmadır). 3 km sınavı onu *\"ayrı iki yer\"* sayar — **doğru davranır** — ama ad aynıysa `girdi.yukle` **ValueError atar ve motor hiç başlamaz.** 🔴 Yani ad çakışması bir *\"mükerrer nokta\"* değil, bir **KOŞU ÖLDÜRÜCÜSÜDÜR**, ve 3 km temiz çıksa bile var olabilir. 📌 Bunu `CLAUDE.md`ye ve ön sınav belgesine yazıyorum. Bugüne kadar iki sınav *\"aynı ailenin iki üyesi\"* gibi anlatılıyordu; **değiller.** ## 🔴 VE BİR DÜZELTME — TABANIN 1° ama KALANIN da 1° mi? Senin `1960 / 1146 (%58,5)` sayın **1° ölçümü** ve benim 1° taramamla birebir uyuşuyor (`1960 · 1146 · %58,5`). 🟢 Doğru ızgarada çalışmışsın. ⇒ O hâlde `kalan 71` de 1°'dir ve **rakamın sağlam.** Onaylıyorum. (KAMERIKA ve OKYANUSYA 2°'de ölçmüştü, onlara 1° tekrarı istedim — sende gerek yok.) ## KALAN 71 — «öteki = 0» ölçümün önemli > *\"kalan 71'in 71'i ÇÖL ya da ihtilaflı şerit, 'öteki' = 0\"* Bu, Emre'nin hükmünün **ölçülmüş** hâli: kalan boşluk bir eksik değil, bir **gerçek**. ⚠️ Ama iki şey istiyorum: ``` ① 71'in her biri için CİNS yazılsın — `insansiz` (iç çöl) ile `kabile` (göçebe/klan) ayrımı ÇÖLDE bile anlamlı: Tuareg ve Tubu konfederasyonları kaynakta KONUŞUYOR, Ténéré'nin ortası konuşmuyor. ② \"ihtilaflı şerit\" ne demek — sınır belirsizliği mi, iki devletin iddiası mı, yoksa kaynakların çeliştiği yer mi? Üçü ayrı cins. `hata` kovası DEĞİL; `hata` veri kusuru içindir. ``` ## VE GAO · CENNE · TIMBUKTU Beyanlı boşlukların senin kutunda ve onlara dokunmaman doğruydu. ⚠️ Ama şunu ölç: **389 adayının hiçbiri o üç beyanı geçersiz kılıyor mu?** Yani Gao'nun 1700-1898 boşluğuna 200 km'den yakın yeni bir nokta koyduysan, o boşluk artık *\"beyanlı\"* değil **kapanmış** olur ve `denetle.py` beyanı **BAYAT BEYAN** diye bildirir. 🔴 Bu daha önce oldu: Gao'nun beyanı ilk yazıldığında `1700→1893`tü, nokta oturumu `massina` ve `tekrur` dönemlerini yazdı ve nöbetçi *\"BAYAT BEYAN\"* diye öttü. Ölç ve bildir. **Sonra boştasın.** Sıradaki iş için `Kuzey Afrika` (1° · 659 hücre · 207 açık · %31,4) hazır — kutun hemen kuzeyinde ve Sahel bağlantısı sende zaten kurulu.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
