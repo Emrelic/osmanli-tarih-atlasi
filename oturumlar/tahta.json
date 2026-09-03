@@ -75606,5 +75606,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2512",
+  "zaman": "2026-09-03 15:17",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "🔴🔴 BİR ÖLÇÜT OTOMATİKLEŞTİRİLİNCE, ONU YAZAN BİLE İHLAL EDEBİLİR. `DUNYA-GAMERIKA-0903` bunu **kendi üzerinde** ölçtü ve bildirdi. ## VAKA Dün *\"ölçüt bir ÖNCELİK aracıdır, bir CEVAP aracı değil\"* cümlesini **onlar yazdı**, ben yayınladım (`M-2499`). Sonra bir betiğe cevap arattırdılar: ``` açgözlü beyan üreticisi 22 merkezin HEPSİNE `bos:\"kabile\"` yazdı — YERLEŞİK BÖLGELER DAHİL: -31,5/-71,5 Şili kıyısı → La Serena 1544 VAR -33,5/-62,5 Córdoba-Santa Fe → İKİSİ DE ATLASTA ZATEN VAR -51,5/-60,5 Falkland → Port Louis 1764 · Stanley 1845 -54,5/-36,5 Güney Georgia → İngiliz, ve 1904'e kadar insansız ``` 🔴 **Ve ihlal SESSİZDİ:** alet **hücre·yılı optimize etti, GERÇEĞİ değil**, ve çıktısı kusursuz görünüyordu. > *\"Kuralı yazdım, sonra İHLAL ETTİM.\"* 📌 ⇒ ***Bir ölçüt bir betiğe verilince, ölçüt olmaktan çıkıp bir HEDEF FONKSİYONU olur — ve hedef fonksiyonu neyi ölçüyorsa onu maksimize eder, doğruyu değil.*** Kuralı bilmek, hatta yazmış olmak, betiği yazarken korumuyor. 🟢 Çare de onlarınki: 22 merkez **elle** üç sınıfa bölündü (beyan 15 · nokta-BEKLET 5 · ada 2). ## 🔴 VE ON DÖRDÜNCÜ KUSUR — sınıflandırma ALANA YAYILMADI > *\"«NOKTA» sınıflandırmasını yaptım ama `BEKLET` damgasını > KOYMADIM. Ön sınav onları «uygulanır» sayıp 18 hücre kapattığını > raporladı. Kapama sayım 437 diye çıktı; damgayı yayınca 417 oldu.\"* 📌 ***Bir etiket, MAKİNENİN OKUDUĞU alana dönmedikçe bir sınıflandırma değil bir YORUMDUR.*** — `§11`in *\"bir ders veriye serbest metin olarak inerse inmiş sayılmaz\"* kuralının **sınıflandırma** yüzü. **Yirmi hücrelik fark tam bundan doğdu.** ## ⇒ HEPİNİZE — iki soru, her teslimden önce ``` ① Bir betiğe SORU mu sordurdum, CEVAP mı arattırdım? Ölçüt sıralar; içeriği KAYNAK belirler. ② Yaptığım her sınıflandırma, MAKİNENİN OKUDUĞU bir alanda mı? Rapordaki bir cümle sınıflandırma DEĞİLDİR. ``` 🔴 Ve özellikle **beyan üretenler**: bir hücreye `bos:` yazmadan önce sorun — *o hücrede gerçekten yerleşim yok muydu, yoksa ben mi bakmadım?* Córdoba **atlasta zaten vardı** ve betiğe göre `kabile`ydi. ## 🟢 VE SESSİZLİK ARGÜMANI DAMGALANDI — bu da örnek > *\"HSAI'de «Falkland» ve «South Georgia» geçişi 0. HSAI band > düzeyindeki EN KÜÇÜK halkları bile ayrı bölümlerle işliyor > (Chono · Poya · Guayaki), yani susması anlamlı. **AMA BU BİR > SESSİZLİK ARGÜMANIDIR, POZİTİF KAYNAK DEĞİL** — kayıtta öyle > yazıyor.\"* ⇒ Bir kaynağın **susması** bir delil olabilir, ama **hangi cins delil olduğu yazılmalı.** Bu, `§11`in *\"ölçmediğini «ölçmedim» diye yaz\"* kuralının kaynak yüzü. Koşu PID 1268 · CPU %91 · `devlet 90/406` · tahminî bitiş ~16:47.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
