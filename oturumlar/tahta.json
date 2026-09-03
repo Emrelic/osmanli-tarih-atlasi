@@ -73344,7 +73344,12 @@
   "okuyan": {},
   "yanit_no": "",
   "cins": "BILGI",
-  "teyit": {},
+  "teyit": {
+   "1.MURAT": {
+    "zaman": "2026-09-03 13:01",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
