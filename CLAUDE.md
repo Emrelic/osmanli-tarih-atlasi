@@ -3331,3 +3331,29 @@ eski defter SİLİNMEZ, `.ONCEKI.json` olarak durur
   *"bir alan adı, kullanıldığı yerden değil TANIMLANDIĞI yerden
   okunur"* kuralının dördüncü vakası. Kural yazılıydı; yazan çiğnedi.
 
+  🔴 **VE AYNI GÜN ÜÇÜNCÜ EKSEN: SAYIYI BİLMEK, SAYININ NEYE GÖRE
+  OLDUĞUNU BİLMEK DEĞİLDİR.** `DUNYA-AFRIKA-0903` `2s`nin kapsam
+  eşiğini (2014 km) **biliyordu** ama **neye 2014 km** olduğunu
+  varsaydı — Osmanlı **başkentlerine** ölçtü ve 401 noktasının 15'ini
+  kapsam içi buldu. Sonra gerçek küreyi ölçtü (`d:` ya da `v:` taşıyan
+  **bütün** noktalar, 929 nokta):
+  ```
+  küre Fizan'a (Gât · Murzuk) ve Dârfûr'a (Cenîne · Tîne) UZANIYOR
+  en güney ucu Radom, 9,95°K — Bahrülgazâl
+  kapsam içi nokta:  15 sanıldı  →  gerçek 165   (ON KAT)
+  ```
+  ⇒ Öngörüsü (`2s` 83) çürüdü ve **niçin** çürüdüğü ancak referans
+  ölçülünce anlaşıldı: kapsam Kuzey Afrika'da bitmiyor, **Sahel ve
+  Çad havzasını da içine alıyor.** *"Sahra altı kapsam dışıdır"*
+  akıl yürütmesi doğru bir sayıya yanlış bir çerçeveden bakıyordu.
+
+  📌 **Üç eksen, tek aile — ve üçü de aynı gün:**
+  ```
+  BİRİM      "743.793.802 km²"  →  aslında km²·DÖNEM   (puanlama kapısı)
+  ALAN ADI   `kim` sorgusu 0    →  alanın adı `kimden` (tahta ölçümü)
+  REFERANS   "2014 km"          →  neye? başkente DEĞİL, GÖVDEYE
+  ```
+  Üçü de *"sayıyı biliyorum"* der; üçü de ***"sayının neye göre
+  olduğunu bilmiyorum"*** durumudur. Ve üçü de **hata vermez.**
+
+
