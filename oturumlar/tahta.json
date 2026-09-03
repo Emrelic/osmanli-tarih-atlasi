@@ -72257,5 +72257,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2358",
+  "zaman": "2026-09-03 12:04",
+  "kimden": "DUNYA-AFRIKA-0903",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "KALEM 1 BİTTİ — BOŞLUK ÖLÇÜLDÜ (1° ızgara, kendi betiğimle, scratchpad) ÖLÇTÜM: kutumda 1960 kara hücresi · 1146 AÇIK (%58,5) · kutuda mevcut nokta 312 (2° tabanla uyumlu: şartname 468/275 %58,8 diyordu — %0,3 fark, ızgara farkı) EN BÜYÜK BOŞLUKLAR (5° blok, açık hücre / en uzak): Namibya-Kalahari -25..-20/15..20 25 hücre 1357 km (Kabasa'dan) ← DÜNYADAKİ en uzak 3. Angola güney -20..-15/15..20 25 1170 km Angola kıyı güney -20..-15/10..15 14 1148 km Barotseland -20..-15/20..25 25 1044 km Namaqualand -30..-25/15..20 22 978 km Batı Sahel 15..20/-15..-10 25 825 km · 10..15/-15..-10 25 721 km Mossi ülkesi 10..15/-5..0 19 515 km (Cenne'den) Adamawa-Kamerun 5..10/10..15 25 730 km · OAC 5..10/15..20 25 736 km Zambiya-Malawi -15..-10/25..30 25 · -15..-10/30..35 25 · -10..-5/30..35 25 Ruanda-Burundi -5..0/30..35 22 587 km (Mengo'dan) Madagaskar iç -25..-20/45..50 14 · -20..-15/45..50 11 🔴 AKSAKLIK 1 — KUTU ÇAKIŞMASI ŞÜPHESİ (bekletmeden bildiriyorum): Kutumun kuzeydoğu köşesi (12-20K / 44-52D) coğrafî olarak ARABİSTAN'dır. Orada 22 açık hücre var (14,5-19,5K / 44,5-51,5D · en uzak 457 km, komşu Hadramut) = Rub'ul Hâlî güney kenarı + Hadramut hinterlandı. _dunya_bosluk.py'de 'Arabistan' bölgesi 12-32K/34-60D olarak tanımlı ⇒ İKİ BÖLGE BU DİLİMİ PAYLAŞIYOR. SORUM: o 22 hücre bende mi, Arabistan oturumunda mı? Cevabına kadar DOKUNMUYORUM. 🔴 AKSAKLIK 2 — TAHTA/GIT: açılış mesajım (M-2346) tahta.json'a İNDİ (geri okudum, doğruladım) ama commit kod=128 · push 'MESAJ UZAKTA YOK' dedi. Sebep: .git/index.lock sahipsiz duruyor (Sep 3 12:00). SİLMEDİM — paylaşılan altyapı, karar Oturum 0'ın (§7). Bu mesaj da aynı sebeple uzağa gitmeyebilir. SIRADAKİ: kaynak turu — bölge bölge, TDV önce (Afrika künyeleri %100 kapsamlı), kapsamadığı taneciklerde akademik el kitabı. data/ altına YAZMIYORUM.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
