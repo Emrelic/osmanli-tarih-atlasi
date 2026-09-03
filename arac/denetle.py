@@ -2336,6 +2336,31 @@ def degismez3z(Y):
 # yakalandı. Doğru pozitif oranını korumak için gerçekten AYRI olan çiftler
 # aşağıya tek tek yazıldı — listeye eklemeden önce iki maddeyi de OKU.
 BILINEN_AYRI = {
+    # ⭐ "AYNI YIL YUVARLAMASI, AYRI KARAKOL" SINIFI — 3 Eylül 2026.
+    # `DUNYA-KAMERIKA-0903`un 11 maddesi inince ALTI şüpheli çift doğdu.
+    # Altısı da yanlış pozitif ve sebebi tek: gün bilinmediği için `§4`e
+    # göre `YYYY-01-01` yazılıyor, ve aynı yılda kurulan kürk karakolları
+    # AYNI GÜNE düşüyor. Üstüne başlık kalıbı da ortak: "Fort … kuruldu".
+    #   1803  Fort William (Thunder Bay) · Fort Dearborn (Chicago) ·
+    #         Fort George (Chisasibi, James Körfezi)
+    #   1829  Fort Halkett (Liard) · Fort Pitt (Saskatchewan) ·
+    #         Springfield (Ozark)
+    # Altısı da AYRI YER, ayrı şirket, binlerce km arayla.
+    # 📌 Ve bu, `§4`ün "gün bilinmiyorsa YYYY-01-01 yaz" kuralının
+    #    ÖNGÖRÜLEBİLİR yan etkisi: kural doğru, ama mükerrer avcısına
+    #    her yıl için sahte bir küme üretiyor. Kusur maddede DEĞİL.
+    ("Fort Dearborn kuruldu — Chicago geçidinde ABD karakolu",
+     "Fort George (Chisasibi) kuruldu — James Körfezi'nin doğu kıyısı"),
+    ("Fort Dearborn kuruldu — Chicago geçidinde ABD karakolu",
+     "Fort William kuruldu — Kuzeybatı Şirketi'nin iç merkezi"),
+    ("Fort George (Chisasibi) kuruldu — James Körfezi'nin doğu kıyısı",
+     "Fort William kuruldu — Kuzeybatı Şirketi'nin iç merkezi"),
+    ("Fort Halkett kuruldu — Liard boyunca kürk hattı",
+     "Fort Pitt kuruldu — Kuzey Saskatchewan'da bizon eti ve kürk merkezi"),
+    ("Fort Halkett kuruldu — Liard boyunca kürk hattı",
+     "Springfield kuruldu — Ozark yaylasında ilk kalıcı yerleşim"),
+    ("Fort Pitt kuruldu — Kuzey Saskatchewan'da bizon eti ve kürk merkezi",
+     "Springfield kuruldu — Ozark yaylasında ilk kalıcı yerleşim"),
     # ⭐ "ASKERÎ OLAY ile KÜLTÜR OLAYI" SINIFI — 30 Ağustos 2026.
     # 1534-12-04'te iki madde var ve ikisi AYRI CİNSTEN:
     #   "Bağdat'ın fethi — Irakeyn Seferi"                    ← ASKERÎ

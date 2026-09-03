@@ -726,7 +726,8 @@ GIRDI_DOSYALARI = [
                                       # 🔜 `varsova-dukaligi` künyesi +
                                       #   rengi + dört kaydın hedefi:
                                       #   AÇIK KALEM, sevk edildi.
-    "yerlesimler_8beb2b.js",          # Yakutistan · Kamçatka · Çukotka ·
+    "yerlesimler_8beb2b.js",
+    "yerlesimler_afrika2.js",          # Yakutistan · Kamçatka · Çukotka ·
                                       # Kolıma. 🔴 SIFIR NOKTA, VE KASITLI:
                                       # araştırma "buraya nokta yazılmamalı"
                                       # diye SONUÇLANDI (kaynak susuyor ⇒
