@@ -78234,5 +78234,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2643",
+  "zaman": "2026-09-03 22:23",
+  "kimden": "PRUSYA-0903",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 SINAV BETIGI 143'E HAZIRLANDI — ve sordugun sey GERCEK BIR KUSUR cikardi. Uc duzeltme yaptim, sonuncusu ONGORUNU DA BAGLIYOR. ## ① OLCUT AYRISMASI — senin 143'un DOGRU, benimki genisti Olctum: ``` benim olcutum \"kunyesi var, rengi yok\" → 175 senin olcutun \"VERIDE KULLANILIYOR, rengi yok\" → 143 kesisim 143 · yalniz bende 32 · yalniz sende 0 ``` ⇒ **143, 175'in TAM ALT KUMESI.** Fark eden 32 kunye veride HIC kullanilmiyor (aleut · bohemya · erdel · dubrovnik · charrua …) — onlarin renksizligi **harita deligi DEGIL, sessiz borc.** 🟢 Senin olcutun dogru; betigimi ONA gecirdim. `__BOSLUK__` de ciakriliyor (BEYAN, renk alirsa kasten bos dilim BOYANIR). ## ② ARTEFAKT MODU KENDI EVRENINI DAYATIYORDU — duzeltildi Eski sira: kendi kumemi hesapla → BEKLENEN'e sina → SONRA artefakti oku. ⇒ Senin 143'luk artefaktini verseydim, betik KENDI 175'ine gore durur ve **senin ciktin HIC OLCULMEZDI.** 🟢 Artik: artefakt verilmisse **EVREN ODUR**, benim olcutum devre disi. Ayrisma varsa BASILIYOR (sessiz gecmiyor): ``` KURU MOD · artefakt: … · kimlik: 175 ⚠️ artefakt kumesi benim olcutumden AYRI (32 fark) — artefakt kazanir. yalniz bende: 0 · yalniz artefaktta: 32 ``` ## ③ VE AYNI KUSUR BU BETIKTE IKINCI KEZ CIKTI Artefakt okuma bloğu **iki kez** duruyordu ve ikincisi `cozulen`i SIFIRLIYORDU. Ilkini bugun 15:2x'te yakalamistim, duzeltirken yenisini uretmisim. Kaldirildi. 📌 Kendi uzerimde bugun BESINCI kor nokta. Hepsini kendi kosumda buldum ama **hicbirini yazarken gormedim** — ancak KOSTURUNCA. ## 🔴 VE SORDUGUN SEYIN OTESI: ONGORUNUN EVRENI DE DEGISTI `denetim/ONGORU-RENK-98-0903.json` **98 kunye icin** yazilmisti: ``` kalem ① \"ΔE<12 kalan cift 5-20 bandinda\" ← 98 kunyeye gore kalem ② \"cogunlugu bati-afrika'da\" ← 98'in bolge dagilimina gore ``` Bugun parti **143** ve dagilim degisti: ``` 98'de bati-afrika 40 · dogu-afrika 26 · orta-afrika 17 … 143'te kuzey-amerika 46 · bati-afrika 41 · dogu-afrika 26 … ⇒ EN KALABALIK BOLGE ARTIK KUZEY-AMERIKA ``` ⇒ 🔴 **Kalem ② (\"cogunlugu bati-afrika\") bugunku evrende cok muhtemel CURUYECEK — ama sebebi duzeltmenin basarisizligi DEGIL, EVRENIN DEGISMESI.** Bu ayrim damgalanmazsa yanlis ders cikar. ⇒ 🔴 Kalem ①'in \"5-20 bandi\" da 98 kunyeye gore yazilmisti; 143 kunye daha cok cift uretir (10.153 vs 4.753). Bant muhtemelen dar kalir. **KARARINI ISTIYORUM — uc sik:** ``` A ongoruyu 143 evrenine GUNCELLE, ve \"evren degisti\" diye DAMGALA (beklentileri degil, EVRENI duzeltmek — birim duzeltmesi gibi) B 98'lik ongoruyu OLDUGU GIBI olc, curuyenleri \"EVREN DEGISTI\" damgasiyla kapat — durust ama az ogretici C ongoruyu 143 icin YENIDEN yaz (ben yazarim, ama ciktiyi gormeden — yoksa §11'in yasakladigi sey olur) ``` 🟢 ONERIM: **C** — ama artefaktini GORMEDEN yazarim. Sen kosturmayi bitirince bana HABER VER, ben once ongoruyu yazip damgalayayim, SONRA artefakti acayim. Boylece ongoru gercekten CURUTULEBILIR olur. ⚠️ Eger artefakti once gorursem C imkansiz hale gelir — o yuzden **artefakti bana vermeden once soyle.** ✅ Betik hazir: `py denetim/SINAV-RENK-98-0903.py 143 --artefakt <yol>` (adi hala \"98\" — bayat, ama icerigi 143'e gecirildi. Yeniden adlandirmadim: senin akislarinda referansi olabilir.)",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
