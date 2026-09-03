@@ -5,10 +5,10 @@
 // ======================================================================
 //
 // İÇİNDEKİLER
-//   69 KASABA  — hepsinin kuruluş tarihi KURUM KAYNAĞININ
+//   74 KASABA  — hepsinin kuruluş tarihi KURUM KAYNAĞININ
 //                GÖVDESİ OKUNARAK doğrulandı; `kaynak:` alanında
 //                kurum adı VE alıntı duruyor.
-//   43 BEYAN   — `kasitli_bosluk:true` + `bos:"kabile"`.
+//   44 BEYAN   — `kasitli_bosluk:true` + `bos:"kabile"`.
 //                Bunlar YERLEŞİM DEĞİL, boşluğun CİNSİNİ
 //                makineye söyleyen kayıtlardır (`girdi.py:831`).
 //
@@ -33,7 +33,7 @@
 window.YERLESIMLER_OKYANUSYA = [
 
 // --------------------------------------------------------------------
-// KASABALAR — 69 kayıt, hepsi kaynak gövdesi okunarak doğrulandı
+// KASABALAR — 74 kayıt, hepsi kaynak gövdesi okunarak doğrulandı
 // --------------------------------------------------------------------
 
 { ad:"Noumea (Yeni Kaledonya)", tur:"sehir", lat:-22.27, lon:166.44, g:1, k:1,
@@ -61,9 +61,9 @@ window.YERLESIMLER_OKYANUSYA = [
   kaynak:"Encyclopaedia Britannica, 'Samarai': \"Samarai Island was visited in 1873 by the British captain John Moresby and purchased by the London Missionary Society in the 1880s. In 1884 Britain annexed the southeastern part of New Guinea where Samarai is located.\" Zincir atlasın kendi Port Moresby kaydıyla aynı (İngiliz Papua -> 1906-09-01 Avustralya).",
   s:[{f:"1884-11-06",t:"1906-09-01",d:"ingiltere"},{f:"1906-09-01",t:"1923-10-29",d:"avustralya"}] },
 
-{ ad:"Rabaul (Herbertshöhe)", tur:"sehir", lat:-4.2, lon:152.18, g:1, k:1,
+{ ad:"Herbertshöhe (Kokopo) — Rabaul", tur:"sehir", lat:-4.35, lon:152.26, g:1, k:1,
   kur:"1884-11-03",
-  kaynak:"National Library of Australia, 'German colonies in the Pacific': Almanya 1884'te Kaiser Wilhelmsland ve Bismarck Takımadaları'nı ilhak etti. Australian War Memorial: \"Herbertshohe, later Kokopo, the capital of the Protectorate before the establishment of Rabaul\"; Rabaul 1910'da başkent oldu. Tarih atlasın kendi Madang/Finschhafen kayıtlarıyla aynı (1884-11-03).",
+  kaynak:"National Library of Australia, 'German colonies in the Pacific': Almanya 1884'te Kaiser Wilhelmsland ve Bismarck Takımadaları'nı ilhak etti. Australian War Memorial: \"Herbertshohe, later Kokopo, the capital of the Protectorate before the establishment of Rabaul\"; Dr Albert Hahl 1896'da Blanche Bay'deki bu \"primitive little settlement\"e yerleşti. Encyclopaedia Britannica, 'Rabaul': \"Rabaul, the town founded in 1910 as a German colonial headquarters\". 🔴 KOORDİNAT DÜZELTİLDİ: önce Rabaul'a (-4,20/152,18) yazmıştım, ama RABAUL 1910'DA KURULDU — 1884-1910 arasında oradaki yerleşim HERBERTSHÖHE'ydi (bugünkü Kokopo, ~15 km güneydoğu). Nokta ona taşındı. Kuruluş günü atlasın kendi Madang/Finschhafen kayıtlarıyla aynı.",
   s:[{f:"1884-11-03",t:"1914-09-17",d:"almanya"},{f:"1914-09-17",t:"1923-10-29",d:"avustralya"}] },
 
 { ad:"Hughenden", tur:"sehir", lat:-20.84, lon:144.2, g:1, k:1,
@@ -376,13 +376,38 @@ window.YERLESIMLER_OKYANUSYA = [
   kaynak:"Northern Territory Government (nt.gov.au, Parks bilgi föyleri) ve Library & Archives NT: Overland Telegraph hattı 1872'de tamamlandı ve Daly Waters onun telgraf istasyonlarından biridir (Territory Stories, 'Daly Waters Station'). ⚠️ AÇIKÇA YAZIYORUM: İSTASYONA ÖZEL bir 'şu tarihte inşa edildi' cümlesi BULUNAMADI — Barrow Creek ve Tennant Creek'te böyle bir cümle vardı, burada YOK. Tarih HAT düzeyindeki kaynaktan türetilmiştir. Bir sonraki tur istasyon listesini (11-15 istasyon, kaynaklar sayıda ayrışıyor) tek tek doğrulamalı.",
   s:[{f:"1872-01-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"1923-10-29",d:"avustralya"}] },
 
+{ ad:"Windorah", tur:"sehir", lat:-25.42, lon:142.65, g:1, k:1,
+  kur:"1880-01-01",
+  kaynak:"Queensland Places (Centre for the Government of Queensland, UQ), 'Barcoo Shire': \"Windorah was gazetted as a town in 1880.\"",
+  s:[{f:"1880-01-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"1923-10-29",d:"avustralya"}] },
+
+{ ad:"Laverton", tur:"sehir", lat:-28.63, lon:122.4, g:1, k:1,
+  kur:"1899-01-01",
+  kaynak:"DPLH inHerit (Heritage Council of WA) / State Library of WA: \"The town of Laverton was gazetted in 1899\"; Mount Margaret 1897'de kasaba ilan edilmişti. ⚠️ TAHMİNİM 1896'YDI (altın keşfi) — kasaba ilanı 1899.",
+  s:[{f:"1899-01-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"1923-10-29",d:"avustralya"}] },
+
+{ ad:"Timber Creek Polis Karakolu", tur:"sehir", lat:-15.66, lon:130.48, g:1, k:1,
+  kur:"1895-01-01",
+  kaynak:"NORTHERN TERRITORY PLACE NAMES REGISTER (NT Government, ntlis.nt.gov.au/placenames): dereyi A. C. Gregory 24 Kasım 1855'te North Australian Expedition sırasında adlandırdı; polis karakolu 1890'ların ortasında kuruldu; otlak deposu 1911'de Phillip Hutchison tarafından. 🔴 KASABA 20 HAZİRAN 1975'TE İLAN EDİLDİ — ATLASIN UFKUNUN DIŞINDA. Bu yüzden kayıt KASABA değil POLİS KARAKOLU adıyla yazıldı; 1281-1923 ufkunda var olan yerleşim odur. ⚠️ Kaynak 'mid-1890s' diyor, TAM YIL VERMİYOR — 1895 orta değer olarak alındı ve bu not kayıtta duruyor.",
+  s:[{f:"1895-01-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"1923-10-29",d:"avustralya"}] },
+
+{ ad:"Newcastle Waters", tur:"sehir", lat:-17.37, lon:133.41, g:1, k:1,
+  kur:"1884-01-01",
+  kaynak:"NORTHERN TERRITORY PLACE NAMES REGISTER (NT Government): istasyon adını yakınındaki Newcastle Waters su birikintisinden alır; Dr W. B. Browne 1880'lerin başında aldı ve \"had established Newcastle Waters by 1884 with cattle overlanded from Queensland\"; ~1890'da Lewis ailesine satıldı. ⚠️ TAHMİNİM 1861'Dİ — kaynak 1884 diyor, 23 YIL sapma. Sicilde resmî ilan tarihi YOK.",
+  s:[{f:"1884-01-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"1923-10-29",d:"avustralya"}] },
+
+{ ad:"Esperance", tur:"sehir", lat:-33.86, lon:121.89, g:1, k:1,
+  kur:"1894-01-01",
+  kaynak:"Western Australian Museum, 'WA Goldfields' / 'The Rush for Gold': \"during the W.A. goldrush in 1894, businesses were established in Esperance, believing that it would be the port for the goldfields\". ⚠️ Kaynak KASABA İLAN yılını vermiyor; 1894 en erken kaynaklı kalıcı yerleşim olayıdır.",
+  s:[{f:"1894-01-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"1923-10-29",d:"avustralya"}] },
+
 { ad:"Marree (Hergott Springs)", tur:"sehir", lat:-29.65, lon:138.06, g:1, k:1,
   kur:"1883-01-01",
   kaynak:"History Trust of South Australia: 1883'te Faiz ve Tagh Mahomet kardeşler \"the new railhead township of Marree (formerly Hergott Springs)\"de deve nakliye şirketi kurdu; okul 1884'te açıldı, ad 1918'de Marree oldu.",
   s:[{f:"1883-01-01",t:"1901-01-01",d:"ingiltere"},{f:"1901-01-01",t:"1923-10-29",d:"avustralya"}] },
 
 // --------------------------------------------------------------------
-// BEYAN — 43 kayıt · kasitli_bosluk:true · bos:"kabile"
+// BEYAN — 44 kayıt · kasitli_bosluk:true · bos:"kabile"
 // Hiçbiri BOYA TAŞIMAZ (d:[] ve s: yok): kapsamayı kapatır,
 // haritayı boyamaz. `§2` emilmesini de engeller.
 // --------------------------------------------------------------------
@@ -390,6 +415,10 @@ window.YERLESIMLER_OKYANUSYA = [
 { ad:"Gibson Çölü", tur:"bolge", lat:-23.5, lon:130.5, g:0, k:0,
   d:[], kasitli_bosluk:true, bos:"kabile",
   neden:"AIATSIS (Australian Institute of Aboriginal and Torres Strait Islander Studies), 'Map of Indigenous Australia' ve 'Our Societies' (aiatsis.gov.au · lryb.aiatsis.gov.au): Aborijin toplumları merkezî bir devlet olarak değil, klan/soy grupları ve akrabalık yükümlülükleriyle örgütlenmiş yüzlerce ayrı dil topluluğu olarak tarif edilir; 1788 İngiliz sömürgeleşmesine kadar kıtada merkezî bir siyasî otorite kaydı yoktur. Bu hücrelerin bölgesel atfı: Pintupi · Ngaanyatjarra." },
+
+{ ad:"Tanami Çölü", tur:"bolge", lat:-20.5, lon:130.5, g:0, k:0,
+  d:[], kasitli_bosluk:true, bos:"kabile",
+  neden:"AIATSIS (Australian Institute of Aboriginal and Torres Strait Islander Studies), 'Map of Indigenous Australia' ve 'Our Societies' (aiatsis.gov.au · lryb.aiatsis.gov.au): Aborijin toplumları merkezî bir devlet olarak değil, klan/soy grupları ve akrabalık yükümlülükleriyle örgütlenmiş yüzlerce ayrı dil topluluğu olarak tarif edilir; 1788 İngiliz sömürgeleşmesine kadar kıtada merkezî bir siyasî otorite kaydı yoktur. Bu hücrelerin bölgesel atfı: Warlpiri." },
 
 { ad:"Büyük Victoria Çölü", tur:"bolge", lat:-28.5, lon:126.5, g:0, k:0,
   d:[], kasitli_bosluk:true, bos:"kabile",
@@ -427,17 +456,21 @@ window.YERLESIMLER_OKYANUSYA = [
   d:[], kasitli_bosluk:true, bos:"kabile",
   neden:"AIATSIS (Australian Institute of Aboriginal and Torres Strait Islander Studies), 'Map of Indigenous Australia' ve 'Our Societies' (aiatsis.gov.au · lryb.aiatsis.gov.au): Aborijin toplumları merkezî bir devlet olarak değil, klan/soy grupları ve akrabalık yükümlülükleriyle örgütlenmiş yüzlerce ayrı dil topluluğu olarak tarif edilir; 1788 İngiliz sömürgeleşmesine kadar kıtada merkezî bir siyasî otorite kaydı yoktur. Bu hücrelerin bölgesel atfı: Martu." },
 
+{ ad:"Büyük Kum Çölü 3", tur:"bolge", lat:-21.5, lon:127.5, g:0, k:0,
+  d:[], kasitli_bosluk:true, bos:"kabile",
+  neden:"AIATSIS (Australian Institute of Aboriginal and Torres Strait Islander Studies), 'Map of Indigenous Australia' ve 'Our Societies' (aiatsis.gov.au · lryb.aiatsis.gov.au): Aborijin toplumları merkezî bir devlet olarak değil, klan/soy grupları ve akrabalık yükümlülükleriyle örgütlenmiş yüzlerce ayrı dil topluluğu olarak tarif edilir; 1788 İngiliz sömürgeleşmesine kadar kıtada merkezî bir siyasî otorite kaydı yoktur. Bu hücrelerin bölgesel atfı: Martu · Walmajarri." },
+
 { ad:"Gibson Çölü 3", tur:"bolge", lat:-26.5, lon:131.5, g:0, k:0,
   d:[], kasitli_bosluk:true, bos:"kabile",
   neden:"AIATSIS (Australian Institute of Aboriginal and Torres Strait Islander Studies), 'Map of Indigenous Australia' ve 'Our Societies' (aiatsis.gov.au · lryb.aiatsis.gov.au): Aborijin toplumları merkezî bir devlet olarak değil, klan/soy grupları ve akrabalık yükümlülükleriyle örgütlenmiş yüzlerce ayrı dil topluluğu olarak tarif edilir; 1788 İngiliz sömürgeleşmesine kadar kıtada merkezî bir siyasî otorite kaydı yoktur. Bu hücrelerin bölgesel atfı: Pintupi · Ngaanyatjarra." },
 
-{ ad:"Büyük Kum Çölü 3", tur:"bolge", lat:-21.5, lon:126.5, g:0, k:0,
-  d:[], kasitli_bosluk:true, bos:"kabile",
-  neden:"AIATSIS (Australian Institute of Aboriginal and Torres Strait Islander Studies), 'Map of Indigenous Australia' ve 'Our Societies' (aiatsis.gov.au · lryb.aiatsis.gov.au): Aborijin toplumları merkezî bir devlet olarak değil, klan/soy grupları ve akrabalık yükümlülükleriyle örgütlenmiş yüzlerce ayrı dil topluluğu olarak tarif edilir; 1788 İngiliz sömürgeleşmesine kadar kıtada merkezî bir siyasî otorite kaydı yoktur. Bu hücrelerin bölgesel atfı: Martu · Walmajarri." },
-
 { ad:"Arnhem Land", tur:"bolge", lat:-13.5, lon:135.5, g:0, k:0,
   d:[], kasitli_bosluk:true, bos:"kabile",
   neden:"AIATSIS (Australian Institute of Aboriginal and Torres Strait Islander Studies), 'Map of Indigenous Australia' ve 'Our Societies' (aiatsis.gov.au · lryb.aiatsis.gov.au): Aborijin toplumları merkezî bir devlet olarak değil, klan/soy grupları ve akrabalık yükümlülükleriyle örgütlenmiş yüzlerce ayrı dil topluluğu olarak tarif edilir; 1788 İngiliz sömürgeleşmesine kadar kıtada merkezî bir siyasî otorite kaydı yoktur. Bu hücrelerin bölgesel atfı: Yolŋu." },
+
+{ ad:"Büyük Kum Çölü 4", tur:"bolge", lat:-20.5, lon:124.5, g:0, k:0,
+  d:[], kasitli_bosluk:true, bos:"kabile",
+  neden:"AIATSIS (Australian Institute of Aboriginal and Torres Strait Islander Studies), 'Map of Indigenous Australia' ve 'Our Societies' (aiatsis.gov.au · lryb.aiatsis.gov.au): Aborijin toplumları merkezî bir devlet olarak değil, klan/soy grupları ve akrabalık yükümlülükleriyle örgütlenmiş yüzlerce ayrı dil topluluğu olarak tarif edilir; 1788 İngiliz sömürgeleşmesine kadar kıtada merkezî bir siyasî otorite kaydı yoktur. Bu hücrelerin bölgesel atfı: Martu · Walmajarri." },
 
 { ad:"Yeni Gine Merkezî Yaylaları", tur:"bolge", lat:-3.5, lon:135.5, g:0, k:0,
   d:[], kasitli_bosluk:true, bos:"kabile",
@@ -451,11 +484,7 @@ window.YERLESIMLER_OKYANUSYA = [
   d:[], kasitli_bosluk:true, bos:"kabile",
   neden:"AIATSIS (Australian Institute of Aboriginal and Torres Strait Islander Studies), 'Map of Indigenous Australia' ve 'Our Societies' (aiatsis.gov.au · lryb.aiatsis.gov.au): Aborijin toplumları merkezî bir devlet olarak değil, klan/soy grupları ve akrabalık yükümlülükleriyle örgütlenmiş yüzlerce ayrı dil topluluğu olarak tarif edilir; 1788 İngiliz sömürgeleşmesine kadar kıtada merkezî bir siyasî otorite kaydı yoktur. Bu hücrelerin bölgesel atfı: Pintupi · Ngaanyatjarra." },
 
-{ ad:"Büyük Kum Çölü 4", tur:"bolge", lat:-24.5, lon:120.5, g:0, k:0,
-  d:[], kasitli_bosluk:true, bos:"kabile",
-  neden:"AIATSIS (Australian Institute of Aboriginal and Torres Strait Islander Studies), 'Map of Indigenous Australia' ve 'Our Societies' (aiatsis.gov.au · lryb.aiatsis.gov.au): Aborijin toplumları merkezî bir devlet olarak değil, klan/soy grupları ve akrabalık yükümlülükleriyle örgütlenmiş yüzlerce ayrı dil topluluğu olarak tarif edilir; 1788 İngiliz sömürgeleşmesine kadar kıtada merkezî bir siyasî otorite kaydı yoktur. Bu hücrelerin bölgesel atfı: Martu · Walmajarri." },
-
-{ ad:"Büyük Kum Çölü 5", tur:"bolge", lat:-20.5, lon:123.5, g:0, k:0,
+{ ad:"Büyük Kum Çölü 5", tur:"bolge", lat:-24.5, lon:120.5, g:0, k:0,
   d:[], kasitli_bosluk:true, bos:"kabile",
   neden:"AIATSIS (Australian Institute of Aboriginal and Torres Strait Islander Studies), 'Map of Indigenous Australia' ve 'Our Societies' (aiatsis.gov.au · lryb.aiatsis.gov.au): Aborijin toplumları merkezî bir devlet olarak değil, klan/soy grupları ve akrabalık yükümlülükleriyle örgütlenmiş yüzlerce ayrı dil topluluğu olarak tarif edilir; 1788 İngiliz sömürgeleşmesine kadar kıtada merkezî bir siyasî otorite kaydı yoktur. Bu hücrelerin bölgesel atfı: Martu · Walmajarri." },
 
@@ -471,10 +500,6 @@ window.YERLESIMLER_OKYANUSYA = [
   d:[], kasitli_bosluk:true, bos:"kabile",
   neden:"AIATSIS (Australian Institute of Aboriginal and Torres Strait Islander Studies), 'Map of Indigenous Australia' ve 'Our Societies' (aiatsis.gov.au · lryb.aiatsis.gov.au): Aborijin toplumları merkezî bir devlet olarak değil, klan/soy grupları ve akrabalık yükümlülükleriyle örgütlenmiş yüzlerce ayrı dil topluluğu olarak tarif edilir; 1788 İngiliz sömürgeleşmesine kadar kıtada merkezî bir siyasî otorite kaydı yoktur. Bu hücrelerin bölgesel atfı: Pitjantjatjara · Ngaanyatjarra · Pila Nguru." },
 
-{ ad:"Büyük Kum Çölü 6", tur:"bolge", lat:-23.5, lon:127.5, g:0, k:0,
-  d:[], kasitli_bosluk:true, bos:"kabile",
-  neden:"AIATSIS (Australian Institute of Aboriginal and Torres Strait Islander Studies), 'Map of Indigenous Australia' ve 'Our Societies' (aiatsis.gov.au · lryb.aiatsis.gov.au): Aborijin toplumları merkezî bir devlet olarak değil, klan/soy grupları ve akrabalık yükümlülükleriyle örgütlenmiş yüzlerce ayrı dil topluluğu olarak tarif edilir; 1788 İngiliz sömürgeleşmesine kadar kıtada merkezî bir siyasî otorite kaydı yoktur. Bu hücrelerin bölgesel atfı: Martu · Walmajarri." },
-
 { ad:"Yeni Gine Merkezî Yaylaları 2", tur:"bolge", lat:-6.5, lon:139.5, g:0, k:0,
   d:[], kasitli_bosluk:true, bos:"kabile",
   neden:"Bölgede 1281-1923 arasında merkezî bir devlet kaydı yoktur; toplum klan ve köy temelli örgütlenmiştir. Sömürge idareleri (Alman, İngiliz, Hollanda, Fransız) kıyı istasyonlarından ibaretti ve iç kesimlere fiilen ulaşmamıştı — atlasın kıyı noktaları bu idareyi zaten taşıyor." },
@@ -483,13 +508,13 @@ window.YERLESIMLER_OKYANUSYA = [
   d:[], kasitli_bosluk:true, bos:"kabile",
   neden:"AIATSIS (Australian Institute of Aboriginal and Torres Strait Islander Studies), 'Map of Indigenous Australia' ve 'Our Societies' (aiatsis.gov.au · lryb.aiatsis.gov.au): Aborijin toplumları merkezî bir devlet olarak değil, klan/soy grupları ve akrabalık yükümlülükleriyle örgütlenmiş yüzlerce ayrı dil topluluğu olarak tarif edilir; 1788 İngiliz sömürgeleşmesine kadar kıtada merkezî bir siyasî otorite kaydı yoktur. Bu hücrelerin bölgesel atfı: Pitjantjatjara · Ngaanyatjarra · Pila Nguru." },
 
+{ ad:"Büyük Kum Çölü 6", tur:"bolge", lat:-24.5, lon:127.5, g:0, k:0,
+  d:[], kasitli_bosluk:true, bos:"kabile",
+  neden:"AIATSIS (Australian Institute of Aboriginal and Torres Strait Islander Studies), 'Map of Indigenous Australia' ve 'Our Societies' (aiatsis.gov.au · lryb.aiatsis.gov.au): Aborijin toplumları merkezî bir devlet olarak değil, klan/soy grupları ve akrabalık yükümlülükleriyle örgütlenmiş yüzlerce ayrı dil topluluğu olarak tarif edilir; 1788 İngiliz sömürgeleşmesine kadar kıtada merkezî bir siyasî otorite kaydı yoktur. Bu hücrelerin bölgesel atfı: Martu · Walmajarri." },
+
 { ad:"Simpson Çölü 2", tur:"bolge", lat:-23.5, lon:136.5, g:0, k:0,
   d:[], kasitli_bosluk:true, bos:"kabile",
   neden:"AIATSIS (Australian Institute of Aboriginal and Torres Strait Islander Studies), 'Map of Indigenous Australia' ve 'Our Societies' (aiatsis.gov.au · lryb.aiatsis.gov.au): Aborijin toplumları merkezî bir devlet olarak değil, klan/soy grupları ve akrabalık yükümlülükleriyle örgütlenmiş yüzlerce ayrı dil topluluğu olarak tarif edilir; 1788 İngiliz sömürgeleşmesine kadar kıtada merkezî bir siyasî otorite kaydı yoktur. Bu hücrelerin bölgesel atfı: Wangkangurru · Arrernte." },
-
-{ ad:"Gibson Çölü 5", tur:"bolge", lat:-22.5, lon:130.5, g:0, k:0,
-  d:[], kasitli_bosluk:true, bos:"kabile",
-  neden:"AIATSIS (Australian Institute of Aboriginal and Torres Strait Islander Studies), 'Map of Indigenous Australia' ve 'Our Societies' (aiatsis.gov.au · lryb.aiatsis.gov.au): Aborijin toplumları merkezî bir devlet olarak değil, klan/soy grupları ve akrabalık yükümlülükleriyle örgütlenmiş yüzlerce ayrı dil topluluğu olarak tarif edilir; 1788 İngiliz sömürgeleşmesine kadar kıtada merkezî bir siyasî otorite kaydı yoktur. Bu hücrelerin bölgesel atfı: Pintupi · Ngaanyatjarra." },
 
 { ad:"Cape York Yarımadası 2", tur:"bolge", lat:-15.5, lon:141.5, g:0, k:0,
   d:[], kasitli_bosluk:true, bos:"kabile",
@@ -523,7 +548,7 @@ window.YERLESIMLER_OKYANUSYA = [
   d:[], kasitli_bosluk:true, bos:"kabile",
   neden:"AIATSIS (Australian Institute of Aboriginal and Torres Strait Islander Studies), 'Map of Indigenous Australia' ve 'Our Societies' (aiatsis.gov.au · lryb.aiatsis.gov.au): Aborijin toplumları merkezî bir devlet olarak değil, klan/soy grupları ve akrabalık yükümlülükleriyle örgütlenmiş yüzlerce ayrı dil topluluğu olarak tarif edilir; 1788 İngiliz sömürgeleşmesine kadar kıtada merkezî bir siyasî otorite kaydı yoktur. Bu hücrelerin bölgesel atfı: Nyiyaparli · Banyjima." },
 
-{ ad:"Büyük Kum Çölü 7", tur:"bolge", lat:-22.5, lon:127.5, g:0, k:0,
+{ ad:"Büyük Kum Çölü 7", tur:"bolge", lat:-21.5, lon:122.5, g:0, k:0,
   d:[], kasitli_bosluk:true, bos:"kabile",
   neden:"AIATSIS (Australian Institute of Aboriginal and Torres Strait Islander Studies), 'Map of Indigenous Australia' ve 'Our Societies' (aiatsis.gov.au · lryb.aiatsis.gov.au): Aborijin toplumları merkezî bir devlet olarak değil, klan/soy grupları ve akrabalık yükümlülükleriyle örgütlenmiş yüzlerce ayrı dil topluluğu olarak tarif edilir; 1788 İngiliz sömürgeleşmesine kadar kıtada merkezî bir siyasî otorite kaydı yoktur. Bu hücrelerin bölgesel atfı: Martu · Walmajarri." },
 
@@ -535,11 +560,15 @@ window.YERLESIMLER_OKYANUSYA = [
   d:[], kasitli_bosluk:true, bos:"kabile",
   neden:"Bölgede 1281-1923 arasında merkezî bir devlet kaydı yoktur; toplum klan ve köy temelli örgütlenmiştir. Sömürge idareleri (Alman, İngiliz, Hollanda, Fransız) kıyı istasyonlarından ibaretti ve iç kesimlere fiilen ulaşmamıştı — atlasın kıyı noktaları bu idareyi zaten taşıyor." },
 
+{ ad:"Yeni Gine Merkezî Yaylaları 3", tur:"bolge", lat:-7.5, lon:145.5, g:0, k:0,
+  d:[], kasitli_bosluk:true, bos:"kabile",
+  neden:"Bölgede 1281-1923 arasında merkezî bir devlet kaydı yoktur; toplum klan ve köy temelli örgütlenmiştir. Sömürge idareleri (Alman, İngiliz, Hollanda, Fransız) kıyı istasyonlarından ibaretti ve iç kesimlere fiilen ulaşmamıştı — atlasın kıyı noktaları bu idareyi zaten taşıyor." },
+
 { ad:"Aru-Tanimbar adaları 2", tur:"bolge", lat:-5.5, lon:134.5, g:0, k:0,
   d:[], kasitli_bosluk:true, bos:"kabile",
   neden:"Bölgede 1281-1923 arasında merkezî bir devlet kaydı yoktur; toplum klan ve köy temelli örgütlenmiştir. Sömürge idareleri (Alman, İngiliz, Hollanda, Fransız) kıyı istasyonlarından ibaretti ve iç kesimlere fiilen ulaşmamıştı — atlasın kıyı noktaları bu idareyi zaten taşıyor." },
 
-{ ad:"Yeni Gine Merkezî Yaylaları 3", tur:"bolge", lat:-5.5, lon:140.5, g:0, k:0,
+{ ad:"Yeni Gine Merkezî Yaylaları 4", tur:"bolge", lat:-5.5, lon:140.5, g:0, k:0,
   d:[], kasitli_bosluk:true, bos:"kabile",
   neden:"Bölgede 1281-1923 arasında merkezî bir devlet kaydı yoktur; toplum klan ve köy temelli örgütlenmiştir. Sömürge idareleri (Alman, İngiliz, Hollanda, Fransız) kıyı istasyonlarından ibaretti ve iç kesimlere fiilen ulaşmamıştı — atlasın kıyı noktaları bu idareyi zaten taşıyor." },
 
@@ -551,7 +580,7 @@ window.YERLESIMLER_OKYANUSYA = [
   d:[], kasitli_bosluk:true, bos:"kabile",
   neden:"Bölgede 1281-1923 arasında merkezî bir devlet kaydı yoktur; toplum klan ve köy temelli örgütlenmiştir. Sömürge idareleri (Alman, İngiliz, Hollanda, Fransız) kıyı istasyonlarından ibaretti ve iç kesimlere fiilen ulaşmamıştı — atlasın kıyı noktaları bu idareyi zaten taşıyor." },
 
-{ ad:"Yeni Gine Merkezî Yaylaları 4", tur:"bolge", lat:-3.5, lon:136.5, g:0, k:0,
+{ ad:"Yeni Gine Merkezî Yaylaları 5", tur:"bolge", lat:-3.5, lon:136.5, g:0, k:0,
   d:[], kasitli_bosluk:true, bos:"kabile",
   neden:"Bölgede 1281-1923 arasında merkezî bir devlet kaydı yoktur; toplum klan ve köy temelli örgütlenmiştir. Sömürge idareleri (Alman, İngiliz, Hollanda, Fransız) kıyı istasyonlarından ibaretti ve iç kesimlere fiilen ulaşmamıştı — atlasın kıyı noktaları bu idareyi zaten taşıyor." },
 
