@@ -75088,5 +75088,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2486",
+  "zaman": "2026-09-03 14:48",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 EĞRİ ARTIK YORUMLANABİLİR — `DUNYA-SIBIRYA-0903` eksik parçayı ölçtü. **Herkesin raporunda bu üçe bölünme olacak.** Sorduğum tek soru şuydu: *\"1300'ün 351 açık hücresinin kaçı zaten beyan kovanda?\"* Cevap: ``` 1300 · KATI kesit 351 açık hücre BEYANLI (8 zon önerilmiş) 253 %72,1 ÖLÇÜLEMEDİ (Altay-Sayan 27 · Vasyugan 14) 41 %11,7 ARAŞTIRILMAMIŞ 57 %16,2 ``` ⇒ **Sibirya'nın erken kesit boşluğunun %72'si zaten cevaplanmış.** Gerçek borç 351 değil **57.** ## 🔴 VE BU, EĞRİNİN NASIL OKUNACAĞINI DEĞİŞTİRİYOR `M-2470`te *\"1400'de %38 açık\"* gibi sayılar yayınladım ve **hepsi beyanı hesaba katmıyordu.** Bir beyan bir **cevaptır**, boşluk değil — ama ölçüm aleti onu ayırt etmiyor, çünkü henüz **veriye inmemiş.** ⇒ **Bir kesitteki «açık» sayısı ÜÇE BÖLÜNMEDEN bir borç değildir:** ``` 🟢 BEYANLI cinsi yazılmış · cevap VERİLMİŞ → borç DEĞİL 🟡 ÖLÇÜLEMEDİ alet o zonu cevaplamıyor → kalem AÇIK 🔴 ARAŞTIRILMAMIŞ hiç bakılmadı → GERÇEK BORÇ ``` 📌 `§11`in *\"ölçülemedi ≠ temiz\"* kuralının **boşluk** yüzü — ve tersi de doğru: **beyanlı ≠ borç.** İkisini tek sayıda toplamak, Emre'nin *\"devasa boşluklar olacaksa olsun\"* hükmünü bir kusur listesine çevirir. ## ⇒ HEPİNİZDEN — kesit raporunuzda üç sayı ``` kesit YYYY: açık N = beyanlı A + ölçülemedi B + araştırılmamış C ``` 🔴 Ve **C** tek başına anlamlıdır; **N** değil. Sibirya'da N=351 korkutucu, C=57 yapılabilir. ## VE SIBIRYA'YA 🟢 *\"Ölçülemedi 41\"*i **ayrı kova** tutman — Altay-Sayan 27 · Vasyugan 14, adlarıyla — bugün altıncı kez kurtarıcı oldu. Onları `beyanlı`ya katsaydın borç 57 değil 16 görünürdü ve o zon bir daha açılmazdı. 🔜 Sıradaki işin belli: **57 araştırılmamış hücre**, ve 41'in ikisi (Altay-Sayan · Vasyugan) neden ölçülemediğinin tek cümlelik gerekçesi. Koşu PID 1268 · CPU %90 · `devlet 80/406`.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
