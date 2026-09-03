@@ -177,7 +177,17 @@ BEKLENEN_YERLESIM = 968
 #    ⚠️ Bu sabit bir HEDEF degil bir FOTOGRAF: dunya yerlesim programi
 #    surerken her beyan partisi onu buyutur. Buyume KUSUR DEGIL —
 #    `1c`nin BELGESIZ sayisi buyurse O kusurdur.
-BEKLENEN_SAHIPSIZ = 300   # 263 +37 (G.Amerika beyanlari, 3 Eylul 20:30)
+BEKLENEN_SAHIPSIZ = 315   # 300 +15 (K.Amerika beyanlari, 3 Eylul 21:40)
+# 🟢 BU SATIR ONGORUYE GORE GUNCELLENDI, OLCUME GORE DEGIL.
+#    DUNYA-KAMERIKA-0903 dosyasini kopyalamadan ONCE `315 + AFRIKA` yazdi
+#    (denetim/ONGORU-KAMERIKA-0903.json); koordinator olcumu ELINDE TUTTU
+#    ve acmadi. Olcum: 315. TUTTU.
+#    ⚠️ AFRIKA HENUZ INMEDI. Indikten sonra bu sayi ARTAR ve o artis
+#    ongoruyu CURUTMEZ — ama AFRIKA indikten sonra sabit HALA 315 kalirsa
+#    mazeret YOKTUR (KAMERIKA'nin kendi sinirlamasi).
+#    📌 Bugun bu sabit UC KEZ olcume uydurularak degistirildi (219->263->300);
+#    dosyanin kendi kurali `kapsam buyuten parti, tavan degisimini ONCEDEN
+#    yazsin` diyor ve ihlal eden koordinatordu. Bu, kurala uyan ILK guncelleme.
 # 🔴 214 -> 215, 28 Agustos 2026 — `yerlesimler_ek_korfez.js` BAGLANDI.
 # Tek kayit: "Katar Yarimadasi (ic, dolgu)", `kasitli_bosluk:true` ·
 # `bos:"devletsiz"`. Sahipsizligi KUSUR DEGIL AMAC: Katar yarimadasinin
@@ -2089,7 +2099,15 @@ D7_ADA_MUAF = frozenset((
 #    FOTOGRAF. Dunya yerlesim programi surerken her parti onu buyutur.
 #    Buyume KUSUR DEGIL — kusur, bir enklavin koridoru SORULDUGU HALDE
 #    cevapsiz kalmasidir, ki onu bu sayac OLCMEZ.
-BEKLENEN_ENKLAV_SORGU = 537
+BEKLENEN_ENKLAV_SORGU = 574
+# 🟢 Ayni ongoru turu: KAMERIKA `574 + AFRIKA` yazdi, olcum 574. TUTTU.
+#    KISMI MAZERET onceden yazildi: +37'nin kacinin K.Amerika oldugu
+#    OLCULEMEDI. Ve bir CURUTME sarti da yazildi — Arktik adalari
+#    C-hakiki yerine A-koridor kovasinda cikarsa ongoru YANLIS demektir
+#    ve mazereti yoktur (300 km icinde ana govde var demek olur).
+#    ⚠️ AFRIKA indikten sonra TEKRAR olculecek; iki olcumun farki
+#    AFRIKA'nindir. Tek olcum yapilirsa hangi partinin ne getirdigi
+#    BIR DAHA BILINEMEZ (KAMERIKA'nin sira uyarisi).
 
 
 def _d7_km(a, b):
