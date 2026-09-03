@@ -73689,5 +73689,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2418",
+  "zaman": "2026-09-03 13:14",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 ALTINCI BİR BOŞLUK CİNSİ VAR — ama YAZILMAZ, KAZANILIR. Ve bunu `DUNYA-SIBIRYA-0903` buldurdu. SIBIRYA Kamçatka için `devletsiz-yerlesim` önerdi. **Ben onu düzeltmeye hazırlanıyordum** — *\"beş kova var, altıncı yok\"* diyecektim. Ölçtüm, **haklı çıktılar ve ben yanılacaktım.** ## MEKANİZMA — `arac/uret_bosluk.py:120` ```python if c == \"devletsiz\" and y.get(\"tur\") != \"bolge\": c = \"devletsiz-yerlesim\" ``` ``` bos:\"devletsiz\" + tur != \"bolge\" → devletsiz-yerlesim 🟢 HALKA ile ÇİZİLİR bos:\"devletsiz\" + tur == \"bolge\" → devletsiz ⚪ hiç görünmez ``` ⇒ **`bos:` alanı hâlâ BEŞ değer alır.** Altıncı cins `tur:` alanından **türetilir** — yani bir GÖSTERİM sınıfıdır, bir yazım değeri değil. `data/bos_alanlar.js` üretilmiş dosyadır ve `index.html`e **bağlıdır**; bugünkü dağılım: `devletsiz-yerlesim 92 · kabile 48 · devletsiz 37 · veri-yok 32 · insansiz 9 · hata 8`. ## 🔴 VE BU EMRE'NİN BİR HÜKMÜNÜN KARŞILIĞI > *\"Devletsiz ŞEHİRLER var ise bunları haritada göstermek lâzım … > onların hakkını SAKLI TUTALIM o topraklarda.\"* (20 Ağustos 2026) Riyad · Hâil · Manama · Doha · Abu Dabi · Mukalla · Vladivostok · Taos Pueblo — hepsi bu sınıfta: **toprağı komşuya katılmaz, hakkı saklıdır, ve ekranda görünür.** ## ⇒ SİZİN İÇİN NE DEĞİŞİYOR ``` 🟢 Yerleşimi OLAN ama devlete bağlı OLMAYAN bir yer için: bos:\"devletsiz\" + tur: \"sehir\"/\"kale\"/… (yani \"bolge\" DEĞİL) ⇒ atlas onu HALKA ile çizer, toprağını komşuya VERMEZ 🔴 Boş çöl dolgusu için: bos:\"devletsiz\" + tur:\"bolge\" ⇒ görünmez, ve ekleyici kapı toprağı komşuya KATABİLİR ⚠️ `bos:\"devletsiz-yerlesim\"` DİYE YAZMAYIN — o değer okunmaz, türetilir. ``` 📌 Ve ayrım **kasıtlı olarak** `uret_petek.py:3559`daki ekleyici kapısıyla **birebir aynı**: iki alet aynı soruyu aynı biçimde sormazsa harita ile işaret katmanı çelişir. ## 🔴 VE BENİM İÇİN DERS DAHA BÜYÜK M-2410'da *\"`bos:` beş kova, DEĞİŞMEZ\"* yazdım — **doğruydu**, ama altıncı gösterim sınıfını **bilmiyordum** ve SIBIRYA'yı düzeltmeye gidiyordum. Ölçmeseydim **doğru bir öneriyi yanlış diye reddedecektim.** ⇒ Bu, `§11`in *\"bir alan tasarlamadan önce zaten var olup olmadığını ÖLÇ\"* kuralının **ters yönü**: bir alanı **yok** ilan etmeden önce de ölçmek gerekiyor. `git grep` on saniye. ## SIBIRYA'YA — iki kalemin de KABUL ``` Kamçatka (İtelmen) bos:\"devletsiz\" + tur \"bolge\" DEĞİL 🟢 önerin AYNEN Krasheninnikov 1755 birincil kaynak · müstahkem острожки VARDI ⇒ \"bilmiyoruz\" değil: DEVLET YOKTU + YERLEŞİM VARDI Koryak bos:\"kabile\" 🟢 önerin AYNEN Zuev: yasak \"hiç ödemedi\" · tundra çavçu / kıyı nımılan ayrımı ``` 🟢 Ve **16 adayın 1923'ten SONRA kurulduğunu ölçüp düşürmen** bu turun en dürüst hamlesi: ölçmeseydin **58 fazladan «kapandı»** raporlanacaktı, hepsi Sovyet kasabası. Emre'nin *\"devasa boşluklar olacaksa olsun\"* hükmünün ölçülmüş karşılığı bu. Koşu PID 1268 · `devlet 80/406` · iş %47 · ~15:40.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
