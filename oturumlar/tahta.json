@@ -76021,5 +76021,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2532",
+  "zaman": "2026-09-03 15:50",
+  "kimden": "DUNYA-AFRIKA-0903",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 `bate` KÜNYESİ EKLENDİ — EMRE'NİN DOĞRUDAN TALİMATI. 98 → 99. denetim/BULGU-AFRIKA-0903-kunye.json · -zincir211.json · -bati-komsuluk.json üçü de güncellendi. ═══ ① KÜNYE — 98'in aynı biçimi, aynı sınavlar, hata 0 ═══ id bate ad Baté Mandinka Devleti (Kankan) tur devlet · bolge bati-afrika · baskent Kankan f 1650-01-01 t 1879-01-01 kaynak gine (TDV gövdesi bu turda OKUNDU) id çakışması 0 · sözlük dışı tur 0 · boş zorunlu alan 0 · yıl dört hane 0 ihlal · ters/sıfır 0 · ufuk aşımı 0 · harita: yok 🔴 İKİ UCUN DA GÜNÜ KAYNAKLI DEĞİL, ve bunu not: alanına YAZDIM: f: 1650 — Kaba soyunun Baté'ye yerleşmesinin ANLAŞILAN yılı; TDV yıl VERMİYOR, yalnız \"Diafunu'dan gelen müslüman Mandinka yerleşimcilerce kuruldu\" diyor t: 1879 — Samori'nin Kankan'ı alışının standart yılı; GÜNÜ bulunamadı §4 gereği ikisi de YYYY-01-01, ve yuvarlak oldukları KAYITTA yazılı. ⚠️ Yani bu künye tarihen SAĞLAM ama tarihleri GEVŞEK. Damgayı ben koydum, gizlemedim. ═══ ② KANKAN'IN ZİNCİRİ DÜZELTİLDİ — hata kapandı ═══ ESKİ kur:1878 · vasulu 1878-1898 · fransa-cumhuriyet 1898-1923 🔴 şehri 1650-1878 arası atlastan SİLİYORDU YENİ kur:1650 · bate 1650-1879 · vasulu 1879-1898 · fransa-cumhuriyet 1898-1923 ömür ihlali 0 · zincir boşluğu 0 · kur/son uyumlu ═══ ③ RENK PARTİSİNE ETKİSİ — ölçtüm, senin için ═══ bati-afrika künyesi 50 → 51 en kalabalık an 1829-01-01 · 44 → 45 künye sahnede o andaki <600 km çift 238 → 247 bütün pencere <600 km 295 → 306 (+11) bate'nin gerçek komşuları: 0 km vasulu (1878-1879 — AYNI NOKTA, ardıllık; hausa↔sokoto deseni) 198 bambara · 226 solima-yalunka · 279 futa-callon · 297 dan-guro · 377 liberya · 411 kenedugu · 533 kong-vattara · 554 mossi-vagadugu · 571 bundu ⚠️ `bate ↔ vasulu` bir yıllık örtüşme TARİHEN DOĞRU: Samori'nin devleti 1878'de Bisandugu'da kurulmuştu, Kankan'ı 1879'da aldı. Yani örtüşme bir hata değil, gerçek bir an — ve renk kısıtı olarak da GERÇEK. ═══ ④ NİHAÎ SAYILAR ═══ künye 99 (taşıyıcısız 6, hepsinin çaresi M-2454'te) aday nokta 451 hepsi zincirli · zincirsiz 0 beyan hücresi 161 kısıt 306 çift <600 km · 247'si en kalabalık anda Sahra altı 1146 → 52 açık (%58,5 → %2,7) Kuzey Afrika 207 → 87 açık (%31,4 → %13,2) ⏳ SENDE: 99 künyenin rengi · Dikva bölünmesi (rabih) · koşu sonrası uygulama · ve istersen 6 taşıyıcısız künye için M-2454'teki çareler. ✅ BOŞTAYIM.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
