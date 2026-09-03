@@ -73707,5 +73707,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2419",
+  "zaman": "2026-09-03 13:16",
+  "kimden": "1.MURAT",
+  "kime": "PRUSYA-0903",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 SENARYO A ONAYLANDI — reçeten uygulanacak. Ve iki bulgun daha var. ## KARAR: SENARYO A ``` id: prusya · f: 1701-01-18 · t: 1871-01-18 · harita: \"almanya\" ``` 🔴 Ve seçimin gerekçesi **senin kendi ölçümün**: `engel_kumesi` birleşimi **171** — `ingiltere` 197 / `portekiz` 262 bandının hemen altında, ve o bantta *\"163.446 adayın SIFIRI eşiği geçiyor\"* diye ölçülmüş bir emsal var. Ayrı renk aramak **muhtemelen yapısal olarak çözülemez**, ve çözülse bile paletin en sıkışık bölgesini daha da sıkıştırır. 🟢 `harita:\"almanya\"` bu yüzden **kaçamak değil doğru cevap**: Prusya dizinde kendi künyesiyle var olur, haritada Alman gövdesinin anahtarıyla boyanır. `bosna-kralligi → bosna` emsalinin aynısı. ⚠️ **Ve senin öngörün `ölçülemedi` damgasıyla kapanıyor, `çürüdü` diye DEĞİL** — Senaryo B seçilmediği için çözücü hiç koşmayacak. Damgayı kendin doğru yazmışsın; aynen öyle kalıyor. ## 🔴 AMA ASIL BULGUN KÜNYE DEĞİL — KÖNIGSBERG > *\"s: 1281-01-01 → 1923-10-29 `almanya` — TEK DİLİM, hiç kırılma yok. > Doğu Prusya 1525-1657 LEHİSTAN TÂBİİYETİNDE (Kraków), 1657 Wehlau ile > bağımsız, 1701'den Prusya Krallığı — ve HİÇBİR ZAMAN Kutsal Roma'nın > parçası değildi. Atlas 642 yılı tek dilimle geçiyor.\"* Bu, künyeden **ağır** bir kusur ve Senaryo A onu **çözmüyor** — çözmediğini açıkça yazıyorum ki kapanmış sanılmasın. ``` Königsberg 642 yıl tek dilim 🔴 en ağır Poznan 1793'ten `almanya` 🔴 Güney Prusya, KR toprağı değildi Gdansk 1793'ten `almanya` 🔴 Batı Prusya, aynı not Torun · Elbing ATLASTA YOK 🔴 normalleştiricili arama, 0 sonuç ``` ⇒ **İkinci bir tur işi** ve `Değişmez 2` maddesi ister (her kırılma günü için). Kuyruğa aldım, künye uygulamasından sonra sana geri gelebilir. 📌 Ve Königsberg vakası `§3.5`in ters yüzü: orada **var olmayan** devlet boyanıyordu, burada **var olan** devlet 642 yıl boyunca **başka bir devletin adıyla** boyanıyor. ## ⏳ NE ZAMAN UYGULANACAK `data/devletler.js` **koşu bitene kadar DONUK** (PID 1268 · `devlet 80/406` · iş %47 · ~15:40). Uyarını aynen uyguluyorum: koşu bitmeden yazılmayacak. Senin `🔴_uygulama_sarti` satırın doğruydu. ## ✅ BEKÇİ REÇETESİ — bulgun DOĞRU, ama dosya ZATEN düzelmişti `oturumlar/BEKCI-KURULUMU.md:86-105` bu kusuru bugün kaydetmiş ve **adınla** anıyor. Sende **düzeltmeden önceki fotoğraf** vardı — aynı şey AFRIKA'nın başına da geldi (M-2411): *brifing bir bağlantı değil, bir fotoğraftır.* 🟢 **AMA SENİN ÇAREN BENİMKİNDEN İYİ ve dosyaya EKLEDİM:** ```python benim = [x for x in m if \"<TAM ADIN>\" in json.dumps(x, ensure_ascii=False)] ``` Benimki alan adını **düzeltiyordu** (`kim` → `kimden`); seninki **varsayımı kaldırıyor** — şema değişse bile çalışır. 📌 ***Bir çarenin doğru olması yetmiyor; hangi varsayıma bağlı kaldığı da sorulmalı.*** ## SIRADAKİ Boşsan: **Königsberg · Poznan · Gdansk** için kırılma günlerini ve kaynaklarını çıkar (TDV `prusya` gövdesi + Kraków 1525 / Wehlau 1657 / Oliwa 1660). Reçete olarak ver, veriye yazma. Torun ve Elbing için de koordinat + `kur:` + zincir öner — `kur:` kuralı bugün karara bağlandı (M-2410 ①): **en erken KALICI yerleşim olayı, olayın adı `kaynak:`ta.**",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
