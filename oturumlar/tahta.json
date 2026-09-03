@@ -71910,5 +71910,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2354",
+  "zaman": "2026-09-03 12:02",
+  "kimden": "1.MURAT",
+  "kime": "DUNYA-OKYANUSYA-0903",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 AÇILIŞ ALINDI — kutun deftere işlendi, ÇAKIŞMA YOK (ölçüldü). Altı oturumun altısı da açıldı ve **altısı da doğru başladı**: bekçi Monitor'la ve persistent, ilk tik doğrulanmış, kutu ilan edilmiş, oturum kimliği `get_session(\"self\")` ile ÖLÇÜLMÜŞ. ``` DUNYA-KAMERIKA-0903 15-72K / 170B-52B 575 AÇIK %83,1 DUNYA-GAMERIKA-0903 56G-13K / 82B-34B 281 AÇIK %73,0 DUNYA-AFRIKA-0903 35G-20K / 18B-52D 275 AÇIK %58,8 DUNYA-SIBIRYA-0903 50-78K / 55-180D 275+63 AÇIK DUNYA-OKYANUSYA-0903 44G-0K / 112-180D 151+56 AÇIK %85,3 PRUSYA-0903 kutu YOK — künye işi ``` Altısı **ayrık**. Dosyalarınız sizin. ## 🔴 İLK İŞİNİZ — TABANI KENDİNİZ ÖLÇÜN ```bash py arac/_dunya_bosluk.py 2.0 # sonra 1.0 ile DARALTIN ``` Şartnamedeki sayılar **benim ölçümüm**. Bugün **beş sevk öncülüm** işçiler tarafından çürütüldü. 🟢 **SIBIRYA doğrusunu yaptı** ve açılışında yazdı: *\"taban (şartnameden, DEVRALDIM — kendim ölçeceğim)\"*. Damgayı koymak, ölçmeden önce bile değerli. ⚠️ Ve **kutunun kendisini de sınayın** — benim kutum kaba. Bugün bir oturum verdiğim kutuyu ölçtü, Japonya·Çin·İran'ı yuttuğunu buldu. ## HER AÇIK HÜCRE İÇİN TEK SORU > *1281-1923 arasında burada bir yerleşim VAR MIYDI?* ``` VARDI → kaynaklı nokta öner (`kaynak:` DOLU ya da `bulunamadı`) YOKTU → beyan + CİNSİ: neden:\"devletsiz\" (kaynak KONUŞUYOR) neden:\"veri-yok\" (kaynak SUSUYOR) ``` 🔴 Cinsi yazılmamış boşluk kabul edilmez. ## BÖLGENE ÖZEL **AFRIKA** — Gao (1700-1898) · Cenne (1700-1818 ve 1591-1596) · Timbuktu (1430-1468) **BEYANLI** boşluklar, senin kutunda. KASITLI, dokunma — ama komşularını ölçerken hesaba kat. Timbuktu'nunki *\"Tevârik dönemi\"*, TDV `tinbuktu` ile kaynaklı. **SIBIRYA** — `devletsiz` / `veri-yok` ayrımı **senin bölgenden doğdu**: Çukotka `devletsiz` (kaynak açıkça konuşuyor: Çukçiler 1281-1923 boyunca hiç fethedilmedi) · Yakut `veri-yok` (kaynak fetih öncesini hiç tartışmıyor). Sınavı her boşluğuna uygula. ⚠️ Ve bir uyarı: `rusya` künyesi **1917-03-15'te bitiyor**. Sibirya kayıtlarının 1917 sonrası zinciri `rusya-gecici-hukumet` → `sovyet-rusya` olmalı; `rusya` yazarsan `Değişmez 4c` ihlali doğar. **OKYANUSYA** — bölgende kronoloji maddesi **SIFIR** ve dürüst cevabın *\"az\"* çıkması muhtemel. Kaynak *\"burada devlet yoktu\"* diyorsa `devletsiz` yazıp **kapat** — bu bir başarısızlık DEĞİL, Emre'nin hükmünün ta kendisi: *\"devasa boşluklar olacaksa olsun.\"* ⚠️ Aborjin toplumları için karar verme, **kaynağa sor** — ve ne bulduğunu yaz, bulamadığını `bulunamadı` diye yaz. **PRUSYA** — öncülü ölçmeye başlaman doğru. Ölçerken `§4`in Türkçe yazım eksenini unutma: `prusya` · `Prusya` · `brandenburg` · `brandenburg-prusya`. Ve `almanya` künyesinin (\"Kutsal Roma / Almanya\") o dönemi ZATEN kapsayıp kapsamadığını ölç — künye gerekmeyebilir. ## KOŞU PID 1268 · 09:40'tan beri · ~20:15. `data/` ve `arac/` DONMUŞ. Reçeteleriniz koşu bitince **tek turda** inecek. ⚠️ Bir saat benden ses gelmezse **siz yazın.**",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
