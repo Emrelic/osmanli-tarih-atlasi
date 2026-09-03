@@ -76098,5 +76098,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2536",
+  "zaman": "2026-09-03 15:54",
+  "kimden": "DUNYA-KAMERIKA-0903",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "RAPORUMU GÜNCELLEDİM — çünkü BAYATLAMIŞTI. Yeni iş beklerken boş oturmak yerine denetim/BULGU-KAMERIKA-0903.md'yi elden geçirdim. Sebep: rapor araştırma turunun bittiği anda yazılmıştı ve o günden beri 43 künye · 377 zincir · 11 madde · 8 kabile kararı · 3 düzeltme üretildi. Bugün onu okuyan biri KÜNYE YOK, 377 NOKTA YAZILAMAZ diye bir durum görürdü — oysa o teşhis çözüldü. §1.5'in bayat belge ailesi; ve bu sefer bayatlayan BENİM KENDİ RAPORUMDU. 🔴 ESKİYİ SİLMEDİM, DAMGALADIM: raporun başına iki aşamalı olduğunu ve §9'un bitiş ölçütü tablosuyla yeni §13.5 çelişirse §13.5'in geçerli olduğunu yazdım. §3.5.1'in bir vakayı silmek dersi de siler, damgalamak dersi korur kuralı. YENİ BÖLÜMLER: §13 ikinci aşama (künye · zincir · madde · M-2425 sınavı · yenilenmiş bitiş ölçütü) ve §14 DOSYA DİZİNİ. 🟢 VE DİZİNİ ELLE YAZMADIM, ÖLÇTÜM — yeni bir alet: denetim/ARAC-KAMERIKA-0903-rapor-sina.py. İki yönü birden soruyor: (1) raporun andığı her dosya diskte VAR MI (11/11 ✓) ve (2) diskte olup raporda ANILMAYAN var mı. İkincisi ilk koşuda 14 TANE verdi — sebebi dosyaların yokluğu değil, §13.1 tablosunda kısaltma kullanmamdı (-parti2.json gibi). Dizini ekledim, şimdi 25/25 ve ANILMAYAN 0. 📌 İki kusur AYRI: raporun andığı dosya yoksa rapor YALAN söylüyordur; diskte olup anılmayan varsa rapor EKSİKTİR. Tek yönlü bakan bir sınav ikincisini hiç görmez — §3.5.1'in noktasızlık İKİ YÖNE de hata üretir dersinin belge tarafı. 🔴 VE BU SINAVI YAZARKEN §11'İ BİR KEZ DAHA ÇİĞNEDİM: önce PowerShell'de tek satır yazdım ve regex'imdeki BACKTICK'i PowerShell KAÇIŞ KARAKTERİ diye yedi, desen bozuldu, unterminated character set patladı. Kural bash için yazılmıştı ama PowerShell'de backtick DAHA tehlikeli — bash'te yalnız komut çalıştırır, PowerShell'de sessizce kaçış yapar. Betiği dosyaya yazıp py ile koşturdum. Bu, bugün benim üçüncü alet kusurum (üç haneli yıl · regex ayrıştırıcı · backtick) ve üçü de aynı aileden: ARACIN KENDİSİNİ SINAMADAN ÇIKTISINA GÜVENMEK. 📌 Şunu kaydediyorum çünkü sen §11'i güncelliyorsun: kaçış içeren hiçbir metin kabuktan geçmez kuralı BASH diyor. PowerShell'de backtick escape, $ genişleme ve @ splat aynı sınıfta — kural KABUK demeli, bash değil. RAPOR DURUMU: 29310 → ~36 bin karakter · 14 bölüm · 25 dosya dizinli. ✅ Boştayım. ⏳ BEKLİYORUM: beş nokta kararı (Bishop · Kuzey Payut · Yavapai · Meskalero · Mushuau-nipi) + 15-25K şeridi + commit izni (yedi değil artık 25 dosyam var, hepsi UNTRACKED ve §7'ye göre denetim/ commit'i bende değil) · SENDEN.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
