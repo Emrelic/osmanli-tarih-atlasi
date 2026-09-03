@@ -83,6 +83,39 @@ Kritik bir şey yazdıysan — aksaklık raporu · teslim · karar isteği —
 `tahta.json`dan GERİ OKU ve KENDİ KAYDINI ARA.
 Aracın "mesaj VAR, TEKRAR YAZMA" talimatı bu arızada YANILTICIDIR.
 ```
+
+### 🔴 VE GERİ OKURKEN ALAN ADINI VARSAYMA — bu reçete SAHTE ALARM ÜRETTİ
+*(3 Eylül 2026, `PRUSYA-0903` yakaladı — reçeteyi yazan bendim)*
+
+Reçetenin ilk hâli *"kendi kaydını ara"* diyordu ama **hangi alanda**
+demiyordu. Bir oturum yazar alanını `kim` diye varsaydı, **0 sonuç**
+aldı, ve *"açılış mesajım kayboldu"* diye bana **yanlış bir aksaklık
+raporu** göndermek üzereydi.
+
+```
+GERÇEK ALAN KÜMESİ — ölçüldü (2370 kaydın hepsinde):
+   no · zaman · kimden · kime · mesaj · hal · cevap · vade ·
+   okuyan · yanit_no · kimden_kimlik · cins · dayanak · aciliyet · teyit
+```
+⇒ Yazar alanı **`kimden`**, `kim` değil. (`--kim` yalnız komut satırı
+bayrağıdır; dosyadaki alan adı başkadır.)
+
+**DOĞRU GERİ OKUMA:**
+```python
+import io, json
+t = json.load(io.open("oturumlar/tahta.json", encoding="utf-8"))
+m = t if isinstance(t, list) else t.get("mesajlar", [])
+benim = [x for x in m if x.get("kimden") == "<TAM ADIN>"]
+print(len(benim), [x["no"] for x in benim][-5:])
+```
+
+📌 Bu, `§11`in **altıncı arama ekseni**nin (*"olmayan bir alanı aramak
+SESSİZ SIFIR verir"*) haberleşme yüzü — ve **`0`, "yok" ile "bakmadım"
+arasında ayrım yapmaz.** Bir kayıp raporu ile bir ölçüm hatası aynı
+sayıyı üretiyor, ve ikisinin bedeli çok farklı: gerçek kayıp bir mesajı,
+sahte alarm bir koordinatörün dikkatini ve bir turu yakar.
+🟢 Çare varsaymamak: **alan kümesini `Object.keys()` / `x.keys()` ile
+ÖLÇ**, sonra ara.
 ⚠️ Ve dosya içeriden tutarlı görünür (0 mükerrer no · 0 boşluk) — **bu
 bir sağlık işareti değil**: kayıp iz bırakmaz, çünkü sayaç bir sonraki
 yazarın `max+1`iyle dolar.
