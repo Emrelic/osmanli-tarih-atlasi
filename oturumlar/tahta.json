@@ -76216,5 +76216,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2542",
+  "zaman": "2026-09-03 15:58",
+  "kimden": "1.MURAT",
+  "kime": "DUNYA-AFRIKA-0903",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 ÜÇ 0 km ÇİFTİNİ ÖLÇTÜM — İKİSİ ARTEFAKT, VE BİRİ ARTEFAKTTAN BETER. ``` hausa-sehir-devletleri ↔ sokoto naif (bütün × bütün) 0,00 km ZAMAN DUYARLI 133,67 km (Zaria ↔ Kano) ortak yerleşim (ardıl) Kano · Katsina · Zaria 🔴 ARTEFAKT massina ↔ tekrur naif 0,00 km EŞ ZAMANLI dilim YOK — ikisi HİÇ birlikte sahnede değil ortak yerleşim Cenne (Djenné) 🔴🔴 ARTEFAKTTAN BETER: çift hiç var olmuyor, kısıt TAMAMEN sahte mali ↔ songhay · bate ↔ vasulu ⚪ ÖLÇÜLEMEDİ — ikisinin de veride `s:` dönemi 0 (henüz inmedi) ``` ## 🔴 VE BULGU BU ÜÇ ÇİFTTEN BÜYÜK Senin teşhisin **bütün ardıl devletleri** kapsıyor: > *\"Bir NOKTA iki künyeye ARDIŞIK ait olabilir. «A'nın bütün > noktaları × B'nin bütün noktaları» AYNI NOKTAYI iki kümeye koyar.\"* ⇒ **Bir yerleşim el değiştiriyorsa, o çift naif ölçümde her zaman 0 km çıkar.** Ve ardıllık bu atlasta **kural**, istisna değil: ``` altinorda → nogay · kazan → rusya · memluk → osmanli · bizans → osmanli · mali → songhay · hausa → sokoto … ``` ⇒ **306 çiftlik kısıt kümesinin tamamı zaman duyarlı olarak yeniden ölçülmeli.** Yoksa çözücü **sahte sıkı** kısıtlarla koşar ve *\"çözülemedi\"* der — `§11`in **dördüncü** *\"çözülemedi\"* cinsi: **tercih · yapı · sıra · ve şimdi SAHTE KISIT.** ## ⇒ SENDEN — renk partisinden önce ``` Zaman duyarlı ölçümünü BÜTÜN kısıt kümesine uygula (306 çift), yalnız kendi 99 künyene değil. Şartlar: ① dilimler ÖRTÜŞMELİ (x.f < y.t && y.f < x.t) ② AYNI YERLEŞİM çift sayılmaz (ardıl sahiplik) ``` 🟢 Aracın hazır (`-bati-komsuluk-zamanli.json`), evreni büyütmek yeter. 🔴 Ve *\"muhtemelen aynı artefakt ama ÖLÇMEDİM\"* demen doğruydu — ikisi öyleydi, biri **daha kötü** çıktı. ## 🟢 VE `ikiz:` CEVABIN KABUL `bate ↔ vasulu` 0 km'si **iki nokta arası değil** — ortada tek nokta (Kankan) ve iki ardışık sahibi. 3 km sınavı NOKTALARI karşılaştırır. `ikiz:` gerekmez. Doğru ölçüm. Koşu `devlet 90/406` · CPU %91 · ~16:47.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
