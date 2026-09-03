@@ -1,0 +1,303 @@
+{
+  "is": "PRUSYA-0903 — `prusya` künyesi ve 1795-1807 penceresi. REÇETE turu.",
+  "oturum": "PRUSYA-0903",
+  "damga": "2026-09-03 · KOŞU CANLI (PID 1268) — `data/` ve `arac/` DONMUŞ, hiçbirine YAZILMADI",
+  "uygulayan": "1.MURAT — `data/devletler.js` · `arac/renkler.py` onun dosyaları (§7). Ben YAZMADIM.",
+  "yetki_beyani": "Bu dosya ve `oturumlar/PRUSYA-0903.md` dışında hiçbir şeye dokunulmadı. Ölçüm betikleri scratchpad'de.",
+
+  "0_ONCUL_DENETIMI": {
+    "baslik": "İKİ DEVRALINAN ÖNCÜL ÖLÇÜLDÜ — biri DOĞRULANDI, ikisi ÇÜRÜDÜ",
+
+    "oncul_1_DOGRULANDI": {
+      "devralindi": "OK109: `prusya` kimliği atlasta HİÇ YOK",
+      "hukum": "🟢 DOĞRULANDI",
+      "olcum": {
+        "arama_ekseni": "6 eksen — prus · brandenburg · preuss · hohenzollern · teuton · toton (küçük harfe indirgenmiş alt-dizgi)",
+        "veride_donem": "0 — 2731 noktanın s:/d:/v:/isg: dönemlerinin hiçbiri bu kimliklerden birini taşımıyor (evren: girdi.GIRDI_DOSYALARI, girdi.yukle())",
+        "veride_benzersiz_kimlik": 408,
+        "renkler_py_BOYALAR": "YOK — 403 boyanın hiçbiri",
+        "devletler_js_kunye": "YOK — 441 künyenin hiçbiri (girdi.oku_devletler(), regex DEĞİL)"
+      }
+    },
+
+    "oncul_2_CURUDU": {
+      "devralindi": "Şartname §1: «1795-10-24 → 1807-07-22 AÇIK — 11 yıl 9 ay»",
+      "hukum": "🔴 ÇÜRÜDÜ — o pencerede VERİDE BOŞLUK YOK",
+      "olcum": "Pencereyi taşıyan dört kayıt tek tek okundu; dördü de DOLU:",
+      "kayitlar": [
+        { "ad": "Varşova", "dosya": "yerlesimler.js", "1795-10-24 → 1806-11-28": "almanya", "sonra": "varsova-dukaligi 1806-11-28 → 1815-06-09" },
+        { "ad": "Lublin", "dosya": "yerlesimler_p0037.js", "1795-10-24 → 1809-10-14": "avusturya", "sonra": "varsova-dukaligi 1809-10-14 → 1815-06-09" },
+        { "ad": "Zamość", "dosya": "yerlesimler_p0037.js", "1795-10-24 → 1809-10-14": "avusturya", "sonra": "varsova-dukaligi 1809-10-14 → 1815-06-09" },
+        { "ad": "Białystok", "dosya": "yerlesimler_p0037.js", "1795-10-24 → 1807-07-09": "almanya", "sonra": "rusya 1807-07-09 → 1917-03-15" }
+      ],
+      "Chelm": "🔴 ATLASTA YOK — normalleştiricili arama (Türkçe + Lehçe diakritik) 0 sonuç. Şartnamedeki dört addan biri bir KAYIT DEĞİL.",
+      "nicin_onemli": "Boşluk DİZİNDE değil KİMLİKTE. `Değişmez 1` bu pencerede zaten temiz; kusur «sahipsiz» değil «yanlış sahip». Bu, `§3.5` hayalet-devlet sınıfının TERS YÜZÜ: devlet yaşıyor ama BAŞKA devletin adıyla boyanıyor.",
+      "🔴_sevk_riski": "Şartname bu öncüle dayanarak «11 yıl 9 ay AÇIK» diyordu. Kapatmak için `prusya` dönemleri YAZILSAYDI, dört kaydın dördü de ZATEN DOLU olduğu için ÇAKIŞAN dönem üretilecekti (`§8`: dönemler çakışmamalı). Ölçüm bunu durdurdu."
+    },
+
+    "oncul_3_CURUDU": {
+      "devralindi": "Şartname §KAYNAK: «TDV Batı Avrupa'yı %0 kapsıyor — `prusya` slug'ı büyük ihtimalle ölü»",
+      "hukum": "🔴 ÇÜRÜDÜ — `prusya` CANLI ve gövdesi bu turda OKUNDU",
+      "olcum": {
+        "prusya": "HTTP 200 · gövde geldi · aranan altı olgunun ALTISI da var",
+        "almanya": "HTTP 200",
+        "polonya": "HTTP 200",
+        "lehistan": "HTTP 200",
+        "brandenburg": "302 ÖLÜ",
+        "tilsit-antlasmasi": "302 ÖLÜ",
+        "kalininggrad": "302 ÖLÜ"
+      },
+      "🔴_ders": "«Batı Avrupa %0» tablosu KÜNYE kapsamasını ölçer (CLAUDE.md §4'ün kendi uyarısı). Prusya bir Batı Avrupa devleti sayılıp «yok» varsayılmıştı; TDV onu OSMANLI TEMASI üzerinden kapsıyor. `§4`'ün «dar slug tutmazsa kapsayıcıyı dene» kuralının tersi çıktı: dar slug ZATEN tutuyordu, kimse denememişti.",
+      "ikinci_kanit": "`data/kronoloji_almanya.js` başlığı (başka bir oturum, daha önce): «`almanya` · `prusya` · `bagdat-demiryolu` · `berlin-antlasmasi`, dördü de HTTP 200, gövdesi bu oturumda çekildi». Yani slug'ın canlılığı DEPODA ZATEN YAZILIYDI."
+    }
+  },
+
+  "1_TDV_ALINTILARI": {
+    "slug": "prusya",
+    "erisim": "2026-09-03 · HTTP 200 · gövde okundu",
+    "tanim": "«Bugünkü Almanya'nın doğu kesiminde kurulmuş Berlin merkezli Alman krallığı.»",
+    "krallik_ilani": "«1701'de krallık unvanını aldığı Doğu Prusya'dan ötürü bu isimle anılmaya başlandı» · «18 Ocak 1701'de Königsberg'de taç giydi.»",
+    "hanedan_baslangici": "«Prusya Devleti, 1415'ten itibaren Brandenburg Seçici Prensliği'nde hüküm süren Hohenzollern hânedanının eseridir.»",
+    "imparatorluk": "«18 Ocak 1871'de Prusya Kralı I. Wilhelm, Versailles'da Alman imparatoru ilân edildi.»",
+    "paylasimlar": "«1772'de Polonya'nın ilk bölünmesinde önemli rol oynadı» · «1793 ve 1795 tarihli Polonya parçalanmalarından 112.000 km2 ile önemli ölçüde kazançlı çıkmış»",
+    "tilsit": "«ağır bir barışı kabul etmek zorunda kaldı (9 Temmuz 1807)»"
+  },
+
+  "2_MEVCUT_DURUM_OLCUMU": {
+    "1795_1807_penceresinde_dort_kayit": "yukarıda — oncul_2_CURUDU",
+
+    "1793_sonrasi_bes_kayit": [
+      { "ad": "Poznan", "olcum": "s: 1793-01-23 → 1918-12-27 `almanya`", "gercek": "İkinci Paylaşım'da PRUSYA aldı (Güney Prusya). `almanya` künyesi 962-1923 «Kutsal Roma / Almanya»; Güney Prusya HİÇBİR ZAMAN Kutsal Roma toprağı olmadı." },
+      { "ad": "Gdansk", "olcum": "s: 1793-01-23 → 1918-11-11 `almanya` (öncesi 1466-1793 `lehistan`)", "gercek": "İkinci Paylaşım'da PRUSYA aldı (Batı Prusya). Aynı not." },
+      { "ad": "Königsberg", "olcum": "s: 1281-01-01 → 1923-10-29 `almanya` — TEK DİLİM, hiç kırılma yok", "gercek": "🔴 EN AĞIR KAYIT. Doğu Prusya 1525-1657 LEHİSTAN TÂBİİYETİNDE (Kraków Antlaşması), 1657 Wehlau ile bağımsız, 1701'den Prusya Krallığı — ve HİÇBİR ZAMAN Kutsal Roma'nın parçası değildi. Atlas 642 yılı tek `almanya` dilimiyle geçiyor." },
+      { "ad": "Torun", "olcum": "🔴 ATLASTA YOK", "arama": "torun · Toruń · thorn — normalleştiricili, 0 sonuç" },
+      { "ad": "Elbing", "olcum": "🔴 ATLASTA YOK", "arama": "elbing · elblag · Elbląg — 0 sonuç" }
+    ],
+
+    "ek_olculen_noktalar": [
+      { "ad": "Stettin (Szczecin)", "olcum": "almanya → isvec 1648-10-24/1720-02-01 → almanya", "not": "🟢 Bu kayıt DOĞRU çalışıyor — İsveç Pomeranyası ayrı kimlikle yazılmış. Emsal: atlas bu coğrafyada kimlik ayrımı YAPABİLİYOR." },
+      { "ad": "Klaipėda (Memel)", "olcum": "s: 1281-01-01 → 1923-10-29 `almanya` — tek dilim", "not": "Königsberg ile aynı sınıf." },
+      { "ad": "Białystok", "olcum": "lehistan → almanya 1795-10-24 → rusya 1807-07-09", "not": "🟢 Yeni Doğu Prusya, tarihen doğru sahiplik — yalnız KİMLİK adı `almanya`." },
+      { "ad": "Krakov", "olcum": "lehistan → `avusturya` 1795-10-24 → 1918-11-11", "not": "⚠️ KAPSAMIM DIŞI ama ölçüldü: Krakov 1809-1815 Varşova Dukalığı, 1815-1846 Kraków Serbest Şehri'ydi. Tek `avusturya` dilimi bu 37 yılı yutuyor. AYRI BİR İŞ — buradan iş türetilmesin, ÖLÇTÜM ama ARAŞTIRMADIM." },
+      { "ad": "Radom", "olcum": "🔴 ATLASTAKİ `Radom` DARFUR'DA (yerlesimler_h2_afrika.js) — Polonya'daki Radom DEĞİL", "not": "Ad çakışması tuzağı: Polonya bağlamında `Radom` aranırsa Sudan kaydı bulunur. `§4` Türkçe-yazım ekseninin ad-çakışması yüzü." }
+    ],
+
+    "kimlik_kullanimi": {
+      "almanya": "96 dönem · künye VAR",
+      "avusturya": "145 dönem · künye YOK (→ `habsburg` künyesi `harita:\"avusturya\"`)",
+      "lehistan": "46 dönem · künye VAR",
+      "varsova-dukaligi": "4 dönem · künye VAR",
+      "kongre-polonyasi": "4 dönem · künye VAR",
+      "bavyera / saksonya / hannover / pfalz / hansa / wurttemberg / baden / alman-imparatorlugu / kutsal-roma / alman-konfederasyonu": "0 dönem · künye YOK — atlas Alman alt-devletlerinin HİÇBİRİNİ ayrı kimlikle yazmıyor"
+    },
+
+    "1800-06-15_te_almanya_tasiyan_36_nokta": {
+      "toplam": 36,
+      "kutsal_roma_disinda_olanlar": ["Białystok", "Klaipėda (Memel)", "Varşova", "Königsberg", "Gdansk", "Poznan"],
+      "sayi": 6,
+      "hukum": "36'nın 6'sı 1800'de Kutsal Roma'nın DIŞINDAYDI ve Prusya Krallığı'nın toprağıydı. Kalan 30'u (Berlin · Dresden · Münih · Köln …) gerçekten Kutsal Roma'ydı — orada `almanya` DOĞRU."
+    }
+  },
+
+  "3_KUNYE_GEREKIYOR_MU": {
+    "karar": "🔴 KARAR KOORDİNATÖRÜN. Ölçüm ve iki senaryo aşağıda; ÖNERİM A.",
+
+    "emsal_OLCULDU": {
+      "bulgu": "Atlas künye kimliği ile boya anahtarını AYIRABİLİYOR ve bunu ZATEN yapıyor.",
+      "kanit": [
+        "`habsburg` künyesi (1526-08-29 → 1918-11-11) `harita:\"avusturya\"` — veride 145 dönem `avusturya` diye yazılı, künye `habsburg` diye duruyor",
+        "`macaristan-habsburg` künyesi `harita:\"macaristan\"`",
+        "`macaristan-naiplik` künyesi `harita:\"macaristan\"`"
+      ],
+      "kural_dayanagi": "CLAUDE.md §11: «künye var ama `harita:` başka anahtarda» AYRI BİR DAL — bu künyelerin kendi renklerine İHTİYACI YOKTUR. (`bosna-kralligi` → `harita:\"bosna\"` emsali.)"
+    },
+
+    "almanya_kunyesi_kapsiyor_mu": {
+      "kunye": "id:`almanya` · ad:«Kutsal Roma / Almanya» · f:962-02-02 → t:1923-10-29 · harita:`almanya` · #78d028",
+      "ozet_alintisi": "«Alman dünyasının çatı yapısı: 1806'ya dek Kutsal Roma İmparatorluğu, 1871'den sonra Prusya önderliğinde Alman İmparatorluğu»",
+      "hukum": "🟡 KISMEN. Künye Prusya'yı ADIYLA anıyor ama YALNIZ 1871 sonrası için. 1701-1871 arası Prusya Krallığı künyede hiç geçmiyor, ve o dönemin toprağı `almanya` diye boyanıyor.",
+      "🔴_carpici": "Künyenin kendi kronolojisi «1806-08-06 Kutsal Roma İmparatorluğu ilga edildi» diyor — ama künye penceresi 962-1923 KESİNTİSİZ. Yani künye, kendi anlattığı yıkılışı kendi penceresinde ifade etmiyor. `§3.5` hayalet-devlet sınavının künye tarafı. AYRI BİR İŞ, buradan iş türetilmesin."
+    },
+
+    "kronoloji_ekseni_OLCULDU": {
+      "bulgu": "`data/kronoloji_almanya.js` `devlet:\"brandenburg-prusya\"` etiketli 47 MADDE taşıyor — ve künyesi YOK.",
+      "tam_dagilim": {
+        "brandenburg-prusya": 47, "alman-imparatorlugu": 32, "kutsal-roma": 17,
+        "saksonya": 10, "hansa": 4, "pfalz": 4, "alman-konfederasyonu": 4,
+        "weimar-cumhuriyeti": 4, "bavyera": 3, "teuton-sovalyeleri": 2,
+        "hannover": 2, "dini-elektorlukler": 1, "wurttemberg": 1, "baden": 1
+      },
+      "hukum": "14 `devlet:` değerinin 14'ünün de `devletler.js`te künyesi YOK (0/14). Yani bu bir PRUSYA sorunu değil, dosyanın TAMAMINDA geçerli bir desen — `devlet:` alanı künye id'sine bağlanmıyor.",
+      "🔴_ayrica": "Dosyanın kendi başlığı «index.html'e BAĞLANMADI (koordinatör yapacak)» diyor. ÖLÇÜM: `index.html:748`de BAĞLI. Başlık BAYAT. (Bağlı olan `kronoloji_habsburg.js` de var, satır 725.)",
+      "kapsam": "Bu satırlar ÖLÇÜMDÜR, iş talebi değil. 0/14 deseni benim kapsamımın dışında — koordinatör ayrı sevk etsin."
+    },
+
+    "SENARYO_A_ONERILEN": {
+      "ad": "DİZİN KÜNYESİ — `harita:\"almanya\"`",
+      "ne_yapar": "`prusya` künyesi `devletler.js`e eklenir, `harita:\"almanya\"` ile boya anahtarını `almanya`ya bağlar.",
+      "kazanc": [
+        "Dizin deliği kapanır: Lehistan'ı bölüşen üç devletten üçü de dizinde görünür (Rusya · Avusturya[habsburg] · Prusya)",
+        "`kronoloji_almanya.js`in 47 `brandenburg-prusya` maddesi bir künyeye BAĞLANABİLİR hâle gelir"
+      ],
+      "maliyet": "SIFIR — veri değişmez, renk gerekmez, `renkler.py` açılmaz, koşu etkilenmez, harita bir piksel değişmez",
+      "denetim_etkisi": {
+        "Degismez_1": "değişmez — hiçbir dönem eklenmiyor",
+        "Degismez_2": "değişmez — hiçbir kırılma doğmuyor",
+        "renk_olc": "değişmez — BOYALAR'a dokunulmuyor",
+        "dizinsiz_harita_kimligi": "değişmez — `harita:` var olan bir anahtara bağlanıyor",
+        "renkli_kunyesiz_kimlik": "değişmez",
+        "kunyeli_renksiz": "🟡 Bu denetimin «künye var ama `harita:` başka anahtarda» DALINA düşer — CLAUDE.md §11'e göre bu dal KUSUR DEĞİL, tasarımdır. `habsburg` ile aynı kovada olur."
+      },
+      "nicin_onerdim": "Veri DOĞRU değil ama denetimler TEMİZ, ve tek maliyetsiz kazanç dizindir. Haritayı düzeltmek (Senaryo B) 6 nokta + 1 renk + 1 koşu demek; dizini düzeltmek 1 künye demek. `ONCELIK.md` çöl seyyahı: ucuz olanı önce al."
+    },
+
+    "SENARYO_B": {
+      "ad": "AYRI GÖVDE — kendi rengi, kendi dönemleri",
+      "ne_yapar": "`prusya` künyesi `harita:\"prusya\"` + `renkler.py`ye renk + 6 noktada `s:` dönemi bölünür",
+      "etkilenen_kayitlar": ["Königsberg", "Gdansk", "Poznan", "Varşova", "Białystok", "Klaipėda (Memel)"],
+      "🔴_RENK_RISKI_OLCULDU": "Aşağıda — 4_RENK_ONERISI",
+      "🔴_ek_risk": "Königsberg tek dilim (1281-1923 `almanya`). Bölmek 1525 Kraków ve 1657 Wehlau'yu da açar — yani iş 6 nokta değil, Doğu Prusya'nın 400 yıllık tâbiiyet tarihidir. AYRI BİR PARTİ.",
+      "hukum": "Bu turda ÖNERİLMİYOR. Yapılacaksa kendi şartnamesiyle, ve `renkler.py` DONMUŞ olmadığı bir günde."
+    }
+  },
+
+  "4_RENK_ONERISI": {
+    "yontem": "🟢 `renk_olc.engel_kumesi()` ile ÖLÇÜLDÜ — ELLE SAYIM DEĞİL (şartname ⑤ şartı).",
+
+    "🔴_OLCEMEDIGIM": "`engel_kumesi(\"prusya\")` KOŞULAMAZ: `prusya` ne veride ne künyede var, fonksiyon ona ne Voronoi komşusu ne künye penceresi bulabilir (default 1281-1923'e düşer, anlamsız). Ölçtüğüm şey VEKİL ÜZERİNDEN ÜST SINIR.",
+
+    "olcum": {
+      "almanya": 134,
+      "lehistan": 105,
+      "kongre-polonyasi": 31,
+      "varsova-dukaligi": 24,
+      "BIRLESIM": 171,
+      "birlesim_gerekcesi": "Önerilen `prusya` penceresi 1701-01-18 → 1871-01-18, dört künyenin DÖRDÜNÜ DE örtüyor (lehistan 1569-1795 · varsova-dukaligi 1807-1815 · kongre-polonyasi 1815-1917 · almanya 962-1923). `engel_kumesi` künye penceresiyle çalıştığı için dördünün birleşimi doğru üst sınırdır."
+    },
+
+    "🔴_ONGORU_damgali_olcumden_ONCE_yazildi": {
+      "ne_bekliyorum": "`prusya`ya ΔE≥12 tutan ayrı bir renk bulmak YAPISAL OLARAK ÇÖZÜLEMEZ ÇIKACAK ya da sınırda kalacak.",
+      "dayanak": "CLAUDE.md §11 ölçülmüş emsali: `ingiltere` 197 komşu ve `portekiz` 262 komşu — «163.446 adayın SIFIRI eşiği geçiyor ⇒ YAPISAL». 171, o bandın hemen altında.",
+      "mazereti_var_mi": "🟡 VAR ve ÖNCEDEN yazıyorum: 171 bir ÜST SINIR, gerçek küme daha küçük olabilir (Prusya `almanya`nın coğrafi ALT kümesidir). Ayrıca §11 «SIRA bağlıyor olabilir — ikinci geçiş çözer» diyor; tek geçişte çözülemeyen ikinci geçişte çözülebilir.",
+      "hangi_ciktidan_hangi_birimde": "`renkler.py` çözücüsünün kendi çıktısından, CIEDE2000 ΔE biriminde, `renk_olc.py` eşiği 12.",
+      "hangi_kosuda_neye_karsi": "🔴 BU TURDA ÖLÇÜLEMEZ — `renkler.py` motor parmak izinde ve KOŞU CANLI (§7). Çözücü, koşu bittikten SONRA ve YALNIZ Senaryo B seçilirse koşulur. Seçilmezse bu öngörü hiç sınanmaz ve `ölçülemedi` damgasıyla kapanır — `çürüdü` DİYE DEĞİL."
+    },
+
+    "kesin_engeller_hex": {
+      "not": "Senaryo B seçilirse çözücüye verilecek kısıt kümesinin çekirdeği. Bunlar `prusya`nın hem TOPRAK DEVRETTİĞİ hem AYNI SAHNEDE durduğu kimlikler — ΔE'nin en çok önem taşıdığı yer.",
+      "almanya": "#78d028",
+      "lehistan": "#fc87c9",
+      "varsova-dukaligi": "#831cc8",
+      "kongre-polonyasi": "#c82d1c",
+      "rusya": "#4f7d4f",
+      "avusturya": "#bdab3f",
+      "isvec": "#48eac3",
+      "danimarka": "#b484e7",
+      "litvanya": "#a87b57",
+      "letonya": "#c96990",
+      "polonya": "#ab47bc"
+    },
+
+    "🔴_SIKILASTIRMA_HAK_EDEN_CIFTLER": {
+      "kural": "CLAUDE.md §11: «eşik gevşetilmez, SIKILAŞTIRILIR — ve hangi çiftin hak ettiğini KRONOLOJİ söyler.»",
+      "prusya_x_lehistan": "hedef ΔE ≥ 25 — Üç Paylaşım'ın (1772 · 1793 · 1795) iki tarafı. Kullanıcı paylaşımı okurken alanı ve kaybedeni ayırt edemezse madde anlamsızlaşır.",
+      "prusya_x_rusya": "hedef ΔE ≥ 25 — aynı gerekçe, aynı üç paylaşımın öteki alanı.",
+      "prusya_x_avusturya": "hedef ΔE ≥ 25 — üçüncü paylaşımcı. `bugis ↔ gova-makassar` (Makassar Savaşı) emsali.",
+      "prusya_x_almanya": "hedef ΔE ≥ 25 — 1871'de biri ötekine dönüşüyor; en çok karıştırılacak çift."
+    },
+
+    "hukum": "Senaryo A seçilirse RENK GEREKMEZ ve bu bölümün tamamı ÂTIL kalır. Bölüm yine de yazıldı: Senaryo B bir gün seçilirse ölçüm hazır olsun ve yeniden yapılmasın."
+  },
+
+  "5_RECETE_SENARYO_A": {
+    "dosya": "data/devletler.js",
+    "yer": "`almanya` künyesinden (satır ~1449) hemen SONRA — bölge komşuluğu korunsun",
+    "🔴_uygulama_sarti": "KOŞU BİTMEDEN UYGULANMASIN. `data/` donmuş (§7): yazmak koşuyu öldürmez ama çıktıyı YAYINLANAMAZ hâle getirir.",
+
+    "kunye": {
+      "id": "prusya",
+      "ad": "Prusya Krallığı",
+      "tur": "krallik",
+      "bolge": "orta-avrupa",
+      "f": "1701-01-18",
+      "t": "1871-01-18",
+      "baskent": "Berlin",
+      "harita": "almanya",
+      "ozet": "Hohenzollern hânedanının Brandenburg Elektörlüğü ile Prusya Dükalığı'nı birleştirerek kurduğu, 18 Ocak 1701'de Königsberg'de krallık ilan edilen devlet; Lehistan'ın üç paylaşımından 112.000 km² kazandı, Tilsit'te (1807) bunun büyük kısmını kaybetti ve 18 Ocak 1871'de Alman İmparatorluğu'nun çekirdeği oldu. Bkz. [[almanya]] (çatı kimlik, toprağı onun anahtarıyla boyanır), [[lehistan]] (1795'te sona erdi) ve [[varsova-dukaligi]] (1807'de Prusya'nın Polonya topraklarından kuruldu).",
+      "kaynak": "prusya — TDV; gövde 2026-09-03'te okundu. Kuruluş günü TDV'nin kendi verdiği «18 Ocak 1701'de Königsberg'de taç giydi». Bitiş günü TDV'nin kendi verdiği «18 Ocak 1871'de Prusya Kralı I. Wilhelm, Versailles'da Alman imparatoru ilân edildi».",
+      "kronoloji": [
+        { "t": "1701-01-18", "tur": "kurulus", "b": "I. Friedrich Königsberg'de taç giydi — Brandenburg-Prusya krallık oldu" },
+        { "t": "1772-08-05", "tur": "toprak-kazanc", "b": "Lehistan'ın Birinci Paylaşımı — Batı Prusya alındı, Doğu Prusya ile Brandenburg arasındaki toprak köprüsü kuruldu" },
+        { "t": "1793-01-23", "tur": "toprak-kazanc", "b": "İkinci Paylaşım — Gdansk (Danzig), Toruń ve Büyük Polonya (Poznan) alındı, Güney Prusya eyaleti kuruldu" },
+        { "t": "1795-10-24", "tur": "toprak-kazanc", "b": "Üçüncü Paylaşım — Varşova ve Białystok alındı; üç paylaşımdan toplam 112.000 km² kazanıldı" },
+        { "t": "1807-07-09", "tur": "toprak-kayip", "b": "Tilsit Antlaşması — Polonya toprakları kaybedildi, Varşova Dukalığı kuruldu" },
+        { "t": "1871-01-18", "tur": "birlesme", "b": "I. Wilhelm Versailles'da Alman imparatoru ilan edildi — Prusya, Alman İmparatorluğu'nun çekirdeği oldu" }
+      ]
+    },
+
+    "🔴_f_t_GEREKCESI_hangi_tarih_nicin": {
+      "f_secildi": "1701-01-18",
+      "f_reddedilen_adaylar": {
+        "1618": "Brandenburg-Prusya birliği — 🔴 TDV BU GÜNÜ VERMİYOR. Yıl bile geçmiyor. `§4`: tarih uydurma.",
+        "1415-04-30": "Hohenzollern'in Brandenburg'u alması — TDV «1415'ten itibaren» diyor ama GÜN VERMİYOR. Ayrıca o tarihte devletin adı «Prusya» DEĞİL; TDV açıkça «1701'de krallık unvanını aldığı Doğu Prusya'dan ötürü BU İSİMLE ANILMAYA BAŞLANDI» diyor. Künyenin adı `Prusya Krallığı` olduğu için 1415 yanlış olurdu.",
+        "not": "1415-04-30 günü `kronoloji_almanya.js`te ZATEN var (Hohenzollern yatırımı maddesi) — yani o gün kayıp değil, YERİ BAŞKA."
+      },
+      "t_secildi": "1871-01-18",
+      "t_gerekcesi": "🔴 Prusya 1871'de SONA ERMEDİ — 1918'e kadar krallık, 1947'ye kadar eyalet olarak yaşadı. Ama ATLAS TASARRUFU BOYAR (şartname ④) ve 1871'den itibaren o tasarrufun çatısı Alman İmparatorluğu'dur; `almanya` künyesi bunu kendi özetinde zaten söylüyor («1871'den sonra Prusya önderliğinde Alman İmparatorluğu»). Emsal: `macaristan` (1000-1526) → `macaristan-habsburg` (1526-1918) — Macaristan da 1526'da yok olmadı, künye DEVREDİLDİ.",
+      "t_reddedilen": {
+        "1918-11-09": "Prusya Krallığı'nın gerçek sonu — reddedildi çünkü 1871-1918 arası atlasta `almanya` ile boyanıyor ve künye o dönemi ikinci kez sahiplenirse iki künye aynı tasarrufu iddia eder.",
+        "1923-10-29": "atlas ufku — reddedildi, aynı sebep."
+      },
+      "simetri_notu": "İki gün de 18 Ocak. Bu bir tesadüf DEĞİL: 1871 taç giyme günü, 1701'in 170. yıldönümü olarak KASTEN seçilmişti — ve TDV ikisini de aynı gövdede tam günüyle veriyor. Yani künyenin iki ucu da TEK BİR KAYNAKTAN ve TAM GÜN."
+    }
+  },
+
+  "6_KAPSAMIM_DISI_BULGULAR": {
+    "not": "Bunlar ÖLÇÜLDÜ ama ARAŞTIRILMADI. Buradan doğrudan iş türetilmesin — koordinatör ayrı sevk etsin. (`§11`: ölçmediğini `ölçmedim` diye yaz.)",
+
+    "A_varsova_dukaligi_kunye_disi_donem": {
+      "olcum": "Künye `varsova-dukaligi` f:1807-07-22. Veride Varşova'nın `varsova-dukaligi` dönemi 1806-11-28'de BAŞLIYOR.",
+      "fark": "236 gün (7 ay 24 gün) künye penceresinin DIŞINDA",
+      "sinif": "🔴 `§3.5` HAYALET DEVLET — devlet henüz kurulmamışken haritada boyanıyor",
+      "muhtemel_sebep": "1806-11-28 Fransız kuvvetlerinin Varşova'ya girişi. Doğru olay, yanlış kimlik: o tarihte Dukalık YOK, Fransız askerî işgali VAR. `isg:` alanının işi olabilir.",
+      "ucuncu_tarih": "🔴 Białystok aynı olayı `1807-07-09` ile yazıyor (TDV'nin verdiği Tilsit günü). Yani AYNI OLAY AİLESİ VERİDE ÜÇ FARKLI GÜNLE duruyor: 1806-11-28 (Varşova) · 1807-07-09 (Białystok) · 1807-07-22 (künye, Dresden anayasası).",
+      "hangisi_dogru": "Üçü de savunulabilir ve ÜÇÜ DE FARKLI ŞEYİ anlatıyor (işgal · antlaşma · anayasa). Kusur seçimde değil, üçünün AYNI ŞEYMİŞ GİBİ kullanılmasında. ÖLÇTÜM, KARAR VERMEDİM."
+    },
+
+    "B_kronoloji_devlet_alani_0_14": {
+      "olcum": "`kronoloji_almanya.js`teki 14 `devlet:` değerinin 14'ünün de `devletler.js`te künyesi YOK",
+      "en_buyugu": "`brandenburg-prusya` — 47 madde",
+      "not": "Senaryo A uygulanırsa 47 madde `prusya` künyesine bağlanabilir hâle gelir ama `devlet:` değeri `brandenburg-prusya` olduğu için OTOMATİK bağlanmaz. Ayrı bir eşleme işi."
+    },
+
+    "C_kronoloji_almanya_baslik_bayat": {
+      "olcum": "Dosya başlığı «index.html'e BAĞLANMADI (koordinatör yapacak)» diyor · `index.html:748`de BAĞLI",
+      "sinif": "`§1.5` bayat anlatı ailesi — dosyanın kendi durum beyanı gerçeği yansıtmıyor",
+      "zarar": "Bir oturum bu satırı okuyup dosyayı ikinci kez bağlamaya kalkabilir"
+    },
+
+    "D_almanya_kunyesi_1806_yi_ifade_etmiyor": {
+      "olcum": "Künye kronolojisi «1806-08-06 Kutsal Roma İmparatorluğu ilga edildi» diyor · künye penceresi 962-02-02 → 1923-10-29 KESİNTİSİZ",
+      "sinif": "künye kendi anlattığı yıkılışı penceresinde ifade etmiyor"
+    },
+
+    "E_Radom_ad_cakismasi": {
+      "olcum": "Atlastaki tek `Radom` DARFUR'da (`yerlesimler_h2_afrika.js`, s: dacu → tunciler → darfur → mehdi → ingiltere)",
+      "risk": "Polonya bağlamında bir oturum `Radom` arar, bulur, ve Sudan kaydına dönem yazar"
+    },
+
+    "F_renkler_py_OPAKLIK_uyarisi": {
+      "olcum": "`renkler.py` import edilirken 3 uyarı basıyor: OPAKLIK['yabanci']=0.44 · ['tabi']=0.6 · ['dogrudan']=0.68 «app.js'te BULUNAMADI» (app.js'teki değerler: 0.0, 0.15, 0.8, 0.85, 1.0)",
+      "aracin_kendi_hukmu": "«parametre ayrismis olabilir, renk olcumleri yanlis kalibre olur»",
+      "not": "🔴 Bu, BÜTÜN renk ölçümlerini etkileyebilecek bir uyarı ve bugün öten bir nöbetçi. Benim kapsamım değil ama SESSİZ GEÇİLMEMELİ."
+    }
+  },
+
+  "7_BITIS_OLCUTU_KARSILIGI": {
+    "①_prusya_yoklugu": "🟢 DOĞRULANDI — veride 0/408 kimlik · BOYALAR'da 0/403 · künyede 0/441 · 6 arama ekseni",
+    "②_1795_1807_dort_kayit": "🟢 ÖLÇÜLDÜ — Varşova `almanya`→`varsova-dukaligi` · Lublin ve Zamość `avusturya` · Chełm ATLASTA YOK (dördüncü kayıt bir kayıt değil)",
+    "③_1793_sonrasi_bes_kayit": "🟢 ÖLÇÜLDÜ — Poznan · Gdansk · Königsberg `almanya` · Torun ve Elbing ATLASTA YOK",
+    "④_f_t_kaynakli": "🟢 İKİ UÇ DA TEK KAYNAKTAN VE TAM GÜN — TDV `prusya` gövdesi, alıntılarıyla §1'de",
+    "⑤_renk_engel_kumesinden": "🟢 `engel_kumesi()` ile ölçüldü (134/105/31/24, birleşim 171) · 🔴 `prusya`nın KENDİ engel kümesi ÖLÇÜLEMEDİ (veride ve künyede yok), ölçülen VEKİL ÜST SINIRIDIR — açıkça yazıldı"
+  }
+}

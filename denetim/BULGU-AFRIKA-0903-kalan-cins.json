@@ -1,0 +1,499 @@
+[
+ {
+  "lat": -22.5,
+  "lon": 24.5,
+  "uzak_km": 503.9,
+  "kusak": "KALAHARI-ic",
+  "cins": "kabile"
+ },
+ {
+  "lat": -21.5,
+  "lon": 24.5,
+  "uzak_km": 510.4,
+  "kusak": "KALAHARI-ic",
+  "cins": "kabile"
+ },
+ {
+  "lat": -20.5,
+  "lon": 13.5,
+  "uzak_km": 1257.9,
+  "kusak": "NAMIB",
+  "cins": "insansiz"
+ },
+ {
+  "lat": -20.5,
+  "lon": 25.5,
+  "uzak_km": 444.6,
+  "kusak": "KALAHARI-ic",
+  "cins": "kabile"
+ },
+ {
+  "lat": -19.5,
+  "lon": 13.5,
+  "uzak_km": 1148.0,
+  "kusak": "NAMIB",
+  "cins": "insansiz"
+ },
+ {
+  "lat": -18.5,
+  "lon": 12.5,
+  "uzak_km": 1062.1,
+  "kusak": "NAMIB",
+  "cins": "insansiz"
+ },
+ {
+  "lat": -18.5,
+  "lon": 13.5,
+  "uzak_km": 1038.3,
+  "kusak": "NAMIB",
+  "cins": "insansiz"
+ },
+ {
+  "lat": -17.5,
+  "lon": 12.5,
+  "uzak_km": 955.7,
+  "kusak": "NAMIB",
+  "cins": "insansiz"
+ },
+ {
+  "lat": -17.5,
+  "lon": 13.5,
+  "uzak_km": 929.1,
+  "kusak": "NAMIB",
+  "cins": "insansiz"
+ },
+ {
+  "lat": 14.5,
+  "lon": 46.5,
+  "uzak_km": 241.9,
+  "kusak": "ARABISTAN",
+  "cins": "KUTU KARARI BEKLIYOR — cins yazilmadi"
+ },
+ {
+  "lat": 15.5,
+  "lon": 11.5,
+  "uzak_km": 329.6,
+  "kusak": "Tenere",
+  "cins": "insansiz"
+ },
+ {
+  "lat": 15.5,
+  "lon": 16.5,
+  "uzak_km": 210.4,
+  "kusak": "Borku / Bodele",
+  "cins": "kabile"
+ },
+ {
+  "lat": 15.5,
+  "lon": 17.5,
+  "uzak_km": 288.6,
+  "kusak": "Borku / Bodele",
+  "cins": "kabile"
+ },
+ {
+  "lat": 15.5,
+  "lon": 18.5,
+  "uzak_km": 381.3,
+  "kusak": "Borku / Bodele",
+  "cins": "kabile"
+ },
+ {
+  "lat": 15.5,
+  "lon": 46.5,
+  "uzak_km": 214.3,
+  "kusak": "ARABISTAN",
+  "cins": "KUTU KARARI BEKLIYOR — cins yazilmadi"
+ },
+ {
+  "lat": 15.5,
+  "lon": 51.5,
+  "uzak_km": 248.3,
+  "kusak": "ARABISTAN",
+  "cins": "KUTU KARARI BEKLIYOR — cins yazilmadi"
+ },
+ {
+  "lat": 16.5,
+  "lon": 10.5,
+  "uzak_km": 272.3,
+  "kusak": "Tenere",
+  "cins": "insansiz"
+ },
+ {
+  "lat": 16.5,
+  "lon": 12.5,
+  "uzak_km": 247.1,
+  "kusak": "Tenere",
+  "cins": "insansiz"
+ },
+ {
+  "lat": 16.5,
+  "lon": 13.5,
+  "uzak_km": 250.8,
+  "kusak": "Tenere",
+  "cins": "insansiz"
+ },
+ {
+  "lat": 16.5,
+  "lon": 14.5,
+  "uzak_km": 291.8,
+  "kusak": "Tenere",
+  "cins": "insansiz"
+ },
+ {
+  "lat": 16.5,
+  "lon": 15.5,
+  "uzak_km": 279.2,
+  "kusak": "Borku / Bodele",
+  "cins": "kabile"
+ },
+ {
+  "lat": 16.5,
+  "lon": 16.5,
+  "uzak_km": 306.2,
+  "kusak": "Borku / Bodele",
+  "cins": "kabile"
+ },
+ {
+  "lat": 16.5,
+  "lon": 17.5,
+  "uzak_km": 364.1,
+  "kusak": "Borku / Bodele",
+  "cins": "kabile"
+ },
+ {
+  "lat": 16.5,
+  "lon": 46.5,
+  "uzak_km": 241.0,
+  "kusak": "ARABISTAN",
+  "cins": "KUTU KARARI BEKLIYOR — cins yazilmadi"
+ },
+ {
+  "lat": 16.5,
+  "lon": 50.5,
+  "uzak_km": 241.0,
+  "kusak": "ARABISTAN",
+  "cins": "KUTU KARARI BEKLIYOR — cins yazilmadi"
+ },
+ {
+  "lat": 16.5,
+  "lon": 51.5,
+  "uzak_km": 206.4,
+  "kusak": "ARABISTAN",
+  "cins": "KUTU KARARI BEKLIYOR — cins yazilmadi"
+ },
+ {
+  "lat": 17.5,
+  "lon": 3.5,
+  "uzak_km": 400.6,
+  "kusak": "Adrar des Ifoghas / Azavad",
+  "cins": "kabile"
+ },
+ {
+  "lat": 17.5,
+  "lon": 4.5,
+  "uzak_km": 375.3,
+  "kusak": "Tamesna",
+  "cins": "kabile"
+ },
+ {
+  "lat": 17.5,
+  "lon": 14.5,
+  "uzak_km": 212.9,
+  "kusak": "Tenere",
+  "cins": "insansiz"
+ },
+ {
+  "lat": 17.5,
+  "lon": 15.5,
+  "uzak_km": 303.0,
+  "kusak": "Borku / Bodele",
+  "cins": "kabile"
+ },
+ {
+  "lat": 17.5,
+  "lon": 16.5,
+  "uzak_km": 400.8,
+  "kusak": "Borku / Bodele",
+  "cins": "kabile"
+ },
+ {
+  "lat": 17.5,
+  "lon": 46.5,
+  "uzak_km": 297.2,
+  "kusak": "ARABISTAN",
+  "cins": "KUTU KARARI BEKLIYOR — cins yazilmadi"
+ },
+ {
+  "lat": 17.5,
+  "lon": 47.5,
+  "uzak_km": 246.6,
+  "kusak": "ARABISTAN",
+  "cins": "KUTU KARARI BEKLIYOR — cins yazilmadi"
+ },
+ {
+  "lat": 17.5,
+  "lon": 48.5,
+  "uzak_km": 222.4,
+  "kusak": "ARABISTAN",
+  "cins": "KUTU KARARI BEKLIYOR — cins yazilmadi"
+ },
+ {
+  "lat": 17.5,
+  "lon": 49.5,
+  "uzak_km": 246.6,
+  "kusak": "ARABISTAN",
+  "cins": "KUTU KARARI BEKLIYOR — cins yazilmadi"
+ },
+ {
+  "lat": 17.5,
+  "lon": 50.5,
+  "uzak_km": 238.9,
+  "kusak": "ARABISTAN",
+  "cins": "KUTU KARARI BEKLIYOR — cins yazilmadi"
+ },
+ {
+  "lat": 18.5,
+  "lon": -5.5,
+  "uzak_km": 210.0,
+  "kusak": "El-Cuf / Macabat el-Kubra",
+  "cins": "insansiz"
+ },
+ {
+  "lat": 18.5,
+  "lon": -1.5,
+  "uzak_km": 249.7,
+  "kusak": "Tanezruft",
+  "cins": "insansiz"
+ },
+ {
+  "lat": 18.5,
+  "lon": -0.5,
+  "uzak_km": 252.5,
+  "kusak": "Tanezruft",
+  "cins": "insansiz"
+ },
+ {
+  "lat": 18.5,
+  "lon": 3.5,
+  "uzak_km": 450.0,
+  "kusak": "Adrar des Ifoghas / Azavad",
+  "cins": "kabile"
+ },
+ {
+  "lat": 18.5,
+  "lon": 4.5,
+  "uzak_km": 406.8,
+  "kusak": "Tamesna",
+  "cins": "kabile"
+ },
+ {
+  "lat": 18.5,
+  "lon": 5.5,
+  "uzak_km": 313.7,
+  "kusak": "Tamesna",
+  "cins": "kabile"
+ },
+ {
+  "lat": 18.5,
+  "lon": 9.5,
+  "uzak_km": 233.2,
+  "kusak": "Air kuzeyi / Talak",
+  "cins": "kabile"
+ },
+ {
+  "lat": 18.5,
+  "lon": 15.5,
+  "uzak_km": 272.8,
+  "kusak": "Borku / Bodele",
+  "cins": "kabile"
+ },
+ {
+  "lat": 18.5,
+  "lon": 16.5,
+  "uzak_km": 297.0,
+  "kusak": "Borku / Bodele",
+  "cins": "kabile"
+ },
+ {
+  "lat": 18.5,
+  "lon": 45.5,
+  "uzak_km": 252.8,
+  "kusak": "ARABISTAN",
+  "cins": "KUTU KARARI BEKLIYOR — cins yazilmadi"
+ },
+ {
+  "lat": 18.5,
+  "lon": 46.5,
+  "uzak_km": 337.7,
+  "kusak": "ARABISTAN",
+  "cins": "KUTU KARARI BEKLIYOR — cins yazilmadi"
+ },
+ {
+  "lat": 18.5,
+  "lon": 47.5,
+  "uzak_km": 350.1,
+  "kusak": "ARABISTAN",
+  "cins": "KUTU KARARI BEKLIYOR — cins yazilmadi"
+ },
+ {
+  "lat": 18.5,
+  "lon": 48.5,
+  "uzak_km": 333.6,
+  "kusak": "ARABISTAN",
+  "cins": "KUTU KARARI BEKLIYOR — cins yazilmadi"
+ },
+ {
+  "lat": 18.5,
+  "lon": 49.5,
+  "uzak_km": 296.9,
+  "kusak": "ARABISTAN",
+  "cins": "KUTU KARARI BEKLIYOR — cins yazilmadi"
+ },
+ {
+  "lat": 19.5,
+  "lon": -15.5,
+  "uzak_km": 926.1,
+  "kusak": "Tiris-Zemmur (Atlantik Sahra)",
+  "cins": "kabile"
+ },
+ {
+  "lat": 19.5,
+  "lon": -14.5,
+  "uzak_km": 824.8,
+  "kusak": "Tiris-Zemmur (Atlantik Sahra)",
+  "cins": "kabile"
+ },
+ {
+  "lat": 19.5,
+  "lon": -13.5,
+  "uzak_km": 724.8,
+  "kusak": "Tiris-Zemmur (Atlantik Sahra)",
+  "cins": "kabile"
+ },
+ {
+  "lat": 19.5,
+  "lon": -7.5,
+  "uzak_km": 249.5,
+  "kusak": "El-Cuf / Macabat el-Kubra",
+  "cins": "insansiz"
+ },
+ {
+  "lat": 19.5,
+  "lon": -6.5,
+  "uzak_km": 251.0,
+  "kusak": "El-Cuf / Macabat el-Kubra",
+  "cins": "insansiz"
+ },
+ {
+  "lat": 19.5,
+  "lon": -5.5,
+  "uzak_km": 293.3,
+  "kusak": "El-Cuf / Macabat el-Kubra",
+  "cins": "insansiz"
+ },
+ {
+  "lat": 19.5,
+  "lon": -1.5,
+  "uzak_km": 342.4,
+  "kusak": "Tanezruft",
+  "cins": "insansiz"
+ },
+ {
+  "lat": 19.5,
+  "lon": -0.5,
+  "uzak_km": 362.2,
+  "kusak": "Tanezruft",
+  "cins": "insansiz"
+ },
+ {
+  "lat": 19.5,
+  "lon": 3.5,
+  "uzak_km": 421.2,
+  "kusak": "Adrar des Ifoghas / Azavad",
+  "cins": "kabile"
+ },
+ {
+  "lat": 19.5,
+  "lon": 4.5,
+  "uzak_km": 380.4,
+  "kusak": "Tamesna",
+  "cins": "kabile"
+ },
+ {
+  "lat": 19.5,
+  "lon": 5.5,
+  "uzak_km": 365.3,
+  "kusak": "Tamesna",
+  "cins": "kabile"
+ },
+ {
+  "lat": 19.5,
+  "lon": 9.5,
+  "uzak_km": 323.0,
+  "kusak": "Air kuzeyi / Talak",
+  "cins": "kabile"
+ },
+ {
+  "lat": 19.5,
+  "lon": 15.5,
+  "uzak_km": 267.1,
+  "kusak": "Borku / Bodele",
+  "cins": "kabile"
+ },
+ {
+  "lat": 19.5,
+  "lon": 22.5,
+  "uzak_km": 253.8,
+  "kusak": "Ennedi bati / Erdi",
+  "cins": "kabile"
+ },
+ {
+  "lat": 19.5,
+  "lon": 23.5,
+  "uzak_km": 270.8,
+  "kusak": "Ennedi bati / Erdi",
+  "cins": "kabile"
+ },
+ {
+  "lat": 19.5,
+  "lon": 44.5,
+  "uzak_km": 253.9,
+  "kusak": "ARABISTAN",
+  "cins": "KUTU KARARI BEKLIYOR — cins yazilmadi"
+ },
+ {
+  "lat": 19.5,
+  "lon": 45.5,
+  "uzak_km": 338.6,
+  "kusak": "ARABISTAN",
+  "cins": "KUTU KARARI BEKLIYOR — cins yazilmadi"
+ },
+ {
+  "lat": 19.5,
+  "lon": 46.5,
+  "uzak_km": 405.6,
+  "kusak": "ARABISTAN",
+  "cins": "KUTU KARARI BEKLIYOR — cins yazilmadi"
+ },
+ {
+  "lat": 19.5,
+  "lon": 47.5,
+  "uzak_km": 457.2,
+  "kusak": "ARABISTAN",
+  "cins": "KUTU KARARI BEKLIYOR — cins yazilmadi"
+ },
+ {
+  "lat": 19.5,
+  "lon": 48.5,
+  "uzak_km": 370.5,
+  "kusak": "ARABISTAN",
+  "cins": "KUTU KARARI BEKLIYOR — cins yazilmadi"
+ },
+ {
+  "lat": 19.5,
+  "lon": 49.5,
+  "uzak_km": 267.5,
+  "kusak": "ARABISTAN",
+  "cins": "KUTU KARARI BEKLIYOR — cins yazilmadi"
+ }
+]

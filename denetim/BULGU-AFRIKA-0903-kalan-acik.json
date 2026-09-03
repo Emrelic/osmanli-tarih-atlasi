@@ -1,0 +1,499 @@
+[
+ {
+  "lat": -22.5,
+  "lon": 24.5,
+  "uzak_km": 503.9,
+  "en_yakin": "Mapungubwe",
+  "kume": 1
+ },
+ {
+  "lat": -21.5,
+  "lon": 24.5,
+  "uzak_km": 510.4,
+  "en_yakin": "Mapungubwe",
+  "kume": 1
+ },
+ {
+  "lat": -20.5,
+  "lon": 13.5,
+  "uzak_km": 1257.9,
+  "en_yakin": "Kabasa",
+  "kume": 1
+ },
+ {
+  "lat": -20.5,
+  "lon": 25.5,
+  "uzak_km": 444.6,
+  "en_yakin": "Mapungubwe",
+  "kume": 1
+ },
+ {
+  "lat": -19.5,
+  "lon": 13.5,
+  "uzak_km": 1148.0,
+  "en_yakin": "Kabasa",
+  "kume": 1
+ },
+ {
+  "lat": -18.5,
+  "lon": 12.5,
+  "uzak_km": 1062.1,
+  "en_yakin": "Kabasa",
+  "kume": 1
+ },
+ {
+  "lat": -18.5,
+  "lon": 13.5,
+  "uzak_km": 1038.3,
+  "en_yakin": "Kabasa",
+  "kume": 1
+ },
+ {
+  "lat": -17.5,
+  "lon": 12.5,
+  "uzak_km": 955.7,
+  "en_yakin": "Kabasa",
+  "kume": 1
+ },
+ {
+  "lat": -17.5,
+  "lon": 13.5,
+  "uzak_km": 929.1,
+  "en_yakin": "Kabasa",
+  "kume": 1
+ },
+ {
+  "lat": 14.5,
+  "lon": 46.5,
+  "uzak_km": 241.9,
+  "en_yakin": "Hadramut",
+  "kume": 3
+ },
+ {
+  "lat": 15.5,
+  "lon": 11.5,
+  "uzak_km": 329.6,
+  "en_yakin": "Zinder",
+  "kume": 1
+ },
+ {
+  "lat": 15.5,
+  "lon": 16.5,
+  "uzak_km": 210.4,
+  "en_yakin": "Mao (Kanem)",
+  "kume": 1
+ },
+ {
+  "lat": 15.5,
+  "lon": 17.5,
+  "uzak_km": 288.6,
+  "en_yakin": "Mao (Kanem)",
+  "kume": 1
+ },
+ {
+  "lat": 15.5,
+  "lon": 18.5,
+  "uzak_km": 381.3,
+  "en_yakin": "Mao (Kanem)",
+  "kume": 1
+ },
+ {
+  "lat": 15.5,
+  "lon": 46.5,
+  "uzak_km": 214.3,
+  "en_yakin": "Hadramut",
+  "kume": 3
+ },
+ {
+  "lat": 15.5,
+  "lon": 51.5,
+  "uzak_km": 248.3,
+  "en_yakin": "Rahbût",
+  "kume": 3
+ },
+ {
+  "lat": 16.5,
+  "lon": 10.5,
+  "uzak_km": 272.3,
+  "en_yakin": "Agadez",
+  "kume": 1
+ },
+ {
+  "lat": 16.5,
+  "lon": 12.5,
+  "uzak_km": 247.1,
+  "en_yakin": "Bilma",
+  "kume": 1
+ },
+ {
+  "lat": 16.5,
+  "lon": 13.5,
+  "uzak_km": 250.8,
+  "en_yakin": "Bilma",
+  "kume": 1
+ },
+ {
+  "lat": 16.5,
+  "lon": 14.5,
+  "uzak_km": 291.8,
+  "en_yakin": "Mao (Kanem)",
+  "kume": 1
+ },
+ {
+  "lat": 16.5,
+  "lon": 15.5,
+  "uzak_km": 279.2,
+  "en_yakin": "Mao (Kanem)",
+  "kume": 1
+ },
+ {
+  "lat": 16.5,
+  "lon": 16.5,
+  "uzak_km": 306.2,
+  "en_yakin": "Mao (Kanem)",
+  "kume": 1
+ },
+ {
+  "lat": 16.5,
+  "lon": 17.5,
+  "uzak_km": 364.1,
+  "en_yakin": "Mao (Kanem)",
+  "kume": 1
+ },
+ {
+  "lat": 16.5,
+  "lon": 46.5,
+  "uzak_km": 241.0,
+  "en_yakin": "Hadramut",
+  "kume": 3
+ },
+ {
+  "lat": 16.5,
+  "lon": 50.5,
+  "uzak_km": 241.0,
+  "en_yakin": "Hadramut",
+  "kume": 3
+ },
+ {
+  "lat": 16.5,
+  "lon": 51.5,
+  "uzak_km": 206.4,
+  "en_yakin": "Rahbût",
+  "kume": 3
+ },
+ {
+  "lat": 17.5,
+  "lon": 3.5,
+  "uzak_km": 400.6,
+  "en_yakin": "Gao",
+  "kume": 1
+ },
+ {
+  "lat": 17.5,
+  "lon": 4.5,
+  "uzak_km": 375.3,
+  "en_yakin": "Agadez",
+  "kume": 1
+ },
+ {
+  "lat": 17.5,
+  "lon": 14.5,
+  "uzak_km": 212.9,
+  "en_yakin": "Bilma",
+  "kume": 1
+ },
+ {
+  "lat": 17.5,
+  "lon": 15.5,
+  "uzak_km": 303.0,
+  "en_yakin": "Bilma",
+  "kume": 1
+ },
+ {
+  "lat": 17.5,
+  "lon": 16.5,
+  "uzak_km": 400.8,
+  "en_yakin": "Bilma",
+  "kume": 1
+ },
+ {
+  "lat": 17.5,
+  "lon": 46.5,
+  "uzak_km": 297.2,
+  "en_yakin": "Sa'de",
+  "kume": 3
+ },
+ {
+  "lat": 17.5,
+  "lon": 47.5,
+  "uzak_km": 246.6,
+  "en_yakin": "Hadramut",
+  "kume": 3
+ },
+ {
+  "lat": 17.5,
+  "lon": 48.5,
+  "uzak_km": 222.4,
+  "en_yakin": "Hadramut",
+  "kume": 3
+ },
+ {
+  "lat": 17.5,
+  "lon": 49.5,
+  "uzak_km": 246.6,
+  "en_yakin": "Hadramut",
+  "kume": 3
+ },
+ {
+  "lat": 17.5,
+  "lon": 50.5,
+  "uzak_km": 238.9,
+  "en_yakin": "Rub'ul Hâlî güneybatısı",
+  "kume": 3
+ },
+ {
+  "lat": 18.5,
+  "lon": -5.5,
+  "uzak_km": 210.0,
+  "en_yakin": "Valata (Oualata)",
+  "kume": 1
+ },
+ {
+  "lat": 18.5,
+  "lon": -1.5,
+  "uzak_km": 249.7,
+  "en_yakin": "Timbuktu",
+  "kume": 1
+ },
+ {
+  "lat": 18.5,
+  "lon": -0.5,
+  "uzak_km": 252.5,
+  "en_yakin": "Gao",
+  "kume": 1
+ },
+ {
+  "lat": 18.5,
+  "lon": 3.5,
+  "uzak_km": 450.0,
+  "en_yakin": "Gao",
+  "kume": 1
+ },
+ {
+  "lat": 18.5,
+  "lon": 4.5,
+  "uzak_km": 406.8,
+  "en_yakin": "Agadez",
+  "kume": 1
+ },
+ {
+  "lat": 18.5,
+  "lon": 5.5,
+  "uzak_km": 313.7,
+  "en_yakin": "Agadez",
+  "kume": 1
+ },
+ {
+  "lat": 18.5,
+  "lon": 9.5,
+  "uzak_km": 233.2,
+  "en_yakin": "Agadez",
+  "kume": 1
+ },
+ {
+  "lat": 18.5,
+  "lon": 15.5,
+  "uzak_km": 272.8,
+  "en_yakin": "Bilma",
+  "kume": 1
+ },
+ {
+  "lat": 18.5,
+  "lon": 16.5,
+  "uzak_km": 297.0,
+  "en_yakin": "Tibesti",
+  "kume": 1
+ },
+ {
+  "lat": 18.5,
+  "lon": 45.5,
+  "uzak_km": 252.8,
+  "en_yakin": "Sa'de",
+  "kume": 3
+ },
+ {
+  "lat": 18.5,
+  "lon": 46.5,
+  "uzak_km": 337.7,
+  "en_yakin": "Sa'de",
+  "kume": 3
+ },
+ {
+  "lat": 18.5,
+  "lon": 47.5,
+  "uzak_km": 350.1,
+  "en_yakin": "Hadramut",
+  "kume": 3
+ },
+ {
+  "lat": 18.5,
+  "lon": 48.5,
+  "uzak_km": 333.6,
+  "en_yakin": "Hadramut",
+  "kume": 3
+ },
+ {
+  "lat": 18.5,
+  "lon": 49.5,
+  "uzak_km": 296.9,
+  "en_yakin": "Rub'ul Hâlî güneybatısı",
+  "kume": 3
+ },
+ {
+  "lat": 19.5,
+  "lon": -15.5,
+  "uzak_km": 926.1,
+  "en_yakin": "Valata (Oualata)",
+  "kume": 1
+ },
+ {
+  "lat": 19.5,
+  "lon": -14.5,
+  "uzak_km": 824.8,
+  "en_yakin": "Valata (Oualata)",
+  "kume": 1
+ },
+ {
+  "lat": 19.5,
+  "lon": -13.5,
+  "uzak_km": 724.8,
+  "en_yakin": "Valata (Oualata)",
+  "kume": 1
+ },
+ {
+  "lat": 19.5,
+  "lon": -7.5,
+  "uzak_km": 249.5,
+  "en_yakin": "Valata (Oualata)",
+  "kume": 1
+ },
+ {
+  "lat": 19.5,
+  "lon": -6.5,
+  "uzak_km": 251.0,
+  "en_yakin": "Valata (Oualata)",
+  "kume": 1
+ },
+ {
+  "lat": 19.5,
+  "lon": -5.5,
+  "uzak_km": 293.3,
+  "en_yakin": "Valata (Oualata)",
+  "kume": 1
+ },
+ {
+  "lat": 19.5,
+  "lon": -1.5,
+  "uzak_km": 342.4,
+  "en_yakin": "Timbuktu",
+  "kume": 1
+ },
+ {
+  "lat": 19.5,
+  "lon": -0.5,
+  "uzak_km": 362.2,
+  "en_yakin": "Gao",
+  "kume": 1
+ },
+ {
+  "lat": 19.5,
+  "lon": 3.5,
+  "uzak_km": 421.2,
+  "en_yakin": "Tamanrasset",
+  "kume": 1
+ },
+ {
+  "lat": 19.5,
+  "lon": 4.5,
+  "uzak_km": 380.4,
+  "en_yakin": "Tamanrasset",
+  "kume": 1
+ },
+ {
+  "lat": 19.5,
+  "lon": 5.5,
+  "uzak_km": 365.3,
+  "en_yakin": "Tamanrasset",
+  "kume": 1
+ },
+ {
+  "lat": 19.5,
+  "lon": 9.5,
+  "uzak_km": 323.0,
+  "en_yakin": "Agadez",
+  "kume": 1
+ },
+ {
+  "lat": 19.5,
+  "lon": 15.5,
+  "uzak_km": 267.1,
+  "en_yakin": "Tibesti",
+  "kume": 1
+ },
+ {
+  "lat": 19.5,
+  "lon": 22.5,
+  "uzak_km": 253.8,
+  "en_yakin": "Ma'tan es-Sarra",
+  "kume": 1
+ },
+ {
+  "lat": 19.5,
+  "lon": 23.5,
+  "uzak_km": 270.8,
+  "en_yakin": "Vâdî Hovâr",
+  "kume": 1
+ },
+ {
+  "lat": 19.5,
+  "lon": 44.5,
+  "uzak_km": 253.9,
+  "en_yakin": "Ebha (Asir)",
+  "kume": 3
+ },
+ {
+  "lat": 19.5,
+  "lon": 45.5,
+  "uzak_km": 338.6,
+  "en_yakin": "Sa'de",
+  "kume": 3
+ },
+ {
+  "lat": 19.5,
+  "lon": 46.5,
+  "uzak_km": 405.6,
+  "en_yakin": "Sa'de",
+  "kume": 3
+ },
+ {
+  "lat": 19.5,
+  "lon": 47.5,
+  "uzak_km": 457.2,
+  "en_yakin": "Hadramut",
+  "kume": 3
+ },
+ {
+  "lat": 19.5,
+  "lon": 48.5,
+  "uzak_km": 370.5,
+  "en_yakin": "Rub'ul Hâlî doğusu",
+  "kume": 3
+ },
+ {
+  "lat": 19.5,
+  "lon": 49.5,
+  "uzak_km": 267.5,
+  "en_yakin": "Rub'ul Hâlî doğusu",
+  "kume": 3
+ }
+]
