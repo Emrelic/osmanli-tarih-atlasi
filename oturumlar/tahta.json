@@ -76459,5 +76459,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2553",
+  "zaman": "2026-09-03 16:13",
+  "kimden": "DUNYA-KAMERIKA-0903",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "NOKTA DOSYASI HAZIR — koşu bitince TEK KOPYALAMAYLA iner. denetim/HAZIR-yerlesimler_kamerika.js · 1552 satır · window.YERLESIMLER_KAMERIKA (M-2410'da verdiğin ad alanı) · 377 kayıt · 748 dönem · 5 kasitli_bosluk. Üreteci: denetim/ARAC-KAMERIKA-0903-uret-js.py. data/ altına YAZMADIM, koşu canlı. 🔴🔴 VE ÜRETİLEN DOSYAYI NODE'A EVAL ETTİRİNCE ALETİMİN GÖRMEDİĞİ İKİ KUSUR SINIFI ÇIKTI — bunu yazıyorum çünkü zincir aletimi sana TEMİZ diye teslim etmiştim. Zincir aletim HAYALET soruyordu (her dönem künyesinin ömrü içinde mi) ama ZİNCİRİN KENDİ TUTARLILIĞINI sormuyordu. İki ayrı soru ve ikisi de gerekiyormuş. İlk eval: ters/sıfır dönem 4 · zincir boşluğu 3. TERS/SIFIR DÖRDÜ — kuruluşu künyesinden SONRA olan noktalar: Herschel Adası 1890 ve Killiniq 1904 (inuit künyesi 1880'de biter) · Fort Robidoux 1832 ve Las Vegas NM 1835 (yeni-ispanya 1821'de biter). Ölü künyeyle başlıyorlardı; doğrudan ardıla bağlandılar. ZİNCİR BOŞLUĞU ÜÇÜ — Mississippi merkezleri: künye 1450/1550'de biter, Avrupalı 1682-1733'te gelir, arada 130-230 YILLIK SAHİPSİZLİK. Ardıl halkla kapattım ve üçü de atlasta ZATEN VAR: Etowah → creek-konfederasyonu · Moundville → choctaw · Spiro → wicita. ⚠️ Üçü de HALK taneciğinde ÇIKARIM (arkeolojik süreklilik, devir belgesi değil) ve künye metinlerine böyle yazıldı. SONRA ÜÇÜNCÜ BİR SINAV YAZDIM (Değişmez 1: kur'dan 1923'e KESİNTİSİZ sahipli mi) VE DOKUZ KUSUR DAHA BULDU: dördü kuruluşu ile ilk sahibi arasında 254-569 YILLIK boşluk (Wintu · Pecos Pueblo · Paquimé · Tocobaga) · üçü yeni-ispanya künyesi 1535'te başladığı hâlde 1514-1525'te kurulmuş (Sancti Spíritus · Pánuco · Trujillo) · biri 1845'te kesiliyordu (San Felipe de Austin) · biri kur'undan ÖNCE başlıyordu (Prairie du Chien). 🟢 VE İLK DÖRDÜNÜ ÇÖZEN ŞEY, ÇÜRÜYEN İDDİAMDI: Taos ve Acoma'yı yanlışlıkla suçlarken onların kasitli_bosluk:true + bos:devletsiz + gerekçeli neden: biçimini GÖRDÜM. Aynı biçimi bu dörde uyguladım — 1281'den ilk sahibe kadar olan pencere artık BEYAN, boşluk değil. 📌 Çürüyen bir bulgu, doğru bir kalıp öğretti. 🔴 Ve bir tuzak daha: SELEF onarımım beyan edilmesi gereken boşluğu SAHTE bir sahiple dolduruyordu (Paquimé'ye ispanya 1281'den). §3.5.1: hayalet yok olmaz TARAF DEĞİŞTİRİR. Beyanlı kayıtlar artık onarımdan MUAF. 🔴 SON KUSUR COĞRAFİYDİ: kaba Kanada kutum ABD Göller bölgesini yutuyordu — Michilimackinac · Green Bay · Prairie du Chien · Chequamegon · Grand Portage · Duluth · Fort Duquesne YENİ FRANSA'ydı ve 1763'ten sonra KANADA'ya değil 1783'te ABD'ye gitti. Yedisini de adla düzelttim; formül yazmadım çünkü yanlış bir formül otuz kaydı SESSİZCE yanlış devlete verirdi. SON DURUM — üç sınav birden: ters/sıfır 0 · zincir boşluğu 0 · Değişmez 1 kusuru 0 · HAYALET 0 · BLOKE 1 (Mushuau-nipi, senin kararını bekliyor). ⚠️ ÖLÇEMEDİĞİM BİR ŞEY VAR VE ÖLÇEMEDİM DİYE YAZIYORUM: arac/_baglama_onsinav.py dosyayı data/ altında arıyor, data/ donuk olduğu için KOŞAMADIM. Kendi eşdeğerlerimi koşturdum (3 km bağlı evren + aday içi · kutu · ad · kara maskesi · künye · hayalet · zincir tutarlılığı · Değişmez 1) ama şartnamenin ⑤. şartı RESMEN ölçülemedi. Koşu bitince ilk iş o olmalı. ✅ Boştayım. ⏳ BEKLİYORUM: Mushuau-nipi + 15-25K şeridi + commit izni (28 dosya).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
