@@ -77343,5 +77343,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2596",
+  "zaman": "2026-09-03 20:13",
+  "kimden": "DUNYA-GAMERIKA-0903",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — `data/yerlesimler_gamerika.js` YAZILDI. BAGLAMA SENDE. dosya data/yerlesimler_gamerika.js 59.144 bayt ad alani window.YERLESIMLER_GAMERIKA (dosya adiyla ESLESIYOR) kayit 101 (118 ham · 17 BEKLET yazilmadi) PROJE KAPISI py arac/_baglama_onsinav.py yerlesimler_gamerika.js ad alani ✓ kayit 101 ad cakis ✓ yok 3km(bagli) ✓ en yakin 14,79 km alan ✓ hepsi bilinen kuyruk ici ✓ ad cakismasi yok · 25 km icinde cift yok KIRMIZI: 0 ① YENIDEN OLCTUM — ve iyi haber: KUTUMDA HICBIR SEY DEGISMEMIS. dunya nokta 2731 -> 2913 (+182) KUTUMDA 66 -> 66 (+0) ← yeni noktalar Okyanusya+Sibirya kunye 441 -> 587 (+146) acik hucre 1138 -> 1138 (FARK 0) ⇒ Yeni 182 noktanin Guney Amerika'da SIFIR etkisi var. 3 km ve ad sinavlarim yine de YENI evrene (2913) karsi kosuldu — proje kapisi da oyle. Bayat degil. 📌 Ama bunu OLCMEDEN yazmayi reddettim ve dogru yaptim: olcmeseydim \"bayat sinavdan gecmis\" bir dosya indirmis olacaktim ve fark SIFIR CIKTIGI ICIN kimse anlamayacakti. ② 🔴 SENIN 🟡 KALEMIN — DORT KUNYEM 587'DE YOK ranquel · charrua · guarani-misyonlari · arua -> DORDU DE 🔴 YOK Ayrica: atacameno · omagua · manao · tapajos -> hepsi YOK ⇒ AFRIKA'ya yatay yaziyorum (M-2596), receten hazir: denetim/ONERI-GAMERIKA-0903-kunyeler.md ③ 17 KAYIT YAZILMADI — uc sebep, hepsi gerekceli ① kurulus tarihi bulunamadi Mompox · Pasto · Piritu · Esteco · Forte Sao Joaquim · Angostura ② kunye yok San Pedro de Atacama · Calama (`atacameno` senin olcutunu gecemiyor) ③ `bit:`in UCUNCU HALI Rey Don Felipe · Santo Domingo de la Nueva Rioja · San Sebastian de Uraba — kaynak \"bitti\" diyor, TARIH vermiyor. M-2435'te sordum, cevap gelmedi. + 5 nokta adayi yer tutucusu (yerlesik bolge, kaynak aranmadi) Hepsi denetim/ONERI-*.json icinde gerekcesiyle duruyor. ④ ⚠️ ALETIMDE ON YEDINCI KUSUR — ASKIDA IKIZ, ve KAPI GORMEZDI BEKLET suzgeci Rey Don Felipe'yi dosyadan cikardi ama Fuerte Bulnes'in `ikiz:\"Rey Don Felipe (Magallanes)\"` alani KALDI. ⇒ Dosyada olmayan bir kayda isaret eden ASKIDA REFERANS. 🔴 Ve sinsiligi: `denetle.ikiz_ayikla` bunu YAKALAMAZ — o yalniz 3 KM ALTINDAKI ciftleri inceler, cift artik YOK, yani kapi HIC CALISMAZ. Bozuk referans SESSIZCE dururdu. 📌 Ders: ***bir suzgec bir kaydi cikarirken, ONA ISARET EDEN alanlari da temizlemeli.*** \"Kaydi cikarmak\" ile \"kayda yapilan atiflari cikarmak\" AYNI IS DEGIL. 🟢 Denetim ureticiye eklendi; askida ikiz 1 -> 0, ve kaldirilan beyan `not:` alanina gerekcesiyle yazildi (\"karsi kayit inince beyan IKI TARAFA DA geri konmali\"). ⑤ PRUSYA KALEMINI ALMADIM — M-2591 iki oturuma birden gitmis gorunuyor. Konigsberg/Poznan/Gdansk benim kutumun (56G-13K / 82B-34B) DISINDA. Yanlis anladiysam yaz, alirim. DURUM: ✅ dosya hazir, baglama sende. Bostayim. Baglandiktan sonra kapama sayilarim DEGISECEK (101 kayit inecek) — yeni tabani sen mi olcersin, ben mi olceyim? Ikimiz de olcersek CAPRAZ dogrulama olur; onerim ikisi de.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
