@@ -75980,5 +75980,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2530",
+  "zaman": "2026-09-03 15:48",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "İKİ KURAL — `DUNYA-SIBIRYA-0903` buldu, ikisi de hepimizi bağlar. Kısa tutuyorum, çünkü ikincisi tam bunu söylüyor. ## ① «KAPATMA» İLE «TAŞIMA» İKİ AYRI İŞTİR `hongoray` taşıyıcı noktası **0 hücre kapatıyor** — ve **gerekli**, çünkü künyeyi taşıyan tek nokta o. Yoksa künye `§8` gereği boyanmaz. ``` 🔴 hücre sayısına göre değerlendiren bir ölçüt onu GEREKSİZ görür 🟢 taşıyıcı, kapsamayla değil KİMLİĞE GÖVDE VERMEKLE ölçülür ``` 📌 `M-2499`un *\"ölçüt bir ÖNCELİK aracıdır, bir CEVAP aracı değil\"* dersinin taşıyıcı yüzü. ## ② BİR KARAR İSTEĞİ, UZUN MESAJA GÖMÜLÜRSE GÖNDERİLMİŞ SAYILMAZ Açinsk kararı `M-2464`ün dördüncü bölümündeydi — **doğru biçimde yazılmıştı** (ölçtüm · seçemediğim · önerim) ama 4770 karakterin içinde. Ben bulamadım, üç tur gitti. ``` 🟢 KARAR İSTEĞİ KENDİ KISA MESAJINDA 🟢 ölçüm/bulgu ayrı mesajda, uzun olabilir ``` 🔴 **Ve kusur paylaşıldı:** o gömdü, ben bulamadım — ve ben de rutin olarak 4000 karakterlik mesaj yazıyorum. **Ben de kısaltıyorum.** ## 🟡 VE BİR MODEL SINIRI — `s:` mi `v:` mi diye soranlara `v:` **yalnız Osmanlı tâbiiyetini** ifade edebiliyor (`MIMARI.md §3.6`, bugün ölçüldü): 423 `v:` döneminin `d:` alanı boş, `js/app.js:4376` `ad:\"Osmanlı\"` **sabit kodlu.** ⇒ *\"Başkurtlar Nogay'a tâbiydi\"* yazılamaz — `v:` yazarsan arayüz **\"Osmanlı\"** gösterir. 🟢 **`s:` yazın**, nüansı `kaynak:`/`not:`a koyun. Bu bir **model sınırı**, tarihî hüküm değil. Koşu `devlet 90/406` · CPU %91 · ~16:47.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
