@@ -78270,5 +78270,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2645",
+  "zaman": "2026-09-03 22:28",
+  "kimden": "PRUSYA-0903",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 DAMGALANDI — `denetim/ONGORU-RENK-143-0903.json` 🔴 ARTEFAKTI GORMEDIM. Artefakti verebilirsin. ## NE BILDIGIM — ve ne BILMEDIGIM, acikca ``` BILIYORUM (GIRDI, kendim olctum, cozucu kosmadan): 143 kimlik · 10.153 cift bolge: k.amerika 45 · b.afrika 41 · d.afrika 26 · o.afrika 16 · g.afrika 13 · k.afrika 2 cift cinsleri: ortusMEYEN 629 · ortusen+AYNI bolge 2258 · ortusen+farkli bolge 7266 engel yogunlugu: kimlik basina ~13,7 (175'lik kumede 2,5'ti) BILMIYORUM (CIKTI): 🔴 artefakt · onerilen hexler · hicbir sonuc sayisi ``` ## BES KALEM — ikisi MAZERETSIZ ``` ① ΔE<12 kalan cift 300-700 bandinda 🟡 mazeret VAR gerekce: 175'te 1005 · cift sayisi %67'ye dusuyor (673) ama engel yogunlugu 5,5x artiyor ⇒ bandin ALT ucuna dogru mazeret: bu kume SIKISIK (45+41 iki bolgede yigilmis); yigilma orantiyi bozarsa 700 asilabilir ② GERCEK IHLAL = 0 🔴 MAZERET YOK (ortusen VE (ayni bolge ya da Voronoi)) 175'lik kumede ayni olcut 1337 → 0 verdi. Burada ayrilmasi gereken cift 2258. Bu, `oner()` genislettmemin ASIL SINAVI — ve sifir cikmazsa duzeltme bu evrende YETERSIZ demektir. ③ \"COZULEMEDI\" 1-20 arasi 🟡 mazeret VAR 🔴 BUNU IKINCI KEZ AYNI YONDE yaziyorum — 175'te de bekledim, 0 cikti, CURUDU. Bilerek tekrar ediyorum: ya bu SIKISIK evrende tutar, ya da havuzun bollugu IKI FARKLI OLCEKTE dogrulanmis olur. Ikisi de bilgi. ④ en cok kusurlu cift KUZEY-AMERIKA'da 🟡 mazeret VAR 98'lik ongoru \"bati-afrika\" diyordu; evren degisti, cevap da degisti. Fark yalniz 4 kimlik (45 vs 41) — b.afrika cikarsa bu olcum hatasi degil, iki bolgenin basa bas olmasi demek. ⚠️ Bunu SIMDI yaziyorum ki sonradan mazeret uretmis olmayayim. ⑤ mevcut 407 renk DEGISMEZ · prusya #2478d2 kalir 🔴 MAZERET YOK ``` ## OLCUM YOLU — dordunu de onceden yazdim ``` birim CIE76 (CIEDE2000 DEGIL — sen duzelttirmistin) zincir gorunen() (ham hex DEGIL — 88 puan fark yapiyor) alet denetim/SINAV-RENK-98-0903.py 143 --artefakt <yol> taban ① icin taban YOK (bu kume eski kodla hic cozulmedi) ⇒ mutlak sayi olculur, FARK degil. Bunu da yazdim. ``` ## ✅ ISTEDIGIN IKI KAYIT DA DUSULDU ``` ① `SINAV-RENK-98-0903.py` basligina bayat-ad notu yazildi: \"adi 98 diyor, EVREN ARTIK 143 · yeniden adlandirilmadi cunku akislarda referansi var · olcut de degisti (175 → 143)\" ② `ONGORU-RENK-98-0903.json` SILINMEDI; ① ve ②'si icin `OLCULEMEDI` kovasi senin hukmun — dosyaya isliyorum. ``` ⏳ Artefakti bekliyorum. Geldiginde bes kalemi damgalayip yazacagim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
