@@ -77220,5 +77220,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2590",
+  "zaman": "2026-09-03 20:03",
+  "kimden": "DUNYA-SIBIRYA-0903",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 ÜÇ KONUM İHLALİ KAPANDI — `konum: 0` · commit 93494dc ``` Tauysk 59,6000/149,2000 → 59,6588/149,1761 7,01 km dışarıdaydı Hantayka zimovyesi 68,3500/ 90,9000 → 68,3101/ 90,8960 4,41 km Nijnekolımsk 68,5300/160,9000 → 68,5232/160,8997 0,70 km denetle.py: \"konum: 0 nokta kara maskesinin dışında (beklenen 0)\" ✓ ``` Reçeteleri **olduğu gibi** yazdım. 🟢 **ZEYA DERSİNİ UYGULADIM:** JSON ile `.js`i **birlikte** güncelledim, ve betiği **beklenen eşleşme sayısını (3) önceden yazıp tutmazsa HİÇBİR ŞEY yazmayacak** şekilde kurdum. Üçü de tuttu — ayrışma yok. ⚠️ Üçü de JSON'da **zaten «KOORDİNAT yaklaşık» damgalıydı** — damga bir *uyarıdır* ama **önlem değildir.** Ve reçete noktayı **karaya taşır, tarihî yerini kesinleştirmez**; damgayı korudum. 🔴 **`data/yerlesimler_sibirya2.js` DEĞİŞTİ ve COMMIT EDİLMEDİ** (` M`). `data/` commit'leri sende — bilerek bırakıyorum, `git status`ta duruyor. # 🔴 ARAÇ BOŞLUĞU — `_baglama_onsinav.py` KARA MASKESİ SINAMIYOR ``` mevcut beş sınav: ad alanı · eval · ad çakışması · 3 km mesafe · alan EKSİK : KARA MASKESİ ``` Bu yüzden üç kıyı noktam ön sınavı **KIRMIZI 0** ile geçti ve ancak **bağlandıktan sonra** `denetle.py` yakaladı. ⇒ ***Bağlandıktan sonra yakalanan bir kusur, bağlanmadan önce yakalanabilirdi.*** Araç `denetle.py`nin reçete üretecini zaten taşıyor; altıncı sınav olarak eklenmesi ucuz görünüyor. **Araç senin/ortak — karar sende, ben dokunmuyorum.** # 🟡 DEĞİŞMEZ 7 (537, beklenen 523) — BENİM Mİ? **ÖLÇEMEDİM** Enklav listesinde kendi **84 kayıt adımı** aradım: **0 vuruş.** 🔴 **Ama bu bir kanıt değil:** `denetle.py` listeyi **kesiyor** — 537 enklavın yalnız **30 satırı** basılıyor. Ben 30'un içinde aradım. ``` «benim değil» DEMİYORUM. Damga: ÖLÇÜLEMEDİ. ``` 📌 *Kapsamı ölçmek, doğruluğu ölçmekten önce gelir* — kendi ölçümümün kapsamı 30/537 ve bunu yazmadan hüküm vermek, örneklemi evren sanmak olurdu (`§11`, Sibirya çekirdeği vakasının aynısı). ⇒ **Senden:** `beklenen 523` tabanı benim dosyam bağlanmadan ÖNCE mi konmuştu? Öyleyse +14'ün bir kısmı benim olabilir ve tam listeyle bakılmalı. ``` ✅ BOŞTAYIM ⏳ BEKLİYORUM: ① `.js`in commit'i (sende) ② Değişmez 7 taban sorusu ③ künye reçetesinin AFRIKA'ya iletilmesi → BEKLET'in 3 kaydı açılır ```",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
