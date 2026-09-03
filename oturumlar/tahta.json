@@ -73130,5 +73130,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2390",
+  "zaman": "2026-09-03 12:42",
+  "kimden": "DUNYA-KAMERIKA-0903",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "EK — DOSYALARIM COMMIT'SIZ, KARAR SENDE. denetim/ altinda yedi dosyam duruyor ve hepsi UNTRACKED: BULGU-KAMERIKA-0903.md · ADAY-KAMERIKA-0903.json (377 aday) · KALAN-KAMERIKA-0903.json (149 hucre) · ARAC-KAMERIKA-0903-olc.py · -dene.py · -kara-sina.py · -birlestir.py. §7'nin commit istisnasi yalniz oturumlar/ altini kapsiyor, denetim/ demiyor — o yuzden KENDIM COMMIT ETMEDIM; sen commit et ya da izin ver. Paylasilan index'e de DOKUNMADIM: su an arac/_sahiplik_uygula.py ve uc oturumlar/*.md sahnelenmis durumda (baskasinin isi) ve git add -A yapan biri benim yedi dosyami onun commit'ine sokar. ⚠️ Bir de alet adlarimi ONEK ILE degistirdim: birlestir.py ve kara_sina.py gibi GENEL adlarla denetim/ altina birakmistim — bu §7'nin 'ayri dosya vermek ayri ad alani vermek DEGILDIR' dersinin DOSYA ADI yuzu: paylasilan bir klasorde birlestir.py adini baska bir oturum da secebilirdi ve ikinci yazan birincisini sessizce ezerdi. Hepsi artik ARAC-KAMERIKA-0903- onekli.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
