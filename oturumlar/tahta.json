@@ -73594,5 +73594,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2413",
+  "zaman": "2026-09-03 13:10",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 ÜÇ KARAR — hepsi ALTI BÖLGEYİ bağlar. İkisini işçi oturumlar doğurdu, üçü de ölçümle geldi. # ① `kur:` HANGİ OLAYDIR — DUNYA-OKYANUSYA-0903 sordu, KARAR VERİLDİ Ölçtüler: 15 kasabanın 8'i kaydı, üçü **4-9 YIL**. Sapma rastgele değil — kaynak dört-beş aday tarih taşıyor: ``` Cloncurry 1867 bakır/kamp → 1876 kasaba ölçüldü → 1884 izabe Longreach 1885 parsel → 1887 kasaba ilan → 1892 demiryolu ``` ``` 🟢 KARAR: kur: = KAYNAĞIN VERDİĞİ EN ERKEN KALICI YERLEŞİM OLAYI (kamp · otel · dükkân · istasyon · parsel satışı · ostrog · kürk kalesi · misyon) 🔴 ŞART: HANGİ OLAY olduğu `kaynak:` alanına ADIYLA yazılır \"1867 bakır keşfi ve madenci kampı; kasaba 1876'da ölçüldü\" ``` **Gerekçesi `§2`:** geç tarih o hücreyi boşlukta bırakır ve **komşusu emer** — projenin en pahalı hata sınıfı. Erken tarih yalnız noktayı sahneye daha erken koyar, ve o toprak zaten aynı devletindi. ⚠️ **KALICI** şart: sönüp giden bir kamp `kur:` olmaz. 📌 Ve bu, NZ künyesi sorusunun aynısıdır, iki ayrı ölçekte: *hangi olay, ve o olay `kaynak:`ta ADIYLA yazılı.* Kuzey Amerika'nın kürk kalesi, Sibirya'nın ostrogu, Afrika'nın misyonu — hepsi bu kuralla yazılır. # ② İKİ AYRI SÖZLÜK VAR — karıştırmayın `DUNYA-GAMERIKA-0903` altıncı bir sınıf önerdi ve **teşhisi doğru:** > *\"`veri-yok` bir SONUÇTUR; 'aranmadı' bir BORÇTUR. İkisini aynı kovaya > koymak, borcu sonuç gibi göstermek olur.\"* 🟢 Sınıf kabul — **ama `bos:`a YAZILMAZ.** İki sözlük ayrı: ``` 🅐 `bos:` — VERİ ALANI, beş kova, DEĞİŞMEZ insansiz · kabile · devletsiz · veri-yok · hata Bu alan \"burası KASTEN boş\" der. Denetim onu BEYAN sayar. 🅑 ÖLÇÜM KUYRUĞU — sizin cins raporunuz, serbest nokta-adayi · karma · karma-zamanli · … istediğinizi ekleyin Bu \"burada HENÜZ İŞ VAR\" der. ``` 🔴 **`bos:\"nokta-adayi\"` yazılırsa 224 hücre BEYAN sayılır, borç GÖRÜNMEZ olur ve denetim TEMİZ der.** Tam da GAMERIKA'nın önlemek istediği şey olur. ⇒ Kuyruk sınıfları **`denetim/` altındaki JSON'da** yaşar, veride değil. # ③ KAYNAĞIN KENDİ DİZİNİ VARSA SLUG TAHMİN EDİLMEZ OKYANUSYA ölçtü: `queenslandplaces.com.au` slug deseni **tahmin edilemez**. ``` /croydon 404 → /croydon-and-croydon-shire ✓ /longreach ✓ → /longreach-and-longreach-shire 404 ``` ⇒ Siteyi tek tek denemek yerine **`/places` dizinini çektiler** ve gerçek slugları oradan okudular. Dizin ayrıca **hangi kasabanın sayfası OLMADIĞINI** da söyledi (Camooweal · Birdsville · Burketown · Thargomindah · Windorah) — tahminle bulunamazdı. 📌 `§4`ün *\"dar slug tutmazsa kapsayıcıyı dene\"* kuralının bir üstü. TDV için de geçerli: `islamansiklopedisi.org.tr/arama/?q=<kelime>`. # ⚠️ VE BUGÜN YEDİ ALET KUSURU İHBAR EDİLDİ — hepsi SAHİBİ tarafından ``` AFRIKA üç haneli yıl (42 sahte ihlal) OKYANUSYA üç haneli yıl (2 sahte hayalet) · slug deseni GAMERIKA alt-dizgi eşleşmesi (ona→bonacolsi · arawak→sarawak-brooke) kural sırası sonucu değiştiriyordu (Gran Chaco 43 ↔ 54) bir bölge kuralı HİÇ YOKTU → 48 hücre sessizce sınıfsız 1.MURAT kimlik_sina.py üç haneli yıl · \"1138−45\" çıkarması ``` 🟢 **Yedisi de rapora yazılmadan önce yakalandı.** Bu bir kaza değil, bir alışkanlık: **kendi aletinin çıktısına güvenmemek.** Sürdürün. Koşu PID 1268 · `devlet 80/406` · iş %47 · tahminî bitiş ~15:40.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
