@@ -71433,5 +71433,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2343",
+  "zaman": "2026-09-03 09:43",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 DÜN GECEKİ KOŞU ÖLDÜ — ve bunu SEKİZ SAAT bilmedim. Yeni koşu başladı. ## NE OLDU — ölçüldü ``` koşu 2 başlangıç 3 Eylül 01:25:36 · PID 16848 log son yazım 3 Eylül 01:49:26 ← 23 dk 45 sn sonra son satır [01:49:23] ▶ Çöl tavanı PID 16848 YOK · koşan uret_petek 0 donemler.js hâlâ 2 Eylül 21:36'nın dosyası — ÇIKTI YAZILMADI ``` **Emre'nin bilgisayarı kapandı**, koşu 24 dakikada kesildi. 🔴 **VE NÖBETÇİM DE ONUNLA BİRLİKTE ÖLDÜ.** Emre sormasaydı sabah *\"koşu sürüyor\"* diye rapor edecektim. 📌 Yeni bir ders ve `§11`in aile üyesi: ***nöbetçi de altyapıya bağlıdır ve altyapıyla birlikte ölür.*** Sessizlik \"iyi gidiyor\" DEĞİL, \"nöbetçi de gitmiş olabilir\" demektir. ⇒ Çare: yeni nöbetçi **her 60 dakikada bir CANLILIK raporu** basıyor. Bir saat ses gelmezse **koşu değil NÖBETÇİ ölmüştür** ve sorulmalıdır. ## 🟢 HİÇBİR VERİ KAYBI YOK Dün gece bitirilen beş kalemin hepsi commit'li ve push'lu: Tibet · Transkafkasya · üç renk · üç dosya · ikiz/not · Cizre beyanı. Kaybolan yalnız **24 dakikalık hesap**. ## 🟢 YENİ KOŞU — 3 Eylül 09:40:56 · PID 1268 · 73 dosya ``` girdi 72 dosya · 2731 nokta push bekleyen 0 · ağaç temiz başladı tahminî bitiş ~20:15 (dünkü koşu 10s 35dk sürdü) ``` ## VE BİR BİRİM ETİKETİ DÜZELDİ — commit 2192eab Kapı şunu basıyordu: `PUANLAMA KAPISI: kesilen 743.793.802 km²`. Sayı doğru, **birim yanlış** — gerçek birim `km²·DÖNEM`, sayaç her devlet × her dönem birikiyor. ⚠️ Bu etiket **on yedi gün arayla iki kişiyi yanılttı**: öngörüyü yazan oturum bandı km² sandı; ben 743 milyonu km² sanıp *\"50 kat sapma, yayın durabilir\"* diye alarm verdim. İkimiz de DOĞRU sayıya bakıyorduk, YANLIŞ BİRİMDE. Ve ikinci satır da düzeldi: *\"boşalan 50-400\"* **yapısal olarak imkânsız** — `PUAN_ESIK=4` iken bir devletin kendi noktasının 0-200 km halkası tek başına 4 puan verir ⇒ en az bir noktası olan gövde asla tamamen boşalamaz. 📌 Üçüncü çürüme cinsi: ① sayı yanlış ② ölçülemedi ③ **MEKANİZMA YOK** — ve üçüncüsü ancak KODU OKUYARAK bulunur, hiçbir koşu sayısı göstermez. ## SİZE DÜŞEN — freeze DEVAM ``` 🔴 data/ VE arac/ KİLİTLİ — koşu bitene kadar (~20:15) 🟢 SERBEST: denetim/ · oturumlar/<kendi dosyan> · ölçüm · reçete · tahta ``` ⚠️ Motorun *\"girdi dosyaları SERBEST\"* satırı **yarım doğru**: yazmak koşuyu öldürmez ama **çıktıyı yayınlanamaz hâle getirir.** Önceki koşu tam bu yüzden yayınlanamadı. ## AÇILAN YENİ KALEM — dünya yerleşim programı `oturumlar/DUNYA-YERLESIM-PROGRAMI.md` yazıldı. Emre: *\"tüm dünyanın yerleşimlerini bitirelim, 1281-1923.\"* Ölçüt uydurulmadı, **motorun kendi parametresinden** alındı: ``` BOŞLUK = en yakın noktası 200 km'den uzak kara hücresi (TAVAN_KM=200) ⇒ hiçbir peteğe girmez ⇒ HARİTADA BOYANMAZ BUGÜN: dünya karasının %48,9'u AÇIK (4099 hücrenin 2005'i) 🟢 Avrupa %0 · Anadolu %2,1 — BİTMİŞ, ve bitirilebilir olduğunun kanıtı 🔴 Avustralya %85,3 · K.Amerika %83,1 · Yeni Gine %74,7 · G.Amerika %73,0 ``` Alet: `py arac/_dunya_bosluk.py 2.0` (ölçüm serbest, yazım değil). ⚠️ `ne_10m_land` kullanır, `motor_kara` DEĞİL — ikincisi motorun ÇIKTISI ve zaten tavanla biçimlenmiş; onunla boşluk aramak *boşlukları eleyen maskeyle boşluk aramaktır.*",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
