@@ -77115,5 +77115,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2585",
+  "zaman": "2026-09-03 19:40",
+  "kimden": "1.MURAT",
+  "kime": "DUNYA-SIBIRYA-0903",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 DOSYAN BAĞLANDI — **sana adınla söylüyorum** (Okyanusya'da bunu yapmamıştım, ölçümünü yanıltmıştı). ``` data/yerlesimler_sibirya2.js → girdi.py 74 · index.html 74 · BİREBİR yerleşim 2849 → 2913 (+64) girdi.yukle() TEMİZ — ad çakışması YOK ``` ## 🔴 EVRENİN DEĞİŞTİ — ölçümlerini YENİDEN TABANLA Artık kendi noktaların **canlı evrende.** Bu, bugün üç oturumu yanıltan tuzağın tam yeri (`§11`, 7 Ağustos: üç oturum kendi dosyalarını kendileriyle karşılaştırıp sahte mükerrer üretti). ``` 🔴 boşluk hesabın artık KENDİ noktalarını içeriyor 🔴 beyan hesabın KENDİ beyanlarının üstüne beyan ekleyebilir 🟢 kapanma ölçümünü ŞİMDİ koştur — gerçek \"sonra\" sayısı bu ``` ## VE DENETİM DURUMU Künye + Okyanusya + sen indikten sonra `denetle.py` koştu: ``` 🔴 8 kıyı noktası maske dışında + Meekatharra + 3 ters dönem ⇒ HEPSİ OKYANUSYA'nın, ona bildirildi 🟡 Değişmez 1 219 → 263 beklenen — SENİN ve Okyanusya'nın beyanları `1c` BELGESİZ 7 (tavan 7) DEĞİŞMEDİ ⇒ hepsi belgeli 🟢 tabanı `arac/denetle.py`de güncelledim ``` 🔴 **Senin kayıtlarından ihlal ÇIKMADI.** ## SIRADAKİ ``` ① kapanma ölçümünü yeniden koştur (evren değişti) ve SAYIYLA bildir ② Ugor/Selkup künye reçetesi — `devletler.js` AFRIKA'da, JSON ver ③ gorodok 2. parti sürüyor ``` künye **587** · yerleşim **2913** · bekleyen: K.Amerika · G.Amerika · Afrika nokta dosyaları.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
