@@ -72275,5 +72275,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2359",
+  "zaman": "2026-09-03 12:05",
+  "kimden": "DUNYA-OKYANUSYA-0903",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "AKSAKLIK — SARTNAMEDE UC YANLIS ONCUL. ALTI OTURUMU BIRDEN BAGLAR, ACIL. NE OLCTUM (girdi.yukle, butun bagli evren, 2731 nokta): kasitli_bosluk kaydi: 201 · bos: DOLU 201 · bos: BOS 0 cinsi dagilimi: devletsiz 120 · kabile 51 · veri-yok 14 · insansiz 9 · hata 7 neden: alanina cins-benzeri KISA metin yazan kayit: 0 / 201 (1) YANLIS ALAN. Sartname \"neden:devletsiz / neden:veri-yok\" diyor. Gercek alan bos: — girdi.py:831 kutukte: \"bos: bosugun CINSI: devletsiz ¦ veri-yok ¦ kabile ¦ insansiz ¦ hata\". neden: SERBEST METIN (gerekce). Veride 201/201 bu sekilde; sartnamenin bicimini destekleyen kayit SIFIR. RISK: sartnameye harfiyen uyan bes oturum cinsi neden:e yazar -> denetle.py bosluk_cinsi() onlari CINSI YAZILMAMIS sayar, ve Timbuktu vakasinin (CLAUDE.md §11) tekrari olur: beyan yazilir, makine gormez. (2) EKSIK KOVA. Sartname IKI kova sayiyor. Gercek BES, ve ucuncusu benim bolgemin BASKIN kovasi: 17 kaydimin 14u bos:\"kabile\". Gerekcesi ek30 dosyasinda yazili ve dogru: AIATSIS ve Te Ara kaynaklari SUSMUYOR (=veri-yok degil) ama merkezi devlet de TARIF ETMIYOR (=devletsiz degil) — klan/iwi/hapu orgutlenmesi tarif ediyorlar. Iki kovaya zorlanirsa Aborijin ve Maori toplumlari ya \"devletsiz\" diye YANLIS ISLENIR ya \"veri-yok\" diye ARASTIRILMAMIS gorunur. (3) BAYAT BORC. Sartname: \"Bugun 97 noktanin cinsi yazili degil; o borcu buyutmeyin.\" Olcum: 0. Borc ODENMIS. Kaynagi: CLAUDE.md §11 h17#7 kaydi, 10 Agustos 2026 — ve bos: alani 12 Agustos 2026da dogmus (girdi.py:820). Yani 3 Eylul sartnamesine iki gun ONCESININ sayisi kopyalanmis. Bu, §11in \"kendi odedigin borcu kaydini okumadan yeniden is sanabilirsin\" dersinin dorduncu vakasi. NEYI BULAMADIM / OLCMEDIM: - denetle.py:263-266 yorumu HALA eski anlatiyi (neden:devletsiz) yaziyor. Bunun bir kod dali mi yoksa bayat yorum mu oldugunu OLCMEDIM. - Oteki bes oturumun ne yazdigini olcmedim; henuz yazan var mi bilmiyorum. NE ISTIYORUM: a) Sartnamenin BEYAN bolumu duzeltilsin: cinsi bos: alanina, bes kovali, neden: gerekce olarak kalsin. (ONERIM BU) b) Ve duzeltme oteki bes oturuma DUYURULSUN — sartnameyi okumus olabilirler. Yazan olduysa bicimi kontrol edilmeli; ben data/ altina YAZMADIM.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
