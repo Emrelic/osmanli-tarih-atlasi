@@ -367,13 +367,14 @@
   },
   {
    "ad": "Nijnekolımsk",
-   "lat": 68.53,
-   "lon": 160.9,
+   "lat": 68.5232,
+   "lon": 160.8997,
    "kur": "1644-01-01",
    "kademe": "A",
    "kaynak": "zuev",
    "hucre": 2,
-   "olay": "Büyük Anyuy'un Kolıma'ya katıldığı yerde zimovye"
+   "olay": "Büyük Anyuy'un Kolıma'ya katıldığı yerde zimovye",
+   "uyari": "🔧 KONUM DÜZELTMESİ (denetle.py reçetesi, kara maskesinde ve 4 ondalık hassasiyette SINANMIŞ): 68.5300/160.9000 → 68.5232/160.8997 — 0.70 km dışarıdaydı. ⚠️ Koordinat HÂLÂ YAKLAŞIK: kaynak nehir ağzı tarif ediyor, koordinat vermiyor; reçete noktayı KARAYA taşır, TARİHÎ yeri kesinleştirmez."
   },
   {
    "ad": "Ostrovnoye (Anyuy panayırı)",
@@ -388,13 +389,14 @@
   },
   {
    "ad": "Tauysk",
-   "lat": 59.6,
-   "lon": 149.2,
+   "lat": 59.6588,
+   "lon": 149.1761,
    "kur": "1652-09-10",
    "kademe": "A",
    "kaynak": "zuev",
    "hucre": 3,
-   "olay": "Stadukhin, Taui ağzında (10 Eylül 1652); 1648'de Motıkley zimovyesi"
+   "olay": "Stadukhin, Taui ağzında (10 Eylül 1652); 1648'de Motıkley zimovyesi",
+   "uyari": "🔧 KONUM DÜZELTMESİ (denetle.py reçetesi, kara maskesinde ve 4 ondalık hassasiyette SINANMIŞ): 59.6000/149.2000 → 59.6588/149.1761 — 7.01 km dışarıdaydı. ⚠️ Koordinat HÂLÂ YAKLAŞIK: kaynak nehir ağzı tarif ediyor, koordinat vermiyor; reçete noktayı KARAYA taşır, TARİHÎ yeri kesinleştirmez."
   },
   {
    "ad": "Yama zimovyesi",
@@ -832,14 +834,14 @@
   },
   {
    "ad": "Hantayka zimovyesi",
-   "lat": 68.35,
-   "lon": 90.9,
+   "lat": 68.3101,
+   "lon": 90.896,
    "kur": "1610-01-01",
    "kademe": "B",
    "kaynak": "bolgesel",
    "hucre": 4,
    "olay": "Hantayka nehri ağzında yasak zimovyesi",
-   "uyari": "⚠️ kaynak 'ОКОЛО 1610 г.' (yaklaşık) diyor — yıl KESİN DEĞİL. Aynı yıllarda Dudinka'da da birkaç izba ve ambar yapılmış; Turuhansk zimovyesi 1607."
+   "uyari": "⚠️ kaynak 'ОКОЛО 1610 г.' (yaklaşık) diyor — yıl KESİN DEĞİL. Aynı yıllarda Dudinka'da da birkaç izba ve ambar yapılmış; Turuhansk zimovyesi 1607.  🔧 KONUM DÜZELTMESİ (denetle.py reçetesi, kara maskesinde ve 4 ondalık hassasiyette SINANMIŞ): 68.3500/90.9000 → 68.3101/90.8960 — 4.41 km dışarıdaydı. ⚠️ Koordinat HÂLÂ YAKLAŞIK: kaynak nehir ağzı tarif ediyor, koordinat vermiyor; reçete noktayı KARAYA taşır, TARİHÎ yeri kesinleştirmez."
   },
   {
    "ad": "Dudinka ikinci nokta (Ust-Port hattı)",
@@ -2283,6 +2285,14 @@
    "zarar": "M-2466'da koordinatöre «Zeya — adı yanlıştı, DÜZELTTİM» diye rapor ettim. JSON'da kayıt kademe C ve eski adıyla kaldı; .js üretilirken «kaynaksız» diye ELENDİ. Yani rapor ile veri AYRIŞTI.",
    "yakalayan": "yerlesimler_sibirya2.js üretimi — YAZILMAZ listesinde eski adı görünce",
    "ders": "Bir yama betiği ESLESMEYEN anahtarı GÜRÜLTÜLÜ bildirmeli. Sıfır eşleşme sessizce geçerse, 'yapıldı' raporu veriye inmemiş olur — §11'in «bir hüküm, veriye inmedikçe hüküm değil bir METİNDİR» dersinin yama tarafı."
+  },
+  {
+   "tarih": "3 Eylül 2026",
+   "alet": "kendi koordinat tahminlerim",
+   "kusur": "Üç nokta kara maskesinin dışında kaldı (7,01 · 4,41 · 0,70 km) — üçü de JSON'da «KOORDİNAT yaklaşık» diye damgalıydı.",
+   "yakalayan": "arac/denetle.py konum denetimi, dosya bağlandıktan SONRA",
+   "care": "reçete OLDUĞU GİBİ uygulandı (araç onu kara maskesinde ve yazılacağı hassasiyette sınıyor)",
+   "ders": "«Yaklaşık» damgası bir uyarıdır ama ÖNLEM DEĞİLDİR; bağlanmadan önce kara maskesi sınavı da koşulmalıydı. `_baglama_onsinav.py` ad · 3 km · alan sınar, KARA MASKESİ SINAMIYOR."
   }
  ]
 }
