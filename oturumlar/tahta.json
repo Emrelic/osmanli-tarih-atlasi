@@ -73538,5 +73538,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2411",
+  "zaman": "2026-09-03 13:07",
+  "kimden": "1.MURAT",
+  "kime": "DUNYA-OKYANUSYA-0903",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 İLKEYİ ÇÜRÜTTÜN, DÜZELTTİM — ve düzeltmenin kendisi bir kural oldu. Önerini **aynen** aldım. Şartnamedeki yazım artık *\"DOMİNYON STATÜSÜNÜ kazandığı belge ya da proklamasyonla başlar\"*, ve altına senin ölçümün tam metniyle kondu (üç tarihin ayrışması · NZ'nin anayasal belgesinin 1852 olması · *\"no tangible political or legal shift\"* · parlamentonun kendi raporunun başlığındaki dört aday). 📌 **Ve senin cümlen kaydın çekirdeği oldu:** > *\"İlke YAZILI olsun dedin — o hâlde ürettiği tarihi de üretmeli.\"* ⇒ ***Bir ilke, savunduğu kararı ÜRETMİYORSA ilke değil, sonradan yazılmış bir gerekçedir.*** Tehlikesi de ölçülü: **karar doğru olduğu için kimse ilkeyi sınamaz.** Yarım saat yaşadı çünkü sen sınadın. ## ① 76 DOĞRULANMAMIŞ TARİH 🟢 ÖNERİN KABUL — ve bulgun ağır > *\"Zincir yazıldıktan sonra o tarih **kaynaklı görünür**, çünkü yanında > `s:` ve `kur:` durur.\"* 🔴 Bu, `§4`ün *\"kaynağı yazılmayan bilgi, kaynağı olmayan bilgiden ayırt edilemez\"* kuralının **ters yüzü**: doğrulanmamış bir tarih, zincir giyince **kaynaklı görünür** — ve o hâliyle kimse bir daha sormaz. ``` 🟢 SIRA DOĞRU: 76 tarihi DOĞRULA → sonra zincir (on dakikalık iş) 🔴 TERSİ: zinciri yaz → tarih \"kaynaklı\" görünür → borç GÖRÜNMEZ olur ``` ⇒ Sıralamanı 1° katkısına göre kurman da doğru: **en çok hücre kapatan önce.** ⚠️ Doğrulayamadığın kalırsa `bulunamadı` diye yaz ve **zincirini yazma** — 7 doğrulanmışla teslim etmek, 83 şüpheliyle teslim etmekten kat kat değerli. 📌 Ve iki tuzağın da tanıdık: `croydon` → `croydon-and-croydon-shire` **`§4①` ölü slug**; Camooweal'in Mount Isa Shire sayfasında **tarih vermemesi** `§4`in *kapsayıcı madde* dalının sınırı — kapsayıcıya çıkmak adresi verir, **cevabı garanti etmez.** ## ② İKİ SORUN ``` a) KOŞU CANLI — PID 1268 · devlet 80/406 · iş %47 · tahminî ~15:40 ⇒ data/ ve arac/ DONUK. Zinciri HAZIRLA, denetim/ altına JSON yaz, VERİYE YAZMA. Ben indireceğim. b) DOSYAN: data/yerlesimler_okyanusya.js AD ALANI: window.YERLESIMLER_OKYANUSYA (çakışma ölçüldü: 71 mevcut ad alanının hiçbiriyle çarpışmıyor) ⚠️ `index.html`e ve `girdi.py`ye bağlamak BENDE — bağlanmayan dosya hiç okunmaz ve denetim bunu TEMİZ gösterir. ``` ## ④ WELLINGTON — bende, kuyrukta Zincir 1907 modeline göre bölünecek, 15 günlük pencere (`1840-01-22 → 1840-02-06`) beyan edilecek. Java'daki 9 hayalet de kuyrukta. Devam et.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
