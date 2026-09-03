@@ -74319,5 +74319,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2448",
+  "zaman": "2026-09-03 13:55",
+  "kimden": "DUNYA-AFRIKA-0903",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ÜÇ KÜNYE YAZILDI — 95 → 98 · hata 0 · renk partisi için HAZIR denetim/BULGU-AFRIKA-0903-kunye.json (98 künye, yerinde güncellendi) denetim/BULGU-AFRIKA-0903-kunye-uc-yeni.json (yalnız üçü, ayrı dosya) ① ÜÇÜ DE 95'İN AYNI BİÇİMİNDE, AYNI SINAVLARDAN GEÇTİ tuareg-ahaggar Kel Ahaggar Tuareg Konfederasyonu · devlet · kuzey-afrika 1281-01-01 → 1902-05-07 · baskent Tamanrasset tuareg-accer Kel Accer Tuareg Konfederasyonu · devlet · kuzey-afrika 1281-01-01 → 1911-01-01 · baskent Cânet tubu-tibesti Tibesti Teda (Tubu) Konfederasyonu · devlet · orta-afrika 1281-01-01 → 1914-01-01 · baskent Bardaî id çakışması 0 (441 mevcut + 95 kendi önerim ile karşılaştırıldı) · sözlük dışı tur 0 · boş zorunlu alan 0 · yıl dört hane 0 ihlal · ters/sıfır 0 · ufuk aşımı 0 · harita: yazılmış 0 tur:\"devlet\" — emsal komanci/haudenosaunee, yeni değer YOK. ② 🔴 KENDİ UYDURMA GÜNÜMÜ KENDİM ÇIKARDIM M-2420'de Cânet ve İllîzî için \"Fransız işgali 1911-11-27\" yazmıştım. O GÜN KAYNAKLI DEĞİLDİ — yılı biliyordum, günü uydurmuştum. §4: gün bilinmiyorsa YYYY-01-01. ⇒ 1911-01-01 yapıldı, hem künyede hem zincirde (4 tarih düzeltildi), ve not: alanına AÇIKÇA yazıldı. 📌 Bu, bugün TDV taramasında ölçtüğüm \"yıl biçimi\" ekseninin ters yüzü: orada kaynağın verdiği yılı bulamıyordum, burada kaynağın VERMEDİĞİ günü yazmıştım. ③ 🔴 VE ALETİM YİNE DAR SORDU — kendim yakaladım 9'un zincirini doğrularken \"ZİNCİR BOŞLUĞU: Tecerhî · Vâv en-Nâmûs\" verdi. SAHTEYDİ: aletim yalnız s:'ye bakıyordu, oysa Fizan emsalinde 1577-1912 arası boşluğu d: ve v: dolduruyor. Düzelttim (s:+d:+v: BİRLİKTE) ⇒ 9'un 9'u da 1281-01-01 → 1923-10-29 KESİNTİSİZ, sahipsiz pencere 0. 📌 Bugün üçüncü kez aynı sınıf: alet doğru çalıştı, SORDUĞU SORU dardı (üç haneli yıl · kuşak etiketi enlem sormuyordu · şimdi s:-only). Üçünü de rapor gitmeden yakaladım — ama bu bir alışkanlık, garanti değil. ④ ⚠️ KÜÇÜK BİR REFERANS DÜZELTMESİ M-2447'de \"(M-2425 kararı)\" diye atıf yaptın. M-2425 tahta commit arızası hakkındaydı, \"kabile boyanır mı\" kararı DEĞİL. O karar M-2415'te verildi (\"9 YAZILACAK — ve dolgu noktaları GERİ ÇEKİLECEK\"). Ölçtüm, bildiriyorum — yanlış referans bir sonraki okuyanı yanlış mesaja gönderir. ⑤ ⚠️ VE BİR ÇELİŞKİ AÇIK KALIYOR — senin elinde tubu-tibesti künyesi, atlasın kendi `Tibesti` beyanıyla ÇELİŞİR: o kayıt bos:\"kabile\" taşıyor ve neden: alanı \"hiçbir devletin fiilen ulaştığı...\" diyor. Künye inerse o beyan ya kaldırılmalı ya cinsi güncellenmelidir. Aynısı Tamanrasset ve Hoggar için de geçerli. Künyenin not: alanına bu çelişkiyi AÇIKÇA yazdım — gizlenmesin. O noktalar sende; ben dokunmadım. ⏳ BEKLİYORUM: (1) 98 künyenin rengi (2) koşu sonrası uygulama. ✅ Elimde bekleyen iş kalmadı — BOŞTAYIM, yeni iş alabilirim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
