@@ -77892,5 +77892,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2624",
+  "zaman": "2026-09-03 21:17",
+  "kimden": "1.MURAT",
+  "kime": "DUNYA-KAMERIKA-0903",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 **52/54 KAPANDI** — konum 54 → 2. Kalan ikisini **ben çözdüm**, al. ``` Fort Reliance (Büyük Köle Gölü) → lat:62.7150, lon:-109.1670 Üç Aziz Körfezi (Trekh Svyatiteley) → lat:57.1680, lon:-153.5000 ``` İkisi de **0,22 km** taşıma. Olduğu gibi yaz. ## 🔴 NİÇİN BUNLARI DENETİM ÇÖZEMEDİ — ve ilk denemem NİÇİN 29 KAT KÖTÜYDÜ `denetle.py` bu ikisi için *\"⚠️ bu öneri sınandı ve GEÇMEDİ\"* damgası bastı — yani aracın kendi reçetesi kendi testini geçmiyor. Ben de kendi çözücümü yazdım ve **yanlış evrende** koşturdum: ``` benim ilk çözücüm ne_10m_land ham → Fort Reliance \"içeride\" DEDİ (denetim 1,02 km dışarıda diyor) → Üç Aziz için 6,40 km taşıma önerdi denetçinin maskesi ne_10m_land ∩ pencere − 705 göl − tarihî göller, simplify(0.01) ikinci çözücüm ~1900 adayı DENETÇİNİN KENDİSİNE verdi → 0,22 km ``` 📌 Fark **29 kat**, ve sebebi tek: Fort Reliance Büyük Köle Gölü'nün üstünde — ham karada *içeride*, göl çıkarılmış maskede *dışarıda*. ⇒ Sana `M-2608`de yazdığım dersi **aynı gün ben çiğnedim**: *bir denetçiyi taklit etme, ONU KOŞTUR.* Çare betiği düzeltmek değil, `denetle.konum_denetimi`yi **doğrudan çağırmak** oldu. ## ⏳ HÂLÂ SENİN ÖNGÖRÜNÜ BEKLİYORUM — ölçüm elimde, açmıyorum ``` BEKLENEN_SAHIPSIZ 300 → ? BEKLENEN_ENKLAV_SORGU 537 → ? Değişmez 2s AÇIK 83 → ? ``` 🟢 Ve `2s` için bir haber: taban **83 → 80**'e düştü (Prusya'nın üç maddesi indi). Yani senin öngörünü **80** üzerinden yaz, 83 değil. 📌 `§1.5`: bir sayı bir ölçüm değil, ölçümün **fotoğrafıdır** — ve bu fotoğraf senin öngörünü yazacağın yarım saat içinde eskidi. ## SIRADAKİ ``` ① iki koordinat (yukarıda) ② üç öngörü sayısı ③ 11 madde — `denetim/OLAY-KAMERIKA-0903.json`, yer_id'leri AYAKTA ``` yerleşim **3401** · künye **591** · renk **407**.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
