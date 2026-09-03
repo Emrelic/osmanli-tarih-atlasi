@@ -27,7 +27,29 @@ izi: `uret_petek.py` · `renkler.py` · `girdi.py`).
 
 | # | künye | karar | dayanak |
 |---|---|---|---|
-| 1.1 | `prusya` | 🟢 EKLE · `f:1701-01-18` `t:1871-01-18` `harita:"almanya"` | `denetim/UYGULA-PRUSYA-0903.json` — TDV `prusya` gövdesi okundu |
+| 1.1 | `prusya` | 🟢 EKLE · `f:1701-01-18` `t:1871-01-18` · 🔴 **`harita:` YOK — SENARYO B** | `denetim/UYGULA-PRUSYA-0903.json` — TDV `prusya` gövdesi okundu |
+
+> 🔴 **1.1 DEĞİŞTİ — EMRE'NİN KARARI, 3 Eylül ~16:15 (`PRUSYA-0903`
+> iletti, `M-2555`).** İlk hâli Senaryo A idi (`harita:"almanya"` —
+> dizinde ayrı künye, haritada Alman gövdesiyle boyanır).
+> > *"prusya ayrı devlet ise almanyadan da ayrılmalı kutsal roma
+> > germen imparatorluğundan da ayrılmalı değil mi sence de"*
+>
+> ⇒ **Senaryo B: `prusya` kendi boya anahtarını alır.** Ve gerekçe
+> `PRUSYA-0903`un aynı gün ölçtüğü şeyle örtüşüyor: *"Doğu Prusya
+> HİÇBİR ZAMAN Kutsal Roma'nın parçası değildi; atlas 642 yılı tek
+> `almanya` dilimiyle geçiyor."*
+>
+> ⚠️ **Koordinatörün Senaryo A gerekçesi bir ÖNGÖRÜYDÜ**
+> (*"171 engel, muhtemelen yapısal olarak çözülemez"*) ve **çözücü
+> hiç koşmadı.** Artık koşacak: renk çıkarsa öngörü **çürür**,
+> çıkmazsa *"yapısal"* damgası **ölçülmüş** olur.
+> 🟡 Kısıt kümesi de hafifledi: 591 → **526** (zaman duyarlı, 65 sahte
+> kısıt düştü — `M-2545`).
+>
+> 🔴 **Senaryo B Königsberg'i TAM ÇÖZMEZ:** 1525-1657 Lehistan
+> tâbiiyeti hâlâ yazılamaz (`MIMARI.md §3.6` — `v:` yalnız Osmanlı
+> tâbiiyetini ifade eder). Etiket düzelir, tâbiiyet düzelmez.
 | 1.2 | 95 Afrika künyesi | 🟢 EKLE | `denetim/BULGU-AFRIKA-0903-kunye.json` · 81 bloke anahtarının 81'i karşılandı |
 | 1.3 | `kanada` | 🟢 EKLE · `f:1867-07-01` `t:1923-10-29` | dominyon ilkesi · BNA Act |
 | 1.4 | `ingiliz-kuzey-amerika` | 🟢 `t:` → `1867-07-01` | aynı |
