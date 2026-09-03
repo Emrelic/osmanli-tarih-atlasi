@@ -671,25 +671,42 @@ def engel_kumesi(kim, esik=B_KADEME_KM, k=None):
     import collections as _c
     if k is None:
         k, _ = komsuluk()
-    Y = girdi.yukle(sessiz=True)
-    nokta, zarf = _c.defaultdict(list), {}
-    for y in Y:
-        for kat in ("s", "v"):
-            for pr in (y.get(kat) or []):
-                d, f, t = pr.get("d"), pr.get("f"), pr.get("t")
-                if not (d and f and t):
-                    continue
-                nokta[d].append((y["lat"], y["lon"]))
-                e = zarf.get(d)
-                zarf[d] = (min(e[0], f), max(e[1], t)) if e else (f, t)
-    pen = dict(zarf)
-    for dv in girdi.oku_devletler():
-        an = dv.get("harita") or dv.get("id")
-        if not an or not dv.get("f") or not dv.get("t"):
-            continue
-        e = pen.get(an)
-        pen[an] = ((min(dv["f"], e[0]), max(dv["t"], e[1])) if e
-                   else (dv["f"], dv["t"]))
+    # 🔴 ÖNBELLEK — 3 Eylül 2026, PRUSYA-0903 ölçtü.
+    #   Bu fonksiyon HER ÇAĞRIDA `girdi.yukle()` + `oku_devletler()`
+    #   yapıyordu. `oner()` onu 175 kimlik için çağırınca 175 KEZ tam
+    #   veri yüklemesi demek — ölçüldü, tek kimlik ~4 sn, 175 kimlik
+    #   10 dakikada bitmedi.
+    #   Veri koşu boyunca DEĞİŞMEZ (girdi dosyaları donuk), o yüzden
+    #   süreç ömrü boyunca önbelleklemek güvenli.
+    #   ⚠️ Önbellek SÜREÇ ÖMRÜ kadardır; veri değişirse yeni süreç açılır.
+    _pb = engel_kumesi.__dict__.get("_onbellek")
+    if _pb is None:
+        Y = girdi.yukle(sessiz=True)
+        nokta, zarf = _c.defaultdict(list), {}
+        for y in Y:
+            for kat in ("s", "v"):
+                for pr in (y.get(kat) or []):
+                    d, f, t = pr.get("d"), pr.get("f"), pr.get("t")
+                    if not (d and f and t):
+                        continue
+                    nokta[d].append((y["lat"], y["lon"]))
+                    e = zarf.get(d)
+                    zarf[d] = (min(e[0], f), max(e[1], t)) if e else (f, t)
+        pen = dict(zarf)
+        _bol = {}
+        for dv in girdi.oku_devletler():
+            an = dv.get("harita") or dv.get("id")
+            if not an:
+                continue
+            _bol.setdefault(an, dv.get("bolge") or "")
+            if not (dv.get("f") and dv.get("t")):
+                continue
+            e = pen.get(an)
+            pen[an] = ((min(dv["f"], e[0]), max(dv["t"], e[1])) if e
+                       else (dv["f"], dv["t"]))
+        engel_kumesi._onbellek = (nokta, pen, _bol)
+    else:
+        nokta, pen, _bol = _pb
     out = {x for x in k.get(kim, ()) if x in BOYALAR}
     f, t = pen.get(kim, ("1281-01-01", "1923-10-29"))
     # 🔴 VERİSİZ ENGEL ADAYI — 8 Ağustos 2026'da ÖLÇÜLEREK bulundu.
@@ -704,11 +721,8 @@ def engel_kumesi(kim, esik=B_KADEME_KM, k=None):
     #   ÇARE: verisi olmayan aday, künyesi ÖRTÜŞÜYOR ve AYNI BÖLGEDEyse
     #     engel sayılır (mesafe ölçülemiyor ⇒ en kötü hâl varsayılır).
     #     `§11`: "ölçülemedi" ile "temiz" aynı şey değildir.
-    _bol = {}
-    for _d in girdi.oku_devletler():
-        _an = _d.get("harita") or _d.get("id")
-        if _an:
-            _bol.setdefault(_an, _d.get("bolge") or "")
+    #   (⚠️ `_bol` artık yukarıdaki ÖNBELLEKTE kuruluyor — aynı sözlük,
+    #    yalnız kimlik başına bir kez değil, süreç başına bir kez.)
     for b in BOYALAR:
         if b == kim or b in out:
             continue
@@ -866,12 +880,33 @@ def oner(yeni):
         print("     (verisi girdi.py'nin okuduğu dosyalarda DEĞİL —")
         print("      öneri yalnız altlık ve Osmanlı ikilisine dayanır)")
 
+    # 🔴🔴 ENGEL EVRENİ `engel_kumesi()`e GEÇİRİLDİ — 3 Eylül 2026.
+    #   ESKİ HÂLİ yalnız VORONOİ komşusunu engel sayıyordu. Ölçüldü
+    #   (PRUSYA-0903): `prusya` için 8 Voronoi komşusu + Osmanlı = 10
+    #   engel; `engel_kumesi()` ise 41 veriyor. Çözücü `#242ad2` önerdi
+    #   ve "en yakın engel ΔE 16,8" dedi — GERÇEKTE:
+    #       iskocya 2,62 · savoya 7,18 · parma 11,78
+    #   Üçü de meşru engel (İskoçya 1701-1707 aynı sahnede, ~1100 km).
+    #   ⇒ Çözücü kusursuz çalışıyordu; KISIT EKSİK VERİLMİŞTİ — bu
+    #     fonksiyonun kendi başlığındaki uyarının ta kendisi.
+    #
+    #   🔴 VE KUSUR "verisi olmayan kimlik"le SINIRLI DEĞİL: `prusya`nın
+    #     10 dönemi ve 8 komşusu VARDI, renk yine kötü çıktı. İki gövde
+    #     birbirine DEĞMEDEN de aynı ekranda yan yana durur
+    #     (`§11` · `kaffa ↔ sidamo`, ΔE 2,8, beş yüzyıl sahnede).
+    #
+    #   TABAN ÖLÇÜMÜ (eski kod, 175 renksiz künye, aynı gün):
+    #       15.225 çiftin 1667'si ΔE<12 · 1337'si aynı sahnede
+    #       en yakınlar ΔE 0,89 — pratikte AYNI RENK
     engel = {}
     for a in yeni:
-        e = [gorunen(b) for b in k.get(a, ()) if b in BOYALAR and b != a]
+        _ev = engel_kumesi(a, k=k)
+        e = [gorunen(b) for b in _ev if b in BOYALAR and b != a]
         e += list(OSM.values())
         engel[a] = e
-        print(f"  {a:<24} {len(k.get(a, ())):>3} komşu, {len(e):>3} renkli engel")
+        _vk = len([b for b in k.get(a, ()) if b in BOYALAR])
+        print(f"  {a:<24} {len(k.get(a, ())):>3} komşu, {len(e):>3} renkli engel"
+              + (f"  (Voronoi {_vk} → evren {len(_ev)})" if len(_ev) != _vk else ""))
 
     # 🔴 YENİLER BİRBİRİNİN DE ENGELİ — hangi ikisi komşu?
     ikili = [(a, b) for a, b in itertools.combinations(yeni, 2)
@@ -898,12 +933,65 @@ def oner(yeni):
                 aday.append((hx, L))
     print(f"  altlıktan ayrışan aday: {len(aday)}")
 
+    # 🔴 YENİLER ARASI ENGEL de aynı evrene geçirildi (3 Eylül 2026).
+    #   Eski hâli `if b in k.get(a, ())` — yalnız VORONOİ komşusu.
+    #   Yeni kimlikler `BOYALAR`da olmadığı için `engel_kumesi()` onları
+    #   döndüremez; o yüzden AYNI ÖLÇÜT burada elle kuruluyor:
+    #       künye pencereleri ÖRTÜŞÜYOR **ve**
+    #       (Voronoi komşusu **ya da** aynı bölge)
+    #   İkinci şık `engel_kumesi()`in "verisi olmayan aday, künyesi
+    #   örtüşüyor ve aynı bölgedeyse EN KÖTÜ HÂL VARSAYILIR" çaresinin
+    #   yeni-kimlik tarafıdır — 26 künyelik denemede o çare olmadığı için
+    #   26 kimlik ardışık hex aldı (#242ad2 · #2430d2 · #2436d2 …).
+    _ob = engel_kumesi.__dict__.get("_onbellek")
+    if _ob is None:                      # engel_kumesi hiç çağrılmadıysa
+        engel_kumesi(yeni[0], k=k)       # önbelleği kurdur
+        _ob = engel_kumesi._onbellek
+    _NOKTA, _PEN, _BOL = _ob
+    _mes = {}                            # (a,b) → km, süreç ömrü önbelleği
+
+    # 🔴🔴 ÖLÇÜT `aynı bölge` → `1500 km` OLARAK DEĞİŞTİ — 3 Eylül 2026, 23:0x.
+    #   İlk hâli eşzamanlı çiftler için `aynı bölge` şartı arıyordu.
+    #   KOORDİNATÖR ÖLÇTÜ ve çürüttü: `--dogrula` 41 çift buldu, dokuzunun
+    #   SEKİZİNDE bölgeler FARKLI ama mesafeler 461-1459 km:
+    #       bunyoro(doğu) ↔ mangbetu(orta)    461 km · ΔE 1,0
+    #       ovambo(orta)  ↔ tsvana(güney)     729 km · ΔE 1,1
+    #       adamava(orta) ↔ adar(batı)        969 km · ΔE 1,9
+    #   ⇒ `bolge:` YAKINLIK İÇİN KÖTÜ BİR VEKİL: gerçekte bitişik olan
+    #     kimlikleri ayrı kovalara koyuyor.
+    #   📌 Ve bunu ÖNCEDEN yazmıştım (M-2650): «717 çiftin bölge SINIRINDA
+    #     komşu olup olmadığı ÖLÇÜLMEDİ». Damgayı koydum, sonra aynı kovaya
+    #     «GERÇEK İHLAL 0» dedim — kendi damgamla çelişen bir hüküm.
+    #   ⇒ Artık `--dogrula`nın ölçütü kullanılıyor: **eşzamanlı + 1500 km**.
+    #     İki alet aynı soruyu AYNI EVRENDE soruyor.
+    def _yeni_engel_mi(a, b):
+        """b (seçilmiş YENİ kimlik), a için engel mi?"""
+        if b in k.get(a, ()):
+            return True                  # Voronoi komşusu — tartışmasız
+        fa, ta = _PEN.get(a, (None, None))
+        fb, tb = _PEN.get(b, (None, None))
+        if not (fa and ta and fb and tb):
+            return True                  # pencere ölçülemedi ⇒ en kötü hâl
+        if not (fa < tb and fb < ta):
+            return False                 # hiç eşzamanlı değil ⇒ paylaşım MEŞRU
+        # eşzamanlı ⇒ GERÇEK MESAFE ölçülür
+        an = (a, b) if a < b else (b, a)
+        d = _mes.get(an)
+        if d is None:
+            pa, pb = _NOKTA.get(a), _NOKTA.get(b)
+            if not (pa and pb):
+                # mesafe ÖLÇÜLEMEDİ ⇒ en kötü hâl: aynı bölgedeyse engel
+                # (`engel_kumesi`in kuba↔lunda çaresiyle aynı mantık)
+                return bool(_BOL.get(a)) and _BOL.get(a) == _BOL.get(b)
+            d = min(girdi.km(x[0], x[1], y[0], y[1]) for x in pa for y in pb)
+            _mes[an] = d
+        return d < B_KADEME_KM
+
     secim = {}
     for a in yeni:
         e = list(engel[a])
-        # daha önce seçilmiş YENİ komşular da engel
         for b, (_, Lb) in secim.items():
-            if b in k.get(a, ()):
+            if _yeni_engel_mi(a, b):
                 e.append(Lb)
         uygun = [(min(dE(L, x) for x in e), hx, L) for hx, L in aday
                  if hx not in {v[0] for v in secim.values()}]
@@ -930,8 +1018,14 @@ def oner(yeni):
             print(f"  {a:<24} —  ÇÖZÜLEMEDİ")
             continue
         hx, L = secim[a]
+        # 🔴 RAPORLAMA DA AYNI EVRENE GEÇİRİLDİ (3 Eylül 2026).
+        #   Eski hâli `b in k.get(a, ())` idi ve **seçim mantığından DAR**
+        #   bir kümeyle "en yakın engel" basıyordu. Ölçülmüş vaka: `prusya`
+        #   için "ΔE 16,8" bastı, gerçekte `iskocya` ile 2,62'ydi.
+        #   ⇒ Rapor, seçimin gördüğü evrenin AYNISINI görmeli; yoksa araç
+        #     kendi kısıtını yanlış raporlar ve okuyan ona güvenir.
         e = list(engel[a]) + [Lb for b, (_, Lb) in secim.items()
-                              if b != a and b in k.get(a, ())]
+                              if b != a and _yeni_engel_mi(a, b)]
         print(f"  {a:<24} {hx}  L*{L[0]:5.1f} ton {ton(L):5.1f}°  "
               f"en yakın engel ΔE {min(dE(L, x) for x in e):.1f}")
     print("\n  📌 Bu liste ONAY İSTER. Araç 'meşru' der, 'güzel' demez.")
