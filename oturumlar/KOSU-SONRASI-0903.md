@@ -32,14 +32,30 @@ izi: `uret_petek.py` · `renkler.py` · `girdi.py`).
 | 1.3 | `kanada` | 🟢 EKLE · `f:1867-07-01` `t:1923-10-29` | dominyon ilkesi · BNA Act |
 | 1.4 | `ingiliz-kuzey-amerika` | 🟢 `t:` → `1867-07-01` | aynı |
 | 1.5 | `yeni-zelanda` | 🟢 `f:` → `1907-09-26` | NZ History (resmî) · dominyon proklamasyonu |
-| 1.6 | K. Amerika yerli kimlikleri | ⏳ KAMERIKA'nın listesi bekleniyor | tanecik: halk/konfederasyon |
-| 1.7 | G. Amerika 37 halk | 🟡 hepsi künye DEĞİL | GAMERIKA ölçütü: teritoryal yapı + datable bitiş |
+| 1.6 | K. Amerika **30 künye** | 🟢 DOĞRULANDI · `KUNYE-KAMERIKA-0903.json` (16) + `-parti2.json` (14) · 17'si sebebiyle BEKLET | hata 0 · çakışma 0 |
+| 1.7 | G. Amerika **4 künye** | 🟢 `ranquel` · `charrua` · `guarani-misyonlari` · `arua` | 5'i `t:` yokluğundan YAZILMADI |
 | 1.8 | `kongre-polonyasi` | 🟢 `tur:"kralik"` → `"krallik"` | yazım hatası, bugün ben yazdım |
 | 1.9 | `tur:` sözlüğü | 🟡 `koloni` + `dominyon` eklensin, 14 künye taşınsın | ÖNCELİK DÜŞÜK — motor `tur:`i okumuyor, dizin işi |
 
 🔴 **1.1-1.5 için ortak şart:** her yeni `f`/`t` bir **kırılma günü**
 doğurur ⇒ `Değişmez 2` maddesi ister. Künyeyi yazıp maddeyi yazmamak,
 denetimi kırar.
+
+### 🟢 TOPLAM — ölçüldü 15:19
+```
+Afrika        98   (BULGU-AFRIKA-0903-kunye.json — üç Tuareg/Tubu DÂHİL)
+K. Amerika    30   (iki parti · kesişim YOK)
+G. Amerika     4
+prusya + kanada 2
+────────────────
+             134   ⇒ künye 441 → ~575
+BÖLGELER ARASI ÇAKIŞMA: 0  (ayrıca ölçüldü — her dosya tek tek temiz
+çıkıyor ve iki bölge aynı `id`yi önerirse İKİSİ DE kendi dosyasında
+TEMİZ görünür)
+```
+🔴 **`BULGU-AFRIKA-0903-kunye-uc-yeni.json` UYGULANMAZ** — o üç künye
+zaten 98'lik dosyanın içinde. İkisini birden vermek 3 sahte çakışma
+üretir (uygulayıcı yakalar ve durur, ama boşa tur olur).
 
 ---
 
@@ -178,16 +194,47 @@ altına inerse borç ödenmiş.
 
 ---
 
-# ⑥ SIRA — bağımlılık zinciri
+# ⑥ SIRA — 🔴 DEĞİŞTİ, 3 Eylül 15:25
 ```
-① künye  →  ② renk  →  ③ nokta  →  koşu 4
-   ↑                        ↑
-   1.6 KAMERIKA listesi    zincirler kimliksiz inemez
+① künye  →  ② NOKTA  →  ③ RENK  →  koşu 4
 ```
-🔴 **Sıra atlanamaz** (`§6`): kimliği olmayan nokta petek üretir ama
-boyanmaz; rengi olmayan kimlik harita deliği açar.
-🟢 Ama ① ve ② **aynı gün** yapılabilir, ③ de. **KOŞU aynı gün
-yapılamaz** (~10,5 saat).
+⚠️ **Eski sıra `künye → renk → nokta` idi ve YANLIŞTI.**
+`PRUSYA-0903` ölçtü (`M-2514`), ben doğruladım:
+
+```
+renk_olc.py:909-912
+   for b,(_,Lb) in secim.items():
+       if b in k.get(a,()):      # ← YALNIZ VORONOİ KOMŞUSU İSE engel
+           e.append(Lb)
+⇒ VERİDE NOKTASI OLMAYAN künyenin Voronoi komşusu YOK
+⇒ birbirlerinin ENGELİ OLMUYOR
+⇒ hepsi AYNI renk bölgesine düşüyor
+```
+🔴 **Ve bu ölçüldü, tahmin değil.** PRUSYA'nın betiği kazayla mevcut
+**26 renksiz künye** üzerinde çözücüyü koşturdu:
+```
+üretilen 26 renk:  #242ad2 #2430d2 #2436d2 #243cd2 …
+   R=0x24 SABİT · B=0xd2 SABİT · G yalnız ALTIŞAR artıyor
+325 çiftin 129'u ΔE < 12 · en yakınlar ΔE 1,86-1,97 (pratikte AYNI)
+31'i hem eşik altı hem künye pencereleri ÖRTÜŞEN ⇒ gerçek ihlal
+```
+🔴 **VE 128 ÖNERİLEN KÜNYENİN 128'İNİN BUGÜNKÜ VERİDE NOKTASI YOK**
+(ölçüldü, 15:22). Yani künye → renk sırası **128 ayırt edilemez renk**
+üretirdi.
+
+⇒ **Noktalar ÖNCE inecek**, künyeler gerçek Voronoi komşuluğu
+kazanacak, renk ondan sonra çözülecek.
+
+📌 Ve `§11`in `kuba ↔ lunda` dersi (*"verisi olmayan aday, künyesi
+örtüşüyor ve aynı bölgedeyse ENGEL sayılır — en kötü hâl varsayılır"*)
+**`engel_kumesi()`e uygulanmış, `oner()`e UYGULANMAMIŞ.** İki alet,
+aynı proje, aynı kusur — biri düzeltilmiş öteki değil.
+🔜 BORÇ: `oner()`e aynı çare taşınacak (`arac/renk_olc.py`, koşu
+sonrası). Ve aracın uyarı **metni** de yanlış: *"en ayrık rengi verir"*
+diyor, gerçekte **hepsine neredeyse aynı rengi veriyor.**
+
+🟢 Ama ①②③ **aynı gün** yapılabilir. **KOŞU aynı gün yapılamaz**
+(~10,5 saat).
 
 ## Her adımdan sonra
 ```bash
