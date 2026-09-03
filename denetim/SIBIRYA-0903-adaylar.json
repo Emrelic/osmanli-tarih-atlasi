@@ -1,5 +1,5 @@
 {
- "_NOT": "DUNYA-SIBIRYA-0903 · 3 Eylül 2026 · ARAŞTIRMA turu çıktısı. Bu bir KUYRUK dosyasıdır, VERİ DEĞİLDİR (M-2413 ②: `bos:` beş kova veri alanı, kuyruk sınıfları denetim/ altında yaşar). data/ altına indirmek koordinatörün işi. Ayrıntılı gerekçe ve kaynak künyeleri: denetim/BULGU-SIBIRYA-0903.md · İKİNCİ KAYNAK TURU işlendi (3 Eylül, öğleden sonra). · ÜÇÜNCÜ TUR: 3 km sınavı · hongoray taşıyıcısı · altı halkın sınıflandırması. · DÖRDÜNCÜ KAYNAK TURU. · BEŞİNCİ TUR: ölçüt zaman körü (M-2472) kutuda ölçüldü. · ALTINCI TUR: M-2478'in 1300 ayrımı. · YEDİNCİ TUR: Ural bloğu ölçüldü, TDV slug taraması, iki zonun gerekçesi. · SEKİZİNCİ TUR: Ural üç-devlet ölçümü · taşıyıcı sınavları. · DOKUZUNCU TUR: YERLİ GORODOK KOLU birinci parti. · ONUNCU TUR: gorodok 2. parti + iki öz-çürütme.",
+ "_NOT": "DUNYA-SIBIRYA-0903 · 3 Eylül 2026 · ARAŞTIRMA turu çıktısı. Bu bir KUYRUK dosyasıdır, VERİ DEĞİLDİR (M-2413 ②: `bos:` beş kova veri alanı, kuyruk sınıfları denetim/ altında yaşar). data/ altına indirmek koordinatörün işi. Ayrıntılı gerekçe ve kaynak künyeleri: denetim/BULGU-SIBIRYA-0903.md · İKİNCİ KAYNAK TURU işlendi (3 Eylül, öğleden sonra). · ÜÇÜNCÜ TUR: 3 km sınavı · hongoray taşıyıcısı · altı halkın sınıflandırması. · DÖRDÜNCÜ KAYNAK TURU. · BEŞİNCİ TUR: ölçüt zaman körü (M-2472) kutuda ölçüldü. · ALTINCI TUR: M-2478'in 1300 ayrımı. · YEDİNCİ TUR: Ural bloğu ölçüldü, TDV slug taraması, iki zonun gerekçesi. · SEKİZİNCİ TUR: Ural üç-devlet ölçümü · taşıyıcı sınavları. · DOKUZUNCU TUR: YERLİ GORODOK KOLU birinci parti. · ONUNCU TUR: gorodok 2. parti + iki öz-çürütme. · ON BİRİNCİ TUR: gorodok 3. parti.",
  "oturum": "DUNYA-SIBIRYA-0903",
  "kutu": {
   "latG": 50,
@@ -53,7 +53,9 @@
   "emder": "Эндырское I (Эмдер) gorodişçesi — 1992'den beri kazılıyor (S. Kokşarov · A. Zıkov, Yekaterinburg). ⚠️ Bölgesel/ansiklopedik kaynaklardan derlendi, HAKEMLİ makale gövdesi OKUNMADI",
   "koda": "Kodskoye knyazhestvo — ansiklopedik/bölgesel kaynaklar (knowledge.su · BSE · AiF-Yugra). 🟡 HAKEMLİ DEĞİL. Perevalova E.V. 2000 (Obdorsk knezleri, yamalarchaeology.ru) DNS ile ERİŞİLEMEDİ.",
   "lips-kardash2018": "Липс С.А., Кардаш О.В., «Архитектура оборонительно-жилых комплексов аборигенов Севера Западной Сибири VIII в. до н.э. — XVIII в. н.э.», Баландинские чтения, 2018 (cyberleninka, gövde okundu) — TARİHLİ gorodok listesi",
-  "kardash-vizgalov2015": "Кардаш О.В., Визгалов Г.П., «Городок Монкысь урий: К истории населения Большого Югана в XVI—XVII веках», Караван, Екатеринбург, 2015, 2 cilt"
+  "kardash-vizgalov2015": "Кардаш О.В., Визгалов Г.П., «Городок Монкысь урий: К истории населения Большого Югана в XVI—XVII веках», Караван, Екатеринбург, 2015, 2 cilt",
+  "solodkin-yugra": "Солодкин Я.Г. (Нижневартовский гос. университет), «Из истории Югорской земли конца XVI – начала XVII веков», Вестник СурГУ — 🟢 PDF İNDİRİLDİ ve pypdf ile GÖVDESİ OKUNDU (11 sayfa, 50.556 karakter)",
+  "vedmid2014": "Ведмидь Г.П., Бочкарев Д.В., «Достопримечательное место «Барсова гора»…», Баландинские чтения, 2014 (cyberleninka, gövde okundu)"
  },
  "adaylar": [
   {
@@ -2275,6 +2277,64 @@
    "sebep": "Yerli gorodoklar da Ruslar gibi **Ob koridoruna** yığılmış — aşağı Ob, Salehard, Surgut. Orası atlasta ZATEN kapalı. 1300'ün açık hücreleri İÇ BÖLGEDE (Tunguska · Yana-Kolıma · Taymır) ve orada **hiç kimse müstahkem yerleşim kurmamış** — Lips & Kardaş'ın kendi cümlesi de bunu destekliyor: «geç ortaçağda müstahkem yerleşim sayısı belirgin azalıyor».",
    "DARALTILMIS_HUKUM": "🟢 Yerli gorodok katmanı **KİMLİK borcunu** kapatır (künye + kimin neye sahip olduğu), **KAPSAMA borcunu KAPATMAZ.** İkisi ayrı borç ve bu kol yalnız birincisine hizmet ediyor.",
    "SONUC": "⇒ 1300'ün kapsama borcu NOKTAYLA değil BEYANLA kapanır — ve bu, Emre'nin hükmüne geri dönüyor: «devasa boşluklar olacaksa olsun». Kol kapatılmalı demiyorum; **ne verdiğini ve ne VERMEDİĞİNİ** yazıyorum."
+  },
+  "⑮ UCUNCU_PARTI": {
+   "_kaynak": "solodkin-yugra — WebFetch PDF'i AYRIŞTIRAMADI, ama dosyayı diske indirdi; pypdf ile okundu",
+   "🟢 GOVDEDEN_DOGRULANANLAR": {
+    "Pelım ostrogu KOORDİNATIM DOĞRULANDI": "«Горчаков … основал крепость при впадении реки Пелыма в Тавду» — Pelım'ın Tavda'ya döküldüğü yer. Benim düzelttiğim 59,60/63,05 ile UYUMLU. ⇒ İlk listemdeki 61,02/61,98 (modern kasaba) gerçekten YANLIŞTI ve düzeltme artık kaynakla DOĞRULANMIŞ durumda.",
+    "Berezov bir YERLİ yerleşimin üstünde": "«стены и башни Березова поднялись у заброшенного остяко-вогульского поселения Сугмут-ваш (Халь-уш)» ⇒ Berezov (atlasta VAR, 63,94/65,05) terk edilmiş bir Ostyak-Vogul yerleşiminin yerinde. Narım/Yukarı Narım deseninin aynısı.",
+    "Kunovat-Lyapin knezliği": "«построил крепость на землях Куноватско-Ляпинского княжества» — Berezov o knezliğin toprağına kuruldu. ⇒ Knezlik 1593'te fiilen sona erdi.",
+    "Bardak ve Kiçey": "«поход вверх по Оби, что привело к переходу в русское подданство сургутского князя Бардака и нижненарымского князя Кичея» ⇒ İKİ knezlik daha, ve ikisinin de bitişi AYNI seferle.",
+    "Vonya'nın yenilgisi": "«разгрому владений правителя Верхнего Нарыма Вони (из объединявшей селькупов Пегой орды), старший сын которого Урунк попал в плен» ⇒ Pegaya Orda künyemin bitişi BAĞIMSIZ İKİNCİ kaynaktan doğrulandı. ⚠️ Bu makale büyük oğlu URUNK diyor; Solodkin'in ÖTEKİ makalesi oğulları Segey ve Taybohta diye anıyordu — ÇELİŞKİ DEĞİL ama AYNI DEĞİL, ikisini de kaydediyorum.",
+    "Ablegirim": "Pelım knezi, Küçüm'ün müttefiki; küçük oğlu Tautey ailesiyle Tobolsk'a götürüldü",
+    "Obskiy gorodok 1585": "«Поздней осенью 1585 г. … на правом берегу Оби, напротив устья Иртыша, возник первый русский опорный пункт в Обь-Иртышском междуречье – Обский городок»",
+    "Barsova Gora yeri": "Vedmid & Boçkarev 2014: Surgut'un 7,0 km batısı · 73°05'-73°14'D / 61°15'-61°18'K · 61 yerleşim + 200'den çok müstahkem olmayan yerleşim + 3000'den çok mesken; malzeme MÖ V. binyıldan XVII-XIX. yy'a. ⇒ TEK BİR KASABA DEĞİL, bir KOMPLEKS — atlas noktası olarak ÖNERMİYORUM."
+   },
+   "🟡 ARAMA_OZETINDEN_GOVDE_OKUNMADI": {
+    "Koda'nın tasfiyesi": "1644 — Hantı knezliklerinin BAĞIMSIZLIĞINI en son koruyanı",
+    "Konda knezliği merkezi": "Karta-uş; 1593/94 kışında Berezov hizmetlileri + Kodalı İgiçey Alaçev seferi",
+    "Bardakov gorodoku yeri": "Trom-Yugan'ın Ob'a döküldüğü yer, Surgut'tan ~30 verst",
+    "kale zinciri": "Berezov 1593 · Surgut 1594 · Narım 1598 · Ketsk 1602 · Tomsk 1604 · Makovsk 1618"
+   },
+   "YENI_NOKTA_ADAYLARI": [
+    {
+     "ad": "Obskiy gorodok",
+     "lat": 61.05,
+     "lon": 69.15,
+     "kur": "1585-01-01",
+     "kademe": "A",
+     "kaynak": "solodkin-yugra",
+     "on_sinav": "3 km: 9,8 km (Samarovo) ✓ · kara ✓",
+     "kapatma": "zamansız 0 hücre · 1600 kesitinde 2 hücre",
+     "not": "Samarovo'dan (1637) 52 yıl ÖNCE aynı kavşakta — koordinat «Ob'un sağ kıyısı, İrtiş ağzının karşısı» tarifinden TAHMİN"
+    },
+    {
+     "ad": "Bardakov gorodoku",
+     "lat": 61.3,
+     "lon": 72.9,
+     "kur": "1281-01-01",
+     "kademe": "B",
+     "kaynak": "solodkin-yugra + arama özeti",
+     "on_sinav": "3 km: 27,0 km (Surgut) ✓ · kara ✓",
+     "kapatma": "zamansız 1 hücre · 1600 kesitinde 1 hücre",
+     "not": "🔴 `bardak` künyesi YOK ⇒ BEKLET. kur:1281 ATLAS UFKU."
+    }
+   ],
+   "🔴 EVREN_YINE_DEGISTI": {
+    "olcum": "bağlı evren 2913 → 3803 (+890) — başka oturumların dosyaları indi",
+    "ders": "Bir turdaki sayı bir sonraki turda bayat. Bu partide 1600 kesitini 3803'lük evrende ölçtüm; önceki turlarımın sayıları 2913'lük evrendendi. ⇒ Kesit sayılarını rapor ederken EVREN BÜYÜKLÜĞÜ de yazılmalı."
+   }
+  },
+  "⑯ KUNYE_ADAYLARI_GUNCEL": {
+   "_not": "M-2414③ (adlandırılabilir + teritoryal + DATABLE bitiş) — üçüncü parti sonrası",
+   "hongoray": "🟢 A · 1281-1703 · ONAYLANDI",
+   "pegaya-orda": "🟢 A · 1281-1597 · İKİ bağımsız kaynak (Solodkin×2, Chindina)",
+   "koda": "🟡 B · 1484 vassal → 1644 tasfiye — bitiş yılı ARTIK VAR ama gövde okunmadı",
+   "kunovat-lyapin": "🟡 · Berezov 1593 onun toprağına kuruldu (GÖVDEDEN) — bitiş 1593 çıkarımı BENİM, kaynak öyle DEMİYOR",
+   "pelym": "🟡 · Ablegirim, Küçüm müttefiki; Pelım kalesi 1593 — bitiş yılı arama özetinden",
+   "konda": "🟡 · merkez Karta-uş, 1593/94 seferi — arama özetinden",
+   "bardak": "🟡 · Surgut knezi, Obskiy gorodok seferiyle Rus tâbiiyeti (GÖVDEDEN, YIL YOK)",
+   "🔴 HICBIRI_YAZILMAZ": "hongoray ve pegaya-orda dışındakiler için gövde okunmadı ya da bitiş yılı çıkarım. §4 gereği ARAŞTIRMA KALEMİ."
   }
  },
  "alet_kusurlari": [
