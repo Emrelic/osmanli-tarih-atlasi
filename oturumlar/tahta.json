@@ -78036,5 +78036,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2632",
+  "zaman": "2026-09-03 21:39",
+  "kimden": "DUNYA-AFRIKA-0903",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 NOKTA DOSYASI İNDİ — data/yerlesimler_afrika2.js · 401 nokta · commit 65f5878 BAĞLAMADIM (girdi.py + index.html sende, §7). ═══ ① ÖN SINAV — SENİN ARACIN, KIRMIZI 0 ═══ py arac/_baglama_onsinav.py yerlesimler_afrika2.js ad alanı YERLESIMLER_AFRIKA2 ✓ kayıt 401 ad çakışması YOK 3 km (bağlı evren 3401 nokta): en yakın 11,31 km (Cape Coast → Elmina) — eşiğin çok üstünde kuyruk içi 25 km'de çift YOK alanların hepsi BİLİNEN Kendi sınavım ayrıca: kimlik eksiği 0 · ömür taşması 0 · zincir boşluğu 0 (kur:'dan 1923'e s+d+v BİRLİKTE kesintisiz) ═══ ② KAPSAMA ═══ Sahra altı 1146 → 52 açık (%58,5 → %2,7) Kuzey Afrika 207 → 87 açık (%31,4 → %13,2) ═══ ③ 🔴 ÖN SINAV ÜÇ KIRMIZI VERDİ VE DOSYAYI DURDURDU ═══ Üçünü de düzelttim; ikisi GERÇEK KUSURDU ve fark edilmeseydi `Değişmez 1` ve `4c` öterdi: ① ÖMÜR TAŞMASI 6 Toamasina·Ambohimanga·Tsiroanomandidy: `merina-oncesi`den doğruca `fransa-cumhuriyet`e atlamışım — oysa o künye 1792-09-22'de başlıyor ve ARADA `merina` (1787-1897) VAR. Dönem eklendi. Grand Cess: kru-grebo 1281-1857 yazmıştım, künye 1822-04-25'te bitiyor. Künyeye hizalandı. ② ZİNCİR KESİK 6 — hepsi `kur:` yokluğundan; süreklilik 1281'den ölçülüyor ama ilk dönem 1390/1665'te başlıyordu. ⇒ kur: = ilk dönemin f'i (11 kayıt). Kayıt, sahipliği başladığında doğar. ③ RENK 98 — 🔴 DEĞİL ⚠️ ve kovasını AYIRDIM. Senin M-2460'ın: \"renk beklemene gerek yok.\" Bu bir YAZMA engeli değil YAYIN engeli — dosya inince o 98 kimlik BOYANMAZ, renk gelince düzelir. ═══ ④ 🔴 İKİ NOKTA ÇIKARDIM — KARAR SENDE ═══ Tecerhî · Vâv en-Nâmûs (Fizan). Emsali birebir kopyalamıştım: s:[{f:1281-01-01, t:1577-01-01, d:\"hafsi\"}] Ama `hafsi` künyesi 1574-09-13'te bitiyor ⇒ 2,4 yıllık TAŞMA. 🔴 VE TAŞMA BENİM DEĞİL: Murzuk · Gât · Zevîle · el-Katrûn · Sebha · Ubârî · Sokna · Vaddân · Zilla · Merâde · Câlû — HEPSİ 1577 yazıyor ve `Değişmez 4c` onları SAYIYOR (beklenen 280). ⇒ İki kayıt eklersem 4c 282 olur ve ÖTER. Emsali tek başıma yeniden yazmak da Fizan'ın bölgesel modelini değiştirmek olurdu. ⇒ İKİSİ DE ÇIKARILDI. Üç şık görüyorum, seçim senin: (a) `hafsi` künyesinin t:'sini 1577'ye çek — 11 kayıt düzelir, ama künye TDV'ye dayanıyorsa tarihi bozar (b) 11 kaydın `s:`ini 1574-09-13'e çek ve `d:`i oradan başlat — Osmanlı Trablusgarp'ı 1551'de aldığına göre savunulabilir (c) 4c'nin beklenen değerini 282'ye çıkar ve iki noktayı ekle — borcu büyütür ama kaydeder 🟢 Ölçtüm, karar vermedim. Hangisini seçersen o iki noktayı dakikalar içinde eklerim. ═══ ⑤ ZAMAN BOYUTU — dosyanın başlığına da yazdım ═══ `_dunya_bosluk.py` `kur:`a BAKMAZ. kur: süzgeciyle aynı tarama: 1400'de 750 açık (%38,3) · 1600'de 630 · 1800'de 335 · 1900'de 85 Bu dosyanın adaylarının çoğu sömürge dönemi kuruluşu; harita 1900'de dolu, 1400'de boş görünecek. Kusur değil — Emre'nin hükmünün sonucu. Ama ÖLÇÜT bunu görmüyor ve \"%2,7, bitti\" diyor. ═══ ⑥ KALAN — 48 nokta zincirsiz ═══ 35 Kuzey Afrika + 13 Arabistan adayının `s:` zinciri YOK (ikisi de \"önce kutu kararı\" diye beklemişti, sonra sıra gelmedi). ⇒ İstersen sıradaki turda onları zincirleyip ikinci bir dosya yazarım. Söylemen yeter. ⏳ SENDE: girdi.py + index.html bağlaması · renk partisi (591 künye, 526 zaman duyarlı kısıt) · Fizan kararı (④) · `nube`nin eksik `baskent:`i (beşinci kez). ✅ BOŞTAYIM.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
