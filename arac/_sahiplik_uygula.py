@@ -81,8 +81,14 @@ for (const k of Object.keys(global.window)) {
     //   "skaler yamaları destekliyor" sanılacak, ve yazılan her `m:`
     //   yaması SESSİZCE hiçbir şey yapmayacaktı — tam da bu betiğin
     //   önlemek için var olduğu kusur.
+    // 🔴 2 Eylül 2026 — SÜZGEÇ YİNE GENİŞLETİLDİ, AYNI SEBEPTEN.
+    //   `bos:`/`neden:`/`not:` eklenmeden önce bu satır onları da elerdi:
+    //   yalnız bu üç alanı taşıyan (d/s/v/isg/m/kaynak'sız) bir kayıt
+    //   Python'a HİÇ ULAŞMAZDI — "SÜZGEÇ 1"in ta kendisi, iki alan ötede.
     if (r && r.ad !== undefined &&
-        (r.d || r.s || r.v || r.isg || r.m !== undefined || r.kaynak !== undefined)) {
+        (r.d || r.s || r.v || r.isg || r.m !== undefined ||
+         r.kaynak !== undefined || r.bos !== undefined ||
+         r.neden !== undefined || r.not !== undefined)) {
       cik.push({ __dosya: kaynak[k] || '?', __alan: k, r: r });
     }
   }
@@ -235,7 +241,17 @@ for x in yama:
 #     bir liste AYRIŞIR (`§11`: "bir bilgi iki yerde duruyorsa biri
 #     güncellenince öteki bayatlar") — o yüzden aşağıdaki tanım bu
 #     satırla SINANIYOR, ve ayrışırsa betik DURUYOR (en altta assert).
-CATISABILIR = ("d", "s", "v", "isg", "m", "kaynak")
+#
+# 🔴 2 Eylül 2026 — `bos` · `neden` · `not` EKLENDİ (1.MURAT sevki,
+#   Timbuktu 1430-1468 vakası — `denetim/BULGU-S121-YAMA-ALAN.md`).
+#   Bu üçü de artık SKALER_ALANLAR'da (aşağı bak); ikisi ayrışmasın diye
+#   BURAYA da eklendi. ⇒ İki yama aynı `bos:`i FARKLI değerle yazarsa
+#   TAM ÇAKIŞMA sayılır (bloke), `kaynak`ın "yalnız o alan ayrışıyorsa
+#   veriyi geçir" istisnası bunlara UYGULANMADI — bir BEYAN alanında
+#   hangisinin doğru olduğu, dosya adının alfabetik sırasıyla da
+#   sessizce geçmekle de belirlenemez (1.MURAT'ın sevki, ölçülmedi
+#   çünkü bugünkü yamalarda bu üç alan hiç çakışmıyor — aşağıya bak).
+CATISABILIR = ("d", "s", "v", "isg", "m", "kaynak", "bos", "neden", "not")
 
 cakisan = {}
 cakisan_alan = {}
@@ -292,6 +308,19 @@ for ad, liste in gruplu.items():
     #
     # ⚠️ `kaynak` `CATISABILIR`den ÇIKARILMADI — `assert` onu bekliyor
     #    (satır ~298) ve iki listenin ayrışmasını o assert koruyor.
+    #
+    # 🔴 2 Eylül 2026 — BU İSTİSNA `bos`/`neden`/`not`E BİLEREK TAŞINMADI.
+    #   1.MURAT'ın sorusu: "iki yamada `bos:` farklıysa çatışma sayılmalı
+    #   mı?" Cevap EVET — `kaynak`la aynı gerekçe DEĞİL: `kaynak` ayrışması
+    #   VERİYİ değiştirmiyordu (geometri tartışmasızdı, yalnız BELGE
+    #   sorusu açıktı). `bos`/`neden` bizzat BEYANIN KENDİSİ — ikisi
+    #   çelişirse "hangi yerleşim neden sahipsiz" sorusunun tartışmasız
+    #   bir cevabı YOK, sessizce birini seçmek ALFABETİK KAZAYA döner.
+    #   ⇒ Yalnız `== ["kaynak"]` ise bu dala düşer; `bos`/`neden`/`not`
+    #   ayrışması `elif catisan_alanlar:` dalına gider ve TAM ÇAKIŞMA
+    #   sayılır (bloke). ÖLÇÜLDÜ: bugünkü yamalarda bu üç alanın hiçbiri
+    #   hiçbir addA ayrışmıyor (`denetim/BULGU-S121-YAMA-ALAN.md`) — yani
+    #   bu dal bugün ATEŞLENMİYOR, karar SAHTE GİRDİYLE sınandı.
     if catisan_alanlar == ["kaynak"]:
         kaynak_ayrisan.append(ad)        # veri iner, `kaynak` YAZILMAZ
     elif catisan_alanlar:
@@ -332,6 +361,16 @@ ALAN_RX = {a: re.compile(r'(\b%s:\s*)\[' % a) for a in ("d", "s", "v", "isg")}
 #   `CLAUDE.md §7`: *"denetimler 'yama UYGULANDI mı' diye sorar, 'yama
 #   OKUNDU mu' diye SORMAZ."* Aynı boşluk, iki alan ötede.
 #
+# 🔴🔴 2 Eylül 2026 — `bos` · `neden` · `not` EKLENDİ, Timbuktu vakası.
+#   `Değişmez 1b`nin TEK beyansız boşluğu Timbuktu (1430-1468, 13.879 gün)
+#   idi — ama beyan ZATEN YAZILMIŞTI (`data/yer_yama_ok107.js`, kaynaklı):
+#     bos:"veri-yok", neden:"kunye-yok — ...", not:"H-0013 · ..."
+#   Yamayı yazan oturum bunu ÖNCEDEN uyarmıştı ("bu alanlar İNMEZ; dosya
+#   sahibinin elle koyması gerekiyor") — uyarı okunmadı, öngördüğü kusur
+#   gerçekleşti: `d·s·v·isg·m·kaynak` indi, `bos·neden·not` SESSİZCE düştü.
+#   ⇒ Bu üç alan SKALER (dizi değil, tek dize) ve dizi mantığı (`ALAN_RX`)
+#   onlarda ÇALIŞMAZ — `m`/`kaynak`'ın doğuş sebebinin BİREBİR tekrarı.
+#
 # ⚠️ ARALARINDAKİ FARK KASITLI:
 #   m:      ÜZERİNE YAZILIR    — bir kaydın tek bir bağlı merkezi olur;
 #                                yamanın amacı zaten onu düzeltmek
@@ -339,7 +378,18 @@ ALAN_RX = {a: re.compile(r'(\b%s:\s*)\[' % a) for a in ("d", "s", "v", "isg")}
 #                                bir dayanağı silmektir. Yalnız BOŞSA yazılır;
 #                                doluysa `kaynak-dolu` diye sayılır ve
 #                                ATLANIR. Değiştirmek isteyen ELLE yapar.
-SKALER_ALANLAR = ("m", "kaynak")
+#   bos/neden/not: ÜZERİNE YAZILMAZ — `kaynak`la AYNI GEREKÇE: ikisi de
+#                                bir ARAŞTIRMACI BEYANI taşır (261 kayıtta
+#                                `data/yerlesimler*.js` içine ELLE yazılmış
+#                                hâlde zaten VAR — ölçüldü). Sessizce
+#                                ezmek, "kimse bu yeri araştırmadı" ile
+#                                "biri araştırdı ve şu sonuca vardı"
+#                                arasındaki farkı SİLER. `kaynak`ın aynı
+#                                korumasını `SKALER_KORUNAN`da paylaşıyor.
+SKALER_ALANLAR = ("m", "kaynak", "bos", "neden", "not")
+# ÜZERİNE YAZILMAYAN skalerler — yalnız BOŞSA doldurulur, DOLUYSA atlanır.
+# `m` bilerek DIŞARIDA: onun sözleşmesi tersi (bkz. yukarı).
+SKALER_KORUNAN = ("kaynak", "bos", "neden", "not")
 # 🔴 İKİ LİSTE AYRIŞMASIN — `CATISABILIR` yukarıda elle yazılı (o blok bu
 #   satırdan ÖNCE koşuyor). Bir bilgi iki yerde durunca biri güncellenip
 #   öteki bayatlar; bu `assert` o bayatlamayı SESSİZ olmaktan çıkarır.
@@ -552,12 +602,14 @@ for ad, liste in sorted(gruplu.items()):
         m = SKALER_RX[alan].search(yeni_satir)
         mn = SKALER_NULL_RX[alan].search(yeni_satir)
         if m:
-            # 🔴 `kaynak:` DOLUYSA EZİLMEZ — doğrulanmış dayanağı silmek,
-            #   eksik dayanaktan kötüdür. Sessizce geçmez, SAYILIR.
-            if alan == "kaynak" and m.group(2).strip():
-                ist["kaynak-dolu"] += 1
-                atlanan.append((ad, "kaynak: ZATEN DOLU, ezilmedi — "
-                                    "değiştirmek isteyen elle yapar"))
+            # 🔴 KORUNAN ALANLAR (`kaynak`/`bos`/`neden`/`not`) DOLUYSA
+            #   EZİLMEZ — doğrulanmış bir beyanı silmek, eksik beyandan
+            #   kötüdür. Sessizce geçmez, SAYILIR. (`m` bilerek dışarıda —
+            #   onun sözleşmesi tersi, bkz. `SKALER_KORUNAN` tanımı.)
+            if alan in SKALER_KORUNAN and m.group(2).strip():
+                ist["%s-dolu" % alan] += 1
+                atlanan.append((ad, "%s: ZATEN DOLU, ezilmedi — "
+                                    "değiştirmek isteyen elle yapar" % alan))
                 continue
             yeni_satir = (yeni_satir[:m.start()] + m.group(1)
                           + js_metin(deger) + yeni_satir[m.end():])

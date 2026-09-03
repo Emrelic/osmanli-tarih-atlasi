@@ -1,0 +1,5 @@
+// renk_olc.py --oner çıktısı — aktarımdan SONRA:
+//   py arac/renk_olc.py --dogrula oneri-20260903-010432.txt
+varsova-dukaligi #242ad2
+kongre-polonyasi #2430d2
+transkafkasya #2436d2
