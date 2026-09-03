@@ -1825,5 +1825,198 @@
   },
   "UFA_KARARI": "🟢 Koordinatörün hükmü alındı: Ufa kur:1574, geriye çekilmez. Taşıyıcı AYRI `tur:'bolge'` noktaları olacak.",
   "BEYAN_MI_ZINCIR_MI": "🟢 ZİNCİR — beyan DEĞİL. Kaynak toprağın SAHİPLİ olduğunu söylüyor (Altın Orda → Nogay/Kazan/Sibir → Rusya). `bos:` yazmak, sahipli bir toprağı sahipsiz ilan etmek olurdu. `Buryat toprakları` kalıbı."
+ },
+ "YAZILACAK_KAYITLAR": {
+  "_not": "Koordinatör `data/`yı açınca uygulanacak TAM BİÇİM. Ad ve 3 km sınavları BU DOSYA ÜRETİLİRKEN koşuldu; hepsi temiz. Hedef: data/yerlesimler_sibirya2.js · window.YERLESIMLER_SIBIRYA2",
+  "_onaylar": {
+   "Açinsk": "M-2529 ①",
+   "Ural s: değil v:": "M-2529 ②",
+   "üç Ural taşıyıcısı": "M-2529 ③",
+   "hongoray taşıyıcısı": "M-2523 ④",
+   "Çukotka kabile": "M-2523 ④"
+  },
+  "YENI_NOKTALAR": [
+   {
+    "ad": "Hongoray (Yenisey Kırgız ulusları)",
+    "tur": "bolge",
+    "lat": 53.9,
+    "lon": 90.6,
+    "s": [
+     {
+      "f": "1281-01-01",
+      "t": "1703-01-01",
+      "d": "hongoray"
+     },
+     {
+      "f": "1707-01-01",
+      "t": "1917-03-15",
+      "d": "rusya"
+     },
+     {
+      "f": "1917-03-15",
+      "t": "1917-11-07",
+      "d": "rusya-gecici-hukumet"
+     },
+     {
+      "f": "1917-11-07",
+      "t": "1923-10-29",
+      "d": "sovyet-rusya"
+     }
+    ],
+    "kasitli_bosluk": true,
+    "bos": "devletsiz",
+    "neden": "PENCERE BEYANI 1703-1707: Cungar hanı Tsevang Rabdan 1703 yazında Hongoray nüfusunun büyük kısmını (15-20 bin kişi) Cungarya'ya sürdü ve Hongoray'ı bağımsız siyasî yapı olarak ortadan kaldırdı; havzayı Kaçin·Motor-Koybal·Sagay·Beltir grupları doldurdu ama merkezî devlet 1707 Abakan ostroguna kadar YOKTU.",
+    "kaynak": "Чертиков М.А., Вестник Томского гос. университета 2009 (gövde okundu): «Данное переселение было осуществлено летом 1703 г.» — GÜN yok, §4 gereği 1703-01-01. + cyberleninka Hakasya şehirleri makalesi (1707 Abakan · 1709 Sayan ostrogu)",
+    "_ROL": "hongoray künyesinin TAŞIYICISI — 0 hücre kapatır, ve bu KUSUR DEĞİL"
+   },
+   {
+    "ad": "Zaural Başkurt toprakları",
+    "tur": "bolge",
+    "lat": 54.0,
+    "lon": 62.5,
+    "s": [
+     {
+      "f": "1281-01-01",
+      "t": "1430-01-01",
+      "d": "altinorda"
+     },
+     {
+      "f": "1430-01-01",
+      "t": "1598-08-20",
+      "d": "sibir-hanligi"
+     },
+     {
+      "f": "1598-08-20",
+      "t": "1917-03-15",
+      "d": "rusya"
+     },
+     {
+      "f": "1917-03-15",
+      "t": "1917-11-07",
+      "d": "rusya-gecici-hukumet"
+     },
+     {
+      "f": "1917-11-07",
+      "t": "1923-10-29",
+      "d": "sovyet-rusya"
+     }
+    ],
+    "kaynak": "cyberleninka: «зауральских родов башкир, оказавшихся в сфере непосредственного подчинения правителям Сибирского ханства» — Zaural Başkurt boyları doğrudan Sibir hanlarına tâbiydi. Zincir atlasın `Tümen (Çimgi-Tura)` kaydıyla BİREBİR AYNI (emsal).",
+    "_ROL": "1300'de açık 17 blok hücresinin 6'sını örter"
+   },
+   {
+    "ad": "Başkurt toprakları (İdil-Ural)",
+    "tur": "bolge",
+    "lat": 56.0,
+    "lon": 58.5,
+    "s": [
+     {
+      "f": "1281-01-01",
+      "t": "1502-01-01",
+      "d": "altinorda"
+     },
+     {
+      "f": "1502-01-01",
+      "t": "1555-01-01",
+      "d": "nogay"
+     },
+     {
+      "f": "1555-01-01",
+      "t": "1917-03-15",
+      "d": "rusya"
+     },
+     {
+      "f": "1917-03-15",
+      "t": "1917-11-07",
+      "d": "rusya-gecici-hukumet"
+     },
+     {
+      "f": "1917-11-07",
+      "t": "1923-10-29",
+      "d": "sovyet-rusya"
+     }
+    ],
+    "kaynak": "cyberleninka Başkurt makaleleri — katılma BOY BOY: 1554-55 batı · 1555 Min ve Yurmatı · ≤1556 Burzyan/Kıpsak/Userğan/Tamyan · 1556-57 merkez-doğu · XVI. yy sonu-XVII. yy başı kuzeydoğu. ⚠️ KAYNAĞIN KENDİ DAMGASI: «1557 г., отмечаемый как год присоединения Башкирии к России, — в значительной мере УСЛОВНОСТЬ, вызванная абсолютизацией Никоновской летописи» ⇒ 1557 bir OLAY DEĞİL bir KONVANSİYONDUR. 1555-01-01 seçildi ve bu SEÇİM kayıtlıdır. Tâbiiyet nüansı: Başkurtlar Nogay'a TÂBİ idi, doğrudan idare değil — `v:` yazılamadı çünkü atlas `v:` içindeki `d:`yi okumuyor (MIMARI.md §3.6, model sınırı).",
+    "_ROL": "5 hücre örter"
+   },
+   {
+    "ad": "Güney Başkurt bozkırı",
+    "tur": "bolge",
+    "lat": 52.0,
+    "lon": 58.0,
+    "s": [
+     {
+      "f": "1281-01-01",
+      "t": "1502-01-01",
+      "d": "altinorda"
+     },
+     {
+      "f": "1502-01-01",
+      "t": "1555-01-01",
+      "d": "nogay"
+     },
+     {
+      "f": "1555-01-01",
+      "t": "1917-03-15",
+      "d": "rusya"
+     },
+     {
+      "f": "1917-03-15",
+      "t": "1917-11-07",
+      "d": "rusya-gecici-hukumet"
+     },
+     {
+      "f": "1917-11-07",
+      "t": "1923-10-29",
+      "d": "sovyet-rusya"
+     }
+    ],
+    "kaynak": "cyberleninka Başkurt makaleleri — katılma BOY BOY: 1554-55 batı · 1555 Min ve Yurmatı · ≤1556 Burzyan/Kıpsak/Userğan/Tamyan · 1556-57 merkez-doğu · XVI. yy sonu-XVII. yy başı kuzeydoğu. ⚠️ KAYNAĞIN KENDİ DAMGASI: «1557 г., отмечаемый как год присоединения Башкирии к России, — в значительной мере УСЛОВНОСТЬ, вызванная абсолютизацией Никоновской летописи» ⇒ 1557 bir OLAY DEĞİL bir KONVANSİYONDUR. 1555-01-01 seçildi ve bu SEÇİM kayıtlıdır. Tâbiiyet nüansı: Başkurtlar Nogay'a TÂBİ idi, doğrudan idare değil — `v:` yazılamadı çünkü atlas `v:` içindeki `d:`yi okumuyor (MIMARI.md §3.6, model sınırı).",
+    "_ROL": "5 hücre örter"
+   }
+  ],
+  "MEVCUT_KAYIT_DUZELTMELERI": [
+   {
+    "kayit": "Çukotka merkezi",
+    "dosya": "data/yerlesimler_sibirya.js",
+    "degisiklik": "bos:\"devletsiz\" → bos:\"kabile\"",
+    "onay": "M-2523"
+   },
+   {
+    "kayit": "Koryak toprakları",
+    "dosya": "data/yerlesimler_sibirya.js",
+    "degisiklik": "bos:\"veri-yok\" → bos:\"kabile\"",
+    "kaynak": "Zuev (NSU): yasak «son derece istikrarsız… bir kısmı HİÇ ödemedi»"
+   },
+   {
+    "kayit": "Kamçatka (İtelmen toprakları)",
+    "dosya": "data/yerlesimler_ek31.js",
+    "degisiklik": "🔴 İKİ ALAN BİRLİKTE: bos:\"veri-yok\" → bos:\"devletsiz\" VE tur:\"bolge\" → \"bolge\" DEĞİL",
+    "uyari": "Yalnız `bos:` değişirse türetme çalışmaz, cins `devletsiz` olur ve toprak KOMŞUYA KATILIR — çürütülmek istenenin TERSİ",
+    "kaynak": "Krasheninnikov 1755: «не имели никаких над собой начальников» + müstahkem острожки"
+   },
+   {
+    "kayit": "Buryat toprakları (Selenge havzası)",
+    "dosya": "data/yerlesimler_sibirya.js",
+    "degisiklik": "s: 1281-01-01→1631 kuzey-yuan  ⇒  1281-01-01→1368-09-14 yuan-hanedani · 1368-09-14→1631-01-01 kuzey-yuan",
+    "gerekce": "ÖMÜR KAPISI İHLALİ: kuzey-yuan künyesi f:1368-09-14; 87,7 yıllık hayalet. 19 kuzey-yuan döneminin İHLAL EDEN TEK KAYDI."
+   },
+   {
+    "kayit": "Selenginsk",
+    "dosya": "?",
+    "degisiklik": "bos:\"veri-yok\" KALDIRILIR; s: 1281-01-01→1368-09-14 yuan-hanedani · 1368-09-14→1665-01-01 kuzey-yuan · 1665-01-01→ rusya",
+    "kaynak": "cyberleninka: Hori Buryatları Setsen Han'ın haraçgüzâr tebaası, yardımcı asker veriyor; orta Selenge'ye Tabangut Moğol grupları iskân edilmiş ⇒ kaynak SUSMUYOR",
+    "uyari": "`s:` seçimi ZORUNLULUK (M-2529 ②): atlas `v:` içindeki `d:`yi okumuyor, `v:` yazılırsa arayüz «Osmanlı» gösterir. Tâbiiyet nüansı `kaynak:`ta."
+   },
+   {
+    "kayit": "Açinsk (aday)",
+    "degisiklik": "56,27/90,50 · kur:1641-01-01",
+    "kaynak": "Скобелев С.Г., Чуриков Р.С., Вестник НГУ 2010. ⚠️ MAKALE 1641 OSTROGUNUN YERİNİ TARTIŞIYOR: modern Açinsk'te değil, Çulım kıyısında Balahta civarında (~55,4/91,6) aranması gerektiğini savunuyor. Fark ~120 km. Modern koordinat SEÇİLDİ (M-2529 ①); BEDELİ: 1641 tarihi ~120 km yanlış yere düşebilir."
+   }
+  ],
+  "ORTULEMEYEN": {
+   "hucre": "57K/62D (1 hücre)",
+   "not": "Üç taşıyıcı 17 blok hücresinin 16'sını örtüyor. Dördüncü nokta EKLENMEDİ — bir hücreyi sıfırlamak için nokta uydurmak, ölçütü hedef fonksiyonuna çevirmek olurdu (M-2512)."
+  }
  }
 }
