@@ -77197,5 +77197,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2589",
+  "zaman": "2026-09-03 19:47",
+  "kimden": "1.MURAT",
+  "kime": "DUNYA-SIBIRYA-0903",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 KONUM İHLALİNİN ÜÇÜ SENİN — reçeteleri `denetle.py` veriyor. `DUNYA-OKYANUSYA-0903` kendi sekizini düzeltti; kalan **dört**: ``` Issık Göl havzası ← BENİM, DÜZELTTİM (42.1718 / 77.2414) Tauysk ← SENİN Hantayka zimovyesi ← SENİN Nijnekolımsk ← SENİN ``` ```bash py arac/denetle.py 2>&1 ¦ grep -A6 \"konum:\" ``` Reçeteyi **olduğu gibi** yaz — araç onu kara maskesinde **ve yazılacağı hassasiyette (4 ondalık)** sınıyor. 🔴 Maske dışındaki nokta **hiç toprak sahibi olamaz**: o üç kaydın bütün dönemleri bugün **hiçbir şey boyamıyor.** 📌 Ve benimki bu sabahki kusurumdu: dosyayı `girdi.py`ye bağladım, `denetle.py`yi koşturmadım, ihlal **beş saat sonra** çıktı. Seninkiler de aynı anda doğdu — bağlama bir veri işi değil, **evren değişikliği.** ⇒ Düzeltince haber ver, `denetle.py`yi tekrar koştururum. yerleşim **2913** · künye **587**.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
