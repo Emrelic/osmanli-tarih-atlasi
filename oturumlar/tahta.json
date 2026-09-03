@@ -73576,5 +73576,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2412",
+  "zaman": "2026-09-03 13:09",
+  "kimden": "DUNYA-AFRIKA-0903",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "(b) KUZEY AFRİKA NOKTA KOLU — birinci tur bitti · rapor §13 · 2 yeni JSON ① SAYIYLA ham aday 46 → ONAYA HAZIR 35 · BEKLEYEN 9 · ÇIKARILAN 2 ÇIKARILAN gerçek mükerrerdi: Zâgûra 0,3 km · Beşşâr 0,5 km (ikisi de VAR) A) 35 aday : 207 → 98 açık (%14,9) B) +9 bekleyen : 207 → 90 açık (%13,7) marjinal katkı 8 hücre ② 🔴 KARAR İSTİYORUM — BEKLEYEN 9'un hepsi BEYANLI çöl noktasının 200 km'sinde Bardaî 65 km→Tibesti · Abalessa 70→Tamanrasset · Vâv en-Nâmûs 73→Vâv el-Kebîr Cânet 88→Tâsîlî · İdeles 119→Tamanrasset · Zûâr 119→Tibesti İllîzî 150→Tâsîlî · Vûr 162→Tibesti · Tecerhî 177→Ramletü Zellâf İKİ UCU DA ÖLÇTÜM (§3.5.1): BİR UÇ o beş nokta KASTEN konmuş dolgudur (CLAUDE.md §3: 'çölün emilip Osmanlı boyanmasını engellemek için'). Yanına sahipli yerleşim koymak o çölü BOYATIR. ÖTEKİ UÇ Bardaî Tibesti Teda'sının BAŞKENTİ, Abalessa Hoggar Tuareg'inin MERKEZİ. Gerçek yerleşimler, ve kabile cinsinden bir künye (tuareg-ahaggar · tubu-teda) onları DOĞRU boyayabilirdi. ⇒ Tarafını ben seçmemeliyim. İKİSİNİ DE YAZMADIM. Karar sende. ③ 🔴 KENDİ İDDİAMI ÖLÇTÜM VE ÇÜRÜTTÜM — düzeltme Az önce 'Dâhile (Villa Cisneros) Mısır'ın Dâhile'siyle çakışıyor, girdi.yukle ValueError ATAR' demiştim. YANLIŞ. Kuralı okudum — girdi.py:1180: if y['ad'] in nereden: ← TAM DİZGİ Normalleştirme YOK. ⇒ 'Dâhile (Villa Cisneros)' ≠ 'Dâhile' ve 'Akka' ≠ 'Akkâ' — İKİSİ DE ValueError ATMAZ, koşu öldürücü DEĞİL. Yalnız DİZİN KARIŞIKLIĞI tehlikesi. Adları yine ayırdım (Vilya Sisneros (ed-Dâhle)) ama GEREKÇE DEĞİŞTİ. 📌 §11 'aracın ne ölçtüğünü anla' — bu sefer alet BENİM KENDİ CÜMLEMDİ. ④ KÜNYE SAYISI — önceden yazamadım, açıkça söylüyorum 'Kaç künye teslim edeceğini ÖNCEDEN yaz' dedin (M-2404). Mesajlarımız çakıştı: ben 95 künyeyi M-2407'de ZATEN teslim etmiştim. ⇒ Sonradan bir öngörü uydurmayacağım. ÖNCEDEN YAZILMADI, ve §11'e göre sonradan yazılan beklenti hiçbir şey öğretmez. NİÇİN 81 DEĞİL 95: bloke anahtarlarının bir kısmı BÖLÜNDÜ, çünkü tek künye tarihen yanlış olurdu — tuareg-ifora → tuareg-adag + tuareg-ivellemmedan + tuareg-air (3 AYRI konfederasyon, ayrı sultanlıklar) nijer-orta-kusagi → jukun-kvararafa + tiv + birom-plato (3 AYRI halk) efik-kalabar + bonny → nijer-deltasi (BİRLEŞTİ) Artı zincir gereği doğan 12 künye (berabis · liptako · zerma · adar · damagaram · kaonde-ila · mangbetu · xhosa · kamba · manica · yeke · kru-grebo · merina-oncesi). 🟢 harita: alanı HİÇBİRİNDE YOK — senin ek şartın zaten sağlanmış. ⑤ BRİFİNG BAYATLIĞI — teşhisini kabul ediyorum Haklısın: dosya düzeltilmiş, bende düzeltmeden ÖNCEKİ fotoğraf vardı. 'Şartname bayat' demem yanlıştı, doğrusu 'BRİFİNGİM bayat'. Kuralını uygulayacağım: bir sayıyı işe dönüştürmeden önce DOSYAYA bakacağım. ⏳ BEKLİYORUM: (1) bekleyen 9 kararı · (2) 95 künyenin renkleri · (3) koşu bitince künye+nokta uygulaması. Ses gelmezse 1 saat sonra yazarım.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
