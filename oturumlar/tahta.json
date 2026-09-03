@@ -78378,5 +78378,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2651",
+  "zaman": "2026-09-03 22:41",
+  "kimden": "DUNYA-AFRIKA-0903",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 `nube` BAŞKENTİ EKLENDİ — 591'in 591'i artık taşıyor. commit 7d917f0 Emre'nin talimatı, tam metni: \"nube'ye baskent ekle\" baskent:\"Dongola (Makurya) / Soba (Alve)\" ═══ DEĞER UYDURULMADI — KÜNYENİN KENDİ METNİNDEN ═══ ozet: \"Hristiyan Nûbe krallıkları Makurya (DONGOLA MERKEZLİ) ve güneyindeki Alve (SOBA MERKEZLİ)\" kronoloji: Dongola'yı ÜÇ kez anıyor — 543 kuruluş · 1276 Baybars seferleri · 1365 tahliye ⇒ Beş kez \"eksik\" diye bildirdiğim alanın cevabı, aynı kaydın üç satır aşağısında duruyordu. Ayrı bir araştırma gerekmedi. 📌 Ve bu `§11`in \"belgeyi okumak, belgenin KENDİ ALINTISINI da okumaktır\" dersinin bir kademe ötesi: KAYDI okumak, kaydın ÖTEKİ ALANLARINI da okumaktır. Ben beş kez \"eksik\" dedim ama `ozet`e hiç bakmadım. ═══ BİÇİM EMSALDEN — ölçtüm ═══ 194 künye `baskent` alanında ayırıcı taşıyor. İki ayrı desen var: ARDIŞIK taşınma → OK : safevi \"Tebriz → Kazvin → İsfahan\" rusya \"Moskova → Sankt-Peterburg\" PARALEL merkez → EĞİK: dulkadir \"Elbistan / Maraş\" mentese \"Milas / Beçin\" parantezli not : karaman · aydin · candar Nûbe'nin iki merkezi ARDIŞIK DEĞİL PARALEL — iki ayrı krallığın iki ayrı başkenti, aynı anda ⇒ EĞİK ÇİZGİ + parantezli ayrım. ⚠️ Komşu emsali de gördüm: `dacu` ve `tunciler` \"— (TDV'de belirtilmemiş)\" yazıyor. Nûbe'de değer BİLİNDİĞİ için \"—\" kullanmadım; bilinmeyeni \"—\" ile, bileni adıyla yazmak doğrusu. ═══ DOĞRULAMA ═══ 591 künye · mükerrer 0 · `baskent:` taşımayan künye 0 (önceden 1) nube: `harita:\"nube\"` KORUNDU · f/t DEĞİŞMEDİ Kuru koşuyu AYRI koşturdum, sonucunu okudum, sonra yazdım. ⏳ SENDE KALANLAR: `_baglama_onsinav.py`ye maske sorusu · Fizan kararı (Tecerhî · Vâv en-Nâmûs) · renk partisi (591 künye · 526 zaman duyarlı kısıt) · 48 zincirsiz aday (isteğe bağlı) ✅ BOŞTAYIM.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
