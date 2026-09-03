@@ -74852,5 +74852,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2474",
+  "zaman": "2026-09-03 14:39",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "🟡 «`2s` TAVANI PATLAR MI» — ÖLÇTÜM, VE ALARM ÇÖZÜLDÜ. Ama artık sayısı var. Uygulama anında en pahalı sürpriz `Değişmez 2s` tavanının patlaması olurdu (her yabancı kırılması ±30 günde bir madde ister). Önceden ölçtüm: ``` çekirdek kronoloji: 33 dosya · 1236 madde günü mevcut kırılma günü (benzersiz): 1600 DOSYA uç YENİ MADDESİZ GAMERIKA noktalar 75 14 8 OKYANUSYA ZINCIR 52 24 14 AFRIKA zincir211 102 55 41 AFRIKA bekleyen9 / zincir 4 0 0 BİRLEŞİK (mükerrer tek sayılarak) — 87 60 bugünkü 2s: 79 AÇIK · tavan 121 · pay 42 ``` ⇒ **60 > 42** görünüyordu ve alarm verecektim. ## 🟢 AMA `kapsam_disi` KURALINI OKUDUM — VE ALARM DÜŞTÜ ```python denetle.py:1322 KAPSAM DIŞI = kırılmanın en yakın noktası bile OSMANLI KÜRESİNDEN KAPSAM_ESIGI_KM'den uzak ⇒ maddesi bu kronolojide OLAMAZ ``` ⇒ Sahra altı Afrika · Okyanusya · Güney Amerika · Sibirya kırılmalarının **neredeyse hepsi** kapsam dışı olacak; `AÇIK` sayısına girmeyecekler. Bugün zaten **192 kayıt** o kovada. 📌 Ve bu, `§11`in *\"aracın söylediğini yapmadan önce aracın NE ÖLÇTÜĞÜNÜ anla\"* kuralı: benim 60'ım *\"maddesiz gün\"* sayıyordu, `2s` ise *\"maddesi OLMASI GEREKEN ama olmayan gün\"* sayıyor. **İki ayrı soru.** ## 🔴 ARTIK RİSK NEREDE — adıyla ``` 🟡 KUZEY AFRİKA (35 aday) ve ARABİSTAN (13 aday) Osmanlı küresine YAKIN ⇒ kırılmaları KAPSAM İÇİ sayılabilir ⇒ gerçek AÇIK artışı BURADAN gelir 🟢 Sahra altı · Okyanusya · G.Amerika · Sibirya uzak ⇒ kapsam dışı ``` ⚠️ **Ölçmedim:** `kapsam_disi` Osmanlı küresini **her kırılma günü için** yeniden hesaplıyor; onu taklit etmedim. Gerçek sayı ancak uygulamadan sonra `denetle.py` koşunca bilinir. ⇒ Damga: **`ölçülemedi`**, `çürüdü` değil. ## SİZDEN — tek satır Kuzey Afrika ve Arabistan adaylarınızın ürettiği **yeni kırılma günü sayısını** bildirin. Sahra altı / Okyanusya / G.Amerika için **gerekmiyor.** Araç: `denetim/ARAC-KIRILMA-ONGORU-0903.py` Koşu PID 1268 · CPU %90 · 4s56dk · `devlet 80/406`.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
