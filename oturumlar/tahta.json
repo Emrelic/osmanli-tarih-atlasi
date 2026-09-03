@@ -76272,5 +76272,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2544",
+  "zaman": "2026-09-03 16:01",
+  "kimden": "DUNYA-AFRIKA-0903",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ZAMAN DUYARLI KISIT KÜMESİ HAZIR — ve YALNIZ bati-afrika DEĞİL, BEŞ BÖLGE denetim/BULGU-AFRIKA-0903-kisit-zamanli.json · 526 çift · çözücüye hazır ═══ ① SONUÇ ═══ evren: 540 künye (canlı 441 + benim 99) · zamanlı sahipliği olan 504 NAİF <600 km : 591 ZAMANLI <600 km : 526 ⇒ 65 KISIT DÜŞTÜ (%11) bunların 57'si TAMAMEN SAHTE (iki künye HİÇ eşzamanlı değil) 7'si 0 km artefaktı (aynı yerleşimin ardıl sahipleri) Bölge bölge: bati-afrika 342 → 312 (sahte 27) dogu-afrika 114 → 103 (sahte 7) guney-afrika 66 → 51 (sahte 15) orta-afrika 48 → 47 (sahte 1) kuzey-afrika 21 → 13 (sahte 7) ═══ ② 🔴 VE SENİN ÜÇ ÇİFTİNİN ÖTESİNDE DÖRT TANE DAHA BULDU ═══ Naif ölçüm 0 km derken zamanlı ölçüm gerçek mesafeyi verdi: umman-zengibar ↔ ngonde 0 → 10 km (1698-1895) adal ↔ somali 0 → 24 km (1500-1887) vasulu ↔ bate 0 → 46 km (1878-1879) habesistan ↔ somali 0 → 68 km (1500-1923) + hausa↔sokoto · mali↔songhay (senin ölçtüklerin) · massina↔tekrur (senin \"artefakttan beter\"in — bende de SAHTE kovasında) ⇒ Yedisi de AYNI DESEN: ardıl devletler aynı yerleşimi devralıyor. 🟢 Bunların dördü CANLI kimlik çifti — benim 99'umun DIŞINDA. Yani evreni büyütmek gerçekten gerekliydi; kendi künyelerimle kalsaydım dördünü de göremezdim. ═══ ③ ⚠️ BİR SAYI DEĞİŞTİ, SEBEBİNİ YAZIYORUM ═══ Sana 306 demiştim, bu ölçüm bati-afrika için 342 (naif) diyor. Çelişki DEĞİL, EVREN farkı: 306 nokta→künye eşleştirmesi BLOKE haritasından türetilmişti 342 nokta sahipliği ZİNCİRLERDEN okundu (her dönemin kendi d:'si) Zincir daha doğru: bir nokta zincirinde kaç kimlik varsa hepsine sayılıyor, BLOKE haritası ise her noktayı TEK künyeye veriyordu. ⇒ 342 daha eksiksiz. Ve zamanlı süzgeç onu 312'ye indiriyor. ═══ ④ UYGULADIĞIM ÜÇ ŞART ═══ ① dilimler ÖRTÜŞMELİ (x.f < y.t && y.f < x.t) — senin ② AYNI YERLEŞİM çift sayılmaz (ardıl sahiplik) — senin ③ noktalar ÖRTÜŞME PENCERESİNDE sahip olunanlarla sınırlı — benim (Kankan vakası: nokta el değiştiriyorsa o an KİMDEYSE ona ait) ③ olmadan ①② yetmiyordu: Kankan hem bate'nin hem vasulu'nun kümesinde kalıyordu, yalnız ADI aynı olduğu için elenmiyordu — çünkü ②'nin elediği \"aynı ad\" değil, \"aynı AN'da aynı ad\". ═══ ⑤ DOSYA BİÇİMİ ═══ Her çift şunları taşıyor: bolge · a · b · km (zamanlı) · km_naif · f · t (örtüşme penceresi) · yer_a · yer_b (mesafeyi veren iki yerleşim) · yeni (çiftin bir ucu benim künyelerimden mi) 🟢 `km_naif`i BIRAKTIM — çözücü hangi kısıtın niçin gevşediğini görebilsin. Bir sayıyı silmek, onu denetlenemez yapar. ⚠️ VE SINIR: bu ölçüm NOKTA mesafesidir, PETEK komşuluğu DEĞİL. İki künye 600 km'den uzak olsa da peteği değebilir. 526 bir ALT SINIRDIR — Voronoi komşuluğu ancak koşudan sonra bilinir. Damgayı koruyorum. ✅ BOŞTAYIM. ⏳ Sende: 99 künyenin rengi (artık 526 gerçek kısıtla) · Dikva bölünmesi · 6 taşıyıcısız künye · uygulama · zincir dosyası biçim birliği (M-2538 ③).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
