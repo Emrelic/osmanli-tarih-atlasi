@@ -91,6 +91,20 @@ def main():
 
     Y = girdi.yukle()
     mevcut_ad = {y["ad"] for y in Y}
+
+    # 🔴 KIMLIK VARLIGI — ilk surumumde YOKTU ve gercek bir kusurdu:
+    #    on sinav yalniz `s:` alaninin DOLU oldugunu soruyordu, kimligin
+    #    `devletler.js`te VAR oldugunu DEGIL. KAMERIKA'nin 22 bloke
+    #    noktasi (kunyesi henuz yazilmamis 17 kimlik) bu sinavdan
+    #    GECERDI ve kunyesiz inerdi ⇒ §3.5 hayalet.
+    #    📌 §11: "bir on sinav, taklit ettigi denetciden GEVSEK olursa
+    #    KACIRIR, KATI olursa mesru isi BLOKLAR — ikisi de kusur."
+    _js = ("global.window={};eval(require('fs').readFileSync(process.argv[1],"
+           "'utf8'));const D=window.DEVLETLER||[];console.log(JSON.stringify("
+           "D.flatMap(d=>[d.id,d.harita]).filter(Boolean)));")
+    _p = subprocess.run(["node", "-e", _js, os.path.join(KOK, "data", "devletler.js")],
+                        capture_output=True, text=True, encoding="utf-8")
+    KUNYE = set(json.loads(_p.stdout.strip()))
     mevcut_kon = [(y["lat"], y["lon"], y["ad"]) for y in Y
                   if y.get("lat") is not None]
 
@@ -108,6 +122,12 @@ def main():
                 if d < 3.0:
                     hata.append("🔴 3 KM: %s ↔ %s  %.2f km" % (ad, oad, d))
                     break
+        # ③b KIMLIK VARLIGI — kunyesi olmayan kimlik §3.5 hayalet uretir
+        for _a in ("s", "d", "v", "isg"):
+            for _p2 in (k.get(_a) or []):
+                if isinstance(_p2, dict) and _p2.get("d") and _p2["d"] not in KUNYE:
+                    hata.append("🔴 KÜNYE YOK: %s → `%s` (devletler.js'te "
+                                "yok — §3.5 hayalet)" % (ad, _p2["d"]))
         # ③ sahiplik
         if not k.get("s") and not k.get("d") and not k.get("v"):
             if not k.get("kasitli_bosluk"):
@@ -132,8 +152,11 @@ def main():
     #    OKYANUSYA'nin 64 kaydi `s:null` cunku TARIHLERI DOGRULANMADI,
     #    AFRIKA'nin 7 kaydi cunku KUNYESI HENUZ YOK. Ikisi de KASITLI.
     #    Ad cakismasi ve 3 km ise GERCEK kusurdur — onlar durdurur.
+    #    `KÜNYE YOK` da BEKLEYENdir, DURDURAN degil: kunye adim ①'de
+    #    inecek. Ad cakismasi ve 3 km ise GERI DONULEMEZ kusurdur.
     durduran = [h for h in hata if not h.startswith("🔴 SAHİPSİZ")
-                and not h.startswith("🔴 CİNSSİZ")]
+                and not h.startswith("🔴 CİNSSİZ")
+                and not h.startswith("🔴 KÜNYE YOK")]
     bekleyen = [h for h in hata if h not in durduran]
     print("🔴 DURDURAN HATA  : %d  (ad çakışması · 3 km)" % len(durduran))
     for h in durduran[:20]:
