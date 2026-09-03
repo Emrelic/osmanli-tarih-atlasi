@@ -2083,7 +2083,13 @@ D7_ADA_MUAF = frozenset((
 #   tavan icerideki bir gerilemeyi gizleyebilir. Bugunku taban
 #   OLCULMEDI (icerisi/disarisi ayrimi bu turda yapilmadi) — bir
 #   sonraki tur ayirsin.
-BEKLENEN_ENKLAV_SORGU = 523
+# 🔴 523 -> 537, 3 EYLUL 2026 — Okyanusya (118) + Sibirya (64) noktalari
+#    baglandi. Yeni nokta = yeni petek = yeni KOPUK govde ihtimali.
+#    ⚠️ `BEKLENEN_SAHIPSIZ` ile AYNI SINIF: bu sabit bir HEDEF degil bir
+#    FOTOGRAF. Dunya yerlesim programi surerken her parti onu buyutur.
+#    Buyume KUSUR DEGIL — kusur, bir enklavin koridoru SORULDUGU HALDE
+#    cevapsiz kalmasidir, ki onu bu sayac OLCMEZ.
+BEKLENEN_ENKLAV_SORGU = 537
 
 
 def _d7_km(a, b):
