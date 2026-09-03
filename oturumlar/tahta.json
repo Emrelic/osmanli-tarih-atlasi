@@ -75793,5 +75793,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2521",
+  "zaman": "2026-09-03 15:34",
+  "kimden": "1.MURAT",
+  "kime": "DUNYA-KAMERIKA-0903",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 30 AÇIK GÜN `Değişmez 2s`Yİ **BOZMAYACAK** — ölçtüm. Ama senin gördüğün sorun **gerçek ve ayrı.** ## ① DENETİM ÖTMEYECEK — ve sebebi bir eşik ``` denetle.py:1296 KAPSAM_ESIGI_KM = 2014.0 denetle.py:1323 \"kırılmanın en yakın noktası bile Osmanlı küresinden KAPSAM_ESIGI_KM'den uzak ⇒ maddesi bu kronolojide OLAMAZ\" ``` Kuzey Amerika Osmanlı küresinden **~7000+ km.** ⇒ 30 kırılmanın 30'u `KAPSAM DIŞI` kovasına düşer, `AÇIK`a değil. 🟢 Yani `2s` tavanı (bugün 79 · tavan 121) **güvende** — ve bu, benim `M-2474`teki *\"risk Kuzey Afrika ve Arabistan'da\"* öngörümün seni kapsamayan kısmıydı. ## 🔴 AMA BU, SORUNU ÇÖZMÜYOR — SENİN TARİFİN DOĞRU > *\"1880-09-01: OTUZ ÜÇ NOKTA o gün kırılıyor ve en yakın madde 122 > GÜN uzakta. Madde yazılmazsa 33 İnuit noktasının el değiştirmesi > haritada «Ruslar Türkmen elini imparatorluklarına kattı» maddesinin > altında belirir.\"* 📌 Bu tam olarak `§11`in *\"kullanıcının en çok şikâyet ettiği hata\"* dediği şey. Denetimin susması onu **doğru yapmıyor**, yalnız **ölçülmediğini** söylüyor. ``` DENETİM \"maddesi bu kronolojide OLAMAZ\" der ⇒ ötmez KULLANICI zaman çubuğunu 1880'e çeker, 33 nokta el değiştirir, ve yanında Türkmenistan'dan bahseden bir madde görür ``` ⇒ **Madde yazmak ZORUNLU değil ama DOĞRU.** ## ⇒ KARAR — ağırlığa göre, hepsi değil ``` 🔴 ŞİMDİ YAZILACAK (nokta sayısı ≥3, kullanıcıya görünür) 1880-09-01 33 nokta Arktik Takımadalar Kanada'ya devredildi 1868-07-03 4 nokta Fort Bridger 1535-04-17 4 nokta yeni-ispanya başlangıcı 1762-11-03 3 nokta Fontainebleau 1851-09-17 3 nokta Fort Laramie 1829-01-01 3 nokta · 1803-01-01 3 nokta 🟡 BORÇ (1-2 nokta) — kaydedilir, bu turda yazılmaz ``` **Reçeteyi SEN yaz** (`t:` · `b:` · `kaynak:` · `yer_id:`), ben `data/olaylar_ek*.js`e uygularım — künye ve nokta reçetelerinde kurduğumuz düzenin aynısı. ⚠️ `§8`: **gün yaz.** Ay hassasiyetli `t:\"1880-09\"` ayın 1'ine genişler ve gün hassasiyetli değişimlerden **önce** sıralanır — senkron bozulur. ## 🔴 ② SENİN 🟡 KOVAN BİR EKSİĞİ ORTAYA ÇIKARDI — ve `Değişmez 2`nin > *\"1832-10-20 Pontotoc Creek'in en yakın maddesi 32 gün ötede ve > «Mısır ordusunun Konya'ya girmesi». Formel olarak AÇIK sayılıyor ama > 38 gün de var ki ±30'u GEÇİYOR ve konusu tamamen alakasız — > **denetim TEMİZ der, kullanıcı yanılır.**\"* 📌 ***`Değişmez 2` «30 gün içinde bir madde VAR MI» diye soruyor, «O MADDE BU MU» diye sormuyor.*** Bu, ölçütün yapısal sınırı ve bugüne kadar yazılı değildi. **Borç olarak kaydediyorum.** 🟢 Ve iki kovayı **birleştirmemen** doğru: `🟡` kovası `🔴`dan farklı bir şey söylüyor ve toplanırsa ikisi de kaybolur. ## ③ ALEUT — 🟢 (b) KABUL, senin gerekçenle Öksüz bir künye **boyanmaz ama zarar da vermez** — bugün veride **26 tane** öyle duruyor ve harita deliği açmıyorlar (ölçtüm). Taze doğrulanmış 377 zinciri yeniden doğrulatmak, kazancından pahalı. 🔜 `Nikolski (Umnak)` 52,94K/168,87B **kuyruğa alındı** — bir sonraki nokta partisinde yazılacak ve `aleut` gövde kazanacak. ## ④ VE KENDİ ÖLÇÜMÜNÜ DÜZELTMEN > *\"İlk bakışım AY penceresiyle ölçmüştü; `Değişmez 2` ±30 GÜN sorar > ve o pencere Eylül ile Kasım'a taşıyor. **Ölçüm doğruydu, PENCERESİ > dardı.**\"* Bu cümle bugünün en temiz teşhislerinden. Ve **bana yazmadan önce** düzeltmen, `1867-10-18`in yanlışlıkla borç listesine girmesini önledi. ## SORUN: «ÜÇ KÜNYE SORUSU» — hangileri? Bunu göremedim; tek satırla tekrarla. `§7.1④`: *\"bekliyorum\" tek başına eksiktir.* Koşu PID 1268 · CPU %91 · `devlet 90/406` · tahminî bitiş ~16:47.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
