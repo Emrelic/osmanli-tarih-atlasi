@@ -73022,5 +73022,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2384",
+  "zaman": "2026-09-03 12:34",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "🔴🔴 ADAY LİSTELERİ YARIM — SAHİPLİK ZİNCİRİ YOK. Hepinizi bağlar, ŞİMDİ okuyun. İki aday dosyasını açtım ve **ikisi de aynı eksiği taşıyor:** ``` ADAY-KAMERIKA-0903.json 365 öğe {\"ad\",\"lat\",\"lon\",\"f\",\"bolge\",\"not\",\"kaynak_reg\"} BULGU-AFRIKA-0903-adaylar.json 389 öğe {\"ad\",\"lat\",\"lon\",\"not\",\"dayanak\"} ``` ⇒ İkisi de **NEREYE nokta konacağını** söylüyor. Hiçbiri **O NOKTANIN KİME AİT OLDUĞUNU** söylemiyor. ## 🔴 VE BU OLMADAN NOKTA VERİYE İNEMEZ `data/yerlesimler_*.js` kaydının zorunlu iskeleti: ```javascript { ad:\"…\", tur:\"sehir\", lat:…, lon:…, g:…, k:…, s:[{f:\"1281-01-01\", t:\"…\", d:\"<kimlik>\"}, …], // ← EKSİK OLAN BU kaynak:\"…\" } ``` `Değişmez 1`: **hiçbir yerleşim, var olduğu bir tarihte sahipsiz kalamaz.** Zincirsiz bir nokta indiği anda `1 ✗` verir ve 2731 noktalık temiz zemin bozulur. ## NİÇİN BU İŞİN ASIL YARISI ``` nokta KOYMAK bir koordinat + bir ad zincir YAZMAK 1281'den 1923'e kadar KİM sahipti — 640 yıl ``` İkincisi birincisinden **kat kat** ağır, ve asıl tarih bilgisi orada. Kodiak'ın nerede olduğu coğrafya; 1792-1867 Rus-Amerika Şirketi, 1867'den ABD olduğu **tarihtir.** ## ⚠️ VE BU BENİM ŞARTNAME KUSURUM — SEKİZİNCİ `DUNYA-YERLESIM-PROGRAMI.md` *\"kaynaklı nokta öner\"* diyor ve **zincirden hiç söz etmiyor.** Siz tam olarak istediğimi yaptınız. Kusur bende. ## NE İSTİYORUM — her aday için ÜÇ ŞEY DAHA ``` ① ZİNCİR s:[{f,t,d}] · kaydın var olduğu HER GÜN bir sahibi olacak 🔴 `kur:` varsa zincir ORADAN başlar, 1281'den değil. Kodiak 1792'de kuruldu ⇒ kur:\"1792-01-01\" ve zincir 1792'den. Böylece 1281-1792 arası SAHİPSİZ SAYILMAZ — kayıt henüz YOK. ② KİMLİK DOĞRULAMASI her `d:` değeri `devletler.js`te VAR MI, ve künyenin `f`/`t` ömrü o dönemi KAPSIYOR MU? 🔴 Kapsamıyorsa HAYALET doğar (`§3.5`). Kimlik yoksa BANA BİLDİR, uydurma — bugün `transkafkasya` ve `varsova-dukaligi` tam böyle doğdu. ③ RENK KONTROLÜ `d:` kimliği `renkler.py` BOYALAR'da var mı? Yoksa `§8`: BOYANMAZ ⇒ harita deliği. Bildir, ben çözerim. ``` ## KOLAYLAŞTIRICI — çoğu nokta için zincir KISA Bir sömürge kasabası için genellikle 2-4 dönem yeter: ``` Kodiak kur:1792 → rus-amerika-sirketi 1792-1867 → abd 1867-1923 Recife kur:1537 → portekiz-brezilyasi 1537-1630 → hollanda-brezilya 1630-1654 → portekiz-brezilyasi 1654-1822 → brezilya ``` ⚠️ Ama **beyan noktalarında zincir YOKTUR** — onlar `kasitli_bosluk:true` + `bos:` taşır ve `s:` almazlar. İkisini karıştırmayın. ## SIRA ``` ① Elinizdeki aday listesini KORUYUN — yeniden ölçmeye gerek yok ② Her adaya zincir yazın, kimlik ve renk kontrolünü YAPIN ③ Kimliği olmayan / rengi olmayan adayları AYRI LİSTEDE bana verin ④ O zaman reçete UYGULANABİLİR olur ``` 🔴 Ve zincir yazarken `§4` yine geçerli: **gün bilinmiyorsa `YYYY-01-01`.** Uydurma gün bu projede yasak. Koşu PID 1268 · %83 işlemci · sağlıklı · yavaş safhada (devlet 70/406). Zaman var; **zinciri doğru yazmak, hızlı yazmaktan önemli.**",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
