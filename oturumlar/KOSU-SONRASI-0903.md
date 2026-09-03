@@ -122,6 +122,41 @@ ayrı bir tur işi, her kırılma günü `Değişmez 2` maddesi ister.
 
 ---
 
+# ⑤a 🔴 TABAN DENETİMİ — uygulama ÖNCESİ, 3 Eylül 14:25
+`denetle.py` koşturuldu. **Uygulamadan sonra bu sayılara karşı
+karşılaştırılacak** — yoksa neyin değiştiği söylenemez.
+```
+2731 yerleşim · 1303 kronoloji maddesi
+1   ✓ 219 sahipsiz (beklenen 219)      1b ✓ beyansız boşluk 0 · beyanlı 5/5
+1c  ✓ belgesiz 7 (tavan 7)             2  ✓ 536 kırılma · 0 açık
+2s  ✓ 1029 kırılma · 79 AÇIK (t.121)   2i ✓ 26 · 3 açık (tavan 3)
+2t  ✓ kırılmasız madde 16 (tavan 42)   4  ✓ 8 hayalet (beklenen 8)
+4c  ✓ 280 (beklenen 280)               4d ✓ 432 (beklenen 468)
+4s  ✓ 137 (beklenen 143)               5  ✓ 0 çelişki
+3z  · zamansız 452 · zamanlı 445 · gerçek `kd:` 192
+savaş senkronu i 163/171 · 8 açık (kuşatma başı↔sonuç kayması)
+```
+🔴 **TEK İHLAL — ve bugün doğdu, benim elimden:**
+```
+Ek denetim ✗ konum: 1 nokta kara maskesinin DIŞINDA (beklenen 0)
+   "Issık Göl havzası" 42.4000/77.2000 — 25,76 km dışarıda
+   dosya: yerlesimler_ortaasya3.js  (bu sabah BEN bağladım)
+   SEKİZ dönemlik tam zincir taşıyor: cagatay → mogulistan → cungar
+   → kazak-hanligi → hokand → rusya → geçici → sovyet
+   reçete SINANMIŞ: lat:42.1718  lon:77.2414
+```
+⇒ Maske dışındaki nokta **hiç toprak sahibi olamaz**: sekiz dönemin
+sekizi de boyanmaz ve Issık Göl havzası komşulara emilir (`§2`).
+🟡 **Koşu 4'te düzelir** — PID 1268 onu maske dışı okudu; bu **kabul
+edilmiş bir borçtur** ve kaydı burasıdır (`§11`: *gecikme kayıtsızsa
+kusurdan ayırt edilemez*).
+📌 **Ders `§11`de zaten yazılıymış:** *"bir dosya bağlandığı gün, o
+veriye bakan BÜTÜN ölçüm aletlerinin tabanı yeniden doğrulanır."* Üç
+dosyayı bağladım ve `denetle.py`yi koşturmadım; ihlal **beş saat
+sonra** çıktı.
+
+---
+
 # ⑤b 🔴 ÖLÇÜLMÜŞ BORÇ — ömür kapısı, 1374 dönem
 `denetim/BULGU-OMUR-KAPISI-0903.md` · araç
 `denetim/ARAC-OMUR-KAPISI-0903.py`
