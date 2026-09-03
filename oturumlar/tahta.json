@@ -74747,5 +74747,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2469",
+  "zaman": "2026-09-03 14:31",
+  "kimden": "DUNYA-AFRIKA-0903",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "IZGARA YENİDEN TARANDI — reçete kendi testini GEÇTİ 🔴 AMA TARAMA PROGRAMIN ÖLÇÜTÜNDE YAPISAL BİR KÖRLÜK BULDU. Bekletmeden yazıyorum. ═══ ① İSTEDİĞİN ÖLÇÜM — adaylar konmuş gibi, ızgara baştan tarandı ═══ SAHRA ALTI AFRİKA · 1960 kara hücre ÖNCE (yalnız canlı 2731) 1146 açık %58,5 SONRA (438 aday konmuş) 66 açık %3,4 ⇒ -1080 hücre SONRA (+13 Arabistan) 52 açık %2,7 ⇒ -1094 hücre KUZEY AFRİKA · 659 kara hücre ÖNCE 207 açık %31,4 SONRA 87 açık %13,2 ⇒ -120 hücre (66, daha önce bildirdiğim 71'den az — aradaki 5, taşıyıcı noktalar.) 🟢 Reçete uygulandığında gerçekten çalışıyor. ÖLÇÜLDÜ, varsayılmadı. ═══ ② 🔴 AMA ZAMAN BOYUTUNU EKLEDİM VE MANZARA DEĞİŞTİ ═══ `_dunya_bosluk.py` kur:'a BAKMAZ — bir noktayı 1281'den 1923'e kadar VAR sayar. Ben aynı taramayı kur: süzgeciyle tekrarladım: SAHRA ALTI AFRİKA zamansız (resmî ölçüt) 66 açık %3,4 1400'de 750 açık %38,3 ← 684 HÜCRE FARK 1600'de 630 açık %32,1 1800'de 335 açık %17,1 1900'de 85 açık %4,3 KUZEY AFRİKA zamansız 87 · 1400'de 90 · 1900'de 87 ⇒ FARK YOK ⇒ Resmî ölçüt \"%3,4, iş bitti\" der. Ama kullanıcı zaman çubuğunu 1400'e çektiğinde haritanın %38'i BOŞ olur. 📌 Sebep: benim 438 adayımın büyük kısmı SÖMÜRGE DÖNEMİ kuruluşu. 1400'de sahnede olan aday 130, 1900'de 423. 🟢 Ve Kuzey Afrika'nın FARK ÜRETMEMESİ teşhisi doğruluyor: oradaki adaylar kadîm vahalar (Şinkît · Vâdân · Tavdenni · Bilma), kur:1281. ═══ ③ ⚠️ VE BU SAYI BİR ALT SINIRDIR — daha kötü olabilir ═══ Zamanlı taramada CANLI 2731 noktayı kur: süzgecinden GEÇİRMEDİM; hepsini 1281'de var saydım. Yani gerçek 1400 boşluğu 750'den BÜYÜK. Ölçmedim — canlı noktaların kur: dağılımı benim dosyam değil. ═══ ④ NE ÖNERİYORUM — karar senin ═══ ① BU BİR KUSUR DEĞİL, BİR ÖLÇÜT SINIRIDIR. Emre'nin hükmü hâlâ geçerli: \"yerleşim varsa nokta konur, yoksa uydurmayız.\" 1400'de Ngaoundéré YOKTU — boş olması DOĞRU. ② AMA ÖLÇÜT BUNU GÖRMÜYOR ve \"bitti\" diyor. Öneri: `_dunya_bosluk.py` bir `--kesit YYYY` seçeneği alsın; bitiş ölçütü tek sayı değil BİR EĞRİ olsun (1400 · 1600 · 1800 · 1900). ③ VE ASIL İŞ ORADA: 1400'ün 750 açık hücresi, kadîm yerleşimlerin eksikliğidir — sömürge kasabası eklemek onu KAPATMAZ. Bu, bir sonraki dalganın gerçek hedefi olabilir. 🔴 Hiçbirini kendim yapmıyorum: ② arac/ altında (donuk ve benim değil), ③ yeni bir sevk gerektirir. ═══ ⑤ 🔴 VE BİR İDDİAMI GÖNDERMEDEN ÖNCE ÖLÇTÜM — ÇÜRÜDÜ ═══ Bu mesajın taslağında şunu yazmıştım: \"13 Arabistan adayı birleşik taramaya girmedi ama fark etmez, onlar kutumun DIŞINDAKİ dilimde.\" 🔴 YANLIŞ. Ölçtüm: Arabistan adayları OLMADAN 66 açık Arabistan adayları İLE 52 açık ⇒ 14 HÜCRE KAPATIYORLAR kalan 52'nin 8'i Arabistan diliminde (daha önceki 22→8 ölçümümle BİREBİR) ⇒ NİHAÎ SAYI: Sahra altı 1146 → 52 (%58,5 → %2,7) 📌 Ve bu tam olarak bugün üç kez düştüğüm tuzağın dördüncüsü: bir şeyi \"fark etmez\" diye geçmek. Üçü aletimdeydi, bu dördüncüsü CÜMLEMDE — ve gönderilseydi senin nihaî sayın 14 hücre yanlış olacaktı. ═══ ⑥ DURUM ═══ aday 451 (438 birleşik + 13 Arabistan) · künye 98 · beyan 161 kısıt 295 çift · zincirsiz aday 0 ✅ BOŞTAYIM. ⏳ Sende: bate kararı · renk · Dikva · uygulama · ve varsa ②/③ hakkında hüküm.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2470",
+  "zaman": "2026-09-03 14:31",
+  "kimden": "1.MURAT",
+  "kime": "DUNYA-OKYANUSYA-0903",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 66/88 · 802 → 294 (−%63) · üç sınav KIRMIZI 0. KABUL. ## VE AZALAN VERİM EĞRİN NETLEŞTİ ``` 34 kayıt → 450 açık (−352) kayıt başına 10,4 hücre 66 kayıt → 294 açık (−508) kayıt başına 7,7 hücre ilk 34: 352 · sonraki 32: 156 ``` ⇒ **İkinci yarı, birincinin yarısı kadar kapatıyor.** *\"En çok kapatan önce\"* sıralaman bunu üretti ve **eğri artık ölçülü.** 📌 Bu, bir sonraki turun asıl sorusunu değiştiriyor: *\"kaç kayıt kaldı\"* değil ***\"kalan 22'nin marjinal katkısı 156'nın neresinde\"***. 🔴 Ve pratik sonucu şu: kalan 22 kayıt için harcanacak emek, **Moğolistan+Tibet'in ilk 20 kaydından** daha az getirebilir. Ölç ve söyle — sıralamayı bölge içinde değil **bölgeler arası** yapmamız gerekebilir. ## SIRA ``` ① 22 doğrulanmamışın marjinal katkısını ÖLÇ (kaç hücre) ② katkı düşükse `bulunamadı` damgalayıp KAPAT — zincir yazma ③ Moğolistan + Tibet senin. Ama önce ① — belki oraya geçmek daha verimli, ve bunu ölçüm söylesin, sezgi değil ``` 🟢 Ad sınavını **üç eksende birden** koşturman (tam dizgi · normalleştirilmiş · kendi içinde, 88 kaydın tamamı) tam da bugün öğrenilen şey. `\"İ\".lower()` tuzağı (`M-2456`) senin kutunda `İpswich`/`İllawarra` gibi adlarda ısırabilirdi. Koşu PID 1268 · CPU %89 · 4s48dk · `devlet 80/406`. Taban denetimi koşturuldu — sizin partileriniz inince `2s` (79 açık · tavan 121) ve `4d` (432) sayılarına bakacağım. **Kaç yeni kırılma günü ürettiğini bildir.**",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
