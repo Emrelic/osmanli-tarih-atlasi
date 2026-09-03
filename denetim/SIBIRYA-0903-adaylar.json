@@ -1,5 +1,5 @@
 {
- "_NOT": "DUNYA-SIBIRYA-0903 · 3 Eylül 2026 · ARAŞTIRMA turu çıktısı. Bu bir KUYRUK dosyasıdır, VERİ DEĞİLDİR (M-2413 ②: `bos:` beş kova veri alanı, kuyruk sınıfları denetim/ altında yaşar). data/ altına indirmek koordinatörün işi. Ayrıntılı gerekçe ve kaynak künyeleri: denetim/BULGU-SIBIRYA-0903.md · İKİNCİ KAYNAK TURU işlendi (3 Eylül, öğleden sonra). · ÜÇÜNCÜ TUR: 3 km sınavı · hongoray taşıyıcısı · altı halkın sınıflandırması.",
+ "_NOT": "DUNYA-SIBIRYA-0903 · 3 Eylül 2026 · ARAŞTIRMA turu çıktısı. Bu bir KUYRUK dosyasıdır, VERİ DEĞİLDİR (M-2413 ②: `bos:` beş kova veri alanı, kuyruk sınıfları denetim/ altında yaşar). data/ altına indirmek koordinatörün işi. Ayrıntılı gerekçe ve kaynak künyeleri: denetim/BULGU-SIBIRYA-0903.md · İKİNCİ KAYNAK TURU işlendi (3 Eylül, öğleden sonra). · ÜÇÜNCÜ TUR: 3 km sınavı · hongoray taşıyıcısı · altı halkın sınıflandırması. · DÖRDÜNCÜ KAYNAK TURU.",
  "oturum": "DUNYA-SIBIRYA-0903",
  "kutu": {
   "latG": 50,
@@ -17,9 +17,9 @@
   "kapanan": 133,
   "yontem": "IZGARA YENİDEN TARANDI (M-2413 ③) — çıkarma YAPILMADI. Aday başına 1,66 hücre.",
   "kademe_dagilimi": {
-   "A": 38,
-   "B": 23,
-   "C": 19
+   "A": 39,
+   "B": 28,
+   "C": 13
   }
  },
  "kademe_sozlugu": {
@@ -41,7 +41,11 @@
   "bolgesel": "Taymır Dolgan-Nenets belediye tarihçesi · bölgesel ansiklopedik kaynaklar (hakemli DEĞİL)",
   "skobelev2010": "Скобелев С.Г., Чуриков Р.С., К вопросу о месте расположения первого Ачинского острога, Вестник Новосибирского гос. университета. Серия: История. Филология, 2010 (cyberleninka)",
   "chertikov2009": "Чертиков М.А., Этнополитическая ситуация на территории Хонгорая XVII – начале XVIII в., Вестник Томского гос. университета, 2009 (cyberleninka)",
-  "buryat-halha": "Burjat tarihi makaleleri (cyberleninka): Hori Buryatları Setsen Han'ın DANNİK (haraçgüzâr) tebaası; Selenge Buryatları 'Halha Moğollarından az farklıydı'; orta Selenge'de Tabangut Moğol grupları iskân edilmiş"
+  "buryat-halha": "Burjat tarihi makaleleri (cyberleninka): Hori Buryatları Setsen Han'ın DANNİK (haraçgüzâr) tebaası; Selenge Buryatları 'Halha Moğollarından az farklıydı'; orta Selenge'de Tabangut Moğol grupları iskân edilmiş",
+  "garkusha2019": "Гаркуша Ю.Н., Проблема соотношения археологического «городища» и исторического «городка»… (на примере городища Усть-Войкарское — Войкарского городка), Вестник Новосибирского гос. университета. Серия: История. Филология, 2019 (cyberleninka)",
+  "okrlib": "Государственная библиотека Югры (okrlib.ru) — 1637 Samarovskiy ve Demyanskiy yamları",
+  "prlib": "Президентская библиотека им. Б.Н. Ельцина (prlib.ru) — Çaus ostrogu 1713",
+  "ez-chita": "Энциклопедия Забайкалья (ez.chita.ru) — Sretensk 1689"
  },
  "adaylar": [
   {
@@ -552,33 +556,34 @@
   },
   {
    "ad": "Voykar gorodok",
-   "lat": 65.85,
-   "lon": 64.0,
-   "kur": null,
-   "kademe": "C",
-   "kaynak": null,
+   "lat": 65.68,
+   "lon": 64.31,
+   "kur": "1281-01-01",
+   "kademe": "A",
+   "kaynak": "garkusha2019",
    "hucre": 1,
-   "olay": "Obdorsk knezliğinin şehri"
+   "olay": "Ostyak (Hantı) kalesi — Miller: 'Войкарский городок, по-остяцки Ai-wasch… Раньше был остяцкой крепостью и сейчас еще здесь живет много остяков'. Yazılı kaynaklarda XVII. yy başında, 1594-95 olaylarına atıfla geçiyor; XVIII. yy'da hâlâ meskûn. 1912'de Berezov uyezdinin Kunovat yerli idaresinde 'Voykar yurtları' olarak kayıtlı.",
+   "uyari": "🔴 MAKALENİN KENDİ UYARISI: mevcut tarihî kaynaklar arkeolojik höyük (Ust-Voykarskoye gorodişçe) ile tarihî yerleşimin AYNI YER olduğunu KESİN OLARAK KANITLAYAMIYOR. Koordinat Voykar ağzındaki Ust-Voykar köyüne göre verildi; kur:1281 ATLAS UFKU (kuruluş DEĞİL)."
   },
   {
    "ad": "Samarovo",
    "lat": 61.0,
    "lon": 69.0,
-   "kur": null,
-   "kademe": "C",
-   "kaynak": null,
+   "kur": "1637-01-01",
+   "kademe": "B",
+   "kaynak": "okrlib",
    "hucre": 2,
-   "olay": null
+   "olay": "Samarovskiy yamı — Batı Sibirya'nın batı-doğu haberleşmesi için; ilk yerleşenler Perm, Vologda ve Olonets'ten gönderilen ~50 yamcı ailesi (Çar Mihail'in emriyle)"
   },
   {
    "ad": "Demyanskoye",
    "lat": 59.6,
    "lon": 69.28,
-   "kur": null,
-   "kademe": "C",
-   "kaynak": null,
+   "kur": "1637-01-01",
+   "kademe": "B",
+   "kaynak": "okrlib",
    "hucre": 1,
-   "olay": null
+   "olay": "Demyanskiy yamı — Samarovskiy ile AYNI YIL, aynı kararla kuruldu"
   },
   {
    "ad": "Habarovo (Yugorsk Şarı)",
@@ -604,11 +609,11 @@
    "ad": "Kolıvan (Çaus)",
    "lat": 55.31,
    "lon": 82.74,
-   "kur": null,
-   "kademe": "C",
-   "kaynak": null,
+   "kur": "1713-06-29",
+   "kademe": "B",
+   "kaynak": "prlib",
    "hucre": 1,
-   "olay": null
+   "olay": "Çaus ostrogu, Tomsk soylusu D. Lavrentyev tarafından 29 Haziran (10 Temmuz) 1713'te temeli atıldı, 4 Eylül 1713'te tamamlandı; Moskova-Sibirya traktının Tara-Tomsk kesiminde"
   },
   {
    "ad": "Açinsk",
@@ -750,11 +755,11 @@
    "ad": "Sretensk",
    "lat": 52.25,
    "lon": 117.71,
-   "kur": null,
-   "kademe": "C",
-   "kaynak": null,
+   "kur": "1689-01-01",
+   "kademe": "B",
+   "kaynak": "ez-chita",
    "hucre": 1,
-   "olay": null
+   "olay": "önce zimovye, sonra ostrog — Doğu Baykalötesi ve Amur yollarını güvenceye almak için"
   },
   {
    "ad": "Çita",
@@ -821,11 +826,12 @@
    "ad": "Hantayka zimovyesi",
    "lat": 68.35,
    "lon": 90.9,
-   "kur": null,
-   "kademe": "C",
-   "kaynak": null,
+   "kur": "1610-01-01",
+   "kademe": "B",
+   "kaynak": "bolgesel",
    "hucre": 4,
-   "olay": "Yenisey sağ kıyısında yasak zimovyesi — varlığı kaynakta geçiyor, TARİHİ bulunamadı"
+   "olay": "Hantayka nehri ağzında yasak zimovyesi",
+   "uyari": "⚠️ kaynak 'ОКОЛО 1610 г.' (yaklaşık) diyor — yıl KESİN DEĞİL. Aynı yıllarda Dudinka'da da birkaç izba ve ambar yapılmış; Turuhansk zimovyesi 1607."
   },
   {
    "ad": "Dudinka ikinci nokta (Ust-Port hattı)",
