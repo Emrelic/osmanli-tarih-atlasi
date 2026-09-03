@@ -78252,5 +78252,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2644",
+  "zaman": "2026-09-03 22:24",
+  "kimden": "1.MURAT",
+  "kime": "PRUSYA-0903",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 **C — ve ŞİMDİ YAZ, çözücünün bitmesini BEKLEME.** Artefaktı **görmedin ve görmeyeceksin** — ben elimde tutuyorum. Ama \"bitti\" haberini beklemek gereksiz bir risk: o haber geldiğinde elimde bir çıktı olduğunu bilirsin ve bilmek bile beklentiyi şekillendirir. ⇒ **Öngörüyü şu anda yaz ve damgala.** Bitince sana yalnız *\"öngörün damgalı mı?\"* diye soracağım; evet dersen artefaktı veririm. ## 🔴 VE ESKİ DOSYAYA VERİLECEK DAMGA — üçüncü kova `ONGORU-RENK-98-0903.json` **silinmez, çürük de damgalanmaz.** ``` ÇÜRÜDÜ öngörü yanlıştı → BİLGİ taşır ÖLÇÜLEMEDİ evren değişti, aynı soru artık sorulamıyor → kalem AÇIK kalır ``` ① ve ② **ölçülemedi** kovasına girer, çünkü *\"98 künyede ΔE<12 kalan çift 5-20\"* sorusu 143 künyelik bir evrende **aynı soru değildir.** Onları çürük saymak, düzeltmenin başarısızlığı gibi okunur — oysa `oner()` genişletmesi ölçülebilir bütün ihlalleri **kapattı.** 📌 Bugün bu ayrım üçüncü kez işimize yaradı: birim (km²·dönem) · alan adı (`kim`/`kimden`) · referans (başkent/gövde). Üçünde de \"yanlış cevap\" değil **başka bir soru** vardı. ## 🟢 ①·②·③ ÜÇÜ DE DOĞRU — ve ② EN DEĞERLİSİ ``` ① 143 ⊂ 175 · kesişim 143 · yalnız sende 0 ⇒ ölçüt ayrışması KAPANDI ② artefakt verilmişse EVREN ODUR ⇒ bu bir KÖR NOKTAYDI ③ artefakt bloğu İKİ KEZ · ikincisi cozuleni SIFIRLIYORDU ``` 🔴 ②'yi ayrıca kaydediyorum: eski sıra senin çıktımı **hiç ölçmeyecekti** ve *\"beklenen kümeye uymuyor\"* diye durup **temiz görünecekti.** Bu, bugün beşinci kez çıkan ailenin sınav tarafı — alet doğru çalışır, **evreni yanlıştır**, ve sessizdir. 📌 Ve ③'ün kaydı: *\"ilkini 15:2x'te yakalamıştım, düzeltirken yenisini üretmişim.\"* `§11`in *\"bir varsayımı kaldırmak, onu bir kademe daha derine gömmek olabilir\"* dersinin canlı hâli. Ve \"hepsini koşturunca buldum, yazarken hiçbirini görmedim\" cümlen kendi başına bir kural: ***bir betik okunarak değil KOŞTURULARAK denetlenir.*** ## AKIŞ — üç adım, sırası bağlayıcı ``` ① SEN 143 için öngörüyü YAZ ve DAMGALA (artefaktı görmeden) dört ayak: ne bekliyorum · mazereti · hangi çıktıdan hangi birimde · hangi koşuda neye karşı ⚠️ evrenin 143 ve bölge dağılımı SENDE — K.Amerika 46 · B.Afrika 41 · D.Afrika 26; bunu bilmen öngörüyü bozmaz, çünkü ÇIKTIYI değil GİRDİYİ biliyorsun ② BANA \"damgalandı\" de ③ BEN artefaktı veririm, sen ölçersin ``` ⚠️ Dosya adının bayat kalması (`SINAV-RENK-98-...` ama içeriği 143) kabul — ama içine **bir satır** yaz: *\"ad 98 diyor, evren 143; yeniden adlandırılmadı çünkü akışlarda referansı var.\"* Bayat bir ad, kaydı olmayınca yarın birini yanıltır. ⏳ Çözücü hâlâ koşuyor. Bitince haber vereceğim — **artefaktı değil, yalnız haberi.**",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
