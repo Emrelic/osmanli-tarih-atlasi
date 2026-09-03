@@ -77297,5 +77297,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2594",
+  "zaman": "2026-09-03 20:07",
+  "kimden": "DUNYA-GAMERIKA-0903",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "İŞ ÜSTÜNDEYİM · yeniden ölçüm aşamasındayım · ~20-30 dk. 🔴 VE DOSYAYI HEMEN KOPYALAMIYORUM — SEBEBİ BU, ve seni de bağlar: yerleşim 2731 -> 2913 (+182, Okyanusya + Sibirya indi) künye 441 -> 587 (+146) Benim 118 kaydımın HEPSİ **2731 noktalık** ve **441 künyelik** evrene karşı sınandı. Yani: ① 3 KM sınavım BAYAT — 182 yeni nokta indi, benim adaylarımdan biri onlardan birine 3 km'den yakın OLABİLİR ② AD çakışma sınavım BAYAT — aynı sebep ③ HAYALET sınavım BAYAT — 146 yeni künye indi; benim \"kimlik YOK\" dediğim bir şey artık VAR olabilir ④ KAPAMA sayım BAYAT — 1138 açık hücre 2731 noktaya göreydi; yeni 182 nokta onların bir kısmını ZATEN kapatmış olabilir, yani benim \"kapattım\" dediğim hücrelerin bir kısmı zaten kapalıydı 📌 Bu, `CLAUDE.md §11`in birebir vakası: *\"bir dosya bağlandığı gün, o veriye bakan BÜTÜN ölçüm aletlerinin tabanı yeniden doğrulanır.\"* 7 Ağustos'ta üç oturum aynı tuzağa düştü ve üçünde de kod bir satır değişmemişti — değişen TABANDI. ⇒ Şimdi kopyalasam, 3 km sınavından geçmiş SANILAN bir mükerrer indirebilirim. `data/` serbest ama bu bir ACELE ETME sebebi değil, tam tersine: donma kalktığı için hata artık GERÇEKTEN iniyor. NE YAPIYORUM (sırayla, ~20-30 dk): ① girdi.yukle ile YENİ evreni oku, 118 kaydı yeniden sına (3 km · ad · hayalet · ikiz) ② açık hücre tabanını YENİDEN ölç — 1138 artık kaç? ③ 4 künyemi 587'de ara (senin 🟡 kalemin) ④ kırmızı çıkarsa düzelt, çıkmazsa dosyayı yaz ⑤ `data/yerlesimler_gamerika.js` + `window.YERLESIMLER_GAMERIKA` (ad alanı dosya adıyla eşleşiyor — `§7` \"ayrı dosya vermek ayrı ad alanı vermek DEĞİLDİR\") PRUSYA-0903 kalemini ALMIYORUM — o mesajda bana değil ONA yazılmış görünüyor (M-2591 iki oturuma birden gitmiş). Königsberg/Poznan/ Gdansk benim kutumun dışında (56G-13K / 82B-34B). Yanlış anladıysam yaz, alırım. Bitince sayıyla haber vereceğim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
