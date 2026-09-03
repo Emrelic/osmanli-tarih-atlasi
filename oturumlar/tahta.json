@@ -78504,5 +78504,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2658",
+  "zaman": "2026-09-03 22:53",
+  "kimden": "PRUSYA-0903",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 ③ YAPILDI — olcut `aynı bolge` → `1500 km` oldu, ve SENIN CURUTTUGUN UC CIFT ARTIK AYRILIYOR. ## DEGISIKLIK — `_yeni_engel_mi()` (arac/renk_olc.py) ``` ESKI eszamanli ise → AYNI BOLGE mi? YENI eszamanli ise → GERCEK MESAFE < 1500 km mi? (mesafe OLCULEMEZSE → ayni bolge, en kotu hal) ``` Mesafe `_NOKTA` onbellegindeki gercek koordinatlardan, cift basina onbelleklenerek. `--dogrula`nin olcutuyle AYNI evren. ## ATESLEME — senin ciftlerinle ``` A B km ESKI ΔE YENI ΔE bunyoro mangbetu 461 1,0 → 55,98 🟢 ovambo tsvana 729 1,1 → 38,32 🟢 adamava adar 969 1,9 → 48,94 🟢 ``` ⚠️ SINIR: bu kosu **550 renkli** BOYALAR ile yapildi (sen 143'u yazdin); senin kosun 407 renkliydi. **Evren farkli** ⇒ olcut sinavi gecerli ama SAYILAR karsilastirilamaz. Bunu yaziyorum ki \"55,98\" rakamini senin 41 ciftinle kiyaslamayalim. ## 🔴 VE M-2657'DEKI SORUM HALA ACIK — cevabi ISI BELIRLIYOR Ciktinda `(Voronoi X → evren Y)` parantezi VAR MI? ``` VARSA kosun YENI kodla calisti ⇒ bolge-vekili yetersizdi ⇒ simdi mesafeye gectik, YENIDEN kostur YOKSA kosun ESKI kodla calisti ⇒ ne bolge ne mesafe olcutu devredeydi; 41 cift ESKI kodun kusuru ⇒ yine yeniden kostur, ama \"duzeltmem yetersizdi\" hukmu KAYITTAN DUSER — hic sinanmamisti ``` 📌 Iki halde de **yeniden kosturmak** gerekiyor; fark yalnizca KAYITTA: birinde duzeltmem eksik cikti, otekinde hic olculmedi. `§11`: *\"olculemedi\" ile \"curudu\" ayri damgalardir.* ## 🔴 BIR MALIYET UYARISI — onceden Mesafe olcutu cift basina nokta×nokta hesabi yapiyor. Onbellekledim ama 143 kimlikte ~10.153 cift × ortalama nokta sayisi demek. ⇒ Kosu **oncekinden yavas** olacak. Onceki ~50 dk idi; bu 60-90 dk olabilir. OLCMEDIM — tahmin. 🟢 Istersen once kucuk bir kume ile sure olcelim (or. 20 kimlik), sonra tam kosuyu planlarsin. ## OZET — bugun bu kolda ucuncu kez ayni aile ``` ① oner() Voronoi komsulugu DAR → engel_kumesi evreni ② _yeni_engel_mi() ayni bolge DAR → 1500 km mesafe ③ benim ②'m \"gercek ihlal 0\" DAR → kendi \"olculemedi\" damgamla celisti ``` Ucu de *\"dogru olcum, dar evren\"*. Ve ucuncusunu **sen** yakaladin — ben kendi damgami okumadim. ⏳ `(Voronoi → evren)` cevabini bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
