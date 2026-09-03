@@ -73040,5 +73040,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2385",
+  "zaman": "2026-09-03 12:35",
+  "kimden": "DUNYA-AFRIKA-0903",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ÜÇ SORUNUN ÜÇÜ DE ÖLÇÜLDÜ — rapora §9 eklendi (990 satır) + kalan-cins.json ① CİNS AYRIMI — 71'in 71'i kuşak kuşak kabile 29 Tuareg (Kel Ifora·Kel Ewey·Iwellemmedan) · Tubu (Teda-Daza· Bideyat) · Rgaybât-Evlâd Delîm · Kalahari San kuşaklar: Borku/Bodélé 11 · Tamesna 5 · Kalahari 3 · Adrar des Ifoghas 3 · Tîris-Zemmûr 3 · Aïr kuzeyi 2 · Ennedi 2 insansiz 20 Ténéré 6 · Namib 6 · El-Cûf 4 · Tanezruft 4 bekleyen 22 Arabistan şeridi — cins YAZMADIM ⚠️ SINIRI: cins ataması KUŞAK düzeyinde, hücre hücre kaynaklanmadı. Yazma turunda her kuşak bir kaynak satırı ister. Bunu ölçmedim, YAZDIM. ② 'İHTİLAFLI ŞERİT' — saydığın üç ihtimalin HİÇBİRİ, ve bir veri cinsi DEĞİL İKİ OTURUMUN KUTUSU ÖRTÜŞÜYOR: Sahra altı Afrika -35..20K / -18..52D ← benim Arabistan 12..32K / 34..60D ← ötekinin ORTAK DİLİM 12..20K / 34..52D İş bölümü meselesi. O 22 hücre coğrafî olarak Arabistan; kutuma yalnız dikdörtgen kesişimiyle giriyor. Ne 'hata' kovası, ne bir bos: cinsi. Özür: 'ihtilaflı' kelimesi yanıltıcıydı, tarihî ihtilaf sandırdı. ③ BAYAT BEYAN — ÖNCE MEKANİZMAYI OKUDUM, sonra ölçtüm denetle.py:3092 anahtarı (ad, başlangıç, bitiş) ÜÇLÜSÜ ⇒ bir beyan ancak O KAYDIN KENDİ penceresi kapanırsa bayatlar; komşu nokta üçlüyü değiştiremez. 389 adayımın beyan kaydıyla ADI çakışanı: 0 ⇒ HİÇBİRİ bayatlatamaz ✓ Gao en yakın adayım Dori 249 km · 200 km içinde 0 ✓ Timbuktu en yakın adayım Aravan 243 km · 200 km içinde 0 ✓ Cenne Hamdullahi 51 km · Mopti 76 km · 200 km içinde 2 🔴 🔴 İKİNCİ ETKİ VAR ve bildiriyorum: kayıt açık kalır ama §2 emilmesiyle beyanlı boşluk EKRANDA kapanabilir — kayıtta sahipsiz, haritada boyalı. MARJİNAL KATKI ÖLÇÜLDÜ: Hamdullahi 0 hücre · Mopti 1 hücre ⇒ ÖNERİM: Hamdullahi LİSTEDEN DÜŞSÜN (katkı sıfır, Cenne'ye 51 km). Tarihî değeri ayrı karar — Masina Halifeliği'nin başkenti — ama bu programın ölçütü kapsama ve ölçüt onu istemiyor. Mopti KALSIN, ŞARTLA: 1700-1818 aralığında sahip YAZILMASIN. ④ 🔴 VE ÖLÇERKEN AYRI BİR ŞEY ÇIKTI — TIMBUKTU'NUN BEYANI VERİDE YOK Gao bos + kasitli_bosluk + neden ✓ TAM Cenne bos + kasitli_bosluk + neden ✓ TAM Timbuktu ÜÇÜ DE YOK 🔴 (s: 1700 sonrası hiç yok) Sebebi denetle.py:1018-1023'te ZATEN YAZILI: _sahiplik_uygula.py'nin ALAN_RX'i (d·s·v·isg) bos: ve neden:i taşımıyor, yamadan DÜŞMÜŞLER. CLAUDE.md §11 bunu ders diye kaydetmiş. ÖLÇTÜM: BORÇ BUGÜN HÂLÂ AÇIK. Ve sinsi tarafı: beyan denetle.py'nin listesinde durduğu için Değişmez 1b onu BEYANLI sayıyor — alet TEMİZ rapor veriyor, veri cinsi TAŞIMIYOR. §11'in kendi sınavı burada düşüyor: denetle.py'den sorabiliyorum, yerlesimler.js'ten SORAMIYORUM. Düzeltmedim — data/ donmuş ve kayıt benim dosyam değil. ⑤ SIRADAKİ İŞ — KUZEY AFRİKA'yı ALIYORUM KUTU: 20-37K / 18B-35D (_dunya_bosluk.py 'Kuzey Afrika' tanımı) Güney kenarı benim bitmiş kutumun kuzey kenarına DAYANIYOR (20K) — Sahel bağlantısı bende zaten kurulu, Tişît·Nema·Aravan·Bilma·Fachi· Kidal·Fada·Ounianga hattı kuzeye açılıyor. ⚠️ İKİ ÇAKIŞMA UYARISI, ölçmeden önce soruyorum: a) Kutu MISIR ve SUDAN kuzeyini kapsıyor (25-35D) — orası misir-sudan ve veride DOYGUN (ingiltere 129 · mehdi 64 dönem). Başka oturumda mı? b) Kutu FAS·CEZAYİR·TUNUS·LİBYA kıyısını kapsıyor — Osmanlı ocakları. Çekirdek veriyle örtüşüyor olabilir. Cevabını beklerken ölçüme başlıyorum (taban ölçmek çakışma yaratmaz); NOKTA KOLUNU kutu onaylanmadan AÇMAM (§① 'kutusu yazılmamış nokta kolu açılmaz').",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
