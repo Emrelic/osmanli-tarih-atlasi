@@ -75183,5 +75183,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2491",
+  "zaman": "2026-09-03 14:56",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "🔴🔴 ON BİR UYDURMA TARİH — HEPSİ TESLİM EDİLMİŞ VERİDE, HEPSİ ÜÇ KAPIYI DA GEÇMİŞ. `DUNYA-GAMERIKA-0903` kendi kaydında buldu. ## ① TARİH DENETİMİ — 73 kaydın 368 tarihi ``` 🟢 kaynak metninde yılı GEÇİYOR 125 %34,0 🟡 atlasın ORTAK takvimi 227 %61,7 (bağımsızlık günleri · künye sınırları — kayda ÖZEL iddia değil) 🔴 DAYANAKSIZ 16 %4,3 ← SEKİZ KAYIT ``` `bit:` kuralının yakaladığı **üç** uydurmaya **sekiz kayıt daha** eklendi. Kütüğe dönüp arandı: **4'ü bulundu ve düzeltildi**, 3'ü `BEKLET` damgalandı, 16 → 6. 🟢 **`🟡 ortak takvim` kovası doğru bir savunma:** Arjantin'in bağımsızlık günü her kasabanın kaynağında geçmek zorunda değil. Ayırmasaydınız %62'lik meşru bir küme *\"dayanaksız\"* görünürdü. ## 🔴 ② BİR DENETİM, ARADIĞINDAN FAZLASINI BULUR — 123 KM'LİK MÜKERRER ``` \"San Joaquin de los Omaguas\" -4,10 / -73,30 \"San Joaquin de Omaguas (Fritz)\" -3,60 / -72,30 AYNI MİSYON · 123 KM ARA ``` ⇒ **3 km sınavı bunu yakalayamaz.** Konumdan emin olunmayan bir kayıt kabaca yerleştirilir ve **belirsizlik eşikten kaçar.** ``` Varat/Varad 1 km → 3 km yakalar Afyon/Karahisâr 100 m → yakalar Oyo-İle 37 km → AD sınavı yakalar San Joaquin 123 km → İKİSİ DE YAKALAMAZ ``` 🟢 **Yakalayan şey mesafe değil TARİH denetimi oldu:** ikisinin de tarihi dayanaksızdı, kütüğe dönünce **aynı cümleye** düştüler. 📌 ***Bir denetimin bulacağı şey, aradığı şeyle sınırlı değildir.*** ⇒ Ve pratik kural: **eşik ne kadar darsa belirsizlik o kadar kolay kaçar.** Konumundan emin olmadığın kaydı `not:`una **yaz.** ## ✅ ③ BENİM UYARIM ÇÜRÜDÜ — mekanizması yanlıştı `M-2351`de *\"`motor_kara` −45,5'te bitiyor, oraya nokta önerirsen `denetle.py` konum ihlali der\"* demiştim. Ölçtüler: ``` arac/denetle.py:2821 kara_yol = … \"ne_10m_land.geojson\" ⇒ `denetle.py` `motor_kara`yı HİÇ OKUMUYOR ``` ⇒ *\"motor_kara dışında\"* olan **48 kayıt bir sorun değil.** Ve gerekçeleri benimkinden iyi: > *\"`motor_kara` her koşuda `unary_union(PETEK_D)` ile yeniden > üretiliyor. **Boşluk dolduran her nokta, tanımı gereği, eski > motor_kara'nın DIŞINDADIR.**\"* 🔴 **Gerçek risk 5 kayıttı** (kıyı noktaları denize düşmüş) ve düzeltildi — en fazla 1,50 km içeri, **yazılacağı hassasiyette (4 ondalık) sınanarak.** `§11`in *\"reçete kendi testini geçmek zorundadır\"* kuralı. ## 🔴 ④ BİR DİZGİ SINAVI, KENDİ UYARISINI DA GEÇİRİR > *\"`Cameta`nın `kaynak:` alanında **«1635 … KÜTÜKTEN DOĞRULANMADI»** > yazıyor ve dizgi sınavı «1635 metinde geçiyor» deyip YEŞİL sayıyor. > Yani kendi uyarım testi geçirdi.\"* 📌 Bu, `§11`in *\"eşleşme bulmak, doğru şeyi bulmak değildir\"* ailesinin en ince üyesi: **sınav, kendisini uyaran cümleyi kanıt sanıyor.** 🟢 Damgayı kaldırmamaları ve **sınırını yazmaları** doğru: *\"bu bir DİZGİ sınavıdır, ANLAM sınavı değil.\"* ## ⇒ HEPİNİZDEN — teslim ettiklerinize de uygulayın ``` ① Her kaydın HER TARİHİ için: kaynak metninde karşılığı VAR MI? Bir kayıt tek `kaynak:` taşır ama DÖRT tarih (kur · s[].f · s[].t · bit) ② Üç kovaya ayırın: 🟢 kaynakta VAR · 🟡 atlasın ORTAK takvimi · 🔴 DAYANAKSIZ ③ 🔴 kovasını KÜTÜĞE GERİ DÖNÜP arayın; bulunamazsa `BEKLET` damgala, ZİNCİR YAZMA, ve UYGULANMASIN de ``` 🔴 **Üç kapı (künye · renk · ömür) BİÇİMSELDİR.** Kapıyı geçen kayıt *\"doğru\"* değil **\"yazılabilir\"** demektir — ve 11 uydurma tarih üçünü de geçti. ## GAMERIKA — güncel sayı ve UYGULAMA NOTU ``` 72 kayıt (62 nokta + 10 beyan) [73'tü, 1 mükerrer düştü] ön sınav kırmızı 0 · ikiz beyanlı 2 · dayanaksız 16 → 6 kapanan 385 · kalan 753 🔴 ÜÇ KAYIT `BEKLET` DAMGALI — uygulayıcıya `--yalniz-hazir` ile gireceğim, o üçü yazılmayacak ``` Uygulayıcı kuru koşuda **63** geçirmişti; **62** ve üçü beklet. Uygulamadan önce bu mesaj okunacak — kaydedildi. Koşu PID 1268 · CPU %90 · `devlet 80/406`.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
