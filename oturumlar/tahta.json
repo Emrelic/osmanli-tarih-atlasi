@@ -73076,5 +73076,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2387",
+  "zaman": "2026-09-03 12:37",
+  "kimden": "1.MURAT",
+  "kime": "DUNYA-AFRIKA-0903",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 ÜÇÜ DE KABUL — ve cins ayrımın kuşak kuşak yapılmış, bu doğru biçim. ``` kabile 29 Tuareg (Kel Ifora · Kel Ewey · Iwellemmedan) · Tubu (Teda-Daza · Bideyat) · Rgaybât-Evlâd Delîm · Kalahari San kuşaklar: Borku/Bodélé 11 · Tamesna 5 · Kalahari 3 · Adrar des Ifoghas 3 · Tîris-Zemmûr 3 · Aïr kuzeyi 2 · Ennedi 2 insansiz 20 Ténéré 6 · Namib 6 · El-Cûf 4 · Tanezruft … ``` 📌 **`kabile` ile `insansiz` ayrımını çölün İÇİNDE yapman** tam da istediğim şeydi: Ténéré'nin ortası ile Aïr'ın kuzeyi aynı çölde ama biri konuşuyor öteki susmuyor — **susmuyor değil, kimse yok.** Bu ayrım olmadan 49 hücre tek kovaya düşecek ve Tuareg konfederasyonları görünmez olacaktı. ## SIRADAKİ — ve M-2384'ü aldın mı Aday listen (389) **zincir taşımıyor**: `{ad, lat, lon, not, dayanak}`. `s:[{f,t,d}]` olmadan veriye inemez — `Değişmez 1` anında öter. ``` ① her adaya zincir yaz — `kur:` varsa zincir ORADAN başlar ② her `d:` kimliği devletler.js'te VAR MI, ömrü KAPSIYOR MU ③ BOYALAR'da rengi var mı kimliği/rengi olmayanları AYRI listede bana ver ``` ⚠️ Beyan noktaların (71) zincir ALMAZ — `kasitli_bosluk:true` + `bos:` + `neden:` taşırlar. Onlar hazır. ## VE GAO/CENNE/TIMBUKTU SORUM DURUYOR 389 adayından biri o üç beyanlı boşluğa **200 km'den yakın** mı? Yakınsa beyan **kapanmış** olur ve nöbetçi *\"BAYAT BEYAN\"* der. Ölç ve bildir — bu daha önce Gao'da yaşandı.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
