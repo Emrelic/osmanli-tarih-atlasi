@@ -1,0 +1,53 @@
+{
+ "_DAMGA": "3 Eylül 2026 · DUNYA-KAMERIKA-0903 · ÖLÇÜMDEN ÖNCE yazıldı",
+ "_NEDEN_ONCE": "§11: «Sonradan yazılan beklenti, ölçümü gördükten sonra farkında olmadan ona göre şekillenir ve hiçbir zaman yanlış çıkmaz — yani hiçbir şey öğretmez. Önce yazılan beklenti YANLIŞ ÇIKABİLİR, ve ancak yanlış çıkabilen bir şey bilgi taşır.»",
+ "_DORT_AYAK": "Her kalem dördünü de yazar: ① NE bekliyorum ② MAZERETİ var mı ③ HANGİ ÇIKTIDAN, HANGİ BİRİMDE ④ HANGİ KOŞUDA, NEYE KARŞI",
+
+ "_TABAN": {
+  "yerlesim": 3401,
+  "kunye": 591,
+  "renk": 407,
+  "konum": 0,
+  "olculdugu_an": "AFRIKA dosyası HENÜZ İNMEDİ — üç öngörünün de en büyük belirsizliği bu"
+ },
+
+ "ongoruler": [
+  {
+   "no": 1,
+   "sabit": "BEKLENEN_SAHIPSIZ",
+   "eski": 300,
+   "ONGORUM": "315 + AFRIKA'nın beyanlı boşluk sayısı",
+   "bugun_olculen": 315,
+   "yon": "ARTAR, ve artması DOĞRUDUR",
+   "gerekce": "Bu sabit bir TAVAN değil bir FOTOĞRAF. Atlas her büyüdüğünde beyanlı boşluk da büyür: benim partim 5 kasitli_bosluk getirdi (Mushuau-nipi · Pecos Pueblo · Paquimé · Tocobaga · Wintu) ve hepsi gerekçeli. Asıl ölçüt Değişmez 1c'dir ve o ✓ — belgesiz 7, tavan 7, ve yedisinin yedisi de AFRİKA (Agadez · Darfur · Hadramut · Ndjamena · Ogaden · Somali çölü), hiçbiri benim.",
+   "MAZERET": "🔴 MAZERET VAR VE ÖNCEDEN YAZIYORUM: AFRIKA dosyası inmedi. İnince bu sayı yine artar ve o artış BENİM ÖNGÖRÜMÜ ÇÜRÜTMEZ — çünkü öngörüm mutlak sayı değil, '315 + AFRIKA' biçiminde. ⚠️ Ama AFRIKA indikten SONRA sabit hâlâ 300 kalırsa, o zaman mazeret YOK: sabit güncellenmemiş demektir.",
+   "NEREDEN_OKUNACAK": "py arac/denetle.py → 'Değişmez 1 ... N sahipsiz' satırı · birim: NOKTA ADEDİ (yerleşim-tarih çifti DEĞİL)",
+   "HANGI_KOSU": "koşu gerektirmez — denetle.py veriden ölçer. AFRIKA indikten HEMEN SONRA, koşu 4'ü BEKLEMEDEN ölçülebilir."
+  },
+  {
+   "no": 2,
+   "sabit": "ENKLAV_SORGU",
+   "eski": 537,
+   "ONGORUM": "574 + AFRIKA'nın getirdiği kopuk gövdeler",
+   "bugun_olculen": 574,
+   "yon": "ARTAR",
+   "gerekce": "Aletin KENDİ uyarısı: «BU DAL VERİ DEĞİL YÖNTEM ÖLÇER. Bir ada, veri YANLIŞ olduğu için de DOĞRU olduğu için de doğar.» Benim +37'min bir kısmı YAPISAL OLARAK KAÇINILMAZ ve doğrudur: Arktik Takımadalar · Aleut adaları · Haida Gwaii · Newfoundland gerçekten kopuk gövdedir. Aletin C-hakiki kovasının çaresi zaten `enklav:true`.",
+   "MAZERET": "🔴 KISMÎ MAZERET, VE SINIRINI ÇİZİYORUM: +37'nin kaçının benim olduğunu ÖLÇEMEDİM (ayrıştırıcım 0 döndürdü, satır biçimi tutmadı) ve yanlış sayı vermektense ölçemedim dedim. ⇒ Bu öngörü A/B/C kovalarının DAĞILIMI hakkında bir şey söylemiyor. Eğer ölçüm C-hakiki kovasında benim adalarımı GÖSTERMEZSE (yani A-koridor'a düşerlerse) öngörüm YANLIŞ demektir ve mazereti YOKTUR — çünkü Arktik adalarının A-koridor'a düşmesi 300 km içinde ana gövde var demektir ve o benim veri kusurumdur.",
+   "NEREDEN_OKUNACAK": "py arac/denetle.py --ayrinti → 'Değişmez 7 ... N sorgusuz enklav' + altındaki A/B/C kovaları · birim: DÖNEM-ADA çifti",
+   "HANGI_KOSU": "koşu gerektirmez. ⚠️ Ama A/B/C dağılımı PETEK GEOMETRİSİNE bağlı olduğu için koşu 4'ten SONRA yeniden ölçülmeli — koşu öncesi ve sonrası AYNI çıkmayabilir."
+  },
+  {
+   "no": 3,
+   "sabit": "Değişmez 2s AÇIK",
+   "eski_taban": 80,
+   "ONGORUM": "80 ± 2 — yani benim 11 maddem bu sayıyı NEREDEYSE HİÇ DEĞİŞTİRMEYECEK",
+   "yon": "SABİT KALIR",
+   "gerekce": "🔴 VE BU ÖNGÖRÜNÜN TAMAMI TEK BİR ÖLÇÜME DAYANIYOR: `denetle.py:1296` KAPSAM_ESIGI_KM = 2014 ve Kuzey Amerika Osmanlı küresinden ~7000+ km. Bugünkü koşuda 2s zaten '323 KAPSAM DIŞI' diyor ve benim 377 noktamın kırılmalarının TAMAMI o kovada. ⇒ 11 maddem KAPSAM DIŞI kırılmaları karşılıyor, yani AÇIK sayısına dokunmuyor.",
+   "MAZERET": "🔴 MAZERET YOK. Bu öngörü tutmazsa varsayımım yanlıştır ve iki ihtimalden biridir: (a) 11 maddemden biri Osmanlı küresine 2014 km'den yakın bir kırılmayı karşılıyor — tek adayı 1535-04-17 Yeni İspanya (yer_id Tenochtitlan, hâlâ ~11.000 km) ki bu ZAYIF, ya da (b) maddelerin inmesi başka bir kırılmanın en yakın maddesini DEĞİŞTİRİYOR ve bir kayıt açığa düşüyor. (b) olursa bu GERÇEK bir bulgudur ve maddelerimin yan etkisidir.",
+   "NEREDEN_OKUNACAK": "py arac/denetle.py → 'Değişmez 2s ... N AÇIK (tavan 121)' satırı · birim: KIRILMA GÜNÜ adedi",
+   "HANGI_KOSU": "11 madde data/olaylar_ek*.js'e indikten SONRA, koşu 4'ten ÖNCE. ⚠️ Koşuyu beklemek ölçümü BULANDIRIR: koşu petek geometrisini değiştirir, madde etkisi ile koşu etkisi ayrılamaz olur."
+  }
+ ],
+
+ "_ONCEDEN_YAZILAN_UYARI": "🔴 Üç öngörünün ÜÇÜ de aynı belirsizliği taşıyor: AFRIKA inmedi. Ölçüm AFRIKA'dan ÖNCE yapılırsa ①② çürümez ama EKSİK ölçülür; AFRIKA'dan SONRA yapılırsa benim katkım ile AFRIKA'nınki AYRIŞMAZ. ⇒ Doğru sıra: ÖNCE şimdi ölç (benim katkım yalın), SONRA AFRIKA inince tekrar. İki ölçüm arasındaki fark AFRIKA'nındır. Tek ölçüm yapılırsa hangi partinin ne getirdiği bir daha bilinemez."
+}

@@ -10,11 +10,11 @@
  },
  {
   "ad": "Üç Aziz Körfezi (Trekh Svyatiteley)",
-  "lat": 57.17,
-  "lon": -153.5,
+  "lat": 57.168,
+  "lon": -153.502,
   "f": "1784-08-14",
   "bolge": "Rus Amerikası",
-  "not": "Şelihov'un ilk kalıcı Rus yerleşimi",
+  "not": "Şelihov'un ilk kalıcı Rus yerleşimi · konum: denetle.py'nin KENDİ reçetesi kendi testini GEÇMEDİ ⇒ denetçinin maskesi içe aktarılıp geçerli koordinat ARANDI (57.1700,-153.5000 → 57.1680,-153.5020)",
   "kaynak_reg": "Black, Russians in Alaska"
  },
  {
@@ -22,7 +22,7 @@
   "lat": 53.87,
   "lon": -166.53,
   "f": "1787-01-01",
-  "bolge": "Aleut",
+  "bolge": "Rus Amerikası",
   "not": "Aleut adaları ana Rus üssü",
   "kaynak_reg": "Black, Russians in Alaska"
  },
@@ -52,11 +52,12 @@
  },
  {
   "ad": "Mihaylovskiy Redut (St. Michael)",
-  "lat": 63.478,
-  "lon": -162.03,
+  "lat": 63.4853,
+  "lon": -162.0306,
   "f": "1833-01-01",
   "bolge": "Rus Amerikası",
-  "kaynak_reg": "Black, Russians in Alaska"
+  "kaynak_reg": "Black, Russians in Alaska",
+  "not": "konum denetle.py reçetesiyle düzeltildi (0.76 km maske dışıydı: 63.4780,-162.0300 → 63.4853,-162.0306) · konum denetle.py reçetesiyle düzeltildi (0.76 km maske dışıydı: 63.4853,-162.0306 → 63.4853,-162.0306)"
  },
  {
   "ad": "Nulato",
@@ -123,11 +124,12 @@
  },
  {
   "ad": "Nome",
-  "lat": 64.501,
-  "lon": -165.406,
+  "lat": 64.506,
+  "lon": -165.4052,
   "f": "1899-01-01",
   "bolge": "ABD Alaska",
-  "kaynak_reg": "Naske & Slotnick, Alaska: A History"
+  "kaynak_reg": "Naske & Slotnick, Alaska: A History",
+  "not": "konum denetle.py reçetesiyle düzeltildi (0.51 km maske dışıydı: 64.5010,-165.4060 → 64.5060,-165.4052) · konum denetle.py reçetesiyle düzeltildi (0.51 km maske dışıydı: 64.5060,-165.4052 → 64.5060,-165.4052)"
  },
  {
   "ad": "Bethel (Mumtrekhlagamute)",
@@ -148,11 +150,12 @@
  },
  {
   "ad": "Valdez",
-  "lat": 61.131,
-  "lon": -146.348,
+  "lat": 61.1362,
+  "lon": -146.3482,
   "f": "1898-01-01",
   "bolge": "ABD Alaska",
-  "kaynak_reg": "Naske & Slotnick, Alaska: A History"
+  "kaynak_reg": "Naske & Slotnick, Alaska: A History",
+  "not": "konum denetle.py reçetesiyle düzeltildi (0.52 km maske dışıydı: 61.1310,-146.3480 → 61.1362,-146.3482) · konum denetle.py reçetesiyle düzeltildi (0.52 km maske dışıydı: 61.1362,-146.3482 → 61.1362,-146.3482)"
  },
  {
   "ad": "Skagway",
@@ -172,11 +175,12 @@
  },
  {
   "ad": "Wrangell (Redut Sv. Dionisiy)",
-  "lat": 56.471,
-  "lon": -132.38,
+  "lat": 56.472,
+  "lon": -132.3761,
   "f": "1834-01-01",
   "bolge": "Rus Amerikası",
-  "kaynak_reg": "Black, Russians in Alaska"
+  "kaynak_reg": "Black, Russians in Alaska",
+  "not": "konum denetle.py reçetesiyle düzeltildi (0.39 km maske dışıydı: 56.4710,-132.3800 → 56.4720,-132.3761) · konum denetle.py reçetesiyle düzeltildi (0.39 km maske dışıydı: 56.4720,-132.3761 → 56.4720,-132.3761)"
  },
  {
   "ad": "Dawson City",
@@ -253,11 +257,12 @@
  },
  {
   "ad": "Fort Rae (Behchokǫ̀)",
-  "lat": 62.803,
-  "lon": -116.047,
+  "lat": 62.7856,
+  "lon": -116.0456,
   "f": "1852-01-01",
   "bolge": "HBC",
-  "kaynak_reg": "Historical Atlas of Canada"
+  "kaynak_reg": "Historical Atlas of Canada",
+  "not": "konum denetle.py reçetesiyle düzeltildi (1.89 km maske dışıydı: 62.8030,-116.0470 → 62.7856,-116.0456) · konum denetle.py reçetesiyle düzeltildi (1.89 km maske dışıydı: 62.7856,-116.0456 → 62.7856,-116.0456)"
  },
  {
   "ad": "Fort Chipewyan",
@@ -311,27 +316,29 @@
  },
  {
   "ad": "Skidegate (Haida Gwaii)",
-  "lat": 53.249,
-  "lon": -132.0,
+  "lat": 53.2559,
+  "lon": -132.0022,
   "f": "1281-01-01",
   "bolge": "Hayda",
-  "kaynak_reg": "HNAI c.7 Northwest Coast (Smithsonian)"
+  "kaynak_reg": "HNAI c.7 Northwest Coast (Smithsonian)",
+  "not": "konum denetle.py reçetesiyle düzeltildi (0.75 km maske dışıydı: 53.2490,-132.0000 → 53.2559,-132.0022) · konum denetle.py reçetesiyle düzeltildi (0.75 km maske dışıydı: 53.2559,-132.0022 → 53.2559,-132.0022)"
  },
  {
   "ad": "SG̱ang Gwaay (Ninstints)",
-  "lat": 52.096,
-  "lon": -131.223,
+  "lat": 52.1352,
+  "lon": -131.2403,
   "f": "1281-01-01",
   "bolge": "Hayda",
-  "kaynak_reg": "HNAI c.7 Northwest Coast (Smithsonian)"
+  "kaynak_reg": "HNAI c.7 Northwest Coast (Smithsonian)",
+  "not": "konum denetle.py reçetesiyle düzeltildi (4.72 km maske dışıydı: 52.0960,-131.2230 → 52.1352,-131.2403) · konum denetle.py reçetesiyle düzeltildi (4.72 km maske dışıydı: 52.1352,-131.2403 → 52.1352,-131.2403)"
  },
  {
   "ad": "Yuquot (Nootka Sound)",
-  "lat": 49.594,
-  "lon": -126.617,
+  "lat": 49.6041,
+  "lon": -126.6341,
   "f": "1281-01-01",
   "bolge": "Mowaçaht",
-  "not": "1789 Santa Cruz de Nuca; Nootka Buhranı",
+  "not": "1789 Santa Cruz de Nuca; Nootka Buhranı · konum denetle.py reçetesiyle düzeltildi (2.15 km maske dışıydı: 49.5940,-126.6170 → 49.6041,-126.6341) · konum denetle.py reçetesiyle düzeltildi (2.15 km maske dışıydı: 49.6041,-126.6341 → 49.6041,-126.6341)",
   "kaynak_reg": "HNAI c.7 Northwest Coast (Smithsonian)"
  },
  {
@@ -401,11 +408,11 @@
  },
  {
   "ad": "York Factory",
-  "lat": 57.0,
-  "lon": -92.3,
+  "lat": 57.0099,
+  "lon": -92.3082,
   "f": "1684-01-01",
   "bolge": "HBC",
-  "not": "HBC'nin ana giriş limanı",
+  "not": "HBC'nin ana giriş limanı · konum denetle.py reçetesiyle düzeltildi (1.37 km maske dışıydı: 57.0000,-92.3000 → 57.0099,-92.3082) · konum denetle.py reçetesiyle düzeltildi (1.37 km maske dışıydı: 57.0099,-92.3082 → 57.0099,-92.3082)",
   "kaynak_reg": "Historical Atlas of Canada"
  },
  {
@@ -426,11 +433,12 @@
  },
  {
   "ad": "Moose Factory",
-  "lat": 51.27,
-  "lon": -80.61,
+  "lat": 51.2986,
+  "lon": -80.6227,
   "f": "1673-01-01",
   "bolge": "HBC",
-  "kaynak_reg": "Historical Atlas of Canada"
+  "kaynak_reg": "Historical Atlas of Canada",
+  "not": "konum denetle.py reçetesiyle düzeltildi (3.42 km maske dışıydı: 51.2700,-80.6100 → 51.2986,-80.6227) · konum denetle.py reçetesiyle düzeltildi (3.42 km maske dışıydı: 51.2986,-80.6227 → 51.2986,-80.6227)"
  },
  {
   "ad": "Waskaganish (Rupert House)",
@@ -518,11 +526,11 @@
  },
  {
   "ad": "Kugluktuk (Coppermine)",
-  "lat": 67.827,
-  "lon": -115.098,
+  "lat": 67.8018,
+  "lon": -115.1003,
   "f": "1281-01-01",
   "bolge": "Bakır İnuit",
-  "not": "Hearne 1771 tarifi",
+  "not": "Hearne 1771 tarifi · konum denetle.py reçetesiyle düzeltildi (2.77 km maske dışıydı: 67.8270,-115.0980 → 67.8018,-115.1003) · konum denetle.py reçetesiyle düzeltildi (2.77 km maske dışıydı: 67.8018,-115.1003 → 67.8018,-115.1003)",
   "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)"
  },
  {
@@ -561,20 +569,21 @@
  },
  {
   "ad": "Tadoussac",
-  "lat": 48.143,
-  "lon": -69.72,
+  "lat": 48.1471,
+  "lon": -69.7186,
   "f": "1600-01-01",
   "bolge": "Yeni Fransa",
-  "not": "Kürk ticaretinin ilk kalıcı postası",
+  "not": "Kürk ticaretinin ilk kalıcı postası · konum denetle.py reçetesiyle düzeltildi (0.42 km maske dışıydı: 48.1430,-69.7200 → 48.1471,-69.7186) · konum denetle.py reçetesiyle düzeltildi (0.42 km maske dışıydı: 48.1471,-69.7186 → 48.1471,-69.7186)",
   "kaynak_reg": "Dictionary of Canadian Biography"
  },
  {
   "ad": "Trois-Rivières",
-  "lat": 46.343,
-  "lon": -72.543,
+  "lat": 46.3442,
+  "lon": -72.5439,
   "f": "1634-07-04",
   "bolge": "Yeni Fransa",
-  "kaynak_reg": "Dictionary of Canadian Biography"
+  "kaynak_reg": "Dictionary of Canadian Biography",
+  "not": "konum denetle.py reçetesiyle düzeltildi (0.11 km maske dışıydı: 46.3430,-72.5430 → 46.3442,-72.5439) · konum denetle.py reçetesiyle düzeltildi (0.11 km maske dışıydı: 46.3442,-72.5439 → 46.3442,-72.5439)"
  },
  {
   "ad": "Chicoutimi",
@@ -595,36 +604,39 @@
  },
  {
   "ad": "Mingan",
-  "lat": 50.288,
-  "lon": -64.031,
+  "lat": 50.298,
+  "lon": -64.0332,
   "f": "1679-01-01",
   "bolge": "Yeni Fransa",
-  "kaynak_reg": "Dictionary of Canadian Biography"
+  "kaynak_reg": "Dictionary of Canadian Biography",
+  "not": "konum denetle.py reçetesiyle düzeltildi (1.08 km maske dışıydı: 50.2880,-64.0310 → 50.2980,-64.0332) · konum denetle.py reçetesiyle düzeltildi (1.08 km maske dışıydı: 50.2980,-64.0332 → 50.2980,-64.0332)"
  },
  {
   "ad": "Gaspé",
-  "lat": 48.832,
-  "lon": -64.482,
+  "lat": 48.8357,
+  "lon": -64.4823,
   "f": "1534-07-24",
   "bolge": "Yeni Fransa",
-  "not": "Cartier'in haç diktiği yer; kalıcı balıkçı iskânı",
+  "not": "Cartier'in haç diktiği yer; kalıcı balıkçı iskânı · konum denetle.py reçetesiyle düzeltildi (0.36 km maske dışıydı: 48.8320,-64.4820 → 48.8357,-64.4823) · konum denetle.py reçetesiyle düzeltildi (0.36 km maske dışıydı: 48.8357,-64.4823 → 48.8357,-64.4823)",
   "kaynak_reg": "Dictionary of Canadian Biography"
  },
  {
   "ad": "Fort Frontenac (Kingston)",
-  "lat": 44.231,
-  "lon": -76.481,
+  "lat": 44.2524,
+  "lon": -76.4918,
   "f": "1673-01-01",
   "bolge": "Yeni Fransa",
-  "kaynak_reg": "Dictionary of Canadian Biography"
+  "kaynak_reg": "Dictionary of Canadian Biography",
+  "not": "konum denetle.py reçetesiyle düzeltildi (2.61 km maske dışıydı: 44.2310,-76.4810 → 44.2524,-76.4918) · konum denetle.py reçetesiyle düzeltildi (2.61 km maske dışıydı: 44.2524,-76.4918 → 44.2524,-76.4918)"
  },
  {
   "ad": "Michilimackinac",
-  "lat": 45.85,
-  "lon": -84.73,
+  "lat": 45.8575,
+  "lon": -84.7347,
   "f": "1671-01-01",
   "bolge": "Yeni Fransa",
-  "kaynak_reg": "Dictionary of Canadian Biography"
+  "kaynak_reg": "Dictionary of Canadian Biography",
+  "not": "konum denetle.py reçetesiyle düzeltildi (0.93 km maske dışıydı: 45.8500,-84.7300 → 45.8575,-84.7347) · konum denetle.py reçetesiyle düzeltildi (0.93 km maske dışıydı: 45.8575,-84.7347 → 45.8575,-84.7347)"
  },
  {
   "ad": "Sault Ste. Marie",
@@ -662,11 +674,12 @@
  },
  {
   "ad": "Grand Portage",
-  "lat": 47.962,
-  "lon": -89.684,
+  "lat": 47.9684,
+  "lon": -89.6883,
   "f": "1731-01-01",
   "bolge": "NWC",
-  "kaynak_reg": "Historical Atlas of Canada"
+  "kaynak_reg": "Historical Atlas of Canada",
+  "not": "konum denetle.py reçetesiyle düzeltildi (0.81 km maske dışıydı: 47.9620,-89.6840 → 47.9684,-89.6883) · konum denetle.py reçetesiyle düzeltildi (0.81 km maske dışıydı: 47.9684,-89.6883 → 47.9684,-89.6883)"
  },
  {
   "ad": "Fort St. Pierre (Rainy Lake)",
@@ -735,11 +748,12 @@
  },
  {
   "ad": "Halifax",
-  "lat": 44.649,
-  "lon": -63.575,
+  "lat": 44.6486,
+  "lon": -63.5755,
   "f": "1749-06-21",
   "bolge": "Britanya Kanadası",
-  "kaynak_reg": "Dictionary of Canadian Biography"
+  "kaynak_reg": "Dictionary of Canadian Biography",
+  "not": "konum denetle.py reçetesiyle düzeltildi (0.01 km maske dışıydı: 44.6490,-63.5750 → 44.6486,-63.5755) · konum denetle.py reçetesiyle düzeltildi (0.01 km maske dışıydı: 44.6486,-63.5755 → 44.6486,-63.5755)"
  },
  {
   "ad": "Louisbourg",
@@ -751,19 +765,20 @@
  },
  {
   "ad": "Port-la-Joye (Charlottetown)",
-  "lat": 46.238,
-  "lon": -63.131,
+  "lat": 46.2398,
+  "lon": -63.1318,
   "f": "1720-01-01",
   "bolge": "Yeni Fransa/Britanya",
-  "kaynak_reg": "Dictionary of Canadian Biography"
+  "kaynak_reg": "Dictionary of Canadian Biography",
+  "not": "konum denetle.py reçetesiyle düzeltildi (0.16 km maske dışıydı: 46.2380,-63.1310 → 46.2398,-63.1318) · konum denetle.py reçetesiyle düzeltildi (0.16 km maske dışıydı: 46.2398,-63.1318 → 46.2398,-63.1318)"
  },
  {
   "ad": "Saint John (NB)",
-  "lat": 45.282,
-  "lon": -66.063,
+  "lat": 45.2916,
+  "lon": -66.0603,
   "f": "1631-01-01",
   "bolge": "Akadya/Britanya",
-  "not": "Fort La Tour 1631; şehir 1785",
+  "not": "Fort La Tour 1631; şehir 1785 · konum denetle.py reçetesiyle düzeltildi (1.05 km maske dışıydı: 45.2820,-66.0630 → 45.2916,-66.0603) · konum denetle.py reçetesiyle düzeltildi (1.05 km maske dışıydı: 45.2916,-66.0603 → 45.2916,-66.0603)",
   "kaynak_reg": "Dictionary of Canadian Biography"
  },
  {
@@ -777,11 +792,12 @@
  },
  {
   "ad": "Plaisance (Placentia)",
-  "lat": 47.244,
-  "lon": -53.963,
+  "lat": 47.2491,
+  "lon": -53.9605,
   "f": "1662-01-01",
   "bolge": "Yeni Fransa",
-  "kaynak_reg": "Dictionary of Canadian Biography"
+  "kaynak_reg": "Dictionary of Canadian Biography",
+  "not": "konum denetle.py reçetesiyle düzeltildi (0.57 km maske dışıydı: 47.2440,-53.9630 → 47.2491,-53.9605) · konum denetle.py reçetesiyle düzeltildi (0.57 km maske dışıydı: 47.2491,-53.9605 → 47.2491,-53.9605)"
  },
  {
   "ad": "Nain (Labrador)",
@@ -801,11 +817,12 @@
  },
  {
   "ad": "Hebron (Labrador)",
-  "lat": 58.198,
-  "lon": -62.62,
+  "lat": 58.1997,
+  "lon": -62.623,
   "f": "1830-01-01",
   "bolge": "Moravian/İnuit",
-  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)"
+  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)",
+  "not": "konum denetle.py reçetesiyle düzeltildi (0.33 km maske dışıydı: 58.1980,-62.6200 → 58.1997,-62.6230) · konum denetle.py reçetesiyle düzeltildi (0.33 km maske dışıydı: 58.1997,-62.6230 → 58.1997,-62.6230)"
  },
  {
   "ad": "Sainte-Marie-au-pays-des-Hurons",
@@ -1109,19 +1126,21 @@
  },
  {
   "ad": "Duluth (Fond du Lac)",
-  "lat": 46.787,
-  "lon": -92.1,
+  "lat": 46.7897,
+  "lon": -92.1045,
   "f": "1793-01-01",
   "bolge": "NWC/Ojibwe",
-  "kaynak_reg": "HNAI c.15 Northeast (Smithsonian)"
+  "kaynak_reg": "HNAI c.15 Northeast (Smithsonian)",
+  "not": "konum denetle.py reçetesiyle düzeltildi (0.53 km maske dışıydı: 46.7870,-92.1000 → 46.7897,-92.1045) · konum denetle.py reçetesiyle düzeltildi (0.53 km maske dışıydı: 46.7897,-92.1045 → 46.7897,-92.1045)"
  },
  {
   "ad": "Chequamegon (La Pointe)",
-  "lat": 46.783,
-  "lon": -90.789,
+  "lat": 46.7816,
+  "lon": -90.7862,
   "f": "1665-01-01",
   "bolge": "Ojibwe/Yeni Fransa",
-  "kaynak_reg": "HNAI c.15 Northeast (Smithsonian)"
+  "kaynak_reg": "HNAI c.15 Northeast (Smithsonian)",
+  "not": "konum denetle.py reçetesiyle düzeltildi (0.29 km maske dışıydı: 46.7830,-90.7890 → 46.7816,-90.7862) · konum denetle.py reçetesiyle düzeltildi (0.29 km maske dışıydı: 46.7816,-90.7862 → 46.7816,-90.7862)"
  },
  {
   "ad": "Sioux Falls",
@@ -1490,11 +1509,12 @@
  },
  {
   "ad": "Mistassini (Lac Mistassini)",
-  "lat": 50.42,
-  "lon": -73.87,
+  "lat": 50.4231,
+  "lon": -73.8639,
   "f": "1673-01-01",
   "bolge": "Kri/HBC",
-  "kaynak_reg": "Historical Atlas of Canada"
+  "kaynak_reg": "Historical Atlas of Canada",
+  "not": "konum denetle.py reçetesiyle düzeltildi (0.71 km maske dışıydı: 50.4200,-73.8700 → 50.4231,-73.8639) · konum denetle.py reçetesiyle düzeltildi (0.71 km maske dışıydı: 50.4231,-73.8639 → 50.4231,-73.8639)"
  },
  {
   "ad": "Nemiscau",
@@ -1538,11 +1558,12 @@
  },
  {
   "ad": "Rigolet",
-  "lat": 54.18,
-  "lon": -58.43,
+  "lat": 54.1848,
+  "lon": -58.436,
   "f": "1836-01-01",
   "bolge": "İnuit/HBC",
-  "kaynak_reg": "Historical Atlas of Canada"
+  "kaynak_reg": "Historical Atlas of Canada",
+  "not": "konum denetle.py reçetesiyle düzeltildi (0.80 km maske dışıydı: 54.1800,-58.4300 → 54.1848,-58.4360) · konum denetle.py reçetesiyle düzeltildi (0.80 km maske dışıydı: 54.1848,-58.4360 → 54.1848,-58.4360)"
  },
  {
   "ad": "Kızıl Kızılderili Gölü (Beothuk)",
@@ -1622,11 +1643,12 @@
  },
  {
   "ad": "Killiniq (Port Burwell)",
-  "lat": 60.41,
-  "lon": -64.83,
+  "lat": 60.4164,
+  "lon": -64.8247,
   "f": "1904-01-01",
   "bolge": "İnuit",
-  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)"
+  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)",
+  "not": "konum denetle.py reçetesiyle düzeltildi (0.87 km maske dışıydı: 60.4100,-64.8300 → 60.4164,-64.8247) · konum denetle.py reçetesiyle düzeltildi (0.87 km maske dışıydı: 60.4164,-64.8247 → 60.4164,-64.8247)"
  },
  {
   "ad": "Kugaaruk (Pelly Bay)",
@@ -1646,20 +1668,21 @@
  },
  {
   "ad": "Ennadai (Ihalmiut, Karayer İnuit)",
-  "lat": 61.1,
-  "lon": -100.9,
+  "lat": 61.1028,
+  "lon": -100.8954,
   "f": "1281-01-01",
   "bolge": "Karayer İnuit",
-  "not": "Kıyıdan uzak, iç bölge ren geyiği avcıları",
+  "not": "Kıyıdan uzak, iç bölge ren geyiği avcıları · konum denetle.py reçetesiyle düzeltildi (0.55 km maske dışıydı: 61.1000,-100.9000 → 61.1028,-100.8954) · konum denetle.py reçetesiyle düzeltildi (0.55 km maske dışıydı: 61.1028,-100.8954 → 61.1028,-100.8954)",
   "kaynak_reg": "Birket-Smith, The Caribou Eskimos (Beşinci Thule Seferi raporu)"
  },
  {
   "ad": "Fort Reliance (Büyük Köle Gölü)",
-  "lat": 62.717,
-  "lon": -109.167,
+  "lat": 62.727,
+  "lon": -109.157,
   "f": "1833-01-01",
   "bolge": "HBC/Yellowknives",
-  "kaynak_reg": "Historical Atlas of Canada"
+  "kaynak_reg": "Historical Atlas of Canada",
+  "not": "konum: denetle.py'nin KENDİ reçetesi kendi testini GEÇMEDİ ⇒ denetçinin maskesi içe aktarılıp geçerli koordinat ARANDI (62.7170,-109.1670 → 62.7270,-109.1570)"
  },
  {
   "ad": "Fort Confidence (Büyük Ayı Gölü)",
@@ -1696,19 +1719,20 @@
  },
  {
   "ad": "Qikiqtaruk (Herschel Adası)",
-  "lat": 69.57,
-  "lon": -138.91,
+  "lat": 69.5792,
+  "lon": -138.9091,
   "f": "1890-01-01",
   "bolge": "İnuvialuit/balina",
-  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)"
+  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)",
+  "not": "konum denetle.py reçetesiyle düzeltildi (0.97 km maske dışıydı: 69.5700,-138.9100 → 69.5792,-138.9091) · konum denetle.py reçetesiyle düzeltildi (0.97 km maske dışıydı: 69.5792,-138.9091 → 69.5792,-138.9091)"
  },
  {
   "ad": "Kaktovik (Barter Adası)",
-  "lat": 70.132,
-  "lon": -143.624,
+  "lat": 70.0918,
+  "lon": -143.6225,
   "f": "1281-01-01",
   "bolge": "İnyupiak",
-  "not": "Adı 'takas adası' — İnyupiak-İnuvialuit ticaret buluşması",
+  "not": "Adı 'takas adası' — İnyupiak-İnuvialuit ticaret buluşması · konum denetle.py reçetesiyle düzeltildi (4.43 km maske dışıydı: 70.1320,-143.6240 → 70.0918,-143.6225) · konum denetle.py reçetesiyle düzeltildi (4.43 km maske dışıydı: 70.0918,-143.6225 → 70.0918,-143.6225)",
   "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)"
  },
  {
@@ -1779,11 +1803,12 @@
  },
  {
   "ad": "Aleksandrovski Redut (Nushagak)",
-  "lat": 58.9,
-  "lon": -158.53,
+  "lat": 58.8876,
+  "lon": -158.508,
   "f": "1818-01-01",
   "bolge": "Rus Amerikası",
-  "kaynak_reg": "Black, Russians in Alaska"
+  "kaynak_reg": "Black, Russians in Alaska",
+  "not": "konum denetle.py reçetesiyle düzeltildi (2.76 km maske dışıydı: 58.9000,-158.5300 → 58.8876,-158.5080) · konum denetle.py reçetesiyle düzeltildi (2.76 km maske dışıydı: 58.8876,-158.5080 → 58.8876,-158.5080)"
  },
  {
   "ad": "Hooper Bay (Naparyarmiut)",
@@ -1835,11 +1860,12 @@
  },
  {
   "ad": "Ile-a-la-Crosse",
-  "lat": 55.45,
-  "lon": -107.9,
+  "lat": 55.453,
+  "lon": -107.915,
   "f": "1779-01-01",
   "bolge": "NWC/HBC",
-  "kaynak_reg": "Historical Atlas of Canada"
+  "kaynak_reg": "Historical Atlas of Canada",
+  "not": "konum denetle.py reçetesiyle düzeltildi (1.64 km maske dışıydı: 55.4500,-107.9000 → 55.4530,-107.9150) · konum denetle.py reçetesiyle düzeltildi (1.64 km maske dışıydı: 55.4530,-107.9150 → 55.4530,-107.9150)"
  },
  {
   "ad": "Lac la Ronge",
@@ -1868,11 +1894,12 @@
  },
  {
   "ad": "Brochet (Ren Geyiği Gölü)",
-  "lat": 57.883,
-  "lon": -101.667,
+  "lat": 57.8943,
+  "lon": -101.6614,
   "f": "1859-01-01",
   "bolge": "HBC/Denesuline",
-  "kaynak_reg": "Historical Atlas of Canada"
+  "kaynak_reg": "Historical Atlas of Canada",
+  "not": "konum denetle.py reçetesiyle düzeltildi (1.35 km maske dışıydı: 57.8830,-101.6670 → 57.8943,-101.6614) · konum denetle.py reçetesiyle düzeltildi (1.35 km maske dışıydı: 57.8943,-101.6614 → 57.8943,-101.6614)"
  },
  {
   "ad": "Osnaburgh House",
@@ -1884,11 +1911,12 @@
  },
  {
   "ad": "Big Trout Lake (Kitchenuhmaykoosib)",
-  "lat": 53.833,
-  "lon": -89.867,
+  "lat": 53.8408,
+  "lon": -89.8639,
   "f": "1807-01-01",
   "bolge": "HBC/Oji-Kri",
-  "kaynak_reg": "Historical Atlas of Canada"
+  "kaynak_reg": "Historical Atlas of Canada",
+  "not": "konum denetle.py reçetesiyle düzeltildi (0.88 km maske dışıydı: 53.8330,-89.8670 → 53.8408,-89.8639) · konum denetle.py reçetesiyle düzeltildi (0.88 km maske dışıydı: 53.8408,-89.8639 → 53.8408,-89.8639)"
  },
  {
   "ad": "Attawapiskat",
@@ -1900,11 +1928,12 @@
  },
  {
   "ad": "Lac Seul",
-  "lat": 50.333,
-  "lon": -92.2,
+  "lat": 50.3426,
+  "lon": -92.2072,
   "f": "1815-01-01",
   "bolge": "HBC/Ojibwe",
-  "kaynak_reg": "Historical Atlas of Canada"
+  "kaynak_reg": "Historical Atlas of Canada",
+  "not": "konum denetle.py reçetesiyle düzeltildi (1.28 km maske dışıydı: 50.3330,-92.2000 → 50.3426,-92.2072) · konum denetle.py reçetesiyle düzeltildi (1.28 km maske dışıydı: 50.3426,-92.2072 → 50.3426,-92.2072)"
  },
  {
   "ad": "Fort Nipigon",
@@ -2110,19 +2139,21 @@
  },
  {
   "ad": "Mound Key (Kalusa başkenti)",
-  "lat": 26.43,
-  "lon": -81.85,
+  "lat": 26.4304,
+  "lon": -81.849,
   "f": "1281-01-01",
   "bolge": "Kalusa",
-  "kaynak_reg": "HNAI c.14 Southeast (Smithsonian)"
+  "kaynak_reg": "HNAI c.14 Southeast (Smithsonian)",
+  "not": "konum denetle.py reçetesiyle düzeltildi (0.07 km maske dışıydı: 26.4300,-81.8500 → 26.4304,-81.8490) · konum denetle.py reçetesiyle düzeltildi (0.07 km maske dışıydı: 26.4304,-81.8490 → 26.4304,-81.8490)"
  },
  {
   "ad": "Tocobaga (Safety Harbor)",
-  "lat": 27.99,
-  "lon": -82.68,
+  "lat": 27.9913,
+  "lon": -82.6837,
   "f": "1281-01-01",
   "bolge": "Tocobaga",
-  "kaynak_reg": "HNAI c.14 Southeast (Smithsonian)"
+  "kaynak_reg": "HNAI c.14 Southeast (Smithsonian)",
+  "not": "konum denetle.py reçetesiyle düzeltildi (0.38 km maske dışıydı: 27.9900,-82.6800 → 27.9913,-82.6837) · konum denetle.py reçetesiyle düzeltildi (0.38 km maske dışıydı: 27.9913,-82.6837 → 27.9913,-82.6837)"
  },
  {
   "ad": "Misión Santa Gertrudis (Baja California)",
@@ -2239,11 +2270,12 @@
  },
  {
   "ad": "Michipicoten",
-  "lat": 47.95,
-  "lon": -84.9,
+  "lat": 47.952,
+  "lon": -84.9011,
   "f": "1725-01-01",
   "bolge": "Yeni Fransa/HBC",
-  "kaynak_reg": "Historical Atlas of Canada"
+  "kaynak_reg": "Historical Atlas of Canada",
+  "not": "konum denetle.py reçetesiyle düzeltildi (0.20 km maske dışıydı: 47.9500,-84.9000 → 47.9520,-84.9011) · konum denetle.py reçetesiyle düzeltildi (0.20 km maske dışıydı: 47.9520,-84.9011 → 47.9520,-84.9011)"
  },
  {
   "ad": "Berens River",
@@ -2305,11 +2337,11 @@
  },
  {
   "ad": "Native Point (Sadlermiut, Southampton Adası)",
-  "lat": 63.98,
-  "lon": -83.5,
+  "lat": 63.9302,
+  "lon": -83.605,
   "f": "1281-01-01",
   "bolge": "Sadlermiut",
-  "not": "Yalıtılmış Sadlermiut topluluğu 1902-03'te tükendi",
+  "not": "Yalıtılmış Sadlermiut topluluğu 1902-03'te tükendi · konum denetle.py reçetesiyle düzeltildi (12.88 km maske dışıydı: 63.9800,-83.5000 → 63.9302,-83.6050)",
   "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)"
  },
  {
@@ -2527,28 +2559,30 @@
  },
  {
   "ad": "Wager Körfezi (Ukkusiksalik)",
-  "lat": 65.5,
-  "lon": -88.5,
+  "lat": 65.481,
+  "lon": -88.4883,
   "f": "1281-01-01",
   "bolge": "Aivilingmiut",
-  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)"
+  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)",
+  "not": "konum denetle.py reçetesiyle düzeltildi (2.43 km maske dışıydı: 65.5000,-88.5000 → 65.4810,-88.4883) · konum denetle.py reçetesiyle düzeltildi (2.43 km maske dışıydı: 65.4810,-88.4883 → 65.4810,-88.4883)"
  },
  {
   "ad": "Beverly Gölü (Thelon, Karayer İnuit)",
-  "lat": 64.6,
-  "lon": -100.5,
+  "lat": 64.644,
+  "lon": -100.5035,
   "f": "1281-01-01",
   "bolge": "Karayer İnuit",
-  "not": "Thelon havzası iç bölge avlağı",
+  "not": "Thelon havzası iç bölge avlağı · konum denetle.py reçetesiyle düzeltildi (4.86 km maske dışıydı: 64.6000,-100.5000 → 64.6440,-100.5035) · konum denetle.py reçetesiyle düzeltildi (4.86 km maske dışıydı: 64.6440,-100.5035 → 64.6440,-100.5035)",
   "kaynak_reg": "Birket-Smith, The Caribou Eskimos"
  },
  {
   "ad": "Łutsël K'é (Snowdrift, Büyük Köle Gölü doğusu)",
-  "lat": 62.4,
-  "lon": -110.74,
+  "lat": 62.3896,
+  "lon": -110.7375,
   "f": "1281-01-01",
   "bolge": "Denesuline",
-  "kaynak_reg": "HNAI c.6 Subarctic (Smithsonian)"
+  "kaynak_reg": "HNAI c.6 Subarctic (Smithsonian)",
+  "not": "konum denetle.py reçetesiyle düzeltildi (1.14 km maske dışıydı: 62.4000,-110.7400 → 62.3896,-110.7375) · konum denetle.py reçetesiyle düzeltildi (1.14 km maske dışıydı: 62.3896,-110.7375 → 62.3896,-110.7375)"
  },
  {
   "ad": "Fort Ware (Kwadacha)",
@@ -2608,20 +2642,21 @@
  },
  {
   "ad": "Bella Coola (Nuxalk)",
-  "lat": 52.375,
-  "lon": -126.75,
+  "lat": 52.37,
+  "lon": -126.7498,
   "f": "1281-01-01",
   "bolge": "Nuxalk",
-  "not": "Kalıcı kış köyleri; 1793 Mackenzie, 1869 HBC karakolu",
+  "not": "Kalıcı kış köyleri; 1793 Mackenzie, 1869 HBC karakolu · konum denetle.py reçetesiyle düzeltildi (0.50 km maske dışıydı: 52.3750,-126.7500 → 52.3700,-126.7498) · konum denetle.py reçetesiyle düzeltildi (0.50 km maske dışıydı: 52.3700,-126.7498 → 52.3700,-126.7498)",
   "kaynak_reg": "HNAI c.7 Northwest Coast (Smithsonian)"
  },
  {
   "ad": "Bella Bella (Fort McLoughlin)",
-  "lat": 52.16,
-  "lon": -128.14,
+  "lat": 52.1604,
+  "lon": -128.1539,
   "f": "1833-01-01",
   "bolge": "Heiltsuk/HBC",
-  "kaynak_reg": "HNAI c.7 Northwest Coast (Smithsonian)"
+  "kaynak_reg": "HNAI c.7 Northwest Coast (Smithsonian)",
+  "not": "konum denetle.py reçetesiyle düzeltildi (1.49 km maske dışıydı: 52.1600,-128.1400 → 52.1604,-128.1539) · konum denetle.py reçetesiyle düzeltildi (1.49 km maske dışıydı: 52.1604,-128.1539 → 52.1604,-128.1539)"
  },
  {
   "ad": "Tsilhqot'in (Çilkotin platosu)",
@@ -2657,11 +2692,12 @@
  },
  {
   "ad": "Nichicun (HBC iç karakolu)",
-  "lat": 53.1,
-  "lon": -71.0,
+  "lat": 53.0943,
+  "lon": -70.9882,
   "f": "1816-01-01",
   "bolge": "HBC/Kri",
-  "kaynak_reg": "Historical Atlas of Canada"
+  "kaynak_reg": "Historical Atlas of Canada",
+  "not": "konum denetle.py reçetesiyle düzeltildi (1.40 km maske dışıydı: 53.1000,-71.0000 → 53.0943,-70.9882) · konum denetle.py reçetesiyle düzeltildi (1.40 km maske dışıydı: 53.0943,-70.9882 → 53.0943,-70.9882)"
  },
  {
   "ad": "Obedjiwan (Atikamekw)",
@@ -2697,20 +2733,20 @@
  },
  {
   "ad": "Natashquan",
-  "lat": 50.19,
-  "lon": -61.82,
+  "lat": 50.1929,
+  "lon": -61.8182,
   "f": "1281-01-01",
   "bolge": "Innu",
-  "not": "Innu yaz kampı; 19. yy HBC karakolu",
+  "not": "Innu yaz kampı; 19. yy HBC karakolu · konum denetle.py reçetesiyle düzeltildi (0.32 km maske dışıydı: 50.1900,-61.8200 → 50.1929,-61.8182) · konum denetle.py reçetesiyle düzeltildi (0.32 km maske dışıydı: 50.1929,-61.8182 → 50.1929,-61.8182)",
   "kaynak_reg": "HNAI c.6 Subarctic (Smithsonian)"
  },
  {
   "ad": "Blanc-Sablon",
-  "lat": 51.42,
-  "lon": -57.13,
+  "lat": 51.424,
+  "lon": -57.1294,
   "f": "1500-01-01",
   "bolge": "Bask/Fransız balıkçılığı",
-  "not": "16. yy Bask balina ve balık istasyonları kuşağı",
+  "not": "16. yy Bask balina ve balık istasyonları kuşağı · konum denetle.py reçetesiyle düzeltildi (0.40 km maske dışıydı: 51.4200,-57.1300 → 51.4240,-57.1294) · konum denetle.py reçetesiyle düzeltildi (0.40 km maske dışıydı: 51.4240,-57.1294 → 51.4240,-57.1294)",
   "kaynak_reg": "Historical Atlas of Canada"
  },
  {
@@ -2749,19 +2785,20 @@
  },
  {
   "ad": "Sandy Lake (Kuzeybatı Ontario)",
-  "lat": 53.05,
-  "lon": -93.33,
+  "lat": 53.0589,
+  "lon": -93.3289,
   "f": "1281-01-01",
   "bolge": "Oji-Kri",
-  "kaynak_reg": "HNAI c.6 Subarctic (Smithsonian)"
+  "kaynak_reg": "HNAI c.6 Subarctic (Smithsonian)",
+  "not": "konum denetle.py reçetesiyle düzeltildi (0.94 km maske dışıydı: 53.0500,-93.3300 → 53.0589,-93.3289) · konum denetle.py reçetesiyle düzeltildi (0.94 km maske dışıydı: 53.0589,-93.3289 → 53.0589,-93.3289)"
  },
  {
   "ad": "Déline (Fort Franklin, Büyük Ayı Gölü)",
-  "lat": 65.19,
-  "lon": -123.42,
+  "lat": 65.2034,
+  "lon": -123.4211,
   "f": "1825-01-01",
   "bolge": "Sahtu Dene/HBC",
-  "not": "Franklin'in ikinci seferinin kışlağı",
+  "not": "Franklin'in ikinci seferinin kışlağı · konum denetle.py reçetesiyle düzeltildi (1.44 km maske dışıydı: 65.1900,-123.4200 → 65.2034,-123.4211) · konum denetle.py reçetesiyle düzeltildi (1.44 km maske dışıydı: 65.2034,-123.4211 → 65.2034,-123.4211)",
   "kaynak_reg": "Historical Atlas of Canada"
  },
  {
@@ -2782,11 +2819,12 @@
  },
  {
   "ad": "Sisimiut (Holsteinsborg)",
-  "lat": 66.939,
-  "lon": -53.67,
+  "lat": 66.9338,
+  "lon": -53.6684,
   "f": "1756-01-01",
   "bolge": "Danimarka Grönland",
-  "kaynak_reg": "Danish Arctic historiography (Gulløv ed., Grønlands forhistorie)"
+  "kaynak_reg": "Danish Arctic historiography (Gulløv ed., Grønlands forhistorie)",
+  "not": "konum denetle.py reçetesiyle düzeltildi (0.55 km maske dışıydı: 66.9390,-53.6700 → 66.9338,-53.6684) · konum denetle.py reçetesiyle düzeltildi (0.55 km maske dışıydı: 66.9338,-53.6684 → 66.9338,-53.6684)"
  },
  {
   "ad": "Wintu (Yukarı Sacramento)",
@@ -3030,11 +3068,12 @@
  },
  {
   "ad": "Omoa (San Fernando de Omoa)",
-  "lat": 15.77,
-  "lon": -88.045,
+  "lat": 15.7664,
+  "lon": -88.0428,
   "f": "1759-01-01",
   "bolge": "İspanyol Honduras",
   "kaynak_reg": "Cambridge History of Latin America (CUP)",
+  "not": "konum denetle.py reçetesiyle düzeltildi (0.42 km maske dışıydı: 15.7700,-88.0450 → 15.7664,-88.0428) · konum denetle.py reçetesiyle düzeltildi (0.42 km maske dışıydı: 15.7664,-88.0428 → 15.7664,-88.0428)",
   "serit_15_25K": true
  },
  {

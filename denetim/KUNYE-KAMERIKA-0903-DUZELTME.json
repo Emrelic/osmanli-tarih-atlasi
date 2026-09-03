@@ -1,0 +1,35 @@
+{
+ "_NOT": "Yeni künye DEĞİL — MEVCUT künyelerde yapılması gereken düzeltmeler. Üçü de ölçülmüş, ikisi bu turda uygulanabilir, biri BORÇ olarak kaydedildi.",
+
+ "duzeltme": [
+  {
+   "id": "ingiliz-kuzey-amerika",
+   "alan": "t",
+   "mevcut": "1923-10-29",
+   "olmasi_gereken": "1867-07-01",
+   "aciliyet": "🔴 BU TURDA — kanada künyesiyle BİRLİKTE uygulanmalı",
+   "sebep": "kanada künyesi f:1867-07-01 ile inince, mevcut t:1923-10-29 ile 1867-1923 arası ELLİ ALTI YIL boyunca ikisi birden sahnede olur. Aynı toprağı iki künye boyar.",
+   "dogrulama": "Kırılma günü 1867-07-01 ve Değişmez 2 maddesi ZATEN VAR: kronolojide 'Kanada Dominyonu kuruldu' maddesi o tarihte duruyor (ölçtüm). Yani bu düzeltme yeni bir madde borcu DOĞURMUYOR.",
+   "yan_etki": "377 zincirimin 121 dönemi bu künyeyi kullanıyor ve hepsi t:1867-07-01 varsayımıyla üretildi — düzeltme yapılmazsa zincirlerim künyeden UZUN olur, yapılırsa tam oturur. ZINCIR-KAMERIKA-0903.json bu düzeltmeyi ÖNCEDEN varsayıyor."
+  },
+  {
+   "id": "pueblo-bagimsizligi",
+   "alan": "GERİ ÇEKİLDİ",
+   "aciliyet": "🔴🔴 BU KALEM ÇÜRÜDÜ — DÜZELTME GEREKMİYOR, KUSUR YOK",
+   "iddia_eski": "Taos Pueblo · Acoma Pueblo · Santa Fe noktaları pueblo-bagimsizligi künyesini GENEL Pueblo kimliği gibi kullanıyor.",
+   "olcum": "Üç noktanın s: zincirini AÇTIM. ÜÇÜ DE KÜNYEYİ TAM DOĞRU KULLANIYOR: yeni-ispanya 1610-01-01→1680-08-10 · pueblo-bagimsizligi 1680-08-10→1692-08-01 · yeni-ispanya 1692-08-01→1821-09-27 · meksika →1848-02-02 · abd →1923-10-29. Yani ayaklanma künyesi tam olarak ayaklanma penceresinde, iki İspanyol dönemin ARASINA sıkıştırılmış. Benim 'düzeltilmeli' diye önereceğim model, verinin ZATEN olduğu modeldi.",
+   "olcum2": "Ve ikinci yarısı da yanlıştı: '1680 öncesi kimliksiz kalıyor' dedim. Taos ve Acoma'da kasitli_bosluk:true + bos:'devletsiz' + gerekçeli bir neden: alanı VAR — 1281-1610 arası Pueblo köylerinin özerkliğini anlatıyor ve kaynağını (NPS + Britannica) adıyla yazıyor, üstelik TDV'nin Pueblo halklarını anmadığını ÖLÇÜLDÜ diye kaydediyor. Yani boşluk kaza değil BEYAN.",
+   "kok_sebep": "🔴 KUSURU VERİDE DEĞİL KENDİ ALETİMDE GÖRDÜM VE VERİYE YIKTIM. Hayalet sınavım 'Pecos Pueblo · pueblo-bagimsizligi · dönem 1281-01-01..1692-08-01 · künye 1680-08-10..1692-08-01' diye ötmüştü. O kayıt BENİM ADAYIMDI ve o zinciri BENİM eşleştiricim üretmişti (bolge:'Pueblo' → pueblo-bagimsizligi, 1281'den). Kendi eşleştiricimin ürettiği hatayı gördüm ve 'demek mevcut noktalar da böyle yapıyor' diye GENELLEDİM — bakmadan.",
+   "ders": "Bir aletin ötüşü, ötme SEBEBİNİ söylemez. Aynı uyarı satırı hem verinin kusurunu hem aletin kusurunu gösterebilir, ve ikisi ayırt edilmeden hüküm verilirse SUÇSUZ VERİ suçlanır. ⇒ Bir denetim ötünce ilk soru 'veri mi bozuk' değil, 'BU KAYIT KİMİN' olmalı."
+  },
+  {
+   "id": "apaci-ovalar",
+   "alan": "kapsam",
+   "mevcut": "f:1281-01-01 t:1750-01-01",
+   "olmasi_gereken": "kapsamı yazılı değil — 'Ovalar Apaçisi' mi, bütün Apaçiler mi?",
+   "aciliyet": "🟡 SORU, düzeltme değil",
+   "sebep": "meskalero-apaci künyesi açılacaksa ikisinin kapsamı ÇAKIŞMAMALI. Künyenin adı Ovalar diyor ve t:1750 Komançi baskısıyla Ovalar'dan çekilmeyi işaret ediyor gibi duruyor — ama bu benim OKUMAM, künyede yazmıyor.",
+   "dogrulama": "🔴 ÖLÇMEDİM — künyenin ozet/not alanlarını okumadım, yalnız f/t/tur/bolge alanlarını ölçtüm. Bu bir tahmindir ve öyle işaretlenmiştir."
+  }
+ ]
+}

@@ -1,0 +1,229 @@
+[
+ {
+  "id": "zuni",
+  "ad": "Zuni (A:shiwi)",
+  "tur": "devlet",
+  "f": "1281-01-01",
+  "t": "1848-02-02",
+  "baskent": "Halona:wa",
+  "bolge": "kuzey-amerika",
+  "ozet": "Batı Yeni Meksika'da çok katlı taş pueblo'larda yaşayan halk; Cíbola'nın Yedi Şehri diye aranan yer burasıdır. Kendi dil ailesinde yalnız kalan bir dil konuşur. 1540 Coronado seferine, 1680 Pueblo Ayaklanması'na taraf oldu ve İspanyol idaresi boyunca kendi düzenini büyük ölçüde korudu.",
+  "not": "🟢 M-2425 TERİTORYAL SINAVI GEÇTİ: kaynak Zuni'nin belirli pueblo'ları ve tarım arazisini SÜREKLİ denetlediğini söylüyor — 'şu bölgede yaşarlardı' değil. 🟢 t: 1848-02-02 Guadalupe Hidalgo Antlaşması; Yeni Meksika ABD'ye geçti. 🔴 pueblo-bagimsizligi künyesinin KAPSAMINA SOKULMADI ve sebebi ölçüldü: o künye f:1680-08-10 t:1692-08-01, yani ON İKİ YILLIK BİR AYAKLANMA — genel bir Pueblo kimliği DEĞİL. Zuni'yi oraya koymak onu 1680 öncesi ve 1692 sonrası YOK saymak olurdu.",
+  "kaynak": "bulunamadı",
+  "dayanak": "Handbook of North American Indians c.9 Southwest (Smithsonian Institution) — çevrimiçi doğrulanmadı",
+  "kronoloji": [
+   {"t": "1281-01-01", "b": "Zuni pueblo'ları Zuni Irmağı boyunca (atlas ufku)", "tur": "kurulus"},
+   {"t": "1540-07-07", "b": "Coronado Hawikuh'u aldı; Cíbola arayışı sona erdi", "tur": "savas"},
+   {"t": "1848-02-02", "b": "Guadalupe Hidalgo Antlaşması; Yeni Meksika ABD'ye geçti", "tur": "antlasma"}
+  ]
+ },
+ {
+  "id": "nuxalk",
+  "ad": "Nuxalk (Bella Coola)",
+  "tur": "devlet",
+  "f": "1281-01-01",
+  "t": "1858-08-02",
+  "baskent": "Bella Coola (Nuxalk)",
+  "bolge": "kuzey-amerika",
+  "ozet": "Bella Coola vadisinde, Salish dilli ama Kuzeybatı Kıyısı kültürüne bağlı halk. Kalıcı sedir kış köyleri, potlaç düzeni ve iç bölgeye uzanan 'yağ yolu' ticaretiyle tanınır. Mackenzie 1793'te kıtayı geçip buraya ulaştı.",
+  "not": "🟢 M-2425 GEÇTİ: kalıcı kış köyleri ve vadi boyunca tanımlı köy toprakları var — teritoryal denetim açık. 🟢 t: 1858-08-02 Britanya Kolumbiyası Kolonisi. ⚠️ hayda ve secwepemc ile AYNI GÜN ve aynı gerekçe: üçü birlikte karara bağlandı, tek tek değil.",
+  "kaynak": "bulunamadı",
+  "dayanak": "Handbook of North American Indians c.7 Northwest Coast (Smithsonian Institution) — çevrimiçi doğrulanmadı",
+  "kronoloji": [
+   {"t": "1281-01-01", "b": "Nuxalk kış köyleri Bella Coola vadisinde (atlas ufku)", "tur": "kurulus"},
+   {"t": "1793-07-22", "b": "Mackenzie karadan Pasifik'e ulaştı", "tur": "kesif"},
+   {"t": "1858-08-02", "b": "Britanya Kolumbiyası Kolonisi kuruldu", "tur": "isgal"}
+  ]
+ },
+ {
+  "id": "secwepemc",
+  "ad": "Secwépemc (Shuswap)",
+  "tur": "devlet",
+  "f": "1281-01-01",
+  "t": "1858-08-02",
+  "baskent": "Secwépemc (Adams Gölü)",
+  "bolge": "kuzey-amerika",
+  "ozet": "Britanya Kolumbiyası iç platosunda, Fraser ve Thompson havzalarında yaşayan Salish dilli halk. Kışın çukur-ev köylerinde toplanır, yazın somon ve kök toplama alanlarına dağılırdı; on yedi bandı ortak bir dil ve toprak düzeni paylaşırdı.",
+  "not": "🟢 M-2425 GEÇTİ: çukur-ev kış köyleri sabit ve band toprakları tanımlı — kaynak 'şu bölgede yaşarlardı' demiyor, belirli havzaların denetimini anlatıyor. 🟢 t: 1858-08-02 BK Kolonisi; aynı yıl Fraser altına hücumu toprağı fiilen açtı. ⚠️ hayda · nuxalk ile aynı gün, aynı gerekçe.",
+  "kaynak": "bulunamadı",
+  "dayanak": "Handbook of North American Indians c.12 Plateau (Smithsonian Institution) — çevrimiçi doğrulanmadı",
+  "kronoloji": [
+   {"t": "1281-01-01", "b": "Secwépemc kış köyleri iç platoda (atlas ufku)", "tur": "kurulus"},
+   {"t": "1858-08-02", "b": "Britanya Kolumbiyası Kolonisi kuruldu; Fraser altına hücumu başladı", "tur": "isgal"}
+  ]
+ },
+ {
+  "id": "nuu-cah-nulth",
+  "ad": "Nuu-chah-nulth (Mowachaht)",
+  "tur": "devlet",
+  "f": "1281-01-01",
+  "t": "1858-08-02",
+  "baskent": "Yuquot (Nootka Sound)",
+  "bolge": "kuzey-amerika",
+  "ozet": "Vancouver Adası'nın batı kıyısında balina avcılığıyla tanınan Kuzeybatı Kıyısı halkı. Yuquot'taki reis Maquinna, 1789-1795 arasında İspanya ve Britanya ile doğrudan müzakere yürüttü; Nootka Buhranı iki devleti savaşın eşiğine getirdi.",
+  "not": "🟢 M-2425 SINAVI EN GÜÇLÜ BURADA: Maquinna'nın Yuquot ve çevresindeki denetimi iki Avrupa devleti tarafından MÜZAKERE MUHATABI olarak tanındı — teritoryal denetimin bundan açık kaydı az. 🟢 t: 1858-08-02 BK Kolonisi. ⚠️ Alternatif bir okuma vardı: 1790-10-28 Nootka Sözleşmesi. Onu SEÇMEDİM çünkü o sözleşme İspanya ile Britanya arasındadır ve Nuu-chah-nulth tasarrufunu sona erdirmez; atlas TASARRUFU boyar. Seçim gizlenmiyor.",
+  "kaynak": "bulunamadı",
+  "dayanak": "Handbook of North American Indians c.7 Northwest Coast (Smithsonian Institution) — çevrimiçi doğrulanmadı",
+  "kronoloji": [
+   {"t": "1281-01-01", "b": "Nuu-chah-nulth köyleri Vancouver Adası batı kıyısında (atlas ufku)", "tur": "kurulus"},
+   {"t": "1789-05-05", "b": "İspanyollar Yuquot'a yerleşti; Nootka Buhranı başladı", "tur": "isgal"},
+   {"t": "1790-10-28", "b": "Nootka Sözleşmesi imzalandı", "tur": "antlasma"},
+   {"t": "1858-08-02", "b": "Britanya Kolumbiyası Kolonisi kuruldu", "tur": "isgal"}
+  ]
+ },
+ {
+  "id": "kalusa",
+  "ad": "Kalusa (Calusa)",
+  "tur": "devlet",
+  "f": "1281-01-01",
+  "t": "1763-01-01",
+  "baskent": "Mound Key (Kalusa başkenti)",
+  "bolge": "kuzey-amerika",
+  "ozet": "Güneybatı Florida'da tarım yapmadan, balıkçılık ve deniz kaynaklarıyla ayakta duran güçlü bir yüce reislik. Mound Key'deki başkentten onlarca kasabayı haraca bağlamıştı; İspanyol yerleşim ve misyon girişimlerini iki yüzyıl boyunca püskürttü.",
+  "not": "🟢 M-2425 GEÇTİ: kaynak Kalusa'nın çevre kasabaları HARACA BAĞLADIĞINI ve İspanyol girişimlerini püskürttüğünü söylüyor — tarım yapmayan tek büyük Kuzey Amerika reisliği olması da bu yüzden dikkat çeker. Teritoryal denetim açık. 🟡 t: 1763-01-01 — YIL SAĞLAM, GÜN DEĞİL. Florida'nın İspanya'dan Britanya'ya geçtiği 1763'te kalan Kalusa nüfusu Küba'ya taşındı. §4 gereği YYYY-01-01.",
+  "kaynak": "bulunamadı",
+  "dayanak": "Handbook of North American Indians c.14 Southeast (Smithsonian Institution) — çevrimiçi doğrulanmadı",
+  "kronoloji": [
+   {"t": "1281-01-01", "b": "Kalusa reisliği güneybatı Florida'da (atlas ufku)", "tur": "kurulus"},
+   {"t": "1521-01-01", "b": "Ponce de León'un ikinci seferi püskürtüldü", "tur": "savas"},
+   {"t": "1763-01-01", "b": "Florida Britanya'ya geçti; kalan Kalusa nüfusu Küba'ya taşındı", "tur": "son"}
+  ]
+ },
+ {
+  "id": "mohave",
+  "ad": "Mohave (Aha Macav)",
+  "tur": "devlet",
+  "f": "1281-01-01",
+  "t": "1865-01-01",
+  "baskent": "Fort Mohave (Kolorado geçidi)",
+  "bolge": "kuzey-amerika",
+  "ozet": "Kolorado Irmağı'nın alt vadisinde taşkın sularıyla sulanan tarlalarda mısır, fasulye ve kabak yetiştiren Yuman dilli halk. Irmak geçidini denetler, Pasifik kıyısına uzanan uzun mesafe ticaret yollarını yürütürdü.",
+  "not": "🟢 M-2425 GEÇTİ: taşkın sulamalı SABİT tarım arazileri ve ırmak geçidinin denetimi kaynakta açıkça anlatılıyor. 🟡 t: 1865-01-01 — Kolorado Irmağı Rezervasyonu'nun kurulduğu yıl sağlam, GÜN doğrulanmadı; §4 gereği YYYY-01-01.",
+  "kaynak": "bulunamadı",
+  "dayanak": "Handbook of North American Indians c.10 Southwest (Smithsonian Institution) — çevrimiçi doğrulanmadı",
+  "kronoloji": [
+   {"t": "1281-01-01", "b": "Mohave köyleri Kolorado alt vadisinde (atlas ufku)", "tur": "kurulus"},
+   {"t": "1865-01-01", "b": "Kolorado Irmağı Rezervasyonu kuruldu", "tur": "toprak-kayip"}
+  ]
+ },
+ {
+  "id": "klamath",
+  "ad": "Klamath (Maklaks)",
+  "tur": "devlet",
+  "f": "1281-01-01",
+  "t": "1864-01-01",
+  "baskent": "Fort Klamath / Klamath Bataklığı",
+  "bolge": "kuzey-amerika",
+  "ozet": "Oregon'un güneyinde Klamath Gölü ve bataklıkları çevresinde yaşayan halk; wokas (nilüfer tohumu), somon ve su kuşuna dayanan bir düzeni ve kalıcı kış çukur-ev köyleri vardı.",
+  "not": "🟢 M-2425 GEÇTİ: kalıcı kış köyleri ve tanımlı göl-bataklık kaynak alanları var. 🟡 t: 1864-01-01 — Klamath Antlaşması'nın yılı sağlam, GÜN doğrulanmadı; §4 gereği YYYY-01-01.",
+  "kaynak": "bulunamadı",
+  "dayanak": "Handbook of North American Indians c.12 Plateau (Smithsonian Institution) — çevrimiçi doğrulanmadı",
+  "kronoloji": [
+   {"t": "1281-01-01", "b": "Klamath kış köyleri göl çevresinde (atlas ufku)", "tur": "kurulus"},
+   {"t": "1864-01-01", "b": "Klamath Antlaşması imzalandı", "tur": "antlasma"}
+  ]
+ },
+ {
+  "id": "sahaptin",
+  "ad": "Sahaptin (Orta Columbia halkları)",
+  "tur": "devlet",
+  "f": "1281-01-01",
+  "t": "1855-01-01",
+  "baskent": "Wayám (Celilo Şelâleleri)",
+  "bolge": "kuzey-amerika",
+  "ozet": "Columbia'nın orta havzasında yaşayan Sahaptin dilli halklar. Celilo Şelâleleri'ndeki Wayám köyü, kıtanın en eski sürekli iskân edilen yerlerinden ve Kuzeybatı'nın en büyük balıkçılık ile ticaret merkeziydi; binlerce kişi somon mevsiminde orada toplanırdı.",
+  "not": "🟢 M-2425 GEÇTİ: Wayám'da balıkçılık mevkileri AİLE VE KÖY DÜZEYİNDE MÜLK sayılırdı ve kaynak bu denetimi ayrıntısıyla anlatır — 'şu bölgede yaşarlardı'nın tam tersi. 🟡 t: 1855-01-01 — 1855 Walla Walla antlaşmaları birkaç gün içinde AYRI AYRI imzalandı ve Celilo'yu kapsayan belgenin günü doğrulanmadı; §4 gereği YYYY-01-01. Uydurma gün yazmadım.",
+  "kaynak": "bulunamadı",
+  "dayanak": "Handbook of North American Indians c.12 Plateau (Smithsonian Institution) — çevrimiçi doğrulanmadı",
+  "kronoloji": [
+   {"t": "1281-01-01", "b": "Wayám ve Sahaptin köyleri orta Columbia'da (atlas ufku)", "tur": "kurulus"},
+   {"t": "1855-01-01", "b": "Walla Walla antlaşma kuşağı", "tur": "antlasma"}
+  ]
+ },
+ {
+  "id": "ponka",
+  "ad": "Ponka (Ponca)",
+  "tur": "devlet",
+  "f": "1281-01-01",
+  "t": "1858-01-01",
+  "baskent": "Ponca köyleri (Salt Fork)",
+  "bolge": "kuzey-amerika",
+  "ozet": "Niobrara ile Missouri'nin birleştiği yerde toprak-ev köylerinde yaşayan Siyu dilli halk; mısır tarımı ile yaz bizon avını birleştirirdi. Omaha'dan ayrılmış küçük ama ayrı bir siyasî birimdi.",
+  "not": "🟢 M-2425 GEÇTİ: sabit toprak-ev köyleri ve tanımlı tarım arazisi var. 🟡 t: 1858-01-01 — 1858 Ponka antlaşmasının yılı sağlam, GÜN doğrulanmadı; §4 gereği YYYY-01-01.",
+  "kaynak": "bulunamadı",
+  "dayanak": "Handbook of North American Indians c.13 Plains (Smithsonian Institution) — çevrimiçi doğrulanmadı",
+  "kronoloji": [
+   {"t": "1281-01-01", "b": "Ponka köyleri Niobrara ağzında (atlas ufku)", "tur": "kurulus"},
+   {"t": "1858-01-01", "b": "Ponka Antlaşması imzalandı", "tur": "antlasma"}
+  ]
+ },
+ {
+  "id": "occaneechi",
+  "ad": "Occaneechi",
+  "tur": "devlet",
+  "f": "1281-01-01",
+  "t": "1676-01-01",
+  "baskent": "Occaneechi (Hillsborough)",
+  "bolge": "kuzey-amerika",
+  "ozet": "Roanoke Irmağı'ndaki adalarda yerleşik Siyu dilli halk. Virginia'dan güneye ve batıya giden Büyük Ticaret Yolu'nun düğüm noktasını tutar, iç bölge kürk ticaretinde aracılık ederdi.",
+  "not": "🟢 M-2425 GEÇTİ: kaynak Occaneechi'nin ticaret yolunun geçtiği ADALARI tuttuğunu ve aracılığı TEKELİNDE bulundurduğunu söylüyor — teritoryal denetim açık ve ekonomiktir. 🟡 t: 1676-01-01 — Bacon Ayaklanması sırasında dağıtıldıkları yıl sağlam, GÜN doğrulanmadı; §4 gereği YYYY-01-01.",
+  "kaynak": "bulunamadı",
+  "dayanak": "Handbook of North American Indians c.14 Southeast (Smithsonian Institution) — çevrimiçi doğrulanmadı",
+  "kronoloji": [
+   {"t": "1281-01-01", "b": "Occaneechi Roanoke adalarında (atlas ufku)", "tur": "kurulus"},
+   {"t": "1676-01-01", "b": "Bacon Ayaklanması sırasında dağıtıldılar", "tur": "son"}
+  ]
+ },
+ {
+  "id": "etowah",
+  "ad": "Etowah",
+  "tur": "devlet",
+  "f": "1281-01-01",
+  "t": "1550-01-01",
+  "baskent": "Etowah",
+  "bolge": "kuzey-amerika",
+  "ozet": "Kuzeybatı Georgia'da Etowah Irmağı kıyısında, altı höyüklü ve hendekle çevrili bir Mississippi kültürü yüce reisliği. Bakır levhalar ve mermer heykelleriyle tanınır; çevresindeki vadi kasabalarını bağlı tutardı.",
+  "not": "🔴 TEK BİR mississippi-kulturu KÜNYESİ YAZILMADI ve sebebi ölçüldü: Etowah · Moundville · Spiro · Ocmulgee'nin DÖRT AYRI sonu var; tek künye üçünün t:'sini yalanlardı. Emsal atlasın kendisinde: cahokia (f:1050 t:1350) TEK bir höyük merkezi için AYRI künyedir. 🟡 t: 1550-01-01 — De Soto 1540'ta buradan geçtiğinde merkez hâlâ iskânlıydı; yüzyılın ortasında terk edildi. YIL yaklaşıktır, GÜN yoktur; §4 gereği YYYY-01-01 ve yaklaşıklık burada AÇIKÇA yazılıdır.",
+  "kaynak": "bulunamadı",
+  "dayanak": "Handbook of North American Indians c.14 Southeast (Smithsonian Institution) — çevrimiçi doğrulanmadı",
+  "kronoloji": [
+   {"t": "1281-01-01", "b": "Etowah yüce reisliği Etowah vadisinde (atlas ufku)", "tur": "kurulus"},
+   {"t": "1540-01-01", "b": "De Soto seferi bölgeden geçti", "tur": "isgal"},
+   {"t": "1550-01-01", "b": "Merkez terk edildi", "tur": "son"}
+  ]
+ },
+ {
+  "id": "moundville",
+  "ad": "Moundville",
+  "tur": "devlet",
+  "f": "1281-01-01",
+  "t": "1450-01-01",
+  "baskent": "Moundville",
+  "bolge": "kuzey-amerika",
+  "ozet": "Alabama'da Black Warrior Irmağı kıyısında yirmi dokuz höyüklü, palisatla çevrili bir Mississippi kültürü merkezi. 13. yüzyılda binlerce kişiyi barındırdı, sonra tören merkezine dönüşüp nüfusu dağıldı.",
+  "not": "🟡 t: 1450-01-01 — merkez 15. yüzyıl ortasında büyük ölçüde boşaldı. YIL YAKLAŞIKTIR ve gün yoktur; §4 gereği YYYY-01-01. ⚠️ Bu bir fetih ya da devir değil, bir merkezin sönümlenmesidir — okuyan karıştırmasın.",
+  "kaynak": "bulunamadı",
+  "dayanak": "Handbook of North American Indians c.14 Southeast (Smithsonian Institution) — çevrimiçi doğrulanmadı",
+  "kronoloji": [
+   {"t": "1281-01-01", "b": "Moundville merkezi Black Warrior kıyısında (atlas ufku)", "tur": "kurulus"},
+   {"t": "1450-01-01", "b": "Merkez boşaldı", "tur": "son"}
+  ]
+ },
+ {
+  "id": "spiro",
+  "ad": "Spiro",
+  "tur": "devlet",
+  "f": "1281-01-01",
+  "t": "1450-01-01",
+  "baskent": "Spiro",
+  "bolge": "kuzey-amerika",
+  "ozet": "Doğu Oklahoma'da Arkansas Irmağı kıyısında, Kaddo dilli halkların tören ve ticaret merkezi. Craig Höyüğü'nden çıkan deniz kabuğu, bakır ve tekstil buluntuları kıta ölçeğinde bir değişim ağını gösterir.",
+  "not": "🟡 t: 1450-01-01 — tören kullanımı 15. yüzyıl ortasında sona erdi. YIL YAKLAŞIKTIR; §4 gereği YYYY-01-01. ⚠️ Moundville ile aynı gün taşıması tesadüf değil, aynı yüzyıl ortası çözülmesidir — ama iki AYRI künyedir ve tek künyede birleştirilmedi.",
+  "kaynak": "bulunamadı",
+  "dayanak": "Handbook of North American Indians c.13 Plains (Smithsonian Institution) — çevrimiçi doğrulanmadı",
+  "kronoloji": [
+   {"t": "1281-01-01", "b": "Spiro merkezi Arkansas kıyısında (atlas ufku)", "tur": "kurulus"},
+   {"t": "1450-01-01", "b": "Tören merkezi kullanımdan düştü", "tur": "son"}
+  ]
+ }
+]

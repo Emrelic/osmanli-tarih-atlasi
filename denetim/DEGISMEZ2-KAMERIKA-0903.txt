@@ -1,0 +1,62 @@
+﻿kronoloji maddesi     : 6141
+zincirdeki kırılma günü: 206
+🔴 AÇIK (±30 günde madde YOK): 30
+   1535-04-17    4 nokta  en yakın    45 gün  1535-06-01 Tebriz'in yeniden Safevîlere geçmesi — Irakeyn dönüşü
+   1668-01-01    2 nokta  en yakın    43 gün  1668-02-13 Lizbon Antlaşması — Portekiz bağımsızlığı resmen tanındı
+   1680-08-10    1 nokta  en yakın   129 gün  1680-04-03 Şivâcî öldü
+   1686-01-01    1 nokta  en yakın    64 gün  1685-10-29 Potsdam Fermanı — Huguenot mültecilerin kabulü
+   1692-08-01    1 nokta  en yakın    57 gün  1692-06-05 Varad'ın kaybı
+   1706-04-23    1 nokta  en yakın   112 gün  1706-01-01 Çihar Bağ (Mâder-i Şah) Medresesi'nin inşası
+   1725-12-15    2 nokta  en yakın    94 gün  1725-09-12 Gence'nin fethi — Kafkasya seferinin sonu
+   1749-03-05    1 nokta  en yakın    45 gün  1749-01-19 Nuruosmaniye Camii ve Külliyesi'nin temelinin atılması
+   1750-10-06    1 nokta  en yakın    88 gün  1751-01-02 Accademia Ligustica'nın kurulması — sanat eğitiminin kurumsa
+   1755-05-15    1 nokta  en yakın   110 gün  1755-01-25 Moskova Devlet Üniversitesi kuruldu
+   1762-11-03    3 nokta  en yakın    50 gün  1762-09-14 Manipûr, İngilizler'le ilk antlaşmasını imzaladı
+   1764-02-14    1 nokta  en yakın    44 gün  1764-01-01 Hargreaves iplik eğirme makinesini (spinning jenny) icat ett
+   1770-06-03    1 nokta  en yakın    33 gün  1770-07-06 Çeşme baskını
+   1777-11-29    1 nokta  en yakın    41 gün  1778-01-09 Hammâmîzâde İsmail Dede Efendi'nin doğumu
+   1781-09-04    1 nokta  en yakın    39 gün  1781-10-13 Hoşgörü Fermanı (Toleranzpatent)
+   1787-01-01    1 nokta  en yakın    32 gün  1786-11-30 Toskana'nın ölüm cezasını kaldıran ilk Avrupa devleti olması
+   1802-01-01    2 nokta  en yakın    83 gün  1802-03-25 Amiens Barışı
+   1803-01-01    3 nokta  en yakın    31 gün  1803-02-01 Vehhâbîlerin Tâif'i ele geçirmesi
+   1816-01-01    1 nokta  en yakın    57 gün  1815-11-05 Ayamavra ve İyon Adaları'nın İngiliz himayesine geçişi — Nap
+   1829-01-01    3 nokta  en yakın    88 gün  1828-10-05 Mısır kuvvetlerinin Mora'yı boşaltması
+   1832-09-21    1 nokta  en yakın    54 gün  1832-07-29 Belen Geçidi bozgunu — Çukurova'nın açılması
+   1832-10-20    1 nokta  en yakın    32 gün  1832-11-21 Mısır ordusunun Konya'ya girmesi
+   1836-03-02    1 nokta  en yakın    61 gün  1836-01-01 Suna Kalema Kansinge dönemi — Zengibarlı Arap tüccarların Bu
+   1850-09-07    2 nokta  en yakın    60 gün  1850-07-09 Bâb'ın idamı — Babî isyanlarının bastırılması
+   1851-09-17    3 nokta  en yakın   102 gün  1851-12-28 Dâru'l-Fünûn açıldı
+   1857-01-01    1 nokta  en yakın    85 gün  1856-10-08 Arrow Olayı — İkinci Afyon Savaşı'nın kıvılcımı
+   1868-07-03    4 nokta  en yakın    31 gün  1868-06-02 Buhara Emirliği Rus himayesine girdi ⭐ (dunya paylaşılan ola
+   1877-10-05    1 nokta  en yakın    34 gün  1877-09-01 Nikšić, Podgorica ve Bar alındı, Ülgün ele geçirildi
+   1880-01-01    1 nokta  en yakın    72 gün  1879-10-21 İrlanda Toprak Birliği kuruldu
+   1880-09-01   33 nokta  en yakın   122 gün  1881-01-01 Ruslar Türkmen elini imparatorluklarına kattı
+
+🟡 MADDE VAR ama AYNI GÜN DEĞİL (alakasız olabilir): 38
+   1534-07-24    1 nokta   11 gün uzakta  1534-07-13 Tebriz'e ilk giriş — Irakeyn Seferi'nin açılışı
+   1576-08-01    1 nokta   10 gün uzakta  1576-08-11 II. İsmail'in kısa ve kanlı saltanatı başladı
+   1583-08-05    1 nokta    4 gün uzakta  1583-08-01 Bakü'nün alınışı — Hazar kıyısına çıkış
+   1634-01-01    1 nokta    1 gün uzakta  1634-01-02 Modena Dük Sarayı'nın inşasına başlanması
+   1634-07-04    1 nokta   20 gün uzakta  1634-06-14 Polanów Antlaşması — Moskova taht iddiasından vazgeçildi
+   1649-03-16    2 nokta   16 gün uzakta  1649-04-01 Kandehar'ın Bâbürlülerden kesin olarak geri alınması
+   1659-12-08    1 nokta   24 gün uzakta  1660-01-01 Tillâkârî Medresesi tamamlandı — Registan üçlemesi tamam
+   1689-07-15    1 nokta   12 gün uzakta  1689-07-27 Killiecrankie Savaşı — ilk Jakobit ayaklanması
+   1699-04-08    1 nokta    5 gün uzakta  1699-04-13 Guru Gobind Singh, Khalsa'yı kurdu
+   1713-01-01    1 nokta    1 gün uzakta  1713-01-02 Finale Ligure'nin satın alınması — cumhuriyetin son toprak k
+   1749-06-21    1 nokta   11 gün uzakta  1749-06-10 Bû Saîd hanedanı resmen kuruldu
+   1775-08-20    1 nokta   19 gün uzakta  1775-09-08 Papazlar Ayaklanması (Rivolta dei Preti)
+   1778-01-01    1 nokta    8 gün uzakta  1778-01-09 Hammâmîzâde İsmail Dede Efendi'nin doğumu
+   1782-04-21    1 nokta    1 gün uzakta  1782-04-20 Abdullah Han bir seyahat sırasında Ruslar tarafından esir al
+   1784-08-14    3 nokta    2 gün uzakta  1784-08-16 Allgemeines Krankenhaus — tıbbî bakımın yoksul bakımından ay
+   1791-07-02    1 nokta   12 gün uzakta  1791-06-20 Kraliyet ailesinin Varennes Kaçışı
+   1795-08-03    2 nokta   12 gün uzakta  1795-07-22 Basel Barışı — Fransa ile savaş sona erdi
+   1797-01-01    1 nokta    8 gün uzakta  1797-01-09 Dąbrowski Lejyonları İtalya'da kuruldu
+   1803-12-20    3 nokta   12 gün uzakta  1804-01-01 Saîd b. Sultân tahta çıktı
+   1807-01-01    2 nokta    2 gün uzakta  1806-12-30 Üçüncü Osmanlı-Rus Savaşı başladı (1812'ye dek)
+   1810-01-01    2 nokta   30 gün uzakta  1809-12-02 İbrâil'in düşüşü — Tuna hattında ilk büyük gedik
+   1811-04-12    1 nokta   11 gün uzakta  1811-04-01 Niğbolu'nun geri alınışı — altı aylık Rus işgali sona erdi
+   1815-01-01    1 nokta   19 gün uzakta  1815-01-20 Bisel Muharebesi — Suûdî kuvvetlerinin bozguna uğraması
+   1817-01-01    3 nokta   24 gün uzakta  1816-12-08 İki Sicilya Krallığı'nın resmen kurulması
+   1829-06-06    1 nokta    5 gün uzakta  1829-06-01 Fesin resmî serpuş ilan edilmesi
+
+🟢 AYNI GÜN maddeli: 138

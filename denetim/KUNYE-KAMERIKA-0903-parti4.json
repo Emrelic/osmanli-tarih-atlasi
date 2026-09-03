@@ -1,0 +1,56 @@
+[
+ {
+  "id": "payut",
+  "ad": "Payut (Paiute)",
+  "tur": "devlet",
+  "f": "1281-01-01",
+  "t": "1872-01-01",
+  "baskent": "Bishop (Owens Vadisi Payutları)",
+  "bolge": "kuzey-amerika",
+  "ozet": "Büyük Havza'nın batısında ve güneyinde yaşayan Numik dilli halklar. Kuzey Payutları Nevada ve doğu Oregon'da hareketli bantlar hâlinde; Owens Vadisi Payutları ise sulama kanallarıyla beslenen yerleşik köylerde yaşardı. Altına hücum ve göçmen yolları toprakları hızla daralttı.",
+  "not": "🔴 M-2425 SINAVI AYNI HALKIN İKİ KOLUNDA İKİ FARKLI CEVAP VERDİ ve bunu gizlemiyorum: Owens Vadisi Payutları SULAMA KANALLARI kazıyor ve köy bölgeleri tanımlıydı (Steward, BAE Bulletin 120) ⇒ teritoryal şart AÇIKÇA karşılanıyor, Büyük Havza'da istisnaî bir vaka. Kara Kaya Çölü'ndeki Kuzey Payutları ise hareketli bantlardı ⇒ o kol tek başına künye hak etmezdi. HALK taneciği kuralı (§⑥) gereği TEK künye yazıldı ve ölçüt GÜÇLÜ OLAN kolun lehine çözüldü; alternatif, halkı ikiye bölüp §⑥'nın 'klan FAZLA İNCE' sınırına düşmekti. 🟡 t: 1872-01-01 — künyenin DIŞ ZARFI: Malheur Rezervasyonu'nun kurulduğu yıl. Owens Vadisi kolu DAHA ERKEN kapanır (1863) ve o noktanın kendi zinciri orada kesilir. Yıl sağlam, GÜN doğrulanmadı ⇒ §4 YYYY-01-01. 🟡 f: 1281-01-01 ATLAS UFKU.",
+  "kaynak": "bulunamadı",
+  "dayanak": "Steward, Basin-Plateau Aboriginal Sociopolitical Groups (BAE Bulletin 120) · HNAI c.11 Great Basin (Smithsonian) — çevrimiçi doğrulanmadı",
+  "kronoloji": [
+   {"t": "1281-01-01", "b": "Numik dilli Payut toplulukları Büyük Havza'da (atlas ufku)", "tur": "kurulus"},
+   {"t": "1863-01-01", "b": "Owens Vadisi savaşı sona erdi; Payutlar Fort Tejon'a sürüldü", "tur": "toprak-kayip"},
+   {"t": "1872-01-01", "b": "Malheur Rezervasyonu kuruldu", "tur": "toprak-kayip"}
+  ]
+ },
+ {
+  "id": "yavapai",
+  "ad": "Yavapai",
+  "tur": "devlet",
+  "f": "1281-01-01",
+  "t": "1873-01-01",
+  "baskent": "Prescott / Yavapai",
+  "bolge": "kuzey-amerika",
+  "ozet": "Orta Arizona yaylalarında yaşayan Yuman dilli halk; dört bölgesel bandı (Kwevkepaya · Wipukepa · Yavapé · Tolkepaya) kendi avlak ve toplama alanlarını tutardı. 1863 altın keşfi ve Prescott'un kurulmasıyla toprakları hızla işgal edildi.",
+  "not": "🟡 M-2425 SINIRDA GEÇTİ ve sınırda olduğunu YAZIYORUM: Yavapai bantları hareketliydi, ama dört bandın her birinin tanımlı bölgesel alanı vardı ve kaynak bunları ADIYLA ayırıyor — 'şu bölgede yaşarlardı' genellemesinden ileri. Emsal de destekliyor: atlas apaci-ovalar künyesiyle benzer hareketlilikteki bir gruba ZATEN künye vermiş. 🟡 t: 1873-01-01 — Rio Verde Rezervasyonu'nun kurulduğu yıl sağlam, GÜN doğrulanmadı ⇒ §4 YYYY-01-01. ⚠️ 1875'te San Carlos'a zorla yürütülmeleri daha ağır bir kırılmadır ama toprak tasarrufu 1873'te sona erdi; atlas TASARRUFU boyar.",
+  "kaynak": "bulunamadı",
+  "dayanak": "Handbook of North American Indians c.10 Southwest (Smithsonian Institution) — çevrimiçi doğrulanmadı",
+  "kronoloji": [
+   {"t": "1281-01-01", "b": "Yavapai bantları orta Arizona yaylalarında (atlas ufku)", "tur": "kurulus"},
+   {"t": "1864-01-01", "b": "Prescott kuruldu; Arizona Toprağı'nın başkenti oldu", "tur": "isgal"},
+   {"t": "1873-01-01", "b": "Rio Verde Rezervasyonu kuruldu", "tur": "toprak-kayip"}
+  ]
+ },
+ {
+  "id": "meskalero-apaci",
+  "ad": "Meskalero Apaçileri",
+  "tur": "devlet",
+  "f": "1281-01-01",
+  "t": "1873-01-01",
+  "baskent": "Meskalero Apaçi (Pecos vadisi)",
+  "bolge": "kuzey-amerika",
+  "ozet": "Güneydoğu Yeni Meksika'da Sacramento ve Guadalupe dağları ile Pecos vadisi arasında yaşayan Atabask dilli halk; adı mescal (agav) hasadından gelir. İspanyol, Meksika ve ABD dönemleri boyunca dağ üslerinden direndi.",
+  "not": "🔴 apaci-ovalar İLE ÇAKIŞMA SORUSUNU ÖLÇTÜM VE ÇAKIŞMA YOK. O künyenin özeti şöyle diyor: 'Güney Büyük Ovalar'da yarı-yerleşik Apaçi grupları… Bitiş, at ve tüfek ticaretinin birleştiği ~1750'de KOMANÇİ BASKISIYLA OVALARDAN ÇEKİLMELERİDİR.' ⇒ O künye OVALAR Apaçisini kapsıyor ve 1750'de ovalardan çekilmeyle bitiyor; Meskalero DAĞ Apaçisidir ve ovalarda değildi. İki künye AYRI COĞRAFYA, ayrı halk. ⚠️ M-2528'de bu soruyu 'ölçmedim' diye açık bırakmıştım; künyenin ozet: alanını okuyunca kapandı. 📌 Ve bu, §4'ün 'kaynağın kendi uyarısını da oku' kuralının künye tarafı: cevap künyenin İÇİNDE yazılıydı, ben yalnız f/t/tur/bolge alanlarına bakmıştım. 🟡 t: 1873-01-01 — Meskalero Rezervasyonu'nun kurulduğu yıl sağlam, GÜN doğrulanmadı ⇒ §4 YYYY-01-01.",
+  "kaynak": "bulunamadı",
+  "dayanak": "Handbook of North American Indians c.10 Southwest (Smithsonian Institution) — çevrimiçi doğrulanmadı",
+  "kronoloji": [
+   {"t": "1281-01-01", "b": "Meskalero bantları Sacramento dağlarında (atlas ufku)", "tur": "kurulus"},
+   {"t": "1863-01-01", "b": "Bosque Redondo'ya sürgün", "tur": "toprak-kayip"},
+   {"t": "1873-01-01", "b": "Meskalero Rezervasyonu kuruldu", "tur": "kurulus"}
+  ]
+ }
+]

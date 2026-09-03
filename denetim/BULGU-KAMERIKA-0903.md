@@ -1,474 +1,789 @@
-# BULGU — KUZEY AMERİKA · DUNYA-KAMERIKA-0903
+﻿# BULGU â€” KUZEY AMERÄ°KA Â· DUNYA-KAMERIKA-0903
 
-**Oturum:** DUNYA-KAMERIKA-0903 · **Koordinatör:** 1.MURAT
-**Tarih:** 3 Eylül 2026 · **Kutu:** 15-72K / 170B-52B
-**Tur:** ARAŞTIRMA — `data/` altına **yazılmadı** (koşu canlıydı, PID 1268)
-**Oturum kimliği:** `local_d7327e89-cf33-4ab3-a1f8-f09ea28be814`
+**Oturum:** DUNYA-KAMERIKA-0903 Â· **KoordinatÃ¶r:** 1.MURAT
+**Tarih:** 3 EylÃ¼l 2026 Â· **Kutu:** 15-72K / 170B-52B
+**Tur:** ARAÅTIRMA â€” `data/` altÄ±na **yazÄ±lmadÄ±** (koÅŸu canlÄ±ydÄ±, PID 1268)
+**Oturum kimliÄŸi:** `local_d7327e89-cf33-4ab3-a1f8-f09ea28be814`
 
 ---
 
-## 0. TESLİM — tek satırda
+> ## âš ï¸ BU RAPOR Ä°KÄ° AÅAMALIDIR â€” Â§1-12 ARAÅTIRMA TURU, Â§13 SONRASI
+> Â§1-12 boÅŸluk Ã¶lÃ§Ã¼mÃ¼ ve aday listesi turunu anlatÄ±r ve o turun
+> bittiÄŸi andaki durumu gÃ¶sterir. **O turdan sonra iÅŸ devam etti:**
+> 43 kÃ¼nye reÃ§etesi Â· 377 zincir Â· 11 kronoloji maddesi Â· 8 kabile
+> kararÄ± Â· 3 kÃ¼nye dÃ¼zeltmesi yazÄ±ldÄ±. Hepsi **Â§13**tedir.
+> ğŸ“Œ Â§1-12'yi SÄ°LMEDÄ°M, damgaladÄ±m â€” `Â§3.5.1`in *"bir vakayÄ± silmek
+> dersi de siler; damgalamak dersi korur"* kuralÄ±. Ama Â§9'un bitiÅŸ
+> Ã¶lÃ§Ã¼tÃ¼ tablosu Â§13.5'te **yenilenmiÅŸtir**; ikisi Ã§eliÅŸirse **Â§13.5
+> geÃ§erlidir.**
+
+## 0. TESLÄ°M â€” tek satÄ±rda
 
 ```
-2351 → 149     (1° ızgara · %84,6 → %5,4)     KAPANAN 2202 hücre
- 575 →  19     (2° ızgara · %83,1 → %2,7)     KAPANAN  556 hücre
-377 aday · ön sınav KIRMIZI 0 · kara sınavı KIRMIZI 0
-kalan 149'un 143'ü Arktik/Subarktik çorak · 3'ü kutu dışı yerleşimle kapanır
+2351 â†’ 149     (1Â° Ä±zgara Â· %84,6 â†’ %5,4)     KAPANAN 2202 hÃ¼cre
+ 575 â†’  19     (2Â° Ä±zgara Â· %83,1 â†’ %2,7)     KAPANAN  556 hÃ¼cre
+377 aday Â· Ã¶n sÄ±nav KIRMIZI 0 Â· kara sÄ±navÄ± KIRMIZI 0
+kalan 149'un 143'Ã¼ Arktik/Subarktik Ã§orak Â· 3'Ã¼ kutu dÄ±ÅŸÄ± yerleÅŸimle kapanÄ±r
 ```
 
-**Çıktı dosyaları** (hepsi bu klasörde):
+**Ã‡Ä±ktÄ± dosyalarÄ±** (hepsi bu klasÃ¶rde):
 | dosya | ne |
 |---|---|
-| `ADAY-KAMERIKA-0903.json` | **377 aday**, makine okunur — yazım turunun girdisi |
-| `KALAN-KAMERIKA-0903.json` | kapanmayan 149 hücre, koordinatıyla |
-| `ARAC-KAMERIKA-0903-olc.py` · `-dene.py` · `-kara-sina.py` · `-birlestir.py` | ölçüm aletleri, koşulabilir (proje kökünden) |
+| `ADAY-KAMERIKA-0903.json` | **377 aday**, makine okunur â€” yazÄ±m turunun girdisi |
+| `KALAN-KAMERIKA-0903.json` | kapanmayan 149 hÃ¼cre, koordinatÄ±yla |
+| `ARAC-KAMERIKA-0903-olc.py` Â· `-dene.py` Â· `-kara-sina.py` Â· `-birlestir.py` | Ã¶lÃ§Ã¼m aletleri, koÅŸulabilir (proje kÃ¶kÃ¼nden) |
 
 ---
 
-## 1. TABAN — devraldığımı ölçtüm, TUTTU
+## 1. TABAN â€” devraldÄ±ÄŸÄ±mÄ± Ã¶lÃ§tÃ¼m, TUTTU
 
-Şartname `692 kara · 575 AÇIK · %83,1` diyordu. Kendi aletimle
-(`ne_10m_land.geojson` + `TAVAN 200 km`, `_dunya_bosluk.py` ile aynı yöntem)
-ölçtüm:
+Åartname `692 kara Â· 575 AÃ‡IK Â· %83,1` diyordu. Kendi aletimle
+(`ne_10m_land.geojson` + `TAVAN 200 km`, `_dunya_bosluk.py` ile aynÄ± yÃ¶ntem)
+Ã¶lÃ§tÃ¼m:
 
 ```
-692 kara hücresi · 575 AÇIK · %83,1     ← ÜÇ SAYININ ÜÇÜ DE BİREBİR
-kutumdaki bağlı nokta: 98
-en uzak hücre: 2431 km @ 66,0K 91,0B — en yakın noktası QUEBEC
+692 kara hÃ¼cresi Â· 575 AÃ‡IK Â· %83,1     â† ÃœÃ‡ SAYININ ÃœÃ‡Ãœ DE BÄ°REBÄ°R
+kutumdaki baÄŸlÄ± nokta: 98
+en uzak hÃ¼cre: 2431 km @ 66,0K 91,0B â€” en yakÄ±n noktasÄ± QUEBEC
 ```
 
-📌 Devraldığım öncülü doğrulamadan üstüne inşa etmedim (`§7.1 ⑦`).
+ğŸ“Œ DevraldÄ±ÄŸÄ±m Ã¶ncÃ¼lÃ¼ doÄŸrulamadan Ã¼stÃ¼ne inÅŸa etmedim (`Â§7.1 â‘¦`).
 
 ---
 
-## 2. 🔴 BULGU 1 — KÜMELEME: bu bir tamamlama değil, KITA KURMA işi
+## 2. ğŸ”´ BULGU 1 â€” KÃœMELEME: bu bir tamamlama deÄŸil, KITA KURMA iÅŸi
 
-575 açık hücrenin dağılımına bakınca iş tarifi değişti:
+575 aÃ§Ä±k hÃ¼crenin daÄŸÄ±lÄ±mÄ±na bakÄ±nca iÅŸ tarifi deÄŸiÅŸti:
 
 ```
-KÜME 1   568 hücre   30-70K / 167B-53B      ← TEK PARÇA
-KÜME 2-6   7 hücre   Tamaulipas 2 · Florida 2 · Sonora 1 · Panhandle 1 · Grönland 1
+KÃœME 1   568 hÃ¼cre   30-70K / 167B-53B      â† TEK PARÃ‡A
+KÃœME 2-6   7 hÃ¼cre   Tamaulipas 2 Â· Florida 2 Â· Sonora 1 Â· Panhandle 1 Â· GrÃ¶nland 1
 ```
 
-⇒ Meksika ve Karayip kuşağı doluyken **kıtanın kuzeyinin tamamı** —
-Kanada · Alaska · ABD'nin içi ve batısı · Grönland'ın batı kıyısı — **tek
-parça boşluktu.** 98 noktanın çoğu 15-35K bandında toplanmıştı.
+â‡’ Meksika ve Karayip kuÅŸaÄŸÄ± doluyken **kÄ±tanÄ±n kuzeyinin tamamÄ±** â€”
+Kanada Â· Alaska Â· ABD'nin iÃ§i ve batÄ±sÄ± Â· GrÃ¶nland'Ä±n batÄ± kÄ±yÄ±sÄ± â€” **tek
+parÃ§a boÅŸluktu.** 98 noktanÄ±n Ã§oÄŸu 15-35K bandÄ±nda toplanmÄ±ÅŸtÄ±.
 
-Bu, "eksikleri tamamla" değil, **"bir kıtanın yerleşim ağını baştan kur"**
-işidir; parti büyüklüğünü (377) belirleyen şey budur.
+Bu, "eksikleri tamamla" deÄŸil, **"bir kÄ±tanÄ±n yerleÅŸim aÄŸÄ±nÄ± baÅŸtan kur"**
+iÅŸidir; parti bÃ¼yÃ¼klÃ¼ÄŸÃ¼nÃ¼ (377) belirleyen ÅŸey budur.
 
 ---
 
-## 3. 🔴🔴 BULGU 2 — 2° IZGARA GERÇEĞİ SAKLIYOR (kendi raporumu düzelttim)
+## 3. ğŸ”´ğŸ”´ BULGU 2 â€” 2Â° IZGARA GERÃ‡EÄÄ° SAKLIYOR (kendi raporumu dÃ¼zelttim)
 
-Kapanmayı önce 2° ızgarayla ölçtüm ve koordinatöre **%2,9** diye
-bildirdim (M-2371). Sonra 1° ile koştum:
+KapanmayÄ± Ã¶nce 2Â° Ä±zgarayla Ã¶lÃ§tÃ¼m ve koordinatÃ¶re **%2,9** diye
+bildirdim (M-2371). Sonra 1Â° ile koÅŸtum:
 
 ```
-                  kara     ÖNCE açık        SONRA açık
-2° ızgara          692     575  %83,1        19   %2,7
-1° ızgara         2780    2351  %84,6       149   %5,4
-                          ~aynı            İKİ KAT
+                  kara     Ã–NCE aÃ§Ä±k        SONRA aÃ§Ä±k
+2Â° Ä±zgara          692     575  %83,1        19   %2,7
+1Â° Ä±zgara         2780    2351  %84,6       149   %5,4
+                          ~aynÄ±            Ä°KÄ° KAT
 ```
 
-**TABAN neredeyse aynı** (%83,1 ↔ %84,6) — bu, iki aletin aynı şeyi
-ölçtüğünün kanıtı. Ama **KALAN iki kat**, çünkü 2° ızgara her ikinci
-dereceyi örnekler ve **aralarındaki boşluğu hiç görmez.** Kapanma
-ilerledikçe boşluk incelir ve incelen boşluğu kaba ızgara kaçırır.
+**TABAN neredeyse aynÄ±** (%83,1 â†” %84,6) â€” bu, iki aletin aynÄ± ÅŸeyi
+Ã¶lÃ§tÃ¼ÄŸÃ¼nÃ¼n kanÄ±tÄ±. Ama **KALAN iki kat**, Ã§Ã¼nkÃ¼ 2Â° Ä±zgara her ikinci
+dereceyi Ã¶rnekler ve **aralarÄ±ndaki boÅŸluÄŸu hiÃ§ gÃ¶rmez.** Kapanma
+ilerledikÃ§e boÅŸluk incelir ve incelen boÅŸluÄŸu kaba Ä±zgara kaÃ§Ä±rÄ±r.
 
-⇒ **Izgara, tabanı ölçerken masum; KALANI ölçerken değil.**
-📌 AFRIKA aynı farkı %0,3 ölçtü, ben %2,7 ölçtüm — **aynı alet, iki
-kutuda dokuz kat farklı hata.** Sebep aletin değil coğrafyanın: Afrika'nın
-boşluğu kütlesel, Kuzey Amerika'nınki ince ve dağınık.
+â‡’ **Izgara, tabanÄ± Ã¶lÃ§erken masum; KALANI Ã¶lÃ§erken deÄŸil.**
+ğŸ“Œ AFRIKA aynÄ± farkÄ± %0,3 Ã¶lÃ§tÃ¼, ben %2,7 Ã¶lÃ§tÃ¼m â€” **aynÄ± alet, iki
+kutuda dokuz kat farklÄ± hata.** Sebep aletin deÄŸil coÄŸrafyanÄ±n: Afrika'nÄ±n
+boÅŸluÄŸu kÃ¼tlesel, Kuzey Amerika'nÄ±nki ince ve daÄŸÄ±nÄ±k.
 
-🟢 **ÖNERİ (koordinatöre M-2374 ile gitti):** programın **bitiş ölçütü 1°**
-olsun; 2° yalnız kaba tarama ve bölgeler arası kıyas için.
+ğŸŸ¢ **Ã–NERÄ° (koordinatÃ¶re M-2374 ile gitti):** programÄ±n **bitiÅŸ Ã¶lÃ§Ã¼tÃ¼ 1Â°**
+olsun; 2Â° yalnÄ±z kaba tarama ve bÃ¶lgeler arasÄ± kÄ±yas iÃ§in.
 
-⚠️ Düzeltmeyi işi bitirince değil, **ölçtüğüm anda** bildirdim — çünkü
-koordinatör benim %2,9'uma göre başka oturumlara sıra kuruyordu.
+âš ï¸ DÃ¼zeltmeyi iÅŸi bitirince deÄŸil, **Ã¶lÃ§tÃ¼ÄŸÃ¼m anda** bildirdim â€” Ã§Ã¼nkÃ¼
+koordinatÃ¶r benim %2,9'uma gÃ¶re baÅŸka oturumlara sÄ±ra kuruyordu.
 
 ---
 
-## 4. ADAY LİSTESİ — 377 kayıt, altı parti
+## 4. ADAY LÄ°STESÄ° â€” 377 kayÄ±t, altÄ± parti
 
 | parti | n | hedef |
 |---|---|---|
-| 1 | 181 | Rus Amerikası · HBC/NWC ağı · Yeni Fransa · Arktik İnuit · ABD içi/batısı |
-| 2 | 81 | 1. partinin bıraktığı 33 kümenin hedefleri |
-| 3 | 56 | Boreal orman · Barren Grounds kenarı · Büyük Havza · Yayla |
-| 4 | 11 | 2°'de kalan son adresli kümeler (Bella Coola · Fond du Lac · Caniapiscau…) |
-| 5 | 26 | 1° ızgaranın açtığı yeni kümeler |
-| 6 | 12 | son tur — Old Crow · Vincennes · Occaneechi · Tukudeka… |
-| *(şerit)* | *10* | *15-25K bandı — **AYRI TUTULDU**, bkz. §7* |
+| 1 | 181 | Rus AmerikasÄ± Â· HBC/NWC aÄŸÄ± Â· Yeni Fransa Â· Arktik Ä°nuit Â· ABD iÃ§i/batÄ±sÄ± |
+| 2 | 81 | 1. partinin bÄ±raktÄ±ÄŸÄ± 33 kÃ¼menin hedefleri |
+| 3 | 56 | Boreal orman Â· Barren Grounds kenarÄ± Â· BÃ¼yÃ¼k Havza Â· Yayla |
+| 4 | 11 | 2Â°'de kalan son adresli kÃ¼meler (Bella Coola Â· Fond du Lac Â· Caniapiscauâ€¦) |
+| 5 | 26 | 1Â° Ä±zgaranÄ±n aÃ§tÄ±ÄŸÄ± yeni kÃ¼meler |
+| 6 | 12 | son tur â€” Old Crow Â· Vincennes Â· Occaneechi Â· Tukudekaâ€¦ |
+| *(ÅŸerit)* | *10* | *15-25K bandÄ± â€” **AYRI TUTULDU**, bkz. Â§7* |
 
-### Kaynak kütükleri
+### Kaynak kÃ¼tÃ¼kleri
 
-| n | kütük |
+| n | kÃ¼tÃ¼k |
 |---|---|
-| 138 | **Smithsonian, Handbook of North American Indians** (c.5 Arctic · 6 Subarctic · 7 NW Coast · 8 California · 9-10 Southwest · 11 Great Basin · 12 Plateau · 13 Plains · 14 Southeast · 15 Northeast) |
+| 138 | **Smithsonian, Handbook of North American Indians** (c.5 Arctic Â· 6 Subarctic Â· 7 NW Coast Â· 8 California Â· 9-10 Southwest Â· 11 Great Basin Â· 12 Plateau Â· 13 Plains Â· 14 Southeast Â· 15 Northeast) |
 | 86 | **Historical Atlas of Canada** (University of Toronto Press) |
 | 21 | **Dictionary of Canadian Biography** (Toronto / Laval) |
-| 19 | **Weber, The Spanish Frontier in North America** (Yale UP) · *The Mexican Frontier 1821-1846* (UNM Press) |
+| 19 | **Weber, The Spanish Frontier in North America** (Yale UP) Â· *The Mexican Frontier 1821-1846* (UNM Press) |
 | 12 | **Black, Russians in Alaska** (University of Alaska Press) |
-| 10 | **Cambridge History of Latin America** (CUP) — yalnız şerit |
+| 10 | **Cambridge History of Latin America** (CUP) â€” yalnÄ±z ÅŸerit |
 | 9 | Naske & Slotnick, *Alaska: A History* |
-| 5 | Usner (UNC Press) · Trigger, *The Children of Aataentsic* (McGill-Queen's UP) |
-| 3 | Steward, *BAE Bulletin 120* · Gubser, *The Nunamiut Eskimos* (Yale UP) · Birket-Smith, *The Caribou Eskimos* |
-| 1 | Gulløv (ed.), *Grønlands forhistorie* |
+| 5 | Usner (UNC Press) Â· Trigger, *The Children of Aataentsic* (McGill-Queen's UP) |
+| 3 | Steward, *BAE Bulletin 120* Â· Gubser, *The Nunamiut Eskimos* (Yale UP) Â· Birket-Smith, *The Caribou Eskimos* |
+| 1 | GullÃ¸v (ed.), *GrÃ¸nlands forhistorie* |
 
-Hepsi `§4`ün **🟢 KABUL** kümesinden: üniversite yayını · alanın standart
-el kitabı · birincil kaynak neşri. **🔴 KULLANILMAZ** kümesinden (forum ·
-blog · içerik çiftliği · kaynaksız derleme) hiçbir şey yok.
+Hepsi `Â§4`Ã¼n **ğŸŸ¢ KABUL** kÃ¼mesinden: Ã¼niversite yayÄ±nÄ± Â· alanÄ±n standart
+el kitabÄ± Â· birincil kaynak neÅŸri. **ğŸ”´ KULLANILMAZ** kÃ¼mesinden (forum Â·
+blog Â· iÃ§erik Ã§iftliÄŸi Â· kaynaksÄ±z derleme) hiÃ§bir ÅŸey yok.
 
-TDV bu coğrafyayı **kapsamıyor** — `§4`ün *"TDV'nin kapsamadığı
-coğrafyalar için standart akademik referans yeterlidir"* dalı. Şartı da
-yerine getirildi: her kaydın `kaynak_reg` alanı **dolu**, hiçbiri boş
-bırakılmadı.
+TDV bu coÄŸrafyayÄ± **kapsamÄ±yor** â€” `Â§4`Ã¼n *"TDV'nin kapsamadÄ±ÄŸÄ±
+coÄŸrafyalar iÃ§in standart akademik referans yeterlidir"* dalÄ±. ÅartÄ± da
+yerine getirildi: her kaydÄ±n `kaynak_reg` alanÄ± **dolu**, hiÃ§biri boÅŸ
+bÄ±rakÄ±lmadÄ±.
 
-### 🔴 ÖLÇMEDİĞİMİ `ölçmedim` DİYE YAZIYORUM
+### ğŸ”´ Ã–LÃ‡MEDÄ°ÄÄ°MÄ° `Ã¶lÃ§medim` DÄ°YE YAZIYORUM
 
-> Bu kütükler alanın standart akademik referanslarıdır ve kayıtlar
-> onlardan gelmektedir. **Ama 377 künyenin her birini bu oturumda tek tek
-> çekip doğrulamadım.** Yaptığım şey, alanın standart literatüründen bir
-> aday kümesi kurmak ve onu **ölçülebilir** hâle getirmektir.
+> Bu kÃ¼tÃ¼kler alanÄ±n standart akademik referanslarÄ±dÄ±r ve kayÄ±tlar
+> onlardan gelmektedir. **Ama 377 kÃ¼nyenin her birini bu oturumda tek tek
+> Ã§ekip doÄŸrulamadÄ±m.** YaptÄ±ÄŸÄ±m ÅŸey, alanÄ±n standart literatÃ¼rÃ¼nden bir
+> aday kÃ¼mesi kurmak ve onu **Ã¶lÃ§Ã¼lebilir** hÃ¢le getirmektir.
 >
-> ⇒ **Yazım turu her kaydın kuruluş gününü ve koordinatını, adı geçen
+> â‡’ **YazÄ±m turu her kaydÄ±n kuruluÅŸ gÃ¼nÃ¼nÃ¼ ve koordinatÄ±nÄ±, adÄ± geÃ§en
 > cilde bakarak teyit etmelidir.** Bu rapor bir aday listesidir, bir
-> doğrulama tutanağı değildir.
+> doÄŸrulama tutanaÄŸÄ± deÄŸildir.
 
-📌 `§11`: *"ölçülmemiş her cümle açıkça işaretlenir ya da yazılmaz."*
-Bu damga olmadan liste, ölçülmüş sanılırdı — yanındaki 2202'lik kapanma
-sayısı **kendi güvenilirliğini ona ödünç verirdi.**
-
----
-
-## 5. ÜÇ SINAV — hepsi KIRMIZI 0
-
-```
-① 3 KM   bağlı evrende (2731 nokta)              0
-         adayların KENDİ içinde (377×377)        0
-② KUTU   15-72K / 170B-52B dışına taşan          0
-③ AD     bağlı evrenle çakışan ad                0
-         adaylar arasında mükerrer ad            0
-```
-
-### 🟢 VE DÖRDÜNCÜ BİR SINAV YAZDIM — ve gerçek bir hata buldu
-
-Üç sınav şartnamede yazılıydı. Dördüncüsünü kalan hücreler önerdi:
-1° ızgarada `54,5K 164,5B` hücresi **395 km** uzaklıkla açık kalmıştı —
-oysa oraya **Unalaska** yazmıştım. Bir aday doğru yazıldığı hâlde hücresini
-kapatmıyorsa **koordinatı yanlıştır.**
-
-⇒ `ARAC-KAMERIKA-0903-kara-sina.py`: her aday `ne_10m_land` maskesinin
-üstünde mi?
-
-```
-🔴 Unalaska (Iliuliuk)   57,870B → maskeye 210,4 km   DENİZİN ORTASINDA
-   doğrusu 53,870        (parmak kayması: 3 → 7)
-   377 adayın KALANI     hepsi ≤ 7,4 km — kıyı/ada, maske çözünürlüğü
-```
-
-📌 **İki bağımsız işaret aynı hatayı gösterdi:** kapanmayan bir hücre ve
-kara maskesi. Tek başına ikisi de zayıftı; birlikte kesindi.
-📌 Ve ders `C13`ün üçüncü ayağı: bir denetim yazarken **hangi kusur
-sınıfını hedeflediğini** de sormak gerekiyor. Üç sınav "mükerrer mi ·
-kutuda mı · adı çakışıyor mu" diye soruyordu; **"gerçekten orada mı"**
-diye soran yoktu — ve gerçekleşmiş kusur tam oradaydı.
-
-⇒ **`_baglama_onsinav.py`ye bir kara sınavı eklenmesini öneriyorum.**
+ğŸ“Œ `Â§11`: *"Ã¶lÃ§Ã¼lmemiÅŸ her cÃ¼mle aÃ§Ä±kÃ§a iÅŸaretlenir ya da yazÄ±lmaz."*
+Bu damga olmadan liste, Ã¶lÃ§Ã¼lmÃ¼ÅŸ sanÄ±lÄ±rdÄ± â€” yanÄ±ndaki 2202'lik kapanma
+sayÄ±sÄ± **kendi gÃ¼venilirliÄŸini ona Ã¶dÃ¼nÃ§ verirdi.**
 
 ---
 
-## 6. KALAN 149 HÜCRE — cinsi ve gerekçesi
+## 5. ÃœÃ‡ SINAV â€” hepsi KIRMIZI 0
 
 ```
-COĞRAFYA                                   hücre   ÖNERİLEN CİNS
-────────────────────────────────────────────────────────────────
-Arktik çoraklar                              109   devletsiz
-  Baffin içi + Melville + Boothia    45
+â‘  3 KM   baÄŸlÄ± evrende (2731 nokta)              0
+         adaylarÄ±n KENDÄ° iÃ§inde (377Ã—377)        0
+â‘¡ KUTU   15-72K / 170B-52B dÄ±ÅŸÄ±na taÅŸan          0
+â‘¢ AD     baÄŸlÄ± evrenle Ã§akÄ±ÅŸan ad                0
+         adaylar arasÄ±nda mÃ¼kerrer ad            0
+```
+
+### ğŸŸ¢ VE DÃ–RDÃœNCÃœ BÄ°R SINAV YAZDIM â€” ve gerÃ§ek bir hata buldu
+
+ÃœÃ§ sÄ±nav ÅŸartnamede yazÄ±lÄ±ydÄ±. DÃ¶rdÃ¼ncÃ¼sÃ¼nÃ¼ kalan hÃ¼creler Ã¶nerdi:
+1Â° Ä±zgarada `54,5K 164,5B` hÃ¼cresi **395 km** uzaklÄ±kla aÃ§Ä±k kalmÄ±ÅŸtÄ± â€”
+oysa oraya **Unalaska** yazmÄ±ÅŸtÄ±m. Bir aday doÄŸru yazÄ±ldÄ±ÄŸÄ± hÃ¢lde hÃ¼cresini
+kapatmÄ±yorsa **koordinatÄ± yanlÄ±ÅŸtÄ±r.**
+
+â‡’ `ARAC-KAMERIKA-0903-kara-sina.py`: her aday `ne_10m_land` maskesinin
+Ã¼stÃ¼nde mi?
+
+```
+ğŸ”´ Unalaska (Iliuliuk)   57,870B â†’ maskeye 210,4 km   DENÄ°ZÄ°N ORTASINDA
+   doÄŸrusu 53,870        (parmak kaymasÄ±: 3 â†’ 7)
+   377 adayÄ±n KALANI     hepsi â‰¤ 7,4 km â€” kÄ±yÄ±/ada, maske Ã§Ã¶zÃ¼nÃ¼rlÃ¼ÄŸÃ¼
+```
+
+ğŸ“Œ **Ä°ki baÄŸÄ±msÄ±z iÅŸaret aynÄ± hatayÄ± gÃ¶sterdi:** kapanmayan bir hÃ¼cre ve
+kara maskesi. Tek baÅŸÄ±na ikisi de zayÄ±ftÄ±; birlikte kesindi.
+ğŸ“Œ Ve ders `C13`Ã¼n Ã¼Ã§Ã¼ncÃ¼ ayaÄŸÄ±: bir denetim yazarken **hangi kusur
+sÄ±nÄ±fÄ±nÄ± hedeflediÄŸini** de sormak gerekiyor. ÃœÃ§ sÄ±nav "mÃ¼kerrer mi Â·
+kutuda mÄ± Â· adÄ± Ã§akÄ±ÅŸÄ±yor mu" diye soruyordu; **"gerÃ§ekten orada mÄ±"**
+diye soran yoktu â€” ve gerÃ§ekleÅŸmiÅŸ kusur tam oradaydÄ±.
+
+â‡’ **`_baglama_onsinav.py`ye bir kara sÄ±navÄ± eklenmesini Ã¶neriyorum.**
+
+---
+
+## 6. KALAN 149 HÃœCRE â€” cinsi ve gerekÃ§esi
+
+```
+COÄRAFYA                                   hÃ¼cre   Ã–NERÄ°LEN CÄ°NS
+â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+Arktik Ã§oraklar                              109   devletsiz
+  Baffin iÃ§i + Melville + Boothia    45
   Keewatin Barren Grounds            25
-  Contwoyto-Point Lake çorakları      9
-  Victoria Adası içi                  7
+  Contwoyto-Point Lake Ã§oraklarÄ±      9
+  Victoria AdasÄ± iÃ§i                  7
   Boothia / Prince of Wales           7
-  ötekiler (Banks · NWT · Keewatin)  16
-Quebec-Labrador iç platosu                    28   devletsiz
+  Ã¶tekiler (Banks Â· NWT Â· Keewatin)  16
+Quebec-Labrador iÃ§ platosu                    28   devletsiz
   Ungava platosu                     16
-  Labrador Çukuru (Manicouagan)      10
-  ötekiler                            2
-Mackenzie Dağları                              4   devletsiz
-Kuzey Saskatchewan Kalkanı                     4   devletsiz
-Wyoming Kızıl Çöl                              1   devletsiz
-Batı Grönland                                  3   🔴 KUTU DIŞI — bkz. aşağı
-────────────────────────────────────────────────────────────────
+  Labrador Ã‡ukuru (Manicouagan)      10
+  Ã¶tekiler                            2
+Mackenzie DaÄŸlarÄ±                              4   devletsiz
+Kuzey Saskatchewan KalkanÄ±                     4   devletsiz
+Wyoming KÄ±zÄ±l Ã‡Ã¶l                              1   devletsiz
+BatÄ± GrÃ¶nland                                  3   ğŸ”´ KUTU DIÅI â€” bkz. aÅŸaÄŸÄ±
+â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 TOPLAM                                       149
 ```
 
-### Gerekçe — ve bunun bir ÖNERİ olduğu
+### GerekÃ§e â€” ve bunun bir Ã–NERÄ° olduÄŸu
 
-143 hücre için önerim **`neden:"devletsiz"`**, çünkü kaynak **susmuyor**:
-bu iç bölgeleri, kalıcı yerleşimi olmayan, **devletsiz** avcı bantlarının
-mevsimlik avlağı olarak açıkça tarif ediyor — Karayer İnuit · Denesuline ·
-Innu/Naskapi · Bakır İnuit. Baffin'in içi buz kalkanıdır; Keewatin ağaç
-sınırının kuzeyindeki tundradır.
+143 hÃ¼cre iÃ§in Ã¶nerim **`neden:"devletsiz"`**, Ã§Ã¼nkÃ¼ kaynak **susmuyor**:
+bu iÃ§ bÃ¶lgeleri, kalÄ±cÄ± yerleÅŸimi olmayan, **devletsiz** avcÄ± bantlarÄ±nÄ±n
+mevsimlik avlaÄŸÄ± olarak aÃ§Ä±kÃ§a tarif ediyor â€” Karayer Ä°nuit Â· Denesuline Â·
+Innu/Naskapi Â· BakÄ±r Ä°nuit. Baffin'in iÃ§i buz kalkanÄ±dÄ±r; Keewatin aÄŸaÃ§
+sÄ±nÄ±rÄ±nÄ±n kuzeyindeki tundradÄ±r.
 
-⚠️ **AMA BU BİR ÖNERİ, ÖLÇÜM DEĞİL.** `devletsiz` ile `veri-yok`u ayıran
-sınav **kaynağın davranışıdır** (*konuşuyor mu, susuyor mu*), ve ben o
-ciltleri **hücre hücre açmadım.** Yazım turu her hücre için adı geçen
-cildi teyit etmeli. Yanlış damga pahalıdır: `devletsiz` bir hücreye bir
-daha **bakılmaz.**
+âš ï¸ **AMA BU BÄ°R Ã–NERÄ°, Ã–LÃ‡ÃœM DEÄÄ°L.** `devletsiz` ile `veri-yok`u ayÄ±ran
+sÄ±nav **kaynaÄŸÄ±n davranÄ±ÅŸÄ±dÄ±r** (*konuÅŸuyor mu, susuyor mu*), ve ben o
+ciltleri **hÃ¼cre hÃ¼cre aÃ§madÄ±m.** YazÄ±m turu her hÃ¼cre iÃ§in adÄ± geÃ§en
+cildi teyit etmeli. YanlÄ±ÅŸ damga pahalÄ±dÄ±r: `devletsiz` bir hÃ¼creye bir
+daha **bakÄ±lmaz.**
 
-🟢 Ve bu tam olarak Emre'nin hükmünün tarif ettiği yerdir:
+ğŸŸ¢ Ve bu tam olarak Emre'nin hÃ¼kmÃ¼nÃ¼n tarif ettiÄŸi yerdir:
 
-> **"EĞER YERLEŞİM VAR İSE NOKTA KONUR. YOK İSE UYDURACAK HALİMİZ YOK.
-> DEVASA BOŞLUKLAR OLACAKSA OLSUN."**
+> **"EÄER YERLEÅÄ°M VAR Ä°SE NOKTA KONUR. YOK Ä°SE UYDURACAK HALÄ°MÄ°Z YOK.
+> DEVASA BOÅLUKLAR OLACAKSA OLSUN."**
 
-149 hücrenin 143'ü **olmasında bir kusur bulunmayan** boşluktur.
-Kapatmak için oraya nokta yazmak, kuralın **ihlali** olurdu.
+149 hÃ¼crenin 143'Ã¼ **olmasÄ±nda bir kusur bulunmayan** boÅŸluktur.
+Kapatmak iÃ§in oraya nokta yazmak, kuralÄ±n **ihlali** olurdu.
 
-### 🔴 Batı Grönland'ın 3 hücresi — kutunun kendi kusuru
+### ğŸ”´ BatÄ± GrÃ¶nland'Ä±n 3 hÃ¼cresi â€” kutunun kendi kusuru
 
 ```
-71,5K 55,5-54,5B (2 hücre) · 71,5K 52,5B (1 hücre)
-kapatacak yerleşim: UPERNAVIK (1772) — 72,79K
-kutumun kuzey sınırı: 72,0K   ⇒ yerleşim kutunun 0,79° DIŞINDA
+71,5K 55,5-54,5B (2 hÃ¼cre) Â· 71,5K 52,5B (1 hÃ¼cre)
+kapatacak yerleÅŸim: UPERNAVIK (1772) â€” 72,79K
+kutumun kuzey sÄ±nÄ±rÄ±: 72,0K   â‡’ yerleÅŸim kutunun 0,79Â° DIÅINDA
 ```
 
-Bu üçü **çorak değil**; kapatacak nokta var ama **benim kutumun dışında.**
-Bu bir *`devletsiz`* değil, bir **kutu sınırı kusurudur** — kayıt olarak
-bırakıyorum, cins damgası **vurulmamalıdır.**
+Bu Ã¼Ã§Ã¼ **Ã§orak deÄŸil**; kapatacak nokta var ama **benim kutumun dÄ±ÅŸÄ±nda.**
+Bu bir *`devletsiz`* deÄŸil, bir **kutu sÄ±nÄ±rÄ± kusurudur** â€” kayÄ±t olarak
+bÄ±rakÄ±yorum, cins damgasÄ± **vurulmamalÄ±dÄ±r.**
 
 ---
 
-## 7. 🔴 BULGU 3 — KUTU ÖRTÜŞMESİ (15-25K şeridi)
+## 7. ğŸ”´ BULGU 3 â€” KUTU Ã–RTÃœÅMESÄ° (15-25K ÅŸeridi)
 
-1° ızgara, 2°'nin hiç göstermediği bir şeyi açtı: kutumun **güney
-şeridinde** gerçek boşluklar var —
+1Â° Ä±zgara, 2Â°'nin hiÃ§ gÃ¶stermediÄŸi bir ÅŸeyi aÃ§tÄ±: kutumun **gÃ¼ney
+ÅŸeridinde** gerÃ§ek boÅŸluklar var â€”
 
 ```
-Honduras / Moskito kıyısı   5 hücre · 597 km   ← kutumun EN BÜYÜK kalan boşluğuydu
-Oaxaca kıstağı · Guerrero · Belize · Huasteca · orta Küba
+Honduras / Moskito kÄ±yÄ±sÄ±   5 hÃ¼cre Â· 597 km   â† kutumun EN BÃœYÃœK kalan boÅŸluÄŸuydu
+Oaxaca kÄ±staÄŸÄ± Â· Guerrero Â· Belize Â· Huasteca Â· orta KÃ¼ba
 ```
 
 Ama benim kutum **15-72K**, DALGA 2'nin *Orta Amerika+Karayip* kutusu ise
-**7-25K / 118B-59B** ⇒ **15-25K / 118B-59B şeridi iki kutuya birden ait.**
+**7-25K / 118B-59B** â‡’ **15-25K / 118B-59B ÅŸeridi iki kutuya birden ait.**
 
-Şu an o kutu kimseye verilmediği için bu bir **çakışma değil**, ama bir
-**boşluk riski**: ikimiz de *"öteki bakar"* diye atlayabiliriz.
+Åu an o kutu kimseye verilmediÄŸi iÃ§in bu bir **Ã§akÄ±ÅŸma deÄŸil**, ama bir
+**boÅŸluk riski**: ikimiz de *"Ã¶teki bakar"* diye atlayabiliriz.
 
-🟢 **Yaptığım:** şeridin 10 adayını (Trujillo · Río Tinto · Omoa · Belize
-Town · Tehuantepec · Acapulco · Chilpancingo · Pánuco · Sancti Spíritus ·
-Santa Clara) **ayrı bir dosyada** tuttum ve `ADAY-KAMERIKA-0903.json`
-içinde `"serit_15_25K": true` alanıyla **damgaladım.** Koordinatör hangi
-kararı verirse versin (bana ver · Orta Amerika'ya bırak · böl) liste
-**tek `if` ile ayrılabilir.**
+ğŸŸ¢ **YaptÄ±ÄŸÄ±m:** ÅŸeridin 10 adayÄ±nÄ± (Trujillo Â· RÃ­o Tinto Â· Omoa Â· Belize
+Town Â· Tehuantepec Â· Acapulco Â· Chilpancingo Â· PÃ¡nuco Â· Sancti SpÃ­ritus Â·
+Santa Clara) **ayrÄ± bir dosyada** tuttum ve `ADAY-KAMERIKA-0903.json`
+iÃ§inde `"serit_15_25K": true` alanÄ±yla **damgaladÄ±m.** KoordinatÃ¶r hangi
+kararÄ± verirse versin (bana ver Â· Orta Amerika'ya bÄ±rak Â· bÃ¶l) liste
+**tek `if` ile ayrÄ±labilir.**
 
-📌 Ve bir mükerrer önlendi: `Puerto Príncipe (Camagüey)` yazacaktım —
-atlasta **`Camagüey bölgesi (Taino)` olarak zaten vardı, aynı koordinatta.**
-3 km sınavı yakalamadan önce elle düştü.
-
----
-
-## 8. 🔴 BULGU 4 — "hiçbir hücre kapatmayan" 60 aday ELENMEMELİ
-
-Adayların 60'ı (Halifax · Toronto · Baltimore · Los Ángeles · Zuni ·
-St. Louis · Kaskaskia · Pecos Pueblo…) **hiçbir açık hücreyi
-kapatmıyor** — çünkü zaten kapalı bölgelerdeler.
-
-⚠️ **Bu onları gereksiz yapmaz, ve eleyen bir sonraki oturum hata eder.**
-
-```
-KAPSAMA ölçütüne katkısı        0     (200 km tavanının içindeler)
-HARİTA DOĞRULUĞUNA katkısı      0 DEĞİL
-```
-
-`§2` emilmesi 200 km'nin **altında da** çalışır: Halifax yazılmazsa Nova
-Scotia'yı **Port Royal'in sahibi** boyar, Los Ángeles yazılmazsa güney
-Kaliforniya'yı **San Diego'nunki.** Ölçüt bunu görmez, **kullanıcı görür.**
-
-📌 Bir ölçütün *"katkısı sıfır"* demesi, *"değeri sıfır"* demek değildir.
-Ölçüt kapsamayı ölçüyor, **doğruluğu değil.**
+ğŸ“Œ Ve bir mÃ¼kerrer Ã¶nlendi: `Puerto PrÃ­ncipe (CamagÃ¼ey)` yazacaktÄ±m â€”
+atlasta **`CamagÃ¼ey bÃ¶lgesi (Taino)` olarak zaten vardÄ±, aynÄ± koordinatta.**
+3 km sÄ±navÄ± yakalamadan Ã¶nce elle dÃ¼ÅŸtÃ¼.
 
 ---
 
-## 9. BİTİŞ ÖLÇÜTÜNE GÖRE DURUM
+## 8. ğŸ”´ BULGU 4 â€” "hiÃ§bir hÃ¼cre kapatmayan" 60 aday ELENMEMELÄ°
 
-| şart | durum |
+AdaylarÄ±n 60'Ä± (Halifax Â· Toronto Â· Baltimore Â· Los Ãngeles Â· Zuni Â·
+St. Louis Â· Kaskaskia Â· Pecos Puebloâ€¦) **hiÃ§bir aÃ§Ä±k hÃ¼creyi
+kapatmÄ±yor** â€” Ã§Ã¼nkÃ¼ zaten kapalÄ± bÃ¶lgelerdeler.
+
+âš ï¸ **Bu onlarÄ± gereksiz yapmaz, ve eleyen bir sonraki oturum hata eder.**
+
+```
+KAPSAMA Ã¶lÃ§Ã¼tÃ¼ne katkÄ±sÄ±        0     (200 km tavanÄ±nÄ±n iÃ§indeler)
+HARÄ°TA DOÄRULUÄUNA katkÄ±sÄ±      0 DEÄÄ°L
+```
+
+`Â§2` emilmesi 200 km'nin **altÄ±nda da** Ã§alÄ±ÅŸÄ±r: Halifax yazÄ±lmazsa Nova
+Scotia'yÄ± **Port Royal'in sahibi** boyar, Los Ãngeles yazÄ±lmazsa gÃ¼ney
+Kaliforniya'yÄ± **San Diego'nunki.** Ã–lÃ§Ã¼t bunu gÃ¶rmez, **kullanÄ±cÄ± gÃ¶rÃ¼r.**
+
+ğŸ“Œ Bir Ã¶lÃ§Ã¼tÃ¼n *"katkÄ±sÄ± sÄ±fÄ±r"* demesi, *"deÄŸeri sÄ±fÄ±r"* demek deÄŸildir.
+Ã–lÃ§Ã¼t kapsamayÄ± Ã¶lÃ§Ã¼yor, **doÄŸruluÄŸu deÄŸil.**
+
+---
+
+## 9. BÄ°TÄ°Å Ã–LÃ‡ÃœTÃœNE GÃ–RE DURUM
+
+| ÅŸart | durum |
 |---|---|
-| ① açık hücre önce/sonra ölçüldü | 🟢 iki ızgarada da, sayıyla |
-| ② her açık hücre: nokta ya da cinsi yazılı beyan | 🟡 **nokta tarafı hazır (377), beyan tarafı ÖNERİ** — §6 |
-| ③ her kaydın `kaynak:` alanı dolu | 🟢 377/377 · ama **tek tek doğrulanmadı** — §4 damgası |
-| ④ her `s:` kimliği `devletler.js`te var ve ömrü tutuyor | 🔴 **ÖLÇTÜM — GEÇMİYOR.** `kanada` künyesi YOK, kuzey/batı yerli kimliklerinin neredeyse hiçbiri YOK. Bu partinin en ağır bulgusu, aşağı bak |
-| ⑤ `_baglama_onsinav.py` KIRMIZI 0 | 🟡 kendi eşdeğer sınavımda 0; **asıl alet `.js` ister, ben `.js` yazmadım** |
+| â‘  aÃ§Ä±k hÃ¼cre Ã¶nce/sonra Ã¶lÃ§Ã¼ldÃ¼ | ğŸŸ¢ iki Ä±zgarada da, sayÄ±yla |
+| â‘¡ her aÃ§Ä±k hÃ¼cre: nokta ya da cinsi yazÄ±lÄ± beyan | ğŸŸ¡ **nokta tarafÄ± hazÄ±r (377), beyan tarafÄ± Ã–NERÄ°** â€” Â§6 |
+| â‘¢ her kaydÄ±n `kaynak:` alanÄ± dolu | ğŸŸ¢ 377/377 Â· ama **tek tek doÄŸrulanmadÄ±** â€” Â§4 damgasÄ± |
+| â‘£ her `s:` kimliÄŸi `devletler.js`te var ve Ã¶mrÃ¼ tutuyor | ğŸ”´ **Ã–LÃ‡TÃœM â€” GEÃ‡MÄ°YOR.** `kanada` kÃ¼nyesi YOK, kuzey/batÄ± yerli kimliklerinin neredeyse hiÃ§biri YOK. Bu partinin en aÄŸÄ±r bulgusu, aÅŸaÄŸÄ± bak |
+| â‘¤ `_baglama_onsinav.py` KIRMIZI 0 | ğŸŸ¡ kendi eÅŸdeÄŸer sÄ±navÄ±mda 0; **asÄ±l alet `.js` ister, ben `.js` yazmadÄ±m** |
 
-### 🔴 ④ SONRADAN ÖLÇTÜM — ve bu partinin EN AĞIR BULGUSU çıktı
+### ğŸ”´ â‘£ SONRADAN Ã–LÃ‡TÃœM â€” ve bu partinin EN AÄIR BULGUSU Ã§Ä±ktÄ±
 
-Raporun ilk hâlinde bu satır *"ölçmedim, borçtur"* diyordu. Sonra ölçtüm,
-ve iş bir borç değil bir **kapı** çıktı.
+Raporun ilk hÃ¢linde bu satÄ±r *"Ã¶lÃ§medim, borÃ§tur"* diyordu. Sonra Ã¶lÃ§tÃ¼m,
+ve iÅŸ bir borÃ§ deÄŸil bir **kapÄ±** Ã§Ä±ktÄ±.
 
-#### Önce kendi hatam — ve `§4`ün yazım ekseni beni ısırdı
+#### Ã–nce kendi hatam â€” ve `Â§4`Ã¼n yazÄ±m ekseni beni Ä±sÄ±rdÄ±
 
-İlk hâlde *"`İrokua` künyesi var"* diye **yazmıştım.** `devletler.js`te
-`irok` diye aradım, **hiçbir şey bulamadım**, ve *"künye yok"* diye hüküm
-verecektim. Doğru yol veriden sormaktı:
-
-```
-aradığım      irok · iroq          → 0 sonuç
-gerçek `id:`  haudenosaunee        → VAR, ve Cayuga · Mohawk · Oneida ·
-                                     Onondaga · Seneca ZATEN onu kullanıyor
-```
-
-📌 `§4`ün *"kendi transliterasyonunu değil, gerçek `id:`yi kullan"*
-kuralının bu partideki vakası — ve **hükmü aday listesinden değil,
-noktaların kendi `s:` alanından okuyunca** çıktı.
-
-#### Ölçüm: kutumdaki 98 noktanın kullandığı kimlikler
+Ä°lk hÃ¢lde *"`Ä°rokua` kÃ¼nyesi var"* diye **yazmÄ±ÅŸtÄ±m.** `devletler.js`te
+`irok` diye aradÄ±m, **hiÃ§bir ÅŸey bulamadÄ±m**, ve *"kÃ¼nye yok"* diye hÃ¼kÃ¼m
+verecektim. DoÄŸru yol veriden sormaktÄ±:
 
 ```
-🟢 VAR ve KULLANILIYOR
-yeni-ispanya 53 · meksika 49 · ispanya 43 · abd 36 · ingiltere 23 ·
-aztek-imparatorlugu 9 · maya-sehir-devletleri 9 · nahua-sehir-devletleri 7 ·
-fransa 7 · haudenosaunee 5 · kuba-cumhuriyeti 4 · dominik-cumhuriyeti 4 ·
-purepecha-imparatorlugu 3 · pueblo-bagimsizligi 3 · ingiliz-kuzey-amerika 3 ·
-hollanda 2 · zapotek-krallik 2 · cahokia · powhatan · natchez ·
-creek-konfederasyonu · cherokee · choctaw · komanci · apaci-ovalar ·
-teksas-cumhuriyeti · hawaii-kralligi · rusya
+aradÄ±ÄŸÄ±m      irok Â· iroq          â†’ 0 sonuÃ§
+gerÃ§ek `id:`  haudenosaunee        â†’ VAR, ve Cayuga Â· Mohawk Â· Oneida Â·
+                                     Onondaga Â· Seneca ZATEN onu kullanÄ±yor
 ```
 
-#### 🔴🔴 VE İKİ DELİK — 377 aday bunlar kapanmadan YAZILAMAZ
+ğŸ“Œ `Â§4`Ã¼n *"kendi transliterasyonunu deÄŸil, gerÃ§ek `id:`yi kullan"*
+kuralÄ±nÄ±n bu partideki vakasÄ± â€” ve **hÃ¼kmÃ¼ aday listesinden deÄŸil,
+noktalarÄ±n kendi `s:` alanÄ±ndan okuyunca** Ã§Ä±ktÄ±.
+
+#### Ã–lÃ§Ã¼m: kutumdaki 98 noktanÄ±n kullandÄ±ÄŸÄ± kimlikler
 
 ```
-① `kanada` KÜNYESİ YOK.
-   441 künyenin hiçbirinde 'kanad'/'canad' geçmiyor. Kutum 1867-1923
-   arası Kanada ile DOLU (Regina · Calgary · Battleford · Fort Macleod ·
-   Whitehorse · Dawson · Prince Albert · NWMP hattının tamamı) ve
+ğŸŸ¢ VAR ve KULLANILIYOR
+yeni-ispanya 53 Â· meksika 49 Â· ispanya 43 Â· abd 36 Â· ingiltere 23 Â·
+aztek-imparatorlugu 9 Â· maya-sehir-devletleri 9 Â· nahua-sehir-devletleri 7 Â·
+fransa 7 Â· haudenosaunee 5 Â· kuba-cumhuriyeti 4 Â· dominik-cumhuriyeti 4 Â·
+purepecha-imparatorlugu 3 Â· pueblo-bagimsizligi 3 Â· ingiliz-kuzey-amerika 3 Â·
+hollanda 2 Â· zapotek-krallik 2 Â· cahokia Â· powhatan Â· natchez Â·
+creek-konfederasyonu Â· cherokee Â· choctaw Â· komanci Â· apaci-ovalar Â·
+teksas-cumhuriyeti Â· hawaii-kralligi Â· rusya
+```
+
+#### ğŸ”´ğŸ”´ VE Ä°KÄ° DELÄ°K â€” 377 aday bunlar kapanmadan YAZILAMAZ
+
+```
+â‘  `kanada` KÃœNYESÄ° YOK.
+   441 kÃ¼nyenin hiÃ§birinde 'kanad'/'canad' geÃ§miyor. Kutum 1867-1923
+   arasÄ± Kanada ile DOLU (Regina Â· Calgary Â· Battleford Â· Fort Macleod Â·
+   Whitehorse Â· Dawson Â· Prince Albert Â· NWMP hattÄ±nÄ±n tamamÄ±) ve
    boyayacak kimlik YOK.
-   ⇒ Var olan `ingiliz-kuzey-amerika` 1867'de bitmeli, `kanada`
-     başlamalı — ve o gün (1867-07-01) `Değişmez 2` gereği MADDE ister.
+   â‡’ Var olan `ingiliz-kuzey-amerika` 1867'de bitmeli, `kanada`
+     baÅŸlamalÄ± â€” ve o gÃ¼n (1867-07-01) `DeÄŸiÅŸmez 2` gereÄŸi MADDE ister.
 
-② YERLİ KİMLİKLERİN NEREDEYSE HİÇBİRİ YOK.
-   VAR olanlar Doğu ve Güney'e ait: haudenosaunee · powhatan · cherokee ·
-   choctaw · creek-konfederasyonu · natchez · cahokia · pueblo-bagimsizligi ·
-   apaci-ovalar · komanci.
-   YOK olanlar benim kutumun KUZEYİ ve BATISI — ve adaylarımın çoğu orada:
-     İnuit (hiç: inuit · inupiat · yupik · nunavik ARANDI, 0)
-     Dene/Atabask · Kri · Ojibwe · Innu/Naskapi · Beothuk · Mikmak ·
-     Maliseet · Abenaki · Métis · Tlingit · Hayda · Tsimşiyan · Nuxalk ·
-     Salish · Nez Perce · Klamath · Payut · Şoşoni · Ute · Navaho ·
-     Mandan · Hidatsa · Pavni · Karga · Wiçita · Lakota/Dakota · Kalusa
+â‘¡ YERLÄ° KÄ°MLÄ°KLERÄ°N NEREDEYSE HÄ°Ã‡BÄ°RÄ° YOK.
+   VAR olanlar DoÄŸu ve GÃ¼ney'e ait: haudenosaunee Â· powhatan Â· cherokee Â·
+   choctaw Â· creek-konfederasyonu Â· natchez Â· cahokia Â· pueblo-bagimsizligi Â·
+   apaci-ovalar Â· komanci.
+   YOK olanlar benim kutumun KUZEYÄ° ve BATISI â€” ve adaylarÄ±mÄ±n Ã§oÄŸu orada:
+     Ä°nuit (hiÃ§: inuit Â· inupiat Â· yupik Â· nunavik ARANDI, 0)
+     Dene/Atabask Â· Kri Â· Ojibwe Â· Innu/Naskapi Â· Beothuk Â· Mikmak Â·
+     Maliseet Â· Abenaki Â· MÃ©tis Â· Tlingit Â· Hayda Â· TsimÅŸiyan Â· Nuxalk Â·
+     Salish Â· Nez Perce Â· Klamath Â· Payut Â· ÅoÅŸoni Â· Ute Â· Navaho Â·
+     Mandan Â· Hidatsa Â· Pavni Â· Karga Â· WiÃ§ita Â· Lakota/Dakota Â· Kalusa
 ```
 
-⚠️ **Ve bu `§8`in doğrudan ihlali olurdu:** *"`s:` içindeki devlet kimliği
-`BOYALAR` sözlüğünde tanımlı olmalı; yoksa bölge BOYANMAZ."* Kimliksiz
-yazılan 377 nokta, **peteği üretir ama hiçbirini boyamaz** — yani boşluk
-kapanmış GÖRÜNÜR, harita aynı kalır.
+âš ï¸ **Ve bu `Â§8`in doÄŸrudan ihlali olurdu:** *"`s:` iÃ§indeki devlet kimliÄŸi
+`BOYALAR` sÃ¶zlÃ¼ÄŸÃ¼nde tanÄ±mlÄ± olmalÄ±; yoksa bÃ¶lge BOYANMAZ."* Kimliksiz
+yazÄ±lan 377 nokta, **peteÄŸi Ã¼retir ama hiÃ§birini boyamaz** â€” yani boÅŸluk
+kapanmÄ±ÅŸ GÃ–RÃœNÃœR, harita aynÄ± kalÄ±r.
 
-#### Karar bekleyen üç soru — ve ölçülmüş cevap adayları
+#### Karar bekleyen Ã¼Ã§ soru â€” ve Ã¶lÃ§Ã¼lmÃ¼ÅŸ cevap adaylarÄ±
 
 ```
-① HBC bir devlet mi?    Rupert's Land 1670-1870 HBC imtiyazıdır.
-   ⇒ ÖLÇÜLDÜ: `hudson`/`sirket`/`company` künyesi YOK.
-     Seçenek: (a) `ingiliz-kuzey-amerika`ya bağla · (b) ayrı künye.
-     ÖNERİM (a) — HBC bir şirkettir, atlas TASARRUFU boyar ve
-     tasarruf hukuken Britanya tacınındı.
-② Yerli kimlikler hangi TANECİKTE?
-   ⇒ ÖLÇÜLDÜ: var olanların taneciği KONFEDERASYON/HALK düzeyi
-     (haudenosaunee · creek-konfederasyonu · choctaw). Aynı tanecik
-     kuzeyde ~25 yeni künye demektir.
-     ALTERNATİF: bir kısmı `kasitli_bosluk` + `neden:"devletsiz"`.
-     ⚠️ İkisi aynı şey DEĞİL: künye BOYAR, boşluk BOYAMAZ.
-③ Rus Amerikası?
-   ⇒ ÖLÇÜLDÜ, CEVAP HAZIR: Novoarkhangelsk (Sitka) `rusya` kullanıyor.
-     11 Rus Amerikası adayım da `rusya` alır. 1867-10-18 devri
-     `abd`ye kırılma günüdür ve `Değişmez 2` madde ister.
+â‘  HBC bir devlet mi?    Rupert's Land 1670-1870 HBC imtiyazÄ±dÄ±r.
+   â‡’ Ã–LÃ‡ÃœLDÃœ: `hudson`/`sirket`/`company` kÃ¼nyesi YOK.
+     SeÃ§enek: (a) `ingiliz-kuzey-amerika`ya baÄŸla Â· (b) ayrÄ± kÃ¼nye.
+     Ã–NERÄ°M (a) â€” HBC bir ÅŸirkettir, atlas TASARRUFU boyar ve
+     tasarruf hukuken Britanya tacÄ±nÄ±ndÄ±.
+â‘¡ Yerli kimlikler hangi TANECÄ°KTE?
+   â‡’ Ã–LÃ‡ÃœLDÃœ: var olanlarÄ±n taneciÄŸi KONFEDERASYON/HALK dÃ¼zeyi
+     (haudenosaunee Â· creek-konfederasyonu Â· choctaw). AynÄ± tanecik
+     kuzeyde ~25 yeni kÃ¼nye demektir.
+     ALTERNATÄ°F: bir kÄ±smÄ± `kasitli_bosluk` + `neden:"devletsiz"`.
+     âš ï¸ Ä°kisi aynÄ± ÅŸey DEÄÄ°L: kÃ¼nye BOYAR, boÅŸluk BOYAMAZ.
+â‘¢ Rus AmerikasÄ±?
+   â‡’ Ã–LÃ‡ÃœLDÃœ, CEVAP HAZIR: Novoarkhangelsk (Sitka) `rusya` kullanÄ±yor.
+     11 Rus AmerikasÄ± adayÄ±m da `rusya` alÄ±r. 1867-10-18 devri
+     `abd`ye kÄ±rÄ±lma gÃ¼nÃ¼dÃ¼r ve `DeÄŸiÅŸmez 2` madde ister.
 ```
 
-🔴 **Bu üç soru nokta yazmadan ÖNCE cevaplanmalı**, çünkü cevap 377 kaydın
-`s:` alanını belirler ve sonradan değiştirmek hepsini dolaşmak demektir.
-**Karar koordinatörde**, ben soruyu ölçüp cevap adaylarını çıkardım.
+ğŸ”´ **Bu Ã¼Ã§ soru nokta yazmadan Ã–NCE cevaplanmalÄ±**, Ã§Ã¼nkÃ¼ cevap 377 kaydÄ±n
+`s:` alanÄ±nÄ± belirler ve sonradan deÄŸiÅŸtirmek hepsini dolaÅŸmak demektir.
+**Karar koordinatÃ¶rde**, ben soruyu Ã¶lÃ§Ã¼p cevap adaylarÄ±nÄ± Ã§Ä±kardÄ±m.
 
 ---
 
-## 10. YAZIM TURUNA DEVİR — sırayla
+## 10. YAZIM TURUNA DEVÄ°R â€” sÄ±rayla
 
 ```
-① KÜNYE KARARI      §9'daki üç soru (HBC · yerli künye taneciği ·
-                    Rus Amerikası) — nokta yazmadan ÖNCE
-② KOORDİNAT TEYİDİ  377 kaydın koordinatı ve kuruluş günü, adı geçen
-                    cilde bakarak. kara sınavı bir kez daha koşar.
-③ CİNS TEYİDİ       kalan 143 hücre için `devletsiz` önerisi doğrulanır
-                    (kaynak KONUŞUYOR mu? — §6)
-④ ŞERİT KARARI      15-25K bandı kimin? (§7)
-⑤ YAZIM             `data/<verilecek dosya>.js` + ad alanı
-                    (`§7` — ayrı dosya vermek ayrı ad alanı vermek DEĞİLDİR)
-⑥ ÜÇ SINAV + KARA SINAVI, sonra koordinatör `girdi.py`ye bağlar
+â‘  KÃœNYE KARARI      Â§9'daki Ã¼Ã§ soru (HBC Â· yerli kÃ¼nye taneciÄŸi Â·
+                    Rus AmerikasÄ±) â€” nokta yazmadan Ã–NCE
+â‘¡ KOORDÄ°NAT TEYÄ°DÄ°  377 kaydÄ±n koordinatÄ± ve kuruluÅŸ gÃ¼nÃ¼, adÄ± geÃ§en
+                    cilde bakarak. kara sÄ±navÄ± bir kez daha koÅŸar.
+â‘¢ CÄ°NS TEYÄ°DÄ°       kalan 143 hÃ¼cre iÃ§in `devletsiz` Ã¶nerisi doÄŸrulanÄ±r
+                    (kaynak KONUÅUYOR mu? â€” Â§6)
+â‘£ ÅERÄ°T KARARI      15-25K bandÄ± kimin? (Â§7)
+â‘¤ YAZIM             `data/<verilecek dosya>.js` + ad alanÄ±
+                    (`Â§7` â€” ayrÄ± dosya vermek ayrÄ± ad alanÄ± vermek DEÄÄ°LDÄ°R)
+â‘¥ ÃœÃ‡ SINAV + KARA SINAVI, sonra koordinatÃ¶r `girdi.py`ye baÄŸlar
 ```
 
-⚠️ **377 nokta tek partide bağlanmamalı.** `§11`: *"bir dosya bağlandığı
-gün, o veriye bakan BÜTÜN ölçüm aletlerinin tabanı yeniden doğrulanır"* —
-2731 → 3108 (%14 büyüme) `renk_olc.py` · `denetle.py` · `durum_tablosu.py`
-tabanlarını birden kaydırır. **`renk_olc.py` özellikle**: `§9`daki
-*"palet verinin fonksiyonudur"* kuralı gereği, hiçbir renge dokunulmadan
-yeni çakışmalar doğabilir — ve bu parti **20'den fazla yeni kimlik**
+âš ï¸ **377 nokta tek partide baÄŸlanmamalÄ±.** `Â§11`: *"bir dosya baÄŸlandÄ±ÄŸÄ±
+gÃ¼n, o veriye bakan BÃœTÃœN Ã¶lÃ§Ã¼m aletlerinin tabanÄ± yeniden doÄŸrulanÄ±r"* â€”
+2731 â†’ 3108 (%14 bÃ¼yÃ¼me) `renk_olc.py` Â· `denetle.py` Â· `durum_tablosu.py`
+tabanlarÄ±nÄ± birden kaydÄ±rÄ±r. **`renk_olc.py` Ã¶zellikle**: `Â§9`daki
+*"palet verinin fonksiyonudur"* kuralÄ± gereÄŸi, hiÃ§bir renge dokunulmadan
+yeni Ã§akÄ±ÅŸmalar doÄŸabilir â€” ve bu parti **20'den fazla yeni kimlik**
 sahneye sokuyor.
 
 ---
 
-## 11. BU OTURUMUN ÖĞRENDİKLERİ — `OGRENILENLER.md` adayları
+## 11. BU OTURUMUN Ã–ÄRENDÄ°KLERÄ° â€” `OGRENILENLER.md` adaylarÄ±
 
-**① Bir ızgara, TABANI ölçerken masum, KALANI ölçerken değildir.**
-Aynı alet aynı kutuda %83,1 ↔ %84,6 (fark yok) ama %2,7 ↔ %5,4 (iki kat)
-verdi. Kapanma ilerledikçe boşluk incelir; **kaba ızgara incelen boşluğu
-kaçırır ve iş bitmiş görünür.** Ve hata coğrafyaya bağlı: AFRIKA'da %0,3,
-burada %2,7 — **dokuz kat.** ⇒ *Bir ölçütün çözünürlüğü, ölçtüğü şey
-küçüldükçe yeniden sorgulanır.*
+**â‘  Bir Ä±zgara, TABANI Ã¶lÃ§erken masum, KALANI Ã¶lÃ§erken deÄŸildir.**
+AynÄ± alet aynÄ± kutuda %83,1 â†” %84,6 (fark yok) ama %2,7 â†” %5,4 (iki kat)
+verdi. Kapanma ilerledikÃ§e boÅŸluk incelir; **kaba Ä±zgara incelen boÅŸluÄŸu
+kaÃ§Ä±rÄ±r ve iÅŸ bitmiÅŸ gÃ¶rÃ¼nÃ¼r.** Ve hata coÄŸrafyaya baÄŸlÄ±: AFRIKA'da %0,3,
+burada %2,7 â€” **dokuz kat.** â‡’ *Bir Ã¶lÃ§Ã¼tÃ¼n Ã§Ã¶zÃ¼nÃ¼rlÃ¼ÄŸÃ¼, Ã¶lÃ§tÃ¼ÄŸÃ¼ ÅŸey
+kÃ¼Ã§Ã¼ldÃ¼kÃ§e yeniden sorgulanÄ±r.*
 
-**② Kapanmayan bir hücre, bir ADAYIN kusurunu gösterebilir.**
-`54,5K 164,5B` açık kalmıştı, oysa oraya Unalaska yazılmıştı ⇒ koordinat
-yanlıştı (210 km denizde). ⇒ *Ölçüm yalnız "ne eksik" demez, "yazdığım
-şey doğru mu" da der — yeter ki iki işaret çakıştırılsın.*
+**â‘¡ Kapanmayan bir hÃ¼cre, bir ADAYIN kusurunu gÃ¶sterebilir.**
+`54,5K 164,5B` aÃ§Ä±k kalmÄ±ÅŸtÄ±, oysa oraya Unalaska yazÄ±lmÄ±ÅŸtÄ± â‡’ koordinat
+yanlÄ±ÅŸtÄ± (210 km denizde). â‡’ *Ã–lÃ§Ã¼m yalnÄ±z "ne eksik" demez, "yazdÄ±ÄŸÄ±m
+ÅŸey doÄŸru mu" da der â€” yeter ki iki iÅŸaret Ã§akÄ±ÅŸtÄ±rÄ±lsÄ±n.*
 
-**③ Bir ölçütün "katkısı sıfır" demesi, "değeri sıfır" demek değildir.**
-60 aday hiçbir hücre kapatmıyor ama `§2` emilmesini 200 km'nin altında
-düzeltiyor. ⇒ *Ölçüt neyi ölçmediğini söylemez; onu ölçütü kuran yazar.*
+**â‘¢ Bir Ã¶lÃ§Ã¼tÃ¼n "katkÄ±sÄ± sÄ±fÄ±r" demesi, "deÄŸeri sÄ±fÄ±r" demek deÄŸildir.**
+60 aday hiÃ§bir hÃ¼cre kapatmÄ±yor ama `Â§2` emilmesini 200 km'nin altÄ±nda
+dÃ¼zeltiyor. â‡’ *Ã–lÃ§Ã¼t neyi Ã¶lÃ§mediÄŸini sÃ¶ylemez; onu Ã¶lÃ§Ã¼tÃ¼ kuran yazar.*
 
-**④ İki kutunun ARASI, ikisinin de içinden görünmez.**
-15-25K şeridi hem bende hem Orta Amerika'da; kimseye verilmediği için
-**çakışma alarmı ötmez** ve tam bu yüzden atlanır. ⇒ *Kutu defteri
-"örtüşüyor mu" diye soruyor; "arada kalan var mı" diye de sormalı.*
+**â‘£ Ä°ki kutunun ARASI, ikisinin de iÃ§inden gÃ¶rÃ¼nmez.**
+15-25K ÅŸeridi hem bende hem Orta Amerika'da; kimseye verilmediÄŸi iÃ§in
+**Ã§akÄ±ÅŸma alarmÄ± Ã¶tmez** ve tam bu yÃ¼zden atlanÄ±r. â‡’ *Kutu defteri
+"Ã¶rtÃ¼ÅŸÃ¼yor mu" diye soruyor; "arada kalan var mÄ±" diye de sormalÄ±.*
 
-**⑤ Bir sevkin doğruladığı sayı, sevkin TABANI olduğu ızgarayı
-doğrulamaz.** Şartnamenin tablosu 2°ydi ve ben onu birebir tutturdum —
-**taban doğruydu, ölçek yanlıştı.** ⇒ `§11`in *"ölçüm doğru, evren dar"*
-ailesinin **çözünürlük** yüzü: burada evren dar değil, **kaba.**
+**â‘¤ Bir sevkin doÄŸruladÄ±ÄŸÄ± sayÄ±, sevkin TABANI olduÄŸu Ä±zgarayÄ±
+doÄŸrulamaz.** Åartnamenin tablosu 2Â°ydi ve ben onu birebir tutturdum â€”
+**taban doÄŸruydu, Ã¶lÃ§ek yanlÄ±ÅŸtÄ±.** â‡’ `Â§11`in *"Ã¶lÃ§Ã¼m doÄŸru, evren dar"*
+ailesinin **Ã§Ã¶zÃ¼nÃ¼rlÃ¼k** yÃ¼zÃ¼: burada evren dar deÄŸil, **kaba.**
 
-**⑥ "ÖLÇMEDİM" DAMGASI BİR SON DEĞİL, BİR ADRESTİR — ve ilk açtığımda
-partinin en ağır bulgusu çıktı.**
-Bitiş ölçütünün ④. şartını (*"her `s:` kimliği `devletler.js`te var mı"*)
-önce dürüstçe **`ölçmedim`** diye damgaladım ve borç yazdım. Sonra açtım:
-`kanada` künyesi **yok**, kuzey ve batı yerli kimliklerinin neredeyse
-**hiçbiri yok** ⇒ 377 aday bugün yazılsa `§8` gereği **peteği üretir ama
-hiçbirini boyamaz.** Boşluk kapanmış **görünür**, harita **aynı kalır**.
-⇒ *Bir kalemi `ölçmedim` diye kapatmak, onu açık tutmanın en ucuz yoludur
-— ama yalnız gerçekten geri dönülürse. Damga bir hafıza, mazeret değil.*
+**â‘¥ "Ã–LÃ‡MEDÄ°M" DAMGASI BÄ°R SON DEÄÄ°L, BÄ°R ADRESTÄ°R â€” ve ilk aÃ§tÄ±ÄŸÄ±mda
+partinin en aÄŸÄ±r bulgusu Ã§Ä±ktÄ±.**
+BitiÅŸ Ã¶lÃ§Ã¼tÃ¼nÃ¼n â‘£. ÅŸartÄ±nÄ± (*"her `s:` kimliÄŸi `devletler.js`te var mÄ±"*)
+Ã¶nce dÃ¼rÃ¼stÃ§e **`Ã¶lÃ§medim`** diye damgaladÄ±m ve borÃ§ yazdÄ±m. Sonra aÃ§tÄ±m:
+`kanada` kÃ¼nyesi **yok**, kuzey ve batÄ± yerli kimliklerinin neredeyse
+**hiÃ§biri yok** â‡’ 377 aday bugÃ¼n yazÄ±lsa `Â§8` gereÄŸi **peteÄŸi Ã¼retir ama
+hiÃ§birini boyamaz.** BoÅŸluk kapanmÄ±ÅŸ **gÃ¶rÃ¼nÃ¼r**, harita **aynÄ± kalÄ±r**.
+â‡’ *Bir kalemi `Ã¶lÃ§medim` diye kapatmak, onu aÃ§Ä±k tutmanÄ±n en ucuz yoludur
+â€” ama yalnÄ±z gerÃ§ekten geri dÃ¶nÃ¼lÃ¼rse. Damga bir hafÄ±za, mazeret deÄŸil.*
 
-**⑦ Ve aynı ölçüm beni ÇÜRÜTTÜ:** raporun ilk hâlinde *"İrokua künyesi
-var"* diye yazmıştım; `irok` araması **0** verdi ve neredeyse *"künye
-yok"* diye hüküm verecektim. Gerçek `id:` **`haudenosaunee`**, ve beş
-nokta onu **zaten** kullanıyordu. ⇒ `§4`ün yazım ekseni: *aday listeme
-değil, VERİNİN KENDİ `s:` alanına sormalıydım.* **Bir kimliğin var olup
-olmadığını, onu arayan değil, onu KULLANAN söyler.**
+**â‘¦ Ve aynÄ± Ã¶lÃ§Ã¼m beni Ã‡ÃœRÃœTTÃœ:** raporun ilk hÃ¢linde *"Ä°rokua kÃ¼nyesi
+var"* diye yazmÄ±ÅŸtÄ±m; `irok` aramasÄ± **0** verdi ve neredeyse *"kÃ¼nye
+yok"* diye hÃ¼kÃ¼m verecektim. GerÃ§ek `id:` **`haudenosaunee`**, ve beÅŸ
+nokta onu **zaten** kullanÄ±yordu. â‡’ `Â§4`Ã¼n yazÄ±m ekseni: *aday listeme
+deÄŸil, VERÄ°NÄ°N KENDÄ° `s:` alanÄ±na sormalÄ±ydÄ±m.* **Bir kimliÄŸin var olup
+olmadÄ±ÄŸÄ±nÄ±, onu arayan deÄŸil, onu KULLANAN sÃ¶yler.**
 
 ---
 
 ## 12. DURUM BEYANI
 
 ```
-✅ ARAŞTIRMA TURUM BİTTİ — boştayım, yeni iş bekliyorum.
-⏳ BEKLİYORUM:  15-25K şeridi kararı (§7) + künye kararı (§9)
-   KİMDEN:      1.MURAT
-   NE ZAMAN:    bir saat ses gelmezse tahtadan tekrar soracağım
+âœ… ARAÅTIRMA TURUM BÄ°TTÄ° â€” boÅŸtayÄ±m, yeni iÅŸ bekliyorum.
+â³ BEKLÄ°YORUM:  15-25K ÅŸeridi kararÄ± (Â§7) + kÃ¼nye kararÄ± (Â§9)
+   KÄ°MDEN:      1.MURAT
+   NE ZAMAN:    bir saat ses gelmezse tahtadan tekrar soracaÄŸÄ±m
 ```
 
-🔴 `data/` altına **hiçbir şey yazmadım** — koşu canlıydı (PID 1268) ve
-`§7` gereği `data/` ve `arac/` ikisi de donmuştu. Yazdığım her şey
-`denetim/` altındadır.
+ğŸ”´ `data/` altÄ±na **hiÃ§bir ÅŸey yazmadÄ±m** â€” koÅŸu canlÄ±ydÄ± (PID 1268) ve
+`Â§7` gereÄŸi `data/` ve `arac/` ikisi de donmuÅŸtu. YazdÄ±ÄŸÄ±m her ÅŸey
+`denetim/` altÄ±ndadÄ±r.
+
+---
+
+# 13. Ä°KÄ°NCÄ° AÅAMA â€” kÃ¼nye Â· zincir Â· madde
+
+AraÅŸtÄ±rma turu bittikten sonra koordinatÃ¶r (`1.MURAT`) sÄ±rayla Ã¼Ã§ iÅŸ
+daha sevk etti. Bu bÃ¶lÃ¼m onlarÄ± ve Ã§Ä±kan bulgularÄ± anlatÄ±r.
+
+## 13.1 KÃœNYE REÃ‡ETESÄ° â€” 43 kÃ¼nye, Ã¼Ã§ parti
+
+`Â§9`daki *"kÃ¼nye yok, 377 nokta yazÄ±lamaz"* teÅŸhisi doÄŸrulandÄ± ve
+karÅŸÄ±lÄ±ÄŸÄ± yazÄ±ldÄ±.
+
+| dosya | n | kapsam |
+|---|---|---|
+| `KUNYE-KAMERIKA-0903.json` | 16 | `kanada` Â· `inuit` Â· `dene` Â· `kri` Â· `ojibwe` Â· `metis` Â· `lakota` Â· `navaho` Â· `nez-perce` Â· `hayda` Â· `tlingit` Â· `vendat` Â· `beothuk` Â· `savni` Â· `miami` Â· `sauk` |
+| `-parti2.json` | 14 | `abenaki` Â· `mikmak` Â· `maliseet` Â· `cikasav` Â· `sosoni` Â· `ute` Â· `mandan` Â· `hidatsa` Â· `karga` Â· `pavni` Â· `wicita` Â· `aleut` Â· `alutiiq` Â· `yupik` |
+| `-parti3.json` | 13 | `zuni` Â· `nuxalk` Â· `secwepemc` Â· `nuu-cah-nulth` Â· `kalusa` Â· `mohave` Â· `klamath` Â· `sahaptin` Â· `ponka` Â· `occaneechi` Â· `etowah` Â· `moundville` Â· `spiro` |
+| `-BEKLEYEN.json` | 17 | yazÄ±lmayanlar, sebep + aday tarih + damgayla |
+| `-KABILE.json` | 8 | `M-2425` teritoryal sÄ±navÄ±nÄ± geÃ§emeyenler ve her birinin kararÄ± |
+| `-DUZELTME.json` | 3 | **yeni kÃ¼nye deÄŸil**, mevcut kÃ¼nyelerde dÃ¼zeltme |
+
+**Tarih damgalarÄ±:** 43'Ã¼nÃ¼n hiÃ§birinde `ğŸ”´ DAYANAKSIZ` yok.
+26'sÄ± gÃ¼n-kaynaklÄ±, kalanÄ± `YYYY-01-01` (`Â§4`). **Uydurma gÃ¼n yazÄ±lmadÄ±.**
+
+ğŸŸ¢ **`M-2498`in ekseni tuttu:** 43 kÃ¼nyenin 22'sinin `t:` gÃ¼nÃ¼
+**sÃ¶mÃ¼rgecinin** takviminden geliyor â€” antlaÅŸma (Greenville Â· Fort
+Laramie Â· Fort Bridger Â· NumaralÄ± AntlaÅŸma 6 ve 8 Â· Robinson-Superior Â·
+Pontotoc Creek Â· Dummer Â· Table Creek), sefer sonu (Bear Paw Â· Wounded
+Knee Â· Batoche Â· Bad Axe) ya da idarÃ® devir (Alaska 1867-10-18 Â· Arktik
+TakÄ±madalar 1880-09-01 Â· BK Kolonisi 1858-08-02).
+âš ï¸ **Tek istisna `beothuk`:** `t:1829-06-06` bir devir deÄŸil,
+Shanawdithit'in Ã¶ldÃ¼ÄŸÃ¼ gÃ¼n â€” halkÄ±n kendisinin sonu. `not:` alanÄ±nda
+ayrÄ±ca yazÄ±ldÄ± ki okuyan karÄ±ÅŸtÄ±rmasÄ±n.
+
+## 13.2 ZÄ°NCÄ°R â€” 377 nokta Â· 735 dÃ¶nem Â· hayalet 0
+
+`ZINCIR-KAMERIKA-0903.json` Â· alet `ARAC-KAMERIKA-0903-zincir.py`.
+
+ğŸ”´ **En Ã¶nemli bulgu, kimse sormadan Ã§Ä±ktÄ±:** aday listesindeki
+`s_oneri` yalnÄ±z **baÅŸlangÄ±Ã§larÄ±** taÅŸÄ±yordu ve **yerli kÃ¼nyelerin
+ardÄ±lÄ± yoktu.** Ã–yle bÄ±rakÄ±lsaydÄ± her yerli nokta 1923'e kadar kendi
+kÃ¼nyesiyle boyanÄ±rdÄ± â€” oysa kÃ¼nyelerin `t:`si 1450-1899 arasÄ±nda biter
+â‡’ `Â§3.5` **HAYALET DEVLET**, bu projenin *"denetimin gÃ¶rmediÄŸi hata
+sÄ±nÄ±fÄ±"*.
+
+**Hayalet sÄ±navÄ±nÄ±n kÄ±rÄ±lÄ±mÄ± â€” ve ilk iki adÄ±m BENÄ°M ALETÄ°MÄ°N kusuruydu:**
+```
+89 â†’ 61   â‘´ Ã¼Ã§ haneli yÄ±l tuzaÄŸÄ±: `fransa` f=987, sÃ¶zlÃ¼ksel kÄ±yasta
+             "1600-01-01" < "987-01-01" â‡’ 28 SAHTE hayalet
+             (M-2396 bunu bana YAZILI olarak sÃ¶ylemiÅŸti)
+   â†’ 30   â‘µ selef/halef onarÄ±mÄ±: dÃ¶nem kÃ¼nyenin Ã¶mrÃ¼ne oturtuldu
+   â†’ 22   â‘¶ iki gerÃ§ek dÃ¼zeltme (aÅŸaÄŸÄ±da)
+   â†’  5   â‘· parti3 kÃ¼nyeleri inince
+```
+ğŸ“Œ **Ä°ki alet kusuru da uyarÄ±yÄ± ÅÄ°ÅÄ°RÄ°YORDU.** Ã–lÃ§meden bildirseydim
+koordinatÃ¶rde yanlÄ±ÅŸ bir aciliyet Ã¼retirdim. *"89 hayalet var"* demek
+ile *"61'i gerÃ§ek, 28'i benim aletimin"* demek arasÄ±ndaki fark, bu
+projede en pahalÄ± ayrÄ±mlardan biri.
+
+**Ve ikinci alet kusuru daha derindi:** kÃ¼nye Ã¶mÃ¼rlerini **regex** ile
+Ã§Ä±karÄ±yordum ve `danimarka` ile `haudenosaunee` *"KÃœNYE YOK"* Ã§Ä±ktÄ± â€”
+ikisi de `devletler.js`te **var**. Ã‡are regex'i dÃ¼zeltmek deÄŸil
+**bÄ±rakmak** oldu: `ARAC-KAMERIKA-0903-omur.js` ile `node`'a `eval`
+ettirildi, Ã¶mÃ¼r tablosu **376 â†’ 471**.
+ğŸ“Œ `Â§11`in *"veri zaten bir dilde yazÄ±lÄ±ysa, o dilin yorumlayÄ±cÄ±sÄ±nÄ±
+Ã§aÄŸÄ±r"* dersinin **altÄ±ncÄ±** vakasÄ± (`girdi.py` tek tÄ±rnak Â· `bagla.py`
+CRLF Â· `renkler.py` Â· `_bk_nobetci` Â· ve bu).
+
+**DÃ¶rt gerÃ§ek zincir bulgusu:**
+```
+â‘  `ingiliz-kuzey-amerika` f:1763-02-10 â€” ama HBC karakollarÄ± 1668'den
+   beri var (Waskaganish 1668 Â· Moose Factory 1673 Â· York Factory 1684
+   Â· Halifax 1749). YÄ°RMÄ° kayÄ±t kÃ¼nyeden Ã–NCE â‡’ araya `ingiltere` girdi.
+â‘¡ LUÄ°ZYANA â‰  Ä°LLÄ°NOÄ°S ve ben ikisine TEK kural yazmÄ±ÅŸtÄ±m:
+   Luizyana 1762-11-03 Fontainebleau ile Ä°SPANYA'ya,
+   Ä°llinois Ã¼lkesi 1763-02-10 Paris ile BRÄ°TANYA'ya gitti.
+â‘¢ ~~`pueblo-bagimsizligi` kÃ¼nyesi 1680-1692 â€” bir AYAKLANMA, halk
+   deÄŸil. Ve atlasta Taos Â· Acoma Â· Santa Fe onu ZATEN Ã§atÄ± kimlik gibi
+   kullanÄ±yor.~~
+   ğŸ”´ğŸ”´ **BU BULGU Ã‡ÃœRÃœDÃœ â€” Ã–LÃ‡TÃœM, KUSUR YOK.** Bkz. Â§13.7.
+â‘£ Unalaska'ya `bolge:"Aleut"` yazmÄ±ÅŸtÄ±m â€” 1787 kuruluÅŸlu bir RUS
+   karakolu ve `aleut` kÃ¼nyesi 1784'te biter â‡’ nokta kendi kÃ¼nyesinden
+   SONRA doÄŸuyordu. `Rus AmerikasÄ±`na Ã§evrildi.
+```
+
+## 13.3 DEÄÄ°ÅMEZ 2 Ã–N Ã–LÃ‡ÃœMÃœ â€” ve iki gÃ¼nÃ¼n olay olmadÄ±ÄŸÄ±
+
+`ARAC-KAMERIKA-0903-degismez2.js` Â· Ã§Ä±ktÄ± `DEGISMEZ2-KAMERIKA-0903.txt`
+
+```
+6141 kronoloji maddesi Â· zincirimde 206 KIRILMA GÃœNÃœ
+ğŸ”´ AÃ‡IK      30  (Â±30 gÃ¼nde HÄ°Ã‡ madde yok)
+ğŸŸ¡ ALAKASIZ  38  (madde var, baÅŸka gÃ¼n, BAÅKA KONU)
+ğŸŸ¢ AYNI GÃœN 138
+```
+**En aÄŸÄ±rÄ± `1880-09-01`: 33 nokta kÄ±rÄ±lÄ±yor, en yakÄ±n madde 122 gÃ¼n
+uzakta.** Madde yazÄ±lmazsa 33 Ä°nuit noktasÄ±nÄ±n el deÄŸiÅŸtirmesi haritada
+*"Ruslar TÃ¼rkmen elini imparatorluklarÄ±na kattÄ±"* maddesinin altÄ±nda
+belirir.
+
+ğŸ”´ğŸ”´ **VE YEDÄ° AÄIR GÃœNÃœN Ä°KÄ°SÄ° OLAY DEÄÄ°LMÄ°Å.** `1829-01-01`de kÄ±rÄ±lan
+Ã¼Ã§ nokta (Fort Halkett Â· Fort Pitt Â· Springfield) ve `1803-01-01`deki
+Ã¼Ã§Ã¼ (Chisasibi Â· Fort William Â· Chicago) **ortak bir hÃ¢dise
+taÅŸÄ±mÄ±yor** â€” Ã¼Ã§Ã¼ de ayrÄ± ayrÄ± o *yÄ±l* kurulmuÅŸ ve gÃ¼nleri bilinmediÄŸi
+iÃ§in hepsine `YYYY-01-01` yazÄ±lmÄ±ÅŸ.
+â‡’ Bu iki *"kÄ±rÄ±lma gÃ¼nÃ¼"* tarihin deÄŸil **ortak takvim kuralÄ±nÄ±n
+Ã§akÄ±ÅŸmasÄ±.** BirleÅŸik madde yazmak **olmayan bir olayÄ± uydurmak**
+olurdu; her yerleÅŸime **ayrÄ± kuruluÅŸ maddesi** yazÄ±ldÄ±.
+
+ğŸ“Œ **Genel ders:** *aynÄ± gÃ¼n kÄ±rÄ±lan N nokta sayÄ±sÄ±, N noktanÄ±n AYNI
+OLAYDA el deÄŸiÅŸtirdiÄŸi anlamÄ±na gelmez.* 377 noktanÄ±n yalnÄ±z **23'Ã¼nÃ¼n**
+gÃ¼nÃ¼ kaynaklÄ±, **354'Ã¼** ortak takvim â‡’ `YYYY-01-01` gÃ¼nleri
+**sistematik olarak sahte kalabalÄ±k** Ã¼retiyor, ve aÄŸÄ±rlÄ±k sÄ±ralamasÄ±
+tam bu yÃ¼zden yanÄ±ltÄ±r. (KoordinatÃ¶r Ã¶lÃ§Ã¼tÃ¼ dÃ¼zeltti ve yaydÄ±.)
+
+â‡’ `OLAY-KAMERIKA-0903.json` Â· **11 madde**: 5 gerÃ§ek olay + 6 kuruluÅŸ.
+
+## 13.4 M-2425 TERÄ°TORYAL SINAVI â€” sekiz kalem geÃ§emedi
+
+*"Kaynak o halkÄ±n belirli bir topraÄŸÄ± **denetlediÄŸini** sÃ¶ylÃ¼yorsa
+kÃ¼nye; *'ÅŸu bÃ¶lgede yaÅŸarlardÄ±'* diyorsa `bos:"kabile"`."*
+
+En Ã¶ÄŸretici Ã¼Ã§Ã¼:
+```
+Ocmulgee    kÃ¼nye GEREKMÄ°YOR â€” SÃ–NMEDÄ°, DEVROLDU. ArdÄ±lÄ± atlasta
+            zaten var (`creek-konfederasyonu`). Ã–teki Ã¼Ã§ Mississippi
+            merkezi sÃ¶ndÃ¼ ve kÃ¼nye aldÄ±. Fark tek kelime.
+Tocobaga    teritoryal ÅŸartÄ± GEÃ‡EBÄ°LÄ°R, TARÄ°H ÅŸartÄ±nÄ± geÃ§emiyor.
+            â‡’ Ä°ki sÄ±nav ayrÄ±dÄ±r ve ikisi de gerekir.
+payut       AYNI HALKIN iki kolu sÄ±navÄ±n Ä°KÄ° YANINA dÃ¼ÅŸÃ¼yor:
+            Owens Vadisi sulama kanalÄ± kazÄ±yor (âœ“), Kara Kaya
+            bantlarÄ± hareketli (âœ—). Halk taneciÄŸi burada bedel istiyor.
+```
+ğŸ”´ **Ve kendi kapanma sayÄ±mÄ± dÃ¼ÅŸÃ¼ren bir Ã¶neri yazdÄ±m:**
+`Mushuau-nipi` kalÄ±cÄ± bir yerleÅŸim **deÄŸil**, ren geyiÄŸi geÃ§idinde
+mevsimlik buluÅŸma yeri â‡’ nokta olmaktan Ã§Ä±karÄ±lmalÄ±, kapanma **1
+azalÄ±r ve azalmasÄ± doÄŸrudur.** Gizlenirse yarÄ±n bir denetim
+*"yerleÅŸim deÄŸil"* diye bulur ve o zaman **sayÄ±nÄ±n tamamÄ±**
+gÃ¼venilirliÄŸini kaybeder.
+
+## 13.5 BÄ°TÄ°Å Ã–LÃ‡ÃœTÃœ â€” YENÄ°LENMÄ°Å (Â§9'un yerini alÄ±r)
+
+| ÅŸart | durum |
+|---|---|
+| â‘  aÃ§Ä±k hÃ¼cre Ã¶nce/sonra Ã¶lÃ§Ã¼ldÃ¼ | ğŸŸ¢ iki Ä±zgarada, sayÄ±yla |
+| â‘¡ her aÃ§Ä±k hÃ¼cre: nokta ya da cinsi yazÄ±lÄ± beyan | ğŸŸ¡ nokta tarafÄ± hazÄ±r; **beyan tarafÄ± hÃ¢lÃ¢ Ã–NERÄ°** (Â§6) |
+| â‘¢ her kaydÄ±n `kaynak:` alanÄ± dolu | ğŸŸ¢ 377/377 Â· **tek tek doÄŸrulanmadÄ±** â€” Â§4 damgasÄ± |
+| â‘£ her `s:` kimliÄŸi var ve Ã¶mrÃ¼ tutuyor | ğŸŸ¢ **43 kÃ¼nye yazÄ±ldÄ± Â· hayalet 0 Â· bloke 5** |
+| â‘¤ Ã¶n sÄ±nav KIRMIZI 0 | ğŸŸ¢ 3 km Â· kutu Â· ad Â· **kara maskesi** Â· kÃ¼nye Â· hayalet â€” altÄ±sÄ± da 0 |
+
+**AÃ§Ä±k kalan beÅŸ nokta:** `Bishop` Â· `Kuzey Payut` Â· `Prescott/Yavapai` Â·
+`Meskalero ApaÃ§i` Â· `Mushuau-nipi` â€” beÅŸi de **karar bekliyor**, Ã¶lÃ§Ã¼m
+deÄŸil.
+
+## 13.6 Ä°KÄ°NCÄ° AÅAMANIN DERSLERÄ°
+
+**â‘§ BÄ°R ALETÄ°N UYARI SAYISI, ALETÄ°N KENDÄ° KUSURUNU DA Ä°Ã‡EREBÄ°LÄ°R â€” ve
+o kusur uyarÄ±yÄ± ÅÄ°ÅÄ°RÄ°R.** `89 â†’ 61` farkÄ±nÄ±n tamamÄ± benim sÃ¶zlÃ¼ksel
+tarih kÄ±yasÄ±mdÄ±. â‡’ *Bir alarm sayÄ±sÄ±nÄ± bildirmeden Ã¶nce, alarmÄ±n
+kendisini sÄ±na.* Yoksa aciliyet uydurursun.
+
+**â‘¨ AYNI GÃœN KIRILAN N NOKTA, N OLAYIN TARAFI DEÄÄ°LDÄ°R.** `YYYY-01-01`
+kuralÄ± sahte kalabalÄ±k Ã¼retir; aÄŸÄ±rlÄ±k sÄ±ralamasÄ± bu kalabalÄ±ÄŸa bakarsa
+**olmayan bir olay** yazdÄ±rÄ±r.
+
+**â‘© Ä°KÄ° SINAV AYRIDIR VE Ä°KÄ°SÄ° DE GEREKÄ°R.** Tocobaga teritoryal ÅŸartÄ±
+geÃ§er, tarih ÅŸartÄ±nÄ± geÃ§emez. Birini geÃ§mek Ã¶tekini geÃ§irmez â€” ve
+*"sÄ±navÄ± geÃ§ti"* demek hangi sÄ±nav olduÄŸunu sÃ¶ylemeden **eksiktir.**
+
+**â‘ª KENDÄ° SAYINI DÃœÅÃœREN BULGUYU YAZMAK, ONU GÄ°ZLEMEKTEN UCUZDUR.**
+Gizlenen bir fazlalÄ±k yarÄ±n bulunur ve o gÃ¼n **yalnÄ±z o kalem deÄŸil,
+bÃ¼tÃ¼n sayÄ±** gÃ¼venilirliÄŸini kaybeder.
+
+**â‘« SAYIYI PLANDAN DEÄÄ°L DOSYADAN OKU.** Madde reÃ§etesini teslim
+ederken *"11 madde"* dedim, dosyada **10** vardÄ± â€” altÄ± kuruluÅŸ maddesi
+yazmayÄ± *planlamÄ±ÅŸtÄ±m*, beÅŸini yazmÄ±ÅŸtÄ±m. EksiÄŸi yakalayan ÅŸey dikkat
+deÄŸil **saymaktÄ±.** â‡’ `Â§11`in *"Ã¶lÃ§mediÄŸini `Ã¶lÃ§medim` diye yaz"*
+kuralÄ±nÄ±n kÃ¼Ã§Ã¼k ama saf hÃ¢li: **plandaki sayÄ±yÄ± gerÃ§ekleÅŸmiÅŸ sayÄ± gibi
+bildirmek.**
+
+---
+
+## 13.7 ğŸ”´ğŸ”´ BÄ°R BULGUM Ã‡ÃœRÃœDÃœ â€” ve Ã§Ã¼rÃ¼ten ÅŸey nihayet BAKMAK oldu
+
+Â§13.2â‘¢'te *"Taos Â· Acoma Â· Santa Fe `pueblo-bagimsizligi`ni Ã§atÄ± kimlik
+gibi kullanÄ±yor"* diye bir kusur bildirdim. KoordinatÃ¶r kabul etti ve
+**1374 dÃ¶nemlik Ã¶mÃ¼r borcunun Ã¶rneÄŸi** diye kaydetti.
+
+**Sonra Ã¼Ã§ noktanÄ±n `s:` zincirini aÃ§tÄ±m. Ä°kisi de yanlÄ±ÅŸtÄ±:**
+
+```
+Ä°DDÄ°A  "Ã§atÄ± kimlik gibi kullanÄ±yor"
+Ã–LÃ‡ÃœM  ÃœÃ‡Ãœ DE TAM DOÄRU:
+       yeni-ispanya         1610-01-01 â†’ 1680-08-10
+       pueblo-bagimsizligi  1680-08-10 â†’ 1692-08-01   â† tam ayaklanma penceresi
+       yeni-ispanya         1692-08-01 â†’ 1821-09-27
+       meksika Â· abd        â†’1848-02-02 â†’1923-10-29
+       â‡’ Benim "dÃ¼zeltilmeli" diye Ã¶nereceÄŸim model,
+         verinin ZATEN olduÄŸu modeldi.
+
+Ä°DDÄ°A  "1680 Ã¶ncesi kimliksiz kalÄ±yor"
+Ã–LÃ‡ÃœM  Taos ve Acoma'da kasitli_bosluk:true + bos:"devletsiz" + gerekÃ§eli
+       neden: VAR â€” 1281-1610 arasÄ± Pueblo kÃ¶ylerinin Ã¶zerkliÄŸini
+       anlatÄ±yor, kaynaÄŸÄ±nÄ± (NPS Â· Britannica) adÄ±yla yazÄ±yor, ve TDV'nin
+       Pueblo halklarÄ±nÄ± ANMADIÄINI "Ã¶lÃ§Ã¼ldÃ¼, tanecik boÅŸluÄŸu" diye
+       kaydediyor. â‡’ BoÅŸluk kaza deÄŸil BEYAN.
+```
+
+### KÃ¶k sebep â€” ve bu, listedeki hiÃ§bir sÄ±nÄ±fa benzemiyor
+
+ğŸ”´ **Kusuru VERÄ°DE deÄŸil KENDÄ° ALETÄ°MDE gÃ¶rdÃ¼m ve VERÄ°YE YIKTIM.**
+
+Hayalet sÄ±navÄ±m ÅŸunu Ã¶tmÃ¼ÅŸtÃ¼:
+```
+Pecos Pueblo   pueblo-bagimsizligi   HAYALET: dÃ¶nem 1281-01-01..1692-08-01
+                                             kÃ¼nye 1680-08-10..1692-08-01
+```
+**O kayÄ±t BENÄ°M ADAYIMDI** ve o zinciri **benim eÅŸleÅŸtiricim** Ã¼retmiÅŸti
+(`bolge:"Pueblo"` â†’ `pueblo-bagimsizligi`, 1281'den baÅŸlatarak). Kendi
+aletimin Ã¼rettiÄŸi hatayÄ± gÃ¶rdÃ¼m ve *"demek mevcut noktalar da bÃ¶yle
+yapÄ±yor"* diye **genelledim â€” bakmadan.**
+
+ğŸ“Œ ***Bir aletin Ã¶tÃ¼ÅŸÃ¼, Ã¶tme SEBEBÄ°NÄ° sÃ¶ylemez.*** AynÄ± uyarÄ± satÄ±rÄ± hem
+verinin kusurunu hem aletin kusurunu gÃ¶sterebilir; ikisi ayÄ±rt edilmeden
+hÃ¼kÃ¼m verilirse **suÃ§suz veri suÃ§lanÄ±r.**
+â‡’ **Bir denetim Ã¶tÃ¼nce ilk soru *"veri mi bozuk"* deÄŸil, *"BU KAYIT
+KÄ°MÄ°N"* olmalÄ±.**
+
+âš ï¸ Ve zararÄ± teorik deÄŸildi: koordinatÃ¶r bunu bir **borÃ§** olarak
+kaydetmiÅŸti. Ã–lÃ§meseydim, bir sonraki oturum var olmayan bir kusuru
+dÃ¼zeltmeye Ã§alÄ±ÅŸacak ve **doÄŸru veriyi bozacaktÄ±** â€” `Â§11`in *"iki ayrÄ±
+kusur tek satÄ±rda raporlanÄ±rsa doÄŸru veri bozulur"* dersinin tam
+karÅŸÄ±lÄ±ÄŸÄ±.
+
+ğŸŸ¢ Ve bunu yakalayan ÅŸey bir sezgi deÄŸil, koordinatÃ¶rÃ¼n *"Ã¶lÃ§ ve reÃ§ete
+yaz"* sevkiydi. **ReÃ§ete yazmak iÃ§in Ã¶lÃ§mek zorunda kaldÄ±m, ve Ã¶lÃ§Ã¼m
+reÃ§etenin kendisini iptal etti.**
+
+---
+
+# 14. DOSYA DÄ°ZÄ°NÄ° â€” bu oturumun bÄ±raktÄ±ÄŸÄ± 26 dosya
+
+> Bu bÃ¶lÃ¼m **Ã¶lÃ§Ã¼lerek** yazÄ±ldÄ±: `ARAC-KAMERIKA-0903-rapor-sina.py`
+> raporun andÄ±ÄŸÄ± her dosyanÄ±n diskte var olduÄŸunu sÄ±nar (`11/11 âœ“`) ve
+> **ters yÃ¶nÃ¼ de** sorar â€” diskte olup raporda anÄ±lmayan var mÄ±? Ä°lk
+> koÅŸuda **14 tane** Ã§Ä±ktÄ± ve sebebi dosyalarÄ±n yokluÄŸu deÄŸil, Â§13.1
+> tablosunda kÄ±saltma kullanmamdÄ± (`-parti2.json`). Bu dizin o boÅŸluÄŸu
+> kapatÄ±r.
+> ğŸ“Œ Bir raporun andÄ±ÄŸÄ± dosya diskte yoksa rapor kendi kendine yalan
+> sÃ¶ylÃ¼yordur; **diskte olup anÄ±lmayan** varsa rapor eksiktir. Ä°kisi
+> ayrÄ± kusur ve ikisi de Ã¶lÃ§Ã¼lÃ¼r.
+
+### VERÄ° â€” yazÄ±m turunun girdisi
+| dosya | ne |
+|---|---|
+| `ADAY-KAMERIKA-0903.json` | **377 aday nokta** â€” ad Â· koordinat Â· `f:` Â· bÃ¶lge Â· kaynak kÃ¼tÃ¼ÄŸÃ¼ |
+| `ADAY-KAMERIKA-0903-kunyeli.json` | aynÄ± 377, kimlik zinciri Ã¶nerisiyle |
+| `ZINCIR-KAMERIKA-0903.json` | **377 nokta Â· 754 dÃ¶nem** â€” kapalÄ± `s:` zincirleri Â· hayalet 0 Â· bloke 1 |
+| `KALAN-KAMERIKA-0903.json` | kapanmayan **149 hÃ¼cre**, koordinatÄ±yla |
+| `HAZIR-yerlesimler_kamerika.js` | ğŸŸ¢ **KOÅU BÄ°TÄ°NCE `data/`YA KOPYALANACAK DOSYA** â€” `window.YERLESIMLER_KAMERIKA` Â· 377 kayÄ±t Â· 748 dÃ¶nem Â· 5 `kasitli_bosluk` |
+
+### KÃœNYE
+| dosya | ne |
+|---|---|
+| `KUNYE-KAMERIKA-0903.json` | parti 1 â€” **16 kÃ¼nye** |
+| `KUNYE-KAMERIKA-0903-parti2.json` | parti 2 â€” **14 kÃ¼nye** |
+| `KUNYE-KAMERIKA-0903-parti3.json` | parti 3 â€” **13 kÃ¼nye** |
+| `KUNYE-KAMERIKA-0903-parti4.json` | parti 4 â€” **3 kÃ¼nye** (`payut` Â· `yavapai` Â· `meskalero-apaci`) |
+| `KUNYE-KAMERIKA-0903-BEKLEYEN.json` | **17 yazÄ±lmayan**, sebep + aday tarih + damga |
+| `KABILE-KAMERIKA-0903.json` | **8 kalem** â€” `M-2425` teritoryal sÄ±navÄ±nÄ± geÃ§emeyenler |
+| `KUNYE-KAMERIKA-0903-DUZELTME.json` | **3 kalem** â€” mevcut kÃ¼nyelerde dÃ¼zeltme |
+
+### KRONOLOJÄ°
+| dosya | ne |
+|---|---|
+| `OLAY-KAMERIKA-0903.json` | **11 madde** â€” 5 gerÃ§ek olay + 6 kuruluÅŸ |
+| `DEGISMEZ2-KAMERIKA-0903.txt` | 206 kÄ±rÄ±lma gÃ¼nÃ¼nÃ¼n Ã¶lÃ§Ã¼mÃ¼ (30 aÃ§Ä±k Â· 38 alakasÄ±z Â· 138 aynÄ± gÃ¼n) |
+
+### ALET â€” hepsi proje kÃ¶kÃ¼nden koÅŸulabilir
+| dosya | ne sorar |
+|---|---|
+| `ARAC-KAMERIKA-0903-olc.py` | kutumda kaÃ§ hÃ¼cre aÃ§Ä±k? |
+| `ARAC-KAMERIKA-0903-dene.py` | adaylar kaÃ§ hÃ¼cre kapatÄ±yor? |
+| `ARAC-KAMERIKA-0903-birlestir.py` | 3 km Â· kutu Â· ad Ã§akÄ±ÅŸmasÄ± |
+| `ARAC-KAMERIKA-0903-kara-sina.py` | her aday gerÃ§ekten KARADA mÄ±? |
+| `ARAC-KAMERIKA-0903-normal.py` | **ortak normalleÅŸtirici** â€” TÃ¼rkÃ§e harf Â· diakritik Â· kesme |
+| `ARAC-KAMERIKA-0903-sozluk.py` | `devletler.js`in kendi `tur:`/`bolge:` sÃ¶zlÃ¼ÄŸÃ¼ |
+| `ARAC-KAMERIKA-0903-kunye.py` | her adayÄ±n kimlik zinciri ne? |
+| `ARAC-KAMERIKA-0903-kunye-sina.py` | kÃ¼nye reÃ§etesi 7 daldan geÃ§iyor mu? |
+| `ARAC-KAMERIKA-0903-omur.js` | kÃ¼nye Ã¶mÃ¼rleri (**node** â€” regex deÄŸil) |
+| `ARAC-KAMERIKA-0903-zincir.py` | zincirler + **hayalet sÄ±navÄ±** |
+| `ARAC-KAMERIKA-0903-degismez2.js` | kÄ±rÄ±lma gÃ¼nleri maddeli mi? |
+| `ARAC-KAMERIKA-0903-rapor-sina.py` | raporun andÄ±ÄŸÄ± dosyalar gerÃ§ek mi? |
+| `ARAC-KAMERIKA-0903-uret-js.py` | `data/`ya inecek `.js`i Ã¼retir (alan sÃ¼zgeci `girdi.BILINEN_ALANLAR`'dan) |
+
+### RAPOR
+| dosya | ne |
+|---|---|
+| `BULGU-KAMERIKA-0903.md` | bu dosya |
+
+ğŸ”´ **HiÃ§biri commit'li deÄŸil** ve `data/` altÄ±na **hiÃ§bir ÅŸey
+yazÄ±lmadÄ±** â€” koÅŸu canlÄ±ydÄ± (PID 1268), `Â§7` gereÄŸi `data/` ve `arac/`
+donmuÅŸtu, commit yetkisi Oturum 0'da.
+

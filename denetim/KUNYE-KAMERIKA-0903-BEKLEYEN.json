@@ -1,0 +1,110 @@
+{
+ "_NOT": "M-2500 şartı: «t: bulunamayan künye YAZILMAZ, bos:\"kabile\" + damga». Bu dosya YAZILMAYANLARI ve SEBEBİNİ tutar. Her kalem için bir aday tarih VARSA yazdım, ama DAMGASIYLA — ve damgası 🔴 olan hiçbiri künye dosyasına girmedi. §7.1④: bulamadığını `bulunamadı` diye yaz, boş bırakma.",
+ "_KOVA_TANIMI": {
+  "yesil": "kaynakta VAR — gün ya da yıl doğrudan veriliyor",
+  "sari": "atlasın ORTAK takvimi — yıl sağlam, gün yok (§4: YYYY-01-01)",
+  "kirmizi": "DAYANAKSIZ — künye YAZILMAZ, bos:\"kabile\" damgası önerilir"
+ },
+ "bekleyen": [
+  {
+   "id": "mississippi-kulturu",
+   "nokta": 4,
+   "noktalar": ["Etowah", "Moundville", "Ocmulgee", "Spiro"],
+   "damga": "kirmizi",
+   "sebep": "TEK KÜNYE OLAMAZ — dört sitenin dört ayrı sonu var (Spiro ~1450 · Moundville ~1450 · Etowah ~1550 · Ocmulgee Muskoki'ye devrolur). Bunları tek `t:` altında toplamak dördünü de yanlış işler.",
+   "oneri": "Emsal ZATEN VAR: `cahokia` (f:1050-01-01 t:1350-01-01) ayrı bir künyedir. Aynı desenle dört ayrı künye ya da noktaların `s:` alanının ardıl halka (creek-konfederasyonu · cherokee · caddo) bağlanması. KARAR KOORDİNATÖRDE."
+  },
+  {
+   "id": "payut",
+   "nokta": 2,
+   "noktalar": ["Kuzey Payut (Kara Kaya Çölü)", "Bishop (Owens Vadisi Payutları)"],
+   "damga": "kirmizi",
+   "sebep": "Kuzey Payut ve Güney/Owens Vadisi Payutları ayrı siyasî evrenlerdir ve hiçbiri toplu bir devir belgesi imzalamadı. Kaliforniya'daki 18 antlaşma Senato'ca ONAYLANMADI ⇒ ortada devir günü YOK.",
+   "oneri": "Onaysız antlaşma bir `t:` üretmez. `bos:\"kabile\"` uygun olabilir, ama Bishop yerleşik ve sulamalı köylere sahipti (Steward) — yani `insansiz` de `kabile` de tam oturmuyor. KARAR KOORDİNATÖRDE."
+  },
+  {
+   "id": "innu",
+   "nokta": 2,
+   "noktalar": ["Natashquan", "Mushuau-nipi (Indian House Lake)"],
+   "damga": "sari",
+   "aday_t": "1912-01-01",
+   "sebep": "Innu (Montagnais-Naskapi) Quebec ve Labrador'da HİÇBİR antlaşma imzalamadı — Kanada'nın Numaralı Antlaşmalar kuşağı bu bölgeye hiç uzanmadı. Devir yerine idarî ilhak var: Quebec'in sınır genişletmesi (1912).",
+   "oneri": "1912 yılı sağlam, gün doğrulanmadı. Ama bu bir DEVİR belgesi değil bir eyalet sınırı düzenlemesidir ⇒ öteki künyelerdeki `t:` ile aynı cinsten değil. Yazmadım. Alternatif: iki noktayı `fransa → ingiliz-kuzey-amerika → kanada` zincirine bağlamak."
+  },
+  {
+   "id": "nuu-cah-nulth",
+   "nokta": 1,
+   "noktalar": ["Yuquot (Nootka Sound)"],
+   "damga": "sari",
+   "aday_t": "1858-08-02",
+   "sebep": "Britanya Kolumbiyası Kolonisi'nin kuruluşu (hayda ile aynı gün) savunulabilir, ama Yuquot'un kendi tarihi bundan çok daha erken ve daha belirgin: 1789-1795 Nootka Buhranı, İspanya ile Britanya'yı savaşın eşiğine getirdi.",
+   "oneri": "Yuquot atlasın en zengin tek noktalarından; künyesi buhranın kendi takvimine (1790-10-28 Nootka Sözleşmesi) bağlanabilir. İKİ AYRI OKUMA VAR, seçim koordinatörde."
+  },
+  {
+   "id": "secwepemc",
+   "nokta": 1, "damga": "sari", "aday_t": "1858-08-02",
+   "sebep": "BK Kolonisi kuruluşu savunulabilir; ama iç plato halklarının hiçbiri antlaşma imzalamadı (BK'de antlaşma yokluğu bilinen bir hukukî durumdur).",
+   "oneri": "hayda ile aynı günü taşıyacaksa üçü birden (hayda · nuxalk · secwepemc) tek gerekçeyle yazılmalı — ya da üçü de `bos:\"kabile\"`. TUTARLILIK ŞART, tek tek karar YANLIŞ olur."
+  },
+  {
+   "id": "nuxalk", "nokta": 1, "damga": "sari", "aday_t": "1858-08-02",
+   "sebep": "secwepemc ile aynı.", "oneri": "secwepemc ile aynı — üçü birlikte karara bağlanmalı."
+  },
+  {
+   "id": "sahaptin", "nokta": 1, "noktalar": ["Wayám (Celilo Şelâleleri)"],
+   "damga": "sari", "aday_t": "1855-06-25",
+   "sebep": "Walla Walla antlaşmaları 1855 Haziran'ında birkaç gün içinde ayrı ayrı imzalandı; Celilo'yu kapsayan Warm Springs antlaşması ayrı bir gündür.",
+   "oneri": "`nez-perce` t:1877-10-05 ile aynı antlaşma kuşağından ama farklı halk. Gün doğrulanmadan yazmadım."
+  },
+  {
+   "id": "klamath", "nokta": 1, "damga": "sari", "aday_t": "1864-10-14",
+   "sebep": "1864 Klamath Antlaşması yılı sağlam, gün doğrulanmadı.",
+   "oneri": "YYYY-01-01 ile yazılabilir; ölçüp yazmak bir turluk iş."
+  },
+  {
+   "id": "zuni", "nokta": 1, "damga": "sari", "aday_t": "1848-02-02",
+   "sebep": "Guadalupe Hidalgo ile Yeni Meksika ABD'ye geçti. Ama Zuni bir Pueblo'dur ve atlasta ZATEN `pueblo-bagimsizligi` künyesi var (f:1680-08-10 t:1692-08-01).",
+   "oneri": "🔴 ÖNCE ŞU SORULMALI: Zuni ayrı bir künye mi, yoksa mevcut Pueblo künyesinin kapsamında mı? Acoma ve Taos noktaları ZATEN `pueblo-bagimsizligi` kullanıyor. Yeni künye açmak mevcut emsali bozabilir."
+  },
+  {
+   "id": "meskalero-apaci", "nokta": 1, "damga": "sari", "aday_t": "1873-05-27",
+   "sebep": "Meskalero rezervasyonunun kurulduğu yıl sağlam, gün doğrulanmadı.",
+   "oneri": "🔴 Atlasta ZATEN `apaci-ovalar` künyesi var (f:1281 t:1750-01-01). Meskalero ayrı mı, o künyenin devamı mı — `zuni` ile aynı cinsten soru."
+  },
+  {
+   "id": "yavapai", "nokta": 1, "damga": "sari", "aday_t": "1873-01-01",
+   "sebep": "Yavapai'nin Rio Verde'den Kamp Grant'e sürülmesi 1875; rezervasyon 1873. Gün yok.",
+   "oneri": "meskalero ile aynı kuşak; birlikte karara bağlanabilir."
+  },
+  {
+   "id": "mohave", "nokta": 1, "damga": "sari", "aday_t": "1865-03-03",
+   "sebep": "Kolorado Irmağı Rezervasyonu'nun kurulduğu tarih; gün doğrulanmadı.",
+   "oneri": "Mohave sulamalı ırmak köyleriyle YERLEŞİK bir halktı — `bos:\"kabile\"` ona uygun DEĞİL, künye hak ediyor."
+  },
+  {
+   "id": "wintu", "nokta": 1, "damga": "kirmizi",
+   "sebep": "Kaliforniya'nın 18 antlaşmasının hiçbiri Senato'ca onaylanmadı ⇒ hukukî devir günü YOK. Wintu nüfusu 1850'lerde altına hücumla çöktü ama tek bir tarih yok.",
+   "oneri": "Dayanaksız. `bos:\"kabile\"` ya da noktanın `s:` alanının doğrudan `abd`ye bağlanması."
+  },
+  {
+   "id": "ponka", "nokta": 1, "damga": "sari", "aday_t": "1858-03-12",
+   "sebep": "1858 Ponka antlaşması; gün doğrulanmadı.",
+   "oneri": "pavni · karga ile aynı kuşak, birlikte yazılabilir."
+  },
+  {
+   "id": "occaneechi", "nokta": 1, "damga": "sari", "aday_t": "1676-01-01",
+   "sebep": "Occaneechi, Bacon Ayaklanması sırasında (1676) dağıtıldı. Yıl sağlam, gün yok.",
+   "oneri": "Küçük bir Siyu dilli halk; künye açmak yerine noktanın `s:` alanının `ingiltere`ye bağlanması da savunulabilir."
+  },
+  {
+   "id": "kalusa", "nokta": 1, "damga": "sari", "aday_t": "1763-01-01",
+   "sebep": "Kalusa, Florida'nın İspanya'dan Britanya'ya geçtiği 1763'te kalan nüfusuyla Küba'ya taşındı. Yıl sağlam, gün yok.",
+   "oneri": "`beothuk` ile aynı cinsten bir künye — halkın kendisinin sona erişi. Yazılabilir."
+  },
+  {
+   "id": "tocobaga", "nokta": 1, "damga": "kirmizi",
+   "sebep": "Tocobaga 18. yüzyıl başında sönümlendi; hiçbir kaynak bir yıl vermiyor.",
+   "oneri": "Dayanaksız — künye YAZILMAZ. Nokta ya `ispanya` zincirine bağlanır ya `bos:\"kabile\"` alır."
+  }
+ ]
+}

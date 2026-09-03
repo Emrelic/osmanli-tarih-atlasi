@@ -1,0 +1,247 @@
+[
+ {
+  "id": "abenaki",
+  "ad": "Abenaki (Wabanaki)",
+  "tur": "devlet",
+  "f": "1281-01-01",
+  "t": "1725-12-15",
+  "baskent": "Norridgewock",
+  "bolge": "kuzey-amerika",
+  "ozet": "Kuzey New England ve güney Quebec'te yaşayan Algonkin dilli halk; Wabanaki Konfederasyonu'nun batı kolu. Fransızlarla ittifak hâlinde İngiliz yayılmasına direndi, Dummer Savaşı'ndan sonra çoğu Odanak ve Bécancour'a çekildi.",
+  "not": "🟢 t: 1725-12-15 — Dummer Antlaşması'nın Boston'da imzalandığı gün. 🟡 f: 1281-01-01 ATLAS UFKU.",
+  "kaynak": "bulunamadı",
+  "dayanak": "Handbook of North American Indians c.15 Northeast (Smithsonian Institution) — çevrimiçi doğrulanmadı",
+  "kronoloji": [
+   {"t": "1281-01-01", "b": "Abenaki toplulukları kuzey New England'da (atlas ufku)", "tur": "kurulus"},
+   {"t": "1724-08-23", "b": "Norridgewock baskını", "tur": "savas"},
+   {"t": "1725-12-15", "b": "Dummer Antlaşması imzalandı", "tur": "antlasma"}
+  ]
+ },
+ {
+  "id": "mikmak",
+  "ad": "Mikmak (Mi'kmaq)",
+  "tur": "devlet",
+  "f": "1281-01-01",
+  "t": "1761-01-01",
+  "baskent": "Listuguj",
+  "bolge": "kuzey-amerika",
+  "ozet": "Nova Scotia, New Brunswick ve Gaspé'de yaşayan Algonkin dilli halk; yedi bölgeli geleneksel bir düzenle örgütlüydü. Fransızlarla uzun süreli ittifak kurdu, Akadya'nın düşüşünden sonra Britanya ile Barış ve Dostluk Antlaşmaları imzaladı.",
+  "not": "🟡 t: 1761-01-01 — YIL SAĞLAM, GÜN DEĞİL. Barış ve Dostluk Antlaşmaları 1760-1761 boyunca ayrı ayrı bölgelerle imzalandı; tek bir gün yoktur. `§4`: gün bilinmiyorsa YYYY-01-01. Uydurma gün yazmadım. 🟡 f: 1281-01-01 ATLAS UFKU.",
+  "kaynak": "bulunamadı",
+  "dayanak": "Handbook of North American Indians c.15 Northeast (Smithsonian Institution) — çevrimiçi doğrulanmadı",
+  "kronoloji": [
+   {"t": "1281-01-01", "b": "Mikmak toplulukları Atlantik kıyısında (atlas ufku)", "tur": "kurulus"},
+   {"t": "1761-01-01", "b": "Britanya ile Barış ve Dostluk Antlaşmaları", "tur": "antlasma"}
+  ]
+ },
+ {
+  "id": "maliseet",
+  "ad": "Maliseet (Wolastoqiyik)",
+  "tur": "devlet",
+  "f": "1281-01-01",
+  "t": "1761-01-01",
+  "baskent": "Madawaska",
+  "bolge": "kuzey-amerika",
+  "ozet": "Saint John (Wolastoq) ırmağı havzasında yaşayan Algonkin dilli halk; Wabanaki Konfederasyonu üyesi. Mikmak ile aynı antlaşma kuşağında Britanya idaresine bağlandı.",
+  "not": "🟡 t: 1761-01-01 — Mikmak ile aynı gerekçe: yıl sağlam, gün yok. 🟡 f: 1281-01-01 ATLAS UFKU. ⚠️ Mikmak ile aynı `t:` taşıması tesadüf değil, aynı antlaşma kuşağıdır.",
+  "kaynak": "bulunamadı",
+  "dayanak": "Handbook of North American Indians c.15 Northeast (Smithsonian Institution) — çevrimiçi doğrulanmadı",
+  "kronoloji": [
+   {"t": "1281-01-01", "b": "Maliseet toplulukları Wolastoq havzasında (atlas ufku)", "tur": "kurulus"},
+   {"t": "1761-01-01", "b": "Britanya ile Barış ve Dostluk Antlaşmaları", "tur": "antlasma"}
+  ]
+ },
+ {
+  "id": "cikasav",
+  "ad": "Çikasav (Chickasaw)",
+  "tur": "devlet",
+  "f": "1281-01-01",
+  "t": "1832-10-20",
+  "baskent": "Çikasav Yarları",
+  "bolge": "kuzey-amerika",
+  "ozet": "Kuzey Mississippi ve batı Tennessee'de yaşayan Muskogi dilli halk; Fransızlara karşı İngiliz müttefikiydi ve 1736-40 seferlerini püskürttü. Pontotoc Creek Antlaşması'yla toprağını bırakıp batıya sürüldü.",
+  "not": "🟢 t: 1832-10-20 — Pontotoc Creek Antlaşması. Emsal: `choctaw` t:1830-09-27 (Dancing Rabbit Creek) — aynı kuşak, aynı mantık. 🟡 f: 1281-01-01 ATLAS UFKU.",
+  "kaynak": "bulunamadı",
+  "dayanak": "Handbook of North American Indians c.14 Southeast (Smithsonian Institution) — çevrimiçi doğrulanmadı",
+  "kronoloji": [
+   {"t": "1281-01-01", "b": "Çikasav toplulukları kuzey Mississippi'de (atlas ufku)", "tur": "kurulus"},
+   {"t": "1736-05-26", "b": "Ackia muharebesi; Fransız seferi püskürtüldü", "tur": "savas"},
+   {"t": "1832-10-20", "b": "Pontotoc Creek Antlaşması imzalandı", "tur": "antlasma"}
+  ]
+ },
+ {
+  "id": "sosoni",
+  "ad": "Şoşoni",
+  "tur": "devlet",
+  "f": "1281-01-01",
+  "t": "1868-07-03",
+  "baskent": "Fort Washakie (Wind River)",
+  "bolge": "kuzey-amerika",
+  "ozet": "Büyük Havza'dan Wyoming ovalarına uzanan Numik dilli halk; doğu kolu at ve bizona, batı kolu toplayıcılığa dayanıyordu. Doğu Şoşonileri Washakie önderliğinde ABD ile ittifak kurup Wind River'ı elde tuttu.",
+  "not": "🟢 t: 1868-07-03 — ikinci Fort Bridger Antlaşması; Wind River Rezervasyonu'nu kuran belge. ⚠️ Batı Şoşonileri ayrı bir antlaşma imzaladı (Ruby Vadisi 1863) ve toprakları hiç devredilmedi sayılır; bu künye DOĞU kolunu esas alır ve seçim gizlenmiyor. 🟡 f: 1281-01-01 ATLAS UFKU.",
+  "kaynak": "bulunamadı",
+  "dayanak": "Handbook of North American Indians c.11 Great Basin (Smithsonian Institution) · Steward, BAE Bulletin 120 — çevrimiçi doğrulanmadı",
+  "kronoloji": [
+   {"t": "1281-01-01", "b": "Numik dilli topluluklar Büyük Havza'da (atlas ufku)", "tur": "kurulus"},
+   {"t": "1863-07-02", "b": "İlk Fort Bridger Antlaşması", "tur": "antlasma"},
+   {"t": "1868-07-03", "b": "İkinci Fort Bridger Antlaşması; Wind River Rezervasyonu kuruldu", "tur": "antlasma"}
+  ]
+ },
+ {
+  "id": "ute",
+  "ad": "Ute (Núuchiu)",
+  "tur": "devlet",
+  "f": "1281-01-01",
+  "t": "1880-01-01",
+  "baskent": "Uncompahgre",
+  "bolge": "kuzey-amerika",
+  "ozet": "Kolorado ve Utah dağlık bölgesinde yaşayan Numik dilli halk; erken atlanma sayesinde İspanyol Yeni Meksika'sıyla yoğun ticaret ve akın ilişkisi kurdu. Altın ve gümüş aramalarıyla toprakları daraldı.",
+  "not": "🟡 t: 1880-01-01 — YIL SAĞLAM, GÜN DEĞİL. 1880 Ute Removal Act, Beyaz Irmak ve Uncompahgre bantlarını Utah'a sürdü. Kanun tarihi kaynaktan gün olarak doğrulanmadı ⇒ `§4` gereği YYYY-01-01. 🟡 f: 1281-01-01 ATLAS UFKU.",
+  "kaynak": "bulunamadı",
+  "dayanak": "Handbook of North American Indians c.11 Great Basin (Smithsonian Institution) — çevrimiçi doğrulanmadı",
+  "kronoloji": [
+   {"t": "1281-01-01", "b": "Ute toplulukları Kolorado ve Utah dağlarında (atlas ufku)", "tur": "kurulus"},
+   {"t": "1880-01-01", "b": "Ute Removal Act; Uncompahgre ve Beyaz Irmak bantları sürüldü", "tur": "toprak-kayip"}
+  ]
+ },
+ {
+  "id": "mandan",
+  "ad": "Mandan",
+  "tur": "devlet",
+  "f": "1281-01-01",
+  "t": "1851-09-17",
+  "baskent": "On-A-Slant",
+  "bolge": "kuzey-amerika",
+  "ozet": "Missouri kıyısında toprak-ev köylerinde yaşayan, mısır tarımı yapan Siyu dilli halk. Kuzey Ovalar ticaret ağının düğüm noktasıydı; 1837 çiçek salgını nüfusun büyük kısmını yok etti.",
+  "not": "🟢 t: 1851-09-17 — Fort Laramie Antlaşması; Kuzey Ovalar halklarının toprak sınırlarının ABD'ce tanımlandığı belge. ⚠️ Mandan'ın asıl kırılması 1837 salgınıdır (nüfus ~1600'den ~125'e); ama atlas TASARRUF boyar ve tasarruf 1851'de tanımlandı. Ayrım gizlenmiyor. 🟡 f: 1281-01-01 ATLAS UFKU.",
+  "kaynak": "bulunamadı",
+  "dayanak": "Handbook of North American Indians c.13 Plains (Smithsonian Institution) — çevrimiçi doğrulanmadı",
+  "kronoloji": [
+   {"t": "1281-01-01", "b": "Mandan köyleri Missouri kıyısında (atlas ufku)", "tur": "kurulus"},
+   {"t": "1837-06-01", "b": "Çiçek salgını; nüfusun büyük kısmı öldü", "tur": "kayip"},
+   {"t": "1851-09-17", "b": "Fort Laramie Antlaşması imzalandı", "tur": "antlasma"}
+  ]
+ },
+ {
+  "id": "hidatsa",
+  "ad": "Hidatsa",
+  "tur": "devlet",
+  "f": "1281-01-01",
+  "t": "1851-09-17",
+  "baskent": "Knife River",
+  "bolge": "kuzey-amerika",
+  "ozet": "Knife River ağzında toprak-ev köylerinde yaşayan Siyu dilli halk; Mandan ile komşu ve ortak ticaret düzeninde. Karga halkı Hidatsa'dan ayrılmıştır.",
+  "not": "🟢 t: 1851-09-17 — Fort Laramie Antlaşması, Mandan ile aynı belge. 🟡 f: 1281-01-01 ATLAS UFKU. ⚠️ Mandan · Hidatsa · Arikara sonradan tek bir idarî birime (Üç Bağlı Kabile) dönüştü; bu künyeler 1851 öncesini ayrı tutar.",
+  "kaynak": "bulunamadı",
+  "dayanak": "Handbook of North American Indians c.13 Plains (Smithsonian Institution) — çevrimiçi doğrulanmadı",
+  "kronoloji": [
+   {"t": "1281-01-01", "b": "Hidatsa köyleri Knife River'da (atlas ufku)", "tur": "kurulus"},
+   {"t": "1851-09-17", "b": "Fort Laramie Antlaşması imzalandı", "tur": "antlasma"}
+  ]
+ },
+ {
+  "id": "karga",
+  "ad": "Karga (Apsáalooke)",
+  "tur": "devlet",
+  "f": "1281-01-01",
+  "t": "1851-09-17",
+  "baskent": "Crow Agency",
+  "bolge": "kuzey-amerika",
+  "ozet": "Yellowstone ve Bighorn havzalarında at ve bizon ekonomisiyle yaşayan Siyu dilli halk; Hidatsa'dan ayrılmıştır. Lakota yayılmasına karşı ABD ile ittifak kurdu ve yurdunun bir bölümünü korudu.",
+  "not": "🟢 t: 1851-09-17 — Fort Laramie Antlaşması; Karga toprakları ilk kez tanımlandı. 🟡 f: 1281-01-01 ATLAS UFKU.",
+  "kaynak": "bulunamadı",
+  "dayanak": "Handbook of North American Indians c.13 Plains (Smithsonian Institution) — çevrimiçi doğrulanmadı",
+  "kronoloji": [
+   {"t": "1281-01-01", "b": "Apsáalooke toplulukları Yellowstone havzasında (atlas ufku)", "tur": "kurulus"},
+   {"t": "1851-09-17", "b": "Fort Laramie Antlaşması imzalandı", "tur": "antlasma"}
+  ]
+ },
+ {
+  "id": "pavni",
+  "ad": "Pavni (Pawnee)",
+  "tur": "devlet",
+  "f": "1281-01-01",
+  "t": "1857-09-24",
+  "baskent": "Pavni köyleri (Loup Irmağı)",
+  "bolge": "kuzey-amerika",
+  "ozet": "Platte ve Loup havzalarında toprak-ev köylerinde yaşayan Kaddo dilli halk; mısır tarımı ile yaz bizon avını birleştiren bir düzeni vardı. Yıldız gözlemine dayalı takvimiyle tanınır.",
+  "not": "🟢 t: 1857-09-24 — Table Creek Antlaşması; Pavni toprağının büyük kısmının devri. 🟡 f: 1281-01-01 ATLAS UFKU.",
+  "kaynak": "bulunamadı",
+  "dayanak": "Handbook of North American Indians c.13 Plains (Smithsonian Institution) — çevrimiçi doğrulanmadı",
+  "kronoloji": [
+   {"t": "1281-01-01", "b": "Pavni köyleri Platte havzasında (atlas ufku)", "tur": "kurulus"},
+   {"t": "1857-09-24", "b": "Table Creek Antlaşması imzalandı", "tur": "antlasma"}
+  ]
+ },
+ {
+  "id": "wicita",
+  "ad": "Wiçita",
+  "tur": "devlet",
+  "f": "1281-01-01",
+  "t": "1859-01-01",
+  "baskent": "Taovaya (İspanyol Kalesi)",
+  "bolge": "kuzey-amerika",
+  "ozet": "Güney Ovalar'da otdan konik evlerde yaşayan Kaddo dilli halk; Coronado'nun aradığı Quivira budur. Kızıl Irmak üzerindeki Taovaya kasabaları Fransız silâh ticaretinin güney ucuydu.",
+  "not": "🟡 t: 1859-01-01 — YIL SAĞLAM, GÜN DEĞİL. 1859'da Wiçita'lar Teksas'tan Kızıl Irmak'ın kuzeyindeki ayrılmış bölgeye sürüldü. Gün kaynaktan doğrulanmadı ⇒ `§4` YYYY-01-01. 🟡 f: 1281-01-01 ATLAS UFKU.",
+  "kaynak": "bulunamadı",
+  "dayanak": "Handbook of North American Indians c.13 Plains (Smithsonian Institution) — çevrimiçi doğrulanmadı",
+  "kronoloji": [
+   {"t": "1281-01-01", "b": "Wiçita köyleri Güney Ovalar'da (atlas ufku)", "tur": "kurulus"},
+   {"t": "1541-01-01", "b": "Coronado Quivira'ya ulaştı", "tur": "isgal"},
+   {"t": "1859-01-01", "b": "Wiçita'lar Kızıl Irmak'ın kuzeyine sürüldü", "tur": "toprak-kayip"}
+  ]
+ },
+ {
+  "id": "aleut",
+  "ad": "Aleut (Unangax̂)",
+  "tur": "devlet",
+  "f": "1281-01-01",
+  "t": "1784-08-14",
+  "baskent": "Unalaska (Iliuliuk)",
+  "bolge": "kuzey-amerika",
+  "ozet": "Aleut Adaları'nda deniz memelisi avcılığıyla yaşayan halk; baydarka kayıklarıyla açık deniz avcılığında ustaydı. Rus kürk avcılarının gelişiyle nüfusu ve bağımsızlığı hızla çözüldü.",
+  "not": "🟢 t: 1784-08-14 — Şelihov'un Kodiak'ta Üç Aziz Körfezi yerleşimini kurduğu ve Awa'uq direnişini kırdığı gün; Rus-Amerika düzeninin fiilen başladığı tarih. ⚠️ Bu gün Kodiak Alutiiq'ine aittir; Aleut adalarının tâbiiyeti 1760'lardan itibaren kademelidir. Tek gün seçimi bir sadeleştirmedir ve gizlenmiyor. 🟡 f: 1281-01-01 ATLAS UFKU.",
+  "kaynak": "bulunamadı",
+  "dayanak": "Black, Russians in Alaska (University of Alaska Press) · HNAI c.5 Arctic — çevrimiçi doğrulanmadı",
+  "kronoloji": [
+   {"t": "1281-01-01", "b": "Unangax̂ toplulukları Aleut Adaları'nda (atlas ufku)", "tur": "kurulus"},
+   {"t": "1741-07-15", "b": "Bering seferi adalara ulaştı", "tur": "isgal"},
+   {"t": "1784-08-14", "b": "Şelihov Kodiak'a yerleşti; Rus denetimi kuruldu", "tur": "son"}
+  ]
+ },
+ {
+  "id": "alutiiq",
+  "ad": "Alutiiq (Sugpiaq)",
+  "tur": "devlet",
+  "f": "1281-01-01",
+  "t": "1784-08-14",
+  "baskent": "Kodiak (Pavlovskaya Gavan)",
+  "bolge": "kuzey-amerika",
+  "ozet": "Kodiak Adası, Alaska Yarımadası ve Prince William Boğazı'nda yaşayan halk; deniz samuru avcılığıyla Rus kürk ekonomisinin merkezine düştü.",
+  "not": "🟢 t: 1784-08-14 — Awa'uq (Refuge Rock) direnişinin kırıldığı ve Üç Aziz Körfezi yerleşiminin kurulduğu gün. Aleut ile aynı gün, aynı olay. 🟡 f: 1281-01-01 ATLAS UFKU.",
+  "kaynak": "bulunamadı",
+  "dayanak": "Black, Russians in Alaska (University of Alaska Press) · HNAI c.5 Arctic — çevrimiçi doğrulanmadı",
+  "kronoloji": [
+   {"t": "1281-01-01", "b": "Sugpiaq toplulukları Kodiak ve çevresinde (atlas ufku)", "tur": "kurulus"},
+   {"t": "1784-08-14", "b": "Awa'uq direnişi kırıldı; Şelihov Kodiak'a yerleşti", "tur": "son"}
+  ]
+ },
+ {
+  "id": "yupik",
+  "ad": "Yupik",
+  "tur": "devlet",
+  "f": "1281-01-01",
+  "t": "1867-10-18",
+  "baskent": "Hooper Bay (Naparyarmiut)",
+  "bolge": "kuzey-amerika",
+  "ozet": "Yukon-Kuskokwim deltası ve Bristol Körfezi çevresinde yaşayan halk; balık ve deniz memelisine dayalı yerleşik kış köyleri düzeni vardı. Rus dönemi boyunca iç bölgeleri büyük ölçüde kendi düzenini korudu.",
+  "not": "🟡 t: 1867-10-18 — Alaska'nın ABD'ye devri. ⚠️ Bu bir fetih DEĞİL, idarî devirdir; Yupik iç bölgeleri fiilen o gün de bağımsızdı. `İnuit` ve `Tlingit` künyelerindeki aynı çekince burada da geçerlidir. 🟡 f: 1281-01-01 ATLAS UFKU.",
+  "kaynak": "bulunamadı",
+  "dayanak": "Handbook of North American Indians c.5 Arctic (Smithsonian Institution) — çevrimiçi doğrulanmadı",
+  "kronoloji": [
+   {"t": "1281-01-01", "b": "Yupik kış köyleri Yukon-Kuskokwim deltasında (atlas ufku)", "tur": "kurulus"},
+   {"t": "1818-01-01", "b": "Aleksandrovski Redut kuruldu; Rus ticareti Bristol Körfezi'ne ulaştı", "tur": "isgal"},
+   {"t": "1867-10-18", "b": "Alaska ABD'ye devredildi", "tur": "toprak-kayip"}
+  ]
+ }
+]

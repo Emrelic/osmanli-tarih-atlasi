@@ -1,0 +1,8069 @@
+[
+ {
+  "ad": "Kodiak (Pavlovskaya Gavan)",
+  "lat": 57.79,
+  "lon": -152.407,
+  "f": "1792-01-01",
+  "bolge": "Rus Amerikası",
+  "not": "Şelihov 1784 Üç Aziz Körfezi; 1792 Pavlovskaya Gavan, 1799-1804 RAŞ merkezi",
+  "kaynak_reg": "Black, Russians in Alaska (U. Alaska Press)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "rusya",
+    "f": "1792-01-01",
+    "t": "1867-10-18"
+   },
+   {
+    "d": "abd",
+    "f": "1867-10-18",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Üç Aziz Körfezi (Trekh Svyatiteley)",
+  "lat": 57.168,
+  "lon": -153.502,
+  "f": "1784-08-14",
+  "bolge": "Rus Amerikası",
+  "not": "Şelihov'un ilk kalıcı Rus yerleşimi · konum: denetle.py'nin KENDİ reçetesi kendi testini GEÇMEDİ ⇒ denetçinin maskesi içe aktarılıp geçerli koordinat ARANDI (57.1700,-153.5000 → 57.1680,-153.5020)",
+  "kaynak_reg": "Black, Russians in Alaska",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "rusya",
+    "f": "1784-08-14",
+    "t": "1867-10-18"
+   },
+   {
+    "d": "abd",
+    "f": "1867-10-18",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Unalaska (Iliuliuk)",
+  "lat": 53.87,
+  "lon": -166.53,
+  "f": "1787-01-01",
+  "bolge": "Rus Amerikası",
+  "not": "Aleut adaları ana Rus üssü",
+  "kaynak_reg": "Black, Russians in Alaska",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "rusya",
+    "f": "1787-01-01",
+    "t": "1867-10-18"
+   },
+   {
+    "d": "abd",
+    "f": "1867-10-18",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Kenai (Nikolayevskiy Redut)",
+  "lat": 60.554,
+  "lon": -151.258,
+  "f": "1791-01-01",
+  "bolge": "Rus Amerikası",
+  "kaynak_reg": "Black, Russians in Alaska",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "rusya",
+    "f": "1791-01-01",
+    "t": "1867-10-18"
+   },
+   {
+    "d": "abd",
+    "f": "1867-10-18",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Nuçek (Konstantinovskiy Redut)",
+  "lat": 60.35,
+  "lon": -146.68,
+  "f": "1793-01-01",
+  "bolge": "Rus Amerikası",
+  "kaynak_reg": "Black, Russians in Alaska",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "rusya",
+    "f": "1793-01-01",
+    "t": "1867-10-18"
+   },
+   {
+    "d": "abd",
+    "f": "1867-10-18",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Yakutat (Novorossiysk)",
+  "lat": 59.547,
+  "lon": -139.727,
+  "f": "1796-01-01",
+  "bolge": "Rus Amerikası",
+  "kaynak_reg": "Black, Russians in Alaska",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "rusya",
+    "f": "1796-01-01",
+    "t": "1867-10-18"
+   },
+   {
+    "d": "abd",
+    "f": "1867-10-18",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Mihaylovskiy Redut (St. Michael)",
+  "lat": 63.4853,
+  "lon": -162.0306,
+  "f": "1833-01-01",
+  "bolge": "Rus Amerikası",
+  "kaynak_reg": "Black, Russians in Alaska",
+  "not": "konum denetle.py reçetesiyle düzeltildi (0.76 km maske dışıydı: 63.4780,-162.0300 → 63.4853,-162.0306) · konum denetle.py reçetesiyle düzeltildi (0.76 km maske dışıydı: 63.4853,-162.0306 → 63.4853,-162.0306)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "rusya",
+    "f": "1833-01-01",
+    "t": "1867-10-18"
+   },
+   {
+    "d": "abd",
+    "f": "1867-10-18",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Nulato",
+  "lat": 64.72,
+  "lon": -158.1,
+  "f": "1838-01-01",
+  "bolge": "Rus Amerikası",
+  "not": "RAŞ Yukon içleri karakolu",
+  "kaynak_reg": "Black, Russians in Alaska",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "rusya",
+    "f": "1838-01-01",
+    "t": "1867-10-18"
+   },
+   {
+    "d": "abd",
+    "f": "1867-10-18",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Kolmakovskiy Redut",
+  "lat": 61.53,
+  "lon": -158.2,
+  "f": "1841-01-01",
+  "bolge": "Rus Amerikası",
+  "not": "Kuskokwim",
+  "kaynak_reg": "Black, Russians in Alaska",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "rusya",
+    "f": "1841-01-01",
+    "t": "1867-10-18"
+   },
+   {
+    "d": "abd",
+    "f": "1867-10-18",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Yukon",
+  "lat": 66.564,
+  "lon": -145.274,
+  "f": "1847-01-01",
+  "bolge": "HBC",
+  "not": "HBC, Rus toprağında kurulmuştu",
+  "kaynak_reg": "Dictionary of Canadian Biography",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1847-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Utqiaġvik (Nuvuk / Barrow)",
+  "lat": 71.291,
+  "lon": -156.789,
+  "f": "1281-01-01",
+  "bolge": "İnyupiak",
+  "not": "Thule/İnyupiak sürekli yerleşim; 1889 balina istasyonu",
+  "kaynak_reg": "Handbook of North American Indians c.5 Arctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "inuit",
+    "f": "1281-01-01",
+    "t": "1867-10-18"
+   },
+   {
+    "d": "abd",
+    "f": "1867-10-18",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Tikiġaq (Point Hope)",
+  "lat": 68.347,
+  "lon": -166.8,
+  "f": "1281-01-01",
+  "bolge": "İnyupiak",
+  "not": "Kuzey Amerika'nın en uzun sürekli iskân edilen yerlerinden",
+  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "inuit",
+    "f": "1281-01-01",
+    "t": "1867-10-18"
+   },
+   {
+    "d": "abd",
+    "f": "1867-10-18",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Qikiqtaġruk (Kotzebue)",
+  "lat": 66.898,
+  "lon": -162.596,
+  "f": "1281-01-01",
+  "bolge": "İnyupiak",
+  "not": "Kuzeybatı Alaska ticaret buluşma yeri",
+  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "inuit",
+    "f": "1281-01-01",
+    "t": "1867-10-18"
+   },
+   {
+    "d": "abd",
+    "f": "1867-10-18",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Kiŋigin (Wales)",
+  "lat": 65.611,
+  "lon": -168.088,
+  "f": "1281-01-01",
+  "bolge": "İnyupiak",
+  "not": "Bering Boğazı; Asya-Amerika ticaret kapısı",
+  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "inuit",
+    "f": "1281-01-01",
+    "t": "1867-10-18"
+   },
+   {
+    "d": "abd",
+    "f": "1867-10-18",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Nome",
+  "lat": 64.506,
+  "lon": -165.4052,
+  "f": "1899-01-01",
+  "bolge": "ABD Alaska",
+  "kaynak_reg": "Naske & Slotnick, Alaska: A History",
+  "not": "konum denetle.py reçetesiyle düzeltildi (0.51 km maske dışıydı: 64.5010,-165.4060 → 64.5060,-165.4052) · konum denetle.py reçetesiyle düzeltildi (0.51 km maske dışıydı: 64.5060,-165.4052 → 64.5060,-165.4052)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1899-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Bethel (Mumtrekhlagamute)",
+  "lat": 60.792,
+  "lon": -161.756,
+  "f": "1885-01-01",
+  "bolge": "ABD Alaska",
+  "not": "Moravian misyonu",
+  "kaynak_reg": "Naske & Slotnick, Alaska: A History",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1885-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Anchorage",
+  "lat": 61.217,
+  "lon": -149.9,
+  "f": "1914-01-01",
+  "bolge": "ABD Alaska",
+  "kaynak_reg": "Naske & Slotnick, Alaska: A History",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1914-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Valdez",
+  "lat": 61.1362,
+  "lon": -146.3482,
+  "f": "1898-01-01",
+  "bolge": "ABD Alaska",
+  "kaynak_reg": "Naske & Slotnick, Alaska: A History",
+  "not": "konum denetle.py reçetesiyle düzeltildi (0.52 km maske dışıydı: 61.1310,-146.3480 → 61.1362,-146.3482) · konum denetle.py reçetesiyle düzeltildi (0.52 km maske dışıydı: 61.1362,-146.3482 → 61.1362,-146.3482)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1898-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Skagway",
+  "lat": 59.456,
+  "lon": -135.314,
+  "f": "1897-01-01",
+  "bolge": "ABD Alaska",
+  "kaynak_reg": "Naske & Slotnick, Alaska: A History",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1897-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Klukwan (Tlingit)",
+  "lat": 59.402,
+  "lon": -135.893,
+  "f": "1281-01-01",
+  "bolge": "Tlingit",
+  "kaynak_reg": "HNAI c.7 Northwest Coast (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "tlingit",
+    "f": "1281-01-01",
+    "t": "1867-10-18"
+   },
+   {
+    "d": "abd",
+    "f": "1867-10-18",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Wrangell (Redut Sv. Dionisiy)",
+  "lat": 56.472,
+  "lon": -132.3761,
+  "f": "1834-01-01",
+  "bolge": "Rus Amerikası",
+  "kaynak_reg": "Black, Russians in Alaska",
+  "not": "konum denetle.py reçetesiyle düzeltildi (0.39 km maske dışıydı: 56.4710,-132.3800 → 56.4720,-132.3761) · konum denetle.py reçetesiyle düzeltildi (0.39 km maske dışıydı: 56.4720,-132.3761 → 56.4720,-132.3761)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "rusya",
+    "f": "1834-01-01",
+    "t": "1867-10-18"
+   },
+   {
+    "d": "abd",
+    "f": "1867-10-18",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Dawson City",
+  "lat": 64.06,
+  "lon": -139.433,
+  "f": "1896-01-01",
+  "bolge": "Yukon",
+  "not": "Klondike",
+  "kaynak_reg": "Dictionary of Canadian Biography",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "kanada",
+    "f": "1896-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Selkirk",
+  "lat": 62.77,
+  "lon": -137.37,
+  "f": "1848-01-01",
+  "bolge": "HBC",
+  "kaynak_reg": "Dictionary of Canadian Biography",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1848-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Whitehorse",
+  "lat": 60.721,
+  "lon": -135.057,
+  "f": "1898-01-01",
+  "bolge": "Yukon",
+  "kaynak_reg": "Dictionary of Canadian Biography",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "kanada",
+    "f": "1898-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Eagle (Fort Egbert)",
+  "lat": 64.788,
+  "lon": -141.2,
+  "f": "1897-01-01",
+  "bolge": "ABD Alaska",
+  "kaynak_reg": "Naske & Slotnick, Alaska: A History",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1897-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort McPherson (Teetł'it Zheh)",
+  "lat": 67.438,
+  "lon": -134.883,
+  "f": "1840-01-01",
+  "bolge": "HBC",
+  "kaynak_reg": "Historical Atlas of Canada (U. Toronto Press)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1840-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Good Hope (Rádeyı̨lı̨kóé)",
+  "lat": 66.256,
+  "lon": -128.629,
+  "f": "1805-01-01",
+  "bolge": "HBC/NWC",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1805-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Norman (Tulita)",
+  "lat": 64.904,
+  "lon": -125.576,
+  "f": "1810-01-01",
+  "bolge": "HBC/NWC",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1810-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Simpson (Łı́ı́dlı̨ı̨ Kų́ę́)",
+  "lat": 61.862,
+  "lon": -121.353,
+  "f": "1804-01-01",
+  "bolge": "HBC/NWC",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1804-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Resolution (Deninu Kų́ę́)",
+  "lat": 61.169,
+  "lon": -113.677,
+  "f": "1786-01-01",
+  "bolge": "NWC/HBC",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1786-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Rae (Behchokǫ̀)",
+  "lat": 62.7856,
+  "lon": -116.0456,
+  "f": "1852-01-01",
+  "bolge": "HBC",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "not": "konum denetle.py reçetesiyle düzeltildi (1.89 km maske dışıydı: 62.8030,-116.0470 → 62.7856,-116.0456) · konum denetle.py reçetesiyle düzeltildi (1.89 km maske dışıydı: 62.7856,-116.0456 → 62.7856,-116.0456)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1852-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Chipewyan",
+  "lat": 58.708,
+  "lon": -111.152,
+  "f": "1788-01-01",
+  "bolge": "NWC/HBC",
+  "not": "Athabasca ticaretinin merkezi",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1788-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Vermilion",
+  "lat": 58.39,
+  "lon": -116.03,
+  "f": "1788-01-01",
+  "bolge": "NWC/HBC",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1788-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Dunvegan",
+  "lat": 55.92,
+  "lon": -118.6,
+  "f": "1805-01-01",
+  "bolge": "NWC",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1805-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Nelson (BC)",
+  "lat": 58.805,
+  "lon": -122.697,
+  "f": "1805-01-01",
+  "bolge": "NWC",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1805-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort St. James",
+  "lat": 54.443,
+  "lon": -124.253,
+  "f": "1806-01-01",
+  "bolge": "NWC",
+  "not": "Yeni Kaledonya merkezi",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1806-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Lax Kw'alaams (Fort Simpson BC)",
+  "lat": 54.558,
+  "lon": -130.434,
+  "f": "1834-01-01",
+  "bolge": "Tsimşiyan/HBC",
+  "kaynak_reg": "HNAI c.7 Northwest Coast (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1834-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Skidegate (Haida Gwaii)",
+  "lat": 53.2559,
+  "lon": -132.0022,
+  "f": "1281-01-01",
+  "bolge": "Hayda",
+  "kaynak_reg": "HNAI c.7 Northwest Coast (Smithsonian)",
+  "not": "konum denetle.py reçetesiyle düzeltildi (0.75 km maske dışıydı: 53.2490,-132.0000 → 53.2559,-132.0022) · konum denetle.py reçetesiyle düzeltildi (0.75 km maske dışıydı: 53.2559,-132.0022 → 53.2559,-132.0022)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "hayda",
+    "f": "1281-01-01",
+    "t": "1858-08-02"
+   },
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1858-08-02",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "SG̱ang Gwaay (Ninstints)",
+  "lat": 52.1352,
+  "lon": -131.2403,
+  "f": "1281-01-01",
+  "bolge": "Hayda",
+  "kaynak_reg": "HNAI c.7 Northwest Coast (Smithsonian)",
+  "not": "konum denetle.py reçetesiyle düzeltildi (4.72 km maske dışıydı: 52.0960,-131.2230 → 52.1352,-131.2403) · konum denetle.py reçetesiyle düzeltildi (4.72 km maske dışıydı: 52.1352,-131.2403 → 52.1352,-131.2403)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "hayda",
+    "f": "1281-01-01",
+    "t": "1858-08-02"
+   },
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1858-08-02",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Yuquot (Nootka Sound)",
+  "lat": 49.6041,
+  "lon": -126.6341,
+  "f": "1281-01-01",
+  "bolge": "Mowaçaht",
+  "not": "1789 Santa Cruz de Nuca; Nootka Buhranı · konum denetle.py reçetesiyle düzeltildi (2.15 km maske dışıydı: 49.5940,-126.6170 → 49.6041,-126.6341) · konum denetle.py reçetesiyle düzeltildi (2.15 km maske dışıydı: 49.6041,-126.6341 → 49.6041,-126.6341)",
+  "kaynak_reg": "HNAI c.7 Northwest Coast (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "nuu-cah-nulth",
+    "f": "1281-01-01",
+    "t": "1858-08-02"
+   },
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1858-08-02",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Langley",
+  "lat": 49.167,
+  "lon": -122.58,
+  "f": "1827-01-01",
+  "bolge": "HBC",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1827-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Victoria (Fort Victoria)",
+  "lat": 48.428,
+  "lon": -123.365,
+  "f": "1843-01-01",
+  "bolge": "HBC",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1843-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Edmonton",
+  "lat": 53.533,
+  "lon": -113.5,
+  "f": "1795-01-01",
+  "bolge": "HBC",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1795-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Rocky Mountain House",
+  "lat": 52.374,
+  "lon": -114.919,
+  "f": "1799-01-01",
+  "bolge": "NWC/HBC",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1799-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Carlton",
+  "lat": 52.86,
+  "lon": -106.53,
+  "f": "1795-01-01",
+  "bolge": "HBC",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1795-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Cumberland House",
+  "lat": 53.95,
+  "lon": -102.283,
+  "f": "1774-01-01",
+  "bolge": "HBC",
+  "not": "HBC'nin iç bölgedeki ilk karakolu (Samuel Hearne)",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1774-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Garry (Kızıl Irmak Kolonisi)",
+  "lat": 49.895,
+  "lon": -97.138,
+  "f": "1812-01-01",
+  "bolge": "HBC/Métis",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1812-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Prince of Wales Fort (Churchill)",
+  "lat": 58.768,
+  "lon": -94.167,
+  "f": "1717-01-01",
+  "bolge": "HBC",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiltere",
+    "f": "1717-01-01",
+    "t": "1763-02-10"
+   },
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1763-02-10",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "York Factory",
+  "lat": 57.0099,
+  "lon": -92.3082,
+  "f": "1684-01-01",
+  "bolge": "HBC",
+  "not": "HBC'nin ana giriş limanı · konum denetle.py reçetesiyle düzeltildi (1.37 km maske dışıydı: 57.0000,-92.3000 → 57.0099,-92.3082) · konum denetle.py reçetesiyle düzeltildi (1.37 km maske dışıydı: 57.0099,-92.3082 → 57.0099,-92.3082)",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiltere",
+    "f": "1684-01-01",
+    "t": "1763-02-10"
+   },
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1763-02-10",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Severn",
+  "lat": 56.023,
+  "lon": -87.633,
+  "f": "1685-01-01",
+  "bolge": "HBC",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiltere",
+    "f": "1685-01-01",
+    "t": "1763-02-10"
+   },
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1763-02-10",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Albany",
+  "lat": 52.23,
+  "lon": -81.65,
+  "f": "1679-01-01",
+  "bolge": "HBC",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiltere",
+    "f": "1679-01-01",
+    "t": "1763-02-10"
+   },
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1763-02-10",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Moose Factory",
+  "lat": 51.2986,
+  "lon": -80.6227,
+  "f": "1673-01-01",
+  "bolge": "HBC",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "not": "konum denetle.py reçetesiyle düzeltildi (3.42 km maske dışıydı: 51.2700,-80.6100 → 51.2986,-80.6227) · konum denetle.py reçetesiyle düzeltildi (3.42 km maske dışıydı: 51.2986,-80.6227 → 51.2986,-80.6227)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiltere",
+    "f": "1673-01-01",
+    "t": "1763-02-10"
+   },
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1763-02-10",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Waskaganish (Rupert House)",
+  "lat": 51.484,
+  "lon": -78.752,
+  "f": "1668-01-01",
+  "bolge": "HBC",
+  "not": "HBC'nin ilk karakolu (Charles Fort)",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiltere",
+    "f": "1668-01-01",
+    "t": "1763-02-10"
+   },
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1763-02-10",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Chisasibi (Fort George)",
+  "lat": 53.789,
+  "lon": -78.983,
+  "f": "1803-01-01",
+  "bolge": "HBC",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1803-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Kuujjuarapik (Great Whale River)",
+  "lat": 55.283,
+  "lon": -77.75,
+  "f": "1820-01-01",
+  "bolge": "HBC/İnuit",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1820-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Kuujjuaq (Fort Chimo)",
+  "lat": 58.101,
+  "lon": -68.4,
+  "f": "1830-01-01",
+  "bolge": "HBC/İnuit",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1830-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Qamanittuaq (Baker Lake)",
+  "lat": 64.319,
+  "lon": -96.018,
+  "f": "1281-01-01",
+  "bolge": "Karayer İnuit",
+  "not": "Karayer İnuit yurdu; 1916 HBC karakolu",
+  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "inuit",
+    "f": "1281-01-01",
+    "t": "1880-09-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1880-09-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Igluligaarjuk (Chesterfield Inlet)",
+  "lat": 63.342,
+  "lon": -90.711,
+  "f": "1281-01-01",
+  "bolge": "İnuit",
+  "not": "1911 HBC karakolu",
+  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "inuit",
+    "f": "1281-01-01",
+    "t": "1880-09-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1880-09-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Arviat (Eskimo Point)",
+  "lat": 61.108,
+  "lon": -94.059,
+  "f": "1281-01-01",
+  "bolge": "Padlimiut İnuit",
+  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "inuit",
+    "f": "1281-01-01",
+    "t": "1880-09-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1880-09-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Naujaat (Repulse Bay)",
+  "lat": 66.522,
+  "lon": -86.25,
+  "f": "1281-01-01",
+  "bolge": "Aivilingmiut İnuit",
+  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "inuit",
+    "f": "1281-01-01",
+    "t": "1880-09-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1880-09-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Iglulik",
+  "lat": 69.377,
+  "lon": -81.8,
+  "f": "1281-01-01",
+  "bolge": "Iglulingmiut",
+  "not": "Thule yerleşim sürekliliği; Parry 1822",
+  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "inuit",
+    "f": "1281-01-01",
+    "t": "1880-09-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1880-09-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Uqsuqtuuq (Gjoa Haven)",
+  "lat": 68.626,
+  "lon": -95.85,
+  "f": "1281-01-01",
+  "bolge": "Netsilik İnuit",
+  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "inuit",
+    "f": "1281-01-01",
+    "t": "1880-09-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1880-09-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Kugluktuk (Coppermine)",
+  "lat": 67.8018,
+  "lon": -115.1003,
+  "f": "1281-01-01",
+  "bolge": "Bakır İnuit",
+  "not": "Hearne 1771 tarifi · konum denetle.py reçetesiyle düzeltildi (2.77 km maske dışıydı: 67.8270,-115.0980 → 67.8018,-115.1003) · konum denetle.py reçetesiyle düzeltildi (2.77 km maske dışıydı: 67.8018,-115.1003 → 67.8018,-115.1003)",
+  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "inuit",
+    "f": "1281-01-01",
+    "t": "1880-09-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1880-09-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Iqaluktuuttiaq (Cambridge Bay)",
+  "lat": 69.117,
+  "lon": -105.058,
+  "f": "1281-01-01",
+  "bolge": "Bakır İnuit",
+  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "inuit",
+    "f": "1281-01-01",
+    "t": "1880-09-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1880-09-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Iqaluit (Frobisher Körfezi)",
+  "lat": 63.746,
+  "lon": -68.517,
+  "f": "1576-08-01",
+  "bolge": "İnuit",
+  "not": "Frobisher 1576 karşılaşması; 1914 HBC",
+  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "inuit",
+    "f": "1576-08-01",
+    "t": "1880-09-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1880-09-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Kinngait (Cape Dorset)",
+  "lat": 64.231,
+  "lon": -76.539,
+  "f": "1281-01-01",
+  "bolge": "İnuit",
+  "not": "Dorset/Thule; 1913 karakol",
+  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "inuit",
+    "f": "1281-01-01",
+    "t": "1880-09-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1880-09-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Qeqertarsuaq (Godhavn)",
+  "lat": 69.247,
+  "lon": -53.534,
+  "f": "1773-01-01",
+  "bolge": "Danimarka Grönland",
+  "kaynak_reg": "Gulløv (ed.), Grønlands forhistorie / Danish Arctic historiography",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "danimarka",
+    "f": "1773-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Tadoussac",
+  "lat": 48.1471,
+  "lon": -69.7186,
+  "f": "1600-01-01",
+  "bolge": "Yeni Fransa",
+  "not": "Kürk ticaretinin ilk kalıcı postası · konum denetle.py reçetesiyle düzeltildi (0.42 km maske dışıydı: 48.1430,-69.7200 → 48.1471,-69.7186) · konum denetle.py reçetesiyle düzeltildi (0.42 km maske dışıydı: 48.1471,-69.7186 → 48.1471,-69.7186)",
+  "kaynak_reg": "Dictionary of Canadian Biography",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "fransa",
+    "f": "1600-01-01",
+    "t": "1763-02-10"
+   },
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1763-02-10",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Trois-Rivières",
+  "lat": 46.3442,
+  "lon": -72.5439,
+  "f": "1634-07-04",
+  "bolge": "Yeni Fransa",
+  "kaynak_reg": "Dictionary of Canadian Biography",
+  "not": "konum denetle.py reçetesiyle düzeltildi (0.11 km maske dışıydı: 46.3430,-72.5430 → 46.3442,-72.5439) · konum denetle.py reçetesiyle düzeltildi (0.11 km maske dışıydı: 46.3442,-72.5439 → 46.3442,-72.5439)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "fransa",
+    "f": "1634-07-04",
+    "t": "1763-02-10"
+   },
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1763-02-10",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Chicoutimi",
+  "lat": 48.428,
+  "lon": -71.068,
+  "f": "1676-01-01",
+  "bolge": "Yeni Fransa",
+  "not": "Kral Postaları (Domaine du Roi)",
+  "kaynak_reg": "Dictionary of Canadian Biography",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "fransa",
+    "f": "1676-01-01",
+    "t": "1763-02-10"
+   },
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1763-02-10",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Sept-Îles",
+  "lat": 50.212,
+  "lon": -66.379,
+  "f": "1651-01-01",
+  "bolge": "Yeni Fransa",
+  "kaynak_reg": "Dictionary of Canadian Biography",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "fransa",
+    "f": "1651-01-01",
+    "t": "1763-02-10"
+   },
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1763-02-10",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Mingan",
+  "lat": 50.298,
+  "lon": -64.0332,
+  "f": "1679-01-01",
+  "bolge": "Yeni Fransa",
+  "kaynak_reg": "Dictionary of Canadian Biography",
+  "not": "konum denetle.py reçetesiyle düzeltildi (1.08 km maske dışıydı: 50.2880,-64.0310 → 50.2980,-64.0332) · konum denetle.py reçetesiyle düzeltildi (1.08 km maske dışıydı: 50.2980,-64.0332 → 50.2980,-64.0332)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "fransa",
+    "f": "1679-01-01",
+    "t": "1763-02-10"
+   },
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1763-02-10",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Gaspé",
+  "lat": 48.8357,
+  "lon": -64.4823,
+  "f": "1534-07-24",
+  "bolge": "Yeni Fransa",
+  "not": "Cartier'in haç diktiği yer; kalıcı balıkçı iskânı · konum denetle.py reçetesiyle düzeltildi (0.36 km maske dışıydı: 48.8320,-64.4820 → 48.8357,-64.4823) · konum denetle.py reçetesiyle düzeltildi (0.36 km maske dışıydı: 48.8357,-64.4823 → 48.8357,-64.4823)",
+  "kaynak_reg": "Dictionary of Canadian Biography",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "fransa",
+    "f": "1534-07-24",
+    "t": "1763-02-10"
+   },
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1763-02-10",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Frontenac (Kingston)",
+  "lat": 44.2524,
+  "lon": -76.4918,
+  "f": "1673-01-01",
+  "bolge": "Yeni Fransa",
+  "kaynak_reg": "Dictionary of Canadian Biography",
+  "not": "konum denetle.py reçetesiyle düzeltildi (2.61 km maske dışıydı: 44.2310,-76.4810 → 44.2524,-76.4918) · konum denetle.py reçetesiyle düzeltildi (2.61 km maske dışıydı: 44.2524,-76.4918 → 44.2524,-76.4918)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "fransa",
+    "f": "1673-01-01",
+    "t": "1763-02-10"
+   },
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1763-02-10",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Michilimackinac",
+  "lat": 45.8575,
+  "lon": -84.7347,
+  "f": "1671-01-01",
+  "bolge": "Yeni Fransa",
+  "kaynak_reg": "Dictionary of Canadian Biography",
+  "not": "konum denetle.py reçetesiyle düzeltildi (0.93 km maske dışıydı: 45.8500,-84.7300 → 45.8575,-84.7347) · konum denetle.py reçetesiyle düzeltildi (0.93 km maske dışıydı: 45.8575,-84.7347 → 45.8575,-84.7347)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "fransa",
+    "f": "1671-01-01",
+    "t": "1763-02-10"
+   },
+   {
+    "d": "ingiltere",
+    "f": "1763-02-10",
+    "t": "1783-09-03"
+   },
+   {
+    "d": "abd",
+    "f": "1783-09-03",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Sault Ste. Marie",
+  "lat": 46.5,
+  "lon": -84.35,
+  "f": "1668-01-01",
+  "bolge": "Yeni Fransa/Ojibwe",
+  "kaynak_reg": "Dictionary of Canadian Biography",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "fransa",
+    "f": "1668-01-01",
+    "t": "1763-02-10"
+   },
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1763-02-10",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "York (Toronto)",
+  "lat": 43.653,
+  "lon": -79.383,
+  "f": "1750-01-01",
+  "bolge": "Yeni Fransa/Britanya",
+  "not": "Fort Rouillé 1750; York 1793",
+  "kaynak_reg": "Dictionary of Canadian Biography",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "fransa",
+    "f": "1750-01-01",
+    "t": "1763-02-10"
+   },
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1763-02-10",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Bytown (Ottawa)",
+  "lat": 45.421,
+  "lon": -75.7,
+  "f": "1826-01-01",
+  "bolge": "Britanya Kanadası",
+  "kaynak_reg": "Dictionary of Canadian Biography",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1826-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort William (Thunder Bay)",
+  "lat": 48.383,
+  "lon": -89.25,
+  "f": "1803-01-01",
+  "bolge": "NWC",
+  "not": "Kuzeybatı Şirketi'nin iç merkezi",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1803-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Grand Portage",
+  "lat": 47.9684,
+  "lon": -89.6883,
+  "f": "1731-01-01",
+  "bolge": "NWC",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "not": "konum denetle.py reçetesiyle düzeltildi (0.81 km maske dışıydı: 47.9620,-89.6840 → 47.9684,-89.6883) · konum denetle.py reçetesiyle düzeltildi (0.81 km maske dışıydı: 47.9684,-89.6883 → 47.9684,-89.6883)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiltere",
+    "f": "1731-01-01",
+    "t": "1763-02-10"
+   },
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1763-02-10",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort St. Pierre (Rainy Lake)",
+  "lat": 48.61,
+  "lon": -93.4,
+  "f": "1731-01-01",
+  "bolge": "Yeni Fransa",
+  "not": "La Vérendrye hattı",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "fransa",
+    "f": "1731-01-01",
+    "t": "1763-02-10"
+   },
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1763-02-10",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Qu'Appelle",
+  "lat": 50.771,
+  "lon": -103.649,
+  "f": "1864-01-01",
+  "bolge": "HBC",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1864-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Batoche",
+  "lat": 52.735,
+  "lon": -106.13,
+  "f": "1872-01-01",
+  "bolge": "Métis",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "metis",
+    "f": "1872-01-01",
+    "t": "1885-05-12"
+   },
+   {
+    "d": "kanada",
+    "f": "1885-05-12",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Macleod",
+  "lat": 49.716,
+  "lon": -113.417,
+  "f": "1874-01-01",
+  "bolge": "Kanada (NWMP)",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "kanada",
+    "f": "1874-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Calgary",
+  "lat": 51.045,
+  "lon": -114.062,
+  "f": "1875-01-01",
+  "bolge": "Kanada (NWMP)",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "kanada",
+    "f": "1875-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Walsh (Cypress Hills)",
+  "lat": 49.578,
+  "lon": -109.881,
+  "f": "1875-01-01",
+  "bolge": "Kanada (NWMP)",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "kanada",
+    "f": "1875-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Regina",
+  "lat": 50.445,
+  "lon": -104.619,
+  "f": "1882-01-01",
+  "bolge": "Kanada",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "kanada",
+    "f": "1882-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Prince Albert",
+  "lat": 53.203,
+  "lon": -105.753,
+  "f": "1866-01-01",
+  "bolge": "Kanada",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1866-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Halifax",
+  "lat": 44.6486,
+  "lon": -63.5755,
+  "f": "1749-06-21",
+  "bolge": "Britanya Kanadası",
+  "kaynak_reg": "Dictionary of Canadian Biography",
+  "not": "konum denetle.py reçetesiyle düzeltildi (0.01 km maske dışıydı: 44.6490,-63.5750 → 44.6486,-63.5755) · konum denetle.py reçetesiyle düzeltildi (0.01 km maske dışıydı: 44.6486,-63.5755 → 44.6486,-63.5755)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiltere",
+    "f": "1749-06-21",
+    "t": "1763-02-10"
+   },
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1763-02-10",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Louisbourg",
+  "lat": 45.922,
+  "lon": -59.976,
+  "f": "1713-01-01",
+  "bolge": "Yeni Fransa",
+  "kaynak_reg": "Dictionary of Canadian Biography",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "fransa",
+    "f": "1713-01-01",
+    "t": "1763-02-10"
+   },
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1763-02-10",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Port-la-Joye (Charlottetown)",
+  "lat": 46.2398,
+  "lon": -63.1318,
+  "f": "1720-01-01",
+  "bolge": "Yeni Fransa/Britanya",
+  "kaynak_reg": "Dictionary of Canadian Biography",
+  "not": "konum denetle.py reçetesiyle düzeltildi (0.16 km maske dışıydı: 46.2380,-63.1310 → 46.2398,-63.1318) · konum denetle.py reçetesiyle düzeltildi (0.16 km maske dışıydı: 46.2398,-63.1318 → 46.2398,-63.1318)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "fransa",
+    "f": "1720-01-01",
+    "t": "1763-02-10"
+   },
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1763-02-10",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Saint John (NB)",
+  "lat": 45.2916,
+  "lon": -66.0603,
+  "f": "1631-01-01",
+  "bolge": "Akadya/Britanya",
+  "not": "Fort La Tour 1631; şehir 1785 · konum denetle.py reçetesiyle düzeltildi (1.05 km maske dışıydı: 45.2820,-66.0630 → 45.2916,-66.0603) · konum denetle.py reçetesiyle düzeltildi (1.05 km maske dışıydı: 45.2916,-66.0603 → 45.2916,-66.0603)",
+  "kaynak_reg": "Dictionary of Canadian Biography",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "fransa",
+    "f": "1631-01-01",
+    "t": "1763-02-10"
+   },
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1763-02-10",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "St. John's (Newfoundland)",
+  "lat": 47.561,
+  "lon": -52.712,
+  "f": "1583-08-05",
+  "bolge": "İngiltere",
+  "not": "Gilbert'ın 1583 ilânı; balıkçı iskânı daha eski",
+  "kaynak_reg": "Dictionary of Canadian Biography",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiltere",
+    "f": "1583-08-05",
+    "t": "1783-09-03"
+   },
+   {
+    "d": "abd",
+    "f": "1783-09-03",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Plaisance (Placentia)",
+  "lat": 47.2491,
+  "lon": -53.9605,
+  "f": "1662-01-01",
+  "bolge": "Yeni Fransa",
+  "kaynak_reg": "Dictionary of Canadian Biography",
+  "not": "konum denetle.py reçetesiyle düzeltildi (0.57 km maske dışıydı: 47.2440,-53.9630 → 47.2491,-53.9605) · konum denetle.py reçetesiyle düzeltildi (0.57 km maske dışıydı: 47.2491,-53.9605 → 47.2491,-53.9605)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "fransa",
+    "f": "1662-01-01",
+    "t": "1763-02-10"
+   },
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1763-02-10",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Nain (Labrador)",
+  "lat": 56.542,
+  "lon": -61.687,
+  "f": "1771-01-01",
+  "bolge": "Moravian/İnuit",
+  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1771-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Hopedale (Agvituk)",
+  "lat": 55.452,
+  "lon": -60.221,
+  "f": "1782-01-01",
+  "bolge": "Moravian/İnuit",
+  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1782-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Hebron (Labrador)",
+  "lat": 58.1997,
+  "lon": -62.623,
+  "f": "1830-01-01",
+  "bolge": "Moravian/İnuit",
+  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)",
+  "not": "konum denetle.py reçetesiyle düzeltildi (0.33 km maske dışıydı: 58.1980,-62.6200 → 58.1997,-62.6230) · konum denetle.py reçetesiyle düzeltildi (0.33 km maske dışıydı: 58.1997,-62.6230 → 58.1997,-62.6230)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1830-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Sainte-Marie-au-pays-des-Hurons",
+  "lat": 44.683,
+  "lon": -79.75,
+  "f": "1639-01-01",
+  "bolge": "Vendat (Huron)",
+  "kaynak_reg": "Trigger, The Children of Aataentsic (McGill-Queen's UP)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "vendat",
+    "f": "1639-01-01",
+    "t": "1649-03-16"
+   },
+   {
+    "d": "ingiltere",
+    "f": "1649-03-16",
+    "t": "1783-09-03"
+   },
+   {
+    "d": "abd",
+    "f": "1783-09-03",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Ossossané",
+  "lat": 44.5,
+  "lon": -79.933,
+  "f": "1281-01-01",
+  "bolge": "Vendat (Huron)",
+  "not": "Huron Ayı boyunun ana kasabası",
+  "kaynak_reg": "Trigger, The Children of Aataentsic",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "vendat",
+    "f": "1281-01-01",
+    "t": "1649-03-16"
+   },
+   {
+    "d": "ingiltere",
+    "f": "1649-03-16",
+    "t": "1783-09-03"
+   },
+   {
+    "d": "abd",
+    "f": "1783-09-03",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Kahnawake",
+  "lat": 45.412,
+  "lon": -73.683,
+  "f": "1667-01-01",
+  "bolge": "Mohavk",
+  "kaynak_reg": "HNAI c.15 Northeast (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "haudenosaunee",
+    "f": "1667-01-01",
+    "t": "1777-01-01"
+   },
+   {
+    "d": "ingiltere",
+    "f": "1777-01-01",
+    "t": "1783-09-03"
+   },
+   {
+    "d": "abd",
+    "f": "1783-09-03",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Odanak (Abenaki)",
+  "lat": 46.083,
+  "lon": -72.82,
+  "f": "1700-01-01",
+  "bolge": "Abenaki",
+  "kaynak_reg": "HNAI c.15 Northeast (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "abenaki",
+    "f": "1700-01-01",
+    "t": "1725-12-15"
+   },
+   {
+    "d": "fransa",
+    "f": "1725-12-15",
+    "t": "1763-02-10"
+   },
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1763-02-10",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Norridgewock (Abenaki)",
+  "lat": 44.717,
+  "lon": -69.792,
+  "f": "1281-01-01",
+  "bolge": "Abenaki",
+  "kaynak_reg": "HNAI c.15 Northeast (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "abenaki",
+    "f": "1281-01-01",
+    "t": "1725-12-15"
+   },
+   {
+    "d": "ingiltere",
+    "f": "1725-12-15",
+    "t": "1783-09-03"
+   },
+   {
+    "d": "abd",
+    "f": "1783-09-03",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Pemaquid",
+  "lat": 43.876,
+  "lon": -69.513,
+  "f": "1625-01-01",
+  "bolge": "İngiltere",
+  "kaynak_reg": "HNAI c.15 Northeast (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiltere",
+    "f": "1625-01-01",
+    "t": "1783-09-03"
+   },
+   {
+    "d": "abd",
+    "f": "1783-09-03",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Falmouth (Portland, Maine)",
+  "lat": 43.659,
+  "lon": -70.257,
+  "f": "1632-01-01",
+  "bolge": "İngiltere",
+  "kaynak_reg": "HNAI c.15 Northeast (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiltere",
+    "f": "1632-01-01",
+    "t": "1783-09-03"
+   },
+   {
+    "d": "abd",
+    "f": "1783-09-03",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Portsmouth (New Hampshire)",
+  "lat": 43.071,
+  "lon": -70.763,
+  "f": "1623-01-01",
+  "bolge": "İngiltere",
+  "kaynak_reg": "HNAI c.15 Northeast (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiltere",
+    "f": "1623-01-01",
+    "t": "1783-09-03"
+   },
+   {
+    "d": "abd",
+    "f": "1783-09-03",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Hartford",
+  "lat": 41.764,
+  "lon": -72.674,
+  "f": "1636-01-01",
+  "bolge": "İngiltere",
+  "kaynak_reg": "HNAI c.15 Northeast (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiltere",
+    "f": "1636-01-01",
+    "t": "1783-09-03"
+   },
+   {
+    "d": "abd",
+    "f": "1783-09-03",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Providence",
+  "lat": 41.824,
+  "lon": -71.413,
+  "f": "1636-01-01",
+  "bolge": "İngiltere",
+  "kaynak_reg": "HNAI c.15 Northeast (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiltere",
+    "f": "1636-01-01",
+    "t": "1783-09-03"
+   },
+   {
+    "d": "abd",
+    "f": "1783-09-03",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Baltimore",
+  "lat": 39.29,
+  "lon": -76.612,
+  "f": "1729-01-01",
+  "bolge": "İngiltere/ABD",
+  "kaynak_reg": "HNAI c.15 Northeast (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiltere",
+    "f": "1729-01-01",
+    "t": "1776-07-04"
+   },
+   {
+    "d": "abd",
+    "f": "1776-07-04",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Norfolk (Virginia)",
+  "lat": 36.851,
+  "lon": -76.286,
+  "f": "1682-01-01",
+  "bolge": "İngiltere",
+  "kaynak_reg": "HNAI c.15 Northeast (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiltere",
+    "f": "1682-01-01",
+    "t": "1783-09-03"
+   },
+   {
+    "d": "abd",
+    "f": "1783-09-03",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Wilmington (Kuzey Karolayna)",
+  "lat": 34.226,
+  "lon": -77.945,
+  "f": "1739-01-01",
+  "bolge": "İngiltere",
+  "kaynak_reg": "HNAI c.14 Southeast (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiltere",
+    "f": "1739-01-01",
+    "t": "1783-09-03"
+   },
+   {
+    "d": "abd",
+    "f": "1783-09-03",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Duquesne (Pittsburgh)",
+  "lat": 40.441,
+  "lon": -80.01,
+  "f": "1754-01-01",
+  "bolge": "Yeni Fransa/Britanya",
+  "kaynak_reg": "HNAI c.15 Northeast (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "fransa",
+    "f": "1754-01-01",
+    "t": "1763-02-10"
+   },
+   {
+    "d": "ingiltere",
+    "f": "1763-02-10",
+    "t": "1783-09-03"
+   },
+   {
+    "d": "abd",
+    "f": "1783-09-03",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Kekionga (Miami)",
+  "lat": 41.08,
+  "lon": -85.139,
+  "f": "1281-01-01",
+  "bolge": "Miami",
+  "kaynak_reg": "HNAI c.15 Northeast (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "miami",
+    "f": "1281-01-01",
+    "t": "1795-08-03"
+   },
+   {
+    "d": "abd",
+    "f": "1795-08-03",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Chillicothe (Şavni)",
+  "lat": 39.333,
+  "lon": -82.983,
+  "f": "1281-01-01",
+  "bolge": "Şavni (Shawnee)",
+  "kaynak_reg": "HNAI c.15 Northeast (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "savni",
+    "f": "1281-01-01",
+    "t": "1795-08-03"
+   },
+   {
+    "d": "abd",
+    "f": "1795-08-03",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Cincinnati (Losantiville)",
+  "lat": 39.103,
+  "lon": -84.512,
+  "f": "1788-01-01",
+  "bolge": "ABD",
+  "kaynak_reg": "HNAI c.15 Northeast (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1788-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Louisville",
+  "lat": 38.253,
+  "lon": -85.758,
+  "f": "1778-01-01",
+  "bolge": "ABD",
+  "kaynak_reg": "HNAI c.15 Northeast (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1778-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "French Lick (Nashville)",
+  "lat": 36.163,
+  "lon": -86.781,
+  "f": "1779-01-01",
+  "bolge": "ABD",
+  "kaynak_reg": "HNAI c.14 Southeast (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1779-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Kituwa (Çeroki ana kasabası)",
+  "lat": 35.442,
+  "lon": -83.36,
+  "f": "1281-01-01",
+  "bolge": "Çeroki",
+  "kaynak_reg": "HNAI c.14 Southeast (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "cherokee",
+    "f": "1281-01-01",
+    "t": "1791-07-02"
+   },
+   {
+    "d": "abd",
+    "f": "1791-07-02",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Etowah",
+  "lat": 34.122,
+  "lon": -84.809,
+  "f": "1281-01-01",
+  "bolge": "Mississippi kültürü",
+  "not": "14. yy'da hâlâ iskânlı büyük höyük merkezi",
+  "kaynak_reg": "HNAI c.14 Southeast (Smithsonian)",
+  "kimlik_cinsi": "istisna",
+  "s": [
+   {
+    "d": "etowah",
+    "f": "1281-01-01",
+    "t": "1550-01-01"
+   },
+   {
+    "d": "creek-konfederasyonu",
+    "f": "1550-01-01",
+    "t": "1733-06-09"
+   },
+   {
+    "d": "ingiltere",
+    "f": "1733-06-09",
+    "t": "1783-09-03"
+   },
+   {
+    "d": "abd",
+    "f": "1783-09-03",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Moundville",
+  "lat": 32.998,
+  "lon": -87.63,
+  "f": "1281-01-01",
+  "bolge": "Mississippi kültürü",
+  "kaynak_reg": "HNAI c.14 Southeast (Smithsonian)",
+  "kimlik_cinsi": "istisna",
+  "s": [
+   {
+    "d": "moundville",
+    "f": "1281-01-01",
+    "t": "1450-01-01"
+   },
+   {
+    "d": "choctaw",
+    "f": "1450-01-01",
+    "t": "1699-04-08"
+   },
+   {
+    "d": "fransa",
+    "f": "1699-04-08",
+    "t": "1763-02-10"
+   },
+   {
+    "d": "ingiltere",
+    "f": "1763-02-10",
+    "t": "1783-09-03"
+   },
+   {
+    "d": "abd",
+    "f": "1783-09-03",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Ocmulgee",
+  "lat": 32.837,
+  "lon": -83.608,
+  "f": "1281-01-01",
+  "bolge": "Mississippi kültürü / Muskoki",
+  "kaynak_reg": "HNAI c.14 Southeast (Smithsonian)",
+  "kimlik_cinsi": "istisna",
+  "s": [
+   {
+    "d": "creek-konfederasyonu",
+    "f": "1281-01-01",
+    "t": "1832-03-24"
+   },
+   {
+    "d": "abd",
+    "f": "1832-03-24",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Mobile (Fort Louis de la Louisiane)",
+  "lat": 30.694,
+  "lon": -88.043,
+  "f": "1702-01-01",
+  "bolge": "Fransız Luizyanası",
+  "kaynak_reg": "Usner, Indians, Settlers and Slaves (UNC Press)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "fransa",
+    "f": "1702-01-01",
+    "t": "1762-11-03"
+   },
+   {
+    "d": "yeni-ispanya",
+    "f": "1762-11-03",
+    "t": "1803-12-20"
+   },
+   {
+    "d": "abd",
+    "f": "1803-12-20",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Biloxi (Fort Maurepas)",
+  "lat": 30.396,
+  "lon": -88.885,
+  "f": "1699-04-08",
+  "bolge": "Fransız Luizyanası",
+  "kaynak_reg": "Usner, Indians, Settlers and Slaves",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "fransa",
+    "f": "1699-04-08",
+    "t": "1762-11-03"
+   },
+   {
+    "d": "yeni-ispanya",
+    "f": "1762-11-03",
+    "t": "1803-12-20"
+   },
+   {
+    "d": "abd",
+    "f": "1803-12-20",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Memphis (Chickasaw Bluffs)",
+  "lat": 35.146,
+  "lon": -90.049,
+  "f": "1739-01-01",
+  "bolge": "Çikasav/Fransa",
+  "not": "Fort Assumption 1739; Memphis 1819",
+  "kaynak_reg": "HNAI c.14 Southeast (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "cikasav",
+    "f": "1739-01-01",
+    "t": "1832-10-20"
+   },
+   {
+    "d": "abd",
+    "f": "1832-10-20",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Little Rock (Arkansas Post havzası)",
+  "lat": 34.746,
+  "lon": -92.29,
+  "f": "1820-01-01",
+  "bolge": "ABD",
+  "kaynak_reg": "HNAI c.14 Southeast (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1820-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Smith",
+  "lat": 35.386,
+  "lon": -94.399,
+  "f": "1817-01-01",
+  "bolge": "ABD",
+  "kaynak_reg": "HNAI c.14 Southeast (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1817-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Spiro",
+  "lat": 35.311,
+  "lon": -94.57,
+  "f": "1281-01-01",
+  "bolge": "Mississippi kültürü (Caddo)",
+  "kaynak_reg": "HNAI c.13 Plains (Smithsonian)",
+  "kimlik_cinsi": "istisna",
+  "s": [
+   {
+    "d": "spiro",
+    "f": "1281-01-01",
+    "t": "1450-01-01"
+   },
+   {
+    "d": "wicita",
+    "f": "1450-01-01",
+    "t": "1682-04-09"
+   },
+   {
+    "d": "fransa",
+    "f": "1682-04-09",
+    "t": "1762-11-03"
+   },
+   {
+    "d": "yeni-ispanya",
+    "f": "1762-11-03",
+    "t": "1803-12-20"
+   },
+   {
+    "d": "abd",
+    "f": "1803-12-20",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Nacogdoches",
+  "lat": 31.604,
+  "lon": -94.655,
+  "f": "1779-01-01",
+  "bolge": "İspanyol Teksası",
+  "kaynak_reg": "Weber, The Spanish Frontier in North America (Yale UP)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "yeni-ispanya",
+    "f": "1779-01-01",
+    "t": "1821-09-27"
+   },
+   {
+    "d": "meksika",
+    "f": "1821-09-27",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Kaskaskia",
+  "lat": 37.921,
+  "lon": -89.92,
+  "f": "1703-01-01",
+  "bolge": "Fransız İllinois",
+  "kaynak_reg": "Usner, Indians, Settlers and Slaves",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "fransa",
+    "f": "1703-01-01",
+    "t": "1763-02-10"
+   },
+   {
+    "d": "ingiltere",
+    "f": "1763-02-10",
+    "t": "1783-09-03"
+   },
+   {
+    "d": "abd",
+    "f": "1783-09-03",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "St. Louis",
+  "lat": 38.627,
+  "lon": -90.2,
+  "f": "1764-02-14",
+  "bolge": "Fransız/İspanyol Luizyanası",
+  "kaynak_reg": "Usner, Indians, Settlers and Slaves",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "yeni-ispanya",
+    "f": "1764-02-14",
+    "t": "1821-09-27"
+   },
+   {
+    "d": "meksika",
+    "f": "1821-09-27",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Saukenuk (Sauk)",
+  "lat": 41.512,
+  "lon": -90.578,
+  "f": "1281-01-01",
+  "bolge": "Sauk",
+  "kaynak_reg": "HNAI c.15 Northeast (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "sauk",
+    "f": "1281-01-01",
+    "t": "1832-09-21"
+   },
+   {
+    "d": "abd",
+    "f": "1832-09-21",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Chicago (Fort Dearborn)",
+  "lat": 41.878,
+  "lon": -87.63,
+  "f": "1803-01-01",
+  "bolge": "ABD",
+  "not": "Checagou geçidi 1670'lerden beri bilinir",
+  "kaynak_reg": "HNAI c.15 Northeast (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1803-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "La Baye (Green Bay)",
+  "lat": 44.513,
+  "lon": -88.016,
+  "f": "1634-01-01",
+  "bolge": "Yeni Fransa/Ho-Chunk",
+  "kaynak_reg": "HNAI c.15 Northeast (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "fransa",
+    "f": "1634-01-01",
+    "t": "1763-02-10"
+   },
+   {
+    "d": "ingiltere",
+    "f": "1763-02-10",
+    "t": "1783-09-03"
+   },
+   {
+    "d": "abd",
+    "f": "1783-09-03",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Prairie du Chien",
+  "lat": 43.052,
+  "lon": -91.141,
+  "f": "1781-01-01",
+  "bolge": "Yeni Fransa/ABD",
+  "kaynak_reg": "HNAI c.15 Northeast (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "fransa",
+    "f": "1781-01-01",
+    "t": "1783-09-03"
+   },
+   {
+    "d": "abd",
+    "f": "1783-09-03",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Snelling (Bdote)",
+  "lat": 44.893,
+  "lon": -93.181,
+  "f": "1819-01-01",
+  "bolge": "ABD/Dakota",
+  "kaynak_reg": "HNAI c.13 Plains (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1819-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Duluth (Fond du Lac)",
+  "lat": 46.7897,
+  "lon": -92.1045,
+  "f": "1793-01-01",
+  "bolge": "NWC/Ojibwe",
+  "kaynak_reg": "HNAI c.15 Northeast (Smithsonian)",
+  "not": "konum denetle.py reçetesiyle düzeltildi (0.53 km maske dışıydı: 46.7870,-92.1000 → 46.7897,-92.1045) · konum denetle.py reçetesiyle düzeltildi (0.53 km maske dışıydı: 46.7897,-92.1045 → 46.7897,-92.1045)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1793-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Chequamegon (La Pointe)",
+  "lat": 46.7816,
+  "lon": -90.7862,
+  "f": "1665-01-01",
+  "bolge": "Ojibwe/Yeni Fransa",
+  "kaynak_reg": "HNAI c.15 Northeast (Smithsonian)",
+  "not": "konum denetle.py reçetesiyle düzeltildi (0.29 km maske dışıydı: 46.7830,-90.7890 → 46.7816,-90.7862) · konum denetle.py reçetesiyle düzeltildi (0.29 km maske dışıydı: 46.7816,-90.7862 → 46.7816,-90.7862)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "fransa",
+    "f": "1665-01-01",
+    "t": "1763-02-10"
+   },
+   {
+    "d": "ingiltere",
+    "f": "1763-02-10",
+    "t": "1783-09-03"
+   },
+   {
+    "d": "abd",
+    "f": "1783-09-03",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Sioux Falls",
+  "lat": 43.55,
+  "lon": -96.7,
+  "f": "1856-01-01",
+  "bolge": "ABD",
+  "kaynak_reg": "HNAI c.13 Plains (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1856-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Des Moines",
+  "lat": 41.591,
+  "lon": -93.604,
+  "f": "1843-01-01",
+  "bolge": "ABD",
+  "kaynak_reg": "HNAI c.13 Plains (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1843-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Pawnee köyleri (Loup Irmağı)",
+  "lat": 41.42,
+  "lon": -97.9,
+  "f": "1281-01-01",
+  "bolge": "Pavni",
+  "kaynak_reg": "HNAI c.13 Plains (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "pavni",
+    "f": "1281-01-01",
+    "t": "1857-09-24"
+   },
+   {
+    "d": "abd",
+    "f": "1857-09-24",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Atkinson (Council Bluffs)",
+  "lat": 41.45,
+  "lon": -96.03,
+  "f": "1819-01-01",
+  "bolge": "ABD/Omaha",
+  "kaynak_reg": "HNAI c.13 Plains (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1819-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Westport (Kansas City)",
+  "lat": 39.1,
+  "lon": -94.58,
+  "f": "1821-01-01",
+  "bolge": "ABD",
+  "kaynak_reg": "HNAI c.13 Plains (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1821-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Knife River (Hidatsa köyleri)",
+  "lat": 47.333,
+  "lon": -101.383,
+  "f": "1281-01-01",
+  "bolge": "Hidatsa",
+  "kaynak_reg": "HNAI c.13 Plains (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "hidatsa",
+    "f": "1281-01-01",
+    "t": "1851-09-17"
+   },
+   {
+    "d": "abd",
+    "f": "1851-09-17",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "On-A-Slant (Mandan köyü)",
+  "lat": 46.767,
+  "lon": -100.86,
+  "f": "1281-01-01",
+  "bolge": "Mandan",
+  "kaynak_reg": "HNAI c.13 Plains (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "mandan",
+    "f": "1281-01-01",
+    "t": "1851-09-17"
+   },
+   {
+    "d": "abd",
+    "f": "1851-09-17",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Pierre (Arikara/Lakota)",
+  "lat": 44.362,
+  "lon": -100.371,
+  "f": "1817-01-01",
+  "bolge": "ABD/Arikara",
+  "kaynak_reg": "HNAI c.13 Plains (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1817-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Union Trading Post",
+  "lat": 48.0,
+  "lon": -104.043,
+  "f": "1828-01-01",
+  "bolge": "ABD",
+  "kaynak_reg": "HNAI c.13 Plains (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1828-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Benton",
+  "lat": 47.818,
+  "lon": -110.667,
+  "f": "1846-01-01",
+  "bolge": "ABD",
+  "kaynak_reg": "HNAI c.13 Plains (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1846-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Deadwood (Kara Tepeler)",
+  "lat": 44.377,
+  "lon": -103.729,
+  "f": "1876-01-01",
+  "bolge": "ABD/Lakota",
+  "kaynak_reg": "HNAI c.13 Plains (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1876-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Laramie",
+  "lat": 42.201,
+  "lon": -104.548,
+  "f": "1834-01-01",
+  "bolge": "ABD",
+  "kaynak_reg": "HNAI c.13 Plains (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1834-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Cheyenne (Wyoming)",
+  "lat": 41.14,
+  "lon": -104.82,
+  "f": "1867-01-01",
+  "bolge": "ABD",
+  "kaynak_reg": "HNAI c.13 Plains (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1867-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Bent's Fort",
+  "lat": 38.045,
+  "lon": -103.43,
+  "f": "1833-01-01",
+  "bolge": "ABD",
+  "kaynak_reg": "Weber, The Spanish Frontier in North America",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1833-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Denver",
+  "lat": 39.739,
+  "lon": -104.99,
+  "f": "1858-01-01",
+  "bolge": "ABD",
+  "kaynak_reg": "HNAI c.13 Plains (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1858-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Salt Lake City",
+  "lat": 40.761,
+  "lon": -111.891,
+  "f": "1847-07-24",
+  "bolge": "ABD (Mormon)",
+  "kaynak_reg": "HNAI c.11 Great Basin (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1847-07-24",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Bridger",
+  "lat": 41.317,
+  "lon": -110.388,
+  "f": "1843-01-01",
+  "bolge": "ABD",
+  "kaynak_reg": "HNAI c.11 Great Basin (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1843-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Hall",
+  "lat": 43.033,
+  "lon": -112.433,
+  "f": "1834-01-01",
+  "bolge": "ABD/HBC",
+  "kaynak_reg": "HNAI c.11 Great Basin (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1834-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Boise (Fort Boise)",
+  "lat": 43.617,
+  "lon": -116.2,
+  "f": "1834-01-01",
+  "bolge": "HBC/ABD",
+  "kaynak_reg": "HNAI c.12 Plateau (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1834-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Helena (Montana)",
+  "lat": 46.589,
+  "lon": -112.039,
+  "f": "1864-01-01",
+  "bolge": "ABD",
+  "kaynak_reg": "HNAI c.12 Plateau (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1864-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Genoa (Nevada)",
+  "lat": 39.004,
+  "lon": -119.847,
+  "f": "1851-01-01",
+  "bolge": "ABD",
+  "kaynak_reg": "HNAI c.11 Great Basin (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1851-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Virginia City (Nevada)",
+  "lat": 39.31,
+  "lon": -119.649,
+  "f": "1859-01-01",
+  "bolge": "ABD",
+  "kaynak_reg": "HNAI c.11 Great Basin (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1859-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Spokane House",
+  "lat": 47.79,
+  "lon": -117.5,
+  "f": "1810-01-01",
+  "bolge": "NWC/HBC",
+  "kaynak_reg": "HNAI c.12 Plateau (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1810-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Colvile",
+  "lat": 48.617,
+  "lon": -118.1,
+  "f": "1825-01-01",
+  "bolge": "HBC",
+  "kaynak_reg": "HNAI c.12 Plateau (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1825-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Nez Percés (Walla Walla)",
+  "lat": 46.05,
+  "lon": -118.9,
+  "f": "1818-01-01",
+  "bolge": "NWC/HBC",
+  "kaynak_reg": "HNAI c.12 Plateau (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1818-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Wayám (Celilo Şelâleleri)",
+  "lat": 45.65,
+  "lon": -120.983,
+  "f": "1281-01-01",
+  "bolge": "Sahaptin",
+  "not": "Kuzeybatının en büyük balıkçılık ve ticaret merkezi",
+  "kaynak_reg": "HNAI c.12 Plateau (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "sahaptin",
+    "f": "1281-01-01",
+    "t": "1855-01-01"
+   },
+   {
+    "d": "abd",
+    "f": "1855-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Vancouver",
+  "lat": 45.625,
+  "lon": -122.667,
+  "f": "1825-01-01",
+  "bolge": "HBC",
+  "not": "Columbia Bölümü merkezi",
+  "kaynak_reg": "HNAI c.7 Northwest Coast (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1825-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Astoria",
+  "lat": 46.188,
+  "lon": -123.831,
+  "f": "1811-04-12",
+  "bolge": "ABD/NWC",
+  "kaynak_reg": "HNAI c.7 Northwest Coast (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1811-04-12",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Seattle (Duwamish)",
+  "lat": 47.606,
+  "lon": -122.332,
+  "f": "1851-01-01",
+  "bolge": "ABD/Duwamish",
+  "kaynak_reg": "HNAI c.7 Northwest Coast (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1851-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Ross (Kaliforniya)",
+  "lat": 38.514,
+  "lon": -123.245,
+  "f": "1812-01-01",
+  "bolge": "Rus Amerikası",
+  "kaynak_reg": "Black, Russians in Alaska",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "rusya",
+    "f": "1812-01-01",
+    "t": "1867-10-18"
+   },
+   {
+    "d": "abd",
+    "f": "1867-10-18",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Sutter's Fort (Sacramento)",
+  "lat": 38.572,
+  "lon": -121.467,
+  "f": "1839-01-01",
+  "bolge": "Meksika/ABD",
+  "kaynak_reg": "Weber, The Mexican Frontier 1821-1846 (UNM Press)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1839-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Monterey (Alta California)",
+  "lat": 36.6,
+  "lon": -121.894,
+  "f": "1770-06-03",
+  "bolge": "İspanyol Kaliforniyası",
+  "not": "Alta California başkenti",
+  "kaynak_reg": "Weber, The Spanish Frontier in North America",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "yeni-ispanya",
+    "f": "1770-06-03",
+    "t": "1821-09-27"
+   },
+   {
+    "d": "meksika",
+    "f": "1821-09-27",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "San José de Guadalupe",
+  "lat": 37.339,
+  "lon": -121.895,
+  "f": "1777-11-29",
+  "bolge": "İspanyol Kaliforniyası",
+  "kaynak_reg": "Weber, The Spanish Frontier in North America",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "yeni-ispanya",
+    "f": "1777-11-29",
+    "t": "1821-09-27"
+   },
+   {
+    "d": "meksika",
+    "f": "1821-09-27",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Santa Bárbara",
+  "lat": 34.42,
+  "lon": -119.698,
+  "f": "1782-04-21",
+  "bolge": "İspanyol Kaliforniyası",
+  "kaynak_reg": "Weber, The Spanish Frontier in North America",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "yeni-ispanya",
+    "f": "1782-04-21",
+    "t": "1821-09-27"
+   },
+   {
+    "d": "meksika",
+    "f": "1821-09-27",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Los Ángeles (El Pueblo)",
+  "lat": 34.053,
+  "lon": -118.243,
+  "f": "1781-09-04",
+  "bolge": "İspanyol Kaliforniyası",
+  "kaynak_reg": "Weber, The Spanish Frontier in North America",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "yeni-ispanya",
+    "f": "1781-09-04",
+    "t": "1821-09-27"
+   },
+   {
+    "d": "meksika",
+    "f": "1821-09-27",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Tucson (San Agustín del Tucsón)",
+  "lat": 32.222,
+  "lon": -110.97,
+  "f": "1775-08-20",
+  "bolge": "İspanyol Sonora",
+  "kaynak_reg": "Weber, The Spanish Frontier in North America",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "yeni-ispanya",
+    "f": "1775-08-20",
+    "t": "1821-09-27"
+   },
+   {
+    "d": "meksika",
+    "f": "1821-09-27",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Tubac",
+  "lat": 31.612,
+  "lon": -111.046,
+  "f": "1752-01-01",
+  "bolge": "İspanyol Sonora",
+  "kaynak_reg": "Weber, The Spanish Frontier in North America",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "yeni-ispanya",
+    "f": "1752-01-01",
+    "t": "1821-09-27"
+   },
+   {
+    "d": "meksika",
+    "f": "1821-09-27",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Yuma geçidi (La Purísima Concepción)",
+  "lat": 32.727,
+  "lon": -114.623,
+  "f": "1780-01-01",
+  "bolge": "İspanyol/Kuçan",
+  "kaynak_reg": "Weber, The Spanish Frontier in North America",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "yeni-ispanya",
+    "f": "1780-01-01",
+    "t": "1821-09-27"
+   },
+   {
+    "d": "meksika",
+    "f": "1821-09-27",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "El Paso del Norte",
+  "lat": 31.76,
+  "lon": -106.49,
+  "f": "1659-12-08",
+  "bolge": "İspanyol Yeni Meksika",
+  "kaynak_reg": "Weber, The Spanish Frontier in North America",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "yeni-ispanya",
+    "f": "1659-12-08",
+    "t": "1821-09-27"
+   },
+   {
+    "d": "meksika",
+    "f": "1821-09-27",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Albuquerque",
+  "lat": 35.084,
+  "lon": -106.651,
+  "f": "1706-04-23",
+  "bolge": "İspanyol Yeni Meksika",
+  "kaynak_reg": "Weber, The Spanish Frontier in North America",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "yeni-ispanya",
+    "f": "1706-04-23",
+    "t": "1821-09-27"
+   },
+   {
+    "d": "meksika",
+    "f": "1821-09-27",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Pecos Pueblo (Cicuye)",
+  "lat": 35.55,
+  "lon": -105.687,
+  "f": "1281-01-01",
+  "bolge": "Pueblo",
+  "kaynak_reg": "HNAI c.9 Southwest (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "erken_bos": "devletsiz",
+  "erken_neden": "1281-1598 arasi Pueblo koyleri siyaseten OZERKTI: her koy kendi konseyiyle yonetiliyor, ustlerinde merkezi bir devlet YOKTU. Ispanyol yerlesimi 1598'de Onate ile basladi. Atlasin kendi Taos Pueblo ve Acoma Pueblo kayitlari AYNI beyani tasiyor — emsal onlardir. kaynak: HNAI c.9 Southwest (Smithsonian); TDV Pueblo halklarini ANMIYOR (olculdu, tanecik boslugu).",
+  "s": [
+   {
+    "d": "pueblo-bagimsizligi",
+    "f": "1680-08-10",
+    "t": "1692-08-01"
+   },
+   {
+    "d": "ingiltere",
+    "f": "1692-08-01",
+    "t": "1783-09-03"
+   },
+   {
+    "d": "abd",
+    "f": "1783-09-03",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Halona:wa (Zuni)",
+  "lat": 35.07,
+  "lon": -108.85,
+  "f": "1281-01-01",
+  "bolge": "Zuni",
+  "not": "Cíbola'nın Yedi Şehri",
+  "kaynak_reg": "HNAI c.9 Southwest (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "zuni",
+    "f": "1281-01-01",
+    "t": "1848-02-02"
+   },
+   {
+    "d": "abd",
+    "f": "1848-02-02",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Tsegi (Canyon de Chelly)",
+  "lat": 36.15,
+  "lon": -109.47,
+  "f": "1281-01-01",
+  "bolge": "Navaho/Pueblo",
+  "kaynak_reg": "HNAI c.10 Southwest (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "navaho",
+    "f": "1281-01-01",
+    "t": "1868-06-01"
+   },
+   {
+    "d": "abd",
+    "f": "1868-06-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Paquimé (Casas Grandes)",
+  "lat": 30.373,
+  "lon": -107.951,
+  "f": "1281-01-01",
+  "bolge": "Kuzey Meksika",
+  "not": "14. yy'da bölgesel merkez",
+  "kaynak_reg": "HNAI c.10 Southwest (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "erken_bos": "devletsiz",
+  "erken_neden": "Paquime 14.-15. yy'da bolgesel bir merkezdi ve ~1450'de sonumlendi; ardindan bolgede merkezi bir siyasi yapi kurulmadi. Ispanyol Nueva Vizcaya idaresi 1560'lardan sonra ulasti. kaynak: HNAI c.10 Southwest (Smithsonian).",
+  "s": [
+   {
+    "d": "yeni-ispanya",
+    "f": "1535-04-17",
+    "t": "1821-09-27"
+   },
+   {
+    "d": "meksika",
+    "f": "1821-09-27",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Las Vegas (Yeni Meksika)",
+  "lat": 35.594,
+  "lon": -105.223,
+  "f": "1835-01-01",
+  "bolge": "Meksika",
+  "kaynak_reg": "Weber, The Mexican Frontier 1821-1846",
+  "kimlik_cinsi": "istisna",
+  "s": [
+   {
+    "d": "meksika",
+    "f": "1835-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Mistassini (Lac Mistassini)",
+  "lat": 50.4231,
+  "lon": -73.8639,
+  "f": "1673-01-01",
+  "bolge": "Kri/HBC",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "not": "konum denetle.py reçetesiyle düzeltildi (0.71 km maske dışıydı: 50.4200,-73.8700 → 50.4231,-73.8639) · konum denetle.py reçetesiyle düzeltildi (0.71 km maske dışıydı: 50.4231,-73.8639 → 50.4231,-73.8639)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiltere",
+    "f": "1673-01-01",
+    "t": "1763-02-10"
+   },
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1763-02-10",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Nemiscau",
+  "lat": 51.43,
+  "lon": -76.13,
+  "f": "1661-01-01",
+  "bolge": "Kri/Yeni Fransa",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "fransa",
+    "f": "1661-01-01",
+    "t": "1763-02-10"
+   },
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1763-02-10",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Waswanipi",
+  "lat": 49.683,
+  "lon": -76.0,
+  "f": "1794-01-01",
+  "bolge": "Kri/HBC",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1794-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Nascopie (Petitsikapau)",
+  "lat": 54.8,
+  "lon": -66.5,
+  "f": "1838-01-01",
+  "bolge": "Innu/HBC",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1838-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort McKenzie (Ungava)",
+  "lat": 56.9,
+  "lon": -69.1,
+  "f": "1916-01-01",
+  "bolge": "Naskapi/HBC",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "kanada",
+    "f": "1916-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "North West River (Labrador)",
+  "lat": 53.522,
+  "lon": -60.148,
+  "f": "1743-01-01",
+  "bolge": "Innu/HBC",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiltere",
+    "f": "1743-01-01",
+    "t": "1763-02-10"
+   },
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1763-02-10",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Rigolet",
+  "lat": 54.1848,
+  "lon": -58.436,
+  "f": "1836-01-01",
+  "bolge": "İnuit/HBC",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "not": "konum denetle.py reçetesiyle düzeltildi (0.80 km maske dışıydı: 54.1800,-58.4300 → 54.1848,-58.4360) · konum denetle.py reçetesiyle düzeltildi (0.80 km maske dışıydı: 54.1848,-58.4360 → 54.1848,-58.4360)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1836-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Kızıl Kızılderili Gölü (Beothuk)",
+  "lat": 48.65,
+  "lon": -56.85,
+  "f": "1281-01-01",
+  "bolge": "Beothuk",
+  "not": "Beothuk iç kışlakları; halk 1829'da tükendi",
+  "kaynak_reg": "HNAI c.15 Northeast (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "beothuk",
+    "f": "1281-01-01",
+    "t": "1829-06-06"
+   },
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1829-06-06",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Inukjuak (Port Harrison)",
+  "lat": 58.454,
+  "lon": -78.102,
+  "f": "1281-01-01",
+  "bolge": "Nunavik İnuit",
+  "not": "1909 ticaret karakolu",
+  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "inuit",
+    "f": "1281-01-01",
+    "t": "1880-09-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1880-09-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Puvirnituq",
+  "lat": 60.05,
+  "lon": -77.283,
+  "f": "1281-01-01",
+  "bolge": "Nunavik İnuit",
+  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "inuit",
+    "f": "1281-01-01",
+    "t": "1880-09-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1880-09-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Salluit (Sugluk)",
+  "lat": 62.203,
+  "lon": -75.641,
+  "f": "1281-01-01",
+  "bolge": "Nunavik İnuit",
+  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "inuit",
+    "f": "1281-01-01",
+    "t": "1880-09-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1880-09-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Kangiqsujuaq (Wakeham Bay)",
+  "lat": 61.596,
+  "lon": -71.942,
+  "f": "1281-01-01",
+  "bolge": "Nunavik İnuit",
+  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "inuit",
+    "f": "1281-01-01",
+    "t": "1880-09-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1880-09-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Kimmirut (Lake Harbour)",
+  "lat": 62.849,
+  "lon": -69.873,
+  "f": "1281-01-01",
+  "bolge": "İnuit",
+  "not": "1911 karakol",
+  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "inuit",
+    "f": "1281-01-01",
+    "t": "1880-09-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1880-09-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Panniqtuuq (Pangnirtung / Kekerten)",
+  "lat": 66.146,
+  "lon": -65.713,
+  "f": "1857-01-01",
+  "bolge": "İnuit",
+  "not": "Kekerten balina istasyonu 1857",
+  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "inuit",
+    "f": "1857-01-01",
+    "t": "1880-09-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1880-09-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Qikiqtarjuaq (Broughton Adası)",
+  "lat": 67.548,
+  "lon": -64.031,
+  "f": "1281-01-01",
+  "bolge": "İnuit",
+  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "inuit",
+    "f": "1281-01-01",
+    "t": "1880-09-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1880-09-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Kanngiqtugaapik (Clyde River)",
+  "lat": 70.472,
+  "lon": -68.591,
+  "f": "1281-01-01",
+  "bolge": "İnuit",
+  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "inuit",
+    "f": "1281-01-01",
+    "t": "1880-09-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1880-09-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Killiniq (Port Burwell)",
+  "lat": 60.4164,
+  "lon": -64.8247,
+  "f": "1904-01-01",
+  "bolge": "İnuit",
+  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)",
+  "not": "konum denetle.py reçetesiyle düzeltildi (0.87 km maske dışıydı: 60.4100,-64.8300 → 60.4164,-64.8247) · konum denetle.py reçetesiyle düzeltildi (0.87 km maske dışıydı: 60.4164,-64.8247 → 60.4164,-64.8247)",
+  "kimlik_cinsi": "istisna",
+  "s": [
+   {
+    "d": "kanada",
+    "f": "1904-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Kugaaruk (Pelly Bay)",
+  "lat": 68.534,
+  "lon": -89.832,
+  "f": "1281-01-01",
+  "bolge": "Netsilik İnuit",
+  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "inuit",
+    "f": "1281-01-01",
+    "t": "1880-09-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1880-09-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Sanirajak (Hall Beach)",
+  "lat": 68.777,
+  "lon": -81.243,
+  "f": "1281-01-01",
+  "bolge": "Iglulingmiut",
+  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "inuit",
+    "f": "1281-01-01",
+    "t": "1880-09-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1880-09-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Ennadai (Ihalmiut, Karayer İnuit)",
+  "lat": 61.1028,
+  "lon": -100.8954,
+  "f": "1281-01-01",
+  "bolge": "Karayer İnuit",
+  "not": "Kıyıdan uzak, iç bölge ren geyiği avcıları · konum denetle.py reçetesiyle düzeltildi (0.55 km maske dışıydı: 61.1000,-100.9000 → 61.1028,-100.8954) · konum denetle.py reçetesiyle düzeltildi (0.55 km maske dışıydı: 61.1028,-100.8954 → 61.1028,-100.8954)",
+  "kaynak_reg": "Birket-Smith, The Caribou Eskimos (Beşinci Thule Seferi raporu)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "inuit",
+    "f": "1281-01-01",
+    "t": "1880-09-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1880-09-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Reliance (Büyük Köle Gölü)",
+  "lat": 62.727,
+  "lon": -109.157,
+  "f": "1833-01-01",
+  "bolge": "HBC/Yellowknives",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "not": "konum: denetle.py'nin KENDİ reçetesi kendi testini GEÇMEDİ ⇒ denetçinin maskesi içe aktarılıp geçerli koordinat ARANDI (62.7170,-109.1670 → 62.7270,-109.1570)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1833-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Confidence (Büyük Ayı Gölü)",
+  "lat": 66.5,
+  "lon": -118.9,
+  "f": "1837-01-01",
+  "bolge": "HBC",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1837-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Providence",
+  "lat": 61.35,
+  "lon": -117.65,
+  "f": "1786-01-01",
+  "bolge": "NWC/HBC",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1786-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Liard",
+  "lat": 60.24,
+  "lon": -123.47,
+  "f": "1805-01-01",
+  "bolge": "NWC/HBC",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1805-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Kittigazuit (Mackenzie İnuitleri)",
+  "lat": 69.35,
+  "lon": -133.75,
+  "f": "1281-01-01",
+  "bolge": "Mackenzie İnuit",
+  "not": "Beyaz balina avının büyük yaz kampı",
+  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "inuit",
+    "f": "1281-01-01",
+    "t": "1880-09-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1880-09-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Qikiqtaruk (Herschel Adası)",
+  "lat": 69.5792,
+  "lon": -138.9091,
+  "f": "1890-01-01",
+  "bolge": "İnuvialuit/balina",
+  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)",
+  "not": "konum denetle.py reçetesiyle düzeltildi (0.97 km maske dışıydı: 69.5700,-138.9100 → 69.5792,-138.9091) · konum denetle.py reçetesiyle düzeltildi (0.97 km maske dışıydı: 69.5792,-138.9091 → 69.5792,-138.9091)",
+  "kimlik_cinsi": "istisna",
+  "s": [
+   {
+    "d": "kanada",
+    "f": "1890-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Kaktovik (Barter Adası)",
+  "lat": 70.0918,
+  "lon": -143.6225,
+  "f": "1281-01-01",
+  "bolge": "İnyupiak",
+  "not": "Adı 'takas adası' — İnyupiak-İnuvialuit ticaret buluşması · konum denetle.py reçetesiyle düzeltildi (4.43 km maske dışıydı: 70.1320,-143.6240 → 70.0918,-143.6225) · konum denetle.py reçetesiyle düzeltildi (4.43 km maske dışıydı: 70.0918,-143.6225 → 70.0918,-143.6225)",
+  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "inuit",
+    "f": "1281-01-01",
+    "t": "1867-10-18"
+   },
+   {
+    "d": "abd",
+    "f": "1867-10-18",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Ulguniq (Wainwright) / Icy Cape",
+  "lat": 70.638,
+  "lon": -160.025,
+  "f": "1281-01-01",
+  "bolge": "İnyupiak",
+  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "inuit",
+    "f": "1281-01-01",
+    "t": "1867-10-18"
+   },
+   {
+    "d": "abd",
+    "f": "1867-10-18",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Anaktuvuk Geçidi (Nunamiut)",
+  "lat": 68.143,
+  "lon": -151.735,
+  "f": "1281-01-01",
+  "bolge": "Nunamiut",
+  "not": "İç bölge (kara) İnyupiakları — Brooks Sıradağları",
+  "kaynak_reg": "Gubser, The Nunamiut Eskimos (Yale UP)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "inuit",
+    "f": "1281-01-01",
+    "t": "1867-10-18"
+   },
+   {
+    "d": "abd",
+    "f": "1867-10-18",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Vashrąįį K'ǫǫ (Arctic Village)",
+  "lat": 68.128,
+  "lon": -145.535,
+  "f": "1281-01-01",
+  "bolge": "Gwich'in",
+  "kaynak_reg": "HNAI c.6 Subarctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "dene",
+    "f": "1281-01-01",
+    "t": "1899-06-21"
+   },
+   {
+    "d": "abd",
+    "f": "1899-06-21",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Nuchalawoya (Tanana)",
+  "lat": 65.172,
+  "lon": -152.081,
+  "f": "1281-01-01",
+  "bolge": "Atabask",
+  "not": "Tanana-Yukon kavşağı, geleneksel ticaret buluşması",
+  "kaynak_reg": "HNAI c.6 Subarctic (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiltere",
+    "f": "1281-01-01",
+    "t": "1763-02-10"
+   },
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1763-02-10",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fairbanks",
+  "lat": 64.838,
+  "lon": -147.716,
+  "f": "1901-01-01",
+  "bolge": "ABD Alaska",
+  "kaynak_reg": "Naske & Slotnick, Alaska: A History",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1901-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Circle City",
+  "lat": 65.826,
+  "lon": -144.062,
+  "f": "1893-01-01",
+  "bolge": "ABD Alaska",
+  "kaynak_reg": "Naske & Slotnick, Alaska: A History",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1893-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Coldfoot / Wiseman",
+  "lat": 67.402,
+  "lon": -150.104,
+  "f": "1899-01-01",
+  "bolge": "ABD Alaska",
+  "kaynak_reg": "Naske & Slotnick, Alaska: A History",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1899-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Alatna / Allakaket",
+  "lat": 66.564,
+  "lon": -152.65,
+  "f": "1281-01-01",
+  "bolge": "Koyukon/İnyupiak sınırı",
+  "kaynak_reg": "HNAI c.6 Subarctic (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiltere",
+    "f": "1281-01-01",
+    "t": "1763-02-10"
+   },
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1763-02-10",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Aleksandrovski Redut (Nushagak)",
+  "lat": 58.8876,
+  "lon": -158.508,
+  "f": "1818-01-01",
+  "bolge": "Rus Amerikası",
+  "kaynak_reg": "Black, Russians in Alaska",
+  "not": "konum denetle.py reçetesiyle düzeltildi (2.76 km maske dışıydı: 58.9000,-158.5300 → 58.8876,-158.5080) · konum denetle.py reçetesiyle düzeltildi (2.76 km maske dışıydı: 58.8876,-158.5080 → 58.8876,-158.5080)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "rusya",
+    "f": "1818-01-01",
+    "t": "1867-10-18"
+   },
+   {
+    "d": "abd",
+    "f": "1867-10-18",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Hooper Bay (Naparyarmiut)",
+  "lat": 61.529,
+  "lon": -166.097,
+  "f": "1281-01-01",
+  "bolge": "Yupik",
+  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "yupik",
+    "f": "1281-01-01",
+    "t": "1867-10-18"
+   },
+   {
+    "d": "abd",
+    "f": "1867-10-18",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Dease Lake",
+  "lat": 58.437,
+  "lon": -130.005,
+  "f": "1838-01-01",
+  "bolge": "HBC/Tahltan",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1838-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Telegraph Creek (Tlegohin)",
+  "lat": 57.902,
+  "lon": -131.16,
+  "f": "1281-01-01",
+  "bolge": "Tahltan",
+  "kaynak_reg": "HNAI c.6 Subarctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "dene",
+    "f": "1281-01-01",
+    "t": "1899-06-21"
+   },
+   {
+    "d": "kanada",
+    "f": "1899-06-21",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Pelly Banks / Ross River",
+  "lat": 61.99,
+  "lon": -132.45,
+  "f": "1840-01-01",
+  "bolge": "HBC/Kaska",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1840-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Halkett (Liard)",
+  "lat": 59.88,
+  "lon": -126.3,
+  "f": "1829-01-01",
+  "bolge": "HBC",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1829-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Atlin",
+  "lat": 59.578,
+  "lon": -133.7,
+  "f": "1898-01-01",
+  "bolge": "Britanya Kolumbiyası",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "kanada",
+    "f": "1898-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Ile-a-la-Crosse",
+  "lat": 55.453,
+  "lon": -107.915,
+  "f": "1779-01-01",
+  "bolge": "NWC/HBC",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "not": "konum denetle.py reçetesiyle düzeltildi (1.64 km maske dışıydı: 55.4500,-107.9000 → 55.4530,-107.9150) · konum denetle.py reçetesiyle düzeltildi (1.64 km maske dışıydı: 55.4530,-107.9150 → 55.4530,-107.9150)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1779-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Lac la Ronge",
+  "lat": 55.1,
+  "lon": -105.283,
+  "f": "1782-01-01",
+  "bolge": "HBC/Kri",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1782-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Norway House",
+  "lat": 53.983,
+  "lon": -97.833,
+  "f": "1817-01-01",
+  "bolge": "HBC",
+  "not": "HBC Kuzey Bölümü'nün toplantı merkezi",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1817-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Oxford House",
+  "lat": 54.933,
+  "lon": -95.283,
+  "f": "1798-01-01",
+  "bolge": "HBC",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1798-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Brochet (Ren Geyiği Gölü)",
+  "lat": 57.8943,
+  "lon": -101.6614,
+  "f": "1859-01-01",
+  "bolge": "HBC/Denesuline",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "not": "konum denetle.py reçetesiyle düzeltildi (1.35 km maske dışıydı: 57.8830,-101.6670 → 57.8943,-101.6614) · konum denetle.py reçetesiyle düzeltildi (1.35 km maske dışıydı: 57.8943,-101.6614 → 57.8943,-101.6614)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1859-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Osnaburgh House",
+  "lat": 51.233,
+  "lon": -90.317,
+  "f": "1786-01-01",
+  "bolge": "HBC/Ojibwe",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1786-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Big Trout Lake (Kitchenuhmaykoosib)",
+  "lat": 53.8408,
+  "lon": -89.8639,
+  "f": "1807-01-01",
+  "bolge": "HBC/Oji-Kri",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "not": "konum denetle.py reçetesiyle düzeltildi (0.88 km maske dışıydı: 53.8330,-89.8670 → 53.8408,-89.8639) · konum denetle.py reçetesiyle düzeltildi (0.88 km maske dışıydı: 53.8408,-89.8639 → 53.8408,-89.8639)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1807-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Attawapiskat",
+  "lat": 52.928,
+  "lon": -82.423,
+  "f": "1893-01-01",
+  "bolge": "HBC/Kri",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "kanada",
+    "f": "1893-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Lac Seul",
+  "lat": 50.3426,
+  "lon": -92.2072,
+  "f": "1815-01-01",
+  "bolge": "HBC/Ojibwe",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "not": "konum denetle.py reçetesiyle düzeltildi (1.28 km maske dışıydı: 50.3330,-92.2000 → 50.3426,-92.2072) · konum denetle.py reçetesiyle düzeltildi (1.28 km maske dışıydı: 50.3426,-92.2072 → 50.3426,-92.2072)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1815-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Nipigon",
+  "lat": 49.017,
+  "lon": -88.267,
+  "f": "1678-01-01",
+  "bolge": "Yeni Fransa",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "fransa",
+    "f": "1678-01-01",
+    "t": "1763-02-10"
+   },
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1763-02-10",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Pembina",
+  "lat": 48.968,
+  "lon": -97.245,
+  "f": "1797-01-01",
+  "bolge": "NWC/Métis",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1797-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Washakie (Wind River)",
+  "lat": 43.003,
+  "lon": -108.884,
+  "f": "1869-01-01",
+  "bolge": "ABD/Doğu Şoşoni",
+  "kaynak_reg": "HNAI c.11 Great Basin (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1869-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Crow Agency (Apsáalooke)",
+  "lat": 45.602,
+  "lon": -107.46,
+  "f": "1281-01-01",
+  "bolge": "Karga (Crow)",
+  "kaynak_reg": "HNAI c.13 Plains (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "karga",
+    "f": "1281-01-01",
+    "t": "1851-09-17"
+   },
+   {
+    "d": "abd",
+    "f": "1851-09-17",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Miles City (Tongue Irmağı)",
+  "lat": 46.408,
+  "lon": -105.841,
+  "f": "1877-01-01",
+  "bolge": "ABD",
+  "kaynak_reg": "HNAI c.13 Plains (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1877-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Robidoux (Uinta Havzası)",
+  "lat": 40.2,
+  "lon": -109.75,
+  "f": "1832-01-01",
+  "bolge": "Meksika/Ute",
+  "kaynak_reg": "HNAI c.11 Great Basin (Smithsonian)",
+  "kimlik_cinsi": "istisna",
+  "s": [
+   {
+    "d": "meksika",
+    "f": "1832-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Provo (Utah Gölü, Timpanogos Ute)",
+  "lat": 40.234,
+  "lon": -111.659,
+  "f": "1849-01-01",
+  "bolge": "ABD/Ute",
+  "kaynak_reg": "HNAI c.11 Great Basin (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1849-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Parowan",
+  "lat": 37.842,
+  "lon": -112.826,
+  "f": "1851-01-01",
+  "bolge": "ABD (Mormon)",
+  "kaynak_reg": "HNAI c.11 Great Basin (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1851-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "St. George (Utah)",
+  "lat": 37.096,
+  "lon": -113.578,
+  "f": "1861-01-01",
+  "bolge": "ABD (Mormon)",
+  "kaynak_reg": "HNAI c.11 Great Basin (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1861-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Las Vegas (Nevada, Mormon Kalesi)",
+  "lat": 36.171,
+  "lon": -115.14,
+  "f": "1855-01-01",
+  "bolge": "ABD/Güney Payut",
+  "kaynak_reg": "HNAI c.11 Great Basin (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1855-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Bishop (Owens Vadisi Payutları)",
+  "lat": 37.364,
+  "lon": -118.395,
+  "f": "1281-01-01",
+  "bolge": "Owens Vadisi Payut",
+  "not": "Sulamalı, yerleşik köyler — Büyük Havza'da istisnaî",
+  "kaynak_reg": "Steward, Basin-Plateau Aboriginal Sociopolitical Groups (BAE Bulletin 120)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "payut",
+    "f": "1281-01-01",
+    "t": "1872-01-01"
+   },
+   {
+    "d": "abd",
+    "f": "1872-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Ruby Vadisi (Batı Şoşoni)",
+  "lat": 40.1,
+  "lon": -115.5,
+  "f": "1281-01-01",
+  "bolge": "Batı Şoşoni",
+  "kaynak_reg": "Steward, Basin-Plateau Aboriginal Sociopolitical Groups",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "sosoni",
+    "f": "1281-01-01",
+    "t": "1868-07-03"
+   },
+   {
+    "d": "abd",
+    "f": "1868-07-03",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Timbisha (Ölüm Vadisi)",
+  "lat": 36.462,
+  "lon": -116.867,
+  "f": "1281-01-01",
+  "bolge": "Timbişa Şoşoni",
+  "kaynak_reg": "Steward, Basin-Plateau Aboriginal Sociopolitical Groups",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "sosoni",
+    "f": "1281-01-01",
+    "t": "1868-07-03"
+   },
+   {
+    "d": "abd",
+    "f": "1868-07-03",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Lapwai (Nez Perce)",
+  "lat": 46.4,
+  "lon": -116.03,
+  "f": "1281-01-01",
+  "bolge": "Nez Perce",
+  "kaynak_reg": "HNAI c.12 Plateau (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "nez-perce",
+    "f": "1281-01-01",
+    "t": "1877-10-05"
+   },
+   {
+    "d": "abd",
+    "f": "1877-10-05",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Taovaya (İspanyol Kalesi, Kızıl Irmak)",
+  "lat": 33.87,
+  "lon": -97.75,
+  "f": "1750-01-01",
+  "bolge": "Wiçita",
+  "kaynak_reg": "HNAI c.13 Plains (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "wicita",
+    "f": "1750-01-01",
+    "t": "1859-01-01"
+   },
+   {
+    "d": "abd",
+    "f": "1859-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Sill (Wiçita Dağları)",
+  "lat": 34.663,
+  "lon": -98.4,
+  "f": "1869-01-01",
+  "bolge": "ABD/Kiowa-Komançi",
+  "kaynak_reg": "HNAI c.13 Plains (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1869-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Bosque Redondo (Fort Sumner)",
+  "lat": 34.47,
+  "lon": -104.24,
+  "f": "1863-01-01",
+  "bolge": "ABD/Navaho-Apaçi",
+  "kaynak_reg": "HNAI c.10 Southwest (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1863-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Concho (San Angelo)",
+  "lat": 31.45,
+  "lon": -100.44,
+  "f": "1867-01-01",
+  "bolge": "ABD",
+  "kaynak_reg": "HNAI c.13 Plains (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1867-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "La Junta de los Ríos (Presidio)",
+  "lat": 29.56,
+  "lon": -104.37,
+  "f": "1683-01-01",
+  "bolge": "İspanyol/Julimes",
+  "kaynak_reg": "Weber, The Spanish Frontier in North America",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "yeni-ispanya",
+    "f": "1683-01-01",
+    "t": "1821-09-27"
+   },
+   {
+    "d": "meksika",
+    "f": "1821-09-27",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Stockton (Comanche Geçidi)",
+  "lat": 30.894,
+  "lon": -102.879,
+  "f": "1859-01-01",
+  "bolge": "ABD",
+  "kaynak_reg": "HNAI c.13 Plains (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1859-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Charleston (Batı Virjinya, Kanawha)",
+  "lat": 38.35,
+  "lon": -81.633,
+  "f": "1788-01-01",
+  "bolge": "ABD/Şavni",
+  "kaynak_reg": "HNAI c.15 Northeast (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1788-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Saginaw (Ojibwe)",
+  "lat": 43.419,
+  "lon": -83.951,
+  "f": "1281-01-01",
+  "bolge": "Ojibwe",
+  "kaynak_reg": "HNAI c.15 Northeast (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "ojibwe",
+    "f": "1281-01-01",
+    "t": "1850-09-07"
+   },
+   {
+    "d": "abd",
+    "f": "1850-09-07",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Listuguj (Restigouche)",
+  "lat": 48.05,
+  "lon": -66.7,
+  "f": "1281-01-01",
+  "bolge": "Mikmak",
+  "kaynak_reg": "HNAI c.15 Northeast (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "mikmak",
+    "f": "1281-01-01",
+    "t": "1761-01-01"
+   },
+   {
+    "d": "fransa",
+    "f": "1761-01-01",
+    "t": "1763-02-10"
+   },
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1763-02-10",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Los Adaes",
+  "lat": 31.95,
+  "lon": -93.53,
+  "f": "1721-01-01",
+  "bolge": "İspanyol Teksası",
+  "not": "1729-1770 Teksas eyalet başkenti",
+  "kaynak_reg": "Weber, The Spanish Frontier in North America",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "yeni-ispanya",
+    "f": "1721-01-01",
+    "t": "1821-09-27"
+   },
+   {
+    "d": "meksika",
+    "f": "1821-09-27",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Mission San Luis (Apalaçi)",
+  "lat": 30.45,
+  "lon": -84.31,
+  "f": "1656-01-01",
+  "bolge": "İspanyol Floridası",
+  "kaynak_reg": "Weber, The Spanish Frontier in North America",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "yeni-ispanya",
+    "f": "1656-01-01",
+    "t": "1821-09-27"
+   },
+   {
+    "d": "meksika",
+    "f": "1821-09-27",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Mound Key (Kalusa başkenti)",
+  "lat": 26.4304,
+  "lon": -81.849,
+  "f": "1281-01-01",
+  "bolge": "Kalusa",
+  "kaynak_reg": "HNAI c.14 Southeast (Smithsonian)",
+  "not": "konum denetle.py reçetesiyle düzeltildi (0.07 km maske dışıydı: 26.4300,-81.8500 → 26.4304,-81.8490) · konum denetle.py reçetesiyle düzeltildi (0.07 km maske dışıydı: 26.4304,-81.8490 → 26.4304,-81.8490)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "kalusa",
+    "f": "1281-01-01",
+    "t": "1763-01-01"
+   },
+   {
+    "d": "ingiltere",
+    "f": "1763-01-01",
+    "t": "1783-09-03"
+   },
+   {
+    "d": "abd",
+    "f": "1783-09-03",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Tocobaga (Safety Harbor)",
+  "lat": 27.9913,
+  "lon": -82.6837,
+  "f": "1281-01-01",
+  "bolge": "Tocobaga",
+  "kaynak_reg": "HNAI c.14 Southeast (Smithsonian)",
+  "not": "konum denetle.py reçetesiyle düzeltildi (0.38 km maske dışıydı: 27.9900,-82.6800 → 27.9913,-82.6837) · konum denetle.py reçetesiyle düzeltildi (0.38 km maske dışıydı: 27.9913,-82.6837 → 27.9913,-82.6837)",
+  "kimlik_cinsi": "istisna",
+  "erken_bos": "kabile",
+  "erken_neden": "Tocobaga bir reislikti ama datable bir bitisi YOK (18. yy basinda sonumlendi, kaynak yil vermiyor) ⇒ M-2425 teritoryal sinavini gecse de TARIH sinavini gecemiyor, kunye yazilmadi. Ispanyol Florida iddiasi 1565'te St. Augustine ile basladi. kaynak: HNAI c.14 Southeast (Smithsonian).",
+  "s": [
+   {
+    "d": "ispanya",
+    "f": "1479-01-20",
+    "t": "1821-02-22"
+   },
+   {
+    "d": "abd",
+    "f": "1821-02-22",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Misión Santa Gertrudis (Baja California)",
+  "lat": 28.05,
+  "lon": -113.09,
+  "f": "1752-01-01",
+  "bolge": "İspanyol/Koçimi",
+  "kaynak_reg": "Weber, The Spanish Frontier in North America",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "yeni-ispanya",
+    "f": "1752-01-01",
+    "t": "1821-09-27"
+   },
+   {
+    "d": "meksika",
+    "f": "1821-09-27",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Ciudad Victoria",
+  "lat": 23.74,
+  "lon": -99.14,
+  "f": "1750-10-06",
+  "bolge": "Nuevo Santander",
+  "kaynak_reg": "Weber, The Spanish Frontier in North America",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "yeni-ispanya",
+    "f": "1750-10-06",
+    "t": "1821-09-27"
+   },
+   {
+    "d": "meksika",
+    "f": "1821-09-27",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Tula (Tamaulipas)",
+  "lat": 22.997,
+  "lon": -99.72,
+  "f": "1617-01-01",
+  "bolge": "Nuevo Santander",
+  "kaynak_reg": "Weber, The Spanish Frontier in North America",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "yeni-ispanya",
+    "f": "1617-01-01",
+    "t": "1821-09-27"
+   },
+   {
+    "d": "meksika",
+    "f": "1821-09-27",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort McLeod (Britanya Kolumbiyası)",
+  "lat": 54.99,
+  "lon": -123.033,
+  "f": "1805-01-01",
+  "bolge": "NWC",
+  "not": "Kayalıkların batısındaki ilk kalıcı Avrupa yerleşimi",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1805-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort George (Prince George)",
+  "lat": 53.917,
+  "lon": -122.75,
+  "f": "1807-01-01",
+  "bolge": "NWC/HBC",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1807-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Jasper House",
+  "lat": 53.183,
+  "lon": -117.95,
+  "f": "1813-01-01",
+  "bolge": "NWC/HBC",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1813-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Lesser Slave Lake House",
+  "lat": 55.42,
+  "lon": -114.77,
+  "f": "1802-01-01",
+  "bolge": "NWC/HBC",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1802-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Lac La Biche",
+  "lat": 54.77,
+  "lon": -111.97,
+  "f": "1798-01-01",
+  "bolge": "NWC/HBC",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1798-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Assiniboine",
+  "lat": 54.333,
+  "lon": -114.75,
+  "f": "1823-01-01",
+  "bolge": "HBC",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1823-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Babine (Fort Kilmaurs)",
+  "lat": 55.35,
+  "lon": -126.7,
+  "f": "1822-01-01",
+  "bolge": "HBC/Babine",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1822-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Connolly (Bear Lake)",
+  "lat": 56.15,
+  "lon": -126.75,
+  "f": "1826-01-01",
+  "bolge": "HBC/Sekani",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1826-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Abitibi House",
+  "lat": 48.7,
+  "lon": -79.4,
+  "f": "1686-01-01",
+  "bolge": "Yeni Fransa/HBC",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiltere",
+    "f": "1686-01-01",
+    "t": "1763-02-10"
+   },
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1763-02-10",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Témiscamingue",
+  "lat": 47.3,
+  "lon": -79.433,
+  "f": "1679-01-01",
+  "bolge": "Yeni Fransa",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "fransa",
+    "f": "1679-01-01",
+    "t": "1763-02-10"
+   },
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1763-02-10",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Mattagami House",
+  "lat": 49.7,
+  "lon": -81.5,
+  "f": "1794-01-01",
+  "bolge": "HBC/Kri",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1794-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Michipicoten",
+  "lat": 47.952,
+  "lon": -84.9011,
+  "f": "1725-01-01",
+  "bolge": "Yeni Fransa/HBC",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "not": "konum denetle.py reçetesiyle düzeltildi (0.20 km maske dışıydı: 47.9500,-84.9000 → 47.9520,-84.9011) · konum denetle.py reçetesiyle düzeltildi (0.20 km maske dışıydı: 47.9520,-84.9011 → 47.9520,-84.9011)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiltere",
+    "f": "1725-01-01",
+    "t": "1763-02-10"
+   },
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1763-02-10",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Berens River",
+  "lat": 52.35,
+  "lon": -97.023,
+  "f": "1814-01-01",
+  "bolge": "HBC/Ojibwe",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1814-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Grand Rapids (Saskatchewan Irmağı ağzı)",
+  "lat": 53.17,
+  "lon": -99.27,
+  "f": "1794-01-01",
+  "bolge": "HBC/Kri",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1794-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Dauphin",
+  "lat": 51.15,
+  "lon": -100.05,
+  "f": "1741-01-01",
+  "bolge": "Yeni Fransa/NWC",
+  "not": "La Vérendrye hattı",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiltere",
+    "f": "1741-01-01",
+    "t": "1763-02-10"
+   },
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1763-02-10",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Alexander (Bas-de-la-Rivière)",
+  "lat": 50.6,
+  "lon": -96.3,
+  "f": "1792-01-01",
+  "bolge": "NWC/HBC",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1792-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Nelson House (Nisichawayasihk)",
+  "lat": 55.79,
+  "lon": -98.833,
+  "f": "1802-01-01",
+  "bolge": "HBC/Kri",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1802-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Pukatawagan",
+  "lat": 55.75,
+  "lon": -101.3,
+  "f": "1281-01-01",
+  "bolge": "Kri",
+  "kaynak_reg": "HNAI c.6 Subarctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "kri",
+    "f": "1281-01-01",
+    "t": "1876-08-23"
+   },
+   {
+    "d": "kanada",
+    "f": "1876-08-23",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Mushuau-nipi (Indian House Lake)",
+  "lat": 56.2,
+  "lon": -64.7,
+  "f": "1281-01-01",
+  "bolge": "Naskapi",
+  "not": "Naskapi ren geyiği geçidi toplanma yeri",
+  "kaynak_reg": "HNAI c.6 Subarctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "innu",
+    "f": "1281-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Native Point (Sadlermiut, Southampton Adası)",
+  "lat": 63.9302,
+  "lon": -83.605,
+  "f": "1281-01-01",
+  "bolge": "Sadlermiut",
+  "not": "Yalıtılmış Sadlermiut topluluğu 1902-03'te tükendi · konum denetle.py reçetesiyle düzeltildi (12.88 km maske dışıydı: 63.9800,-83.5000 → 63.9302,-83.6050)",
+  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "inuit",
+    "f": "1281-01-01",
+    "t": "1880-09-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1880-09-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Nuiqsut (Kuukpikmiut, Colville deltası)",
+  "lat": 70.219,
+  "lon": -151.002,
+  "f": "1281-01-01",
+  "bolge": "İnyupiak",
+  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "inuit",
+    "f": "1281-01-01",
+    "t": "1867-10-18"
+   },
+   {
+    "d": "abd",
+    "f": "1867-10-18",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Paulatuk / Cape Bathurst",
+  "lat": 69.35,
+  "lon": -124.07,
+  "f": "1281-01-01",
+  "bolge": "İnuvialuit",
+  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "inuit",
+    "f": "1281-01-01",
+    "t": "1880-09-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1880-09-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Bernard Harbour (Bakır İnuit)",
+  "lat": 68.78,
+  "lon": -114.79,
+  "f": "1281-01-01",
+  "bolge": "Bakır İnuit",
+  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "inuit",
+    "f": "1281-01-01",
+    "t": "1880-09-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1880-09-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Minto Inlet (Kangiryuarmiut)",
+  "lat": 71.4,
+  "lon": -114.5,
+  "f": "1281-01-01",
+  "bolge": "Bakır İnuit",
+  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "inuit",
+    "f": "1281-01-01",
+    "t": "1880-09-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1880-09-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Batzulnetas (Ahtna)",
+  "lat": 62.55,
+  "lon": -143.6,
+  "f": "1281-01-01",
+  "bolge": "Ahtna",
+  "kaynak_reg": "HNAI c.6 Subarctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "dene",
+    "f": "1281-01-01",
+    "t": "1899-06-21"
+   },
+   {
+    "d": "abd",
+    "f": "1899-06-21",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Nabesna / Northway (Yukarı Tanana)",
+  "lat": 62.961,
+  "lon": -141.94,
+  "f": "1281-01-01",
+  "bolge": "Yukarı Tanana",
+  "kaynak_reg": "HNAI c.6 Subarctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "dene",
+    "f": "1281-01-01",
+    "t": "1899-06-21"
+   },
+   {
+    "d": "abd",
+    "f": "1899-06-21",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Tulít'a Dağ Denesi (Nahanni)",
+  "lat": 63.5,
+  "lon": -131.5,
+  "f": "1281-01-01",
+  "bolge": "Dağ Dene",
+  "kaynak_reg": "HNAI c.6 Subarctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "dene",
+    "f": "1281-01-01",
+    "t": "1899-06-21"
+   },
+   {
+    "d": "kanada",
+    "f": "1899-06-21",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Iliamna / Nondalton (Dena'ina)",
+  "lat": 59.98,
+  "lon": -154.85,
+  "f": "1281-01-01",
+  "bolge": "Dena'ina",
+  "kaynak_reg": "HNAI c.6 Subarctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "dene",
+    "f": "1281-01-01",
+    "t": "1899-06-21"
+   },
+   {
+    "d": "abd",
+    "f": "1899-06-21",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Katmai (Alaska Yarımadası)",
+  "lat": 58.28,
+  "lon": -155.0,
+  "f": "1281-01-01",
+  "bolge": "Alutiiq",
+  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "alutiiq",
+    "f": "1281-01-01",
+    "t": "1784-08-14"
+   },
+   {
+    "d": "rusya",
+    "f": "1784-08-14",
+    "t": "1867-10-18"
+   },
+   {
+    "d": "abd",
+    "f": "1867-10-18",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Klamath / Klamath Bataklığı",
+  "lat": 42.71,
+  "lon": -121.99,
+  "f": "1281-01-01",
+  "bolge": "Klamath",
+  "not": "Klamath yerleşik kış köyleri; 1863 ABD kalesi",
+  "kaynak_reg": "HNAI c.12 Plateau (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "klamath",
+    "f": "1281-01-01",
+    "t": "1864-01-01"
+   },
+   {
+    "d": "abd",
+    "f": "1864-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Harney (Harney Havzası, Payut)",
+  "lat": 43.5,
+  "lon": -118.7,
+  "f": "1867-01-01",
+  "bolge": "ABD/Kuzey Payut",
+  "kaynak_reg": "HNAI c.11 Great Basin (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1867-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Quivira (Wiçita, Büyük Bükülme)",
+  "lat": 38.3,
+  "lon": -98.2,
+  "f": "1281-01-01",
+  "bolge": "Wiçita",
+  "not": "Coronado 1541'de burayı aradı",
+  "kaynak_reg": "HNAI c.13 Plains (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "wicita",
+    "f": "1281-01-01",
+    "t": "1859-01-01"
+   },
+   {
+    "d": "abd",
+    "f": "1859-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Riley (Kansas Irmağı)",
+  "lat": 39.09,
+  "lon": -96.79,
+  "f": "1853-01-01",
+  "bolge": "ABD/Kansa",
+  "kaynak_reg": "HNAI c.13 Plains (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1853-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Uncompahgre (Ute)",
+  "lat": 38.48,
+  "lon": -107.88,
+  "f": "1281-01-01",
+  "bolge": "Ute",
+  "kaynak_reg": "HNAI c.11 Great Basin (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "ute",
+    "f": "1281-01-01",
+    "t": "1880-01-01"
+   },
+   {
+    "d": "abd",
+    "f": "1880-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Draper's Meadow (Blacksburg)",
+  "lat": 37.23,
+  "lon": -80.42,
+  "f": "1748-01-01",
+  "bolge": "ABD/Şavni sınırı",
+  "kaynak_reg": "HNAI c.15 Northeast (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiltere",
+    "f": "1748-01-01",
+    "t": "1776-07-04"
+   },
+   {
+    "d": "abd",
+    "f": "1776-07-04",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Big Lick (Roanoke)",
+  "lat": 37.271,
+  "lon": -79.941,
+  "f": "1740-01-01",
+  "bolge": "İngiltere/ABD",
+  "kaynak_reg": "HNAI c.15 Northeast (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiltere",
+    "f": "1740-01-01",
+    "t": "1776-07-04"
+   },
+   {
+    "d": "abd",
+    "f": "1776-07-04",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Natchitoches",
+  "lat": 31.761,
+  "lon": -93.087,
+  "f": "1714-01-01",
+  "bolge": "Fransız Luizyanası",
+  "not": "Luizyana'nın en eski kalıcı yerleşimi",
+  "kaynak_reg": "Usner, Indians, Settlers and Slaves (UNC Press)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "fransa",
+    "f": "1714-01-01",
+    "t": "1762-11-03"
+   },
+   {
+    "d": "yeni-ispanya",
+    "f": "1762-11-03",
+    "t": "1803-12-20"
+   },
+   {
+    "d": "abd",
+    "f": "1803-12-20",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Worth (Üç Boynuz Kavşağı)",
+  "lat": 32.755,
+  "lon": -97.331,
+  "f": "1849-01-01",
+  "bolge": "ABD",
+  "kaynak_reg": "HNAI c.13 Plains (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1849-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "La Paz (Baja California Sur)",
+  "lat": 24.142,
+  "lon": -110.311,
+  "f": "1720-01-01",
+  "bolge": "İspanyol Baja",
+  "kaynak_reg": "Weber, The Spanish Frontier in North America",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "yeni-ispanya",
+    "f": "1720-01-01",
+    "t": "1821-09-27"
+   },
+   {
+    "d": "meksika",
+    "f": "1821-09-27",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Prescott / Yavapai",
+  "lat": 34.54,
+  "lon": -112.468,
+  "f": "1281-01-01",
+  "bolge": "Yavapai",
+  "kaynak_reg": "HNAI c.10 Southwest (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "yavapai",
+    "f": "1281-01-01",
+    "t": "1873-01-01"
+   },
+   {
+    "d": "abd",
+    "f": "1873-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Mohave (Kolorado geçidi)",
+  "lat": 34.95,
+  "lon": -114.6,
+  "f": "1281-01-01",
+  "bolge": "Mohave",
+  "not": "Mohave sulamalı ırmak köyleri",
+  "kaynak_reg": "HNAI c.10 Southwest (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "mohave",
+    "f": "1281-01-01",
+    "t": "1865-01-01"
+   },
+   {
+    "d": "abd",
+    "f": "1865-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Camas Ovası (Kuzey Şoşoni)",
+  "lat": 42.9,
+  "lon": -115.0,
+  "f": "1281-01-01",
+  "bolge": "Kuzey Şoşoni",
+  "kaynak_reg": "HNAI c.11 Great Basin (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "sosoni",
+    "f": "1281-01-01",
+    "t": "1868-07-03"
+   },
+   {
+    "d": "abd",
+    "f": "1868-07-03",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Devils Lake (Mni Wakan, Dakota)",
+  "lat": 48.113,
+  "lon": -98.865,
+  "f": "1281-01-01",
+  "bolge": "Dakota",
+  "kaynak_reg": "HNAI c.13 Plains (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "lakota",
+    "f": "1281-01-01",
+    "t": "1890-12-29"
+   },
+   {
+    "d": "abd",
+    "f": "1890-12-29",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Buffalo Lake / Battle River (Métis)",
+  "lat": 52.47,
+  "lon": -112.9,
+  "f": "1872-01-01",
+  "bolge": "Métis",
+  "not": "Métis kış köyü (hivernant)",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "metis",
+    "f": "1872-01-01",
+    "t": "1885-05-12"
+   },
+   {
+    "d": "kanada",
+    "f": "1885-05-12",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Cartwright (Sandwich Körfezi, Labrador)",
+  "lat": 53.7,
+  "lon": -57.02,
+  "f": "1775-01-01",
+  "bolge": "İngiltere/İnuit",
+  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1775-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Kangirsuk (Payne Irmağı)",
+  "lat": 60.024,
+  "lon": -70.01,
+  "f": "1281-01-01",
+  "bolge": "Nunavik İnuit",
+  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "inuit",
+    "f": "1281-01-01",
+    "t": "1880-09-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1880-09-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Wager Körfezi (Ukkusiksalik)",
+  "lat": 65.481,
+  "lon": -88.4883,
+  "f": "1281-01-01",
+  "bolge": "Aivilingmiut",
+  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)",
+  "not": "konum denetle.py reçetesiyle düzeltildi (2.43 km maske dışıydı: 65.5000,-88.5000 → 65.4810,-88.4883) · konum denetle.py reçetesiyle düzeltildi (2.43 km maske dışıydı: 65.4810,-88.4883 → 65.4810,-88.4883)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "inuit",
+    "f": "1281-01-01",
+    "t": "1880-09-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1880-09-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Beverly Gölü (Thelon, Karayer İnuit)",
+  "lat": 64.644,
+  "lon": -100.5035,
+  "f": "1281-01-01",
+  "bolge": "Karayer İnuit",
+  "not": "Thelon havzası iç bölge avlağı · konum denetle.py reçetesiyle düzeltildi (4.86 km maske dışıydı: 64.6000,-100.5000 → 64.6440,-100.5035) · konum denetle.py reçetesiyle düzeltildi (4.86 km maske dışıydı: 64.6440,-100.5035 → 64.6440,-100.5035)",
+  "kaynak_reg": "Birket-Smith, The Caribou Eskimos",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "inuit",
+    "f": "1281-01-01",
+    "t": "1880-09-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1880-09-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Łutsël K'é (Snowdrift, Büyük Köle Gölü doğusu)",
+  "lat": 62.3896,
+  "lon": -110.7375,
+  "f": "1281-01-01",
+  "bolge": "Denesuline",
+  "kaynak_reg": "HNAI c.6 Subarctic (Smithsonian)",
+  "not": "konum denetle.py reçetesiyle düzeltildi (1.14 km maske dışıydı: 62.4000,-110.7400 → 62.3896,-110.7375) · konum denetle.py reçetesiyle düzeltildi (1.14 km maske dışıydı: 62.3896,-110.7375 → 62.3896,-110.7375)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "dene",
+    "f": "1281-01-01",
+    "t": "1899-06-21"
+   },
+   {
+    "d": "kanada",
+    "f": "1899-06-21",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Ware (Kwadacha)",
+  "lat": 57.43,
+  "lon": -125.65,
+  "f": "1281-01-01",
+  "bolge": "Sekani",
+  "kaynak_reg": "HNAI c.6 Subarctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "dene",
+    "f": "1281-01-01",
+    "t": "1899-06-21"
+   },
+   {
+    "d": "kanada",
+    "f": "1899-06-21",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Vermilion güneyi — Peace Point",
+  "lat": 59.1,
+  "lon": -112.4,
+  "f": "1281-01-01",
+  "bolge": "Denesuline/Kri",
+  "kaynak_reg": "HNAI c.6 Subarctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "dene",
+    "f": "1281-01-01",
+    "t": "1899-06-21"
+   },
+   {
+    "d": "kanada",
+    "f": "1899-06-21",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Kugluktuk doğusu — Bathurst Inlet (Kingaunmiut)",
+  "lat": 66.83,
+  "lon": -108.0,
+  "f": "1281-01-01",
+  "bolge": "Bakır İnuit",
+  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "inuit",
+    "f": "1281-01-01",
+    "t": "1880-09-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1880-09-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Anaktuvuk batısı — Noatak (Nautaaġmiut)",
+  "lat": 67.57,
+  "lon": -162.97,
+  "f": "1281-01-01",
+  "bolge": "İnyupiak",
+  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "inuit",
+    "f": "1281-01-01",
+    "t": "1867-10-18"
+   },
+   {
+    "d": "abd",
+    "f": "1867-10-18",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Kobuk (Kuuvaŋmiit)",
+  "lat": 66.91,
+  "lon": -156.88,
+  "f": "1281-01-01",
+  "bolge": "İnyupiak",
+  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "inuit",
+    "f": "1281-01-01",
+    "t": "1867-10-18"
+   },
+   {
+    "d": "abd",
+    "f": "1867-10-18",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Severn güneyi — Winisk",
+  "lat": 55.25,
+  "lon": -85.1,
+  "f": "1281-01-01",
+  "bolge": "Kri",
+  "kaynak_reg": "HNAI c.6 Subarctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "kri",
+    "f": "1281-01-01",
+    "t": "1876-08-23"
+   },
+   {
+    "d": "kanada",
+    "f": "1876-08-23",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Kangiva (Nain iç bölgesi)",
+  "lat": 57.5,
+  "lon": -63.5,
+  "f": "1281-01-01",
+  "bolge": "Labrador İnuit",
+  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "inuit",
+    "f": "1281-01-01",
+    "t": "1880-09-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1880-09-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Bella Coola (Nuxalk)",
+  "lat": 52.37,
+  "lon": -126.7498,
+  "f": "1281-01-01",
+  "bolge": "Nuxalk",
+  "not": "Kalıcı kış köyleri; 1793 Mackenzie, 1869 HBC karakolu · konum denetle.py reçetesiyle düzeltildi (0.50 km maske dışıydı: 52.3750,-126.7500 → 52.3700,-126.7498) · konum denetle.py reçetesiyle düzeltildi (0.50 km maske dışıydı: 52.3700,-126.7498 → 52.3700,-126.7498)",
+  "kaynak_reg": "HNAI c.7 Northwest Coast (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "nuxalk",
+    "f": "1281-01-01",
+    "t": "1858-08-02"
+   },
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1858-08-02",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Bella Bella (Fort McLoughlin)",
+  "lat": 52.1604,
+  "lon": -128.1539,
+  "f": "1833-01-01",
+  "bolge": "Heiltsuk/HBC",
+  "kaynak_reg": "HNAI c.7 Northwest Coast (Smithsonian)",
+  "not": "konum denetle.py reçetesiyle düzeltildi (1.49 km maske dışıydı: 52.1600,-128.1400 → 52.1604,-128.1539) · konum denetle.py reçetesiyle düzeltildi (1.49 km maske dışıydı: 52.1604,-128.1539 → 52.1604,-128.1539)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1833-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Tsilhqot'in (Çilkotin platosu)",
+  "lat": 52.1,
+  "lon": -123.3,
+  "f": "1281-01-01",
+  "bolge": "Tsilhqot'in",
+  "kaynak_reg": "HNAI c.6 Subarctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "dene",
+    "f": "1281-01-01",
+    "t": "1899-06-21"
+   },
+   {
+    "d": "kanada",
+    "f": "1899-06-21",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Marten Falls (Ogoki)",
+  "lat": 51.65,
+  "lon": -85.9,
+  "f": "1794-01-01",
+  "bolge": "HBC/Oji-Kri",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1794-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fond du Lac (Athabasca Gölü)",
+  "lat": 59.333,
+  "lon": -107.183,
+  "f": "1851-01-01",
+  "bolge": "HBC/Denesuline",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1851-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Caniapiscau",
+  "lat": 54.85,
+  "lon": -69.9,
+  "f": "1834-01-01",
+  "bolge": "HBC/Naskapi",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1834-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Nichicun (HBC iç karakolu)",
+  "lat": 53.0943,
+  "lon": -70.9882,
+  "f": "1816-01-01",
+  "bolge": "HBC/Kri",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "not": "konum denetle.py reçetesiyle düzeltildi (1.40 km maske dışıydı: 53.1000,-71.0000 → 53.0943,-70.9882) · konum denetle.py reçetesiyle düzeltildi (1.40 km maske dışıydı: 53.0943,-70.9882 → 53.0943,-70.9882)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1816-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Obedjiwan (Atikamekw)",
+  "lat": 48.68,
+  "lon": -74.93,
+  "f": "1281-01-01",
+  "bolge": "Atikamekw",
+  "kaynak_reg": "HNAI c.6 Subarctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "kri",
+    "f": "1281-01-01",
+    "t": "1876-08-23"
+   },
+   {
+    "d": "kanada",
+    "f": "1876-08-23",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Chignik (Alaska Yarımadası)",
+  "lat": 56.3,
+  "lon": -158.4,
+  "f": "1281-01-01",
+  "bolge": "Alutiiq",
+  "kaynak_reg": "HNAI c.5 Arctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "alutiiq",
+    "f": "1281-01-01",
+    "t": "1784-08-14"
+   },
+   {
+    "d": "rusya",
+    "f": "1784-08-14",
+    "t": "1867-10-18"
+   },
+   {
+    "d": "abd",
+    "f": "1867-10-18",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Wallace (Smoky Hill)",
+  "lat": 38.91,
+  "lon": -101.6,
+  "f": "1865-01-01",
+  "bolge": "ABD/Şayen-Arapaho",
+  "kaynak_reg": "HNAI c.13 Plains (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1865-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Abercrombie (Kızıl Irmak vadisi)",
+  "lat": 46.45,
+  "lon": -96.72,
+  "f": "1858-01-01",
+  "bolge": "ABD/Sisseton Dakota",
+  "kaynak_reg": "HNAI c.13 Plains (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1858-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Natashquan",
+  "lat": 50.1929,
+  "lon": -61.8182,
+  "f": "1281-01-01",
+  "bolge": "Innu",
+  "not": "Innu yaz kampı; 19. yy HBC karakolu · konum denetle.py reçetesiyle düzeltildi (0.32 km maske dışıydı: 50.1900,-61.8200 → 50.1929,-61.8182) · konum denetle.py reçetesiyle düzeltildi (0.32 km maske dışıydı: 50.1929,-61.8182 → 50.1929,-61.8182)",
+  "kaynak_reg": "HNAI c.6 Subarctic (Smithsonian)",
+  "kimlik_cinsi": "istisna",
+  "s": [
+   {
+    "d": "fransa",
+    "f": "1281-01-01",
+    "t": "1763-02-10"
+   },
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1763-02-10",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Blanc-Sablon",
+  "lat": 51.424,
+  "lon": -57.1294,
+  "f": "1500-01-01",
+  "bolge": "Bask/Fransız balıkçılığı",
+  "not": "16. yy Bask balina ve balık istasyonları kuşağı · konum denetle.py reçetesiyle düzeltildi (0.40 km maske dışıydı: 51.4200,-57.1300 → 51.4240,-57.1294) · konum denetle.py reçetesiyle düzeltildi (0.40 km maske dışıydı: 51.4240,-57.1294 → 51.4240,-57.1294)",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiltere",
+    "f": "1500-01-01",
+    "t": "1763-02-10"
+   },
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1763-02-10",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Kamloops",
+  "lat": 50.674,
+  "lon": -120.33,
+  "f": "1812-01-01",
+  "bolge": "NWC/HBC/Secwépemc",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1812-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Secwépemc (Adams Gölü)",
+  "lat": 51.0,
+  "lon": -119.5,
+  "f": "1281-01-01",
+  "bolge": "Secwépemc",
+  "not": "Yerleşik çukur-ev kış köyleri",
+  "kaynak_reg": "HNAI c.12 Plateau (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "secwepemc",
+    "f": "1281-01-01",
+    "t": "1858-08-02"
+   },
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1858-08-02",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Battleford",
+  "lat": 52.737,
+  "lon": -108.3,
+  "f": "1875-01-01",
+  "bolge": "Kanada (NWMP)",
+  "not": "1876-83 Kuzeybatı Toprakları başkenti",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "kanada",
+    "f": "1875-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Pitt",
+  "lat": 53.583,
+  "lon": -109.8,
+  "f": "1829-01-01",
+  "bolge": "HBC",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1829-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Sandy Lake (Kuzeybatı Ontario)",
+  "lat": 53.0589,
+  "lon": -93.3289,
+  "f": "1281-01-01",
+  "bolge": "Oji-Kri",
+  "kaynak_reg": "HNAI c.6 Subarctic (Smithsonian)",
+  "not": "konum denetle.py reçetesiyle düzeltildi (0.94 km maske dışıydı: 53.0500,-93.3300 → 53.0589,-93.3289) · konum denetle.py reçetesiyle düzeltildi (0.94 km maske dışıydı: 53.0589,-93.3289 → 53.0589,-93.3289)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "kri",
+    "f": "1281-01-01",
+    "t": "1876-08-23"
+   },
+   {
+    "d": "kanada",
+    "f": "1876-08-23",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Déline (Fort Franklin, Büyük Ayı Gölü)",
+  "lat": 65.2034,
+  "lon": -123.4211,
+  "f": "1825-01-01",
+  "bolge": "Sahtu Dene/HBC",
+  "not": "Franklin'in ikinci seferinin kışlağı · konum denetle.py reçetesiyle düzeltildi (1.44 km maske dışıydı: 65.1900,-123.4200 → 65.2034,-123.4211) · konum denetle.py reçetesiyle düzeltildi (1.44 km maske dışıydı: 65.2034,-123.4211 → 65.2034,-123.4211)",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1825-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Tetlit Gwich'in (Peel havzası)",
+  "lat": 65.5,
+  "lon": -135.0,
+  "f": "1281-01-01",
+  "bolge": "Gwich'in",
+  "kaynak_reg": "HNAI c.6 Subarctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "dene",
+    "f": "1281-01-01",
+    "t": "1899-06-21"
+   },
+   {
+    "d": "kanada",
+    "f": "1899-06-21",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Nikolai (Yukarı Kuskokwim)",
+  "lat": 63.017,
+  "lon": -154.383,
+  "f": "1281-01-01",
+  "bolge": "Yukarı Kuskokwim Atabaskı",
+  "kaynak_reg": "HNAI c.6 Subarctic (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiltere",
+    "f": "1281-01-01",
+    "t": "1763-02-10"
+   },
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1763-02-10",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Sisimiut (Holsteinsborg)",
+  "lat": 66.9338,
+  "lon": -53.6684,
+  "f": "1756-01-01",
+  "bolge": "Danimarka Grönland",
+  "kaynak_reg": "Danish Arctic historiography (Gulløv ed., Grønlands forhistorie)",
+  "not": "konum denetle.py reçetesiyle düzeltildi (0.55 km maske dışıydı: 66.9390,-53.6700 → 66.9338,-53.6684) · konum denetle.py reçetesiyle düzeltildi (0.55 km maske dışıydı: 66.9338,-53.6684 → 66.9338,-53.6684)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "danimarka",
+    "f": "1756-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Wintu (Yukarı Sacramento)",
+  "lat": 40.58,
+  "lon": -122.39,
+  "f": "1281-01-01",
+  "bolge": "Wintu",
+  "kaynak_reg": "HNAI c.8 California (Smithsonian)",
+  "kimlik_cinsi": "istisna",
+  "erken_bos": "kabile",
+  "erken_neden": "Wintu bantlari Yukari Sacramento'da yasadi ama Kaliforniya'nin 18 antlasmasinin hicbiri ABD Senatosu'nca ONAYLANMADI ⇒ ortada bir devir gunu YOK ve kunye yazilamadi (arandi, bulunamadi). ABD idaresi eyalet olusuyla 1850-09-09'da basladi. kaynak: HNAI c.8 California (Smithsonian).",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1776-07-04",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Kuzey Payut (Kara Kaya Çölü)",
+  "lat": 41.2,
+  "lon": -119.0,
+  "f": "1281-01-01",
+  "bolge": "Kuzey Payut",
+  "kaynak_reg": "Steward, Basin-Plateau Aboriginal Sociopolitical Groups (BAE Bulletin 120)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "payut",
+    "f": "1281-01-01",
+    "t": "1872-01-01"
+   },
+   {
+    "d": "abd",
+    "f": "1872-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Springfield (Missouri, Ozark)",
+  "lat": 37.209,
+  "lon": -93.292,
+  "f": "1829-01-01",
+  "bolge": "ABD/Osage",
+  "kaynak_reg": "HNAI c.13 Plains (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1829-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "North Platte (Fort McPherson, Nebraska)",
+  "lat": 41.124,
+  "lon": -100.765,
+  "f": "1863-01-01",
+  "bolge": "ABD/Lakota-Şayen",
+  "kaynak_reg": "HNAI c.13 Plains (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1863-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Supply (Kuzeybatı Toprakları, Oklahoma)",
+  "lat": 36.573,
+  "lon": -99.57,
+  "f": "1868-01-01",
+  "bolge": "ABD/Şayen-Arapaho",
+  "kaynak_reg": "HNAI c.13 Plains (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1868-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Ponca köyleri (Salt Fork)",
+  "lat": 36.7,
+  "lon": -97.08,
+  "f": "1281-01-01",
+  "bolge": "Ponka",
+  "kaynak_reg": "HNAI c.13 Plains (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "ponka",
+    "f": "1281-01-01",
+    "t": "1858-01-01"
+   },
+   {
+    "d": "abd",
+    "f": "1858-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "San Felipe de Austin",
+  "lat": 29.803,
+  "lon": -96.106,
+  "f": "1824-01-01",
+  "bolge": "Meksika Teksası",
+  "not": "Anglo-Amerikan kolonizasyonunun merkezi",
+  "kaynak_reg": "Weber, The Mexican Frontier 1821-1846 (UNM Press)",
+  "kimlik_cinsi": "istisna",
+  "s": [
+   {
+    "d": "meksika",
+    "f": "1824-01-01",
+    "t": "1836-03-02"
+   },
+   {
+    "d": "teksas-cumhuriyeti",
+    "f": "1836-03-02",
+    "t": "1845-12-29"
+   },
+   {
+    "d": "abd",
+    "f": "1845-12-29",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Houston",
+  "lat": 29.76,
+  "lon": -95.37,
+  "f": "1836-01-01",
+  "bolge": "Teksas Cumhuriyeti",
+  "kaynak_reg": "Weber, The Mexican Frontier 1821-1846",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1836-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Múzquiz (Santa Rosa)",
+  "lat": 27.879,
+  "lon": -101.516,
+  "f": "1739-01-01",
+  "bolge": "İspanyol Coahuila",
+  "kaynak_reg": "Weber, The Spanish Frontier in North America (Yale UP)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "yeni-ispanya",
+    "f": "1739-01-01",
+    "t": "1821-09-27"
+   },
+   {
+    "d": "meksika",
+    "f": "1821-09-27",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Parras",
+  "lat": 25.442,
+  "lon": -102.18,
+  "f": "1598-01-01",
+  "bolge": "İspanyol Nueva Vizcaya",
+  "kaynak_reg": "Weber, The Spanish Frontier in North America",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "yeni-ispanya",
+    "f": "1598-01-01",
+    "t": "1821-09-27"
+   },
+   {
+    "d": "meksika",
+    "f": "1821-09-27",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Laredo",
+  "lat": 27.506,
+  "lon": -99.507,
+  "f": "1755-05-15",
+  "bolge": "Nuevo Santander",
+  "kaynak_reg": "Weber, The Spanish Frontier in North America",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "yeni-ispanya",
+    "f": "1755-05-15",
+    "t": "1821-09-27"
+   },
+   {
+    "d": "meksika",
+    "f": "1821-09-27",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Camargo",
+  "lat": 26.313,
+  "lon": -98.834,
+  "f": "1749-03-05",
+  "bolge": "Nuevo Santander",
+  "kaynak_reg": "Weber, The Spanish Frontier in North America",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "yeni-ispanya",
+    "f": "1749-03-05",
+    "t": "1821-09-27"
+   },
+   {
+    "d": "meksika",
+    "f": "1821-09-27",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Matamoros (Refugio)",
+  "lat": 25.879,
+  "lon": -97.504,
+  "f": "1774-01-01",
+  "bolge": "Nuevo Santander",
+  "kaynak_reg": "Weber, The Spanish Frontier in North America",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "yeni-ispanya",
+    "f": "1774-01-01",
+    "t": "1821-09-27"
+   },
+   {
+    "d": "meksika",
+    "f": "1821-09-27",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Misión San Francisco de Borja",
+  "lat": 28.745,
+  "lon": -113.755,
+  "f": "1762-01-01",
+  "bolge": "İspanyol Baja/Koçimi",
+  "kaynak_reg": "Weber, The Spanish Frontier in North America",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "yeni-ispanya",
+    "f": "1762-01-01",
+    "t": "1821-09-27"
+   },
+   {
+    "d": "meksika",
+    "f": "1821-09-27",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Santa Rita del Cobre",
+  "lat": 32.8,
+  "lon": -108.07,
+  "f": "1804-01-01",
+  "bolge": "İspanyol/Çirikahua Apaçi",
+  "kaynak_reg": "Weber, The Spanish Frontier in North America",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "yeni-ispanya",
+    "f": "1804-01-01",
+    "t": "1821-09-27"
+   },
+   {
+    "d": "meksika",
+    "f": "1821-09-27",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Old Crow (Vuntut Gwitchin)",
+  "lat": 67.57,
+  "lon": -139.83,
+  "f": "1281-01-01",
+  "bolge": "Gwich'in",
+  "not": "Old Crow düzlükleri — ren geyiği geçidi, sürekli iskân",
+  "kaynak_reg": "HNAI c.6 Subarctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "dene",
+    "f": "1281-01-01",
+    "t": "1899-06-21"
+   },
+   {
+    "d": "kanada",
+    "f": "1899-06-21",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Colville Lake (K'áhbamı̨túé)",
+  "lat": 67.033,
+  "lon": -126.1,
+  "f": "1281-01-01",
+  "bolge": "Sahtu Dene",
+  "kaynak_reg": "HNAI c.6 Subarctic (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "dene",
+    "f": "1281-01-01",
+    "t": "1899-06-21"
+   },
+   {
+    "d": "kanada",
+    "f": "1899-06-21",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Vincennes (Poste Vincennes)",
+  "lat": 38.677,
+  "lon": -87.529,
+  "f": "1732-01-01",
+  "bolge": "Fransız İllinois/Piankaşav",
+  "kaynak_reg": "HNAI c.15 Northeast (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "fransa",
+    "f": "1732-01-01",
+    "t": "1763-02-10"
+   },
+   {
+    "d": "ingiltere",
+    "f": "1763-02-10",
+    "t": "1783-09-03"
+   },
+   {
+    "d": "abd",
+    "f": "1783-09-03",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Occaneechi (Hillsborough)",
+  "lat": 36.075,
+  "lon": -79.1,
+  "f": "1281-01-01",
+  "bolge": "Occaneechi/Siyu",
+  "not": "Büyük Ticaret Yolu üzerinde",
+  "kaynak_reg": "HNAI c.14 Southeast (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "occaneechi",
+    "f": "1281-01-01",
+    "t": "1676-01-01"
+   },
+   {
+    "d": "ingiltere",
+    "f": "1676-01-01",
+    "t": "1783-09-03"
+   },
+   {
+    "d": "abd",
+    "f": "1783-09-03",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Keweenaw (Ojibwe bakır yatakları)",
+  "lat": 46.54,
+  "lon": -87.4,
+  "f": "1281-01-01",
+  "bolge": "Ojibwe",
+  "not": "Yerli bakır madenciliği ve ticareti",
+  "kaynak_reg": "HNAI c.15 Northeast (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "ojibwe",
+    "f": "1281-01-01",
+    "t": "1850-09-07"
+   },
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1850-09-07",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Madawaska (Maliseet)",
+  "lat": 47.35,
+  "lon": -68.32,
+  "f": "1281-01-01",
+  "bolge": "Maliseet (Wolastoqiyik)",
+  "kaynak_reg": "HNAI c.15 Northeast (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "maliseet",
+    "f": "1281-01-01",
+    "t": "1761-01-01"
+   },
+   {
+    "d": "fransa",
+    "f": "1761-01-01",
+    "t": "1763-02-10"
+   },
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1763-02-10",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Belknap (Assiniboine-Gros Ventre)",
+  "lat": 48.48,
+  "lon": -108.76,
+  "f": "1871-01-01",
+  "bolge": "ABD/Assiniboine",
+  "kaynak_reg": "HNAI c.13 Plains (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1871-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Fort Fetterman (Powder Irmağı)",
+  "lat": 42.84,
+  "lon": -105.47,
+  "f": "1867-01-01",
+  "bolge": "ABD/Lakota-Şayen",
+  "kaynak_reg": "HNAI c.13 Plains (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "abd",
+    "f": "1867-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Brandon House",
+  "lat": 49.85,
+  "lon": -99.95,
+  "f": "1793-01-01",
+  "bolge": "HBC/NWC",
+  "kaynak_reg": "Historical Atlas of Canada",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1793-01-01",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Tukudeka (Koyun Yiyen Şoşoniler, Yellowstone)",
+  "lat": 44.6,
+  "lon": -110.5,
+  "f": "1281-01-01",
+  "bolge": "Tukudeka Şoşoni",
+  "not": "Yellowstone yaylasının tek sürekli sakinleri",
+  "kaynak_reg": "HNAI c.11 Great Basin (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "sosoni",
+    "f": "1281-01-01",
+    "t": "1868-07-03"
+   },
+   {
+    "d": "abd",
+    "f": "1868-07-03",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Meskalero Apaçi (Pecos vadisi)",
+  "lat": 33.15,
+  "lon": -105.75,
+  "f": "1281-01-01",
+  "bolge": "Meskalero Apaçi",
+  "kaynak_reg": "HNAI c.10 Southwest (Smithsonian)",
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "meskalero-apaci",
+    "f": "1281-01-01",
+    "t": "1873-01-01"
+   },
+   {
+    "d": "abd",
+    "f": "1873-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Telida / Denali eteği (Atabask)",
+  "lat": 63.4,
+  "lon": -153.0,
+  "f": "1281-01-01",
+  "bolge": "Yukarı Kuskokwim Atabaskı",
+  "kaynak_reg": "HNAI c.6 Subarctic (Smithsonian)",
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiltere",
+    "f": "1281-01-01",
+    "t": "1763-02-10"
+   },
+   {
+    "d": "ingiliz-kuzey-amerika",
+    "f": "1763-02-10",
+    "t": "1867-07-01"
+   },
+   {
+    "d": "kanada",
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Trujillo (Honduras)",
+  "lat": 15.918,
+  "lon": -85.953,
+  "f": "1525-05-18",
+  "bolge": "İspanyol Honduras",
+  "kaynak_reg": "Weber, The Spanish Frontier in North America",
+  "serit_15_25K": true,
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ispanya",
+    "f": "1525-05-18",
+    "t": "1535-04-17"
+   },
+   {
+    "d": "yeni-ispanya",
+    "f": "1535-04-17",
+    "t": "1821-09-27"
+   },
+   {
+    "d": "meksika",
+    "f": "1821-09-27",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Río Tinto (Black River, Moskito kıyısı)",
+  "lat": 15.85,
+  "lon": -84.85,
+  "f": "1732-01-01",
+  "bolge": "İngiliz Moskito himayesi",
+  "not": "Moskito Sahili İngiliz yerleşimi",
+  "kaynak_reg": "Cambridge History of Latin America (CUP)",
+  "serit_15_25K": true,
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiltere",
+    "f": "1732-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Omoa (San Fernando de Omoa)",
+  "lat": 15.7664,
+  "lon": -88.0428,
+  "f": "1759-01-01",
+  "bolge": "İspanyol Honduras",
+  "kaynak_reg": "Cambridge History of Latin America (CUP)",
+  "not": "konum denetle.py reçetesiyle düzeltildi (0.42 km maske dışıydı: 15.7700,-88.0450 → 15.7664,-88.0428) · konum denetle.py reçetesiyle düzeltildi (0.42 km maske dışıydı: 15.7664,-88.0428 → 15.7664,-88.0428)",
+  "serit_15_25K": true,
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "yeni-ispanya",
+    "f": "1759-01-01",
+    "t": "1821-09-27"
+   },
+   {
+    "d": "meksika",
+    "f": "1821-09-27",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Belize Town",
+  "lat": 17.504,
+  "lon": -88.197,
+  "f": "1716-01-01",
+  "bolge": "İngiliz kereste kesicileri",
+  "kaynak_reg": "Cambridge History of Latin America (CUP)",
+  "serit_15_25K": true,
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ingiltere",
+    "f": "1716-01-01",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Tehuantepec",
+  "lat": 16.323,
+  "lon": -95.241,
+  "f": "1281-01-01",
+  "bolge": "Zapotek",
+  "not": "Kıstakta Zapotek merkezi; 1522 İspanyol",
+  "kaynak_reg": "Cambridge History of Latin America (CUP)",
+  "serit_15_25K": true,
+  "kimlik_cinsi": "yerli",
+  "s": [
+   {
+    "d": "zapotek-krallik",
+    "f": "1281-01-01",
+    "t": "1523-01-01"
+   },
+   {
+    "d": "ingiltere",
+    "f": "1523-01-01",
+    "t": "1783-09-03"
+   },
+   {
+    "d": "abd",
+    "f": "1783-09-03",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Acapulco",
+  "lat": 16.863,
+  "lon": -99.882,
+  "f": "1550-01-01",
+  "bolge": "Yeni İspanya",
+  "not": "Manila kalyonu limanı",
+  "kaynak_reg": "Cambridge History of Latin America (CUP)",
+  "serit_15_25K": true,
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "yeni-ispanya",
+    "f": "1550-01-01",
+    "t": "1821-09-27"
+   },
+   {
+    "d": "meksika",
+    "f": "1821-09-27",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Chilpancingo (Guerrero)",
+  "lat": 17.551,
+  "lon": -99.5,
+  "f": "1591-01-01",
+  "bolge": "Yeni İspanya",
+  "kaynak_reg": "Cambridge History of Latin America (CUP)",
+  "serit_15_25K": true,
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "yeni-ispanya",
+    "f": "1591-01-01",
+    "t": "1821-09-27"
+   },
+   {
+    "d": "meksika",
+    "f": "1821-09-27",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Pánuco (Huasteca)",
+  "lat": 22.053,
+  "lon": -98.181,
+  "f": "1522-01-01",
+  "bolge": "Yeni İspanya/Huastek",
+  "kaynak_reg": "Cambridge History of Latin America (CUP)",
+  "serit_15_25K": true,
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ispanya",
+    "f": "1522-01-01",
+    "t": "1535-04-17"
+   },
+   {
+    "d": "yeni-ispanya",
+    "f": "1535-04-17",
+    "t": "1821-09-27"
+   },
+   {
+    "d": "meksika",
+    "f": "1821-09-27",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Sancti Spíritus",
+  "lat": 21.93,
+  "lon": -79.442,
+  "f": "1514-06-04",
+  "bolge": "İspanyol Kübası",
+  "not": "Velázquez'in yedi ilk kasabasından",
+  "kaynak_reg": "Cambridge History of Latin America (CUP)",
+  "serit_15_25K": true,
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "ispanya",
+    "f": "1514-06-04",
+    "t": "1535-04-17"
+   },
+   {
+    "d": "yeni-ispanya",
+    "f": "1535-04-17",
+    "t": "1821-09-27"
+   },
+   {
+    "d": "meksika",
+    "f": "1821-09-27",
+    "t": "1923-10-29"
+   }
+  ]
+ },
+ {
+  "ad": "Santa Clara (Küba)",
+  "lat": 22.407,
+  "lon": -79.964,
+  "f": "1689-07-15",
+  "bolge": "İspanyol Kübası",
+  "kaynak_reg": "Cambridge History of Latin America (CUP)",
+  "serit_15_25K": true,
+  "kimlik_cinsi": "sömürge",
+  "s": [
+   {
+    "d": "yeni-ispanya",
+    "f": "1689-07-15",
+    "t": "1821-09-27"
+   },
+   {
+    "d": "meksika",
+    "f": "1821-09-27",
+    "t": "1923-10-29"
+   }
+  ]
+ }
+]

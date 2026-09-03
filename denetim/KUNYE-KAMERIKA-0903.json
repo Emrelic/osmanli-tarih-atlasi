@@ -1,0 +1,293 @@
+[
+ {
+  "id": "kanada",
+  "ad": "Kanada Dominyonu",
+  "tur": "devlet",
+  "f": "1867-07-01",
+  "t": "1923-10-29",
+  "baskent": "Bytown (Ottawa)",
+  "bolge": "kuzey-amerika",
+  "ozet": "British North America Act ile dört eyaletin (Ontario · Quebec · Nova Scotia · New Brunswick) birleşmesinden doğan dominyon. Rupert's Land 1870'te, Britanya Kolumbiyası 1871'de, Prince Edward Adası 1873'te, Arktik Takımadalar 1880'de katıldı. Atlas ufkunun sonuna kadar sürer.",
+  "not": "🟢 f: 1867-07-01 KESİN GÜN — British North America Act'in yürürlüğe girdiği gün; şartnamenin dominyon ölçütünün ta kendisi. 🔴 BU KÜNYE TEK BAŞINA YETMEZ: mevcut `ingiliz-kuzey-amerika` künyesi bugün t:1923-10-29 taşıyor, yani 1867-1923 arası İKİSİ BİRDEN sahnede olur. O künyenin t:'si 1867-07-01'e ÇEKİLMELİDİR — aksi hâlde 56 yıllık bir örtüşme doğar. Karar ve düzeltme koordinatörde. ⚠️ tur: `devlet` seçtim (komanci · haudenosaunee emsali). Kanada bir federasyondur ve sözlükte `federasyon` değeri VAR ama yalnız 1 kez kullanılmış; tek kullanımlık bir değere yaslanmak istemedim. Değiştirmek tek alanlık iştir.",
+  "kaynak": "bulunamadı",
+  "dayanak": "British North America Act 1867 (birincil belge) · Historical Atlas of Canada (U. Toronto Press) — çevrimiçi doğrulanmadı",
+  "kronoloji": [
+   {"t": "1867-07-01", "b": "British North America Act yürürlüğe girdi; Kanada Dominyonu kuruldu", "tur": "kurulus"},
+   {"t": "1870-07-15", "b": "Rupert's Land ve Kuzeybatı Toprakları Kanada'ya devredildi", "tur": "toprak-kazanc"},
+   {"t": "1871-07-20", "b": "Britanya Kolumbiyası birliğe katıldı", "tur": "toprak-kazanc"},
+   {"t": "1880-09-01", "b": "Britanya, Arktik Takımadalar üzerindeki haklarını Kanada'ya devretti", "tur": "toprak-kazanc"},
+   {"t": "1885-05-12", "b": "Batoche düştü; Kuzeybatı Ayaklanması bastırıldı", "tur": "isyan"}
+  ]
+ },
+ {
+  "id": "inuit",
+  "ad": "İnuit",
+  "tur": "devlet",
+  "f": "1281-01-01",
+  "t": "1880-09-01",
+  "baskent": "Iglulik",
+  "bolge": "kuzey-amerika",
+  "ozet": "Thule geleneğinden gelen, Bering Boğazı'ndan Grönland'a uzanan kutup halkı. Merkezî bir devlet kurmadı; bölgesel gruplar (İnyupiak · İnuvialuit · Bakır · Netsilik · Iglulingmiut · Nunavik · Labrador İnuiti) kendi avlaklarını denetledi. Hiçbir sömürge gücü tarafından silâhla fethedilmedi; tâbiiyet idarî devirlerle geldi.",
+  "not": "🔴 t: 1880-09-01 bu künyenin DIŞ ZARFIDIR, tek bir fetih günü değil. İnuit yurdu parça parça devredildi ve her parça KENDİ noktasının zincirinde daha erken kesilir: Grönland 1721 (danimarka) · Labrador 1763-02-10 (ingiliz-kuzey-amerika) · Alaska 1867-10-18 (abd) · Kanada Arktik'i 1880-09-01. Zarf, EN GEÇ devredilen parçanın günüdür. ⚠️ Bu bir sadeleştirmedir ve gizlemiyorum: alternatifi beş ayrı bölgesel künye açmaktır (inuit-gronland · inuit-labrador · inyupiak · inuvialuit · …) ve o, şartnamenin HALK taneciğinden daha ince olurdu. Karar koordinatörde. 🟡 f: 1281-01-01 ATLAS UFKUDUR, kuruluş yılı değil — Thule yayılımı 13. yüzyılda tamamlanmıştı.",
+  "kaynak": "bulunamadı",
+  "dayanak": "Handbook of North American Indians c.5 Arctic (Smithsonian Institution) — çevrimiçi doğrulanmadı",
+  "kronoloji": [
+   {"t": "1281-01-01", "b": "Thule geleneğinden gelen İnuit toplulukları Arktik boyunca yerleşik (atlas ufku)", "tur": "kurulus"},
+   {"t": "1721-01-01", "b": "Hans Egede Grönland'a çıktı; Danimarka idaresi başladı", "tur": "isgal"},
+   {"t": "1867-10-18", "b": "Alaska ABD'ye devredildi; İnyupiak ve Yupik toprakları ABD idaresine geçti", "tur": "toprak-kayip"},
+   {"t": "1880-09-01", "b": "Britanya, Arktik Takımadalar'ı Kanada'ya devretti; İnuit yurdunun son bağımsız kesimi idarî olarak kapandı", "tur": "son"}
+  ]
+ },
+ {
+  "id": "dene",
+  "ad": "Dene (Atabask Halkları)",
+  "tur": "devlet",
+  "f": "1281-01-01",
+  "t": "1899-06-21",
+  "baskent": "Fort Simpson (Łı́ı́dlı̨ı̨ Kų́ę́)",
+  "bolge": "kuzey-amerika",
+  "ozet": "Mackenzie havzası, Yukon ve kuzey Britanya Kolumbiyası'nda yaşayan Atabask dilli halklar (Gwich'in · Sahtu · Denesuline · Tłı̨chǫ · Kaska · Tahltan · Sekani · Dena'ina · Ahtna). Kürk ticaretinde kilit rol oynadılar; toprakları 8 Numaralı Antlaşma ile Kanada idaresine bağlandı.",
+  "not": "🟢 t: 1899-06-21 — 8 Numaralı Antlaşma'nın Lesser Slave Lake'te imzalandığı gün. M-2498'in ekseni: yerli bir yapının `t:` günü GENELLİKLE sömürgecinin tarihidir, ve burada da öyle. ⚠️ Antlaşma bütün Dene'yi kapsamaz — 11 Numaralı Antlaşma 1921'de Mackenzie aşağısını ekledi, Yukon Gwich'in'i hiç antlaşma imzalamadı. 1899 EN ERKEN toplu devirdir, kapsayıcı değil. 🟡 f: 1281-01-01 ATLAS UFKU.",
+  "kaynak": "bulunamadı",
+  "dayanak": "Handbook of North American Indians c.6 Subarctic (Smithsonian Institution) · Historical Atlas of Canada — çevrimiçi doğrulanmadı",
+  "kronoloji": [
+   {"t": "1281-01-01", "b": "Atabask dilli halklar Mackenzie havzası ve Yukon'da (atlas ufku)", "tur": "kurulus"},
+   {"t": "1789-07-14", "b": "Alexander Mackenzie ırmağı takip ederek Kuzey Buz Denizi'ne ulaştı", "tur": "isgal"},
+   {"t": "1899-06-21", "b": "8 Numaralı Antlaşma Lesser Slave Lake'te imzalandı", "tur": "antlasma"}
+  ]
+ },
+ {
+  "id": "kri",
+  "ad": "Kri (Nehiyaw)",
+  "tur": "devlet",
+  "f": "1281-01-01",
+  "t": "1876-08-23",
+  "baskent": "Cumberland House",
+  "bolge": "kuzey-amerika",
+  "ozet": "James Körfezi'nden Kayalıklar eteklerine uzanan geniş Algonkin dilli halk. Kürk ticaretinin ana aracısı oldu; Ova Krileri at ve tüfekle bizon ekonomisine geçti. Toprakları 1871-1877 arası Numaralı Antlaşmalarla Kanada'ya bağlandı.",
+  "not": "🟢 t: 1876-08-23 — 6 Numaralı Antlaşma'nın Fort Carlton'da imzalandığı gün; Ova ve Orman Krilerinin ana devir belgesi. ⚠️ Kri toprağı tek antlaşmayla kapanmadı: 1 ve 2 Numaralı 1871, 3 Numaralı 1873, 4 Numaralı 1874, 5 Numaralı 1875, 6 Numaralı 1876, 8 Numaralı 1899, 9 Numaralı 1905. 1876 ORTA ve en temsilî olanıdır; seçim gizlenmiyor. 🟡 f: 1281-01-01 ATLAS UFKU.",
+  "kaynak": "bulunamadı",
+  "dayanak": "Handbook of North American Indians c.6 Subarctic (Smithsonian Institution) · Historical Atlas of Canada — çevrimiçi doğrulanmadı",
+  "kronoloji": [
+   {"t": "1281-01-01", "b": "Kri toplulukları boreal ormanda (atlas ufku)", "tur": "kurulus"},
+   {"t": "1670-05-02", "b": "Hudson's Bay Company imtiyazı verildi; Kri kürk ticaretinin aracısı oldu", "tur": "antlasma"},
+   {"t": "1876-08-23", "b": "6 Numaralı Antlaşma Fort Carlton'da imzalandı", "tur": "antlasma"}
+  ]
+ },
+ {
+  "id": "ojibwe",
+  "ad": "Ojibwe (Anişinabe)",
+  "tur": "devlet",
+  "f": "1281-01-01",
+  "t": "1850-09-07",
+  "baskent": "Chequamegon (La Pointe)",
+  "bolge": "kuzey-amerika",
+  "ozet": "Yukarı Göller çevresinde yayılmış Algonkin dilli halk. Sault Ste. Marie ve Chequamegon merkezliydi; Fransız ve İngiliz kürk ticaretinde belirleyici oldu, Sioux ile uzun bir batıya doğru mücadele yürüttü.",
+  "not": "🟢 t: 1850-09-07 — Robinson-Superior Antlaşması; Yukarı Göller kuzey kıyısının Britanya idaresine devri. İki gün sonra Robinson-Huron imzalandı. ⚠️ ABD tarafındaki Ojibwe toprakları daha önce (1837 · 1842 · 1854) devredildi; bu künye kuzey kıyıyı esas alır ve seçim gizlenmiyor. 🟡 f: 1281-01-01 ATLAS UFKU.",
+  "kaynak": "bulunamadı",
+  "dayanak": "Handbook of North American Indians c.15 Northeast (Smithsonian Institution) — çevrimiçi doğrulanmadı",
+  "kronoloji": [
+   {"t": "1281-01-01", "b": "Ojibwe toplulukları Yukarı Göller çevresinde (atlas ufku)", "tur": "kurulus"},
+   {"t": "1850-09-07", "b": "Robinson-Superior Antlaşması imzalandı", "tur": "antlasma"}
+  ]
+ },
+ {
+  "id": "metis",
+  "ad": "Métis Ulusu",
+  "tur": "devlet",
+  "f": "1816-06-19",
+  "t": "1885-05-12",
+  "baskent": "Batoche",
+  "bolge": "kuzey-amerika",
+  "ozet": "Kızıl Irmak ve Saskatchewan havzasında, Fransız-Kanadalı ve Kri-Ojibwe soyundan doğan, bizon avı ve kürk taşımacılığıyla örgütlenmiş halk. 1869-70'te Riel önderliğinde geçici hükûmet kurdu; 1885 Kuzeybatı Ayaklanması Batoche'ta bastırıldı.",
+  "not": "🟢 t: 1885-05-12 — Batoche'un düştüğü gün; M-2498'in verdiği tarih. 🟢 f: 1816-06-19 — Seven Oaks çatışması, Métis'in ayrı bir siyasî özne olarak ilk toplu eylemi. ⚠️ f: için alternatif 1869-11-16 (Kızıl Irmak geçici hükûmeti) idi; onu değil 1816'yı seçtim, çünkü şartnamenin `kur:` kuralı EN ERKEN KALICI olayı ister ve geç tarih hücreyi boşlukta bırakıp komşusuna emdirir (`§2`).",
+  "kaynak": "bulunamadı",
+  "dayanak": "Historical Atlas of Canada (U. Toronto Press) · Dictionary of Canadian Biography — çevrimiçi doğrulanmadı",
+  "kronoloji": [
+   {"t": "1816-06-19", "b": "Seven Oaks çatışması; Métis ayrı bir siyasî özne olarak belirdi", "tur": "savas"},
+   {"t": "1869-11-16", "b": "Kızıl Irmak'ta Riel önderliğinde geçici hükûmet kuruldu", "tur": "kurulus"},
+   {"t": "1870-07-15", "b": "Manitoba Kanada'ya eyalet olarak katıldı", "tur": "toprak-kayip"},
+   {"t": "1885-05-12", "b": "Batoche düştü; Kuzeybatı Ayaklanması sona erdi", "tur": "son"}
+  ]
+ },
+ {
+  "id": "lakota",
+  "ad": "Lakota (Teton Sioux)",
+  "tur": "devlet",
+  "f": "1281-01-01",
+  "t": "1890-12-29",
+  "baskent": "Kara Tepeler (Ĥe Sápa)",
+  "bolge": "kuzey-amerika",
+  "ozet": "Kuzey Ovalar'da at ve bizon ekonomisine dayanan, Oceti Sakowin'in batı kolu. 1868 Fort Laramie Antlaşması'yla Büyük Sioux Rezervasyonu tanındı; Kara Tepeler'de altın bulunmasıyla açılan savaş Little Bighorn'da zafer, Wounded Knee'de son buldu.",
+  "not": "🟢 t: 1890-12-29 — Wounded Knee; M-2498'in verdiği tarih ve M-2498'in ekseninin en saf örneği: künyenin sonu Lakota'nın değil, ABD ordusunun takvimidir. 🟡 f: 1281-01-01 ATLAS UFKU — Lakota'nın Ovalar'a batıya göçü 18. yüzyıldadır, ama halk daha önce de vardı; erken uç `§2` gereği tercih edildi.",
+  "kaynak": "bulunamadı",
+  "dayanak": "Handbook of North American Indians c.13 Plains (Smithsonian Institution) — çevrimiçi doğrulanmadı",
+  "kronoloji": [
+   {"t": "1281-01-01", "b": "Sioux toplulukları Yukarı Mississippi havzasında (atlas ufku)", "tur": "kurulus"},
+   {"t": "1868-11-06", "b": "Fort Laramie Antlaşması; Büyük Sioux Rezervasyonu tanındı", "tur": "antlasma"},
+   {"t": "1876-06-25", "b": "Little Bighorn muharebesi", "tur": "savas"},
+   {"t": "1890-12-29", "b": "Wounded Knee", "tur": "son"}
+  ]
+ },
+ {
+  "id": "navaho",
+  "ad": "Navaho (Diné)",
+  "tur": "devlet",
+  "f": "1281-01-01",
+  "t": "1868-06-01",
+  "baskent": "Tsegi (Canyon de Chelly)",
+  "bolge": "kuzey-amerika",
+  "ozet": "Güneybatı'da Atabask dilli, koyunculuk ve dokumacılıkla tanınan halk. İspanyol, Meksika ve ABD dönemleri boyunca akınlarla direndi; 1864'te Uzun Yürüyüş'le Bosque Redondo'ya sürüldü, 1868 antlaşmasıyla yurduna dönmesine izin verildi.",
+  "not": "🟢 t: 1868-06-01 — Bosque Redondo Antlaşması; M-2498'in verdiği tarih. ⚠️ Bu antlaşma Navaho'nun yurduna DÖNÜŞÜNÜ sağladı, yani `t:` bir yok oluş değil, bağımsız siyasî varlığın ABD idaresi altına girişidir — `t:` alanının anlamı budur ve karıştırılmamalıdır. 🟡 f: 1281-01-01 ATLAS UFKU.",
+  "kaynak": "bulunamadı",
+  "dayanak": "Handbook of North American Indians c.10 Southwest (Smithsonian Institution) — çevrimiçi doğrulanmadı",
+  "kronoloji": [
+   {"t": "1281-01-01", "b": "Atabask dilli Diné toplulukları Güneybatı'da (atlas ufku)", "tur": "kurulus"},
+   {"t": "1864-01-01", "b": "Uzun Yürüyüş; Bosque Redondo'ya sürgün", "tur": "toprak-kayip"},
+   {"t": "1868-06-01", "b": "Bosque Redondo Antlaşması imzalandı", "tur": "antlasma"}
+  ]
+ },
+ {
+  "id": "nez-perce",
+  "ad": "Nez Perce (Nimíipuu)",
+  "tur": "devlet",
+  "f": "1281-01-01",
+  "t": "1877-10-05",
+  "baskent": "Lapwai",
+  "bolge": "kuzey-amerika",
+  "ozet": "Snake ve Clearwater havzalarında yaşayan Yayla halkı; at yetiştiriciliğiyle tanındı. 1855 antlaşmasıyla tanınan toprakları 1863'te daraltılınca direniş doğdu; 1877'de 1.800 km'lik geri çekilme Bear Paw'da sona erdi.",
+  "not": "🟢 t: 1877-10-05 — Bear Paw Dağları'nda Şef Joseph'in teslim olduğu gün; M-2498 '1877' diyor, gün bu. 🟡 f: 1281-01-01 ATLAS UFKU.",
+  "kaynak": "bulunamadı",
+  "dayanak": "Handbook of North American Indians c.12 Plateau (Smithsonian Institution) — çevrimiçi doğrulanmadı",
+  "kronoloji": [
+   {"t": "1281-01-01", "b": "Nimíipuu toplulukları Clearwater ve Snake havzalarında (atlas ufku)", "tur": "kurulus"},
+   {"t": "1855-06-11", "b": "Walla Walla Antlaşması", "tur": "antlasma"},
+   {"t": "1877-10-05", "b": "Bear Paw'da teslim; Nez Perce Savaşı sona erdi", "tur": "son"}
+  ]
+ },
+ {
+  "id": "hayda",
+  "ad": "Hayda",
+  "tur": "devlet",
+  "f": "1281-01-01",
+  "t": "1858-08-02",
+  "baskent": "Skidegate",
+  "bolge": "kuzey-amerika",
+  "ozet": "Haida Gwaii takımadalarında yaşayan, sedir kanolarıyla uzun mesafe deniz ticareti ve akını yürüten Kuzeybatı Kıyısı halkı. Anıtsal totem direkleri ve potlaç düzeniyle tanınır.",
+  "not": "🟢 t: 1858-08-02 — Britanya Kolumbiyası Kolonisi'nin kurulduğu gün; Haida Gwaii resmen koloni sınırları içine alındı. ⚠️ Fiilî tâbiiyet bu günde gerçekleşmedi; 1862 çiçek salgını nüfusu yıktı ve asıl kırılma odur. İdarî günü seçtim çünkü atlas TASARRUFU boyar, demografiyi değil. Seçim gizlenmiyor. 🟡 f: 1281-01-01 ATLAS UFKU.",
+  "kaynak": "bulunamadı",
+  "dayanak": "Handbook of North American Indians c.7 Northwest Coast (Smithsonian Institution) — çevrimiçi doğrulanmadı",
+  "kronoloji": [
+   {"t": "1281-01-01", "b": "Hayda toplulukları Haida Gwaii'de (atlas ufku)", "tur": "kurulus"},
+   {"t": "1858-08-02", "b": "Britanya Kolumbiyası Kolonisi kuruldu", "tur": "isgal"}
+  ]
+ },
+ {
+  "id": "tlingit",
+  "ad": "Tlingit",
+  "tur": "devlet",
+  "f": "1281-01-01",
+  "t": "1867-10-18",
+  "baskent": "Klukwan",
+  "bolge": "kuzey-amerika",
+  "ozet": "Güneydoğu Alaska kıyısında klan düzeniyle örgütlenmiş Kuzeybatı Kıyısı halkı. Rus-Amerika Şirketi'ne karşı silâhlı direniş gösterdi; 1802'de Novoarkhangelsk'i yıktı, 1804'te Sitka'da yenildi ama iç bölgeleri hiç teslim etmedi.",
+  "not": "🟢 t: 1867-10-18 — Alaska'nın ABD'ye devredildiği gün. ⚠️ Bu bir FETİH günü DEĞİL: Rusya, hiçbir zaman fiilen denetlemediği Tlingit topraklarını da kapsayan bir devir yaptı ve Tlingit bunu tanımadı. Atlas idarî tasarrufu boyadığı için gün budur, ama tarihsel çekince kayıtlıdır. 🟡 f: 1281-01-01 ATLAS UFKU.",
+  "kaynak": "bulunamadı",
+  "dayanak": "Handbook of North American Indians c.7 Northwest Coast (Smithsonian Institution) · Black, Russians in Alaska (U. Alaska Press) — çevrimiçi doğrulanmadı",
+  "kronoloji": [
+   {"t": "1281-01-01", "b": "Tlingit klanları Güneydoğu Alaska kıyısında (atlas ufku)", "tur": "kurulus"},
+   {"t": "1802-06-01", "b": "Tlingit kuvvetleri Novoarkhangelsk'i (Sitka) yıktı", "tur": "savas"},
+   {"t": "1804-10-01", "b": "Sitka muharebesi; Ruslar mevkii geri aldı", "tur": "savas"},
+   {"t": "1867-10-18", "b": "Alaska ABD'ye devredildi", "tur": "toprak-kayip"}
+  ]
+ },
+ {
+  "id": "vendat",
+  "ad": "Vendat (Huron) Konfederasyonu",
+  "tur": "devlet",
+  "f": "1281-01-01",
+  "t": "1649-03-16",
+  "baskent": "Ossossané",
+  "bolge": "kuzey-amerika",
+  "ozet": "Georgian Körfezi güneyinde beş uluslu, mısır tarımına ve kürk aracılığına dayanan İrokuadilli konfederasyon. Fransızların ana müttefikiydi; 1649'da Haudenosaunee saldırılarıyla dağıldı, kalanlar Quebec'e ve batıya sığındı.",
+  "not": "🟢 t: 1649-03-16 — Saint-Ignace ve Saint-Louis köylerinin düştüğü gün; Huronia'nın dağılışının kesin tarihi. Konfederasyon o yıl içinde tamamen çözüldü. 🟡 f: 1281-01-01 ATLAS UFKU.",
+  "kaynak": "bulunamadı",
+  "dayanak": "Trigger, The Children of Aataentsic (McGill-Queen's UP) · HNAI c.15 Northeast — çevrimiçi doğrulanmadı",
+  "kronoloji": [
+   {"t": "1281-01-01", "b": "Vendat toplulukları Georgian Körfezi güneyinde (atlas ufku)", "tur": "kurulus"},
+   {"t": "1615-08-01", "b": "Champlain Huronia'ya ulaştı; Fransız ittifakı kuruldu", "tur": "ittifak"},
+   {"t": "1649-03-16", "b": "Saint-Ignace ve Saint-Louis düştü; Huronia dağıldı", "tur": "son"}
+  ]
+ },
+ {
+  "id": "beothuk",
+  "ad": "Beothuk",
+  "tur": "devlet",
+  "f": "1281-01-01",
+  "t": "1829-06-06",
+  "baskent": "Kızıl Kızılderili Gölü",
+  "bolge": "kuzey-amerika",
+  "ozet": "Newfoundland'ın yerli halkı; kıyıda yazlık, iç göllerde kışlık yerleşim düzeniyle yaşadı. Avrupalı balıkçılığın kıyıyı kapatmasıyla iç bölgeye sıkıştı ve 19. yüzyıl başında varlığı sona erdi.",
+  "not": "🟢 t: 1829-06-06 — bilinen son Beothuk olan Shanawdithit'in öldüğü gün. ⚠️ `t:` burada ötekilerden FARKLI bir şey söylüyor: bir idarî devir değil, halkın kendisinin sona erişi. Bu ayrım künyenin okunmasında önemlidir ve gizlenmemelidir. 🟡 f: 1281-01-01 ATLAS UFKU.",
+  "kaynak": "bulunamadı",
+  "dayanak": "Handbook of North American Indians c.15 Northeast (Smithsonian Institution) — çevrimiçi doğrulanmadı",
+  "kronoloji": [
+   {"t": "1281-01-01", "b": "Beothuk toplulukları Newfoundland'da (atlas ufku)", "tur": "kurulus"},
+   {"t": "1829-06-06", "b": "Shanawdithit öldü", "tur": "son"}
+  ]
+ },
+ {
+  "id": "savni",
+  "ad": "Şavni (Shawnee)",
+  "tur": "devlet",
+  "f": "1281-01-01",
+  "t": "1795-08-03",
+  "baskent": "Chillicothe",
+  "bolge": "kuzey-amerika",
+  "ozet": "Ohio havzasında yaşayan Algonkin dilli halk. Kuzeybatı Kızılderili Savaşı'nda birleşik yerli direnişin çekirdeğini oluşturdu; Fallen Timbers yenilgisinden sonra Greenville Antlaşması'yla Ohio'nun büyük kısmını bıraktı.",
+  "not": "🟢 t: 1795-08-03 — Greenville Antlaşması. ⚠️ Şavni direnişi bitmedi: Tecumseh 1811-13'te yeniden birleştirdi. Ama toprak tasarrufu 1795'te devredildi ve atlas TASARRUFU boyar. Seçim gizlenmiyor. 🟡 f: 1281-01-01 ATLAS UFKU.",
+  "kaynak": "bulunamadı",
+  "dayanak": "Handbook of North American Indians c.15 Northeast (Smithsonian Institution) — çevrimiçi doğrulanmadı",
+  "kronoloji": [
+   {"t": "1281-01-01", "b": "Şavni toplulukları Ohio havzasında (atlas ufku)", "tur": "kurulus"},
+   {"t": "1794-08-20", "b": "Fallen Timbers muharebesi", "tur": "savas"},
+   {"t": "1795-08-03", "b": "Greenville Antlaşması imzalandı", "tur": "antlasma"}
+  ]
+ },
+ {
+  "id": "miami",
+  "ad": "Miami (Myaamia)",
+  "tur": "devlet",
+  "f": "1281-01-01",
+  "t": "1795-08-03",
+  "baskent": "Kekionga",
+  "bolge": "kuzey-amerika",
+  "ozet": "Wabash ve Maumee havzalarında yaşayan Algonkin dilli halk; Kekionga başkentiydi. Küçük Kaplumbağa önderliğinde ABD ordularına iki büyük yenilgi tattırdı, Greenville Antlaşması'yla toprak bıraktı.",
+  "not": "🟢 t: 1795-08-03 — Greenville Antlaşması, Şavni ile aynı gün ve aynı belge. 🟡 f: 1281-01-01 ATLAS UFKU.",
+  "kaynak": "bulunamadı",
+  "dayanak": "Handbook of North American Indians c.15 Northeast (Smithsonian Institution) — çevrimiçi doğrulanmadı",
+  "kronoloji": [
+   {"t": "1281-01-01", "b": "Miami toplulukları Wabash havzasında (atlas ufku)", "tur": "kurulus"},
+   {"t": "1791-11-04", "b": "St. Clair yenilgisi; ABD ordusuna en ağır kayıp", "tur": "savas"},
+   {"t": "1795-08-03", "b": "Greenville Antlaşması imzalandı", "tur": "antlasma"}
+  ]
+ },
+ {
+  "id": "sauk",
+  "ad": "Sauk (Asakiwaki)",
+  "tur": "devlet",
+  "f": "1281-01-01",
+  "t": "1832-09-21",
+  "baskent": "Saukenuk",
+  "bolge": "kuzey-amerika",
+  "ozet": "Yukarı Mississippi'de Meskwaki ile birlikte yaşayan Algonkin dilli halk; Saukenuk büyük tarım kasabasıydı. 1832'de Kara Şahin önderliğinde Illinois'e dönüş girişimi savaşla sonuçlandı.",
+  "not": "🟢 t: 1832-09-21 — Kara Şahin Savaşı'nı kapatan antlaşma. 🟡 f: 1281-01-01 ATLAS UFKU.",
+  "kaynak": "bulunamadı",
+  "dayanak": "Handbook of North American Indians c.15 Northeast (Smithsonian Institution) — çevrimiçi doğrulanmadı",
+  "kronoloji": [
+   {"t": "1281-01-01", "b": "Sauk toplulukları Yukarı Mississippi'de (atlas ufku)", "tur": "kurulus"},
+   {"t": "1832-08-02", "b": "Bad Axe muharebesi", "tur": "savas"},
+   {"t": "1832-09-21", "b": "Kara Şahin Savaşı'nı kapatan antlaşma imzalandı", "tur": "antlasma"}
+  ]
+ }
+]

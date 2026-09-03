@@ -1,0 +1,70 @@
+{
+ "_NOT": "M-2425 TERİTORYAL SINAVINI GEÇEMEYENLER. Kural: «Kaynak o halkın belirli bir toprağı DENETLEDİĞİNİ söylüyorsa künye; 'şu bölgede yaşarlardı' diyorsa bos:\"kabile\"». Bunlara künye YAZILMADI — ve bu bir eksik değil, sınavın SONUCU. Her biri için noktanın ne olacağı da yazıldı.",
+ "_UYARI": "🔴 bos: alanı YALNIZ beş kovadan birini alır (insansiz · kabile · devletsiz · veri-yok · hata) ve NOKTASI OLMAYAN hücreler içindir. Aşağıdakilerin bir kısmı GERÇEK YERLEŞİM — onlar bos: almaz, ARDIL SÖMÜRGE KİMLİĞİNE bağlanır. İkisini karıştırmamak için her kalemde ayrı yazdım.",
+
+ "kunye_yazilmayanlar": [
+  {
+   "id": "wintu",
+   "nokta": "Wintu (Yukarı Sacramento)",
+   "sinav": "🔴 GEÇEMEDİ — datable bitiş YOK",
+   "sebep": "Kaliforniya'nın 18 antlaşmasının hiçbiri ABD Senatosu'nca ONAYLANMADI. Onaysız bir antlaşma bir devir günü üretmez. Wintu nüfusu 1850'lerde altına hücumla çöktü ama tek bir tarih yok — ne fetih, ne antlaşma, ne rezervasyon kuruluşu.",
+   "karar": "NOKTA KALIR, künye yok. Zinciri doğrudan abd'ye bağlanır (f:1850-01-01 — Kaliforniya'nın eyalet oluşu 1850-09-09, ama Wintu toprağı için tek gün yok).",
+   "not": "🔴 Bu, ÖLÇÜLEMEDİ değil ÖLÇÜLDÜ VE YOK: aradım, onaysız antlaşma dışında bir devir belgesi bulunamadı. §7.1④: bulamadığını bulunamadı diye YAZ."
+  },
+  {
+   "id": "tocobaga",
+   "nokta": "Tocobaga (Safety Harbor)",
+   "sinav": "🔴 GEÇEMEDİ — datable bitiş YOK",
+   "sebep": "Tocobaga bir reislikti ve teritoryal şartı KARŞILIYOR olabilir; ama 18. yüzyıl başında sönümlendi ve hiçbir kaynak bir yıl vermiyor. Künye t: alanı boş bırakılamaz.",
+   "karar": "NOKTA KALIR. Zinciri ispanya'ya bağlanır (Florida iddiası). Alternatif: kalusa künyesinin kapsamına almak — AMA Tocobaga Kalusa'nın rakibiydi, tâbisi değil ⇒ o birleştirme YANLIŞ olurdu.",
+   "not": "Teritoryal sınavı geçebilirdi, TARİH sınavını geçemedi. İki sınav ayrıdır ve ikisi de gerekir."
+  },
+  {
+   "id": "yavapai",
+   "nokta": "Prescott / Yavapai",
+   "sinav": "🟡 SINIRDA — teritoryal şart zayıf",
+   "sebep": "Yavapai küçük, hareketli bantlar hâlinde yaşadı; kaynak tanımlı bir toprak DENETİMİNDEN çok bir yayılma alanından söz ediyor. 1873 Rio Verde rezervasyonu bir tarih verir ama teritoryal şart karşılanmıyorsa tarih tek başına künye üretmez.",
+   "karar": "🔴 KARAR KOORDİNATÖRDE. Ben künye YAZMADIM çünkü M-2425'in ilk şartından emin değilim ve emin olmadığımı yazmayı, emin gibi yazmaya tercih ediyorum. Nokta kalırsa zinciri yeni-ispanya → meksika → abd olur."
+  },
+  {
+   "id": "meskalero-apaci",
+   "nokta": "Meskalero Apaçi (Pecos vadisi)",
+   "sinav": "🟡 SINIRDA — ama EMSAL VAR",
+   "sebep": "Apaçi bantları hareketliydi; ama atlas apaci-ovalar künyesiyle Apaçilere ZATEN künye vermiş ⇒ emsal 'evet' diyor. Sorun kapsam: apaci-ovalar t:1750-01-01 taşıyor ve kapsamının nerede bittiği künyede YAZILI DEĞİL.",
+   "karar": "🔴 KARAR KOORDİNATÖRDE — ve önce apaci-ovalar künyesinin ozet/not alanları okunmalı. İkisi çakışırsa bir halk iki künyeyle boyanır. Aday t: 1873-01-01 (Meskalero rezervasyonu, yıl sağlam gün yok).",
+   "not": "🔴 apaci-ovalar'ın kapsamını ÖLÇMEDİM — yalnız f/t/tur/bolge alanlarına baktım. Bu yüzden karar veremiyorum, tahmin de etmiyorum."
+  },
+  {
+   "id": "ocmulgee",
+   "nokta": "Ocmulgee",
+   "sinav": "🔴 KÜNYE GEREKMİYOR — ardılı ZATEN VAR",
+   "sebep": "Koordinatörün uyarısı doğru çıktı: 'Muskoki'ye devrolması bir bitiş GÜNÜ değil.' Ölçtüm — Ocmulgee Old Fields 17. yüzyıl sonunda Hitchiti/Muskoki iskânına ve 1690'larda İngiliz ticaret karakoluna dönüştü, kesintisiz. Bir SON değil bir SÜREKLİLİK var.",
+   "karar": "🟢 AYRI KÜNYE YAZILMADI. Nokta creek-konfederasyonu künyesine bağlanır — o künye atlasta ZATEN var (f:1281-01-01 t:1832-03-24) ve tam bu halkı gösteriyor. Sonra abd.",
+   "not": "📌 Dört Mississippi merkezinden ÜÇÜNE künye yazıldı (etowah · moundville · spiro), dördüncüsüne YAZILMADI — çünkü tek fark: ötekiler SÖNDÜ, bu DEVROLDU. Dördünü tek künyede toplamak da, dördüne birden künye yazmak da yanlış olurdu."
+  },
+  {
+   "id": "innu — Mushuau-nipi",
+   "nokta": "Mushuau-nipi (Indian House Lake)",
+   "sinav": "🔴 GEÇEMEDİ — hem teritoryal hem tarih",
+   "sebep": "Mushuau-nipi kalıcı bir yerleşim DEĞİL, Naskapi'nin ren geyiği geçidinde toplandığı MEVSİMLİK bir buluşma yeri. Ve Innu/Naskapi Quebec-Labrador'da hiçbir antlaşma imzalamadı ⇒ devir günü yok.",
+   "karar": "🔴 NOKTA OLMAKTAN ÇIKARILMASI ÖNERİLİR: bu hücre bir yerleşim değil, bir avlak. Doğru biçim kasitli_bosluk + bos:\"kabile\". ⚠️ AMA bu, kutumun 149 kalan hücresinden birini kapatmaktan VAZGEÇMEK demektir — kapanma sayım 1 azalır ve bu DOĞRUDUR.",
+   "not": "📌 Kendi kapanma sayımı düşüren bir öneriyi yazmak, onu gizlemekten ucuzdur: gizlenirse yarın bir denetim 'yerleşim değil' diye bulur ve o zaman sayı da güvenilirliğini kaybeder."
+  },
+  {
+   "id": "innu — Natashquan",
+   "nokta": "Natashquan",
+   "sinav": "🟢 NOKTA GEÇERLİ, künye gerekmiyor",
+   "sebep": "Natashquan gerçek bir yerleşimdir (Innu yaz kampı, sonra 19. yy HBC karakolu). Ama innu künyesi için datable bitiş yok.",
+   "karar": "NOKTA KALIR. Zinciri fransa → ingiliz-kuzey-amerika (1763-02-10) → kanada (1867-07-01) olur — Quebec kuzey kıyısının sömürge zinciri.",
+   "not": "İki Innu noktası AYNI kimliği paylaşmıyor: biri yerleşim (sömürge zinciri), öteki avlak (kabile beyanı). Aynı halk, iki ayrı veri biçimi."
+  },
+  {
+   "id": "payut",
+   "nokta": "Bishop (Owens Vadisi Payutları) · Kuzey Payut (Kara Kaya Çölü)",
+   "sinav": "🟡 İKİ NOKTA, İKİ FARKLI CEVAP",
+   "sebep": "Bishop: Owens Vadisi Payutları SULAMA KANALLARI kazıyor ve köy bölgeleri tanımlıydı (Steward, BAE Bulletin 120) ⇒ teritoryal şart KARŞILANIYOR, Büyük Havza'da istisnaî bir vaka. Kara Kaya Çölü: Kuzey Payut hareketli bantlar ⇒ karşılanmıyor.",
+   "karar": "🔴 KARAR KOORDİNATÖRDE — ve soru ŞU: tek bir payut künyesi iki farklı düzeni birden temsil edebilir mi? Aday t: 1863-01-01 (Owens Vadisi savaşı ve Fort Tejon'a sürgün; yıl sağlam, gün doğrulanmadı). Alternatif: Bishop künye alır, Kara Kaya bos:\"kabile\" olur.",
+   "not": "📌 Bu, M-2425'in en ince vakası: AYNI HALKIN iki kolu sınavın iki yanına düşüyor. Halk taneciği kuralı burada bir bedel istiyor ve bedeli görünür kılmak için ikisini de yazdım."
+  }
+ ]
+}
