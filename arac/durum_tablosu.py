@@ -123,6 +123,41 @@ def renk_kovalari(boyalar, diz, kul):
         (ihlal if kul.get(kid) else olu).append(kid)
     return ihlal, olu
 
+def renksiz_kovalari(boyalar, kunye_ids, harita_map, kul):
+    """RENGİ OLMAYAN kimlikleri İKİ KOVAYA ayırır — `renk_kovalari()`in AYNASI.
+
+        boyalar     : `renkler.py` BOYALAR anahtarları
+        kunye_ids   : künye `id` kümesi
+        harita_map  : {künye id: `harita:` değeri}  — boya anahtarı budur
+        kul         : {kimlik: pencere} — veride kullanım sayacı
+
+    dönüş: (delik, sessiz)
+        delik   veride KULLANILIYOR · boya anahtarı BOYALAR'da YOK
+                → `§8`: BOYANMIYOR = HARİTA DELİĞİ. Toprak var, renk yok.
+        sessiz  künye var · veride kullanılmıyor · rengi yok
+                → bugün zarar YOK; o kimliği kullanan TEK BİR nokta
+                  yazıldığı an sessizce DELİĞE döner
+
+    🔴 NİÇİN VAR — 3 Eylül 2026. Tablonun iki renk satırı da AYNI YÖNDEN
+      bakıyordu (*rengi var, künyesi yok*). Ters yön hiç sorulmuyordu ve
+      o gün 1071 nokta inince **144 kimlik** (523 dönem) renksiz kaldı —
+      tablo yine ✓✓ diyordu. `§11`: *denetim var ≠ o soruyu soruyor.*
+    📌 Ve sayı SABİT DEĞİL: sabah 98'di. Renksiz bir künye veride gövde
+      kazandığı an *sessiz borç* olmaktan çıkıp *delik* olur — bu yüzden
+      iki kova AYRI sayılır, toplanmaz.
+    ⚠️ `__BOSLUK__` MUAF: o bir BEYAN (`§1.5`), renk alırsa kasten boş
+      bırakılan dilim BOYANIR.
+    🔴 SAF FONKSİYON — dosya okumaz; C13 sahte evrenle çağırabilsin diye.
+    """
+    delik, sessiz = [], []
+    for kid in sorted(set(kunye_ids) | set(kul)):
+        if kid == "__BOSLUK__":
+            continue
+        if (harita_map.get(kid) or kid) in boyalar:
+            continue
+        (delik if kul.get(kid) else sessiz).append(kid)
+    return delik, sessiz
+
 
 def _sina():
     """C13 — dört dal, ikisi ZORLANARAK. Gerçek veride temiz hâl YOK."""
@@ -151,6 +186,34 @@ def _sina():
     #      kuralın gerekliliğini iddia değil ÖLÇÜM söylesin diye.
     dal("4b TAKMA AD (diz'den cikarilinca SAHTE ALARM)", {"a", "hicaz"},
         {"a"}, {"hicaz": 5}, 1, 0)
+    print("C13 SINAMASI — renksiz_kovalari()")
+    def rdal(ad, boyalar, kids, hmap, kul, bek_d, bek_s):
+        d, s = renksiz_kovalari(boyalar, kids, hmap, kul)
+        ok = (len(d) == bek_d and len(s) == bek_s)
+        print("   %s %-34s delik %d/%d · sessiz %d/%d"
+              % ("🟢" if ok else "🔴", ad, len(d), bek_d, len(s), bek_s))
+        return ok
+    _t = []
+    # ① GEÇME — her kimliğin rengi var
+    _t.append(rdal("gecme: hepsi renkli", {"a", "b"}, {"a", "b"}, {},
+                   {"a": 3}, 0, 0))
+    # ② ATEŞLEME · delik — veride VAR, rengi YOK
+    _t.append(rdal("atesleme: delik", {"a"}, {"a", "b"}, {},
+                   {"a": 1, "b": 5}, 1, 0))
+    # ③ ATEŞLEME · sessiz — künye var, veride YOK, rengi YOK
+    _t.append(rdal("atesleme: sessiz borc", {"a"}, {"a", "b"}, {}, {"a": 1},
+                   0, 1))
+    # ④ `harita:` takma adı — boya anahtarı ID DEĞİL
+    _t.append(rdal("harita: takma adi renkli", {"fas"}, {"merini"},
+                   {"merini": "fas"}, {"merini": 9}, 0, 0))
+    # ⑤ __BOSLUK__ MUAF — beyan, renk almaz
+    _t.append(rdal("__BOSLUK__ muaf", set(), set(), {},
+                   {"__BOSLUK__": 2}, 0, 0))
+    # ⑥ künyesi olmayan ama veride kullanılan kimlik de DELİKTİR
+    _t.append(rdal("kunyesiz + veride var", set(), set(), {}, {"x": 4}, 1, 0))
+    print("   %s renksiz_kovalari: %d/%d dal"
+          % ("🟢" if all(_t) else "🔴", sum(_t), len(_t)))
+
     print("C13 SINAMASI — bosluk_kovalari()")
 
     def bdal(ad, kul, diz, bek_e, bek_k):
@@ -267,6 +330,13 @@ def olc():
     #   künye `id`leri yoktur ama bir künye onlara `harita:` ile işaret eder.
     #   Ölçüldü: süzgeç kapatılınca 6 sahte alarm doğuyor.
     o["renk_kunyesiz"], o["renk_olu"] = renk_kovalari(boyalar, diz, kul)
+    # 🆕 AYNA KOVASI — renksiz künye (3 Eylül 2026). `girdi.oku_devletler()`
+    #    kullanılıyor: `harita:` ile `id`yi EŞLEŞTİRMEK gerekiyor ve
+    #    `kimlik_evreni()`nin `diz` kümesi ikisini BİRLEŞTİRİYOR, yani
+    #    eşleşmeyi taşımıyor. Kendi regex'imi yazmıyorum (`§11`).
+    _kn = {k["id"]: (k.get("harita") or "") for k in girdi.oku_devletler()}
+    o["renksiz_delik"], o["renksiz_sessiz"] = renksiz_kovalari(
+        boyalar, set(_kn), _kn, kul)
     o["padisah"] = len(re.findall(r'\{\s*id:\s*"', _oku("data/padisahlar.js")))
     o["portre"] = len(glob.glob("assets/portreler/*.jpg"))
     o["kart"] = len(re.findall(r"\bovgu:", _oku("data/padisahlar.js") + _oku("data/kisiler.js")))
@@ -349,6 +419,16 @@ def tablo(o):
                 len(o["renk_kunyesiz"]),
                 (" · 🟡 %d ölü renk (kullanılmıyor)" % len(o["renk_olu"]))
                 if o["renk_olu"] else ""))
+    # 🆕 AYNA: üstteki satır "rengi VAR, künyesi YOK" der; bu "künyesi ve
+    # GÖVDESİ var, rengi YOK" der. İkisi ters yönlerdir ve tablo 3 Eylül
+    # 2026'ya kadar YALNIZ birincisini soruyordu.
+    s.append("| Renksiz künye — HARİTA DELİĞİ | %s **%d** kimlik veride "
+             "kullanılıyor ama BOYANMIYOR%s · *kapsam: künye `id` ∪ veride "
+             "kullanılan − BOYALAR(`harita:` varsa o) · `__BOSLUK__` muaf* |"
+             % ("🔴" if o["renksiz_delik"] else "✓",
+                len(o["renksiz_delik"]),
+                (" · 🟡 %d sessiz borç (künye var, veride yok)"
+                 % len(o["renksiz_sessiz"])) if o["renksiz_sessiz"] else ""))
     s.append("| Padişah · kartvizit | %d kayıt · %d portre · **%d** kartvizit dolu |"
              % (o["padisah"], o["portre"], o["kart"]))
     s.append("| Harita penceresi | `%s` |" % o["bolge"])

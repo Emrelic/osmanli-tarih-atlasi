@@ -72,22 +72,22 @@ gerekir. Projenin bütün kalite kuralları (§3) bu tek cümleden türer.
 
 | Katman | Ölçülen durum |
 |---|---|
-| Yerleşim (motorun okuduğu) | **2663** nokta, 69 girdi dosyası |
-| Kronoloji | **1289** madde · 1237 duygu etiketli · 1194 `yer_id` · 28 `vefat_id` |
-| Değişmez 1 — sahipsizlik | ✓ 2663 yerleşim, 219 sahipsiz (beklenen 219) |
-| Değişmez 1b — iç boşluk | ✗ BEYANSIZ pencere arası boşluk: 1 (beklenen 0) · beyanlı 3/3 — tam tarama |
-| Değişmez 2 — Osmanlı senkronu | ✓ 534 kırılma, 0 açık (beklenen 0) |
-| Değişmez 2s — yabancı senkron | ✓ 994 YABANCI kırılması · 75 AÇIK (tavan 121) · 173 KAPSAM DIŞI |
-| Değişmez 2i — işgal senkronu | ✗ 26 İŞGAL kırılması, 4 açık (tavan 3) |
-| Değişmez 2t — kırılmasız madde | ✓ kırılmasız madde: 18 (tavan 42) — bilinen borç |
+| Yerleşim (motorun okuduğu) | **3802** nokta, 77 girdi dosyası |
+| Kronoloji | **1293** madde · 1238 duygu etiketli · 1196 `yer_id` · 28 `vefat_id` |
+| Değişmez 1 — sahipsizlik | ✓ 3802 yerleşim, 315 sahipsiz (beklenen 315) |
+| Değişmez 1b — iç boşluk | ✓ BEYANSIZ pencere arası boşluk: 0 (beklenen 0) · beyanlı 5/5 — tam tarama |
+| Değişmez 2 — Osmanlı senkronu | ✓ 536 kırılma, 0 açık (beklenen 0) |
+| Değişmez 2s — yabancı senkron | ✓ 1326 YABANCI kırılması · 101 AÇIK (tavan 121) · 364 KAPSAM DIŞI |
+| Değişmez 2i — işgal senkronu | ✓ 26 İŞGAL kırılması, 3 açık (tavan 3) |
+| Değişmez 2t — kırılmasız madde | ✓ kırılmasız madde: 12 (tavan 42) — bilinen borç |
 | Konum denetimi | 0 nokta kara maskesinin dışında (beklenen 0) |
-| Devletler dizini | **438** künye · **403** renk (`renkler.py`) |
-| Dizinsiz harita kimliği | ✓ **0** kimlik / 0 pencere karşılıksız · *kapsam: `girdi.py`nin okuduğu 69 dosya, `s:`+`isg:` alanları — bağlanmamış partiler HARİÇ* |
+| Devletler dizini | **591** künye · **407** renk (`renkler.py`) |
+| Dizinsiz harita kimliği | ✓ **0** kimlik / 0 pencere karşılıksız · *kapsam: `girdi.py`nin okuduğu 77 dosya, `s:`+`isg:` alanları — bağlanmamış partiler HARİÇ* |
 | Kasıtlı boşluk kimliği | 🟡 **1** kimlik / 2 pencere · *`__BOSLUK__` — hiçbir künyenin kapsamadığı dilim; en yakın kimliğe İTİLMEDİ (`§3.5.1`). Kusur değil, BEYAN* |
 | Renkli-künyesiz kimlik | ✓ **0** çiziliyor ama dizinsiz · *kapsam: `renkler.py` BOYALAR − (künye `id` ∪ `harita:`)* |
 | Padişah · kartvizit | 41 kayıt · 36 portre · **41** kartvizit dolu |
 | Harita penceresi | `box(-180, -60, 180, 85)` |
-| Yayın | **r4776** · `5a6de08` |
+| Yayın | **r5546** · `724e76c` |
 
 > ⚙️ **BU TABLO ELLE YAZILMAZ — ÜRETİLİR.**
 > ```bash
