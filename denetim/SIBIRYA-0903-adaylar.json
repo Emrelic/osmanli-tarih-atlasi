@@ -1,5 +1,5 @@
 {
- "_NOT": "DUNYA-SIBIRYA-0903 · 3 Eylül 2026 · ARAŞTIRMA turu çıktısı. Bu bir KUYRUK dosyasıdır, VERİ DEĞİLDİR (M-2413 ②: `bos:` beş kova veri alanı, kuyruk sınıfları denetim/ altında yaşar). data/ altına indirmek koordinatörün işi. Ayrıntılı gerekçe ve kaynak künyeleri: denetim/BULGU-SIBIRYA-0903.md · İKİNCİ KAYNAK TURU işlendi (3 Eylül, öğleden sonra). · ÜÇÜNCÜ TUR: 3 km sınavı · hongoray taşıyıcısı · altı halkın sınıflandırması. · DÖRDÜNCÜ KAYNAK TURU. · BEŞİNCİ TUR: ölçüt zaman körü (M-2472) kutuda ölçüldü. · ALTINCI TUR: M-2478'in 1300 ayrımı. · YEDİNCİ TUR: Ural bloğu ölçüldü, TDV slug taraması, iki zonun gerekçesi. · SEKİZİNCİ TUR: Ural üç-devlet ölçümü · taşıyıcı sınavları. · DOKUZUNCU TUR: YERLİ GORODOK KOLU birinci parti.",
+ "_NOT": "DUNYA-SIBIRYA-0903 · 3 Eylül 2026 · ARAŞTIRMA turu çıktısı. Bu bir KUYRUK dosyasıdır, VERİ DEĞİLDİR (M-2413 ②: `bos:` beş kova veri alanı, kuyruk sınıfları denetim/ altında yaşar). data/ altına indirmek koordinatörün işi. Ayrıntılı gerekçe ve kaynak künyeleri: denetim/BULGU-SIBIRYA-0903.md · İKİNCİ KAYNAK TURU işlendi (3 Eylül, öğleden sonra). · ÜÇÜNCÜ TUR: 3 km sınavı · hongoray taşıyıcısı · altı halkın sınıflandırması. · DÖRDÜNCÜ KAYNAK TURU. · BEŞİNCİ TUR: ölçüt zaman körü (M-2472) kutuda ölçüldü. · ALTINCI TUR: M-2478'in 1300 ayrımı. · YEDİNCİ TUR: Ural bloğu ölçüldü, TDV slug taraması, iki zonun gerekçesi. · SEKİZİNCİ TUR: Ural üç-devlet ölçümü · taşıyıcı sınavları. · DOKUZUNCU TUR: YERLİ GORODOK KOLU birinci parti. · ONUNCU TUR: gorodok 2. parti + iki öz-çürütme.",
  "oturum": "DUNYA-SIBIRYA-0903",
  "kutu": {
   "latG": 50,
@@ -51,7 +51,9 @@
   "solodkin2019": "Солодкин Я.Г., «Как Пегая Орда превратилась в Нарымскую волость», Новогардия, 2019 (cyberleninka, gövde okundu)",
   "chindina2013": "Чиндина Л.А., «Пегая Орда — Большого Лося сильный народ», Вестник Томского гос. университета. История, 2013 (cyberleninka, gövde okundu)",
   "emder": "Эндырское I (Эмдер) gorodişçesi — 1992'den beri kazılıyor (S. Kokşarov · A. Zıkov, Yekaterinburg). ⚠️ Bölgesel/ansiklopedik kaynaklardan derlendi, HAKEMLİ makale gövdesi OKUNMADI",
-  "koda": "Kodskoye knyazhestvo — ansiklopedik/bölgesel kaynaklar (knowledge.su · BSE · AiF-Yugra). 🟡 HAKEMLİ DEĞİL. Perevalova E.V. 2000 (Obdorsk knezleri, yamalarchaeology.ru) DNS ile ERİŞİLEMEDİ."
+  "koda": "Kodskoye knyazhestvo — ansiklopedik/bölgesel kaynaklar (knowledge.su · BSE · AiF-Yugra). 🟡 HAKEMLİ DEĞİL. Perevalova E.V. 2000 (Obdorsk knezleri, yamalarchaeology.ru) DNS ile ERİŞİLEMEDİ.",
+  "lips-kardash2018": "Липс С.А., Кардаш О.В., «Архитектура оборонительно-жилых комплексов аборигенов Севера Западной Сибири VIII в. до н.э. — XVIII в. н.э.», Баландинские чтения, 2018 (cyberleninka, gövde okundu) — TARİHLİ gorodok listesi",
+  "kardash-vizgalov2015": "Кардаш О.В., Визгалов Г.П., «Городок Монкысь урий: К истории населения Большого Югана в XVI—XVII веках», Караван, Екатеринбург, 2015, 2 cilt"
  },
  "adaylar": [
   {
@@ -2149,6 +2151,74 @@
    "Barsova Gora / Bardakov gorodoku — aranmadı",
    "Koda'nın muhtariyetinin kaldırıldığı KESİN YIL",
    "Emder'in kesin koordinatı"
-  ]
+  ],
+  "⑪ IKINCI_PARTI_Lips_Kardash_2018": {
+   "_kaynak": "lips-kardash2018 — HAKEMLİ, gövde okundu, TARİHLİ liste",
+   "liste": {
+    "Voykarskiy gorodok": "XVII-XIX yy",
+    "Nadımskiy gorodok": "XIII-XVII yy",
+    "Gorodişçe Nahodka": "XIII-XIV yy",
+    "Poluyskiy gorodok": "XIII-XVII yy",
+    "Poluyskiy mısovoy gorodok": "XVI sonu - XVIII ilk üçte biri",
+    "Gorodişçe Zelenaya gorka": "XIII-XV yy"
+   },
+   "makalenin_kendi_sayisi": "«Количество городков … от III в. и до начала XVIII в., насчитывает более 300 объектов» — 300'den FAZLA gorodok",
+   "ek_bulgu": "«в позднем Средневековье количество укрепленных поселений существенно снижается» — geç ortaçağda müstahkem yerleşim sayısı BELİRGİN AZALIYOR"
+  },
+  "⑫ OZ_CURUTME_1_VOYKAR": {
+   "_ne": "🔴 KENDİ KAYDIMI ÇÜRÜTÜYORUM — ve bu, DEFALARCA tekrarladığım bir manşeti vuruyor",
+   "benim_kaydım": "Voykar gorodok · kur:1281-01-01 (ATLAS UFKU diye yazmıştım)",
+   "kaynak_ne_diyor": "Lips & Kardaş 2018: Voykarskiy gorodok **XVII-XIX yy**. Garkuşa 2019: yazılı kaynakta XVII. yy başında, 1594-95 olaylarına atıfla. ⇒ NE arkeoloji NE yazılı kaynak 1281'i desteklemiyor.",
+   "DUZELTME": "kur: 1281-01-01 → 1594-01-01 (en erken belgelenmiş atıf) · ⚠️ yıl da KESİN DEĞİL",
+   "🔴 VURULAN_MANSET": "M-2477'den beri şunu tekrarladım: «80 adayın YALNIZ İKİSİ 1300'de sahnede — Nadım gorodok ve Voykar gorodok, İKİSİ DE YERLİ.» ÖLÇÜM DOĞRUYDU (iki kaydın `kur:`ı ≤1300'dü) ama İKİNCİ KAYDIN `kur:`INI BEN YAZMIŞTIM ve dayanağı yoktu. ⇒ Doğrusu: 80 adayın YALNIZ BİRİ 1300'de sahnede — Nadım gorodok.",
+   "sinif": "«ölçüm doğru, GİRDİ yanlış» — ve girdiyi ölçen de yazan da bendim"
+  },
+  "⑬ IKINCI_PARTI_ADAYLARI": {
+   "_on_sinav": "dördü de ad · 3 km · kara maskesi sınavlarını GEÇTİ",
+   "adaylar": [
+    {
+     "ad": "Poluyskiy gorodok",
+     "lat": 66.4,
+     "lon": 66.9,
+     "tarih": "XIII-XVII yy",
+     "3km": "19,6 km (Obdorsk)",
+     "1300de_kapattigi": 0
+    },
+    {
+     "ad": "Poluyskiy mısovoy gorodok",
+     "lat": 66.3,
+     "lon": 67.2,
+     "tarih": "XVI sonu-XVIII",
+     "3km": "36,9 km (Obdorsk) · 17,4 km (öteki Poluy)",
+     "1300de_kapattigi": 0
+    },
+    {
+     "ad": "Gorodişçe Nahodka (Yamal)",
+     "lat": 67.7,
+     "lon": 72.8,
+     "tarih": "XIII-XIV yy",
+     "3km": "274,5 km (Yamal ucu)",
+     "1300de_kapattigi": 0
+    },
+    {
+     "ad": "Mönkys urij (Büyük Yugan)",
+     "lat": 60.0,
+     "lon": 72.5,
+     "tarih": "XVI-XVII yy",
+     "3km": "147,8 km (Surgut)",
+     "1300de_kapattigi": 0,
+     "kaynak": "kardash-vizgalov2015"
+    }
+   ],
+   "🔴 KOORDINATLAR": "DÖRDÜ DE BENİM TAHMİNİM — kaynaklar nehir/bölge veriyor, koordinat VERMİYOR. Yazılmadan önce kesinleştirilmeli."
+  },
+  "⑭ OZ_CURUTME_2_KOLUN_TAVANI": {
+   "_ne": "🔴 BU KOLUN KENDİ GEREKÇESİNİ DARALTIYORUM — ölçüm öyle diyor",
+   "iddiam": "M-2520: «erken kesiti düşürebilecek TEK aday sınıfı YERLİ müstahkem yerleşimlerdir; ostrog eklemek 1300'ü HİÇ değiştirmez.»",
+   "olcum": "İkinci partinin DÖRT adayı da ön sınavları geçti ve **1300'de SIFIR hücre** kapatıyor. Toplam etki: 332 → 332.",
+   "sebep": "Yerli gorodoklar da Ruslar gibi **Ob koridoruna** yığılmış — aşağı Ob, Salehard, Surgut. Orası atlasta ZATEN kapalı. 1300'ün açık hücreleri İÇ BÖLGEDE (Tunguska · Yana-Kolıma · Taymır) ve orada **hiç kimse müstahkem yerleşim kurmamış** — Lips & Kardaş'ın kendi cümlesi de bunu destekliyor: «geç ortaçağda müstahkem yerleşim sayısı belirgin azalıyor».",
+   "DARALTILMIS_HUKUM": "🟢 Yerli gorodok katmanı **KİMLİK borcunu** kapatır (künye + kimin neye sahip olduğu), **KAPSAMA borcunu KAPATMAZ.** İkisi ayrı borç ve bu kol yalnız birincisine hizmet ediyor.",
+   "SONUC": "⇒ 1300'ün kapsama borcu NOKTAYLA değil BEYANLA kapanır — ve bu, Emre'nin hükmüne geri dönüyor: «devasa boşluklar olacaksa olsun». Kol kapatılmalı demiyorum; **ne verdiğini ve ne VERMEDİĞİNİ** yazıyorum."
+  }
  }
 }
