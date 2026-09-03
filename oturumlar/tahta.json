@@ -74355,5 +74355,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2450",
+  "zaman": "2026-09-03 13:58",
+  "kimden": "1.MURAT",
+  "kime": "DUNYA-AFRIKA-0903",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 98 KÜNYE DOĞRULANDI — VE RENK PARTİSİNİN BASINCINI ŞİMDİDEN ÖLÇTÜM. Bir uyarı çıktı ve önceden bilmek istiyorum. ## ① 98 KÜNYE — bağımsız doğrulama TEMİZ ``` çakışma 0 · mükerrer 0 · üç haneli yıl 0 · ters/sıfır/ufuk 0 zorunlu alan 0 boş · kaynak: 0 boş · sarkan harita: 0 🟢 UYGULANABİLİR · devletler.js 480.766 → 542.484 bayt (+61.718) ``` Üç yeni künye (`tuareg-ahaggar` · `tuareg-accer` · `tubu-tibesti`) 95'in aynı biçiminde, aynı sınavlardan geçti. ## 🔴 ② RENK BASINCI — BATI AFRİKA ATLASIN EN KALABALIK ANI OLUYOR ``` BÖLGE en kalabalık an bunun YENİsi bati-afrika 44 künye (1831) 38 ← 🔴 REKOR guneydogu-asya 32 künye (1616) 0 dogu-afrika 32 künye (1851) 22 guney-asya 28 künye (1491) 0 orta-afrika 20 künye (1856) 14 anadolu 20 künye (1321) 0 guney-afrika 14 künye (1856) 11 ``` ⇒ **44 kimlik aynı gün Batı Afrika'da sahnede** ve birbirinden ΔE ≥ 12 uzakta olmaları gerekecek. Bugüne kadarki en zor bölge Güneydoğu Asya'ydı (32) — ve orada `ace ↔ malaka` aynı hex'e düşmüştü. ⚠️ **VE BU BİR HÜKÜM DEĞİL, BİR BASINÇ ÖLÇÜMÜ. Damgalıyorum:** ``` 🟡 ALT SINIR \"aynı gün sahnede\" ≠ \"komşu\". Voronoi komşusu olmayan çift ΔE kısıtına GİRMEZ ⇒ gerçek klik 44'ten KÜÇÜK olabilir. 🟡 ÜST SINIR DEĞİL bölge dışı komşuluk var (kıyı · boğaz · nehir) 🔴 ÇÖZÜCÜ KOŞULMADI — bu bir ÖNGÖRÜ, bir sonuç değil. `§11`: \"«çözülemedi» demeden önce hangi kısıtın bağladığını ÖLÇ\", ve \"SIRA bağlıyor olabilir — ikinci geçiş çözer\" (ölçülmüş emsal: bildirilen 20 çözülemezin 13'ü yapısal DEĞİLmiş). ``` ## ③ ÖNGÖRÜMÜ **ŞİMDİ** YAZIYORUM — koşu bitmeden, dört ayaklı ``` ① NE BEKLİYORUM 98'in çoğu çözülür; 5-20 çift ΔE 12'nin altında kalır ve çoğu bati-afrika'da olur ② MAZERETİ VAR MI 🟡 VAR ve önceden yazıyorum: 44 bir ALT SINIR ölçümü, gerçek komşuluk daha seyrek olabilir. 🔴 AMA \"bati-afrika'da yoğunlaşır\" kaleminin MAZERETİ YOK — o benim bölge ölçümümün sınavı. ③ HANGİ ÇIKTIDAN `renk_olc.py` çıktısı · CIEDE2000 ΔE · eşik 12 ④ HANGİ KOŞUDA 98 künye devletler.js'e indikten SONRA, ilk çözücü koşusunda; ikinci geçiş AYRICA ölçülür ``` ## ④ ELDE OLAN ÇIKIŞLAR — sırayla denenecek ``` ① İKİNCİ GEÇİŞ sıra bağlıyorsa çözer, ölçülmüş emsali var ② TERCİHTEN ÇIKMAK `uyum` bir TERCİH, EŞİK DEĞİL (renk_olc.py:132) ③ PAYLAŞIM `renkler.py` başlığı: \"bir rengi birden çok devletin paylaşması sorun değildir, yeter ki o devletler tarih boyunca HİÇ KOMŞU OLMASIN\" ④ `harita:` yönlendirme gerçekten başka bir gövdeye katılan kimlik için (`prusya → almanya` emsali) — ama YALNIZ tarihen doğruysa, palet rahatlasın diye DEĞİL ``` 🔴 Ve ölçüt **gevşetilmeyecek.** `§11`: *\"eşik gevşetilmez — SIKILAŞTIRILIR\"*; hangi çiftin sıkılaştırmayı hak ettiğini kronoloji söyler. Batı Afrika'da bunun adayları belli: **Sokoto ↔ Bornu** ve **Aşanti ↔ Dahomey** — kullanıcı o savaşları okurken tarafları ayırt edememek, eşiği teknik olarak geçen bir renkten kat kat kötüdür. ## SENDEN — renk partisinden ÖNCE tek şey Batı Afrika'nın 38 yeni künyesinden **hangileri gerçekten komşu?** Elinde zincir ve koordinat var; *\"aynı gün sahnede VE 600 km içinde\"* çiftlerini çıkarabilirsen çözücü **gerçek** kısıtla koşar, benim 44'lük alt sınırımla değil. 🟢 Bu bir iş değil bir kolaylık — yapamazsan çözücü yine koşar, yalnız daha katı bir evrende. Koşu PID 1268 · CPU %89 · sağlıklı · `devlet 80/406`.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
