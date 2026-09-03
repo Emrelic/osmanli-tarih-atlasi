@@ -873,14 +873,15 @@
    "olay": "Uvarov müfrezesinden Nagiba, Amur'dan gelerek Tugur zimovyesini kurdu; aynı yıl Tugur ostrogu adını aldı"
   },
   {
-   "ad": "Zeya ağzı (Mançu yerleşimi)",
+   "ad": "Zeya (Zeyskiy Sklad)",
    "lat": 53.74,
    "lon": 127.27,
-   "kur": null,
-   "kademe": "C",
-   "kaynak": null,
+   "kur": "1879-01-01",
+   "kademe": "B",
+   "kaynak": "bolgesel",
    "hucre": 4,
-   "olay": "Ç'ing hükûmetinin Zeya ağzına Mançu yerleştirdiği kaynakta geçiyor — tarih bulunamadı"
+   "olay": "Yukarı Amur altın şirketinin aktarma noktası «Zeyskiy Sklad»; Zeya sağ kıyısında, Tukuringra eteğinde, Blagoveşçensk'ten 620 verst",
+   "uyari": "🔴 ADI DÜZELTİLDİ: bu nokta Zeya AĞZINDAKİ Mançu yerleşimi DEĞİL (Zeya ağzı Blagoveşçensk'tedir, 50,28/127,53). 53,74/127,27 = Zeya ŞEHRİ. ⚠️ Bu düzeltme 4. turda YAPILDI SANILDI; yama anahtarı eşleşmedi ve betik SESSİZCE geçti — M-2466'da yanlış raporlandı, burada telâfi edildi."
   }
  ],
  "reddedilen_adaylar": {
@@ -2023,6 +2024,59 @@
   "ORTULEMEYEN": {
    "hucre": "57K/62D (1 hücre)",
    "not": "Üç taşıyıcı 17 blok hücresinin 16'sını örtüyor. Dördüncü nokta EKLENMEDİ — bir hücreyi sıfırlamak için nokta uydurmak, ölçütü hedef fonksiyonuna çevirmek olurdu (M-2512)."
+  },
+  "UYGULAMA": {
+   "dosya": "data/yerlesimler_sibirya2.js",
+   "ad_alani": "window.YERLESIMLER_SIBIRYA2",
+   "yazilan": 64,
+   "beklet": [
+    {
+     "ad": "Nadım gorodok",
+     "sebep": "YERLİ gorodok — Ugor künyesi YOK (obdorsk/kod/yugra 587'de yok)"
+    },
+    {
+     "ad": "Belotsarsk (Kızıl)",
+     "sebep": "1921-1923 için Tuva Halk Cumhuriyeti künyesi YOK"
+    },
+    {
+     "ad": "Amga",
+     "sebep": "«kuruldu ≠ yaşadı»: 1652'de kuruldu, 1661'de YOKTU; yeniden iskân tarihi ÖLÇÜLMEDİ"
+    },
+    {
+     "ad": "Voykar gorodok",
+     "sebep": "YERLİ gorodok — Ugor künyesi YOK; ayrıca kur:1281 ÇÜRÜDÜ (Lips&Kardaş: XVII-XIX), 1594'e çekilmeli"
+    },
+    {
+     "ad": "Onguday",
+     "sebep": "kaynak «1891'e gelindiğinde önemli transit noktasıydı» diyor — KURULUŞ cümlesi DEĞİL"
+    },
+    {
+     "ad": "Ust-Koksa (Uymon)",
+     "sebep": "1720'lerde Altay CUNGAR denetimindeydi; `rusya` yazmak HAYALET olur, Cungar→Rusya geçiş günü ÖLÇÜLMEDİ"
+    },
+    {
+     "ad": "Tugur",
+     "sebep": "Uda-Tugur havzasının Nerçinsk 1689'daki statüsü ÖLÇÜLMEDİ (koordinatör de ölçmedi)"
+    },
+    {
+     "ad": "Hongoray (Yenisey Kırgız ulusları)",
+     "sebep": "`hongoray` künyesi henüz YAZILMADI"
+    }
+   ],
+   "yazilmaz_kaynaksiz": [
+    "Kustanay",
+    "Ivdel",
+    "Lyapin (Saranpaul)",
+    "Habarovo (Yugorsk Şarı)",
+    "Laryak (Vah)",
+    "Samagaltay",
+    "Koş-Agaç",
+    "Vitim",
+    "Çara",
+    "Nyurba",
+    "Dudinka ikinci nokta (Ust-Port hattı)",
+    "Sofiysk (Amur)"
+   ]
   }
  },
  "yerli_gorodok_kolu": {
@@ -2220,5 +2274,15 @@
    "DARALTILMIS_HUKUM": "🟢 Yerli gorodok katmanı **KİMLİK borcunu** kapatır (künye + kimin neye sahip olduğu), **KAPSAMA borcunu KAPATMAZ.** İkisi ayrı borç ve bu kol yalnız birincisine hizmet ediyor.",
    "SONUC": "⇒ 1300'ün kapsama borcu NOKTAYLA değil BEYANLA kapanır — ve bu, Emre'nin hükmüne geri dönüyor: «devasa boşluklar olacaksa olsun». Kol kapatılmalı demiyorum; **ne verdiğini ve ne VERMEDİĞİNİ** yazıyorum."
   }
- }
+ },
+ "alet_kusurlari": [
+  {
+   "tarih": "3 Eylül 2026",
+   "alet": "kendi JSON yama betiğim (_yama.py)",
+   "kusur": "Yeniden adlandırma sözlüğünün anahtarı 'Zeya ağzı (Mançu)' idi; kaydın gerçek adı 'Zeya ağzı (Mançu yerleşimi)'. Eşleşme 0. Betik sayaç bastı ama SIFIR olan anahtarı hiç yazmadı, ben de çıktıyı okurken fark etmedim.",
+   "zarar": "M-2466'da koordinatöre «Zeya — adı yanlıştı, DÜZELTTİM» diye rapor ettim. JSON'da kayıt kademe C ve eski adıyla kaldı; .js üretilirken «kaynaksız» diye ELENDİ. Yani rapor ile veri AYRIŞTI.",
+   "yakalayan": "yerlesimler_sibirya2.js üretimi — YAZILMAZ listesinde eski adı görünce",
+   "ders": "Bir yama betiği ESLESMEYEN anahtarı GÜRÜLTÜLÜ bildirmeli. Sıfır eşleşme sessizce geçerse, 'yapıldı' raporu veriye inmemiş olur — §11'in «bir hüküm, veriye inmedikçe hüküm değil bir METİNDİR» dersinin yama tarafı."
+  }
+ ]
 }
