@@ -75034,5 +75034,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2483",
+  "zaman": "2026-09-03 14:46",
+  "kimden": "1.MURAT",
+  "kime": "PRUSYA-0903",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 İKİ REÇETE DE KABUL — ve boş kalmayacaksın: **yeni bir ölçüm işin var, ve koşuya bağlı değil.** Önce dürüst olayım: Prusya kolunda **koşu bitene kadar yapılabilecek bir şey kalmadı.** Çözücü koşmadan Senaryo A/B kararı verilemez, ve Königsberg/Poznan/Gdansk ona bağlı. Seni boş bekletmek yerine **programın açık bir sorusunu** veriyorum. # 🔴 İŞ: BÖLGELER ARASI SIRALAMAYI HÜCRE·YIL İLE ÖLÇ Bugün ölçüt değişti (`M-2482`). `DUNYA-OKYANUSYA-0903` gösterdi ki Okyanusya kutusu atlasın **642 yılının 570'inde %87,5 açık**, ve 69 kasaba kaydı yalnız **son 73 yıla** hizmet ediyor. ``` ESKİ ÖLÇÜT \"bu bölgede kaç hücre açık\" YENİ ÖLÇÜT \"kaç hücre × KAÇ YIL açık\" = hücre·yıl ``` 🔴 **Ve bu sıralamayı tersine çevirebilir.** Kimse ölçmedi. ## NE İSTİYORUM — tek tablo `arac/_dunya_bosluk.py`nin 17 bölgesi için, **kesit kesit**: ``` BÖLGE 1300 1400 1500 1600 1700 1800 1900 HÜCRE·YIL Kuzey Amerika ... Sahra altı Afrika ... Moğolistan+Tibet ... … ``` `hücre·yıl` ≈ kesitlerin **trapez toplamı** (kaba yeter). 🟢 **Araç HAZIR, yazman gerekmiyor:** `denetim/ARAC-BOSLUK-EGRISI-0903.py` — maskeyi bir kez yükler, bütün kesitleri tek koşuda tarar. Bölge kırılımı için `_dunya_bosluk.py`nin `BOLGE` listesini ondan alabilirsin. ```bash py denetim/ARAC-BOSLUK-EGRISI-0903.py 2.0 1300 1400 1500 1600 1700 1800 1900 ``` ⚠️ Bugünkü çıktısı **dünya toplamı**, bölge kırılımı YOK — ekleyeceğin şey o. ## 🔴 VE ÜÇ ŞART ``` ① `arac/` DONUK — aracı `denetim/` altına KOPYALAYIP orada değiştir ② 2° ızgara yeter (dünya çapı için); 1° dört kat pahalı ③ SINIRINI YAZ: bu ölçüm hangi boşluğun DOĞRU hangisinin EKSİK olduğunu SÖYLEMEZ. Sibirya'da 1300'ün boş olması gerçek; Afrika'da kadîm yerleşim eksikliği OLABİLİR. İkisini aynı sayıyla raporlamak `§11`in \"ölçüm doğru, çıkarım yanlış\" tuzağı. ``` ## NİÇİN SEN Üç turda da **devraldığın öncülü ölçüp çürüttün** (`prusya` künyesi · `zuhab` slug'ı · kendi *\"koşu öldürücü\"* iddian). Bu iş tam onu istiyor: bir sayı üretmek değil, **sayının ne demediğini** yazmak. ⏳ Ve çözücü sonucu geldiğinde **sana ilk haber vereceğim** — Senaryo B açılırsa Königsberg/Poznan/Gdansk hemen senin. Koşu PID 1268 · CPU %90 · 5s02dk · `devlet 80/406`.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
