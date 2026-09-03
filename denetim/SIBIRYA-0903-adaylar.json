@@ -1,5 +1,5 @@
 {
- "_NOT": "DUNYA-SIBIRYA-0903 · 3 Eylül 2026 · ARAŞTIRMA turu çıktısı. Bu bir KUYRUK dosyasıdır, VERİ DEĞİLDİR (M-2413 ②: `bos:` beş kova veri alanı, kuyruk sınıfları denetim/ altında yaşar). data/ altına indirmek koordinatörün işi. Ayrıntılı gerekçe ve kaynak künyeleri: denetim/BULGU-SIBIRYA-0903.md · İKİNCİ KAYNAK TURU işlendi (3 Eylül, öğleden sonra).",
+ "_NOT": "DUNYA-SIBIRYA-0903 · 3 Eylül 2026 · ARAŞTIRMA turu çıktısı. Bu bir KUYRUK dosyasıdır, VERİ DEĞİLDİR (M-2413 ②: `bos:` beş kova veri alanı, kuyruk sınıfları denetim/ altında yaşar). data/ altına indirmek koordinatörün işi. Ayrıntılı gerekçe ve kaynak künyeleri: denetim/BULGU-SIBIRYA-0903.md · İKİNCİ KAYNAK TURU işlendi (3 Eylül, öğleden sonra). · ÜÇÜNCÜ TUR: 3 km sınavı · hongoray taşıyıcısı · altı halkın sınıflandırması.",
  "oturum": "DUNYA-SIBIRYA-0903",
  "kutu": {
   "latG": 50,
@@ -1087,7 +1087,55 @@
       }
      ]
     },
-    "ARA_PENCERE": "1703-1707/09 arası havza boşaldı ve dört grup doldurdu (Kaçin kuzeyden · Motor-Koybal doğudan · Sagay Tomsk yaylasından · Beltir güneyden). Bu aralık ne `hongoray` ne `rusya` — PENCERE BEYANI gerektirebilir."
+    "ARA_PENCERE": "1703-1707/09 arası havza boşaldı ve dört grup doldurdu (Kaçin kuzeyden · Motor-Koybal doğudan · Sagay Tomsk yaylasından · Beltir güneyden). Bu aralık ne `hongoray` ne `rusya` — PENCERE BEYANI gerektirebilir.",
+    "ONAY": "🟢 M-2461 — koordinatör onayladı, beş şartla",
+    "TASIYICI_OLCUMU": {
+     "sorun": "🔴 Minusinsk havzasında (52,5-55,0K / 89,5-93,0D) BAĞLI nokta sayısı: 0. Havzadaki üç nokta da benim ADAYIM ve en erkeni 1707 (Abakan ostrogu). ⇒ `hongoray` künyesi bugün yazılsa 1281-1703 dilimini TAŞIYACAK HİÇBİR NOKTA YOK; künye boyanmaz (§8) ve boş kalır.",
+     "onerilen_tasiyici": {
+      "ad": "Hongoray (Yenisey Kırgız ulusları)",
+      "tur": "bolge",
+      "lat": 53.9,
+      "lon": 90.6,
+      "gerekce": "Hakas-Minusinsk bozkırının göbeği; Abakan ostrogundan ~57 km, en yakın BAĞLI noktadan >150 km ⇒ 3 km sınavını rahat geçer. `Buryat toprakları (Selenge havzası)` ve `Yakut toprakları (Orta Lena)` ile AYNI kalıp.",
+      "s": [
+       {
+        "f": "1281-01-01",
+        "t": "1703-01-01",
+        "d": "hongoray"
+       },
+       {
+        "f": "1707-01-01",
+        "t": "1917-03-15",
+        "d": "rusya"
+       },
+       {
+        "f": "1917-03-15",
+        "t": "1917-11-07",
+        "d": "rusya-gecici-hukumet"
+       },
+       {
+        "f": "1917-11-07",
+        "t": "1923-10-29",
+        "d": "sovyet-rusya"
+       }
+      ],
+      "PENCERE_BEYANI": {
+       "aralik": "1703-01-01 → 1707-01-01 (4 yıl)",
+       "kasitli_bosluk": true,
+       "bos": "devletsiz",
+       "neden": "1703 yazında Cungar hanı Tsevang Rabdan Hongoray nüfusunun büyük kısmını (15-20 bin) sürdü ve Hongoray'ı bağımsız siyasî yapı olarak ortadan kaldırdı; havzayı Kaçin · Motor-Koybal · Sagay · Beltir grupları doldurdu ama merkezî devlet 1707 Abakan ostroguna kadar YOKTU.",
+       "kaynak": "chertikov2009 + hakasya",
+       "IKI_UC": "§3.5.1 — beyan yerine `hongoray`ı 1707'ye uzatmak 4 yıllık bir HAYALET üretir (kaynak 1703'te bitti diyor); beyan yerine `rusya`yı 1703'e çekmek 4 yıllık bir ERKEN İLHAK üretir. Beyan ikisinden de ucuz, ama `bos:` alanı uygulayıcıdan DÜŞÜYOR — koordinatör elle koyacak."
+      }
+     },
+     "SARTLAR_M2461": [
+      "yıl DÖRT HANE ✓ (1281-01-01 / 1703-01-01)",
+      "kaynak: AÇIKÇA — chertikov2009 (Vestnik TGU) + hakasya makalesi; TDV DEĞİL",
+      "harita: YAZILMAYACAK — kimliğin kendisi boya anahtarı",
+      "1703 GÜNÜ bilinmiyor; kaynak 'ЛЕТОМ 1703 г.' diyor ⇒ 1703-01-01 (§4)",
+      "tur: mevcut değerlerden — `komanci`/`haudenosaunee` emsali `devlet`; İCAT EDİLMEDİ"
+     ]
+    }
    },
    {
     "kimlik": "Tuva Halk Cumhuriyeti",
@@ -1112,5 +1160,66 @@
   "Kimlik kapısının ② renk ve ③ ömür ayakları KOŞULMADI (M-2410: koordinatöre gönderilir)",
   "`_baglama_onsinav.py` KOŞULMADI — yazılacak dosya yok",
   "3 km mükerrer sınavı bu adaylar için KOŞULMADI — nokta kolu açılınca ŞART"
- ]
+ ],
+ "on_sinavlar": {
+  "3km_bagli_evren": {
+   "sonuc": "0 ihlal",
+   "kapsam": "80 aday x 2731 bağlı nokta",
+   "not": "15 km altında UYARI da çıkmadı — havza boş"
+  },
+  "3km_adaylar_arasi": {
+   "sonuc": "0 ihlal",
+   "kapsam": "80 adayın 3160 çifti"
+  },
+  "ad_cakismasi": {
+   "sonuc": "0 çakışma (SIBIRYA adaylar.json 80 kayıt)",
+   "kaynak": "KOORDİNATÖRÜN ölçümü (M-2456, ARAC-AD-CAKISMA-0903.py) — DEVRALDIM, kendim ölçmedim",
+   "not": "Kendi betiklerimde ad eşleştirmesi YOK (yalnız koordinat), o yüzden `İ.lower()` tuzağına maruz değilim — ama bunu da ÖLÇTÜM diye değil BAKTIM diye yazıyorum"
+  },
+  "baglama_onsinav": {
+   "sonuc": "KOŞULMADI — yazılacak .js dosyası henüz yok"
+  }
+ },
+ "alti_halkin_siniflandirmasi": {
+  "_olcut": "M-2414③ / M-2425 — KÜNYE: teritoryal siyasî yapı + DATABLE bitiş · KABİLE: band/klan düzeyi ya da datable bitişi yok",
+  "Evenk": {
+   "hukum": "kabile",
+   "durum": "🟢 koordinatör onayladı (M-2440)",
+   "gerekce": "klan (rod) düzeyi, teritoryal siyasî yapı yok, datable siyasî bitiş yok"
+  },
+  "Koryak": {
+   "hukum": "kabile",
+   "durum": "🟡 önerim",
+   "gerekce": "Zuev: tundra çavçu (ren göçebesi) / kıyı nımılan (köylü) ikiliği; birleşik otorite YOK. Yasak 'son derece istikrarsız… bir kısmı HİÇ ödemedi' ⇒ datable siyasî bitiş de yok",
+   "kaynak": "zuev"
+  },
+  "Nganasan": {
+   "hukum": "kabile",
+   "durum": "🟡 önerim",
+   "gerekce": "klan düzeyi; etnos olarak konsolidasyonu XVII-XVIII yy'da (Tavgi · Tidiris · Kurak ve Pyasida Samoyedleri Avam Nganasanları hâlinde birleşti) — bu bir SİYASÎ birleşme değil ETNİK birleşme"
+  },
+  "Cukci": {
+   "hukum": "kabile",
+   "durum": "🔴 MEVCUT KAYIT `devletsiz` — DEĞİŞTİRİLMESİNİ ÖNERİYORUM",
+   "gerekce": "Zuev: 'çukçi 1789'da resmen Rus tebaası ilan edildi, fiilî bağımsızlığını 1920'lere kadar korudu.' Band düzeyi ⇒ künye değil. AMA `devletsiz` + tur:'bolge' türetmesi cinsi `devletsiz` yapar ve o cins 'toprağı KOMŞUSUNA KATILABİLİR' demektir — hiç fethedilmemiş bir halkın toprağı için YANLIŞ. Evenkiya'da kabul edilen gerekçenin AYNISI.",
+   "ek_celiski": "🔴 Aynı halkın iki kaydı FARKLI davranıyor: `Anadır (Anadyrsk)` tur:'kale' ⇒ türetilen cins `devletsiz-yerlesim` (halka, KATILMAZ); `Çukotka merkezi` tur:'bolge' ⇒ `devletsiz` (KATILIR). Aynı gerekçe metni, iki farklı harita davranışı."
+  },
+  "Yukagir": {
+   "hukum": "ÖLÇÜLEMEDİ",
+   "durum": "⚪ kalem AÇIK",
+   "gerekce": "Zuev'in kroniği bölgede 1638-1644 arası altı zimovye sayıyor (coğrafya susmuyor) ama okuduğum makale Yukagirleri ODAK ALMIYOR: 'Yukagirler ve Evenler komşu gruplar olarak anılıyor, makalenin odağı değiller.' Ayrı kaynak arandı, BULUNAMADI."
+  },
+  "Yakut": {
+   "hukum": "kabile (MEVCUT KAYIT KORUNUYOR — değiştirmiyorum)",
+   "durum": "⚠️ ÖLÇÜTÜN SINIRINDA",
+   "gerekce_kabile": "TDV: 'yarı uruğlar (küçük kabileler) hâlinde yaşıyordu' — 'YARI' kelimesi birleşik bir siyasî yapıyı reddediyor",
+   "gerekce_kunye": "TDV: 'hepsinin başındaki idareciye ULU TOYON deniyor' — bu band düzeyinin ÜSTÜ; ve datable bitiş VAR (25 Eylül 1632 Lena Kalesi · 1641 Yakutsk kazası)",
+   "damga": "İki cümle iki yöne çekiyor ve İKİSİ DE AYNI TDV MADDESİNDEN. Tek bir ifadeye dayanarak mevcut hükmü değiştirmiyorum; tartışmayı BİLDİRİYORUM."
+  }
+ },
+ "acinsk_karari": {
+  "OLCTUGUM": "Skobelev & Çurikov (Vestnik NGU, 2010) 1641 ostrogunun modern Açinsk'te DEĞİL, Çulım (eski İyus) kıyısında modern Balahta civarında (~55,4/91,6) aranması gerektiğini savunuyor. Modern Açinsk 56,27/90,50 — fark ~120 km.",
+  "SECEMEDIGIM": "1641 tarihini HANGİ koordinata bağlayacağım: tartışmalı 1641 yerine mi, bugünkü Açinsk'e mi? Ostrogun bugünkü yerde ne zaman tesis edildiğini BULAMADIM.",
+  "ONERIM": "Bugünkü Açinsk (56,27/90,50) + kur:1641, ve `kaynak:` alanına tartışmanın AÇIKÇA yazılması. Üç gerekçe: ① kapsama modern yerde değerli (2 açık hücre), tartışmalı yer zaten Abakan/Minusinsk'in menzilinde ② 120 km, motorun 200 km tavanının İÇİNDE ③ tartışma akademik olarak AÇIK, ben taraf tutamam. ⚠️ Bedeli: 1641 tarihi ~120 km yanlış yere düşer. KARAR KOORDİNATÖRÜN."
+ }
 }
