@@ -4412,12 +4412,29 @@ print(f"  {len(DEVLET_KAYIT)} devlet, "
 if PUAN_KAPALI:
     print("  🚪 PUANLAMA KAPISI KAPALI (MOTOR_PUAN_KAPALI=1) — kesim YOK")
 else:
-    print(f"  🚪 PUANLAMA KAPISI: kesilen {_PUAN_KESILEN[0]:,.0f} km² · "
+    # 🔴 BİRİM: km²·DÖNEM — AYRIK ALAN DEĞİLDİR. Sayaç her devlet × her DÖNEM
+    #    birikiyor (`_PUAN_KESILEN[0] += …` döngünün İÇİNDE), yani aynı toprak
+    #    her dönemde yeniden sayılır. Ayrık alan istiyorsan bunu dönem sayısına
+    #    BÖLMEN gerekir — ve bölmek bile yaklaşıktır, çünkü dönemler eş uzunlukta
+    #    değil.
+    # ⚠️ BU ETİKET ON YEDİ GÜN ARAYLA İKİ KİŞİYİ YANILTTI: öngörüyü yazan oturum
+    #    bandı km² sanıp "2-15 M km²" yazdı; bir koordinatör 743.793.802'yi km²
+    #    sanıp "50 KAT SAPMA, yayın durabilir" diye alarm verdi. İkisi de doğru
+    #    sayıya bakıyordu, YANLIŞ BİRİMDE.
+    print(f"  🚪 PUANLAMA KAPISI: kesilen {_PUAN_KESILEN[0]:,.0f} km²·dönem "
+          f"(AYRIK ALAN DEĞİLDİR — her devlet × her dönem birikir) · "
           f"tamamen boşalan gövde-dönemi {_PUAN_TAMAMEN[0]}")
     print(f"     ölçüt: AYNI devletin merkezleri · 0-200=4p · 200-300=2p · "
           f"300-400=1p · eşik {PUAN_ESIK}")
-    print(f"     ÖNGÖRÜ: kesilen 2-15 M km² · boşalan 50-400 "
-          f"(denetim/PUANLAMA-ONGORU.md)")
+    # ⚠️ AŞAĞIDAKİ BANT YANLIŞ BİRİMDE YAZILMIŞ — kıyas ölçütü DEĞİLDİR.
+    #    "2-15 M km²" ayrık alan varsayıyor, oysa yukarıdaki sayı km²·dönem.
+    #    Ve "boşalan 50-400" YAPISAL OLARAK İMKÂNSIZ: PUAN_ESIK=4 iken bir
+    #    devletin KENDİ noktasının 0-200 km halkası tek başına 4 puan verir,
+    #    yani EN AZ BİR NOKTASI OLAN GÖVDE ASLA TAMAMEN BOŞALAMAZ — sayaç
+    #    0'dan başka değer ALAMAZ (ölçüldü, OPUS HAZIR KİTA 109).
+    #    Bant DÜZELTİLMEDİ, DAMGALANDI: onu yazan oturumun kaydı silinmemeli.
+    print(f"     ÖNGÖRÜ (🔴 YANLIŞ BİRİMDE — kıyaslama yapma): kesilen 2-15 M km² · "
+          f"boşalan 50-400 (denetim/PUANLAMA-ONGORU.md)")
 
 asama("Dönemler kuruluyor (delta yapısı)")
 # İki katman:

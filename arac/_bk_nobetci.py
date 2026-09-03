@@ -34,16 +34,18 @@ import unicodedata
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import girdi  # noqa: E402
+import ad_esanlam as AE  # noqa: E402
 
 DATA = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
 
 
-def sadelestir(s):
-    """Yalnız KARŞILAŞTIRMA için — veriye yazılmaz."""
-    s = s.lower().replace("ı", "i")
-    s = unicodedata.normalize("NFD", s)
-    s = "".join(c for c in s if unicodedata.category(c) != "Mn")
-    return re.sub(r"[^a-z0-9]", "", s)
+# 🔴 KENDİ NORMALLEŞTİRİCİSİ YOK — ORTAK OLANI ÇAĞIRIR.
+# Buranın eskiden kendi `sadelestir`i vardı ve ortak olandan FARKLIYDI:
+# `İ`/`I` katlamasını Python'un `lower()`ına bırakıyordu, yani Türkçe
+# kuralına değil varsayılan Unicode kuralına. Bugün ikisi aynı sonuca
+# düşüyordu — ama tesadüfen. Üç ayrı normalleştirici üç ayrı kör nokta
+# demektir; tek otorite `arac/ad_esanlam.py`dir.
+sadelestir = AE.sadelestir
 
 
 def yerlesim_adlari():
@@ -115,27 +117,63 @@ def bk_topla(ek=None):
 def denetle(ek=None, sessiz=False):
     tam, sade = yerlesim_adlari()
     kayitlar, tanimsiz = bk_topla(ek)
-    es, yakin, yok = [], [], []
+    es, yakin, esanlam, belirsiz, yok = [], [], [], [], []
     for kid, ad, dosya in kayitlar:
+        # 🔴 BELİRSİZLİK SINAVI EN ÖNDE — "birebir eşleşme"den bile önce.
+        # Sebebi ölçülmüş bir kusur: `tam` kümesi parantezli parçaları da
+        # taşıyor (`Girne (Kyrenia)` → `Kyrenia`). Bu iyi bir şey, ama
+        # `Haydarâbâd (Sind)` ile `Haydarâbâd (Dekken)` İKİSİ BİRDEN çıplak
+        # `Haydarâbâd`ı bağışlıyor ⇒ `ad in tam` BİREBİR diyordu ve `sade`
+        # sözlüğü `setdefault` ile ÖNCE YÜKLENENİ seçiyordu. Yani nöbetçi
+        # 1373 km uzaktaki yanlış şehri sessizce onaylıyordu — koordinatörün
+        # uyardığı Sind/Dekken tuzağının nöbetçinin KENDİ İÇİNDEKİ hâli.
+        # Sınav dalı ④ bunu ateşleyemeyince ortaya çıktı: dal ötmüyordu
+        # çünkü kusur vardı, çünkü ad "birebir" sayılıyordu.
+        r0 = AE.coz(ad, set())      # yalnız belirsizlik kovasına sor
+        if r0["durum"] == "belirsiz":
+            belirsiz.append((kid, ad, r0["gerekce"], dosya))
+            continue
         if ad in tam:
             es.append((kid, ad, dosya))
-        elif sadelestir(ad) in sade:
-            yakin.append((kid, ad, sade[sadelestir(ad)], dosya))
+            continue
+        r = AE.coz(ad, tam)
+        # coz `tam` kümesinden döner; `tam` parantez parçalarını da taşır
+        # (`Kyrenia`), kaydın gerçek adı `sade` üzerinden geri alınır.
+        karsilik = sade.get(sadelestir(r["ad"]), r["ad"]) if r["ad"] else None
+        if r["durum"] == "birebir":
+            yakin.append((kid, ad, karsilik, dosya))
+        elif r["durum"] == "esanlam":
+            esanlam.append((kid, ad, karsilik, dosya))
+        elif r["durum"] == "belirsiz":
+            belirsiz.append((kid, ad, r["gerekce"], dosya))
         else:
             yok.append((kid, ad, dosya))
     if not sessiz:
         print("`bk:` kaydı: %d  (künye alanı + yama dosyaları)" % len(kayitlar))
         print("  🟢 yerleşimle BİREBİR eşleşen : %d" % len(es))
         print("  🟡 YAZIM farkı (sadeleşince tutuyor) : %d" % len(yakin))
+        print("  🔵 SÖZLÜK çevirdi (eşanlam)          : %d" % len(esanlam))
+        print("  🟠 BELİRSİZ — çözülmedi, karar gerek : %d" % len(belirsiz))
         print("  🔴 EŞLEŞMEYEN — yıldız ÇİZİLMEYECEK  : %d" % len(yok))
         for kid, ad, karsilik, dosya in sorted(yakin):
             print("     🟡 %-24s %-24s → veride: %s   [%s]" % (kid, ad, karsilik, dosya))
+        for kid, ad, karsilik, dosya in sorted(esanlam):
+            print("     🔵 %-24s %-24s → veride: %s   [%s]" % (kid, ad, karsilik, dosya))
+        for kid, ad, gerekce, dosya in sorted(belirsiz):
+            print("     🟠 %-24s %-24s ÇÖZÜLMEDİ: %s   [%s]" % (kid, ad, gerekce, dosya))
         for kid, ad, dosya in sorted(yok):
             print("     🔴 %-24s %-24s   [%s]" % (kid, ad, dosya))
         for t in tanimsiz:
             print("     ⚠️ TANINMAYAN ŞEKİL: %s" % t)
     # 🟡 yazım farkı da KUSURDUR: motor birebir ada bakar, sadeleşmişe değil.
-    return len(yok) + len(yakin) + len(tanimsiz), len(es)
+    # 🔵 EŞANLAM DA KUSURDUR — ve sebebi ince: sözlük adı ÇÖZER, ama yıldızı
+    #    çizen uygulayıcı sözlüğü HENÜZ ÇAĞIRMIYOR. Yani `Buda` yazılı bir
+    #    kayıt bugün hâlâ çizilmez. Sözlüğün çözmesi, motorun çözmesi DEĞİL.
+    #    ⇒ Uygulayıcı `ad_esanlam.coz()` çağırmaya başladığında bu terim
+    #    buradan düşer; o güne kadar düşerse nöbetçi YALAN söyler.
+    # 🟠 BELİRSİZ de kusurdur: `§11` — ölçülemedi ASLA temiz sayılmaz.
+    return (len(yok) + len(yakin) + len(esanlam) + len(belirsiz)
+            + len(tanimsiz)), len(es)
 
 
 def sinav():
@@ -160,7 +198,25 @@ def sinav():
         print("🔴 ATEŞLEME BAŞARISIZ — sahte ad kusur sayılmadı. "
               "Bu dal SINANMAMIŞ sayılır (§11 C13).")
         return 1
-    print("\n🟢 İKİ YOL DA SINANDI: geçme yolu temiz, ateşleme yolu ÖTTÜ.")
+    print("\n── ③ SÖZLÜK DALI — eşanlam ad ÇEVRİLMELİ ve YİNE KUSUR sayılmalı ──")
+    # `Buda` atlasta yok; sözlük `Budin` der. Nöbetçi çeviriyi GÖSTERMELİ
+    # ama kusur saymayı BIRAKMAMALI — uygulayıcı sözlüğü henüz çağırmıyor.
+    kotu3, _ = denetle(ek=[("SINAV", "Buda", "(enjekte)")])
+    if kotu3 < 1:
+        print("🔴 DAL ÖTMEDİ — eşanlam kusur sayılmadı; nöbetçi bugün "
+              "çizilmeyecek bir yıldızı TEMİZ gösteriyor.")
+        return 1
+    print("🟢 sözlük dalı öttü (çeviri gösterildi, kusur sayıldı)")
+
+    print("\n── ④ BELİRSİZ DALI — çözülemeyen ad TEMİZ sayılmamalı ──")
+    kotu4, _ = denetle(ek=[("SINAV", "Haydarâbâd", "(enjekte)")])
+    if kotu4 < 1:
+        print("🔴 DAL ÖTMEDİ — belirsiz ad temiz sayıldı (§11 ihlali: "
+              "ölçülemedi ≠ temiz).")
+        return 1
+    print("🟢 belirsiz dalı öttü")
+
+    print("\n🟢 DÖRT DAL DA SINANDI: geçme yolu temiz, üç ateşleme dalı ÖTTÜ.")
     return 0
 
 
