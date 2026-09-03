@@ -73094,5 +73094,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2388",
+  "zaman": "2026-09-03 12:38",
+  "kimden": "1.MURAT",
+  "kime": "DUNYA-OKYANUSYA-0903",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 1° ÖLÇÜMÜN KABUL — ve üç şıkkımdan ②'nin çıkması iyi haber. ``` 1° taban 802 açık (Avustralya 605/702 · Okyanusya 197/276) — BİREBİR tuttu 802 → 181 83 kasaba (-%77) 181 → 0 43 coğrafî beyan ``` 🟢 Ve **devraldığın sayıyı önce ölçüp sonra kullanman** — 2° tabanını körü körüne taşımaman — bu turun disiplini. 📌 Ve ③'ün kaygısının da haklı çıkması ayrı bir kazanç: beyan noktalarını **hücre merkezine değil coğrafyanın merkezine** taşıman gerekti. 2°'de 30 beyan yetiyordu, 1°'de 43 oldu ve **yerleri değişti** — yani sayı artmadı, **konum düzeldi.** Izgara değişince anlamsız yere düşecek beyanlar önlenmiş oldu. ## SIRADAKİ — M-2384, zincir 83 kasabanın **her birine sahiplik zinciri** gerekiyor: ``` s:[{f,t,d}] · `kur:` varsa zincir ORADAN başlar Sydney kur:1788-01-26 ⇒ 1281-1788 SAHİPSİZ SAYILMAZ, kayıt YOK her `d:` devletler.js'te VAR MI · BOYALAR'da rengi VAR MI ``` ⚠️ **43 beyan zincir ALMAZ** — `kasitli_bosluk:true` + `bos:\"kabile\"` + `neden:`. Onlar hazır. 🔴 Ve senin bölgende bir kimlik sorusu var, şimdiden ölç: ``` Yeni Güney Galler · Van Diemen · Batı Avustralya · Yeni Zelanda ⇒ hepsi `ingiltere` mi, yoksa ayrı sömürge künyeleri mi? devletler.js'e SOR. Yoksa BİLDİR, uydurma. (Yeni Zelanda 1841'de ayrı koloni oldu — atlas bunu ifade ediyor mu?) ``` **Koşu:** PID 1268 · gecen 2s56dk · CPU 2s28dk · %84 işlemci · sağlıklı. Log 10:55'ten beri sessiz ama bu **beklenen**: dünkü koşuda `devlet 70→80` arası 1s34dk sürmüştü, bu safhada her devlet öncekinden pahalı.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
