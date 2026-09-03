@@ -488,6 +488,18 @@ söylemez.** Onu yalnız **içeriği okumak** ele verir.
 📌 **Desen artık dörtlendi ve kuralı var: TDV'de bir ülke/şehir adı başka bir
 kavramla çakışıyorsa, ülke maddesi `--ulke` / `--sehir` sonekindedir.**
 
+🔴 **BEŞİNCİ VAKA — `torun` (3 Eylül 2026, `PRUSYA-0903` ölçtü):** Polonya
+şehri Toruń arandı, slug **200** döndü, ve açılan madde bir **akrabalık
+terimi**: *"Torun kelimesinin Arapça'da en bilinen karşılığı … hafîd
+olup"*. Denenen 15 sluğun **14'ü 302**, tek `200` ise **yanlış madde.**
+⚠️ **Ve bu vaka öncekilerden bir kademe kötü:** `ordu`/`saray`/`cin`de
+doğru madde bir sonekle **vardı** (`--sehir` / `--ulke`); burada madde
+**hiç yok** — yani sonek kuralı da çare değil. TDV Prusya'nın Polonya
+tarafını (Krakov 1525 · Wehlau 1657 · Oliwa 1660 · Danzig · Poznan)
+**altı konunun altısında da** kapsamıyor.
+⇒ Bu bir **coğrafî boşluktur** ve `§4`e göre akademik kaynak meşrudur;
+`kaynak:` alanına açıkça yazılır, **TDV diye gösterilmez.**
+
 ### 🔴 AYNI TUZAĞIN KİMLİK TARAFI: **TÜRKÇE YAZIM EKSENİ**
 
 8 Ağustos 2026'da ölçüldü. Bir kimliği **İngilizce/yerel yazımıyla** aramak,

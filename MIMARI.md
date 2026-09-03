@@ -233,6 +233,41 @@ sonra bildireceği "şu şehrin fethi görünmüyor" raporlarının arkasında b
 
 ---
 
+## 3.6 🔴 ALTINCI SORUN — TÂBİİYET YALNIZ OSMANLI'YA YAZILABİLİYOR
+*(3 Eylül 2026 · `PRUSYA-0903` ölçtü, ve kusur şemada değil TÜKETİCİDE)*
+
+Atlas, **yabancı bir devletin başka bir yabancı devlete tâbiiyetini
+ifade edemiyor.** Ölçüm:
+```
+girdi.py BILINEN_DONEM_ALANLARI       'd' VAR          ← şema TANIYOR
+v: dönemleri 423 · d: alanı dolu: 0   hepsinde k: var  ← kimse YAZMIYOR
+js/app.js:4376   ad:"Osmanlı", cins:"tabi"             ← ad SABİT KODLU
+uret_petek.py    v: içindeki d: HİÇ OKUNMUYOR
+                 tâbi gövdesi unary_union(...) — KİMLİKSİZ tek katman
+```
+⇒ `v:` bir **kimlik** değil bir **etiket** taşıyor, ve etiketin sahibi
+her zaman Osmanlı.
+
+**Yazılamayan gerçekler:** Prusya Dükalığı'nın Lehistan'a tâbiiyeti
+(1525-1657, Kraków Antlaşması) · Erdel'in Habsburg'a · Boğdan'ın
+Lehistan'a · Kırım'ın 1774 sonrası belirsiz statüsü.
+Bugün bunlar ya **tam egemenlik** gibi yazılıyor (tarihen yanıltıcı,
+`§3.5` hayaletinin bir cinsi) ya da **hiç yazılmıyor** — Königsberg
+1281-1923 arasını **tek `almanya` dilimiyle** geçiyor, 642 yıl.
+
+📌 **Ve kusurun cinsi kaydedilmeye değer:** `§11` *"bir beyan, aracın
+alan kümesinde yoksa sessizce düşer"* diyor. Bu onun **tersi**: alan
+kümesinde **VAR**, tüketici yok. İkisinin de belirtisi aynı —
+**sessizlik.** ⇒ Bir alanın var olması onu okuyan biri olduğu anlamına
+gelmiyor; sınav *"bu bilgiyi bir `if` ile sorabiliyor muyum"* değil,
+***"bunu okuyan bir `if` VAR MI"***.
+
+⚠️ İlk dördü gibi bu da **kapsam genişlemeden önce** ağırlaşıyor: Orta
+Avrupa, Hint ve Güneydoğu Asya tâbiiyet ağlarıyla dolu, ve hepsi bu
+modelde ifade edilemez.
+
+---
+
 ## 4. Dört boyut ve senkron değişmezi
 
 Verinin dört boyutu vardır ve dördü **aynı anda** tutarlı olmak zorundadır:

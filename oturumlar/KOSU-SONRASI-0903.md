@@ -1,0 +1,139 @@
+# KOŞU SONRASI — 3 Eylül 2026 · uygulama kuyruğu
+
+> 🔴 **BU DOSYA BİR KARAR KUYRUĞUDUR, BİR ÖLÇÜM DEĞİL.** Her kalem
+> ölçülerek karara bağlandı ve `data/` · `arac/` donuk olduğu için
+> **uygulanamadı.** Koşu (PID 1268, 09:40:52 başladı) bitince sırayla
+> uygulanır.
+>
+> ⚠️ Ve `§11`: *"bir hüküm, veriye inmedikçe hüküm değil bir
+> metindir."* Bu dosyanın kendisi o kuralın kapsamındadır — kalemler
+> **uygulandıkça damgalanacak**, yoksa yarın *"yapılacak iş"* diye
+> yeniden bulunur.
+
+## 0 — ÖNCE: koşu gerçekten bitti mi
+```bash
+py arac/denetle_yayin.py          # ✗ YAYIN BAYAT çıkarsa DUR
+git log --oneline -5 -- data/ arac/    # koşu sırasında commit var mı
+```
+🔴 **2 Eylül'de bir koşu 10,5 saat temiz koştu ve YAYINLANAMADI**:
+sırasında 18 yerleşim dosyası değişti. Kural: **koşu boyunca `data/`
+ve `arac/` DONUK** — `data/`ya yazmak koşuyu öldürmez ama **çıktıyı
+yayınlanamaz** yapar; `arac/`a yazmak **koşuyu öldürür** (motor parmak
+izi: `uret_petek.py` · `renkler.py` · `girdi.py`).
+
+---
+
+# ① KÜNYE PARTİSİ — `data/devletler.js`
+
+| # | künye | karar | dayanak |
+|---|---|---|---|
+| 1.1 | `prusya` | 🟢 EKLE · `f:1701-01-18` `t:1871-01-18` `harita:"almanya"` | `denetim/UYGULA-PRUSYA-0903.json` — TDV `prusya` gövdesi okundu |
+| 1.2 | 95 Afrika künyesi | 🟢 EKLE | `denetim/BULGU-AFRIKA-0903-kunye.json` · 81 bloke anahtarının 81'i karşılandı |
+| 1.3 | `kanada` | 🟢 EKLE · `f:1867-07-01` `t:1923-10-29` | dominyon ilkesi · BNA Act |
+| 1.4 | `ingiliz-kuzey-amerika` | 🟢 `t:` → `1867-07-01` | aynı |
+| 1.5 | `yeni-zelanda` | 🟢 `f:` → `1907-09-26` | NZ History (resmî) · dominyon proklamasyonu |
+| 1.6 | K. Amerika yerli kimlikleri | ⏳ KAMERIKA'nın listesi bekleniyor | tanecik: halk/konfederasyon |
+| 1.7 | G. Amerika 37 halk | 🟡 hepsi künye DEĞİL | GAMERIKA ölçütü: teritoryal yapı + datable bitiş |
+| 1.8 | `kongre-polonyasi` | 🟢 `tur:"kralik"` → `"krallik"` | yazım hatası, bugün ben yazdım |
+| 1.9 | `tur:` sözlüğü | 🟡 `koloni` + `dominyon` eklensin, 14 künye taşınsın | ÖNCELİK DÜŞÜK — motor `tur:`i okumuyor, dizin işi |
+
+🔴 **1.1-1.5 için ortak şart:** her yeni `f`/`t` bir **kırılma günü**
+doğurur ⇒ `Değişmez 2` maddesi ister. Künyeyi yazıp maddeyi yazmamak,
+denetimi kırar.
+
+---
+
+# ② RENK PARTİSİ — `arac/renkler.py`
+
+```
+1.2'nin 95 künyesi          → 95 renk
+1.6'nın K.Amerika kimlikleri → ? (liste gelince)
+```
+⚠️ **Büyük parti — `§11` üç uyarı veriyor:**
+```
+① SIRA BAĞLAR      tek geçişte "çözülemedi" çıkan İKİNCİ GEÇİŞTE çözülür
+                   (ölçülmüş emsal: 20 → 7, bildirilenin 13'ü yapısal DEĞİLDİ)
+② ENGEL KÜMESİ     ELLE YAZILMAZ — `R.engel_kumesi()`e sorulur
+                   (bugün elle yazdım ve dört ihlal doğdu)
+③ VERİSİ OLMAYAN ADAY  künyesi örtüşüyor + aynı bölgedeyse ENGEL SAYILIR
+                       (kuba↔lunda: ölçülemeyen aday "sorunsuz" sayılmıştı)
+```
+🔴 Ve **26 künye bugün renksiz** (M-2395) — veride kullanılmadıkları
+için kusur değil, ama zincirler onları kullanacak:
+```
+cezayir-ocagi · tunus-ocagi · trablusgarp-ocagi · cezayir-fransiz ·
+mogol-imparatorlugu · song · jin-hanedani · erdel · bohemya · kuveyt ·
+dubrovnik · hersek · zeta · kasim · naksa-dukaligi · mora-despotlugu ·
+polonya-erken · sarki-rumeli · garbi-trakya · girit-devleti ·
+oniki-ada-italyan · kibris-ingiliz · bosna-isgal · fransiz-misir-seferi ·
+avusturya-cumhuriyet · tbmm-turkiye
+```
+
+---
+
+# ③ NOKTA PARTİSİ — yeni `data/yerlesimler_*.js`
+
+| oturum | dosya | ad alanı | durum |
+|---|---|---|---|
+| KAMERIKA | `yerlesimler_kamerika.js` | `YERLESIMLER_KAMERIKA` | 377 aday · kimlik bekliyor |
+| GAMERIKA | `yerlesimler_gamerika.js` | `YERLESIMLER_GAMERIKA` | 🟢 45+18 aday · üç kapı TEMİZ |
+| AFRIKA | `yerlesimler_afrika2.js` | `YERLESIMLER_AFRIKA2` | 178 zincirli + 35 K.Afrika + 9 çöl |
+| OKYANUSYA | `yerlesimler_okyanusya.js` | `YERLESIMLER_OKYANUSYA` | 20 zincirli / 64 zincirsiz |
+| SIBIRYA | `yerlesimler_sibirya2.js` | `YERLESIMLER_SIBIRYA2` | 80 aday · 16'sı 1923 sonrası DÜŞTÜ |
+
+🔴 **Her dosya İKİ yere bağlanır, yoksa HİÇ OKUNMAZ ve denetim TEMİZ der:**
+```
+arac/girdi.py   GIRDI_DOSYALARI
+index.html      <script src=…> satırı
+```
+⚠️ Bağlandığı gün **o veriye bakan bütün ölçüm aletlerinin tabanı
+yeniden doğrulanır** (`§11`: üç oturum aynı gün sahte mükerrer üretti).
+
+---
+
+# ④ VERİ DÜZELTMELERİ — ölçüldü, uygulanmadı
+
+| kalem | dosya | ne |
+|---|---|---|
+| 4.1 Wellington | `yerlesimler_ek30.js` | zincir 1907 modeline bölünür · **15 gün beyan** (`1840-01-22`→`1840-02-06`) |
+| 4.2 Auckland · Christchurch | `yerlesimler_ek30.js` | zincir 1907'de bölünür |
+| 4.3 Java hayaletleri | `yerlesimler_asya.js` · `_gdasya.js` | `majapahit` 5 nokta (dönem künyeden 1 yıl önce) · `singhasari` 4 nokta (**51 yıl** taşma) |
+| 4.4 Rub'ul Hâlî dolgusu | ? | `18.80/52.30` · `20.00/52.00` — Bardaî/Abalessa inince **ya kaldırılır ya cinsi güncellenir** |
+| 4.5 Königsberg | `yerlesimler_avrupa.js`? | **642 yıl tek `almanya` dilimi.** 1525-1657 Lehistan tâbiiyeti · 1657 Wehlau · 1701 Prusya |
+| 4.6 Poznan · Gdansk | ? | 1793'ten `almanya` — Güney/Batı Prusya hiç Kutsal Roma olmadı |
+| 4.7 Torun · Elbing | yeni | **atlasta YOK** (normalleştiricili arama, 0 sonuç) |
+
+🔴 4.5-4.7 PRUSYA-0903'ün bulgusu ve **Senaryo A onları ÇÖZMÜYOR** —
+ayrı bir tur işi, her kırılma günü `Değişmez 2` maddesi ister.
+
+---
+
+# ⑤ ARAÇ BORÇLARI — `arac/`, koşu bitmeden dokunulmaz
+
+| kalem | dosya | ne |
+|---|---|---|
+| 5.1 | `denetle.py:262-268` | yorum hâlâ `neden:"devletsiz"` diyor; cins **`bos:`**a yazılır |
+| 5.2 | `uret_petek.py` | `girdi dosyaları SERBEST` satırı **YANILTICI** — koşuyu öldürmez ama çıktıyı bayatlatır. Bu satır 2 Eylül'de 10,5 saat kaybettirdi |
+| 5.3 | `uret_petek.py:4354` | `kesilen … km²` → `km²·dönem (AYRIK ALAN DEĞİLDİR)` — *(2192eab ile yapıldı, doğrula)* |
+| 5.4 | `veri-kaynak/motor_kara.geojson` | adı yanıltıcı: motorun ÇİZDİĞİ kara, NE maskesi değil. `motor_cizdigi_kara.geojson` olmalı — dört aracı bağlar |
+| 5.5 | `kimlik_sina.py` | scratchpad'de; `arac/` altına alınsın (üç kapı + üç haneli yıl düzeltmesi içinde) |
+
+---
+
+# ⑥ SIRA — bağımlılık zinciri
+```
+① künye  →  ② renk  →  ③ nokta  →  koşu 4
+   ↑                        ↑
+   1.6 KAMERIKA listesi    zincirler kimliksiz inemez
+```
+🔴 **Sıra atlanamaz** (`§6`): kimliği olmayan nokta petek üretir ama
+boyanmaz; rengi olmayan kimlik harita deliği açar.
+🟢 Ama ① ve ② **aynı gün** yapılabilir, ③ de. **KOŞU aynı gün
+yapılamaz** (~10,5 saat).
+
+## Her adımdan sonra
+```bash
+py arac/denetle.py         # altı değişmez
+py arac/renk_olc.py        # 🔴 VERİ DEĞİŞTİYSE ŞART — palet verinin fonksiyonudur
+py arac/durum_tablosu.py --yaz
+```
