@@ -368,3 +368,87 @@ harita ise Liberya'yı bir asır Britanya boyardı
 ```
 📌 Üç kapı da **biçimseldir**; **tarihî doğruluğu hiçbiri ölçmez.**
 Onu yalnız kaynağı okumak verir.
+
+---
+
+# 🔴🔴 BİTİŞ ÖLÇÜTÜ 3 EYLÜL ÖĞLEDEN SONRA İKİ KEZ DEĞİŞTİ
+*(ikisini de işçi oturumlar ölçerek buldurdu — `DUNYA-AFRIKA-0903`,
+`DUNYA-OKYANUSYA-0903`, `DUNYA-SIBIRYA-0903`)*
+
+## ⑧ ÖLÇÜT ZAMAN KÖRÜ — `hücre` değil `hücre·yıl`
+
+`arac/_dunya_bosluk.py` `kur:` alanına **bakmaz**, noktayı 1281'den
+1923'e var sayar. **Motor bakar:** `petek_epok()` `kur:`dan önce
+peteği komşuya devreder.
+⇒ Sömürge dönemi kasabalarıyla dolan bir kutu *"zamansız"* ölçütte
+**bitmiş** görünür ve kullanıcı zaman çubuğunu 1400'e çektiğinde
+**boş** olur.
+
+**Ölçüldü — ve şiddeti bölgeye değil ADAYIN CİNSİNE bağlı:**
+```
+                      zamansız   erken kesit    fark
+dünya (2°, canlı)         2005    1300: 2257    +252
+Kuzey Afrika (kadîm vaha)   87    1400:   90    FARK YOK
+Sahra altı (sömürge)        66    1400:  750    +684
+Sibirya (ostrog)           205    1300:  351    +146
+Okyanusya (1788 sonrası)   294    1400:  856    +562
+```
+🔴 **Okyanusya en keskin vaka:** atlasın 642 yılının **570'inde**
+%87,5 açık, ve 69 kasaba kaydı yalnız **son 73 yıla** hizmet ediyor.
+
+⇒ **YENİ BİRİM:**
+```
+ESKİ  "bu kayıt kaç hücre kapatıyor"
+YENİ  "kaç hücre × KAÇ YIL"  = hücre·yıl   (kur:'dan 1923'e)
+Karakurum  ~5 hücre × 642 yıl = 3210        ← 1281-1923 boyunca VARDI
+Camooweal   18 hücre ×  40 yıl =  720
+```
+⚠️ Ve bu **sıralamayı tersine çevirebilir**: hücre sayısıyla Camooweal
+önde, hücre·yıl ile Karakurum.
+🟢 **Kapanma raporunuzda İKİ SAYI olsun:** kaç hücre · ve kaç yıl.
+
+## ⑨ BİR KESİTİN «AÇIK» SAYISI ÜÇE BÖLÜNMEDEN BORÇ DEĞİLDİR
+
+`DUNYA-SIBIRYA-0903` 1300 kesitini böldü:
+```
+351 açık = 253 BEYANLI (%72,1)
+         +  41 ÖLÇÜLEMEDİ (Altay-Sayan 27 · Vasyugan 14)
+         +  57 ARAŞTIRILMAMIŞ (%16,2)
+```
+⇒ Gerçek borç **351 değil 57.**
+```
+🟢 BEYANLI        cinsi yazılmış · cevap VERİLMİŞ   → borç DEĞİL
+🟡 ÖLÇÜLEMEDİ     alet o zonu cevaplamıyor          → kalem AÇIK
+🔴 ARAŞTIRILMAMIŞ hiç bakılmadı                     → GERÇEK BORÇ
+```
+📌 `§11`in *"ölçülemedi ≠ temiz"* kuralının boşluk yüzü — **ve tersi
+de doğru: beyanlı ≠ borç.** İkisini tek sayıda toplamak, Emre'nin
+*"devasa boşluklar olacaksa olsun"* hükmünü bir **kusur listesine**
+çevirir.
+
+## 🔴 VE EN ÖNEMLİSİ: AYNI SAYI İKİ BÖLGEDE İKİ AYRI ŞEY
+```
+Sibirya'da   1300'ün boşluğu büyük ölçüde GERÇEK — sabit yerleşim ağı
+             Rus ostroglarıyla kuruldu, öncesinde kalıcı kasaba YOKTU
+             ⇒ oraya nokta aramak, OLMAYAN ŞEYİ aramaktır
+Afrika'da    1400'ün boşluğu KADÎM YERLEŞİM EKSİKLİĞİ olabilir —
+             Timbuktu · Cenne · Kano · Gao çağında şehir VARDI
+Okyanusya'da 1788 öncesi kasaba yok ⇒ kapanma NOKTAYLA değil
+             BEYANLA olur; 43 beyan, 69 kasabadan DAHA ÇOK yıla hizmet eder
+```
+⇒ **Bu ölçüm hangi boşluğun DOĞRU, hangisinin EKSİK olduğunu
+SÖYLEMEZ.** Onu ancak kaynak söyler.
+
+## ⑩ VE BİR KAYDIN SINIFI DA ÖLÇÜLÜR, YALNIZ TARİHİ DEĞİL
+
+`DUNYA-OKYANUSYA-0903`un en yüksek katkılı dört adayından biri
+(**Tanami**, 18 hücre) ölçülünce **kasaba değilmiş** çıktı: NT
+Geological Survey — altın 1900, kısa altına hücum **1932**, modern
+madencilik 1986. **1281-1923 ufkunda kalıcı yerleşim YOK.**
+⇒ Nokta yazılsaydı **var olmayan bir kasaba** haritaya girecekti.
+14 hücresi `bos:"kabile"` (Warlpiri toprağı) ile kapanır.
+📌 `M-2452`nin (*"`kur:` geriye çekilmez"*) kardeşi: orada **tarih**
+uydurmaktan, burada **varlık** uydurmaktan kurtardı.
+
+**Taban ve araç:** `denetim/BULGU-BOSLUK-EGRISI-0903.md` ·
+`denetim/ARAC-BOSLUK-EGRISI-0903.py`
