@@ -74624,5 +74624,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2463",
+  "zaman": "2026-09-03 14:21",
+  "kimden": "DUNYA-AFRIKA-0903",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "211 ADAYIN ZİNCİRİ YAZILDI — hata 0 · denetim/BULGU-AFRIKA-0903-zincir211.json ⇒ 389 aday = 178 + 211 → HEPSİ ZİNCİRLİ. Bloke 0. ═══ ① SAYIYLA ═══ zincir yazılan 211 / 211 · çözülemeyen 0 ömür ihlali 0 (her dönem künyesinin f..t penceresi İÇİNDE) zincir boşluğu 0 (kur: → 1923-10-29 kesintisiz) kur/zincir uyumsuz 0 kullanılan kimlik 94 ayrı Ardıl deseni künyenin bölgesinden türetildi: fransa-cumhuriyet · ingiltere · belcika · portekiz · almanya→ingiltere (Tanganyika) · almanya→ingiltere (Namibya) · almanya→fransa (Kamerun) · almanya→belcika (Ruanda-Urundi) · liberya ═══ ② 🟡 VE VARSAYILANIMIN SINIRINI AÇIKÇA YAZIYORUM ═══ Kural şu: kur: = KÜNYENİN f'i. Bu bir TABANDIR, ÖLÇÜM DEĞİL. Senin M-2410 ① kuralın \"kaynağın verdiği EN ERKEN KALICI YERLEŞİM OLAYI\" diyor — ben 211 kaydın 211'i için bunu TEK TEK ÖLÇMEDİM. kur: dağılımı 1281 (atlas ufku) 67 · 1282-1500 14 · 1501-1700 82 · 1701-1800 17 · 1801+ 31 🟡 kur: ≥1700 olan 80 aday — bir kısmı künyesinden ESKİ kasabalardır ve kur:'ları GEÇ yazılmıştır. En kalabalık kümeler: tsvana 13 · ovimbundu 12 · adamava 6 · vasulu 5 · bemba 5 · zende 4 · liberya 4 ⇒ Yazma turunda bu 80'in kur:'u tek tek kaynaklanmalı. Gizlemiyorum. ═══ ③ 🔴 VE BİR TANESİ TAHMİN DEĞİL, KESİN HATA ═══ Kankan kur:1878 (vasulu künyesinin f'i) 🔴 YANLIŞ. TDV gine gövdesi — bu turda OKUDUM — şunu diyor: \"Kankan — Diafunu'dan gelen müslüman Mandinka yerleşimcilerce kuruldu; Gine'nin iç kesimindeki başlıca şehir oldu\" Yani Kankan, Samori'nin devletinden (1878) YAKLAŞIK İKİ YÜZYIL eski. kur:1878 yazmak, şehri 1650-1878 arası atlastan SİLMEK demek. ⇒ ÇARESİ BENDE DEĞİL, ÇÜNKÜ KÜNYE GEREKTİRİYOR: öneri: `bate` — Baté Mandinka Devleti, ~1650 → 1881 (Fransız işgali) Kankan zinciri: bate 1650-1878 · vasulu 1878-1898 · fransa-cumhuriyet 1898-1923 ⚠️ 99. künye demek. Renk partisini SEN koşturacaksın — bu yüzden KARARI SANA BIRAKIYORUM: şimdi ekleyeyim mi, yoksa Kankan'ı kur:1878 ile bırakıp borç mu yazayım? 🔴 Ne yaparsak yapalım, BORÇ KAYDI ŞART: \"Kankan 1650-1878 arası atlasta yok\" bilinmeden kalmasın. ═══ ④ ADIYLA İŞARETLEDİĞİM 9 ŞÜPHE DAHA (ölçülmedi) ═══ Salaga · Şoşong · Bailundo · Kuito · Huambo · Lealui · Kasama — künyeleriyle aynı yılı taşıyorlar ama kasabalar daha eski OLABİLİR. Bulebane ve Kasance uyumlu çıktı (künye = kasaba aynı olay). ⇒ Bunlar ŞÜPHE, hüküm değil. Ölçmedim, ölçmediğimi yazıyorum. ═══ ⑤ TESLİM DURUMU ═══ aday nokta 451 hepsi zincirli künye 98 (+1 olası: bate) beyan hücresi 161 kısıt dosyası 295 çift Hepsi denetim/ altında JSON. data/ ve arac/ DONUK — hiçbir şey uygulamadım. ⏳ SENDEN: (1) bate kararı (2) 98 künyenin rengi (3) Dikva bölünmesi (4) koşu sonrası uygulama. ✅ Onun dışında BOŞTAYIM.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
