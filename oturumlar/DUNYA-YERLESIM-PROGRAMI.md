@@ -73,14 +73,59 @@ Sibirya tundrası, Amazon'un derinliği.
 **Her açık hücre iki yoldan biriyle kapanır:**
 ```
 ① KAYNAKLI NOKTA   o hücrede 1281-1923 arası bir yerleşim VARDI
-② BEYAN            yoktu — ve CİNSİ yazılır:
-     neden:"devletsiz"  kaynak AÇIKÇA konuşuyor ("burada devlet yoktu")
-     neden:"veri-yok"   kaynak SUSUYOR (hiç tartışmıyor)
+② BEYAN            yoktu — `kasitli_bosluk:true` + `bos:` + `neden:`
 ```
-⚠️ İkisi haritada aynı görünür; fark **bir sonraki oturum içindir** —
-`devletsiz`e bir daha bakılmaz, `veri-yok`a bakılır.
-🔴 **Cinsi yazılmamış boşluk kabul edilmez.** Bugün 97 noktanın cinsi
-yazılı değil; o borcu büyütmeyin.
+
+### 🔴 BU BÖLÜM 3 EYLÜL'DE DÜZELTİLDİ — ilk hâlinde ÜÇ YANLIŞ vardı
+`DUNYA-OKYANUSYA-0903` ölçtü ve **altı oturumu birden** bağlayan bir
+kusuru daha ilk saatte yakaladı. İlk hâli şöyleydi ve **üçü de yanlıştı**:
+> ~~*"CİNSİ yazılır: `neden:"devletsiz"` · `neden:"veri-yok"`"*~~
+> ~~*"Bugün 97 noktanın cinsi yazılı değil; o borcu büyütmeyin."*~~
+
+```
+① YANLIŞ ALAN   cins `neden:`e değil `bos:`a yazılır
+   girdi.py:831  "bos": "boşluğun CİNSİ: devletsiz | veri-yok | kabile |
+                         insansiz | hata"
+   girdi.py:840  "neden": "kasitli_bosluk'un gerekçesi — niçin kasten boş"
+   ÖLÇÜM: 201 kaydın 201'i `bos:` kullanıyor · `neden:`e cins yazan 0
+② EKSİK KOVA    İKİ değil BEŞ kova var
+   devletsiz 120 · kabile 51 · veri-yok 14 · insansiz 9 · hata 7
+③ BAYAT BORÇ    "97 noktanın cinsi yazılmamış" — ÖLÇÜM: 0. BORÇ ÖDENMİŞ.
+   O sayı 10 Ağustos kaydından; `bos:` alanı 12 Ağustos'ta doğmuş.
+   ⇒ 3 Eylül şartnamesine İKİ GÜN ÖNCESİNİN sayısı kopyalanmış.
+```
+
+🔴 **VE KÖKÜ BENİM ŞARTNAMEMDE DEĞİL:** `arac/denetle.py:262-268`
+yorumu hâlâ eski anlatıyı (`neden:"devletsiz"`) yazıyor, ve
+`CLAUDE.md §11`in Sibirya dersi de öyle. Ders **doğru**, alan adı
+**yanlış** — ve o yanlış yorumdan belgeye, belgeden şartnameye,
+şartnameden altı oturuma yayıldı.
+📌 `§11`in *"bir ders veriye SERBEST METİN olarak inerse inmiş
+sayılmaz"* dersinin **ters yüzü**: burada ders veriye doğru inmişti
+(`bos:` alanı var ve 201 kayıt kullanıyor), **anlatı** geride kalmıştı.
+
+### DOĞRU BİÇİM
+```javascript
+kasitli_bosluk:true,
+bos:"devletsiz",          // BEŞ kovadan biri — cins BURAYA
+neden:"TDV `x` maddesi: '...' — merkezî devlet tarif etmiyor",  // GEREKÇE
+```
+```
+devletsiz   kaynak AÇIKÇA konuşuyor: "burada merkezî devlet yoktu"
+            🔴 Bu bir İDDİADIR ve kaynak ister
+veri-yok    kaynak SUSUYOR — fetih öncesini hiç tartışmıyor
+kabile      kaynak SUSMUYOR ama merkezî devlet de TARİF ETMİYOR —
+            klan/iwi/hapu/boy örgütlenmesi anlatıyor
+            ⚠️ Aborijin · Māori · Kuzey Amerika yerli toplumları
+            çoğunlukla BURAYA girer; `devletsiz` demek onları YANLIŞ
+            işler, `veri-yok` demek ARAŞTIRILMAMIŞ gösterir
+insansiz    yerleşim yok (buzul · iç çöl · yüksek plato)
+hata        veri kusuru — düzeltilecek, kalıcı beyan DEĞİL
+```
+⚠️ Beşi de haritada aynı görünür; fark **bir sonraki oturum içindir.**
+🔴 **Cinsi yazılmamış boşluk kabul edilmez** — ve `neden:`e cins
+yazarsan `denetle.py` onu **cinsi yazılmamış sayar**: beyan yazılır,
+makine görmez. (Timbuktu vakasının aynısı, `§11`.)
 
 ---
 
