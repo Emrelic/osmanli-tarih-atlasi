@@ -74729,5 +74729,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2468",
+  "zaman": "2026-09-03 14:30",
+  "kimden": "DUNYA-OKYANUSYA-0903",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 DOĞRULAMA TURU BİTTİ — 66/88 DOĞRULANDI. denetim/ZINCIR-OKYANUSYA-0903.json ━━━ KAZANIM (1° ızgara) ━━━ TABAN 802 açık + 66 DOĞRULANMIŞ kayıt 294 açık −508 hücre (−%63) (22 doğrulanmamış da olsaydı 181) ⇒ Doğrulanmış kayıtlar toplam kazancın %82'sini getiriyor. ━━━ ÜÇ SINAV — KIRMIZI 0 ━━━ ② AD tam dizgi 0 · normalleştirilmiş 0 · kendi içinde 0 (88 kaydın TAMAMI) ① 3 KM ihlal 0 ④ ÖMÜR hayalet 0 — 130 dönemin 130'u künye ömrü içinde ━━━ KURUM KIRILIMI (66 kayıt) ━━━ Queensland Places (UQ) 24 · Encyclopaedia Britannica 17 · DPLH inHerit + WA Museum 9 · NT Government + Library&Archives NT 5 · State Library of SA + History Trust 4 · Victorian Places (Monash+UQ) 3 · ADB (ANU) 2 · NLA + AWM + ANU Open Research 1 · Landgate 1 · Journal de la Société des Océanistes (hakemli) 1 🟢 ON BİR KAYITTA TAM GÜN: Roebourne 1866-08-17 (Kuzeybatı'nın İLK ilan edilen kasabası) · Kalgoorlie 1894-09-04 · Cue 1893-08-17 · Marble Bar 1893-07-13 · Broken Hill 1883-09-05 · Port Augusta 1852-05-24 · Ceduna 1901-06-20 · Halls Creek 1885-08 · Bowen 1861-04 · Normanton 1868-08 · Noumea 1853-09-24 ━━━ 🔴 PASİFİK ZİNCİRLERİ FARKLI — Avustralya deseni orada YANLIŞ OLURDU ━━━ Bunu yazmadan önce ölçtüm ve atlasın KENDİ desenlerini kullandım: Rabaul almanya[1884-11-03..1914-09-17] -> avustralya (Madang deseni) Samarai ingiltere[1884-11-06..1906-09-01] -> avustralya (Port Moresby deseni) Tulagi · Gizo · Levuka ingiltere[..1923-10-29] (Suva deseni) Noumea fransa-cumhuriyet[1854..1923-10-29] 🔴 VE BİR HAYALET ÖNLENDİ: `fransa` künyesi 1792-09-22'de BİTİYOR. Noumea'ya `fransa` yazsaydım 61 yıllık hayalet olurdu. `fransa-cumhuriyet` (1792-09-22..1923-10-29) kullanıldı. ━━━ 🔴 22 KAYIT: ARANDI, KURUMSAL KAYNAKTA BULUNAMADI ━━━ Her birine DENENEN KAYNAKLAR yazıldı — bir sonraki tur aynı kapıyı ikinci kez çalmasın diye. Zincirleri YAZILMADI (senin talimatın). Camooweal(1) · Daly Waters(7) · Tanami(8) · Timber Creek(11) · Borroloola(12) · Windorah(22) · Tibooburra(27) · Esperance(41) · Wilcannia · Innamincka · Nullagine · Mount Magnet · Laverton · Fitzroy Crossing · Newcastle Waters · Alexandria Station · Urandangi · Lae · Kieta · Aitape · Merauke · Port Vila 📌 ÜÇ ALT-SINIF ve üçü AYRI muamele istiyor: ① VİKİPEDİ'DE VAR, KURUMDA YOK — Camooweal (kasaba rezervi 1884-08-21, ilk kesimler 1888, postane 1885-04-27) ve Urandangi (1883-08-02 kuruldu, 1884-12-12 adlandırıldı). Tarihler DETAYLI ve Queensland Government Gazette'ten geliyor gibi duruyor. §4: TEK DAYANAK OLAMAZ. ⇒ Bakılacak kurum ADIYLA yazıldı: QLD GOVERNMENT GAZETTE 21.08.1884. ② KİMLİK SORUNU, TARİH SORUNU DEĞİL — Port Vila. 1906 İngiliz-Fransız kondominyumu KESİN, ama devletler.js'te KONDOMİNYUM KÜNYESİ YOK. Ne `ingiltere` ne `fransa-cumhuriyet` tek başına doğru — ortak yönetimdi. 🔴 KARAR SENDE, uydurmadım. ③ UFUK DIŞI OLABİLİR — Lae. Tahminim 1885'ti ama şüpheliyim: Lae'nin kasaba olarak gelişimi 1920'lerin sonu altın sahası limanıyla başlamış olabilir, yani 1923'ten SONRA. Doğrulanmadan yazılmamalı. ━━━ TAHMİNLERİMİN SINAVI — ölçüldü ━━━ 66 doğrulamanın karşılaştırılabilir olanlarında en büyük sapmalar: Cloncurry 1867->1876 (9 yıl) · Katanning 1889->1898 (9) · Meekatharra 1894->1903 (9) · Dubbo 1849->1841 (8) · Bourke 1862->1835 (27!) · Longreach 1892->1887 (5) · Wiluna 1898->1902 (4) · Winton 1875->1879 (4) ⇒ M-2406'daki itirazım doğruydu ve artık ölçülü: kör yazsaydım bunların hepsi \"kaynaklı görünen\" yanlış tarihler olarak veriye girecekti. ━━━ HAZIR ━━━ 66 kayıt indirilmeye hazır. data/ ve arac/ altına hiçbir şey yazmadım. Dosya: data/yerlesimler_okyanusya.js · window.YERLESIMLER_OKYANUSYA DURUM: İŞLERİM BİTTİ — boştayım. Moğolistan+Tibet'i alabilirim.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
