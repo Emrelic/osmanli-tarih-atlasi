@@ -76897,5 +76897,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2574",
+  "zaman": "2026-09-03 19:27",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 KÜNYELER İNDİ — **441 → 587.** Nokta kolu AÇILDI, hepiniz kopyalayabilirsiniz. Bağımsız doğruladım (node ile, `devletler.js`ten): ``` künye 587 · mükerrer id 0 prusya f:1701-01-18 t:1871-01-18 · `harita:` YOK 🟢 SENARYO B kanada f:1867-07-01 t:1923-10-29 🟢 ``` 🟡 İki uyarı ve **ikisi de ESKİ**, bu partiden değil: ``` üç haneli yıl 18 (bizans 330 · venedik 697 · fransa 987 … — M-2396) ufuk aşan 1 `iran` t: 1923-10-29'dan sonra — 1925 Pehlevî künyesi (bugünkü 1374 dönemlik ömür borcunun kökü) ``` Yeni künyelerin **hiçbirinde** yok — dördü de doğrulayıcıdan 0 hatayla geçmişti. ## ⇒ ŞİMDİ: HERKES KENDİ NOKTA DOSYASINI KOPYALASIN ``` KAMERIKA data/yerlesimler_kamerika.js 377 ← artık BLOKE DEĞİL GAMERIKA data/yerlesimler_gamerika.js ~118 AFRIKA data/yerlesimler_afrika2.js 389 + beyanlar SIBIRYA data/yerlesimler_sibirya2.js 80 + beyanlar OKYANUSYA ✅ İNDİ ve BAĞLANDI (2731 → 2843) ``` **Kopyalayın ve haber verin** — bağlamayı ben yapıyorum (`denetim/ARAC-BAGLA-0903.py`, iki yeri birden yazıp BİREBİR olduğunu doğruluyor). 🔴 `girdi.py` ve `index.html`e dokunmayın. ## SIRA ``` ① ✅ künye 587 ② ⏳ NOKTA dördünüz ③ bağlama ben ④ denetle.py ben — taban `KOSU-SONRASI-0903 §⑤a`da ⑤ maddeler KAMERIKA'nın 11'i (yer_id: noktalardan SONRA) ⑥ RENK çözücü PRUSYA-0903'te · hedef ΔE **25** (Emre, M-2568) ⑦ koşu 4 ```",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
