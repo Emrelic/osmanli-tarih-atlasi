@@ -1,5 +1,5 @@
 {
- "_NOT": "DUNYA-SIBIRYA-0903 · 3 Eylül 2026 · ARAŞTIRMA turu çıktısı. Bu bir KUYRUK dosyasıdır, VERİ DEĞİLDİR (M-2413 ②: `bos:` beş kova veri alanı, kuyruk sınıfları denetim/ altında yaşar). data/ altına indirmek koordinatörün işi. Ayrıntılı gerekçe ve kaynak künyeleri: denetim/BULGU-SIBIRYA-0903.md · İKİNCİ KAYNAK TURU işlendi (3 Eylül, öğleden sonra). · ÜÇÜNCÜ TUR: 3 km sınavı · hongoray taşıyıcısı · altı halkın sınıflandırması. · DÖRDÜNCÜ KAYNAK TURU. · BEŞİNCİ TUR: ölçüt zaman körü (M-2472) kutuda ölçüldü. · ALTINCI TUR: M-2478'in 1300 ayrımı.",
+ "_NOT": "DUNYA-SIBIRYA-0903 · 3 Eylül 2026 · ARAŞTIRMA turu çıktısı. Bu bir KUYRUK dosyasıdır, VERİ DEĞİLDİR (M-2413 ②: `bos:` beş kova veri alanı, kuyruk sınıfları denetim/ altında yaşar). data/ altına indirmek koordinatörün işi. Ayrıntılı gerekçe ve kaynak künyeleri: denetim/BULGU-SIBIRYA-0903.md · İKİNCİ KAYNAK TURU işlendi (3 Eylül, öğleden sonra). · ÜÇÜNCÜ TUR: 3 km sınavı · hongoray taşıyıcısı · altı halkın sınıflandırması. · DÖRDÜNCÜ KAYNAK TURU. · BEŞİNCİ TUR: ölçüt zaman körü (M-2472) kutuda ölçüldü. · ALTINCI TUR: M-2478'in 1300 ayrımı. · YEDİNCİ TUR: Ural bloğu ölçüldü, TDV slug taraması, iki zonun gerekçesi.",
  "oturum": "DUNYA-SIBIRYA-0903",
  "kutu": {
   "latG": 50,
@@ -45,7 +45,8 @@
   "garkusha2019": "Гаркуша Ю.Н., Проблема соотношения археологического «городища» и исторического «городка»… (на примере городища Усть-Войкарское — Войкарского городка), Вестник Новосибирского гос. университета. Серия: История. Филология, 2019 (cyberleninka)",
   "okrlib": "Государственная библиотека Югры (okrlib.ru) — 1637 Samarovskiy ve Demyanskiy yamları",
   "prlib": "Президентская библиотека им. Б.Н. Ельцина (prlib.ru) — Çaus ostrogu 1713",
-  "ez-chita": "Энциклопедия Забайкалья (ez.chita.ru) — Sretensk 1689"
+  "ez-chita": "Энциклопедия Забайкалья (ez.chita.ru) — Sretensk 1689",
+  "tdv-baskirt": "TDV islamansiklopedisi.org.tr/baskirt — HTTP 200, gövde okundu. ⚠️ `baskurt` slug'ı da 200 döner ama GÖVDESİ YALNIZCA ÇAPRAZ GÖNDERMEDİR ('bk. BAŞKIRT Orta Asya Türk kavimlerinden.') — §4 tuzağının BEŞİNCİ alt-sınıfı"
  },
  "adaylar": [
   {
@@ -956,14 +957,16 @@
    "hucre": 7,
    "km2": 184248,
    "onerilen_bos": null,
-   "olcut": "ÖLÇÜLEMEDİ — Hantı/Selkup için kaynak ARANMADI"
+   "olcut": "ÖLÇÜLEMEDİ — Hantı/Selkup için kaynak ARANMADI",
+   "NICIN_OLCULEMEDI": "Hantı ve Selkup siyasî örgütlenmesi için kaynak ARANMADI. Bu turda TDV slugları SINANDI ve HEPSİ ÖLÜ: hanti · hantiler · selkup · ostyak · vogul · mansi · ket · nganasan · yukagir · evenk · even · hakas · altay-turkleri (13 slug, 13'ü de 302). ⇒ TDV bu halkları KAPSAMIYOR (coğrafî boşluk, §4) ve akademik literatüre BAKILMADI. Artık «aranmadı» değil «TDV'de arandı ve YOK; akademik kaynak aranmadı»."
   },
   {
    "zon": "Altay-Sayan-Baykal kuşağı",
    "hucre": 6,
    "km2": 184374,
    "onerilen_bos": null,
-   "olcut": "ÖLÇÜLEMEDİ — ⚠️ bir kısmı beyan değil NOKTA işi olabilir"
+   "olcut": "ÖLÇÜLEMEDİ — ⚠️ bir kısmı beyan değil NOKTA işi olabilir",
+   "NICIN_OLCULEMEDI": "Bu zon BEYAN olmayabilir: içinde Hongoray (Yenisey Kırgızları) ve Altay boylarının toprağı var, yani kaynak SUSMUYOR — ama ben zona zon düzeyinde hiç sormadım. Hongoray'ı ayrı bir künye olarak ölçtüm; kuşağın geri kalanını (Altay · Tuva batısı · batı Baykal) AYIRMADIM. ⇒ «kaynak sustu» değil «ben sormadım»."
   },
   {
    "zon": "Kamçatka-Koryak",
@@ -1317,7 +1320,32 @@
      "OLCUM": "Bu kutuda MEVCUT nokta sayısı 4, ve ÜÇÜ 1300'de sahnede DEĞİL (Perm kur:1723 · Kungur kur:1648 · Orsk kur:1735). Yalnız Tümen (Çimgi-Tura) 1300'de sahnede ve sahibi `altinorda`.",
      "HUKUM": "🔴 BU BİR «DEVASA BOŞLUK» DEĞİL, GERÇEK BİR ARAŞTIRMA BORCU. 1300'de burası Altın Orda tâbiiyetindeki Başkurt ülkesiydi. `altinorda` künyesi VAR ve kutumda ZATEN 9 noktada kullanılıyor (hepsi 65°D'nin DOĞUSUNDA). Eksik olan 65°D'nin BATISINDA XIV. yüzyıl noktası.",
      "KUNYE_BOSLUGU": "`baskurt` künyesi YOK. M-2425 ölçütüne göre aşiret konfederasyonu KÜNYE ALIR (emsal `turkmen`·`nogay`·`komanci`) ⇒ künye adayı olabilir — ama BU TURDA ÖLÇMEDİM.",
-     "damga": "HİPOTEZ — coğrafya ve künye kullanımı ölçüldü, Başkurt yerleşimleri ARANMADI"
+     "damga": "🟢 HİPOTEZ DEĞİL ARTIK — ÖLÇÜLDÜ (TDV `baskirt` gövdesi + atlasın kendi zincirleri)",
+     "OLCUM_2": {
+      "_ne": "TDV `baskirt` Ufa'yı Başkurdistan'ın merkezi diyor. UFA ATLASTA VAR. Zinciri ne diyor?",
+      "atlasin_zincirleri": {
+       "Ufa (54,74/55,97)": "kur:1574-01-01 · s: 1574 → rusya  🔴 BAŞKURT/ALTIN ORDA DÖNEMİ YOK",
+       "Sterlitamak": "kur:1766 · s: 1766 → rusya",
+       "Birsk": "kur:1663 · s: 1663 → rusya",
+       "Orenburg": "kur:1743-04-30 · s: → rusya",
+       "Orsk": "kur:1735-08-31 · s: → rusya",
+       "Kungur": "kur:1648 · s: → rusya",
+       "Perm": "kur:1723 · s: → rusya",
+       "Aktöbe": "kur:1869 · s: → rusya",
+       "Çerdın (istisna)": "kur:— · s: 1281 novgorod → 1478 moskova → 1547 rusya  (Perm-Komi kuzeyi, BAŞKURT DEĞİL)",
+       "Tümen (istisna)": "kur:— · s: 1281 altinorda → 1430 sibir-hanligi → 1598 rusya  (bloğun DOĞUSUNDA)"
+      },
+      "HUKUM": "🔴 Bu 24 hücre bir «kapsama eksiği» DEĞİL, bir VERİ EKSİĞİ. Bölgenin başkentindeki nokta (Ufa) atlasa 1574'te giriyor ve doğrudan `rusya` ile başlıyor — yani Başkurt/Altın Orda çağı veride HİÇ YOK, yalnız ızgarada değil. Bloğun tamamında 1281-1574 arası kimlik taşıyan tek nokta Çerdın (novgorod) ve o da Başkurt değil Perm-Komi kuzeyi.",
+      "TDV_ZINCIR_ISKELETI": {
+       "1281-1481": "Moğol/Altın Orda hâkimiyeti — TDV: Moğol ordularında süvari kuvveti oluşturdular",
+       "1481-": "«Bu devletin parçalanması (1481) üzerine Ak İdil ve Kama nehirlerinin doğusunda yaşayanları ŞIBANOĞULLARI idaresi altına girdiler»",
+       "1552 / 1556": "«1552'de Kazan'ı, 1556'da Astarhan'ı işgal eden Ruslar'ın Başkırtlar üzerine yürümelerine yol açtı»",
+       "1649": "TDV'nin verdiği tâbiiyet tarihi",
+       "1919": "«1919'da yine A. Zeki Velidi başkanlığında Başkırt Otonom Cumhuriyeti'ni kurdular»"
+      },
+      "KAYNAK_CELISKISI": "🔴 ÇÖZMÜYORUM, BİLDİRİYORUM: TDV tâbiiyeti 1649 diyor; ama atlasın kendi Ufa kaydı 1574'te Rus idarî merkezi olarak kuruluyor ve standart akademik anlatı Başkurt tâbiiyetini 1554-1557'ye koyar. ÜÇ TARİH VAR ve hangisinin hangi olayı adlandırdığını ÖLÇMEDİM. §7.1⑥ — kaynaklar çelişiyorsa hüküm koordinatörün.",
+      "KUNYE": "`baskurt` künyesi YOK. TDV maddesi var (`baskirt`, gövde okundu) ⇒ §4 gereği TDV birincil kaynak. M-2425 ölçütü: teritoryal ✓ (Başkurdistan, merkezi Ufa) · DATABLE bitiş ✓ (tâbiiyet — ama TARİHİ ÇELİŞKİLİ, yukarı bak). ⚠️ Ayrıca `sibanogullari`/`seybani` künyesi de aranmadı."
+     }
     },
     "② Amur ve aşağı Amur (51-59K / 132-138D + 53K/158D)": {
      "hucre": 9,
@@ -1334,5 +1362,399 @@
    },
    "OLCULMEDI_2": "57'nin 33'ü (② ③ ④) için hiçbir hipotezim yok; yalnız ①'i inceledim."
   }
+ },
+ "m2494_uc_kova": {
+  "_not": "M-2494 — kaynak KADEMESİ (A/B/C) ile tarih KOVASI (bulundu/türetildi/yazıldı) AYRI EKSENLERDİR; bir kayıt hakemli kaynaktan gelip yine de TÜRETİLMİŞ olabilir",
+  "sayim": {
+   "BULUNDU": 56,
+   "TÜRETİLDİ": 11,
+   "YAZILDI": 13
+  },
+  "kademe_x_kova": {
+   "A/BULUNDU": 37,
+   "B/TÜRETİLDİ": 9,
+   "B/BULUNDU": 19,
+   "A/TÜRETİLDİ": 2,
+   "C/YAZILDI": 13
+  },
+  "turetilenler": {
+   "Nijneudinsk": "kaynak 'POKROV gününde' diyor; 1 Ekim (Julien) olarak ÇEVRİLDİ",
+   "Balagansk": "kaynak 'Mayıs-Haziran 1654' diyor; ayın 1'i SEÇİLDİ",
+   "Ust-Koksa (Uymon)": "kaynak '1720'ler' diyor; on yıl bandının başı SEÇİLDİ",
+   "Hantayka zimovyesi": "kaynak 'ОКОЛО 1610' (yaklaşık) diyor",
+   "Markovo": "kaynak '1840'lar' diyor; on yıl bandının başı SEÇİLDİ",
+   "Ust-Maya": "kaynak '1844-45 traktının durağı' diyor; İSTASYONA ÖZEL kuruluş cümlesi YOK",
+   "Nelkan": "kaynak '1844-45 traktının durağı' diyor; İSTASYONA ÖZEL kuruluş cümlesi YOK",
+   "Onguday": "🔴 kaynak '1891'e gelindiğinde önemli transit noktasıydı' diyor — bu bir KURULUŞ CÜMLESİ DEĞİL",
+   "Troitsk": "kaynak 'Uy hattı 1739-1743' diyor; KALEYE ÖZEL tarih değil HAT düzeyinden türetildi",
+   "Nadım gorodok": "kaynak 'XII. yy sonu' diyor; kur: ATLAS UFKUNA (1281) çekildi",
+   "Voykar gorodok": "kaynak 1594-95 olaylarına atıfla XVII. yy başı diyor; kur: ATLAS UFKUNA çekildi"
+  },
+  "kayit_kayit": {
+   "Çelyabinsk": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Kurgan": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Zlatoust": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Dalmatovo": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Kamışlov": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Yalutorovsk": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Verhoturye": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Turinsk": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Irbit": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Yekaterinburg": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Nijniy Tagil": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Troitsk": {
+    "kova": "TÜRETİLDİ",
+    "gerekce": "kaynak 'Uy hattı 1739-1743' diyor; KALEYE ÖZEL tarih değil HAT düzeyinden türetildi"
+   },
+   "Pelım ostrogu": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Nadım gorodok": {
+    "kova": "TÜRETİLDİ",
+    "gerekce": "kaynak 'XII. yy sonu' diyor; kur: ATLAS UFKUNA (1281) çekildi"
+   },
+   "Narım": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Abakan ostrogu": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Sayansk ostrogu": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Belotsarsk (Kızıl)": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Verhneangarsk ostrogu": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Barguzin": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Bauntovsk": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Irgen": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Telembinsk": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Kabansk": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "İlyinsk": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Verhneudinsk": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Uyandina (Nijneindigirsk) zimovyesi": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Podşiversk": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Alazeya ostrogu": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Srednekolımsk": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Nijnekolımsk": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Ostrovnoye (Anyuy panayırı)": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Tauysk": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Yama zimovyesi": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Gijiga": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Penjinsk ostrogu": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Nijnekamçatsk": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Verhnekamçatsk": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Bolşeretsk": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Olyutorsk (Arhangelsk)": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Ust-Olenyok zimovyesi": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Voloçanka (Voloçanı zimovyesi)": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Verhnekolımsk": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Amga": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Markovo": {
+    "kova": "TÜRETİLDİ",
+    "gerekce": "kaynak '1840'lar' diyor; on yıl bandının başı SEÇİLDİ"
+   },
+   "Şadrinsk": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Kustanay": {
+    "kova": "YAZILDI",
+    "gerekce": "kaynak BULUNAMADI — tarih ön bilgidir"
+   },
+   "Ivdel": {
+    "kova": "YAZILDI",
+    "gerekce": "kaynak BULUNAMADI — tarih ön bilgidir"
+   },
+   "Lyapin (Saranpaul)": {
+    "kova": "YAZILDI",
+    "gerekce": "kaynak BULUNAMADI — tarih ön bilgidir"
+   },
+   "Voykar gorodok": {
+    "kova": "TÜRETİLDİ",
+    "gerekce": "kaynak 1594-95 olaylarına atıfla XVII. yy başı diyor; kur: ATLAS UFKUNA çekildi"
+   },
+   "Samarovo": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Demyanskoye": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Habarovo (Yugorsk Şarı)": {
+    "kova": "YAZILDI",
+    "gerekce": "kaynak BULUNAMADI — tarih ön bilgidir"
+   },
+   "Laryak (Vah)": {
+    "kova": "YAZILDI",
+    "gerekce": "kaynak BULUNAMADI — tarih ön bilgidir"
+   },
+   "Kolıvan (Çaus)": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Açinsk": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Kansk": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Minusinsk": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Samagaltay": {
+    "kova": "YAZILDI",
+    "gerekce": "kaynak BULUNAMADI — tarih ön bilgidir"
+   },
+   "Onguday": {
+    "kova": "TÜRETİLDİ",
+    "gerekce": "🔴 kaynak '1891'e gelindiğinde önemli transit noktasıydı' diyor — bu bir KURULUŞ CÜMLESİ DEĞİL"
+   },
+   "Ust-Koksa (Uymon)": {
+    "kova": "TÜRETİLDİ",
+    "gerekce": "kaynak '1720'ler' diyor; on yıl bandının başı SEÇİLDİ"
+   },
+   "Koş-Agaç": {
+    "kova": "YAZILDI",
+    "gerekce": "kaynak BULUNAMADI — tarih ön bilgidir"
+   },
+   "Nijneudinsk": {
+    "kova": "TÜRETİLDİ",
+    "gerekce": "kaynak 'POKROV gününde' diyor; 1 Ekim (Julien) olarak ÇEVRİLDİ"
+   },
+   "Balagansk": {
+    "kova": "TÜRETİLDİ",
+    "gerekce": "kaynak 'Mayıs-Haziran 1654' diyor; ayın 1'i SEÇİLDİ"
+   },
+   "Verholensk": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Bodaybo": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Vitim": {
+    "kova": "YAZILDI",
+    "gerekce": "kaynak BULUNAMADI — tarih ön bilgidir"
+   },
+   "Çara": {
+    "kova": "YAZILDI",
+    "gerekce": "kaynak BULUNAMADI — tarih ön bilgidir"
+   },
+   "Sretensk": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Çita": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Suntar": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Nyurba": {
+    "kova": "YAZILDI",
+    "gerekce": "kaynak BULUNAMADI — tarih ön bilgidir"
+   },
+   "Ust-Maya": {
+    "kova": "TÜRETİLDİ",
+    "gerekce": "kaynak '1844-45 traktının durağı' diyor; İSTASYONA ÖZEL kuruluş cümlesi YOK"
+   },
+   "Nelkan": {
+    "kova": "TÜRETİLDİ",
+    "gerekce": "kaynak '1844-45 traktının durağı' diyor; İSTASYONA ÖZEL kuruluş cümlesi YOK"
+   },
+   "Tigil": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Hantayka zimovyesi": {
+    "kova": "TÜRETİLDİ",
+    "gerekce": "kaynak 'ОКОЛО 1610' (yaklaşık) diyor"
+   },
+   "Dudinka ikinci nokta (Ust-Port hattı)": {
+    "kova": "YAZILDI",
+    "gerekce": "kaynak BULUNAMADI — tarih ön bilgidir"
+   },
+   "Sofiysk (Amur)": {
+    "kova": "YAZILDI",
+    "gerekce": "kaynak BULUNAMADI — tarih ön bilgidir"
+   },
+   "Tugur": {
+    "kova": "BULUNDU",
+    "gerekce": "kaynak gövdesi okundu, tarih doğrudan geçiyor"
+   },
+   "Zeya ağzı (Mançu yerleşimi)": {
+    "kova": "YAZILDI",
+    "gerekce": "kaynak BULUNAMADI — tarih ön bilgidir"
+   }
+  }
+ },
+ "m2499_zaman_derinligi": {
+  "kapanan_hucre": 133,
+  "tavan_hucre_yil": 85386,
+  "gerceklesen_hucre_yil": 27766,
+  "verim_yuzde": 32.5,
+  "kur_yok_kapanan": 24
+ },
+ "tdv_slug_taramasi": {
+  "_not": "Sibirya halkları için TDV kapsaması ÖLÇÜLDÜ (bu turda, HTTP kodu)",
+  "CANLI_200": [
+   "sibir-hanligi",
+   "yakutlar",
+   "kucum-han",
+   "tuva",
+   "baskirt",
+   "baskurt (⚠️ YALNIZ ÇAPRAZ GÖNDERME — gövde yok)"
+  ],
+  "OLU_302": [
+   "sibirya",
+   "tobolsk",
+   "cukcalar",
+   "samoyed",
+   "evenkler",
+   "buryatlar",
+   "altaylilar",
+   "hakaslar",
+   "hanti",
+   "hantiler",
+   "selkup",
+   "ostyak",
+   "vogul",
+   "mansi",
+   "ket",
+   "nganasan",
+   "yukagir",
+   "evenk",
+   "even",
+   "hakas",
+   "altay-turkleri",
+   "baskurtlar"
+  ],
+  "HUKUM": "Sibirya'nın YERLİ HALKLARI için TDV kapsaması pratikte SIFIR (yakutlar ve tuva istisna). §4'ün «coğrafî boşluk» maddesi geçerli ⇒ akademik kaynak MEŞRU. Ama Başkurtlar TDV'DE VAR — ve blok tam bu yüzden ötekilerden AYRI.",
+  "YENI_ALT_SINIF": "🔴 §4 tuzağının BEŞİNCİ alt-sınıfı ölçüldü: `baskurt` HTTP 200 döner, başlık doğrudur, ama gövde YALNIZCA bir çapraz göndermedir («bk. BAŞKIRT Orta Asya Türk kavimlerinden.»). ① ölü 302 · ② canlı ama yanlış madde · ③ boş gövde · ④ boilerplate · ⑤ ÇAPRAZ GÖNDERME STUB'I ← YENİ. Dördü de `<title>` sınavını geçer; beşincisi GÖVDE UZUNLUĞU sınavını da geçer (kısa ama dolu görünür)."
  }
 }
