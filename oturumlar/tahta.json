@@ -76180,5 +76180,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2540",
+  "zaman": "2026-09-03 15:56",
+  "kimden": "DUNYA-OKYANUSYA-0903",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 BEYAN NOKTALARI YAZILDI — DOSYA HAZIR. Emre'nin talimatı. ━━━ DOSYA ━━━ denetim/HAZIR-yerlesimler_okyanusya.js 54 KB · 112 kayıt hedef: data/yerlesimler_okyanusya.js · window.YERLESIMLER_OKYANUSYA içerik: 69 KASABA (zincirli, kaynaklı) + 43 BEYAN (kasitli_bosluk · kabile) 🔴 data/ ALTINA YAZMADIM — KOŞU HÂLÂ CANLI, ÖLÇTÜM: PID 1268 AYAKTA (772 MB) · data/donemler.js damgası 2026-09-02 21:36 ⇒ motor henüz sonuna gelmemiş. §7: koşu sürerken data/ DONUK; oraya yazmak koşuyu öldürmez ama ÇIKTIYI YAYINLANAMAZ hâle getirir. Dosya tek kopyalamayla yerine geçer. Sende. ━━━ SINAVLAR — MOTORUN KENDİ OKUYUCUSUYLA, DOSYADAN ━━━ `_baglama_onsinav.py` dosyanın data/ altında olmasını şart koşuyor, orası donuk. Bu yüzden sınavı `girdi._cevir` ile — motorun KENDİ JS okuyucusuyla, DOSYADAN okuyarak koşturdum (C13'ün üçüncü ayağı: enjekte kayıt değil GERÇEK dosya yolu). ``` ⓪ AYRIŞTIRMA ✓ 112 kayıt (kasaba 69 · beyan 43) — çökme YOK ⑤ ALAN ✓ BILINEN_ALANLAR dışında alan YOK ② AD ✓ bağlı evrenle 0 · kendi içinde 0 ① 3 KM ✓ ihlal 0 ④ HAYALET ✓ 0 — bütün dönemler künye ömrü içinde BEYAN bütünlüğü ✓ bos: eksik 0 · neden: eksik 0 · kasitli_bosluk eksik 0 ✓ BOYA TAŞIYAN beyan: 0 (hiçbiri d:/s: taşımıyor) KASABA bütünlüğü ✓ kaynak: eksik 0 · s: eksik 0 · kur: eksik 0 KIRMIZI TOPLAM: 0 ``` ━━━ ZAMAN KESİTLERİ — ASIL SINAV ━━━ ``` kesit ÖNCE SONRA kazanç 1400 856 %88 603 %62 253 1600 856 %88 603 %62 253 1700 856 %88 603 %62 253 1800 850 %87 597 %61 253 1850 815 %83 493 %50 322 1900 802 %82 57 %6 745 1923 802 %82 53 %5 749 ``` 🟢 BEYANLAR HER ÇAĞDA 253 HÜCRE KAPATIYOR — kasaba kayıtlarının 1850 öncesinde SIFIR olan katkısının tam karşılığı. M-2479'da \"beyan asıl iş\" demiştim; ölçüm onu doğruladı. 🟢 1923: %82 → %5. ━━━ 🔴 VE BİR AYRIM — ÖLÇÜTÜN KENDİSİ HAKKINDA ━━━ 1400'de hâlâ 603 hücre açık (%62) ve BU KUSUR DEĞİL. Boşluk ölçütü bir KAPSAMA ölçütüdür, DOĞRULUK ölçütü değil. 1400'de Avustralya'da kasaba YOKTU — kıtanın boş görünmesi DOĞRU cevaptır. Beyanların işi o boşluğu DOLDURMAK değil, komşunun onu EMMESİNİ engellemek (`§2`) ve cinsini makineye söylemek. ⇒ Bu kutuda \"%0'a inmek\" bir hedef DEĞİL. Emre'nin hükmü aynen geçerli: \"DEVASA BOŞLUKLAR OLACAKSA OLSUN.\" 📌 Öneri: dünya tablosuna bakan herkes için bu ayrım yazılı olsun — bir bölgenin yüksek açıklığı iki ayrı şey olabilir: KAPANMAMIŞ BORÇ (nokta var ama girilmemiş — Avustralya 1900) DOĞRU BOŞLUK (nokta yok çünkü yerleşim yoktu — Avustralya 1400) Sayı ikisini AYIRT ETMİYOR; ayıran şey `bos:` alanıdır. ━━━ BEYANLARIN ADRESİ ━━━ 43 nokta, hepsi COĞRAFÎ adresli (ızgara merkezi DEĞİL — M-2379): Büyük Victoria Çölü 7 · Büyük Kum Çölü 7 · Gibson Çölü 5 · Simpson Çölü 3 · Yeni Gine Merkezî Yaylaları 4 · Küçük Kum Çölü 2 · Cape York 2 · Aru-Tanimbar 2 · Murchison-Gascoyne 2 · Kuş Başı 2 · Arnhem Land · Nullarbor · Eyre/Gawler · Kimberley · Pilbara · Louisiade-Milne · Yeni Britanya · Yeni Kaledonya 1'er 🟢 ADLANDIRILAMAYAN 0 — M-2479'daki 6 adsız borç KAPANDI (coğrafya kutularım genişletildi). ⚠️ VE BİR SINIR AÇIKÇA YAZILI: halk adları (Martu · Pintupi · Ngaanyatjarra · Warlpiri · Mirning · Yolŋu …) AIATSIS'in GENEL çerçevesine dayanıyor; HER HÜCRENİN hangi dil grubuna ait olduğu AYRICA DOĞRULANMADI ve bu dosyanın başlığında yazıyor. Bir sonraki tur AIATSIS haritasıyla hücre hücre eşleştirmeli. DURUM: İŞLERİM BİTTİ — boştayım. Dosya indirilmeyi bekliyor.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2541",
+  "zaman": "2026-09-03 15:57",
+  "kimden": "DUNYA-GAMERIKA-0903",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM 5 — KUYRUGUN 4. KALEMI (Gran Chaco). Ve TESLIM ETTIGIM BIR KAYITTA 178 YILLIK BIR HAYALET BULDUM. SAYILAR kayit 114 = 69 nokta + 45 beyan BEKLET 12 UYGULANIR 102 ON SINAV KIRMIZI 0 · ikiz beyanli 2 kapanan 511 hucre KALAN 627 (%73,8 -> %40,7) TARIH DENETIMI 431 tarih · dayanaksiz 6 (%1,4) — ve o 6'nin 6'si ZATEN BEKLET damgali uc kayitta (Mompox · Pasto · Piritu). Yeni parti SIFIR dayanaksiz tarih getirdi. Bosluğun %45'i kapandi. 🔴 CONCEPCION DEL BERMEJO — 178 YIL FAZLA AYAKTAYDI Chaco'yu ararken kutukte YENI bir cumle cikti (HSAI c.1, Metraux): \"They participated in the destruction of Concepción on the Bermejo River (1632), and their raids threatened the settlers of Esteco (1662), Tucuman, Salta (1709)...\" Benim kaydim `kur:1585` ve `s:` 1810'a kadar suruyordu — yani sehir 1632'de YIKILDIKTAN SONRA 178 yil daha ayakta gorunuyordu. ⇒ `bit:1632-01-01` eklendi, `s:` orada kapatildi. 📌 VE IPUCU ZATEN ELIMDEYDI: kendi `kaynak:` metnim \"was for 50 years a military base and missionary center\" diyordu. 1585 + 50 = 1635. Alintiyi YAZDIM ve OKUMADIM. Senin par.4 kuralin: \"kaynagin kendi uyarisini da oku.\" Bir kaynak cumlesi IKI bilgi tasiyabilir ve ben yalnizca birini almisim — kurulusu aldim, SURESINI atladim. 🔴 VE ON SINAV BENI IKINCI KEZ YAKALADI — Tarija Yeni yazdigim Tarija kaydinda `ispanyol-peru` donemini 1825-08-06'ya kadar uzatmisim ⇒ kunye 1824-12-09'da bitiyor ⇒ 8 aylik HAYALET. Bu, RAPORUMUN §3.1'inde ZATEN teshis ettigim ve RECETESINI YAZDIGIM kusurun aynisi (Potosi · La Paz · Sucre'de mevcut). 📌 Receteyi YAZAN oturum, ayni kusuru YENIDEN URETTI. Bir receteyi bilmek onu uygulamayi garanti etmiyor — UYGULAYAN BIR KAPI gerekiyor, ve bu sefer on sinav o kapiydi. ⇒ Kendi recetemi uyguladim: 1824-12-09'da `ispanyol-peru` kapanir, arasi `ispanya`, 1825-08-06'dan `bolivya-cumhuriyeti`. ⚠️ Ve kayitta yazili: bu bir HUKUMDUR, alternatifi kunyenin `t:` degerini cekmektir ve hangisi dogru OLCULMEDI. CHACO PARTISI — 7 kayit, 6'si UYGULANIR 🟢 Tarija 1690 Cizvit koleji (HSAI c.3) 🟢 Tariquea 1691 -> bit:1727 KURULUS VE YIKILIS ikisi de kaynakli: \"founded in 1691 ... lasted only 3 years\" · \"In 1715 reestablished\" · \"In 1727, all the missions in the Chiriguano country were destroyed by the rebellion of the chief, Aruma\" 🟢 Chiquiaca misyonlari ~1700 -> bit:1727 ayni yikilis ⚠️ `kur:1700` kaynagin \"at the beginning of the 18th century\" ifadesinden TURETILMIS bir yuvarlamadir ve kayitta YAZILI 🟢 Tacuati (Ypane) 1788 (500 Guana, rahip idaresinde) 🟢 Lengua misyonu 1887 (South American Evangelical Soc.) 🟢 Santiago del Estero 1553 ⚠️ Columbia Encyclopedia'dan — GENEL bir basvuru eseri, alanin el kitabi DEGIL. HSAI donemi dogruluyor (\"second half of the 16th century\") ama YIL VERMIYOR. 🟡 Esteco BEKLET — HSAI onu Tucuman ve Santiago del Estero ile birlikte aniyor ama KURULUS YILI VERMIYOR; sehir sonradan terk edildi ve TERK TARIHI de yok. Ikisi de bulunamadi. 🟢 VE IKI KAYIT \"KURULDU VE BITTI\" CINSINDEN — `bit:` kuralinin ilk gercek uygulamasi: Tariquea ve Chiquiaca, ikisi de 1727'de AYNI ISYANLA yikildi. Atlas boyle bir es-zamanli yok olusu simdiye kadar tasimiyordu. DURUM: ✅ 4. kalem bitti. Kalan 627. Siradaki secenekler ve benim sıralamam: a) Nordeste sertao (90) — kolonyal, hucre-yilda EN AZ verimli b) Atacama/KB Arjantin (45) — Diaguita kunyesi VAR, kadim c) Orta/Dogu Amazon (124) — kunye engeli var ama misyonlar sourced d) Pampa kalani + Guney Brezilya (~100) Onerim (b): Diaguita kunyesi ZATEN VAR (1281-1667) ve o bolge kadim — hucre-yilda (c)'den ve (a)'dan iyi, ve kunye beklemiyor. Itirazin yoksa (b) ile devam ediyorum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
