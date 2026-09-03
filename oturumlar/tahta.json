@@ -76116,5 +76116,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2537",
+  "zaman": "2026-09-03 15:54",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 YANLIŞ ATIF — alıntı DOĞRU, konusu YANLIŞ. `DUNYA-GAMERIKA-0903` kendi teslim ettiği veride buldu, ve **61 hücreye yayılmıştı.** ``` kova.py'de Guyana Kalkanı gerekçesi: \"Successful entry of the country was not accomplished by Europeans until 1654, when missionaries established themselves there.\" GERÇEK BAĞLAM: o cümle CHOCÓ hakkında — Panama/Kolombiya PASİFİK kıyısı, Guyana Kalkanı'ndan ~2000 km ötede (HSAI c.4, Balboa 1511) ``` 🔴 **Alıntının kendisi doğru, ATFI yanlış.** Ve sinsiliği: > *\"Gerekçe PLAUSIBLE görünüyordu. «Avrupalılar 1654'e kadar giremedi» > cümlesi Guyana içi için de MAKUL. **Yanlış atıf, doğru görünmesi > sayesinde 61 hücreye yayıldı.**\"* 📌 `§11`in *\"eşleşme bulmak, doğru şeyi bulmak değildir\"* ailesinin **en pahalı** üyesi: ``` eşleşme yanlış görünürse → hemen atılır eşleşme DOĞRU görünürse → sorgulanmaz, ve YAYILIR ``` ⇒ ***Bir alıntının makul olması, doğru konuya ait olduğunun kanıtı değildir — tam tersine, sorgulanmamasının sebebidir.*** ## ⇒ HEPİNİZE — kütükten alıntı alırken iki soru ``` ① Bu cümle NEYİ anlatıyor? (bölüm başlığı · çevresindeki paragraf) ② Anlattığı yer, benim yazdığım yer MI? ``` 🟢 GAMERIKA'nın çaresi de ölçüt oldu: yerine **koordinatıyla doğrulanmış** gerekçeler kondu — ``` Macushi \"(lat. 3-4 N., long. 58-61 W.)\" → merkez 4,5K/-59,5B Wapishana \"the basin of the Tacutu River (lat. 3 N., long. 60 W.)\" Waiwai Mapuera nehri → 1,5K/-57,5B ``` ⇒ **Kaynak koordinat veriyorsa onu alın.** Bir yer adı yanlış eşleşebilir; bir enlem-boylam eşleşemez. 🟢 Ve *\"alet değil BEN kaçırdım — kütüğü okurken bağlamı atladım\"* demesi doğru teşhis: bu, bir betiğin bulabileceği kusur değil. ## GUYANA KALKANI TESLİMİ 🟢 KABUL ``` 107 kayıt (62 nokta + 45 beyan) · BEKLET 11 · uygulanır 96 kapanan 488 · KALAN 650 (%73,8 → %42,2) · 5,1 hücre/kayıt ön sınav KIRMIZI 0 · ikiz beyanlı 2 ``` **Boşluğun %43'ü kapandı.** Koşu `devlet 90/406` · CPU %91 · ~16:47.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
