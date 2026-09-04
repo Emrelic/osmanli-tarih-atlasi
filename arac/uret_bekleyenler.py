@@ -59,6 +59,11 @@ BOLUMLER = [
     # yetmez. Kural yaziliydi, uygulanmadi.
     # ⇒ `karar` anahtarina baglandi: bunlar gercekten Emre'yi BAGLIYOR.
     ("KUTUDAN GELEN YENİ KALEMLER", "karar"),
+    # 🔴 4 Eylul 2026: gunun BES karari (bizans-bosna · "kac madde yeter" ·
+    # cok kunyeli kronolojiler · cephane · ekip yapisi). Hepsi OLCULMUS ve
+    # hepsi Emre'yi BAGLIYOR. `F3`: sohbette soylemek YETMEZ, ve bir bolum
+    # bu listeye baglanmazsa ROZETE GIRMEZ — yani gorunmez olur.
+    ("4 EYLÜL — BEŞ KARAR", "karar"),
     ("İSTERSEN", "istege_bagli"),
     # 6 Agustos 2026: gunun oturumlarindan cikan SAHIPSIZ kalemler.
     # Hicbiri sikayet uretmiyor (acil degil) ama olculmus ve yazili.

@@ -72,6 +72,66 @@ yerine gürültülü durdu (*"bayat tablo, yanlış tablodan kötüdür"*).
 
 ---
 
+## 🔴 4 EYLÜL — BEŞ KARAR, HEPSİ ÖLÇÜLMÜŞ
+
+> Bu kalemler gün içinde sohbette soruldu. `F3`: *çizelgeyi ekrana bas **VE**
+> buraya yaz; mesajda söylemek yetmez.* Numarasını söylemen yeter.
+
+### ① `bizans ↔ bosna` — tek kalan renk ihlali
+```
+ΔE 11,41 · 297 km · 1281-1479 EŞZAMANLI   (eşik 12 — 0,6 altında)
+```
+Bugün renk ihlali **16 → 1** indi; kalan tek çift bu ve bilerek **sana**
+bırakıldı. Çözücü `bosna` için `#246cd2` öneriyor ve **meşru** (deniz ΔE
+19,76 > 18) **ama yön TERS**: bugünkü 35,18'den denize **yaklaşıyor** ve
+senin şikâyetin tam o eksende.
+```
+① bosna → #246cd2      çift kapanır · deniz payı 19,76'ya iner
+② bosna'ya SIKI deniz hedefi koyup yeniden çöz  (eşik SIKILAŞTIRMA)
+③ olduğu gibi bırak     11,41 açık kalır
+```
+
+### ② "KAÇ MADDE YETER?" — 304 künyeyi bağlayan eşik
+```
+591 künye · BOŞ 17 · 1-3 madde 304 · 4+ madde 270
+```
+*"1-3 madde"* bir bölge kusuru değil, **külliyatın normu**. Eşik yazılmadan
+bu iş bir oturuma **verilemez** — işçi ne zaman *"bitti"* diyeceğini bilemez.
+```
+① yalnız 17 BOŞ künye doldurulsun          → sınırlı, 1-2 oturum
+② + 1-3 maddelilere eşik konsun (kaç?)      → 304 künyelik PROGRAM
+③ eşik bölgeye göre değişsin (`ONCELIK.md` halkaları)
+```
+
+### ③ ÇOK KÜNYELİ KRONOLOJİLER — 566 madde bağlanamıyor
+`cin` 136 · `hindistan` 131 · `misir` 120 · `ozbek` 73 · `japonya` 71 ·
+`sirbistan` 35. Bir dosya bir künyeye bağlanıyor; bunlar bir **coğrafyanın
+ardışık hânedanlarını** taşıyor.
+```
+① maddeler künyelere DAĞITILSIN     (elle, tek tek)
+② bağlama modeli ÇOKLU BAĞ öğrensin (kod işi, bir kez)
+```
+⚠️ Ve ayrıca **1518 madde** bölge derlemesi (`anadolu` 281 · `balkan` 177 …)
+— onların karşılığı olan künye **yok ve olmamalı**; o bir MODEL sorusu.
+
+### ④ CEPHANE — `oturumlar/CEPHANE.md` YAZILI DEĞİL
+`§2d` şartname öncesi soruyor: **abonelik kademesi · haftalık limit yüzdesi
+· tempo tercihi**. Bu üçü yazılı olmadan kaç oturum açılacağı **tahmin**
+oluyor. Ve üç kademeli yapının gerekip gerekmediğini doğrudan bu belirliyor.
+
+### ⑤ EKİP YAPISI — üç kademe mi, iki mi
+Bugün konuşuldu, ölçümle şu çıktı: cephane 3 eşzamanlı oturuma izin
+veriyorsa **orta kademe saf ek yük** (iki başlılık). Orta kademenin gerçek
+faydası "kaç kişi yönetirim" değil **bağlam emmek**.
+```
+ÖNERİ: iki kademe varsayılan (koordinatör + işçiler), koordinatör İŞÇİ İŞİ
+       YAPMAZ ama ÖLÇER. Üçüncü kademe İŞ BAZINDA: bir iş 3+ işçi
+       gerektiriyorsa o iş için BİR ekipbaşı, bitince kapanır.
+KARAR: bunu `CLAUDE.md §7`ye yazayım mı, yoksa önce bir işte deneyip mi?
+```
+
+---
+
 ## 🔴 KARAR BEKLEYENLER
 
 ### ✅ 17 AĞUSTOS — TEK KALEM, VE KAPANDI

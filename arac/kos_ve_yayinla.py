@@ -165,6 +165,23 @@ def _zincir(yayinla=True, uretimsiz=False):
         if kos("devirler (uret_devirler.py)",
                [sys.executable, "arac/uret_devirler.py"], dk=40) is None:
             return 1
+        # 🔴 4 Eylül 2026 — ZİNCİRE İKİ ÜRETEÇ EKLENDİ, ve sebebi ÖLÇÜLMÜŞ
+        # BİR YAYIN REDDİDİR. Zincir yalnız `uret_devirler`i koşuyordu; oysa
+        # `denetle_yayin` YEDİ üretilmiş çıktının izini denetliyor ve ikisi
+        # daha koşudan SONRA tazelenmek zorunda:
+        #     data/altlik.js       ← veri-kaynak/motor_kara.geojson (koşu YAZAR)
+        #                            ve arac/uret_petek.py (bugün DEĞİŞTİ)
+        #     data/bekleyenler.js  ← BEKLEYENLER.md
+        # ⇒ 4 Eylül sabahı koşu 4b temiz bitti, kapı "taze 4 · BAYAT 3" deyip
+        #   REDDETTİ ve üç üreteç ELLE koşuldu. Kapı doğru davrandı; eksik
+        #   olan ZİNCİRDİ.
+        # ⚠️ Ölümcül DEĞİL: bunlar yayının ÖN KOŞULU ama üretimin sonucu
+        #   değil — biri patlarsa kapı zaten durduracak ve sebebi ADIYLA
+        #   söyleyecek. Burada zinciri öldürmek, teşhisi gizlerdi.
+        kos("altlık (uret_altlik.py)",
+            [sys.executable, "arac/uret_altlik.py"], olumcul=False, dk=40)
+        kos("bekleyenler (uret_bekleyenler.py)",
+            [sys.executable, "arac/uret_bekleyenler.py"], olumcul=False, dk=10)
     # 🔴 renk ölçümü: CLAUDE.md §9 — veriye dokunan her koşudan sonra ŞART.
     #    Ölümcül DEĞİL: uyarı üretir, yayını kesmez (eşik ≠ tercih ayrımı).
     kos("renk ölçümü (renk_olc.py)", [sys.executable, "arac/renk_olc.py"],
