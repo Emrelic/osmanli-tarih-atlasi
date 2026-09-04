@@ -372,6 +372,149 @@
         "dokuzuncu_savasin_sonu": "«The Xhosa leader Sarili surrendered to the British in 1878, marking the end of the ninth frontier war» — künyenin MEVCUT `son` maddesi (1878-01-01) bunu zaten taşıyor ve bu kaynak onu DOĞRULUYOR. MÜKERRER YAZMADIM.",
         "kurulus_maddesi": "Künyenin mevcut `kurulus` maddesi 1281-01-01'de ve `f:` ile aynı — bu, teslimde bildirdiğim PENCERE SINIRI vakalarından biri (guney-afrika'da 4/5). DOKUNMADIM; düzeltmesi ölçer tarafında."
       }
+    },
+
+    {
+      "id": "massina",
+      "ad": "Masina Halifeliği (Hamdullahi)",
+      "bolge": "bati-afrika",
+      "mevcut_madde": 0,
+      "eklenen": [
+        { "t": "1818-01-01", "tur": "kurulus",
+          "b": "Fulani âlimi Seku Amadu ve taraftarları Nijer içdeltasında bir din devleti kurup Hamdullahi'yi başşehir yaptı",
+          "kaynak": "Künyenin kendi `kaynak` alanı Cambridge History of Africa / Journal of African History'yi (hakemli) birebir alıntılıyor: «1818'de Seku Amadu … Delta'da Maasina Halifeliğini KURDU». History in Africa (Cambridge, hakemli) bağımsız olarak aynı yılı veriyor: «In 1818, a Fulani Muslim scholar of humble origins named Seeku Amadu and his followers created the laamu diina (theocratic state), a caliphate centered around a new capital city they erected, named Ḥamdullāhi».",
+          "⚠️ GUN_YOK": "Kaynak YILI veriyor (1818), gününü vermiyor." },
+
+        { "t": "1862-01-01", "tur": "savas",
+          "b": "El-Hâc Ömer Tal'in kuvvetleri başşehir Hamdullahi'yi ele geçirdi ve Emîr Ahmed muharebede öldü",
+          "kaynak": "TDV `el-hac-omer` (200, gövde okundu) — «Hamdallahi: 1862 — Masina başşehri ele geçirildi; Emîr Ahmed muharebede öldü»; History in Africa (Cambridge) bağımsız olarak «In 1862, Umar Taal's troops entered Hamdallahi … following a seven-day battle» diyor.",
+          "⚠️ GUN_YOK": "İki kaynak da YILI veriyor (1862), günü vermiyor." },
+
+        { "t": "1862-01-01", "tur": "son",
+          "b": "Başşehrin düşmesiyle Masina Halifeliği sona erdi ve toprakları Umarî devletine katıldı",
+          "kaynak": "History in Africa (Cambridge, hakemli) — «The caliphate was short-lived: it fell in 1862, invaded by troops led by al-Ḥājj ʿUmar Taal of Fuuta Tooro»; TDV `el-hac-omer` aynı yılı veriyor.",
+          "⚠️ GUN_YOK": "Yıl kaynaktan, gün yok." }
+      ]
+    },
+
+    {
+      "id": "tekrur",
+      "ad": "Toucouleur Devleti (Umarî / Segu Tukulor)",
+      "bolge": "bati-afrika",
+      "mevcut_madde": 0,
+      "eklenen": [
+        { "t": "1852-01-01", "tur": "kurulus",
+          "b": "El-Hâc Ömer Tal, Eylül 1852'de fiilî cihadı başlatma konusunda mânevî işaret aldığını söyleyerek harekete geçti ve Umarî devletinin temelini attı",
+          "kaynak": "TDV `el-hac-omer` (200, gövde okundu) — AYNEN: «Eylül 1852'de fiilî cihadı başlatma konusunda mânevî işaret aldığını söyleyerek harekete geçti». Künyenin kendi `kaynak` alanı da bu maddeye dayanıyor.",
+          "🔴 HASSASIYET_NOTU": "TDV AY veriyor (Eylül 1852). Ölçüt «AY hassasiyeti YOK, gün bilinmiyorsa YYYY-01-01» dediği için `1852-01-01` yazdım ve ayı `b` içine koydum — bilgi kaybolmuyor.",
+          "🔴 KUNYE_ILE_BICIM_CATISMASI": "Künyenin `f:` değeri `1852-09-01`, yani künye AY hassasiyetini ayın birine yazarak KODLUYOR. Ölçüt ise maddede bunu YASAKLIYOR. İki sözleşme çatışıyor: aynı olay künyede 09-01, maddede 01-01. Kusur bende değil, İKİ BELGE ARASINDA — bildiriyorum, künyeye DOKUNMADIM.",
+          "⚠️ IKINCI_KAYNAK_FARKLI_YIL_VERIYOR": "Encyclopaedia Britannica ('ʿUmar Tal') cihadı 1854'e koyuyor: «after launching a jihad (holy war) in 1854, established a Muslim realm». TDV'yi esas aldım (§4: İslâm dünyası için TDV birincil kaynaktır) ama çelişkiyi GİZLEMİYORUM." },
+
+        { "t": "1854-11-11", "tur": "toprak-kazanc",
+          "b": "Kaarta ele geçirilerek İslâm devleti hâline getirildi",
+          "kaynak": "TDV `el-hac-omer` — «1854: Yelimane, Bambuk ve Farabanna ele geçirildi; Kaarta 11 Kasım 1854'te İslâm devleti olarak kuruldu». GÜN HASSASİYETİ KAYNAKTAN GELİYOR." },
+
+        { "t": "1857-01-01", "tur": "savas",
+          "b": "Medine'deki Fransız kalesine 25.000 kişilik kuvvetle saldırdı, kuşatma Fransızlarca püskürtüldü",
+          "kaynak": "TDV `el-hac-omer` — «Medine: 1857 — 25.000 askerle Fransız kalesine saldırıldı; Fransız kuvvetlerince püskürtüldü».",
+          "⚠️ GUN_YOK": "Kaynak YILI veriyor (1857)." },
+
+        { "t": "1861-03-10", "tur": "toprak-kazanc",
+          "b": "Segu ele geçirildi ve Bambara krallığı ortadan kaldırıldı",
+          "kaynak": "TDV `el-hac-omer` — «Segu: 1861 başı — Bambara krallığı ortadan kaldırıldı»; GÜN, aynı olayın öteki tarafındaki `bambara` künyesinin TDV `mali`ye dayanan `son` maddesinden geliyor: «1861-03-10 — el-Hâc Ömer Segu'yu aldı». İki TDV maddesi, iki taraf, aynı gün.",
+          "📌 ESLESTIRME": "Bu, şartnamenin «her künyede o künyenin tarafından anlat» kuralının uygulaması: `bambara` için `son`, `tekrur` için `toprak-kazanc`." },
+
+        { "t": "1862-01-01", "tur": "toprak-kazanc",
+          "b": "Hamdullahi alınarak Masina Halifeliği'nin toprakları devlete katıldı",
+          "kaynak": "TDV `el-hac-omer` — «Hamdallahi: 1862 — Masina başşehri ele geçirildi».",
+          "⚠️ GUN_YOK": "Yıl kaynaktan." },
+
+        { "t": "1864-02-14", "tur": "hukumdar",
+          "b": "El-Hâc Ömer Tal Degembere'de bir mağara yangınında öldü ve yerine oğlu Ahmed el-Kebîr el-Medenî geçti",
+          "kaynak": "TDV `el-hac-omer` — AYNEN «14 Şubat 1864», Degembere'de mağara yangını; «oğlu Ahmed el-Kebîr el-Medenî (Ahmed Tâl) yerine geçti».",
+          "🔴 IKI_KAYNAK_IKI_GUN": "Encyclopaedia Britannica ('ʿUmar Tal') «died Feb. 12, 1864» diyor — İKİ GÜN FARK. TDV'yi esas aldım (§4: İslâm dünyası için TDV birincil). Çelişki GİZLENMİYOR; hangisinin doğru olduğunu ÖLÇEMEDİM." },
+
+        { "t": "1893-01-01", "tur": "son",
+          "b": "Fransız fethiyle Umarî devleti sona erdi",
+          "kaynak": "TDV `el-hac-omer` — «devlet 1893-1894 Fransız fethine kadar sürdü»; Encyclopaedia Britannica ('Ahmadu Seku') bağımsız olarak «Col. Louis Archinard … led to the final conquest of Ségou in 1893» diyor. Künyenin `t:` değeri de 1893-01-01.",
+          "⚠️ GUN_YOK": "İki kaynak da YIL veriyor." }
+      ]
+    },
+
+    {
+      "id": "vasulu",
+      "ad": "Vâsûlû Devleti (Samori Ture)",
+      "bolge": "bati-afrika",
+      "mevcut_madde": 2,
+      "not": "Künyenin mevcut `son` maddesi 1898-09-29'da ve TDV `samori-ture` onu BİREBİR doğruluyor («29 Eylül 1898 tarihinde Fransız birliğine esir düştü»). MÜKERRER YAZMADIM.",
+      "eklenen": [
+        { "t": "1881-01-01", "tur": "savas",
+          "b": "Fransızlarla ilk savaş başladı",
+          "kaynak": "TDV `samori-ture` (200, gövde okundu) — «İlk savaş: 1881»; ertesi yıl «1882: büyük direniş gösterdi».",
+          "⚠️ GUN_YOK": "Kaynak YILI veriyor (1881).",
+          "⚠️ IKINCI_KAYNAK_FARKLI_YIL": "Britannica ('Samory') ilk çatışmayı 1883'e koyuyor: «He first fought the French in 1883, when they occupied Bamako». TDV 1881 diyor ve 1883'ü Bamako'nun işgali olarak AYRI anıyor — ikisi çelişmiyor olabilir, ama BUNU ÖLÇMEDİM." },
+
+        { "t": "1883-01-01", "tur": "toprak-kayip",
+          "b": "Fransızların Bamako'yu işgali önlenemedi",
+          "kaynak": "TDV `samori-ture` — «1883: Bamako işgali önlenemedi»; Britannica ('Samory') aynı yılı veriyor: «when they occupied Bamako on the Niger River».",
+          "⚠️ GUN_YOK": "Yıl kaynaktan." },
+
+        { "t": "1886-01-01", "tur": "antlasma",
+          "b": "Mart 1886'daki ilk antlaşmayla Bure bölgesi Fransızlara bırakıldı",
+          "kaynak": "TDV `samori-ture` — «Mart 1886: ilk anlaşmayla Bure bölgesini Fransızlara bıraktı»; öncesinde «1885: Bure'de büyük kayıp verdi». Britannica bağımsız olarak «After the French carried out a successful offensive in 1886, Samory accepted their protection with the Niger as his frontier» diyor.",
+          "🔴 HASSASIYET_NOTU": "TDV AY veriyor (Mart 1886); ölçüt ay hassasiyetini yasakladığı için `1886-01-01` yazıldı, ay `b` içinde." },
+
+        { "t": "1887-01-01", "tur": "antlasma",
+          "b": "İkinci antlaşmayla Nijer'in batı yakası Fransızlara bırakıldı",
+          "kaynak": "TDV `samori-ture` — «Bir yıl sonra ikinci antlaşmada Nijer'in batı yakasını Fransızlar'a bırakmayı kabul etti».",
+          "🔴 YIL_TURETILDI_ALINTILANMADI": "Bu maddede yıl kaynakta YAZMIYOR. TDV «bir yıl sonra» diyor; 1887, TDV'nin bir önceki cümlede verdiği «Mart 1886»nın üzerine EKLENEREK türetildi. Yani ne alıntı ne uydurma — TÜRETME. Öz-denetimim bunu işaretledi ve alıntıya '1887' EKLEMEDİM: kaynağın söylemediği bir sayıyı alıntı metnine yazmak, uydurmaktan kötüdür (sahte bir dayanak üretir). Damga burada duruyor ki birleştirici bunu bilerek alsın.",
+          "⚠️ GUN_YOK": "Gün de yok." },
+
+        { "t": "1887-01-01", "tur": "savas",
+          "b": "Sikasso kuşatması başladı; on beş ay süren kuşatma Kenedugu kralı Tiéba Traoré tarafından püskürtüldü",
+          "kaynak": "TDV `samori-ture` — «1887 tarihinde Sikasso kuşatmasını başlattı»; Journal of African History (hakemli) ve Britannica ('Sikasso') süreyi veriyor: «lasting fifteen months from March 1887 to June 1888 … The Fàama of Sikasso, Tiéba Traoré, was able to repel Samori»." },
+
+        { "t": "1889-02-13", "tur": "antlasma",
+          "b": "Fransızlarla son antlaşmayı imzaladı",
+          "kaynak": "TDV `samori-ture` — AYNEN «13 Şubat 1889: Son antlaşmayı imzaladı». GÜN HASSASİYETİ KAYNAKTAN GELİYOR." },
+
+        { "t": "1891-01-01", "tur": "savas",
+          "b": "Fransızlarla yeniden savaşa tutuştu",
+          "kaynak": "TDV `samori-ture` — «1891: yeniden savaşa tutuştu»; Britannica bağımsız olarak «he renewed his war with the French in 1891» diyor.",
+          "⚠️ GUN_YOK": "İki kaynak da YIL veriyor." }
+      ]
+    },
+
+    {
+      "id": "kenedugu",
+      "ad": "Kenedugu Krallığı (Sikasso)",
+      "bolge": "bati-afrika",
+      "mevcut_madde": 2,
+      "eklenen": [
+        { "t": "1887-01-01", "tur": "savas",
+          "b": "Kral Tiéba Traoré, Samori Ture'nin on beş ay süren Sikasso kuşatmasını üç sıra surlu kale sayesinde püskürttü",
+          "kaynak": "Journal of African History (hakemli) ve Britannica ('Sikasso') — «During Samory's unsuccessful siege—lasting fifteen months from March 1887 to June 1888—Sikasso had three concentric enclosures. The Fàama (king) of Sikasso, Tiéba Traoré, was able to repel Samori»; TDV `samori-ture` kuşatmanın 1887'de başladığını doğruluyor.",
+          "📌 OTEKI_TARAF": "Aynı olay `vasulu` künyesinde SALDIRAN tarafın gözünden yazıldı; burada SAVUNAN tarafın. Şartnamenin «aynı cümleyi kopyalama» kuralı." }
+      ]
+    },
+
+    {
+      "id": "bambara",
+      "ad": "Bambara Krallıkları (Segu ve Kaarta)",
+      "bolge": "bati-afrika",
+      "mevcut_madde": 2,
+      "not": "Künyenin `son` maddesi 1861-03-10 «el-Hâc Ömer Segu'yu aldı» — TDV `mali`ye dayanıyor ve GÜN taşıyor. MÜKERRER YAZMADIM.",
+      "eklenen": [
+        { "t": "1854-11-11", "tur": "toprak-kayip",
+          "b": "Kaarta kolu el-Hâc Ömer Tal'in eline geçti ve İslâm devleti hâline getirildi",
+          "kaynak": "TDV `el-hac-omer` — «Kaarta 11 Kasım 1854'te İslâm devleti olarak kuruldu». Künye adı «Bambara Krallıkları (Segu ve Kaarta)» olduğu için bu, Kaarta kolunun kaybıdır.",
+          "📌 GUN_KAYNAKTAN": "11 Kasım 1854 TDV gövdesinden geliyor." },
+
+        { "t": "1861-03-10", "tur": "savas",
+          "b": "Segu, el-Hâc Ömer Tal'in ordusuna karşı savunmada düştü ve Bambara krallığı ortadan kaldırıldı",
+          "kaynak": "TDV `mali` (künyenin kendi kaynağı) — «el-Hâc Ömer 1861'de fethetti», gün künyenin `t:` değerinden (1861-03-10); TDV `el-hac-omer` «Segu: 1861 başı — Bambara krallığı ortadan kaldırıldı» diyerek doğruluyor.",
+          "⚠️ AYNI_GUN_IKI_CINS": "Künyenin mevcut `son` maddesi de bu gündedir. Bu MÜKERRER DEĞİL: `son` devletin bitişini, bu madde ÇARPIŞMAYI kaydediyor — ayrı cinsler. Yine de birleştirici ikisini yan yana görsün diye işaretliyorum." }
+      ]
     }
   ],
 
