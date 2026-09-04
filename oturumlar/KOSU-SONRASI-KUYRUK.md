@@ -64,6 +64,17 @@ Sonra **gözle sınanacak** — bütün sayılar hesaptan, hiçbiri çizilmedi.
   tavan bugünkü sayıya konup kademeli indirilecek
 · farukiler ↔ gond-kralliklari · ΔE 10.2 · 294 km · 231 yıl → tek renk ihlali
 ```
+⚠️ **"AYNI BÖLGE" KOVASININ İKİ SINIRI — `PAKET RENK 0904` yazdı, saklamadı:**
+```
+① "aynı bölge" bir ETİKET eşitliği, coğrafî sınır DEĞİL ⇒ farklı etiket
+   taşıyıp yan yana duran çiftleri bu kova HİÇ GÖRMEZ (kovanın kör noktası)
+② 5 kimliğin noktası 300'ü aştığı için ÖRNEKLENDİ ⇒ mesafe BÜYÜK
+   görünebilir, yani hata GÜVENSİZ yönde
+   ⇒ İhlal kovasındaki tek çiftte örnekleme YOK (o kova sağlam), ama
+     uyarı kovasında olabilir: **"38 uyarı" değil, "EN AZ 38 uyarı".**
+```
+📌 ①② *"eksik ölçtüm"* der, ② ayrıca *"yanlış yöne eksik ölçtüm"* der.
+Bir sonraki oturum bu sayıların üstüne inşa etmeden önce ikisini de görsün.
 
 ## ④ MOTOR — `PAKET GEOMETRİ 0904`ün reçeteleri
 `denetim/BULGU-GEOMETRI-0904.md` — 14 reçete, her biri **kendi testiyle**.
