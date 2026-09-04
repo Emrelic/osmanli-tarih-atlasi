@@ -306,6 +306,76 @@ büyütmek kıyı gövdesini karada da büyütür.
 
 ---
 
+## ⑨ 🟢 EMRE'NİN YENİ SEVKİ — YEDİ KATMAN ALTYAPI DENETİMİ (4 Eylül akşamı)
+
+> *"şimdi yeni prensiplere göre renklendirmeyi ve yerleşimlerin bölgelerini
+> halledelim · ayrıca haritamızın altyapısını baştan sona kontrol edelim"*
+
+Emre yedi katman saydı ve **"şu anda bunların ne kadarı bitti tüm dünyada"**
+diye sordu. Ölçüldü (4 Eylül, koşu 4b sonrası):
+
+```
+①  Esri deniz/kara altlığı        🟢 %100   küresel raster — bizim işimiz değil
+②  Topografya (yükseklik/eğim)    🟢 %100   ETOPO 2022 30" DÜNYA · 43200×17280
+                                            lon −180..180 · lat −60..84 · 626 MB
+                                            koşu 4b bunu kullandı (log:33)
+③  Nehir · göl · dağ sırtı        🟡 KISMÎ  293 nehir parçası (211 adlı akarsu)
+                                            275 dağ sırası · 705 göl
+                                            🔴 AMA MALİYETE HİÇ GİRMİYOR (aşağı)
+④  Yerleşim yerleri               🟡 3805   dağılımı ÇOK DENGESİZ (aşağı)
+⑤  Yerleşim bölgeleri (petek)     🟢 3805/3805 · peteksiz 0  (bu koşuda kapandı)
+                                  🔴 ama SÜRTÜNME YALNIZ EĞİM
+⑥  Şehirlerarası yollar           🔴 ~%4    ağda 324 yer adı · yerleşimde
+                                            karşılığı olan 150 · 302 kenar
+⑦  Siyasî katman + renk           🟢 591 künye · 574'ünde kronoloji · 550 renk
+                                  🟡 5 komşu çakışması açık
+```
+
+### 🔴 ③ ve ⑤'İN ORTAK KÖKÜ — SU MALİYETE GİRMİYOR
+`uret_petek.py:2192` — sürtünme yüzeyinin TAMAMI:
+```python
+_kvsurt = 1.0 + EGIM_CARPANI * _kvegim        # YALNIZ EĞİM
+_kvuzak, _kvsahip = _kv_dijkstra(_kvsurt)     # Dijkstra bunu kullanıyor
+```
+```
+nehri ENİNE geçmek     BEDAVA   (olması gereken: en güçlü engel)
+nehir BOYUNCA gitmek   BEDAVA   (olması gereken: en ucuz yol)
+GEÇİT / KÖPRÜ          HİÇ modellenmemiş
+GÖL · BATAKLIK         maliyette YOK
+```
+Nehirler bugün yalnız **çizimde** ve **petek sınırının yaslanmasında** var.
+⇒ Emre'nin *"nehirler konusu tam değil ise oturum görevlendirelim"* sorusunun
+cevabı: **tam değil**, ve iş bir nokta partisi değil bir **maliyet yüzeyi**
+işidir. `HÜKÜM ALANI` raporu oranları zaten ölçtü:
+```
+deniz ~1/50 · nehir aşağı ~1/5 · nehir YUKARI ~1/2,5   (yön önemli)
+```
+
+### 🔴 ④ — SAYI DEĞİL DAĞILIM SORUNU
+```
+Sahra altı Afrika 627 · Anadolu+Rumeli 504 · K.Amerika 487 · Avrupa 401
+Orta Doğu+İran 306 · K.Afrika 225 · D.Asya 189 · GD.Asya 173 · D.Avr+Rusya 192
+G.Amerika 168 · Okyanusya 135 · G.Asya 131 · Sibirya 106 · Orta Asya 76
+```
+Eşdeğer yarıçap (`HÜKÜM ALANI`, 4 Eylül):
+```
+Anadolu 31,4 km · Rumeli 32,6      ≈ tarihî kaza     🟢 OTURMUŞ
+Afrika 99,9 · K.Amerika 119,1 · G.Amerika 178,7 · Sibirya 184,5   🔴 3-5 KAT SEYREK
+```
+
+### ⚠️ ⑥'NIN ÖLÇÜMÜ BİR ALT SINIRDIR
+324 ağ adının 150'si yerleşimde bulundu. Kalan 174'ün kaçı **gerçekten yok**,
+kaçı **ad varyantı** (`Budin↔Buda` · `Üsküp↔Skopje`) ÖLÇÜLMEDİ — çünkü
+`data/ad_esanlam.js` **hâlâ yok** (`§4`'te borç olarak duruyor).
+⇒ *"%4"* demek *"en fazla %4"* değil, **"en az %4"** demektir.
+
+### 📌 VE BİR ÖLÇÜM DERSİ — kutu sınırları kesin değil
+Kıta sayımları kaba enlem/boylam kutularıyla yapıldı; 85 nokta hiçbir kutuya
+girmedi (`(kutu dışı)`). Sayılar **yoğunluk göstergesidir**, sınır iddiası
+değil.
+
+---
+
 ## ⑦ EMRE'NİN KARARINI BEKLEYENLER
 ```
 · pembe gövde denizle aynı açıklıkta — rahatsız eder mi? (51 mi 55 mi)
