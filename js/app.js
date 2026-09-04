@@ -1048,11 +1048,34 @@ harita.on("load", function () {
   var U = ["coalesce", ["get", "u"], 60];          // veri yoksa 60 km varsayılan
   var Z0 = 2, Z1 = 9;
   var TAVAN_PX = 80;                                // hâle (k=1) piksel tavanı — ölçüldü, yukarıdaki not
+  // 🔴 4 Eylül 2026 — BU FONKSİYON İKİ KATMANI BÜTÜNÜYLE ÖLDÜRÜYORDU.
+  // Eski hâli `["min", <interpolate on ["zoom"]>, tavan]` döndürüyordu; MapLibre
+  // bunu REDDEDER ve konsola dört hata basar (ölçüldü, tahmin değil):
+  //     layers.serbest-hale.paint.line-width   "zoom" expressions may only be
+  //     layers.serbest-hale.paint.line-blur     used as inputs to a top-level
+  //     layers.serbest-cekirdek.paint.line-width  "step" or "interpolate"
+  //     layers.serbest-cekirdek.paint.line-blur    expression
+  // ⇒ İki katman da HİÇ yüklenmiyordu: "serbest" topraklar haritada ÇİZİLMİYORDU.
+  // 📌 Ve kusur sessiz DEĞİLDİ — konsol dört kez bağırıyordu. Sessiz olan
+  //    BİZDİK: hata mesajı yıllardır oradaydı, kimse konsolu okumadı.
+  //    `§11`in "ölçülemedi ≠ temiz" ailesinin en ucuz üyesi: burada ölçüm
+  //    zaten yapılmıştı, yalnız OKUNMAMIŞTI.
+  //
+  // ÇARE: tavanı interpolate'in DIŞINDAN her DURAĞIN İÇİNE taşı. Üst seviye
+  // ifade artık interpolate ve `["zoom"]` onun doğrudan girdisi ⇒ yasal.
+  // ⚠️ VE BU BİREBİR AYNI EĞRİ DEĞİL — açıkça yazıyorum:
+  //    min(interpolate(·)) ile interpolate(min(·)) yalnız iki ucu da aynı
+  //    tarafta olduğunda özdeştir. Tavanın devreye girdiği TEK zoom adımında
+  //    yeni eğri tavana biraz daha yumuşak yaklaşır (aşağıdan, asla üstünden).
+  //    Kırılma noktası veriye bağlı: u=56 → z≈6,6 · u=274 → z≈4,3. Bu yüzden
+  //    duraklar Z0..Z1 arasında BİRER zoom aralığıyla kondu — sapma tek bir
+  //    adıma hapsedilsin diye. İki durakla (2 ve 9) sapma bütün bandı kaplardı.
   function yerOlcek(k) {                            // k: hâle/çekirdek çarpanı
-    var egri = ["interpolate", ["exponential", 2], ["zoom"],
-                Z0, ["*", U, k * Math.pow(2, Z0) / 67.8],
-                Z1, ["*", U, k * Math.pow(2, Z1) / 67.8]];
-    return ["min", egri, TAVAN_PX * k];
+    var tavan = TAVAN_PX * k;
+    var egri = ["interpolate", ["exponential", 2], ["zoom"]];
+    for (var z = Z0; z <= Z1; z++)
+      egri.push(z, ["min", ["*", U, k * Math.pow(2, z) / 67.8], tavan]);
+    return egri;
   }
   var YER_GENISLIK = yerOlcek(1);
   var YER_BULANIK  = yerOlcek(0.85);
