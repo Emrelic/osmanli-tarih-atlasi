@@ -4,7 +4,24 @@
 > donmuş dosyalara dokunduğu için bekliyor.
 > 🔴 Sıra kasıtlı: veri → renk → denetim → koşu → yayın.
 
-## ⓪ İLK İŞ — KOŞU BİTER BİTMEZ, BAŞKA HİÇBİR ŞEYDEN ÖNCE
+## ⓪ ✅ BİTTİ — 4 Eylül 2026 · yayın `r5635` · commit `0e7cb11`
+
+```
+koşu 4b     09-04 00:48:18 → 16:57:36 · çıkış 0 · 16s 09dk
+Ö9 TESTİ    PETEK_GOVDE 2731 → 3805 · peteksiz nokta 1074 → 0  🟢 GEÇTİ
+denetle     TEMİZ (Değişmez 7 639→642, üçü de ADIYLA ölçüldü)
+yayın kapısı TEMİZ · taze 7 · bayat 0
+```
+⚠️ Zincir ilk turda **taze 4 · BAYAT 3** dedi — `devirler.js` · `altlik.js`
+· `bekleyenler.js`. `CLAUDE.md §9` yalnız `uret_devirler.py`yi *"koşudan
+sonra"* diye yazıyor; ölçüldü, **üçü de** koşudan sonra koşuyor.
+🔴 Ve koşu **4 YENİ renk çakışması** doğurdu (aşağıda ②'ye eklendi):
+`almanya ↔ kanem-bornu` **ΔE 1,3** — Almanya'nın Afrika sömürgeleri artık
+çizildiği için Çad havzasına değiyor. Hiçbir renge dokunulmadı.
+
+---
+
+## ⓪-eski İLK İŞ — KOŞU BİTER BİTMEZ, BAŞKA HİÇBİR ŞEYDEN ÖNCE
 
 ```bash
 py arac/denetle.py            # altı değişmez
