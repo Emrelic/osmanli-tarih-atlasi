@@ -109,6 +109,20 @@ def _opaklik_dogrula():
         return                                   # app.js yoksa sessiz geç
     bulunan = [float(m) for m in
                _re.findall(r'"fill-opacity":\s*([0-9.]+)', s)]
+    # 🔴 4 Eylül 2026 — KAPSAM GENİŞLETİLDİ, ve sebebi ÖLÇÜLMÜŞ BİR YANLIŞ
+    # ALARMDIR. Bu denetim her koşuda şunu basıyordu:
+    #     UYARI renkler.py: OPAKLIK['tabi']=0.6 app.js'te BULUNAMADI
+    #     UYARI renkler.py: OPAKLIK['dogrudan']=0.68 app.js'te BULUNAMADI
+    # İkisi de app.js'te VARDI — yalnız `"fill-opacity"` altında değil.
+    # Siyasî kip seçimi (`SIYASI_KIP`, 4 Eylül) değerleri katman adlarının
+    # altına taşıdı:  yumusak: { "vassal-dolgu": 0.60, "osmanli-dolgu": 0.68 }
+    # ⇒ Denetim doğru soruyu soruyordu, YANLIŞ EVRENDE arıyordu.
+    # 📌 Ve yanlış alarmın bedeli sessiz değil: her koşuda iki satır bağıran
+    #   bir nöbetçi okunmaz hâle gelir, ve gerçekten öttüğü gün de okunmaz.
+    _kip = _re.search(r"var\s+SIYASI_KIP\s*=\s*\{(.*?)\n\};", s, _re.S)
+    if _kip:
+        bulunan += [float(m) for m in
+                    _re.findall(r":\s*([0-9]*\.?[0-9]+)\s*[,}]", _kip.group(1))]
     for ad, deger in OPAKLIK.items():
         if deger not in bulunan:
             # ⚠️ MESAJDA ASCII DIŞI KARAKTER YOK — bilerek.
