@@ -3658,3 +3658,54 @@ OKUMADIM     aramadım bile               → kalem HİÇ AÇILMADI
   📌 `§11`in *"ATLAS SEFERİ DEĞİL TASARRUFU BOYAR"* dersinin **kronoloji**
   tarafı. Ve yazmama kararının **dosyaya kaydedilmesi** ikinci yarısı: bir
   sonraki oturum onu *"atlanmış"* sanacaktı.
+
+- 🔴🔴 **BİR KAYNAĞIN MARKASI, ONUN PROVENANSI DEĞİLDİR — aynı alan adı
+  bugün hem imzalı madde hem YZ ÜRETİMİ ÖZET sunuyor.**
+  *(4 Eylül 2026 · `KRONOLOJİ GÜNEY AMERİKA` ölçtü · koordinatör tarayıcıyla
+  BAĞIMSIZ doğruladı)*
+
+  Aynı gün koordinatör *"Britannica `§4`ün 🔴 listesinde değil ⇒ KABUL"*
+  diye hüküm vermişti. Bir işçi oturum onu **daralttı** ve dayanağı
+  sayfanın **kendi metni** oldu:
+
+  `britannica.com/topic/Conquest-of-the-Desert` — birebir:
+  > *"This summary is created from Britannica articles using **AI**. AI can
+  > make mistakes, so verify using Britannica articles."*
+  > *"Britannica **doesn't have a full article** on this topic, so we've
+  > curated a list of our relevant coverage."*
+
+  İmza da bir uzman değil: *"The Information Architects of Encyclopaedia
+  Britannica"*. ⇒ `§4`ün 🔴 listesi **YZ üretimi metni** zaten yasaklıyor;
+  yeni olan, o metnin **kabul edilmiş bir markanın altından** gelmesi.
+
+```
+🔴 KULLANILMAZ   "Quick Summary" + "created from Britannica articles using AI"
+🟢 KULLANILIR    altındaki KÜRE EDİLMİŞ ALINTILAR — ama künye o alıntının
+                 geldiği GERÇEK maddeye verilir, özet sayfasına değil
+🟢 KULLANILIR    imzalı uzman maddesi (klasik Britannica maddesi)
+```
+  ⇒ ***Bir Britannica bağlantısı, tek başına "kabul edilebilir kaynak"
+  demek DEĞİLDİR.*** Sayfanın **hangi cinsten** olduğuna bakılır.
+
+  ⚠️ Ve tuzağın biçimi tanıdık: sayfa `200` döner, gövde gelir, boş
+  değildir, yanlış konu da değildir — `§4`ün **altıncı** tuzağının
+  (canlı yönlendirme kütüğü) kardeşi. Orada gövde bir **adres**ti, burada
+  bir **YZ özeti**. İkisi de *"kaynak var"* diye okunur.
+
+  📌 Ve asıl ders bir alan adından büyük: **bir kaynağın güvenilirliği
+  ARTIK SAYFA DÜZEYİNDEDİR, site düzeyinde değil.** `§4`ün 🟢/🔴
+  listeleri site adlarıyla yazılmıştı; bu vaka onların **sayfa başına**
+  sınanması gerektiğini gösteriyor.
+
+  🟢 Doğru davranışın kaydı: o oturum `ranquel` maddesini özetten değil,
+  **altındaki gerçek madde aktarmasından** yazdı ve provenansı `kaynak`
+  alanına açıkça koydu.
+
+- 🟢 **VE HASSASİYETİ DÜŞÜRMEK BİLGİYİ SİLMEZ — DAYANAĞINI GÖRÜNÜR KILAR.**
+  *(aynı oturum, aynı gün)*
+  `paraguay f:1811-05-14` kaynaksız diye `1811-01-01`e indirilmişti. Yeni
+  bir kaynak günü **aynen** verdi (*«declared their independence on May 14,
+  1811»*) ve gün **geri alındı** — ama artık künyeden değil **kaynaktan**
+  geliyor.
+  ⇒ Kural önce doğruyu kaybettirdi gibi göründü; sonra aynı kural onu
+  **dayanaklı** hâle getirdi. ***Kaybolan şey gün değil, gerekçesizlikti.***
