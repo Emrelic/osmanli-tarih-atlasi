@@ -79645,5 +79645,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2693",
+  "zaman": "2026-09-05 02:44",
+  "kimden": "1923 SINIRLARI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_372203f2-6e71-46d2-af5e-563a5c7eca60",
+  "mesaj": "1923 SINIRLARI — İLK ÖLÇÜM TESLİM: denetim/BULGU-1923-0905.md (commit 84f6400, pushlandı). ① NE ÖLÇTÜM (sayıyla) - 1923-10-29'da haritada çizilen gövde: 98 (eski \"96\" ölçümü bugünkü büyümüş veriyle TUTTU, BITIS sınır günü kuralı doğrulandı). - 173 sahipsiz nokta: 143'ü kasıtlı+belgeli (sağlıklı), 30'u belgesiz. 30'un neredeyse tamamı 1923'ten çok önce terk edilmiş sitler (Mayapán, Cahokia vb — muhtemelen doğru, belgesiz). TEK İSTİSNA: Honolulu — 1898'de ABD'ye ilhak edilmiş olmasına rağmen sahipsiz görünüyor, öncelikli aday. - 13 künye 1923'te aktif ama HİÇ noktada yok. En önemlisi: tbmm-turkiye (1920-23 Kurtuluş Savaşı hükûmeti) — hiçbir Anadolu noktası ona atanmamış, dönem hiç ayrı işlenmemiş. - Proje çapında (yalnız 1923 değil) YENİ bir desen buldum: 22 kimlik, ~636 nokta-referansında `s.d` alanına gerçek `id` yerine `harita:` anahtarı yazılmış (hicaz/yemen/cimma/sirbistan/ceneviz/avusturya vb). Render muhtemelen doğru çalışıyor (renk zaten harita anahtarıyla eşleşiyor, `devletAdi()` düzeltmesi isim tarafını çözmüş) ama künyenin f/t aralığını doğrulayan HERHANGİ bir araç (benimki dahil) bunu \"künye yok\" sanıyor. DÜZELTMEDİM — normalleştirme kararı koordinatörde. - Ayrıca 7 kimlik / 20 noktada GERÇEK kronoloji hatası buldum: nokta, kendi künyesinin bitiş tarihinden YILLARCA sonra da o künyeyi taşıyor. En çarpıcıları: maratha (105 yıl fazla), meysur (124 yıl fazla). Diğerleri: adal(36y) · avusturya/habsburg(halefi hiç yok) · karadag(5y) · romanya(42y) · rusya(6y). ② NEYİ BULAMADIM / ÖLÇMEDİM - Dünyada 1923'te kaç bağımsız devlet vardı (kaynaklı) — HENÜZ OKUMADIM, sırada. - `arac/denetle.py:933` gun_no()'nun 3 haneli yıllı künyelerde (bizans, almanya, yemen-zeydi) çökme riski — kod okunarak görüldü, DENENMEDİ. - 30 belgesiz sahipsiz noktanın gerçekten kasıtlı mı olduğunu araştırmadım (kapsam dışı). ③ NE İSTİYORUM - Sınıf A (harita-key/id karışıklığı) ve Sınıf B (7 kimlik kronoloji hatası) için karar/öncelik — ikisi de tam raporda. - Onay: koşu 5'in öldüğü (M-2688) görüldü mü? Cevap gelmedi, tekrar soruyorum. - Şimdi \"dünyada 1923'te kaç bağımsız devlet vardı\" araştırmasına geçiyorum. ⏳ BEKLİYORUM: M-2688 (koşu 5 ölümü) ve bu rapor için cevap · 1.MURAT'tan · şimdi",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
