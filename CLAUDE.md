@@ -437,6 +437,87 @@ uygulanmış biçimi budur.)
 kullan"* olumlu bir tarif olarak neredeyse boştur — herkes kendi bulduğunu
 akademik sanır. Sınanabilir olan, **neyin kullanılmayacağıdır.**
 
+#### 🔴 ARA BÖLGE — kırmızı liste BAĞLAYICIDIR, yeşil liste DEĞİL
+*(4 Eylül 2026 · `KRONOLOJİ AFRİKA GÖVDE` sordu, boşluğu doğru yerde buldu)*
+
+Yukarıdaki iki liste arasında **tanımsız bir orta bölge** var ve bir oturum
+orada sıkıştı: SAHO (devlet destekli, kaynakçalı kamu tarih arşivi) ve
+Britannica (imzalı uzman maddesi) 🔴 listenin **hiçbir maddesine girmiyor**,
+ama 🟢 listenin tam ortasında da değil. *"Cambridge/UNESCO'nun kendisine mi
+inmeliyim?"* diye sordu — ve cevabı 65 künyenin hızını belirliyordu.
+
+🟢 **HÜKÜM: bağlayıcı sınav 🔴 LİSTEDİR.** Bu bölümün kendi cümlesi zaten
+onu söylüyor (*"sınanabilir olan, neyin kullanılmayacağıdır"*); yeşil liste
+bir **örnek kümesi**dir, bir kapı değil. Kırmızıya girmeyen kurumsal /
+ansiklopedik kaynak **kabul edilir**, şartı: adıyla yazılır ve mümkün olan
+yerde ikinci bağımsız bir kaynakla eşleşir.
+📌 Ve `§4`ün TANECİKLİK kuralı zaten bunu meşru kılıyordu — o oturumun
+32 sluglık ölçümü (8 canlı / 24 ölü) boşluğun gerçek olduğunu gösterdi.
+
+#### 🔴🔴 HASSASİYET KAYNAĞI AŞAMAZ — ve proje bunu 161 kez ihlal etmiş
+
+`§4` *"tarih uydurma, gün bilinmiyorsa `YYYY-01-01` yaz"* diyor. Bugün o
+kuralın **iki eksik ayağı** ölçüldü.
+
+**① `YYYY-01-01` GÜNÜ bilinmeyen içindir, YILI bilinmeyen için DEĞİL.**
+`KRONOLOJİ ORTA AMERİKA` bir madde yazdı, sonra **kendi sildi**:
+> *"Zapotek'in Guiengola'da Mexica ordularını yenmesi için `1490-01-01`
+> yazıp «temsilî» diye damgalamıştım. SİLDİM. Kaynak yalnız «during the
+> late fifteenth century» diyor. **Yıl uydurmak tarih uydurmaktır ve
+> 'temsilî' damgası onu meşrulaştırmaz, yalnız GÖRÜNMEZ KILAR.**"*
+
+**② Ve tersi daha yaygın: SAHTE KESİNLİK.** Aynı oturum `purepecha`ya
+`son` maddesi yazmayı reddetti — künye `t:1530-02-14` (gün!), akademik
+tarama 1529, ve künyenin **kendi** `kaynak` alanı şöyle diyor:
+> *"bulunamadı — … Tarihin dayanağı DURUYOR: f:/t: **BAĞLI VERİNİN
+> kullandığı aralığa HİZALANDI.** Akademik kaynak ARANACAK."*
+
+Tek vaka sanıldı; **tarandı, sistemik çıktı:**
+```
+591 künyenin 161'i  gün hassasiyetli tarih taşıyor VE `kaynak` alanı
+                    LİTERAL olarak "bulunamadı" ile BAŞLIYOR
+novgorod 1478-01-15 · pskov 1510-01-13 · tver 1485-09-12 · moskova
+1547-01-16 · litvanya 1569-07-01 · cenova 1797-06-14 · imereti 1810-02-20
+```
+⚠️ **Çoğu muhtemelen DOĞRU** — Moskova `1547-01-16` IV. İvan'ın taç
+giymesidir. Kusur *yanlışlık* değil **yanlış HASSASİYET**: gün yazmak
+*"bu günü biliyorum"* demektir, oysa aynı kaydın `kaynak` alanı
+*"bilmiyorum"* diyor — ve **gün, kaynağın yokluğunu ÖRTÜYOR.**
+
+📌 Bu, `§11`in *"yuvarlak tarih yalnız yanlış değildir, çelişkiyi de
+saklar"* dersinin **AYNASI**: orada yuvarlaklık bir boşluğu gizliyordu,
+burada **sahte kesinlik** bir dayanaksızlığı gizliyor. ⇒ *Hassasiyet
+yalnız doğruluk değil, GÖRÜNÜRLÜK meselesidir* — ve iki yöne de bozulur.
+🔴 **Kural: künyenin `f:`/`t:` günü bir KAYNAK DEĞİLDİR.** Kaynak yıl
+diyorsa yıl yazılır, künye gün dese bile — ve fark **bildirilir.**
+
+#### 🔴 TDV TUZAK LİSTESİNE İKİ EKSEN DAHA *(ikisi de 4 Eylül, işçi ölçümü)*
+
+```
+⑤ 000 BİR HTTP KODU DEĞİLDİR — taşıma arızasıdır, "ölü" diye damgalanmaz
+⑥ CANLI slug · DOĞRU madde · DOLU gövde · ve KENDİ İÇİNDE ÇELİŞİK
+```
+⑤ `KRONOLOJİ AFRİKA GÖVDE`: `guney-afrika-cumhuriyeti` ilk turda `000`
+döndü, *"ölü"* **yazmadı**, yeniden ölçtü — **200 CANLI** ve bölgenin TDV'de
+kapsayan **tek** maddesiydi. İlk turu kaydetseydi onu *"yok"* diye
+damgalayacaktı. *"Ölçülemedi ≠ ölü"* burada somut bir kayıp önledi.
+
+⑥ `KRONOLOJİ GÜNEY AMERİKA`: TDV `amerika` gövdesi Tordesillas'ı bir yerde
+**1494**, başka yerde **1498** veriyor. Dört tuzağın hiçbiri bunu
+yakalamaz — slug canlı, madde doğru, gövde dolu. ⇒ `§4`ün *"kaynağın kendi
+uyarısını da oku"* kuralının bir kademe ötesi: **kaynak bazen uyarı vermez,
+kendiyle çelişir** — ve o zaman çelişkiyi BİLDİRMEK, taraf seçmekten
+değerlidir.
+
+⚠️ **Ve aşağıdaki kapsama tablosunun bir satırı ÖLÇÜLEMEZ:** *"Afrika'nın
+dördü %100"* **hangi dördü** olduğunu söylemiyor. `devletler.js`te beş
+Afrika bölgesi var (kuzey 12 · doğu 39 · batı 51 · orta 24 · güney 18) ve
+bir oturumun 32 sluglık ölçümü güney için o iddiayı **çürüttü** (8 canlı /
+24 ölü; `zulu` · `transvaal` · `oranj` · `lesotho` · `herero` · `ndebele`
+hepsi 302). ⇒ **Bu satırdan bir bölge için hüküm çıkarma; kendi ölçümüne
+dayan.**
+
+
 - **Vikipedi hiçbir zaman tek dayanak değildir.** "Hangi olaya bakmalıyım" sorusunu
   cevaplar; tarih oradan alınıp doğrulanmadan yazılmaz.
 - **Tarih uydurma.** Gün bilinmiyorsa `YYYY-01-01` yaz — bu, "yıl biliniyor, gün
