@@ -158,6 +158,18 @@ m/px = 40.075.017 × cos φ ÷ (512 × 2^z)   ⚠️ 512, kmDanZoom'un 256'sı D
 ```
 · serbest-hale · serbest-cekirdek — MapLibre ifade hatası, HİÇ yüklenmiyor
   ⇒ "serbest" topraklar haritada hiç çizilmiyor (4 konsol hatası)
+  🔴🔴 BU DÜZELTME ④'ÜN R14 HÜKMÜNÜ GEÇERSİZ KILAR — çapraz bağ:
+     R14 "kenar ailesi görünmez artefakt" hükmü, `serbest kenar` katmanının
+     BOZUK OLDUĞU bir ekran için verildi. Katman düzeltilince ince
+     şeritlerin KENARI çizilecek ve sub-piksel bir şerit bile GÖRÜNÜR
+     hâle gelebilir.
+     ⇒ `serbest-*` düzeltildikten SONRA R14 yeniden sınanır.
+       Sınav ucuz: aynı kutuya aynı yakınlıkta bak.
+     ⚠️ Bu bir "hüküm yanlıştı" kaydı DEĞİL, bir KAPSAM kaydı: hüküm
+       bugünün ekranı için doğru, yarınınki için ÖLÇÜLMEMİŞ.
+     📌 İki borç birbirine bağlıydı ve bağ, ancak ikisi AYRI AYRI
+       yazıldığı için görünür oldu — biri burada, öteki `BULGU-GEOMETRI`de.
+       Tek yerde dursalardı biri ötekini örterdi.
 · KRONOLOJI_* 18 küresel değişken DEVLETLER'de karşılıksız
 · kmDanZoom 256 px sabiti kullanıyor, 512 olmalı — TAM 2× yanlış
 · OWTRAD tarayıcı doğrulaması (node ile sınandı, tarayıcıda DEĞİL)
