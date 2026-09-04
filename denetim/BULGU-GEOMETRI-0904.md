@@ -537,3 +537,99 @@ kendiliğinden değiştirmez.
 ```
 Her kalem için: **hangi çıktıdan** → `data/donemler.js` + `data/devletler_harita.js`,
 **hangi birimde** → km² (derece² × 111,32² × cos φ) ve **adet**.
+
+---
+
+# EK 1 — 1500 ve 1700 KESİTLERİ, VE KENDİ ALETİMİN SINIRI
+
+*(4 Eylül 2026, koordinatörün "1500/1700 en değerli açık kalem" sevkiyle)*
+
+## ① 1500 ve 1700 — ayrışma AYNEN sürüyor
+
+```
+                       DEĞEN  BOŞLUK  ÖRTÜŞEN  uzak     aktif gövde · komşu aday
+1281-01-01  köşe VAR     110      0      110      0     153 · 402
+            köşe YOK       0     17        2    163
+1500-06-15  köşe VAR     115      0       99      0     159 · 396
+            köşe YOK       0     17        2    163
+1700-06-15  köşe VAR      88      0       76      0     116 · 657
+            köşe YOK       0     17        5    471
+```
+🔴 **Üç kesitte de "ORTAK KÖŞE VAR × BOŞLUK" hücresi SIFIR.** Mekanizma
+1281'e özgü değil, **kalıcı.**
+
+⚠️ **Ve "17" üç kesitte de çıkması TESADÜFTÜR — ölçtüm, çürüttüm:**
+```
+üç kesitte de boşluklu olan çift: 3
+   choctaw ↔ creek-konfederasyonu · choctaw ↔ natchez · habesistan ↔ sidamo
+yalnız 1281'de:  9 çift   ·  yalnız 1500'de:  9 çift  ·  yalnız 1700'de: 14 çift
+```
+⇒ Kusur **sabit bir dikişte değil**; hangi dikişin o kesitte ortak köşesini
+kaybettiğine bağlı. Aynı sayının üç kez çıkması, aynı vakanın sürdüğü
+anlamına **gelmiyor.**
+
+## ② 🔴 KENDİ ÖLÇÜMÜMÜ DÜZELTİYORUM — "17 çift" ALT SINIRDIR, KUSURUN ÖLÇÜSÜ DEĞİL
+
+Aletim gövde–gövde mesafesini **tek bir sayı** olarak ölçüyor. Bir çift bir
+yerde **değiyorsa** mesafe 0 çıkıyor — **başka bir yerde 5 km açık olsa bile.**
+Ve bunun kanıtı zaten kendi raporumun içindeydi:
+```
+KUTU A'da  almanya ↔ macaristan  =  5,245 km AÇIK
+küresel ölçümde aynı çift        =  DEĞEN (0 km) — çünkü başka yerde değiyor
+```
+⇒ **"17 boşluklu çift" bir alt sınırdır.** `§11`: *"sayı doğru diye yöntem
+doğru sayılmaz"* — sayı doğru, **evreni yanlış**: çift değil, **dikiş parçası**
+sayılmalıydı.
+
+## ③ DÜZELTİLMİŞ ÖLÇÜ — çift değil ALAN, ve ÜÇ AİLE ayrıldı
+
+Avrupa kutusu (-10..40D · 35..70K), 1281-01-01, `ne_10m_land` tabanlı:
+```
+kara        7.915.499 km²
+boyalı      7.707.241 km²  (%97,4)
+BOYASIZ       236.146 km²  (%3,0) · 11.745 parça
+```
+Parçaları **ortalama genişlik** ve **kaç gövdeye değdiği** ile ayırdım
+(5 km² altı sayılmadı — 9.472 parça, piksel gürültüsü):
+```
+① DİKİŞ         ≤8 km geniş VE 2+ gövdeye değiyor      95 parça ·  15.526 km²
+② KENAR/KIYI    ≤8 km geniş VE ≤1 gövdeye değiyor   2.159 parça ·  85.765 km²
+③ KAPSAMA       >8 km geniş                             19 parça · 127.232 km²
+```
+**En büyük dikiş şeritleri — ve görsellerdeki vakaları BİREBİR buluyor:**
+```
+2.131 km² · 4,8 km · 33,67·45,25 → altinorda + ceneviz
+1.862 km² · 2,5 km · 21,65·54,39 → almanya + lehistan          ← H-0001-9 (Riga)
+1.543 km² · 4,7 km · 14,81·48,54 → almanya+avusturya+lehistan+macaristan ← H-0001-8
+1.265 km² · 3,3 km · 16,98·65,61 → isvec + norvec-kralligi
+  455 km² · 5,0 km · 21,62·38,04 → bizans + venedik
+```
+🟢 Bu, KUTU A/B ölçümlerimi **bağımsız olarak doğruluyor** (1.621 km²/4,96 km
+ve 1.497 km²/2,62 km — aynı şeritler, farklı yoldan).
+
+## ④ 🆕 VE BU ÖLÇÜM ÜÇÜNCÜ BİR AİLE ORTAYA ÇIKARDI: KIYI KENARI
+
+**85.765 km², 2.159 parça** — ince, ama **yalnız BİR gövdeye** değiyor. Yani
+iki devlet arasındaki dikiş değil, **gövdenin kıyı çizgisine yetişememesi.**
+Dikiş ailesinden **5,5 kat** büyük ve bugüne kadar hiç adlandırılmamış.
+
+⚠️ **BUNU AÇIKLAMADIM, YALNIZ ÖLÇTÜM.** Muhtemel sebepler (hiçbiri sınanmadı):
+kıyı sadeleştirme toleransı · `KARA_TOL` · gövdenin `KARA` ile kesilmesindeki
+yuvarlama · ada/kıyı şeridi peteklerinin hiç doğmaması.
+🔴 Ve `§11`: bu üç aile **tek satırda raporlanırsa aynı çare uygulanır** ve
+biri düzelirken öteki bozulur. Ayrı tutuldular.
+
+## ⑤ REÇETE KUYRUĞUNA EK
+
+| # | iş | test |
+|---|---|---|
+| R13 | Dikiş nöbetçisi **çift** değil **parça** saysın: ince (≤8 km) + 2+ gövdeye değen parçaların adedi ve km²'si | 1281 Avrupa: 95 parça / 15.526 km² → R1'den sonra < 10 parça |
+| R14 | KIYI KENARI ailesi ADIYLA ölçülsün ve sebebi aransın (85.765 km², 2.159 parça) — dikişten AYRI kalem | sebep bulunana kadar 🟡 kovasında |
+
+## ⑥ 🟡 EK 1'İN ÖLÇÜLEMEDİKLERİ
+```
+· ①②③ ayrımı yalnız 1281 · AVRUPA kutusunda yapıldı. 1500/1700 ve öteki
+  kıtalar için ALAN ölçümü YOK (çift ölçümü var, o da alt sınır).
+· "KENAR" ailesinin sebebi ölçülmedi (yukarıda ④).
+· 5 km² eşiğinin altında 9.472 parça var; bunların ne olduğu ölçülmedi.
+```
