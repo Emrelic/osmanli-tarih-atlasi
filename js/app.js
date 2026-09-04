@@ -3047,6 +3047,11 @@ var KORIDOR = {
   dugum: {}, kenar: [],
   atlanan: { dugum: 0, kenar: 0 },
   yama: { dosya: 0, dugum: 0, kenar: 0, eksik: 0, tanimsiz: [] },
+  // 🆕 NESNE ŞEKİLLİ KÜMELER (KORIDOR_<AD> = {kunye,dugum,kenar}) — 4 Eylül
+  // 2026. `supheli` bir SAYI değil LİSTE: birleştirilmeyen eşleşmeler adıyla
+  // basılır, çünkü "1 şüpheli var" cümlesi kimseye ne yapacağını söylemez.
+  nesne: { dosya: 0, birlesti: 0, yakin: 0, yeni: 0, adsiz: 0,
+           supheli: [], yakinlar: [] },
   acik: false
 };
 
@@ -3101,6 +3106,128 @@ function koridorYamaUygula(ham) {
   });
 }
 
+// ═══════════════════════════════════════════════════════════════════════
+// NESNE ŞEKİLLİ KORİDOR KÜMELERİ — 4 Eylül 2026 (Emre: "OWTRAD'ı da
+// toplamaya sok")
+// ═══════════════════════════════════════════════════════════════════════
+// Süzgeç bugüne kadar İKİ şekil tanıyordu: `KORIDOR[_<ek>]_DUGUM/_KENAR`
+// global DİZİLERİ ve `KORIDOR_YAMA_<hane>` yama nesneleri. `KORIDOR_OWTRAD`
+// bir ÜÇÜNCÜ şekil — `{kunye, dugum, kenar}` — ve ikisine de girmediği için
+// 154 düğüm + 174 kenar yüklüydü ama ÇİZİLMİYORDU. Üstelik `atlanan`
+// sayacına da girmiyordu: yani "sessizce elenmedi", HİÇ GÖRÜLMEDİ.
+//
+// ÜÇ UYUŞMAZLIK ÖLÇÜLDÜ (varsayılmadı — dosya `node` ile döküldü):
+//   ① KAP    nesne, dizi değil
+//   ② DÜĞÜM  `id` YOK, anahtar `ad`  ⇒ `if (!d.id) return` 154'ü de düşürürdü
+//   ③ KENAR  uçlar `a`/`b` · tarih `erken`/`gec`, YIL dizgisi
+//
+// 🔴 3 KM TUZAĞI — ve iki gerçek vaka buldu:
+// OWTRAD düğümleri `esleme_koridor:{hal,karsilik,km}` taşıyor ve `karsilik`
+// mevcut düğümün **`ad`ını** tutuyor, `id`sini DEĞİL. Kimlikle arayınca
+// 0/154 eşleşme çıkıyor; ADLA arayınca 42. Katı bir `km<=3` kuralı şunları
+// mükerrer düğüm olarak yazardı:
+//     Belgrade ↔ Belgrad  3,80 km  (hal "ad")
+//     Suceava  ↔ Suçava   4,15 km  (hal "supheli")
+// ⇒ Eşik 5 km. Ama `hal:"supheli"` OTOMATİK BİRLEŞTİRİLMEZ: dosyayı yazan
+//   taraf "emin değilim" demiş, onu ezmek değil GÖRÜNÜR kılmak doğru
+//   (`§11`: "ölçülemedi ≠ temiz"). Şüpheli kayıt yeni düğüm olur ve
+//   konsola ADIYLA basılır ki karar verilebilsin.
+function koridorNesneTopla(ham, adIdx) {
+  var cikan = [];
+  Object.keys(window).forEach(function (k) {
+    // ⚠️ Tek alt çizgi ŞART: `KORIDOR_YAMA_E9353F` iki alt çizgi taşıdığı
+    //    için buraya DÜŞMEZ, `KORIDOR_DUGUM`/`_KENAR` ise DİZİ oldukları
+    //    için aşağıdaki şekil sınavında elenir. İkisi de ölçülerek denendi.
+    if (!/^KORIDOR_[A-Za-z0-9]+$/.test(k)) return;
+    var o = window[k];
+    if (!o || Array.isArray(o) || typeof o !== "object") return;
+    if (!Array.isArray(o.dugum) || !Array.isArray(o.kenar)) return;
+    KORIDOR.nesne.dosya++;
+
+    var kanon = {};                     // OWTRAD adı → atlasın kimliği
+    o.dugum.forEach(function (d) {
+      if (!d || !d.ad) { KORIDOR.nesne.adsiz++; return; }
+      var e = d.esleme_koridor || {};
+      var hedef = e.karsilik ? adIdx[e.karsilik] : null;
+      var birlestir = hedef && (e.hal === "ad" || e.hal === "3km")
+                            && e.km != null && e.km <= 5;
+      if (birlestir) {
+        kanon[d.ad] = hedef;
+        KORIDOR.nesne.birlesti++;
+        // Mevcut düğümün koordinatı yoksa OWTRAD'ınki doldurur — birleşme
+        // yalnız mükerrer önlemez, eksik de kapatır.
+        if (ham[hedef] && ham[hedef].lat == null && d.lat != null) {
+          ham[hedef].lat = d.lat; ham[hedef].lon = d.lon;
+        }
+        return;
+      }
+      // 🔴 GEOMETRİK KAPI — beyan YETMEDİ, ölçüldü (4 Eylül 2026).
+      // İlk sürüm yalnız `esleme_koridor` beyanına bakıyordu ve 3 km'den
+      // yakın SEKİZ yeni çift doğurdu (tabanda 0'dı) — yani `§11`in
+      // Varat/Varad tuzağını "eksik veriyi tamamlıyoruz" diye üretiyordu.
+      // Beyan üç yoldan kaçırıyor:
+      //   ① ad AYRIŞIK      Bahcesaray → karşılık "Bahçesaray", ama mevcut
+      //                     düğümün adı "Kırım" (0,56 km)
+      //   ② eşleme YOK      `cins:"ara-nokta"` rota köşeleri (locNN · frk04 ·
+      //                     sealoc23) gerçek şehirlerin üstüne düşüyor
+      //   ③ KENDİ İÇİNDE    Prevesa ↔ Preveza, birebir aynı koordinat
+      // ⇒ Yeni bir düğüm, KAYITLI bir düğümün 3 km'sine düşüyorsa ayrı
+      //   düğüm açılmaz. 3 km bu projenin ölçülmüş şüphe eşiği; koridor
+      //   düğümlerinde iki ayrı menzilin 3 km'de durması gerçekçi değil.
+      // ⚠️ Suceava (4,15 km) eşiğin DIŞINDA kalır ve `supheli` listesinde
+      //   basılır — birleştirmiyoruz, ama GÖRÜNMEZ de bırakmıyoruz.
+      if (d.lat != null && d.lon != null) {
+        var enY = null, enKm = 1e9;
+        Object.keys(ham).forEach(function (hid) {
+          var h = ham[hid];
+          if (!h || h.lat == null || h.lon == null) return;
+          var dl = (h.lat - d.lat) * 111.32;
+          var dn = (h.lon - d.lon) * 111.32 * Math.cos(d.lat * Math.PI / 180);
+          var km = Math.sqrt(dl * dl + dn * dn);
+          if (km < enKm) { enKm = km; enY = hid; }
+        });
+        if (enY && enKm < 3) {
+          kanon[d.ad] = enY;
+          KORIDOR.nesne.yakin++;
+          KORIDOR.nesne.yakinlar.push(
+            d.ad + " → " + (ham[enY].ad || enY) + " " + enKm.toFixed(2) + " km");
+          return;
+        }
+      }
+      if (hedef) KORIDOR.nesne.supheli.push(
+        d.ad + " ↔ " + e.karsilik + " " + e.km + " km (" + e.hal + ")");
+      var id = "owt-" + String(d.ad).toLowerCase().replace(/[^a-z0-9]+/g, "-");
+      if (!ham[id]) {
+        ham[id] = { id: id, ad: d.ad, lat: d.lat, lon: d.lon,
+                    tip: "owtrad", ulke: d.ulke, cins: d.cins,
+                    kaynak: (o.kunye && o.kunye.kume) || k };
+        KORIDOR.nesne.yeni++;
+      }
+      kanon[d.ad] = id;
+    });
+
+    o.kenar.forEach(function (e) {
+      var u1 = kanon[e.a], u2 = kanon[e.b];
+      if (!u1 || !u2) { KORIDOR.atlanan.kenar++; return; }
+      // ⚠️ TARİH: `erken`/`gec` YIL dizgisi. Gün uydurulmuyor — yılın ilk ve
+      //    son günü alınıyor; `§4`ün "gün bilinmiyorsa YYYY-01-01" kuralının
+      //    aralık hâli. Varsayılan (1539-1839, menzil teşkilâtı) OWTRAD için
+      //    YANLIŞ olurdu: bu küme 1300-1600'ü anlatıyor.
+      cikan.push({
+        u1: u1, u2: u2,
+        f: (e.erken || "1300") + "-01-01",
+        t: (e.gec || "1600") + "-12-31",
+        cins: "ticaret",              // popup "menzil hattı" DEMESİN
+        kanat: (o.kunye && o.kunye.kume) || "OWTRAD",
+        kol: e.tur || "", kalinlik: "tali",
+        saat_cinsi: "olculemedi",
+        kaynak: e.kaynak || "bulunamadı"
+      });
+    });
+  });
+  return cikan;
+}
+
 function koridorTopla() {
   // ① BÜTÜN düğümler ham haritaya — koordinatsızlar DAHİL, çünkü yama tam
   //    onlara koordinat yazacak. Önce eleyip sonra yamalamak imkânsızdı.
@@ -3122,6 +3249,17 @@ function koridorTopla() {
   // ② YAMALAR — koordinat doldurur, yeni düğüm ekler
   koridorYamaUygula(ham);
 
+  // ②b NESNE ŞEKİLLİ KÜMELER — OWTRAD ve benzerleri
+  // 🔴 YAMALARDAN SONRA çağrılıyor ve bu SIRA KASITLI: ad→kimlik indeksi
+  //    yamaların eklediği düğümleri de görmeli, yoksa yamayla gelen bir
+  //    düğüm ikinci kez yazılır.
+  var adIdx = {};
+  Object.keys(ham).forEach(function (id) {
+    var a = ham[id] && ham[id].ad;
+    if (a && !adIdx[a]) adIdx[a] = id;          // ilk kayıt kazanır
+  });
+  var nesneKenar = koridorNesneTopla(ham, adIdx);
+
   // ③ Koordinatı OLANLAR çizilir; kalan SAYILIR (sessizce düşmez)
   Object.keys(ham).forEach(function (id) {
     var d = ham[id];
@@ -3130,7 +3268,7 @@ function koridorTopla() {
   });
 
   // ④ Kenarlar: hem `_KENAR` globalleri hem yamaların `kenar` dizisi
-  var kenarlar = [];
+  var kenarlar = [].concat(nesneKenar);      // ②b'nin normalleştirdiği kenarlar
   Object.keys(window).forEach(function (k) {
     if (/^KORIDOR(_[A-Za-z0-9]+)?_KENAR$/.test(k) && Array.isArray(window[k]))
       kenarlar = kenarlar.concat(window[k]);
@@ -3219,7 +3357,12 @@ function koridorKur() {
   });
   harita.on("click", "koridor-kenar-cizgi", function (ev) {
     var p = ev.features[0].properties;
-    var govde = "<b>" + p.baslik + "</b><br><i>menzil hattı — " + (p.kanat || "") + "/" + (p.kol || "") + "</i>";
+    // 🔴 "menzil hattı" HER HAT İÇİN DOĞRU DEĞİL: OWTRAD kümesi TİCARET
+    // yollarını anlatıyor. Ekranda yanlış ad vermek, hiç ad vermemekten
+    // kötüdür — kullanıcı onu veri sanır.
+    var cinsAd = (p.cins === "ticaret") ? "ticaret yolu" : "menzil hattı";
+    var govde = "<b>" + p.baslik + "</b><br><i>" + cinsAd + " — "
+                + (p.kanat || "") + "/" + (p.kol || "") + "</i>";
     if (p.saat != null && p.saat !== "") {
       // ⚠️ "ölçüldü" ile "türetildi" AYRI: birincisi arşivden okunmuş saat,
       // ikincisi kuş uçuşu km / 4,25 km-sa kalibrasyonuyla HESAPLANMIŞ.
@@ -3244,6 +3387,22 @@ function koridorKur() {
   // 🔴 YAMA SATIRI AYRI BASILIYOR ve sebebi ölçülmüş: yamaların görünmediği
   // kusuru yakalayan şey bir denetim değil, YUKARIDAKİ "atlanan" SATIRIYDI.
   // Sayılmayan şey görünmez; görünmeyen şey yarın sıfırdan keşfedilir.
+  if (KORIDOR.nesne.dosya) {
+    console.log("Atlas: koridor nesne kümeleri — " + KORIDOR.nesne.dosya
+      + " dosya · " + KORIDOR.nesne.yeni + " yeni düğüm · "
+      + KORIDOR.nesne.birlesti + " düğüm beyanla · "
+      + KORIDOR.nesne.yakin + " düğüm 3 km YAKINLIKLA birleşti · "
+      + KORIDOR.nesne.adsiz + " adsız atlandı.");
+    // 🔴 Geometrik birleşmeler ADIYLA basılır: sessiz birleştirme,
+    //    sessiz mükerrerden iyi değildir — ikisi de denetlenemez.
+    if (KORIDOR.nesne.yakinlar.length)
+      console.log("Atlas: koridor — 3 km yakınlıkla birleşen düğümler: "
+        + KORIDOR.nesne.yakinlar.join(" · "));
+    if (KORIDOR.nesne.supheli.length)
+      console.warn("Atlas: koridor — " + KORIDOR.nesne.supheli.length
+        + " ŞÜPHELİ eşleşme BİRLEŞTİRİLMEDİ (karar bekliyor): "
+        + KORIDOR.nesne.supheli.join(" · "));
+  }
   console.log("Atlas: koridor yaması — " + KORIDOR.yama.dosya + " dosya · " +
     KORIDOR.yama.dugum + " düğüme koordinat · " + KORIDOR.yama.kenar +
     " kenar eklendi · " + KORIDOR.yama.eksik + " düğüm KOORDİNATI BULUNAMADI.");
@@ -3271,6 +3430,7 @@ function koridorGuncelle(t) {
       properties: {
         baslik: m.a.ad + " → " + m.b.ad, kanat: m.e.kanat, kol: m.e.kol,
         kalinlik: m.e.kalinlik || "ana", saat: m.e.saat,
+        cins: m.e.cins || "menzil",
         saat_cinsi: m.e.saat_cinsi || "olculemedi", kaynak: m.e.kaynak || "bulunamadı"
       },
       geometry: { type: "LineString", coordinates: [[m.a.lon, m.a.lat], [m.b.lon, m.b.lat]] }
