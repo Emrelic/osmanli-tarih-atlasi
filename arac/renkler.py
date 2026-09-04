@@ -2566,7 +2566,7 @@ BOYALAR = {
     "afganistan":              ("Afganistan Emirliği",               "#e4b1d5"),
     # ── #6b4a7d  [ASYA · ① EKSİK, gövde yok · zarf(-25,-17.5,159,74) teyitli]  ile paylaşımlı (safevi) · 1 kimlik
     # le-hanedani  #a56cab → #9ceded  (toplu tur)
-    "le-hanedani": ("Lê Hanedanı (Đại Việt)", "#3b025a"),
+    "le-hanedani": ("Lê Hanedanı (Đại Việt)", "#8ad224"),
 
     # ═══════════════════════════════════════════════════════════════════════
     # ASYA PARTİ 1 — 1550 kesitinin 12 adsız kimliği (VERİ KİMLİK 3, 3 Ağustos)

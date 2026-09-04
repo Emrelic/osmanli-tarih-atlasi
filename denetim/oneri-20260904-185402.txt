@@ -1,0 +1,4 @@
+// renk_olc.py --oner çıktısı — aktarımdan SONRA:
+//   py arac/renk_olc.py --dogrula oneri-20260904-185402.txt
+bosna #246cd2
+le-hanedani #8ad224

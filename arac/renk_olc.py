@@ -921,6 +921,7 @@ def oner(yeni):
     KULLANILAN = {v[1].lower() for a, v in BOYALAR.items()
                   if a not in yeni}
     aday = []
+    _deniz_elendi = 0
     for r in range(0, 256, 6):
         for g in range(0, 256, 6):
             for b in range(0, 256, 6):
@@ -930,8 +931,29 @@ def oner(yeni):
                 L = lab(bind((r, g, b)))
                 if dE(L, ALT) < DE_ALTLIK:
                     continue
+                # 🔴 DENİZ SÜZGECİ — 4 Eylül 2026'da EKLENDİ, ve sebebi
+                # ölçülmüş bir GERİLEMEDİR, bir tahmin değil.
+                # `oner()` bugüne kadar komşuyu ve ALTLIĞI kısıtlıyordu ama
+                # DENİZİ hiç kısıtlamıyordu (gövdesinde `deniz` kelimesi bir
+                # kez bile geçmiyordu). Sonucu ölçüldü:
+                #   Emre "renkler denizle benzer" dedi → `norvec-kralligi`
+                #   `#2490d2`den alındı (dE-deniz 13,95 · DAL1 İHLAL).
+                #   Saatler sonra `le-hanedani` için çözücü çağrıldı ve
+                #   **AYNI `#2490d2`yi** önerdi. Uygulansaydı bugün kapatılan
+                #   şikâyet aynen geri gelecekti.
+                # ⇒ Ölçüt `deniz_ihlal`in DAL 1 ve DAL 2'siyle BİREBİR aynı;
+                #   kopya değil, aynı sabitler okunuyor — eşik bir yerde
+                #   değişirse burası da değişir.
+                _dd = dE(L, DENIZ_LAB)
+                if _dd < DE_DENIZ:                              # DAL 1
+                    _deniz_elendi += 1
+                    continue
+                if abs(L[0] - DENIZ_LAB[0]) < DL_DENIZ and _dd < DE_DENIZ_GENIS:
+                    _deniz_elendi += 1                          # DAL 2
+                    continue
                 aday.append((hx, L))
-    print(f"  altlıktan ayrışan aday: {len(aday)}")
+    print(f"  altlıktan ayrışan aday: {len(aday)}"
+          f"   (denizle karışan {_deniz_elendi} aday ELENDİ)")
 
     # 🔴 YENİLER ARASI ENGEL de aynı evrene geçirildi (3 Eylül 2026).
     #   Eski hâli `if b in k.get(a, ())` — yalnız VORONOİ komşusu.
