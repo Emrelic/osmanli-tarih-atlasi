@@ -663,15 +663,113 @@
         "⚠️ VE_AYNI_SLUG_BASKA_BIR_KUNYE_ICIN_YANLIS_OLURDU": "TDV `benin` MODERN BENİN'dir, Nijerya'daki BENİN KRALLIĞI değil. `benin-kralligi` künyesi için bu slug §4 ② tuzağının ta kendisi olurdu. Onu KULLANMADIM ve o künyeye bu turda madde YAZMADIM."
       },
       "🔴 KUNYE_KAYNAK_BEYANI_EKSIK": "Künyenin `kaynak` alanı «bulunamadı — TDV'de müstakil maddesi yok» diyor. MÜSTAKİL madde gerçekten yok (slug bir yönlendirme kütüğü) — yani beyan teknik olarak DOĞRU. Ama pratikte yanıltıyor: TDV Dahomey'i `benin` maddesinden KAPSIYOR. Künyeye DOKUNMADIM; öneri: `kaynak` `benin`e bağlansın."
+    },
+
+    {
+      "id": "gyaaman",
+      "ad": "Gyaaman Krallığı",
+      "bolge": "bati-afrika",
+      "mevcut_madde": 2,
+      "eklenen": [
+        { "t": "1818-01-01", "tur": "savas",
+          "b": "Aşanti orduları Asantehene Osei Bonsu önderliğinde Gyaman'ın Abron hânedanına karşı savaşa girişti",
+          "kaynak": "Encyclopaedia Britannica, 'Asante empire' ve 'Osei Bonsu' — «the Asante engaged in war against the Abron of Gyaman (today in the eastern Côte d'Ivoire) in 1818–19 under Asantehene Osei Bonsu».",
+          "⚠️ GUN_YOK": "Kaynak 1818-19 ARALIĞI veriyor; başlangıç yılı alındı.",
+          "⚠️ TOPRAK_MADDESI_YAZMADIM": "Kaynak «savaşa girişti» diyor, fethin SONUCUNU vermiyor. `toprak-kayip` yazmadım — savaşın kazananını kaynak söylemiyor." }
+      ]
     }
   ],
 
-  "OLCMEDIKLERIM": [
-    "Transvaal `hukumdar` maddesi YAZILMADI: SAHO'da 'Paul Kruger is elected president' başlıklı bir dated-event VAR ama gününü ÇEKMEDİM. Cins hâlâ boş ve bunu 'yok' değil 'çekmedim' diye yazıyorum.",
-    "Transvaal 1900 ilhakının GÜNÜ ve Aliwal-North'un GÜNÜ bulunamadı — ikisi de ay düzeyinde kaldı.",
-    "Moshoeshoe'nin ölüm günü ölçülemedi (Britannica 403).",
-    "guney-afrika'nın kalan 14 künyesine (torva · rozvi · matabele · manica · pedi · venda · svazi · tsvana · herero · nama-orlam · xhosa · zulu-kralligi · mutapa · zimbabve-kralligi) HENÜZ girilmedi.",
-    "bati-afrika 51 künyeye HİÇ girilmedi.",
-    "Bu partide kullanılan kaynakların hiçbiri Cambridge History of Africa ya da UNESCO GHA'nın KENDİSİ değil — SAHO (kamu arşivi) ve Britannica (standart başvuru eseri). İkisi de ölçütün 🔴 yasak listesinde DEĞİL, ama 🟢 listesinin de tam ortasında değil; her maddede mümkün olan yerde İKİ BAĞIMSIZ kaynak eşleştirdim ve hangisinin ne verdiğini yazdım."
-  ]
+  "🔴 ASANTI_KUMESINDE_YAZAMADIGIM_UC_KUNYE": {
+    "_": "Şartname bu üçünü Aşanti kümesine bağlamıştı. Araştırdım, YAZAMADIM — ve sebebi «TDV'de yok» DEĞİL, «YIL BULAMADIM».",
+    "gonja": "Britannica ('Asante empire'): «expanded north of the forest to conquer Bono and Gonja» — fetih GERÇEĞİ var, YILI YOK. Britannica yalnız Opoku Ware'in saltanatını (c. 1720-50) veriyor. Yıl uydurmadım.",
+    "dagbon": "Britannica: «levied tribute on Dagomba» — haraca bağlama GERÇEĞİ var, YILI YOK. Aynı sebep.",
+    "buna": "Samori'nin 1897'de Buna'yı yıktığına dair aradığım tarih İKİ kaynakta da GEÇMEDİ (TDV `samori-ture` gövdesi Buna'yı anmıyor; Britannica ve JAH sonuçlarında da yok). «Yok» demiyorum — ARADIM, BULAMADIM.",
+    "📌 NOT": "Britannica bir şeyi DÜZELTTİ: Bono'nun boyun eğdirilmesi 1722-23'tür (Opoku Ware), ve Bono ≠ Gyaaman. Bu ikisini karıştırıp `gyaaman`a 1722 yazmak kolay olurdu; Britannica ikisini AYRI anıyor ve ben ayrı tuttum."
+  },
+
+  "🔴 OLCMEDIKLERIM": {
+    "_": "⚠️ Bu bölümün İLK HÂLİ BAYATLADI: «guney-afrika'nın kalan 14 künyesine HENÜZ girilmedi» ve «bati-afrika 51 künyeye HİÇ girilmedi» yazıyordu — ikisi de artık YANLIŞ. Kendi kaydımın bayatladığını kapanışta yakaladım ve DÜZELTTİM, silmedim.",
+    "gun_bulunamayanlar": [
+      "Transvaal 1900 ilhakı — kaynak «in September» diyor, gün yok.",
+      "Aliwal-North Konvansiyonu — «February 1869», gün yok.",
+      "Ndondakusuka Muharebesi — SAHO'da dated-event VAR, gününü ÇEKMEDİM.",
+      "Transvaal `hukumdar` — SAHO'da 'Paul Kruger is elected president' dated-event'i VAR, gününü ÇEKMEDİM. Cins o künyede boş; «yok» değil «çekmedim»."
+    ],
+    "olculemeyenler": [
+      "Moshoeshoe'nin ölüm günü — Britannica WebFetch'e HTTP 403 döndü.",
+      "`sokoto` 1809 vs TDV 1812: iki AYRI olay olabilir, ölçemedim.",
+      "`dahomey` 1894 (künye) vs TDV 1893: ayrı olaylar olabilir, ölçemedim.",
+      "`torva` 1683 (künye) vs Dombo 1684-95 (Britannica): bir yıl fark, ölçemedim.",
+      "`basuto` 1868-03-12: künye Moshoeshoe'nin ölümüne, SAHO himaye ilânına bağlıyor. Yalnız birini ölçebildim."
+    ],
+    "girilmeyen_kunyeler": {
+      "guney-afrika 6/18": "torva · manica · venda · tsvana · herero · nama-orlam",
+      "bati-afrika 41/51": "aşağıdaki DEVİR_RAPORU'nda küme küme yazılı"
+    }
+  },
+
+  "🔴🔴 DEVIR_RAPORU": {
+    "_": "Bu oturum BAĞLAM DOLDUĞU İÇİN kapanıyor, iş bittiği için değil. Aşağısı TAZE BİR OTURUMUN TABANI olsun diye yazıldı — bunlar bende kalırsa kurtarılamaz.",
+    "teslim": "21 künye · 92 madde · hata 0 · 33'ü gerçek gün hassasiyetli · 12 tur değerinin 12'si dolu",
+    "kapsanan": "guney-afrika 12/18 · bati-afrika 10/51",
+
+    "① BATI_AFRIKA_TDV_SLUG_HARITASI": {
+      "_": "38 slug HTTP ile ölçüldü. 🔴 GÜNEY AFRİKA HARİTASINI BURAYA TAŞIMA — iki bölge tamamen farklı (güney %25 canlı, batı %68).",
+      "🟢 CANLI_26": ["el-hac-omer", "sokoto", "osman-b-fudi", "fulaniler", "tekrur", "mali", "gine", "senegal", "nijerya", "nijer", "fildisi-sahili", "gana", "togo", "benin", "burkina-faso", "samori-ture", "gine-bissau", "sierra-leone", "liberya", "timbuktu", "tinbuktu", "kano", "bornu", "dahomey", "cad", "dahomey(YÖNLENDİRME — aşağıya bak)"],
+      "🔴 OLU_302": ["omer-b-said-el-futi", "masina", "hamdullahi", "segu", "mavritanya", "katsina", "zaria", "kanem", "hausa", "yoruba", "asante", "futa-callon", "futa-toro"],
+      "🔴🔴 TUZAK": "`dahomey` 200 döndü ama MADDE DEĞİL — gövdesi tek satır: «bk. BENİN». Yani CANLI YÖNLENDİRME KÜTÜĞÜ. Bir HTTP taraması onu «canlı» sayar; benimki de saydı. §4'ün dört tuzağının hiçbiri bu değil — BEŞİNCİSİ.",
+      "🟢 GUNEY_AFRIKA_ICIN_AYNI_HARITA": {
+        "CANLI_8": ["afrika", "zimbabve", "mozambik", "hollanda", "ingiltere", "zambiya", "malavi", "guney-afrika-cumhuriyeti"],
+        "OLU_24": ["guney-afrika", "lesotho", "svaziland", "botsvana", "namibya", "zulu", "zulular", "basutoland", "transvaal", "oranj", "boer", "angola", "kap", "monomotapa", "rodezya", "bantu", "hotanto", "ndebele", "sotho", "tsvana", "herero", "afrika-guney", "vitvatersrand", "ummu-durman"],
+        "⚠️": "`guney-afrika-cumhuriyeti` İLK TURDA 000 döndü. 000 bir HTTP kodu DEĞİL, taşıma arızasıdır — «ölü» yazmadım, yeniden ölçtüm, 200 çıktı. Bölgenin TEK kapsayıcı maddesini kaybetmekten döndüm."
+      }
+    },
+
+    "② HANGI_KUMEDE_HANGI_KAPSAYICI_ISE_YARADI": {
+      "_": "§4'ün «dar slug tutmazsa KAPSAYICIYI dene» kuralının bu turdaki uygulamaları. Kapsayıcı HER SEFERİNDE bir YER ya da KİŞİ maddesiydi.",
+      "Umarî/Masina kümesi": "`masina` ÖLÜ · `hamdullahi` ÖLÜ · `segu` ÖLÜ → **`el-hac-omer` (KİŞİ) CANLI** ve kümenin tamamını gün hassasiyetiyle verdi",
+      "Samori kümesi": "→ **`samori-ture` (KİŞİ) CANLI**, doğrudan tutuyor",
+      "Sokoto kümesi": "`hausa` ÖLÜ · `katsina` ÖLÜ · `zaria` ÖLÜ → **`sokoto` + `osman-b-fudi` (KİŞİ) CANLI**",
+      "Aşanti kümesi": "`asante` ÖLÜ · `yoruba` ÖLÜ → **`gana` (YER) CANLI**, ama YALNIZ 1874·1898·1901·1902 veriyor; muharebeleri anmıyor",
+      "Dahomey": "`dahomey` YÖNLENDİRME → **`benin` (YER) CANLI**, hükümdar listesiyle kapsıyor",
+      "🔴 UYARI": "TDV `benin` MODERN BENİN'dir. `benin-kralligi` (Nijerya) künyesi için o slug §4 ② tuzağıdır — KULLANMA. Onun kapsayıcısı muhtemelen `nijerya` (200, OKUMADIM)."
+    },
+
+    "③ TDV_NIN_GUN_VERDIGI_MADDELER_VE_KAYNAK_GOVDESI": [
+      "21 Haziran 1804 — Tabkin Kwatto zaferi ......... `osman-b-fudi`",
+      "20 Nisan 1817 (3 Cemâziyelâhir 1232) — Osman b. Fûdî'nin ölümü ... `osman-b-fudi`",
+      "15 Mart 1903 — Sokoto'nun İngiliz işgali ....... `sokoto`",
+      "27 Temmuz 1903 — son sultanın ölümü (MEVCUT maddeyi doğruladı) ... `sokoto`",
+      "11 Kasım 1854 — Kaarta'nın İslâm devleti oluşu ... `el-hac-omer`",
+      "14 Şubat 1864 — El-Hâc Ömer'in ölümü ........... `el-hac-omer`",
+      "13 Şubat 1889 — Samori'nin son antlaşması ...... `samori-ture`",
+      "29 Eylül 1898 — Samori'nin esir düşmesi (MEVCUT maddeyi doğruladı) ... `samori-ture`",
+      "14 Haziran 1898 — Paris Konvansiyonu ........... `gana` (🔴 YAZILMADI — Aşanti taraf değil)",
+      "📌 DERS: bu bölgede TDV, akademik kaynaktan DAHA HASSAS. Britannica yıl veriyor, TDV gün veriyor."
+    ],
+
+    "④ YAZMADIGIM_KUNYELER_VE_NICIN": {
+      "🔴 «YOK» DEMIYORUM": "Aşağıdakilerin hiçbiri için «TDV'de yok» demedim. Her birinin sebebi AYRI ve yazılı.",
+      "liptako · damagaram · adar · zerma · gurma · borgu": "Şartname bunları Sokoto kümesine bağlamıştı. TDV `sokoto` gövdesi HİÇBİRİNİ ADIYLA ANMIYOR ⇒ «bu gövdede geçmiyor». Ayrı bir arama turu gerekir; ben yapmadım.",
+      "gonja · dagbon": "Britannica fethi/haraca bağlamayı ANIYOR ama YIL VERMİYOR (yalnız Opoku Ware'in saltanatı, c. 1720-50). Yıl uydurmadım.",
+      "buna": "Samori'nin 1897 yıkımı İKİ kaynakta da GEÇMEDİ. ARADIM, BULAMADIM.",
+      "benin-kralligi": "Tek kapsayıcı adayı `benin` ve o MODERN BENİN — §4 ② tuzağı. Kullanmadım, madde yazmadım.",
+      "geri kalan ~35 bati-afrika künyesi": "Sıraya girmedi. En yüksek getirili sıradaki küme: FRANSIZ/İNGİLİZ İŞGALİ 1880-1903 — künyelerin çoğunun `t:` yılı zaten o aralıkta ve `nijerya` · `nijer` · `senegal` · `mali` · `gine` · `burkina-faso` slugları CANLI.",
+      "guney-afrika 6": "torva · manica · venda · tsvana · herero · nama-orlam — koordinatörün kararıyla beklemeye alındı."
+    },
+
+    "⑤ UC_KAYNAK_CELISKISI": {
+      "_": "Üçünde de TDV esas alındı (§4: İslâm dünyası için TDV birincil). ÜÇÜ DE GİZLENMEDİ ve hiçbirinde «hangisi doğru» diye HÜKÜM VERMEDİM.",
+      "El-Hâc Ömer'in ölümü": "TDV `el-hac-omer` **14 Şubat 1864** · Britannica ('ʿUmar Tal') **12 Şubat 1864** — İKİ GÜN FARK",
+      "Cihadın başlangıcı": "TDV **Eylül 1852** · Britannica **1854** — İKİ YIL FARK",
+      "Samori'nin ilk Fransız savaşı": "TDV **1881** · Britannica **1883** — çelişmiyor OLABİLİR (TDV 1883'ü Bamako işgali diye AYRI anıyor) ama BUNU ÖLÇMEDİM"
+    },
+
+    "⑥ SONRAKI_OTURUMA_UC_UYARI": [
+      "🔴 BÖLGE HARİTASINI TAŞIMA. Güneyde ölçtüğüm TDV yoksunluğunu batıya taşımak üzereydim; beni `tekrur` künyesinin KENDİ kaynak alanı durdurdu. Yeni bir bölgeye girerken sluglarını AYRICA ölç.",
+      "🔴 `f: YYYY-MM-01` BİÇİMİ AY HASSASİYETİ DEMEK OLABİLİR. `tekrur` künyesinin `f:`i 1852-09-01 ve TDV «Eylül 1852» diyor — yani ay, ayın birine kodlanmış. Ama biçim «ayın 1'i» ile «ay biliniyor gün bilinmiyor»u AYIRT EDEMİYOR. Maddede `YYYY-01-01` yaz, ayı METNE koy.",
+      "🔴 GÜN TAŞIYAN BİR MADDE EN CAZİP OLANDIR — ve bazen YAZILMAMALIDIR. 14 Haziran 1898 Paris Konvansiyonu günüyle elimdeydi ve Aşanti'ye YAZMADIM, çünkü Aşanti o antlaşmanın tarafı değil. Bir sonraki oturum onu «atlanmış» sanmasın diye dosyaya kaydettim."
+    ]
+  }
 }
