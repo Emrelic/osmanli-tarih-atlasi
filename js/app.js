@@ -7760,18 +7760,48 @@ document.addEventListener("keydown", function (e) {
 var KRONOLOJI_ID_OZEL = {};             // { "KRONOLOJI_XYZ": "gercek-id" } — istisna için
 (function derinKronolojiBindir() {
   var D = window.DEVLETLER || [];
-  var bindirilen = [], eslenmeyen = [];
+  var bindirilen = [], eslenmeyen = [], ezilen = [];
   Object.keys(window).forEach(function (anahtar) {
     if (anahtar.slice(0, 10) !== "KRONOLOJI_") return;
     var derin = window[anahtar];
     if (!derin || !derin.length) return;
-    var id = KRONOLOJI_ID_OZEL[anahtar] || anahtar.slice(10).toLowerCase();
+    // 🆕 4 Eylül 2026 — İKİ ADAY, SIRAYLA. Türetme `_`yi `-`ye çevirmiyordu ve
+    // ÜÇ dosya sırf bu yüzden bağlanmıyordu (146 madde yüklü ama görünmez):
+    //     KRONOLOJI_ATINA_DUKALIGI   → atina-dukaligi      🟢 künye VAR
+    //     KRONOLOJI_NAKSA_DUKALIGI   → naksa-dukaligi      🟢 künye VAR
+    //     KRONOLOJI_RODOS_SOVALYELERI→ rodos-sovalyeleri   🟢 künye VAR
+    // Geri düşüş GÜVENLİ, ölçüldü: 591 künyenin `id`sinde alt çizgi taşıyan
+    // SIFIR — yani `_`→`-` var olan hiçbir eşleşmeyi gölgeleyemez. Ve önce
+    // BİREBİR aday denenir, sonra çevrilmiş olan.
+    var adaylar = [KRONOLOJI_ID_OZEL[anahtar] || anahtar.slice(10).toLowerCase()];
+    if (adaylar[0].indexOf("_") >= 0) adaylar.push(adaylar[0].replace(/_/g, "-"));
     var bulundu = false;
-    for (var i = 0; i < D.length; i++) {
-      if (D[i].id === id) { D[i].kronoloji = derin; bindirilen.push(id + " (" + derin.length + ")"); bulundu = true; break; }
+    for (var a = 0; a < adaylar.length && !bulundu; a++) {
+      var id = adaylar[a];
+      for (var i = 0; i < D.length; i++) {
+        if (D[i].id !== id) continue;
+        // 🔴 EZME NÖBETÇİSİ — burada `=` var ve künyenin KENDİ kronolojisini
+        // siliyor. Bugün çakışma YOK (ölçüldü: bindirilen 24 künye ile
+        // `devletler.js`ye 4 Eylül'de inen 56 künye kesişmiyor), ama bu bir
+        // TASARIM güvencesi değil bir TESADÜF: yarın aynı id'ye hem künye
+        // kronolojisi hem `KRONOLOJI_*` dosyası düşerse biri SESSİZCE ölür.
+        // ⇒ Sessiz ölüm YOK: eziliyorsa BAĞIR. (`§11`: sessiz atlama, yanlış
+        //   sonuçtan pahalıdır — yanlış sonuç bir gün fark edilir, kayıp asla.)
+        if (D[i].kronoloji && D[i].kronoloji.length)
+          ezilen.push(id + " (künye " + D[i].kronoloji.length +
+                      " madde → dosya " + derin.length + ")");
+        D[i].kronoloji = derin;
+        bindirilen.push(id + " (" + derin.length + ")");
+        bulundu = true; break;
+      }
     }
-    if (!bulundu) eslenmeyen.push(anahtar + " → \"" + id + "\" (DEVLETLER'de böyle id yok)");
+    if (!bulundu)
+      eslenmeyen.push(anahtar + " → \"" + adaylar.join("\" / \"") +
+                      "\" (DEVLETLER'de böyle id yok)");
   });
+  if (ezilen.length)
+    console.warn("Atlas: 🔴 KRONOLOJİ EZİLDİ — künyenin kendi maddeleri " +
+                 "dosyayla değiştirildi: " + ezilen.join(", "));
   if (bindirilen.length) console.log("Atlas: derin kronoloji bindirildi — " + bindirilen.join(", "));
   // Sessiz kaybolma YOK — eşlenmeyen bir dosya "0 madde" gibi görünmesin.
   if (eslenmeyen.length) console.warn("Atlas: KRONOLOJI_* eşlenemedi — " + eslenmeyen.join(", "));

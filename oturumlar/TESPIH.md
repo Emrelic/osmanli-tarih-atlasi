@@ -70,13 +70,61 @@ altında yazılı.
 |---|---|---|---|---|
 | 5 | **Koşu bitince yayın zinciri** | — | — | `denetle.py` → `renk_olc.py` → `durum_tablosu.py --yaz` → `surum_damgala.py` → push |
 | 6 | ✅ `serbest-hale` · `serbest-cekirdek` — **DÜZELTİLDİ** `61f6f60` · katman 39, ikisi de VAR | %100 | %100 | 🔴 MapLibre ifade hatası (4 konsol hatası) ⇒ **"serbest" topraklar haritada hiç çizilmiyor.** `js/app.js` SERBEST, küçük iş, görünür etki |
-| 7 | `KRONOLOJI_*` 18 küresel karşılıksız | %0 | %90 | 🔴 Yüklü kronoloji VAR, hiçbir künyeye bağlanmıyor: `cin · hindistan · japonya · misir · ozbek · anadolu · arabistan · sirbistan · balkan · orta_asya · guney_asya · dogu_afrika · kuzeyafrika · italya_sehir · iran_ardillari · atina_dukaligi · naksa_dukaligi · rodos_sovalyeleri`. **Veri zaten var, adres yanlış** — en ucuz kronoloji kazancı |
+| 7 | 🟡 `KRONOLOJI_*` — **ÜÇ AİLE, çerçeve ÇÜRÜDÜ** · ① BİTTİ `_`→`-` (146 madde bağlandı) · ② 566 madde ÇOK KÜNYEYE dağılıyor · ③ 1518 madde BÖLGE derlemesi, künyesi YOK | %7 | %80 | ölçüldü 4 Eylül — ayrıntı aşağıda |
 | 8 | `tur` sözlük kayması | %0 | %100 | `toprak-kayip` 105 · `kayip` 7 · `toprak` 2 — aynı cinsin üç yazımı; `ic-savas` diye bir tür YOK (en yakını `bolunme` 70). Ölçüt aracını yanıltıyor |
 | 9 | Kronoloji dalga 2 — Okyanusya · Sibirya-bozkır · Orta Asya | %0 | %80 | 5 + 8 + 14 künye · şartname yazılacak |
 | 10 | Kronoloji dalga 2 — Avrupa boşlukları | %0 | %80 | `kuzey-avrupa` 7 künye kuruluş **%43** · `bati-avrupa` son %45 · `orta-avrupa` son %55 · `dogu-avrupa` son %61 |
 | 11 | **Emre görev ①**: dizin TAMLIK denetimi | %0 | %85 | *"1281-1923 arası tüm devletlerin var olup olmadığı"* — bu kronoloji dolumundan AYRI iş: eksik KÜNYE aramak |
 | 12 | **Emre görev ③**: tenha bölgelerde ŞEHİR | %0 | %80 | *"devletler şehirler kronolojiler"* — şehir ayağı yerleşim noktası işi, `§2` emilme kuralına bağlı |
 | 13 | **Emre (K)**: küresel görünüm planı | %10 | %70 | maplibre-gl 4.7.1'de `setProjection` YOK, v5 gerekli. `setTerrain` VAR. Risk: 37 katman + 9 sefer katmanı + 481 DOM işaretçisi v5'te sınanmadı |
+
+
+
+### 🔴 #7'NİN ÇERÇEVESİ ÖLÇÜLDÜ VE ÇÜRÜDÜ — 4 Eylül 2026
+
+TESPİH *"veri zaten var, adres yanlış — en ucuz kronoloji kazancı"* diyordu.
+Ölçüldü: bu **tek bir kusur değil, ÜÇ AYRI AİLE** ve üçünün cevabı farklı.
+Toplam **2230 madde** yüklü ve hiçbirine bağlanmıyor — `devletler.js`'in
+kendi 2180 maddesinden **fazla**.
+
+```
+① ADRES YANLIŞ · künye GERÇEKTEN VAR            146 madde   ✅ BİTTİ
+   KRONOLOJI_ATINA_DUKALIGI    → atina-dukaligi       25
+   KRONOLOJI_NAKSA_DUKALIGI    → naksa-dukaligi       25
+   KRONOLOJI_RODOS_SOVALYELERI → rodos-sovalyeleri    96
+   Sebep: türetme `_`yi `-`ye çevirmiyordu. Geri düşüş eklendi (`61f6f60`
+   sonrası). Güvenli, ölçüldü: 591 künyenin `id`sinde alt çizgi taşıyan SIFIR.
+
+② ÇOK KÜNYEYE DAĞILIYOR — tek adrese İNMEZ      566 madde   🔴 KARAR GEREK
+   cin        136   → song · yuan-hanedani · ming · qing
+   hindistan  131   → Delhi sultanlıkları + ingiliz-hindistani
+   misir      120   → memluk + misir-kavalali
+   ozbek       73   → şeybânî/buhara
+   japonya     71   → kamakura · azuchi-momoyama · kenmu · meiji-japonya
+   sirbistan   35   → sirbistan-nemanjic · -prensligi · -kralligi
+   ⇒ Bir dosya bir künyeye bağlanıyor; bunlar bir COĞRAFYANIN ardışık
+     hânedanlarını taşıyor. Ya maddeler künyelere DAĞITILACAK, ya bağlama
+     modeli çoklu bağı öğrenecek.
+
+③ BÖLGE DERLEMESİ — karşılığı olan künye YOK   1518 madde   🔴 MODEL İŞİ
+   anadolu 281 · dogu-afrika 218 · orta-asya 205 · italya-sehir 186 ·
+   balkan 177 · iran-ardillari 155 · guney-asya 153 · kuzeyafrika 83 ·
+   arabistan 60
+   ⇒ Burada "adres yanlış" DEĞİL — **adres YOK.** `anadolu` diye bir künye
+     yok ve olmamalı da. Bu maddeler bir künyeye değil bir BÖLGEYE ait ve
+     veri modeli bugün bunu ifade edemiyor.
+
+📌 Ve dersin kendisi: *"18 küresel karşılıksız"* tek bir sayıydı ve tek bir
+iş gibi okunuyordu. Üçe ayrılınca biri **on dakikada** kapandı, ikisi
+**Emre'nin kararını** bekliyor. ⇒ `§11`in *"çok parçalı bir ilişkiyi tek
+sayıya indiren ölçü, kusuru yanlış yönde özetler"* dersinin kuyruk tarafı:
+tek satır, üç ayrı çareyi tek çare sanmaya davet ediyordu.
+
+🔴 **VE BİR TEHLİKE DAHA ÖLÇÜLDÜ (aynı kod):** bağlama `D[i].kronoloji =
+derin` yapıyor — künyenin KENDİ maddelerini **eziyor**. Bugün çakışma yok
+(bindirilen 24 künye ile 4 Eylül'de `devletler.js`ye inen 56 künye
+kesişmiyor) ama bu bir **tasarım güvencesi değil bir tesadüf**. Nöbetçi
+eklendi: eziliyorsa konsola BAĞIRIYOR.
 
 ---
 
