@@ -323,6 +323,55 @@
           "⚠️ GUN_YOK": "Yalnız yıl." }
       ],
       "🟢 MEVCUT_MADDEYI_DOGRULADIM": "Künyenin `son` maddesi 1903-01-01 «İngiliz idaresine alındı» diyor. Britannica bunu AY düzeyinde keskinleştiriyor: «In June 1903, by an order in council under the Foreign Jurisdiction Act, the governor of the Transvaal was empowered to administer Swaziland and to legislate by proclamation.» YIL doğrulandı; gün yine yok, o yüzden mevcut maddeye DOKUNULMASINI ÖNERMİYORUM."
+    },
+
+    {
+      "id": "xhosa",
+      "ad": "Xhosa Krallıkları",
+      "mevcut_madde": 2,
+      "not": "Künyenin `son` maddesi «Dokuzuncu sınır savaşıyla bağımsızlık sona erdi» diyor ve doğru; eklenen altı madde o savaşlara GİDEN yolu açıyor. Sınır savaşlarının tamamı (1779-1878) atlas penceresinin İÇİNDE.",
+      "eklenen": [
+        { "t": "1779-01-01", "tur": "savas",
+          "b": "Zuurveld'de sığır ticareti anlaşmazlıkları yüzünden Hollandalı sömürgecilerle Xhosa şeflikleri arasında birinci sınır savaşı çıktı",
+          "kaynak": "Encyclopaedia Britannica, 'Cape Frontier Wars' — «The initial wars (1779, 1793, and 1799–1801) involved Dutch colonists and minor Xhosa chiefdoms in the Zuurveld area, driven by disputes over the cattle trade»; South African History Online, 'Eastern Cape Wars of Dispossession 1779-1878' aynı başlangıç yılını veriyor.",
+          "⚠️ GUN_YOK": "Kaynak YILI veriyor (1779), gününü vermiyor." },
+
+        { "t": "1811-01-01", "tur": "savas",
+          "b": "Dördüncü sınır savaşında İngiliz birlikleri doğu sınırında göründü ve Xhosa'yı Zuurveld'den sürdü",
+          "kaynak": "Encyclopaedia Britannica, 'Cape Frontier Wars' — «British troops appeared on the eastern frontier in 1811, in the fourth war, and drove the Xhosa from the Zuurveld».",
+          "⚠️ GUN_YOK": "Kaynak YILI veriyor (1811), gününü vermiyor." },
+
+        { "t": "1811-01-01", "tur": "toprak-kayip",
+          "b": "Zuurveld bölgesi Xhosa elinden çıktı ve Cape sömürgesine katıldı",
+          "kaynak": "Encyclopaedia Britannica, 'Cape Frontier Wars' — «drove the Xhosa from the Zuurveld», 1811.",
+          "⚠️ GUN_YOK": "Kaynak YILI veriyor (1811), gününü vermiyor." },
+
+        { "t": "1818-01-01", "tur": "savas",
+          "b": "Beşinci sınır savaşında Ndlambe'nin ve peygamberleri Makana'nın önderliğindeki Xhosa kuvvetleri İngilizlerle çarpıştı",
+          "kaynak": "Encyclopaedia Britannica, 'Cape Frontier Wars' — «Warfare on the frontier occurred again in 1818–19, between the British and the Xhosa under Ndlambe and their prophet, Makana».",
+          "⚠️ GUN_YOK": "Kaynak 1818-19 ARALIĞI veriyor; başlangıç yılı alındı, gün yok." },
+
+        { "t": "1834-01-01", "tur": "savas",
+          "b": "Altıncı sınır savaşı çıktı ve savaş ilk defa Gcaleka Xhosa topraklarının içine taşındı",
+          "kaynak": "Encyclopaedia Britannica, 'Cape Frontier Wars' — «In 1834–35 fighting erupted again, and for the first time the war was carried into the territory of the Gcaleka Xhosa».",
+          "⚠️ GUN_YOK": "Kaynak 1834-35 ARALIĞI veriyor; başlangıç yılı alındı." },
+
+        { "t": "1846-01-01", "tur": "savas",
+          "b": "Yedinci sınır savaşı — 'Balta Savaşı' — bir baltayı çaldığı iddia edilen bir Xhosa'yı tutuklamak üzere gönderilen İngiliz müfrezesiyle başladı",
+          "kaynak": "Encyclopaedia Britannica, 'Cape Frontier Wars' — «The seventh frontier war was called the War of the Axe because it began with a British expedition to arrest an Xhosa for stealing an axe in 1846».",
+          "⚠️ GUN_YOK": "Kaynak YILI veriyor (1846), gününü vermiyor." },
+
+        { "t": "1847-01-01", "tur": "toprak-kayip",
+          "b": "Kaffraria bölgesi İngiliz Kaffraria tâc sömürgesi adıyla ilhak edildi",
+          "kaynak": "Encyclopaedia Britannica, 'Cape Frontier Wars' ve 'Kaffraria' — «The British later annexed the general area of Kaffraria again in December 1847, this time as the crown colony of British Kaffraria».",
+          "⚠️ GUN_YOK": "Kaynak YIL ve AY veriyor (Aralık 1847), GÜN vermiyor. `1847-01-01` bir kaynak günü DEĞİLDİR; ay `b` dışında burada yazılı." }
+      ],
+      "🔴 YAZMADIKLARIM_VE_SEBEPLERI": {
+        "sekizinci_savas": "Britannica «Resentments in British Kaffraria resulted in the eighth and most costly of the wars» diyor ama YIL VERMİYOR. Sekizinci savaş yaygın olarak 1850-53 diye anılır — BEN ONU KAYNAKTA GÖRMEDİM, o yüzden MADDE YAZMADIM. Yıl uydurmak tarih uydurmaktır.",
+        "queen_adelaide_ilhaki": "Britannica «The annexation of the area between the Keiskamma and Kei Rivers … (to be called Queen Adelaide province) occurred as a result of D'Urban's terms» diyor ama bu cümlede de YIL YOK. Yazmadım.",
+        "dokuzuncu_savasin_sonu": "«The Xhosa leader Sarili surrendered to the British in 1878, marking the end of the ninth frontier war» — künyenin MEVCUT `son` maddesi (1878-01-01) bunu zaten taşıyor ve bu kaynak onu DOĞRULUYOR. MÜKERRER YAZMADIM.",
+        "kurulus_maddesi": "Künyenin mevcut `kurulus` maddesi 1281-01-01'de ve `f:` ile aynı — bu, teslimde bildirdiğim PENCERE SINIRI vakalarından biri (guney-afrika'da 4/5). DOKUNMADIM; düzeltmesi ölçer tarafında."
+      }
     }
   ],
 
