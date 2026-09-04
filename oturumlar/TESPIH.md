@@ -64,8 +64,8 @@ _KUS_BEKLENEN  8 ad → 159 (bayat fotoğraf tazelendi, büyüme atfedildi)
 | 6 | Kronoloji 200 madde · 56 künye | `f384609` |
 | 7 | `KRONOLOJI_*` ① — 146 madde bağlandı (`_`→`-`) | `51c2022` |
 | 8 | **Serbest topraklar** — iki katman yıllardır hiç yüklenmiyormuş | `61f6f60` |
-| 9 | Renk — 21 kimlik · çakışma **4→0** · yakın-değmeyen **12→1** | `7ef087b` |
-| 10 | Çözücüye **deniz kısıtı** — sabah kaldırılan hex'i geri öneriyordu | `fe618b8` |
+| 9 | 🔴 ~~Kronoloji dalga 2 — Okyanusya · Sibirya · Orta Asya~~ **ÇERÇEVE ÇÜRÜDÜ** — «5+8+14 künye» o bölgelerin TOPLAMI; gerçek iş **8 künye** (19'u zaten 4+ maddeli) | — | — | ölçüldü 4 Eylül · aşağıya bak |
+| 10 | 🔴 ~~Kronoloji dalga 2 — Avrupa boşlukları~~ **AYNI HATA** — «%43 · %45 · %55» bölgesel boşluk değil; 1-3 madde KÜLLİYATIN NORMU (591'in 304'ü) | — | — | ölçüldü 4 Eylül · aşağıya bak |
 | 11 | **A2** çift koşu kilidi + **R1** + **R7** | `93a3f9f` · `89cd681` · `1fd5a20` |
 | 12 | Dikiş nöbetçisi kuruldu — R1'in kabul testi ölçülebilir | `23a3e54` |
 | 13 | Yanlış alarmlar sustu: `_opaklik_dogrula` · kuşatılmışlık (154 satır) | `e421853` · `d4e56e7` |
@@ -77,6 +77,53 @@ kodla, gerçek veriyle sınandı (9 kalemin 9'u tuttu) — ama canlı sayfada
 diye yazılmayacak.
 
 ---
+
+### 🔴 #9 ve #10'UN ÇERÇEVESİ ÖLÇÜLDÜ VE ÇÜRÜDÜ — 4 Eylül 2026
+
+İkisi de **bölgesel bir boşluk** tarif ediyordu. Ölçüm başka bir şey gösterdi.
+
+```
+KÜRESEL:  591 künye · BOŞ 17 · 1-3 madde 304 · 4+ madde 270
+```
+⇒ *"1-3 madde"* bir bölge kusuru DEĞİL — **külliyatın yarısından fazlasının
+hâli.** #9 ve #10 aynı evrensel durumu iki ayrı bölgesel iş sanıyordu.
+
+**#9'un sayısı da şişikti:** *"5 + 8 + 14 künye"* o bölgelerdeki **toplam**
+künyedir, iş değil:
+```
+OKYANUSYA        5 künye   BOŞ 1 · 1-3 madde 3 · 4+ 1
+SİBİRYA-BOZKIR   8 künye   BOŞ 0 · 1-3 madde 2 · 4+ 6
+ORTA-ASYA       14 künye   BOŞ 0 · 1-3 madde 2 · 4+ 12
+                           ⇒ gerçek iş 8 künye, 27 değil
+```
+📌 `§11`in *"koordinatörün «hızlı bir bakış» ölçümü, iş dağıtımının tabanı
+olunca artık hızlı bir bakış değildir"* dersi. Şartname bu sayılardan
+yazılsaydı **1 oturumluk iş için 3 oturum** açılacaktı.
+
+### 🟢 GERÇEKTEN SINIRLI VE İŞ OLAN KÜME: **17 BOŞ KÜNYE**
+```
+kuzey-amerika  11   teksas-cumhuriyeti · cahokia · cherokee · choctaw ·
+                    creek-konfederasyonu · haudenosaunee · powhatan ·
+                    natchez · pueblo-bagimsizligi · apaci-ovalar · komanci
+guney-amerika   3   charrua · arua · diaguita-calchaqui-konfederasyonu
+guney-asya      1   farukiler [1370-1601]
+anadolu         1   eyyubi-hisnikeyfa [1232-1462]
+okyanusya       1   tui-tonga-imparatorlugu [1220-1845]
+```
+⚠️ **14'ü Amerika yerli siyasî yapısı.** `§4`ün TDV kapsamı orada yok;
+akademik kaynak meşru ama `kaynak:` alanına AÇIKÇA yazılacak. Ve `§4`ün
+4 Eylül dersi geçerli: *hassasiyet kaynağı aşamaz* — çoğu için gün değil
+yıl bile tartışmalı.
+
+### 🔴 VE BU BİR KARAR İSTİYOR — EMRE'DE
+`1-3 madde` 304 künyede. *"Kaç madde yeter?"* sorusunun cevabı yazılı değil.
+```
+① yalnız 17 BOŞ künye doldurulsun        → sınırlı, 1-2 oturum
+② + `1-3 madde`lilere eşik konsun (kaç?)  → 304 künyelik PROGRAM
+③ eşik bölgeye göre değişsin (`ONCELIK.md` halkaları)
+```
+Ölçüt yazılmadan bu iki kalem bir OTURUMA VERİLEMEZ: işçi ne zaman
+"bitti" diyeceğini bilemez.
 
 ## ⏳ SEVK EDİLDİ — 4 Eylül, üç oturum
 
