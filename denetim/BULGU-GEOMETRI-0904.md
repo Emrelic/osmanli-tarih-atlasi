@@ -626,10 +626,123 @@ biri düzelirken öteki bozulur. Ayrı tutuldular.
 | R13 | Dikiş nöbetçisi **çift** değil **parça** saysın: ince (≤8 km) + 2+ gövdeye değen parçaların adedi ve km²'si | 1281 Avrupa: 95 parça / 15.526 km² → R1'den sonra < 10 parça |
 | R14 | KIYI KENARI ailesi ADIYLA ölçülsün ve sebebi aransın (85.765 km², 2.159 parça) — dikişten AYRI kalem | sebep bulunana kadar 🟡 kovasında |
 
-## ⑥ 🟡 EK 1'İN ÖLÇÜLEMEDİKLERİ
+## ⑥ 🟡 EK 1'İN ÖLÇÜLEMEDİKLERİ (EK 2 bunların ikisini kapatıyor)
 ```
 · ①②③ ayrımı yalnız 1281 · AVRUPA kutusunda yapıldı. 1500/1700 ve öteki
   kıtalar için ALAN ölçümü YOK (çift ölçümü var, o da alt sınır).
 · "KENAR" ailesinin sebebi ölçülmedi (yukarıda ④).
 · 5 km² eşiğinin altında 9.472 parça var; bunların ne olduğu ölçülmedi.
+```
+
+---
+
+# EK 2 — ÖRTÜŞME KÜMESİ ve 1074 PETEKSİZ NOKTA
+
+## 🔴 ÖNCE ÖNGÖRÜ — ölçümden ÖNCE yazıldı, mazeretleriyle
+
+*(Koordinatörün sevkinin ① maddesi — 1500/1700 çapraz tablosu — **EK 1'de zaten
+ölçüldü**; sevk ile teslimim çakıştı. Burada ② ve ③ var, ve öngörüleri
+ölçümden önce yazıyorum.)*
+
+```
+Ö5  ÖRTÜŞEN ÇİFT SAYISI 1281→1700 ARASINDA AZALACAK, ARTMAYACAK.
+    Gerekçe: aktif gövde 153 → 159 → 116; örtüşme gövde SAYISINA bağlı,
+    komşu adayı sayısına değil.
+    ⚠️ MAZERET VAR: 1700'de komşu adayı çift 657'ye çıkıyor (1281'de 402);
+    yoğunlaşma örtüşmeyi artırabilir. Yani bu kalem iki yöne de açık.
+    NEREDEN: devletler_harita.js · ADET
+Ö6  ÖRTÜŞEN TOPLAM ALAN ARTACAK.
+    Gerekçe: geç dönemde gövdeler büyük (Rusya · Qing · Babür); aynı sayıda
+    çift daha çok km² örter.  MAZERET YOK.
+    NEREDEN: devletler_harita.js · km²
+Ö7  1074 PETEKSİZ NOKTANIN ≥%90'ı, ÇIKTIDAN SONRA EKLENEN DOSYALARDA
+    TOPLANACAK — yani sebep ZAMAN değil, PARTİ.
+    ⚠️ MAZERET VAR: dosya tarihi ≠ noktanın eklenme tarihi (bir eski dosyaya
+    yeni satır eklenmiş olabilir). O yüzden dosya bazında BAKIYORUM, ve
+    dağınık çıkarsa mazeret geçerli sayılır.
+    NEREDEN: girdi listesi + donemler.js PETEKLER · ADET
+Ö8  ÖRTÜŞMENİN OSMANLI TARAFI BU ÖLÇÜMDE HİÇ YOK.
+    Gerekçe: Osmanlı doğrudan/tâbi gövdesi `donemler.js`te (o/v alanları),
+    yabancılar `devletler_harita.js`te. İki havuz AYRI.
+    ⇒ Koordinatörün uyardığı `OSMANLI ↔ tâbi` muafiyeti bu sayıları
+    ETKİLEMEZ. MAZERET YOK — bu bir şema iddiası, ölçülebilir.
+```
+
+## ② ÖRTÜŞME KÜMESİ — ADET DÜŞÜYOR, ALAN DÖRT KATA ÇIKIYOR
+
+```
+                aktif gövde   ÖRTÜŞEN ÇİFT   TOPLAM ÖRTÜŞME   ortanca
+1281-01-01          153            96            44.659 km²     141 km²
+1500-06-15          159            88           175.919 km²      98 km²
+1700-06-15          116            63           168.356 km²     150 km²
+```
+*(ölçüt: kesişim ≥ 1 km². Raporun ilk bölümündeki "112" sayısı **alanı >0 olan
+her çifti** sayıyordu; aradaki 16 çift 1 km²'nin altında kalan kırıntılardır.
+İki sayı çelişmiyor, **eşiği farklı** — ve eşik burada açıkça yazılı.)*
+
+```
+Ö5  TUTTU        96 → 88 → 63. Gövde sayısı düştükçe örtüşen çift de düştü,
+                 komşu adayı 402 → 657'ye çıkmasına rağmen.
+Ö6  KISMEN TUTTU 1281 → 1700 arasında alan 3,8 KAT arttı (44,7 bin → 168,4 bin),
+                 ama TEK YÖNLÜ DEĞİL: zirve 1500'de (175,9 bin), 1700'de hafif
+                 düşüyor. "Artacak" dedim, "düzenli artacak" demedim ama
+                 eğilimi tek yönlü sanmıştım — DÜZELTİYORUM.
+```
+🔴 **VE ASIL BULGU İKİSİNİN ORANINDA:** çift sayısı **azalırken** toplam alan
+**dört katına** çıkıyor ⇒ **örtüşme başına düşen alan büyüyor.**
+1281'de küçük devletlerin küçük çakışmaları; 1500-1700'de **birkaç dev gövdenin
+büyük çakışmaları** (ispanyol-peru ↔ mapuche 47.650 km² · kongo ↔ loango
+39.934 km² · haudenosaunee ↔ ingiltere 38.000 km²).
+📌 Yani bu kusur **sönmüyor, YOĞUNLAŞIYOR** — ve ekranda görünürlüğü artıyor.
+
+## ③ Ö8 — OSMANLI BU ÖLÇÜMÜN EVRENİNDE HİÇ YOK (ölçüldü)
+
+```
+devletler_harita.js kimlik sayısı                          253
+içinde "osman" geçen ya da tâbi/vassal olan kimlik            0
+```
+⇒ Yukarıdaki bütün örtüşme sayıları **yabancı ↔ yabancı**. Osmanlı doğrudan ve
+tâbi gövdesi `donemler.js`in `o`/`v` alanlarında, **ayrı havuzda.**
+🟢 Koordinatörün uyarısı (`denetle.py`nin `OSMANLI ↔ tâbi` muafiyeti ölçüte
+alınmalı) **bu ölçüm için gereksizdi** — ve bunu varsayarak değil **sayarak**
+söylüyorum. ⚠️ Ama uyarının kendisi doğru: Osmanlı havuzu **ayrıca** ölçülürse
+o muafiyet şart olur. Bu ölçüm YAPILMADI (🟡).
+
+⚠️ Ve şu ayrım duruyor: yabancı-yabancı örtüşmelerin kaçı **kasıtlı metbû-tâbi**
+(ör. `altinorda ↔ novgorod`) hâlâ **ölçülmedi** — VERİ sorusu, geometri değil.
+
+## ④ 1074 PETEKSİZ NOKTA — Ö7 TUTTU, ve tahminden TEMİZ çıktı
+
+```
+dosya                       nokta  peteksiz   oran   dosya tarihi
+yerlesimler_afrika2.js        401      401    %100   2026-09-03
+yerlesimler_kamerika.js       377      377    %100   2026-09-03
+yerlesimler_okyanusya.js      118      118    %100   2026-09-03
+yerlesimler_gamerika.js       112      112    %100   2026-09-03
+yerlesimler_sibirya2.js        64       64    %100   2026-09-03
+yerlesimler.js                792        2      %0   2026-09-03
+```
+```
+peteksiz nokta taşıyan dosya : 6 (79 dosyanın)
+TAMAMI peteksiz olan dosya   : 5 · 1.072 nokta
+dağınık kalan                : 2 (Elbing · Torun — eski dosyaya sonradan eklenmiş satırlar)
+```
+⇒ **1074'ün 1.072'si (%99,8) BEŞ TAM PARTİ.** Sebep zaman değil **parti**:
+Afrika-2 · Kuzey Amerika · Okyanusya · Güney Amerika · Sibirya-2 kümeleri
+yayındaki geometri üretildikten sonra bağlanmış.
+🔴 **Ve bunun anlamı H-0006'dan büyük:** yayındaki harita bugün **Amerika'nın,
+Okyanusya'nın ve Sibirya-2'nin hiçbir noktasını çizmiyor.** Cânet o kümenin
+tek bir üyesiydi.
+🟢 Koşan üretim bunların hepsini kapsıyor olmalı — Ö1'in genişletilmiş hâli:
+```
+Ö9  Koşu indiğinde PETEKLER sayısı 2731'den ~3800'e çıkacak ve yukarıdaki beş
+    dosyanın peteksiz oranı %100 → %0 olacak.  MAZERET YOK.
+    NEREDEN: donemler.js PETEKLER · ADET (aynı betik: peteksiz.js)
+```
+
+## ⑤ EK 2'NİN ÖLÇÜLEMEDİKLERİ
+```
+· Osmanlı havuzunun (donemler.js o/v) kendi içinde ve yabancılarla örtüşmesi.
+· Yabancı-yabancı örtüşmelerin kaçının KASITLI metbû-tâbi olduğu.
+· 1500/1700 için ALAN ayrımı (dikiş / kenar / kapsama) — yalnız 1281 Avrupa'da var.
 ```
