@@ -515,6 +515,79 @@
           "kaynak": "TDV `mali` (künyenin kendi kaynağı) — «el-Hâc Ömer 1861'de fethetti», gün künyenin `t:` değerinden (1861-03-10); TDV `el-hac-omer` «Segu: 1861 başı — Bambara krallığı ortadan kaldırıldı» diyerek doğruluyor.",
           "⚠️ AYNI_GUN_IKI_CINS": "Künyenin mevcut `son` maddesi de bu gündedir. Bu MÜKERRER DEĞİL: `son` devletin bitişini, bu madde ÇARPIŞMAYI kaydediyor — ayrı cinsler. Yine de birleştirici ikisini yan yana görsün diye işaretliyorum." }
       ]
+    },
+
+    {
+      "id": "sokoto",
+      "ad": "Sokoto Halifeliği",
+      "bolge": "bati-afrika",
+      "mevcut_madde": 4,
+      "not": "Mevcut dördü: isyan 1804 · kurulus 1809 · hukumdar 1817 · son 1903-07-27. Eklenen yedi madde `savas` · `toprak-kazanc` · `toprak-kayip` · `bolunme` · `isgal` cinslerini açıyor.",
+      "eklenen": [
+        { "t": "1804-06-21", "tur": "savas",
+          "b": "Tabkin Kwatto muharebesinde Osman b. Fûdî'nin kuvvetleri Gobir ordusunu yenerek cihadın ilk büyük zaferini kazandı",
+          "kaynak": "TDV `osman-b-fudi` (200, gövde okundu) — AYNEN «21 Haziran 1804: Tabkin Kwatto muharebesinde zafer». GÜN HASSASİYETİ KAYNAKTAN GELİYOR." },
+
+        { "t": "1806-01-01", "tur": "toprak-kazanc",
+          "b": "Zaria ele geçirildi; aynı yıl Gobir başşehri Alkalava'ya yapılan saldırı başarısız oldu",
+          "kaynak": "TDV `osman-b-fudi` — «1806: Zaria'nın ele geçirilmesi; Alkalava'ya yapılan saldırı başarısız».",
+          "⚠️ GUN_YOK": "Kaynak YILI veriyor (1806)." },
+
+        { "t": "1808-01-01", "tur": "toprak-kazanc",
+          "b": "Gobir'in başşehri Alkalava fethedildi ve Hausa şehir devletlerinin direnci kırıldı",
+          "kaynak": "TDV `osman-b-fudi` — «1808: Alkalava'nın fethi»; TDV `sokoto` bağımsız olarak «1808: Gobir'in başşehri Alkalawa ele geçirildi» diyor.",
+          "⚠️ GUN_YOK": "İki TDV maddesi de YIL veriyor." },
+
+        { "t": "1809-01-01", "tur": "toprak-kayip",
+          "b": "Bornu, Muhammed Emîn el-Kânemî'nin direnişiyle halifeliğin elinden çıktı",
+          "kaynak": "TDV `osman-b-fudi` — «1809: Bornu'nun Muhammed Emîn el-Kânemî'ye kaybedilmesi».",
+          "⚠️ GUN_YOK": "Kaynak YILI veriyor (1809)." },
+
+        { "t": "1817-04-20", "tur": "hukumdar",
+          "b": "Osman b. Fûdî Sokoto'da öldü ve yerine oğlu Muhammed Bello geçti",
+          "kaynak": "TDV `osman-b-fudi` — AYNEN «3 Cemâziyelâhir 1232 (20 Nisan 1817): Osman b. Fûdî'nin ölümü», «yerine oğlu Muhammed Bello geçti». GÜN HEM HİCRÎ HEM MÎLÂDÎ OLARAK KAYNAKTAN GELİYOR.",
+          "⚠️ MEVCUT_MADDEYLE_ILISKI": "Künyenin mevcut `hukumdar` maddesi 1817-01-01'de ve «Muhammed Bello döneminde halifelik zirvesine ulaştı» diyor — AYRI bir içerik (dönemin niteliği), bu madde ise VERASET GÜNÜ. Mükerrer değil; birleştirici ikisini yan yana görsün diye işaretliyorum. Mevcut maddenin günü de bu kayıtla 1817-04-20'ye çekilebilir — ÖNERİ, uygulamadım." },
+
+        { "t": "1849-01-01", "tur": "bolunme",
+          "b": "Yakubu, Kebbi'de bağımsızlığını ilân ederek halifelikten ayrıldı",
+          "kaynak": "TDV `sokoto` — «1849: Yakubu Kebbi'de bağımsızlığını ilân etti».",
+          "⚠️ GUN_YOK": "Kaynak YILI veriyor (1849).",
+          "📌 CINS_NOTU": "Bu, teslimimdeki BOŞ kalan tek cinsti (`bolunme`). Aramadım, Sokoto kümesini okurken çıktı." },
+
+        { "t": "1903-03-15", "tur": "isgal",
+          "b": "İngiliz kuvvetleri Sokoto'yu işgal etti ve halifeliğin siyasî yetkisi elinden alındı",
+          "kaynak": "TDV `sokoto` — «1903: İngiliz işgali (15 Mart)»; aynı gövde 1902'de Muhammed et-Tâhir'in sultan seçildiğini, 1903'ten sonra yalnız dinî önderliğin kaldığını yazıyor. GÜN KAYNAKTAN.",
+          "🟢 MEVCUT_SON_MADDESINI_DOGRULADIM": "Künyenin `son` maddesi 1903-07-27'de ve TDV onu BİREBİR doğruluyor: «27 Temmuz 1903: Sultan Muhammed I. Tâhir'in ölümü, halifeliğin hükümranlığının sona ermesi». Mükerrer yazmadım — işgal (15 Mart) ile hükümranlığın sonu (27 Temmuz) AYRI günler ve ayrı cinsler." }
+      ],
+      "🔴 KAYNAK_CELISKISI_KUNYEYLE": {
+        "mevcut_kayit": "`kurulus` 1809-01-01 — «Sokoto başkent yapılıp halifelik resmen kuruldu»",
+        "olcum": "TDV İKİ ayrı maddede halifeliğin kuruluşunu **1812**'ye koyuyor: `sokoto` «1812: Sokoto Halifeliği resmen kuruldu», `osman-b-fudi` «Osman b. Fûdî 1812'de Sokoto halifeliğini ilân etti».",
+        "🔴 UC_YIL_FARK": "1809 ile 1812 arasında üç yıl var. İki olay AYRI olabilir (Sokoto'nun ŞEHİR/başkent olarak kurulması ≠ HALİFELİĞİN ilânı) — bu ihtimal gerçektir ve mevcut maddenin metni («başkent yapılıp») ona işaret ediyor. AMA BUNU ÖLÇEMEDİM: TDV gövdesi 1809'da Sokoto'nun kurulduğunu söylemiyor, o yılı Bornu kaybına ayırıyor.",
+        "durus": "Rakip bir `kurulus` maddesi YAZMADIM ve künyeye DOKUNMADIM. Çelişkiyi kaydediyorum; hüküm koordinatörde."
+      }
+    },
+
+    {
+      "id": "hausa-sehir-devletleri",
+      "ad": "Hausa Şehir Devletleri",
+      "bolge": "bati-afrika",
+      "mevcut_madde": 3,
+      "not": "Aynı olaylar `sokoto` künyesinde FETHEDEN tarafın gözünden yazıldı; burada FETHEDİLEN tarafın. Şartnamenin «aynı cümleyi kopyalama» kuralı.",
+      "eklenen": [
+        { "t": "1804-06-21", "tur": "savas",
+          "b": "Gobir ordusu Tabkin Kwatto'da Osman b. Fûdî'nin kuvvetlerine yenildi ve cihad karşısındaki ilk büyük kaybını verdi",
+          "kaynak": "TDV `osman-b-fudi` — «21 Haziran 1804: Tabkin Kwatto muharebesinde zafer» (kazanan taraf anlatımıyla). GÜN KAYNAKTAN." },
+
+        { "t": "1806-01-01", "tur": "toprak-kayip",
+          "b": "Zaria, Sokoto cihad kuvvetlerinin eline geçti",
+          "kaynak": "TDV `osman-b-fudi` — «1806: Zaria'nın ele geçirilmesi».",
+          "⚠️ GUN_YOK": "Kaynak YILI veriyor." },
+
+        { "t": "1808-01-01", "tur": "savas",
+          "b": "Gobir'in başşehri Alkalava düştü ve Hausa şehir devletlerinin örgütlü direnci sona erdi",
+          "kaynak": "TDV `osman-b-fudi` — «1808: Alkalava'nın fethi»; TDV `sokoto` aynı yılı bağımsız olarak veriyor.",
+          "⚠️ MEVCUT_SON_ILE_ILISKI": "Künyenin `son` maddesi de 1808-01-01'de ve fethin SONUCUNU kaydediyor; bu madde ÇARPIŞMAYI kaydediyor. Ayrı cinsler, mükerrer değil." }
+      ]
     }
   ],
 
