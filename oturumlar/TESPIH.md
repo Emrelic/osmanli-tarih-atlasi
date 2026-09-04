@@ -105,6 +105,28 @@ moskova 1547-01-16 · litvanya 1569-07-01 · cenova 1797-06-14
 imereti 1810-02-20 · kilikya-ermeni 1375-04-14 …
 ```
 
+> 🔴 **PAYDA DÜZELTİLDİ 4 Eylül — 161 DEĞİL 147.** `KRONOLOJİ ORTA AMERİKA`
+> örneklemi çekerken gördü, koordinatör bağımsız doğruladı (tam **14**
+> künye): bunlar kümeye **yalnız `1923-10-29`** yüzünden girmiş, ve o
+> atlasın **pencere sonu** — bir gün iddiası değil.
+> `cimma-sultanligi · somali · buganda · umman-zengibar · haiti · racput ·
+> manipur · nepal · travankur · san-devletleri · cohor-sultanligi ·
+> tidore-sultanligi · bharatpur-cat · cunagadh`
+> ⇒ Gerçek küme **147**, *"yalnız geometride"* kovası **97**.
+>
+> 📌 Ve aynı tuzak bugün **ÜÇ ayrı ölçümde** çıktı: istatistik sınavında
+> taban şişti (29. gün 109 kez) · kronoloji çapraz kontrolünde eşleşmelerin
+> çoğu `1923-10-29` çıktı · ve burada paydada. ⇒ ***Pencere uçları bir
+> ÖLÇÜM DEĞERİ değil, bir SINIR İŞARETİDİR; her sayımda ayrıca elenir.***
+>
+> 🟢 **VE ÖLÇÜLDÜ — çürüme oranı ≈ 0:** 97'den `random.Random(20260904)`
+> ile çekilen 20 künyede **gün doğrulandı 6 · yıl/ay doğrulandı 7 ·
+> ölçülemedi 7 · ÇÜRÜYEN 0**. Altısı birincil belgeden (Pontotoc Creek
+> 1832-10-20 · Greenville 1795-08-03 · Estonya 1918-02-24 …).
+> ⚠️ Sınırı: 20'lik örneklem küçük bir oranı ayırt edemez. *"Sıfır çürüme"*
+> = **"oran düşük"**, *"oran sıfır"* DEĞİL.
+> ⇒ Hüküm: **97 künye SÜPÜRÜLMEYECEK.** Kova bir borç değil, bir kayıt.
+
 ⚠️ **Ve hüküm dikkatli verilmeli: bunların çoğu muhtemelen DOĞRU.**
 Moskova `1547-01-16` IV. İvan'ın taç giymesidir. Kusur *yanlışlık* değil,
 **yanlış HASSASİYET**: gün yazmak *"bu günü biliyorum"* demektir, oysa
