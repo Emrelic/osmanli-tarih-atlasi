@@ -92,6 +92,9 @@ Ad ne tekildir ne kararlı — bir günde üç zarar bundan doğdu:
 | ❔ — | HAZIR KITA 6 | BOSTA — 33 saat gorevsiz | opus | hazir-kita | -  🔴 DOSYA YOK | - | `local_dc1f5720-f6a1-4891-a08a-e22c1fe02da4` |
 | ❔ — | KAYNAK | — | ❓ | — | — | — | `local_2cecfda0-c48a-4865-88e1-922ff00b5c40` |
 | ❔ — | KORIDOR SEMA | koridor agi · m: ve kd: alanlari | ? | gorevde | oturumlar/KORIDOR-SEMA.md | data/koridor.js · yerlesimler m:/kd: | `local_454b8342-eab4-4222-8e29-acea08aade74` |
+| ❔ — | KRONOLOJİ AFRİKA GÖVDE | — | ❓ | gorevde | — | — | `local_8aae7ac2-1d69-49dd-8bf7-5908724bae6c` |
+| ❔ — | KRONOLOJİ GÜNEY AMERİKA | — | ❓ | gorevde | — | — | `local_93b9dc8e-64d4-4c3b-b47f-efac73d23a68` |
+| ❔ — | KRONOLOJİ ORTA AMERİKA | — | ❓ | gorevde | — | — | `local_47ec49ca-c368-4713-94c2-5428216e4018` |
 | ❔ — | MOTOR MALİYET | B1 maliyet mesafesi + puanlama algoritmasi | opus | gorevde | oturumlar/MOTOR-MALIYET.md | arac/uret_petek.py | `local_93578728-3ebc-4f1a-b2b1-0c37d2b76ac5` |
 | ❔ — | NOKTA AFRİKA GÜNEY | — | opus | emekli | — | — | `local_d14b4b4f-8bf2-48a1-94d1-bb47ae1964fa` |
 | ❔ — | NOKTA AMERİKA | Amerika kitasi 134 nokta + SINIF A bit: | sonnet | emekli | oturumlar/NOKTA-AMERIKA.md | data/yerlesimler_amerika.js | `local_481c85f5-c099-4e67-bae8-d5932dc23ed4` |

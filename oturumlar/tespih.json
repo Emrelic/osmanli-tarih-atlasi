@@ -1,7 +1,7 @@
 {
   "surum": 1,
   "proje": "Osmanlı Tarih Atlası",
-  "guncelleme": "2026-09-03T23:44",
+  "guncelleme": "2026-09-04T00:30",
   "isler": [
     {
       "id": "T-0001",
@@ -2251,6 +2251,26 @@
       "u": "*",
       "sahip": null,
       "girdi": "2026-09-03T23:44",
+      "basladi": null,
+      "bitti": null,
+      "olcum": null
+    },
+    {
+      "id": "T-0129",
+      "baslik": "Onaylanan teklifin UYGULANMA nobetcisi",
+      "hal": "oneri",
+      "kanal": 6,
+      "onem": 3,
+      "irilik": 2,
+      "nicin": "Bugun olculdu: T-0013, T-0014 ve T-0111'i Emre 12 Agustos'ta ONAYLADI, sohbetlere 'onayin islendi, kapatiyorum' yazildi — ama ucu de kutu/ altinda YOK ve denetimin 9 dalinda YOK. 22 gundur onayli ve yapilmamis, ustelik KAPATILMIS olarak. Sistem onaylanani KUYRUGA aliyor ama kuyrugun BOSALDIGINI hic olcmuyor: onay ile uygulama arasinda gerisi olcusuz bir bosluk var. Ve bedeli bugun goruldu — T-0013 ('skill komutlarini kuru kostur') kurulmus olsaydi, bugunku --ara 60 kusuru dogdugu gun yakalanirdi. Nobetci ucuz ve mekanik: onaylanmis her teklif icin 'uygulandi mi' sorusunu dosya durumundan sorar (alet var mi, denetim dali var mi), N gundur onayli-yapilmamis olanlari oter.",
+      "olcek": "mm3",
+      "ust": null,
+      "z": "*",
+      "m": "*",
+      "k": "*",
+      "u": "*",
+      "sahip": null,
+      "girdi": "2026-09-04T00:30",
       "basladi": null,
       "bitti": null,
       "olcum": null

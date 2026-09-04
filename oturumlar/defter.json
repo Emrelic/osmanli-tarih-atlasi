@@ -1,5 +1,5 @@
 {
- "_damga": "2026-08-16 00:07",
+ "_damga": "2026-09-04 10:24",
  "_haller": {
   "ALDIM": {
    "aciklama": "şartname ulaştı, başlıyorum",
@@ -752,6 +752,23 @@
     "KORIDOR SEMA"
    ]
   },
+  "local_47ec49ca-c368-4713-94c2-5428216e4018": {
+   "acilis": "2026-09-04 10:24",
+   "ad": "KRONOLOJİ ORTA AMERİKA",
+   "gecmis": [
+    {
+     "kova": "gorevde",
+     "not": "",
+     "z": "2026-09-04 10:24"
+    }
+   ],
+   "kimlik": "local_47ec49ca-c368-4713-94c2-5428216e4018",
+   "kova": "gorevde",
+   "not": "kronoloji dolumu 0904 · yama denetim/KRONOLOJI-*.json",
+   "takma_adlar": [
+    "KRONOLOJİ ORTA AMERİKA"
+   ]
+  },
   "local_481c85f5-c099-4e67-bae8-d5932dc23ed4": {
    "ad": "NOKTA AMERİKA",
    "calisiyor": false,
@@ -1396,6 +1413,23 @@
     "VERİ KRONOLOJİ"
    ]
   },
+  "local_8aae7ac2-1d69-49dd-8bf7-5908724bae6c": {
+   "acilis": "2026-09-04 10:24",
+   "ad": "KRONOLOJİ AFRİKA GÖVDE",
+   "gecmis": [
+    {
+     "kova": "gorevde",
+     "not": "",
+     "z": "2026-09-04 10:24"
+    }
+   ],
+   "kimlik": "local_8aae7ac2-1d69-49dd-8bf7-5908724bae6c",
+   "kova": "gorevde",
+   "not": "kronoloji dolumu 0904 · yama denetim/KRONOLOJI-*.json",
+   "takma_adlar": [
+    "KRONOLOJİ AFRİKA GÖVDE"
+   ]
+  },
   "local_8b047a4f-f8ad-4042-bd0b-dfc0bd4f8d86": {
    "ad": "ARAYUZ 2",
    "calisiyor": false,
@@ -1617,6 +1651,23 @@
    "takma_adlar": [
     "MOTOR MALIYET",
     "MOTOR MALİYET"
+   ]
+  },
+  "local_93b9dc8e-64d4-4c3b-b47f-efac73d23a68": {
+   "acilis": "2026-09-04 10:24",
+   "ad": "KRONOLOJİ GÜNEY AMERİKA",
+   "gecmis": [
+    {
+     "kova": "gorevde",
+     "not": "",
+     "z": "2026-09-04 10:24"
+    }
+   ],
+   "kimlik": "local_93b9dc8e-64d4-4c3b-b47f-efac73d23a68",
+   "kova": "gorevde",
+   "not": "kronoloji dolumu 0904 · yama denetim/KRONOLOJI-*.json",
+   "takma_adlar": [
+    "KRONOLOJİ GÜNEY AMERİKA"
    ]
   },
   "local_94f40812-bdd1-4031-98db-c1e89b57c38f": {

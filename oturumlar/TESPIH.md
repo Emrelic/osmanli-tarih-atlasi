@@ -1,84 +1,113 @@
-# TESPİH — 4 Eylül 2026 gecesi
+# TESPİH — 4 Eylül 2026
 
 > Sıra `FAYDA ÷ EMEK`e göre. Kalem kapandıkça işaretlenir; ertesi gün
 > **buradan** devam edilir. 20 dakikalık uyandırıcı (`cron fb6be0f1`)
 > her turda bu dosyayı okur.
 
-## 🔒 GECENİN KISITI
+## 🔒 GÜNÜN KISITI
 ```
-KOŞU 4 sürüyor · 00:47 başladı · tahminî bitiş ~07:45
-DONMUŞ : data/*  ·  arac/uret_petek.py · arac/renkler.py · arac/girdi.py
+KOŞU 4 · 00:48:18 başladı · PID 12656 · 9,5+ saat · CPU 33.500 sn (CANLI)
+⚠️ log satırı 01:44'te donmuş GÖRÜNÜYOR — motor tamponu, ölüm değil.
+   Ölçüm işlemden yapılır, logdan değil.
+⚠️ İlk tahmin ~07:45'ti, AŞILDI. Yeni tahmin verilmiyor: tahmin logdan
+   geliyordu, log bayat.
+DONMUŞ : data/*  ·  arac/uret_petek.py · renkler.py · girdi.py
 SERBEST: js/app.js · css/style.css · index.html · denetim/* · oturumlar/*
 ```
-🔴 Donmuş bir dosyaya yazmak koşuyu öldürür ya da çıktıyı yayınlanamaz kılar.
 
 ---
 
-## SIRA
+## ✅ BUGÜN KAPANANLAR
+
+| # | iş | commit |
+|---|---|---|
+| 1 | Siyasî katman coğrafyayı örtüyordu → **KİP SEÇİMİ** (⑤ Yumuşak renk) | `932d4cf` · r5589 YAYINDA |
+| 2 | 1923-10-29'da yalnız Türkiye görünüyordu | `00975a8` |
+| 3 | Katman seçici haritadan butonların içine | `00975a8` |
+| 4 | **OWTRAD toplamaya girdi** — kenar 121→295 · bileşen 4→**1** | `e0b0e82` |
+
+🔴 **4'ün TARAYICI DOĞRULAMASI BORÇ.** Mantık `app.js`'ten kesilen GERÇEK
+kodla, gerçek veriyle sınandı (9 kalemin 9'u tuttu) — ama canlı sayfada
+`isStyleLoaded()` hiç `true` olmadı (koşu + üç oturum makineyi doyurdu).
+`C13④` (çıktıyı doğru yerden okuduğunu göster) **koşulmadı**; "doğrulandı"
+diye yazılmayacak.
+
+---
+
+## ⏳ SEVK EDİLDİ — 4 Eylül, üç oturum
+
+| oturum | kimlik | küme | şartname |
+|---|---|---|---|
+| KRONOLOJİ ORTA AMERİKA | OPUS HAZIR KITA 125 (346 K) | 13 künye · 8'i %0 | `KRONOLOJI-ORTAAMERIKA-0904.md` |
+| KRONOLOJİ GÜNEY AMERİKA | OPUS HAZIR KITA 126 (402 K) | 25 künye · 18'i boş | `KRONOLOJI-GUNEYAMERIKA-0904.md` |
+| KRONOLOJİ AFRİKA GÖVDE | OPUS HAZIR KITA 127 (527 K) | 69 künye · iskelet | `KRONOLOJI-BATIAFRIKA-0904.md` |
+
+Üçü de **yalnız** `denetim/KRONOLOJI-<AD>-0904.json` yamasına yazar;
+`data/devletler.js`ye DOKUNMAZ (koşu sürüyor + tek dosya = sessiz veri kaybı).
+
+🔴 **VE BURADA BİR PLAN ÇÜRÜDÜ, ÖLÇÜMLE.** İlk niyet bölge oturumlarını
+(Afrika · Gamerika · Kamerika · Okyanusya · Sibirya) uyandırmaktı — Emre'nin
+*"o konuda çalışmış oturumlara iş verebilirsin"* izniyle. Ama izin **şartlıydı**
+(*"eğer daha doğru, hızlı, tasarruflu olacaksa"*) ve şart ölçülünce sağlanmadı:
+```
+Dünya-Afrika-0903     970 K   🔴 ÖNCE YAZ — diskte OLMAYAN iş var
+Dünya-Gamerika-0903   944 K   🔴 EMEKLİ ET
+Prusya                865 K   🔴 EMEKLİ ET
+Sibirya-0903          794 K   🔴 EMEKLİ ET
+DUNYA-KAMERIKA-0903   783 K   🟡 "kalan işi TAZE işçiye vermek DAHA UCUZ"
+Dünya-Okyanusya       713 K   🔴 EMEKLİ ET
+OPUS HAZIR KITA 125   346 K   ← seçilen
+```
+Bir mesaj bağlamın **tamamını** yeniden taşır ⇒ 944 K'lık oturumu uyandırmak
+346 K'lıktan ~3 kat pahalı. Bölge oturumlarının öğrendiği zaten `denetim/`
+altında yazılı.
+
+---
+
+## 🔵 SIRA
 
 | # | iş | keskinlik | hedef | niçin bu sırada |
 |---|---|---|---|---|
-| 1 | ✅ Siyasî katman coğrafyayı örtüyor → **KİP SEÇİMİ** (`932d4cf`) | %100 | %95 | 🔴 Emre'nin **canlı şikâyeti** · `js/app.js` SERBEST · kökü ölçüldü (üç dolgu da `fill-opacity:1`) |
-| 2 | ✅ 1923-10-29'da yalnız Türkiye görünüyor (`00975a8`) | %100 | %90 | 🔴 Emre'nin **canlı şikâyeti** · önce ÖLÇÜLECEK: veri mi eksik, çizim mi |
-| 3 | ✅ Katman seçici — canlı sayfada doğrulandı (37 katman, sayaç 4) | %100 | %100 | taşındı ve yazıldı, sınavı CPU darlığından yarım kaldı |
-| 4 | 🔵 OWTRAD toplamaya girmiyor | %0 | %90 | 154 düğüm + 174 kenar yüklü ama çizilmiyor · `js/app.js` SERBEST |
-| 5 | ⚪ Kronoloji dolumu (205 künye) | %0 | %80 | ölçüt + alet HAZIR · **oturum gerekiyor**, Emre uykuda |
-| 6 | ⚪ Koşu 4 sonrası: denetle → tablo → damga → yayın | — | — | ~07:45'ten sonra |
+| 5 | **Koşu bitince yayın zinciri** | — | — | `denetle.py` → `renk_olc.py` → `durum_tablosu.py --yaz` → `surum_damgala.py` → push |
+| 6 | `serbest-hale` · `serbest-cekirdek` HİÇ yüklenmiyor | %0 | %100 | 🔴 MapLibre ifade hatası (4 konsol hatası) ⇒ **"serbest" topraklar haritada hiç çizilmiyor.** `js/app.js` SERBEST, küçük iş, görünür etki |
+| 7 | `KRONOLOJI_*` 18 küresel karşılıksız | %0 | %90 | 🔴 Yüklü kronoloji VAR, hiçbir künyeye bağlanmıyor: `cin · hindistan · japonya · misir · ozbek · anadolu · arabistan · sirbistan · balkan · orta_asya · guney_asya · dogu_afrika · kuzeyafrika · italya_sehir · iran_ardillari · atina_dukaligi · naksa_dukaligi · rodos_sovalyeleri`. **Veri zaten var, adres yanlış** — en ucuz kronoloji kazancı |
+| 8 | `tur` sözlük kayması | %0 | %100 | `toprak-kayip` 105 · `kayip` 7 · `toprak` 2 — aynı cinsin üç yazımı; `ic-savas` diye bir tür YOK (en yakını `bolunme` 70). Ölçüt aracını yanıltıyor |
+| 9 | Kronoloji dalga 2 — Okyanusya · Sibirya-bozkır · Orta Asya | %0 | %80 | 5 + 8 + 14 künye · şartname yazılacak |
+| 10 | Kronoloji dalga 2 — Avrupa boşlukları | %0 | %80 | `kuzey-avrupa` 7 künye kuruluş **%43** · `bati-avrupa` son %45 · `orta-avrupa` son %55 · `dogu-avrupa` son %61 |
+| 11 | **Emre görev ①**: dizin TAMLIK denetimi | %0 | %85 | *"1281-1923 arası tüm devletlerin var olup olmadığı"* — bu kronoloji dolumundan AYRI iş: eksik KÜNYE aramak |
+| 12 | **Emre görev ③**: tenha bölgelerde ŞEHİR | %0 | %80 | *"devletler şehirler kronolojiler"* — şehir ayağı yerleşim noktası işi, `§2` emilme kuralına bağlı |
+| 13 | **Emre (K)**: küresel görünüm planı | %10 | %70 | maplibre-gl 4.7.1'de `setProjection` YOK, v5 gerekli. `setTerrain` VAR. Risk: 37 katman + 9 sefer katmanı + 481 DOM işaretçisi v5'te sınanmadı |
+
+---
+
+## 🔴 AÇIK BORÇLAR — iş değil, KAYIT
+
+```
+① OWTRAD tarayıcı doğrulaması   node ile sınandı, TARAYICIDA değil (yukarıda)
+② renkler.py OPAKLIK denetimi   `"fill-opacity": 0.44` DİZGİSİNİ arıyor;
+                                yumuşak değerler artık SIYASI_KIP sözlüğünde
+                                ⇒ uyarı SERT kipte DOĞRU, YUMUŞAK kipte YANLIŞ
+                                🔒 renkler.py DONMUŞ — koşu bitince
+③ Suceava ↔ Suçava  4,15 km     OWTRAD'ın KENDİ `hal:"supheli"` damgası;
+                                birleştirilmedi, konsolda ADIYLA basılıyor.
+                                KARAR bekliyor: aynı şehir mi?
+④ koridor 7 kenar hâlâ atlanıyor  ucu koordinatsız düğüm
+⑤ VERI_SINIRI uyuşmazlığı        js (-180,-60,180,85) ↔ altlık
+                                 (-176.2,-45.5,180.0,81.8)
+⑥ `s.kesinlik` alanı             BILINEN_ALANLAR'da yok (2 kayıt)
+⑦ EMEKLİLİK                      9 oturum emekli edilmeli · 1 iş bölünmeli
+                                 🔴 Dünya-Afrika-0903 ÖNCE DEVİR RAPORU
+                                 vermeli (970 K, diskte olmayan iş var)
+```
+
+## ÜRETEÇ ÖNERİLERİ — Emre'nin onayını bekliyor
+```
+T-0126  Ters sorgu: haritaya tıklayınca o noktanın TAM zaman çizgisi
+T-0127  Kırılma vurgusu: madde tıklanınca o gün DEĞİŞEN yerler parlasın
+T-0128  Belirsizlik görselleştirmesi (YYYY-01-01 kesinlik taşımıyor)
+onay:   py <ClaudEmre>/kutu/tespih.py --onayla T-0126
+```
 
 ```
 ✅ bitti   ⏳ sürüyor   🔵 sırada   ⚪ bekletildi
 ```
-
-### Niçin bu sıra
-```
-① ve ②  Emre'nin KENDİ sözü, ve ikisi de donmuş olmayan dosyalarda
-        ⇒ gece boyunca yapılabilir
-③        neredeyse bitti, kapatmak ucuz
-④        elimizdeki verinin %56'sı görünmez — küçük iş, büyük görünür etki
-⑤        oturum açmayı Emre yapar; şartname hazırlanır, dağıtım sabaha
-⑥        koşu bitmeden başlayamaz
-```
-
----
-
-## BUGÜN KAPANANLAR
-```
-✅ katman seçici yazıldı (4 katman, çoklu seçim) — r5585
-✅ katman seçici HARİTANIN ÜZERİNDEN `#menu-butonlar` içine taşındı
-✅ emeklilik.py acilis.py'ye BAĞLANDI (adım 1f) — 12 sn, bütçe 30
-✅ kronoloji ÖLÇÜTÜ yazıldı — oturumlar/KRONOLOJI-OLCUT-0904.md
-✅ kronoloji KAPSAM ALETİ — denetim/ARAC-KRONOLOJI-KAPSAM-0904.py
-✅ Torun + Elbing indi (3803 → 3805)
-✅ koşu 4 yeniden başlatıldı + bekçisi (60 dk'da bir canlılık)
-```
-
-## AÇIK BULGULAR — iş değil, KAYIT
-```
-🔴 serbest-hale · serbest-cekirdek  MapLibre ifade hatası, HİÇ yüklenmiyor
-   ⇒ "serbest" topraklar bugün haritada hiç çizilmiyor
-🔴 renkler.py OPAKLIK 0.44/0.60/0.68  ·  app.js gerçek 1/1/1
-   ⇒ bütün ΔE ölçümleri var olmayan bir çizim kipine göre
-   ⚠️ renkler.py DONMUŞ — koşudan sonra
-🔴 toprak-kayip 105 · kayip 7 · toprak 2 — aynı cinsin üç yazımı
-🔴 `ic-savas` diye bir `tur` YOK
-🔴 koridor ağı 4 bileşen (86+23+13+1), tek parça değil
-🟡 KRONOLOJI_* eşlenemedi: 18 küresel değişken DEVLETLER'de karşılıksız
-   (cin · hindistan · japonya · misir · ozbek · anadolu · arabistan …)
-🟡 küresel görünüm: MapLibre 4.7.1, `setProjection` YOK — v5 gerekiyor
-```
-
----
-
-## 🔴 AÇIK BORÇ — kaydedildi, gizlenmedi
-
-```
-renkler.py:_opaklik_dogrula()   app.js'te `"fill-opacity": 0.44` DİZGİSİNİ
-                                arar. Yumuşak değerler artık SIYASI_KIP
-                                sözlüğünde duruyor, o biçimde DEĞİL.
-                                ⇒ uyarı ötmeye DEVAM eder, ve uyarı
-                                  SERT kipte DOĞRU · YUMUŞAK kipte YANLIŞ
-                                🔒 renkler.py DONMUŞ — koşu bitince düzeltilir
-```
-📌 Bu, projenin *"iki otorite doğar ve ayrışır"* dersinin dördüncü vakası:
-denetim yanlış değil, **evreni** eskidi — artık tek bir opaklık yok, iki
-kip var ve denetim tek kipi biliyor.
