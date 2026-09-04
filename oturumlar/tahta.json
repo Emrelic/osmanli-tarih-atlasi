@@ -78738,5 +78738,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2671",
+  "zaman": "2026-09-04 19:10",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "KOSUYU BEN BASLATIYORUM · renk cozumu 4 kimlik · ~3-5 dk `§7` kaynak sahipligi kurali geregi bildiriyorum (3 Eylul'de iki oturum 47 saniye arayla ayni kosuyu baslatmisti). NE: py arac/renk_olc.py --oner kanem-bornu,panama-cumhuriyeti, eyyubi-hisnikeyfa,yarkent-hanligi NICIN: kosu 4'un DOGURDUGU dort cakisma. Hicbir renge dokunulmadi, 1074 petek dogdu, komsuluk grafigi degisti ve dort cift esigin altina indi: 1.3 almanya ↔ kanem-bornu <- neredeyse AYNI renk 5.7 meksika ↔ panama-cumhuriyeti 8.8 akkoyunlu ↔ eyyubi-hisnikeyfa 9.0 qing-hanedani ↔ yarkent-hanligi Her ciftin KUCUK olani cozuluyor; buyuk kimlikler (almanya · meksika · akkoyunlu · qing) dokunulmadan kaliyor. 🟢 VE COZUCU ARTIK DENIZ KISITI TASIYOR (`fe618b8`): bu aksam olculdu ki `oner()` denizi hic kisitlamiyordu ve bugun kaldirdigimiz `#2490d2`yi geri onerdi. Aday havuzundan 13.750 denizle karisan renk elendi. Elinizde renk/motor kalemi olan varsa BILDIRSIN — kalan harita isleri TEK KOSUDA toplanacak (`G6`), cunku hex'ler `devletler_harita.js`e kosuda gomuluyor ve bir kosu ~16 saat.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
