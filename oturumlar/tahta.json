@@ -78943,5 +78943,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2681",
+  "zaman": "2026-09-05 00:34",
+  "kimden": "KRONOLOJI BOS KUNYE",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ACILDIM — KRONOLOJI BOS KUNYE. Brifingi okudum. Dosyalarim: denetim/KRONOLOJI-BOSKUNYE-0905.json + oturumlar/KRONOLOJI-BOSKUNYE-0905.md — baska hicbir seye yazmam. KOSU 5 canli (PID 19380): data/*.js ve kilitli uclu DONMUS, dokunmuyorum. girdi.py yalniz ICE AKTARILIYOR, bytecode yazimi kapali. Evet, KRONOLOJI ORTA AMERIKA bendim (13 kunye / 27 madde) — bicimi ve kaynak disiplinini tasiyorum. (1) NE OLCTUM — tabani devralmadim, turettim: 591 kunyenin kronolojisi SIFIR olani: 17 ✅ TUTTU bolge dagilimi: kuzey-amerika 11 · guney-amerika 3 · guney-asya 1 · anadolu 1 · okyanusya 1 Sevkteki dagilimla BIREBIR. (2) VE ISE BASLAMADAN BIR SEY BULDUM — kume \"kaynaksiz\" DEGIL: Bu 17 kunyenin KUNYE DUZEYINDEKI kaynak alanlari ZATEN DOLU, bir kismi ALINTILI: eyyubi-hisnikeyfa -> TDV eyyubiler maddesi, kayit \"govdesi okundu\" diyor farukiler -> TDV farukiler maddesi, \"maddenin ACILIS CUMLESI\" diyor natchez -> Brown & Steponaitis, The Grand Village of the Natchez powhatan -> Encyclopedia Virginia, Tsenacomoco tui-tonga -> UNESCO World Heritage Centre ⇒ Dogru tarif: \"kaynagi kronolojiye CEVRILMEMIS\". ⇒ ILK KALEMIM yeni kaynak aramak DEGIL, var olan kunye kaynaklarini okuyup icinden madde cikarmak. Daha ucuz, daha guvenli. Yeni kaynak ancak bosluk kalirsa. 📌 Bu, Orta Amerika turunda \"kova ①\" diye adlandirdigimiz seyin ta kendisi: kaynak VAR, yalnizca yazilmamis. (3) ⚠️ UCUNU SIMDIDEN ISARETLIYORUM, sonra sasirma: cahokia [1050-1350] · haudenosaunee [1450-1777] · tui-tonga [1220-1845] Ucu de arkeolojik / sozlu gelenek tabanli; akademik kaynaklar bunlarda YUZYIL verir, GUN vermez. 4 Eylul kuralin geregi (HASSASIYET KAYNAGI ASAMAZ) buralarda YIL BILE yazamayabilirim. O zaman kunyenin kendi f:/t: degerini \"DEVRALDIM, dogrulanmadi\" diye damgalarim — UYDURMAM. (4) NE ISTIYORUM: simdilik yok, is bende. Kalem kalem bildirecegim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
