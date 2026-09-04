@@ -88,8 +88,43 @@ if not os.path.exists(HEDEF):
     yaz("🔴 hedef yok: %s" % HEDEF); sys.exit(1)
 BASLANGIC_MTIME = os.path.getmtime(HEDEF)
 T0 = time.time()
-yaz("BEKCI BASLADI · hedef donemler.js · damga %s"
-    % datetime.datetime.fromtimestamp(BASLANGIC_MTIME).strftime("%m-%d %H:%M:%S"))
+
+
+def _pid_oku():
+    """`.petek.kilit`ten koşan üretimin PID'ini al. Yoksa None — ve None
+    bir hata DEĞİL: bekçi eski davranışına (yalnız damga) düşer, ama
+    bunu SÖYLER."""
+    try:
+        yol = os.path.join(os.path.dirname(os.path.dirname(
+            os.path.abspath(__file__))), ".petek.kilit")
+        for p in open(yol, encoding="utf-8").read().split("|"):
+            p = p.strip()
+            if p.startswith("pid="):
+                return int(p[4:])
+    except Exception:
+        pass
+    return None
+
+
+def _yasiyor(pid):
+    """🔴 ÜÇ DURUM, İKİSİ DEĞİL: canlı / ölü / ÖLÇÜLEMEDİ.
+    Ölçülemedi ÖLÜ demek DEĞİLDİR — yanlış okunursa bekçi çalışan bir
+    koşuyu 'öldü' diye ilan eder ve 9 beep yerine 3 alçak beep basar."""
+    try:
+        import subprocess
+        r = subprocess.run(["tasklist", "/FI", "PID eq %d" % pid, "/NH", "/FO", "CSV"],
+                           capture_output=True, text=True, timeout=20)
+        if r.returncode != 0:
+            return True                      # ölçülemedi ⇒ CANLI say
+        return ('"%d"' % pid) in (r.stdout or "")
+    except Exception:
+        return True                          # ölçülemedi ⇒ CANLI say
+
+
+PID = _pid_oku()
+yaz("BEKCI BASLADI · hedef donemler.js · damga %s · izlenen PID %s"
+    % (datetime.datetime.fromtimestamp(BASLANGIC_MTIME).strftime("%m-%d %H:%M:%S"),
+       PID if PID else "OKUNAMADI (yalniz damga izlenecek)"))
 
 son_rapor = T0
 while True:
@@ -122,6 +157,30 @@ while True:
             % (gecen / 3600.0, son_satir()))
         beep(3, frek=220, sure=700, ara=200)
         sys.exit(1)
+    # ══════════════════════════════════════════════════════════════════
+    # 🔴🔴 SÜREÇ CANLILIĞI — 5 Eylül 2026'da EKLENDİ, ve sebebi ÖLÇÜLMÜŞ
+    # BİR KÖRLÜKTÜR. Bu bekçi koşu 5 öldükten SONRA 90+ dakika boyunca
+    # "⏳ kosu SURUYOR" basmaya devam etti.
+    #     21:26:47 koşu başladı · ~00:47 zincir ZAMAN AŞIMIYLA öldürdü
+    #     02:27:26 bekçi hâlâ "SURUYOR · 300 dk" diyordu
+    # Sebep: bekçi yalnız `donemler.js` DAMGASINA bakıyordu. Koşu ölünce
+    # damga da değişmez ⇒ bekçi ölümü "henüz bitmedi" diye okur.
+    # 🔴 VE SESSİZLİK BURADA "İYİ GİDİYOR" DİYE OKUNDU: koordinatör iki
+    #   saat boyunca "PID canlı" diye rapor etti, ÇÜNKÜ KİLİT DOSYASINI
+    #   OKUYORDU — dosyada yazan PID'in YAŞADIĞINI hiç ölçmedi.
+    #   Bulan bir işçi oturum oldu (`1923 SINIRLARI`), kendi işine
+    #   başlamadan önce ölçtü.
+    # 📌 `CLAUDE.md §7`: "bir nöbetçinin sessizliği bir ölçüm değildir."
+    #   Buradaki daha kötüydü: nöbetçi susmuyordu, YANLIŞ KONUŞUYORDU.
+    # ══════════════════════════════════════════════════════════════════
+    if PID:
+        if not _yasiyor(PID):
+            yaz("🔴🔴 SUREC OLDU · PID %s · %.1f saat · son satir: %s"
+                % (PID, gecen / 3600.0, son_satir()))
+            yaz("   donemler.js DEGISMEDI ⇒ kosu BITMEDI, OLDU.")
+            beep(3, frek=220, sure=700, ara=200)
+            sys.exit(2)
     if time.time() - son_rapor >= RAPOR:
         son_rapor = time.time()
-        yaz("⏳ kosu SURUYOR · %d dk · %s" % (int(gecen / 60), son_satir()))
+        yaz("⏳ kosu SURUYOR · %d dk · PID %s canli · %s"
+            % (int(gecen / 60), PID or "?", son_satir()))

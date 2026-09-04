@@ -159,8 +159,25 @@ def _zincir(yayinla=True, uretimsiz=False):
             yaz("   DURDUM, yayın YAPILMADI.")
             return 1
     else:
-        if kos("üretim (uret_petek.py) ~75 dk",
-               [sys.executable, "arac/uret_petek.py"], dk=200) is None:
+        # 🔴🔴 ZAMAN AŞIMI 200 → 1440 dk (24 saat), 5 Eylül 2026.
+        # SEBEBİ ÖLÇÜLMÜŞ BİR KAYIPTIR: koşu 5 bu satır yüzünden ÖLDÜ.
+        #     21:26:47 başladı · ~00:47'de zincir "ZAMAN AŞIMI (200 dk)"
+        #     deyip ÜRETİMİ KESTİ · 3 saat 20 dakika boşa gitti
+        # Ve tahmin ("~75 dk") çok daha eski bir dünyadan: koşu 4b
+        # **16 saat 09 dakika** sürdü (09-04 00:48:18 → 16:57:36, ölçüldü).
+        # 200 dakikalık bir tavan o koşuyu ASLA bitiremezdi.
+        #
+        # 📌 Ve bu, aynı gece düzeltilen `kos_ve_yayinla._kilit_al`ın
+        # `yas < 240` kusurunun BİREBİR AYNISI: eski, küçük dünyadan kalma
+        # bir SÜRE TAHMİNİ. Kilit düzeltildi, bu tavana BAKILMADI.
+        # ⇒ Bir zaman sabiti düzeltilirken, aynı dosyadaki ÖTEKİ zaman
+        #   sabitleri de ölçülür. Biri bayatladıysa ötekiler de bayattır.
+        #
+        # ⚠️ 1440 bir TAHMİN DEĞİL bir TAVAN: 16s09dk ölçülen en uzun koşu,
+        #   %49 pay bırakıldı. Koşu bundan uzun sürerse kesilmesi DOĞRUDUR —
+        #   ama 200 dakikada kesilmesi bir kusurdu.
+        if kos("üretim (uret_petek.py) — ölçülen en uzun koşu 16s09dk",
+               [sys.executable, "arac/uret_petek.py"], dk=1440) is None:
             return 1
         if kos("devirler (uret_devirler.py)",
                [sys.executable, "arac/uret_devirler.py"], dk=40) is None:
