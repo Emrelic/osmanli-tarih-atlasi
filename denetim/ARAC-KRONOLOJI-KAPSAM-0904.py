@@ -81,14 +81,40 @@ def muaf(k, anahtar):
     o yüzden ötekilerde muafiyet YOK, "yok" olarak sayılır.
     """
     if anahtar == "kurulus":
+        # 🔴 4 Eylül: `<` DEĞİL `<=`. Künyelerin f'si 1281'den
+        #    ÖNCE değil TAM 1281-01-01 — 137/591 künye. Kural
+        #    harfiyen onları muaf tutmuyordu, gerekçesi ise
+        #    birebir geçerliydi. (KRONOLOJİ AFRİKA GÖVDE ölçtü.)
         f = _yil(k.get("f"))
-        return f is not None and f < PENCERE_BAS
+        return f is not None and f <= PENCERE_BAS
     if anahtar == "son":
         t = _yil(k.get("t"))
         return t is not None and t > PENCERE_SON
     return False
 
 
+
+
+# ═══════════════════════════════════════════════════════════════════════
+# PENCERE_SINIRI — "kapsandı" ile "araştırıldı" AYRI ŞEYLER
+# ═══════════════════════════════════════════════════════════════════════
+# 🔴 KRONOLOJİ AFRİKA GÖVDE'nin ölçümü (4 Eylül 2026):
+#     f == 1281-01-01 olan 137 künyeden 82'sinde `kurulus` maddesinin GÜNÜ
+#     de TAM 1281-01-01, ve metinleri kendilerini ele veriyor —
+#     "Gurma krallığı TEŞEKKÜL ETTİ" · "Zerma devletçikleri TEŞEKKÜL ETTİ".
+#     Olay yok, fail yok, gün yok.
+# ⇒ "bati-afrika kuruluş %96" rakamının üçte biri GERÇEK BİR KURULUŞ değil,
+#   BİR PENCERE İŞARETİ ölçüyor.
+# ⚠️ Kusur VERİDE DEĞİL — `1281-01-01` dürüst bir yer tutucu. Kusur BURADA,
+#   ÖLÇERDE: kapsama sayılıyor ve "araştırılmış" sanılıyor.
+def pencere_sinirinda(k, anahtar):
+    """`kurulus` maddesi ATLASIN PENCERE GÜNÜNDE mi duruyor?"""
+    if anahtar != "kurulus":
+        return False
+    for m in (k.get("kronoloji") or []):
+        if _cins(m.get("tur")) == "kurulus" and (m.get("t") or "") == PENCERE_BAS:
+            return True
+    return False
 def karne(k):
     t = turleri(k)
     return {a: (bool(t & kume) or muaf(k, a)) for a, kume, _ in OLCUT}

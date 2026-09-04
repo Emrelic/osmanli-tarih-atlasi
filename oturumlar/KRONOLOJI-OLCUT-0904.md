@@ -45,6 +45,31 @@ iç savaş maddesi yazarken **`ic-savas`** kullan — ölçer onu tanıyor.
 
 ```
 kurulus   künyenin `f`si 1281'den ÖNCEYSE ARANMAZ
+
+> 🔴 **DÜZELTİLDİ 4 Eylül — `ÖNCEYSE` DEĞİL, `ÖNCEYSE YA DA TAM O GÜNSE`.**
+> `KRONOLOJİ AFRİKA GÖVDE` ölçtü: künyelerin `f`si 1281'den **önce değil,
+> TAM 1281-01-01**. Kural harfiyen onları muaf tutmuyordu, ama gerekçesi
+> birebir geçerli.
+> ```
+> f == 1281-01-01 olan künye : 137 / 591
+>    bati-afrika 16 · guney-afrika 5
+> ```
+> ⇒ Ölçüt: **`f <= 1281-01-01` ise `kurulus` ARANMAZ.**
+>
+> 🔴 **VE BİR KADEME DERİNİ — asıl bulgu bu:** o 137 künyenin **82'sinde**
+> `kurulus` maddesinin günü de TAM `1281-01-01`, ve metinleri kendilerini
+> ele veriyor — *"Gurma krallığı **teşekkül etti**"*, *"Zerma devletçikleri
+> **teşekkül etti**"*. Olay yok, fail yok, gün yok.
+> ⇒ Aletin bastığı *"bati-afrika kuruluş %96"* rakamının üçte biri **gerçek
+> bir kuruluş değil, bir PENCERE İŞARETİ** ölçüyor.
+>
+> ⚠️ **Kusur veride DEĞİL:** `1281-01-01` yazmak *"devlet pencere açılırken
+> vardı, başlangıcı bilinmiyor"* demenin bu projede kabul edilmiş yolu —
+> dürüst bir yer tutucu. Kusur **ÖLÇERDE**: alet onu kapsama sayıyor ve
+> okuyan *"kuruluşu araştırılmış"* sanıyor. Bu, ölçütün kendi *"kapsama
+> maddenin DOĞRULUĞUNU ölçmez"* uyarısının **sayısal hâli**.
+> ⇒ `ARAC-KRONOLOJI-KAPSAM-0904.py` artık pencere sınırındakini AYRI sayıyor.
+
 son       künyenin `t`si 1923'ten SONRAYSA ARANMAZ
 ```
 🔴 Bizans'ın `kurulus` maddesi yok ve **olmaması doğru** — 330'da kuruldu,
