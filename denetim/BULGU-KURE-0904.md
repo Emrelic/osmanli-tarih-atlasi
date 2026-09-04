@@ -257,6 +257,139 @@ Her iki durumda da alet **hata vermedi**, **inandırıcı bir sayı** üretti.
 ⚠️ ①'in ②'den önce gelmesi kasıtlı: kırık bir seçiciyle göç edilirse,
 göçten sonra *"v5 kırdı"* diye okunur — bugün bana neredeyse öyle oldu.
 
+---
+---
+
+# EK — 5 Eylül 2026 · ARKA YÜZ ÇARESİ ve İKİ AÇIK KALEM
+
+> Sevk: `M-2678` (③ arka yüz gizleme + iki açık kalem).
+> `js/app.js`e **dokunulmadı** — çare ayrı bir dosyada:
+> `denetim/kure-arka-yuz.js`, deneme sayfasına maplibre'den SONRA,
+> `app.js`ten ÖNCE yükleniyor ve `maplibregl.Marker`ı sarmalıyor.
+
+## 🔴🔴 E0. ÖNCE KENDİ DAMGAMI ÇÜRÜTÜYORUM — "481 ÇÜRÜDÜ" YANLIŞTI
+
+Yukarıda `§1`de **481 DOM işaretçisi** iddiasına **ÇÜRÜDÜ** damgası
+vurdum ve *"173, ve 10 tarih × 4 zoom seviyesinde sabit"* yazdım.
+**O damga YANLIŞ.** Bugün aynı sayfayı daha uzun bekleyerek ölçtüm:
+
+```
+sayfa yüklenirken (~20 sn)            173     ← benim dün ölçtüğüm
+tam yüklendikten sonra, Anadolu z5,5  481     ← devralınan sayı
+dünya görünümü z1,2                   951 – 1.104
+```
+**Bileşim (tam yüklü):**
+```
+(sınıfsız, şehir)  280      bosluk-kutu   92      devlet-etiket 27
+bosluk-benek        49      bosluk-soru   32      bolge-etiket   1   = 481
+```
+⇒ Ben yalnız **boşluk işaretçilerini** (173) yakalamışım; şehir ve devlet
+etiketleri (308) henüz yaratılmamıştı. **Devralınan 481 DOĞRUYDU.**
+
+📌 İki ders, ikisi de bende:
+1. **Ölçüm doğruydu, ANI yanlıştı.** Sayı `load`dan sonra da büyümeye
+   devam ediyor; "yüklendi" bir an değil bir **aralık**.
+2. **`sabit` demek `ölçtüm` demek değil.** On tarih ve dört zoom denedim
+   ve hep 173 gördüm — çünkü hepsini **aynı erken pencerede** ölçtüm.
+   Tekrar, evreni genişletmez.
+🔴 Ve bu, projenin *"yanlış damga en pahalısıdır"* kuralının canlı
+vakası: `ÇÜRÜDÜ` damgası bir sonraki oturumu o sayıyı **aramaktan
+alıkoyardı.**
+
+🟢 **VE SAYI GÖRÜNÜME BAĞLI** — küre için asıl önemli olan bu:
+```
+Anadolu z5,5   481          dünya z1,2   951 – 1.104
+```
+Küre kipi **tam da dünya görünümüdür** ⇒ arka yüz derdi 481'lik değil,
+**~1.100'lük** bir dert.
+
+## E1. ÇARE — `denetim/kure-arka-yuz.js`
+
+Küre merkezi ile işaretçi arasındaki **büyük çember açısı** hesaplanır;
+açı ufuk açısını aşarsa işaretçi `visibility:hidden` olur.
+Bağlanma **her kare değil**, `move`/`zoom`/`rotate`/`pitch`/`moveend`
+olaylarında.
+
+## E2. İKİ YÖNDE SINANDI (`C13`)
+
+Hepsi aynı görünümde (merkez 160°B, zoom 1,2), aynı 1.104 işaretçiyle:
+
+| yol | projeksiyon | DOM | gizli | görünür | damga |
+|---|---|---:|---:|---:|---|
+| **GEÇME** | mercator | 1.104 | **0** | 1.104 | 🟢 hiçbir şey gizlenmedi |
+| **ATEŞLEME** | globe | 1.104 | **1.049** | 55 | 🟢 arka yüz gizlendi |
+| **KONTROL** (çare kapalı) | globe | 1.104 | 0 | 1.104 | 🟢 kusur gerçek |
+| küre, Anadolu merkez | globe | 906 | 121 | 785 | — |
+
+**Kontrol satırı şart:** çare kapalıyken aynı görünümde gizli 0 çıkıyor
+⇒ ölçtüğüm şey çarenin **kendi etkisi**, sayfanın bir yan etkisi değil.
+Ekran görüntüsüyle de doğrulandı (çare kapalı: Eski Dünya etiketleri
+Pasifik'in üstünde; çare açık: gittiler).
+
+## E3. BEDEL — ölçüldü
+
+```
+354 işaretçi   0,404 – 0,487 ms / çağrı
+830 işaretçi   0,744 ms / çağrı        ← en kötü hâl
+```
+Olay tabanlı bağlandığı için yalnız kamera oynarken koşuyor.
+*Her karede* koşsaydı 60 fps'te **24 – 45 ms/sn** (bir çekirdeğin
+%2,4 – %4,5'i) ederdi.
+⚠️ **Koşu 5 CPU'yu paylaşıyor — bu sayılar boştaki makineyi TEMSİL
+ETMEZ.** Kare hızı ölçülemedi: `requestAnimationFrame` gizli belgede
+durduruluyor, ölçüm asıldı ⇒ **ÖLÇÜLEMEDİ**.
+
+## E4. 🔴 ÇAREMİN SINIRI — kendi aletimi ihbar ediyorum
+
+Ufuk açısını kütüphanenin iç durumundan okumuyorum (iç API'ler sürüm
+arası değişir); **zoom'dan türetiyorum** ve formül **ampiriktir**:
+```
+z 1,2 → ufuk 65,3°     (ortografik sınır 90° olurdu)
+```
+65,3° **temkinli** bir kesim: kenar yakınındaki bazı **görünür**
+işaretçileri de gizliyor olabilir.
+
+**Yanlış pozitif sınavı yazdım ve SONUÇSUZ kaldı:** gizlenen 155
+işaretçinin 62'si ekranda küre diskinin içine düşüyor gibi görünüyor —
+**ama `project()` arka yüzdeki noktayı ön yüze KATLIYOR**, yani bu sayı
+bir **üst sınır**, kanıt değil. Örneklerin üçü de (Acoma Pueblo 107°B ·
+Finschhafen · Madang) merkeze 140°'den uzak, yani **gerçekten arka
+yüzde** — sınavım onları yanlış pozitif sanıyordu.
+⇒ **DAMGA: ÖLÇÜLEMEDİ.** Üretime alınmadan önce ufuk açısı
+kalibre edilmeli; `ARKA.pay(derece)` bunun için var.
+
+## E5. İKİ AÇIK KALEM — İKİSİ DE KAPANDI
+
+### `setTerrain` + küre BİRLİKTE 🟢
+```
+raster-dem kaynağı eklendi · setTerrain({exaggeration:1.4}) çağrıldı
+getTerrain() → true · projeksiyon → globe · katman 39 · YENİ HATA 0
+```
+**Birlikte çalışıyorlar.**
+
+### Küre üzerinde TIKLAMA / `queryRenderedFeatures` 🟢
+Dün 0 dönmüştü; sebebi **veri katmanlarının o an boş olmasıydı** (kontrol
+grubunda mercator da 0 dönmüştü). Veri yüklüyken tekrar ölçtüm:
+
+| | ekranda toplam özellik | İstanbul ±8 px | katmanlar |
+|---|---:|---:|---|
+| mercator | 270 | 18 | devlet-cizgi · devlet-dolgu · g-gol · g-kara |
+| **globe** | **270** | **18** | aynı |
+
+**Birebir aynı.** Küre etkileşimi kırmıyor.
+
+## E6. ÖZET — bu turun eklediği
+
+```
+🟢 arka yüz çaresi YAZILDI ve İKİ YÖNDE sınandı (1.049/1.104 gizlendi,
+   mercator'da 0 gizlendi, kontrol grubuyla)
+🟢 setTerrain + küre BİRLİKTE çalışıyor
+🟢 küre üzerinde tıklama/sorgu mercator ile BİREBİR aynı
+🔴 kendi "481 ÇÜRÜDÜ" damgam YANLIŞTI — sayı doğru, benim ölçüm ANIM erken
+⚪ ufuk açısı ampirik, kalibre edilmedi — ÖLÇÜLEMEDİ
+⚪ kare hızı — rAF gizli belgede durur, ÖLÇÜLEMEDİ
+```
+
 ## 7. BIRAKTIĞIM DOSYALAR
 ```
 denetim/BULGU-KURE-0904.md      bu rapor
