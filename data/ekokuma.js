@@ -142,4 +142,40 @@ window.EKOKUMA = [
   kesinlik:"kesin",
   kaynak:"TDV: berlin-antlasmasi (gövde okundu)" }
 
+// ═══════════════════════════════════════════════════════════════════════
+// 🔬 BİR İMPARATORLUK NE KADAR UZAĞA HÜKMEDER?
+// ═══════════════════════════════════════════════════════════════════════
+// Emre'nin isteği (4 Eylül 2026): "bu araştırdıklarını makale hâline
+// getirip ek okuma yapalım, son kullanıcının okuyacağı şekle çevir."
+// Kaynağı: denetim/BULGU-HUKUM-ALANI-0904.md — 1013 satırlık ölçüm raporu.
+// Üç maddeye bağlı, çünkü üçünde de okuyucu aynı soruyu sorar:
+// "niçin tam burada durdu?"
+,{ id:"hukum-alani-mesafe",
+   tur:"teknik-bilimsel",
+   olay:["1529-09","1663-09-24","1683-09-12"],
+   kisa:"Viyana çok uzak değildi — çok geçti. Bir imparatorluğun sınırını mesafe değil takvim çizdi.",
+   metin:"Bir başkent, kendisinden ne kadar uzaktaki toprağa gerçekten hükmedebilir? Osmanlılar bu soruyu kilometreyle değil SAATLE cevaplıyordu — ve bıraktıkları kayıtlar bugün ölçülebiliyor.\n\n"
+     +"■ MENZİL: HABERİN HIZI\n"
+     +"İmparatorluk, yolları üzerine menzil denen konaklama noktaları kurmuştu. Bunlar eşit aralıklı değildi; kaynak açıkça söylüyor: menziller «üç saatten yirmi sekiz saate kadar» olan mesafelerde, «coğrafî şartlara, emniyetin ve menzil ihtiyaçlarının sağlanabileceği yerlere göre» kurulmuştu. Yani ölçü baştan beri düz bir uzaklık değil, arazinin zorluğuydu.\n\n"
+     +"■ BİR «SAAT» KAÇ KİLOMETRE?\n"
+     +"1663 Uyvar seferinin günlük kütüğü elimizde: ordunun Davutpaşa'dan Budin'e kadar geçtiği altmış dört konağın her biri saatiyle yazılmış. Modern koordinatlarla ölçüldüğünde yedi ayrı etabın hepsi aynı bandı veriyor: bir Osmanlı saati kuş uçuşu 4,3 ilâ 5,4 kilometre. Üç bağımsız kaynak aynı sayıda buluşuyor.\n\n"
+     +"■ AYNI KELİME, İKİ AYRI ÖLÇEK\n"
+     +"Ve burada çoğu okurun gözünden kaçan bir ayrım var. KONAK, ordunun bir günlük yürüyüşüdür: ortalama 19 kilometre. MENZİL ise ulağın istasyon aralığıdır: ortalama 85 kilometre. Arada dört buçuk kat fark var ve sebebi basit — ulak menzilde AT DEĞİŞTİRİR ve sürer; ordu yürür ve konaklar. Aynı yol ağının iki farklı hızıdır bunlar. Bir emrin ulaştığı yer ile bir ordunun vardığı yer aynı değildir.\n\n"
+     +"■ HUKUKUN ÇİZDİĞİ SINIR\n"
+     +"İlginç olan, aynı soruya İslâm hukukunun da bir cevap vermiş olmasıdır. Bir kimsenin «yolcu» sayılıp namazını kısaltabilmesi için gereken mesafe, dört mezhepte de 83 ilâ 99 kilometre arasında takdir edilmiştir. Yani hukuken bunun ötesi artık BAŞKA YERDİR. Bu sayı, tarihî kaza (kadılık) sınırlarıyla da örtüşür.\n\n"
+     +"■ İÇ İÇE HALKALAR\n"
+     +"Bütün bunlar bir araya geldiğinde ortaya iç içe geçmiş bir düzen çıkıyor: bir kale ya da köy çevresindeki yaklaşık 40 kilometreye, bir kaza merkezi 90 kilometreye, bir sancak merkezi 150 kilometreye, bir eyalet merkezi ise 270 kilometreye kadar gerçek anlamda hükmedebiliyordu. Her kademe bir öncekinin yaklaşık kök üç katı — coğrafyacıların merkezî yerler kuramında tarif ettiği düzenin ta kendisi.\n\n"
+     +"■ VE ASIL CEVAP: VİYANA ÇOK UZAK DEĞİLDİ\n"
+     +"1663 seferi 18 Mart'ta Davutpaşa'dan çıktı, 17 Temmuz'da Budin'e vardı: 121 gün. Ama bu 121 günün içinde yalnız 258 saat yürünmüştü. Yani seferin neredeyse tamamı yürümekle değil konaklamayla, ikmalle, beklemeyle geçmişti. Ordunun net ilerleyişi günde 8,8 kilometreydi.\n\n"
+     +"Sefer mevsimi — karların erimesiyle yeniden bastırması arasındaki dönem — kabaca 240 gündü ve bu süreye gidiş, savaş ve dönüş SIĞMAK ZORUNDAYDI. Bu ölçüyle:\n\n"
+     +"   Belgrad'a gidip dönmek 184 gün sürer — rahat.\n"
+     +"   Budin'e gidip dönmek 243 gün sürer — mevsimin tamamı; savaşacak gün kalmaz.\n"
+     +"   Viyana'ya gidip dönmek 290 gün sürer — mevsime SIĞMAZ.\n\n"
+     +"İmparatorluğun kuzeybatı sınırının niçin tam orada durduğunun cevabı budur. Viyana çok uzak değildi; çok GEÇTİ. Sınırı çizen şey bir mesafe değil bir TAKVİMDİ — ve aynı hesap Bağdat'ı, Cezayir'i, Mekke'yi de tek bir sefere sığmayan yerler arasına koyar. O toprakların idaresi başka usullerle, valilerle, ocaklarla, tâbi beyliklerle yürüdü.\n\n"
+     +"■ ÖLÇÜMÜN SINIRI\n"
+     +"Buradaki günlük hız tek bir seferin kütüğünden çıkarılmıştır; bir kesin sayı değil bir MERTEBEDİR. Yüzde otuz oynasa bile Viyana yine mevsimin dışında kalır — sonucu değiştirmez, ama sayıya kesinlik atfetmemek gerekir.",
+   kesinlik:"kesin",
+   kaynak:"TDV İslâm Ansiklopedisi: menzil--osmanli (Yusuf Halaçoğlu, 2004) · sefer--fikih (mesafe takdirleri) · fersah. Sefer kütüğü: Muhammed Fatih Çalışır, A Long March: The Ottoman Campaign in Hungary 1663, MA tezi, Central European University, Budapest 2009, Ek s.44-45 (dayanağı Mehmed Necati, Tarih-i Fâzıl Ahmed Paşa). Hiyerarşi: Walter Christaller, Zentrale Orte in Süddeutschland (1933). Atlasın kendi menzil ağı ölçümü: 121 kenar, ortanca 85 km."
+ }
+
 ];
