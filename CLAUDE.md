@@ -517,6 +517,62 @@ bir oturumun 32 sluglık ölçümü güney için o iddiayı **çürüttü** (8 c
 hepsi 302). ⇒ **Bu satırdan bir bölge için hüküm çıkarma; kendi ölçümüne
 dayan.**
 
+#### 🔴 VE TERSİ DE GEÇERLİ: KAYNAK YOĞUNLUĞU KOMŞU BÖLGEYE TAŞINMAZ
+*(4 Eylül 2026 · `KRONOLOJİ AFRİKA GÖVDE` — ve hatayı ÖLÇEN taraf yaptı)*
+
+Aynı oturum güney Afrika'da TDV'nin neredeyse yok olduğunu **ölçtü** (32
+slug / 8 canlı) ve **batı Afrika için de akademik kaynakla yazmaya
+hazırlanıyordu.** Onu bir kural değil, `tekrur` künyesinin **kendi `kaynak`
+alanı** durdurdu — orada TDV `el-hac-omer` yazıyordu. Batıyı ayrıca ölçtü:
+
+```
+guney-afrika   32 slug →  8 CANLI / 24 ölü   (%25)
+bati-afrika    38 slug → 26 CANLI / 12 ölü   (%68)
+samori-ture · el-hac-omer · osman-b-fudi · sokoto · tekrur · timbuktu ·
+kano · bornu  — HEPSİ CANLI
+```
+⇒ Britannica'ya dayansaydı `§4`ün *"TDV maddesi varsa başkasına dayanma"*
+kuralını **çiğnemiş olacaktı.**
+
+🟢 **Ve TDV orada akademik kaynaktan ÜSTÜN çıktı — GÜN veriyor:**
+Kaarta'nın fethi **11 Kasım 1854** · El-Hâc Ömer'in ölümü **14 Şubat 1864**
+· Samori'nin antlaşması **13 Şubat 1889** · Tabkin Kwatto **21 Haziran
+1804** · Osman b. Fûdî'nin ölümü *3 Cemâziyelâhir 1232 =* **20 Nisan 1817**.
+
+📌 **Bu, bir günde bu ailenin ÜÇÜNCÜ vakası** ve üçü de *"ölçüm doğru,
+EVREN dar"*: yukarıdaki tablonun adsız *"Afrika'nın dördü"*, koordinatörün
+*"bölge oturumları daha ucuz"* varsayımı, ve bu. ⇒ **Bir bölgede ölçülen
+kaynak yoğunluğu, komşu bölge için bir tahmin bile değildir.**
+
+#### 🔴 ÜÇÜNCÜ HASSASİYET EKSENİ: AY, AYIN 1'İNE KODLANMIŞ — 42 künye
+
+Aynı oturum `tekrur f:1852-09-01` gördü: künye **ay hassasiyetini ayın
+1'ine kodluyor**. Tarandı — **42 künyenin `f:`/`t:` değeri `YYYY-MM-01`**
+(safevi 1501-07-01 · lehistan 1569-07-01 · bosna-kralligi 1463-05-01 ·
+saruhan 1416-09-01 …).
+
+⚠️ **Ve bir kısmı GERÇEKTEN ayın 1'i** — Lublin Birliği *gerçekten* 1
+Temmuz 1569'dur. ⇒ **Biçim, "ayın 1'i" ile "ay biliniyor, gün
+bilinmiyor"u AYIRT EDEMİYOR.**
+```
+① gün HİZALAMA ürünü         veriye bakar     (purepecha 1530-02-14)
+② gün HAFIZADAN alınmış      hafızaya bakar   (Haiti: kaynak "July 1915",
+                                               bilinen 28 Temmuz KULLANILMADI)
+③ AY, ayın 1'ine kodlanmış   BİÇİME bakar     🆕 42 künye
+```
+③'ün farkı: kayıt **yalan söylemiyor**, iki ayrı şeyi **aynı biçimde**
+yazıyor. `kaynak` alanına bakmak yetmez; **kaynağın ne dediğini** okumak
+gerekir.
+
+🟢 **KURAL — maddede:** tarih alanı kaynağın desteklediği **en kaba
+güvenli** düzeyi taşır, gerisi **metinde** durur. Kaynak *"Eylül 1852"*
+diyorsa `1852-01-01` yazılır ve ay `b`/`kaynak` metnine konur.
+
+🟢 **VE BİR KURAL DAHA, aynı turdan:** bir yılı iki cümleden **türetmek**
+meşrudur (*"Mart 1886 … bir yıl sonra"* → 1887), **ama türetilen sayı
+ALINTIYA YAZILMAZ.** O oturumun cümlesi: *"kaynağın söylemediği bir sayıyı
+alıntıya yazmak uydurmaktan KÖTÜDÜR, çünkü SAHTE BİR DAYANAK üretir."*
+
 
 - **Vikipedi hiçbir zaman tek dayanak değildir.** "Hangi olaya bakmalıyım" sorusunu
   cevaplar; tarih oradan alınıp doğrulanmadan yazılmaz.
