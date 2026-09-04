@@ -2818,6 +2818,68 @@ io.open(_mkyol, "w", encoding="utf-8").write(json.dumps(
 print(f"Motorun çizdiği kara → veri-kaynak/motor_kara.geojson "
       f"({os.path.getsize(_mkyol)//1024} KB)")
 
+# ══════════════════════════════════════════════════════════════════════
+# R7 — ÖRTÜLMEYEN KARA NÖBETÇİSİ  (`denetim/BULGU-GEOMETRI-0904.md`, H-0003)
+# ══════════════════════════════════════════════════════════════════════
+# Reçetenin kendi cümlesi: *"her koşuda «kara maskesinin kaç km²'si hiçbir
+# petek tarafından örtülmüyor» basılsın, kıta kırılımıyla. Bugün bu sayı
+# HİÇBİR YERDE basılmıyor; boşluğun büyüdüğünü kimse göremez."*
+#
+# 🟢 Ve bu, Emre'nin 4 Eylül sorusunun ("şu anda bu katmanların ne kadarı
+#    bitti TÜM DÜNYADA") koşu tarafındaki cevabıdır: oran her koşuda
+#    kendiliğinden ölçülür, bir oturumun elle saymasına gerek kalmaz.
+#
+# ⚠️ İKİ SAYI İKİ AYRI ŞEY — karıştırılmasın:
+#     KARA        Natural Earth maskesi ∩ pencere, göller çıkarılmış  = HEDEF
+#     _mkara      motorun GERÇEKTEN çizdiği (PETEK_D birleşimi)       = OLAN
+#   Fark bir KUSUR DEĞİL: `§2` gereği noktası olmayan yer boyanmaz ve Emre'nin
+#   kendi hükmü *"devasa boşluklar olacaksa olsun"*. Nöbetçinin işi boşluğu
+#   YOK ETMEK değil, BÜYÜDÜĞÜNÜ GÖRÜNÜR KILMAK.
+#
+# 🔴 BÜTÜNÜYLE `try` İÇİNDE — bir nöbetçi 16 saatlik bir koşuyu ASLA
+#    öldürmemeli. Hesaplanamazsa "ÖLÇÜLEMEDİ" der ve geçer; sessizce
+#    "temiz" DEMEZ (`§11`).
+try:
+    _r7_kutu = [
+        ("Anadolu+Rumeli",      35,  46,  19,  45),
+        ("Avrupa (batı/orta)",  36,  71, -12,  19),
+        ("Doğu Avrupa+Rusya",   44,  72,  27,  60),
+        ("Orta Doğu+İran",      12,  42,  33,  63),
+        ("Orta Asya",           35,  56,  46,  88),
+        ("Sibirya",             50,  78,  60, 190),
+        ("Güney Asya",           5,  37,  60,  93),
+        ("Doğu Asya",           18,  54,  93, 146),
+        ("Güneydoğu Asya",     -11,  24,  92, 141),
+        ("Kuzey Afrika",        18,  38, -18,  36),
+        ("Sahra altı Afrika",  -36,  18, -18,  52),
+        ("Kuzey Amerika",        7,  75,-170, -52),
+        ("Güney Amerika",      -56,  13, -82, -34),
+        ("Okyanusya",          -48,   0, 110, 180),
+    ]
+    _r7_bos = KARA.difference(_mkara).buffer(0)
+    _r7_kara_km2 = _ham_km2(KARA)
+    _r7_bos_km2 = _ham_km2(_r7_bos)
+    _r7_oran = (100.0 * _r7_bos_km2 / _r7_kara_km2) if _r7_kara_km2 else 0.0
+    print(f"  R7 ÖRTÜLMEYEN KARA: {_r7_bos_km2:,.0f} km² / "
+          f"{_r7_kara_km2:,.0f} km²  =  %{_r7_oran:.1f}")
+    print("     (kusur DEĞİL — noktası olmayan yer boyanmaz; bu satır "
+          "boşluğun BÜYÜDÜĞÜNÜ görünür kılmak için)")
+    _r7_sat = []
+    for _ad, _la0, _la1, _lo0, _lo1 in _r7_kutu:
+        _k = box(_lo0, _la0, _lo1, _la1)
+        _kara_p = _ham_km2(KARA.intersection(_k))
+        if _kara_p < 1.0:
+            continue
+        _bos_p = _ham_km2(_r7_bos.intersection(_k))
+        _r7_sat.append((100.0 * _bos_p / _kara_p, _ad, _bos_p, _kara_p))
+    for _o, _ad, _b, _t in sorted(_r7_sat, reverse=True):
+        print(f"       %{_o:5.1f}  {_ad:<20} {_b:>12,.0f} / {_t:>12,.0f} km²")
+    # ⚠️ Kutular KABA ve ÖRTÜŞEBİLİR: toplamları KARA'yı vermez, ve bu
+    #   bilerek — amaç bir bütçe değil bir YOĞUNLUK göstergesi.
+except Exception as _r7_hata:
+    print(f"  R7 ÖRTÜLMEYEN KARA: ÖLÇÜLEMEDİ ({_r7_hata}) — "
+          "'ölçülemedi' TEMİZ demek DEĞİLDİR")
+
 # ⚠️ BU SATIR ARTIK NÖBETÇİ DEĞİL, BİLGİ. Nöbetçi çöl tavanının ÖNÜNE alındı
 # (bkz. BOZUK_KIYI_TABAN bloğu). Buradaki sayı çöl tavanının SAHİPSİZLEŞTİRDİĞİ
 # alanın kenarını da içerir ve o delikler KASITLIDIR — "tavan yalnız ÇIKARIR".
