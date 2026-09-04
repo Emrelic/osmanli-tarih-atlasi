@@ -3532,4 +3532,129 @@ eski defter SİLİNMEZ, `.ONCEKI.json` olarak durur
   Üçü de *"sayıyı biliyorum"* der; üçü de ***"sayının neye göre
   olduğunu bilmiyorum"*** durumudur. Ve üçü de **hata vermez.**
 
+- 🔴🔴 **BİR REFERANS, ÖLÇTÜĞÜ ŞEYİN YANINDA DURMALI — BEYANIN YANINDA
+  DEĞİL.** *(4 Eylül 2026 · `PAKET RENK 0904` ölçtü, koordinatörü çürüttü)*
 
+  Emre *"renkler denizle benzer, ayırt etmek zorlaşıyor"* dedi. Koordinatör
+  `renk_olc.py`nin deniz denetimini koşturdu ve *"eşiğin altında **0**,
+  denetim TEMİZ diyor ⇒ metrik doğru, EŞİK gevşek"* diye teşhis koydu.
+  **İki yarısı da yanlıştı, ve bir işçi oturum ikisini de çürüttü.**
+
+  **① KOORDİNATÖR ALETİN YARDIMCISINI ÇAĞIRDI, ALETİN KENDİ SORUSUNU DEĞİL:**
+```
+                lab(hex)  ← koordinatör   gorunen()  ← ALETİN kullandığı
+novgorod          17.87                     13.25    ← eşiğin ALTINDA
+le-hanedani       19.66                     14.61    ← eşiğin ALTINDA
+norvec-kralligi   43.89                     13.95    ← 30 ΔE fark, HİÇ görülmedi
+R.deniz_ihlal() → DAL1 12 · DAL2 ek 9 · BİRLEŞİM 21      ("0" DEĞİL)
+```
+  `gorunen(k) = lab(bind(hex))` — gövde **altlıkla harmanlanmış** hâliyle
+  ölçülüyor; ham hex hiçbir yerde ekranda yok.
+  📌 Aynı koordinatörün aynı gün **üçüncü** *"aletin cevabını yanlış yerden
+  okuma"* vakası (`konum_denetimi`in dönüşü · tahtanın `kim` alanı · bu).
+  Üçü de **hata vermedi**, üçü de **temiz bir sayı** üretti.
+
+  **② VE ASIL KUSUR BİR KADEME DERİNDE — REFERANSIN KENDİSİ EKRANDA YOK:**
+```
+js/app.js:673   { id:"zemin",  background-color: SU_RENGI }  #c4dcea
+js/app.js:674   { id:"altlik", type:"raster" }  ← ÜSTÜNDE, Esri World Physical
+```
+  `SU_RENGI` bir **arka plan**; üstüne dünya çapında bir raster biniyor ve
+  kullanıcının deniz diye gördüğü şey **Esri'nin okyanusu**. `g-gol` de
+  kurtarmıyor — o da rasterin ALTINDA (`app.js:705`, *"Grup A — rasterin
+  ALTINDA"*).
+```
+beyan (SU_RENGI)   #c4dcea             L* 86.4
+EKRANDA çizilen    #78b0d0 · #80b8d8   L* 69-72
+                   ΔE00 19.5-21.8   ·   |ΔL*| 14.3-17.3
+```
+  ⇒ **Aletin referansı, ölçtüğü şeyden ΔE ~20 uzakta** — kendi eşiğinden
+  (15) büyük.
+
+  🔴 **Ve `_deniz_oku()` bunu göremiyor çünkü YANLIŞ SORUYU SORUYOR:**
+  *"beyan iki yerde tutarlı mı"* diye soruyor (zemin ↔ `g-gol`, ayrışırsa
+  `SystemExit`), ***"beyan EKRANDA GÖRÜNÜYOR MU"*** diye sormuyor.
+  📌 Alet 12 Ağustos'ta tam *"denetim var ≠ o soruyu soruyor"* dersi için
+  yazılmış ve **aynı sınıfa kendisi düşmüş.** Dersin bir kademe ötesi:
+  ***bir ÇAPRAZ denetim iki BEYANI karşılaştırabilir ve ikisi de ekranda
+  olmayabilir.***
+
+  🟢 **Ve Emre haklı çıktı, alet kör:** `ilhanli` ekranda L* 67.8, ekrandaki
+  Hazar L* 70.7 ⇒ **|ΔL*| 2.9** — neredeyse aynı açıklık. Emre *"deniz
+  TONUNA yakın"* derken ton = açıklık, ve birebir haklı. `renk_olc`in
+  `DAL 2`si (|ΔL*| < 4) tam bunu yakalamak için yazılmış ve **yanlış
+  referans yüzünden ateşlemiyor.**
+
+  ⚠️ Ve bir tasarım sonucu: Emre'nin *"deniz daha AÇIK renk olmalı"*
+  isteği bugün **uygulanamaz** — `SU_RENGI`yi değiştirmek ekranda hiçbir
+  şeyi değiştirmez. Referansı düzeltmek, o isteğin ÖN KOŞULU.
+
+- 🔴 **DAMGA BİR İDDİAYI NE MEŞRULAŞTIRIR NE DÜZELTİR — YALNIZ GÖRÜNÜR
+  KILAR.** *(4 Eylül 2026 — iki işçi oturum aynı kuralın iki yüzünü buldu)*
+```
+KRONOLOJİ ORTA AMERİKA  "yıl uydurmak tarih uydurmaktır ve «temsilî»
+                         damgası onu MEŞRULAŞTIRMAZ, yalnız görünmez kılar"
+                         ⇒ yazdığı maddeyi SİLDİ
+KRONOLOJİ GÜNEY AMERİKA "damgalamıştım — ama damga tarihi DÜZELTMİYORDU,
+                         tarihin kendisi hâlâ gün iddia ediyordu"
+                         ⇒ on maddeyi kaynağın hassasiyetine İNDİRDİ
+```
+  ⇒ Damgalamak bir **ilk adım**; düzeltmek **ayrı bir iştir** ve damga onu
+  yapmış saydırmaz.
+  🟢 Ve üçüncü bir yüzü: **türetilen sayı ALINTIYA YAZILMAZ.** Bir yılı iki
+  cümleden türetmek meşrudur (*"Mart 1886 … bir yıl sonra"* → 1887), ama o
+  sayıyı alıntı metnine eklemek *"kaynağın söylemediği bir sayıya SAHTE BİR
+  DAYANAK üretir"* (`KRONOLOJİ AFRİKA GÖVDE`).
+
+- 🔴 **"BULUNAMADI" · "ÖLÇÜLEMEDİ" · "OKUMADIM" — ÜÇ AYRI DAMGA.**
+  *(4 Eylül 2026 · `KRONOLOJİ GÜNEY AMERİKA`)*
+  Proje ilk ikisini biliyordu. Üçüncüsü şu cümleyle doğdu:
+  > *"«Bulunamadı» aradım-ama-yok demektir; ben **aramadım bile**."*
+```
+BULUNAMADI   aradım, yok                 → bir SONUÇ, uydurmaktan değerli
+ÖLÇÜLEMEDİ   aradım, alet cevap veremedi → kalem AÇIK kalır
+OKUMADIM     aramadım bile               → kalem HİÇ AÇILMADI
+```
+  🔴 Üçüncüsü en kolay kaybolanı: `bulunamadı` yazılsaydı bir sonraki oturum
+  o kaydı **bir daha aramazdı**. ***Yanlış damga, hatayı KALICILAŞTIRIR.***
+
+- 🔴 **VE BİR DÜZELTME, YANLIŞ UYGULANIRSA DOĞRU VERİYİ BOZAR — "ÇEK"
+  KOVASI ŞART TAŞIR.** *(4 Eylül · `KRONOLOJİ ORTA AMERİKA` uyardı)*
+  *"Yanlış hassasiyet"* bulgusunun onarım kovası *"gün hizalama ürünü →
+  `YYYY-01-01`e ÇEK"* diye yazılmıştı. İşçi oturum durdurdu:
+  > *"«Doğrulayamadım» «yanlış» demek değildir, ve `YYYY-01-01`e çekmek
+  > DOĞRU BİR GÜNÜ KAYBETTİREBİLİR."*
+  ⇒ **ŞART:** bir gün ancak kaydın **KENDİ beyanı** onu çürütüyorsa
+  (`"hizalandı"` · `"bağlı verinin aralığına"`) çekilir. Purépecha'da o
+  beyan **vardı**; Novgorod'da **yok** — ikisi aynı kovaya girmez.
+  📌 `denetle.py`nin altı noktaya aynı koordinatı önerdiği vakanın aynısı:
+  ihlali kapatan bir reçete, **gerçeği silebilir.**
+
+- 🔴 **TDV TUZAK LİSTESİNE ALTINCI: CANLI YÖNLENDİRME KÜTÜĞÜ.**
+  *(4 Eylül · `KRONOLOJİ AFRİKA GÖVDE`)*
+  `dahomey` slug'ı **200** döner ve gövdenin tamamı tek satırdır:
+  > *«bk. BENİN — Batı Afrika'da İslâm Konferansı Teşkilâtı üyesi olan bir
+  > ülke.»*
+
+  Bir **adres**, bir madde değil. Dört tuzağın hiçbiri bunu yakalamaz —
+  slug canlı, gövde geliyor, boş değil, yanlış konu da değil.
+  🔴 **Ve en tehlikeli yanı:** o oturumun kendi 38 sluglık taraması onu
+  *"CANLI"* saymıştı. Bir HTTP taraması bundan *"TDV Dahomey'i kapsıyor"*
+  hükmü çıkarır.
+  📌 `000` ekseninin **aynası**: orada **ölçülemedi ≠ ölü**, burada
+  **200 ≠ madde**. İkisi de bir HTTP kodunun taşıyamayacağı bir bilgiyi
+  taşıdığını sanmaktan doğuyor.
+  🟢 Çare yönlendirmeyi **izlemek**: `benin` gövdesi altı maddenin altısını
+  verdi. Ama dikkat — TDV `benin` **modern Benin**'dir, Nijerya'daki
+  **Benin Krallığı** değil (`§4②` tuzağının altıncı vakası).
+
+- 🔴 **BİR DEVLETİN KRONOLOJİSİNE, TARAF OLMADIĞI BİR OLAY YAZILMAZ.**
+  *(4 Eylül · `KRONOLOJİ AFRİKA GÖVDE`)*
+  14 Haziran 1898 Paris Konvansiyonu TDV `gana`da **günüyle** geçiyor — gün
+  taşıyan bir madde en cazip olandır. Oturum **yazmadı**: Aşanti o
+  antlaşmanın tarafı değil, üç Avrupa devleti arasında.
+  > *"Bir devletin kronolojisine taraf olmadığı bir olayı yazmak, onu
+  > oturmadığı bir masaya oturtur."*
+  📌 `§11`in *"ATLAS SEFERİ DEĞİL TASARRUFU BOYAR"* dersinin **kronoloji**
+  tarafı. Ve yazmama kararının **dosyaya kaydedilmesi** ikinci yarısı: bir
+  sonraki oturum onu *"atlanmış"* sanacaktı.
