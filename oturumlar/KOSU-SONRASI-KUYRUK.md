@@ -152,6 +152,9 @@ m/px = 40.075.017 × cos φ ÷ (512 × 2^z)   ⚠️ 512, kmDanZoom'un 256'sı D
 · Çehrin: lehistan 1281→1678 tek blok, Kazak Hetmanlığı'nı (1648-78) yutuyor
 · Suceava ↔ Suçava 4,15 km — OWTRAD'ın kendi `hal:"supheli"` damgası
 · pskov (Vasili III / III. İvan) · lakota (`t:` bir katliam günü)
+· 🆕 KORİDOR — 3 düğümün koordinatı YOK, `KORIDOR_KENAR`ın 7 kenarını
+  ölçülemez kılıyor: `hasan-celebi` · `hasankale` · `karasu`
+  (HÜKÜM ALANI ölçtü, 4 Eylül)
 ```
 
 ## ⑥ ARAYÜZ
