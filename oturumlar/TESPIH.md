@@ -31,6 +31,42 @@ A2      çift koşu kilidi motorun içinde
 _KUS_BEKLENEN  8 ad → 159 (bayat fotoğraf tazelendi, büyüme atfedildi)
 ```
 
+### 🔴🔴 KOŞU 5 BİTİNCE **KAPI DURACAK** — BU BEKLENEN, VE ÇARESİ HAZIR
+
+⚠️ **BU BLOK BİR OTURUMUN BAĞLAMINDAN KURTARILDI.** Bilgi 4 Eylül gecesi
+yalnız koordinatörün kafasındaydı; `§7.1⑦` (*"sende kalan hiçbir bilgi
+kurtarılamaz"*) gereği buraya yazıldı. Koordinatör gece ölürse devralan
+bunu okuyup devam edebilsin.
+
+```
+NE OLACAK   zincir üretimi bitirecek, YAYIN KAPISI (denetle_yayin.py)
+            REDDEDECEK ve yayın YAPILMAYACAK.
+NİÇİN       data/altlik.js BAYAT — kaynağı `arac/uret_petek.py` 4 Eylül'de
+            değişti (R1 · R7 · _KUS_BEKLENEN) ve koşu `motor_kara.geojson`u
+            da yeniden yazıyor. Zincir `uret_altlik.py`yi KOŞMUYOR.
+```
+
+**ÇARE — sırayla, ~10 dakika:**
+```bash
+py arac/uret_altlik.py          # motor_kara.geojson → data/altlik.js
+py arac/uret_bekleyenler.py     # BEKLEYENLER.md    → data/bekleyenler.js
+py arac/denetle.py              # altı değişmez
+py arac/renk_olc.py             # veri değişti ⇒ ŞART (§9)
+py arac/denetle_yayin.py        # şimdi TEMİZ çıkmalı: taze 7 · bayat 0
+py arac/durum_tablosu.py --yaz
+py arac/surum_damgala.py
+git add -- data index.html && git commit -F <mesaj> && git push
+```
+
+🟢 **VE ZİNCİR KALICI OLARAK DÜZELTİLDİ** (`arac/kos_ve_yayinla.py`):
+`uret_altlik` + `uret_bekleyenler` adımları eklendi. Ama **çalışan süreç
+eski kodu yükledi**, yani bu düzeltme **bir sonraki koşudan** itibaren
+geçerli. Koşu 5 yine kapıda duracak.
+📌 Aynı arıza 4 Eylül sabahı koşu 4b'de de oldu ve üç üreteç elle koşuldu.
+Kapı doğru davrandı; eksik olan ZİNCİRDİ.
+
+---
+
 ### 🔴 KOŞU BİTİNCE — kabul ölçütleri ÖNCEDEN yazılı
 ```
 ① R1 SINAVI   py denetim/ARAC-DIKIS-0904-olc.py  (alet 4 Eylül'de kuruldu)
