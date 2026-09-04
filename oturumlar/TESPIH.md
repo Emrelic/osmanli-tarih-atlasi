@@ -69,7 +69,7 @@ altında yazılı.
 | # | iş | keskinlik | hedef | niçin bu sırada |
 |---|---|---|---|---|
 | 5 | **Koşu bitince yayın zinciri** | — | — | `denetle.py` → `renk_olc.py` → `durum_tablosu.py --yaz` → `surum_damgala.py` → push |
-| 6 | `serbest-hale` · `serbest-cekirdek` HİÇ yüklenmiyor | %0 | %100 | 🔴 MapLibre ifade hatası (4 konsol hatası) ⇒ **"serbest" topraklar haritada hiç çizilmiyor.** `js/app.js` SERBEST, küçük iş, görünür etki |
+| 6 | ✅ `serbest-hale` · `serbest-cekirdek` — **DÜZELTİLDİ** `61f6f60` · katman 39, ikisi de VAR | %100 | %100 | 🔴 MapLibre ifade hatası (4 konsol hatası) ⇒ **"serbest" topraklar haritada hiç çizilmiyor.** `js/app.js` SERBEST, küçük iş, görünür etki |
 | 7 | `KRONOLOJI_*` 18 küresel karşılıksız | %0 | %90 | 🔴 Yüklü kronoloji VAR, hiçbir künyeye bağlanmıyor: `cin · hindistan · japonya · misir · ozbek · anadolu · arabistan · sirbistan · balkan · orta_asya · guney_asya · dogu_afrika · kuzeyafrika · italya_sehir · iran_ardillari · atina_dukaligi · naksa_dukaligi · rodos_sovalyeleri`. **Veri zaten var, adres yanlış** — en ucuz kronoloji kazancı |
 | 8 | `tur` sözlük kayması | %0 | %100 | `toprak-kayip` 105 · `kayip` 7 · `toprak` 2 — aynı cinsin üç yazımı; `ic-savas` diye bir tür YOK (en yakını `bolunme` 70). Ölçüt aracını yanıltıyor |
 | 9 | Kronoloji dalga 2 — Okyanusya · Sibirya-bozkır · Orta Asya | %0 | %80 | 5 + 8 + 14 künye · şartname yazılacak |
