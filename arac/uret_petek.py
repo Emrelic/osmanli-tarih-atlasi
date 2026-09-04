@@ -1843,6 +1843,17 @@ asama("Örtü sadeleştirme (coverage_simplify)")
 # NOT: set_precision KULLANILMIYOR — ortak köşeler zaten bit düzeyinde aynı;
 # ızgaraya oturtma, üçlü kavşaklarda hücre başına farklı çökme yapıp bozuk
 # kenar üretiyordu (Maraş/Adana/Antakya kavşağında görüldü).
+# 🔴 VE BU GÜVENCE YALNIZ BU YOL İÇİN GEÇERLİ — 4 Eylül 2026'da ölçüldü.
+#    Buradaki hücreler `coverage_union_all` ile kurulur, yani köşeler
+#    GERÇEKTEN bit düzeyinde aynıdır. YABANCI HAVUZ (`DEV_HALKA`) öyle
+#    kurulmuyor: her devlet kendi dönemleri boyunca ayrı ayrı birleşiyor
+#    ve ortak sınır köşeleri bit düzeyinde AYRIŞIYOR.
+#    ⇒ Orada tam float eşitliği 96 parça / 9.046 km² dikiş boşluğu üretti
+#      (BULGU-GEOMETRI-0904, H-0001) ve `don_kose_kur` 1e-6 ızgaraya
+#      oturtularak düzeltildi (R1).
+#    📌 Bu satır bir kuralı değil bir KAPSAMI kaydeder: cümle doğruydu,
+#      GENELLENEBİLİR sanılması yanlıştı. Bir güvence, hangi yol için
+#      ölçüldüğünü söylemiyorsa okuyanı ölçüm yapmaktan alıkoyar.
 def _bozuk_liste(hucreler):
     """Bozuk kenarı olan hücrelerin (indis, kenar) listesi."""
     idx = [i for i, g in enumerate(hucreler) if g is not None and not g.is_empty]
@@ -3601,7 +3612,8 @@ def seyrelt(halka_hav, parca_hav, kayitlar, don_kose, tol):
     for _hi, r in enumerate(halka_hav):
         cs, run = [], []
         for q in r:
-            if tuple(q) in don_kose:
+            # R1 — uretecle AYNI kuanta (don_kose_kur, yukarida).
+            if (round(q[0], 6), round(q[1], 6)) in don_kose:
                 if len(run) > 2:
                     cs.extend([list(x) for x in
                                _LS(run).simplify(tol, preserve_topology=False).coords][:-1])
@@ -3645,7 +3657,15 @@ def don_kose_kur(*kaynaklar):
         for sahip, f, t, pix in refs:
             for pj in pix:
                 for hj in parca_hav[pj]:
-                    for q in set(map(tuple, halka_hav[hj])):
+                    # R1 — ORTAK IZGARA (4 Eylul 2026). Eskiden `set(map(tuple, ...))`
+                    # yani TAM FLOAT ESITLIGI idi; iki govde ayni siniri paylassa bile
+                    # koseleri bit duzeyinde ayni degilse HICBIRI donmuyordu.
+                    # Olculdu (BULGU-GEOMETRI-0904, H-0001): 1281 Avrupa'da 96 parca /
+                    # 9.046 km2 dikis boslugu — Riga ve Bohemya, Emre'nin gorselleri.
+                    # 🔴 TUKETICI DE AYNI KUANTAYI UYGULAR (`seyrelt`, asagida). Yalniz
+                    #    burayi degistirmek dondurma kumesini SESSIZCE bosaltir.
+                    for q in {(round(_qx, 6), round(_qy, 6))
+                              for _qx, _qy in halka_hav[hj]}:
                         kose.setdefault(q, []).append((sahip, f, t))
     out = set()
     for q, rs in kose.items():
