@@ -588,6 +588,81 @@
           "kaynak": "TDV `osman-b-fudi` — «1808: Alkalava'nın fethi»; TDV `sokoto` aynı yılı bağımsız olarak veriyor.",
           "⚠️ MEVCUT_SON_ILE_ILISKI": "Künyenin `son` maddesi de 1808-01-01'de ve fethin SONUCUNU kaydediyor; bu madde ÇARPIŞMAYI kaydediyor. Ayrı cinsler, mükerrer değil." }
       ]
+    },
+
+    {
+      "id": "asanti",
+      "ad": "Aşanti İmparatorluğu",
+      "bolge": "bati-afrika",
+      "mevcut_madde": 4,
+      "eklenen": [
+        { "t": "1826-01-01", "tur": "savas",
+          "b": "Aşanti baskısı altındaki Fante ve Ga kabilelerinin desteğini alan İngilizler Aşanti ordusunu geri püskürttü",
+          "kaynak": "Encyclopaedia Britannica, 'Asante empire' — «The British (with the help of tribes oppressed by the Asante, including the Fante and the Ga) beat the Asante back in 1826».",
+          "⚠️ GUN_YOK": "Kaynak YILI veriyor (1826)." },
+
+        { "t": "1874-01-01", "tur": "toprak-kayip",
+          "b": "Kumasi'nin yıkılmasının ardından güneybatı Gana Altın Sahili adıyla İngiliz sömürgesi hâline getirildi",
+          "kaynak": "TDV `gana` (200, gövde okundu) — «1874: Kumasi yıkıldı; güneybatı Gana Altın Sahili adıyla sömürge oldu»; Britannica 'Asante empire' bağımsız olarak «a British force under General Sir Garnet Wolseley … defeated the Ashanti army and burned their capital of Kumasi» diyor.",
+          "⚠️ MEVCUT_MADDEYLE_ILISKI": "Künyenin mevcut `savas` maddesi 1874-02-04'te ve GÜN taşıyor (Kumasi'nin yakılması). Bu madde aynı yılın SİYASÎ SONUCUNU (sömürge kuruluşu) kaydediyor ve TDV yalnız YIL verdiği için 1874-01-01'de. Mükerrer değil, ama birleştirici ikisini yan yana görsün." },
+
+        { "t": "1901-01-01", "tur": "isgal",
+          "b": "Aşanti toprakları İngiliz idaresine alındı",
+          "kaynak": "TDV `gana` — «1901: Aşanti toprakları İngiliz idaresi altına girdi»; ertesi yıl «1902: bugünkü Gana'nın tamamı İngiliz sömürgesi oldu». Britannica 'Asante empire' son adımı gün vererek doğruluyor: «Asante was formally declared a British crown colony on January 1, 1902».",
+          "⚠️ GUN_YOK": "TDV YIL veriyor (1901).",
+          "🟢 MEVCUT_SON_DOGRULANDI": "Künyenin `son` maddesi 1902-01-01'de ve Britannica onu GÜNÜYLE doğruluyor (1 Ocak 1902). MÜKERRER YAZMADIM." }
+      ],
+      "🔴 YAZMADIGIM_BIR_MADDE_VE_SEBEBI": {
+        "aday": "14 Haziran 1898 Paris Konvansiyonu — TDV `gana` gövdesinde GÜNÜYLE geçiyor: «İngiltere, Fransa ve Almanya arasındaki toprak anlaşmazlıklarını çözdü».",
+        "nicin_yazmadim": "Aşanti bu antlaşmanın TARAFI DEĞİL. Antlaşma üç Avrupa devleti arasında ve Aşanti'nin kendi tasarrufunu değil, komşularının paylaşımını düzenliyor. `CLAUDE.md §11`in «ATLAS SEFERİ DEĞİL TASARRUFU BOYAR» dersinin kronoloji tarafı: bir devletin kronolojisine, o devletin taraf olmadığı bir olayı yazmak onu var olmadığı bir masaya oturtur.",
+        "not": "Gün hassasiyetli ve cazip bir madde olurdu — o yüzden yazmama kararını AÇIKÇA kaydediyorum."
+      },
+      "🔴 KUNYE_KAYNAK_BEYANI_EKSIK": "Künyenin `kaynak` alanı «bulunamadı — TDV'de müstakil maddesi yok» diyor. Bu DOĞRU (`asante` slug'ı 302, ölçtüm) ama EKSİK: TDV `gana` (200) Aşanti'yi 1874 · 1898 · 1901 · 1902 tarihleriyle KAPSIYOR. §4'ün «dar slug tutmazsa KAPSAYICIYI dene» kuralı burada uygulanmamış. Künyeye DOKUNMADIM; öneri: `kaynak` alanı `gana`ya bağlansın."
+    },
+
+    {
+      "id": "dahomey",
+      "ad": "Dahomey Krallığı",
+      "bolge": "bati-afrika",
+      "mevcut_madde": 3,
+      "eklenen": [
+        { "t": "1818-01-01", "tur": "hukumdar",
+          "b": "Kral Gezo tahta çıktı ve kırk yıl süren saltanatı başladı",
+          "kaynak": "TDV `benin` (200, gövde okundu) — hükümdar listesi: «1818-1858: Kral Gezo».",
+          "⚠️ GUN_YOK": "Kaynak saltanat ARALIĞI veriyor; başlangıç yılı alındı." },
+
+        { "t": "1851-01-01", "tur": "antlasma",
+          "b": "Fransa ile Kral Gezo arasında antlaşma imzalandı",
+          "kaynak": "TDV `benin` — «1851: Fransa ile Gezo arasında antlaşma».",
+          "⚠️ GUN_YOK": "Kaynak YILI veriyor (1851)." },
+
+        { "t": "1858-01-01", "tur": "hukumdar",
+          "b": "Kral Glélé tahta çıktı",
+          "kaynak": "TDV `benin` — «1858-1889: Kral Glélé».",
+          "⚠️ GUN_YOK": "Saltanat aralığının başlangıç yılı." },
+
+        { "t": "1868-01-01", "tur": "antlasma",
+          "b": "Mayıs 1868'de Kotonu Antlaşması imzalandı",
+          "kaynak": "TDV `benin` — «Mayıs 1868: Kotonu Antlaşması».",
+          "🔴 HASSASIYET_NOTU": "TDV AY veriyor (Mayıs 1868); ölçüt ay hassasiyetini yasakladığı için `1868-01-01` yazıldı, ay `b` içinde." },
+
+        { "t": "1882-01-01", "tur": "toprak-kayip",
+          "b": "Fransa Porto Novo ve Kotonu üzerinde himaye kurdu",
+          "kaynak": "TDV `benin` — «1882: Fransa Porto Novo ve Kotonu üzerinde himaye kurdu».",
+          "⚠️ GUN_YOK": "Kaynak YILI veriyor (1882)." },
+
+        { "t": "1893-01-01", "tur": "savas",
+          "b": "Fransız birlikleri başşehir Abomey'e girerek Kral Behanzin'in iktidarına son verdi",
+          "kaynak": "TDV `benin` — AYNEN «1893'te Dahomey Krallığı'nın merkezi Abomey'e giren Fransız birlikleri Kral Behanzin'in iktidarına son vererek»; aynı gövde «1906: Kral Behanzin sürgünde öldü» diyor.",
+          "🔴 KUNYEYLE_BIR_YIL_FARK": "Künyenin `t:` değeri ve mevcut `son` maddesi **1894**'ü gösteriyor («Fransa, Kral Béhanzin'i yenip krallığı sömürgeye dönüştürdü»). TDV **1893** diyor. Bir yıl fark var: Abomey'in düşüşü (1893) ile sömürgenin resmen kurulması (1894) AYRI olaylar OLABİLİR — bu ihtimal gerçektir ama BUNU ÖLÇEMEDİM. Rakip bir `son` maddesi YAZMADIM; bu madde `savas` cinsinde ve künyeye dokunmuyor." }
+      ],
+      "🔴🔴 YENI_TDV_TUZAGI_OLCULDU": {
+        "bulgu": "`dahomey` slug'ı **200** döndü — ama madde DEĞİL. Gövdenin tamamı tek satır: «bk. BENİN — Batı Afrika'da İslâm Konferansı Teşkilâtı üyesi olan bir ülke.» Yani CANLI bir YÖNLENDİRME KÜTÜĞÜ.",
+        "nicin_yeni": "`§4`ün dört tuzağının hiçbiri bu değil: ① ölü slug (302) · ② canlı slug yanlış madde (gövde DOLU ama başka konu) · ③ canlı slug BOŞ gövde · ④ boilerplate (gövde HİÇ gelmez). Burada gövde geliyor, boş değil, yanlış konu da değil — bir ADRES. Bir HTTP taraması bunu «CANLI» diye sayar ve «TDV Dahomey'i kapsıyor» hükmü çıkarılır.",
+        "🟢 VE_YONLENDIRME_DOGRUYU_GOSTERDI": "«bk. BENİN»i izledim: TDV `benin` (200) modern Benin Cumhuriyeti'ni anlatıyor — yani Dahomey'in ardılı — ve Dahomey kronolojisini hükümdar listesiyle, antlaşmalarıyla KAPSIYOR. Yukarıdaki altı madde oradan geldi.",
+        "⚠️ VE_AYNI_SLUG_BASKA_BIR_KUNYE_ICIN_YANLIS_OLURDU": "TDV `benin` MODERN BENİN'dir, Nijerya'daki BENİN KRALLIĞI değil. `benin-kralligi` künyesi için bu slug §4 ② tuzağının ta kendisi olurdu. Onu KULLANMADIM ve o künyeye bu turda madde YAZMADIM."
+      },
+      "🔴 KUNYE_KAYNAK_BEYANI_EKSIK": "Künyenin `kaynak` alanı «bulunamadı — TDV'de müstakil maddesi yok» diyor. MÜSTAKİL madde gerçekten yok (slug bir yönlendirme kütüğü) — yani beyan teknik olarak DOĞRU. Ama pratikte yanıltıyor: TDV Dahomey'i `benin` maddesinden KAPSIYOR. Künyeye DOKUNMADIM; öneri: `kaynak` `benin`e bağlansın."
     }
   ],
 
