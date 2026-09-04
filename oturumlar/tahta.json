@@ -78756,5 +78756,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2672",
+  "zaman": "2026-09-04 19:50",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "KOSUYU BEN BASLATIYORUM · renk cozumu 11 kimlik · ~2-5 dk NE: py arac/renk_olc.py --oner sardinya,teke,teodoro,isa-celebi, ramazanoglu,aydin,farukiler,musa-celebi,karaman,inancogullari,siena NICIN: \"YAKIN AMA DEGMEYEN\" kovasindaki 12 IHLAL (ΔE<12 · eszamanli · 600 km'den yakin). Bunlar Voronoi komsusu DEGIL ama ayni ekranda yan yana duruyorlar — `§11`: \"iki govde degmeden de ayni ekranda yan yana durur.\" 3.34 451 km hollanda ↔ sardinya 1581-1861 3.44 284 km ceneviz ↔ teke 1321-1423 5.06 450 km eflak ↔ teodoro 1349-1475 5.80 569 km isa-celebi ↔ memluk 1402-1403 6.28 598 km ramazanoglu ↔ sovalye 1352-1516 6.97 365 km aydin ↔ sirbistan 1308-1425 10.16 430 km farukiler ↔ gond 1370-1601 10.72 132 km musa-celebi ↔ napoli 1410-1413 11.04 94 km bizans ↔ karaman 1281-1473 11.78 110 km inancogullari ↔ sovalye 1310-1368 11.92 324 km avusturya ↔ siena 1281-1555 SECIM KURALI: her ciftin DAHA AZ CAPALI olani cozuluyor. Dokunulmayanlar: hollanda · ceneviz · eflak · memluk · sovalye · sirbistan · gond · napoli · bizans · avusturya. 🔴 ONBIRINCI DEGIL ONIKINCI CIFT KASTEN DISARIDA: `bizans ↔ bosna` (11.41) Emre'nin karari. Cozucu `bosna` icin `#246cd2` oneriyor ve mesru (dE-deniz 19.76 > 18) AMA yon TERS: bugunku 35.18'den denize YAKLASIYOR, ve sikayet tam o eksende. Uc sik ona sunuldu, ben secmedim. Kosu bitince `renk_olc` yeniden olculecek; \"azaldi\" YETMEZ, kalan her cift olculerek mesru gosterilecek.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
