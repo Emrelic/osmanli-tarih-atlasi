@@ -3731,3 +3731,90 @@ OKUMADIM     aramadım bile               → kalem HİÇ AÇILMADI
   geliyor.
   ⇒ Kural önce doğruyu kaybettirdi gibi göründü; sonra aynı kural onu
   **dayanaklı** hâle getirdi. ***Kaybolan şey gün değil, gerekçesizlikti.***
+
+- 🔴 **BİR BULGUNUN SAHİBİ, BULGUNUN KENDİSİ KADAR KAYITTIR.**
+  *(4 Eylül 2026 · koordinatörün hatası, ve düzelten MAL EDİLEN taraf oldu)*
+
+  Koordinatör bir kapanış notunda üç düzeltmeyi tek oturuma mal etti.
+  Oturum itiraz etti ve **ikisinin kendisine ait olmadığını** gösterdi:
+```
+"18+7 → 20+5"        KRONOLOJİ GÜNEY AMERİKA'nın
+deniz ölçümü (0→21)  PAKET RENK 0904'ün — ve koordinatör onu o oturuma
+                     UYARI olarak kendisi iletmişti, sonra kendi ilettiği
+                     şeyi ona MAL ETTİ
+payda (161→147)      ✅ gerçekten onun
+```
+  > *"Ölçmediğimi «ölçtüm» diye kaydettirmem."*
+
+  ⇒ Bu, `§11`in *"ölçmediğini `ölçmedim` diye yaz"* kuralının **aynası**, ve
+  iki hata aynı sınıf:
+```
+ölçmediğini ölçtüm sanmak       → yanlış BİLGİ
+ölçmediğini kendine mal etmek   → yanlış KAYIT
+```
+  🔴 **Ve bedeli nezaket değil, izlenebilirlik:** yarın biri *"deniz
+  ölçümünü kim çürüttü"* diye sorarsa yanlış oturuma gider ve **gerçekten
+  çürüten oturumun kaydı silinmiş olur.** Bir sonraki koordinatör o kaydı
+  okuyup yanlış oturumu çağırır.
+
+  ⚠️ Aynı turda ikinci bir ölçülmemiş sayı da geri çekildi: koordinatör
+  *"bugün beni yedi kez düzelttiler"* demişti — **o sayıyı da saymamıştı.**
+  Sayınca en az on çıktı. ⇒ *Bir başarı sayısı da bir ölçümdür.*
+
+- 🔴🔴 **YAYIN, VERİNİN BEŞ PARTİ GERİSİNDE — VE HİÇBİR DENETİM BUNU
+  SORMUYORDU.** *(4 Eylül 2026 · `PAKET GEOMETRİ 0904` ölçtü)*
+```
+girdi 3805 nokta · yayındaki geometri 2731 petek · PETEĞİ OLMAYAN 1074 (%28,2)
+  yerlesimler_afrika2.js  401/401  %100     kamerika  377/377  %100
+  okyanusya               118/118  %100     gamerika  112/112  %100
+  sibirya2                 64/64   %100     yerlesimler.js 2/792
+⇒ 1074'ün 1072'si (%99,8) BEŞ TAM PARTİ. Sebep ZAMAN değil PARTİ.
+```
+  ⇒ **Yayındaki harita Amerika'nın, Okyanusya'nın ve Sibirya-2'nin HİÇBİR
+  noktasını çizmiyor.** Veri var, harita çizmiyor.
+
+  📌 Ve bu, Emre'nin *"Kuzey Amerika · Güney Amerika · Sahra altı Afrika ·
+  Avustralya-Mikronezya-Yeni Gine · Sibirya… tüm bu yerlerdeki devletler,
+  şehirler, kronolojiler tam mı?"* sorusunun cevabının **yarısı** — ve
+  kimse *"veri tam mı"* ile *"harita çiziyor mu"* sorularını ayrı
+  sormamıştı.
+
+  ⚠️ Bu bir **kusur değil bir GECİKME** (`§11`: *"çıktı girdinin bir tur
+  gerisindedir"*) — ama gecikme **beş partilik** olduğunda ve kimse ölçmediğinde
+  kusurdan ayırt edilemez hâle geliyor. Tek bir vaka (`Cânet`in peteği yok)
+  bir kullanıcı şikâyeti olarak geldi; arkasındaki 1074 ancak **oran
+  sorulunca** göründü.
+  🟢 Sınavı hazır (`peteksiz.js`): koşu inince peteksiz oran **%100 → %0**
+  olmalı, `PETEKLER` 2731 → ~3800.
+
+- 🔴 **ÇOK PARÇALI BİR İLİŞKİYİ TEK SAYIYA İNDİREN ÖLÇÜ, KUSURU ALT SINIR
+  OLARAK GÖSTERİR.** *(4 Eylül 2026 · aleti yazan oturum kendi çürüttü)*
+
+  Gövde–gövde boşluğu ölçen alet mesafeyi **tek bir sayı** olarak alıyordu.
+  Bir çift bir yerde değiyorsa mesafe `0`; başka bir dikişte 5 km açık olsa
+  bile *"DEĞEN"* sayılıyor.
+```
+KUTU A ölçümü       almanya ↔ macaristan = 5,245 km AÇIK
+küresel ölçüm       aynı çift            = DEĞEN (0 km)
+```
+  🔴 Ve kanıt **aynı raporun içindeydi.** ⇒ *"17 çift"* kusurun ölçüsü
+  değil, bir **ALT SINIR**; doğru evren çift değil **dikiş parçası**.
+  🟢 Düzeltilmiş ölçü üç aileyi ayırdı ve üçünün çaresi ayrı:
+```
+DİKİŞ         95 parça ·  15.526 km²   ≤8 km · 2+ gövde
+KIYI KENARI 2.159 parça ·  85.765 km²  ≤8 km · ≤1 gövde   🆕 5,5 KAT büyük
+KAPSAMA        19 parça · 127.232 km²  >8 km
+```
+  ⚠️ Ve niçin ayrılmaları gerektiğini oturumun kendisi yazdı: *"üçü tek
+  satırda raporlansaydı aynı çare uygulanırdı — dikişi kapatır, kıyı
+  kenarına HİÇBİR ŞEY yapmaz, ve «boşluk çözüldü» sanılırdı."*
+
+  📌 Mesafe bir **minimum** alır; kusur bir **maksimum** meselesidir. Bir
+  ölçünün yanlış olması gerekmiyor — **yanlış yönde özetlemesi** yetiyor.
+
+- 🟢 **AYNI SAYININ TEKRAR ETMESİ, İLK ÖNCE ALETTEN ŞÜPHELENDİRİR.**
+  Üç kesitte de boşluklu çift sayısı **17** çıktı. Oturum bunu bulgu
+  saymadı, **sorguladı**: *"aynı sayı üç kez çıkınca ilk şüphelenilmesi
+  gereken şey ALETİN kendini tekrarlamasıdır."* Ölçtü — üç kesitte ortak
+  olan yalnız **3 çift**, gerisi kesite özgü.
+  ⇒ ***Aynı sayı ≠ aynı vaka.***
