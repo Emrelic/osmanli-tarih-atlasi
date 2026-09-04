@@ -1,0 +1,141 @@
+{
+ "oturum": "KRONOLOJI BATI AFRIKA 2",
+ "damga": "2026-09-05",
+ "not": "YAMA dosyasi -- data/devletler.js'e DOKUNMADIM (kosu canli, CLAUDE.md S7). 'eklenen' listesi mevcut kronoloji dizisine EKLENECEK yeni maddelerdir, var olan hicbir kayit degistirilmedi/silinmedi.",
+ "kunyeler": [
+  {
+   "id": "colof",
+   "eklenen": [
+    {"t": "1549-01-01", "tur": "bolunme", "b": "Danki Muharebesi'nde Buurba Leele Fuli Fak öldürüldü; Cayor başta olmak üzere Baol, Sine, Salum, Vuli, Niani ve Valo bağımsızlığını kazandı, Jolof küçük bir iç krallığa indirgendi", "kaynak": "bulunamadı (TDV) — standart akademik kaynak: Danki Muharebesi (1549) Batı Afrika tarihyazımında standart, çok kaynaklı bir olay (bkz. Cambridge History of Africa; Boubacar Barry, Senegambia and the Atlantic Slave Trade). Çevrimiçi ikincil kaynaklarla (Wikipedia 'Battle of Danki', 'Kingdom of Jolof') çapraz kontrol edildi."},
+    {"t": "1875-01-01", "tur": "hukumdar", "b": "Alboury Ndiaye, Jolof'un son Buurbası olarak tahta çıktı (1890'a kadar hüküm sürdü)", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla (Wikipedia 'Alboury Ndiaye', 'Kingdom of Jolof') çapraz doğrulandı; künyenin kendi 'son' maddesiyle (1890) tarih uyumlu."}
+   ]
+  },
+  {
+   "id": "sine-salum",
+   "eklenen": [
+    {"t": "1853-01-01", "tur": "hukumdar", "b": "Kumba Ndoffene Famak Joof, Sine tahtına (Maad a Sinig) çıktı", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla (Wikipedia 'Kumba Ndoffene Famak Joof') doğrulandı."},
+    {"t": "1867-07-18", "tur": "savas", "b": "Fandane-Thiouthioune Muharebesi'nde Sine kuvvetleri, Maba Diakhou Bâ önderliğindeki müslüman marabu ordusunu yendi; Maba öldürüldü", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, GÜN hassasiyeti (18 Temmuz 1867) çevrimiçi ikincil kaynaklarla ('Battle of Fandane-Thiouthioune') doğrulandı."}
+   ]
+  },
+  {
+   "id": "valo",
+   "eklenen": [
+    {"t": "1846-10-01", "tur": "hukumdar", "b": "Ndaté Yalla Mbodj, Nder'de Valo'nun Lingeer'i (kraliçesi) olarak taç giydi", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, GÜN hassasiyeti (1 Ekim 1846) çevrimiçi ikincil kaynaklarla ('Ndaté Yalla Mbodj') doğrulandı."},
+    {"t": "1855-02-25", "tur": "savas", "b": "Dioubouldou Muharebesi'nde Fransız kuvvetleri (Faidherbe) Valo-Trarza ittifakını yendi; bu yenilgi krallığın ilhakıyla aynı güne denk düşüyor", "kaynak": "bulunamadı (TDV) — standart akademik kaynak; künyenin kendi 'son' tarihiyle (1855-02-25) BİREBİR örtüşüyor — aynı muharebenin iki yüzü (savaş + siyasi son)."}
+   ]
+  },
+  {
+   "id": "futa-toro",
+   "eklenen": [
+    {"t": "1786-01-01", "tur": "savas", "b": "Almamy Abdül Kâdir Kân'ın Cayor seferi, Damel Amari Ngoné Ndella Coumba Fall karşısında yenilgiyle sonuçlandı", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Abdul Kader (almami)') doğrulandı."},
+    {"t": "1807-04-04", "tur": "hukumdar", "b": "Almamy Abdül Kâdir Kân, Jâgodo grubunun düzenlediği bir suikast sonucu öldürüldü", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, GÜN hassasiyeti (4 Nisan 1807) çevrimiçi ikincil kaynaklarla doğrulandı; bazı ikincil kaynaklar 1806 da veriyor, çoğunluk 1807'de birleşiyor — ÇELİŞKİ AÇIKÇA not edildi."}
+   ]
+  },
+  {
+   "id": "kayor",
+   "eklenen": [
+    {"t": "1868-10-26", "tur": "savas", "b": "Dekheulé Muharebesi'nde Fransız kuvvetleri Damel Lat Dior'u yendi (Dakar-Saint-Louis demiryoluna direniş)", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, GÜN hassasiyeti (26 Ekim 1868) çevrimiçi ikincil kaynaklarla ('French conquest of Senegal') doğrulandı."},
+    {"t": "1871-01-01", "tur": "hukumdar", "b": "Lat Dior, Fransızlarla anlaşarak sınırlı özerklikle Damel olarak yeniden tahta döndü", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla doğrulandı."}
+   ]
+  },
+  {
+   "id": "mossi-vagadugu",
+   "eklenen": [
+    {"t": "1441-01-01", "tur": "hukumdar", "b": "Naaba Zoungrana'nın oğlu Oubri (Wubri), Wogdogo'yu (Vagadugu) kurup Mossi hükümdarlarının (Mogho Naba) daimi merkezi yaptı", "kaynak": "TDV burkina-faso (bu turda okundu: 'oğlu Oubri de Uagadugu bölgesini ülkesine katarak devleti güçlendirdi') + standart akademik kaynak (GÜN/yıl hassasiyeti 1441, çevrimiçi ikincil kaynaklarla — 'Timeline of Ouagadougou' — çapraz doğrulandı)."},
+    {"t": "1890-01-01", "tur": "hukumdar", "b": "Wobgho (Wobogo), Vagadugu'nun Mogho Naba'sı olarak tahta çıktı; Fransız ve İngiliz nüfuzuna karşı direniş siyaseti izledi", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Wobgho', Mogho Naba 1890-1897) doğrulandı."}
+   ]
+  },
+  {
+   "id": "gurma",
+   "eklenen": [],
+   "not_kaynak": "ÖLÇÜLEMEDİ — kurulus (1281) ve son (1897) dışında GÜN/YIL hassasiyetli, doğrulanabilir üçüncü bir olay bulamadım. TDV `burkina-faso` gövdesi Gurma'yı yalnız 1897 fethiyle anıyor; akademik taramada (Britannica 'Gurma', Wikipedia 'Fada N'Gourma') hükümdar isimleri var ama TARİHSİZ. Kaynak bu tanecikte SUSUYOR — uydurmadım, `2/4` bırakıyorum."
+  },
+  {
+   "id": "jukun-kvararafa",
+   "eklenen": [
+    {"t": "1653-01-01", "tur": "savas", "b": "Kvararafa (Jukun) orduları Kano'ya ilk büyük saldırısını düzenledi", "kaynak": "bulunamadı (TDV) — standart akademik kaynak (Kano Chronicle'a dayanan tarihyazımı), çevrimiçi ikincil kaynaklarla ('Kwararafa Confederacy') doğrulandı."},
+    {"t": "1673-01-01", "tur": "savas", "b": "Kvararafa orduları Kano'ya ikinci kez saldırıp şehri bu sefer ele geçirdi; aynı on yılda Katsina'ya da saldırıp Zaria'yı yağmaladılar", "kaynak": "bulunamadı (TDV) — standart akademik kaynak (Kano Chronicle), çevrimiçi ikincil kaynaklarla doğrulandı."}
+   ]
+  },
+  {
+   "id": "nijer-deltasi",
+   "eklenen": [
+    {"t": "1841-01-01", "tur": "antlasma", "b": "Efik reisleri (Eski Kalabar) İngiltere ile Atlantik köle ticaretini durdurma antlaşmaları imzalamaya başladı (1841-42)", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla doğrulandı. Yıl kesinliği: kaynak '1841-42' aralığı veriyor, gün/ay bilinmiyor — YYYY-01-01 kalıbı bilerek kullanıldı."},
+    {"t": "1852-01-01", "tur": "hukumdar", "b": "Bonny Kralı Dappa Pepple, İngiliz tüccarlara yönelik saldırılar düzenlemekle suçlanıp Fernando Po'ya sürgün edildi", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Oko Jumbo', Niger Delta tarihi) doğrulandı."}
+   ]
+  },
+  {
+   "id": "aro-konfederasyonu",
+   "eklenen": [
+    {"t": "1901-11-28", "tur": "savas", "b": "İngiliz kuvvetleri (Montanaro komutasında) dört koldan Arochukvu üzerine Aro Seferi'ni başlattı", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, GÜN hassasiyeti çevrimiçi ikincil kaynaklarla ('Anglo-Aro War') doğrulandı."},
+    {"t": "1901-12-28", "tur": "savas", "b": "Arochukvu İngiliz kuvvetlerince ele geçirildi; direniş 1902 baharında Bende'deki son büyük çarpışmaya kadar sürdü", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, GÜN hassasiyeti çevrimiçi ikincil kaynaklarla doğrulandı; künyenin kendi 'son' tarihi (1902-03-01) Bende sonrası genel çöküşe denk düşüyor."}
+   ]
+  },
+  {
+   "id": "damagaram",
+   "eklenen": [
+    {"t": "1736-01-01", "tur": "kurulus", "b": "Kanuri aristokratları Zinder'de Birni mahallesini kurup şehri Damagaram Sultanlığı'nın başkenti ilân etti", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Sultanate of Damagaram') doğrulandı. Künyenin kendi kuruluşu (1731, Mallam Yunus) ile 1736 (başkentin kuruluşu) FARKLI ama İLİŞKİLİ iki olay — ikisi de kaynakta ayrı ayrı geçiyor."}
+   ],
+   "not_kaynak": "İKİNCİ bir tarihli olay (ör. Tanimoune Dan Süleyman'ın bağımsızlık ilanı) YIL VERİLMEDEN ('19. yüzyıl ortası-sonu') geçiyor — GÜN UYDURMAMAK için eklemedim. 3/4 bırakıyorum."
+  },
+  {
+   "id": "dagbon",
+   "eklenen": [
+    {"t": "1416-01-01", "tur": "hukumdar", "b": "Naa Nyagsi tahta çıkıp Yani Dabari'de (Diyali/Tamale yakını) merkezî bir siyasi teşkilat kurarak Dagbon devletini istikrara kavuşturdu", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla (Naa Nyagsi, 1416-1432) doğrulandı."}
+   ],
+   "not_kaynak": "İKİNCİ yeni olay bulunamadı — Dagbon'un iç hükümdar listesi bol ama çoğu kaynakta YILSIZ (yalnız sıralama var). 3/4 bırakıyorum, uydurmadım."
+  },
+  {
+   "id": "gonja",
+   "eklenen": [],
+   "not_kaynak": "ÖLÇÜLEMEDİ — kaynaklar Gonja'nın kuruluş yılında BİRBİRİYLE ÇELİŞİYOR (1546 Askia Muhammed göçü / ~1600 erken Jakpa / 1675 bazı kaynaklarda) ve künyenin kendi kurulus'u (1550) hangisine dayandığı belirsiz. Çelişkili bir tarihi YENİ MADDE olarak eklemek yanlış kesinlik üretir (`CLAUDE.md §4` sahte kesinlik uyarısı) — eklemedim. 2/4 bırakıyorum."
+  },
+  {
+   "id": "borgu",
+   "eklenen": [],
+   "not_kaynak": "ÖLÇÜLEMEDİ — Borgu'nun kuruluş anlatısı (Kisra efsanesi) TARİHSİZ/EFSANEVİ (bazı kaynaklar 7. yüzyıl, bazıları 15. yüzyıl diyor, tarihçiliği tartışmalı). 1898 Anglo-Fransız paylaşımı zaten 'son' maddesi. Sağlam üçüncü bir GÜN/YIL bulamadım. 2/4 bırakıyorum."
+  },
+  {
+   "id": "kong-vattara",
+   "eklenen": [
+    {"t": "1744-01-01", "tur": "hukumdar", "b": "Kurucu Seku Vattara (Seku Umar Watara) öldü; 34 yıllık hükümdarlığı boyunca Kong'u Batı Afrika'nın önemli bir ticaret ve İslâm ilim merkezi hâline getirmişti", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Kong Empire', 'Seku Watara') doğrulandı."}
+   ],
+   "not_kaynak": "3/4 bırakıyorum — ikinci bir ara olay (1897 dışında) bulunamadı."
+  },
+  {
+   "id": "ibadan",
+   "eklenen": [
+    {"t": "1840-01-01", "tur": "savas", "b": "İbadan, Osogbo Muharebesi'nde İlorin Emirliği'ni kesin biçimde yenerek Yoruba ardıl devletleri arasında askerî üstünlüğünü kanıtladı", "kaynak": "bulunamadı (TDV) — standart akademik kaynak; GÜN kesinliği YOK, kaynaklar 1838-1840 arasında değişiyor (çelişki AÇIKÇA not edildi), YYYY-01-01 kalıbı bilerek kullanıldı."},
+    {"t": "1862-01-01", "tur": "savas", "b": "İbadan, İngiliz ve Remo desteğiyle Ijaye'yi (Kurunmi'nin başkenti) ele geçirdi; İbadan-İjaye Savaşı (1860-1862) sona erdi", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla doğrulandı."}
+   ]
+  },
+  {
+   "id": "moritanya-emirlikleri",
+   "eklenen": [
+    {"t": "1673-01-01", "tur": "savas", "b": "Şürbûbe Savaşı (Char Bouba, 1673-1677) başladı: Nasr ed-Dîn önderliğindeki Sanhâce Berberîleri ile Benî Hassân Arap kabileleri çatıştı; sonucu Trarza ve Brakna emirliklerinin siyasî temelini güçlendirdi", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Char Bouba war') doğrulandı."}
+   ],
+   "not_kaynak": "3/4 bırakıyorum — ikinci bir GÜN hassasiyetli olay bulamadım."
+  },
+  {
+   "id": "futa-callon",
+   "eklenen": [
+    {"t": "1751-01-01", "tur": "hukumdar", "b": "Kurucu Karamoko Alfa öldü, yerine kuzeni İbrahima Sori geçip Fûlânî askerî otoritesini pekiştirdi", "kaynak": "TDV gine (bu turda okundu, kurulus maddesinde İbrâhim Mûsâ/Karamoko Alfa adı geçiyor) + standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Karamokho Alfa', 'Ibrahima Sori') doğrulandı."}
+   ],
+   "not_kaynak": "3/4 bırakıyorum — akademik kaynaklar cihadın asıl zaferini (Talansan Muharebesi) 1727'ye tarihliyor, yani künyenin kendi kurulus'undan (1747) ÖNCE; künye aralığının dışına düşen bir olayı eklemek tarih tutarsızlığı yaratacağından EKLEMEDİM, yalnız bunu BİLDİRİYORUM — künye sahibinin f: 1747'yi gözden geçirmesi gerekebilir."
+  },
+  {
+   "id": "bundu",
+   "eklenen": [
+    {"t": "1699-01-01", "tur": "hukumdar", "b": "Kurucu Mâlik Sî, Gajaaga ordusunun düzenlediği bir pusuda öldürüldü", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Malick Sy') doğrulandı."}
+   ],
+   "not_kaynak": "3/4 bırakıyorum — 'Bokar Saada' gibi sonraki hükümdarlar için GÜN/YIL hassasiyetli ikinci bir olay bulamadım."
+  },
+  {
+   "id": "eve-notse",
+   "eklenen": [
+    {"t": "1700-01-01", "tur": "isyan", "b": "Kral Agorkoli'nin baskıcı yönetimine karşı Eve halkı Notse surlarını yarıp Togo ve Gana'nın güneyine dağıldı ('Notse'den Çıkış')", "kaynak": "bulunamadı (TDV) — standart akademik kaynak; GÜN kesinliği YOK, kaynaklar 'Agorkoli 1670-1720' aralığı veriyor, kesin çıkış yılı belirsiz — YYYY-01-01 kalıbı BİLEREK, belirsizlik AÇIKÇA yazılarak kullanıldı."}
+   ],
+   "not_kaynak": "3/4 bırakıyorum."
+  }
+ ]
+}
