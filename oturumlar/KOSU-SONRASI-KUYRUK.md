@@ -93,6 +93,20 @@ Sonra **gözle sınanacak** — bütün sayılar hesaptan, hiçbiri çizilmedi.
 📌 ①② *"eksik ölçtüm"* der, ② ayrıca *"yanlış yöne eksik ölçtüm"* der.
 Bir sonraki oturum bu sayıların üstüne inşa etmeden önce ikisini de görsün.
 
+
+### 🔴 AÇIK KALEM — HARMAN AYRIŞMASI (4 Eylül, ölçüldü, kapatılmadı)
+
+`renkler._bindirilmis_lab` harmanı **8 bite yuvarlıyor**, `renk_olc.bind`
+**float bırakıyor**. Aynı renk için iki farklı Lab ⇒ eşik sınırındaki
+kimliklerde biri uyarır, öteki uyarmaz (`ispanya` 14,98 / 15,08).
+Doğru olan yuvarlayan taraf: ekran 8 bit.
+```
+denendi → FLOAT 0/0/1  ·  YUVARLI 1/10/7   ⇒ etki BEKLENENDEN BÜYÜK
+geri alındı · sebep ÖLÇÜLMEDİ · kalem AÇIK
+```
+Sıradaki oturum önce **niçin 10 çakışma doğduğunu** ölçsün: `bind()`in
+bütün çağrı yolları aynı ölçekte veri mi alıyor?
+
 ## ④ MOTOR — `PAKET GEOMETRİ 0904`ün reçeteleri
 `denetim/BULGU-GEOMETRI-0904.md` — 14 reçete, her biri **kendi testiyle**.
 🔴 Uygulayan oturum **testi geçirmeden kapatmasın.**
