@@ -52,6 +52,28 @@ import json, os, sys, io, math, re, time
 # aktığında bilançodur.
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8",
                               errors="replace", line_buffering=True)
+
+# ══════════════════════════════════════════════════════════════════════
+# 🔒 ÇİFT KOŞU KİLİDİ — A2 (`denetim/BULGU-GEOMETRI-0904.md`)
+# ══════════════════════════════════════════════════════════════════════
+# Kilit `arac/kos_ve_yayinla.py`de VARDI ama ZİNCİRİN kilidiydi: motoru
+# doğrudan (`py arac/uret_petek.py`) başlatan biri onu HİÇ görmüyordu.
+# 🔴 Ve o kilidin kendisinde ÖLÇÜLMÜŞ bir delik var: eskime tavanı
+#    `yas < 240` (4 saat) — koşu 4b **16 saat 09 dakika** sürdü. Dördüncü
+#    saatten sonra başlatılan bir koşu kilidi "takılmış" sayıp DEVRALIRDI.
+#    Tavan bir TAHMİNDİ; ölçüm onu çürüttü. Yeni kilit YAŞA değil SÜREÇ
+#    CANLILIĞINA bakıyor (`arac/kosu_kilit.py`).
+# 📌 Ayrı modülde durmasının sebebi sınanabilirlik: bu dosya içe
+#    aktarılamaz (yukarıdaki `RuntimeError`), yani buraya gömülen bir kilit
+#    ancak 16 saatlik bir üretim başlatılarak denenebilirdi — yani hiç
+#    denenmezdi. Modül `C13`ün dört ayağıyla ayrıca sınandı: 12/12.
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import atexit
+import kosu_kilit as _KILIT
+if not _KILIT.al("petek"):
+    sys.exit(1)
+atexit.register(_KILIT.birak, "petek")
+
 import shapely
 from shapely.geometry import (shape, box, Polygon, MultiPolygon, Point, MultiPoint,
                               LineString, MultiLineString)
