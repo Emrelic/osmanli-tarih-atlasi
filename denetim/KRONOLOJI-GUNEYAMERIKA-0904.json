@@ -12,7 +12,13 @@
     "EB-VE": "Encyclopaedia Britannica, 'Venezuela — The independence movement' (Jennifer L. McCoy & Britannica Editors, 3 Eyl 2026 rev.) — govde TARAYICIDAN OKUNDU, alintilar AYNEN.",
     "EB-UY": "Encyclopaedia Britannica, 'Uruguay — The struggle for national identity' (Martin Weinstein & Britannica Editors, 29 Agu 2026 rev.) — govde TARAYICIDAN OKUNDU, alintilar AYNEN.",
     "EB-BR": "Encyclopaedia Britannica, 'Brazil — The collapse of the empire' (E. Bradford Burns & Britannica Editors, 3 Eyl 2026 rev.) — govde TARAYICIDAN OKUNDU, alintilar AYNEN.",
-    "_HASSASIYET_KURALI": "KALEM 3'te GERIYE DONUK uygulandi: 'hassasiyet kaynagi asamaz' ve 'kunyenin f: gunu bir KAYNAK DEGILDIR' (koordinator hukmu). Kalem 2'de kunyenin GUNUNE yazilmis 10 madde, kaynagin hassasiyetine INDIRILDI ve her birinde ne yapildigi kaynak alaninda YAZILI. Kunyeler DEGISTIRILMEDI — data/ donmus ve koordinatorde."
+    "_HASSASIYET_KURALI": "KALEM 3'te GERIYE DONUK uygulandi: 'hassasiyet kaynagi asamaz' ve 'kunyenin f: gunu bir KAYNAK DEGILDIR' (koordinator hukmu). Kalem 2'de kunyenin GUNUNE yazilmis 10 madde, kaynagin hassasiyetine INDIRILDI ve her birinde ne yapildigi kaynak alaninda YAZILI. Kunyeler DEGISTIRILMEDI — data/ donmus ve koordinatorde.",
+    "EB-INCA": "Encyclopaedia Britannica, 'Inca' (Britannica Editors) — govde TARAYICIDAN OKUNDU, alintilar AYNEN.",
+    "EB-GJQ": "Encyclopaedia Britannica, 'Gonzalo Jiménez de Quesada' (Britannica Editors) — govde TARAYICIDAN OKUNDU, alintilar AYNEN.",
+    "EB-AW": "Encyclopaedia Britannica, 'Araucanian wars' (Britannica Editors; rev. Heather Campbell) — govde TARAYICIDAN OKUNDU, alintilar AYNEN.",
+    "_KURULUS_MUAFIYETI": "On yerli kunyenin f: degeri 1281-01-01 — atlasin PENCERE BASI, o olusumun kurulusu DEGIL. Koordinatorun duzeltilmis kurali `f <= 1281-01-01` ⇒ hepsi MUAF. KURULUS MADDESI ARANMADI, UYDURULMADI.",
+    "_YAZILMAYANLAR": "BES KUNYE ICIN HICBIR MADDE YAZILMADI cunku KAYNAK OKUMADIM: diaguita-calchaqui-konfederasyonu · ranquel · charrua · arua · guarani-misyonlari. Dogru damga 'bulunamadi' DEGIL 'OKUMADIM' — aramadim bile. Bir sonraki turun isi.",
+    "_SEMA_BOSLUGU": "🔴 OLCULDU: sema GUN/AY/YIL hassasiyetini ifade edebiliyor ama YUZYIL hassasiyetini EDEMIYOR. Vaka: EB 'Chibcha' maddesi «Their political structure was crushed in the 16th century» diyor — bunu `t` alanina yazmanin hicbir durust yolu yok; 1500-01-01 yazmak YIL iddia eder. Bu yuzden muisca `son` maddesi Chibcha maddesinden DEGIL, gun/yil veren `Gonzalo Jiménez de Quesada` maddesinden yazildi."
   },
   "kunyeler": [
     {
@@ -440,7 +446,7 @@
           "t": "1829-01-01",
           "tur": "kurulus",
           "b": "Venezuela Gran Kolombiya'dan ayrilarak ayri bir cumhuriyet oldu",
-          "kaynak": "TDV-AM — AYNEN: «Bolivar tarafindan kurulmus olan Buyuk Kolombiya'dan 1829'da Venezuela, 1830'da da Ekvador ayrilinca geri kalan kisim Yeni Granada adi ile 1863'e kadar devam etti»  🔴 KAYNAK CELISKISI: TDV ayrilmayi 1829 diyor, kunyenin f: degeri 1830-01-13. Gun kunyeden alindi, KAYNAKTAN DOGRULANMADI ve kaynak YILDA DA AYRISIYOR.  🔴🔴 HASSASIYET **VE YIL** DUZELTILDI (kalem 3): kunye 1830-01-13 diyor; IKI BAGIMSIZ KAYNAK 1829 diyor — TDV-AM «1829'da Venezuela … ayrilinca» ve EB-VE «Venezuela broke away in 1829». Kural 'kaynagi izle, kunyeyi degil'. Kunye DEGISTIRILMEDI, fark koordinatore BILDIRILDI.",
+          "kaynak": "TDV-AM — AYNEN: «Bolivar tarafindan kurulmus olan Buyuk Kolombiya'dan 1829'da Venezuela, 1830'da da Ekvador ayrilinca geri kalan kisim Yeni Granada adi ile 1863'e kadar devam etti»  🔴 KAYNAK CELISKISI: TDV ayrilmayi 1829 diyor, kunyenin f: degeri 1830-01-13. Gun kunyeden alindi, KAYNAKTAN DOGRULANMADI ve kaynak YILDA DA AYRISIYOR.  🔴🔴 HASSASIYET **VE YIL** DUZELTILDI (kalem 3): kunye 1830-01-13 diyor; IKI BAGIMSIZ KAYNAK 1829 diyor — TDV-AM «1829'da Venezuela … ayrilinca» ve EB-VE «Venezuela broke away in 1829». Kural 'kaynagi izle, kunyeyi degil'. Kunye DEGISTIRILMEDI, fark koordinatore BILDIRILDI.  📌 HANGI SORUYA CEVAP: bu madde **AYRILMA ILANINI** tarihlendiriyor (Paez'in Gran Kolombiya'dan ayrilma hareketini yonetmesi), ayri devletin RESMI KURULUSUNU degil. Kunyenin f: degeri 1830-01-13 buyuk ihtimalle ikinci soruyu cevapliyor — ve bu yamada o soruya AYRI bir madde var (1830-01-01, «Paez Venezuela icin bir anayasa kongresi toplayip devleti kurdu»). Iki tarih CELISMIYOR olabilir; iki AYRI olayi tarihlendiriyorlar. Kunye karari koordinatorde.",
           "d": "1811'de Venezuela Ispanya ile kopusu acikca ilan etmis, ama kralci kuvvetler baskent ve cevresi disindaki genis kirsali uzun sure elde tutmustu. 1819 Angostura kongresi Venezuela'yi Gran Kolombiya'nin bir parcasi yapti. Birlik Bolivar'in umdugu kaliciligi gosteremedi ve Venezuela birligin dagilmasiyla ayri bir cumhuriyet oldu."
         },
         {
@@ -539,6 +545,99 @@
           "b": "Ilk sivil cumhurbaskani Prudente de Morais goreve geldi",
           "kaynak": "EB-BR — AYNEN: «In 1894 … Peixoto reluctantly turned over the presidency to the first civilian president, Prudente de Morais, who had served as the first republican governor of coffee-rich São Paulo»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI.",
           "d": "Peixoto, asiri Guney disinda her yerde barisin saglandigi bir ortamda cumhurbaskanligini isteksizce devretti. Ardarda gelen 'kahve cumhurbaskanlari' agirlikla Sao Paulo ve Minas Gerais eyaletlerindendi; barisi korudular, mali kurumlari duzelttiler ve kahve ihracatini artirdilar — ama gercek bir demokrasi getirmediler."
+        }
+      ]
+    },
+    {
+      "id": "chimu-krallik",
+      "eklenen": [
+        {
+          "t": "1470-01-01",
+          "tur": "son",
+          "b": "Chimu, Pachacuti Inca Yupanqui doneminde Inka'ya tabi kilindi",
+          "kaynak": "EB-INCA — AYNEN: «Under Pachacuti Inca Yupanqui (1438–71) the Inca conquered territory south to the Titicaca Basin and north to present-day Quito, making subject peoples of the powerful Chanca, the Quechua, and the Chimú»  ⚠️ TARIH HASSASIYETI: kaynak bir ARALIK veriyor (1438-71), tek yil VERMIYOR. Tarih kunyenin kendi t: degeridir (1470) ve o aralik icindedir, ama kaynaktan DOGRULANMADI.",
+          "d": "Inka hanedan tarihine guvenle atanabilen en erken tarih 1438'dir; o yil Pachacuti Inca Yupanqui kardesi Inca Urcon'dan tahti gasbetti. Pachacuti doneminde Inka guneyde Titicaca Havzasi'na, kuzeyde bugunku Quito'ya kadar fethetti ve guclu Chanca, Quechua ile Chimu halklarini tabi kildi. Fethedilen her halktan buyuk gruplarin zorla yer degistirmesi siyasi istikrari saglamaya yaradi."
+        }
+      ]
+    },
+    {
+      "id": "colla-krallik",
+      "eklenen": [
+        {
+          "t": "1450-01-01",
+          "tur": "son",
+          "b": "Titicaca Havzasi Pachacuti doneminde Inka fethine ugradi",
+          "kaynak": "EB-INCA — AYNEN: «Under Pachacuti Inca Yupanqui (1438–71) the Inca conquered territory south to the Titicaca Basin»  🔴 KAYNAK 'Colla' ADINI ANMIYOR. Titicaca Havzasi ile Colla krallıgi arasindaki bag BENIM CIKARIMIMDIR, kaynakta yazmiyor. Tarih (1450) kunyenin kendi t: degeridir; kaynak yalniz 1438-71 araligi veriyor.",
+          "d": "Pachacuti Inca Yupanqui (1438-71) doneminde Inka guneyde Titicaca Havzasi'na kadar genisledi. Colla kralligi bu havzanin siyasi olusumlarindandi; kaynak havzayi adiyla anip icindeki ayri kralliklari saymadigi icin bag dolayli kurulmustur."
+        }
+      ]
+    },
+    {
+      "id": "lupaqa-krallik",
+      "eklenen": [
+        {
+          "t": "1450-01-01",
+          "tur": "son",
+          "b": "Titicaca Havzasi Pachacuti doneminde Inka fethine ugradi",
+          "kaynak": "EB-INCA — AYNEN: «Under Pachacuti Inca Yupanqui (1438–71) the Inca conquered territory south to the Titicaca Basin»  🔴 KAYNAK 'Lupaqa' ADINI ANMIYOR. Bag BENIM CIKARIMIMDIR. Tarih (1450) kunyenin kendi t: degeridir; kaynak yalniz 1438-71 araligi veriyor.",
+          "d": "Lupaqa kralligi Titicaca Havzasi'nin bati kiyisindaki siyasi olusumlardandi. Kaynak havzanin Pachacuti doneminde fethedildigini soyluyor ama havza icindeki ayri kralliklari adiyla saymiyor."
+        }
+      ]
+    },
+    {
+      "id": "muisca-konfederasyonu",
+      "eklenen": [
+        {
+          "t": "1537-01-01",
+          "tur": "son",
+          "b": "Quesada'nin seferi Chibcha (Muisca) siyasi yapisini cokertti",
+          "kaynak": "EB-GJQ — AYNEN: «the expedition succeeded in penetrating the great central plain of Colombia—the land of the Chibcha Indians … The ruler of the Chibchas, the Zipa of Bogotá, fled as Quesada's army approached, and the conquest appeared to be accomplished. Toward the end of 1538, however, two rival conquistadores … challenged Quesada's claim»  ⚠️ TARIH HASSASIYETI: kaynak GUN VERMIYOR; sefer 1536'da basladi, sekiz ay surdu ve 1538 sonunda rakipler geldi ⇒ fetih 1537 civari. Kunyenin t: degeri 1537-08-01; GUN kaynaktan DOGRULANMADI.",
+          "d": "Quesada 1535'te Santa Marta bassavciligi icin Yeni Dunya'ya gitti, ertesi yil hic askeri deneyimi olmadan 900 kisilik bir seferi Magdalena nehri boyunca ic bolgeye surdu. Sekiz ay tropik ormanlarda yuruyup direnisle bogustuktan sonra Kolombiya'nin buyuk orta ovasina — Chibcha ulkesine — ulasti. Chibchalar'in hukumdari Bogota Zipa'si ordu yaklasirken kacti."
+        },
+        {
+          "t": "1536-01-01",
+          "tur": "savas",
+          "b": "Quesada 900 kisilik seferi Magdalena boyunca Chibcha ulkesine surdu",
+          "kaynak": "EB-GJQ — AYNEN: «The following year, although he had no military experience, Quesada led an expedition of 900 men up the Magdalena River into the interior of New Granada»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor (1535'in ertesi = 1536), GUN VE AY BULUNAMADI.",
+          "d": "Chibchalar Ispanyol fethi sirasinda bugunku Bogota ve Tunja cevresindeki yuksek vadilerde yasiyordu. 500.000'i asan nufuslariyla Inka imparatorlugu disindaki hicbir Guney Amerika halkinda gorulmeyen olcude merkezilesmislerdi: kendi sefi olan cok sayida kucuk bolge, fetih ve ittifakla iki buyuk ve birkac kucuk devlete birlestirilmisti."
+        }
+      ]
+    },
+    {
+      "id": "mapuche-araukanya",
+      "eklenen": [
+        {
+          "t": "1553-01-01",
+          "tur": "savas",
+          "b": "Lautaro onderligindeki Araukanlar Valdivia'yi yenip olduruldu",
+          "kaynak": "EB-AW — AYNEN: «in 1553 he and his followers were defeated by the Araucanians under Lautaro, a chief who had previously spent two years in Valdivia's service»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI.",
+          "d": "Pedro de Valdivia'nin kuvvetleri 1541'de Santiago'yu kurdugunda guclu Araukan direnisiyle karsilasmisti; 1550'de guneye inip Biobio agzinda Concepcion'u kurdu. Lautaro daha once iki yil Valdivia'nin hizmetinde bulunmus, kacmadan once Ispanyolca'yi ve Ispanyol taktiklerini, muhtemelen barutun yapimi ve kullanimini ogrenmisti. Valdivia'nin yenilgisinden sonra Araukanlar Santiago'yu neredeyse ele geciriyordu."
+        },
+        {
+          "t": "1558-01-01",
+          "tur": "savas",
+          "b": "Sef Caupolican'in idamindan sonra Ispanyollar Mapuche'yi Biobio'nun guneyine itti",
+          "kaynak": "EB-AW — AYNEN: «Another chief, Caupolicán, continued the fight until his capture by treachery and subsequent execution by the Spaniards in 1558. Thereafter the Spaniards pushed the Mapuche into the forest region south of the Biobío, which remained the boundary between the two peoples for the next three centuries»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI.",
+          "d": "Biobio irmagi bundan sonra uc yuzyil boyunca iki halk arasindaki sinir olarak kaldi. 17. yuzyil bitmeden Ispanyollar Picunche'yi yenip asimile etti; Huilliche ise Sili'nin baskin mestizo nufusu icinde eridi."
+        },
+        {
+          "t": "1883-01-01",
+          "tur": "son",
+          "b": "Sili ordusu kalan Araukanlar'i bastirdi, antlasmalarla rezervasyonlara yerlestirildiler",
+          "kaynak": "EB-AW — AYNEN: «In the 19th century, after the Chileans had annexed slices of Peruvian and Bolivian territory in the War of the Pacific (1879–84), they subdued the remaining Araucanians in the south … After the Araucanians were defeated at the hands of the Chilean army, they signed treaties with the Chilean government and were settled on reservations farther to the south»  ⚠️ TARIH HASSASIYETI: kaynak YIL VERMIYOR, yalniz 'Pasifik Savasi'ndan (1879-84) SONRA' diyor. Tarih kunyenin kendi t: degeridir (1883) ve o araliga duser, ama kaynaktan DOGRULANMADI.",
+          "d": "Araukanlar 1840'larin sonundan itibaren Almanca konusan yerlesimlere akin duzenlemis, boylece Avrupali nufusun daha ileri yayilmasini engellemislerdi. Mapuche, Ispanyol ve sonra Sili otoritesi altinda 19. yuzyilin sonuna kadar bagimsizligini korudu; Sili hukumeti onlari yenilgiden sonra rezervasyonlara yerlestirdi."
+        }
+      ]
+    },
+    {
+      "id": "inka-imparatorlugu",
+      "eklenen": [
+        {
+          "t": "1438-01-01",
+          "tur": "hukumdar",
+          "b": "Pachacuti Inca Yupanqui kardesinden tahti gasbetti",
+          "kaynak": "EB-INCA — AYNEN: «The earliest date that can be confidently assigned to Inca dynastic history is 1438, when Pachacuti Inca Yupanqui … a son of Viracocha Inca, usurped the throne from his brother Inca Urcon»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI.",
+          "d": "Inka, oteki And kulturleri gibi yazili kayit birakmadi; kokenleri ve erken tarihi buyuk olcude efsanelere gomulmustur. Pachacuti Inca Yupanqui'nin saltanatindan sonraki tarih ise buyuk olcude olguya dayanir. 1438, Inka hanedan tarihine guvenle atanabilen en erken tarihtir ve kunyenin f: degeriyle AYNI YILDIR."
         }
       ]
     }
