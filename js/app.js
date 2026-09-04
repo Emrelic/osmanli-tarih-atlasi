@@ -8186,6 +8186,26 @@ function siyasiKipUygula(yumusakMi) {
 }
 
 var KATMAN_KUMESI = [
+  // 🔴 TANI KOVASI `cografya`DAN ÖNCE — 4 Eylül 2026, Emre (H-0008):
+  //    "bu çizgilerin anlamı tam olarak nedir ne işe yarıyorlar. ve
+  //     haritada bu çizgiler yararlı ise bile nereden kapatabiliriz
+  //     gösterimi. gösterimi kapatmak için bir buton olsun"
+  //
+  // Görseldeki turuncu kesikli hatlar `g-sirt-motor` (#e65100), camgöbeği
+  // olanlar `g-nehir-motor` (#00bcd4). İkisi de `ALTLIK_KATMAN.b` grubu:
+  // **motorun FİİLEN yasladığı hedefler** — bir TANI katmanı, son kullanıcı
+  // için değil. Tek bir soruyu cevaplamak için varlar: *"sınır dağın
+  // tepesinden geçiyor mu, nehri tutuyor mu?"* (`nehir` 329 parça çizer,
+  // `nehir_motorun` 41; farkı görmek kırık ad eşleştirmesini gözle bulmaktır.)
+  //
+  // Seçici ilk kurulduğunda bunlar `cografya` kalıbına (`g-`) düşüyordu ⇒
+  // kapatmak için BÜTÜN coğrafyayı kapatmak gerekiyordu. Emre'nin istediği
+  // bu değildi.
+  // ⚠️ SIRA ŞART: `katmanSinifla()` ilk eşleşmede `return` ediyor. Bu kova
+  //    `cografya`dan SONRA gelseydi kalıbı HİÇ çalışmazdı — ve düğme ölü
+  //    görünürdü, sessizce.
+  { anahtar: "tani", ad: "Motor tanı hatları",
+    kalip: /^g-(nehir-motor|sirt-motor)$/ },
   { anahtar: "cografya", ad: "Coğrafya",  kalip: /^(zemin|altlik|g-)/ },
   { anahtar: "yollar",   ad: "Yollar",    kalip: /^(koridor-|sefer-)/ },
   { anahtar: "siyasi",   ad: "Siyasî",
