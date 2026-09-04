@@ -18,9 +18,9 @@ SERBEST: js/app.js · css/style.css · index.html · denetim/* · oturumlar/*
 
 | # | iş | keskinlik | hedef | niçin bu sırada |
 |---|---|---|---|---|
-| 1 | ⏳ Siyasî katman coğrafyayı örtüyor | %0 | %95 | 🔴 Emre'nin **canlı şikâyeti** · `js/app.js` SERBEST · kökü ölçüldü (üç dolgu da `fill-opacity:1`) |
-| 2 | 🔵 1923-10-29'da yalnız Türkiye görünüyor | %0 | %90 | 🔴 Emre'nin **canlı şikâyeti** · önce ÖLÇÜLECEK: veri mi eksik, çizim mi |
-| 3 | ⏳ Katman seçici — yükleme sonrası doğrulama + yayın | %85 | %100 | taşındı ve yazıldı, sınavı CPU darlığından yarım kaldı |
+| 1 | ✅ Siyasî katman coğrafyayı örtüyor → **KİP SEÇİMİ** (`932d4cf`) | %100 | %95 | 🔴 Emre'nin **canlı şikâyeti** · `js/app.js` SERBEST · kökü ölçüldü (üç dolgu da `fill-opacity:1`) |
+| 2 | ✅ 1923-10-29'da yalnız Türkiye görünüyor (`00975a8`) | %100 | %90 | 🔴 Emre'nin **canlı şikâyeti** · önce ÖLÇÜLECEK: veri mi eksik, çizim mi |
+| 3 | ✅ Katman seçici — canlı sayfada doğrulandı (37 katman, sayaç 4) | %100 | %100 | taşındı ve yazıldı, sınavı CPU darlığından yarım kaldı |
 | 4 | 🔵 OWTRAD toplamaya girmiyor | %0 | %90 | 154 düğüm + 174 kenar yüklü ama çizilmiyor · `js/app.js` SERBEST |
 | 5 | ⚪ Kronoloji dolumu (205 künye) | %0 | %80 | ölçüt + alet HAZIR · **oturum gerekiyor**, Emre uykuda |
 | 6 | ⚪ Koşu 4 sonrası: denetle → tablo → damga → yayın | — | — | ~07:45'ten sonra |
@@ -66,3 +66,19 @@ SERBEST: js/app.js · css/style.css · index.html · denetim/* · oturumlar/*
    (cin · hindistan · japonya · misir · ozbek · anadolu · arabistan …)
 🟡 küresel görünüm: MapLibre 4.7.1, `setProjection` YOK — v5 gerekiyor
 ```
+
+---
+
+## 🔴 AÇIK BORÇ — kaydedildi, gizlenmedi
+
+```
+renkler.py:_opaklik_dogrula()   app.js'te `"fill-opacity": 0.44` DİZGİSİNİ
+                                arar. Yumuşak değerler artık SIYASI_KIP
+                                sözlüğünde duruyor, o biçimde DEĞİL.
+                                ⇒ uyarı ötmeye DEVAM eder, ve uyarı
+                                  SERT kipte DOĞRU · YUMUŞAK kipte YANLIŞ
+                                🔒 renkler.py DONMUŞ — koşu bitince düzeltilir
+```
+📌 Bu, projenin *"iki otorite doğar ve ayrışır"* dersinin dördüncü vakası:
+denetim yanlış değil, **evreni** eskidi — artık tek bir opaklık yok, iki
+kip var ve denetim tek kipi biliyor.
