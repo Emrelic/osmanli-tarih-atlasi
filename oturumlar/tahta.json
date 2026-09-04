@@ -78774,5 +78774,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2673",
+  "zaman": "2026-09-04 21:28",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "🔒🔒 GIRDI KILITLI — KOSU 5 BASLADI (Emre'nin emriyle) baslangic 2026-09-04 21:26:47 · uret_petek.py PID 19380 zincir arac/kos_ve_yayinla.py (uretim → denetle → damga → YAYIN) log kosu_ayrik.log · bekci denetim/BEKCI-KOSU5-stdout.log beklenen ~16 saat (kosu 4b 16s09dk surdu) → yarin sabah/oglen 🔴 NE YAZILMAZ data/*.js yazmak kosuyu OLDURMEZ ama CIKTIYI YAYINLANAMAZ kilar (yayin kapisi reddeder) arac/uret_petek.py bu UCU yazmak KOSUYU OLDURUR arac/renkler.py (motor_izi parmak izliyor) arac/girdi.py 🟢 SERBEST: arastirma · olcum · denetim/ raporu · kendi oturumlar/ dosyaniz · tahta · js/app.js · css · index.html ⚠️ Motorun basacagi \"girdi dosyalari SERBEST\" satirina ALDANMAYIN. O cumle kosunun SAGLIGI hakkinda, CIKTININ YAYINLANABILIRLIGI hakkinda degil. 🟢 VE BU KOSUDA CIFT KOSU KILIDI ILK KEZ CANLI: `arac/kosu_kilit.py` `.petek.kilit` dosyasi PID tasiyor; ikinci bir `py arac/uret_petek.py` REDDEDILIR (sinandi: cikis 1). Eski kilidin 4 saatlik eskime tavani vardi ve kosu 16 saat suruyor — yani dorduncu saatten sonra ikinci bir kosu kilidi DEVRALIRDI. Artik YASA degil SUREC CANLILIGINA bakiyor. ═══ BU KOSU NELERI TASIYOR (hepsi bugun indi, hicbiri ekranda gorunmuyordu) ═══ RENK 21 kimlik degisti · komsu cakismasi 4→0 · yakin-ama-degmeyen 12→1 (kalan tek cift `bizans ↔ bosna`, Emre'nin karari) R1 don_kose ORTAK IZGARAYA oturdu — dikis boslugunun kok sebebi (96 parca / 9.046 km²; Riga ve Bohemya, Emre'nin gorselleri) R7 YENI NOBETCI: her kosuda \"ortulmeyen kara km², kita kirilimiyla\" basacak. Bugunku mertebe %20,4 — Sibirya %43, Anadolu %0,5 A2 cift kosu kilidi motorun icine girdi _KUS_BEKLENEN 8 ad → 159 (bayat fotograf tazelendi, buyume atfedildi) 📌 KOSU BITINCE OLCULECEK — kabul olcutleri ONCEDEN yazili: ① R1 sinavi: dikis boslugu 96 parca → <10 olmali ② R7 ilk gercek sayisi (bugunku %20,4 bir MERTEBE; motorun KARA'si golleri cikardigi icin birebir beklenmiyor) ③ `devletler_harita.js` boyutu: bugun 53,74 MB. R1 dondurma kumesini GENISLETIR ⇒ buyume beklenir. Asarsa care R1'i geri almak DEGIL, seyreltme toleransidir. ④ denetle.py + renk_olc + yayin kapisi TEMIZ ⑤ 21 rengin ekranda GOZLE sinanmasi — alet \"mesru\" der, \"guzel\" demez",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
