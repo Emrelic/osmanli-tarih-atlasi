@@ -78961,5 +78961,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2682",
+  "zaman": "2026-09-05 00:41",
+  "kimden": "KRONOLOJI BOS KUNYE",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — 17/17 KUNYE MADDE ALDI. denetim/KRONOLOJI-BOSKUNYE-0905.json (1) NE OLCTUM — sayiyla kunye 17/17 · madde 25 · kaynak DOLU 25/25 · alan kumesi t/tur/b/kaynak SINAVI TEMIZ tur sozlugu disi tur: 0 · tarih bicimi bozuk: 0 · maddesiz kunye: YOK cins dagilimi: son 12 · kurulus 7 · antlasma 3 · bolunme 1 · isyan 1 · toprak-kayip 1 (2) YONTEM — ve bu turun asil kazanci Yeni kaynak aramadan ONCE 17 kunyenin KENDI kaynak alanlarini okudum. Kume \"kaynaksiz\" degildi, \"kaynagi kronolojiye CEVRILMEMIS\"ti. 25 maddenin hepsi kunyede ADLANDIRILMIS akademik kaynaga dayaniyor ve alintilar AYNEN tasindi. ⇒ Tek bir yeni kaynak aramadan 17 kunye sifirdan cikti. (3) 🟢 SINADIM / 🟡 DEVRALDIM AYRIMINI HER MADDEDE YAZDIM SINADIM : TDV sluglari HTTP ile bizzat olculdu — eyyubiler · hasankeyf · farukiler · burhanpur = 200 (dordu de CANLI) eyyubi = 302 OLU · hisnikeyfa = 200 ama govdesi boilerplate (§4 tuzak ④) DEVRALDIM : 25 maddenin cogu. Govdeleri BU TURDA yeniden cekmedim ve bunu her maddede yaziyorum. Gizlenmis tek devralma yok. (4) 🔴 DOKUZ KUNYEYE `kurulus` YAZMADIM — PENCERE MUAFIYETI cherokee · choctaw · creek · natchez · powhatan · apaci-ovalar · arua · charrua · diaguita — dokuzunun da kaynak alani ACIKCA soyluyor: \"f:1281-01-01 ATLAS UFKUDUR, kurulus yili DEGILDIR.\" Hizalanmis bir ufka kurulus maddesi yazmak, veriye OLMAYAN bir iddia eklemek olurdu. tui-tonga da ayni sebeple: f:1220 zaten pencereden ONCE, hanedan cizgisi ~950. (5) UC BILINCLI SECIM — kaynagin soyledigi kadarini yazdim, fazlasini degil haudenosaunee -> `son` DEGIL `bolunme`. Konfederasyon 1777'de ortadan KALKMADI, birligi boluundu. Atlas o gunu kunyenin sonu sayiyor ama kronoloji maddesi OLAYI anlatmali. apaci-ovalar -> `son` DEGIL `toprak-kayip`. Britannica halkin yok olusunu degil OVALARDAN CEKILMESINI anlatiyor. tui-tonga 1220 -> madde YAZILMADI. O bir kurulus degil, Mu'a/Lapaha'nin kalici baskent olusu; `tur` sozlugunde karsiligi YOK ⇒ uydurma bir tur URETMEDIM. (6) 🔴 UC AYRISMA GIZLENMEDI, kayda gecti natchez : kaynak \"1730\" diyor, kunye t:1731 — BIR YIL ayrisma, cozulmedi eyyubi : TDV iki maddesi hicri 629/630 ayrisiyor, miladi 1232'de UYUSUYOR arua : kaynak \"1834-36\" ve \"probably\" diyor; kunye araligin SON ucunu almis (7) 🟢 VE SENIN 4 EYLUL KURALIN BUGUN BIR GUNU DUSURDU charrua icin 11 Nisan 1831 gunu BILDIRILIYOR ama akademik dayanagi yok (kunyenin kendi olcumu: Uruguay resmi sayfasi 403, kalani Vikipedi duzeyi). ⇒ YIL yazildi, GUN YAZILMADI. Hassasiyet kaynagi asmadi. (8) NEYI BULAMADIM / EN ZAYIF HALKA — oncelikli dogrulama adayi SANA teksas-cumhuriyeti: iki TAM GUN (1836-03-02 · 1845-12-29) ve dayanagi kunyede \"Encyclopedia.com baglaminda capraz dogrulanmis standart tarih\" diye nitelenmis — yani IKINCIL ve DOLAYLI. 19. yy, tam gun, cok kullanilan bir kunye: bu kumenin en zayif dayanakli iki gunu. Ayrica DOGRULANMADI damgasiyla inen gunler: cherokee 1791-07-02 · choctaw 1830-09-27 · creek 1832-03-24 · powhatan 1646-10-01 · diaguita 1667-01-02 (bu sonuncusu `-01-02` gibi olagandisi bir deger, hizalama ihtimali yuksek ama OLCMEDIM) · pueblo 1692-08-01. (9) NE ISTIYORUM: bir sey yok, is bitti. Istersen (8)'deki adaylarin dogrulama turunu acabilirim — ama kendim SECMIYORUM. ✅ Islerim bitti, bostayim. data/ ve kilitli ucluye tek bayt yazmadim; girdi.py yalniz ice aktarildi, bytecode yazimi kapaliydi. KOSU 5 guvende.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
