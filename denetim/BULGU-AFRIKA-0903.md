@@ -8,6 +8,26 @@
 
 ---
 
+# 🔴 ÖNCE BUNU OKU — BU RAPORUN SEKİZ SAYISI BAYAT
+
+Bu belge **gün boyunca yazıldı** ve sonraki ölçümler sekiz sayısını,
+bir hükmünü çürüttü. **Gövde DÜZELTİLMEDİ, DAMGALANDI** — `§3.5.1`:
+*"Bir vakayı silmek dersi de siler; damgalamak dersi korur."*
+
+```
+§0 · §3    "389 aday"        →  451
+§0 · §4    "71 hücre kalan"  →   52
+§12        "95 künye"        →   99
+§2.1       "~65 eksik künye" →  eksik KALMADI, 99 yazıldı
+§10        "211 BLOKE"       →    0 bloke, 211'in 211'i zincirlendi
+§12.2      "35 TDV / 60 akademik" → 36 / 63
+§10.6      trablusgarp-ocagi hükmü → 🔴 ÇÜRÜDÜ
+```
+⇒ **Güncel sayılar `§14`te.** Bu belgeden bir sayı alacaksan önce
+oraya bak.
+
+---
+
 ## 0. ÖZET — beş sayı
 
 ```
@@ -988,3 +1008,383 @@ burada başarısız: *"bu bilgiyi bir `if` ile sorabiliyor muyum?"* —
 
 ⚠️ Düzeltmedim: `data/` donmuştu ve kayıt benim dosyam değil.
 **Ölçtüm ve bildiriyorum.**
+
+---
+
+## 10. SAHİPLİK ZİNCİRİ — M-2384'ün istediği üç şey
+
+Koordinatör haklıydı: aday listesi **nereye** nokta konacağını söylüyordu,
+**kimin olduğunu** söylemiyordu. Zincir yazıldı ve **doğrulandı.**
+
+```
+389 aday
+ ├─ 178  ZİNCİR YAZILDI   kimlik VAR · ömür KAPSIYOR · renk VAR   hata 0
+ └─ 211  BLOKE            81 ayrı eksik künye yüzünden
+     ele alınmayan: 0
+```
+
+### 10.1 🟢 MEKANİZMA — `kur:` alanı kilidi açıyor
+
+178'in büyük çoğunluğu **sömürge kuruluşudur** ve zinciri kısadır:
+```
+Saint-Louis  kur:1659 → fransa 1659-1792 → fransa-cumhuriyet 1792-1923
+Windhoek     kur:1890 → almanya 1890-1915 → ingiltere 1915-1923
+Kasongo      kur:1860 → umman-zengibar 1860-1893 → belcika 1893-1923
+```
+⇒ ***`kur:` bir noktayı, kuruluşundan ÖNCEKİ kimlik ihtiyacından
+kurtarıyor.*** Kayıt 1281'de yoktur; sahipsiz de sayılmaz.
+
+🔴 **Ve tersi tam da darboğazı açıklıyor:** var olan bir Afrika şehri
+(Timbo · Şoşong · Lealui · Ngaoundéré) 1281'de **zaten vardır**, yani
+zinciri 1281'den başlamak zorundadır — ve o tarihte onu sahiplenecek
+künye **yoktur.** İşte 211 bloke adayın tamamı bu.
+
+### 10.2 BLOKE ADAYLAR — 81 eksik künye, en kalabalıkları
+
+| eksik künye | aday |
+|---|---|
+| `tsvana` (Ngwato · Kwena · Ngwaketse · Kgatla · Tawana) | 13 |
+| `ovimbundu` (Bailundu · Viye · Wambu) | 12 |
+| `lozi` Barotse | 7 |
+| `bemba` | 7 |
+| `adamava` · `vaday` · `banda-gbaya` | 6+6+6 |
+| `moritanya-emirlikleri` · `vasulu` · `gurma` · `hausa-damagaram` · `kenya-kuzey-klanlari` | 5 her biri |
+| `zende` · `nijer-orta-kusagi` · `liberya` · `dan-guro` | 4-5 |
+| … 67 künye daha, 1-3 adaylık | |
+
+Tam liste: `denetim/BULGU-AFRIKA-0903-zincir.json` → `bloke` anahtarı.
+
+### 10.3 🔴 DOĞRULAYICIM YALAN SÖYLEDİ — ve sebebi künye setinde
+
+İlk koşuda **42 "ömür kapsamıyor"** hatası verdi. Ölçtüm: **38'i
+sahteydi.**
+
+```python
+if f < str(d["f"])[:10]:          # ← BU SATIR
+```
+```
+fransa  künye f = "987-01-01"     (ÜÇ HANELİ YIL)
+almanya künye f = "962-02-02"     (ÜÇ HANELİ YIL)
+zincir  f = "1659-01-01"
+"1659-01-01" < "987-01-01"   →   TRUE   ← sözlüksel, çünkü "1" < "9"
+```
+⇒ Yıl **dört haneye doldurulmadan** yapılan hiçbir tarih kıyası bu
+projede güvenli değildir — ve `devletler.js` iki künyede üç haneli yıl
+taşıyor. Düzeltildi (`%04d` dolgusu), hata **42 → 0**.
+
+📌 `CLAUDE.md §11`in *"kendi yazdığın ayrıştırıcı her zaman kötüdür"*
+ailesinin **karşılaştırıcı** yüzü. Ve tehlikesi şu: alet **gürültülü**
+bozuldu (38 sahte alarm), yani fark edildi. **Sessiz bozulsaydı** —
+mesela `>` yerine `>=` — hiçbir şey ötmez, hayalet dönemler veriye
+inerdi.
+
+### 10.4 🟢 VE DOĞRULAYICI DÖRT GERÇEK HATA YAKALADI
+
+Sahte 38'in altında **dört gerçek** vardı:
+
+| aday | hata | çare |
+|---|---|---|
+| `Onitsha` | `benin-kralligi` 1897-02-18'de bitiyor, zincirim 1900 demişti | kesim 1897-02-18'e çekildi |
+| `Khami` | `mutapa` 1695'te bitiyor; Torwa→Rozvi geçişi | BLOKE → `torva-rozvi` |
+| `Toamasina` · `Ambohimanga` · `Tsiroanomandidy` | `merina` künyesi **1787**'de başlıyor, üçü de daha eski | BLOKE → `merina-oncesi` |
+| `Mopti` | zincirde **1670→1818 boşluğu** (Segu Bambara dönemi) | BLOKE → `segu-bambara` |
+
+### 10.5 🔴 VE BİR HAYALETİ SON ANDA DURDURDUM
+
+`Monrovia` ve `Harper` için `ingiltere` yazmıştım — **yanlış.**
+Liberya **1847'den beri bağımsızdır** ve hiçbir zaman İngiliz kolonisi
+olmadı. Yazılsaydı `§3.5`in tam hayalet vakası olurdu: künye canlı,
+ömür kapsıyor, renk var — **denetim TEMİZ derdi** ve harita Liberya'yı
+bir asır boyunca Britanya boyardı.
+⇒ İkisi de `Z`den çıkarıldı, `BLOKE['liberya']`ya alındı.
+📌 **Doğrulayıcı bunu yakalamadı** — yakalayamazdı, çünkü teknik olarak
+geçerliydi. Yakalayan şey **tarihin kendisi.** *Bir zincirin denetimi
+geçmesi, doğru olduğu anlamına gelmiyor.*
+
+### 10.6 RENK — ölçüldü
+
+```
+BOYALAR toplam                                     406
+178 zincirli adayın kullandığı kimliklerin rengi   HEPSİ VAR ✓
+denenen 60 Afrika kimliğinden rengi olmayan         17  (hepsi künyesi
+                                                        de olmayanlar)
+```
+🔴 **Ve kutumun dışından bir bulgu, Kuzey Afrika turu için:**
+```
+trablusgarp-ocagi · cezayir-ocagi · tunus-ocagi · cezayir-fransiz
+   → künye VAR, BOYALAR'da renk YOK (harita: alanı da boş)
+```
+Bunlar benim kutumda kullanılmıyor ama **Kuzey Afrika kutusunda
+kullanılacaklar.** `§8`: rengi olmayan kimlik **boyanmaz.**
+Ölçtüm, bildiriyorum; düzeltmesi `renkler.py` sahibinin.
+
+---
+
+## 11. KUZEY AFRİKA — taban ölçüldü (kutu onayı beklerken)
+
+```
+kutu 20-37K / 18B-35D · 1° ızgara
+kara hücre 659 · AÇIK 207 · %31,4      ← koordinatörün sayısıyla BİREBİR
+kutuda mevcut nokta 297 (75'i 30K altında, Sahra kuşağı)
+```
+
+**Ve şekli Sahra altı Afrika'dan tamamen farklı:** açık hücrelerin
+**%75'i tek bir kuşakta** — batı Sahra:
+```
+20..25 / -15..0     75 hücre   (Moritanya-Batı Sahra-kuzey Mali)
+25..30 / -15..-5    26 hücre   (Suakiye-Tinduf-Dra vadisi)
+20..30 /   0..10    47 hücre   (Tanezruft-Hoggar-Tâsîlî yaklaşımları)
+Nil ve Akdeniz kıyısı            ≈ KAPALI
+```
+🟢 **Bu, kutu çakışması endişemi çürütüyor:** Mısır ve Sudan kuzeyi
+veride **doygun** (Feyyûm · Asyut · Esna · Uksur · Asvan · İbrim ·
+Vâdî Halfâ … 30K altında 75 nokta) ve açık hücresi yalnız **9**.
+⇒ Kuzey Afrika turu, `misir-sudan` oturumlarıyla neredeyse hiç
+kesişmez; iş **batı Sahra ve Cezayir-Libya çölüdür.**
+
+⚠️ Nokta kolunu **kutu onaylanmadan açmadım** (`DUNYA-YERLESIM-PROGRAMI
+§①`: *"kutusu yazılmamış nokta kolu açılmaz"*).
+
+---
+
+## 12. KÜNYE ÖNERİSİ — 95 künye, 211 bloke adayı açar
+
+Koordinatör künye kolunu açtı (M-2397). Önerilen küme
+`denetim/BULGU-AFRIKA-0903-kunye.json`.
+
+```
+önerilen künye                        95
+devletler.js'te ID çakışması           0
+mükerrer id                            0
+yıl dört hane değil                    0
+ters / sıfır aralık                    0
+1923-10-29 sonrası biten               0
+81 bloke anahtarının KARŞILANANI      81  (%100)
+```
+
+### 12.1 TANECİK — halk ya da konfederasyon
+
+Koordinatörün emsali (`komanci · haudenosaunee · creek-konfederasyonu`)
+uygulandı. Üç örnek, üç farklı taneciklik gerekçesi:
+
+```
+`bambara`     Segu VE Kaarta krallıklarını TEK künyede birleştirir —
+              ikisi tek HALKtır ve aynı hânedan geleneğidir
+`tsvana`      Ngwato · Kwena · Ngwaketse · Kgatla · Tawana TEK künyede —
+              beşi de aynı konfederasyon ve aynı gün (1885-03-31)
+              Beçuanalend himayesine girdi
+`tio`         TEK krallık, TEK künye — Malebo Havuzu'nun kuzeyi
+```
+🔴 **Ve `tio` bir tuzağı kapatıyor:** `teke` kimliği **kullanılamaz**,
+çünkü `devletler.js`te o **Anadolu'daki Teke Beyliği**dir. Bu, `§4`ün
+Türkçe yazım ekseninin künye tarafı — aynı dizgi, iki kıta.
+
+### 12.2 KAYNAK — 35 künye TDV gövdesinden, 60 akademik dayanaklı
+
+```
+TDV gövdesi bu turda OKUNDU            35 künye
+   gine · senegal · mali · burkina-faso · cad · kamerun · malavi ·
+   mozambik · tanzanya · madagaskar · zambiya · moritanya · kenya · uganda
+akademik el kitabı, ÇEVRİMİÇİ DOĞRULANMADI   60 künye
+   `kaynak:` alanına "bulunamadı" YAZILDI (§4: gizlenmez)
+```
+TDV'den doğrudan alınan kırılma günleri künyelerin `not:` alanında
+**alıntıyla** duruyor — örnek:
+```
+maravi   TDV malavi: "Malavi Konfederasyonu 1480'de kuruldu"
+ngonde   TDV malavi: Mlozi "kendini 1887'de Ngonde sultanı ilân etti"
+lozi     TDV zambiya: "Levanika 1890'da İngiliz Güney Afrika Şirketi'nin
+                       himayesini kabul etti"
+vasulu   TDV gine:    Samori "din temelli merkezî bir devlet kurdu",
+                       Fransız fethi 1898
+adamava  TDV kamerun: "Modibbo Adama … Yola merkez olmak üzere Fumbina
+                       Krallığı adıyla İslâmî bir yönetim kurdu (1841)"
+```
+
+### 12.3 🔴 BİR KÜNYENİN YOKLUĞU VERİDE ZATEN KAYITLIYDI
+
+`zende` (Azande) künyesini önerirken fark ettim: bu kimliğin eksikliği
+**benim bulgum değil** — kutumdaki `kasitli_bosluk` kayıtlarının
+`neden:` alanı yıllardır şunu yazıyor:
+```
+"Azande Krallığı — `zende` kimliği yok"
+"Azande/Moru kuşağı — `zende` kimliği yok"
+"Şilluk Krallığı — `silluk` kimliği yok"
+"Leka Nekemte Oromo krallığı — kimliği yok; habesistan yazmak ..."
+```
+⇒ Önceki oturumlar duvara çarpmış ve **doğru davranmış**: uydurmak
+yerine boşluğu beyan etmişler. Ama beyan borcu **ödemiyor, erteliyor.**
+📌 Ve bu, `§11`in *"bir ders veriye SERBEST METİN olarak inerse inmiş
+sayılmaz"* dersinin tersi: burada ders **doğru yere** yazılmış
+(`neden:` alanı), ama **kimse onu bir iş listesine dönüştürmemiş.**
+Kayıt vardı, **talep yoktu.**
+
+⚠️ **`silluk` ve Oromo krallıkları BENİM KUTUMDA AMA LİSTEMDE YOK** —
+onlar Nil-Boynuz koridorunda ve o koridor zaten doygun; benim 389
+adayımın hiçbiri oraya düşmedi. Ölçmedim, **önermiyorum**; ama kayıtları
+duruyor ve bir sonraki turun işi.
+
+### 12.4 SONRAKİ ADIM
+
+```
+① renk        95 künyenin rengi KOORDİNATÖRDE (M-2384 ④)
+② uygulama    data/ ve arac/ koşu bitene kadar DONUK — JSON hazır,
+              koşudan sonra tek turda inebilir
+③ zincir      künyeler indikten sonra 211 bloke adayın zinciri
+              yazılabilir; bugünkü 178 + 211 = 389 tamamlanır
+```
+
+---
+
+## 13. KUZEY AFRİKA — nokta kolu (kutu onaylandı, M-2397)
+
+```
+kutu 20-37K / 18B-35D · 1° · kara 659 · AÇIK 207 (%31,4)
+ham aday                46
+ ├─ ONAYA HAZIR         35   → 207 açık  98  (%14,9)
+ ├─ BEKLEYEN             9   → karar istiyor (aşağıda)
+ └─ ÇIKARILAN            2   Zâgûra 0,3 km · Beşşâr 0,5 km — GERÇEK mükerrer
+9 bekleyen de eklenirse : 207 → 90 (%13,7) · marjinal katkı 8 hücre
+```
+
+### 13.1 🔴 BEKLEYEN 9 — hepsi BEYANLI çöl noktasının 200 km'si içinde
+
+| aday | mesafe | hangi beyana |
+|---|---|---|
+| Bardaî (Tibesti Teda başkenti) | 65 km | `Tibesti` |
+| Abalessa (Tin Hinan · Hoggar) | 70 km | `Tamanrasset` |
+| Vâv en-Nâmûs | 73 km | `Vâv el-Kebîr` |
+| Cânet (Djanet) | 88 km | `Tâsîlî n'Accer` |
+| İdeles · Zûâr | 119 km | `Tamanrasset` · `Tibesti` |
+| İllîzî | 150 km | `Tâsîlî n'Accer` |
+| Vûr | 162 km | `Tibesti` |
+| Tecerhî | 177 km | `Ramletü Zellâf` |
+
+⚠️ **Bu bir çelişki, ve tarafını ben seçmemeliyim.** Adı geçen beyan
+noktaları (`Tamanrasset` · `Tibesti` · `Tâsîlî n'Accer` · `Vâv el-Kebîr`
+· `Ramletü Zellâf`) **kasten konmuş dolgu noktalarıdır** — `CLAUDE.md
+§3`ün *"çölün emilip Osmanlı boyanmasını engellemek için konmuş"*
+dediği sınıf. Yanlarına sahipli bir yerleşim koymak, o çölü
+**boyatır.**
+
+Ama öbür uçta: **Bardaî Tibesti Teda'sının başkentidir, Abalessa
+Hoggar Tuareg'inin merkezidir.** Bunlar gerçek yerleşimlerdir ve
+`kabile` cinsinden bir künye (`tuareg-ahaggar` · `tubu-teda`)
+onları **doğru** boyayabilirdi.
+
+⇒ `§3.5.1`: *bir sınır kayması önerildiğinde İKİ UÇ DA ölçülür.*
+Ölçtüm; **kararı koordinatöre bırakıyorum** ve ikisini de yazmadım.
+
+### 13.2 🔴 KENDİ İDDİAMI ÖLÇTÜM VE ÇÜRÜTTÜM
+
+Ara raporumda şunu yazmıştım: *"`Dâhile (Villa Cisneros)` ile Mısır'ın
+`Dâhile`si çakışıyor, `girdi.yukle` **ValueError atar**."*
+**Yanlış.** Kuralı okudum (`arac/girdi.py:1180`):
+```python
+if y["ad"] in nereden:      # ← TAM DİZGİ karşılaştırması
+```
+Normalleştirme **yok**. Yani:
+```
+"Dâhile (Villa Cisneros)" ≠ "Dâhile"      → ValueError ATMAZ
+"Akka"                    ≠ "Akkâ"        → ValueError ATMAZ
+```
+⇒ İkisi de **koşu öldürücü değil**; yalnız **dizin karışıklığı**
+tehlikesi. Adları yine de ayırdım (`Vilya Sisneros (ed-Dâhle)`), ama
+**gerekçe değişti** — ve gerekçenin doğru olması, tedbirin kendisi
+kadar önemli.
+📌 `§11`in *"aracın söylediğini yapmadan önce aracın ne ölçtüğünü
+anla"* kuralı; bu sefer alet **benim kendi cümlemdi**.
+
+### 13.3 KALAN 98 HÜCRE — hepsi çöl
+
+```
+20..25 / -10..0     35   El-Cûf · Macâbat el-Kübrâ · Tanezruft   insansiz
+20..25 /   5..10    13   Tamesna · Aïr batısı                    kabile
+25..30 / -10..0     16   Hank · Erg Şeş · Tanezruft kuzeyi       insansiz
+20..25 /  15..20     9   Djourab · Borku                         kabile
+öteki bloklar       25   dağınık çöl                             karışık
+```
+⚠️ Cins ataması **kuşak düzeyinde** — hücre hücre kaynaklanmadı,
+Sahra altı kutumdaki aynı sınırla.
+
+---
+
+## 14. 🔴 BU RAPORUN BAYATLAYAN SATIRLARI — damga, silme değil
+
+Koordinatör (M-2546) *"kendi raporun sabahki teşhisleri taşıyor
+olabilir"* dedi. Ölçtüm: **sekiz sayı ve bir hüküm** bayat. Gövdeyi
+düzeltmedim — `§3.5.1`in kuralı: *"Ders SİLİNMEDİ, vakanın durumu
+DAMGALANDI. Bir vakayı silmek dersi de siler."*
+
+### 14.1 BAYAT SAYILAR — ve niçin değiştiler
+
+| nerede | raporda yazan | BUGÜNKÜ | sebep |
+|---|---|---|---|
+| §0 · §3 | 389 aday | **451** | +13 Arabistan · +35 K.Afrika · +9 çöl · +5 taşıyıcı |
+| §0 · §4 | 71 açık kalan | **52** | Arabistan 13 adayla 22→8 · 5 taşıyıcı nokta |
+| §12 | 95 künye | **99** | +3 Tuareg/Tubu (M-2448) · +1 `bate` (Emre'nin talimatı) |
+| §2.1 | ~65 eksik künye | **0** | 99'un tamamı yazıldı ve doğrulandı |
+| §10 | 211 BLOKE | **0** | künyeler yazılınca blok kalktı, 211'i de zincirlendi |
+| §10 | 178 zincirli | **389** | 178 + 211 |
+| §12.2 | 35 TDV / 60 akademik | **36 / 63** | dört yeni künyenin biri TDV (`bate` → `gine`) |
+| §13 | "bekleyen 9 karar istiyor" | **karar verildi** | M-2415: dokuzu da yazılacak |
+
+### 14.2 🔴 ÇÜRÜYEN HÜKÜM — ve bu bir sayı değil, bir TEŞHİS
+
+`§10.6` şunu yazıyordu:
+> *"`trablusgarp-ocagi · cezayir-ocagi · tunus-ocagi · cezayir-fransiz`
+> → künye VAR, BOYALAR'da renk YOK. Bunlar **Kuzey Afrika kutusunda
+> kullanılacaklar.** `§8`: rengi olmayan kimlik BOYANMAZ."*
+
+🔴 **ÇÜRÜDÜ.** Ölçtüm (M-2420):
+```
+trablusgarp-ocagi   s: içinde 0 dönem
+cezayir-ocagi       s: içinde 0 dönem
+tunus-ocagi         s: içinde 0 dönem
+cezayir-fransiz     s: içinde 0 dönem
+```
+Sebebi: **Osmanlı ocaklıkları `s:` ile değil `v:` mekanizmasıyla
+yazılmış** — `v:[{f,t,k:"Trablusgarp Ocaklığı (Karamanlılar)"}]`,
+39 kayıtta. Veride `d:` taşıyan 809, `v:` taşıyan 366 kayıt var.
+⇒ Bu dördü **renk İSTEMİYOR.** *"Yarın kusur olacak"* demem
+**yanlış alarmdı.**
+
+📌 Ve bu, aynı raporun `§10.5`indeki Liberya vakasının **aynası**:
+orada gerçek bir hayaleti durdurdum, burada **olmayan bir kusuru
+ihbar ettim.** İkisi de tek dersten çıkıyor:
+> ***Bir kimliğin durumunu, kimliğin KENDİSİNE değil VERİDEKİ
+> KULLANIMINA sorarak ölç.***
+
+⚠️ Ve koordinatörün 26 künyelik "renksiz" listesinin geri kalanını
+**ölçmedim** — yalnız bu dördünü. Ötekiler için hüküm vermiyorum;
+ama aynı sınav onlara da uygulanmalı.
+
+### 14.3 AYAKTA KALAN TEŞHİSLER — bunlar bayatlamadı
+
+```
+🟢 §2    darboğaz nokta değil KİMLİK          — ve 99 künye onu kanıtladı
+🟢 §5    TDV'de ülke maddesi canlı, etnik ölü — desen değişmedi
+🟢 §6    mesafe sınavı ad sınavının yerini tutmaz — 6 mükerrer önledi
+🟢 §7    ölçmediklerim listesi                — hâlâ ölçülmedi
+🟢 §9.3  Cenne'nin beyanı Hamdullahi/Mopti ile görünmez olabilir
+🟢 §10.3 üç haneli yıl tuzağı — koordinatörün aletini de vurdu
+🟢 §10.5 Liberya hayaleti                     — künye yazıldı, hüküm durdu
+🟢 §13.2 girdi.py tam dizgi karşılaştırır      — kendi iddiamı çürütmüştüm
+```
+
+### 14.4 GÜNCEL SAYILAR — bu belgeden bir sayı alacaksan BURADAN al
+
+```
+künye              99   (TDV kaynaklı 36 · akademik 63)
+                        t: gün hassasiyetli 42 · yıl hassasiyetli 57
+aday nokta        451   hepsi zincirli · bloke 0
+beyan hücresi     161   Sahra altı 71 → Arabistan çözülünce 49 + K.Afrika 90
+kısıt çifti       526   zaman duyarlı (naif 591; 65'i sahte/artefakt)
+Sahra altı       1146 → 52 açık   (%58,5 → %2,7)
+Kuzey Afrika      207 → 87 açık   (%31,4 → %13,2)
+taşıyıcısız künye   6   (çareleri M-2454'te; 5'i çözüldü, rabih koordinatörde)
+```
+
+📌 **Ve bu bölümün kendisi de bayatlayacak.** Bir sonraki oturum
+buradan bir sayı alacaksa, önce `denetim/BULGU-AFRIKA-0903-*.json`
+dosyalarını saysın — belge fotoğraf, JSON ölçüm.

@@ -713,3 +713,673 @@ KENDİ ALETİMDE     3 kusur ihbar edildi
 > **Bu tur hiçbir `data/` dosyasına yazmadı.** Koşu (PID 1268)
 > sürerken `data/` ve `arac/` donmuştur; bu belge bir **reçetedir** ve
 > uygulaması koşu bittikten sonra, dosya sahibi tarafından yapılır.
+
+---
+
+# İKİNCİ TUR — kalan 931'in cinsi
+
+> Koordinatör M-2398 ile üç iş verdi: ① kalanın cinsini ölç ② künye
+> kolu ③ kütük kaynak biçimi. Bu bölüm onların cevabı.
+
+## 14. 🔴 ÖNCE BİR SAYI DÜZELTİLDİ — kalan 1093 değil **931**
+
+M-2398 *"taban 1138 · 45 aday · kalan ~1093"* diyordu. O sayı
+**1138 − 45**. Ama bir aday bir hücre kapatmaz:
+
+```
+çıkarma :  1138 − 45  = 1093     ← YANLIŞ
+ölçüm   :  1138 − 207 = 931      ← DOĞRU
+sebep   :  bir nokta 200 km yarıçapla ~4,6 hücre kapatıyor
+```
+
+Bekletmeden bildirildi (M-2400); koordinatör kabul etti ve düzeltilmiş
+tabanı bütün bölgelere yaydı (M-2402).
+
+📌 **Ve buradan bir kural doğdu:** *bir aday bir hücre kapatmaz.*
+Kapanma **ölçülür** — yeni noktalarla ızgara yeniden taranır;
+**çıkarılmaz**. Oran sabit de değil: seyrek bölgede yüksek, doygun
+bölgede ~1'e iner.
+
+---
+
+## 15. KALAN 931'İN CİNSİ — ve ÜÇ KOVA BOŞ ÇIKTI
+
+```
+karma           489   %52,5   hem nokta hem beyan gerekiyor
+nokta-adayi     224   %24,1   yerleşim VARDI, aranmadı
+karma-zamanlı   114   %12,2   1725 Araukanya kırılması
+kabile          103   %11,1   gerçek beyan
+insansiz          1    %0,1   Güney Georgia, 1904 öncesi
+─────────────────────────────
+devletsiz         0
+veri-yok          0
+hata              0
+```
+
+### 15.1 Üç kovanın boş çıkması bir SONUÇTUR, eksiklik değil
+
+Sebebi tek: **HSAI Güney Amerika'nın tamamını etnografik olarak
+kapsıyor. Kaynak hiçbir yerde SUSMUYOR.**
+
+```
+veri-yok   "kaynak SUSUYOR"  → kutumda susan yer YOK
+devletsiz  "kaynak AÇIKÇA 'merkezî devlet yoktu' diyor" — bu bir
+           İDDİADIR ve HSAI onu kurmuyor; band/klan örgütlenmesi
+           ANLATIYOR, ki o `kabile`
+hata       veri kusuru — bu turda rastlanmadı
+```
+
+⇒ Koordinatörün beş kovası **Güney Amerika'da fiilen üçe iniyor**:
+`kabile` · `insansiz` · ve çoğunlukla **nokta**.
+
+### 15.2 🔴 ALTINCI SINIF EKLENDİ — `nokta-adayi`
+
+Beş kovanın hiçbiri şunu ifade edemiyor: *"burası boş değil, yerleşim
+vardı, **aranmadı**."*
+
+`veri-yok` yazmak yalan olurdu — kaynak susmuyor, **ben bakmadım**.
+
+> ***`veri-yok` bir SONUÇTUR; "aranmadı" bir BORÇTUR.***
+
+İkisini aynı kovaya koymak borcu sonuç gibi gösterir — ve bir sonraki
+oturumu **oraya bakmaktan alıkoyar.** Koordinatörün *"ölçülemedi ≠
+temiz"* kuralının **kova tarafı**. Bu yüzden `nokta-adayi` bir kova
+değil, **ayrı bir alan**.
+
+### 15.3 Alt bölge dağılımı
+
+| alt bölge | kalan | öneri |
+|---|---:|---|
+| Mato Grosso / Planalto Central | 149 | karma 🔴 IBGE 403, **hiç ölçülmedi** |
+| Nordeste sertão | 90 | nokta-adayi |
+| Kuzeybatı Amazon (Rio Negro) | 84 | karma |
+| Orta Amazon (Madeira–Tapajós) | 74 | karma |
+| Guyana Kalkanı | 61 | kabile |
+| Patagonya–Arjantin | 59 | karma-zamanlı |
+| Pampa | 55 | karma-zamanlı |
+| Doğu Amazon | 50 | karma |
+| Güney Brezilya | 48 | karma |
+| Chiquitos–Moxos | 47 | nokta-adayi |
+| Atacama / KB Arjantin | 45 | nokta-adayi |
+| Gran Chaco | 43 | karma |
+| Llanos | 41 | karma |
+| Patagonya–Şili kanalları | 39 | kabile |
+| Orta And | 19 | nokta-adayi |
+| sınıflanmamış | 17 | nokta-adayi |
+| Ateş Toprakları · Kuzey And · Falkland | 3+3+3 | kabile / nokta |
+| Güney Georgia | 1 | insansiz |
+
+📄 Hücre hücre çıktı: **`gam_kova.json`** —
+`{lat, lon, uzak_km, alt_bolge, oneri, gerekce}` × 931.
+
+### 15.4 🔴 GRANÜLARİTE BEYANI — önceden, ve bu bir SINIRDIR
+
+Atama **alt bölge** düzeyindedir. **931 hücrenin her biri için ayrı
+kaynak taraması YAPILMADI.** Kural alt bölgeye kuruldu, hücreye
+uygulandı. Bir alt bölge içinde istisna olabilir ve **bu ölçülmedi.**
+Koordinatör *"hücre hücre"* istemişti; dürüst tanecik budur.
+
+---
+
+## 16. 🟢 EN DEĞERLİ BULGU — 114 hücre için künye ZATEN VAR
+
+HSAI c.2, birebir alıntı:
+
+> *"we can establish 1725 as the approximate date in which the
+> Araucanians were definitely established in the great plains …
+> rapidly became the dominant one"*
+
+⇒ **Pampa (55) + Patagonya–Arjantin (59) = 114 hücre zamanla
+değişiyor:**
+
+```
+1281 – 1725   kabile                (Tehuelche · Puelche · Querandí)
+1725 – 1883   mapuche-araukanya     ← 🟢 BU KÜNYE ZATEN VAR
+                                       (1281-01-01 .. 1883-01-01)
+1883 –        arjantin-cumhuriyeti
+```
+
+Yani 114 hücre **beyan değil nokta işi**, ve **yeni künye
+gerektirmiyor.** Atlas bunu `s:` dönemleriyle zaten ifade edebiliyor.
+
+---
+
+## 17. KÜNYE KOLU — bir öncül çürüdü, bir engel ölçüldü
+
+### 17.1 Koordinatörün listesi sınandı
+
+M-2398 ②'de *"(Mapuçe · Guaraní · Çarrúa · Tupi · Şuar…)"* yazıyordu.
+**Mapuçe künyesi ZATEN VAR** — `mapuche-araukanya`, 1281-01-01 ..
+1883-01-01, `kaynak:` alanı dolu. Ötekiler gerçekten yok.
+
+43 halk adı tarandı: **VAR 6 · YOK 37.**
+
+```
+VAR : mapuche-araukanya · diaguita-calchaqui-konfederasyonu ·
+      muisca-konfederasyonu · chimu-krallik · colla-krallik ·
+      lupaqa-krallik
+YOK : guarani · charrua · tupi · shuar · jivaro · tehuelche ·
+      selknam · yahgan · alacaluf · toba · mataco · abipon ·
+      mbaya · guaycuru · chiquito · moxo · baure · omagua ·
+      manao · tapajo · mundurucu · mura · tupinamba · bororo ·
+      kaingang · kayapo · wayuu · guajiro · carib · otomac ·
+      achagua · puelche · querandi  (+4)
+```
+
+⚠️ Ve **kendi aletim 2 sahte eşleşme üretti**: `ona` → `bonacolsi`,
+`arawak` → `sarawak-brooke`. Alt-dizgi eşlemesi — bugün üçüncü kez
+aynı sınıf.
+
+### 17.2 🔴 ENGEL ÖLÇÜLDÜ — HSAI künye `t:` günü VERMİYOR
+
+Bir künye `t:` ister (halkın siyasî varlığının bittiği gün). HSAI bir
+**etnografya** el kitabı, siyasî kronoloji değil.
+
+```
+"bitiş ifadesi + yıl" içeren cümle sayısı:
+  Charrúa    0
+  Yahgan     0
+  Tehuelche  1   ← ve o da yay-ok kullanımının bitişi, SİYASÎ DEĞİL
+```
+
+Var olan yerli künyelerin `t:` değerleri (mapuche 1883 · diaguita 1667
+· muisca 1537) **başka kaynaklardan** gelmiş.
+
+⇒ 37 künyenin `t:` günü için **ayrı bir kaynak türü** gerekiyor ve
+bunu bu turda **bulamadım**. `ölçemedim` diye yazılıyor.
+
+### 17.3 🟢 VE BURADAN BİR ÖLÇÜT ÇIKTI
+
+Var olan altı künyenin altısı da **teritoryal siyasî yapı**: chimu ·
+colla · lupaqa (krallık) · muisca · diaguita (konfederasyon) · mapuche
+(savaşı ve datable bitişi olan). Buna karşılık HSAI c.1'in *"Marginal
+Tribes"*i band düzeyi.
+
+```
+KÜNYE OLUR    teritoryal yapı  +  DATABLE bitiş
+KABİLE KALIR  band/klan düzeyi  ya da  datable bitişi olmayan
+```
+
+⇒ **37'nin hepsine künye GEREKMİYOR.** Ateş Toprakları ve Patagonya
+kanallarındaki halklar (Yahgan · Alacaluf · Chono · Ona) künye değil
+`bos:"kabile"` olmalı — **çizilecek bir siyasî gövde yok.**
+
+⚠️ Bu bir **ölçüt önerisidir**. 37'nin hangisi hangi tarafa düşer,
+**tek tek ölçülmedi.**
+
+---
+
+## 18. ⚠️ KENDİ ALETLERİMDE BUGÜN BEŞ KUSUR
+
+Beşi de burada, sonuç düzeldikten sonra da:
+
+| # | kusur | bedeli olurdu |
+|---|---|---|
+| ① | hayalet denetimi tarihleri **dizgi** karşılaştırıyordu; `fransa` künyesi üç haneli (`987-01-01`) | 3 sahte hayalet (São Luís · Cayenne · Georgetown) |
+| ② | kütük çıkarım regex'i **katastrofik geri izleme** — 120 sn'de bitmedi | alet hiç çalışmazdı |
+| ③ | ad benzerliği süzgeci `len>4` ile herhangi bir alt-dizgiyi eşliyordu | 22 sahte uyarı (`Oş` → `sanignaciodemoxos`) |
+| ④ | kova haritasında **`Güney Brezilya` kuralı hiç yoktu** | 48 hücre sessizce sınıflanmamışa düşüyordu, **ve alet TEMİZ görünüyordu** |
+| ⑤ | alt bölge kutuları **örtüşüyor** (21 çift) ve "ilk tutan alır" geçerli | Gran Chaco bir sırada 43, ötekinde 54 — **değişen tek şey KURAL SIRASIYDI** |
+
+🟢 ④ ve ⑤ düzeltildi; sıra `kalan.py` ile aynı yapıldı ve iki bağımsız
+ölçüm artık **birebir aynı sayıyı** veriyor (43 · 17). Örtüşme listesi
+çıktıda **basılıyor**, gizlenmiyor.
+
+📌 ④ en sinsisi: *bir kuralın **yokluğu** hiçbir hata üretmez, yalnız
+sessiz bir kova doğurur.* `§11`in *"sessiz atlama, yanlış sonuçtan
+pahalıdır"* dersinin kural-tablosu yüzü.
+
+---
+
+## 19. GÜNCEL DURUM
+
+```
+TABAN        1138 açık (1° ızgara)
+KAPANAN       207  (45 aday · ön sınav KIRMIZI 0)
+KALAN         931  ⇒  %73,8 → %60,4
+CİNS          karma 489 · nokta-adayi 224 · karma-zamanlı 114 ·
+              kabile 103 · insansiz 1 · (devletsiz/veri-yok/hata: 0)
+KÜNYE         VAR 6 · YOK 37 · `t:` günü için kaynak BULUNAMADI
+KENDİ ALETİM  5 kusur ihbar edildi
+```
+
+**Sıradaki iş için önerim** (öncelik koordinatörün):
+1. `karma` + `nokta-adayi` = **713 hücre** — kütükte malzeme var, en
+   çok kazanç orada; özellikle Kuzeybatı + Orta Amazon (158).
+2. **Mato Grosso 149** — IBGE 403 yüzünden **hiç ölçülmedi**. Başka
+   bir oturumda erişim varsa **o alsın**; bende yok.
+3. Patagonya/Fuego `kabile` beyanları (**145 hücre**) — kova belli,
+   **en ucuz iş.**
+
+---
+
+# ÜÇÜNCÜ TUR — yöntem çürüdü, ölçüm 2,3 kat iyileşti
+
+## 20. 🔴🔴 KENDİ ÇALIŞMA BİÇİMİMİ ÇÜRÜTTÜM
+
+İkinci parti (18 aday: Maynas misyon ağı · Rio Negro–Vaupés ·
+Kyk-over-al) yazıldıktan sonra **marjinal** kazancı ölçtüm — *"bu
+adayı çıkarsam kaç hücre geri açılır?"*
+
+```
+parti 1   45 aday · 207 hücre · 4,6 hücre/aday
+parti 2   18 aday ·  86 hücre · 4,8 hücre/aday
+BİRLİKTE  63 aday · 271 hücre · 4,3 hücre/aday
+parti 2'nin MARJİNAL katkısı: 64   (22 hücre iki partide de kapanıyor)
+```
+
+🔴 **63 adayın 25'inin marjinali SIFIR.** Kütükten çıkardığım
+yerleşimlerin %40'ı, başka bir adayın **zaten** kapattığı hücreleri
+kapatıyor.
+
+⚠️ **Bu "o 25 aday değersiz" demek DEĞİL** — hepsi gerçek, kaynaklı
+yerleşim ve atlas onları zaten istiyor. Ölçü **yalnız kapama**.
+
+### 20.1 Sebep: KÜTÜK-ÖNCE çalışıyordum
+
+Kütük **coğrafyaya göre değil HALKA göre** düzenli, ve bir halkın
+misyonları **yan yana**. Yani kütüğün kendi yapısı beni
+**kümelenmeye itiyor.**
+
+### 20.2 🟢 DELİK-ÖNCE ölçüldü — 2,3 KAT
+
+Açgözlü kapama koşturuldu: *önce boşluğun merkezini bul, sonra
+"burada ne vardı" diye kütüğe sor.*
+
+```
+30 nokta · 298 hücre · 867 → 569
+nokta başına  9,9 hücre        KÜTÜK-ÖNCE: 4,3
+```
+
+📌 **Bu, koordinatörün M-2368 ② kuralının bir kademe ötesi.** O
+*"kaynaklandırmadan ÖNCE kaç hücre kapatacağını ölç"* diyor — aday
+**eldeyken**. Bu bulgu diyor ki: ***aday seçiminin kendisi ölçümden
+sonra yapılmalı.*** Aynı kütük, aynı emek, **2,3 kat kapama**.
+
+⚠️ **Sınırı önceden yazıldı:** açgözlü merkez bir **koordinattır**,
+bir yerleşim değil. O koordinatta gerçekten yerleşim olmayabilir — o
+zaman cevap nokta değil **beyan** olur, ve **yine ilerlemedir**:
+hücre kapanmış değil, **cinsi yazılmış** olur.
+
+---
+
+## 21. BEYAN REÇETESİ — 10 kayıt, 116 hücre
+
+Koordinatörün ② önceliği. Delik-önce yöntemiyle üretildi.
+
+### 21.1 Dayanak — HSAI'nin birebir alıntıları
+
+**Cooper, HSAI c.1** (*Patagonian and Pampean Hunters*):
+
+> *"The period came to an end with the military campaigns under
+> Generals Julio Roca and Conrado Villegas in **1879-83**, which
+> completely defeated and disorganized the Indian confederates,
+> cleared the Pampa region almost entirely of its Indian inhabitants,
+> and drove most of the survivors beyond the Río Negro and into
+> Neuquén. **Recent period, 1883 to date.**—Settlers, following the
+> frontier, have taken up most of the country from the northern limit
+> of the Pampa to the Strait of Magellan."*
+
+🟢 **Bu, `mapuche-araukanya` künyesinin `t:1883-01-01` değerini
+DOĞRULUYOR** — künyenin kendi `kaynak:` alanı yalnızca *"Standart
+akademik"* diyordu; bu onu **isimlendiriyor**.
+
+**Cooper, HSAI c.2** (*Araucanians*):
+
+> *"we can establish **1725** as the approximate date in which the
+> Araucanians were definitely established in the great plains"*
+
+### 21.2 Üç kova, üç zincir
+
+| kova | kayıt | hücre | 1281–? | sonra |
+|---|---:|---:|---|---|
+| **kuzey** (Arjantin pampası + K.Patagonya) | 6 | 62 | kabile (Tehuelche·Puelche·Querandí) | `mapuche-araukanya` 1725→1883, sonra `arjantin-cumhuriyeti` |
+| **güney** (G.Patagonya + kanallar + Fuego) | 3 | 43 | kabile (Marginal Tribes) | `arjantin-` / `sili-cumhuriyeti` 1883→ |
+| **doğu** (Uruguay + Rio Grande) | 1 | 11 | kabile (Charrúa·Minuán·Guenoa) | `uruguay-cumhuriyeti` 1828→ |
+
+**11,6 hücre/kayıt** — bugünün en verimli işi.
+
+### 21.3 ⚠️ VE ALETİMDE İKİ KUSUR DAHA (bugün altı ve yedi)
+
+| # | kusur | yönü |
+|---|---|---|
+| ⑥ | `bolge()` −31,5/−56,5'i "kuzey" sayıp ona **`mapuche-araukanya`** atadı — **orası URUGUAY** ve Araukanyalılar Uruguay'a **hiç geçmedi** (HSAI'nin 1725 ifadesi *"the great plains"*, yani Arjantin pampası) | **FAZLA** kimlik |
+| ⑦ | `guney` kovası `s: []` veriyordu — 1281–1923 boyunca hiçbir kimlik. Ama HSAI *"Recent period, 1883 to date"* diyor: 1883 sonrası Patagonya **boş değil** | **EKSİK** kimlik |
+
+📌 İkisi de aynı sınıf — **bir enlem-boylam eşiği coğrafyanın yerine
+geçemiyor** — ama **yönleri ters**. ***Bir kural iki yöne de
+bozulabilir,*** ve tek yönü sınamak yarısını kaçırır.
+
+⚠️ Ve bir sınır **ölçülmedi, yazıldı**: Arjantin–Şili sınırı bu
+enlemlerde **dağa** göre çizili, boylama göre değil. `−72` eşiği bir
+**yaklaşımdır**; kesin sınır gerekiyorsa koordinat tek tek
+denetlenmeli. **Ölçmedim.**
+
+---
+
+## 22. ÜÇ TURUN TOPLAMI
+
+```
+kayıt          63 nokta + 10 beyan = 73
+ÖN SINAV       KIRMIZI 0
+kapanan       387 hücre
+TABAN        1138  (%73,8)
+KALAN         751  (%48,7)
+kayıt başına  5,3 hücre
+```
+
+**Açık oran %73,8 → %48,7.** Boşluğun üçte biri kapandı.
+
+### 22.1 İkinci parti — 18 nokta (HSAI c.3 · c.4)
+
+Maynas misyon ağı, tamamı tarihli ve tek kütükten:
+
+| yerleşim | konum | kuruluş |
+|---|---|---|
+| Jaén de los Bracamoros | −5,71 / −78,81 | 1549 |
+| Archidona (Napo) | −0,91 / −77,81 | 1536 |
+| Borja (Maynas) | −4,47 / −77,55 | 1619 |
+| Tonua (Chinchao) | −9,60 / −75,95 | 1631 |
+| Concepción de Xéveros | −5,28 / −76,29 | 1640 |
+| Santa María de Ucayali | −6,10 / −74,60 | 1653 |
+| San Miguel (Aushiri) | −1,90 / −75,20 | 1665 |
+| Santiago de la Laguna | −5,23 / −75,68 | 1670 |
+| San Joaquín de Omaguas (Fritz) | −3,60 / −72,30 | 1686 |
+| Tefé (Teffé de Aisuaris) | −3,35 / −64,71 | 1688 |
+| Santo Tomé de los Andoas | −2,90 / −76,40 | 1708 |
+| Canelos (Bobonaza) | −1,58 / −77,75 | 1712 |
+| San José de los Nuevos Icaguates | −0,60 / −75,25 | 1733 |
+| Yavaraté (Vaupés) | 0,61 / −69,20 | 1784 |
+| Panoré (São Gabriel) | −0,13 / −67,09 | 1784 |
+| Caruru (Vaupés) | 1,02 / −71,28 | 1852 |
+| Kyk-over-al (Essequibo) | 6,40 / −58,68 | 1616 |
+| Cametá (Tocantins) | −2,24 / −49,50 | 1635 ⚠️ |
+
+⚠️ Cametá'nın yılı **kütükten doğrulanmadı** — standart akademik
+kabul, `kaynak:` alanında **açıkça** böyle yazılı.
+
+---
+
+## 23. AÇIK SORU — `kur:` kuralı beş kaydı bağlıyor
+
+M-2410 ①: *`kur:` = en erken **KALICI** yerleşim olayı.* Beş kaydım
+kalıcı **değil** — kuruldular ve **bittiler**:
+
+```
+Floridablanca (San Julián)        1780 → 1784   (CONICET)
+Rey Don Felipe (Magallanes)       1584 → ~1590
+Ciudad Real del Guairá            1554 → 1632
+Santo Domingo de la Nueva Rioja   1564 → ~1570
+San Sebastián de Urabá            1510 → ~1524
+```
+
+**Soru:** `kur:` "kalıcı" olanı istiyorsa bunlarda `kur:` yazılmaz
+mı — yoksa `kur:` kuruluş günüdür ve "kalıcı" ölçütü yalnız **aynı
+yerin birden çok kuruluşu** olduğunda mı devreye girer?
+
+**Eğilimim ikincisi**, ama **seçmiyorum**. Koordinatöre soruldu
+(M-2417).
+
+📌 Ve bu kayıtlar değerli: atlas çoğunlukla *"kuruldu ve sürdü"*
+taşıyor; bunlar ***"kuruldu ve BİTTİ"*** örneği — Patagonya'nın
+gerçek hikâyesi bu.
+
+---
+
+## 24. GÜNCEL DURUM — üç tur sonunda
+
+```
+TABAN         1138 açık hücre (1° ızgara · %73,8)
+KAYIT           73  (63 nokta + 10 beyan) · ÖN SINAV KIRMIZI 0
+KAPANAN        387
+KALAN          751  (%48,7)
+KÜTÜK         10,1 MB (HSAI c.1·2·3·4·7) · aranabilir · elde
+YÖNTEM        delik-önce 9,9 hücre/nokta · kütük-önce 4,3
+KÜNYE         VAR 6 · YOK 37 · `t:` günü için kaynak BULUNAMADI
+ALET KUSURU     7 ihbar edildi
+ÇELİŞKİ         2 koordinatör kararında · 1 kapatıldı (gerekçesi yazılı)
+```
+
+**Sıradaki** (koordinatörün onayladığı öncelik):
+1. `karma` + `nokta-adayi` = 713 hücre, **delik-önce** yöntemiyle
+2. Mato Grosso 149 — **devredildi** (IBGE 403, bende erişim yok)
+3. Kalan beyanlar — kova belli, kütük elde
+
+---
+
+# DÖRDÜNCÜ TUR — teslim edilmiş verinin bütünlüğü
+
+## 25. 🔴🔴 ON BİR UYDURMA TARİH — hepsi üç kapıyı geçmişti
+
+Koordinatör (M-2484 ①) şunu istedi: *"her tarihin `kaynak:`ta
+karşılığı VAR MI? Bir kayıt tek kaynak taşır ama DÖRT tarih (`kur` ·
+`s[].f` · `s[].t` · `bit`) — kaynağın birini doğrulaması ötekileri
+doğrulamaz."*
+
+73 kaydın **368 tarihine** koşturuldu:
+
+```
+🟢 kaynak metninde yılı GEÇİYOR   125   %34,0
+🟡 atlasın ORTAK takvimi          227   %61,7
+   (bağımsızlık günleri · künye sınırları — kayda ÖZEL iddia değil)
+🔴 DAYANAKSIZ                      16    %4,3   ← SEKİZ KAYIT
+```
+
+`bit:` kuralının yakaladığı **üç** uydurma tarihe **sekiz kayıt
+daha** eklendi. Toplam **on bir**, hepsi teslim edilmiş veride.
+
+### 25.1 Kütüğe geri dönüldü
+
+| kayıt | eski | yeni | dayanak |
+|---|---|---|---|
+| Santa María de Huallaga | 1650 | **1649** | *"In 1649, the Mission of Santa Maria de Huallaga was established… by Father Bartolomé Perez"* |
+| Sarayacu (Ucayali) | 1791 | **1790** + `bit:`**1861** | *"founding Sarayacu in 1790… in 1861 the missionaries abandoned Sarayacu"* |
+| Santa Magdalena | 1720 | **1767** | ALT SINIR — kaynak misyonu ilk 1767'de anıyor, açıkça yazılı |
+| Reyes (Maropa) | 1710 | **1716** | ALT SINIR, açıkça yazılı |
+
+**Üçü için tarih bulunamadı** — Mompox · Pasto · Píritu.
+Silinmediler; **`BEKLET`** damgası kondu, uygulayıcı atlasın.
+
+### 25.2 🔴 VE BİR MÜKERRER ÇIKTI — 3 km kuralının göremeyeceği
+
+```
+"San Joaquín de los Omaguas"      -4,10 / -73,30
+"San Joaquín de Omaguas (Fritz)"  -3,60 / -72,30
+AYNI MİSYON · aralarında 123 KM
+```
+
+Konumdan emin olmadığım için ikisini de **kabaca** yerleştirmiştim;
+eşik 3 km olduğu için sınav ikisini de temiz geçirdi.
+
+⇒ ***3 km kuralı, KOORDİNATI BELİRSİZ bir mükerreri yakalayamaz.***
+Varat/Varad 1 km'ydi; bu 123 km. **Eşik ne kadar dar olursa
+belirsizlik o kadar kolay kaçar.**
+
+🟢 **Yakalayan şey mesafe değil, TARİH DENETİMİ oldu** — ikisinin de
+tarihi dayanaksızdı, kütüğe dönünce **aynı cümleye** düştüler.
+📌 *Bir denetimin bulacağı şey, aradığı şeyle sınırlı değildir.*
+
+---
+
+## 26. BEŞ KOORDİNAT DENİZDEYDİ — ve bir uyarının mekanizması çürüdü
+
+`ne_10m_land` ile sınandı:
+
+```
+🟢 ikisinin de içinde         20
+🟡 kara VAR, motor_kara YOK   48
+🔴 GERÇEK KARA DIŞINDA         5   ← BENİM HATAM
+```
+
+Beşi de kıyı noktası, deniz tarafına düşmüş. En fazla **1,50 km**
+içeri kaydırıldı **ve yazılacağı hassasiyette (4 ondalık) sınandı**
+— `§11`in *"reçete kendi testini geçmek zorundadır"* kuralı.
+
+### 26.1 🔴 M-2351'in mekanizması ölçüldü ve çürüdü
+
+Koordinatör *"`motor_kara` −45,5'te bitiyor, `denetle.py` konum
+ihlali der"* demişti. Ölçüm:
+
+```
+arac/denetle.py:2821   kara_yol = ... "ne_10m_land.geojson"
+```
+
+⇒ **`denetle.py` `motor_kara`yı HİÇ OKUMUYOR.** Ve okumamalı:
+`motor_kara` her koşuda `unary_union(PETEK_D)` ile yeniden üretilen
+bir **çıktı**.
+
+📌 ***Boşluk dolduran her nokta, tanımı gereği, ESKİ `motor_kara`nın
+dışındadır.*** 48 kayıt bir sorun değil; gerçek risk 5 kayıttı.
+
+---
+
+## 27. İKİZ BEYANI — ve onu KENDİ DÜZELTMEM doğurdu
+
+Kıyı düzeltmesi **Fuerte Bulnes** ile **Rey Don Felipe**'yi 3 km'nin
+altına indirdi (**2,64 km**).
+
+Mükerrer değil — zaman çizgileri **tamamen ayrık**:
+```
+Rey Don Felipe  1584 → (bitiş BİLİNMİYOR)     İspanyol kolonisi
+Fuerte Bulnes   1843 → 1923                    Şili kalesi
+                       259 YIL ara
+```
+
+`denetle.ikiz_ayikla` sözleşmesine göre **karşılıklı** ve **iki
+tarafta da kaynaklı** beyan edildi.
+
+📌 *Bir düzeltme yeni bir kapıyı tetikleyebilir* — ve tetiklediği
+kapı doğru çalıştı.
+
+---
+
+## 28. KÜNYE REÇETESİ — yatay bir mesaj duvarı yıktı
+
+📄 Tam hâli: **`denetim/ONERI-GAMERIKA-0903-kunyeler.md`**
+
+`DUNYA-AFRIKA-0903` yatay kanaldan (M-2490) ölçülmüş bir desen
+gönderdi:
+
+> 🔴 ***Bir yerli siyasî yapının `t:` günü, genellikle o yapının
+> değil SÖMÜRGECİNİN tarihidir.***
+
+Kendi 42 vakası: `vasulu` 1898-09-29 (Samori'nin esir alınışı) ·
+`tsvana` 1885-03-31 (himaye kararnamesi). Ve açıkça damgaladı:
+*"Bunu ÖLÇMEDİM senin coğrafyanda… sınamak sende."*
+
+**Sınandı, tutuyor:** Charrúa'nın günü Uruguay ordusunun kaydında,
+Guaraní'ninki bir **İspanya krallık fermanında** (Pragmática Sanción).
+
+### 28.1 🟢 VE SINARKEN YENİ BİR ARAMA EKSENİ ÇIKTI
+
+`Ranquel` için HSAI c.1'de **sıfır geçiş** ölçmüş ve *"kütükte yok"*
+demiştim. **Yanlıştı.** Kütük şunu diyor:
+
+> *"…completely defeated and disorganized **the Indian confederates**…
+> Recent period, 1883 to date."*
+
+⇒ **Varlık anlatılıyor, adı anılmıyor.**
+
+📌 `§4`in arama ekseni ailesine **yeni bir üye**:
+```
+yazım      usku ≠ Üsküp
+slug       ordu ≠ ordu--sehir
+yıl biçimi 1395 ≠ "1394-95"
+takvim · noktalama · olmayan alan
+🆕 TASVİR  kütük varlığı ADIYLA değil TASVİRİYLE anmış olabilir
+```
+⚠️ Ve tehlikesi büyük: sıfır sonuç *"kütükte yok"* diye okunur, ve o
+hüküm bir sonraki oturumu **aramaktan alıkoyar.** Ben tam bunu
+yapmıştım.
+
+### 28.2 Üç künye adayı — üçü de artık `t:` taşıyor
+
+| künye | `f:` | `t:` | durum |
+|---|---|---|---|
+| `ranquel` | 1281-01-01 | **1883-01-01** | 🟢 kütükten, birebir alıntı |
+| `charrua` | 1281-01-01 | **1831-01-01** | 🟡 yıl sağlam, **gün doğrulanamadı** |
+| `guarani-misyonlari` | 1609-01-01 | **1767-01-01** | 🟡 yıl sağlam, **gün çelişkili** (3 farklı gün) |
+| `mbaya-guaycuru` | — | — | 🔴 **yazılmasın**, `t:` yok |
+
+Ve **yazılmayacaklar** bir sonuçtur: Yahgan · Alacaluf · Chono · Ona ·
+Tehuelche · Poya · Puelche → `bos:"kabile"`. HSAI'nin kendi tasnifi
+onları *"The Marginal Tribes"* diye sayıyor; **çizilecek siyasî gövde
+yok.**
+
+⚠️ AFRIKA bir öncülü kendi düzeltti: koordinatörün *"98/98 `t:`
+buldu"* cümlesi yanlışmış — *"98/98 `t:` YAZDIM, 56'sını yıl
+hassasiyetinde"*. ***Bulmak ile yazmak aynı şey değil.***
+
+---
+
+## 29. HÜCRE·YIL ÖLÇÜTÜ — kuyruk yeniden sıralandı
+
+| tür | kayıt | hücre | hücre·yıl | ort. yıl | hy/kayıt |
+|---|---:|---:|---:|---:|---:|
+| **beyan** | 10 | 120 | **77.040** | 642 | **7.704** |
+| nokta 1281–1600 | 13 | 68 | 24.938 | 371 | 1.918 |
+| nokta 1600–1750 | 32 | 227 | 53.189 | 237 | 1.662 |
+| nokta 1750+ | 17 | 144 | 14.669 | 110 | 863 |
+| **TOPLAM** | **72** | | **169.836** | | |
+
+🔴 **Kayıt başına beyan, noktanın BEŞ KATI hücre·yıl üretiyor:**
+**7.704 ↔ 1.497.** Sebep tek: beyan 1281'den itibaren geçerli, yani
+atlas penceresinin **tamamına** hizmet ediyor.
+
+> ⚠️ **DÜZELTME — ilk yazdığım manşet kendi sayılarımla çelişiyordu.**
+> *"On beyan, altmış iki noktanın toplamından fazla üretiyor"* diye
+> yazmıştım; tabloda **62 nokta 92.796**, **10 beyan 77.040** —
+> yani **toplamda NOKTALAR ÖNDE**. Sayılar doğruydu, **cümle ters
+> kuruluydu.** Koordinatör yakaladı (M-2498).
+> 📌 Ve doğrusu manşetten güçlü: karşılaştırılabilir olan **oran**,
+> toplam değil — toplam kayıt SAYISINA bağlıdır, bir ölçü değildir.
+
+### 29.1 Asıl sayı: zaman derinliği verimi
+
+```
+kapatılan hücre                385
+o hücrelerin TAVANI    385 × 642 = 247.170 hücre·yıl
+gerçekleşen                      169.836
+⇒ mevcut zaman derinliğinin %68,7'si yakalandı
+```
+
+Eksik %31,3 tam olarak koordinatörün işaret ettiği şey: **bir
+hücreyi 1750'de kapatmak, onu 1281–1750 arası AÇIK bırakmaktır** — ve
+eski ölçütüm bunu *"kapandı"* sayıyordu.
+
+### 29.2 Yeniden sıralanmış kuyruk
+
+```
+1. PATAGONYA/FUEGO/KANALLAR beyanları  145 hücre  ← eskiden 3., ŞİMDİ 1.
+2. GUYANA KALKANI                       61 hücre  (aynı sebep)
+3. AMAZON kadîm yerleşimleri           158 hücre  ⚠️ KÜNYE İSTİYOR
+4. Gran Chaco + Pampa kalanı            ~98
+5. Nordeste · Atacama                   135  (kolonyal, EN AZ verimli)
+```
+
+🔴 **Ve ölçüt bir çelişki gösterdi:** Amazon'un kadîm yerleşimleri
+hücre·yılda en değerli kalem, ama `omagua` · `manao` · `tapajos`
+künyeleri **yok**. Oraya bugün bir Cizvit misyonu yazmak hücreyi
+kapatır ama **1281–1650 arasını açık bırakır** — hücre·yılın yarısı
+kaybolur.
+⇒ **Künye kolu, Amazon için nokta kolundan ÖNCE gelmeli.**
+Koordinatöre soruldu (M-2497); **seçilmedi.**
+
+⚠️ **Ve ölçütün sınırı yazıldı:** bu ölçüt *"nereye önce BAKAYIM"*
+sorusunu cevaplar, *"oraya ne YAZAYIM"* sorusunu **değil**. Beyan
+ancak **gerçekten boş** olan yere yazılır; hücre·yılı yüksek diye
+bir yere beyan yazmak Emre'nin hükmünün tersine düşmek olur.
+
+---
+
+## 30. GÜNCEL SAYILAR — dört tur sonunda
+
+```
+kayıt              72   (62 nokta + 10 beyan)  [73'tü, 1 mükerrer düştü]
+ÖN SINAV           KIRMIZI 0 · ikiz beyanlı 2
+dayanaksız tarih   16 → 6  (ve o 6, BEKLET damgalı 3 kayıtta)
+kapanan           385 hücre · KALAN 753 (%48,8)
+zaman derinliği   169.836 hücre·yıl — mevcudun %68,7'si
+künye reçetesi      3 aday (+1 reddedildi, 7 açıkça `kabile`)
+ALET KUSURU        12 ihbar edildi
+```

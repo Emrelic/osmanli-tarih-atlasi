@@ -15,15 +15,15 @@ CANLILIK RAPORU (CLAUDE.md §7, 3 Eylul 2026 dersi):
   ⇒ Her 60 dakikada bir satir yazilir. Bir saat ses gelmezse hukum
     "kosu iyi gidiyor" DEGIL, "BEKCI OLMUS OLABILIR".
 
-CIKTI: denetim/BEKCI-KOSU4.log  (koordinator buradan okur)
+CIKTI: denetim/BEKCI-KOSU4B.log  (koordinator buradan okur)
 SES  : bitiste 9 beep (§10 — "masaya don"), zaman asiminda 3 kalin alcak
 """
 import io, os, sys, time, subprocess, datetime
 
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 HEDEF = os.path.join(KOK, "data", "donemler.js")
-LOG = os.path.join(KOK, "denetim", "BEKCI-KOSU4.log")
-KOSU_LOG = os.path.join(KOK, "kosu4.log")
+LOG = os.path.join(KOK, "denetim", "BEKCI-KOSU4B.log")
+KOSU_LOG = os.path.join(KOK, "kosu4b.log")
 TAVAN_SN = 12 * 3600          # 12 saat — kosu ~8,5 saat
 ARALIK = 60                   # yoklama
 RAPOR = 3600                  # canlilik raporu

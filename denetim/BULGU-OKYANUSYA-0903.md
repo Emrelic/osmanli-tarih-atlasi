@@ -190,18 +190,59 @@ Bathurst · `-27,151` Toowoomba). 49 aday daha eklendi, sonuç 69 → 40.
 doğrulanmış satırların güvenilirliğini doğrulanmamışlara ödünç verir**
 (`§11`, "ölçülmüş ile hatırlanmış yan yana durursa").
 
-### 🟢 KAYNAKLA DOĞRULANDI (gövde okundu)
-| Yer | Tarih | Kaynak | Alıntı |
-|---|---|---|---|
-| Hughenden | 1877 | Queensland Places (Centre for the Government of Queensland, **UQ**) | *"In 1877 a township was surveyed and named after Henry's pastoral station."* |
-| Boulia | 1879 | Queensland Places | *"the town of Boulia was established in 1879"* |
-| Normanton | **Ağustos 1868** | Queensland Places | *"The town was proclaimed in August 1868"*; ayrıca *"by 1867 a European settlement was established"* |
-| Croydon | 1885 altın · 1886 | Queensland Places | *"In 1885 the owners of Croydon Downs discovered gold at the site of the future township."* ⚠️ **resmî ilan günü VERMİYOR**; yerel yönetim bölümü 1887, belediye 1892 |
-| Barrow Creek Telgraf İst. | 1872 | NT Government, Parks | inşa 1872; yeri Eylül 1871'de John Ross'un keşif kolu seçti |
-| Tennant Creek Telgraf İst. | 1872 | NT Government, Parks | ⚠️ istasyon **kasabanın 11 km kuzeyinde** — koordinat buna göre seçilmeli |
-| Marree (Hergott Springs) | 1883 | History Trust of South Australia | 1883'te yeni **demiryolu başı** kasabası; ad 1918'de "Marree" oldu |
+### 🟢 KAYNAKLA DOĞRULANDI — 16 kayıt (gövde okundu)
 
-### 🔴 DOĞRULANMADI — 57 aday
+🔴 **Ve her kaydın YANINDA öteki aday tarihleri de duruyor** — çünkü
+ölçüm gösterdi ki bir kasabanın **tek kuruluş tarihi yok** (aşağıda §5b).
+
+| Yer | Kaynağın verdiği tarih(ler) | Kaynak |
+|---|---|---|
+| Hughenden | **1877** kasaba ölçüldü | Queensland Places (Centre for the Government of Queensland, **UQ**) |
+| Boulia | **1879** kasaba kuruldu | Queensland Places |
+| Normanton | **Ağustos 1868** ilan · 1867 Avrupa yerleşimi | Queensland Places |
+| Cairns | **1876** kasaba ilan · 1877 arazi satışı · 1885 belediye | Queensland Places |
+| Rockhampton | 1855 ilk yerleşim (Gracemere) · **1858** liman+kasaba ilan · 1860 belediye | Queensland Places |
+| Charleville | 1863 otel/koyun · **1865** rezerv ilan · 1868 ölçüm | Queensland Places |
+| Longreach | **1885** parsel satışı · **1887** kasaba ilan · 1892 demiryolu | Queensland Places |
+| Cloncurry | 1867 bakır keşfi · **1876** kasaba ölçüldü · 1884 izabe | Queensland Places |
+| Winton | **1876** otel/dükkân · 1879 kasaba rezervi | Queensland Places |
+| Cunnamulla | 1860'ların ortası konaklama · **1869** ölçüm + adliye | Queensland Places |
+| Barcaldine | **1885** parsel satışı · 1886 ölçüm + demiryolu | Queensland Places |
+| Blackall | **1867** "rudimentary village" · 1879 yerel yönetim | Queensland Places |
+| Croydon | **1885** altın · 1886 batarya · 1887 yerel yönetim ⚠️ resmî ilan günü YOK | Queensland Places |
+| Barrow Creek Telgraf İst. | **1872** inşa · yeri Eylül 1871'de seçildi | NT Government, Parks |
+| Tennant Creek Telgraf İst. | **1872** ⚠️ istasyon **kasabanın 11 km kuzeyinde** — koordinat buna göre | NT Government, Parks |
+| Halls Creek | **Ağustos 1885** Charles Hall + John Slattery altın; bir yılda ~3.000 kişi | WA Museum · DPLH Heritage Register |
+| Marree (Hergott Springs) | **1883** demiryolu başı; ad 1918'de "Marree" | History Trust of South Australia |
+
+### 🔴🔴 5b. ASIL BULGU — BİR KASABANIN TEK "KURULUŞ" TARİHİ YOK
+
+Tahminlerim ölçüldü ve **sapmalar rastgele değil**:
+```
+aday          tahminim   KAYNAK          sapma
+Cloncurry       1867     1876 (ölçüm)    9 YIL
+Longreach       1892     1887 (ilan)     5 YIL
+Winton          1875     1879 (rezerv)   4 yıl
+Charleville     1868     1865 (rezerv)   3 yıl
+Rockhampton     1855     1858 (ilan)     3 yıl
+Cunnamulla      1868     1869            1 yıl
+Barcaldine      1886     1885            1 yıl
+TAM TUTAN: Hughenden · Boulia · Normanton · Cairns · Barrow Creek ·
+           Tennant Creek · Halls Creek · Marree            = 8 / 16
+```
+Ben çoğunlukla **keşif/ilk faaliyet** yılını almışım, kaynak **idarî
+ilan** yılını veriyor; ikisi 1–9 yıl ayrışıyor.
+
+🔴 **Ve bu atlasın kendi sorusudur:** atlas *"burada yerleşim var mıydı"*
+diye sorar, *"idarî olarak ilan edildi mi"* diye değil. Cloncurry'de
+1867–1876 arasında bir madenci kampı **vardı**.
+**Önerim:** `kur:` = kaynağın verdiği **en erken kalıcı yerleşim** olayı,
+ve `kaynak:` alanına **hangi olay olduğu adıyla** yazılır. Gerekçe `§2`:
+geç tarih o hücreyi boşlukta bırakır ve komşusu **emer**.
+⚠️ Ama bu bir **tercih** ve 83 kaydın tamamını bağlıyor — **karar
+koordinatörde**, ben tek başıma seçmedim. (M-2409 ile soruldu.)
+
+### 🔴 DOĞRULANMADI — 67 aday
 Listedeki kuruluş yılları **kaba**dır ve **kaynak okunmamıştır.** Bir
 sonraki tur her birini `§4` yöntemiyle (adres + **gövde**) sınamalıdır.
 **Bu satırlar bugün veriye yazılamaz.**

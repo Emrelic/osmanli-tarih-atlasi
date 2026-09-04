@@ -179,6 +179,116 @@ m/px = 40.075.017 × cos φ ÷ (512 × 2^z)   ⚠️ 512, kmDanZoom'un 256'sı D
 · tur sözlük kayması: toprak-kayip 105 · kayip 7 · toprak 2
 ```
 
+## ⑧ 🟢 EMRE'NİN KARARLARI — 4 Eylül, ONAYLANDI ve OKUMASI TEYİT EDİLDİ
+
+### İKİ GÖSTERİM — ve ölçüm bunu bağımsız olarak doğruladı
+```
+GÖSTERİM 1  HAM · benekli · enklavlı · koridorlu · boşluklar KALIR
+GÖSTERİM 2  DOLDURULMUŞ · enklavlar bağlanmış · boşluklar bölüşülmüş · tavanlı
+```
+🔴 **Bu bir tercih değil ölçülmüş bir gereklilik.** `HÜKÜM ALANI` raporu
+`TAVAN_KM`in **iki işi birden** yapmak zorunda olduğunu ve ikisinin ters
+çektiğini ölçtü:
+```
+İŞ ①  "bir yerleşim ne kadar hükmeder"          literatürde CEVABI VAR
+İŞ ②  "seyrek noktalardan ne kadar doldururuz"  literatürde YOK, bir TERCİH
+```
+Emre'nin iki gösterimi tam bu ikisidir — tasarım kararı ile ölçüm bulgusu
+**birbirinden habersiz** aynı yere vardı.
+
+### GÖSTERİM 2'NİN KURALLARI — Emre'nin kendi sözleriyle
+```
+(a) Etrafı BİR devletin alanıyla çevrili boşluk, içinde başka bir devletin
+    yapısı / aşiret yönetimi / devletsiz şehir YOKSA doldurulur.
+(b) ENKLAV birleşmesi: yerleşimin YARIÇAPI kadar alanı varsa ve ana parçaya
+    o kadar mesafe varsa, ve aradaki topraklarda başka devletin yerleşimi
+    ya da siyasî yapısı YOKSA → enklavın GENİŞLİĞİ ölçüsünde BOYUNLA bağlanır.
+(c) KORİDORLAR: derinliği sığlaştırılıp ağza kadar doldurulur, koridorun
+    GENİŞLİĞİ kadar içeri girinti bırakılır.
+(d) İKİ DEVLET ARASINDAKİ BOŞLUK bölüşülür — MÜMKÜNSE DIJKSTRA MALİYETİNE
+    GÖRE, düz mesafeye göre değil.
+(e) Tek yönde başka devlet yoksa gövde tavana kadar uzar, ötesi BOŞ kalır.
+```
+
+### 🔴 BOŞLUK BÖLÜŞME KURALI — Emre teyit etti (4 Eylül)
+> *"bir yerleşim noktası kendinden 200 km uzaktaki alanı boyamış ise ve
+> ondan sonra 200 km boşluk geliyor ise ondan sonra da 200 km ve bir
+> yerleşim noktası geliyor ise bu aradaki 200 km boşluk bölüşülsün
+> mümkünse djikstraya göre. ama o yerleşim yerinin yarıçapı 100 km ise o
+> zaman ona göre düşünülür **ama kapatılacak boşluk 200 km yi geçmesin**."*
+
+```
+"200 km alan"  =  YARIÇAP  (alan/km² DEĞİL — Emre teyit etti)
+
+BOŞLUK = iki boyalı gövde arasında kalan mesafe
+   ≤ 200 km  →  BÖLÜŞÜLÜR, mümkünse Dijkstra maliyetine göre
+   > 200 km  →  BÖLÜŞÜLMEZ, boş kalır
+```
+⚠️ **Kapatılacak boşluğun KENDİSİ 200 km'yi aşamaz — yarıçap ne olursa
+olsun.** Örnekler:
+```
+yarıçap 200 · aralık 600 km → boşluk 200 → BÖLÜŞÜLÜR
+yarıçap 200 · aralık 700 km → boşluk 300 → BÖLÜŞÜLMEZ
+yarıçap 100 · aralık 400 km → boşluk 200 → BÖLÜŞÜLÜR
+yarıçap 100 · aralık 500 km → boşluk 300 → BÖLÜŞÜLMEZ
+```
+🟢 Ve bu, Emre'nin daha önceki Sahra kuralıyla **iç tutarlı**: *"400 km ise
+bölüşülür, 600'den fazlaysa bölüşülmez."*
+
+### 🔴 KADEMELİ TAVAN — HÜKÜM ALANI raporunun sonucu
+```
+kademe        yarıçap    dayanak
+k1 eyalet     ~270-300   şer'î kaza 90 × √3 → sancak 156 × √3 → 270
+                         VE 3 menzil sıçraması = 3 × 85 = 255 km
+k2 sancak     ~156
+k3 kaza       ~ 90       🟢 EN SAĞLAM: dört mezhep de 83-99 km diyor
+                         (TDV sefer--fikih); ötesi hukuken BAŞKA YER
+k4 kale/köy   ~ 40       bir günlük yürüyüşün gidiş-dönüşü
+k0 KADEMESİZ  🔴 GÖSTERİME BAĞLI:
+              GÖSTERİM 1 → tavan VERİLMEZ. Boşluk bir kusur değil BEYAN:
+                           "burada kademe araştırılmadı"
+              GÖSTERİM 2 → mutlak tavan (300 km); orada "hükmetme" değil
+                           "doldurma" ölçülüyor, doldurmanın kademeyle işi yok
+```
+🔴 **Emre'nin 300'ü GÖSTERİM 2'nin MUTLAK TAVANI olarak DOĞRU** — iki
+bağımsız yol doğruluyor. Ama ham gösterimde aynı sayıyı bir köye vermek
+onu **beş kat** şişirir.
+
+🟡 **VE BUGÜN İÇİN ARA ÇÖZÜM:** literatür tablosu motorda ÇÜRÜDÜ (Osmanlı'da
+boş alan %6,9 → %14-15 çıkıyor), çünkü nokta yoğunluğu literatürün
+varsaydığı düzeyde değil:
+```
+ANADOLU eşdeğer yarıçap 31,4 km · RUMELİ 32,6  ≈ tarihî kaza  🟢 OTURMUŞ
+Afrika 99,9 · K.Amerika 119,1 · G.Amerika 178,7 · Sibirya 184,5  🔴 3-5 KAT SEYREK
+```
+⇒ Öneri: bugün **düz 280** ya da **eski kademeli tablo**; literatür
+değerlerine bir bölgenin eşdeğer yarıçapı **40 km altına inince** geçilsin.
+🔴 **280 bir ÖLÇÜM sonucudur, KAYNAKLI DEĞİL.** Kaynaklı olan k3=90'dı ve o
+motorda çürüdü. Kimse 280'i *"akademik"* diye devralmasın.
+
+### 🔴 VE BİR MEKANİZMA KARARI — Emre'de
+**Tavan MALİYET biriminde mi olmalı?** Raporun en kesin sonucu: bakılan
+**yedi kaynağın yedisi de** zamanı/maliyeti ölçüyor, hiçbiri ham km ölçmüyor
+(TDV menzil *"3-28 SAAT"* · TDV fersah *"atın 1 SAATTE gittiği"* · 1663
+kütüğünde km HİÇ YOK · Christaller *"in terms of TIME and COST"*).
+Çevrim ölçüldü ve kaynaklandı: **1 saat ≈ 4,7 km kuş uçuşu ≈ 6,2 km yol**
+(üç bağımsız yol, ±%11).
+⚠️ Bugünkü hâl kendi içinde tutarsız: motor `km × sürtünme` ile yürüyor,
+tavan **ham km**.
+
+### 🔴 VE SU — bugün motorda YOK
+```
+nehri ENİNE geçmek   BEDAVA        (olması gereken: en güçlü engel)
+nehir BOYUNCA gitmek BEDAVA        (olması gereken: en ucuz yol)
+GEÇİT / KÖPRÜ        HİÇ modellenmemiş
+```
+Ölçülen maliyet oranları (rapor `§⑷`): deniz ~1/50 · nehir aşağı ~1/5 ·
+**nehir yukarı ~1/2,5** (aşağının İKİ KATI — yön önemli).
+⇒ Su bir **tavan** meselesi değil bir **sürtünme** meselesi; tavanı
+büyütmek kıyı gövdesini karada da büyütür.
+
+---
+
 ## ⑦ EMRE'NİN KARARINI BEKLEYENLER
 ```
 · pembe gövde denizle aynı açıklıkta — rahatsız eder mi? (51 mi 55 mi)
