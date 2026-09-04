@@ -37,9 +37,24 @@
 //               yoksa alan hiç yazılmaz. Kaynak: oturumlar/ARABISTAN-
 //               DUZELTMELER.md §AJ/§AK (ARAŞTIRMA ARABİSTAN'ın tablosu).
 //   ozet      : 1-2 cümlelik tanım
-//   kronoloji : [{ t, tur, b, kaynak? }] — tur: kurulus | hukumdar |
-//               toprak-kazanc | toprak-kayip | savas | antlasma | bolunme |
-//               birlesme | ittifak | isyan | isgal | son
+//   kronoloji : [{ t, tur, b, kaynak? }]
+//               🔴 `tur` SÖZLÜĞÜ 4 Eylül 2026'da ÖLÇÜLDÜ ve bu satır BAYATTI.
+//               Burada 12 tür beyan ediliyordu; künye kronolojilerinde
+//               kullanılan 19, bütün külliyatta (6154 madde) 61.
+//               ÇEKİRDEK (bu dosyada, ölçülmüş sayılarıyla):
+//                 kurulus 534 · son 441 · savas 263 · hukumdar 197 ·
+//                 antlasma 191 · toprak-kayip 124 · toprak-kazanc 116 ·
+//                 bolunme 72 · isgal 68 · isyan 58 · ittifak 44 ·
+//                 birlesme 26 · vassal 24 · kayip 7 · ic-savas 7 ·
+//                 siyaset 4 · toprak 2 · kesif 1 · baskent 1
+//               ⚠️ SON YEDİSİ YAZIM HATASI DEĞİL — külliyatta yerleşik:
+//                 kayip 55 · toprak 24 · vassal 17 · kesif 16 · ic-savas 6
+//               `arac/uret_duygu.py` `vassal`ı, `kesif`i, `siyaset`i ZATEN
+//               tanıyor (emoji sözlüğünde). Yani beyan, araçların gerisinde.
+//               🔴 BUNLARI «DÜZELTMEYE» KALKMA: `kayip`i `toprak-kayip`e
+//               çevirmek, Mandan'ın 1837 çiçek salgınını bir TOPRAK KAYBI
+//               yapar. Külliyatta `salgin` (15) ve `felaket` (6) türleri
+//               zaten var — doğru kova onlar.
 //               b: kısa başlık (SAVASLAR/ANTLASMALAR dizini kadar yoğun,
 //               ayrıntılı anlatım değil — bu bir dizin, olaylar*.js değil)
 //               kaynak: 🆕 4 Eylül 2026 — maddenin DAYANAĞI (TDV slug ya da

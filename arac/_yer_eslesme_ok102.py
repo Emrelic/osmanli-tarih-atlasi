@@ -74,6 +74,15 @@ UZAK_KM = 600.0
 
 # ── YÖN sözlüğü — ölçüldü (2 Eylül): k: fetih 272 · kayip 165 ·
 #    etiket toprak-kazanc 365 · toprak-kayip 218 · toprak-kaybi 3
+# 🔴 4 Eylül 2026 — `toprak-kaybi` YENİDEN ÖLÇÜLDÜ: külliyatta **0**
+#    kayıt. Ölü bir girdi; zararsız ama sayı bayat.
+# 🟢 VE BİR YANLIŞ ALARM BURADA ÖNLENDİ: bir koordinatör `KAYIP_ET`in
+#    `kayip`i (55 kayıt) kaçırdığını sandı ve eklemeye kalktı. Kodu
+#    okuyunca çürüdü — `KAYIP_K = {"kayip"}` onu `tur` alanından ZATEN
+#    yakalıyor, üstelik etiket kontrolünden ÖNCE. Ekleme yapılsaydı
+#    çalışan bir dal ikinci kez kurulacaktı.
+#    Geriye kalan tek kör nokta `toprak` (24 kayıt) ve o SAVUNULABİLİR:
+#    "toprak" bir YÖN belirtmiyor, `None` dönmesi doğru.
 KAZANC_K, KAYIP_K = {"fetih"}, {"kayip"}
 KAZANC_ET = {"toprak-kazanc", "fetih"}
 KAYIP_ET = {"toprak-kayip", "toprak-kaybi"}

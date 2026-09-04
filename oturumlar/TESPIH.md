@@ -71,7 +71,7 @@ altında yazılı.
 | 5 | **Koşu bitince yayın zinciri** | — | — | `denetle.py` → `renk_olc.py` → `durum_tablosu.py --yaz` → `surum_damgala.py` → push |
 | 6 | ✅ `serbest-hale` · `serbest-cekirdek` — **DÜZELTİLDİ** `61f6f60` · katman 39, ikisi de VAR | %100 | %100 | 🔴 MapLibre ifade hatası (4 konsol hatası) ⇒ **"serbest" topraklar haritada hiç çizilmiyor.** `js/app.js` SERBEST, küçük iş, görünür etki |
 | 7 | 🟡 `KRONOLOJI_*` — **ÜÇ AİLE, çerçeve ÇÜRÜDÜ** · ① BİTTİ `_`→`-` (146 madde bağlandı) · ② 566 madde ÇOK KÜNYEYE dağılıyor · ③ 1518 madde BÖLGE derlemesi, künyesi YOK | %7 | %80 | ölçüldü 4 Eylül — ayrıntı aşağıda |
-| 8 | `tur` sözlük kayması | %0 | %100 | `toprak-kayip` 105 · `kayip` 7 · `toprak` 2 — aynı cinsin üç yazımı; `ic-savas` diye bir tür YOK (en yakını `bolunme` 70). Ölçüt aracını yanıltıyor |
+| 8 | ❌ `tur` sözlük kayması — **ÖLÇÜLDÜ, PREMİS ÇÜRÜDÜ · İŞ YOK** | — | — | `kayip`(55) ve `toprak`(24) yazım hatası DEĞİL, yerleşik tür. Uygulansaydı Mandan'ın çiçek salgını «toprak kaybı» olurdu. Kalan iş yalnız BAYAT METİNDİ, düzeltildi. |
 | 9 | Kronoloji dalga 2 — Okyanusya · Sibirya-bozkır · Orta Asya | %0 | %80 | 5 + 8 + 14 künye · şartname yazılacak |
 | 10 | Kronoloji dalga 2 — Avrupa boşlukları | %0 | %80 | `kuzey-avrupa` 7 künye kuruluş **%43** · `bati-avrupa` son %45 · `orta-avrupa` son %55 · `dogu-avrupa` son %61 |
 | 11 | **Emre görev ①**: dizin TAMLIK denetimi | %0 | %85 | *"1281-1923 arası tüm devletlerin var olup olmadığı"* — bu kronoloji dolumundan AYRI iş: eksik KÜNYE aramak |
