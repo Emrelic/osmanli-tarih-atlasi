@@ -136,6 +136,134 @@
     {"t": "1700-01-01", "tur": "isyan", "b": "Kral Agorkoli'nin baskıcı yönetimine karşı Eve halkı Notse surlarını yarıp Togo ve Gana'nın güneyine dağıldı ('Notse'den Çıkış')", "kaynak": "bulunamadı (TDV) — standart akademik kaynak; GÜN kesinliği YOK, kaynaklar 'Agorkoli 1670-1720' aralığı veriyor, kesin çıkış yılı belirsiz — YYYY-01-01 kalıbı BİLEREK, belirsizlik AÇIKÇA yazılarak kullanıldı."}
    ],
    "not_kaynak": "3/4 bırakıyorum."
+  },
+  {
+   "id": "benin-kralligi",
+   "eklenen": [
+    {"t": "1485-01-01", "tur": "antlasma", "b": "Portekizli João Afonso de Aveiro Benin sarayına ulaştı; Oba Ozolua ile ticarî ilişkiler kuruldu, bu Avrupalılarla ilk temastı", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Ozolua') doğrulandı."}
+   ]
+  },
+  {
+   "id": "liberya",
+   "eklenen": [
+    {"t": "1847-07-26", "tur": "kurulus", "b": "Joseph Jenkins Roberts, Liberya'nın bağımsızlığını ilan etti", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, GÜN hassasiyeti çevrimiçi ikincil kaynaklarla ('Joseph Jenkins Roberts', 'Colony of Liberia') doğrulandı."},
+    {"t": "1848-01-03", "tur": "hukumdar", "b": "Joseph Jenkins Roberts, Liberya'nın ilk cumhurbaşkanı olarak yemin etti", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, GÜN hassasiyeti çevrimiçi ikincil kaynaklarla doğrulandı."}
+   ]
+  },
+  {
+   "id": "buna",
+   "eklenen": [],
+   "not_kaynak": "ÖLÇÜLEMEDİ — kurucu Bounkani'nin doğumu (~1583) künyenin kendi kurulus'undan (1690) ÇOK ÖNCE; efsanevi doğum tarihini kuruluş kronolojisine eklemek yanlış olur. Sağlam ikinci bir olay bulamadım. 2/4 bırakıyorum."
+  },
+  {
+   "id": "solima-yalunka",
+   "eklenen": [
+    {"t": "1800-01-01", "tur": "birlesme", "b": "Samura klanına mensup Yalunka boyları Falaba merkezli Solimana devletini kurmak üzere birleşti", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Solimana (state)') doğrulandı."},
+    {"t": "1884-01-01", "tur": "savas", "b": "Samori'nin generali N'fa Ali'nin başlattığı beş aylık Falaba kuşatması sonunda Kral Manga Sewa barut deposunu ateşleyip kendini ve kalan halkı yok etti, şehir düştü", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Manga Sewa', 'Falaba') doğrulandı. Ay/gün kaynakta yok — YYYY-01-01."}
+   ]
+  },
+  {
+   "id": "gyaaman",
+   "eklenen": [
+    {"t": "1740-01-01", "tur": "toprak-kayip", "b": "Aşanti orduları Gyaman'ı kesin biçimde yenip başkentini yıktı; Gyaman Aşanti'ye haraçgüzâr bir vasal hâline geldi", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Abron', 'Kingdom of Gyaman') doğrulandı. Künyenin var olan 1818 maddesiyle (Osei Bonsu seferi) TUTARLI — 1740 ilk boyun eğdirme, 1818 bir sonraki isyan bastırma."}
+   ]
+  },
+  {
+   "id": "kenedugu",
+   "eklenen": [
+    {"t": "1877-01-01", "tur": "hukumdar", "b": "Tiéba Traoré, Kenedugu'nun dördüncü kralı olarak tahta çıkıp yeni başkent Sikasso'yu ve ünlü Tata (sur) inşasını başlattı", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Tieba Traoré') doğrulandı."}
+   ]
+  },
+  {
+   "id": "songhay-imparatorlugu",
+   "eklenen": [
+    {"t": "1468-01-01", "tur": "toprak-kazanc", "b": "Sünnî Ali, Tuareglerin elindeki Timbuktu'yu alarak imparatorluğa kattı", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla (Britannica 'Sonni Ali') doğrulandı."},
+    {"t": "1473-01-01", "tur": "toprak-kazanc", "b": "Sünnî Ali, yedi yıl süren kuşatmanın ardından Cenne'yi (Jenne) açlığa mahkûm ederek teslim aldı", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla doğrulandı."}
+   ]
+  },
+  {
+   "id": "zerma",
+   "eklenen": [
+    {"t": "1700-01-01", "tur": "birlesme", "b": "İlk Zarmakoy (Zarma önderi) Tagorou, dağınık Zarma topluluklarını tek bir halk hâlinde birleştirdi", "kaynak": "bulunamadı (TDV) — standart akademik kaynak; kesin yıl belirsiz ('17. yüzyıl sonu'), YYYY-01-01 kalıbı belirsizlik AÇIKÇA yazılarak kullanıldı."}
+   ],
+   "not_kaynak": "3/4 bırakıyorum."
+  },
+  {
+   "id": "tuareg-air",
+   "eklenen": [
+    {"t": "1461-01-01", "tur": "hukumdar", "b": "Kurucu Sultan Yunus, başkenti Tadaliza'dan Agadez'e taşıdı", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Sultanate of Agadez') doğrulandı."}
+   ],
+   "not_kaynak": "3/4 bırakıyorum — ikinci bir olay (Kaocen İsyanı, 1916-17) BULDUM ama künyenin kendi 'son' tarihinden (1900) SONRAYA düşüyor; künye aralığı dışına taşan bir olayı eklemek tarih tutarsızlığı yaratır, EKLEMEDİM. Künye sahibine not: 1900 'son' tarihi Kaocen İsyanı'nı (Sultan Tegama'nın isyancılarla gizli işbirliği) kapsamıyor, gözden geçirilmeli."
+  },
+  {
+   "id": "massina",
+   "eklenen": [
+    {"t": "1845-01-01", "tur": "hukumdar", "b": "Kurucu Sekû Ahmedû'nun oğlu Ahmedû II (Amadu Seku), Masina Halifeliği'nin ikinci Almamisi olarak tahta çıktı", "kaynak": "Cambridge History of Africa / Journal of African History (hakemli, künyenin mevcut maddelerinde zaten kullanılan aynı kaynak ailesi) + çevrimiçi ikincil kaynaklarla ('Amadu II of Masina') doğrulandı."}
+   ]
+  },
+  {
+   "id": "tiv",
+   "eklenen": [],
+   "not_kaynak": "ÖLÇÜLEMEDİ — künyenin kendi notu zaten 'tanecik: HALK, merkezî devlet değil, soy örgütlenmesi' diyor. Merkezî bir hükümdar/kuruluş/savaş tarihi YAPISAL OLARAK yok; TDV ve akademik kaynaklar da bu yüzden susuyor. Uydurmadım. 2/4 bırakıyorum — GEREKÇESİ maddenin CİNSİNDEN kaynaklanıyor, araştırma eksikliğinden değil."
+  },
+  {
+   "id": "dan-guro",
+   "eklenen": [],
+   "not_kaynak": "ÖLÇÜLEMEDİ — aynı gerekçe: künyenin kendi notu 'tanecik: HALK, merkezî devlet kurmamış orman halkları' diyor. 2/4 bırakıyorum."
+  },
+  {
+   "id": "birom-plato",
+   "eklenen": [],
+   "not_kaynak": "ÖLÇÜLEMEDİ — Jos Platosu toplulukları 'Sokoto'ya hiç boyun eğmemiş' merkezsiz topluluklar; dateli merkezi bir siyasi olay YAPISAL OLARAK yok. 2/4 bırakıyorum."
+  },
+  {
+   "id": "adar",
+   "eklenen": [],
+   "not_kaynak": "ÖLÇÜLEMEDİ — Gobir-Adar Hausa beylikler kuşağı için TDV susuyor, akademik taramada da GÜN/YIL hassasiyetli ayrı bir olay bulamadım (yalnız Sokoto cihadının genel anlatısı var, Adar'a özgü değil). 2/4 bırakıyorum, uydurmadım."
+  },
+  {
+   "id": "tuareg-adag",
+   "eklenen": [],
+   "not_kaynak": "ÖLÇÜLEMEDİ — Kel Adag (Adrar des Ifoghas) konfederasyonu için TDV ve akademik taramada GÜN/YIL hassasiyetli ayrı bir olay bulamadım. 2/4 bırakıyorum."
+  },
+  {
+   "id": "tuareg-ivellemmedan",
+   "eklenen": [],
+   "not_kaynak": "ÖLÇÜLEMEDİ — aynı gerekçe: İvellemmedan konfederasyonu için taramada dateli ayrı bir olay bulamadım. 2/4 bırakıyorum."
+  },
+  {
+   "id": "kru-grebo",
+   "eklenen": [],
+   "not_kaynak": "ÖLÇÜLEMEDİ — Kru ve Grebo toplulukları için (Liberya öncesi) TDV ve akademik taramada dateli merkezi bir olay bulamadım; bu topluluklar da merkezî devlet kurmamış (kıyı halkları). 2/4 bırakıyorum."
+  },
+  {
+   "id": "bate",
+   "eklenen": [],
+   "not_kaynak": "ÖLÇÜLEMEDİ — künyenin KENDİ notu zaten iki tarihin de (1650 f:, 1879 t:) yuvarlak/tahmini olduğunu ve TDV'nin gün vermediğini AÇIKÇA yazmış. Üçüncü bir GÜN hassasiyetli olay taramada çıkmadı. 2/4 bırakıyorum, mevcut dürüst notu bozmadım."
+  },
+  {
+   "id": "gambiya-mandinka",
+   "eklenen": [],
+   "not_kaynak": "ÖLÇÜLEMEDİ — Gambiya nehri boyunca küçük Mandinka devletçikleri (Niumi, Kombo, Vuli) için TDV susuyor, akademik taramada da ayrı ayrı dateli olay bulamadım (çoğu kaynak Gambiya'yı bütün olarak İngiliz kolonisi bağlamında anlatıyor). 2/4 bırakıyorum."
+  },
+  {
+   "id": "berabis",
+   "eklenen": [],
+   "not_kaynak": "ÖLÇÜLEMEDİ — Berâbîş (Arap tuz kervan konfederasyonu) için TDV susuyor, akademik taramada bağımsız bir arama yapamadım (zaman kısıtı) — bu KALEM AÇIK bırakılıyor, 'çürüdü' değil 'ölçülemedi'. 2/4 bırakıyorum."
+  },
+  {
+   "id": "yatenga",
+   "eklenen": [
+    {"t": "1757-01-01", "tur": "hukumdar", "b": "Naaba Kango tahta çıkıp otoriteyi merkezîleştirdi (1757-1787 arası hüküm sürdü), modern Yatenga'nın siyasi teşkilatı bu dönemde şekillendi", "kaynak": "TDV burkina-faso (bu turda okundu, doğrudan alıntı: 'Naaba Kango (1757-1787)')."}
+   ],
+   "not_kaynak": "🔴 İLK TURDA GÖZDEN KAÇMIŞTI — TDV kaynağı zaten Burkina Faso grubu taramasında elimdeydi, JSON'a yazmayı unutmuştum; ikinci bir tam liste karşılaştırmasıyla (orijinal 42 künye ↔ JSON) YAKALADIM. 3/4 bırakıyorum, ikinci ek olay bulunamadı."
+  },
+  {
+   "id": "liptako",
+   "eklenen": [
+    {"t": "1810-01-01", "tur": "vassal", "b": "Kurulan Liptako emirliği, Sokoto Halifeliği'nin batı kanadı Gwandu Emirliği'ne tâbi oldu", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Liptako', 'Gwandu Emirate') doğrulandı. AYNI YIL kurulus'la (Brahima Saidu'nun emirliği kurması) — iki ayrı olgu (kuruluş + tâbiiyet) aynı yılda gerçekleşmiş görünüyor."}
+   ],
+   "not_kaynak": "🔴 İLK TURDA GÖZDEN KAÇMIŞTI — aynı liste karşılaştırmasıyla yakalandı. 3/4 bırakıyorum, ikinci ek olay bulunamadı."
   }
  ]
 }
