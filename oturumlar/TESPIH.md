@@ -4,15 +4,50 @@
 > **buradan** devam edilir. 20 dakikalık uyandırıcı (`cron fb6be0f1`)
 > her turda bu dosyayı okur.
 
-## 🔒 GÜNÜN KISITI
+## 🔒 GÜNÜN KISITI — KOŞU 5 KOŞUYOR
+
 ```
-KOŞU 4 · 00:48:18 başladı · PID 12656 · 9,5+ saat · CPU 33.500 sn (CANLI)
-⚠️ log satırı 01:44'te donmuş GÖRÜNÜYOR — motor tamponu, ölüm değil.
-   Ölçüm işlemden yapılır, logdan değil.
-⚠️ İlk tahmin ~07:45'ti, AŞILDI. Yeni tahmin verilmiyor: tahmin logdan
-   geliyordu, log bayat.
+KOŞU 5 · 2026-09-04 21:26:47 başladı · uret_petek.py PID 19380
+zincir    arac/kos_ve_yayinla.py  (üretim → denetle → damga → YAYIN)
+log       kosu_ayrik.log   ·   bekçi denetim/BEKCI-KOSU5-stdout.log
+beklenen  ~16 saat (koşu 4b 16s09dk sürdü) → 5 Eylül sabah/öğlen
 DONMUŞ : data/*  ·  arac/uret_petek.py · renkler.py · girdi.py
 SERBEST: js/app.js · css/style.css · index.html · denetim/* · oturumlar/*
+```
+⚠️ Log 21:26'dan sonra SESSİZ görünür — motor stdout'u tamponluyor, bu
+   BELGELİ ve normal. Ölçüm SÜREÇTEN yapılır (`.petek.kilit` PID'i canlı mı),
+   logdan değil.
+🟢 Çift koşu kilidi bu koşuda İLK KEZ CANLI (`arac/kosu_kilit.py`): ikinci
+   bir `py arac/uret_petek.py` REDDEDİLİR. Eski kilidin 4 saatlik eskime
+   tavanı vardı ve koşu 16 saat sürüyor — dördüncü saatten sonra ikinci bir
+   koşu kilidi DEVRALIRDI.
+
+### KOŞU 5 NELERİ TAŞIYOR (hepsi 4 Eylül'de indi, hiçbiri ekranda yoktu)
+```
+RENK    21 kimlik · komşu çakışması 4→0 · yakın-ama-değmeyen 12→1
+R1      don_kose ORTAK IZGARAYA oturdu — dikiş boşluğunun kök sebebi
+R7      yeni nöbetçi: "örtülmeyen kara km², kıta kırılımıyla"
+A2      çift koşu kilidi motorun içinde
+_KUS_BEKLENEN  8 ad → 159 (bayat fotoğraf tazelendi, büyüme atfedildi)
+```
+
+### 🔴 KOŞU BİTİNCE — kabul ölçütleri ÖNCEDEN yazılı
+```
+① R1 SINAVI   py denetim/ARAC-DIKIS-0904-olc.py  (alet 4 Eylül'de kuruldu)
+              TABAN (koşu 5 ÖNCESİ, 1281-01-01, 232 gövde):
+                 DİKİŞ 640 parça · 34.318 km²
+                 KIYI KENARI 42.233 · KAPSAMA 357
+              ⚠️ Reçetenin "96 parça"sı 2731 petekli yayından; AYNI TABAN
+                DEĞİL. Kıyas ŞU 640 ile yapılacak.
+② R7 ilk gerçek sayısı (bugünkü mertebe %20,4 — motorun KARA'sı gölleri
+   çıkardığı için birebir beklenmiyor)
+③ devletler_harita.js boyutu (bugün 53,74 MB · R1 dondurma kümesini
+   GENİŞLETİR ⇒ büyüme beklenir; aşarsa çare R1'i geri almak DEĞİL,
+   seyreltme toleransıdır)
+④ denetle.py + renk_olc + yayın kapısı TEMİZ
+⑤ 21 rengin EKRANDA gözle sınanması — alet "meşru" der, "güzel" demez.
+   Beşi Anadolu beyliği (karaman · aydin · teke · ramazanoglu ·
+   inancogullari) ve belirgin değişti.
 ```
 
 ---
@@ -25,6 +60,15 @@ SERBEST: js/app.js · css/style.css · index.html · denetim/* · oturumlar/*
 | 2 | 1923-10-29'da yalnız Türkiye görünüyordu | `00975a8` |
 | 3 | Katman seçici haritadan butonların içine | `00975a8` |
 | 4 | **OWTRAD toplamaya girdi** — kenar 121→295 · bileşen 4→**1** | `e0b0e82` |
+| 5 | **KOŞU 4 İNDİ** — Ö9 geçti: `PETEK_GOVDE` 2731→3805 · peteksiz 1074→**0** | `0e7cb11` · r5635 YAYINDA |
+| 6 | Kronoloji 200 madde · 56 künye | `f384609` |
+| 7 | `KRONOLOJI_*` ① — 146 madde bağlandı (`_`→`-`) | `51c2022` |
+| 8 | **Serbest topraklar** — iki katman yıllardır hiç yüklenmiyormuş | `61f6f60` |
+| 9 | Renk — 21 kimlik · çakışma **4→0** · yakın-değmeyen **12→1** | `7ef087b` |
+| 10 | Çözücüye **deniz kısıtı** — sabah kaldırılan hex'i geri öneriyordu | `fe618b8` |
+| 11 | **A2** çift koşu kilidi + **R1** + **R7** | `93a3f9f` · `89cd681` · `1fd5a20` |
+| 12 | Dikiş nöbetçisi kuruldu — R1'in kabul testi ölçülebilir | `23a3e54` |
+| 13 | Yanlış alarmlar sustu: `_opaklik_dogrula` · kuşatılmışlık (154 satır) | `e421853` · `d4e56e7` |
 
 🔴 **4'ün TARAYICI DOĞRULAMASI BORÇ.** Mantık `app.js`'ten kesilen GERÇEK
 kodla, gerçek veriyle sınandı (9 kalemin 9'u tuttu) — ama canlı sayfada
@@ -68,7 +112,7 @@ altında yazılı.
 
 | # | iş | keskinlik | hedef | niçin bu sırada |
 |---|---|---|---|---|
-| 5 | **Koşu bitince yayın zinciri** | — | — | `denetle.py` → `renk_olc.py` → `durum_tablosu.py --yaz` → `surum_damgala.py` → push |
+| 5 | ✅ **Koşu 4 yayın zinciri** — BİTTİ (r5635) · koşu 5 için ZİNCİR OTOMATİK | — | — | `denetle.py` → `renk_olc.py` → `durum_tablosu.py --yaz` → `surum_damgala.py` → push |
 | 6 | ✅ `serbest-hale` · `serbest-cekirdek` — **DÜZELTİLDİ** `61f6f60` · katman 39, ikisi de VAR | %100 | %100 | 🔴 MapLibre ifade hatası (4 konsol hatası) ⇒ **"serbest" topraklar haritada hiç çizilmiyor.** `js/app.js` SERBEST, küçük iş, görünür etki |
 | 7 | 🟡 `KRONOLOJI_*` — **ÜÇ AİLE, çerçeve ÇÜRÜDÜ** · ① BİTTİ `_`→`-` (146 madde bağlandı) · ② 566 madde ÇOK KÜNYEYE dağılıyor · ③ 1518 madde BÖLGE derlemesi, künyesi YOK | %7 | %80 | ölçüldü 4 Eylül — ayrıntı aşağıda |
 | 8 | ❌ `tur` sözlük kayması — **ÖLÇÜLDÜ, PREMİS ÇÜRÜDÜ · İŞ YOK** | — | — | `kayip`(55) ve `toprak`(24) yazım hatası DEĞİL, yerleşik tür. Uygulansaydı Mandan'ın çiçek salgını «toprak kaybı» olurdu. Kalan iş yalnız BAYAT METİNDİ, düzeltildi. |
