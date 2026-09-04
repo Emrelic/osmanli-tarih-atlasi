@@ -3341,6 +3341,25 @@ function koridorKur() {
   });
 
   var koridorPopup = new maplibregl.Popup({ closeButton: true, closeOnClick: true, maxWidth: "320px", className: "koridor-popup" });
+  // 🆕 T-0126 · TERS SORGU — boş haritaya tıklama
+  // ⚠️ Katman tıklayıcılarından (koridor düğümü/kenarı) SONRA kaydediliyor;
+  //    MapLibre katman tıklayıcılarını önce çalıştırır, o yüzden bir
+  //    koridor düğümüne tıklamak yerleşim panelini AÇMAZ.
+  harita.on("click", function (ev) {
+    if (ev.originalEvent && ev.originalEvent._koridor) return;   // katman yuttu
+    var b = _enYakinYerlesim(ev.lngLat.lat, ev.lngLat.lng);
+    if (!b) return;
+    // 🔴 EŞİK: 150 km'den uzaksa AÇMA. Boş okyanusa tıklayınca 900 km
+    //    öteki bir şehri açmak, cevap değil GÜRÜLTÜdür.
+    if (b.km > 150) return;
+    dizinPencere.classList.remove("gizli");
+    dizinDoldur("yerlesimler");        // `_yerlesimAc`ı atar
+    if (_yerlesimAc) _yerlesimAc(b.y);
+    var not = document.querySelector(".yer-cubuk-sarmal");
+    if (not) not.setAttribute("data-mesafe",
+      "tıklanan noktaya " + b.km.toFixed(0) + " km — EN YAKIN yerleşim, petek sahibi değil");
+  });
+
   harita.on("click", "koridor-dugum-daire", function (ev) {
     var p = ev.features[0].properties;
     var govde = "<b>" + p.ad + "</b><br><i>menzil durağı — " + (p.kol || "") + "</i>";
@@ -4448,6 +4467,138 @@ document.getElementById("detay-git").addEventListener("click", function () {
 
 // ---------- Dizin penceresi (kişiler / savaşlar / antlaşmalar / seriler) ----------
 var dizinPencere = document.getElementById("dizin");
+
+// ═══════════════════════════════════════════════════════════════════════
+// T-0126 · TERS SORGU — haritaya tıkla, o yerleşimin ZAMAN ÇUBUĞUNU gör
+// ═══════════════════════════════════════════════════════════════════════
+// > Emre: "tıkladığımızda bir şehre, o şehrin hangi tarihlerde kimin elinde
+// >  olduğunu gösteren bir çubuk pencere açılsın."
+//
+// 🟢 BÜYÜK KISMI ZATEN VARDI — ölçüldü: `yerlesimler` sekmesi (aşağıda,
+// `dizinDoldur`da) 3805 yerleşimin tamamını ve `d/v/s/isg` dört kovasını
+// kronolojik olarak zaten gösteriyor. Eksik olan iki şey: HARİTADAN
+// ulaşmak ve listeyi ÇUBUK olarak çizmek. İkisi de ekleme; liste duruyor.
+//
+// ⚠️ SINIR: tıklamada **EN YAKIN yerleşim** bulunur, *"bu noktanın PETEĞİ"*
+// DEĞİL. Motor maliyet-Voronoi kullanıyor (km × sürtünme), yani en yakın
+// nokta ile peteğin sahibi ayrışabilir. Gerçek petek sorgusu
+// `petek_govde.js` ister; o dosya 4,2 MB ve tarayıcıya KASTEN yüklenmiyor.
+// ⇒ Panelde MESAFE yazılıyor — kullanıcı neye baktığını bilsin.
+var _yerlesimAc = null;          // `yerlesimler` sekmesi doldurulunca atanır
+
+var _DEVLET_RENK = (function () {
+  var m = {};
+  (window.DEVLET_HARITA || []).forEach(function (d) { if (d && d.id) m[d.id] = d.renk; });
+  return m;
+})();
+
+// Bir yerleşimin sahipliğini HARİTANIN KENDİ ÖNCELİK KURALIYLA çözer.
+//
+// 🔴 İLK SÜRÜM YANLIŞTI VE KENDİ ÇIKTISI ELE VERDİ: Tebriz'in dilimleri
+// toplam %103,7 ediyordu. Ölçüldü — 198 çakışan çift, 162 yerleşim. Ama bu
+// bir VERİ KUSURU DEĞİL, modelin kendisi:
+//     Tebriz  s: Safevî 1501→1736                        ← ZEMİN sahiplik
+//             d: Osmanlı 1514 · 1534-35 · 1548 · 1585-1603 · 1725-30  ← İŞGALLER
+// `d:` `s:`i **EZER**. Haritanın kuralı (`CLAUDE.md` Değişmez 3):
+//     d varsa OSMANLI · yoksa v varsa tâbi · yoksa s · yoksa SAHİPSİZ
+// İlk sürüm hepsini aynı düzlemde çizip topluyordu.
+//
+// 🟢 ÇÖZÜM günlük döngü DEĞİL, SINIR NOKTALARI: bütün `f`/`t` değerleri
+// toplanır, sıralanır, her aralık için sahip yukarıdaki kuralla bulunur.
+// Sonuç haritayla BİREBİR aynı — çubuk, haritanın o günkü hâlinin zaman
+// eksenine serilmiş hâli.
+// ⚠️ `isg:` AYRI: zemini ezmez, ÜSTÜNE taralı çizilir — haritada da öyle.
+function _yerlesimSerit(y) {
+  var uc = {};
+  function ekle(a) { (y[a] || []).forEach(function (p) { uc[p.f] = 1; uc[p.t] = 1; }); }
+  ekle("d"); ekle("v"); ekle("s"); ekle("isg");
+  var g = Object.keys(uc).sort();
+  if (g.length < 2) return { taban: [], isgal: [] };
+
+  function sahip(gun) {
+    var p, i;
+    for (i = 0; i < (y.d || []).length; i++)
+      if ((p = y.d[i]).f <= gun && gun < p.t)
+        return { ad: "Osmanlı", cins: "doğrudan", renk: "#8e0b22" };
+    for (i = 0; i < (y.v || []).length; i++)
+      if ((p = y.v[i]).f <= gun && gun < p.t)
+        return { ad: "Osmanlı", cins: "tâbi", renk: "#b2384a" };
+    for (i = 0; i < (y.s || []).length; i++)
+      if ((p = y.s[i]).f <= gun && gun < p.t)
+        return { ad: devletAdi(p.d), cins: "", renk: _DEVLET_RENK[p.d] || "#9a9a9a" };
+    return null;                       // SAHİPSİZ — çubukta taralı zemin kalır
+  }
+
+  // Ardışık aralıkları AYNI sahipse birleştir; yoksa çubuk yüzlerce
+  // görünmez dilime bölünür ve tarayıcı boşuna çizer.
+  var taban = [], son = null;
+  for (var i = 0; i < g.length - 1; i++) {
+    var s = sahip(g[i]);
+    if (!s) { son = null; continue; }
+    if (son && son.ad === s.ad && son.cins === s.cins && son.t === g[i]) {
+      son.t = g[i + 1];
+    } else {
+      son = { f: g[i], t: g[i + 1], ad: s.ad, cins: s.cins, renk: s.renk };
+      taban.push(son);
+    }
+  }
+  var isgal = (y.isg || []).map(function (p) {
+    return { f: p.f, t: p.t, ad: devletAdi(p.d), renk: _DEVLET_RENK[p.d] || "#6d5636",
+             isgalKatmani: true };
+  });
+  return { taban: taban, isgal: isgal };
+}
+
+// Çubuğu çizer. Boş dönerse çağıran "kayıt yok" der — sessizce boş bırakmaz.
+function _cubukCiz(y) {
+  var serit = _yerlesimSerit(y);
+  if (!serit.taban.length && !serit.isgal.length) return null;
+  var BAS = gunIdx("1281-01-01"), SON = BITIS, GEN = SON - BAS;
+  var sar = document.createElement("div");
+  sar.className = "yer-cubuk-sarmal";
+  var cb = document.createElement("div");
+  cb.className = "yer-cubuk";
+  // ÖNCE taban (sahip kuralı zaten çözdü, birbirini ezmezler), SONRA işgal
+  // örtüsü — haritadaki katman sırasının aynısı.
+  serit.taban.concat(serit.isgal).forEach(function (p) {
+    var fi = Math.max(gunIdx(p.f), BAS), ti = Math.min(gunIdx(p.t), SON);
+    if (ti <= fi) return;
+    var s = document.createElement("i");
+    s.className = "yer-dilim" + (p.isgalKatmani ? " isgal" : "");
+    s.style.left  = ((fi - BAS) / GEN * 100) + "%";
+    s.style.width = ((ti - fi) / GEN * 100) + "%";
+    s.style.background = p.renk;
+    s.title = p.ad + (p.cins ? " (" + p.cins + ")" : p.isgalKatmani ? " (işgal)" : "")
+            + "  " + p.f + " → " + p.t;
+    // Dilime tıklayınca zaman göstergesi O DÖNEMİN BAŞINA gider — çubuk
+    // yalnız gösterme değil, gezinme aracı.
+    s.addEventListener("click", function (e) {
+      e.stopPropagation();
+      tarihAyarla(fi);
+    });
+    cb.appendChild(s);
+  });
+  sar.appendChild(cb);
+  var ek = document.createElement("div");
+  ek.className = "yer-cubuk-eksen";
+  ek.innerHTML = "<span>1281</span><span>1500</span><span>1700</span><span>1923</span>";
+  sar.appendChild(ek);
+  return sar;
+}
+
+// Haritada bir noktaya en yakın yerleşim. Dönüş: {y, km} ya da null.
+function _enYakinYerlesim(lat, lon) {
+  var Y = window.YERLESIMLER || [], en = null, enKm = Infinity;
+  var co = Math.cos(lat * Math.PI / 180);
+  for (var i = 0; i < Y.length; i++) {
+    var y = Y[i];
+    if (y.lat == null || y.lon == null) continue;
+    var dl = (y.lat - lat) * 111.32, dn = (y.lon - lon) * 111.32 * co;
+    var km = Math.sqrt(dl * dl + dn * dn);
+    if (km < enKm) { enKm = km; en = y; }
+  }
+  return en ? { y: en, km: enKm } : null;
+}
 // p2/H-0010 (denetim, 3 Ağustos) — kullanıcının kendi cümlesiyle "sessiz
 // kayıp" sınıfı: mimar (4) ve edebiyatçı (4) kayıtları kisiler.js'te VARDI
 // ama burada tanımlı olmadıkları için bu sekmede HİÇ görünmüyorlardı —
@@ -4565,7 +4716,10 @@ function dizinDoldur(sekme) {
       return hepsi;
     }
 
+    // 🆕 T-0126 — `detay`ı harita tıklamasına AÇ. Sekme her doldurulduğunda
+    // yeniden atanır; eski kapanış (closure) tutulmaz.
     function detay(y) {
+      _yerlesimAc = detay;
       liste.innerHTML = "";
       var geri = document.createElement("div");
       geri.className = "dz-satir tikla";
@@ -4578,6 +4732,12 @@ function dizinDoldur(sekme) {
       h.textContent = y.ad + " — " + y.lat.toFixed(3) + "K, " + y.lon.toFixed(3) + "D" +
                       (y.tur ? " · " + y.tur : "") + (y.kur ? " · kuruluş " + y.kur.slice(0, 4) : "");
       liste.appendChild(h);
+
+      // 🆕 T-0126 — ZAMAN ÇUBUĞU. Listenin YERİNE değil ÜSTÜNE: çubuk
+      // "ne zaman kimde" sorusunu bir bakışta, liste ise TAM tarihlerle
+      // cevaplıyor. İkisi iki ayrı soru.
+      var _cb = _cubukCiz(y);
+      if (_cb) liste.appendChild(_cb);
 
       var dn = donemler(y);
       if (!dn.length) {

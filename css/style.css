@@ -2191,3 +2191,34 @@ html:has(#yanpanel.dar) #olay-detay { width: var(--panel-dar); }
 /* ⚠️ YERLEŞİM KATMANI DOM İŞARETÇİSİDİR, harita katmanı DEĞİL —
    `setLayoutProperty` onlara işlemez, bu yüzden CSS ile gizleniyor. */
 body.katman-yerlesim-kapali .maplibregl-marker { display: none !important; }
+
+
+/* ══ T-0126 · YERLEŞİM ZAMAN ÇUBUĞU ══════════════════════════════════
+   Emre: "hangi tarihlerde kimin elinde olduğunu gösteren bir çubuk".
+   Çubuk 1281→1923 aralığının TAMAMINI temsil eder; boş kalan yer
+   "sahipsiz"tir ve o boşluk KASITLI — doldurulmaz, çünkü haritada da
+   boştur. */
+.yer-cubuk-sarmal { margin: 6px 0 10px; }
+.yer-cubuk {
+  position: relative; height: 18px; border-radius: 3px;
+  background: repeating-linear-gradient(45deg,
+      #2b2b2b 0 4px, #333 4px 8px);      /* sahipsiz = taralı zemin */
+  border: 1px solid #444; overflow: hidden;
+}
+.yer-cubuk i {
+  position: absolute; top: 0; bottom: 0; display: block;
+  cursor: pointer; border-right: 1px solid rgba(0,0,0,.35);
+}
+.yer-cubuk i:hover { filter: brightness(1.35); }
+.yer-cubuk i.isgal {
+  background-image: repeating-linear-gradient(45deg,
+      rgba(255,255,255,.35) 0 3px, transparent 3px 6px);
+}
+.yer-cubuk-eksen {
+  display: flex; justify-content: space-between;
+  font-size: 10px; color: #9a9a9a; margin-top: 2px;
+}
+.yer-cubuk-sarmal[data-mesafe]::after {
+  content: attr(data-mesafe);
+  display: block; font-size: 10px; color: #c8861a; margin-top: 3px;
+}
