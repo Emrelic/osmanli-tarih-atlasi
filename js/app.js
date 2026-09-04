@@ -7974,6 +7974,57 @@ guncelle();
 //    işaretçisi (`.maplibregl-marker`) olarak çiziliyor, `setLayoutProperty`
 //    onlara işlemez. Ölçüldü, varsayılmadı. Bu yüzden o kova ayrı yolla
 //    (gövdeye sınıf) açılıp kapanıyor.
+// ═══════════════════════════════════════════════════════════════════════
+// SİYASÎ KİP — iki renk üslubu, 4 Eylül 2026 (Emre'nin isteği)
+// ═══════════════════════════════════════════════════════════════════════
+// > "şimdiki renk tarzı da bir katman tarzı olarak korunsun ama eski renk
+// >  tarzını da getirelim ... renkler coğrafyayı örtmeyecek şekilde"
+//
+// İKİ KARAR, İKİSİ DE ÖLÇÜLMÜŞ, VE BİRBİRİNE ZIT:
+//   2 Eylül  üç dolgu SAYDAMDI (0.44/0.60/0.68); üst üste binen gövdeler
+//            ALFA HARMANLANIYORDU (Pirot · Kütahya · Uşak · Simav ölçüldü)
+//            → "mor" gövdeler. Çare: hepsi opak yapıldı.
+//   4 Eylül  Emre: opak renkler altlığı (dağ · nehir · doku) TAMAMEN örtüyor.
+// ⇒ İkisi de doğru. Çözüm bir DEĞER değil bir SEÇİM: kip.
+//
+// SERT (varsayılan)  alfa harmanı YOK · ΔE ölçümü ekranda birebir geçerli
+//                    · çakışan gövdelerde hangi rengin kazandığı KESİN
+// YUMUŞAK            altlık alttan görünür · BEDELİ: alfa harmanı geri gelir,
+//                    ölçülmüş çakışmalarda renk karışır. Bu bir kusur değil,
+//                    kipin BİLİNEN bedeli — o yüzden varsayılan DEĞİL.
+//
+// 🔴 DEĞERLER UYDURULMADI: `arac/renkler.py` OPAKLIK sözlüğünden geliyor
+// (yabancı 0.44 · tâbi 0.60 · doğrudan 0.68) ve 143 rengin bütün ΔE
+// ölçümleri o değerlere göre kalibre edilmişti. `himaye-dolgu` o sözlükte
+// YOK — katman 2 Eylül'de doğdu; tâbi ailesinden sayıldı (Osmanlı
+// kademesinde ve vassal-dolgunun hemen üstünde).
+//
+// ⚠️ AÇIK BORÇ: `renkler.py:_opaklik_dogrula()` app.js'te
+// `"fill-opacity": 0.44` DİZGİSİNİ arar. Yumuşak değerler artık bu
+// sözlükte duruyor, o biçimde değil ⇒ uyarı ötmeye devam eder ve uyarı
+// SERT kipte doğru, YUMUŞAK kipte yanlıştır. Koşu bitince (renkler.py
+// donmuş) o denetim bu sözlüğü okuyacak şekilde düzeltilecek.
+var SIYASI_KIP = {
+  sert:    { "devlet-dolgu": 1,    "vassal-dolgu": 1,
+             "himaye-dolgu": 1,    "osmanli-dolgu": 1    },
+  yumusak: { "devlet-dolgu": 0.44, "vassal-dolgu": 0.60,
+             "himaye-dolgu": 0.60, "osmanli-dolgu": 0.68 }
+};
+
+// Kipi uygular ve GERÇEKTEN uygulanan katman sayısını döndürür.
+// 🔴 Sayıyı döndürüyor çünkü bu projenin en pahalı hatası "bir şey
+//    bulamadım ⇒ sorun yok": katman henüz yoksa `setPaintProperty` sessizce
+//    patlar ve düğme ölü görünür. Sayı 0 dönerse arayüz bunu SÖYLER.
+function siyasiKipUygula(yumusakMi) {
+  var t = SIYASI_KIP[yumusakMi ? "yumusak" : "sert"], n = 0;
+  for (var id in t) {
+    if (!Object.prototype.hasOwnProperty.call(t, id)) continue;
+    try { harita.setPaintProperty(id, "fill-opacity", t[id]); n++; }
+    catch (e) { /* katman henüz yok — styledata gelince yeniden denenir */ }
+  }
+  return n;
+}
+
 var KATMAN_KUMESI = [
   { anahtar: "cografya", ad: "Coğrafya",  kalip: /^(zemin|altlik|g-)/ },
   { anahtar: "yollar",   ad: "Yollar",    kalip: /^(koridor-|sefer-)/ },
@@ -8025,6 +8076,14 @@ function katmanSeciciKur() {
       var a = kutu.getAttribute("data-katman");
       var acik = kutu.checked;
 
+      if (a === "yumusak") {
+        // Renk ÜSLUBU — bir katman görünürlüğü DEĞİL. Bu yüzden kova
+        // aranmaz; dört dolgunun `fill-opacity`si değişir.
+        var kac = siyasiKipUygula(acik);
+        var sy = document.getElementById("kat-sayi-yumusak");
+        if (sy) sy.textContent = kac ? kac : "⏳";
+        return;
+      }
       if (a === "yerlesim") {
         // DOM işaretçileri — katman değil. Gövdeye sınıf, CSS gizler.
         document.body.classList.toggle("katman-yerlesim-kapali", !acik);
