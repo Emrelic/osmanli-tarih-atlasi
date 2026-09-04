@@ -908,3 +908,26 @@ R15 Dikiş nöbetçisinin ölçütü GÖLDEN ARINDIRILSIN: "iki gövdeye değen 
   render'ında antialiasing ve kenar çizgisi (`serbest kenar` katmanı) ince
   şeritleri GÖRÜNÜR kılabilir. Ekrandan doğrulanmadı.
 ```
+
+## ⑤ 🔴 VE BU HÜKMÜN BİR BAĞIMLILIĞI VAR — kapanıştan sonra öğrenildi
+
+Yukarıdaki son maddede *"`serbest kenar` katmanı ince şeritleri görünür
+kılabilir"* diye bir ihtimal yazmıştım. Koordinatör bunun üzerine bir şey
+bildirdi ve **hükmü doğrudan bağlıyor**:
+
+> `serbest kenar` katmanı **şu an hiç yüklenmiyor** — MapLibre ifade hatası
+> (`oturumlar/KOSU-SONRASI-KUYRUK.md` ⑥. bölüm).
+
+⇒ *"Kenar ailesi görünmez"* hükmüm, **o katmanın bozuk olduğu bir ekran** için
+verildi. Katman düzeltilince ince şeritlerin kenarı çizilecek ve **sub-piksel
+bir şerit bile görünür hâle gelebilir.**
+```
+🔴 KURAL: R14'ün "artefakt, kusur değil" hükmü, `serbest kenar` DÜZELTİLDİKTEN
+   SONRA YENİDEN SINANMALI. Sınav ucuz: aynı kutuya aynı yakınlıkta bak.
+```
+⚠️ Bu bir *"hüküm yanlıştı"* kaydı **değil**, bir **kapsam** kaydıdır: hüküm
+bugünün ekranı için doğru, yarınınki için **ölçülmemiş.** İkisini karıştırmak,
+doğru bir ölçümü yanlış bir zamana taşımak olurdu.
+📌 Ve iki borç birbirine bağlıydı — bağ, ancak ikisi **ayrı ayrı yazıldığı
+için** görünür oldu: biri arayüz kuyruğunda, öteki bu raporda. Tek bir yerde
+dursalardı biri ötekini örterdi.
