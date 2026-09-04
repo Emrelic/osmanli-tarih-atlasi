@@ -1,0 +1,6 @@
+// renk_olc.py --oner çıktısı — aktarımdan SONRA:
+//   py arac/renk_olc.py --dogrula oneri-20260904-191127.txt
+kanem-bornu #ea1218
+panama-cumhuriyeti #d22496
+eyyubi-hisnikeyfa #36d224
+yarkent-hanligi #66d224

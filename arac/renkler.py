@@ -1256,7 +1256,7 @@ BOYALAR = {
     "dahomey":                ("Dahomey Krallığı",           "#d42870"),
     "asanti":                 ("Aşanti İmparatorluğu",       "#28d05c"),
     "sokoto":                 ("Sokoto Halifeliği",          "#2860d4"),
-    "kanem-bornu":            ("Kanem-Bornu İmparatorluğu",  "#80d428"),
+    "kanem-bornu":            ("Kanem-Bornu İmparatorluğu",  "#ea1218"),
     "zulu-kralligi":          ("Zulu Krallığı",              "#cca828"),
     # ═══ BAĞLAMA KAPISI — YEDİ KİMLİK (RENK AFRİKA, parti 2) ═══
     # M-0313: sekiz bekleyen dosyanın kullandığı kimlikler `devletler.js` ve
@@ -1455,7 +1455,7 @@ BOYALAR = {
     #      alet değil TESLİM yanıldı, ve aynı sebeple.)
     #   ÖLÇÜM: en yakın engelden ΔE 22,1 · 3 sıranın 3'ü de çözdü ·
     #     `kolombiya-cumhuriyeti` (ayrıldığı devlet) ile ΔE eşik üstü.
-    "panama-cumhuriyeti":       ("Panama Cumhuriyeti",        "#24d880"),
+    "panama-cumhuriyeti":       ("Panama Cumhuriyeti",        "#d22496"),
     # ═══ `tonga-kralligi` — ZİNCİRİN SON HALKASI (M-0597/M-0610) ═══
     # Kusur değil ZİNCİR: `Değişmez 1c` Lapaha'yı belgesiz sahipsiz buldu
     # (8, tavan 7) → çare `s:` dizisine `d:"tonga-kralligi"` eklemekti →
@@ -2609,7 +2609,7 @@ BOYALAR = {
     #   Ucuz olan taşınır — `cungar` ve `cohor` vakalarındaki aynı ölçüt.
     # ÖLÇÜM: ming-hanedani 14,2 → **36,7** · en yakın engel 19,6 · C* 10,3
     "tibet":                   ("Tibet (Phagmodrupa-Tsangpa)",       "#e1aed2"),
-    "yarkent-hanligi":         ("Yarkent (Sa'îdiyye) Hanlığı",       "#6c7e36"),
+    "yarkent-hanligi":         ("Yarkent (Sa'îdiyye) Hanlığı",       "#66d224"),
     "kuzey-yuan":              ("Kuzey Yuan (Moğol Hanlığı)",        "#306c78"),
     "demak":                   ("Demak Sultanlığı (Cava)",           "#9072c0"),
 
@@ -2896,7 +2896,7 @@ BOYALAR = {
     # 🔜 SIRA BAĞLAYICI: `kabartay` henüz hiçbir `s:` döneminde DEĞİL —
     #    `__BOSLUK__` → `d:"kabartay"` dönüşümü bu renkten SONRA yapılır.
     #    Ters sıra Kabartay toprağını bir koşu boyunca BOYASIZ bırakırdı.
-    "eyyubi-hisnikeyfa":       ("Hısnıkeyfâ Eyyûbîleri",             "#108810"),
+    "eyyubi-hisnikeyfa":       ("Hısnıkeyfâ Eyyûbîleri",             "#36d224"),
     "abenaki":                 ("Abenaki (Wabanaki)",                  "#245ad2"),
     "adamava":                 ("Adamava Emirliği (Fumbina)",          "#2484d2"),
     "adar":                    ("Adar Hausa Sahası (Tahoua · Konni · Madaova)", "#24d296"),
