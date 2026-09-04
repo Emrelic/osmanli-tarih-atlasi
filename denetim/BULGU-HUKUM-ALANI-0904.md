@@ -805,3 +805,209 @@ sistematik olarak küçük gösteriyor, ve nokta eklemekle düzelmez.
 > yalnız Anadolu ve Rumeli'de çakışıyor — ve tam orada, kimse
 > planlamadan, atlasın yoğunluğu tarihî kaza ağının yoğunluğuna
 > oturmuş.**
+
+---
+---
+
+# ⑩ EK — EMRE'NİN KENDİ SAYILARINA CEVAP (200 / 300 km)
+
+> 🔴 **BU BÖLÜM RAPOR TESLİM EDİLDİKTEN SONRA EKLENDİ.** Koordinatör
+> Emre'nin masadaki sayılarını iletti — şartname yazıldığında henüz
+> konuşulmamıştı. Yukarıdaki ⓪-⑨ bölümleri **bu sayılar bilinmeden**
+> yazıldı ve **hiçbiri değiştirilmedi**; `§11`in *"önce yazılan öngörü
+> çürütülebilir"* kuralı gereği bu ek, onların **üstüne** gelir.
+
+## Ⓐ 🟢 ÖNCE EN ÖNEMLİSİ: EMRE'NİN İKİ GÖSTERİMİ, BENİM BULDUĞUM ÇELİŞKİYİ ZATEN ÇÖZÜYOR
+
+`§⑥Ⓒ`de ölçtüğüm asıl kusur şuydu: **`TAVAN_KM` iki ayrı işi birden
+yapmak zorunda bırakılmış ve ikisi ters çekiyor.**
+```
+İŞ ①  "bir yerleşim ne kadar toprağa hükmeder"      literatürde VAR
+İŞ ②  "seyrek noktalardan ne kadar ARA DEĞER üretelim"  literatürde YOK
+```
+Emre'nin iki gösterimi tam bu ikisidir:
+```
+GÖSTERİM 1  ham hâl · benekli · boşluklar KALIR      = İŞ ①
+GÖSTERİM 2  doldurulmuş · boşluk bölüşülür · tavanlı = İŞ ②
+```
+🟢 **⇒ Bir tasarım kararı, bir ölçüm bulgusuyla bağımsız olarak
+buluştu.** Ben çelişkiyi *"tek sabit iki soruya cevap veremez"* diye
+ölçtüm; Emre onu *"iki ayrı gösterim"* diye çözmüş. **İki tavan
+gerekiyor, bir tane değil** — ve bu artık bir tercih değil, ölçülmüş
+bir gereklilik.
+
+## Ⓑ EMRE'NİN 200/300'ü NE ÜRETİYOR — ölçüldü
+
+```
+                        200 km tavan      300 km tavan
+DÜNYA karası boyasız       %18,1              % 7,4
+SAHRA (15-30°K)            %25,8              % 9,6
+SİBİRYA (50-78°K)          %37,7              %14,8
+```
+Ve Emre'nin endişesinin sayısal hâli — en yakın yerleşime uzaklık:
+```
+Sahra    ortanca 136 km · %90 293 · max 638
+Sibirya  ortanca 172 km · %90 346 · max 623
+```
+
+🟢 **HÜKÜM: 300 km, Emre'nin istediği şeyi TAM OLARAK üretiyor.**
+Kendi cümlesi:
+> *"uçsuz bucaksız Sibirya tundraları veya Sahra çölleri, güneydeki bir
+> tane şehir yüzünden 1000 km öteye kadar tüm kıtayı kapatmayacak."*
+
+300 km'de Sibirya'nın **%14,8'i**, Sahra'nın **%9,6'sı** boş kalıyor —
+yani *"devasa boşluklar olacaksa olsun"* hükmü **gerçekleşiyor**, ama
+kıta da silinmiyor (%85 boyalı). Bu bir tesadüf değil: 300 km, Sahra'nın
+ortanca nokta aralığının (136 km) **iki katından biraz fazlası**, yani
+komşusu olan noktaları birleştirip komşusuz olanları kesen tam eşik.
+
+⚠️ Ve Emre'nin *"400 km ise bölüşülür, 600 km'den fazlaysa 200 km boş
+kalır"* kuralı, **her noktaya 200 km** demektir (400 ÷ 2). Bu iç tutarlı:
+200 km'lik bir tavan tam olarak bu davranışı üretir.
+
+## Ⓒ 🔴 KOORDİNATÖRÜN GÖRDÜĞÜ GERİLİM: menzil 85 km ↔ Emre 200-300 km
+
+Koordinatör *"bu bir çelişki OLMAYABİLİR ama bunu SEN kurmalısın"* dedi.
+Kuruyorum — ve **çelişki yok, çünkü iki farklı büyüklük.**
+
+```
+85 km    BİR SIÇRAMA          ağın bir ÖZELLİĞİ  (menzil aralığı)
+200-300  BİR ERİŞİM           zincirin uzunluğu  (kaç sıçrama)
+```
+Bir menzil aralığını tavanla karşılaştırmak, bir merdiven basamağını
+merdivenin boyuyla karşılaştırmaktır. Oran **sıçrama sayısını** verir:
+```
+200 km / 85 km = 2,4 sıçrama       300 km / 85 km = 3,5 sıçrama
+saat cinsinden: 200 km ≈ 42 saat · 300 km ≈ 64 saat
+```
+
+🟢 **VE ÜÇ SIÇRAMANIN KAYNAKLI BİR KARŞILIĞI VAR.** İslâm hukuku
+*"uzak"*ı **üç** birimle tanımlıyor (TDV `sefer--fikih`: *"üç günlük
+mesafe … buna üç merhale de denir"*). Üç menzil sıçraması:
+```
+3 × 85 km = 255 km    ← Emre'nin 200-300 bandının TAM ORTASI
+```
+⚠️ **VE BURADA BİR AYRIM ŞART, yoksa iki birim karışır:**
+```
+3 GÜNLÜK YÜRÜYÜŞ (şer'î sefer)   =  80-100 km   ← yaya/deve, 6 saat/gün
+3 MENZİL SIÇRAMASI               = ~255 km      ← ulak, menzilde at DEĞİŞTİRİR
+```
+İkisi de *"üç birim"* ama birimleri farklı. **Hangisi tavan için doğru?**
+🟢 **MENZİL — ve gerekçesi yapısal:** tavan, bir merkezin **devletin
+kendi haberleşme ağı üzerinden** erişebildiği yeri ölçer. Sancak
+merkezinden çıkan emir yayan gitmez, **ulakla** gider. ⇒ Doğru birim
+menzil sıçramasıdır, günlük yürüyüş değil.
+⚠️ Bu benim **kurduğum** bir bağdır, bir kaynağın cümlesi değildir.
+Öyle işaretli duruyor.
+
+## Ⓓ ⇒ EMRE'NİN SAYISINA ADIYLA CEVAP
+
+**300 km: 🟢 DESTEKLENİYOR — ama BİR KADEME İÇİN, hepsi için değil.**
+```
+şer'î kaza yarıçapı           90 km    (TDV, 🟢 yüksek güven)
+× √3 → sancak                156 km
+× √3 → EYALET                270 km    ← EMRE'NİN 300'Ü BURASI
+3 menzil sıçraması           255 km    ← ikinci, bağımsız yol
+```
+İki ayrı yol (Christaller kademe oranı · menzil sıçrama zinciri)
+**255-270 km** veriyor. Emre'nin 300'ü bunun %11-18 üstünde — yani
+**eyalet ölçeğinin üst ucu.** Savunulabilir.
+
+**200 km: 🟡 SANCAK ile EYALET ARASINDA.** 156 (sancak) ile 270 (eyalet)
+arasına düşüyor. Tek başına bir kademeye karşılık gelmiyor.
+
+🔴 **VE ASIL CEVAP BU: 200-300 doğru sayı, ama YANLIŞ KADEMEDE
+uygulanıyor.** Bugün beş kademeye de aynı 200 veriliyor. Oysa:
+```
+k1 eyalet   ~270-300 km   🟢 Emre'nin sayısı BURAYA oturuyor
+k2 sancak   ~156 km       🟡 200 biraz geniş
+k3 kaza     ~90 km        🔴 200 iki katından fazla — şer'î sınırı aşıyor
+k4 kale/köy ~40 km        🔴 200 BEŞ KATI
+```
+⇒ **Emre'nin 300'ü GÖSTERİM 2'nin (doldurma) mutlak tavanı olarak
+doğru; GÖSTERİM 1'in (ham hâl) kademe tavanı olarak k1 dışında yanlış.**
+Ve bu, `§⑥Ⓓ`de zaten önerdiğim kademeli tabloya **bağımsız bir
+gerekçe** ekliyor: bu sefer literatürden değil, **Emre'nin kendi
+sayısından.**
+
+## Ⓔ 🟢 KOORDİNATÖRÜN ÖLÇÜM İYİLEŞTİRMESİ YAPILDI — ve kutumu ÇÜRÜTMEDİ, DOĞRULADI
+
+Kendi bildirdiğim sınırı (*"Osmanlı kuşağı kutusunu BEN seçtim"*)
+kapattım. Evreni kutu yerine **gövdeden** kurdum: `d:` ya da `v:` dönemi
+taşıyan **1073 nokta** (herhangi bir tarihte).
+
+```
+                        GÖVDE (≤300 km)      KUTU (25-50°K, 10°B-50°D)
+kara alanı                12.059.773 km²          10.694.857 km²
+en yakın yerleşime        ortanca 63 km           ortanca 59 km
+uzaklık                   %90 159 · max 297       %90 166 · max 566
+─────────────────────────────────────────────────────────────────
+TAVAN 140 km boş             %14,9                   %15,6
+TAVAN 200 km boş             % 5,1                   % 6,9
+TAVAN 280 km boş             % 0,5                   % 2,4
+```
+🟢 **Kutu ile gövde aynı mertebeyi veriyor** (ortanca 59 ↔ 63 km; 200 km
+tavanda %6,9 ↔ %5,1). ⇒ `§③Ⓓ`nin bütün hükümleri **ayakta**; kutu
+seçimim sonucu değiştirmemiş.
+⚠️ **AMA ÖRTÜŞME KISMÎ VE BU ÖĞRETİCİ:** 3035 ortak hücreye karşılık
+**yalnız gövdede 1590 · yalnız kutuda 1322.** Yani kutu, gövdenin
+neredeyse **üçte birini kaçırıyor** (Fizan · Dârfûr · Bahrülgazâl gibi
+güney uçlar) ve karşılığında Osmanlı olmayan yerleri (İran içleri, Batı
+Avrupa) sayıyor. **Sayı aynı çıktı ama küme farklı** — `§11`in
+*"iki ayrı sorunun aynı cevabı vermesi, aynı soru olduğu anlamına
+gelmez"* dersinin bu turdaki vakası.
+
+🔴 **VE BİR DÖNGÜSELLİK BEYANI:** gövdeyi *"bir Osmanlı noktasına ≤300
+km"* diye tanımladım. Bu yüzden `≤200 km` tanımlı gövdede 200 km
+tavanının **%0,0** boş bırakması bir bulgu **değil, tanımın kendisidir**
+ve rapora bir sonuç olarak yazılmamıştır. Yukarıdaki tabloda **yalnız
+300 km tanımlı gövde** kullanıldı; orada 200 km tavanı %5,1 veriyor ve
+o **gerçek bir ölçümdür**.
+
+## Ⓕ k0 — koordinatör haklı, ve tablodaki en kritik hücre bu
+
+Boşluk açan 23 noktanın **12'si k0**. k0 hem en kalabalık kova (1239)
+hem tavanın en çok ısırdığı kova hem de **kademesi bilinmeyen** kova.
+```
+GÖSTERİM 1 (ham)        k0'a tavan VERİLMEZ — çünkü kademesi bilinmiyor
+                        ve bilinmeyen bir şey için yarıçap uydurulamaz.
+                        Doğrusu: k0 noktası kendi peteğini kadar boyar,
+                        ötesi BOŞ kalır ⇒ boşluk bir KUSUR değil, bir
+                        BEYAN olur: "burada kademe araştırılmadı".
+GÖSTERİM 2 (dolu)       k0'a Emre'nin mutlak tavanı (300 km) verilir —
+                        çünkü burada zaten "hükmetme" değil "doldurma"
+                        ölçülüyor ve doldurmanın kademeyle işi yok.
+```
+🟢 **Bu, k0 tuzağını çözüyor:** ona *"düşük mü yüksek mi tavan"* diye
+sormak yanlıştı; doğru soru *"hangi gösterimde"*. İki gösterimde iki
+farklı cevabı var, ve ikisi de tutarlı.
+
+## Ⓖ GÖSTERİM 2'nin ÖTEKİ SAYILARI — kaynağa karşı
+
+```
+Emre                                     kaynak karşılığı
+─────────────────────────────────────────────────────────────────
+enklav birleşme: 200 km alan + 200 km    🟡 ÖLÇMEDİM — enklav geometrisi
+                 mesafe                     bu raporun kapsamı dışında
+iki devlet arası: her tarafa en fazla     🟢 TUTARLI — 200 km tavanın
+                  200 km                     birebir karşılığı
+Sahra: 400 km bölüşülür, 600 km'den       🟢 İÇ TUTARLI (400/2 = 200) ve
+       fazlası 200 km boş                    Sahra ortancası 136 km ile
+                                             uyumlu: tipik aralık zaten
+                                             bölüşme eşiğinin altında
+mutlak tavan 300 km                       🟢 eyalet ölçeği (270) ·
+                                             3 menzil sıçraması (255)
+```
+⚠️ **Enklav kuralını ÖLÇMEDİM** — *"200 km alan"* ifadesinin alan mı
+(km²) çap mı olduğu bile bana açık değil. Bu bir tahmin değil, bir
+**eksik**; sorulması gerekir.
+
+## Ⓗ TEK CÜMLEYLE, EMRE'YE
+
+> **300 km savunulabilir ve iki bağımsız yol onu doğruluyor (eyalet
+> yarıçapı 270 km · üç menzil sıçraması 255 km) — ama bir MUTLAK TAVAN
+> olarak, yani doldurulmuş gösterimin sınırı olarak. Ham gösterimde
+> aynı sayıyı bir köye vermek onu beş kat şişirir: kaynakların verdiği
+> köy yarıçapı 40 km, kaza 90 km, sancak 156 km, eyalet 270 km. Ve
+> 300 km'de Sibirya'nın %14,8'i, Sahra'nın %9,6'sı boş kalıyor — yani
+> "devasa boşluklar olsun" dediğiniz şey tam olarak gerçekleşiyor.**
