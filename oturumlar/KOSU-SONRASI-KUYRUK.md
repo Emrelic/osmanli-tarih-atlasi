@@ -82,7 +82,8 @@ Bir sonraki oturum bu sayıların üstüne inşa etmeden önce ikisini de görs�
 ```
 R1  don_kose_kur TAM FLOAT EŞİTLİĞİ kullanıyor (:3639) ⇒ dikişte köşeler
     birebir değilse hiçbiri donmuyor, iki taraf 2×tol içeri çekiliyor
-    ⇒ 95 parça · 15.526 km² dikiş boşluğu (Riga · Bohemya, Emre'nin görselleri)
+    ⇒ 96 parça · 9.046 km² dikiş boşluğu (Riga · Bohemya, Emre'nin görselleri)
+    ⚠️ 15.526 DEĞİL — o sayı göl kıyılarını da sayıyordu (aşağıya bak)
 R2  kapama koruma şartı (:1319) YANLIŞ EKSENİ ölçüyor — "içinde başka
     devletin YERLEŞİMİ varsa" diyor, korunması gereken PETEK
 A2  çift koşu kilidi .bat'tan MODÜLE taşınsın
