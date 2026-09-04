@@ -18,7 +18,11 @@
     "EB-AW": "Encyclopaedia Britannica, 'Araucanian wars' (Britannica Editors; rev. Heather Campbell) — govde TARAYICIDAN OKUNDU, alintilar AYNEN.",
     "_KURULUS_MUAFIYETI": "On yerli kunyenin f: degeri 1281-01-01 — atlasin PENCERE BASI, o olusumun kurulusu DEGIL. Koordinatorun duzeltilmis kurali `f <= 1281-01-01` ⇒ hepsi MUAF. KURULUS MADDESI ARANMADI, UYDURULMADI.",
     "_YAZILMAYANLAR": "BES KUNYE ICIN HICBIR MADDE YAZILMADI cunku KAYNAK OKUMADIM: diaguita-calchaqui-konfederasyonu · ranquel · charrua · arua · guarani-misyonlari. Dogru damga 'bulunamadi' DEGIL 'OKUMADIM' — aramadim bile. Bir sonraki turun isi.",
-    "_SEMA_BOSLUGU": "🔴 OLCULDU: sema GUN/AY/YIL hassasiyetini ifade edebiliyor ama YUZYIL hassasiyetini EDEMIYOR. Vaka: EB 'Chibcha' maddesi «Their political structure was crushed in the 16th century» diyor — bunu `t` alanina yazmanin hicbir durust yolu yok; 1500-01-01 yazmak YIL iddia eder. Bu yuzden muisca `son` maddesi Chibcha maddesinden DEGIL, gun/yil veren `Gonzalo Jiménez de Quesada` maddesinden yazildi."
+    "_SEMA_BOSLUGU": "🔴 OLCULDU: sema GUN/AY/YIL hassasiyetini ifade edebiliyor ama YUZYIL hassasiyetini EDEMIYOR. Vaka: EB 'Chibcha' maddesi «Their political structure was crushed in the 16th century» diyor — bunu `t` alanina yazmanin hicbir durust yolu yok; 1500-01-01 yazmak YIL iddia eder. Bu yuzden muisca `son` maddesi Chibcha maddesinden DEGIL, gun/yil veren `Gonzalo Jiménez de Quesada` maddesinden yazildi.",
+    "EB-PY": "Encyclopaedia Britannica, 'Paraguay — Colonial period / Struggle for independence' (Elman R. Service, Gilbert James Butland, John Hoyt Williams & Britannica Editors) — govde TARAYICIDAN OKUNDU, alintilar AYNEN.",
+    "EB-AR/PAT": "Encyclopaedia Britannica, 'Argentina / Patagonia' maddesinden aynen aktarma — Britannica'nin 'Conquest of the Desert' derleme sayfasinda kaynak olarak gosteriliyor. 🔴 O SAYFANIN OZETI YZ URETIMIDIR ve KULLANILMADI; yalniz gercek maddeden yapilan aktarma alindi.",
+    "_ARANDI_BULUNAMADI": "🔴 UC KUNYEYE MADDE YAZILMADI ve bu bir TERCIHTIR: charrua · diaguita-calchaqui-konfederasyonu · arua. UCU DE ARANDI (Britannica 'Charrúa' 10.989 krkt, 'Diaguita' 22.411 krkt, 'Marajo Island' + akademik arama) ve UCUNUN DE kaynagi HICBIR TARIH VERMIYOR — Charrúa maddesi yalniz «Since the colonial settlement of the grasslands, the Charrúa have ceased to exist as an independent society» diyor. ⇒ Damga OKUMADIM degil, artik BULUNAMADI. ⇒ Kaynagi 'bulunamadi' olan bir madde YAZMADIM: o madde devletler.js'e inip KULLANICIYA gosterilecek bir kronoloji satiri olurdu. Dayanaksiz bir iddiayi yayina sokmak, kapsama sayisini yukseltmek icin yapilacak son seydir. Olcut zaten uyariyor: '%100 kapsama demek kronoloji tam demek DEGILDIR.'",
+    "_YZ_SAYFASI_UYARISI": "🔴🔴 BRITANNICA ARTIK YZ URETIMI OZET SAYFALARI SUNUYOR ve olcutun kirmizi cizgisi YZ metnini YASAKLIYOR. Vaka: britannica.com/topic/Conquest-of-the-Desert — sayfa kendisi yaziyor: «This summary is created from Britannica articles using AI. AI can make mistakes» ve «Britannica doesn't have a full article on this topic». ⇒ Bu tur sayfalar KAYNAK OLARAK KULLANILAMAZ; yalniz altlarinda gosterilen GERCEK madde aktarmalari kullanilabilir. HER OTURUMU BAGLAR."
   },
   "kunyeler": [
     {
@@ -60,11 +64,25 @@
           "d": "Arjantin Misiones bolgesinin buyuk kismini ve Chaco'nun Bermejo ile Pilcomayo irmaklari arasindaki parcasini aldi; Brezilya Mato Grosso eyaletini ilhak edilen toprakla genisletti. Iki devlet buyuk bir tazminat da talep etti (hic odenmedi) ve Paraguay'i 1876'ya kadar isgal altinda tuttu."
         },
         {
-          "t": "1811-01-01",
+          "t": "1811-05-14",
           "tur": "kurulus",
           "b": "Paraguay Buenos Aires'ten ve Ispanya'dan ayrilarak kendi yolunu tuttu",
-          "kaynak": "EB-LA — AYNEN: «Paraguay resisted Buenos Aires' military and set out on a path of relative isolation from the outside world»  🔴 KAYNAK YIL BILE VERMIYOR — tarih kunyenin kendi f: degeridir (1811-05-14), KAYNAKTAN DOGRULANMADI. Gun-ay-yil hassasiyetinde bir kaynak BULUNAMADI.  🔴 HASSASIYET DUZELTILDI (kalem 3): kunyenin gunu 1811-05-14 idi, kaynak TARIH HIC VERMIYOR. Yil bile kunyeden geliyor. Kunye degistirilmedi.",
-          "d": "Buenos Aires'in eski genel valilik topraklarinin tamamini kendi denetimine alma niyeti cevre eyaletlerde huzursuzluk yaratti. Paraguay Buenos Aires'in askeri girisimine direndi ve dis dunyadan gorece yalitilmis bir yola girdi. Bu yalitilmislik 19. yuzyil boyunca Paraguay siyasetinin belirleyici ozelligi oldu."
+          "kaynak": "EB-PY — AYNEN: «Under the leadership of the militia captains Pedro Juan Cabellero and Fulgencio Yegros, they promptly deposed the governor and declared their independence on May 14, 1811»  🟢 GUN GERI KAZANILDI: kalem 3'te bu tarih 1811-01-01'e INDIRILMISTI cunku o zamanki kaynak hicbir tarih vermiyordu. Yeni kaynak GUNU AYNEN veriyor ve kunyenin f: degeriyle BIREBIR tutuyor. Gun artik KUNYEDEN degil KAYNAKTAN geliyor.",
+          "d": "Ispanyol valisi, Buenos Aires'ten gelecek saldirilara karsi somurgeyi savunmak icin Portekizliler'den yardim isteyince Paraguaylilar'in milliyetci ruhunu kucumsemis oldu. Milis yuzbasilari Pedro Juan Cabellero ve Fulgencio Yegros onderliginde valiyi derhal gorevden aldilar ve bagimsizliklarini ilan ettiler."
+        },
+        {
+          "t": "1811-01-01",
+          "tur": "savas",
+          "b": "Paraguay milisleri Belgrano'nun Arjantin ordusunu puskurttu",
+          "kaynak": "EB-PY — AYNEN: «they refused to accept the declaration of Argentine independence in 1810 as applying to Paraguay. Nor could an Argentine army under Gen. Manuel Belgrano enforce Paraguayan acceptance, as Paraguayan militia repulsed Belgrano's forces in 1811»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI.",
+          "d": "Buenos Aires'in gucu artarken Paraguay'in ileri gelenleri eyaletlerinin oneminin azalmasindan rahatsizdi ve 1810 Arjantin bagimsizlik bildirisinin Paraguay'i kapsadigini kabul etmediler. General Manuel Belgrano komutasindaki Arjantin ordusu da bunu zorla kabul ettiremedi."
+        },
+        {
+          "t": "1813-10-12",
+          "tur": "kurulus",
+          "b": "Francia'nin topladigi kongre Paraguay'i resmen bagimsiz cumhuriyet ilan etti",
+          "kaynak": "EB-PY — AYNEN: «Francia responded by convening a congress, which on October 12, 1813, formally declared Paraguay an independent republic»",
+          "d": "1811 Ekim'inde Buenos Aires ile imzalanan belirsiz askeri ittifak Paraguay bagimsizliginin fiili taninmasi olmus, ama Buenos Aires ittifaki kendi ic cekismeleri icin asker toplamakta kullanmaya kalkinca anlasma gecersizlesmisti. Buenos Aires Paraguay'i ablukaya aldi ve Nicolas de Herrera'yi esitsiz bir birlige ikna etmesi icin Asuncion'a yolladi; Francia buna kongre toplayarak karsilik verdi."
         }
       ]
     },
@@ -638,6 +656,44 @@
           "b": "Pachacuti Inca Yupanqui kardesinden tahti gasbetti",
           "kaynak": "EB-INCA — AYNEN: «The earliest date that can be confidently assigned to Inca dynastic history is 1438, when Pachacuti Inca Yupanqui … a son of Viracocha Inca, usurped the throne from his brother Inca Urcon»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI.",
           "d": "Inka, oteki And kulturleri gibi yazili kayit birakmadi; kokenleri ve erken tarihi buyuk olcude efsanelere gomulmustur. Pachacuti Inca Yupanqui'nin saltanatindan sonraki tarih ise buyuk olcude olguya dayanir. 1438, Inka hanedan tarihine guvenle atanabilen en erken tarihtir ve kunyenin f: degeriyle AYNI YILDIR."
+        }
+      ]
+    },
+    {
+      "id": "guarani-misyonlari",
+      "eklenen": [
+        {
+          "t": "1721-01-01",
+          "tur": "isyan",
+          "b": "Asuncion toprak sahipleri Cizvit ticaret ve emek tekeline karsi ayaklandi",
+          "kaynak": "EB-PY — AYNEN: «In the period 1721–35 the latter waged a struggle to overthrow the Jesuit monopoly of Indian trade and labour»  ⚠️ TARIH HASSASIYETI: kaynak bir ARALIK veriyor (1721-35); baslangic yili alindi, GUN VE AY BULUNAMADI.",
+          "d": "Parana ve Uruguay havzalarindaki Cizvit ortak misyonlari, Asuncion merkezli Paraguay'in kalbinden yalitilmis olarak askeri, siyasi ve iktisadi bakimdan ozerk bir 'devlet icinde devlet' haline gelmisti; bu durum Asuncion cevresindeki Ispanyol toprak sahiplerinin kiskancligini giderek artirdi."
+        },
+        {
+          "t": "1754-01-01",
+          "tur": "savas",
+          "b": "Birlesik Ispanyol-Portekiz saldirisi misyon topraklarini bolmeye calisti",
+          "kaynak": "EB-PY — AYNEN: «the settlements also had to defend themselves against slave raiders from São Paulo and, in 1754–57, a combined Spanish-Portuguese attack that was designed to enforce a territorial partition of the mission settlements»  ⚠️ TARIH HASSASIYETI: kaynak bir ARALIK veriyor (1754-57); baslangic yili alindi, GUN VE AY BULUNAMADI.",
+          "d": "Misyonlar desteksiz biçimde hem Sao Paulo'dan gelen kole avcilarina hem de topraklarini bolmeyi amaclayan birlesik Ispanyol-Portekiz saldirisina karsi kendilerini savunmak zorunda kaldi."
+        },
+        {
+          "t": "1767-01-01",
+          "tur": "son",
+          "b": "Cizvitler kovuldu, otuz reduccion terk edildi",
+          "kaynak": "EB-PY — AYNEN: «Defiance of such powerful groups paved the way for the expulsion of the Jesuits in 1767. The settlements were abandoned; the Indians were absorbed by either the landed estates or the jungle; the settlements fell into ruin; and economic activity ceased»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI.",
+          "d": "17. yuzyilin basindan itibaren 150 yildan uzun sure Parana ve Uruguay havzalarindaki Cizvit ortak misyonlari, 30 reduccion'da 150.000 yerlinin hayatini yonetti. Bunlar din degistirme, tarim ve hayvancilik uretimi, imalat ve ticaret merkezleri oldugu kadar guney Brezilya'dan gelen Portekiz genislemesine karsi stratejik ileri karakollardi. Kovulmadan sonra yerliler ya buyuk ciftliklere ya da ormana karisti."
+        }
+      ]
+    },
+    {
+      "id": "ranquel",
+      "eklenen": [
+        {
+          "t": "1879-01-01",
+          "tur": "son",
+          "b": "Col Fethi son buyuk yerli direnisini kirdi",
+          "kaynak": "EB-AR/PAT — AYNEN: «…a campaign known as the Conquest of the Desert, which ended in 1879 with the smashing of the last major Indian resistance. Argentines, Chileans, and Europeans began to colonize Patagonia, with soldiers and financial contributors to the Indian wars receiving large land grants»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI.  🔴 KUNYE ILE AYRISIYOR: kunyenin t: degeri 1883, kaynak 1879 diyor. Kunye DEGISTIRILMEDI, fark koordinatore BILDIRILDI.  ⚠️ KAYNAGIN PROVENANSI: bu alinti Britannica'nin 'Conquest of the Desert' SAYFASINDA gorunuyor, ama o sayfanin ozeti YAPAY ZEKA URETIMI oldugunu KENDISI YAZIYOR ve olcutun kirmizi cizgisi YZ metnini YASAKLIYOR. Alintiladigim bolum sayfanin YZ ozeti DEGIL, altinda kaynak olarak gosterilen GERCEK Britannica 'Argentina / Patagonia' maddesinden yapilan aynen aktarmadir.",
+          "d": "Kuzey Patagonya ile guney ve bati Pampalar'daki yerli savaslari, General Julio Argentino Roca'nin yonettigi ve Col Fethi diye anilan harekatla doruga ulasti. Harekat guney ve bati Pampalar'i ve kuzey Patagonya'yi yerlesime acti; Arjantinliler, Sililer ve Avrupalilar Patagonya'yi kolonilestirmeye basladi ve yerli savaslarina asker ya da para veren kisilere buyuk arazi tahsisleri yapildi."
         }
       ]
     }
