@@ -113,6 +113,40 @@ kasr-i-sirin-antlasmasi  302  →  murad-iv  200, ve olayı GÜNÜYLE veriyor
 diye **yaz**. *Kaynağı yazılmayan bilgi, kaynağı olmayan bilgiden ayırt
 edilemez.*
 
+## 🔴 HÜKÜM — TESLİM BİÇİMİ (4 Eylül 2026, koordinatör)
+
+**Üç oturum da açılır açılmaz aynı çelişkiyi bağımsız bildirdi:** şartname
+`DİZİ` diyordu, bu ölçüt `NESNE`; alan adları da ayrışıyordu
+(`kunye`/`id` · `ekle`/`eklenen`). **Sapma şartnamedeydi ve benim
+hatamdı.**
+
+```
+① OTORİTE   BU DOSYA. Şartname per-oturumdur, ölçüt ORTAK KABUL
+            ÖLÇÜTÜDÜR — üç oturum TEK biçim üretmek zorunda.
+② `d`       İSTEĞE BAĞLI. Yamada KALIR, `devletler.js`e İNMEZ.
+            🔴 Atılmıyor: ileride bir `olaylar_ek*` pasının ham maddesi.
+               Bu bir sessiz düşürme DEĞİL, yazılı bir karardır.
+③ `kesinlik` KALDIRILDI — o bir DÖNEM UCU alanı (`VERI-YAPISI.md`),
+            madde alanı değil.
+④ `kaynak`  MADDEYE İNER. Şema genişliyor ve `VERI-YAPISI.md`ye yazıldı.
+⑤ Mevcut 1980 madde kaynaksız KALIR — iki katmanlı külliyat, ve bu bir
+   kusur değil KAYIT: `kaynak` taşıyan madde *"4 Eylül 2026 sonrası,
+   kaynağı ölçülmüş"* demektir.
+```
+
+**NİÇİN ④ böyle:** `kaynak` yalnız yamada kalsaydı `grep` onu bulurdu ama
+**makine bulamazdı** — `§4`ün kırmızı çizgisi ancak veriye inerse bir `if`
+ile sorulabilir. Timbuktu'nun `bos:`/`neden:` alanlarının *aracın alan
+kümesinde olmadığı için* düştüğü vakanın aynısı: doğru biçimde yazılmış
+bir beyan, onu yazacak alan yoksa **sessizce düşer**.
+
+**NİÇİN ② böyle:** `VERI-YAPISI.md`:
+> *"`kronoloji[].b` — Kısa başlık, tek satır. **Burası bir DİZİNDİR,
+> `olaylar*.js` değil**"*
+
+Künye kronolojisi bir **dizin**dir; 2-4 cümlelik anlatının evi
+`olaylar*.js`tir. Şartnameye `d` yazmakla iki ayrı yapıyı karıştırmıştım.
+
 ## 🔒 NEREYE YAZILIR — ve niçin oraya değil
 
 🔴 **`data/devletler.js`ye DOKUNMA.** Üç oturum aynı dosyaya yazarsa

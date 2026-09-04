@@ -41,6 +41,12 @@ guney-afrika  18 künye · kuruluş %78 · son %78
               🔴 toprak %0 · savaş %6 · antlaşma %0 · ittifak %0
                  isyan %0 · iç savaş %0 · hükümdar %0
               ⇒ dokuz cinsin YEDİSİ tamamen boş.
+              🔴 DÜZELTİLDİ 4 Eylül — bölge TEK TİP DEĞİL, ÜÇ KOVA:
+                 SIFIR madde  4  transvaal · oranj · mutapa · zimbabve-kralligi
+                 TAM 2 madde 13  iskelet
+                 4 madde      1  zulu-kralligi
+              KRONOLOJİ AFRİKA GÖVDE ölçtü; *"18 iskelet"* tarifim kabaydı.
+              (Oturumun kendi 3→4 düzeltmesi DOĞRU; "14 iskelet" ise 13.)
 ```
 
 🔴 **Batı Afrika 591 künyelik dizinin EN BÜYÜK bölgesi** (51 künye, %8,6) ve
@@ -50,7 +56,8 @@ gövde yazılıyor — sıfırdan araştırma değil.
 ## SIRA — ve niçin bu sıra
 
 ```
-① guney-afrika 18   yedi cins SIFIR · en boş küme
+① guney-afrika 18   önce SIFIR maddeli DÖRT (transvaal · oranj · mutapa ·
+                    zimbabve-kralligi), sonra iskeletli 13
 ② bati-afrika  51   iskelete gövde · aşağıdaki KÜMELERİ kullan
 ```
 
@@ -106,16 +113,18 @@ künyelerinde uygulanmış biçim budur.
 ⚠️ Birçok künyenin `f:` değeri **1281** — atlasın pencere başlangıcı, o
 devletin kuruluşu DEĞİL. Ölçüt muafiyet tanıyor; kuruluş uydurma.
 
-## TESLİM BİÇİMİ
+## TESLİM BİÇİMİ — 🔴 TEK OTORİTE ÖLÇÜTTÜR
 
-`denetim/KRONOLOJI-BATIAFRIKA-0904.json` — bir **DİZİ**:
-```json
-[{ "kunye": "vasulu",
-   "ekle": [
-     { "t": "1898-09-29", "b": "Samori Ture'nin esir alınması",
-       "d": "2-4 cümlelik anlatım.",
-       "tur": "son", "kaynak": "<slug ya da tam künye>", "kesinlik": "gun" }
-   ]}]
+**`oturumlar/KRONOLOJI-OLCUT-0904.md` → «HÜKÜM — TESLİM BİÇİMİ».**
+
+Bu şartnamenin ilk yazımında burada `DİZİ` biçimli bir örnek vardı ve
+ölçütle **çelişiyordu**; üç oturum da bunu açılır açılmaz bağımsız
+bildirdi. Sapma buradaydı, düzeltildi:
+```
+kök NESNE  { oturum, damga, kunyeler:[ { id, eklenen:[…] } ] }
+madde      t · tur · b · kaynak        ← DÖRDÜ DE
+`d`        isteğe bağlı, YAMADA kalır, devletler.js'e İNMEZ
+`kesinlik` KALDIRILDI
 ```
 
 ## HABERLEŞME — 🔴 CEVAP KENDİ PENCERENE YAZILMAZ

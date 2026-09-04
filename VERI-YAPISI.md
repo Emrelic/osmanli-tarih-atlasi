@@ -258,6 +258,7 @@ renginden bu yolla mahrumdu. Düzeltildi.
 | `f` / `t` | Varlık aralığı. Gün bilinmiyorsa `YYYY-01-01`. 1923 sonrası süren devletlerde `t:"1923-10-29"` ve `ozet`te not |
 | `kronoloji[].tur` | `kurulus` \| `hukumdar` \| `toprak-kazanc` \| `toprak-kayip` \| `savas` \| `antlasma` \| `bolunme` \| `birlesme` \| `ittifak` \| `isyan` \| `isgal` \| `son` |
 | `kronoloji[].b` | **Kısa başlık, tek satır.** Burası bir dizindir, `olaylar*.js` değil |
+| `kronoloji[].kaynak` | 🆕 **4 Eylül 2026.** Maddenin dayanağı — TDV slug'ı ya da tam akademik künye; bulunamadıysa `bulunamadı` diye **yazılır**. **İSTEĞE BAĞLI ve iki katmanlı:** 4 Eylül öncesi 1980 maddede YOK, sonraki maddelerde VAR. ⇒ `kaynak` taşıyan bir madde *"kaynağı ölçülmüş"* demektir; taşımayan *"ölçülmemiş"*, **"kaynaksız" değil.** Bu ayrım kasıtlı: `§4`ün kırmızı çizgisi ancak veriye inen bir alanla `if`'lenebilir |
 
 ### 🔜 Planlanan alan
 ```js

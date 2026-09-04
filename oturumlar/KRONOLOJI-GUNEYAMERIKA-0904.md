@@ -30,14 +30,18 @@ Emre'nin kendi cümlesi (ölçütün kaynağı):
 > girdikleri savaşlar, ittifaklar, anlaşmalar, isyanlar, iç savaşlar,
 > hükümdar tahta çıkma ve inmeleri gibi siyasî olayları belirtmeli"*
 
-## SENİN KÜMEN — 25 künye, 18'i BOŞ
+## SENİN KÜMEN — 25 künye, **20'si BOŞ**
+
+> 🔴 **DÜZELTİLDİ 4 Eylül:** ilk yazımda *"18 boş + 7 iskelet"* diyordu.
+> KRONOLOJİ GÜNEY AMERİKA ölçtü ve çürüttü — doğrusu **20 + 5**. Kusur
+> koordinatördeydi: kendi dökümünü yanlış saymıştı. İş BÜYÜDÜ.
 
 Bugün ölçüldü (`py denetim/ARAC-KRONOLOJI-KAPSAM-0904.py --bolge`):
 `guney-amerika` — kuruluş %20 · son %20 · toprak %0 · savaş %8 · antlaşma %4
 · ittifak %0 · isyan %4 · iç savaş %4 · hükümdar %4
 
 ```
-🔴 SIFIR MADDE (18)
+🔴 SIFIR MADDE (20)
    ① CUMHURİYETLER — 1810-1830 bağımsızlık dalgası, hepsi 1923'e uzanıyor
       arjantin-cumhuriyeti  1810-1923     sili-cumhuriyeti      1818-1923
       paraguay-cumhuriyeti  1811-1923     peru-cumhuriyeti      1824-1923
@@ -49,9 +53,11 @@ Bugün ölçüldü (`py denetim/ARAC-KRONOLOJI-KAPSAM-0904.py --bolge`):
       lupaqa-krallik  1281-1450     muisca-konfederasyonu 1281-1537
       diaguita-calchaqui-konfederasyonu 1281-1667
       mapuche-araukanya 1281-1883   ranquel 1281-1883   charrua 1281-1831
-      arua (Marajó) 1281-1836       guarani-misyonlari 1609-1767
+      arua (Marajó) 1281-1836
+   ⚠️ `guarani-misyonlari` (1609-1767) BU BAŞLIĞA AİT DEĞİL — Kolomb
+      öncesi değil, Cizvit misyon dönemi. Sınıf yanlıştı, işi değiştirmez.
 
-🟡 İSKELET (7) — 3-4 madde, dokuz cinsin çoğu eksik
+🟡 GÖVDESİ OLAN (5) — 3-4 madde, dokuz cinsin çoğu eksik
    inka-imparatorlugu 1438-1572 (4) · ispanyol-peru 1542-1824 (3)
    portekiz-brezilyasi 1549-1822 (3) · brezilya-imparatorlugu 1822-1889 (3)
    gran-kolombiya 1819-1831 (4)
@@ -65,8 +71,8 @@ Bugün ölçüldü (`py denetim/ARAC-KRONOLOJI-KAPSAM-0904.py --bolge`):
                        bağımsızlık · sınır savaşları (Pasifik Savaşı ·
                        Üçlü İttifak Savaşı) · antlaşmalar · iç savaşlar ·
                        darbeler/başkan değişimleri
-② KOLOMB ÖNCESİ (8)    daha zor, daha az kaynak — ama en az kuruluş + son
-③ İSKELET (7)          eksik cinsleri tamamla
+② KOLOMB ÖNCESİ (10)   daha zor, daha az kaynak — ama en az kuruluş + son
+③ GÖVDELİ (5)          eksik cinsleri tamamla
 ```
 ⚠️ ①'i bitirmeden ②'ye geçme. Sıfırdan üçe çıkarmak, dörtten yediye
 çıkarmaktan **kat kat** değerli.
@@ -98,16 +104,18 @@ maddesidir (TDV'de olay slug'larının %100'ü ölü çıktı).
 o devletin kuruluşu DEĞİL. Ölçüt bu duruma **muafiyet** tanıyor; kuruluş
 maddesi uydurma, muafiyeti kullan.
 
-## TESLİM BİÇİMİ
+## TESLİM BİÇİMİ — 🔴 TEK OTORİTE ÖLÇÜTTÜR
 
-`denetim/KRONOLOJI-GUNEYAMERIKA-0904.json` — bir **DİZİ**:
-```json
-[{ "kunye": "paraguay-cumhuriyeti",
-   "ekle": [
-     { "t": "1864-12-13", "b": "Paraguay'ın Brezilya'ya savaş ilanı",
-       "d": "2-4 cümlelik anlatım.",
-       "tur": "savas", "kaynak": "<slug ya da tam künye>", "kesinlik": "gun" }
-   ]}]
+**`oturumlar/KRONOLOJI-OLCUT-0904.md` → «HÜKÜM — TESLİM BİÇİMİ».**
+
+Bu şartnamenin ilk yazımında burada `DİZİ` biçimli bir örnek vardı ve
+ölçütle **çelişiyordu**; üç oturum da bunu açılır açılmaz bağımsız
+bildirdi. Sapma buradaydı, düzeltildi:
+```
+kök NESNE  { oturum, damga, kunyeler:[ { id, eklenen:[…] } ] }
+madde      t · tur · b · kaynak        ← DÖRDÜ DE
+`d`        isteğe bağlı, YAMADA kalır, devletler.js'e İNMEZ
+`kesinlik` KALDIRILDI
 ```
 
 ## HABERLEŞME — 🔴 CEVAP KENDİ PENCERENE YAZILMAZ

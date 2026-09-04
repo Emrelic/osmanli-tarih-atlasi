@@ -93,20 +93,19 @@ maddesidir, olay maddesi değil (TDV'de olay slug'larının %100'ü ölü çıkt
 devletin kuruluşu değil. `kuruluş` maddesi yazarken bunu ayırt et:
 pencereden önce kurulmuşsa ölçüt **muafiyet** tanıyor (bkz. ölçüt dosyası).
 
-## TESLİM BİÇİMİ
+## TESLİM BİÇİMİ — 🔴 TEK OTORİTE ÖLÇÜTTÜR
 
-`denetim/KRONOLOJI-ORTAAMERIKA-0904.json`:
-```json
-{
-  "kunye": "kuba-cumhuriyeti",
-  "ekle": [
-    { "t": "1902-05-20", "b": "Küba Cumhuriyeti'nin ilanı",
-      "d": "2-4 cümlelik anlatım.",
-      "tur": "kurulus", "kaynak": "<slug ya da tam künye>", "kesinlik": "gun" }
-  ]
-}
+**`oturumlar/KRONOLOJI-OLCUT-0904.md` → «HÜKÜM — TESLİM BİÇİMİ».**
+
+Bu şartnamenin ilk yazımında burada `DİZİ` biçimli bir örnek vardı ve
+ölçütle **çelişiyordu**; üç oturum da bunu açılır açılmaz bağımsız
+bildirdi. Sapma buradaydı, düzeltildi:
 ```
-Dosya bir **DİZİ** olsun: `[ {…}, {…} ]`. Her künye bir öğe.
+kök NESNE  { oturum, damga, kunyeler:[ { id, eklenen:[…] } ] }
+madde      t · tur · b · kaynak        ← DÖRDÜ DE
+`d`        isteğe bağlı, YAMADA kalır, devletler.js'e İNMEZ
+`kesinlik` KALDIRILDI
+```
 
 ## HABERLEŞME — 🔴 CEVAP KENDİ PENCERENE YAZILMAZ
 
