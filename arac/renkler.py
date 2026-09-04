@@ -1729,7 +1729,7 @@ BOYALAR = {
     "savoya":       ("Savoya Kontlugu/Dukaligi", "#12129f"),
     "floransa":     ("Floransa Cumhuriyeti",  "#deabd8"),
     "bonacolsi":    ("Bonacolsi (Mantua)",    "#421542"),
-    "sardinya":     ("Sardinya-Piyemonte",    "#93392d"),
+    "sardinya":     ("Sardinya-Piyemonte",    "#24de24"),
     "toskana":      ("Floransa / Toskana",     "#b484f3"),
     "milanoduka":   ("Milano Dukalığı",        "#515d9c"),
     # Hartum 1885'te düştükten sonra Sudan 14 yıl Mehdî Devleti'ndeydi;
@@ -1834,14 +1834,14 @@ BOYALAR = {
     "kilikya-ermeni": ("Kilikya Ermeni Krallığı", "#a26fff"),
     # --- Anadolu beylikleri (Osmanlı kuruluş coğrafyasının fetih öncesi sahipleri) ---
     # ↑ Anadolu kümesi (bkz. `candar` üstündeki blok) · ton kayması  0,1°
-    "karaman":    ("Karamanoğulları",         "#5133ab"),
+    "karaman":    ("Karamanoğulları",         "#18f066"),
     # Eski #8f6b3a Ceneviz'e (#8a6b4a) ΔE 9.5, Hamîd'e 12.8, Ahi'ye 14.5 mesafedeydi.
     # Germiyan sahnede 15 devletle sınırdaş — Anadolu'nun en kalabalık köşesi.
     # ↑ Anadolu kümesi (bkz. `candar` üstündeki blok) · ton kayması  0,2°
     # germiyan  #3cc3db → #1eeaf3  (toplu tur)
     "germiyan": ("Germiyanoğulları", "#1eeaf3"),
     # ↑ Anadolu kümesi (bkz. `candar` üstündeki blok) · ton kayması  0,0°
-    "aydin":      ("Aydınoğulları",           "#488d7b"),
+    "aydin":      ("Aydınoğulları",           "#d2c624"),
     # Eski #6b8f4a, 60 km ötedeki Karesi'ye (#6b9e5b) ΔE 7.5 idi — iki beylik
     # haritada tek gövde gibi görünüyordu.
     # saruhan  #b34da5 → #6f097b  (toplu tur)
@@ -1855,7 +1855,7 @@ BOYALAR = {
     # sonra Antalya kardeşi Yûnus Bey'e verildi (~1321) ve ayrı beylik doğdu.
     # Antalya bu tarihten sonra Hamîd değil TEKE toprağıdır.
     # ↑ Anadolu kümesi (bkz. `candar` üstündeki blok) · ton kayması  0,0°
-    "teke":       ("Tekeoğulları",            "#574212"),
+    "teke":       ("Tekeoğulları",            "#246cd2"),
     # ═══ ANADOLU BEYLİKLERİ KÜMESİ — 15 renk BİRLİKTE değişti ═══
     # (RENK oturumu, 2026-08-03 · koordinatör onaylı · ①'den SONRA yeniden ölçüldü)
     #
@@ -1886,7 +1886,7 @@ BOYALAR = {
     "candar": ("Candaroğulları", "#e03018"),
     "dulkadir":   ("Dulkadiroğulları",        "#00838f"),
     # ↑ Anadolu kümesi (bkz. `candar` üstündeki blok) · ton kayması  0,4°
-    "ramazanoglu":("Ramazanoğulları",         "#2d483c"),
+    "ramazanoglu":("Ramazanoğulları",         "#7ec624"),
     # karesi  #6b9e5b → #72b7f0  (toplu tur)
     "karesi": ("Karesioğulları", "#d86018"),
     "katalan":    ("Katalan Dukalığı (Atina-Neopatras)", "#9e8f3a"),
@@ -1902,9 +1902,9 @@ BOYALAR = {
     "timurlu":         ("Timurlu valiliği",              "#9c7563"),
     # suleyman-celebi  #570012 → #8dd5a2  (toplu tur)
     "suleyman-celebi": ("Emîr Süleyman Çelebi (Rumeli)", "#8dd5a2"),
-    "isa-celebi":      ("İsa Çelebi (Bursa)",            "#ff96a5"),
+    "isa-celebi":      ("İsa Çelebi (Bursa)",            "#2424e4"),
     "mehmed-celebi":   ("Çelebi Mehmed (Amasya)",        "#f90c15"),
-    "musa-celebi":     ("Musa Çelebi (Rumeli)",          "#e14e5a"),
+    "musa-celebi":     ("Musa Çelebi (Rumeli)",          "#1e24e4"),
     # ⚠️ Eski #7a9e6b, Bulgaristan'ın #7aa06a'sına ΔE 1.8 — pratikte AYNI RENK.
     # Tuna'nın iki yakası 1281-1878 boyunca tek gövde gibi görünüyordu. Yeşil
     # kimlik korundu ama parlaklık/doygunluk ayrıldı: Bulgaristan'a ΔE 33.
@@ -1964,7 +1964,7 @@ BOYALAR = {
     # ↑ Anadolu kümesi (bkz. `candar` üstündeki blok) · ton kayması  0,1°
     "esrefogullari":  ("Eşrefoğulları",        "#8a3069"),
     # inancogullari  #5b4ab5 → #3f0c12  (toplu tur)
-    "inancogullari": ("İnançoğulları", "#3f0c12"),
+    "inancogullari": ("İnançoğulları", "#e41872"),
     # sahibata  #8f9e2d → #0c4218  (toplu tur)
     "sahibata": ("Sâhib Ataoğulları", "#0c4218"),
     # ↑ Anadolu kümesi (bkz. `candar` üstündeki blok) · ton kayması  0,3°
@@ -2142,7 +2142,7 @@ BOYALAR = {
     # parma  #ae4b75 → #0648d5  (toplu tur)
     "parma": ("Parma Dukalığı", "#0648d5"),
     "piza":          ("Piza Cumhuriyeti",          "#2ac9a8"),
-    "siena":         ("Siena Cumhuriyeti",         "#636f03"),
+    "siena":         ("Siena Cumhuriyeti",         "#2478de"),
 
     # ═══ ZAPOROJYE — kullanıcı kararından doğdu, Parti 2'nin 16. kimliği ═══
     # KULLANICI: "Ukrayna kazakları ile Türk olan Kazaklar karışmasın."
@@ -2271,7 +2271,9 @@ BOYALAR = {
     "maratha":                 ("Maratha Konfederasyonu",            "#a828d8"),
     "muromachi":               ("Muromachi (Ashikaga) Şogunluğu",    "#a828d8"),
     "siyam-chakri":            ("Siyam Krallığı (Rattanakosin / Chakri Hanedanı)", "#a828d8"),
-    # ── #636f03  [ASYA · ① EKSİK, gövde yok · zarf(-25,-17.5,159,74) teyitli]  ile paylaşımlı (siena) · 5 kimlik
+    # ── #636f03  [ASYA · ① EKSİK, gövde yok · zarf(-25,-17.5,159,74) teyitli] · 4 kimlik
+    #    (siena 2026-09-04'te AYRILDI — `avusturya ↔ siena` ΔE 11,92 · 324 km;
+    #     makine okunur beyan `:3113`te de güncellendi, ikisi ayrışmasın diye)
     "behmeni":                 ("Behmenî Sultanlığı (Dekken)",       "#636f03"),
     "qing-hanedani":           ("Qing Hanedanı (Mançu)",             "#636f03"),
     "sulu-sultanligi":         ("Sulu Sultanlığı",                   "#636f03"),
@@ -2815,7 +2817,7 @@ BOYALAR = {
     # 📌 Veri canlıya alınınca (Mankup + İnkirman eklenip yerlesimler_kirim.js
     #   girdi.py'ye girince) `py arac/renk_olc.py` bunu KENDİ ölçecek —
     #   o koşuda görünmez/çakışma sayıları ARTMAMALI.
-    "teodoro":                 ("Theodoro Prensliği (Mankup)",       "#42ba42"),
+    "teodoro":                 ("Theodoro Prensliği (Mankup)",       "#a224d2"),
 
     # ═══ BEŞ RENKSİZ KİMLİK — RENK AÇIKLIK TABANI oturumu, M-1848 ②'nin
     # EK İŞİ. ORHANGAZİ üç yerleşim dosyasını bağlamaya hazırlanıyor
@@ -2862,7 +2864,7 @@ BOYALAR = {
     # beşi için "0 görünmez · 0 çakışma · 0 aynı-hex" doğruladı.
     "hawaii-kralligi":         ("Hawaii Krallığı",                   "#ffa5d6"),
     "merina":                  ("Merina Krallığı",                   "#73c0a0"),
-    "farukiler":               ("Fârûkîler (Handeş Sultanlığı)",     "#80f67e"),
+    "farukiler":               ("Fârûkîler (Handeş Sultanlığı)",     "#9624d2"),
     # 🔴 #d7a300 -> #2424d2, 2 EYLÜL 2026. VE RENGE DOKUNULMADAN DOĞMUŞ
     # BİR ÇAKIŞMAYDI — `CLAUDE.md §9`un adıyla uyardığı vaka:
     #   "PALET VERİNİN FONKSİYONUDUR — renk değişmese bile denetim değişir."
@@ -3110,9 +3112,19 @@ PAYLASIM = {
     # 🟢 BEYAN GÜNCELLENDİ — `toungoo` çıktı denetimi yüzünden #545d2d'ye
     #   taşındı (qing-hanedani ile çizili gövdeleri değiyordu). Kalan beşi
     #   birbirine değmiyor; paylaşım meşru.
-    "#636f03": ("Asya partisi — siena ile paylaşımlı (toungoo 2026-08-03'te "
-                "çıktı denetimiyle ayrıldı)",
-                ["siena", "behmeni", "qing-hanedani", "sulu-sultanligi",
+    # 🟢 BEYAN İKİNCİ KEZ GÜNCELLENDİ — 4 Eylül 2026, `siena` AYRILDI.
+    #   Sebep ölçülmüş bir ihlal: `avusturya ↔ siena` ΔE 11,92 · 324 km ·
+    #   1281-1555 eşzamanlı — eşiğin (12) 0,08 altında ama İHLAL kovasında.
+    #   `siena` `#2478de`ye taşındı; kalan DÖRDÜ Asya'da ve birbirine
+    #   değmiyor, paylaşım MEŞRU kalıyor.
+    #   ⚠️ Ve bu düzenleme nöbetçinin İSTEĞİYLE yapıldı, kendiliğinden değil:
+    #   `siena` oynatılınca "BEYAN EDİLEN PAYLAŞIM BOZULDU #636f03" diye öttü.
+    #   📌 Beyan İKİ YERDE duruyor — bu sözlük ve yukarıdaki `:2274` yorumu.
+    #   `CLAUDE.md` bu tuzağı adıyla kaydediyor: bir kez yorum güncellendi,
+    #   sözlük unutuldu ve uyarı susmadı. İkisi de güncellendi.
+    "#636f03": ("Asya partisi (siena 2026-09-04'te avusturya çakışması "
+                "yüzünden ayrıldı; toungoo 2026-08-03'te çıktı denetimiyle)",
+                ["behmeni", "qing-hanedani", "sulu-sultanligi",
                  "yuan-hanedani"]),
     # 🟢 HEX GÜNCELLENDİ — RENK DENİZ, 2026-08-12: eski #00acc1 denizle
     #   (#a8c8dc) ΔE 18,74 · ΔL* 2,65 idi — Emre'nin adıyla işaret ettiği

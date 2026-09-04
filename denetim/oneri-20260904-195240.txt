@@ -1,0 +1,13 @@
+// renk_olc.py --oner çıktısı — aktarımdan SONRA:
+//   py arac/renk_olc.py --dogrula oneri-20260904-195240.txt
+sardinya #24de24
+teke #246cd2
+teodoro #a224d2
+isa-celebi #2424e4
+ramazanoglu #7ec624
+aydin #d2c624
+farukiler #9624d2
+musa-celebi #1e24e4
+karaman #18f066
+inancogullari #e41872
+siena #2478de
