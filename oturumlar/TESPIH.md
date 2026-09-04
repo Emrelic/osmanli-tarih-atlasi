@@ -155,6 +155,54 @@ altında yazılı.
 
 ---
 
+### 🟢 ÖNCELİK TABLOSU — "bir sonraki VERİ işi nereye" · 4 Eylül ölçümü
+
+🔴 **İKİ AYRI BÖLÜNTÜ VAR VE AYNI YERİ GÖSTERMİYOR.** Toplamları birbirini
+tutmaz; örtüştürmek `§11`in *"yanlış evren"* tuzağıdır.
+
+```
+① ALAN EKSENİ (R7 kutuları) — HARİTA nerede boş
+   kutu              nokta  örtülmeyen
+   Sibirya             106     %43,2   🔴
+   Güney Amerika       168     %36,1   🔴
+   Doğu Asya           189     %27,2   🔴
+   Kuzey Afrika        225     %26,2   🔴
+   Güney Asya          131     %23,2   🟡
+   Orta Asya            76     %15,3   🟡
+   Kuzey Amerika       487     %13,7   🟡
+   Sahra altı          627     % 3,5   🟢
+   Avrupa              401     % 1,1   🟢
+   Anadolu+Rumeli      504     % 0,5   🟢
+
+② KÜNYE EKSENİ (`devletler.js bolge:`) — KRONOLOJİ nerede boş
+   bölge              künye  BOŞ  1-3 madde
+   kuzey-amerika         59   11     41     🔴
+   bati-afrika           51    0     42     🟡
+   guney-amerika         25    3     10     🔴
+   dogu-afrika           39    0     34     🟡
+   guneydogu-asya        59    0     34     🟡
+   anadolu               33    1     15     🔴
+```
+
+**⇒ HÜKÜM — iki ayrı iş, iki ayrı oturum:**
+```
+NOKTA işi      → Sibirya · G.Amerika · D.Asya · K.Afrika
+                 (harita boş, künyeler fena değil)
+KRONOLOJİ işi  → kuzey-amerika · bati-afrika
+                 (nokta VAR — Sahra altı 627 nokta / %3,5 boşluk —
+                  ama kronoloji YOK)
+```
+📌 En keskin örnek **Sahra altı Afrika**: 627 nokta, örtülmeyen yalnız %3,5
+— haritası neredeyse tam. Ama `bati-afrika` künyelerinin **42/51'i 1-3
+maddeli**. ⇒ Orada eksik olan NOKTA değil **KRONOLOJİ**.
+Ve tersi **Doğu Asya**: 189 nokta, %27,2 boş — orada eksik olan NOKTA.
+
+⚠️ **Tek tabloya bakıp tek iş türetmek yanlış olur.** #11 (*"dizin TAMLIK"*)
+ve #12 (*"tenha bölgelerde şehir"*) bu yüzden AYRI kalmalı: biri künye
+ekseninde, öteki alan ekseninde.
+
+---
+
 ## 🔵 SIRA
 
 | # | iş | keskinlik | hedef | niçin bu sırada |
