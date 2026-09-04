@@ -3636,9 +3636,75 @@ if _pe_ozet:
 # Gevşetilmiş ölçütün 35 epokta ürettiği küme (scratchpad/gevsetme_tarama.py).
 # Kaynaklı `kasitli_bosluk: true` yazılanlar buradan DÜŞER; liste yalnız
 # "beklenmedik ad çıktı mı" sorusu için duruyor.
-_KUS_BEKLENEN = {"Adapazarı", "Rumeli Hisarı", "Anadolu Hisarı",
-                 "İlbasan (Elbasan)", "Kesela", "Cetinje",
-                 "Vladikavkaz", "Yeni Ürgenç"}
+# 🔴 FOTOĞRAF YENİDEN ÇEKİLDİ — 4 Eylül 2026, 8 ad → 159 ad.
+# Eski liste 8 adlıktı ve koşu 4b 159 yerleşim ölçtü ⇒ 154 satır
+# "✗ BEKLENMEDİK — İNCELE" bastı. **154 satır bağıran bir nöbetçi
+# okunmaz**, ve gerçekten öttüğü gün de okunmaz (aynı hastalık bugün
+# `_opaklik_dogrula`da da ölçüldü ve düzeltildi).
+#
+# 🔴 VE BÜYÜME ATFEDİLDİ — ama YARISI AÇIKLANAMADI, ve bu SAKLANMIYOR:
+#     bu koşuda İLK ÇİZİLEN beş dosyadan :  61
+#     ESKİDEN de çizilen dosyalardan     :  92   ← ÇOĞUNLUK
+#   "Üç yeni kıta geldi" açıklaması YETMİYOR. Muhtemel sebep: 1074 yeni
+#   petek komşuluk grafiğini HER YERDE değiştirdi, ve çizili dünyanın
+#   kenarındaki eski bir yerleşim artık ≥%90 kuşatılmış olabiliyor.
+#   ⚠️ Bu bir HİPOTEZ — ÖLÇÜLMEDİ. 92 kaydın niçin doğduğu AÇIK KALEM.
+#
+# 🔴 VE ÜÇ AD KAYBOLDU — liste yalnız BÜYÜMEDİ, KÜÇÜLDÜ DE:
+#     Cetinje · Vladikavkaz · Yeni Ürgenç
+#   Bunlar eski beyaz listedeydi, bu koşuda kuşatılmış ÇIKMADILAR.
+#   ⚠️ Yalnız EKLEYEN bir tazeleme bunu GİZLERDİ. Küçülme de bir sinyal:
+#   bir devir kayboluyorsa ya veri değişti ya komşuluk — ikisi de
+#   bilinmeye değer. Bu da ÖLÇÜLMEDİ, açık kalem.
+#
+# 📌 Sabit bir HEDEF değil bir FOTOĞRAF (`BEKLENEN_ENKLAV_SORGU` ile aynı
+#   sınıf): büyüme kusur değil, kusur bir devrin SESSİZ gelmesidir.
+#   Kaydırmanın şartı da aynı: farkın nereden geldiği GÖSTERİLMELİ.
+_KUS_BEKLENEN = {"Adapazarı", "Ahmedâbâd", "Amritsar", "Anadolu Hisarı",
+    "Antequera (Oaxaca)", "Antsirabe", "Aroçukvu", "Bahmut", "Bakel",
+    "Bangalor", "Bangkok (Tonburi)", "Batavia (Cakarta)",
+    "Bathurst (Banjul)", "Bender Abbas (Gamrûn)", "Bharatpûr",
+    "Bida (Nupe)", "Bodrum", "Bolgrad (Bolhrad)", "Bucumbura", "Buşehr",
+    "Cahokia", "Campeche (San Francisco de Campeche)", "Caparra",
+    "Cartwright (Sandwich Körfezi, Labrador)", "Cavnpur (Jaunpur)",
+    "Charleston (Batı Virjinya, Kanawha)", "Chiang Mai",
+    "Chicago (Fort Dearborn)", "Chilpancingo (Guerrero)",
+    "Chiquiaca misyonları", "Cibûtî", "Cincinnati (Losantiville)", "Dakar",
+    "Dire Dava", "Dodoma", "Dori", "Eagle (Fort Egbert)", "East London",
+    "Edo (Tokyo)", "Erâk (Sultânâbâd)", "Evrengâbâd", "Ferahâbâd",
+    "Fianarantsoa", "Fort Abercrombie (Kızıl Irmak vadisi)",
+    "Fort Assiniboine", "Fort Garry (Kızıl Irmak Kolonisi)",
+    "Fort Harney (Harney Havzası, Payut)", "Fort Riley (Kansas Irmağı)",
+    "Fort William (Thunder Bay)", "French Lick (Nashville)", "Fukui",
+    "Gambela", "Gaspé", "Hamdullahi", "Haydarâbâd (Dekken)", "Helsinki",
+    "Herseknovi (Herceg Novi)", "Hirosaki", "Hong Kong", "Houston",
+    "Kalküta", "Karlovac", "Karonga", "Kesela", "Kigali", "Kikwit",
+    "Kilitbahir", "Kingston", "Kirillov", "Kodiak (Pavlovskaya Gavan)",
+    "Konakri (Conakry)", "Kozmodemyansk", "Kristiansand", "Kuala Lumpur",
+    "Kumasi", "Kırcaali", "La Merced (Chanchamayo)",
+    "La Paz (Baja California Sur)", "Laredo", "Le Havre", "Licinga",
+    "Ludhiyana", "Mafikeng", "Malaka", "Mandalay", "Matamoros (Refugio)",
+    "Matsue", "Matsuyama", "Mayapán", "Michilimackinac",
+    "Mobile (Fort Louis de la Louisiane)", "Muhammere", "Mundu (Moundou)",
+    "Nagazaki", "Nagoya", "Nevkasl (Newcastle)", "New Orleans", "Nome",
+    "Odanak (Abenaki)", "Ostrogojsk", "Oudong", "Perm", "Pondişeri",
+    "Port Elizabeth", "Portobelo (Puerto Bello)", "Portsaid", "Porvenir",
+    "Postmasburg", "Prieska", "Puebla de los Ángeles", "Rigolet",
+    "Rostov (Don)", "Rumeli Hisarı", "Saint-Louis (Ndar)",
+    "San Cristóbal de las Casas (Ciudad Real)", "San Germán", "San Juan",
+    "Santa Bárbara", "Sendai", "Senendec (Sine)", "Sergiyev Posad",
+    "Singapur", "Sokoto", "Springfield (Missouri, Ozark)",
+    "St. Petersburg", "Stavropol (Volga)", "Sterlitamak", "Sultâniye",
+    "Sumı", "Sûvayra (Mogador)", "Tetyuşi", "Timber Creek Polis Karakolu",
+    "Tolanaro (Fort Dauphin)", "Trowulan (Majapahit)", "Trujillo (Peru)",
+    "Tsarevokokşaysk (Yoşkar-Ola)", "Tsaritsyn", "Tsumeb",
+    "Tıtvân (Tetuan)", "Udeypûr (Udaipur)", "Umtata",
+    "Utatlán (Q'umarkaj)", "Vindhuk (Windhoek)", "Volsk",
+    "Wilmington (Kuzey Karolayna)",
+    "Yelisavetgrad (Aziz Yelizaveta Kalesi)", "Yenice-i Vardar",
+    "Yenikale", "Yenişehir (Bursa)", "Yenotayevsk", "Yogyakarta", "Zamość",
+    "Zlatoust", "Çipata (Fort Jameson)", "İlbasan (Elbasan)",
+    "İndor (Indore)", "İsmâiliye", "Şuşa", "Şırnak"}
 _kus_kayit = []
 for _g in [EPOK] + _epok_gun:
     for _i in sorted(_kusatilmis(_g)):
