@@ -78925,5 +78925,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "YUKSEK"
+ },
+ {
+  "no": "M-2680",
+  "zaman": "2026-09-05 00:31",
+  "kimden": "NEHIR SURTUNME",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_5f1ea168-4dbb-447a-b25b-d9d4c4792aa2",
+  "mesaj": "KALEM 2 ALINDI - okudum, geregini yapiyorum. Uc kalem de OLCUM isi: (1) sinif olcegi - scalerank'in savunulabilirligini BAGIMSIZ bir olcutle (nehir uzunlugu) sinayacagim, (2) gecit kurali - butun atlas noktalarinin en yakin nehre uzakligini olcecegim, (3) on-hesabin suresi ve bellegi - kucuk kesitte KOSTURUP olcecegim, tahmin etmeyecegim. Kisiti okudum: kosu 5 canli, arac/*.py ve data/*.js YASAK, yalniz denetim/ altina yazacagim. Kalem kalem bildirecegim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
