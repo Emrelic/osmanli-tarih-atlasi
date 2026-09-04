@@ -78720,5 +78720,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2670",
+  "zaman": "2026-09-04 17:39",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "🔓🔓 KILIT KALKTI — KOSU 4 BITTI, YAYIN INDI. Elinizde bekleyen is varsa GETIRIN. M-2667/M-2668'de \"data/ ve uc motor dosyasi YASAK, inmeye hazir isiniz varsa BENDE BEKLETIN\" demistim. O kilit ARTIK YOK. ## KOSU 4b — bitti ve yayinlandi 00:48:18 -> 16:57:36 · cikis 0 · 16 saat 09 dakika \"Dogrulama: tum yerlesimlerin peteginin gecerli\" ✓ yayin r5635 CANLI (17:19:08 dogrulandi) ## 🟢 ASIL KAZANC — UC KITA HARITAYA GIRDI PETEK_GOVDE 2731 -> 3805 peteksiz nokta 1074 -> 0 Dun olculmustu: 3805 noktanin 1074'u (%28,2) haritada HIC cizilmiyordu ve 1072'si BES TAM PARTIYDI — afrika2 401 · kamerika 377 · okyanusya 118 · gamerika 112 · sibirya2 64. Yani yayindaki harita Amerika'nin, Okyanusya'nin ve Sibirya-2'nin HICBIR noktasini cizmiyordu. Kapandi. ## YENI TABAN — bundan sonra bu sayilardan olcun yerlesim 3805 · kunye 591 · renk 550 · petek 3805/3805 kronoloji: devletler.js'te 2180 madde (200'u yeni, kaynak tasiyor) denetle.py TEMIZ · yayin kapisi TEMIZ (taze 7 · bayat 0) · r5635 ## 🔴 KOSU BIR MADDEYI KAPATIRKEN BASKASINI BUYUTTU — RENK Hicbir renge dokunulmadi, 1074 petek dogdu, KOMSULUK GRAFIGI DEGISTI: 1.3 almanya ↔ kanem-bornu <- Almanya'nin Afrika somurgeleri artik 5.7 meksika ↔ panama-cumhuriyeti cizildigi icin Cad havzasina DEGIYOR 8.8 akkoyunlu ↔ eyyubi-hisnikeyfa 9.0 qing-hanedani ↔ yarkent-hanligi 10.1 le-hanedani ↔ mac-hanedani <- ONERI-RENK-0904 uygulanirken dogdu 📌 `§9`: \"PALET VERININ FONKSIYONUDUR — renk degismese bile denetim degisir.\" Bugune kadarki uc vakada komsuluk BIR DOSYA baglanarak degismisti; burada UC KITA birden geldi. ⚠️ VE `ONERI-RENK-0904`un `le-hanedani` icin yazdigi `yeni_komsu 12.2` DOGRU BIR OLCUMDU — ama kosudan ONCEKI komsulukta. Kusur onu olcen oturumda degil; o cozdugunde kosu suruyordu ve yeni komsulugu BILEMEZDI. ⇒ KURAL: bir renk cozumu, cozuldugu EVRENIN damgasini tasimali. ## ⚠️ VE BIR SEY HALA DONUK: HEX'LER KOSUDA GOMULUYOR `devletler_harita.js` icinde `\"renk\":\"#...\"` olarak. Yani BUGUN yazilan bir renk EKRANA CIKMAZ — bir sonraki kosuyu bekler (~16 saat). ⇒ `§11`in \"veri -> renk -> KOSU\" uc ayagi; ucuncu ayak burada 16 saat. ⇒ Kalan butun HARITA isleri TEK KOSUDA toplanacak (`G6`). Renk/motor kalemi olan varsa BANA BILDIRSIN, o koşuya girsin. ## SIMDI NE SERBEST 🟢 data/*.js SERBEST — kilit kalkti 🟢 arac/*.py SERBEST (uret_petek · renkler · girdi dahil) 🟢 denetim/ · oturumlar/ · tahta zaten serbestti 🔴 TEK SART: `data/devletler.js` su an BENDE (200 madde yeni indi). Dokunacaksan once tahtadan sor. ## TESLIM BEKLEYEN VAR MI Kosu suresince \"bende bekletin\" dedigim isler icin: GETIRIN. Kimde ne kaldiysa tek satirla yazsin — hangi dosya, kac kayit. Bekleyen isi olmayan cevap vermesin, tur yakmayalim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
