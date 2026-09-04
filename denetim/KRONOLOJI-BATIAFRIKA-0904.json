@@ -115,8 +115,8 @@
 
         { "t": "1897-01-01", "tur": "ittifak",
           "b": "Başkan Steyn önderliğinde Transvaal ile savunma ittifakı akdedildi",
-          "kaynak": "Encyclopaedia Britannica, 'Orange Free State' ve 'Marthinus Theunis Steyn' — «with which it had a defensive alliance when the South African War broke out in 1899».",
-          "⚠️ GUN_YOK": "Yalnız yıl." },
+          "kaynak": "Encyclopaedia Britannica, 'Orange Free State' ve 'Marthinus Theunis Steyn' — «A Free State–Transvaal alliance was concluded in 1897, under the leadership of Orange Free State president Marthinus Steyn» ve «with which it had a defensive alliance when the South African War broke out in 1899».",
+          "⚠️ GUN_YOK": "Kaynak YILI veriyor (1897), günü vermiyor. YIL kaynaktan gelir." },
 
         { "t": "1899-10-11", "tur": "savas",
           "b": "Oranj Hür Devleti ittifak gereği kardeş cumhuriyet Transvaal'in yanında İkinci Boer Savaşı'na girdi",
@@ -139,7 +139,8 @@
 
         { "t": "1865-01-01", "tur": "savas",
           "b": "Oranj Hür Devleti'nin taarruzuyla İkinci Basotho (Seqiti) Savaşı başladı",
-          "kaynak": "South African History Online, 'Basotho Wars 1858-1868'. Yalnız YIL." },
+          "kaynak": "South African History Online, 'Basotho Wars 1858-1868' — «In 1865, the Orange Free State launched the Second Basotho War known in Sesotho as the Seqiti War».",
+          "⚠️ GUN_YOK": "Kaynak YILI veriyor (1865), günü vermiyor. YIL kaynaktan gelir." },
 
         { "t": "1866-04-11", "tur": "toprak-kayip",
           "b": "Thaba Bosiu Barışı ile Moshoeshoe önceki kazanımlarının çoğunu Oranj Hür Devleti'ne bırakmak zorunda kaldı",
@@ -169,12 +170,14 @@
       "id": "mutapa",
       "ad": "Mwene Mutapa (Monomotapa)",
       "mevcut_madde": 0,
+      "🔴 KURULUS_MADDESI_GERI_CEKILDI": {
+        "ne_yazmistim": "1450-01-01 · kurulus · «Mwene Mutapa devleti Zimbabve platosunun kuzeyinde teşekkül etti»",
+        "nicin_cekildim": "Koordinatörün 4 Eylül hükmü: «`YYYY-01-01` GÜNÜ bilinmeyen içindir, YILI bilinmeyen için DEĞİL. Yıl uydurmak tarih uydurmaktır ve 'temsilî' damgası onu meşrulaştırmaz, yalnız görünmez kılar.»",
+        "olcum": "Elimdeki iki kaynak da YÜZYIL veriyor, yıl VERMİYOR — Journal of African History «the state dated back to AT LEAST the fifteenth century», TDV `zimbabve` «XV. yüzyılın ikinci yarısında». 1450 sayısı künyenin kendi `f:` değeridir, kaynaktan gelmez.",
+        "🔴 KENDI_ELESTIRIMI_KENDIM_IHLAL_ETMISIM": "Aynı teslimde `bati-afrika`nın 16 künyesinin `kurulus` maddesinin pencere sınırında durduğunu ölçüp bunu bir ÖLÇER KUSURU diye bildirdim. Sonra `mutapa` için tam o deseni ÜRETTİM: künye sınırını kuruluş maddesi diye yazdım. Damgayı da koymuştum — ama damga onu meşrulaştırmıyor, yalnız görünür kılıyordu.",
+        "sonuc": "`mutapa` 5 → 4 madde. `kurulus` cinsi bu künyede BOŞ KALIYOR, ve sebebi burada yazılı ki bir sonraki oturum onu 'eksik' sanıp yeniden yazmasın: KURULUŞ YILI KAYNAKTA YOK, arandı."
+      },
       "eklenen": [
-        { "t": "1450-01-01", "tur": "kurulus",
-          "b": "Mwene Mutapa devleti Zimbabve platosunun kuzeyinde teşekkül etti",
-          "kaynak": "Künyenin kendi `kaynak` alanındaki Journal of African History (hakemli) beyanı «the state dated back to AT LEAST the fifteenth century» ile TDV `zimbabve` (200) «XV. yüzyılın ikinci yarısında» BAĞIMSIZ olarak aynı pencereyi veriyor.",
-          "🔴 GUN_YOK": "Kaynakların ikisi de YÜZYIL veriyor, yıl bile vermiyor. 1450-01-01 künyenin `f:` günüdür; bir KAYNAK GÜNÜ DEĞİLDİR." },
-
         { "t": "1569-01-01", "tur": "savas",
           "b": "Portekiz kralı Sebastian, Francisco Barreto'yu Mwene Mutapa üzerine sefere memur etti; sefer Portekiz otoritesini kurmayı, Manika altın madenlerini ele geçirmeyi ve öldürülen misyonerin öcünü almayı hedefliyordu",
           "kaynak": "Encyclopaedia Britannica, 'Francisco Barreto' — «In 1569 Barreto was entrusted by King Sebastian of Portugal with an expedition to the empire of Mwene Matapa in southeastern Africa to assert Portuguese authority over the area, capture the gold mines of Manica, and avenge the murder of a missionary»; sefer Zambezi vadisi yolundan 1572'de yürüdü, Barreto Sena'da öldü.",
@@ -186,7 +189,8 @@
 
         { "t": "1629-01-01", "tur": "antlasma",
           "b": "Mavura Hıristiyanlığı kabul edip Filipe adını aldı, Portekiz kralına tâbiiyet yemini etti ve Portekizlilere geniş ticaret ve madencilik imtiyazları verdi",
-          "kaynak": "Encyclopaedia Britannica, 'Mavura' — «Converting to Christianity, he took the name Filipe and swore vassalage to the king of Portugal»; 'Mwene Matapa' — «forced his successor to grant them extensive trading and mining privileges»." },
+          "kaynak": "Encyclopaedia Britannica, 'Mavura' — «Mavura enlisted Portuguese aid in deposing his uncle Kapranzine as emperor in 1629 … Converting to Christianity, he took the name Filipe and swore vassalage to the king of Portugal»; 'Mwene Matapa' — «When the reigning Mwene Matapa attempted to expel them in 1629, they deposed him and forced his successor to grant them extensive trading and mining privileges».",
+          "⚠️ GUN_YOK": "Kaynak YILI veriyor (1629), günü vermiyor. YIL kaynaktan gelir." },
 
         { "t": "1695-01-01", "tur": "son",
           "b": "Changamire Dombo'nun seferleriyle Mutapa'nın iç bölgelerdeki gücü kırıldı ve devlet Rozvi hâkimiyetine geçti",
