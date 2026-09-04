@@ -198,7 +198,7 @@ BOYALAR = {
     # (13,2) aracın HİÇ KURMADIĞI bir çiftten geliyor ⇒ bu öneriyi
     # `--dogrula` ile doğrulamak YETERLİ DEĞİL; o denetim o çifti
     # menziline almıyor. ("Denetim var ≠ o soruyu soruyor.")
-    "norvec-kralligi": ("Norveç Krallığı (Birlik Öncesi ve Kalmar Dönemi)", "#2490d2"),
+    "norvec-kralligi": ("Norveç Krallığı (Birlik Öncesi ve Kalmar Dönemi)", "#0b1650"),
     "isvec-birlik-oncesi": ("İsveç Krallığı (Kalmar Birliği Öncesi ve Dönemi)", "#a824d2"),
     "sirvansah": ("Şirvanşahlar", "#d2cc24"),
     "macaristan-naiplik": ("Macaristan (1918 Sonrası: Cumhuriyet → Naiplik)", "#d23024"),
@@ -664,7 +664,7 @@ BOYALAR = {
     #     bildirdi ama "kaç çakışma var" derdi; **hangisinin YENİ doğduğunu**
     #     söyleyen taban karşılaştırmasıydı.
     "moskova":    ("Moskova Knezliği",       "#0f0f9c"),
-    "novgorod":   ("Novgorod Cumhuriyeti",   "#84c9cf"),
+    "novgorod":   ("Novgorod Cumhuriyeti",   "#1e333e"),
     "pskov":      ("Pskov Cumhuriyeti",      "#840f75"),
     "tver":       ("Tver Knezliği",          "#9f6ced"),
     # `rusya` 1917-03-15'te bitiyor, `sovyet-rusya` 1917-11-07'de başlıyor —
@@ -925,7 +925,7 @@ BOYALAR = {
     # SONUC: 9 yazim · 13 cift · 20 -> 7. Ucu de acilis sahnesinde:
     #   aydin↔sirbistan 6,97 · ceneviz↔teke 3,44 · eflak↔teodoro 5,06
     # bosna  #8f7d5b → #90f3f3  (toplu tur)
-    "bosna": ("Bosna Krallığı", "#90f3f3"),
+    "bosna": ("Bosna Krallığı", "#0a0381"),
     "arnavutluk": ("Arnavutluk",             "#f95ac3"),
     "yunanistan": ("Yunanistan",             "#20e0c0"),
     "romanya":    ("Romanya",                "#6c6912"),
@@ -1902,7 +1902,7 @@ BOYALAR = {
     # "Ankara civarında kimse yok" görüntüsü veriyordu.
     # ↑ Anadolu kümesi (bkz. `candar` üstündeki blok) · ton kayması  0,4°
     # ilhanli  #9f66c3 → #c690ed  (toplu tur)
-    "ilhanli": ("İlhanlı Devleti", "#c690ed"),
+    "ilhanli": ("İlhanlı Devleti", "#433be3"),
     # ↑ Anadolu kümesi (bkz. `candar` üstündeki blok) · ton kayması  0,2°
     # eretna  #5dc38a → #8df0ae  (toplu tur)
     "eretna": ("Eretna Beyliği", "#8df0ae"),
@@ -2566,7 +2566,7 @@ BOYALAR = {
     "afganistan":              ("Afganistan Emirliği",               "#e4b1d5"),
     # ── #6b4a7d  [ASYA · ① EKSİK, gövde yok · zarf(-25,-17.5,159,74) teyitli]  ile paylaşımlı (safevi) · 1 kimlik
     # le-hanedani  #a56cab → #9ceded  (toplu tur)
-    "le-hanedani": ("Lê Hanedanı (Đại Việt)", "#9ceded"),
+    "le-hanedani": ("Lê Hanedanı (Đại Việt)", "#3b025a"),
 
     # ═══════════════════════════════════════════════════════════════════════
     # ASYA PARTİ 1 — 1550 kesitinin 12 adsız kimliği (VERİ KİMLİK 3, 3 Ağustos)

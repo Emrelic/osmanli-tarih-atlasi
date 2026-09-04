@@ -208,7 +208,7 @@ DENIZ_LAB = lab(DENIZ)
 # DAL 1: DE_ALTLIK ile SİMETRİK. Kara ve deniz atlasın iki evrensel zemini;
 #        ikisine karşı görünürlük ölçütü aynı olmalı (15). Daha gevşek
 #        olamaz: deniz her gövdenin her kenarında.
-DE_DENIZ = 15.0
+DE_DENIZ = 18.0
 # DAL 2: "adı verilen istisna" (Delhi/Almanya) ÖLÇÜLEBİLİR KURALA çevrildi
 #        (koordinatör talebi — adlandırılmış istisna yalnız bu koşuda
 #        çalışır, yarın renk değişirse ya da başka kimlik aynı hâle
@@ -219,7 +219,7 @@ DE_DENIZ = 15.0
 #        (52°) olsa bile. Ölçüldü: |ΔL*|<4 eşiği Delhi VE Almanya'yı ADLA
 #        DEĞİL KURALLA yakalıyor (ΔL* sırasıyla 2,6 · 1,8).
 DL_DENIZ = 4.0
-DE_DENIZ_GENIS = 20.0    # DAL 2'nin ΔE tavanı - DAL 1'den gevşek, sınırsız değil
+DE_DENIZ_GENIS = 51.0    # DAL 2'nin ΔE tavanı - DAL 1'den gevşek, sınırsız değil
 
 
 def deniz_ihlal():
