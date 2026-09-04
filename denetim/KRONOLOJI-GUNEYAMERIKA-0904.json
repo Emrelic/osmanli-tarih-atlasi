@@ -1,0 +1,211 @@
+[
+  {
+    "_NOT": "KRONOLOJI GUNEY AMERIKA · 0904 · KALEM 1 — Ucu Ittifak Savasi + Pasifik Savasi. Bicim SARTNAMEdeki dizi bicimi (kunye/ekle); OLCUT dosyasi baska bir bicim (oturum/kunyeler/id/eklenen) tarif ediyor ve KOORDINATORE SORULDU. Cevap gelirse donusturulur.",
+    "_KAYNAK_KISALTMA": {
+      "EB-UIS": "Encyclopaedia Britannica, 'War of the Triple Alliance', britannica.com/event/War-of-the-Triple-Alliance (Britannica Editors, 4 Agu 2026 revizyonu) — govde OKUNDU, alintilar AYNEN.",
+      "EB-PS": "Encyclopaedia Britannica, 'War of the Pacific', britannica.com/event/War-of-the-Pacific (The Editors of Encyclopaedia Britannica; rev. Amy Tikkanen) — govde OKUNDU, alintilar AYNEN.",
+      "_UYARI": "TDV bu kunyeleri KAPSAMIYOR: denenen 19 slugun 15'i 302 (brezilya · sili · peru · peru--ulke · bolivya · paraguay · uruguay · venezuela · kolombiya · ekvador · inka · simon-bolivar · bolivar · latin-amerika · guney-amerika). Canli olan dordu: amerika · arjantin · ispanya · portekiz. `amerika` govdesi (74.729 krkt) OKUNDU ve bu iki savasi HIC anmiyor. ⇒ CLAUDE.md §4'un TANECIKLIK bosluğu; akademik kaynak mesru, ve kaynak GIZLENMEDI."
+    }
+  },
+
+  { "kunye": "paraguay-cumhuriyeti",
+    "ekle": [
+      { "t": "1865-05-01", "tur": "savas",
+        "b": "Arjantin, Brezilya ve Uruguay Uclu Ittifak'i kurup Paraguay'a savas ilan etti",
+        "d": "Brezilya'nin 1864'te Uruguay'daki Colorado liderini iktidara tasimasi uzerine Paraguay diktatoru Francisco Solano Lopez bolgesel dengenin bozuldugunu dusunerek Brezilya ile savasa girdi. Arjantin cumhurbaskani Bartolome Mitre, Brezilya ve Colorado yonetimindeki Uruguay ile bir ittifak orgutledi ve ucu birlikte Paraguay'a savas ilan etti. Savas Latin Amerika tarihinin en kanli catismasi oldu.",
+        "kaynak": "EB-UIS — AYNEN: «together they declared war on Paraguay on May 1, 1865»",
+        "kesinlik": "gun" },
+
+      { "t": "1866-09-01", "tur": "savas",
+        "b": "Curupayty'de Paraguay zaferi muttefik taarruzunu bir yil durdurdu",
+        "d": "Mitre Nisan 1866'da muttefik kuvvetleri guneybati Paraguay'a soktu ama iki yil ilerleyemedi. Eylul 1866'da Curupayty'de Paraguaylilar'in kazandigi muharebe muttefik taarruzunu neredeyse bir yil boyunca engelledi. Iki taraf da agir kayip verdi.",
+        "kaynak": "EB-UIS — AYNEN: «the most notable, won by the Paraguayans at Curupayty in September 1866, inhibited any allied offensive for nearly a year»",
+        "kesinlik": "ay — GUN BULUNAMADI, ayin 1'ine yazildi (olcut: gun bilinmiyorsa YYYY-01-01; burada ay biliniyor, gun degil)" },
+
+      { "t": "1868-02-01", "tur": "isgal",
+        "b": "Brezilya zirhlilari Humaita kalesini gecip Asuncion'u bombaladi",
+        "d": "Ocak 1868'de Mitre'nin yerine baskomutanliga Brezilyali Caxias gecti. Subatta Brezilya zirhli gemileri Parana ve Paraguay nehirlerinin birlestigi yerdeki Humaita nehir kalesinin savunmasini kirdi ve baskent Asuncion'u bombalamaya kadar ilerledi. Aralik 1868'deki Lomas Valentinas harekatinda Paraguay ordusu imha edildi.",
+        "kaynak": "EB-UIS — AYNEN: «In February Brazilian armoured vessels broke through Paraguayan defenses at the river fortress of Humaitá … and pressed on to bombard Asunción, the capital»",
+        "kesinlik": "ay — GUN BULUNAMADI" },
+
+      { "t": "1870-03-01", "tur": "hukumdar",
+        "b": "Francisco Solano Lopez oldurulunce Paraguay'in savasi sona erdi",
+        "d": "Lomas Valentinas'ta ordusu imha edildikten sonra Lopez kuzeye kacip gerilla savasi surdurdu ve 1 Mart 1870'te oldurruldu. Savas Paraguay'i tuketmisti: savas oncesi yaklasik 525.000 olan nufus 1871'de yaklasik 221.000'e dusmus, bunun ancak 28.000 kadari erkek kalmisti.",
+        "kaynak": "EB-UIS — AYNEN: «López fled northward and carried on a guerrilla war until he was killed on March 1, 1870»",
+        "kesinlik": "gun" },
+
+      { "t": "1870-03-01", "tur": "toprak-kayip",
+        "b": "Savasin sonunda Arjantin ve Brezilya yaklasik 140.000 km2 Paraguay toprağini ilhak etti",
+        "d": "Arjantin Misiones bolgesinin buyuk kismini ve Chaco'nun Bermejo ile Pilcomayo irmaklari arasindaki parcasini aldi; Brezilya Mato Grosso eyaletini ilhak edilen toprakla genisletti. Iki devlet buyuk bir tazminat da talep etti (hic odenmedi) ve Paraguay'i 1876'ya kadar isgal altinda tuttu.",
+        "kaynak": "EB-UIS — AYNEN: «Argentina and Brazil annexed about 55,000 square miles (140,000 square km) of Paraguayan territory»",
+        "kesinlik": "🔴 TARIH ZAYIF — savasin bitis gunune yazildi. Ilhaki kesinlestiren sinir ANTLASMALARININ gunlerini BULAMADIM (Brezilya ve Arjantin ile ayri ayri, savas sonrasi yillarda). Kaynak yalniz '1876'ya kadar isgal' diyor." }
+    ]},
+
+  { "kunye": "arjantin-cumhuriyeti",
+    "ekle": [
+      { "t": "1865-05-01", "tur": "ittifak",
+        "b": "Arjantin, Brezilya ve Uruguay ile Uclu Ittifak'i kurdu",
+        "d": "Cumhurbaskani Bartolome Mitre, Brezilya ve Colorado yonetimindeki Uruguay ile bir ittifak orgutledi; ucu birlikte Paraguay'a savas ilan etti. Mitre 1866 Nisan'inda muttefik ordusunun basinda guneybati Paraguay'a girdi ve Ocak 1868'e kadar baskomutan kaldi.",
+        "kaynak": "EB-UIS — AYNEN: «Bartolomé Mitre, president of Argentina, then organized an alliance with Brazil and Colorado-controlled Uruguay (the Triple Alliance), and together they declared war on Paraguay on May 1, 1865»",
+        "kesinlik": "gun" },
+
+      { "t": "1865-05-01", "tur": "savas",
+        "b": "Arjantin Paraguay'a savas ilan etti — Ucu Ittifak Savasi",
+        "d": "Savas 1870'e kadar surdu. Savasin gidisatinda Arjantin kamuoyunun bir kismi catismayi Mitre'nin fetih savasi olarak gormeye basladi.",
+        "kaynak": "EB-UIS — AYNEN: «together they declared war on Paraguay on May 1, 1865»",
+        "kesinlik": "gun" },
+
+      { "t": "1870-03-01", "tur": "toprak-kazanc",
+        "b": "Arjantin Misiones'in buyuk kismini ve Chaco'nun bir bolumunu ilhak etti",
+        "d": "Savasin sonunda Arjantin ve Brezilya toplam yaklasik 140.000 km2 Paraguay toprağini ilhak etti; Arjantin'in payi Misiones bolgesinin buyuk kismi ile Chaco'nun Bermejo ve Pilcomayo irmaklari arasindaki kesimiydi.",
+        "kaynak": "EB-UIS — AYNEN: «Argentina took much of the Misiones region and part of the Chaco between the Bermejo and Pilcomayo rivers»",
+        "kesinlik": "🔴 TARIH ZAYIF — savasin bitis gunune yazildi; sinir antlasmasinin gunu BULUNAMADI." }
+    ]},
+
+  { "kunye": "brezilya-imparatorlugu",
+    "ekle": [
+      { "t": "1865-05-01", "tur": "ittifak",
+        "b": "Brezilya, Arjantin ve Uruguay ile Ucu Ittifak'i kurdu",
+        "d": "Brezilya 1864'te Uruguay'daki Colorado Partisi liderinin Blanco rakibini devirmesine yardim etmis, bu da Paraguay'in savasa girmesini tetiklemisti. Arjantin cumhurbaskani Mitre'nin orgutledigi ittifakta Brezilya en buyuk askeri gucu tasiyan taraf oldu.",
+        "kaynak": "EB-UIS — AYNEN: «organized an alliance with Brazil and Colorado-controlled Uruguay (the Triple Alliance)»",
+        "kesinlik": "gun" },
+
+      { "t": "1868-01-01", "tur": "savas",
+        "b": "Baskomutanlik Mitre'den Brezilyali Caxias'a gecti",
+        "d": "Ocak 1868'de muttefik kuvvetlerin baskomutanligi Arjantinli Mitre'den Brezilyali marki (sonra duka) de Caxias'a gecti. Subatta Brezilya zirhli gemileri Humaita kalesini asip Asuncion'u bombaladi; Aralikta Lomas Valentinas harekatinda Paraguay ordusu imha edildi.",
+        "kaynak": "EB-UIS — AYNEN: «In January 1868 Mitre was replaced as commander in chief by the Brazilian marquês (later duque) de Caxias»",
+        "kesinlik": "ay — GUN BULUNAMADI" },
+
+      { "t": "1870-03-01", "tur": "toprak-kazanc",
+        "b": "Brezilya Mato Grosso eyaletini ilhak ettigi Paraguay toprağiyla genisletti",
+        "d": "Savasin sonunda Arjantin ve Brezilya toplam yaklasik 140.000 km2 Paraguay toprağini ilhak etti; Brezilya'nin payi Mato Grosso eyaletinin genisletilmesi oldu. Iki devlet Paraguay'i 1876'ya kadar isgal altinda tuttu.",
+        "kaynak": "EB-UIS — AYNEN: «Brazil enlarged its Mato Grosso province from annexed territory»",
+        "kesinlik": "🔴 TARIH ZAYIF — savasin bitis gunune yazildi; sinir antlasmasinin gunu BULUNAMADI." }
+    ]},
+
+  { "kunye": "uruguay-cumhuriyeti",
+    "ekle": [
+      { "t": "1865-05-01", "tur": "ittifak",
+        "b": "Colorado yonetimindeki Uruguay, Arjantin ve Brezilya ile Ucu Ittifak'a katildi",
+        "d": "1864'te Brezilya, Uruguay Colorado Partisi liderinin Blanco rakibini devirmesine yardim etmisti. Colorado yonetimindeki Uruguay ertesi yil Arjantin ve Brezilya ile ittifaka girdi ve ucu birlikte Paraguay'a savas ilan etti.",
+        "kaynak": "EB-UIS — AYNEN: «an alliance with Brazil and Colorado-controlled Uruguay (the Triple Alliance), and together they declared war on Paraguay on May 1, 1865»",
+        "kesinlik": "gun" },
+
+      { "t": "1864-01-01", "tur": "ic-savas",
+        "b": "Brezilya'nin mudahalesiyle Colorado Partisi Blanco yonetimini devirdi",
+        "d": "1864'te Brezilya, Uruguay Colorado Partisi'nin lideri Blanco Partisi'ndeki rakibini iktidardan uzaklastirmakta yardim etti. Bu mudahale hem Ucu Ittifak Savasi'ni tetikledi hem de Colorado'lari uzun bir iktidar donemine tasidi.",
+        "kaynak": "EB-UIS — AYNEN: «In 1864 Brazil helped the leader of Uruguay's Colorado Party to oust his Blanco Party opponent»",
+        "kesinlik": "yil — GUN VE AY BULUNAMADI, olcut geregi YYYY-01-01" }
+    ]},
+
+  { "kunye": "sili-cumhuriyeti",
+    "ekle": [
+      { "t": "1879-02-14", "tur": "isgal",
+        "b": "Sili kuvvetleri Antofagasta liman kentini isgal etti",
+        "d": "Bolivya, Silili Antofagasta Nitrat Sirketi'nin vergilerini artirmaya kalkip sirketin mallarina el koymakla tehdit edince Sili silahli kuvvetleri limani isgal etti. Bu isgal Pasifik Savasi'ni baslatti.",
+        "kaynak": "EB-PS — AYNEN: «Chilean armed forces occupied the port city of Antofagasta on February 14, 1879»",
+        "kesinlik": "gun" },
+
+      { "t": "1879-04-05", "tur": "savas",
+        "b": "Sili hem Peru'ya hem Bolivya'ya savas ilan etti",
+        "d": "Antofagasta'nin isgalinden sonra Bolivya Sili'ye savas ilan edip Peru'yu yardima cagirdi; Sili de her iki devlete savas ilan etti. Sili once Bolivya kiyi bolgesini kolayca isgal etti, sonra daha guclu olan Peru'ya karsi taarruza gecti.",
+        "kaynak": "EB-PS — AYNEN: «Chile declared war on both Peru and Bolivia (April 5, 1879)»",
+        "kesinlik": "gun" },
+
+      { "t": "1879-10-08", "tur": "savas",
+        "b": "Angamos deniz zaferi Sili'ye Peru'ya giden deniz yollarinin denetimini verdi",
+        "d": "Iquique (21 Mayis 1879) ve Angamos (8 Ekim 1879) deniz zaferleri Sili'nin Peru'ya ulasan deniz yollarini denetlemesini sagladi. Ardindan bir Sili ordusu Peru'yu istila etti.",
+        "kaynak": "EB-PS — AYNEN: «Naval victories at Iquique (May 21, 1879) and Angamos (October 8, 1879) enabled Chile to control the sea approaches to Peru»",
+        "kesinlik": "gun" },
+
+      { "t": "1883-10-20", "tur": "antlasma",
+        "b": "Ancon Antlasmasi — Peru Tarapaca eyaletini Sili'ye biraktı",
+        "d": "Peru ve Sili 20 Ekim 1883'te Ancon Antlasmasi'ni imzaladi; Tarapaca eyaleti Sili'ye birakildi. Sili ayrica Tacna ve Arica eyaletlerini on yil isgal edecek, sonunda bu eyaletlerin hangi devlete ait olacagini belirlemek uzere bir halk oylamasi yapilacakti.",
+        "kaynak": "EB-PS — AYNEN: «on October 20, 1883, Peru and Chile signed the Treaty of Ancón, by which Tarapacá province was ceded to the latter»",
+        "kesinlik": "gun" },
+
+      { "t": "1883-10-20", "tur": "toprak-kazanc",
+        "b": "Sili nitrat bakimindan zengin Tarapaca'yi ilhak etti",
+        "d": "Ancon Antlasmasi ile Tarapaca eyaleti Sili'ye gecti. Ertesi yil Bolivya ile yapilan mutareke Bolivya'nin butun kiyisini (Antofagasta eyaleti) nitrat, bakir ve oteki maden sanayisiyle birlikte Sili'nin denetimine birakti.",
+        "kaynak": "EB-PS — AYNEN: «resulted in Chilean annexation of valuable disputed territory on the Pacific coast» + «Tarapacá province was ceded to the latter»",
+        "kesinlik": "gun" },
+
+      { "t": "1904-01-01", "tur": "antlasma",
+        "b": "1904 antlasmasi Bolivya kiyisinin Sili'ye gecisini kalici kildi",
+        "d": "1884 mutarekesi Bolivya'nin butun kiyisini Sili denetimine birakmisti; 1904'te yapilan bir antlasma bu duzenlemeyi kalici hale getirdi. Karsiliginda Sili, La Paz'i Arica limanina baglayan bir demiryolu insa etmeyi ve Bolivya ticaretine Sili limanlarindan serbest gecis taniyan bir guvence vermeyi kabul etti.",
+        "kaynak": "EB-PS — AYNEN: «a treaty in 1904 made this arrangement permanent»",
+        "kesinlik": "yil — GUN VE AY BULUNAMADI, olcut geregi YYYY-01-01" }
+    ]},
+
+  { "kunye": "peru-cumhuriyeti",
+    "ekle": [
+      { "t": "1873-01-01", "tur": "ittifak",
+        "b": "Peru ile Bolivya gizli bir karsilikli toprak ve bagimsizlik guvencesi antlasmasi yapti",
+        "d": "Peru'nun catismaya ilgisi Sili ile Pasifik kiyisindaki hegemonya rekabetinden geliyordu. 1873'te Peru, Bolivya ile gizlice topraklarinin ve bagimsizliklarinin karsilikli guvencesi konusunda anlasti. Bu gizli ittifak 1879'da Bolivya'nin Peru'yu yardima cagirmasinin dayanagi oldu.",
+        "kaynak": "EB-PS — AYNEN: «In 1873 Peru agreed secretly with Bolivia to a mutual guarantee of their territories and independence»",
+        "kesinlik": "yil — GUN VE AY BULUNAMADI, olcut geregi YYYY-01-01" },
+
+      { "t": "1879-04-05", "tur": "savas",
+        "b": "Sili Peru'ya savas ilan etti — Pasifik Savasi",
+        "d": "Bolivya'nin cagrisi uzerine Peru catismaya girdi; Sili hem Peru'ya hem Bolivya'ya savas ilan etti. Iquique ve Angamos deniz yenilgilerinden sonra bir Sili ordusu Peru'yu istila etti.",
+        "kaynak": "EB-PS — AYNEN: «Chile declared war on both Peru and Bolivia (April 5, 1879)»",
+        "kesinlik": "gun" },
+
+      { "t": "1881-01-01", "tur": "isgal",
+        "b": "Sili kuvvetleri Peru baskenti Lima'yi isgal etti",
+        "d": "Ekim 1880'de Amerika Birlesik Devletleri'nin arabuluculuk denemesi basarisiz olunca Sili kuvvetleri ertesi Ocak ayinda Lima'yi isgal etti. Peru direnisi uc yil daha surdu.",
+        "kaynak": "EB-PS — AYNEN: «Chilean forces occupied the Peruvian capital of Lima the following January»",
+        "kesinlik": "ay — GUN BULUNAMADI; kaynak yalnizca 'ertesi Ocak' diyor, olcut geregi ayin 1'i" },
+
+      { "t": "1883-10-20", "tur": "toprak-kayip",
+        "b": "Ancon Antlasmasi ile Peru Tarapaca eyaletini kaybetti",
+        "d": "Peru Tarapaca eyaletini Sili'ye birakti; Tacna ve Arica eyaletleri on yilligina Sili isgaline verildi ve sonunda bir halk oylamasi yapilmasi kararlastirildi. Iki devlet oylamanin sartlarinda onlarca yil anlasamadi; bu diplomatik anlasmazlik 'Pasifik Sorunu' diye anildi.",
+        "kaynak": "EB-PS — AYNEN: «by which Tarapacá province was ceded to the latter» + «Chile was also to occupy the provinces of Tacna and Arica for 10 years»",
+        "kesinlik": "gun" },
+
+      { "t": "1883-10-20", "tur": "antlasma",
+        "b": "Peru ile Sili Ancon Antlasmasi'ni imzaladi",
+        "d": "Antlasma Pasifik Savasi'ni Peru cephesinde bitirdi. Savas Peru'ya binlerce can ve buyuk mal kaybina mal oldu; savasin sonunda yedi ay suren bir ic savas yasandi ve ulke on yillar boyunca ekonomik olarak toparlanamadi.",
+        "kaynak": "EB-PS — AYNEN: «Peru and Chile signed the Treaty of Ancón»",
+        "kesinlik": "gun" },
+
+      { "t": "1883-10-20", "tur": "ic-savas",
+        "b": "Savasin bitiminde Peru'da yedi ay suren bir ic savas basladi",
+        "d": "Pasifik Savasi'nin sonunda Peru'da yedi ay suren bir ic savas yasandi.",
+        "kaynak": "EB-PS — AYNEN: «at the war's end, a seven-month civil war ensued»",
+        "kesinlik": "🔴 TARIH ZAYIF — kaynak yalniz 'savasin sonunda' diyor, BASLANGIC GUNU BULUNAMADI; Ancon gunune yazildi." }
+    ]},
+
+  { "kunye": "bolivya-cumhuriyeti",
+    "ekle": [
+      { "t": "1873-01-01", "tur": "ittifak",
+        "b": "Bolivya ile Peru gizli bir karsilikli guvence antlasmasi yapti",
+        "d": "1873'te Peru, Bolivya ile gizlice topraklarinin ve bagimsizliklarinin karsilikli guvencesi konusunda anlasti. 1879'da Sili Antofagasta'yi isgal edince Bolivya Sili'ye savas ilan etti ve bu antlasmaya dayanarak Peru'yu yardima cagirdi.",
+        "kaynak": "EB-PS — AYNEN: «In 1873 Peru agreed secretly with Bolivia to a mutual guarantee of their territories and independence»",
+        "kesinlik": "yil — GUN VE AY BULUNAMADI, olcut geregi YYYY-01-01" },
+
+      { "t": "1874-01-01", "tur": "antlasma",
+        "b": "Gozden gecirilmis Sili-Bolivya antlasmasi maden vergisi anlasmazligini yatistirdi",
+        "d": "Sili ile Bolivya sinir olarak 24. paraleli taniyan ve Sili'ye Bolivya'nin 23. ile 24. paraleller arasindaki topraklarinin maden ihracat vergilerinden pay veren bir antlasma yapmisti. 1874'te gozden gecirilen antlasmayla Sili bu paydan vazgecti, Bolivya da 25 yil boyunca Sili girisimlerinin vergilerini artirmamayi kabul etti.",
+        "kaynak": "EB-PS — AYNEN: «In 1874 Chilean-Bolivian relations were ameliorated by a revised treaty under which Chile relinquished its share of export taxes … and Bolivia agreed not to raise taxes on Chilean enterprises in Bolivia for 25 years»",
+        "kesinlik": "yil — GUN VE AY BULUNAMADI, olcut geregi YYYY-01-01" },
+
+      { "t": "1879-04-05", "tur": "savas",
+        "b": "Sili Bolivya'ya savas ilan etti — Pasifik Savasi",
+        "d": "Bolivya'nin Silili nitrat sirketinin vergilerini artirma girisimi ve Sili'nin Antofagasta'yi isgali uzerine Bolivya Sili'ye savas ilan edip Peru'yu yardima cagirdi; Sili de her iki devlete savas ilan etti. Sili Bolivya kiyi bolgesini kolayca isgal etti.",
+        "kaynak": "EB-PS — AYNEN: «Bolivia then declared war on Chile and called upon Peru for help. Chile declared war on both Peru and Bolivia (April 5, 1879)»",
+        "kesinlik": "gun" },
+
+      { "t": "1884-01-01", "tur": "toprak-kayip",
+        "b": "Mutareke Bolivya'nin butun Pasifik kiyisini Sili'ye birakti — Bolivya karayla cevrildi",
+        "d": "1884'te Bolivya ile Sili arasindaki mutareke, nitrat, bakir ve oteki maden sanayisiyle birlikte Antofagasta eyaletinin tamamini Sili denetimine verdi; 1904'teki bir antlasma bunu kalici kildi. Bolivya o tarihten sonra Atlantik'e Parana-Paraguay nehir sistemi uzerinden cikis aramaya yoneldi.",
+        "kaynak": "EB-PS — AYNEN: «In 1884 a truce between Bolivia and Chile gave the latter control of the entire Bolivian coast (Antofagasta province)»",
+        "kesinlik": "yil — GUN VE AY BULUNAMADI, olcut geregi YYYY-01-01" },
+
+      { "t": "1904-01-01", "tur": "antlasma",
+        "b": "1904 antlasmasi Bolivya'nin kiyi kaybini kalici hale getirdi",
+        "d": "Antlasma karsiliginda Sili, Bolivya baskenti La Paz'i Arica limanina baglayan bir demiryolu insa etmeyi ve Bolivya ticaretine Sili limanlarindan ve topraklarindan serbest gecis guvencesi vermeyi kabul etti.",
+        "kaynak": "EB-PS — AYNEN: «a treaty in 1904 made this arrangement permanent»",
+        "kesinlik": "yil — GUN VE AY BULUNAMADI, olcut geregi YYYY-01-01" }
+    ]}
+]
