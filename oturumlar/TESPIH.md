@@ -80,6 +80,52 @@ altında yazılı.
 
 ---
 
+## 🔴 YENİ BULGU — YANLIŞ HASSASİYET, 161 künye
+
+*(4 Eylül · bir işçi oturumun reddinden doğdu)*
+
+KRONOLOJİ ORTA AMERİKA, `purepecha-imparatorlugu` için `son` maddesi
+yazmayı **reddetti** — ve gerekçesi bir tek künyeden büyük çıktı:
+
+```
+künye        t:1530-02-14        ← GÜN hassasiyeti
+akademik     1529                ← bir yıl fark
+künyenin KENDİ kaynak alanı:
+   "bulunamadı — … Tarihin dayanağı DURUYOR: f:/t: BAĞLI VERİNİN
+    kullandığı aralığa HİZALANDI. Akademik kaynak ARANACAK."
+```
+⇒ Gün hassasiyeti bir **ölçüm** değil, bir **hizalama**.
+
+**TARANDI — tek vaka değil:**
+```
+591 künyenin 161'i  gün hassasiyetli tarih taşıyor VE `kaynak` alanı
+                    LİTERAL olarak "bulunamadı" ile BAŞLIYOR
+novgorod 1478-01-15 · pskov 1510-01-13 · tver 1485-09-12
+moskova 1547-01-16 · litvanya 1569-07-01 · cenova 1797-06-14
+imereti 1810-02-20 · kilikya-ermeni 1375-04-14 …
+```
+
+⚠️ **Ve hüküm dikkatli verilmeli: bunların çoğu muhtemelen DOĞRU.**
+Moskova `1547-01-16` IV. İvan'ın taç giymesidir. Kusur *yanlışlık* değil,
+**yanlış HASSASİYET**: gün yazmak *"bu günü biliyorum"* demektir, oysa
+aynı kaydın `kaynak` alanı *"bilmiyorum"* diyor. İkisi yan yana duruyor ve
+**gün, kaynağın yokluğunu ÖRTÜYOR.**
+
+📌 Bu, `§11`in *"yuvarlak tarih yalnız yanlış değildir — çelişkiyi de
+saklar"* dersinin **AYNASI**. Orada yuvarlaklık bir boşluğu 21 aydan iki
+aya indirip gizliyordu; burada **sahte kesinlik** bir dayanaksızlığı
+gizliyor. İkisi de aynı aileden: *hassasiyet yalnız doğruluk değil,
+GÖRÜNÜRLÜK meselesidir.*
+
+🔜 **İŞ DEĞİL, HENÜZ ÖLÇÜM.** Yapılacak olan üç kova ayırmak:
+```
+① kaynak VAR ama künyeye yazılmamış    → yaz, kapan
+② gün gerçekten biliniyor              → kaynağı bul
+③ gün HİZALAMA ürünü                   → `YYYY-01-01`e ÇEK
+```
+⚠️ ③ bir veri değişikliğidir ve `Değişmez 2` senkronunu etkileyebilir —
+koşudan sonra, ölçülerek.
+
 ## 🔴 AÇIK BORÇLAR — iş değil, KAYIT
 
 ```
