@@ -36,10 +36,32 @@ RAPOR = 3600                  # canlilik raporu
 
 
 def yaz(s):
+    """Log dosyasina utf-8 yazar, konsola ASCII'ye DUSEREK yazar.
+
+    🔴 4 Eylul 2026: bu bekcinin onceki surumu ilk canlilik satirinda
+    UnicodeEncodeError ile COKTU — cp1254 konsolu 'saat' emojisini
+    (\u23f3) yazamadi. Dosyaya yazim basarili olmustu, print() coktu.
+    📌 `renkler.py`nin kendi uyarisinin aynisi: "patlayabilen bir uyari
+       uyarisizliktan kotudur — sorunu haber vermek yerine KENDISI sorun
+       olur." Bir NOBETCI icin bedeli daha agir: sustugunda "kosu iyi
+       gidiyor" diye okunuyor.
+    ⚠️ try/except SART ve ortam degiskeni YETMEZ: baska biri
+       PYTHONIOENCODING'siz baslatirsa yine cokerdi.
+    """
     d = datetime.datetime.now().strftime("%H:%M:%S")
-    with io.open(LOG, "a", encoding="utf-8") as f:
-        f.write("%s  %s\n" % (d, s))
-    print("%s  %s" % (d, s), flush=True)
+    try:
+        with io.open(LOG, "a", encoding="utf-8") as f:
+            f.write("%s  %s\n" % (d, s))
+    except Exception:
+        pass                      # log yazilamasa bile NOBET SURSUN
+    try:
+        print("%s  %s" % (d, s), flush=True)
+    except Exception:
+        try:
+            print("%s  %s" % (d, s.encode("ascii", "replace").decode("ascii")),
+                  flush=True)
+        except Exception:
+            pass                  # konsol hic yazamasa bile NOBET SURSUN
 
 
 def beep(n, frek=880, sure=250, ara=120):
