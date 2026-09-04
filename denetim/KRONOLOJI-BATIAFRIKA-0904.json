@@ -1,0 +1,333 @@
+{
+  "oturum": "KRONOLOJİ AFRİKA GÖVDE",
+  "damga": "2026-09-04",
+  "durum": "SÜRÜYOR — guney-afrika partisi 1/2. bati-afrika 51'e HENÜZ girilmedi.",
+  "hedef_dosya": "data/devletler.js — BİRLEŞTİRMEYİ OTURUM 0 YAPAR. Ben DOKUNMADIM.",
+
+  "_BICIM_SECIMI": {
+    "🔴 CELISKI": "Şartname (KRONOLOJI-BATIAFRIKA-0904.md) bir DİZİ istiyor [{kunye, ekle:[{t,b,d,tur,kaynak,kesinlik}]}]; ölçüt (KRONOLOJI-OLCUT-0904.md) bir NESNE istiyor {oturum, damga, kunyeler:[{id, eklenen:[{t,tur,b,kaynak}]}]}. Anahtarlar ve alanlar farklı. Kardeş yama dosyası YOK — emsal de yok.",
+    "SECIM": "Dosya adı ŞARTNAMEDEN (iki kez adıyla yazılı), yapı ÖLÇÜTTEN (kendini 'kabul ölçütüdür, teslimin sınanacağı şey' diye ilan ediyor).",
+    "DAYANAK — OLCTUM": "data/devletler.js'teki 1980 kronoloji maddesinin 1980'i YALNIZ üç alan taşıyor: t %100 · tur %100 · b %100. Şartnamedeki `d` ve `kesinlik` alanlarının hedef şemada KARŞILIĞI YOK, o yüzden yazmadım.",
+    "🔴 KAYNAK ALANI ACIK SORU": "İki belge de `kaynak`ı ZORUNLU kılıyor, ama ölçtüm: 1980 maddenin 0'ı `kaynak` taşıyor. Künye ÜST düzeyinde var, madde düzeyinde yok. ⇒ Birleştirici bu alanı nereye koyacak? Karar koordinatörde; ben yamada AYRI alan olarak tutuyorum ki düşerse GÖRÜNSÜN."
+  },
+
+  "_TDV_KAPSAMASI_OLCULDU": {
+    "yontem": "32 slug HTTP kodu ile sınandı (§4 ①).",
+    "🟢 CANLI": ["afrika", "zimbabve", "mozambik", "hollanda", "ingiltere", "zambiya", "malavi", "guney-afrika-cumhuriyeti"],
+    "🔴 OLU_302": ["guney-afrika", "lesotho", "svaziland", "botsvana", "namibya", "zulu", "zulular", "basutoland", "transvaal", "oranj", "boer", "angola", "kap", "monomotapa", "rodezya", "bantu", "hotanto", "ndebele", "sotho", "tsvana", "herero", "afrika-guney", "vitvatersrand", "ummu-durman"],
+    "🔴 KENDI_KUSURUM_VE_DUZELTMESI": "`guney-afrika-cumhuriyeti` ilk turda 000 döndü. 'ÖLÜ' YAZMADIM — 000 bir HTTP kodu değil, bağlantı arızasıdır. Yeniden ölçtüm: 200 CANLI. Eğer ilk turu kaydetseydim TDV'nin bu bölgeyi kapsayan TEK maddesini 'yok' diye damgalayacaktım. ⇒ 'ölçülemedi' ile 'ölü' ayrımı bu partide somut bir kayıp önledi.",
+    "HUKUM": "Güney Afrika'da TDV bir COĞRAFÎ boşluk değil, TANECİKLİK boşluğudur — ama tanecik çok kaba: `guney-afrika-cumhuriyeti` gövdesi okundu (200) ve Boer cumhuriyetlerini YALNIZ YIL düzeyinde veriyor ('1852-1854 ... bağımsızlığı tanındı' · '1877 ilhak' · '1881 Majuba' · '1899-1902'). Konvansiyonları, antlaşmaları ve yerli krallıkları (Zulu hariç, o da tek cümle) HİÇ ANMIYOR. ⇒ Gün hassasiyeti için akademik kaynak MEŞRU ve zorunlu.",
+    "⚠️ CLAUDE.md §4 TABLOSUNA NOT": "Tablo 'Afrika'nın dördü %100' diyor. Bu ölçüm onu çürütmüyor — tablo KÜNYE kapsamasını ölçüyor ve hangi dört bölge olduğunu ben ölçmedim. Ama guney-afrika için künye düzeyinde bile `zulu` · `transvaal` · `oranj` ÜÇÜ DE ÖLÜ. Bu bölge o '%100'ün içinde DEĞİLDİR ya da tablo bu bölge için geçerli değildir; hangisi olduğunu ÖLÇMEDİM."
+  },
+
+  "kunyeler": [
+    {
+      "id": "transvaal",
+      "ad": "Transvaal (Güney Afrika Cumhuriyeti — Zuid-Afrikaansche Republiek)",
+      "mevcut_madde": 0,
+      "not": "Dokuz cinsin dokuzu da boştu. Aşağıdaki 10 madde ile yedi cins doluyor.",
+      "eklenen": [
+        { "t": "1852-01-17", "tur": "kurulus",
+          "b": "Sand River Konvansiyonu ile Britanya Vaal ırmağının ötesindeki bütün otorite iddialarından vazgeçti ve Transvaal Boerlerinin bağımsızlığını tanıdı",
+          "kaynak": "South African History Online, dated-event 'Sand River Convention' — gövdede AYNEN: «Britain renounces all claims to authority beyond the Vaal River», tarih 17 January 1852. YIL teyidi bağımsız ikinci kaynaktan: TDV `guney-afrika-cumhuriyeti` (200, gövde okundu) «1852-1854: Transvaal ve Orange cumhuriyetlerinin bağımsızlığı tanındı»." },
+
+        { "t": "1877-04-12", "tur": "isgal",
+          "b": "Theophilus Shepstone ilhak beyannamesini Pretoria'daki Kilise Meydanı'nda okuyarak cumhuriyeti Britanya'ya kattı",
+          "kaynak": "South African History Online — «On 12 April 1877 a proclamation of annexation was read out in Church Square in Pretoria, the capital of the Transvaal Republic.» YIL teyidi: TDV `guney-afrika-cumhuriyeti` «1877: İngilizlerin Transvaal'i ilhakı»." },
+
+        { "t": "1881-02-27", "tur": "savas",
+          "b": "Majuba Tepesi Muharebesi'nde Boerler İngiliz kuvvetlerini bozguna uğrattı ve Birinci Boer Savaşı'nı kazandı",
+          "kaynak": "South African History Online, dated-event 'The First Anglo-Boer War: Boers defeat the British at the Battle of Majuba' — 27 February 1881. YIL teyidi: TDV `guney-afrika-cumhuriyeti` «1881: Majuba Hill Savaşı'nda Boerlerin zaferi»." },
+
+        { "t": "1881-08-03", "tur": "antlasma",
+          "b": "Pretoria Konvansiyonu ile Transvaal, Kraliçe'nin metbûluğu altında tam iç muhtariyet kazandı",
+          "kaynak": "South African History Online arşivi — belgenin kendi başlığı: «The convention of Pretoria, 'Convention' for the Settlement of the Transvaal Territory, 3 August 1881»." },
+
+        { "t": "1884-02-27", "tur": "antlasma",
+          "b": "Londra Konvansiyonu batı sınırını yeniden çizdi ve Britanya'nın metbûluk iddiasına yapılan bütün atıfları metinden çıkardı",
+          "kaynak": "Encyclopaedia Britannica, 'London Convention (United Kingdom-Transvaal, 1884)' ve 'Sir Hercules Robinson' maddeleri — «concluded a new convention in London on February 27, 1884, which rectified the western border and removed any reference to British suzerainty over the Transvaal»." },
+
+        { "t": "1895-12-29", "tur": "isyan",
+          "b": "Jameson Baskını başladı: İngiliz görevlileri ve maden sanayii önderleri Transvaal hükûmetini devirmek için silâhlı bir akın düzenledi ve 2 Ocak 1896'da başarısız oldu",
+          "kaynak": "Encyclopaedia Britannica, 'Jameson Raid (1895)' — «began on December 29, 1895, and ended on January 2, 1896».",
+          "⚠️ tur_secimi": "Dokuz cins içinde 'baskın' yok. `isyan` seçildi çünkü baskının açık amacı Uitlander ayaklanmasını tetiklemekti; `savas` denmedi çünkü ilân edilmiş bir savaş değildi. SEÇİMDİR, kaynaktan gelmez." },
+
+        { "t": "1897-01-01", "tur": "ittifak",
+          "b": "Transvaal ile Oranj Hür Devleti arasında savunma ittifakı kuruldu",
+          "kaynak": "Encyclopaedia Britannica, 'Orange Free State' ve 'Marthinus Theunis Steyn' maddeleri — «a defensive alliance», Steyn başkanlığında 1897'de akdedildi.",
+          "⚠️ GUN_YOK": "Kaynak yalnız YIL veriyor. §4 gereği YYYY-01-01 yazıldı — 1 Ocak bir KAYNAK GÜNÜ DEĞİLDİR." },
+
+        { "t": "1899-10-11", "tur": "savas",
+          "b": "İkinci Boer Savaşı başladı; Transvaal ve Oranj Hür Devleti birlikte Britanya'ya karşı savaşa girdi",
+          "kaynak": "Encyclopaedia Britannica, 'South African War' — «occurred from October 11, 1899, to May 31, 1902». YIL teyidi: TDV `guney-afrika-cumhuriyeti` «1899-1902: İkinci Boer Savaşı»." },
+
+        { "t": "1900-01-01", "tur": "toprak-kayip",
+          "b": "Britanya Haziran 1900'de başşehir Pretoria'yı işgal etti ve Eylül 1900'de Transvaal'i resmen ilhak ettiğini ilân etti",
+          "kaynak": "Encyclopaedia Britannica, 'South African Republic' — «The British were able to occupy the capital, Pretoria, in June 1900, and in September they formally annexed the Transvaal.»",
+          "🔴 GUN_BULUNAMADI": "Kaynak AY veriyor (Eylül 1900), GÜN vermiyor. §4 gereği YYYY-01-01 yazıldı ve ay `b` içinde AÇIKÇA belirtildi. 1900-01-01 bir KAYNAK GÜNÜ DEĞİLDİR. SAHO'nun bu olaya ait dated-event sayfası çekildi ama gövdesinde tarih GELMEDİ (§4 ④ boilerplate) — 'yok' demiyorum, ÇEKİLEMEDİ diyorum." },
+
+        { "t": "1902-05-31", "tur": "son",
+          "b": "Vereeniging Barışı ile Transvaal bağımsızlığını yitirdi ve İngiliz sömürgesi hâline geldi",
+          "kaynak": "Künyenin kendi `kaynak` alanındaki Cambridge University Press kronolojisi (üniversite yayını) ile Encyclopaedia Britannica 'South African War' (bitiş 31 Mayıs 1902) BAĞIMSIZ olarak aynı günü veriyor." }
+      ]
+    },
+
+    {
+      "id": "oranj",
+      "ad": "Oranj Hür Devleti (Oranje Vrijstaat)",
+      "mevcut_madde": 0,
+      "eklenen": [
+        { "t": "1854-02-23", "tur": "antlasma",
+          "b": "Bloemfontein Konvansiyonu ile Britanya Oranj ırmağı ötesindeki hâkimiyetinden vazgeçti",
+          "kaynak": "South African History Online, dated-event 'The Bloemfontein Convention is signed' — 23 February 1854, Green Lodge'da Sir George Clerk ile yirmi beş 'halk temsilcisi' arasında imzalandı; metinde ayrıca yerli halklarla antlaşmalar, köleliğin yasaklanması ve ticaretin düzenlenmesi hükümleri var." },
+
+        { "t": "1854-04-07", "tur": "kurulus",
+          "b": "Oranj Hür Devleti anayasası kabul edildi ve cumhuriyet resmen kuruldu",
+          "kaynak": "South African History Online, dated-event 'Adoption of the Orange Free State constitution' — 7 Nisan 1854. Künyenin kendi `f:` günüyle BİREBİR aynı." },
+
+        { "t": "1858-03-19", "tur": "savas",
+          "b": "Başkan Boshof Basotho'ya savaş ilân etti ve Birinci Basotho (Senekal) Savaşı başladı",
+          "kaynak": "South African History Online, 'Basotho Wars 1858-1868' — «Boshof declaring war on the Basotho on 19 March 1858».",
+          "⚠️ KAYNAGIN_KENDI_CELISKISI": "Aynı cümle «(also stated as 22 March 1858)» diye ikinci bir gün de veriyor. 19 Mart alındı çünkü kaynağın ASIL beyanı o; ikinci gün GİZLENMİYOR, burada yazılı." },
+
+        { "t": "1865-01-01", "tur": "savas",
+          "b": "Oranj Hür Devleti İkinci Basotho Savaşı'nı (Sesotho'da Seqiti Savaşı) başlattı",
+          "kaynak": "South African History Online, 'Basotho Wars 1858-1868' — «In 1865, the Orange Free State launched the Second Basotho War known in Sesotho as the Seqiti War».",
+          "⚠️ GUN_YOK": "Kaynak yalnız YIL veriyor; YYYY-01-01 bir kaynak günü değildir." },
+
+        { "t": "1866-04-11", "tur": "antlasma",
+          "b": "Moshoeshoe erzak tükenmesi üzerine Thaba Bosiu Barışı'nı kabul etmek zorunda kaldı",
+          "kaynak": "South African History Online, 'Basotho Wars 1858-1868' — «Moshoeshoe was then compelled to accept the peace of Thaba Bosiu on 11 April 1866, due an exhaustion of Basotho food supplies»; Encyclopaedia Britannica'nın 'Treaty of Thaba Bosiu (South Africa, 1866)' maddesi BAĞIMSIZ olarak aynı antlaşmayı kaydediyor." },
+
+        { "t": "1869-01-01", "tur": "toprak-kazanc",
+          "b": "Aliwal-North Konvansiyonu ile Basotho'dan alınan 'Fethedilen Topraklar' Oranj Hür Devleti'nde kaldı ve sınır güneye, Langeberg'e çekildi",
+          "kaynak": "South African History Online — «In February 1869, the boundaries of present day Lesotho (previously Basutoland) were then drawn up according to the Convention of Aliwal-North … This convention gave the Conquered Territory to the Free State, and the boundary line was moved further south to Langeberg.»",
+          "🔴 GUN_BULUNAMADI": "Kaynak AY veriyor (Şubat 1869), GÜN vermiyor. Yaygın olarak 12 Şubat 1869 anılır ama BEN ONU KAYNAKTA GÖRMEDİM, o yüzden YAZMADIM." },
+
+        { "t": "1871-10-27", "tur": "toprak-kayip",
+          "b": "Elmas tarlaları Griqualand West adıyla İngiliz toprağı ilân edildi ve Oranj Hür Devleti'nin bölge üzerindeki iddiası reddedildi",
+          "kaynak": "Encyclopaedia Britannica, 'Griqualand West' — «On 27 October 1871 the diamond fields were proclaimed a British territory under the name of Griqualand West»; aynı gövde bölgeyi Oranj, Transvaal, Waterboer'in Griqualarının ve güney Tsvana şeflerinin AYNI ANDA talep ettiğini yazıyor." },
+
+        { "t": "1876-01-01", "tur": "antlasma",
+          "b": "Britanya elmas tarlalarının kaybı karşılığında Oranj Hür Devleti'ne 90.000 sterlin tazminat ödemeyi kabul etti",
+          "kaynak": "South African History Online, 'Colonial history of Bloemfontein' — «In March 1876, President Brand undertook a deputation to Britain to discuss compensation for Bloemfontein's loss of the diamond fields. It was decided that Britain would pay a sum of 90 000 pounds as damages to the OFS.»",
+          "⚠️ GUN_YOK": "Kaynak AY veriyor (Mart 1876), GÜN vermiyor." },
+
+        { "t": "1897-01-01", "tur": "ittifak",
+          "b": "Başkan Steyn önderliğinde Transvaal ile savunma ittifakı akdedildi",
+          "kaynak": "Encyclopaedia Britannica, 'Orange Free State' ve 'Marthinus Theunis Steyn' — «with which it had a defensive alliance when the South African War broke out in 1899».",
+          "⚠️ GUN_YOK": "Yalnız yıl." },
+
+        { "t": "1899-10-11", "tur": "savas",
+          "b": "Oranj Hür Devleti ittifak gereği kardeş cumhuriyet Transvaal'in yanında İkinci Boer Savaşı'na girdi",
+          "kaynak": "Encyclopaedia Britannica, 'South African War' (11 Ekim 1899) ve 'Orange Free State' — «fought against Britain by the side of its sister state»." },
+
+        { "t": "1902-05-31", "tur": "son",
+          "b": "Vereeniging Barışı ile Oranj Hür Devleti bağımsızlığını yitirdi",
+          "kaynak": "Künyenin kendi `kaynak` alanındaki Cambridge University Press kronolojisi ile Britannica 'Peace of Vereeniging' aynı günü veriyor." }
+      ]
+    },
+
+    {
+      "id": "basuto",
+      "ad": "Basuto (Basotho) Krallığı",
+      "mevcut_madde": 2,
+      "eklenen": [
+        { "t": "1858-03-19", "tur": "savas",
+          "b": "Oranj Hür Devleti'nin savaş ilânıyla Birinci Basotho (Senekal) Savaşı başladı",
+          "kaynak": "South African History Online, 'Basotho Wars 1858-1868'. (Aynı kaynak ikinci bir gün olarak 22 Mart 1858'i de anıyor.)" },
+
+        { "t": "1865-01-01", "tur": "savas",
+          "b": "Oranj Hür Devleti'nin taarruzuyla İkinci Basotho (Seqiti) Savaşı başladı",
+          "kaynak": "South African History Online, 'Basotho Wars 1858-1868'. Yalnız YIL." },
+
+        { "t": "1866-04-11", "tur": "toprak-kayip",
+          "b": "Thaba Bosiu Barışı ile Moshoeshoe önceki kazanımlarının çoğunu Oranj Hür Devleti'ne bırakmak zorunda kaldı",
+          "kaynak": "South African History Online — «He was forced to give up most of his earlier gains at the Treaty of Thaba Bosiu in 1866»; gün (11 Nisan 1866) aynı gövdeden." }
+      ],
+      "🔴 BASKASININ_DOSYASINDA_SUPHE_BULDUM_DOKUNMADIM": {
+        "kayit": "Mevcut `son` maddesi: 1868-03-12 — «Moshoeshoe'nin ölümüyle İngiliz idaresine geçti»",
+        "olcum": "South African History Online AYNI GÜNE başka bir olay veriyor: «On the 12 March 1868, the British parliament declared the Basotho Kingdom a British protectorate.»",
+        "supheler": "Aynı gün iki farklı olaya bağlanmış olamaz: 1868-03-12 ya himaye ilânıdır ya Moshoeshoe'nin ölümüdür. Himaye ilânı KAYNAKLI.",
+        "🔴 OLCMEDIM": "Moshoeshoe'nin ölüm gününü DOĞRULAYAMADIM — Britannica 'Moshoeshoe' maddesi WebFetch'e HTTP 403 döndü. 'Madde yanlış' DEMİYORUM; 'iki iddia aynı günü paylaşıyor ve yalnız birini ölçebildim' diyorum.",
+        "durus": "Kayıt `data/devletler.js`te ve o dosya DONMUŞ + benim değil. DOKUNMADIM, bildiriyorum."
+      }
+    },
+
+    {
+      "id": "griqua",
+      "ad": "Griqua Devletleri (Griqualand Batı ve Doğu)",
+      "mevcut_madde": 2,
+      "eklenen": [
+        { "t": "1871-10-27", "tur": "toprak-kayip",
+          "b": "Elmas tarlaları Griqualand West adıyla İngiliz toprağı ilân edildi ve Waterboer'in Griqua devleti İngiliz himayesi altına alındı",
+          "kaynak": "Encyclopaedia Britannica, 'Griqualand West' — «At a special hearing in October 1871, Robert W. Keate … found in favor of Waterboer, but the British persuaded him to request protection against his Boer rivals, and the area was annexed as Griqualand West», ilân 27 Ekim 1871." }
+      ]
+    },
+
+    {
+      "id": "mutapa",
+      "ad": "Mwene Mutapa (Monomotapa)",
+      "mevcut_madde": 0,
+      "eklenen": [
+        { "t": "1450-01-01", "tur": "kurulus",
+          "b": "Mwene Mutapa devleti Zimbabve platosunun kuzeyinde teşekkül etti",
+          "kaynak": "Künyenin kendi `kaynak` alanındaki Journal of African History (hakemli) beyanı «the state dated back to AT LEAST the fifteenth century» ile TDV `zimbabve` (200) «XV. yüzyılın ikinci yarısında» BAĞIMSIZ olarak aynı pencereyi veriyor.",
+          "🔴 GUN_YOK": "Kaynakların ikisi de YÜZYIL veriyor, yıl bile vermiyor. 1450-01-01 künyenin `f:` günüdür; bir KAYNAK GÜNÜ DEĞİLDİR." },
+
+        { "t": "1569-01-01", "tur": "savas",
+          "b": "Portekiz kralı Sebastian, Francisco Barreto'yu Mwene Mutapa üzerine sefere memur etti; sefer Portekiz otoritesini kurmayı, Manika altın madenlerini ele geçirmeyi ve öldürülen misyonerin öcünü almayı hedefliyordu",
+          "kaynak": "Encyclopaedia Britannica, 'Francisco Barreto' — «In 1569 Barreto was entrusted by King Sebastian of Portugal with an expedition to the empire of Mwene Matapa in southeastern Africa to assert Portuguese authority over the area, capture the gold mines of Manica, and avenge the murder of a missionary»; sefer Zambezi vadisi yolundan 1572'de yürüdü, Barreto Sena'da öldü.",
+          "⚠️ GUN_YOK": "Yalnız yıl." },
+
+        { "t": "1629-01-01", "tur": "hukumdar",
+          "b": "Mavura, amcası Kapranzine'yi Portekiz yardımıyla tahttan indirerek Mwene Mutapa oldu",
+          "kaynak": "Encyclopaedia Britannica, 'Mavura' — «Mavura enlisted Portuguese aid in deposing his uncle Kapranzine as emperor in 1629»; 'Mwene Matapa' maddesi aynı yılı bağımsız olarak veriyor: «When the reigning Mwene Matapa attempted to expel them in 1629, they deposed him and forced his successor to grant them extensive trading and mining privileges.»" },
+
+        { "t": "1629-01-01", "tur": "antlasma",
+          "b": "Mavura Hıristiyanlığı kabul edip Filipe adını aldı, Portekiz kralına tâbiiyet yemini etti ve Portekizlilere geniş ticaret ve madencilik imtiyazları verdi",
+          "kaynak": "Encyclopaedia Britannica, 'Mavura' — «Converting to Christianity, he took the name Filipe and swore vassalage to the king of Portugal»; 'Mwene Matapa' — «forced his successor to grant them extensive trading and mining privileges»." },
+
+        { "t": "1695-01-01", "tur": "son",
+          "b": "Changamire Dombo'nun seferleriyle Mutapa'nın iç bölgelerdeki gücü kırıldı ve devlet Rozvi hâkimiyetine geçti",
+          "kaynak": "Encyclopaedia Britannica, 'Changamire dynasty' — «From 1693 to 1695 the Changamire empire drove the Portuguese from all their stations in the interior during a campaign against the remainder of the Mbire empire»; künyenin kendi kaynağındaki Journal of African History beyanı Dombo'nun savaşlarını 1684-95'e koyuyor.",
+          "⚠️ GUN_YOK": "Kaynak 1693-95 aralığı veriyor. 1695-01-01 künyenin `t:` günüdür, kaynak günü değildir." }
+      ]
+    },
+
+    {
+      "id": "zimbabve-kralligi",
+      "ad": "Büyük Zimbabve Krallığı",
+      "mevcut_madde": 0,
+      "eklenen": [
+        { "t": "1450-01-01", "tur": "son",
+          "b": "Büyük Zimbabve'nin başşehri terk edildi ve krallık dağıldı",
+          "kaynak": "UNESCO Dünya Mirası, Büyük Zimbabve kaydı — «About 1450, the capital was abandoned». Künyenin kendi `kaynak` alanı da aynı kaydı ve Oxford Research Encyclopedia of African History'yi anıyor.",
+          "⚠️ GUN_YOK": "Kaynak «about 1450» diyor — yıl bile YAKLAŞIK. 1450-01-01 künyenin `t:` günüdür." }
+      ],
+      "🔴 KURULUS_MADDESI_YAZILMADI_VE_SEBEBI": {
+        "olcum": "Künyenin `f:` değeri 1281-01-01, yani ATLASIN PENCERE BAŞLANGICI. Künyenin kendi `kaynak` alanı bunu zaten yazmış: «KURULUŞ TARİHİ BULUNAMADI — arandı, okunan kaynaklarda yok. `f:` alanındaki 1281 atlasın ufkudur, kaynaktan gelen bir tarih DEĞİLDİR.»",
+        "hukum": "Büyük Zimbabve atlas penceresinden ÖNCE kurulmuştur (yapı XI. yüzyıldan itibaren). Ölçütün PENCERE MUAFİYETİ'nin ruhu tam bu vakadır: Bizans'ın `kurulus` maddesinin olmaması nasıl doğruysa, bunun da olmaması doğrudur.",
+        "⚠️ HARFI_HARFINE_MUAF_DEGIL": "Muafiyet «`f`si 1281'den ÖNCEYSE» diyor; burada `f` TAM 1281, öncesi değil. Yani kural harfiyen muaf tutmuyor, ama muafiyetin GEREKÇESİ birebir geçerli. Bunu bir BOŞLUK olarak bildiriyorum: ölçüt `f == 1281` hâlini ifade etmiyor ve bu bölgede çok künyede `f:` tam 1281.",
+        "UYDURMADIM": "Bir kuruluş günü YAZMADIM. Kaynak susuyor, ben de susuyorum."
+      }
+    },
+
+    {
+      "id": "rozvi",
+      "ad": "Rozvi İmparatorluğu (Changamire)",
+      "mevcut_madde": 2,
+      "eklenen": [
+        { "t": "1684-01-01", "tur": "toprak-kazanc",
+          "b": "Changamire Dombo I en verimli ve maden bakımından en zengin bölgeleri fethederek imparatorluğun çekirdeğini kurdu",
+          "kaynak": "Encyclopaedia Britannica, 'Changamire dynasty' — «Changamire Dombo I (1684–95) conquered some of the most fertile and mineral-rich areas»." },
+
+        { "t": "1693-01-01", "tur": "savas",
+          "b": "Changamire orduları Portekizlileri iç bölgelerdeki bütün karakollarından ve Zambezi vadisindeki pazarlarından sürdü",
+          "kaynak": "Encyclopaedia Britannica, 'Changamire dynasty' — «From 1693 to 1695 the Changamire empire drove the Portuguese from all their stations in the interior»; 'Changamire Dombo I' — «drove the Portuguese from their marketplaces in the Zambezi River valley in the 1690s».",
+          "⚠️ GUN_YOK": "Kaynak 1693-95 aralığı veriyor; başlangıç yılı alındı." }
+      ]
+    },
+
+    {
+      "id": "matabele",
+      "ad": "Matabele (Ndebele) Krallığı",
+      "mevcut_madde": 2,
+      "eklenen": [
+        { "t": "1888-10-30", "tur": "antlasma",
+          "b": "Kral Lobengula, Rudd İmtiyazı'nı imzalayarak krallığındaki bütün maden ve madenî cevherlerin tekelini Rhodes ve ortaklarına verdi",
+          "kaynak": "South African History Online arşivi, 'Rudd Concession by King Lobengula of Matabeleland (1888)' ve Encyclopaedia Britannica 'Lobengula' — «On 30 October 1888 King Lobengula … signed the famous Rudd concession with C.D. Rudd … in return for a thousand Martini-Henry rifles, 100,000 rounds of ammunition, £1200 annually and a steamboat with guns»; imtiyaz 1889'da İngiliz hükûmetince kabul edilip British South Africa Company'nin beratına dayanak yapıldı." },
+
+        { "t": "1893-11-01", "tur": "savas",
+          "b": "Bembesi Muharebesi'nde Matabele kuvvetleri yenildi; bu, 1893 Matabele Savaşı'nın belirleyici çarpışması oldu",
+          "kaynak": "South African History Online, 'First Matabele War' — «a frontal attack by a better organized and decisive Matabele force at Bembesi on 1 November, which was the most decisive battle of the 1893 Matabele War. Lobengula fled after the defeat at Bembesi, but not before burning his capital of Bulawayo to the ground»." }
+      ],
+      "not": "Mevcut `son` maddesi (1893-11-04) Bulawayo'nun düşüşünü zaten taşıyor; SAHO onu doğruluyor («On 4 November the British captured the smothering ruins of Bulawayo»). MÜKERRER YAZMADIM."
+    },
+
+    {
+      "id": "zulu-kralligi",
+      "ad": "Zulu Krallığı",
+      "mevcut_madde": 4,
+      "not": "Bölgenin tek gövdeli künyesiydi (kurulus · savas×2 · son). Eklenen beş madde `hukumdar` ve `ic-savas` cinslerini AÇIYOR — ikisi de guney-afrika'da SIFIRDI.",
+      "eklenen": [
+        { "t": "1828-09-22", "tur": "hukumdar",
+          "b": "Dingane, üvey kardeşi Mhlangana ve hizmetkârı Mbopha'nın yardımıyla Şaka'yı öldürerek Zulu tahtına geçti",
+          "kaynak": "South African History Online, 'King Dingane ka Senzangakhona' — «assassinated his brother and the then Chief of the Zulu – Shaka Zulu on the 22 of September 1828»; Encyclopaedia Britannica 'Shaka' BAĞIMSIZ olarak aynı günü veriyor: «died Sept. 22, 1828»." },
+
+        { "t": "1840-01-01", "tur": "ic-savas",
+          "b": "Maqongqo Muharebesi'nde Mpande'nin kuvvetleri Dingane'yi yendi ve Mpande Zulu tahtına oturdu",
+          "kaynak": "South African History Online, 'King Mpande kaSenzangakhona' — «Their combined forces defeated Dingane at the Battle of Maqongqo (near the present town of Magudu) in January 1840, putting Mpande on the Zulu throne»; Britannica 'Mpande' saltanatı 1840-1872 diye veriyor.",
+          "⚠️ GUN_YOK": "Kaynak AY veriyor (Ocak 1840), gün vermiyor. 1840-01-01 bir kaynak günü değildir; ay `b` dışında burada yazılı." },
+
+        { "t": "1856-01-01", "tur": "ic-savas",
+          "b": "Ndondakusuka Muharebesi'nde Cetshwayo kardeşi Mbuyazi'yi Tugela kıyısında yenerek veraset savaşını kazandı",
+          "kaynak": "Encyclopaedia Britannica, 'Battle of Ndondakasuka' ve 'Cetshwayo' — «Cetshwayo dramatically defeated his brother on the banks of the Tugela River in 1856 in the primary conflict of the Zulu civil war»; South African History Online, 'The Battle of Ndondakusuka (Tugela)' — «More than 5,000 warriors, including Mbulazi, were killed».",
+          "🔴 GUN_BULUNAMADI": "Kaynaklar YIL veriyor. SAHO'da 'Conclusive Battle of Ndondakusuka takes place' başlıklı bir dated-event VAR ama gününü ÇEKMEDİM — 'gün yok' demiyorum, ÇEKMEDİM diyorum." },
+
+        { "t": "1873-01-01", "tur": "hukumdar",
+          "b": "Shepstone Zululand'a giderek Cetshwayo'yu Zulu kralı olarak resmen tanıdı",
+          "kaynak": "South African History Online, 'King Cetshwayo' — «In September 1873 Shepstone travelled to Zululand and formally recognised Cetshwayo as King of the Zulu»; aynı gövde babasının ölümüyle 1872'de fiilen kral olduğunu da yazıyor.",
+          "⚠️ GUN_YOK": "Kaynak AY veriyor (Eylül 1873)." },
+
+        { "t": "1879-01-10", "tur": "savas",
+          "b": "İngiliz kuvvetlerinin Zululand'a girmesiyle Anglo-Zulu Savaşı başladı; savaşın gerekçesi Sir Bartle Frere'in 11 Aralık 1878'de Cetshwayo'ya verdiği, orduyu otuz gün içinde dağıtmasını isteyen ültimatomdu",
+          "kaynak": "South African History Online, dated-event 'Beginning of the Anglo-Zulu War, 10 January 1879'; ültimatom için aynı sitenin dated-event'i — «On 11 December 1878, the newly appointed British High Commissioner … delivers to Cetshwayo the Zulu king an ultimatum to disband his army»." }
+      ]
+    },
+
+    {
+      "id": "pedi",
+      "ad": "Pedi Krallığı",
+      "mevcut_madde": 2,
+      "eklenen": [
+        { "t": "1861-01-01", "tur": "hukumdar",
+          "b": "Sekhukhune Pedi krallığının başına geçti",
+          "kaynak": "South African History Online, 'Pedi & Anglo-Pedi Wars 1876-1879' — «When Sekhukhune succeeded to the chieftainship in 1861».",
+          "⚠️ GUN_YOK": "Yalnız yıl." },
+
+        { "t": "1876-01-01", "tur": "savas",
+          "b": "Sekhukhune'nin Pedi nüfuzunu genişletme çabaları üzerine Güney Afrika Cumhuriyeti Pedi krallığına savaş ilân etti",
+          "kaynak": "South African History Online, 'Pedi & Anglo-Pedi Wars 1876-1879' — «his attempts at expanding Bapedi influence caused the South African Republic to declare war in 1876».",
+          "⚠️ GUN_YOK": "Yalnız yıl." },
+
+        { "t": "1879-11-28", "tur": "savas",
+          "b": "Sir Garnet Wolseley'in yönettiği taarruzda Pedi kalesi düştü ve krallığın askerî direnci kırıldı",
+          "kaynak": "South African History Online, 'Pedi & Anglo-Pedi Wars 1876-1879' — «A massive assault was made on the Bapedi stronghold on 28 November 1879; the Bapedi suffered a crushing defeat and the chief himself was captured»." }
+      ],
+      "🟢 MEVCUT_MADDEYI_DOGRULADIM": "Künyenin `son` maddesi 1879-12-02 «Sekhukhune esir alındı» diyor. SAHO bunu BİREBİR doğruluyor: «On December 2, 1879, Captain Clarke and Commandant Ferreira were led to the cave and called him out, Sekhukhune had no choice but to comply.» Mükerrer yazmadım; yalnız doğrulamayı kaydediyorum."
+    },
+
+    {
+      "id": "svazi",
+      "ad": "Svazi Krallığı",
+      "mevcut_madde": 2,
+      "eklenen": [
+        { "t": "1820-01-01", "tur": "toprak-kazanc",
+          "b": "Kral I. Sobhuza önderliğinde Svaziler kuzeye, bugünkü ülkenin ortasına çekilerek burada güçlerini pekiştirdi ve Zulu yaş-bölüğü askerî düzenini benimsedi",
+          "kaynak": "Encyclopaedia Britannica, 'History of Eswatini' — «Under King Sobhuza I, the Swazi moved north in 1820 to central Eswatini, consolidating power and adopting the Zulu age-group military system».",
+          "⚠️ GUN_YOK": "Yalnız yıl." },
+
+        { "t": "1860-01-01", "tur": "toprak-kazanc",
+          "b": "II. Mswati döneminde krallık fetih ve asimilasyonla genişledi; halk adını bu hükümdardan aldı",
+          "kaynak": "Encyclopaedia Britannica, 'History of Eswatini' — «By 1860, they had expanded through conquest and assimilation under Mswati II, who gave his name to the nation».",
+          "⚠️ GUN_YOK": "Kaynak «by 1860» diyor — bir sınır yılı, olay günü değil." },
+
+        { "t": "1894-01-01", "tur": "antlasma",
+          "b": "Britanya ile Güney Afrika Cumhuriyeti arasındaki konvansiyon, Svaziland'ın idaresini Güney Afrika Cumhuriyeti'ne bıraktı; Svaziler bu düzenlemeye başlangıçta direndi",
+          "kaynak": "Encyclopaedia Britannica, 'Eswatini — Colonial administration' — «In 1894, a convention between Britain and the South African Republic allowed the latter to assume administrative powers, although the Swazi people initially resisted this».",
+          "⚠️ GUN_YOK": "Yalnız yıl." }
+      ],
+      "🟢 MEVCUT_MADDEYI_DOGRULADIM": "Künyenin `son` maddesi 1903-01-01 «İngiliz idaresine alındı» diyor. Britannica bunu AY düzeyinde keskinleştiriyor: «In June 1903, by an order in council under the Foreign Jurisdiction Act, the governor of the Transvaal was empowered to administer Swaziland and to legislate by proclamation.» YIL doğrulandı; gün yine yok, o yüzden mevcut maddeye DOKUNULMASINI ÖNERMİYORUM."
+    }
+  ],
+
+  "OLCMEDIKLERIM": [
+    "Transvaal `hukumdar` maddesi YAZILMADI: SAHO'da 'Paul Kruger is elected president' başlıklı bir dated-event VAR ama gününü ÇEKMEDİM. Cins hâlâ boş ve bunu 'yok' değil 'çekmedim' diye yazıyorum.",
+    "Transvaal 1900 ilhakının GÜNÜ ve Aliwal-North'un GÜNÜ bulunamadı — ikisi de ay düzeyinde kaldı.",
+    "Moshoeshoe'nin ölüm günü ölçülemedi (Britannica 403).",
+    "guney-afrika'nın kalan 14 künyesine (torva · rozvi · matabele · manica · pedi · venda · svazi · tsvana · herero · nama-orlam · xhosa · zulu-kralligi · mutapa · zimbabve-kralligi) HENÜZ girilmedi.",
+    "bati-afrika 51 künyeye HİÇ girilmedi.",
+    "Bu partide kullanılan kaynakların hiçbiri Cambridge History of Africa ya da UNESCO GHA'nın KENDİSİ değil — SAHO (kamu arşivi) ve Britannica (standart başvuru eseri). İkisi de ölçütün 🔴 yasak listesinde DEĞİL, ama 🟢 listesinin de tam ortasında değil; her maddede mümkün olan yerde İKİ BAĞIMSIZ kaynak eşleştirdim ve hangisinin ne verdiğini yazdım."
+  ]
+}
