@@ -3642,20 +3642,32 @@ if _pe_ozet:
 # okunmaz**, ve gerçekten öttüğü gün de okunmaz (aynı hastalık bugün
 # `_opaklik_dogrula`da da ölçüldü ve düzeltildi).
 #
-# 🔴 VE BÜYÜME ATFEDİLDİ — ama YARISI AÇIKLANAMADI, ve bu SAKLANMIYOR:
-#     bu koşuda İLK ÇİZİLEN beş dosyadan :  61
-#     ESKİDEN de çizilen dosyalardan     :  92   ← ÇOĞUNLUK
-#   "Üç yeni kıta geldi" açıklaması YETMİYOR. Muhtemel sebep: 1074 yeni
-#   petek komşuluk grafiğini HER YERDE değiştirdi, ve çizili dünyanın
-#   kenarındaki eski bir yerleşim artık ≥%90 kuşatılmış olabiliyor.
-#   ⚠️ Bu bir HİPOTEZ — ÖLÇÜLMEDİ. 92 kaydın niçin doğduğu AÇIK KALEM.
+# 🟢 BÜYÜME ATFEDİLDİ — ve KENDİ İLK ATFİMİ DÜZELTİYORUM.
+#   İlk yazımda *"61 yeni dosyadan, 92 ESKİ dosyadan ⇒ yarısı
+#   açıklanamadı"* dedim. O sayı YANLIŞ TABANA karşı ölçülmüştü: 8 adlık,
+#   aylardır bayat beyaz listeye. Doğru evren KOŞUDAN KOŞUYA farktır.
+#   Önceki koşuların logları okundu ve seri çıktı:
+#       28 Ağu 75 → 2 Eylül 88 → 3 Eylül 89 → 4 Eylül 159
+#   3 Eylül ↔ 4 Eylül farkı:
+#       YENİ 71 · GİDEN 1
+#         bu koşuda İLK ÇİZİLEN beş dosyadan : 61   (%86)
+#         ESKİDEN de çizilen dosyalardan     : 10
+#   ⇒ Büyüme neredeyse BÜTÜNÜYLE yeni çizilen kıtalar. Ve kalan 10'un çoğu
+#     da Amerika (`Cahokia` · `New Orleans` · `Antequera (Oaxaca)`,
+#     `yerlesimler_amerika.js` — ESKİ dosya ama YENİ komşuları var).
+#     Aynı sebep, farklı dosya.
+#   📌 *"Yarısı açıklanamadı"* bir kusur değil, benim YANLIŞ EVRENİMDİ.
+#     `§11`in "ölçüm doğru, evren dar" dersi — bu sefer ters yönde: evren
+#     GENİŞ değil ESKİYDİ.
 #
-# 🔴 VE ÜÇ AD KAYBOLDU — liste yalnız BÜYÜMEDİ, KÜÇÜLDÜ DE:
-#     Cetinje · Vladikavkaz · Yeni Ürgenç
-#   Bunlar eski beyaz listedeydi, bu koşuda kuşatılmış ÇIKMADILAR.
-#   ⚠️ Yalnız EKLEYEN bir tazeleme bunu GİZLERDİ. Küçülme de bir sinyal:
-#   bir devir kayboluyorsa ya veri değişti ya komşuluk — ikisi de
-#   bilinmeye değer. Bu da ÖLÇÜLMEDİ, açık kalem.
+# 🔴 VE "ÜÇ AD KAYBOLDU" DA YANLIŞTI: bu koşuda giden BİR ad —
+#     Port of Spain (Puerto de España).
+#   `Cetinje` · `Vladikavkaz` · `Yeni Ürgenç` eski beyaz listedeydi ama
+#   3 Eylül koşusunda ZATEN yoktular; daha önce düşmüşler. Onları bu
+#   koşuya yazmak yanlış bir sebebi kayda geçirirdi.
+#   ⚠️ Küçülme yine de bir sinyal ve kaydı duruyor: bir devir kaybolursa
+#   ya veri ya komşuluk değişmiştir. `Port of Spain`in niçin düştüğü
+#   ÖLÇÜLMEDİ — açık kalem, ama ARTIK TEK BİR AD.
 #
 # 📌 Sabit bir HEDEF değil bir FOTOĞRAF (`BEKLENEN_ENKLAV_SORGU` ile aynı
 #   sınıf): büyüme kusur değil, kusur bir devrin SESSİZ gelmesidir.
