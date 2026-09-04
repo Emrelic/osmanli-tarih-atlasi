@@ -740,9 +740,171 @@ tek bir üyesiydi.
     NEREDEN: donemler.js PETEKLER · ADET (aynı betik: peteksiz.js)
 ```
 
+## ⑤b EK 3 bu bölümün "kapsama" ve "kenar" sayılarını YENİDEN ÖLÇÜYOR — aşağıya bak
+
 ## ⑤ EK 2'NİN ÖLÇÜLEMEDİKLERİ
 ```
 · Osmanlı havuzunun (donemler.js o/v) kendi içinde ve yabancılarla örtüşmesi.
 · Yabancı-yabancı örtüşmelerin kaçının KASITLI metbû-tâbi olduğu.
 · 1500/1700 için ALAN ayrımı (dikiş / kenar / kapsama) — yalnız 1281 Avrupa'da var.
+```
+
+---
+
+# EK 3 — R14: KIYI KENARI AİLESİ
+
+## 🔴 ÖNGÖRÜLER — ölçümden ÖNCE, dört alanla (① ne · ② mazeret · ③ nereden+birim · ④ hangi koşuda neye karşı)
+
+```
+Ö10 GÖRÜNÜRLÜK. 8 km'lik bir şerit, MapLibre'nin 512 px döşeme kuralıyla
+    (m/px = 40.075.017 × cos φ ÷ (512 × 2^z)), φ=52° için:
+        z4 ≈ 2,7 px · z5 ≈ 5,3 px · z6,5 ≈ 14 px · z8 ≈ 42 px
+    ① BEKLİYORUM: z≤4'te görünmez, z≥6'da açıkça görünür.
+    ② MAZERET YOK — bu saf aritmetik.
+    ③ NEREDEN: hesap; ayrıca Emre'nin görsellerinin alt şeridindeki z değeri
+       (H-0001-8 z6,5 · H-0001-9 z6,4 · H-0003-1 z5,3) DOĞRULAMA olarak.
+    ④ Koşu bunu DEĞİŞTİRMEZ; ölçüm koşudan bağımsız.
+
+Ö11 🔴 EN ÖNEMLİSİ — KENDİ TABANIMDAN ŞÜPHELENİYORUM.
+    EK 1'de "boyasız" alanı ham `ne_10m_land` üzerinden ölçtüm. Oysa motorun
+    kendi karası: ne_10m_land ∩ BOLGE → simplify(KARA_TOL=0,002) → 705 GÖL
+    ÇIKARILMIŞ (uret_petek.py:460-521).
+    ⇒ Benim "boyanmamış kara" dediğim alanın bir kısmı GÖL olabilir; göller
+      motorun BİLEREK çıkardığı yerlerdir, kusur değildir.
+    ① BEKLİYORUM: motorun kendi kara tanımıyla ölçülünce
+        · KAPSAMA ailesi (127.232 km²) ≥%40 KÜÇÜLECEK — Ladoga ve Onega'nın
+          benim listemde olduğundan şüpheleniyorum (29,8-32,9D/59,9-61,8K ve
+          33,9-36,5D/60,9-62,9K kutuları tam onlar)
+        · KENAR ailesi (85.765 km²) ≥%30 küçülecek (küçük göller · delta)
+        · DİKİŞ ailesi (15.526 km²) <%10 değişecek — dikişler İÇ BÖLGEDE
+    ② MAZERET YOK. Tuttuğu kadarı benim EK 1 ölçümümün bir kısmını çürütür
+       ve bunu ölçmeden yazıyorum.
+    ③ NEREDEN: kendi hesapladığım KARA (ne_10m_land − GOLLER) · km²
+    ④ Koşu bunu DEĞİŞTİRMEZ (girdi maskesi ve göl dosyası aynı).
+
+Ö12 SEBEP. Kenar ailesinin kalanı için dört aday vardı; ikisini ŞİMDİDEN
+    eleyebiliyorum ve gerekçesini yazıyorum:
+        · yuvarlama (3 ondalık ≈ 111 m) → km ölçeğini AÇIKLAYAMAZ, ELENDİ
+        · KARA_TOL (0,002° ≈ 220 m)     → km ölçeğini AÇIKLAYAMAZ, ELENDİ
+    ⇒ Kalan iki aday: (a) kıyı/ada peteklerinin hiç doğmaması (nokta yokluğu)
+      (b) A1 alan koruyan tavanın kıyıda kesmesi.
+    ① BEKLİYORUM: (a) baskın çıkacak — kalan kenar alanının çoğu, en yakın
+       yerleşimi 100 km'den uzak kıyı kesimleri olacak.
+    ② MAZERET VAR: ikisi birlikte de çalışabilir; ayrıştıramazsam öyle yazarım.
+    ③ NEREDEN: kalan kenar parçalarının temsilî noktalarından en yakın
+       yerleşim mesafesi · km
+    ④ Koşu BUNU DEĞİŞTİRİR: 1.072 yeni nokta beş kıtaya iniyor. Avrupa'da
+       az değişmesini bekliyorum (o beş dosya Avrupa değil).
+```
+
+## ① NE ÖLÇTÜM
+
+### Ö11 — ve ÖLÇÜM SIRASINDA KENDİ TABANIMI BİR KEZ DAHA DÜZELTTİM
+
+🔴 **İlk denemede yine yanlış taban kurdum ve fark ettim:** motorun göl kümesini
+`data/goller.js`ten okudum — o dosyada **tek kayıt** var (tarihî Aral), Avrupa'da
+sıfır göl çıktı ve sayılar hiç değişmedi. Motorun gerçek kuralı
+(`uret_petek.py:489-506`) şu: **`ne_10m_lakes` içinde alanı > 0,02 derece² olan
+göller, MODERN BARAJLAR hariç** (`Reservoir` + yıl ≥ 1900 ya da `dam_name`),
+**artı** `goller.js`. Kuralı birebir uygulayınca:
+```
+Avrupa kutusunda göl : 119.804 km² · 111 poligon  (baraj diye elenen: 23)
+```
+
+**Taban düzelince üç ailenin üçü de küçüldü:**
+```
+                      EK 1 (ham ne_10m_land)      EK 3 (MOTORUN KARASI)
+BOYASIZ TOPLAM        236.146 km²                 124.901 km²      −47%
+① DİKİŞ                15.526 km² ·   95 parça      9.046 km² ·   96   −42%
+② KENAR                85.766 km² · 2159 parça     36.345 km² · 2625   −58%
+③ KAPSAMA             127.232 km² ·   19 parça     70.528 km² ·   11   −45%
+```
+```
+Ö11 ① KAPSAMA ≥%40 küçülecek    → TUTTU (−45%). Ladoga ve Onega gerçekten
+      benim listemdeydi; ikisi de motorun BİLEREK çıkardığı göller.
+Ö11 ② KENAR ≥%30 küçülecek      → TUTTU (−58%)
+Ö11 ③ DİKİŞ <%10 değişecek      → 🔴 ÇÜRÜDÜ. Dikiş de %42 küçüldü.
+      SEBEBİ: "iki gövdeye değen ince şerit" ölçütüm GÖL KIYILARINI da
+      yakalıyordu — iki devlet arasındaki bir göl, tam bir dikiş gibi görünür.
+      En büyük "dikiş"im (2.131 km², altinorda+ceneviz, 33,7·45,3) Sivaş
+      lagünüydü. Yani dikiş sayım da şişkindi.
+```
+📌 **Ders:** *"boyanmamış kara"* demek için önce **motorun karayı nasıl
+tanımladığını** bilmek gerekiyor — ve bu, EK 1'de kendi yazdığım
+*"`motor_kara` ile `ne_10m_land`i karıştırma"* uyarısının **bir kademe
+derini**: doğru dosyayı seçmek yetmiyor, o dosyaya motorun **ne yaptığını** da
+uygulamak gerekiyor.
+
+### Ö10 — GÖRÜNÜRLÜK (saf aritmetik, MapLibre 512 px döşemesi, φ=52°)
+```
+genişlik      z4      z5    z6,5      z8
+  2 km      0,7 px  1,3 px   3,8 px  10,6 px
+  4 km      1,3     2,7      7,5     21,2
+  8 km      2,7     5,3     15,0     42,5
+ 20 km      6,6    13,3     37,6    106,2
+```
+*(`js/app.js`in `kmDanZoom`u kullanılmadı — 256 px sabiti taşıyor ve iki kat
+yanılıyor; koordinatörün uyarısı doğruydu, kendim hesapladım.)*
+
+### 🔴 VE ASIL CEVAP — GENİŞLİK DAĞILIMI İKİ AİLEYİ TERS AYIRIYOR
+```
+KENAR ailesi (36.345 km²)                     DİKİŞ ailesi (9.046 km²)
+ 0-1 km  2457 parça · 29.944 km²  (%82)        0-1 km   63 parça ·  1.091 km² (%12)
+ 1-2 km   158 parça ·  4.585 km²               1-2 km   19 parça ·    751 km²
+ 2-4 km     9 parça ·  1.331 km²               2-4 km    8 parça ·  3.105 km²
+ 4-8 km     1 parça ·    484 km²               4-8 km    6 parça ·  4.099 km² (%45)
+```
+```
+KENAR : kütlenin %82'si 1 km'DEN İNCE  ⇒ z6,5'te ~0,9 px · z5'te ~0,3 px
+DİKİŞ : kütlenin %80'i 2-8 km bandında ⇒ z6,5'te 5,6-11,3 px
+```
+
+## ② NE ÇIKARDIM
+
+🟢 **Koordinatörün sorduğu soru işi ikiye böldü ve cevabı NET: KENAR AİLESİ
+BİR KUSUR DEĞİL, GÖRÜNMEZ BİR ARTEFAKT.**
+82'si yüzde bir pikselin altında; ekranda **hiç oluşmuyor.** Emre'nin
+gördüğü ve fotoğrafladığı şey **dikiş ailesi** — kütlesi tam da görünür
+bantta (5-11 px) duran aile.
+
+🔴 **Ve bu, EK 1'deki kendi vurgumu TERSİNE ÇEVİRİYOR.** Orada *"kıyı kenarı
+dikişten 5,5 KAT büyük"* diye yazmış ve önceliği ona vermiştim. Düzeltilmiş
+ölçüm: kenar dikişten **4 kat** büyük **ama görünür kısmı dikişin YİRMİDE
+BİRİ**. ⇒ **Öncelik ölçüsü ALAN değil GÖRÜNÜR ALAN olmalıydı.**
+📌 `§11`in *"ölçüm doğru, çıkarım yanlış"* ailesinin bu paketteki ikinci
+vakası, ve ikisi de bende.
+
+**Ö12 — kalan kenar alanının sebebi:** en büyük beş parça **Faroe Adaları**
+(-6,5…-7,2D · 61,5-62,3K), en yakın yerleşim **341-390 km.** Yani nokta yok,
+petek doğmamış. İlk 40 parçanın 10'unda en yakın nokta >100 km, ortanca 42,6 km.
+⇒ **(a) kıyı/ada peteklerinin hiç doğmaması baskın.** (b) A1 tavanı ayrıca
+çalışıyor olabilir; **ayrıştırmadım.**
+🟢 Ve iki aday ölçmeden ELENDİ, gerekçesiyle: yuvarlama (111 m) ve `KARA_TOL`
+(220 m) **km ölçeğini açıklayamaz** — ikisi de bir mertebe küçük.
+
+## ③ REÇETE
+
+```
+R14 (DÜZELTİLDİ) — "sebebini ara" DEĞİL, "KAYDA GEÇ ve GEÇ":
+   Kenar ailesi (36.345 km², %82'si <1 km) EKRANDA YOK. Motor işi AÇILMAZ.
+   Yapılacak tek şey: `§11` gereği KAYIT — bir sonraki oturum bunu yeniden
+   "keşfedip" iş sanmasın.
+   ⚠️ TEK İSTİSNA: Faroe Adaları gibi 4+ km'lik parçalar (1 parça, 484 km²)
+      görünür (z6,5'te 11 px) ve sebebi NOKTA YOKLUĞU ⇒ VERİ işi, motor işi
+      değil. Halka sırasına göre (ONCELIK.md) sırası gelince nokta yazılır.
+R15 Dikiş nöbetçisinin ölçütü GÖLDEN ARINDIRILSIN: "iki gövdeye değen ince
+   şerit" testi göl kıyılarını da yakalıyor (Sivaş vakası). Nöbetçi, motorun
+   KARA maskesini kullanmalı — ham `ne_10m_land`i değil.
+   TEST: 1281 Avrupa dikiş 96 parça / 9.046 km² (şişkin 15.526 DEĞİL)
+```
+
+## ④ 🟡 EK 3'ÜN ÖLÇÜLEMEDİKLERİ
+```
+· Kenar ailesinde (b) A1 tavanının payı — (a) nokta yokluğundan ayrıştırılmadı.
+· 5 km² altındaki 10.314 parça hâlâ ölçülmedi (eşiğin altı).
+· Ölçüm yine yalnız 1281 · AVRUPA. Öteki kıtalarda kenar/dikiş oranı bilinmiyor
+  ve 1.072 yeni nokta oralara iniyor ⇒ koşudan sonra AYNEN TEKRARLANMALI.
+· Görünürlük hesabı düz Mercator piksel hesabıdır; MapLibre'nin gerçek
+  render'ında antialiasing ve kenar çizgisi (`serbest kenar` katmanı) ince
+  şeritleri GÖRÜNÜR kılabilir. Ekrandan doğrulanmadı.
 ```
