@@ -72,22 +72,23 @@ gerekir. Projenin bütün kalite kuralları (§3) bu tek cümleden türer.
 
 | Katman | Ölçülen durum |
 |---|---|
-| Yerleşim (motorun okuduğu) | **3802** nokta, 77 girdi dosyası |
+| Yerleşim (motorun okuduğu) | **3805** nokta, 77 girdi dosyası |
 | Kronoloji | **1293** madde · 1238 duygu etiketli · 1196 `yer_id` · 28 `vefat_id` |
-| Değişmez 1 — sahipsizlik | ✓ 3802 yerleşim, 315 sahipsiz (beklenen 315) |
+| Değişmez 1 — sahipsizlik | ✓ 3805 yerleşim, 315 sahipsiz (beklenen 315) |
 | Değişmez 1b — iç boşluk | ✓ BEYANSIZ pencere arası boşluk: 0 (beklenen 0) · beyanlı 5/5 — tam tarama |
 | Değişmez 2 — Osmanlı senkronu | ✓ 536 kırılma, 0 açık (beklenen 0) |
-| Değişmez 2s — yabancı senkron | ✓ 1326 YABANCI kırılması · 101 AÇIK (tavan 121) · 364 KAPSAM DIŞI |
+| Değişmez 2s — yabancı senkron | ✓ 1327 YABANCI kırılması · 101 AÇIK (tavan 121) · 364 KAPSAM DIŞI |
 | Değişmez 2i — işgal senkronu | ✓ 26 İŞGAL kırılması, 3 açık (tavan 3) |
 | Değişmez 2t — kırılmasız madde | ✓ kırılmasız madde: 12 (tavan 42) — bilinen borç |
 | Konum denetimi | 0 nokta kara maskesinin dışında (beklenen 0) |
-| Devletler dizini | **591** künye · **407** renk (`renkler.py`) |
+| Devletler dizini | **591** künye · **550** renk (`renkler.py`) |
 | Dizinsiz harita kimliği | ✓ **0** kimlik / 0 pencere karşılıksız · *kapsam: `girdi.py`nin okuduğu 77 dosya, `s:`+`isg:` alanları — bağlanmamış partiler HARİÇ* |
 | Kasıtlı boşluk kimliği | 🟡 **1** kimlik / 2 pencere · *`__BOSLUK__` — hiçbir künyenin kapsamadığı dilim; en yakın kimliğe İTİLMEDİ (`§3.5.1`). Kusur değil, BEYAN* |
 | Renkli-künyesiz kimlik | ✓ **0** çiziliyor ama dizinsiz · *kapsam: `renkler.py` BOYALAR − (künye `id` ∪ `harita:`)* |
+| Renksiz künye — HARİTA DELİĞİ | ✓ **0** kimlik veride kullanılıyor ama BOYANMIYOR · 🟡 32 sessiz borç (künye var, veride yok) · *kapsam: künye `id` ∪ veride kullanılan − BOYALAR(`harita:` varsa o) · `__BOSLUK__` muaf* |
 | Padişah · kartvizit | 41 kayıt · 36 portre · **41** kartvizit dolu |
 | Harita penceresi | `box(-180, -60, 180, 85)` |
-| Yayın | **r5546** · `724e76c` |
+| Yayın | **r5633** · `1a69abb` |
 
 > ⚙️ **BU TABLO ELLE YAZILMAZ — ÜRETİLİR.**
 > ```bash

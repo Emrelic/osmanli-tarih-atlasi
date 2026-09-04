@@ -2099,7 +2099,18 @@ D7_ADA_MUAF = frozenset((
 #    FOTOGRAF. Dunya yerlesim programi surerken her parti onu buyutur.
 #    Buyume KUSUR DEGIL — kusur, bir enklavin koridoru SORULDUGU HALDE
 #    cevapsiz kalmasidir, ki onu bu sayac OLCMEZ.
-BEKLENEN_ENKLAV_SORGU = 639
+BEKLENEN_ENKLAV_SORGU = 642
+# 🟢 639 -> 642, 4 EYLUL 2026 — ve buyume TAHMIN EDILMEDI, ADIYLA OLCULDU.
+#    Fotografi kaydirmadan once "hangi UC" diye soruldu ve ucu de bulundu:
+#       1466-10-19  Elbing (Elbląg) -> lehistan   239 km
+#       1466-10-19  Torun (Toruń)   -> lehistan   184 km
+#       1920-01-18  Torun (Toruń)   -> polonya    184 km   <- Torun IKI kayit
+#    Ikisi de `93eed29`de indi (yerlesim 3803 -> 3805, kosu 4 oncesi son
+#    ekleme). Yani +3'un kaynagi tek bir commit ve iki nokta.
+#    📌 Ve bu, yukaridaki "buyume KUSUR DEGIL" cumlesinin KULLANIM
+#    talimati: sabit kaydirilabilir, ama ancak farkin NEREDEN geldigi
+#    gosterildikten sonra. Gerekcesiz kaydirilan bir tavan, gercek bir
+#    gerilemeyi sessizce yutar (`§11`: "tavan gevsek" dalinin aynasi).
 # 🟢 IKINCI ONGORU KARSILASTIRMASI — DUNYA-AFRIKA-0903, 3 Eylul 2026 22:0x
 #    Dosyasi baglanmadan ONCE yazdi: `640, bant 615-665`. Olcum: 639.
 #    Merkezinden BIR govde sapti — ve bunu Voronoi komsulugunu BILMEDEN,
