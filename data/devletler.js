@@ -37,11 +37,21 @@
 //               yoksa alan hiç yazılmaz. Kaynak: oturumlar/ARABISTAN-
 //               DUZELTMELER.md §AJ/§AK (ARAŞTIRMA ARABİSTAN'ın tablosu).
 //   ozet      : 1-2 cümlelik tanım
-//   kronoloji : [{ t, tur, b }] — tur: kurulus | hukumdar | toprak-kazanc |
-//               toprak-kayip | savas | antlasma | bolunme | birlesme |
-//               ittifak | isyan | isgal | son
+//   kronoloji : [{ t, tur, b, kaynak? }] — tur: kurulus | hukumdar |
+//               toprak-kazanc | toprak-kayip | savas | antlasma | bolunme |
+//               birlesme | ittifak | isyan | isgal | son
 //               b: kısa başlık (SAVASLAR/ANTLASMALAR dizini kadar yoğun,
 //               ayrıntılı anlatım değil — bu bir dizin, olaylar*.js değil)
+//               kaynak: 🆕 4 Eylül 2026 — maddenin DAYANAĞI (TDV slug ya da
+//               akademik künye). `§4`ün "kaynağı yazılmayan bilgi, kaynağı
+//               olmayan bilgiden ayırt edilemez" kuralının madde ekseni.
+//               ⚠️ ESKİ maddelerde YOK ve bu bir kusur değil bir SINIR.
+//               KÜRESEL ölçüm (4 Eylül, 591 künyenin tamamı):
+//                  toplam madde 2180 · kaynak taşıyan 200 · taşımayan 1980
+//               (dokunulan 56 künyenin içi: 272 madde · 200 kaynaklı · 72 değil
+//                — bu DAR evrendir, küresel oranla KARIŞTIRMA)
+//               "kaynaksız" demek "dayanaksız" DEMEZ, "dayanağı bu alana
+//               yazılmamış" demektir. İkisi ayrı şeydir.
 // Not: Osmanlı'nın kendi olay/savaş/antlaşma kronolojisiyle çakışan maddeler
 // (ör. Çaldıran, Karlofça) burada da kısaca tekrar edilir çünkü bu dizin
 // HER DEVLETİN kendi tarihini tek yerden okunabilir kılmak için var.
@@ -2406,7 +2416,9 @@ window.DEVLETLER = [
   f:"1281-01-01", t:"1883-01-01", baskent:"—",
   ozet:"Pampa'nın batısında, Salinas Grandes ile Río Negro arasında yaşayan Ranquel konfederasyonu; 1725'ten sonra pampalara yerleşen Araukanya kökenli boyların en güçlüsü ve Buenos Aires sınır hattının başlıca muhatabı. Toldo yerleşimleri ve at sürülerine dayanan bir sınır ekonomisi kurdular; Arjantin devletiyle hem antlaşma hem akın ilişkisi sürdürdüler. Generaller Julio Roca ve Conrado Villegas'ın 1879-83 seferleri konfederasyonu dağıttı ve pampa yerlisinden neredeyse tümüyle boşaltıldı. Kütük halkı ADIYLA değil TASVİRİYLE anıyor ('the Indian confederates'); kimlik o tasvirden türetildi ve bitiş yılı seferlerin sona erdiği 1883'tür, GÜN bilinmiyor.",
   kaynak:"Cooper, Handbook of South American Indians c.1 (Smithsonian BAE Bulletin 143): \"The period came to an end with the military campaigns under Generals Julio Roca and Conrado Villegas in 1879-83, which completely defeated and disorganized the Indian confederates, cleared the Pampa region almost entirely of its Indian inhabitants ... Recent period, 1883 to date.\" ⚠️ Kütük \"Ranquel\" adını KULLANMIYOR, \"the Indian confederates\" diyor — kimlik TASVİRDEN türetildi. GÜN bilinmiyor; 1883 seferlerin BİTİŞ yılıdır. ⚠️ f:1281-01-01 ATLAS UFKUDUR, kuruluş yılı DEĞİLDİR. TDV'de ayrı madde yoktur; Handbook of South American Indians (Julian H. Steward ed., Smithsonian Institution, Bureau of American Ethnology, Bulletin 143) esas alınmıştır.",
-  kronoloji:[]
+  kronoloji:[
+          { t:"1879-01-01", tur:"son", b:"Col Fethi son buyuk yerli direnisini kirdi", kaynak:"EB-AR/PAT — AYNEN: «…a campaign known as the Conquest of the Desert, which ended in 1879 with the smashing of the last major Indian resistance. Argentines, Chileans, and Europeans began to colonize Patagonia, with soldiers and financial contributors to the Indian wars receiving large land grants»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI.  🔴 KUNYE ILE AYRISIYOR: kunyenin t: degeri 1883, kaynak 1879 diyor. Kunye DEGISTIRILMEDI, fark koordinatore BILDIRILDI.  ⚠️ KAYNAGIN PROVENANSI: bu alinti Britannica'nin 'Conquest of the Desert' SAYFASINDA gorunuyor, ama o sayfanin ozeti YAPAY ZEKA URETIMI oldugunu KENDISI YAZIYOR ve olcutun kirmizi cizgisi YZ metnini YASAKLIYOR. Alintiladigim bolum sayfanin YZ ozeti DEGIL, altinda kaynak olarak gosterilen GERCEK Britannica 'Argentina / Patagonia' maddesinden yapilan aynen aktarmadir." }
+        ]
 },
 { id:"charrua", ad:"Charrúa (Minuan · Guenoa)", tur:"devlet", bolge:"guney-amerika",
   f:"1281-01-01", t:"1831-01-01", baskent:"—",
@@ -2418,7 +2430,11 @@ window.DEVLETLER = [
   f:"1609-01-01", t:"1767-01-01", baskent:"—",
   ozet:"Paraná ile Uruguay nehirleri arasında, bugünkü Paraguay · Arjantin · Brezilya · Uruguay topraklarına yayılan otuz Cizvit pueblosu; 1609'da San Ignacio Guazú ile başladı ve zirvesinde yüz binden fazla Guaraní'yi kendi meclisleri, atölyeleri, okulları ve milisleriyle yöneten özerk bir misyon düzeni kurdu. São Paulo'lu mameluco köle akınlarına karşı silahlandılar ve 1750 Madrid Antlaşması'nın devrettiği Yedi Halk yüzünden İspanya-Portekiz ortak ordusuyla savaştılar. Düzen bir yerli yenilgisiyle değil bir KRALLIK FERMANIYLA bitti: III. Carlos'un 1767 tarihli Pragmática Sanción'u Cizvitleri bütün İspanyol topraklarından sürdü. Bitiş yılı kaynaklı, GÜN ÇELİŞKİLİ — fermanın tarihi için 27 Mart, 2 Nisan ve 5 Nisan 1767 görülmüştür.",
   kaynak:"İlk misyon San Ignacio Guazú 1609. Bitiş bir İSPANYA KRALLIK FERMANIDIR (Pragmática Sanción, Carlos III) — bir etnografya değil bir HUKUK metni; HSAI onu yalnız DOLAYLI anıyor (\"In 1767, the Jesuits were expelled\", Chiquitos bağlamında). Akademik dayanak: Magnus Mörner, \"The Expulsion of the Jesuits from Spain and Spanish America in 1767 in Light of Eighteenth-Century Regalism\", The Americas 23(2) — özeti okundu, 1767 yılını veriyor, GÜN VERMİYOR. 🔴 GÜN ÇELİŞKİLİ: fermanın tarihi için 27 Mart · 2 Nisan · 5 Nisan 1767 görüldü. Çelişki SAKLANMADI. 🟢 f:1609 GERÇEK bir kuruluş yılıdır (ilk pueblo), atlas ufku DEĞİL. TDV'de ayrı madde yoktur; Handbook of South American Indians (Julian H. Steward ed., Smithsonian Institution, Bureau of American Ethnology, Bulletin 143) esas alınmıştır.",
-  kronoloji:[]
+  kronoloji:[
+          { t:"1721-01-01", tur:"isyan", b:"Asuncion toprak sahipleri Cizvit ticaret ve emek tekeline karsi ayaklandi", kaynak:"EB-PY — AYNEN: «In the period 1721–35 the latter waged a struggle to overthrow the Jesuit monopoly of Indian trade and labour»  ⚠️ TARIH HASSASIYETI: kaynak bir ARALIK veriyor (1721-35); baslangic yili alindi, GUN VE AY BULUNAMADI." },
+          { t:"1754-01-01", tur:"savas", b:"Birlesik Ispanyol-Portekiz saldirisi misyon topraklarini bolmeye calisti", kaynak:"EB-PY — AYNEN: «the settlements also had to defend themselves against slave raiders from São Paulo and, in 1754–57, a combined Spanish-Portuguese attack that was designed to enforce a territorial partition of the mission settlements»  ⚠️ TARIH HASSASIYETI: kaynak bir ARALIK veriyor (1754-57); baslangic yili alindi, GUN VE AY BULUNAMADI." },
+          { t:"1767-01-01", tur:"son", b:"Cizvitler kovuldu, otuz reduccion terk edildi", kaynak:"EB-PY — AYNEN: «Defiance of such powerful groups paved the way for the expulsion of the Jesuits in 1767. The settlements were abandoned; the Indians were absorbed by either the landed estates or the jungle; the settlements fell into ruin; and economic activity ceased»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI." }
+        ]
 },
 { id:"arua", ad:"Aruã (Marajó)", tur:"devlet", bolge:"guney-amerika",
   f:"1281-01-01", t:"1836-01-01", baskent:"—",
@@ -2522,6 +2538,13 @@ window.DEVLETLER = [
   kaynak:"gine — TDV gövdesi bu turda okundu. TDV gine: 'Ture din temelli merkezî bir devlet kurdu'; başkenti Bisandugu; Fransız fethi 1898.",
   kronoloji:[
     { t:"1878-01-01", tur:"kurulus", b:"Samori Ture devleti kurdu" },
+    { t:"1881-01-01", tur:"savas", b:"Fransızlarla ilk savaş başladı", kaynak:"TDV `samori-ture` (200, gövde okundu) — «İlk savaş: 1881»; ertesi yıl «1882: büyük direniş gösterdi»." },
+    { t:"1883-01-01", tur:"toprak-kayip", b:"Fransızların Bamako'yu işgali önlenemedi", kaynak:"TDV `samori-ture` — «1883: Bamako işgali önlenemedi»; Britannica ('Samory') aynı yılı veriyor: «when they occupied Bamako on the Niger River»." },
+    { t:"1886-01-01", tur:"antlasma", b:"Mart 1886'daki ilk antlaşmayla Bure bölgesi Fransızlara bırakıldı", kaynak:"TDV `samori-ture` — «Mart 1886: ilk anlaşmayla Bure bölgesini Fransızlara bıraktı»; öncesinde «1885: Bure'de büyük kayıp verdi». Britannica bağımsız olarak «After the French carried out a successful offensive in 1886, Samory accepted their protection with the Niger as his frontier» diyor." },
+    { t:"1887-01-01", tur:"antlasma", b:"İkinci antlaşmayla Nijer'in batı yakası Fransızlara bırakıldı", kaynak:"TDV `samori-ture` — «Bir yıl sonra ikinci antlaşmada Nijer'in batı yakasını Fransızlar'a bırakmayı kabul etti»." },
+    { t:"1887-01-01", tur:"savas", b:"Sikasso kuşatması başladı; on beş ay süren kuşatma Kenedugu kralı Tiéba Traoré tarafından püskürtüldü", kaynak:"TDV `samori-ture` — «1887 tarihinde Sikasso kuşatmasını başlattı»; Journal of African History (hakemli) ve Britannica ('Sikasso') süreyi veriyor: «lasting fifteen months from March 1887 to June 1888 … The Fàama of Sikasso, Tiéba Traoré, was able to repel Samori»." },
+    { t:"1889-02-13", tur:"antlasma", b:"Fransızlarla son antlaşmayı imzaladı", kaynak:"TDV `samori-ture` — AYNEN «13 Şubat 1889: Son antlaşmayı imzaladı». GÜN HASSASİYETİ KAYNAKTAN GELİYOR." },
+    { t:"1891-01-01", tur:"savas", b:"Fransızlarla yeniden savaşa tutuştu", kaynak:"TDV `samori-ture` — «1891: yeniden savaşa tutuştu»; Britannica bağımsız olarak «he renewed his war with the French in 1891» diyor." },
     { t:"1898-09-29", tur:"son", b:"Samori esir alındı, devlet dağıldı" }
   ]
 },
@@ -2540,7 +2563,9 @@ window.DEVLETLER = [
   kaynak:"mali — TDV gövdesi bu turda okundu. TDV mali: 'Segu — önemli bir Bambara krallığı merkezi; el-Hâc Ömer 1861'de fethetti.' Kaarta kolu Nioro merkezli, 1854'te düştü. İkisi TEK HALKtır — tanecik: halk.",
   kronoloji:[
     { t:"1650-01-01", tur:"kurulus", b:"Biton Kulibali Segu krallığını kurdu" },
-    { t:"1861-03-10", tur:"son", b:"el-Hâc Ömer Segu'yu aldı" }
+    { t:"1854-11-11", tur:"toprak-kayip", b:"Kaarta kolu el-Hâc Ömer Tal'in eline geçti ve İslâm devleti hâline getirildi", kaynak:"TDV `el-hac-omer` — «Kaarta 11 Kasım 1854'te İslâm devleti olarak kuruldu». Künye adı «Bambara Krallıkları (Segu ve Kaarta)» olduğu için bu, Kaarta kolunun kaybıdır." },
+    { t:"1861-03-10", tur:"son", b:"el-Hâc Ömer Segu'yu aldı" },
+    { t:"1861-03-10", tur:"savas", b:"Segu, el-Hâc Ömer Tal'in ordusuna karşı savunmada düştü ve Bambara krallığı ortadan kaldırıldı", kaynak:"TDV `mali` (künyenin kendi kaynağı) — «el-Hâc Ömer 1861'de fethetti», gün künyenin `t:` değerinden (1861-03-10); TDV `el-hac-omer` «Segu: 1861 başı — Bambara krallığı ortadan kaldırıldı» diyerek doğruluyor." }
   ]
 },
 { id:"kenedugu", ad:"Kenedugu Krallığı (Sikasso)", tur:"krallik", bolge:"bati-afrika",
@@ -2549,6 +2574,7 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Senufo krallığı; Tieba ve Babemba dönemi; Fransız fethi 1898.",
   kronoloji:[
     { t:"1650-01-01", tur:"kurulus", b:"Traore hânedanı krallığı kurdu" },
+    { t:"1887-01-01", tur:"savas", b:"Kral Tiéba Traoré, Samori Ture'nin on beş ay süren Sikasso kuşatmasını üç sıra surlu kale sayesinde püskürttü", kaynak:"Journal of African History (hakemli) ve Britannica ('Sikasso') — «During Samory's unsuccessful siege—lasting fifteen months from March 1887 to June 1888—Sikasso had three concentric enclosures. The Fàama (king) of Sikasso, Tiéba Traoré, was able to repel Samori»; TDV `samori-ture` kuşatmanın 1887'de başladığını doğruluyor." },
     { t:"1898-05-01", tur:"son", b:"Fransızlar Sikasso'yu aldı, Babemba intihar etti" }
   ]
 },
@@ -2612,6 +2638,7 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Akan krallığı; merkezi Bondugu.",
   kronoloji:[
     { t:"1690-01-01", tur:"kurulus", b:"Abron hânedanı krallığı kurdu" },
+    { t:"1818-01-01", tur:"savas", b:"Aşanti orduları Asantehene Osei Bonsu önderliğinde Gyaman'ın Abron hânedanına karşı savaşa girişti", kaynak:"Encyclopaedia Britannica, 'Asante empire' ve 'Osei Bonsu' — «the Asante engaged in war against the Abron of Gyaman (today in the eastern Côte d'Ivoire) in 1818–19 under Asantehene Osei Bonsu»." },
     { t:"1895-01-01", tur:"son", b:"Fransız himayesine girdi" }
   ]
 },
@@ -3116,6 +3143,8 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Changamire Dombo'nun devleti; merkezi Danangombe; Ngoni akınları 1834.",
   kronoloji:[
     { t:"1684-01-01", tur:"kurulus", b:"Changamire Dombo imparatorluğu kurdu" },
+    { t:"1684-01-01", tur:"toprak-kazanc", b:"Changamire Dombo I en verimli ve maden bakımından en zengin bölgeleri fethederek imparatorluğun çekirdeğini kurdu", kaynak:"Encyclopaedia Britannica, 'Changamire dynasty' — «Changamire Dombo I (1684–95) conquered some of the most fertile and mineral-rich areas»." },
+    { t:"1693-01-01", tur:"savas", b:"Changamire orduları Portekizlileri iç bölgelerdeki bütün karakollarından ve Zambezi vadisindeki pazarlarından sürdü", kaynak:"Encyclopaedia Britannica, 'Changamire dynasty' — «From 1693 to 1695 the Changamire empire drove the Portuguese from all their stations in the interior»; 'Changamire Dombo I' — «drove the Portuguese from their marketplaces in the Zambezi River valley in the 1690s»." },
     { t:"1834-01-01", tur:"son", b:"Ngoni akınlarıyla dağıldı" }
   ]
 },
@@ -3125,6 +3154,8 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Mzilikazi 1840'ta yerleşti, Lobengula 1870'te Bulavayo'yu kurdu; İngiliz fethi 1893.",
   kronoloji:[
     { t:"1840-01-01", tur:"kurulus", b:"Mzilikazi Matabeleland'a yerleşti" },
+    { t:"1888-10-30", tur:"antlasma", b:"Kral Lobengula, Rudd İmtiyazı'nı imzalayarak krallığındaki bütün maden ve madenî cevherlerin tekelini Rhodes ve ortaklarına verdi", kaynak:"South African History Online arşivi, 'Rudd Concession by King Lobengula of Matabeleland (1888)' ve Encyclopaedia Britannica 'Lobengula' — «On 30 October 1888 King Lobengula … signed the famous Rudd concession with C.D. Rudd … in return for a thousand Martini-Henry rifles, 100,000 rounds of ammunition, £1200 annually and a steamboat with guns»; imtiyaz 1889'da İngiliz hükûmetince kabul edilip British South Africa Company'nin beratına dayanak yapıldı." },
+    { t:"1893-11-01", tur:"savas", b:"Bembesi Muharebesi'nde Matabele kuvvetleri yenildi; bu, 1893 Matabele Savaşı'nın belirleyici çarpışması oldu", kaynak:"South African History Online, 'First Matabele War' — «a frontal attack by a better organized and decisive Matabele force at Bembesi on 1 November, which was the most decisive battle of the 1893 Matabele War. Lobengula fled after the defeat at Bembesi, but not before burning his capital of Bulawayo to the ground»." },
     { t:"1893-11-04", tur:"son", b:"İngiliz Güney Afrika Şirketi krallığı yıktı" }
   ]
 },
@@ -3143,6 +3174,9 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Maroteng hânedanı; Sekhukhune 1879'da esir alındı; merkezi Tjate.",
   kronoloji:[
     { t:"1650-01-01", tur:"kurulus", b:"Maroteng hânedanı Pedi birliğini kurdu" },
+    { t:"1861-01-01", tur:"hukumdar", b:"Sekhukhune Pedi krallığının başına geçti", kaynak:"South African History Online, 'Pedi & Anglo-Pedi Wars 1876-1879' — «When Sekhukhune succeeded to the chieftainship in 1861»." },
+    { t:"1876-01-01", tur:"savas", b:"Sekhukhune'nin Pedi nüfuzunu genişletme çabaları üzerine Güney Afrika Cumhuriyeti Pedi krallığına savaş ilân etti", kaynak:"South African History Online, 'Pedi & Anglo-Pedi Wars 1876-1879' — «his attempts at expanding Bapedi influence caused the South African Republic to declare war in 1876»." },
+    { t:"1879-11-28", tur:"savas", b:"Sir Garnet Wolseley'in yönettiği taarruzda Pedi kalesi düştü ve krallığın askerî direnci kırıldı", kaynak:"South African History Online, 'Pedi & Anglo-Pedi Wars 1876-1879' — «A massive assault was made on the Bapedi stronghold on 28 November 1879; the Bapedi suffered a crushing defeat and the chief himself was captured»." },
     { t:"1879-12-02", tur:"son", b:"Sekhukhune esir alındı" }
   ]
 },
@@ -3161,6 +3195,9 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Sobhuza ve Mswati; merkezi Lobamba; İngiliz idaresi 1903.",
   kronoloji:[
     { t:"1815-01-01", tur:"kurulus", b:"Sobhuza Svazi krallığını kurdu" },
+    { t:"1820-01-01", tur:"toprak-kazanc", b:"Kral I. Sobhuza önderliğinde Svaziler kuzeye, bugünkü ülkenin ortasına çekilerek burada güçlerini pekiştirdi ve Zulu yaş-bölüğü askerî düzenini benimsedi", kaynak:"Encyclopaedia Britannica, 'History of Eswatini' — «Under King Sobhuza I, the Swazi moved north in 1820 to central Eswatini, consolidating power and adopting the Zulu age-group military system»." },
+    { t:"1860-01-01", tur:"toprak-kazanc", b:"II. Mswati döneminde krallık fetih ve asimilasyonla genişledi; halk adını bu hükümdardan aldı", kaynak:"Encyclopaedia Britannica, 'History of Eswatini' — «By 1860, they had expanded through conquest and assimilation under Mswati II, who gave his name to the nation»." },
+    { t:"1894-01-01", tur:"antlasma", b:"Britanya ile Güney Afrika Cumhuriyeti arasındaki konvansiyon, Svaziland'ın idaresini Güney Afrika Cumhuriyeti'ne bıraktı; Svaziler bu düzenlemeye başlangıçta direndi", kaynak:"Encyclopaedia Britannica, 'Eswatini — Colonial administration' — «In 1894, a convention between Britain and the South African Republic allowed the latter to assume administrative powers, although the Swazi people initially resisted this»." },
     { t:"1903-01-01", tur:"son", b:"İngiliz idaresine alındı" }
   ]
 },
@@ -3170,6 +3207,9 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Moshoeshoe'nin devleti; Thaba Bosiu; İngiliz himayesi 1868.",
   kronoloji:[
     { t:"1822-01-01", tur:"kurulus", b:"Moshoeshoe Basuto birliğini kurdu" },
+    { t:"1858-03-19", tur:"savas", b:"Oranj Hür Devleti'nin savaş ilânıyla Birinci Basotho (Senekal) Savaşı başladı", kaynak:"South African History Online, 'Basotho Wars 1858-1868'. (Aynı kaynak ikinci bir gün olarak 22 Mart 1858'i de anıyor.)" },
+    { t:"1865-01-01", tur:"savas", b:"Oranj Hür Devleti'nin taarruzuyla İkinci Basotho (Seqiti) Savaşı başladı", kaynak:"South African History Online, 'Basotho Wars 1858-1868' — «In 1865, the Orange Free State launched the Second Basotho War known in Sesotho as the Seqiti War»." },
+    { t:"1866-04-11", tur:"toprak-kayip", b:"Thaba Bosiu Barışı ile Moshoeshoe önceki kazanımlarının çoğunu Oranj Hür Devleti'ne bırakmak zorunda kaldı", kaynak:"South African History Online — «He was forced to give up most of his earlier gains at the Treaty of Thaba Bosiu in 1866»; gün (11 Nisan 1866) aynı gövdeden." },
     { t:"1868-03-12", tur:"son", b:"Moshoeshoe'nin ölümüyle İngiliz idaresine geçti" }
   ]
 },
@@ -3179,6 +3219,7 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Kok ve Vaterboer hânedanları; Griquatown · Philippolis · Kokstad.",
   kronoloji:[
     { t:"1804-01-01", tur:"kurulus", b:"Griqua yerleşimleri devlet biçimi aldı" },
+    { t:"1871-10-27", tur:"toprak-kayip", b:"Elmas tarlaları Griqualand West adıyla İngiliz toprağı ilân edildi ve Waterboer'in Griqua devleti İngiliz himayesi altına alındı", kaynak:"Encyclopaedia Britannica, 'Griqualand West' — «At a special hearing in October 1871, Robert W. Keate … found in favor of Waterboer, but the British persuaded him to request protection against his Boer rivals, and the area was annexed as Griqualand West», ilân 27 Ekim 1871." },
     { t:"1878-01-01", tur:"son", b:"Griqualand İngiliz idaresine katıldı" }
   ]
 },
@@ -3215,6 +3256,13 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. Gcaleka ve Rharhabe kolları; dokuz sınır savaşı 1779-1878.",
   kronoloji:[
     { t:"1281-01-01", tur:"kurulus", b:"Xhosa krallıkları teşekkül etti" },
+    { t:"1779-01-01", tur:"savas", b:"Zuurveld'de sığır ticareti anlaşmazlıkları yüzünden Hollandalı sömürgecilerle Xhosa şeflikleri arasında birinci sınır savaşı çıktı", kaynak:"Encyclopaedia Britannica, 'Cape Frontier Wars' — «The initial wars (1779, 1793, and 1799–1801) involved Dutch colonists and minor Xhosa chiefdoms in the Zuurveld area, driven by disputes over the cattle trade»; South African History Online, 'Eastern Cape Wars of Dispossession 1779-1878' aynı başlangıç yılını veriyor." },
+    { t:"1811-01-01", tur:"savas", b:"Dördüncü sınır savaşında İngiliz birlikleri doğu sınırında göründü ve Xhosa'yı Zuurveld'den sürdü", kaynak:"Encyclopaedia Britannica, 'Cape Frontier Wars' — «British troops appeared on the eastern frontier in 1811, in the fourth war, and drove the Xhosa from the Zuurveld»." },
+    { t:"1811-01-01", tur:"toprak-kayip", b:"Zuurveld bölgesi Xhosa elinden çıktı ve Cape sömürgesine katıldı", kaynak:"Encyclopaedia Britannica, 'Cape Frontier Wars' — «drove the Xhosa from the Zuurveld», 1811." },
+    { t:"1818-01-01", tur:"savas", b:"Beşinci sınır savaşında Ndlambe'nin ve peygamberleri Makana'nın önderliğindeki Xhosa kuvvetleri İngilizlerle çarpıştı", kaynak:"Encyclopaedia Britannica, 'Cape Frontier Wars' — «Warfare on the frontier occurred again in 1818–19, between the British and the Xhosa under Ndlambe and their prophet, Makana»." },
+    { t:"1834-01-01", tur:"savas", b:"Altıncı sınır savaşı çıktı ve savaş ilk defa Gcaleka Xhosa topraklarının içine taşındı", kaynak:"Encyclopaedia Britannica, 'Cape Frontier Wars' — «In 1834–35 fighting erupted again, and for the first time the war was carried into the territory of the Gcaleka Xhosa»." },
+    { t:"1846-01-01", tur:"savas", b:"Yedinci sınır savaşı — 'Balta Savaşı' — bir baltayı çaldığı iddia edilen bir Xhosa'yı tutuklamak üzere gönderilen İngiliz müfrezesiyle başladı", kaynak:"Encyclopaedia Britannica, 'Cape Frontier Wars' — «The seventh frontier war was called the War of the Axe because it began with a British expedition to arrest an Xhosa for stealing an axe in 1846»." },
+    { t:"1847-01-01", tur:"toprak-kayip", b:"Kaffraria bölgesi İngiliz Kaffraria tâc sömürgesi adıyla ilhak edildi", kaynak:"Encyclopaedia Britannica, 'Cape Frontier Wars' ve 'Kaffraria' — «The British later annexed the general area of Kaffraria again in December 1847, this time as the crown colony of British Kaffraria»." },
     { t:"1878-01-01", tur:"son", b:"Dokuzuncu sınır savaşıyla bağımsızlık sona erdi" }
   ]
 },
@@ -4608,7 +4656,10 @@ window.DEVLETLER = [
   kronoloji:[
     { t:"1000-01-01", tur:"kurulus", b:"Hausa şehir devletleri (Kano, Katsina, Zaria, Gobir vd.) bağımsız birimler olarak şekillendi" },
     { t:"1350-01-01", tur:"hukumdar", b:"İslâmiyet ticaret yollarıyla şehirlere yayılmaya başladı" },
-    { t:"1808-01-01", tur:"son", b:"Osman dan Fodio'nun cihad hareketi şehirleri fethedip Sokoto Halifeliği'ne kattı (bkz. [[sokoto]])" }
+    { t:"1804-06-21", tur:"savas", b:"Gobir ordusu Tabkin Kwatto'da Osman b. Fûdî'nin kuvvetlerine yenildi ve cihad karşısındaki ilk büyük kaybını verdi", kaynak:"TDV `osman-b-fudi` — «21 Haziran 1804: Tabkin Kwatto muharebesinde zafer» (kazanan taraf anlatımıyla). GÜN KAYNAKTAN." },
+    { t:"1806-01-01", tur:"toprak-kayip", b:"Zaria, Sokoto cihad kuvvetlerinin eline geçti", kaynak:"TDV `osman-b-fudi` — «1806: Zaria'nın ele geçirilmesi»." },
+    { t:"1808-01-01", tur:"son", b:"Osman dan Fodio'nun cihad hareketi şehirleri fethedip Sokoto Halifeliği'ne kattı (bkz. [[sokoto]])" },
+    { t:"1808-01-01", tur:"savas", b:"Gobir'in başşehri Alkalava düştü ve Hausa şehir devletlerinin örgütlü direnci sona erdi", kaynak:"TDV `osman-b-fudi` — «1808: Alkalava'nın fethi»; TDV `sokoto` aynı yılı bağımsız olarak veriyor." }
   ]
 },
 { id:"sokoto", ad:"Sokoto Halifeliği", tur:"devlet", bolge:"bati-afrika",
@@ -4617,8 +4668,15 @@ window.DEVLETLER = [
   kaynak:"sokoto",
   kronoloji:[
     { t:"1804-01-01", tur:"isyan", b:"Osman dan Fodio, Hausa beyliklerine karşı cihad ilan etti" },
+    { t:"1804-06-21", tur:"savas", b:"Tabkin Kwatto muharebesinde Osman b. Fûdî'nin kuvvetleri Gobir ordusunu yenerek cihadın ilk büyük zaferini kazandı", kaynak:"TDV `osman-b-fudi` (200, gövde okundu) — AYNEN «21 Haziran 1804: Tabkin Kwatto muharebesinde zafer». GÜN HASSASİYETİ KAYNAKTAN GELİYOR." },
+    { t:"1806-01-01", tur:"toprak-kazanc", b:"Zaria ele geçirildi; aynı yıl Gobir başşehri Alkalava'ya yapılan saldırı başarısız oldu", kaynak:"TDV `osman-b-fudi` — «1806: Zaria'nın ele geçirilmesi; Alkalava'ya yapılan saldırı başarısız»." },
+    { t:"1808-01-01", tur:"toprak-kazanc", b:"Gobir'in başşehri Alkalava fethedildi ve Hausa şehir devletlerinin direnci kırıldı", kaynak:"TDV `osman-b-fudi` — «1808: Alkalava'nın fethi»; TDV `sokoto` bağımsız olarak «1808: Gobir'in başşehri Alkalawa ele geçirildi» diyor." },
     { t:"1809-01-01", tur:"kurulus", b:"Sokoto başkent yapılıp halifelik resmen kuruldu" },
+    { t:"1809-01-01", tur:"toprak-kayip", b:"Bornu, Muhammed Emîn el-Kânemî'nin direnişiyle halifeliğin elinden çıktı", kaynak:"TDV `osman-b-fudi` — «1809: Bornu'nun Muhammed Emîn el-Kânemî'ye kaybedilmesi»." },
     { t:"1817-01-01", tur:"hukumdar", b:"Muhammed Bello döneminde halifelik zirvesine ulaştı" },
+    { t:"1817-04-20", tur:"hukumdar", b:"Osman b. Fûdî Sokoto'da öldü ve yerine oğlu Muhammed Bello geçti", kaynak:"TDV `osman-b-fudi` — AYNEN «3 Cemâziyelâhir 1232 (20 Nisan 1817): Osman b. Fûdî'nin ölümü», «yerine oğlu Muhammed Bello geçti». GÜN HEM HİCRÎ HEM MÎLÂDÎ OLARAK KAYNAKTAN GELİYOR." },
+    { t:"1849-01-01", tur:"bolunme", b:"Yakubu, Kebbi'de bağımsızlığını ilân ederek halifelikten ayrıldı", kaynak:"TDV `sokoto` — «1849: Yakubu Kebbi'de bağımsızlığını ilân etti»." },
+    { t:"1903-03-15", tur:"isgal", b:"İngiliz kuvvetleri Sokoto'yu işgal etti ve halifeliğin siyasî yetkisi elinden alındı", kaynak:"TDV `sokoto` — «1903: İngiliz işgali (15 Mart)»; aynı gövde 1902'de Muhammed et-Tâhir'in sultan seçildiğini, 1903'ten sonra yalnız dinî önderliğin kaldığını yazıyor. GÜN KAYNAKTAN." },
     { t:"1903-07-27", tur:"son", b:"Son sultan Muhammed Tahir İngilizlere karşı savaşırken öldürüldü, siyasi egemenlik sona erdi" }
   ]
 },
@@ -4629,7 +4687,10 @@ window.DEVLETLER = [
   kronoloji:[
     { t:"1701-01-01", tur:"kurulus", b:"Osei Tutu, Denkyira'yı yenerek Aşanti Birliği'ni kurdu" },
     { t:"1824-01-01", tur:"savas", b:"Birinci Anglo-Aşanti Savaşı'nda İngiliz valisini yendi" },
+    { t:"1826-01-01", tur:"savas", b:"Aşanti baskısı altındaki Fante ve Ga kabilelerinin desteğini alan İngilizler Aşanti ordusunu geri püskürttü", kaynak:"Encyclopaedia Britannica, 'Asante empire' — «The British (with the help of tribes oppressed by the Asante, including the Fante and the Ga) beat the Asante back in 1826»." },
+    { t:"1874-01-01", tur:"toprak-kayip", b:"Kumasi'nin yıkılmasının ardından güneybatı Gana Altın Sahili adıyla İngiliz sömürgesi hâline getirildi", kaynak:"TDV `gana` (200, gövde okundu) — «1874: Kumasi yıkıldı; güneybatı Gana Altın Sahili adıyla sömürge oldu»; Britannica 'Asante empire' bağımsız olarak «a British force under General Sir Garnet Wolseley … defeated the Ashanti army and burned their capital of Kumasi» diyor." },
     { t:"1874-02-04", tur:"savas", b:"İngilizler Kumasi'yi yakıp yıktı" },
+    { t:"1901-01-01", tur:"isgal", b:"Aşanti toprakları İngiliz idaresine alındı", kaynak:"TDV `gana` — «1901: Aşanti toprakları İngiliz idaresi altına girdi»; ertesi yıl «1902: bugünkü Gana'nın tamamı İngiliz sömürgesi oldu». Britannica 'Asante empire' son adımı gün vererek doğruluyor: «Asante was formally declared a British crown colony on January 1, 1902»." },
     { t:"1902-01-01", tur:"son", b:"Dördüncü Anglo-Aşanti Savaşı sonunda krallık resmen ilhak edildi" }
   ]
 },
@@ -4640,6 +4701,12 @@ window.DEVLETLER = [
   kronoloji:[
     { t:"1625-01-01", tur:"kurulus", b:"Wegbaja, Abomey merkezli krallığı kurdu" },
     { t:"1727-01-01", tur:"toprak-kazanc", b:"Kıyıdaki Whydah krallığını ele geçirip Atlantik ticaretine doğrudan eriştim kazandı" },
+    { t:"1818-01-01", tur:"hukumdar", b:"Kral Gezo tahta çıktı ve kırk yıl süren saltanatı başladı", kaynak:"TDV `benin` (200, gövde okundu) — hükümdar listesi: «1818-1858: Kral Gezo»." },
+    { t:"1851-01-01", tur:"antlasma", b:"Fransa ile Kral Gezo arasında antlaşma imzalandı", kaynak:"TDV `benin` — «1851: Fransa ile Gezo arasında antlaşma»." },
+    { t:"1858-01-01", tur:"hukumdar", b:"Kral Glélé tahta çıktı", kaynak:"TDV `benin` — «1858-1889: Kral Glélé»." },
+    { t:"1868-01-01", tur:"antlasma", b:"Mayıs 1868'de Kotonu Antlaşması imzalandı", kaynak:"TDV `benin` — «Mayıs 1868: Kotonu Antlaşması»." },
+    { t:"1882-01-01", tur:"toprak-kayip", b:"Fransa Porto Novo ve Kotonu üzerinde himaye kurdu", kaynak:"TDV `benin` — «1882: Fransa Porto Novo ve Kotonu üzerinde himaye kurdu»." },
+    { t:"1893-01-01", tur:"savas", b:"Fransız birlikleri başşehir Abomey'e girerek Kral Behanzin'in iktidarına son verdi", kaynak:"TDV `benin` — AYNEN «1893'te Dahomey Krallığı'nın merkezi Abomey'e giren Fransız birlikleri Kral Behanzin'in iktidarına son vererek»; aynı gövde «1906: Kral Behanzin sürgünde öldü» diyor." },
     { t:"1894-01-01", tur:"son", b:"Fransa, Kral Béhanzin'i yenip krallığı sömürgeye dönüştürdü" }
   ]
 },
@@ -4743,7 +4810,12 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
     { t:"1816-01-01", tur:"kurulus", b:"Shaka, Zulu klanını askerî reformlarla büyük bir krallığa dönüştürdü" },
+    { t:"1828-09-22", tur:"hukumdar", b:"Dingane, üvey kardeşi Mhlangana ve hizmetkârı Mbopha'nın yardımıyla Şaka'yı öldürerek Zulu tahtına geçti", kaynak:"South African History Online, 'King Dingane ka Senzangakhona' — «assassinated his brother and the then Chief of the Zulu – Shaka Zulu on the 22 of September 1828»; Encyclopaedia Britannica 'Shaka' BAĞIMSIZ olarak aynı günü veriyor: «died Sept. 22, 1828»." },
     { t:"1838-12-16", tur:"savas", b:"Kan Nehri Savaşı'nda Boer göçmenlerine yenildi" },
+    { t:"1840-01-01", tur:"ic-savas", b:"Maqongqo Muharebesi'nde Mpande'nin kuvvetleri Dingane'yi yendi ve Mpande Zulu tahtına oturdu", kaynak:"South African History Online, 'King Mpande kaSenzangakhona' — «Their combined forces defeated Dingane at the Battle of Maqongqo (near the present town of Magudu) in January 1840, putting Mpande on the Zulu throne»; Britannica 'Mpande' saltanatı 1840-1872 diye veriyor." },
+    { t:"1856-01-01", tur:"ic-savas", b:"Ndondakusuka Muharebesi'nde Cetshwayo kardeşi Mbuyazi'yi Tugela kıyısında yenerek veraset savaşını kazandı", kaynak:"Encyclopaedia Britannica, 'Battle of Ndondakasuka' ve 'Cetshwayo' — «Cetshwayo dramatically defeated his brother on the banks of the Tugela River in 1856 in the primary conflict of the Zulu civil war»; South African History Online, 'The Battle of Ndondakusuka (Tugela)' — «More than 5,000 warriors, including Mbulazi, were killed»." },
+    { t:"1873-01-01", tur:"hukumdar", b:"Shepstone Zululand'a giderek Cetshwayo'yu Zulu kralı olarak resmen tanıdı", kaynak:"South African History Online, 'King Cetshwayo' — «In September 1873 Shepstone travelled to Zululand and formally recognised Cetshwayo as King of the Zulu»; aynı gövde babasının ölümüyle 1872'de fiilen kral olduğunu da yazıyor." },
+    { t:"1879-01-10", tur:"savas", b:"İngiliz kuvvetlerinin Zululand'a girmesiyle Anglo-Zulu Savaşı başladı; savaşın gerekçesi Sir Bartle Frere'in 11 Aralık 1878'de Cetshwayo'ya verdiği, orduyu otuz gün içinde dağıtmasını isteyen ültimatomdu", kaynak:"South African History Online, dated-event 'Beginning of the Anglo-Zulu War, 10 January 1879'; ültimatom için aynı sitenin dated-event'i — «On 11 December 1878, the newly appointed British High Commissioner … delivers to Cetshwayo the Zulu king an ultimatum to disband his army»." },
     { t:"1879-01-22", tur:"savas", b:"Isandlwana'da İngilizlere ağır darbe vurdu" },
     { t:"1879-07-04", tur:"son", b:"Ulundi Savaşı'nda kesin yenilgi aldı, krallık İngilizlerce ilhak edildi" }
   ]
@@ -4805,6 +4877,7 @@ window.DEVLETLER = [
   kaynak:"amerika",
   kronoloji:[
     { t:"1438-01-01", tur:"kurulus", b:"Pachacuti, Cusco krallığını büyük bir imparatorluğa dönüştürmeye başladı" },
+    { t:"1438-01-01", tur:"hukumdar", b:"Pachacuti Inca Yupanqui kardesinden tahti gasbetti", kaynak:"EB-INCA — AYNEN: «The earliest date that can be confidently assigned to Inca dynastic history is 1438, when Pachacuti Inca Yupanqui … a son of Viracocha Inca, usurped the throne from his brother Inca Urcon»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI." },
     { t:"1532-11-16", tur:"savas", b:"Cajamarca'da Francisco Pizarro, İmparator Atahualpa'yı tuzağa düşürüp esir aldı" },
     { t:"1533-08-29", tur:"son", b:"Atahualpa idam edildi, İspanyollar Cusco'yu ele geçirdi" },
     { t:"1572-09-24", tur:"son", b:"Vilcabamba'daki son direniş devleti düştü, Tupac Amaru idam edildi" }
@@ -4817,6 +4890,7 @@ window.DEVLETLER = [
   kronoloji:[
     { t:"1200-01-01", tur:"kurulus", b:"Mayapán Birliği Yucatán'da hâkimiyet kurdu" },
     { t:"1441-01-01", tur:"bolunme", b:"Mayapán terk edildi, bölge küçük rakip şehir devletlerine bölündü" },
+    { t:"1542-01-01", tur:"toprak-kayip", b:"İspanyollar Tiho'yu (Mérida) alarak kuzeybatı Yucatán'daki Maya şehir-devletlerinin hâkimiyetine son verdi", kaynak:"escholarship.org (University of California) — «Interethnic Mayan and Afro-descendent Relations…» — AYNEN: «In 1540 Spanish conquistadors and their indigenous allies began occupying the northwestern Yucatan Peninsula, and they took Tiho/Mérida in 1542». 🔴 GÜN BİLİNMİYOR — YYYY-01-01." },
     { t:"1697-03-13", tur:"son", b:"İspanyollar Nojpetén'i (Tayasal) alarak son bağımsız Maya krallığını ortadan kaldırdı" }
   ]
 },
@@ -4826,6 +4900,7 @@ window.DEVLETLER = [
   kaynak:"amerika",
   kronoloji:[
     { t:"1535-04-17", tur:"kurulus", b:"İlk genel vali Antonio de Mendoza atanıp Yeni İspanya resmen kuruldu" },
+    { t:"1539-01-01", tur:"toprak-kazanc", b:"İspanyol kuvvetleri Florida'yı alarak Yeni İspanya'nın kuzeydoğu sınırını genişletti", kaynak:"TDV `amerika` (islamansiklopedisi.org.tr/amerika, HTTP 200, gövde 75.093 karakter) — gövdede AYNEN: «İspanya'nın Küba valisi ise 1539'da Florida'yı aldı ve iç bölgelere doğru ilerleyerek kuvvetleriyle birlikte üç dört yıl içinde Kuzey Amerika'nın güneydoğu kesimlerini ve Mississippi nehrini keşfetti.» 🔴 GÜN BİLİNMİYOR — YYYY-01-01." },
     { t:"1810-09-16", tur:"isyan", b:"Rahip Hidalgo'nun \"Grito de Dolores\" çağrısıyla bağımsızlık savaşı başladı" },
     { t:"1821-09-27", tur:"son", b:"Trigarante Ordusu Mexico City'ye girdi, bağımsızlık kesinleşti (bkz. [[meksika]])" }
   ]
@@ -4847,6 +4922,7 @@ window.DEVLETLER = [
   kronoloji:[
     { t:"1549-01-01", tur:"kurulus", b:"İlk genel vali Tomé de Sousa ile merkezi sömürge idaresi kuruldu" },
     { t:"1808-01-01", tur:"hukumdar", b:"Napolyon'un Portekiz'i işgali üzerine kraliyet ailesi Rio de Janeiro'ya sürgüne geldi" },
+    { t:"1808-01-01", tur:"isgal", b:"Portekiz sarayi Lizbon'dan Rio de Janeiro'ya tasindi", kaynak:"EB-LA — AYNEN: «The key step in the relatively bloodless end of colonial rule in Brazil was the transfer of the Portuguese court from Lisbon to Rio de Janeiro in 1808»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI; olcut geregi YYYY-01-01." },
     { t:"1822-09-07", tur:"son", b:"Dom Pedro \"Ipiranga Çığlığı\" ile bağımsızlığı ilan etti (bkz. [[brezilya-imparatorlugu]])" }
   ]
 },
@@ -4856,8 +4932,14 @@ window.DEVLETLER = [
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
     { t:"1822-09-07", tur:"kurulus", b:"I. Dom Pedro kendini imparator ilan etti" },
+    { t:"1822-09-07", tur:"kurulus", b:"Dom Pedro bagimsizligi ilan etti ve Brezilya'nin ilk imparatoru oldu", kaynak:"EB-LA — AYNEN: «When Pedro proclaimed its independence on Sept. 7, 1822, and subsequently became its first emperor, Brazil's progression from Portuguese colony to autonomous country was complete»" },
+    { t:"1831-01-01", tur:"hukumdar", b:"I. Pedro tahttan indirildi, yerine oglu II. Pedro gecti", kaynak:"EB-LA — AYNEN: «Dom Pedro I was forced from his throne in 1831, to be succeeded by his son, Dom Pedro II»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI; olcut geregi YYYY-01-01." },
+    { t:"1865-05-01", tur:"ittifak", b:"Brezilya, Arjantin ve Uruguay ile Ucu Ittifak'i kurdu", kaynak:"EB-UIS — AYNEN: «organized an alliance with Brazil and Colorado-controlled Uruguay (the Triple Alliance)»" },
+    { t:"1868-01-01", tur:"savas", b:"Baskomutanlik Mitre'den Brezilyali Caxias'a gecti", kaynak:"EB-UIS — AYNEN: «In January 1868 Mitre was replaced as commander in chief by the Brazilian marquês (later duque) de Caxias»  ⚠️ TARIH HASSASIYETI: ay — GUN BULUNAMADI" },
+    { t:"1870-01-01", tur:"toprak-kazanc", b:"Brezilya Mato Grosso eyaletini ilhak ettigi Paraguay toprağiyla genisletti", kaynak:"EB-UIS — AYNEN: «Brazil enlarged its Mato Grosso province from annexed territory»  ⚠️ TARIH HASSASIYETI: 🔴 TARIH ZAYIF — savasin bitis gunune yazildi; sinir antlasmasinin gunu BULUNAMADI.  🔴 HASSASIYET DUZELTILDI (kalem 3): ilhakin gunu kaynakta YOK, savasin bitis gunune yazilmisti. Yil'a indirildi." },
     { t:"1888-05-13", tur:"antlasma", b:"\"Altın Kanun\" ile köleliğin kaldırılması ilan edildi" },
-    { t:"1889-11-15", tur:"son", b:"Askerî darbeyle II. Dom Pedro tahttan indirildi, cumhuriyet ilan edildi" }
+    { t:"1889-11-15", tur:"son", b:"Askerî darbeyle II. Dom Pedro tahttan indirildi, cumhuriyet ilan edildi" },
+    { t:"1889-11-15", tur:"son", b:"II. Pedro tahttan cekildi ve Avrupa'ya surgune gitti — imparatorluk sona erdi", kaynak:"EB-BR — AYNEN: «military officers carried out a coup on November 15, 1889. Pedro II abdicated and went into exile in Europe»" }
   ]
 },
 { id:"abd", ad:"Amerika Birleşik Devletleri", tur:"cumhuriyet", bolge:"kuzey-amerika",
@@ -4880,6 +4962,8 @@ window.DEVLETLER = [
     { t:"1821-09-27", tur:"kurulus", b:"Bağımsızlık kazanıldı, kısa ömürlü I. Meksika İmparatorluğu (Iturbide) kuruldu" },
     { t:"1824-10-04", tur:"kurulus", b:"Federal cumhuriyet anayasası kabul edildi" },
     { t:"1846-04-25", tur:"savas", b:"ABD ile savaş başladı, 1848'de kuzey topraklarının yarısı kaybedildi" },
+    { t:"1848-02-02", tur:"antlasma", b:"Guadalupe Hidalgo Antlaşması Mexico City'de imzalandı, ABD ile savaş sona erdi", kaynak:"history.state.gov/milestones/1830-1860/texas-annexation (US Dept. of State, Office of the Historian) — AYNEN: «signed in Mexico City on February 2, 1848»" },
+    { t:"1848-02-02", tur:"toprak-kayip", b:"Aynı antlaşmayla savaş öncesi toprakların %55'i (yaklaşık 525.000 mil kare) ABD'ye bırakıldı", kaynak:"history.state.gov/milestones/1830-1860/texas-annexation (Office of the Historian) — AYNEN: «Mexico ceded to the United States approximately 525,000 square miles (55% of its prewar territory) in exchange for a $15 million lump sum payment…»" },
     { t:"1876-01-01", tur:"hukumdar", b:"Porfirio Díaz'ın uzun otoriter dönemi (Porfiriato) başladı" },
     { t:"1910-11-20", tur:"isyan", b:"Meksika Devrimi başladı" }
   ]
@@ -4889,7 +4973,11 @@ window.DEVLETLER = [
   ozet:"Simón Bolívar'ın İspanya'ya karşı zaferinin ardından kurduğu, bugünkü Venezuela, Kolombiya, Ekvador ve Panama'yı kapsayan büyük cumhuriyet; iç bölgesel çekişmelerle üçe (dört) ayrı devlete bölündü (Venezuela, Kolombiya, Ekvador — her biri ayrı kayıt açılmadı).",
   kaynak:"kolombiya",
   kronoloji:[
+    { t:"1819-01-01", tur:"savas", b:"Boyaca Muharebesi — Bolivar Bogota'nin kralci savunucularini ezdi", kaynak:"EB-LA — AYNEN: «A major step in that success came in the subduing of the loyalist defenders of Bogotá in 1819. After leading his army up the face of the eastern Andes, Bolívar dealt a crushing defeat to his enemies in the Battle of Boyacá»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI; olcut geregi YYYY-01-01." },
     { t:"1819-12-17", tur:"kurulus", b:"Angostura Kongresi'nde Bolívar cumhuriyeti ilan etti" },
+    { t:"1821-01-01", tur:"antlasma", b:"Cucuta kurucu kongresi daha merkeziyetci bir Gran Kolombiya kurdu", kaynak:"EB-LA — AYNEN: «further energetic military campaigns liberated New Granada and Venezuela by 1821. A constituent congress held that year in Cúcuta chose Bolívar president of a now much more centralized Gran Colombia»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI; olcut geregi YYYY-01-01." },
+    { t:"1821-06-24", tur:"savas", b:"Carabobo Muharebesi — ana kralci ordu yenildi", kaynak:"EB-VE — AYNEN: «On June 24, 1821, Bolívar's troops, reinforced by llanero cavalry under General José Antonio Páez, defeated the main royalist army at the Battle of Carabobo»" },
+    { t:"1823-10-09", tur:"savas", b:"Son kralci kuvvetler Puerto Cabello'da teslim oldu", kaynak:"EB-VE — AYNEN: «The last of the royalist forces surrendered at Puerto Cabello on October 9, 1823»" },
     { t:"1824-12-09", tur:"savas", b:"Ayacucho zaferiyle İspanyol Güney Amerika'sının bağımsızlığı kesinleşti" },
     { t:"1830-01-01", tur:"bolunme", b:"Venezuela ve Ekvador ayrılmaya başladı" },
     { t:"1831-01-01", tur:"son", b:"Cumhuriyet resmen dağılıp Venezuela, Kolombiya (Yeni Granada) ve Ekvador'a bölündü" }
@@ -4902,7 +4990,9 @@ window.DEVLETLER = [
   kronoloji:[
     { t:"1791-08-22", tur:"isyan", b:"Toussaint Louverture önderliğinde büyük köle isyanı başladı" },
     { t:"1804-01-01", tur:"kurulus", b:"Jean-Jacques Dessalines bağımsızlığı ilan etti" },
-    { t:"1825-04-17", tur:"antlasma", b:"Fransa, ağır bir tazminat karşılığında bağımsızlığı resmen tanıdı" }
+    { t:"1825-04-17", tur:"antlasma", b:"Fransa, ağır bir tazminat karşılığında bağımsızlığı resmen tanıdı" },
+    { t:"1844-02-27", tur:"toprak-kayip", b:"Adanın doğu yarısı (Santo Domingo) ayrılarak Dominik Cumhuriyeti'ni kurdu, Haiti burayı kaybetti", kaynak:"history.state.gov/countries/dominican-republic (Office of the Historian) — AYNEN: «the island nation of the Dominican Republic declared itself an independent nation from neighboring Haiti in 1844». 🟡 YIL doğrulandı; 27 Şubat GÜNÜ dominik-cumhuriyeti künyesinin f: alanından DEVRALINDI, TARAFIMDAN DOĞRULANMADI." },
+    { t:"1915-01-01", tur:"isgal", b:"ABD Deniz Piyadeleri Haiti'ye çıkarak ülkeyi işgal etti, işgal 1934'e kadar sürdü", kaynak:"history.state.gov/milestones/1914-1920/haiti (Office of the Historian, «U.S. Invasion and Occupation of Haiti, 1915–34») — AYNEN: «Following the assassination of the Haitian President in July of 1915, President Woodrow Wilson sent the United States Marines into Haiti». 🔴 KAYNAK AY VERİYOR (Temmuz 1915) AMA GÜN VERMİYOR; ölçüt ay hassasiyetini yasakladığı için YYYY-01-01 yazıldı — 28 Temmuz diye yaygın bilinen gün KAYNAKLANMADIĞI için KULLANILMADI." }
   ]
 },
 { id:"ingiliz-kuzey-amerika", ad:"İngiliz Kuzey Amerika (Kanada)", tur:"gecici-isgal", bolge:"kuzey-amerika",
@@ -6402,79 +6492,162 @@ window.DEVLETLER = [
   f:"1810-05-25", t:"1923-10-29", baskent:"Buenos Aires",
   ozet:"Mayıs Devrimi'nden (1810) doğan, 1816 Tucumán Kongresi'nde bağımsızlığını resmen ilan eden La Plata ardılı. Atlas künyesinin f: tarihi, bağlı veride bu kimliğin kullanıldığı en erken güne hizalandı.",
   kaynak:"Encyclopedia.com, 'Latin American Wars of Independence' (Gale/Scribner, Encyclopedia of Latin American History and Culture) — resmî bağımsızlık ilanı 9 Temmuz 1816'da Tucumán Kongresi'nde oldu, ama f: bağlı veride bu kimliğin kullanıldığı en erken tarihe (25 Mayıs 1810, Mayıs Devrimi — ilk özerk hükümet cuntası) HİZALANDI, aralık ölçülerek genişletildi.",
-  kronoloji:[]
+  kronoloji:[
+          { t:"1810-05-01", tur:"kurulus", b:"Mayis Devrimi — Buenos Aires'te kurulan cunta Ispanyol yonetimini sona erdirdi", kaynak:"EB-LA — AYNEN: «In May 1810 prominent Creoles in Buenos Aires … forced the last Spanish viceroy there to consent to a cabildo abierto … the junta produced by that session marked the end of Spanish rule in Buenos Aires and its hinterland»  ⚠️ TARIH HASSASIYETI: kaynak AY veriyor (Mayis 1810); GUN kunyenin kendi f: degeridir, kaynaktan DOGRULANMADI.  🔴 HASSASIYET DUZELTILDI (kalem 3): kunyenin gunu 1810-05-25 idi, kaynak AY veriyor (Mayis 1810). Kural: hassasiyet kaynagi asamaz. Kunye degistirilmedi, fark BILDIRILDI." },
+          { t:"1816-01-01", tur:"kurulus", b:"Tucuman kongresi bagimsizligi ilan etti", kaynak:"EB-LA — AYNEN: «the assembly that finally proclaimed independence in 1816; that body received no delegates from several provinces, even though it was held outside Buenos Aires, in the interior city of Tucumán»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI; olcut geregi YYYY-01-01." },
+          { t:"1865-05-01", tur:"ittifak", b:"Arjantin, Brezilya ve Uruguay ile Uclu Ittifak'i kurdu", kaynak:"EB-UIS — AYNEN: «Bartolomé Mitre, president of Argentina, then organized an alliance with Brazil and Colorado-controlled Uruguay (the Triple Alliance), and together they declared war on Paraguay on May 1, 1865»" },
+          { t:"1865-05-01", tur:"savas", b:"Arjantin Paraguay'a savas ilan etti — Ucu Ittifak Savasi", kaynak:"EB-UIS — AYNEN: «together they declared war on Paraguay on May 1, 1865»" },
+          { t:"1870-01-01", tur:"toprak-kazanc", b:"Arjantin Misiones'in buyuk kismini ve Chaco'nun bir bolumunu ilhak etti", kaynak:"EB-UIS — AYNEN: «Argentina took much of the Misiones region and part of the Chaco between the Bermejo and Pilcomayo rivers»  ⚠️ TARIH HASSASIYETI: 🔴 TARIH ZAYIF — savasin bitis gunune yazildi; sinir antlasmasinin gunu BULUNAMADI.  🔴 HASSASIYET DUZELTILDI (kalem 3): ilhakin gunu kaynakta YOK, savasin bitis gunune yazilmisti. Yil'a indirildi." }
+        ]
 },
 { id:"bolivya-cumhuriyeti", ad:"Bolivya Cumhuriyeti", tur:"cumhuriyet", bolge:"guney-amerika",
   f:"1825-08-06", t:"1923-10-29", baskent:"Sucre",
   ozet:"Yukarı Peru'da son İspanyol direnişinin kırılmasıyla kurulan cumhuriyet; adını Simón Bolívar'dan alır.",
   kaynak:"Encyclopedia.com, 'Latin American Wars of Independence' — son İspanyol kalesi düştü, bağımsızlık ilan edildi.",
-  kronoloji:[]
+  kronoloji:[
+          { t:"1825-01-01", tur:"kurulus", b:"Yukari Peru bagimsizligini ilan edip Kurtarici'nin adiyla Bolivya oldu", kaynak:"EB-LA — AYNEN: «By the time Bolívar's armies finally completed the liberation of Upper Peru (then renamed in the Liberator's honour), the region had long since separated itself from Buenos Aires»  🔴 KAYNAK YIL BILE VERMIYOR — tarih kunyenin kendi f: degeridir (1825-08-06), KAYNAKTAN DOGRULANMADI.  🔴 HASSASIYET DUZELTILDI (kalem 3): kunyenin gunu 1825-08-06 idi, kaynak YIL veriyor — ve YIL IKI KAYNAKTA DOGRULANDI (EB-LA + EB-VE «in 1825 it freed Upper Peru (Bolivia) from Spanish rule»). Kunye degistirilmedi." },
+          { t:"1873-01-01", tur:"ittifak", b:"Bolivya ile Peru gizli bir karsilikli guvence antlasmasi yapti", kaynak:"EB-PS — AYNEN: «In 1873 Peru agreed secretly with Bolivia to a mutual guarantee of their territories and independence»  ⚠️ TARIH HASSASIYETI: yil — GUN VE AY BULUNAMADI, olcut geregi YYYY-01-01" },
+          { t:"1874-01-01", tur:"antlasma", b:"Gozden gecirilmis Sili-Bolivya antlasmasi maden vergisi anlasmazligini yatistirdi", kaynak:"EB-PS — AYNEN: «In 1874 Chilean-Bolivian relations were ameliorated by a revised treaty under which Chile relinquished its share of export taxes … and Bolivia agreed not to raise taxes on Chilean enterprises in Bolivia for 25 years»  ⚠️ TARIH HASSASIYETI: yil — GUN VE AY BULUNAMADI, olcut geregi YYYY-01-01" },
+          { t:"1879-04-05", tur:"savas", b:"Sili Bolivya'ya savas ilan etti — Pasifik Savasi", kaynak:"EB-PS — AYNEN: «Bolivia then declared war on Chile and called upon Peru for help. Chile declared war on both Peru and Bolivia (April 5, 1879)»" },
+          { t:"1884-01-01", tur:"toprak-kayip", b:"Mutareke Bolivya'nin butun Pasifik kiyisini Sili'ye birakti — Bolivya karayla cevrildi", kaynak:"EB-PS — AYNEN: «In 1884 a truce between Bolivia and Chile gave the latter control of the entire Bolivian coast (Antofagasta province)»  ⚠️ TARIH HASSASIYETI: yil — GUN VE AY BULUNAMADI, olcut geregi YYYY-01-01" },
+          { t:"1904-01-01", tur:"antlasma", b:"1904 antlasmasi Bolivya'nin kiyi kaybini kalici hale getirdi", kaynak:"EB-PS — AYNEN: «a treaty in 1904 made this arrangement permanent»  ⚠️ TARIH HASSASIYETI: yil — GUN VE AY BULUNAMADI, olcut geregi YYYY-01-01" }
+        ]
 },
 { id:"sili-cumhuriyeti", ad:"Şili Cumhuriyeti", tur:"cumhuriyet", bolge:"guney-amerika",
   f:"1818-02-12", t:"1923-10-29", baskent:"Santiago",
   ozet:"And dağları ile Pasifik arasında, 1818'de bağımsızlığını resmen ilan eden cumhuriyet.",
   kaynak:"Encyclopedia.com, 'Latin American Wars of Independence' — resmî bağımsızlık ilanı.",
-  kronoloji:[]
+  kronoloji:[
+          { t:"1818-02-12", tur:"kurulus", b:"Sili bagimsizligini ilan etti — Chacabuco'nun birinci yildonumunde", kaynak:"EB-CL — AYNEN: «the act of declaring Chile's independence was not taken until a year later (February 12, 1818), on the first anniversary of Chacabuco»" },
+          { t:"1818-04-05", tur:"savas", b:"Maipu Muharebesi Ispanya'yi Sili anakarasinda kesin olarak yendi", kaynak:"EB-CL — AYNEN: «the decisive defeat of Spain on the Chilean mainland (Spain held the island of Chiloé until 1826) did not come until the Battle of Maipú, on April 5, 1818»" },
+          { t:"1823-01-01", tur:"hukumdar", b:"Yuce direktor Bernardo O'Higgins istifaya zorlandi", kaynak:"EB-CL — AYNEN: «general unrest and poor harvests forced him to abdicate in 1823»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI; olcut geregi YYYY-01-01." },
+          { t:"1829-01-01", tur:"ic-savas", b:"Otoriter kanat ordunun bir bolumuyle rakip hizipleri tasfiye edip cunta kurdu", kaynak:"EB-CL — AYNEN: «Rival political factions were eliminated in 1829 when authoritarians, with the help of a part of the army, were able to install a junta (collegial government) that nominated José Tomás de Ovalle as provisory president»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI; olcut geregi YYYY-01-01." },
+          { t:"1879-02-14", tur:"isgal", b:"Sili kuvvetleri Antofagasta liman kentini isgal etti", kaynak:"EB-PS — AYNEN: «Chilean armed forces occupied the port city of Antofagasta on February 14, 1879»" },
+          { t:"1879-04-05", tur:"savas", b:"Sili hem Peru'ya hem Bolivya'ya savas ilan etti", kaynak:"EB-PS — AYNEN: «Chile declared war on both Peru and Bolivia (April 5, 1879)»" },
+          { t:"1879-10-08", tur:"savas", b:"Angamos deniz zaferi Sili'ye Peru'ya giden deniz yollarinin denetimini verdi", kaynak:"EB-PS — AYNEN: «Naval victories at Iquique (May 21, 1879) and Angamos (October 8, 1879) enabled Chile to control the sea approaches to Peru»" },
+          { t:"1883-10-20", tur:"antlasma", b:"Ancon Antlasmasi — Peru Tarapaca eyaletini Sili'ye biraktı", kaynak:"EB-PS — AYNEN: «on October 20, 1883, Peru and Chile signed the Treaty of Ancón, by which Tarapacá province was ceded to the latter»" },
+          { t:"1883-10-20", tur:"toprak-kazanc", b:"Sili nitrat bakimindan zengin Tarapaca'yi ilhak etti", kaynak:"EB-PS — AYNEN: «resulted in Chilean annexation of valuable disputed territory on the Pacific coast» + «Tarapacá province was ceded to the latter»" },
+          { t:"1904-01-01", tur:"antlasma", b:"1904 antlasmasi Bolivya kiyisinin Sili'ye gecisini kalici kildi", kaynak:"EB-PS — AYNEN: «a treaty in 1904 made this arrangement permanent»  ⚠️ TARIH HASSASIYETI: yil — GUN VE AY BULUNAMADI, olcut geregi YYYY-01-01" }
+        ]
 },
 { id:"paraguay-cumhuriyeti", ad:"Paraguay Cumhuriyeti", tur:"cumhuriyet", bolge:"guney-amerika",
   f:"1811-05-14", t:"1923-10-29", baskent:"Asunción",
   ozet:"Mayıs 1811'de kendi cuntasını kurarak hem İspanya'dan hem Buenos Aires'ten ayrılan iç bölge cumhuriyeti.",
   kaynak:"Encyclopedia.com, 'South American Wars of Independence' — Paraguay Mayıs 1811'de kendi bağımsız cuntasını kurdu.",
-  kronoloji:[]
+  kronoloji:[
+          { t:"1811-01-01", tur:"savas", b:"Paraguay milisleri Belgrano'nun Arjantin ordusunu puskurttu", kaynak:"EB-PY — AYNEN: «they refused to accept the declaration of Argentine independence in 1810 as applying to Paraguay. Nor could an Argentine army under Gen. Manuel Belgrano enforce Paraguayan acceptance, as Paraguayan militia repulsed Belgrano's forces in 1811»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI." },
+          { t:"1811-05-14", tur:"kurulus", b:"Paraguay Buenos Aires'ten ve Ispanya'dan ayrilarak kendi yolunu tuttu", kaynak:"EB-PY — AYNEN: «Under the leadership of the militia captains Pedro Juan Cabellero and Fulgencio Yegros, they promptly deposed the governor and declared their independence on May 14, 1811»  🟢 GUN GERI KAZANILDI: kalem 3'te bu tarih 1811-01-01'e INDIRILMISTI cunku o zamanki kaynak hicbir tarih vermiyordu. Yeni kaynak GUNU AYNEN veriyor ve kunyenin f: degeriyle BIREBIR tutuyor. Gun artik KUNYEDEN degil KAYNAKTAN geliyor." },
+          { t:"1813-10-12", tur:"kurulus", b:"Francia'nin topladigi kongre Paraguay'i resmen bagimsiz cumhuriyet ilan etti", kaynak:"EB-PY — AYNEN: «Francia responded by convening a congress, which on October 12, 1813, formally declared Paraguay an independent republic»" },
+          { t:"1865-05-01", tur:"savas", b:"Arjantin, Brezilya ve Uruguay Uclu Ittifak'i kurup Paraguay'a savas ilan etti", kaynak:"EB-UIS — AYNEN: «together they declared war on Paraguay on May 1, 1865»" },
+          { t:"1866-09-01", tur:"savas", b:"Curupayty'de Paraguay zaferi muttefik taarruzunu bir yil durdurdu", kaynak:"EB-UIS — AYNEN: «the most notable, won by the Paraguayans at Curupayty in September 1866, inhibited any allied offensive for nearly a year»  ⚠️ TARIH HASSASIYETI: ay — GUN BULUNAMADI, ayin 1'ine yazildi (olcut: gun bilinmiyorsa YYYY-01-01; burada ay biliniyor, gun degil)" },
+          { t:"1868-02-01", tur:"isgal", b:"Brezilya zirhlilari Humaita kalesini gecip Asuncion'u bombaladi", kaynak:"EB-UIS — AYNEN: «In February Brazilian armoured vessels broke through Paraguayan defenses at the river fortress of Humaitá … and pressed on to bombard Asunción, the capital»  ⚠️ TARIH HASSASIYETI: ay — GUN BULUNAMADI" },
+          { t:"1870-01-01", tur:"hukumdar", b:"Francisco Solano Lopez oldurulunce Paraguay'in savasi sona erdi", kaynak:"EB-UIS — AYNEN: «López fled northward and carried on a guerrilla war until he was killed on March 1, 1870»  🔴 HASSASIYET DUZELTILDI (kalem 3): savasin bitis GUNUNE yazmistim, ama ilhak o gun olmadi — kaynak ilhaki hic tarihlendirmiyor. Yil'a indirildi." },
+          { t:"1870-03-01", tur:"toprak-kayip", b:"Savasin sonunda Arjantin ve Brezilya yaklasik 140.000 km2 Paraguay toprağini ilhak etti", kaynak:"EB-UIS — AYNEN: «Argentina and Brazil annexed about 55,000 square miles (140,000 square km) of Paraguayan territory»  ⚠️ TARIH HASSASIYETI: 🔴 TARIH ZAYIF — savasin bitis gunune yazildi. Ilhaki kesinlestiren sinir ANTLASMALARININ gunlerini BULAMADIM (Brezilya ve Arjantin ile ayri ayri, savas sonrasi yillarda). Kaynak yalniz '1876'ya kadar isgal' diyor." }
+        ]
 },
 { id:"peru-cumhuriyeti", ad:"Peru Cumhuriyeti", tur:"cumhuriyet", bolge:"guney-amerika",
   f:"1824-12-09", t:"1923-10-29", baskent:"Lima",
   ozet:"Ayacucho Zaferi'yle (9 Aralık 1824) İspanyol yönetiminin sona ermesinden doğan cumhuriyet. Künye, [[ispanyol-peru]]'nun bitiş günüyle BİREBİR hizalandı — devir boşluksuzdur.",
   kaynak:"Mevcut 'ispanyol-peru' künyesinin t: tarihiyle (Ayacucho Zaferi, 9 Aralık 1824) BİREBİR hizalandı — devir boşluksuz; bu, künyenin kendisi kadar güvenilir bir tarih.",
-  kronoloji:[]
+  kronoloji:[
+          { t:"1824-01-01", tur:"kurulus", b:"Ayacucho zaferi Peru'nun bagimsizligini kesinlestirdi", kaynak:"EB-LA — AYNEN: «One of them, the Venezuelan Antonio José de Sucre, directed the patriots' triumph at Ayacucho in 1824, which turned out to be the last major battle of the war»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor; GUN kunyenin kendi f: degeridir (1824-12-09) ve Ayacucho gunune karsilik gelir, ama kaynaktan DOGRULANMADI.  🔴 HASSASIYET DUZELTILDI (kalem 3): kunyenin gunu 1824-12-09 idi (Ayacucho gunune karsilik gelir), kaynak YIL veriyor. Kunye degistirilmedi." },
+          { t:"1824-12-09", tur:"savas", b:"Ayacucho — Guney Amerika bagimsizlik savaslarinin son buyuk muharebesi", kaynak:"EB-LA — AYNEN: «the patriots' triumph at Ayacucho in 1824, which turned out to be the last major battle of the war»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor; GUN kunyenin f: degeriyle ayni, kaynaktan DOGRULANMADI." },
+          { t:"1873-01-01", tur:"ittifak", b:"Peru ile Bolivya gizli bir karsilikli toprak ve bagimsizlik guvencesi antlasmasi yapti", kaynak:"EB-PS — AYNEN: «In 1873 Peru agreed secretly with Bolivia to a mutual guarantee of their territories and independence»  ⚠️ TARIH HASSASIYETI: yil — GUN VE AY BULUNAMADI, olcut geregi YYYY-01-01" },
+          { t:"1879-04-05", tur:"savas", b:"Sili Peru'ya savas ilan etti — Pasifik Savasi", kaynak:"EB-PS — AYNEN: «Chile declared war on both Peru and Bolivia (April 5, 1879)»" },
+          { t:"1881-01-01", tur:"isgal", b:"Sili kuvvetleri Peru baskenti Lima'yi isgal etti", kaynak:"EB-PS — AYNEN: «Chilean forces occupied the Peruvian capital of Lima the following January»  ⚠️ TARIH HASSASIYETI: ay — GUN BULUNAMADI; kaynak yalnizca 'ertesi Ocak' diyor, olcut geregi ayin 1'i" },
+          { t:"1883-01-01", tur:"ic-savas", b:"Savasin bitiminde Peru'da yedi ay suren bir ic savas basladi", kaynak:"EB-PS — AYNEN: «at the war's end, a seven-month civil war ensued»  ⚠️ TARIH HASSASIYETI: 🔴 TARIH ZAYIF — kaynak yalniz 'savasin sonunda' diyor, BASLANGIC GUNU BULUNAMADI; Ancon gunune yazildi.  🔴 HASSASIYET DUZELTILDI (kalem 3): kaynak yalniz «at the war's end» diyor; ic savasin BASLANGIC GUNU yok. Antlasma gunune yazilmisti, Yil'a indirildi." },
+          { t:"1883-10-20", tur:"toprak-kayip", b:"Ancon Antlasmasi ile Peru Tarapaca eyaletini kaybetti", kaynak:"EB-PS — AYNEN: «by which Tarapacá province was ceded to the latter» + «Chile was also to occupy the provinces of Tacna and Arica for 10 years»" },
+          { t:"1883-10-20", tur:"antlasma", b:"Peru ile Sili Ancon Antlasmasi'ni imzaladi", kaynak:"EB-PS — AYNEN: «Peru and Chile signed the Treaty of Ancón»" }
+        ]
 },
 { id:"uruguay-cumhuriyeti", ad:"Uruguay Doğu Cumhuriyeti", tur:"cumhuriyet", bolge:"guney-amerika",
   f:"1828-08-27", t:"1923-10-29", baskent:"Montevideo",
   ozet:"Cisplatina Savaşı'nı bitiren Montevideo Antlaşması'yla uluslararası tanınma kazanan Doğu Yakası cumhuriyeti. 1825 ilanı Brezilya'yla savaş sürdüğü için tartışmalıydı; künye 1828 imza gününe dayanır.",
   kaynak:"Encyclopedia.com, 'South American Wars of Independence' — Montevideo Antlaşması ile uluslararası tanınma (1825 ilanı Brezilya ile Cisplatina Savaşı sürdüğü için tartışmalıydı); f: bağlı veride kullanılan tarihe (27 Ağustos 1828, Ön Barış Sözleşmesi imzası — antlaşmanın kendisi 28'de ilan edildi) BİR GÜN hizalandı.",
-  kronoloji:[]
+  kronoloji:[
+          { t:"1828-01-01", tur:"kurulus", b:"Onaylanan antlasma Uruguay'i Brezilya ile Arjantin arasinda ayri bir devlet olarak kurdu", kaynak:"EB-UY — AYNEN: «British diplomats mediated a settlement in 1827, and in 1828 a treaty was ratified creating Uruguay as a separate state and a buffer between Brazil and Argentina»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor; kunyenin f: gunu 1828-08-27, kaynaktan DOGRULANMADI." },
+          { t:"1830-07-18", tur:"kurulus", b:"Uruguay Dogu Devleti'nin anayasasi onaylandi", kaynak:"EB-UY — AYNEN: «On July 18, 1830, when the constitution for the Oriental State of Uruguay was approved, the country had scarcely 74,000 inhabitants»" },
+          { t:"1843-01-01", tur:"ic-savas", b:"Guerra Grande — Blanco'lar Montevideo'yu sekiz yil kusatti", kaynak:"EB-UY — AYNEN: «The Blancos, supported by armies of the Argentine dictator Juan Manuel de Rosas, besieged Montevideo during the period 1843–51»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI." },
+          { t:"1864-01-01", tur:"ic-savas", b:"Brezilya'nin mudahalesiyle Colorado Partisi Blanco yonetimini devirdi", kaynak:"EB-UIS — AYNEN: «In 1864 Brazil helped the leader of Uruguay's Colorado Party to oust his Blanco Party opponent»  ⚠️ TARIH HASSASIYETI: yil — GUN VE AY BULUNAMADI, olcut geregi YYYY-01-01" },
+          { t:"1865-05-01", tur:"ittifak", b:"Colorado yonetimindeki Uruguay, Arjantin ve Brezilya ile Ucu Ittifak'a katildi", kaynak:"EB-UIS — AYNEN: «an alliance with Brazil and Colorado-controlled Uruguay (the Triple Alliance), and together they declared war on Paraguay on May 1, 1865»" },
+          { t:"1868-01-01", tur:"ic-savas", b:"Mizraklar Devrimi — dort yil suren ic savas", kaynak:"EB-UY — AYNEN: «a civil war known as the Revolution of the Lances (1868–72)»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI." },
+          { t:"1876-01-01", tur:"hukumdar", b:"Uruguay silahli kuvvetleri yonetime el koydu", kaynak:"EB-UY — AYNEN: «In 1876 the Uruguayan armed forces took over the government and, aided by improved communications, began to establish firmer control over the interior»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI." },
+          { t:"1897-01-01", tur:"isyan", b:"1897 Devrimi — Aparicio Saravia onderliginde Blanco ayaklanmasi", kaynak:"EB-UY — AYNEN: «Blanco demands for a larger role in government escalated into the Revolution of 1897, led by Aparicio Saravia, which ended when the Colorado president, Juan Idiarte Borda, was killed by an assassin not associated with the Blancos»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI." },
+          { t:"1904-01-01", tur:"isyan", b:"Blanco kirsal ayaklanmasi sekiz ay suren carpismalarla bastirildi", kaynak:"EB-UY — AYNEN: «The following year the Blancos led a rural revolt, and eight bloody months of fighting ensued before Saravia was killed in battle and government forces emerged victorious»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor (1903'un ertesi = 1904), GUN VE AY BULUNAMADI." }
+        ]
 },
 { id:"ekvador-cumhuriyeti", ad:"Ekvador Cumhuriyeti", tur:"cumhuriyet", bolge:"guney-amerika",
   f:"1830-05-13", t:"1923-10-29", baskent:"Quito",
   ozet:"Gran Kolombiya'nın kuzeybatı kanadının 1830'da ayrılmasıyla doğan cumhuriyet. Künyenin f: tarihi RESMÎ çözülmeye (1831) değil, bağlı verinin kullandığı FİİLÎ ayrılma gününe dayanır.",
   kaynak:"bulunamadı — ilk taslakta `mazo4f.com` gösterilmişti; KIRMIZI ÇİZGİ (akademik/güvenilir/bilimsel) gereği DÜŞÜRÜLDÜ, adı verilmeyen 'standart kaynaklar' ifadesi de doğrulanabilir değil. Tarihin dayanağı DURUYOR: f: bağlı veride bu kimliğin kullanıldığı fiilî ayrılma gününe (1830-05-13) hizalandı, uydurulmadı. Akademik kaynak ARANACAK.",
-  kronoloji:[]
+  kronoloji:[
+          { t:"1830-01-01", tur:"kurulus", b:"Ekvador Gran Kolombiya'dan ayrilarak ayri bir cumhuriyet oldu", kaynak:"TDV-AM — AYNEN: «Buyuk Kolombiya'dan 1829'da Venezuela, 1830'da da Ekvador ayrilinca geri kalan kisim Yeni Granada adi ile 1863'e kadar devam etti»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor (1830) ve kunyenin f: yiliyla UYUSUYOR; GUN kunyenin kendi f: degeridir, kaynaktan DOGRULANMADI.  🔴 HASSASIYET DUZELTILDI (kalem 3): kunyenin gunu 1830-05-13 idi, kaynak YIL veriyor (TDV-AM 1830). EB-VE ise «and Ecuador soon after» diyerek 1829'a yakin bir an isaret ediyor — IKI KAYNAK YILDA AYRISIYOR, daha acik olani (TDV, 1830) alindi. Kunye degistirilmedi." }
+        ]
 },
 { id:"venezuela-cumhuriyeti", ad:"Venezuela Cumhuriyeti", tur:"cumhuriyet", bolge:"guney-amerika",
   f:"1830-01-13", t:"1923-10-29", baskent:"Caracas",
   ozet:"Gran Kolombiya'dan 1830 başında kesin olarak ayrılan cumhuriyet. Künye, resmî çözülme yılına değil bağlı verinin kullandığı fiilî ayrılma gününe hizalandı.",
   kaynak:"unellez.edu.ve akademik-kurumsal kaynak ('Venezuela se separa definitivamente de la Gran Colombia') + standart kaynaklar — Venezuela 1830 başında Gran Kolombiya'dan ayrıldı. İLK TASLAKTA f: 'gran-kolombiya'nın resmî çözülme tarihine (1831) hizalanmıştı; bağlı veri daha erken bir fiilî ayrılma tarihi (1830-01-13) KULLANDIĞI için künye o tarihe DÜZELTİLDİ.",
-  kronoloji:[]
+  kronoloji:[
+          { t:"1811-01-01", tur:"isyan", b:"Venezuela Ispanya ile kopusu acikca ilan etti", kaynak:"EB-LA — AYNEN: «Creoles organized revolutionary governments that proclaimed some social and economic reforms in 1810, and in Venezuela they openly declared a break with Spain the following year»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI; olcut geregi YYYY-01-01." },
+          { t:"1821-06-24", tur:"savas", b:"Carabobo zaferi Venezuela'nin kralci ordudan kurtulusunu saglar", kaynak:"EB-VE — AYNEN: «On June 24, 1821, Bolívar's troops … defeated the main royalist army at the Battle of Carabobo»" },
+          { t:"1829-01-01", tur:"kurulus", b:"Venezuela Gran Kolombiya'dan ayrilarak ayri bir cumhuriyet oldu", kaynak:"TDV-AM — AYNEN: «Bolivar tarafindan kurulmus olan Buyuk Kolombiya'dan 1829'da Venezuela, 1830'da da Ekvador ayrilinca geri kalan kisim Yeni Granada adi ile 1863'e kadar devam etti»  🔴 KAYNAK CELISKISI: TDV ayrilmayi 1829 diyor, kunyenin f: degeri 1830-01-13. Gun kunyeden alindi, KAYNAKTAN DOGRULANMADI ve kaynak YILDA DA AYRISIYOR.  🔴🔴 HASSASIYET **VE YIL** DUZELTILDI (kalem 3): kunye 1830-01-13 diyor; IKI BAGIMSIZ KAYNAK 1829 diyor — TDV-AM «1829'da Venezuela … ayrilinca» ve EB-VE «Venezuela broke away in 1829». Kural 'kaynagi izle, kunyeyi degil'. Kunye DEGISTIRILMEDI, fark koordinatore BILDIRILDI.  📌 HANGI SORUYA CEVAP: bu madde **AYRILMA ILANINI** tarihlendiriyor (Paez'in Gran Kolombiya'dan ayrilma hareketini yonetmesi), ayri devletin RESMI KURULUSUNU degil. Kunyenin f: degeri 1830-01-13 buyuk ihtimalle ikinci soruyu cevapliyor — ve bu yamada o soruya AYRI bir madde var (1830-01-01, «Paez Venezuela icin bir anayasa kongresi toplayip devleti kurdu»). Iki tarih CELISMIYOR olabilir; iki AYRI olayi tarihlendiriyorlar. Kunye karari koordinatorde." },
+          { t:"1830-01-01", tur:"kurulus", b:"Paez Venezuela icin bir anayasa kongresi toplayip devleti kurdu", kaynak:"EB-VE — AYNEN: «He led the separation movement from Gran Colombia in 1829 and in 1830 convoked a constitutional convention for Venezuela»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI." },
+          { t:"1831-01-01", tur:"hukumdar", b:"General Jose Antonio Paez ilk kez cumhurbaskanligina gecti", kaynak:"EB-VE — AYNEN: «Páez dominated Venezuelan politics until 1848, both as president (1831–35 and 1839–43) and as a major political player»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI." }
+        ]
 },
 { id:"kolombiya-cumhuriyeti", ad:"Kolombiya Cumhuriyeti (Yeni Granada soyu)", tur:"cumhuriyet", bolge:"guney-amerika",
   f:"1831-01-01", t:"1923-10-29", baskent:"Bogotá",
   ozet:"Gran Kolombiya dağıldıktan sonra Yeni Granada soyunu sürdüren cumhuriyet; atlas boyunca Kolombiya kimliği bu künyeden okunur.",
   kaynak:"Mevcut 'gran-kolombiya' künyesinin t: tarihiyle BİREBİR hizalandı. NOT: bu tek künye 1831-1858 'Yeni Granada', 1863-1886 'Kolombiya Birleşik Devletleri', 1886 sonrası 'Kolombiya Cumhuriyeti' adlarını taşıyan SÜREKLİ siyasî hat — ayrım istenirse söyle.",
-  kronoloji:[]
+  kronoloji:[
+          { t:"1831-01-01", tur:"kurulus", b:"Gran Kolombiya'dan geriye kalan kisim Yeni Granada adiyla devam etti", kaynak:"TDV-AM — AYNEN: «geri kalan kisim Yeni Granada adi ile 1863'e kadar devam etti. Bu tarihte de cumhuriyet ilan edilerek Kolombiya adini aldi»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor ve KUNYE ILE AYRISIYOR — TDV'ye gore 'Kolombiya' adi 1863'te alindi, kunyenin f: degeri ise 1831-01-01 (birligin dagildigi an). Kunye gunu korundu, ayrim burada YAZILI." }
+        ]
 },
 { id:"brezilya-cumhuriyeti", ad:"Brezilya Birleşik Devletleri Cumhuriyeti", tur:"cumhuriyet", bolge:"guney-amerika",
   f:"1889-11-15", t:"1923-10-29", baskent:"Rio de Janeiro",
   ozet:"1889 darbesiyle imparatorluğun yerini alan cumhuriyet; künye imparatorluktan cumhuriyete geçiş gününden başlar.",
   kaynak:"Encyclopedia.com, 'Brazil' — mevcut 'brezilya-imparatorlugu' künyesinin ardılı, Cumhuriyet ilanı (Deodoro da Fonseca darbesi).",
-  kronoloji:[]
+  kronoloji:[
+          { t:"1889-11-15", tur:"kurulus", b:"Askeri darbe imparatorlugu devirip cumhuriyeti kurdu", kaynak:"EB-BR — AYNEN: «A civil-military conspiracy formed, and military officers carried out a coup on November 15, 1889. Pedro II abdicated and went into exile in Europe»" },
+          { t:"1891-02-24", tur:"antlasma", b:"Yeni cumhuriyet anayasasi ilan edildi", kaynak:"EB-BR — AYNEN: «on February 24, 1891, promulgated a new constitution that combined elements of presidential, federal, democratic, and republican forms of government»" },
+          { t:"1891-11-23", tur:"hukumdar", b:"Fonseca istifaya zorlandi, yerine Floriano Peixoto gecti", kaynak:"EB-BR — AYNEN: «he was forced to resign. Floriano Peixoto, the equally militaristic vice president, ascended to office on November 23»" },
+          { t:"1894-01-01", tur:"hukumdar", b:"Ilk sivil cumhurbaskani Prudente de Morais goreve geldi", kaynak:"EB-BR — AYNEN: «In 1894 … Peixoto reluctantly turned over the presidency to the first civilian president, Prudente de Morais, who had served as the first republican governor of coffee-rich São Paulo»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI." }
+        ]
 },
 { id:"dominik-cumhuriyeti", ad:"Dominik Cumhuriyeti", tur:"cumhuriyet", bolge:"orta-amerika-karayip",
   f:"1844-02-27", t:"1923-10-29", baskent:"Santo Domingo",
   ozet:"Hispaniola'nın doğusunda, Haiti yönetiminden 1844'te ayrılarak kurulan cumhuriyet.",
   kaynak:"Encyclopedia.com, 'Dominican Republic' — Juan Pablo Duarte önderliğinde Haiti'den bağımsızlık.",
-  kronoloji:[]
+  kronoloji:[
+          { t:"1844-02-27", tur:"kurulus", b:"Dominik Cumhuriyeti Haiti yönetimine son vererek bağımsızlığını ilan etti", kaynak:"history.state.gov/countries/dominican-republic (US Dept. of State, Office of the Historian) — AYNEN: «the island nation of the Dominican Republic declared itself an independent nation from neighboring Haiti in 1844». 🟡 YIL doğrulandı; 27 Şubat GÜNÜ künyenin kendi f: alanından DEVRALINDI (künye kaynağı Encyclopedia.com) ve TARAFIMDAN DOĞRULANMADI." },
+          { t:"1861-03-17", tur:"isgal", b:"Başkan Santana ülkenin İspanya'ya ilhakını ilan etti, bağımsızlık fiilen sona erdi", kaynak:"countrystudies.us/dominican-republic/6.htm (Library of Congress, Federal Research Division — Country Studies) — AYNEN: «On March 17, 1861, Santana announced the annexation of the Dominican Republic by Spain.» 🟡 Yaygın literatür 18 Mart der; kaynağın verdiği gün 17 Mart, kaynağa uyuldu." },
+          { t:"1863-09-14", tur:"isyan", b:"Santiago'da geçici hükümet kurulup Bağımsızlık Bildirisi okundu, Restorasyon Savaşı başladı", kaynak:"countrystudies.us/dominican-republic/6.htm (LoC Country Studies) — AYNEN: «Rebellious Dominicans set up a provisional government in Santiago…on September 14, 1863. Their proclamation of an Act of Independence launched what is known as the War of Restoration.»" },
+          { t:"1865-03-03", tur:"toprak-kazanc", b:"İspanya Kraliçesi ilhakı yürürlükten kaldıran kararnameyi onayladı, ülke topraklarını geri kazandı", kaynak:"countrystudies.us/dominican-republic/6.htm (LoC Country Studies) — AYNEN: «On March 3, 1865, the Queen of Spain approved a decree repealing the annexation of Santo Domingo.»" },
+          { t:"1865-12-08", tur:"hukumdar", b:"Buenaventura Báez sürgünden dönerek başkanlığı devraldı", kaynak:"countrystudies.us/dominican-republic/6.htm (LoC Country Studies) — AYNEN: «…force the restoration of Báez, who returned triumphantly from exile and assumed the presidency on December 8, 1865.»" }
+        ]
 },
 { id:"kuba-cumhuriyeti", ad:"Küba Cumhuriyeti", tur:"cumhuriyet", bolge:"orta-amerika-karayip",
   f:"1902-05-19", t:"1923-10-29", baskent:"Havana",
   ozet:"İspanyol yönetiminin ve ardından Amerikan askerî idaresinin sona ermesiyle 1902'de kurulan cumhuriyet.",
   kaynak:"US Department of State, Office of the Historian (history.state.gov/countries/cuba) — Paris Antlaşması (1898) sonrası ABD işgali bitti, Küba Cumhuriyeti 19 Mayıs 1902'de resmen kuruldu (Platt Değistirgesi şartıyla).",
-  kronoloji:[]
+  kronoloji:[
+          { t:"1901-06-13", tur:"antlasma", b:"Küba anayasasına Platt Değişikliği'nin sekiz maddesi eklendi, ABD'ye müdahale hakkı tanındı", kaynak:"guides.loc.gov/world-of-1898/teller-platt-amendments (Library of Congress) — 🔴 GÖVDE ÇEKİLEMEDİ (HTTP 403); tarih arama özetinden alındı (Kurucu Meclis 12 Haziran 1901'de kabul, 13 Haziran 1901'de anayasa) ve TARAFIMDAN DOĞRULANMADI. Damgam «ölçülemedi», «doğrulandı» DEĞİL." },
+          { t:"1902-05-19", tur:"kurulus", b:"Küba Cumhuriyeti resmen kuruldu", kaynak:"history.state.gov/countries/cuba (US Dept. of State, Office of the Historian) — AYNEN: «the Republic of Cuba was formally installed on May 19, 1902»" },
+          { t:"1902-05-20", tur:"toprak-kazanc", b:"ABD Küba üzerindeki işgal yetkisini bıraktı, ada yönetimi Küba hükûmetine geçti", kaynak:"history.state.gov/countries/cuba (Office of the Historian) — AYNEN: «On May 20, 1902, the United States relinquished its occupation authority over Cuba»" }
+        ]
 },
 { id:"guatemala", ad:"Guatemala Cumhuriyeti", tur:"cumhuriyet", bolge:"orta-amerika-karayip",
   f:"1821-09-15", t:"1923-10-29", baskent:"Guatemala",
   ozet:"Orta Amerika'nın İspanya'dan ayrılış gününden (15 Eylül 1821) başlayan künye; Orta Amerika Federasyonu dönemi de bu kimlik altında izlenir.",
   kaynak:"Encyclopedia.com, 'Central America, United Provinces of' — İspanya'dan bağımsızlık 15 Eylül 1821 (Orta Amerika Bağımsızlık Bildirgesi); Orta Amerika Federasyonu 1838'de dağılınca Guatemala kendi ayrı devleti oldu. İLK TASLAKTA f: 1838'e (federasyon dağılması) verilmişti; bağlı veri 1821'i KULLANDIĞI için künye o tarihe DÜZELTİLDİ — aralık ölçülerek genişletildi.",
-  kronoloji:[]
+  kronoloji:[
+          { t:"1821-09-15", tur:"kurulus", b:"Orta Amerika toprakları İspanya'dan bağımsızlığını ilan etti", kaynak:"history.state.gov/countries/central-american-federation (Office of the Historian) — «Central American territories declared independence from Spain on September 15, 1821». 🟡 Bu cümle sayfanın arama özetinden alındı; sayfanın kendi gövdesini ayrıca çekmedim." },
+          { t:"1823-01-01", tur:"ittifak", b:"Guatemala, Honduras · Nikaragua · Kosta Rika · El Salvador ile birlikte Orta Amerika Birleşik Eyaletleri'ne katıldı", kaynak:"history.state.gov/countries/guatemala (Office of the Historian) — AYNEN: «Following its independence from Spain in 1821, Guatemala joined the Federation of Central American States in 1823.» 🔴 GÜN BİLİNMİYOR — ölçüt gereği YYYY-01-01 yazıldı, uydurulmadı." },
+          { t:"1839-01-01", tur:"bolunme", b:"Guatemala federasyondan ayrılarak kendi bağımsızlığını ilan etti", kaynak:"history.state.gov/countries/central-american-federation (Office of the Historian) — «In 1839 Guatemala declared its independence of the confederation». 🔴 GÜN BİLİNMİYOR — YYYY-01-01. 🟡 Cümle arama özetinden, gövde ayrıca çekilmedi." },
+          { t:"1847-01-01", tur:"kurulus", b:"Guatemala resmen cumhuriyet ilan edildi", kaynak:"JSTOR — Ralph Lee Woodward, Jr., «Rafael Carrera and the Emergence of the Republic of Guatemala, 1821-1871» (jstor.org/stable/j.ctt46nbc7) — «In 1847 it was officially proclaimed a republic». 🔴 GÜN BİLİNMİYOR — YYYY-01-01. 🟡 Cümle künye/özet düzeyinden alındı, kitabın gövdesi ÇEKİLEMEDİ." },
+          { t:"1871-01-01", tur:"isyan", b:"Liberal Devrim muhafazakâr dönemi devirdi, Justo Rufino Barrios'un öncülük ettiği liberal yönetim başladı", kaynak:"Cambridge Core, The Americas — «Central American Union or Guatemalan Republic? The National Question in Liberal Guatemala, 1871-1885» — «Liberalism was introduced by the 1871 Revolution». 🔴 GÜN BİLİNMİYOR — YYYY-01-01. 🟡 Makalenin gövdesi ÇEKİLEMEDİ, künye ve özet düzeyi." }
+        ]
 },
 { id:"teksas-cumhuriyeti", ad:"Teksas Cumhuriyeti", tur:"cumhuriyet", bolge:"kuzey-amerika",
   f:"1836-03-02", t:"1845-12-29", baskent:"Austin",
@@ -6534,19 +6707,25 @@ window.DEVLETLER = [
   f:"1281-01-01", t:"1470-01-01", baskent:"Chan Chan",
   ozet:"Peru'nun kuzey kıyısında, kerpiç başkenti Chan Chan ile bilinen krallık; İnka tarafından ilhak edildi.",
   kaynak:"World History Encyclopedia, 'Chimu Civilization' — devlet 14.yy ilk yarısında şekillendi (bazı kaynaklar ~850 diyor, ANLAŞMAZLIK VAR), atlas ufku 1281'e hizalandı. Bitiş: İnka fethi 1460-1470 arası, VERİYLE ÖRTÜŞÜYOR (veri t:1470).",
-  kronoloji:[]
+  kronoloji:[
+          { t:"1470-01-01", tur:"son", b:"Chimu, Pachacuti Inca Yupanqui doneminde Inka'ya tabi kilindi", kaynak:"EB-INCA — AYNEN: «Under Pachacuti Inca Yupanqui (1438–71) the Inca conquered territory south to the Titicaca Basin and north to present-day Quito, making subject peoples of the powerful Chanca, the Quechua, and the Chimú»  ⚠️ TARIH HASSASIYETI: kaynak bir ARALIK veriyor (1438-71), tek yil VERMIYOR. Tarih kunyenin kendi t: degeridir (1470) ve o aralik icindedir, ama kaynaktan DOGRULANMADI." }
+        ]
 },
 { id:"colla-krallik", ad:"Colla (Qulla) Krallığı", tur:"krallik", bolge:"guney-amerika",
   f:"1281-01-01", t:"1450-01-01", baskent:"—",
   ozet:"Titicaca gölünün kuzeyinde Aymara konuşan krallık; İnka genişlemesiyle sona erdi.",
   kaynak:"Standart akademik — 12.yy'dan 15.yy ortasına kadar var oldu (Tiwanaku-sonrası Titicaca bölgesi), atlas ufku 1281'e hizalandı. VERİYLE BİREBIR ÖRTÜŞÜYOR.",
-  kronoloji:[]
+  kronoloji:[
+          { t:"1450-01-01", tur:"son", b:"Titicaca Havzasi Pachacuti doneminde Inka fethine ugradi", kaynak:"EB-INCA — AYNEN: «Under Pachacuti Inca Yupanqui (1438–71) the Inca conquered territory south to the Titicaca Basin»  🔴 KAYNAK 'Colla' ADINI ANMIYOR. Titicaca Havzasi ile Colla krallıgi arasindaki bag BENIM CIKARIMIMDIR, kaynakta yazmiyor. Tarih (1450) kunyenin kendi t: degeridir; kaynak yalniz 1438-71 araligi veriyor." }
+        ]
 },
 { id:"lupaqa-krallik", ad:"Lupaqa Krallığı", tur:"krallik", bolge:"guney-amerika",
   f:"1281-01-01", t:"1450-01-01", baskent:"—",
   ozet:"Titicaca gölünün batı kıyısında Aymara konuşan siyasî merkez; kesin kuruluş tarihi bulunamadı, künye verinin kullandığı aralığa dayanır.",
   kaynak:"Britannica, 'Lupaca' + Diálogo Andino (akademik dergi makalesi, 'El Reino Lupaqa: Articulación') — Titicaca gölü kıyısında Aymara konuşan siyasî merkez, kesin kuruluş tarihi bulunamadı. VERİYLE BİREBİR ÖRTÜŞÜYOR.",
-  kronoloji:[]
+  kronoloji:[
+          { t:"1450-01-01", tur:"son", b:"Titicaca Havzasi Pachacuti doneminde Inka fethine ugradi", kaynak:"EB-INCA — AYNEN: «Under Pachacuti Inca Yupanqui (1438–71) the Inca conquered territory south to the Titicaca Basin»  🔴 KAYNAK 'Lupaqa' ADINI ANMIYOR. Bag BENIM CIKARIMIMDIR. Tarih (1450) kunyenin kendi t: degeridir; kaynak yalniz 1438-71 araligi veriyor." }
+        ]
 },
 { id:"diaguita-calchaqui-konfederasyonu", ad:"Diaguita-Calchaquí Konfederasyonu", tur:"devlet", bolge:"guney-amerika",
   f:"1281-01-01", t:"1667-01-02", baskent:"—",
@@ -6558,37 +6737,53 @@ window.DEVLETLER = [
   f:"1281-01-01", t:"1883-01-01", baskent:"—",
   ozet:"Bío Bío'nun güneyinde, önce İspanya'ya sonra Şili'ye karşı bağımsızlığını koruyan Mapuche toprağı; İspanyol devleti sınırı antlaşmayla TANIMIŞTI. Künyenin bitişi Şili'nin Araucanía harekâtının sonudur.",
   kaynak:"Standart akademik — kesin kuruluş tarihi yok (Güney Şili/Arjantin yerli halkı), atlas ufku 1281'e hizalandı. Bitiş: Şili'nin 'Araukanya'nın Barışa Kavuşturulması' seferinin sonu (1883, tanınan bir tarih).",
-  kronoloji:[]
+  kronoloji:[
+          { t:"1553-01-01", tur:"savas", b:"Lautaro onderligindeki Araukanlar Valdivia'yi yenip olduruldu", kaynak:"EB-AW — AYNEN: «in 1553 he and his followers were defeated by the Araucanians under Lautaro, a chief who had previously spent two years in Valdivia's service»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI." },
+          { t:"1558-01-01", tur:"savas", b:"Sef Caupolican'in idamindan sonra Ispanyollar Mapuche'yi Biobio'nun guneyine itti", kaynak:"EB-AW — AYNEN: «Another chief, Caupolicán, continued the fight until his capture by treachery and subsequent execution by the Spaniards in 1558. Thereafter the Spaniards pushed the Mapuche into the forest region south of the Biobío, which remained the boundary between the two peoples for the next three centuries»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI." },
+          { t:"1883-01-01", tur:"son", b:"Sili ordusu kalan Araukanlar'i bastirdi, antlasmalarla rezervasyonlara yerlestirildiler", kaynak:"EB-AW — AYNEN: «In the 19th century, after the Chileans had annexed slices of Peruvian and Bolivian territory in the War of the Pacific (1879–84), they subdued the remaining Araucanians in the south … After the Araucanians were defeated at the hands of the Chilean army, they signed treaties with the Chilean government and were settled on reservations farther to the south»  ⚠️ TARIH HASSASIYETI: kaynak YIL VERMIYOR, yalniz 'Pasifik Savasi'ndan (1879-84) SONRA' diyor. Tarih kunyenin kendi t: degeridir (1883) ve o araliga duser, ama kaynaktan DOGRULANMADI." }
+        ]
 },
 { id:"muisca-konfederasyonu", ad:"Muisca Konfederasyonu", tur:"devlet", bolge:"guney-amerika",
   f:"1281-01-01", t:"1537-08-01", baskent:"—",
   ozet:"Bogotá yaylasında zipa ve zaque önderliğindeki iki büyük beyliğin oluşturduğu birlik; İspanyol fethiyle sona erdi.",
   kaynak:"World History Encyclopedia, 'Muisca Civilization' — ~800 CE'de Cundiboyacense yaylasında oluştu, atlas ufku 1281'e hizalandı. Bitiş: İspanyol fethi 1537-1540 (Military History Wiki 'Spanish conquest of the Muisca'), VERİYLE ÖRTÜŞÜYOR.",
-  kronoloji:[]
+  kronoloji:[
+          { t:"1536-01-01", tur:"savas", b:"Quesada 900 kisilik seferi Magdalena boyunca Chibcha ulkesine surdu", kaynak:"EB-GJQ — AYNEN: «The following year, although he had no military experience, Quesada led an expedition of 900 men up the Magdalena River into the interior of New Granada»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor (1535'in ertesi = 1536), GUN VE AY BULUNAMADI." },
+          { t:"1537-01-01", tur:"son", b:"Quesada'nin seferi Chibcha (Muisca) siyasi yapisini cokertti", kaynak:"EB-GJQ — AYNEN: «the expedition succeeded in penetrating the great central plain of Colombia—the land of the Chibcha Indians … The ruler of the Chibchas, the Zipa of Bogotá, fled as Quesada's army approached, and the conquest appeared to be accomplished. Toward the end of 1538, however, two rival conquistadores … challenged Quesada's claim»  ⚠️ TARIH HASSASIYETI: kaynak GUN VERMIYOR; sefer 1536'da basladi, sekiz ay surdu ve 1538 sonunda rakipler geldi ⇒ fetih 1537 civari. Kunyenin t: degeri 1537-08-01; GUN kaynaktan DOGRULANMADI." }
+        ]
 },
 { id:"nahua-sehir-devletleri", ad:"Nahua Şehir-Devletleri (Altepetl'ler)", tur:"devlet", bolge:"orta-amerika-karayip",
   f:"1281-01-01", t:"1521-08-13", baskent:"—",
   ozet:"Meksika vadisinde Nahuatl konuşan altepetl'lerin TOPLU künyesi (tek bir devlet DEĞİL). Üçlü İttifak'ın dışında kalan şehir devletlerini de kapsar; künyenin bitişi Tenochtitlan'ın düşüşüdür.",
   kaynak:"Standart akademik — çoklu bağımsız şehir-devlet sistemi, TEK kuruluş tarihi olamaz (doğası gereği). Bitiş: Tenochtitlan'ın düşüşü, VERİYLE ÖRTÜŞÜYOR (veri en geç t:1521-08-13, Tlaxcala/Huexotzinco).",
-  kronoloji:[]
+  kronoloji:[
+          { t:"1325-01-01", tur:"kurulus", b:"Mexica'lar göl ortasındaki adada Tenochtitlan'ı kurdu, Nahua altepetl sisteminin merkezi oldu", kaynak:"TDV `amerika` (islamansiklopedisi.org.tr/amerika, HTTP 200, gövde 75.093 karakter — boilerplate DEĞİL, ölçüldü) — gövdede AYNEN: «1325 yılında Tenoçtitlan (bugünkü Mexico City) şehrini kuran Aztekler İspanyollar'ın saldırılarına kadar medeniyetlerini sürdürdüler.» 🔴 GÜN BİLİNMİYOR — YYYY-01-01." },
+          { t:"1521-08-13", tur:"son", b:"Tenochtitlan'ın düşmesiyle bağımsız Nahua şehir-devletleri düzeni sona erdi", kaynak:"TDV `amerika` — gövdede AYNEN: «1519'da Meksika'yı almak için başlattıkları savaşta Aztek İmparatorluğu'nu da yıkarak iki yıl içerisinde bölgeye yerleştiler (1521).» 🟡 YIL doğrulandı; 13 Ağustos GÜNÜ künyenin kendi t: alanından devralındı, TDV gün vermiyor." }
+        ]
 },
 { id:"purepecha-imparatorlugu", ad:"Purépecha (Tarasko) İmparatorluğu", tur:"imparatorluk", bolge:"orta-amerika-karayip",
   f:"1300-01-01", t:"1530-02-14", baskent:"Tzintzuntzan",
   ozet:"Michoacán'da Uacúsecha hanedanının kurduğu, Azteklere hiç boyun eğmemiş imparatorluk; metal işçiliğiyle tanınır. İspanyol fethiyle sona erdi.",
   kaynak:"bulunamadı — ilk taslakta 'World History Encyclopedia + Study.com' vardı; `Study.com` ticarî ödev sitesidir ve KIRMIZI ÇİZGİ gereği DÜŞÜRÜLDÜ, WHE ise tek dayanak olamaz. Tarihin dayanağı DURUYOR: f:/t: bağlı verinin kullandığı aralığa (1300 / 1530-02-14 İspanyol fethi) hizalandı. Akademik kaynak ARANACAK.",
-  kronoloji:[]
+  kronoloji:[
+          { t:"1530-01-01", tur:"son", b:"Son irecha Tzintzicha Tangaxuan, Nuño de Guzmán'ın yargılaması sonunda idam edildi ve bağımsız Purépecha yönetimi sona erdi", kaynak:"BİRİNCİL KAYNAK NEŞRİ — «Proceso contra Tzintzicha Tangaxoan el Caltzontzin formado por Nuño de Guzmán, Año de 1530», yay. haz. France V. Scholes & Eleanor B. Adams, México: Porrúa y Obregón, 1952. Neşrin KENDİ BAŞLIĞI yargılamayı «Año de 1530» diye tarihliyor. 🔴 GÜN BİLİNMİYOR — YYYY-01-01. 🟡 Künyedeki 1530-02-14 GÜNÜ bu kaynakta YOK ve doğrulanmadı. 🟡 İkincil bir özet 1529 diyordu; birincil neşrin başlığı 1530 diyor — 1529'u ÇÜRÜTMÜYORUM (iki gövdeyi de okumadım), yalnız künyenin yılını DESTEKLEYEN dayanağı kayda geçiriyorum." }
+        ]
 },
 { id:"tututepec-krallik", ad:"Tututepec Krallığı (Yucu Dzaa)", tur:"krallik", bolge:"orta-amerika-karayip",
   f:"1281-01-01", t:"1522-01-01", baskent:"—",
   ozet:"Oaxaca kıyısında Mikstek genişlemesinin merkezi olan krallık (Yucu Dzaa); İspanyol fethiyle sona erdi.",
   kaynak:"Cambridge Core, 'Tututepec' (Ancient Mesoamerica dergisi) + Oxford Handbook of the Aztecs, 'Tututepec: A Mixtec Imperial Capital' — 11.yy'da Sekiz Geyik Jaguar Pençesi liderliğinde yükseldi, Mixtek yayla-kıyı birleşimini sağlayan tek devlet. Atlas ufku 1281'e hizalandı.",
-  kronoloji:[]
+  kronoloji:[
+          { t:"1522-01-01", tur:"son", b:"İspanyolların Oaxaca kıyısına ulaşmasıyla Tututepec'in (Yucu Dzaa) bağımsız hâkimiyeti sona erdi", kaynak:"Cambridge Core, Ancient Mesoamerica — 'TUTUTEPEC: A Postclassic-period Mixtec conquest state' — AYNEN: «The empire dominated the Oaxaca Coast until the arrival of the Spaniards in the early 1520s.» 🔴 KAYNAK «1520'lerin başı» DİYOR, GÜN VE KESİN YIL VERMİYOR; 1522 künyenin kendi t: alanından devralındı (künye kaynağı: Cambridge Core + Oxford Handbook of the Aztecs)." }
+        ]
 },
 { id:"zapotek-krallik", ad:"Zapotek Krallığı", tur:"krallik", bolge:"orta-amerika-karayip",
   f:"1281-01-01", t:"1523-01-01", baskent:"—",
   ozet:"Oaxaca vadisinde Zapotek siyasî geleneğini sürdüren krallık; İspanyol fethiyle sona erdi.",
   kaynak:"Standart akademik (LAC Geo, 'The Zapotec & Mixtec: Builders of Mountain Kingdoms') — Oaxaca vadisinde uzun süreli siyasî yapı, atlas ufku 1281'e hizalandı. Bitiş tarihi nokta verisinde var (İspanyol fethi dönemi), doğrulandı.",
-  kronoloji:[]
+  kronoloji:[
+          { t:"1440-01-01", tur:"toprak-kazanc", b:"Zaachila hânedanı yönetim merkezini Tehuantepec'e taşıdı, Guiengola kalesini kurarak kıstağa yerleşti", kaynak:"Cambridge Core, Ancient Mesoamerica — 'Airborne lidar at Guiengola, Oaxaca: Mapping a Late Postclassic Zapotec city' — AYNEN: «In the 1440s, Cocijopii I, a later ruler of the Zaachila dynasty, permanently moved the seat of government to Tehuantepec, erecting Guiengola as a fortress to defend against the hostilities of advancing Postclassic powers, especially the Mexica armies.» 🔴 GÜN VE KESİN YIL BİLİNMİYOR (kaynak «in the 1440s» diyor) — YYYY-01-01." }
+        ]
 },
 
 // ===================================================================
@@ -6645,7 +6840,11 @@ window.DEVLETLER = [
   f:"1903-11-03", t:"1923-10-29", baskent:"Panamá (Panama City)",
   ozet:"Kolombiya'dan ayrılarak kurulan cumhuriyet; kanal bölgesinin ABD'ye devri aynı yıl imzalanan antlaşmayla oldu. Künyenin bitişi atlasın ufkudur, devletin sonu DEĞİL.",
   kaynak:"Standart akademik — Encyclopaedia Britannica \"Panama City\" md.: \"In 1903 independence from Colombia was declared there.\" 3 Kasım 1903 ayrılığın genel kabul gören günüdür. TDV `amerika` md. Panama kıstağını yalnız keşif bağlamında anıyor, cumhuriyeti KAPSAMIYOR (§4 tanecik boşluğu).",
-  kronoloji:[]
+  kronoloji:[
+          { t:"1903-11-03", tur:"kurulus", b:"Panamalılar Kolombiya'ya karşı ayaklanarak bağımsız Panama Cumhuriyeti'ni ilan etti", kaynak:"history.state.gov/countries/panama (Office of the Historian) — AYNEN: «Panamanians had revolted against the Colombian government, declared an independent Republic of Panama» (3 Kasım 1903). Ayrıca TDV `amerika` maddesi gövdesinde AYNEN: «Kolombiya'ya bağlı olan Panama ise 1903'te ayrılarak bağımsızlığını kazandı.»" },
+          { t:"1903-11-18", tur:"antlasma", b:"Hay–Bunau-Varilla Antlaşması imzalandı, ABD'ye kanal bölgesi üzerinde kalıcı haklar tanındı", kaynak:"history.state.gov/milestones/1899-1913/panama-canal (Office of the Historian) — «On November 18, 1903, the United States signed the Hay-Bunau-Varilla Treaty, establishing permanent U.S. rights to a Panama Canal Zone». 🟡 Cümle arama özetinden alındı; milestone sayfasının gövdesini ayrıca çekmedim." },
+          { t:"1903-11-18", tur:"toprak-kayip", b:"Aynı antlaşmayla kıstağı boydan boya kesen 10 millik Kanal Bölgesi ABD denetimine bırakıldı", kaynak:"history.state.gov/milestones/1899-1913/panama-canal — «a Panama Canal Zone that stretched across the isthmus… a 10-mile wide strip of land». 🟡 aynı sayfa, aynı damga: gövde ayrıca çekilmedi." }
+        ]
 },
 // 🔴 VE BU KÜNYE, YAZANIN KENDİ ÖNERİSİNİ ÇÜRÜTEREK GELDİ — 2 Eylül 2026.
 //   İlk öneri `1232 → 1517-05-01`di. Koordinatör *"`§3.5.1`: devletin
@@ -6702,25 +6901,55 @@ window.DEVLETLER = [
   f:"1852-01-01", t:"1902-05-31", baskent:"Pretoria",
   ozet:"Vaal'in kuzeyindeki Afrikaner cumhuriyeti; bağımsızlığı İngiltere 1852 Sand River Konvansiyonu'yla TANIDI. II. Boer Savaşı'nı bitiren Vereeniging Barışı'yla ilhak edildi. ⚠️ `f:` YIL BEYANIDIR — 1852'nin günü kaynakta yok, `YYYY-01-01` kuralı uygulandı; `t:` ise KESİN GÜNDÜR.",
   kaynak:"Cambridge University Press — 'English in Multilingual South Africa' içindeki Güney Afrika tarih kronolojisi (üniversite yayını). Sand River Konvansiyonu 1852 (gün kaynakta YOK, yıl beyanı); Vereeniging Barış Antlaşması 31 Mayıs 1902, kesin gün. South African History Online aynı tarihleri veriyordu ama TEK DAYANAK yapılmadı.",
-  kronoloji:[]
+  kronoloji:[
+          { t:"1852-01-17", tur:"kurulus", b:"Sand River Konvansiyonu ile Britanya Vaal ırmağının ötesindeki bütün otorite iddialarından vazgeçti ve Transvaal Boerlerinin bağımsızlığını tanıdı", kaynak:"South African History Online, dated-event 'Sand River Convention' — gövdede AYNEN: «Britain renounces all claims to authority beyond the Vaal River», tarih 17 January 1852. YIL teyidi bağımsız ikinci kaynaktan: TDV `guney-afrika-cumhuriyeti` (200, gövde okundu) «1852-1854: Transvaal ve Orange cumhuriyetlerinin bağımsızlığı tanındı»." },
+          { t:"1877-04-12", tur:"isgal", b:"Theophilus Shepstone ilhak beyannamesini Pretoria'daki Kilise Meydanı'nda okuyarak cumhuriyeti Britanya'ya kattı", kaynak:"South African History Online — «On 12 April 1877 a proclamation of annexation was read out in Church Square in Pretoria, the capital of the Transvaal Republic.» YIL teyidi: TDV `guney-afrika-cumhuriyeti` «1877: İngilizlerin Transvaal'i ilhakı»." },
+          { t:"1881-02-27", tur:"savas", b:"Majuba Tepesi Muharebesi'nde Boerler İngiliz kuvvetlerini bozguna uğrattı ve Birinci Boer Savaşı'nı kazandı", kaynak:"South African History Online, dated-event 'The First Anglo-Boer War: Boers defeat the British at the Battle of Majuba' — 27 February 1881. YIL teyidi: TDV `guney-afrika-cumhuriyeti` «1881: Majuba Hill Savaşı'nda Boerlerin zaferi»." },
+          { t:"1881-08-03", tur:"antlasma", b:"Pretoria Konvansiyonu ile Transvaal, Kraliçe'nin metbûluğu altında tam iç muhtariyet kazandı", kaynak:"South African History Online arşivi — belgenin kendi başlığı: «The convention of Pretoria, 'Convention' for the Settlement of the Transvaal Territory, 3 August 1881»." },
+          { t:"1884-02-27", tur:"antlasma", b:"Londra Konvansiyonu batı sınırını yeniden çizdi ve Britanya'nın metbûluk iddiasına yapılan bütün atıfları metinden çıkardı", kaynak:"Encyclopaedia Britannica, 'London Convention (United Kingdom-Transvaal, 1884)' ve 'Sir Hercules Robinson' maddeleri — «concluded a new convention in London on February 27, 1884, which rectified the western border and removed any reference to British suzerainty over the Transvaal»." },
+          { t:"1895-12-29", tur:"isyan", b:"Jameson Baskını başladı: İngiliz görevlileri ve maden sanayii önderleri Transvaal hükûmetini devirmek için silâhlı bir akın düzenledi ve 2 Ocak 1896'da başarısız oldu", kaynak:"Encyclopaedia Britannica, 'Jameson Raid (1895)' — «began on December 29, 1895, and ended on January 2, 1896»." },
+          { t:"1897-01-01", tur:"ittifak", b:"Transvaal ile Oranj Hür Devleti arasında savunma ittifakı kuruldu", kaynak:"Encyclopaedia Britannica, 'Orange Free State' ve 'Marthinus Theunis Steyn' maddeleri — «a defensive alliance», Steyn başkanlığında 1897'de akdedildi." },
+          { t:"1899-10-11", tur:"savas", b:"İkinci Boer Savaşı başladı; Transvaal ve Oranj Hür Devleti birlikte Britanya'ya karşı savaşa girdi", kaynak:"Encyclopaedia Britannica, 'South African War' — «occurred from October 11, 1899, to May 31, 1902». YIL teyidi: TDV `guney-afrika-cumhuriyeti` «1899-1902: İkinci Boer Savaşı»." },
+          { t:"1900-01-01", tur:"toprak-kayip", b:"Britanya Haziran 1900'de başşehir Pretoria'yı işgal etti ve Eylül 1900'de Transvaal'i resmen ilhak ettiğini ilân etti", kaynak:"Encyclopaedia Britannica, 'South African Republic' — «The British were able to occupy the capital, Pretoria, in June 1900, and in September they formally annexed the Transvaal.»" },
+          { t:"1902-05-31", tur:"son", b:"Vereeniging Barışı ile Transvaal bağımsızlığını yitirdi ve İngiliz sömürgesi hâline geldi", kaynak:"Künyenin kendi `kaynak` alanındaki Cambridge University Press kronolojisi (üniversite yayını) ile Encyclopaedia Britannica 'South African War' (bitiş 31 Mayıs 1902) BAĞIMSIZ olarak aynı günü veriyor." }
+        ]
 },
 { id:"oranj", ad:"Oranj Hür Devleti (Oranje Vrijstaat)", tur:"cumhuriyet", bolge:"guney-afrika",
   f:"1854-04-07", t:"1902-05-31", baskent:"Bloemfontein",
   ozet:"Oranj ile Vaal arasındaki Afrikaner cumhuriyeti; İngiliz egemenliğinin bırakılmasından üç hafta sonra anayasasını kabul etti. Transvaal ile aynı gün, Vereeniging Barışı'yla sona erdi. 🔴 İKİ ADAY TARİH VARDI ve seçim GİZLENMİYOR: 1853 (ilan) ile 7 Nisan 1854 (anayasanın kabulü). İkincisi seçildi çünkü GÜN hassasiyetinde ve kuruluşu belgeleyen işlemdir; 1853 tercih edilirse gerekçe çökmez, yalnız hassasiyet düşer.",
   kaynak:"Cambridge University Press — 'English in Multilingual South Africa' kronolojisi (üniversite yayını): Bloemfontein Konvansiyonu 1854, anayasa 7 Nisan 1854'te kabul edildi. Bitiş: Vereeniging, 31 Mayıs 1902.",
-  kronoloji:[]
+  kronoloji:[
+          { t:"1854-02-23", tur:"antlasma", b:"Bloemfontein Konvansiyonu ile Britanya Oranj ırmağı ötesindeki hâkimiyetinden vazgeçti", kaynak:"South African History Online, dated-event 'The Bloemfontein Convention is signed' — 23 February 1854, Green Lodge'da Sir George Clerk ile yirmi beş 'halk temsilcisi' arasında imzalandı; metinde ayrıca yerli halklarla antlaşmalar, köleliğin yasaklanması ve ticaretin düzenlenmesi hükümleri var." },
+          { t:"1854-04-07", tur:"kurulus", b:"Oranj Hür Devleti anayasası kabul edildi ve cumhuriyet resmen kuruldu", kaynak:"South African History Online, dated-event 'Adoption of the Orange Free State constitution' — 7 Nisan 1854. Künyenin kendi `f:` günüyle BİREBİR aynı." },
+          { t:"1858-03-19", tur:"savas", b:"Başkan Boshof Basotho'ya savaş ilân etti ve Birinci Basotho (Senekal) Savaşı başladı", kaynak:"South African History Online, 'Basotho Wars 1858-1868' — «Boshof declaring war on the Basotho on 19 March 1858»." },
+          { t:"1865-01-01", tur:"savas", b:"Oranj Hür Devleti İkinci Basotho Savaşı'nı (Sesotho'da Seqiti Savaşı) başlattı", kaynak:"South African History Online, 'Basotho Wars 1858-1868' — «In 1865, the Orange Free State launched the Second Basotho War known in Sesotho as the Seqiti War»." },
+          { t:"1866-04-11", tur:"antlasma", b:"Moshoeshoe erzak tükenmesi üzerine Thaba Bosiu Barışı'nı kabul etmek zorunda kaldı", kaynak:"South African History Online, 'Basotho Wars 1858-1868' — «Moshoeshoe was then compelled to accept the peace of Thaba Bosiu on 11 April 1866, due an exhaustion of Basotho food supplies»; Encyclopaedia Britannica'nın 'Treaty of Thaba Bosiu (South Africa, 1866)' maddesi BAĞIMSIZ olarak aynı antlaşmayı kaydediyor." },
+          { t:"1869-01-01", tur:"toprak-kazanc", b:"Aliwal-North Konvansiyonu ile Basotho'dan alınan 'Fethedilen Topraklar' Oranj Hür Devleti'nde kaldı ve sınır güneye, Langeberg'e çekildi", kaynak:"South African History Online — «In February 1869, the boundaries of present day Lesotho (previously Basutoland) were then drawn up according to the Convention of Aliwal-North … This convention gave the Conquered Territory to the Free State, and the boundary line was moved further south to Langeberg.»" },
+          { t:"1871-10-27", tur:"toprak-kayip", b:"Elmas tarlaları Griqualand West adıyla İngiliz toprağı ilân edildi ve Oranj Hür Devleti'nin bölge üzerindeki iddiası reddedildi", kaynak:"Encyclopaedia Britannica, 'Griqualand West' — «On 27 October 1871 the diamond fields were proclaimed a British territory under the name of Griqualand West»; aynı gövde bölgeyi Oranj, Transvaal, Waterboer'in Griqualarının ve güney Tsvana şeflerinin AYNI ANDA talep ettiğini yazıyor." },
+          { t:"1876-01-01", tur:"antlasma", b:"Britanya elmas tarlalarının kaybı karşılığında Oranj Hür Devleti'ne 90.000 sterlin tazminat ödemeyi kabul etti", kaynak:"South African History Online, 'Colonial history of Bloemfontein' — «In March 1876, President Brand undertook a deputation to Britain to discuss compensation for Bloemfontein's loss of the diamond fields. It was decided that Britain would pay a sum of 90 000 pounds as damages to the OFS.»" },
+          { t:"1897-01-01", tur:"ittifak", b:"Başkan Steyn önderliğinde Transvaal ile savunma ittifakı akdedildi", kaynak:"Encyclopaedia Britannica, 'Orange Free State' ve 'Marthinus Theunis Steyn' — «A Free State–Transvaal alliance was concluded in 1897, under the leadership of Orange Free State president Marthinus Steyn» ve «with which it had a defensive alliance when the South African War broke out in 1899»." },
+          { t:"1899-10-11", tur:"savas", b:"Oranj Hür Devleti ittifak gereği kardeş cumhuriyet Transvaal'in yanında İkinci Boer Savaşı'na girdi", kaynak:"Encyclopaedia Britannica, 'South African War' (11 Ekim 1899) ve 'Orange Free State' — «fought against Britain by the side of its sister state»." },
+          { t:"1902-05-31", tur:"son", b:"Vereeniging Barışı ile Oranj Hür Devleti bağımsızlığını yitirdi", kaynak:"Künyenin kendi `kaynak` alanındaki Cambridge University Press kronolojisi ile Britannica 'Peace of Vereeniging' aynı günü veriyor." }
+        ]
 },
 { id:"mutapa", ad:"Mwene Mutapa (Monomotapa)", tur:"imparatorluk", bolge:"guney-afrika",
   f:"1450-01-01", t:"1695-01-01", baskent:"—",
   ozet:"Zambezi ile Limpopo arasında altın ve fildişi ticaretiyle yükselen imparatorluk; Portekizlilerle hem ticaret hem savaş ilişkisi kurdu, Rozvi'nin yükselişiyle sona erdi. ⚠️ İKİ UÇ DA YÜZYIL DÜZEYİNDEDİR, KESİN GÜN DEĞİL ve bu gizlenmiyor: kaynak 'devlet EN AZ on beşinci yüzyıla dayanır' diyor — yani 1450 bir ALT SINIRDIR, kuruluş yılı değil.",
   kaynak:"Cambridge Journal of African History (hakemli) — Rozvi ve Mutapa hanedan çalışmaları: 'the state dated back to AT LEAST the fifteenth century'; Dombo'nun (Portekiz belgelerinde Changamire) savaşları 1684-95, Danangombe'nin başkent oluşu radyokarbonla XVII. yüzyıl sonu. İKİNCİ KAYNAK bağımsız olarak aynı pencereyi veriyor — TDV `zimbabve`: 'XV. yüzyılın ikinci yarısında' imparatorluk, 'XVII. yüzyılın sonlarında … Rozvi hanedanının yükselişiyle ortadan kalktı'.",
-  kronoloji:[]
+  kronoloji:[
+          { t:"1569-01-01", tur:"savas", b:"Portekiz kralı Sebastian, Francisco Barreto'yu Mwene Mutapa üzerine sefere memur etti; sefer Portekiz otoritesini kurmayı, Manika altın madenlerini ele geçirmeyi ve öldürülen misyonerin öcünü almayı hedefliyordu", kaynak:"Encyclopaedia Britannica, 'Francisco Barreto' — «In 1569 Barreto was entrusted by King Sebastian of Portugal with an expedition to the empire of Mwene Matapa in southeastern Africa to assert Portuguese authority over the area, capture the gold mines of Manica, and avenge the murder of a missionary»; sefer Zambezi vadisi yolundan 1572'de yürüdü, Barreto Sena'da öldü." },
+          { t:"1629-01-01", tur:"hukumdar", b:"Mavura, amcası Kapranzine'yi Portekiz yardımıyla tahttan indirerek Mwene Mutapa oldu", kaynak:"Encyclopaedia Britannica, 'Mavura' — «Mavura enlisted Portuguese aid in deposing his uncle Kapranzine as emperor in 1629»; 'Mwene Matapa' maddesi aynı yılı bağımsız olarak veriyor: «When the reigning Mwene Matapa attempted to expel them in 1629, they deposed him and forced his successor to grant them extensive trading and mining privileges.»" },
+          { t:"1629-01-01", tur:"antlasma", b:"Mavura Hıristiyanlığı kabul edip Filipe adını aldı, Portekiz kralına tâbiiyet yemini etti ve Portekizlilere geniş ticaret ve madencilik imtiyazları verdi", kaynak:"Encyclopaedia Britannica, 'Mavura' — «Mavura enlisted Portuguese aid in deposing his uncle Kapranzine as emperor in 1629 … Converting to Christianity, he took the name Filipe and swore vassalage to the king of Portugal»; 'Mwene Matapa' — «When the reigning Mwene Matapa attempted to expel them in 1629, they deposed him and forced his successor to grant them extensive trading and mining privileges»." },
+          { t:"1695-01-01", tur:"son", b:"Changamire Dombo'nun seferleriyle Mutapa'nın iç bölgelerdeki gücü kırıldı ve devlet Rozvi hâkimiyetine geçti", kaynak:"Encyclopaedia Britannica, 'Changamire dynasty' — «From 1693 to 1695 the Changamire empire drove the Portuguese from all their stations in the interior during a campaign against the remainder of the Mbire empire»; künyenin kendi kaynağındaki Journal of African History beyanı Dombo'nun savaşlarını 1684-95'e koyuyor." }
+        ]
 },
 { id:"zimbabve-kralligi", ad:"Büyük Zimbabve Krallığı", tur:"krallik", bolge:"guney-afrika",
   f:"1281-01-01", t:"1450-01-01", baskent:"Büyük Zimbabve",
   ozet:"Zimbabve platosunda taş surlarıyla bilinen krallık; başkenti ~1450'de terk edildi — iç bölge aşırı kalabalık şehri artık besleyemiyordu ve ormansızlaşma ilerlemişti. 🔴 `f:` BİR KURULUŞ TARİHİ DEĞİL, ATLASIN UFKUDUR (1281). Kaydı araştıran oturum kuruluş için kaynak BULAMADI ve tarih UYDURMAYI REDDETTİ; krallık bu tarihten önce de vardır. Künye 1281'den geride olmasaydı `Değişmez 4` öterdi.",
   kaynak:"UNESCO Dünya Mirası, Büyük Zimbabve kaydı — 'About 1450, the capital was abandoned'; Oxford Research Encyclopedia of African History. ⚠️ KURULUŞ TARİHİ BULUNAMADI — arandı, okunan kaynaklarda yok. `f:` alanındaki 1281 atlasın ufkudur, kaynaktan gelen bir tarih DEĞİLDİR.",
-  kronoloji:[]
+  kronoloji:[
+          { t:"1450-01-01", tur:"son", b:"Büyük Zimbabve'nin başşehri terk edildi ve krallık dağıldı", kaynak:"UNESCO Dünya Mirası, Büyük Zimbabve kaydı — «About 1450, the capital was abandoned». Künyenin kendi `kaynak` alanı da aynı kaydı ve Oxford Research Encyclopedia of African History'yi anıyor." }
+        ]
 },
 
 // ===================================================================
@@ -6738,12 +6967,24 @@ window.DEVLETLER = [
   f:"1818-01-01", t:"1862-01-01", baskent:"Hamdullahi",
   ozet:"Nijer İç Deltası'nda Seku Amadu (Ahmedu Lobbo) tarafından kurulan Fulani halifeliği; Cenne ve Tinbuktu'yu hâkimiyeti altına aldı. Umar Taal'ın birlikleri yedi günlük savaşın ardından başkent Hamdallahi'ye girince sona erdi. ⚠️ İki uç da YIL BEYANIDIR (gün kaynakta yok); ama kaynak devleti 'kırk dört yıllık' diye niteliyor ve 1818+44=1862 — yani iki tarih birbirini KENDİ İÇİNDE doğruluyor.",
   kaynak:"Cambridge History of Africa / Journal of African History (hakemli). Birebir: '1818'de Seku Amadu … Delta'da Maasina Halifeliğini KURDU'; 'halifelik Cenne ve Tinbuktu'nun eski şehirlerini hâkimiyeti altına aldı, başkenti HAMDULLAHİ'; '1862'de Umar Taal'ın birlikleri yedi günlük bir savaşın ardından başkent Hamdallahi'ye girdi'. İKİNCİ KAYNAK bağımsız doğruluyor — TDV `mali`: 'Massina Devleti: Ahmedu Lobbo tarafından kurulmuş, sınırları Cenne'den Tinbuktu'ya uzanıyordu'; TDV `cenne` 1830 cami inşasını Ahmedu Lobbo'ya bağlıyor.",
-  kronoloji:[]
+  kronoloji:[
+          { t:"1818-01-01", tur:"kurulus", b:"Fulani âlimi Seku Amadu ve taraftarları Nijer içdeltasında bir din devleti kurup Hamdullahi'yi başşehir yaptı", kaynak:"Künyenin kendi `kaynak` alanı Cambridge History of Africa / Journal of African History'yi (hakemli) birebir alıntılıyor: «1818'de Seku Amadu … Delta'da Maasina Halifeliğini KURDU». History in Africa (Cambridge, hakemli) bağımsız olarak aynı yılı veriyor: «In 1818, a Fulani Muslim scholar of humble origins named Seeku Amadu and his followers created the laamu diina (theocratic state), a caliphate centered around a new capital city they erected, named Ḥamdullāhi»." },
+          { t:"1862-01-01", tur:"savas", b:"El-Hâc Ömer Tal'in kuvvetleri başşehir Hamdullahi'yi ele geçirdi ve Emîr Ahmed muharebede öldü", kaynak:"TDV `el-hac-omer` (200, gövde okundu) — «Hamdallahi: 1862 — Masina başşehri ele geçirildi; Emîr Ahmed muharebede öldü»; History in Africa (Cambridge) bağımsız olarak «In 1862, Umar Taal's troops entered Hamdallahi … following a seven-day battle» diyor." },
+          { t:"1862-01-01", tur:"son", b:"Başşehrin düşmesiyle Masina Halifeliği sona erdi ve toprakları Umarî devletine katıldı", kaynak:"History in Africa (Cambridge, hakemli) — «The caliphate was short-lived: it fell in 1862, invaded by troops led by al-Ḥājj ʿUmar Taal of Fuuta Tooro»; TDV `el-hac-omer` aynı yılı veriyor." }
+        ]
 },
 { id:"tekrur", ad:"Toucouleur Devleti (Umarî / Segu Tukulor)", tur:"devlet", bolge:"bati-afrika",
   f:"1852-09-01", t:"1893-01-01", baskent:"Segu",
   ozet:"El-Hac Ömer Tal'in cihadıyla kurulan, Senegal'den Nijer'e uzanan devlet; Masina Halifeliği'ni 1862'de ortadan kaldırdı ve Cenne ile Tinbuktu'yu devraldı. Fransız ilerleyişiyle sona erdi. Kilometre taşları kaynaklı: Dinguiray 1848 · Kaarta 11 Kasım 1854 · Segu 1861 · Hamdallahi 1862 · El-Hac Ömer'in ölümü 14 Şubat 1864. 🔴 `t:` İÇİN İKİ TDV MADDESİ ÇELİŞİYOR ve çelişki GİZLENMEMİŞTİR — `kaynak:` alanına bak.",
   kaynak:"TDV `el-hac-omer`: başlangıç AY HASSASİYETİNDE — 'Eylül 1852'de fiilî cihadı başlatma konusunda mânevî işaret aldığını söyleyerek harekete geçti'; ve devletin '1893-1894 yıllarında' Fransızlarca işgal edildiği. 🔴 ÇELİŞKİ: TDV `mali` maddesi Fransız fetihlerini 'Bamako (1883), Segu ve Sikasso (1898)' diye veriyor — Toucouleur'un başkenti Segu olduğu için beş yıllık bir fark doğuyor. SEÇİM VE GEREKÇESİ: `t:1893-01-01` alındı, çünkü `el-hac-omer` maddesi DOĞRUDAN bu devleti anlatıyor, `mali` maddesi ise bölgenin fetih zincirini sayarken ondan GEÇERKEN bahsediyor — konusu o olan kaynak, ondan bahseden kaynağı yener. ⚠️ ÖLÇÜLMEDİ: `mali` maddesindeki 1898'in aynı cümlede andığı Sikasso'nun Toucouleur başkenti OLMADIĞI, dolayısıyla o tarihin başka bir siyasî gövdeye ait olabileceği bir İHTİMALDİR, ölçüm değildir. Çelişki kapanmadı, KAYDEDİLDİ.",
-  kronoloji:[]
+  kronoloji:[
+          { t:"1852-01-01", tur:"kurulus", b:"El-Hâc Ömer Tal, Eylül 1852'de fiilî cihadı başlatma konusunda mânevî işaret aldığını söyleyerek harekete geçti ve Umarî devletinin temelini attı", kaynak:"TDV `el-hac-omer` (200, gövde okundu) — AYNEN: «Eylül 1852'de fiilî cihadı başlatma konusunda mânevî işaret aldığını söyleyerek harekete geçti». Künyenin kendi `kaynak` alanı da bu maddeye dayanıyor." },
+          { t:"1854-11-11", tur:"toprak-kazanc", b:"Kaarta ele geçirilerek İslâm devleti hâline getirildi", kaynak:"TDV `el-hac-omer` — «1854: Yelimane, Bambuk ve Farabanna ele geçirildi; Kaarta 11 Kasım 1854'te İslâm devleti olarak kuruldu». GÜN HASSASİYETİ KAYNAKTAN GELİYOR." },
+          { t:"1857-01-01", tur:"savas", b:"Medine'deki Fransız kalesine 25.000 kişilik kuvvetle saldırdı, kuşatma Fransızlarca püskürtüldü", kaynak:"TDV `el-hac-omer` — «Medine: 1857 — 25.000 askerle Fransız kalesine saldırıldı; Fransız kuvvetlerince püskürtüldü»." },
+          { t:"1861-03-10", tur:"toprak-kazanc", b:"Segu ele geçirildi ve Bambara krallığı ortadan kaldırıldı", kaynak:"TDV `el-hac-omer` — «Segu: 1861 başı — Bambara krallığı ortadan kaldırıldı»; GÜN, aynı olayın öteki tarafındaki `bambara` künyesinin TDV `mali`ye dayanan `son` maddesinden geliyor: «1861-03-10 — el-Hâc Ömer Segu'yu aldı». İki TDV maddesi, iki taraf, aynı gün." },
+          { t:"1862-01-01", tur:"toprak-kazanc", b:"Hamdullahi alınarak Masina Halifeliği'nin toprakları devlete katıldı", kaynak:"TDV `el-hac-omer` — «Hamdallahi: 1862 — Masina başşehri ele geçirildi»." },
+          { t:"1864-02-14", tur:"hukumdar", b:"El-Hâc Ömer Tal Degembere'de bir mağara yangınında öldü ve yerine oğlu Ahmed el-Kebîr el-Medenî geçti", kaynak:"TDV `el-hac-omer` — AYNEN «14 Şubat 1864», Degembere'de mağara yangını; «oğlu Ahmed el-Kebîr el-Medenî (Ahmed Tâl) yerine geçti»." },
+          { t:"1893-01-01", tur:"son", b:"Fransız fethiyle Umarî devleti sona erdi", kaynak:"TDV `el-hac-omer` — «devlet 1893-1894 Fransız fethine kadar sürdü»; Encyclopaedia Britannica ('Ahmadu Seku') bağımsız olarak «Col. Louis Archinard … led to the final conquest of Ségou in 1893» diyor. Künyenin `t:` değeri de 1893-01-01." }
+        ]
 }
 ];
