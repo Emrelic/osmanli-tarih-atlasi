@@ -94,6 +94,62 @@ Sonra **gözle sınanacak** — bütün sayılar hesaptan, hiçbiri çizilmedi.
 Bir sonraki oturum bu sayıların üstüne inşa etmeden önce ikisini de görsün.
 
 
+### 🟢 `bizans ↔ bosna` ÇÖZÜLDÜ — Emre'nin ② şıkkı · UYGULAMA KOŞU SONRASI
+
+Emre (5 Eylül 02:0x): *"bizans↔bosna için ② eşiği sıkılaştırıp yeniden çöz."*
+
+```
+UYGULANACAK:  bosna  #2f1896 → #ea12ea
+```
+
+**İKİ EŞİK BİRDEN sıkıştırıldı** (`renk_olc.py`de GEÇİCİ, sonra geri alındı):
+```
+DE_DENIZ 18 → 30      DE_KOMSU 12 → 15
+aday havuzu 73.311 → 45.395  (denizle karışan 27.902 elendi)
+```
+
+**ÖLÇÜM:**
+```
+                bugünkü          öneri
+deniz  ΔE        35,18           59,64      ← denizden UZAKLAŞTI
+bizans ΔE        11,41 🔴 İHLAL  45,13      ← çift KAPANDI
+en yakın engel      —            15,5       ← pay 3,5 (eşik 12)
+```
+
+**⚠️ VE ARADA BİR ARA ÇÖZÜM REDDEDİLDİ — sebebiyle:**
+Yalnız deniz eşiği sıkıştırılınca (`DE_DENIZ 30`, komşu 12) öneri `#1eae1e`
+geldi ve **meşruydu** (deniz 51,42 · bizans 61,79). Ama `sardinya` ile
+**281 km'de ΔE 12,46** bırakıyordu — eşiğin 0,46 üstünde.
+🔴 Emre'nin istediği zaten SIKILAŞTIRMAYDI; 0,46 pay onu karşılamıyor.
+`renkler.py:3513`in kendi emsali: `_GUVENLI_PAY = 13.0` — *"ucu ucuna değil
+RAHATÇA geçmek"*. İkinci çözüm 15,5 payla geldi.
+
+**📌 VE BİR ÖLÇÜM DÜZELTMESİ — kendi betiğim yanlış etiketledi:**
+Mesafe betiğim `bosna ↔ sardinya`yı *"🔴 İHLAL (<600 km)"* diye bastı.
+YANLIŞ: ölçüt **ΔE < 12 VE < 600 km**; ΔE 12,46 eşiğin ÜSTÜNDE ⇒ ihlal
+değil **SINIRDA**. Betik yalnız mesafeye bakıp etiketliyordu.
+⇒ Karar yine de doğru çıktı (daha sıkı çözüm alındı) ama **gerekçe
+yanlıştı**. `§11`: *hüküm doğru, teşhis yanlış* — ayrım korunmazsa bir
+sonraki oturum yanlış sebebi düzeltmeye kalkar.
+
+**MESAFE ÖLÇÜMÜ (bosna ile şüpheli beş kimlik):**
+```
+sardinya            281 km  eşzamanlı   ← tek yakın olan
+karaman            1120 km  eşzamanlı
+eyyubi-hisnikeyfa  1975 km  eşzamanlı
+ramazanoglu        1523 km  eşzamanlı
+yarkent-hanligi    4643 km  ÖRTÜŞMÜYOR
+```
+
+🔴 **UYGULANMADI ÇÜNKÜ `renkler.py` DONUK** (koşu 5 onu parmak izliyor —
+yazmak koşuyu ÖLDÜRÜR). Koşu bitince tek satır:
+```
+"bosna": ("Bosna Krallığı", "#2f1896")  →  "#ea12ea"
+sonra: py arac/renk_olc.py  ⇒ yakın-ama-değmeyen 1 → 0 OLMALI
+```
+
+---
+
 ### 🔴 KOŞU 5 SONRASI — ÇÖZÜCÜYE GÜVENLİK PAYI
 
 `oner()` hedefi bugün bare `DE_KOMSU = 12.0`. 4 Eylül'de uygulanan 16 rengin

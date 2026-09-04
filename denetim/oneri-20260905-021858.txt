@@ -1,0 +1,3 @@
+// renk_olc.py --oner çıktısı — aktarımdan SONRA:
+//   py arac/renk_olc.py --dogrula oneri-20260905-021858.txt
+bosna #1eae1e
