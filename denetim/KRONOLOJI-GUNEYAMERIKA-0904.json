@@ -8,7 +8,11 @@
     "_UYARI": "TDV bu kunyeleri KAPSAMIYOR: denenen 19 slugun 15'i 302 (brezilya · sili · peru · peru--ulke · bolivya · paraguay · uruguay · venezuela · kolombiya · ekvador · inka · simon-bolivar · bolivar · latin-amerika · guney-amerika). Canli olan dordu: amerika · arjantin · ispanya · portekiz. `amerika` govdesi (74.729 krkt) OKUNDU ve bu iki savasi HIC anmiyor. ⇒ CLAUDE.md §4'un TANECIKLIK bosluğu; akademik kaynak mesru, ve kaynak GIZLENMEDI.",
     "EB-LA": "Encyclopaedia Britannica, 'history of Latin America — The independence of Latin America' + '— The north and the culmination of independence' (David Bushnell & Britannica Editors, 2 Eyl 2026 rev.) — govde TARAYICIDAN OKUNDU, alintilar AYNEN.",
     "EB-CL": "Encyclopaedia Britannica, 'Chile — Struggle for independence' (Marcello A. Carmagnani & Britannica Editors, 2 Eyl 2026 rev.) — govde TARAYICIDAN OKUNDU, alintilar AYNEN.",
-    "TDV-AM": "TDV Islam Ansiklopedisi, `amerika` maddesi — HTTP 200, baslik 'AMERIKA', govde 74.729 karakter OKUNDU. 🔴 Bu govde KENDI ICINDE CELISIYOR: Tordesillas Antlasmasi'ni bir yerde 1494, baska bir yerde 1498 diye veriyor. Bu yamada Tordesillas KULLANILMADI."
+    "TDV-AM": "TDV Islam Ansiklopedisi, `amerika` maddesi — HTTP 200, baslik 'AMERIKA', govde 74.729 karakter OKUNDU. 🔴 Bu govde KENDI ICINDE CELISIYOR: Tordesillas Antlasmasi'ni bir yerde 1494, baska bir yerde 1498 diye veriyor. Bu yamada Tordesillas KULLANILMADI.",
+    "EB-VE": "Encyclopaedia Britannica, 'Venezuela — The independence movement' (Jennifer L. McCoy & Britannica Editors, 3 Eyl 2026 rev.) — govde TARAYICIDAN OKUNDU, alintilar AYNEN.",
+    "EB-UY": "Encyclopaedia Britannica, 'Uruguay — The struggle for national identity' (Martin Weinstein & Britannica Editors, 29 Agu 2026 rev.) — govde TARAYICIDAN OKUNDU, alintilar AYNEN.",
+    "EB-BR": "Encyclopaedia Britannica, 'Brazil — The collapse of the empire' (E. Bradford Burns & Britannica Editors, 3 Eyl 2026 rev.) — govde TARAYICIDAN OKUNDU, alintilar AYNEN.",
+    "_HASSASIYET_KURALI": "KALEM 3'te GERIYE DONUK uygulandi: 'hassasiyet kaynagi asamaz' ve 'kunyenin f: gunu bir KAYNAK DEGILDIR' (koordinator hukmu). Kalem 2'de kunyenin GUNUNE yazilmis 10 madde, kaynagin hassasiyetine INDIRILDI ve her birinde ne yapildigi kaynak alaninda YAZILI. Kunyeler DEGISTIRILMEDI — data/ donmus ve koordinatorde."
   },
   "kunyeler": [
     {
@@ -36,10 +40,10 @@
           "d": "Ocak 1868'de Mitre'nin yerine baskomutanliga Brezilyali Caxias gecti. Subatta Brezilya zirhli gemileri Parana ve Paraguay nehirlerinin birlestigi yerdeki Humaita nehir kalesinin savunmasini kirdi ve baskent Asuncion'u bombalamaya kadar ilerledi. Aralik 1868'deki Lomas Valentinas harekatinda Paraguay ordusu imha edildi."
         },
         {
-          "t": "1870-03-01",
+          "t": "1870-01-01",
           "tur": "hukumdar",
           "b": "Francisco Solano Lopez oldurulunce Paraguay'in savasi sona erdi",
-          "kaynak": "EB-UIS — AYNEN: «López fled northward and carried on a guerrilla war until he was killed on March 1, 1870»",
+          "kaynak": "EB-UIS — AYNEN: «López fled northward and carried on a guerrilla war until he was killed on March 1, 1870»  🔴 HASSASIYET DUZELTILDI (kalem 3): savasin bitis GUNUNE yazmistim, ama ilhak o gun olmadi — kaynak ilhaki hic tarihlendirmiyor. Yil'a indirildi.",
           "d": "Lomas Valentinas'ta ordusu imha edildikten sonra Lopez kuzeye kacip gerilla savasi surdurdu ve 1 Mart 1870'te oldurruldu. Savas Paraguay'i tuketmisti: savas oncesi yaklasik 525.000 olan nufus 1871'de yaklasik 221.000'e dusmus, bunun ancak 28.000 kadari erkek kalmisti."
         },
         {
@@ -50,10 +54,10 @@
           "d": "Arjantin Misiones bolgesinin buyuk kismini ve Chaco'nun Bermejo ile Pilcomayo irmaklari arasindaki parcasini aldi; Brezilya Mato Grosso eyaletini ilhak edilen toprakla genisletti. Iki devlet buyuk bir tazminat da talep etti (hic odenmedi) ve Paraguay'i 1876'ya kadar isgal altinda tuttu."
         },
         {
-          "t": "1811-05-14",
+          "t": "1811-01-01",
           "tur": "kurulus",
           "b": "Paraguay Buenos Aires'ten ve Ispanya'dan ayrilarak kendi yolunu tuttu",
-          "kaynak": "EB-LA — AYNEN: «Paraguay resisted Buenos Aires' military and set out on a path of relative isolation from the outside world»  🔴 KAYNAK YIL BILE VERMIYOR — tarih kunyenin kendi f: degeridir (1811-05-14), KAYNAKTAN DOGRULANMADI. Gun-ay-yil hassasiyetinde bir kaynak BULUNAMADI.",
+          "kaynak": "EB-LA — AYNEN: «Paraguay resisted Buenos Aires' military and set out on a path of relative isolation from the outside world»  🔴 KAYNAK YIL BILE VERMIYOR — tarih kunyenin kendi f: degeridir (1811-05-14), KAYNAKTAN DOGRULANMADI. Gun-ay-yil hassasiyetinde bir kaynak BULUNAMADI.  🔴 HASSASIYET DUZELTILDI (kalem 3): kunyenin gunu 1811-05-14 idi, kaynak TARIH HIC VERMIYOR. Yil bile kunyeden geliyor. Kunye degistirilmedi.",
           "d": "Buenos Aires'in eski genel valilik topraklarinin tamamini kendi denetimine alma niyeti cevre eyaletlerde huzursuzluk yaratti. Paraguay Buenos Aires'in askeri girisimine direndi ve dis dunyadan gorece yalitilmis bir yola girdi. Bu yalitilmislik 19. yuzyil boyunca Paraguay siyasetinin belirleyici ozelligi oldu."
         }
       ]
@@ -76,17 +80,17 @@
           "d": "Savas 1870'e kadar surdu. Savasin gidisatinda Arjantin kamuoyunun bir kismi catismayi Mitre'nin fetih savasi olarak gormeye basladi."
         },
         {
-          "t": "1870-03-01",
+          "t": "1870-01-01",
           "tur": "toprak-kazanc",
           "b": "Arjantin Misiones'in buyuk kismini ve Chaco'nun bir bolumunu ilhak etti",
-          "kaynak": "EB-UIS — AYNEN: «Argentina took much of the Misiones region and part of the Chaco between the Bermejo and Pilcomayo rivers»  ⚠️ TARIH HASSASIYETI: 🔴 TARIH ZAYIF — savasin bitis gunune yazildi; sinir antlasmasinin gunu BULUNAMADI.",
+          "kaynak": "EB-UIS — AYNEN: «Argentina took much of the Misiones region and part of the Chaco between the Bermejo and Pilcomayo rivers»  ⚠️ TARIH HASSASIYETI: 🔴 TARIH ZAYIF — savasin bitis gunune yazildi; sinir antlasmasinin gunu BULUNAMADI.  🔴 HASSASIYET DUZELTILDI (kalem 3): ilhakin gunu kaynakta YOK, savasin bitis gunune yazilmisti. Yil'a indirildi.",
           "d": "Savasin sonunda Arjantin ve Brezilya toplam yaklasik 140.000 km2 Paraguay toprağini ilhak etti; Arjantin'in payi Misiones bolgesinin buyuk kismi ile Chaco'nun Bermejo ve Pilcomayo irmaklari arasindaki kesimiydi."
         },
         {
-          "t": "1810-05-25",
+          "t": "1810-05-01",
           "tur": "kurulus",
           "b": "Mayis Devrimi — Buenos Aires'te kurulan cunta Ispanyol yonetimini sona erdirdi",
-          "kaynak": "EB-LA — AYNEN: «In May 1810 prominent Creoles in Buenos Aires … forced the last Spanish viceroy there to consent to a cabildo abierto … the junta produced by that session marked the end of Spanish rule in Buenos Aires and its hinterland»  ⚠️ TARIH HASSASIYETI: kaynak AY veriyor (Mayis 1810); GUN kunyenin kendi f: degeridir, kaynaktan DOGRULANMADI.",
+          "kaynak": "EB-LA — AYNEN: «In May 1810 prominent Creoles in Buenos Aires … forced the last Spanish viceroy there to consent to a cabildo abierto … the junta produced by that session marked the end of Spanish rule in Buenos Aires and its hinterland»  ⚠️ TARIH HASSASIYETI: kaynak AY veriyor (Mayis 1810); GUN kunyenin kendi f: degeridir, kaynaktan DOGRULANMADI.  🔴 HASSASIYET DUZELTILDI (kalem 3): kunyenin gunu 1810-05-25 idi, kaynak AY veriyor (Mayis 1810). Kural: hassasiyet kaynagi asamaz. Kunye degistirilmedi, fark BILDIRILDI.",
           "d": "1806'da bir Ingiliz seferi Buenos Aires'i ele gecirmis, Ispanyol somurge gorevlileri etkisiz kalinca Creole ve peninsular gonullulerden kurulan bir milis direnisi orgutleyip Ingilizler'i cikarmisti. Mayis 1810'da Buenos Aires'in onde gelen Creole'lari son Ispanyol genel valisini olaganustu bir acik belediye meclisi toplamaya zorladi. Ferdinand'a baglilik gorunusu korunsa da bu oturumdan cikan cunta bolgedeki Ispanyol yonetiminin sonu oldu. Bolge, bagimsizlik savaslari boyunca kralcilarin yeniden ele geciremedigi tek bolge olarak kaldi."
         },
         {
@@ -116,10 +120,10 @@
           "d": "Ocak 1868'de muttefik kuvvetlerin baskomutanligi Arjantinli Mitre'den Brezilyali marki (sonra duka) de Caxias'a gecti. Subatta Brezilya zirhli gemileri Humaita kalesini asip Asuncion'u bombaladi; Aralikta Lomas Valentinas harekatinda Paraguay ordusu imha edildi."
         },
         {
-          "t": "1870-03-01",
+          "t": "1870-01-01",
           "tur": "toprak-kazanc",
           "b": "Brezilya Mato Grosso eyaletini ilhak ettigi Paraguay toprağiyla genisletti",
-          "kaynak": "EB-UIS — AYNEN: «Brazil enlarged its Mato Grosso province from annexed territory»  ⚠️ TARIH HASSASIYETI: 🔴 TARIH ZAYIF — savasin bitis gunune yazildi; sinir antlasmasinin gunu BULUNAMADI.",
+          "kaynak": "EB-UIS — AYNEN: «Brazil enlarged its Mato Grosso province from annexed territory»  ⚠️ TARIH HASSASIYETI: 🔴 TARIH ZAYIF — savasin bitis gunune yazildi; sinir antlasmasinin gunu BULUNAMADI.  🔴 HASSASIYET DUZELTILDI (kalem 3): ilhakin gunu kaynakta YOK, savasin bitis gunune yazilmisti. Yil'a indirildi.",
           "d": "Savasin sonunda Arjantin ve Brezilya toplam yaklasik 140.000 km2 Paraguay toprağini ilhak etti; Brezilya'nin payi Mato Grosso eyaletinin genisletilmesi oldu. Iki devlet Paraguay'i 1876'ya kadar isgal altinda tuttu."
         },
         {
@@ -135,6 +139,13 @@
           "b": "I. Pedro tahttan indirildi, yerine oglu II. Pedro gecti",
           "kaynak": "EB-LA — AYNEN: «Dom Pedro I was forced from his throne in 1831, to be succeeded by his son, Dom Pedro II»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI; olcut geregi YYYY-01-01.",
           "d": "Bagimsizligin bedeli olmadi degil: sonraki 25 yil boyunca Brezilya, kimi on yil suren ve on binlerce cana mal olan bir dizi bolgesel isyan yasadi. Yine de Portekiz'den kopus, eski Ispanyol Amerikasi'nin cogunu sarsan turden bir yikim uretmedi; topragi ve ekonomisi buyuk olcude bozulmadan kaldi."
+        },
+        {
+          "t": "1889-11-15",
+          "tur": "son",
+          "b": "II. Pedro tahttan cekildi ve Avrupa'ya surgune gitti — imparatorluk sona erdi",
+          "kaynak": "EB-BR — AYNEN: «military officers carried out a coup on November 15, 1889. Pedro II abdicated and went into exile in Europe»",
+          "d": "II. Pedro doneminde Brezilya belirgin ilerleme kaydetmisti: nufus 4 milyondan 14 milyona cikmis, kamu gelirleri 14 kat, ihracat degeri 10 kat artmis, yeni demiryollari 8.000 km'yi asmisti. Yine de genel bir hosnutsuzluk vardi; kirsaldaki seckinlerle kentli ilerici kesimler ve kahve ureticileri arasindaki ucurum geleneksel toplumsal yapiyi zorluyordu."
         }
       ]
     },
@@ -154,6 +165,55 @@
           "b": "Brezilya'nin mudahalesiyle Colorado Partisi Blanco yonetimini devirdi",
           "kaynak": "EB-UIS — AYNEN: «In 1864 Brazil helped the leader of Uruguay's Colorado Party to oust his Blanco Party opponent»  ⚠️ TARIH HASSASIYETI: yil — GUN VE AY BULUNAMADI, olcut geregi YYYY-01-01",
           "d": "1864'te Brezilya, Uruguay Colorado Partisi'nin lideri Blanco Partisi'ndeki rakibini iktidardan uzaklastirmakta yardim etti. Bu mudahale hem Ucu Ittifak Savasi'ni tetikledi hem de Colorado'lari uzun bir iktidar donemine tasidi."
+        },
+        {
+          "t": "1828-01-01",
+          "tur": "kurulus",
+          "b": "Onaylanan antlasma Uruguay'i Brezilya ile Arjantin arasinda ayri bir devlet olarak kurdu",
+          "kaynak": "EB-UY — AYNEN: «British diplomats mediated a settlement in 1827, and in 1828 a treaty was ratified creating Uruguay as a separate state and a buffer between Brazil and Argentina»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor; kunyenin f: gunu 1828-08-27, kaynaktan DOGRULANMADI.",
+          "d": "1820'de Portekiz-Brezilya kuvvetleri Banda Oriental'i ele gecirmis, Artigas surgune gonderilmisti. Arjantin, Artigas'in surgundeki subaylarindan Juan Antonio Lavalleja'yi ve '33 oriental'i 1825'te nehri gecip yurtlarini kurtarmaya kalktiklarinda desteklemek zorunda kaldi. Ciken savas beraberlikle bitti, Ingiliz diplomatlar 1827'de araya girdi. Ulkenin stratejik konumu Rio de la Plata'nin uluslararasi bir su yolu kalmasini guvenceye alarak Ingiliz cikarlarina da hizmet etti."
+        },
+        {
+          "t": "1830-07-18",
+          "tur": "kurulus",
+          "b": "Uruguay Dogu Devleti'nin anayasasi onaylandi",
+          "kaynak": "EB-UY — AYNEN: «On July 18, 1830, when the constitution for the Oriental State of Uruguay was approved, the country had scarcely 74,000 inhabitants»",
+          "d": "Anayasanin onaylandigi gun ulkenin nufusu ancak 74.000 kadardi. Uruguay'in ilk bagimsizlik yillari felaketle gecti: yirmi yillik savas ve yagma sigir sayisini cok azaltmis, bircok somurge ailesinin topraklari ve servetleri yok olmustu. Hem Arjantin hem Brezilya Uruguay'da hak iddia etmeyi surdurdu."
+        },
+        {
+          "t": "1843-01-01",
+          "tur": "ic-savas",
+          "b": "Guerra Grande — Blanco'lar Montevideo'yu sekiz yil kusatti",
+          "kaynak": "EB-UY — AYNEN: «The Blancos, supported by armies of the Argentine dictator Juan Manuel de Rosas, besieged Montevideo during the period 1843–51»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI.",
+          "d": "Ilk iki cumhurbaskani Jose Fructuoso Rivera ile Manuel Oribe'nin hizipleri 'Guerra Grande' diye anilan savasta carpisti. Beyaz renk tasiyan Oribe yanlilari Blanco Partisi'ni kurup ic bolgeyi denetledi; kirmizi kullanan Rivera yanlilari Montevideo merkezli Colorado Partisi oldu. Colorado'lar once Fransa ve Ingiltere'den, sonra Brezilya'dan yardim gordu. 1851'de savas net bir galip cikmadan bitti."
+        },
+        {
+          "t": "1868-01-01",
+          "tur": "ic-savas",
+          "b": "Mizraklar Devrimi — dort yil suren ic savas",
+          "kaynak": "EB-UY — AYNEN: «a civil war known as the Revolution of the Lances (1868–72)»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI.",
+          "d": "Uruguay ticareti hem Ucu Ittifak Savasi'ndan hem surekli siyasi cekismelerden, hem de bu ic savastan ve Brezilya ile Arjantin'in Uruguay islerine karismasindan zarar gordu."
+        },
+        {
+          "t": "1876-01-01",
+          "tur": "hukumdar",
+          "b": "Uruguay silahli kuvvetleri yonetime el koydu",
+          "kaynak": "EB-UY — AYNEN: «In 1876 the Uruguayan armed forces took over the government and, aided by improved communications, began to establish firmer control over the interior»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI.",
+          "d": "Gelismis haberlesme sayesinde ic bolge uzerinde daha siki denetim kurulmaya baslandi. Ancak bazi yoneticilerin zorbaligi ve yolsuzlugu yuzunden rejime destek zamanla eridi ve 1890'da sivil bir Colorado hukumeti yeniden is basina geldi."
+        },
+        {
+          "t": "1897-01-01",
+          "tur": "isyan",
+          "b": "1897 Devrimi — Aparicio Saravia onderliginde Blanco ayaklanmasi",
+          "kaynak": "EB-UY — AYNEN: «Blanco demands for a larger role in government escalated into the Revolution of 1897, led by Aparicio Saravia, which ended when the Colorado president, Juan Idiarte Borda, was killed by an assassin not associated with the Blancos»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI.",
+          "d": "Blanco'larin yonetimde daha genis rol talebi ayaklanmaya donustu. Ayaklanma, Colorado cumhurbaskani Juan Idiarte Borda'nin Blanco'larla ilgisi olmayan bir suikastci tarafindan oldurulmesiyle sona erdi."
+        },
+        {
+          "t": "1904-01-01",
+          "tur": "isyan",
+          "b": "Blanco kirsal ayaklanmasi sekiz ay suren carpismalarla bastirildi",
+          "kaynak": "EB-UY — AYNEN: «The following year the Blancos led a rural revolt, and eight bloody months of fighting ensued before Saravia was killed in battle and government forces emerged victorious»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor (1903'un ertesi = 1904), GUN VE AY BULUNAMADI.",
+          "d": "Colorado lideri Jose Batlle y Ordonez 1903'te cumhurbaskani secilmisti. Ertesi yil Blanco'lar kirsal bir ayaklanma baslatti; sekiz ay suren kanli carpismalardan sonra Saravia muharebede olduruldu ve hukumet kuvvetleri galip geldi."
         }
       ]
     },
@@ -271,17 +331,17 @@
           "d": "Antlasma Pasifik Savasi'ni Peru cephesinde bitirdi. Savas Peru'ya binlerce can ve buyuk mal kaybina mal oldu; savasin sonunda yedi ay suren bir ic savas yasandi ve ulke on yillar boyunca ekonomik olarak toparlanamadi."
         },
         {
-          "t": "1883-10-20",
+          "t": "1883-01-01",
           "tur": "ic-savas",
           "b": "Savasin bitiminde Peru'da yedi ay suren bir ic savas basladi",
-          "kaynak": "EB-PS — AYNEN: «at the war's end, a seven-month civil war ensued»  ⚠️ TARIH HASSASIYETI: 🔴 TARIH ZAYIF — kaynak yalniz 'savasin sonunda' diyor, BASLANGIC GUNU BULUNAMADI; Ancon gunune yazildi.",
+          "kaynak": "EB-PS — AYNEN: «at the war's end, a seven-month civil war ensued»  ⚠️ TARIH HASSASIYETI: 🔴 TARIH ZAYIF — kaynak yalniz 'savasin sonunda' diyor, BASLANGIC GUNU BULUNAMADI; Ancon gunune yazildi.  🔴 HASSASIYET DUZELTILDI (kalem 3): kaynak yalniz «at the war's end» diyor; ic savasin BASLANGIC GUNU yok. Antlasma gunune yazilmisti, Yil'a indirildi.",
           "d": "Pasifik Savasi'nin sonunda Peru'da yedi ay suren bir ic savas yasandi."
         },
         {
-          "t": "1824-12-09",
+          "t": "1824-01-01",
           "tur": "kurulus",
           "b": "Ayacucho zaferi Peru'nun bagimsizligini kesinlestirdi",
-          "kaynak": "EB-LA — AYNEN: «One of them, the Venezuelan Antonio José de Sucre, directed the patriots' triumph at Ayacucho in 1824, which turned out to be the last major battle of the war»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor; GUN kunyenin kendi f: degeridir (1824-12-09) ve Ayacucho gunune karsilik gelir, ama kaynaktan DOGRULANMADI.",
+          "kaynak": "EB-LA — AYNEN: «One of them, the Venezuelan Antonio José de Sucre, directed the patriots' triumph at Ayacucho in 1824, which turned out to be the last major battle of the war»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor; GUN kunyenin kendi f: degeridir (1824-12-09) ve Ayacucho gunune karsilik gelir, ama kaynaktan DOGRULANMADI.  🔴 HASSASIYET DUZELTILDI (kalem 3): kunyenin gunu 1824-12-09 idi (Ayacucho gunune karsilik gelir), kaynak YIL veriyor. Kunye degistirilmedi.",
           "d": "San Martin'in kuvvetleri Lima ve kiyida ancak zayif bir tutunma saglayabilmisti; yuksek yaylalardaki kralci direnisin kirilmasi kuzey ordularinin girisini gerektirdi. Bolivar Peruvalı Creole'lerin cagrisina karsilik verip askerlerini Lima'da zafere goturdu, sonra komutanlari yaylalari ve Yukari Peru'yu almaya cikti. Venezuelali Antonio Jose de Sucre'nin yonettigi Ayacucho zaferi savasin son buyuk muharebesi oldu."
         },
         {
@@ -332,10 +392,10 @@
           "d": "Antlasma karsiliginda Sili, Bolivya baskenti La Paz'i Arica limanina baglayan bir demiryolu insa etmeyi ve Bolivya ticaretine Sili limanlarindan ve topraklarindan serbest gecis guvencesi vermeyi kabul etti."
         },
         {
-          "t": "1825-08-06",
+          "t": "1825-01-01",
           "tur": "kurulus",
           "b": "Yukari Peru bagimsizligini ilan edip Kurtarici'nin adiyla Bolivya oldu",
-          "kaynak": "EB-LA — AYNEN: «By the time Bolívar's armies finally completed the liberation of Upper Peru (then renamed in the Liberator's honour), the region had long since separated itself from Buenos Aires»  🔴 KAYNAK YIL BILE VERMIYOR — tarih kunyenin kendi f: degeridir (1825-08-06), KAYNAKTAN DOGRULANMADI.",
+          "kaynak": "EB-LA — AYNEN: «By the time Bolívar's armies finally completed the liberation of Upper Peru (then renamed in the Liberator's honour), the region had long since separated itself from Buenos Aires»  🔴 KAYNAK YIL BILE VERMIYOR — tarih kunyenin kendi f: degeridir (1825-08-06), KAYNAKTAN DOGRULANMADI.  🔴 HASSASIYET DUZELTILDI (kalem 3): kunyenin gunu 1825-08-06 idi, kaynak YIL veriyor — ve YIL IKI KAYNAKTA DOGRULANDI (EB-LA + EB-VE «in 1825 it freed Upper Peru (Bolivia) from Spanish rule»). Kunye degistirilmedi.",
           "d": "Buenos Aires'ten cikan seferler bagimsizlik davasini Yukari Peru'ya tasidi; ilk zaferlerden sonra Buenos Aires kuvvetleri geri cekildi ve mucadele yerli Creole, mestizo ve Kizilderili gerillalarin eline kaldi. Bolivar'in ordulari Yukari Peru'nun kurtulusunu tamamladiginda bolge Buenos Aires'ten coktan ayrilmisti ve Kurtarici'nin adiyla anilmaya baslandi."
         }
       ]
@@ -356,6 +416,20 @@
           "b": "Cucuta kurucu kongresi daha merkeziyetci bir Gran Kolombiya kurdu",
           "kaynak": "EB-LA — AYNEN: «further energetic military campaigns liberated New Granada and Venezuela by 1821. A constituent congress held that year in Cúcuta chose Bolívar president of a now much more centralized Gran Colombia»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI; olcut geregi YYYY-01-01.",
           "d": "1819'da Angostura'da toplanan kongre Bolivar'i bugunku Venezuela, Kolombiya, Panama ve Ekvador'u kapsayan Gran Kolombiya'nin baskani ilan etmisti; ama bolgede daha o zamandan keskin bolunmeler vardi ve kralcilar Venezuela'nin cogunu, Kolombiya And'larinin bir kismini ve Ekvador'un tamamini hala tutuyordu. 1821'e kadar suren askeri harekatlar Yeni Granada ve Venezuela'yi kurtardi."
+        },
+        {
+          "t": "1821-06-24",
+          "tur": "savas",
+          "b": "Carabobo Muharebesi — ana kralci ordu yenildi",
+          "kaynak": "EB-VE — AYNEN: «On June 24, 1821, Bolívar's troops, reinforced by llanero cavalry under General José Antonio Páez, defeated the main royalist army at the Battle of Carabobo»",
+          "d": "Bolivar'in birlikleri, General Jose Antonio Paez komutasindaki llanero suvarisiyle takviye edilerek ana kralci orduyu Carabobo'da yendi. Bu zafer Venezuela'nin kurtulusunu belirledi."
+        },
+        {
+          "t": "1823-10-09",
+          "tur": "savas",
+          "b": "Son kralci kuvvetler Puerto Cabello'da teslim oldu",
+          "kaynak": "EB-VE — AYNEN: «The last of the royalist forces surrendered at Puerto Cabello on October 9, 1823»",
+          "d": "Ertesi yil Bolivar'in ordusu Peru'yu kurtarmak uzere guneye yurudu; 1825'te Yukari Peru'yu (Bolivya) Ispanyol yonetiminden kurtardi. Venezuelalilar bu savaslarda oteki Latin Amerika halklarindan daha agir kayip verdi."
         }
       ]
     },
@@ -363,10 +437,10 @@
       "id": "venezuela-cumhuriyeti",
       "eklenen": [
         {
-          "t": "1830-01-13",
+          "t": "1829-01-01",
           "tur": "kurulus",
           "b": "Venezuela Gran Kolombiya'dan ayrilarak ayri bir cumhuriyet oldu",
-          "kaynak": "TDV-AM — AYNEN: «Bolivar tarafindan kurulmus olan Buyuk Kolombiya'dan 1829'da Venezuela, 1830'da da Ekvador ayrilinca geri kalan kisim Yeni Granada adi ile 1863'e kadar devam etti»  🔴 KAYNAK CELISKISI: TDV ayrilmayi 1829 diyor, kunyenin f: degeri 1830-01-13. Gun kunyeden alindi, KAYNAKTAN DOGRULANMADI ve kaynak YILDA DA AYRISIYOR.",
+          "kaynak": "TDV-AM — AYNEN: «Bolivar tarafindan kurulmus olan Buyuk Kolombiya'dan 1829'da Venezuela, 1830'da da Ekvador ayrilinca geri kalan kisim Yeni Granada adi ile 1863'e kadar devam etti»  🔴 KAYNAK CELISKISI: TDV ayrilmayi 1829 diyor, kunyenin f: degeri 1830-01-13. Gun kunyeden alindi, KAYNAKTAN DOGRULANMADI ve kaynak YILDA DA AYRISIYOR.  🔴🔴 HASSASIYET **VE YIL** DUZELTILDI (kalem 3): kunye 1830-01-13 diyor; IKI BAGIMSIZ KAYNAK 1829 diyor — TDV-AM «1829'da Venezuela … ayrilinca» ve EB-VE «Venezuela broke away in 1829». Kural 'kaynagi izle, kunyeyi degil'. Kunye DEGISTIRILMEDI, fark koordinatore BILDIRILDI.",
           "d": "1811'de Venezuela Ispanya ile kopusu acikca ilan etmis, ama kralci kuvvetler baskent ve cevresi disindaki genis kirsali uzun sure elde tutmustu. 1819 Angostura kongresi Venezuela'yi Gran Kolombiya'nin bir parcasi yapti. Birlik Bolivar'in umdugu kaliciligi gosteremedi ve Venezuela birligin dagilmasiyla ayri bir cumhuriyet oldu."
         },
         {
@@ -375,6 +449,27 @@
           "b": "Venezuela Ispanya ile kopusu acikca ilan etti",
           "kaynak": "EB-LA — AYNEN: «Creoles organized revolutionary governments that proclaimed some social and economic reforms in 1810, and in Venezuela they openly declared a break with Spain the following year»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI; olcut geregi YYYY-01-01.",
           "d": "Ispanya'ya sadik kuvvetler Venezuelali vatanseverlerle en bastan savasti; ortaya cikan duzen, isyancilarin baskenti ve cevresini tutmasi ama kirsalin buyuk bolumune hakim olamamasi seklindeydi. 1812'de ozellikle vatanseverlerin elindeki bolgeleri vuran deprem kimilerince devrime ilahi bir hosnutsuzluk isareti sayildi."
+        },
+        {
+          "t": "1821-06-24",
+          "tur": "savas",
+          "b": "Carabobo zaferi Venezuela'nin kralci ordudan kurtulusunu saglar",
+          "kaynak": "EB-VE — AYNEN: «On June 24, 1821, Bolívar's troops … defeated the main royalist army at the Battle of Carabobo»",
+          "d": "1815'te Ispanyol general Pablo Morillo bir sefer kuvvetiyle cikarma yapip Yeni Granada'nin buyuk bolumunu geri almisti; sert yonetimi baslangicta onu destekleyen Creole ileri gelenlerinin cogunu karsi tarafa itti. Llanero'lar ve siyahlar kralci saftan ayrilip Bolivar'a katildi; ordu Ingiliz ve Irlandali paralı asker lejyonuyla, Haiti cumhuriyetinin yardimiyla guclendi."
+        },
+        {
+          "t": "1830-01-01",
+          "tur": "kurulus",
+          "b": "Paez Venezuela icin bir anayasa kongresi toplayip devleti kurdu",
+          "kaynak": "EB-VE — AYNEN: «He led the separation movement from Gran Colombia in 1829 and in 1830 convoked a constitutional convention for Venezuela»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI.",
+          "d": "1830'da kabul edilen anayasa Muhafazakar Parti'nin toplumsal ve siyasi anlayisini yansitiyordu: merkeziyetci devlet, oy icin mulk sarti, siyasi suclara olum cezasi, ticaret serbestligi guvenceleri ve koleligin surdurulmesi. Kilise vergi muafiyetini ve egitim tekelini, ordu ozerkligini kaybetti."
+        },
+        {
+          "t": "1831-01-01",
+          "tur": "hukumdar",
+          "b": "General Jose Antonio Paez ilk kez cumhurbaskanligina gecti",
+          "kaynak": "EB-VE — AYNEN: «Páez dominated Venezuelan politics until 1848, both as president (1831–35 and 1839–43) and as a major political player»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI.",
+          "d": "Bolivar Venezuela silahli kuvvetlerinin basinda Paez'i birakmisti; Paez kisa surede ulkenin tam denetimini aldi. Hirsli tasra caudillo'larini bastirdi ve buyuk toprak sahipleri ile onde gelen tuccarlardan olusan Muhafazakar Parti ile isbirligi icinde yonetti. 1830-48 arasi gorece siyasi istikrar ve iktisadi ilerleme donemi oldu."
         }
       ]
     },
@@ -382,10 +477,10 @@
       "id": "ekvador-cumhuriyeti",
       "eklenen": [
         {
-          "t": "1830-05-13",
+          "t": "1830-01-01",
           "tur": "kurulus",
           "b": "Ekvador Gran Kolombiya'dan ayrilarak ayri bir cumhuriyet oldu",
-          "kaynak": "TDV-AM — AYNEN: «Buyuk Kolombiya'dan 1829'da Venezuela, 1830'da da Ekvador ayrilinca geri kalan kisim Yeni Granada adi ile 1863'e kadar devam etti»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor (1830) ve kunyenin f: yiliyla UYUSUYOR; GUN kunyenin kendi f: degeridir, kaynaktan DOGRULANMADI.",
+          "kaynak": "TDV-AM — AYNEN: «Buyuk Kolombiya'dan 1829'da Venezuela, 1830'da da Ekvador ayrilinca geri kalan kisim Yeni Granada adi ile 1863'e kadar devam etti»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor (1830) ve kunyenin f: yiliyla UYUSUYOR; GUN kunyenin kendi f: degeridir, kaynaktan DOGRULANMADI.  🔴 HASSASIYET DUZELTILDI (kalem 3): kunyenin gunu 1830-05-13 idi, kaynak YIL veriyor (TDV-AM 1830). EB-VE ise «and Ecuador soon after» diyerek 1829'a yakin bir an isaret ediyor — IKI KAYNAK YILDA AYRISIYOR, daha acik olani (TDV, 1830) alindi. Kunye degistirilmedi.",
           "d": "1819 Angostura kongresinin kurdugu Gran Kolombiya bugunku Venezuela, Kolombiya, Panama ve Ekvador'u kapsiyordu; kurulus aninda Ekvador'un tamami hala kralcilarin elindeydi. Bolivar ile San Martin 1822'de Guayaquil'de bulustu ve o noktadan sonra And'lardaki mucadeleyi kuzeyliler devraldi. Birlik dagilinca Ekvador ayri bir cumhuriyet oldu."
         }
       ]
@@ -411,6 +506,39 @@
           "b": "Portekiz sarayi Lizbon'dan Rio de Janeiro'ya tasindi",
           "kaynak": "EB-LA — AYNEN: «The key step in the relatively bloodless end of colonial rule in Brazil was the transfer of the Portuguese court from Lisbon to Rio de Janeiro in 1808»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI; olcut geregi YYYY-01-01.",
           "d": "1807'de Ispanya krali Charles IV, Napoleon'un Portekiz'i istila edecek kuvvetlerine Ispanyol topragindan gecis izni verdi; bunun uzerine Portekiz Naibi Prens John yaklasik 15.000 gorevli, soylu ve saray mensubuyla Ingiliz gemileriyle Brezilya'ya kacti. Saray Rio de Janeiro'ya varinca somurge, imparatorlugun idari merkezine donustu. John 1815'te Brezilya'yi imparatorluk icinde Portekiz'e hukuken esit bir kralliga yukseltti."
+        }
+      ]
+    },
+    {
+      "id": "brezilya-cumhuriyeti",
+      "eklenen": [
+        {
+          "t": "1889-11-15",
+          "tur": "kurulus",
+          "b": "Askeri darbe imparatorlugu devirip cumhuriyeti kurdu",
+          "kaynak": "EB-BR — AYNEN: «A civil-military conspiracy formed, and military officers carried out a coup on November 15, 1889. Pedro II abdicated and went into exile in Europe»",
+          "d": "Kentli orta sinif, ordu ve kahve ureticileri monarsinin gecmisi temsil ettigini ve toprak sahibi seckinlere fazla bagli oldugunu dusunuyordu; kahveye ve sanayi uretimine dayanan yeni kapitalist duzene cumhuriyetin daha uygun olduguna karar verdiler. Darbeyi yoneten Manuel Deodoro da Fonseca askeri hukumetin gecici cumhurbaskani oldu. 1888'de koleligin kaldirilmasi ve 1889'da monarsinin devrilmesi Brezilya'nin gecmisini bicimlendiren iki kurumu birden sona erdirdi."
+        },
+        {
+          "t": "1891-02-24",
+          "tur": "antlasma",
+          "b": "Yeni cumhuriyet anayasasi ilan edildi",
+          "kaynak": "EB-BR — AYNEN: «on February 24, 1891, promulgated a new constitution that combined elements of presidential, federal, democratic, and republican forms of government»",
+          "d": "Fonseca cumhuriyeti kurdu, kilise ile devletin yetkilerini ayirdi ve baskanlik, federal, demokratik ve cumhuriyetci ogeleri birlestiren yeni bir anayasa ilan etti. Cumhuriyetin yeni eyaletleri, imparatorlugun eyaletlerinden daha genis yetki kullandi."
+        },
+        {
+          "t": "1891-11-23",
+          "tur": "hukumdar",
+          "b": "Fonseca istifaya zorlandi, yerine Floriano Peixoto gecti",
+          "kaynak": "EB-BR — AYNEN: «he was forced to resign. Floriano Peixoto, the equally militaristic vice president, ascended to office on November 23»",
+          "d": "Kongre Fonseca'yi ayni yil cumhurbaskani secti ama yeni anayasa altinda yonetemedi. Muhalif kongreyi dagitip kararnameyle yonetmeye kalkinca kamuoyu tepkisi onu istifaya zorladi. Ayni olcude askeri egilimli yardimcisi Floriano Peixoto goreve gelip birkac monarsist ve askeri ayaklanmayi bastirdi ve ulkeye bir olcude huzur getirdi."
+        },
+        {
+          "t": "1894-01-01",
+          "tur": "hukumdar",
+          "b": "Ilk sivil cumhurbaskani Prudente de Morais goreve geldi",
+          "kaynak": "EB-BR — AYNEN: «In 1894 … Peixoto reluctantly turned over the presidency to the first civilian president, Prudente de Morais, who had served as the first republican governor of coffee-rich São Paulo»  ⚠️ TARIH HASSASIYETI: kaynak YIL veriyor, GUN VE AY BULUNAMADI.",
+          "d": "Peixoto, asiri Guney disinda her yerde barisin saglandigi bir ortamda cumhurbaskanligini isteksizce devretti. Ardarda gelen 'kahve cumhurbaskanlari' agirlikla Sao Paulo ve Minas Gerais eyaletlerindendi; barisi korudular, mali kurumlari duzelttiler ve kahve ihracatini artirdilar — ama gercek bir demokrasi getirmediler."
         }
       ]
     }
