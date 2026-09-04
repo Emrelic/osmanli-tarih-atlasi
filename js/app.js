@@ -8426,8 +8426,23 @@ var KATMAN_KUMESI = [
 ];
 
 function katmanSinifla() {
-  var kova = { cografya: [], yollar: [], siyasi: [], siniflanmamis: [],
-               hazir: true };
+  // 🔴 `tani` 5 Eylül 2026'da EKLENDİ — ve eksikliği CANLI YAYINDA bir kusurdu.
+  // 4 Eylül sabahı `KATMAN_KUMESI`ne "tani" kovası eklendi (motor tanı
+  // hatları anahtarı) ama BURAYA eklenmedi. Sonucu:
+  //     `g-nehir-motor` ve `g-sirt-motor` sahnede VAR ⇒ `tani` kalıbına
+  //     düşüyorlar ⇒ `kova.tani.push(...)` undefined üzerinde çağrılıyor
+  //     ⇒ `uygula()` TAMAMLANMIYOR ⇒ KATMAN SEÇİCİ DÜĞMELERİ ÖLÜ
+  // 🟢 Ve bunu bir KONTROL GRUBU buldu (`KÜRE GÖRÜNÜM`, `BULGU-KURE-0904.md`):
+  //   oturum v5'e geçerken hatayı gördü, *"v5 katman seçiciyi kırıyor"* diye
+  //   yazacaktı, sonra AYNI çağrıyı 4.7.1'de de koşturdu — İKİSİNDE DE patladı.
+  //   ⇒ Kusur göçün değil, BİZİMDİ; ve bugün canlı yayında duruyordu.
+  // 📌 `§11`: kontrol grubu olmasaydı var olan bir kusur göçün üstüne yıkılır,
+  //   ve göç haksız yere pahalı görünürdü.
+  // ⚠️ VE BURASI BİR KAYIT: `KATMAN_KUMESI`ne yeni bir `anahtar` eklenirse
+  //   BU SÖZLÜĞE DE eklenmeli. İkisi ayrışırsa `uygula()` sessizce yarıda
+  //   kalır — hata konsola düşer ama arayüz yalnız "düğme çalışmıyor" der.
+  var kova = { tani: [], cografya: [], yollar: [], siyasi: [],
+               siniflanmamis: [], hazir: true };
   var stil;
   // 🔴 STİL HAZIR DEĞİLKEN SESSİZ BOŞ DÖNME — ölçüldü, 4 Eylül 2026.
   // Sayfa yüklenirken `getStyle()` patlıyor ya da boş dönüyordu; kova
