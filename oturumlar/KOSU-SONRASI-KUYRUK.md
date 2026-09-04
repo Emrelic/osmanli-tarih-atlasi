@@ -94,6 +94,18 @@ Sonra **gözle sınanacak** — bütün sayılar hesaptan, hiçbiri çizilmedi.
 Bir sonraki oturum bu sayıların üstüne inşa etmeden önce ikisini de görsün.
 
 
+### 🔴 KOŞU 5 SONRASI — ÇÖZÜCÜYE GÜVENLİK PAYI
+
+`oner()` hedefi bugün bare `DE_KOMSU = 12.0`. 4 Eylül'de uygulanan 16 rengin
+payı **0,1** (12,1 · 12,2 · 12,5 …) ve 8 bitlik çizim ~0,3 kaydırıyor ⇒ o
+çiftler **ekranda eşiğin altında**.
+```
+emsal   renkler.py:3513  _GUVENLI_PAY = 13.0  ("ucu ucuna değil RAHATÇA")
+öneri   oner() hedefi DE_KOMSU + pay olsun
+bedel   ÖLÇÜLECEK — pay büyüdükçe çözülemeyen kimlik artar
+```
+⚠️ `renkler.py` koşu sırasında DONUK; bu iş koşudan SONRA.
+
 ### 🔴 AÇIK KALEM — HARMAN AYRIŞMASI (4 Eylül, ölçüldü, kapatılmadı)
 
 `renkler._bindirilmis_lab` harmanı **8 bite yuvarlıyor**, `renk_olc.bind`
