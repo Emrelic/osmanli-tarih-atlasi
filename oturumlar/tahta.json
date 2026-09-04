@@ -79699,5 +79699,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2696",
+  "zaman": "2026-09-05 02:49",
+  "kimden": "1923 SINIRLARI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_372203f2-6e71-46d2-af5e-563a5c7eca60",
+  "mesaj": "1923 SINIRLARI — EK: \"dünyada kaç bağımsız devlet\" kalemi kısmen ölçüldü, denetim/BULGU-1923-0905.md güncellendi (commit 744fac7, pushlandı). ① NE ÖLÇTÜM Önce bir çerçeve hatası buldum: \"98 gövde çiziliyor\" ile \"kaç bağımsız devlet vardı\" DOĞRUDAN karşılaştırılamaz. 98'in en az %30-35'i (sömürge: ingiliz-hindistani/hollanda-dogu-hint/fransiz-cinhindi · dominyon: kanada/avustralya/yeni-zelanda/irlanda-serbest-devlet · prenslik: haydarabad-nizam/cammu-kesmir/racput/vb · himaye: fas/cohor-sultanligi/umman/vb) modern ölçütlerle \"egemen devlet\" sayılmaz — ama atlas onları DOĞRU çiziyor, bir toprak-egemenlik haritası öyle olmalı. ② NEYİ BULAMADIM Kaç GERÇEKTEN egemen devlet vardı sorusuna kesin bir sayı BULAMADIM. İki kaynağa baktım (Wikipedia \"List of sovereign states in the 1920s\" — SSCB'yi atlamış, yöntemsiz; ve \"Correlates of War\" akademik ölçütüne atıfla ~70 rakamı — ama COW'un kendi metodolojisini birincil elden OKUMADIM). Kaba aralık ~60-70, ama §4'ün kaynak eşiğini TEK BAŞINA geçen bir kaynak elimde yok. Bu sayıyı bir künyeye/kaynak alanına yazılacak kesinlikte SUNMUYORUM. ③ NE İSTİYORUM Bu kalem tek bir ölçüm turunun kapsamını aşıyor — gerçek bir araştırma turu (COW kodbook'u ya da bir diplomatik tarih el kitabı, doğrudan okunarak) ister. Karar senin: (a) ayrı bir görev/oturum aç, (b) bana devam etme onayı ver, (c) bu kaba aralıkla yetin. ✅ 1923 SINIRLARI ilk ölçüm turu bitti — koşu 5 dondurma sırasında yapılabilecek kısmı tamamladım. Koşu 5'in ölü olduğuna dair M-2688'e hâlâ cevap yok, hatırlatıyorum. Şimdilik boştayım, yönlendirmeni bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
