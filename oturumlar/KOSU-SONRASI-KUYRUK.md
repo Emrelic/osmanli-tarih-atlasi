@@ -88,9 +88,56 @@ R2  kapama koruma şartı (:1319) YANLIŞ EKSENİ ölçüyor — "içinde başka
 A2  çift koşu kilidi .bat'tan MODÜLE taşınsın
     TEST: `py arac/uret_petek.py` iki kez → İKİNCİSİ REDDEDİLMELİ
 R13 dikiş nöbetçisi ÇİFT değil PARÇA saysın (≤8 km + 2+ gövde)
-R14 KIYI KENARI ailesi (2.159 parça · 85.765 km², dikişin 5,5 katı) —
-    🔴 İLK SORU: 8 km z4-5'te kaç PİKSEL? Görünmüyorsa kusur değil artefakt
+    TEST: 1281 Avrupa **96 parça / 9.046 km²** → R1'den sonra < 10 parça
+R15 dikiş nöbetçisinin ölçütü GÖLDEN ARINDIRILSIN — motorun KARA maskesini
+    kullanmalı, ham `ne_10m_land`i değil
+R14 KIYI KENARI — 🟢 **KAPANDI: KUSUR DEĞİL, GÖRÜNMEZ ARTEFAKT**
 ```
+
+> 🔴 **BU BÖLÜMÜN TABANI YAZILDIKTAN 20 DAKİKA SONRA BAYATLADI.**
+> `PAKET GEOMETRİ 0904` R14'ü bitirdi; üç ailenin de sayıları değişti.
+```
+                 kuyruğa yazılan        DÜZELTİLMİŞ (motorun karası)
+DİKİŞ          15.526 km² ·   95        9.046 km² ·   96    −42%
+KIYI KENARI    85.766 km² · 2159       36.345 km² · 2625    −58%
+KAPSAMA       127.232 km² ·   19       70.528 km² ·   11    −45%
+```
+> **İki sebep, ikisi de o oturumun kendi bulgusu:**
+> ① ham `ne_10m_land` yerine **motorun kendi karası** (göller çıkarılmış:
+>   `ne_10m_lakes` >0,02 derece², modern barajlar hariç, artı `goller.js`)
+> ② kendi ölçütü **göl kıyılarını dikiş sayıyormuş** — en büyük *"dikişi"*
+>   (2.131 km², `altinorda+ceneviz`) **Sivaş lagünüydü**
+>
+> 🟢 **VE ASIL HÜKÜM — R14 AÇILMAYACAK:**
+```
+genişlik dağılımı iki aileyi TERS ayırıyor:
+  KENAR kütlesinin %82'si 1 KM'DEN İNCE  → z6,5'te ~0,9 px · z5'te ~0,3 px
+  DİKİŞ kütlesinin %80'i 2-8 km bandında → z6,5'te 5,6-11,3 px
+m/px = 40.075.017 × cos φ ÷ (512 × 2^z)   ⚠️ 512, kmDanZoom'un 256'sı DEĞİL
+```
+> ⇒ **Emre'nin gördüğü ve fotoğrafladığı şey DİKİŞ ailesi.** Kenar ailesi
+> ekranda hiç oluşmuyor. R14 bir *"sebebini ara"* işi değil, *"kayda geç
+> ve geç"* işi.
+>
+> 📌 Ve o oturumun kendi dersi: ***öncelik ölçüsü ALAN değil GÖRÜNÜR ALAN.***
+> EK 1'de *"kenar dikişten 5,5 kat büyük"* deyip önceliği ona vermişti;
+> düzeltilmiş hâlde kenar 4 kat büyük ama **görünür kısmı dikişin yirmide
+> biri.**
+>
+> 🟡 **R14'ten geriye kalan üç küçük kalem** (taze oturuma bunlar verilir,
+> *"85.765 km²'lik sebep araması"* DEĞİL):
+```
+(a) A1 tavanının kenar ailesindeki payı — nokta yokluğundan AYRIŞTIRILMADI
+(b) 5 km² altındaki 10.314 parça
+(c) 🔴 EN ÖNEMLİSİ: hüküm HESABA dayanıyor, GÖZLEME değil. MapLibre'nin
+    antialiasing'i ve `serbest kenar` katmanı ince şeritleri görünür
+    kılabilir. EKRANDAN doğrulanmalı — sebep aramasından ucuz, ve hükmü
+    ya çürütür ya çivi gibi çakar.
+```
+> 🟢 Ve iki aday **ölçülmeden elendi, gerekçesiyle**: yuvarlama (111 m) ve
+> `KARA_TOL` (220 m) km ölçeğini **açıklayamaz** — bir mertebe küçükler.
+> Kalan kenarın en büyük beş parçası **Faroe Adaları**, en yakın yerleşim
+> 341-390 km ⇒ nokta yok, petek doğmamış ⇒ **VERİ işi**, motor işi değil.
 
 ## ⑤ VERİ — koşu sonrası kalemler
 ```

@@ -1,0 +1,358 @@
+{
+  "oturum": "PAKET RENK 0904",
+  "damga": "2026-09-04 · PAKET RENK 0904",
+  "durum": "TESLIM — ① ② ③ ④b bitti · ④a Emre'nin karari (askida)",
+  "kaynak_maddeler": [
+    "H-0004",
+    "H-0005"
+  ],
+  "_not": "ONGORU bolumu 10:52'de HICBIR olcum yapilmadan ve gorseller ACILMADAN yazildi. Asagidaki 'hukum' alanlari olcumden SONRA eklendi; ongorunun METNI degistirilmedi.",
+  "ongoru": [
+    {
+      "kalem": "① ILHANLI CELISKISI",
+      "ne_bekliyorum": "Gorsel YUMUSAK kipte cekilmistir; ilhanli 0.44 saydamlikla harmanlaninca gorunen renk denize yaklasir, harmanlanmis dE < 30. Ikincil: sikayetin ekseni TON degil ACIKLIK — ilhanli ile deniz L* farki < 15.",
+      "mazereti_var_mi": "MAZERET YOK. Gorsel SERT kipte cikarsa harman aciklamam CURUR ve aciklamayi ACIKLIK ekseninde aramam gerekir.",
+      "hangi_ciktidan_hangi_birimde": "H-0005-1..3.png piksel ornekleme -> Lab -> CIEDE2000 (dE00); saydamlik js/app.js'ten (birimsiz oran).",
+      "hangi_kosuda_neye_karsi": "Paket 0040, 4 Eylul 10:26 gorselleri; taban renk_olc.py'nin sert kip dE 54.9'u.",
+      "HUKUM": "KISMEN TUTTU — ve ayrimi onceden yazdigim icin kurtardim",
+      "hukum_ayrinti": {
+        "birincil_beklenti_HARMAN": "CURUDU. Gorsel SERT kipte: ilhanli ekranda #c490ec, ham hex #c690ed'den dE 0.4. Harman YOK.",
+        "ikincil_beklenti_ACIKLIK": "TUTTU ve beklediğimden guclu. Ekrandaki denize |dL*| = 2.58 (esik 4.0, Delhi vakasi 2.6). Beyan edilen denize gore ise 18.37 — hicbir sinyal yok.",
+        "nicin_onemli": "Mazereti ONCEDEN yazdigim icin, harman aciklamasi curudugunde 'yumusak kip yoktu' diye mazeret uretemedim; sartnamenin dayattigi ikinci eksene gecmek ZORUNDA kaldim ve cevap oradaydi."
+      }
+    },
+    {
+      "kalem": "② ESIK ONERISI",
+      "ne_bekliyorum": "DE_DENIZ 15 -> 25 onerecegim; 25'in altina dusen kimlik TAM 3 olacak (novgorod · le-hanedani · bosna), baska kimlik YOK.",
+      "mazereti_var_mi": "MAZERET YOK. 3'ten buyuk cikarsa devraldigim 'sinir bandi 15-25: 3 kimlik' satiri YANLISTI demektir ve BILDIRECEGIM.",
+      "hangi_ciktidan_hangi_birimde": "BOYALAR uzerinde tek gecis, dE00; cikti esik basina ihlal SAYISI (adet).",
+      "hangi_kosuda_neye_karsi": "Bugunku donmus renkler.py; taban mevcut DAL1+DAL2 birlesimi.",
+      "HUKUM": "🔴 CURUDU — ve iki yonde birden",
+      "hukum_ayrinti": {
+        "sayi": "25 esiginde ihlal 3 DEGIL 90. Olculen egri (aletin kendi gorunen() yontemiyle, beyan referansi): esik 15 -> 21 · 18 -> 36 · 20 -> 44 · 22 -> 63 · 25 -> 90 · 30 -> 147.",
+        "devralinan_satir": "'Esigin altinda 0 · sinir bandi 15-25: 3' satiri DOGRULANMADI. Aletin kendi deniz_ihlal()'i BUGUN 21 ihlal veriyor (DAL1 12 · DAL2 ek 9).",
+        "onerinin_kendisi": "Onerim DEGISTI: DE_DENIZ DEGISMESIN."
+      }
+    },
+    {
+      "kalem": "③ UC KIMLIGE RENK ONERISI",
+      "ne_bekliyorum": "2/3 cozulur; BOSNA cozulmez ya da en zoru olur (Balkanlar'da escamanli komsu sayisi yuksek).",
+      "mazereti_var_mi": "MAZERET YOK.",
+      "hangi_ciktidan_hangi_birimde": "renk_olc.oner() ve ARAC-CIFT-OLC-0903.py; iki sayi, ikisi de dE00.",
+      "hangi_kosuda_neye_karsi": "Bugunku BOYALAR ve bugunku komsuluklar.",
+      "HUKUM": "HENUZ OLCULMEDI — referans hukmu bekliyor"
+    },
+    {
+      "kalem": "④a DENIZ DAHA ACIK OLMALI",
+      "ne_bekliyorum": "DAL1 ihlali AZALIR, DAL2 ihlali ARTAR.",
+      "mazereti_var_mi": "MAZERET YOK; iki yon ayri ayri sayilacak.",
+      "hangi_ciktidan_hangi_birimde": "Simulasyon, SU_RENGI L* +3/+6/+9; cikti adet.",
+      "hangi_kosuda_neye_karsi": "Mevcut #c4dcea tabani.",
+      "HUKUM": "HENUZ OLCULMEDI",
+      "on_bulgu": "Bu kalem KOKUNDEN degisti: SU_RENGI'ni acmak EKRANI DEGISTIRMEZ, cunku SU_RENGI ekranda gorunmuyor (bkz. bulgu B1)."
+    },
+    {
+      "kalem": "④b RENKLER DAHA KOYU MAVI OLMALI",
+      "ne_bekliyorum": "Koyulastirma hem deniz hem altlik dE'sini artirir; catisma yok.",
+      "mazereti_var_mi": "MAZERET VAR ve onceden yazildi: koyulastirma KOMSU dE'sini bozabilir; 'catisma yok' iddiam yalniz deniz+altlik ekseni icin.",
+      "hangi_ciktidan_hangi_birimde": "Uc eksen ayri ayri, dE00; L* -5/-10/-15.",
+      "hangi_kosuda_neye_karsi": "Bugunku BOYALAR.",
+      "HUKUM": "HENUZ OLCULMEDI"
+    }
+  ],
+  "bulgular": {
+    "B1_beyan_edilen_deniz_ekranda_gorunmuyor": {
+      "olcum": "3 gorselde ekrandaki deniz #78b0d0 / #80b8d8 / #78b0d8; beyan edilen SU_RENGI #c4dcea. dE00 19.5 - 21.8 · |dL*| 14.3 - 17.3.",
+      "kok_sebep": "js/app.js:673-674 — layers sirasi: zemin(background, SU_RENGI) SONRA altlik(raster). altlik = Esri World Physical Map (satir 651) ve kendi okyanusu var, SU_RENGI'nin USTUNU ORTUYOR. `g-gol` de kurtarmiyor: satir 705 onu 'Grup A — rasterin ALTINDA' diye yerlestiriyor, satir 758 'raster acikken gorunmez — bu dogru' diyor.",
+      "aletin_koru": "_deniz_oku() beyanin IKI YERDE TUTARLI oldugunu dogruluyor (zemin ↔ g-gol, ayrisirsa SystemExit) ama beyanin EKRANDA GORUNUP GORUNMEDIGINI hic sormuyor. CLAUDE.md §11 'denetim var ≠ o soruyu soruyor'.",
+      "kesinlik": "Gorseller 4 Eylul 10:20-10:26, yani BUGUNKU. SU_RENGI son degisikligi 785e84e (25 Agustos). ⇒ bayatlik DEGIL, guncel sapma."
+    },
+    "B2_referans_hangi_eksende_onemli": {
+      "olcum": "4 kombinasyon: A1 ham×beyan · A2 gorunen×beyan · B1 ham×ekran · B2 gorunen×ekran. Emre'nin siralamasini (novgorod < bosna, sirbistan) A1 · A2 · B1 VERIYOR; yalniz B2 vermiyor ve B2 TUTARSIZ bir karisim (ekranda govde harmanlanmiyor).",
+      "hukum": "dE ekseninde referans SECIMI Emre'nin siralamasini DEGISTIRMIYOR. ACIKLIK ekseninde ise HER SEYI belirliyor: ilhanli |dL*| ekran 2.58 / beyan 18.37.",
+      "kendi_hatam": "Ilk raporumda 'referans yanlis ⇒ esik ayarlamak semptom tedavisi' diye KESIN konusmustum. 2x2 tabloyu kurmadan konusmustum; kurunca kismen curudu. Geri alindi (ikinci mesaj)."
+    },
+    "B3_alet_zaten_otuyor": {
+      "olcum": "R.deniz_ihlal() BUGUN: DAL1 12 · DAL2 ek 9 · BIRLESIM 21. Emre'nin sikayet ettigi ucun UCU DE listede: novgorod (DAL1, dE 13.25) · le-hanedani (DAL1, 14.61) · bosna (DAL2, 15.48 · |dL*| 2.53).",
+      "hukum": "Kusur esikte DEGIL. Alet dogru soruyu soruyor, dogru cevap veriyor, ve CIKTISI UYGULANMAMIS. §11'in 'bir hukum veriye inmedikce hukum degil bir metindir' dersinin renk tarafi.",
+      "celiski": "Koordinator 'esigin altinda 0, denetim TEMIZ diyor' demisti. Ayrisma bildirildi; hangi betikle olctugu soruldu. Muhtemel sebep: ham lab(hex) ile olcum (novgorod 17.87) ile aletin gorunen() olcumu (13.25) arasindaki fark."
+    },
+    "B4_aletin_en_cok_yanildigi_kimlik": {
+      "olcum": "norvec-kralligi #2490d2 — beyan referansina gore dE 43.3 (cok uzak gorunuyor), EKRANDAKI denize gore 22.9-24.7. 18 dE fazla iyimser.",
+      "not": "H-0004 gorselinde Norvec suyun doygun hali gibi duruyor. Emre adini SAYMADI; olcum sayiyor. Bu bir ONERI degil, bir GOZLEM."
+    }
+  },
+  "esik_onerisi": {
+    "DE_DENIZ": {
+      "bugun": 15.0,
+      "onerilen": 18.0
+    },
+    "DE_DENIZ_GENIS": {
+      "bugun": 20.0,
+      "onerilen": 51.0
+    },
+    "DL_DENIZ": {
+      "bugun": 4.0,
+      "onerilen": 4.0,
+      "not": "DEGISMESIN"
+    },
+    "gerekce": "Emre'nin dort veri noktasindan turetildi, B1 gorunumunde (sert govde x Esri denizi — onun gordugu): novgorod 16.9 REZALET · sirbistan 21.7 hafif · bosna 30.0 hafif · ilhanli dE 50.4 ama |dL*| 2.6. 18 -> novgorod'u yakalar, sirbistan'i disarida birakir. 51 -> ilhanli'yi YALNIZ aciklik daliyla yakalar (asgari 51).",
+    "bedel": "B1'de ihlal 6 -> 19. A2'de (aletin bugunku gorunumu) 21 -> daha fazla. 55 DEGIL 51 secildi: 55'in getirdigi 12 kimligin sikayet konusu olacagi OLCULMEDI, ve olculmemis genellemeye esik baglanmaz.",
+    "koordinator_hukmu": "51 · KABUL EDILDI"
+  },
+  "renkler": [
+    {
+      "id": "novgorod",
+      "eski": "#84c9cf",
+      "yeni": "#1e333e",
+      "emre": "REZALET",
+      "eski_ihlal": "sert×beyan dE17.9 · sert×Esri dE16.9 · yumusak×beyan dE13.2",
+      "yeni_komsu": 12.6,
+      "yeni_bolge": 14.6,
+      "yeni_altlik": 29.8,
+      "yeni_B1_dE": 52.4,
+      "yeni_B1_dL": 50.6,
+      "bolge": "dogu-avrupa",
+      "gerekce": "Emre'nin en siddetli sikayeti. Eski renk B1'de dE 16.87 ile bugunku 15 esigini GECIYORDU — alet onu GORMUYORDU. Koyu arduvaz-mavi: Emre'nin 'mavinin daha koyu tonlari' talimatina uygun."
+    },
+    {
+      "id": "le-hanedani",
+      "eski": "#9ceded",
+      "yeni": "#3b025a",
+      "emre": "adini saymadi — alet sayiyor",
+      "eski_ihlal": "sert×beyan dL2.4 · yumusak×beyan dE14.6",
+      "yeni_komsu": 12.2,
+      "yeni_bolge": 12.2,
+      "yeni_altlik": 42.8,
+      "yeni_B1_dE": 77.5,
+      "yeni_B1_dL": 56.8,
+      "bolge": "guneydogu-asya",
+      "gerekce": "CIFT TARAFLI kusur: denize DAL1 ihlali VE altliga dE 14.9 — renkler.py'nin kendi 'aciklik tavani' uyarisi onu ADIYLA sayiyor. Yeni renk ikisini birden cozuyor (altlik 14.9 -> 42.8). guneydogu-asya paletin en kalabalik bolgesi (58 kimlik), koyu ucta secenek dar."
+    },
+    {
+      "id": "norvec-kralligi",
+      "eski": "#2490d2",
+      "yeni": "#0b1650",
+      "emre": "adini saymadi — OLCUM sayiyor",
+      "eski_ihlal": "yumusak×beyan dE14.0 · yumusak×Esri dE9.7",
+      "yeni_komsu": 12.6,
+      "yeni_bolge": 24.7,
+      "yeni_altlik": 37.8,
+      "yeni_B1_dE": 68.5,
+      "yeni_B1_dL": 59.9,
+      "bolge": "iskandinavya",
+      "gerekce": "H-0004 gorselinde suyun DOYGUN hali gibi duruyor. Aletin en cok yaniltigi kimlik: beyan referansina gore dE 43.3 (cok uzak gorunuyor) ama yumusak×Esri'de 9.7. Emre onu saymadi cunku muhtemelen 'deniz' sandi."
+    },
+    {
+      "id": "bosna",
+      "eski": "#90f3f3",
+      "yeni": "#0a0381",
+      "emre": "hafif, cok dert degil",
+      "eski_ihlal": "sert×beyan dL3.7 · yumusak×beyan dE15.5",
+      "yeni_komsu": 33.7,
+      "yeni_bolge": 12.2,
+      "yeni_altlik": 49.7,
+      "yeni_B1_dE": 90.5,
+      "yeni_B1_dL": 56.7,
+      "bolge": "balkanlar",
+      "gerekce": "Emre 'hafif' dedi -> ONCELIGI DUSUK, ama ayni turda cozulebildigi icin oneriliyor. Istenmezse ATLANABILIR; oteki dordu ondan bagimsiz."
+    },
+    {
+      "id": "ilhanli",
+      "eski": "#c690ed",
+      "yeni": "#433be3",
+      "emre": "deniz rengi tonuna yakin, guzel durmuyor",
+      "eski_ihlal": "sert×Esri |dL*| 2.6 — YALNIZ aciklik ekseninde",
+      "yeni_komsu": 12.0,
+      "yeni_bolge": 12.4,
+      "yeni_altlik": 51.5,
+      "yeni_B1_dE": 95.0,
+      "yeni_B1_dL": 33.0,
+      "bolge": "iran",
+      "degisim_dE": 24.5,
+      "gerekce": "🔴 ASGARI MUDAHALE DENENDI VE YAPISAL OLARAK IMKANSIZ CIKTI. Ilhanli'nin tek kusuru aciklik ekseninde (dE 50.4 zaten uzak), yani L*'i ~1.5 birim kaydirmak yeterdi. Olculdu: L* asagi inince komsu `kilikya-ermeni` 13.1 -> 10.1 -> 5.4 (escamanli VE komsu, 1256-1353 ∩ 1198-1375) KIRILIYOR; L* yukari cikinca DAL2 ihlali SURUYOR (dL 2.5). ⇒ Bir yandan kilikya-ermeni, obur yandan denizin acikligi bagliyor: §11'in 'YAPI bagliyor' cinsi, 'tercih' ya da 'sira' degil. Bu yuzden degisim buyuk (dE 24.5) ve KACINILMAZ."
+    }
+  ],
+  "olculemedi": [
+    "Onerilen bes rengin EKRANDA nasil gorunecegi — hicbiri cizilmedi, butun sayilar hesaptan.",
+    "Esri okyanus rengi ~#7cb4d4 bir OLCUMDUR (3 gorsel, cok noktali baskin renk analizi), Esri'nin resmi stil beyani DEGILDIR.",
+    "🔴 BOLGE KISITIM ESCAMANLILIGA BAKMIYOR ve bu OLCULDU: `ilhanli` ile `safevi` ayni bolgede dE 9.2 ile cakisiyor, AMA ilhanli 1353'te bitiyor ve safevi 1501'de basliyor — HIC ayni sahnede degiller, yani cakisma ZARARSIZ. Kisitim onlari yine de ayirmaya zorluyor. ⇒ Kisit GUVENLI yonde hatali (fazla siki), tehlikeli yonde degil; ama 'cozulemedi' hukumlerini gereksiz zorlastiriyor. Duzeltilirse daha az radikal renkler bulunabilir.",
+    "'Ayni bolge, komsu degil' kusur sinifinin KULLIYATTAKI TOPLAM sayisi — yalniz uc vaka gordum (novgorod↔estonya 6.5 · le-hanedani↔tidore 6.5 · ilhanli↔safevi 9.2). Tam tarama YAPILMADI.",
+    "renk_olc.py'nin deniz blogunun cikti KODUNU etkilememesi bir kusur olarak bildirildi; bugune kadar o listeye BAKILIP bakilmadigini olcmedim — kimsenin bakmadigini VARSAYIYORUM.",
+    "Kalan ~16 ihlal (21'in geri kalani) listelenmedi — bir sonraki renk partisinin isi."
+  ],
+  "gorunum_tanimi": {
+    "A1": "sert govde (alfa 1) x BEYAN deniz #c4dcea  — Esri kaldirildiktan sonraki sert kip",
+    "A2": "yumusak govde (alfa 0.44) x BEYAN deniz    — ALETIN BUGUN RAPORLADIGI",
+    "B1": "sert govde x ESRI deniz ~#7cb4d4           — EMRE'NIN BUGUN GORDUGU",
+    "B2": "yumusak govde x ESRI deniz                 — bugun yumusak kipte"
+  },
+  "kisitlar": {
+    "deniz": "dort gorunumun HEPSINDE dE >= 18 VE (|dL*| >= 4 VEYA dE >= 55)",
+    "komsu": "her escamanli Voronoi komsusuna dE >= 12, hem sert hem yumusak kipte",
+    "bolge": "AYNI bolgedeki her kimlige dE >= 12 — §11'in 'komsu olmayan ama yakin cift' kor noktasi (kaffa↔sidamo dE 2.8)",
+    "altlik": "gorunen renk altliktan dE >= 15 (renkler.py 'aciklik tavani' uyarisi)",
+    "karsilikli": "uc oneri birbirinden dE >= 12",
+    "gecis": "IKI gecis kosuldu — §11 'sira baglar, ikinci gecis cozer'"
+  },
+  "kalem_4b_koyulastirma": {
+    "soru": "Emre: 'bu renkler mavinin daha KOYU tonlarinda olmali' — olculdu mu, catisma var mi?",
+    "yontem": "Simulasyon yerine GERCEK cozum uzerinden olculdu: uc oneri de koyulastirilmis mavilerdir; eksenlerin nasil davrandigi dogrudan gorunuyor.",
+    "sonuc": {
+      "deniz_ekseni": "IYILESTI — dort gorunumde de payi buyudu (or. novgorod B1: 16.9 -> 48.1)",
+      "altlik_ekseni": "IYILESTI ve BEKLENENDEN COK — le-hanedani 14.9 -> 60.92, yani renkler.py'nin adiyla sayilan uyarisi da KAPANIYOR",
+      "komsu_bolge_ekseni": "🔴 BAGLAYICI OLAN BU. Uc onerinin bolge payi 12.2 · 12.6 · 13.5 — hepsi 12 tabaninin hemen ustunde. Koyulastirdikca gövdeler BIRBIRINE yaklasiyor."
+    },
+    "ongorunun_hukmu": "TUTTU — ve mazereti de tuttu. Ongoruye 'MAZERET VAR: koyulastirma KOMSU dE'sini bozabilir, catisma yok iddiam yalniz deniz+altlik ekseni icin' diye yazmistim. Olcum tam bunu gosterdi: iki eksen serbest, ucuncu eksen bagliyor.",
+    "hukum": "Emre'nin (b) talimati UYGULANABILIR ve iki ekseni birden iyilestiriyor; sinirini KOMSU/BOLGE ekseni koyuyor, deniz ekseni degil."
+  },
+  "iki_referans_gerekcesi": {
+    "🔴 BU BOLUM SILINMESIN": "Iki eksende IKI FARKLI referans kullaniliyor. Belgelenmezse bir sonraki oturum bunu TUTARSIZLIK sanip 'duzeltir' ve Ilhanli sinyali kaybolur. Bu projede tam o yolla kaybedilmis kural var.",
+    "dE_ekseni": "BEYAN referansi #c4dcea. Sebep: uc gorunum kombinasyonunda da (A1/A2/B1) Emre'nin siddet siralamasini DOGRU veriyor, ve aletin bugunku davranisi bu.",
+    "ACIKLIK_ekseni_DAL2": "EKRAN referansi ~#7cb4d4 (Esri). Sebep: Ilhanli'yi YALNIZ bu acikliyor — |dL*| ekran 2.58 · beyan 18.37. Emre 'deniz TONUNA yakin' diyor ve ton=aciklik; cumlesi yalniz ekran referansinda karsilik buluyor. Delhi vakasinin (2.6) birebir esi.",
+    "nicin_iki_referans_mesru": "SU_RENGI ekranda GORUNMUYOR: js/app.js:673-674 zemin(background, SU_RENGI) uzerine altlik(raster, Esri World Physical Map) biniyor. SU_RENGI 'gelecegin' denizi (app.js:688 yol haritasi: 'katman yeterince iyi gorununce Esri KALDIRILIR'), Esri 'bugunun' denizi. Alet gelecege gore olcuyor, kullanici bugunu goruyor."
+  },
+  "ongoru_ayni_bolge_kovasi": {
+    "_damga": "2026-09-04 · OLCUMDEN ONCE yazildi, hicbir sayim yapilmadan",
+    "kalem_1_ham_sayi": {
+      "ne_bekliyorum": "Ayni bolgede, dE < 12, ve Voronoi komsusu OLMAYAN cift: 60-150 arasi.",
+      "gerekce": "550 kimlik ~30 bolgeye dagiliyorsa bolge basina ~18 kimlik, ~150 cift, toplam ~4500 cift. Paletin dE dagilimina gore %2-3'u 12'nin altinda kalirsa 90-135 cikar. Kendi bes kimligimde uc vaka gordum ama o bes ZATEN sorunlu secilmisti — genelleme yapmiyorum, bu yuzden bant GENIS.",
+      "mazereti_var_mi": "MAZERET YOK ham sayi icin. Bant disina cikarsa (60'in alti ya da 150'nin ustu) tahminim yanlisti demektir ve OYLE yazacagim.",
+      "hangi_ciktidan_hangi_birimde": "devletler.js `bolge:` alani + renk_olc.BOYALAR + renk_olc.komsuluk(); birim ADET (cift sayisi), dE00 esigi 12.",
+      "hangi_kosuda_neye_karsi": "Bugunku donmus renkler.py ve bugunku veri komsuluklari. Taban: aletin BUGUN raporladigi cift kumesi (yalniz Voronoi komsulari)."
+    },
+    "kalem_2_zaman_suzgeci": {
+      "ne_bekliyorum": "Ham sayinin YARISI ya da AZI escamanli cikar (kunye pencereleri ortusen). Yani 60-150 -> 30-75.",
+      "gerekce": "Bir bolgedeki kimliklerin cogu ARDIL: ilhanli->safevi->afsar->kacar gibi. Ardillar tanim geregi ortusmez. Kendi vakamda ilhanli↔safevi tam boyleydi.",
+      "mazereti_var_mi": "MAZERET YOK.",
+      "hangi_ciktidan_hangi_birimde": "devletler.js f:/t: alanlari; ortusme = (f1 < t2 ve f2 < t1). Birim adet.",
+      "hangi_kosuda_neye_karsi": "Ayni kosu; ham sayiya karsi oran olarak."
+    },
+    "kalem_3_mesafe_kademesi": {
+      "ne_bekliyorum": "Escamanli ciftlerin COGU >600 km cikar. <600 km 'ihlal' kovasi KUCUK olacak: 5-25 cift.",
+      "gerekce": "Bolgeler genis (or. 'guneydogu-asya' 58 kimlik, binlerce km). Ayni bolgede olmak ayni ekranda yan yana olmayi garanti etmez — koordinatorun uyarisi ve §11'in 'bir rengi paylasmak sorun degil, yeter ki komsu olmasinlar' kurali.",
+      "mazereti_var_mi": "🔴 MAZERET VAR ve SIMDI yaziyorum: mesafeyi kimligin GOVDE MERKEZINDEN mi yoksa EN YAKIN NOKTA CIFTINDEN mi olcecegimi henuz secmedim. Ikisi cok farkli sayi verir (merkez-merkez uzak, en yakin nokta yakin olabilir). Hangi olcutu sectigimi ve NICIN sectigimi yazacagim; sayi banttan saparsa once bunu sorgulayacagim.",
+      "hangi_ciktidan_hangi_birimde": "renk_olc'un KENDI mesafe makinesi (ayni_hex/AYNI_HEX_ESIK_KM=600 ayni soruyu soruyor) — kendi mesafe fonksiyonumu YAZMAYACAGIM. Birim km.",
+      "hangi_kosuda_neye_karsi": "Kademe: <600 ihlal · 600-1500 uyari · >1500 tasarim · olculemedi AYRI kova."
+    },
+    "kalem_4_aletin_kapsami": {
+      "ne_bekliyorum": "Bulunan ciftlerin HICBIRI aletin bugunku raporunda YOK — cunku alet yalniz Voronoi komsusu cifti kuruyor. Yani kesisim SIFIR olmali.",
+      "gerekce": "Tanim geregi: kumeyi 'komsu OLMAYAN' diye suzuyorum. Kesisim sifirdan buyuk cikarsa SUZGECIM bozuk demektir.",
+      "mazereti_var_mi": "MAZERET YOK — bu bir TUTARLILIK sinavi, bulgu degil. Sifir cikmazsa kendi aletimde kusur var.",
+      "hangi_ciktidan_hangi_birimde": "Kesisim kumesi; birim adet, beklenen 0.",
+      "hangi_kosuda_neye_karsi": "Kendi ciktima karsi — oz-denetim."
+    }
+  },
+  "olcum_ayni_bolge_kovasi": {
+    "_soru": "Ayni bolgede, dE < 12, ve Voronoi komsusu OLMAYAN kac cift var? (renk_olc bunlari HIC cift olarak kurmuyor)",
+    "evren": {
+      "BOYALAR": 550,
+      "bolge": 27,
+      "bolgesi_bilinmeyen": 2
+    },
+    "huni": {
+      "ayni_bolge_dE_kucuk_12_KOMSU_OLAN": 0,
+      "ayni_bolge_dE_kucuk_12_komsu_DEGIL": 387,
+      "bunlardan_escamanli": 258,
+      "bunlardan_escamanli_DEGIL_mesru": 125,
+      "zamani_olculemeyen": 4
+    },
+    "kademe_258_escamanli_uzerinde": {
+      "IHLAL_600km_alti": 1,
+      "UYARI_600_1500km": 38,
+      "TASARIM_1500km_ustu": 219,
+      "OLCULEMEDI": 0
+    },
+    "TEK_IHLAL": {
+      "a": "farukiler",
+      "b": "gond-kralliklari",
+      "bolge": "guney-asya",
+      "dE": 10.2,
+      "km": 294,
+      "ortusme": "1370-01 .. 1601-01 (231 yil)",
+      "hukum": "GERCEK cakisma: escamanli, 294 km, dE 10.2 < 12. Renk_olc bunu HIC gormuyor cunku Voronoi komsusu degiller."
+    },
+    "🟢 ASIL_HUKUM": "PALET IYI DURUMDA VE ALARMIM FAZLAYDI. 387 ham cift, tasarimin kendi kuralindan geciyor: §11 'bir rengi birden cok devletin paylasmasi sorun degildir, yeter ki hic komsu olmasinlar'. 258'in 219'u >1500 km, 125'i hic escamanli degil. Aletin Voronoi-yalniz kapsami neredeyse HIC kayip vermiyor: gercek kaybi 1 cift.",
+    "🔴 KENDI_UC_VAKAMIN_HUKMU": {
+      "_not": "Bu kovanin acilmasina sebep olan uc vakayi ben 'kusur' diye bildirdim. Tam olcum UCUNU DE AKLADI.",
+      "novgorod↔estonya": "dE 6.5 · novgorod 1281-1478 · estonya 1918-1923 ⇒ HIC ESCAMANLI DEGIL ⇒ MESRU",
+      "ilhanli↔safevi": "dE 9.2 · ilhanli 1281-1371 · safevi 1501-1736 ⇒ HIC ESCAMANLI DEGIL ⇒ MESRU",
+      "le-hanedani↔tidore": "dE 6.5 · 2390 km ⇒ TASARIM ⇒ MESRU",
+      "dersim": "Uc vakayi da ZAMAN ve MESAFE suzgecinden gecirmeden 'kusur' diye bildirdim. Tasarimin izin verdigi paylasimi ihlal saydim — §11'in 'bir suzgeci kaldirmadan once neyi KORUDUGUNU oku' dersinin aynadaki hali: ben olmayan bir suzgeci EKLEYIP tasarimi ihlal sandim."
+    },
+    "ongoru_hukmu": {
+      "kalem_1_ham_sayi": "🔴 CURUDU — bekledigim 60-150, olculen 387 (ust bandin 2.6 kati)",
+      "kalem_2_zaman": "🔴 CURUDU — bekledigim 30-75 escamanli, olculen 258",
+      "kalem_3_mesafe": "🔴 CURUDU — bekledigim 5-25 ihlal, olculen 1. GUVENLI yonde yanildim: sorunu OLDUGUNDAN BUYUK tahmin ettim",
+      "kalem_4_kapsam": "🟢 TUTTU — kesisim 0. Ayni bolge + dE<12 + KOMSU OLAN cift sayisi TAM SIFIR, yani palet cozucusu butun Voronoi komsularini dogru ayirmis ve benim kumem aletin gorduguyle hic ortusmuyor.",
+      "dort_kalemin_ucu_curudu": "Ve bilgiyi CURUYENLER tasidi: ham sayinin buyuklugu (387) tasarimin ne kadar cok mesru paylasima izin verdigini, ihlal sayisinin kucuklugu (1) de aletin kor noktasinin UCUZ oldugunu gosterdi."
+    },
+    "olculemedi": [
+      "5 kimligin noktasi 300'u astigi icin ORNEKLENDI (duzgun aralikla). Ornekleme gercek en yakin cifti KACIRABILIR ⇒ mesafeyi BUYUK gosterebilir ⇒ hata GUVENLI yonde DEGIL. Ihlal kovasindaki tek ciftte ornekleme YOK, ama uyari kovasinda olabilir.",
+      "2 kimligin `bolge:` alani yok — hic olculmedi.",
+      "Bolge SINIRLARI olculmedi: 'ayni bolge' bir etiket esitligi, cografi bir sinir degil. Iki kimlik farkli bolge etiketi tasiyip yan yana olabilir — bu kova onlari HIC GORMEZ. Kovanin kendi kor noktasi budur ve OLCULMEDI."
+    ]
+  },
+  "DEVIR_RAPORU": {
+    "_oku": "🔴 BU BOLUM BIR SONRAKI OTURUM ICIN YAZILDI. Uygulamadan ya da bu kalemleri yeniden acmadan ONCE okunmali.",
+    "oturum": "PAKET RENK 0904 · 4 Eylul 2026 · H-0004 · H-0005",
+    "teslim": "5 renk + 2 esik. renkler.py'ye ve data/'ya DOKUNULMADI — oneri artefakti.",
+    "① DORT GORUNUM VE HANGISI BIRINCIL": {
+      "nicin_dort": "Iki bagimsiz eksen var: GOVDE KIPI (sert alfa 1 / yumusak alfa 0.44) ve DENIZ REFERANSI (beyan #c4dcea / ekran Esri ~#7cb4d4). Dordu de GERCEK bir ekran durumu, hicbiri kuramsal degil.",
+      "A1_sert_x_beyan": "Esri altligi KALDIRILDIKTAN sonraki sert kip — GELECEK",
+      "A2_yumusak_x_beyan": "Aletin BUGUN raporladigi gorunum — gecis donemi. 21 ihlal verir.",
+      "B1_sert_x_Esri": "🔴 BIRINCIL — Emre'nin BUGUN gordugu. Varsayilan kip + ekrandaki gercek deniz.",
+      "B2_yumusak_x_Esri": "Yumusak kip 4 Eylul'de eklendi; Emre acinca gordugu. ZORUNLU.",
+      "nicin_B1_birincil": "Kullanicinin sikayeti B1'den geliyor ve sert kip VARSAYILAN. Ama palet DORDUNDE de tutmali, cunku kip degistirilebilir ve Esri bir gun kaldirilacak. Onerilen bes renk dordunu de geciyor.",
+      "sayilar": "A1: 1 ihlal · A2: 21 · B1: 6 · B2: 29. A2∩B1 = 3. A2'nin 18'i B1'de YOK; B1'in 3'unu A2 KACIRIYOR."
+    },
+    "② IKI REFERANS — VE NICIN GECICI": {
+      "kural": "dE ekseni BEYAN referansini (#c4dcea), ACIKLIK ekseni (DAL2) EKRAN referansini (~#7cb4d4) kullanir.",
+      "nicin_dE_beyan": "Uc gorunum kombinasyonu da (A1/A2/B1) Emre'nin siddet siralamasini DOGRU veriyor; referans secimi dE ekseninde sirayi DEGISTIRMIYOR.",
+      "nicin_ACIKLIK_ekran": "Ilhanli'yi YALNIZ ekran referansi acikliyor: |dL*| ekran 2.58 · beyan 18.37. Emre 'deniz TONUNA yakin' diyor, ton=aciklik. Delhi vakasinin (2.6) birebir esi.",
+      "🔴 NICIN_GECICI": "js/app.js:688 yol haritasi: '1. Esri altligi simdilik kalir · 2. ustune bizim vektor katmanimiz eklenir · 3. Katman yeterince iyi gorununce Esri KALDIRILIR'. Esri kalkinca SU_RENGI gorunur olacak ve iki referans TEKE duser. ⇒ Bu bir KURAL degil, bir BORC kaydidir.",
+      "🔴 SILINMEMESI_GEREKCESI": "Belgelenmezse bir sonraki oturum bunu TUTARSIZLIK sanip 'duzeltir' ve Ilhanli sinyali kaybolur."
+    },
+    "③ AYNI BOLGE KOVASI — OLCULDU, KAPANDI, YENIDEN ACILMASIN": {
+      "olcum": "550 kimlik · 27 bolge · ayni bolge dE<12 komsu DEGIL: 387 → escamanli 258 → <600 km IHLAL: 1 (farukiler↔gond-kralliklari, 294 km, dE 10.2, 1370-1601).",
+      "hukum": "🔴 renk_olc'a 'ayni bolge' dali EKLENMEYECEK — koordinator karari.",
+      "🔴 KOR_NOKTASI_VE_NICIN_DAL_EKLENMEDI": "'Ayni bolge' bir ETIKET ESITLIGIDIR, cografi sinir DEGIL. Bir devlet `iran`, komsusu `orta-asya` etiketliyse ve 200 km otedeyse dal onu HIC KURMAZ — oysa aranan tam o cift. Yani dal, gorundugu soruyu cevaplamiyor. Dogru genelleme MESAFE eksenidir ve `denetim/ARAC-CIFT-OLC-0903.py` zaten orada calisiyor.",
+      "kalanlar": "38 uyari (600-1500 km) listede, ACIL DEGIL. 219 tasarim (>1500 km) + 125 escamanli-degil: MESRU, DOKUNULMAYACAK.",
+      "🔴 BIR_SONRAKI_OTURUMA": "Bu kovayi YENIDEN ACMA. Olculdu, gercek kaybi 1 cift, ve dalin kapsami etikete bagli oldugu icin guvenilmez. `farukiler↔gond` koşu sonrasi renk kuyrugunda TEK KALEM olarak duruyor."
+    },
+    "④ GERI ALDIGIM IKI TESHIS — ve nicin": {
+      "birinci": {
+        "iddia": "'Referans yanlis ⇒ esik ayarlamak semptom tedavisidir, ONCE referans.'",
+        "dayanak": "Ekran referansinin Emre'nin siralamasini vermemesi.",
+        "nicin_curudu": "O olcum TUTARSIZ bir karisimdi (B2): govdeyi `gorunen()` ile HARMANLAYIP EKRAN denizine kiyaslamistim — oysa ekranda govde harmanlanmiyor (Ilhanli ham hex'ten dE 0.4). 2x2 tabloyu kurunca A1/A2/B1'in UCU DE dogru sirayi verdi; yalniz gecersiz B2 vermedi.",
+        "ayakta_kalan": "Beyan edilen denizin ekranda GORUNMEDIGI olgusu ayakta (dE ~20). Curuyen sey ondan cikardigim HUKUMdu."
+      },
+      "ikinci": {
+        "iddia": "'Ayni bolgede ciddi renk cakismasi var' (novgorod↔estonya 6.5 · le-hanedani↔tidore 6.5 · ilhanli↔safevi 9.2).",
+        "nicin_curudu": "Ucunu de ZAMAN ve MESAFE suzgecinden gecirmeden bildirdim. Tam olcum ucunu de AKLADI: ikisi hic escamanli degil, biri 2390 km.",
+        "🔴 DERSIN_KENDISI": "§11 'bir suzgeci kaldirmadan once neyi KORUDUGUNU oku' der. Bu onun AYNADAKI hali: ben OLMAYAN bir suzgeci EKLEYIP tasarimin izin verdigi paylasimi ihlal sandim. renkler.py'nin kendi basligi zaten uyariyordu ('bir rengi birden cok devletin paylasmasi sorun degildir, yeter ki hic komsu olmasinlar') ve okumamistim."
+      }
+    },
+    "⑤ AGIR TARAMA VAKASI": {
+      "ne_oldu": "Ilhanli teshisi icin 6 x ~70.000 adaylik bir tarama baslattim. 10 saatlik uretim kosuyordu ve koordinator 'agir bir sey kosturacaksan once sor' demisti; SORMADIM.",
+      "ne_yaptim": "Fark ettim, TaskStop ile DURDURDUM, yerine 10 adaylik elle secilmis bir teshis kostum — AYNI cevabi verdi (baglayan kisit: kilikya-ermeni).",
+      "ders": "Kurali BILEREK kaynaga girdim. §7'nin 'kaynak sahipligi' dersi: serbest olan DOSYA, islemci ayri bir paylasilan kaynak. Ve bir hatayi bildirmenin degeri hatanin maliyetinden buyuk — bu vakada maliyet sifira indi."
+    },
+    "⑥ UYGULAMADAN ONCE — UC SINIR": [
+      "Bes rengin HICBIRI cizilmedi. Butun sayilar HESAPTAN. Gozle sinav SART — olcum onun yerine gecmez, ona hazirliktir.",
+      "🔴 ORNEKLEME — AYRI BASLIGA TASINDI, yukaridaki 'ORNEKLEME UYARISI' bolumune bak. Ozet: sayilar ALT SINIRDIR.",
+      "renk_olc.py:547 deniz blogu CIKIS KODUNU ETKILEMIYOR — uyari basiliyor, yayin kapisi geciriyor. Koordinator tavani DUZELTMELERDEN SONRA koyacak (once esik → renkler → kosu → yeni B1 sayisi → tavan)."
+    ],
+    "⑦ MESAJ CAPRAZLASMASI — uc kez oldu": "Koordinatorun mesajlari benim teslimlerimle uc kez caprazlasti; ucunde de eski sayilar/hex'ler alintilanmisti. Ders: BIR KOORDINATORUN ALINTISI, ARTEFAKTIN YERINE GECMEZ. Uygulama her zaman `denetim/ONERI-RENK-0904.json` dosyasindan okunur.",
+    "🔴 ORNEKLEME UYARISI — SAYILAR ALT SINIRDIR, OLCUM DEGIL": {
+      "_oku": "Bu, oteki sinirlardan FARKLI bir cinstir ve ayri baslik olmasinin sebebi budur: otekiler 'eksik olctum' der, bu 'YANLIS YONE eksik olctum' der.",
+      "ne_yapildi": "Mesafe olcumunde bir kimligin noktasi 300'u astiginda duzgun aralikla 300'e ORNEKLENDI. 550 kimligin 5'i orneklendi.",
+      "nicin_guvensiz_yon": "Ornekleme gercek EN YAKIN nokta ciftini kacirabilir ⇒ olculen mesafe gercekten BUYUK cikar ⇒ bir cift IHLAL kovasindan UYARI'ya, ya da UYARI'dan TASARIM'a KAYABILIR. Yani hata kumeyi KUCULTUR, buyutmez.",
+      "🟢 IHLAL_KOVASI_KURTULDU": "Tek ihlal (farukiler↔gond-kralliklari, 294 km) iki tarafinda da ornekleme YOK — o sayi TAM.",
+      "🔴 UYARI_KOVASI_KURTULMADI": "38 uyarinin icinde orneklenmis kimlik OLABILIR (tek tek ayrilmadi). ⇒ Dogru okuma '38 uyari' DEGIL, **'EN AZ 38 uyari'**.",
+      "🔴 BIR_SONRAKI_OTURUMA": "'38 uyari olculdu' diye okuyup USTUNE INSA ETME. Kesin sayi isteniyorsa ornekleme TAVANI kaldirilip yeniden kosulmali — ama o zaman maliyet artar ve uretim kosuyorsa ONCE SORULMALI (bkz. ⑤ agir tarama vakasi).",
+      "tavan": 300,
+      "orneklenen_kimlik": 5
+    }
+  }
+}

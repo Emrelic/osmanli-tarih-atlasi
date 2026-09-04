@@ -1,0 +1,255 @@
+{
+  "oturum": "KRONOLOJİ ORTA AMERİKA",
+  "damga": "2026-09-04 · ② kol (5 zayıf künye)",
+  "bicim_notu": "ÖLÇÜT biçimi — koordinatör hükmü (4 Eylül 2026): otorite ÖLÇÜT, şartname değil. `kesinlik` alanı DÜŞÜRÜLDÜ (dönem ucu alanı, madde alanı değil); `d` hiç kullanılmadı; `kaynak` şemaya eklendi ve maddede KALIYOR. Madde alan kümesi: t · tur · b · kaynak.",
+  "kapsam": "orta-amerika-karayip (8 künye) + orta-amerika (5 künye)",
+  "kunyeler": [
+    {
+      "id": "dominik-cumhuriyeti",
+      "eklenen": [
+        {
+          "t": "1844-02-27",
+          "tur": "kurulus",
+          "b": "Dominik Cumhuriyeti Haiti yönetimine son vererek bağımsızlığını ilan etti",
+          "kaynak": "history.state.gov/countries/dominican-republic (US Dept. of State, Office of the Historian) — AYNEN: «the island nation of the Dominican Republic declared itself an independent nation from neighboring Haiti in 1844». 🟡 YIL doğrulandı; 27 Şubat GÜNÜ künyenin kendi f: alanından DEVRALINDI (künye kaynağı Encyclopedia.com) ve TARAFIMDAN DOĞRULANMADI."
+        },
+        {
+          "t": "1861-03-17",
+          "tur": "isgal",
+          "b": "Başkan Santana ülkenin İspanya'ya ilhakını ilan etti, bağımsızlık fiilen sona erdi",
+          "kaynak": "countrystudies.us/dominican-republic/6.htm (Library of Congress, Federal Research Division — Country Studies) — AYNEN: «On March 17, 1861, Santana announced the annexation of the Dominican Republic by Spain.» 🟡 Yaygın literatür 18 Mart der; kaynağın verdiği gün 17 Mart, kaynağa uyuldu."
+        },
+        {
+          "t": "1863-09-14",
+          "tur": "isyan",
+          "b": "Santiago'da geçici hükümet kurulup Bağımsızlık Bildirisi okundu, Restorasyon Savaşı başladı",
+          "kaynak": "countrystudies.us/dominican-republic/6.htm (LoC Country Studies) — AYNEN: «Rebellious Dominicans set up a provisional government in Santiago…on September 14, 1863. Their proclamation of an Act of Independence launched what is known as the War of Restoration.»"
+        },
+        {
+          "t": "1865-03-03",
+          "tur": "toprak-kazanc",
+          "b": "İspanya Kraliçesi ilhakı yürürlükten kaldıran kararnameyi onayladı, ülke topraklarını geri kazandı",
+          "kaynak": "countrystudies.us/dominican-republic/6.htm (LoC Country Studies) — AYNEN: «On March 3, 1865, the Queen of Spain approved a decree repealing the annexation of Santo Domingo.»"
+        },
+        {
+          "t": "1865-12-08",
+          "tur": "hukumdar",
+          "b": "Buenaventura Báez sürgünden dönerek başkanlığı devraldı",
+          "kaynak": "countrystudies.us/dominican-republic/6.htm (LoC Country Studies) — AYNEN: «…force the restoration of Báez, who returned triumphantly from exile and assumed the presidency on December 8, 1865.»"
+        }
+      ],
+      "eksik_kalan": "1916 ABD askerî işgali: history.state.gov'un ülke sayfası bu işgale TARİH VERMİYOR (ölçüldü — yalnız «U.S. military occupations» diye geçiyor). Gün bulunamadı, madde YAZILMADI."
+    },
+    {
+      "id": "kuba-cumhuriyeti",
+      "eklenen": [
+        {
+          "t": "1901-06-13",
+          "tur": "antlasma",
+          "b": "Küba anayasasına Platt Değişikliği'nin sekiz maddesi eklendi, ABD'ye müdahale hakkı tanındı",
+          "kaynak": "guides.loc.gov/world-of-1898/teller-platt-amendments (Library of Congress) — 🔴 GÖVDE ÇEKİLEMEDİ (HTTP 403); tarih arama özetinden alındı (Kurucu Meclis 12 Haziran 1901'de kabul, 13 Haziran 1901'de anayasa) ve TARAFIMDAN DOĞRULANMADI. Damgam «ölçülemedi», «doğrulandı» DEĞİL."
+        },
+        {
+          "t": "1902-05-19",
+          "tur": "kurulus",
+          "b": "Küba Cumhuriyeti resmen kuruldu",
+          "kaynak": "history.state.gov/countries/cuba (US Dept. of State, Office of the Historian) — AYNEN: «the Republic of Cuba was formally installed on May 19, 1902»"
+        },
+        {
+          "t": "1902-05-20",
+          "tur": "toprak-kazanc",
+          "b": "ABD Küba üzerindeki işgal yetkisini bıraktı, ada yönetimi Küba hükûmetine geçti",
+          "kaynak": "history.state.gov/countries/cuba (Office of the Historian) — AYNEN: «On May 20, 1902, the United States relinquished its occupation authority over Cuba»"
+        }
+      ],
+      "not": "🔴 ŞARTNAME ÇELİŞKİSİ ÇÖZÜLDÜ, KAYBEDİLEN GÜN YOK: şartname örneği 1902-05-20 diyordu, künye f: 1902-05-19 diyor. Kaynak İKİSİNİ DE veriyor ama AYRI olaylara bağlıyor — bu yüzden tek madde yerine İKİ madde yazıldı. Koordinatöre bildirildi."
+    },
+    {
+      "id": "guatemala",
+      "eklenen": [
+        {
+          "t": "1821-09-15",
+          "tur": "kurulus",
+          "b": "Orta Amerika toprakları İspanya'dan bağımsızlığını ilan etti",
+          "kaynak": "history.state.gov/countries/central-american-federation (Office of the Historian) — «Central American territories declared independence from Spain on September 15, 1821». 🟡 Bu cümle sayfanın arama özetinden alındı; sayfanın kendi gövdesini ayrıca çekmedim."
+        },
+        {
+          "t": "1823-01-01",
+          "tur": "ittifak",
+          "b": "Guatemala, Honduras · Nikaragua · Kosta Rika · El Salvador ile birlikte Orta Amerika Birleşik Eyaletleri'ne katıldı",
+          "kaynak": "history.state.gov/countries/guatemala (Office of the Historian) — AYNEN: «Following its independence from Spain in 1821, Guatemala joined the Federation of Central American States in 1823.» 🔴 GÜN BİLİNMİYOR — ölçüt gereği YYYY-01-01 yazıldı, uydurulmadı."
+        },
+        {
+          "t": "1839-01-01",
+          "tur": "bolunme",
+          "b": "Guatemala federasyondan ayrılarak kendi bağımsızlığını ilan etti",
+          "kaynak": "history.state.gov/countries/central-american-federation (Office of the Historian) — «In 1839 Guatemala declared its independence of the confederation». 🔴 GÜN BİLİNMİYOR — YYYY-01-01. 🟡 Cümle arama özetinden, gövde ayrıca çekilmedi."
+        },
+        {
+          "t": "1847-01-01",
+          "tur": "kurulus",
+          "b": "Guatemala resmen cumhuriyet ilan edildi",
+          "kaynak": "JSTOR — Ralph Lee Woodward, Jr., «Rafael Carrera and the Emergence of the Republic of Guatemala, 1821-1871» (jstor.org/stable/j.ctt46nbc7) — «In 1847 it was officially proclaimed a republic». 🔴 GÜN BİLİNMİYOR — YYYY-01-01. 🟡 Cümle künye/özet düzeyinden alındı, kitabın gövdesi ÇEKİLEMEDİ."
+        },
+        {
+          "t": "1871-01-01",
+          "tur": "isyan",
+          "b": "Liberal Devrim muhafazakâr dönemi devirdi, Justo Rufino Barrios'un öncülük ettiği liberal yönetim başladı",
+          "kaynak": "Cambridge Core, The Americas — «Central American Union or Guatemalan Republic? The National Question in Liberal Guatemala, 1871-1885» — «Liberalism was introduced by the 1871 Revolution». 🔴 GÜN BİLİNMİYOR — YYYY-01-01. 🟡 Makalenin gövdesi ÇEKİLEMEDİ, künye ve özet düzeyi."
+        }
+      ],
+      "eksik_kalan": "🟢 1847 ve 1871 İKİNCİ TURDA BULUNDU (ilk turda countrystudies 302→404 vermişti; kapı değiştirildi, JSTOR ve Cambridge künyelerine gidildi). 🔴 İkisinin de GÜNÜ yok ve iki kaynağın da GÖVDESİ ÇEKİLEMEDİ — künye ve özet düzeyinde kaldı, öyle damgalandı. 1885 Chalchuapa ve 1906 savaşı aranmadı: pencere içinde ama bu turda sıraya girmedi."
+    },
+    {
+      "id": "panama-cumhuriyeti",
+      "eklenen": [
+        {
+          "t": "1903-11-03",
+          "tur": "kurulus",
+          "b": "Panamalılar Kolombiya'ya karşı ayaklanarak bağımsız Panama Cumhuriyeti'ni ilan etti",
+          "kaynak": "history.state.gov/countries/panama (Office of the Historian) — AYNEN: «Panamanians had revolted against the Colombian government, declared an independent Republic of Panama» (3 Kasım 1903). Ayrıca TDV `amerika` maddesi gövdesinde AYNEN: «Kolombiya'ya bağlı olan Panama ise 1903'te ayrılarak bağımsızlığını kazandı.»"
+        },
+        {
+          "t": "1903-11-18",
+          "tur": "antlasma",
+          "b": "Hay–Bunau-Varilla Antlaşması imzalandı, ABD'ye kanal bölgesi üzerinde kalıcı haklar tanındı",
+          "kaynak": "history.state.gov/milestones/1899-1913/panama-canal (Office of the Historian) — «On November 18, 1903, the United States signed the Hay-Bunau-Varilla Treaty, establishing permanent U.S. rights to a Panama Canal Zone». 🟡 Cümle arama özetinden alındı; milestone sayfasının gövdesini ayrıca çekmedim."
+        },
+        {
+          "t": "1903-11-18",
+          "tur": "toprak-kayip",
+          "b": "Aynı antlaşmayla kıstağı boydan boya kesen 10 millik Kanal Bölgesi ABD denetimine bırakıldı",
+          "kaynak": "history.state.gov/milestones/1899-1913/panama-canal — «a Panama Canal Zone that stretched across the isthmus… a 10-mile wide strip of land». 🟡 aynı sayfa, aynı damga: gövde ayrıca çekilmedi."
+        }
+      ]
+    },
+    {
+      "id": "nahua-sehir-devletleri",
+      "eklenen": [
+        {
+          "t": "1325-01-01",
+          "tur": "kurulus",
+          "b": "Mexica'lar göl ortasındaki adada Tenochtitlan'ı kurdu, Nahua altepetl sisteminin merkezi oldu",
+          "kaynak": "TDV `amerika` (islamansiklopedisi.org.tr/amerika, HTTP 200, gövde 75.093 karakter — boilerplate DEĞİL, ölçüldü) — gövdede AYNEN: «1325 yılında Tenoçtitlan (bugünkü Mexico City) şehrini kuran Aztekler İspanyollar'ın saldırılarına kadar medeniyetlerini sürdürdüler.» 🔴 GÜN BİLİNMİYOR — YYYY-01-01."
+        },
+        {
+          "t": "1521-08-13",
+          "tur": "son",
+          "b": "Tenochtitlan'ın düşmesiyle bağımsız Nahua şehir-devletleri düzeni sona erdi",
+          "kaynak": "TDV `amerika` — gövdede AYNEN: «1519'da Meksika'yı almak için başlattıkları savaşta Aztek İmparatorluğu'nu da yıkarak iki yıl içerisinde bölgeye yerleştiler (1521).» 🟡 YIL doğrulandı; 13 Ağustos GÜNÜ künyenin kendi t: alanından devralındı, TDV gün vermiyor."
+        }
+      ],
+      "not": "`kurulus` için PENCERE MUAFİYETİ tartışıldı ve UYGULANMADI: künyenin f:1281-01-01 değeri atlasın pencere başlangıcıdır, altepetl sisteminin kuruluşu değil — ama 1325 Tenochtitlan kuruluşu pencerenin İÇİNDE ve kaynaklı, o yüzden yazıldı."
+    },
+    {
+      "id": "zapotek-krallik",
+      "eklenen": [
+        {
+          "t": "1440-01-01",
+          "tur": "toprak-kazanc",
+          "b": "Zaachila hânedanı yönetim merkezini Tehuantepec'e taşıdı, Guiengola kalesini kurarak kıstağa yerleşti",
+          "kaynak": "Cambridge Core, Ancient Mesoamerica — 'Airborne lidar at Guiengola, Oaxaca: Mapping a Late Postclassic Zapotec city' — AYNEN: «In the 1440s, Cocijopii I, a later ruler of the Zaachila dynasty, permanently moved the seat of government to Tehuantepec, erecting Guiengola as a fortress to defend against the hostilities of advancing Postclassic powers, especially the Mexica armies.» 🔴 GÜN VE KESİN YIL BİLİNMİYOR (kaynak «in the 1440s» diyor) — YYYY-01-01."
+        }
+      ],
+      "eksik_kalan": "İKİ MADDE YAZILMADI, ikisi de aynı sebeple. (a) Guiengola'da Mexica ordularının yenilgisi: kaynak AYNEN «Guiengola is well known in the ethnohistorical record as being the place where the Mexica armies were defeated by Zapotec forces during the late fifteenth century» diyor — YIL VERMİYOR. Bir ara 1490-01-01 yazıp 'temsilî' diye damgalamıştım; SİLDİM. Ölçütün YYYY-01-01 kuralı GÜNÜ bilinmeyen için, YILI bilinmeyen için değil — yıl uydurmak tarih uydurmaktır, damga onu meşrulaştırmaz. (b) `son`: künye t:1523-01-01 diyor, kaynak Guiengola için «most likely abandoned before a.d. 1521, when Spanish settlers arrived» diyor. İki tarih çelişiyor, ikisi de gün vermiyor ⇒ karar koordinatörde. 🟢 KOORDİNATÖR HÜKMÜ (4 Eylül): `son` maddesi YAZILMAYACAK — 'iki dayanaksız tarihten birini seçmek uydurmaktır'. Zaten yazmamıştım; hüküm mevcut durumu onaylıyor, değişiklik YOK."
+    },
+    {
+      "id": "tututepec-krallik",
+      "eklenen": [
+        {
+          "t": "1522-01-01",
+          "tur": "son",
+          "b": "İspanyolların Oaxaca kıyısına ulaşmasıyla Tututepec'in (Yucu Dzaa) bağımsız hâkimiyeti sona erdi",
+          "kaynak": "Cambridge Core, Ancient Mesoamerica — 'TUTUTEPEC: A Postclassic-period Mixtec conquest state' — AYNEN: «The empire dominated the Oaxaca Coast until the arrival of the Spaniards in the early 1520s.» 🔴 KAYNAK «1520'lerin başı» DİYOR, GÜN VE KESİN YIL VERMİYOR; 1522 künyenin kendi t: alanından devralındı (künye kaynağı: Cambridge Core + Oxford Handbook of the Aztecs)."
+        }
+      ],
+      "not": "`kurulus` MUAF: kaynak «Around a.d. 1000 a political empire centered at Tututepec … formed and rose to prominence under the leadership of the great Mixtec lord 8 Deer» diyor — atlas penceresinden (1281) ÜÇ YÜZYIL önce. Ölçütün pencere muafiyeti aynen bu vaka için yazılmış.",
+      "eksik_kalan": "Toprak genişlemesi kaynaklı ama TARİHSİZ: «growing to 21.85 km2, and at its maximum was the capital of an empire extended over 25,000 km2» — yıl verilmiyor, madde YAZILMADI."
+    },
+    {
+      "id": "purepecha-imparatorlugu",
+      "eklenen": [
+        {
+          "t": "1530-01-01",
+          "tur": "son",
+          "b": "Son irecha Tzintzicha Tangaxuan, Nuño de Guzmán'ın yargılaması sonunda idam edildi ve bağımsız Purépecha yönetimi sona erdi",
+          "kaynak": "BİRİNCİL KAYNAK NEŞRİ — «Proceso contra Tzintzicha Tangaxoan el Caltzontzin formado por Nuño de Guzmán, Año de 1530», yay. haz. France V. Scholes & Eleanor B. Adams, México: Porrúa y Obregón, 1952. Neşrin KENDİ BAŞLIĞI yargılamayı «Año de 1530» diye tarihliyor. 🔴 GÜN BİLİNMİYOR — YYYY-01-01. 🟡 Künyedeki 1530-02-14 GÜNÜ bu kaynakta YOK ve doğrulanmadı. 🟡 İkincil bir özet 1529 diyordu; birincil neşrin başlığı 1530 diyor — 1529'u ÇÜRÜTMÜYORUM (iki gövdeyi de okumadım), yalnız künyenin yılını DESTEKLEYEN dayanağı kayda geçiriyorum."
+        }
+      ],
+      "eksik_kalan": "🟢 `son` maddesi 1530-01-01 olarak İNDİ — koordinatör onayı (4 Eylül): «madde yıl iddia ediyor, gün iddia etmiyor, kaynağı birincil kaynak neşri». Park kaldırıldı. 🔴 HÂLÂ EKSİK: `kurulus` (künye f:1300-01-01'in dayanağı yok) ve Aztek-Purépecha savaşları — Oxford Handbook of the Aztecs'in Tarascan bölümü GÖVDESİ ÇEKİLEMEDİ, damga «ölçülemedi»."
+    },
+    {
+      "id": "aztek-imparatorlugu",
+      "eklenen": [],
+      "not": "② SIRADA — şartname ①'i (8 boş künye) bitirmeden ②'ye geçmeyi yasaklıyor. Bu künyede zaten 4 madde var (kurulus · hukumdar · isgal · son). Sıra ①'in kalanı bitince.",
+      "eksik_kalan": "🔴 BU TURDA MADDE EKLENMEDİ — VE SEBEBİ KAYNAKSIZLIK DEĞİL, ÇELİŞKİ RİSKİ. Künye zaten kurulus · hukumdar · isgal · son taşıyor; açılacak cinsler toprak-kazanc · savas · ittifak. Elimdeki akademik kaynak (Oxford Academic, «The Aztecs: A Very Short Introduction» ve Cambridge, «Aztec Archaeology and Ethnohistory») Ahuitzotl'un 1486-1502 arası hükümdarlığını ve genişlemeyi veriyor ama TEK BİR FETHE YIL VERMİYOR. Üstelik künyedeki mevcut 1502 maddesi «II. Moctezuma imparatorluğu en geniş sınırlarına ulaştırdı» diyor; Ahuitzotl'a genişleme maddesi yazmak o maddeyle ÇELİŞİRDİ ve çelişkiyi ben ölçemem. ⇒ Bir sonraki tura bırakıldı, damga «ölçülemedi»."
+    },
+    {
+      "id": "maya-sehir-devletleri",
+      "eklenen": [
+        {
+          "t": "1542-01-01",
+          "tur": "toprak-kayip",
+          "b": "İspanyollar Tiho'yu (Mérida) alarak kuzeybatı Yucatán'daki Maya şehir-devletlerinin hâkimiyetine son verdi",
+          "kaynak": "escholarship.org (University of California) — «Interethnic Mayan and Afro-descendent Relations…» — AYNEN: «In 1540 Spanish conquistadors and their indigenous allies began occupying the northwestern Yucatan Peninsula, and they took Tiho/Mérida in 1542». 🔴 GÜN BİLİNMİYOR — YYYY-01-01."
+        }
+      ]
+    },
+    {
+      "id": "yeni-ispanya",
+      "eklenen": [
+        {
+          "t": "1539-01-01",
+          "tur": "toprak-kazanc",
+          "b": "İspanyol kuvvetleri Florida'yı alarak Yeni İspanya'nın kuzeydoğu sınırını genişletti",
+          "kaynak": "TDV `amerika` (islamansiklopedisi.org.tr/amerika, HTTP 200, gövde 75.093 karakter) — gövdede AYNEN: «İspanya'nın Küba valisi ise 1539'da Florida'yı aldı ve iç bölgelere doğru ilerleyerek kuvvetleriyle birlikte üç dört yıl içinde Kuzey Amerika'nın güneydoğu kesimlerini ve Mississippi nehrini keşfetti.» 🔴 GÜN BİLİNMİYOR — YYYY-01-01."
+        }
+      ]
+    },
+    {
+      "id": "meksika",
+      "eklenen": [
+        {
+          "t": "1848-02-02",
+          "tur": "antlasma",
+          "b": "Guadalupe Hidalgo Antlaşması Mexico City'de imzalandı, ABD ile savaş sona erdi",
+          "kaynak": "history.state.gov/milestones/1830-1860/texas-annexation (US Dept. of State, Office of the Historian) — AYNEN: «signed in Mexico City on February 2, 1848»"
+        },
+        {
+          "t": "1848-02-02",
+          "tur": "toprak-kayip",
+          "b": "Aynı antlaşmayla savaş öncesi toprakların %55'i (yaklaşık 525.000 mil kare) ABD'ye bırakıldı",
+          "kaynak": "history.state.gov/milestones/1830-1860/texas-annexation (Office of the Historian) — AYNEN: «Mexico ceded to the United States approximately 525,000 square miles (55% of its prewar territory) in exchange for a $15 million lump sum payment…»"
+        }
+      ]
+    },
+    {
+      "id": "haiti",
+      "eklenen": [
+        {
+          "t": "1844-02-27",
+          "tur": "toprak-kayip",
+          "b": "Adanın doğu yarısı (Santo Domingo) ayrılarak Dominik Cumhuriyeti'ni kurdu, Haiti burayı kaybetti",
+          "kaynak": "history.state.gov/countries/dominican-republic (Office of the Historian) — AYNEN: «the island nation of the Dominican Republic declared itself an independent nation from neighboring Haiti in 1844». 🟡 YIL doğrulandı; 27 Şubat GÜNÜ dominik-cumhuriyeti künyesinin f: alanından DEVRALINDI, TARAFIMDAN DOĞRULANMADI."
+        },
+        {
+          "t": "1915-01-01",
+          "tur": "isgal",
+          "b": "ABD Deniz Piyadeleri Haiti'ye çıkarak ülkeyi işgal etti, işgal 1934'e kadar sürdü",
+          "kaynak": "history.state.gov/milestones/1914-1920/haiti (Office of the Historian, «U.S. Invasion and Occupation of Haiti, 1915–34») — AYNEN: «Following the assassination of the Haitian President in July of 1915, President Woodrow Wilson sent the United States Marines into Haiti». 🔴 KAYNAK AY VERİYOR (Temmuz 1915) AMA GÜN VERMİYOR; ölçüt ay hassasiyetini yasakladığı için YYYY-01-01 yazıldı — 28 Temmuz diye yaygın bilinen gün KAYNAKLANMADIĞI için KULLANILMADI."
+        }
+      ]
+    }
+  ],
+  "olcum": {
+    "taban_dogrulandi": "py denetim/ARAC-KRONOLOJI-KAPSAM-0904.py --bolge kendim koşturuldu: orta-amerika-karayip 8 künye, dokuz cinsin dokuzu da %0 ✅ TUTTU · orta-amerika 5 künye ✅ TUTTU",
+    "tdv_slug_taramasi": "26 slug HTTP koduyla sınandı — CANLI 2 (`amerika` · `ispanya`), ÖLÜ 24 (302). Bölgenin TDV'deki tek kapısı `amerika` kapsayıcı maddesi; ölçütün 'kapsayıcı maddeyi dene' kuralı TUTTU.",
+    "bu_teslimde": "8 boş künyenin 6'sına madde yazıldı (dominik 5 · kuba 3 · guatemala 3 · panama 3 · nahua 2 · zapotek 2 · tututepec 1) = 19 madde. purepecha 0 (kaynak çelişkisi, gerekçe yazılı).",
+    "olculemedi": [
+      "Oxford Handbook of the Aztecs — Tarascan bölümü gövdesi ÇEKİLEMEDİ",
+      "guides.loc.gov Platt Değişikliği sayfası HTTP 403 — tarih doğrulanmadı",
+      "countrystudies.us/guatemala/8.htm 302 → 404",
+      "history.state.gov Dominik sayfası 1916 işgaline tarih vermiyor"
+    ]
+  }
+}

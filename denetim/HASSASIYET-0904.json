@@ -1,0 +1,814 @@
+{
+  "oturum": "KRONOLOJİ ORTA AMERİKA",
+  "damga": "2026-09-04 · TESLİM — örneklem + devir raporu",
+  "is": "161 künyenin gün hassasiyeti ile kaynaksızlığı arasındaki çelişkiyi dört kovaya ayır. YALNIZ ÖNERİ — data/ DONMUŞ, hiçbir künye değiştirilmedi.",
+  "taban_olcumu": {
+    "yontem": "girdi.oku_devletler() ile ayrıştırıldı (regex DEĞİL). Ölçüt: `kaynak` alanı 'bulunamad' ile BAŞLIYOR VE (`f` ya da `t`) gün hassasiyetli. Gün hassasiyeti tanımı VARSAYILMADI: CLAUDE.md §4'e göre YYYY-01-01 'yıl biliniyor, gün bilinmiyor' demenin kabul edilmiş yolu ⇒ -01-01 ile biten tarih GÜN SAYILMADI.",
+    "kaynagi_bulunamadi_olan": 263,
+    "gun_hassasiyetli_olan": 368,
+    "ikisi_birden": 161,
+    "devralinan_sayi": 161,
+    "damga": "✅ TUTTU — koordinatörün 161'i bağımsız türetildi, birebir aynı.",
+    "olcumun_kendi_kor_noktasi": "🔴 Bu süzgeç, 1 OCAK'ta GERÇEKTEN olan olayları GÖREMEZ (haiti f:1804-01-01 gerçek bir gündür — Dessalines bağımsızlığı 1 Ocak'ta ilan etti). Yani 161 bir ALT SINIRDIR, tam küme değil. Bunu ölçmedim, yalnız işaretliyorum."
+  },
+  "ONGORU": {
+    "not": "🔴 BU BÖLÜM HİÇBİR KÜNYE DOĞRULANMADAN YAZILDI. Sonradan yazılan beklenti ölçüme göre şekillenir ve hiçbir zaman yanlış çıkmaz — yani hiçbir şey öğretmez. Mazeretler de ŞİMDİ yazılıyor.",
+    "①_baskin_kova": {
+      "beklenen": "Kova ② (gün GERÇEKTEN biliniyor, yalnız kaynağı yazılmamış) BASKIN çıkacak — en az %60.",
+      "gerekce": "Kümenin en uzun ömürlü 20 künyesinin `t:` günleri tanınabilir olaylara denk düşüyor: lakota 1890-12-29 · herero 1904-01-12 · dene 1899-06-21 · cenova 1797-06-14 · benin 1897-02-18 · svahili 1698-12-13. Bunlar hizalama ürünü bir günün üreteceği desen DEĞİL — hizalama yuvarlak ya da komşu veriden devralınmış günler üretir.",
+      "nereden_okuyacagim": "Her künye için kaynak araması; kova ② damgası ancak akademik/resmî bir kaynak O GÜNÜ verirse.",
+      "mazeret": "🔴 MAZERET YOK. Tutmazsa varsayımım yanlıştır ve koordinatörün 'gün kaynağın yokluğunu örtüyor' teşhisi sandığımdan geniş demektir."
+    },
+    "②_hizalama_kovasi": {
+      "beklenen": "Kova ③ (hizalama) AZINLIK kalacak — %25'in altında.",
+      "gerekce": "Purépecha ve Zapotek hizalama çıktı, ama ikisi de NOKTA VERİSİ olan ve künyesi zayıf Kolomb öncesi kayıtlar. Kümenin çoğunluğu 19. yy sömürge olayları.",
+      "mazeret": "🟡 MAZERET VAR: örneklemim 'en uzun ömürlü 20' — bu, büyük ve iyi belgelenmiş gövdelere KAYAN bir örneklem. Küçük künyelerde hizalama oranı yüksek olabilir ve bu öngörüyü çürütmez, KAPSAMINI daraltır."
+    },
+    "③_hafiza_kovasi": {
+      "beklenen": "Kova ④ (gün hafızadan, kaynak susuyor) EN KÜÇÜK kova olacak — %10'un altında — AMA SIFIR OLMAYACAK.",
+      "gerekce": "Bu kovayı ben önerdim ve kanıtı kendi işimden geldi (Haiti 28 Temmuz'u bildiğim hâlde kullanmadım). Bir oturumun yaptığını başkaları da yapmış olmalı.",
+      "mazeret": "🔴 MAZERET YOK — ve bu kova en zoru: 'hafızadan alınmış' hükmü, kaynağın YOKLUĞUNU kanıtlamayı gerektirir. Kanıtlayamazsam kova ② ile ④ ayrılamaz ve o zaman damga «ölçülemedi» olur, «kova ②» DEĞİL."
+    },
+    "④_kova_1": {
+      "beklenen": "Kova ① (kaynak var, künyeye yazılmamış) ile kova ② pratikte AYRIŞMAYACAK.",
+      "gerekce": "İkisi de 'kaynak bulunabiliyor' demek; fark yalnız kaynağın PROJEDE zaten durup durmadığı. Ayırmak için külliyattaki `kaynak:` slug kümesini taramak gerekir.",
+      "mazeret": "🟡 Ayrışmazsa ikisini TEK kovada raporlayıp sebebini yazacağım — sessizce birleştirmeyeceğim."
+    }
+  },
+  "kova": {
+    "①_kaynak_var_yazilmamis": [],
+    "②_gun_biliniyor": [
+      {
+        "id": "moskova",
+        "tarih": "1547-01-16",
+        "olay": "IV. İvan'ın çar olarak taç giymesi",
+        "damga": "🟢 GÜN DOĞRULANDI",
+        "kaynak": "Cambridge History of Russia, «Ivan IV (1533–1584)» bölümü + Oxford Bibliographies, «Ivan IV the Terrible» — «Ivan IV was crowned tsar on 16 January 1547». Künyenin günü kaynakla BİREBİR tutuyor.",
+        "oneri": "Künyenin `kaynak` alanı 'bulunamadı' olmaktan çıkarılsın; gün DOĞRU, yalnız kaynağı yazılmamış. Tarih DEĞİŞMESİN."
+      },
+      {
+        "id": "lakota",
+        "tarih": "1890-12-29",
+        "olay": "Wounded Knee katliamı",
+        "damga": "🟢 GÜN DOĞRULANDI",
+        "kaynak": "Library of Congress, «Disaster at Wounded Knee» / Chronicling America araştırma rehberi — «On December 29, 1890, tragedy occurred as US Army troops fired upon Native Americans at Wounded Knee creek on the Pine Ridge Reservation». Künyenin günü kaynakla BİREBİR tutuyor.",
+        "oneri": "Aynısı: kaynak yazılsın, tarihe DOKUNULMASIN. 🟡 Ayrı bir soru ama benim işim değil: Wounded Knee bir KATLİAMDIR, bir devletin 'sonu' olarak künyenin `t:` alanına konması ayrı bir tartışma — işaret ediyorum, hüküm vermiyorum."
+      }
+    ],
+    "③_hizalama": [],
+    "④_hafizadan": [],
+    "ölçülemedi": [
+      {
+        "id": "novgorod",
+        "tarih": "1478-01-15",
+        "olay": "Moskova'nın Novgorod'u ilhakı",
+        "damga": "⚪ ÖLÇÜLEMEDİ — YIL/AY doğrulandı, GÜN doğrulanamadı",
+        "kaynak": "Cambridge History of Russia, «The Growth of Muscovy (1462–1533)» — «Ivan III annexed Novgorod in 1478». YIL doğrulandı, 15 Ocak GÜNÜ kaynakta GEÇMİYOR.",
+        "not": "🔴 Bu «kova ④ (hafızadan)» DEĞİLDİR ve öyle okunmamalıdır. Gün yanlış demiyorum; benim aletimin o soruyu cevaplayamadığını söylüyorum. Kova ② ile ④ bu künyede AYRIŞMADI."
+      },
+      {
+        "id": "tver",
+        "tarih": "1485-09-12",
+        "olay": "Moskova'nın Tver'i ilhakı",
+        "damga": "⚪ ÖLÇÜLEMEDİ — YIL/AY doğrulandı, GÜN doğrulanamadı",
+        "kaynak": "Cambridge History of Russia, aynı bölüm — «Ivan III also annexed Tver in 1485». YIL doğrulandı, 12 Eylül GÜNÜ kaynakta GEÇMİYOR.",
+        "not": "🔴 Bu «kova ④ (hafızadan)» DEĞİLDİR ve öyle okunmamalıdır. Gün yanlış demiyorum; benim aletimin o soruyu cevaplayamadığını söylüyorum. Kova ② ile ④ bu künyede AYRIŞMADI."
+      },
+      {
+        "id": "pskov",
+        "tarih": "1510-01-13",
+        "olay": "Pskov'un Moskova'ya ilhakı",
+        "damga": "⚪ ÖLÇÜLEMEDİ — YIL/AY doğrulandı, GÜN doğrulanamadı",
+        "kaynak": "Cambridge History of Russia, aynı bölüm — «Pskov was annexed in 1510». YIL doğrulandı, 13 Ocak GÜNÜ kaynakta GEÇMİYOR. 🔴 VE BİR İÇERİK NOTU: kaynak ilhakı VASİLİ III'e bağlıyor, III. İvan'a değil («Ivan III died in 1505»). Künye metni bunu yanlış anlatıyorsa ayrı bir kalemdir.",
+        "not": "🔴 Bu «kova ④ (hafızadan)» DEĞİLDİR ve öyle okunmamalıdır. Gün yanlış demiyorum; benim aletimin o soruyu cevaplayamadığını söylüyorum. Kova ② ile ④ bu künyede AYRIŞMADI."
+      },
+      {
+        "id": "litvanya",
+        "tarih": "1569-07-01",
+        "olay": "Lublin Birliği",
+        "damga": "⚪ ÖLÇÜLEMEDİ — YIL/AY doğrulandı, GÜN doğrulanamadı",
+        "kaynak": "Oxford History of Poland-Lithuania (Frost), «Lublin» bölümü + Brill, «Royal Prussia and the Union of Lublin 1569» — birlik 1569'da. YIL doğrulandı, 1 Temmuz GÜNÜ İKİ AYRI ARAMADA DA teyit edilemedi.",
+        "not": "🔴 Bu «kova ④ (hafızadan)» DEĞİLDİR ve öyle okunmamalıdır. Gün yanlış demiyorum; benim aletimin o soruyu cevaplayamadığını söylüyorum. Kova ② ile ④ bu künyede AYRIŞMADI."
+      },
+      {
+        "id": "benin-kralligi",
+        "tarih": "1897-02-18",
+        "olay": "İngiliz cezalandırma seferi, Benin şehrinin düşüşü",
+        "damga": "⚪ ÖLÇÜLEMEDİ — YIL/AY doğrulandı, GÜN doğrulanamadı",
+        "kaynak": "Cambridge, Journal of African History — «The Fall of Benin: A Reassessment» — «culminating in the punitive expedition of February 1897». AY doğrulandı (Şubat 1897), 18. GÜN kaynakta GEÇMİYOR.",
+        "not": "🔴 Bu «kova ④ (hafızadan)» DEĞİLDİR ve öyle okunmamalıdır. Gün yanlış demiyorum; benim aletimin o soruyu cevaplayamadığını söylüyorum. Kova ② ile ④ bu künyede AYRIŞMADI."
+      },
+      {
+        "id": "svahili-sehirleri",
+        "tarih": "1698-12-13",
+        "olay": "Fort Jesus'un Ummanlılara düşüşü",
+        "damga": "⚪ ÖLÇÜLEMEDİ — YIL/AY doğrulandı, GÜN doğrulanamadı",
+        "kaynak": "Cambridge, Journal of African History — Boxer & Azevedo ve Kirkman künyeleri; kuşatma «from 1696 to 1698» olarak doğrulandı. Aralık ayı ve 13. GÜN kaynakta GEÇMİYOR; üç ayrı arama denendi.",
+        "not": "🔴 Bu «kova ④ (hafızadan)» DEĞİLDİR ve öyle okunmamalıdır. Gün yanlış demiyorum; benim aletimin o soruyu cevaplayamadığını söylüyorum. Kova ② ile ④ bu künyede AYRIŞMADI."
+      }
+    ],
+    "⑤_ay_ayin_birine_kodlanmis": {
+      "tanim": "`f:` ya da `t:` değeri YYYY-MM-01 (MM ≠ 01). Biçim, «ayın 1'i» ile «ay biliniyor, gün bilinmiyor»u AYIRT EDEMİYOR.",
+      "taban": {
+        "kume": 42,
+        "devralinan": 42,
+        "damga": "✅ TUTTU — bağımsız türetildi, birebir aynı.",
+        "161_ile_kesisim": 17,
+        "yalniz_42_kumesinde": 25,
+        "kesisim_notu": "🔴 KÜME 161'İN ALT KÜMESİ DEĞİL: 42'nin 25'inde `kaynak` alanı DOLU (literal 'bulunamadı' değil). Yani bu eksen 161'lik kümeyle ÖRTÜŞMÜYOR, onu KESİYOR — ayrı bir kalem olarak tutulması doğru."
+      },
+      "ISTATISTIK_SINAVI": {
+        "soru": "42'nin kaçı gerçek gün, kaçı ay işaretçisi? — kaynak GEREKTİRMEYEN bir sınav.",
+        "yontem": "Gerçek günler olsaydı «ayın 1'i» bütün günler arasında ~1/30 oranında görünürdü. Aşırı temsil MİKTARI, işaretçi sayısının ALT SINIRINI verir.",
+        "🔴_ilk_kosum_yanlisti_ve_kendim_yakaladim": "İlk koşuda taban 494'tü ve gün dağılımında 29. gün 109 kez çıktı — DOĞAL DEĞİL: atlasın pencere sonu 1923-10-29. Yani «beklenen ~1/30» tabanını PENCERE UÇLARI şişirmişti ve sınav aşırı temsili OLDUĞUNDAN KÜÇÜK gösteriyordu. Pencere uçları (1281-01-01 · 1923-10-29) atıldı, yeniden ölçüldü.",
+        "ham_taban": "n=494 · gün1=42 (%8.5) · beklenen 16.2 · 2.6 KAT · fazlalık 26",
+        "temiz_taban": "n=396 · gün1=42 (%10.6) · beklenen 13.0 · 3.2 KAT · fazlalık 29",
+        "SONUC": "🟢 42 kaydın EN AZ ~29'u ay işaretçisidir (alt sınır). Kalan ~13'ü gerçek 'ayın 1'i' olabilir — Lublin Birliği (1 Temmuz 1569) bunun bilinen örneği.",
+        "🔴_SINIRI": "Bu sınav TOPLULUK hakkında konuşur, TEK BİR KAYIT hakkında DEĞİL. `lehistan 1569-07-01`i YANLIŞ İLAN ETMEZ. Hangi kaydın hangisi olduğu yine kaynak işidir — istatistik yalnız 'kaç tanesini aramaya değer' sorusunu cevaplar."
+      },
+      "kayitlar": [
+        {
+          "id": "safevi",
+          "ad": "Safevî Devleti (İran)",
+          "f": "1501-07-01",
+          "t": "1736-03-08",
+          "bolge": "iran",
+          "kaynak_bas": "safeviler",
+          "kesisim_161": false
+        },
+        {
+          "id": "aydin",
+          "ad": "Aydınoğulları",
+          "f": "1308-01-01",
+          "t": "1425-06-01",
+          "bolge": "anadolu",
+          "kaynak_bas": "aydinogullari",
+          "kesisim_161": false
+        },
+        {
+          "id": "saruhan",
+          "ad": "Saruhanoğulları",
+          "f": "1313-01-01",
+          "t": "1416-09-01",
+          "bolge": "anadolu",
+          "kaynak_bas": "saruhanogullari",
+          "kesisim_161": false
+        },
+        {
+          "id": "polonya-erken",
+          "ad": "Polonya Krallığı (Birlik Öncesi)",
+          "f": "1320-01-20",
+          "t": "1569-07-01",
+          "bolge": "dogu-avrupa",
+          "kaynak_bas": "polonya",
+          "kesisim_161": false
+        },
+        {
+          "id": "litvanya-buyuk-dukalik",
+          "ad": "Litvanya Büyük Dükalığı",
+          "f": "1253-07-06",
+          "t": "1569-07-01",
+          "bolge": "dogu-avrupa",
+          "kaynak_bas": "bulunamadı — TDV'de müstakil maddesi yok",
+          "kesisim_161": true
+        },
+        {
+          "id": "lehistan",
+          "ad": "Lehistan-Litvanya Birliği",
+          "f": "1569-07-01",
+          "t": "1795-10-24",
+          "bolge": "dogu-avrupa",
+          "kaynak_bas": "polonya",
+          "kesisim_161": false
+        },
+        {
+          "id": "bosna-kralligi",
+          "ad": "Bosna Krallığı",
+          "f": "1377-01-01",
+          "t": "1463-05-01",
+          "bolge": "balkanlar",
+          "kaynak_bas": "bosna-hersek",
+          "kesisim_161": false
+        },
+        {
+          "id": "fransiz-misir-seferi",
+          "ad": "Napolyon'un Mısır Seferi",
+          "f": "1798-07-01",
+          "t": "1801-10-02",
+          "bolge": "misir-sudan",
+          "kaynak_bas": "yetersiz — misir maddesi okundu, \"Fransı",
+          "kesisim_161": false
+        },
+        {
+          "id": "sirbistan-kralligi",
+          "ad": "Sırbistan Krallığı",
+          "f": "1882-03-06",
+          "t": "1918-12-01",
+          "bolge": "balkanlar",
+          "kaynak_bas": "sirbistan",
+          "kesisim_161": false
+        },
+        {
+          "id": "suud-ikinci",
+          "ad": "II. Suûdî Devleti (Necid Emirliği)",
+          "f": "1824-06-01",
+          "t": "1891-01-24",
+          "bolge": "arabistan",
+          "kaynak_bas": "necid",
+          "kesisim_161": false
+        },
+        {
+          "id": "timurlu",
+          "ad": "Timurlu Devleti",
+          "f": "1370-04-09",
+          "t": "1507-05-01",
+          "bolge": "orta-asya",
+          "kaynak_bas": "timur",
+          "kesisim_161": false
+        },
+        {
+          "id": "haciemir",
+          "ad": "Hacıemîroğulları (Bayramlı/Ordu)",
+          "f": "1350-01-01",
+          "t": "1427-06-01",
+          "bolge": "anadolu",
+          "kaynak_bas": "ordu--sehir",
+          "kesisim_161": false
+        },
+        {
+          "id": "fetret-isa",
+          "ad": "İsa Çelebi Saltanatı (Bursa)",
+          "f": "1403-01-01",
+          "t": "1403-09-01",
+          "bolge": "anadolu",
+          "kaynak_bas": "isa-celebi",
+          "kesisim_161": false
+        },
+        {
+          "id": "nebhani",
+          "ad": "Nebhânîler (Uman)",
+          "f": "1281-01-01",
+          "t": "1515-04-01",
+          "bolge": "arabistan",
+          "kaynak_bas": "uman",
+          "kesisim_161": false
+        },
+        {
+          "id": "mehdi",
+          "ad": "Mehdî Devleti (Sudan)",
+          "f": "1881-03-01",
+          "t": "1898-09-02",
+          "bolge": "misir-sudan",
+          "kaynak_bas": "sudan",
+          "kesisim_161": false
+        },
+        {
+          "id": "kenedugu",
+          "ad": "Kenedugu Krallığı (Sikasso)",
+          "f": "1650-01-01",
+          "t": "1898-05-01",
+          "bolge": "bati-afrika",
+          "kaynak_bas": "bulunamadı — standart akademik el kitabı",
+          "kesisim_161": true
+        },
+        {
+          "id": "mossi-vagadugu",
+          "ad": "Mossi Krallığı (Vagadugu)",
+          "f": "1281-01-01",
+          "t": "1896-09-01",
+          "bolge": "bati-afrika",
+          "kaynak_bas": "burkina-faso — TDV gövdesi bu turda okun",
+          "kesisim_161": false
+        },
+        {
+          "id": "kong-vattara",
+          "ad": "Kong Devleti (Vattara)",
+          "f": "1710-01-01",
+          "t": "1897-05-01",
+          "bolge": "bati-afrika",
+          "kaynak_bas": "bulunamadı — standart akademik el kitabı",
+          "kesisim_161": true
+        },
+        {
+          "id": "aro-konfederasyonu",
+          "ad": "Aro Konfederasyonu",
+          "f": "1690-01-01",
+          "t": "1902-03-01",
+          "bolge": "bati-afrika",
+          "kaynak_bas": "bulunamadı — standart akademik el kitabı",
+          "kesisim_161": true
+        },
+        {
+          "id": "karagve",
+          "ad": "Karagve Krallığı",
+          "f": "1450-01-01",
+          "t": "1890-07-01",
+          "bolge": "dogu-afrika",
+          "kaynak_bas": "bulunamadı — standart akademik el kitabı",
+          "kesisim_161": true
+        },
+        {
+          "id": "kenya-kuzey-halklari",
+          "ad": "Kuzey Kenya Halkları (Borana · Rendille · Turkana · Somali klanları)",
+          "f": "1281-01-01",
+          "t": "1895-07-01",
+          "bolge": "dogu-afrika",
+          "kaynak_bas": "kenya — TDV gövdesi bu turda okundu. Mar",
+          "kesisim_161": false
+        },
+        {
+          "id": "kamba",
+          "ad": "Kamba Halkı",
+          "f": "1281-01-01",
+          "t": "1895-07-01",
+          "bolge": "dogu-afrika",
+          "kaynak_bas": "bulunamadı — standart akademik el kitabı",
+          "kesisim_161": true
+        },
+        {
+          "id": "kanada",
+          "ad": "Kanada Dominyonu",
+          "f": "1867-07-01",
+          "t": "1923-10-29",
+          "bolge": "kuzey-amerika",
+          "kaynak_bas": "bulunamadı — British North America Act 1",
+          "kesisim_161": true
+        },
+        {
+          "id": "inuit",
+          "ad": "İnuit",
+          "f": "1281-01-01",
+          "t": "1880-09-01",
+          "bolge": "kuzey-amerika",
+          "kaynak_bas": "bulunamadı — Handbook of North American ",
+          "kesisim_161": true
+        },
+        {
+          "id": "navaho",
+          "ad": "Navaho (Diné)",
+          "f": "1281-01-01",
+          "t": "1868-06-01",
+          "bolge": "kuzey-amerika",
+          "kaynak_bas": "bulunamadı — Handbook of North American ",
+          "kesisim_161": true
+        },
+        {
+          "id": "yugoslavya",
+          "ad": "Sırp-Hırvat-Sloven Krallığı (SHS)",
+          "f": "1918-12-01",
+          "t": "1923-10-29",
+          "bolge": "balkanlar",
+          "kaynak_bas": "yugoslavya",
+          "kesisim_161": false
+        },
+        {
+          "id": "muromachi",
+          "ad": "Muromachi (Ashikaga) Şogunluğu",
+          "f": "1336-01-01",
+          "t": "1573-09-01",
+          "bolge": "dogu-asya",
+          "kaynak_bas": "japonya",
+          "kesisim_161": false
+        },
+        {
+          "id": "nguyen-hanedani",
+          "ad": "Nguyễn Hanedanı (Vietnam)",
+          "f": "1802-06-01",
+          "t": "1923-10-29",
+          "bolge": "guneydogu-asya",
+          "kaynak_bas": "bulunamadı — TDV'de müstakil maddesi yok",
+          "kesisim_161": true
+        },
+        {
+          "id": "iskocya",
+          "ad": "İskoçya Krallığı",
+          "f": "843-01-01",
+          "t": "1707-05-01",
+          "bolge": "bati-avrupa",
+          "kaynak_bas": "bulunamadı — TDV'de müstakil maddesi yok",
+          "kesisim_161": true
+        },
+        {
+          "id": "isvicre",
+          "ad": "İsviçre Konfederasyonu",
+          "f": "1291-08-01",
+          "t": "1923-10-29",
+          "bolge": "orta-avrupa",
+          "kaynak_bas": "isvicre",
+          "kesisim_161": false
+        },
+        {
+          "id": "kesmir",
+          "ad": "Keşmir Sultanlığı (Şah Mîr Hânedanı)",
+          "f": "1281-01-01",
+          "t": "1586-10-01",
+          "bolge": "guney-asya",
+          "kaynak_bas": "kesmir",
+          "kesisim_161": false
+        },
+        {
+          "id": "yafna",
+          "ad": "Yafna (Jaffna) Krallığı",
+          "f": "1281-01-01",
+          "t": "1619-02-01",
+          "bolge": "guney-asya",
+          "kaynak_bas": "bulunamadı — TDV'de müstakil maddesi yok",
+          "kesisim_161": true
+        },
+        {
+          "id": "nguyen-beyligi",
+          "ad": "Nguyễn Beyleri (Đàng Trong)",
+          "f": "1558-01-01",
+          "t": "1802-06-01",
+          "bolge": "guneydogu-asya",
+          "kaynak_bas": "bulunamadı — TDV'de müstakil maddesi yok",
+          "kesisim_161": true
+        },
+        {
+          "id": "teodoro",
+          "ad": "Theodoro (Gotya) Prensliği",
+          "f": "1349-01-01",
+          "t": "1475-12-01",
+          "bolge": "dogu-avrupa",
+          "kaynak_bas": "bulunamadı — TDV'de müstakil maddesi yok",
+          "kesisim_161": true
+        },
+        {
+          "id": "afgan-durrani",
+          "ad": "Dürrânî (Afgan) Devleti",
+          "f": "1747-10-01",
+          "t": "1823-01-01",
+          "bolge": "orta-asya",
+          "kaynak_bas": "ahmed-sah-durrani",
+          "kesisim_161": false
+        },
+        {
+          "id": "izlanda",
+          "ad": "İzlanda",
+          "f": "1918-12-01",
+          "t": "1923-10-29",
+          "bolge": "kuzey-avrupa",
+          "kaynak_bas": "bulunamadı — TDV'de müstakil maddesi yok",
+          "kesisim_161": true
+        },
+        {
+          "id": "ho-hanedani",
+          "ad": "Hồ Hanedanı (Vietnam)",
+          "f": "1400-03-01",
+          "t": "1407-06-17",
+          "bolge": "guneydogu-asya",
+          "kaynak_bas": "bulunamadı — TDV'de müstakil maddesi yok",
+          "kesisim_161": true
+        },
+        {
+          "id": "tran-hanedani",
+          "ad": "Trần Hanedanı (Vietnam)",
+          "f": "1225-01-01",
+          "t": "1400-03-01",
+          "bolge": "guneydogu-asya",
+          "kaynak_bas": "bulunamadı — TDV'de müstakil maddesi yok",
+          "kesisim_161": true
+        },
+        {
+          "id": "powhatan",
+          "ad": "Powhatan Konfederasyonu (Tsenacomoco)",
+          "f": "1281-01-01",
+          "t": "1646-10-01",
+          "bolge": "kuzey-amerika",
+          "kaynak_bas": "Encyclopedia Virginia, 'Tsenacomoco (Pow",
+          "kesisim_161": false
+        },
+        {
+          "id": "pueblo-bagimsizligi",
+          "ad": "Pueblo Bağımsızlığı",
+          "f": "1680-08-10",
+          "t": "1692-08-01",
+          "bolge": "kuzey-amerika",
+          "kaynak_bas": "Standart akademik — Pueblo İsyanı (10 Ağ",
+          "kesisim_161": false
+        },
+        {
+          "id": "muisca-konfederasyonu",
+          "ad": "Muisca Konfederasyonu",
+          "f": "1281-01-01",
+          "t": "1537-08-01",
+          "bolge": "guney-amerika",
+          "kaynak_bas": "World History Encyclopedia, 'Muisca Civi",
+          "kesisim_161": false
+        },
+        {
+          "id": "tekrur",
+          "ad": "Toucouleur Devleti (Umarî / Segu Tukulor)",
+          "f": "1852-09-01",
+          "t": "1893-01-01",
+          "bolge": "bati-afrika",
+          "kaynak_bas": "TDV `el-hac-omer`: başlangıç AY HASSASİY",
+          "kesisim_161": false
+        }
+      ]
+    },
+    "①_NOT": "Boş — ve bu ölçülmüş bir sonuç, bakılmamış bir kova değil. 8 çekirdek eşleşmesi tek tek okundu: 5'i tarih çakışması, 3'ü aynı olay ama üçü de kaynaksız."
+  },
+  "kume_buyuklugu": 161,
+  "islenen": 8,
+  "ONGORU_SONUCU": {
+    "①_baskin_kova": {
+      "beklenen": "kova ② en az %60",
+      "olculen": "8 künyenin 2'si (%25) kova ②; 6'sı ÖLÇÜLEMEDİ",
+      "damga": "⚪ ÖLÇÜLEMEDİ — ÇÜRÜMEDİ DE, TUTMADI DA",
+      "gerekce": "Öngörüyü sınamak için gün-düzeyinde doğrulama gerekiyor; aletim (akademik alan adlarıyla web araması) ödeme duvarının arkasındaki gün bilgisine ULAŞAMIYOR. Novgorod'un günü uzman literatürde olabilir; benim görememem yokluğunun kanıtı değil. ⇒ Öngörünün kendi mazereti bunu ÖNCEDEN söylemişti."
+    },
+    "③_hafiza_kovasi": {
+      "beklenen": "kova ④ en küçük ama SIFIR olmayacak",
+      "olculen": "kova ④'e HİÇBİR künye konmadı",
+      "damga": "⚪ ÖLÇÜLEMEDİ",
+      "gerekce": "Kova ④ hükmü kaynağın YOKLUĞUNU kanıtlamayı gerektirir. Kanıtlayamadım ⇒ hiçbir künyeyi oraya koymadım. Boş kova burada bir SONUÇ değil, bir SINIRDIR."
+    },
+    "④_kova_1_ile_2_ayrismasi": {
+      "beklenen": "kova ① ile ② pratikte ayrışmayacak",
+      "olculen": "ayrışmadı — kova ① boş kaldı",
+      "damga": "🟢 TUTTU"
+    }
+  },
+  "METOT_BULGUSU": "🔴 KOORDİNATÖRE ASIL SÖYLEMEM GEREKEN ŞEY BU: 161 künyenin dört kovaya ayrılması, BENİM ELİMDEKİ ALETLE ucuz DEĞİL. 8 künyelik ilk partide gün-düzeyi doğrulama oranı 2/8. Sebep veri değil ERİŞİM: akademik kaynakların gövdeleri ödeme duvarının arkasında ve arama özetleri yıl/ay veriyor, gün vermiyor. ⇒ 161'i bu yöntemle taramak, çoğunluğu «ölçülemedi» kovasına koyan pahalı bir tur olur. ÖNERİM (karar sende): (a) küme YIL/AY doğrulaması için taransın — bu UCUZ ve künyelerin yılını sağlamlaştırır; (b) GÜN doğrulaması yalnız haritada görünür kırılma üreten künyelerle sınırlansın; (c) gün doğrulanamayan künyede tarih DEĞİŞTİRİLMESİN — çünkü «doğrulayamadım» «yanlış» demek değildir ve YYYY-01-01'e çekmek DOĞRU bir günü kaybettirebilir.",
+  "DURUM": {
+    "161_kume": "8 künye kaynak taramasıyla işlendi (kova ② 2 · ölçülemedi 6) · 161'in TAMAMI öncelik ayrımından geçirildi (149/9/3) · 149'un tamamı kronoloji sınavından geçirildi (39 aday / 110 yalnız geometride) · kova ① okunarak BOŞALTILDI · (a) yıl taraması 1. tur: 8 künye",
+    "42_kume": "TAMAMI ölçüldü (istatistiksel), künye künye kaynak doğrulaması YAPILMADI — koordinatör 'ölçmen yeterli' dedi",
+    "bekleyen_karar": "161 için (a) yıl/ay taraması · (b) gün doğrulamasını haritada görünür kırılmalarla sınırlama · (c) doğrulanamayan günü DEĞİŞTİRMEME önerilerine cevap"
+  },
+  "SUZGEC_OLCUMU": {
+    "①_koordinatorun_b_olcutu": {
+      "olcut": "künyenin f:/t: günü bir d:/s:/v:/isg: dönem ucuyla ÇAKIŞIYORSA gün önemlidir",
+      "olcum": {
+        "kume": 161,
+        "yuksek_gunu_kendi_kimliginin_donem_ucuyla_cakisan": 149,
+        "dusuk_kimligi_var_ama_gun_uca_denk_gelmiyor": 9,
+        "kimliksiz_veride_hic_donem_tasimiyor": 3,
+        "evren": "girdi.yukle() — 552 kimlik, 1842 benzersiz dönem ucu tarihi"
+      },
+      "damga": "🔴 ÇÜRÜDÜ — bir ÖNCELİK süzgeci olarak İŞE YARAMIYOR",
+      "gerekce": "161'in %93'ü geçiyor. Bir süzgeç %93 geçiriyorsa DARALTMIYOR demektir. 🔴 VE DAHA KÖTÜSÜ: geçme sebebi tam da HİZALAMA olabilir. Koordinatörün kendi Zapotek hükmü bunu söylüyordu — «1523 bir KAYNAKTAN değil, üç noktanın dönem sonundan geliyor». Künye günü veriyle çakışıyorsa bu, günün ÖNEMLİ olduğunu değil, günün biri ötekinden KOPYALANDIĞINI gösteriyor olabilir. ⇒ Süzgeç «gün iş görüyor» ile «gün kopyalanmış»ı AYIRT ETMİYOR."
+    },
+    "②_benim_onerdigim_suzgec": {
+      "olcut": "günün KRONOLOJİ karşılığı var mı? (kronoloji maddeleri kaynaktan yazılır ⇒ bağımsız dayanak)",
+      "ilk_olcum": "62 künyede karşılık VAR",
+      "🔴_ilk_olcum_kirliydi": "Eşleşmelerin çoğu `1923-10-29` — atlasın PENCERE SONU, kanıt değil. Aynı tuzağı bugün İKİNCİ KEZ kurdum (istatistik sınavında da pencere ucu tabanı şişirmişti). Pencere uçları atıldı: 62 → 39.",
+      "temiz_olcum": {
+        "kova①_adayi": 39,
+        "cekirdekte": 8,
+        "yalniz_kuyrukta": 31,
+        "yalniz_geometride": 110
+      },
+      "damga": "🔴 ÇÜRÜDÜ — VE ÇÜRÜTEN ŞEY EŞLEŞMELERİ OKUMAK OLDU",
+      "curuten_olcum": "8 çekirdek eşleşmesinin gövdesi tek tek okundu:",
+      "okunanlar": [
+        "1917-11-07 → «Üçüncü Gazze Muharebesi» — sovyet-rusya · rusya-gecici-hukumet · transkafkasya ÜÇÜ DE bu güne düşüyor. 🔴 OLAY ALAKASIZ: Rus Devrimi değil, Filistin cephesi.",
+        "1918-11-18 → «İmparator Karl'ın çekilişi, Habsburg hânedanının sonu» — letonya'nın bağımsızlığı DEĞİL.",
+        "1918-12-01 → «Sırp-Hırvat-Sloven Krallığı ile Büyük Romanya'nın kuruluşu» — izlanda'nın egemenliği DEĞİL.",
+        "1905-06-07 → «Norveç-İsveç Birliği'nin feshi» ✅ AYNI OLAY — ama `kaynak:\"bulunamadı\"`",
+        "1797-06-14 → «Cenova Cumhuriyeti'nin sonu» ✅ AYNI OLAY — ama `kaynak` alanı HİÇ YOK",
+        "1810-02-20 → «İmereti Krallığı'nın ilhakı» ✅ AYNI OLAY — ama `kaynak` alanı HİÇ YOK"
+      ],
+      "SONUC": "8 eşleşmenin 5'i TARİH ÇAKIŞMASI, 3'ü gerçek aynı olay — ve o üçünün ÜÇÜ DE kaynaksız. ⇒ KOVA ① PRATİKTE BOŞ: projenin kendi kronolojisi bu künyelerin günü için kullanılabilir bir kaynak TAŞIMIYOR.",
+      "📌_ders": "Süzgecim tarihe bakıyordu, KONUYA değil. Bu, projenin kendi dersi: «EŞLEŞME BULMAK, DOĞRU ŞEYİ BULMAK DEĞİLDİR.» Ben o dersi biliyordum ve yine de tarih bazlı bir süzgeç kurdum; çürüten şey bir denetim değil, altı kaydın gövdesini OKUMAK oldu.",
+      "duzeltilmis_olcut": "Bir kronoloji maddesi ancak (a) AYNI GÜN ve (b) AYNI KONU ise dayanak sayılır — ve (c) kendi `kaynak` alanı DOLU olmalı. Üçü birden sağlanan künye sayısı: ÖLÇÜLEN 8'de SIFIR."
+    }
+  },
+  "YIL_TARAMASI_TUR1": {
+    "kume": "110'luk «yalnız geometride» kovası",
+    "islenen": 8,
+    "sonuc": {
+      "gun_dogrulandi_kova②": 1,
+      "yil_dogrulandi_gun_degil": 4,
+      "yil_dolayli_desteklendi": 1,
+      "olculemedi": 2
+    },
+    "🟢_beklenmedik_kazanc": "gova-makassar'da GÜN de doğrulandı (Bungaya Antlaşması, 18 Kasım 1667) — birincil antlaşma neşrinin başlığından. ⇒ «yalnız geometride» kovası «günü dayanaksız» DEMEK DEĞİLMİŞ; yalnız «projenin İÇİNDE dayanağı yok» demek. Dışarıda olabilir.",
+    "🔴_en_degerli_bulgu": "lan-na — kaynak «mid-sixteenth century» diyor, künye 1558-04-02 diyor. Burada eksik olan GÜN değil YILIN DAYANAĞI, ve (a) taramasının aranması gereken şey tam buydu. ⚠️ Ama «yüzyıl ortası» 1558'i ÇÜRÜTMÜYOR, KAPSIYOR — o yüzden değiştirme önerisi YOK.",
+    "kayitlar": [
+      {
+        "id": "gova-makassar",
+        "kunye": "1667-11-18",
+        "damga": "🟢 GÜN DOĞRULANDI",
+        "kova": "②",
+        "olay": "Bungaya (Bongaya) Antlaşması — Gova Sultanlığı VOC şartlarını kabul etti",
+        "kaynak": "Brill, «The Heritage of Arung Palakka» EK B'nin başlığı AYNEN: «THE BUNGAYA TREATY OF 18 NOVEMBER 1667»; ayrıca Taylor & Francis (Cogent Arts&Humanities) «…the Bungaya Treaty, signed on 18 November 1667, in Bungaya Village under the leadership of Admiral Cornelis Speelman». Künyenin GÜNÜ ile BİREBİR.",
+        "oneri": "Tarihe DOKUNMA · `kaynak` alanı doldurulsun. Bu künye 110'luk «yalnız geometride» kovasından ÇIKAR."
+      },
+      {
+        "id": "banda-adalari",
+        "kunye": "1621-03-08",
+        "damga": "🟡 YIL DOĞRULANDI, GÜN DEĞİL",
+        "kova": "yıl ✓ / gün ölçülemedi",
+        "olay": "VOC'nin Banda takımadalarını ele geçirmesi (Coen)",
+        "kaynak": "Cambridge World History of Genocide, «Genocide in the Spice Islands» + Taylor & Francis, History of European Ideas — «In 1621 Jan Pieterszoon Coen … gave the order to capture the whole of the Banda Archipelago». YIL ✓ · 8 Mart GÜNÜ kaynakta YOK.",
+        "oneri": "Yıl sağlam ⇒ tarih DEĞİŞMESİN. Gün için ayrı kaynak gerekir."
+      },
+      {
+        "id": "laos-kralliklari",
+        "kunye": "1893-10-03",
+        "damga": "🟡 YIL DOĞRULANDI, GÜN DEĞİL",
+        "kova": "yıl ✓ / gün ölçülemedi",
+        "olay": "Fransız-Siyam antlaşması, Mekong'un doğu yakasının bırakılması",
+        "kaynak": "Cambridge, Modern Asian Studies «The French in Laos, 1887–1945» — «Siam was compelled to sign a treaty in 1893 that renounced all claims to the territory on the eastern bank of the Mekong». YIL ✓ · 3 Ekim GÜNÜ kaynakta YOK.",
+        "oneri": "Yıl sağlam ⇒ tarih DEĞİŞMESİN."
+      },
+      {
+        "id": "kandy",
+        "kunye": "1815-03-02",
+        "damga": "🟡 YIL DOĞRULANDI, GÜN DEĞİL",
+        "kova": "yıl ✓ / gün ölçülemedi",
+        "olay": "Kandy Krallığı'nın İngiltere'ye ilhakı (Kandy Sözleşmesi)",
+        "kaynak": "Oxford History of the British Empire (Ceylon bölümü) + Brill, «Dutch and British Colonial Intervention in Sri Lanka, 1780-1815» — «In 1815, the British annexed the Kandyan kingdom». YIL ✓ · 2 Mart GÜNÜ kaynakta YOK.",
+        "oneri": "Yıl sağlam ⇒ tarih DEĞİŞMESİN."
+      },
+      {
+        "id": "karnatik",
+        "kunye": "1801-07-31",
+        "damga": "🟡 YIL DOĞRULANDI, GÜN DEĞİL",
+        "kova": "yıl ✓ / gün ölçülemedi",
+        "olay": "Karnatik'in İngiliz Doğu Hindistan Şirketi'nce ilhakı",
+        "kaynak": "Cambridge, Law and History Review — «…following the 1801 annexation of the Carnatic and the major reorganization of the judicial system in 1802». YIL ✓ · 31 Temmuz GÜNÜ kaynakta YOK.",
+        "oneri": "Yıl sağlam ⇒ tarih DEĞİŞMESİN."
+      },
+      {
+        "id": "bretanya",
+        "kunye": "1532-08-13",
+        "damga": "🟡 YIL DESTEKLENDİ (dolaylı), GÜN DEĞİL",
+        "kova": "yıl ~ / gün ölçülemedi",
+        "olay": "Bretanya'nın Fransa ile birleşmesi",
+        "kaynak": "Cambridge, «Classes, Estates and Order in Early-Modern Brittany» — bölüm başlığı «The Estates of Brittany and the Crown, **1532**–1626» ve metin 1532'yi kralın Bretanya ziyareti yılı olarak anıyor. 🟡 Bu DOLAYLI bir destek: bölüm sınırı 1532'yi bir DÖNÜM noktası sayıyor ama «birleşme» ifadesini AYNEN vermiyor. 13 Ağustos GÜNÜ kaynakta YOK.",
+        "oneri": "Yıl için ikinci bir kaynak aranmalı; tarih DEĞİŞMESİN."
+      },
+      {
+        "id": "burgonya",
+        "kunye": "1482-03-27",
+        "damga": "⚪ ÖLÇÜLEMEDİ",
+        "kova": "ölçülemedi",
+        "olay": "Burgonya Dükalığı'nın sonu (Arras Antlaşması / Mary'nin ölümü)",
+        "kaynak": "New Cambridge Medieval History «Burgundy» ve New Cambridge Modern History «The Burgundian Netherlands, 1477–1521» künyeleri BULUNDU; 1482 Arras Antlaşması anılıyor ama GÖVDELER ÇEKİLEMEDİ ve yıl AYNEN doğrulanamadı.",
+        "oneri": "«Yok» DEĞİL, «çekilemedi». Yeniden denenmeli."
+      },
+      {
+        "id": "lan-na",
+        "kunye": "1558-04-02",
+        "damga": "🔴 YIL DOĞRULANAMADI — kaynak YÜZYIL veriyor",
+        "kova": "ölçülemedi",
+        "olay": "Lan Na'nın Burma tarafından fethi",
+        "kaynak": "Cambridge, Modern Asian Studies — «Lan Na was the largest and most powerful polity in northern Thailand from the late thirteenth century until the Burmese conquest in the **mid-sixteenth century**». 🔴 Kaynak YÜZYIL ORTASI diyor, 1558 demiyor. Yani burada eksik olan GÜN değil, YILIN DAYANAĞI — (a) taramasının aradığı tam da bu.",
+        "oneri": "🔴 ÖNCELİKLİ: yıl dayanağı aranmalı. Ama YİNE DE DEĞİŞTİRME — «yüzyıl ortası» 1558'i çürütmüyor, kapsıyor."
+      }
+    ]
+  },
+  "ORNEKLEM": {
+    "niye": "Koordinatör hükmü: 110'u SÜPÜRME (13 tur), HATA ORANINI ölç.",
+    "yontem": "random.Random(20260904).sample(havuz, 20) — tohum SABİT ve YAZILI, havuz alfabetik sıralı. Tekrar koşulunca AYNI 20 çıkar.",
+    "havuz": "89 künye = 97 (gerçek gün iddiası taşıyan) − 8 (1. turda işlenmiş). 🔴 1. turun 8'i RASGELE DEĞİLDİ (tanıdıklığa göre seçmiştim) ⇒ orana KATILMADI, yukarı sapma yaratırdı.",
+    "sonuc": {
+      "gun_dogrulandi": 6,
+      "yil_ya_da_ay_dogrulandi": 7,
+      "olculemedi": 7,
+      "🔴_CURUYEN": 0
+    },
+    "HUKUM": "🟢 110 künyenin yılı için ölçülen ÇÜRÜME ORANI ≈ 0 (20 künyelik rastgele örneklem, 13 doğrulama, 7 ölçülemedi, 0 çürüme).",
+    "🔴_HUKMUN_SINIRI": "20'lik örneklem küçük bir oranı AYIRT EDEMEZ. «Sıfır çürüme» hükmü «oran DÜŞÜK» demektir, «oran SIFIR» DEĞİL. Kaba bir üst sınır: 20'de 0 gözlem, gerçek oranın ~%14'ün altında olmasıyla tutarlıdır (%95 güven). Yani 97 künyede beklenen çürük sayısı 0-13 arası; DAR bir sınır değil, ama «süpürelim» demeyi gerektirecek kadar da geniş değil.",
+    "gun_dogrulananlar": [
+      {
+        "id": "cikasav",
+        "t": "1832-10-20",
+        "olay": "Pontotoc Creek Antlaşması",
+        "kaynak": "Library of Congress, BİRİNCİL BELGE (ABD Başkanlık ilanı, rbpe.23102100) — AYNEN: «a treaty between the United States and the Chickasaw Indians, made and concluded on Pontotoc Creek, on the twentieth day of October 1832»"
+      },
+      {
+        "id": "miami",
+        "t": "1795-08-03",
+        "olay": "Greenville Antlaşması",
+        "kaynak": "Library of Congress künyesi AYNEN: «The treaty of Greenville, August 3, 1795» + JSTOR aynı başlıkla · National Park Service «Summer 1795»"
+      },
+      {
+        "id": "savni",
+        "t": "1795-08-03",
+        "olay": "Greenville Antlaşması (aynı gün, aynı belge)",
+        "kaynak": "Aynı LoC/JSTOR künyesi. 🟡 İki künye AYNI güne dayanıyor ve bu ÇAKIŞMA DEĞİL: Miami ve Şavni Greenville'in imzacılarıydı."
+      },
+      {
+        "id": "estonya",
+        "t": "1918-02-24",
+        "olay": "Estonya bağımsızlık bildirisi",
+        "kaynak": "Cambridge, «First Fundamental Rights Documents in Europe» / LoC Country Studies — AYNEN: «Estonia proclaimed its independence on February 24, 1918»"
+      },
+      {
+        "id": "irlanda",
+        "t": "1603-03-30",
+        "olay": "Mellifont Antlaşması, Dokuz Yıl Savaşı'nın sonu",
+        "kaynak": "Cambridge History of Ireland — AYNEN: «The war ended on 30 March 1603. Hugh O'Neill submitted to Lord Deputy Mountjoy at Mellifont Abbey»"
+      },
+      {
+        "id": "ermenistan-demokratik-cumhuriyeti",
+        "t": "1918-05-28",
+        "olay": "Ermenistan Cumhuriyeti'nin kuruluşu",
+        "kaynak": "Brill, «State Building and Conflict Resolution in the Caucasus», «Armenia Between 1918 And 1921» + Oxford RE «Modern Armenia» — AYNEN: «The country was created in May 28, 1918». 🟡 t:1920-12-02 ise «late November-early December 1920» — AY civarı ✓, GÜN ✗"
+      }
+    ],
+    "yil_dogrulananlar": [
+      {
+        "id": "zulu-kralligi",
+        "t": "1879-07-04",
+        "olay": "Ulundi Muharebesi",
+        "kaynak": "Cambridge, Journal of African History — «After defeating the Zulu forces at the Battle of Ulundi in **July 1879**…» AY ✓, gün ✗"
+      },
+      {
+        "id": "basuto",
+        "t": "1868-03-12",
+        "olay": "Basutoland'ın İngiliz himayesine girmesi",
+        "kaynak": "Cambridge History of Africa / Oxford RE «History of Lesotho» — «Basutoland was established as a British protectorate in 1868». YIL ✓"
+      },
+      {
+        "id": "eve-notse",
+        "t": "1884-07-05",
+        "olay": "Alman Togo himayesinin ilanı",
+        "kaynak": "Cambridge, History in Africa + Oxford RE «History of Togo» — «The German Reich annexed the coastal region as a Schutzgebiet Togo in **July 1884**». AY ✓, gün ✗"
+      },
+      {
+        "id": "sarawak-brooke",
+        "t": "1841-09-24",
+        "olay": "James Brooke'un Rajah unvanını alması",
+        "kaynak": "Cambridge University Press, «The White Rajah: A History of Sarawak 1841-1946» — «The Sultan of Brunei gave the title of Rajah and sovereignty of Sarawak … in 1841». YIL ✓"
+      },
+      {
+        "id": "surakarta",
+        "t": "1755-02-13",
+        "olay": "Giyanti Antlaşması, Mataram'ın bölünmesi",
+        "kaynak": "Cambridge, Modern Asian Studies — «…from Giyanti (**1755**) to the Java War». YIL ✓"
+      },
+      {
+        "id": "piza",
+        "t": "1406-10-09",
+        "olay": "Floransa'nın Pisa'yı alması",
+        "kaynak": "Cambridge, Papers of the British School at Rome / Renaissance Quarterly — «After a long siege, in **1406** Florence conquered Pisa». YIL ✓"
+      },
+      {
+        "id": "zaporojye",
+        "t": "1775-06-16",
+        "olay": "Zaporij Siçi'nin yıkılması",
+        "kaynak": "Cambridge, «Ukraine not 'the' Ukraine» — «Catherine abolished the Hetmanate and in **1775** ordered the destruction of the Zaporozhian Sich fortress». YIL ✓"
+      }
+    ],
+    "olculemedi": [
+      "alutiiq",
+      "karga",
+      "kri",
+      "nez-perce",
+      "ho-hanedani",
+      "kru-grebo",
+      "purepecha-imparatorlugu"
+    ],
+    "🟢_BEKLENMEDIK": "20'lik örneklemde 6 künyenin GÜNÜ de doğrulandı — üstelik ikisi BİRİNCİL BELGEDEN (LoC'un Pontotoc Creek başkanlık ilanı «the twentieth day of October 1832»; Greenville künyesi «August 3, 1795»). ⇒ «Yalnız geometride» kovasındaki günlerin önemli bir kısmı GERÇEK ve dışarıda kaynaklı."
+  },
+  "PENCERE_SONU_DUZELTMESI": {
+    "bulgu": "161'in 14'ü ve 110'un 13'ü, gün hassasiyetli TEK değeri `1923-10-29` olduğu için kümeye girmiş — o atlasın PENCERE SONU, bir gün iddiası DEĞİL.",
+    "duzeltilmis_sayilar": {
+      "161": 147,
+      "110": 97
+    },
+    "yalniz_pencere_sonu_olanlar": [
+      "bharatpur-cat",
+      "cimma-sultanligi",
+      "cohor-sultanligi",
+      "cunagadh",
+      "haiti",
+      "manipur",
+      "nepal",
+      "racput",
+      "san-devletleri",
+      "somali",
+      "tidore-sultanligi",
+      "travankur",
+      "umman-zengibar"
+    ],
+    "not": "Bunlar hassasiyet borcu DEĞİL; orana ve iş listesine girmemeli."
+  },
+  "DEVIR_RAPORU": {
+    "kovalarin_son_hali": {
+      "①_kaynak_var_yazilmamis": "8 (moskova · lakota · + örneklemin 6 gün doğrulaması) — reçete HEPSİNDE aynı: TARİHE DOKUNMA, `kaynak` alanını doldur.",
+      "②_gun_biliniyor": "kova ① ile PRATİKTE AYNI ŞEY çıktı ve ayrışmadı — öngörümde bunu bekliyordum, TUTTU.",
+      "③_hizalama": "0 — ve BOŞ OLMASI BİR SONUÇ DEĞİL: bir günü buraya koymak, kaydın KENDİ beyanının («hizalandı») onu çürütmesini gerektirir. Purépecha'da o beyan vardı (ve koordinatör künyeyi kendi ele aldı); örneklemde hiçbirinde yoktu.",
+      "④_hafizadan": "0 — kanıtlanamaz olduğu için BOŞ. Bu kova hükmü kaynağın YOKLUĞUNU kanıtlamayı gerektirir; hiçbir künyede kanıtlayamadım. Boş kova bir SINIR, bir sonuç değil.",
+      "⑤_ay_ayin_birine_kodlanmis": "42 — istatistikle ölçüldü, künye künye doğrulanmadı (koordinatör 'ölçmen yeterli' dedi)."
+    },
+    "yalniz_geometride_kovasinin_DOGRU_ADI": "🔴 «Günü dayanaksız» DEĞİL. Doğru adı: «günün PROJE İÇİNDE bağımsız karşılığı yok». Kanıtı gova-makassar (Bungaya Antlaşması 18 Kasım 1667, Brill ekinin kendi başlığı) ve örneklemin 6 gün doğrulaması. Bir sonraki oturum bu kovayı «şüpheli günler listesi» sanmasın.",
+    "42lik_sinav_ve_SINIRI": "n=396 · gün1=42 (%10,6) · beklenen 13,0 · 3,2 KAT · fazlalık ≈29. ⇒ EN AZ ~29'u ay işaretçisi. 🔴 SINIR: bu sınav TOPLULUK hakkında konuşur, TEK KAYIT hakkında DEĞİL. `lehistan 1569-07-01` yanlış ilan EDİLMİYOR. 29'u alıp YYYY-01-01'e çeken bir oturum GERÇEK GÜNLERİ SİLER.",
+    "CURUTULEN_IKI_SUZGEC_yeniden_kurulmasin": [
+      "🔴 (b) «künyenin günü bir dönem ucuyla çakışıyorsa gün önemlidir» — 161'in %93'ü geçiyor, DARALTMIYOR. Ve çakışma, günün önemli olduğunu değil KOPYALANDIĞINI gösteriyor olabilir (hizalama).",
+      "🔴 «günün kronoloji karşılığı varsa dayanak vardır» — 8 çekirdek eşleşmesi okundu: 5'i TARİH ÇAKIŞMASI (üç künye birden «Üçüncü Gazze Muharebesi»ne düşüyordu), 3'ü aynı olay ama ÜÇÜ DE KAYNAKSIZ. Süzgeç TARİHE bakıyordu, KONUYA değil.",
+      "🟢 DÜZELTİLMİŞ ÖLÇÜT (kuran için): bir kronoloji maddesi ancak (a) aynı gün + (b) aynı konu + (c) kendi `kaynak` alanı DOLU ise dayanak sayılır."
+    ],
+    "ACIK_KALEMLER": [
+      "97 künyenin 89'u örneklem dışı kaldı — süpürülmedi, ve hüküm «oran düşük» olduğu için süpürülmesi ÖNERİLMİYOR.",
+      "42'lik kümede hangi kaydın işaretçi olduğu ÖLÇÜLMEDİ (yalnız kaç tanesi olduğu).",
+      "pskov: kaynak ilhakı VASİLİ III'e bağlıyor, künye metni III. İvan diyorsa ayrı kalem (koordinatör ayrı aldı).",
+      "lakota `t:` bir KATLİAM günü (Wounded Knee) — bir devletin «sonu» olarak konması ayrı tartışma (koordinatör ayrı aldı).",
+      "lan-na: kaynak «mid-sixteenth century» diyor, künye 1558 — yılın DAYANAĞI eksik, ama kaynak künyeyi ÇÜRÜTMÜYOR, KAPSIYOR."
+    ]
+  }
+}
