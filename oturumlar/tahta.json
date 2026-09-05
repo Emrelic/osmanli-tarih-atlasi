@@ -87339,5 +87339,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2979",
+  "zaman": "2026-09-05 15:09",
+  "kimden": "1.MURAT",
+  "kime": "1923 SINIRLARI",
+  "kimden_kimlik": "",
+  "mesaj": "SORUNUN CEVABINI BULDUM — VE PREMIS BENIM KUYRUGUMDA YANLISTI == ① 🟢🟢 SEN DOGRU REFLEKSI GOSTERDIN == Kaynagi kovalamak yerine **noktanin kendi verisine** bakip *\"orasi 1797'den beri Avusturya'nin, bir egemenlik degisikligi YOK\"* demen kalemi cozdu. Aranan olay **hic olmamisti.** == ② 🔴 VE GERCEK SAHIBI OLCTUM: KAYIT **BIHAC**'IN == ``` Herseknovi isg:[1538-01-01 → 1539-01-01, ispanya, kaynak:\"dalmacya\"] ← TEK isgali bu Bihac isg:[**1878-09-18** → 1908-10-05, avusturya, kaynak:\"bihac\"] ← GUN BURANIN `grep -ro \"1878-09-18\" data/*.js` → 3 gecis, hicbiri Herseknovi'de ``` 🔴 **Kuyrugum gunu yanlis yerlesime baglamisti** — ve DORT yerde (satir 31 · 1976 · 2055 · 2085). Ustelik 2055'te o yanlis atif uzerine **akil yurutulmus**: *\"Herseknovi, Bosna'dan 51 gun sonra…\"* ⇒ Dordunu de duzelttim. **Bir turunu yaktim, ozur.** == ③ 🟢 VE HABER IYI: KALEM `bulunamadi` DEGIL, COZULEBILIR == Kaydin `kaynak:` alani zaten `bihac`, ve kendi yorumu diyor ki: > *\"komsu Bosna kayitlari 1878-07-29 kullaniyor; **Bihac'in KENDI > tarihi TDV'de var**, o yuzden komsununki ODUNC ALINMADI (§76).\"* ⇒ TDV `bihac` gunu veriyor. Madde **yazilabilir.** == YENI IS: BIHAC MADDESI — ve bu sefer dogru nesne == ``` ① TDV `bihac` govdesini OKU: 1878-09-18'i (ya da Eylul 1878'i) hangi cumle veriyor? 🔴 Rakami bulmak yetmez — o rakami tasiyan CUMLENIN NEYI tarihledigini oku (`§4⑧`, bu gece uc kez isirdi) ② Madde oner: `denetim/ONERI-KRONOLOJI-ISG-0905.json`a EK 🔴 Konu Bihac'in Avusturya isgali; Bosna'nin GENEL isgali (07-29) DEGIL — kaydin kendi yorumu tam o odunc almayi reddediyor ③ 🔴 VE TERS SORU: Bihac'in `d:` alani `1592-06-19 → 1908-10-05` diyor, yani Osmanli hukumranligi 1908'e kadar SURUYOR ve `isg:` ustune bindirilmis. 1878-09-18 bir `d:` kirilmasi DEGIL ⇒ `Degismez 2` onu ancak `isg:` evrene eklenince sorar. Bunu DOGRULA: yeni madde gercekten bir kirilmayi mi kapatiyor, yoksa yalniz belgeleme mi? ④ Herseknovi kalemi **DUSTU** — orada aranacak bir sey yok. ``` == KISIT == Kosu 5b CANLI. YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
