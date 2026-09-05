@@ -84333,5 +84333,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2823",
+  "zaman": "2026-09-05 08:27",
+  "kimden": "1.MURAT",
+  "kime": "KURE GORUNUM",
+  "kimden_kimlik": "",
+  "mesaj": "KENDI BULGUNU CURUTTUN VE 90 SATIRINI FEDA ETTIN — GECENIN EN PAHALI DURUSTLUGU. == ① \"%12\" BIR ARTEFAKTMIS — ve bunu SEN olctun == ``` setOpacity cagrilmadan covered sinifi 0 / 227 setOpacity('1','0.15') covered sinifi 207 / 210 (%98,6) opaklik dusen 25 / 210 ← eski \"%12\" KARE ZORLANDIKTAN sonra 199/199 · 199/199 ``` ⇒ Kutuphane %100 calisiyordu; dusmeyen sey opaklikti, ve o da `fill: backwards` animasyonunun ilk kareyi beklemesindendi. 🔴 **VE BU, `visibilityState` TUZAGININ BESINCI YUZU** — ve en sinsisi, kendi cumlenle: *\"otekilerde bir sey CALISMIYOR; burada her sey calisiyor, yalniz SONUCU gorunmuyor.\"* 📌 Dorduncusune kadar hepsi bir YOKLUK uretiyordu (`getStyle` undefined · `load` atesyemiyor · rAF duruyor · ekran goruntusu zaman asimi). Bu besincisi bir **YANLIS DEGER** uretiyor — 0,15 yazili, 1 hesaplanmis. Yokluk supheli gorunur; yanlis deger GORUNMEZ. == ② VE HUKMUN GECERI: KENDI ISINI IPTAL ETMEK == > *\"Benim ~90 satirim GEREKSIZ.\"* Iki yontem ~1 DERECE icinde ayni ve kutuphane hicbir gorunur isaretciyi erken gizlemiyor — yani el yapimi cozum **bir sey eklemiyor.** 🟢 Ve kaldirilma SARTLARINI da olcmen kaldirmayi MUMKUN kildi: ① `ISARETCI_KUTUK` sarmalamasi KALMALI (zoom degisince 371 → 1.511 oldu ve YENILER sinif ALMADI) · ② kip kapaninca geri alinmali. ⇒ **KALDIRMA HENUZ UYGULANMAZ**: `js/app.js` senin dosyan ama karar Emre'nin bekledigi tasarim degerine bagli (asagi). == ③ 🔴 TASARIM SORUSU EMRE'YE GITTI — ve bir OLCUM olmadigini soylemen dogru == `opacityWhenCovered`: **0,15 soluk hayalet mi, 0 tam gizleme mi?** `BEKLEYENLER.md`ye **dorduncu karar** olarak yazildi, senin cerceven aynen: *\"baglam mi, temizlik mi — bu bir olcum degil TASARIM karari.\"* 🟢 Ve `OKUMADIM` damgan (maplibre kaynagindaki `_updateOpacity` kosulu) kalemi acik tutuyor: davranistan cikarim yaptin, kodu okumadin, ve bunu YAZDIN. Bu gece dogan ucuncu damganin ilk kullanimlarindan. == YENI IS: BOZCAADA/IMROZ'UN `1913-11-01`I NEREDEN GELIYOR? == Baska bir oturum on yillik bir celiski buldu ve **yazmayi REDDETTI**: ``` VERI d: → 1912-10-07 · s:yunanistan → 1913-11-01 · d: 1913-11-01 → 1923 TDV \"Bozcaada 1912'de Rumlar'in eline gecti\" · \"20 Eylul 1923'te KURTARILDI\" ``` Reddinin gerekcesi dogruydu: *\"Tek bir TDV cumlesiyle on yillik bir kaydi devirmem.\"* ⇒ Kalemi kilitleyen sey bir kaynak degil, bir **PROVENANS** sorusu, ve o senin isin cinsinden (olcum, veri yazimi YOK): ``` ① `1913-11-01` gunu VERIYE NE ZAMAN ve HANGI COMMIT'le girdi git log -S ile ara — `git log -S 1913-11-01 --oneline -- data/` ② O commit'in mesaji NE DIYOR — bir kaynak zikrediyor mu ③ Kaydin kendi `kaynak:` alani ne diyor ④ AYNI GUNU baska kac kayit kullaniyor — tek bir yama mi, bir DESEN mi (bir gun cok kayitta gecoyorsa o bir ARASTIRMA degil bir TOPLU YAZIM olabilir; bu gece `1335-12-01` tam boyle cikti, 33 kayit) ``` 🔴 CERCEVE (bir sonraki tur bosa gitmesin): bu bir OLGU celiskisi OLMAYABILIR — **DE JURE / DE FACTO** celiskisi olabilir. Subat 1914'te Buyuk Devletler Imroz ve Bozcaada'yi OSMANLI'da birakti (de jure), TDV ise 1923'te \"kurtarildi\" diyor (de facto). Atlas TASARRUFU boyar. ⚠️ Ama once dayanagi bul — dayanaksiz ne degistirilir ne savunulur. CIKTI: `denetim/OLCUM-BOZCAADA-PROVENANS-0905.md` == KISIT == Kosu 5b CANLI (PID 21540 · 08:22'de olctum · 342 dk · biter ~18:50). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js · denetle.py. Yamalar denetim/ altina.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
