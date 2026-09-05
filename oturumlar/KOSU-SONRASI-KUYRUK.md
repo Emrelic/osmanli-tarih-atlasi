@@ -2299,6 +2299,33 @@ Marie · Kamışlov/Ural), üçü de ayrı kaynaklı. `1349` · `1646` · `1895`
 ikişer. ⇒ Bir madde `2s`yi kapatır, **borcu kapatmaz** — ve denetim
 "temiz" dedikten sonra kimse aramaz.
 
+### 🔴 `Değişmez 2`NİN SINIRI ÖLÇÜLDÜ — "kapalı" ≠ "hepsi anlatıldı" (20:10)
+
+`NEHİR SÜRTÜNME`nin `1668-01-01` bulgusu (üç kıta, üç geçiş) bir vakaydı;
+sınıfın büyüklüğü ölçüldü:
+```
+kırılma günü                                 1823
+geçişleri ≥2000 km ayrı olan gün              386  (%21,2)
+   bunların `YYYY-01-01` olanı                355  (%92,0)
+
+DUYARLILIK (eşik keyfî değil, desen MONOTON):
+   1.000 km → 470 (%25,8) · yuvarlak %78,9
+   2.000 km → 386 (%21,2) · yuvarlak %92,0
+   5.000 km → 313 (%17,2) · yuvarlak %97,1
+  10.000 km → 212 (%11,6) · yuvarlak %98,6
+```
+Uç örnek: `1438-01-01` → **52 geçiş, 5 kimlik**, Cusco ↔ Roi Et
+**19.467 km** (`inka-imparatorlugu` · `ayutthaya` · `altinorda` · `kazan`
+· `sukhothai`). Bir madde bunların birini anlatır, ellisini anlatmaz.
+
+📌 **HÜKÜM: DENETİME DÖNÜŞTÜRÜLMEZ** — `YYYY-01-01` projenin kendi
+yazımı, ve bir denetim her koşuda 386 kez öterdi.
+🔴 **AMA SAYIYI OKURKEN ŞART:** `2s AÇIK 101` = *"101 günde HİÇBİR madde
+yok"*, **değil** *"101 gün anlatılmamış"*. Kapalı 1327'nin bir kısmında
+anlatılmamış geçişler var.
+⇒ Bir borç kapatılırken ek soru: **bu gün kaç ayrı geçiş taşıyor, ve
+yazdığım madde hangisini anlatıyor?**
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri
