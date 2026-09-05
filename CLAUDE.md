@@ -341,9 +341,42 @@ maratha  ARDİL — 31 dönemin 23'ü GERÇEK günlerde bitiyor (1803 · 1818);
    kalanlar Scindia · Holkar · Kolhapur, yani 1947'ye kadar süren
    Maratha kökenli prenslikler.
 ```
-⚠️ Ve üçünde de **ardıl kimlik YOK**: `ingiliz-hindistan` /
-`britanya-hindistan` tarandı, **yok**; yalnız `ingiltere` var. ⇒ Düzeltme
-bugün yazılamaz, `polonya-erken` emsali — **yazmak delik açar.**
+> 🔴🔴 **BU SATIR AYNI GÜN, KIRK DAKİKA SONRA ÇÜRÜDÜ — ve çürüten,
+> onu yazan oturumdu.** İlk hâli şöyleydi: *"üçünde de ardıl kimlik YOK:
+> `ingiliz-hindistan` / `britanya-hindistan` tarandı, yok."*
+> ```
+> aranan   ingiliz-hindistan · britanya-hindistan   → BULUNAMADI
+> GERÇEK   ingiliz-hindistani  1757-06-23 → 1923-10-29   ← SONDA BİR 'i'
+> ```
+> ⇒ **Ardıl künye VARDI ve 70-76 noktada KULLANILIYOR.** Ve atlasın
+> konvansiyonu sağlam: prenslikler kendi künyeleriyle 1923'e kadar
+> sürüyor (`haydarabad-nizam` 1724→1923 · `racput` · `bharatpur-cat` ·
+> `cunagadh` · `travankur`). 1850 ve 1900 kesitlerinde **sahipsizlik 0.**
+>
+> 🟢 **Teşhis TERSİNE DÖNDÜ, ve çare UCUZLADI:** sorun *"ardıl yok"*
+> değil ***"ardıl var, `meysur` (3 nokta) ve `maratha` (5 nokta) o
+> konvansiyona KATILMAMIŞ."*** Emsal hazır:
+> ```
+> haydarabad-nizam 1724 → 1923   Nizamlık PRENSLİK olarak sürdü ← EMSAL
+> meysur           1761 → 1799   ⇒ EKSİK: `meysur-racaligi` 1799→1923
+> maratha          1674 → 1818   ⇒ EKSİK: Gvalyar · İndor · Kolhapur
+> ```
+> ⚠️ **ARDİL SINIFININ KENDİSİ DOĞRU** — çürüyen yalnız *"ardıl kimlik
+> yok"* iddiası. Ders korunur, vaka damgalanır (`§3.5.1` emsali).
+
+🔴 **VE BU, BİR GECEDE ÜÇÜNCÜ TEK-HARF KÜNYE KAÇIRMASI:**
+```
+tuareg-iwellemmedan  ✗ → tuareg-ivellemmedan  ✓   (w/v · YAKALANDI)
+litvanya-buyuk-dukaligi ✗ → litvanya-buyuk-dukalik ✓  (YAKALANDI)
+ingiliz-hindistan    ✗ → ingiliz-hindistani   ✓   (KAÇIRILDI, ve
+                                                    ÜSTÜNE HÜKÜM VERİLDİ)
+```
+⇒ ***Bir kimliği "yok" ilan etmeden önce `devletler.js` TARANIR;
+TAHMİN EDİLEN id ARANMAZ.*** Bu, `§4`ün Türkçe yazım ekseninin en sinsi
+üyesi: orada yazım **görünür** biçimde farklıydı (`usku` ≠ `Üsküp`),
+burada id **doğru görünüyor** ve tek bir harf eksik.
+⚠️ Ve bedeli ölçüldü: yokluk üzerine bir **hüküm** kuruldu
+(*"yazmak delik açar"*), oysa yazmak bir deliği **kapatacaktı.**
 
 📌 Ve ölçen oturum bunu **kendi kırk dakika önceki manşetini çürüterek**
 buldu: *"`4c`de GERÇEK hayaletler var, meysur 124,5 yıl — Batnoz'un

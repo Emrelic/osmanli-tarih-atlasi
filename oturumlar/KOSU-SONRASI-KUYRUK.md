@@ -669,6 +669,33 @@ ve **ikisi aynı rengi alıyor.**
 Şihr+Mükellâ (Kuaytî) için **nokta açılacak**; 1915-1919 nominal Osmanlı
 örtüsü yalnız Kuaytî tarafına (`v:`, TDV "nominal" diyor).
 
+### 🟢 HİNDİSTAN 1799-1923 — **BLOKAJ YOK**, ve teşhis TERSİNE döndü
+
+```
+🟢 sahipsizlik 1850/1900        0 / 0      → Değişmez 1 bulgusu YOK
+🟢 ingiliz-hindistani 1757→1923            → 70-76 noktada KULLANILIYOR
+🟢 prenslik konvansiyonu VAR    haydarabad-nizam 1724→1923 · racput ·
+                                bharatpur-cat · cunagadh · travankur
+🔴 meysur (3 nokta) · maratha (5)          → o konvansiyona KATILMAMIŞ
+```
+🔴 **VE BU, KOORDİNATÖRÜN `CLAUDE.md`YE YAZDIĞI BİR SATIRI ÇÜRÜTTÜ:**
+*"üçünde de ardıl kimlik YOK"* — künye VARDI:
+```
+aranan  ingiliz-hindistan · britanya-hindistan  → bulunamadı
+GERÇEK  ingiliz-hindistani                       ← SONDA BİR 'i'
+```
+⇒ Sorun *"ardıl yok"* değil ***"ardıl var, sekiz nokta katılmamış"***, ve
+**emsal hazır**: `meysur-racaligi` 1799→1923 · Maratha prenslikleri
+(Gvalyar · İndor · Kolhapur). **Karar ucuzladı** — "künye BEKLİYOR"
+değil "künye açılmalı, kalıbı belli."
+
+🔴 **BİR GECEDE ÜÇÜNCÜ TEK-HARF KÜNYE KAÇIRMASI:**
+`tuareg-ivellemmedan` (yakalandı) · `litvanya-buyuk-dukalik` (yakalandı)
+· `ingiliz-hindistani` (**kaçırıldı, ve üstüne hüküm verildi**).
+⇒ ***Bir kimliği "yok" ilan etmeden önce `devletler.js` TARANIR; TAHMİN
+EDİLEN id ARANMAZ.*** `§4`ün Türkçe yazım ekseninin en sinsi üyesi:
+orada yazım görünür biçimde farklıydı, burada id **doğru görünüyor.**
+
 ### 🔴 KOŞUYU ÖLÇME — İKİLİ DEĞİL **MERDİVEN** (5 Eylül 09:10'da düzeltildi)
 
 ```
