@@ -66,15 +66,35 @@ for l in asama[:30]:
     p("  %s" % l.strip()[:96])
 
 # ── ② BOYA DUSUSU SAYACI ────────────────────────────────────────────────
+# 🔴 ILK SURUM YANLIS DOSYAYA BAKTI ve SAHTE ALARM verdi (5 Eylul 22:35):
+#    `kosu_ayrik.log` FIRLATICININ ozeti (asama basliklari + kod=N);
+#    uretimin AYRINTILI stdout'u `kosu_zincir.log`a gidiyor ve bu satir
+#    ORADA. Alet "SATIR BULUNAMADI ⇒ olculemedi" deyip cikis 1 dondu —
+#    yani TEMIZ bir yayini bloke edecekti.
+#    ⇒ `§11`: *bir alet, aradigi seyin NEREDE OLMAYACAGINI da bilmeli.*
+#    Care: IKI dosyada da ara, ve hangisinde bulundugunu YAZ.
 p("")
 p("=== 2. BOYA ANAHTARI `harita:`ya DUSEN DONEM ===")
-m = re.findall(r"dusen donem:\s*(\d+)|düşen dönem:\s*(\d+)", s)
+kaynaklar = []
+for ad in ("kosu_zincir.log", "kosu_ayrik.log"):
+    yol = os.path.join(KOK, ad)
+    if os.path.exists(yol):
+        kaynaklar.append((ad, io.open(yol, encoding="utf-8", errors="replace").read()))
+m, nerede = [], "?"
+for ad, metin in kaynaklar:
+    m = re.findall(r"d[uü][sş]en d[oö]nem:\s*(\d+)", metin)
+    if m:
+        nerede = ad
+        break
+if m:
+    p("  kaynak: %s" % nerede)
 if not m:
-    p("  🔴 SATIR BULUNAMADI — log eksik ya da kosu o asamaya gelmedi")
+    p("  🔴 SATIR BULUNAMADI — %s dosyalarinda arandi" %
+      ", ".join(x[0] for x in kaynaklar))
     p("     ⇒ `kurtulan 4` kimligin durumu OLCULEMEDI (temiz SAYILMAZ)")
     hata = 1
 else:
-    n = int([x for x in m[-1] if x][0])
+    n = int(m[-1])
     p("  N = %d" % n)
     if n == 0:
         p("  🔴 DUSUS DEVRE DISI — `kurtulan 4` GERCEK harita deligine doner:")
