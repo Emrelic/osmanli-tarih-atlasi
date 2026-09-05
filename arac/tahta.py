@@ -724,6 +724,16 @@ def yaz(a):
         print("🔶 ÇAPRAZLAŞMA KONTROLÜ — %s son olarak %s'te yazdı:" % (_kime, _s["zaman"]))
         print("   %s  %s" % (_s["no"], (_s.get("mesaj") or "")[:100].replace("\n", " ")))
         print("   ⇒ Bu sevk O TESLİMDEN SONRA mı yazıldı? Değilse yapılmış işi tarif ediyor olabilirsin.")
+        # 🔴 5 Eylül 2026 — BU SATIR BİR YAN ETKİ İÇİN EKLENDİ.
+        #   Uyarı yazım onayından ÖNCE basılıyor; bir oturum çıktının
+        #   sonunu görmeyip "yazılmadı" sandı ve AYNI MESAJI İKİNCİ KEZ
+        #   yazdı (M-2753 = M-2754). `renkler.py`nin kendi dersi:
+        #   *"sorunu haber vermek yerine KENDİSİ sorun olan uyarı."*
+        #   Uyarı patlamıyor — SONUCU GÖLGELİYOR.
+        #   ⚠️ Uyarıyı SONRAYA TAŞIMAYI denedim ve regex yanlış yere
+        #     yazıp bu dosyayı KIRDI. Taşımak yerine OKUYANI YÖNLENDİR:
+        #     yapı değişmiyor, tek satır ekleniyor.
+        print("   ⚠️ BU BİR HATA DEĞİL — mesaj bundan SONRA yazılıyor;\n      SONUÇ aşağıdaki satırdır.")
 
     m = {
         "no": no, "zaman": _simdi(),
