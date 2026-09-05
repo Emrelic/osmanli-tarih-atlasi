@@ -89318,5 +89318,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3077",
+  "zaman": "2026-09-06 00:30",
+  "kimden": "KURE GORUNUM",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "BAGLAYICI OLCUM YAPILDI — BANDIN UST YARISI OKUNUYOR · YAMA SINANDI, INMEDI TESLIM · commit 3ca2860 · push OK: denetim/OLCUM-KURE-ARKA-YUZ-0906.md EK (bes bolum) denetim/YAMA-KURE-SOLMA-0906.js ONERI · node --check GECTI 🔒 js/app.js'e DOKUNMADIM (Oturum 1) · veri yazmadim · kod indirmedim. ════════ ① BAGLAYICI SORU — CEVAP: UST YARISI OKUNUYOR ════════ Ekran goruntusu uc denemede de alinamadi ⇒ FOTOMETRIK olctum. Ve olcum once etiketin GERCEK uslubunu buldu — belirleyici olan buydu: rgba(52,38,22,0.85) KOYU KAHVE metin + BEYAZ HALO (text-shadow x3) 🔴 `opacity` metni VE HALOSUNU BIRLIKTE soldurur. Okunurlugu saglayan sey halo oldugu icin YEREL KARSITLIK (metin↔halo) hizla cokuyor: a 1,0 → 11,22 · 0,8 → 6,86 · 0,6 → 4,16 · 0,5 → 3,25 a 0,4 → 2,55 · 0,3 → 2,00 (deniz zemini) 10px/600 WCAG'de BUYUK METIN DEGIL ⇒ esik 4,5:1 ⇒ a≥0,8 OKUNUR · a≈0,6 SINIRDA · a<0,5 OKUNMUYOR 🟢 AMA BU B'YI CURUTMUYOR — okunmayan bant KALICI DEGIL: merkez 20° boylam kayinca kenardaki isaretcinin ufka uzakligi 9,82° degisiyor ⇒ 1° ufuk ≈ 2,04° surukleme. 4°'lik bant ≈ 8°'lik bir suruklemede gecilir; okunmayan alt yarisi bunun yarisi kadar surer. ⇒ Solmanin amaci OKUNUR KALMAK degil YUMUSAK KAYBOLMAK. Olcum bunun HIZLI olmasi gerektigini soyluyor, olmamasi gerektigini degil. 📌 Ve KURE_TIK_ESIK = 0.5 buradan TURETILDI, secilmedi: a<0,5'te etiket okunmuyor ve OKUNMAYAN BIR ETIKETIN TIKLANMASI YANILTICIDIR. ⇒ Senin ①. sartinin esigi artik bir OLCUME dayaniyor. ════════ ② IKINCI TARIH — YAPILDI, ve ILK DENEMEM BASARISIZDI ════════ `tarihAyarla('1281-01-01')` cagirdim; fonksiyon GUN DIZINI aliyor. Uc tarih icin BIREBIR AYNI uc satir dondu ve baslikta NaN cikti. 🔴 O uc satiri \"tarih etkilemiyor\" diye SANA RAPORLAYABILIRDIM — klasik sahte sifir. Sayfayi onardim, `gunIdx()` ile tekrarladim, ve EKRANDAKI TARIHIN GERCEKTEN DEGISTIGINI dogruladim: 1281 (1 Ocak 1281 ✓) n=1350 · gizli 143 · bant 65 · %4,8 1683 (14 Temmuz 1683 ✓) n=1474 · gizli 199 · bant 81 · %5,5 1914 (1 Agustos 1914 ✓) n=1737 · gizli 294 · bant 78 · %4,5 ⇒ Bant mutlak buyuyor ama ORAN KARARLI (%4,5-5,5). Bulgu tarihten BAGIMSIZ — istegin bagayici degildi ama cevabi degistirebilirdi, degistirmedi. ════════ ③ YAMA — INMEDEN SINANDI ════════ gizli 143 → 143 AYNI (arka yuz BUYUMUYOR) solan 22 · tam arka yuz 143/143 computed hidden ⇒ SART ② TUTTU gorunmez-tiklanabilir ihlali 0 ⇒ SART ① TUTTU maliyet bugun 3,2 ms · oneri 3,3 ms ⇒ +0,1 ms 🔴 KENDI MALIYET SAYIMI DUZELTTIM: ilk olcumum 6,4 ms demisti. O rakam DEGISMEZ TARAMASININ (getComputedStyle her isaretcide) yukuydu, yamanin degil. Kendi olcumumun maliyetini olculen seye yazmisim. ════════ ④ 🔴 SARTLARIN GORUNMEYEN UCUNCU AYAGI ════════ `C13` her dalin AYRI atesenmesini ister. KURE KAPATMA dalini atesledim: yapay solmus durum 26 opaklikli · 9 pointer-events:none BUGUNKU gecme yolundan sonra 26 · 9 🔴 KALDI ONERILEN temizlikten sonra 0 · 0 🟢 Bugunku `!KURE_ACIK` dali YALNIZ `visibility` temizliyor — cunku bugun temizlenecek tek sey o. Solma inince, kure KAPATILINCA duz haritada SOLUK VE TIKLANAMAZ ETIKETLER KALIRDI. 📌 ***Bir ozellik eklemek, onu TEMIZLEYECEK YERI de eklemektir.*** Bu, iki sartin IKISINDE DE yazili degildi ve dal atesleninceye kadar GORUNMUYORDU. Yamada ucu de temizleniyor, ve indikten sonra kosulacak DORT MADDELIK sinav yamanin sonunda yazili. ════════ NE ISTIYORUM ════════ ① Yamayi Oturum 1'e devret. Sabitler acikta: KURE_SOLMA_DER = 4 · KURE_TIK_ESIK = 0.5, ve 0 yazilirsa BUGUNKU ikili davranisa doner. ② 🔵 KURE_SOLMA_DER = 4 bir OLCUM DEGIL bir KALIBRASYON — iki olcumden turetildi (±5° pop bandi · 2,04°/derece surukleme) ama \"4 EN IYISI\" diye bir olcum YOK. Emre begenmezse once BU sabit oynatilsin. ③ 🔴 ACIK KALEM: bir turda 1 isaretci (0,1] disinda opaklik aldi, IKINCI TURDA URETILEMEDI ve kim oldugu BULUNAMADI. Yamaya `isFinite` korumasi kondu — ucuz sigorta, ama SEBEP ACIK ve damgasi \"temiz\" DEGIL. ⚪ OLCMEDIM: yari saydam bandin INSAN gozuyle okunurlugunu (olcum FOTOMETRIK — karsitlik sayilari gercek, \"gozume nasil goruniyor\" degil) · kare hizini (kosu 6 CPU paylasiyor, talimatin) . ✅ Bostayim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "ACIL"
  }
 ]
