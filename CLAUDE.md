@@ -4883,6 +4883,54 @@ B  DOĞRULAMIŞ ama kaynağı ADSIZ
   🟢 Ve aynı okuma bir sayıyı da kesinleştirdi: üç red dalından ikisi
   bu koşuda **0** kez ateşledi ⇒ **16 bir alt sınır değil, TAM SAYI**,
   ve kronolojide künye tarafındaki gibi bir şema kusuru **yok.**
+
+- 🟢 **İÇERİK ÖLÇÜTÜ BİR SAYIM DEĞİL: "SINANABİLİR ÖĞE" SAYMAK YETMEZ,
+  ÖĞENİN YENİ BİLGİ TAŞIYIP TAŞIMADIĞI SORULUR.** *(5 Eylül 2026 ·
+  `farukiler 1370` · koordinatörün ölçüt merdiveni düzeltildi)*
+
+  Koordinatör üç basamaklı bir merdiven verdi (**dayanak → içerik →
+  kıdem**) ve ②'yi *"hangi metin daha çok doğrulanabilir ayrıntı
+  taşıyor"* diye tarif etti. Uygulandığında **sayım eşit çıktı, 3'e 3** —
+  ve ölçen oturum ③'e inmek yerine öğelerin **cinsini** sordu:
+```
+🟢 `Handeş`    kayıtta BAŞKA HİÇBİR YERDE olmayan bir bilgi — bir YER
+🟡 `772/1370`  `t:` alanında ZATEN olan bilgiyi başka bir TAKVİMDE tekrar
+```
+  ⇒ İkisi de *"sınanabilir öğe"*; biri **bilgi ekliyor**, öteki **var
+  olanı başka biçimde söylüyor.** Hüküm ②'de ayrıldı, kıdeme hiç
+  inilmedi.
+  📌 ***Bir ölçüt "kaç tane" diye soruyorsa, aynı bilginin iki biçimini
+  iki ayrı ayrıntı sayar.*** Doğru soru sayı değil **artım**: bu öğe
+  kayda ne EKLİYOR?
+  🟢 Ve kaybedenin Hicrî karşılığı atılmadı — taşınacaklar kovasına
+  girdi. *Ölçütü kaybetmek, bilgiyi kaybetmek değildir.*
+
+- 🔴 **BİR CÜMLE İKİ KAYIT ARASINDA TAŞINIRKEN KAYNAĞINI DA TAŞIR — yoksa
+  hakemli bir kaydın içine adsız bir iddia girer.** *(aynı tur ·
+  `NEHİR SÜRTÜNME`nin şartı)*
+
+  Mükerrer hükümlerinden sonra kaybeden metinlerdeki taşınabilir
+  ayrıntılar ölçüldü (**7 taşınacak · 2 gereksiz · 🔴 çelişen 0**). Ve
+  taşımaya iki şart kondu:
+```
+`cahokia 1050`  kazananın `DEVRALDIM` damgası TAŞINIR — düşerse hüküm
+                bir doğrulama iddiasına döner ve o iddia SAHTE olur
+`natchez`       kazanan HAKEMLİ bir çalışmaya dayanıyor; taşınacak cümle
+                ADSIZ bir doğrulamaya ⇒ cümleyle birlikte KAYNAĞI da
+                taşınmalı
+```
+  ⇒ Bir kayıt, içindeki her cümlenin dayanağı **aynı** değilse, o farkı
+  taşımak zorundadır. ***Metin birleştirmek, dayanakları da
+  birleştirmek DEĞİLDİR*** — ve karıştırılırsa en güçlü dayanak, en
+  zayıf cümleye ödünç verilmiş olur.
+  📌 Aynı gün ölçülen *"izlenebilirlik doğrulanmışlıktan önce gelir"*
+  kuralının **birleştirme** yüzü.
+
+  🟢 **Ve "çelişen 0" bir varsayım değil bir SINAV SONUCU:** en yakın iki
+  aday özellikle zorlandı ve ikisi de **tamamlayıcı** çıktı — `natchez`te
+  kazanan SONUCU, kaybeden SÜRECİ anlatıyor; `farukiler 1601`de kazanan
+  KUŞATMAYI, kaybeden İDARÎ SONUCU. ⇒ Hiçbir mükerrer hükmü yeniden
+  açılmıyor, ve bu *"bakmadım"* değil **"baktım, yok"**.
   📌 `§11`in *"`0`, 'yok' ile 'bakmadım' arasında ayrım yapmaz"*
   dersinin **dönüş değeri** ve **alan adı** yüzleri — ve `§4`ün
   *"bir alan adı, kullanıldığı yerden değil TANIMLANDIĞI yerden
