@@ -3279,7 +3279,23 @@ gerçek             :  Drama'nın ÜÇ, ötekilerin İKİ dönemi var
   satırı ötüyordu. Çare de doğru cinstendi: filtreyi düzeltmek değil,
   **yamayı elden değil VERİDEN üretmek.**
   📌 Bulan oturumun cümlesi kaydın özü: ***"Filtre veriyi bozmadı, BENİ
-  bozdu."*** ⇒ `§11`in *"`0`, 'yok' ile 'bakmadım' arasında ayrım
+  bozdu."***
+
+  🔴 **VE AYNI OTURUM AYNI GÜN İKİNCİSİNİ ÜRETTİ — bir aile oldu.**
+  Bir simülasyon betiğinin ekran etiketleri yanlış sıradaydı: `kos()`
+  `(ihlal, künyesiz, 4c, 4d)` döndürüyordu, çıktı `hayalet/4c/4d/künyesiz`
+  diye basıyordu. Değerler bilinen tabanla birebir uyuştuğu için **sonuç
+  etkilenmedi** — ve oturum bunu gizlemek yerine raporun içine yazdı:
+  *"etiketi düzeltmeden kimse o satıra güvenmesin."*
+```
+① ÖLÇÜM FİLTRESİ   gördüğünü kısıtladı   → dört dönem GÖRÜNMEDİ
+② ETİKET SIRASI    gördüğünü yanlış adlandırdı → sayı DOĞRU, adı YANLIŞ
+```
+  ⇒ ***İkisi de veriyi değil OKUMAYI bozdu*** — ve ikisi de hiçbir
+  denetimin sorusu değil, çünkü denetimler **veriyi** sorar.
+  ⚠️ ②'nin sinsiliği ①'den fazla: orada bir şey eksikti, burada her şey
+  yerinde ve **yalnız adları karışık**; değerler tabanla uyuşursa
+  hiç fark edilmez. ⇒ `§11`in *"`0`, 'yok' ile 'bakmadım' arasında ayrım
   yapmaz"* dersinin **görüntüleme** yüzü: burada `0` bile yoktu, yalnız
   **kısaltılmış bir liste** vardı ve tam olduğu sanıldı.
 

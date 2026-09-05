@@ -200,6 +200,53 @@ mı, bilinmiyor. Dördü de **kaynağına sorulmadan** değiştirilmez.
 uyuşup uyuşmadığını sorar. Hangi tarafın yanlış olduğunu söylemez —
 `t:` de yanlış olabilir `gun:` de.
 
+### 🟢 DOĞU MAKEDONYA / EGE `isg:` DESENİ — BEDEL ÖLÇÜLDÜ, 10 ONAY · 7 AÇIK
+
+```
+kapsam             17 nokta · 4 benzersiz İŞGAL günü
+Değişmez 2 yükü     5 GÜN        ← koordinatör "32 uç" demişti, YANLIŞ
+yazılacak madde     0 (zorunlu) · 3 (§10 gereği YAZILACAK)
+4c / 4d / hayalet   DEĞİŞMİYOR (simüle edildi)
+```
+🔴 **Koordinatörün "32 yeni uç" sayısı yanlıştı ve kod bunu söylüyor:**
+`denetle.py:1178` → `kir.setdefault(d, …)`, yani kırılma sözlüğü **GÜNE**
+göre anahtarlanır, uca değil. 17 nokta yalnız 4 işgal günü paylaşıyor
+(Selanik beş komşusuyla, Yanya altı Epir noktasıyla aynı gün düştü).
+`2i`nin kendi yorumu da aynı dili konuşuyor: *"16 AYRIK kırılma günü"*.
+
+**KUYRUĞA (koşudan sonra):**
+```
+🟢 10 NOKTA — 1912-10-21 · 1912-11-02 · 1912-11-08 grupları
+   teslim günü `isg:` başlatır · Londra 1913-05-30 `s:` başlatır
+🔴  7 NOKTA — EPİR (Yanya grubu) BEKLİYOR
+   Yunanistan-Arnavutluk sınırı Aralık 1913 FLORANSA PROTOKOLÜ ile
+   çizildi ⇒ `1913-05-30` onlara doğru `s:` günü OLMAYABİLİR. Ölçülmeden
+   gün seçilmeyecek.
+🔴 3 MADDE — 1912-10-21 · 1912-11-02 · 1912-11-08
+   Değişmez 2 sayısal GEÇİYOR ama mevcut maddeler ALAKASIZ ("Edirne
+   kuşatması" · "Şark Ordusu bozgunu"). `§10`: *"ayrı madde ile
+   gösterilmeli ismi ile zikredilmeli."*
+   ⚠️ Ve ÖNCE ARA: Selanik'in düşüşünün (1912-11-08) gerçekten kendi
+      maddesi yoksa, o **kendi başına bir bulgudur.**
+```
+🟢 **VE İKİ MADDE ZATEN 0 GÜN UZAKTA VE TAM O OLAYI ANLATIYOR:**
+*"Yanya'nın düşüşü — Epir'in ve Parga'nın kaybı"* · *"Londra Antlaşması —
+Rumeli'nin kaybı"*. Kronoloji bu değişimleri **zaten kaydetmiş**; gövde
+takip etmemiş. Girit · Tunus · Oniki Ada · Ege'den sonra **BEŞİNCİ.**
+
+🔴 **VE "İKİ KONVANSİYON" ÇERÇEVESİ ÇÜRÜDÜ — ölçen taraf kendi çürüttü:**
+```
+Londra'dan ÖNCE başlayan bulgar dönemi: 12 / 29
+1912-10-24 Kırklareli · 1912-11-01 Tekirdağ · 1913-03-26 Edirne grubu (10)
+```
+⇒ Ayrım *"Yunan şöyle, Bulgar böyle"* değil; **her iki taraf da kendi
+içinde karışık.** Bu kararın lehine: bozulacak tutarlı bir Bulgar
+konvansiyonu YOK. Ama desen **yarım kalır** — Bulgar tarafının 12
+Londra-öncesi döneminin `kaynak:` alanları **ÖLÇÜLMEDİ.**
+
+⚪ Ve konvansiyon iki değil **ÜÇ**: teslim/işgal · antlaşma · **savaşın
+başlangıcı** (`1913-06-28` = II. Balkan Savaşı'nın patladığı gün).
+
 ### 🔴 KOŞUYU ÖLÇME — kilit dosyası ölçüm DEĞİLDİR
 ```
 Get-Process -Id 21540          ← PID'i .petek.kilit'ten al, CANLILIĞI SÜREÇTEN doğrula
