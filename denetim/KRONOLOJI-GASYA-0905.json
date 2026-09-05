@@ -54,6 +54,49 @@
    ]
   },
   {
+   "id": "bidar",
+   "eklenen": [
+    {"t": "1504-01-01", "tur": "hukumdar", "b": "Kurucu Kasım Barîd öldü; yerine oğlu Emîr Barîd I geçti", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Qasim Barid I', 'Amir Barid I') doğrulandı."}
+   ]
+  },
+  {
+   "id": "travankur",
+   "eklenen": [
+    {"t": "1729-01-01", "tur": "hukumdar", "b": "Marthanda Varma, Venad (Travankur'un öncülü) tahtına çıkıp krallığın konsolidasyon sürecini başlattı (1729-1758 hüküm sürdü)", "kaynak": "🔴 KÜNYENİN KENDİ f:/t: GÜNÜNE DAYANILMADI (CLAUDE.md §4 uyarısı) — bulunamadı (TDV), standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Marthanda Varma') BAĞIMSIZ doğrulandı."},
+    {"t": "1741-01-01", "tur": "savas", "b": "Travankur, Colachel Savaşı'nda Hollanda Doğu Hindistan Şirketi'ni kesin biçimde yendi; Hollanda'nın Güney Hindistan'daki askerî gücü fiilen sona erdi", "kaynak": "🔴 KÜNYENİN KENDİ f:/t: GÜNÜNE DAYANILMADI — bulunamadı (TDV), standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Travancore-Dutch War') BAĞIMSIZ doğrulandı."}
+   ]
+  },
+  {
+   "id": "nepal",
+   "eklenen": [
+    {"t": "1768-09-25", "tur": "kurulus", "b": "Prithvi Narayan Shah, Kathmandu'yu alıp Nepal Krallığı'nın kuruluşunu resmen ilân etti; başkentini Gorkha'dan Kathmandu'ya taşıdı", "kaynak": "🔴 KÜNYENİN KENDİ f:/t: GÜNÜNE DAYANILMADI (CLAUDE.md §4 uyarısı) — bulunamadı (TDV), standart akademik kaynak, GÜN hassasiyeti (25 Eylül 1768) çevrimiçi ikincil kaynaklarla ('Prithvi Narayan Shah') BAĞIMSIZ doğrulandı."},
+    {"t": "1769-01-01", "tur": "savas", "b": "Bhaktapur Savaşı'nda Prithvi Narayan Shah zafer kazanıp Kathmandu Vadisi'nin tamamının denetimini ele geçirdi", "kaynak": "🔴 KÜNYENİN KENDİ f:/t: GÜNÜNE DAYANILMADI — bulunamadı (TDV), standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Battle of Bhaktapur') BAĞIMSIZ doğrulandı."}
+   ]
+  },
+  {
+   "id": "cunagadh",
+   "eklenen": [
+    {"t": "1654-01-01", "tur": "kurulus", "b": "Şêr Hânî Bâbî, Cunagadh'ta (Junagadh) Bâbî hânedanını kurdu", "kaynak": "🔴 KÜNYENİN KENDİ f:/t: GÜNÜNE DAYANILMADI (CLAUDE.md §4 uyarısı) — bulunamadı (TDV), standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Sher Khanji Babi', 'Babi dynasty') BAĞIMSIZ doğrulandı. 🔴 BÜYÜK ÇELİŞKİ: künyenin f: alanı 1748, akademik kaynak kuruluşu 1654'e tarihliyor — 94 YIL fark. Künye sahibine AÇIKÇA bildiriliyor; künyenin f:'si muhtemelen Bâbî ailesinin Cunagadh'ta TAM BAĞIMSIZLIĞINI (Marathalardan/Babürlülerden) kazandığı daha geç bir tarihi yansıtıyor olabilir, hânedanın kendi kuruluşunu değil."},
+    {"t": "1690-01-01", "tur": "hukumdar", "b": "Kurucu Şêr Hânî Bâbî öldü", "kaynak": "🔴 KÜNYENİN KENDİ f:/t: GÜNÜNE DAYANILMADI — bulunamadı (TDV), standart akademik kaynak, çevrimiçi ikincil kaynaklarla BAĞIMSIZ doğrulandı."}
+   ]
+  },
+  {
+   "id": "cammu-kesmir",
+   "eklenen": [
+    {"t": "1845-01-01", "tur": "savas", "b": "Gulâb Singh, Birinci Sih Savaşı'nda (1845-46) İngilizlere destek verip Sih Devleti'nin yenilgisine katkıda bulundu", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Gulab Singh', 'Treaty of Amritsar (1846)') doğrulandı."},
+    {"t": "1857-06-30", "tur": "hukumdar", "b": "Kurucu Gulâb Singh öldü", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, GÜN hassasiyeti çevrimiçi ikincil kaynaklarla ('Gulab Singh') doğrulandı."}
+   ],
+   "not_kaynak": "3/4 — dördüncü olay (halefi Ranbir Singh'in tahta çıkışı) bu turda GÜN hassasiyetinde doğrulanamadı, uydurmadım."
+  },
+  {
+   "id": "kocin",
+   "eklenen": [
+    {"t": "1500-12-24", "tur": "antlasma", "b": "Portekizli Pedro Álvares Cabral Koçin'e ulaştı; Raca Unni Goda Varma onu karşılayıp Kalikut Zamorini'ne karşı ittifak antlaşması imzaladı, Portekiz'e ticaret merkezi kurma izni verdi", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, GÜN hassasiyeti çevrimiçi ikincil kaynaklarla ('Kingdom of Cochin') doğrulandı."},
+    {"t": "1503-09-27", "tur": "kurulus", "b": "Portekiz takviye kuvvetleri Kalikut birliklerini Koçin'den geri çekilmeye zorladı; Fort Manuel'in temelleri atıldı", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, GÜN hassasiyeti çevrimiçi ikincil kaynaklarla ('Battle of Cochin') doğrulandı."}
+   ],
+   "not_kaynak": "3/4 — bu künye (Portekiz Öncesi Koçin) 1503'te sona eriyor ve bu iki olay zaten o sona ait; künyenin 1102-1500 arası (asıl 'öncesi' dönemi) için bağımsız bir olay bulunamadı, uydurmadım."
+  },
+  {
    "id": "orissa",
    "eklenen": [
     {"t": "1434-01-01", "tur": "kurulus", "b": "Kapilendra Deva, Bhanudeva IV'ü devirip Gacapati (Suryavamsa) hânedanını kurdu", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Kapilendra Deva') doğrulandı. NOT: künyenin f: alanı 1281 — bu 1434 gerçek kuruluş görünüyor, bölgede tekrarlayan 'atlas ufku' deseni, künye sahibine bildiriliyor."},
