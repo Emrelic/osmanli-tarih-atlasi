@@ -12,7 +12,13 @@
       "bolge": "arabistan",
       "ozet": "23 Ağustos 1921'de Faysal'ın kral ilan edilmesiyle kurulan, İngiliz mandası altındaki krallık; manda 1932'de (site ufkunun dışında) sona erdi, krallık 1958'e dek sürdü.",
       "kaynak": "bulunamadı — TDV 'irak--ulke' CANLI ve dönemi (I. Dünya Savaşı sonrası) ele alıyor AMA madde uzun ve ilgili bölüm (§6 'Son Dönem') bu turda tam çekilemedi (kesik gövde). Tarih akademik kaynaktan: Britannica, 'Faisal I' (biography) — 23 Ağustos 1921 taç giyme.",
-      "not": "1281-1918 arası Irak zaten OSMANLI (doğrudan) boyanıyor — bu künye yalnız 1921 sonrası ARA DÖNEMİ kapatıyor. 1918-1921 arası (İngiliz askerî yönetimi) için AYRI bir kova gerekebilir, bu YAMA'da yok."
+      "not": "1281-1918 arası Irak zaten OSMANLI (doğrudan) boyanıyor — bu künye yalnız 1921 sonrası ARA DÖNEMİ kapatıyor. 1918-1921 arası (İngiliz askerî yönetimi) için AYRI bir kova gerekebilir, bu YAMA'da yok.",
+      "nokta_durumu": {
+        "olcum_kutusu": "lat 29,0-37,0 / lon 38,0-48,5",
+        "toplam_nokta_kutuda": 63,
+        "1923-10-29_bugunku_sahiplik": {"ingiltere": 34, "kacar": 17, "fransa-cumhuriyet": 5, "osmanli": 3, "suud-ucuncu": 1, "sahipsiz": 3},
+        "yorum": "🔴 GERÇEK BULGU: Bağdat · Basra · Erbil · Musul-bölgesi (Akra, Duhok) · Felluce · Divaniye · Fav DAHİL 34 nokta ŞU AN DOĞRUDAN 'ingiltere' GÖSTERİYOR. Bu künye kabul edilirse bu 34 noktanın `s.d` alanı 'ingiltere'den 'irak-kralligi'ye DEĞİŞTİRİLMELİ — yeni nokta EKLEMEYE gerek yok, MEVCUT noktalar yanlış sahipli. 5 kayıt (Kobani/Cerablus/Deyrizor/Azez/Münbiç) coğrafi olarak Suriye'ye ait, kutuya taşmış — bu künyeyi ilgilendirmiyor. 17 kayıt (kacar) İran sınırı, ilgisiz."
+      }
     },
     {
       "id": "suriye-lubnan-mandasi",
@@ -22,7 +28,13 @@
       "bolge": "arabistan",
       "ozet": "Temmuz 1920'de Han Meyselûn zaferiyle Faysal'ın Şam hükûmetine son verilmesinin ardından kurulan Fransız idaresi; Milletler Cemiyeti onayı ~1922, manda 1946'ya dek (site ufkunun dışında) sürdü.",
       "kaynak": "TDV, madde: suriye — \"Fransız işgali, iki yıl sonra Milletler Cemiyeti'nin onayıyla resmen manda yönetimine dönüştü\" · \"Suriye'de Faysal dönemi sona erdi\" (Han Meyselûn, Temmuz 1920). Gün TDV'de VERİLMİYOR, yalnız ay/yıl — f: bu yüzden ayın 1'ine değil, TDV'nin verdiği AYA sabitlendi.",
-      "not": "Akademik ikinci kaynak (en.wikipedia.org/wiki/Mandate_for_Syria_and_the_Lebanon) resmi Milletler Cemiyeti onayını 29 Eylül 1923 olarak GÜN hassasiyetinde veriyor — TDV ile ÇELİŞMİYOR, TAMAMLIYOR (TDV 'yaklaşık 2 yıl sonra' diyor, ikincil kaynak gününü veriyor). f: yine de TDV'nin fiilî başlangıcına (Temmuz 1920) sabitlendi çünkü fiilî kontrol o tarihte başladı."
+      "not": "Akademik ikinci kaynak (en.wikipedia.org/wiki/Mandate_for_Syria_and_the_Lebanon) resmi Milletler Cemiyeti onayını 29 Eylül 1923 olarak GÜN hassasiyetinde veriyor — TDV ile ÇELİŞMİYOR, TAMAMLIYOR (TDV 'yaklaşık 2 yıl sonra' diyor, ikincil kaynak gününü veriyor). f: yine de TDV'nin fiilî başlangıcına (Temmuz 1920) sabitlendi çünkü fiilî kontrol o tarihte başladı.",
+      "nokta_durumu": {
+        "olcum_kutusu": "lat 32,0-37,0 / lon 34,0-42,0 (Türkiye sınır kasabalarını da kapsıyor, ELENDİ)",
+        "toplam_nokta_kutuda": 33,
+        "1923-10-29_bugunku_sahiplik": {"fransa-cumhuriyet": 16, "osmanli": 11, "ingiltere": 5, "sahipsiz": 1},
+        "yorum": "🔴 GERÇEK BULGU: Halep · Beyrut · Hama · Humus · Antakya · Deyrizor DAHİL 16 nokta ŞU AN DOĞRUDAN 'fransa-cumhuriyet' GÖSTERİYOR. Bu künye kabul edilirse bu 16 noktanın `s.d` alanı 'fransa-cumhuriyet'ten 'suriye-lubnan-mandasi'ye DEĞİŞTİRİLMELİ. 11 kayıt (Adana/Mersin/Kilis/Ceylanpınar/Dörtyol/Erzin/Akçakale) BUGÜNKÜ Türkiye sınırları içinde ve doğru şekilde 'osmanli' — bu künyeyi İLGİLENDİRMİYOR. 5 kayıt (Akka/Nablus) coğrafi olarak Filistin, kutuya taşmış."
+      }
     },
     {
       "id": "filistin-mandasi",
@@ -32,7 +44,14 @@
       "bolge": "arabistan",
       "ozet": "Aralık 1917 askerî işgalinin ardından Temmuz 1920'de mülkî idareye dönüşen, 24 Temmuz 1922'de Milletler Cemiyeti'nce resmen onaylanan İngiliz mandası; 1948'e dek (site ufkunun dışında) sürdü.",
       "kaynak": "TDV, madde: filistin — \"1920 Temmuzu'ndan itibaren Filistin'de mülkî bir manda idaresi kuruldu\" · \"İngiltere'nin Filistin ve Ürdün üzerindeki manda idaresini 24 Temmuz 1922'de onayladı\" (Milletler Cemiyeti).",
-      "not": "TDV gün hassasiyetinde resmi onay tarihini (24 Temmuz 1922) veriyor ama fiilî başlangıç yalnız ay/yıl (Temmuz 1920) — f: buna göre ay hassasiyetinde bırakıldı."
+      "not": "TDV gün hassasiyetinde resmi onay tarihini (24 Temmuz 1922) veriyor ama fiilî başlangıç yalnız ay/yıl (Temmuz 1920) — f: buna göre ay hassasiyetinde bırakıldı.",
+      "nokta_durumu": {
+        "olcum_kutusu": "lat 29,5-33,5 / lon 34,0-36,0 — ⚠️ kutu Ürdün Nehri sınırını AYIRMIYOR, Ürdün Emirliği kutusuyla ÇAKIŞIYOR",
+        "toplam_nokta_kutuda_ham": 9,
+        "gercekten_filistin_olan": 6,
+        "1923-10-29_bugunku_sahiplik_gercek_filistin": {"ingiltere": 6},
+        "yorum": "🔴 GERÇEK BULGU: Kudüs · Yafa · Gazze · Akka · Nablus · Han Yunus (6 nokta, HEPSİ Ürdün Nehri'nin BATISINDA) ŞU AN DOĞRUDAN 'ingiltere' GÖSTERİYOR. Bu künye kabul edilirse bu 6 noktanın `s.d` alanı 'filistin-mandasi'ye DEĞİŞTİRİLMELİ. Ham kutuda görünen Amman ve Kerak (nehrin DOĞUSUNDA) yanlışlıkla bu kutuya düştü — onlar Ürdün Emirliği'ne ait, aşağıdaki `urdun-emirligi` kaydına taşındı. 1 kayıt (Maan) Hicaz'a ait, ilgisiz."
+      }
     },
     {
       "id": "urdun-emirligi",
@@ -42,27 +61,43 @@
       "bolge": "arabistan",
       "ozet": "Faysal'ın Şam'dan çıkarılmasının ardından kardeşi Abdullah'ın Şubat 1921'de kendini emir ilan etmesiyle kurulan, İngiliz himayesindeki emirlik; 1946'da (site ufkunun dışında) Ürdün Krallığı'na dönüştü.",
       "kaynak": "TDV, madde: urdun — \"Şubat 1921'de kendini Şarkī Ürdün emîri ilân etti.\"",
-      "not": "TDV yalnız ay/yıl veriyor (gün yok) — f: ayın 1'ine YERLEŞTİRİLDİ, bu bir HİZALAMA değil `§4`ün 'ay biliniyor gün bilinmiyor' kuralının doğrudan uygulanışı."
+      "not": "TDV yalnız ay/yıl veriyor (gün yok) — f: ayın 1'ine YERLEŞTİRİLDİ, bu bir HİZALAMA değil `§4`ün 'ay biliniyor gün bilinmiyor' kuralının doğrudan uygulanışı.",
+      "nokta_durumu": {
+        "olcum_kutusu": "lat 29,0-33,5 / lon 35,0-39,0 — Ürdün Nehri'nin DOĞUSUNDAKİ noktalar",
+        "toplam_nokta_kutuda": 7,
+        "1923-10-29_bugunku_sahiplik": {"ingiltere": 2, "hicaz": 1, "sahipsiz": 1},
+        "detay": "Amman ve Kerak → şu an 'ingiltere'. Maan → 'hicaz'. Vâdî Sirhân → sahipsiz.",
+        "yorum": "Amman ve Kerak (2 nokta) ŞU AN 'ingiltere' — bu künye kabul edilirse 'urdun-emirligi'ye DEĞİŞTİRİLMELİ. Maan'ın 'hicaz' olması TARTIŞMALI ama BU YAMANIN KAPSAMI DIŞINDA (Hicaz-Ürdün sınırı ayrı bir soru). Vâdî Sirhân'ın sahipsizliği `Değişmez 1c` kapsamına girebilir, ben araştırmadım. Filistin kutusundan taşan Amman/Kerak da buraya SAYILDI (filistin-mandasi kaydına bkz)."
+      }
     },
     {
       "id": "misir-sultanligi",
       "ad": "Mısır Sultanlığı (İngiliz Himayesi)",
-      "f": "1914-12-19",
-      "t": "1922-03-15",
+      "f": "1914-12-18",
+      "t": "1922-01-01",
       "bolge": "misir-sudan",
-      "ozet": "18 Aralık 1914'te İngiliz himayesinin ilanı ve Kavalalı hanedanının Osmanlı'ya tâbiiyetinin resmen bitmesiyle ertesi gün Hüseyin Kâmil'in sultan ilan edilmesiyle kuruldu; 15 Mart 1923 kararnamesiyle Krallığa dönüştü.",
-      "kaynak": "bulunamadı — TDV 'mısır' maddesi modern dönemi (Osmanlı sonrası) HİÇ KAPSAMIYOR, tarihçe geç Osmanlı döneminde bitiyor (doğrulandı, bu turda çekildi). Standart akademik/ansiklopedik kaynak: 'Unilateral Declaration of Egyptian Independence' ve 'Fuad I of Egypt' maddelerinde aktarılan tarihler — İKİNCİ bağımsız kaynakla EŞLEŞMEDİ, tek kaynaklı.",
-      "not": "🔴 `misir-kavalali` künyesinin t:1914-12-18'i ile bu künyenin f:1914-12-19'u ARDIŞIK — boşluk yok, çakışma yok. `misir-kavalali`nin kendi ozet'i zaten 1914'ü doğru veriyor."
+      "ozet": "Aralık 1914'te İngiliz himayesinin ilanı ve Kavalalı hanedanının Osmanlı'ya tâbiiyetinin resmen bitmesiyle Hüseyin Kâmil'in sultan ilan edilmesiyle kuruldu; 1922'de Krallığa dönüştü.",
+      "kaynak": "🔴 GÜN BULUNAMADI — KABA GÜVENLİ DÜZEYE ÇEKİLDİ. TDV 'mısır' maddesi modern dönemi (Osmanlı sonrası) HİÇ KAPSAMIYOR (doğrulandı, madde geç Osmanlı döneminde bitiyor). Denenen akademik kapılar: Britannica ('place/Egypt/...') ÜÇ AYRI URL'DE 403 verdi (bot koruması) · Library of Congress 'Egypt: a country study' 403 · Cambridge Core akademik PDF ('Independence and constitutionalism in Egypt 1919-1922') indirildi ama metin çıkarılamadı (ikili/sıkıştırılmış). WebSearch özetleri ÜÇ FARKLI GÜN verdi aynı olay için (14/18/19 Aralık 1914) — bu ÇELİŞKİNİN KENDİSİ gün hassasiyetini haklı çıkarmıyor, tam tersi kanıtlıyor.",
+      "not": "f:1914-12-18 KASITLI OLARAK `misir-kavalali`nin t:1914-12-18'iyle BİREBİR HİZALANDI — bu benim yeni bir araştırmam DEĞİL, zaten TDV-kaynaklı olan komşu künyenin sınırını devralmak (gün belirsizliğini araştırmaktansa 17-19 Aralık aralığındaki gerçek günü aramak yerine, boşluk/çakışma YARATMAMAYI önceledim). Gerçek gün (14/18/19 Aralık tartışmalı) netleşirse ikisi birden düzeltilmeli.",
+      "nokta_durumu": {
+        "olcum": "OKUMADIM — nokta-durumu ölçümüm yalnız SORULAN TARİH (1923-10-29) için yapıldı; o tarihte aktif olan `misir-kralligi`dir, bu künye (Sultanlık) DEĞİL. Sultanlık dönemi (1914-1922) için ayrı bir tarih kesitinde ölçüm gerekir, yapmadım."
+      }
     },
     {
       "id": "misir-kralligi",
       "ad": "Mısır Krallığı (I. Fuad)",
-      "f": "1922-03-15",
+      "f": "1922-01-01",
       "t": "1923-10-29",
       "bolge": "misir-sudan",
-      "ozet": "28 Şubat 1922 tek taraflı bağımsızlık ilanının ardından, I. Fuad'ın 15 Mart 1922 kararnamesiyle 'Sultan' unvanını 'Kral'a çevirmesiyle kuruldu (Hicaz/Suriye/Irak'ın yeni krallarıyla aynı unvanı taşımak istemişti); 1953'e dek (site ufkunun çok dışında) sürdü.",
-      "kaynak": "bulunamadı — TDV kapsam dışı (bkz. yukarısı). Standart akademik/ansiklopedik — TEK kaynaklı, ikinci kaynakla eşleşmedi.",
-      "not": "t: standart 1923-10-29 sınırına ÇEKİLDİ (koordinatörün 'iran' emsali gibi çok ileri bir tarihe UZATILMADI) — Krallığın 1953'e kadar sürmesi bu YAMA'nın kapsamı dışında, ozet'te not düşüldü."
+      "ozet": "1922'de (28 Şubat tek taraflı bağımsızlık ilanı, 15 Mart unvan değişikliği — iki ayrı olay, HANGİSİNİN 'künye başlangıcı' sayılacağı belirsiz) Sultanlık'tan dönüşen krallık; 1953'e dek (site ufkunun çok dışında) sürdü.",
+      "kaynak": "🔴 GÜN BULUNAMADI — aynı erişim engelleri (yukarıya bak). WebSearch özetleri iki AYRI tarihli olay veriyor (28 Şubat bağımsızlık ilanı / 15 Mart unvan kararnamesi) ve ikisi de kavramsal olarak 'Krallığın başlangıcı' olabilir — hangisinin doğru çapa olduğuna karar veremedim, bu yüzden YIL düzeyine çekildim.",
+      "not": "t: standart 1923-10-29 sınırına ÇEKİLDİ (koordinatörün 'iran' emsali gibi çok ileri bir tarihe UZATILMADI) — Krallığın 1953'e kadar sürmesi bu YAMA'nın kapsamı dışında, ozet'te not düşüldü.",
+      "nokta_durumu": {
+        "olcum_kutusu": "lat 22,0-31,7 / lon 25,0-35,0 (Mısır'ın Nil vadisi + Sina)",
+        "toplam_nokta_kutuda": 57,
+        "1923-10-29_bugunku_sahiplik": {"ingiltere": 56, "sahipsiz": 1},
+        "yorum": "🔴🔴 EN BÜYÜK TEKİL BULGU: Kahire-bölgesi dahil TÜM 56 Mısır noktası ŞU AN DOĞRUDAN 'ingiltere' GÖSTERİYOR. Bu künye kabul edilirse 56 noktanın `s.d` alanı 'ingiltere'den 'misir-kralligi'ye DEĞİŞTİRİLMELİ — 1914'ten (Osmanlı tâbiiyetinin bitişinden) 1923'e dek DOKUZ YIL boyunca Mısır'ın hiçbir zaman ayrı bir kimlik taşımadığı, doğrudan İngiltere'nin bir parçası gibi çizildiği anlamına geliyor. Bu, salt bir künye eksikliğinden daha büyük bir sonuç: 56 nokta demek Mısır'ın BÜTÜN yerleşim ağı demek."
+      }
     },
     {
       "id": "tannu-tuva",
@@ -72,7 +107,14 @@
       "bolge": "sibirya-bozkir",
       "ozet": "Rus İç Savaşı'nda Kızıl Ordu desteğiyle 14 Ağustos 1921'de kurulan, resmen hiçbir devletçe (SSCB hariç, 1926) tanınmayan ama fiilen bağımsız uydu devlet; 1944'te (site ufkunun dışında) SSCB'ye katıldı.",
       "kaynak": "bulunamadı — TDV kapsam dışı (Moğolistan/Sibirya bozkır tarihi TDV'nin kapsamadığı coğrafya, `§4`). Britannica, 'Tannu-Tuva' (place madde).",
-      "not": "İKİNCİ kaynakla (Wikipedia 'Tuvan People's Republic') tarih birebir eşleşti — 14 Ağustos 1921."
+      "not": "İKİNCİ kaynakla (Wikipedia 'Tuvan People's Republic') tarih birebir eşleşti — 14 Ağustos 1921.",
+      "nokta_durumu": {
+        "olcum_kutusu": "lat 50,0-53,5 / lon 89,0-99,5",
+        "toplam_nokta_kutuda": 1,
+        "1923-10-29_bugunku_sahiplik": {"sovyet-rusya": 1},
+        "detay": "Tek nokta: 'Sayansk ostrogu' (lat 52,85 / lon 91,90) — bu bir Rus sınır kalesi, Tuva'nın KENDİ şehri (ör. Kyzıl/Belbeği) DEĞİL; Tuva'nın kuzey sınırına yakın ama muhtemelen Tuva'nın DIŞINDA.",
+        "yorum": "🔴 Bu künye kabul edilse bile ŞU AN HİÇBİR MEVCUT NOKTA Tuva'nın kendi topraklarını temsil etmiyor — künye yalnız yazılırsa GÖRÜNMEZ kalır (`§2` emilme riski). Gerçek etki için AYRI bir nokta ekleme turu (Kyzıl/Belbeği gibi) gerekir; bu YAMA'da nokta EKLEMEDİM, yalnız durumu ölçtüm."
+      }
     },
     {
       "id": "harezm-halk-cumhuriyeti",
@@ -82,7 +124,14 @@
       "bolge": "orta-asya",
       "ozet": "Hive Hanlığı'nın Şubat 1920'de yıkılmasının ardından I. Harezm Kurultayı'nca 26 Nisan 1920'de ilan edilen Sovyet halk cumhuriyeti; 1924'te (site ufkunun dışında) SSCB içinde bölündü.",
       "kaynak": "bulunamadı — TDV kapsam dışı (Sovyet dönemi Orta Asya, `§4`). Standart akademik/ansiklopedik (Wikipedia 'Khorezm People's Soviet Republic') — TEK kaynaklı.",
-      "not": "Hive Hanlığı'nın (bu künyenin halefi olduğu devlet) devletler.js'te ayrı bir künyesi var mı AYRICA kontrol edilmedi."
+      "not": "Hive Hanlığı'nın (bu künyenin halefi olduğu devlet) devletler.js'te ayrı bir künyesi var mı AYRICA kontrol edilmedi.",
+      "nokta_durumu": {
+        "olcum_kutusu": "lat 40,0-43,0 / lon 58,0-63,0",
+        "toplam_nokta_kutuda": 4,
+        "1923-10-29_bugunku_sahiplik": {"sovyet-rusya": 4},
+        "detay": "Hîve · Hazârasp · Yeni Ürgenç · Köhne Ürgenç (Gürgenç) — dördü de Harezm'in KENDİ tarihî şehirleri.",
+        "yorum": "🔴 GERÇEK BULGU: Harezm'in kendi 4 şehri ŞU AN 'sovyet-rusya' (genel/soyut) GÖSTERİYOR, kendi kısa ömürlü halk cumhuriyetleri DEĞİL. Bu künye kabul edilirse 4 noktanın `s.d` alanı 'sovyet-rusya'dan 'harezm-halk-cumhuriyeti'ye DEĞİŞTİRİLMELİ — yeni nokta EKLEMEYE gerek YOK, doğru coğrafyada zaten nokta var, yalnız yanlış sahipli."
+      }
     },
     {
       "id": "buhara-halk-cumhuriyeti",
@@ -92,7 +141,19 @@
       "bolge": "orta-asya",
       "ozet": "2 Eylül 1920'de Kızıl Ordu'nun Buhara Emirliği'ni yıkmasının ardından 8 Ekim 1920'de ilan edilen Sovyet halk cumhuriyeti; 1924'te (site ufkunun dışında) SSCB içinde bölündü.",
       "kaynak": "bulunamadı — mevcut `buhara` künyesinin kaynağı (TDV, madde: buhara-hanligi) yalnız EMİRLİĞİ kapsıyor, halefini DEĞİL (doğrulandı, TDV maddesi 'Kızıl Ordu tarafından yıkıldı' diyip bitiyor). Standart akademik/ansiklopedik (Wikipedia 'Bukharan People's Soviet Republic') — TEK kaynaklı.",
-      "not": "`buhara` künyesinin t:1920-09-02'siyle bu künyenin f:1920-10-08'i arasında 36 GÜNLÜK bir ara var (Emirliğin fiilî yıkılışı ile Cumhuriyet'in resmen ilanı arası) — kasıtlı bırakıldı, o 36 gün ayrı bir geçiş/fetret sorusu, ben doldurmadım."
+      "not": "`buhara` künyesinin t:1920-09-02'siyle bu künyenin f:1920-10-08'i arasında 36 GÜNLÜK bir ara var (Emirliğin fiilî yıkılışı ile Cumhuriyet'in resmen ilanı arası) — kasıtlı bırakıldı, DOLDURULMADI.",
+      "bos_beyani": {
+        "aralik": "1920-09-02 → 1920-10-08 (36 gün)",
+        "cins": "devletsiz",
+        "gerekce": "Kaynak KONUŞUYOR (susmuyor): bu 36 gün Kızıl Ordu'nun fiilî askerî kontrolü altındaki, henüz resmî bir halk cumhuriyeti hükûmeti kurulmamış geçiş dönemi (emirin kaçışı 31 Ağustos, emirliğin yıkılışı 2 Eylül, cumhuriyetin resmen ilanı 8 Ekim). Kaynağın kendisi bu boşluğu 'devletsiz' olarak tarif ediyor, veri eksikliğinden değil — bu yüzden `veri-yok` değil `devletsiz`."
+      },
+      "nokta_durumu": {
+        "olcum_kutusu": "lat 37,5-41,0 / lon 63,0-67,0",
+        "toplam_nokta_kutuda": 4,
+        "1923-10-29_bugunku_sahiplik": {"sovyet-rusya": 4},
+        "detay": "Buhara · Semerkant · Karşi (Nahşeb) · Şehrisebz (Kiş) — dördü de Buhara Emirliği'nin KENDİ tarihî şehirleri.",
+        "yorum": "🔴 GERÇEK BULGU: Buhara'nın kendi 4 şehri (başkenti dahil) ŞU AN 'sovyet-rusya' (genel/soyut) GÖSTERİYOR. Bu künye kabul edilirse 4 noktanın `s.d` alanı 'sovyet-rusya'dan 'buhara-halk-cumhuriyeti'ye DEĞİŞTİRİLMELİ — yeni nokta EKLEMEYE gerek YOK."
+      }
     },
     {
       "id": "rif-cumhuriyeti",
@@ -102,7 +163,20 @@
       "bolge": "kuzey-afrika",
       "ozet": "22 Temmuz 1921 Annual zaferinin ardından 18 Eylül 1921'de Kuzey Fas'ta ilan edilen, İspanya'ya (ve sonradan Fransa'ya) karşı direnen dağlık cumhuriyet; 1926'da (site ufkunun dışında) yenildi.",
       "kaynak": "bulunamadı — TDV kapsam dışı (bu spesifik siyasi yapı için doğrudan aranmadı, ama Fas'ın modern direniş tarihinin TDV'de zayıf kaldığı `§4`'te zaten belgeli). Britannica, 'Republic of the Rif' (place madde).",
-      "not": "🔴 COĞRAFİ ÇAKIŞMA UYARISI: bu künyenin toprağı `fas` künyesiyle AYNI BÖLGEDE (Kuzey Fas) — 1921-1926 arası bu toprak fiilen Fransız/İspanyol himayesinde DEĞİL, Rif'in kontrolündeydi. Nokta eklenirken `fas`ın o dönemki noktalarıyla ÇAKIŞMAMASI için dikkat gerekir; bunu ben ölçmedim."
+      "not": "İlk raporumda bu riski YALNIZ İŞARETLEMİŞTİM; M-2723 hükmü 'şimdi ÖLÇ' dedi — aşağıda ölçüldü.",
+      "nokta_durumu": {
+        "olcum_kutusu": "lat 34,5-35,5 / lon -5,5..-2,5 (koordinatörün verdiği kutu)",
+        "toplam_nokta_kutuda": 4,
+        "1923-10-29_bugunku_sahiplik": {"ispanya": 3, "fas": 1},
+        "detay": [
+          "Melîle (Melilla) -> ispanya (1497'den beri, KIYI ANKLAVI — Rif'le hiç ilgisi yok, bugün de İspanyol)",
+          "Bâdis (Peñón de Vélez) -> ispanya (1564'ten beri, KÜÇÜK KIYI KALESİ)",
+          "el-Hüseyme (Alhucemas) -> ispanya (1673'ten beri) — DİKKAT: bu nokta küçük İspanyol Peñón kalesidir, Abdülkerim'in başkenti Acdîr'in (Ajdir) YAKININDAKİ AYRI bir kayadır, KARIŞTIRILMAMALI",
+          "Şefşâven (Chefchaouen) -> fas (1659'dan beri)"
+        ],
+        "olcum_sonucu_tarih_kritigi": "🟢 ÇAKIŞMA 1923-10-29'DA GERÇEK DEĞİL: ikinci bir arama gösterdi ki İspanya'nın Şefşâven'i KAYBEDİP Rif'in eline geçmesi ANCAK 1924'TE oldu ('1924 retreat from Chefchaouen', Wikipedia) — yani SORULAN GÜNDE (29 Ekim 1923) Şefşâven HÂLÂ İspanyol/Fas idaresi altındaydı, Rif'in DEĞİL. Kutudaki 4 noktanın 4'ü de 1923-10-29'da GERÇEKTEN Rif kontrolünde DEĞİL.",
+        "asil_bulgu": "🔴 Rif Cumhuriyeti'nin GERÇEK 1923 çekirdek toprağı (Abdülkerim'in başkenti Acdîr, Enval savaş alanı, iç dağlık bölge) BU KUTUDA VE ATLASTA HİÇ NOKTA OLARAK YOK. Künye kabul edilse bile MEVCUT 4 noktanın HİÇBİRİNİN `s.d`si değişmemeli (hepsi doğru: 3'ü İspanyol kıyı kalesi, 1'i 1924'e kadar hâlâ Fas/İspanyol) — çakışma riski `fas`/`ispanya` İLE DEĞİL, YOKLUKLA: yeni nokta (Acdîr/Enval bölgesi) eklenmeden bu künye haritada HİÇ görünmez (`§2` emilme). Bu YAMA'da nokta EKLEMEDİM."
+      }
     }
   ],
   "_ozet_sayim": {
