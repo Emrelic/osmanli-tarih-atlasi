@@ -1684,6 +1684,43 @@ olarak yeniden bulundu. Zarar yok (iş türetilmedi) ama `git log` on
 saniyeydi. 🟢 Ve ölçen oturum commit mesajına körü körüne güvenmedi —
 kutuyu kendi ölçtü, iddiayla uyuştu.
 
+### 🟢 SEKİZ ÇAKIŞMANIN SEKİZİ DE KAPANDI (14:45)
+
+```
+🟢 Bağdat · Halepçe · Kutaisi     MEKANİK (üst küme / boş alan)
+🟢 Şehrizor · Kasr-ı Şîrîn        BİRLEŞTİR — d:∩s: bir KONVANSİYON, ölçüldü
+🟢 Başkale · Çaldıran             p0035 — ok110 kendi çapasından 91 yıl sapıyor
+🟢 Yergöğü                        p0035 `isg:` — hakemli kaynak + BOA belgeleri
+```
+🔴 Tek damga duruyor: **Yergöğü 1828-29 ikinci Rus işgali BULUNAMADI** ⇒
+yama başlığındaki *"1828-29 EKSİK"* damgası **silinmeyecek.**
+⚪ Açık kalan tek kalem: **Van 24/25 Ağustos 1548** (TDV 24, atlas 25).
+
+### 🔴 MERGE SAYILARI TAZELENDİ (14:43) — kuyruğun sabahki değerleri BAYAT
+
+```
+① KÜNYE       27 istek · KABUL 23 · RED 4        (sabah "11 künye hazır")
+   🔴 DÖRT RED DE AYNI DOSYADAN: YAMA-KUNYE-HIMAYE-UCUZ-0905.json
+      sebep: **`bolge:` alanı EKSİK** (nkore · toro · eve-notse · ibadan)
+      ⇒ şema kusuru, 2 dakikalık düzeltme — ama düzeltilmezse merge'de
+        dört künye SESSİZCE düşer
+② KRONOLOJİ  218 madde · KABUL 202 · RED 16 · 🔴 ŞÜPHELİ 34
+```
+🔴 **34 ŞÜPHELİ bir kova değil bir BORÇ.** Aracın kendi uyarısı:
+*"ölçüt `t`+`tur` bunları yakalamıyor ve **iki gerçek mükerrer bu
+boşluktan geçmişti**."* İki desen var:
+```
+"aynı GÜN, farklı tur"   valo (savas↔son) · nepal (kurulus↔birlesme) ·
+                         ayutthaya (vassal↔toprak-kayip) …
+"aynı YIL, farklı gün"   malva 1436-05-16↔1436-01-01 · campa 1471-03-22↔
+                         1471-03-01 · kalikut 1498-05-01↔1498-05-20 …
+```
+⚠️ **Ve dördü ZATEN karara bağlı** (kuyruğun "gün düzeltmesi 4"ü): malva ·
+campa · ingiliz-malaya · hollanda-dogu-hint. 🔴 Ama `hollanda-dogu-hint`
+için hüküm *"1619-05, YALNIZ AY — gün iddiası GERİ ÇEKİLDİ"*ydi, oysa
+şüpheli listesi `1619-05-30 ↔ 1619-01-01` gösteriyor ⇒ **hüküm ile yama
+içeriği ayrışmış**, ikisi de hükmü taşımıyor.
+
 ### 🔴 SEKİZ YAMA ÇAKIŞMASI — TASNİF EDİLDİ (14:10) · `denetim/HUKUM-YAMA-CAKISMA-0905.md`
 
 ```
