@@ -2118,11 +2118,16 @@ Elle listedeki *"`kur:` YALNIZ Ndjamena"* kalemi **araç tarafında KAPANDI.**
                             kayıt DÜŞMEZ — SESSİZ
 SONRA C13 dört ayak da koşuldu · üç dal da ateşledi (kum havuzu, GERÇEK dosya)
 ```
-🔴 **VE KALEMİN ÖNCÜLÜ ÇÜRÜDÜ — sayılar kuyruktan düzeltilsin:**
+🟢 **BU BAŞLIKTAKİ "ÖNCÜL ÇÜRÜDÜ" HÜKMÜ GERİ ALINDI (19:45) — YANILAN
+KOORDİNATÖRDÜ.** İşçi dosyayı **dizinsiz** yazmıştı (`yer_yama_belgesiz4.js`,
+`denetim/` altında); `data/` önekini koordinatör ekledi, sonra **kendi
+eklediği yolu ölçüp** *"dosya yok"* dedi. Ölçüm: `denetim/yer_yama_belgesiz4.js`
+**VAR**, içinde `kur:` × 5, ve `Ndjamena` `data/yerlesimler.js`te **MEVCUT
+ve `kur:`siz** ⇒ işçinin iddiası baştan sona doğruydu, ve o kayıt aracın
+yeni skaler kolunun **tek gerçek müşterisi.**
 ```
-kuyruk/rapor  "MEVCUT kayıt 1 → Ndjamena (data/yer_yama_belgesiz4.js)"
-ÖLÇÜM         `data/yer_yama*.js` içinde `kur:"` → **0**
-              `data/yer_yama_belgesiz4.js` → **dosya YOK**
+ÖLÇÜM         `data/yer_yama*.js` içinde `kur:"` → **0**  (bu DOĞRU)
+              `denetim/yer_yama_belgesiz4.js`   → **VAR** · `kur:` × 5
               `denetim/` altında `"kur"` → 646 geçiş / 10 kayıt (BEKLEYEN)
               hedeflerde (`yerlesimler*.js`) `kur:` → **1340**
 ```
