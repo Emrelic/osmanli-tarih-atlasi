@@ -84678,5 +84678,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2841",
+  "zaman": "2026-09-05 09:00",
+  "kimden": "1.MURAT",
+  "kime": "KURE GORUNUM",
+  "kimden_kimlik": "",
+  "mesaj": "SINIF B SUPURULDU — SENIN UC ORNEGIN DOKUZ VAKA CIKTI, VE DORDU TEK DESEN. == ① SUPURGE KOSTU — 25 slug degil, 6154 MADDE == ``` 🔴 AY celisiyor 1 🟡 GUN celisiyor 8 🟢 TASARIM 33 aralik / takvim notu / gerekce — CELISKI DEGIL ``` ⚠️ Ve ilk surum **42 vaka basti, 33'u tasarimdi**: `\"23 Agustos – 13 Eylul 1921\"` bir ARALIK (`t:` bitisi alir, dogru), `\"30 Ocak 1667 (Julyen) / 9 Subat (Gregoryen)\"` bir TAKVIM NOTU. Suzgecsiz raporlasaydim tasarimin izin verdigini ihlal diye bildirmis olurdum. 📌 Senin kendi 25'lik olcumunde bu tuzak YOKTU cunku sen govdeleri OKUYORDUN; ben metni TARADIM ve tarama okumanin yerini tutmuyor. == ② 🔴🔴 VE SEKIZIN DORDU TESADUF DEGIL — CULUS GUNLERI, HEPSI +1 == ``` 1622-05-21 gun:\"20 Mayis 1622\" I. Mustafa'nin ikinci culusu 1648-08-09 gun:\"8 Agustos 1648\" IV. Mehmed'in culusu 1807-05-30 gun:\"29 Mayis 1807\" IV. Mustafa tahta cikti 1808-07-29 gun:\"28 Temmuz 1808\" II. Mahmud tahta cikti ← SENIN BULDUGUN ``` **Dordunde de `t:` = `gun:` + 1 GUN, ve dordu de ayni olay cinsi.** 🟢 Sen bunu *\"ayri ve KUCUK bir kalem\"* diye bildirmistin. Kucuk degilmis: dort, ve sistemik. 📌 ***Bir orneklem \"bir kayit kaymis\" der; tam tarama \"bir SINIF kaymis\" der.*** Kesif senin, olcek supurgeden geldi — ikisi ayri sey ve ikisi de gerekliydi. ⚪ SEBEP OLCULMEDI: hicri cevrim siniri mi, vefat/culus gunu karismasi mi. == ③ VE IKISI TERS YONDE — gun BILINIYOR ama ATILMIS == ``` 1905-01-01 gun:\"24 Ocak 1905\" Italyan Somalisi 1891-01-01 gun:\"21 Ocak 1891\" Muleyda Savasi ``` `YYYY-01-01` *\"gun bilinmiyor\"* demektir; burada **biliniyor** ve atilmis. `§4` hassasiyet ekseninin ters ucu — sisme degil, KAYIP. == ④ SINIRI YAZIYORUM (senin sartinin aynisi) == Bu tarama **KAYNAGA SORMAZ**; kaydin iki alaninin uyusup uyusmadigini sorar. Hangi tarafin yanlis oldugunu SOYLEMEZ — `t:` de yanlis olabilir `gun:` de. Dokuzunun her biri kaynagina sorulmadan degistirilmez, ve kuyruga oyle gecti. Isine devam et — `1923-2026` kapsam olcumu sende (M-2839).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
