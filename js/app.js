@@ -641,6 +641,37 @@ function donemBul(t) {
 //    bu tabloyu doğrulayacak alete sahip değilim.
 // Yasak eşiği `arac/renkler.py`de (`SU_ESIK_DE`) — orada gerekçesiyle.
 var SU_RENGI = "#c4dcea";
+
+// ═══════════════════════════════════════════════════════════════════════
+// İŞARETÇİ KÜTÜĞÜ — küre kipinin arka yüz gizlemesi için
+// KÜRE GÖRÜNÜM oturumu, 5 Eylül 2026
+//
+// 🔴 NİÇİN BURADA: `maplibregl.Marker`ı sarmalıyor ve bu sarmalama İLK
+//    işaretçi yaratılmadan ÖNCE kurulmuş olmalı. Harita oluşturmanın
+//    hemen üstü, dosyadaki en geç güvenli yer.
+// 🔴 NİÇİN KÜTÜK GEREKİYOR: DOM işaretçisi kendi coğrafî konumunu
+//    taşımaz; `.maplibregl-marker` elemanına bakarak lng/lat öğrenilemez.
+//    Ekrandaki konumdan geri hesaplamak da olmaz — küre arkasındaki
+//    nokta ekrana ÖN YÜZE KATLANARAK düşer (aşağıya bak).
+// ⚠️ Kütük yalnız EKLENİR ve `remove()`ta düşer; kopmuş eleman
+//    `isConnected` ile atlanır, yani sızıntı ölçülebilir kalır.
+var ISARETCI_KUTUK = [];
+(function isaretciKutuguKur() {
+  var _addTo = maplibregl.Marker.prototype.addTo;
+  maplibregl.Marker.prototype.addTo = function (m) {
+    var r = _addTo.call(this, m);
+    try { ISARETCI_KUTUK.push({ m: this, el: this.getElement() }); } catch (e) { /* yut */ }
+    return r;
+  };
+  var _remove = maplibregl.Marker.prototype.remove;
+  maplibregl.Marker.prototype.remove = function () {
+    for (var i = ISARETCI_KUTUK.length - 1; i >= 0; i--) {
+      if (ISARETCI_KUTUK[i].m === this) ISARETCI_KUTUK.splice(i, 1);
+    }
+    return _remove.call(this);
+  };
+})();
+
 var harita = new maplibregl.Map({
   container: "harita",
   style: {
@@ -8398,6 +8429,147 @@ function siyasiKipUygula(yumusakMi) {
   return n;
 }
 
+// ═══════════════════════════════════════════════════════════════════════
+// ⑦ KÜRE KİPİ — Mercator'dan çıkış.  KÜRE GÖRÜNÜM oturumu, 5 Eylül 2026
+//
+// Emre, 4 Eylül: *"dünyayı Mercator projeksiyonundan çıkarmak ve küre
+// dünya modelinde gösterebilmek için ne yapmamız lazım."*
+// Fizibilite: `denetim/BULGU-KURE-0904.md`. Kararı Emre verdi:
+// ① maplibre 4.7.1 → 5.24.0  ② küre AYRI BİR KİP  ③ önce kalibrasyon.
+//
+// 🔴 KİP, KATMAN DEĞİL — `yumusak` gibi. Bu yüzden `katmanSinifla()`
+//    kovalarında aranmaz; `kureKipUygula()` çağrılır.
+//
+// ── ARKA YÜZ SORUNU ve ÖLÇÜLMÜŞ ÇARESİ ────────────────────────────────
+// DOM işaretçisi WebGL sahnesinin DIŞINDA duran bir HTML katmanıdır;
+// küre onu KAPATAMAZ. Ölçüldü (küre Pasifik'e çevrildiğinde): 1.104
+// işaretçinin 1.104'ü de kabın içinde ve GÖRÜNÜR — yani uzak yarımkürenin
+// etiketleri yakının üstüne biniyor.
+// ⚠️ v5'in kendi `Marker.setOpacity(opacity, opacityWhenCovered)` API'si
+//    VAR ve önce O denendi (istenen şeyin altyapısı zaten var mı?).
+//    Ölçüm: arka yüzdeki 227 işaretçinin 227'si opacity 1; `('1','0')`
+//    ile açmaya çalışınca 210'un yalnız 25'i (%12) tepki verdi.
+//    ⇒ API var ama bu kurulumda YETERSİZ. Niçin yetersiz olduğu ÖLÇÜLMEDİ.
+//
+// ── ÖLÇÜT: ampirik sabit YOK ──────────────────────────────────────────
+// Küre arkasındaki nokta ekrana ÖN YÜZE KATLANIR, dolayısıyla
+//     unproject(project(P)) != P   ⇔   P arka yüzde
+// Bu, kütüphanenin KENDİ projeksiyon matematiğini ölçüt yapar.
+// 🔴 İLK SÜRÜM UFKU ZOOM'DAN TÜRETİYORDU ve HER ZOOM'DA YANLIŞTI:
+//        zoom 0,5 → gerçek 84,4°  formül 72,2°   (-12,2°)
+//        zoom 3   → gerçek 66,7°  formül 44,4°   (-22,3°)
+//    Formül ufku hep DAR veriyordu ⇒ kenardaki GÖRÜNÜR etiketleri de
+//    siliyordu (z1,2'de 76 işaretçi: Anadır · Habarovka · Hakodate…).
+//    Emre "önce kalibrasyon" dedi ve HAKLIYDI.
+//
+// ── BEDEL: O(2n) → O(14+n) ────────────────────────────────────────────
+// Ölçütü her işaretçiye uygulamak 4,457 ms (1.168 işaretçi). Ufuk hepsi
+// için AYNI olduğundan kare başına BİR KEZ ikili aramayla (~14 sorgu)
+// bulunur, sonra ucuz trigonometri: **1,589 ms**.
+// 🟢 Ve bu bir yaklaşım DEĞİL: hızlı yolun hükmü tam ölçütünkiyle DOKUZ
+//    zoom seviyesinde, 1.168 işaretçide karşılaştırıldı — AYRIŞAN 0.
+// ⚠️ Süreler koşu 5 CPU'yu paylaşırken ölçüldü; boştaki makineyi temsil
+//    etmez. Kare hızı ÖLÇÜLEMEDİ (rAF gizli belgede durur).
+// ═══════════════════════════════════════════════════════════════════════
+var KURE_ACIK = false;
+var KURE_ONCEKI_MINZOOM = null;
+var KURE_PAY_DER = 0;          // ufka emniyet payı; ayar gerekirse buradan
+var kureSonSayim = { gizli: 0, gorunur: 0, ufuk: null };
+
+function kureAcDer(lat1, lon1, lat2, lon2) {
+  var R = Math.PI / 180;
+  var p1 = lat1 * R, p2 = lat2 * R, dl = (lon2 - lon1) * R;
+  var c = Math.sin(p1) * Math.sin(p2) + Math.cos(p1) * Math.cos(p2) * Math.cos(dl);
+  return Math.acos(Math.max(-1, Math.min(1, c))) / R;
+}
+
+// Oracle: nokta gidiş-dönüşte kendine dönüyor mu?
+function kureSapiyorMu(lng, lat) {
+  var p = harita.project([lng, lat]);
+  if (!isFinite(p.x) || !isFinite(p.y)) return true;
+  var g = harita.unproject([p.x, p.y]);
+  return kureAcDer(lat, lng, g.lat, g.lng) > 1.0;
+}
+
+// Ufku ikili aramayla ORACLE'a sor — kare başına bir kez.
+function kureUfkuOlc() {
+  var c = harita.getCenter(), alt = 0, ust = 180;
+  for (var i = 0; i < 14; i++) {
+    var orta = (alt + ust) / 2;
+    var lat = c.lat + orta, lng = c.lng;
+    if (lat > 89.9) { lat = 179.8 - lat; lng = c.lng + 180; }
+    if (lat < -89.9) { lat = -179.8 - lat; lng = c.lng + 180; }
+    if (kureSapiyorMu(((lng + 540) % 360) - 180, lat)) ust = orta; else alt = orta;
+  }
+  return alt;
+}
+
+function kureArkaYuzUygula() {
+  var gizli = 0, gorunur = 0, i, k, ll;
+  if (!KURE_ACIK) {
+    // 🟢 GEÇME YOLU: küre kapalıyken HİÇBİR işaretçi gizli kalmaz.
+    for (i = 0; i < ISARETCI_KUTUK.length; i++) {
+      k = ISARETCI_KUTUK[i];
+      if (k.el && k.el.style.visibility === "hidden") k.el.style.visibility = "";
+      gorunur++;
+    }
+    kureSonSayim = { gizli: 0, gorunur: gorunur, ufuk: null };
+    return kureSonSayim;
+  }
+  var c = harita.getCenter();
+  var ufuk = kureUfkuOlc() + KURE_PAY_DER;
+  for (i = 0; i < ISARETCI_KUTUK.length; i++) {
+    k = ISARETCI_KUTUK[i];
+    if (!k.el || !k.el.isConnected) continue;
+    try { ll = k.m.getLngLat(); } catch (e) { continue; }
+    if (kureAcDer(c.lat, c.lng, ll.lat, ll.lng) > ufuk) {
+      k.el.style.visibility = "hidden"; gizli++;
+    } else {
+      if (k.el.style.visibility === "hidden") k.el.style.visibility = "";
+      gorunur++;
+    }
+  }
+  kureSonSayim = { gizli: gizli, gorunur: gorunur, ufuk: Math.round(ufuk * 100) / 100 };
+  // 🔴 ROZET CANLI OLMALI — donmuş sayı bu projenin en sık hatası.
+  //    Kip açıldığı ANDAKİ sayı yazılsaydı kamera oynayınca yalan olurdu
+  //    (ölçüldü: açılışta 115, uzaklaşınca 109).
+  var rz = document.getElementById("kat-sayi-kure");
+  if (rz) {
+    rz.textContent = "gizli " + gizli;
+    rz.title = "arka yüz gizlendi: " + gizli + " / " + (gizli + gorunur)
+             + " · ufuk " + kureSonSayim.ufuk + "°";
+  }
+  return kureSonSayim;
+}
+
+// Kipi uygular ve UYGULANDIĞINI döndürür (0 dönerse arayüz bunu SÖYLER —
+// `siyasiKipUygula`daki aynı gerekçe: sessiz başarısızlık yasak).
+function kureKipUygula(acik) {
+  if (typeof harita.setProjection !== "function") return 0;   // v4'te yok
+  KURE_ACIK = !!acik;
+  try {
+    harita.setProjection({ type: KURE_ACIK ? "globe" : "mercator" });
+  } catch (e) { return 0; }
+  if (KURE_ACIK) {
+    // Küre ancak uzaklaşınca küre gibi görünür; minZoom geçici olarak açılır.
+    if (KURE_ONCEKI_MINZOOM === null) KURE_ONCEKI_MINZOOM = harita.getMinZoom();
+    harita.setMinZoom(0);
+  } else if (KURE_ONCEKI_MINZOOM !== null) {
+    if (harita.getZoom() < KURE_ONCEKI_MINZOOM) harita.setZoom(KURE_ONCEKI_MINZOOM);
+    harita.setMinZoom(KURE_ONCEKI_MINZOOM);
+    KURE_ONCEKI_MINZOOM = null;
+  }
+  document.body.classList.toggle("kip-kure", KURE_ACIK);
+  kureArkaYuzUygula();
+  return 1;
+}
+
+// Kamera oynadıkça arka yüz tazelenir — HER KARE DEĞİL, olayda.
+["move", "zoom", "rotate", "pitch", "moveend"].forEach(function (o) {
+  try { harita.on(o, function () { if (KURE_ACIK) kureArkaYuzUygula(); }); }
+  catch (e) { /* harita yoksa geç */ }
+});
+
 var KATMAN_KUMESI = [
   // 🔴 TANI KOVASI `cografya`DAN ÖNCE — 4 Eylül 2026, Emre (H-0008):
   //    "bu çizgilerin anlamı tam olarak nedir ne işe yarıyorlar. ve
@@ -8490,6 +8662,21 @@ function katmanSeciciKur() {
         var kac = siyasiKipUygula(acik);
         var sy = document.getElementById("kat-sayi-yumusak");
         if (sy) sy.textContent = kac ? kac : "⏳";
+        return;
+      }
+      if (a === "kure") {
+        // PROJEKSİYON KİPİ — katman değil. `yumusak` ile aynı sınıf.
+        var ok = kureKipUygula(acik);
+        var sk = document.getElementById("kat-sayi-kure");
+        // 🔴 SESSİZ BAŞARISIZLIK YASAK: `setProjection` yoksa (maplibre 4)
+        //    düğme ölü görünürdü — sebebi YAZILIYOR. Kip açıkken rozeti
+        //    `kureArkaYuzUygula()` canlı tutuyor, burada yalnız iki uç hâl.
+        if (sk && !ok) {
+          sk.textContent = "✖ v5 gerekli";
+          sk.title = "maplibre 5+ gerekiyor; bu sürümde setProjection yok";
+        } else if (sk && !acik) {
+          sk.textContent = ""; sk.title = "";
+        }
         return;
       }
       if (a === "yerlesim") {
