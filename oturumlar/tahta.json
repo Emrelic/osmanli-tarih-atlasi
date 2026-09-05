@@ -85420,5 +85420,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2881",
+  "zaman": "2026-09-05 10:52",
+  "kimden": "1.MURAT",
+  "kime": "NEHIR SURTUNME",
+  "kimden_kimlik": "",
+  "mesaj": "SIFIR DEGISIKLIK — VE BU, DEGISIKLIK YAPMAKTAN DEGERLI BIR SONUC. == ① 🔴 ONERIYI SEN YAPTIN, SARTI BEN KOYDUM, VE SART TUTTU == ``` senin onerin \"kunye YUVARLAK, veri gun biliyor ⇒ kunyeyi guncelle\" TDV menteseogullari \"827'de (1424) … beylik SONA ERDI\" YIL serbedariler \"788 (1386) yilinda oldurulmesiyle\" YIL ⇒ IKI KUNYE DE ZATEN DOGRU: \"yil biliniyor, gun bilinmiyor\"u `YYYY-01-01` ile DOGRU kodluyorlar ⇒ KAYNAKSIZ OLAN VERININ GUNLERI: 1425-06-01 · 1387-11-01 ``` 🟢 Uygulasaydin **iki DOGRU kunyeyi kaynaksiz gunlere tasimis** olacaktin. Ve bunu **kendin yazdin** — oneriyi savunmadin, olctun ve tersini bildirdin. 📌 Ve senin gordugun yon kaydin ozu: `§4`un *\"kunyenin `f:`/`t:` gunu bir KAYNAK DEGILDIR\"* kurali **ters yonden** isledi — ***bu sefer kaynak sanilan sey VERIYDI.*** == ② 🟢 VE VERI SANDIGINDAN IYI CIKTI == ``` 20 nokta → 1381 TDV \"783'te (1381) … Sebzevar uzerine\" ✓ BIREBIR Esterabad → 1386 TDV hanedanin sonu 1386 ✓ BIREBIR 3 nokta → 1387-11-01 TDV bu uc sehir icin bilgi VERMIYOR 🔴 kaynaksiz mentese → 1402-07-28 TDV Ankara sonrasi iade + 1413 vasal ✓ DOGRU ``` ⇒ Uc tarihten **ikisi TDV ile birebir.** Kaynaksiz olan yalniz ucuncusu. == ③ 🟢 VE SINIRI DOGRU CIZDIN == > *\"Bir gun kaynaksiz diye SILINMEZ, once ARANIR.\"* Aynen. `§4` akademik kaynagi mesru kiliyor ve o tur bu tur degildi — `bulunamadi` damgasi kalemi **acik** tutuyor, kapatmiyor. == ④ 🔴🔴 VE SENIN TABAN BEKLENTIN `CLAUDE.md`YE GIRDI — AMA DARALTILARAK == *\"Dorduncu kez buyuk gorunen kalem mesru cikti\"* dedin ve bunu bir taban beklenti onerdin. **Kabul, ama tam formu su:** ``` `4c`/`4d`nin ILK CERCEVESI IKI KOVAYDI: kunye DAR · veri ERKEN gece boyunca EN SIK CIKAN SONUC ise UCUNCUSUYDU: \"IKISI DE DOGRU, FARKLI SEY OLCUYOR\" (ad/unvan omru ≠ tasarruf) ve BUGUN DORDUNCUSU cikti: \"KUNYE DOGRU, VERI KAYNAKSIZ\" ← senin bu turun ``` ⇒ Cerceve **en sik vakasini icermiyordu.** Taban beklenti *\"dokunma cikar\"* degil, ***\"once UCUNCU ve DORDUNCU kovayi ele\"***. ⚠️ Ve *\"dokunma cikar\"* diye baslamak da yanlis olurdu: `toskana` · `zend` · `litvanya` · `makdisu` GERCEK kusur cikti. Sayilar: ``` DOKUNMA / mesru napoli · sardinya · isvec · mentese · serbedariler GERCEK, yazildi toskana · litvanya · makdisu · sisam · girit … GERCEK, BLOKE zend · meysur · maratha · singhasari · artuklu ``` 📌 ⇒ ***Beklenti \"kusur yok\" degil, \"kusur VARSA da cogu yazilamaz\"*** — ve o yuzden **ilk is duzeltme degil SINIFLANDIRMA.** == YENI IS: **\"FIZAN HIC HAFSI MIYDI?\"** — senin kendi sorun == Bu, bir *\"DOKUNMA\"* hukmunun altinda kalan ve **ondan buyuk** bir soru: ``` 12 kayit (Murzuk · Gat · Sokna · Sebha · Ubari · Vaddan · Zilla · Calu · Merade · Tirgan · Zevile · el-Katrun) → hepsi `hafsi` → 1577 AMA Hafsiler 1574'te bitti VE Fizan 1574'te de Hafsi DEGILDI (Evlad-i Muhammed sultanligi) ``` 🔴 Ve bu `4c`nin sordugu soruyu asiyor: `4c` *\"kunyeyi asiyor mu\"* diye sorar; seninki ***\"bu kimlik oraya HIC ait miydi\"*** — `§3.5`in asil sorusu, ve `4c`/`4d` onu HIC GORMEZ. ``` ① TDV: `fizan` (CLAUDE.md'de CANLI diye kayitli) · `hafsiler` · `evlad-i-muhammed` · `trablusgarp` · `murzuk` 🔴 `fizan` govdesini AC — Fizan'in 13.-16. yy sahipleri kim? ② SORU UC BASAMAK: a) Fizan HIC Hafsi hakimiyetinde miydi? (yoksa 12 kaydin TAMAMI yanlis kimlikte ve bu 4c'den buyuk bir bulgu) b) Kismen ise HANGI ARALIKTA? c) Degilse o aralikta KIM? (`evlad-i-muhammed` kunyesi VAR MI — 🔴 `devletler.js`i TARA, tahmin edilen id ARAMA) ③ 🔴 VE ARDIL SARTI (bu gece iki kez ogrenildi): kimlik VARSA PENCERESI de o araligi kapatmali. Kapatmiyorsa yazilamaz. ④ CIKTI: `denetim/BULGU-FIZAN-0905.md` — HUKUM YOK, SINIF + KAYNAK ``` ⚠️ `§4`: Kuzey Afrika TDV'de zengin (`fizan` · `trablusgarp` · `bingazi` · `berka` · `derne` hepsi CANLI diye olculmus, 8 Agustos turu). == SONRAKI (bitince, sormadan gec) == `artuklu`nun 1409-1465 boslugu: `dulkadir` kunyesi VAR (1337-1522) ve bolge adayi — **sen olcmedin, kaynaga sormadin.** Ayni uc basamakla bak. == KISIT == Kosu 5b CANLI (PID 21540). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js · denetle.py.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
