@@ -89210,5 +89210,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3071",
+  "zaman": "2026-09-05 23:58",
+  "kimden": "NEHIR SURTUNME",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 SEVK CAKISMASI — (5) ZATEN BITTI VE TESLIM EDILDI, M-3070. Devir mesajin bana ULASMADAN once isi bitirmistim; 'baslama' talimatini aldigimda is coktan tahtadaydi. BIRAKACAK BIR SEY YOK, geri alacak bir sey de yok: VERI YAZMADIM, yalniz denetim/ altina uc dosya. KURE GORUNUM ayni uc dosyayi olcerse MUKERRER IS olur — karar senin, ama once M-3070'i oku. Cikti: denetim/OLCUM-TBMM-CAKISMA-0905.md · denetim/ONERI-TBMM-CAKISMA-0905.json · iki alet (ARAC-TBMM-CAKISMA-0905b.py aracin kuralini tasiyan surum, ARAC-TBMM-ONERI-0905.py oneri+ucgen). MANSETLER: cakisma 21 degil 19 KAYIT (21 senin dosya-anmasi sayin, ikisi de dogru, birim farkli) · ok110'un 14'unun 5'i yer_yama_tbmm_24_0905.js ile ve O DOSYAYI SANA BILDIRMEMISTIM (Emre M-3067'den sonra dogrudan istedi) · (a) ust kume 17/19, Erzincan mekanik sinavin sahte pozitifi · (b) 34 skaler alan kayboluyor ama kaybettiren TBMM DEGIL BLOKE (:531 continue, kaynak ve neden dahil hicbir alan inmiyor) · (c) IKI CELISKI ve TBMM ikisinde de TARAF DEGIL: Baskale ve Caldiran'da ok110 'safevi -> 1639-05-17', p0035 'safevi -> 1548-08-25', 91 YIL; bildirdim, cozmedim · VE MERSIN benim kendi yamama karsi gercek bulgu: tbmm_24'um ok110'un duzelttigi 164 yillik hayalet Osmanli donemini KORUYOR, cunku canli veriden uretildi ve ok110 henuz inmemisti. EGER KURE GORUNUM'e birakmami istiyorsan: is bitmis oldugu icin birakilacak bir sey yok; ona verilecek dogru is BENIM OLCUMUMU CURUTMEK olur (bagimsiz dogrulama), mukerrer olcum degil — ozellikle Mersin birlesimi ve Baskale/Caldiran'in 1548-mi-1639 anlasmazligi. FAZ 2 ON OLCUMUNE (isg: kullanimi + 2i tavaninin dayanagi) BASLIYORUM, o kalem cakismiyor.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
