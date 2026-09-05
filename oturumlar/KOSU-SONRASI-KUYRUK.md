@@ -1521,6 +1521,38 @@ prensligi` Berlin 1878 bağımsızlık · `mutahharten` Akkoyunlu nüfuzu) —
    HÜKÜM DEĞİL (CIE76 yaklaşığı; gerçek CIEDE2000 koşu sonrası)
 ```
 
+### 🟡 `v:` KİMLİK BOŞLUĞU — ALTI VAKA, ve hepsi AYNI CİNS
+
+Bir yerel beylik **kaynaklı ve adıyla biliniyor** ama künyesi yok ⇒ nokta
+**süzereniyle** boyanıyor:
+```
+evfat · kutlughanli · Melkisi · Zaza yedilisi · Çermik Mirdasi · Hizan
+```
+⇒ `§3.5.-1`in (*"devlet var, yeri yanlış"*) kardeşi: burada **kimlik var,
+künyesi yok** — ve sonuç haritada aynı: gövde başka bir kimliğe yazılıyor.
+🔴 Bunlar `karakoyunlu`/`akkoyunlu`/`diyarbakir` boyanıyor, yani **yanlış
+değil ama EKSİK**: süzerenlik gerçek, ama beylik görünmüyor.
+
+⚪ Altısı da **tek bir bölgede**, ve on nokta yazılırken çıktılar — yani
+bu bir **yoğunluk gözlemi**, bir oran değil. Başka bölgelerde kaç tane
+olduğu **ÖLÇÜLMEDİ.**
+
+📌 Ve Emre'nin `v:` kararıyla akraba: orada soru *"tâbi dönemin kimliği
+sorulabilir olsun mu"*, burada *"tâbi olanın KENDİ künyesi var mı."*
+İkisi de aynı boşluğun iki ucu.
+
+### 🟢 ON YENİ NOKTA — Doğu Anadolu kümesi KAPANDI (5 Eylül)
+
+```
+Zaza yedilisi  Eğil · Ergani · Hazro · Genç · Çapakçur · Atak · Kığı
++              Çermik · Sason · Hizan
+Siverek ZATEN VARDI · Piran YAZILMADI (kaynak zayıf, ret KAYITLI)
+```
+Üç konvansiyon, üçü de damgalı: `diyarbakir` (8 nokta) · `bitlis` (2).
+🔴 **Ve üç turda da `⑤ petek etkisi` ÖLÇÜLEMEDİ kaldı** (motor gerekiyor)
+⇒ koşu bitince **ÜÇÜ BİRLİKTE** sınanacak: Siverek · Bitlis · Hasankeyf ·
+Siirt peteklerinin küçülmesi beklenen yön.
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri

@@ -4135,6 +4135,44 @@ manipur · san-devletleri · yemen-zeydi · sirbistan-prensligi · mutahharten
   etiket künyenin **kendi modeliyle tutarlıdır.** Kusur yalnız `son < t:`
   olan beşinde. ⇒ *Bir etiketin doğruluğu, tek başına değil künyenin
   modeliyle birlikte ölçülür.*
+
+- 🟢 **AYNI DAMGA, FARKLI DAYANAK GÜCÜ — damga GÖRÜNÜR kılar, ama NE KADAR
+  SAĞLAM olduğunu KAYDETMEZ.** *(5 Eylül 2026 · `NEHİR SÜRTÜNME`)*
+
+  İki nokta için de aynı damga kondu (*"konvansiyon seçimi bir SEÇİM, bir
+  ÖLÇÜM DEĞİL"*) — ama ikisinin zemini ölçülebilir biçimde farklıydı:
+```
+Sason  üç komşu 6,6 km İÇİNDE, zincirleri farklı  → seçim GERÇEKTEN belirsiz
+Hizan  Bitlis 33,9 km · ikinci komşu 53,5 km      → 20 km AÇIK ARA
+       + Van (90 km) Bitlis ile 1281-1502 AYNI zinciri taşıyor
+       + kaynak Hizan'ı ADIYLA Bitlis grubunda sayıyor
+```
+  ⇒ Ölçen oturum ikisini **aynı damgayla geçiştirmedi**, farkı yazdı.
+  📌 Bu, `§11`in *"damga bir iddiayı ne meşrulaştırır ne düzeltir — yalnız
+  GÖRÜNÜR kılar"* dersinin eksik ayağı: ***bir damga, altındaki iki kaydın
+  eşit güvenilir olduğunu ima eder ve bu ima çoğu zaman yanlıştır.***
+  Damganın yanına **dayanağın gücü** de yazılmazsa, bir sonraki oturum
+  zayıf olanı güçlü olanla aynı kefeye koyar — ve düzeltmesi gerekeni
+  düzeltmez.
+
+- 🔴 **VARLIK ÇAPASI, TASARRUF ÇAPASI DEĞİLDİR — ve atlas tasarruf boyar.**
+  *(aynı tur · `Piran` reddedildi)*
+
+  `Piran` kaynakta **bir kez** geçiyor ve o da bir güzergâh: *"Ahmet Çavuş,
+  Palu — PİRAN — Eğil yolunu takip etti."* Cümle yerleşimin **var
+  olduğunu** kanıtlıyor; **kimin olduğunu** söylemiyor — ne bey, ne tarih,
+  ne tâbiiyet.
+```
+öteki dokuz merkez   en az bir bey ADIYLA + bir olay TARİHİYLE
+Piran                hiçbiri
+```
+  ⇒ Nokta yazılsaydı `s:` zinciri **tamamen konvansiyondan** gelirdi, yani
+  kaynaksız bir tasarruf iddiası üretirdi. **Yazılmadı.**
+  📌 `§11`in *"ATLAS SEFERİ DEĞİL TASARRUFU BOYAR"* dersinin **kaynak**
+  yüzü: orada bir devletin *uğraması* tasarruf sanılmıştı, burada bir yerin
+  *anılması*. İkisinde de eksik olan aynı şey — **yüklem.**
+  🟢 Ve ret `denetim/`e kaydedildi (*"arandı, kaynak zayıf, YAZILMADI"*):
+  bir sonraki oturum üçüncü kez aramasın diye.
   📌 `§11`in *"`0`, 'yok' ile 'bakmadım' arasında ayrım yapmaz"*
   dersinin **dönüş değeri** ve **alan adı** yüzleri — ve `§4`ün
   *"bir alan adı, kullanıldığı yerden değil TANIMLANDIĞI yerden
