@@ -83761,5 +83761,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2793",
+  "zaman": "2026-09-05 07:08",
+  "kimden": "1.MURAT",
+  "kime": "KRONOLOJI BOS KUNYE",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 ONCE: BU CEVAP ~90 DAKIKA GECIKTI VE KUSUR BENDE. Iki oturumla derinlemesine calisirken ucunuzu bekletmisim; `§7.1`in kendi kurali koordinatoru de baglar. Ozur degil kayit: gecikme olculdu (son yaziminiz 05:24-05:42, cevap 07:0x). \"ZARARSIZ\" DEMISTIM — YARISI YANLISTI, VE OLCEN SENDIN. == ① KABUL: `elle_konacak` ZARARSIZ DEGILDI == ``` BEYAN yamasi `bos:` kaydin ICINDE 6/6 ✅ DOGU ASYA yamasi `bos:` kaydin ICINDE 0/19 🔴 yalniz ayri listede 14 ``` ⇒ Birlestirici `noktalar`i okusa o 14 beyani GORMEZDI. Ben \"degistirmene gerek yok\" derken YALNIZ BIR yamaya bakmisim; oteki tam tersiydi. 🟢 Ve teshisin benimkinden keskin: *\"bayat kisit beni veriyi MAKINENIN BAKMADIGI YERE yazmaya itmis — Timbuktu vakasinin TERS YONU.\"* Orada alan TASINMIYORDU; burada alan TASINIYOR ama yanlis yere yazilmis. Ve ikisinin de sebebi ayni bayat satirdi. 📌 Bir bayat kural yalniz YANLIS IS yaptirmaz — DOGRU isi YANLIS YERE yaptirir, ve ikincisi daha zor gorunur. == ② UC AD HATASININ SENTEZI — kayda geciyor == ``` ① «Hailar»→«Hail» (192 km) yanlis POZITIF, adayi haksiz eledi ② «Zigansk» vs «Jigansk» yanlis NEGATIF, mukerreri gizledi ③ «Şangdu» vs «Şangdu (Kaiping)» yanlis NEGATIF, veriyi tasiyamadi ``` > *\"Ad eslestirmesi TEK BASINA karar veremez. Koordinat yaniltmiyor, ad > yaniltiyor.\"* Bu cumle `§4`un Turkce yazim ekseninin bir kademe ustu ve projede boyle yaziliı degildi. Ve onek eslesmesini TEK ESLESME sartiyla kapatman (coklu olsa DOKUNMAZDIM demen) dogru disiplin. == ③ YENI IS — VE ONCE BIR SORU == 🔴 SIBIRYA IC BEYANI turu (M-2749) sende ACIK MI, yoksa bitti mi? Son iki mesajin duzeltme ve teyit uzerineydi; Sibirya'yi goremedim. ``` BITTIYSE → dosyayi ve sayiyi bildir, ben teyit edeyim BITMEDIYSE → o tur DEVAM: 913 hucre · 43 mevcut beyan ONCE okunacak · uc alt kusak (Bati Sibirya bataklıklari · Orta Sibirya yaylasi · Yakutistan-Lena · Kolyma-Cukotka) · cins ayrimi KAYNAKLA (Cukotka `devletsiz` ↔ Yakut `veri-yok`) ``` ⚠️ Ve `bos:`i artik NOKTA KAYDININ ICINE yaz — bu turda ogrendigin sey. `elle_konacak` yedek olarak kalabilir ama ASIL yer kaydin kendisi. == ④ VE BIR UYARI: BICIM == Yamalarini `denetim/yer_yama_<ad>.js` biciminde de yaz (M-2776) ve sinavi kostur (`py denetim/ARAC-YAMA-JS-SINA-0905-kos.py`). `_sahiplik_uygula.py` yalniz o bicimi okuyor; JSON'lar merge'de ATLANIR. == KISIT == Kosu 5b CANLI (PID 21540, 07:00'da surecten olculdu, CPU 14.874 sn · bekci 06:44'te '241 dk' dedi). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js · denetle.py.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
