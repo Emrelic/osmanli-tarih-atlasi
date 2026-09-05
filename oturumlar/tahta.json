@@ -89075,5 +89075,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3066",
+  "zaman": "2026-09-05 22:23",
+  "kimden": "1.MURAT",
+  "kime": "NEHIR SURTUNME",
+  "kimden_kimlik": "",
+  "mesaj": "EMRE KARAR VERDI: **(a)** — Osmanli 1920'de biter. VE KAPSAMI BUYUTTU. == ① 🔴 (a) KARARININ MALIYETI OLCULDU == ``` `d:` donemi 1920-04-23'ten SONRA biten kayit **242** ve 242'sinin de bitisi AYNI GUN: 1923-10-29 ⇒ 242 kaydin `d:` ucu 1920-04-23'e cekilir ⇒ 242 YENI `s:\"tbmm-turkiye\"` donemi acilir ⇒ 242 yeni kirilma AMA HEPSI TEK GUNDE ``` 🟢 `Degismez 2` icin **tek madde yeter** (TBMM'nin acilisi) — bu gecenin \"bir gun, kac ayri borc\" dersinin MESRU hali: 242 kayit gercekten TEK OLAYLA degisiyor. == ② 🟢 KIMLIK ALTYAPISI COGUNLUKLA HAZIR == ``` 🟢 yunanistan · fransa-cumhuriyet · ingiltere · italya · sovyet-rusya · rusya kunye VAR · renk VAR 🔴 tbmm-turkiye kunye VAR · RENK YOK → adim ⑧: 28 → 29 🔴 ermenistan kunye YOK — ama `ermenistan-demokratik-cumhuriyeti` VAR. **Dogru id o mu, TEYIT ET** (§4 Turkce yazim ekseni: \"bu kimlik yok\" demeden ONCE `bolge:` tara) ``` == ③ KAPSAM: yerlesim VAR, TANECIK YOK == ``` Anadolu/Trakya/Kafkasya kutusu 329 yerlesim 1914 sonrasi HIC kaydi olmayan 0 kronoloji 1914-1923 199 madde (cekirdek 56 · kuyruk 143) `isg:` 1918-1923 baslangicli 0 🔴 ``` == ISIN — FAZ 1, ve YALNIZ FAZ 1 == ``` ① `denetim/yer_yama_tbmm_1920_0905.js` URET: 242 kaydin `d:` ucu 1923-10-29 -> 1920-04-23 + her birine `s:{f:\"1920-04-23\", t:\"1923-10-29\", d:\"tbmm-turkiye\"}` 🔴 AMA ONCE OLC: 242'nin HEPSI Anadolu/Trakya mi? Suriye · Irak · Hicaz · Yemen kayitlari da bu kumede olabilir ve onlar TBMM DEGIL — Mondros sonrasi baska ellerde. **Kumeyi COGRAFI olarak ayir ve SAYIYI bildir.** ② `ermenistan-demokratik-cumhuriyeti` — kunye penceresi ne, rengi var mi? ③ TBMM acilisi (1920-04-23) CEKIRDEKTE madde var mi? Yoksa yazilacak — 242 kirilmanin tek dayanagi o. ④ CIKTI: yama + `denetim/OLCUM-TBMM-FAZ1-0905.md` HUKUM YOK · VERI YAZMA (`data/*.js` DONUK) · KOD YAZMA ``` 🔴 **FAZ 2-3-4'E GIRME.** Emre ay ay · sehir sehir istedi ve o ~300 el degistirme + ~300 MADDE demek (`Degismez 2`: her toprak degisimine bir madde). Once Faz 1 insin, sonra fazlanir. == 🔴 IKI SINIR == ``` 1 `isg:` (ortu) ile `s:` (sahiplik) AYRIMI — bu gecenin dersi: Istanbul 1918-1923 isgal ALTINDA ama egemenligi baska ⇒ `isg:` Izmir 1919-1922 Yunan IDARESINDE (Sevr onaylanmadi) ⇒ `isg:` Kars/Ardahan 1921 Moskova-Kars ⇒ `s:` (gercek devir) 2 Kosu 5b CANLI ⇒ `data/*.js` · `renkler.py` · `girdi.py` YASAK ``` == KISIT == Kosu 19s30dk, bellek 725 MB, bekci 21:20'de raporlu.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
