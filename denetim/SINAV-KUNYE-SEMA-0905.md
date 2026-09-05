@@ -322,3 +322,161 @@ ONERI-KAYNAK-HIMAYE-4-0905.json
    ⚪ AD         YAMA-HAYALET-IRAN · YAMA-ZEND-KACAR — bulgu dosyası
 ④ BOŞLUK       künye ALAN güncelleyicisi YOK ⇒ 7 `ONERI-*` elle iner
 ```
+
+---
+---
+
+# EK 2 — 21'in tasnifi, ve **`denetim/` altında 397 kayıt bekliyor**
+
+> **Sevk:** `M-2984` · aynı gün · *ölçüm, hüküm yok, veri yazılmadı.*
+
+## H1. 🔴 ÖNCE: MANŞET DÜZELTMESİ KABUL — ve bir kademe daha inceldi
+
+Koordinatör *"11 değil ~4"* dedi. **Bağımsız ölçtüm, doğru — ve sayı
+biraz farklı:**
+```
+YAMA-1923-0905          11 öğe ·  8 kimlik  (3 öğe KİMLİKSİZ)
+YAMA-KUNYE-1923-0905    10 öğe · 10 kimlik  ← doğru adlı, glob TUTUYOR
+ORTAK                    5   harezm-halk-cumhuriyeti · irak-kralligi ·
+                             rif-cumhuriyeti · suriye-lubnan-mandasi · tannu-tuva
+YALNIZ kaçanda           3   fransiz-guyanasi · hollanda-guyanasi · ingiliz-guyanasi
+kimliksiz öğe            3
+⇒ GERÇEK KAYIP: 3 kimlik + 3 kimliksiz öğe   (11 DEĞİL)
+```
+🟢 **Kusur yöntemimdeydi:** kaybı **alete karşı** ölçtüm (*"glob bunu
+tutmuyor"*), **öteki artefaktlara karşı** ölçmedim.
+📌 ***Bir kaybı ölçerken, kaybolanın BAŞKA BİR YERDEN gelip gelmediği
+de ölçülür.*** Bulgu gerçekti, büyüklüğü değil.
+
+## H2. ① 21 DOSYANIN TASNİFİ — ve çoğu **kendi niyetini yazmış**
+
+Ayırt edici soru sevkin verdiği: *bu dosya `data/` altında bir şey
+DEĞİŞTİRMEYİ mi amaçlıyor?* Cevabı çoğunda dosyanın **kendi üst
+beyanında** buldum.
+
+### ⚪ BULGU / ÖLÇÜM — hiçbir şey inmeyecek (doğru durum) · **6**
+```
+BEYAN-KUSAK-0905          "🔴 BEYAN TÜRÜ — NOKTA YAZILMADI (M-2721)"
+SEYREKLIK-DUNYA-0905      "🔴 ÖLÇÜM TURU — NOKTA YAZILMADI (M-2711)"
+ONGORU-BARKA-DOGU8-0905   öngörü dosyası, ölçümden ÖNCE yazılmış
+YAMA-HAYALET-IRAN-0905    "BU BİR YAMA DEĞİL, BİR RET GEREKÇESİDİR"
+YAMA-ZEND-KACAR-0905      "🔴 HÜKÜM VERİLMEDİ — üç yol ölçüldü"
+YERLESIM-SIBIRYA-0905     içerik listesi boş
+```
+⚠️ Son ikisinin adı `YAMA-` ile başlıyor ama **yama değiller** — dün
+bildirdiğim ad sözleşmesi boşluğunun aynısı.
+
+### 🟡 ÖNERİ — merge'de ELLE inecek (boşluk, kusur değil) · **8**
+```
+ONERI-KAYNAK-7-0905                7 künye  `kaynak:` metni
+ONERI-KAYNAK-HIMAYE-4-0905         4 künye  `kaynak:` metni   (benim)
+ONERI-SOZLESME-5-0905              5 künye  `ozet:` beyanı    (benim)
+ONERI-SOZLESME-11-0905            11 künye  `ozet:` beyanı
+ONERI-V-KANON-0905                13 kanon + 16 şüpheli
+ONERI-KRONOLOJI-ISG-0905           3 madde önerisi
+ONERI-KRONOLOJI-MISIR-KRALLIK      1 madde   ← ⚠️ aşağıda
+DUZELTME-KRONOLOJI-GUN-0905        4 gün düzeltmesi
+```
+🟢 Sekizinin de üst beyanı **açıkça** *"ÖNERİDİR, UYGULANMADI"* diyor.
+🔴 Ve `DUZELTME-KRONOLOJI-GUN` niçin ayrı tutulduğunu **kendisi
+yazmış**: *"`_kronoloji_uygula.py`nin APPEND-ONLY olması nedeniyle
+ayrı tutuldu — her kayıt MEVCUT bir maddenin GÜNÜNÜ değiştirme
+ÖNERİSİDİR."* ⇒ Alet ekler, güncellemez; benim künye vakamın
+**kronoloji tarafı.** Aynı boşluk, iki katmanda.
+
+⚠️ **`ONERI-KRONOLOJI-MISIR-KRALLIK` benim sayacımda `0 öğe` göründü** —
+çünkü `madde` bir **sözlük**, liste değil. Sayacım listeleri sayıyor.
+🔴 Bu benim aletimin *"0 ≠ yok"* vakası; elle okuyunca **1 madde** var.
+
+### 🔴 UYGULANMASI GEREKEN ama alete bağlı DEĞİL · **1 JSON + 6 rapor**
+```
+YAMA-1923-0905            künye yaması · ÇİFT KAÇIRMA (ad + alan adı)
+                          gerçek kayıp: 3 kimlik + 3 kimliksiz öğe
+```
+Ve **altı `YERLESIM-*` / `YAMA-1923-DUZELTME` JSON'u aslında RAPOR** —
+uygulanabilir biçimleri `denetim/yer_yama_*.js` dosyalarında. Bunu
+`YAMA-1923-DUZELTME` **kendisi söylüyor**:
+> *"Uygulanabilir yama: `denetim/yer_yama_1923_duzeltme.js`"*
+
+⇒ **Asıl 🔴 kova JSON'larda değil, `.js` dosyalarında.**
+
+---
+
+## H3. 🔴🔴 ASIL BULGU: `denetim/` ALTINDA **32 DOSYA · 397 KAYIT** BEKLİYOR
+
+`_sahiplik_uygula.py` yalnız **`data/`** dizinini tarıyor
+(`^yer_yama.*\.js$`). Ölçtüm:
+
+```
+data/    altında yer_yama*.js      58 dosya   ← alet BUNLARI görüyor
+denetim/ altında yer_yama*.js      32 dosya · 397 KAYIT
+                                   🔴 alet BUNLARI GÖRMÜYOR
+data/'da aynı adla var olan          0        ← HİÇBİRİ taşınmamış
+```
+
+**En büyükleri:**
+```
+yer_yama_zend_kacar.js       132 kayıt      yer_yama_egeadalari.js     10
+yer_yama_misir_himaye.js      56            yer_yama_gronland_col.js    9
+yer_yama_tunus.js             36            yer_yama_barka_dogu8.js     8
+yer_yama_doguasya.js          19            yer_yama_sibirya_beyan.js   8
+yer_yama_litvanya.js          19            yer_yama_zaza.js            7
+yer_yama_yunananakara.js      17            … ve 21 dosya daha
+yer_yama_onikiada.js          13
+yer_yama_fizan.js             12
+```
+
+### 🟢 VE BU BİR KUSUR DEĞİL — ŞU AN DOĞRU DAVRANIŞ
+Koşu 5b canlı ve `data/*.js` **YASAK**. Oturumlar yazamadıkları için
+`denetim/`e koymuşlar — **kural gereği doğru.** Ve koordinatörün
+kendi kuyruğunda zaten bir *"önce `data/`ye TAŞI"* adımı (⑥) var.
+
+### 🔴 AMA RİSK GERÇEK VE ÖLÇÜLEBİLİR
+```
+o adım ATLANIRSA ya da EKSİK yapılırsa → 397 kayıt sessizce kaybolur
+ve hiçbir denetim ötmez: `_sahiplik_uygula` onları hiç GÖRMEDİĞİ için
+"eksik" diye de raporlamaz.
+```
+⇒ **Bu tablo o adımın MANİFESTOSUDUR.** Taşıma sonrası tek sınav:
+```
+denetim/ altında kalan yer_yama*.js  →  0 OLMALI
+data/ altındaki yer_yama*.js         →  58 + 32 = 90 OLMALI
+`_sahiplik_uygula.py` kuru koşusu    →  ~397 yeni kayıt görmeli
+```
+
+## H4. DAMGALAR — EK 2
+
+```
+🟢 DOĞRULADIM  koordinatörün manşet düzeltmesi — ve inceldi:
+               gerçek kayıp 3 kimlik + 3 kimliksiz öğe (11 değil, ~4 değil)
+🔴 KENDİ YÖNTEM KUSURUM  kaybı ALETE karşı ölçtüm, ÖTEKİ ARTEFAKTLARA
+               karşı ölçmedim
+🟢 TASNİF      21 dosya: ⚪ 6 bulgu · 🟡 8 öneri · 🔴 1 künye yaması +
+               6 rapor (uygulanabilir biçimleri `.js`te)
+🔴🔴 BULDUM    `denetim/` altında 32 `yer_yama*.js` · 397 kayıt ·
+               `data/`ya taşınmış 0 · alet hiçbirini GÖRMÜYOR
+🟢 AMA         bu şu an DOĞRU davranış (koşu canlı, `data/` yasak) —
+               kusur değil, BEKLEYEN İŞ. Kuyruğun ⑥ adımı zaten var.
+🔴 KENDİ ALETİM  `ONERI-KRONOLOJI-MISIR-KRALLIK`i "0 öğe" saydım —
+               `madde` bir SÖZLÜK, listem sözlük saymıyor. 1 madde var.
+               Kendi "0 ≠ yok" vakam.
+⚪ ÖLÇMEDİM    397 kaydın şema-tam olup olmadığını — yalnız SAYDIM
+⚪ ÖLÇMEDİM    `denetim/`deki 20 `ARAC-*.js`in bir yama olup olmadığını
+               (adları alet gibi duruyor, açmadım)
+🔴 YAZMADIM    hiçbir dosyayı taşımadım — `data/` YASAK ve dosyalar
+               başka oturumların
+```
+
+## H5. TESLİM — EK 2, sayıyla
+
+```
+① MANŞET      YAMA-1923 kaybı: 3 kimlik + 3 kimliksiz öğe (11 DEĞİL)
+② TASNİF      21 dosya → ⚪ 6 · 🟡 8 · 🔴 7
+③ 🔴🔴 ENVANTER  denetim/ altında 32 `yer_yama*.js` · 397 kayıt ·
+              taşınmış 0 · `_sahiplik_uygula` hiçbirini görmüyor
+④ SINAV       taşıma sonrası: denetim/'de 0 · data/'da 90 ·
+              kuru koşuda ~397 yeni kayıt
+⑤ BOŞLUK      künye ALAN güncelleyicisi yok (7 `ONERI-*`) ·
+              kronoloji GÜN güncelleyicisi de yok (1 `DUZELTME-*`)
+              ⇒ aynı boşluk, İKİ katmanda
+```
