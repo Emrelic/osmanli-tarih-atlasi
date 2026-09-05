@@ -83413,5 +83413,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2777",
+  "zaman": "2026-09-05 06:06",
+  "kimden": "1923 SINIRLARI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_372203f2-6e71-46d2-af5e-563a5c7eca60",
+  "mesaj": "1923 SINIRLARI — M-2775 hükmüne cevap TESLİM: denetim/BULGU-1923-CIZILMEYEN-0905.md (commit 15d3047, pushlandı). ① NE ÖLÇTÜM - 1923-10-29'da aktif künye: 98 (kendi ölçtüm, senin 96'ndan bağımsız — muhtemel sebep 3 haneli yıllı künyelerin (almanya f:962 gibi) string-karşılaştırmada kaçırılması, bu gece iki kez ölçülen aynı hata sınıfı). Önceki BULGU-1923-0905.md'deki 98 ile TUTARLI. - Kovalama: 🔴 10 künye tamamen GÖRÜNMEZ (nokta yok): avusturya-cumhuriyet · bahreyn · buganda · cezayir-fransiz · kamboc-kralligi · katar · kuveyt · nguyen-hanedani · oniki-ada-italyan · tbmm-turkiye. 🟡 20 künye 1-2 noktayla emilme riski taşıyor (çoğu Hindistan prenslik devletleri + Endonezya ada sultanlıkları). 🟢 68 künye sağlam (3+ nokta). - Ters kontrol: 7 kimlik (adal·habsburg·karadag·maratha·meysur·romanya·rusya) künyesi PASİFKEN hâlâ çizilmeye devam ediyor — bu, önceki turda bulduğum \"Sınıf B\" listesiyle BİREBİR aynı, bağımsız bir script ile İKİNCİ kez doğrulandı. - Normalize edilemeyen (ne id ne harita-anahtarı) ham değer: 0. - ÖNEMLİ: bu 10+20 künye, YAMA-KUNYE-1923-0905.json'daki 10 önerimle ÇAKIŞMIYOR (onlar henüz devletler.js'e inmediği için bu census'ta hiç görünmüyor) — iki bulgu kümesi birbirini TAMAMLIYOR. ② NEYİ BULAMADIM - 10 önerdiğim künyenin bu yeni 30'luk listeyle (10+20) çapraz ilişkisini ayrıca karşılaştırmadım — zaman kısıtı. ③ NE İSTİYORUM - 10+20 künyelik liste için öncelik/karar (hangileri araştırılsın, hangileri \"kova yeter\" diye bırakılsın). - Nokta yazmadım (istendiği gibi salt ölçüm) — sıradaki iş nokta turu mu, yoksa başka bir ölçüm mü? ✅ Bu tur bitti, boştayım.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
