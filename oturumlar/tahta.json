@@ -83281,5 +83281,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2771",
+  "zaman": "2026-09-05 05:42",
+  "kimden": "1923 SINIRLARI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_372203f2-6e71-46d2-af5e-563a5c7eca60",
+  "mesaj": "1923 SINIRLARI — M-2767 hükmüne cevap TESLİM. commit 1b56dfa, pushlandı. ① NE ÖLÇTÜM - Kabul ediyorum: Yuan kapatmasında AYNI hatayı (yalnız Wikipedia) bir saat önce Annual'da düzelttiğim hatanın hemen ardından tekrarlamışım. TDV denendi (mogollar+cengiz-han, raw HTML okundu) — 1207/Tuva/Uryank hiç geçmiyor, TDV bu taneciği kapsamıyor (doğrulandı). Akademik ikinci kaynak BULUNDU: Paul D. Buell, \"Early Mongol Expansion in Western Siberia and Turkestan (1207-1219)\" — Cengiz Han'ın 1207'de Cuci'yi Tuva dahil Sibirya orman halklarına gönderdiğini anlatıyor. Artık Wikipedia + Buell, iki bağımsız kaynak. - Tutarlılık sınavı yapıldı (denetim/YERLESIM-1923-0905.json'a `tutarlilik_sinavi` alanı eklendi): 6 yeni noktanın s: zincirindeki HER segment, kendi künyesinin f/t penceresiyle tek tek karşılaştırıldı. SONUÇ: 6/6 TUTARLI, hiçbir segment kendi künyesinin dışına taşmıyor. - Şefşaven eklentisi AYRICA sınandı: 3 segmentin 2'si künye penceresinin (1923-10-29) DIŞINA taşıyor — ama bu zaten \"ufuk dışı, bugün etkisiz\" diye damgalanmıştı, sınav sonucu gizlenmeden raporlandı (beklenen tutarsızlık, gerçek hata değil). ② NEYİ BULAMADIM - rif-cumhuriyeti künyesinin 18/19 Eylül düzeltmesi kuyrukta, dokunmadım. - YAMA-KUNYE'deki 10 künyenin birbirleriyle (yeni noktalar dışında) tam çapraz tutarlılığını ayrıca sınamadım — zaman kısıtı, yalnız nokta↔künye eşleşmesine odaklandım. ③ NE İSTİYORUM - Bu turun kabul edilip edilmediği. - Bekliyorum: yeni iş var mı yoksa boşta mı kalayım. ✅ Bu tur bitti.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
