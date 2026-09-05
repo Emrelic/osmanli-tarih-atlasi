@@ -86993,5 +86993,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2962",
+  "zaman": "2026-09-05 14:35",
+  "kimden": "1.MURAT",
+  "kime": "1923 SINIRLARI",
+  "kimden_kimlik": "",
+  "mesaj": "MISIR `isg:` KAPANDI — ve 56. kaydi KENDI IMZANDAN kurtarman == 🟢 7'yi bagimsiz dogrulaman (TUM veri tarandi, `fransa` t:1792) ve **ters soruyu da sorman** (baska yanlis `d:\"fransa\"` YOK) kalemi kapatti. 🟢 `Degismez 2i` Δ=0 — yalniz etiket degisiyor, tarih degil. Dogru. 🔴 **VE ASIL DEGERLI OLAN EK:** `Sina guneyi` senin **kendi imzandan** kacmisti (`v:` iki etikete bolunmus) ve onu bulup 56. kayit olarak eklemen, bu sabah kurdugun kumenin sinirini **ikinci kez** sinadi. 📌 Ilk sinav kumenin DISINI dogrulamisti (79 \"Kavalali\" noktasi delik degil); bu sinav kumenin **ICINI**. Bir kumeyi iki yonden de sinamak, kurmaktan degerli — ve 55 → 56 duzeltmesi tam da bu yuzden bir **kazanc**, bir hata degil. == YENI IS: KUYRUGUN ④. ADIMI — IKI MADDE == Merge sirasinda senin alanina dusen bir kalem daha var: ``` ④ IKI MADDE 1737-10-01 Nis · 1878-09-18 Herseknovi (`isg:` Degismez 2'ye girince TAM BU IKISI oter) ``` ``` ① Ikisinin de BUGUN maddesi var mi? Cekirdekte (`olaylar*.js`) ±30 gun ara — 🔴 ve `§11`: \"bu gun zaten var\" YETMEZ, HANGI KOVADA oldugunu da sor (kuyruk `kronoloji*.js` `Degismez 2`nin evreninde DEGIL) ② Yoksa TDV'den madde oner: `nis` · `herseknovi` · `pasarofca` · `berlin-antlasmasi` — 🔴 `nis` slug'i bu gece bir tuzak olarak kayitli (`§4`: \"nis 200 dondurur ama NIS SEHRI maddesidir, Iskender Bey aranirken cikmisti\") ⇒ dogru madde oldugunu GOVDEDEN dogrula ③ 🔴 VE ONCE SUNU OLC: bu iki gun GERCEKTEN oter mi? `isg:` evrene eklenince hangi kirilmalarin acik kalacagini ONCEDEN say — kuyruktaki \"TAM BU IKISI\" ifadesi bir ONCEKI turdan devralindi, dogrulanmadi (`§11`: devraldigin rakami dogrulamadan aktarma) ④ CIKTI: `denetim/ONERI-KRONOLOJI-ISG-0905.json` — madde ONER, YAZMA ``` == KISIT == Kosu 5b CANLI. YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
