@@ -745,6 +745,32 @@ uyarısını da oku"* kuralının bir kademe ötesi: **kaynak bazen uyarı verme
 kendiyle çelişir** — ve o zaman çelişkiyi BİLDİRMEK, taraf seçmekten
 değerlidir.
 
+#### 🔴 VE ⑥'NIN YAZILI OLMAYAN ÖN KOŞULU: **ÖNCE AYRIŞTIR, SONRA ÇELİŞKİ İLAN ET**
+*(5 Eylül 2026 · `NEHİR SÜRTÜNME` — bir "çelişki" bildirdi, ölçtü, ÇELİŞKİ YOKTU)*
+
+İki TDV maddesi Harput'un 1429'daki el değiştirmesinde **ters yön**
+veriyor sanıldı. Ölçüldü — **aynı yönü veriyorlar**, ve fark bir
+ayrıştırma hatasıydı:
+```
+"Dulkadirlılar 1429'da Akkoyunlular'a kaptırdıkları Harput'u geri aldılar"
+                └──────── YAN CÜMLE ────────┘
+`1429'da` VE `Akkoyunlular'a` ikisi de `kaptırdıkları` yüklemine bağlı
+⇒ 1429 = KAYIP yılı, geri alış TARİHSİZ
+(geri alış 1429 olsaydı: "…kaptırdıkları Harput'u 1429'da geri aldılar")
+```
+📌 Ölçen oturumun cümlesi: ***"Bir kaynağın ÇELİŞMESİ ile benim onu
+YANLIŞ AYRIŞTIRMAM bana AYNI görünüyor."***
+⇒ ⑥'yı ilan etmeden önce: **cümleyi doğru ayrıştırdığından emin ol.**
+Türkçede zaman zarfı, girdiği yan cümlenin içindedir — ve TDV yoğun
+yan cümleli yazar.
+
+🔴 **VE BEDELİ ÖLÇÜLDÜ:** yanlış ayrıştırma bir yamaya inmişti
+(`dulkadir 1429→1465`, ters yönde) ve koordinatör onu **onaylamıştı.**
+Yakalayan şey bir denetim değil, sevkin **sırasıydı**: *"önce üçüncü
+kaynağı ara, sonra damgala."* Damgalama önce yapılsaydı ters kimlik
+**meşrulaşmış** ve bir sonraki oturuma *"kaynaklı"* görünmüş olurdu.
+⇒ ***Bir damga, damgaladığı şeyi doğrulamaz — ama doğrulanmış gösterir.***
+
 ⚠️ **Ve aşağıdaki kapsama tablosunun bir satırı ÖLÇÜLEMEZ:** *"Afrika'nın
 dördü %100"* **hangi dördü** olduğunu söylemiyor. `devletler.js`te beş
 Afrika bölgesi var (kuzey 12 · doğu 39 · batı 51 · orta 24 · güney 18) ve

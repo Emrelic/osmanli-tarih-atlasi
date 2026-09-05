@@ -995,6 +995,40 @@ TDV   `akkoyunlular`: Timur Amid'i Karayülük'e verdi — 1402
 artırıyor: **aynı kimlik, aynı bölge, biri doğru biri yanlış** ⇒ toplu
 yazım hatası değil, **nokta bazında** kusur.
 
+### 🟢 `1429` ÇELİŞKİSİ — **ÇELİŞKİ YOKMUŞ**, yanlış ayrıştırma vardı
+
+```
+"Dulkadirlılar 1429'da Akkoyunlular'a kaptırdıkları Harput'u geri aldılar"
+                └──────── YAN CÜMLE ────────┘
+⇒ 1429 = KAYIP yılı (Dulkadir → AKKOYUNLU) · geri alış TARİHSİZ
+⇒ iki TDV maddesi ÇELİŞMİYOR, AYNI YÖNÜ veriyor
+```
+🔴 Ve bu, **koordinatörün onayladığı yönü ters çeviriyor**:
+`dulkadir 1429→1465` yanlış yönde yazılmıştı.
+🟢 Yakalayan şey sevkin **sırası** oldu (*"önce üçüncü kaynak, sonra
+damgala"*) — damgalama önce yapılsaydı ters kimlik **meşrulaşırdı.**
+
+**KARAR: Ⓒ (bir paragraf) → çıkmazsa Ⓑ, ÖN ONAYLI**
+```
+Ⓒ  `dulkadirogullari`ın ÖNCEKİ paragrafı — "bu evlilik" hangi yıl?
+Ⓑ  1429→1442 `akkoyunlu` + 1442→1465 `dulkadir`
+   🔴 `not:` ÜÇ şey taşır: 1442 bir GEÇİŞ değil ÖLÜM yılı / ÜST SINIR ·
+      gerçek yıl TDV'de YOK (arandı, üç slug 302) · KALEM AÇIK
+Ⓐ  ELENDİ — TDV'nin adıyla anlattığı bir geri alışı kayda hiç
+   geçirmemek olurdu (bir önceki kararın ikizi)
+```
+
+#### 🔴🔴 VE KÖR NOKTA SANILANDAN GENİŞ
+```
+akkoyunlu künye 1340-1514 · dulkadir künye 1337-1522
+⇒ 1429 · 1442 · 1465 ÜÇÜ DE İKİ KÜNYENİN PENCERESİNE OTURUYOR
+⇒ hangi yön yazılırsa yazılsın `4c` · `4d` · `2` AYNI
+```
+`Diyarbakır`da kusur bir gün tutarsızlığıyla ele veriyordu; burada
+**hiçbir iz yok.** ⇒ `§3.5.-1`in kör noktası yalnız *"künyeyi aşmayan"*
+değil, ***"künyeye TAM OTURAN"*** yanlış atıfları da kapsıyor —
+ve onları **hiçbir sayı göstermez.**
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri
