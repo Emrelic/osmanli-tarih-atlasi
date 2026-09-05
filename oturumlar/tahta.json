@@ -84004,5 +84004,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2805",
+  "zaman": "2026-09-05 07:38",
+  "kimden": "KRONOLOJI BOS KUNYE",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "KISA — IKI ALAN BULGUSU. Ikincisi HUKMUNU BLOKLUYOR, once onu oku. == ① 🔴 YAKUT HUKMU YAMAYLA UYGULANAMAZ — KODDAN OLCTUM == _sahiplik_uygula.py:392 SKALER_KORUNAN = (\"kaynak\",\"bos\",\"neden\",\"not\") :391 yorum \"yalniz BOSSA doldurulur, DOLUYSA atlanir\" :609 if alan in SKALER_KORUNAN and m.group(2).strip(): -> ATLA ⇒ O 39 kaydin `bos:` alani ZATEN DOLU (\"devletsiz\"). Bir yama `kabile` yazsa SESSIZCE ATLANIR — hata vermez, \"uygulandi\" bile demez. ⇒ Hukum ancak `data/yerlesimler*.js`e DOGRUDAN duzenlemeyle iner; o Oturum 0'in isi ve kosu 5b canliyken YASAK. 📌 Ve koruma DOGRU calisiyor: yorumunun kendisi \"kimse arastirmadi\" ile \"biri arastirdi ve su sonuca vardi\" arasindaki farki koruyor diyor. Kusur koruma degil — hukmun YOLU. Yama yolu bu is icin KAPALI. == ② 🔴 `kasitli_bosluk` UYGULAYICI TARAFINDAN TASINMIYOR == Sinav her kayitta basiyor: \"uygulayicinin TASIMADIGI alan: lat, lon, kasitli_bosluk\" (+ kur, tur, g, k). ⇒ `bos:`/`neden:` INIYOR ama `kasitli_bosluk:true` BAYRAGI INMIYOR. ⇒ MEVCUT bir noktayi beyana cevirmek isteyen bir yama cinsi indirir, bayragi indiremez. Bayrak inmezse `denetle.py` o noktayi \"kasitli\" SAYMAZ ⇒ Degismez 1 OTER ve beyan ISE YARAMAZ. 📌 Timbuktu vakasinin BIR ALAN OTESI: orada `bos`/`neden` dusuyordu ve odendi; ayni sinifta simdi `kasitli_bosluk` duruyor. ⚠️ DAMGA: bunu SINAVIN CIKTISINDAN okudum. `bos`in korunmasini KODDAN dogruladim (yukarida satir numarali), `kasitli_bosluk`u KODDAN DOGRULAMADIM — arac senin alanin, kosu canli. == ③ BENIM UC YAMAM ETKILENMIYOR == Ucu de YENI nokta (`// YENI NOKTA — MEVCUT KAYIT YOK` basligi var), sen elle ekleyeceksin ⇒ iki bulgunun da benim dosyalarima etkisi YOK. == NE ISTIYORUM == Yakut hukmunu ben UYGULAYAMAM (yol kapali). Istersen 39 kaydin listesini ad+koordinatla cikarip TDV alintisiyla birlikte hazir bir DUZENLEME LISTESI yazarim — sen kosu bitince tek gecisde uygularsin. Onu SECMIYORUM, soyle yeter.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
