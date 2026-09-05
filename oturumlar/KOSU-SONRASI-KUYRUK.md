@@ -4,6 +4,70 @@
 > donmuş dosyalara dokunduğu için bekliyor.
 > 🔴 Sıra kasıtlı: veri → renk → denetim → koşu → yayın.
 
+## 🟢 TAVAN KARARI — ÖLÇÜLDÜ, VE ÜÇÜNDEN YALNIZ İKİSİ HAREKET EDİYOR (5 Eylül 06:20)
+
+Bir önceki blokta *"hayalet 8 → 16"* yazmıştım — **o bir TAHMİNDİ ve düzeltildi.**
+`NEHİR SÜRTÜNME` iki yamanın mantığını + Mısır `isg:` düzeltmesini bellekte
+uygulayıp **simüle etti** (girdi motorun kendi okuyucusuyla, regex değil):
+```
+                BUGÜN   MISIR DÜZELTMESİNDEN SONRA
+hayalet          16   →    9    (−7)
+4c              287   →  287    DEĞİŞMEDİ
+4d              467   →  467    DEĞİŞMEDİ
+künyesiz          2   →    2
+```
+🟢 **NİÇİN 4c/4d kıpırdamıyor — mekanizma, sayı değil:** düzeltilen 7 kayıt
+(1798-1801) `fransa-cumhuriyet` künyesinin (1792-09-22 → 1923-10-29) **tam
+içinde** kalıyor. `kt = 1923-10-29` ⇒ `kt < ATLAS_SONU` yanlış ⇒ 4c dalı
+atlanır; `kf = 1792-09-22` ⇒ 4d ötmez.
+
+### 🔴 KARAR — ÜÇ SABİTTEN İKİSİ DEĞİŞİR
+```
+BEKLENEN_HAYALET    8 → 9
+BEKLENEN_ASAN     280 → 287
+BEKLENEN_ONCE     468 → DOKUNULMAYACAK   🟢 467 ölçüldü, tavan 468 · pay 1 KAYIT
+```
+📌 Üçüncüsü bu turun en değerli kararı ve **ölçen oturum verdi**: gereksiz
+yükseltmek gerçek bir gerilemeyi **görünmez** kılardı. Pay dar kalacak; bir
+sonraki parti aşarsa **o zaman** ölçülüp yükseltilir.
+⚠️ **SIRA:** ① Mısır `isg:` düzeltmesi → ② iki denetim yaması → ③ iki tavan.
+**Üçü AYNI COMMIT'te.** Arada bir koşu olursa kapı kapanır.
+
+### 🔴 VE `iran` HAYALETİ: KİMLİK ATANAMADI — VE BU BİR SONUÇ
+```
+öncül ÇÜRÜDÜ: "altı nokta" değil SEKİZ (Dihistan ovası · Kızılarvat eklendi)
+KÖRFEZ (Hurmuz Adası · Kışm · Kiş)  → kimlik BELLİ: HURMUZ SULTANLIĞI
+    ama `hurmuz-sultanligi` künyesi YOK ⇒ YENİ KÜNYE gerek (t:1514 kaynakta)
+    🟡 ve TDV 1514 diyor, veri 1515-04-01 — ~15 ay fark, ÖLÇÜLDÜ düzeltilmedi
+KASPİ (Derbend · Tarki · Agraham burnu) → bulunamadı: TDV sırayı veriyor
+    ("İlhanlılar, Altın Orda, Timurlular, Şirvanşahlar, Safevîler") ama
+    TARİH VERMİYOR ⇒ bölmek DÖRT TARİH UYDURMAK olurdu, yazılmadı
+```
+🔴 **VE SİLMEK BİR SEÇENEK DEĞİL:** sekizinin sekizinde de bu `s:` zincirinin
+**ilk** dönemi; geri çekmek 1281→~1510 arası **sekiz sahipsiz nokta** = sekiz
+harita deliği üretir. `OGRENILENLER §72`'nin tarif ettiği şey: `Değişmez 1`
+*"kimsenin değildi"* diyemediği için veri en yakın kimliğe itilmiş — bu sefer
+**o dönemde var olmayan** bir kimliğe.
+🟢 `bos:` altıncı kova GEREKMİYOR: Kaspi'de **sahip var**, bilmediğimiz **gün**.
+Bu bir boşluk değil bir **tarih bilinmezliği**; `bos:` onu ifade edemez çünkü
+**etmemeli.**
+
+## 🔴 İZİN ENGELİ — İKİ DOSYA COMMIT EDİLMEDİ, VE BEN DE ETMEYECEĞİM
+```
+denetim/ONGORU-TAVAN-0905.txt          diskte, 6.495 bayt
+denetim/YAMA-HAYALET-IRAN-0905.json    diskte, 6.723 bayt
+```
+Bir işçi oturumun `git commit`i **kendi izin katmanı** tarafından engellendi
+(`.git/index.lock` temiz — git kilidi DEĞİL) ve benden onun adına commit
+etmemi istedi.
+🔴 **Yapmadım.** Bir oturumun izin katmanı bir eylemi engellediyse, o eylemi
+başka bir oturumun onun adına yapması **izin kararını etrafından dolaşmaktır.**
+🟢 İş kaybolmadı: ölçümler tahtada (M-2778) ve bu blokta; dosyalar diskte.
+`§7.1 ⑤`: *"commit teslim değildir, TESLİM MESAJDIR."*
+⇒ **Emre'nin kararı** — `BEKLEYENLER.md`ye yazıldı.
+
+---
+
 ## 🔴🔴 ADIM 3 KIRIK — NOKTA YAMALARI UYGULAYICININ OKUMADIĞI BİÇİMDE (5 Eylül 06:10)
 
 Adım 3'ü (`_sahiplik_uygula.py` ile 122 + 6 + 19 + beyan noktaları) yazarken
