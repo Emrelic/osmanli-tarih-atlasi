@@ -34,12 +34,26 @@ HAYALET (§3.5)        Δ = 0
   seviyesinde atanan periyotlarla BİREBİR örtüşüyor — künye ömrünü
   aşan bir kullanım YOK.
 
-4c / 4d                Δ = 0 (🟡 TAM TANIMLARINI DOĞRULAMADIM)
-  Bu patch yalnız `s:`/`isg:` (yabancı sahiplik) değiştiriyor, `d:`
-  (doğrudan Osmanlı) alanına DOKUNMUYOR — 4c/4d'nin bu projede Osmanlı
-  doğrudan kırılmalarıyla ilişkili göründüğü kadarıyla etkilenmemeleri
-  beklenir, ama bu ikisinin TAM tanımını bu turda bağımsız doğrulayacak
-  zamanım/aracım olmadı — ölçmedim, tahmin ediyorum.
+4c / 4d                🟢 ÖLÇÜLDÜ (M-2937) — Δ = 0, Δ = 0
+  Tanım `arac/denetle.py:1659-1662`'den (BİREBİR): 4c = dönem sonu künye
+  sonundan SONRA (çare: ardıl kimlik/dönemi kısalt), 4d = dönem başı
+  künye başından ÖNCE (çare: künyeyi genişlet), SARAN = ikisini birden
+  aşan (4c∩4d). Künye devletler.js'e henüz inmediği için `denetle.py`yi
+  DOĞRUDAN koşturmak onu ölçemezdi (künye yok, karşılaştırılamaz) — bu
+  yüzden `denetle.py:1777-1822`'nin TAM algoritması (400 günlük
+  `HAYALET_TOLERANS_GUN`, `ATLAS_BASI`/`ATLAS_SONU` istisnaları DAHİL)
+  AYNEN kopyalanıp PROPOSED künye pencereleri + PROPOSED nokta dönemleri
+  üzerinde koşturuldu (`denetim/ARAC-MISIR-4C4D-OLCUM-0905.py`):
+  ```
+  HAYALET: 0 · 4c (ASAN): 0 · 4d (ÖNCE): 0
+  ```
+  Her iki dönem de kendi künyesinin f:/t:'siyle GÜN GÜNÜNE eşleşiyor
+  (misir-sultanligi periyodu 1914-12-18→1922-03-15, künyesi de aynı;
+  misir-kralligi periyodu 1922-03-15→1923-10-29, künyesi de aynı) —
+  fark 0 gün, tolerans 400 gün, ikisi de payın çok altında.
+  🔴 TAKLİT DEĞİL: bu ①=denetle.py'nin GERÇEK formülü kopyalandı, ②
+  400 günlük toleransı TAŞIYOR (M-2937'nin uyardığı Ecmir/22-gün tuzağına
+  düşülmedi).
 
 KÜNYESİZ (renksiz kimlik veride kullanılıyor)
   UYGULAMA SIRASI DOĞRU İSE: Δ = 0 (künye+renk önce iner)
@@ -70,9 +84,10 @@ DEĞİŞMEZ 2 / "2s" (yabancı kırılma madde kovası)
 KESIN (ölçüldü, sanal değil)     Değişmez 1: 0 · Hayalet: 0 · 2s: gerçek
                                   madde eksik ama mekanik kova muhtemelen
                                   susar (yanlış-negatif riski AÇIKÇA yazıldı)
-BELİRSİZ (ölçmedim, tahmin)      4c / 4d — tanımlarını tam doğrulamadım
+KESIN (🟢 ÖLÇÜLDÜ, M-2937)      4c: 0 · 4d: 0 — denetle.py'nin GERÇEK
+                                  algoritması + 400 gün toleransı ile
 SIRAYA BAĞLI                     Künyesiz: 0 EĞER sıra (künye→renk→yama)
                                   korunursa, +55 EĞER korunmazsa
 ```
 
-`⏳ BEKLİYORUM: 4c/4d'nin tam tanımını sen mi biliyorsun (kısaca), yoksa bu bir sonraki ölçüm turunda mı netleşecek? Kronoloji maddesi önerisi kabul edilirse çekirdeğe mi yazılsın?`
+✅ Bu belgedeki TÜM 🟡/belirsiz damgalar kapandı.

@@ -25,8 +25,9 @@ window.YER_YAMA_BELGESIZ4 = [
 // tunciler(1400-1695) → darfur(1695-1916-11-06) — 1916 sonrası ARAŞTIRILMADI.
 { ad:"Darfur",
   s:[{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},
-     {f:"1695-01-01",t:"1916-11-06",d:"darfur"}],
-  kaynak:"devletler.js'teki MEVCUT `tunciler` ve `darfur` künyelerinin kendi f/t pencereleri kullanıldı — yeni araştırma YAPILMADI, yalnız var olan künyeler bu noktaya BAĞLANDI.",
-  neden:"🔴 1916-11-06 SONRASI (1923-10-29'a kadar) AÇIK KALDI — devletler.js'te 'Anglo-Mısır Sudan' ya da benzeri bir kimlik ARANDI, BULUNAMADI. `misir-sudan` bölgesindeki künyeler (funj·mehdi·nube vb.) tarandı, 1916 sonrasını kapsayan biri yok. Bu segment AYRI bir araştırma/künye işi — 'ölçmedim' değil 'bulunamadı', ama daha fazla arama gerekebilir." }
+     {f:"1695-01-01",t:"1916-11-06",d:"darfur"},
+     {f:"1916-11-06",t:"1923-10-29",d:"ingiliz-sudani"}],
+  kaynak:"devletler.js'teki MEVCUT `tunciler` ve `darfur` künyelerinin kendi f/t pencereleri + M-2908/M-2919'da ONAYLANAN `ingiliz-sudani` künyesi (f:1899-01-19,t:1923-10-29) — TDV 'sudan' gövdesi: '6 Kasım 1916'da öldürülüp Dârfûr toprakları bir eyalet halinde İngiliz Sudanı'na bağlandı', darfur künyesinin kendi t:1916-11-06 değeriyle BİREBİR.",
+  not:"🟢 M-2937 sınavı: ingiliz-sudani'nin f:1899-01-19'u darfur'un t:1916-11-06'sından ÖNCE — üçüncü dönemin f: değeri (1916-11-06) darfur'un bitişiyle BİREBİR eşleşiyor, ARADA BOŞLUK YOK. 🔴 RENK BEKLİYOR (ingiliz-sudani henüz renksiz) — bu üçüncü dönem künye+renk inmeden UYGULANAMAZ, sıra: 1) ingiliz-sudani künyesi iner 2) renk üretilir 3) bu güncelleme iner." }
 
 ];
