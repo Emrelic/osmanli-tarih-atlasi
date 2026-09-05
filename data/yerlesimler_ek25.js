@@ -48,12 +48,12 @@ window.YERLESIMLER_EK25 = [
   d:[{f:"1516-08-24",t:"1918-10-30"},{f:"1921-10-20",t:"1923-10-29"}], v:[] },
 
 { ad:"Nusaybin",not:"BİRLEŞİM (1.MURAT, hüküm M-2116): yer_yama_ok110.js'in artuklu/karakoyunlu erken katmanı + yer_yama_ok107.js'in 1515-01-01 → 1515-09-19 gün düzeltmesi. İkisi de TDV kaynaklı, farklı kısımlar için; ayrı ayrı uygulansalar biri ötekini yerdi.",kaynak:"nusaybin", tur:"kasaba", lat:37.077, lon:41.215, g:0, k:3, m:"Diyarbakır",
-  s:[{f:"1281-01-01",t:"1409-01-01",d:"artuklu"},{f:"1409-01-01",t:"1467-11-10",d:"karakoyunlu"},{f:"1467-11-10",t:"1507-01-01",d:"akkoyunlu"},{f:"1507-01-01",t:"1515-09-19",d:"safevi"},{f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet"}],
-  d:[{f:"1515-09-19",t:"1918-10-30"},{f:"1921-10-20",t:"1923-10-29"}], v:[] },
+  s:[{f:"1281-01-01",t:"1409-01-01",d:"artuklu"},{f:"1409-01-01",t:"1467-11-10",d:"karakoyunlu"},{f:"1467-11-10",t:"1507-01-01",d:"akkoyunlu"},{f:"1507-01-01",t:"1515-09-19",d:"safevi"},{f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet"},{f:"1921-10-20",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1515-09-19",t:"1918-10-30"}], v:[] },
 
 { ad:"Silopi",not:"BİRLEŞİM (1.MURAT, hüküm M-2116): ok110'un erken katmanı + ok107'nin gün düzeltmesi. ⚠️ TDV `silopi` slug'ı ÖLÜ (302); dayanak TDV `cizre` — Cizre ve çevresi aynı Doğu Anadolu harekâtında alındı, Diyarbekir eyaletine bağlandı.",kaynak:"cizre", tur:"kasaba", lat:37.246, lon:42.470, g:0, k:3, m:"Diyarbakır",
-  s:[{f:"1281-01-01",t:"1409-01-01",d:"artuklu"},{f:"1409-01-01",t:"1467-11-10",d:"karakoyunlu"},{f:"1467-11-10",t:"1507-01-01",d:"akkoyunlu"},{f:"1507-01-01",t:"1515-09-19",d:"safevi"},{f:"1918-10-30",t:"1921-10-20",d:"ingiltere"}],
-  d:[{f:"1515-09-19",t:"1918-10-30"},{f:"1921-10-20",t:"1923-10-29"}], v:[] },
+  s:[{f:"1281-01-01",t:"1409-01-01",d:"artuklu"},{f:"1409-01-01",t:"1467-11-10",d:"karakoyunlu"},{f:"1467-11-10",t:"1507-01-01",d:"akkoyunlu"},{f:"1507-01-01",t:"1515-09-19",d:"safevi"},{f:"1918-10-30",t:"1921-10-20",d:"ingiltere"},{f:"1921-10-20",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1515-09-19",t:"1918-10-30"}], v:[] },
 
 // 🔴 UC IKIZ SEHIR CIKARILDI (3 km kurali, olculdu):
 //   Tel Abyad  <-> Akcakale      1,59 km
