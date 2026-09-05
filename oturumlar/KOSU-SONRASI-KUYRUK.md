@@ -878,6 +878,29 @@ sahipsiz** kalmış). Uygulayıcı diziyi **değiştiriyor, eklemiyor** ⇒ her
 kayıtta TAM `s:` dizisi yazıldı, yalnız iki uç değişti. Daralma
 kontrolü koşturuldu: **0/132.**
 
+### 🟢 FİZAN İNDİ — `4c` **287 → 275**, ve gecenin İLK `4c` düşüşü
+
+```
+`hafsi` 1281-1577 → `kanem-bornu` · 12 nokta · veriden ÜRETİLDİ
+denetim  hayalet 9 (+0) · 4c 275 (−12) · 4d 467 (+0) · künyesiz 2 (+0)
+```
+🟢 `4d` değişmiyor çünkü `kanem-bornu` penceresi **800**'de başlıyor ⇒
+`kf > ATLAS_BASI` guard'ı eliyor, **yeni kova açılmadı.**
+⚪ Kalıntı ~50 yıl (TDV *"16. yy'da Evlâd-i Muhammed'e geçti"* diyor,
+**yıl vermiyor**; `evlad-i-muhammed` künyesi de yok) — **yamada açıkça
+yazılı**, gizlenmedi. Net kazanç ≈ **246 yıl.**
+
+🟢 **VE ARANMAYAN BİR DOĞRULAMA:** TDV `trablusgarp` Trablus'un alınışını
+*"12 Şâban 958 / **15 Ağustos 1551**"* diyor — atlasın **kıyı
+noktalarındaki `1551-08-15` ile BİREBİR.** Düzeltmediğimiz bir gün,
+başka bir kalemi araştırırken doğrulandı.
+
+⚪ **AÇIK KALEM — `1577`nin provenansı:** TDV Fizan için 1577'yi
+**anmıyor** (Turgut Reis'in valiliğiyle 1556-1565 bandını ima ediyor),
+ama veri taşıyor **ve 12 noktanın `d:` (Osmanlı) başlangıcı ona bağlı.**
+Değiştirilmedi: (a) TDV gün/yıl vermiyor ⇒ seçmek uydurmak olurdu,
+(b) günü kaydırmak ikinci bir dönemi de kaydırır. Damga `bulunamadi`.
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri
