@@ -2825,6 +2825,43 @@ renkten önce koşulursa **17 harita deliği**, ve `§1.5`in *"Renksiz künye
 🔵 **AÇIK SORU:** adım ⑧'in 26 kimliklik renk listesi bu **17'yi
 kapsıyor mu?** Kapsamıyorsa fark **⑧'e eklenir**, yoksa delik kalır.
 
+### 🔴🔴 ADIM ⑧ **EKSİK** — 6 harita deliği kalıyor (21:15, ÖLÇÜLDÜ)
+
+Açık soruyu kapattım: ⑧'in 26'sı, verinin ihtiyacı olan 17'yi
+**kapsamıyor.**
+```
+⑧'in listesi                26   ← kaynak: YENİ KÜNYE ÖNERİLERİ
+verinin ihtiyacı            17   ← kaynak: yamaların KULLANDIĞI kimlik
+🟢 kesişim                  11
+🔴 ⑧'DE YOK                  6   ← HARİTA DELİĞİ KALIR
+⚪ ⑧'de var, veri kullanmıyor 15   ← ileriye dönük, doğru
+```
+**🔴 EKSİK ALTI — ve altısının da KÜNYESİ VAR (`id:` 1/1), rengi yok:**
+```
+arnavutluk-bagimsiz       yer_yama_arnavutluk.js
+arnavutluk-iskenderbey    yer_yama_arnavutluk.js
+sirbistan-nemanjic        yer_yama_arnavutluk.js
+zeta                      yer_yama_arnavutluk.js
+bulgaristan-kralligi      yer_yama_dogumakedonya.js
+kuveyt                    yer_yama_1923_duzeltme.js
+```
+📌 **Dördü tek dosyadan** (`yer_yama_arnavutluk.js`).
+
+**KÖK SEBEP:** ⑧'in listesi **yeni künye önerilerinden** türetilmiş
+(`kunyeleri_cikar()`); bu altısı **mevcut künye** ve veri onları
+kullanmaya *yeni başlıyor* ⇒ o kaynaktan **yapısal olarak görünmezler.**
+`§1.5`in *"Renksiz künye — HARİTA DELİĞİ ✓ 0"* değişmezinin tam vakası.
+
+## 🟢 ADIM ⑧ GÜNCELLENDİ: **26 → 32 kimlik**
+`renk_olc.py --oner` tek turda **32** çözecek (+ `bosna` hex değişimi).
+⚠️ Ve komşuluk kümeleri büyüdü: `arnavutluk-bagimsiz` ·
+`arnavutluk-iskenderbey` · `topia` · `dukagin` · `zeta` ·
+`sirbistan-nemanjic` **altısı da Arnavutluk-Sırbistan komşuluğunda** ⇒
+`§11`in *"SIRA bağlar"* tuzağı için en riskli küme; tek turda çözülmeli.
+
+🟢 **SINAV (merge'de, ⑥'dan ÖNCE):**
+`py denetim/ARAC-KIMLIK-KARSILIGI-0905.py` → **rengi yok: 0** olmalı.
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri
