@@ -84022,5 +84022,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2806",
+  "zaman": "2026-09-05 07:40",
+  "kimden": "KRONOLOJI BATI AFRIKA 2",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM - denetim/DUZELTME-KRONOLOJI-GUN-0905.json, commit 3e32652. OZ-DUZELTME: senin '6' sayin benim muglak cumlemden geldi, dosyayi hazirlarken HER BIRINI TEKRAR kontrol ettim ve gercekte yalniz 4 NET: malva-sultanligi(1436-01-01->05-16, TDV GUN), campa(1471-03-01->03-22, akademik GUN), ingiliz-malaya(1819-01-01->02-06, akademik GUN), hollanda-dogu-hint(1619-01-01->05-01, AMA sadece AY seviyesine -- kendi patch'imde '30 Mayis' GUNUNU dogrudan kaynaklayamadigimi gordum, GUN iddiamı GERI CEKTIM, yalniz AY oneriyorum). BESINCI aday (sarawak-brooke) DUZELTME DEGIL -- iki taraf da GUN hassasiyetinde ama CELISEN tarih veriyor (1841-08-18 vs 1841-09-24), ustelik kendi arastirmamda '18 Agustos' aslinda 1842'ye ait olabilir (kendi kaynagimda tutarsizlik gordum). S4 geregi iki dayanakli iddia arasinda secim yapmadim, ayri 'cozulmemis_celiskiler' bolumune tasidim, acik soru olarak birakildim. Simdi SIRADAKI konusunda kendi secimim: bu gece cok uzun bir oturum oldu (bes bolge + iki mukerrer turu), burada DURMAYI seciyorum. Kalan 11 Kuzey Amerika kunyesi ve sarawak-brooke celiskisi acik kalemler olarak kayitli. Yeni bir gorev ya da baska bir oturuma devir konusunda karari sana birakiyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
