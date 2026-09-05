@@ -183,6 +183,25 @@
    "not_kaynak": "1/4 — ilk turdaki (1719, Rio Grande baskını) aralık dışı sorunu hâlâ geçerli; bu ikinci arama YENİ ve aralık İÇİNDE bir olay buldu. İkinci ek olay için vakit kalmadı."
   },
   {
+   "id": "ponka",
+   "eklenen": [
+    {"t": "1877-01-01", "tur": "isgal", "b": "ABD askerleri, Ponka'yı Nebraska'daki Niobrara vadisi topraklarından zorla çıkarıp Oklahoma'ya sürdü; 700'den fazla kişi 500 milden uzun bir yürüyüşte üçte bir oranında kayıp verdi", "kaynak": "bulunamadı (TDV yok) — standart akademik/kurumsal kaynak (Nebraska State Historical Society), doğrulandı."},
+    {"t": "1879-05-12", "tur": "hukumdar", "b": "Standing Bear v. Crook davasında Yargıç Elmer Dundy, bir Kızılderilinin de yasa önünde 'kişi' sayıldığına hükmedip Ponka'ların serbest bırakılmasını emretti — ABD tarihinde bir ilk", "kaynak": "bulunamadı (TDV yok) — standart akademik kaynak, GÜN hassasiyeti çevrimiçi ikincil kaynaklarla ('Standing Bear v. Crook') doğrulandı."}
+   ]
+  },
+  {
+   "id": "klamath",
+   "eklenen": [
+    {"t": "1872-11-29", "tur": "savas", "b": "Modoc Savaşı başladı: Klamath Rezervasyonu'na yerleşmeyi reddedip Kayıp Irmak bölgesine dönen Modoclar, ABD ordusunun zorla geri getirme girişimine direndi", "kaynak": "bulunamadı (TDV yok) — standart akademik kaynak, GÜN hassasiyeti çevrimiçi ikincil kaynaklarla ('Modoc War') doğrulandı."}
+   ]
+  },
+  {
+   "id": "yupik",
+   "eklenen": [
+    {"t": "1885-01-01", "tur": "hukumdar", "b": "Moravyan misyonerleri, geleneksel Yup'ik köyü Mamterillermiut yakınında Kuskokwim Irmağı üzerinde Bethel misyonunu kurdu", "kaynak": "bulunamadı (TDV yok) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('History of Bethel') doğrulandı."}
+   ]
+  },
+  {
    "id": "wicita",
    "eklenen": [
     {"t": "1719-01-01", "tur": "antlasma", "b": "Fransız kâşifler La Harpe ve Du Tisné, Arkansas Irmağı boyunca Wiçita köylerinde ticaret istasyonları kurdu; Wiçita'lar (Fransızca'da 'Taovayas') Fransız-yerli ticaretinde aracı oldu", "kaynak": "bulunamadı (TDV yok) — standart akademik/kurumsal kaynak (Texas State Historical Association), doğrulandı."}
