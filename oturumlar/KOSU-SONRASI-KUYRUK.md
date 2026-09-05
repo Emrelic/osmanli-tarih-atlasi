@@ -108,7 +108,29 @@
 8  RENK                bosna #2f1896 → #ea12ea
                        + polonya-erken'e RENK ÜRET (renk_olc.py --oner)
                        sonra: py arac/renk_olc.py
-9  R1 SINAVI           py denetim/ARAC-DIKIS-0904-olc.py
+9  R1 SINAVI  🔴 ÖLÇÜT DEĞİŞTİ (16:15) — PARÇA SAYISI DEĞİL **km²**
+   🟢 TABAN DOĞRULANDI: 640 / 34.318 km² **R1-ÖNCESİ** geometridir —
+      `R1 indi 4 Eyl 17:32:38` · `koşu 4b çıktısı 4 Eyl 16:56:38`
+      ⇒ R1, 4b bittikten **36 dk SONRA** indi. Kıyas ANLAMLI.
+   🔴 Reçetenin *"<10 parça"* eşiği **TAŞINAMAZ** — dört fark ölçüldü:
+      kapsam (Avrupa ↔ global) · zemin (`ne_10m_land` ↔ `motor_kara`,
+      R15 bilerek) · petek (2731 ↔ 3805) · **alan tabanı** (reçete
+      <5 km²'yi eledi, alet elemiyor)
+   🎯 **KABUL ÖLÇÜTÜ (koordinatör hükmü):**
+```
+🟢 GEÇTİ      dikiş km² 34.318'den DÜŞER, ve düşüş en büyük
+              parçalarda görünür (`--ayrıntı` ilk 15)
+🟡 BELİRSİZ   düşer ama az ⇒ R1 çalıştı, dikişin kökü BAŞKA
+🔴 KALDI      km² ARTAR ⇒ R1 çalışmadı ya da bir gerileme geldi
+⚠️ parça SAYISI raporlanır ama EŞİK DEĞİLDİR — bilgi, ölçüt değil
+```
+   ⚠️ **VE BİR ÇEKİNCE:** geometri **veri + kodun** fonksiyonu. 4b ile
+      5b arasında R1 (kod) değişti; **verinin değişip değişmediği
+      ÖLÇÜLMEDİ.** Düşüş görülürse tamamı R1'e yazılamaz — önce
+      girdi kümesi 4b ↔ 5b karşılaştırılmalı.
+   ⚪ ÖLÇÜLEMEDİ: 640'ın kaçı Avrupa kutusunda, kaçı <5 km² — alet kutu
+      argümanı almıyor ve `--ayrıntı` yalnız 15 satır basıyor.
+      Ölçmek aleti DEĞİŞTİRMEYİ gerektirirdi (`§7`, dokunulmadı).           py denetim/ARAC-DIKIS-0904-olc.py
                        taban: DİKİŞ 640 parça / 34.318 km²
 10 KAPANIŞ             denetle.py → durum_tablosu → surum_damgala → yayın
 ```
