@@ -1,0 +1,177 @@
+
+
+##################################################################
+# TOKENSİZ YAYIN ZİNCİRİ — başlangıç 2026-09-05 02:40:26
+##################################################################
+
+==================================================================
+ADIM: üretim (uret_petek.py) — ölçülen en uzun koşu 16s09dk   (02:40:26)
+==================================================================
+     Kara-kısıtlı sahiplik: eğim yüzeyi (DE        28sn        25sn  % 0.0
+     Kara-kısıtlı sahiplik: Dijkstra (kara     2dk 14sn    2dk 12sn  % 0.2
+     Kara-kısıtlı sahiplik: A/B ölçümü (eği    2dk 04sn    2dk 02sn  % 0.2
+     Kara-kısıtlı sahiplik: parçaları sına          8sn         8sn  % 0.0
+     Çöl tavanı                               44dk 51sn   35dk 45sn  % 3.8
+     Motorun çizdiği kara (motor_kara.geojs        42sn        41sn  % 0.1
+     Petek alanları (yedinci denetim)          5dk 46sn    5dk 43sn  % 0.5
+     Varlık epokları (kur:/bit:) — kuşatılm   31dk 34sn   31dk 12sn  % 2.7
+     Bölge sınırları (k1/k2 merkezleri)             9sn         9sn  % 0.0
+     Yabancı devlet gövdeleri               16s 14dk 32sn 14s 47dk 33sn  %82.3
+     Dönemler kuruluyor (delta yapısı)      1s 43dk 46sn 1s 40dk 56sn  % 8.8
+     Uzak coğrafya seyreltme (yabancı havuz    5dk 11sn    3dk 48sn  % 0.4
+     Çıktı yazımı (petek_govde.js + donemle         6sn         5sn  % 0.0
+     Çıktı kıyası (geçen koşuya göre)               2sn         1sn  % 0.0
+     donemler.js yazımı                             1sn         1sn  % 0.0
+     (aşama dışı: kurulum/import)                          0sn  % 0.0
+   ----------------------------------------------------------------
+     ÇAPRAZ SAYAÇ — yukarıdaki aşamaların İÇİNDE geçen süre
+     (toplama EKLENMEZ; hangi aşamada olduğu değil, NE OLDUĞU)
+     yabancı gövde geometrisi              3602 çağrı 14s 19dk 09sn  %72.6
+     kuşatılmışlık (_kusatilmis)           1833 çağrı 2s 02dk 28sn  %10.3
+     Osmanlı gövde geometrisi               537 çağrı 1s 02dk 51sn  % 5.3
+     serbest kenar (sahipsiz sınır)         537 çağrı    40dk 22sn  % 3.4
+     varlık devri (petek_epok)              209 çağrı     3dk 10sn  % 0.3
+   ================================================================
+→ kod=0 · 1185.2 dk
+
+==================================================================
+ADIM: devirler (uret_devirler.py)   (22:25:37)
+==================================================================
+     RENK acikma IKINCI GECIS (2 kimlik) - saf L-lift komsuya cok yaklastiriyordu, ton acisi da kaydirildi (ORHANGAZI M-1848):
+       L*=55.1  fransa-cumhuriyet            #09095a -> #00297c  (<-ingiltere DE=18.5)
+       L*=57.8  ferrara                      #300c93 -> #7a005c  (<-mantua DE=19.6)
+     UYARI aciklik tavani: 1 kimlik ALTLIKTAN yeterince ayrismiyor (esik DE 15) - zemine karisip GORUNMEZ olabilir:
+       DE  15.0  ispanya                      #d59f63   <- kroma artirilarak duzeltilmeli
+     UYARI alan: 's.kesinlik' BILINEN_ALANLAR'da yok — 2 kayıtta (yerlesimler.js:Vidin, yerlesimler_ok106.js:Kızıkermen (Gazi Kerman)). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
+     ✓ ispanya      1538-01-01 → 1539-01-01     1 yerleşim   taban doğrudan
+     ✓ avusturya    1737-07-01 → 1737-10-01     1 yerleşim   taban doğrudan
+     ✓ rusya        1771-07-01 → 1783-04-19     7 yerleşim   taban doğrudan
+     ✓ avusturya    1788-04-24 → 1791-08-04     1 yerleşim   taban doğrudan
+     ✓ avusturya    1789-10-13 → 1791-08-04     1 yerleşim   taban doğrudan
+     ✓ fransa       1798-07-01 → 1801-10-09     7 yerleşim   taban doğrudan
+     ✓ rusya        1806-01-01 → 1812-05-28     2 yerleşim   taban doğrudan
+     ⚠️ rusya 1806-11-30: taban KARIŞIK {'v': 2, 'd': 1} — tek sahipRenk yanlış olur, bölüm ikiye ayrılmalı
+     ✓ rusya        1806-11-30 → 1812-05-28     3 yerleşim   taban tâbi
+     ✓ rusya        1809-12-02 → 1812-05-28     1 yerleşim   taban doğrudan
+     ✓ rusya        1810-09-26 → 1811-06-01     1 yerleşim   taban doğrudan
+     ✓ rusya        1828-05-01 → 1834-01-01     2 yerleşim   taban tâbi
+     ✓ rusya        1828-06-23 → 1829-09-14     1 yerleşim   taban doğrudan
+     ✓ avusturya    1878-07-29 → 1908-10-05    14 yerleşim   taban doğrudan
+     ✓ avusturya    1878-09-18 → 1908-10-05     1 yerleşim   taban doğrudan
+     ✓ ingiltere    1882-09-13 → 1914-12-18    55 yerleşim   taban tâbi
+   
+   data/devirler.js yazıldı — 10 antlaşma, 56.6 KB
+      kaynak geometri özeti: f9b673bf1449c432…
+→ kod=0 · 1.0 dk
+
+==================================================================
+ADIM: altlık (uret_altlik.py)   (22:26:38)
+==================================================================
+   uret_petek.py'den okunan sabitler:
+      BOLGE [-180.0, -60.0, 180.0, 85.0] · KARA_TOL 0.002 · SADE_TOL 0.012 · SIRT_BUFFER -0.12 · BUYUK 82 ad
+   gol (motorun olcutuyle)...
+     goller.js: 1 tarihî göl düzeltmesi (Aral Gölü)
+      705 gol cizildi · 135 MODERN BARAJ elendi
+   kara...
+      kara: MOTORUN ORTUSUNDEN alindi (sapma insa geregi 0)
+   nehir (pencere ici HEPSI)...
+   dag_alan + sirt_motorun...
+   
+   katman            parca        bayt
+   ------------------------------------
+   kara                  1   7828.94 KB
+   gol                   1    619.12 KB
+   nehir              1454   1684.53 KB
+   dag_alan            205    226.53 KB
+   nehir_motorun        43     65.63 KB
+   sirt_motorun        205    362.22 KB
+   ------------------------------------
+   TOPLAM                      10.53 MB
+   
+   data/altlik.js yazildi — 10.54 MB
+→ kod=0 · 0.9 dk
+
+==================================================================
+ADIM: bekleyenler (uret_bekleyenler.py)   (22:27:34)
+==================================================================
+   data/bekleyenler.js yazıldı
+      — SENDEN BEKLENEN         0 satır
+      — KÜLLİYAT ÇÖZÜLDÜ        0 satır
+      — GÖRSEL DOĞRULAMA        0 satır
+      ✓ KARAR BEKLEYENLER      17 satır
+      ✓ KUTUDAN GELEN YENİ KALEMLER 17 satır
+      ✓ 4 EYLÜL — BEŞ KARAR    17 satır
+      — İSTERSEN                0 satır
+      — HASADI                  0 satır
+      — SIRADAKİ DALGA          0 satır
+      — EKİP ÇİZELGESİ          0 satır
+      — DEVRİ                   0 satır
+      — VERDİĞİN                0 satır
+      — KAPANANLAR              0 satır
+      açık iş: beklenen 0 · görsel 0 · karar 17  →  ROZET 17
+      (isteğe bağlı 0 — rozete girmez)
+→ kod=0 · 0.0 dk
+
+==================================================================
+ADIM: renk ölçümü (renk_olc.py)   (22:27:35)
+==================================================================
+   AYNI ANAHTARI PAYLAŞIP TARİHİ ÖRTÜŞEN — 0 çift (ΔE 0!)
+     (devletler.js 591 kayıt · 6 anahtar paylaşımlı · 6 anahtar ardışık/örtüşmesiz: susuldu)
+   ========================================================================
+     yok
+     UYARI alan: 's.kesinlik' BILINEN_ALANLAR'da yok — 2 kayıtta (yerlesimler.js:Vidin, yerlesimler_ok106.js:Kızıkermen (Gazi Kerman)). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
+   
+   ========================================================================
+   AYNI HEX'İ PAYLAŞIP EŞZAMANLI VE 600 KM'DEN YAKIN — 0 çift (ΔE 0!)
+   ========================================================================
+     yok
+     i 4 çift ÖLÇÜLEMEDİ — canlı veride dönemi olmayan kimlikler ('ölçülemedi' ≠ 'temiz') — dökümü: --ayrinti
+     UYARI alan: 's.kesinlik' BILINEN_ALANLAR'da yok — 2 kayıtta (yerlesimler.js:Vidin, yerlesimler_ok106.js:Kızıkermen (Gazi Kerman)). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
+     UYARI alan: 's.kesinlik' BILINEN_ALANLAR'da yok — 2 kayıtta (yerlesimler.js:Vidin, yerlesimler_ok106.js:Kızıkermen (Gazi Kerman)). Yazım hatası mı, yeni şema alanı mı? girdi.py'ye kaydet.
+   
+   ========================================================================
+   YAKIN AMA DEĞMEYEN — 1 İHLAL (ΔE < 12 · eşzamanlı · 600 km'den yakın)
+     (Voronoi komşusu olmayan 123 çift kuruldu; komşu olanları yukarıdaki bölüm basıyor)
+   ========================================================================
+      11.41    297 km  bizans               ↔ bosna                1281-1479
+   
+     i 122 çift SINIRDA (12 ≤ ΔE < 15) — EKRAN, çıkış kodunu etkilemez — dökümü: --ayrinti
+     i 372 çift ÖLÇÜLEMEDİ ('ölçülemedi' ≠ 'temiz') — dökümü: --ayrinti
+   
+   ========================================================================
+     🔴 0 görünmez · 0 çakışma · 0 aynı-anahtar örtüşmesi · 0 aynı-hex çakışması · 1 yakın-ama-değmeyen
+→ kod=0 · 0.3 dk
+
+==================================================================
+ADIM: ALTI DEĞİŞMEZ (denetle.py)   (22:27:54)
+==================================================================
+                        1554-01-01  Pîrî Reis'in idamı
+                 0.429  1798-07-21  Piramitler Muharebesi ve Kahire'nin Fransızl
+                        1798-10-23  Preveze'nin Fransızlardan alınışı — Nikopoli
+                 0.400  1918-03-03  Brest-Litovsk Antlaşması: Kars, Ardahan ve B
+                        1918-05-25  Elviye-i Selâse: Kars ve Ardahan'ın geri alı
+                 0.375  1918-03-03  Brest-Litovsk Antlaşması: Kars, Ardahan ve B
+                        1918-04-14  Batum'un geri alınışı
+                 … 1 çift daha (--ayrinti)
+   Ek denetim  i  savaş senkronu: 163/171 kaydın ±30 gün içinde maddesi var
+               i 8 kayıt açık — ihlal DEĞİL, çünkü çoğu
+                 KUŞATMA BAŞLANGICI↔SONUÇ kaymasıdır: dizin kuşatmanın
+                 başladığı günü, kronoloji bittiği günü yazıyor.
+                 İkinci tarih alanı gelince ölçüt sonuca bakacak.
+                 1364-07-01  meydan   Sırpsındığı                     -547g  Batı Trakya'ya iniş: Gümülcine'nin
+                 1620-09-17  meydan   Cecora (Ţuţora)                 +387g  Hotin Seferi ve Hotin Antlaşması
+                 1480-05-23  kusatma  Rodos kuşatması                  +66g  Rodos kuşatmasının başarısızlığı
+                 1683-07-14  kusatma  II. Viyana kuşatması             +60g  II. Viyana Kuşatması bozgunu
+                 1638-11-15  kusatma  Bağdat kuşatması                 +39g  Kemankeş Kara Mustafa Paşa sadraza
+                 1621-09-02  kusatma  Hotin kuşatması                  +37g  Hotin Seferi ve Hotin Antlaşması
+                 1657-07-19  deniz    Çanakkale zaferi                 +37g  Çanakkale zaferi ve Bozcaada'nın g
+                 1511-03-01  isyan    Şahkulu (Teke)                   +31g  Şahkulu isyanının başlaması
+      ⚠️ SINIRDA: 8 nokta ham göl poligonunun içinde ama sadeleştirilmişin dışında (ihlal DEĞİL, motor da böyle görüyor — ama nokta suyun üstünde): Detroit (Fort Pontchartrain du Détroit), Hantayka zimovyesi, Fort Rae (Behchokǫ̀), Ennadai (Ihalmiut, Karayer İnuit), Big Trout Lake (Kitchenuhmaykoosib), Nichicun (HBC iç karakolu)
+   Ek denetim  ✓  konum: 0 nokta kara maskesinin dışında (beklenen 0)
+   
+   SONUÇ: temiz
+→ kod=0 · 2.4 dk
+
+==================================================================
+ADIM: YAYIN KAPISI (denetle_yayin.py)   (22:30:19)
+==================================================================
