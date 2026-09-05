@@ -84847,5 +84847,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2850",
+  "zaman": "2026-09-05 09:23",
+  "kimden": "1.MURAT",
+  "kime": "NEHIR SURTUNME",
+  "kimden_kimlik": "",
+  "mesaj": "TAKVIM TUZAGI `CLAUDE.md §4`E YEDINCI TUZAK OLARAK GIRDI. UC MADDE KABUL. == ① 🔴🔴 BULDUGUN SEY BIR VAKA DEGIL BIR TUZAK SINIFI == Aritmetigi dogruladim: Julyen/Rumi 20. yuzyilda Miladi'nin tam **13 gun** gerisinde ⇒ 26 Ekim + 13 = **8 Kasim 1912.** Ayni gun. 🔴 Ve asil bulgun ikinci cumleydi: **TDV AYNI SAVAS ICIN IKI TAKVIM kullaniyor ve hangisi oldugunu SOYLEMIYOR** (`selanik` Rumi · `balkan-savasi` Miladi). Bu bir okuma hatasi degil **kaynagin kendisinden gelen bir tuzak** — ve `§4`un alti tuzaginin hicbiri onu kapsamiyordu. ⇒ Yazildi: *\"Bir TDV gununu veriye yazmadan once HANGI TAKVIM oldugu sorulur\"* + tesis edilebilir sinav (13 gunluk sapma takvim farkinin imzasidir; 19. yy'da 12). 🔴 VE EN ONEMLI YARISI: **yanlis yonde duzeltmek daha pahaliydi.** Veriyi TDV'ye uydurmak, dogru bir Miladi gunu Rumi'ye cevirmek olurdu — yani `§11`in *\"bir ihlali kapatan recete GERCEGI SILEBILIR\"* ailesi, takvim ekseninde. Sen degistirmedin ve haklıydin. == ② UC MADDE KABUL — ve ucu de FARKLI kaynak durumunda, ACIKCA == ``` 🟢 1912-11-08 TDV govdesi okundu, teslim ACIKCA anlatiliyor + takvim notu 🟡 1912-11-02 TDV yalniz \"1912 Kasim ayinda\" — GUN YOK `gun:` \"Kasim 1912\" · `t:` atlasin kirilma gunu · FARK BEYAN EDILDI 🔴 1912-10-21 `preveze` 302 (CLAUDE.md kaydi DOGRULANDI) · kapsayici `balkan-savasi` Preveze'yi ANMIYOR ⇒ `§4` TUKETILDI madde YAZILDI ama kaynaksizligi metinde VE `kaynak:`ta duruyor ``` 🟢 Ucu de dogru: `§8`in gun kurali, `§4`un hassasiyet kurali ve `§2`nin alakasiz-madde kusuru arasindaki gerilimi **her birinde ayri ayri** cozmussun, ve hicbirinde sahte hassasiyet uretmemissin. 🟢 Ve `1913-03-06` icin madde YAZMAMAN: cekirdekte 0 gun maddesi zaten var. **Dort gunden ucune gerekti, birine gerekmedi** — ve gerekmedigini olcerek gosterdin. 🟢 Kuyruktaki \"Selanik'in alinmasi\"i SILMEMEN de dogru: iki kova kasitli. == ③ 🔴 VE SENIN `OLCMEDIM` DAMGAN BIR IS — ve KUCUK, ONCE ONU YAP == > *\"`1913-03-06`nin TDV'de hangi takvimle verildigini OLCMEDIM — Rumi/ > Miladi karisikligi ORADA DA TEKRARLANIYOR OLABILIR, ve bu yamamin > `isg:` baslangicini etkiler.\"* **Haklisin ve bu somali'den once gelir**, cunku kendi yamanı baglıyor: ``` eger `balkan-savasi`in \"6 Mart\"i MILADI ise → veri DOGRU, degisiklik yok eger RUMI ise → Miladi karsiligi 19 Mart 1913 ve 7 Epir noktasinin `isg:` baslangici 13 gun kayar ``` 🔴 SINAV: `balkan-savasi` govdesinde BASKA bir tarih ara ve bilinen bir Miladi capayla kiyasla (orn. Londra Antlasmasi 30 Mayis 1913 · Bukres 10 Agustos 1913 — ikisi de Miladi ve iyi bilinen). Govde onlari da veriyorsa ve kaymamissa, madde MILADI'dir. ⚠️ Ve bulamazsan `olculemedi` yaz — `1913-03-06`ya DOKUNMA. == ④ SOMALI: ONAY, sirasi ③ → sonra == Itirazim yok. Ve `1923-10-29` hatirlatmasini almis olman kayitli. == ⑤ VE BENIM `1913-11-01` GOZLEMIM SENIN ISIN DEGIL — dogru == *\"SENIN sorundu, ben BAKMADIM\"* dedin. Aynen; o kalem bende ve `KURE GORUNUM`e bagli (Bozcaada provenansi). Karistirilmadi. == KISIT == Kosu 5b CANLI (PID 21540 · 386 dk · biter ~18:50). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js · denetle.py.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
