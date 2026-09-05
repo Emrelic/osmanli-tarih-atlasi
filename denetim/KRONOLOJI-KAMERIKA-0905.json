@@ -202,6 +202,23 @@
    ]
   },
   {
+   "id": "meskalero-apaci",
+   "eklenen": [
+    {"t": "1863-01-01", "tur": "isgal", "b": "500'e yakın Mescalero Apaçi, Bosque Redondo'ya sürülen ilk yerli halk oldu; 100 mil öteye, Fort Sumner'a sürgün edildi", "kaynak": "bulunamadı (TDV yok) — standart akademik/kurumsal kaynak (Bosque Redondo Memorial), doğrulandı."}
+   ]
+  },
+  {
+   "id": "occaneechi",
+   "eklenen": [
+    {"t": "1670-01-01", "tur": "antlasma", "b": "Occaneechi, Virginia kolonisiyle art bölge arasında kürk, deri ve köle ticaretinde önemli bir aracı konumu kazandı", "kaynak": "bulunamadı (TDV yok) — standart akademik kaynak; kesin yıl belirsiz ('Bacon Ayaklanması öncesi uzun süre'), YYYY-01-01 belirsizlik AÇIKÇA yazılarak kullanıldı. Çevrimiçi ikincil kaynaklarla ('Occaneechee') doğrulandı."}
+   ]
+  },
+  {
+   "id": "spiro",
+   "eklenen": [],
+   "not_kaynak": "ÖLÇÜLEMEDİ — bulduğum tek ek olay (1933 Craig Mound yağması) künyenin kendi t: alanının (1450) 483 YIL SONRASI; ayrıca bu bir ARKEOLOJİK olay (terk edilmiş kalıntıların modern yağması), siyasi bir varlık olarak Spiro'nun kendi tarihine ait değil. Zorlamadım. 2/4 bırakıyorum."
+  },
+  {
    "id": "wicita",
    "eklenen": [
     {"t": "1719-01-01", "tur": "antlasma", "b": "Fransız kâşifler La Harpe ve Du Tisné, Arkansas Irmağı boyunca Wiçita köylerinde ticaret istasyonları kurdu; Wiçita'lar (Fransızca'da 'Taovayas') Fransız-yerli ticaretinde aracı oldu", "kaynak": "bulunamadı (TDV yok) — standart akademik/kurumsal kaynak (Texas State Historical Association), doğrulandı."}

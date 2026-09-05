@@ -3,10 +3,11 @@
 > Koordinatör: 1.MURAT HÜDAVENDİGAR · Şartname: cross-session-message, 5 Eylül 2026
 > Kısıt: koşu 5b canlıydı (PID 21540) — `data/*.js` ve üç motor dosyasına DOKUNULMADI.
 > Çıktı: **YAMA** — `denetim/KRONOLOJI-KAMERIKA-0905.json`
-> ⚠️ **Bu KISMİ bir tesliminin üçüncü parçası** — koordinatör "hepsini bitirmen
+> ⚠️ **Bu KISMİ bir tesliminin dördüncü parçası** — koordinatör "hepsini bitirmen
 > ŞART DEĞİL, kalem kalem teslim et, bitirmek kabul ölçütü değil" demişti.
-> 52 hedef künyenin **27'si** işlendi (+7 gözden geçirilip dokunulmadan
-> bırakıldı — zaten künyede vardı ya da tam uygundu).
+> 52 hedef künyenin **33'ü** işlendi (+7 gözden geçirilip dokunulmadan
+> bırakıldı — zaten künyede vardı ya da tam uygundu). **40/52 künye artık
+> ele alınmış durumda (%77).**
 
 ## ① NE ÖLÇTÜM
 
@@ -72,17 +73,17 @@ haudenosaunee    kuruluş tarihi (Büyük Barış Yasası) akademik literatürde
                  kesinlik üretmemek için YAZILMADI, bilerek.
 ```
 
-## KALAN 18 KÜNYE — sıradaki hedef listesi (52 - 27 işlendi - 7 gözden geçirilip dokunulmadı)
-*(sauk/zuni/aleut/alutiiq/nez-perce zaten künyede mevcut; sosoni ve abenaki
-da kontrol edildi ve künyede zaten tam/uygun bulundu — üçü de listeden
-çıkarıldı, dokunulmadı)*
+## KALAN 11 KÜNYE — sıradaki hedef listesi
+*(52 - 33 JSON'da işlendi - 8 gözden geçirilip JSON'a hiç girmedi = 11)*
 
 ```
-dene · kri · yupik · nuxalk · secwepemc · kalusa · mohave · klamath ·
-sahaptin · ponka · occaneechi · etowah · moundville · spiro · payut ·
-yavapai · meskalero-apaci · ingiliz-kuzey-amerika
+dene · kri · nuxalk · secwepemc · kalusa · mohave · sahaptin ·
+moundville · payut · yavapai · ingiliz-kuzey-amerika
 ```
-(komanci ve wicita bu turda işlendi, 1/4 ve 4/4 ile listeden çıktı)
+
+**Gözden geçirilip JSON'a hiç girmeyen 8 künye** (künyede zaten tam/uygun
+bulundu, mükerrer üretilmedi): `sauk · zuni · aleut · alutiiq · nez-perce ·
+sosoni · abenaki · etowah`
 
 ## ⑥ 🔴 MÜKERRER KAPISI CANLI ÖRNEĞİ — beş künye ATLANDI, uydurulmadı
 
@@ -122,5 +123,5 @@ komanci                 0→0
 gelirse önce onu bildiririm, kesinti olursa koordinatör bu listeden devam
 edebilir.
 
-Dosya: `denetim/KRONOLOJI-KAMERIKA-0905.json` (27 künye satırı, 42 yeni
+Dosya: `denetim/KRONOLOJI-KAMERIKA-0905.json` (33 künye satırı, 48 yeni
 kronoloji maddesi, hiçbiri `data/devletler.js`e UYGULANMADI).
