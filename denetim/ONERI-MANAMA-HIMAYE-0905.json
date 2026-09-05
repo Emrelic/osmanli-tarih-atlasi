@@ -1,0 +1,97 @@
+{
+ "🔴_BASLIK": [
+  "MANAMA (BAHREYN) — himaye biciminin UCUNCU hali.",
+  "🔴 VE SEVKIN UC ADAY TARIHININ UCU DE YANLIS CIKTI: 1861 · 1880 ·",
+  "1892. Dogru tarih bunlarin HICBIRI degil — 29 TEMMUZ 1913.",
+  "ONERIDIR, VERI YAZILMADI."
+ ],
+ "ust": {
+  "oturum": "KURE GORUNUM",
+  "sevk": "M-3004 (1.MURAT)",
+  "damga": "2026-09-05",
+  "cins": "ONERI — kosu 5b canli, data/*.js YASAK",
+  "hedef": "Manama (Bahreyn) · data/yerlesimler.js (mevcut kayit)"
+ },
+ "①_TARIH_—_UC_ADAYIN_UCU_DE_ELENDI": {
+  "yontem": "TDV `bahreyn` govdesi okundu (ham 113.912 · metin 22.464 kar.). 🔴 Rakam bulup GECMEDIM: \"Bu tarihte\" zamirinin ONCULU ayrica okundu (§4⑧ · `nube` dersi).",
+  "1861": {
+   "TDV": "\"21 Mayıs 1861'de İngiltere ile Bahreyn'i temsilen Şeyh Muhammed'in kardeşi Ali, bölgede KÖLE TİCARETİNİ ve KORSANLIĞI MENEDEN bir anlaşma imzaladılar.\"",
+   "hukum": "🔴 HIMAYE DEGIL — kole ticareti/korsanlik antlasmasi",
+   "ek": "⚠️ Ve GUNU de 21 Mayis; atlas 31 Mayis tasiyor. Bu fark ZATEN BEYAN EDILMIS (bkz. ⑤) — ama bu oneriyi etkilemiyor, cunku 1861 hangi gun olursa olsun HIMAYE DEGIL."
+  },
+  "1880": {
+   "TDV": "\"1880 yılında Türk gemileri Bahreyn'i ziyaret etti ve donanma kumandanı Bahreyn'in OSMANLI DEVLETİ'NE ait topraklar içinde kaldığını bildirdi.\"",
+   "hukum": "🔴 Ingiliz himayesi DEGIL — OSMANLI iddiasi"
+  },
+  "1892": {
+   "TDV": "\"1892'de Basra valisi tekrar bölgenin OSMANLI DEVLETİ'NE ait olduğunu açıkladı.\"",
+   "hukum": "🔴 Ingiliz himayesi DEGIL — OSMANLI iddiasi"
+  },
+  "🟢_DOGRU_TARIH": {
+   "deger": "1913-07-29",
+   "TDV_oncul": "\"29 Temmuz 1913'te, Hakkı Paşa ile Sir Edward Grey arasında Londra'da imzalanan beş numaralı mukavelenâme uyarınca, Osmanlı Devleti Bahreyn adaları üzerindeki haklarından vazgeçerek buranın bağımsızlığını tanımak ve İngiltere de bu adaları İLHAK ETMEYECEĞİNİ açıklamak suretiyle meseleyi kapatmışlardır.\"",
+   "TDV_hukum": "\"BU TARİHTE Osmanlılar'ın hükümranlıktan vazgeçmeleri üzerine İNGİLİZ HİMAYESİNE GİREN Bahreyn 1968'de…\"",
+   "oncul_dogrulamasi": "🟢 \"Bu tarihte\" bir onceki cumleye isaret ediyor ve o cumle 29 Temmuz 1913. Cumle sirasi 154→155, arada baska tarih YOK.",
+   "kunye_teyidi": "🟢 `bahreyn` kunyesinin KENDI kronolojisi de ayni gunu tasiyor: \"1913-07-29 antlasma: Osmanlı, Hakkı Paşa-Grey antlaşmasıyla Bahreyn iddiasından vazgeçti\"",
+   "gun_hassasiyeti": "🟢 TDV GUN veriyor (29 Temmuz) — uydurma YOK"
+  }
+ },
+ "②_isg_MI_v_MI": {
+  "secim": "isg:",
+  "gerekce": [
+   "Bu gecenin olcumu: `v:` donemlerinin KIMLIK ALANI YOK (423 donem, yalniz f · t · k · enklav) ⇒ `v:` yalniz \"OSMANLI'ya tabi\" diyebiliyor.",
+   "M-2784 Misir emsali: himaye durumunda `s:` YEREL kimlikte KALIR, `isg:` yabanci guc olarak EKLENIR."
+  ],
+  "🔵_CEKINCE": "Semantik olarak HIMAYE ≠ ISGAL. `isg:` bugun elde olan tek yer; model bir ucuncu yuva tasimiyor. Bu, bu sabah olctugum boslugun (Osmanli disi himaye ifade edilemiyor) bir vakasi — cozum degil, MEVCUT KALIP."
+ },
+ "③_KUNYE_PENCERESI": {
+  "bahreyn_f": "1783-01-01",
+  "bahreyn_t": "1923-10-29",
+  "hukum": "🟢 ACIK — `s:bahreyn` atlas ufkuna kadar KALABILIR, kunye duzeltmesi GEREKMIYOR",
+  "ozet_beyani": "\"…1913'te Osmanlı iddiasından vazgeçti (1923 sonrasında da sürdü)\" — sozlesme beyani ZATEN VAR"
+ },
+ "④_ONERILEN_BICIM": {
+  "s": "DEGISMEZ — `bahreyn` 1783-01-01 → 1923-10-29 boyunca KALIR",
+  "isg_ONERILEN": [
+   {
+    "f": "1913-07-29",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak_ONERILEN": "bahreyn — TDV: \"29 Temmuz 1913'te, Hakkı Paşa ile Sir Edward Grey arasında Londra'da imzalanan beş numaralı mukavelenâme uyarınca, Osmanlı Devleti Bahreyn adaları üzerindeki haklarından vazgeçerek… İngiltere de bu adaları ilhak etmeyeceğini açıklamak suretiyle…\" ve \"Bu tarihte Osmanlılar'ın hükümranlıktan vazgeçmeleri üzerine İngiliz himayesine giren Bahreyn…\". İLHAK DEĞİL HİMAYE (TDV açıkça yazıyor).",
+  "🔴_IKI_MEVCUT_YAMA_DA_DUSER": [
+   "yer_yama_1923_duzeltme.js  isg:ingiltere 1861-05-31 → YANLIS TARIH",
+   "yer_yama_gece_v1.js        s:ingiltere  1861-05-31 → YANLIS TARIH VE yanlis KATMAN (metropol, M-2784'e aykiri)"
+  ]
+ },
+ "⑤_🔴_1861_NEREDEN_GELDI": {
+  "🔴_ONCE_KENDI_BULGUMU_CURUTTUM": "Ilk taslakta \"gun yanlis ve gizli\" diye yazmistim. YANLIS: gun farki BEYAN EDILMIS. `olaylar_ek13.js:327` basligi \"⚠️ TDV 21 MAYIS, ATLAS 31 MAYIS\" diyor, :330 \"On günlük fark; İKİSİ DE yazıldı\" diyor, ve maddenin `gun:` alani \"…TDV `bahreyn` 21 Mayıs 1861 der — on günlük fark çözülmedi\" tasiyor. ⇒ Bu gizlenmis bir hata degil, KAYITLI bir acik kalem — projenin dogru davranisi. Kendi ilk hukmumu geri aliyorum.",
+  "🔴_AMA_ASIL_BULGU_DAHA_KESKIN_—_DAIRESEL_KAYNAK": [
+   "data/yerlesimler.js:985 (Manama) `kaynak:` → \"data/olaylar_ek13.js:237-335 … onceki bir oturumun TDV govdesinden cikardigi zincir\"",
+   "data/olaylar_ek13.js:329          → \"Manama kaydindaki MEVCUT DONEM: `ingiltere 1861-05-31 → 1923-10-29`\"",
+   "⇒ IKISI BIRBIRINI KAYNAK GOSTERIYOR. Zincirin disinda bir dayanak YOK."
+  ],
+  "🔴_VE_ZINCIRIN_TEK_ALINTISIZ_KIRILMASI_BU": "Manama `kaynak:` alani ALTI kirilma icin TDV'den DOGRUDAN ALINTI tasiyor (1417 Cebrîler · 1521 \"Portekizliler, 1521'de Bahreyn'i ele geçirdiler\" · 1602 · 1717 · 1753 · 1783). YEDINCI kirilma — 1861-05-31 — alintisiz. ⇒ Kaynak alani doluyken bile bir kirilma DAYANAKSIZ olabiliyor; goz \"kaynak var\" der, sayim \"yedide alti\" der.",
+  "🔴_BEYAN_EDILMEYEN_KUSUR_—_NITELEME": {
+   "yazan": "olaylar_ek13.js:332 b: \"Bahreyn'in İngiltere ile antlaşması — KÖRFEZDE HİMAYE DÜZENİNE GİRİŞ\"",
+   "TDV": "\"…bölgede köle ticaretini ve korsanlığı meneden bir anlaşma\"",
+   "hukum": "🔴 GUN farki beyan edilmis, NITELEME farki EDILMEMIS — ve asil kusur bu. 1861 bir himaye antlasmasi DEGIL.",
+   "ayni_kusur_kayitta_da_var": "yerlesimler.js:985 `neden:` alani: \"Körfez şeyhliklerinde 19. yy'daki İNGİLİZ HİMAYE ANTLAŞMALARINA kadar…\" ⇒ ayni yanlis onculu kayit da tasiyor."
+  },
+  "ayri_kalem": "🔵 `olaylar_ek13.js` maddesinin NITELEMESI ayri bir duzeltme kalemi (kronoloji katmani, baska sahip). BILDIRIYORUM, dokunmadim."
+ },
+ "⑥_DAMGALAR": [
+  "🔴 SEVKIN UC ADAY TARIHI DE ELENDI — 1861 kole ticareti · 1880 ve 1892 OSMANLI iddialari. Dogru tarih hicbiri degil: 1913-07-29.",
+  "🟢 \"Bu tarihte\" zamirinin ONCULU okundu (cumle 154→155) — rakami bulup gecmedim.",
+  "🟢 Kunye kendi kronolojisinde AYNI gunu tasiyor — bagimsiz teyit.",
+  "🟢 TDV GUN veriyor ⇒ uydurma yok.",
+  "🔴 Iki mevcut yamanin IKISI de duser; biri sadece katman, oteki hem katman hem tarih yanlisi.",
+  "🔴 KENDI ILK HUKMUMU CURUTTUM: \"gun yanlis ve GIZLI\" demistim — gun farki BEYAN EDILMIS (olaylar_ek13.js:327·330 ve maddenin `gun:` alani). Gizlenmemis; kayitli bir acik kalem.",
+  "🔴 Yerine daha keskini cikti: yerlesimler.js:985 ile olaylar_ek13.js:329 BIRBIRINI kaynak gosteriyor, ve 1861 zincirin TDV alintisi olmayan TEK kirilmasi (7'de 6 alintili).",
+  "🔴 BEYAN EDILMEYEN kusur NITELEME: \"himaye duzenine giris\" — TDV \"kole ticareti/korsanlik\" diyor. Ayni yanlis oncul kaydin `neden:` alaninda da var.",
+  "⚪ OLCMEDIM: 1913 oncesi Ingiliz nufuzunun (1820 · 1861 · 1880 genel antlasmalari) haritada bir sey gerektirip gerektirmedigini — TDV \"himaye\" kelimesini YALNIZ 1913 icin kullaniyor.",
+  "🔵 SEMANTIK CEKINCE: himaye ≠ isgal; `isg:` mevcut kalip, cozum degil.",
+  "🔴 YAZMADIM: hicbir veri. ONERIDIR."
+ ]
+}
