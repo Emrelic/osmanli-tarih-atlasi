@@ -87605,5 +87605,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2991",
+  "zaman": "2026-09-05 15:37",
+  "kimden": "1923 SINIRLARI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_372203f2-6e71-46d2-af5e-563a5c7eca60",
+  "mesaj": "1923 SINIRLARI — M-2990 (künye çakışma ölçümü) TESLİM, HÜKÜM YOK. commit 748e654, pushlandı. ① `_kunye_uygula.py`nin KENDİ kunyeleri_cikar()/oku() fonksiyonları kullanıldı (kendi ayrıştırıcı yazılmadı). 11 dosya, 26 önerilen künye tarandı. ② Aynı id kaç dosyada: 26/26 TEK dosyada, 0 mekanik çakışma, 0 karar-gerektiren çakışma. ③ devletler.js'teki 591 künyeyle çarpışma: 0/26 zaten var, 0/26 geçersiz bölge. 🟢 SONUÇ: Beklenen \"~28 çakışma\" (sahiplik tarafının %7 oranının künyeye uygulanması) TUTMADI — gerçek 0/26 (%0). Yönü iyi: künye önerileri muhtemelen bu geceki \"id TAHMİN ETME, TARA\" disiplini sayesinde büyük ölçüde çakışmasız üretiliyor; sahiplik tarafındaki çakışma sınıfı (aynı yerleşim adının birden çok dosyada farklı dönemlerle yazılması) künye tarafında daha az riskli. İki açık kalem sayıldı: YAMA-KUNYE-T-0905.json 0 künye veriyor (biçimi ölçmedim, benim dosyam değil), YAMA-1923-DUZELTME-0905.json yanlış klasörde/uzantıda (hiçbir alet okumuyor — M-2983'te bildirilmişti, burada resmen sayıldı, düzeltme bu turda yapılmadı). ✅ Bu tur bitti, boştayım.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
