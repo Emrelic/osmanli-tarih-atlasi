@@ -181,7 +181,73 @@ facto mu de jure mu?"* sorusunun projede tek bir cevabı olsun.
 
 ---
 
-## ⚪ KOVA ATANMADI — `futa-callon` · `tuareg-air`
+## 🟢 EK TUR — `futa-callon` · `tuareg-air` KOVALANDI (M-2720 sonrası)
+
+Koordinatör çelişen değerleri verdi **ve iki hipotez kurdu**, *"benim
+tahminimi devralma, kendi ölçümüne güven"* diyerek. Kaynağa sordum.
+
+### `futa-callon` — 🟡 ÇELİŞKİ DEĞİL · hipotez **TUTTU**
+```
+künye        f:1747-01-01 · t:1896-01-01
+çelişen olay TALANSAN 1727 (künyenin f:'sinden 20 yıl ÖNCE)
+hipotez      "1727 cihadın AÇILIŞ SAVAŞI, 1747 Karamoko Alfa'nın
+              ALMAMİ SEÇİLİŞİ ⇒ hangi olay KURULUŞTUR seçimi"
+```
+**Kaynak — Britannica, *Fouta Djallon*:**
+> *"first organized as a separate political entity as a result of the Fulbe
+> and Malinke jihad led by **Karamoko Alfa and Ibrahima Sori in the late
+> 1720s**"* · *"Alfa Karamoko died in 1751"*
+
+⇒ Hipotez **TUTTU**: 1727 ve 1747 aynı sürecin **iki kilometre taşı**,
+bir hata değil. Kova **🟡 ÇELİŞKİ DEĞİL**.
+⚠️ **AMA BİR NÜANS VE İKİ KAYNAK AYRIŞIYOR:**
+```
+Britannica   siyasî varlığın oluşumu "LATE 1720s"  → 1727'yi destekler
+TDV `gine`   "YAKLAŞIK 1747'de İbrâhim Mûsâ önderliğinde" → künyeyi destekler
+```
+İki kaynak **farklı kilometre taşını** ve **farklı önderi** anıyor.
+⇒ **Düzeltme ÖNERMİYORUM** — künye TDV'ye dayanıyor ve `§4` TDV'yi öncelikli
+tutuyor. Ama künyeye **beyan eklenmeli**: *"1747 almami seçilişidir; cihadın
+açılışı 1727 Talansan'dır"* — `sarawak-brooke`un yaptığı gibi.
+
+### `tuareg-air` — 🟡 ÇELİŞKİ DEĞİL · hipotez **TUTTU**
+```
+künye        f:1405-01-01 · t:1900-01-01
+çelişen olay KAOCEN 1916-17 (künyenin t:'sini 16 yıl AŞIYOR)
+hipotez      "1900 Fransız işgali (bağımsızlığın sonu), Kaocen İŞGAL
+              ALTINDA bir isyan ⇒ nyamvezi gibi AYRI ÖZNE"
+```
+**Kaynak — Britannica, *Agadez* ve *Kaocen Ag Mohammed*:**
+> *"Once the seat of a Tuareg sultanate (dating from the 15th century),
+> Agadez was **occupied by the French in the early 1900s**."*
+> *"In 1916-17 … a Tuareg rebellion **against French colonial
+> administration** … Led by Kaocen Ag Mohammed … laid siege to the town for
+> four months before the French were able to crush the rebellion."*
+
+⇒ Hipotez **TUTTU**: Kaocen bir devletin sonu değil, **işgal altında bir
+isyan**. `nyamvezi`nin Mirambo vakasıyla **aynı sınıf** — iki ayrı özne.
+Kova **🟡 ÇELİŞKİ DEĞİL**, düzeltme **gerekmiyor**.
+⚠️ **ÖLÇMEDİM:** Agadez sultanlığının işgalden sonra bir kurum olarak
+sürüp sürmediğini — Britannica bunu doğrudan söylemiyor. Sürdüyse
+`sarawak-brooke` gibi bir *"ülke sürekliliği"* tartışması doğar.
+⚠️ **OKUMADIM:** Persée'de bulduğum iki akademik makaleyi — *"Kaoucen et le
+siège d'Agadès, 1916-1917"* ve *"Les révoltes des Touareg du Niger
+(1916-17)"*. Künye adıyla kaydedilmeli ama **gövdelerini açmadım**.
+⚠️ Ve `t:1900-01-01` **yuvarlak yıl**; Britannica *"early 1900s"* diyor,
+yani künyenin günü kaynağın hassasiyetini **aşıyor** (`§4` ③ ekseni).
+
+### ⇒ GÜNCELLENMİŞ DAĞILIM
+```
+(B) atlas ufku      3      (C) pencere sonu   1
+(A) gerçek çelişki  4      🟡 çelişki DEĞİL   4  ← nyamvezi · sunda-pajajaran
+                                                  · futa-callon · tuareg-air
+⇒ DÜZELTME GEREKMİYOR: 5 künye (üçüne BEYAN eklenmeli)
+⇒ KOVA ATANMAMIŞ künye: 0 — küme TAMAMLANDI
+```
+
+---
+
+## ⚪ (KAPANDI) KOVA ATANMAMIŞTI — `futa-callon` · `tuareg-air`
 
 Sevk bu ikisini kümeye koydu ama **çelişen değeri bildirmedi**. Kova
 atamıyorum — *"kaynak bulunamazsa kova ATAMA"* kuralının aynısı: **çelişki
