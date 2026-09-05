@@ -28,7 +28,7 @@
                        + denetim/KRONOLOJI-ARNAVUTLUK · KRONOLOJI-SISAM
 3  MISIR `isg:` DÜZELTMESİ   7 kayıt: d:"fransa" → "fransa-cumhuriyet"
                        🔴 4-5'ten ÖNCE (tavan bu düzeltmeye göre ölçüldü)
-4  İKİ MADDE           1737-10-01 Niş · 1878-09-18 Herseknovi
+4  İKİ MADDE           1737-10-01 Niş · 1878-09-18 **BİHAÇ** 🔴 (15:05 DÜZELTME: gün Herseknovi'nin DEĞİL — onun tek `isg:`i 1538-39 İspanya. Bihaç: `isg:[1878-09-18→1908-10-05 avusturya, kaynak:"bihac"]` ⇒ TDV'de günü VAR. Yanlış atıf bir arama turu yaktı.)
                        (`isg:` Değişmez 2'ye girince TAM BU İKİSİ öter)
 5  denetle.py YAMALARI `isg:` evrene eklenir + `harita:` uzayı
                        TAVANLAR: HAYALET 8→9 · ASAN 280→287 · ONCE 468 SABİT
@@ -1700,7 +1700,7 @@ yama başlığındaki *"1828-29 EKSİK"* damgası **silinmeyecek.**
 
 ```
 ① KÜNYE       27 istek · KABUL 23 · RED 4        (sabah "11 künye hazır")
-   🔴 DÖRT RED DE AYNI DOSYADAN: YAMA-KUNYE-HIMAYE-UCUZ-0905.json
+   🔴 DÖRT RED DE AYNI DOSYADAN: ONERI-KAYNAK-HIMAYE-4-0905.json ⟵ *eski ad `YAMA-KUNYE-HIMAYE-UCUZ-0905.json`; glob'un yanlış sahiplenmesini kesmek için değişti, RED 4 → 0*
       sebep: **`bolge:` alanı EKSİK** (nkore · toro · eve-notse · ibadan)
       ⇒ şema kusuru, 2 dakikalık düzeltme — ama düzeltilmezse merge'de
         dört künye SESSİZCE düşer
@@ -1973,7 +1973,7 @@ devir: Lozan, 24 Temmuz 1923
 
 ### 🟢 SIRA HÜKMÜ — `isg:` düzeltmesi yamalardan ÖNCE, ve önünde bir adım daha
 ```
-ⓐ İKİ MADDE YAZILIR   1737-10-01 Niş · 1878-09-18 Herseknovi
+ⓐ İKİ MADDE YAZILIR   1737-10-01 Niş · 1878-09-18 **BİHAÇ** 🔴 (15:05 DÜZELTME: gün Herseknovi'nin DEĞİL — onun tek `isg:`i 1538-39 İspanya. Bihaç: `isg:[1878-09-18→1908-10-05 avusturya, kaynak:"bihac"]` ⇒ TDV'de günü VAR. Yanlış atıf bir arama turu yaktı.)
                       (bu gece ölçüldü: `isg:` uçlarının 102'si Değişmez 2'ye
                        görünmüyor ve YALNIZ BU İKİSİ maddesiz)
 ⓑ `isg:` DEĞİŞMEZ 2 EVRENİNE EKLENİR   (ⓐ olmadan tam iki ihlal doğar)
@@ -2052,7 +2052,7 @@ dokunuyor ve sıra bağlayıcı (künye → kronoloji → sahiplik → renk →
 denetim yamaları → tavan). Dağıtılırsa `§7`nin sessiz veri kaybı.
 
 🟡 **Yan not (aynı turdan):** iki `isg:` ihlalinin ikisi de `avusturya`
-ve Herseknovi, Bosna'dan **51 gün sonra** — 1878 işgali tek günlük bir
+ve BİHAÇ (🔴 metinde Herseknovi yazıyordu, YANLIŞ), Bosna'dan **51 gün sonra** — 1878 işgali tek günlük bir
 olay değil, Temmuz sonundan Eylül ortasına yayılan bir harekât. O iki
 madde yazılırken **süresi** de anlatılmalı.
 
@@ -2082,7 +2082,7 @@ burada gövde değişiyor ama kırılma yok.*
 🟢 **Yani `isg:`i Değişmez 2'nin evrenine eklemek YALNIZ İKİ ihlal üretir:**
 ```
 1737-10-01  Niş · isg:avusturya SONU
-1878-09-18  Herseknovi · isg:avusturya BAŞI  (Bosna 07-29'dan 51 gün sonra)
+1878-09-18  BİHAÇ · isg:avusturya BAŞI  (🔴 Herseknovi DEĞİL — 15:05 ölçümü)
 ```
 📌 Ve bu, *"bir denetimin kapsamını genişletmek pahalıdır"* varsayımını
 çürütüyor: bedeli **iki madde**.
