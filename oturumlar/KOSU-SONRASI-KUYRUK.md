@@ -13,7 +13,12 @@
                        + denetim/YAMA-KUNYE-HURMUZ · YAMA-KUNYE-ARNAVUTLUK
 2  KRONOLOJİ           py arac/_kronoloji_uygula.py --yaz
                        🔴 ÖNCE: 17 gerçek mükerrer yamalardan ÇIKARILACAK
-                       🔴 ve 6 "gün düzeltmesi" AYRI (araç append-only)
+                       🔴 GÜN DÜZELTMESİ 4 — 6 DEĞİL, işçi KENDİ daralttı
+                          malva 1436-05-16 · campa 1471-03-22 ·
+                          ingiliz-malaya 1819-02-06 ·
+                          hollanda-dogu-hint 1619-05 (YALNIZ AY —
+                          gün iddiası GERİ ÇEKİLDİ)
+                          ⚪ sarawak-brooke ÇELİŞKİ, düzeltme DEĞİL
                        + denetim/KRONOLOJI-ARNAVUTLUK · KRONOLOJI-SISAM
 3  MISIR `isg:` DÜZELTMESİ   7 kayıt: d:"fransa" → "fransa-cumhuriyet"
                        🔴 4-5'ten ÖNCE (tavan bu düzeltmeye göre ölçüldü)
@@ -23,14 +28,28 @@
                        TAVANLAR: HAYALET 8→9 · ASAN 280→287 · ONCE 468 SABİT
 6  SAHİPLİK            denetim/yer_yama_*.js → data/ ye TAŞI, sonra
                        py arac/_sahiplik_uygula.py --yaz    🔴 TEK ELDEN
-                       girit 5 · tunus 36 · makdisu 5 · onikiada 13 ·
-                       litvanya 19 · egeadalari 10 · sisam 1 · arnavutluk 2
-                       + 1923 (himaye 4 · yeni nokta 6) + beyan yamaları
+                       🟢 ÖLÇÜLDÜ (doğrulayıcı çıktısı, 08:35):
+                          16 DOSYA · 148 KAYIT · bunların 48'i YENİ NOKTA
+                       tunus 36 · doguasya 19 · litvanya 19 · onikiada 13 ·
+                       egeadalari 10 · gronland_col 9 · sibirya_beyan 8 ·
+                       1923_nepal_karayip 6 · 1923_yeni 6 · girit 5 ·
+                       makdisu 5 · 1923_duzeltme 4 · dogumakedonya 4 ·
+                       arnavutluk 2 · sisam 1 · 1923 1
                        🔴 8 ÇAKIŞMA önce karara bağlanacak (Bağdat · Başkale ·
                           Halepçe · Kasr-ı Şîrîn · Kutaisi · Yergöğü ·
                           Çaldıran · Şehrizor)
-                       🔴 YENİ NOKTALAR araçla İNMEZ — elle eklenecek
-7  YAKUT DÜZENLEMESİ   39 kayıt `bos:` devletsiz → kabile
+                       🔴 48 YENİ NOKTA ARAÇLA İNMEZ — ELLE, ve HANGİLERİ belli:
+                          doguasya 19 · gronland_col 9 · sibirya_beyan 8 ·
+                          1923_nepal_karayip 6 · 1923_yeni 6
+                          ⚠️ ve o kayıtlarda `lat/lon/kur/kasitli_bosluk`
+                             alanları var — uygulayıcı onları TAŞIMAZ,
+                             elle girerken düşmemeli
+7  YAKUT DÜZENLEMESİ   6 kayıt — 39 DEĞİL, işçi KENDİ daralttı
+                       Yakutsk · Vilyuysk · Olyokminsk · Jigansk ·
+                       Verhoyansk · Bulun  →  devletsiz → kabile
+                       ⚪  2 kayıt devletsiz KALIR (Anadır · Çukotka)
+                       ⚪ 31 kayıt KARAR VERİLEMEZ — kaynak yok, damga
+                          "okumadım". Delil yokluğu ne devletsiz ne kabile.
                        🔴 yamayla İNMEZ (SKALER_KORUNAN) — ELLE
 8  RENK                bosna #2f1896 → #ea12ea
                        + polonya-erken'e RENK ÜRET (renk_olc.py --oner)
@@ -39,6 +58,29 @@
                        taban: DİKİŞ 640 parça / 34.318 km²
 10 KAPANIŞ             denetle.py → durum_tablosu → surum_damgala → yayın
 ```
+
+> 🔴 **VE BU LİSTE OTUZ DAKİKADA İKİ YERDEN BAYATLADI (5 Eylül 08:20 → 08:50).**
+> `6 gün düzeltmesi → 4` ve `39 Yakut kaydı → 6`. **İkisini de işçiler
+> KENDİ daralttı**, ikisi de benim yazdığım sayıydı, ve ikisi de benim
+> **kendi cümlelerinden** türetilmişti:
+> ```
+> "senin '6' sayin benim muglak cumlemden geldi"          (gün düzeltmesi)
+> "hukmun dayanagi TDV `yakutlar` alintisi ve o alinti
+>  YALNIZ YAKUTLARI kapsiyor"                              (Yakut)
+> ```
+> 📌 `§1.5`in *"bir kez bayatlayan belge tekrar bayatlar"* dersi — ve
+> çaresi burada listeyi silmek DEĞİL, çünkü sıra bilgisi üretilemiyor.
+> ⇒ **Bu blok her okunuşta tarihine bakılır.** Damgası yukarıda duruyor.
+
+> ⚠️ **VE ADIM 6'NIN SAYISI DA BAYATTI: "11 yama" yazmıştım, ölçüm 16 DOSYA
+> / 148 KAYIT dedi.** Farkı kapatan şey bir hatırlama değil, `denetim/
+> ARAC-YAMA-JS-SINA-0905-kos.py`nin **kendi çıktısı** — yani `§11`in
+> *"bir sayı bir şartnameye giriyorsa ya kendi dilinde ayrıştır ya var
+> olan ÜRETECİ çağır"* kuralı. Üreteç vardı ve çağrılmamıştı.
+> 🔴 Ve asıl kazanç sayı değil: **48 kaydın atlasta karşılığı YOK** —
+> yani uygulayıcı onları sessizce atlardı ve gecenin nokta işinin üçte
+> biri kaybolurdu. Doğrulayıcı tam bunun için yazılmıştı ve **merge'den
+> ÖNCE** koşturulduğu için iş kurtarıldı.
 
 ### 🔴 KOŞUYU ÖLÇME — kilit dosyası ölçüm DEĞİLDİR
 ```

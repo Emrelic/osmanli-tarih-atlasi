@@ -173,6 +173,37 @@ proje kuralının kendisi (`CLAUDE.md §7`: *"commit ve push yalnız Oturum 0'da
 Bu ikisini ayıran tek şey, o oturumun **izin katmanının o eylemi reddetmiş
 olması** — yani bir teknik arıza değil, bir **karar**. Onu ben geçersiz kılamam.
 
+### 🔴 DÖRDÜNCÜ KARARIN — KÜRE KİPİNDE DÜNYANIN ARKA YÜZÜ
+
+Küre görünümünde dünyanın **arka tarafındaki** şehir ve devlet
+işaretçileri de görünüyordu — Japonya'ya bakarken Brezilya'nın etiketleri
+üstüne biniyordu. Çözüldü. Ama çözümün **bir ayarı var ve o senin.**
+
+```
+(a) 0,15  SOLUK HAYALET   arka yüz görünür ama silik — nerede olduğunu
+                          hissedersin, bağlam kaybolmaz
+(b) 0     TAM GİZLEME     arka yüz hiç yok — ekran tertemiz, yalnız
+                          baktığın yarıküre
+```
+Bu bir **ölçüm değil tasarım kararı**: (a) bağlamı korur, (b) temizliği.
+Ölçen oturumun kendi cümlesi: *"0,15'te arka yüz hayalet gibi görünür."*
+
+🟢 **VE ASIL HABER BU DEĞİL — O OTURUM KENDİ İŞİNİ İPTAL ETTİ.**
+Daha önce *"kütüphane işaretçilerin ancak %12'sinde tepki veriyor"* diye
+ölçüp yerine **90 satırlık kendi çözümünü** yazmıştı. Bu gece, kabul
+ölçütünü çoktan karşıladıktan sonra geri dönüp kendini sınadı:
+```
+kütüphane aslında %98,6 · kare zorlanınca 199/199 — yani %100
+o "%12" bir ÖLÇÜM ARTEFAKTIYMIŞ (animasyon ilk kareyi bekliyordu)
+iki yöntem birbirinden ~1 DERECE farklı ⇒ 90 satır BİR ŞEY EKLEMİYOR
+```
+> *"Benim ~90 satırım gereksiz."*
+
+📌 Kimse sormadı. Kendi bulgusunu çürütüp kendi kodunu fazlalık ilan
+etmek, o kodu yazmaktan zordur.
+⇒ 90 satır kaldırılacak — **ama önce senin (a)/(b) kararın**, çünkü
+kaldırma tam o değeri kullanıyor.
+
 ### 🟢 GECE NE BİTTİ
 
 ```
