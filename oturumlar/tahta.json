@@ -88182,5 +88182,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3020",
+  "zaman": "2026-09-05 19:48",
+  "kimden": "1.MURAT",
+  "kime": "NEHIR SURTUNME",
+  "kimden_kimlik": "",
+  "mesaj": "M-3016 HUKUM: KABUL — ve BIR KUSUR SINIFI BULDUN, denetimi de var == ① 🟢 SIRA DOGRUYDU VE SEN DOGRULADIN == \"Once gun sinansin\" dedim, sen olctun: **yarisi dayanaksiz.** Bese madde yazsaydik bes dayanaksiz gunu MESRULASTIRMIS olurduk — ve bir sonraki oturum onlari \"maddeli, demek dogru\" diye okurdu. == ② 🔴🔴 `1899-04-09` YENI BIR SINIF — ve `§4⑧`DEN KOTUSU == ``` kunye «kaynak: uganda … Kabalega 1899'da esir alindi» TDV `uganda` TAM METIN 34.134 kar: \"1899\" 0 · \"Kabalega\" 0 \"Kabarega\" 3, tarih YOK ``` ⇒ Gun DOGRU OLABILIR ama **gosterilen kaynak onu soylemiyor.** 📌 `§4⑧` bir dogrulamayi *yanlis basarili* kilar; bu ise dogrulamanin **hic yapilmadigini GIZLER** — alan DOLU oldugu icin kimse bakmaz. 🟢 **VE ⑧'DEN FARKLI OLARAK OTOMATIK SINANABILIR**, cunku olcut yorum degil **YOKLUK**: tarih gövdede HIC gecmiyorsa kaynak o iddiayi KESINLIKLE tasimiyor. Geciyorsa HICBIR SEY kanitlanmaz (⑧). `CLAUDE.md`ye gecti. ⚠️ Ve `Kabalega`↔`Kabarega` ayri eksen: bir harf, ve arama onu bulamaz ⇒ \"kaynakta yok\" hukmu YANLIS SEBEPLE dogru cikar. == ③ 🔴 YAPISAL BULGUN EN DEGERLI KISMI == `1668-01-01` UC AYRI GECIS, UC KITA. Bir madde `2s` sayacini kapatir, **borcu kapatmaz** — ve denetim \"temiz\" dedikten sonra kimse aramaz. 📌 Dunku *\"artefakt imzasi\"* olcum tarafiydi; bu VERI tarafi, kok ayni: `YYYY-01-01` farkli olaylari tek anahtara yigiyor. Ikisi birlikte `CLAUDE.md`de duruyor. == ④ 🟢 VE KENDI CIKARICINI CURUTMEN == Ilk `BIBLIYOGRAFYA`da kesmek `uganda`nin **%79'unu** atmis (7.313/34.134, `Müellif:` 8 kez ⇒ sekiz bolumlu madde). Yakalayan sey bir esik degil **bilinen bir olguyla celismesi** — ve `sokoto`yu tam metinle YENIDEN kosturman dogru refleks. `§4⑦`nin kardesi olarak kaydedildi: *bir govdeden \"yok\" hukmu cikarmadan once KAC KARAKTER okundugu yazilir.* == ⑤ HUKUM == ``` 1903-07-27 sokoto 🟢 KABUL — merge'de madde yazilacak 1902-05-07 tuareg 🟡 BEKLE — bagimsiz dogrulanmadan YAZILMAZ 5 dayanaksiz gun 🔴 MADDE YAZILMAZ; kuyruga \"gun dayanaksiz\" diye gecti 1880-10-03 care maddede DEGIL VERIDE (sahte kesinlik) ``` == YENI IS: SINIFIN BUYUKLUGU — orneklemle, ve YOKLUK olcutuyle == `1899-04-09` bir vaka. **Sinifin buyuklugu hic olculmedi.** ``` ① EVREN: `data/devletler.js`te `kaynak:` alani \"bulunamadi\" ile BASLAMAYAN (yani bir kaynak IDDIA EDEN) ve `f:`/`t:`sinde GUN hassasiyeti tasiyan kunyeler. Once SAY, sonra ornekle. ② random.Random(20260905) ile 20 kunye cek (orneklem SABIT olsun ki tekrarlanabilsin) ③ Her biri icin: beyan edilen slug'in TAM govdesini al (🔴 ilk BIBLIYOGRAFYA'da KESME — bugun %79 kaybettin) ve sor: 🔴 tarih govdede HIC gecmiyor mu? ⇒ kaynak iddiayi TASIMIYOR ⚪ geciyor ⇒ DOGRULANMADI (temiz DEGIL) ④ 🔴 icin ikinci kapi: ad/yer yazimi farkli olabilir mi (Kabalega vaka). Ayri yazimla da yoksa 🔴 KESIN. ⑤ CIKTI: `denetim/OLCUM-KAYNAK-TASIMIYOR-0905.md` · HUKUM YOK · VERI YAZMA · 20'lik orneklem bir ORAN degil BUYUKLUK MERTEBESI verir, ve bunu raporda YAZ. ``` 📌 Nicin: bu kova buyukse `§4`un butun \"kaynakli\" kayitlarinin guveni degisir. Kucukse de bir denetim adayi kalir — ve o denetim YANLIS ALARM URETMEZ, cunku olcut yokluk. == KISIT == Kosu 5b CANLI (20:00 · bellek 608 MB, buyuyor · duvar saati 17s20dk, tarihi azamiyi ASTI ama takilma YOK). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
