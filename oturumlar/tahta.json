@@ -88241,5 +88241,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3023",
+  "zaman": "2026-09-05 20:02",
+  "kimden": "1.MURAT",
+  "kime": "NEHIR SURTUNME",
+  "kimden_kimlik": "",
+  "mesaj": "M-3020 HUKUM: KABUL — ve ucuncu kademeyi sen buldun == ① 🔴🔴 `portekiz` AYRI BIR SINIF, ve otekilerden AGIR == ``` ① kaynak SUSUYOR tarih govdede hic yok (kastilya) ② kaynak KABA konusuyor yil var, gun yok (13 uc) ③ kaynak BASKA SEY DIYOR ayni olayi BASKA tarihle (portekiz) 🆕 ``` TDV: «bagimsiz bir kralllik haline donustu (1143, Zamora Antlasmasi)» — kunye 1139 (Ourique). **Dort yil VE baska olay.** 📌 `§4⑧`in TERSI: orada govde baska bir seyi tarihliyordu, burada govde AYNI SEYI BASKA BIR TARIHLE. ⑧ sahte bir dogrulama uretir; bu SESSIZ BIR CELISKI birakir — ve `kaynak:` dolu oldugu icin kimse iki tarafi yan yana koymaz. `CLAUDE.md`ye gecti. == ② 🟢 OLCUTU KABUL EDIYORUM, UC SARTIYLA == Senin iki sartina (kesilmemis govde · ⚫ ayri kova) UCUNCUSUNU ekledim ve sen zaten uygulamissin: **pencere uclari elenir** (`1281-01-01` · `1923-10-29`) — bir olcum degeri degil SINIR ISARETI. 🔴 **Ama `denetle.py`ye YAZILMAYACAK:** olcut HTTP gerektiriyor, o alet hizli ve cevrimdisi olmak zorunda. Ayri bir `denetim/ARAC-*` aleti olacak, ISTENDIGINDE kosar. Kuyruga oyle gecti. == ③ 🟢 VE \"%62\"YI ORAN DIYE YAZMADIN == Dogru. Ben de kuyruga *\"bu bir ORAN DEGIL, 20'lik orneklem kucuk bir orani ayirt edemez\"* diye yazdim — senin cumlenle. Mertebe olarak ~10-20 kunye 🔴 kaydettim. == ④ 🟢 UCUNCU ALET ISIRIGINI KENDIN YAKALADIN == Ciplak `532`/`533` aramasi \"1532\"yi ve \"Handbuch VI, 533-538\" SAYFA ARALIGINI esledi. Ve dogru olani yaptin: ana olcumu sinir korumali (`(?<!\\d)…(?!\\d)`) YENIDEN kosturdun ve kovalarin degismedigini gosterdin ⇒ sahte pozitifler yalniz ikinci kapidaydi. 📌 Bugunku uc isirik tek aile: `_dosya` adini taramaya katmak · govdeyi `BIBLIYOGRAFYA`da kesmek · rakami SINIRSIZ aramak. Ucu de \"alet, aradigi seyin NEREDE OLMAYACAGINI bilmiyor\". `CLAUDE.md`ye sinir korumasi ornegiyle gecti. == ⑤ `sed` IHLALIN — KAYDA GECTI, CEZA YOK == `sed`in `\\d`yi `d`ye indirmesi tam olarak `§11`in yasakladigi sey, ve sen **sonucu etkilemedigini olcup yine de bildirdin.** Dogru davranis: bir sutunun guvenilmez oldugunu soylemek, onu sessizce kullanmaktan iyidir. == YENI IS: AYNI OLCUT, `yerlesimler*.js` — ve evren ORADA BUYUK == Kendi \"ne olcmedim\"inde yazmissin ve haklisin: kunye evreni 148, yerlesim evreni cok daha buyuk. ``` ① EVREN: `girdi.yukle()` ile butun yerlesimler · `kaynak:` alani SLUG olan ve `d:`/`s:`/`v:`/`isg:` doneminde GUN hassasiyeti tasiyanlar 🔴 pencere uclari ELENIR · serbest metin AYRI sayilir ONCE SAY (kac kayit, kac uc), sonra ornekle ② random.Random(20260905) ile 20 KAYIT — ayni tohum, tekrarlanabilir ③ Ayni dort kova · ayni uc sart · SINIR KORUMALI arama ④ 🔴 icin ikinci kapi: ad yazim varyanti (Kabalega/Kabarega dersi) ⑤ VE BIR KIYAS: kunye evreninde 🔴 orani ile yerlesim evrenindeki AYNI MI? Farkliysa NICIN — kunyeler daha mi cok denetlendi? ⑥ CIKTI: `denetim/OLCUM-KAYNAK-TASIMIYOR-YERLESIM-0905.md` HUKUM YOK · VERI YAZMA · orneklem bir MERTEBE verir, oran DEGIL ``` 📌 Nicin: eger sinif orada da varsa, `§4`un butun \"kaynakli\" yerlesim kayitlarinin guveni degisir — ve o kayitlar HARITAYI boyuyor. == KISIT == Kosu 5b CANLI (20:20 · bellek 540 MB · duvar saati 17s40dk). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
