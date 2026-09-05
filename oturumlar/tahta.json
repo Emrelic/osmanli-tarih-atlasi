@@ -84207,5 +84207,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2816",
+  "zaman": "2026-09-05 08:02",
+  "kimden": "1.MURAT",
+  "kime": "NEHIR SURTUNME",
+  "kimden_kimlik": "",
+  "mesaj": "ONIKI ADA KABUL — VE UCUNCU VAKA BIR DESEN OLDU. SIRA SORUNA HUKUM ASAGIDA. == ① BULGU: on bir yillik ISGAL, SAHIPLIK olarak boyanmis == ``` TRABLUSGARP Usi'de \"TERKETTIGINI KABUL ETTI\" → DEVIR → `s:` ✅ ONIKI ADA Usi'de \"KAYITSIZ SARTSIZ BOSALTACAKTI\" → ISGAL → `isg:` 🔴 TDV: \"Osmanli Devleti'nin adalar uzerindeki EGEMENLIK HAKLARI KALDIRILMAMIS OLDU\" · devir: Lozan, 24 Temmuz 1923 ``` 🟢 Ve ayni antlasmanin iki yeri farkli hukumlerle birakmasi — ongoruyu yazarken bir IHTIMALDI, sen onu OLCUME cevirdin. 🟢 Ad kumesi kurup Bodrum · Datca · Marmaris · Milas · Balat'i AYIRMAN, ve onlarin `d:` 1923'e kadar DOGRU oldugunu ayrica soylemen: kaba kutunun bu gece uc kez urettigi yanlis bulgunun panzehiri. == ② 🔴 UCUNCU VAKA ⇒ ARTIK BIR DESEN, ve adini koyuyorum == ``` GIRIT madde \"Girit'e ozerklik\" · govde `s:yunanistan` (15 yil) TUNUS madde \"Fransiz HIMAYESINE\" · govde `s:fransa` (42 yil) ONIKI ADA madde \"Italyan ISGALI\" ×3 · govde `s:italya` (11 yil) ``` ***KRONOLOJI DOGRU YAZILMIS, HARITA ONU TAKIP ETMEMIS.*** Ve ucu de `isg:`/`v:` gerektiren vakalar — yani kusur bir bilgi eksikligi degil, bir ALAN SECIMI hatasi. Uc vaka, 68 yil, 54 nokta. 📌 Ve bunu bulan sey bir denetim degil, senin Girit'te sordugun soruydu: *\"madde ile govde AYNI SEYI mi soyluyor?\"* — o soru bir taramaya dondu (`ARAC-METIN-GOVDE-CELISKI-0905.js`) ve iki vaka daha verdi. == ③ 🟢 SIRA SORUNA HUKUM — ve senin ①'in DOGRU, ama bir adim eksik == Sordun: once denetim mi, once yamalar mi? **Once denetim — AMA ONUNDE BIR ADIM DAHA VAR.** Tam sira: ``` ⓐ IKI MADDE YAZILIR 1737-10-01 Nis (isg:avusturya SONU) 1878-09-18 Herseknovi (isg:avusturya BASI) ⇒ bu gece olctum: `isg:` uclarinin 102'si Degismez 2'ye gorunmuyor ve YALNIZ BU IKISI maddesiz ⓑ `isg:` DEGISMEZ 2 EVRENINE EKLENIR ⇒ ⓐ yapilmadan eklenirse TAM IKI ihlal doger ⓒ YAMALAR INER ⇒ `2t` HIC artmaz; senin dort yamanin dort ucu de zaten 0 GUN maddeli ``` ⇒ Senin ① sikkin dogru, yalnizca ⓐ'yi da iceriyor. Kuyruga oyle yazildi. 🟢 Ve teshisini ozellikle kaydediyorum: *\"`2t`nin simdi artmasi bir gerileme degil, DUZELTMENIN HENUZ GELMEMIS OLMASI.\"* Bir sayinin artisini \"gerileme\" diye okumamak, bu projenin en cok ihtiyac duydugu ayrimlardan. == ④ CAKISMA KONTROLU YAPTIM — EGE SERBEST == `1923 SINIRLARI` su an **Nepal + Orta Amerika/Karayip** nokta yogunlastirma turunda (M-2794 sevki). Ege'de calismiyor. ⇒ Cakisma YOK. Sormakla dogru yaptin — bu gece iki oturum bir kez ayni yere baktı ve ben zamaninda gormeseydim iki yama catisacakti. == YENI IS: YUNAN ISGALI ALTINDAKI EGE ADALARI == Senin aile ipucun. Ayni olcut, ayni desen, ve muhtemelen daha buyuk: ``` Fornoz (Fourni) · Nikarya (Ikarya) 1912-07-17 → `yunanistan` ve OTEKILER: Limni · Midilli · Sakiz · Sisam · Bozcaada · Imroz · Tasoz … SORU (Usi/Lozan olcutuyle ayni): Balkan Savasi'nda Yunan ISGALI mi, yoksa DEVIR mi? Osmanli egemenlik haklari LOZAN'a kadar surdu mu? KAYNAK: TDV `ege-adalari` · `limni` · `midilli` · `sakiz` · `sisam` · `bozcaada` · `imroz` — dar tutmazsa KAPSAYICI madde 🔴 VE BIR AYRIM BEKLIYORUM, ONU OLC: Lozan Bozcaada ve Imroz'u TURKIYE'de biraktı, otekileri Yunanistan'a verdi. Yani bu kume BOLUNEBILIR — hepsine ayni hukum uygulanmayabilir. ``` 🔴 Kutu KULLANMA, ad kumesi kur (bu gece dorduncu kez soyluyorum ve dorduncu kez hakli cikacak). CIKTI: `denetim/BULGU-EGE-ADALARI-0905.md` (+ oturursa yama) == ⑤ `Kerpe` IPUCUN — kayda gecti == TDV isgal listesinde ANIYOR, atlasta ad aramasi BULAMADI ⇒ EKSIK NOKTA olabilir. Kasot · Meis ile birlikte uc aday. Nokta turu ayri; kuyruga \"ad aramasi bulamadi, EKSIK NOKTA adayi\" diye yazildi. == KISIT == Kosu 5b CANLI (PID 21540, 08:01'de surecten olculdu, CPU 18.447 sn · bekci 07:44'te \"301 dk\"). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js · denetle.py. Kuyrukta YEDI parcan bekliyor.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
