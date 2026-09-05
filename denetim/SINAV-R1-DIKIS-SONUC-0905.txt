@@ -1,0 +1,19 @@
+cikis: 0
+======================================================================
+DÝKÝÞ NÖBETÇÝSÝ — gün 1281-01-01
+======================================================================
+gövde 232 · motorun karasý 107064378 km² · boyalý 54159304 km²
+boþluk toplamý: 53783178 km²
+
+aile              parça            km²   ölçüt
+D?K??               640          34318   ?8 km ? 2+ g?vde
+KIYI KENARI       42233         333282   ?8 km ? ?1 g?vde
+KAPSAMA             357       53415578   >8 km
+
+? R1 KABUL TEST?: D?K?? par?as? 640  (re?ete: R1'den sonra < 10)
+   ?? Taban 96 par?a / 9.046 km? idi ve o say? KO?U 4b ?NCES?
+      yayýndan ölçülmüþtü (2731 petek). Bugünkü taban 3805 petek —
+      yani karþýlaþtýrma AYNI TABANDA DEÐÝL. Bu koþu bittikten sonra
+      ayný aletle yeniden ölçülecek; ASIL kýyas O olacak.
+
+[exited with code 0]
