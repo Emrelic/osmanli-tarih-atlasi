@@ -1648,6 +1648,48 @@ kıyaslanabilir. ⚠️ Tek çift üzerinden — sistematik kıyas YAPILMADI.
 🔜 Koşu sonrası: eşleme tablosu kararlaştırılır, sonra `uret_petek.py`.
 **Kod bu turda YAZILMADI** (motor donuk).
 
+### 🔴 SEKİZ YAMA ÇAKIŞMASI — TASNİF EDİLDİ (14:10) · `denetim/HUKUM-YAMA-CAKISMA-0905.md`
+
+```
+uygulandı 113 · ÇAKIŞMA 8      (sabah 27'ydi — 19'u gün içinde karara bağlandı)
+🟢 MEKANİK 4   Bağdat · Halepçe · Kutaisi · Şehrizor
+🔴 ESASA İLİŞKİN 4   Başkale · Çaldıran · Kasr-ı Şîrîn · Yergöğü
+```
+🟢 **Dört mekanik hüküm verildi** (üst küme / boş alan / tamamlayıcı) —
+merge'de uygulanır, ve **kaybeden kayıt kendi dosyasından düşürülür**
+(uygulayıcı o belgeyi okumaz).
+
+🔴 **Başkale ve Çaldıran TEK SORU**: safevî 1639-05-17'ye kadar mı,
+1548-08-25'te Osmanlı mı? Ve `ok110`un dayanağı bir kaynak değil bir
+**konvansiyon** — çapası **Van**. ⇒ Sınav ucuz: *atlasta Van hangi gün
+Osmanlı oluyor?* Van 1548 ise ok110 **kendi çapasıyla çelişir.**
+
+### 🟡 DONMA KURALININ YAZIMI IMPRECISE — ölçüldü, ama DAVRANIŞ DEĞİŞMEDİ
+
+```
+py -c "import girdi" → GIRDI_DOSYALARI 77
+sekiz yama dosyasının HİÇBİRİ girdi DEĞİL
+```
+⇒ `data/*.js` donması **yayının bayatlamasını** önlemek içindir
+(`denetle_yayin` girdi dosyalarının sha256 izini karşılaştırır); yama
+dosyaları o gerekçenin **dışında** ve düzenlenmeleri koşuyu etkilemez.
+⚠️ **Yine de düzenlenmedi:** dört işçiye blanket kural verildi, ve
+koordinatörün aynı kuralı bir teknik ayrımla kendine gevşetmesi kuralı
+zayıflatır — kazanç da yok, merge zaten kuyruklu.
+
+### 🔴 VE BİR MOTOR DAVRANIŞI ÖLÇÜLDÜ: `d:` ∩ `s:` ÇAKIŞMASI
+
+```
+denetle.py:1472   d: → v: → s:   İLK EŞLEŞEN kazanır
+js/app.js:863     9 devlet-dolgu … 16 osmanli-dolgu  ⇒ Osmanlı ÜSTTE
+uret_petek.py     yabancı gövde `s:`ten kurulur — çakışan gün DIŞLANMAZ
+```
+⇒ Çakışma **görünmez ve hata vermez** (Osmanlı hem denetimde hem ekranda
+kazanır) — ama yabancı gövde o günü **kendi alanına saymaya devam eder**,
+yani lejanttaki ≈km² **şişer.**
+📌 ⇒ Tamamlayıcı iki yamayı birleştirirken çakışan pencere **kasıtlı mı**
+diye sorulur; değilse `s:` kısaltılır. (Şehrizor'da tam bu var.)
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri
