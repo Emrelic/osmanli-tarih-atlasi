@@ -4,6 +4,49 @@
 > donmuş dosyalara dokunduğu için bekliyor.
 > 🔴 Sıra kasıtlı: veri → renk → denetim → koşu → yayın.
 
+## 🟢 EGE ADALARI — DESENİN DÖRDÜNCÜ VAKASI (90 yıl · 64 nokta)
+
+TDV `limni`: *"21 Ekim 1912'de Yunanlılar tarafından **İŞGAL EDİLDİ**"* ·
+*"Daha sonra **Lozan Antlaşması'yla** ada Yunanistan'a **bırakıldı**."*
+⇒ Oniki Ada deseninin aynısı, farklı işgalciyle. 10 nokta yazıldı.
+```
+GİRİT · TUNUS · ONİKİ ADA · EGE ADALARI = 90 yıl · 64 nokta
+kronoloji doğru yazılmış, harita takip etmemiş
+```
+
+### 🔴 AÇIK KALEM — BOZCAADA + İMROZ: **on yıllık bir kayıt, tek cümleyle devrilmez**
+```
+VERİ  d: → 1912-10-07 · s:yunanistan 1912 → 1913-11-01 · d: 1913-11-01 → 1923
+TDV   "Bozcaada 1912'de Rumlar'ın eline geçti" · "20 Eylül 1923'te KURTARILDI"
+⇒ ON YIL fark
+```
+Ölçen oturum **yazmadı**: *"Tek bir TDV cümlesiyle on yıllık bir kaydı
+devirmem."* Doğru karar.
+📌 **Ve bu bir OLGU çelişkisi değil, DE FACTO / DE JURE çelişkisi olabilir:**
+```
+DE JURE   Şubat 1914 Büyük Devletler kararı — İmroz ve Bozcaada Osmanlı'da
+          bırakıldı  ⇒ verinin `1913-11-01`i buna yakın
+DE FACTO  TDV "20 Eylül 1923'te kurtarıldı" ⇒ fiilî tasarruf 1923'e kadar
+          Yunan/İtilaf elinde
+```
+🔴 Atlas **tasarrufu** boyar ⇒ de facto okuma kazanır gibi görünüyor, **ama
+verinin dayanağı bilinmiyor.** Bir sonraki turun sorusu: ***`1913-11-01`
+nereden geliyor?*** (git log · `kaynak:` alanı · o günü yazan yama.)
+
+### ⚪ AÇIK KALEMLER (aynı turdan)
+```
+SİSAM      d: 1479→1912 · ama 1832'den beri ÖZERK EMARET ⇒ `v:` HİÇ YOK
+           "özerklik `d:` olarak boyanmış" ailesinin BEŞİNCİ vakası
+ANAKARA    Selanik · Yanya · Drama · Kavala · Serez (20 nokta) — devir
+           Londra 1913-05-30 / Bükreş 1913-08-10, ama veri günleri İŞGAL
+           günleri. `s:` doğru olabilir, GÜNLERİ yanlış olabilir.
+LİMNİ GÜNÜ veri 1912-10-08 · TDV 21 Ekim 1912 — 13 gün. Öteki adalar için
+           TDV gün vermiyor; birini değiştirip ötekileri bırakmak
+           tutarsızlık üretirdi ⇒ ayrı kalem.
+```
+
+---
+
 ## 🟢 LİTVANYA — `4d` 467 → 448 (−19) · makdisu ile birlikte **443**
 
 ```
