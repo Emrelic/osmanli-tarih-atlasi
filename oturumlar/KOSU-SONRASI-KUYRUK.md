@@ -2187,6 +2187,29 @@ nüfuzuna girmesi"` → `Safi (Asfi)` KUYRUK yerleşim dosyasında ve `s:`
 kırılması **tam o gün.** Madde yetim değil, `2t`nin **evreni dar.**
 (`isg:` kovasında 0/12 · kuyruk yerleşiminde 3/12, ikisi sahte aynı-gün.)
 
+### ⏱️ KOŞU 5B — TARİHÎ AZAMİ AŞILDI (ölçüm 19:41), ama TAKILMA YOK
+
+```
+başlangıç        5 Eylül 02:40:26
+ölçüm anı        19:41 · duvar saati 16s55dk
+fırlatıcı kaydı  "olculen en uzun kosu 16s09dk"  ⇒ AZAMİ AŞILDI (+46 dk)
+CANLILIK         8 sn'de +8s CPU (tam çekirdek) · bellek 192→444 MB ·
+                 8 iş parçacığı · bekçi 19:19'da raporlu
+```
+🟢 **Aşım BEKLENEN:** 16s09dk tabanı **~2731 petek** üzerinde ölçüldü;
+koşu 5b **3805 petek** işliyor (+%39) ve maliyet doğrusaldan kötü
+ölçekler. ⇒ *"Tahmini aştı"* ≠ *"takıldı"*, ve ikincisi ölçüldü: yok.
+
+🔴 **İLERLEME ÖLÇÜLEMEDİ:** `kosu_ayrik.log` 426 B'ta duruyor (yalnız
+fırlatıcı başlığı); koşunun `asama()`/`ilerleme()` çıktısı henüz hiçbir
+dosyaya inmedi. Önceki koşuların logu (`kosu4b.log` 454 KB) doluyordu —
+yani bu bir **regresyon**, ve koşu bitince nereye döküldüğü görülecek.
+
+🔴 **VE `BEKCI-KOSU4C.log` ŞU AN 5B'NİN BEKÇİSİ TARAFINDAN YAZILIYOR**
+(aynı PID 21540 · aynı son satır · aynı mtime). Koşu 4c'nin süresi o
+dosyadan artık **ölçülemez**; eski satırları (`devlet 90/550 · iş %66`)
+başka bir koşuya ait.
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri
