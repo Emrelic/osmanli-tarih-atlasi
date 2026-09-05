@@ -4,6 +4,63 @@
 > donmuş dosyalara dokunduğu için bekliyor.
 > 🔴 Sıra kasıtlı: veri → renk → denetim → koşu → yayın.
 
+## 🔴🔴 GECENİN İKİ BÜYÜK BULGUSU — İKİSİ DE EKRANDA GÖRÜNÜYOR (5 Eylül 04:45)
+
+### ① 122 NOKTA YANLIŞ SAHİPLİ — VE İÇİNDE **TÜM MISIR** VAR
+`1923 SINIRLARI` nokta-durumu ölçümü (10/10 künye):
+```
+Irak      34 nokta → şu an `ingiltere`      Suriye   16 → `fransa-cumhuriyet`
+🔴 Mısır  56 nokta → şu an `ingiltere`      Filistin  6 → `ingiltere`
+Ürdün      2 nokta → `ingiltere`            Harezm    4 → `sovyet-rusya`
+Buhara     4 nokta → `sovyet-rusya`
+```
+⇒ 1921-23 arası **Irak Krallığı ve Mısır Krallığı atlasta İNGİLTERE olarak
+boyanıyor.** Bu bir künye eksikliği değil, **ekranda görünen bir hata.**
+🟢 Ve çaresi ucuz: yeni nokta GEREKMİYOR — mevcut noktaların `s:`/`d:`
+dönemleri düzelecek. Künyeler `denetim/YAMA-KUNYE-1923-0905.json`da hazır.
+🔴 **TEK ELDEN İNECEK** (`_sahiplik_uygula.py`): yedi künye aynı dosyalara
+dokunuyor, dağıtılırsa `§7`nin sessiz veri kaybı.
+📌 Ve dersin kendisi: *künye yazmak haritada hiçbir şeyi değiştirmez —
+boyayan şey NOKTADIR.* Nokta-durumu turu tam bunun için istenmişti.
+
+### ② NEHİRLER ÇİZİLİYOR AMA **HİÇBİRİ GÖRÜNMÜYOR** — ve koordinatör tersini söylemişti
+`KÜRE GÖRÜNÜM` ölçtü ve **koordinatörün cümlesini çürüttü.** Koordinatör üç
+oturuma ve Emre'ye *"nehirler zaten çiziliyor, isteğin yarısı karşılanmış"*
+demişti. Ölçüm:
+```
+katman sırası:  … 4 g-nehir · 5 altlik (Esri raster) …
+`raster-opacity` beyan EDİLMEMİŞ ⇒ varsayılan 1 ⇒ OPAK
+EKRANDAN ölçüldü: varsayılan ayarla z6,2 orta Anadolu'da nehir YOK
+                  `raster-opacity 0` → Kızılırmak'ın kıvrımı BELİRDİ
+```
+⇒ İstek **%50 değil %0** karşılanmış: 1454 çizgi çiziliyor, biri bile
+görünmüyor.
+🔴 **Ve kullanıcı bunu açamaz:** `katmanSinifla()` kalıbı `^(zemin|altlik|g-)`
+— ① Coğrafya kutusu rasteri ve nehri **aynı anda** kapatıyor. Rasteri kapatıp
+nehri görmenin arayüzde YOLU YOK.
+🔴 Ve `ALTLIK.nehir`in özellik alanları **BOŞ**: nehirlerin adı yok ⇒ etiket
+yazılamaz. Emre "Kızılırmak" yazısını göremez.
+📌 Teşhisin değeri: kusur **RENKTE DEĞİL SIRADA.** Deniz-renk vakasında beyan
+ile ekran ayrışıyordu; burada **birebir tutuyor** (#4a86b8 · 0,6 · 0,75) —
+ve bunu ancak *ayrışma olmadığını da ölçerek* söyleyebildi.
+⚠️ Dere/çay taneciği **ERTELENDİ**, gerekçesi ölçenin kendi cümlesi:
+*"bugün görünmeyen bir katmana 8,5 milyon parça eklemek görünmeyen veriyi
+çoğaltır."*
+
+### ③ AÇILIŞ ÖLÇÜMÜ — 1923→2026 EKSENİ BİR MOTOR İŞİ DEĞİL, VERİ İŞİ
+```
+uret_petek.py'de "1923-10-29"   SIFIR geçiş  ⇒ motor ufku HARDCODE ETMİYOR
+32 geçiş / 14 dosya             ⇒ 10 denetim/yama aracı + app.js elden geçer
+6.154 kronoloji maddesinin 1923 sonrası: 1  ⇒ 103 yıl SIFIRDAN, ~990 madde (ALT SINIR)
+kırılma yoğunluğu 1900-23: 6,71/yıl (atlasın EN YÜKSEK oranı)
+koşu maliyeti: 16 saat → ~18,5-22 saat (+16 … +38%)
+```
+🔴 Ve koordinatörün `iran` ipucu ÇÜRÜDÜ: `iran` bir açılış örneği değil bir
+**KUSUR** — künye tamamen pencere dışında (Pehlevî) ama veri onu 1281-1510
+dönemlerinde kullanıyor (8 hayalet). ⇒ Dördüncü değişmez nöbetçisi sevk edildi.
+
+---
+
 ## 🟢🟢 BİRLEŞTİRME ARTIK TEK KOMUT — `arac/_kronoloji_uygula.py` (5 Eylül 04:50)
 
 ```bash
