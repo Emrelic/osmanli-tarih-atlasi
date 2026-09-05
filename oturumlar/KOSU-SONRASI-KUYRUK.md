@@ -4,6 +4,38 @@
 > donmuş dosyalara dokunduğu için bekliyor.
 > 🔴 Sıra kasıtlı: veri → renk → denetim → koşu → yayın.
 
+## 🔴 SÖZLÜK — "ONAY" ≠ "UYGULA" (5 Eylül 07:47, ve kusur koordinatörde)
+
+Koordinatör bir yamayı onaylarken *"⇒ **UYGULA.**"* yazdı **ve o mesaja
+kısıt satırını koymadı.** Önceki dört mesajda yazılıydı, o birinde yoktu.
+İşçi oturum **varsaymadı, sordu** — ve haklıydı: `_sahiplik_uygula.py`
+yamayı `data/yerlesimler*.js`e yazar, koşu 5b canlıyken bu **çıktıyı
+yayınlanamaz** kılar (`§7` · 2 Eylül'de 10s35dk'lık bir koşu tam böyle
+yandı).
+
+```
+🟢 ONAY / KABUL   "yama doğru, gerekçe yeterli" — bir HÜKÜMDÜR, izin DEĞİL.
+                  Dosya `denetim/` altında bekler.
+🔴 UYGULA / İNDİR "ŞİMDİ `data/`ye yaz" — yalnız koşu BİTTİKTEN sonra ve
+                  yalnız kısıt satırı KALDIRILMIŞ bir mesajda geçerli.
+```
+📌 Ve `§7.1`in kendi kuralı: **bir sevk kısıtını HER mesajda taşır;
+"önceki mesajda yazıyordu" bir kısıt değildir.**
+🟢 Bu, `CLAUDE.md §11`in RENK 2 vakasının **tersi**: orada işçinin elinde
+yazılı uyarı vardı, çelişkiyi bildirmedi ve 83 dakikalık koşu öldü. Bu
+sefer **bildirildi** — o ders bu gece ilk kez işledi.
+
+⚠️ Ve `data/` merge'i **tek elden** yapılacak: altı yama aynı dosyalara
+dokunuyor ve sıra bağlayıcı (künye → kronoloji → sahiplik → renk →
+denetim yamaları → tavan). Dağıtılırsa `§7`nin sessiz veri kaybı.
+
+🟡 **Yan not (aynı turdan):** iki `isg:` ihlalinin ikisi de `avusturya`
+ve Herseknovi, Bosna'dan **51 gün sonra** — 1878 işgali tek günlük bir
+olay değil, Temmuz sonundan Eylül ortasına yayılan bir harekât. O iki
+madde yazılırken **süresi** de anlatılmalı.
+
+---
+
 ## 🟢 `isg:` DEĞİŞMEZ 2'YE GÖRÜNMÜYOR — VE GENİŞLETMENİN BEDELİ **İKİ MADDE**
 
 Bir işçi oturum Tunus yamasını sınarken buldu: `Değişmez 2` yalnız `d:` ve
