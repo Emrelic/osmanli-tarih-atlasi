@@ -1,0 +1,46 @@
+{
+  "_baslik": "1923 SINIRLARI — Nepal + Orta Amerika/Karayip nokta yoğunlaştırma (M-2804)",
+  "_not": "ÖNERİDİR, UYGULANMADI (koşu 5b canlı). Uygulanabilir yama: denetim/yer_yama_1923_nepal_karayip.js",
+  "_oturum": "1923 SINIRLARI · local_372203f2-6e71-46d2-af5e-563a5c7eca60",
+  "① mevcut_durum": {
+    "nepal": "1 nokta (Katmandu)",
+    "guatemala": "2 nokta (Antigua Guatemala, Zaculeu — ikincisi 'belgesiz sahipsiz' 30 listesinde)",
+    "dominik-cumhuriyeti": "2 nokta (Santo Domingo, Jaragua — Jaragua bos_alanlar.js'te KASITLI void, 1503'te yıkıldı)",
+    "haiti": "0 gerçek nokta — yalnız Jaragua (bos_alanlar.js, Taino cacicazgosu, 1503 sonrası devletsiz) haiti'nin bugünkü topraklarına yakın ama bu bir YERLEŞİM NOKTASI DEĞİL, void deklarasyonu",
+    "panama-cumhuriyeti": "2 nokta (Portobelo, Panamá) — bu turda DOKUNULMADI, zaten en iyi durumda olan"
+  },
+  "② kaynak": {
+    "nepal": "TDV 'nepal' CANLI — raw HTML doğrulandı, üç Malla krallığını (Katmandu/Bhaktapur/Patan) doğruluyor.",
+    "haiti_dominik_guatemala": "TDV kapsam dışı (haiti/dominik/guatemala sluglarının hepsi 302, doğrulandı). Kapsayıcı madde denenmedi (bu üç ülke için TDV'de kapsayıcı bir 'Karayip'/'Orta Amerika' maddesi arandığında da bulunamayacağı, projenin `amerika` maddesinin İnka/Aztek/Peru/Brezilya'yı kapsayıp Karayip'i kapsamadığı önceki turlarda zaten ölçülmüştü — devralmadım, güvendim, bu bir risk).",
+    "akademik": "Britannica (Cap-Haïtien, Port-au-Prince, Santiago de los Caballeros, Prithvi Narayan Shah) + Wikipedia/New World Encyclopedia (Guatemala City, Battle of Bhaktapur) — hepsi 'kaynak:' alanında açıkça yazıldı."
+  },
+  "③ yeni_noktalar": [
+    {"ad": "Patan (Lalitpur)", "ulke": "Nepal", "zincir": "nepal (1281-1923-10-29, TEK BLOK — mevcut künye zaten bütünü kapsıyor)"},
+    {"ad": "Bhaktapur", "ulke": "Nepal", "zincir": "nepal (1281-1923-10-29, TEK BLOK)"},
+    {"ad": "Cap-Haïtien (Cap-Français)", "ulke": "Haiti", "zincir": "fransa(1670-1792-09-22) → fransa-cumhuriyet(1792-09-22-1804) → haiti(1804-1923-10-29)"},
+    {"ad": "Port-au-Prince", "ulke": "Haiti", "zincir": "fransa(1749-1792-09-22) → fransa-cumhuriyet(1792-09-22-1804) → haiti(1804-1923-10-29)"},
+    {"ad": "Santiago de los Caballeros", "ulke": "Dominik Cumhuriyeti", "zincir": "ispanya(1495-1795-07-22) → fransa-cumhuriyet(1795-1809-07-09) → ispanya(1809-1822-02-09) → haiti(1822-1844-02-27) → dominik-cumhuriyeti(1844-1923-10-29) — Santo Domingo'nun MEVCUT zinciriyle BİREBİR AYNI"},
+    {"ad": "Guatemala City (Nueva Guatemala)", "ulke": "Guatemala", "zincir": "ispanya(1776-01-02-1821-09-15) → guatemala(1821-1923-10-29) — kur:1776 olduğu için 1281 öncesi zincir GEREKMİYOR"}
+  ],
+  "tutarlilik_sinavi": {
+    "sonuc": "6/6 TUTARLI",
+    "detay": [
+      "nepal(1281→1923-10-29) ⊇ Patan/Bhaktapur'un tek bloğu ✓",
+      "fransa(987→1792-09-22) ⊇ Cap-Haïtien(1670→1792-09-22) ve Port-au-Prince(1749→1792-09-22) ✓",
+      "fransa-cumhuriyet(1792-09-22→1923-10-29) ⊇ her iki noktanın 1792-1804 segmenti VE Santiago'nun 1795-1809 segmenti ✓",
+      "haiti(1804→1923-10-29) ⊇ Cap-Haïtien/Port-au-Prince(1804→1923-10-29, BİREBİR) ve Santiago'nun 1822-1844 segmenti ✓",
+      "ispanya(1479-01-20→1923-10-29) ⊇ Santiago(1495→1795, 1809→1822) ve Guatemala City(1776→1821) ✓",
+      "dominik-cumhuriyeti(1844-02-27→1923-10-29) ⊇ Santiago'nun son segmenti, BİREBİR ✓",
+      "guatemala(1821-09-15→1923-10-29) ⊇ Guatemala City'nin son segmenti, BİREBİR ✓"
+    ]
+  },
+  "3km_sinavi": {
+    "Patan (Lalitpur)": "5,56 km → Katmandu",
+    "Bhaktapur": "11,45 km → Katmandu",
+    "Cap-Haïtien": "145,86 km → Jaragua",
+    "Port-au-Prince": "35,64 km → Jaragua",
+    "Santiago de los Caballeros": "134,21 km → Santo Domingo",
+    "Guatemala City": "25,41 km → Antigua Guatemala"
+  },
+  "④ az_bulursan_az_yaz": "Panama'ya DOKUNULMADI (zaten 2 nokta, en iyi durumdaki dörtlü üyesi). Guatemala'ya yalnız 1 nokta eklendi (Guatemala City) — Utatlán/Iximché (Maya başkentleri, zaten VAR ama sahipsiz) için AYRI bir 'dönem ekleme' işi gerekiyor, bu YENİ NOKTA turunun kapsamı dışında, ayrıca not düşüldü."
+}
