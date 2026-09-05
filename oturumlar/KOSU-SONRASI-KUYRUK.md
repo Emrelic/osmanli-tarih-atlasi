@@ -4,6 +4,35 @@
 > donmuş dosyalara dokunduğu için bekliyor.
 > 🔴 Sıra kasıtlı: veri → renk → denetim → koşu → yayın.
 
+## 🔴 KUTU DENETİMİ — 22'nin 16'sı KİRLİ, ve bir AYRIM doğdu (5 Eylül 07:3x)
+
+```
+🟢 TEMİZ (6)  girit-devleti · kibris-ingiliz · kasim · naksa-dukaligi · zeta · floransa
+🔴 KİRLİ (16) cezayir-ocagi ÜÇ ÜLKEYE taşıyor (İspanya · Tunus · Fas) ·
+              oniki-ada-italyan ANADOLU ANAKARASI (Bodrum · Datça · Marmaris) ·
+              erdel → Suçava (MOLDAVYA) · bohemya → Regensburg (BAVYERA) ·
+              hersek ↔ dubrovnik BİRBİRLERİNİ YİYOR · makdisu iç Somali/Ogaden …
+```
+🟢 **Ve ölçen oturum damgalamakla yetinmedi:** beş adayı **ad kümesiyle**
+yeniden ölçtü — **beşi de AYAKTA**, ama sayıları şişkinmiş:
+```
+evfat 10→6 · kutlughanli 10→5 · makdisu 23→5 · bohemya 2→1 · hersek 5→3
+```
+📌 **YENİ AYRIM — merge'i etkiler:** bir kutu hatası **iki ayrı şey** yapar:
+```
+BULGUYU UYDURUR   bosna-isgal: Dalmaçya noktaları "bölünme" gösterdi → bulgu ÖLDÜ
+BULGUYU ŞİŞİRİR   makdisu: 18 fazladan nokta sayıya girdi            → bulgu KÜÇÜLDÜ
+```
+*"İkisini ayırmadan 'kutu kirli' demek, ÖLEN ile KÜÇÜLENİ aynı kovaya
+koyar."* ⇒ Manşet dört kat şişikti ama **yönü doğruydu**; bir sayıyı
+düzeltmek, bulguyu çürütmekten farklıdır.
+
+🔴 **VE AÇIK KALAN SINIR:** yalnız GENİŞ kutu arandı (yanlış pozitif),
+DAR kutu aranmadı (yanlış negatif) ⇒ `⚪ BOŞ kova: 0` sonucu hâlâ
+**ölçülmemiş bir varsayıma** dayanıyor. Kimse ondan hüküm türetmeyecek.
+
+---
+
 ## 🆕 ÖLÇÜLDÜ: `isg:` YALNIZCA OSMANLI TOPRAĞININ ÜSTÜNE BİNİYOR (5 Eylül 07:2x)
 
 98 `isg:` döneminin **tamamı**, her biri kendi orta günüyle örneklenerek:
