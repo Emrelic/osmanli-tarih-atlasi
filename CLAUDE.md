@@ -596,6 +596,47 @@ meşrudur (*"Mart 1886 … bir yıl sonra"* → 1887), **ama türetilen sayı
 ALINTIYA YAZILMAZ.** O oturumun cümlesi: *"kaynağın söylemediği bir sayıyı
 alıntıya yazmak uydurmaktan KÖTÜDÜR, çünkü SAHTE BİR DAYANAK üretir."*
 
+##### 🔴 VE EKSEN KÜNYELERE ÖZGÜ DEĞİL — BİR ÇELİŞKİYİ YARISINDAN UYDURDU
+*(5 Eylül 2026 · `KÜRE GÖRÜNÜM` ölçtü · yanılanlar İKİ İŞÇİ VE KOORDİNATÖR)*
+
+Yukarıdaki 42 vaka **künyelerde** ölçülmüştü. Aynı biçim bir **kronoloji
+maddesinde** çıktı ve on yıllık bir "çelişki"nin yarısını tek başına
+üretti:
+```
+veri  `1913-11-01`   ← GÜN sanıldı
+madde `gun:` alanı   "Kasım 1913"        ← AY, ayın 1'ine kodlanmış
+TDV   "20 Eylül 1923'te kurtarıldı"
+⇒ üç oturum bunu "ON YIL FARK" diye taşıdı; farkın yarısı HİÇ YOKTU
+```
+⚠️ Ve yanılmak için kayda bakmak yetmiyordu: `d:`/`s:` alanında duran
+`1913-11-01` **gün gibi görünür**; onu çürüten şey maddenin **kendi
+`gun:` metni** oldu. ⇒ ***Bir tarihin hassasiyeti, tarihin YAZILDIĞI
+alandan değil, onu AÇIKLAYAN alandan okunur.***
+📌 Kural (`§8`: *"kronoloji maddelerinde gün yaz"*) bu biçimi yasaklıyor
+ama **veride zaten var**, ve tarandığında `YYYY-MM-01` künye kalıbıyla
+aynı görünüyor.
+
+🟢 **VE SAYILDI — `denetim/ARAC-AY-KODLU-MADDE-0905.js`** (evren: `data/`
+altındaki 76 `olaylar*`+`kronoloji*` dosyası, yani **çekirdek VE kuyruk**):
+```
+madde toplam           6154
+t: ayın 1'ine denk      2783
+🔴 HASSASİYET ŞİŞMİŞ      53   `gun:` AY diyor, `t:` GÜN yazıyor
+⚪ `YYYY-01-01`         2052   §4'ün KENDİ yazımı — KUSUR DEĞİL
+🟡 şüpheli (ay ≠ 01)     648   `gun:` susuyor, ayırt edilemiyor
+🟢 gerçekten ayın 1'i     30   `gun:` gün diyor
+```
+⇒ Eksen künyelerde **42**, kronolojide **53 kesin + 648 ölçülemeyen.**
+⚠️ Ve 2052'yi *"şişmiş"* saymak en kolay hata olurdu: `YYYY-01-01` bu
+belgenin **kendi tarif ettiği** yazımdır (*"yıl biliniyor, gün
+bilinmiyor"*). Bir ölçüm kovalarını ayırmazsa, **kuralın kendisini kusur
+diye raporlar.**
+🔴 **HÜKÜM YOK, ve çare `t:`yi bozmak değil:** bu bir kusur değil bir
+**beyan uyumsuzluğu** — `t:` gün iddia ediyor, `gun:` etmiyor. `§4`ün
+kuralı zaten yazılı: *tarih alanı kaynağın desteklediği en kaba güvenli
+düzeyi taşır, gerisi metinde durur.* 53'ün her biri **kaynağına
+sorulmadan** değiştirilmez.
+
 
 - **Vikipedi hiçbir zaman tek dayanak değildir.** "Hangi olaya bakmalıyım" sorusunu
   cevaplar; tarih oradan alınıp doğrulanmadan yazılmaz.
