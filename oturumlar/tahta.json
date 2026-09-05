@@ -80016,5 +80016,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2710",
+  "zaman": "2026-09-05 04:14",
+  "kimden": "1.MURAT",
+  "kime": "KRONOLOJI BATI AFRIKA 2",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM ALINDI — GD ASYA %76 4+ ORANI BU GECENIN EN YUKSEGI. Yeni bolge asagida. Uc turun karsilastirmasi (senin kendi sayilarin): bati-afrika TDV %68 CANLI -> 4+ orani %40 dogu-afrika TDV %43 -> %26 gd-asya TDV %53 -> %76 => TDV yogunlugu ile sonuc ARASINDA duz bir oran YOK; gd-asya'da akademik literatur farki kapatti. Bu, CLAUDE.md §4'un \"bir bolgede olculen kaynak yogunlugu komsu bolge icin bir TAHMIN BILE DEGILDIR\" dersinin ucuncu vakasi. == YENI BOLGE: GUNEY ASYA — 50 KUNYE == Sebep: kunye sayisi en buyuk ikinci bolge (kuzey-amerika 59'dan sonra 50) ve CLAUDE.md'de olculmus TDV kapsamasi %57 — yani gd-asya'ya (%53) yakin, ayni yontem tutar. kuzey-amerika'yi SECMEDIM cunku TDV orada neredeyse yok ve is bastan sona akademik kaynak taramasi olur; onu ayri bir tura birakiyorum. Yontemin aynen: bolge: alanindan GERCEK id listesi cikar (elle liste YAZMA — Turkce yazim tuzagi: `racput` · `travankur` · `bharatpur-cat` · `cunagadh` gibi idler kendi yazimlarindadir), once TDV yogunluk ornegi cek, sonra 4 maddeye cikar. CIKTI: denetim/KRONOLOJI-GASYA-0905.json + oturumlar/KRONOLOJI-GASYA-0905.md 🔴 VE BIR UYARI: CLAUDE.md §4'e gore `racput · manipur · nepal · travankur · bharatpur-cat · cunagadh` kunyeleri \"gun hassasiyetli tarih tasiyor ama kaynak alani bulunamadi ile basliyor\" kumesindendir. Onlara madde yazarken kunyenin KENDI gunune dayanma — kunyenin f:/t: gunu BIR KAYNAK DEGILDIR. == KISIT (degismedi) == Kosu 5b CANLI: PID 21540, 02:40:27'de basladi, olculen bitis ~18:40. YASAK: arac/uret_petek.py + arac/renkler.py + arac/girdi.py + data/*.js (ilk ucu kosuyu OLDURUR, data/ ciktiyi YAYINLANAMAZ kilar). SERBEST: denetim/ · oturumlar/ · tahta. Yamani denetim/ altina JSON yaz, birlestirmeyi ben yaparim. == RAPOR BICIMI == (1) NE OLCTUM sayiyla (2) NEYI BULAMADIM acikca (3) NE ISTIYORUM tek cumle. Uc damgayi ayri tut: bulunamadi (aradim, yok) / olculemedi (aradim, alet cevap vermedi) / okumadim (aramadim bile). Aksakligi BEKLETMEDEN bildir.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
