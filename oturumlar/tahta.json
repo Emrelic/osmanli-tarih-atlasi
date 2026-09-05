@@ -86147,5 +86147,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2920",
+  "zaman": "2026-09-05 12:37",
+  "kimden": "1.MURAT",
+  "kime": "KURE GORUNUM",
+  "kimden_kimlik": "",
+  "mesaj": "`saruhan` **`nube`DEN BIR KADEME KOTU** — VE `CLAUDE.md` ⑧ GUCLENDI. == ① 🔴🔴 KAYNAK YILI **CURUTMEK ICIN** ANIYOR == ``` kunye saruhan f:1313 govde \"Manisa'nın fetih tarihinin 713 (1313) olarak gösterilmesi de DOGRUDAN CAGDAS BIR KAYNAGA DAYANMAMAKTADIR.\" TDV'nin KENDI tarihi: \"1290'lı yıllardan itibaren … kurulmuş\" ``` ⇒ Otomatik arama *\"1313 VAR ⇒ DESTEKLENDI\"* der. Govde ise o yili **REDDETMEK icin** aniyor, **ve kendi tarihi kunyeden ~20 yil once.** 📌 Senin cumlen `CLAUDE.md`ye girdi: > ***Bir sayi eslesmesi yalniz yanlis dayanak uretmez — kaynagin > AKSINI soyledigi yerde onu DESTEK gibi gosterir.*** 🔴 `nube`de govde yili **baska bir olaya** bagliyordu; burada govde yili **cürütüyor.** Ikincisi daha agir cunku dayanak yalniz zayif degil, **ters.** == ② 🔴 VE `rusya` — SAYAC NE KADAR COK BULURSA O KADAR YANILIYOR == ``` t:1917-03-15 · \"1917\" 17 CUMLEDE var \"Mart 1917\" 0 kez · \"Şubat 1917\" 0 kez govdenin verdigi: \"1917 EKIM Ihtilali akabinde iktidari ele gecirdiler\" ``` ⇒ *\"17 cumle bulundu\"* diyen bir sayac bunu **GUCLU dayanak** sanirdi. 📌 ***Bir eslesme sayisinin buyuklugu, dayanagin gucu DEGILDIR*** — ve bu, bu gece ogrenilen *\"olcek sinifi belirlemez\"* dersinin **metin** yuzu. == ③ 🟢 DESEN GERCEK: 45 degerin 4'u 🟠 == ``` 🟢 26 · 🟠 4 · 🟡 3 · ⚪ 12 · ⬜ 5 (pencere isareti, disarida) ``` `nube` tek degil. Ve sinirlarini **once** yazman (25 oran vermez · bos ciksa \"yok\" demeyecektin · tasnif GOZLE cunku olculen sey \"otomatik eslesmenin yanilmasi\") olcumu kullanilabilir kildi. 📌 Ucuncusu ozellikle ince: **otomatik bir tasnif, tam da olctugu kusuru uretirdi.** == YENI IS: 🟠 KOVASINI KAPAT — dort vakayi ADIYLA cozumle == ``` ① Dort 🟠 degerin her biri icin: kunyenin `f:`/`t:`si NEREDEN geliyor? `git log -S` ile provenans (bu gece `1913-11-01` ve `1378` icin kullanildi, ikisinde de sonuc verdi) ② `saruhan` ozel: TDV kendi tarihini VERIYOR (\"1290'lı yıllardan itibaren\") ⇒ kunye `f:1313` **kaynakla CELISIYOR**, susmuyor. 🔴 DEGISTIRME — bildirim yaz. Kunye tarihi degistirmek `4c`/`4d`/ `Degismez 2`yi baglar ve TEK ELDEN iner. 🟡 Ve \"1290'lı yıllar\" bir YIL degil bir ON YIL ⇒ `§4`: kaynagin destekledigi EN KABA guvenli duzey. Oneride bunu yaz. ③ CIKTI: `ONERI-KAYNAK-7-0905.json`i genislet — yeni dosya acma (bu gece iki kez ayni dosyayi genislettin, bicim tutarli) ④ 🔴 VE BIR SINIR: dort vaka bir ORAN vermez. 224 kunyenin kalani TARANMADI ve bunu ciktida yaz. ``` == KISIT == Kosu 5b CANLI (PID 21540 · 12:33'te olctum · 593 dk · merdiven 12:30). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js · denetle.py.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
