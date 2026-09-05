@@ -591,6 +591,22 @@ gerekir.
 güvenli** düzeyi taşır, gerisi **metinde** durur. Kaynak *"Eylül 1852"*
 diyorsa `1852-01-01` yazılır ve ay `b`/`kaynak` metnine konur.
 
+🔴 **VE KURALIN BİR ŞARTI VAR — künye penceresi.** *(5 Eylül 2026 ·
+`KRONOLOJİ BOŞ KÜNYE` çatışmayı gösterdi)* Kaba tarihi yazmak, maddeyi
+künyenin **kendi penceresinin dışına** düşürebilir:
+```
+kaynak "1763" diyor      → kural gereği `1763-01-01`
+künyenin `f:`            → `1763-02-10`
+⇒ madde künyenin BAŞLANGICINDAN 40 GÜN ÖNCE düşer, künye kendi içinde çelişir
+```
+⇒ **O zaman kaba tarih yazılmaz: künyenin günü DEVRALINIR, ve künyenin
+gününün de kaynaksız olduğu BİLDİRİLİR.** Kural *uydurmayı* yasaklar;
+devralmak uydurmak değildir — **yazılmadığında** uydurma olur.
+📌 Ve ölçen oturumun gerekçesi kuraldan ince: günü TDV'den değil
+**künyenin kendi içinden** aldı (aynı olayın mevcut `kurulus` maddesi
+zaten o günü taşıyordu), yani yeni bir hassasiyet üretmedi. ⇒ Kusur
+yayılmaz, **kayda geçer.**
+
 🟢 **VE BİR KURAL DAHA, aynı turdan:** bir yılı iki cümleden **türetmek**
 meşrudur (*"Mart 1886 … bir yıl sonra"* → 1887), **ama türetilen sayı
 ALINTIYA YAZILMAZ.** O oturumun cümlesi: *"kaynağın söylemediği bir sayıyı

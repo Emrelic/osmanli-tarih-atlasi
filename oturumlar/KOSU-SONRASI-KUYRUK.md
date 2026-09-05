@@ -247,6 +247,42 @@ Londra-öncesi döneminin `kaynak:` alanları **ÖLÇÜLMEDİ.**
 ⚪ Ve konvansiyon iki değil **ÜÇ**: teslim/işgal · antlaşma · **savaşın
 başlangıcı** (`1913-06-28` = II. Balkan Savaşı'nın patladığı gün).
 
+### 🔴 "BELGESİZ 7" — ÜÇÜ BOŞLUK, DÖRDÜ **YANLIŞ ÇERÇEVE**
+
+Koordinatör *"yedisine boşluk beyanı yaz"* diye sevk etti. Ölçen oturum
+dördünde **uygulamayı reddetti** ve haklıydı:
+```
+🟢 GERÇEKTEN BOŞLUK  3  Timbuktu(1430-68) · Somali çölü · Ogaden → bos:kabile
+                        (yazıldı: denetim/yer_yama_belgesiz7.js, sınav temiz)
+🔴 YANLIŞ ÇERÇEVE    4  beyan yazmak GERÇEĞİ SİLERDİ
+   Darfur    künye ZATEN VAR (1695 → 1916-11-06) — nokta onu KULLANMIYOR
+   Agadez    Sultanate of Aïr 1405'ten beri gerçek, belgeli — KÜNYE YOK
+   Ndjamena  1900'de Fort-Lamy olarak KURULDU → `kur:` işi, boşluk değil
+   Hadramut  Kathiri + Kuaytî gerçek sultanlıklar → KÜNYE YOK
+```
+📌 `denetle.py`nin altı noktaya aynı koordinatı önerdiği vakanın birebir
+aynısı: ***bir ihlali kapatan reçete, GERÇEĞİ SİLEBİLİR.*** Uygulansaydı
+500 yıllık bir sultanlık *"burası boştu"* diye kaydedilecekti.
+🟢 Ve Hadramut'ta **bu gecenin kendi emsali** kullanıldı: Kuveyt · Bahreyn
+· Katar örüntüsü — dağıtılmış bir hafızanın çalıştığı an.
+
+#### 🔴🔴 VE TIMBUKTU'NUN 1923 SAHİPSİZLİĞİNİN SEBEBİ BAŞKAYMIŞ
+Koordinatör `CLAUDE.md`den *"Timbuktu zaten araştırılmış, 1430-1468"*
+diye premis verdi. **Kayıt doğruydu, SORU yanlıştı:**
+```
+CLAUDE.md'deki vaka   `Değişmez 1b` — İÇ boşluk (pencere ARASI)
+ölçülen               `1923-10-29` KESİTİ — zincirin SONU
+gerçek                zincir 1700'de BİTİYOR → 223 YIL belgesiz
+```
+1430-68'i yazmak doğru ve gerekliydi ama **1923'teki sahipsizliği
+açıklamıyor.** İki ayrı boşluk, iki ayrı borç.
+⚪ Bilinen çerçeve (DOĞRULANMADI): 1780+ Bambara/Tuareg/Fulani rotasyonu ·
+1826 Massina fethi · sonrası araştırılmadı.
+
+**KUYRUĞA:** Ndjamena (`kur:1900`) · Darfur (`s:darfur` dönemi + 1916
+sonrası kimlik) · Agadez ve Hadramut (**YENİ KÜNYE ⇒ RENK BEKLİYOR**,
+koşuda üretilemez) · Timbuktu 1700-1923 zinciri.
+
 ### 🔴 KOŞUYU ÖLÇME — kilit dosyası ölçüm DEĞİLDİR
 ```
 Get-Process -Id 21540          ← PID'i .petek.kilit'ten al, CANLILIĞI SÜREÇTEN doğrula
