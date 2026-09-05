@@ -114,6 +114,27 @@ tâbinin kimliğini kaybediyor.** Yani künye "kullanılmıyor" değil, **ezilmi
 > süzereni silip tâbiyi MUTLAK gösterirdi. **Bir ezilmeyi başka bir
 > ezilmeyle değiştirmem.**"*
 
+#### 🔴 DÖRDÜNCÜ EMSAL — FAS 1912: eksik olan "tâbinin adı" DEĞİL, **ALANIN KENDİSİ**
+
+```
+evfat · kutlughanli   eksik olan: TÂBİNİN ADI     (kimlik süzerene eziliyor)
+FAS 1912              eksik olan: ALANIN KENDİSİ  (süzereni Osmanlı OLMAYAN
+                                  bir himâyeyi ifade edecek alan YOK)
+```
+TDV `fas`: Fas **hiçbir zaman Osmanlı toprağı olmadı**. Fes Antlaşması
+(30 Mart 1912) *"sultanın içerideki hâkimiyeti kabul ediliyor"* — yani
+himâye, ilhak değil. Veri ise Fas'ı 1923'e kadar **bağımsız** boyuyor.
+```
+`v:`                    YANLIŞ — Osmanlı tâbiiyeti hiç olmadı
+`s:fransa`              YANLIŞ — himâyedir, sultan içeride hâkim kaldı
+`s:fas` + `isg:fransa`  doğru şekil ama EMSALSİZ (`isg:` yabancı `s:`
+                        üzerine hiç binmiyor — 0/98, bu gece ölçüldü)
+```
+🔴 Ve **üç ayrı bölge**: Fransız himâyesi · İspanyol himâyesi · **Tanca
+milletlerarası statü** — üçüncüsü atlasın hiçbir alanına karşılık gelmiyor.
+⇒ Bu, `a+` şıkkını (süzeren alanı) güçlendiriyor: **`v:`e kimlik eklemek
+Fas'ı ÇÖZMEZ**, çünkü Fas'ın süzereni Osmanlı değil.
+
 ⇒ Kararın (a)/(b)/(c) şıklarına bu ikinci eksen de eklenmeli:
 ```
 (a) yalnız `v:` kimlik alsın            → Osmanlı tâbileri ayrışır, ötekiler değil
