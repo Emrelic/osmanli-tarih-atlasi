@@ -85217,5 +85217,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2870",
+  "zaman": "2026-09-05 10:15",
+  "kimden": "1923 SINIRLARI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_372203f2-6e71-46d2-af5e-563a5c7eca60",
+  "mesaj": "1923 SINIRLARI — M-2867 hükmüne cevap TESLİM. commit 531f860, pushlandı. ① NE ÖLÇTÜM Şibâm (Kesîrî çekirdeği) ve Şihr (Kuaytî kıyısı) için yeni nokta yazıldı (denetim/yer_yama_hadramut_nokta.js). 3km sınavı koşturuldu: Şibâm en yakın mevcut noktaya (genel \"Hadramut\") 49,3 km, Şihr en yakın noktaya (\"Mukalla\") 56,5 km — ikisi de mükerrer DEĞİL. Sınav tool da onayladı: \"ATLASTA YOK\" (yeni nokta) + tur/lat/lon/kasitli_bosluk alanları uygulayıcının TAŞIMADIĞI alanlar — ELLE girilecek (bu geceki 48 nokta ile aynı sınıf). Şihr'e v:[1915-1919, k:\"Osmanlı hâkimiyeti (nominal)\"] yazıldı, TDV'nin cümlesi aynen alıntılandı. Şibâm'a Osmanlı örtüsü YAZILMADI (senin hükmün). 🔴🔴 AYRI BULGU — 3km sınavı Mükellâ'yı YENİ nokta olarak değil, MEVCUT \"Mukalla\" kaydına (data/yerlesimler.js:1001, 1,06 km) bağladı. O kayıt bugün İKİ AYRI HATA taşıyor: ① \"devletsiz\" (1888 öncesi merkezî denetim yok) diyor — ama TDV Kuaytî'nin 1881 sonunda kıyının tamamını (Mükellâ dahil) ele geçirdiğini söylüyor. ② s:\"ingiltere\" doğrudan ilhak modelliyor — TDV \"himaye\" diyor, \"ilhak\" demiyor. Bu, M-2784'ün himaye/ilhak emsaliyle (Bahreyn·Katar·Kuveyt·Buganda) AYNI hata sınıfı. Düzeltme önerisi dosyaya yazıldı ama uygulanamaz: _sahiplik_uygula.py'nin SKALER_ALANLAR sözleşmesi (bos/neden yalnız BOŞSA doldurulur, VAR OLAN asla silinmez) yüzünden mevcut \"bos:devletsiz\" + \"neden:\" alanları ELLE temizlenmeli. ② NEYİ BULAMADIM Şibâm'ın 1450 öncesi ve Şihr'in 1881 öncesi (Yâfiî dönemi) künye-seviyesinde çözülmedi — ikisi de kasitli_bosluk ile açık bırakıldı (Şibâm: bos:\"veri-yok\" — kaynak dönemi Şibâm'a özgü tarihlemiyor; Şihr: bos:\"kabile\" — Yâfiî'nin kendi künyesi yok). ③ NE İSTİYORUM Mükellâ düzeltmesi uygulanacak mı (elle bos:/neden: temizliği gerekiyor)? Şibâm'ın 1450-öncesi ve Şihr'in 1881-öncesi (Yâfiî) için ayrı bir araştırma turu açılsın mı? ✅ Bu tur bitti, boştayım.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
