@@ -787,6 +787,27 @@ geçiyor** — bir arama onu **DESTEKLENDİ** diye işaretler. Cümle ise şu:
 > **543**'te başlamış…"*
 
 ⇒ Hıristiyanlaşmanın başlangıcı; **krallıkların kuruluşu değil.**
+
+🔴 **VE BİR KADEME DAHA KÖTÜSÜ AYNI GÜN ÖLÇÜLDÜ — `saruhan`:**
+```
+künye  f:1313
+gövde  "Manisa'nın fetih tarihinin 713 (1313) olarak gösterilmesi de
+        DOĞRUDAN ÇAĞDAŞ BİR KAYNAĞA DAYANMAMAKTADIR."
+TDV'nin KENDİ tarihi: "1290'lı yıllardan itibaren … kurulmuş"
+```
+⇒ Gövde o yılı **REDDETMEK için** anıyor, ve kendi tarihi künyeden
+**~20 yıl önce.** ***Bir sayı eşleşmesi yalnız yanlış dayanak üretmez —
+kaynağın AKSİNİ söylediği yerde onu DESTEK gibi gösterir.***
+
+🔴 **VE ÜÇÜNCÜ BİÇİM: ÇOK EŞLEŞME = SAHTE GÜVEN.** `rusya t:1917-03-15`
+— gövdede *"1917"* **17 cümlede** geçiyor, ama *"Mart 1917"* 0 kez,
+*"Şubat 1917"* 0 kez; gövdenin verdiği olay **Ekim** İhtilâli.
+⇒ *"17 cümle bulundu"* diyen bir sayaç bunu **güçlü dayanak** sanırdı.
+📌 ***Bir eşleşme sayısının büyüklüğü, dayanağın gücü DEĞİLDİR.***
+
+🟢 **Ve desen ölçüldü** (224 künye evreni, 25'lik örneklem, 45 değer):
+`🟢 26 · 🟠 4 · 🟡 3 · ⚪ 12`. `nube` tek değil — ama **4 vaka bir ORAN
+vermez**, varlık gösterir.
 🔴 ***Değer gövdeye İZLENEBİLİR ama gövde onu BAŞKA BİR ŞEYE bağlıyor.***
 Ve bu, öteki yedi tuzaktan **daha sinsi**: onlar bir doğrulamayı
 *başarısız* kılar, bu onu **YANLIŞ BAŞARILI** kılar — bir arama

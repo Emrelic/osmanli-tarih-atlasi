@@ -1350,6 +1350,43 @@ tarihiyle** — içinde *"1515: Egil Beyi Lala Kasım Bey şehrin anahtarını
 Bıyıklı Mehmet Paşa'ya teslim etti"*.
 ⚪ `Kığı` · `Ergani` · `Siverek` aynı pasajda ve **ölçülmedi.**
 
+### 🔴 `122` MISIR'IN DEĞİLDİ — yedi bölgenin TOPLAMI (koordinatör hatası)
+
+```
+BEKLEYENLER.md:262  Irak 34 · MISIR 56 · Suriye 16 · Filistin 6 ·
+                    Ürdün 2 · Harezm 4 · Buhara 4  =  122
+```
+Sevk *"Mısır'ın 1914-1923 boşluğu … 122 nokta"* diye yazılmıştı; ölçen
+oturum onu makul olarak bir **Mısır sayısı** okudu ve **üretemedi** —
+haklı olarak. Mısır'ın kendi ölçümü: **55 nokta** (imza aramasıyla, kutu
+değil).
+📌 ***Bir sayıyı üreteMEMEK de bir ölçümdür*** — ve bu gece dokuzuncu
+kez bir sevkin öncülü böyle düzeldi.
+
+**MISIR 1914-1923 — ZİNCİR (kuyruğa):**
+```
+Kahire 1805-1914  v:"Kavalalı hanedanı" ✓ · isg: örtüleri ✓ DOĞRU
+1914-12-18'den    s:"ingiltere" DOĞRUDAN ⇒ HİMAYE KALIBI UYGULANMAMIŞ
+① `misir-sultanligi` + `misir-kralligi` künyeleri (YAMA-KUNYE-1923'te
+   HAZIR ve merge adım ①'de) → ② RENK → ③ 55 noktanın yaması
+🔴 Ters sırada Mısır 1914-1923 BOYANMAZ (`§8`)
+```
+
+### 🔴 SAHTE POZİTİF DESENİ GERÇEK — ve `saruhan` bir kademe kötü
+```
+224 künye evreni · 25 örneklem · 45 değer
+🟢 26 · 🟠 4 · 🟡 3 · ⚪ 12 · ⬜ 5 (pencere işareti, dışarıda)
+```
+🔴 `saruhan f:1313` — gövde o yılı **çürütmek için** anıyor (*"doğrudan
+çağdaş bir kaynağa dayanmamaktadır"*) ve TDV'nin kendi tarihi
+**1290'lı yıllar**, künyeden ~20 yıl önce.
+🔴 `rusya t:1917-03-15` — *"1917"* **17 cümlede** var ama *"Mart 1917"*
+**0**; gövdenin olayı **Ekim** İhtilâli. Bir sayaç bunu güçlü dayanak
+sanardı. ⇒ ***Eşleşme sayısının büyüklüğü, dayanağın gücü değildir.***
+🟢 Ve tasnif **gözle** yapıldı, gerekçesiyle: *"ölçülen şey zaten
+otomatik eşleşmenin yanılması"* — otomatik bir tasnif **tam da ölçtüğü
+kusuru üretirdi.**
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri
