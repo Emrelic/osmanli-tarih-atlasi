@@ -4,6 +4,45 @@
 > donmuş dosyalara dokunduğu için bekliyor.
 > 🔴 Sıra kasıtlı: veri → renk → denetim → koşu → yayın.
 
+## 🟢 MAKDİSU — GECENİN İLK **SAYI DÜŞÜREN** YAMASI: `4d` 467 → 462
+
+```
+kunye `makdisu-sultanligi` 1281-01-01 → 1500-01-01   KULLANILMIYOR
+kunye `somali`             1500-01-01 → 1923-10-29
+⇒ İKİSİ TAM BİTİŞİK — tasarım açık ve DOĞRU
+⇒ ama veri `somali`yi 1281'den kullanıyor: künyesinden 219 YIL ÖNCE
+```
+🟢 **Teşhis 41'lik kovanın adını değiştiriyor:** künye *"kullanılmıyor"*
+değil, ***"yerine YANLIŞ olanı kullanılıyor"*** — ve o kayıtlar bugün
+`4d` kovasında oturuyor. *"Kusur zaten ölçülmüştü, yalnız kimse SEBEBİNİ
+sormamıştı."*
+
+🟢 **VE BU SABAHKİ TAVAN KARARININ MEYVESİ:** `BEKLENEN_ONCE`yi 468'de
+bırakmıştık, pay **1 kayıttı** (467/468). Bu yama payı **6 kayda**
+çıkarıyor (462/468) — **tavanı yükselterek değil, VERİYİ DÜZELTEREK.**
+📌 `denetle.py`nin kendi kuralı (*"tavan yükseltmek delik örtmeye
+dönüşür"*) bugün tersinden doğrulandı.
+
+⚠️ Ve yamanın **neyi çözmediği** de yazılı: `somali`yi 1281'den kullanan
+öteki ~10 nokta (Beledveyne · Baydoa · Obbiya · Galkayo · Garove · Ayl)
+**dokunulmadı** — Puntland ve iç Somali, Makdisu Sultanlığı'nın değiller;
+aynı `4d` kusurunu taşıyorlar ama çareleri başka. *Bir yamanın neyi
+çözmediğini yazmak, çözdüğünü yazmak kadar değerli.*
+
+## 🔴 KOORDİNATÖR BİR KALEMİ YANLIŞ KAPATTI — `oniki-ada-italyan`
+İşçiye *"bakmana gerek yok, kapalı"* dedim. **Yanlış kapattım.**
+```
+KAPANAN   "8 nokta yanlış `osmanli`" iddiası — kutu artefaktıydı, ÖLDÜ ✅
+AÇIK      adalar `s:italya` (1912-05-04'ten) — ama İtalya 1912'de İŞGAL
+          etti; Osmanlı hükümranlığı Lozan'a (1923) kadar resmen sürdü mü?
+          Öyleyse doğru şekil `d:` + `isg:italya` — TAM TUNUS/BOSNA SINIFI
+          ve `italya` `isg:` olarak HİÇ kullanılmamış (0/98)
+```
+📌 *"Adalar doğru boyanmış"* ile *"alan doğru seçilmiş"*i **karıştırdım** —
+ve bu gece tam bu ayrımı işçi üç kez kurdu. Ölçüm turu sevk edildi.
+
+---
+
 ## 🔴 SÖZLÜK — "ONAY" ≠ "UYGULA" (5 Eylül 07:47, ve kusur koordinatörde)
 
 Koordinatör bir yamayı onaylarken *"⇒ **UYGULA.**"* yazdı **ve o mesaja
