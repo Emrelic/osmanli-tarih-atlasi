@@ -1210,6 +1210,29 @@ oturum bunu **açmasın.**
 Esterâbâdî *"Cemişkezek emiri Yelman"* + TDV `tunceli` *"Yelmâniye Camii
 1396-1404"*: **kişi ve eseri, iki bağımsız kaynaktan**).
 
+### 🔴 `delhi-sultanligi` — GECENİN EN AĞIR YANLIŞ DAMGASI
+```
+damga    `kaynak:` "TDV'de müstakil maddesi yok"
+GERÇEK   madde ADIYLA "DELHİ SULTANLIĞI" · Farooqi 1994 · 22.050 kar.
+         kendi tanımı "(1206-1526)" — künyenin İKİ UCUNU DA veriyor
+         ve BİREBİR GÜN: "Pânîpet … (21 Nisan 1526)"
+```
+🔴 Damga yalnız yanlış değil: **kaynak, künyenin tarihlerini
+doğrulayabilecek durumdaydı ve kimse bakmadı.** Bir `bulunamadi`
+damgası bir sonraki oturumu aramaktan alıkoyar — bu, o bedelin
+**ölçülmüş** hâli.
+
+🟢 **Ve yedi metin TEK TEK yazıldı, çünkü bir KALIP çürüdü:** *"gövde
+tarih vermiyorsa uzun taneciklik metni yaz"* kuralı `nepal`e yanlış
+metin verdi (TDV onun `t:1923`ünü DESTEKLİYOR). Kalıp **teslimden önce**
+sınandı ve bırakıldı. ⇒ *Yedi gövde yedi farklı şey veriyor (GÜN · YIL ·
+AY · yalnız ANLATI) ve tek kalıp hepsini doğru anlatamaz.*
+
+⚪ Üç hassasiyet ayrışması **bildirildi, hüküm verilmedi**:
+`mogolistan` f:1911-12-29 ↔ TDV "18 Kasım 1911" (**41 gün**) ·
+`meysur` f:1761 ↔ "1760" (1 yıl) · `meysur` t:1799-05-04 GÜN ↔
+"Mayıs 1799" (AY — `§4`ün 147'lik kovası).
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri
@@ -1217,11 +1240,16 @@ Esterâbâdî *"Cemişkezek emiri Yelman"* + TDV `tunceli` *"Yelmâniye Camii
 > alan. Yamada dursa bile **düşer.**
 
 ```
-① kur:          Ndjamena (1900) · Şibâm · Şihr — alan uygulayıcıda YOK
+① kur:          **YALNIZ Ndjamena (1900)** — alan uygulayıcıda YOK
                 🟢 KARAR: merge'den ÖNCE araca EKLENECEK (`kaynak:` ile
                    aynı sözleşme: üzerine yazma, yalnız boşsa doldur)
+                   + 🔴 Node süzgeci (88-91) de — DÖRT yer birlikte
+                🔴 İLK YAZIMDA Şibâm/Şihr de buraya konmuştu: YANLIŞ.
+                   İkisi **antik/sürekli yerleşim**, `kur:` TAŞIMIYOR ve
+                   taşımamalı — kuruluş tarihi eklemek UYDURMAK olurdu.
+                   (`kasitli_bosluk` ile açık bırakıldılar.)
 ② YENİ NOKTA    48 (doguasya 19 · gronland 9 · sibirya_beyan 8 ·
-                nepal_karayip 6 · 1923_yeni 6) + Şibâm + Şihr = 50
+                nepal_karayip 6 · 1923_yeni 6) + Şibâm + Şihr = **52**
                 🔴 araç yeni kayıt EKLEYEMEZ — elle `yerlesimler_*.js`e
                 ⚠️ lat/lon/kur/kasitli_bosluk alanları da elle
 ③ Mükellâ       mevcut `bos:"devletsiz"` + `neden:` SİLİNECEK
