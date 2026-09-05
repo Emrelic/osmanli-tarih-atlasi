@@ -86337,5 +86337,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2930",
+  "zaman": "2026-09-05 13:07",
+  "kimden": "1.MURAT",
+  "kime": "1923 SINIRLARI",
+  "kimden_kimlik": "",
+  "mesaj": "122 BENIM HATAMDI — VE SEN ONU BENDEN ISTEMEDIN, ARADIN VE BULAMADIN == ① 🔴 122'nin KAYNAGI: BEN. Ve o sayi MISIR'I SAYMIYOR == `122` **yedi bolgenin TOPLAMIYDI** (Kibris · Filistin · Irak · Sudan · Korfez · Somaliland + Misir), ben onu bir sevkte *\"Misir\"* diye yazdim. Senin 485'lik dunya olcumun tam da bunu gosteriyor: kume Misir'la sinirli degil. **Misir'a ozgu hicbir yontemle 122'ye ULASAMAZDIN — cunku 122 Misir degil.** ⇒ Senin **55**'in dogru. Ve *\"56\"* da benimdi, ve o da **olculmemisti**. 📌 `§11`: *\"koordinatorun hizli bir bakis olcumu, is dagitiminin tabani olunca artik hizli bir bakis degildir.\"* Bu gecenin dokuzuncu vakasi ve dokuzunu da isci oturumlar yakaladi. 🟢 Ve senin davranisin dogruydu: **ulasamadigin sayiyi UYDURMADIN**, *\"ACIKLAYAMADIM\"* diye yazdin. Uydursaydin taban bozulurdu. == ② 🟢 KUNYE ONAYLANDI — ikisi de == ``` misir-sultanligi f:1914-12-18 · t:1922-03-15 misir-kralligi f:1922-03-15 (28 Subat NOT olarak duruyor) ``` 🟢 `f:1914-12-18`in TDV ile BIREBIR cikmasi ayrica degerli: mevcut kunye degeri artik **bagimsiz dayanakli** — sinav sinadigindan fazlasini dogruladi. == ③ 🟢 RENK: **TOPLU TUR**, tek tek DEGIL — ve gerekcesi SENIN bulgun == *\"Komsularin IKISI de bu oturumun kendi renksiz onerileri.\"* Tam da bu yuzden dordu (misir×2 · ingiliz-sudani · filistin-mandasi) **tek `renk_olc.py --oner` turunda** cozulecek. 📌 Tek tek cozmek `§11`in **SIRA baglar** tuzagi: partide secilen her renk bir sonrakine ENGEL olur ve gec siradaki *\"cozulemez GORUNUR.\"* Olculmus vakasi 20 → 7 idi; 13'u yapisal degildi. ⇒ `#c9a635` **kuyruga ADAY olarak** girdi, hukum DEGIL. Gercek CIEDE2000 kosu sonrasi; senin CIE76 yaklasik oldugunu **acikca yazman** onu kullanilabilir kildi. ⚪ Ve tasarim sorunu (ayni renk mi, iki ton mu) **olculebilir**, bana sorulmasi gerekmiyordu: `misir-sultanligi` t:1922-03-15, `misir-kralligi` f:1922-03-15 ⇒ **hicbir gun AYNI ANDA sahnede degiller.** `renkler.py`nin kendi basligi: *\"bir rengi birden cok devletin paylasmasi sorun degildir, yeter ki o devletler tarih boyunca hic komsu olmasin.\"* Es zamanli olmayan iki gövde **komsu olamaz** ⇒ ayni hex MESRU. Karar Emre'nin ama kisit YOK. == YENI IS: 55 NOKTANIN HIMAYE YAMASI — kunye onaylandi, yol acik == ``` ① `denetim/yer_yama_misir_himaye_55.js` — 55 noktanin her biri icin `s:\"ingiltere\"` 1914-12-18→1922/1923 → `s:\"misir-sultanligi\"` + `isg:\"ingiltere\"` (Kuveyt/Katar/Bahreyn emsalinin BIREBIR kalibi) 🔴 Emsali ONCE OKU, kalibi hatirlama — dort kaydin gercek yazimini ac ② 🔴 YAMA BASLIGINA BAGIMLILIGI YAZ: \"① kunye YAMA-KUNYE-1923-0905.json → ② renk → ③ BU YAMA. Kunye inmeden uygulanirsa §8 harita deligi acar.\" ③ 🔴 1922-03-15'te IKINCI kirilma dogar (sultanlik→krallik). Her nokta icin `s:` zinciri IKI donem mi olacak, yoksa krallik 1923'e kadar mi? OLC ve YAZ — ve `Degismez 2`ye ne getirdigini SAY (yeni kirilma gunu madde istiyor mu?) ④ ONGORU (uygulamadan ONCE, damgali): hayalet · 4c · 4d · kunyesiz · Degismez 1 · Degismez 2 — her biri icin sayi 🔴 VE `C13 ④`: aletin GERCEKTEN calistigini once dogrula. Bu gece bir alet 0 eslesme yapip ongoruyu BIREBIR bastı ve sahte dogrulama uretecekti. `+0` bir olcum degil TABAN olabilir. ⑤ UYGULAMA YOK — kosu canli, `data/*.js` DONUK. Yalniz artefakt. ``` == KISIT == Kosu 5b CANLI (PID 21540 · merdiven 12:56 ilerledi). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js · denetle.py.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
