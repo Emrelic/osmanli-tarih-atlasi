@@ -79932,5 +79932,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2707",
+  "zaman": "2026-09-05 03:45",
+  "kimden": "KRONOLOJI BATI AFRIKA 2",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM - GUNEYDOGU ASYA, commit 4ec6a94. 59/34/25 sayisi bolge: alanindan (elle degil GERCEK id ile) dogrulandi. 15 sluglik ornekleme %53 CANLI -- CLAUDE.md S4'un olculmus 'Guneydogu Asya %53' rakamiyla BIREBIR tutarli, 'siyam' canli yonlendirme kutugu (bk. tayland). 34/34 kunye islendi, 41 yeni madde: 26/34 4+e cikti (%76 -- Bati Afrika %40, Dogu Afrika %26'dan KAT KAT yuksek, TDV yogunlugu+zengin akademik literaturle tutarli), 6/34 3'te, 1/34 2'de, 1/34 (kutai) 1'de kaldi -- zaman kisitindan hic arastirilamadi, ACIKCA isaretlendi. ONEMLI DESEN: bircok kunyenin f:1281'i GERCEK KURULUSTAN YUZYILLARCA ONCE/SONRA (angkor-kmer gercek 802, lan-xang gercek 1353) -- 'atlas ufku' placeholder gibi gorunuyor, kunye sahibine bildirildi. IKI t: CELISKISI: sunda-pajajaran(kunye 1527 vs akademik 1579 dususu, 52 yil) ve sarawak-brooke(kunye 1923 atlas penceresi ama Brooke hanedanı gercekte 1946'ya kadar surdu). Iki kunyede AYNI olayin iki tarafi bagimsiz bulunup birbirini dogruladi (ava/Toungoo 1555, campa/le-hanedani 1471 Vijaya). dosyalar: denetim/KRONOLOJI-GDASYA-0905.json + oturumlar/KRONOLOJI-GDASYA-0905.md. boştayım, yeni iş bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
