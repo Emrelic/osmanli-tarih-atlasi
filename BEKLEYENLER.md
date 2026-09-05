@@ -73,6 +73,20 @@ doğrudandır."* Yani `v:` bilerek "Osmanlı sistemi içinde" demek için var.
 📌 Not: proje bunu bir kez daha kaydetmişti (`Erdel` vakası, TUNA HAVZASI) —
 yeni olan **tek vaka değil, 366 nokta ve 42 bin nokta-yıl** olduğu.
 
+⚠️ **VE BİR NÜANS — ölçen oturum kendi manşetini daralttı, karar bundan
+etkileniyor:** Cezayir/Tunus/Trablus Ocakları ve Kavalalı Mısır için kimlik
+kaybı **pencerenin ORTASINDA** gerçek, ama **uçlarında veri zaten doğru**:
+```
+cezayir-ocagi     1517 zeyyani·hafsi │ 1673 tâbi │ 1829 tâbi
+trablusgarp-ocagi 1552 OSMANLI·hafsi │ 1731 tâbi │ 1910 OSMANLI
+erdel             1571 tâbi          │ 1640 tâbi │ 1710 avusturya
+```
+⇒ Ocaklar bir devletin **bütün ömrü değil bir EVRESİ**, ve veri o evrenin
+öncesini/sonrasını doğru gösteriyor. Kimlik kaybı **kısmî**.
+📌 Bu, `(c) ARA YOL` şıkkını güçlendiriyor: en büyük on tâbiye kimlik vermek,
+görünen kaybın büyük kısmını kapatır ve 423 dönemin tamamını elden
+geçirmeyi gerektirmez.
+
 #### 🔴 VE AYNI KARARIN İKİNCİ EKSENİ — DAHA BÜYÜK BİR BOŞLUK
 
 Yukarıdaki soru *"`v:` kimlik taşısın mı"* idi. Bir işçi oturum üç künyeyi

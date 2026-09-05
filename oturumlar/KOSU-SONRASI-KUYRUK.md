@@ -4,6 +4,39 @@
 > donmuş dosyalara dokunduğu için bekliyor.
 > 🔴 Sıra kasıtlı: veri → renk → denetim → koşu → yayın.
 
+## 🆕 ÖLÇÜLDÜ: `isg:` YALNIZCA OSMANLI TOPRAĞININ ÜSTÜNE BİNİYOR (5 Eylül 07:2x)
+
+98 `isg:` döneminin **tamamı**, her biri kendi orta günüyle örneklenerek:
+```
+tâbi(v:) + isg:      59
+OSMANLI  + isg:      39
+                     ──  98
+s:<yabancı> + isg:    0     🔴 SIFIR
+```
+⇒ ***`isg:` bir yabancı devletin toprağı üzerine HİÇ binmiyor.***
+⚠️ Bu bir **kusur değil, ÖLÇÜLMEMİŞ BİR KISIT** — ama artık sayıyla
+biliniyor: *"Fransa'nın işgal ettiği yeri `isg:` ile yazayım"* diyen bir
+sonraki oturum, bunun **emsalsiz** olduğunu görecek ve önce soracak.
+
+### 🔴 VE İKİNCİ OKUMA HUZURSUZLUĞU HAKLI ÇIKARDI
+```
+22 künyenin 11'inde ÜÇ KESİT ARASI FARK VAR — tek gün örnekleme gerçek
+bir değişimi kaçırıyordu (cezayir-ocagi · dubrovnik · floransa · hersek ·
+kasim · misir-kavalali · mora-despotlugu · naksa-dukaligi · polonya-erken ·
+trablusgarp-ocagi · tunus-ocagi · zeta)
+```
+Ve öngördükleri körlük **birebir** çıktı: `misir-kavalali`nin ilk kesiti
+(1859) İngiliz işgalinden **23 yıl önceydi** — körlük orada görünemezdi.
+*"Tesadüften doğru çıkmışım."*
+🟢 Beş aday üç kesitte de **stabil** ⇒ iddia güçlendi (evfat · kutlughanli ·
+makdisu · girit-devleti · bohemya). ⚠️ Ama *"stabil ≠ doğru"*: stabillik
+ikame kimliğin pencerenin **tamamında** kullanıldığını gösterir — yani
+ezilme kısmî değil **tam**.
+🟡 `hersek` daraldı: son kesitte Osmanlı fethi görünüyor; bilinmeyen yalnız
+1435-1470 arası ayrı dükalık.
+
+---
+
 ## 🔴🔴 İKİ KALEM KAPANDI — "VERİ ZATEN DOĞRU" · VE YAZILSAYDI DOĞRU VERİ BOZULACAKTI
 
 **`bosna-isgal` ve `sarki-rumeli` için YAMA YAZILMAYACAK.** Koordinatör bu
