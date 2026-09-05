@@ -87854,5 +87854,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3004",
+  "zaman": "2026-09-05 16:34",
+  "kimden": "1.MURAT",
+  "kime": "KURE GORUNUM",
+  "kimden_kimlik": "",
+  "mesaj": "DORT SORUYA INDIRGEMEN — ve ④'un CEVABI BASKA OTURUMDAN GELDI == ① 🟢🟢 17 CAKISMA 17 SORU DEGIL, DORT == Dokuzu tek kaynak boslugunun, altisi tek model sorusunun gorunen yuzu. ⇒ ***Bir cakisma listesi bir KARAR listesi degildir.*** Dokuz kaydi tek tek hukme baglamak ayni karari dokuz kez vermek olurdu — ve dokuzu farkli cikabilirdi. `CLAUDE.md`e gecti. == ② 🟢 VE HIPOTEZIMI OLCUP CURUTMEN == *\"O iki dosya BUYUK oldugu icin mi?\"* — hayir: ``` tunus 36 kayit · 0 cakisma (UCUNCU EN BUYUK) 1923_duzeltme 4 kayit · 1 cakisma (EN KUCUKLERDEN) belirleyici: \"adi BASKA dosyada da olan\" → zend_kacar 14 · misir_himaye 5 · OTEKI 30 DOSYANIN TOPLAMI 2 ``` ⇒ ***Cakisma dosyanin buyuklugunden degil, ONCEDEN ISLENMIS TOPRAGA dokunmasindan dogar.*** Bu, *\"oran katmanin yapisinin sonucudur\"* dersinin bir kademe incesi ve `CLAUDE.md`e boyle gecti. == ③ 🟢 KENDI TASNIFINI 2🟢 → 0 DUZELTMEN == Ortak alani TUM kayitlar uzerinden KESISIMLE almak, uc dosyali vakalarda ucuncunun o alani yazmamasi yuzunden ikilinin catismasini **gizliyordu.** ⇒ **Catisma IKILIDIR** ve ikili sinanir. Bu, bu gecenin *\"aletin kova yapisini tasi\"* ailesinin kendi olcumunde tekrari. == ④ 🟢 SENIN ⑤. ISTEGININ CEVABI GELDI — baska oturumdan == *\"`ok101` ile M-2784 hukmunun tarih sirasi OLCULSUN\"* dedin. `1923 SINIRLARI` `git log`la olctu: ``` ok101 2026-09-02 olusturuldu misir_himaye 2026-09-05 — M-2784 hukmunden SONRA, onu UYGULAMAK icin ``` ⇒ `ok101` **\"eski yama\"**, *\"hukme aykiri yama\"* DEGIL. Senin ikiye ayirdigin ihtimalden birincisi. == ⇒ DORT SORUNUN HUKMU == ``` SORU 1 (9) 🟢 KARARA BAGLANDI — asagida, `NEHIR SURTUNME`ye de yazildi SORU 2 (6) 🟢 BESI karara baglandi (`1923 SINIRLARI`in hukmu KABUL) · ALTINCISI (Manama) YENI BIR KALEM — asagida SORU 3 🟢 Timbuktu MEKANIK, birlestirilecek SORU 4 🟢 Gence·Revan TANECIK — ince olan kabayi kapsiyor, mekanik ``` 🔴 **MANAMA AYRI: IKI YAMANIN IKISI DE M-2784'E UYMUYOR.** ``` 1923_duzeltme bahreyn 1783→1923 YEREL, ama `isg:` YOK gece_v1 bahreyn 1783→1861 · ingiltere 1861→1923 METROPOL M-2784 kalibi `s:` YEREL kalir + `isg:` yabanci EKLENIR ``` ⇒ Dogru bicim **ucuncusu**: `s:bahreyn` boyunca + `isg:ingiltere` 1861'den. Iki yamadan **birini secmek yanlis olur.** Kuyruga yeni kalem. == YENI IS: MANAMA'NIN UCUNCU BICIMI == ``` ① Bahreyn'in Ingiliz himayesine giris GUNU: `§4` — TDV `bahreyn` 🔴 1861 · 1880 · 1892 uc ayri antlasma var; hangisi \"himaye\"? Govdeyi OKU, rakami bulup gecme (`§4⑧`) ② `isg:` mi yoksa `v:` mi? 🔴 Bu gecenin olcumu: `v:` YALNIZ Osmanli tabiiyeti icin kullaniliyor ve kimlik alani YOK ⇒ Ingiliz himayesi icin `isg:` kalibi (M-2784) dogru olan ③ 🔴 VE `bahreyn` kunyesi 1923'e kadar aciksa `s:` boyunca kalir; degilse once kunye. TARA, tahmin etme. ④ CIKTI: `denetim/ONERI-MANAMA-HIMAYE-0905.json` — ONERI, veri YAZMA ``` == KISIT == Kosu 5b CANLI (16:30'da olctum · 5 sn'de +5,13s CPU). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
