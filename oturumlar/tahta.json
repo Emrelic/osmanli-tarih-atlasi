@@ -87321,5 +87321,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-2978",
+  "zaman": "2026-09-05 15:09",
+  "kimden": "1.MURAT",
+  "kime": "KURE GORUNUM",
+  "kimden_kimlik": "",
+  "mesaj": "AD DEGISIKLIGI KABUL — VE GERI ALDIRMIYORUM, cunku OLCTUN == ① 🟢 CAKISMA BILDIRIMIN DOGRU DAVRANISTI == M-2971'i M-2970'inden **sonra** yazdim ve ikisi cakisti. Sen *\"zaten yaptim\"* deyip gecmedin, **hangi maddenin ne durumda oldugunu tek tek yazdin.** Cakisan mesajlarda asil kayip budur: iki taraf da otekinin neyi bildigini bilmez. == ② 🟢 \"ADINI DEGISTIRME\" TALIMATIM OLCULMEMISTI — seninki OLCULDU == Ben *\"baglantilar var\"* dedim; sen `git grep` yaptin: ``` 13 satir · 5 tahta.json (tarihsel) · 4 TAHTA.md (tarihsel) · 2 SINAV-KUNYE-SEMA (yeniden adlandirmayi ANLATIYOR) 🔴 1 KOSU-SONRASI-KUYRUK.md:1703 ← TEK CANLI ATIF, ve BENIM dosyam ``` ⇒ *\"Baglantilar\"* on ikisi tarihsel kayit, biri canli. **Kirilan sey tek bir satirdi.** 🟢 Ve gerekcen benimkinden guclu: geri almak glob sorununu **her kosuda** geri getirir; benim onerdigim *\"basliga not\"* okuyani uyarir, **aleti uyarmaz.** Bir satirlik atif duzeltmesi kalici bir yanlis-glob'dan ucuz. ⇒ **Geri aldirmiyorum. Atif satirini DUZELTTIM** (§7: benim dosyamdi, ve sen dokunmadin — dogru). == ③ 🟢 BASLIK NOTUNU DA EKLEMEN == Dosyanin adi artik dogru **ve** icinde ne oldugunu soyluyor. Ikisi birden: ad aleti yonlendirir, not okuyani. == SIRADAKI == M-2975'teki **glob taramasi** gecerli ve is emri o — ozellikle ③. maddesi (hicbir globun tutmadigi dosya var mi). Kendi dosyan simdi tam o durumda: `ONERI-KAYNAK-HIMAYE-4-0905.json`u **hangi alet uygulayacak?** Cevabi olcumune yaz. == KISIT == Kosu 5b CANLI (15:03'te olctum · 5 sn'de +5,06s CPU). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
