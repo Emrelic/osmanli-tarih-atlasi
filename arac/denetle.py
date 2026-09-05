@@ -1673,7 +1673,15 @@ ATLAS_SONU = "1923-10-29"
 # 🔴 278 -> 280, 1 EYLUL 2026 — uc dosya baglandi (bkz. BEKLENEN_SAHIPSIZ).
 #   Alti yeni noktanin donem zincirleri var olan kovalara dustu; YENI
 #   KUSUR SINIFI DOGMADI, var olan borc iki kayit buyudu.
-BEKLENEN_ASAN = 280
+# 🔴🔴 280 -> 160, 5 EYLUL 2026 — FAZ 1 (Osmanli 1920-04-23'te bitiyor).
+#   190 donemin `d:` ucu 1923-10-29 -> 1920-04-23'e cekildi ve o donemler
+#   artik Osmanli kunyesinin OMRU ICINDE bitiyor. Yani Emre'nin (a) karari
+#   bir kapsam karari degil, ayni zamanda bir KUSUR ONARIMIYDI.
+#   ⚠️ TAVAN TAM OLCUME CEKILDI, pay birakilmadi — KASITLI:
+#      bu sayinin YUKSELMESI artik bir SINYALDIR. Yukselirse once
+#      "hangi donem, hangi kunye" diye SORULUR; tavan sonra tartisilir.
+#   🔜 Kalan 21 tbmm cakismasi cozulunce bu sayi DAHA DA duser.
+BEKLENEN_ASAN = 160
 ATLAS_BASI = "1281-01-01"
 # 🔴 4d TAVANI — DÖRDÜNCÜ BİÇİM: dönem devletin DOĞUMUNDAN ÖNCE başlıyor.
 # 4c'den AYRI KOVA, ve sebebi ÇARENİN YÖNÜ:
@@ -1747,7 +1755,11 @@ ATLAS_BASI = "1281-01-01"
 #   kendi uyarisi oterdi ("TAVAN GEVSEK … aradaki 1 GORUNMEZ").
 #   🔜 `data/yer_yama_ok109_fetret.js` (32 kayit) uygulaninca bu sayi
 #      468 -> 436 olacak; tavan o zaman 436'ya cekilir.
-BEKLENEN_ONCE = 468
+# 🔴🔴 468 -> 409, 5 EYLUL 2026 — FAZ 1. Yukaridaki `BEKLENEN_ASAN` blogunun
+#   ayni sebebi. Ve bu daraltma bu dosyanin KENDI ONGORUSUYDU (asagidaki
+#   satir): "468 -> 436 olacak; tavan o zaman 436'ya cekilir."
+#   Olcum 436 degil 409 cikti — ongoru YONU tuttu, SAYISI degil.
+BEKLENEN_ONCE = 409
 # 🔴 SARAN — İKİ UÇTAN DA aşan dönemler, yani dönem künyeyi TAMAMEN İÇİNE
 # ALIYOR. `4c ∩ 4d`, yani AYRI BİR KOVA DEĞİL KESİŞİM — üçü TOPLANMAZ.
 # Ayrı basılmasının sebebi teşhis: bir dönem künyeyi tamamen sarıyorsa, o
@@ -1764,7 +1776,11 @@ BEKLENEN_ONCE = 468
 #   Donem zincirleri BILINEN kovalarda (ilhanli 1281-01-01 'atlasin
 #   sol kenari' sinifi · kacar). YENI KUSUR DEGIL, var olan borcun
 #   iki kayit buyumesi.
-BEKLENEN_SARAN = 143
+# 🔴🔴 143 -> 28, 5 EYLUL 2026 — FAZ 1. `4s` = `4c` n `4d` KESISIMI oldugu
+#   icin en cok o daraldi: kesisim, iki kumenin birden kuculmesinden
+#   BILESIK olarak etkilenir. 143'ten 28'e dusus bir veri kaybi DEGIL,
+#   iki kumenin de kuculmesinin carpimidir.
+BEKLENEN_SARAN = 28
 
 
 def degismez4(Y):
