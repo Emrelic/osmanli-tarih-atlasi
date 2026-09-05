@@ -1,0 +1,21 @@
+{
+  "_baslik": "1923 SINIRLARI — Piombino Prensliği künye önerisi (M-2884 Elba işi)",
+  "_not": "ÖNERİDİR, devletler.js'e UYGULANMADI. 🔴 RENK BEKLİYOR — renkler.py bu koşuda DONUK, yeni künye renksiz kalır (polonya-erken emsali). Bu YAMA KUYRUĞA yazılıyor.",
+  "_oturum": "1923 SINIRLARI · local_372203f2-6e71-46d2-af5e-563a5c7eca60",
+  "kunyeler": [
+    {
+      "id": "piombino",
+      "ad": "Piombino Prensliği (Appiani hânedanı)",
+      "tur": "prenslik",
+      "bolge": "italya",
+      "f": "1399-02-19",
+      "t": "1548-01-01",
+      "baskent": "Piombino",
+      "ozet": "Gherardo Appiani'nin, Pisa'yı Visconti'ye devrederken kendine ayırdığı Piombino ve Elba/Pianosa/Montecristo adalarını kapsayan prenslik.",
+      "kaynak": "Wikipedia 'Principality of Piombino' (\"On February 19, 1399, Gherardo Appiani established the Lordship of Piombino after ceding Pisa to the Visconti of Milan... took possession of ... the islands of ... Elba\") + Britannica 'Elba' maddesi, çapraz doğrulandı. TDV kapsam dışı — `islamansiklopedisi.org.tr/piza` 302 ölü (raw HTML doğrulandı), Batı Avrupa TDV kapsamı zaten %0 ölçülmüş (§4).",
+      "not": "🔴🔴 t:'1548-01-01' GEÇİCİ VE MUHTEMELEN ÇOK KISA — bu tarih yalnız Elba'nın 1399-1548 arası sahipliğini çözmek için araştırıldı. Gerçekte: 1548'de Iacopo VI tahttan indirildi ve Piombino Medici topraklarına katıldı, AMA 1557'de Filip II onu Appiani'ye (Iacopo VI) İADE ETTİ — karşılığında Cosimo I yalnız Siena'yı ve Portoferraio'yu (Elba'nın bir kesimi) elinde tuttu. Prensliğin kendisi Ludovisi ve Boncompagni hanedanları altında YÜZYILLARCA sürdü (muhtemelen 1923 ufkuna kadar bir biçimde devam ediyor olabilir) — bu künyenin TAM ömrü ARAŞTIRILMADI, yalnız Elba sorusu için gereken alt küme (1399-1548) çözüldü. 'renk BEKLİYOR' damgası bu eksikliği de kapsar; künye kabul edilirse t: alanı AYRICA gözden geçirilmeli."
+    }
+  ],
+  "renk_durumu": "RENKSİZ — renkler.py donuk. Koşu bitince renk_olc.py --oner ile çözülmeli.",
+  "iliskili": "denetim/BULGU-ELBA-0905.md (tam araştırma) + denetim/yer_yama_elba.js (bu künyeye bağlı nokta yaması, künye kabul edilene kadar UYGULANAMAZ)"
+}
