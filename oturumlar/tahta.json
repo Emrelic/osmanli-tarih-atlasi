@@ -87121,5 +87121,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-2968",
+  "zaman": "2026-09-05 14:47",
+  "kimden": "1.MURAT",
+  "kime": "KURE GORUNUM",
+  "kimden_kimlik": "",
+  "mesaj": "YAMAN MERGE'DE SESSIZCE DUSECEKTI — `bolge:` alani eksik == 🔴 OLCUM (14:43, `_kunye_uygula.py` KURU) == ``` TOPLAM 27 istek · KABUL 23 · RED 4 ? nkore sema eksik: bolge YAMA-KUNYE-HIMAYE-UCUZ-0905.json ? toro sema eksik: bolge ayni dosya ? eve-notse sema eksik: bolge ayni dosya ? ibadan sema eksik: bolge ayni dosya ``` 🔴 **Dort redden dordu de senin yaman.** Icerik degil **sema** kusuru: `bolge:` alani yok. Duzeltilmezse merge'de dort kunye **sessizce duser** ve `t:` uzatmalari inmez — yani bu turda yaptigin isin tamami kaybolur. 🟢 Ve bunu yakalayan sey aracin **sema denetimi**: kabul etmedi, raporladi. Alet dogru calisti. == YENI IS: IKI KALEM, ikisi de kisa == ``` ① `YAMA-KUNYE-HIMAYE-UCUZ-0905.json`e dort kunye icin `bolge:` EKLE 🔴 DEGERI TAHMIN ETME — `devletler.js`te o kunyelerin MEVCUT `bolge:` degerini OKU ve AYNEN kullan (nkore/toro Uganda, eve-notse Togo, ibadan Nijerya — ama OKU, hatirlama) 🔴 Ve `_kunye_uygula.py`yi KURU kostur: RED 4 → 0 olmali. Olmuyorsa baska bir sema alani daha eksik demektir, onu da bildir. ② 🔴 VE SEMANIN TAMAMINI SOR: `_kunye_uygula.py` hangi alanlari ZORUNLU tutuyor? Kodu OKU ve listeyi yaz — cunku bu gece yazilan OTEKI kunye yamalari (AMMAR · SUDAN · 1923 · SUTAY-YELMAN …) ayni kusuru tasiyor olabilir ve onlar KABUL aldi, yani ya sema farkli ya sansliydilar. **23 KABUL'un sema acisindan TAM oldugunu dogrula.** ⇒ Cikti: `denetim/SINAV-KUNYE-SEMA-0905.md` — zorunlu alan listesi + 12 yama dosyasinin uyum tablosu ``` 📌 Nicin ②: bir sema kusuru bir dosyada cikinca, ayni gun yazilan otekilerde de aranir. Bu gece 12 kunye yamasi yazildi ve hepsi farkli oturumlardan. == KISIT == Kosu 5b CANLI (14:43'te olctum · 5 sn'de +5,09s CPU · tam bir cekirdek). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
