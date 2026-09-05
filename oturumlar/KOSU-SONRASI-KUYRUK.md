@@ -4,6 +4,43 @@
 > donmuş dosyalara dokunduğu için bekliyor.
 > 🔴 Sıra kasıtlı: veri → renk → denetim → koşu → yayın.
 
+## 🔴🔴 ÜÇÜNCÜ VAKA = DESEN: **kronoloji doğru yazılmış, harita onu takip etmemiş**
+
+```
+GİRİT      madde "Girit'e özerklik"    · gövde `s:yunanistan`  15 yıl ·  5 nokta
+TUNUS      madde "Fransız HİMAYESİNE"  · gövde `s:fransa`      42 yıl · 36 nokta
+ONİKİ ADA  madde "İtalyan İŞGALİ" ×3   · gövde `s:italya`      11 yıl · 13 nokta
+```
+Üçü de **alan seçimi** hatası, bilgi eksikliği değil — üçü de `isg:`/`v:`
+gerektiriyordu. **68 yıl · 54 nokta.**
+📌 Ve bunu bulan bir denetim değil, Girit'te sorulan bir soruydu: *"madde
+ile gövde AYNI ŞEYİ mi söylüyor?"* — o soru bir taramaya döndü
+(`ARAC-METIN-GOVDE-CELISKI-0905.js`) ve iki vaka daha verdi.
+
+### ONİKİ ADA — Uşi AYNI ANTLAŞMADA İKİ FARKLI HÜKÜM veriyor
+```
+TRABLUSGARP  "TERKETTİĞİNİ KABUL ETTİ"        → DEVİR  → `s:`  ✅ veri doğru
+ONİKİ ADA    "KAYITSIZ ŞARTSIZ BOŞALTACAKTI"  → İŞGAL  → `isg:` 🔴 veri yanlış
+TDV: "Osmanlı Devleti'nin adalar üzerindeki EGEMENLİK HAKLARI KALDIRILMAMIŞ OLDU"
+devir: Lozan, 24 Temmuz 1923
+```
+
+### 🟢 SIRA HÜKMÜ — `isg:` düzeltmesi yamalardan ÖNCE, ve önünde bir adım daha
+```
+ⓐ İKİ MADDE YAZILIR   1737-10-01 Niş · 1878-09-18 Herseknovi
+                      (bu gece ölçüldü: `isg:` uçlarının 102'si Değişmez 2'ye
+                       görünmüyor ve YALNIZ BU İKİSİ maddesiz)
+ⓑ `isg:` DEĞİŞMEZ 2 EVRENİNE EKLENİR   (ⓐ olmadan tam iki ihlal doğar)
+ⓒ YAMALAR İNER        ⇒ `2t` HİÇ artmaz; dört yamanın dört ucu da 0 gün maddeli
+```
+📌 Ölçen oturumun teşhisi: *"`2t`nin şimdi artması bir gerileme değil,
+**düzeltmenin henüz gelmemiş olması**."*
+
+⚪ **Eksik nokta adayı:** `Kerpe` · `Kasot` · `Meis` — TDV işgal listesinde
+anılıyor, atlasta ad araması bulamadı. Nokta turu ayrı.
+
+---
+
 ## 🟢 MAKDİSU — GECENİN İLK **SAYI DÜŞÜREN** YAMASI: `4d` 467 → 462
 
 ```
