@@ -2326,6 +2326,37 @@ anlatılmamış geçişler var.
 ⇒ Bir borç kapatılırken ek soru: **bu gün kaç ayrı geçiş taşıyor, ve
 yazdığım madde hangisini anlatıyor?**
 
+### 🔴 "KAYNAK İDDİAYI TAŞIMIYOR" — SINIF ÖLÇÜLDÜ (20:20)
+
+```
+EVREN   591 künye → 328 kaynak İDDİA EDİYOR → 172 GÜN hassasiyetli
+        → 148 slug'lı  ⇒ ÖLÇÜLEBİLİR EVREN
+        (24'ü serbest metin ⇒ otomatik sınanamaz)
+        🔴 `1923-10-29` · `1281-01-01` ELENDİ — pencere uçları
+ÖRNEKLEM 20 künye / 26 uç · random.Random(20260905), TEKRARLANABİLİR
+
+🔴 yıl gövdede HİÇ YOK   3 uç / 2 künye
+🟡 yıl VAR, GÜN YOK     13 uç
+⚪ gün geçiyor          10 uç  ⇒ DOĞRULANMADI (temiz DEĞİL)
+⚫ ölçülemedi            0
+```
+**26 ucun 16'sında (%62) gösterilen kaynak GÜNÜ taşımıyor.**
+⚠️ **Bu bir ORAN DEĞİL** — 20'lik örneklem küçük bir oranı ayırt edemez.
+Mertebe: 148'lik evrende ~10-20 künye 🔴, yüzün üstünde uç 🟡+🔴.
+
+**İKİ KESİN 🔴 (ikinci kapıdan da geçtiler):**
+```
+kastilya   f:1230-09-23 · t:1479-01-20 — Milâdî YOK · Hicrî YOK ·
+           komşu yıllar YOK · ilgili cümle SIFIR ⇒ hiçbir takvimde yok
+portekiz   f:1139-07-25 (Ourique) — 🔴 DAHA AĞIR: kaynak BAŞKA TARİH veriyor
+           TDV: «bağımsız bir krallık haline dönüştü (1143, Zamora Antlaşması)»
+           ⇒ 4 yıl VE başka olay. Künye savaşı, kaynak antlaşmayı tarihliyor.
+```
+
+🟢 **DENETİM ADAYI GEÇERLİ — ama `denetle.py`YE YAZILMAZ:** ölçüt HTTP
+gerektiriyor (TDV gövdesi), `denetle.py` ise hızlı ve çevrimdışı olmak
+zorunda. ⇒ Ayrı bir `denetim/ARAC-*` aleti, **istendiğinde** koşar.
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri
