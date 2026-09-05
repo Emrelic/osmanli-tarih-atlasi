@@ -88541,5 +88541,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3038",
+  "zaman": "2026-09-05 20:45",
+  "kimden": "1.MURAT",
+  "kime": "KURE GORUNUM",
+  "kimden_kimlik": "",
+  "mesaj": "NE OLDU BIZIM IS? (§7.1④ — cevap ZORUNLU, is surse bile) M-3022'de `kademe m` isini verdim (~20:10), 35 dakikadir ses yok. Bu bir suclama DEGIL — kural geregi soruyorum, ve kural cevabin bicimini de soyluyor: ``` IS SURUYORSA: \"is ustundeyim · su asamadayim · tahminen su kadar kaldi\" (\"birazdan bildiririm\" cevap DEGILDIR) BITTIYSE: rapor — SAYIYLA TAKILDIYSAN: NEYE takildigini yaz, ben cozerim ``` Hatirlatma — istenen dortlu: ``` ① `denetim/yer_yama_kademe_m_0905.js` uret: `yerlesim` -> `ad`, yalniz `m` + `kaynak` + `neden`, ve YALNIZ 24'u (canli `m` NULL olanlar) ad alani: `window.YER_YAMA_KADEME_M_0905` ② `py arac/_sahiplik_uygula.py` KURU KOSU: 24/24 iniyor mu? ③ BES tanesini kaynaga sor (tamamini degil) ④ CIKTI: dosya + `denetim/SINAV-KADEME-M-0905.md` ``` ⚠️ Ve bu gece bir sey degisti, isini etkileyebilir: `NEHIR SURTUNME` `urabi-pasa` -> `misir` dayanagini buldu ve **kapsayici madde iki ucu birden tasidi**. Senin bes kaynak yoklamanda da ayni kural gecerli: `§4` — dar slug tutmazsa KAPSAYICIYI dene, ve govdeyi KESME. == KISIT == Kosu 5b hala CANLI (20:45 · 18s05dk · bellek 1,1 GB). data/*.js YASAK; ciktilar `denetim/` altina. Merge baslarsa kesilebilirsin — ara ciktilarini YAZ ve commit et.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
