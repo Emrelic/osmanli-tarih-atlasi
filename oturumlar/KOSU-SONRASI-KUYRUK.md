@@ -152,6 +152,54 @@ zaten barındırıyordu; ölçüldüğü için değil, **açılmadığı için**
 GD Asya'da tek gerçek yarım kalan araştırma: TDV boş, akademik arama
 **hiç yapılmadı** (`DEVIR-KRONOLOJI-BATI-AFRIKA-2-0905.md`).
 
+### 🔴 SINIF B SÜPÜRÜLDÜ — 3 örnek → 9 vaka, ve DÖRDÜ TEK DESEN
+
+`KÜRE GÖRÜNÜM` 25 sluglık bir örneklemde üç kayıt buldu: **yıl doğru,
+olay doğru, slug canlı — AY YANLIŞ.** Kendi cümlesi: *"Her otomatik YIL
+kontrolü bunu TEMİZ geçirir."* Süpürge yazıldı, 6154 maddenin tamamı
+tarandı (`denetim/ARAC-AY-KODLU-MADDE-0905.js`).
+
+```
+🔴 AY çelişiyor      1   Sened-i İttifak  t:1808-10-07 · gun:"29 Eylül 1808"
+🟡 GÜN çelişiyor     8
+🟢 TASARIM          33   aralık / takvim notu / gerekçe — ÇELİŞKİ DEĞİL
+```
+⚠️ **İlk sürüm 42 vaka bastı ve 33'ü tasarımdı** (`"23 Ağustos – 13 Eylül
+1921"` bir aralık, `t:` bitişi alıyor; `"30 Ocak 1667 (Jülyen) / 9 Şubat
+(Gregoryen)"` bir takvim notu). Süzgeçsiz raporlamak, `§11`in *"süzgeci
+kaldırmadan önce neyi KORUDUĞUNU oku"* dersinin ihlali olurdu — doğru
+şeyi ölçüp **yanlış evrende** bildirmek.
+
+#### 🔴🔴 VE SEKİZİN DÖRDÜ TESADÜF DEĞİL: CÜLÛS GÜNLERİ, HEPSİ +1
+```
+1622-05-21  gun:"20 Mayıs 1622"   I. Mustafa'nın ikinci cülûsu
+1648-08-09  gun:"8 Ağustos 1648"  IV. Mehmed'in cülûsu
+1807-05-30  gun:"29 Mayıs 1807"   IV. Mustafa tahta çıktı
+1808-07-29  gun:"28 Temmuz 1808"  II. Mahmud tahta çıktı
+```
+**Dördünde de `t:` = `gun:` + 1 GÜN.** Ve dördü de aynı olay cinsi.
+🟢 `KÜRE GÖRÜNÜM` bunlardan **birini** (II. Mahmud) bulmuş ve *"ayrı ve
+küçük bir kalem"* demişti — TDV de 28 diyor. Tam tarama gösterdi ki
+küçük değil: **dört, ve sistemik.**
+📌 Örneklemden tam taramaya geçmenin somut getirisi: bir örneklem
+*"bir kayıt kaymış"* der, tam tarama ***"bir SINIF kaymış"*** der.
+⚪ SEBEP ÖLÇÜLMEDİ — hicrî çevrim sınırı mı, vefat/cülûs günü karışması
+mı, bilinmiyor. Dördü de **kaynağına sorulmadan** değiştirilmez.
+
+#### 🟡 VE İKİSİ TERS YÖNDE: GÜN BİLİNİYOR AMA ATILMIŞ
+```
+1905-01-01  gun:"24 Ocak 1905"   İtalyan Somalisi'nin devlet yönetimine geçişi
+1891-01-01  gun:"21 Ocak 1891"   Müleydâ Savaşı
+```
+`YYYY-01-01` yazımı *"yıl biliniyor, gün bilinmiyor"* demektir — burada
+**gün BİLİNİYOR** ve atılmış. `§4`ün hassasiyet ekseninin ters ucu.
+
+⚪ Kalan ikisi: Prut `1711-07-19` / "21 Temmuz" · Patrona Halil
+`1730-09-25` / "28 Eylül".
+🔴 **HÜKÜM YOK:** bu tarama kaynağa sormaz, kaydın **iki alanının**
+uyuşup uyuşmadığını sorar. Hangi tarafın yanlış olduğunu söylemez —
+`t:` de yanlış olabilir `gun:` de.
+
 ### 🔴 KOŞUYU ÖLÇME — kilit dosyası ölçüm DEĞİLDİR
 ```
 Get-Process -Id 21540          ← PID'i .petek.kilit'ten al, CANLILIĞI SÜREÇTEN doğrula
