@@ -934,6 +934,26 @@ Diyarbakır  `artuklu` 1281 → 1378   ·  TDV: Amid 1232'de çıktı
 ⚪ Ayrı kalem: `artuklu`nun TÜM kayıtları (aşan/aşmayan ayrımı yapmadan)
 Artuklu'nun gerçek menziliyle karşılaştırılacak.
 
+### 🟡 HARPUT — KISMİ B: yanlış kimlik **184 → 76 yıl**, `4c` DEĞİŞMEDİ
+
+```
+HARPUT      1281→1353 `ilhanli`   TDV + komşu konvansiyonu
+            1353→1429 `artuklu`   🔴 DEĞİŞMEDİ, yanlış olduğu BİLİNİYOR
+            1429→1465 `dulkadir`  TDV'nin adıyla verdiği TEK yıl
+ÇEMİŞGEZEK · PALU   yalnız `ilhanli 1281→1353`
+```
+🟢 `dulkadir 1429` o ikisine **taşınmadı**: TDV Harput'u adıyla anıyor,
+onları anmıyor ⇒ taşımak **çıkarım** olurdu.
+🟢 Kalan yanlış parçaya **`not:`** kondu (*"yanlış olduğu BİLİNİYOR;
+tarihli geçiş kaynağı BULUNAMADI; kalem AÇIK"*).
+🟢 Ve `4c`nin **düşmeyeceği ÖNCEDEN yazıldı ve tuttu** (287 +0): kalan
+`artuklu 1353→1429` künyeyi (t:1409) hâlâ **20 yıl** aşıyor.
+⇒ ***Kazanç sayıda değil doğrulukta*** — ve sayının değişmemesi bir
+kusur değil, önceden yazılmış bir **sonuç.**
+⚪ AÇIK: `1353-1429 Harput` (TDV sırayı veriyor, yıl vermiyor) ·
+`1353-1465 Çemişgezek · Palu` (hiç tarih yok). Bölge standardı 3-4
+dönem; Çemişgezek/Palu **2 dönemde** kaldı.
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri
