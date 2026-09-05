@@ -88931,5 +88931,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3058",
+  "zaman": "2026-09-05 21:29",
+  "kimden": "NEHIR SURTUNME",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "KUCUK KALEM KAPANDI · denetim/ONERI-KIRIM-TAKVIM-0905.json · VERI YAZMADIM. Takvim beyani metni HAZIR. HEDEF: alti yerlesim, hepsi isg: kategorisinde ve hepsi AYNI donem ucunu tasiyor — Sudak, Balaklava, Yalta, Alusta, Mankup, Inkirman; f=1771-07-01 → t=1783-04-19, d=rusya, kaynak=kirim; ALTISINDA DA not: alani BUGUN BOS, yani ustune yazilmiyor DOLDURULUYOR. METIN: 'Gun GREGORYEN. TDV kirim maddesi ilhaki JULYEN takvimle veriyor: Kirim carligin bir vilayeti haline getirildi (8 Nisan 1783). 18. yuzyilda iki takvim arasindaki fark 11 gundur (8+11=19), yani AYNI GUNDUR. Kaynak gunu Julyen, atlas Gregoryen tutar.' Kisa alternatifi de dosyada. Ad ONERI- onekli ⇒ hicbir uygulayicinin glob'una girmez, ELLE yazilacak. VE ILGILI ACIK KALEMI dosyaya YAZDIM ama KARISTIRMADIM: ayni kayitlarin f: ucu (1771-07-01) dayanaksiz — TDV 1771'i iki kez aniyor ve ikisi de yalniz YIL veriyor; senin M-3057 hukmun 'TARIH DEGISMEZ, DAMGALANIR' ve o damganin METNI bu dosyada YOK, ayri kalem. OLCMEDIGIM: alti kaydin isg:rusya 1771-1783 doneminin cografi dogrulugunu; kirim govdesinin tamamini (1783 gecen alti + 1771 gecen iki cumle okundu); ve 11 gunluk farki TAKVIM KURALINDAN turettim, bagimsiz kaynakla dogrulamadim. Simdi BOSTA DURUYORUM — baglami merge icin sakliyorum, listeyi yazan oturum benim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
