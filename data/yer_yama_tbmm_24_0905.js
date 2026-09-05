@@ -275,7 +275,7 @@ window.YER_YAMA_TBMM_24_0905 = [
     "d": "tbmm-turkiye"
    }
   ]
- },
+ , "kaynak": "ankraj Mardin (75 km) — külliyattaki zincir", "neden": "Nusaybin ile aynı desen; Osmanlı günü (1516-08-24, Mercidâbık) DEĞİŞMEDİ."},
  {
   "ad": "Nusaybin",
   "d": [
@@ -521,7 +521,7 @@ window.YER_YAMA_TBMM_24_0905 = [
     "d": "tbmm-turkiye"
    }
   ]
- },
+ , "kaynak": "ankraj Revan (67 km) — külliyattaki zincirin birebir aynısı; TDV `akkoyunlular` (kuruluş 1340, Elvend'in yenilgisi 1501)", "neden": "akkoyunlu 1281-01-01'de açılıyordu — devletin kuruluşundan 59 yıl önce. Zincir bölgenin ankrajına açıldı; `d:` günlerine DOKUNULMADI."},
  {
   "ad": "Digor",
   "d": [
@@ -577,7 +577,7 @@ window.YER_YAMA_TBMM_24_0905 = [
     "d": "tbmm-turkiye"
    }
   ]
- },
+ , "kaynak": "ankraj Revan — aynı zincir", "neden": "akkoyunlu 1281'de açılıyordu; bölge ankrajına hizalandı."},
  {
   "ad": "Iğdır",
   "d": [
@@ -633,7 +633,7 @@ window.YER_YAMA_TBMM_24_0905 = [
     "d": "tbmm-turkiye"
    }
   ]
- },
+ , "kaynak": "ankraj Revan (46 km) — aynı zincir", "neden": "CEVAP.json notunun adıyla andığı vaka: \"Iğdır tek blok 1281->1534\". Zincir açıldı; 253 yıllık tek parça akkoyunlu 32 yıla indi."},
  {
   "ad": "Artvin",
   "d": [
@@ -767,7 +767,7 @@ window.YER_YAMA_TBMM_24_0905 = [
     "d": "tbmm-turkiye"
    }
   ]
- },
+ , "kaynak": "TDV `ramazanogullari`: beylik 753'te (1352) kuruldu, sahası \"başta Adana olmak üzere Çukurova yöresi\" — Tarsus, Sîs, Ayas, Misis dâhil; Osmanlı hâkimiyeti \"Mercidâbık zaferi (25 Receb 922 / 24 Ağustos 1516)\" sonrası kesinleşti. Veri tarafı: Tarsus ve Adana kayıtları bu zinciri zaten taşıyor (birebir aynı günler).", "neden": "d: 1352-01-01'de başlıyordu — 164 yıllık hayalet Osmanlı. ramazanoglu dönemi (1352 → 1516-08-24) eklendi, d: Mercidâbık'a çekildi. Aynı düzeltme yerlesimler_ek27.js:51'e yazılmış ama MÜKERRER `s:`/`d:` yüzünden JS'te sonuncusu kazanıyor ve düzeltme motora hiç girmiyordu."},
  {
   "ad": "Payas",
   "d": [

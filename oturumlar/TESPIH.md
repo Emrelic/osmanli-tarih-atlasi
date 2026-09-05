@@ -40,6 +40,48 @@ sessizlikten tehlikelidir — çünkü sorgulanmaz.***
 🟢 Çift koşu kilidi (`arac/kosu_kilit.py`) İLK GERÇEK İŞİNİ YAPTI: ölü
    PID'i kendiliğinden devraldı, elle temizlik gerekmedi.
 
+### 🟢 KOŞU 6 — 5 EYLÜL GECESİ · BAŞLADI
+
+**Zemin (koşudan önce ölçüldü):** `denetle.py` altı değişmezin altısı
+TEMİZ, çıkış 0 · `origin<->HEAD 0 0` · kilit yok.
+
+**Koşuya giren iş — ikisi de veride, henüz haritada DEĞİL:**
+```
+MERGE   26 künye (591→617) · 202 kronoloji maddesi · 29 renk (550→579)
+        423 sahiplik dönemi / 26 dosya
+FAZ 1   215 tbmm dönemi — Osmanlı 1920-04-23'te bitiyor (Emre'nin (a) kararı)
+```
+
+**FAZ 1'in üç ön koşulu yazmadan ÖNCE ölçüldü, üçü de geçti:**
+`tbmm-turkiye` künye penceresi TAM · renk `#6c24d2` doğru demet biçiminde ·
+ve 1920-04-23 **çekirdekte, tam gününde** maddesi var (`olaylar_ek7.js`) ⇒
+218 yeni kırılmanın 218'i **sıfır açık** ile doğdu.
+
+**Beklenmedik kazanç — karar (a) bir KUSUR ONARIMI çıktı:**
+`4c` 280→**160** · `4d` 468→**409** · `4s` 143→**28**. Üç tavan da ölçülen
+değere **indirildi**, pay bırakmadan: yükselmeleri artık bir SİNYAL.
+
+**Bir ihlal doğdu ve kapandı:** `Değişmez 7` 661/660 → **652**.
+Sebep Sarıkamış'ın ada kalmasıydı (komşuları Kars/Ardahan çakışmada
+atlanmıştı). Tavan yükseltilmedi, **kaynak kapatıldı**.
+
+**AÇIK KALEMLER (koşu sürerken işlenebilir — `denetim/` donuk DEĞİL):**
+```
+⏳ 21 tbmm çakışması   KÜRE GÖRÜNÜM ölçüyor (erken 5 · ok110 14 · p0035 2)
+⏳ FAZ 2 ön ölçümü     NEHİR SÜRTÜNME — `isg:` kullanımı + `2i` tavanı
+🔵 20 tbmm-DIŞI çakışma  merge'den kalan, elle karar
+⚪ bosna renk kalemi    KUYRUKTAN DÜŞTÜ — BAYAT: kuyruk `#2f1896` diyor,
+                       gerçek `#0a0381` (cfe7714 değiştirmiş). Kuyruktaki
+                       ölçüm eski hex'e göreydi ⇒ GEÇERSİZ, uygulanmadı.
+⚪ `ispanya` DE 15,0    altlıktan ayrışma sınırda — bilinen açık kalem
+```
+
+**KOŞU BİTİNCE:** kapı `altlik.js`te DURMAYACAK — zincir `uret_altlik` ve
+`uret_bekleyenler` adımlarını artık kendi koşuyor (koşu 5b'de doğrulandı,
+`3b2b781` yayınlandı). Yine de kapı **koşturulup okunur**; *"duracak"* ile
+*"durmayacak"* arasındaki fark, ikisi de ölçülmediğinde aynıdır.
+
+---
 ### KOŞU 5 NELERİ TAŞIYOR (hepsi 4 Eylül'de indi, hiçbiri ekranda yoktu)
 ```
 RENK    21 kimlik · komşu çakışması 4→0 · yakın-ama-değmeyen 12→1

@@ -52,15 +52,7 @@ window.YER_YAMA_OK110 = [
 //    çekilmiş. Düzeltmesi ek27'ye ZATEN yazılmış ama mükerrer alan yüzünden
 //    ölü kalmış — bu yama onu diriltiyor.
 // ─────────────────────────────────────────────────────────────────────
- {ad:"Mersin",
-  s:[{f:"1281-01-01",t:"1352-01-01",d:"kilikya-ermeni"},
-     {f:"1352-01-01",t:"1516-08-24",d:"ramazanoglu"},
-     {f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet"}],
-  d:[{f:"1516-08-24",t:"1918-10-30"},{f:"1921-10-20",t:"1923-10-29"}],
-  kaynak:"TDV `ramazanogullari`: beylik 753'te (1352) kuruldu, sahası \"başta Adana olmak üzere Çukurova yöresi\" — Tarsus, Sîs, Ayas, Misis dâhil; Osmanlı hâkimiyeti \"Mercidâbık zaferi (25 Receb 922 / 24 Ağustos 1516)\" sonrası kesinleşti. Veri tarafı: Tarsus ve Adana kayıtları bu zinciri zaten taşıyor (birebir aynı günler).",
-  neden:"d: 1352-01-01'de başlıyordu — 164 yıllık hayalet Osmanlı. ramazanoglu dönemi (1352 → 1516-08-24) eklendi, d: Mercidâbık'a çekildi. Aynı düzeltme yerlesimler_ek27.js:51'e yazılmış ama MÜKERRER `s:`/`d:` yüzünden JS'te sonuncusu kazanıyor ve düzeltme motora hiç girmiyordu."},
-
-// ─────────────────────────────────────────────────────────────────────
+ // ─────────────────────────────────────────────────────────────────────
 // ② YAGODİNA — 1689-90 Avusturya ara dönemi motorda YOK.
 //    ⚠️ BU KAYITTA HER İKİ SÜRÜM DE EKSİKTİ, ölçtüm:
 //       baştaki (ölü)  1689-90 Avusturya VAR   ama `v:` 1830-1878 YOK
@@ -173,21 +165,6 @@ window.YER_YAMA_OK110 = [
 //    ankrajlara hizalanıyor — ama künye düzeltilirse bu 18 kayıt zaten uyumlu olur.
 
 // ── A · SÜRMELİ-ARAS (5) — ankraj: Revan (40,18/44,52) ───────────────
- {ad:"Arpaçay (Akyaka)",
-  s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},{f:"1340-01-01",t:"1410-01-01",d:"celayirli"},{f:"1410-01-01",t:"1469-01-01",d:"karakoyunlu"},{f:"1469-01-01",t:"1501-07-01",d:"akkoyunlu"},{f:"1501-07-01",t:"1534-01-01",d:"safevi"},{f:"1878-03-03",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-10-13",d:"sovyet-rusya"}],
-  kaynak:"ankraj Revan (67 km) — külliyattaki zincirin birebir aynısı; TDV `akkoyunlular` (kuruluş 1340, Elvend'in yenilgisi 1501)",
-  neden:"akkoyunlu 1281-01-01'de açılıyordu — devletin kuruluşundan 59 yıl önce. Zincir bölgenin ankrajına açıldı; `d:` günlerine DOKUNULMADI."},
-
- {ad:"Digor",
-  s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},{f:"1340-01-01",t:"1410-01-01",d:"celayirli"},{f:"1410-01-01",t:"1469-01-01",d:"karakoyunlu"},{f:"1469-01-01",t:"1501-07-01",d:"akkoyunlu"},{f:"1501-07-01",t:"1534-01-01",d:"safevi"},{f:"1878-03-03",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-10-13",d:"sovyet-rusya"}],
-  kaynak:"ankraj Revan — aynı zincir",
-  neden:"akkoyunlu 1281'de açılıyordu; bölge ankrajına hizalandı."},
-
- {ad:"Iğdır",
-  s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},{f:"1340-01-01",t:"1410-01-01",d:"celayirli"},{f:"1410-01-01",t:"1469-01-01",d:"karakoyunlu"},{f:"1469-01-01",t:"1501-07-01",d:"akkoyunlu"},{f:"1501-07-01",t:"1534-01-01",d:"safevi"},{f:"1878-03-03",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-10-13",d:"sovyet-rusya"}],
-  kaynak:"ankraj Revan (46 km) — aynı zincir",
-  neden:"CEVAP.json notunun adıyla andığı vaka: \"Iğdır tek blok 1281->1534\". Zincir açıldı; 253 yıllık tek parça akkoyunlu 32 yıla indi."},
-
  {ad:"Gümrü (Aleksandropol)",
   s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},{f:"1340-01-01",t:"1410-01-01",d:"celayirli"},{f:"1410-01-01",t:"1469-01-01",d:"karakoyunlu"},{f:"1469-01-01",t:"1501-07-01",d:"akkoyunlu"},{f:"1501-07-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1796-01-01",d:"zend"},{f:"1796-01-01",t:"1828-02-22",d:"kacar"},{f:"1828-02-22",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
   kaynak:"ankraj Revan (86 km) — aynı zincir",
@@ -199,47 +176,17 @@ window.YER_YAMA_OK110 = [
   neden:"Gümrü ile aynı: iki safevi dilimi birleşti, sahip değişmedi."},
 
 // ── B · VAN-HAKKÂRİ (8) — ankraj: Van · Çölemerik · Erciş ────────────
- {ad:"Doğubayazıt",
-  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1514-09-06",d:"safevi"}],
-  kaynak:"ankraj Van (117 km) · Erciş — külliyattaki zincir",
-  neden:"akkoyunlu 1281→1514-09-06 tek blok. `d:` 1514-09-06'dan başlıyordu ve BAŞLAMAYA DEVAM EDİYOR — Osmanlı kırılması korundu."},
-
  {ad:"Çaldıran",
   s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1639-05-17",d:"safevi"}],
   kaynak:"ankraj Van (78 km) — külliyattaki zincir",
   neden:"akkoyunlu tek blok. Mevcut safevi dilimi (1514-09-06→1639-05-17) 1502'ye çekildi — iki dilim tek dilim, sahip DEĞİŞMEDİ. Osmanlı 1639-05-17'de başlamaya devam ediyor."},
-
- {ad:"Şeyhrumi (Yücelen)",
-  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1639-05-17",d:"safevi"}],
-  kaynak:"ankraj Van (70 km) — külliyattaki zincir",
-  neden:"Çaldıran ile aynı desen."},
 
  {ad:"Başkale",
   s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1639-05-17",d:"safevi"}],
   kaynak:"ankraj Van (73 km) · Çölemerik (63 km) — külliyattaki zincir",
   neden:"Çaldıran ile aynı desen."},
 
- {ad:"Özalp (Saray)",
-  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-25",d:"safevi"}],
-  kaynak:"ankraj Van (55 km) — külliyattaki zincir; 1548-08-25 Van'ın kendi Osmanlı günü",
-  neden:"akkoyunlu tek blok; safevi dilimi 1502'ye çekildi, Osmanlı 1548-08-25'te başlamaya devam ediyor."},
-
- {ad:"Bacirge (Esendere)",
-  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-25",d:"safevi"}],
-  kaynak:"ankraj Çölemerik/Hakkâri (76 km) — külliyattaki zincir",
-  neden:"Özalp ile aynı desen."},
-
- {ad:"Yüksekova (Gever)",
-  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-25",d:"safevi"}],
-  kaynak:"ankraj Çölemerik/Hakkâri (48 km) — külliyattaki zincir",
-  neden:"Özalp ile aynı desen."},
-
- {ad:"Şemdinli (Şemdinni)",
-  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-25",d:"safevi"}],
-  kaynak:"ankraj Çölemerik/Hakkâri (77 km) — külliyattaki zincir",
-  neden:"Özalp ile aynı desen."},
-
-// ── C · MARDİN (4) — ankraj: Mardin ──────────────────────────────────
+ // ── C · MARDİN (4) — ankraj: Mardin ──────────────────────────────────
  // 🔴 BİRLEŞİMLE DÜŞTÜ — SİLİNMEDİ, YORUMA ÇEVRİLDİ (kayıt korunur)
 //    hüküm  : denetim/YAMA-CAKISMA.md · M-2116 (1.MURAT)
 //    kazanan: data/yer_yama_birlesim_1murat.js — İKİ yamanın farklı
@@ -279,15 +226,5 @@ window.YER_YAMA_OK110 = [
 //   kaynak:"ankraj Mardin (125 km) — külliyattaki zincir",
 //   neden:"Nusaybin ile aynı desen."},
 
- {ad:"Ceylanpınar",
-  s:[{f:"1281-01-01",t:"1409-01-01",d:"artuklu"},{f:"1409-01-01",t:"1467-11-10",d:"karakoyunlu"},{f:"1467-11-10",t:"1507-01-01",d:"akkoyunlu"},{f:"1507-01-01",t:"1516-08-24",d:"safevi"},{f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet"}],
-  kaynak:"ankraj Mardin (75 km) — külliyattaki zincir",
-  neden:"Nusaybin ile aynı desen; Osmanlı günü (1516-08-24, Mercidâbık) DEĞİŞMEDİ."},
-
-// ── D · BİTLİS (1) — yalnız KUYRUK kusurlu ───────────────────────────
- {ad:"Bitlis",
-  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1515-09-15",d:"safevi"}],
-  kaynak:"ankraj Van (72 km) · Erciş — akkoyunlu'nun bitişi külliyatta 1501-07-01/1502-01-01; TDV `akkoyunlular`: Elvend 1501'de yenildi",
-  neden:"BU KAYITTA AÇILIŞ DOĞRUYDU, kusur KUYRUKTAYDI: akkoyunlu 1515-09-15'e kadar sürüyordu, oysa künye 1514-01-01'de, TDV 1501'de bitiriyor. 1502-1515 arası bölge Safevî'nin elindeydi (Van'ın kendi kaydı bunu söylüyor). Osmanlı günü 1515-09-15 DEĞİŞMEDİ."},
-
-];
+ // ── D · BİTLİS (1) — yalnız KUYRUK kusurlu ───────────────────────────
+ ];

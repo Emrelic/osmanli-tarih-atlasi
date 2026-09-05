@@ -2588,7 +2588,7 @@ window.YER_YAMA_TBMM_1920_0905 = [
     "d": "tbmm-turkiye"
    }
   ]
- },
+ , "kaynak": "TDV `erzincan` — govde okundu: \"Otlukbeli Savasi'ndan (1473) SONRA DA Erzincan AKKOYUNLU sinirlari icinde kaldi\" · \"Akkoyunlu Devleti'nin dagilmasi ile Erzincan SAFEVILER'in kontrolu altina girdi\" · \"Erzincan ve yoresi 1514'te ... savassiz olarak Osmanli hakimiyetine girdi\" · \"Erzincan, Bayburt ile birlikte 23 EKIM 1514'te Biyikli Mehmed Bey'e beylerbeyilik olarak verilmisti\" ⚠️ KIRILMA GUNU 1514-10-23'ten 1514-09-06'ya ALINDI: TDV'nin 23 Ekim'i BEYLERBEYILIK ATAMASIDIR (devirden sonraki idari islem); toprak Caldiran SEFERI sirasinda el degistirdi ve 1514-09-06 kulliyatta VAR OLAN bir gun (\"Yavuz Sultan Selim'in Tebriz'e girisi\"). 47 gunluk kaydirma, ayni seferin icinde.", "neden": "p0004/H-0006. Kayit IKI YERDE yanlisti: (1) 1473-08-11 Otlukbeli'yi Osmanli devri sayiyordu — TDV acikca 'sonra DA Akkoyunlu sinirlari icinde kaldi' diyor; (2) 1502-1514 SAFEVI donemi HIC YOKTU, oysa komsulari Erzurum/Van/Ercis/Kemah'in dordunde de var. Iki kusur birbirini gizliyordu: 1473'ten itibaren Osmanli yazilinca arada Safevi'ye yer kalmiyordu. 🔴 Degismez 2 tavani 0 ve DOLU; 1514-10-23'e ±30 gun madde YOK (en yakin 47 gun). Kaydirma bir odun degil daha dogru modelleme."},
  {
   "ad": "Erzurum",
   "d": [
@@ -2850,7 +2850,7 @@ window.YER_YAMA_TBMM_1920_0905 = [
     "d": "tbmm-turkiye"
    }
   ]
- },
+ , "kaynak": "ankraj Van (72 km) · Erciş — akkoyunlu'nun bitişi külliyatta 1501-07-01/1502-01-01; TDV `akkoyunlular`: Elvend 1501'de yenildi", "neden": "BU KAYITTA AÇILIŞ DOĞRUYDU, kusur KUYRUKTAYDI: akkoyunlu 1515-09-15'e kadar sürüyordu, oysa künye 1514-01-01'de, TDV 1501'de bitiriyor. 1502-1515 arası bölge Safevî'nin elindeydi (Van'ın kendi kaydı bunu söylüyor). Osmanlı günü 1515-09-15 DEĞİŞMEDİ."},
  {
   "ad": "Diyarbakır",
   "d": [
@@ -2995,7 +2995,7 @@ window.YER_YAMA_TBMM_1920_0905 = [
     "d": "tbmm-turkiye"
    }
   ]
- },
+ , "kaynak": "TDV `malatya` — govde okundu, TAM GUN: \"Memluk ordusu 22 Muharrem 715'te (28 NISAN 1315) sehre girdi\" · \"bir ara Eretnaogullari'nin idaresine giren Malatya'ya 1338'DEN ITIBAREN Memlukler hakim oldu\". Eretna araliginin BASI TDV'de yok (\"bir ara\"); komsulari Sivas/Kayseri'nin eretna baslangici 1335-01-01 alindi.", "neden": "pe0008/H-0003. Kayit `memluk 1281-01-01`de basliyordu ama TDV Memluk'un sehre 1315-04-28'de girdigini TAM GUNLE soyluyor — 34 yil FAZLA. Ustelik arada bir ERETNA donemi var ve o da yazilmamis. 🔴 DELIK ACILMADI: 1281-1315 arasi ilhanli ile dolduruldu (komsulari Sivas ve Kayseri ayni kimligi ayni aralikta kullaniyor)."},
  {
   "ad": "Maraş",
   "d": [
@@ -3876,7 +3876,7 @@ window.YER_YAMA_TBMM_1920_0905 = [
     "d": "tbmm-turkiye"
    }
   ]
- },
+ , "kaynak": "TDV `sahib-ataogullari` — govde okundu: \"Nusretuddevle Ahmed kacarak Germiyanogullari'ndan I. Yakub'a sigindi ... Karahisaridevle kusatmasi kaldirildi (727/1327). I. Yakub'un kiziyla evlenen Nusretuddevle Ahmed bundan sonra GERMIYANOGULLARI'NA TABI OLDU.\" Kunye basligi: \"beylik (1275-1341)\". ⚠️ SLUG ARANDI: `sahibataogullari` OLU (302), `sahib-ataogullari` CANLI (200) — tek fark BIR TIRE (§4③).", "neden": "pe0008/H-0001. Kayit `sahibata 1281-01-01 → 1341-01-01` TEK BLOKTU; notun sikayeti '1300 ile 1330 tablolari BIREBIR ayni, Germiyan'in kademeli yutmasi yazilmamis' idi. TDV kademeyi TAM veriyor: 1327'de Germiyan'a TABI oldu. Kirilma 1341'den 1327'ye cekildi (14 yil). 🔴 DELIK ACILMADI: 1327-1341 arasi bos kalmadi, germiyan doneminin basi one alindi (zaten 1341-1390 germiyan'di, simdi 1327-1390 kesintisiz)."},
  {
   "ad": "Niksar",
   "d": [
@@ -6571,7 +6571,7 @@ window.YER_YAMA_TBMM_1920_0905 = [
     "d": "tbmm-turkiye"
    }
   ]
- },
+ , "kaynak": "TDV `divrigi` — govde okundu: \"Divrigi daha sonra ILHANLI saldirisina ugradi\" · \"Sehir daha sonra Kayseri ve Sivas yoresinde hukum suren ERETNAOGULLARI'nin hakimiyetine girdi\" · \"Kadi Burhaneddin ile ... mucadelelerden faydalanan MEMLUKLER tarafindan zaptedildi\". Kirilma GUNLERI TDV'de yok; komsulari Sivas ve Kayseri'nin PROJEDE kullandigi ayni zincir alindi (ilhanli 1281-01-01→1335-01-01 · eretna 1335-01-01→1381-01-01).", "neden": "pe0008/H-0003. Kayit `memluk 1281-01-01`de basliyordu — atlasin ACILIS gunu, yani 'arastirilmamis' isareti (notun kendisi bunu SINIF ilan etmis: 10.403 donemin 2.074'u EPOK'ta basliyor). TDV'nin anlattigi SIRA Ilhanli→Eretna→Memluk; Memluk butun 1281-1399 araligini kaplayamaz. 🔴 DELIK ACILMADI: 1281-1381 arasi bos birakilmadi, komsularin zinciriyle dolduruldu."},
  {
   "ad": "Arapkir",
   "d": [
@@ -6607,7 +6607,7 @@ window.YER_YAMA_TBMM_1920_0905 = [
     "d": "tbmm-turkiye"
    }
   ]
- },
+ , "kaynak": "TDV `arapkir` maddesi Memluk/Ilhanli donemini TARIHLI baglamda HIC anmiyor — kaynak SUSUYOR. Dayanak KOMSULUK OLCUMU: Arapkir Malatya'nin 78 km KUZEYINDE ve kuzey komsulari Divrigi (39,37) ile Sivas (39,75) 1300-06-15'te ILHANLI. Malatya'nin kendisi TDV'ye gore 1315-04-28'e kadar Ilhanli (\"Memluk ordusu 22 Muharrem 715'te (28 NISAN 1315) sehre girdi\"). Ayni gun alindi.", "neden": "M-1588. Koordinator DORT komsuyu istedi; olctum ve DORDU AYNI DEGIL. Arapkir KUZEYDE ve Ilhanli kusaginda — yaziliyor. Behisni · Hisn-i Mansur · Kahta GUNEYDE (66-84 km) ve komsulari Urfa · Halep · Elbistan 1300'de MEMLUK; ustelik TDV `besni` Baybars'in 1266'da aldigini soyluyor, yani ATLAS ACILMADAN ONCE. Uculine DOKUNULMADI. ⚠️ Arapkir'in tarihi TDV'de YOK, komsuluk cikarimidir ve bu ACIKCA yazilmistir."},
  {
   "ad": "Hısn-ı Mansûr (Adıyaman)",
   "d": [
@@ -7567,7 +7567,7 @@ window.YER_YAMA_TBMM_1920_0905 = [
     "d": "tbmm-turkiye"
    }
   ]
- },
+ , "kaynak": "ankraj Van (117 km) · Erciş — külliyattaki zincir", "neden": "akkoyunlu 1281→1514-09-06 tek blok. `d:` 1514-09-06'dan başlıyordu ve BAŞLAMAYA DEVAM EDİYOR — Osmanlı kırılması korundu."},
  {
   "ad": "Çaldıran",
   "d": [
@@ -7639,7 +7639,7 @@ window.YER_YAMA_TBMM_1920_0905 = [
     "d": "tbmm-turkiye"
    }
   ]
- },
+ , "kaynak": "ankraj Van (55 km) — külliyattaki zincir; 1548-08-25 Van'ın kendi Osmanlı günü", "neden": "akkoyunlu tek blok; safevi dilimi 1502'ye çekildi, Osmanlı 1548-08-25'te başlamaya devam ediyor."},
  {
   "ad": "Başkale",
   "d": [
@@ -7711,7 +7711,7 @@ window.YER_YAMA_TBMM_1920_0905 = [
     "d": "tbmm-turkiye"
    }
   ]
- },
+ , "kaynak": "ankraj Çölemerik/Hakkâri (48 km) — külliyattaki zincir", "neden": "Özalp ile aynı desen."},
  {
   "ad": "Arhavi",
   "d": [
@@ -8366,7 +8366,7 @@ window.YER_YAMA_TBMM_1920_0905 = [
     "d": "tbmm-turkiye"
    }
   ]
- },
+ , "kaynak": "ankraj Çölemerik/Hakkâri (76 km) — külliyattaki zincir", "neden": "Özalp ile aynı desen."},
  {
   "ad": "Şemdinli (Şemdinni)",
   "d": [
@@ -8402,7 +8402,7 @@ window.YER_YAMA_TBMM_1920_0905 = [
     "d": "tbmm-turkiye"
    }
   ]
- },
+ , "kaynak": "ankraj Çölemerik/Hakkâri (77 km) — külliyattaki zincir", "neden": "Özalp ile aynı desen."},
  {
   "ad": "Şeyhrumi (Yücelen)",
   "d": [
@@ -8438,7 +8438,7 @@ window.YER_YAMA_TBMM_1920_0905 = [
     "d": "tbmm-turkiye"
    }
   ]
- },
+ , "kaynak": "ankraj Van (70 km) — külliyattaki zincir", "neden": "Çaldıran ile aynı desen."},
  {
   "ad": "Şırnak",
   "d": [

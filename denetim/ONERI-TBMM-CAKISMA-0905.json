@@ -1,0 +1,391 @@
+{
+ "_NOT": "M-3068 ⑤ · NEHİR SÜRTÜNME · 5 Eylül 2026. ÖNERİDİR, HÜKÜM DEĞİL. Ölçüt `_sahiplik_uygula.py:267-273`ün KENDİ kuralı: çakışma = aynı alanı ≥2 dosya FARKLI değerle yazıyor. Bloke kayıtta HİÇBİR alan inmez (:531 continue) ⇒ `kaynak`/`neden` de kaybolur; onun için `tasinacak_skaler` var.",
+ "_UYGULAMA": "Kazanan kayda `tasinacak_skaler` EKLENİR, sonra `dusurulecek` dosyalardan O AD düşürülür. İki iş de `data/` yazımıdır ⇒ Oturum 0.",
+ "temiz": [
+  {
+   "ad": "Arapkir",
+   "kazanan": "yer_yama_tbmm_1920_0905.js",
+   "dusurulecek": [
+    "yer_yama_erken.js"
+   ],
+   "ust_kume": true,
+   "tbmm_disi_eksik": [],
+   "tasinacak_skaler": {
+    "kaynak": {
+     "deger": "TDV `arapkir` maddesi Memluk/Ilhanli donemini TARIHLI baglamda HIC anmiyor — kaynak SUSUYOR. Dayanak KOMSULUK OLCUMU: Arapkir Malatya'nin 78 km KUZEYINDE ve kuzey komsulari Divrigi (39,37) ile Sivas (39,75) 1300-06-15'te ILHANLI. Malatya'nin kendisi TDV'ye gore 1315-04-28'e kadar Ilhanli (\"Memluk ordusu 22 Muharrem 715'te (28 NISAN 1315) sehre girdi\"). Ayni gun alindi.",
+     "kaynak_dosya": "yer_yama_erken.js"
+    },
+    "neden": {
+     "deger": "M-1588. Koordinator DORT komsuyu istedi; olctum ve DORDU AYNI DEGIL. Arapkir KUZEYDE ve Ilhanli kusaginda — yaziliyor. Behisni · Hisn-i Mansur · Kahta GUNEYDE (66-84 km) ve komsulari Urfa · Halep · Elbistan 1300'de MEMLUK; ustelik TDV `besni` Baybars'in 1266'da aldigini soyluyor, yani ATLAS ACILMADAN ONCE. Uculine DOKUNULMADI. ⚠️ Arapkir'in tarihi TDV'de YOK, komsuluk cikarimidir ve bu ACIKCA yazilmistir.",
+     "kaynak_dosya": "yer_yama_erken.js"
+    }
+   }
+  },
+  {
+   "ad": "Arpaçay (Akyaka)",
+   "kazanan": "yer_yama_tbmm_24_0905.js",
+   "dusurulecek": [
+    "yer_yama_ok110.js"
+   ],
+   "ust_kume": true,
+   "tbmm_disi_eksik": [],
+   "tasinacak_skaler": {
+    "kaynak": {
+     "deger": "ankraj Revan (67 km) — külliyattaki zincirin birebir aynısı; TDV `akkoyunlular` (kuruluş 1340, Elvend'in yenilgisi 1501)",
+     "kaynak_dosya": "yer_yama_ok110.js"
+    },
+    "neden": {
+     "deger": "akkoyunlu 1281-01-01'de açılıyordu — devletin kuruluşundan 59 yıl önce. Zincir bölgenin ankrajına açıldı; `d:` günlerine DOKUNULMADI.",
+     "kaynak_dosya": "yer_yama_ok110.js"
+    }
+   }
+  },
+  {
+   "ad": "Bacirge (Esendere)",
+   "kazanan": "yer_yama_tbmm_1920_0905.js",
+   "dusurulecek": [
+    "yer_yama_ok110.js"
+   ],
+   "ust_kume": true,
+   "tbmm_disi_eksik": [],
+   "tasinacak_skaler": {
+    "kaynak": {
+     "deger": "ankraj Çölemerik/Hakkâri (76 km) — külliyattaki zincir",
+     "kaynak_dosya": "yer_yama_ok110.js"
+    },
+    "neden": {
+     "deger": "Özalp ile aynı desen.",
+     "kaynak_dosya": "yer_yama_ok110.js"
+    }
+   }
+  },
+  {
+   "ad": "Bitlis",
+   "kazanan": "yer_yama_tbmm_1920_0905.js",
+   "dusurulecek": [
+    "yer_yama_ok110.js"
+   ],
+   "ust_kume": true,
+   "tbmm_disi_eksik": [],
+   "tasinacak_skaler": {
+    "kaynak": {
+     "deger": "ankraj Van (72 km) · Erciş — akkoyunlu'nun bitişi külliyatta 1501-07-01/1502-01-01; TDV `akkoyunlular`: Elvend 1501'de yenildi",
+     "kaynak_dosya": "yer_yama_ok110.js"
+    },
+    "neden": {
+     "deger": "BU KAYITTA AÇILIŞ DOĞRUYDU, kusur KUYRUKTAYDI: akkoyunlu 1515-09-15'e kadar sürüyordu, oysa künye 1514-01-01'de, TDV 1501'de bitiriyor. 1502-1515 arası bölge Safevî'nin elindeydi (Van'ın kendi kaydı bunu söylüyor). Osmanlı günü 1515-09-15 DEĞİŞMEDİ.",
+     "kaynak_dosya": "yer_yama_ok110.js"
+    }
+   }
+  },
+  {
+   "ad": "Ceylanpınar",
+   "kazanan": "yer_yama_tbmm_24_0905.js",
+   "dusurulecek": [
+    "yer_yama_ok110.js"
+   ],
+   "ust_kume": true,
+   "tbmm_disi_eksik": [],
+   "tasinacak_skaler": {
+    "kaynak": {
+     "deger": "ankraj Mardin (75 km) — külliyattaki zincir",
+     "kaynak_dosya": "yer_yama_ok110.js"
+    },
+    "neden": {
+     "deger": "Nusaybin ile aynı desen; Osmanlı günü (1516-08-24, Mercidâbık) DEĞİŞMEDİ.",
+     "kaynak_dosya": "yer_yama_ok110.js"
+    }
+   }
+  },
+  {
+   "ad": "Digor",
+   "kazanan": "yer_yama_tbmm_24_0905.js",
+   "dusurulecek": [
+    "yer_yama_ok110.js"
+   ],
+   "ust_kume": true,
+   "tbmm_disi_eksik": [],
+   "tasinacak_skaler": {
+    "kaynak": {
+     "deger": "ankraj Revan — aynı zincir",
+     "kaynak_dosya": "yer_yama_ok110.js"
+    },
+    "neden": {
+     "deger": "akkoyunlu 1281'de açılıyordu; bölge ankrajına hizalandı.",
+     "kaynak_dosya": "yer_yama_ok110.js"
+    }
+   }
+  },
+  {
+   "ad": "Divriği",
+   "kazanan": "yer_yama_tbmm_1920_0905.js",
+   "dusurulecek": [
+    "yer_yama_erken.js"
+   ],
+   "ust_kume": true,
+   "tbmm_disi_eksik": [],
+   "tasinacak_skaler": {
+    "kaynak": {
+     "deger": "TDV `divrigi` — govde okundu: \"Divrigi daha sonra ILHANLI saldirisina ugradi\" · \"Sehir daha sonra Kayseri ve Sivas yoresinde hukum suren ERETNAOGULLARI'nin hakimiyetine girdi\" · \"Kadi Burhaneddin ile ... mucadelelerden faydalanan MEMLUKLER tarafindan zaptedildi\". Kirilma GUNLERI TDV'de yok; komsulari Sivas ve Kayseri'nin PROJEDE kullandigi ayni zincir alindi (ilhanli 1281-01-01→1335-01-01 · eretna 1335-01-01→1381-01-01).",
+     "kaynak_dosya": "yer_yama_erken.js"
+    },
+    "neden": {
+     "deger": "pe0008/H-0003. Kayit `memluk 1281-01-01`de basliyordu — atlasin ACILIS gunu, yani 'arastirilmamis' isareti (notun kendisi bunu SINIF ilan etmis: 10.403 donemin 2.074'u EPOK'ta basliyor). TDV'nin anlattigi SIRA Ilhanli→Eretna→Memluk; Memluk butun 1281-1399 araligini kaplayamaz. 🔴 DELIK ACILMADI: 1281-1381 arasi bos birakilmadi, komsularin zinciriyle dolduruldu.",
+     "kaynak_dosya": "yer_yama_erken.js"
+    }
+   }
+  },
+  {
+   "ad": "Doğubayazıt",
+   "kazanan": "yer_yama_tbmm_1920_0905.js",
+   "dusurulecek": [
+    "yer_yama_ok110.js"
+   ],
+   "ust_kume": true,
+   "tbmm_disi_eksik": [],
+   "tasinacak_skaler": {
+    "kaynak": {
+     "deger": "ankraj Van (117 km) · Erciş — külliyattaki zincir",
+     "kaynak_dosya": "yer_yama_ok110.js"
+    },
+    "neden": {
+     "deger": "akkoyunlu 1281→1514-09-06 tek blok. `d:` 1514-09-06'dan başlıyordu ve BAŞLAMAYA DEVAM EDİYOR — Osmanlı kırılması korundu.",
+     "kaynak_dosya": "yer_yama_ok110.js"
+    }
+   }
+  },
+  {
+   "ad": "Erzincan",
+   "kazanan": "yer_yama_tbmm_1920_0905.js",
+   "dusurulecek": [
+    "yer_yama_erken.js"
+   ],
+   "ust_kume": false,
+   "tbmm_disi_eksik": [
+    "yer_yama_erken.js.d 1514-09-06→1923-10-29:None"
+   ],
+   "tasinacak_skaler": {
+    "kaynak": {
+     "deger": "TDV `erzincan` — govde okundu: \"Otlukbeli Savasi'ndan (1473) SONRA DA Erzincan AKKOYUNLU sinirlari icinde kaldi\" · \"Akkoyunlu Devleti'nin dagilmasi ile Erzincan SAFEVILER'in kontrolu altina girdi\" · \"Erzincan ve yoresi 1514'te ... savassiz olarak Osmanli hakimiyetine girdi\" · \"Erzincan, Bayburt ile birlikte 23 EKIM 1514'te Biyikli Mehmed Bey'e beylerbeyilik olarak verilmisti\" ⚠️ KIRILMA GUNU 1514-10-23'ten 1514-09-06'ya ALINDI: TDV'nin 23 Ekim'i BEYLERBEYILIK ATAMASIDIR (devirden sonraki idari islem); toprak Caldiran SEFERI sirasinda el degistirdi ve 1514-09-06 kulliyatta VAR OLAN bir gun (\"Yavuz Sultan Selim'in Tebriz'e girisi\"). 47 gunluk kaydirma, ayni seferin icinde.",
+     "kaynak_dosya": "yer_yama_erken.js"
+    },
+    "neden": {
+     "deger": "p0004/H-0006. Kayit IKI YERDE yanlisti: (1) 1473-08-11 Otlukbeli'yi Osmanli devri sayiyordu — TDV acikca 'sonra DA Akkoyunlu sinirlari icinde kaldi' diyor; (2) 1502-1514 SAFEVI donemi HIC YOKTU, oysa komsulari Erzurum/Van/Ercis/Kemah'in dordunde de var. Iki kusur birbirini gizliyordu: 1473'ten itibaren Osmanli yazilinca arada Safevi'ye yer kalmiyordu. 🔴 Degismez 2 tavani 0 ve DOLU; 1514-10-23'e ±30 gun madde YOK (en yakin 47 gun). Kaydirma bir odun degil daha dogru modelleme.",
+     "kaynak_dosya": "yer_yama_erken.js"
+    }
+   }
+  },
+  {
+   "ad": "Iğdır",
+   "kazanan": "yer_yama_tbmm_24_0905.js",
+   "dusurulecek": [
+    "yer_yama_ok110.js"
+   ],
+   "ust_kume": true,
+   "tbmm_disi_eksik": [],
+   "tasinacak_skaler": {
+    "kaynak": {
+     "deger": "ankraj Revan (46 km) — aynı zincir",
+     "kaynak_dosya": "yer_yama_ok110.js"
+    },
+    "neden": {
+     "deger": "CEVAP.json notunun adıyla andığı vaka: \"Iğdır tek blok 1281->1534\". Zincir açıldı; 253 yıllık tek parça akkoyunlu 32 yıla indi.",
+     "kaynak_dosya": "yer_yama_ok110.js"
+    }
+   }
+  },
+  {
+   "ad": "Karahisâr-ı Sâhib (Afyon)",
+   "kazanan": "yer_yama_tbmm_1920_0905.js",
+   "dusurulecek": [
+    "yer_yama_erken.js"
+   ],
+   "ust_kume": true,
+   "tbmm_disi_eksik": [],
+   "tasinacak_skaler": {
+    "kaynak": {
+     "deger": "TDV `sahib-ataogullari` — govde okundu: \"Nusretuddevle Ahmed kacarak Germiyanogullari'ndan I. Yakub'a sigindi ... Karahisaridevle kusatmasi kaldirildi (727/1327). I. Yakub'un kiziyla evlenen Nusretuddevle Ahmed bundan sonra GERMIYANOGULLARI'NA TABI OLDU.\" Kunye basligi: \"beylik (1275-1341)\". ⚠️ SLUG ARANDI: `sahibataogullari` OLU (302), `sahib-ataogullari` CANLI (200) — tek fark BIR TIRE (§4③).",
+     "kaynak_dosya": "yer_yama_erken.js"
+    },
+    "neden": {
+     "deger": "pe0008/H-0001. Kayit `sahibata 1281-01-01 → 1341-01-01` TEK BLOKTU; notun sikayeti '1300 ile 1330 tablolari BIREBIR ayni, Germiyan'in kademeli yutmasi yazilmamis' idi. TDV kademeyi TAM veriyor: 1327'de Germiyan'a TABI oldu. Kirilma 1341'den 1327'ye cekildi (14 yil). 🔴 DELIK ACILMADI: 1327-1341 arasi bos kalmadi, germiyan doneminin basi one alindi (zaten 1341-1390 germiyan'di, simdi 1327-1390 kesintisiz).",
+     "kaynak_dosya": "yer_yama_erken.js"
+    }
+   }
+  },
+  {
+   "ad": "Malatya",
+   "kazanan": "yer_yama_tbmm_1920_0905.js",
+   "dusurulecek": [
+    "yer_yama_erken.js"
+   ],
+   "ust_kume": true,
+   "tbmm_disi_eksik": [],
+   "tasinacak_skaler": {
+    "kaynak": {
+     "deger": "TDV `malatya` — govde okundu, TAM GUN: \"Memluk ordusu 22 Muharrem 715'te (28 NISAN 1315) sehre girdi\" · \"bir ara Eretnaogullari'nin idaresine giren Malatya'ya 1338'DEN ITIBAREN Memlukler hakim oldu\". Eretna araliginin BASI TDV'de yok (\"bir ara\"); komsulari Sivas/Kayseri'nin eretna baslangici 1335-01-01 alindi.",
+     "kaynak_dosya": "yer_yama_erken.js"
+    },
+    "neden": {
+     "deger": "pe0008/H-0003. Kayit `memluk 1281-01-01`de basliyordu ama TDV Memluk'un sehre 1315-04-28'de girdigini TAM GUNLE soyluyor — 34 yil FAZLA. Ustelik arada bir ERETNA donemi var ve o da yazilmamis. 🔴 DELIK ACILMADI: 1281-1315 arasi ilhanli ile dolduruldu (komsulari Sivas ve Kayseri ayni kimligi ayni aralikta kullaniyor).",
+     "kaynak_dosya": "yer_yama_erken.js"
+    }
+   }
+  },
+  {
+   "ad": "Mersin",
+   "kazanan": "yer_yama_tbmm_24_0905.js",
+   "dusurulecek": [
+    "yer_yama_ok110.js"
+   ],
+   "ust_kume": false,
+   "tbmm_disi_eksik": [
+    "yer_yama_ok110.js.d 1516-08-24→1918-10-30:None",
+    "yer_yama_ok110.js.d 1921-10-20→1923-10-29:None",
+    "yer_yama_ok110.js.s 1352-01-01→1516-08-24:ramazanoglu"
+   ],
+   "tasinacak_skaler": {
+    "kaynak": {
+     "deger": "TDV `ramazanogullari`: beylik 753'te (1352) kuruldu, sahası \"başta Adana olmak üzere Çukurova yöresi\" — Tarsus, Sîs, Ayas, Misis dâhil; Osmanlı hâkimiyeti \"Mercidâbık zaferi (25 Receb 922 / 24 Ağustos 1516)\" sonrası kesinleşti. Veri tarafı: Tarsus ve Adana kayıtları bu zinciri zaten taşıyor (birebir aynı günler).",
+     "kaynak_dosya": "yer_yama_ok110.js"
+    },
+    "neden": {
+     "deger": "d: 1352-01-01'de başlıyordu — 164 yıllık hayalet Osmanlı. ramazanoglu dönemi (1352 → 1516-08-24) eklendi, d: Mercidâbık'a çekildi. Aynı düzeltme yerlesimler_ek27.js:51'e yazılmış ama MÜKERRER `s:`/`d:` yüzünden JS'te sonuncusu kazanıyor ve düzeltme motora hiç girmiyordu.",
+     "kaynak_dosya": "yer_yama_ok110.js"
+    }
+   }
+  },
+  {
+   "ad": "Yüksekova (Gever)",
+   "kazanan": "yer_yama_tbmm_1920_0905.js",
+   "dusurulecek": [
+    "yer_yama_ok110.js"
+   ],
+   "ust_kume": true,
+   "tbmm_disi_eksik": [],
+   "tasinacak_skaler": {
+    "kaynak": {
+     "deger": "ankraj Çölemerik/Hakkâri (48 km) — külliyattaki zincir",
+     "kaynak_dosya": "yer_yama_ok110.js"
+    },
+    "neden": {
+     "deger": "Özalp ile aynı desen.",
+     "kaynak_dosya": "yer_yama_ok110.js"
+    }
+   }
+  },
+  {
+   "ad": "Özalp (Saray)",
+   "kazanan": "yer_yama_tbmm_1920_0905.js",
+   "dusurulecek": [
+    "yer_yama_ok110.js"
+   ],
+   "ust_kume": true,
+   "tbmm_disi_eksik": [],
+   "tasinacak_skaler": {
+    "kaynak": {
+     "deger": "ankraj Van (55 km) — külliyattaki zincir; 1548-08-25 Van'ın kendi Osmanlı günü",
+     "kaynak_dosya": "yer_yama_ok110.js"
+    },
+    "neden": {
+     "deger": "akkoyunlu tek blok; safevi dilimi 1502'ye çekildi, Osmanlı 1548-08-25'te başlamaya devam ediyor.",
+     "kaynak_dosya": "yer_yama_ok110.js"
+    }
+   }
+  },
+  {
+   "ad": "Şemdinli (Şemdinni)",
+   "kazanan": "yer_yama_tbmm_1920_0905.js",
+   "dusurulecek": [
+    "yer_yama_ok110.js"
+   ],
+   "ust_kume": true,
+   "tbmm_disi_eksik": [],
+   "tasinacak_skaler": {
+    "kaynak": {
+     "deger": "ankraj Çölemerik/Hakkâri (77 km) — külliyattaki zincir",
+     "kaynak_dosya": "yer_yama_ok110.js"
+    },
+    "neden": {
+     "deger": "Özalp ile aynı desen.",
+     "kaynak_dosya": "yer_yama_ok110.js"
+    }
+   }
+  },
+  {
+   "ad": "Şeyhrumi (Yücelen)",
+   "kazanan": "yer_yama_tbmm_1920_0905.js",
+   "dusurulecek": [
+    "yer_yama_ok110.js"
+   ],
+   "ust_kume": true,
+   "tbmm_disi_eksik": [],
+   "tasinacak_skaler": {
+    "kaynak": {
+     "deger": "ankraj Van (70 km) — külliyattaki zincir",
+     "kaynak_dosya": "yer_yama_ok110.js"
+    },
+    "neden": {
+     "deger": "Çaldıran ile aynı desen.",
+     "kaynak_dosya": "yer_yama_ok110.js"
+    }
+   }
+  }
+ ],
+ "ucgen_KARAR_GEREK": [
+  {
+   "ad": "Başkale",
+   "taraflar": [
+    "yer_yama_ok110.js",
+    "yer_yama_p0035.js",
+    "yer_yama_tbmm_1920_0905.js"
+   ],
+   "ic_celiski": [
+    {
+     "alan": "s",
+     "dosya_a": "yer_yama_ok110.js",
+     "dosya_b": "yer_yama_p0035.js",
+     "a": [
+      "1281-01-01→1351-01-01:ilhanli",
+      "1351-01-01→1467-01-01:karakoyunlu",
+      "1467-01-01→1502-01-01:akkoyunlu",
+      "1502-01-01→1639-05-17:safevi"
+     ],
+     "b": [
+      "1281-01-01→1351-01-01:ilhanli",
+      "1351-01-01→1467-01-01:karakoyunlu",
+      "1467-01-01→1502-01-01:akkoyunlu",
+      "1502-01-01→1548-08-25:safevi"
+     ]
+    }
+   ]
+  },
+  {
+   "ad": "Çaldıran",
+   "taraflar": [
+    "yer_yama_ok110.js",
+    "yer_yama_p0035.js",
+    "yer_yama_tbmm_1920_0905.js"
+   ],
+   "ic_celiski": [
+    {
+     "alan": "s",
+     "dosya_a": "yer_yama_ok110.js",
+     "dosya_b": "yer_yama_p0035.js",
+     "a": [
+      "1281-01-01→1351-01-01:ilhanli",
+      "1351-01-01→1467-01-01:karakoyunlu",
+      "1467-01-01→1502-01-01:akkoyunlu",
+      "1502-01-01→1639-05-17:safevi"
+     ],
+     "b": [
+      "1281-01-01→1351-01-01:ilhanli",
+      "1351-01-01→1467-01-01:karakoyunlu",
+      "1467-01-01→1502-01-01:akkoyunlu",
+      "1502-01-01→1548-08-25:safevi"
+     ]
+    }
+   ]
+  }
+ ]
+}
