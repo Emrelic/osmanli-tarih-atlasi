@@ -1,0 +1,41 @@
+{
+  "_baslik": "1923 SINIRLARI — himaye düzeltmesi + oniki-ada geri çekme (M-2784 hükmü)",
+  "_not": "ÖNERİDİR, data/*.js'e UYGULANMADI (koşu 5b canlı). Uygulanabilir yama: denetim/yer_yama_1923_duzeltme.js",
+  "_oturum": "1923 SINIRLARI · local_372203f2-6e71-46d2-af5e-563a5c7eca60",
+  "yontem": "M-2784'ün verdiği Mısır emsali: himaye (protectorate) durumunda `s:` yerel kimlikte KALIR, `isg:` işgal/koruyucu güç olarak EKLENİR — ilhak (annexation) durumunda `s: ingiltere` DOKUNULMAZ. Her biri için TDV raw HTML ile 'himaye' mi 'ilhak' mı SORULDU.",
+  "duzeltmeler": [
+    {
+      "nokta": "Manama (Bahreyn)",
+      "eski": "s: bahreyn(1783-1861-05-31) → ingiltere(1861-05-31-1923-10-29)",
+      "yeni": "s: bahreyn(1783-1923-10-29) + isg: ingiltere(1861-05-31-1923-10-29)",
+      "kaynak": "TDV 'bahreyn' CANLI, raw HTML: \"İngiliz himayesine giren Bahreyn\" — himaye, ilhak değil. Tarih: TDV \"21 Mayıs 1861\", mevcut nokta \"31 Mayıs 1861\" — 10 gün fark, GÜNE dokunulmadı (muhtemelen farklı antlaşma aşaması, ayrı bir araştırma ister)."
+    },
+    {
+      "nokta": "Doha (Katar)",
+      "eski": "s: katar(1913-07-29-1916-11-03) → ingiltere(1916-11-03-1923-10-29)",
+      "yeni": "s: katar(1913-07-29-1923-10-29) + isg: ingiltere(1916-11-03-1923-10-29)",
+      "kaynak": "TDV 'katar' CANLI, raw HTML: \"3 Kasım 1916'da Katar Emîri Abdullah ile ... himaye antlaşması\" — GÜN BİREBİR eşleşti."
+    },
+    {
+      "nokta": "Kuveyt",
+      "eski": "v: Sabah emirliği(...-1914-11-22) → s: ingiltere(1914-11-22-1923-10-29)",
+      "yeni": "v: Sabah emirliği(...-1914-11-22) → s: kuveyt(1914-11-22-1923-10-29) + isg: ingiltere(aynı aralık)",
+      "kaynak": "TDV 'kuveyt' CANLI, raw HTML: \"İngiltere ... (22 Kasım 1914) Küveyt'in kendi himayesinde olduğunu ilân etti\" — GÜN BİREBİR eşleşti. Mevcut `kuveyt` künyesi (devletler.js'te zaten var, f:1752-t:1923-10-29) kullanıldı."
+    },
+    {
+      "nokta": "Mengo (Buganda)",
+      "eski": "s: buganda(1300-1900) → ingiltere(1900-1923-10-29)",
+      "yeni": "s: buganda(1300-1923-10-29) + isg: ingiltere(1900-1923-10-29)",
+      "kaynak": "TDV 'uganda' CANLI, raw HTML: Buganda kralı Mwanga ile \"himaye antlaşması\" — ve 1922'de Buganda Müslümanlarının kendi okulları açması iç idarenin sürdüğünü gösteriyor."
+    }
+  ],
+  "GERI_CEKME": {
+    "konu": "oniki-ada-italyan — M-2778/M-2784'teki '8 nokta düzeltmesi' YANLIŞTI",
+    "sebep": "Kutu hatası. Gerçek Dodecanese adaları (Rodos, Kalimnos, Karpatos, Sömbeki/Simi, İleryoz/Leros, İstanköy/Kos) TEK TEK adıyla arandı: HEPSİ ZATEN 1923-10-29'da 'italya' gösteriyor. Kutum (35,3-37,7K/26,0-29,0D) yanlışlıkla Muğla ili kıyı kasabalarını (osmanli, DOĞRU) ve Kuzey Ege adalarını İkarya/Fourni (yunanistan, DOĞRU, 1912'den beri) da yakalamıştı — bunların Dodecanese ile hiç ilgisi yok.",
+    "sonuc": "DÜZELTME YAPILMAYACAK. `oniki-ada-italyan` künyesi de `cezayir-fransiz`/`kamboc-kralligi`/`nguyen-hanedani` ile AYNI kovaya (🟡 muhtemelen gereksiz, toprak zaten doğru) taşınmalı.",
+    "ders": "Bir bölgeyi ada/takımada ADIYLA değil KUTUYLA aramak, komşu kıta parçalarını ve alakasız takımadaları yakalayabilir — bu turda ölçüldü, düzeltilmeden önce yakalandı."
+  },
+  "dokunulmayan": {
+    "avusturya-cumhuriyet_habsburg": "M-2784 açık talimatı — NEHIR SURTUNME'nin hayalet-devlet biçimi (YAMA-HAYALET-IRAN-0905.json) gelince aynı yöntemle yazılacak, bu turda dokunulmadı."
+  }
+}
