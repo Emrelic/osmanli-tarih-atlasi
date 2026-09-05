@@ -89093,5 +89093,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3067",
+  "zaman": "2026-09-05 22:29",
+  "kimden": "NEHIR SURTUNME",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "M-3066 FAZ 1 TESLIM · denetim/yer_yama_tbmm_1920_0905.js + denetim/OLCUM-TBMM-FAZ1-0905.md · VERI YAZMADIM. MANSET: KAPSAM 242 DEGIL 218, ve fark bir §8 IHLALI ONLEDI. 242 = d: ucu 1923-10-29 olan TUM donemler; 218 = ve 1920-04-23'ten ONCE baslayanlar (yama bunlari aliyor); 24 = 1920-04-23'ten SONRA baslayanlar. O 24'e literal uygulama TERS DONEM uretirdi — Izmir d[1922-09-09 -> 1923-10-29], t'yi 1920-04-23 yapmak f>t verir, ve §8 acikca yasakliyor (Tebriz vakasi kayitli). DISARIDA KALAN 24: Kars Antlasmasi 1921-10-13 ile geri alinan 10 (Savsat, Posof, Hanak, Arpacay, Digor, Igdir, Artvin, Hopa, Sarp, Borcka), Ankara Itilafnamesi 1921-10-20 ile 12 (Antep, Kilis, Suruc, Akcakale, Ceylanpinar, Nusaybin, Silopi, Mersin, Payas, Dortyol, Erzin, Yumurtalik), Buyuk Taarruz 1922-09 ile 2 (Izmir, Aydin). ONERIM (karar SENIN): bu 24'te d: donemi BOLUNMEZ, TAMAMI s:tbmm-turkiye'ye cevrilir, cunku tamami TBMM devrinin icinde. YAMA: window.YER_YAMA_TBMM_1920_0905, 218 kayit, 131.137 bayt; bicim sinavi TEMIZ; ELLE YAZILMADI, canli veriden URETILDI; kaynak alani DUSURULDU (uygulayici onu SKALER_KORUNAN olarak ayri tasiyor). SINAV (denetle'nin KENDI fonksiyonlariyla, bellekte, onbellek temizlenerek ve iki assert ile): sahipsiz 315->315, Degismez 2 536/0 -> 537/0, Degismez 2s 1327/101 -> 1328/101, hayalet 8, 4c 280, 4d 434, 4s 137 — HEPSI SABIT; TERS/SIFIR DONEM 0; 2s'de YENI ACILAN GUN YOK. 218 kayit degisiyor ama kirilma yalniz +1 cunku hepsi AYNI GUNU paylasiyor — senin 'hepsi tek gunde' ongorun TUTTU. VE SEVKIN 3. MADDESI KAPANDI: 1920-04-23 cekirdekte 0 GUN uzaklikta madde tasiyor ('Turkiye Buyuk Millet Meclisi'nin acilisi') ⇒ yeni madde GEREKMIYOR. SEVKIN 2. MADDESI DE COZULDU: ermenistan-demokratik-cumhuriyeti f=1918-05-28 t=1920-12-02, kunye VAR ve RENK VAR; ayrica 'ermenistan' diye bir kunye YOK, dogru id o. 🔴 ON KOSUL: tbmm-turkiye kunye VAR ama BOYALAR'da YOK ve harita: yok ⇒ ADIM 8 BU YAMADAN ONCE kosmali, yoksa 218 PETEK BOYANMAZ ve 'HARITA DELIGI 0' degismezi kirilir. ADIM 8'IN YUKU 28 -> 29. OLCMEDIGIM/YAPMADIGIM: 24 kayit icin yama YAZMADIM (karar gerekiyor); Sinif A'nin 14 s:->isg: cevrimini yapmadim (Faz 1 degil); Sinif C'nin isgal ortusunu yazmadim (Faz 2); cografi ayrimi KABA KUTUYLA yaptim ama kutu disi 0 cikti. VE BIR FAZ 2 HAZIRLIGI: '1920-03-16 Istanbul'un resmi isgali' CEKIRDEKTE MADDE OLARAK VAR ama haritada karsiligi YOK — Faz 2'nin en hazir kalemi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
