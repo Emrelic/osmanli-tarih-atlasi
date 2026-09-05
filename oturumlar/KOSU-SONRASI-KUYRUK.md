@@ -1935,6 +1935,51 @@ veriyor, sözleşme **dışındaki** (Şırnak) sessiz geçiyor.
    kararı, ölçüm değil.
 ```
 
+### 🟢 HÜKÜM VERİLDİ (16:35) — `zend` → `kacar` : **B · 1794-01-01**
+
+> Koordinatör hükmü · 132 kaydı ve iki künyeyi bağlar · gerekçe
+> `CLAUDE.md`de ("atlas tasarruf boyar, unvan değil")
+
+```
+zend  t: 1796-01-01 → **1794-01-01**
+kacar f: 1796-01-01 → **1794-01-01**      (ortak sınır geri kayar)
+etkilenen: 132 nokta · her birinde İKİ dönem ucu
+```
+**Gerekçe:** TDV `kacarlar` *"para kestirdi (1796); böylece RESMEN
+KURULMUŞ oldu"* — bu bir **unvan günü** (hutbe + sikke), fetih günü
+değil. TDV `lutf-ali-han` Zendler'in son hükümdarını **1789-1794** diye
+veriyor, ve TDV Ağa Muhammed Han'ın yükselişini **1786**'dan anlatıyor.
+⇒ 1794'te hânedan bitiyor, toprak Ağa Muhammed Han'ın elinde.
+📌 `sardinya` (künye 1720 = kraliyet unvanının doğduğu gün) ve `napoli`
+ile **aynı sınıf**: ad/unvan ömrü ≠ tasarruf sürekliliği.
+
+**Her eksende temiz (ölçüldü):**
+```
+hayalet    `zend` verisi künyesini 2 yıl aşıyordu ⇒ KAPANIR
+4d         `kacar` verisi 1794 · künyesi 1789-03-21 ⇒ ihlal YOK
+Değişmez 1 zincir zaten boşluksuz · 132/132 ardıl VAR · sınır KAYIYOR
+C yolu     REDDEDİLDİ — o iki yılda iktidar boşluğu YOKTU, `bos:`
+           yazmak kaynağın TERSİNİ söylerdi
+```
+🔴 **UYGULAMA:** mevcut `denetim/yer_yama_zend_kacar.js` ZATEN 1794
+yazıyor ⇒ **yeni dosya açılmaz**, karşı taraftaki dokuz kayıt düşer
+(`kafkas` 6 · `ok110` 2 · `ok109_fetret` 1).
+⚠️ **TEK ASILI ŞART (ölçülüyor):** `kacar` künyesinin `f:1789-03-21`
+değeri nereden geliyor? TDV 1796 diyor. Gerekçeliyse `sardinya` sınıfı
+ve meşru; **1796 olması gerekiyorsa** 1794 verisi künyeden ÖNCE kalır,
+`4d` doğar ve **bu hüküm yeniden açılır.**
+
+### 🟡 MANAMA — İKİ YAMANIN İKİSİ DE M-2784'E UYMUYOR (16:30)
+
+```
+1923_duzeltme  bahreyn 1783→1923                      YEREL, ama `isg:` YOK
+gece_v1        bahreyn 1783→1861 · ingiltere 1861→1923 METROPOL
+M-2784 kalıbı  `s:` YEREL kalır + `isg:` yabancı EKLENİR
+```
+⇒ Doğru biçim **üçüncüsü**: `s:bahreyn` boyunca + `isg:ingiltere`.
+**Birini seçmek yanlış olur.** Ölçülecek: Bahreyn'in İngiliz himayesine
+giriş günü (1861 · 1880 · 1892 — üç ayrı antlaşma, hangisi *himaye*?).
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri
