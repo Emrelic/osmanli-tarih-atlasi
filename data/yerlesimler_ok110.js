@@ -57,10 +57,8 @@ window.YERLESIMLER_OK110 = [
 //    1515'te girdi; komşusundan AYRI bir gün yazmak `Değişmez 2`ye YENİ
 //    bir kırılma ekler ve dayanağı yoktur.
 { ad:"Darende", tur:"sehir", lat:38.550, lon:37.500, g:0, k:4, m:"Maraş",
-  s:[{f:"1281-01-01",t:"1335-01-01",d:"ilhanli"},
-     {f:"1335-01-01",t:"1338-01-01",d:"eretna"},
-     {f:"1338-01-01",t:"1515-06-13",d:"dulkadir"}],
-  d:[{f:"1515-06-13",t:"1923-10-29"}], v:[],
+  s:[{f:"1281-01-01",t:"1335-01-01",d:"ilhanli"},{f:"1335-01-01",t:"1338-01-01",d:"eretna"},{f:"1338-01-01",t:"1515-06-13",d:"dulkadir"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1515-06-13",t:"1920-04-23"}], v:[],
   kaynak:"TDV `dulkadirogullari` — \"Dârende: 1338'de işgal edildi\" ve beyliğin sahası \"doğuda Harput'tan batıda Kırşehir'e, kuzeyde Bozok (Yozgat) ile Sivas'ın güneyinde Gemerek ve Gürün'den Hatay'a bağlı Hassa'ya kadar\". ⚠️ TDV'de `darende` diye MÜSTAKİL madde YOKTUR (slug arama sayfasına düşüyor); tarih beyliğin kendi maddesinden alındı. 1281-1338 arası zincir komşu ankrajlardan (Malatya: ilhanli→1335, eretna 1335→1338) türetildi, ayrıca ARAŞTIRILMADI.",
   neden:"0017/H-0001 · Voronoi kaması. Şikâyet kutusunda (37,78-39,23K/35,29-37,56D) yalnız 2 nokta vardı (Elbistan · Kayseri) ve Elbistan'ın peteği 100 km öteye kama gibi uzanıyordu. Darende doğu kolunu bağlıyor. ⚠️ Kutunun 98 km'lik ASIL boşluğu (37,88/35,89) BU NOKTAYLA KAPANMAZ — kaynak bulunamadığı için açık bırakıldı." },
 

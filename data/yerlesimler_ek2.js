@@ -78,8 +78,8 @@ window.YERLESIMLER_EK2 = [
 //   bir nokta konamaz (3 km kuralı). Tam çözüm `kur:`/`bit:` yerine
 //   petek epokunda bir değişiklik ister; bu oturumun yetkisi dışında.
 { ad:"Boğaziçi (Rumeli yakası)", tur:"bolge", lat:41.150, lon:29.050, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1453-05-29",d:"bizans"}],
-  d:[{f:"1453-05-29",t:"1923-10-29"}] },
+  s:[{f:"1281-01-01",t:"1453-05-29",d:"bizans"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1453-05-29",t:"1920-04-23"}] },
 
 // ── THEODORO PRENSLİĞİ — renk engeli kalktı, iki nokta açıldı ────────
 // `yerlesimler_kirim.js` yazılırken bu ikisi RENK YÜZÜNDEN atlanmıştı:

@@ -37,8 +37,8 @@ window.YERLESIMLER_EK_BOSLUK = [
 //    (ölçüldü: 1 madde) ⇒ Değişmez 2 açılmıyor, yeni gün yaratılmadı.
 {ad:"Birecik", tur:"sehir", lat:37.025, lon:37.977, g:1, k:3,
  m:"Urfa",
- s:[{f:"1281-01-01", t:"1516-08-24", d:"memluk"}],
- d:[{f:"1516-08-24", t:"1923-10-29"}],
+ s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+ d:[{f:"1516-08-24",t:"1920-04-23"}],
  kaynak:"TDV `birecik` — gövdesi okundu, 2026-08-28"},
 
 // ── PRİZREN ────────────────────────────────────────────────────────────────

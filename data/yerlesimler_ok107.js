@@ -52,11 +52,8 @@ window.YERLESIMLER_OK107 = [
   //   pencerelerine oturtuldu; ara halkalar (celayirli · karakoyunlu)
   //   TDV'de Cizre için ADIYLA geçmiyor, bölgesel (Bitlis · Mardin
   //   kayıtlarının aynı halkaları). Bu bir HİZALAMADIR, kaynak değil.
-  s:[{f:"1281-01-01",t:"1353-01-01",d:"ilhanli"},
-     {f:"1353-01-01",t:"1431-01-01",d:"celayirli"},
-     {f:"1431-01-01",t:"1469-01-01",d:"karakoyunlu"},
-     {f:"1469-01-01",t:"1508-01-01",d:"akkoyunlu"}],
-  d:[{f:"1515-09-19",t:"1923-10-29"}],
+  s:[{f:"1281-01-01",t:"1353-01-01",d:"ilhanli"},{f:"1353-01-01",t:"1431-01-01",d:"celayirli"},{f:"1431-01-01",t:"1469-01-01",d:"karakoyunlu"},{f:"1469-01-01",t:"1508-01-01",d:"akkoyunlu"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1515-09-19",t:"1920-04-23"}],
   v:[], kaynak:"cizre",
   bos:"veri-yok",
   neden:"kunye-yok — 1508-01-01 / 1515-09-19 arasi (7,7 yil) BILEREK bos. TDV cizre maddesi bu araligi ACIKCA anlatiyor: Emir II. Seref 1508'de sehri Akkoyunlulardan aliyor ve MAHALLI YONETIMI yeniden kuruyor, arada kisa bir Sah Ismail idaresi var ama TDV gununu VERMIYOR. Yani kaynak KONUSUYOR, devletler.js'te Cizre/Bohtan emirligi kunyesi YOK. Kunye yazilirsa bu bosluk kapanir — KUNYE ONERISI raporda."
@@ -78,12 +75,8 @@ window.YERLESIMLER_OK107 = [
   //   bitiyor ⇒ 31 yıllık hayalet. Kapı yakaladı, zincire karakoyunlu
   //   halkası eklendi (Bitlis'in kendi halkası; TDV Siirt için ADIYLA
   //   söylemiyor — bölgesel HİZALAMA, kaynak değil).
-  s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},
-     {f:"1340-01-01",t:"1431-01-01",d:"celayirli"},
-     {f:"1431-01-01",t:"1462-01-01",d:"karakoyunlu"},
-     {f:"1462-01-01",t:"1507-01-01",d:"akkoyunlu"},
-     {f:"1507-01-01",t:"1514-09-06",d:"safevi"}],
-  d:[{f:"1514-09-06",t:"1923-10-29"}],
+  s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},{f:"1340-01-01",t:"1431-01-01",d:"celayirli"},{f:"1431-01-01",t:"1462-01-01",d:"karakoyunlu"},{f:"1462-01-01",t:"1507-01-01",d:"akkoyunlu"},{f:"1507-01-01",t:"1514-09-06",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1514-09-06",t:"1920-04-23"}],
   v:[], kaynak:"siirt"
 },
 
@@ -111,10 +104,8 @@ window.YERLESIMLER_OK107 = [
   //   🔴 VE BU, İLK TURDA ÇIKARIM OLAN 1462'Yİ KAYNAĞA BAĞLADI: o günü
   //     Siirt'in Akkoyunlu yılından TÜRETMİŞTİM ("iki şehir 60 km"), şimdi
   //     TDV onu Hasankeyf için ADIYLA söylüyor. Çıkarım → kaynak.
-  s:[{f:"1281-01-01",t:"1462-01-01",d:"eyyubi-hisnikeyfa"},
-     {f:"1462-01-01",t:"1507-01-01",d:"akkoyunlu"},
-     {f:"1507-01-01",t:"1517-05-01",d:"safevi"}],
-  d:[{f:"1517-05-01",t:"1923-10-29"}],
+  s:[{f:"1281-01-01",t:"1462-01-01",d:"eyyubi-hisnikeyfa"},{f:"1462-01-01",t:"1507-01-01",d:"akkoyunlu"},{f:"1507-01-01",t:"1517-05-01",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1517-05-01",t:"1920-04-23"}],
   v:[], kaynak:"hasankeyf",
   // ⚠️ 1517-05-01 BİR TABANDIR, ÖLÇÜLMÜŞ GÜN DEĞİL — açıkça yazıyorum.
   //   TDV hasankeyf: "Mısır seferi sırasında (1517) MARDİN'İN FETHİNİN
@@ -133,11 +124,8 @@ window.YERLESIMLER_OK107 = [
   // Aradım, yok. Tur Abdin'in merkezi ve Osmanlı'da Mardin sancağının
   // nahiye/kaza merkezi. Dönem günleri MARDİN'in kendi kaydından alındı
   // (40,4 km) — uydurulmuş gün yok, hepsi atlasta ZATEN kullanılan günler.
-  s:[{f:"1281-01-01",t:"1409-01-01",d:"artuklu"},
-     {f:"1409-01-01",t:"1467-11-10",d:"karakoyunlu"},
-     {f:"1467-11-10",t:"1507-01-01",d:"akkoyunlu"},
-     {f:"1507-01-01",t:"1517-05-01",d:"safevi"}],
-  d:[{f:"1517-05-01",t:"1923-10-29"}],
+  s:[{f:"1281-01-01",t:"1409-01-01",d:"artuklu"},{f:"1409-01-01",t:"1467-11-10",d:"karakoyunlu"},{f:"1467-11-10",t:"1507-01-01",d:"akkoyunlu"},{f:"1507-01-01",t:"1517-05-01",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1517-05-01",t:"1920-04-23"}],
   v:[], kaynak:"bulunamadı — TDV'de `midyat` maddesi YOK (slug 302 ölçüldü). Dönem günleri Mardin kaydından (40 km) BÖLGESEL HİZALAMA ile alındı; Midyat Osmanlı'da Mardin sancağının nahiyesiydi."
 },
 

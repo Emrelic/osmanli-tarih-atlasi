@@ -69,30 +69,21 @@ window.YERLESIMLER_EK_FERHADPASA = [
 { ad:"Çölemerik (Hakkâri)", tur:"sehir", lat:37.5744, lon:43.7408, g:0, k:3, m:"Van",
   // kaynak: hakkari — Van eyaletine bağlı OCAKLIK sancak; zincir Van
   // kaydıyla birebir aynı (aynı fetih, aynı eyalet).
-  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},
-     {f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},
-     {f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},
-     {f:"1502-01-01",t:"1548-08-25",d:"safevi"}],
-  d:[{f:"1548-08-25",t:"1923-10-29"}], v:[] },
+  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-25",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1548-08-25",t:"1920-04-23"}], v:[] },
 
 // ───────── Van'ın DOĞUSU · Mahmudi sancağının kale merkezi ─────────
 { ad:"Hoşap (Mahmudi)", tur:"kale", lat:38.2222, lon:43.7439, g:0, k:3, m:"Van",
   // kaynak: van — "Mahmudi" TDV'nin Van eyaleti birim listesinde ADIYLA
   // geçiyor. Hoşap Kalesi o sancağın merkezidir.
-  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},
-     {f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},
-     {f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},
-     {f:"1502-01-01",t:"1548-08-25",d:"safevi"}],
-  d:[{f:"1548-08-25",t:"1923-10-29"}], v:[] },
+  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-25",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1548-08-25",t:"1920-04-23"}], v:[] },
 
 // ───────── Van'ın KUZEYDOĞUSU · Erciş ile Çaldıran arasındaki boşluk ─────────
 { ad:"Bargiri (Muradiye)", tur:"kale", lat:38.9931, lon:43.7669, g:0, k:3, m:"Van",
   // kaynak: van — "Bargiri" TDV'nin Van eyaleti birim listesinde geçiyor.
-  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},
-     {f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},
-     {f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},
-     {f:"1502-01-01",t:"1548-08-25",d:"safevi"}],
-  d:[{f:"1548-08-25",t:"1923-10-29"}], v:[] },
+  s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-25",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1548-08-25",t:"1920-04-23"}], v:[] },
 
 // ───────── HATTIN EN DOĞUSU · Kotur geçidi ─────────
 // 🔴 Bu kayıt H-0027'nin ("Van'ın doğusundaki topraklar alınmamış mı")

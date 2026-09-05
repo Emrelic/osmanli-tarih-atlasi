@@ -164,8 +164,8 @@ window.YERLESIMLER_SERHAT = [
 // 🟢 3 km mükerrer taraması yapıldı: en yakın nokta 19,1 km (Silivri).
 //   `CLAUDE.md §11` "yakın mükerrer yerleşim" tuzağı — temiz.
 { ad:"Çatalca", tur:"kasaba", lat:41.1436, lon:28.4611, g:0, k:4, m:"İstanbul",
-  s:[{f:"1281-01-01",t:"1453-05-29",d:"bizans"}],
-  d:[{f:"1453-05-29",t:"1923-10-29"}],
+  s:[{f:"1281-01-01",t:"1453-05-29",d:"bizans"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1453-05-29",t:"1920-04-23"}],
   v:[],
   kaynak:"bulunamadı — TDV'de `catalca` · `catalca--istanbul` · `metrai` üçü de ÖLÜ (HTTP 302, 2026-08-29 ölçüldü). Gün 19,1 km'deki Silivri'den alındı (aynı bizans→1453-05-29→Osmanlı deseni İstanbul ve Boğaziçi kayıtlarında da var); TUTARLILIK seçimi, kaynak günü değil." },
 

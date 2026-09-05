@@ -264,12 +264,8 @@ window.YERLESIMLER_EK29 = [
 // kaynak: TDV `uskudar` (HTTP 200, gövdesi okundu)
 
 { ad:"Üsküdar", tur:"sehir", lat:41.0227, lon:29.0153, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1329-06-01",d:"bizans"},
-     {f:"1402-07-28",t:"1403-09-01",d:"isa-celebi"},
-     {f:"1403-09-01",t:"1404-03-01",d:"mehmed-celebi"},
-     {f:"1404-03-01",t:"1411-02-17",d:"suleyman-celebi"},
-     {f:"1411-02-17",t:"1413-07-05",d:"mehmed-celebi"}],
-  d:[{f:"1329-06-01",t:"1402-07-28"},{f:"1413-07-05",t:"1923-10-29"}], v:[] },
+  s:[{f:"1281-01-01",t:"1329-06-01",d:"bizans"},{f:"1402-07-28",t:"1403-09-01",d:"isa-celebi"},{f:"1403-09-01",t:"1404-03-01",d:"mehmed-celebi"},{f:"1404-03-01",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"mehmed-celebi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1329-06-01",t:"1402-07-28"},{f:"1413-07-05",t:"1920-04-23"}], v:[] },
 
 // ───────── ANADOLU KOLU ─────────
 
@@ -278,10 +274,8 @@ window.YERLESIMLER_EK29 = [
 // Karaman → 1414 kesin Osmanlı.
 // kaynak: bulunamadı (TDV bu taneciği kapsamıyor) — çizgi kardeş kayıt Akşehir'den
 { ad:"İshaklı", tur:"kasaba", lat:38.5439, lon:31.2447, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1297-01-01",d:"selcuklu"},
-     {f:"1297-01-01",t:"1381-06-01",d:"hamid"},
-     {f:"1402-07-28",t:"1414-06-01",d:"karaman"}],
-  d:[{f:"1381-06-01",t:"1402-07-28"},{f:"1414-06-01",t:"1923-10-29"}], v:[] },
+  s:[{f:"1281-01-01",t:"1297-01-01",d:"selcuklu"},{f:"1297-01-01",t:"1381-06-01",d:"hamid"},{f:"1402-07-28",t:"1414-06-01",d:"karaman"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1381-06-01",t:"1402-07-28"},{f:"1414-06-01",t:"1920-04-23"}], v:[] },
 
 // ILGIN — Karaman beyliği toprağı, Konya (68 km) çizgisiyle aynı.
 // ⚠️ Konya kaydındaki 1832-11-21 → 1833-06-30 Mısır (Kavalalı) dönemi
@@ -333,10 +327,8 @@ window.YERLESIMLER_EK29 = [
 //   arası `akkoyunlu`ya sıkıştırıldı. Bu bir tercihtir ve gerçeğin
 //   tamamı DEĞİLDİR; gün bulunursa açılmalı.
 { ad:"Karahisâr-ı Şarkî (Şebinkarahisar)", tur:"kale", lat:40.2886, lon:38.4247, g:0, k:2,
-  s:[{f:"1281-01-01",t:"1335-01-01",d:"ilhanli"},
-     {f:"1335-01-01",t:"1381-01-01",d:"eretna"},
-     {f:"1381-01-01",t:"1473-08-11",d:"akkoyunlu"}],
-  d:[{f:"1473-08-11",t:"1923-10-29"}], v:[] },
+  s:[{f:"1281-01-01",t:"1335-01-01",d:"ilhanli"},{f:"1335-01-01",t:"1381-01-01",d:"eretna"},{f:"1381-01-01",t:"1473-08-11",d:"akkoyunlu"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1473-08-11",t:"1920-04-23"}], v:[] },
 
 // KELKİT — Erzincan (42,3 km) çizgisiyle aynı: Mutahharten sonrası Akkoyunlu,
 // 1473 Otlukbeli'yle Osmanlı.
@@ -352,10 +344,8 @@ window.YERLESIMLER_EK29 = [
 // AŞKALE — Erzurum (48,9 km) çizgisiyle aynı: Akkoyunlu → Safevî → 1518 Osmanlı.
 // kaynak: bulunamadı — çizgi kardeş kayıt Erzurum'dan
 { ad:"Aşkale", tur:"kasaba", lat:39.9214, lon:40.6939, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1348-01-01",d:"ilhanli"},
-     {f:"1348-01-01",t:"1502-01-01",d:"akkoyunlu"},
-     {f:"1502-01-01",t:"1518-01-01",d:"safevi"}],
-  d:[{f:"1518-01-01",t:"1923-10-29"}], v:[] },
+  s:[{f:"1281-01-01",t:"1348-01-01",d:"ilhanli"},{f:"1348-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1518-01-01",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1518-01-01",t:"1920-04-23"}], v:[] },
 
 // ───────── RUMELİ KOLU ─────────
 
@@ -365,20 +355,14 @@ window.YERLESIMLER_EK29 = [
 //   Bugünkü çizgi 1453'ü esas alıyor — eksik ama YANLIŞ değil.
 // kaynak: bulunamadı — çizgi kardeş kayıt İstanbul'dan
 { ad:"Silivri", tur:"kale", lat:41.0791, lon:28.2493, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1453-05-29",d:"bizans"}],
-  d:[{f:"1453-05-29",t:"1923-10-29"}], v:[] },
+  s:[{f:"1281-01-01",t:"1453-05-29",d:"bizans"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1453-05-29",t:"1920-04-23"}], v:[] },
 
 // VİZE — Demirköy (27,9 km) çizgisiyle aynı, Balkan Savaşı Bulgar işgali dâhil.
 // kaynak: bulunamadı — çizgi kardeş kayıt Demirköy'den
 { ad:"Vize", tur:"kale", lat:41.5714, lon:27.7658, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1361-01-01",d:"bizans"},
-     {f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},
-     {f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},
-     {f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},
-     {f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},
-     {f:"1913-03-26",t:"1913-07-21",d:"bulgaristan-kralligi"}],
-  d:[{f:"1361-01-01",t:"1402-07-28"},{f:"1413-07-05",t:"1913-03-26"},
-     {f:"1913-07-21",t:"1923-10-29"}], v:[] },
+  s:[{f:"1281-01-01",t:"1361-01-01",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-03-26",t:"1913-07-21",d:"bulgaristan-kralligi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1361-01-01",t:"1402-07-28"},{f:"1413-07-05",t:"1913-03-26"},{f:"1913-07-21",t:"1920-04-23"}], v:[] },
 
 // PREVADİ (Provadia) — Şumnu (41,6 km) çizgisiyle aynı: 1878 Berlin'den sonra
 // muhtar Bulgaristan (v:), 1908 istiklâlle bulgaristan.

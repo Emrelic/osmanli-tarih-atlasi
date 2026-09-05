@@ -124,14 +124,8 @@ window.YERLESIMLER_EK23 = [
 // ilhakında (1345) Edremit ve Çanakkale Osmanlı olurken arada kalıyordu.
 // Tek başına ölçüldü: 1350-1440 arası **851 km²** (ceneviz→OSM 489 · bizans→OSM 362).
 { ad:"Behramkale (Assos)", tur:"kale", lat:39.4897, lon:26.3376, g:0, k:4, m:"Bursa",
-  s:[{f:"1281-01-01",t:"1297-01-01",d:"bizans"},
-     {f:"1297-01-01",t:"1345-01-01",d:"karesi"},
-     {f:"1402-07-28",t:"1403-09-01",d:"isa-celebi"},
-     {f:"1403-09-01",t:"1404-03-01",d:"mehmed-celebi"},
-     {f:"1404-03-01",t:"1411-02-17",d:"suleyman-celebi"},
-     {f:"1411-02-17",t:"1413-07-05",d:"mehmed-celebi"}],
-  d:[{f:"1345-01-01",t:"1402-07-28",y:"ilhak"},
-     {f:"1413-07-05",t:"1923-10-29"}],
+  s:[{f:"1281-01-01",t:"1297-01-01",d:"bizans"},{f:"1297-01-01",t:"1345-01-01",d:"karesi"},{f:"1402-07-28",t:"1403-09-01",d:"isa-celebi"},{f:"1403-09-01",t:"1404-03-01",d:"mehmed-celebi"},{f:"1404-03-01",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"mehmed-celebi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1345-01-01",t:"1402-07-28",y:"ilhak"},{f:"1413-07-05",t:"1920-04-23"}],
   v:[] },
 
 // ② BOĞAZİÇİ'NİN ANADOLU YAKASI
@@ -141,13 +135,8 @@ window.YERLESIMLER_EK23 = [
 // Tek başına ölçüldü: 1400-1440 **+216 km²** Osmanlı · 1350-1355 **−97 km²**
 // (iki yönlü — Aydos/Samandıra'nın kuzeye taşan payı geri alınıyor).
 { ad:"Beykoz", tur:"sehir", lat:41.1275, lon:29.0925, g:0, k:4, m:"İstanbul",
-  s:[{f:"1281-01-01",t:"1395-08-01",d:"bizans"},
-     {f:"1402-07-28",t:"1403-09-01",d:"isa-celebi"},
-     {f:"1403-09-01",t:"1404-03-01",d:"mehmed-celebi"},
-     {f:"1404-03-01",t:"1411-02-17",d:"suleyman-celebi"},
-     {f:"1411-02-17",t:"1413-07-05",d:"mehmed-celebi"}],
-  d:[{f:"1395-08-01",t:"1402-07-28"},
-     {f:"1413-07-05",t:"1923-10-29"}],
+  s:[{f:"1281-01-01",t:"1395-08-01",d:"bizans"},{f:"1402-07-28",t:"1403-09-01",d:"isa-celebi"},{f:"1403-09-01",t:"1404-03-01",d:"mehmed-celebi"},{f:"1404-03-01",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"mehmed-celebi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1395-08-01",t:"1402-07-28"},{f:"1413-07-05",t:"1920-04-23"}],
   v:[] },
 
 // ③ MARMARA'NIN RUMELİ YAKASI — EMRE'NİN ŞİKÂYETİNİN TAM YERİ
@@ -160,13 +149,8 @@ window.YERLESIMLER_EK23 = [
 // ⚠️ Koordinat 0,38 km denizdeydi; `denetle.konum_denetimi`in SINANMIŞ önerisi
 //    uygulandı (40.6103,27.1147 → 40.6142,27.1146).
 { ad:"Şarköy", tur:"liman", lat:40.6142, lon:27.1146, g:0, k:4, m:"Edirne",
-  s:[{f:"1281-01-01",t:"1357-01-01",d:"bizans"},
-     {f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},
-     {f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},
-     {f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},
-     {f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"}],
-  d:[{f:"1357-01-01",t:"1402-07-28",y:"kusatma"},
-     {f:"1413-07-05",t:"1923-10-29"}],
+  s:[{f:"1281-01-01",t:"1357-01-01",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1357-01-01",t:"1402-07-28",y:"kusatma"},{f:"1413-07-05",t:"1920-04-23"}],
   v:[] },
 
 // ④ SAROZ KÖRFEZİ KUZEY KIYISI — ÇİMPE GÖRÜNTÜSÜNDEKİ PARÇA
@@ -179,13 +163,8 @@ window.YERLESIMLER_EK23 = [
 // ⚠️ Koordinat 1,77 km denizdeydi; SINANMIŞ öneri uygulandı
 //    (40.63,26.70 → 40.6456,26.6950).
 { ad:"Saroz kuzey kıyısı", tur:"bolge", lat:40.6456, lon:26.6950, g:0, k:0,
-  s:[{f:"1281-01-01",t:"1357-01-01",d:"bizans"},
-     {f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},
-     {f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},
-     {f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},
-     {f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"}],
-  d:[{f:"1357-01-01",t:"1402-07-28"},
-     {f:"1413-07-05",t:"1923-10-29"}],
+  s:[{f:"1281-01-01",t:"1357-01-01",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1357-01-01",t:"1402-07-28"},{f:"1413-07-05",t:"1920-04-23"}],
   v:[] },
 
 ];

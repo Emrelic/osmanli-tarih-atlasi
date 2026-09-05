@@ -62,16 +62,16 @@ window.YERLESIMLER_EK28 = [
   // GEREKÇE k:3: 1909'da padişah iradesiyle Adana vilayeti Cebel-i Bereket
   // sancağına bağlı KAZA MERKEZİ oldu (öncesi Payas/Erzin'e bağlı nahiye).
   // kaynak: dergipark "Cebel-i Bereket Sancağının İdari Yapısı"; TÜBA (işgal/tahliye)
-  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet"}],
-  d:[{f:"1516-08-24",t:"1918-10-30"},{f:"1921-10-20",t:"1923-10-29"}], v:[] },
+  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet"},{f:"1921-10-20",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1516-08-24",t:"1918-10-30"}], v:[] },
 
 { ad:"Erzin",kaynak:"bkz. H-0007 (Dörtyol)", tur:"kasaba", lat:36.955, lon:36.201, g:0, k:4, m:"Adana",
   // GEREKÇE k:4 (k:3 DEĞİL): 1906-1909 arası GEÇİCİ olarak Cebel-i Bereket
   // sancak merkeziydi, ama 1909 reorganizasyonuyla Dörtyol kazasına bağlı
   // NAHİYE statüsüne düştü — 1923 itibariyle müstakil kaza değil.
   // kaynak: dergipark "Cebel-i Bereket Sancağının İdari Yapısı"
-  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet"}],
-  d:[{f:"1516-08-24",t:"1918-10-30"},{f:"1921-10-20",t:"1923-10-29"}], v:[] },
+  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet"},{f:"1921-10-20",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1516-08-24",t:"1918-10-30"}], v:[] },
 
 { ad:"Yumurtalık",kaynak:"bkz. H-0007 (Dörtyol)", tur:"liman", lat:36.7721, lon:35.7870, g:0, k:4, m:"Adana",
   // GEREKÇE k:4 (k:3 DEĞİL): Ceyhan kazasına bağlı NAHİYE merkeziydi,
@@ -79,8 +79,8 @@ window.YERLESIMLER_EK28 = [
   // kaynak: dergipark "Cebel-i Bereket Sancağının İdari Yapısı"
   // ⚠️ İşgal/tahliye için Yumurtalık'a ÖZEL tarih bulunamadı — bölgesel
   // Çukurova çerçevesi (Mersin/Payas ile aynı) kullanıldı, bkz. yukarı not.
-  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet"}],
-  d:[{f:"1516-08-24",t:"1918-10-30"},{f:"1921-10-20",t:"1923-10-29"}], v:[] },
+  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet"},{f:"1921-10-20",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1516-08-24",t:"1918-10-30"}], v:[] },
 
 // ───────── ⑥ DOĞU SINIRI · Gürcistan hattının BATI (Karadeniz kıyısı) ucu ─────────
 // Kaynak: sınır komisyonu tarifi (1878 Berlin) — "sınır sahilde Esenkıyı
@@ -94,8 +94,8 @@ window.YERLESIMLER_EK28 = [
   // ⚠️ 1878 sınırı Hopa'nın DOĞUSUNDAN geçti (Kopmuş Burnu), Arhavi hep
   // Osmanlı kaldı — bu yüzden s: rusya dönemi YOK, Rize ile aynı desen.
   // kaynak: sınır tarifi (bkz. yukarı) + Rize kaydıyla aynı fetih tarihi (Trabzon 1461)
-  s:[{f:"1281-01-01",t:"1461-08-15",d:"trabzon-rum"}],
-  d:[{f:"1461-08-15",t:"1923-10-29"}], v:[] },
+  s:[{f:"1281-01-01",t:"1461-08-15",d:"trabzon-rum"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1461-08-15",t:"1920-04-23"}], v:[] },
 
 { ad:"Borçka", tur:"kasaba", lat:41.339, lon:41.677, g:0, k:4, m:"Erzurum",
   // GEREKÇE k:4 (k:3 DEĞİL): 1878'de Gönye kazasına bağlı NAHİYE
@@ -104,8 +104,8 @@ window.YERLESIMLER_EK28 = [
   // kaynak: borcka.bel.tr resmi tarihçe ("Şehrin Nüfusu ve Tarihi") +
   //   Artvin/Şavşat kaydıyla aynı bölgesel desen (İskender Paşa 1551,
   //   San Stefano 1878-03-03, Kars Antlaşması 1921-10-13)
-  s:[{f:"1281-01-01",t:"1551-01-01",d:"gurcistan"},{f:"1878-03-03",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-10-13",d:"sovyet-rusya"}],
-  d:[{f:"1551-01-01",t:"1878-03-03"},{f:"1921-10-13",t:"1923-10-29"}], v:[] },
+  s:[{f:"1281-01-01",t:"1551-01-01",d:"gurcistan"},{f:"1878-03-03",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-10-13",d:"sovyet-rusya"},{f:"1921-10-13",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1551-01-01",t:"1878-03-03"}], v:[] },
 
 // ───────── ⑦ DOĞU SINIRI · Kars sanjağı (Sarıkamış) ─────────
 { ad:"Sarıkamış", tur:"kasaba", lat:40.328, lon:42.578, g:0, k:3, m:"Kars",
@@ -118,8 +118,8 @@ window.YERLESIMLER_EK28 = [
   //   TDV sarikamis-harekati (canlı, HTTP 200)
   // Tarihler Kars kaydıyla (data/yerlesimler.js:232) BİREBİR aynı —
   // aynı sanjak, aynı kader.
-  s:[{f:"1281-01-01",t:"1534-06-01",d:"gurcistan"},{f:"1878-07-13",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-05-25",d:"sovyet-rusya"}],
-  d:[{f:"1534-06-01",t:"1878-07-13"},{f:"1918-05-25",t:"1923-10-29"}], v:[] },
+  s:[{f:"1281-01-01",t:"1534-06-01",d:"gurcistan"},{f:"1878-07-13",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-05-25",d:"sovyet-rusya"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1534-06-01",t:"1878-07-13"},{f:"1918-05-25",t:"1920-04-23"}], v:[] },
 
 // ───────── ⑧ DOĞU SINIRI · Ahılkelek (Gürcistan tarafı — Ahıska'nın komşusu) ─────────
 { ad:"Ahılkelek (Akhalkalaki)", tur:"kale", lat:41.403, lon:43.484, g:0, k:3, m:"Erzurum",
