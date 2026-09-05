@@ -4,6 +4,40 @@
 > donmuş dosyalara dokunduğu için bekliyor.
 > 🔴 Sıra kasıtlı: veri → renk → denetim → koşu → yayın.
 
+## 🟢 `isg:` DEĞİŞMEZ 2'YE GÖRÜNMÜYOR — VE GENİŞLETMENİN BEDELİ **İKİ MADDE**
+
+Bir işçi oturum Tunus yamasını sınarken buldu: `Değişmez 2` yalnız `d:` ve
+`v:` uçlarını kırılma sayıyor (`CLAUDE.md`in kendi komutu:
+`(y.d||[]).concat(y.v||[])`). `isg:` **hiç** sayılmıyor — oysa haritada
+**taralı bir işgal örtüsü** çiziliyor, yani ekranda görünür bir değişim var
+ve denetim onu hiç sormuyor.
+```
+BOSNA  `d:` 1448→1908 KESİNTİSİZ · `isg:` 1878-07-29 başlıyor ⇒ kırılma YOK
+MISIR  `v:` 1805→1914 KESİNTİSİZ · `isg:` 1882-09-13 başlıyor ⇒ kırılma YOK
+```
+📌 Girit vakasının **kardeşi**: *Girit'te madde doğru gövde yanlıştı;
+burada gövde değişiyor ama kırılma yok.*
+
+### ÖLÇÜLDÜ — `denetim/ARAC-ISG-KIRILMA-0905.js`
+```
+`d:`/`v:` kırılma günü (benzersiz)                 : 540
+`isg:` uç (başı + sonu)                            : 196
+🔴 Değişmez 2 GÖRMÜYOR (o gün d:/v: kırılması YOK) : 102
+🔴 ve ÜSTELİK ±30 günde MADDE de YOK               :   2
+```
+🟢 **Yani `isg:`i Değişmez 2'nin evrenine eklemek YALNIZ İKİ ihlal üretir:**
+```
+1737-10-01  Niş · isg:avusturya SONU
+1878-09-18  Herseknovi · isg:avusturya BAŞI  (Bosna 07-29'dan 51 gün sonra)
+```
+📌 Ve bu, *"bir denetimin kapsamını genişletmek pahalıdır"* varsayımını
+çürütüyor: bedeli **iki madde**.
+🔜 **BORÇ (koşu sonrası):** `denetle.py`nin Değişmez 2 evrenine `isg:`
+eklenecek + o iki gün için madde yazılacak. Sayı önceden yazılı olduğu
+için bir sonraki oturum *"kaç ihlal doğar"* diye sormak zorunda kalmayacak.
+
+---
+
 ## 🔴 GİZLİ BOŞLUK: `kasitli_bosluk` BAYRAĞI UYGULAYICIDA YOK (5 Eylül 07:45)
 
 Bir işçi oturum sınav çıktısından fark etti, **koddan doğrulandı**:
