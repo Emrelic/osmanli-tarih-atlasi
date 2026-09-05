@@ -515,6 +515,49 @@ güncellendi, sözlük unutuldu*) aynısı, bu sefer **aynı dosyanın içinde**
 ve ölçen oturum dört yeri birden düzeltti.
 ⇒ ***Bir belgeyi düzeltmek, düzeltmenin GEÇTİĞİ HER YERİ düzeltmektir.***
 
+### 🔴🔴 `zend` — İKİ SORUN DEĞİL, **BİR SORUN İKİ KEZ SAYILMIŞ** (263 kayıt)
+
+`4c` haritası çıkarıldı ve gecenin en büyük tek kalemi ortaya çıktı:
+```
+zend   4c 132 · 4d 131 · İKİSİNDE BİRDEN 131
+       künye 1751-01-01 → 1794-01-01
+       veri  1747-06-20 → 1796-01-01     ⇒ HER İKİ UÇTAN da aşıyor
+tek künye penceresi düzelirse:  4c 287→155 · 4d 467→336  = 263 KAYIT
+```
+📌 Bu gece kapatılanın toplamı **52 kayıt**; bu tek kalem **beş katı** —
+ve bir nokta yaması değil **bir künye satırı.**
+🟢 Ve `denetle.py`nin **kendi yorumu** ölçümü yönlendirdi: *"zend tam
+böyle — künyeyi İKİ UÇTAN DA aşıyor."* Bilgi kod tabanında zaten vardı,
+kimse ölçmemişti.
+
+🔴 **TEŞHİS: künye dar değil, YANLIŞ EKSENDE.** Künye hanedanın **ömrünü**
+ölçüyor; atlas **tasarrufun sürekliliğini** istiyor. Ve `Değişmez 1`
+boşluk kabul etmiyor ⇒ 1747-1751 ile 1794-1796 arasında o noktaları
+birinin tutması gerek.
+```
+A  `zend` künyesi veriye genişletilir (1747→1796) — 263 kayıt temizlenir,
+   ama künye artık hanedanı DEĞİL "Zend'in tuttuğu dönem"i gösterir
+B  ARA KÜNYE(ler) — tarihçe daha doğru, ama iki yeni künye + RENK + bölme
+```
+⚠️ Ve `§11`in *"1335-1340 İran fetreti"* vakası **tam bu şekle sahipti ve
+ölçülünce ÇÜRÜDÜ.** Burada tersi olabilir; **kaynak sorulmadan karar yok.**
+
+### 🔴 VE `zend`SİZ `4c`, `4d`DEN **CİNS OLARAK FARKLI** ÇIKTI
+```
+KÜÇÜK AŞIM · ÇOK KAYIT   hafsi 2,3 · mentese 1,4 · serbedariler 1,8 yıl
+                          ⇒ muhtemelen tek bir GÜN kararı
+BÜYÜK AŞIM · AZ KAYIT     meysur 124,5 · maratha 105,4 ·
+                          filipin-racaliklari 63,5 · artuklu 56 · singhasari 51
+                          ⇒ §3.5 GERÇEK HAYALET DEVLET
+```
+🔴 `4d` çoğunlukla *"atlas 1281'de başlıyor"* artefaktıydı; **`4c`de
+gerçek hayaletler var.** Ve `meysur` **124,5 yıl** — `§3.5`in kendi örnek
+tablosundaki en büyük vakadan (Batnoz, 84 yıl) **BÜYÜK.** O tablo iki
+yıldır duruyor ve üstüne çıkan bir vaka bugüne kadar ölçülmemiş.
+⇒ Bu sınıf **ekranda görünür**: Emre'nin en çok şikâyet ettiği hata
+(1482'de "BİZANS", 1550'de "MEMLÜK") tam budur. Kayıt sayısı küçük,
+**görünürlük büyük** — öncelik ölçütü bu.
+
 ### 🔴 KOŞUYU ÖLÇME — İKİLİ DEĞİL **MERDİVEN** (5 Eylül 09:10'da düzeltildi)
 
 ```
