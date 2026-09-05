@@ -1,0 +1,53 @@
+======================================================================
+① GEÇME YOLU — kur: hiç kullanılmayan normal bir yama, davranış AYNI mı?
+======================================================================
+  girdi : { ad:"Preveze", tur:"liman", lat:38.958, lon:20.751, k:4 },
+  çıktı : { ad:"Preveze",kaynak:"TDV, madde: preveze", tur:"liman", lat:38.958, lon:20.751, k:4 },
+  sonuç : UYGULANDI -> BEKLENEN: UYGULANDI, kur: alanına HİÇ dokunulmadı ✓
+
+======================================================================
+② ATEŞLEME — VAR OLAN bir kur: değeri EZİLİYOR mu (EZİLMEMELİ)
+======================================================================
+  girdi : { ad:"SahteYer", kur:"1500-01-01", tur:"sehir" },
+  çıktı : { ad:"SahteYer", kur:"1500-01-01", tur:"sehir" },
+  sonuç : ATLANDI: kur ZATEN DOLU, ezilmedi
+  ✓ DOĞRU — var olan kur: KORUNDU, ezilmedi
+
+======================================================================
+③ GİRDİ — GERÇEK Ndjamena satırı (data/yerlesimler.js:863), dosyadan okunarak
+======================================================================
+  dosyadan okunan satır: { ad:"Ndjamena", tur:"sehir", lat:12.107, lon:15.045, g:0, k:3, d:[] },
+  yeni satır           : { ad:"Ndjamena",kur:"1900-01-01", tur:"sehir", lat:12.107, lon:15.045, g:0, k:3, d:[] },
+  sonuç                : UYGULANDI
+  ✓ DOĞRU — kur: eklendi, d:[] BOZULMADI, GERÇEK dosyadan okunan metinle çalıştı
+
+======================================================================
+④ 🔴🔴 EK BULGU — NODE SÜZGECİ (satır 88-91) 'kur'U TANIMIYOR
+======================================================================
+
+  _sahiplik_uygula.py:88-91 şu filtreyi taşıyor:
+
+      if (r && r.ad !== undefined &&
+          (r.d || r.s || r.v || r.isg || r.m !== undefined ||
+           r.kaynak !== undefined || r.bos !== undefined ||
+           r.neden !== undefined || r.not !== undefined)) {
+        cik.push(...);
+      }
+
+  Bu satır İKİ KEZ genişletilmiş (1 Eylül: m/kaynak · 2 Eylül: bos/neden/not)
+  ve HER İKİSİNDE DE aynı sebep: yeni skaler alan bu listeye eklenmezse,
+  o alanı TEK BAŞINA taşıyan bir kayıt (d/s/v/isg/m/kaynak/bos/neden/not
+  YOKSA) Node tarafında SESSİZCE elenir, Python'a HİÇ ULAŞMAZ.
+
+  BU GECE yazılan 3 örnek (Ndjamena·Şibâm·Şihr) hepsi de AYRICA s:/bos:
+  taşıdığı için bu süzgeçten geçerdi — ama gelecekte SADECE `kur:` ekleyen
+  bir yama (örn. sahibi zaten doğru bir kayda yalnız kuruluş tarihi ekleme)
+  YAZILDIĞINI SANIP hiçbir şey yapmaz, SESSİZCE.
+
+  ⇒ BU, SÜZGEÇ 1'İN ÜÇÜNCÜ TEKRARIDIR (`§11`: 'ölçemediğini eleyen bir
+  süzgeç onu TEMİZ sayar'). `kur` bu satıra da eklenmezse ①②③ sınavları
+  GEÇSE BİLE gerçek koşuda bir sınıf yama sessizce düşer.
+
+======================================================================
+TÜMÜ TAMAM — üç ayak + 1 ek bulgu
+======================================================================
