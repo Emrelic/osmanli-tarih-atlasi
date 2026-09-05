@@ -2919,6 +2919,45 @@ ne ay dayanağı taşıyor (`YYYY-MM-01` kalıbı).
 oynatır ve `Değişmez 2`yi etkiler — kaynaksız bir günü düzeltmek için
 ölçülmüş bir kırılmayı bozmak orantısız.
 
+### 📋 MERGE HAZIRLIK DURUMU — TEK EKRAN (21:30 ölçümü)
+
+> Alet: `denetim/ARAC-HAZIRLIK-0905.py` · **ölçüldü, kopyalanmadı**
+
+```
+BEKLEYEN ARTEFAKT
+   sahiplik yaması    33 dosya · 420 kayıt   (⑥)
+   künye yaması       11 dosya               (①)
+   kronoloji yaması   18 dosya               (②)
+
+ADIM ⑥ ÖN SINAVI  py denetim/ARAC-KIMLIK-KARSILIGI-0905b.py  (BORUSUZ)
+   kimlik 81 · künyesiz 11 · kurtulan 4 · 🔴 GERÇEK RENKSİZ 13
+   çıkış kodu 1  ⇒ BEKLENEN (⑧ koşmadan 0 olamaz)
+
+SIRA KİLİDİ — ATLANAMAZ
+   ① künye  →  11 eksik künyenin 11'ini kapatıyor
+   ⑧ renk   →  13 renksizin 11'i listede · +`kuveyt` +`zeta` = **28**
+   ⑥ taşıma →  YALNIZ ① ve ⑧'den SONRA · ön sınav 0 dönmeli
+
+BELGELER
+   oturumlar/MERGE-KONTROL-0905.md          349 satır  ← MERGE BUNDAN GİDER
+   oturumlar/KOSU-SONRASI-KUYRUK.md       4.432 satır  ← ayrıntı/gerekçe
+   denetim/SARTNAME-KAYNAK-DENETIMI-0905.md 240 satır  ← merge SONRASI
+   BEKLEYENLER.md                           898 satır  ← Emre'nin kararları
+
+BU GECE EKLENEN ALET: 32  (`denetim/ARAC-*0905*`)
+```
+
+🔴 **KOŞU SONRASI İLK ÜÇ ÖLÇÜM — sırayla:**
+```
+① kosu_ayrik.log AŞAMA TABLOSU (14+ saat, ilk kez görülecek)
+② "boya anahtarı `harita:`ya düşen dönem: N"  → N=0 ise düşüş DEVRE DIŞI
+   ve "kurtulan 4" GERÇEK deliğe döner
+③ node denetim/ARAC-PETEKSIZ-0905.js → peteksiz HÂLÂ 0 (GERİLEME testi)
+```
+
+⚠️ **VE BU BLOK DA BAYATLAR.** Aleti yeniden koştur, sayıyı kopyalama —
+bu gece kuyruktaki dokuz sayı bayat çıktı, üçü kabul ölçütüydü.
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri
