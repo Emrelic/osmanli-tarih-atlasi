@@ -82754,5 +82754,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2746",
+  "zaman": "2026-09-05 04:59",
+  "kimden": "KRONOLOJI BOS KUNYE",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — `norse-gronland` KUNYESI YAZILDI, ve M-2737'de acik biraktigim kalem KAPANDI. denetim/YAMA-KUNYE-NORSE-0905.json (kunye) denetim/YERLESIM-BEYAN-0905.json (iki noktanin `s:` kapanisi) == (1) NE OLCTUM — yazmadan ONCE == `norse-gronland` kimligi ALINMIS MI? HAYIR, bostu (591 kunye tarandi) `bolge` degerleri: 27 — ve `kuzey-amerika` listede VAR (dogruladim, devralmadim) `tur` degerleri: devlet 186 · krallik 138 · ... ⇒ `devlet` sectim, uydurmadim emsal `sarawak-brooke` okundu: alan kumesi ad·baskent·bolge·f·id·kaynak· kronoloji·ozet·t·tur == (2) KUNYE == id norse-gronland ad Norse Gronland (Vestribygd–Eystribygd) tur devlet · bolge kuzey-amerika f 1281-01-01 🔴 OZETTE BEYAN EDILDI: \"ATLAS PENCERESININ BASIDIR, KURULUS DEGILDIR — yerlesim ~985'te kuruldu, pencereden UC YUZYIL once\" t 1450-01-01 kronoloji 2 madde: 1360 toprak-kayip (Bati Yerlesimi terk) · 1450 son 🔴 `t:` BIR SECIMDIR VE GEREKCESI YAZILI: kaynak ayni cumlede hem \"sometime in the 1500s\" hem \"between AD 1400 to 1450\" diyor. ACIKCA TARIHLENEN araligin (1400-1450) GEC ucunu aldim. \"1500s\" okumasini CURUTMEDIM, yalniz KULLANMADIM — ikisi ayri sey. Ve GUN yazmadim: kaynak yil bile vermiyor, aralik veriyor. == (3) UC SINIRINI DA UYGULADIM == · `norvec`/`danimarka` kunyelerine DOKUNULMADI — yeni kimlik EKLENDI, var olan GENISLETILMEDI · `bolge` 27'lik gercek listeden; siyasi baglilik (Norvec taci) OZETE yazildi, bolgeye DEGIL · `f:1281` beyani `sarawak-brooke` emsalindeki gibi ozetin ICINDE == (4) BIR ALANI BILEREK BOS BIRAKTIM == `baskent` YAZILMADI. Kaynagim Norse Gronland icin baskent ADLANDIRMIYOR. Gardar (piskoposluk merkezi) ya da Brattahlid yazmak kolaydi ve KAYNAKSIZ olurdu. Damga: bulunamadi. == (5) 🟢 VE KUNYE BOS DOGMUYOR == 2 kronoloji maddesiyle aciliyor. Sebebi: bu oturum bugun \"kronolojisi SIFIR olan 17 kunye\" isini bitirdi; bos bir kunye daha acmak o isi GERI ALMAK olurdu. `kurulus` maddesi YOK ve olmamasi DOGRU — pencere muafiyeti (~985), tipki Bizans'in kurulus maddesinin olmamasi gibi. == (6) IKI NOKTA KAPANDI == Vestribygd s: norse-gronland 1281-01-01 → 1360-01-01 Eystribygd s: norse-gronland 1281-01-01 → 1450-01-01 `s:` alani hala bos olan gercek yerlesim: YOK. Nuuk zaten `danimarka` ile kapaliydi (1721 kolonisi), ona dokunmadim. == (7) NEYI BULAMADIM / OKUMADIM — damgalar ayri == bulunamadi : Norse Gronland'in baskenti olculemedi : Dogu Yerlesimi'nin terk YILI (kaynak kendi icinde celisiyor — bu yuzden `t:` bir SECIM oldu, olcum degil) okumadim : Haabets O ayri nokta mi · Kanada Kuzey Kutbu adalari (senin siniri) == (8) NE ISTIYORUM: bir sey yok, is bitti. ✅ Bostayim. data/ ve kilitli ucluye tek bayt yazmadim; KOSU 5b guvende.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
