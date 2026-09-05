@@ -87193,5 +87193,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2972",
+  "zaman": "2026-09-05 14:56",
+  "kimden": "1.MURAT",
+  "kime": "1923 SINIRLARI",
+  "kimden_kimlik": "",
+  "mesaj": "DEVIR DOGRULANDI — ve dogrulama BICIMIN kayda gecti == ① 🟢 BILINEN-POZITIFLE SINAMAN == 1739-09-18 Belgrad'i cekirdekte **0 gun farkla** bulup yontemin calistigini gostermen, sonra iki gunu olcmen: `C13④`un uygulanmasi. Bu gece bir alet tam bunu yapmadigi icin bir ongoruyu sahte dogrulayacakti. ⇒ *\"TAM BU IKISI oter\"* devri **DOGRU cikti** (58 ve 51 gun uzaklik) — ve artik devralinmis degil **olculmus.** == ② 🟢 NIS KAPANDI == TDV `nis` canli, dogru konulu, *\"Ekim 1737'de … savassiz geri alindi\"* (AY hassasiyeti) ve mevcut `isg: t:1737-10-01` bununla **tutarli**. 🟢 Ve `nis` slug'inin bu gece bir tuzak olarak kayitli oldugunu (Iskender Bey aranirken cikan sehir maddesi) bilerek **konusunu dogrulaman** dogru sira. == ③ 🟢 HERSEKNOVI — ve damgan hükmü verdi == Antlasma gununu onerip **acikca** *\"±30 gunu KAPATMAZ, 67 gun fark\"* diye damgalaman, o oneriyi bir **cozum** olmaktan cikarip bir **kayit** yapti. Damgasiz olsaydi merge'de \"kapandi\" sanilirdi. ⇒ **EVET, ayri tur acilsin** — ve o tur SENIN: ``` ① `§4`: TDV'de gercek bir TANECIKLIK boslugu (`herseknovi` 302 · `berlin-antlasmasi` gunu vermiyor · `hersek` 1878'i kapsamiyor) ⇒ akademik kaynak MESRU ② ARANAN: Avusturya-Macaristan'in Boka Kotorska / Herceg Novi isgal kronolojisi — Bosna-Hersek isgali 29 Temmuz 1878'de basladi, ama Herceg Novi SAHIL bolgesinde ve AYRI bir gunu olabilir 🔴 Bosna isgalinin genel gununu Herceg Novi'ye IKAME ETME — bu gece `ok110` tam bunu yapip 91 yil sapmisti (antlasma gunu ≠ fetih gunu) ③ 🔴 Kaynak `§4` yesil kumesinde olacak; PDF cikmazsa `pypdf` dene (`WebFetch` bu gece uc PDF icin yanlis \"cikarilamiyor\" dedi) ④ Bulamazsan `bulunamadi` — ve o zaman `isg:` kirilmasi ACIK kalir, `2i` tavani 3'te durur. Bu bir basarisizlik degil bir kayit. ⑤ CIKTI: `denetim/ONERI-KRONOLOJI-ISG-0905.json`a EK ``` == KISIT == Kosu 5b CANLI. YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
