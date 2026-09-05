@@ -394,6 +394,54 @@ değil."* Rakip değil tamamlayıcı.
 Bender Beyla · Garove kuzeyde. O üç nokta `adal`a ait olabilir —
 **bakılmadı.** 1281-1415 arası yine açıkta kalır.
 
+### 🔴🔴 `1923-2026` EKSENİ ÖLÇÜLDÜ — İŞ BİRİMİ KÜNYE DEĞİL **DÖNEM UCU**
+
+Koordinatör bu ekseni *"98 künyenin bitiş tarihi"* diye çerçeveledi.
+Ölçüm çerçeveyi **37 kat** büyüttü:
+```
+pencereyi AŞAN dönem (t > 1923-10-29)   0
+pencereye DAYANAN dönem (t == ufuk)     3632   (14.092'nin %25,8'i)
+bunları taşıyan kimlik                    96
+```
+⇒ Eksen *"98 künye alanını düzeltmek"* değil **"3632 dönem ucuna ARDIL
+yazmak."** Biri bir satır, öteki bir **faz**.
+🔴 Ve devredilen bir öncül ÇÜRÜDÜ: *"veri bunu zaten kısmen ifade
+ediyor"* — veride pencereyi aşan dönem **SIFIR**, eksen hiç açılmamış.
+🟢 Bağımsız doğrulama: ölçüm bittikten SONRA `js/app.js:99`da aynı iki
+sayı (3632 · 96) bulundu — **devralınmadı, ayrıca ölçüldü.**
+
+**VE `devletler.js` KENDİ SÖZLEŞMESİNE %34,7 UYUYOR:**
+64 künye `1923-10-29` taşıyor ama özetinde not düşmüyor, ve neredeyse
+hepsi 1923'ten sonra da yaşadı (abd · fransa · ingiltere · japonya ·
+brezilya · polonya …). ⇒ `1923-10-29` **iki farklı şeyi aynı biçimde**
+yazıyor: *"bu devlet o gün BİTTİ"* ile *"bu devlet SÜRÜYOR, ATLAS bitti."*
+
+⚪ **AYRI VE BUGÜNKÜ BİR KUSUR (eksenden bağımsız):** dört künye
+`t:1923-10-29` taşıyor ama kendi `son` kaydı daha erken —
+`yemen-zeydi` 1918-11-01 · `almanya` 1918-11-11 · `manipur` 1891 ·
+`san-devletleri` 1887. **Hayalet mi sözleşme mi ölçülüyor.**
+
+### ⚪ `kur:` ALANI UYGULAYICIDA YOK — merge ön şartı
+`_sahiplik_uygula.py` `kur:`i **taşımıyor**; yamada dursa bile düşer.
+Bu gece aynı sınıfın vakası yaşandı (`bos:`/`neden:` düştü, Timbuktu'nun
+beyanı kayboldu, ve düşeceğini önceden yazan uyarı okunmadı).
+⇒ **Alan uygulayıcıya eklenecek** (`kaynak:` ile aynı sözleşme: üzerine
+yazma, yalnız boşsa doldur) — koşu bitince, merge'den ÖNCE.
+
+### 🟢 TIMBUKTU 223 YIL → 60 YIL (%73 kapandı)
+```
+1760-1770 tuareg-ivellemmedan · 1770-1792 bambara · 1792-1833 aynı ·
+1833-1862 massina · 1862-1894 tekrur (🟡 doğrulanmadı) ·
+1894-1923 fransa-cumhuriyet
+```
+Beşi de `devletler.js`te VAR ve `renkler.py`de TANIMLI — harita deliği yok.
+🔴 Koordinatörün devrettiği iki sayı da kaymış çıktı: rotasyon **1780
+değil 1760**, Massina **1826 değil 1833.**
+⚪ Kalan 60 yıl (1700-1760) bir `bos:` DEĞİL: TDV bandı **Arma
+paşalığıyla** anlatıyor ⇒ `arma` künyesi + renk gerekiyor.
+📌 Aynı gece, iki ayrı kolda aynı ders: Darfur · Agadez · Hadramut'ta da
+`bos:` yazmak gerçeği silecekti.
+
 ### 🔴 KOŞUYU ÖLÇME — İKİLİ DEĞİL **MERDİVEN** (5 Eylül 09:10'da düzeltildi)
 
 ```
