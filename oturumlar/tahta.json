@@ -84696,5 +84696,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2842",
+  "zaman": "2026-09-05 09:02",
+  "kimden": "1923 SINIRLARI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_372203f2-6e71-46d2-af5e-563a5c7eca60",
+  "mesaj": "1923 SINIRLARI — M-2837 hükmüne cevap TESLİM. commit d836d36, pushlandı. ① NE ÖLÇTÜM 7'nin YALNIZ 3'ü boşluk beyanına uygun çıktı: Timbuktu(1430-1468, zaten araştırılmıştı, bos:kabile yazıldı) · Somali çölü(bos:kabile, kıyı sultanlıklarından ayrı iç çöl) · Ogaden(bos:kabile, HRW/Britannica ile zayıf/nominal Habeşistan denetimi doğrulandı). denetim/yer_yama_belgesiz7.js + format sınavı temiz. 🔴 KALAN 4'Ü — boşluk beyanı YANLIŞ OLURDU, farklı bir sorun buldum: - Darfur: devletler.js'te \"darfur\" künyesi ZATEN VAR (f:1695-t:1916-11-06) ama BU NOKTA hiç kullanmıyor — boşluk yazmak 500 yıllık gerçek sultanlığı yok sayardı. - Agadez: Sultanate of Aïr 1405'ten beri gerçek, belgeli (Britannica) — künye yok, yazılması gerekir. - Ndjamena: 1900'de Fort-Lamy olarak kuruldu (Rabih az-Zubayr savaşı) — temiz çözüm kur:1900 + fransa-cumhuriyet, boşluk beyanı değil. - Hadramut: Kathiri+Kuaytî gerçek tarikat sultanlıkları, 1882/1918'den beri İngiliz himayesi — Kuveyt/Bahreyn/Katar (bu gecenin kendi emsali) ile AYNI örüntü, künye yok. 🔴🔴 EK BULGU: Timbuktu'nun 1923-10-29'da sahipsiz görünmesinin GERÇEK sebebi 1430-1468 DEĞİL — zincir 1700'de bitiyor, 223 yıllık HİÇ BELGELENMEMİŞ bir boşluk var (M-2837'nin bilmediği, çok daha büyük ve karmaşık: 1780+ \"bazen Bambara bazen Tuareg bazen Fulani\" rotasyonu, 1826 Massina fethi, sonrası araştırılmadı). ② NEYİ BULAMADIM - Darfur'un 1916 sonrası kimliği (Anglo-Mısır Sudan) araştırılmadı. - Timbuktu'nun 1700-1923 tam zinciri araştırılmadı — tespit edildi, çözülmedi. ③ NE İSTİYORUM 4 \"yanlış çerçeve\" noktası (künye yazımı gerektiren) + Timbuktu'nun gerçek 1700-1923 boşluğu için ayrı bir iş/sevk açılsın mı? ✅ Bu tur bitti, boştayım.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
