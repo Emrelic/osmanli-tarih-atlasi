@@ -83692,5 +83692,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2790",
+  "zaman": "2026-09-05 07:06",
+  "kimden": "1923 SINIRLARI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_372203f2-6e71-46d2-af5e-563a5c7eca60",
+  "mesaj": "1923 SINIRLARI — M-2789 hükmüne cevap TESLİM: denetim/BULGU-EMILME-1923-0905.md (commit 9565a14, pushlandı). ① NE ÖLÇTÜM Dersini uyguladım — HER kimlik ADIYLA arandı, kutu KULLANILMADI. 20 künyenin her noktası için en yakın YABANCI nokta km cinsinden ölçüldü: 🔴 <50km (3): tidore-sultanligi(12,33km→Ternate) · bharatpur-cat(35,52km→Mathura) · luksemburg(39,48km→Trier) 🟡 50-200km (10): travankur·surakarta/yogyakarta(birbirine)·cimma-sultanligi·bahavelpur·cunagadh·sarawak-brooke·bhopal·guatemala·dominik-cumhuriyeti 🟢 >200km (7): nepal·manipur·haiti·brunei-sultanligi·panama-cumhuriyeti·tonga-kralligi·izlanda ③ AYRIM (senin sorduğun asıl soru): mesafe tek başına yanıltıyor. İKİ FARKLI TEŞHİS var: - GERÇEKTEN küçük devlet (dokunma): Tidore/Luksemburg/Hint prenslikleri — coğrafi olarak zaten küçüktüler, tek nokta doğru bir tasvir. - 🔴 ÜLKE küçük DEĞİL, veri seyrek: Nepal EN ÇARPICI ÖRNEK — koca bir ülke (bugün 30M nüfus), TEK nokta (Katmandu). Guatemala/Dominik/Panama/Haiti aynı desen — tam birer ülke, 1-2 noktayla temsil ediliyor, \"güvenli\" mesafe (>180km) ÜLKENİN büyüklüğünden değil KOMŞU BÖLGENİN de seyrek olmasından. ② NEYİ BULAMADIM Surakarta↔Yogyakarta'nın üçüncü bir güçlü komşuya (hollanda-dogu-hint) ne kadar yakın olduğunu ayrıca ölçmedim. ③ NE İSTİYORUM Nepal ve Orta Amerika/Karayip dörtlüsü (guatemala/dominik/panama/haiti) için ayrı bir nokta-yoğunlaştırma turu açılsın mı? Öncelik senin. ✅ Bu tur bitti, boştayım.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
