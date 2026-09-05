@@ -2428,6 +2428,40 @@ RİSK   YOK — 24'ünde de canlı `m` NULL, yani "boşsa doldur" ile
 ama hiçbir alet bir yamadan ona yazmıyor. Bu gece **alet yazılmadı**
 (kapsam dışı); borç olarak kayıtlı.
 
+### 🔴 Ö9 KABUL ÖLÇÜTÜ **BAYAT** — borç 4 Eylül'de ödenmiş (20:15)
+
+Kuyruğun ⓪ adımı şunu istiyordu: *"PETEKLER 2731 → ~3800 · peteksiz
+%28,2 → ~%0 · tutmazsa koşu EKSİK BİTMİŞ"*. Sınav **bugünkü bayat
+çıktıya karşı bile geçti**:
+```
+node denetim/ARAC-PETEKSIZ-0905.js
+   girdi dosyasi 77 · PETEKLER 3805 · TOPLAM nokta 3805 · PETEKSIZ 0 (%0,0)
+```
+Sebep ölçüldü — ölçüm, düzeltmeden **5,5 saat önce** yapılmış:
+```
+peteksiz.js betiği      4 Eyl 11:32
+BULGU-GEOMETRI-0904.md  4 Eyl 11:49
+0e7cb11                 4 Eyl 17:15
+  "YAYIN r5635 — KOSU 4 INDI · PETEKSIZ NOKTA 1074 -> 0 · UC KITA HARITAYA"
+```
+⇒ Ödeyen commit'in **kendi mesajı** borcu kapattığını yazıyor.
+
+🔴 **TEHLİKE "boşa iş" DEĞİL, SAHTE GÜVEN:** koşu bitince Ö9 geçecekti ve
+*"koşu bütün noktaları kapsadı"* diye okunacaktı — oysa o sonuç **bir
+önceki koşudan** geliyor.
+
+🟢 **ÖLÇÜT SİLİNMEDİ, ANLAMI DÜZELTİLDİ — artık bir GERİLEME testi:**
+```
+KOŞU 5B SONRASI BEKLENEN:  PETEKLER ≈ 3805  ·  peteksiz  HÂLÂ 0
+🔴 peteksiz YÜKSELİRSE → yeni koşu nokta KAYBETMİŞ, yayın YAPILMAZ
+```
+
+⚠️ **VE SINAV KURTARILDI:** betik yalnız bir oturumun **scratchpad'inde**
+duruyordu (`§7.1⑦`: *"sende kalan hiçbir bilgi kurtarılamaz"*). Depoya
+alındı: **`denetim/ARAC-PETEKSIZ-0905.js`**, ve geçici `girdi_listesi.txt`
+bağımlılığı kaldırıldı — dosya listesini artık `girdi.py`den **Python'a
+okutarak** alıyor.
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri
