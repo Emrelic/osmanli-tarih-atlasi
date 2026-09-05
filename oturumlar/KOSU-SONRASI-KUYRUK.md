@@ -954,6 +954,47 @@ kusur değil, önceden yazılmış bir **sonuç.**
 `1353-1465 Çemişgezek · Palu` (hiç tarih yok). Bölge standardı 3-4
 dönem; Çemişgezek/Palu **2 dönemde** kaldı.
 
+### 🔴 `1429` — İKİ TDV MADDESİ TERS YÖN VERİYOR, ve **A TARAFSIZ DEĞİL**
+
+```
+`dulkadirogullari`  "Dulkadirlılar 1429'da … Harput'u GERİ ALDILAR"
+                    ⇒ 1429: AKKOYUNLU → DULKADIR
+`akkoyunlular`      Karayülük "Dulkadirlılardan aldıktan sonra" Harput'u
+                    oğluna verdi (~1429)
+                    ⇒ 1429: DULKADIR → AKKOYUNLU
+AYNI YIL, TERS YÖN.
+```
+🔴 **Segmenti geri çekmek (A) tarafsız DEĞİL:** iki madde de 1429'da bir
+el değiştirme olduğunda **ve o tarihte oranın Artuklu OLMADIĞINDA**
+hemfikir. `artuklu 1353→1465`i tek blok bırakmak, ***iki kaynağın da
+reddettiği*** bir değeri korumaktır — üçüncü ve **en zayıf** tarafı
+seçmek.
+📌 ⇒ `§4`ün *"çelişkiyi bildirmek taraf seçmekten değerlidir"* kuralının
+bir sınırı: **kural, çelişen İKİ taraf arasında geçerlidir.** İkisinin
+de yanlış dediği bir değeri korumak *bildirmek* değil **saklamak**tır.
+
+**KARAR: C (bir tur akademik kaynak), çözmezse B — ve `not:` beş şey taşır:**
+```
+① iki TDV maddesi TERS YÖN veriyor (ikisi de adıyla alıntılı)
+② ikisi de o tarihte Artuklu OLMADIĞINDA hemfikir
+③ `dulkadir` seçildi; dayanak bir KAYNAK DEĞİL bir TUTARLILIK ÇIKARIMI
+④ ve o çıkarım ZAYIF — TDV `harput`un kendisi "SIK SIK EL DEĞİŞTİRDİ"
+   diyor ⇒ Akkoyunlu 1429'da alıp kaybetmiş, 1465'te yeniden almış olabilir
+⑤ KALEM AÇIK
+```
+⚠️ ③-④ olmadan kayıt bir sonraki oturuma **kaynaklı** görünür.
+***Çıkarım, kaynak gibi yazılırsa kaynaksızdan kötüdür.***
+
+#### 🟡 `Diyarbakır` İKİ EKSENDEN ŞÜPHELİ — ve `Mardin` DOĞRU çıktı
+```
+veri  Diyarbakır `artuklu` 1281 → 1378
+TDV   `akkoyunlular`: Timur Amid'i Karayülük'e verdi — 1402
+      `karakoyunlular`: Kara Yusuf, Mardin — 1409-1410  ✓ VERİ BİREBİR
+```
+⇒ Kimlik **ve** gün şüpheli. Ve `Mardin`in doğru çıkması kaydın değerini
+artırıyor: **aynı kimlik, aynı bölge, biri doğru biri yanlış** ⇒ toplu
+yazım hatası değil, **nokta bazında** kusur.
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri
