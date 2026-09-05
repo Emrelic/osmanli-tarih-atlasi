@@ -4,6 +4,86 @@
 > donmuş dosyalara dokunduğu için bekliyor.
 > 🔴 Sıra kasıtlı: veri → renk → denetim → koşu → yayın.
 
+## 🔴🔴 GECE HASADI — KOŞU 5b BİTİNCE BİRLEŞTİRİLECEK (5 Eylül 03:5x)
+
+⚠️ **BU BLOK BİR OTURUMUN BAĞLAMINDAN KURTARILDI.** Beş işçi oturum gece
+boyunca yama üretti; liste yalnız koordinatörün kafasındaydı. `§7.1⑦`.
+
+### ① YAMALAR — `denetim/` altında, `data/`ye İNECEK
+```
+KRONOLOJI-BOSKUNYE-0905.json    17 künye · 25 madde · kaynak 25/25
+KRONOLOJI-BATIAFRIKA2-0905.json 42 künye · 39 madde · 17'si ≥4'e çıktı
+KRONOLOJI-DOGUAFRIKA-0905.json  34 künye · 34 madde ·  9'u ≥4'e çıktı
+KRONOLOJI-GDASYA-0905.json      34 künye · 41 madde · 26'sı ≥4'e çıktı
+YAMA-1923-0905.json             (1923 SINIRLARI — ölçüm turu)
+YERLESIM-DOGUASYA-0905.json     (üretimde)
+YERLESIM-SIBIRYA-0905.json      🔴 YAMA DEĞİL — ölçüm raporu + arama listesi
+```
+🔴 **Birleştirme aracı `arac/denetle.py` ile SINANACAK** — 4 Eylül'de 200
+madde inerken `Değişmez 2` senkronu etkilenmemişti; bu tur **139 madde**
+iniyor, ayrıca ölçülecek.
+
+### ② RENK — tek satır, ölçüldü
+```
+bosna  #2f1896 → #ea12ea     deniz 35,18→59,64 · bizans 11,41→45,13
+sonra: py arac/renk_olc.py ⇒ yakın-ama-değmeyen 1 → 0 OLMALI
+```
+
+### ③ MOTOR/ALET DÜZELTMELERİ — hepsi ölçülmüş, hiçbiri uygulanmadı
+```
+· uret_altlik.py:234  `nehir_motorun` TANI katmanı motorun İKİ kapısından
+  yalnız BİRİNİ uyguluyor (ad listesi) ⇒ 43 gösteriyor, motor 293 kullanıyor.
+  Tanı katmanı motoru YANLIŞ TEMSİL EDİYOR.
+· js/app.js  İKİ yerde "nehir 329 parça çizer" — gerçek 1454. Bayat yorum.
+· uret_petek.py:608-620  "780 parça · 593 adlı" — gerçek 1454 · 1073.
+  ~1,9 kat bayat. Eşiğin KENDİSİ değil GEREKÇESİ bayat.
+· renk_olc.py `oner()`  güvenlik payı YOK (DE_KOMSU 12 bare).
+  emsal: renkler.py:3513 `_GUVENLI_PAY = 13.0`
+```
+
+### ④ TARİH DÜZELTMELERİ — doğrulama turundan
+```
+🔴 ÇÜRÜDÜ, düzeltmesi hazır:
+   powhatan  1646-10-01 → 1646-01-01   kaynak AY veriyor, GÜN vermiyor
+             (§4'ün "AY, AYIN 1'İNE KODLANMIŞ" ekseninin 43. vakası)
+   pueblo    1692-08-01 → 1692-09-14   mevcut gün HİÇBİR olaya denk gelmiyor
+             (Vargas'ın resmî zilyetlik ilanı; alternatif 1692-08-17 sefer başı)
+🟢 DOĞRULANDI (5): teksas ×2 · cherokee (BİRİNCİL BELGE) · choctaw · creek
+⚪ ÖLÇÜLEMEDİ: diaguita 1667-01-02 — "hizalama" şüphesi ÇÜRÜDÜ, gerçek bir
+   olaya karşılık geliyor (Acalianes'in düşüşü) ama §4 uyumlu kaynak
+   erişilemedi. "Muhtemelen DOĞRU, kaynağı erişilemedi."
+🟡 KARAR GEREKTİREN: teksas 1845-12-29 (de jure) vs 1846-02-19 (de facto).
+   Oturumun hükmü: TUTARLILIK gereği mevcut korunmalı — `varsova-dukaligi`
+   aynı ikilemde DE JURE seçilmişti. Değişecekse İKİ KÜNYE BİRLİKTE.
+```
+
+### ⑤ `f:`/`t:` ÇELİŞKİLERİ — künyeye DOKUNULMADAN bildirildi
+```
+doğu Afrika (7): toro 1822/1830 · vollayta 1252/1281 ve 1894/1896 ·
+   bemba 1650/1700 · betsimisaraka 1791/1817 · antandroy 1904/1900 ·
+   nyamvezi 1884/1890
+GD Asya (2):  sunda-pajajaran 1527/1579 (52 yıl) · sarawak-brooke 1923/1946
+batı Afrika (2): futa-callon · tuareg-air — olay künye aralığı DIŞINDA
+```
+🔴 **VE BUNLARIN BİR KISMI ÇELİŞKİ DEĞİL, ATLAS UFKU OLABİLİR.**
+`KRONOLOJİ BOŞ KÜNYE` dokuz künyede tam bunu buldu: `f:1281-01-01` bir
+kuruluş değil, pencerenin başı. `GD ASYA` da aynı deseni gördü
+(angkor-kmer gerçek 802 · lan-xang gerçek 1353).
+⇒ **Ayrıştırılacak:** hangisi gerçek çelişki, hangisi ufuk. Ayırmadan
+düzeltmek, doğru veriyi bozar.
+
+### ⑥ ÖLÇÜLMÜŞ AMA KAPANMAMIŞ
+```
+· Sibirya: 54 ostrogun 40'ı ATLASTA VAR · kalan boşlukların çoğu KASITLI
+  (kutuda 51 `kasitli_bosluk`, 39 devletsiz). 10 aday DOĞRULANMADI damgalı,
+  KOORDİNATSIZ — bir sonraki tura arama listesi.
+· 1923: "kaç egemen devlet" sorusu ÇERÇEVE HATASI — atlas toprak-egemenlik
+  boyar; sömürge/dominyon/prenslik DOĞRU çiziliyor. Soru yeniden kuruldu:
+  "1923-10-29'da VAR OLAN ama ÇİZİLMEYEN".
+```
+
+---
+
 ## ⓪ ✅ BİTTİ — 4 Eylül 2026 · yayın `r5635` · commit `0e7cb11`
 
 ```
