@@ -2795,6 +2795,36 @@ Kaheti uyuyor — ama bu **emsalle uyum**, doğrulama değil.
 🟢 Kademe **önerilmedi**: sözlük yazılmadan seçmek, seçimi ölçüm gibi
 göstermek olurdu. ⇒ Sözlük satırı yazılana kadar kalem AÇIK.
 
+### 🔴🔴 ADIM ⑥ **BLOKE** — 17 kimliğin RENGİ YOK (21:10)
+
+Ön-sınavım (`ARAC-TASIMA-ON-SINAV-0905.py`) üç riski ölçmüş ve *"mekanik"*
+demişti: ad çakışması · `data/` çakışması · süzgeç uyumu. **Sormadığı
+risk buymuş** — bir işçi bildirimi üzerine ölçüldü:
+```
+bekleyen yamaların KULLANDIĞI kimlik   81
+   🔴 KÜNYESİ YOK  11   → 🟢 11/11'i bekleyen künye yamalarında KAPALI
+   🔴 RENGİ YOK    17   → 🔴 AÇIK
+```
+**RENGİ OLMAYAN 17:**
+```
+arnavutluk-bagimsiz · arnavutluk-iskenderbey · bulgaristan-kralligi ·
+cemisgezek-beyligi · dukagin · ingiliz-sudani · kesiri-sultanligi ·
+kuayti-sultanligi · kuveyt · misir-kralligi · misir-sultanligi ·
+piombino · rif-cumhuriyeti · sirbistan-nemanjic · tannu-tuva · topia · zeta
+```
+`§8`: kimlik `BOYALAR`da tanımlı değilse **bölge boyanmaz** ⇒ taşıma
+renkten önce koşulursa **17 harita deliği**, ve `§1.5`in *"Renksiz künye
+— HARİTA DELİĞİ ✓ 0"* değişmezi kırılır.
+
+## 🔴 SIRA KİLİDİ KESİNLEŞTİ — ATLANAMAZ
+```
+① künye (26 öneri)   → 11 eksik künyenin 11'ini kapatıyor  🟢 ölçüldü
+⑧ renk               → 17 eksik rengi kapatmalı            🔴 DOĞRULANMADI
+⑥ taşıma             → YALNIZ ① ve ⑧'den SONRA
+```
+🔵 **AÇIK SORU:** adım ⑧'in 26 kimliklik renk listesi bu **17'yi
+kapsıyor mu?** Kapsamıyorsa fark **⑧'e eklenir**, yoksa delik kalır.
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri
