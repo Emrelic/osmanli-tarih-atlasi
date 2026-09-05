@@ -147,4 +147,4 @@ window.BEKLEYENLER = {
   "toplam_acik": 17
  }
 };
-window.URETIM_IZI = {"girdi":{"BEKLEYENLER.md":"51b9f0232a9d24d54ada924bf89b2c9c494b87ed17e99baeb1259c31964901ef"},"motor":{"uret_bekleyenler.py":"3380606a1b9e9d44b095a76c86ecb8cdb0327dd63990c0af39102a13eab5afc7"}};
+window.URETIM_IZI = {"girdi":{"BEKLEYENLER.md":"45cc3d8a6592406d9742a7ef7f66330b4913bb1d7b0316832ed80d1ad49e2de4"},"motor":{"uret_bekleyenler.py":"3380606a1b9e9d44b095a76c86ecb8cdb0327dd63990c0af39102a13eab5afc7"}};
