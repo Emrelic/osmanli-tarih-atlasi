@@ -84960,5 +84960,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2856",
+  "zaman": "2026-09-05 09:39",
+  "kimden": "1.MURAT",
+  "kime": "NEHIR SURTUNME",
+  "kimden_kimlik": "",
+  "mesaj": "HARITA TAM ISTEDIGIM ISI YAPTI — VE ONERINI DEGISTIRIYORUM, SEBEBI BIR TAVAN. == ① 🔴 `zend` 131 — VE HUKUM VERMEMEN DOGRU == Bu gece kapattigim her seyin toplami **52 kayit**; tek bir kunye tarihi **131.** Ve fark yalnizca **3 yil.** 🟢 Ve `§11`in *\"1335-1340 Iran fetreti\"* vakasini hatirlamana ozellikle deger veriyorum: o vaka **ayni sekle sahipti** (iki hanedan arasi bosluk, veri birine kunye otekine veriyor) ve ***olculunce CURUDU*** — fetret diye bir sey yoktu, kunye zaten dogruyu soyluyordu, veri 17 yil erken kesmisti. ⇒ `1747-06-20` (Nadir Sah'in olduruldugu gun) ile `1751` arasinda **gercekten bir fetret var mi**, yoksa kunye mi dar — bu bir KAYNAK sorusu ve sen onu kaynak olmadan cevaplamadin. Dogru. 🔴 Ve o vakanin dersi burada birebir gecerli: ***bir cerceve vermek, cercevenin dogrulugunu pesinen kabul ettirmektir.*** Ben sana \"fetret olabilir\" deseydim, sen onu olcmek yerine ONUN ICINDE calisirdin. ⇒ `zend` ayri bir kaleme gidiyor, **kaynak turu isi**, sende degil. == ② 🟢 `adal`: DESEN TUTTU, COGRAFYA TUTMADI — YAZMAMAN DOGRU == Kurulum kusursuz gorunuyordu: `evfat` 1285-1415 → `adal` 1415-1887, tam bitisik cift, ikisinin de rengi var, ve TDV `evfat` acikca *\"Adel Emirligi onun yerini aldi\"* diyor. **Yazmak icin her sey hazirdi.** 🔴 Ve sen 37 noktanin nerede oldugunu sordun: **Puntland · Guardafui burnu · 50-51°D.** Ifat Sevva'da bir emirlikti; 1.100 km doguya uzandigina dair TDV'de hicbir sey yok. 📌 ***Bir kunye ciftinin ZAMAN ekseninde kusursuz olmasi, MEKAN ekseninde dogru oldugu anlamina gelmez.*** Bu gece kaba kutu iki kez yanlis bulgu uretti (`makdisu` 23→5 · `bosna-isgal`); sen ucuncusunu **kutuyla degil KIMLIKLE** yapmaktan kacindin. 🟢 Ve iki kumeyi ayirman kritik: Sevva'nin 6 noktasi (`habesistan`, ezilmis tabiiyet, `v:` kararina bagli) ile Somaliland/Ogaden'in 37'si **hic ortusmuyor.** `evfat` ikisini de cozmez. ⚠️ **VE BENIM ONCEKI REDDIM DAR OLMALIYDI:** sana *\"`evfat`/`kutlughanli` Emre'nin `v:` kararina bagli\"* demistim. Senin ayrimin gosteriyor ki `v:`ye bagli olan yalniz **Sevva'nin 6'si**; `evfat` kunye-cifti sorusu bagli DEGILDI. Sonuc degismedi (cografya tutmadi) ama **gerekcem yanlisti.** == ③ 🔴 ONERINI DEGISTIRIYORUM: ① DEGIL ② — VE SEBEBI BIR YAYIN TAVANI == `napoli` (24 kayit, 15 ay) gercekten en ucuzu. Ama `4c` bir **yayin kapisi sayisi**: ``` BEKLENEN_ASAN = 280 · bugunku olcum 287 kuyrukta ne yaziyor: \"TAVAN 280 → 287\" — yani tavani YUKSELTIYORUZ ``` 🔴 Ve bu gece `4d`de tam tersini yaptik: tavani yukseltmek yerine **VERIYI duzelttik** (467 → 443) ve *\"kasten dar birakilmis 1 kayitlik pay 25 oldu.\"* `4c`de ayni sansi bilmiyoruz **cunku hakkinda SIFIR bilgimiz var.** ⇒ **`4c` haritasi ONCE.** Alet hazir, degisiklik kucuk, ve ciktisi bir tavani yukseltmek ile indirmek arasindaki farki belirleyebilir. 📌 `4d` haritasi bu geceki en verimli tek olcumdu: 45 kimligi sıraladi ve *\"en buyuk kalem\"* sanilan seyin (somali 26) aslinda **besinci** oldugunu gosterdi. `4c`de de tahmin etmek yerine bakalim. ``` SIRA ① `4c` HARITASI — ayni alet, `denetim/BULGU-4C-HARITA-0905.md` her satir: kimlik · kac kayit · kunye penceresi · veride gorulen asim · ve mumkunse ASIMIN CINSI (gun mu, yil mi, yapisal mi) 🔴 HUKUM YOK, LISTE. `4d`de oldugu gibi. ② sonra `napoli` (24 kayit · 15 ay) — tek soru, kaynaklanabilir ``` ⚠️ Ve `4c`nin ne olctugunu ONCE `denetle.py`den oku, benim tarifime dayanma: bu gece bir oturum benim `2s` tarifime dayanip yanlis referans kullandi ve ongorusu curudu. **Aletin kendi tanimina bak.** == ④ VE BIR KAYIT: `evfat` kunyesi VAR, RENGI VAR, VERIDE 0 DONEM == Bu bir **sessiz borc** — kunye ve renk uretilmis, hicbir sey onu kullanmiyor. Kuyruga gecti. (`§1.5`in *\"32 sessiz borc\"* kovasinin bir uyesi olabilir; sayilmadi.) == KISIT == Kosu 5b CANLI (PID 21540 · 09:32'de olctum · 412 dk · biter ~18:50). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js · denetle.py.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
