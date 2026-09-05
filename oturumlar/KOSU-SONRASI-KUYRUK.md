@@ -4,6 +4,64 @@
 > donmuş dosyalara dokunduğu için bekliyor.
 > 🔴 Sıra kasıtlı: veri → renk → denetim → koşu → yayın.
 
+## 🔴 DÖRDÜNCÜ DEĞİŞMEZİN KÖR NOKTASI — `isg:` HİÇ SINANMIYORMUŞ (5 Eylül 04:54)
+
+`CLAUDE.md §3.5` yıllardır *"dördüncü bir değişmez olarak araca girecek"*
+diyor ve koordinatör bunu **"hiç girmedi"** diye okuyup sevke yazdı.
+`NEHİR SÜRTÜNME` ölçtü — **öncül çürüdü:**
+```
+Değişmez 4 `denetle.py`de VAR ve ÇALIŞIYOR  —  ama EVRENİ DAR:
+    denetle.py:1782   yalnız  y.get("s")  üzerinde dönüyor
+alan bazlı ihlal:  d 0 · s 271 · v 0 · isg 7
+```
+⇒ Kusur *"denetim yok"* değil ***"denetim var ama O SORUYU sormuyor"*** —
+projenin en çok tekrarlayan sınıfı, ve koordinatör tam onu ararken yanlış
+teşhis koydu.
+
+### 🟢 `isg:` — YEDİ İHLAL, TEK VAKA, VE DÜZELTMESİ KESİN
+```
+Mısır'ın Fransız işgali 1798-1801   d:"fransa"
+`fransa` künyesi 1792-09-22'de BİTİYOR
+doğru kimlik `fransa-cumhuriyet` ZATEN VAR (devletler.js:805)
+```
+⇒ Koşu bitince: yedi kaydın `d:` alanı `fransa` → `fransa-cumhuriyet`.
+**Tarihlere dokunulmuyor**, yalnız kimlik. `_sahiplik_uygula.py` ile,
+eşleşme sayısı ÖNCEDEN yazılarak (7) ve tutmazsa DURARAK.
+
+### 🔴 VE 271 SAYISI HENÜZ BİR BULGU DEĞİL — UZLAŞTIRILMADI
+`denetle.py` zaten `s:` üzerinde dönüyor **ve yayın kapısı temiz geçiyor**;
+aynı alanda 271 ihlal ölçen ikinci bir alet var. İkisi aynı soruyu soruyor
+ve farklı cevap veriyor. Üç ihtimal — hiçbiri ölçülmedi:
+```
+(a) denetle.py o 271'i BAŞKA bir ölçütle muaf tutuyor (eşik · kova · muafiyet)
+(b) yeni aletin kova kuralı geniş  ← aletin sahibi bunu KENDİ İHBAR ETTİ
+(c) ikisi aynı sayıyı buluyor ama biri RAPORLAMIYOR (sessiz dal)
+```
+🔴 **271 "yeni bulunmuş 271 ihlal" diye raporlanmayacak.** Emsali bu gecenin
+Sibirya vakası: *aynı bölge, farklı sayılar, ikisi de geçerli* — çünkü farklı
+şey ölçüyorlardı. Uzlaştırma sevk edildi (`denetim/UZLASTIRMA-D4-0905.md`).
+⚠️ Ve `f:1281-01-01` / `t:1923-10-29` **pencere ucudur**, ihlal değil — ayrı
+kovada sayılacak (`§4`: payda 161 → 147 tam bu yüzden düzelmişti).
+
+## 🟢 PROTOKOL DEĞİŞİKLİĞİ — OTURUM MESAJI KALDIRILDI, YALNIZ TAHTA
+
+`NEHİR SÜRTÜNME` ölçtü ve teklif etti; **kabul edildi:**
+> *"Üçünde de sen tahtaya sevk yazdın, BEKÇİM beni ANINDA uyandırdı, ben işi
+> bitirdim, ve SENİN oturum mesajın ondan SONRA geldi."*
+
+```
+ESKİ  koordinatör → tahtaya yazar  VE AYRICA  send_message ile haber verir
+      ⇒ işçi tahtadan uyanıp işi bitiriyor, mesaj SONRA geliyor,
+        ve "yapılmış işi yeniden yap" gibi görünüyor
+YENİ  yalnız TAHTA. `arac/tahta_bekci.py` her yazımda uyandırıyor.
+```
+📌 **Çift kanal, tek kanaldan KÖTÜ çıktı** — ve bu bir gecede beş çaprazlaşma
+üretti (`KRONOLOJİ BOŞ KÜNYE` 3 · `NEHİR SÜRTÜNME` 1 · `BATI AFRİKA 2` 1).
+🟢 İkinci çare `tahta.py`ye girdi: `yaz` artık yazmadan önce hedefin son
+mesajını basıyor, ve **ilk gerçek çağrısında canlı bir vaka yakaladı.**
+
+---
+
 ## 🔴🔴 GECENİN İKİ BÜYÜK BULGUSU — İKİSİ DE EKRANDA GÖRÜNÜYOR (5 Eylül 04:45)
 
 ### ① 122 NOKTA YANLIŞ SAHİPLİ — VE İÇİNDE **TÜM MISIR** VAR
