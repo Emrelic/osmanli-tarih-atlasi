@@ -2388,6 +2388,46 @@ merge artığı sahne kopyaları, bekleyen iş DEĞİL.
 🔴 Ama not: yeni bir `yerlesimler_*.js` gerçekten eklenirse `girdi.py`ye
 de **kaydedilmesi** gerekir — ve `girdi.py` koşu sürerken DONUK.
 
+### 🔴 KARDEŞ ALET DE AYNI KUSURU TAŞIYOR — ve `kur`dan BÜYÜK (20:10)
+
+`_kademe_uygula.py` **süzgeç değil İZDÜŞÜM** yapıyor: kaydı tutuyor,
+öteki alanlarını atıyor, ve `atlanan`a **iz düşmüyor**.
+```
+kademe.js 38 kayıt · `k` + `m` + `donem`
+öneri.k == canlı k   38/38  ⇒ `k` yarısı ZATEN İNMİŞ
+öneri.m  FARKLI      24/38  ⇒ ve 24'ünde de canlı `m` **NULL**
+canlıda yok           0/38  ⇒ hepsi MEVCUT kayıt
+```
+🔴 **Düşen alan tam olarak `Değişmez 3`ün alanı** (`CLAUDE.md`: *"359
+çift, henüz sağlanmıyor"*; canlıda 1775 kayıtta `m:` yok). Ve 24'ü
+kaynaklı: *"1593 Tebriz eyaleti liva listesi ÖLÇÜLDÜ…"* · `TDV tebriz` ·
+`güven: GEREKÇELİ`.
+
+🔴 **İKİ KAPI, İKİ AYRI ALETTE:**
+```
+A  `_kademe_uygula` izdüşümü yalnız `.k` alıyor    ⇒ `m` HİÇ ULAŞMAZ
+B  `_sahiplik_uygula` `m`yi taşıyabiliyor (SKALER_ALANLAR) ama süzgeci
+   `r.ad` istiyor; bu kayıtlar `yerlesim` taşıyor ⇒ 38/38 ELENİYOR
+```
+
+## 🟢 HÜKÜM — YOL (b): kayıtlar `ad:` anahtarıyla yeniden yazılsın
+`m` alanının **zaten bir sahibi var** (`_sahiplik_uygula`, sınanmış
+çakışma/skaler makinesiyle). İkinci bir alete yazma yetkisi vermek
+`§11`in *"iki otorite doğar ve ayrışır"* tuzağıdır.
+```
+ÇARE   `denetim/` altında YENİ bir `yer_yama_*.js`: `yerlesim` → `ad`,
+       yalnız `m` + `kaynak` + `neden` taşısın
+RİSK   YOK — 24'ünde de canlı `m` NULL, yani "boşsa doldur" ile
+       "üzerine yaz" aynı sonucu veriyor
+ŞART   🔴 24 önerinin KAYNAĞA UYGUNLUĞU ayrıca sınanır — ölçen oturum
+       yalnız DÜŞTÜKLERİNİ ölçtü, DOĞRULUKLARINI değil
+```
+⚠️ **Ve bu dosya adım ⑥ listesini değiştirir:** 32 → 33 dosya.
+
+🔴 **AÇIK BORÇ — `donem` alanının SAHİBİ YOK:** `kd:` canlı (192 kayıt)
+ama hiçbir alet bir yamadan ona yazmıyor. Bu gece **alet yazılmadı**
+(kapsam dışı); borç olarak kayıtlı.
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri
