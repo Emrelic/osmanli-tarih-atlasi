@@ -1,0 +1,24 @@
+{
+  "_baslik": "1923 SINIRLARI — İngiliz Sudanı (Anglo-Mısır Kondominyumu) künye önerisi (M-2908 yeni iş)",
+  "_not": "ÖNERİDİR, devletler.js'e UYGULANMADI. 🔴 RENK BEKLİYOR (on üçüncü) — renkler.py bu koşuda DONUK, kuyruğa yazılıyor.",
+  "_oturum": "1923 SINIRLARI · local_372203f2-6e71-46d2-af5e-563a5c7eca60",
+  "arama": "id TAHMİN EDİLMEDİ, TARANDI: `grep -ni \"sudan\\|anglo\" data/devletler.js` → SIFIR sonuç (yalnız `misir-sudan` bir BÖLGE adı, künye id'si değil). `mehdi` (t:1898-09-02) ve `misir-kavalali` (t:1914-12-18) hiçbiri 1899-1923 arasını kapsamıyor.",
+  "kunye": {
+    "id": "ingiliz-sudani",
+    "ad": "İngiliz Sudanı (Anglo-Mısır Kondominyumu)",
+    "tur": "gecici-isgal",
+    "bolge": "misir-sudan",
+    "f": "1899-01-19",
+    "t": "1923-10-29",
+    "baskent": "Hartum",
+    "ozet": "Mehdî Devleti'nin İngiliz-Mısır ordularınca yıkılmasından sonra 19 Ocak 1899'da imzalanan antlaşmayla kurulan, nominal Osmanlı/Mısır ortaklığına rağmen fiilen İngiltere'nin yönettiği Sudan idaresi (1923 sonrasında da sürdü, 1956'da bağımsızlığa dek).",
+    "kaynak": "TDV, madde: sudan (CANLI, raw HTML doğrulandı, 102.752 karakter — '200≠madde' ve 'çıkarılamadı≠metin yok' tuzakları elendi, gövde gerçekten okundu) — AYNEN: \"19 Ocak 1899'da Sudan'da yönetimin çerçevesini oluşturan bir antlaşmanın imzalanmasıyla Sudan'ın kontrolü fiilen İngiltere'nin eline geçmiş oldu. Bâbıâli, hâkimiyet hakları ihlâl edildiği için bu antlaşmaya şiddetle karşı çıktıysa da bir netice alınamadı.\" GÜN hassasiyetinde.",
+    "not": "TDV metni bu idareyi hem 'Mısır Sudanı' (eski, Kavalalı dönemi bağlamında) hem 'İngiliz Sudanı' (1899 sonrası, AÇIKÇA) diye anıyor; künye adı ikisini birden taşır. Osmanlı'nın antlaşmaya itirazı (hükümranlık iddiası sürdürdü ama sonuç alamadı) `§3.5`in 'hayalet devlet' dersiyle AYNI aile: nominal itiraz gerçek denetimi değiştirmiyor, künye TDV'nin 'fiilen İngiltere'nin eline geçti' hükmünü esas aldı."
+  },
+  "pencere_sarti_singhasari": {
+    "soru": "Kimliğin kendi f:/t: penceresi 1916-1923'ü GERÇEKTEN kapsıyor mu?",
+    "cevap": "EVET — f:1899-01-19 ≤ 1916-11-06 < 1923-10-29 ≤ t:1923-10-29. Pencere 1899-1923'ün TAMAMINI kapsıyor, yalnız 1916-1923'ü değil."
+  },
+  "DARFUR_UYARISI": "🔴 1916'da Darfur'un ilhakı ile 1899 Anglo-Mısır kondominyumu AYNI ŞEY DEĞİL. TDV'nin kendi metni bunu doğruluyor: Mehdî Devleti çökünce (1899) Dârfûr'un eski sultanlarından Ali Dînâr sultanlığı YENİDEN KURDU — 'diplomatik bakımdan İngilizler'e tâbi ve yıllık vergi ödeyen ama İÇ İŞLERİNDE SERBEST' bağımsız bir sultanlık olarak, 1899-1916 arası. Ancak 6 Kasım 1916'da (mevcut `darfur` künyesinin kendi t: değeriyle BİREBİR eşleşiyor) Ali Dînâr öldürülüp 'Dârfûr toprakları bir eyalet halinde İngiliz Sudanı'na bağlandı' (TDV, aynen). ⇒ Bu künye Darfur noktasına YALNIZ 1916-11-06'DAN İTİBAREN uygulanmalı — 1899-1916 arası hâlâ mevcut `darfur` künyesinin kendi penceresi içinde (f:1695-t:1916-11-06).",
+  "ONERILEN_NOKTA_GUNCELLEMESI_queued": "denetim/yer_yama_belgesiz4.js'teki Darfur kaydına (bu künye kabul+renklendikten SONRA) üçüncü bir s: dönemi eklenecek: {f:\"1916-11-06\",t:\"1923-10-29\",d:\"ingiliz-sudani\"} — böylece 1916 sonrası açık kalem kapanır. BU TURDA UYGULANMADI, künye renk bekliyor."
+}
