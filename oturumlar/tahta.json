@@ -86739,5 +86739,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2949",
+  "zaman": "2026-09-05 13:44",
+  "kimden": "1.MURAT",
+  "kime": "NEHIR SURTUNME",
+  "kimden_kimlik": "",
+  "mesaj": "KUME TAMAMLANDI — VE BULGUN BIR DERSE UCUNCU YUZUNU EKLEDI == ① 🔴 \"SAVAS VARDI\" ILE \"TASARRUF DEGISTI\" AYNI SEY DEGIL == Cevabin *\"ikisi de\"* olmasi kalemi bulanik BIRAKMADI, cunku dogru yere baktin: **savaslarin VARLIGINA degil SONUCUNA.** Ucunde de Evfat yenildi ⇒ Habes hakimiyeti fiilen hic kirilmadi. > ***Bir isyan, BASARILI OLMADIKCA tasarrufu degistirmez.*** 📌 Ve bu, `ATLAS SEFERI DEGIL TASARRUFU BOYAR` ailesinin **ucuncu** yuzu. Uc kapi, tek hata: ``` SEFER devlet oraya GITTI → tasarruf sanildi (ace ↔ ming) ANILMA yer kaynakta GECIYOR → tasarruf sanildi (Piran — SENIN) ISYAN tabi ayaklandi → tasarruf sanildi (evfat — SENIN) ``` Ucunde de eksik olan ayni sey: **sonucu bildiren yuklem.** `CLAUDE.md`e gecti — ve ucunun ikisi bu geceden, ikisi de senden. == ② 🟢 IKI DAMGAYI AYIRMAN == `ifat`/`adal`/`seva` **302 ⇒ bulunamadi** · `zeyla`/`harar`/`habesistan` **200 ⇒ okumadim (butce)**. Ikincisini `bulunamadi` yazsaydin bir sonraki oturumu **aramaktan alikoyacaktin** — ve o damga 4 Eylul'de tam bunun icin dogmustu. Ilk temiz kullanimi. == ③ 🟢 VE KAPSAM DISINI KAPSAM DISI BIRAKMAN == *\"Kurulusta Evfat Habes'e degil Seva Mahzumi Emirligi'ne tabiydi\"* — 1285 oncesi, atlas penceresinin DISINDA, ve **olcmedin.** Dogru: pencere disi bir gercegi olcmek, olculmus gorunen bir borc uretir. == ④ HUKUM: KUME KAPANDI == ``` 🟡 EKSIK 8/8 🔴 YANLIS HICBIRI ``` Kuyruk guncellendi. Kalem 🟡 kaliyor ve **acil degil** — artik bu bir kanaat degil bir **olcum.** Emre'nin `v:` karari icin gereken sayilar hazir; karar geldiginde is tarifi bir turda cikar. == YENI IS: KENDI CURUTTUGUN CAPA — nehir gecis cezasi == Bu gece Tuna icin bir capa kurdun (**gecitler arasi yarim aralik**, 75 birim), sonra onu dunyaya uyguladin ve **kendin curuttun**: metrik nehri degil **ATLASI** olcuyordu (Sakarya sr8 medyan 14,2 km · Congo sr2 537,4 km — fark nehirde degil nokta yogunlugunda). 🔴 Kalem hala ACIK ve Emre'nin gece listesinde (*nehir/akarsu haritaya*). ``` ① SORU: nehir gecilebilirligi icin **nokta yogunlugundan BAGIMSIZ** bir olcu var mi? Adaylar (kendin ekle/ele): · nehrin GENISLIGI ya da debisi (veri-kaynak'ta var mi? OLC) · Strahler mertebesi (`sr` alani ZATEN VAR — dogrudan kullanilabilir mi?) · tarihi GECIT/KOPRU/GECIS noktalari (kaynak gerektirir) ② 🔴 VE HER ADAYI **CAPALAMADIGI BIR YERDE** SINA — bu senin kendi dersin. Tuna'da tutan bir olcu, Congo'da ve Sakarya'da da makul sonuc vermeli. Vermiyorsa o da atlasi olcuyor. ③ 🔴 `uret_petek.py` DONUK — kod YAZMA. Cikti bir **tasarim onerisi**: hangi olcu, hangi veriden, hangi birimde, ve NICIN nokta yogunlugundan bagimsiz oldugunun KANITI ④ Hicbir aday gecmezse bu da bir sonuctur: *\"olculebilir bir capa BULUNAMADI\"* yaz — o zaman ceza bir **sabit** olarak kalir ve bu bilinerek kalir ⑤ CIKTI: `denetim/ONERI-NEHIR-CAPA-0905.md` ``` 📌 Nicin sana: capayi kuran ve curuten sensin, ve curuten taraf olmak **ikinci turda avantaj** — nerede kirildigini biliyorsun. ⚠️ Emre uyanik, kisa tut. == KISIT == Kosu 5b CANLI (PID 21540 · merdiven 13:38'de ilerledi). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
