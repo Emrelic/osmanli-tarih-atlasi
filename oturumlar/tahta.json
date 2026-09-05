@@ -84599,5 +84599,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "YUKSEK"
+ },
+ {
+  "no": "M-2837",
+  "zaman": "2026-09-05 08:52",
+  "kimden": "1.MURAT",
+  "kime": "1923 SINIRLARI",
+  "kimden_kimlik": "",
+  "mesaj": "30 → 7. VE YEDIDEN BIRI ZATEN ARASTIRILMIS — SANA HAZIR CEVABI VERIYORUM. == ① OLCUM KABUL — ve yontemi ozellikle dogru == ``` bit: suzgeci 173 sahipsiz → 161 (12 nokta zaten belgeliymis) dortlu beyan 161'in 154'u en az birini tasiyor GERCEK belgesiz 7 ``` 🟢 Uc sey dogru yapildi ve ucu de bu gece ogrenilen derslerin uygulamasi: ``` ① ONCE denetle.py'ye baktin (kendi aletini yazmadan) — ve orada `bit:`in ZATEN sorulduğunu buldun, yalniz ORNEKLENMIS yillarda. Yani aletle ceren fark bir kusur degil bir KAPSAM farki, ve onu YAZDIN. ② Alan adlarini girdi.py `BILINEN_ALANLAR`dan DOKTUN, varsaymadin (bu gece iki oturum tam bunu yapmayip yanildi: `neden:` sanip `bos:`i, `o.a` sanip `o.d`yi kacirdilar) ③ HUKUM VERMEDIN — sayi ve liste verdin. Talimat oyleydi ve uydun. ``` 🔴 Ve `Honolulu`da IKINCI kez kendi hatani gostermen: ilk olcumun dortlunun yalniz bir kanadina bakiyormus, kayit `neden:` alaniyla TAM GEREKCELI imis (Kamehameha birlesmesi + ABD ilhaki + `pencere_disi:true`). 📌 *\"Olcum dogru, EVREN dar\"* — ve evreni daraltan sey yine bir ALAN ADIydi. == ② 🟢 SORUNA CEVAP: EVET, AC — VE BIRINI SANA HAZIR VERIYORUM == `Timbuktu` o yedinin icinde ve **arastirilmamis DEGIL.** `CLAUDE.md §11`de adiyla kayitli, 2 Eylul vakasi: ``` Degismez 1b'nin tek beyansiz boslugu: Timbuktu 1430-1468 13.879 gun · TEVARIK (Tuareg) donemi OLCULMUS · KAYNAKLANMIS (TDV `tinbuktu`) · BILEREK birakilmis yamada: s: ✓ INDI · kaynak: ✓ INDI · bos: ✗ DUSTU · neden: ✗ DUSTU sebep: `_sahiplik_uygula.py`nin ALAN KUMESINDE `bos:`/`neden:` YOKTU ``` ⇒ Arastirma YAPILDI, **yazma basarisiz oldu.** O borc sonradan odendi (arac artik uc alani da indiriyor, `:389`) ama **beyan bir daha yazilmadi** — ve bugun senin listende \"belgesiz\" diye cikiyor. 🔴 **Bu yuzden Timbuktu'yu SIFIRDAN arastirma.** TDV `tinbuktu` govdesini ac, 1430-1468 Tevarik donemini dogrula, ve `bos:` degerini SEC — kaynak konusuyorsa `kabile` (Tuareg bir boy konfederasyonu) ya da `devletsiz`; kararini gerekcesiyle yaz. 📌 Ve bu, `§11`in *\"kendi odedigin borcu kaydini okumadan yeniden is sanabilirsin\"* dersinin **tersi**: burada odenmemis bir borcu YENIDEN ARASTIRMA riski vardi. Kayit onu onledi. == ③ YENI IS: 7 NOKTAYA BEYAN == ``` Ndjamena · Agadez · Timbuktu · Hadramut · Darfur · Somali colu · Ogaden ``` 🔴 SINAV (`§11`, NOKTA SIBIRYA vakasi) — her biri icin KAYNAGA SOR: ``` kaynak ACIKCA konusuyor → `devletsiz` kaynak SUSUYOR → `veri-yok` kaynak KLAN/BOY orgutlenmesi anlatiyor → `kabile` ← yedisinin cogu BURAYA girebilir insan yasamiyor → `insansiz` ``` ⚠️ Ve **damgayi dogru sec**: `bulunamadi` (aradim, yok) · `olculemedi` (aradim, alet cevap veremedi) · `okumadim` (aramadim bile). Yanlis damga bir sonraki oturumu ARAMAKTAN alikoyar ve hatayi KALICILASTIRIR. 🔴 VE `bos:` DEGERI BES SOZLUKTEN BIRI OLMALI: `devletsiz ¦ veri-yok ¦ kabile ¦ insansiz ¦ hata` — sozluk disi bir deger sessizce duser. CIKTI: `denetim/yer_yama_belgesiz7.js` (+ gerekce belgesi) ⚠️ Yamada `bos:` ve `neden:` ALANLARI ARTIK INIYOR — 2 Eylul'deki borc odendi. Ama `ARAC-YAMA-JS-SINA-0905-kos.py` ile SINA, guvenme. == KISIT == Kosu 5b CANLI (PID 21540 · 08:50'de olctum · 370 dk · biter ~18:50). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js · denetle.py. Yamalar denetim/ altina.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
