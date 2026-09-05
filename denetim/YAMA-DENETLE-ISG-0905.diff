@@ -1,0 +1,36 @@
+--- a/arac/denetle.py
++++ b/arac/denetle.py
+@@ -1780,7 +1780,13 @@
+     ihlal, kunyesiz, asan, once = [], [], [], []
+     for y in Y:
+-        for p in (y.get("s") or []):
++        # 🔴 `isg:` DE KİMLİK TAŞIR — 5 Eylül 2026'da ölçüldü (NEHİR SÜRTÜNME):
++        #   isg:[{f:"1737-07-01", t:"1737-10-01", d:"avusturya", kaynak:"nis"}]
++        #   İlk sürüm yalnız `s:` üzerinde dönüyordu; işgal dönemleri künye
++        #   penceresine karşı HİÇ SINANMIYORDU. `§11`: "denetim var ≠ o soruyu
++        #   soruyor" — soru doğruydu, EVREN dardı.
++        #   ⚠️ Alan adı yalnız İHLAL MESAJINA eklenir; `kunyesiz`/`asan`/`once`
++        #     demet BİÇİMLERİ DEĞİŞMEZ (rapor kodu onlara göre yazılmış).
++        for _alan, p in ([("s", _p) for _p in (y.get("s") or [])] +
++                         [("isg", _p) for _p in (y.get("isg") or [])]):
+             kim = p.get("d")
+             if not kim:
+                 continue
+@@ -1791,15 +1797,15 @@
+             g = _gun_farki(p.get("f"), kt) if kt else None
+             if g is not None and g > HAYALET_TOLERANS_GUN:
+                 ihlal.append((y["ad"], kim, p.get("f"), p.get("t"),
+-                              "devlet %s'te bitti, dönem %.1f yıl SONRA başlıyor"
+-                              % (kt, g / 365.25)))
++                              "[%s] devlet %s'te bitti, dönem %.1f yıl SONRA başlıyor"
++                              % (_alan, kt, g / 365.25)))
+                 continue
+             # dönem SONU künyenin başından ÖNCE mi (devlet doğmamış)
+             g2 = _gun_farki(kf, p.get("t")) if kf else None
+             if g2 is not None and g2 > HAYALET_TOLERANS_GUN:
+                 ihlal.append((y["ad"], kim, p.get("f"), p.get("t"),
+-                              "devlet %s'te kuruldu, dönem %.1f yıl ÖNCE bitiyor"
+-                              % (kf, g2 / 365.25)))
++                              "[%s] devlet %s'te kuruldu, dönem %.1f yıl ÖNCE bitiyor"
++                              % (_alan, kf, g2 / 365.25)))
+                 continue
