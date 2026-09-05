@@ -36,11 +36,18 @@
         "d": "Berlin Antlaşması'nın ilgili maddesiyle Bosna ve Hersek'in Avusturya tarafından işgal edilmesi kararlaştırıldı; fiilî işgal aynı yıl ilerleyen aylarda gerçekleşti.",
         "kaynak": "berlin-antlasmasi",
         "not": "🔴 BU MADDE HEDEF GÜNÜ (1878-09-18) DEĞİL, ANTLAŞMA GÜNÜNÜ taşıyor — Değişmez 2'nin ±30 gün penceresini KAPATMAZ (1878-07-13 ile 1878-09-18 arası 67 gün). Yalnız GERÇEK bir Herseknovi-özel madde (akademik kaynakla) bu kırılmayı kapatabilir. Bu satır 'çare' değil, boşluğun BELGELENMİŞ HALİDİR."
+      },
+      "M2972_akademik_arama": {
+        "kaynak": "WebSearch — Wikipedia 'Austro-Hungarian campaign in Bosnia and Herzegovina in 1878' + cuvalo.net 'History of Boka Kotorska' (§4 yeşil kümesinde akademik/kurumsal, 🔴 listesine girmiyor)",
+        "genel_dogru": "🔴 BOSNA IKAME EDILMEDI (M-2972'nin yasak ettigi) — Bosna kampanyasi 29 Temmuz-20 Ekim 1878, Herceg Novi'ye AYRI bir gun arandi, ikame edilmedi.",
+        "kritik_bulgu_PREMISE_SORGULANDI": "🔴🔴 ARANAN NOKTANIN KENDI VERISI ('Herseknovi (Herceg Novi)', data/yerlesimler_ek.js:237) `s:[{f:1797-10-17,t:1918-11-11,d:avusturya}]` diyor — Herceg Novi zaten 1797'DEN BERİ (Campo Formio Antlaşması, Venedik'ten devir) DOĞRUDAN Avusturya toprağı. 1878'de Avusturya'nın Herceg Novi'yi 'İŞGAL ETMESİ' diye bir hükümranlık değişikliği YOK — orası zaten 81 yıldır Avusturya'nın. Akademik kaynaklar da bunu doğruluyor: Boka Kotorska/Herceg Novi 1814'ten (bazı kaynaklara göre 1797'den) beri kesintisiz Avusturya idaresinde, 1878 olayı SADECE komşu Bosna-Hersek'i ilgilendiriyor.",
+        "olasi_gercek_anlam": "🟡 isg:'nin 1878-09-18'de temsil ettiği şey muhtemelen SAHIPLIK DEGISIMI degil, Bosna seferinin LOJISTIK/ASKERI ETKISI — Boka Kotorska sefer icin bir ikmal/us bolgesi olabilirdi ve gecici sikiyonetim/askeri idareye gecmis olabilir (1869-70 Krivosije ayaklanmasi da ayni bolgede askerlik yukumlulugune tepkiydi — konuyla ILISKILI ama AYRI bir olay, 1878 DEGIL). BU YORUM DOGRULANMADI, bir HIPOTEZDIR.",
+        "sonuc": "🔴 BULUNAMADI — ve bu bir arama basarisizligi degil, ARANAN SEYIN NE OLDUGUNUN BELIRSIZ olmasi. Isg: kaydinin KENDI kaynagina (onu yazan yamaya/oturuma) donup 'bu 1878-09-18 hangi olayi temsil ediyor' diye SORULMASI, yeni bir tarih aramaktan daha ucuz ve daha dogru olur."
       }
     }
   ],
   "ozet": {
     "nis": "🟢 TDV'den GÜN(ay)-hassasiyetinde madde önerildi, kırılmayı KAPATIR",
-    "herseknovi": "🔴 TDV'de taneciklik boşluğu doğrulandı — bu turda kapatılmadı, akademik kaynak arayan AYRI bir tur gerekiyor"
+    "herseknovi": "🔴 BULUNAMADI — VE PREMISE SORGULANDI: Herceg Novi 1797'den beri zaten Avusturya toprağı, '1878 işgali' hükümranlık değişikliği olarak doğrulanamadı. Kaynak aramak yerine isg: kaydının KENDİ yazarına/kaynağına dönülmesi önerilir."
   }
 }
