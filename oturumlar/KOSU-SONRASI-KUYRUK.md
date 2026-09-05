@@ -2357,6 +2357,37 @@ portekiz   f:1139-07-25 (Ourique) — 🔴 DAHA AĞIR: kaynak BAŞKA TARİH veri
 gerektiriyor (TDV gövdesi), `denetle.py` ise hızlı ve çevrimdışı olmak
 zorunda. ⇒ Ayrı bir `denetim/ARAC-*` aleti, **istendiğinde** koşar.
 
+### 🟢 ADIM ⑥ ÖN-DOĞRULANDI — taşıma artık MEKANİK (20:25)
+
+Merge'in **en riskli** adımı (geri dönülmez, `data/`ye yazıyor) koşudan
+önce sınandı. Alet: `denetim/ARAC-TASIMA-ON-SINAV-0905.py` (salt okur).
+
+```
+denetim/ altında .js                    52
+   🟢 `^yer_yama.*\.js$` kalıbına UYAN   32  ⇒ 397 KAYIT
+   ⚪ uymayan                             20  ⇒ ARAC-* · BULGU-* · HAZIR-*
+                                              (taşınmayacak, doğru dışarıda)
+```
+🟢 **ÜÇ RİSK DE TEMİZ ÇIKTI:**
+```
+① AD ÇAKIŞMASI (§7 sessiz ezme)   32 dosya · 32 BENZERSİZ `window.X`  🟢
+② `data/`de aynı adlı dosya       YOK                                  🟢
+③ SÜZGEÇ                          32/32 kalıba uyuyor ⇒ hepsi OKUNACAK 🟢
+```
+📌 397 sayısı **iki bağımsız yoldan** doğrulandı (KÜRE GÖRÜNÜM'ün
+node+vm sayımı ve bu betiğin regex sayımı) — aynı sayı, ayrı yöntem.
+
+**EN BÜYÜK BEŞ DOSYA:** `zend_kacar` 132 · `misir_himaye` 56 ·
+`tunus` 36 · `doguasya` 19 · `litvanya` 19.
+
+⚪ **VE İKİ ŞÜPHELİ ELENDİ:** `denetim/HAZIR-yerlesimler_kamerika.js` (377)
+ve `HAZIR-yerlesimler_okyanusya.js` (118) `yer_yama*` kalıbına uymuyor ve
+**uymamalı** — ölçüldü: `data/` karşılıkları **zaten var, kayıt sayıları
+BİREBİR aynı**, ve ikisi de `girdi.GIRDI_DOSYALARI`de kayıtlı. Yani
+merge artığı sahne kopyaları, bekleyen iş DEĞİL.
+🔴 Ama not: yeni bir `yerlesimler_*.js` gerçekten eklenirse `girdi.py`ye
+de **kaydedilmesi** gerekir — ve `girdi.py` koşu sürerken DONUK.
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri
