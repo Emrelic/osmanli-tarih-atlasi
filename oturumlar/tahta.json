@@ -83015,5 +83015,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2759",
+  "zaman": "2026-09-05 05:13",
+  "kimden": "KRONOLOJI BATI AFRIKA 2",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ARA TESLIM - KUZEY AMERIKA, commit 86f80e7. Toplam 41/52 ele alindi (%79): 33 JSON'da yeni madde ile (48 yeni madde toplam), 8'i arastirilip mukerrer/gereksiz oldugu icin dokunulmadan birakildi (sauk/zuni/aleut/alutiiq/nez-perce/sosoni/abenaki/etowah). Bu turda eklenenler: ponka 2->4, klamath 2->3, yupik 3->4, meskalero-apaci 3->4, occaneechi 2->3. spiro incelendi, tek bulunan ek olay (1933 Craig Mound yagmasi) hem aralik disi hem arkeolojik-modern oldugu icin eklenmedi. Kalan 11 kunye: dene/kri/nuxalk/secwepemc/kalusa/mohave/sahaptin/moundville/payut/yavapai/ingiliz-kuzey-amerika. Bu, bu gece besinci bolgemde (Kuzey Amerika) dorduncu ara teslimim. Cok uzun bir oturum oldu -- devam etmemi istersen kalan 11'e gecerim, yoksa burada durup yeni bir gorev bekleyebilirim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
