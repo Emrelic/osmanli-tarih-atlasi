@@ -267,6 +267,17 @@ SAHİPSİZLİK MALİYETİ   0   (28 künye · 133 nokta · ölçüldü)
 > ⇒ ***② ile ③ arasındaki tutarsızlık bir tercih değil, ÜÇÜNCÜ
 > KARARINDAKİ eksiğin sonucu.*** İkisi tek karardır ve tek cevapla
 > kapanır.
+>
+> 🔴🔴 **VE AYNI GÜN İLK SOMUT BLOKAJ ÖLÇÜLDÜ — `Ammaroğulları`:**
+> TDV Trablus'un 1327-1401 zincirini altı kırılmayla veriyor ve
+> **dördü tâbiiyet değişimi** (Merînî 1347 · Hafsî 1370 · Sicilya 1393),
+> toprak devri değil. Şehir bütün o süre Ammaroğulları'nın elinde,
+> yalnız **metbûu** değişiyor.
+> ⇒ Atlas bunu ifade edemiyor, ve o dördünü `s:` geçişi olarak yazmak
+> *"Trablus Merînî toprağı oldu"* demek olurdu — **yaklaşıklama değil,
+> farklı bir iddia.** Kaynaklı bir düzeltme, eksik kabiliyet yüzünden
+> **yazılamıyor.**
+> 📌 Karar artık bir sayı değil bir **vaka** taşıyor.
 
 
 

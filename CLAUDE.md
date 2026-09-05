@@ -4494,6 +4494,68 @@ toplam çakışan gün 452.164 ≈ 1.238 nokta-yıl
   mu"* diye sorulur, oysa doğru soru ***"burada bir konvansiyon var mı"***
   olmalıdır. İkincisi ölçülebilir; birincisi ölçülemez.
   🟢 Ölçüm hükmü tersine çevirdi: yama **reddedilecekken kabul edildi.**
+
+- 🔴🔴 **VERİ MODELİNİN İFADE EDEMEDİĞİ BİR İLİŞKİYİ, EDEBİLDİĞİ BİR
+  İLİŞKİYE ÇEVİRMEK — YAKLAŞIKLAMA DEĞİL, BAŞKA BİR İDDİADIR.**
+  *(5 Eylül 2026 · `Ammaroğulları` · `KRONOLOJİ BOŞ KÜNYE` ölçtü,
+  koordinatör hükmetti)*
+
+  TDV `ammarogullari--trablusgarp` okunduğunda Trablus'un 1327-1401
+  zinciri **altı kırılma** gösterdi. Ama kırılmaların cinsi ayrıldığında
+  tablo değişti:
+```
+1327  Sâbit b. Ammâr Trablus'a hâkim         → hânedan KURULUR
+1347  Ebû'l-Hasan Merînî hâkimiyetini TANIDI → TÂBİİYET
+1355  Cenevizli askerler şehre hâkim (5 AY)  → GERÇEK devir
+1355  satıldı; Merînî'ye BAĞLILIK ARZEDEN'in eline geçti → TÂBİİYET
+1370  Hafsî onu Trablus VALİSİ olarak tanıdı → TÂBİİYET
+1393  elçiler Sicilya KRALININ hâkimiyetini tanıdı → TÂBİİYET
+1394  Hafsî Ebû Fâris şehri ELE GEÇİRDİ      → GERÇEK devir
+```
+  ⇒ **Altı kırılmanın dördü TÂBİİYET değişimi**, toprak devri değil. Ve
+  atlas tâbiiyeti **yalnız Osmanlı için** ifade edebiliyor (`v:`
+  dönemlerinin kimlik alanı yok — aynı gün ölçüldü).
+
+  🔴 ⇒ O dördünü `s:` geçişi olarak yazmak, *"Trablus Merînî toprağı
+  oldu, sonra Hafsî toprağı, sonra Sicilya toprağı"* demektir — **oysa
+  şehir bütün o süre Ammaroğulları'nın elindeydi ve yalnız metbûu
+  değişti.** ***Bu bir yaklaşıklama değil, farklı bir iddiadır.***
+  🟢 **HÜKÜM: SADELEŞTİR** — `ammar` iki blok (gerçek devirlerde kesilir),
+  tâbiiyet kaymaları `not:` alanında **BEYAN EDİLİR.** Model ifade
+  edemiyorsa veri **susmalı**, yanlış konuşmamalı.
+
+  📌 Ve bu, bu gecenin `v:` kimlik ölçümünün **en somut vakası**: orada
+  eksik bir kabiliyet **sayıyla** ölçülmüştü (423 dönem, kimlik alanı
+  yok); burada o eksik, kaynaklı bir düzeltmeyi **bloke ediyor.**
+
+- 🟢 **BİR SLUG'I TAHMİN ETME — KAYNAĞIN KENDİ BAĞLANTISINI OKU.**
+  *(aynı tur · `§4②` ailesinin BEŞİNCİ vakası)*
+
+  `Ammaroğulları` için yedi slug denendi, yedisi de ölü çıktı ve künyeye
+  *"TDV'de müstakil madde yok"* yazıldı. **Yanlıştı:**
+```
+GERÇEK   ammarogullari--trablusgarp   200 · 10.232 kar.
+NİÇİN    TDV'de İKİ Ammaroğulları var — öteki 1070-1109 TRABLUSŞAM'da
+         ⇒ ayrım `--trablusgarp` sonekiyle yapılmış
+```
+  ⇒ `ordu--sehir` · `saray--sehir` · `cin--ulke` · `hurmuz--iran`
+  ailesinin beşincisi — ve bu sefer sonek bir **şehir/ülke** ayrımı değil,
+  **aynı adı taşıyan iki hânedan** ayrımı.
+
+  🟢 **Ve bulunma biçimi bir yöntem:** slug tahmin edilmedi, `libya`
+  maddesinin HTML'indeki TDV'nin **kendi çapraz atfı** okundu
+  (`<a href="/ammarogullari--trablusgarp">`). Ölçen oturumun cümlesi:
+  *"Yedi kez tahmin ettim, bir kez aradım; **aramak tuttu.**"*
+  ⇒ ***Kapsayıcı maddenin bağlantıları bir SLUG DİZİNİDİR.*** `§4`ün
+  *"dar slug tutmazsa kapsayıcıyı dene"* kuralının bir kademe ötesi:
+  kapsayıcıyı yalnız **okumak** değil, **bağlantılarını taramak.**
+
+  🔴 Ve aynı gün `§4②`nin **YENİ bir biçimi** çıktı — *yanlış ÜLKE*:
+  `nijer-deltasi` için `nijer` slug'ı 200 döndü ve bir sonda onu *"canlı
+  aday"* saydı. **Nijer Deltası NİJERYA'dadır**; `nijer` Nijer
+  Cumhuriyeti'nin maddesidir. Sondanın *"ilk 200 kazanır"* kuralı yanlış
+  ülkeyi seçti. ⇒ Gövde okunmasaydı manşet **7** olacaktı; okununca
+  **4.**
   📌 `§11`in *"`0`, 'yok' ile 'bakmadım' arasında ayrım yapmaz"*
   dersinin **dönüş değeri** ve **alan adı** yüzleri — ve `§4`ün
   *"bir alan adı, kullanıldığı yerden değil TANIMLANDIĞI yerden
