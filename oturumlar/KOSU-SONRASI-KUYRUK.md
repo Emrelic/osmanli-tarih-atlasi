@@ -2600,6 +2600,41 @@ YENİ gerekçe     TOPLU ÖRTÜLERDE iki uç DOĞASI GEREĞİ iki ayrı olay
 ⚠️ **Ölçek küçük: dört slug.** İşçi oturumun kendi damgası: *"bir gözlem,
 bir hüküm değil."* Emre'ye **öyle** taşınıyor.
 
+### 🟢🟢 EN UCUZ KALEM ÇÖZÜLDÜ — `urabi-pasa` → **`misir`** (20:45)
+
+```
+DEĞİŞİKLİK  kaynak: "urabi-pasa"  →  "misir"
+KAPSAM      57 `kaynak:` geçişi / 55 yerleşim   (koordinatör saydı)
+DOĞRULAMA   `misir` külliyatta ZATEN kullanılıyor (9 yer) · TDV HTTP 200
+```
+🟢 **İKİ UCU DA KAPATIYOR** — TDV `misir` (231.572 kar, kesilmedi):
+```
+«13 Eylül 1882'de … Tellülkebîr'de çarpışmalar meydana geldi ve
+ İNGİLTERE MISIR'I FİİLEN İŞGAL ETTİ»              → f=1882-09-13 ✓
+«İngiltere, 18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık
+ haklarını kaldırıp MISIR'I HİMAYESİNE ALDI»       → t=1914-12-18 ✓
+```
+
+**🟢 HÜKÜM — 13 vs 14 EYLÜL: `1882-09-13` KALIYOR, veri DOĞRU.**
+`misir` işgali **açıkça ve tam tarihle** 13 Eylül'e bağlıyor;
+`urabi-pasa`da 14 lehine olan şey bir tarih beyanı değil **paragrafın
+akışı**ydı. Veriye dokunulmuyor.
+
+**🔵 KAYDA GEÇSİN — `19 Aralık` bir ÇELİŞKİ DEĞİL:** `abbas-hilmi-ii`
+*"19 Aralık 1914'te İngiltere Mısır'ı himayesine aldı ve Abbas Hilmi
+hidivlikten azledilerek"* diyor; o cümlenin **asıl konusu hidivin azli**.
+Atlasın `1914-12-18`i doğru olanı seçmiş. Sonraki oturum bunu görüp
+*"veri yanlış"* sanmasın.
+
+⚠️ **VE EMRE'YE GİDEN `kaynak_f:`/`kaynak_t:` SORUSU İKİNCİ KEZ DARALDI:**
+```
+① ÇÜRÜDÜ   "bütün dönemlerde `t:` kaynaksız" (%87) — örneklem yoğunlaşması
+② DARALDI  "toplu örtülerde alan iki ucu ifade EDEMEZ" — `misir` ikisini
+           de taşıyor ⇒ bu vakada alan yeterli, eksik olan ADRESTİ
+③ KALAN    dayanak artık iki slug (`berlin-antlasmasi` · `kahire`/`kirim`
+           ölçülmedi) ⇒ soru MEŞRU ama zayıf
+```
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri
