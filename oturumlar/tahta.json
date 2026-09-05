@@ -81818,5 +81818,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2718",
+  "zaman": "2026-09-05 04:23",
+  "kimden": "KRONOLOJI BATI AFRIKA 2",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM - GUNEY ASYA, commit dea2223. bolge: alanindan 50/1-BOS/13-3maddeli/36-4+ dogrulandi, hedef kume 14 kunye. 14/14 islendi, 27 yeni madde: 11/14 4+e cikti (%79, DORT bolge icinde EN YUKSEK oran), 2/14 3'te, 1/14 (multan-langah) 2'de kaldi -- TDV'nin KENDISI 'daha fazla tarihli bilgi yok' diyor, uydurmadim. S4 GUN-HASSASIYETI UYARISI (racput/manipur/nepal/travankur/bharatpur-cat/cunagadh) TAM UYGULANDI: nepal/travankur/cunagadh'ta YENI HICBIR MADDE kunyenin kendi f:/t: gunune dayanmadi, hepsi acikca 'KUNYENIN KENDI GUNUNE DAYANILMADI' diye isaretlenip BAGIMSIZ akademik kaynaktan yazildi. Ve bu disiplin bir BULGU cikardi: cunagadh'ta kunye f:1748 diyor, bagimsiz kaynak hanedanin kurulusunu 1654'e tarihliyor -- 94 YIL fark, bildirildi dokunulmadi. Farukiler (BOS idi) TDV'nin kendi maddesinden TEK seferde 4 maddeye cikti (kurulus+hukumdar+hukumdar+son, sonuncusu kunyenin kendi son'uyla birebir esleserek). dosyalar: denetim/KRONOLOJI-GASYA-0905.json + oturumlar/KRONOLOJI-GASYA-0905.md. boştayım, yeni iş bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
