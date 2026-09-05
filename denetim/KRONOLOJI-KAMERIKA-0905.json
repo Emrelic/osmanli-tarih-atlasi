@@ -1,0 +1,38 @@
+{
+ "oturum": "KRONOLOJI KUZEY AMERIKA",
+ "damga": "2026-09-05",
+ "not": "YAMA dosyasi -- data/devletler.js'e DOKUNMADIM (kosu 5b canli, PID 21540). Bu bolge BASTAN SONA AKADEMIK KAYNAK isi -- TDV pratikte yok. Kaynak hatti: BIRINCIL BELGE (Avalon Project/Yale, antlasma metinleri) > KURUMSAL (Library of Congress, National Archives, eyalet tarih kurumlari, Canadian Encyclopedia imzali) > IMZALI ANSIKLOPEDI. Britannica 'Quick Summary' (YZ uretimi) KULLANILMADI. Bir devletin kronolojisine TARAF OLMADIGI antlasma (1763/1783/1846 gibi) YAZILMADI. Kunyenin KENDI f:/t: gunune KAYNAK olarak DAYANILMADI.",
+ "yontem_notu": "59 kunye, bolge: alanindan GERCEK id ile tarandi: BOS 11, 1-3 maddeli 41, 4+ maddeli 7. Hedef kume 52 kunye -- COK BUYUK, hepsi bitirilmeyecek, kalem kalem teslim ediliyor. MUKERRER DERSI UYGULANDI: her kunyenin MEVCUT t degerleri yazmadan once kontrol edildi.",
+ "kunyeler": [
+  {
+   "id": "teksas-cumhuriyeti",
+   "eklenen": [
+    {"t": "1836-03-02", "tur": "kurulus", "b": "Teksas, Meksika'dan bağımsızlığını ilan etti", "kaynak": "bulunamadı (TDV yok, bölge dışı) — standart akademik/kurumsal kaynak, çevrimiçi ('Republic of Texas', Texas State Library) doğrulandı. Künyenin kendi f:'siyle BİREBİR eşleşiyor."},
+    {"t": "1836-04-21", "tur": "savas", "b": "San Jacinto Muharebesi'nde Sam Houston komutasındaki Teksas ordusu General Santa Anna'yı kesin biçimde yendi; fiilî bağımsızlık kazanıldı", "kaynak": "bulunamadı (TDV yok) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla doğrulandı."},
+    {"t": "1836-10-01", "tur": "hukumdar", "b": "Sam Houston, Cumhuriyet'in ilk başkanı seçildi", "kaynak": "bulunamadı (TDV yok) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla doğrulandı."},
+    {"t": "1845-12-29", "tur": "son", "b": "ABD Kongresi, Teksas'ın eyalet olarak Birliğe katılımını kabul etti", "kaynak": "bulunamadı (TDV yok) — standart akademik/kurumsal kaynak (Texas State Library timeline), çevrimiçi doğrulandı. Künyenin kendi t:'siyle BİREBİR eşleşiyor."}
+   ]
+  },
+  {
+   "id": "haudenosaunee",
+   "eklenen": [
+    {"t": "1677-01-01", "tur": "ittifak", "b": "Haudenosaunee, İngiliz kolonileriyle 'Covenant Chain' (Ahit Zinciri) ittifakını kurdu", "kaynak": "bulunamadı (TDV yok) — standart akademik/kurumsal kaynak, çevrimiçi ikincil kaynaklarla ('Covenant Chain') doğrulandı."},
+    {"t": "1722-01-01", "tur": "birlesme", "b": "Tuscarora, altıncı üye ulus olarak Konfederasyona katıldı (Beş Ulus'tan Altı Ulus'a)", "kaynak": "bulunamadı (TDV yok) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla doğrulandı."}
+   ],
+   "not_kaynak": "2/4 KALDI — Konfederasyonun kendi kuruluş tarihi (Büyük Barış Yasası) akademik literatürde CİDDİ ŞEKİLDE ÇELİŞKİLİ (öneriler 1142'den 1600'lere kadar değişiyor, kesin bir konsensüs YOK). Sahte kesinlik üretmemek için kurulus maddesi YAZMADIM (`CLAUDE.md §4`). Bulunamadı değil, BİLEREK EKLENMEDİ — kalem açık."
+  },
+  {
+   "id": "cherokee",
+   "eklenen": [
+    {"t": "1776-01-01", "tur": "savas", "b": "Cherokee-Amerikan Savaşları (Chickamauga Savaşları) başladı: genç savaşçılar Dragging Canoe önderliğinde yaşlı şeflerden ayrılıp Chickamauga Cherokee grubunu oluşturdu", "kaynak": "bulunamadı (TDV yok) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Cherokee-American wars') doğrulandı."},
+    {"t": "1791-07-02", "tur": "antlasma", "b": "Cherokee Ulusu, ABD ile Holston Antlaşması'nı imzaladı", "kaynak": "bulunamadı (TDV yok) — BİRİNCİL BELGE: Avalon Project (Yale Law School), 'Treaty With the Cherokee: 1791'. GÜN hassasiyeti antlaşmanın kendi metninden. Künyenin kendi t: alanıyla BİREBİR eşleşiyor."}
+   ],
+   "not_kaynak": "2/4 KALDI — üçüncü olay (Chickamauga direnişinin 1794'te sona ermesi) künyenin kendi t: aralığının (…-1791-07-02) DIŞINA düşüyor, EKLEMEDİM, yalnız BİLDİRİYORUM: künyenin 'son' tarihi büyük olasılıkla Cherokee-Amerikan Savaşları'nın TAMAMINI değil yalnız Holston Antlaşması'nı temsil ediyor; künye sahibi t:'yi 1794-11-26'ya çekmeyi değerlendirebilir (bu durumda 1794 olayı da eklenebilir)."
+  },
+  {
+   "id": "komanci",
+   "eklenen": [],
+   "not_kaynak": "ÖLÇÜLEMEDİ — bulduğum tek sağlam tarihli olay (1719, Rio Grande baskını) künyenin kendi f:'sinin (1750) 31 YIL ÖNCESİNE düşüyor; künye 'Comanchería'nın SİYASİ/ASKERİ egemenlik dönemini (1750'den itibaren at kültürüyle bölgeye hakimiyet) temsil ediyor görünüyor, 1719 erken bir öncül olay. Aralık dışına taşan bir olayı zorlamadım. Bu turda vakit kalmadığı için ikinci bir arama yapamadım — KALEM AÇIK. 0/4 bırakıyorum."
+  }
+ ]
+}
