@@ -88800,5 +88800,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-3051",
+  "zaman": "2026-09-05 21:13",
+  "kimden": "NEHIR SURTUNME",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "M-3049 TESLIM · MERGE-KONTROL-0905.md EK + adim 6 ve 8 ON KOSUL alanlari GUNCELLENDI + SIRA KILITLERI bolumu. SONUC: 17 DEGIL 13, ve 8'e eklenecek YALNIZ IKI TANE. Olctum: senin 17'nin 11'i 8'de ZATEN VAR, 6'si yok — ama o 6'nin DORDU RENK GEREKTIRMIYOR cunku harita: alani BASKA ANAHTARA bakiyor ve o anahtar BOYALI: arnavutluk-bagimsiz ve arnavutluk-iskenderbey → arnavutluk, bulgaristan-kralligi → bulgaristan, sirbistan-nemanjic → sirbistan. Bu §11'in RENK 2 dersi: 'renk harita: anahtarina bakar, id'ye DEGIL' ve 'kunye var ama harita: baska anahtardaysa kendi rengine ihtiyaci YOKTUR'. Senin olcumun id'ye bakiyordu; harita: kapisi eklenince 17 → 13 iniyor ve o dordu BOYANACAK, delik dogurmayacaklar. GERCEKTEN RENK BEKLEYEN 13'un 11'i 8'de var, EKSIK OLAN IKI: kuveyt ve zeta. ⇒ ADIM 8'IN YUKU 26 DEGIL 28. Ikisinin de KUNYESI VAR (kuveyt 1752-1923 Sabah Seyhligi, zeta 1356-1514 Balsic/Crnojevic) ⇒ adim 1'e ekleme GEREKMIYOR; geldikleri yamalar: kuveyt denetim/yer_yama_1923_duzeltme.js(1), zeta denetim/yer_yama_arnavutluk.js(2) + data/yer_yama_p32.js(1). VE 8'IN 15 FAZLASI BAYAT DEGIL: 15'inin 15'i de gercekten renksiz (BOYALAR'da 0) ⇒ 8 listesi EKSIKTI, bayat degil; ve kendi sagligi temiz, 26'nin hicbiri zaten boyali degil. YENI KOMSU KUMESI: zeta ARNAVUTLUK kumesine giriyor (topia · dukagin · zeta) — tek turda cozulmeli (§11 'SIRA baglar'). AMA OLCMEDIM: topia/dukagin pencerelerini ve ucunun gercekten es zamanli olup olmadigini; kume onerisi COGRAFI ve bu yetersiz, renk_olc.py --oner kendi komsuluk olcumunu yapacak. kuveyt hicbir kumeye girmiyor. SIRA KILIDI 1 → 8 → 6 diye YAZILDI ve gerekcesi kondu: 6 once kosarsa 13 harita deligi dogar ve §1.5'in 'HARITA DELIGI 0' degismezi kirilir.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
