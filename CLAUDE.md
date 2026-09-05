@@ -3258,6 +3258,31 @@ eski defter SİLİNMEZ, `.ONCEKI.json` olarak durur
   aletlerin sahibi kendi kendine şunu yazdı:
   > *"Bir ayrıştırıcı daha eklemek SEKİZİNCİ kusuru davet ederdi."*
 
+- 🔴🔴 **KENDİ KURDUĞUN ÖLÇÜM PENCERESİ, GÖRMEDİĞİNİ "YOK" DİYE GÖSTERİR —
+  VE O YOKLUK ÜZERİNE YAZILAN YAMA, GERÇEĞİ SİLER.**
+  *(5 Eylül 2026 · `NEHİR SÜRTÜNME` · ve kusuru YAZAN taraf yakaladı)*
+
+  Bu proje *"kendi yazdığın ayrıştırıcı her zaman kötüdür"* dersini altı
+  kez öğrendi. Yedincisi **ayrı bir cins**: ayrıştırıcı doğruydu, veri
+  doğruydu — **ekrana ne geleceğini seçen pencere** yanlıştı.
+```
+zincirleri basarken:  if t >= "1900-01-01"      ← ölçüm filtresi
+ekrana gelen       :  yalnız son dönem
+çıkarılan hüküm    :  "bu noktaların TEK `d:` dönemi var"
+gerçek             :  Drama'nın ÜÇ, ötekilerin İKİ dönemi var
+                      (1374 Sırp fethi · 1383 · 1387 · Fetret 1402-1413)
+```
+  Elle yazılan yama o hükme dayandı ve **dört ortaçağ kırılmasını
+  siliyordu**: `1374-01-01 · 1383-09-19 · 1387-04-09 · 1402-07-28`.
+
+  🟢 **Ve yakalayan şey sezgi değil SINAV oldu** — `KAYBOLAN kırılma`
+  satırı ötüyordu. Çare de doğru cinstendi: filtreyi düzeltmek değil,
+  **yamayı elden değil VERİDEN üretmek.**
+  📌 Bulan oturumun cümlesi kaydın özü: ***"Filtre veriyi bozmadı, BENİ
+  bozdu."*** ⇒ `§11`in *"`0`, 'yok' ile 'bakmadım' arasında ayrım
+  yapmaz"* dersinin **görüntüleme** yüzü: burada `0` bile yoktu, yalnız
+  **kısaltılmış bir liste** vardı ve tam olduğu sanıldı.
+
 - 🔴 **BİR SEVK, TAŞIDIĞI ÖNCÜLÜ DE DOĞRULAMALIDIR — koordinatör tarafı
   yazılı değildi.** *(2 Eylül 2026 — bir günde ÜÇ vaka, üçü de aynı
   koordinatörün sevklerinde, üçünü de aynı işçi oturum çürüttü)*
