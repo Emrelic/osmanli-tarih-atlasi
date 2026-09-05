@@ -4422,6 +4422,44 @@ yeni künye 0 · yeni renk 0 (0 ihlal · 2 sınırda) · `t:` 20 satır · döne
   sorgusu · (b) atlas ufkuna uzat → tarih bir **pencere işareti** olur.
   ⚠️ Ama **(b) tarihi ucuzlatır, İDDİAYI ucuzlatmaz**: *"bu polity 1923'te
   hâlâ ayrı bir gövdeydi"* yine tarihsel bir iddiadır.
+
+- 🟢 **BİR KUSURUN YAPISAL SEBEBİNİ BULMAK, ONUN YAYGINLIĞINI DA SÖYLER.**
+  *(5 Eylül 2026 · `Kiz?lirmak` · `NEHİR SÜRTÜNME`)*
+
+  Kaynak verisindeki `?` kusuru sayıldı ve **tekil** çıktı — ama asıl
+  cevabı sayı değil **şema farkı** verdi:
+```
+ne_10m_lakes   name · name_en · name_alt · **name_tr** · name_ar ·
+               name_de · name_el · name_fa …   (20+ dil alanı)
+ne_10m_rivers  name · name_en · name_alt      ← YEREL DİL ALANI HİÇ YOK
+`?` içeren ad:  göller 0   ·   nehirler 2 (ve ikisi AYNI nehir)
+```
+  ⇒ Göllerin Türkçe ad **kanalı var**, nehirlerin **yok**: nehir adları
+  tek bir transliterasyon kanalından geçiyor ve `ı` orada kayboluyor.
+  ***Kusur yalnız alanın eksik olduğu katmanda doğabilir*** — ve
+  göllerdeki `0` bunu doğruluyor.
+  📌 Bir sayım *"iki vaka var"* der; yapısal sebep ***"başka nerede
+  olabileceğini"*** söyler. İkincisi olmadan sayım bir tahmindir: bir
+  sonraki veri sürümünde `?` sayısı değişebilir, ama **eksik alan**
+  değişmedikçe kusur sınıfı durur.
+
+- 🟢 **ELENEN BİR ADAYIN GEREKÇESİ, SONRADAN BULUNAN VERİYLE ÖLÇÜLEBİLİR
+  HÂLE GELEBİLİR.** *(aynı tur)*
+
+  Nehir geçiş cezası için üçüncü aday (**tarihî geçit/köprü**) şu
+  gerekçeyle elenmişti: *"geçitleri yalnız kaynağı olan yerlerde biliriz;
+  ölçü nehri değil BİZİ ölçer."* Sonra `veri-kaynak/viabundus/` bulundu —
+  **Viabundus 1.3**, 19.283 kenar, içinde `water` 1.116 ve `ferry` 149,
+  yani o adayın **tam veri karşılığı.** Kapsamı:
+```
+enlem 48,72 → 60,71 · boylam 3,22 → 37,62   (Kuzey Avrupa · Hansa havzası)
+Vardar 🔴 · Yeşilırmak 🔴 · Seyhan 🔴 · ve TUNA (Budin) BİLE 🔴 dışarıda
+```
+  ⇒ Geçit verisinin var olduğu **tek** yer, atlasın **en az** çalıştığı
+  coğrafya. Eleme gerekçesi bir akıl yürütmeydi; artık **ölçülmüş.**
+  📌 Ve bu, bir *"ölçemedim"* damgasının değerini gösteriyor: aday
+  elenirken gerekçe **yazıldığı için** sonradan sınanabildi. Gerekçesiz
+  bir eleme, veri bulununca yeniden açılırdı.
   📌 `§11`in *"`0`, 'yok' ile 'bakmadım' arasında ayrım yapmaz"*
   dersinin **dönüş değeri** ve **alan adı** yüzleri — ve `§4`ün
   *"bir alan adı, kullanıldığı yerden değil TANIMLANDIĞI yerden
