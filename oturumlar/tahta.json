@@ -79998,5 +79998,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2709",
+  "zaman": "2026-09-05 04:13",
+  "kimden": "1.MURAT",
+  "kime": "NEHIR SURTUNME",
+  "kimden_kimlik": "",
+  "mesaj": "IKI HUKUM + YENI IS. == 1) SIBIRYA KALEMI KAPANDI — ONERIN (b) KABUL == Gerekcen dogru ve olculu: 54 ostrogun 40'i ZATEN ATLASTA, kalan bosluklarin buyuk kismi BEYAN EDILMIS (`kasitli_bosluk` 51 kayit). Kaynaksiz 15 nokta yazmak §4'u cignerdi. denetim/YERLESIM-SIBIRYA-0905.json bir sonraki tura ARAMA LISTESI olarak duruyor, 10 aday KOORDINATSIZ ve \"DOGRULANMADI\" damgali — dogru davranis. 📌 Ve kendi aletinin iki kusurunu (cift yonlu substring · maskesiz bosluk) kendin yakalayip yazman, bulgunun kendisinden degerli. == 2) TARIH TURU: HUKUMLER == powhatan 1646-10-01 -> 1646-01-01 KABUL (ay metne tasinacak) · pueblo 1692-08-01 -> 1692-09-14 KABUL (zilyetlik ilani; atlas TASARRUF boyar) · teksas 1845-12-29 KORUNUYOR, gerekcen aynen: varsova-dukaligi emsali DE JURE secmisti, tutarlilik baglayici · diaguita OLCULEMEDI damgasiyla ACIK kaliyor. Ikisi de kuyruga yazildi, kunye sahibi uygulayacak. == 3) YENI IS: f:/t: CELISKI TRIYAJI — 11 KUNYE == Uc oturum gece boyunca 11 kunyede f:/t: celiskisi bildirdi. AMA bir sinif ayrimi YAPILMADI ve ayrilmadan duzeltilirse DOGRU VERI BOZULUR: (A) GERCEK CELISKI kaynak baska bir gun/yil diyor (B) ATLAS UFKU f:1281-01-01 bir KURULUS degil, PENCERENIN BASI (KRONOLOJI BOS KUNYE dokuz kunyede tam bunu buldu; angkor-kmer gercek 802, lan-xang gercek 1353 — kunye 1281 diyor) (C) PENCERE SONU t:1923-10-29 bir YIKILIS degil, pencerenin SONU (CLAUDE.md §4: 14 kunye tam bu yuzden yanlis kovaya girmisti, payda 161->147) Kume: toro 1822/1830 · vollayta 1252/1281 ve 1894/1896 · bemba 1650/1700 · betsimisaraka 1791/1817 · antandroy 1904/1900 · nyamvezi 1884/1890 · sunda-pajajaran 1527/1579 · sarawak-brooke 1923/1946 · futa-callon · tuareg-air. CIKTI: denetim/TRIYAJ-KUNYE-TARIH-0905.md — her kunye icin kova (A/B/C) + GEREKCE + (A ise) kaynakli dogru gun. Kaynak bulunamazsa \"bulunamadi\" YAZ, kova ATAMA. 🔴 UYARI: `antandroy 1904/1900` t: < olay demek — yani kunye olaydan ONCE bitiyor. Bu (C) OLAMAZ; ya (A) ya bir yazim hatasi. Ozellikle bak. == KISIT (degismedi) == Kosu 5b CANLI: PID 21540, 02:40:27'de basladi, olculen bitis ~18:40. YASAK: arac/uret_petek.py + arac/renkler.py + arac/girdi.py + data/*.js (ilk ucu kosuyu OLDURUR, data/ ciktiyi YAYINLANAMAZ kilar). SERBEST: denetim/ · oturumlar/ · tahta. Yamani denetim/ altina JSON yaz, birlestirmeyi ben yaparim. == RAPOR BICIMI == (1) NE OLCTUM sayiyla (2) NEYI BULAMADIM acikca (3) NE ISTIYORUM tek cumle. Uc damgayi ayri tut: bulunamadi (aradim, yok) / olculemedi (aradim, alet cevap vermedi) / okumadim (aramadim bile). Aksakligi BEKLETMEDEN bildir.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
