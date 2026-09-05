@@ -82,6 +82,37 @@
 > biri kaybolurdu. Doğrulayıcı tam bunun için yazılmıştı ve **merge'den
 > ÖNCE** koşturulduğu için iş kurtarıldı.
 
+### 🟢 48 YENİ NOKTA — 3 KM SINAVI TEMİZ (5 Eylül 08:45)
+
+Biçim doğrulayıcısı **ada** bakıyordu, **mesafeye** bakmıyordu — yani
+`§11`in Varat/Varad tuzağını (*"aynı yer iki kayıt, farklı adla"*)
+sormuyordu. Ayrı bir alet yazıldı ve 48 yeni noktanın her biri atlasın
+**3805 noktasının tamamına** mesafeyle soruldu:
+```
+🔴 3 km altı   0
+🟡 3-10 km     2   Acdîr ↔ el-Hüseyme 5,27 km · Patan ↔ Katmandu 5,56 km
+🟢 temiz      46
+```
+İkisi de **meşru**: Patan ile Katmandu iki ayrı Malla başkentidir, Acdîr
+ile el-Hüseyme iki ayrı Rif kasabası. ⇒ **Mükerrer nokta riski YOK.**
+🟢 Ve `1923 SINIRLARI`nın kendi *"3km sınavı 6/6, 5,56-145,86 km"*
+raporu bu bağımsız ölçümle **birebir** doğrulandı.
+
+🔴 **VE ALET İLK KOŞUSUNDA KENDİ KUSURUNU ÜRETTİ — kayda değer:**
+Dosya listesini `arac/girdi.py`den bir **regex** ile çıkarıyordu. Regex
+tutmadı, betik `atlas noktasi: 0` bastı ve **148 kaydın 148'ini "YENİ
+nokta" ilan etti** — `Tunus`, `Rodos`, `Sisam` dâhil.
+```
+0 bastı  ve  DURMADI   ← "0", "yok" ile "bakmadım" arasında ayrım yapmaz
+```
+⇒ Çare regex'i düzeltmek değil **bırakmak** oldu: liste artık
+`import girdi` ile **Python'un kendisinden** geliyor. Ve iki sert kapı
+kondu: liste boşsa çıkış 2, atlas 3000'in altındaysa çıkış 2.
+📌 Bu proje o dersi (*"veri kendi dilindeyse o dilin yorumlayıcısını
+çağır"*) **altıncı kez** öğrendi — ve bu sefer ihlal eden koordinatördü.
+
+`py denetim/ARAC-YENI-NOKTA-3KM-0905-kos.py`  ← merge'den önce TEKRAR koş
+
 ### 🔴 KOŞUYU ÖLÇME — kilit dosyası ölçüm DEĞİLDİR
 ```
 Get-Process -Id 21540          ← PID'i .petek.kilit'ten al, CANLILIĞI SÜREÇTEN doğrula
