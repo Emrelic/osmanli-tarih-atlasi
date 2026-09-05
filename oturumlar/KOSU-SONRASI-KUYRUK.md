@@ -1908,6 +1908,33 @@ hiç KOMŞU olmasın"*). Karar Emre'nin ama **kısıt yok.**
 🔴 Ve `§9`: veriye dokunan her koşudan sonra `renk_olc.py` ŞART — 397
 kayıt inince **yeni komşuluklar** doğacak ve palet verinin fonksiyonudur.
 
+### 🟡 `s.kesinlik` — UYARI VERİYİ DEĞİL **KÜTÜĞÜ** GÖSTERİYOR (16:35)
+
+```
+girdi.py:772  BILINEN_ALANLAR        24 · kesinlik VAR  ← KAYIT seviyesi
+girdi.py:920  BILINEN_DONEM_ALANLARI  7 · kesinlik YOK  ← DÖNEM seviyesi
+VERI-YAPISI.md:171-179  üç örneğin üçü de DÖNEM İÇİNDE
+```
+⇒ Alan **dönem için tasarlanmış, kayıt seviyesine kaydedilmiş.** Sonuç
+tersine dönmüş: sözleşmeye **uyan** iki kayıt (Vidin · Kızıkermen) uyarı
+veriyor, sözleşme **dışındaki** (Şırnak) sessiz geçiyor.
+
+**KOŞU SONRASI — iki AYRI kalem:**
+```
+① `girdi.py`nin BILINEN_DONEM_ALANLARI kütüğüne `kesinlik` EKLE
+   ⇒ uyarı susar · veri DEĞİŞMEZ · sözleşmeye uygun
+   🔴 Kayıtları kayıt seviyesine TAŞIMA (B yolu) — sözleşmeye AYKIRI
+   🔴 Ve "gürültü say, dokunma" (C) da yanlış: uyarı HER koşuda ötüyor
+     ve insanları uyarı okumamaya alıştırıyor
+② 🟡 AYRI VE DAHA BÜYÜK: alan OKUNMUYOR. `app.js:43` hassasiyeti tarih
+   DİZGİSİNİN BİÇİMİNDEN çıkarıyor ⇒ Vidin `1689-10-01` ekranda GÜN
+   yazıyor ve `kesinlik:"ay"` onu düzeltmiyor.
+   ⇒ ① uyarıyı susturur, alanı İŞLER KILMAZ. Karar: arayüz okusun mu,
+     yoksa alan dekoratif mi?
+⚪ Ve `Şırnak`ın kayıt-seviyesi kullanımı meşru mu — bu bir SÖZLEŞME
+   kararı, ölçüm değil.
+```
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri
