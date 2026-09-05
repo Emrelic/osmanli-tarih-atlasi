@@ -283,12 +283,45 @@ açıklamıyor.** İki ayrı boşluk, iki ayrı borç.
 sonrası kimlik) · Agadez ve Hadramut (**YENİ KÜNYE ⇒ RENK BEKLİYOR**,
 koşuda üretilemez) · Timbuktu 1700-1923 zinciri.
 
-### 🔴 KOŞUYU ÖLÇME — kilit dosyası ölçüm DEĞİLDİR
+### 🔴 KOŞUYU ÖLÇME — İKİLİ DEĞİL **MERDİVEN** (5 Eylül 09:10'da düzeltildi)
+
 ```
 Get-Process -Id 21540          ← PID'i .petek.kilit'ten al, CANLILIĞI SÜREÇTEN doğrula
-data/donemler.js damgası       ← koşu onu SONDA yazar; değişmediyse koşu SÜRÜYOR
 denetim/BEKCI-KOSU4C.log       ← saatlik "PID … canli" satırı
 ```
+🔴 **VE "donemler.js DEĞİŞTİ Mİ" TEK BAŞINA YETMEZ — o yalnız BİTİŞİ
+söyler, İLERLEMEYİ söylemez.** Motor ara çıktılarını sırayla yazar ve
+damgaları bir **merdiven** verir:
+```
+veri-kaynak/motor_kara.geojson   ← ERKEN   (5 Eyl 03:43 · koşunun 63. dk'sı)
+data/bolgeler.js                 ← ORTA    (5 Eyl 08:43 · 363. dk)
+data/devletler_harita.js         ← GEÇ
+data/donemler.js                 ← SON — bitiş işareti
+```
+⇒ Bir koşu **takılırsa** süreç canlı kalır, `donemler.js` değişmez, ve
+bekçi saatlerce *"canlı"* der. **Merdiven o farkı görür:** iki ara
+çıktı arasında saatlerce hareket yoksa koşu ilerlemiyordur.
+📌 Ve motorun kendi yorumu (`uret_petek.py:209`) bu tekniği zaten
+biliyordu: *"4s41dklık bir koşunun nerede yandığı üç oturum boyunca
+DOSYA DAMGASINDAN tahmin edildi: bolgeler.js 01:56, devletler_harita.js
+05:38."* O yorum tekniği *"tahmin, ölçüm değil"* diye emekliye
+çıkarıyor — ama yerine koyduğu `asama()` bilançosu **loga** yazılıyor ve
+log `TextIOWrapper` yüzünden **ancak çıkışta boşalıyor** (`§9`).
+⇒ Koşu SÜRERKEN elimizdeki tek ilerleme sinyali hâlâ **damga.**
+
+⚠️ **VE BU BİR YANLIŞ ALARMDAN DOĞDU — kaydı burada:** `git status`
+`data/bolgeler.js` değişmiş gösterdi ve koşu canlıydı; `§7`nin *"koşu
+sürerken `data/*.js` YASAK"* kuralı akla geldi. Ölçüldü:
+```
+değişen şey       yalnız `motor_izi` parmak izleri
+diskteki iz       BUGÜNKÜ arac/*.py ile AYNI
+arac/*.py mtime   girdi 09-03 21:43 · renkler 09-04 19:55 · uret 09-04 21:11
+                  ⇒ ÜÇÜ DE koşudan (09-05 02:40) ÖNCE — motor GÜVENDE
+```
+⇒ İhlal değil, **koşunun kendi çıktısı.** Bir dosyanın değişmesi bir
+ihlal değildir; **kimin değiştirdiği** sorulur.
+
+
 
 ### ⚪ EMRE'NİN KARARINI BEKLEYENLER (`BEKLEYENLER.md`)
 ```
