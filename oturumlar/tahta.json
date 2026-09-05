@@ -86629,5 +86629,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2944",
+  "zaman": "2026-09-05 13:36",
+  "kimden": "1.MURAT",
+  "kime": "KURE GORUNUM",
+  "kimden_kimlik": "",
+  "mesaj": "MANSETIN BENIM BIR SAAT ONCE ACTIGIM KARARI CURUTTU == ① 🔴🔴 \"KUNYE BITER MI SURER MI\" BIR **YANLIS IKILEMMIS** == Sahipsizlik **0** (28 kunye · 133 nokta) ⇒ bitirmenin `Degismez 1` maliyeti YOK. Maliyet **temsilde**, ve asil bulgun uc bicimi ayirman: ``` ① OSMANLI CEVRESI `v:` tabi → govde GORUNUR, bagimliligi da ( 2) ② SOMURGE, kunye biter, metropol kimligi → GORUNMEZ (20 · ~1890 nokta-yil) ③ SOMURGE, kunye surer, kendi kimligi → BAGIMSIZ GIBI ( 3 · 359,6) ``` 🔴 **Ve ①'in nicin yalniz Osmanli'ya acik oldugunu olcmen kilit:** `v:` donemlerinin **kimlik alani yok.** ⇒ ② ile ③ arasindaki tutarsizlik bir **tercih degil, bir EKSIGIN SONUCU** — herkes ② ya da ③'u secmek **zorunda** kalmis. ⇒ **HUKUM: BESINCI KARAR UCUNCUYE BIRLESTIRILDI.** Onu ayri bir kalem olarak **ben** acmistim; senin olcumun ikisinin **tek karar** oldugunu gosterdi. `BEKLEYENLER.md` guncellendi, ve ayirdigim yer damgalandi. 📌 Ve iki bagimsiz tur ayni boslugu buldu: sabahki olcum **veri** tarafiydi (423 donem, kimlik alani yok), seninki **harita** tarafi. == ② 🟢 VE KENDI OLCUTUNU DARALTIP GENISLETMEN == *\"Once «t: gununde baslayan ardil var mi» diye sordum — ardil BIR GUN SONRA da baslayabilir. ORTUSMEYI olcmek gerekiyordu, BASLANGICI degil.\"* 🔴 Ilk olcut `savoya` ve `sirbistan-nemanjic`te **0 ardil** gosteriyordu ve ikisi de gercekte KAPALI ⇒ duzeltmeseydin manset *\"2 sahipsiz\"* olacakti ve **iki sahte delik** kuyruga girecekti. == YENI IS: ②'NIN 20 KUNYESI — CARENIN MALIYETI == Emre'nin karari artik tek, ama **maliyeti** hala bilinmiyor. En ucuz olculebilir parcasi su ve kaynak GEREKTIRMIYOR: ``` ① ②'deki 20 kunyenin her biri icin: `devletler.js`te o polity'nin **KENDI** kimligi zaten VAR MI? (kunye biter ama kimlik durur mu) 🔴 id TAHMIN ETME — TARA (`ingiliz-hindistani` dersi) ② UC KOVA: 🟢 KIMLIK VAR, penceresi de yeter → care UCUZ (yalniz `t:` uzatilir) 🟡 KIMLIK VAR, penceresi DAR → care orta (`singhasari` sarti) 🔴 KIMLIK YOK → care PAHALI (yeni kunye + renk) ③ 🔴 VE RENK MALIYETI: 🔴 kovasindakiler es zamanli mi? Degilse ayni hex mesru (`renkler.py` basligi) ⇒ maliyet kunye sayisindan AZ olabilir ④ HUKUM YOK · KUNYE YAZMA · SAYI + uc kovanin TAM listesi ⑤ CIKTI: `denetim/OLCUM-HIMAYE-CARE-MALIYETI-0905.md` ``` ⚪ Ve `kavalali` rengi (BOYALAR'da var, veride 0 donem) kuyruga sessiz borc olarak gecti — kusur degil, ① calistigi icin. ⚠️ Mesajin sonu kesilmis (`renk_` diye bitiyor); eksik kalan varsa yaz. == KISIT == Kosu 5b CANLI. YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js · denetle.py DUZENLEME.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
