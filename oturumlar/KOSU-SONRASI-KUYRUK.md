@@ -2984,6 +2984,50 @@ damga doğruydu, ve türetme de doğru.)
 damganın **metni henüz YOK.** Ölçen oturum ikisini **karıştırmadı** —
 doğru.
 
+### 🔴🔴 EMRE'NİN İŞİ (5 Eylül 21:40) — TBMM + MİLLÎ MÜCADELE
+
+> *"tbmm türkiye yapalım haritada olsun. ayrıca millî mücadele zamanı
+> işgal haritası ve tekrar sakarya büyük taarruz ve kaybedilen
+> toprakların geri alınması haritada pek belli olmuyor"*
+
+**TANI — iki şikâyet, TEK KÖK: o dönemin COĞRAFİ VERİSİ HİÇ YOK.**
+```
+tbmm-turkiye  künye VAR (1920-04-23 → 1923-10-29) · `harita:` YOK ·
+              BOYALAR'da YOK · ve YERLEŞİM VERİSİNDE **0 KAYIT**
+              (14 geçiş var ama devletler.js · kimlikler.js · savaslar.js
+               içinde — hiçbir `yerlesimler*.js`te DEĞİL)
+isg: 1918-1923 başlangıçlı  **0 KAYIT**  (külliyatta 89 `isg:` var,
+              hiçbiri Millî Mücadele penceresinde değil)
+```
+⇒ *"Haritada belli olmuyor"* değil — **haritada HİÇ YOK.** İşgal
+çizilmediği için geri alınması da görünmüyor: geri alınacak bir şey
+çizilmemiş.
+
+**DÖRT KALEM:**
+```
+A  `tbmm-turkiye` RENGİ           → adım ⑧'e eklendi: 28 → **29**
+B  TBMM sahiplik dönemleri        1920-04-23 → 1923-10-29
+C  `isg:` İŞGAL ÖRTÜSÜ            1918-11 → 1922-10  (bugün 0 kayıt)
+D  GERİ ALIŞ kırılmaları          Sakarya · Büyük Taarruz · İzmir ·
+                                  Mudanya · Trakya
+```
+
+🔵 **VE BİR MODEL SORUSU EMRE'YE — işçi KARAR VERMEYECEK:**
+1920-04-23'ten sonra Anadolu'yu kim "sahiplenir"?
+```
+(a) `s:"tbmm-turkiye"`  Osmanlı `d:` 1920'de biter ⇒ Anadolu 1920'den
+                        itibaren TBMM rengi. Tarihen savunulur (fiilî
+                        hükûmet) ama atlasın Osmanlı çekirdeğini
+                        1920'de KESER.
+(b) `isg:` gibi ÖRTÜ    Osmanlı `d:` 1922/1923'e kadar sürer, TBMM
+                        üstüne bir katman ⇒ ama `isg:` "işgal" demek,
+                        ve TBMM işgalci değil.
+(c) 1922-11-01'de KES   Saltanatın kaldırılması. Osmanlı 1922'ye kadar,
+                        TBMM 1922-11 → 1923-10-29 ⇒ en dar, en az
+                        tartışmalı, ama Millî Mücadele'nin İKİ YILINI
+                        boş bırakır.
+```
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri

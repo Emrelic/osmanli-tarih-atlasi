@@ -239,6 +239,128 @@ o antlaşmanın TDV maddesi **ölü.**
 🔴 `1812-05-28` bitişi    KAYNAKSIZ — akademik bir tur ya da
                           Emre'nin kararı gerekir
 ```
+
+---
+
+## ③b 🟢 AKADEMİK TUR YAPILDI — **`1812-05-28` ARTIK KAYNAKLI**
+> *(M-2960 izniyle: `§4` TANECİKLİK boşluğu — `bukres-antlasmasi` 302,
+> TDV'nin iki maddesi de 1812'yi anmıyor ⇒ akademik kaynak MEŞRU)*
+
+**KAYNAK:** *Çanakkale Araştırmaları Türk Yıllığı Dergisi*, **Cilt 24,
+Sayı 39, Güz 2025** — "Edirne Antlaşması'nda (1829) Tuna Nehri Sahil…"
+(hakemli, ORCID'li yazar, **BOA arşiv belgeleriyle**: `BOA, HRT.h,
+182/14` · `BOA, MHD 40`). `§4` yeşil kümesine oturuyor.
+⚙️ **PDF `pypdf` ile açıldı** — WebFetch'in "çıkarılamadı"sı bu sabah üç
+PDF'te de yanlış çıkmıştı.
+
+### 🟢 ① 1812 Bükreş — sınır **PRUT**, Eflak devredilmedi
+> *"28 Mayıs 1812 … Bükreş Antlaşması'nda, **Prut Nehri'nin Boğdan'a
+> girdiği yerden itibaren Tuna Nehri'ne aktığı yere kadar ve oradan da
+> Tuna Nehri'nin sol kıyısından Kili'ye ve Karadeniz'e aktığı yere
+> kadar** iki devlet arasında sınır olarak belirlenmiştir."*
+
+⇒ Rus sınırı **Prut**tur. Yergöğü Eflak'ta, Prut'un **çok batısında**
+⇒ 1812'de Rusya'ya **geçmedi.**
+
+### 🟢 ② Ve makale işgalin GEÇİCİ olduğunu ADIYLA söylüyor
+> *"Ruslar **geçici işgal ettikleri** Tuna boyundan **çekilmiş**
+> olsalar da…"*
+
+🟢 ⇒ **`isg:` modeli DOĞRULANDI ve `1812-05-28` KAYNAKLANDI.**
+`romanya`nın `s:rusya 1810→1829`u — yani 19 yıllık Rus **egemenliği** —
+kaynakla **çelişiyor.**
+
+### ⇒ HÜKÜM: **p0035** — `isg:rusya 1810-09-27 → 1812-05-28`
+```
+dayanak ①  TDV `yergogu`: 27 Eylül 1810 Rus eline geçti
+dayanak ②  akademik: 1812 Bükreş sınırı PRUT — Eflak devredilmedi
+dayanak ③  akademik: "geçici işgal … çekilmiş"  ← `isg:` tam bu
+dayanak ④  yapı: Edirne 1829 Eflak'ı Osmanlı süzerenliğinde özerk
+           kılıyor, Rusya KEFİL ⇒ 1829'da Eflak Rus toprağı değil
+```
+
+### 🟡 AMA İKİ ŞEY AÇIK KALDI — ve ikisi de yazılmadan geçilemez
+
+**① 1828-29 İKİNCİ İŞGAL — ÖLÇÜLEMEDİ**
+Edirne maddesi *"Rus tahliyesi"*nden söz ediyor ⇒ 1828-29'da Ruslar
+yine oradaydı. Ama **Yergöğü'nün 1828'de hangi gün alındığını
+BULAMADIM.**
+⇒ `isg:` **tek blok** olarak öneriliyor; ikinci blok (1828-→1829-09-14)
+**ayrı bir kalem** ve kaynak gerektiriyor.
+⚠️ Yani bu yama Yergöğü'yü 1812-1829 arası **kesintisiz Osmanlı**
+gösterir, ve son bir yılı (1828-29) muhtemelen **eksik** kalır.
+
+**② 🔴 VE BİR NÜANS — TDV ile akademik kaynak FARKLI ŞEY SÖYLÜYOR**
+```
+TDV `yergogu`   Edirne'yle "**Eflak Prensliği'ne** bırakıldı"
+akademik        "**Yerköy Kalesi'nin RUSYA'YA teslim edilmesi** ve
+                 istihkâmlarının yıkılması kararlaştırılmıştı"
+                 (Şerafeddin Turan, "1829 Edirne Antlaşması", DTCFD IX/1-2)
+```
+🟡 **Bunu ÇELİŞKİ diye yazmıyorum** — bu gece aynı tuzağa üç kez
+düşüldü. Muhtemel okuma: kale **askerî olarak** Rusya'ya teslim edilip
+tahkimatı yıkıldı, **egemenlik** ise Eflak'a geçti. İki ifade farklı
+şeyi anlatıyor olabilir.
+🔴 **AMA AYRIŞTIRMADIM, ÖLÇMEDİM.** Ve `1829-09-14` sonrası `s:eflak`
+kaydını bu yüzden **sorgulamadım** — o ayrı bir kalem.
+
+---
+
+## ③c AYNI MAKALE YENİDEN TARANDI — **(b) ÇÖZÜLDÜ, (a) BULUNAMADI**
+> *(M-2965: "önce aynı makaleyi tara, yeni kaynak arama" — tarandı.)*
+
+### 🟢 (b) NÜANS ÇÖZÜLDÜ — **ÇELİŞKİ YOKMUŞ, İKİ AYRI NESNE**
+Makalenin iki cümlesi yan yana konunca ayrışıyor:
+```
+① TOPRAK   "1829 Edirne Antlaşması'na göre, Tuna Nehri'nin **sol
+   sahilindeki adalar EFLAK VE BOĞDAN'A BIRAKILMIŞ**, nehir ise …
+   sınır olarak kabul edilmiştir. **Osmanlıların bu sahilde KALE YA DA
+   TAHKİMAT BULUNDURMASI … YASAKLANIRKEN**…"
+② KALE     "Bunun yanında **Yerköy Kalesi'nin Rusya'ya TESLİM
+   EDİLMESİ ve İSTİHKÂMLARININ YIKILMASI** kararlaştırılmıştı."
+```
+🟢 ⇒ İki ifade **farklı nesneyi** anlatıyor:
+```
+TOPRAK/EGEMENLİK  → **EFLAK**      (TDV: "Eflak Prensliği'ne bırakıldı")
+KALE (yapı)       → **RUSYA'ya**, ve **YIKILMAK ÜZERE**
+```
+Bu bir **silahsızlandırma** hükmü: Osmanlı'nın sol sahilde tahkimat
+tutması yasaklanıyor, kale Rus kuvvetlerine teslim edilip **yıkılıyor.**
+⇒ **TDV ile akademik kaynak ÇELİŞMİYOR.** Dün bıraktığım nüans kapandı.
+🟢 ⇒ Atlasın `s:eflak 1829-09-14 → …` kaydı **DOĞRU**, dokunulmayacak.
+📌 Ve bu, `§4`ün *"önce ayrıştır, sonra çelişki ilan et"* kuralının bu
+gece **dördüncü** doğrulanması: çelişki sanılan dört şeyin dördü de
+çelişki çıkmadı (Sisam · Bozcaada · Selanik takvimi · ve bu).
+
+### 🔴 (a) 1828-29 İKİNCİ İŞGAL — **BU KAYNAKTA BULUNAMADI**
+Makale Tuna cephesindeki Rus ele geçirmelerini **adıyla** sayıyor:
+```
+"Prut ve Anapa'yı istila ettikten sonra … Dobruca'ya girmiş … Varna
+ ile Silistre'yi kuşatmışlardı. … **İsakçı, İbrail, Pazarcık**
+ bölgelerini ele geçirdikten sonra 1829'da **Rahova**'nın düşüşü …
+ **Silistre**'nin ele geçirilmesiyle birlikte Edirne…"
+```
+🔴 **YERGÖĞÜ BU LİSTEDE YOK.**
+🟡 Ama bu **zayıf bir olumsuz**: liste seçici olabilir, ve makale
+Rusların 1828'de *"Silistre kuşatmasını kaldırarak **Eflak-Boğdan'a
+geri çekildiler**"* diyor — yani Eflak'ta **fiilen bulunuyorlardı.**
+Yergöğü Eflak sahilinde bir Osmanlı kalesi ⇒ kuşatılmış olması
+muhtemel, ama **kaynak söylemiyor.**
+
+⇒ **`bulunamadı`** — bu kaynakta yok. `okumadım` DEĞİL: makale
+tarandı ve Tuna cephesi anlatısı okundu.
+
+### ⇒ HÜKÜM (③'ün tamamlanmış hâli)
+```
+🟢 `isg:rusya 1810-09-27 → 1812-05-28`   TEK BLOK, kaynaklı
+🟢 `s:eflak 1829-09-14 → …`              DOĞRU, dokunulmadı
+🔴 1828-29 ikinci işgal                  BULUNAMADI ⇒ yama başlığında
+   **"1828-29 EKSİK"** damgası DURACAK, silinmeyecek (M-2965 ④)
+```
+⚠️ Ve `Değişmez 2` sonucu: `isg:` tek blok kaldığı için **yeni kırılma
+günü doğmuyor** — `isg:` sınırları zaten kırılma üretmez, ve `d:`
+alanına dokunulmadı. İki blok yazılsaydı 1828 ve 1829-09-14 için
+çekirdekte madde aranması gerekirdi; **gerekmedi.**
 ⚠️ Ve şu ayrımı korumak şart: TDV'nin 1812'yi **anmaması**, 1812'de bir
 şey olmadığını göstermez. `§11`: *"kaynağın susması bir sonuç değildir."*
 

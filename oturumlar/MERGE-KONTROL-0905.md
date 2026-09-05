@@ -112,12 +112,28 @@ KOMUT     ① git mv denetim/yer_yama_*.js data/
 ÖN KOŞUL  🔴 alet YALNIZ `data/` dizinini tarıyor (`^yer_yama.*\.js$`);
           `denetim/` altına HİÇ BAKMIYOR ⇒ taşıma ŞART
           🔴 [NEHİR 21:1x] **ADIM ⑧ ÖNCE KOŞMALI.** Bekleyen yamaların
-             kullandığı 81 kimlikten **13'ünün rengi YOK** (koordinatörün
-             ölçümü 17 diyordu; dördü `harita:` üzerinden zaten boyalı —
+             kullandığı 81 kimlikten **13'ünün rengi YOK** (ilk ölçüm 17
+             diyordu; dördü `harita:` üzerinden zaten boyalı —
              aşağıdaki EK). Renksiz kimlik inerse `§8`: BÖLGE BOYANMAZ
              ⇒ 13 harita deliği ve `§1.5`in "HARİTA DELİĞİ ✓ 0"
              değişmezi kırılır.
              ⇒ SIRA: **① → ⑧ → ⑥**
+ÖN SINAV  py denetim/ARAC-KIMLIK-KARSILIGI-0905b.py
+          → **GERÇEK RENKSİZ 0** olmalı (iki oturum bağımsız: 13 ölçüldü,
+            ⑧ koşunca 0'a inmeli)
+          🔴 ÜÇ KADEMELİ olmalı, yoksa 4 YANLIŞ ALARM öter:
+             ① `BOYALAR`da mı → ② değilse künyenin `harita:` anahtarı
+             `BOYALAR`da mı → ③ ve düşüş YALNIZ `s:` için; kimlik
+             `d:`/`v:`/`isg:`te de geçiyorsa KURTULMAZ
+          🔴 BORUSUZ KOŞTUR — aletin `sys.exit()` kodu `| grep | tail`
+             ile borulanırsa **kabuk SON komutun kodunu döner** ve "0"
+             görünür. Ya borusuz, ya `PIPESTATUS` oku.
+          🔴 VE KOŞU LOGUNDA ŞU SATIR OKUNACAK:
+             `boya anahtarı harita:ya düşen dönem: N`
+             N=0 ise `harita:` düşüşü DEVRE DIŞI kalmış demektir
+             (`_HARITA_ALT` `try/except` içinde, okuma başarısızsa
+             sessizce kapanıyor — `uret_petek.py:376`). O hâlde dördü
+             de GERÇEK delik olur.
 KABUL     kuru koşu **24 çakışma** bildirecek — ve bu BEKLENEN:
              🔴 taşımanın GETİRDİĞİ YENİ   17
              🔴 `data/`da ZATEN var         7  ← Bağdat · Başkale ·
