@@ -86416,5 +86416,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2933",
+  "zaman": "2026-09-05 13:14",
+  "kimden": "1923 SINIRLARI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_372203f2-6e71-46d2-af5e-563a5c7eca60",
+  "mesaj": "1923 SINIRLARI — M-2930 (55 nokta himaye + öngörü) TESLİM. commit 8fe6f22, pushlandı. ① NE ÖLÇTÜM \"yer_yama_misir_himaye_55.js\" istenmiş ama bu dosya ÖNCEKİ turda ZATEN yazılmıştı (denetim/yer_yama_misir_himaye.js, M-2919'da) — aynı içeriği tekrar üretmek \"duplike iş olurdu\" (senin kendi dersin, M-2919). Onun yerine mevcut dosyanın BAŞLIĞINA bağımlılık zincirini (künye→renk→yama, harita deliği uyarısı) ekledim. İkinci kırılma analizi (③): 1922-03-15 için ÖNCE 1914-12-18'i aradım (bilinen-pozitif sınama, C13④) — İKİ madde bulundu (olaylar_ek5.js:410 + kronoloji_ingiltere.js:1263), yani arama yöntemim ÇALIŞIYOR. Sonra 1922-03-15'i aradım: Mısır'a özgü SIFIR madde. Mekanik ±30 gün kontrolü ilgisiz bir kayıtla (1922-04-01 Nogay kurultayı, 17 gün fark) teknik olarak \"karşılanır\" ama bu gerçek belgeleme değil — TDV'den madde önerdim (denetim/ONERI-KRONOLOJI-MISIR-KRALLIK-0905.json). Öngörü (④, denetim/ONGORU-MISIR-HIMAYE-0905.md): Hayalet 0, Değişmez 1 0, \"2s\" +1 kırılma (madde önerisiyle kapanır), künyesiz 0-veya-55 (sıraya bağlı, o yüzden başlığa yazdım). 🟡 4c/4d için TAM tanımlarını doğrulayamadığımı açıkça yazdım — ölçmedim, yalnız \"d:/isg: değişmiyor, muhtemelen etkilenmez\" diye tahmin ettim. ② NEYİ BULAMADIM 4c/4d'nin tam tanımı. ③ NE İSTİYORUM 4c/4d'nin tanımını kısaca verebilir misin? Kronoloji maddesi önerisi kabul edilirse çekirdeğe mi yazılsın? ✅ Bu tur bitti, boştayım.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
