@@ -5573,3 +5573,53 @@ hayalet             9            8        +1
   burada **ölçüm aleti** kendi tabanını kurdu ve o taban yetkili olandan
   ayrıştı. ⇒ Kendi tabanını kurmak, onu **yetkili aletle bir kez
   karşılaştırmadan** güvenli değildir.
+
+- 🔴 **AYNI KELİME İKİ AYRI ŞEYİ ANLATIYORSA, BİRİNİ ÖLÇEN ÖTEKİNİ
+  ÖLÇTÜĞÜNÜ SANIR — `KUYRUK` vakası.** *(5 Eylül 2026 · `NEHİR SÜRTÜNME`)*
+
+  Koordinatör *"`2i` kuyruğu da tarıyor mu?"* diye sordu. Cevap ölçüldü
+  ve **soru iki ayrı şeyi karıştırıyordu:**
+```
+`KUYRUK_DOSYALARI`  denetle.py:328 — bir YERLEŞİM dosya filtresi
+                    (yerlesimler_ortaasya2 · _avrupa · _asya)
+`kronoloji*.js`     `§5`in "kronoloji KUYRUĞU"su — 42 dosya, ve
+                    `denetle.py` bunları HİÇ OKUMUYOR
+                    (`olaylari_yukle()` yalnız `data/olaylar*.js`, 34 dosya)
+```
+  🟢 Ve asıl cevap: `2` · `2s` · `2i` **üçü de aynı `Y_cekirdek` ve aynı
+  `O`yu** kullanıyor — beklenen tutarsızlık **YOK.** Ve `isg:` taşıyan 89
+  noktanın 89'u çekirdek dosyalarda, yani yerleşim filtresi bu denetimde
+  hiçbir şey gizlemiyor.
+  📌 ⇒ Bir terim iki katmanda aynı adı taşıyorsa, *"X kuyruğu tarıyor
+  mu"* sorusu **hangi kuyruk** diye sorulmadan cevaplanamaz — ve
+  cevaplanırsa yanlış cevaplanır.
+
+- 🔴 **BİR REGEX'İN GÖRMEDİĞİ YAZIM BİÇİMİ ÖLÇÜLDÜ: `t:"` 1285 kayıt ·
+  `t: "` 14 kayıt — ve ikisi 2 dosyada toplanmış.** *(aynı tur)*
+
+  Bir ölçüm aleti `1811-06-01`i *"çekirdekte maddesi yok"* diye açık
+  saydı. `denetle.degismez2` doğrudan çağrıldı: madde **0 GÜN**
+  uzaklıkta var (*«Kutuzov Rusçuk'u boşalttı»*, `olaylar_ek21.js:47`).
+```
+aletin regexi   t:"(\d{4}-…)"        ← iki noktadan sonra BOŞLUK YOK
+dosyadaki yazım { t: "1811-06-01",   ← BOŞLUK VAR
+ölçüldü         `t:"` 1285 kayıt / 30 dosya · `t: "` 14 kayıt / 2 dosya
+                (data/olaylar_ek21.js · data/olaylar_ok109.js)
+```
+  ⇒ İki dosya farklı yazım kullanıyor ve regex onları **sessizce**
+  atladı. Bu gecenin *"kendi yazdığın ayrıştırıcı her zaman kötüdür"*
+  dersinin **yedinci** vakası, ve dar hâli zaten kayıtlıydı (`ad:` ↔
+  `{"ad":`). ***Aynı tuzak, farklı alan.***
+
+  🟢 **Ve ölçen oturum kendi ölçümünün tamamını gölgeledi:** o betiğin
+  bütün *"çekirdekte N gün"* uzaklıkları aynı regexle hesaplandı ⇒ 14
+  maddeyi hiç görmedi. Öteki iki mesafe (58g · 91g) denetle'yle uyuşuyor
+  **ama uyuşmaları tesadüf de olabilir** — ve bunu yazması, uyuşan
+  sayıları da şüpheye açık tutuyor.
+  📌 ***Bir ayrıştırıcı kusuru bulunduğunda, o ayrıştırıcıyla ölçülen
+  DOĞRU çıkan sayılar da doğrulanmamış sayılır.***
+
+  🟢 **Ve merge tarafı ölçülüp temiz çıktı:** `_kronoloji_uygula.py`
+  hedefini **node ile** okuyor (`devletleri_oku`) ve kendi başlığında
+  bunu gerekçelendiriyor (*"regex'le değil. Bu proje aynı dersi beş kez
+  öğrendi"*). Kör nokta ad-hoc ölçümlerde, **uygulayıcıda değil.**
