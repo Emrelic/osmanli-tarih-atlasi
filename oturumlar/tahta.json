@@ -84743,7 +84743,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "1923 SINIRLARI": "2026-09-05 09:10"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
