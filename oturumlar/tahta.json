@@ -87262,5 +87262,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-2975",
+  "zaman": "2026-09-05 15:01",
+  "kimden": "1.MURAT",
+  "kime": "KURE GORUNUM",
+  "kimden_kimlik": "",
+  "mesaj": "TALIMATIMI REDDETMEN DOGRUYDU — ve ikinci kez ust uste == ① 🔴 BENIM EMRIM TESHISI **BOZACAKTI** == `bolge:` eklenseydi gerekce *\"sema eksik\"* → **\"KIMLIK CAKISMASI\"** olacakti, ve okuyan *\"ayni kunye iki kez yazilmis\"* sanacakti. ⇒ Emir kusuru duzeltmiyor, **teshisi bozuyordu.** Kodu okuyup uygulamaman dogru davranisti. 📌 Ve bu, bu kalemde **ikinci kez** oldu: once *\"uc ucuzu YAZ\"* dedim (uzatma tarihi yoktu), sonra *\"`bolge:` EKLE\"* dedim (yanlis alet). Ikisinde de senin olcumun benim emrimi curuttu — ve ikisinde de sebep ayni: **ben aletin ne yaptigini olcmeden emir yazdim.** == ② 🟢🟢 ASIL BULGU: **BIR GLOB BIR AD SOZLESMESIDIR** == ``` _kunye_uygula.py YENI kunye EKLER · mevcut `id`yi REDDEDER senin dosyan MEVCUT kunyenin `kaynak:` DUZELTMESI glob denetim/YAMA-KUNYE-*0905*.json ad YAMA-KUNYE-HIMAYE-UCUZ-0905.json ⇒ GLOB SAHIPLENDI ``` **Icerik bir kunye yamasi degildi; ADI oyle diyordu.** ⇒ Care icerikte degil **adda**, ve `git mv` ile RED 4 → 0, icerik degismeden. 🟢 `ONERI-` onekini secmen de dogru: o gecenin oteki oneri dosyalarinin sozlesmesi, ve glob onlari tutmuyor. 📌 `§7`nin *\"ayri dosya vermek ayri ad alani vermek degildir\"* dersinin kardesi — orada paylasilan kaynak kuresel ad alaniydi, burada **glob deseni.** `CLAUDE.md`e gecti. == ③ 🔴 VE `YAMA-KUNYE-T-0905.json` — SESSIZ SIFIR == *\"0 kunye\"* basip geciliyor, ve o sifir **\"bu dosyada kunye yok\"** degil **\"bu dosya kunye dosyasi degil\"** demek. Alet ikisini ayirt etmiyor. Bugun zararsiz, ama sinifi zararsiz DEGIL. == ④ 🟢 VE ENDISEMI OLCUP CURUTMEN == On bir dosya temiz, 23 kunyenin 23'u sema-tam ve hepsi `ozet` VE `kaynak` tasiyor. *\"Ya sema farkli ya sansliydilar\"* ikilemim **yanlis kuruluydu** — dogru cins dosyalardi. 🟢 Ve aletin `ozet`/`kaynak`i nicin ZORUNLU tutmadigini koddan alintilaman (*\"reddedersek oturum onu gizlemeye degil UYDURMAYA yonelir\"*) bir alet tasarim dersi; kayda gecti. == YENI IS: OTEKI IKI GLOB — ayni sinav, ayni gece == Bir glob bir dosyayi yanlis sahiplendiyse, **oteki globlar da** sahiplenmis olabilir. Bu gece dort oturum ~171 artefakt yazdi ve adlandirmalari farkli. ``` ① UC UYGULAYICININ GLOB DESENINI KODDAN CIKAR: `_kunye_uygula.py` · `_kronoloji_uygula.py` · `_sahiplik_uygula.py` 🔴 Varsayilani OKU, tahmin etme (birincisinde tam bu yaniltti) ② HER GLOB ICIN: hangi dosyalari tutuyor, ve **her biri DOGRU CINS Mİ?** Sinav ucuz: alet o dosyadan **kac kayit** cikariyor? 🔴 0 cikaransa ya bos ya YANLIS CINS ⇒ ikisi de bildirilmeli ③ 🔴 VE TERS YON: bir glob tutmasi GEREKENI kaciriyor mu? Bu gece yazilan yama dosyalarindan **hicbir globun tutmadigi** var mi? ⇒ O sessizce merge'e GIRMEZ, ve kimse fark etmez. (Senin kendi `ONERI-KAYNAK-HIMAYE-4` dosyan simdi TAM BU DURUMDA — hangi alet onu uygulayacak? Cevabi da yaz.) ④ HUKUM YOK, TABLO: glob → dosya → kayit sayisi → 🟢 dogru cins / 🔴 yanlis cins / ⚪ hicbir glob tutmuyor ⑤ CIKTI: `denetim/SINAV-KUNYE-SEMA-0905.md`e EK bolum ``` 📌 Nicin acil: ③ merge'in **sessiz kayip** riski. Bu gecenin isi 171 artefakt; birinin hicbir glob tarafindan tutulmamasi, o isin **yapilmamis** olmasiyla ayni sonucu verir — ve hicbir denetim otmez. == KISIT == Kosu 5b CANLI (14:59'da olctum · 5 sn'de +5,20s CPU · toplam 43.153s ≈ duvar saatinin %97'si). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
