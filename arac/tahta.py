@@ -53,6 +53,8 @@ Kullanım:
                           [--cevap-bekle] [--vade "2026-08-14 12:00"]
                           [--yanit M-0007]            # bir mesaja cevap
     py arac/tahta.py bekleyen                          # cevap bekleyen AÇIK mesajlar
+    py arac/tahta.py bekleyen --gun 2                  # yalnız son 2 günün ipliği
+                                                       # (süzülen sayı AYRICA basılır)
     py arac/tahta.py bekleyen --gecikmis               # vadesi GEÇMİŞ olanlar
     py arac/tahta.py kapat M-0007 --kim "RENK 3"       # iş bitti, ipliği kapat
 """
@@ -872,6 +874,19 @@ def oku(a):
 
 
 def bekleyen(a):
+    """🔴 5 Eylül 2026: `--gun N` EKLENDİ, ve sebebi ölçülmüş bir körlüktür.
+
+    O gece koordinatör `bekleyen`i çağırdı ve **667 açık iplik** gördü —
+    en eskisi 13 Ağustos'tan, sahibi oturumlar çoktan ölmüş. Bugünün gerçek
+    bekleyeni (5 iplik) onun içinde kayboluyordu; koordinatör listeyi
+    `tail -30` ile okuyordu ve **başındaki 637 satırı hiç görmedi.**
+
+    📌 `CLAUDE.md §11`in EŞİK/EKRAN ayrımı: bir EŞİK bitirilir, bir EKRAN
+    hep doludur. `bekleyen` bir eşik sanıldı, oysa ekran.
+    ⇒ Çare SİLMEK DEĞİL — kapatılmamış bir iplik bir KAYITTIR ve silinirse
+      yarın "hiç sorulmamış" gibi yeniden keşfedilir. Çare SÜZMEK, **ve
+      süzülenin sayısını BASMAK**: gizlenen şey de görünsün.
+    """
     kayit = _yukle()
     acik = [m for m in kayit if m["hal"] == "ACIK" and m["cevap"] == "BEKLIYOR"]
     simdi = _simdi()
@@ -879,7 +894,22 @@ def bekleyen(a):
         acik = [m for m in acik if m.get("vade") and m["vade"] < simdi]
         print("VADESİ GEÇMİŞ — %d" % len(acik))
     else:
-        print("CEVAP BEKLEYEN AÇIK MESAJ — %d" % len(acik))
+        gun = a.get("gun")
+        if gun:
+            try:
+                import datetime as _dt
+                sinir = (_dt.datetime.now() - _dt.timedelta(days=float(gun))
+                         ).strftime("%Y-%m-%d %H:%M")
+                tum = len(acik)
+                acik = [m for m in acik if (m.get("zaman") or "") >= sinir]
+                print("CEVAP BEKLEYEN — son %s gün: %d  "
+                      "(⚠️ SÜZÜLEN %d iplik daha var, `--gun` vermeden bak)"
+                      % (gun, len(acik), tum - len(acik)))
+            except Exception as e:
+                print("⚠️ --gun okunamadı (%s) — SÜZÜLMEDİ" % e)
+                print("CEVAP BEKLEYEN AÇIK MESAJ — %d" % len(acik))
+        else:
+            print("CEVAP BEKLEYEN AÇIK MESAJ — %d" % len(acik))
     for m in acik:
         gec = " 🔴 GECİKTİ" if (m.get("vade") and m["vade"] < simdi) else ""
         print("  %s  %s → %s  (vade %s)%s" % (
@@ -999,7 +1029,8 @@ def main(argv):
 
     k = argv[0]
     ortak = {"kim": al("--kim"), "hepsi": "--hepsi" in argv,
-             "acik": "--acik" in argv, "gecikmis": "--gecikmis" in argv}
+             "acik": "--acik" in argv, "gecikmis": "--gecikmis" in argv,
+             "gun": al("--gun")}
     if k == "yaz":
         # 🔴 --mesaj-dosya: METİN KABUKTAN GEÇMEZ (§11).
         # Vaka (14 Ağustos 2026, M-0018): koordinatör bir tahta mesajında
