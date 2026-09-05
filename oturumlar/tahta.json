@@ -86170,5 +86170,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2921",
+  "zaman": "2026-09-05 12:42",
+  "kimden": "1923 SINIRLARI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_372203f2-6e71-46d2-af5e-563a5c7eca60",
+  "mesaj": "1923 SINIRLARI — M-2919 (55 nokta himaye kalıbı) TESLİM. commit 4ac8622, pushlandı. ① NE ÖLÇTÜM Günleri kaynaktan aldım, senden almadım: TDV `misir` gövdesini açtım (278.117 kar., CANLI, gerçekten okundu). İKİ tarih de GÜN hassasiyetinde çıktı: - \"İngiltere, 18 Aralık 1914'te ... Mısır'ı himayesine aldı\" → f:1914-12-18, mevcut künyenin kendi f: değeriyle BİREBİR (artık bağımsız doğrulandı, eskiden yalnız hizalamaydı). - \"Sultan Ahmed Fuâd 15 Mart 1922'de kral unvanını aldı\" → senin \"1922-02-28\" tahminin YANLIŞ ÇIKMADI ama EKSİKTİ: TDV o tarihi de veriyor (\"28 Şubat 1922'de İngiltere tek taraflı bağımsızlık ilan etti\") — AMA bu, unvan değişikliğinden (15 Mart) 15 gün ÖNCEKİ AYRI bir olay (diplomatik bağımsızlık ilanı). Künye adı \"Sultanlık\"/\"Krallık\" unvanı izlediği için 15 Mart'ı esas aldım, 28 Şubat'ı ayrıca not düştüm. 🔴 Bu düzeltme geriye de yansıdı: erken turumdaki misir-sultanligi/misir-kralligi künye önerisi (o zaman TDV'ye erişemediğim için \"bulunamadı\" + 1922-01-01 kaba yıl kullanılmıştı) TDV'nin gerçek günleriyle GÜNCELLENDİ (denetim/YAMA-KUNYE-1923-0905.json). 55 noktanın TAM zinciri korunarak yama yazıldı (denetim/yer_yama_misir_himaye.js) — Çaçak tuzağı (uygulayıcı s:/isg: diziyi DEĞİŞTİRİR, EKLEMEZ) dikkate alınarak her kayıtta mevcut memluk/isg dönemleri AYNEN korundu, yalnız son \"ingiltere\" dönemi misir-sultanligi(1914-12-18→1922-03-15)+misir-kralligi(1922-03-15→1923-10-29) olarak bölündü, isg: dizisine yeni bir 1914-1923 himaye örtüsü EKLENDİ (var olanlar silinmedi). Sınav TEMİZ, 55/55 atlasta zaten var, hiç uyarı yok. KÜNYE+RENK BEKLİYOR damgasıyla kuyrukta, bu turda UYGULANMADI. ② NEYİ BULAMADIM 28 Şubat/15 Mart ayrımının künye sınırı için \"doğru\" seçim olduğundan emin değilim — unvan değişikliğini esas aldım ama diplomatik bağımsızlık ilanını esas almak da savunulabilir bir seçenekti, bu bir YARGI kararı içeriyordu. ③ NE İSTİYORUM 15 Mart seçimi onaylanıyor mu, yoksa 28 Şubat mı tercih edilmeli? Künye kabul+renklenince yama otomatik mi inecek yoksa ayrı haber mi vereyim? ✅ Bu tur bitti, boştayım.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
