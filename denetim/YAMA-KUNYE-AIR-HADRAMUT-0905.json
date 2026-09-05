@@ -1,0 +1,34 @@
+{
+  "_baslik": "1923 SINIRLARI — Sultanate of Aïr (Agadez) + Hadramut künye önerisi (M-2844 ③④)",
+  "_not": "ÖNERİDİR, devletler.js'e UYGULANMADI. 🔴 RENK BEKLİYOR — renkler.py bu koşuda DONUK (üç parmak izli dosyadan biri), yeni künye renksiz kalır ve renk kosu bitene kadar ÜRETİLEMEZ (polonya-erken emsali). Bu YAMA KUYRUĞA yazılıyor, koşu bitmeden İNDİRİLMEMELİ.",
+  "_oturum": "1923 SINIRLARI · local_372203f2-6e71-46d2-af5e-563a5c7eca60",
+  "kunyeler": [
+    {
+      "id": "agadez-sultanligi",
+      "ad": "Agadez (Aïr) Sultanlığı — Tuareg",
+      "f": "1405-01-01",
+      "t": "1923-10-29",
+      "bolge": "bati-afrika",
+      "ozet": "1405'te yerel Tuareg boyları arasında arabuluculuk için kurulan Aïr Sultanlığı; 1500-1591 Songhay tâbiiyetinde kaldı, sonra yeniden bağımsızlaştı, 1906'da Fransız himayesine girdi (fiilî sömürge yönetimi ancak 1917'de, ayaklanmalar bastırıldıktan sonra).",
+      "kaynak": "🔴 TDV 'air' YANILTICI ÇIKTI — o madde Medine yakınındaki bir DAĞ hakkında (Âir dağı, hadis bağlamı), Agadez/Aïr Sultanlığı İLE İLGİSİ YOK (200≠madde tuzağı, raw HTML okunarak elendi). 'agades' TDV'de 302 ÖLÜ. TDV bu coğrafyayı (Batı Afrika Sahra-altı) kapsamıyor. Standart akademik: Britannica 'Agadez' + Wikipedia 'Sultanate of Agadez'.",
+      "not": "1500-1591 Songhay tâbiiyeti VE 1591-1906 arası hangi güçlere (Bornu, Kebbi) ne zaman bağlandığı TAM NETLEŞTİRİLMEDİ ('incorporated into Songhai, Bornu, and Kebbi' — akademik kaynak sırayı/tarihleri net vermiyor). Bu künye TEK BLOK olarak önerildi (1405-1923), İÇ AYRINTI (Songhay dönemi vb.) ARANMADI — istenirse ayrı bir tur bunu inceler."
+    },
+    {
+      "id": "hadramut-kabile-sultanliklari",
+      "ad": "Hadramut Kabile Sultanlıkları (Kesîrî · Kuaytî)",
+      "f": "1500-01-01",
+      "t": "1923-10-29",
+      "bolge": "arabistan",
+      "ozet": "16. yüzyıldan itibaren Kesîrî (Kathiri) kabilesinin, 19. yüzyıl ikinci yarısından itibaren de Kuaytî (Qu'aiti) kabilesinin rekabetle hâkim olduğu Hadramut; 1882'den itibaren İngiliz himayesine (Aden Protektorası) girdi ama YEREL kabile idaresi 1923'te de sürüyordu.",
+      "kaynak": "TDV, madde: hadramut (CANLI, raw HTML doğrulandı) — \"Kesîrî kabilesi reisleri\" idareyi elinde tutuyordu, 1866'da Gālib b. Muhsin öne çıktı, 1882'de Ömer b. Avad el-Kuaytî hâkimiyet mücadelesine girdi. Britannica 'Kathiri sultanate' + 'Quʿaiti sultanate' ile İKİ BAĞIMSIZ kaynak eşleşti.",
+      "not": "🔴🔴 ÖNEMLİ KOMPLİKASYON — TDV'nin kendi metni: \"Kuaytîler'in idaresinde bulunan Şibâm ile Şihr 1919 yılına kadar OSMANLI HÂKİMİYETİNDE kaldı.\" Yani Hadramut kıyısının bir kısmı 1919'a dek NOMİNAL Osmanlı tâbiiydi — bu, mevcut `osmanli`/`v:` mantığıyla nasıl modelleneceği AYRI bir karar gerektirir (Kuveyt/Katar gibi `v: Osmanlı kazâsı` sonra `isg:`/`s:` İngiltere kalıbına benzer olabilir ama BEN MODELLEMEDİM). Bu künye Kesîrî+Kuaytî'yi TEK BLOKTA basitleştiriyor — Kuveyt/Bahreyn/Katar'daki gibi İngiliz himayesini `isg:` ile AYRICA işaretlemek isteyen bir sonraki tur bunu ELE ALMALI, ben yalnız KÜNYENİN KENDİSİNİ öneriyorum."
+    }
+  ],
+  "renk_durumu": "İKİSİ DE RENKSİZ — renkler.py donuk. Koşu bitince renk_olc.py --oner ile çözülmeli, sonra devletler.js'e inebilir.",
+  "ozet_sayim": {
+    "toplam_kunye": 2,
+    "TDV_kaynakli": 1,
+    "TDV_kapsam_disi_akademik": 1,
+    "acik_komplikasyon": "Hadramut'un Osmanlı/İngiltere iç içeliği (1919) modellenmedi, ayrı bir karar/tur gerektirir"
+  }
+}
