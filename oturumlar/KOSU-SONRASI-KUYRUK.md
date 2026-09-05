@@ -2572,6 +2572,34 @@ yanlış bir slug'ı bırakmak, boş bırakmaktan kötü.
 örtü (`urabi-pasa` 55× · `berlin-antlasmasi` 14× · `kahire` 7× ·
 `kirim` 6×). Uç birimiyle raporlanan her yerleşim sayısı bu oranda şişik.
 
+### 🟢 BULGU İKİ İDDİAYA İNDİ — **69 kayıt, iki `kaynak:` alanı** (20:45)
+
+```
+🔴 t=1914-12-18  urabi-pasa         → 55 yerleşim   (isg · ingiltere)
+🔴 t=1908-10-05  berlin-antlasmasi  → 14 yerleşim   (isg · avusturya)
+```
+İkisi de **birebir aynı yapı**: bir antlaşma/biyografi maddesi, otuz yıl
+sonraki **ilhakı** anlatmıyor. `berlin-antlasmasi` ölçüldü:
+`f=1878-07-29` 🟡 (yıl var, gün yok) · `t=1908-10-05` 🔴 (yıl gövdede
+HİÇ yok).
+
+**GENİŞ EVREN (koordinatör bağımsız ölçtü):** `260 uç → 97 İDDİA · 2,7×`.
+⚠️ Ve *"şişmenin tamamı `isg:`ten"* ifadesi **daraldı**: `sokoto` 11→7
+(2×) ve `s:`; ayrıca **28 `isg:` ucu hiç şişmiyor**. ⇒ Değişken kategori
+değil **TOPLU ATAMA**.
+
+🔵 **EMRE'NİN `kaynak_f:`/`kaynak_t:` SORUSUNA YENİ DAYANAK — ve eskisi
+ÇÜRÜMÜŞTÜ, bu ONDAN FARKLI:**
+```
+ÇÜRÜYEN gerekçe  "bütün dönemlerde `t:` ucu kaynaksız" (%87) — örneklem
+                 yoğunlaşmasıydı, ÇÖKTÜ
+YENİ gerekçe     TOPLU ÖRTÜLERDE iki uç DOĞASI GEREĞİ iki ayrı olay
+                 (işgalin başlaması · ilhak), ve tek `kaynak:` ikisini
+                 gösteremiyor
+```
+⚠️ **Ölçek küçük: dört slug.** İşçi oturumun kendi damgası: *"bir gözlem,
+bir hüküm değil."* Emre'ye **öyle** taşınıyor.
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri
