@@ -216,6 +216,107 @@ parça eklemek, GÖRÜNMEYEN VERİYİ ÇOĞALTMAKTIR.
 
 ---
 
+---
+---
+
+# EK — GÖL KALEMİ · 5 Eylül 2026 · **YAPILMADI, ve sebebi ölçüldü**
+
+> Sevk: `M-2791` — *"GÖLLER: EVET, YAP — tek kalemde bitir."*
+> **Yapmadım.** Sevkin dayandığı öncül BENİM kendi cümlemdi ve **çürüdü.**
+> `js/app.js` · `index.html` · `css/style.css` **değiştirilmedi.**
+
+## G1. ÇÜRÜYEN ÖNCÜL — VE SAHİBİ BENİM
+
+`M-2753`te şunu yazmıştım:
+> *"Göller (`g-gol`) hâlâ rasterin ve siyasî dolguların ALTINDA — nehirle
+> BİREBİR aynı kusur."*
+
+O cümle bir **çıkarımdı**: katman sırasına baktım (`g-gol` 2, `altlik` 4),
+nehirdeki desenin aynısını varsaydım. **Ekrandan ölçmedim.** Ölçünce çürüdü.
+
+## G2. ÖLÇÜM — göller GÖRÜNÜYOR
+
+**On bilinen göl, varsayılan ayarla, `queryRenderedFeatures` ile:**
+
+| ölçü | sonuç |
+|---|---:|
+| ölçülen göl | 10 |
+| siyasî dolgunun **örttüğü** | **0** |
+| açıkta kalan | 10 |
+
+Van · Tuz · Beyşehir · Eğirdir · Urmiye · Sevan · İznik · Manyas ·
+Uluabat · Acıgöl — **hiçbirinin üstünde** `osmanli-dolgu` ·
+`devlet-dolgu` · `vassal-dolgu` · `himaye-dolgu` yok.
+
+**Sebep, koordinatörün kendi uyarısında yazılıydı:** göller motor
+tarafında **petekten çıkarılıyor** (705 göl). Dolgunun orada **deliği
+var**, ve delikten Esri rasterinin suyu görünüyor.
+
+**Görsel doğrulama:** Van Gölü z7'de mavi, siyasî dolgular çevresinde ama
+üstünde değil. Tuz Gölü z7,2'de aynı. Ekran görüntüleri alındı.
+
+**Ayırt edici sınav — görünen mavi KİMİN?**
+`g-gol` gizlendi → **göl hâlâ görünüyor.** ⇒ Ekrandaki su bizim
+katmanımız değil, **Esri rasterinin kendi suyu.**
+
+## G3. ⇒ DEĞİŞİKLİK YAPILSAYDI NE OLURDU
+`g-nehir`e yapılanın aynısı `g-gol`e yapılsaydı, Esri'nin **fotoğrafik**
+gölünün üstüne bizim **düz `#c4dcea` dolgumuz** binerdi.
+```
+kazanç : YOK — göl zaten görünüyor
+bedel  : fizikî altlığın su dokusu düz renkle ÖRTÜLÜR
+```
+Ve bu, sevkin **④ numaralı kendi şartını** çiğnerdi: *"Rastere DOKUNMA —
+amaç onu silmek değil."* Üstüne opak bir dolgu koymak, silmenin
+görsel eşdeğeridir.
+
+## G4. YAN ÖLÇÜM — ve BİR YANLIŞ ALARMI KENDİM DURDURDUM
+
+Tarayıcı sorgusu **"10 gölün 8'i `g-gol` katmanında YOK"** dedi — Van
+Gölü dâhil. Alarm verecektim. **Veriye sordum, çürüdü:**
+
+| kaynak | Van | Tuz | Beyşehir | Eğirdir | Urmiye | Sevan | İznik | Manyas | Uluabat | Acıgöl |
+|---|---|---|---|---|---|---|---|---|---|---|
+| tarayıcı sorgusu | ✗ | ✓ | ✓ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ | ✗ |
+| **`ALTLIK.gol` verisi** | **✓** | ✓ | ✓ | **✓** | **✓** | **✓** | ✗ | ✗ | ✗ | ✗ |
+| `ne_10m_lakes` kaynağı | ✓ | ✓ | — | — | ✓ | ✓ | ✗ | ✗ | ✗ | ✗ |
+
+```
+🔴 tarayıcı  8 eksik dedi
+🟢 veri      4 eksik      ⇒ tarayıcı sorgusu bu katman için GÜVENİLMEZ
+🟢 kaynak    o 4'ü ZATEN taşımıyor (ne ada ne geometriye göre)
+```
+⇒ **Boru hattında kayıp YOK.** `uret_altlik.py` kaynağa sadık: 691 göl
+gövdesi taşıyor, 674'ü 100 km² üstü. Eksik dördü (İznik · Manyas ·
+Uluabat · Acıgöl) **Natural Earth 10m'in kendi kapsama sınırı.**
+📌 Ve ders tanıdık: *rasterin altındaki bir katmana `queryRenderedFeatures`
+ile sormak yanlış cevap verir.* `g-nehir`de aynı sorgu çalışmıştı, bu
+yüzden güvenmiştim — **bir aletin bir katmanda çalışması ötekinde
+çalışacağı anlamına gelmiyor.**
+
+## G5. DAMGALAR
+```
+🟢 ÖLÇTÜM      10 gölün 0'ı siyasî dolgu altında · g-gol gizlenince göl
+               DURUYOR (⇒ Esri'nin suyu) · ALTLIK.gol 691 gövde ·
+               veride 6/10 · kaynakta o 4 göl YOK
+🔴 ÇÜRÜDÜ      kendi öncülüm ("göller de aynı kusurda") — ÇIKARIMDI, ölçüm değil
+🔴 ÇÜRÜDÜ      "8 göl katmanda yok" — tarayıcı artefaktı, veri 4 diyor
+⚪ ÖLÇÜLEMEDİ  Anadolu/Kafkasya dışındaki göller (10'luk örneklem yalnız
+               bu bölgeden; başka coğrafyada dolgu göl örtüyor olabilir)
+⚪ ÖLÇMEDİM    `g-gol`ün varsayılan kipte HERHANGİ bir şey ekleyip
+               eklemediği — amacı raster kapalıyken yedek olmak, o çalışıyor
+🔵 OKUMADIM    NE 10m'in göl eşiği (dört gölün niçin yok olduğunun kuralı)
+```
+
+## G6. NE İSTİYORUM
+**Göl kalemini KAPAT** — yapılacak bir şey yok, ve yapılsaydı fizikî
+altlığı bozardı. İstenirse ayrı ve küçük bir iş olarak: NE 10m'in
+kapsamadığı dört Anadolu gölü (İznik · Manyas · Uluabat · Acıgöl) başka
+bir kamu malı kaynaktan eklenebilir — ama bu bir **veri** kalemi,
+çizim kalemi değil.
+
+---
+
 ## 5. NE İSTİYORUM — tek cümle
 
 **Emre'nin isteğinin yarısı "veri yok" değil "veri var ama görünmüyor"
