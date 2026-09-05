@@ -1388,3 +1388,55 @@ taşıyıcısız künye   6   (çareleri M-2454'te; 5'i çözüldü, rabih koord
 📌 **Ve bu bölümün kendisi de bayatlayacak.** Bir sonraki oturum
 buradan bir sayı alacaksa, önce `denetim/BULGU-AFRIKA-0903-*.json`
 dosyalarını saysın — belge fotoğraf, JSON ölçüm.
+
+---
+
+## §15 — BIRAKILAN DOSYALAR KÜTÜĞÜ *(oturum emekli olurken yazıldı)*
+
+Bu oturum `denetim/` altına **13 ölçüm dosyası** bıraktı. Rapor gövdesi
+üçüne atıf yapıyor ama **biçimlerini söylemiyor.** Bu bölüm onu kapatır:
+bir sonraki oturum dosyayı açmadan ne olduğunu bilsin.
+
+🔴 **VE ÖNCE TUZAK — İKİ DOSYA AYNI İŞİ FARKLI BİÇİMDE TAŞIYOR:**
+
+```
+zincir.json      NESNE · anahtar `zincir` (178) + `bloke` (81)
+                 dönem = ["1659-01-01","1792-09-22","fransa"]   ← LİSTE
+zincir211.json   DİZİ  · 211 kayıt
+                 dönem = {"f":…,"t":…,"d":"futa-callon"}        ← SÖZLÜK
+```
+
+⚠️ İkisini aynı sanan bir okuyucu **hata vermez** — `p[0]` bir sözlükte
+`KeyError`, ama `p["f"]` bir listede `TypeError`; ve `for p in s` her
+ikisinde de dönüyor. `§11`in *"aletin evreni değişince alet sessizce
+yanılır"* tuzağının biçim yüzü.
+🟢 **CANLI olan `zincir211.json`dur** — `data/yerlesimler_afrika2.js`e
+inen tur odur. `zincir.json` **önceki turdur** ve `bloke` anahtarı için
+korunuyor (81 kayıt: hangi aday hangi kimlik yokluğundan bloke).
+⚠️ Bu bir kusur değil bir **tur farkı**; ama kayıtsız kalsaydı kusurdan
+ayırt edilemezdi.
+
+### Kütük — kök yapısı `node` ile DÖKÜLDÜ, elle yazılmadı
+
+| dosya | kök | ne cevaplar |
+|---|---|---|
+| `-kunye.json` | DİZİ 99 | bu oturumun yazdığı 99 künye (Afrika) — `devletler.js`e **indi** |
+| `-kunye-uc-yeni.json` | DİZİ 3 | son turda eklenen üç künye — **indi** |
+| `-zincir211.json` | DİZİ 211 | 🟢 **CANLI** nokta zincirleri · dönem **sözlük** |
+| `-zincir.json` | NESNE 2 | ⚪ önceki tur · dönem **liste** · `bloke` (81) hâlâ değerli |
+| `-adaylar.json` | DİZİ 389 | *(commitli)* aday havuzu · `ad,lat,lon,not,dayanak` |
+| `-kalan-acik.json` | DİZİ 71 | *(commitli)* kapatılamayan açık hücre · `uzak_km,en_yakin,kume` |
+| `-kisit-zamanli.json` | DİZİ 526 | 🔴 **RENK PARTİSİ İÇİN** — zaman duyarlı komşuluk kısıtı (naif 591'den 57'si sahte elendi) |
+| `-bati-komsuluk.json` | NESNE 3 | `yakin` 306 · `olculemedi_kunye` 47 · `tasiyicisiz_kunye` 6 |
+| `-tasiyici-nokta.json` | DİZİ 5 | künyesi olup taşıyıcı noktası olmayanlara yazılan nokta |
+| `-bekleyen9.json` | DİZİ 9 | karar bekleyen dokuz kayıt (kova · gerekçe · dolgu menzili) |
+| `-kuzeyafrika-acik.json` | DİZİ 207 | Kuzey Afrika açık hücreler (`uzak_km` · `en_yakin`) |
+| `-kuzeyafrika-aday.json` | DİZİ 35 | 🔜 **ZİNCİRSİZ** — yazılmayı bekliyor |
+| `-kuzeyafrika-bekleyen.json` | DİZİ 9 | Kuzey Afrika karar bekleyenler |
+| `-kuzeyafrika-kalan-cins.json` | DİZİ 90 | kalan açık hücrenin cinsi (`kusak` · `cins` · `gerekce`) |
+| `ONGORU-AFRIKA-0903-baglama.md` | — | dört ayaklı öngörü · **③ çürüdü** (§13) |
+
+📌 Ve `§14`in bayatlık damgası bu bölümü de bağlar: yukarıdaki sayılar
+**emeklilik anının** fotoğrafıdır. Bir sonraki oturum onları taban
+yapmadan önce kendi ölçsün — bu belgede sekiz sayının bayatladığı
+zaten kayıtlı.

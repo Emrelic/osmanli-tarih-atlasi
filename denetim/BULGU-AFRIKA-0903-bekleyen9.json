@@ -1,0 +1,342 @@
+[
+ {
+  "ad": "Tecerhî",
+  "lat": 24.38,
+  "lon": 14.47,
+  "kur": "1281-01-01",
+  "kova": "A · emsal hazır",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1577-01-01",
+    "d": "hafsi"
+   },
+   {
+    "f": "1912-10-18",
+    "t": "1923-10-29",
+    "d": "italya"
+   }
+  ],
+  "d": [
+   {
+    "f": "1577-01-01",
+    "t": "1711-03-01",
+    "y": "vassal"
+   },
+   {
+    "f": "1835-05-26",
+    "t": "1912-10-18"
+   }
+  ],
+  "v": [
+   {
+    "f": "1711-03-01",
+    "t": "1835-05-26",
+    "k": "Trablusgarp Ocaklığı (Karamanlılar)"
+   }
+  ],
+  "kaynak": "trablusgarp",
+  "not": "Fizan güneyi vahası; el-Katrûn (62 km) ile AYNI emsal — Murzuk · Gât · Zevîle kalıbı birebir uygulandı.",
+  "dolgu_menzili": [
+   {
+    "dolgu": "Ramletü Zellâf",
+    "km": 177,
+    "bos": "devletsiz"
+   },
+   {
+    "dolgu": "Ramletü Murzuk",
+    "km": 241,
+    "bos": "devletsiz"
+   }
+  ]
+ },
+ {
+  "ad": "Vâv en-Nâmûs",
+  "lat": 24.92,
+  "lon": 17.75,
+  "kur": "1281-01-01",
+  "kova": "A · emsal hazır",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1577-01-01",
+    "d": "hafsi"
+   },
+   {
+    "f": "1912-10-18",
+    "t": "1923-10-29",
+    "d": "italya"
+   }
+  ],
+  "d": [
+   {
+    "f": "1577-01-01",
+    "t": "1711-03-01",
+    "y": "vassal"
+   },
+   {
+    "f": "1835-05-26",
+    "t": "1912-10-18"
+   }
+  ],
+  "v": [
+   {
+    "f": "1711-03-01",
+    "t": "1835-05-26",
+    "k": "Trablusgarp Ocaklığı (Karamanlılar)"
+   }
+  ],
+  "kaynak": "trablusgarp",
+  "not": "Fizan doğusu volkanik vaha; Vâv el-Kebîr (73 km) komşusu.",
+  "dolgu_menzili": [
+   {
+    "dolgu": "Vâv el-Kebîr",
+    "km": 73,
+    "bos": "devletsiz"
+   },
+   {
+    "dolgu": "Ramletü Zellâf",
+    "km": 229,
+    "bos": "devletsiz"
+   }
+  ]
+ },
+ {
+  "ad": "Abalessa",
+  "lat": 22.89,
+  "lon": 4.85,
+  "kur": "1281-01-01",
+  "kova": "B · KİMLİK EKSİK",
+  "eksik_kimlik": "tuareg-ahaggar",
+  "onerilen_zincir": [
+   {
+    "f": "1281-01-01",
+    "t": "1902-05-07",
+    "d": "tuareg-ahaggar"
+   },
+   {
+    "f": "1902-05-07",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Tin Hinan mezarı; Kel Ahaggar'ın törensel merkezi. Fransız hâkimiyeti Tit muharebesiyle (7 Mayıs 1902). ⚠️ Tamanrasset kaydının `neden:` alanı Kel Ahaggar'ı ve Amenokal'ı ADIYLA anıyor — yani kimlik BİLİNİYOR, künyesi yok.",
+  "dolgu_menzili": [
+   {
+    "dolgu": "Tamanrasset",
+    "km": 70,
+    "bos": "kabile"
+   },
+   {
+    "dolgu": "Hoggar",
+    "km": 225,
+    "bos": "kabile"
+   }
+  ]
+ },
+ {
+  "ad": "İdeles",
+  "lat": 23.8,
+  "lon": 5.9,
+  "kur": "1281-01-01",
+  "kova": "B · KİMLİK EKSİK",
+  "eksik_kimlik": "tuareg-ahaggar",
+  "onerilen_zincir": [
+   {
+    "f": "1281-01-01",
+    "t": "1902-05-07",
+    "d": "tuareg-ahaggar"
+   },
+   {
+    "f": "1902-05-07",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Hoggar doğu vahası; Kel Ahaggar sahası.",
+  "dolgu_menzili": [
+   {
+    "dolgu": "Tamanrasset",
+    "km": 119,
+    "bos": "kabile"
+   },
+   {
+    "dolgu": "Hoggar",
+    "km": 296,
+    "bos": "kabile"
+   }
+  ]
+ },
+ {
+  "ad": "Cânet (Djanet)",
+  "lat": 24.55,
+  "lon": 9.48,
+  "kur": "1281-01-01",
+  "kova": "B · KİMLİK EKSİK",
+  "eksik_kimlik": "tuareg-accer",
+  "onerilen_zincir": [
+   {
+    "f": "1281-01-01",
+    "t": "1911-01-01",
+    "d": "tuareg-accer"
+   },
+   {
+    "f": "1911-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Tâsîlî n'Accer vahası; Kel Accer konfederasyonu. Fransız işgali 1911. ⚠️ Gât (84 km) LİBYA emsalini kullanıyor — sınır burada geçiyor, ikisi AYNI kalıba giremez. 🔴 GÜN DÜZELTİLDİ: 1911-11-27 kaynaklı değildi, §4 gereği 1911-01-01 yazıldı.",
+  "dolgu_menzili": [
+   {
+    "dolgu": "Tâsîlî n'Accer",
+    "km": 88,
+    "bos": "devletsiz"
+   },
+   {
+    "dolgu": "İdehân Ubârî",
+    "km": 237,
+    "bos": "devletsiz"
+   }
+  ]
+ },
+ {
+  "ad": "İllîzî",
+  "lat": 26.48,
+  "lon": 8.47,
+  "kur": "1281-01-01",
+  "kova": "B · KİMLİK EKSİK",
+  "eksik_kimlik": "tuareg-accer",
+  "onerilen_zincir": [
+   {
+    "f": "1281-01-01",
+    "t": "1911-01-01",
+    "d": "tuareg-accer"
+   },
+   {
+    "f": "1911-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Tâsîlî kuzeyi; Kel Accer sahası.",
+  "dolgu_menzili": [
+   {
+    "dolgu": "Tâsîlî n'Accer",
+    "km": 150,
+    "bos": "devletsiz"
+   },
+   {
+    "dolgu": "İdehân Ubârî",
+    "km": 290,
+    "bos": "devletsiz"
+   }
+  ]
+ },
+ {
+  "ad": "Bardaî",
+  "lat": 21.36,
+  "lon": 17.0,
+  "kur": "1281-01-01",
+  "kova": "B · KİMLİK EKSİK",
+  "eksik_kimlik": "tubu-tibesti",
+  "onerilen_zincir": [
+   {
+    "f": "1281-01-01",
+    "t": "1914-01-01",
+    "d": "tubu-tibesti"
+   },
+   {
+    "f": "1914-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Tibesti Teda'sının başkenti; Derde'nin makamı. Fransız işgali 1914. ⚠️ Tibesti kaydının `neden:` alanı 'Tubu aşiret konfederasyonları' diyor ve 'hiçbir devletin fiilen ulaşmadığı' hükmünü taşıyor — o hüküm bu noktayla ÇELİŞİR.",
+  "dolgu_menzili": [
+   {
+    "dolgu": "Tibesti",
+    "km": 65,
+    "bos": "kabile"
+   },
+   {
+    "dolgu": "Vâv el-Kebîr",
+    "km": 446,
+    "bos": "devletsiz"
+   }
+  ]
+ },
+ {
+  "ad": "Zûâr",
+  "lat": 20.45,
+  "lon": 16.52,
+  "kur": "1281-01-01",
+  "kova": "B · KİMLİK EKSİK",
+  "eksik_kimlik": "tubu-tibesti",
+  "onerilen_zincir": [
+   {
+    "f": "1281-01-01",
+    "t": "1914-01-01",
+    "d": "tubu-tibesti"
+   },
+   {
+    "f": "1914-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Tibesti batı yamacı; Teda sahası.",
+  "dolgu_menzili": [
+   {
+    "dolgu": "Tibesti",
+    "km": 119,
+    "bos": "kabile"
+   },
+   {
+    "dolgu": "Vâv el-Kebîr",
+    "km": 551,
+    "bos": "devletsiz"
+   }
+  ]
+ },
+ {
+  "ad": "Vûr",
+  "lat": 21.35,
+  "lon": 15.98,
+  "kur": "1281-01-01",
+  "kova": "B · KİMLİK EKSİK",
+  "eksik_kimlik": "tubu-tibesti",
+  "onerilen_zincir": [
+   {
+    "f": "1281-01-01",
+    "t": "1914-01-01",
+    "d": "tubu-tibesti"
+   },
+   {
+    "f": "1914-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Tibesti kuzeybatısı; Teda sahası.",
+  "dolgu_menzili": [
+   {
+    "dolgu": "Tibesti",
+    "km": 162,
+    "bos": "kabile"
+   },
+   {
+    "dolgu": "Vâv el-Kebîr",
+    "km": 464,
+    "bos": "devletsiz"
+   }
+  ]
+ }
+]

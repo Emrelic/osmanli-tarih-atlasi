@@ -1,0 +1,2574 @@
+{
+ "zincir": {
+  "Saint-Louis (Ndar)": {
+   "kur": "1659-01-01",
+   "s": [
+    [
+     "1659-01-01",
+     "1792-09-22",
+     "fransa"
+    ],
+    [
+     "1792-09-22",
+     "1923-10-29",
+     "fransa-cumhuriyet"
+    ]
+   ]
+  },
+  "Gore (Gorée)": {
+   "kur": "1444-01-01",
+   "s": [
+    [
+     "1444-01-01",
+     "1627-01-01",
+     "portekiz"
+    ],
+    [
+     "1627-01-01",
+     "1677-11-01",
+     "hollanda"
+    ],
+    [
+     "1677-11-01",
+     "1792-09-22",
+     "fransa"
+    ],
+    [
+     "1792-09-22",
+     "1923-10-29",
+     "fransa-cumhuriyet"
+    ]
+   ]
+  },
+  "Dakar": {
+   "kur": "1857-05-25",
+   "s": [
+    [
+     "1857-05-25",
+     "1923-10-29",
+     "fransa-cumhuriyet"
+    ]
+   ]
+  },
+  "Bakel": {
+   "kur": "1818-01-01",
+   "s": [
+    [
+     "1818-01-01",
+     "1923-10-29",
+     "fransa-cumhuriyet"
+    ]
+   ]
+  },
+  "Konakri (Conakry)": {
+   "kur": "1885-01-01",
+   "s": [
+    [
+     "1885-01-01",
+     "1923-10-29",
+     "fransa-cumhuriyet"
+    ]
+   ]
+  },
+  "Kita": {
+   "kur": "1881-01-01",
+   "s": [
+    [
+     "1881-01-01",
+     "1923-10-29",
+     "fransa-cumhuriyet"
+    ]
+   ]
+  },
+  "Bangi (Bangui)": {
+   "kur": "1889-06-26",
+   "s": [
+    [
+     "1889-06-26",
+     "1923-10-29",
+     "fransa-cumhuriyet"
+    ]
+   ]
+  },
+  "Librevil (Libreville)": {
+   "kur": "1849-08-17",
+   "s": [
+    [
+     "1849-08-17",
+     "1923-10-29",
+     "fransa-cumhuriyet"
+    ]
+   ]
+  },
+  "Fransvil (Franceville)": {
+   "kur": "1880-06-01",
+   "s": [
+    [
+     "1880-06-01",
+     "1923-10-29",
+     "fransa-cumhuriyet"
+    ]
+   ]
+  },
+  "Assinie": {
+   "kur": "1687-01-01",
+   "s": [
+    [
+     "1687-01-01",
+     "1792-09-22",
+     "fransa"
+    ],
+    [
+     "1792-09-22",
+     "1923-10-29",
+     "fransa-cumhuriyet"
+    ]
+   ]
+  },
+  "Sarh (Fort-Archambault)": {
+   "kur": "1899-01-01",
+   "s": [
+    [
+     "1899-01-01",
+     "1923-10-29",
+     "fransa-cumhuriyet"
+    ]
+   ]
+  },
+  "Mundu (Moundou)": {
+   "kur": "1923-01-01",
+   "s": [
+    [
+     "1923-01-01",
+     "1923-10-29",
+     "fransa-cumhuriyet"
+    ]
+   ]
+  },
+  "Cibanga": {
+   "kur": "1899-01-01",
+   "s": [
+    [
+     "1899-01-01",
+     "1923-10-29",
+     "fransa-cumhuriyet"
+    ]
+   ]
+  },
+  "Muila (Mouila)": {
+   "kur": "1899-01-01",
+   "s": [
+    [
+     "1899-01-01",
+     "1923-10-29",
+     "fransa-cumhuriyet"
+    ]
+   ]
+  },
+  "Makoku (Makokou)": {
+   "kur": "1900-01-01",
+   "s": [
+    [
+     "1900-01-01",
+     "1923-10-29",
+     "fransa-cumhuriyet"
+    ]
+   ]
+  },
+  "Ovando": {
+   "kur": "1900-01-01",
+   "s": [
+    [
+     "1900-01-01",
+     "1923-10-29",
+     "fransa-cumhuriyet"
+    ]
+   ]
+  },
+  "Sibiti": {
+   "kur": "1900-01-01",
+   "s": [
+    [
+     "1900-01-01",
+     "1923-10-29",
+     "fransa-cumhuriyet"
+    ]
+   ]
+  },
+  "Cambala (Djambala)": {
+   "kur": "1900-01-01",
+   "s": [
+    [
+     "1900-01-01",
+     "1923-10-29",
+     "fransa-cumhuriyet"
+    ]
+   ]
+  },
+  "Epena": {
+   "kur": "1900-01-01",
+   "s": [
+    [
+     "1900-01-01",
+     "1923-10-29",
+     "fransa-cumhuriyet"
+    ]
+   ]
+  },
+  "Suanke": {
+   "kur": "1900-01-01",
+   "s": [
+    [
+     "1900-01-01",
+     "1923-10-29",
+     "fransa-cumhuriyet"
+    ]
+   ]
+  },
+  "Moloundou": {
+   "kur": "1900-01-01",
+   "s": [
+    [
+     "1900-01-01",
+     "1911-11-04",
+     "fransa-cumhuriyet"
+    ],
+    [
+     "1911-11-04",
+     "1916-02-16",
+     "almanya"
+    ],
+    [
+     "1916-02-16",
+     "1923-10-29",
+     "fransa-cumhuriyet"
+    ]
+   ]
+  },
+  "Yokadouma": {
+   "kur": "1905-01-01",
+   "s": [
+    [
+     "1905-01-01",
+     "1916-02-16",
+     "almanya"
+    ],
+    [
+     "1916-02-16",
+     "1923-10-29",
+     "fransa-cumhuriyet"
+    ]
+   ]
+  },
+  "Bertua (Bertoua)": {
+   "kur": "1905-01-01",
+   "s": [
+    [
+     "1905-01-01",
+     "1916-02-16",
+     "almanya"
+    ],
+    [
+     "1916-02-16",
+     "1923-10-29",
+     "fransa-cumhuriyet"
+    ]
+   ]
+  },
+  "Yaunde": {
+   "kur": "1888-11-30",
+   "s": [
+    [
+     "1888-11-30",
+     "1916-02-16",
+     "almanya"
+    ],
+    [
+     "1916-02-16",
+     "1923-10-29",
+     "fransa-cumhuriyet"
+    ]
+   ]
+  },
+  "Duala": {
+   "kur": "1868-01-01",
+   "s": [
+    [
+     "1868-01-01",
+     "1884-07-14",
+     "hollanda"
+    ],
+    [
+     "1884-07-14",
+     "1916-02-16",
+     "almanya"
+    ],
+    [
+     "1916-02-16",
+     "1923-10-29",
+     "fransa-cumhuriyet"
+    ]
+   ]
+  },
+  "Kribi": {
+   "kur": "1884-07-14",
+   "s": [
+    [
+     "1884-07-14",
+     "1916-02-16",
+     "almanya"
+    ],
+    [
+     "1916-02-16",
+     "1923-10-29",
+     "fransa-cumhuriyet"
+    ]
+   ]
+  },
+  "Freetown": {
+   "kur": "1792-03-11",
+   "s": [
+    [
+     "1792-03-11",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Bathurst (Banjul)": {
+   "kur": "1816-04-23",
+   "s": [
+    [
+     "1816-04-23",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Cape Coast": {
+   "kur": "1653-01-01",
+   "s": [
+    [
+     "1653-01-01",
+     "1664-05-01",
+     "hollanda"
+    ],
+    [
+     "1664-05-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Grahamstown": {
+   "kur": "1812-08-14",
+   "s": [
+    [
+     "1812-08-14",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Port Elizabeth": {
+   "kur": "1820-06-01",
+   "s": [
+    [
+     "1820-06-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "East London": {
+   "kur": "1847-01-01",
+   "s": [
+    [
+     "1847-01-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Kimberley": {
+   "kur": "1871-07-16",
+   "s": [
+    [
+     "1871-07-16",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Durban": {
+   "kur": "1824-06-01",
+   "s": [
+    [
+     "1824-06-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Salisbury (Harare)": {
+   "kur": "1890-09-12",
+   "s": [
+    [
+     "1890-09-12",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Livingstone": {
+   "kur": "1905-01-01",
+   "s": [
+    [
+     "1905-01-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Çipata (Fort Jameson)": {
+   "kur": "1899-01-01",
+   "s": [
+    [
+     "1899-01-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Blantyre": {
+   "kur": "1876-01-01",
+   "s": [
+    [
+     "1876-01-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Zomba": {
+   "kur": "1891-01-01",
+   "s": [
+    [
+     "1891-01-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Nairobi": {
+   "kur": "1899-05-30",
+   "s": [
+    [
+     "1899-05-30",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Maçakos": {
+   "kur": "1889-01-01",
+   "s": [
+    [
+     "1889-01-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Nakuru": {
+   "kur": "1904-01-01",
+   "s": [
+    [
+     "1904-01-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Kisumu": {
+   "kur": "1901-12-20",
+   "s": [
+    [
+     "1901-12-20",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Kitale": {
+   "kur": "1908-01-01",
+   "s": [
+    [
+     "1908-01-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Lodvar": {
+   "kur": "1912-01-01",
+   "s": [
+    [
+     "1912-01-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Cinca (Jinja)": {
+   "kur": "1901-01-01",
+   "s": [
+    [
+     "1901-01-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Gulu": {
+   "kur": "1911-01-01",
+   "s": [
+    [
+     "1911-01-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Lira": {
+   "kur": "1911-01-01",
+   "s": [
+    [
+     "1911-01-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Moroto": {
+   "kur": "1911-01-01",
+   "s": [
+    [
+     "1911-01-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Umtata": {
+   "kur": "1882-01-01",
+   "s": [
+    [
+     "1882-01-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "King William's Town": {
+   "kur": "1835-05-24",
+   "s": [
+    [
+     "1835-05-24",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Mafikeng": {
+   "kur": "1885-01-01",
+   "s": [
+    [
+     "1885-01-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Vryburg": {
+   "kur": "1882-08-06",
+   "s": [
+    [
+     "1882-08-06",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Postmasburg": {
+   "kur": "1892-01-01",
+   "s": [
+    [
+     "1892-01-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Upington": {
+   "kur": "1884-01-01",
+   "s": [
+    [
+     "1884-01-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Kenhardt": {
+   "kur": "1868-01-01",
+   "s": [
+    [
+     "1868-01-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Prieska": {
+   "kur": "1878-01-01",
+   "s": [
+    [
+     "1878-01-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Pofadder": {
+   "kur": "1875-01-01",
+   "s": [
+    [
+     "1875-01-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Kalvinia": {
+   "kur": "1847-01-01",
+   "s": [
+    [
+     "1847-01-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Springbok": {
+   "kur": "1852-01-01",
+   "s": [
+    [
+     "1852-01-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Beaufort West": {
+   "kur": "1818-01-01",
+   "s": [
+    [
+     "1818-01-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Colesberg": {
+   "kur": "1830-01-01",
+   "s": [
+    [
+     "1830-01-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Kokstad": {
+   "kur": "1863-01-01",
+   "s": [
+    [
+     "1863-01-01",
+     "1874-01-01",
+     "ingiltere"
+    ],
+    [
+     "1874-01-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Gveru": {
+   "kur": "1894-01-01",
+   "s": [
+    [
+     "1894-01-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Gvanda": {
+   "kur": "1900-01-01",
+   "s": [
+    [
+     "1900-01-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Hvange": {
+   "kur": "1903-01-01",
+   "s": [
+    [
+     "1903-01-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Binga": {
+   "kur": "1900-01-01",
+   "s": [
+    [
+     "1900-01-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Nevkasl (Newcastle)": {
+   "kur": "1864-01-01",
+   "s": [
+    [
+     "1864-01-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Stellenbosch": {
+   "kur": "1679-11-08",
+   "s": [
+    [
+     "1679-11-08",
+     "1806-01-18",
+     "hollanda"
+    ],
+    [
+     "1806-01-18",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Svellendam": {
+   "kur": "1745-01-01",
+   "s": [
+    [
+     "1745-01-01",
+     "1806-01-18",
+     "hollanda"
+    ],
+    [
+     "1806-01-18",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Graaff-Reinet": {
+   "kur": "1786-01-01",
+   "s": [
+    [
+     "1786-01-01",
+     "1806-01-18",
+     "hollanda"
+    ],
+    [
+     "1806-01-18",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Potchefstroom": {
+   "kur": "1838-11-01",
+   "s": [
+    [
+     "1838-11-01",
+     "1852-01-17",
+     "ingiltere"
+    ],
+    [
+     "1852-01-17",
+     "1902-05-31",
+     "transvaal"
+    ],
+    [
+     "1902-05-31",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Pietermaritzburg": {
+   "kur": "1838-10-01",
+   "s": [
+    [
+     "1838-10-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Benguela": {
+   "kur": "1617-05-17",
+   "s": [
+    [
+     "1617-05-17",
+     "1923-10-29",
+     "portekiz"
+    ]
+   ]
+  },
+  "Mosamedes (Namibe)": {
+   "kur": "1840-08-04",
+   "s": [
+    [
+     "1840-08-04",
+     "1923-10-29",
+     "portekiz"
+    ]
+   ]
+  },
+  "Kakonda (Caconda)": {
+   "kur": "1682-01-01",
+   "s": [
+    [
+     "1682-01-01",
+     "1923-10-29",
+     "portekiz"
+    ]
+   ]
+  },
+  "Massangano": {
+   "kur": "1583-01-01",
+   "s": [
+    [
+     "1583-01-01",
+     "1923-10-29",
+     "portekiz"
+    ]
+   ]
+  },
+  "Kambambe (Cambambe)": {
+   "kur": "1604-01-01",
+   "s": [
+    [
+     "1604-01-01",
+     "1923-10-29",
+     "portekiz"
+    ]
+   ]
+  },
+  "Pungo Andongo": {
+   "kur": "1671-01-01",
+   "s": [
+    [
+     "1671-01-01",
+     "1923-10-29",
+     "portekiz"
+    ]
+   ]
+  },
+  "Bissav (Bissau)": {
+   "kur": "1687-01-01",
+   "s": [
+    [
+     "1687-01-01",
+     "1923-10-29",
+     "portekiz"
+    ]
+   ]
+  },
+  "Kaşev (Cacheu)": {
+   "kur": "1588-01-01",
+   "s": [
+    [
+     "1588-01-01",
+     "1923-10-29",
+     "portekiz"
+    ]
+   ]
+  },
+  "Tete": {
+   "kur": "1531-01-01",
+   "s": [
+    [
+     "1531-01-01",
+     "1923-10-29",
+     "portekiz"
+    ]
+   ]
+  },
+  "Sena": {
+   "kur": "1530-01-01",
+   "s": [
+    [
+     "1530-01-01",
+     "1923-10-29",
+     "portekiz"
+    ]
+   ]
+  },
+  "Zumbo": {
+   "kur": "1720-01-01",
+   "s": [
+    [
+     "1720-01-01",
+     "1923-10-29",
+     "portekiz"
+    ]
+   ]
+  },
+  "İbo (Kerimba)": {
+   "kur": "1600-01-01",
+   "s": [
+    [
+     "1600-01-01",
+     "1923-10-29",
+     "portekiz"
+    ]
+   ]
+  },
+  "İnhambane": {
+   "kur": "1534-01-01",
+   "s": [
+    [
+     "1534-01-01",
+     "1923-10-29",
+     "portekiz"
+    ]
+   ]
+  },
+  "Lourenço Marques": {
+   "kur": "1781-01-01",
+   "s": [
+    [
+     "1781-01-01",
+     "1923-10-29",
+     "portekiz"
+    ]
+   ]
+  },
+  "Montepuez": {
+   "kur": "1900-01-01",
+   "s": [
+    [
+     "1900-01-01",
+     "1923-10-29",
+     "portekiz"
+    ]
+   ]
+  },
+  "Mosimboa": {
+   "kur": "1900-01-01",
+   "s": [
+    [
+     "1900-01-01",
+     "1923-10-29",
+     "portekiz"
+    ]
+   ]
+  },
+  "Licinga": {
+   "kur": "1900-01-01",
+   "s": [
+    [
+     "1900-01-01",
+     "1923-10-29",
+     "portekiz"
+    ]
+   ]
+  },
+  "Kuamba": {
+   "kur": "1900-01-01",
+   "s": [
+    [
+     "1900-01-01",
+     "1923-10-29",
+     "portekiz"
+    ]
+   ]
+  },
+  "Mabalane": {
+   "kur": "1895-01-01",
+   "s": [
+    [
+     "1895-01-01",
+     "1923-10-29",
+     "portekiz"
+    ]
+   ]
+  },
+  "Massangena": {
+   "kur": "1895-01-01",
+   "s": [
+    [
+     "1895-01-01",
+     "1923-10-29",
+     "portekiz"
+    ]
+   ]
+  },
+  "Cikualakuala": {
+   "kur": "1895-01-01",
+   "s": [
+    [
+     "1895-01-01",
+     "1923-10-29",
+     "portekiz"
+    ]
+   ]
+  },
+  "Vindhuk (Windhoek)": {
+   "kur": "1890-10-18",
+   "s": [
+    [
+     "1890-10-18",
+     "1915-07-09",
+     "almanya"
+    ],
+    [
+     "1915-07-09",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Lüderitz": {
+   "kur": "1883-05-01",
+   "s": [
+    [
+     "1883-05-01",
+     "1915-07-09",
+     "almanya"
+    ],
+    [
+     "1915-07-09",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Keetmanshoop": {
+   "kur": "1866-01-01",
+   "s": [
+    [
+     "1866-01-01",
+     "1884-08-07",
+     "hollanda"
+    ],
+    [
+     "1884-08-07",
+     "1915-07-09",
+     "almanya"
+    ],
+    [
+     "1915-07-09",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Valvis Körfezi": {
+   "kur": "1793-01-01",
+   "s": [
+    [
+     "1793-01-01",
+     "1878-03-12",
+     "hollanda"
+    ],
+    [
+     "1878-03-12",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Tsumeb": {
+   "kur": "1900-01-01",
+   "s": [
+    [
+     "1900-01-01",
+     "1915-07-09",
+     "almanya"
+    ],
+    [
+     "1915-07-09",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Outjo": {
+   "kur": "1895-01-01",
+   "s": [
+    [
+     "1895-01-01",
+     "1915-07-09",
+     "almanya"
+    ],
+    [
+     "1915-07-09",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Mariental": {
+   "kur": "1890-01-01",
+   "s": [
+    [
+     "1890-01-01",
+     "1915-07-09",
+     "almanya"
+    ],
+    [
+     "1915-07-09",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Aranos": {
+   "kur": "1900-01-01",
+   "s": [
+    [
+     "1900-01-01",
+     "1915-07-09",
+     "almanya"
+    ],
+    [
+     "1915-07-09",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Grutfontein": {
+   "kur": "1893-01-01",
+   "s": [
+    [
+     "1893-01-01",
+     "1915-07-09",
+     "almanya"
+    ],
+    [
+     "1915-07-09",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Gobabis": {
+   "kur": "1856-01-01",
+   "s": [
+    [
+     "1856-01-01",
+     "1884-08-07",
+     "hollanda"
+    ],
+    [
+     "1884-08-07",
+     "1915-07-09",
+     "almanya"
+    ],
+    [
+     "1915-07-09",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Rundu": {
+   "kur": "1900-01-01",
+   "s": [
+    [
+     "1900-01-01",
+     "1915-07-09",
+     "almanya"
+    ],
+    [
+     "1915-07-09",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Katima Mulilo": {
+   "kur": "1890-07-01",
+   "s": [
+    [
+     "1890-07-01",
+     "1915-07-09",
+     "almanya"
+    ],
+    [
+     "1915-07-09",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Arusa (Arusha)": {
+   "kur": "1900-01-01",
+   "s": [
+    [
+     "1900-01-01",
+     "1916-09-01",
+     "almanya"
+    ],
+    [
+     "1916-09-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Mosi (Moshi)": {
+   "kur": "1893-01-01",
+   "s": [
+    [
+     "1893-01-01",
+     "1916-09-01",
+     "almanya"
+    ],
+    [
+     "1916-09-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Dodoma": {
+   "kur": "1907-01-01",
+   "s": [
+    [
+     "1907-01-01",
+     "1916-09-01",
+     "almanya"
+    ],
+    [
+     "1916-09-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Mvanza": {
+   "kur": "1892-01-01",
+   "s": [
+    [
+     "1892-01-01",
+     "1916-09-01",
+     "almanya"
+    ],
+    [
+     "1916-09-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Bukoba": {
+   "kur": "1890-01-01",
+   "s": [
+    [
+     "1890-01-01",
+     "1916-09-01",
+     "almanya"
+    ],
+    [
+     "1916-09-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Singida": {
+   "kur": "1900-01-01",
+   "s": [
+    [
+     "1900-01-01",
+     "1916-09-01",
+     "almanya"
+    ],
+    [
+     "1916-09-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Babati": {
+   "kur": "1900-01-01",
+   "s": [
+    [
+     "1900-01-01",
+     "1916-09-01",
+     "almanya"
+    ],
+    [
+     "1916-09-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Kigali": {
+   "kur": "1907-01-01",
+   "s": [
+    [
+     "1907-01-01",
+     "1916-05-06",
+     "almanya"
+    ],
+    [
+     "1916-05-06",
+     "1923-10-29",
+     "belcika"
+    ]
+   ]
+  },
+  "Bucumbura": {
+   "kur": "1897-01-01",
+   "s": [
+    [
+     "1897-01-01",
+     "1916-06-06",
+     "almanya"
+    ],
+    [
+     "1916-06-06",
+     "1923-10-29",
+     "belcika"
+    ]
+   ]
+  },
+  "Mbandaka": {
+   "kur": "1883-06-17",
+   "s": [
+    [
+     "1883-06-17",
+     "1923-10-29",
+     "belcika"
+    ]
+   ]
+  },
+  "Basankusu": {
+   "kur": "1885-01-01",
+   "s": [
+    [
+     "1885-01-01",
+     "1923-10-29",
+     "belcika"
+    ]
+   ]
+  },
+  "Lisala": {
+   "kur": "1890-01-01",
+   "s": [
+    [
+     "1890-01-01",
+     "1923-10-29",
+     "belcika"
+    ]
+   ]
+  },
+  "Bumba": {
+   "kur": "1890-01-01",
+   "s": [
+    [
+     "1890-01-01",
+     "1923-10-29",
+     "belcika"
+    ]
+   ]
+  },
+  "Kindu": {
+   "kur": "1893-01-01",
+   "s": [
+    [
+     "1893-01-01",
+     "1923-10-29",
+     "belcika"
+    ]
+   ]
+  },
+  "Lusambo": {
+   "kur": "1890-01-01",
+   "s": [
+    [
+     "1890-01-01",
+     "1923-10-29",
+     "belcika"
+    ]
+   ]
+  },
+  "Luebo": {
+   "kur": "1885-01-01",
+   "s": [
+    [
+     "1885-01-01",
+     "1923-10-29",
+     "belcika"
+    ]
+   ]
+  },
+  "Kabinda": {
+   "kur": "1890-01-01",
+   "s": [
+    [
+     "1890-01-01",
+     "1923-10-29",
+     "belcika"
+    ]
+   ]
+  },
+  "Bandundu": {
+   "kur": "1885-01-01",
+   "s": [
+    [
+     "1885-01-01",
+     "1923-10-29",
+     "belcika"
+    ]
+   ]
+  },
+  "Kikwit": {
+   "kur": "1896-01-01",
+   "s": [
+    [
+     "1896-01-01",
+     "1923-10-29",
+     "belcika"
+    ]
+   ]
+  },
+  "İlebo": {
+   "kur": "1888-01-01",
+   "s": [
+    [
+     "1888-01-01",
+     "1923-10-29",
+     "belcika"
+    ]
+   ]
+  },
+  "Bukavu": {
+   "kur": "1900-01-01",
+   "s": [
+    [
+     "1900-01-01",
+     "1923-10-29",
+     "belcika"
+    ]
+   ]
+  },
+  "Uvira": {
+   "kur": "1892-01-01",
+   "s": [
+    [
+     "1892-01-01",
+     "1923-10-29",
+     "belcika"
+    ]
+   ]
+  },
+  "Kalemie": {
+   "kur": "1892-01-01",
+   "s": [
+    [
+     "1892-01-01",
+     "1923-10-29",
+     "belcika"
+    ]
+   ]
+  },
+  "Kabalo": {
+   "kur": "1900-01-01",
+   "s": [
+    [
+     "1900-01-01",
+     "1923-10-29",
+     "belcika"
+    ]
+   ]
+  },
+  "Boende": {
+   "kur": "1900-01-01",
+   "s": [
+    [
+     "1900-01-01",
+     "1923-10-29",
+     "belcika"
+    ]
+   ]
+  },
+  "Ikela": {
+   "kur": "1900-01-01",
+   "s": [
+    [
+     "1900-01-01",
+     "1923-10-29",
+     "belcika"
+    ]
+   ]
+  },
+  "Djolu": {
+   "kur": "1900-01-01",
+   "s": [
+    [
+     "1900-01-01",
+     "1923-10-29",
+     "belcika"
+    ]
+   ]
+  },
+  "Monkoto": {
+   "kur": "1900-01-01",
+   "s": [
+    [
+     "1900-01-01",
+     "1923-10-29",
+     "belcika"
+    ]
+   ]
+  },
+  "Buta": {
+   "kur": "1890-01-01",
+   "s": [
+    [
+     "1890-01-01",
+     "1923-10-29",
+     "belcika"
+    ]
+   ]
+  },
+  "Aketi": {
+   "kur": "1890-01-01",
+   "s": [
+    [
+     "1890-01-01",
+     "1923-10-29",
+     "belcika"
+    ]
+   ]
+  },
+  "Isiro": {
+   "kur": "1892-01-01",
+   "s": [
+    [
+     "1892-01-01",
+     "1923-10-29",
+     "belcika"
+    ]
+   ]
+  },
+  "Watsa": {
+   "kur": "1892-01-01",
+   "s": [
+    [
+     "1892-01-01",
+     "1923-10-29",
+     "belcika"
+    ]
+   ]
+  },
+  "Bunia": {
+   "kur": "1900-01-01",
+   "s": [
+    [
+     "1900-01-01",
+     "1923-10-29",
+     "belcika"
+    ]
+   ]
+  },
+  "Valikale": {
+   "kur": "1900-01-01",
+   "s": [
+    [
+     "1900-01-01",
+     "1923-10-29",
+     "belcika"
+    ]
+   ]
+  },
+  "Lubutu": {
+   "kur": "1900-01-01",
+   "s": [
+    [
+     "1900-01-01",
+     "1923-10-29",
+     "belcika"
+    ]
+   ]
+  },
+  "Butembo": {
+   "kur": "1900-01-01",
+   "s": [
+    [
+     "1900-01-01",
+     "1923-10-29",
+     "belcika"
+    ]
+   ]
+  },
+  "Kolvezi": {
+   "kur": "1900-01-01",
+   "s": [
+    [
+     "1900-01-01",
+     "1923-10-29",
+     "belcika"
+    ]
+   ]
+  },
+  "Kamina": {
+   "kur": "1900-01-01",
+   "s": [
+    [
+     "1900-01-01",
+     "1923-10-29",
+     "belcika"
+    ]
+   ]
+  },
+  "Gemena": {
+   "kur": "1900-01-01",
+   "s": [
+    [
+     "1900-01-01",
+     "1923-10-29",
+     "belcika"
+    ]
+   ]
+  },
+  "Businga": {
+   "kur": "1900-01-01",
+   "s": [
+    [
+     "1900-01-01",
+     "1923-10-29",
+     "belcika"
+    ]
+   ]
+  },
+  "Hamdullahi": {
+   "kur": "1820-01-01",
+   "s": [
+    [
+     "1820-01-01",
+     "1862-01-01",
+     "massina"
+    ],
+    [
+     "1862-01-01",
+     "1893-01-01",
+     "tekrur"
+    ],
+    [
+     "1893-01-01",
+     "1923-10-29",
+     "fransa-cumhuriyet"
+    ]
+   ]
+  },
+  "Bauci (Bauchi)": {
+   "kur": "1809-01-01",
+   "s": [
+    [
+     "1809-01-01",
+     "1903-07-27",
+     "sokoto"
+    ],
+    [
+     "1903-07-27",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Yola": {
+   "kur": "1841-01-01",
+   "s": [
+    [
+     "1841-01-01",
+     "1903-07-27",
+     "sokoto"
+    ],
+    [
+     "1903-07-27",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Bida (Nupe)": {
+   "kur": "1859-01-01",
+   "s": [
+    [
+     "1859-01-01",
+     "1897-01-01",
+     "sokoto"
+    ],
+    [
+     "1897-01-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "İlorin": {
+   "kur": "1817-01-01",
+   "s": [
+    [
+     "1817-01-01",
+     "1897-02-16",
+     "sokoto"
+    ],
+    [
+     "1897-02-16",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Lagos (Eko)": {
+   "kur": null,
+   "s": [
+    [
+     "1281-01-01",
+     "1861-08-06",
+     "benin-kralligi"
+    ],
+    [
+     "1861-08-06",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Onitsha": {
+   "kur": null,
+   "s": [
+    [
+     "1281-01-01",
+     "1897-02-18",
+     "benin-kralligi"
+    ],
+    [
+     "1897-02-18",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Lambarene": {
+   "kur": "1874-01-01",
+   "s": [
+    [
+     "1874-01-01",
+     "1923-10-29",
+     "fransa-cumhuriyet"
+    ]
+   ]
+  },
+  "Puent-Nuar": {
+   "kur": "1883-01-01",
+   "s": [
+    [
+     "1883-01-01",
+     "1923-10-29",
+     "fransa-cumhuriyet"
+    ]
+   ]
+  },
+  "Akra (Accra)": {
+   "kur": "1650-01-01",
+   "s": [
+    [
+     "1650-01-01",
+     "1701-01-01",
+     "hollanda"
+    ],
+    [
+     "1701-01-01",
+     "1874-07-24",
+     "asanti"
+    ],
+    [
+     "1874-07-24",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Nkhotakota (Cumbe)": {
+   "kur": "1840-01-01",
+   "s": [
+    [
+     "1840-01-01",
+     "1895-01-01",
+     "umman-zengibar"
+    ],
+    [
+     "1895-01-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Karonga": {
+   "kur": "1880-01-01",
+   "s": [
+    [
+     "1880-01-01",
+     "1895-01-01",
+     "umman-zengibar"
+    ],
+    [
+     "1895-01-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Mangoçi": {
+   "kur": "1891-01-01",
+   "s": [
+    [
+     "1891-01-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Tabora (Kazeh)": {
+   "kur": "1852-01-01",
+   "s": [
+    [
+     "1852-01-01",
+     "1890-11-04",
+     "umman-zengibar"
+    ],
+    [
+     "1890-11-04",
+     "1916-09-01",
+     "almanya"
+    ],
+    [
+     "1916-09-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Ucici (Ujiji)": {
+   "kur": "1830-01-01",
+   "s": [
+    [
+     "1830-01-01",
+     "1890-11-04",
+     "umman-zengibar"
+    ],
+    [
+     "1890-11-04",
+     "1916-09-01",
+     "almanya"
+    ],
+    [
+     "1916-09-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Kasongo": {
+   "kur": "1860-01-01",
+   "s": [
+    [
+     "1860-01-01",
+     "1893-01-01",
+     "umman-zengibar"
+    ],
+    [
+     "1893-01-01",
+     "1923-10-29",
+     "belcika"
+    ]
+   ]
+  },
+  "Nyangve (Nyangwe)": {
+   "kur": "1860-01-01",
+   "s": [
+    [
+     "1860-01-01",
+     "1893-03-04",
+     "umman-zengibar"
+    ],
+    [
+     "1893-03-04",
+     "1923-10-29",
+     "belcika"
+    ]
+   ]
+  },
+  "Lindi": {
+   "kur": null,
+   "s": [
+    [
+     "1281-01-01",
+     "1698-12-13",
+     "svahili-sehirleri"
+    ],
+    [
+     "1698-12-13",
+     "1890-11-04",
+     "umman-zengibar"
+    ],
+    [
+     "1890-11-04",
+     "1916-09-01",
+     "almanya"
+    ],
+    [
+     "1916-09-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Mikindani": {
+   "kur": null,
+   "s": [
+    [
+     "1281-01-01",
+     "1698-12-13",
+     "svahili-sehirleri"
+    ],
+    [
+     "1698-12-13",
+     "1890-11-04",
+     "umman-zengibar"
+    ],
+    [
+     "1890-11-04",
+     "1916-09-01",
+     "almanya"
+    ],
+    [
+     "1916-09-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Pangani": {
+   "kur": null,
+   "s": [
+    [
+     "1281-01-01",
+     "1698-12-13",
+     "svahili-sehirleri"
+    ],
+    [
+     "1698-12-13",
+     "1890-11-04",
+     "umman-zengibar"
+    ],
+    [
+     "1890-11-04",
+     "1916-09-01",
+     "almanya"
+    ],
+    [
+     "1916-09-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Kilva Kivince": {
+   "kur": "1800-01-01",
+   "s": [
+    [
+     "1800-01-01",
+     "1890-11-04",
+     "umman-zengibar"
+    ],
+    [
+     "1890-11-04",
+     "1916-09-01",
+     "almanya"
+    ],
+    [
+     "1916-09-01",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Umgungundlovu": {
+   "kur": "1829-01-01",
+   "s": [
+    [
+     "1829-01-01",
+     "1879-07-04",
+     "zulu-kralligi"
+    ],
+    [
+     "1879-07-04",
+     "1923-10-29",
+     "ingiltere"
+    ]
+   ]
+  },
+  "Fianarantsoa": {
+   "kur": "1830-01-01",
+   "s": [
+    [
+     "1830-01-01",
+     "1897-02-28",
+     "merina"
+    ],
+    [
+     "1897-02-28",
+     "1923-10-29",
+     "fransa-cumhuriyet"
+    ]
+   ]
+  },
+  "Antsirabe": {
+   "kur": "1872-01-01",
+   "s": [
+    [
+     "1872-01-01",
+     "1897-02-28",
+     "merina"
+    ],
+    [
+     "1897-02-28",
+     "1923-10-29",
+     "fransa-cumhuriyet"
+    ]
+   ]
+  },
+  "Antseranana": {
+   "kur": "1885-12-17",
+   "s": [
+    [
+     "1885-12-17",
+     "1923-10-29",
+     "fransa-cumhuriyet"
+    ]
+   ]
+  },
+  "Tolanaro (Fort Dauphin)": {
+   "kur": "1643-01-01",
+   "s": [
+    [
+     "1643-01-01",
+     "1674-01-01",
+     "fransa"
+    ],
+    [
+     "1674-01-01",
+     "1792-09-22",
+     "fransa"
+    ],
+    [
+     "1792-09-22",
+     "1923-10-29",
+     "fransa-cumhuriyet"
+    ]
+   ]
+  },
+  "Uije (Uíge)": {
+   "kur": null,
+   "s": [
+    [
+     "1390-01-01",
+     "1914-01-01",
+     "kongo-kralligi"
+    ],
+    [
+     "1914-01-01",
+     "1923-10-29",
+     "portekiz"
+    ]
+   ]
+  },
+  "Saurimo": {
+   "kur": null,
+   "s": [
+    [
+     "1665-01-01",
+     "1887-01-01",
+     "lunda-imparatorlugu"
+    ],
+    [
+     "1887-01-01",
+     "1923-10-29",
+     "portekiz"
+    ]
+   ]
+  },
+  "Dundo": {
+   "kur": null,
+   "s": [
+    [
+     "1665-01-01",
+     "1887-01-01",
+     "lunda-imparatorlugu"
+    ],
+    [
+     "1887-01-01",
+     "1923-10-29",
+     "portekiz"
+    ]
+   ]
+  },
+  "Sandoa": {
+   "kur": null,
+   "s": [
+    [
+     "1665-01-01",
+     "1887-01-01",
+     "lunda-imparatorlugu"
+    ],
+    [
+     "1887-01-01",
+     "1923-10-29",
+     "belcika"
+    ]
+   ]
+  },
+  "Fesi (Feshi)": {
+   "kur": null,
+   "s": [
+    [
+     "1665-01-01",
+     "1887-01-01",
+     "lunda-imparatorlugu"
+    ],
+    [
+     "1887-01-01",
+     "1923-10-29",
+     "belcika"
+    ]
+   ]
+  },
+  "Kahemba": {
+   "kur": null,
+   "s": [
+    [
+     "1665-01-01",
+     "1887-01-01",
+     "lunda-imparatorlugu"
+    ],
+    [
+     "1887-01-01",
+     "1923-10-29",
+     "belcika"
+    ]
+   ]
+  }
+ },
+ "bloke": {
+  "futa-callon": [
+   "Timbo",
+   "Labe"
+  ],
+  "futa-toro": [
+   "Podor",
+   "Kaedi"
+  ],
+  "colof": [
+   "Linguère (Colof)"
+  ],
+  "kayor": [
+   "Mbul (Kayor)",
+   "Rufisque"
+  ],
+  "valo": [
+   "Nder (Valo)"
+  ],
+  "sine-salum": [
+   "Diahav (Sine)",
+   "Kahone (Salum)"
+  ],
+  "bundu": [
+   "Bulebane (Bundu)"
+  ],
+  "moritanya-emirlikleri": [
+   "Tişît (Tichitt)",
+   "Nema (Néma)",
+   "Râşid (Tagant)",
+   "Kiffa",
+   "Butilimit"
+  ],
+  "gambiya-mandinka": [
+   "Albreda-Cufure"
+  ],
+  "vasulu": [
+   "Bisandugu",
+   "Kankan",
+   "Beyla",
+   "Odienne",
+   "Seguela"
+  ],
+  "solima-yalunka": [
+   "Falaba"
+  ],
+  "segu-bambara": [
+   "Nioro (Kaarta)",
+   "Bamako",
+   "Kangaba"
+  ],
+  "kenedugu": [
+   "Sikasso (Kenedugu)"
+  ],
+  "mossi-vagadugu": [
+   "Vagadugu (Ouagadougou)",
+   "Tenkodogo",
+   "Bobo-Diulasso"
+  ],
+  "yatenga": [
+   "Vahiguya (Yatenga)"
+  ],
+  "gurma": [
+   "Fada Ngurma (Gurma)",
+   "Dori",
+   "Say",
+   "Tera",
+   "Tillaberi"
+  ],
+  "kong-vattara": [
+   "Kong",
+   "Buna (Bouna)"
+  ],
+  "gyaaman": [
+   "Bondugu (Gyaaman)"
+  ],
+  "gonja": [
+   "Salaga (Gonja)",
+   "Bole",
+   "Begho (Bighu)"
+  ],
+  "dagbon": [
+   "Yendi (Dagbon)"
+  ],
+  "eve-notse": [
+   "Notse"
+  ],
+  "borgu": [
+   "Nikki (Borgu)",
+   "Busa (Borgu)"
+  ],
+  "ife-yoruba": [
+   "İbadan"
+  ],
+  "aro-konfederasyonu": [
+   "Aroçukvu"
+  ],
+  "efik-kalabar": [
+   "Eski Kalabar",
+   "Bonny"
+  ],
+  "nijer-orta-kusagi": [
+   "Cos (Jos)",
+   "Vukari (Wukari)",
+   "Makurdi",
+   "Lokoca (Lokoja)"
+  ],
+  "hausa-damagaram": [
+   "Goure",
+   "Tahoua",
+   "Birni-N'Konni",
+   "Madaoua",
+   "Filingue"
+  ],
+  "tuareg-air": [
+   "In Gall",
+   "Arlit",
+   "Fachi"
+  ],
+  "tuareg-ifora": [
+   "Kidal",
+   "Menaka",
+   "Aravan"
+  ],
+  "adamava": [
+   "Ngaunder (Ngaoundéré)",
+   "Rey Buba",
+   "Tibati",
+   "Banyo",
+   "Garua (Garoua)",
+   "Marua (Maroua)"
+  ],
+  "bamum": [
+   "Fumban (Bamum)"
+  ],
+  "vaday": [
+   "Vara (Wara)",
+   "Abeşe (Abéché)",
+   "Iriba",
+   "Biltine",
+   "Fada (Ennedi)",
+   "Ounianga"
+  ],
+  "bagirmi": [
+   "Massenya",
+   "Am Timan",
+   "Mongo"
+  ],
+  "kanem-tubu": [
+   "Nguigmi",
+   "Faya-Largeau",
+   "Ati"
+  ],
+  "darul-kuti": [
+   "Ndele (Dâru'l-Kûtî)",
+   "Birao",
+   "Uanda-Calle"
+  ],
+  "zende": [
+   "Bangassu",
+   "Rafai",
+   "Zemio",
+   "Obo"
+  ],
+  "banda-gbaya": [
+   "Kaga-Bandoro",
+   "Batangafo",
+   "Bria",
+   "Bambari",
+   "Buar (Bouar)",
+   "Bossangoa"
+  ],
+  "tio": [
+   "Ouesso",
+   "İmpfondo"
+  ],
+  "kasance": [
+   "Kasance (Kasanje)"
+  ],
+  "matamba": [
+   "Matamba"
+  ],
+  "ovimbundu": [
+   "Kuito (Bié)",
+   "Bailundo",
+   "Huambo (Wambu)",
+   "Malanje",
+   "Lubango",
+   "Menongue",
+   "Kuito Kuanavale",
+   "Mavinga",
+   "Kangamba",
+   "Luena (Moxico)",
+   "Kazombo",
+   "Kuangar"
+  ],
+  "ovambo": [
+   "Ondjiva (Ovambo)",
+   "Ondangva (Ondonga)"
+  ],
+  "herero": [
+   "Okahandja",
+   "Otjimbingve"
+  ],
+  "nama-orlam": [
+   "Rehoboth",
+   "Varmbad (Warmbad)",
+   "Bethanie"
+  ],
+  "tsvana": [
+   "Şoşong (Shoshong)",
+   "Serove (Serowe)",
+   "Molepolole (Kvena)",
+   "Kanye (Ngvaketse)",
+   "Moçudi (Kgatla)",
+   "Maun (Tavana)",
+   "Palapye",
+   "Ganzi (Ghanzi)",
+   "Toteng",
+   "Tsabong",
+   "Tshane",
+   "Kang",
+   "Kuruman"
+  ],
+  "griqua": [
+   "Griquatown",
+   "Philippolis"
+  ],
+  "basuto": [
+   "Thaba Bosiu",
+   "Maseru"
+  ],
+  "pedi": [
+   "Tjate (Pedi)"
+  ],
+  "venda": [
+   "Dzata (Venda)",
+   "Luis Trichardt"
+  ],
+  "svazi": [
+   "Lobamba (Svazi)"
+  ],
+  "lozi": [
+   "Lealui (Lozi)",
+   "Seşeke (Sesheke)",
+   "Kalabo",
+   "Senanga",
+   "Kaoma (Mankoya)",
+   "Zambezi (Balovale)",
+   "Kabompo"
+  ],
+  "kazembe": [
+   "Mvansabombve (Kazembe)"
+  ],
+  "bemba": [
+   "Kasama (Bemba)",
+   "Mpika",
+   "Ndola",
+   "Serence (Serenje)",
+   "Solwezi",
+   "Kasempa",
+   "Mumbva"
+  ],
+  "yeke": [
+   "Bunkeya (Yeke)"
+  ],
+  "yao": [
+   "Mvembe (Mataka)",
+   "Tunduru",
+   "Masasi"
+  ],
+  "hehe": [
+   "Kalenga (Hehe)"
+  ],
+  "ngoni": [
+   "Songea (Ngoni)",
+   "Njombe"
+  ],
+  "torva-rozvi": [
+   "Khami"
+  ],
+  "segu-bambara-mopti": [
+   "Mopti"
+  ],
+  "merina-oncesi": [
+   "Toamasina (Tamatave)",
+   "Ambohimanga",
+   "Tsiroanomandidy"
+  ],
+  "nyamvezi": [
+   "Mpvapva",
+   "Morogoro",
+   "Kilosa"
+  ],
+  "fipa-nyakyusa": [
+   "Sumbavanga",
+   "Mbeya"
+  ],
+  "ruanda": [
+   "Nyanza (Ruanda)"
+  ],
+  "burundi": [
+   "Gitega (Burundi)"
+  ],
+  "karagve": [
+   "Bveranyange (Karagve)"
+  ],
+  "nkore": [
+   "Mbarara (Nkore)"
+  ],
+  "bunyoro": [
+   "Hoima (Bunyoro)",
+   "Masindi"
+  ],
+  "toro": [
+   "Fort Portal (Toro)"
+  ],
+  "kenya-kuzey-klanlari": [
+   "Marsabit",
+   "Vacir (Wajir)",
+   "Garissa",
+   "İsiolo",
+   "Kitui"
+  ],
+  "rozvi": [
+   "Danangombe (Rozvi)"
+  ],
+  "matabele": [
+   "Bulavayo"
+  ],
+  "manica": [
+   "Umtali (Mutare)"
+  ],
+  "sakalava-menabe": [
+   "Mahabo (Menabe)",
+   "Maintirano",
+   "Toliara (Tuléar)"
+  ],
+  "sakalava-boina": [
+   "Mahacanga (Majunga)",
+   "Besalampy",
+   "Maevatanana"
+  ],
+  "betsileo": [
+   "Ambositra"
+  ],
+  "antemoro": [
+   "Vohipeno (Antemoro)",
+   "Mananjary"
+  ],
+  "antandroy": [
+   "Ambovombe (Antandroy)",
+   "İhosy (Bara)"
+  ],
+  "betsimisaraka": [
+   "Maroantsetra",
+   "Sambava"
+  ],
+  "liberya": [
+   "Monrovia",
+   "Harper",
+   "Gbarnga",
+   "Zwedru"
+  ],
+  "dan-guro": [
+   "Man",
+   "Nzerekore",
+   "Buake (Bouaké)",
+   "Daloa",
+   "Sassandra"
+  ],
+  "kayes-bati": [
+   "Kayes"
+  ]
+ }
+}

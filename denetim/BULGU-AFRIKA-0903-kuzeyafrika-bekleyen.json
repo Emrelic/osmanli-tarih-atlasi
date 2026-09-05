@@ -1,0 +1,56 @@
+[
+ {
+  "ad": "Abalessa",
+  "lat": 22.89,
+  "lon": 4.85,
+  "not": "Tin Hinan mezarı; Hoggar Tuareg merkezi"
+ },
+ {
+  "ad": "İdeles",
+  "lat": 23.8,
+  "lon": 5.9,
+  "not": "Hoggar doğusu"
+ },
+ {
+  "ad": "Cânet (Djanet)",
+  "lat": 24.55,
+  "lon": 9.48,
+  "not": "Tâsîlî n'Accer vahası; Kel Accer"
+ },
+ {
+  "ad": "İllîzî",
+  "lat": 26.48,
+  "lon": 8.47,
+  "not": "Tâsîlî kuzeyi"
+ },
+ {
+  "ad": "Tecerhî",
+  "lat": 24.38,
+  "lon": 14.47,
+  "not": "Fizan güneyi; Tubu-Tuareg sınırı"
+ },
+ {
+  "ad": "Vâv en-Nâmûs",
+  "lat": 24.92,
+  "lon": 17.75,
+  "not": "Fizan doğusu volkanik vaha"
+ },
+ {
+  "ad": "Bardaî",
+  "lat": 21.36,
+  "lon": 17.0,
+  "not": "Tibesti; Teda başkenti"
+ },
+ {
+  "ad": "Zûâr",
+  "lat": 20.45,
+  "lon": 16.52,
+  "not": "Tibesti batısı"
+ },
+ {
+  "ad": "Vûr",
+  "lat": 21.35,
+  "lon": 15.98,
+  "not": "Tibesti kuzeybatısı"
+ }
+]

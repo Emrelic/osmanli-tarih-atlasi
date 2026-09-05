@@ -1,0 +1,112 @@
+[
+ {
+  "ad": "Mankhamba (Maravi)",
+  "lat": -14.28,
+  "lon": 34.52,
+  "kur": "1480-01-01",
+  "kunye": "maravi",
+  "s": [
+   {
+    "f": "1480-01-01",
+    "t": "1800-01-01",
+    "d": "maravi"
+   },
+   {
+    "f": "1800-01-01",
+    "t": "1891-05-14",
+    "d": "umman-zengibar"
+   },
+   {
+    "f": "1891-05-14",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı — Kalonga'nın başkenti; dayanak standart akademik kaynak. ⚠️ koordinat yaklaşık (~10 km), arkeolojik saha"
+ },
+ {
+  "ad": "Gcuva (Butterworth)",
+  "lat": -32.33,
+  "lon": 28.15,
+  "kur": "1281-01-01",
+  "kunye": "xhosa",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1878-01-01",
+    "d": "xhosa"
+   },
+   {
+    "f": "1878-01-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı — Gcaleka Xhosa'sının büyük yeri bu havzada; Butterworth misyonu 1827'de aynı yere kuruldu. 1281 XHOSA YERLEŞİMİNİN atlas ufkudur, KASABA tarihi DEĞİL"
+ },
+ {
+  "ad": "Mbande (Ngonde)",
+  "lat": -9.98,
+  "lon": 33.85,
+  "kur": "1600-01-01",
+  "kunye": "ngonde",
+  "s": [
+   {
+    "f": "1600-01-01",
+    "t": "1887-01-01",
+    "d": "ngonde"
+   },
+   {
+    "f": "1887-01-01",
+    "t": "1895-01-01",
+    "d": "umman-zengibar"
+   },
+   {
+    "f": "1895-01-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı — Kyungu'nun makamı Mbande tepesi. 🔴 KARONGA'YA DOKUNULMADI: o 1880'ler Stevenson yolu karakolu, kur: çekilmedi. TDV malavi'nin 1887'si (Mlozi'nin sultanlık ilânı) zincirde"
+ },
+ {
+  "ad": "Niangara (Mangbetu)",
+  "lat": 3.69,
+  "lon": 27.87,
+  "kur": "1815-01-01",
+  "kunye": "mangbetu",
+  "s": [
+   {
+    "f": "1815-01-01",
+    "t": "1895-01-01",
+    "d": "mangbetu"
+   },
+   {
+    "f": "1895-01-01",
+    "t": "1923-10-29",
+    "d": "belcika"
+   }
+  ],
+  "kaynak": "bulunamadı — Uele-Bomokandi arasında Mangbetu saray sahası; Nabiembali'nin birleştirmesi 1815. 🔴 ISIRO'YA DOKUNULMADI: o bir Belçika karakolu"
+ },
+ {
+  "ad": "Grand Cess (Kru)",
+  "lat": 4.57,
+  "lon": -8.21,
+  "kur": "1281-01-01",
+  "kunye": "kru-grebo",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1857-01-01",
+    "d": "kru-grebo"
+   },
+   {
+    "f": "1857-01-01",
+    "t": "1923-10-29",
+    "d": "liberya"
+   }
+  ],
+  "kaynak": "bulunamadı — Kru sahilinin köklü denizci kasabalarından; Liberya'ya katılımı 1857 Maryland birleşmesiyle. 🔴 HARPER'A DOKUNULMADI: o 1834 Maryland kolonisi"
+ }
+]

@@ -1,0 +1,722 @@
+[
+ {
+  "lat": 20.5,
+  "lon": -9.5,
+  "uzak_km": 440.4,
+  "kusak": "El-Cûf · Macâbat el-Kübrâ · Erg Şeş",
+  "cins": "insansiz",
+  "gerekce": "Sahra'nın en susuz kesimi; kervan yolu bile geçmez"
+ },
+ {
+  "lat": 20.5,
+  "lon": -8.5,
+  "uzak_km": 387.8,
+  "kusak": "El-Cûf · Macâbat el-Kübrâ · Erg Şeş",
+  "cins": "insansiz",
+  "gerekce": "Sahra'nın en susuz kesimi; kervan yolu bile geçmez"
+ },
+ {
+  "lat": 20.5,
+  "lon": -7.5,
+  "uzak_km": 359.2,
+  "kusak": "El-Cûf · Macâbat el-Kübrâ · Erg Şeş",
+  "cins": "insansiz",
+  "gerekce": "Sahra'nın en susuz kesimi; kervan yolu bile geçmez"
+ },
+ {
+  "lat": 20.5,
+  "lon": -6.5,
+  "uzak_km": 360.2,
+  "kusak": "El-Cûf · Macâbat el-Kübrâ · Erg Şeş",
+  "cins": "insansiz",
+  "gerekce": "Sahra'nın en susuz kesimi; kervan yolu bile geçmez"
+ },
+ {
+  "lat": 20.5,
+  "lon": -5.5,
+  "uzak_km": 390.7,
+  "kusak": "El-Cûf · Macâbat el-Kübrâ · Erg Şeş",
+  "cins": "insansiz",
+  "gerekce": "Sahra'nın en susuz kesimi; kervan yolu bile geçmez"
+ },
+ {
+  "lat": 20.5,
+  "lon": -4.5,
+  "uzak_km": 443.0,
+  "kusak": "Tanezruft · Ahnet · Tademaït",
+  "cins": "insansiz",
+  "gerekce": "'Susuzluk ülkesi'; kuyusuz taş ve kum düzlüğü"
+ },
+ {
+  "lat": 20.5,
+  "lon": -3.5,
+  "uzak_km": 417.4,
+  "kusak": "Tanezruft · Ahnet · Tademaït",
+  "cins": "insansiz",
+  "gerekce": "'Susuzluk ülkesi'; kuyusuz taş ve kum düzlüğü"
+ },
+ {
+  "lat": 20.5,
+  "lon": -2.5,
+  "uzak_km": 417.7,
+  "kusak": "Tanezruft · Ahnet · Tademaït",
+  "cins": "insansiz",
+  "gerekce": "'Susuzluk ülkesi'; kuyusuz taş ve kum düzlüğü"
+ },
+ {
+  "lat": 20.5,
+  "lon": -1.5,
+  "uzak_km": 443.7,
+  "kusak": "Tanezruft · Ahnet · Tademaït",
+  "cins": "insansiz",
+  "gerekce": "'Susuzluk ülkesi'; kuyusuz taş ve kum düzlüğü"
+ },
+ {
+  "lat": 20.5,
+  "lon": 4.5,
+  "uzak_km": 275.2,
+  "kusak": "Tamesna / Aïr batısı",
+  "cins": "kabile",
+  "gerekce": "Kel Ayr ve İvellemmedan Tuareg konfederasyonları"
+ },
+ {
+  "lat": 20.5,
+  "lon": 5.5,
+  "uzak_km": 254.1,
+  "kusak": "Tamesna / Aïr batısı",
+  "cins": "kabile",
+  "gerekce": "Kel Ayr ve İvellemmedan Tuareg konfederasyonları"
+ },
+ {
+  "lat": 20.5,
+  "lon": 6.5,
+  "uzak_km": 273.4,
+  "kusak": "Tamesna / Aïr batısı",
+  "cins": "kabile",
+  "gerekce": "Kel Ayr ve İvellemmedan Tuareg konfederasyonları"
+ },
+ {
+  "lat": 20.5,
+  "lon": 7.5,
+  "uzak_km": 326.0,
+  "kusak": "Tamesna / Aïr batısı",
+  "cins": "kabile",
+  "gerekce": "Kel Ayr ve İvellemmedan Tuareg konfederasyonları"
+ },
+ {
+  "lat": 20.5,
+  "lon": 8.5,
+  "uzak_km": 358.6,
+  "kusak": "Tamesna / Aïr batısı",
+  "cins": "kabile",
+  "gerekce": "Kel Ayr ve İvellemmedan Tuareg konfederasyonları"
+ },
+ {
+  "lat": 20.5,
+  "lon": 9.5,
+  "uzak_km": 281.7,
+  "kusak": "Tamesna / Aïr batısı",
+  "cins": "kabile",
+  "gerekce": "Kel Ayr ve İvellemmedan Tuareg konfederasyonları"
+ },
+ {
+  "lat": 20.5,
+  "lon": 10.5,
+  "uzak_km": 226.9,
+  "kusak": "Ténéré kuzeyi / Kavâr yolu",
+  "cins": "kabile",
+  "gerekce": "Kel Ayr Tuareg ve Teda tuz-kervan sahası"
+ },
+ {
+  "lat": 20.5,
+  "lon": 11.5,
+  "uzak_km": 212.3,
+  "kusak": "Ténéré kuzeyi / Kavâr yolu",
+  "cins": "kabile",
+  "gerekce": "Kel Ayr Tuareg ve Teda tuz-kervan sahası"
+ },
+ {
+  "lat": 20.5,
+  "lon": 12.5,
+  "uzak_km": 206.4,
+  "kusak": "Ténéré kuzeyi / Kavâr yolu",
+  "cins": "kabile",
+  "gerekce": "Kel Ayr Tuareg ve Teda tuz-kervan sahası"
+ },
+ {
+  "lat": 20.5,
+  "lon": 13.5,
+  "uzak_km": 210.7,
+  "kusak": "Ténéré kuzeyi / Kavâr yolu",
+  "cins": "kabile",
+  "gerekce": "Kel Ayr Tuareg ve Teda tuz-kervan sahası"
+ },
+ {
+  "lat": 20.5,
+  "lon": 19.5,
+  "uzak_km": 215.3,
+  "kusak": "Djourab / Borku kuzeyi",
+  "cins": "kabile",
+  "gerekce": "Teda-Daza (Tubu) konfederasyonları"
+ },
+ {
+  "lat": 20.5,
+  "lon": 23.5,
+  "uzak_km": 217.0,
+  "kusak": "Libya çölü · Kalanşû sarîri · Büyük Kum Denizi",
+  "cins": "insansiz",
+  "gerekce": "Sarîr ve erg iç kesimi; kuyu yok"
+ },
+ {
+  "lat": 21.5,
+  "lon": -9.5,
+  "uzak_km": 533.9,
+  "kusak": "El-Cûf · Macâbat el-Kübrâ · Erg Şeş",
+  "cins": "insansiz",
+  "gerekce": "Sahra'nın en susuz kesimi; kervan yolu bile geçmez"
+ },
+ {
+  "lat": 21.5,
+  "lon": -8.5,
+  "uzak_km": 491.7,
+  "kusak": "El-Cûf · Macâbat el-Kübrâ · Erg Şeş",
+  "cins": "insansiz",
+  "gerekce": "Sahra'nın en susuz kesimi; kervan yolu bile geçmez"
+ },
+ {
+  "lat": 21.5,
+  "lon": -7.5,
+  "uzak_km": 469.6,
+  "kusak": "El-Cûf · Macâbat el-Kübrâ · Erg Şeş",
+  "cins": "insansiz",
+  "gerekce": "Sahra'nın en susuz kesimi; kervan yolu bile geçmez"
+ },
+ {
+  "lat": 21.5,
+  "lon": -6.5,
+  "uzak_km": 470.4,
+  "kusak": "El-Cûf · Macâbat el-Kübrâ · Erg Şeş",
+  "cins": "insansiz",
+  "gerekce": "Sahra'nın en susuz kesimi; kervan yolu bile geçmez"
+ },
+ {
+  "lat": 21.5,
+  "lon": -5.5,
+  "uzak_km": 493.9,
+  "kusak": "El-Cûf · Macâbat el-Kübrâ · Erg Şeş",
+  "cins": "insansiz",
+  "gerekce": "Sahra'nın en susuz kesimi; kervan yolu bile geçmez"
+ },
+ {
+  "lat": 21.5,
+  "lon": -2.5,
+  "uzak_km": 528.1,
+  "kusak": "Tanezruft · Ahnet · Tademaït",
+  "cins": "insansiz",
+  "gerekce": "'Susuzluk ülkesi'; kuyusuz taş ve kum düzlüğü"
+ },
+ {
+  "lat": 21.5,
+  "lon": -1.5,
+  "uzak_km": 538.6,
+  "kusak": "Tanezruft · Ahnet · Tademaït",
+  "cins": "insansiz",
+  "gerekce": "'Susuzluk ülkesi'; kuyusuz taş ve kum düzlüğü"
+ },
+ {
+  "lat": 21.5,
+  "lon": 3.5,
+  "uzak_km": 252.6,
+  "kusak": "Tanezruft · Ahnet · Tademaït",
+  "cins": "insansiz",
+  "gerekce": "'Susuzluk ülkesi'; kuyusuz taş ve kum düzlüğü"
+ },
+ {
+  "lat": 21.5,
+  "lon": 7.5,
+  "uzak_km": 248.7,
+  "kusak": "Tamesna / Aïr batısı",
+  "cins": "kabile",
+  "gerekce": "Kel Ayr ve İvellemmedan Tuareg konfederasyonları"
+ },
+ {
+  "lat": 21.5,
+  "lon": 8.5,
+  "uzak_km": 305.6,
+  "kusak": "Tamesna / Aïr batısı",
+  "cins": "kabile",
+  "gerekce": "Kel Ayr ve İvellemmedan Tuareg konfederasyonları"
+ },
+ {
+  "lat": 21.5,
+  "lon": 9.5,
+  "uzak_km": 210.9,
+  "kusak": "Tamesna / Aïr batısı",
+  "cins": "kabile",
+  "gerekce": "Kel Ayr ve İvellemmedan Tuareg konfederasyonları"
+ },
+ {
+  "lat": 21.5,
+  "lon": 19.5,
+  "uzak_km": 214.6,
+  "kusak": "Djourab / Borku kuzeyi",
+  "cins": "kabile",
+  "gerekce": "Teda-Daza (Tubu) konfederasyonları"
+ },
+ {
+  "lat": 22.5,
+  "lon": -10.5,
+  "uzak_km": 682.4,
+  "kusak": "El-Cûf · Macâbat el-Kübrâ · Erg Şeş",
+  "cins": "insansiz",
+  "gerekce": "Sahra'nın en susuz kesimi; kervan yolu bile geçmez"
+ },
+ {
+  "lat": 22.5,
+  "lon": -9.5,
+  "uzak_km": 633.1,
+  "kusak": "El-Cûf · Macâbat el-Kübrâ · Erg Şeş",
+  "cins": "insansiz",
+  "gerekce": "Sahra'nın en susuz kesimi; kervan yolu bile geçmez"
+ },
+ {
+  "lat": 22.5,
+  "lon": -8.5,
+  "uzak_km": 598.2,
+  "kusak": "El-Cûf · Macâbat el-Kübrâ · Erg Şeş",
+  "cins": "insansiz",
+  "gerekce": "Sahra'nın en susuz kesimi; kervan yolu bile geçmez"
+ },
+ {
+  "lat": 22.5,
+  "lon": -7.5,
+  "uzak_km": 580.3,
+  "kusak": "El-Cûf · Macâbat el-Kübrâ · Erg Şeş",
+  "cins": "insansiz",
+  "gerekce": "Sahra'nın en susuz kesimi; kervan yolu bile geçmez"
+ },
+ {
+  "lat": 22.5,
+  "lon": -6.5,
+  "uzak_km": 580.9,
+  "kusak": "El-Cûf · Macâbat el-Kübrâ · Erg Şeş",
+  "cins": "insansiz",
+  "gerekce": "Sahra'nın en susuz kesimi; kervan yolu bile geçmez"
+ },
+ {
+  "lat": 22.5,
+  "lon": -1.5,
+  "uzak_km": 489.0,
+  "kusak": "Tanezruft · Ahnet · Tademaït",
+  "cins": "insansiz",
+  "gerekce": "'Susuzluk ülkesi'; kuyusuz taş ve kum düzlüğü"
+ },
+ {
+  "lat": 22.5,
+  "lon": 7.5,
+  "uzak_km": 205.3,
+  "kusak": "Tamesna / Aïr batısı",
+  "cins": "kabile",
+  "gerekce": "Kel Ayr ve İvellemmedan Tuareg konfederasyonları"
+ },
+ {
+  "lat": 22.5,
+  "lon": 8.5,
+  "uzak_km": 288.0,
+  "kusak": "Tamesna / Aïr batısı",
+  "cins": "kabile",
+  "gerekce": "Kel Ayr ve İvellemmedan Tuareg konfederasyonları"
+ },
+ {
+  "lat": 22.5,
+  "lon": 19.5,
+  "uzak_km": 257.9,
+  "kusak": "Djourab / Borku kuzeyi",
+  "cins": "kabile",
+  "gerekce": "Teda-Daza (Tubu) konfederasyonları"
+ },
+ {
+  "lat": 23.5,
+  "lon": -10.5,
+  "uzak_km": 611.7,
+  "kusak": "El-Cûf · Macâbat el-Kübrâ · Erg Şeş",
+  "cins": "insansiz",
+  "gerekce": "Sahra'nın en susuz kesimi; kervan yolu bile geçmez"
+ },
+ {
+  "lat": 23.5,
+  "lon": -9.5,
+  "uzak_km": 612.6,
+  "kusak": "El-Cûf · Macâbat el-Kübrâ · Erg Şeş",
+  "cins": "insansiz",
+  "gerekce": "Sahra'nın en susuz kesimi; kervan yolu bile geçmez"
+ },
+ {
+  "lat": 23.5,
+  "lon": -8.5,
+  "uzak_km": 629.6,
+  "kusak": "El-Cûf · Macâbat el-Kübrâ · Erg Şeş",
+  "cins": "insansiz",
+  "gerekce": "Sahra'nın en susuz kesimi; kervan yolu bile geçmez"
+ },
+ {
+  "lat": 23.5,
+  "lon": -7.5,
+  "uzak_km": 661.2,
+  "kusak": "El-Cûf · Macâbat el-Kübrâ · Erg Şeş",
+  "cins": "insansiz",
+  "gerekce": "Sahra'nın en susuz kesimi; kervan yolu bile geçmez"
+ },
+ {
+  "lat": 23.5,
+  "lon": -6.5,
+  "uzak_km": 691.6,
+  "kusak": "El-Cûf · Macâbat el-Kübrâ · Erg Şeş",
+  "cins": "insansiz",
+  "gerekce": "Sahra'nın en susuz kesimi; kervan yolu bile geçmez"
+ },
+ {
+  "lat": 23.5,
+  "lon": -1.5,
+  "uzak_km": 395.4,
+  "kusak": "Tanezruft · Ahnet · Tademaït",
+  "cins": "insansiz",
+  "gerekce": "'Susuzluk ülkesi'; kuyusuz taş ve kum düzlüğü"
+ },
+ {
+  "lat": 23.5,
+  "lon": -0.5,
+  "uzak_km": 360.5,
+  "kusak": "Tanezruft · Ahnet · Tademaït",
+  "cins": "insansiz",
+  "gerekce": "'Susuzluk ülkesi'; kuyusuz taş ve kum düzlüğü"
+ },
+ {
+  "lat": 23.5,
+  "lon": 0.5,
+  "uzak_km": 260.4,
+  "kusak": "Tanezruft · Ahnet · Tademaït",
+  "cins": "insansiz",
+  "gerekce": "'Susuzluk ülkesi'; kuyusuz taş ve kum düzlüğü"
+ },
+ {
+  "lat": 23.5,
+  "lon": 16.5,
+  "uzak_km": 219.6,
+  "kusak": "Djourab / Borku kuzeyi",
+  "cins": "kabile",
+  "gerekce": "Teda-Daza (Tubu) konfederasyonları"
+ },
+ {
+  "lat": 23.5,
+  "lon": 19.5,
+  "uzak_km": 217.8,
+  "kusak": "Djourab / Borku kuzeyi",
+  "cins": "kabile",
+  "gerekce": "Teda-Daza (Tubu) konfederasyonları"
+ },
+ {
+  "lat": 23.5,
+  "lon": 28.5,
+  "uzak_km": 226.9,
+  "kusak": "Libya çölü · Kalanşû sarîri · Büyük Kum Denizi",
+  "cins": "insansiz",
+  "gerekce": "Sarîr ve erg iç kesimi; kuyu yok"
+ },
+ {
+  "lat": 23.5,
+  "lon": 29.5,
+  "uzak_km": 223.3,
+  "kusak": "Libya çölü · Kalanşû sarîri · Büyük Kum Denizi",
+  "cins": "insansiz",
+  "gerekce": "Sarîr ve erg iç kesimi; kuyu yok"
+ },
+ {
+  "lat": 24.5,
+  "lon": -7.5,
+  "uzak_km": 559.8,
+  "kusak": "El-Cûf · Macâbat el-Kübrâ · Erg Şeş",
+  "cins": "insansiz",
+  "gerekce": "Sahra'nın en susuz kesimi; kervan yolu bile geçmez"
+ },
+ {
+  "lat": 24.5,
+  "lon": -6.5,
+  "uzak_km": 601.0,
+  "kusak": "El-Cûf · Macâbat el-Kübrâ · Erg Şeş",
+  "cins": "insansiz",
+  "gerekce": "Sahra'nın en susuz kesimi; kervan yolu bile geçmez"
+ },
+ {
+  "lat": 24.5,
+  "lon": -5.5,
+  "uzak_km": 619.7,
+  "kusak": "El-Cûf · Macâbat el-Kübrâ · Erg Şeş",
+  "cins": "insansiz",
+  "gerekce": "Sahra'nın en susuz kesimi; kervan yolu bile geçmez"
+ },
+ {
+  "lat": 24.5,
+  "lon": -4.5,
+  "uzak_km": 529.2,
+  "kusak": "Tanezruft · Ahnet · Tademaït",
+  "cins": "insansiz",
+  "gerekce": "'Susuzluk ülkesi'; kuyusuz taş ve kum düzlüğü"
+ },
+ {
+  "lat": 24.5,
+  "lon": -3.5,
+  "uzak_km": 443.0,
+  "kusak": "Tanezruft · Ahnet · Tademaït",
+  "cins": "insansiz",
+  "gerekce": "'Susuzluk ülkesi'; kuyusuz taş ve kum düzlüğü"
+ },
+ {
+  "lat": 24.5,
+  "lon": -2.5,
+  "uzak_km": 364.1,
+  "kusak": "Tanezruft · Ahnet · Tademaït",
+  "cins": "insansiz",
+  "gerekce": "'Susuzluk ülkesi'; kuyusuz taş ve kum düzlüğü"
+ },
+ {
+  "lat": 24.5,
+  "lon": -1.5,
+  "uzak_km": 298.2,
+  "kusak": "Tanezruft · Ahnet · Tademaït",
+  "cins": "insansiz",
+  "gerekce": "'Susuzluk ülkesi'; kuyusuz taş ve kum düzlüğü"
+ },
+ {
+  "lat": 24.5,
+  "lon": -0.5,
+  "uzak_km": 255.7,
+  "kusak": "Tanezruft · Ahnet · Tademaït",
+  "cins": "insansiz",
+  "gerekce": "'Susuzluk ülkesi'; kuyusuz taş ve kum düzlüğü"
+ },
+ {
+  "lat": 24.5,
+  "lon": 0.5,
+  "uzak_km": 248.9,
+  "kusak": "Tanezruft · Ahnet · Tademaït",
+  "cins": "insansiz",
+  "gerekce": "'Susuzluk ülkesi'; kuyusuz taş ve kum düzlüğü"
+ },
+ {
+  "lat": 25.5,
+  "lon": -7.5,
+  "uzak_km": 462.8,
+  "kusak": "El-Cûf · Macâbat el-Kübrâ · Erg Şeş",
+  "cins": "insansiz",
+  "gerekce": "Sahra'nın en susuz kesimi; kervan yolu bile geçmez"
+ },
+ {
+  "lat": 25.5,
+  "lon": -6.5,
+  "uzak_km": 493.7,
+  "kusak": "El-Cûf · Macâbat el-Kübrâ · Erg Şeş",
+  "cins": "insansiz",
+  "gerekce": "Sahra'nın en susuz kesimi; kervan yolu bile geçmez"
+ },
+ {
+  "lat": 25.5,
+  "lon": -5.5,
+  "uzak_km": 531.0,
+  "kusak": "El-Cûf · Macâbat el-Kübrâ · Erg Şeş",
+  "cins": "insansiz",
+  "gerekce": "Sahra'nın en susuz kesimi; kervan yolu bile geçmez"
+ },
+ {
+  "lat": 25.5,
+  "lon": -4.5,
+  "uzak_km": 485.6,
+  "kusak": "Tanezruft · Ahnet · Tademaït",
+  "cins": "insansiz",
+  "gerekce": "'Susuzluk ülkesi'; kuyusuz taş ve kum düzlüğü"
+ },
+ {
+  "lat": 25.5,
+  "lon": -3.5,
+  "uzak_km": 390.7,
+  "kusak": "Tanezruft · Ahnet · Tademaït",
+  "cins": "insansiz",
+  "gerekce": "'Susuzluk ülkesi'; kuyusuz taş ve kum düzlüğü"
+ },
+ {
+  "lat": 25.5,
+  "lon": -2.5,
+  "uzak_km": 299.1,
+  "kusak": "Tanezruft · Ahnet · Tademaït",
+  "cins": "insansiz",
+  "gerekce": "'Susuzluk ülkesi'; kuyusuz taş ve kum düzlüğü"
+ },
+ {
+  "lat": 25.5,
+  "lon": -1.5,
+  "uzak_km": 214.9,
+  "kusak": "Tanezruft · Ahnet · Tademaït",
+  "cins": "insansiz",
+  "gerekce": "'Susuzluk ülkesi'; kuyusuz taş ve kum düzlüğü"
+ },
+ {
+  "lat": 25.5,
+  "lon": 25.5,
+  "uzak_km": 228.1,
+  "kusak": "Libya çölü · Kalanşû sarîri · Büyük Kum Denizi",
+  "cins": "insansiz",
+  "gerekce": "Sarîr ve erg iç kesimi; kuyu yok"
+ },
+ {
+  "lat": 25.5,
+  "lon": 26.5,
+  "uzak_km": 226.9,
+  "kusak": "Libya çölü · Kalanşû sarîri · Büyük Kum Denizi",
+  "cins": "insansiz",
+  "gerekce": "Sarîr ve erg iç kesimi; kuyu yok"
+ },
+ {
+  "lat": 26.5,
+  "lon": -6.5,
+  "uzak_km": 388.5,
+  "kusak": "El-Cûf · Macâbat el-Kübrâ · Erg Şeş",
+  "cins": "insansiz",
+  "gerekce": "Sahra'nın en susuz kesimi; kervan yolu bile geçmez"
+ },
+ {
+  "lat": 26.5,
+  "lon": -5.5,
+  "uzak_km": 427.4,
+  "kusak": "El-Cûf · Macâbat el-Kübrâ · Erg Şeş",
+  "cins": "insansiz",
+  "gerekce": "Sahra'nın en susuz kesimi; kervan yolu bile geçmez"
+ },
+ {
+  "lat": 26.5,
+  "lon": -4.5,
+  "uzak_km": 443.1,
+  "kusak": "Tanezruft · Ahnet · Tademaït",
+  "cins": "insansiz",
+  "gerekce": "'Susuzluk ülkesi'; kuyusuz taş ve kum düzlüğü"
+ },
+ {
+  "lat": 26.5,
+  "lon": -3.5,
+  "uzak_km": 352.0,
+  "kusak": "Tanezruft · Ahnet · Tademaït",
+  "cins": "insansiz",
+  "gerekce": "'Susuzluk ülkesi'; kuyusuz taş ve kum düzlüğü"
+ },
+ {
+  "lat": 26.5,
+  "lon": -2.5,
+  "uzak_km": 266.4,
+  "kusak": "Tanezruft · Ahnet · Tademaït",
+  "cins": "insansiz",
+  "gerekce": "'Susuzluk ülkesi'; kuyusuz taş ve kum düzlüğü"
+ },
+ {
+  "lat": 26.5,
+  "lon": 24.5,
+  "uzak_km": 271.5,
+  "kusak": "Libya çölü · Kalanşû sarîri · Büyük Kum Denizi",
+  "cins": "insansiz",
+  "gerekce": "Sarîr ve erg iç kesimi; kuyu yok"
+ },
+ {
+  "lat": 26.5,
+  "lon": 25.5,
+  "uzak_km": 252.9,
+  "kusak": "Libya çölü · Kalanşû sarîri · Büyük Kum Denizi",
+  "cins": "insansiz",
+  "gerekce": "Sarîr ve erg iç kesimi; kuyu yok"
+ },
+ {
+  "lat": 27.5,
+  "lon": -5.5,
+  "uzak_km": 316.6,
+  "kusak": "El-Cûf · Macâbat el-Kübrâ · Erg Şeş",
+  "cins": "insansiz",
+  "gerekce": "Sahra'nın en susuz kesimi; kervan yolu bile geçmez"
+ },
+ {
+  "lat": 27.5,
+  "lon": -4.5,
+  "uzak_km": 340.8,
+  "kusak": "Tanezruft · Ahnet · Tademaït",
+  "cins": "insansiz",
+  "gerekce": "'Susuzluk ülkesi'; kuyusuz taş ve kum düzlüğü"
+ },
+ {
+  "lat": 27.5,
+  "lon": -3.5,
+  "uzak_km": 318.4,
+  "kusak": "Tanezruft · Ahnet · Tademaït",
+  "cins": "insansiz",
+  "gerekce": "'Susuzluk ülkesi'; kuyusuz taş ve kum düzlüğü"
+ },
+ {
+  "lat": 27.5,
+  "lon": -2.5,
+  "uzak_km": 221.2,
+  "kusak": "Tanezruft · Ahnet · Tademaït",
+  "cins": "insansiz",
+  "gerekce": "'Susuzluk ülkesi'; kuyusuz taş ve kum düzlüğü"
+ },
+ {
+  "lat": 27.5,
+  "lon": 24.5,
+  "uzak_km": 246.6,
+  "kusak": "Libya çölü · Kalanşû sarîri · Büyük Kum Denizi",
+  "cins": "insansiz",
+  "gerekce": "Sarîr ve erg iç kesimi; kuyu yok"
+ },
+ {
+  "lat": 28.5,
+  "lon": 4.5,
+  "uzak_km": 246.0,
+  "kusak": "Büyük Garb ve Şark Ergi (Cezayir)",
+  "cins": "insansiz",
+  "gerekce": "Erg iç kesimi; ksarlar kenarda, orta kumul ve kuyusuz"
+ },
+ {
+  "lat": 28.5,
+  "lon": 12.5,
+  "uzak_km": 214.1,
+  "kusak": "Ubârî ve Murzuk kum denizleri (Fizan)",
+  "cins": "insansiz",
+  "gerekce": "Erg iç kesimi; vahalar kenarda, orta boş"
+ },
+ {
+  "lat": 29.5,
+  "lon": 12.5,
+  "uzak_km": 211.5,
+  "kusak": "Ubârî ve Murzuk kum denizleri (Fizan)",
+  "cins": "insansiz",
+  "gerekce": "Erg iç kesimi; vahalar kenarda, orta boş"
+ },
+ {
+  "lat": 29.5,
+  "lon": 13.5,
+  "uzak_km": 222.4,
+  "kusak": "Ubârî ve Murzuk kum denizleri (Fizan)",
+  "cins": "insansiz",
+  "gerekce": "Erg iç kesimi; vahalar kenarda, orta boş"
+ },
+ {
+  "lat": 31.5,
+  "lon": 7.5,
+  "uzak_km": 211.7,
+  "kusak": "Büyük Garb ve Şark Ergi (Cezayir)",
+  "cins": "insansiz",
+  "gerekce": "Erg iç kesimi; ksarlar kenarda, orta kumul ve kuyusuz"
+ },
+ {
+  "lat": 33.5,
+  "lon": 0.5,
+  "uzak_km": 213.4,
+  "kusak": "Tanezruft · Ahnet · Tademaït",
+  "cins": "insansiz",
+  "gerekce": "'Susuzluk ülkesi'; kuyusuz taş ve kum düzlüğü"
+ }
+]

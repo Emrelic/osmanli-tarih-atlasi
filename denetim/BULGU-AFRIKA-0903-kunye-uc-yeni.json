@@ -1,0 +1,77 @@
+[
+ {
+  "id": "tuareg-ahaggar",
+  "ad": "Kel Ahaggar Tuareg Konfederasyonu",
+  "tur": "devlet",
+  "bolge": "kuzey-afrika",
+  "f": "1281-01-01",
+  "t": "1902-05-07",
+  "baskent": "Tamanrasset",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "ozet": "Hoggar (Ahaggar) yaylasında Amenokal unvanlı reislerce yönetilen Tuareg konfederasyonu; Tin Hinan geleneğine dayanır, kervan yollarını ve tuz ticaretini denetlerdi. Tit muharebesinde Fransız kuvvetlerine yenildi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "not": "🔴 f: ATLAS UFKUDUR, kuruluş yılı DEĞİL. Atlasın kendi `Tamanrasset` kaydı 'Amenokal liderliğinde YAKLAŞIK 1750'den itibaren teşkilatlı; öncesinde de gevşek Tuareg…' diyor — yani 1750 TEŞKİLATLANMA, 1281 ise varlığın atlas ufkundaki başlangıcı. Bu ayrım gizlenmiyor. ⚠️ Tit muharebesi 1902-05-07 kesin gündür; Amenokal Musa ag Amastan'ın resmî tâbiiyeti 1905'tedir — künye ERKEN ucu, yani fiilî yenilgiyi alıyor.",
+  "kronoloji": [
+   {
+    "t": "1281-01-01",
+    "tur": "kurulus",
+    "b": "Kel Ahaggar Tuareg'i Hoggar yaylasında (atlas ufku)"
+   },
+   {
+    "t": "1902-05-07",
+    "tur": "savas",
+    "b": "Tit muharebesinde Fransız kuvvetlerine yenildi"
+   }
+  ]
+ },
+ {
+  "id": "tuareg-accer",
+  "ad": "Kel Accer Tuareg Konfederasyonu",
+  "tur": "devlet",
+  "bolge": "kuzey-afrika",
+  "f": "1281-01-01",
+  "t": "1911-01-01",
+  "baskent": "Cânet",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "ozet": "Tâsîlî n'Accer platosunda Kel Accer Tuareg konfederasyonu; Gât ve Cânet vahalarını, Fizan ile Aïr arasındaki kervan yolunu denetlerdi. Fransız işgaliyle sona erdi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "not": "🔴 t: DÜZELTİLDİ — M-2420'de '1911-11-27' yazmıştım, o GÜN kaynaklı DEĞİLDİ. `§4`: gün bilinmiyorsa YYYY-01-01. Yıl (1911) sağlam, gün değil ⇒ 1911-01-01. Kendi önerimdeki uydurma günü kendim çıkardım. ⚠️ Gât Libya tarafındadır ve LİBYA emsalini (hafsi/d/v/italya) kullanır; bu künye yalnız CEZAYİR tarafını kapsar.",
+  "kronoloji": [
+   {
+    "t": "1281-01-01",
+    "tur": "kurulus",
+    "b": "Kel Accer Tuareg'i Tâsîlî platosunda (atlas ufku)"
+   },
+   {
+    "t": "1911-01-01",
+    "tur": "son",
+    "b": "Fransız işgaliyle bağımsızlık sona erdi"
+   }
+  ]
+ },
+ {
+  "id": "tubu-tibesti",
+  "ad": "Tibesti Teda (Tubu) Konfederasyonu",
+  "tur": "devlet",
+  "bolge": "orta-afrika",
+  "f": "1281-01-01",
+  "t": "1914-01-01",
+  "baskent": "Bardaî",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "ozet": "Tibesti dağlarında Derde unvanlı reisin başında bulunduğu Teda (Tubu) konfederasyonu; Fizan ile Kanem arasındaki kervan yolunu denetler, hiçbir devlete uzun süreli tâbi olmadı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "not": "🔴 Bu künye, atlasın kendi `Tibesti` beyanıyla ÇELİŞİR: o kayıt 'hiçbir devletin fiilen ulaştığı…' diyor ve `bos:\"kabile\"` taşıyor. Künye yazılırsa o beyan ya kaldırılmalı ya cinsi güncellenmelidir — karar ve o nokta KOORDİNATÖRDE. ⚠️ 1914 yılı sağlam, GÜN kaynaklı değil (`§4`: YYYY-01-01). İtalya Tibesti'yi hiç fiilen tutmadı; Fransız Borku-Ennedi-Tibesti idaresi esas alındı.",
+  "kronoloji": [
+   {
+    "t": "1281-01-01",
+    "tur": "kurulus",
+    "b": "Teda (Tubu) konfederasyonu Tibesti'de (atlas ufku)"
+   },
+   {
+    "t": "1914-01-01",
+    "tur": "son",
+    "b": "Fransız Borku-Ennedi-Tibesti idaresi kuruldu"
+   }
+  ]
+ }
+]

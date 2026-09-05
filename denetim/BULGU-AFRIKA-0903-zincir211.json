@@ -1,0 +1,4297 @@
+[
+ {
+  "ad": "Timbo",
+  "lat": 10.65,
+  "lon": -11.85,
+  "kur": "1747-01-01",
+  "s": [
+   {
+    "f": "1747-01-01",
+    "t": "1896-01-01",
+    "d": "futa-callon"
+   },
+   {
+    "f": "1896-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "gine",
+  "not": "Futa Callon imamlığı merkezi (~1747)"
+ },
+ {
+  "ad": "Labe",
+  "lat": 11.32,
+  "lon": -12.28,
+  "kur": "1747-01-01",
+  "s": [
+   {
+    "f": "1747-01-01",
+    "t": "1896-01-01",
+    "d": "futa-callon"
+   },
+   {
+    "f": "1896-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "gine",
+  "not": "Futa Callon eyalet merkezi"
+ },
+ {
+  "ad": "Podor",
+  "lat": 16.65,
+  "lon": -14.96,
+  "kur": "1776-01-01",
+  "s": [
+   {
+    "f": "1776-01-01",
+    "t": "1881-01-01",
+    "d": "futa-toro"
+   },
+   {
+    "f": "1881-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "senegal",
+  "not": "Futa Toro; Fransız kalesi 1854"
+ },
+ {
+  "ad": "Kaedi",
+  "lat": 16.15,
+  "lon": -13.5,
+  "kur": "1776-01-01",
+  "s": [
+   {
+    "f": "1776-01-01",
+    "t": "1881-01-01",
+    "d": "futa-toro"
+   },
+   {
+    "f": "1881-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "senegal",
+  "not": "Futa Toro kuzeyi, Senegal nehri"
+ },
+ {
+  "ad": "Linguère (Colof)",
+  "lat": 15.4,
+  "lon": -15.12,
+  "kur": "1350-01-01",
+  "s": [
+   {
+    "f": "1350-01-01",
+    "t": "1890-01-01",
+    "d": "colof"
+   },
+   {
+    "f": "1890-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "senegal",
+  "not": "Jolof krallığı sahası"
+ },
+ {
+  "ad": "Mbul (Kayor)",
+  "lat": 15.16,
+  "lon": -16.38,
+  "kur": "1549-01-01",
+  "s": [
+   {
+    "f": "1549-01-01",
+    "t": "1886-10-27",
+    "d": "kayor"
+   },
+   {
+    "f": "1886-10-27",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "senegal",
+  "not": "Cayor krallığı başkenti"
+ },
+ {
+  "ad": "Rufisque",
+  "lat": 14.72,
+  "lon": -17.27,
+  "kur": "1549-01-01",
+  "s": [
+   {
+    "f": "1549-01-01",
+    "t": "1886-10-27",
+    "d": "kayor"
+   },
+   {
+    "f": "1886-10-27",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "senegal",
+  "not": "XVI. yy Portekiz 'Rio Fresco'"
+ },
+ {
+  "ad": "Nder (Valo)",
+  "lat": 16.2,
+  "lon": -15.85,
+  "kur": "1287-01-01",
+  "s": [
+   {
+    "f": "1287-01-01",
+    "t": "1855-02-25",
+    "d": "valo"
+   },
+   {
+    "f": "1855-02-25",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Waalo krallığı başkenti"
+ },
+ {
+  "ad": "Diahav (Sine)",
+  "lat": 14.3,
+  "lon": -16.3,
+  "kur": "1350-01-01",
+  "s": [
+   {
+    "f": "1350-01-01",
+    "t": "1887-01-01",
+    "d": "sine-salum"
+   },
+   {
+    "f": "1887-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "senegal",
+  "not": "Sine krallığı başkenti Diakhao"
+ },
+ {
+  "ad": "Kahone (Salum)",
+  "lat": 13.92,
+  "lon": -16.18,
+  "kur": "1350-01-01",
+  "s": [
+   {
+    "f": "1350-01-01",
+    "t": "1887-01-01",
+    "d": "sine-salum"
+   },
+   {
+    "f": "1887-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "senegal",
+  "not": "Saloum krallığı başkenti"
+ },
+ {
+  "ad": "Bulebane (Bundu)",
+  "lat": 14.32,
+  "lon": -12.7,
+  "kur": "1690-01-01",
+  "s": [
+   {
+    "f": "1690-01-01",
+    "t": "1858-01-01",
+    "d": "bundu"
+   },
+   {
+    "f": "1858-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Bundu emirliği başkenti"
+ },
+ {
+  "ad": "Tişît (Tichitt)",
+  "lat": 18.45,
+  "lon": -9.51,
+  "kur": "1640-01-01",
+  "s": [
+   {
+    "f": "1640-01-01",
+    "t": "1909-01-01",
+    "d": "moritanya-emirlikleri"
+   },
+   {
+    "f": "1909-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "moritanya",
+  "not": "Berberî ksar; Massûfe/Trarza çevresi"
+ },
+ {
+  "ad": "Nema (Néma)",
+  "lat": 16.62,
+  "lon": -7.26,
+  "kur": "1640-01-01",
+  "s": [
+   {
+    "f": "1640-01-01",
+    "t": "1909-01-01",
+    "d": "moritanya-emirlikleri"
+   },
+   {
+    "f": "1909-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "moritanya",
+  "not": "Hodh; Mali-Songhay ticaret ucu"
+ },
+ {
+  "ad": "Râşid (Tagant)",
+  "lat": 18.83,
+  "lon": -11.6,
+  "kur": "1640-01-01",
+  "s": [
+   {
+    "f": "1640-01-01",
+    "t": "1909-01-01",
+    "d": "moritanya-emirlikleri"
+   },
+   {
+    "f": "1909-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "moritanya",
+  "not": "Tagant emirliği merkezi"
+ },
+ {
+  "ad": "Kiffa",
+  "lat": 16.62,
+  "lon": -11.4,
+  "kur": "1640-01-01",
+  "s": [
+   {
+    "f": "1640-01-01",
+    "t": "1909-01-01",
+    "d": "moritanya-emirlikleri"
+   },
+   {
+    "f": "1909-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "moritanya",
+  "not": "Assaba; Brakna-Idav'iş sahası"
+ },
+ {
+  "ad": "Butilimit",
+  "lat": 17.55,
+  "lon": -14.7,
+  "kur": "1640-01-01",
+  "s": [
+   {
+    "f": "1640-01-01",
+    "t": "1909-01-01",
+    "d": "moritanya-emirlikleri"
+   },
+   {
+    "f": "1909-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "moritanya",
+  "not": "Trarza emirliği; zâviye merkezi"
+ },
+ {
+  "ad": "Albreda-Cufure",
+  "lat": 13.32,
+  "lon": -16.36,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1894-01-01",
+    "d": "gambiya-mandinka"
+   },
+   {
+    "f": "1894-01-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Gambiya nehri ticaret noktası"
+ },
+ {
+  "ad": "Bisandugu",
+  "lat": 10.03,
+  "lon": -9.1,
+  "kur": "1878-01-01",
+  "s": [
+   {
+    "f": "1878-01-01",
+    "t": "1898-09-29",
+    "d": "vasulu"
+   },
+   {
+    "f": "1898-09-29",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "gine",
+  "not": "Samori Ture devletinin başkenti"
+ },
+ {
+  "ad": "Kankan",
+  "lat": 10.39,
+  "lon": -9.31,
+  "kur": "1650-01-01",
+  "s": [
+   {
+    "f": "1650-01-01",
+    "t": "1879-01-01",
+    "d": "bate"
+   },
+   {
+    "f": "1879-01-01",
+    "t": "1898-09-29",
+    "d": "vasulu"
+   },
+   {
+    "f": "1898-09-29",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "gine",
+  "not": "Baté; Diafunu'dan gelen Mandinka 🔴 ZİNCİR DÜZELTİLDİ: kur:1878 → 1650. Eski hâli şehri 1650-1878 arası atlastan siliyordu."
+ },
+ {
+  "ad": "Beyla",
+  "lat": 8.69,
+  "lon": -8.64,
+  "kur": "1878-01-01",
+  "s": [
+   {
+    "f": "1878-01-01",
+    "t": "1898-09-29",
+    "d": "vasulu"
+   },
+   {
+    "f": "1898-09-29",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "gine",
+  "not": "Konyan; Samori'nin cikis bolgesi"
+ },
+ {
+  "ad": "Odienne",
+  "lat": 9.51,
+  "lon": -7.57,
+  "kur": "1878-01-01",
+  "s": [
+   {
+    "f": "1878-01-01",
+    "t": "1898-09-29",
+    "d": "vasulu"
+   },
+   {
+    "f": "1898-09-29",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "gine",
+  "not": "Kabadugu; Malinke"
+ },
+ {
+  "ad": "Seguela",
+  "lat": 7.96,
+  "lon": -6.67,
+  "kur": "1878-01-01",
+  "s": [
+   {
+    "f": "1878-01-01",
+    "t": "1898-09-29",
+    "d": "vasulu"
+   },
+   {
+    "f": "1898-09-29",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "gine",
+  "not": "Vorodugu; Samori sahasi"
+ },
+ {
+  "ad": "Falaba",
+  "lat": 9.85,
+  "lon": -11.3,
+  "kur": "1720-01-01",
+  "s": [
+   {
+    "f": "1720-01-01",
+    "t": "1884-01-01",
+    "d": "solima-yalunka"
+   },
+   {
+    "f": "1884-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Solima Yalunka krallığı merkezi"
+ },
+ {
+  "ad": "Nioro (Kaarta)",
+  "lat": 15.23,
+  "lon": -9.59,
+  "kur": "1650-01-01",
+  "s": [
+   {
+    "f": "1650-01-01",
+    "t": "1861-03-10",
+    "d": "bambara"
+   },
+   {
+    "f": "1861-03-10",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "mali",
+  "not": "Kaarta Bambara krallığı merkezi"
+ },
+ {
+  "ad": "Bamako",
+  "lat": 12.65,
+  "lon": -8.0,
+  "kur": "1650-01-01",
+  "s": [
+   {
+    "f": "1650-01-01",
+    "t": "1861-03-10",
+    "d": "bambara"
+   },
+   {
+    "f": "1861-03-10",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "mali",
+  "not": "1883 Fransız · 1920 Fr. Sudan başkenti"
+ },
+ {
+  "ad": "Kangaba",
+  "lat": 11.94,
+  "lon": -8.42,
+  "kur": "1650-01-01",
+  "s": [
+   {
+    "f": "1650-01-01",
+    "t": "1861-03-10",
+    "d": "bambara"
+   },
+   {
+    "f": "1861-03-10",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "mali",
+  "not": "Mali İmparatorluğu Manden çekirdeği"
+ },
+ {
+  "ad": "Sikasso (Kenedugu)",
+  "lat": 11.32,
+  "lon": -5.67,
+  "kur": "1650-01-01",
+  "s": [
+   {
+    "f": "1650-01-01",
+    "t": "1898-05-01",
+    "d": "kenedugu"
+   },
+   {
+    "f": "1898-05-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Kenedougou başkenti 1876; düşüş 1898"
+ },
+ {
+  "ad": "Vagadugu (Ouagadougou)",
+  "lat": 12.37,
+  "lon": -1.53,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1896-09-01",
+    "d": "mossi-vagadugu"
+   },
+   {
+    "f": "1896-09-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "burkina-faso",
+  "not": "Mossi başkenti; Fransız 1896"
+ },
+ {
+  "ad": "Tenkodogo",
+  "lat": 11.78,
+  "lon": -0.37,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1896-09-01",
+    "d": "mossi-vagadugu"
+   },
+   {
+    "f": "1896-09-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "burkina-faso",
+  "not": "En eski Mossi krallığı merkezi"
+ },
+ {
+  "ad": "Bobo-Diulasso",
+  "lat": 11.18,
+  "lon": -4.3,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1896-09-01",
+    "d": "mossi-vagadugu"
+   },
+   {
+    "f": "1896-09-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "burkina-faso",
+  "not": "Eski ticaret merkezi"
+ },
+ {
+  "ad": "Vahiguya (Yatenga)",
+  "lat": 13.58,
+  "lon": -2.42,
+  "kur": "1540-01-01",
+  "s": [
+   {
+    "f": "1540-01-01",
+    "t": "1895-01-01",
+    "d": "yatenga"
+   },
+   {
+    "f": "1895-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "burkina-faso",
+  "not": "Yatenga başkenti, Naaba Kango 1757"
+ },
+ {
+  "ad": "Fada Ngurma (Gurma)",
+  "lat": 12.06,
+  "lon": 0.36,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1897-01-01",
+    "d": "gurma"
+   },
+   {
+    "f": "1897-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "burkina-faso",
+  "not": "Gurma krallığı merkezi"
+ },
+ {
+  "ad": "Dori",
+  "lat": 14.03,
+  "lon": -0.03,
+  "kur": "1810-01-01",
+  "s": [
+   {
+    "f": "1810-01-01",
+    "t": "1897-01-01",
+    "d": "liptako"
+   },
+   {
+    "f": "1897-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Liptako emirligi merkezi (1810)"
+ },
+ {
+  "ad": "Say",
+  "lat": 13.1,
+  "lon": 2.37,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1898-01-01",
+    "d": "zerma"
+   },
+   {
+    "f": "1898-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Fulani zaviyesi 1810"
+ },
+ {
+  "ad": "Tera",
+  "lat": 14.01,
+  "lon": 0.75,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1898-01-01",
+    "d": "zerma"
+   },
+   {
+    "f": "1898-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Zerma sahasi"
+ },
+ {
+  "ad": "Tillaberi",
+  "lat": 14.21,
+  "lon": 1.45,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1898-01-01",
+    "d": "zerma"
+   },
+   {
+    "f": "1898-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Nijer nehri; Zerma-Songhay"
+ },
+ {
+  "ad": "Kong",
+  "lat": 9.15,
+  "lon": -4.61,
+  "kur": "1710-01-01",
+  "s": [
+   {
+    "f": "1710-01-01",
+    "t": "1897-05-01",
+    "d": "kong-vattara"
+   },
+   {
+    "f": "1897-05-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Vattara devleti 1710; Samori 1897 yıktı"
+ },
+ {
+  "ad": "Buna (Bouna)",
+  "lat": 9.27,
+  "lon": -3.0,
+  "kur": "1690-01-01",
+  "s": [
+   {
+    "f": "1690-01-01",
+    "t": "1897-01-01",
+    "d": "buna"
+   },
+   {
+    "f": "1897-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Bouna krallığı (Kulango)"
+ },
+ {
+  "ad": "Bondugu (Gyaaman)",
+  "lat": 8.04,
+  "lon": -2.8,
+  "kur": "1690-01-01",
+  "s": [
+   {
+    "f": "1690-01-01",
+    "t": "1895-01-01",
+    "d": "gyaaman"
+   },
+   {
+    "f": "1895-01-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Gyaaman krallığı merkezi"
+ },
+ {
+  "ad": "Salaga (Gonja)",
+  "lat": 8.55,
+  "lon": -0.52,
+  "kur": "1550-01-01",
+  "s": [
+   {
+    "f": "1550-01-01",
+    "t": "1899-01-01",
+    "d": "gonja"
+   },
+   {
+    "f": "1899-01-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Gonja krallığı pazar merkezi"
+ },
+ {
+  "ad": "Bole",
+  "lat": 9.03,
+  "lon": -2.48,
+  "kur": "1550-01-01",
+  "s": [
+   {
+    "f": "1550-01-01",
+    "t": "1899-01-01",
+    "d": "gonja"
+   },
+   {
+    "f": "1899-01-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Gonja batı bölümü"
+ },
+ {
+  "ad": "Begho (Bighu)",
+  "lat": 7.75,
+  "lon": -2.35,
+  "kur": "1550-01-01",
+  "s": [
+   {
+    "f": "1550-01-01",
+    "t": "1899-01-01",
+    "d": "gonja"
+   },
+   {
+    "f": "1899-01-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Altın ticaret şehri; ~1720'de terk"
+ },
+ {
+  "ad": "Yendi (Dagbon)",
+  "lat": 9.44,
+  "lon": -0.01,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1899-01-01",
+    "d": "dagbon"
+   },
+   {
+    "f": "1899-01-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Dagbon krallığı başkenti"
+ },
+ {
+  "ad": "Notse",
+  "lat": 6.95,
+  "lon": 1.17,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1884-07-05",
+    "d": "eve-notse"
+   },
+   {
+    "f": "1884-07-05",
+    "t": "1916-02-16",
+    "d": "almanya"
+   },
+   {
+    "f": "1916-02-16",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Eve (Ewe) ana yerleşimi"
+ },
+ {
+  "ad": "Nikki (Borgu)",
+  "lat": 9.94,
+  "lon": 3.21,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1898-01-01",
+    "d": "borgu"
+   },
+   {
+    "f": "1898-01-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Borgu Bariba krallığı merkezi"
+ },
+ {
+  "ad": "Busa (Borgu)",
+  "lat": 10.2,
+  "lon": 4.5,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1898-01-01",
+    "d": "borgu"
+   },
+   {
+    "f": "1898-01-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Borgu; Nijer geçidi"
+ },
+ {
+  "ad": "İbadan",
+  "lat": 7.38,
+  "lon": 3.9,
+  "kur": "1829-01-01",
+  "s": [
+   {
+    "f": "1829-01-01",
+    "t": "1893-08-15",
+    "d": "ibadan"
+   },
+   {
+    "f": "1893-08-15",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "1829 kuruluş; Yoruba savaşları"
+ },
+ {
+  "ad": "Aroçukvu",
+  "lat": 5.38,
+  "lon": 7.35,
+  "kur": "1690-01-01",
+  "s": [
+   {
+    "f": "1690-01-01",
+    "t": "1902-03-01",
+    "d": "aro-konfederasyonu"
+   },
+   {
+    "f": "1902-03-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Aro Konfederasyonu kâhin merkezi"
+ },
+ {
+  "ad": "Eski Kalabar",
+  "lat": 4.96,
+  "lon": 8.32,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1884-09-10",
+    "d": "nijer-deltasi"
+   },
+   {
+    "f": "1884-09-10",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Efik ticaret şehri (Duke Town)"
+ },
+ {
+  "ad": "Bonny",
+  "lat": 4.43,
+  "lon": 7.17,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1884-09-10",
+    "d": "nijer-deltasi"
+   },
+   {
+    "f": "1884-09-10",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Nijer deltası ticaret devleti"
+ },
+ {
+  "ad": "Cos (Jos)",
+  "lat": 9.9,
+  "lon": 8.86,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1903-01-01",
+    "d": "birom-plato"
+   },
+   {
+    "f": "1903-01-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Jos platosu; Birom-Jarawa sahasi"
+ },
+ {
+  "ad": "Vukari (Wukari)",
+  "lat": 7.87,
+  "lon": 9.78,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1900-01-01",
+    "d": "jukun-kvararafa"
+   },
+   {
+    "f": "1900-01-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Kvararafa (Jukun) krallik merkezi"
+ },
+ {
+  "ad": "Makurdi",
+  "lat": 7.73,
+  "lon": 8.54,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1900-01-01",
+    "d": "tiv"
+   },
+   {
+    "f": "1900-01-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Benue gecidi; Tiv sahasi"
+ },
+ {
+  "ad": "Lokoca (Lokoja)",
+  "lat": 7.8,
+  "lon": 6.74,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1900-01-01",
+    "d": "jukun-kvararafa"
+   },
+   {
+    "f": "1900-01-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Benue-Nijer birleşimi; 1860"
+ },
+ {
+  "ad": "Goure",
+  "lat": 13.98,
+  "lon": 10.27,
+  "kur": "1731-01-01",
+  "s": [
+   {
+    "f": "1731-01-01",
+    "t": "1899-01-01",
+    "d": "damagaram"
+   },
+   {
+    "f": "1899-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Damagaram-Bornu arasi"
+ },
+ {
+  "ad": "Tahoua",
+  "lat": 14.89,
+  "lon": 5.27,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1899-01-01",
+    "d": "adar"
+   },
+   {
+    "f": "1899-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Adar; Tuareg-Hausa siniri"
+ },
+ {
+  "ad": "Birni-N'Konni",
+  "lat": 13.8,
+  "lon": 5.25,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1899-01-01",
+    "d": "adar"
+   },
+   {
+    "f": "1899-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Hausa uc sehri; Sokoto siniri"
+ },
+ {
+  "ad": "Madaoua",
+  "lat": 14.08,
+  "lon": 5.96,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1899-01-01",
+    "d": "adar"
+   },
+   {
+    "f": "1899-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Hausa sahasi"
+ },
+ {
+  "ad": "Filingue",
+  "lat": 14.35,
+  "lon": 3.32,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1899-01-01",
+    "d": "adar"
+   },
+   {
+    "f": "1899-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Zerma-Tuareg siniri"
+ },
+ {
+  "ad": "In Gall",
+  "lat": 16.79,
+  "lon": 6.93,
+  "kur": "1405-01-01",
+  "s": [
+   {
+    "f": "1405-01-01",
+    "t": "1900-01-01",
+    "d": "tuareg-air"
+   },
+   {
+    "f": "1900-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Tuareg tuz pazari (Cure Salee)"
+ },
+ {
+  "ad": "Arlit",
+  "lat": 18.74,
+  "lon": 7.39,
+  "kur": "1405-01-01",
+  "s": [
+   {
+    "f": "1405-01-01",
+    "t": "1900-01-01",
+    "d": "tuareg-air"
+   },
+   {
+    "f": "1900-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Air kuzeyi; Tuareg"
+ },
+ {
+  "ad": "Fachi",
+  "lat": 18.11,
+  "lon": 11.56,
+  "kur": "1405-01-01",
+  "s": [
+   {
+    "f": "1405-01-01",
+    "t": "1900-01-01",
+    "d": "tuareg-air"
+   },
+   {
+    "f": "1900-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Tenere tuz vahasi"
+ },
+ {
+  "ad": "Kidal",
+  "lat": 18.44,
+  "lon": 1.41,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1899-01-01",
+    "d": "tuareg-adag"
+   },
+   {
+    "f": "1899-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Adrar des Ifoghas; Tuareg Ifora"
+ },
+ {
+  "ad": "Menaka",
+  "lat": 15.92,
+  "lon": 2.4,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1899-01-01",
+    "d": "tuareg-ivellemmedan"
+   },
+   {
+    "f": "1899-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Iwellemmedan Tuareg sahasi"
+ },
+ {
+  "ad": "Aravan",
+  "lat": 18.9,
+  "lon": -3.53,
+  "kur": "1600-01-01",
+  "s": [
+   {
+    "f": "1600-01-01",
+    "t": "1894-01-01",
+    "d": "berabis"
+   },
+   {
+    "f": "1894-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Araouane; Tavdeni tuz kervan duragi"
+ },
+ {
+  "ad": "Ngaunder (Ngaoundéré)",
+  "lat": 7.32,
+  "lon": 13.58,
+  "kur": "1809-01-01",
+  "s": [
+   {
+    "f": "1809-01-01",
+    "t": "1901-09-02",
+    "d": "adamava"
+   },
+   {
+    "f": "1901-09-02",
+    "t": "1916-09-01",
+    "d": "almanya"
+   },
+   {
+    "f": "1916-09-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "kamerun",
+  "not": "Fulani lamidatı ~1835"
+ },
+ {
+  "ad": "Rey Buba",
+  "lat": 8.67,
+  "lon": 14.18,
+  "kur": "1809-01-01",
+  "s": [
+   {
+    "f": "1809-01-01",
+    "t": "1901-09-02",
+    "d": "adamava"
+   },
+   {
+    "f": "1901-09-02",
+    "t": "1916-09-01",
+    "d": "almanya"
+   },
+   {
+    "f": "1916-09-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "kamerun",
+  "not": "Rey Bouba lamidatı ~1804"
+ },
+ {
+  "ad": "Tibati",
+  "lat": 6.47,
+  "lon": 12.63,
+  "kur": "1809-01-01",
+  "s": [
+   {
+    "f": "1809-01-01",
+    "t": "1901-09-02",
+    "d": "adamava"
+   },
+   {
+    "f": "1901-09-02",
+    "t": "1916-09-01",
+    "d": "almanya"
+   },
+   {
+    "f": "1916-09-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "kamerun",
+  "not": "Adamava lamidatı"
+ },
+ {
+  "ad": "Banyo",
+  "lat": 6.75,
+  "lon": 11.82,
+  "kur": "1809-01-01",
+  "s": [
+   {
+    "f": "1809-01-01",
+    "t": "1901-09-02",
+    "d": "adamava"
+   },
+   {
+    "f": "1901-09-02",
+    "t": "1916-09-01",
+    "d": "almanya"
+   },
+   {
+    "f": "1916-09-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "kamerun",
+  "not": "Adamava lamidatı"
+ },
+ {
+  "ad": "Garua (Garoua)",
+  "lat": 9.3,
+  "lon": 13.4,
+  "kur": "1809-01-01",
+  "s": [
+   {
+    "f": "1809-01-01",
+    "t": "1901-09-02",
+    "d": "adamava"
+   },
+   {
+    "f": "1901-09-02",
+    "t": "1916-09-01",
+    "d": "almanya"
+   },
+   {
+    "f": "1916-09-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "kamerun",
+  "not": "Adamava lamidatı; Benue limanı"
+ },
+ {
+  "ad": "Marua (Maroua)",
+  "lat": 10.59,
+  "lon": 14.32,
+  "kur": "1809-01-01",
+  "s": [
+   {
+    "f": "1809-01-01",
+    "t": "1901-09-02",
+    "d": "adamava"
+   },
+   {
+    "f": "1901-09-02",
+    "t": "1916-09-01",
+    "d": "almanya"
+   },
+   {
+    "f": "1916-09-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "kamerun",
+  "not": "Diamare lamidatı"
+ },
+ {
+  "ad": "Fumban (Bamum)",
+  "lat": 5.73,
+  "lon": 10.9,
+  "kur": "1394-01-01",
+  "s": [
+   {
+    "f": "1394-01-01",
+    "t": "1916-02-16",
+    "d": "bamum"
+   },
+   {
+    "f": "1916-02-16",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "kamerun",
+  "not": "Bamum krallığı merkezi (~1394)"
+ },
+ {
+  "ad": "Vara (Wara)",
+  "lat": 14.05,
+  "lon": 21.0,
+  "kur": "1635-01-01",
+  "s": [
+   {
+    "f": "1635-01-01",
+    "t": "1912-01-01",
+    "d": "vaday"
+   },
+   {
+    "f": "1912-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "cad",
+  "not": "Vaday Sultanlığı başkenti 1635-1850"
+ },
+ {
+  "ad": "Abeşe (Abéché)",
+  "lat": 13.83,
+  "lon": 20.83,
+  "kur": "1635-01-01",
+  "s": [
+   {
+    "f": "1635-01-01",
+    "t": "1912-01-01",
+    "d": "vaday"
+   },
+   {
+    "f": "1912-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "cad",
+  "not": "Vaday başkenti 1850'den sonra"
+ },
+ {
+  "ad": "Iriba",
+  "lat": 15.13,
+  "lon": 22.25,
+  "kur": "1635-01-01",
+  "s": [
+   {
+    "f": "1635-01-01",
+    "t": "1912-01-01",
+    "d": "vaday"
+   },
+   {
+    "f": "1912-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "cad",
+  "not": "Vaday-Darfur siniri"
+ },
+ {
+  "ad": "Biltine",
+  "lat": 14.53,
+  "lon": 20.92,
+  "kur": "1635-01-01",
+  "s": [
+   {
+    "f": "1635-01-01",
+    "t": "1912-01-01",
+    "d": "vaday"
+   },
+   {
+    "f": "1912-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "cad",
+  "not": "Vaday dogu sahasi"
+ },
+ {
+  "ad": "Fada (Ennedi)",
+  "lat": 17.18,
+  "lon": 21.58,
+  "kur": "1635-01-01",
+  "s": [
+   {
+    "f": "1635-01-01",
+    "t": "1912-01-01",
+    "d": "vaday"
+   },
+   {
+    "f": "1912-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "cad",
+  "not": "Ennedi; Vaday kuzey ucu"
+ },
+ {
+  "ad": "Ounianga",
+  "lat": 19.07,
+  "lon": 20.51,
+  "kur": "1635-01-01",
+  "s": [
+   {
+    "f": "1635-01-01",
+    "t": "1912-01-01",
+    "d": "vaday"
+   },
+   {
+    "f": "1912-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "cad",
+  "not": "Ounianga Kebir vahasi"
+ },
+ {
+  "ad": "Massenya",
+  "lat": 11.4,
+  "lon": 16.17,
+  "kur": "1522-01-01",
+  "s": [
+   {
+    "f": "1522-01-01",
+    "t": "1897-01-01",
+    "d": "bagirmi"
+   },
+   {
+    "f": "1897-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "cad",
+  "not": "Bagirmi Sultanlığı başkenti (XVI. yy)"
+ },
+ {
+  "ad": "Am Timan",
+  "lat": 11.03,
+  "lon": 20.28,
+  "kur": "1522-01-01",
+  "s": [
+   {
+    "f": "1522-01-01",
+    "t": "1897-01-01",
+    "d": "bagirmi"
+   },
+   {
+    "f": "1897-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "cad",
+  "not": "Salamat; Kanem-Vaday sahası"
+ },
+ {
+  "ad": "Mongo",
+  "lat": 12.18,
+  "lon": 18.7,
+  "kur": "1522-01-01",
+  "s": [
+   {
+    "f": "1522-01-01",
+    "t": "1897-01-01",
+    "d": "bagirmi"
+   },
+   {
+    "f": "1897-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "cad",
+  "not": "Guera dağlık bölgesi"
+ },
+ {
+  "ad": "Nguigmi",
+  "lat": 14.25,
+  "lon": 13.11,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1913-01-01",
+    "d": "kanem-tubu"
+   },
+   {
+    "f": "1913-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "cad",
+  "not": "Cad golu kuzeybatisi; Kanem yolu"
+ },
+ {
+  "ad": "Faya-Largeau",
+  "lat": 17.92,
+  "lon": 19.1,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1913-01-01",
+    "d": "kanem-tubu"
+   },
+   {
+    "f": "1913-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "cad",
+  "not": "Borku vahasi; Tubu"
+ },
+ {
+  "ad": "Ati",
+  "lat": 13.22,
+  "lon": 18.34,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1913-01-01",
+    "d": "kanem-tubu"
+   },
+   {
+    "f": "1913-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "cad",
+  "not": "Batha; Kanem sahası"
+ },
+ {
+  "ad": "Ndele (Dâru'l-Kûtî)",
+  "lat": 8.41,
+  "lon": 20.65,
+  "kur": "1890-01-01",
+  "s": [
+   {
+    "f": "1890-01-01",
+    "t": "1911-04-12",
+    "d": "darul-kuti"
+   },
+   {
+    "f": "1911-04-12",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Senûsî'nin merkezi ~1896"
+ },
+ {
+  "ad": "Birao",
+  "lat": 10.28,
+  "lon": 22.79,
+  "kur": "1890-01-01",
+  "s": [
+   {
+    "f": "1890-01-01",
+    "t": "1911-04-12",
+    "d": "darul-kuti"
+   },
+   {
+    "f": "1911-04-12",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Vakaga; Vaday-Darfur arası"
+ },
+ {
+  "ad": "Uanda-Calle",
+  "lat": 8.9,
+  "lon": 22.78,
+  "kur": "1890-01-01",
+  "s": [
+   {
+    "f": "1890-01-01",
+    "t": "1911-04-12",
+    "d": "darul-kuti"
+   },
+   {
+    "f": "1911-04-12",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Kuzeydogu OAC; Vaday-Darfur kervan yolu"
+ },
+ {
+  "ad": "Bangassu",
+  "lat": 4.74,
+  "lon": 22.82,
+  "kur": "1750-01-01",
+  "s": [
+   {
+    "f": "1750-01-01",
+    "t": "1912-01-01",
+    "d": "zende"
+   },
+   {
+    "f": "1912-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Nzakara sultanlığı ~1878"
+ },
+ {
+  "ad": "Rafai",
+  "lat": 4.95,
+  "lon": 23.92,
+  "kur": "1750-01-01",
+  "s": [
+   {
+    "f": "1750-01-01",
+    "t": "1912-01-01",
+    "d": "zende"
+   },
+   {
+    "f": "1912-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Zande sultanlığı"
+ },
+ {
+  "ad": "Zemio",
+  "lat": 5.03,
+  "lon": 25.14,
+  "kur": "1750-01-01",
+  "s": [
+   {
+    "f": "1750-01-01",
+    "t": "1912-01-01",
+    "d": "zende"
+   },
+   {
+    "f": "1912-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Zande sultanlığı"
+ },
+ {
+  "ad": "Obo",
+  "lat": 5.4,
+  "lon": 26.49,
+  "kur": "1750-01-01",
+  "s": [
+   {
+    "f": "1750-01-01",
+    "t": "1912-01-01",
+    "d": "zende"
+   },
+   {
+    "f": "1912-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Haut-Mbomou; Zande"
+ },
+ {
+  "ad": "Kaga-Bandoro",
+  "lat": 6.98,
+  "lon": 19.19,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1903-01-01",
+    "d": "banda-gbaya"
+   },
+   {
+    "f": "1903-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Nana-Gribizi; Banda sahasi"
+ },
+ {
+  "ad": "Batangafo",
+  "lat": 7.3,
+  "lon": 18.28,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1903-01-01",
+    "d": "banda-gbaya"
+   },
+   {
+    "f": "1903-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Ouham; Rabih guzergahi"
+ },
+ {
+  "ad": "Bria",
+  "lat": 6.54,
+  "lon": 21.99,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1903-01-01",
+    "d": "banda-gbaya"
+   },
+   {
+    "f": "1903-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Haute-Kotto; Banda"
+ },
+ {
+  "ad": "Bambari",
+  "lat": 5.77,
+  "lon": 20.68,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1903-01-01",
+    "d": "banda-gbaya"
+   },
+   {
+    "f": "1903-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Ouaka; Banda-Banda"
+ },
+ {
+  "ad": "Buar (Bouar)",
+  "lat": 5.94,
+  "lon": 15.6,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1903-01-01",
+    "d": "banda-gbaya"
+   },
+   {
+    "f": "1903-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Gbaya sahası"
+ },
+ {
+  "ad": "Bossangoa",
+  "lat": 6.49,
+  "lon": 17.45,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1903-01-01",
+    "d": "banda-gbaya"
+   },
+   {
+    "f": "1903-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Ouham; Gbaya"
+ },
+ {
+  "ad": "Ouesso",
+  "lat": 1.61,
+  "lon": 16.05,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1880-10-03",
+    "d": "tio"
+   },
+   {
+    "f": "1880-10-03",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Sangha nehri; Bomitaba"
+ },
+ {
+  "ad": "İmpfondo",
+  "lat": 1.62,
+  "lon": 18.06,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1880-10-03",
+    "d": "tio"
+   },
+   {
+    "f": "1880-10-03",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Ubangi nehri"
+ },
+ {
+  "ad": "Kasance (Kasanje)",
+  "lat": -9.36,
+  "lon": 18.14,
+  "kur": "1620-01-01",
+  "s": [
+   {
+    "f": "1620-01-01",
+    "t": "1910-01-01",
+    "d": "kasance"
+   },
+   {
+    "f": "1910-01-01",
+    "t": "1923-10-29",
+    "d": "portekiz"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "İmbangala krallığı başkenti"
+ },
+ {
+  "ad": "Matamba",
+  "lat": -9.3,
+  "lon": 16.0,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1744-01-01",
+    "d": "matamba"
+   },
+   {
+    "f": "1744-01-01",
+    "t": "1923-10-29",
+    "d": "portekiz"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Njinga'nın Matamba krallığı"
+ },
+ {
+  "ad": "Kuito (Bié)",
+  "lat": -12.38,
+  "lon": 16.94,
+  "kur": "1700-01-01",
+  "s": [
+   {
+    "f": "1700-01-01",
+    "t": "1902-01-01",
+    "d": "ovimbundu"
+   },
+   {
+    "f": "1902-01-01",
+    "t": "1923-10-29",
+    "d": "portekiz"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Viye Ovimbundu krallığı"
+ },
+ {
+  "ad": "Bailundo",
+  "lat": -12.19,
+  "lon": 15.83,
+  "kur": "1700-01-01",
+  "s": [
+   {
+    "f": "1700-01-01",
+    "t": "1902-01-01",
+    "d": "ovimbundu"
+   },
+   {
+    "f": "1902-01-01",
+    "t": "1923-10-29",
+    "d": "portekiz"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Bailundu Ovimbundu krallığı"
+ },
+ {
+  "ad": "Huambo (Wambu)",
+  "lat": -12.78,
+  "lon": 15.74,
+  "kur": "1700-01-01",
+  "s": [
+   {
+    "f": "1700-01-01",
+    "t": "1902-01-01",
+    "d": "ovimbundu"
+   },
+   {
+    "f": "1902-01-01",
+    "t": "1923-10-29",
+    "d": "portekiz"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Wambu Ovimbundu krallığı"
+ },
+ {
+  "ad": "Malanje",
+  "lat": -9.54,
+  "lon": 16.34,
+  "kur": "1700-01-01",
+  "s": [
+   {
+    "f": "1700-01-01",
+    "t": "1902-01-01",
+    "d": "ovimbundu"
+   },
+   {
+    "f": "1902-01-01",
+    "t": "1923-10-29",
+    "d": "portekiz"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Kasanje yolu üzerinde"
+ },
+ {
+  "ad": "Lubango",
+  "lat": -14.92,
+  "lon": 13.49,
+  "kur": "1700-01-01",
+  "s": [
+   {
+    "f": "1700-01-01",
+    "t": "1902-01-01",
+    "d": "ovimbundu"
+   },
+   {
+    "f": "1902-01-01",
+    "t": "1923-10-29",
+    "d": "portekiz"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Huila platosu; Nyaneka"
+ },
+ {
+  "ad": "Menongue",
+  "lat": -14.66,
+  "lon": 17.69,
+  "kur": "1700-01-01",
+  "s": [
+   {
+    "f": "1700-01-01",
+    "t": "1902-01-01",
+    "d": "ovimbundu"
+   },
+   {
+    "f": "1902-01-01",
+    "t": "1923-10-29",
+    "d": "portekiz"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Kuando Kubango; Ganguela"
+ },
+ {
+  "ad": "Kuito Kuanavale",
+  "lat": -15.17,
+  "lon": 19.17,
+  "kur": "1700-01-01",
+  "s": [
+   {
+    "f": "1700-01-01",
+    "t": "1902-01-01",
+    "d": "ovimbundu"
+   },
+   {
+    "f": "1902-01-01",
+    "t": "1923-10-29",
+    "d": "portekiz"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Kuando nehri gecidi"
+ },
+ {
+  "ad": "Mavinga",
+  "lat": -15.83,
+  "lon": 20.36,
+  "kur": "1700-01-01",
+  "s": [
+   {
+    "f": "1700-01-01",
+    "t": "1902-01-01",
+    "d": "ovimbundu"
+   },
+   {
+    "f": "1902-01-01",
+    "t": "1923-10-29",
+    "d": "portekiz"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Guneydogu Angola"
+ },
+ {
+  "ad": "Kangamba",
+  "lat": -13.7,
+  "lon": 19.87,
+  "kur": "1700-01-01",
+  "s": [
+   {
+    "f": "1700-01-01",
+    "t": "1902-01-01",
+    "d": "ovimbundu"
+   },
+   {
+    "f": "1902-01-01",
+    "t": "1923-10-29",
+    "d": "portekiz"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Orta Kuando; Ganguela sahasi"
+ },
+ {
+  "ad": "Luena (Moxico)",
+  "lat": -11.78,
+  "lon": 19.92,
+  "kur": "1700-01-01",
+  "s": [
+   {
+    "f": "1700-01-01",
+    "t": "1902-01-01",
+    "d": "ovimbundu"
+   },
+   {
+    "f": "1902-01-01",
+    "t": "1923-10-29",
+    "d": "portekiz"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Doğu Angola; Çokve sahası"
+ },
+ {
+  "ad": "Kazombo",
+  "lat": -11.9,
+  "lon": 22.92,
+  "kur": "1700-01-01",
+  "s": [
+   {
+    "f": "1700-01-01",
+    "t": "1902-01-01",
+    "d": "ovimbundu"
+   },
+   {
+    "f": "1902-01-01",
+    "t": "1923-10-29",
+    "d": "portekiz"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Yukari Zambezi; Lunda-Lovale"
+ },
+ {
+  "ad": "Kuangar",
+  "lat": -17.58,
+  "lon": 18.61,
+  "kur": "1700-01-01",
+  "s": [
+   {
+    "f": "1700-01-01",
+    "t": "1902-01-01",
+    "d": "ovimbundu"
+   },
+   {
+    "f": "1902-01-01",
+    "t": "1923-10-29",
+    "d": "portekiz"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Okavango kuzeyi; Kvangali"
+ },
+ {
+  "ad": "Ondjiva (Ovambo)",
+  "lat": -17.07,
+  "lon": 15.71,
+  "kur": "1600-01-01",
+  "s": [
+   {
+    "f": "1600-01-01",
+    "t": "1917-02-06",
+    "d": "ovambo"
+   },
+   {
+    "f": "1917-02-06",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Ovamboland; Kvanyama krallığı"
+ },
+ {
+  "ad": "Ondangva (Ondonga)",
+  "lat": -17.92,
+  "lon": 15.95,
+  "kur": "1600-01-01",
+  "s": [
+   {
+    "f": "1600-01-01",
+    "t": "1917-02-06",
+    "d": "ovambo"
+   },
+   {
+    "f": "1917-02-06",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Ondonga Ovambo krallığı"
+ },
+ {
+  "ad": "Okahandja",
+  "lat": -21.98,
+  "lon": 16.91,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1904-01-12",
+    "d": "herero"
+   },
+   {
+    "f": "1904-01-12",
+    "t": "1915-07-09",
+    "d": "almanya"
+   },
+   {
+    "f": "1915-07-09",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Herero baş kabile merkezi"
+ },
+ {
+  "ad": "Otjimbingve",
+  "lat": -22.35,
+  "lon": 16.13,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1904-01-12",
+    "d": "herero"
+   },
+   {
+    "f": "1904-01-12",
+    "t": "1915-07-09",
+    "d": "almanya"
+   },
+   {
+    "f": "1915-07-09",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "1849 misyon; Herero merkezi"
+ },
+ {
+  "ad": "Rehoboth",
+  "lat": -23.32,
+  "lon": 17.08,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1904-10-03",
+    "d": "nama-orlam"
+   },
+   {
+    "f": "1904-10-03",
+    "t": "1915-07-09",
+    "d": "almanya"
+   },
+   {
+    "f": "1915-07-09",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Basters yerleşimi 1870"
+ },
+ {
+  "ad": "Varmbad (Warmbad)",
+  "lat": -28.45,
+  "lon": 18.74,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1904-10-03",
+    "d": "nama-orlam"
+   },
+   {
+    "f": "1904-10-03",
+    "t": "1915-07-09",
+    "d": "almanya"
+   },
+   {
+    "f": "1915-07-09",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "1805 misyon; Bondelswarts Nama"
+ },
+ {
+  "ad": "Bethanie",
+  "lat": -26.49,
+  "lon": 17.15,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1904-10-03",
+    "d": "nama-orlam"
+   },
+   {
+    "f": "1904-10-03",
+    "t": "1915-07-09",
+    "d": "almanya"
+   },
+   {
+    "f": "1915-07-09",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "1814 misyon; Nama kaptanlığı"
+ },
+ {
+  "ad": "Şoşong (Shoshong)",
+  "lat": -23.03,
+  "lon": 26.5,
+  "kur": "1700-01-01",
+  "s": [
+   {
+    "f": "1700-01-01",
+    "t": "1885-03-31",
+    "d": "tsvana"
+   },
+   {
+    "f": "1885-03-31",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Ngwato başkenti ~1770-1889"
+ },
+ {
+  "ad": "Serove (Serowe)",
+  "lat": -22.39,
+  "lon": 26.71,
+  "kur": "1700-01-01",
+  "s": [
+   {
+    "f": "1700-01-01",
+    "t": "1885-03-31",
+    "d": "tsvana"
+   },
+   {
+    "f": "1885-03-31",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Ngwato başkenti 1902'den"
+ },
+ {
+  "ad": "Molepolole (Kvena)",
+  "lat": -24.41,
+  "lon": 25.5,
+  "kur": "1700-01-01",
+  "s": [
+   {
+    "f": "1700-01-01",
+    "t": "1885-03-31",
+    "d": "tsvana"
+   },
+   {
+    "f": "1885-03-31",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Kwena başkenti"
+ },
+ {
+  "ad": "Kanye (Ngvaketse)",
+  "lat": -24.98,
+  "lon": 25.34,
+  "kur": "1700-01-01",
+  "s": [
+   {
+    "f": "1700-01-01",
+    "t": "1885-03-31",
+    "d": "tsvana"
+   },
+   {
+    "f": "1885-03-31",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Ngwaketse başkenti"
+ },
+ {
+  "ad": "Moçudi (Kgatla)",
+  "lat": -24.42,
+  "lon": 26.15,
+  "kur": "1700-01-01",
+  "s": [
+   {
+    "f": "1700-01-01",
+    "t": "1885-03-31",
+    "d": "tsvana"
+   },
+   {
+    "f": "1885-03-31",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Kgatla başkenti 1871"
+ },
+ {
+  "ad": "Maun (Tavana)",
+  "lat": -19.99,
+  "lon": 23.42,
+  "kur": "1700-01-01",
+  "s": [
+   {
+    "f": "1700-01-01",
+    "t": "1885-03-31",
+    "d": "tsvana"
+   },
+   {
+    "f": "1885-03-31",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Tawana başkenti 1915"
+ },
+ {
+  "ad": "Palapye",
+  "lat": -22.55,
+  "lon": 27.13,
+  "kur": "1700-01-01",
+  "s": [
+   {
+    "f": "1700-01-01",
+    "t": "1885-03-31",
+    "d": "tsvana"
+   },
+   {
+    "f": "1885-03-31",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Ngwato başkenti 1889-1902"
+ },
+ {
+  "ad": "Ganzi (Ghanzi)",
+  "lat": -21.7,
+  "lon": 21.65,
+  "kur": "1700-01-01",
+  "s": [
+   {
+    "f": "1700-01-01",
+    "t": "1885-03-31",
+    "d": "tsvana"
+   },
+   {
+    "f": "1885-03-31",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Kalahari batı; Nharo sahası"
+ },
+ {
+  "ad": "Toteng",
+  "lat": -20.35,
+  "lon": 22.97,
+  "kur": "1700-01-01",
+  "s": [
+   {
+    "f": "1700-01-01",
+    "t": "1885-03-31",
+    "d": "tsvana"
+   },
+   {
+    "f": "1885-03-31",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Ngami gölü; Tawana"
+ },
+ {
+  "ad": "Tsabong",
+  "lat": -26.02,
+  "lon": 22.4,
+  "kur": "1700-01-01",
+  "s": [
+   {
+    "f": "1700-01-01",
+    "t": "1885-03-31",
+    "d": "tsvana"
+   },
+   {
+    "f": "1885-03-31",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Guney Kalahari; Ngwaketse ucu"
+ },
+ {
+  "ad": "Tshane",
+  "lat": -24.02,
+  "lon": 21.87,
+  "kur": "1700-01-01",
+  "s": [
+   {
+    "f": "1700-01-01",
+    "t": "1885-03-31",
+    "d": "tsvana"
+   },
+   {
+    "f": "1885-03-31",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Bati Kalahari; Kgalagadi"
+ },
+ {
+  "ad": "Kang",
+  "lat": -23.67,
+  "lon": 22.8,
+  "kur": "1700-01-01",
+  "s": [
+   {
+    "f": "1700-01-01",
+    "t": "1885-03-31",
+    "d": "tsvana"
+   },
+   {
+    "f": "1885-03-31",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Orta Kalahari yolu"
+ },
+ {
+  "ad": "Kuruman",
+  "lat": -27.45,
+  "lon": 23.43,
+  "kur": "1700-01-01",
+  "s": [
+   {
+    "f": "1700-01-01",
+    "t": "1885-03-31",
+    "d": "tsvana"
+   },
+   {
+    "f": "1885-03-31",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "1816 misyon; Tlhaping"
+ },
+ {
+  "ad": "Griquatown",
+  "lat": -28.85,
+  "lon": 23.26,
+  "kur": "1804-01-01",
+  "s": [
+   {
+    "f": "1804-01-01",
+    "t": "1878-01-01",
+    "d": "griqua"
+   },
+   {
+    "f": "1878-01-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Griqua yerleşimi 1804"
+ },
+ {
+  "ad": "Philippolis",
+  "lat": -30.27,
+  "lon": 25.28,
+  "kur": "1804-01-01",
+  "s": [
+   {
+    "f": "1804-01-01",
+    "t": "1878-01-01",
+    "d": "griqua"
+   },
+   {
+    "f": "1878-01-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Griqua yerleşimi 1823"
+ },
+ {
+  "ad": "Thaba Bosiu",
+  "lat": -29.35,
+  "lon": 27.75,
+  "kur": "1822-01-01",
+  "s": [
+   {
+    "f": "1822-01-01",
+    "t": "1868-03-12",
+    "d": "basuto"
+   },
+   {
+    "f": "1868-03-12",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Moshoeshoe'nin dağ kalesi 1824"
+ },
+ {
+  "ad": "Maseru",
+  "lat": -29.31,
+  "lon": 27.48,
+  "kur": "1822-01-01",
+  "s": [
+   {
+    "f": "1822-01-01",
+    "t": "1868-03-12",
+    "d": "basuto"
+   },
+   {
+    "f": "1868-03-12",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "1869 Basutoland merkezi"
+ },
+ {
+  "ad": "Tjate (Pedi)",
+  "lat": -24.7,
+  "lon": 30.05,
+  "kur": "1650-01-01",
+  "s": [
+   {
+    "f": "1650-01-01",
+    "t": "1879-12-02",
+    "d": "pedi"
+   },
+   {
+    "f": "1879-12-02",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Sekhukhune'nin Pedi başkenti"
+ },
+ {
+  "ad": "Dzata (Venda)",
+  "lat": -22.96,
+  "lon": 30.15,
+  "kur": "1700-01-01",
+  "s": [
+   {
+    "f": "1700-01-01",
+    "t": "1898-01-01",
+    "d": "venda"
+   },
+   {
+    "f": "1898-01-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Venda krallığı merkezi (XVIII. yy)"
+ },
+ {
+  "ad": "Luis Trichardt",
+  "lat": -23.05,
+  "lon": 29.9,
+  "kur": "1700-01-01",
+  "s": [
+   {
+    "f": "1700-01-01",
+    "t": "1898-01-01",
+    "d": "venda"
+   },
+   {
+    "f": "1898-01-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Zoutpansberg; Venda sınırı"
+ },
+ {
+  "ad": "Lobamba (Svazi)",
+  "lat": -26.45,
+  "lon": 31.2,
+  "kur": "1815-01-01",
+  "s": [
+   {
+    "f": "1815-01-01",
+    "t": "1903-01-01",
+    "d": "svazi"
+   },
+   {
+    "f": "1903-01-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Swazi kraliyet merkezi"
+ },
+ {
+  "ad": "Lealui (Lozi)",
+  "lat": -15.2,
+  "lon": 23.1,
+  "kur": "1600-01-01",
+  "s": [
+   {
+    "f": "1600-01-01",
+    "t": "1890-06-27",
+    "d": "lozi"
+   },
+   {
+    "f": "1890-06-27",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "zambiya",
+  "not": "Barotse (Lozi) krallığı başkenti"
+ },
+ {
+  "ad": "Seşeke (Sesheke)",
+  "lat": -17.48,
+  "lon": 24.3,
+  "kur": "1600-01-01",
+  "s": [
+   {
+    "f": "1600-01-01",
+    "t": "1890-06-27",
+    "d": "lozi"
+   },
+   {
+    "f": "1890-06-27",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "zambiya",
+  "not": "Lozi güney merkezi; Zambezi geçidi"
+ },
+ {
+  "ad": "Kalabo",
+  "lat": -14.97,
+  "lon": 22.68,
+  "kur": "1600-01-01",
+  "s": [
+   {
+    "f": "1600-01-01",
+    "t": "1890-06-27",
+    "d": "lozi"
+   },
+   {
+    "f": "1890-06-27",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "zambiya",
+  "not": "Bati Lozi ovasi"
+ },
+ {
+  "ad": "Senanga",
+  "lat": -16.12,
+  "lon": 23.27,
+  "kur": "1600-01-01",
+  "s": [
+   {
+    "f": "1600-01-01",
+    "t": "1890-06-27",
+    "d": "lozi"
+   },
+   {
+    "f": "1890-06-27",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "zambiya",
+  "not": "Zambezi; Lozi guney"
+ },
+ {
+  "ad": "Kaoma (Mankoya)",
+  "lat": -14.8,
+  "lon": 24.8,
+  "kur": "1600-01-01",
+  "s": [
+   {
+    "f": "1600-01-01",
+    "t": "1890-06-27",
+    "d": "lozi"
+   },
+   {
+    "f": "1890-06-27",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "zambiya",
+  "not": "Nkoya krallik sahasi"
+ },
+ {
+  "ad": "Zambezi (Balovale)",
+  "lat": -13.55,
+  "lon": 23.1,
+  "kur": "1600-01-01",
+  "s": [
+   {
+    "f": "1600-01-01",
+    "t": "1890-06-27",
+    "d": "lozi"
+   },
+   {
+    "f": "1890-06-27",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "zambiya",
+  "not": "Lovale sahasi"
+ },
+ {
+  "ad": "Kabompo",
+  "lat": -13.6,
+  "lon": 24.2,
+  "kur": "1600-01-01",
+  "s": [
+   {
+    "f": "1600-01-01",
+    "t": "1890-06-27",
+    "d": "lozi"
+   },
+   {
+    "f": "1890-06-27",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "zambiya",
+  "not": "Kaonde-Lovale siniri"
+ },
+ {
+  "ad": "Mvansabombve (Kazembe)",
+  "lat": -9.85,
+  "lon": 28.75,
+  "kur": "1740-01-01",
+  "s": [
+   {
+    "f": "1740-01-01",
+    "t": "1899-01-01",
+    "d": "kazembe"
+   },
+   {
+    "f": "1899-01-01",
+    "t": "1923-10-29",
+    "d": "belcika"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Mwata Kazembe başkenti ~1740"
+ },
+ {
+  "ad": "Kasama (Bemba)",
+  "lat": -10.21,
+  "lon": 31.18,
+  "kur": "1700-01-01",
+  "s": [
+   {
+    "f": "1700-01-01",
+    "t": "1899-01-01",
+    "d": "bemba"
+   },
+   {
+    "f": "1899-01-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "zambiya",
+  "not": "Bemba Chitimukulu sahası"
+ },
+ {
+  "ad": "Mpika",
+  "lat": -11.83,
+  "lon": 31.45,
+  "kur": "1700-01-01",
+  "s": [
+   {
+    "f": "1700-01-01",
+    "t": "1899-01-01",
+    "d": "bemba"
+   },
+   {
+    "f": "1899-01-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "zambiya",
+  "not": "Bemba-Bisa arası"
+ },
+ {
+  "ad": "Ndola",
+  "lat": -12.97,
+  "lon": 28.64,
+  "kur": "1700-01-01",
+  "s": [
+   {
+    "f": "1700-01-01",
+    "t": "1899-01-01",
+    "d": "bemba"
+   },
+   {
+    "f": "1899-01-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "zambiya",
+  "not": "Erken müslüman yerleşimi"
+ },
+ {
+  "ad": "Serence (Serenje)",
+  "lat": -13.24,
+  "lon": 30.24,
+  "kur": "1700-01-01",
+  "s": [
+   {
+    "f": "1700-01-01",
+    "t": "1899-01-01",
+    "d": "bemba"
+   },
+   {
+    "f": "1899-01-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "zambiya",
+  "not": "Lala-Bisa sahasi"
+ },
+ {
+  "ad": "Solwezi",
+  "lat": -12.17,
+  "lon": 26.38,
+  "kur": "1700-01-01",
+  "s": [
+   {
+    "f": "1700-01-01",
+    "t": "1899-01-01",
+    "d": "bemba"
+   },
+   {
+    "f": "1899-01-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "zambiya",
+  "not": "Kaonde sahasi"
+ },
+ {
+  "ad": "Kasempa",
+  "lat": -13.46,
+  "lon": 25.83,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1900-01-01",
+    "d": "kaonde-ila"
+   },
+   {
+    "f": "1900-01-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Kaonde merkezi"
+ },
+ {
+  "ad": "Mumbva",
+  "lat": -14.98,
+  "lon": 27.06,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1900-01-01",
+    "d": "kaonde-ila"
+   },
+   {
+    "f": "1900-01-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Ila-Lenje sahasi"
+ },
+ {
+  "ad": "Bunkeya (Yeke)",
+  "lat": -10.41,
+  "lon": 26.94,
+  "kur": "1856-01-01",
+  "s": [
+   {
+    "f": "1856-01-01",
+    "t": "1891-12-20",
+    "d": "yeke"
+   },
+   {
+    "f": "1891-12-20",
+    "t": "1923-10-29",
+    "d": "belcika"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Msiri'nin Yeke kralligi merkezi 1856"
+ },
+ {
+  "ad": "Mvembe (Mataka)",
+  "lat": -12.9,
+  "lon": 36.0,
+  "kur": "1800-01-01",
+  "s": [
+   {
+    "f": "1800-01-01",
+    "t": "1899-01-01",
+    "d": "yao"
+   },
+   {
+    "f": "1899-01-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "malavi",
+  "not": "Yao sultanı Mataka'nın şehri"
+ },
+ {
+  "ad": "Tunduru",
+  "lat": -11.11,
+  "lon": 37.36,
+  "kur": "1800-01-01",
+  "s": [
+   {
+    "f": "1800-01-01",
+    "t": "1899-01-01",
+    "d": "yao"
+   },
+   {
+    "f": "1899-01-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "malavi",
+  "not": "Yao-Makonde arasi"
+ },
+ {
+  "ad": "Masasi",
+  "lat": -10.72,
+  "lon": 38.8,
+  "kur": "1800-01-01",
+  "s": [
+   {
+    "f": "1800-01-01",
+    "t": "1899-01-01",
+    "d": "yao"
+   },
+   {
+    "f": "1899-01-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "malavi",
+  "not": "Makonde platosu"
+ },
+ {
+  "ad": "Kalenga (Hehe)",
+  "lat": -7.79,
+  "lon": 35.62,
+  "kur": "1850-01-01",
+  "s": [
+   {
+    "f": "1850-01-01",
+    "t": "1898-07-19",
+    "d": "hehe"
+   },
+   {
+    "f": "1898-07-19",
+    "t": "1916-09-01",
+    "d": "almanya"
+   },
+   {
+    "f": "1916-09-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Mkwawa'nın Hehe başkenti"
+ },
+ {
+  "ad": "Songea (Ngoni)",
+  "lat": -10.68,
+  "lon": 35.65,
+  "kur": "1835-01-01",
+  "s": [
+   {
+    "f": "1835-01-01",
+    "t": "1898-01-01",
+    "d": "ngoni"
+   },
+   {
+    "f": "1898-01-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "malavi",
+  "not": "Ngoni merkezi"
+ },
+ {
+  "ad": "Njombe",
+  "lat": -9.34,
+  "lon": 34.77,
+  "kur": "1835-01-01",
+  "s": [
+   {
+    "f": "1835-01-01",
+    "t": "1898-01-01",
+    "d": "ngoni"
+   },
+   {
+    "f": "1898-01-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "malavi",
+  "not": "Bena-Pangwa sahasi"
+ },
+ {
+  "ad": "Khami",
+  "lat": -20.15,
+  "lon": 28.38,
+  "kur": "1450-01-01",
+  "s": [
+   {
+    "f": "1450-01-01",
+    "t": "1683-01-01",
+    "d": "torva"
+   },
+   {
+    "f": "1683-01-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Torwa krallığı başkenti 1450-1683"
+ },
+ {
+  "ad": "Mopti",
+  "lat": 14.49,
+  "lon": -4.19,
+  "kur": "1650-01-01",
+  "s": [
+   {
+    "f": "1650-01-01",
+    "t": "1861-03-10",
+    "d": "bambara"
+   },
+   {
+    "f": "1861-03-10",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "mali",
+  "not": "Masina; Bani-Nijer birleşimi"
+ },
+ {
+  "ad": "Toamasina (Tamatave)",
+  "lat": -18.15,
+  "lon": 49.4,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1787-01-01",
+    "d": "merina-oncesi"
+   },
+   {
+    "f": "1787-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "madagaskar",
+  "not": "Doğu limanı; Fransız 1883"
+ },
+ {
+  "ad": "Ambohimanga",
+  "lat": -18.76,
+  "lon": 47.56,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1787-01-01",
+    "d": "merina-oncesi"
+   },
+   {
+    "f": "1787-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "madagaskar",
+  "not": "Merina kutsal başkenti (XVIII. yy)"
+ },
+ {
+  "ad": "Tsiroanomandidy",
+  "lat": -18.77,
+  "lon": 46.05,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1787-01-01",
+    "d": "merina-oncesi"
+   },
+   {
+    "f": "1787-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "madagaskar",
+  "not": "Bongolava; Merina bati ucu"
+ },
+ {
+  "ad": "Mpvapva",
+  "lat": -6.35,
+  "lon": 36.49,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1890-11-04",
+    "d": "nyamvezi"
+   },
+   {
+    "f": "1890-11-04",
+    "t": "1916-09-01",
+    "d": "almanya"
+   },
+   {
+    "f": "1916-09-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "tanzanya",
+  "not": "Kervan yolu istasyonu"
+ },
+ {
+  "ad": "Morogoro",
+  "lat": -6.82,
+  "lon": 37.66,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1890-11-04",
+    "d": "nyamvezi"
+   },
+   {
+    "f": "1890-11-04",
+    "t": "1916-09-01",
+    "d": "almanya"
+   },
+   {
+    "f": "1916-09-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "tanzanya",
+  "not": "Uluguru; kervan yolu"
+ },
+ {
+  "ad": "Kilosa",
+  "lat": -6.83,
+  "lon": 36.99,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1890-11-04",
+    "d": "nyamvezi"
+   },
+   {
+    "f": "1890-11-04",
+    "t": "1916-09-01",
+    "d": "almanya"
+   },
+   {
+    "f": "1916-09-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "tanzanya",
+  "not": "Kervan yolu; Sagara"
+ },
+ {
+  "ad": "Sumbavanga",
+  "lat": -7.97,
+  "lon": 31.62,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1890-11-04",
+    "d": "fipa-nyakyusa"
+   },
+   {
+    "f": "1890-11-04",
+    "t": "1916-09-01",
+    "d": "almanya"
+   },
+   {
+    "f": "1916-09-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Ufipa platosu; Fipa krallik sahasi"
+ },
+ {
+  "ad": "Mbeya",
+  "lat": -8.9,
+  "lon": 33.46,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1890-11-04",
+    "d": "fipa-nyakyusa"
+   },
+   {
+    "f": "1890-11-04",
+    "t": "1916-09-01",
+    "d": "almanya"
+   },
+   {
+    "f": "1916-09-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Nyakyusa-Safwa sahasi"
+ },
+ {
+  "ad": "Nyanza (Ruanda)",
+  "lat": -2.35,
+  "lon": 29.75,
+  "kur": "1300-01-01",
+  "s": [
+   {
+    "f": "1300-01-01",
+    "t": "1916-05-06",
+    "d": "ruanda"
+   },
+   {
+    "f": "1916-05-06",
+    "t": "1923-10-29",
+    "d": "belcika"
+   }
+  ],
+  "kaynak": "ruanda",
+  "not": "Ruanda krallığı saray merkezi"
+ },
+ {
+  "ad": "Gitega (Burundi)",
+  "lat": -3.43,
+  "lon": 29.92,
+  "kur": "1680-01-01",
+  "s": [
+   {
+    "f": "1680-01-01",
+    "t": "1916-06-06",
+    "d": "burundi"
+   },
+   {
+    "f": "1916-06-06",
+    "t": "1923-10-29",
+    "d": "belcika"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Burundi krallığı merkezi"
+ },
+ {
+  "ad": "Bveranyange (Karagve)",
+  "lat": -1.3,
+  "lon": 31.1,
+  "kur": "1450-01-01",
+  "s": [
+   {
+    "f": "1450-01-01",
+    "t": "1890-07-01",
+    "d": "karagve"
+   },
+   {
+    "f": "1890-07-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Karagwe krallığı başkenti"
+ },
+ {
+  "ad": "Mbarara (Nkore)",
+  "lat": -0.61,
+  "lon": 30.66,
+  "kur": "1450-01-01",
+  "s": [
+   {
+    "f": "1450-01-01",
+    "t": "1901-10-25",
+    "d": "nkore"
+   },
+   {
+    "f": "1901-10-25",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Nkore (Ankole) krallığı merkezi"
+ },
+ {
+  "ad": "Hoima (Bunyoro)",
+  "lat": 1.43,
+  "lon": 31.35,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1899-04-09",
+    "d": "bunyoro"
+   },
+   {
+    "f": "1899-04-09",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "uganda",
+  "not": "Bunyoro-Kitara saray merkezi"
+ },
+ {
+  "ad": "Masindi",
+  "lat": 1.68,
+  "lon": 31.72,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1899-04-09",
+    "d": "bunyoro"
+   },
+   {
+    "f": "1899-04-09",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "uganda",
+  "not": "Bunyoro; Kabalega sahası"
+ },
+ {
+  "ad": "Fort Portal (Toro)",
+  "lat": 0.66,
+  "lon": 30.28,
+  "kur": "1830-01-01",
+  "s": [
+   {
+    "f": "1830-01-01",
+    "t": "1900-06-26",
+    "d": "toro"
+   },
+   {
+    "f": "1900-06-26",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Toro krallığı merkezi 1830'lar"
+ },
+ {
+  "ad": "Marsabit",
+  "lat": 2.33,
+  "lon": 37.99,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1895-07-01",
+    "d": "kenya-kuzey-halklari"
+   },
+   {
+    "f": "1895-07-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "kenya",
+  "not": "Kuzey Kenya; Borana-Rendille"
+ },
+ {
+  "ad": "Vacir (Wajir)",
+  "lat": 1.75,
+  "lon": 40.06,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1895-07-01",
+    "d": "kenya-kuzey-halklari"
+   },
+   {
+    "f": "1895-07-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "kenya",
+  "not": "Kuzeydoğu; Somali klanları"
+ },
+ {
+  "ad": "Garissa",
+  "lat": -0.45,
+  "lon": 39.66,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1895-07-01",
+    "d": "kenya-kuzey-halklari"
+   },
+   {
+    "f": "1895-07-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "kenya",
+  "not": "Tana nehri; Somali sahası"
+ },
+ {
+  "ad": "İsiolo",
+  "lat": 0.35,
+  "lon": 37.58,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1895-07-01",
+    "d": "kenya-kuzey-halklari"
+   },
+   {
+    "f": "1895-07-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "kenya",
+  "not": "Ewaso Nyiro; Borana"
+ },
+ {
+  "ad": "Kitui",
+  "lat": -1.37,
+  "lon": 38.01,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1895-07-01",
+    "d": "kamba"
+   },
+   {
+    "f": "1895-07-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Kamba ticaret sahası"
+ },
+ {
+  "ad": "Danangombe (Rozvi)",
+  "lat": -19.6,
+  "lon": 29.3,
+  "kur": "1684-01-01",
+  "s": [
+   {
+    "f": "1684-01-01",
+    "t": "1834-01-01",
+    "d": "rozvi"
+   },
+   {
+    "f": "1834-01-01",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Rozvi (Changamire) merkezi"
+ },
+ {
+  "ad": "Bulavayo",
+  "lat": -20.15,
+  "lon": 28.58,
+  "kur": "1840-01-01",
+  "s": [
+   {
+    "f": "1840-01-01",
+    "t": "1893-11-04",
+    "d": "matabele"
+   },
+   {
+    "f": "1893-11-04",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Mzilikazi 1840 · Lobengula 1870"
+ },
+ {
+  "ad": "Umtali (Mutare)",
+  "lat": -18.97,
+  "lon": 32.67,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1891-01-01",
+    "d": "manica"
+   },
+   {
+    "f": "1891-01-01",
+    "t": "1923-10-29",
+    "d": "portekiz"
+   }
+  ],
+  "kaynak": "mozambik",
+  "not": "Manica; altın sahası"
+ },
+ {
+  "ad": "Mahabo (Menabe)",
+  "lat": -20.38,
+  "lon": 44.67,
+  "kur": "1600-01-01",
+  "s": [
+   {
+    "f": "1600-01-01",
+    "t": "1897-02-28",
+    "d": "sakalava-menabe"
+   },
+   {
+    "f": "1897-02-28",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "madagaskar",
+  "not": "Menabe Sakalava başkenti"
+ },
+ {
+  "ad": "Maintirano",
+  "lat": -18.06,
+  "lon": 44.03,
+  "kur": "1600-01-01",
+  "s": [
+   {
+    "f": "1600-01-01",
+    "t": "1897-02-28",
+    "d": "sakalava-menabe"
+   },
+   {
+    "f": "1897-02-28",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "madagaskar",
+  "not": "Bati kiyi; Sakalava Menabe kuzeyi"
+ },
+ {
+  "ad": "Toliara (Tuléar)",
+  "lat": -23.35,
+  "lon": 43.67,
+  "kur": "1600-01-01",
+  "s": [
+   {
+    "f": "1600-01-01",
+    "t": "1897-02-28",
+    "d": "sakalava-menabe"
+   },
+   {
+    "f": "1897-02-28",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "madagaskar",
+  "not": "Güneybatı limanı; Masikoro"
+ },
+ {
+  "ad": "Mahacanga (Majunga)",
+  "lat": -15.72,
+  "lon": 46.32,
+  "kur": "1690-01-01",
+  "s": [
+   {
+    "f": "1690-01-01",
+    "t": "1897-02-28",
+    "d": "sakalava-boina"
+   },
+   {
+    "f": "1897-02-28",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "madagaskar",
+  "not": "Boina Sakalava limanı"
+ },
+ {
+  "ad": "Besalampy",
+  "lat": -16.75,
+  "lon": 44.48,
+  "kur": "1690-01-01",
+  "s": [
+   {
+    "f": "1690-01-01",
+    "t": "1897-02-28",
+    "d": "sakalava-boina"
+   },
+   {
+    "f": "1897-02-28",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "madagaskar",
+  "not": "Bati kiyi; Sakalava Boina guneyi"
+ },
+ {
+  "ad": "Maevatanana",
+  "lat": -16.95,
+  "lon": 46.83,
+  "kur": "1690-01-01",
+  "s": [
+   {
+    "f": "1690-01-01",
+    "t": "1897-02-28",
+    "d": "sakalava-boina"
+   },
+   {
+    "f": "1897-02-28",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "madagaskar",
+  "not": "Betsiboka; Boina-Merina siniri"
+ },
+ {
+  "ad": "Ambositra",
+  "lat": -20.53,
+  "lon": 47.25,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1830-01-01",
+    "d": "betsileo"
+   },
+   {
+    "f": "1830-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "madagaskar",
+  "not": "Betsileo kuzey merkezi"
+ },
+ {
+  "ad": "Vohipeno (Antemoro)",
+  "lat": -22.36,
+  "lon": 47.83,
+  "kur": "1500-01-01",
+  "s": [
+   {
+    "f": "1500-01-01",
+    "t": "1897-02-28",
+    "d": "antemoro"
+   },
+   {
+    "f": "1897-02-28",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "madagaskar",
+  "not": "Antemoro krallığı merkezi"
+ },
+ {
+  "ad": "Mananjary",
+  "lat": -21.23,
+  "lon": 48.34,
+  "kur": "1500-01-01",
+  "s": [
+   {
+    "f": "1500-01-01",
+    "t": "1897-02-28",
+    "d": "antemoro"
+   },
+   {
+    "f": "1897-02-28",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "madagaskar",
+  "not": "Doğu kıyı; Antambahoaka"
+ },
+ {
+  "ad": "Ambovombe (Antandroy)",
+  "lat": -25.17,
+  "lon": 46.09,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1900-01-01",
+    "d": "antandroy"
+   },
+   {
+    "f": "1900-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "madagaskar",
+  "not": "Antandroy sahası"
+ },
+ {
+  "ad": "İhosy (Bara)",
+  "lat": -22.4,
+  "lon": 46.12,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1900-01-01",
+    "d": "antandroy"
+   },
+   {
+    "f": "1900-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "madagaskar",
+  "not": "Bara sahası"
+ },
+ {
+  "ad": "Maroantsetra",
+  "lat": -15.43,
+  "lon": 49.74,
+  "kur": "1712-01-01",
+  "s": [
+   {
+    "f": "1712-01-01",
+    "t": "1817-01-01",
+    "d": "betsimisaraka"
+   },
+   {
+    "f": "1817-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "madagaskar",
+  "not": "Antongil körfezi; Betsimisaraka"
+ },
+ {
+  "ad": "Sambava",
+  "lat": -14.27,
+  "lon": 50.17,
+  "kur": "1712-01-01",
+  "s": [
+   {
+    "f": "1712-01-01",
+    "t": "1817-01-01",
+    "d": "betsimisaraka"
+   },
+   {
+    "f": "1817-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "madagaskar",
+  "not": "Kuzeydoğu kıyı"
+ },
+ {
+  "ad": "Monrovia",
+  "lat": 6.3,
+  "lon": -10.8,
+  "kur": "1822-04-25",
+  "s": [
+   {
+    "f": "1822-04-25",
+    "t": "1923-10-29",
+    "d": "liberya"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "1822 kuruluş"
+ },
+ {
+  "ad": "Harper",
+  "lat": 4.38,
+  "lon": -7.72,
+  "kur": "1822-04-25",
+  "s": [
+   {
+    "f": "1822-04-25",
+    "t": "1923-10-29",
+    "d": "liberya"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Maryland yerlesimi 1834"
+ },
+ {
+  "ad": "Gbarnga",
+  "lat": 7.0,
+  "lon": -9.49,
+  "kur": "1822-04-25",
+  "s": [
+   {
+    "f": "1822-04-25",
+    "t": "1923-10-29",
+    "d": "liberya"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Kpelle sahasi"
+ },
+ {
+  "ad": "Zwedru",
+  "lat": 6.07,
+  "lon": -8.13,
+  "kur": "1822-04-25",
+  "s": [
+   {
+    "f": "1822-04-25",
+    "t": "1923-10-29",
+    "d": "liberya"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Grebo-Krahn sahasi"
+ },
+ {
+  "ad": "Man",
+  "lat": 7.41,
+  "lon": -7.55,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1898-01-01",
+    "d": "dan-guro"
+   },
+   {
+    "f": "1898-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Dan (Yacouba) sahasi"
+ },
+ {
+  "ad": "Nzerekore",
+  "lat": 7.76,
+  "lon": -8.82,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1898-01-01",
+    "d": "dan-guro"
+   },
+   {
+    "f": "1898-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Guine orman bolgesi; Kpelle-Manon"
+ },
+ {
+  "ad": "Buake (Bouaké)",
+  "lat": 7.69,
+  "lon": -5.03,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1898-01-01",
+    "d": "dan-guro"
+   },
+   {
+    "f": "1898-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Baule sahasi"
+ },
+ {
+  "ad": "Daloa",
+  "lat": 6.88,
+  "lon": -6.45,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1898-01-01",
+    "d": "dan-guro"
+   },
+   {
+    "f": "1898-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Bete sahasi"
+ },
+ {
+  "ad": "Sassandra",
+  "lat": 4.95,
+  "lon": -6.08,
+  "kur": "1281-01-01",
+  "s": [
+   {
+    "f": "1281-01-01",
+    "t": "1898-01-01",
+    "d": "dan-guro"
+   },
+   {
+    "f": "1898-01-01",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "bulunamadı",
+  "not": "Portekiz-Fransiz kiyi noktasi"
+ },
+ {
+  "ad": "Kayes",
+  "lat": 14.45,
+  "lon": -11.44,
+  "kur": "1650-01-01",
+  "s": [
+   {
+    "f": "1650-01-01",
+    "t": "1861-03-10",
+    "d": "bambara"
+   },
+   {
+    "f": "1861-03-10",
+    "t": "1923-10-29",
+    "d": "fransa-cumhuriyet"
+   }
+  ],
+  "kaynak": "mali",
+  "not": "Yukarı Senegal; Fransız üssü"
+ }
+]

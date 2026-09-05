@@ -1,0 +1,2477 @@
+[
+ {
+  "id": "futa-callon",
+  "ad": "Futa Callon İmamlığı",
+  "f": "1747-01-01",
+  "t": "1896-01-01",
+  "bolge": "bati-afrika",
+  "kaynak": "gine",
+  "dayanak": "TDV gövdesi bu turda okundu",
+  "not": "TDV gine: 'Yaklaşık 1747'de İbrâhim Mûsâ önderliğinde bağımsız bir İslâm devleti'; merkezi Timbo, Labe eyalet merkezi. Fransız himayesi 1896.",
+  "tur": "devlet",
+  "baskent": "Timbo",
+  "ozet": "Fûlânî cihadıyla Gine yaylalarında kurulan, Almami unvanlı imamların yönettiği konfederatif İslâm devleti; Timbo başşehir, Labe eyalet merkeziydi. TDV gine maddesine dayanır.",
+  "kronoloji": [
+   {
+    "t": "1747-01-01",
+    "tur": "kurulus",
+    "b": "İbrâhim Mûsâ önderliğinde Fûlânî imamlığı kuruldu"
+   },
+   {
+    "t": "1896-01-01",
+    "tur": "son",
+    "b": "Fransız himayesi kabul edildi"
+   }
+  ]
+ },
+ {
+  "id": "futa-toro",
+  "ad": "Futa Toro Almamiliği",
+  "f": "1776-01-01",
+  "t": "1881-01-01",
+  "bolge": "bati-afrika",
+  "kaynak": "senegal",
+  "dayanak": "TDV gövdesi bu turda okundu",
+  "not": "TDV senegal: Fûlânî hânedanı 1512-1776, Tekrûr halkı 1776'da İslâmî yönetimi kurdu. Fransız fethi 1881. ⚠️ Mevcut `tekrur` künyesi BAŞKA şeydir (Umarî devleti 1852-1893).",
+  "tur": "devlet",
+  "baskent": "Podor",
+  "ozet": "Senegal nehri boyunca Tekrûr halkının kurduğu, Almami seçimiyle yönetilen İslâm devleti; kendinden önceki Fûlânî Denyanke hânedanının yerini aldı. TDV senegal maddesine dayanır.",
+  "kronoloji": [
+   {
+    "t": "1776-01-01",
+    "tur": "kurulus",
+    "b": "Süleyman Bal hareketiyle Almami idaresi kuruldu"
+   },
+   {
+    "t": "1881-01-01",
+    "tur": "son",
+    "b": "Fransız fethi tamamlandı"
+   }
+  ]
+ },
+ {
+  "id": "colof",
+  "ad": "Colof (Jolof) İmparatorluğu",
+  "f": "1350-01-01",
+  "t": "1890-01-01",
+  "bolge": "bati-afrika",
+  "kaynak": "senegal",
+  "dayanak": "TDV gövdesi bu turda okundu",
+  "not": "TDV senegal: 'Volof Krallığı XIII. yüzyılda orta Senegal'e hâkimdi.' 1549 Danki'den sonra küçülür ama 1890'a kadar sürer.",
+  "tur": "krallik",
+  "baskent": "Linguère",
+  "ozet": "Orta Senegal'de Volof halkının kurduğu imparatorluk; 1549 Danki bozgunundan sonra Kayor ve Valo'yu kaybedip küçülerek varlığını sürdürdü. TDV senegal maddesine dayanır.",
+  "kronoloji": [
+   {
+    "t": "1350-01-01",
+    "tur": "kurulus",
+    "b": "Njajaan Njaay geleneğine dayanan Volof birliği kuruldu"
+   },
+   {
+    "t": "1890-01-01",
+    "tur": "son",
+    "b": "Fransız idaresine katıldı"
+   }
+  ]
+ },
+ {
+  "id": "kayor",
+  "ad": "Kayor (Cayor) Krallığı",
+  "f": "1549-01-01",
+  "t": "1886-10-27",
+  "bolge": "bati-afrika",
+  "kaynak": "senegal",
+  "dayanak": "TDV gövdesi bu turda okundu",
+  "not": "TDV senegal: Lat Dior Fransız sömürgeciliğine direndi; 1886'da öldü.",
+  "tur": "krallik",
+  "baskent": "Mbul",
+  "ozet": "Atlantik kıyısındaki Volof krallığı; Damel unvanlı hükümdarları Fransız yayılmasına en uzun direnen güçlerdendi. TDV senegal maddesine dayanır.",
+  "kronoloji": [
+   {
+    "t": "1549-01-01",
+    "tur": "kurulus",
+    "b": "Danki'de Colof'tan ayrılarak bağımsız oldu"
+   },
+   {
+    "t": "1886-10-27",
+    "tur": "son",
+    "b": "Damel Lat Dior'un ölümüyle sona erdi"
+   }
+  ]
+ },
+ {
+  "id": "valo",
+  "ad": "Valo (Waalo) Krallığı",
+  "f": "1287-01-01",
+  "t": "1855-02-25",
+  "bolge": "bati-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Senegal nehri ağzı; başkenti Nder. Fransız ilhakı 1855. TDV senegal maddesi Valo'yu adıyla anmıyor — TANECİK boşluğu (§4).",
+  "tur": "krallik",
+  "baskent": "Nder",
+  "ozet": "Senegal nehri ağzındaki Volof krallığı; Brak unvanlı hükümdarları kuzeyde Trarza emirliğiyle sürekli çatışma hâlindeydi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1287-01-01",
+    "tur": "kurulus",
+    "b": "Volof krallığı olarak teşkilatlandı"
+   },
+   {
+    "t": "1855-02-25",
+    "tur": "son",
+    "b": "Fransa tarafından ilhak edildi"
+   }
+  ]
+ },
+ {
+  "id": "sine-salum",
+  "ad": "Sine ve Salum Krallıkları (Serer)",
+  "f": "1350-01-01",
+  "t": "1887-01-01",
+  "bolge": "bati-afrika",
+  "kaynak": "senegal",
+  "dayanak": "TDV gövdesi bu turda okundu",
+  "not": "TDV senegal: 'Sine-Salum Emirliği — Serer nüfuslu doğu bölgesi.' Başkentleri Diakhao ve Kahone.",
+  "tur": "krallik",
+  "baskent": "Diahav",
+  "ozet": "Serer halkının kurduğu, Bur unvanlı hükümdarlarca yönetilen iki kardeş krallık; İslâmlaşmaya en geç açılan Senegambiya devletleriydi. TDV senegal maddesine dayanır.",
+  "kronoloji": [
+   {
+    "t": "1350-01-01",
+    "tur": "kurulus",
+    "b": "Gelvar hânedanı altında Serer krallıkları kuruldu"
+   },
+   {
+    "t": "1887-01-01",
+    "tur": "son",
+    "b": "Fransız himayesine girdi"
+   }
+  ]
+ },
+ {
+  "id": "bundu",
+  "ad": "Bundu Emirliği",
+  "f": "1690-01-01",
+  "t": "1858-01-01",
+  "bolge": "bati-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Malik Sî'nin kurduğu Fûlânî imamlığı; başkenti Bulebane.",
+  "tur": "emirlik",
+  "baskent": "Bulebane",
+  "ozet": "Senegal ile Faleme arasında Malik Sî'nin kurduğu Fûlânî imamlığı; kervan yollarını denetleyen küçük ama sürekli bir devletti. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1690-01-01",
+    "tur": "kurulus",
+    "b": "Malik Sî imamlığı kurdu"
+   },
+   {
+    "t": "1858-01-01",
+    "tur": "son",
+    "b": "Fransız nüfuzuna girdi"
+   }
+  ]
+ },
+ {
+  "id": "moritanya-emirlikleri",
+  "ad": "Moritanya Emirlikleri (Trarza · Brakna · Tagant · Adrar)",
+  "f": "1640-01-01",
+  "t": "1909-01-01",
+  "bolge": "bati-afrika",
+  "kaynak": "moritanya",
+  "dayanak": "TDV gövdesi bu turda okundu",
+  "not": "TDV moritanya: 'Hassânî emirler XVIII-XIX. yüzyılda Fas şeriflerıyle yakın ilişki içindeydi'; Trarza · Brakna · Adrar · Tagant adıyla anılır. ⚠️ TDV kasaba düzeyinde SUSUYOR — tanecik boşluğu.",
+  "tur": "devlet",
+  "baskent": "Şinkît",
+  "ozet": "Batı Sahra'da Hassânî Arap kabilelerinin kurduğu dört emirlik (Trarza · Brakna · Tagant · Adrar); vaha şehirleri Şinkît ve Vâdân ilim merkezleriydi. TDV moritanya maddesine dayanır.",
+  "kronoloji": [
+   {
+    "t": "1640-01-01",
+    "tur": "kurulus",
+    "b": "Hassânî emirlikleri teşekkül etti"
+   },
+   {
+    "t": "1909-01-01",
+    "tur": "son",
+    "b": "Fransız fethi tamamlandı"
+   }
+  ]
+ },
+ {
+  "id": "berabis",
+  "ad": "Berâbîş Kabile Konfederasyonu",
+  "f": "1600-01-01",
+  "t": "1894-01-01",
+  "bolge": "bati-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Timbuktu kuzeyi tuz kervan yolu (Aravan-Tavdeni) hâkimi Arap konfederasyonu.",
+  "tur": "devlet",
+  "baskent": "Aravan",
+  "ozet": "Timbuktu kuzeyindeki tuz kervan yolunu (Tavdeni-Aravan) denetleyen Arap kabile konfederasyonu. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1600-01-01",
+    "tur": "kurulus",
+    "b": "Tuz yolu üzerinde hâkimiyet kurdu"
+   },
+   {
+    "t": "1894-01-01",
+    "tur": "son",
+    "b": "Fransız Sudan idaresine girdi"
+   }
+  ]
+ },
+ {
+  "id": "gambiya-mandinka",
+  "ad": "Gambiya Mandinka Devletçikleri (Niumi · Kombo · Vuli)",
+  "f": "1281-01-01",
+  "t": "1894-01-01",
+  "bolge": "bati-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Gambiya nehri boyunca Mali ardılı küçük Mandinka devletleri.",
+  "tur": "devlet",
+  "baskent": "—",
+  "ozet": "Gambiya nehri boyunca Mali'nin ardılı olarak doğan küçük Mandinka devletçikleri (Niumi · Kombo · Vuli); nehir ticaretini denetlediler. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1281-01-01",
+    "tur": "kurulus",
+    "b": "Mali'nin çözülmesiyle bağımsızlaştılar"
+   },
+   {
+    "t": "1894-01-01",
+    "tur": "son",
+    "b": "İngiliz Gambiya himayesine katıldılar"
+   }
+  ]
+ },
+ {
+  "id": "vasulu",
+  "ad": "Vâsûlû Devleti (Samori Ture)",
+  "f": "1878-01-01",
+  "t": "1898-09-29",
+  "bolge": "bati-afrika",
+  "kaynak": "gine",
+  "dayanak": "TDV gövdesi bu turda okundu",
+  "not": "TDV gine: 'Ture din temelli merkezî bir devlet kurdu'; başkenti Bisandugu; Fransız fethi 1898.",
+  "tur": "devlet",
+  "baskent": "Bisandugu",
+  "ozet": "Samori Ture'nin Yukarı Nijer'de kurduğu, düzenli ordusu ve İslâmî yönetimiyle Fransız ilerleyişine on altı yıl direnen devlet. TDV gine maddesine dayanır.",
+  "kronoloji": [
+   {
+    "t": "1878-01-01",
+    "tur": "kurulus",
+    "b": "Samori Ture devleti kurdu"
+   },
+   {
+    "t": "1898-09-29",
+    "tur": "son",
+    "b": "Samori esir alındı, devlet dağıldı"
+   }
+  ]
+ },
+ {
+  "id": "solima-yalunka",
+  "ad": "Solima Yalunka Krallığı",
+  "f": "1720-01-01",
+  "t": "1884-01-01",
+  "bolge": "bati-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Yukarı Nijer; merkezi Falaba.",
+  "tur": "krallik",
+  "baskent": "Falaba",
+  "ozet": "Futa Callon'un güneydoğusunda Yalunka halkının kurduğu, Fûlânî imamlığına direnen krallık. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1720-01-01",
+    "tur": "kurulus",
+    "b": "Solima krallığı teşekkül etti"
+   },
+   {
+    "t": "1884-01-01",
+    "tur": "son",
+    "b": "Samori kuvvetlerince yıkıldı"
+   }
+  ]
+ },
+ {
+  "id": "bambara",
+  "ad": "Bambara Krallıkları (Segu ve Kaarta)",
+  "f": "1650-01-01",
+  "t": "1861-03-10",
+  "bolge": "bati-afrika",
+  "kaynak": "mali",
+  "dayanak": "TDV gövdesi bu turda okundu",
+  "not": "TDV mali: 'Segu — önemli bir Bambara krallığı merkezi; el-Hâc Ömer 1861'de fethetti.' Kaarta kolu Nioro merkezli, 1854'te düştü. İkisi TEK HALKtır — tanecik: halk.",
+  "tur": "krallik",
+  "baskent": "Segu",
+  "ozet": "Nijer kavsinde Bambara halkının kurduğu iki kardeş krallık (Segu ve Kaarta); tòn örgütlenmesine dayanan askerî yapılarıyla bölgeye uzun süre hâkim oldular. TDV mali maddesine dayanır.",
+  "kronoloji": [
+   {
+    "t": "1650-01-01",
+    "tur": "kurulus",
+    "b": "Biton Kulibali Segu krallığını kurdu"
+   },
+   {
+    "t": "1861-03-10",
+    "tur": "son",
+    "b": "el-Hâc Ömer Segu'yu aldı"
+   }
+  ]
+ },
+ {
+  "id": "kenedugu",
+  "ad": "Kenedugu Krallığı (Sikasso)",
+  "f": "1650-01-01",
+  "t": "1898-05-01",
+  "bolge": "bati-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Senufo krallığı; Tieba ve Babemba dönemi; Fransız fethi 1898.",
+  "tur": "krallik",
+  "baskent": "Sikasso",
+  "ozet": "Senufo ülkesinde kurulan, Tieba ve Babemba dönemlerinde surlarıyla ünlenen krallık; hem Samori'ye hem Fransa'ya direndi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1650-01-01",
+    "tur": "kurulus",
+    "b": "Traore hânedanı krallığı kurdu"
+   },
+   {
+    "t": "1898-05-01",
+    "tur": "son",
+    "b": "Fransızlar Sikasso'yu aldı, Babemba intihar etti"
+   }
+  ]
+ },
+ {
+  "id": "mossi-vagadugu",
+  "ad": "Mossi Krallığı (Vagadugu)",
+  "f": "1281-01-01",
+  "t": "1896-09-01",
+  "bolge": "bati-afrika",
+  "kaynak": "burkina-faso",
+  "dayanak": "TDV gövdesi bu turda okundu",
+  "not": "TDV burkina-faso: 'XII. yüzyıl sonunda Ouédraogo temel Mossi krallığını kurdu'; 'Fransız askerleri 1896'da Vagadugu'ya girdi, kral kaçtı.'",
+  "tur": "krallik",
+  "baskent": "Vagadugu",
+  "ozet": "Volta havzasında Mogho Naaba unvanlı hükümdarlarca yönetilen, İslâm'a ve Songhay yayılmasına yüzyıllarca direnen Mossi krallığı. TDV burkina-faso maddesine dayanır.",
+  "kronoloji": [
+   {
+    "t": "1281-01-01",
+    "tur": "kurulus",
+    "b": "Ouédraogo soyundan Mossi krallığı kuruldu"
+   },
+   {
+    "t": "1896-09-01",
+    "tur": "son",
+    "b": "Fransızlar Vagadugu'ya girdi"
+   }
+  ]
+ },
+ {
+  "id": "yatenga",
+  "ad": "Yatenga Krallığı",
+  "f": "1540-01-01",
+  "t": "1895-01-01",
+  "bolge": "bati-afrika",
+  "kaynak": "burkina-faso",
+  "dayanak": "TDV gövdesi bu turda okundu",
+  "not": "TDV burkina-faso: 'Naaba Kango 1757-1787 arasında otoriteyi merkezîleştirdi'; Fransız himayesi 1894-95.",
+  "tur": "krallik",
+  "baskent": "Vahiguya",
+  "ozet": "Kuzey Mossi krallığı; Naaba Kango döneminde merkezîleşti ve Vahiguya'yı başşehir yaptı. TDV burkina-faso maddesine dayanır.",
+  "kronoloji": [
+   {
+    "t": "1540-01-01",
+    "tur": "kurulus",
+    "b": "Yatenga krallığı Vagadugu'dan ayrıldı"
+   },
+   {
+    "t": "1895-01-01",
+    "tur": "son",
+    "b": "Fransız himayesine girdi"
+   }
+  ]
+ },
+ {
+  "id": "gurma",
+  "ad": "Gurma Krallığı",
+  "f": "1281-01-01",
+  "t": "1897-01-01",
+  "bolge": "bati-afrika",
+  "kaynak": "burkina-faso",
+  "dayanak": "TDV gövdesi bu turda okundu",
+  "not": "TDV burkina-faso: Fransız işgali 1897'de tamamlandı.",
+  "tur": "krallik",
+  "baskent": "Fada Ngurma",
+  "ozet": "Doğu Volta'da Mossi'yle akraba Gurma halkının krallığı. TDV burkina-faso maddesine dayanır.",
+  "kronoloji": [
+   {
+    "t": "1281-01-01",
+    "tur": "kurulus",
+    "b": "Gurma krallığı teşekkül etti"
+   },
+   {
+    "t": "1897-01-01",
+    "tur": "son",
+    "b": "Fransız işgali tamamlandı"
+   }
+  ]
+ },
+ {
+  "id": "liptako",
+  "ad": "Liptako Emirliği (Dori)",
+  "f": "1810-01-01",
+  "t": "1897-01-01",
+  "bolge": "bati-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Sokoto cihadının Gurma kuzeyindeki Fûlânî emirliği.",
+  "tur": "emirlik",
+  "baskent": "Dori",
+  "ozet": "Sokoto cihadının Gurma kuzeyinde doğurduğu Fûlânî emirliği. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1810-01-01",
+    "tur": "kurulus",
+    "b": "Brahima Saidu emirliği kurdu"
+   },
+   {
+    "t": "1897-01-01",
+    "tur": "son",
+    "b": "Fransız idaresine girdi"
+   }
+  ]
+ },
+ {
+  "id": "zerma",
+  "ad": "Zerma (Djerma) Devletçikleri",
+  "f": "1281-01-01",
+  "t": "1898-01-01",
+  "bolge": "bati-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Nijer nehri sağ yakası; Tillaberi · Tera · Say çevresi.",
+  "tur": "devlet",
+  "baskent": "Tillaberi",
+  "ozet": "Nijer'in sağ yakasında Zerma (Djerma) halkının kurduğu devletçikler; Say zâviyesi bölgenin İslâm merkeziydi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1281-01-01",
+    "tur": "kurulus",
+    "b": "Zerma devletçikleri teşekkül etti"
+   },
+   {
+    "t": "1898-01-01",
+    "tur": "son",
+    "b": "Fransız işgaline uğradı"
+   }
+  ]
+ },
+ {
+  "id": "kong-vattara",
+  "ad": "Kong Devleti (Vattara)",
+  "f": "1710-01-01",
+  "t": "1897-05-01",
+  "bolge": "bati-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Seku Vattara'nın Dyula ticaret devleti; Samori 1897'de yıktı.",
+  "tur": "devlet",
+  "baskent": "Kong",
+  "ozet": "Seku Vattara'nın kurduğu, Dyula tüccarlarının kervan ağına dayanan ticaret devleti. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1710-01-01",
+    "tur": "kurulus",
+    "b": "Seku Vattara Kong devletini kurdu"
+   },
+   {
+    "t": "1897-05-01",
+    "tur": "son",
+    "b": "Samori Kong'u yıktı"
+   }
+  ]
+ },
+ {
+  "id": "gyaaman",
+  "ad": "Gyaaman Krallığı",
+  "f": "1690-01-01",
+  "t": "1895-01-01",
+  "bolge": "bati-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Akan krallığı; merkezi Bondugu.",
+  "tur": "krallik",
+  "baskent": "Bondugu",
+  "ozet": "Kuzeydoğu Akan krallığı; Aşanti ile Kong arasında sürekli denge arayan bir tampon devletti. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1690-01-01",
+    "tur": "kurulus",
+    "b": "Abron hânedanı krallığı kurdu"
+   },
+   {
+    "t": "1895-01-01",
+    "tur": "son",
+    "b": "Fransız himayesine girdi"
+   }
+  ]
+ },
+ {
+  "id": "buna",
+  "ad": "Buna Krallığı (Kulango)",
+  "f": "1690-01-01",
+  "t": "1897-01-01",
+  "bolge": "bati-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Kulango-Dyula devleti.",
+  "tur": "krallik",
+  "baskent": "Buna",
+  "ozet": "Kulango halkının Kara Volta doğusunda kurduğu, altın ve kola ticaretiyle yaşayan krallık. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1690-01-01",
+    "tur": "kurulus",
+    "b": "Buna krallığı kuruldu"
+   },
+   {
+    "t": "1897-01-01",
+    "tur": "son",
+    "b": "Samori ve Fransız seferleriyle sona erdi"
+   }
+  ]
+ },
+ {
+  "id": "gonja",
+  "ad": "Gonja Krallığı",
+  "f": "1550-01-01",
+  "t": "1899-01-01",
+  "bolge": "bati-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Volta kuzeyi; Salaga pazarı ve Bole bölümü.",
+  "tur": "krallik",
+  "baskent": "Salaga",
+  "ozet": "Kuzey Volta'da Mande kökenli hânedanın kurduğu krallık; Salaga pazarı Batı Afrika'nın en büyük kola merkezlerindendi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1550-01-01",
+    "tur": "kurulus",
+    "b": "Ndewura Jakpa krallığı kurdu"
+   },
+   {
+    "t": "1899-01-01",
+    "tur": "son",
+    "b": "İngiliz Altın Kıyı himayesine katıldı"
+   }
+  ]
+ },
+ {
+  "id": "dagbon",
+  "ad": "Dagbon Krallığı (Dagomba)",
+  "f": "1281-01-01",
+  "t": "1899-01-01",
+  "bolge": "bati-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Merkezi Yendi.",
+  "tur": "krallik",
+  "baskent": "Yendi",
+  "ozet": "Dagomba halkının Ya Naa unvanlı hükümdarlarca yönetilen krallığı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1281-01-01",
+    "tur": "kurulus",
+    "b": "Dagbon krallığı teşekkül etti"
+   },
+   {
+    "t": "1899-01-01",
+    "tur": "son",
+    "b": "İngiliz-Alman paylaşımıyla bölündü"
+   }
+  ]
+ },
+ {
+  "id": "eve-notse",
+  "ad": "Eve (Ewe) Notse Birliği",
+  "f": "1281-01-01",
+  "t": "1884-07-05",
+  "bolge": "bati-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Notse ana yerleşimi; Alman Togo himayesi 1884.",
+  "tur": "devlet",
+  "baskent": "Notse",
+  "ozet": "Eve halkının surlu ana yerleşimi Notse çevresinde kurulu şeflikler birliği. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1281-01-01",
+    "tur": "kurulus",
+    "b": "Notse merkezli Eve birliği teşekkül etti"
+   },
+   {
+    "t": "1884-07-05",
+    "tur": "son",
+    "b": "Alman Togo himayesi ilân edildi"
+   }
+  ]
+ },
+ {
+  "id": "borgu",
+  "ad": "Borgu Bariba Krallıkları (Nikki · Busa)",
+  "f": "1281-01-01",
+  "t": "1898-01-01",
+  "bolge": "bati-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Nijer'in batısında Bariba devletçikleri konfederasyonu.",
+  "tur": "krallik",
+  "baskent": "Nikki",
+  "ozet": "Nijer'in batısında Bariba halkının kurduğu, Sokoto cihadına boyun eğmeyen krallıklar birliği (Nikki · Busa · Kvande). TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1281-01-01",
+    "tur": "kurulus",
+    "b": "Borgu krallıkları teşekkül etti"
+   },
+   {
+    "t": "1898-01-01",
+    "tur": "son",
+    "b": "İngiliz-Fransız paylaşımıyla bölündü"
+   }
+  ]
+ },
+ {
+  "id": "ibadan",
+  "ad": "İbadan Devleti",
+  "f": "1829-01-01",
+  "t": "1893-08-15",
+  "bolge": "bati-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Oyo çöküşünden sonra doğan Yoruba askerî devleti; İngiliz himayesi 1893.",
+  "tur": "devlet",
+  "baskent": "İbadan",
+  "ozet": "Oyo'nun çöküşünden sonra savaş reislerince kurulan, Yoruba içi savaşlara yön veren askerî şehir devleti. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1829-01-01",
+    "tur": "kurulus",
+    "b": "Yoruba savaşçıları İbadan'ı devlet merkezi yaptı"
+   },
+   {
+    "t": "1893-08-15",
+    "tur": "son",
+    "b": "İngiliz himayesi kabul edildi"
+   }
+  ]
+ },
+ {
+  "id": "aro-konfederasyonu",
+  "ad": "Aro Konfederasyonu",
+  "f": "1690-01-01",
+  "t": "1902-03-01",
+  "bolge": "bati-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Arochukvu kâhin merkezli Igbo ticaret ağı; İngiliz seferi 1901-1902.",
+  "tur": "devlet",
+  "baskent": "Aroçukvu",
+  "ozet": "Igbo ülkesinde Ibini Ukpabi kâhin merkezine dayanan, ticaret ve hakemlikle geniş bir ağ kuran konfederasyon. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1690-01-01",
+    "tur": "kurulus",
+    "b": "Aro ticaret ve kâhin ağı kuruldu"
+   },
+   {
+    "t": "1902-03-01",
+    "tur": "son",
+    "b": "İngiliz Aro seferiyle dağıtıldı"
+   }
+  ]
+ },
+ {
+  "id": "nijer-deltasi",
+  "ad": "Nijer Deltası Şehir Devletleri (Kalabar · Bonny)",
+  "f": "1281-01-01",
+  "t": "1884-09-10",
+  "bolge": "bati-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Efik ve İjo ticaret devletleri; İngiliz Petrol Nehirleri himayesi 1884.",
+  "tur": "devlet",
+  "baskent": "Eski Kalabar",
+  "ozet": "Nijer deltasında Efik ve İjo halklarının kurduğu, Atlantik ticaretine dayanan şehir devletleri (Kalabar · Bonny · Brass). TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1281-01-01",
+    "tur": "kurulus",
+    "b": "Delta şehir devletleri teşekkül etti"
+   },
+   {
+    "t": "1884-09-10",
+    "tur": "son",
+    "b": "İngiliz Petrol Nehirleri himayesi ilân edildi"
+   }
+  ]
+ },
+ {
+  "id": "jukun-kvararafa",
+  "ad": "Kvararafa (Jukun) Krallığı",
+  "f": "1281-01-01",
+  "t": "1900-01-01",
+  "bolge": "bati-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Merkezi Vukari.",
+  "tur": "krallik",
+  "baskent": "Vukari",
+  "ozet": "Benue vadisinde Jukun halkının kurduğu, Bornu ve Hausa şehirlerine akınlarıyla tanınan krallık. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1281-01-01",
+    "tur": "kurulus",
+    "b": "Kvararafa krallığı teşekkül etti"
+   },
+   {
+    "t": "1900-01-01",
+    "tur": "son",
+    "b": "İngiliz Kuzey Nijerya idaresine katıldı"
+   }
+  ]
+ },
+ {
+  "id": "tiv",
+  "ad": "Tiv Halkı",
+  "f": "1281-01-01",
+  "t": "1900-01-01",
+  "bolge": "bati-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Benue vadisi; merkezî devlet değil, soy örgütlenmesi — tanecik: HALK.",
+  "tur": "devlet",
+  "baskent": "—",
+  "ozet": "Benue vadisinde soy örgütlenmesine dayanan, merkezî hükümdarı olmayan Tiv halkı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1281-01-01",
+    "tur": "kurulus",
+    "b": "Tiv halkı Benue vadisine yerleşti"
+   },
+   {
+    "t": "1900-01-01",
+    "tur": "son",
+    "b": "İngiliz idaresine girdi"
+   }
+  ]
+ },
+ {
+  "id": "birom-plato",
+  "ad": "Jos Platosu Halkları (Birom · Jarava)",
+  "f": "1281-01-01",
+  "t": "1903-01-01",
+  "bolge": "bati-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Sokoto'ya hiç boyun eğmemiş plato toplulukları.",
+  "tur": "devlet",
+  "baskent": "—",
+  "ozet": "Jos platosunda Birom ve Jarava gibi, Sokoto cihadına hiç boyun eğmemiş dağlı topluluklar. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1281-01-01",
+    "tur": "kurulus",
+    "b": "Plato toplulukları teşekkül etti"
+   },
+   {
+    "t": "1903-01-01",
+    "tur": "son",
+    "b": "İngiliz plato seferleriyle idareye alındı"
+   }
+  ]
+ },
+ {
+  "id": "damagaram",
+  "ad": "Damagaram Sultanlığı (Zinder)",
+  "f": "1731-01-01",
+  "t": "1899-01-01",
+  "bolge": "bati-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Bornu'ya tâbi Kanuri-Hausa sultanlığı; Fransız fethi 1899.",
+  "tur": "sultanlik",
+  "baskent": "Zinder",
+  "ozet": "Bornu'ya tâbi olarak kurulan, sonradan bağımsızlaşan Kanuri-Hausa sultanlığı; top dökümüyle tanınırdı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1731-01-01",
+    "tur": "kurulus",
+    "b": "Damagaram sultanlığı kuruldu"
+   },
+   {
+    "t": "1899-01-01",
+    "tur": "son",
+    "b": "Fransızlar Zinder'i aldı"
+   }
+  ]
+ },
+ {
+  "id": "adar",
+  "ad": "Adar Hausa Sahası (Tahoua · Konni · Madaova)",
+  "f": "1281-01-01",
+  "t": "1899-01-01",
+  "bolge": "bati-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Gobir-Adar kuşağı; Sokoto ile Tuareg arasında.",
+  "tur": "devlet",
+  "baskent": "Tahoua",
+  "ozet": "Gobir ile Tuareg sahası arasında kalan Hausa uç bölgesi; Konni ve Madaova kaleleri Sokoto'ya karşı direndi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1281-01-01",
+    "tur": "kurulus",
+    "b": "Adar Hausa beylikleri teşekkül etti"
+   },
+   {
+    "t": "1899-01-01",
+    "tur": "son",
+    "b": "Fransız işgaline uğradı"
+   }
+  ]
+ },
+ {
+  "id": "tuareg-air",
+  "ad": "Aïr Tuareg Sultanlığı (Kel Ayr)",
+  "f": "1405-01-01",
+  "t": "1900-01-01",
+  "bolge": "bati-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Agadez sultanlığı ve Kel Ewey · Kel Fervan konfederasyonları; İn Gall · Fachi · Arlit tuz-kervan sahası.",
+  "tur": "sultanlik",
+  "baskent": "Agadez",
+  "ozet": "Aïr dağlarında Agadez sultanı ve Kel Ewey · Kel Fervan konfederasyonlarının paylaştığı, tuz ve kervan ticaretine dayanan yapı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1405-01-01",
+    "tur": "kurulus",
+    "b": "Agadez sultanlığı kuruldu"
+   },
+   {
+    "t": "1900-01-01",
+    "tur": "son",
+    "b": "Fransız işgaline uğradı"
+   }
+  ]
+ },
+ {
+  "id": "tuareg-adag",
+  "ad": "Kel Adag Tuareg Konfederasyonu (Adrar des Ifoghas)",
+  "f": "1281-01-01",
+  "t": "1899-01-01",
+  "bolge": "bati-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Kidal merkezli Ifoghas konfederasyonu.",
+  "tur": "devlet",
+  "baskent": "Kidal",
+  "ozet": "Adrar des Ifoghas'ta Kel Adag (Ifoghas) Tuareg konfederasyonu; Amenokal önderliğinde teşkilatlıydı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1281-01-01",
+    "tur": "kurulus",
+    "b": "Kel Adag konfederasyonu teşekkül etti"
+   },
+   {
+    "t": "1899-01-01",
+    "tur": "son",
+    "b": "Fransız Sudan idaresine girdi"
+   }
+  ]
+ },
+ {
+  "id": "tuareg-ivellemmedan",
+  "ad": "İvellemmedan Tuareg Konfederasyonu",
+  "f": "1281-01-01",
+  "t": "1899-01-01",
+  "bolge": "bati-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Menaka-Azavad kuşağı.",
+  "tur": "devlet",
+  "baskent": "Menaka",
+  "ozet": "Azavad ile Nijer kavsi arasında İvellemmedan Tuareg konfederasyonu; bölgenin en güçlü Tuareg gücüydü. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1281-01-01",
+    "tur": "kurulus",
+    "b": "İvellemmedan konfederasyonu teşekkül etti"
+   },
+   {
+    "t": "1899-01-01",
+    "tur": "son",
+    "b": "Fransız işgaline uğradı"
+   }
+  ]
+ },
+ {
+  "id": "liberya",
+  "ad": "Liberya Cumhuriyeti",
+  "f": "1822-04-25",
+  "t": "1923-10-29",
+  "bolge": "bati-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "1822 Amerikan Sömürgeleştirme Cemiyeti yerleşimi; 1847-07-26 bağımsız cumhuriyet. 🔴 HİÇ İNGİLİZ KOLONİSİ OLMADI — `ingiltere` yazmak §3.5 hayaleti üretir (bu turda son anda durduruldu).",
+  "tur": "cumhuriyet",
+  "baskent": "Monrovia",
+  "ozet": "Amerikan Sömürgeleştirme Cemiyeti'nin kurduğu yerleşimden doğan, 1847'de bağımsızlığını ilân eden Afrika'nın ilk cumhuriyeti; hiçbir zaman sömürge olmadı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1822-04-25",
+    "tur": "kurulus",
+    "b": "Amerikan Sömürgeleştirme Cemiyeti Monrovia'yı kurdu"
+   },
+   {
+    "t": "1923-10-29",
+    "tur": "son",
+    "b": "1923 ufkunda bağımsız devlet olarak sürüyordu"
+   }
+  ]
+ },
+ {
+  "id": "dan-guro",
+  "ad": "Dan · Guro · Bete Halkları (Fildişi orman kuşağı)",
+  "f": "1281-01-01",
+  "t": "1898-01-01",
+  "bolge": "bati-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Merkezî devlet kurmamış orman halkları — tanecik: HALK.",
+  "tur": "devlet",
+  "baskent": "—",
+  "ozet": "Fildişi orman kuşağında Dan · Guro · Bete gibi merkezî devlet kurmamış halklar. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1281-01-01",
+    "tur": "kurulus",
+    "b": "Orman halkları bölgeye yerleşti"
+   },
+   {
+    "t": "1898-01-01",
+    "tur": "son",
+    "b": "Fransız Fildişi Sahili idaresine girdi"
+   }
+  ]
+ },
+ {
+  "id": "kru-grebo",
+  "ad": "Kru ve Grebo Halkları",
+  "f": "1281-01-01",
+  "t": "1822-04-25",
+  "bolge": "bati-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Liberya kıyısı; Liberya'dan önce.",
+  "tur": "devlet",
+  "baskent": "—",
+  "ozet": "Liberya kıyısında Kru ve Grebo halkları; denizcilik ve kıyı ticaretiyle tanınırlardı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1281-01-01",
+    "tur": "kurulus",
+    "b": "Kru ve Grebo toplulukları kıyıya yerleşti"
+   },
+   {
+    "t": "1822-04-25",
+    "tur": "son",
+    "b": "Liberya yerleşimiyle sınırları daraldı"
+   }
+  ]
+ },
+ {
+  "id": "adamava",
+  "ad": "Adamava Emirliği (Fumbina)",
+  "f": "1809-01-01",
+  "t": "1901-09-02",
+  "bolge": "orta-afrika",
+  "kaynak": "kamerun",
+  "dayanak": "TDV gövdesi bu turda okundu",
+  "not": "TDV kamerun: 'Modibbo Adama … Yola merkez olmak üzere Fumbina Krallığı adıyla İslâmî bir yönetim kurdu (1841)'; emirlik 1809'da başlar, Alman-İngiliz paylaşımı 1901.",
+  "tur": "emirlik",
+  "baskent": "Yola",
+  "ozet": "Modibbo Adama'nın Sokoto adına kurduğu, Benue havzasının en geniş emirliği (Fumbina); lamidatlarla yönetilirdi. TDV kamerun maddesine dayanır.",
+  "kronoloji": [
+   {
+    "t": "1809-01-01",
+    "tur": "kurulus",
+    "b": "Modibbo Adama Fumbina emirliğini kurdu"
+   },
+   {
+    "t": "1901-09-02",
+    "tur": "son",
+    "b": "Alman-İngiliz paylaşımıyla bölündü"
+   }
+  ]
+ },
+ {
+  "id": "bamum",
+  "ad": "Bamum Krallığı",
+  "f": "1394-01-01",
+  "t": "1916-02-16",
+  "bolge": "orta-afrika",
+  "kaynak": "kamerun",
+  "dayanak": "TDV gövdesi bu turda okundu",
+  "not": "TDV kamerun Fumban'ı önemli şehir sayar, kuruluş yılı VERMEZ; 1394 hânedan başlangıcı akademik dayanaktır.",
+  "tur": "krallik",
+  "baskent": "Fumban",
+  "ozet": "Kamerun yaylalarında Nşare soyunun kurduğu krallık; Sultan Njoya'nın icat ettiği Bamum yazısıyla tanınır. TDV kamerun maddesine dayanır.",
+  "kronoloji": [
+   {
+    "t": "1394-01-01",
+    "tur": "kurulus",
+    "b": "Nşare Bamum krallığını kurdu"
+   },
+   {
+    "t": "1916-02-16",
+    "tur": "son",
+    "b": "Fransız Kamerun idaresine katıldı"
+   }
+  ]
+ },
+ {
+  "id": "vaday",
+  "ad": "Vaday Sultanlığı",
+  "f": "1635-01-01",
+  "t": "1912-01-01",
+  "bolge": "orta-afrika",
+  "kaynak": "cad",
+  "dayanak": "TDV gövdesi bu turda okundu",
+  "not": "TDV cad: 'Vara ve Abeşe başlıca merkezler'; 'Râbih b. Zübeyr döneminde (1878-1900) bölgenin en güçlü devleti'. Fransız fethi 1909-1912.",
+  "tur": "sultanlik",
+  "baskent": "Abeşe",
+  "ozet": "Tunciler'in ardından Abdülkerim'in kurduğu, Vara'dan sonra Abeşe'yi başşehir yapan Sahra-altı sultanlığı. TDV cad maddesine dayanır.",
+  "kronoloji": [
+   {
+    "t": "1635-01-01",
+    "tur": "kurulus",
+    "b": "Abdülkerim Vaday sultanlığını kurdu"
+   },
+   {
+    "t": "1912-01-01",
+    "tur": "son",
+    "b": "Fransız fethi tamamlandı"
+   }
+  ]
+ },
+ {
+  "id": "bagirmi",
+  "ad": "Bagirmi Sultanlığı",
+  "f": "1522-01-01",
+  "t": "1897-01-01",
+  "bolge": "orta-afrika",
+  "kaynak": "cad",
+  "dayanak": "TDV gövdesi bu turda okundu",
+  "not": "TDV cad: 'XVI. yüzyılda Kenkâ halkı tarafından kuruldu'; merkezi Massenya; Fransız himayesi 1897.",
+  "tur": "sultanlik",
+  "baskent": "Massenya",
+  "ozet": "Şari havzasında kurulan, Bornu ile Vaday arasında sıkışan sultanlık. TDV cad maddesine dayanır.",
+  "kronoloji": [
+   {
+    "t": "1522-01-01",
+    "tur": "kurulus",
+    "b": "Kenkâ halkı Bagirmi sultanlığını kurdu"
+   },
+   {
+    "t": "1897-01-01",
+    "tur": "son",
+    "b": "Fransız himayesi kabul edildi"
+   }
+  ]
+ },
+ {
+  "id": "rabih",
+  "ad": "Râbih b. Zübeyr Devleti",
+  "f": "1893-01-01",
+  "t": "1900-04-22",
+  "bolge": "orta-afrika",
+  "kaynak": "cad",
+  "dayanak": "TDV gövdesi bu turda okundu",
+  "not": "TDV cad: Râbih dönemi 1878-1900. Bornu'yu 1893'te aldı, Kusseri'de 1900'de öldürüldü.",
+  "tur": "devlet",
+  "baskent": "Dikva",
+  "ozet": "Zübeyr Paşa'nın kumandanı Râbih b. Zübeyr'in Bornu'yu yıkarak kurduğu askerî devlet. TDV cad maddesine dayanır.",
+  "kronoloji": [
+   {
+    "t": "1893-01-01",
+    "tur": "kurulus",
+    "b": "Râbih Bornu'yu ele geçirdi"
+   },
+   {
+    "t": "1900-04-22",
+    "tur": "son",
+    "b": "Kusseri'de Fransızlara yenilip öldürüldü"
+   }
+  ]
+ },
+ {
+  "id": "kanem-tubu",
+  "ad": "Kanem Tubu Sahası (Teda-Daza)",
+  "f": "1281-01-01",
+  "t": "1913-01-01",
+  "bolge": "orta-afrika",
+  "kaynak": "cad",
+  "dayanak": "TDV gövdesi bu turda okundu",
+  "not": "TDV cad: 'Mao, Ati, Am Timan — Kanem topraklarının şehirleri'. Borku-Ennedi-Tibesti Fransız denetimine 1913'te girdi.",
+  "tur": "devlet",
+  "baskent": "Mao",
+  "ozet": "Çad gölü kuzeyinde Teda ve Daza (Tubu) kabilelerinin denetlediği geniş çöl sahası. TDV cad maddesine dayanır.",
+  "kronoloji": [
+   {
+    "t": "1281-01-01",
+    "tur": "kurulus",
+    "b": "Tubu kabile sahası teşekkül etti"
+   },
+   {
+    "t": "1913-01-01",
+    "tur": "son",
+    "b": "Fransız Borku-Ennedi-Tibesti idaresi kuruldu"
+   }
+  ]
+ },
+ {
+  "id": "darul-kuti",
+  "ad": "Dârü'l-Kûtî Sultanlığı (Senûsî)",
+  "f": "1890-01-01",
+  "t": "1911-04-12",
+  "bolge": "orta-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Ndele merkezli köle ticaret sultanlığı; Muhammed es-Senûsî 1911'de öldürüldü.",
+  "tur": "sultanlik",
+  "baskent": "Ndele",
+  "ozet": "Muhammed es-Senûsî'nin Ubangi kuzeyinde kurduğu, köle ticaretine dayanan sultanlık. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1890-01-01",
+    "tur": "kurulus",
+    "b": "Senûsî Ndele'de sultanlığını kurdu"
+   },
+   {
+    "t": "1911-04-12",
+    "tur": "son",
+    "b": "Fransızlar Senûsî'yi öldürdü"
+   }
+  ]
+ },
+ {
+  "id": "zende",
+  "ad": "Zende (Azande) Sultanlıkları",
+  "f": "1750-01-01",
+  "t": "1912-01-01",
+  "bolge": "orta-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Avungara hânedanının Ubangi-Uele sultanlıkları (Bangassu · Rafai · Zemio · Obo). 🔴 Bu kimliğin YOKLUĞU veride ZATEN kayıtlı: birden çok `kasitli_bosluk` kaydının `neden:` alanı 'zende kimliği yok' diyor.",
+  "tur": "sultanlik",
+  "baskent": "—",
+  "ozet": "Avungara hânedanının Ubangi-Uele havzasında kurduğu Azande sultanlıkları (Bangassu · Rafai · Zemio). TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1750-01-01",
+    "tur": "kurulus",
+    "b": "Avungara sultanlıkları teşekkül etti"
+   },
+   {
+    "t": "1912-01-01",
+    "tur": "son",
+    "b": "Fransız-Belçika paylaşımıyla sona erdi"
+   }
+  ]
+ },
+ {
+  "id": "mangbetu",
+  "ad": "Mangbetu Krallığı",
+  "f": "1815-01-01",
+  "t": "1895-01-01",
+  "bolge": "orta-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Uele yukarısı; merkezi Nangazizi.",
+  "tur": "krallik",
+  "baskent": "Nangazizi",
+  "ozet": "Uele yukarısında Mangbetu halkının kurduğu, saray sanatıyla tanınan krallık. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1815-01-01",
+    "tur": "kurulus",
+    "b": "Nabiembali krallığı birleştirdi"
+   },
+   {
+    "t": "1895-01-01",
+    "tur": "son",
+    "b": "Kongo Serbest Devleti idaresine girdi"
+   }
+  ]
+ },
+ {
+  "id": "banda-gbaya",
+  "ad": "Banda ve Gbaya Halkları",
+  "f": "1281-01-01",
+  "t": "1903-01-01",
+  "bolge": "orta-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Ubangi-Şari iç kesimi; merkezî devlet kurmamış halklar — tanecik: HALK.",
+  "tur": "devlet",
+  "baskent": "—",
+  "ozet": "Ubangi-Şari iç kesiminde merkezî devlet kurmamış Banda ve Gbaya halkları. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1281-01-01",
+    "tur": "kurulus",
+    "b": "Banda ve Gbaya toplulukları bölgeye yerleşti"
+   },
+   {
+    "t": "1903-01-01",
+    "tur": "son",
+    "b": "Fransız Ubangi-Şari idaresine girdi"
+   }
+  ]
+ },
+ {
+  "id": "tio",
+  "ad": "Tio (Teke) Krallığı",
+  "f": "1281-01-01",
+  "t": "1880-10-03",
+  "bolge": "orta-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Malebo Havuzu kuzeyi; Makoko ile Brazza antlaşması 1880. 🔴 `teke` KİMLİĞİ KULLANILAMAZ — o Anadolu'daki Teke Beyliğidir, çakışır (§4 Türkçe yazım ekseni).",
+  "tur": "krallik",
+  "baskent": "Mbe",
+  "ozet": "Malebo Havuzu kuzeyinde Makoko unvanlı hükümdarlarca yönetilen Tio (Teke) krallığı; Kongo nehri ticaretinin kuzey ucunu tutuyordu. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1281-01-01",
+    "tur": "kurulus",
+    "b": "Tio krallığı teşekkül etti"
+   },
+   {
+    "t": "1880-10-03",
+    "tur": "son",
+    "b": "Makoko Brazza ile himaye antlaşması imzaladı"
+   }
+  ]
+ },
+ {
+  "id": "kasance",
+  "ad": "Kasance (Kasanje) Krallığı",
+  "f": "1620-01-01",
+  "t": "1910-01-01",
+  "bolge": "orta-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "İmbangala krallığı; Kvango vadisi.",
+  "tur": "krallik",
+  "baskent": "Kasance",
+  "ozet": "Kvango vadisinde İmbangala savaşçılarının kurduğu, Portekiz köle ticaretinin iç pazarını elinde tutan krallık. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1620-01-01",
+    "tur": "kurulus",
+    "b": "İmbangala Kasance krallığını kurdu"
+   },
+   {
+    "t": "1910-01-01",
+    "tur": "son",
+    "b": "Portekiz Angola idaresine katıldı"
+   }
+  ]
+ },
+ {
+  "id": "matamba",
+  "ad": "Matamba Krallığı",
+  "f": "1281-01-01",
+  "t": "1744-01-01",
+  "bolge": "orta-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Njinga'nın krallığı; 1744'te Portekiz'e yenildi.",
+  "tur": "krallik",
+  "baskent": "Matamba",
+  "ozet": "Kraliçe Njinga'nın Ndongo'dan çekildikten sonra merkez yaptığı, Portekiz'e uzun süre direnen krallık. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1281-01-01",
+    "tur": "kurulus",
+    "b": "Matamba krallığı teşekkül etti"
+   },
+   {
+    "t": "1744-01-01",
+    "tur": "son",
+    "b": "Portekiz'e yenilerek tâbi oldu"
+   }
+  ]
+ },
+ {
+  "id": "ovimbundu",
+  "ad": "Ovimbundu Krallıkları (Bailundu · Viye · Vambu)",
+  "f": "1700-01-01",
+  "t": "1902-01-01",
+  "bolge": "orta-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Angola platosunun ticaret krallıkları; Bailundu ayaklanması 1902.",
+  "tur": "krallik",
+  "baskent": "Bailundo",
+  "ozet": "Angola platosunda Bailundu · Viye · Vambu gibi Ovimbundu krallıkları; iç bölge kervan ticaretini yürütüyorlardı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1700-01-01",
+    "tur": "kurulus",
+    "b": "Ovimbundu krallıkları teşekkül etti"
+   },
+   {
+    "t": "1902-01-01",
+    "tur": "son",
+    "b": "Bailundu ayaklanması bastırıldı"
+   }
+  ]
+ },
+ {
+  "id": "ovambo",
+  "ad": "Ovambo Krallıkları (Ondonga · Kvanyama)",
+  "f": "1600-01-01",
+  "t": "1917-02-06",
+  "bolge": "orta-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Kral Mandume 1917'de öldü, bağımsızlık sona erdi.",
+  "tur": "krallik",
+  "baskent": "Ondangva",
+  "ozet": "Kunene güneyinde Ondonga ve Kvanyama gibi Ovambo krallıkları. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1600-01-01",
+    "tur": "kurulus",
+    "b": "Ovambo krallıkları teşekkül etti"
+   },
+   {
+    "t": "1917-02-06",
+    "tur": "son",
+    "b": "Kral Mandume'nin ölümüyle bağımsızlık sona erdi"
+   }
+  ]
+ },
+ {
+  "id": "ruanda",
+  "ad": "Ruanda Krallığı (Nyiginya)",
+  "f": "1300-01-01",
+  "t": "1916-05-06",
+  "bolge": "dogu-afrika",
+  "kaynak": "ruanda",
+  "dayanak": "TDV gövdesi bu turda okundu",
+  "not": "Merkezi Nyanza; Alman himayesi 1897, Belçika işgali 1916.",
+  "tur": "krallik",
+  "baskent": "Nyanza",
+  "ozet": "Mwami unvanlı krallarca yönetilen, Nyiginya hânedanının merkezîleştirdiği Büyük Göller krallığı. TDV ruanda maddesine dayanır.",
+  "kronoloji": [
+   {
+    "t": "1300-01-01",
+    "tur": "kurulus",
+    "b": "Nyiginya hânedanı krallığı kurdu"
+   },
+   {
+    "t": "1916-05-06",
+    "tur": "son",
+    "b": "Belçika işgaliyle Alman himayesi sona erdi"
+   }
+  ]
+ },
+ {
+  "id": "burundi",
+  "ad": "Burundi Krallığı",
+  "f": "1680-01-01",
+  "t": "1916-06-06",
+  "bolge": "dogu-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Ganva hânedanı; merkezi Gitega.",
+  "tur": "krallik",
+  "baskent": "Gitega",
+  "ozet": "Ganva soylularınca yönetilen, Mwami'nin başında bulunduğu Büyük Göller krallığı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1680-01-01",
+    "tur": "kurulus",
+    "b": "Ntare Rushatsi krallığı kurdu"
+   },
+   {
+    "t": "1916-06-06",
+    "tur": "son",
+    "b": "Belçika işgaline uğradı"
+   }
+  ]
+ },
+ {
+  "id": "bunyoro",
+  "ad": "Bunyoro-Kitara Krallığı",
+  "f": "1281-01-01",
+  "t": "1899-04-09",
+  "bolge": "dogu-afrika",
+  "kaynak": "uganda",
+  "dayanak": "TDV gövdesi bu turda okundu",
+  "not": "Bito hânedanı; Kabalega 1899'da esir alındı.",
+  "tur": "krallik",
+  "baskent": "Hoima",
+  "ozet": "Bito hânedanının Kitara mirası üzerine kurduğu, Buganda'nın başlıca rakibi olan krallık. TDV uganda maddesine dayanır.",
+  "kronoloji": [
+   {
+    "t": "1281-01-01",
+    "tur": "kurulus",
+    "b": "Bito hânedanı Bunyoro-Kitara'yı kurdu"
+   },
+   {
+    "t": "1899-04-09",
+    "tur": "son",
+    "b": "Kabalega esir alındı"
+   }
+  ]
+ },
+ {
+  "id": "nkore",
+  "ad": "Nkore (Ankole) Krallığı",
+  "f": "1450-01-01",
+  "t": "1901-10-25",
+  "bolge": "dogu-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Hinda hânedanı; merkezi Mbarara.",
+  "tur": "krallik",
+  "baskent": "Mbarara",
+  "ozet": "Hinda hânedanının kurduğu, Hima-İru ayrımına dayanan krallık. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1450-01-01",
+    "tur": "kurulus",
+    "b": "Hinda hânedanı Nkore'yi kurdu"
+   },
+   {
+    "t": "1901-10-25",
+    "tur": "son",
+    "b": "İngiliz himaye antlaşması imzalandı"
+   }
+  ]
+ },
+ {
+  "id": "karagve",
+  "ad": "Karagve Krallığı",
+  "f": "1450-01-01",
+  "t": "1890-07-01",
+  "bolge": "dogu-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Merkezi Bveranyange.",
+  "tur": "krallik",
+  "baskent": "Bveranyange",
+  "ozet": "Victoria gölü batısında Hinda kökenli krallık; Zengibar kervanlarının başlıca durağıydı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1450-01-01",
+    "tur": "kurulus",
+    "b": "Karagve krallığı kuruldu"
+   },
+   {
+    "t": "1890-07-01",
+    "tur": "son",
+    "b": "Alman Doğu Afrika idaresine girdi"
+   }
+  ]
+ },
+ {
+  "id": "toro",
+  "ad": "Toro Krallığı",
+  "f": "1830-01-01",
+  "t": "1900-06-26",
+  "bolge": "dogu-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Bunyoro'dan ayrıldı; merkezi Fort Portal.",
+  "tur": "krallik",
+  "baskent": "Fort Portal",
+  "ozet": "Kaboyo'nun Bunyoro'dan ayrılarak kurduğu krallık. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1830-01-01",
+    "tur": "kurulus",
+    "b": "Kaboyo Toro'yu Bunyoro'dan ayırdı"
+   },
+   {
+    "t": "1900-06-26",
+    "tur": "son",
+    "b": "İngiliz himayesi kabul edildi"
+   }
+  ]
+ },
+ {
+  "id": "nyamvezi",
+  "ad": "Nyamvezi Şeflikleri (Unyanyembe · Mirambo)",
+  "f": "1281-01-01",
+  "t": "1890-11-04",
+  "bolge": "dogu-afrika",
+  "kaynak": "tanzanya",
+  "dayanak": "TDV gövdesi bu turda okundu",
+  "not": "TDV tanzanya Tabora'yı (Kazeh) kervan merkezi sayar; Mirambo devleti 1860-1884.",
+  "tur": "devlet",
+  "baskent": "Tabora",
+  "ozet": "Orta Tanzanya'da kervan ticaretini yürüten Nyamvezi şeflikleri; Mirambo bunları geçici olarak tek elde topladı. TDV tanzanya maddesine dayanır.",
+  "kronoloji": [
+   {
+    "t": "1281-01-01",
+    "tur": "kurulus",
+    "b": "Nyamvezi şeflikleri teşekkül etti"
+   },
+   {
+    "t": "1890-11-04",
+    "tur": "son",
+    "b": "Alman Doğu Afrika idaresine girdi"
+   }
+  ]
+ },
+ {
+  "id": "hehe",
+  "ad": "Hehe Krallığı",
+  "f": "1850-01-01",
+  "t": "1898-07-19",
+  "bolge": "dogu-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Munyigumba ve Mkvava; başkenti Kalenga; Mkvava 1898'de öldü.",
+  "tur": "krallik",
+  "baskent": "Kalenga",
+  "ozet": "Munyigumba ve Mkvava'nın kurduğu, Almanlara ağır kayıplar verdiren güney Tanzanya krallığı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1850-01-01",
+    "tur": "kurulus",
+    "b": "Munyigumba Hehe birliğini kurdu"
+   },
+   {
+    "t": "1898-07-19",
+    "tur": "son",
+    "b": "Mkvava'nın ölümüyle direniş sona erdi"
+   }
+  ]
+ },
+ {
+  "id": "ngoni",
+  "ad": "Ngoni Devletleri",
+  "f": "1835-01-01",
+  "t": "1898-01-01",
+  "bolge": "dogu-afrika",
+  "kaynak": "malavi",
+  "dayanak": "TDV gövdesi bu turda okundu",
+  "not": "TDV malavi Ngoni'yi 1850-1870 arasında doğu bölgesine yerleşmiş sayar; Zvangendaba göçü 1835.",
+  "tur": "devlet",
+  "baskent": "—",
+  "ozet": "Zvangendaba önderliğinde Zulu bölgesinden kuzeye göç eden, Malavi-Tanzanya-Zambiya'da devletler kuran Ngoni toplulukları. TDV malavi maddesine dayanır.",
+  "kronoloji": [
+   {
+    "t": "1835-01-01",
+    "tur": "kurulus",
+    "b": "Zvangendaba Zambezi'yi geçti"
+   },
+   {
+    "t": "1898-01-01",
+    "tur": "son",
+    "b": "İngiliz ve Alman idarelerine katıldılar"
+   }
+  ]
+ },
+ {
+  "id": "yao",
+  "ad": "Yao Sultanlıkları",
+  "f": "1800-01-01",
+  "t": "1899-01-01",
+  "bolge": "dogu-afrika",
+  "kaynak": "malavi",
+  "dayanak": "TDV gövdesi bu turda okundu",
+  "not": "TDV malavi: 'Mataka, Jalasi, Mponda' adlı Yao reisleri İslâm'ı kabul etti; III. Makancila 1870'te müslüman oldu.",
+  "tur": "sultanlik",
+  "baskent": "Mvembe",
+  "ozet": "Nyasa doğusunda kervan ticaretiyle güçlenen, reisleri İslâm'ı kabul eden Yao sultanlıkları. TDV malavi maddesine dayanır.",
+  "kronoloji": [
+   {
+    "t": "1800-01-01",
+    "tur": "kurulus",
+    "b": "Yao sultanlıkları teşekkül etti"
+   },
+   {
+    "t": "1899-01-01",
+    "tur": "son",
+    "b": "İngiliz Nyasaland idaresine girdi"
+   }
+  ]
+ },
+ {
+  "id": "maravi",
+  "ad": "Maravi Konfederasyonu",
+  "f": "1480-01-01",
+  "t": "1800-01-01",
+  "bolge": "dogu-afrika",
+  "kaynak": "malavi",
+  "dayanak": "TDV gövdesi bu turda okundu",
+  "not": "TDV malavi: 'Malavi Konfederasyonu 1480'de kuruldu' ve XVI. yüzyılda orta ve güney Malavi'nin çoğuna hâkimdi.",
+  "tur": "devlet",
+  "baskent": "Mankhamba",
+  "ozet": "Nyasa gölü güneyinde Kalonga unvanlı hükümdarların kurduğu, Chewa halkına dayanan konfederasyon. TDV malavi maddesine dayanır.",
+  "kronoloji": [
+   {
+    "t": "1480-01-01",
+    "tur": "kurulus",
+    "b": "Maravi konfederasyonu kuruldu"
+   },
+   {
+    "t": "1800-01-01",
+    "tur": "son",
+    "b": "Yao ve Ngoni baskısıyla dağıldı"
+   }
+  ]
+ },
+ {
+  "id": "ngonde",
+  "ad": "Ngonde Krallığı",
+  "f": "1600-01-01",
+  "t": "1895-01-01",
+  "bolge": "dogu-afrika",
+  "kaynak": "malavi",
+  "dayanak": "TDV gövdesi bu turda okundu",
+  "not": "TDV malavi: Mlozi 'kendini 1887'de Ngonde sultanı ilân etti' ve İngiliz sömürgeciliğine direnirken öldü.",
+  "tur": "krallik",
+  "baskent": "Karonga",
+  "ozet": "Nyasa kuzeyinde Kyungu unvanlı hükümdarlarca yönetilen krallık. TDV malavi maddesine dayanır.",
+  "kronoloji": [
+   {
+    "t": "1600-01-01",
+    "tur": "kurulus",
+    "b": "Ngonde krallığı teşekkül etti"
+   },
+   {
+    "t": "1895-01-01",
+    "tur": "son",
+    "b": "İngiliz idaresine girdi"
+   }
+  ]
+ },
+ {
+  "id": "fipa-nyakyusa",
+  "ad": "Fipa ve Nyakyusa Halkları",
+  "f": "1281-01-01",
+  "t": "1890-11-04",
+  "bolge": "dogu-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Ufipa platosu ve Nyasa kuzeyi; Alman Doğu Afrika'ya katıldı.",
+  "tur": "devlet",
+  "baskent": "—",
+  "ozet": "Ufipa platosu ve Nyasa kuzeyinde Fipa ve Nyakyusa halkları. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1281-01-01",
+    "tur": "kurulus",
+    "b": "Fipa ve Nyakyusa toplulukları teşekkül etti"
+   },
+   {
+    "t": "1890-11-04",
+    "tur": "son",
+    "b": "Alman Doğu Afrika idaresine katıldılar"
+   }
+  ]
+ },
+ {
+  "id": "lozi",
+  "ad": "Lozi (Barotse) Krallığı",
+  "f": "1600-01-01",
+  "t": "1890-06-27",
+  "bolge": "dogu-afrika",
+  "kaynak": "zambiya",
+  "dayanak": "TDV gövdesi bu turda okundu",
+  "not": "TDV zambiya: 'Lozi kralı Levanika 1890'da İngiliz Güney Afrika Şirketi'nin himayesini kabul etti.' Merkezi Lealui.",
+  "tur": "krallik",
+  "baskent": "Lealui",
+  "ozet": "Zambezi taşkın ovasında Litunga unvanlı krallarca yönetilen, mevsimlik başşehir göçüyle tanınan Barotse krallığı. TDV zambiya maddesine dayanır.",
+  "kronoloji": [
+   {
+    "t": "1600-01-01",
+    "tur": "kurulus",
+    "b": "Luyi (Lozi) krallığı teşekkül etti"
+   },
+   {
+    "t": "1890-06-27",
+    "tur": "son",
+    "b": "Levanika İngiliz himayesini kabul etti"
+   }
+  ]
+ },
+ {
+  "id": "kazembe",
+  "ad": "Mvata Kazembe Krallığı",
+  "f": "1740-01-01",
+  "t": "1899-01-01",
+  "bolge": "dogu-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Lunda'nın Luapula kolu; merkezi Mvansabombve.",
+  "tur": "krallik",
+  "baskent": "Mvansabombve",
+  "ozet": "Lunda'nın Luapula koluna dayanan, bakır ve fildişi ticaretini denetleyen krallık. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1740-01-01",
+    "tur": "kurulus",
+    "b": "Mvata Kazembe krallığı kuruldu"
+   },
+   {
+    "t": "1899-01-01",
+    "tur": "son",
+    "b": "İngiliz ve Belçika idarelerine bölündü"
+   }
+  ]
+ },
+ {
+  "id": "bemba",
+  "ad": "Bemba Krallığı (Citimukulu)",
+  "f": "1700-01-01",
+  "t": "1899-01-01",
+  "bolge": "dogu-afrika",
+  "kaynak": "zambiya",
+  "dayanak": "TDV gövdesi bu turda okundu",
+  "not": "TDV zambiya Bemba'yı Tippu Tip ile çatışan halk olarak anar; Citimukulu hânedanı.",
+  "tur": "krallik",
+  "baskent": "Kasama",
+  "ozet": "Kuzey Zambiya'da Citimukulu unvanlı hükümdarlarca yönetilen krallık. TDV zambiya maddesine dayanır.",
+  "kronoloji": [
+   {
+    "t": "1700-01-01",
+    "tur": "kurulus",
+    "b": "Bemba krallığı teşekkül etti"
+   },
+   {
+    "t": "1899-01-01",
+    "tur": "son",
+    "b": "İngiliz Kuzey Rodezya idaresine girdi"
+   }
+  ]
+ },
+ {
+  "id": "kaonde-ila",
+  "ad": "Kaonde ve İla Halkları",
+  "f": "1281-01-01",
+  "t": "1900-01-01",
+  "bolge": "dogu-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Orta Zambiya; Kasempa · Mumbva sahası.",
+  "tur": "devlet",
+  "baskent": "—",
+  "ozet": "Orta Zambiya'da Kaonde ve İla halkları; merkezî krallık kurmadılar. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1281-01-01",
+    "tur": "kurulus",
+    "b": "Kaonde ve İla toplulukları yerleşti"
+   },
+   {
+    "t": "1900-01-01",
+    "tur": "son",
+    "b": "İngiliz idaresine girdi"
+   }
+  ]
+ },
+ {
+  "id": "yeke",
+  "ad": "Yeke Krallığı (Msiri)",
+  "f": "1856-01-01",
+  "t": "1891-12-20",
+  "bolge": "orta-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Msiri'nin Katanga devleti; merkezi Bunkeya; Msiri 1891'de öldürüldü.",
+  "tur": "devlet",
+  "baskent": "Bunkeya",
+  "ozet": "Msiri'nin Nyamvezi tüccarlarıyla Katanga'da kurduğu, bakır ve fildişi ticaretine dayanan devlet. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1856-01-01",
+    "tur": "kurulus",
+    "b": "Msiri Yeke devletini kurdu"
+   },
+   {
+    "t": "1891-12-20",
+    "tur": "son",
+    "b": "Msiri öldürüldü, devlet dağıldı"
+   }
+  ]
+ },
+ {
+  "id": "kenya-kuzey-halklari",
+  "ad": "Kuzey Kenya Halkları (Borana · Rendille · Turkana · Somali klanları)",
+  "f": "1281-01-01",
+  "t": "1895-07-01",
+  "bolge": "dogu-afrika",
+  "kaynak": "kenya",
+  "dayanak": "TDV gövdesi bu turda okundu",
+  "not": "Marsabit · Vacir · Garissa · İsiolo kuşağı; merkezî devlet kurmamış pastoral halklar — tanecik: HALK.",
+  "tur": "devlet",
+  "baskent": "—",
+  "ozet": "Kuzey Kenya'da Borana · Rendille · Turkana ve Somali klanları; merkezî devlet kurmamış pastoral halklar. TDV kenya maddesine dayanır.",
+  "kronoloji": [
+   {
+    "t": "1281-01-01",
+    "tur": "kurulus",
+    "b": "Pastoral halklar bölgeye yerleşti"
+   },
+   {
+    "t": "1895-07-01",
+    "tur": "son",
+    "b": "İngiliz Doğu Afrika idaresi kuruldu"
+   }
+  ]
+ },
+ {
+  "id": "kamba",
+  "ad": "Kamba Halkı",
+  "f": "1281-01-01",
+  "t": "1895-07-01",
+  "bolge": "dogu-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Kitui-Maçakos ticaret sahası.",
+  "tur": "devlet",
+  "baskent": "Kitui",
+  "ozet": "Kenya'nın iç kesiminde kıyı ile iç bölge arasındaki uzun mesafe ticaretini yürüten Kamba halkı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1281-01-01",
+    "tur": "kurulus",
+    "b": "Kamba ticaret ağı teşekkül etti"
+   },
+   {
+    "t": "1895-07-01",
+    "tur": "son",
+    "b": "İngiliz Doğu Afrika idaresine girdi"
+   }
+  ]
+ },
+ {
+  "id": "torva",
+  "ad": "Torva Krallığı (Khami)",
+  "f": "1450-01-01",
+  "t": "1683-01-01",
+  "bolge": "guney-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Büyük Zimbabve ardılı; başkenti Khami; Rozvi 1683'te yıktı.",
+  "tur": "krallik",
+  "baskent": "Khami",
+  "ozet": "Büyük Zimbabve'nin ardılı olarak Butua'da kurulan, Khami taş yapılarıyla tanınan krallık. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1450-01-01",
+    "tur": "kurulus",
+    "b": "Torva krallığı Khami'de kuruldu"
+   },
+   {
+    "t": "1683-01-01",
+    "tur": "son",
+    "b": "Changamire Dombo Khami'yi yıktı"
+   }
+  ]
+ },
+ {
+  "id": "rozvi",
+  "ad": "Rozvi İmparatorluğu (Changamire)",
+  "f": "1684-01-01",
+  "t": "1834-01-01",
+  "bolge": "guney-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Changamire Dombo'nun devleti; merkezi Danangombe; Ngoni akınları 1834.",
+  "tur": "imparatorluk",
+  "baskent": "Danangombe",
+  "ozet": "Changamire Dombo'nun Portekizlileri Zimbabve platosundan atarak kurduğu imparatorluk. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1684-01-01",
+    "tur": "kurulus",
+    "b": "Changamire Dombo imparatorluğu kurdu"
+   },
+   {
+    "t": "1834-01-01",
+    "tur": "son",
+    "b": "Ngoni akınlarıyla dağıldı"
+   }
+  ]
+ },
+ {
+  "id": "matabele",
+  "ad": "Matabele (Ndebele) Krallığı",
+  "f": "1840-01-01",
+  "t": "1893-11-04",
+  "bolge": "guney-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Mzilikazi 1840'ta yerleşti, Lobengula 1870'te Bulavayo'yu kurdu; İngiliz fethi 1893.",
+  "tur": "krallik",
+  "baskent": "Bulavayo",
+  "ozet": "Mzilikazi'nin Zulu bölgesinden kuzeye göçüp kurduğu, Lobengula döneminde Bulavayo'yu başşehir yapan krallık. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1840-01-01",
+    "tur": "kurulus",
+    "b": "Mzilikazi Matabeleland'a yerleşti"
+   },
+   {
+    "t": "1893-11-04",
+    "tur": "son",
+    "b": "İngiliz Güney Afrika Şirketi krallığı yıktı"
+   }
+  ]
+ },
+ {
+  "id": "manica",
+  "ad": "Manica Krallığı",
+  "f": "1281-01-01",
+  "t": "1891-01-01",
+  "bolge": "guney-afrika",
+  "kaynak": "mozambik",
+  "dayanak": "TDV gövdesi bu turda okundu",
+  "not": "Mutapa'nın doğu kolu; altın sahası; Portekiz-İngiliz paylaşımı 1891.",
+  "tur": "krallik",
+  "baskent": "—",
+  "ozet": "Mutapa'nın doğu kolu; altın sahalarını denetleyen, Portekiz ile İngiliz nüfuz alanları arasında bölünen krallık. TDV mozambik maddesine dayanır.",
+  "kronoloji": [
+   {
+    "t": "1281-01-01",
+    "tur": "kurulus",
+    "b": "Manica krallığı teşekkül etti"
+   },
+   {
+    "t": "1891-01-01",
+    "tur": "son",
+    "b": "Portekiz-İngiliz sınır antlaşmasıyla bölündü"
+   }
+  ]
+ },
+ {
+  "id": "pedi",
+  "ad": "Pedi Krallığı",
+  "f": "1650-01-01",
+  "t": "1879-12-02",
+  "bolge": "guney-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Maroteng hânedanı; Sekhukhune 1879'da esir alındı; merkezi Tjate.",
+  "tur": "krallik",
+  "baskent": "Tjate",
+  "ozet": "Maroteng hânedanının Transvaal doğusunda kurduğu, Bur ve İngiliz seferlerine direnen krallık. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1650-01-01",
+    "tur": "kurulus",
+    "b": "Maroteng hânedanı Pedi birliğini kurdu"
+   },
+   {
+    "t": "1879-12-02",
+    "tur": "son",
+    "b": "Sekhukhune esir alındı"
+   }
+  ]
+ },
+ {
+  "id": "venda",
+  "ad": "Venda Krallığı",
+  "f": "1700-01-01",
+  "t": "1898-01-01",
+  "bolge": "guney-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Singo hânedanı; merkezi Dzata; Transvaal fethi 1898.",
+  "tur": "krallik",
+  "baskent": "Dzata",
+  "ozet": "Singo hânedanının Zoutpansberg'de kurduğu, taş surlarıyla tanınan krallık. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1700-01-01",
+    "tur": "kurulus",
+    "b": "Singo hânedanı Dzata'yı kurdu"
+   },
+   {
+    "t": "1898-01-01",
+    "tur": "son",
+    "b": "Transvaal seferiyle bağımsızlık sona erdi"
+   }
+  ]
+ },
+ {
+  "id": "svazi",
+  "ad": "Svazi Krallığı",
+  "f": "1815-01-01",
+  "t": "1903-01-01",
+  "bolge": "guney-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Sobhuza ve Mswati; merkezi Lobamba; İngiliz idaresi 1903.",
+  "tur": "krallik",
+  "baskent": "Lobamba",
+  "ozet": "Dlamini hânedanının Sobhuza ve Mswati dönemlerinde şekillendirdiği krallık. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1815-01-01",
+    "tur": "kurulus",
+    "b": "Sobhuza Svazi krallığını kurdu"
+   },
+   {
+    "t": "1903-01-01",
+    "tur": "son",
+    "b": "İngiliz idaresine alındı"
+   }
+  ]
+ },
+ {
+  "id": "basuto",
+  "ad": "Basuto (Basotho) Krallığı",
+  "f": "1822-01-01",
+  "t": "1868-03-12",
+  "bolge": "guney-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Moshoeshoe'nin devleti; Thaba Bosiu; İngiliz himayesi 1868.",
+  "tur": "krallik",
+  "baskent": "Thaba Bosiu",
+  "ozet": "Moshoeshoe'nin dağ kalesi Thaba Bosiu çevresinde topladığı Sotho topluluklarından doğan krallık. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1822-01-01",
+    "tur": "kurulus",
+    "b": "Moshoeshoe Basuto birliğini kurdu"
+   },
+   {
+    "t": "1868-03-12",
+    "tur": "son",
+    "b": "Moshoeshoe'nin ölümüyle İngiliz idaresine geçti"
+   }
+  ]
+ },
+ {
+  "id": "griqua",
+  "ad": "Griqua Devletleri (Griqualand Batı ve Doğu)",
+  "f": "1804-01-01",
+  "t": "1878-01-01",
+  "bolge": "guney-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Kok ve Vaterboer hânedanları; Griquatown · Philippolis · Kokstad.",
+  "tur": "devlet",
+  "baskent": "Griquatown",
+  "ozet": "Kok ve Vaterboer hânedanlarının Orange havzasında kurduğu, karma kökenli Griqua devletleri. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1804-01-01",
+    "tur": "kurulus",
+    "b": "Griqua yerleşimleri devlet biçimi aldı"
+   },
+   {
+    "t": "1878-01-01",
+    "tur": "son",
+    "b": "Griqualand İngiliz idaresine katıldı"
+   }
+  ]
+ },
+ {
+  "id": "tsvana",
+  "ad": "Tsvana Krallıkları (Ngvato · Kvena · Ngvaketse · Kgatla · Tavana)",
+  "f": "1700-01-01",
+  "t": "1885-03-31",
+  "bolge": "guney-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Beçuanalend İngiliz himayesi 1885-03-31. Şoşong · Serove · Molepolole · Kanye · Moçudi · Maun.",
+  "tur": "krallik",
+  "baskent": "Şoşong",
+  "ozet": "Ngvato · Kvena · Ngvaketse · Kgatla · Tavana gibi Tsvana krallıkları; Khama gibi hükümdarları İngiliz himayesini kendileri istedi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1700-01-01",
+    "tur": "kurulus",
+    "b": "Tsvana krallıkları teşekkül etti"
+   },
+   {
+    "t": "1885-03-31",
+    "tur": "son",
+    "b": "Beçuanalend himayesi ilân edildi"
+   }
+  ]
+ },
+ {
+  "id": "herero",
+  "ad": "Herero Halkı",
+  "f": "1281-01-01",
+  "t": "1904-01-12",
+  "bolge": "guney-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Okahandja ve Otjimbingve; Alman soykırımı 1904'te başladı.",
+  "tur": "devlet",
+  "baskent": "Okahandja",
+  "ozet": "Orta Namibya'da sığır besiciliğine dayanan, baş şeflerce yönetilen Herero halkı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1281-01-01",
+    "tur": "kurulus",
+    "b": "Herero toplulukları Namibya'ya yerleşti"
+   },
+   {
+    "t": "1904-01-12",
+    "tur": "son",
+    "b": "Alman soykırım seferi başladı"
+   }
+  ]
+ },
+ {
+  "id": "nama-orlam",
+  "ad": "Nama ve Orlam Kaptanlıkları",
+  "f": "1281-01-01",
+  "t": "1904-10-03",
+  "bolge": "guney-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Bondelsvarts · Vitbooi · Afrikaner kaptanlıkları; Varmbad · Bethanie · Rehoboth.",
+  "tur": "devlet",
+  "baskent": "Bethanie",
+  "ozet": "Güney Namibya'da Nama ve Orlam kaptanlıkları (Bondelsvarts · Vitbooi · Afrikaner). TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1281-01-01",
+    "tur": "kurulus",
+    "b": "Nama ve Orlam kaptanlıkları teşekkül etti"
+   },
+   {
+    "t": "1904-10-03",
+    "tur": "son",
+    "b": "Vitbooi'nin ölümüyle direniş kırıldı"
+   }
+  ]
+ },
+ {
+  "id": "xhosa",
+  "ad": "Xhosa Krallıkları",
+  "f": "1281-01-01",
+  "t": "1878-01-01",
+  "bolge": "guney-afrika",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "not": "Gcaleka ve Rharhabe kolları; dokuz sınır savaşı 1779-1878.",
+  "tur": "krallik",
+  "baskent": "—",
+  "ozet": "Doğu Cape'te Gcaleka ve Rharhabe kollarına ayrılan, Hollanda ve İngiliz yayılmasına dokuz sınır savaşıyla direnen krallıklar. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "kronoloji": [
+   {
+    "t": "1281-01-01",
+    "tur": "kurulus",
+    "b": "Xhosa krallıkları teşekkül etti"
+   },
+   {
+    "t": "1878-01-01",
+    "tur": "son",
+    "b": "Dokuzuncu sınır savaşıyla bağımsızlık sona erdi"
+   }
+  ]
+ },
+ {
+  "id": "sakalava-menabe",
+  "ad": "Menabe Sakalava Krallığı",
+  "f": "1600-01-01",
+  "t": "1897-02-28",
+  "bolge": "dogu-afrika",
+  "kaynak": "madagaskar",
+  "dayanak": "TDV gövdesi bu turda okundu",
+  "not": "TDV madagaskar Sakalava'yı batı bölgelerinin krallığı sayar; merkezi Mahabo.",
+  "tur": "krallik",
+  "baskent": "Mahabo",
+  "ozet": "Madagaskar'ın batı kıyısında Maroserana hânedanının kurduğu Menabe krallığı. TDV madagaskar maddesine dayanır.",
+  "kronoloji": [
+   {
+    "t": "1600-01-01",
+    "tur": "kurulus",
+    "b": "Menabe Sakalava krallığı kuruldu"
+   },
+   {
+    "t": "1897-02-28",
+    "tur": "son",
+    "b": "Fransız işgaliyle sona erdi"
+   }
+  ]
+ },
+ {
+  "id": "sakalava-boina",
+  "ad": "Boina Sakalava Krallığı",
+  "f": "1690-01-01",
+  "t": "1897-02-28",
+  "bolge": "dogu-afrika",
+  "kaynak": "madagaskar",
+  "dayanak": "TDV gövdesi bu turda okundu",
+  "not": "Kuzeybatı; limanı Mahacanga (Majunga); Merina 1824'te aldı, Fransız işgali 1883-1897.",
+  "tur": "krallik",
+  "baskent": "Mahacanga",
+  "ozet": "Kuzeybatı Madagaskar'da Boina Sakalava krallığı; Mahacanga limanı Umman ve Hint Okyanusu ticaretine açıktı. TDV madagaskar maddesine dayanır.",
+  "kronoloji": [
+   {
+    "t": "1690-01-01",
+    "tur": "kurulus",
+    "b": "Boina krallığı Menabe'den ayrıldı"
+   },
+   {
+    "t": "1897-02-28",
+    "tur": "son",
+    "b": "Fransız işgaliyle sona erdi"
+   }
+  ]
+ },
+ {
+  "id": "betsileo",
+  "ad": "Betsileo Krallıkları",
+  "f": "1281-01-01",
+  "t": "1830-01-01",
+  "bolge": "dogu-afrika",
+  "kaynak": "madagaskar",
+  "dayanak": "TDV gövdesi bu turda okundu",
+  "not": "TDV madagaskar: 'Betsileo — güney yaylaları'; Merina 1830'da ilhak etti.",
+  "tur": "krallik",
+  "baskent": "Fianarantsoa",
+  "ozet": "Madagaskar'ın güney yaylalarında Betsileo krallıkları; teraslı pirinç tarımıyla tanınırlardı. TDV madagaskar maddesine dayanır.",
+  "kronoloji": [
+   {
+    "t": "1281-01-01",
+    "tur": "kurulus",
+    "b": "Betsileo krallıkları teşekkül etti"
+   },
+   {
+    "t": "1830-01-01",
+    "tur": "son",
+    "b": "Merina ilhakıyla sona erdi"
+   }
+  ]
+ },
+ {
+  "id": "antemoro",
+  "ad": "Antemoro Krallığı",
+  "f": "1500-01-01",
+  "t": "1897-02-28",
+  "bolge": "dogu-afrika",
+  "kaynak": "madagaskar",
+  "dayanak": "TDV gövdesi bu turda okundu",
+  "not": "TDV madagaskar: 'Antemoro — güneydoğu kıyısı'; merkezi Vohipeno; Arap yazısı (sorabe) geleneği.",
+  "tur": "krallik",
+  "baskent": "Vohipeno",
+  "ozet": "Güneydoğu Madagaskar'da Arap kökenli anteony sınıfının yönettiği, sorabe yazısıyla tanınan krallık. TDV madagaskar maddesine dayanır.",
+  "kronoloji": [
+   {
+    "t": "1500-01-01",
+    "tur": "kurulus",
+    "b": "Antemoro krallığı kuruldu"
+   },
+   {
+    "t": "1897-02-28",
+    "tur": "son",
+    "b": "Fransız işgaliyle sona erdi"
+   }
+  ]
+ },
+ {
+  "id": "antandroy",
+  "ad": "Antandroy ve Bara Halkları",
+  "f": "1281-01-01",
+  "t": "1900-01-01",
+  "bolge": "dogu-afrika",
+  "kaynak": "madagaskar",
+  "dayanak": "TDV gövdesi bu turda okundu",
+  "not": "Güney Madagaskar; Merina'nın hiç tam hâkim olamadığı kuşak.",
+  "tur": "devlet",
+  "baskent": "—",
+  "ozet": "Madagaskar'ın kurak güneyinde Antandroy ve Bara halkları; Merina'nın hiç tam hâkim olamadığı kuşak. TDV madagaskar maddesine dayanır.",
+  "kronoloji": [
+   {
+    "t": "1281-01-01",
+    "tur": "kurulus",
+    "b": "Antandroy ve Bara toplulukları teşekkül etti"
+   },
+   {
+    "t": "1900-01-01",
+    "tur": "son",
+    "b": "Fransız işgaline uğradı"
+   }
+  ]
+ },
+ {
+  "id": "betsimisaraka",
+  "ad": "Betsimisaraka Konfederasyonu",
+  "f": "1712-01-01",
+  "t": "1817-01-01",
+  "bolge": "dogu-afrika",
+  "kaynak": "madagaskar",
+  "dayanak": "TDV gövdesi bu turda okundu",
+  "not": "Ratsimilaho'nun doğu kıyı konfederasyonu; Merina 1817'de Toamasina'yı aldı.",
+  "tur": "devlet",
+  "baskent": "Toamasina",
+  "ozet": "Ratsimilaho'nun doğu kıyı topluluklarını birleştirerek kurduğu konfederasyon. TDV madagaskar maddesine dayanır.",
+  "kronoloji": [
+   {
+    "t": "1712-01-01",
+    "tur": "kurulus",
+    "b": "Ratsimilaho konfederasyonu kurdu"
+   },
+   {
+    "t": "1817-01-01",
+    "tur": "son",
+    "b": "Merina Toamasina'yı alarak konfederasyonu sona erdirdi"
+   }
+  ]
+ },
+ {
+  "id": "merina-oncesi",
+  "ad": "İmerina Krallıkları (Merina birleşmesi öncesi)",
+  "f": "1281-01-01",
+  "t": "1787-01-01",
+  "bolge": "dogu-afrika",
+  "kaynak": "madagaskar",
+  "dayanak": "TDV gövdesi bu turda okundu",
+  "not": "TDV madagaskar: 'Merina — orta yaylalar, XVIII. yüzyılda birleşti.' Mevcut `merina` künyesi 1787'de BAŞLIYOR; öncesi bu künyeye ait. Ambohimanga bu dönemin kutsal başkentidir.",
+  "tur": "krallik",
+  "baskent": "Ambohimanga",
+  "ozet": "Andrianampoinimerina'nın birleştirmesinden önce İmerina yaylasındaki rakip Merina krallıkları. TDV madagaskar maddesine dayanır.",
+  "kronoloji": [
+   {
+    "t": "1281-01-01",
+    "tur": "kurulus",
+    "b": "İmerina krallıkları teşekkül etti"
+   },
+   {
+    "t": "1787-01-01",
+    "tur": "son",
+    "b": "Andrianampoinimerina İmerina'yı birleştirdi"
+   }
+  ]
+ },
+ {
+  "id": "tuareg-ahaggar",
+  "ad": "Kel Ahaggar Tuareg Konfederasyonu",
+  "tur": "devlet",
+  "bolge": "kuzey-afrika",
+  "f": "1281-01-01",
+  "t": "1902-05-07",
+  "baskent": "Tamanrasset",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "ozet": "Hoggar (Ahaggar) yaylasında Amenokal unvanlı reislerce yönetilen Tuareg konfederasyonu; Tin Hinan geleneğine dayanır, kervan yollarını ve tuz ticaretini denetlerdi. Tit muharebesinde Fransız kuvvetlerine yenildi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "not": "🔴 f: ATLAS UFKUDUR, kuruluş yılı DEĞİL. Atlasın kendi `Tamanrasset` kaydı 'Amenokal liderliğinde YAKLAŞIK 1750'den itibaren teşkilatlı; öncesinde de gevşek Tuareg…' diyor — yani 1750 TEŞKİLATLANMA, 1281 ise varlığın atlas ufkundaki başlangıcı. Bu ayrım gizlenmiyor. ⚠️ Tit muharebesi 1902-05-07 kesin gündür; Amenokal Musa ag Amastan'ın resmî tâbiiyeti 1905'tedir — künye ERKEN ucu, yani fiilî yenilgiyi alıyor.",
+  "kronoloji": [
+   {
+    "t": "1281-01-01",
+    "tur": "kurulus",
+    "b": "Kel Ahaggar Tuareg'i Hoggar yaylasında (atlas ufku)"
+   },
+   {
+    "t": "1902-05-07",
+    "tur": "savas",
+    "b": "Tit muharebesinde Fransız kuvvetlerine yenildi"
+   }
+  ]
+ },
+ {
+  "id": "tuareg-accer",
+  "ad": "Kel Accer Tuareg Konfederasyonu",
+  "tur": "devlet",
+  "bolge": "kuzey-afrika",
+  "f": "1281-01-01",
+  "t": "1911-01-01",
+  "baskent": "Cânet",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "ozet": "Tâsîlî n'Accer platosunda Kel Accer Tuareg konfederasyonu; Gât ve Cânet vahalarını, Fizan ile Aïr arasındaki kervan yolunu denetlerdi. Fransız işgaliyle sona erdi. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "not": "🔴 t: DÜZELTİLDİ — M-2420'de '1911-11-27' yazmıştım, o GÜN kaynaklı DEĞİLDİ. `§4`: gün bilinmiyorsa YYYY-01-01. Yıl (1911) sağlam, gün değil ⇒ 1911-01-01. Kendi önerimdeki uydurma günü kendim çıkardım. ⚠️ Gât Libya tarafındadır ve LİBYA emsalini (hafsi/d/v/italya) kullanır; bu künye yalnız CEZAYİR tarafını kapsar.",
+  "kronoloji": [
+   {
+    "t": "1281-01-01",
+    "tur": "kurulus",
+    "b": "Kel Accer Tuareg'i Tâsîlî platosunda (atlas ufku)"
+   },
+   {
+    "t": "1911-01-01",
+    "tur": "son",
+    "b": "Fransız işgaliyle bağımsızlık sona erdi"
+   }
+  ]
+ },
+ {
+  "id": "tubu-tibesti",
+  "ad": "Tibesti Teda (Tubu) Konfederasyonu",
+  "tur": "devlet",
+  "bolge": "orta-afrika",
+  "f": "1281-01-01",
+  "t": "1914-01-01",
+  "baskent": "Bardaî",
+  "kaynak": "bulunamadı",
+  "dayanak": "standart akademik el kitabı — çevrimiçi doğrulanmadı",
+  "ozet": "Tibesti dağlarında Derde unvanlı reisin başında bulunduğu Teda (Tubu) konfederasyonu; Fizan ile Kanem arasındaki kervan yolunu denetler, hiçbir devlete uzun süreli tâbi olmadı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
+  "not": "🔴 Bu künye, atlasın kendi `Tibesti` beyanıyla ÇELİŞİR: o kayıt 'hiçbir devletin fiilen ulaştığı…' diyor ve `bos:\"kabile\"` taşıyor. Künye yazılırsa o beyan ya kaldırılmalı ya cinsi güncellenmelidir — karar ve o nokta KOORDİNATÖRDE. ⚠️ 1914 yılı sağlam, GÜN kaynaklı değil (`§4`: YYYY-01-01). İtalya Tibesti'yi hiç fiilen tutmadı; Fransız Borku-Ennedi-Tibesti idaresi esas alındı.",
+  "kronoloji": [
+   {
+    "t": "1281-01-01",
+    "tur": "kurulus",
+    "b": "Teda (Tubu) konfederasyonu Tibesti'de (atlas ufku)"
+   },
+   {
+    "t": "1914-01-01",
+    "tur": "son",
+    "b": "Fransız Borku-Ennedi-Tibesti idaresi kuruldu"
+   }
+  ]
+ },
+ {
+  "id": "bate",
+  "ad": "Baté Mandinka Devleti (Kankan)",
+  "f": "1650-01-01",
+  "t": "1879-01-01",
+  "bolge": "bati-afrika",
+  "tur": "devlet",
+  "baskent": "Kankan",
+  "kaynak": "gine",
+  "dayanak": "TDV gövdesi bu turda okundu",
+  "ozet": "Yukarı Nijer'de Diafunu'dan gelen müslüman Mandinka yerleşimcilerin (Kaba soyu) kurduğu, Kankan merkezli ulemâ devleti; kola ve altın ticaretinin iç kavşağını tuttu, Samori Ture'nin Vâsûlû devletine katıldı. TDV gine maddesine dayanır.",
+  "not": "TDV gine: 'Kankan — Diafunu'dan gelen müslüman Mandinka yerleşimcilerce kuruldu; Gine'nin iç kesimindeki başlıca şehir oldu' ve 'Baté — aynı Mandinka göç dalgasınca kuruldu'. 🔴 İKİ UCUN DA GÜNÜ KAYNAKLI DEĞİL (§4: YYYY-01-01): f: 1650 Kaba soyunun Baté'ye yerleşmesinin ANLAŞILAN yılıdır, TDV yıl vermez; t: 1879 Samori'nin Kankan'ı alışının standart yılıdır, günü bulunamadı. İkisi de YUVARLAK ve öyle olduğu BURADA yazılı. 📌 Bu künye BİR HATAYI KAPATIYOR: Kankan'a kur:1878 (vasulu'nun f'i) yazmıştım ve bu şehri 1650-1878 arası atlastan SİLİYORDU.",
+  "kronoloji": [
+   {
+    "t": "1650-01-01",
+    "tur": "kurulus",
+    "b": "Diafunu'dan gelen Kaba soyu Baté'ye yerleşti"
+   },
+   {
+    "t": "1879-01-01",
+    "tur": "son",
+    "b": "Samori Ture Kankan'ı aldı, Baté Vâsûlû devletine katıldı"
+   }
+  ]
+ }
+]
