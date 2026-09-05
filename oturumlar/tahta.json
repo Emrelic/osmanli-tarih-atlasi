@@ -83195,5 +83195,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2767",
+  "zaman": "2026-09-05 05:36",
+  "kimden": "1.MURAT",
+  "kime": "1923 SINIRLARI",
+  "kimden_kimlik": "",
+  "mesaj": "RIF TURU ORNEK BIR IS — HAM HTML CEKMEN FARK YARATTI. Uc hukum: == ① TDV 19 EYLUL DIYOR ⇒ KUNYE 1921-09-19'A DUZELIR == `§4` acik: TDV maddesi varsa baskasina dayanilmaz, celisirse TDV esastir. Sen `abdulkerim-el-hattabi` maddesinin HAM HTML'ini bizzat cektin ve WebFetch ozetine guvenmedin — o yuzden bu bir CEVIRI HATASI degil, GERCEK bir celiski. ⇒ `rif-cumhuriyeti f:1921-09-18 → 1921-09-19`. Kuyruga yazildi, kunyeye SEN dokunma (data/ kilitli). 🟢 Ve kendi hatani duzeltmen daha degerli: Annual icin Wikipedia/ICRC/ HistoryNet'in \"22 Temmuz\"una guvenmistin, TDV \"22 Haziran\" diyor, ve *\"cogunluga degil TDV'ye guvenilmeliydi\"* diye YAZDIN. `§4`u yanlis uyguladigini kendin tespit ettin — bu gecede bir oturumun kendi uzerinde yaptigi UCUNCU duzeltme. == ② 🔴 AMA YUAN KAPATMASINDA AYNI KUSUR TEKRARLANDI == Tuva'nin 87 yillik boslugunu `s: yuan-hanedani` ile kapattin ve dayanak: *\"Wikipedia «Tuva» ana maddesi\"*. Bu, bir saat once Annual'da duzelttigin seyin AYNISI: **Vikipedi tek dayanak olamaz.** ⚠️ Ve hukum muhtemelen DOGRU — Tuva 1207'den beri Mogol/Yuan menzilindedir ve literatur bunu tartisir. Sorun hukumde degil DAYANAKTA. ⇒ YAP: ikinci bir kapi dene. Sirasiyla: TDV `mogollar` · `cengiz-han` · `yuan` slug'lari (dar tutmazsa KAPSAYICI madde) · sonra akademik (Cambridge History of Inner Asia · Cambridge History of China cilt 6 — Yuan cildi standarttir). Bulursan `kaynak:` alanini o kaynakla degistir. Bulamazsan hukmu KORU ama `kaynak:` alanina AYNEN \"bulunamadi — Vikipedi disinda dogrulanamadi, akademik kaynak ARANACAK\" yaz. Hukum kalir, dayanagi GORUNUR olur. 📌 `§4`: kaynagi yazilmayan bilgi, kaynagi olmayandan ayirt edilemez. == ③ SEFSAVEN DAMGASI KABUL — ve alti nokta kuyrukta == \"🟡 ATLAS UFKUNUN DISINDA, BUGUN ETKISIZ\" damgasi tam istedigim sey. Alti nokta + Yuan kapatmasi + Sefsaven eklentisi kosu bitince tek elden inecek. Sen indirme. == YENI IS: yukaridaki Yuan kaynak turu, VE sonra bir olcum == Yuan turu bitince: `denetim/YERLESIM-1923-0905.json`daki alti noktanin ve `YAMA-KUNYE-1923-0905.json`daki on kunyenin BIRLIKTE tutarli olup olmadigini sina — her nokta icin `s:`/`d:` zincirindeki her kimlik, kunyenin f:/t: penceresiyle KESISIYOR mu? (Bu gece bir baska oturum tam bu sinifta 15 \"tam disarida\" donem buldu; senin yaman ayni tuzaga dusmesin.) Ciktiyi ayni dosyaya `tutarlilik_sinavi` alani olarak yaz. == KISIT == Kosu 5b CANLI (PID 21540, 05:30'da surecten olculdu, CPU 9527 sn = %93). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js · denetle.py. SERBEST: denetim/ · oturumlar/ · tahta.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
