@@ -2635,6 +2635,54 @@ Atlasın `1914-12-18`i doğru olanı seçmiş. Sonraki oturum bunu görüp
            ölçülmedi) ⇒ soru MEŞRU ama zayıf
 ```
 
+### 🟢 `kademe m` YAMASI ÜRETİLDİ — 24 kayıt, ve **BEŞ YOKLAMA 2/5 ÇÜRÜK**
+
+`denetim/yer_yama_kademe_m_0905.js` · 24 kayıt · `window.YER_YAMA_KADEME_M_0905`
+(`§7` ad alanı kuralına uygun). `yerlesim` → `ad` çevrildi, yalnız
+`m` + `kaynak` + `neden`.
+
+🔴 **VE ÜÇÜNCÜ BİR KAPI ÇIKTI: DİZİN.** `_sahiplik_uygula.py` `data/`yi
+tarıyor, `denetim/`e bakmıyor ⇒ dosya **durduğu yerde kuru koşulamıyor**.
+```
+KAPI A  node süzgeci — aletin KENDİ koduyla sınandı: 24/24 GEÇİYOR 🟢
+KAPI B  skaler kol   — ⚪ ÖLÇÜLEMEDİ, ve "temiz" diye RAPORLANMADI
+```
+📌 397 kaydın tamamı aynı durumda; **adım ⑥ tam bunun için var.**
+⚠️ Ve bu dosya taşıma listesini **32 → 33** yapar (öngörülmüştü).
+
+**BEŞ KAYNAK YOKLAMASI — alıntılar gerçek, çıkarımlar değil:**
+```
+alıntılanan cümle GERÇEKTEN var mı    5/5  🟢  uydurma kaynak YOK
+cümleden `m`ye giden ÇIKARIM tutuyor  2/5  (+1 kısmi)
+```
+```
+① Ahar → Tebriz    🟢 (aynı ölçüm ÜÇ kaydı birden kapatıyor)
+② Salyan → Şamahı  🟢 en güçlüsü, kaynak adıyla sayıyor
+③ Kuba → Derbend   🟡 cümle doğru, ÖZNE yok
+④ Zagem → Tiflis   🔴 DOĞRU HÜKÜM, ÇÜRÜK GEREKÇE
+⑤ Knin → Klis      🔴 gerekçe kendi sonucunu zayıflatıyor
+```
+
+**🔴 ④ ZAGEM — VE BEDELİ CANLI VERİDE:** gerekçe *"Kaheti eyaletin
+İÇİNDE DEĞİL"* diyor; TDV *"Kartli ve Kahet Tiflis eyaleti hâline
+getirildi"* diyor — **içindeydi.** Sonuç (`m:Tiflis`) çürümüyor,
+güçleniyor; ama `k:3` (*tâbi krallık merkezi*) tam o çürüyen yarıya
+dayanıyor **ve `k` ZATEN İNMİŞ (38/38).**
+⇒ 🔴 **AYRI VE CANLI KALEM:** `Zagem` `k:3` gerekçesi yeniden ölçülecek.
+
+**🟢 HÜKÜM — ⑤ KNIN: `m` YAZILMAYACAK, kayıt DÜŞÜRÜLÜYOR (24 → 23).**
+```
+yamanın penceresi  1522-05-29 .. 1688-09-11   ⇒ 1580'i AŞIYOR
+TDV                "1580'de … Klis sancağı ikiye ayrıldı ve kuzeybatısı
+                    Kırka adıyla Bosna vilâyetine bağlandı"
+`Knin` gövdede     0 kez
+```
+`m:` alanının **zaman boyutu yok** (`Değişmez 3`ün bilinen kusuru), yani
+*"1580'e kadar Klis"* ifade **edilemiyor**. Kaynağın çelişkiye işaret
+ettiği 108 yıl için `m:Klis` yazmak, modelin söyleyemediğini **yanlış
+söylemektir.** ⇒ `Ammaroğulları` hükmüyle aynı: **model ifade edemiyorsa
+veri SUSAR.** Gerekçe `neden:`e yazılır, kayıt yamadan düşer.
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri
