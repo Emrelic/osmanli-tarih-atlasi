@@ -901,6 +901,39 @@ ama veri taşıyor **ve 12 noktanın `d:` (Osmanlı) başlangıcı ona bağlı.*
 Değiştirilmedi: (a) TDV gün/yıl vermiyor ⇒ seçmek uydurmak olurdu,
 (b) günü kaydırmak ikinci bir dönemi de kaydırır. Damga `bulunamadi`.
 
+### 🔴🔴 `artuklu` — 56 YIL DEĞİL **184 YIL**, ve `Diyarbakır` kör noktanın İLK VAKASI
+
+```
+`4c`nin gördüğü   Harput · Çemişgezek · Palu · 3 kayıt · künyeyi 56 yıl aşıyor
+GERÇEK            3 kayıt · kimlik 184 YIL boyunca yanlış
+TDV `artuklular`  "Harput kolu 1234'te sona erdi" (Ağustos 1234)
+TDV `harput`      1234 sonrası İLHANLILAR · "XIV. yy'dan sonra Dulkadirli,
+                  Kadı Burhâneddin, Karakoyunlu ve Akkoyunlu arasında
+                  SIK SIK EL DEĞİŞTİRDİ" (tarih YOK)
+🟢 verinin `1465` (Uzun Hasan) ve `1507` (Safevî) günleri TDV ile BİREBİR
+```
+🔴 **YAZILMADI — ve Fizan'dan farkı kesin:** Fizan'da kalan parça
+**kaynaksızdı**; burada kalan parça **yanlış olduğu BİLİNEN** bir değer.
+```
+KARAR: B (araştırma) — ama BÜTÇELİ, ve geri düşüş yolu ÖNCEDEN yazılı
+① 1353-1465 için akademik kaynak ARA (bir tur)
+② tarihli geçiş çıkarsa → 3-4 dönem yaz (bölgenin kendi standardı:
+   Erzurum 4 · Sivas 4 · Erzincan 4 · Siirt 3)
+③ çıkmazsa → `ilhanli 1281→1353` yaz (72 yıl, kaynaklı) VE kalan
+   `artuklu 1353→1465`e `not:` koy: "yanlış olduğu BİLİNİYOR, tarihli
+   geçiş kaynağı BULUNAMADI" · ve `4c`nin DÜŞMEYECEĞİNİ de yaz
+```
+
+#### 🔴 `Diyarbakır` — `4c`nin GÖRMEDİĞİ ilk somut vaka
+```
+Diyarbakır  `artuklu` 1281 → 1378   ·  TDV: Amid 1232'de çıktı
+🔴 `4c`ye DÜŞMÜYOR (1378 < künye 1409) ⇒ AYNI HATA, DENETİME GÖRÜNMEDEN
+```
+⇒ Tek bir kimlikte **iki** yanlış atıf; biri kuyruğu sayesinde görüldü,
+öteki görünmüyor. `§3.5.-1`in kör noktası artık **ölçülmüş.**
+⚪ Ayrı kalem: `artuklu`nun TÜM kayıtları (aşan/aşmayan ayrımı yapmadan)
+Artuklu'nun gerçek menziliyle karşılaştırılacak.
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri

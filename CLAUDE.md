@@ -332,6 +332,26 @@ SORMAZ            "bu kimlik oraya HİÇ ait miydi?"
 ```
 ⚠️ ⇒ Aynı soru **her kimlik için** açık: `hafsi`nin **aşmayan**
 kayıtlarında da yanlış atıf var mı? Hiçbir denetim onu sormuyor.
+
+🔴 **VE İLK DOĞRULANMIŞ VAKA AYNI GÜN GELDİ — `artuklu`:**
+```
+Harput · Çemişgezek · Palu  `artuklu` 1281 → 1465
+   TDV: Harput kolu 1234'te sona erdi ("Ağustos 1234")
+   ⇒ 184 YIL yanlış · `4c`de GÖRÜNDÜ (künye 1409, 56 yıllık kuyruk)
+Diyarbakır                  `artuklu` 1281 → 1378
+   TDV: Amid Artuklulardan 1232'de çıktı
+   ⇒ AYNI HATA · `4c`ye DÜŞMÜYOR (1378 < 1409) ⇒ GÖRÜNMÜYOR
+```
+⇒ **Tek bir kimlikte iki yanlış atıf**: biri bir kuyruk sayesinde
+görüldü, öteki görünmüyor. Kör nokta artık bir hipotez değil, **ölçülmüş.**
+
+🟢 **VE ONU ELE VEREN ŞEY KOMŞULARIN AYRINTISI OLDU:** aynı bölgede
+Erzurum 4 dönem · Sivas 4 · Erzincan 4 · Siirt 3 · Mardin 2 taşıyor;
+Harput üçlüsü **tek 184 yıllık blok.**
+📌 ***Bir bölgenin en ayrıntılı modellenmiş yeri, en az ayrıntılı
+kaydını en iyi ele veren yerdir.*** Blok tek parça olduğu için
+*"eksik"* görünmüyordu — ama komşularının yanında **istisna** olarak
+okunuyor.
 📌 `§11`in *"denetim var ≠ o soruyu soruyor"* ailesinin en pahalı üyesi:
 burada denetim doğru çalışıyor, **soru hiç yok.**
 
