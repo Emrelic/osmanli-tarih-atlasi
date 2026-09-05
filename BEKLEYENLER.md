@@ -246,6 +246,43 @@ etmek, o kodu yazmaktan zordur.
 ⇒ 90 satır kaldırılacak — **ama önce senin (a)/(b) kararın**, çünkü
 kaldırma tam o değeri kullanıyor.
 
+### 🔴 BEŞİNCİ KARARIN — HİMAYEYE GİREN DEVLETİN KÜNYESİ **BİTER Mİ, SÜRER Mİ?**
+
+Külliyat bugün **ikisini de** yapıyor, ve bu bir tutarsızlık değil bir
+**karar boşluğu** — kimse karar vermediği için her oturum kendi seçmiş:
+
+```
+BİTİYOR   24 künye  (çoğu sömürge himayesi ilanı)
+SÜRÜYOR   afganistan 1880 · manipur 1891 · san-devletleri 1887
+          → üçü de künyesi 1923-10-29'a kadar devam
+```
+🔴 **Ve doğrudan haritayı etkiliyor: künye biterse o gövde BOYANMAZ.**
+`manipur` (32,8 yıl) ve `san-devletleri` (36,8 yıl) bu sabah tam bu
+yüzden ölçülmüştü.
+
+🟢 Ve külliyat **kendi terimlerini** geliştirmiş — 64 künye (%10,8) bu
+ayrımı `ozet` metninde kendi kelimeleriyle yapıyor:
+```
+HANEDAN ÖMRÜ        46   safevi · altinorda · germiyan · aydin · saruhan
+ÜLKE SÜREKLİLİĞİ    20   napoli · bogdan · sadi · misir-kavalali
+KÜNYE DIŞ ZARFI      5   germiyan · aydin · saruhan · teke · mutahharten
+DEVLET SÜREKLİLİĞİ   3   sirbistan-prensligi · bulgaristan-prensligi · romanya
+```
+⇒ *"Hânedan ömrü"* ile *"ülke sürekliliği"* **iki ayrı kimlik cinsi**, ve
+fark tam bu sorunun kendisi: hânedan biterken ülke sürer. **64 künye
+bunu biliyor ve yazıyor — ama serbest metinde.** Makine soramıyor, motor
+okuyamıyor, denetim göremiyor.
+
+⚠️ Ölçen oturum **alan önermedi** — bu proje `sinif:`/`k:` vakasını bir
+kez yaşadı, ve alan icat etmek bir tasarım kararı.
+
+**Senin kararın iki kademeli:**
+```
+① Himayeye giren devletin künyesi BİTER Mİ SÜRER Mİ — tek kural olsun mu?
+② Olursa, "hânedan ömrü" ile "ülke sürekliliği" ayrımı VERİYE inecek mi
+   (bir alan), yoksa `ozet` metninde mi kalacak?
+```
+
 ### 🟢 GECE NE BİTTİ — 5 Eylül 09:00 ölçümü
 
 **İstediğin altı başlıktan ikisi TAMAM ve YAYINDA:**
