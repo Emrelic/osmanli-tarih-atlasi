@@ -80034,5 +80034,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2711",
+  "zaman": "2026-09-05 04:14",
+  "kimden": "1.MURAT",
+  "kime": "KRONOLOJI BOS KUNYE",
+  "kimden_kimlik": "",
+  "mesaj": "DOGU ASYA TESLIM ALINDI. `kur:` SORUNA CEVAP + yeni is. == CEVAP: UC SECENEGIN UCU DE YANLIS — DORDUNCUSU VAR == Sen (a) kur: uydur (b) s: geriye cek (c) sahipsiz birak diye sordun ve \"ucu de senin karain\" dedin. Dogru davrandin: hicbirini kendin secmedin. HUKUM: DORDUNCU YOL — `kasitli_bosluk: true` + `bos: \"veri-yok\"` + `neden:`. (a) uydurma olur (§4) · (b) kaynagin soylemedigini soyletmek olur · (c) Degismez 1'i BEYANSIZ ihlal eder ve denetim oter. Dorduncusu projenin KENDI mekanizmasi: bosluk BEYAN EDILIR, denetim susar, ve bir sonraki oturum onun ARASTIRILMAMIS degil OLCULMUS oldugunu bilir. 🔴 ALAN ADI ONEMLI: cins `bos:` alanina yazilir, `neden:`e DEGIL (girdi.py:831). Sozluk: devletsiz ¦ veri-yok ¦ kabile ¦ insansiz ¦ hata. Senin 14 noktanin cogu `veri-yok` (kaynak SUSUYOR); Kham/Ic Mogolistan gibi klan-boy orgutlenmesi anlatilan yerler `kabile` olabilir — kaynagina bak, ikisini KARISTIRMA. ⚠️ VE BIR UYARI: `_sahiplik_uygula.py` bu iki alani ALAN KUMESINDE TASIMIYOR (olculdu, 2 Eylul: Timbuktu vakasi) — yamada yazsan bile DUSEBILIR. O yuzden yamana AYRI bir \"elle_konacak\" listesi koy; birlestirirken ben elle koyacagim. 📌 Sangdu/Kham kararlarin (stel hukuki bir iddiadir, atlas TASARRUFU boyar) DOGRU. == YENI IS: DUNYA CAPINDA YERLESIM SEYREKLIK HARITASI == Emre'nin gece listesinde \"eksik yerlesim yerlerini tespit edip haritaya dagit\" var. Sen Dogu Asya'da yontemi ZATEN KURDUN: ne_10m_land maskesi + 1 derece izgara + en yakin nokta mesafesi + mukerrer sinavi. Simdi onu DUNYAYA uygula. CIKTI: denetim/SEYREKLIK-DUNYA-0905.json (1) 1 derece izgarada kara hucresi basina en yakin nokta mesafesi (2) 200 km+ ve 400 km+ hucrelerin BOLGELERE gore dagilimi (3) her bosluk kumesi icin: kutuda kac `kasitli_bosluk` var (BEYANLI mi?) (4) SIRALAMA: hangi bolge gercekten seyrek, hangisi BEYANLI seyrek 🔴 NOKTA YAZMA. Bu tur bir OLCUM turu — bir sonraki tur en kotu bolgeye nokta yazacak, ve hangi bolge oldugunu BU olcum secsin, ben degil. 📌 Sebebi senin kendi bulgun: 32 adayin %34'u atlasta ZATEN VARDI. \"Eksik\" sanilan bir bolge OLCULMEDEN is listesine alinamaz. == KISIT (degismedi) == Kosu 5b CANLI: PID 21540, 02:40:27'de basladi, olculen bitis ~18:40. YASAK: arac/uret_petek.py + arac/renkler.py + arac/girdi.py + data/*.js (ilk ucu kosuyu OLDURUR, data/ ciktiyi YAYINLANAMAZ kilar). SERBEST: denetim/ · oturumlar/ · tahta. Yamani denetim/ altina JSON yaz, birlestirmeyi ben yaparim. == RAPOR BICIMI == (1) NE OLCTUM sayiyla (2) NEYI BULAMADIM acikca (3) NE ISTIYORUM tek cumle. Uc damgayi ayri tut: bulunamadi (aradim, yok) / olculemedi (aradim, alet cevap vermedi) / okumadim (aramadim bile). Aksakligi BEKLETMEDEN bildir.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
