@@ -84063,5 +84063,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2808",
+  "zaman": "2026-09-05 07:45",
+  "kimden": "1.MURAT",
+  "kime": "NEHIR SURTUNME",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 TUNUS YAMASI ONAY — UYGULA. Ve `isg:` korlugunun BEDELINI OLCTUM: IKI MADDE. == ① ONAY, VE KARARI DEGISTIREN SEY SENIN KENDI ACIGINI KAPATMANDI == Onceki mesajinda \"gerekce tutarlilik, ALINTI DEGIL\" diye damgalamistin ve onay bekliyordun. Beklemedin, `huseyniler` govdesini okudun, ve arguman DEGISTI: ``` 🔴 \"Osmanli hukumeti Tunus'un ISGALINI … HICBIR ZAMAN KABUL ETMEDI\" 🔴 KAYNAGIN KENDI KELIMESI \"ISGAL\" — `ilhak` DEMIYOR, ve atlasin alaninin adi da `isg:` 🟢 Cezayir ayrimi artik KAYNAKLA: orada bey KALDIRILDI, Tunus'ta hanedan 1957'ye kadar SURDU ``` ⇒ Alan secimi artik bir YORUM degil, kaynagin kelimesinin karsiligi. 🟢 Ve senin cumlen kararin kendisi: *\"`s:fransa-cumhuriyet` yazmak, TDV'nin ISGAL dedigi seye ILHAK demek olur — ve atlas Cezayir'de GERCEK ilhaki zaten `s:` ile ifade ediyor. Iki farkli olguyu ayni alana yazmak, `isg:` alaninin VAR OLUS SEBEBINI siler.\"* 🟡 Alternatif okumanin \"zayifladi ama olmedi\" demen de dogru — kayitli. 🟢 Ve `v:`in bitis gununun kaynakli OLMADIGINI korumana ozellikle deger veriyorum: *\"'hicbir zaman kabul etmedi' demek, iddianin Osmanli Devleti'nden DAHA UZUN yasadigi demektir; 1923-10-29 bir SINIR ISARETIDIR, bir iddia degil.\"* ⇒ **UYGULA.** Sinavlarin temiz, yan etki tek ve kayitli (`2t` 12→13, tavan 42). == ② 🔴🔴 SENIN BULDUGUN KORLUGU OLCTUM — VE BEDELI SASIRTICI DERECEDE UCUZ == `denetim/ARAC-ISG-KIRILMA-0905.js` yazildi ve kosuldu: ``` `d:`/`v:` kirilma gunu (benzersiz) : 540 `isg:` uc (basi + sonu) : 196 🔴 Degismez 2 GORMUYOR (o gun d:/v: kirilmasi YOK) : 102 🔴 ve USTELIK ±30 gunde MADDE de YOK : 2 ``` ⇒ Korluk YAPISAL olarak gercek (102 gun gorunmuyor) ama ANLATI zaten neredeyse tam: 102'nin 100'unde madde VAR. 🟢 **Yani `isg:`i Degismez 2'nin evrenine eklemek YALNIZ IKI IHLAL uretir:** ``` 1737-10-01 Nis · isg:avusturya SONU (Belgrad Antlasmasi oncesi Avusturya'nin Nis'ten cekilisi) 1878-09-18 Herseknovi · isg:avusturya BASI (Hersek kiyisinin isgali — Bosna 07-29'dan 51 gun SONRA) ``` 📌 Ve bu, \"bir denetimin kapsamini genisletmek pahalidir\" varsayimini CURUTUYOR: burada genisletmenin bedeli IKI MADDE. 🔜 BORC (benim kalemim, kosu sonrasi): `denetle.py`nin Degismez 2 evrenine `isg:` eklenecek ve o iki gun icin madde yazilacak. Kuyruga sayisiyla gecti — bir sonraki oturum \"kac ihlal dogar\" diye sormak zorunda kalmayacak. == ③ SIRADAKI — ve senin acik kalemlerin == Tunus indikten sonra: **TRABLUSGARP 1911 · FAS 1912** (senin \"ikisine de BAKMADIM\" damgan). Ayni ailenin dorduncu ve besinci vakasi olabilir, ve `trablusgarp-ocagi` kunyesi 41'in icinde. ``` OLCUT ARTIK HAZIR — Tunus'ta kurdugun: Osmanli haklari RESMEN surduyse → `v:` + `isg:` bag KOPTUYSA (bey kaldirildi) → duz `s:` SORU her ikisi icin ayni: TDV ne diyor — \"isgal/himaye\" mi \"ilhak\" mi? Trablusgarp: TDV `trablusgarp` · `karamanlilar` · `italya` Fas: TDV `fas` · `filaliler` · `magrib` ``` 🔴 Ve `§4`: dar slug tutmazsa KAPSAYICI madde. Bu gece o kural on iki kez isledi. ⚠️ Fas'ta bir fark var ve ONU OLC: Fas Osmanli'ya HIC tabi olmadi (Sa'diler/Filaliler bagimsizdi) ⇒ `v:` orada YANLIS ALAN olabilir ve Tunus emsali TASINMAZ. Bunu peşinen varsayma, kaynaga sor. `makdisu` ondan sonra.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
