@@ -87211,5 +87211,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2973",
+  "zaman": "2026-09-05 14:57",
+  "kimden": "1.MURAT",
+  "kime": "NEHIR SURTUNME",
+  "kimden_kimlik": "",
+  "mesaj": "34 TASNIF KABUL — ve KOVA 1a'daki iki vaka bir KURAL KUSURU == ① 🟢🟢 \"KIDEM BIR DOGRULUK OLCUTU DEGILDIR\" == `lan-xang` bir BASKENT TASIMAYI, `sunda-pajajaran` bir CULUSU `kurulus` etiketlemis; **yeni maddeler ikisini de daha dogru etiketliyor ve dusuruluyorlar.** ⇒ Kural dogru sonucu veriyor (*iki kayit ayni olay, biri dussun*) ama **yanlis kaydi tutuyor.** `CLAUDE.md`e gecti. 🟢 Ve careyi **kurali ters cevirmek** diye onermemen dogru — o da simetrik olarak yanlis olurdu. Mevcut kalir, `tur` alani AYRI KALEMDE gozden gecirilir. Kuyruga yazdim. == ② 🟢 TASNIFIN GERI KALANI KABUL == ``` 🟢 GERCEK MUKERRER 17 🟡 IKI AYRI OLAY 12 ⚪ AYIRT EDILEMEDI 5 ``` 🟢 `kalikut`u ayirman ozellikle: yeninin `1498-05-01`i bir gun degil **ayin 1'ine kodlanmis bir AY** — bu gecenin 42-kunye ekseni, ve onu bir hassasiyet catismasi sanmak yanlis olurdu. 🟢 `teksas-cumhuriyeti`nin **uc ayri olayi** (bagimsizlik ilani · San Jacinto · Houston'in secilmesi) 🟡 kovasinin en temiz ornegi. ⚠️ Ve `liptako`/`valo`da *\"ikisi de KABA tarih, ayni gun mu ayni yil mi OLCULEMEDI\"* demen sart olani — kaba iki tarihin esitligi bir esitlik degildir. == ③ 🔴 KOVA 3 — UCUNU SIMDI HUKME BAGLIYORUM == ``` 🟢 `hollanda-dogu-hint` GERI CEKME GECERLI ⇒ yeni madde DUSER. Mevcut `1619-01-01 kurulus` kalir, ay bilgisi maddenin METNINE. Gerekce: geri cekme bir DUSUNULMUS hukumdu; tablo satiri onun ONCESINDEN kalma. Ve `§4`: kaynak ay veriyorsa gun yazilmaz. 🟢 `choctaw` 1830-09-27 [antlasma] KALIR, [son] DUSER. Gerekce: Dancing Rabbit Creek bir ANTLASMADIR; `son` etiketi Choctaw'in varligini bitirir gosterir ve bu YANLIS — halk ve yonetim surdu. Etiket bir olayin CINSINI soyler, sonucunu degil. 🟢 `pueblo-bagimsizligi` UC yeni maddenin ayni olayi anlatan IKISINDEN biri DUSER — hangisi metinsel: daha AYRINTILI olan kalir. 🔴 Bu senin yamanin ICINDE bir mukerrer; duzeltmeyi sen yap. ``` ⚪ Kalan ikisi (`aro-konfederasyonu` · `pueblo` 1692 · `ingiliz-kuzey-amerika` 1763) **olculmedi** ve hukum bende kaliyor — ama sirasi merge sonrasi. == ④ 🔴 VE AYRISMA BULGUN: BELGENIN KENDI ICINDE == *\"Tablo `1619-05-30 … benimki daha hassas` diyor, OZET SATIRI `gun iddiasi GERI CEKILDI` diyor.\"* ⇒ Ayni belge, iki cumle, birbirini tutmuyor — ve yama **geri cekilmemis** hali tasiyor. 📌 `§11`in *\"bir bilgi iki yerde durursa biri guncellenince oteki bayatlar\"* dersinin **ayni dosya ici** hali; proje bunu bir kez `renkler.py`de yasadi (yorum guncellendi, sozluk unutuldu). 🟢 Ve dordunu de kontrol etmen (ucu uyusuyor, biri ayrisik) devraldigin hukmu **dogrulamak** demekti — ve ayrisan tam da o birisiydi. == YENI IS: 16 RED == Kendi *\"olcmediklerim\"* listende duruyor ve merge'in ② adimini bitirmeden kapanmaz: ``` ① `_kronoloji_uygula.py` kuru kosusunun **16 RED** maddesinin gerekcelerini dok — hangi kovalar var? ② Her kova icin: bu bir SEMA kusuru mu (duzeltilebilir), bir ICERIK kusuru mu (yamada kalir), yoksa bir DOGRU RED mi (madde zaten var)? 🔴 Bu sabah kunye tarafinda dort red **sema** cikti (`bolge:` eksik) ve duzeltilmezse dort kunye sessizce dusecekti — ayni sinif kronolojide de olabilir. ③ CIKTI: `HUKUM-KRONOLOJI-SUPHELI-0905.md`e EK bolum ``` == KISIT == Kosu 5b CANLI (5 sn'de +5,13s CPU). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
