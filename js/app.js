@@ -853,13 +853,54 @@ function veriSiniriKur() {
   veriSiniriDogrula();
 }
 
+// ═══════════════════════════════════════════════════════════════════════
+// NEHRİ DEVLET DOLGULARININ ÜSTÜNE AL — 5 Eylül 2026, KÜRE GÖRÜNÜM
+//
+// Emre: *"nehirler akarsular dereler çaylar haritaya koyabilirsin."*
+// Ölçüm (`denetim/BULGU-DERE-CAY-0905.md`): 1454 nehir ÇİZİLİYOR ve
+// **hiçbiri görünmüyordu.** Sebep tek satırlık bir sıra meselesiydi:
+//     0 zemin · 1 g-kara · 2 g-gol · 3 g-dag · 4 g-nehir · 5 altlik …
+//     9 devlet-dolgu · 13 vassal · 14 himaye · 16 osmanli-dolgu
+// `g-nehir` hem Esri rasterinin hem DÖRT OPAK devlet dolgusunun altında.
+// Ekrandan doğrulandı: `raster-opacity 0` yapılınca Kızılırmak belirdi.
+//
+// 🔴 GRUP A'DAN ÇIKARMIYORUM — tasarım niyeti korunuyor. `ALTLIK_KATMAN.a`
+//    "rasterin YERİNE geçecek coğrafya" demek ve `altlikGoster("a")` hâlâ
+//    onu öyle yönetiyor. Değişen tek şey NEREYE çizildiği.
+// ⚠️ `bolge-cizgi`nin ÖNÜNE alınıyor: dört devlet dolgusunun ÜSTÜNDE ama
+//    bölge/sefer/devir/işgal katmanlarının ALTINDA. Böylece nehir siyasî
+//    gövdenin üstünde görünür, anlatı katmanlarını ise örtmez.
+// 📌 Neden `load` içinde değil de burada: `altlikKur()` çalışırken siyasî
+//    katmanlar HENÜZ YOK; o anda `moveLayer` yapılamaz.
+function nehriUsteAl() {
+  if (!harita.getLayer("g-nehir")) return 0;
+  var hedef = ["bolge-cizgi", "sefer-cizgi-sefer", "devir-dolgu"];
+  for (var i = 0; i < hedef.length; i++) {
+    if (harita.getLayer(hedef[i])) {
+      try { harita.moveLayer("g-nehir", hedef[i]); return 1; }
+      catch (e) { /* sonraki çapayı dene */ }
+    }
+  }
+  // 🔴 SESSİZ BAŞARISIZLIK YASAK: hiçbir çapa yoksa SÖYLE.
+  console.warn("Atlas: g-nehir üste alınamadı — çapa katmanlarının hiçbiri yok "
+               + "(" + hedef.join(", ") + "). Nehirler devlet dolgusunun altında kalır.");
+  return 0;
+}
+
 function altlikGoster(grup, acik) {
   ALTLIK_KATMAN[grup].forEach(function (k) {
     if (harita.getLayer(k.id))
       harita.setLayoutProperty(k.id, "visibility", acik ? "visible" : "none");
   });
-  if (grup === "a" && harita.getLayer("altlik"))
+  if (grup === "a" && harita.getLayer("altlik")) {
     harita.setLayoutProperty("altlik", "visibility", acik ? "none" : "visible");
+    // 🔴 KUTUYU DA SENKRONLA — yoksa seçici bu kararı SESSİZCE geri alır.
+    //    Ölçüldü 5 Eylül: düğmeye bas → altlik "none" ✓ · sonra herhangi
+    //    bir kutuya dokun → altlik "visible" 🔴, düğme HÂLÂ "etkin".
+    //    İki denetim aynı katmana sahipti; artık ikisi TEK durumu paylaşıyor.
+    var kutu = document.querySelector('input[data-katman="altlik"]');
+    if (kutu) kutu.checked = !acik;
+  }
 }
 
 harita.on("load", function () {
@@ -1326,6 +1367,7 @@ harita.on("load", function () {
   })();
 
   koridorKur();
+  nehriUsteAl();
   katmanSeciciKur();
 
   var lejant = document.createElement("div");
@@ -8591,7 +8633,20 @@ var KATMAN_KUMESI = [
   //    görünürdü, sessizce.
   { anahtar: "tani", ad: "Motor tanı hatları",
     kalip: /^g-(nehir-motor|sirt-motor)$/ },
-  { anahtar: "cografya", ad: "Coğrafya",  kalip: /^(zemin|altlik|g-)/ },
+  // 🔴 ALTLIK KENDİ KOVASINDA — `cografya`DAN ÖNCE. 5 Eylül 2026.
+  //    ÖLÇÜLDÜ: `altlik` ile `g-nehir` aynı kovadaydı (kalıp `^(zemin|altlik|g-)`)
+  //    ve bu İKİ KUSUR üretiyordu:
+  //    ① Rasteri kapatıp kendi coğrafyamızı görmek arayüzden mümkün değildi —
+  //       ① Coğrafya kutusu ikisini birden kapatıyordu.
+  //    ② Daha kötüsü: `btn-cografya` düğmesi rasteri kapatıyor, ama SONRAKİ
+  //       HERHANGİ bir kutuya dokunulunca seçici onu SESSİZCE geri açıyordu —
+  //       düğme "etkin" görünmeye devam ederken. İki denetim aynı katmana
+  //       sahipti ve yenisi sessizce kazanıyordu.
+  //    Ölçüm (5 Eylül): düğmeye bas → altlik "none" ✓ · sonra ⑥ tanı
+  //    kutusuna dokun → altlik "visible" 🔴, düğme HÂLÂ "etkin".
+  //    ⇒ Ayrı kova + düğmenin kutuyu SENKRONLAMASI (bkz. `altlikGoster`).
+  { anahtar: "altlik", ad: "Fizikî altlık", kalip: /^altlik$/ },
+  { anahtar: "cografya", ad: "Coğrafya",  kalip: /^(zemin|g-)/ },
   { anahtar: "yollar",   ad: "Yollar",    kalip: /^(koridor-|sefer-)/ },
   { anahtar: "siyasi",   ad: "Siyasî",
     kalip: /^(devlet|imparatorluk|vassal|himaye|osmanli|serbest|bolge|devir|isgal|veri-siniri)/ }
@@ -8613,8 +8668,14 @@ function katmanSinifla() {
   // ⚠️ VE BURASI BİR KAYIT: `KATMAN_KUMESI`ne yeni bir `anahtar` eklenirse
   //   BU SÖZLÜĞE DE eklenmeli. İkisi ayrışırsa `uygula()` sessizce yarıda
   //   kalır — hata konsola düşer ama arayüz yalnız "düğme çalışmıyor" der.
-  var kova = { tani: [], cografya: [], yollar: [], siyasi: [],
-               siniflanmamis: [], hazir: true };
+  // 🔴 HER `KATMAN_KUMESI` ANAHTARI BURADA DA OLMALI — ve artık ELLE
+  //    YAZILMIYOR, KÜMEDEN TÜRETİLİYOR. 4 Eylül'de `tani` kovası burada
+  //    unutulmuştu: `kova.tani.push(...)` undefined üzerinde çağrıldı,
+  //    `katmanSinifla()` patladı, katman seçici BÜTÜN GÜN ölü kaldı.
+  //    5 Eylül'de `altlik` eklenirken aynı tuzağa düşmemek için iki liste
+  //    TEK KAYNAKTAN besleniyor ⇒ bir daha ayrışamazlar.
+  var kova = { siniflanmamis: [], hazir: true };
+  KATMAN_KUMESI.forEach(function (k) { kova[k.anahtar] = []; });
   var stil;
   // 🔴 STİL HAZIR DEĞİLKEN SESSİZ BOŞ DÖNME — ölçüldü, 4 Eylül 2026.
   // Sayfa yüklenirken `getStyle()` patlıyor ya da boş dönüyordu; kova
