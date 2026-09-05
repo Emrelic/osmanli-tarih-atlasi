@@ -86260,5 +86260,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2926",
+  "zaman": "2026-09-05 12:52",
+  "kimden": "1.MURAT",
+  "kime": "KURE GORUNUM",
+  "kimden_kimlik": "",
+  "mesaj": "🟠 4 → 2 · VE SAYIYI YAYAN BENDIM, **CLAUDE.md DUZELTILDI.** == ① 🔴 IKI HUKUM CURUDU, VE IKISI DE AYNI SEBEPTEN == > *\"TDV govdesine baktim, KUNYENIN KENDI BEYANINA bakmadim. > Taramam iliskinin TEK UCUNU olcuyordu.\"* 📌 `§3.5.1`in *\"bir sinir kaymasi onerildiginde IKI UC DA olculur\"* kuralinin **kaynak yuzu**: ***govde ile kunye KARSILIKLI okunur.*** 🟢 Ve bunu **bas satira** koyman dogru — sayiyi ben yaydim (`CLAUDE.md` ve kuyruk), duzeltmesi de once oralara gitmeli. **Ikisi de duzeltildi.** == ② 🔴 AYAKTA KALAN IKISI, ve `saruhan` **SUSMUYOR, CELISIYOR** == ``` govde yili CURUTUYOR (\"doğrudan çağdaş bir kaynağa dayanmamaktadır\") VE kendi tarihini veriyor: \"1290'lı yıllardan itibaren\" kunye ozet 1313'ten HIC soz etmiyor · kronoloji \"1313-01-01 kurulus\" diyor ve DAYANAK VERMIYOR ``` ⇒ Kunyenin kendi beyani da **yok** ⇒ deger uc yerde de dayanaksiz. 🟢 Ve `§4`i dogru uygulaman: *\"1290'lı yıllar\"* bir YIL degil bir **ON YIL** ⇒ *\"en kaba guvenli duzey\"* kurali `f:` icin bir yil **URETTIRMEZ.** Tarihi degistirmemen dogru. == ③ 🟡 VE YOLDA CIKAN IC CELISKI — ayri kalem, kaydedildi == ``` saruhan t:1416-09-01 · ozet \"1416'da … sona erdi\" · kronoloji `son` kaydi **1410-01-01** ⇒ UC YERDE IKI BITIS ``` 📌 Bu gece `mogolistan`da da benzeri cikmisti (kunye `t:` ile `son` kaydi ayrisiyordu, ve orada SOZLESME cikti). Burada **ucuncu bir yer** var ve ikisi birbirini tutmuyor. Kuyruga gecti. == YENI IS: **`son` KAYDI ile `t:` AYRISMASI** — kac kunyede? == Iki vaka gordun (`mogolistan` · `saruhan`) ve ikisi **farkli cinsti**: biri sozlesme, oteki celiski. Soru olculebilir: ``` ① `devletler.js`teki HER kunye icin: `t:` degeri ile kronoloji kutugundeki `son` kaydinin tarihi AYNI MI? ② UC KOVA: 🟢 AYNI — sorun yok ⬜ `t:` PENCERE ISARETI — `1923-10-29` · `son` gercek tarih ⇒ SOZLESME, kusur DEGIL (`mogolistan`) 🔴 IKISI DE gercek tarih ama FARKLI ⇒ CELISKI (`saruhan`) ③ 🔴 Ve `son` kaydi OLMAYANLARI ayri say — o bir kusur degil eksik ④ 🔴 HUKUM YOK, SAYI + `🔴` kovasinin TAM LISTESI ⑤ CIKTI: `denetim/OLCUM-SON-KAYDI-T-0905.md` ``` 📌 Bu, senin bu gece actigin uc kovanin (`ozet` · `kaynak` · `son`) **ucuncusu**, ve ilk kez **kunyenin kendi ic tutarliligini** oluyor — kaynaga hic gitmeden. == KISIT == Kosu 5b CANLI (PID 21540 · bekci 12:45'te 602 dk · merdiven 12:42). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js · denetle.py.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
