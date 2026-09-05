@@ -111,6 +111,13 @@ KOMUT     ① git mv denetim/yer_yama_*.js data/
           ② py arac/_sahiplik_uygula.py --yaz          🔴 TEK ELDEN
 ÖN KOŞUL  🔴 alet YALNIZ `data/` dizinini tarıyor (`^yer_yama.*\.js$`);
           `denetim/` altına HİÇ BAKMIYOR ⇒ taşıma ŞART
+          🔴 [NEHİR 21:1x] **ADIM ⑧ ÖNCE KOŞMALI.** Bekleyen yamaların
+             kullandığı 81 kimlikten **13'ünün rengi YOK** (koordinatörün
+             ölçümü 17 diyordu; dördü `harita:` üzerinden zaten boyalı —
+             aşağıdaki EK). Renksiz kimlik inerse `§8`: BÖLGE BOYANMAZ
+             ⇒ 13 harita deliği ve `§1.5`in "HARİTA DELİĞİ ✓ 0"
+             değişmezi kırılır.
+             ⇒ SIRA: **① → ⑧ → ⑥**
 KABUL     kuru koşu **24 çakışma** bildirecek — ve bu BEKLENEN:
              🔴 taşımanın GETİRDİĞİ YENİ   17
              🔴 `data/`da ZATEN var         7  ← Bağdat · Başkale ·
@@ -156,10 +163,12 @@ BAYAT MI  🔴 **BAYATTI VE DÜZELTİLDİ: 39 DEĞİL 6.** İşçi kendi daraltt
 ## ⑧ RENK
 ```
 KOMUT     ① bosna #2f1896 → #ea12ea
-          ② py arac/renk_olc.py --oner   (polonya-erken için RENK ÜRET)
+          ② py arac/renk_olc.py --oner   🔴 TEK TURDA **28** KİMLİK
           ③ py arac/renk_olc.py
 ÖN KOŞUL  🔴 `arac/renkler.py` koşu sırasında DONUK — 5b BİTMİŞ olmalı
-KABUL     ihlal 0 · yeni çakışma 0
+          🔴 [NEHİR 21:1x] YÜK **26 DEĞİL 28** — kuyruğun 26'sına
+             `kuveyt` ve `zeta` EKLENİR (ölçüldü, aşağıdaki EK)
+KABUL     ihlal 0 · yeni çakışma 0 · **28 kimliğin 28'i BOYALAR'da**
 SAHİP     Oturum 0
 🔴 [NEHİR] ADIM ①'İN İKİ KÜNYESİ BURAYA BAĞLI: `sutayogullari` ve
    `cemisgezek-beyligi` RENK BEKLİYOR. Renk üretilmeden yama inerse
@@ -229,7 +238,12 @@ cümlesinden** türetilmiş sayılardı. ⇒ **Bir kabul ölçütü, koşturulma
 ```
 ③ → ④⑤     tavan ③'e göre ölçüldü
 ⑤ → ④      `isg:` evrene girmeden iki madde ötmez
-⑧ → ①      renk gelmeden iki künye inerse Çemişgezek 139 yıl boyanmaz
+🔴 ① → ⑧ → ⑥   [NEHİR 21:1x, GÜNCELLENDİ] üç adımlık ZİNCİR:
+   ①  künye iner (13 renksiz kimliğin 13'ü künyeli ⇒ ① onları kapsıyor)
+   ⑧  RENK ÜRETİLİR — 28 kimlik, TEK TURDA
+   ⑥  ancak o zaman sahiplik yaması iner
+   ⚠️ ⑥ önce koşarsa **13 harita deliği** doğar (`§8`) ve `§1.5`in
+      "HARİTA DELİĞİ ✓ 0" değişmezi kırılır
 ⑥ → ②      `zend_kacar` yaması `1794` maddesine bağlı (2s 101→102)
 5b bitişi → ⑧⑨⑩   `renkler.py` donuk · geometri yenilenmemiş
 ```
@@ -244,3 +258,75 @@ cümlesinden** türetilmiş sayılardı. ⇒ **Bir kabul ölçütü, koşturulma
 ⚪ Kuyruğun 4273 satırındaki öteki blokların hepsi okunmadı; bu liste
    YALNIZ `TEK EKRAN` bloğundan (satır 3-150) + bu oturumun ölçümlerinden
 ```
+
+---
+
+# EK — ADIM ⑧ RENK LİSTESİ: **26 → 28**, ve 17'nin dördü DELİK DEĞİL
+
+> Sevk `1.MURAT` M-3049 · 5 Eylül 2026, 21:1x · `renkler.py` **salt okundu**
+
+## ⇒ SONUÇ: EKLENECEK **İKİ** KİMLİK — `kuveyt` · `zeta`
+```
+⑧'in listesi          26
+koordinatörün 17'si    ⇒ 11'i ⑧'DE VAR · 6'sı ⑧'de YOK
+o 6'nın 4'ü            🟢 RENK GEREKTİRMİYOR — `harita:` başka anahtara bakıyor
+KALAN                  🔴 `kuveyt` · `zeta`
+⇒ ADIM ⑧'İN YÜKÜ      **28** (+ `bosna` hex değişikliği)
+```
+
+## ① 🟢 DÖRDÜ DELİK DEĞİL — `§11` RENK 2 DERSİ
+> *"Renk `harita:` anahtarına bakar, `id`ye DEĞİL"* — ve
+> *"künye var ama `harita:` başka anahtarda ⇒ kendi renklerine
+> ihtiyaçları YOKTUR."*
+
+```
+arnavutluk-bagimsiz     → harita:"arnavutluk"   ve o anahtar BOYALI  🟢
+arnavutluk-iskenderbey  → harita:"arnavutluk"   BOYALI               🟢
+bulgaristan-kralligi    → harita:"bulgaristan"  BOYALI               🟢
+sirbistan-nemanjic      → harita:"sirbistan"    BOYALI               🟢
+```
+⇒ Bu dördü boyanacak, **harita deliği doğurmayacaklar.**
+📌 Koordinatörün *"17 harita deliği"* ölçümü `id`ye bakıyordu; `harita:`
+kapısı eklenince **13**'e iniyor.
+
+## ② 🔴 GERÇEKTEN RENK BEKLEYEN 13 — ve 11'i ⑧'de zaten var
+```
+⑧'DE VAR (11)  cemisgezek-beyligi · dukagin · ingiliz-sudani ·
+               kesiri-sultanligi · kuayti-sultanligi · misir-kralligi ·
+               misir-sultanligi · piombino · rif-cumhuriyeti ·
+               tannu-tuva · topia
+🔴 ⑧'DE YOK (2) kuveyt · zeta        ← EKLENECEK
+```
+
+## ③ EKLENEN İKİSİNİN KÜNYESİ VAR — adım ① etkilenmiyor
+```
+kuveyt  1752-01-01 → 1923-10-29   Kuveyt (Sabah Şeyhliği)   harita: YOK
+zeta    1356-01-01 → 1514-01-01   Zeta Prensliği (Balšić/Crnojević) harita: YOK
+```
+🟢 İkisi de `devletler.js`te **var** ⇒ adım ①'e ekleme gerekmiyor.
+Geldikleri yamalar:
+```
+kuveyt  denetim/yer_yama_1923_duzeltme.js (1 kayıt)
+zeta    denetim/yer_yama_arnavutluk.js (2) · data/yer_yama_p32.js (1)
+```
+
+## ④ ⑧'İN 15 FAZLASI BAYAT DEĞİL
+⑧'de olup 17'de olmayan 15 kimliğin **15'i de gerçekten renksiz**
+(`BOYALAR`da 0). ⇒ ⑧ listesi **eksikti, bayat değil.**
+🟢 Ve ⑧'in kendi sağlığı temiz: 26'nın hiçbiri `BOYALAR`da zaten yok.
+
+## ⑤ 🔴 YENİ KOMŞU KÜMESİ — `zeta` ARNAVUTLUK KÜMESİNE GİRİYOR
+⑧'in mevcut küme listesine bir satır ekleniyor:
+```
+ARNAVUTLUK üçlüsü  topia · dukagin · **zeta**
+   topia  ? · dukagin ? · zeta 1356-1514 — Balkan sahilinde komşu ve
+   pencereleri örtüşüyor ⇒ `§11`in "SIRA bağlar" tuzağı: TEK TURDA
+⚪ `kuveyt` (1752-1923, Körfez) hiçbir kümeye girmiyor — bağımsız
+```
+⚠️ **ÖLÇMEDİM:** `topia`/`dukagin` künye pencerelerini ve üçünün
+gerçekten eş zamanlı olup olmadığını. Küme önerisi **coğrafî**, ve
+`§11`in *"ATLAS SEFERİ DEĞİL TASARRUFU BOYAR"* dersine göre bu
+yetersiz — `renk_olc.py --oner` kendi komşuluk ölçümünü yapacak.
+
+## ⑥ ⇒ ADIM ⑧ VE ⑥'NIN ÖN KOŞULLARI GÜNCELLENDİ
+Yukarıdaki iki adımın `ÖN KOŞUL` alanlarına bu ölçüm işlendi.

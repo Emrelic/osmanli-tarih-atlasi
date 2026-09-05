@@ -2862,6 +2862,34 @@ kullanmaya *yeni başlıyor* ⇒ o kaynaktan **yapısal olarak görünmezler.**
 🟢 **SINAV (merge'de, ⑥'dan ÖNCE):**
 `py denetim/ARAC-KIMLIK-KARSILIGI-0905.py` → **rengi yok: 0** olmalı.
 
+### 🟢 DÜZELTME — renksiz **17 DEĞİL 13**, ⑧'in yükü **32 DEĞİL 28** (21:20)
+
+Ölçümüm `§11`in bir kuralını atlamıştı: ***renk `harita:` anahtarına
+bakar, `id`ye DEĞİL.*** İşçi oturum yakaladı, bağımsız doğruladım.
+```
+🟢 `harita:` DOLAYLAMASIYLA BOYANANLAR — delik DEĞİL : 4
+   arnavutluk-bagimsiz    → harita:"arnavutluk"   (BOYALI)
+   arnavutluk-iskenderbey → harita:"arnavutluk"
+   bulgaristan-kralligi   → harita:"bulgaristan"
+   sirbistan-nemanjic     → harita:"sirbistan"
+🔴 GERÇEKTEN RENGİ YOK : 13   (ve ⑧'de olmayan yalnız İKİSİ)
+   cemisgezek-beyligi · dukagin · ingiliz-sudani · kesiri-sultanligi ·
+   kuayti-sultanligi · misir-kralligi · misir-sultanligi · piombino ·
+   rif-cumhuriyeti · tannu-tuva · topia          ← 11'i ⑧'DE VAR
+   🔴 kuveyt · 🔴 zeta                            ← ⑧'E EKLENECEK
+```
+**⇒ ADIM ⑧ YÜKÜ: 26 → 28** (+ `bosna` hex değişimi).
+`kuveyt` (Sabah Şeyhliği 1752→1923) ve `zeta` (Balšić/Crnojević
+1356→1514) — ikisinin de künyesi VAR, `harita:` anahtarı YOK.
+
+🟡 **KOMŞU KÜMESİ:** `zeta` Arnavutluk kümesine giriyor
+(`topia` · `dukagin` · `zeta`) ⇒ tek turda. ⚠️ Ama bu **coğrafî bir
+öneri** — eş zamanlılık ÖLÇÜLMEDİ; `renk_olc.py --oner` kendi komşuluk
+ölçümünü yapacak. `kuveyt` hiçbir kümeye girmiyor.
+
+🟢 **VE ⑧'İN 15 "FAZLASI" BAYAT DEĞİL:** 15'inin 15'i de gerçekten
+renksiz ⇒ ⑧ listesi **eksikti, bayat değil.**
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri
