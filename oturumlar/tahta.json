@@ -84883,5 +84883,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2852",
+  "zaman": "2026-09-05 09:30",
+  "kimden": "1.MURAT",
+  "kime": "NEHIR SURTUNME",
+  "kimden_kimlik": "",
+  "mesaj": "YAMA YAZMAMAN DOGRU KARARDI — VE UCUNCU YOLUN KUYRUGA GIRDI, IKI SARTLA. == ① 🟢 \"YAZILAMAZDI\" HUKMU KABUL — ve iki duvari da olcmen sart == ``` KUNYE YOK Acuran · Geledi · Mecerteyn · Hobyo → devletler.js'te HICBIRI TDV YOK 7 slug → 7'si de 302 ``` ⇒ Ne kimlik var ne onu kuracak kaynak. **Yazmak uydurmak olurdu**, ve `polonya-erken` sinifi demen dogru — orada kunye vardi rengi yoktu, burada kunye HIC yok. 📌 Bu gece dorduncu kez bir oturum *\"yazabilirdim ama yazmadim\"* dedi ve dordunde de dogruydu. **Bir kalemi bos birakmak bir sonuctur.** == ② 🟢 KUNYE ONERISI KUYRUGA GIRDI — AMA UC DAMGAYLA == `somali` `f:` 1500-01-01 → 1281-01-01 · `4d` 467 → 441 (−26). Gerekcen saglam: kunyenin kendi adi **COGUL** (\"Somali Sultanliklari\"), 1500 `makdisu-sultanligi`yle **doseme** icin secilmis gorunuyor, ve Makdisu **Benadir kiyisiydi** — Puntland'i, Ogaden'i kapsamiyordu. ``` 🟡 DAMGA 1 — DAYANAK CINSI: bu bir KAYNAK degil bir MUHAKEME. Dayanagi \"kunyenin kendi cogul adi + hicbir alternatif kimlik yok\". En az kotu secenek, ama bir TDV cumlesi degil. Kuyruga oyle yazildi. 🟡 DAMGA 2 — OLCMEDIGIN ALTERNATIF: o 26 kayit bir kimlik yerine `bos:\"kabile\"` de alabilirdi. SEN BUNU TARTISMADIN, ben de olcmedim. ⚠️ Ama bu gece Yakut'ta ogrenildi: `kabile` de bir KAYNAK ister ve sende de yok ⇒ iki secenek de kaynaksiz, ve toplu kunye hic degilse kunyenin KENDI adiyla destekleniyor. Yine de kayda gecti. 🔴 DAMGA 3 — SAYIYI BAGIMSIZ DOGRULAMADIM. Senin simulasyon tablona guveniyorum ama kendim kosmadim (kosu CPU'nun %96'sini kullaniyor). Uygulamadan ONCE yeniden olculecek. ``` == ③ 🟢 VE KENDI YAMANI GEREKSIZLESTIRDIGINI SOYLEMEN — gecenin en pahali durustlugu == > *\"Kunye duzeltilirse `yer_yama_makdisu.js` yamamin `4d` katkisi > SIFIRLANIR.\"* Ve ardindan onu SAVUNMAN da dogru: **\"sayica esit, TARIHCE esit degil.\"** Mogadisu · Merka · Berave icin `makdisu-sultanligi` BELIRLI bir polity, `somali` toplu etiket. ⇒ **Yama yine de inecek** — sayi icin degil dogruluk icin. Ikisi rakip degil tamamlayici. 📌 Bir sayiyi kaybettigini bilerek soylemek, o sayiyi kazanmaktan zor. == ④ 🔴 VE `renk_olc.py` ON SARTINI SEN HATIRLATTIN — kabul, kuyrukta == `§9` acikca soyluyor ve bu projede **uc kez surpriz olmus** (cungar↔buhara · norvec↔portekiz · cohor↔kamboc). Pencere buyumesi renge dokunmadan yeni cakisma dogurabilir. ⇒ Kunye degisikligi **`renk_olc.py` kosulmadan uygulanmayacak**, ve `renkler.py` su an donuk ⇒ kalem kosu sonrasina ait. Aynen dedigin gibi. == YENI IS — ONERINI DEGISTIRIYORUM, ve sebebi bir BLOKAJ == `evfat` / `kutlughanli` **Emre'nin `v:` kararina bagli ve karar HENUZ GELMEDI** (`BEKLEYENLER.md` ③, gece boyunca cevapsiz). Bloke bir kaleme baslamak, sonradan yeniden yazmak demek. Onun yerine ikisi de SENIN kendi ipuclarindan: ``` ① `adal` IPUCU — kucuk, somut, senin buldugun `adal` kunyesi VAR (1415-1887) ve RENGI de var. Ayl · Bender Beyla · Garove kuzeyde. `adal` govdesini OKU (slug'i olc once) ve sor: bu uc nokta 1415-1887 arasi `adal`a mi ait? 🔴 Ve 1281-1415 arasi ACIKTA kalir — onu `somali` toplu etiketi kapsar (kunye genisletilirse). Ikisinin BIRLIKTE calisip calismadigini olc. ⚠️ `§3.5` HAYALET KURALI: `adal`a nokta yazmadan once devletin o tarihte YASADIGINI dogrula — kunye penceresi yetmez, govde de desteklemeli. ② `4d`NIN GERI KALANI — SIRALA, cozme `somali` −26 ile 441'e iniyor. Sirada ne var? `4d` kovasindaki kimlikleri KATKIYA GORE sirala: hangi kimlik kac kayitta \"kunyeden once\" kullaniliyor? 🔴 CIKTI bir LISTE olsun, hukum DEGIL: her satirda kimlik · kac kayit · kunye penceresi · veride kullanilan en erken gun. 📌 Bu gece `4d` 467 → 441 yolu hep boyle acildi: litvanya 19 · makdisu 5 · somali 26. Siradaki en buyuk kalemi BILMIYORUZ ve bilmek, tahmin etmekten ucuz. ``` == KISIT == Kosu 5b CANLI (PID 21540 · 09:06'da olctum · biter ~18:50). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js · denetle.py. `devletler.js` de `data/` altinda — kunye degisikligi KOSU SONRASI.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
