@@ -1233,6 +1233,47 @@ AY · yalnız ANLATI) ve tek kalıp hepsini doğru anlatamaz.*
 `meysur` f:1761 ↔ "1760" (1 yıl) · `meysur` t:1799-05-04 GÜN ↔
 "Mayıs 1799" (AY — `§4`ün 147'lik kovası).
 
+### 🟢 HARPUT `1436` İNDİ · ÇEMİŞGEZEK `1429` · PALU KAPANDI
+
+```
+Harput      1281→1353 ilhanli · 1353→1429 artuklu (bilinen yanlış) ·
+            1429→1436 akkoyunlu · 1436→1465 dulkadir · 1465→1507 akkoyunlu
+Çemişgezek  1281→1353 ilhanli · 1353→1429 artuklu · 1429→1507 akkoyunlu
+Palu        DEĞİŞMEDİ — yalnız `not:` ("kaynağın kendisi ulaşamıyor;
+            BU KALEM AÇILMASIN")
+```
+🟢 **Ve bir sınır KALDIRILDI:** Çemişgezek'in `1465`i TDV `harput`un Uzun
+Hasan cümlesinden geliyordu **ve o cümle Çemişgezek'i anmıyor.** İki
+bitişik `akkoyunlu` dönemi birleştirildi.
+📌 `§11`in *"başlık ≠ kapsam"* dersinin **veri yüzü**: ***bir kaynaktan
+alınan sınır, o kaynağın O YERİ anıp anmadığına bakılarak alınır.***
+
+### 🔴 PENCERE ŞARTI İLK KEZ BİR ÖNERİYİ ELEDİ
+```
+sutayogullari       1343-1353 · Diyarbakır'ın 1343→1353'ünü TAM kapatıyor
+                    🟢 ONAY — ŞARTLA (aşağıda)
+cemisgezek-beyligi  1396-1429 · Çemişgezek'in 1353→1429'unun %43'ü
+                    🔴 BEKLET
+```
+🔴 Beklemenin sebebi **%43 değil**: `t:1429` kaynaklı ama **`f:1396` bir
+kuruluş değil bir ATTESTASYON** (Yelmâniye Camii'nin inşa başı) ⇒ beyliğin
+gerçek başlangıcından ne kadar geç olduğu **ölçülemiyor.**
+🟢 `sutayogullari`nın ONAY ŞARTI, ölçen oturumun **kendi uyarısı**:
+pencere **polity ömrü değil**, Diyarbakır'daki hâkimiyetin kaynaklı
+aralığı ⇒ bu, künyenin `kaynak:` alanında **açıkça** duracak.
+📌 `§4`ün *"kaynağı yazılmayan bilgi…"* kuralının **pencere** yüzü:
+pencerenin **cinsi** yazılmazsa, bir kullanım aralığı bir **ömür** sanılır.
+
+🟢 **Ve yokluk ÖLÇÜLDÜ, tahmin edilmedi:** 591 künyenin `id+ad+bolge+
+harita+kaynak+not` alanları birleştirilip normalleştiriciden geçirildi,
+sekiz anahtar arandı — sekizi de yok; ayrıca yedi TDV slug'ı 302.
+(Bu gece **altı** kez tek harf/yazım kaçırılmıştı; yedincisi önlendi.)
+
+🟢 **Ve künyelerin inişi SİMÜLE EDİLMEDİ**, gerekçesiyle: *"renksiz bir
+kimliği simüle etmek `4c`/`4d` verir ama `§8` harita deliğini VERMEZ —
+ve asıl kısıt o."* ⇒ ***Yanlış şeyi ölçmek, ölçmemekten kötüdür*** —
+çünkü bir sayı üretir, ve sayı güven verir.
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri
