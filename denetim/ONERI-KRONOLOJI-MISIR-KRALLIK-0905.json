@@ -1,0 +1,17 @@
+{
+  "_baslik": "1923 SINIRLARI — Mısır Krallığı ilanı için kronoloji maddesi önerisi (M-2930 ③)",
+  "_not": "ÖNERİDİR, YAZILMADI. denetim/yer_yama_misir_himaye.js'in getirdiği 1922-03-15 kırılmasının Mısır'a özgü hiçbir maddesi yok — grep ile TARANDI (1922-01/02/03/04 arası üç kayıt da Habeşistan/İran/Dağıstan'a ait). Mekanik ±30 gün kontrolü ilgisiz bir kayıtla (1922-04-01, Nogay kurultayı) teknik olarak karşılanır ama bu GERÇEK belgeleme değil.",
+  "madde": {
+    "t": "1922-03-15",
+    "b": "Mısır Krallığı'nın ilanı: Sultan Ahmed Fuâd kral unvanını aldı",
+    "gun": "15 Mart 1922",
+    "yer": "Kahire, Mısır",
+    "yer_id": "Kahire",
+    "kisiler": "Ahmed Fuâd",
+    "d": "İngiltere'nin 28 Şubat 1922'de tek taraflı bağımsızlık ilanının ardından, Sultan Ahmed Fuâd 15 Mart 1922'de kral (melik) unvanını alarak Mısır'da monarşiyi ilan etti; Sultanlık dönemi (1914-1922) böylece Krallığa dönüştü. Bağımsızlık şeklîydi — İngiltere haberleşme güvenliği, savunma, azınlık hakları ve Sudan yönetimi konularında müdahale hakkını sakladı.",
+    "kaynak": "misir",
+    "kaynak_detay": "TDV, madde: misir (CANLI, raw HTML doğrulandı) — AYNEN: \"İngiltere ve Mısır arasında yapılan müzakerelerde bir sonuca ulaşılamamasına rağmen İngiltere 28 Şubat 1922'de tek taraflı olarak Mısır'ı bağımsız devlet ilân etti ... Sultan Ahmed Fuâd 15 Mart 1922'de kral (melik) unvanını aldı ve Mısır'da monarşi ilân edildi.\""
+  },
+  "hedef_dosya": "olaylar_ek* (çekirdek) — Değişmez 2'nin 'yabancı kırılma' (2s) bucket'ının gerçekten Mısır'a özgü bir madde taşıması için",
+  "ilgili": "denetim/yer_yama_misir_himaye.js'teki 55 noktanın 1922-03-15 kırılmasını belgeler"
+}

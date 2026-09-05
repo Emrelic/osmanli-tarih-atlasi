@@ -1,11 +1,31 @@
 // =====================================================================
-// 1923 SINIRLARI -- Misir'in 55 noktasi icin himaye kalibi (M-2919)
+// 1923 SINIRLARI -- Misir'in 55 noktasi icin himaye kalibi (M-2919/M-2930)
 // Kaynak: denetim/OLCUM-MISIR-1914-1923-0905.md + TDV misir govdesi
 // Oturum: 1923 SINIRLARI - local_372203f2-6e71-46d2-af5e-563a5c7eca60
 //
-// KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e
-// henuz eklenmedi (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b
-// bitip kunyeler renklendikten SONRA inmeli (M-2919 sirasi).
+// 🔴 BAGIMLILIK ZINCIRI (M-2930 ②, KESIN SIRA):
+//   ① KUNYE   denetim/YAMA-KUNYE-1923-0905.json -- misir-sultanligi
+//             (f:1914-12-18,t:1922-03-15) + misir-kralligi (f:1922-03-15)
+//             ONAYLANDI (M-2930) ama HENUZ devletler.js'e INMEDI
+//   ② RENK    denetim/ONERI-RENK-MISIR-0905.md -- #c9a635 ADAY, RENK
+//             TURU KOSU BITMEDEN KOSULAMAZ (renkler.py donuk)
+//   ③ BU YAMA -- yalniz ① VE ② TAMAMLANDIKTAN SONRA inecek
+//   ⚠️ KUNYE INMEDEN bu yama uygulanirsa §8 harita deligi acar (renksiz
+//      kimlik kullanan nokta) -- polonya-erken emsalinin AYNISI.
+//
+// 🔴 IKINCI KIRILMA GUNU DOGUYOR (M-2930 ③, OLCULDU):
+//   Mevcut tek kirilma (1914-12-18) yerine ARTIK IKI kirilma var:
+//     1914-12-18  zaten VAR, IKI madde ile kapali (olaylar_ek5.js:410
+//                 + kronoloji_ingiltere.js:1263) -- saglam
+//     1922-03-15  YENI -- Misir'a OZGU HICBIR madde YOK (grep ile
+//                 tarandi: 1922-01/02/03/04 araligindaki UC kayit da
+//                 Habesistan/Iran/Dagistan'a ait, Misir'la ILGISIZ).
+//                 Mekanik "2s" kontrolu (maddesi_var, +-30 gun) teknik
+//                 olarak 1922-04-01'deki ILGISIZ Nogay kaydiyla (17 gun
+//                 sonra) "karsilanir" -- ama bu GERCEK bir belgeleme
+//                 DEGIL, takvim yakinligi. Oneri: denetim/
+//                 ONERI-KRONOLOJI-MISIR-KRALLIK-0905.json'daki maddeyi
+//                 de cekirdege YAZ.
 //
 // TAM ZINCIR KORUNDU (_sahiplik_uygula.py:566 s:/isg: DIZIYI DEGISTIRIR,
 // EKLEMEZ -- Cacak tuzagi, her kayitta TAM zincir yazildi).
