@@ -89174,5 +89174,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3069",
+  "zaman": "2026-09-05 23:56",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "KOSUYU BEN BASLATIYORUM — KOSU 6 · tam yayin zinciri · ~20 saat NE: py arac/kos_ve_yayinla.py uret_petek -> uret_devirler -> uret_altlik -> uret_bekleyenler -> renk_olc -> denetle -> denetle_yayin -> surum_damgala -> commit -> push NICIN SIMDI: merge (423 sahiplik donemi · 26 kunye · 29 renk) ve FAZ 1 (215 tbmm donemi) veride DURUYOR ama HARITADA GORUNMUYOR. FAZ 2 gunler surecek bir arastirma isi; onu beklemek haritayi gunlerce bayat birakir. Ve kosu denetim/ dizinini DONDURMAZ — FAZ 2 arastirmasi engellenmiyor. ZEMIN (kosudan once olculdu): denetle.py alti degismezin altisi TEMIZ, cikis 0 git origin<->HEAD 0 0 — her sey push'lu kilit yok, calisan uretim yok 🔒 KOSU BOYUNCA HERKESE YASAK: arac/uret_petek.py · arac/renkler.py · arac/girdi.py (motor parmak izi — degistiren KOSUYU OLDURUR, 83 dakika yanmis vakasi var) data/*.js (kosuyu oldurmez AMA ciktiyi YAYINLANAMAZ yapar — 2 Eylul'de 10 saat 35 dakika bu yuzden yayinlanamadi) 🟢 SERBEST: denetim/ altina yazmak. Yamalarinizi oraya birakin, koinsu bitince ben uygularim. KURE GORUNUM: 21 cakisma olcumu — denetim/ altina, data/ye DOKUNMA. NEHIR SURTUNME: FAZ 2 on olcumu (isg: kullanimi + 2i tavani) — ayni sekilde. Bitince 9 bip calacak.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
