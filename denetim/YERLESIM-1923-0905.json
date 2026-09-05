@@ -17,9 +17,9 @@
         {"f": "1281-01-01", "t": "1549-01-01", "d": "merini", "kaynak_notu": "BÖLGESEL ÇIKARIM — doğrudan Ajdir için kaynaklanmadı, komşu `el-Hüseyme` noktasının ZATEN VERİDE OLAN aynı dönem zincirinden alındı (iç Rif köyleri, kıyı kalelerinin aksine hiç işgal edilmedi, aynı üst-egemenliği paylaştı)"},
         {"f": "1549-01-01", "t": "1659-01-01", "d": "sadi", "kaynak_notu": "BÖLGESEL ÇIKARIM (yukarıdaki gerekçe)"},
         {"f": "1659-01-01", "t": "1921-09-18", "d": "fas", "kaynak_notu": "BÖLGESEL ÇIKARIM — el-Hüseyme aynı tarihte (1673) İspanya'ya geçti ama Ajdir İÇ KÖY olduğu için hiç geçmedi; bu yüzden 1659'dan 1921'e KESİNTİSİZ 'fas' varsayıldı"},
-        {"f": "1921-09-18", "t": "1923-10-29", "d": "rif-cumhuriyeti", "kaynak_notu": "DOĞRUDAN KAYNAKLI — Wikipedia 'Ajdir': \"capital of the Republic of the Rif from 1922-1926\"; f: künyenin kendi kuruluş günüyle (1921-09-18) hizalandı"}
+        {"f": "1921-09-18", "t": "1923-10-29", "d": "rif-cumhuriyeti", "kaynak_notu": "🟢 İKİ BAĞIMSIZ KAYNAK: TDV 'abdulkerim-el-hattabi' — raw HTML `curl` ile BİZZAT doğrulandı (WebFetch özeti değil) — \"Rif Cumhuriyeti'ni ilân etti (19 Eylül 1921)\" — VE Wikipedia 'Ajdir' — \"capital of the Republic of the Rif from 1922-1926\". 🔴 TDV 19 Eylül diyor, künyenin kendi f'si (ve benim kullandığım) 18 Eylül — BİR GÜNLÜK GERÇEK ÇELİŞKİ (raw HTML'de doğrulandı, çeviri hatası değil). `§4`e göre TDV esas alınmalı ama künye ZATEN KABUL EDİLMİŞ durumda — kendi başıma değiştirmedim, aşağıda ayrıca bildirdim."}
       ],
-      "damga": "kısmen bulundu — Rif dönemi (asıl istenen) SAĞLAM kaynaklı; 1281-1921 arası BÖLGESEL ÇIKARIM (doğrudan kaynak değil, Değişmez 1'i kapatmak için gerekli, açıkça işaretlendi)"
+      "damga": "TUTTU — Rif dönemi artık İKİ bağımsız kaynaklı (TDV + Wikipedia), §4 tam uygulandı. 1921-09-18/19 çelişkisi GERÇEK ve AÇIK, koordinatöre bildirildi. 1281-1921 arası hâlâ BÖLGESEL ÇIKARIM"
     },
     {
       "ad": "Enval (Annual)",
@@ -34,9 +34,9 @@
         {"f": "1281-01-01", "t": "1549-01-01", "d": "merini", "kaynak_notu": "BÖLGESEL ÇIKARIM (Ajdir kaydındaki gerekçenin aynısı)"},
         {"f": "1549-01-01", "t": "1659-01-01", "d": "sadi", "kaynak_notu": "BÖLGESEL ÇIKARIM"},
         {"f": "1659-01-01", "t": "1921-09-18", "d": "fas", "kaynak_notu": "BÖLGESEL ÇIKARIM"},
-        {"f": "1921-09-18", "t": "1923-10-29", "d": "rif-cumhuriyeti", "kaynak_notu": "DOĞRUDAN KAYNAKLI — 22 Temmuz 1921 Annual Savaşı'nın (Rif zaferi, İspanyol'un Faciası) geçtiği yer; savaş sonrası bölge fiilen Rif kontrolüne geçti. Wikipedia 'Battle of Annual' + 'Annual, Morocco'. f: künyenin resmî ilan gününe (1921-09-18) hizalandı."}
+        {"f": "1921-09-18", "t": "1923-10-29", "d": "rif-cumhuriyeti", "kaynak_notu": "🔴 DÜZELTME — raw HTML'i BİZZAT `curl` ile çektim (WebFetch özeti değil): TDV 'abdulkerim-el-hattabi' GERÇEKTEN \"22 Haziran 1921’de Annoual’da İspanyol ordusunu yenilgiye uğratması\" diyor — bu bir çeviri hatası DEĞİL, TDV'nin kendi metni. `§4`: \"çelişirse TDV esastır.\" Wikipedia/ICRC/HistoryNet'in \"22 Temmuz\"u bu kurala göre GEÇERSİZ SAYILMALI. ⇒ TDV'YE GÖRE DOĞRU TARİH: 22 Haziran 1921. f: künyenin kabul edilmiş f'sine (1921-09-18) yine de hizalandı (savaş ile cumhuriyetin resmî ilanı ayrı olaylar) ama savaşın KENDİSİ artık 22 Haziran'dır — kaynak listesi buna göre düzeltildi."}
       ],
-      "damga": "kısmen bulundu — savaş tarihi (22 Temmuz 1921) SAĞLAM kaynaklı; 1281-1921 arası BÖLGESEL ÇIKARIM"
+      "damga": "TUTTU VE DÜZELTİLDİ — Annual Savaşı'nın TDV'ye göre gerçek tarihi 22 Haziran 1921 (raw HTML doğrulandı, çeviri hatası değil); önceki turda Wikipedia çoğunluğuna güvenmem `§4`ü YANLIŞ UYGULAMAKTI, düzeltildi. 1281-1921 arası BÖLGESEL ÇIKARIM"
     },
     {
       "ad": "Kızıl (Belotsarsk)",
@@ -63,13 +63,13 @@
       "3km_sinavi": "en yakın mevcut nokta: Sayansk ostrogu, 151,04 km — MÜKERRER DEĞİL",
       "kur": "bulunamadı",
       "s_onerisi": [
-        {"f": "1281-01-01", "t": "1368-09-14", "d": null, "kaynak_notu": "🔴 BULUNAMADI — bu 87 yıllık aralık (Yuan hanedanı dönemi) araştırılmadı. Değişmez 1 bu aralıkta AÇIK KALIR, koordinatör kararı bekliyor: ya araştırılır ya köy `kasitli_bosluk`/`veri-yok` diye işaretlenir."},
+        {"f": "1281-01-01", "t": "1368-09-14", "d": "yuan-hanedani", "kaynak_notu": "🟢 KAPATILDI — kaynak SUSMUYOR: Wikipedia 'Tuva' maddesi (ana madde) açıkça \"Tuva was controlled by the Mongol Empire (1206-1271) and then the Yuan dynasty (1271-1368)\" diyor, ve Budist tapınak kalıntılarıyla ARKEOLOJİK olarak da destekleniyor. `§11`in Çukotka/Yakut ayrımı: kaynak KONUŞUYOR ⇒ `bos:` değil `s:` yazılır. devletler.js'teki mevcut `yuan-hanedani` künyesi zaten bu dönemi (1271-1368) kapsıyor, YENİ künye gerekmedi."},
         {"f": "1368-09-14", "t": "1636-05-15", "d": "kuzey-yuan", "kaynak_notu": "devletler.js'teki MEVCUT `kuzey-yuan` künyesinin kendi f/t'si (1368-1691) — Tuva'nın bu bozkır hanlığının kapsamında olduğu COĞRAFİ ÇIKARIM, Çaa-Höl'e ÖZEL bir kaynak DEĞİL"},
         {"f": "1636-05-15", "t": "1912-02-12", "d": "qing-hanedani", "kaynak_notu": "BÖLGESEL ÇIKARIM (Kızıl kaydındaki gerekçe)"},
         {"f": "1912-02-12", "t": "1921-08-14", "d": "cin-cumhuriyeti", "kaynak_notu": "Kızıl kaydındaki basitleştirme AYNEN geçerli"},
         {"f": "1921-08-14", "t": "1923-10-29", "d": "tannu-tuva", "kaynak_notu": "DOĞRUDAN KAYNAKLI — Wikipedia 'Chaa-Khol' maddesi köyün bugünkü Tuva Cumhuriyeti sınırları İÇİNDE (Chaa-Kholsky District) olduğunu coğrafi olarak doğruluyor."}
       ],
-      "damga": "kısmen bulundu — 1368 sonrası zincir tutarlı; 1281-1368 arası (87 yıl) BULUNAMADI, açık bırakıldı"
+      "damga": "TUTTU — 87 yıllık boşluk kapatıldı (yuan-hanedani, kaynaklı), zincir artık 1281'den 1923-10-29'a KESİNTİSİZ"
     },
     {
       "ad": "Turan",
@@ -80,8 +80,8 @@
       "m": null,
       "3km_sinavi": "en yakın mevcut nokta: Sayansk ostrogu, 157,13 km — MÜKERRER DEĞİL",
       "kur": "bulunamadı",
-      "s_onerisi": "Çaa-Höl ile BİREBİR AYNI zincir ve AYNI eksik (1281-1368 arası bulunamadı) — coğrafi konumu da aynı Tuva sınırları içinde, ayrıca yazılmadı, bkz. Çaa-Höl.",
-      "damga": "kısmen bulundu — Çaa-Höl ile birebir aynı durum"
+      "s_onerisi": "Çaa-Höl ile BİREBİR AYNI zincir (87 yıllık boşluk artık yuan-hanedani ile KAPALI) — coğrafi konumu da aynı Tuva sınırları içinde, ayrıca yazılmadı, bkz. Çaa-Höl.",
+      "damga": "TUTTU — Çaa-Höl ile birebir aynı durum"
     },
     {
       "ad": "Sağlı",
@@ -92,8 +92,8 @@
       "m": null,
       "3km_sinavi": "en yakın mevcut nokta: Sayansk ostrogu, 264,89 km — MÜKERRER DEĞİL",
       "kur": "bulunamadı",
-      "s_onerisi": "Çaa-Höl ile BİREBİR AYNI zincir ve AYNI eksik (1281-1368 arası bulunamadı) — Ovyursky District, Tuva Cumhuriyeti sınırları içinde (Wikidata), ayrıca yazılmadı, bkz. Çaa-Höl.",
-      "damga": "kısmen bulundu — Çaa-Höl ile birebir aynı durum"
+      "s_onerisi": "Çaa-Höl ile BİREBİR AYNI zincir (87 yıllık boşluk artık yuan-hanedani ile KAPALI) — Ovyursky District, Tuva Cumhuriyeti sınırları içinde (Wikidata), ayrıca yazılmadı, bkz. Çaa-Höl.",
+      "damga": "TUTTU — Çaa-Höl ile birebir aynı durum"
     }
   ],
   "mevcut_nokta_donem_eklentisi": [
@@ -106,15 +106,21 @@
         {"f": "1924-11-15", "t": "1926-05-27", "d": "rif-cumhuriyeti", "kaynak": "Wikipedia '1924 retreat from Chaoen' — İspanyol ordusu 15 Kasım 1924 gecesi sessizce tahliye etti; Rif Cumhuriyeti'nin resmî sonu 27 Mayıs 1926 (zaten `rif-cumhuriyeti` künyesinin kendi t'si)"},
         {"f": "1926-05-27", "t": "9999-01-01", "d": "fas", "not": "Rif yenilgisinden sonra İspanyol/Fransız himayesine dönüş — bu kısmın GÜNÜ ARANMADI, kaba bırakıldı"}
       ],
-      "onem": "⚠️ Bu değişiklik 1923-10-29 SINIRINI (site ufkunu) tamamen AŞIYOR — 1924-1926 arası bir olay, sorulan tarihi HİÇ ETKİLEMEZ. Koordinatörün açık isteği üzerine yazıldı (M-2734: 'o tarihi kullan, benim varsayımımı değil'). Uygulanıp uygulanmayacağı ayrı bir karar."
+      "damga": "🟡 ATLAS UFKUNUN DIŞINDA, BUGÜN (1923-10-29) ETKİSİZ — silinmez (M-2756: araştırılmış doğru veriyi silmek yeniden araştırmaktan pahalıdır), pencere büyüdüğünde kendiliğinden devreye girer. Bu damga OLMADAN kayıt yarın 'neden çizilmiyor' diye kusur sanılabilir.",
+      "onem": "Bu değişiklik 1923-10-29 SINIRINI (site ufkunu) tamamen AŞIYOR — 1924-1926 arası bir olay, sorulan tarihi HİÇ ETKİLEMEZ. Koordinatörün açık isteği üzerine yazıldı (M-2734/M-2756: 'o tarihi kullan, benim varsayımımı değil' · 'silinmez, yamada kalır'). YAMADA KALIYOR — ayrı bir karar DEĞİL."
     }
   ],
   "_ozet": {
     "istenen_asgari": 4,
     "teslim_edilen_yeni_nokta": 6,
-    "tam_zincirli_ve_kullanilabilir_sorunsuz": ["Acdîr (Ajdir)", "Enval (Annual)", "Kızıl (Belotsarsk)"],
-    "kucuk_bosluklu_ama_kullanilabilir": ["Çaa-Höl (87 yıl boşluk)", "Turan (87 yıl boşluk)", "Sağlı (87 yıl boşluk)"],
+    "tam_zincirli_bosluksuz": ["Acdîr (Ajdir)", "Enval (Annual)", "Kızıl (Belotsarsk)", "Çaa-Höl", "Turan", "Sağlı"],
     "mevcut_nokta_donem_onerisi": 1,
-    "ortak_zayiflik": "İç Rif köylerinin (Ajdir/Annual) 1281-1921 zinciri ve Tuva köylerinin Qing/Çin dönemi BÖLGESEL ÇIKARIMDIR, noktaya ÖZEL kaynak değil — bu proje kültüründe zaten kabul görmüş bir yöntem (komşu noktanın doğrulanmış zincirini paylaşmak) ama açıkça işaretlendi, gizlenmedi."
+    "M-2756_TURU_SONUCU": {
+      "rif_ikinci_kaynak": "TDV 'abdulkerim-el-hattabi' CANLI — raw HTML `curl` ile BİZZAT doğrulandı (çeviri hatası ihtimali ELENDİ). Annual Savaşı'nın gerçek tarihi TDV'ye göre 22 HAZİRAN 1921 (Wikipedia/ICRC/HistoryNet'in 22 Temmuz'u yerine `§4` gereği TDV esas alındı, DÜZELTİLDİ). rif-cumhuriyeti kuruluşu TDV'de 19 Eylül 1921 — künyenin kabul edilmiş f'siyle (18 Eylül) BİR GÜNLÜK GERÇEK ÇELİŞKİ, koordinatöre AÇIKÇA bildiriliyor (aşağıda).",
+      "yuan_87_yil_bosluk": "KAPATILDI — Wikipedia 'Tuva' ana maddesi Moğol/Yuan idaresini (1206-1368) açıkça tarif ediyor, mevcut `yuan-hanedani` künyesiyle dolduruldu",
+      "sefsaven_damgasi": "eklendi — 'atlas ufkunun dışında, bugün etkisiz'"
+    },
+    "ortak_zayiflik": "İç Rif köylerinin (Ajdir/Annual) 1281-1921 zinciri ve Tuva köylerinin Qing/Çin dönemi (1636-1921) hâlâ BÖLGESEL ÇIKARIMDIR, noktaya ÖZEL kaynak değil — açıkça işaretlendi, gizlenmedi.",
+    "ACIK_CELISKI_KOORDINATORE": "🔴 `rif-cumhuriyeti` künyesinin f:1921-09-18'i (zaten KABUL EDİLMİŞ) TDV'nin 'abdulkerim-el-hattabi' maddesindeki \"19 Eylül 1921\" ile 1 gün çelişiyor. `§4`: çelişirse TDV esastır — ama künye zaten onaylanmış olduğu için BEN DEĞİŞTİRMEDİM, karar koordinatörde."
   }
 }
