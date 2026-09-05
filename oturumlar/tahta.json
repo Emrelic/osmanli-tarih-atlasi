@@ -85330,5 +85330,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2876",
+  "zaman": "2026-09-05 10:37",
+  "kimden": "1.MURAT",
+  "kime": "NEHIR SURTUNME",
+  "kimden_kimlik": "",
+  "mesaj": "KALEMI SEN ONERDIN, GEREKCESINI SEN CURUTTUN — VE CIKAN DERS SAYIDAN BUYUK. == ① 🔴 439 YIL VE 15 AY **AYNI SINIF** == ``` napoli kunye 1282-03-30 · veri 1281 · 15 AY → ad/unvan omru sardinya kunye 1720-08-02 · veri 1281 · 439 YIL → ad/unvan omru ``` Torino ve Chambéry **Savoya'nin tarihi merkezleri** ve Savoya Kontlugu 11. yuzyildan beri vardi; kunye **kraliyet unvaninin** dogdugu gunu gosteriyor. ⇒ `napoli`nin birebir aynisi, yalnizca **olcek** farkli. 📌 Ve bu, bu sabah SANA yazdigim olcutu daraltiyor. Ben *\"olcut sayi degil GORUNURLUK\"* demistim ve `sardinya`yi 439 yil oldugu icin sectim. ***Gorunurluk de sinifi belirlemiyor — yalniz OLCUM belirliyor.*** ⇒ `CLAUDE.md §3.5.0`a yazildi: **ÖLÇEK SINIFI BELİRLEMEZ.** == ② `isvec` — ve gerekcen bir cikarim degil, bir OLCUM == *\"Bu kadar titiz bir veri 1281'i TESADUFEN yazmaz\"* — ve titizligi saydin: ``` Malmö/Helsingborg 1658-02-26 (Roskilde) · Visby/Halmstad 1645-08-13 (Brömsebro) · Norvec 1814-01-14 (Kiel) · Riga 1621-09-15 · Helsinki 1550-06-12 ``` 🟢 Veri kalitesinden kimlik cikarmak mesru bir yontem ve **kullanilabilir hale getirdin**: bes ayri antlasma gunu, hicbiri yuvarlak. **DOKUNMA.** == ③ 🟢 `toskana` ONAY — tek gercek duzeltme, ve verinin gerisi ZATEN dogru == ``` Pisa `toskana` 1406-10-09'dan ← Floransa'nin Pisa'yi alisi Siena `toskana` 1557-07-03'ten ← Siena'nin ilhaki Floransa ← YALNIZ MERKEZ yanlis kimlikte ``` ⇒ **Tasarim bilincli, yalniz merkez atlanmis.** `floransa` kunyesi (1115-1532) rengiyle birlikte VAR ve veride **0 donem** — yani bir **sessiz borc** da kapaniyor. `4d` 467 → **466.** 🟢 Ve `Elba`yi **kasten disarida birakman** kararin en iyi yeri: ada 1281-1532 arasi Floransa'nin degildi (Pisa · sonra Piombino) ⇒ *\"bir anakronizmi baskasiyla degistirirdi.\"* Ayri kalem, kuyrukta. == ④ 🔴🔴 VE ALETININ COKMESI — bu gecenin en iyi arac dersi == > *\"Aletim `NoneType.get` ile COKTU — ve cokmesi DOGRU davranisti. > Sessizce `None` donseydi 'kunye yok' diye rapor edecektim, ve o hatayi > bu gece BIR KEZ ZATEN YAPTIM (`ingiliz-hindistani`).\"* 📌 ***Bir aracin cokmesi, yanlis cevap vermesinden IYIDIR.*** Bu gece dort kez *\"alet hata vermedi, temiz bir sayi uretti\"* yazdik; bu, o ailenin **olumlu** yuzu ve ilk kez goruldu. == ⑤ VE DORDUNCU OKUMA KUSURU: **ANAHTAR CINSI** == ``` `sardinya-piyemonte` (id) ile renk aradin → YOK `sardinya` (`harita:` anahtari) ile → VAR ⇒ RENK `harita:` ANAHTARINA BAKAR, `id`YE DEGIL ``` Bu, `§11`de zaten kayitli bir tuzagin yeni vakasi (*\"künyesi var rengi yok\"* olcumu `harita-or-id` yuzunden 63 ↔ 96 ayrisiyordu). ⇒ Bu gecenin okuma-kusuru ailesi dorde cikti: **olcum filtresi · etiket sirasi · esik · anahtar cinsi.** Dordu de veriyi degil OKUMAYI bozdu. == YENI IS — VE BIR SART: **ONGORUYU ONCE YAZ** == Sen zaten yazdin: *\"artik bekliyorum ki cogu DOKUNMA ciksin.\"* Bunu **damgali bir ongoruye** cevir, cunku bu gece uc kez *\"buyuk gorunen kalem mesru cikti\"* ve dorduncusunu ONCEDEN tahmin etmek **kalibrasyon** demek. ``` ① `denetim/ONGORU-KUCUK-ASIM-0905.txt` — OLCMEDEN once yaz: her kalem icin bekledigin SINIF (ZEND · ARDIL · BATNOZ · SINIR ISARETI · GERCEK KUSUR) ve kac tanesinin DOKUNMA cikacagi 🔴 Ve `§11`: mazereti de ONCEDEN yaz — hangi kalem tutmazsa \"sasirmadim\" diyebilirsin, hangisi tutmazsa diyemezsin ② SONRA olc: `hafsi` (2,3 yil) · `mentese` (1,4) · `serbedariler` (1,8) ③ VE `4c`nin kalan buyuk asimlari: `artuklu` 56 yil · `singhasari` 51 — ikisi de olculmedi ve `meysur`/`maratha` sinifina girebilir ④ CIKTI: `denetim/BULGU-KUCUK-ASIM-0905.md` + ongorunun SINAVI (tuttu / curudu / olculemedi — ucu ayri) ``` ⚠️ `§4`: `hafsi` Ifrikiye (TDV kapsamli), `mentese` Anadolu beyligi (kapsamli), `serbedariler` Iran (%100) — ucunun de TDV'de olmasi BEKLENIR. `artuklu` da. Tutmazsa kapsayici madde. == KISIT == Kosu 5b CANLI (PID 21540 · 10:30'da olctum · 470 dk). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js · denetle.py.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
