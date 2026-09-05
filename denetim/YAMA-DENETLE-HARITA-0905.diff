@@ -1,0 +1,73 @@
+--- a/arac/denetle.py
++++ b/arac/denetle.py
+@@ -1602,6 +1602,38 @@
+     return {d["id"]: (d.get("f"), d.get("t"))
+             for d in json.loads(c.stdout) if d.get("id")}
+
++
++_HARITA_UZAYI = None
++
++
++def _harita_uzayi():
++    """{harita_anahtari: (en_erken_f, en_gec_t)} — `harita:` UZAYI.
++
++    🔴 NİÇİN GEREKLİ (ölçüldü, 5 Eylül 2026):
++    Veri `d:` alanına künye `id`si yerine BOYA ANAHTARINI (`harita:`)
++    yazabiliyor ve bu MEŞRU: bir anahtar birden çok künyeyi temsil eder
++    (`sirbistan` → nemanjic · despotluk · prenslik · krallik). `d:"sirbistan"`
++    yazmak *"ardışık Sırp devletleri"* demenin kabul edilmiş yolu.
++    ⇒ Ama `Değişmez 4` o dönemleri `kunyesiz` kovasına atıp `continue`
++      ediyordu: **12.438 dönemin 915'i (%7,4) HİÇ SINANMIYORDU.**
++    Çare: künye `id` bulunamazsa `harita:` anahtarını paylaşan künyelerin
++    pencerelerinin BİRLEŞİMİYLE sına.
++    ⚠️ Birleşim KASTEN geniştir — amaç ihlal ÜRETMEK değil, bugün hiç
++      sınanmayan dönemleri EN AZ bir sınavdan geçirmek.
++    """
++    global _HARITA_UZAYI
++    if _HARITA_UZAYI is not None:
++        return _HARITA_UZAYI
++    import subprocess
++    yol = os.path.join(os.path.dirname(os.path.dirname(
++        os.path.abspath(__file__))), "data", "devletler.js")
++    js = ("global.window={};eval(require('fs').readFileSync(%s,'utf8'));"
++          "process.stdout.write(JSON.stringify(window.DEVLETLER||[]));"
++          % json.dumps(yol))
++    try:
++        c = subprocess.run(["node", "-e", js], capture_output=True,
++                           encoding="utf-8", timeout=90)
++        kayit = json.loads(c.stdout) if c.returncode == 0 else []
++    except (FileNotFoundError, ValueError):
++        kayit = []
++    grup = {}
++    for d in kayit:
++        h = d.get("harita")
++        if not h or not d.get("f") or not d.get("t"):
++            continue
++        f0, t0 = grup.get(h, (d["f"], d["t"]))
++        grup[h] = (min(f0, d["f"]), max(t0, d["t"]))
++    _HARITA_UZAYI = grup
++    return grup
++
+
+ def _gun_farki(a, b):
+     from datetime import date as _d
+@@ -1783,10 +1815,17 @@
+             kim = p.get("d")
+             if not kim:
+                 continue
+-            if kim not in K:
+-                kunyesiz.append((y["ad"], kim))
+-                continue
+-            kf, kt = K[kim]
++            # 🔴 KÜNYE `id` → `harita:` UZAYI → künyesiz  (bu SIRAYLA)
++            #   915 dönem (%7,4) bugün ikinci basamağa hiç ulaşamıyor ve
++            #   sınanmadan `kunyesiz` kovasına düşüyor. Ölçüm: kural
++            #   eklenince künyesiz 917 → 2 (kalan ikisi `__BOSLUK__`).
++            _H = _harita_uzayi()
++            if kim in K:
++                kf, kt = K[kim]
++            elif kim in _H:
++                kf, kt = _H[kim]
++            else:
++                kunyesiz.append((y["ad"], kim))
++                continue

@@ -1,0 +1,34 @@
+ÖNGÖRÜ — `harita:` uzayı kuralı eklenince ne olacak
+YAZILMA ANI: ölçümden ÖNCE. Çürütülebilir olsun diye.
+Oturum: NEHIR SURTUNME · 5 Eylül 2026
+
+KURAL: `d:` bir künye `id` DEĞİLSE ve bir `harita:` anahtarıysa, o anahtarı
+PAYLAŞAN künyelerin pencerelerinin BİRLEŞİMİYLE sınanır.
+
+① künyesiz   917 → 2
+   Gerekçe: koordinatörün ölçümü 12.438 dönemin 915'ini `harita:` anahtarı,
+   2'sini "hiçbiri" diye ayırdı ve o 2'nin ikisi de `__BOSLUK__` (beyan
+   edilmiş, muaf). ⇒ 915 kova değiştirmeli, 2 kalmalı.
+
+② Değişmez 4   15 → 15 + X   ·   X için BANDIM: 0-30
+   Gerekçe: `harita:` anahtarları ARDISIK künye ailelerini topluyor
+   (`sirbistan` → nemanjic/despotluk/prenslik/krallik; fetret-* üçlüsü).
+   Bir ailenin BİRLEŞİK penceresi tek künyeden GENİŞ olduğu için çoğu dönem
+   kesişmeli. Beklentim X KÜÇÜK.
+   ⚠️ Ama `avusturya → habsburg` TEK eşleşme: orada birleşim = tek künye
+   (1526-08-29 → 1918-11-11) ve 1526 ÖNCESİ bir `avusturya` dönemi varsa
+   ihlal DOĞAR. Bu, X'in sıfır ÇIKMAMA ihtimalinin ana kaynağı.
+
+③ 4c / 4d   ARTABİLİR — ve bunu bilerek yazıyorum
+   Gerekçe: 915 dönem bugün künyesiz kovasında ve `continue` ile ELENİYOR;
+   kural eklenince ③/④ dallarına ULAŞACAKLAR. `isg:` yamasında 4c/4d
+   DEĞİŞMEMELİ demiştim ve orada haklıydım (7 dönem `continue`da eleniyordu);
+   BURADA TERSİ beklenir.
+   ⚠️ Bu yüzden bu yama `isg:` yamasından FARKLI bir sınıf: o yalnız GİRDİ
+   kümesini büyütüyordu, bu KOVA AKIŞINI değiştiriyor.
+
+🔴 MAZERET SINIRI (önceden):
+   ① tutmazsa   → koordinatörün 915 ölçümü ile benim evrenim AYRIŞIYOR demektir
+                  (o `s+v+isg` saydı; ben `d` alanını da tarıyorum) — MAZERET VAR
+   ② tutmazsa   → birleşim kuralı yanlış kurulmuş demektir — MAZERET YOK
+   ③ artmazsa   → `continue` akışını yanlış okumuşum demektir — MAZERET YOK
