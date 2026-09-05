@@ -105,4 +105,70 @@ devletler.js'e inmediği için bu census'ta hiç görünmüyorlar — onlar ayr�
 henüz uygulanmamış önerilerdir). İki bulgu kümesi **birbirini tamamlıyor**,
 çelişmiyor.
 
-`⏳ BEKLİYORUM: 30 künyelik (10+20) liste için öncelik/karar · yeni iş`
+---
+
+## ④ ÜÇ KOVA — 10 "künye var, nokta yok" için (M-2778 hükmü)
+
+**Yöntem:** her künyenin coğrafyasında bir kutu ölçüldü, kutudaki noktaların
+1923-10-29'daki GERÇEK sahipliği tek tek sayıldı. Sonuç üç kovaya ayrıldı.
+
+### 🔴 GERÇEK DELİK (toprak boş ya da yanlış kimlikle)
+```
+bahreyn      1 nokta — 'ingiltere'                    → ayrı şeyhlik gizleniyor
+buganda      3 nokta — hepsi 'ingiltere'               → ayrı krallık gizleniyor
+katar        2 nokta — 1 'ingiltere' · 1 SAHİPSİZ      → ayrı şeyhlik gizleniyor + 1 boşluk
+kuveyt       2 nokta — hepsi 'ingiltere'               → ayrı şeyhlik gizleniyor
+avusturya-cumhuriyet  9 nokta kutuda, 2'si 'habsburg'  → 🔴🔴 habsburg 1918-11-11'de BİTTİ
+                      (7 ay Almanya/Macaristan/Çekoslovakya/Yugoslavya sınır
+                      gürültüsü, gerçek Avusturya çekirdeği net değil)
+```
+⚠️ **`avusturya-cumhuriyet` ↔ `habsburg` hayalet devlet listesiyle KESİŞİYOR**
+(7 hayaletin biri) — M-2778 ④ gereği BU TURDA DOKUNMADIM, `NEHIR SURTUNME`nin
+`YAMA-HAYALET-IRAN-0905.json` biçimi gelince aynı yöntemle yazılacak.
+
+### 🟡 TOPRAK ZATEN ÜST KİMLİKLE DOĞRU BOYANIYOR (künye muhtemelen ayrıntı katmanı)
+```
+cezayir-fransiz    148 nokta — 93 'fransa-cumhuriyet' (Cezayir anayasal
+                   olarak Fransa'nın PARÇASIYDI, sömürge değil — bu YÜZDEN
+                   doğru olabilir) · 28 'fas' · 13 'ispanya' (sınır gürültüsü)
+kamboc-kralligi    24 nokta — 22 'fransiz-cinhindi' (doğru sömürge çerçevesi,
+                   Kamboçya kralı bu çerçevenin İÇİNDE bir ayrıntıydı)
+nguyen-hanedani    50 nokta — 45 'fransiz-cinhindi' (aynı gerekçe, Vietnam
+                   da Fransız Çinhindi'nin içinde)
+```
+📌 Üçü de aynı desen: Fransız sömürge idaresi (metropol ya da "Fransız
+Çinhindi") zaten doğru üst kimlik olarak çiziliyor; ayrı künye eklemek bir
+İYİLEŞTİRME olabilir (yerel hanedanı/protektora ayrımını göstermek için) ama
+**mevcut hâli "yanlış" değil, "daha az ayrıntılı".**
+
+### 🟢/🔴 KARIŞIK — oniki-ada-italyan
+```
+21 nokta — 13 'italya' (DOĞRU) · 6 'osmanli' (🔴 YANLIŞ — adalar 1912'de
+           Osmanlı'dan alındı) · 2 'yunanistan' (🔴 YANLIŞ — 1923'te henüz
+           Yunanistan'a geçmedi, bu II. Dünya Savaşı sonrası)
+```
+⇒ Künyenin kendisi GEREKSİZ değil — 8/21 nokta (osmanli+yunanistan) GERÇEK
+delik taşıyor, 13/21 zaten doğru. Karma kova: **8 nokta düzeltme adayı.**
+
+### ⚠️ TBMM-TÜRKİYE — ELLENMEDİ, YALNIZ ÖLÇÜLDÜ (M-2778 açık talimatı)
+```
+Anadolu kutusunda (35,8-42,2K / 25,5-45,0D) TOPLAM 308 nokta, 1923-10-29:
+  osmanli              242  (%78,6)
+  yunanistan            16
+  italya                11
+  fransa-cumhuriyet      9
+  sovyet-rusya           9
+  ingiltere              9
+  kacar                  7
+  bulgaristan-kralligi   5
+```
+Bu bir tasarım kararı sorusu (Emre'nin) — kova ATANMADI. Sayı yalnızca ölçüldü:
+**Anadolu'nun %78,6'sı hâlâ 'osmanli', 1920-1923 TBMM/Kurtuluş Savaşı dönemi
+hiçbir noktada ayrı bir kimlik olarak görünmüyor.**
+
+---
+
+`⏳ BEKLİYORUM: kovalanan 9 künye için karar (bahreyn/buganda/katar/kuveyt/
+oniki-ada-italyan için nokta düzeltmesi mi? cezayir-fransiz/kamboc-kralligi/
+nguyen-hanedani için künye AYRINTI kalemi mi bırakılsın?) · tbmm-turkiye
+Emre'nin kararına havale edildi · yeni iş`
