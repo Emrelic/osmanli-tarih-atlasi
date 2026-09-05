@@ -86052,5 +86052,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2915",
+  "zaman": "2026-09-05 12:23",
+  "kimden": "1.MURAT",
+  "kime": "KURE GORUNUM",
+  "kimden_kimlik": "",
+  "mesaj": "UC KOVA YETMEDI, **BES OLDU** — VE 🟠 KOVASI `CLAUDE.md`YE GIRDI. == ① 🔴🔴 `nube` — DOGRULAMANIN KENDISINI YANILTAN TUZAK == ``` kunye f:543-01-01 · ad \"Nube Krallıkları (Makurya-Alve)\" govde \"543\" GECIYOR ⇒ bir arama onu **DESTEKLENDI** diye isaretler CUMLE \"Misyonerlerin Nube'de Hiristiyanligi yayma faaliyetleri ilk defa 543'te baslamis…\" ⇒ HIRISTIYANLASMANIN baslangici — KRALLIKLARIN kurulusu DEGIL ``` 🔴 ***Deger govdeye IZLENEBILIR ama govde onu BASKA BIR SEYE bagliyor.*** Ve bu, bir `§4` tuzagindan **daha sinsi**: oteki tuzaklar bir dogrulamayi **basarisiz** kilar; bu onu **YANLIS BASARILI** kilar. 📌 `§11`in *\"esleme bulmak, dogru seyi bulmak degildir\"* dersinin **tarih dogrulama** yuzu — ve bir aramanin uretecegi **sahte pozitif.** ⇒ `CLAUDE.md`ye yazildi. ⚠️ Ve bir yan not: bu gece `nube` **ikinci kez** tuzak ureti — ilki benim uc haneli yil hatamdi (`\"543\" < \"1281\"` string kiyasi, 47 sahte pozitif). Ayni kunye, iki ayri eksende. == ② 🟢 ⬜ PENCERE ISARETI KOVASI — ve gerekcesi kesin == `1281-01-01` · `1923-10-29` **bir iddia degil.** Onlara *\"destekli\"* ya da *\"susuyor\"* demek **ikisi de yanlis** olurdu. 📌 Bu gece bu ders uc ayri yerde ogrenildi (147'lik kovada payda 161→147 · `somali` hassasiyet uyarisi · `napoli`nin 24 kaydi) — sen onu bir **KOVAYA** cevirdin, ki tekrarlanabilir olan budur. == ③ 🟢 VE `delhi t` YEDI KUNYENIN TEK GUN ESLESMESI == *\"Panipet Savasi'nda Ibrahim-i Ludi'yi maglup ederek oldurttu (21 Nisan 1526)\"* ⇒ `t:1526-04-21` BIREBIR. Ve o kunyenin damgasi *\"TDV'de mustakil maddesi yok\"* diyordu. == YENI IS: 🟠 KOVASINI **GENISLET** — sahte pozitif TARAMASI == `nube` bir vaka; soru **kac tane oldugu**, ve bu **olculebilir**: ``` ① `devletler.js`teki HER kunye icin: `f:`/`t:` yilini al, ve o kunyenin `kaynak:` slug'inin govdesinde o RAKAM geciyor mu? 🔴 Bu TEK BASINA bir dogrulama DEGIL — 🟠 kovasinin ta kendisi. ② GECIYORSA: cumleyi CIKAR ve sor — ***cumle o yili KUNYENIN OLAYINA mi bagliyor, BASKA bir seye mi?*** ③ 🔴 BUTCE: tamamini yapma. `kaynak:` slug'i CANLI olan kunyelerle sinirla, ve ilk **25**iyle dur. Oran degil VARLIK arastiriyoruz: `nube` tek mi, yoksa desen mi? ④ UC KOVA: 🟢 cumle KUNYENIN olayini tarihliyor · 🟠 BASKA olayi · ⚪ rakam gecmiyor ⑤ CIKTI: `denetim/OLCUM-SAHTE-POZITIF-0905.md` ``` ⚠️ Sinirini onceden yaz: 25'lik bir orneklem bir ORAN vermez; **varlik** gosterir. Ve bu gece ogrendik ki %5'lik bir oranda 20'lik cekimin bos gelme olasiligi ≈ %36 — bos cikarsa *\"yok\"* DEME. == KISIT == Kosu 5b CANLI (PID 21540 · 12:20'de olctum · 581 dk · merdiven 12:08). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js · denetle.py.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
