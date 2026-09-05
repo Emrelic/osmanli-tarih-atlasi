@@ -33,6 +33,33 @@ ekranın tamamını değiştirir — bu bir ölçüm değil bir **tasarım karar
 Vietnam/Nguyễn · Kamboçya · Uganda/Buganda · Oniki Ada) araştırma turuna
 girdi — onlar için karar gerekmiyor.
 
+### 🔴 İKİNCİ KARARIN — BİR OTURUMUN `git commit`İ ENGELLENDİ
+
+Bir işçi oturum (`NEHİR SÜRTÜNME`) iki dosyayı yazdı ama **commit edemedi**:
+kendi izin katmanı `git commit`i engelledi (git kilidi değil — `.git` temizdi).
+Benden onun adına commit etmemi istedi.
+
+**Yapmadım.** Bir oturumun izin katmanı bir eylemi engellediyse, o eylemi
+başka bir oturumun onun adına yapması izin kararını **etrafından dolaşmak**
+olur. Bu senin kararın, benim değil.
+
+```
+denetim/ONGORU-TAVAN-0905.txt          diskte · 6.495 bayt · commit YOK
+denetim/YAMA-HAYALET-IRAN-0905.json    diskte · 6.723 bayt · commit YOK
+```
+🟢 **İş kaybolmadı:** ölçümlerin tamamı tahtada (M-2778) ve
+`oturumlar/KOSU-SONRASI-KUYRUK.md`de duruyor; dosyalar diskte. Commit'siz de
+uygulanabilir. Ama dosyalar depoya girmezse yarın **kimse bulamaz.**
+```
+(a) SEN COMMIT ET      iki dosya, denetim/ altında, ölçüm artefaktı
+(b) BANA İZİN VER      "bu iki dosyayı sen commit et" dersen ederim
+(c) BIRAK              ölçüm zaten kuyrukta yazılı; dosyalar diskte kalır
+```
+⚠️ Not: gece boyunca **öteki bütün** işçi teslimlerini ben commit ettim ve o
+proje kuralının kendisi (`CLAUDE.md §7`: *"commit ve push yalnız Oturum 0'dan"*).
+Bu ikisini ayıran tek şey, o oturumun **izin katmanının o eylemi reddetmiş
+olması** — yani bir teknik arıza değil, bir **karar**. Onu ben geçersiz kılamam.
+
 ### 🟢 GECE NE BİTTİ
 
 ```
