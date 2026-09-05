@@ -5663,3 +5663,52 @@ olaylar_ok109.js  11 madde   **1918-10-28 … 1919-11-27**
   ⇒ İkincisi **yoğun ve kritik bir pencere**, ve o dönemi naif bir
   regexle ölçen herhangi bir gelecek betik **on bir maddeyi birden**
   kaçırır.
+
+- 🔴 **BİR ORANI BAŞKA BİR KATMANA TAŞIMAK, O KATMANIN KENDİ YAPISINI YOK
+  SAYAR — ve iki yönde birden yanılabilir.** *(5 Eylül 2026 ·
+  koordinatörün iki tahmini, iki ayrı oturum tarafından ölçüldü)*
+
+  Sahiplik katmanında 113 kayıtta 8 çakışma çıkmıştı (%7). Koordinatör bu
+  oranı iki başka katmana taşıdı ve **ikisinde de yanıldı:**
+```
+397 kayıtlık taşıma     tahmin ~28   ⇒ ölçüm **17**   (fazla saydı)
+26 künye önerisi        tahmin ~28   ⇒ ölçüm **0**    (kat kat fazla)
+```
+  🟢 Ve künye tarafının **niçin** sıfır çıktığı yapısal: her kimlik bir
+  kez öneriliyor, oysa sahiplik katmanında **aynı yerleşim adı birden çok
+  dosyada farklı dönemlerle** yazılıyor. Ayrıca o gecenin *"id TAHMİN
+  ETME, TARA"* disiplini künye önerilerini baştan çakışmasız üretmiş.
+  ⇒ ***Çakışma oranı bir veri özelliği değil, KATMANIN YAPISININ
+  sonucudur:*** kaç aktörün aynı nesneye dokunabildiğine bağlı.
+  📌 `§4`ün *"bir bölgede ölçülen kaynak yoğunluğu komşu bölge için bir
+  tahmin bile değildir"* dersinin **katman** ekseni.
+
+- 🟢 **TAŞIMANIN GETİRDİĞİ İLE ZATEN ORADA OLANI AYIRMAK — yoksa taşımaya
+  haksız yüklenir.** *(aynı tur · `KÜRE GÖRÜNÜM`)*
+
+  397 kaydın taşınmasından sonra kuru koşu **24 bloke** bildirecek. Ölçüm
+  onu ikiye ayırdı:
+```
+🔴 taşımanın GETİRDİĞİ yeni   17
+🔴 `data/` içinde ZATEN var    7   ← Bağdat · Başkale · Halepçe ·
+                                    Kutaisi · Yergöğü · Çaldıran · Şehrizor
+```
+  ⇒ O yedi **bugün de** bloke ediyor; taşıma onları ne yaratıyor ne
+  çözüyor. Tek sayıda toplansaydı **taşımaya haksız yüklenirdi** — ve
+  daha kötüsü, 18:50'de `24` görüp *"taşıma bunları getirdi"* diye
+  okunurdu.
+  🟢 Ve o yedi zaten bu gece hükme bağlanmış olanlar; **taşıma sonrası
+  kuru koşuda yeniden görünecekler ve bu BEKLENEN.**
+
+  🔴 **Ve ölçen oturum kendi ilk sayımını 22 → 17 düzeltti — aracın KENDİ
+  kuralını okuyarak:** bir alanı **tek** dosya yazıyorsa çatışma değil
+  (`len(yazanlar)<2`), ve **yalnız `kaynak`** ayrışıyorsa veri çatışması
+  değil (veri iner, `kaynak` yazılmaz, uyarı basılır). *"Kuralı kendim
+  yazsaydım yanlış sayıyı verecektim."*
+
+  🟢 **Ve yöntem bir tuzağı ÖNCEDEN kapattı:** 90 dosya `node`+`vm` ile
+  **her biri İZOLE BAĞLAMDA** yüklendi — tek bağlamda `eval`, aynı
+  `window.X` adını kullanan iki dosyada **sessiz ezme** üretirdi (`§7`).
+  Ölçüldü: küresel ad çakışması **0** ⇒ önlem gerekliydi ama temiz çıktı.
+  📌 *Bir önlemin gereksiz çıkması, gereksiz olduğunu göstermez —
+  ölçülmeden bilinemezdi.*

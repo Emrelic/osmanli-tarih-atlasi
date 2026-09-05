@@ -62,6 +62,22 @@
       en büyükleri: zend_kacar 132 · misir_himaye 56 · tunus 36 ·
       doguasya 19 · litvanya 19 · yunananakara 17 · onikiada 13 ·
       fizan 12 · egeadalari 10 · gronland_col 9 · barka_dogu8 8
+   🔴 ÇAKIŞMA ÖLÇÜLDÜ (15:40) — TAŞIMA SONRASI KURU KOŞU **24** BİLDİRECEK:
+      🔴 taşımanın GETİRDİĞİ YENİ   17
+      🔴 `data/` içinde ZATEN var    7  ← Bağdat · Başkale · Halepçe ·
+         Kutaisi · Yergöğü · Çaldıran · Şehrizor
+      ⚠️ **O YEDİ BEKLENEN** — bu gece hükme bağlandılar, taşıma onları
+         ne yaratıyor ne çözüyor. 24'ü görüp *"taşıma bunları getirdi"*
+         diye OKUMA.
+      🟡 yalnız `kaynak` ayrışan 1 (Miyandoab) — veri çatışması DEĞİL
+      🎯 **17'nin 14'ü İKİ DOSYADAN:** `yer_yama_zend_kacar.js` 9 ·
+         `yer_yama_misir_himaye.js` 5 ⇒ o ikisi çözülürse yeni
+         çakışmaların **%82'si** kapanır, kuru koşu 24 yerine **8** der
+      🟢 `denetim/` içi neredeyse temiz: 397 kayıt · 396 benzersiz ad ·
+         aynı ad farklı içerik **1** (Timbuktu). Dört oturum 397 kayıt
+         yazmış, tek ad çakışmış.
+   🟢 KÜNYE tarafı: 26 öneri · **0 çakışma** (11 dosya, aracın kendi
+      `kunyeleri_cikar`ıyla) · 0'ı `devletler.js`te zaten var
    🟢 Bu bir KUSUR DEĞİL: koşu canlı, `data/*.js` yasak, oturumlar
       yazamadıkları için `denetim/`e koydu. Ama TAŞIMA adımı artık
       148 değil **397 kayıt** taşıyor — ve tek elden.
