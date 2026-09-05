@@ -1,0 +1,95 @@
+{
+  "is": "SİBİRYA YERLEŞİMLERİ — ÖLÇÜM RAPORU + ADAY LİSTESİ",
+  "oturum": "NEHIR SURTUNME",
+  "damga": "2026-09-05 · sevk: 1.MURAT",
+
+  "🔴 DURUM": "UYGULANMASIN — BU BİR YAMA DEĞİL, BİR ÖLÇÜM VE ADAY LİSTESİDİR",
+  "🔴 NİÇİN": "Kabul ölçütü ⑤ kaynağın `§4`in kırmızı listesi dışından ve ADIYLA olmasını şart koşuyor. Ölçtüm: TDV Sibirya'yı KAPSAMIYOR (5/5 slug ölü), ve erişebildiğim akademik kaynaklar kuruluş TARİHLERİNİ vermiyor (künye/özet düzeyinde kaldı). 15 kaydı hafızamdan yazıp `kaynak:` alanını doldurmak, `§4`ün *«kaynağı yazılmayan bilgi, kaynağı olmayan bilgiden ayırt edilemez»* kuralını çiğnemek olurdu. YAZMADIM.",
+
+  "⓪ SEVKİN ÖNCÜLÜ — ÖLÇTÜM, KISMEN ÇÜRÜDÜ": {
+    "sevk": "«Sibirya %43,2 örtülmeyen · 106 nokta · EN SEYREK»",
+    "ölçüm": "Kutuda (50-78°K / 60-190°D) bugün 124 nokta var, 106 değil.",
+    "⚠️": "R7'nin %43,2 oranını ÖLÇMEDİM — o bir ÖRTÜ oranı, benimki NOKTA SAYISI. İkisi farklı şeyler; sayının 106→124 farkı R7'nin ölçümünü çürütmez, yalnız benim tabanımın ondan farklı olduğunu gösterir.",
+    "🔴 ASIL ÇÜRÜYEN": "«Sibirya'ya ostrog zinciri eksik» varsayımı. Ölçtüm: 54 klasik ostrog adayının 40'ı ATLASTA ZATEN VAR."
+  },
+
+  "① OSTROG VARLIK SINAVI — 40 VAR / 14 YOK": {
+    "yöntem": "Normalleştirilmiş arama (Türkçe harf + diakritik), TEK YÖNLÜ (atlas adı adayı içermeli), YALNIZ kutu içi.",
+    "🔴 ÖNCE KENDİ ALETİM BOZUKTU": "İlk sürümüm ÇİFT YÖNLÜ substring kullandı ve saçma eşler üretti: `Olekminsk→Minsk` (Belarus) · `Yeniseysk→Niş` (Sırbistan) · `Ayan→Vijayanagara` (Hindistan) · `Amga→Dâmgan` (İran) · `Makovsk→Kolmakovskiy Redut` (ALASKA). Düzeltilmeden kullanılsaydı 5 mevcut noktayı «yok» sanıp MÜKERRER yazacaktım.",
+    "ATLASTA VAR (örnek)": [
+      "Yakutsk 62,03/129,73", "Ohotsk 59,36/143,24", "Nerçinsk 51,95/116,58",
+      "Albazin 53,38/124,09", "Vilyuysk 63,75/121,63", "Ust-Yansk 70,90/136,55",
+      "Zaşiversk 67,25/142,85", "Udskoy ostrogu 54,55/134,45", "Ayan 56,45/138,17",
+      "Gijiga 61,98/160,35", "Çita 52,03/113,50", "Mangazeya 66,69/82,33",
+      "Obdorsk (Salehard) 66,53/66,60", "Berezov 63,94/65,05",
+      "Yeniseysk 58,45/92,17", "Turuhansk 65,80/87,96",
+      "Anadır (Anadyrsk) 64,75/177,48", "Srednekolımsk 67,46/153,72",
+      "Tauysk 59,66/149,18", "Ust-Maya 60,42/134,53", "Kirensk 57,78/108,11",
+      "Bratsk ostrogu 56,28/101,79", "Balagansk 54,00/103,05",
+      "Barguzin 53,62/109,65", "Nikolayevsk (Amur ağzı) 53,14/140,73",
+      "Blagoveşçensk 50,28/127,53", "Bolşeretsk 52,43/156,42"
+    ],
+    "KUTUDA BULUNAMADI (14)": [
+      "Ilimsk", "Ust-Kut", "Olekminsk", "Zigansk", "Tunka", "Kyahta",
+      "Makovsk", "Amga", "Nijneilimsk", "Idinsk", "Aldan", "Ucur",
+      "Amursk", "Aygun"
+    ],
+    "⚠️ SON DÖRDÜ ADAY DEĞİL": "Aldan · Uçur · Amursk MODERN yerleşimler (ostrog değil). `Aygun` ise ATLASTA VAR — adı `Aigun` yazılmış; benim ADAY listemdeki transliterasyon tuttu tutmadı. `Aigun ↔ Blagoveşçensk` çiftini kalem 2'de kendim ölçmüştüm. ⇒ Kendi aday listem de Türkçe/çeviri yazım tuzağına düştü."
+  },
+
+  "② KARA MASKELİ BOŞLUK — ve niçin doldurulMAMALI": {
+    "🔴 İLK ÖLÇÜMÜM MASKESİZDİ": "En seyrek hücreleri 50-54°K / 178-190°D'de buldu — orası BERİNG DENİZİ. Kara maskesi (`ne_10m_land`) uygulanınca düzeldi.",
+    "maskeli en büyük boşluklar": "62-77°K / 84-112°D bandında 449-560 km (Orta Sibirya Platosu · Taymır · Aşağı Tunguska)",
+    "🔴 VE TAM ORASI KASITLI BOŞLUK BÖLGESİ": {
+      "ölçüm": "Kutuda 51 kayıt `kasitli_bosluk` taşıyor: devletsiz 39 · veri-yok 8 · kabile 2 · insansiz 1 · hata 1",
+      "örnek": "Berezov · Obdorsk · Mangazeya · Turuhansk · Yeniseysk · Essey · Hatanga · Dudinka · Yerbogaçen — hepsi `bos:devletsiz`",
+      "hüküm": "Ölçülen boşlukların çoğu KASITLI. `§11` Çukotka dersi: kaynak «hiç fethedilmedi» diyorsa orası doldurulmaz. ⇒ 15 noktayı bu boşluklara ZORLAMAK, beyan edilmiş boşlukları bozmak olurdu."
+    }
+  },
+
+  "③ KAYNAK ÖLÇÜMÜ — `§4` zinciri sırayla koşturuldu": {
+    "TDV (birincil, §4)": "sibirya 302 · yakutsk 302 · tobolsk 302 · kyahta 302 · irkutsk 302 · ostrog 302 → COĞRAFÎ BOŞLUK, TDV Sibirya'yı kapsamıyor. CANLI olan yalnız `sibir-hanligi` (200) ve `kazan-hanligi` (200) — hanlık, Rus ostrogları DEĞİL.",
+    "akademik arama": {
+      "🟢 BULUNAN (§4 yeşil)": "Journal of Siberian Federal University, Humanities & Social Sciences — Myglan, Zharnikov, Mainicheva, Lykhin (2010), «Ilimsk Ostrog: its Historical and Dendro-Chronological Aspects», hakemli üniversite dergisi. Ayrıca Cambridge UP «Conquest of Siberia» ve Springer «Russian Territorial Expansion into Siberia (XVI-XVII)».",
+      "🔴 SORUN": "Erişebildiğim düzey ÖZET/KÜNYE. SFU makalesinin özeti kuruluş tarihini VERMİYOR («results confirm traditional dates» diyor ama tarihi yazmıyor); Cambridge ve Springer bölümleri ücretli duvarın ardında.",
+      "🔴 REDDETTİĞİM": "Arama sonuçlarında tarih VEREN siteler `kupi.com` (seyahat/içerik sitesi) ve Vikipedi idi. `§4` kırmızı listesi içerik sitelerini YASAKLIYOR; Vikipedi TEK DAYANAK olamaz. ⇒ O tarihleri KULLANMADIM."
+    }
+  },
+
+  "④ ADAY LİSTESİ — DOĞRULANMADI, UYGULANMASIN": {
+    "🔴 UYARI": "Aşağıdaki tarihler oturumun KENDİ BİLGİSİDİR. Hiçbiri `§4` uyumlu bir kaynağa DOĞRULATILMADI. Bu liste bir sonraki oturuma ARAMA LİSTESİ olsun diye duruyor — VERİYE YAZILMAZ.",
+    "adaylar": [
+      {"ad": "Ilimsk", "kur_iddia": "1630", "yer": "İlim nehri · Yenisey-Lena aşırması", "kaynak": "DOĞRULANMADI"},
+      {"ad": "Ust-Kut", "kur_iddia": "1631", "yer": "Kuta-Lena kavşağı", "kaynak": "DOĞRULANMADI"},
+      {"ad": "Zigansk", "kur_iddia": "1632", "yer": "aşağı Lena · Kutup dairesi kuzeyi", "kaynak": "DOĞRULANMADI"},
+      {"ad": "Olekminsk", "kur_iddia": "1635", "yer": "Lena-Olekma kavşağı", "kaynak": "DOĞRULANMADI"},
+      {"ad": "Makovsk", "kur_iddia": "1618", "yer": "Ket-Yenisey aşırması", "kaynak": "DOĞRULANMADI"},
+      {"ad": "Amga", "kur_iddia": "1652", "yer": "Amga · Yakut tarım kolonisi", "kaynak": "DOĞRULANMADI"},
+      {"ad": "Kyahta", "kur_iddia": "1727", "yer": "Rus-Çin ticaret kapısı", "kaynak": "DOĞRULANMADI"},
+      {"ad": "Tunka", "kur_iddia": "1676", "yer": "Sayan uç hattı", "kaynak": "DOĞRULANMADI"},
+      {"ad": "Idinsk", "kur_iddia": "1669", "yer": "Angara", "kaynak": "DOĞRULANMADI"},
+      {"ad": "Nijneilimsk", "kur_iddia": "1652", "yer": "aşağı İlim", "kaynak": "DOĞRULANMADI"}
+    ],
+    "🔴 KOORDİNAT DA YOK": "Aday koordinatları YAZILMADI. Hafızadan koordinat yazmak, tarih uydurmakla aynı sınıftır ve `3 km mükerrer` sınavını da anlamsız kılar."
+  },
+
+  "⑤ KABUL ÖLÇÜTÜ — hangisi karşılandı": {
+    "① en az 15 nokta": "🔴 KARŞILANMADI — 0 nokta yazıldı. Sebebi ③'te ölçülü: kaynak yok.",
+    "② her nokta için 3 km kontrolü": "⚪ UYGULANAMADI — nokta yazılmadı. Ama ARAÇ hazır ve mevcut 124 nokta üzerinde koştu.",
+    "③ kasitli_bosluk olmadığı gösterilmiş": "🟢 TERSİ GÖSTERİLDİ — boşlukların çoğu KASITLI (51 kayıt, 39'u `devletsiz`). Bu, doldurmama gerekçesi.",
+    "④ kimlik devletler.js'te var": "⚪ UYGULANAMADI — kimlik yazılmadı.",
+    "⑤ kaynak §4 uyumlu": "🔴 SAĞLANAMADI — ve bu, ①'in düşme sebebi.",
+    "⑥ ölçmediğini yaz": "🟢 YAPILDI (aşağıda)"
+  },
+
+  "⑥ ÖLÇMEDİKLERİM": [
+    "R7'nin %43,2 örtü oranını — o bir ÖRTÜ ölçümü, ben NOKTA saydım; ikisini karşılaştırmadım",
+    "Aday 10 ostrogun kuruluş tarihlerini akademik kaynağa doğrulatmayı — erişim özet düzeyinde kaldı",
+    "Aday ostrogların koordinatlarını — hafızadan yazmayı reddettim",
+    "SFU makalesinin TAM METNİNİ (PDF) — yalnız özeti okudum",
+    "Kutu dışındaki Sibirya kesimlerini (50°K güneyi, 60°D batısı)",
+    "124 noktanın kaçının `kur:` alanı taşıdığını"
+  ],
+
+  "⑦ NE İSTİYORUM": "İki yoldan biri: (a) bana bir KAYNAK ver — erişilebilir bir akademik metin ya da Emre'nin onayladığı bir referans — 10 adayı bir turda tarihlendirir ve koordinatlarıyla yazarım; (b) ya da kalemi KAPAT: ölçüm zaten gösteriyor ki zincir 40/54 tam ve kalan boşlukların çoğu KASITLI. İkinci ihtimalde bu dosya bir sonraki oturum için arama listesi olarak durur."
+}
