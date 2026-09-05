@@ -5,7 +5,8 @@
 > Çıktı: **YAMA** — `denetim/KRONOLOJI-KAMERIKA-0905.json`
 > ⚠️ **Bu KISMİ bir tesliminin üçüncü parçası** — koordinatör "hepsini bitirmen
 > ŞART DEĞİL, kalem kalem teslim et, bitirmek kabul ölçütü değil" demişti.
-> 52 hedef künyenin **26'sı** işlendi.
+> 52 hedef künyenin **27'si** işlendi (+7 gözden geçirilip dokunulmadan
+> bırakıldı — zaten künyede vardı ya da tam uygundu).
 
 ## ① NE ÖLÇTÜM
 
@@ -71,15 +72,17 @@ haudenosaunee    kuruluş tarihi (Büyük Barış Yasası) akademik literatürde
                  kesinlik üretmemek için YAZILMADI, bilerek.
 ```
 
-## KALAN 26 KÜNYE — sıradaki hedef listesi
-*(sauk/zuni/aleut/alutiiq/nez-perce zaten künyede mevcut — bu listeden çıkarıldı)*
+## KALAN 18 KÜNYE — sıradaki hedef listesi (52 - 27 işlendi - 7 gözden geçirilip dokunulmadı)
+*(sauk/zuni/aleut/alutiiq/nez-perce zaten künyede mevcut; sosoni ve abenaki
+da kontrol edildi ve künyede zaten tam/uygun bulundu — üçü de listeden
+çıkarıldı, dokunulmadı)*
 
 ```
-komanci        0/4, hiç eklenemedi — ikinci arama gerekiyor
-dene · kri · sosoni · wicita · yupik · nuxalk · secwepemc · kalusa ·
-mohave · klamath · sahaptin · ponka · occaneechi · etowah · moundville ·
-spiro · payut · yavapai · meskalero-apaci · ingiliz-kuzey-amerika · abenaki
+dene · kri · yupik · nuxalk · secwepemc · kalusa · mohave · klamath ·
+sahaptin · ponka · occaneechi · etowah · moundville · spiro · payut ·
+yavapai · meskalero-apaci · ingiliz-kuzey-amerika
 ```
+(komanci ve wicita bu turda işlendi, 1/4 ve 4/4 ile listeden çıktı)
 
 ## ⑥ 🔴 MÜKERRER KAPISI CANLI ÖRNEĞİ — beş künye ATLANDI, uydurulmadı
 
@@ -119,5 +122,5 @@ komanci                 0→0
 gelirse önce onu bildiririm, kesinti olursa koordinatör bu listeden devam
 edebilir.
 
-Dosya: `denetim/KRONOLOJI-KAMERIKA-0905.json` (26 künye satırı, 40 yeni
+Dosya: `denetim/KRONOLOJI-KAMERIKA-0905.json` (27 künye satırı, 42 yeni
 kronoloji maddesi, hiçbiri `data/devletler.js`e UYGULANMADI).

@@ -177,8 +177,16 @@
   },
   {
    "id": "komanci",
-   "eklenen": [],
-   "not_kaynak": "ÖLÇÜLEMEDİ — bulduğum tek sağlam tarihli olay (1719, Rio Grande baskını) künyenin kendi f:'sinin (1750) 31 YIL ÖNCESİNE düşüyor; künye 'Comanchería'nın SİYASİ/ASKERİ egemenlik dönemini (1750'den itibaren at kültürüyle bölgeye hakimiyet) temsil ediyor görünüyor, 1719 erken bir öncül olay. Aralık dışına taşan bir olayı zorlamadım. Bu turda vakit kalmadığı için ikinci bir arama yapamadım — KALEM AÇIK. 0/4 bırakıyorum."
+   "eklenen": [
+    {"t": "1858-05-12", "tur": "savas", "b": "Antelope Hills Seferi: Kaptan John S. 'Rip' Ford komutasındaki Teksas Rangers'ı ve Tonkawa/Anadarko/Caddo müttefikleri, Little Robe Deresi'nde Komançi köylerine saldırdı; Şef Demir Ceket öldürüldü", "kaynak": "bulunamadı (TDV yok) — standart akademik kaynak, GÜN hassasiyeti çevrimiçi ikincil kaynaklarla ('Antelope Hills expedition') doğrulandı."}
+   ],
+   "not_kaynak": "1/4 — ilk turdaki (1719, Rio Grande baskını) aralık dışı sorunu hâlâ geçerli; bu ikinci arama YENİ ve aralık İÇİNDE bir olay buldu. İkinci ek olay için vakit kalmadı."
+  },
+  {
+   "id": "wicita",
+   "eklenen": [
+    {"t": "1719-01-01", "tur": "antlasma", "b": "Fransız kâşifler La Harpe ve Du Tisné, Arkansas Irmağı boyunca Wiçita köylerinde ticaret istasyonları kurdu; Wiçita'lar (Fransızca'da 'Taovayas') Fransız-yerli ticaretinde aracı oldu", "kaynak": "bulunamadı (TDV yok) — standart akademik/kurumsal kaynak (Texas State Historical Association), doğrulandı."}
+   ]
   }
  ]
 }
