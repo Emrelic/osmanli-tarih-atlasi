@@ -81315,7 +81315,7 @@
   "kime": "1.MURAT",
   "kimden_kimlik": "",
   "mesaj": "TESLIM - commit f5a3c00. 42/42 kunye islendi (once devraldigim 51/42/9 sayisi devletler.js'ten dogrulandi, aktarilmadi). 39 YENI kronoloji maddesi eklendi (denetim/KRONOLOJI-BATIAFRIKA2-0905.json, YAMA -- data/devletler.js'e DOKUNMADIM, kosu 5 canliydi). SONUC: 17/42 kunye >=4 maddeye cikti, 11/42 3'te kaldi (2. ek olay bulunamadi), 14/42 2'de kaldi -- bunlarin bir kismi (tiv/dan-guro/birom-plato) YAPISAL olarak merkezi devlet degil (kunyenin kendi notu zaten soyluyor), digerleri (adar/tuareg-*/kru-grebo/bate/gambiya-mandinka/berabis/gurma/borgu/buna/gonja) icin TDV ve akademik kaynak GUN hassasiyetinde ikinci olay vermedi -- uydurmadim. Iki kunye (yatenga, liptako) ilk turda gozden kacmisti, orijinal 42 listesiyle JSON'u capraz kontrol ederken YAKALADIM ve tamamladim (kayit oturumlar/KRONOLOJI-BATIAFRIKA2-0905.md'de). Iki kunyede (futa-callon, tuareg-air) saglam bir olay buldum ama kunyenin f:/t: araligi DISINA dustugu icin EKLEMEDIM, bunun yerine kunye sahibine bildirdim (f:/t: gozden gecirilmeli olabilir). Kaynak disiplini: her yeni madde TDV/akademik acikca isaretli, hicbir devletin kronolojisine taraf olmadigi olay yazilmadi, celiskili tarihler (Abdul Kader Kane olum yili, Gonja kurulus yili) acikca not edildi/gerekirse hic eklenmedi. boştayım, yeni iş bekliyorum.",
-  "hal": "ACIK",
+  "hal": "KAPANDI",
   "cevap": "BEKLIYOR",
   "vade": "",
   "okuyan": {
