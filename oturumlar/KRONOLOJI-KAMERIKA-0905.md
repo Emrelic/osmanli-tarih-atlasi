@@ -1,10 +1,11 @@
-# KRONOLOJİ KUZEY AMERİKA — KISMİ teslim (kalem kalem, 2. tur)
+# KRONOLOJİ KUZEY AMERİKA — KISMİ teslim (kalem kalem, 3. tur)
 
 > Koordinatör: 1.MURAT HÜDAVENDİGAR · Şartname: cross-session-message, 5 Eylül 2026
 > Kısıt: koşu 5b canlıydı (PID 21540) — `data/*.js` ve üç motor dosyasına DOKUNULMADI.
 > Çıktı: **YAMA** — `denetim/KRONOLOJI-KAMERIKA-0905.json`
-> ⚠️ **Bu KISMİ bir tesliminin ikinci parçası** — koordinatör "hepsini bitirmen
-> ŞART DEĞİL, kalem kalem teslim et" demişti. 52 hedef künyenin **17'si** işlendi.
+> ⚠️ **Bu KISMİ bir tesliminin üçüncü parçası** — koordinatör "hepsini bitirmen
+> ŞART DEĞİL, kalem kalem teslim et, bitirmek kabul ölçütü değil" demişti.
+> 52 hedef künyenin **26'sı** işlendi.
 
 ## ① NE ÖLÇTÜM
 
@@ -70,17 +71,47 @@ haudenosaunee    kuruluş tarihi (Büyük Barış Yasası) akademik literatürde
                  kesinlik üretmemek için YAZILMADI, bilerek.
 ```
 
-## KALAN 35 KÜNYE — sıradaki hedef listesi
+## KALAN 26 KÜNYE — sıradaki hedef listesi
+*(sauk/zuni/aleut/alutiiq/nez-perce zaten künyede mevcut — bu listeden çıkarıldı)*
 
 ```
-BOŞ (2)        apaci-ovalar (komanci işlendi ama 0 kaldı, tekrar denenebilir)
-1-3 madde (33) dene · kri · ojibwe · nez-perce · hayda · beothuk · sauk ·
-               abenaki · mikmak · maliseet · sosoni · ute · karga · pavni ·
-               wicita · aleut · alutiiq · yupik · zuni · nuxalk · secwepemc ·
-               kalusa · mohave · klamath · sahaptin · ponka · occaneechi ·
-               etowah · moundville · spiro · payut · yavapai ·
-               meskalero-apaci · ingiliz-kuzey-amerika
+komanci        0/4, hiç eklenemedi — ikinci arama gerekiyor
+dene · kri · sosoni · wicita · yupik · nuxalk · secwepemc · kalusa ·
+mohave · klamath · sahaptin · ponka · occaneechi · etowah · moundville ·
+spiro · payut · yavapai · meskalero-apaci · ingiliz-kuzey-amerika · abenaki
 ```
+
+## ⑥ 🔴 MÜKERRER KAPISI CANLI ÖRNEĞİ — beş künye ATLANDI, uydurulmadı
+
+`sauk · zuni · aleut · alutiiq · nez-perce` için araştırma yaptım (Bad Axe
+Muharebesi, Coronado/Hawikuh, Şelihov/Awa'uq, Bear Paw teslimi) — ve HER
+BİRİNİN künyede **ZATEN AYNI olayla, aynı günle** kayıtlı olduğunu
+`eklenen` yazmadan önce kontrol ederek gördüm. Beşi de bu yamaya
+**eklenmedi**. Bu, koordinatörün mükerrer uyarısının (bir önceki turda 8
+mükerrer yakalanmıştı) tam olarak önlediği vakadır — kontrol etmeseydim
+beş yeni mükerrer üretecektim.
+
+## 3. TUR SONU — 26/52
+
+```
+teksas-cumhuriyeti      0→4          navaho                  3→4
+savni                   3→4          miami                   3→4
+vendat                  3→4          mandan                  3→4
+cikasav                 3→4          sauk★ zuni★ aleut★
+                                     alutiiq★ nez-perce★     3→3 (dokunulmadı)
+creek-konfederasyonu    0→3          powhatan                0→3
+natchez                 0→3          cahokia                 0→3
+hidatsa                 2→3          ojibwe                  2→3
+hayda                   2→3          beothuk                 2→3
+mikmak                  2→3          maliseet                2→3
+ute                     2→3          karga                   2→3
+pavni                   2→3
+haudenosaunee           0→2          cherokee                0→2
+choctaw                 0→2          pueblo-bagimsizligi     0→2
+apaci-ovalar            0→1
+komanci                 0→0
+```
+★ = araştırıldı ama künyede ZATEN mevcut, mükerrer önlendi, dokunulmadı.
 
 ## DURUM
 
@@ -88,5 +119,5 @@ BOŞ (2)        apaci-ovalar (komanci işlendi ama 0 kaldı, tekrar denenebilir)
 gelirse önce onu bildiririm, kesinti olursa koordinatör bu listeden devam
 edebilir.
 
-Dosya: `denetim/KRONOLOJI-KAMERIKA-0905.json` (17 künye satırı, 31 yeni
+Dosya: `denetim/KRONOLOJI-KAMERIKA-0905.json` (26 künye satırı, 40 yeni
 kronoloji maddesi, hiçbiri `data/devletler.js`e UYGULANMADI).
