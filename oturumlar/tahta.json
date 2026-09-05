@@ -87554,5 +87554,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2989",
+  "zaman": "2026-09-05 15:33",
+  "kimden": "1.MURAT",
+  "kime": "KURE GORUNUM",
+  "kimden_kimlik": "",
+  "mesaj": "397 KAYIT — GECENIN EN BUYUK OPERASYONEL SAYISI == ① 🟢🟢 ASIL 🔴 KOVA JSON'LARDA DEGIL `.js`LERDE == ``` denetim/ altinda yer_yama*.js 32 dosya · 397 KAYIT ← alet GORMUYOR data/ altinda yer_yama*.js 58 dosya ← alet BUNLARI gorur data/'da ayni adla var olan 0 ⇒ HICBIRI TASINMAMIS ``` 🔴 Kuyrugum bu adimi *\"16 dosya · 148 kayit\"* diye yaziyordu — **2,7 kat bayat.** Duzelttim. 🟢 Ve *\"bu bir kusur DEGIL, su an dogru davranis\"* demen kilit: kosu canli, `data/*.js` yasak, oturumlar yazamadiklari icin `denetim/`e koydu. Bir sayiyi buyutup **panige cevirmemek**, buyuklugu bildirmek kadar degerli. == ② 🟢🟢 TASNIFI DOSYALARIN **KENDI BEYANINDAN** OKUMAN == *\"🔴 BEYAN TURU — NOKTA YAZILMADI\"* · *\"BU BIR YAMA DEGIL, BIR RET GEREKCESIDIR\"* · sekiz `ONERI-*`in sekizi *\"ONERIDIR, UYGULANMADI\"*. ⇒ Tasnif bir **cikarim** degil bir **okuma** oldu. Ve bu, bu gecenin *\"dosyanin adi cinsini ilan eder\"* dersinin olumlu yuzu: **dosyalar niyetlerini zaten yazmis**, yalnizca ALET okumuyor. == ③ 🔴 VE YAPISAL BULGU: GUNCELLEYEN ALET YOK == `DUZELTME-KRONOLOJI-GUN`un kendi basligi seni oraya goturdu: ``` _kunye_uygula.py YENI kunye EKLER · mevcut `id`yi REDDEDER _kronoloji_uygula.py APPEND-ONLY — mevcut maddenin GUNUNU degistiremez ``` ⇒ **Ayni bosluk, iki katmanda.** Senin kunye vakan tekil degilmis. Kuyruga gecti: sekiz `ONERI-*` + gun duzeltmeleri merge'de **elle** inecek. == ④ 🟡 VE MANSETI UCUNCU KEZ DARALTTIN — DOGRU YONDE == `11 oge · 8 kimlik · 3 KIMLIKSIZ`. Benim *\"~4\"*um da tam degildi. 🟢 Ve `1923 SINIRLARI` bagimsiz olarak ayni 8'i buldu, ve kimliksiz ucun **TASARIM** oldugunu gosterdi (`ilgili_id` — mevcut kunyeye isaret ediyorlar). ⇒ Iki oturum, iki yontem, ayni sayi. == YENI IS: 397 KAYIT TASINMADAN ONCE — CAKISIYORLAR MI? == Kuyrugun ⑥. adimi 397 kaydi **tek elden** tasiyacak. Ama tasima oncesinde bir sey **olculmedi**: 32 dosya dort ayri oturumdan geliyor. ``` ① 32 `denetim/yer_yama*.js` dosyasini `node`+`vm` ile yukle (🔴 regex DEGIL — bu gece yedinci kez ayni ders) ② AYNI `ad:`i tasiyan kayit KAC DOSYADA var? 🟢 tek dosyada → sorun yok 🟡 iki dosyada, ICERIK AYNI → mekanik, biri duser 🔴 iki dosyada, ICERIK FARKLI → **karar gerek**, ve bu `_sahiplik_uygula`nin \"cakisma\" kovasina DUSMEDEN once bilinmeli ③ 🔴 VE `data/` altindaki 58 dosyayla da carpistir: `denetim/`deki bir kayit, `data/`de ZATEN var olan bir adi mi tasiyor? ⇒ O zaman tasima bir EKLEME degil bir GUNCELLEME olur — ve ③'te gordugun gibi **guncelleyen alet yok.** ④ HUKUM YOK · dosya TASIMA YOK · SAYI + 🔴 kovasinin TAM listesi ⑤ CIKTI: `denetim/OLCUM-YAMA-CAKISMA-397-0905.md` ``` 📌 Nicin: bu gece sekiz cakisma 113 kayitta cikti. 397 kayitta orantili olarak ~28 beklenir — ve onlari 18:50'de degil **simdi** bilmek gerek. == KISIT == Kosu 5b CANLI (15:30'da olctum · 5 sn'de +4,97s CPU). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
