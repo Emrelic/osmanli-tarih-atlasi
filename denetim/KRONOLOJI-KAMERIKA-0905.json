@@ -96,6 +96,31 @@
    ]
   },
   {
+   "id": "vendat",
+   "eklenen": [
+    {"t": "1642-01-01", "tur": "savas", "b": "Haudenosaunee, Huronia ile kuzey bölgeleri arasındaki büyük kürk ticaret nehirlerini abluka altına aldı; ekonomik kriz başladı", "kaynak": "bulunamadı (TDV yok) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Beaver Wars') doğrulandı."}
+   ]
+  },
+  {
+   "id": "mandan",
+   "eklenen": [
+    {"t": "1837-01-01", "tur": "felaket", "b": "1837 çiçek salgını, Mandan nüfusunun büyük çoğunluğunu yok etti", "kaynak": "bulunamadı (TDV yok) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Mandan, Hidatsa, and Arikara Nation') doğrulandı."}
+   ]
+  },
+  {
+   "id": "hidatsa",
+   "eklenen": [
+    {"t": "1837-01-01", "tur": "felaket", "b": "1837 çiçek salgını, komşu Mandan'la birlikte Hidatsa nüfusunu da ağır biçimde vurdu", "kaynak": "bulunamadı (TDV yok) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla doğrulandı."}
+   ],
+   "not_kaynak": "3/4 — ikinci ek olay bulunamadı."
+  },
+  {
+   "id": "cikasav",
+   "eklenen": [
+    {"t": "1830-01-01", "tur": "antlasma", "b": "Franklin Antlaşması imzalandı (ABD Senatosu'nca onaylanmadı) — Chickasaw'ın batıya taşınmasını uygun toprak bulunması şartına bağlayan ilk anlaşma", "kaynak": "bulunamadı (TDV yok) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Treaty of Pontotoc Creek') doğrulandı."}
+   ]
+  },
+  {
    "id": "komanci",
    "eklenen": [],
    "not_kaynak": "ÖLÇÜLEMEDİ — bulduğum tek sağlam tarihli olay (1719, Rio Grande baskını) künyenin kendi f:'sinin (1750) 31 YIL ÖNCESİNE düşüyor; künye 'Comanchería'nın SİYASİ/ASKERİ egemenlik dönemini (1750'den itibaren at kültürüyle bölgeye hakimiyet) temsil ediyor görünüyor, 1719 erken bir öncül olay. Aralık dışına taşan bir olayı zorlamadım. Bu turda vakit kalmadığı için ikinci bir arama yapamadım — KALEM AÇIK. 0/4 bırakıyorum."

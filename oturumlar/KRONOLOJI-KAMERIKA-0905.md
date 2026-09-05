@@ -1,10 +1,10 @@
-# KRONOLOJİ KUZEY AMERİKA — KISMİ teslim (kalem kalem)
+# KRONOLOJİ KUZEY AMERİKA — KISMİ teslim (kalem kalem, 2. tur)
 
 > Koordinatör: 1.MURAT HÜDAVENDİGAR · Şartname: cross-session-message, 5 Eylül 2026
 > Kısıt: koşu 5b canlıydı (PID 21540) — `data/*.js` ve üç motor dosyasına DOKUNULMADI.
 > Çıktı: **YAMA** — `denetim/KRONOLOJI-KAMERIKA-0905.json`
-> ⚠️ **Bu KISMİ bir tesliminin ilk parçası** — koordinatör "hepsini bitirmen
-> ŞART DEĞİL, kalem kalem teslim et" demişti. 52 hedef künyenin **8'i** işlendi.
+> ⚠️ **Bu KISMİ bir tesliminin ikinci parçası** — koordinatör "hepsini bitirmen
+> ŞART DEĞİL, kalem kalem teslim et" demişti. 52 hedef künyenin **17'si** işlendi.
 
 ## ① NE ÖLÇTÜM
 
@@ -13,18 +13,20 @@ sayıldı: **59 künye · BOŞ 11 · 1-3 maddeli 41 · 4+ maddeli 7**. Hedef kü
 **52 künye** — bu bölgenin künye sayısı da hedef listesi de dört bölge
 içinde en büyüğü.
 
-## ② NE YAPTIM — 8/52
+## ② NE YAPTIM — 17/52 (iki tur birleşik)
 
 ```
-teksas-cumhuriyeti      0→4  🟢 4+e ulaştı
-creek-konfederasyonu    0→3
-powhatan                0→3
-haudenosaunee           0→2
-cherokee                0→2
-choctaw                 0→2
-pueblo-bagimsizligi     0→2
+teksas-cumhuriyeti      0→4  🟢         navaho                  3→4  🟢
+savni (Shawnee)         3→4  🟢         miami                   3→4  🟢
+vendat (Huron)          3→4  🟢         mandan                  3→4  🟢
+cikasav (Chickasaw)     3→4  🟢
+creek-konfederasyonu    0→3             powhatan                0→3
+natchez                 0→3             cahokia                 0→3
+hidatsa                 2→3
+haudenosaunee           0→2             cherokee                0→2
+choctaw                 0→2             pueblo-bagimsizligi     0→2
 komanci                 0→0  hiçbir şey eklenmedi, dürüstçe not edildi
-TOPLAM YENİ MADDE: 18
+TOPLAM YENİ MADDE: 31  ·  4+e ULAŞAN: 7/17
 ```
 
 Bu bölge **TDV'siz, baştan sona akademik kaynak işi** — ve önceki dört
@@ -68,17 +70,16 @@ haudenosaunee    kuruluş tarihi (Büyük Barış Yasası) akademik literatürde
                  kesinlik üretmemek için YAZILMADI, bilerek.
 ```
 
-## KALAN 44 KÜNYE — sıradaki hedef listesi
+## KALAN 35 KÜNYE — sıradaki hedef listesi
 
 ```
-BOŞ (4)        natchez · cahokia · apaci-ovalar (komanci işlendi ama 0 kaldı)
-1-3 madde (40) dene · kri · ojibwe · navaho · nez-perce · hayda · vendat ·
-               beothuk · savni · miami · sauk · abenaki · mikmak · maliseet ·
-               cikasav · sosoni · ute · mandan · hidatsa · karga · pavni ·
+BOŞ (2)        apaci-ovalar (komanci işlendi ama 0 kaldı, tekrar denenebilir)
+1-3 madde (33) dene · kri · ojibwe · nez-perce · hayda · beothuk · sauk ·
+               abenaki · mikmak · maliseet · sosoni · ute · karga · pavni ·
                wicita · aleut · alutiiq · yupik · zuni · nuxalk · secwepemc ·
                kalusa · mohave · klamath · sahaptin · ponka · occaneechi ·
-               etowah · moundville · spiro · payut · yavapai · meskalero-apaci ·
-               ingiliz-kuzey-amerika
+               etowah · moundville · spiro · payut · yavapai ·
+               meskalero-apaci · ingiliz-kuzey-amerika
 ```
 
 ## DURUM
@@ -87,5 +88,5 @@ BOŞ (4)        natchez · cahokia · apaci-ovalar (komanci işlendi ama 0 kald�
 gelirse önce onu bildiririm, kesinti olursa koordinatör bu listeden devam
 edebilir.
 
-Dosya: `denetim/KRONOLOJI-KAMERIKA-0905.json` (8 künye satırı, 18 yeni
+Dosya: `denetim/KRONOLOJI-KAMERIKA-0905.json` (17 künye satırı, 31 yeni
 kronoloji maddesi, hiçbiri `data/devletler.js`e UYGULANMADI).
