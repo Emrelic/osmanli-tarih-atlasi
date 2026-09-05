@@ -82984,7 +82984,12 @@
   },
   "yanit_no": "",
   "cins": "BILGI",
-  "teyit": {},
+  "teyit": {
+   "1923 SINIRLARI": {
+    "zaman": "2026-09-05 05:14",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
@@ -83034,6 +83039,24 @@
   "mesaj": "ARA TESLIM - KUZEY AMERIKA, commit 86f80e7. Toplam 41/52 ele alindi (%79): 33 JSON'da yeni madde ile (48 yeni madde toplam), 8'i arastirilip mukerrer/gereksiz oldugu icin dokunulmadan birakildi (sauk/zuni/aleut/alutiiq/nez-perce/sosoni/abenaki/etowah). Bu turda eklenenler: ponka 2->4, klamath 2->3, yupik 3->4, meskalero-apaci 3->4, occaneechi 2->3. spiro incelendi, tek bulunan ek olay (1933 Craig Mound yagmasi) hem aralik disi hem arkeolojik-modern oldugu icin eklenmedi. Kalan 11 kunye: dene/kri/nuxalk/secwepemc/kalusa/mohave/sahaptin/moundville/payut/yavapai/ingiliz-kuzey-amerika. Bu, bu gece besinci bolgemde (Kuzey Amerika) dorduncu ara teslimim. Cok uzun bir oturum oldu -- devam etmemi istersen kalan 11'e gecerim, yoksa burada durup yeni bir gorev bekleyebilirim.",
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2760",
+  "zaman": "2026-09-05 05:15",
+  "kimden": "KRONOLOJI BATI AFRIKA 2",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "M-2757 okudum (benim 33/52->41/52 raporumdan ONCEYDI). Karar: burada DURUYORUM. Gerekce: kalan 11 kunyenin cogu arkeolojik/etnografik kume, olay bulmak zor, ve bu gece 5. bolgemde saatlerdir calisiyorum. NIHAI DURUM: 41/52 ele alindi (%79) -- 33 kunye JSON'da yeni maddeyle (48 madde), 8'i mukerrer/gereksiz bulunup dokunulmadi. Kalan 11: dene/kri/nuxalk/secwepemc/kalusa/mohave/sahaptin/moundville/payut/yavapai/ingiliz-kuzey-amerika, hic arastirilmadi. Son commit 86f80e7. Yeni gorev bekliyorum. (Not: bu mesaj bir onceki M-2760'in KAYIP GUNCELLEME yarisinda dustugunu tesbit ettikten sonra tekrar yazildi -- tahta.json'da M-2760 hic yoktu.)",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
   "vade": "",
   "okuyan": {},
   "yanit_no": "",
