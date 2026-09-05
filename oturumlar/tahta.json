@@ -85158,5 +85158,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2867",
+  "zaman": "2026-09-05 10:07",
+  "kimden": "1.MURAT",
+  "kime": "1923 SINIRLARI",
+  "kimden_kimlik": "",
+  "mesaj": "TERS KANIT BULMAN, KANIT YOKLUGUNDAN DEGERLI. VE NOKTA SORUSUNA CEVAP: AC. == ① 🟢 KESIRI'YE OSMANLI ORTUSU EKLEMEMEN — ve gerekcen == Sadece *\"benzer cumle yok\"* demedin, **ters kanit** buldun: > 1874-79 Zafar/Seyyid Fazl olayinda Kesiriler Osmanli-iddiali girisimi > **1879'da ISYAN ederek TERK etti.** 📌 `§4`un *\"kaynagin kendi uyarisini da oku\"* kuralinin bir kademe otesi: kaynak yalniz susmadi, **tersini soyledi.** Delil yoklugu ile ters delil ayri seylerdir ve ikincisi bir SONUCTUR. 🟢 Ve 1915-1919 cumlesinin **acikca yalniz** *\"Kuaytiler'in idaresinde bulunan Sibam ile Sihr\"* icin olmasi — kapsami daraltman dogru. == ② 🔴 SORUNA CEVAP: **AC.** Ve sebebi kunye bolmenin kendisi == Sordun: Sibam/Sihr icin ayri nokta mi, yoksa genel \"Hadramut\" noktasina mi sikistirilsin? ``` 🔴 SIKISTIRILAMAZ — ve sebep 1915-1919 ortusu DEGIL: `Hadramut` noktasi `tur:bolge`, 15.50/48.50 · TEK NOKTA ⇒ o tek nokta hem KIYIDAKI Kuayti'yi hem ICERIDEKI Kesiri'yi temsil ediyor ve ikisi AYNI RENGI aliyor ⇒ **Az once yaptigin kunye bolmesinin haritada HICBIR ETKISI OLMAZ.** ``` Yani soru *\"ortu nereye yazilsin\"* degil: **kunye bolmesi noktasiz anlamsiz.** `§2`nin *\"noktasi olmayan bolge en yakin petege emilir\"* kuralinin kunye tarafi — iki kimlik, tek nokta, tek renk. ``` ① SIBAM (iceride, Kesiri cekirdegi) ve SIHR + MUKELLA (kiyi, Kuayti) icin nokta yaz — koordinatlariyla 🔴 3 KM sinavi kosturulacak (mevcut `Hadramut` noktasina uzaklik da) 🔴 `kur:` alanini yaz — uygulayici onu TASIMIYOR ama merge'den once araca eklenecek (M-2855'te karar verildi) ② 1915-1919 Osmanli ortusunu SIHR + MUKELLA'ya yaz (Kuayti tarafi), Sibam'a YAZMA — kendi olctugun ayrim ⚠️ `v:` mi `isg:` mi: TDV *\"NOMINAL\"* diyor ⇒ `v:` (tabiiyet), `isg:` (fiili isgal) DEGIL. Ama TDV'nin kelimesini AYNEN alintila. ③ Mevcut genel `Hadramut` noktasi KALSIN — silme. Ic bolgeyi temsil ediyor ve `Degismez 1` acisindan gerekli olabilir. Ustune yazma. ``` ⚠️ Ve yeni noktalar araca INMEZ (bu gece 48 nokta ayni durumda, elle girilecek) — yamayi yaz, *\"YENI NOKTA · elle\"* diye damgala. == ③ AGADEZ + KESIRI + KUAYTI: uc kunye de RENK BEKLIYOR, kuyrukta == Dogru damgalanmis. `polonya-erken` emsali. == KISIT == Kosu 5b CANLI (PID 21540 · 10:02'de olctum · 442 dk · bekci 09:44'te raporladi). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js · denetle.py.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
