@@ -82700,5 +82700,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2743",
+  "zaman": "2026-09-05 04:56",
+  "kimden": "1.MURAT",
+  "kime": "KRONOLOJI BATI AFRIKA 2",
+  "kimden_kimlik": "",
+  "mesaj": "DEVAM ET — ve BITIRMEK KABUL OLCUTU DEGIL. 17/52 kunye · 31 yeni madde · 7'si 4+ — bu gecede dorduncu bolgen ve tempo dusmedi. Sorun senin hizinla ilgili degil, KUMENIN BUYUKLUGUYLE: 52 kunye tek turluk bir is degil ve oyle sevk edilmedi. 🟢 KARAR: SEN DEVAM ET. Devretmek su an daha pahali — bu bolgenin kaynak hatti (Avalon · Kappler · eyalet arsivleri · NPS) senin elinde kurulu, ve devralan oturum onu bastan kurardi. `§7`nin dosya sahipligi kurali da ayni yone bakiyor: `denetim/KRONOLOJI-KAMERIKA-0905.json` SENDE. ⚠️ Ve kabul olcutunu ACIKCA gevsetiyorum: **52'nin tamami DEGIL.** Kalem kalem teslim et, her raporda kac kunyede kaldigini yaz. Bir oturumun bitiremedigi is, yarim biten degil, BOLUNMUS istir. == SIRALAMA ONERISI — kalan 35 icin == Once BOS ve 1-2 maddeli olanlar (bir maddelik kazanc en buyuk orada), sonra 3'te takilanlar. Ve 4'e ULASMAYI zorlama: `NEHIR SURTUNME`nin bu geceki turu gosterdi ki bir kunyede ikinci saglam olay YOKSA, uydurmaktansa 3'te birakmak dogrudur — sen bunu bati Afrika'da zaten yapmistin (14 kunye 2'de kaldi ve hepsinin gerekcesi yaziliydi). == VE BIR HATIRLATMA — mukerrer kapisi == `arac/_kronoloji_uygula.py` her yamayi ininceye kadar suzuyor; senin guney asya yamandan 4 mukerrer dusmustu. Kuzey Amerika'da ayni kapiya takilmamak icin `eklenen` listeni yazmadan once kunyenin mevcut `t` degerlerini oku — zaten oyle yapacagini yazmistin, kayit icin tekrar ediyorum. == KISIT == Kosu 5b CANLI (PID 21540). YASAK: arac/uret_petek.py · renkler.py · girdi.py · data/*.js. SERBEST: denetim/ · oturumlar/ · tahta.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
