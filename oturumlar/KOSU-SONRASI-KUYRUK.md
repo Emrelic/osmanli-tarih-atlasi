@@ -696,6 +696,51 @@ değil "künye açılmalı, kalıbı belli."
 EDİLEN id ARANMAZ.*** `§4`ün Türkçe yazım ekseninin en sinsi üyesi:
 orada yazım görünür biçimde farklıydı, burada id **doğru görünüyor.**
 
+### 🟢 `napoli` KAPANDI (kusur yok) — VE `4d`NİN GERÇEK İŞ YÜKÜ ÇIKTI
+
+```
+`napoli` 24 kayıt = **BİR GÜN**: `1281-01-01`
+ve o günü 231 KİMLİK · 2362 DÖNEM kullanıyor (ilhanli 197 · bizans 167 …)
+⇒ bir tarih değil, ATLASIN KENDİ SINIRI
+```
+**HÜKÜM: kusur yok, DOKUNMA.** Üçüncü kova (`zend`le aynı cins): künye
+Krallığın **adının** doğuşunu ölçüyor (Sicilya Vespers, 30 Mart 1282),
+veri **toprağın o gün kimde olduğunu** — 1281'de Anjou'nun elindeydi.
+Ve künyenin kendi `kaynak:` alanı kalemi kapatıyor: *"1282 … TDV'de yok,
+standart akademik kaynak"* ⇒ `f:` dar değil, **kaynaklı.**
+🔴 **TOLERANSA DOKUNULMAYACAK** — `§11`: *"denetim ölçütünü gevşetme."*
+400 gün ayarlanmış bir eşik; 15 aylık bir vakayı soğurmak için büyütmek
+onu **bir vakaya göre** ayarlamak olur. `napoli` **bilinen ve kabul
+edilmiş** bir artefakt olarak kayda geçti — yeniden açılmasın.
+
+#### 🔴🔴 VE BİR MUAFİYET ÖNERİSİ ÖLÇÜLÜP ÇÜRÜTÜLDÜ
+`4d`nin **%49'u** (229/467) `1281-01-01`de başlıyor. İlk refleks *"onları
+da muaf tut"*tu. Ölçüm çürüttü:
+```
+napoli    künye 1282-03-30 → 15 AY     1281'de Anjou hâkimiyeti VARDI
+sardinya  künye 1720-08-02 → 439 YIL   1281'de "Sardinya Krallığı
+                                        (Savoya)" DİYE BİR ŞEY YOK
+⇒ VERİDE BİREBİR AYNI GÖRÜNÜYORLAR
+```
+🔴 *"`f == ATLAS_BASI` ise muaf tut"* diye **simetrik** bir kural,
+**439 yıllık anakronizmi GİZLERDİ.** Ve kod bugün muafiyeti **künye
+tarafında** yapıyor (`if kf and kf > ATLAS_BASI`), **dönem tarafında
+yapmıyor** — o asimetri **kasıtlı olmalı.**
+📌 ***Bir muafiyet, kapsadığı EN KÖTÜ vakayla ölçülür — en tipik
+vakasıyla değil.***
+
+#### 🟢 VE `4d`NİN GERÇEK İŞ YÜKÜ SANILANDAN ÇOK KÜÇÜK
+```
+467 = 229 SINIR İŞARETİ + 131 `zend` + 107 DAĞINIK (hiçbiri >20)
+      umman 18 · ispanyol-peru 13 · lehistan 12 · sur-hanedani 9 …
+```
+📌 ***Bir sayıyı küçültmek, onu kapatmak kadar değerli*** — öncelik onun
+büyüklüğüne göre veriliyordu.
+
+⚪ **SIRADAKİ:** `sardinya` 439 yıl · `toskana` 251 · `isvec` 242 —
+üçü aynı sınıf olmayabilir (İsveç 1281'de vardı ⇒ ZEND; Sardinya ve
+Toskana ⇒ ANAKRONİZM adayı). Ölçülüyor.
+
 ### 🔴 KOŞUYU ÖLÇME — İKİLİ DEĞİL **MERDİVEN** (5 Eylül 09:10'da düzeltildi)
 
 ```
