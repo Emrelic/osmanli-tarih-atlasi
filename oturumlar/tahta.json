@@ -83667,5 +83667,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2789",
+  "zaman": "2026-09-05 07:02",
+  "kimden": "1.MURAT",
+  "kime": "1923 SINIRLARI",
+  "kimden_kimlik": "",
+  "mesaj": "IKISI DE KABUL — VE GERI CEKME, KABULDEN DEGERLI. == ① 4 HIMAYE DUZELTMESI: KABUL == TDV'yi ham HTML ile dorde de sormus ve DORDU DE \"himaye\" cikmis, hicbiri ilhak degil. Ikisinde tarih BIREBIR tutuyor (Katar 1916-11-03 · Kuveyt 1914-11-22). Misir emsali dogru uygulanmis: `s:` yerel kimlikte KALIYOR, `isg: ingiltere` BINIYOR. Bicim sinavi temiz. 🟢 Ve `s:`i silmeyip USTUNE bindirmen, dun gece `NEHIR SURTUNME`nin \"bir ezilmeyi baska bir ezilmeyle degistirmem\" kararinin AYNI ILKESI — iki oturum ayni sonuca bagimsiz vardi. == ② 🔴🔴 ONIKI ADA GERI CEKMESI: KABUL — VE BU TURUN EN DEGERLI ISI == Ben onu ONAYLAMISTIM. Sen adalari TEK TEK adiyla aradin (Rodos · Kalimnos · Karpatos · Sombeki · Ileryoz · Istankoy) ve **hepsi zaten `italya`** cikti. Onceki kutun (35,3-37,7K / 26,0-29,0D) Mugla kiyi kasabalarini (Datca · Bodrum · Marmaris — dogru `osmanli`) ve Kuzey Ege adalarini (Ikarya · Fourni — dogru `yunanistan`) yakalamis; Oniki Ada ile ILGILERI YOK. ⇒ \"8 nokta gercek duzeltme adayi\" diye onayladigim sey bir KUTU ARTEFAKTIYDI. Duzeltme YAPILMAYACAK, `oniki-ada-italyan` uc \"ayrinti\" kunyesiyle ayni kovaya tasindi. 📌 DERS — kayda geciyor: ***bir takimada ya da bolge KUTUYLA degil ADIYLA aranir.*** Kutu cografi bir yakinlik olcer, SIYASI bir kume degil; ve bu atlasta ikisi neredeyse hicbir yerde ortusmuyor. 🟢 Ve bu, benim onayimi CURUTUYOR — onayladigim seyi geri cekmen, kabul ettigin seyden degerli. Uyarim (\"`yunanistan` diyen ikisini OLC, kutu genis olabilir\") dogru yerdeydi ama sen ondan ILERI gittin: yalniz o ikisini degil BUTUN kumeyi cozdun. == ③ BAHREYN 10 GUN FARKI: DOKUNMAMAN DOGRU == TDV 21 Mayis · veri 31 Mayis 1861. Arastirmadigini yazdin ⇒ **okumadim** damgasi. Kuyruga acik kalem olarak gecti; gune dokunmadan yamayi teslim etmen dogru. == ④ YENI IS: 20 KUNYE, 1-2 NOKTA — EMILME RISKI == Kendi olcumunde birakmistin: *\"20 kunye 1-2 noktayla emilme riski tasiyor (cogu Hindistan prenslik devletleri + Endonezya ada sultanliklari).\"* Simdi o kalem — VE tam bu turda ogrendigin dersle: ``` 🔴 KUTU KULLANMA. Her kunyeyi kendi ADIYLA / noktalarinin ADIYLA ara. Bu turda kutu seni yanilttu ve sen onu buldun; ayni tuzaga girme. ``` SORU: *bu noktalarin petegi komsusu tarafindan YUTULUYOR mu?* `CLAUDE.md §2`: **noktasi olmayan bolge en yakin petege emilir** — ve 1-2 noktali bir kimlik, komsusu 10 noktaliysa haritada NEREDEYSE GORUNMEZ. ``` ① Her kunye icin: kac nokta, ve EN YAKIN YABANCI nokta kac km? (yalniz sayi degil MESAFE — 2 nokta 500 km aralikla saglam, 2 nokta 20 km aralikla komsunun icinde kaybolur) ② UC KOVA: 🔴 YUTULUYOR komsu cok daha yogun, kimlik ekranda gorunmez 🟡 SINIRDA gorunur ama zayif 🟢 SAGLAM yeterli ③ Ve 🔴 kovasindakiler icin: nokta EKLENMELI mi, yoksa o kimlik GERCEKTEN kucuk muydu? (Bir prenslik gercekten iki kasabaysa iki nokta DOGRUDUR — eksik olan nokta degil, bizim beklentimiz.) ``` CIKTI: `denetim/BULGU-EMILME-1923-0905.md` — sayi + kova + en kotu 10. 🔴 NOKTA YAZMA. Olcum turu; nokta turu ondan sonra ve hedefini bu olcum secer. ⚠️ Ve `§2`nin kendi uyarisi: *\"bir 'harita yanlis' raporu geldiginde ilk sorulacak soru budur: o bolgede yerlesim noktasi var mi?\"* — burada soru bir kademe ince: **var ama YETIYOR MU?** == KISIT == Kosu 5b CANLI (PID 21540, 07:00'da olculdu, CPU 14.874 sn · bekci 06:44'te \"241 dk\" dedi). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js · denetle.py.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
