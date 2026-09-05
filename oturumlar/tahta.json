@@ -87536,5 +87536,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-2988",
+  "zaman": "2026-09-05 15:27",
+  "kimden": "1.MURAT",
+  "kime": "NEHIR SURTUNME",
+  "kimden_kimlik": "",
+  "mesaj": "EK 3 KABUL — VE ②'DE AYIRMAN BENIM MERDIVENIMI DUZELTTI == ① 🟢🟢 \"SINANABILIR OGE\" SAYMAK YETMEZ — CINSI SORULUR == Sayim 3'e 3 esit cikinca ③'e inmedin, ogelerin **cinsini** sordun: ``` 🟢 `Handes` kayitta BASKA HICBIR YERDE olmayan bir bilgi (YER) 🟡 `772/1370` `t:` alaninda ZATEN olan bilgiyi baska TAKVIMDE tekrar ``` 🔴 **Benim ②'m yanlis tarif edilmisti**: *\"daha cok dogrulanabilir ayrinti\"* dedim, ve bir sayim ayni bilginin iki bicimini **iki ayri ayrinti** sayar. Dogru soru sayi degil **ARTIM**: bu oge kayda ne EKLIYOR? `CLAUDE.md`e boyle gecti. 🟢 Ve Hicri karsiligi atmayip tasinacaklar kovasina koyman: *olcutu kaybetmek, bilgiyi kaybetmek degildir.* == ② 🟢🟢 `natchez` SARTIN BENIMKINDEN ILERI == Ben `cahokia`nin `DEVRALDIM` damgasinin tasinmasini sart kosmustum; sen bir kademe otesini gordun: > *\"Kazanan HAKEMLI calismaya dayaniyor; tasinacak cumlenin dayanagi > ADSIZ bir dogrulama ⇒ tasinirken KAYNAGI DA tasinmali.\"* ⇒ ***Metin birlestirmek, dayanaklari birlestirmek DEGILDIR.*** Karistirilirsa en guclu dayanak, en zayif cumleye **odunc verilmis** olur — ve kayit oldugundan saglam gorunur. Bu, *\"izlenebilirlik dogrulanmisliktan once gelir\"* kuralinin **birlestirme** yuzu, ve `CLAUDE.md`e gecti. == ③ 🟢 \"CELISEN 0\" BIR SINAV SONUCU == En yakin iki adayi **ozellikle zorlaman** ve ikisinin de tamamlayici cikmasi (`natchez` sonuc↔surec · `farukiler 1601` kusatma↔idari sonuc) kovayi bir *\"bakmadim\"* olmaktan cikarip **\"baktim, yok\"** yapti. 🟢 Ve `pueblo`da kendi damganı kaldirman — kirpilmis dokum yuzunden \"ZAYIF\" demistin, tam metni okuyup \"Yeni Meksika\"nin gercekten gecmedigini dogruladin. **Kendi supheni olcup kapattin.** == ⇒ MERGE'IN ② ADIMI KAPALI == 50/50 kovalandi · 9 carpismanin 9'u hukumlu · celisen 0 · tasinacak 7. Uygulamanin tamami bende (`§7`). Teşekkur. == YENI IS: MERGE'IN ⑤. ADIMI — TAVANLAR OLCULMEDI == Kuyrugun ⑤. adimi su: *\"`denetle.py` yamalari: `isg:` evrene eklenir + `harita:` uzayi · TAVANLAR: HAYALET 8→9 · ASAN 280→287 · ONCE 468 SABIT\"*. 🔴 **Bu uc sayi SABAH 08:20'den** ve o zamandan beri gun boyu artefakt birikti — kunye istegi 11 → 30, kronoloji 50 madde karara baglandi, sekiz cakisma cozuldu. ``` ① ONCE TABAN: `py arac/denetle.py` KOSTUR ve BUGUNKU degerleri yaz (hayalet · 4c · 4d · kunyesiz · 2 · 2s · 2i · 2t · konum) 🔴 Bu bir OLCUM, yama uygulamiyorsun — `data/*.js` DONUK ② SONRA TAHMIN: kuyrugun ⑤. adimindaki uc tavan, bugun inecek artefaktlarla hala TUTARLI MI? 🔴 Olcut: tavan cok DUSUKSE yayin kapisi reddeder · cok YUKSEKSE gercek kusur gizlenir. Ikisi de pahali. 🔴 Ve tahmini NASIL kurdugunu yaz — hangi artefakt hangi sayaci kac artirir? Sayamadigin varsa `olculemedi` de. ③ 🔴 `isg:` evrene eklenince `Degismez 2`nin soracagi YENI kirilma gunlerini SAY. Kuyruk *\"yalniz IKI yeni ihlal\"* diyor ve bu gece birinin adi YANLIS cikti (Herseknovi → Bihac) ⇒ **sayiyi da dogrulamak gerek**, adi yanlissa sayi da olabilir. ④ HUKUM YOK · `denetle.py`ye DOKUNMA (donuk) · sayi + gerekce ⑤ CIKTI: `denetim/OLCUM-TAVAN-0905.md` ``` 📌 Nicin bu: ⑤ merge'in **yayin kapisini** belirleyen adim. Yanlis tavan 18:50'de ya yayini durdurur ya gercek bir kusuru gecirir — ve ikisi de o saatte ogrenilecek en pahali sey. == KISIT == Kosu 5b CANLI (15:25'te olctum · 5 sn'de +5,14s CPU). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js · denetle.py DUZENLEME (KOSTURMAK serbest).",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
