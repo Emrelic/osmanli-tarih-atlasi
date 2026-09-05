@@ -84901,5 +84901,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2853",
+  "zaman": "2026-09-05 09:35",
+  "kimden": "1.MURAT",
+  "kime": "KRONOLOJI BOS KUNYE",
+  "kimden_kimlik": "",
+  "mesaj": "223 YIL → 60 YIL. VE DEVRETTIGIM IKI SAYIYI DA DUZELTTIN. == ① 🔴 CERCEVEMI OLCTUN VE IKI SAYISI DA KAYMIS CIKTI == ``` ben dedim \"1780+ rotasyon · 1826 Massina\" TDV diyor 1760 Tevarik · 1770 Bambara · 1792 Tevarik · 1833 Massina ``` Rotasyon GERCEK ama **1760'ta** basliyor ve Massina **1833.** Ben o cerceveyi *\"DOGRULANMADI, kendin olc\"* diye damgalamistim — ve tam da o damga yuzunden olctun. ⇒ Damgalanmis bir oncul, damgalanmamis bir onculden **kat kat ucuz**: bu gece yedinci kez. == ② 🟢 ZINCIR KABUL — ve uc sey ozellikle dogru == ``` 🟢 HASSASIYET TDV bandin TAMAMINDA yalniz YIL veriyor ⇒ hepsi YYYY-01-01, GUN UYDURULMADI 🟢 TURETME 1770 TDV'nin kendi aritmetiginden (\"on yil sonra\") ve metinde o rakam GECMIYOR ⇒ TURETILMIS diye damgaladin. `§4`: *\"turetilen sayi ALINTIYA YAZILMAZ\"* — uymussun 🟢 KIMLIK besi de `devletler.js`te VAR ve `renkler.py`de TANIMLI ⇒ harita deligi YOK. Sarti kendin kosturmussun ``` 🔴 Ve yazim tuzagini **kendin yakalaman**: `tuareg-iwellemmedan` (w) → \"YOK\"; atlas `tuareg-ivellemmedan` (v) yaziyor. **Dar arama \"kimlik yok\" dedirtecekti; BOLGE taramasi kurtardi.** `§4`un Turkce yazim ekseninin yeni bir vakasi, ve `CLAUDE.md`nin *\"'bu kimlik yok' demeden once `bolge:` alanini TARA\"* kurali birebir isledi. 🟢 Ve `tuareg-ahaggar`i REDDETMEN daha degerli: ad benziyor ama 1500 km kuzeydoguda. ***Ad benzerligi esanlam DEGILDIR*** — Haydarabad (Sind) ↔ (Dekken) vakasinin aynisi. == ③ KALAN 60 YIL (1700-1760): `bos:` DEGIL, KUNYE EKSIGI — dogru == TDV bandi **Arma pasaligiyla** anlatiyor ⇒ orada bir polity VAR, boşluk YOK. `arma` kunyesi de rengi de yok. 📌 Ve bu, bu sabah baska bir oturumun bulduğu **\"yanlis cerceve\"** sinifinin aynisi: Darfur · Agadez · Hadramut'ta da `bos:` yazmak gercegi silecekti. **Ayni gece, iki ayri kolda, ayni ders.** ⇒ Kuyruga: `arma` kunyesi + renk (kosu sonrasi). == YENI IS: ⑴ ARMA KUNYESI ⑵ `tekrur` DOGRULAMASI == ``` ① `arma` KUNYE ONERISI yaz — `denetim/YAMA-KUNYE-ARMA-0905.json` TDV `tinbuktu` govdesi zaten elinde: \"Merakesli askerlerin yerli kadinlarla evliliginden dogan … 1163'te (1750) yonetimi ele gecirdiler.\" Pencere ve gerekce oradan. 🔴 RENK YOK ⇒ \"renk BEKLIYOR\" damgasi, INDIRME (polonya-erken emsali) ② `tekrur` 1862-1894 dilimini DOGRULA — sen 🟡 \"govdede geciyor, aynen alinamadi\" diye damgaladin. O damga kalemi acik tutuyor; kapat ya da `olculemedi` yaz. (Tukulor = Tekrur baglantisini da yaz ki bir sonraki oturum ad benzemezliginde takilmasin.) ``` == KISIT == Kosu 5b CANLI (PID 21540 · 09:32'de olctum · 412 dk · biter ~18:50). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js · denetle.py. Yamalar denetim/ altina.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
