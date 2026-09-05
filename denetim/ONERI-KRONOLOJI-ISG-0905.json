@@ -1,0 +1,46 @@
+{
+  "_baslik": "1923 SINIRLARI — isg: evrenine giren iki kırılma için madde önerisi (M-2962)",
+  "_not": "ÖNERİDİR, YAZILMADI. Kuyruktaki 'TAM BU İKİSİ öter' ifadesi ÖNCEKİ turdan devralınmıştı, BAĞIMSIZ doğrulandı.",
+  "on_olcum": {
+    "sanity_check": "Bilinen-pozitif (Belgrad Antlaşması 1739-09-18) çekirdekte 0 gün farkla bulundu — arama yöntemi ÇALIŞIYOR.",
+    "1737-10-01_Nis": "ÇEKİRDEKTE (olaylar*.js) en yakın madde 58 gün uzakta (1737-08-04) — AÇIK, madde YOK. Devir doğru.",
+    "1878-09-18_Herseknovi": "ÇEKİRDEKTE en yakın madde 51 gün uzakta (1878-07-29) — AÇIK, madde YOK. Devir doğru."
+  },
+  "oneriler": [
+    {
+      "hedef_gun": "1737-10-01",
+      "yer": "Niş",
+      "kaynak_arama": "TDV 'nis' — CANLI ve DOĞRU konulu (Niş şehri). §4②'nin bu gece yazılan tuzağı BU DEĞİL: burada aranan zaten Niş şehri, tuzak İskender Bey'i ararken 'nis'e düşmekti.",
+      "kaynak_aynen": "\"Rebîülevvel 1150'de (Temmuz 1737) Avusturya İmparatorluğu ile yapılan savaşta Seckendorf Niş'i ele geçirdi; fakat aynı yılın ekim ayında Rumeli Beylerbeyi Köprülüzâde Hâfız Ahmed Paşa tarafından savaşsız geri alındı.\"",
+      "hassasiyet": "🟡 TDV yalnız AY veriyor ('ekim ayında'), GÜN yok — mevcut isg: t:'1737-10-01' zaten ay-ayın-1'ine-kodlanmış biçimde duruyor, bu KENDİ İÇİNDE TUTARLI (§4 hassasiyet ekseni ihlali DEĞİL, doğru kodlanmış).",
+      "onerilen_madde": {
+        "t": "1737-10-01",
+        "b": "Avusturya'nın işgal ettiği Niş'in Köprülüzâde Hâfız Ahmed Paşa tarafından savaşsız geri alınması",
+        "gun": "Ekim 1737",
+        "yer": "Niş",
+        "kisiler": "Köprülüzâde Hâfız Ahmed Paşa, Seckendorf",
+        "d": "Temmuz 1737'de Avusturya İmparatorluğu ile yapılan savaşta General Seckendorf Niş'i ele geçirmişti; aynı yılın Ekim ayında Rumeli Beylerbeyi Köprülüzâde Hâfız Ahmed Paşa şehri savaşsız geri aldı.",
+        "kaynak": "nis"
+      }
+    },
+    {
+      "hedef_gun": "1878-09-18",
+      "yer": "Herseknovi",
+      "kaynak_arama": "🔴 'herseknovi' 302 ÖLÜ. 'berlin-antlasmasi' CANLI ama Herseknovi'yi ADIYLA anmıyor, yalnız GENEL provizyonu veriyor: \"Bosna ve Hersek Avusturya tarafından işgal edilecekti.\" 'hersek' CANLI ama 1878 olayını hiç kapsamıyor. ⇒ TDV bu TANECİKTE (Herseknovi'nin özel işgal günü) SUSUYOR — coğrafî değil taneciklik boşluğu (§4).",
+      "hassasiyet": "🔴 18 Eylül 1878 GÜNÜ hiçbir TDV kaynağında doğrulanamadı — bu bir 'bulunamadı' SONUCUDUR, aramadım değil arandı. Akademik kaynak (Berlin Kongresi'nin uygulanma kronolojisi) AYRICA aranmalı; bu turda YAPILMADI (kısa tutuldu).",
+      "onerilen_madde_GECICI": {
+        "t": "1878-07-13",
+        "b": "Berlin Antlaşması: Bosna-Hersek'in Avusturya-Macaristan tarafından işgali kararlaştırıldı",
+        "gun": "13 Temmuz 1878",
+        "yer": "Berlin",
+        "d": "Berlin Antlaşması'nın ilgili maddesiyle Bosna ve Hersek'in Avusturya tarafından işgal edilmesi kararlaştırıldı; fiilî işgal aynı yıl ilerleyen aylarda gerçekleşti.",
+        "kaynak": "berlin-antlasmasi",
+        "not": "🔴 BU MADDE HEDEF GÜNÜ (1878-09-18) DEĞİL, ANTLAŞMA GÜNÜNÜ taşıyor — Değişmez 2'nin ±30 gün penceresini KAPATMAZ (1878-07-13 ile 1878-09-18 arası 67 gün). Yalnız GERÇEK bir Herseknovi-özel madde (akademik kaynakla) bu kırılmayı kapatabilir. Bu satır 'çare' değil, boşluğun BELGELENMİŞ HALİDİR."
+      }
+    }
+  ],
+  "ozet": {
+    "nis": "🟢 TDV'den GÜN(ay)-hassasiyetinde madde önerildi, kırılmayı KAPATIR",
+    "herseknovi": "🔴 TDV'de taneciklik boşluğu doğrulandı — bu turda kapatılmadı, akademik kaynak arayan AYRI bir tur gerekiyor"
+  }
+}
