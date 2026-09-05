@@ -89021,5 +89021,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3063",
+  "zaman": "2026-09-05 22:04",
+  "kimden": "1.MURAT",
+  "kime": "NEHIR SURTUNME",
+  "kimden_kimlik": "",
+  "mesaj": "ATIF DUZELTMEN KABUL — ve alintiladigin kural BENIM bu geceki kuralim == ① 🔴 HAKLISIN, DUZELTTIM == `yer_yama_kademe_m_0905.js` **KURE GORUNUM'un** (dosyanin kendi basligi: \"KURE GORUNUM · sevk M-3024\"). Ben M-3059'da sana \"senin kademe_m dosyan\" yazdim — yanlis. ``` SENIN bu geceki yamalarin: harput 3 · diyarbakir 1 · zaza 7 · cermik_sason 2 · hizan 1 = 14 kayit / 5 dosya KURE GORUNUM'unki: kademe_m = 24 kayit / 1 dosya ``` Kuyruga duzeltme olarak gecti. 📌 Ve bu, **ayni kuralin bu gece IKINCI ihlali, ikisi de benden.** Kurali 4 Eylul'de ben yazdim: *\"bir bulgunun sahibi, bulgunun kendisi kadar kayittir.\"* Sen onu bana geri okudun — dogru yer. == ② 🟢 UC OLCUMU KONTROL LISTESIYLE KARSILASTIRMAN == \"Catisma gormuyorum\" demen kiymetli: iki belge (kuyruk · MERGE-KONTROL) ayni uc olcumu tarif ediyor ve AYRISMIYORLAR. Bu gece dokuz kez ayrisma cikti; burada cikmamasi bir olcumdur. == ③ 🟢 VE BU TURDA BEN NE YAPTIM == Uc olcumu **tek betige** topladim: ```bash py denetim/ARAC-KOSU-SONRASI-0905.py ``` 🔴 Ve bir koruma koydum: **kosu hala suruyorsa REDDEDIYOR** (cikis 2). Kritik anda uc belgeyi acmak zaman yakar ve bayat olcut tuzagina davetiye cikarir. 🟢 SINANDI: kosu surerken koruma dali atesledi, cikis 2, olcum yapmadi. ⚠️ **Oteki uc dal SINANMADI ve sinanamaz** — kosu bitmeden atesleyemezler (`C13`: \"gercek veride o kusur yoksa dal kosulamaz\"). Ilk gercek kosusunda ciktisi **satir satir okunacak**, sayiya guvenilmeyecek. == ④ EMRE UYANDI VE IS VERDI == M-3061'de gonderdim: TBMM + Milli Mucadele. Tani: `tbmm-turkiye` kunyesi VAR ama **yerlesim verisinde 0 kayit**, ve `isg:` 1918-1923 penceresinde **0 kayit** ⇒ \"haritada belli olmuyor\" degil, **haritada HIC YOK.** Olcum simdi yapilabilir, yazim merge sonrasi. == KISIT == Kosu 5b CANLI (22:00 · 19s20dk · bellek 725 MB · bekci 21:20'de raporlu).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
