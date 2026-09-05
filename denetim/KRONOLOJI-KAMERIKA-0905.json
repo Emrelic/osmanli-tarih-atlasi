@@ -62,6 +62,40 @@
    ]
   },
   {
+   "id": "natchez",
+   "eklenen": [
+    {"t": "1729-11-28", "tur": "savas", "b": "Natchez savaşçıları, Fort Rosalie'ye baskın düzenleyip yaklaşık 250 Fransız yerleşimciyi öldürdü", "kaynak": "bulunamadı (TDV yok) — standart akademik kaynak, GÜN hassasiyeti çevrimiçi ikincil kaynaklarla ('Natchez revolt', 64 Parishes) doğrulandı."},
+    {"t": "1730-02-01", "tur": "savas", "b": "Fransız kuvvetleri, Choctaw ve diğer müttefik uluslarla birlikte Grand Village'daki Natchez kalelerini kuşattı", "kaynak": "bulunamadı (TDV yok) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla doğrulandı."},
+    {"t": "1731-01-01", "tur": "son", "b": "Fransız ve müttefik seferleri 1731'e kadar sürdü; Natchez halkının çoğu öldürüldü, esir alındı ya da dağıtıldı — birleşik bir siyasî ulus olarak Natchez'in sonu", "kaynak": "bulunamadı (TDV yok) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla doğrulandı. Künyenin kendi t: alanıyla BİREBİR eşleşiyor."}
+   ]
+  },
+  {
+   "id": "cahokia",
+   "eklenen": [
+    {"t": "1050-01-01", "tur": "kurulus", "b": "Cahokia, Mississippi Vadisi'nde büyük bir kentsel merkez olarak hızla gelişmeye başladı; zirvesinde 20.000-100.000 nüfusa ulaştığı tahmin ediliyor", "kaynak": "bulunamadı (TDV yok) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Cahokia') doğrulandı. Künyenin kendi f: alanıyla BİREBİR eşleşiyor."},
+    {"t": "1200-01-01", "tur": "toprak-kayip", "b": "1200'den sonra Cahokia, nedeni tam bilinmeyen bir gerilemeye girdi (aşırı nüfus, kaynak tükenmesi ve olası çatışma teorileri var)", "kaynak": "bulunamadı (TDV yok) — standart akademik kaynak; kesin GÜN/AY yok, YYYY-01-01 kalıbı belirsizlik AÇIKÇA yazılarak kullanıldı."},
+    {"t": "1350-01-01", "tur": "son", "b": "Cahokia tamamen terk edildi", "kaynak": "bulunamadı (TDV yok) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla doğrulandı. Künyenin kendi t: alanıyla BİREBİR eşleşiyor."}
+   ]
+  },
+  {
+   "id": "navaho",
+   "eklenen": [
+    {"t": "1864-01-01", "tur": "isgal", "b": "Uzun Yürüyüş: 1863-1866 arası 10.000'den fazla Navaho (Diné), Bosque Redondo'ya (Fort Sumner) zorla yürütüldü; binlerce kişi yolda ya da kampta öldü", "kaynak": "bulunamadı (TDV yok) — standart akademik/kurumsal kaynak (Smithsonian NMAI), çevrimiçi doğrulandı. Yıl aralığı 1863-1866, kesin gün YOK, YYYY-01-01 bilerek kullanıldı."}
+   ]
+  },
+  {
+   "id": "savni",
+   "eklenen": [
+    {"t": "1794-08-20", "tur": "savas", "b": "Fallen Timbers Muharebesi'nde General Anthony Wayne, Şavni'nin de içinde bulunduğu Kuzeybatı Kızılderili Konfederasyonu'nu kesin biçimde yendi", "kaynak": "bulunamadı (TDV yok) — standart akademik kaynak, GÜN hassasiyeti çevrimiçi ikincil kaynaklarla ('Battle of Fallen Timbers') doğrulandı."}
+   ]
+  },
+  {
+   "id": "miami",
+   "eklenen": [
+    {"t": "1794-08-20", "tur": "savas", "b": "Fallen Timbers Muharebesi'nde General Anthony Wayne, Miami'nin de içinde bulunduğu Kuzeybatı Kızılderili Konfederasyonu'nu kesin biçimde yendi", "kaynak": "bulunamadı (TDV yok) — standart akademik kaynak, GÜN hassasiyeti çevrimiçi ikincil kaynaklarla doğrulandı."}
+   ]
+  },
+  {
    "id": "komanci",
    "eklenen": [],
    "not_kaynak": "ÖLÇÜLEMEDİ — bulduğum tek sağlam tarihli olay (1719, Rio Grande baskını) künyenin kendi f:'sinin (1750) 31 YIL ÖNCESİNE düşüyor; künye 'Comanchería'nın SİYASİ/ASKERİ egemenlik dönemini (1750'den itibaren at kültürüyle bölgeye hakimiyet) temsil ediyor görünüyor, 1719 erken bir öncül olay. Aralık dışına taşan bir olayı zorlamadım. Bu turda vakit kalmadığı için ikinci bir arama yapamadım — KALEM AÇIK. 0/4 bırakıyorum."
