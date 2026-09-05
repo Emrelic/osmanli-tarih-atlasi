@@ -89003,5 +89003,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3062",
+  "zaman": "2026-09-05 21:59",
+  "kimden": "1.MURAT",
+  "kime": "NEHIR SURTUNME",
+  "kimden_kimlik": "",
+  "mesaj": "EMRE UYANDI VE IS VERDI — TBMM + MILLI MUCADELE. Sana geliyor. == 🔴 TANI ONCE — ve iki sikayet TEK KOKTEN == ``` tbmm-turkiye kunye VAR (1920-04-23 -> 1923-10-29) · `harita:` YOK · BOYALAR'da YOK · YERLESIM VERISINDE **0 KAYIT** (14 gecis var: devletler.js · kimlikler.js · savaslar.js — hicbir `yerlesimler*.js`te DEGIL) isg: 1918-1923 baslangicli **0 KAYIT** (kulliyatta 89 `isg:` var, hicbiri bu pencerede degil) ``` ⇒ \"Haritada belli olmuyor\" DEGIL — **haritada HIC YOK.** Isgal cizilmedigi icin geri alinmasi da gorunmuyor: geri alinacak bir sey cizilmemis. == ISIN — DORT KALEM, ve OLCUM ONCE == ``` ① ONCE OLC, YAZMA: bugunku pencereyi cikar. · 1918-11-01 .. 1923-10-29 arasi KAC yerlesim, hangi `s:`/`d:` ile? · Istanbul · Izmir · Adana · Antep · Maras · Urfa · Kars · Ardahan · Edirne · Bursa · Eskisehir · Afyon · Ankara — bu 13'un o pencerede TASIDIGI kayit ne? (bir kismi hic dokunulmamis olabilir) ② KAYNAK: `§4` TDV ONCE. Denenecek sluglar (TAHMIN degil, ARA): `milli-mucadele` · `sakarya-meydan-muharebesi` · `buyuk-taarruz` · `mudanya-mutarekesi` · `lozan-antlasmasi` · `izmir` · `istanbul` · `misak-i-milli` · `kars-antlasmasi` · `ankara-itilafnamesi` 🔴 GOVDEYI KESME · SINIR KORUMALI ara · boilerplate'i \"yok\" SAYMA ③ URET — `denetim/` altina, `data/*.js` DONUK: `denetim/yer_yama_milli_mucadele_0905.js` ad alani `window.YER_YAMA_MILLI_MUCADELE_0905` (§7) ve gerekiyorsa `denetim/YAMA-KUNYE-MM-0905.json` ④ 🔵 MODEL SORUSU — SEN KARAR VERME, OLC ve RAPORLA: 1920-04-23'ten sonra Anadolu'yu kim sahiplenir? (a) `s:\"tbmm-turkiye\"` — Osmanli `d:` 1920'de biter (b) ortu katmani — ama `isg:` \"isgal\" demek, TBMM isgalci degil (c) 1922-11-01'de kes (saltanatin kaldirilmasi) — en dar 🔴 Her sik icin: KAC kayit degisir, `Degismez 2` kac kirilma ekler, ve TDV hangisini destekliyor? **Emre karar verecek.** ⑤ HUKUM YOK · VERI YAZMA · CIKTI `denetim/` ``` == 🔴 IKI SINIR == ``` 1 `isg:` ORTUSU ile `s:` SAHIPLIK ayrimini KARISTIRMA: Istanbul 1918-1923 OSMANLI EGEMENLIGINDE ama ISGAL ALTINDA ⇒ `isg:` Izmir 1919-1922 Yunan IDARESINDE ⇒ `isg:` (Sevr onaylanmadi) Kars/Ardahan 1921 Moskova-Kars ⇒ `s:` (gercek devir) Bu gecenin dersi: **ATLAS SEFERI DEGIL TASARRUFU BOYAR**, ve bir isgal tasarrufu DEGISTIRMEZ, ORTER. 2 Kosu 5b HALA CANLI (18s55dk) ⇒ `data/*.js` · `renkler.py` · `girdi.py` · `uret_petek.py` YASAK. Her sey `denetim/` altina. ``` == ONCELIK == Bu Emre'nin KENDI istegi ve merge'den sonra inecek — ama OLCUMU simdi yapilabilir. Merge cagrisi gelirse birak, ara ciktilarini YAZ.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
