@@ -4,6 +4,68 @@
 > donmuş dosyalara dokunduğu için bekliyor.
 > 🔴 Sıra kasıtlı: veri → renk → denetim → koşu → yayın.
 
+## 🔴🔴 İKİ KALEM KAPANDI — "VERİ ZATEN DOĞRU" · VE YAZILSAYDI DOĞRU VERİ BOZULACAKTI
+
+**`bosna-isgal` ve `sarki-rumeli` için YAMA YAZILMAYACAK.** Koordinatör bu
+yamayı ONAYLADI; ölçen oturum yazmadan önce mevcut durumu ölçtü ve durdu.
+```
+🟢 BOSNA        d:1448→1908-10-05 · isg:1878-07-29→1908-10-05 avusturya  (15 nokta)
+                ⇒ Kahire deseni ZATEN uygulanmış
+🟢 ŞARKİ RUMELİ v:1878-07-13→1885-09-18 · Filibe · Eski Zağra · Tatarpazarcığı
+                ⇒ ZATEN doğru alanda (`v:` = özerklik, işgal DEĞİL)
+```
+⇒ Yazılsaydı **15 doğru `isg:` kaydı ve 3 doğru `v:` kaydı**, *"tutarsızlığı
+düzelttim"* raporuyla **bozulacaktı.**
+
+### 🔴 BULGUYU ÜRETEN ŞEY BİR ALET KÖRLÜĞÜYDÜ — ve yarısı damgalanmamıştı
+```
+① `sahip()` eşleşen İLK alanı döndürüp gerisini YUTUYORDU — `isg:`i HİÇ
+   okumuyordu ⇒ `d:OSMANLI + isg:avusturya` taşıyan 15 noktayı düz
+   "OSMANLI" diye raporladı                       🔴 DAMGALANMAMIŞTI
+② kaba kutu Dalmaçya kıyısını da alıyordu (Brač vb, `s:1797`den beri
+   Avusturyalı ve DOĞRU)                          ⚠️ damgalanmıştı
+```
+📌 Ölçen oturumun cümlesi, projede yazılı değildi:
+***"Bir aleti 'kaba' diye damgalamak, onun KÖR olduğunu söylemez."***
+Damga bir alanı kapsar, ötekini değil — ve **damgalanmamış bir kusur,
+damgalanmış olanın gölgesinde gizlenir.**
+
+### 🔴 VE KOORDİNATÖRÜN PAYI: ÖNCÜLÜ ÖLÇMEDEN ONAYLADIM
+Kendi yazdığım kural: *"bir sevk, taşıdığı öncülü de doğrulamalıdır —
+ÖLÇTÜM ya da DEVRALDIM+DOĞRULANMADI."* Ben *"devraldım"* yazmadım,
+**onayladım.** Bu gece dördüncü kez bir işçi oturum sevkimin öncülünü
+çürüttü (üçü aynı oturum, biri Oniki Ada kutusu).
+
+### 🔴 VE BİR ÖNCÜLÜM DAHA ÇÜRÜDÜ
+`bosna-isgal` ile `sarki-rumeli`yi *"aynı desen"* saymıştım. Değil:
+```
+BOSNA     yabancı devlet İŞGAL etti, hükümranlık Osmanlı  → `isg:`
+Ş.RUMELİ  kimse işgal etmedi, ÖZERK vilâyetti             → `v:`
+```
+İki ayrı kurum, iki ayrı alan — ve veri ikisini de **doğru ayırmış.**
+🟢 Ayrıca `isg:`in FİİLÎ işgal gününü (07-29) alıp Berlin Antlaşması'nı
+(07-13) almaması: koordinatörün *"tartışılsın"* dediği şey verinin zaten
+yaptığı şeydi.
+
+### ⚪ AÇIK KALEM: İLHAK GÜNÜ ÜÇ YERDE ÜÇ FARKLI
+```
+veri 1908-10-05  ·  künye bosna-isgal 1908-10-06  ·  TDV 1908-10-07
+```
+Üçünün de bir dayanağı olabilir (imza · tarihleniş · ilân). **Ölçüldü,
+karar verilmedi** — bir gün seçmek için üçünün neyi tarif ettiğini bilmek
+gerekiyor.
+
+### 🔜 SIRADAKİ: 21 KÜNYE DÜZELTİLMİŞ ALETLE YENİDEN OKUNACAK
+Öteki 21 künyenin sayıları değişmedi — **ama bu bir ŞANS**: kesit
+günlerinde `isg:` örtüsü yoktu. `kibris-ingiliz` · `misir-kavalali` ·
+`oniki-ada-italyan` üçü de `isg:` kullanan coğrafyalar; başka bir kesit
+günü seçilseydi aynı körlük orada da olurdu.
+⇒ İkinci okuma sevk edildi: **kesit günü çoklanacak** (pencere başı ·
+ortası · sonu) ve **bileşik durum** (`d:+isg:` · `v:+isg:` · `s:+isg:`)
+ayrıca raporlanacak — o sayı bugüne kadar hiç ölçülmedi.
+
+---
+
 ## 🟢 1923 HİMAYE DÜZELTMESİ İNECEK — ve BİR ONAY GERİ ÇEKİLDİ (5 Eylül 07:00)
 
 ### İNECEK: dört himaye noktası, Mısır emsaliyle
