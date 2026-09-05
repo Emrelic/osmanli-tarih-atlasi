@@ -1,0 +1,115 @@
+{
+  "_baslik": "1923 SINIRLARI — künye yaması (M-2708 hükmüne cevap)",
+  "_not": "ÖNERİDİR, devletler.js'e UYGULANMADI (koşu 5b canlı). Birleştirme koordinatörde.",
+  "_oturum": "1923 SINIRLARI · local_372203f2-6e71-46d2-af5e-563a5c7eca60",
+  "_bolge_kisiti": "Yalnız GERÇEKTEN KULLANILAN 27 bölgeden seçildi (koordinatörün M-2708'de verdiği liste). 'mezopotamya' ve 'suriye-filistin' o listede YOK — dördü de 'arabistan' aldı.",
+  "kunyeler": [
+    {
+      "id": "irak-kralligi",
+      "ad": "Irak Krallığı (Faysal I, İngiliz Mandası)",
+      "f": "1921-08-23",
+      "t": "1923-10-29",
+      "bolge": "arabistan",
+      "ozet": "23 Ağustos 1921'de Faysal'ın kral ilan edilmesiyle kurulan, İngiliz mandası altındaki krallık; manda 1932'de (site ufkunun dışında) sona erdi, krallık 1958'e dek sürdü.",
+      "kaynak": "bulunamadı — TDV 'irak--ulke' CANLI ve dönemi (I. Dünya Savaşı sonrası) ele alıyor AMA madde uzun ve ilgili bölüm (§6 'Son Dönem') bu turda tam çekilemedi (kesik gövde). Tarih akademik kaynaktan: Britannica, 'Faisal I' (biography) — 23 Ağustos 1921 taç giyme.",
+      "not": "1281-1918 arası Irak zaten OSMANLI (doğrudan) boyanıyor — bu künye yalnız 1921 sonrası ARA DÖNEMİ kapatıyor. 1918-1921 arası (İngiliz askerî yönetimi) için AYRI bir kova gerekebilir, bu YAMA'da yok."
+    },
+    {
+      "id": "suriye-lubnan-mandasi",
+      "ad": "Fransız Suriye-Lübnan Manda İdaresi",
+      "f": "1920-07-01",
+      "t": "1923-10-29",
+      "bolge": "arabistan",
+      "ozet": "Temmuz 1920'de Han Meyselûn zaferiyle Faysal'ın Şam hükûmetine son verilmesinin ardından kurulan Fransız idaresi; Milletler Cemiyeti onayı ~1922, manda 1946'ya dek (site ufkunun dışında) sürdü.",
+      "kaynak": "TDV, madde: suriye — \"Fransız işgali, iki yıl sonra Milletler Cemiyeti'nin onayıyla resmen manda yönetimine dönüştü\" · \"Suriye'de Faysal dönemi sona erdi\" (Han Meyselûn, Temmuz 1920). Gün TDV'de VERİLMİYOR, yalnız ay/yıl — f: bu yüzden ayın 1'ine değil, TDV'nin verdiği AYA sabitlendi.",
+      "not": "Akademik ikinci kaynak (en.wikipedia.org/wiki/Mandate_for_Syria_and_the_Lebanon) resmi Milletler Cemiyeti onayını 29 Eylül 1923 olarak GÜN hassasiyetinde veriyor — TDV ile ÇELİŞMİYOR, TAMAMLIYOR (TDV 'yaklaşık 2 yıl sonra' diyor, ikincil kaynak gününü veriyor). f: yine de TDV'nin fiilî başlangıcına (Temmuz 1920) sabitlendi çünkü fiilî kontrol o tarihte başladı."
+    },
+    {
+      "id": "filistin-mandasi",
+      "ad": "İngiliz Filistin Mandası",
+      "f": "1920-07-01",
+      "t": "1923-10-29",
+      "bolge": "arabistan",
+      "ozet": "Aralık 1917 askerî işgalinin ardından Temmuz 1920'de mülkî idareye dönüşen, 24 Temmuz 1922'de Milletler Cemiyeti'nce resmen onaylanan İngiliz mandası; 1948'e dek (site ufkunun dışında) sürdü.",
+      "kaynak": "TDV, madde: filistin — \"1920 Temmuzu'ndan itibaren Filistin'de mülkî bir manda idaresi kuruldu\" · \"İngiltere'nin Filistin ve Ürdün üzerindeki manda idaresini 24 Temmuz 1922'de onayladı\" (Milletler Cemiyeti).",
+      "not": "TDV gün hassasiyetinde resmi onay tarihini (24 Temmuz 1922) veriyor ama fiilî başlangıç yalnız ay/yıl (Temmuz 1920) — f: buna göre ay hassasiyetinde bırakıldı."
+    },
+    {
+      "id": "urdun-emirligi",
+      "ad": "Şarkî Ürdün Emirliği (Abdullah bin Hüseyin)",
+      "f": "1921-02-01",
+      "t": "1923-10-29",
+      "bolge": "arabistan",
+      "ozet": "Faysal'ın Şam'dan çıkarılmasının ardından kardeşi Abdullah'ın Şubat 1921'de kendini emir ilan etmesiyle kurulan, İngiliz himayesindeki emirlik; 1946'da (site ufkunun dışında) Ürdün Krallığı'na dönüştü.",
+      "kaynak": "TDV, madde: urdun — \"Şubat 1921'de kendini Şarkī Ürdün emîri ilân etti.\"",
+      "not": "TDV yalnız ay/yıl veriyor (gün yok) — f: ayın 1'ine YERLEŞTİRİLDİ, bu bir HİZALAMA değil `§4`ün 'ay biliniyor gün bilinmiyor' kuralının doğrudan uygulanışı."
+    },
+    {
+      "id": "misir-sultanligi",
+      "ad": "Mısır Sultanlığı (İngiliz Himayesi)",
+      "f": "1914-12-19",
+      "t": "1922-03-15",
+      "bolge": "misir-sudan",
+      "ozet": "18 Aralık 1914'te İngiliz himayesinin ilanı ve Kavalalı hanedanının Osmanlı'ya tâbiiyetinin resmen bitmesiyle ertesi gün Hüseyin Kâmil'in sultan ilan edilmesiyle kuruldu; 15 Mart 1923 kararnamesiyle Krallığa dönüştü.",
+      "kaynak": "bulunamadı — TDV 'mısır' maddesi modern dönemi (Osmanlı sonrası) HİÇ KAPSAMIYOR, tarihçe geç Osmanlı döneminde bitiyor (doğrulandı, bu turda çekildi). Standart akademik/ansiklopedik kaynak: 'Unilateral Declaration of Egyptian Independence' ve 'Fuad I of Egypt' maddelerinde aktarılan tarihler — İKİNCİ bağımsız kaynakla EŞLEŞMEDİ, tek kaynaklı.",
+      "not": "🔴 `misir-kavalali` künyesinin t:1914-12-18'i ile bu künyenin f:1914-12-19'u ARDIŞIK — boşluk yok, çakışma yok. `misir-kavalali`nin kendi ozet'i zaten 1914'ü doğru veriyor."
+    },
+    {
+      "id": "misir-kralligi",
+      "ad": "Mısır Krallığı (I. Fuad)",
+      "f": "1922-03-15",
+      "t": "1923-10-29",
+      "bolge": "misir-sudan",
+      "ozet": "28 Şubat 1922 tek taraflı bağımsızlık ilanının ardından, I. Fuad'ın 15 Mart 1922 kararnamesiyle 'Sultan' unvanını 'Kral'a çevirmesiyle kuruldu (Hicaz/Suriye/Irak'ın yeni krallarıyla aynı unvanı taşımak istemişti); 1953'e dek (site ufkunun çok dışında) sürdü.",
+      "kaynak": "bulunamadı — TDV kapsam dışı (bkz. yukarısı). Standart akademik/ansiklopedik — TEK kaynaklı, ikinci kaynakla eşleşmedi.",
+      "not": "t: standart 1923-10-29 sınırına ÇEKİLDİ (koordinatörün 'iran' emsali gibi çok ileri bir tarihe UZATILMADI) — Krallığın 1953'e kadar sürmesi bu YAMA'nın kapsamı dışında, ozet'te not düşüldü."
+    },
+    {
+      "id": "tannu-tuva",
+      "ad": "Tannu Tuva Halk Cumhuriyeti",
+      "f": "1921-08-14",
+      "t": "1923-10-29",
+      "bolge": "sibirya-bozkir",
+      "ozet": "Rus İç Savaşı'nda Kızıl Ordu desteğiyle 14 Ağustos 1921'de kurulan, resmen hiçbir devletçe (SSCB hariç, 1926) tanınmayan ama fiilen bağımsız uydu devlet; 1944'te (site ufkunun dışında) SSCB'ye katıldı.",
+      "kaynak": "bulunamadı — TDV kapsam dışı (Moğolistan/Sibirya bozkır tarihi TDV'nin kapsamadığı coğrafya, `§4`). Britannica, 'Tannu-Tuva' (place madde).",
+      "not": "İKİNCİ kaynakla (Wikipedia 'Tuvan People's Republic') tarih birebir eşleşti — 14 Ağustos 1921."
+    },
+    {
+      "id": "harezm-halk-cumhuriyeti",
+      "ad": "Harezm Halk Sovyet Cumhuriyeti",
+      "f": "1920-04-26",
+      "t": "1923-10-29",
+      "bolge": "orta-asya",
+      "ozet": "Hive Hanlığı'nın Şubat 1920'de yıkılmasının ardından I. Harezm Kurultayı'nca 26 Nisan 1920'de ilan edilen Sovyet halk cumhuriyeti; 1924'te (site ufkunun dışında) SSCB içinde bölündü.",
+      "kaynak": "bulunamadı — TDV kapsam dışı (Sovyet dönemi Orta Asya, `§4`). Standart akademik/ansiklopedik (Wikipedia 'Khorezm People's Soviet Republic') — TEK kaynaklı.",
+      "not": "Hive Hanlığı'nın (bu künyenin halefi olduğu devlet) devletler.js'te ayrı bir künyesi var mı AYRICA kontrol edilmedi."
+    },
+    {
+      "id": "buhara-halk-cumhuriyeti",
+      "ad": "Buhara Halk Sovyet Cumhuriyeti",
+      "f": "1920-10-08",
+      "t": "1923-10-29",
+      "bolge": "orta-asya",
+      "ozet": "2 Eylül 1920'de Kızıl Ordu'nun Buhara Emirliği'ni yıkmasının ardından 8 Ekim 1920'de ilan edilen Sovyet halk cumhuriyeti; 1924'te (site ufkunun dışında) SSCB içinde bölündü.",
+      "kaynak": "bulunamadı — mevcut `buhara` künyesinin kaynağı (TDV, madde: buhara-hanligi) yalnız EMİRLİĞİ kapsıyor, halefini DEĞİL (doğrulandı, TDV maddesi 'Kızıl Ordu tarafından yıkıldı' diyip bitiyor). Standart akademik/ansiklopedik (Wikipedia 'Bukharan People's Soviet Republic') — TEK kaynaklı.",
+      "not": "`buhara` künyesinin t:1920-09-02'siyle bu künyenin f:1920-10-08'i arasında 36 GÜNLÜK bir ara var (Emirliğin fiilî yıkılışı ile Cumhuriyet'in resmen ilanı arası) — kasıtlı bırakıldı, o 36 gün ayrı bir geçiş/fetret sorusu, ben doldurmadım."
+    },
+    {
+      "id": "rif-cumhuriyeti",
+      "ad": "Rif Cumhuriyeti (Abdülkerim el-Hattâbî)",
+      "f": "1921-09-18",
+      "t": "1923-10-29",
+      "bolge": "kuzey-afrika",
+      "ozet": "22 Temmuz 1921 Annual zaferinin ardından 18 Eylül 1921'de Kuzey Fas'ta ilan edilen, İspanya'ya (ve sonradan Fransa'ya) karşı direnen dağlık cumhuriyet; 1926'da (site ufkunun dışında) yenildi.",
+      "kaynak": "bulunamadı — TDV kapsam dışı (bu spesifik siyasi yapı için doğrudan aranmadı, ama Fas'ın modern direniş tarihinin TDV'de zayıf kaldığı `§4`'te zaten belgeli). Britannica, 'Republic of the Rif' (place madde).",
+      "not": "🔴 COĞRAFİ ÇAKIŞMA UYARISI: bu künyenin toprağı `fas` künyesiyle AYNI BÖLGEDE (Kuzey Fas) — 1921-1926 arası bu toprak fiilen Fransız/İspanyol himayesinde DEĞİL, Rif'in kontrolündeydi. Nokta eklenirken `fas`ın o dönemki noktalarıyla ÇAKIŞMAMASI için dikkat gerekir; bunu ben ölçmedim."
+    }
+  ],
+  "_ozet_sayim": {
+    "toplam_kunye": 10,
+    "TDV_kaynakli": 3,
+    "TDV_kapsam_disi_akademik": 7,
+    "iki_bagimsiz_kaynakla_eslesen": ["suriye-lubnan-mandasi", "filistin-mandasi", "tannu-tuva"],
+    "tek_kaynakli": ["irak-kralligi (TDV kesik + akademik)", "urdun-emirligi (TDV tek)", "misir-sultanligi", "misir-kralligi", "harezm-halk-cumhuriyeti", "buhara-halk-cumhuriyeti", "rif-cumhuriyeti"]
+  }
+}
