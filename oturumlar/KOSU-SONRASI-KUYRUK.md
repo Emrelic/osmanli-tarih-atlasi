@@ -2245,6 +2245,49 @@ sebebi *"düzeltme yapılmadı"* değil **"düzeltme öteki betikte"** olacak.
 ⚠️ **Ve hüküm yine de "koştur ve OKU":** *durmayacak* bir öngörüdür,
 kapının çıktısı bir ölçümdür. TESPIH'in kendi uyarısı da bu.
 
+### 🔴 10 KESİN BORÇ — GÜN SINANDI: **YARISI DAYANAKSIZ** (20:00)
+
+```
+🟢 GÜN KAYNAKLI                2   ⇒ madde YAZILABİLİR
+🟡 gün YUVARLAK, olay kaynaklı 3
+🔴 gün DAYANAKSIZ              5   ⇒ çare madde DEĞİL
+```
+⇒ Beşine madde yazmak **dayanaksız bir günü meşrulaştırırdı** — ve bir
+sonraki oturum onu *"maddeli, demek doğru"* diye okurdu. Sıra doğruydu.
+
+**🟢 YAZILABİLİR (1):**
+```
+1903-07-27 sokoto  ✅ TDV `sokoto` gövdesi BİREBİR:
+  «…Tâhir'in İngilizler'le yaptığı yeni bir savaşta öldürülmesiyle
+   yaklaşık bir asır süren Sokoto halifeliğinin siyasî hâkimiyeti
+   sona erdi (27 Temmuz 1903).»
+  🟡 Gövde ikinci bir gün de veriyor: `15 Mart 1903` (şehrin İŞGALİ).
+     Atlas 27 Temmuz'u kullanıyor — EGEMENLİĞİN sonu, doğru seçim.
+     Kaydedildi ki sonraki oturum bunu "çelişki" sanmasın.
+```
+**🟡 ŞARTLI, YAZILMASIN (1):**
+```
+1902-05-07 tuareg-ahaggar  DEVRALINDI, DOĞRULANMADI. Künyenin kendi
+  beyanı "Tit muharebesi KESİN GÜNDÜR" diyor ama aynı alan varlık için
+  "çevrimiçi doğrulanmadı" diyor. ⇒ Bağımsız doğrulanmadan YAZILMAZ.
+```
+**🔴 GÜN DAYANAKSIZ (5) — madde YAZILMAZ:**
+```
+1899-04-09  🔴🔴 BEYAN EDİLEN KAYNAK İDDİAYI TAŞIMIYOR (aşağıya bak)
+1880-10-03  SAHTE KESİNLİK — künye yalnız YIL ("Makoko-Brazza 1880"),
+            veri GÜN taşıyor ⇒ çare maddede değil VERİDE
+1349-01-01  gün `teodoro` künyesinden DEVRALINMIŞ, o künye "bulunamadı"
+1841-10-01  altı kayıtta da kaynak/not/neden YOK · ⚠️ Lahsa · Katîf —
+            TDV kapsamı GÜÇLÜ olabilecek bir bölge, ve HİÇ ARANMAMIŞ
+1880-06-01  tek kayıt "bulunamadı"; ay `06` dayanaksız
+```
+
+🔴 **VE BİR GÜN, BİRDEN ÇOK BORCU BİRLEŞTİRİYOR:**
+`1668-01-01` → **üç ayrı geçiş, üç kıta** (Waskaganish/HBC · Sault Ste.
+Marie · Kamışlov/Ural), üçü de ayrı kaynaklı. `1349` · `1646` · `1895`
+ikişer. ⇒ Bir madde `2s`yi kapatır, **borcu kapatmaz** — ve denetim
+"temiz" dedikten sonra kimse aramaz.
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri

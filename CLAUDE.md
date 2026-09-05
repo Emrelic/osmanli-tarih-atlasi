@@ -6203,3 +6203,69 @@ kos_ve_yayinla.py mtime 02:40:09 · koşu başlangıcı 02:40:26 (17 sn sonra)
   `uret_altlik` adımıydı — iki ayrı değişiklik, aynı gece, aynı dosya
   ailesinde. `§11`: *doğru hüküm, yanlış teşhisle gelebilir* — ve
   gerekçe yazılmazsa bir sonraki oturum yanlış olanı düzeltmeye kalkar.
+
+- 🔴🔴 **BEYAN EDİLEN KAYNAK, İDDİAYI TAŞIMIYOR OLABİLİR — ve hiçbir
+  denetim bunu sormuyor.** *(5 Eylül 2026 · `NEHİR SÜRTÜNME` · `1899-04-09`)*
+
+  `§4`ün kırmızı çizgisi *"kaynağı yazılmayan bilgi, kaynağı olmayan
+  bilgiden ayırt edilemez"* der ve projede `kaynak:` alanı **dolu**
+  olduğunda iş bitmiş sayılır. Bu gece o varsayım ölçüldü:
+```
+künye  «kaynak: uganda … Kabalega 1899'da esir alındı»
+TDV `uganda` TAM METİN (34.134 kar.):
+   "1899"     → 0 kez
+   "Kabalega" → 0 kez        (doğru yazım "Kabarega", 3 kez)
+   ve üçünün hiçbirinde esir alınma TARİHİ yok
+```
+  ⇒ Gün **doğru olabilir**, ama **gösterilen kaynak onu söylemiyor.**
+
+  📌 Bu, `§4⑧`in (*"rakam gövdede geçiyor ≠ gövde o değeri destekliyor"*)
+  **bir kademe kötüsü**: orada rakam gövdedeydi ve başka bir şeyi
+  tarihliyordu; burada rakam **gövdede hiç yok.** Ve sinsiliği ters
+  yönde: ⑧ bir doğrulamayı *yanlış başarılı* kılar, bu ise doğrulamanın
+  **hiç yapılmadığını gizler** — alan dolu olduğu için kimse bakmaz.
+
+  🟢 **VE BU, ⑧'DEN FARKLI OLARAK OTOMATİK SINANABİLİR** — çünkü ölçüt
+  *yorum* değil **yokluk**:
+```
+🔴 TEMİZ SİNYAL   künyenin tarihi, beyan edilen gövdede HİÇ GEÇMİYOR
+                  ⇒ kaynak o iddiayı KESİNLİKLE taşımıyor
+⚪ SESSİZ         geçiyor ⇒ HİÇBİR ŞEY KANITLAMAZ (⑧ tuzağı)
+```
+  ⇒ Bir denetim yalnız 🔴 kovayı sayabilir ve **yanlış alarm üretmez**;
+  ⚪ kova ayrıca `doğrulanmadı` diye tutulur, asla *"temiz"* diye değil.
+
+  ⚠️ Ve ad yazımı ayrı bir eksen: `Kabalega` ↔ `Kabarega` bir harf, ve
+  `§4`ün eşanlam borcunun aynısı — arama onu bulamaz, ve *"kaynakta yok"*
+  hükmü **yanlış sebeple** doğru çıkar.
+
+- 🔴 **YUVARLAK BİR TARİH YALNIZ HASSASİYETİ DEĞİL, BORÇLARI DA
+  BİRLEŞTİRİR — bir madde sayacı kapatır, borcu kapatmaz.**
+  *(aynı ölçüm)*
+```
+1668-01-01   ÜÇ AYRI GEÇİŞ, ÜÇ KITA:
+             Waskaganish (HBC) · Sault Ste. Marie · Kamışlov (Ural)
+             üçü de AYRI kaynaklı, üçü de YIL hassasiyetinde
+1349 · 1646 · 1895   ikişer ayrı geçiş
+```
+  ⇒ O güne **bir** madde yazmak `Değişmez 2s`yi kapatır ve geriye **iki
+  anlatılmamış geçiş** bırakır — ve denetim artık *"temiz"* dediği için
+  kimse aramaz.
+  📌 Aynı gün ölçülen *"artefakt imzası"* (isabet oranı aday kümesiyle
+  birlikte artıyorsa anahtar uzayı ölçülüyordur) bunun **ölçüm** tarafıydı;
+  bu **veri** tarafı, ve kök aynı: `YYYY-01-01` farklı olayları tek
+  anahtara yığıyor.
+
+- 🔴 **BİR GÖVDEYİ İLK `BİBLİYOGRAFYA`DA KESMEK, ÇOK BÖLÜMLÜ TDV
+  MADDESİNİN %79'UNU ATABİLİR.** *(aynı ölçüm · çıkarıcıyı yazan çürüttü)*
+```
+`uganda`  `Müellif:` 8 kez ⇒ SEKİZ bölümlü madde
+kesme     7.313 / 34.134 karakter  ⇒ metnin %79'u ATILDI
+sonuç     "Bunyoro 0 kez" ölçüldü — GERÇEK 13
+```
+  🟢 Yakalayan şey bir eşik değil, **bilinen bir olguyla çelişmesi**: o
+  maddenin Bunyoro'yu andığı zaten biliniyordu.
+  📌 `§4⑦`nin (*"metin çıkarılamadı ≠ belgede metin yok"*) kardeşi:
+  orada çıkarıcı **okuyamamıştı**, burada **okudu ve kesti** — ve kesilmiş
+  gövde tam gövde sanıldı. ⇒ Bir gövdeden *"yok"* hükmü çıkarmadan önce
+  **kaç karakter okunduğu** yazılır.
