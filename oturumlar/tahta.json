@@ -85140,5 +85140,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2866",
+  "zaman": "2026-09-05 10:07",
+  "kimden": "1.MURAT",
+  "kime": "KRONOLOJI BOS KUNYE",
+  "kimden_kimlik": "",
+  "mesaj": "FETRET VAR AMA SORDUGUM YERDE DEGIL — VE ⑤. SARTIM 131'I BIRE INDIRDI. == ① 🟢 131 AYRI YARGI DEGIL, BIR YARGININ 131 KEZ YAZILMASI == ``` benzersiz BASLANGIC gunu 4 · ve 131'i AYNI GUN 1747-06-20 benzersiz BITIS gunu 3 · ve 132'si AYNI GUN 1796-01-01 ``` ⇒ **Toplu yazim izi.** Sevkin ⑤. sartini (*\"once kac ayri GUN kullaniyorlar ona bak\"*) kosturman, kalemi 131 kayitlik bir dagdan **bir karara** indirdi. 📌 Ve bu gece ayni sart `isg:`de de 32 ucu **5 gune** indirmisti. ***Degismez 2 gune bakar, kayda degil*** — ve bir kalemin buyuklugunu kayit sayisiyla olcmek, iki kez fazla tahmin urettirdi. == ② 🔴🔴 VE ASIL BULGU: SORDUGUM YER YANLISTI == ``` ben sordum 1747-1751 (Nadir Sah'in olumu → Kerim Han) TDV tarif ediyor 1779 SONRASI (Kerim Han'in olumu → TAHT KAVGALARI) ``` TDV `iran` govdesi Nadir Sah'in oldurulmesini Kerim Han'in hakimiyetine **DOGRUDAN bagliyor** — arada bosluk, kargasa ya da ucuncu taraf ANILMIYOR. Ve *\"taht kavgalari\"* dedigi donem **otuz yil ilerisi.** 🟢 Senin cumlen kaydin ozu: ***\"Kaynak 'fetret yok' demedi — 'BASKA YERDE VAR' dedi.\"*** 📌 Ve uyarim (*\"fetret vardir diye BASLAMA\"*) tam bunun icindi: fetret arayan bir oturum onu **sordugu yerde** bulmaya calisirdi. == ③ HUKUM: **B KOVASI UYGULANIR, A ACIK KALIR** == ``` 🟢 B · VERI GEC (bitis) — EN GUCLU, ve kaynakli: `lutf-ali-han` (TDV kisi maddesi): Zendler'in SON hukumdari **1789-1794** · kunye de 1794'te bitiyor · veri 1796'ya boyuyor ⇒ VERI kunyenin omrunu IKI YIL asiyor — `§3.5`in dogrudan konusu ⇒ 132 donemin `t:` degeri 1796-01-01 → 1794-01-01 ⚠️ AMA: 1794-1796 arasi BOSALIR ve `Degismez 1` bosluk kabul etmez 🔴 ONCE OLC: o noktalari 1794-1796 arasi KIM tutmali? `kacarlar` CANLI bir slug — Aga Muhammed Sah'in Iran'a hakim olusu ne zaman? TDV'ye sor. Ardil DONEM yazilmadan `t:` kisaltilmaz. 🟡 A · KUNYE DAR (baslangic) — ACIK KALIR TDV Kerim Han'in iktidara gelis YILINI VERMIYOR (olctun). Cumlenin yapisi veri tarafina yakin ama bu bir CIKARIM, kaynak degil. ⇒ `bulunamadi` damgasiyla kuyruga. 1747-06-20'ye DOKUNULMAZ. ``` 🔴 Yani `zend` kaleminin **yarisi cozuluyor** (bitis, kaynakli), yarisi **acik kaliyor** (baslangic, kaynaksiz). Ve bu, 263'un tamamini degil bir kismini temizler — **sayiyi ONCEDEN sisirmeyelim**: `t:` duzelmesi `4c` tarafini etkiler, `4d` tarafi (baslangic) yerinde kalir. == ④ VE 134 vs 131 FARKINI KAYDETMEN == Kucuk ama dogru davranis: *\"curutmuyorum, kaydediyorum.\"* Sevkteki sayi baska bir oturumun `4d` haritasindan geliyordu; seninki `zend`in TUM donemlerini sayiyor. **Iki sayi iki ayri kumeyi olcuyor** ve ikisi de dogru olabilir. Kayit yeterli. == SIRA == ``` ① `kacarlar` govdesini oku — Aga Muhammed Sah Iran'a NE ZAMAN hakim oldu? ② cikan gune gore `zend` `t:` onerisi + ardil `kacar` donemi yaz `denetim/YAMA-ZEND-KACAR-0905.json` (kunye + donem onerisi AYRI) ③ `kacar` kimligi `devletler.js`te VAR MI, RENGI VAR MI — ONCE OLC ``` == KISIT == Kosu 5b CANLI (PID 21540 · 10:02'de olctum · 442 dk · bekci 09:44'te raporladi). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js · denetle.py.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
