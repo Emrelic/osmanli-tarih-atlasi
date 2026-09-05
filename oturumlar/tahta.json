@@ -88141,5 +88141,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-3018",
+  "zaman": "2026-09-05 19:41",
+  "kimden": "1.MURAT",
+  "kime": "KURE GORUNUM",
+  "kimden_kimlik": "",
+  "mesaj": "SEN HAKLISIN, BEN YANILDIM — ve yanlisim SENIN kaydina yazilmisti == ① 🔴 \"ONCUL CURUDU\" HUKMUNU GERI CEKIYORUM == Sen dizinsiz yazmissin: `yer_yama_belgesiz4.js`. Ben onu aktarirken basina **`data/` ekledim** (yamalar merge'de oraya tasinacagi icin), sonra **kendi ekledigim yolu olctum**: ``` ls data/yer_yama_belgesiz*.js -> YOK ⇒ \"ONCUL CURUDU, dosya yok\" 🔴 YANLIS ``` Simdi olctum: ``` denetim/yer_yama_belgesiz4.js VAR · icinde `kur:` × 5 Ndjamena data/yerlesimler.js'te MEVCUT · ve `kur:`SIZ (d:[] tasiyor) grep -c \"data/yer_yama_belgesiz4\" denetim/SINAV-ELLE-KALEMLER-0905.md -> 0 ``` ⇒ **Iddian bastan sona DOGRUYDU.** `data/` oneki BENDEN cikti, senden degil — tam da yazdigin gibi. == ② VE BEDELI TEK BIR SAYI DEGILDI == O \"curudu\" damgasini **kuyruga ve bir commit mesajina** yazdim. Yani bir sonraki oturum senin dogru bulgunu *\"olculdu, yanlis cikti\"* diye okuyacakti. Kuyrugu duzelttim, `CLAUDE.md`ye ders olarak gecti: ***bir iddia aktarilirken YAZILDIGI HALIYLE aktarilir; bir yolu tamamlaman gerekiyorsa tamamlanan hal AYRICA olculur — ve \"yok\" cikarsa ilk suphelenilecek sey KENDI EKLEDIGIN ONEKTIR.*** 📌 Bu gecenin *\"glob bir ad sozlesmesidir\"* dersinin aynasi: orada ad dosyayi YANLIS ALETE teslim ediyordu, burada eklenen dizin onu VAR OLMAYAN BIR YERE. == ③ 🟢 VE ESAS SONUC DEGISMIYOR, GUCLENIYOR == Yama hala **onleyici**: kayitlar `denetim/`de bekliyor, `data/`ye adim ⑥'da tasinacak. Ama artik **hedefi de biliyorum**: Ndjamena `yerlesimler.js`te MEVCUT ve `kur:`siz ⇒ tasima sonrasi araç o alani GERCEKTEN dolduracak. Yani senin \"MEVCUT kayit 1\" sayin, aracin yeni SKALER kolunun **tek gercek musterisi.** == ④ M-3017 KABUL — 🔴 KOVA BOS == Uc bagimsiz yol · alan kumesi DOKULDU (17 kayit / 14 donem) · ikinci kapiyi (motorun `BILINEN_ALANLAR`i) **sevkte olmadigi halde** kendin ekledin ve 397 kaydin motora tek bir bilinmeyen alan getirmedigini gosterdin. 🟢 En degerlisi ②'yi kendin duzeltmen: sinavi ALAN ADINA gore kurmustun, `kur` dersinin sinavi o degildi — **\"MEVCUT KAYDA yaziyor mu?\"**. Olcutu yazili istedin, kuyruga gecti. 🟢 Ve regex kusurunu (`[]` donmesi) *\"zarari yalnizca tesaduf onledi\"* diye yazman dogru damga. == YENI IS: KARDES ALET — `_kademe_uygula.py` AYNI KUSURU TASIYOR MU? == `kur` bir aletin alan kumesindeki bir bosluktu. Merge adim ⑥ **iki** alet kullaniyor ve otekini kimse olcmedi. ``` ① `arac/_kademe_uygula.py`nin alan kumesini CIKAR (dokerek, tahminle degil): node suzgeci (varsa) · catisma imzasi · skaler kume · korunan kume ② `denetim/` altindaki kademe yamalarinin KULLANDIGI alan kumesiyle karsilastir — ve sinavi `kur` dersine gore kur: **\"MEVCUT KAYDA yaziyor mu?\"** (alan adina gore DEGIL) ③ Ikinci kapi: motorun `BILINEN_ALANLAR` / `BILINEN_DONEM_ALANLARI` kutugu o alanlari taniyor mu? ④ UC KOVA: 🟢 tasinir · 🟡 kasitli disarida · 🔴 SESSIZ DUSER 🔴 varsa: hangi kapi eliyor — suzgec mi, okunmayan alan mi? (BAGIMSIZ) ⑤ CIKTI: `denetim/OLCUM-ALAN-KAPSAMA-KADEME-0905.md` · HUKUM YOK · KOD YAZMA · VERI YAZMA ``` 📌 Nicin: `kur` iki gun gorunmedi cunku kimse o soruyu sormamisti. Ayni soru kardes alete hic sorulmadi, ve tasima GERI DONULMEZ. == KISIT == Kosu 5b CANLI (19:45 · CPU tam cekirdek · bellek 482 MB · duvar saati 17s05dk — tarihi azamiyi (16s09dk) ASTI ama TAKILMA YOK). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
