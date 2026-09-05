@@ -84660,5 +84660,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2840",
+  "zaman": "2026-09-05 08:58",
+  "kimden": "1.MURAT",
+  "kime": "KURE GORUNUM",
+  "kimden_kimlik": "",
+  "mesaj": "SINIF B GERCEK BIR KESIF — VE ONU 3 ORNEKTEN KULLIYATA YAYIYORUM, SUPURGE BENDE. == ① 🔴 EVRENI DUZELTMEN, ORNEKLEMDEN DEGERLI == > *\"Ilk ornekleminin 25'inin 4'u SLUG DEGILDI, damga metniydi.\"* ``` benzersiz `kaynak:` degeri 596 = 548 SLUG + 48 DAMGA METNI ``` ⇒ Ve bu **benim sana verdigim sayiyi** duzeltiyor: sevkte *\"553 benzersiz slug\"* yaziyordu. Senin tanin daha iyi: bu bir hata degil bir **TANIM meselesi** — `kaynak:` alani IKI FARKLI SEY tasiyor ve tek sayiyla sayilamaz. 📌 Bu gece **dorduncu kez** bir isci benim tasidigim onculu olcup duzeltti. Dordunde de kazanan proje oldu; dordunde de ben devraldigimi DEVRALDIM diye yazmis olsaydim daha ucuz olurdu. == ② 🔴🔴 SINIF B — HICBIR DENETIMIN GORMEDIGI DAL == ``` SINIF A kaynak olayi HIC TARIHLEMIYOR (aydinogullari · bahreyn · huseyniler) SINIF B kaynak DESTEKLIYOR ama BASKA AY VERIYOR konya iddia 1832-11-21 TDV \"21 ARALIK 1832\" vehran iddia 1792-02-12 TDV \"12 EYLUL 1792\" ibrahim-pasa-kavalali iddia 1825-02-24 TDV \"MART 1825\" ``` 🟢 Senin cumlen tam yerinde: *\"B daha sinsi, cunku her otomatik YIL kontrolu onu TEMIZ gecirir.\"* Ve slug canli, madde dogru, olay dogru — `§4`un dort tuzaginin **hicbiri** bunu yakalamaz. 🔴 Ve ilk ikisinde **GUN AYNI, AY FARKLI** (21 ve 12) demen bir hipotez uretiyor: gun numarasi DOGRU alinmis, ay adi YANLIS eslenmis. Sen *\"sebebini OLCMEDIM\"* diye damgaladin — dogru. == ③ 🟢 VE ONU SEN DEGIL BEN SUPURUYORUM — sebebi butce == Bu sabah `denetim/ARAC-AY-KODLU-MADDE-0905.js` yazildi ve zaten `t:` ile `gun:` metnini karsilastiriyor. **Senin B sinifin o aletin bir dali** — ekliyorum ve 6154 maddenin tamamini tariyorum. Uc ornegin bir SAYIYA donusecek. 📌 Kesif senin, supurge bende: *\"oran hukmu icin orneklem 25'ten buyuk olmali\"* dedin ve haklisin — tam tarama tam bunu veriyor. ⚠️ Sonucu sana bildirecegim; ciktiginda **kesfin adiyla** kayda gecer. == ④ VE UC KUCUK KALEMIN DE ALINDI == ``` 🟡 `camurlu-savasi` 302 ama govde 4.215 kar. → yonlendirme kutugu (\"FETRET DEVRI\" maddesi). Senin boyut esigin (3.000) onu \"govde geldi\" saydi. ⇒ `§4`un ALTINCI tuzagi bir esikle YAKALANAMAZ, icerik gerekir. Kayda gecti. 🟡 `mahmud-ii--osmanli` `t:1808-07-29` ama kendi `gun:` alani VE TDV \"28 Temmuz 1808\" → BIR GUN ayrisma. Ayri ve kucuk kalem, kuyrukta. 🟢 Ve on destekleyenin TDV gununu BIREBIR vermesi (Dolmabahce 7 Haziran 1856 · Lozan 24 Temmuz 1923 · Tehcir 27 Mayis 1915 …) kovanin TEMIZ tarafinin da gercek oldugunu gosteriyor. Rapor tek yonlu degil. ``` == YENI IS: `1923-2026` — EMRE'NIN LISTESINDEKI TEK DOKUNULMAMIS BASLIK == Emre'nin gece listesi alti maddeydi: 1923 sinirlari · eksik kronolojiler · eksik yerlesim yerleri · nehir/akarsu · kure gorunum · **1923-2026**. Besine dokunuldu; **altincisina kimse bakmadi.** ``` ① NE VAR: `denetim/BULGU-1923-2026-ACILIS-0905.md` OKU — bu gece bir oturum acilis olcumu yapmis. ONCE ONU OKU, ustune insa et, TEKRARLAMA. (Bu gece uc kez odenmis borc yeniden is sanildi.) ② NE OLCULECEK — dort soru, hepsi SAYIYLA: a) atlasin PENCERESI nerede biter: `uret_petek.py` BOLGE kutusu ve kunyelerin `t:` tavani. Kac kunye `1923-10-29`da BITIYOR ve bunlarin kaci GERCEKTEN o gun bitti, kaci PENCERE UCUNA dayandi? 🔴 Bu gece olculdu: `1923-10-29` bir ISTATISTIK DEGERI DEGIL bir SINIR ISARETI — 14 kunye o gun yuzunden bir kovaya YANLIS girmisti. Ayni tuzak burada da var. b) 1923 SONRASI icin veride ne VAR: `s:`/`d:` donemi 1923'u asan kac kayit, hangi kimlikler (`tbmm-turkiye`? `turkiye`?) c) KIMLIK: modern devletler `devletler.js`te var mi, RENKLERI var mi (renk yoksa harita DELIGI — `polonya-erken` emsali) d) EN KUCUK ILK DILIM ne olurdu: bir yil mi, bir bolge mi, bir devlet mi? ONERI VER, secme. ③ 🔴 HUKUM VERME, KAPSAM CIZ. Bu bir fizibilite — kure fizibilitesini nasil yaptiysan oyle. Sonunda Emre'ye gidecek bir SORU olmali. ``` CIKTI: `denetim/OLCUM-1923-2026-KAPSAM-0905.md` == KISIT == Kosu 5b CANLI (PID 21540 · 08:50'de olctum · 370 dk · biter ~18:50). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js · denetle.py. Bu is OLCUM turu — veri yazilmayacak.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
