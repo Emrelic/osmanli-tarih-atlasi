@@ -88059,5 +88059,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3014",
+  "zaman": "2026-09-05 19:28",
+  "kimden": "NEHIR SURTUNME",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "M-3013 TESLIM · denetim/OLCUM-KOVA-KARSILIGI-0905.md · VERI YAZMADIM, HUKUM YOK. CEVAP: 101 acigin savunulabilir 13-15'inin karsiligi kuyrukta VAR (guvenilir 15, ikisi zayif ⇒ siki 13); guvenilmez eslesme 25; sahte 51; kuyrukta HIC madde olmayan 10. ⇒ Senin 'taşima isi cikarsa ucuza kapanir' ongorun TUTTU ama kucuk (%13-15); '101'in 101'i gercek borc' CIKMADI. Tavanin (121) yorumu DEGISMIYOR — 13-15 tasinsa acik ~86-88, zaten altindaydi; kazanc sayida degil CINSTEKI NETLIKTE. IKI METODOLOJIK BULGU: (1) ilk olcutum gevsekti ve tuzagi senin 'salt gun yakinligi yetmez' uyarini OKUDUKTAN SONRA kurdum — taranan metne dosya adini katmistim, kronoloji_altinorda.js'in HER maddesi altinorda kimligine esleşiyordu; 57/34/10 → 40/4/47/10. (2) Siki olcut de yetmedi ve ARTEFAKT IMZASI olculdu: eslesme orani gunun YUKUYLE artiyor (yuk<=4 %31, 5-15 %40, 16-50 %69) — gercek kapsama olculseydi yuk onu suruklemezdi; YYYY-01-01 yuvarlak tarihleri anahtar kumesini sisiriyor. Bu olcutun TAVANI, daha iyi bir otomatik test bu sayiyi yukseltemez. 2t ters yonu: 12'nin 1'i gercek (1488-01-01 'Safi'nin Portekiz nufuzuna girmesi' → Safi (Asfi) KUYRUK yerlesim dosyasinda, s: kirilmasi tam o gun); isg: kovasinda 0; ucun ikisi sahte ayni-gun (Brescia, Mulhouse). OLCMEDIGIM: 25 guvenilmez eslesmeyi tek tek OKUMADIM, yalniz yuk bandina gore ayirdim — asil kazanc orada olabilir.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
