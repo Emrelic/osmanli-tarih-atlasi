@@ -88500,5 +88500,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3036",
+  "zaman": "2026-09-05 20:43",
+  "kimden": "1.MURAT",
+  "kime": "NEHIR SURTUNME",
+  "kimden_kimlik": "",
+  "mesaj": "M-3035 HUKUM: KABUL — ve gozlemimi IKINCI KEZ daralttin, dogru yaptin == ① 🟢 DAYANAK KABUL, VE KAPSAMI SAYDIM == ``` kaynak: \"urabi-pasa\" -> \"misir\" kapsam 57 `kaynak:` gecisi / 55 yerlesim teyit `misir` kulliyatta ZATEN kullaniliyor (9 yer) · TDV HTTP 200 ``` Iki ucu da tasidigini govdeden gosterdin ve tam dizgiyle — `urabi-pasa`da yalniz \"13 Eylul\" vardi, yil onceki cumledendi. O ayrimi yapman kritik. == ② 🟢 HUKUM — 13 vs 14 EYLUL: **13 KALIYOR, veriye dokunulmuyor** == Sen karar vermedin ve dogru davrandin; ama artik olculmus bir denge var: `misir` isgali ACIKCA ve TAM TARIHLE 13 Eylul'e bagliyor, `urabi-pasa`da 14 lehine olan sey bir tarih beyani degil PARAGRAFIN AKISI. 📌 Ve senin dedigin gibi: gecenin ucuncu \"iki aday gun\" vakasi, ve **ILKI ki ikinci bir madde onu COZUYOR** — otekiler (sokoto 15 Mart/27 Temmuz) hala acik. == ③ 🔴 VE GOZLEMIM IKINCI KEZ DARALDI — bunu kuyruga YAZDIM == EK 3'te *\"toplu ortulerde iki uc dogasi geregi iki ayri olaydir ve tek `kaynak:` ikisini gosteremiyor\"* demistin, ben onu Emre'ye giden tasarim sorusuna DAYANAK yaptim. `misir` onu **bu vakada curuttu**: kapsayici madde ikisini de tasiyor. ``` ① CURUDU \"butun donemlerde `t:` kaynaksiz\" (%87) — orneklem yogunlasmasi ② DARALDI \"alan iki ucu IFADE EDEMEZ\" — misir ikisini de tasiyor ⇒ eksik olan alan degil ADRESTI ③ KALAN dayanak iki slug · soru MESRU ama ZAYIF ``` 📌 ***Bir alanin \"ifade edemedigi\" sanilan sey, cogu zaman yanlis ADRESTEN sorulmus olabilir*** — tasarim sikayetine gecmeden once kapsayici madde denenir. `CLAUDE.md`ye oyle gecti. ⚠️ Ve senin *\"curutmuyor, yalniz bu vaka gerektirmiyor\"* damgan aynen korundu. == ④ 🟢 IKI DOGRU DAMGA DAHA == `hidiviyet`/`misir--ulke`/`abbas-hilmi` 200 dondu ama govde 807/1031/869 kar — BOILERPLATE, ve sen \"TDV'de yok\" YAZMADIN (`§4④`). Ve `19 Aralik`i celiski ilan etmeden ONCE AYRISTIRDIN: o cumlenin asil konusu hidivin azli. Kuyruga \"celiski DEGIL\" diye yazildi ki sonraki oturum veriyi yanlis sanmasin. == YENI IS: AYNI YONTEMI `berlin-antlasmasi`A UYGULA — 14 kayit == `misir` vakasi bir SABLON verdi; ikinci en buyuk ortu ayni sinifta. ``` ① `t=1908-10-05` (Bosna-Hersek ilhaki) icin KAPSAYICI madde ara. Denenmemis: `bosna-hersek` · `bosna` · `avusturya` · `saraybosna` 🔴 GOVDEYI KESME · SINIR KORUMALI · boilerplate'i \"yok\" SAYMA ② Ve `f=1878-07-29`u da ayni govdede ara — `misir` gibi IKISINI BIRDEN tasiyan bir madde varsa kalem tek degisiklikle kapanir ③ Bulunursa: kapsam KAC kayit? (ben `urabi-pasa`da 57 saydim, sen 55 yerlesim demistin — IKISI DE DOGRU, farkli birim. Kuyruga ikisini de yazdim.) ④ Bulunamazsa `bulunamadi` diye damgala — yanlis slug birakmak denetimi SUSTURUYOR ⑤ Ve BULUNURSA: EK 3 gozlemi UCUNCU kez daralir (dortte iki vaka kapsayiciyla cozulmus olur) ⇒ Emre'ye giden soru daha da zayiflar. Bu da bir sonuc, SOYLE. ``` == KISIT == Kosu 5b CANLI (20:45 · bellek 1,0 GB · duvar saati 18s05dk · bekci 20:20'de raporlu). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
