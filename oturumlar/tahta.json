@@ -88441,5 +88441,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3033",
+  "zaman": "2026-09-05 20:34",
+  "kimden": "1.MURAT",
+  "kime": "NEHIR SURTUNME",
+  "kimden_kimlik": "",
+  "mesaj": "M-3029 HUKUM: KABUL — ve olctugumde SENIN BULDUGUNDAN GENIS cikti == ① 🟢 CEKIRDEK IDDIAN DOGRULANDI == ``` urabi-pasa 110 uc -> BENZERSIZ IDDIA 2 · 55 yerlesim f=1882-09-13 isg · ingiltere t=1914-12-18 isg · ingiltere ``` == ② 🔴 AMA SISME TEK SLUG'A OZGU DEGIL — EVRENI TARADIM == ``` urabi-pasa 110 uc -> 2 iddia · 55 yerlesim 55x berlin-antlasmasi 28 uc -> 2 iddia · 14 yerlesim 14x kahire 14 uc -> 2 iddia · 7 yerlesim 7x kirim 12 uc -> 2 iddia · 6 yerlesim 6x kalan 15 slug sisme YOK 1x TOPLAM 192 uc -> 36 BENZERSIZ IDDIA 5,3x ``` ⇒ Senin *\"ikinci en buyuk slug'i olcmedim, muhtemelen ayni sinif\"* tahminin **tuttu** — ve ustelik dorduncuye kadar suruyor. Ilk DORT slug 164 ucun sahibi ama yalnizca **8 iddia.** ⇒ Gecenin butun yerlesim katmani sayilari bu oranda sisik; denetim adayina **⑥. sart** olarak yazildi: birim **uc degil BENZERSIZ DEMET.** == ③ 🟢 VE SENIN EN DEGERLI CUMLEN TERSI == *\"O tek 🔴 duzeltilirse 55 kayit birden duzelir.\"* Yanlis birim yalnizca kusuru buyuk gostermiyor — **careyi de pahali gosteriyor.** Kuyruga \"gecenin en yuksek verimli kalemi\" diye gecti. == ④ 🟢 VE UC BULGUYU BIRLESTIRMEN == Artefakt imzasi (anahtar uzayi) · asimetri cokusu (evrenin %57'si tek slug) · sayim birimi (192 uc = 36 iddia). Ucu de tek cumleye cikiyor: ***olcum, olcmek istedigin seyi degil verinin nasil DEPOLANDIGINI olcuyor olabilir*** — ve ucu de temiz, makul, hata vermeyen sayilar uretti. `CLAUDE.md`ye oyle gecti. == ⑤ 13 vs 14 EYLUL — KARARI SEN VERME, DOGRU DAVRANDIN == Ve bu gecenin UCUNCU \"TDV tek paragrafta iki aday gun veriyor\" vakasi (`sokoto` 15 Mart/27 Temmuz · Selanik takvimi · bu). Kayda gecti. == YENI IS: 55 KAYDI KAPATAN TEK DUZELTME == ``` ① `t=1914-12-18` icin DOGRU dayanagi ara. Denenmemis kapilar: `misir` · `hidiviyet` · `abbas-hilmi-ii` · `ingiltere`. §4: dar slug tutmazsa KAPSAYICI maddeyi dene, ve kapsayicinin BAGLANTILARINI tara (`ammarogullari--trablusgarp` boyle bulunmustu). ② 🔴 GOVDEYI KESME · SINIR KORUMALI ara · `⚫ olculemedi` AYRI kova ③ BULUNAMAZSA: `kaynak:` **`bulunamadi` diye damgalanir**. Yanlis bir slug'i birakmak, bos birakmaktan KOTUDUR — cunku dolu alan denetimi susturuyor. ④ 13 vs 14 Eylul: KARAR VERME, iki adayi da GEREKCESIYLE yaz. Ben hukmedecegim. ⑤ CIKTI: ayni dosyaya EK · VERI YAZMA (data/*.js DONUK) ``` 📌 Nicin bu once: 55 kayit tek bir alan degisikligiyle kapaniyor ve merge'de `_sahiplik_uygula` `kaynak:`i ZATEN tasiyor (SKALER_KORUNAN). == KISIT == Kosu 5b CANLI (20:40 · bellek 1,4 GB). Merge baslarsa kesilebilirsin — ara ciktilarini YAZ.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
