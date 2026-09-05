@@ -101,3 +101,226 @@ gününü seçmekten dayanaklıdır"* dersinin **denetim** yüzü: bir konvansiy
 🔴 dört ESASA İLİŞKİN      ilk boşalan işçiye sevk — Van sınavı önce
 ⚠️ Şehrizor'un çakışan penceresi ②'ye göre ayrıca ölçülür
 ```
+
+---
+---
+
+# EK — DÖRT ESASA İLİŞKİN ÇAKIŞMANIN ÖLÇÜMÜ
+
+> Oturum **NEHİR SÜRTÜNME** · sevk M-2959 · 5 Eylül 2026
+> 🔴 **VERİ YAZILMADI** (`data/*.js` donuk). Biri çözüldü, ikisi kaynakta yok.
+
+## ⇒ ÖZET
+```
+🟢 ÇÖZÜLDÜ      Başkale + Çaldıran → **p0035 KAZANIR**, ve kesin
+🔴 ÇÖZÜLEMEDİ   Kasr-ı Şîrîn — TDV 1590-1603'ü kapsamıyor
+🔴 ÇÖZÜLEMEDİ   Yergöğü — TDV 1812'yi hiç anmıyor
+```
+
+---
+
+## ① 🟢 BAŞKALE ve ÇALDIRAN — **ok110 KENDİ ÇAPASIYLA ÇELİŞİYOR**
+
+### Sınav koşuldu: atlasta Van hangi gün Osmanlı oluyor?
+Van'ın **canlı kaydı okundu** (hatırlanmadı):
+```
+{ ad:"Van", … s:[… {f:"1502-01-01", t:"**1548-08-25**", d:"safevi"}],
+             d:[{f:"**1548-08-25**", t:"1923-10-29", y:"kusatma"}] }
+```
+Ve `ok110`'un iki kaydının **kendi `kaynak:` alanı**:
+```
+Çaldıran  "ankraj **Van** (78 km) — külliyattaki zincir"
+Başkale   "ankraj **Van** (73 km) · Çölemerik (63 km) — külliyattaki zincir"
+```
+🔴 ⇒ `ok110` çapasını **Van** olarak ilân ediyor ama Van'ın gününü
+(1548-08-25) değil **1639-05-17**'yi yazıyor — çapasından **91 yıl**
+sapıyor. **Kendi beyanıyla çelişiyor.**
+
+### Ve kaynak da doğruluyor — TDV `van` (200, gövde okundu)
+```
+"15 Ağustos 1548'de padişahın otağı Van ovasına kuruldu" ·
+"**24 Ağustos 1548**" tarihinde kale fethedildi
+1534 girişimi BAŞARISIZ olmuştu (Safevîler geri aldı)
+🟢 **1555 Amasya Antlaşması: "VAN VE ÇEVRESİNİN Osmanlılar'a ait
+   olduğu kabul edildi"**
+```
+🟢 Son satır belirleyici: Başkale ve Çaldıran **"Van çevresi"**dir ve
+1555'te Osmanlı sayılmışlardır. `safevi → 1639-05-17` **yanlış.**
+📌 Ve `1639-05-17`in nereden geldiği belli: **Kasr-ı Şîrîn/Zühâb
+Antlaşması'nın günü.** O tarih sınırın *sabitlendiği* gündür, Van
+çevresinin *fethedildiği* gün değil. ⇒ `ok110` bir **antlaşma gününü**
+bir **fetih günü** yerine kullanmış.
+
+### ⇒ HÜKÜM: **p0035** (safevi → 1548-08-25 · d: 1548-08-25 → 1923)
+```
+dayanak ①  ok110'un KENDİ çapası (Van) onu çürütüyor — 91 yıl
+dayanak ②  TDV `van`: 24 Ağustos 1548 fetih
+dayanak ③  TDV `van`: 1555 Amasya "Van VE ÇEVRESİ" Osmanlı
+```
+⚠️ **KÜÇÜK BİR TUTARSIZLIK, DÜZELTİLMEDİ:** TDV **24** Ağustos diyor,
+atlas **25** Ağustos. Bir günlük fark; Van'ın mevcut kaydına
+DOKUNULMADI (bu çakışmanın konusu değil ve `data/*.js` donuk).
+🔜 Ayrı kalem olarak kaydedildi.
+⚠️ Ve TDV `baskale` slug'ı **302**; `hakkari` ve `colemerik` 200 ama
+**OKUNMADI** (bütçe) — bu `bulunamadı` DEĞİL, **okumadım.**
+
+---
+
+## ② 🔴 KASR-I ŞÎRÎN — ÇÖZÜLEMEDİ, ve bir YAN BULGU daha ağır
+
+### Kaynak turu tüketilmedi ama TDV yolu kapandı
+```
+`kasr-i-sirin`  302 ÖLÜ
+`ferhad-pasa`   200 · gövde OKUNDU → **toprak ayrıntısı VERMİYOR**
+                (yalnız "1590 Osmanlı-Safevî anlaşmasında rol oynadı")
+`kirmansah`     200 · gövde OKUNDU → "Osmanlı-İran savaşları sırasında
+                **birçok defa el değiştiren**" ama **1590-1603'ü
+                kapsamıyor**; Kasr-ı Şîrîn'i ANMIYOR
+`luristan`      200 · **OKUNMADI** (bütçe) — `CLAUDE.md` ondan bir
+                alıntı taşıyor ("998'de (1590) İstanbul'da yapılan
+                antlaşma") ama o alıntı Kasr-ı Şîrîn'in STATÜSÜNÜ
+                vermiyor
+```
+⇒ **ÇÖZÜLEMEDİ.** `d:1590-03-21 → 1603-10-21` iddiası ne doğrulandı
+ne çürütüldü.
+
+### 🔴 YAN BULGU: ÇAKIŞMA ZATEN CANLI VERİDE VAR
+Kasr-ı Şîrîn'in **canlı** kaydı okundu:
+```
+s:[… {f:"1503-01-01", t:"1736-03-08", d:"safevi"} …]
+d:[{f:"**1723-10-01**", t:"**1730-08-12**"}]     ← s: İÇİNDE
+```
+🔴 ⇒ `②`de tarif edilen `d:` ∩ `s:` çakışması **bu noktada halihazırda
+mevcut** (1723-1730). p0035'in eklediği 1590-1603 **ikinci** bir
+çakışma olurdu.
+⇒ Soru artık *"1590-1603 çakışması kabul edilir mi"* değil:
+***"1723-1730 çakışması KASITLI MI?"*** Kasıtlıysa konvansiyon var ve
+p0035 ona uyuyor; kasıtsızsa **canlı veride ölçülmemiş bir alan
+şişmesi** var ve p0035 onu **ikiye katlar.**
+🔜 Bu, tek bir noktanın çakışmasından büyük bir soru — koordinatöre.
+
+---
+
+## ③ 🔴 YERGÖĞÜ — ÇÖZÜLEMEDİ, ama bir YAPI ARGÜMANI var
+
+### TDV iki maddede de 1812'yi ANMIYOR
+```
+`yergogu` (200, okundu)
+   🟢 "Yergöğü **27 Eylül 1810**'da Ruslar'ın eline geçti"  ← İKİ YAMA DA AYNI
+   🟢 "Edirne Antlaşması'na göre (**2-14 Eylül 1829**) İbrâil ve
+      Kule/Turnu ile **Eflak Prensliği'ne bırakıldı**"
+   🔴 1812 Bükreş Antlaşması **HİÇ GEÇMİYOR**
+`edirne-antlasmasi` (200, okundu)
+   "Eflak-Boğdan **müstakil idareye** kavuşturuluyor", Rusya **kefil**
+   "Yerköy Kalesi" Eflak'a devri **Rus tahliyesi** şartları içinde
+   🔴 1812 yine **HİÇ GEÇMİYOR**, ve kimin devrettiği **YAZMIYOR**
+`bukres-antlasmasi`  **302 ÖLÜ**
+```
+⇒ TDV yolu tüketildi ve **cevap vermiyor.** `romanya`nın `s:rusya
+1810→1829`u da p0035'in `isg:rusya 1810→1812`si de TDV'den
+doğrulanamıyor.
+
+### 🟡 AMA BİR YAPI ARGÜMANI — ve bunu ÇIKARIM diye yazıyorum
+```
+Edirne 1829 Osmanlı ile Rusya arasındadır ve Eflak-Boğdan'ı
+**Osmanlı süzerenliğinde özerk** kılar, Rusya'yı **kefil** yapar.
+⇒ Eflak 1829'da RUS TOPRAĞI DEĞİL, Osmanlı süzerenliğinde bir prensliktir.
+⇒ Yergöğü 1810-1829 boyunca RUS EGEMENLİĞİNDE olsaydı, Edirne'de
+  Eflak'a "bırakılması" Osmanlı-Rus antlaşmasının konusu olmazdı.
+```
+⇒ `isg:` modeli (p0035) **yapısal olarak daha tutarlı**, ama
+`1812-05-28` günü **TDV'den gelmiyor** — Bükreş Antlaşması'nın günü, ve
+o antlaşmanın TDV maddesi **ölü.**
+
+### ⇒ ÖNERİ (hüküm DEĞİL)
+```
+🟢 1810-09-27 başlangıcı  KESİN — iki yama ve TDV aynı
+🟡 `isg:` vs `s:`         yapı argümanı `isg:`i destekliyor
+🔴 `1812-05-28` bitişi    KAYNAKSIZ — akademik bir tur ya da
+                          Emre'nin kararı gerekir
+```
+⚠️ Ve şu ayrımı korumak şart: TDV'nin 1812'yi **anmaması**, 1812'de bir
+şey olmadığını göstermez. `§11`: *"kaynağın susması bir sonuç değildir."*
+
+---
+
+## ④ NE YAZMADIM / NE ÖLÇMEDİM
+```
+VERİ YAZMADIM   `data/*.js` DONUK — üçü de hüküm/öneri olarak kaldı
+OKUMADIM        `luristan` · `hakkari` · `colemerik` (200, bütçe)
+                🔴 bunlar `bulunamadı` DEĞİL, **okumadım**
+ÖLÇMEDİM        Kasr-ı Şîrîn'in 1723-1730 çakışmasının KASITLI olup
+                olmadığını — `git log -S` ile provenansı bakılabilir,
+                YAPMADIM
+ÖLÇMEDİM        Şehrizor'un çakışan penceresini (mekanik listede, ②'ye
+                bağlı) — sevkin kapsamı dışındaydı
+BULUNAMADI      `kasr-i-sirin` (302) · `bukres-antlasmasi` (302) ·
+                `baskale` (302) — arandı, ölü
+```
+
+
+---
+---
+
+# EK 2 — KOORDİNATÖRÜN ÖLÇÜMÜ: ÇAKIŞMA BİR **KONVANSİYON**
+
+> `1.MURAT HÜDAVENDİGAR` · 5 Eylül 2026, 14:25 · **veri yazılmadı**
+> Araç: `node` + `vm`, `data/yerlesimler*.js` (78 dosya · 3808 nokta)
+
+`NEHİR SÜRTÜNME`nin yan bulgusu (*"çakışma zaten canlı veride var"*)
+doğru çıktı **ve tekil değil.** Külliyat tarandı:
+
+```
+🔴 d: ∩ s:  çakışan ÇİFT 67 · ETKİLENEN NOKTA 41 (%1,1)
+   toplam çakışan gün 452.164 ≈ 1.238 nokta-yıl
+⚪ d: ∩ v:  26   (Osmanlı iç ayrımı — çakışma SAYILMAZ)
+⚪ v: ∩ s:   7
+```
+
+**Desen tek: Osmanlı-Safevî cephesi.** `s:safevi` hânedanın tüm ömrü
+olarak **tek blok** yazılmış (`1501-07-01 → 1736-03-08`), Osmanlı
+işgalleri onun üstüne `d:` ile oyulmuş:
+
+```
+ 5  Tebriz      1514-09-06→1514-09-15  ∩  safevi 1501-07-01→1736-03-08
+ 3  Revan       1583-06-01→1604-06-08  ∩  safevi …
+ 2  Nahçıvan · Gence · Şamahı · Kabala · Ereş · Merâga · Ahar · Sarâb
+ 2  Hemedan     **1590-03-21→1603-10-21**  ∩  safevi 1508-01-01→1736-03-08
+ 2  Kirmanşah   **1590-03-21→1603-10-21**  ∩  safevi 1508-01-01→1736-03-08
+ 2  Şehrizor    1535-01-01→1550-01-01  ∩  safevi 1508-01-01→1554-08-22
+```
+
+## ⇒ İKİ HÜKÜM DEĞİŞTİ
+
+### ② `Kasr-ı Şîrîn` → **BİRLEŞTİR** (p0035 kabul)
+`Hemedan` ve `Kirmanşah` **tam o pencereyi** zaten taşıyor
+(`1590-03-21→1603-10-21`) ve ikisi de Kasr-ı Şîrîn'in komşusu. ⇒ p0035
+bir çakışma **icat etmiyor**, kaydı komşularıyla **tutarlı** hâle
+getiriyor.
+🟢 Birleşim: `kafkas`ın `s:`/`v:`/`kaynak:`ı + p0035'in **iki** `d:`
+dönemi (`1590-03-21→1603-10-21` ve `1723-10-01→1730-08-12`).
+📌 Ve `1723-10-01` bir kronoloji günü: *«Kirmanşah'ın alınışı — Zağros
+kapısı»* (`olaylar_ek5.js`). Uydurma değil.
+
+### ④ `Şehrizor` → **BİRLEŞTİR**, çakışma uyarısı DÜŞTÜ
+Önceki notumda *"`s:`i 1535'te kesmek mi gerekir"* diye sormuştum.
+**Gerekmez** — aynı konvansiyon.
+
+## 🔴 AMA BEDELİ ÖLÇÜLDÜ VE KAYITSIZDI
+
+`uret_petek` yabancı gövdeyi `s:`ten kuruyor ve çakışan günü
+**dışlamıyor**. Osmanlı hem denetimde hem ekranda kazanıyor, ama
+**Safevî gövdesinin yüzölçümü 1.238 nokta-yıl kadar fazla sayılıyor.**
+⇒ Görsel doğru, **lejanttaki ≈km² şişik.** Bu bir kusur değil
+konvansiyonun **fiyatı** — ama bugüne kadar ölçülmemişti.
+🔜 Ayrı kalem: `s:`i `d:` pencerelerine göre bölmek mi, yoksa gövde
+kurulurken `d:` aktifse o hücreyi yabancıdan düşürmek mi?
+
+## SON DURUM — 8 çakışmanın 7'si kapandı
+
+```
+🟢 Bağdat · Halepçe · Kutaisi        MEKANİK (üst küme / boş alan)
+🟢 Şehrizor · Kasr-ı Şîrîn           BİRLEŞTİR (konvansiyon ölçüldü)
+🟢 Başkale · Çaldıran                p0035 — ok110 kendi çapasıyla çelişiyor
+🔴 Yergöğü                           MODEL çözüldü (`isg:`), GÜN açık
+```
