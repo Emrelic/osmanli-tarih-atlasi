@@ -82219,7 +82219,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "NEHIR SURTUNME": "2026-09-05 04:30"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
@@ -82273,7 +82275,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "1923 SINIRLARI": "2026-09-05 04:30"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
