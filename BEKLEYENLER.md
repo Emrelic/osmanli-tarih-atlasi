@@ -44,6 +44,28 @@ Bir işçi oturum beş künyenin haritada hiç görünmediğini buldu, ve beşi
 toplam nokta-yıl  42.203        ortalama dönem  99,8 yıl
 100 yıldan uzun dönem: 216
 ```
+
+> 🔴🔴 **VE SORU 5 EYLÜL'DE DAHA UCUZ BİR SORUYA DÖNÜŞTÜ — ölçüldü:**
+> `v:` alanı **kimlik taşımıyor değil**; taşıyor, ama **serbest metinde**:
+> ```
+> `k:` alanında 42 FARKLI DEĞER
+>    "Mısır (Kavalalı)" 79 · "Kavalalı hanedanı" 54 ·
+>    "Cezayir Ocaklığı (dayı idaresi)" 41 · "Boğdan" 12 …
+> ```
+> Ve **zaten bozulmuş**: Mısır tek polity ama **beş ayrı yazımla**,
+> Boğdan üç yazımla. ⇒ Soru *"kimlik ekleyelim mi"* değil, ***"var olan
+> kimliği SORULABİLİR hâle getirelim mi"***.
+>
+> 🔴 **Ve bir şey daha ölçüldü:** 42 değerin **20'si (126 dönem) bir
+> polity adı değil bir DURUM** — *"Osmanlı hükümranlık iddiası"* ×11,
+> *"Sahra vahalarının özerk idaresi"* ×6, *"manastır haracı"* ×1, ve
+> **9 dönemde `k:` hiç yok.** Yani *"her tâbi döneme kimlik yaz"* kuralı
+> onlarda **tanımsız kalır** — seçenek pahalı değil, **eksik.**
+>
+> ⚪ Ve karardan **bağımsız** bir iyileştirme ayrıldı: 42 değeri
+> kanonlaştırmak (Mısır'ın beş yazımı **bugün** bir kusur, hangi şık
+> seçilirse seçilsin). Ölçülüyor.
+
 Yani haritada **aynı açık Osmanlı tonuyla** boyanan şeyler:
 ```
 Boğdan       Yaş · Roman · Bîrlad · Kalas          1456 → 1878   422 yıl

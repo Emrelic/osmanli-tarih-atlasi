@@ -806,8 +806,13 @@ kaynağın AKSİNİ söylediği yerde onu DESTEK gibi gösterir.***
 📌 ***Bir eşleşme sayısının büyüklüğü, dayanağın gücü DEĞİLDİR.***
 
 🟢 **Ve desen ölçüldü** (224 künye evreni, 25'lik örneklem, 45 değer):
-`🟢 26 · 🟠 4 · 🟡 3 · ⚪ 12`. `nube` tek değil — ama **4 vaka bir ORAN
+`🟢 26 · 🟠 2 · 🟡 3 · ⚪ 12`. `nube` tek değil — ama **2 vaka bir ORAN
 vermez**, varlık gösterir.
+> 🔴 **İlk yazımda 🟠 4 diye kaydedilmişti; ölçen oturum düzeltti (4→2)**
+> ve gerekçesi tek: *"TDV gövdesine baktım, KÜNYENİN KENDİ BEYANINA
+> bakmadım — taramam ilişkinin TEK UCUNU ölçüyordu."*
+> ⇒ `§3.5.1`in *"iki uç da ölçülür"* kuralının **kaynak yüzü**:
+> ***gövde ile künye KARŞILIKLI okunur.***
 🔴 ***Değer gövdeye İZLENEBİLİR ama gövde onu BAŞKA BİR ŞEYE bağlıyor.***
 Ve bu, öteki yedi tuzaktan **daha sinsi**: onlar bir doğrulamayı
 *başarısız* kılar, bu onu **YANLIŞ BAŞARILI** kılar — bir arama

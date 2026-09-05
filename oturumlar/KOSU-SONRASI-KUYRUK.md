@@ -1415,6 +1415,37 @@ yörüngesinde ⇒ `diyarbakir` konvansiyonu orada en zayıf).
 🟢 Ve zincirin **bir konvansiyon** olduğu yedi kaydın `not:` alanına
 yazıldı — bir sonraki oturum bunu yedi ayrı araştırma sanmayacak.
 
+### 🔴 `v:` KİMLİK — SORU **DAHA UCUZ BİR SORUYA** DÖNÜŞTÜ
+
+```
+`v:` dönem 423 · kimlik alanı (`d:`) 0        ✓
+AMA serbest metin `k:` → 42 FARKLI DEĞER, ve ZATEN BOZUK
+   Mısır BEŞ yazımla · Boğdan ÜÇ yazımla
+```
+⇒ Emre'nin sorusu *"kimlik ekleyelim mi"* değil ***"var olanı
+SORULABİLİR hâle getirelim mi"***. `BEKLEYENLER.md` yeniden çerçevelendi.
+🔴 Ve 42 değerin **20'si (126 dönem) polity değil DURUM** (*"Osmanlı
+hükümranlık iddiası"* ×11 · *"manastır haracı"* ×1 · 9 dönemde `k:` yok)
+⇒ *"her tâbi döneme kimlik yaz"* orada **tanımsız kalır**: seçenek
+pahalı değil **eksik.**
+⚪ Karardan **bağımsız** iş ayrıldı: 42 değeri **kanonlaştırmak** —
+hangi şık seçilirse seçilsin bugün bir kusur. Ölçülüyor.
+📌 ***Karar bekleyen bir kalemde, karardan bağımsız olan parçayı
+ayırmak, beklemeyi ucuzlatır.***
+
+### 🟢 MISIR — günler KAYNAKTAN, ve tahmin **eksik** çıktı
+```
+28 Şubat 1922  İngiltere tek taraflı bağımsızlık ilanı
+15 Mart 1922   Fuâd KRAL unvanını aldı  ← künye adları UNVANI izliyor
+f:1914-12-18   TDV ile BİREBİR ⇒ mevcut künye değeri artık BAĞIMSIZ dayanaklı
+```
+55 noktalık yama Çaçak tuzağı gözetilerek yazıldı (mevcut `memluk`/`isg:`
+aynen korundu, `isg:` **eklendi**). KÜNYE+RENK bekliyor.
+
+⚪ **Ve `saruhan`da üç yerde iki bitiş:** `t:1416-09-01` · özet *"1416'da
+sona erdi"* · kronoloji `son` kaydı **1410-01-01**. Ayrı kalem —
+`son` ↔ `t:` ayrışması künye genelinde ölçülüyor.
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri
