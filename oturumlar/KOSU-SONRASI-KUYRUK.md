@@ -1306,6 +1306,50 @@ sultanlığını **yeniden kurdu** (*"iç işlerinde SERBEST"*), 1916-11-06'da
 📌 Gecenin **dördüncü** *"bir sınav, sınadığı şeyden fazlasını doğrular"*
 vakası: kaynaksız duran bir `t:` değeri TDV ile eşleşti.
 
+### 🟢 ÇEMİŞGEZEK Ⓐ İNDİ — `4c` **287 → 286**, ve `künyesiz +1` bir ÖLÇÜ
+
+```
+Çemişgezek  1281→1420 `cemisgezek-beyligi` · 1420→1507 akkoyunlu
+⇒ `artuklu` VE `ilhanli` TAMAMEN kalktı, kayıt `4c`den DÜŞTÜ
+⇒ künyesiz 3 (+1): `cemisgezek-beyligi` henüz `devletler.js`te YOK
+```
+🟢 Ölçen oturum bunu **kusur değil SIRA ÖLÇÜSÜ** diye okudu ve
+uygulama sırasını **yamanın kendi başlığına** yazdı: *① künye → ② renk
+→ ③ ancak ondan sonra bu yama.* Aksi hâlde Çemişgezek **139 yıl
+boyanmaz** (`§8`).
+📌 ⇒ *Bir bağımlılığı, ona uyacak kişinin okuyacağı yere yaz.*
+
+#### 🔴 MERGE UYARISI: SİMÜLASYON DELTALARI **TOPLAM DEĞİL**
+```
+Fizan       4c 287 → 275 (−12)
+Çemişgezek  4c 287 → 286 (−1)
+```
+İkisi de **287'den** başlıyor çünkü her simülasyon **yamasız tabana**
+karşı koşuyor ⇒ bunlar **bağımsız ölçümler.** Merge'de deltalar
+birleşir ve nihai sayı **ne 286 ne 275** olacak. Yoksa biri *"286
+bekliyordum, 271 çıktı"* diye kusur arar.
+
+### 🔴🔴 ZAZA MİRLİKLERİ — beklenen sınıf ÇIKMADI, çıkan daha ağır
+```
+Egil · Genç · Çapakçur · Atak · Hazro   →   5 merkez · **0 NOKTA**
+```
+`artuklu` yanlış atfı değil, **`§2` NOKTASIZLIK.** Ve **iki kusur
+birleşiyor** — gecenin ilk bileşik vakası:
+```
+Genç · Çapakçur · Atak  →  en yakın nokta PALU (53-68 km)
+Palu'nun 1450 kimliği   →  `artuklu`, bu gece YANLIŞ olduğu ÖLÇÜLDÜ
+```
+⇒ ***Yanlış bir kimlik, bir noktasızlık üzerinden, kendi noktası
+olmayan bir bölgeye taşınıyor.***
+🔴 Ve ikisi **ayrı ayrı** düzeltilirse biri ötekini gizler: Palu
+düzeltilirse bölge yine yanlış ama **başka bir** kimlikle boyanır;
+nokta eklenirse Palu'nun yanlışı **küçülür ama kalır.** Birlikte
+çözülmeli.
+⚪ Kaynak bu merkezleri boş bırakmıyor: **altı bey adıyla, beş olay
+tarihiyle** — içinde *"1515: Egil Beyi Lala Kasım Bey şehrin anahtarını
+Bıyıklı Mehmet Paşa'ya teslim etti"*.
+⚪ `Kığı` · `Ergani` · `Siverek` aynı pasajda ve **ölçülmedi.**
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri
