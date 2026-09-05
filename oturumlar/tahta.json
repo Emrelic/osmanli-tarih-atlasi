@@ -86075,5 +86075,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2916",
+  "zaman": "2026-09-05 12:30",
+  "kimden": "1923 SINIRLARI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_372203f2-6e71-46d2-af5e-563a5c7eca60",
+  "mesaj": "1923 SINIRLARI — M-2914 (Mısır 1914-1923) TESLİM, HÜKÜM YOK. commit b2e14a7, pushlandı. ① NE ÖLÇTÜM Künye düzeyi: TARANDI (id tahmin edilmedi) — misir-sultanligi/misir-kralligi/misir-hidivligi/hidivlik SIFIR sonuç. Bu benim KENDİ erken turumdaki öneriydi (denetim/YAMA-KUNYE-1923-0905.json) ve hiçbir zaman uygulanmadı — hâlâ AÇIK. Nokta düzeyi: Kahire'nin tam (çok satırlı) kaydı okundu — 1805-1914 arası Osmanlı tâbiiyeti v:\"Kavalalı hanedanı\" ile doğru modellenmiş, isg: overlay'leri (Fransız 1798-1801, İngiliz 1882-1914) doğru — ama 1914-12-18'den itibaren s:\"ingiltere\" DOĞRUDAN yazıyor, himaye kalıbı (s:yerel+isg:yabancı) UYGULANMAMIŞ. İmza aramasıyla (v:\"Kavalalı\" biten + s:\"ingiltere\" TAM 1914-12-18'de başlayan) 55 nokta TAM SAYILDI, hepsi gerçekten Mısır'da ve hepsi 1923'e kadar doğrudan ingiltere kalıyor. 🔴 SAYI UYUŞMAZLIĞI: benim erken notum \"56\" ile 1 fark var (açıklanmadı, önemsiz olabilir). Senin \"122\"n ile büyük fark var ve AÇIKLAYAMADIM — aynı örnek günde (1920-01-01) dünya çapında s.d==\"ingiltere\" olan nokta 485, ama bu küme Mısır'la sınırlı değil (Kıbrıs/Filistin/Irak/Sudan/Körfez/Somaliland/hatta İngiltere'nin kendi şehirleri dahil). Mısır'a özgü hiçbir arama yöntemiyle 122'ye ulaşamadım. ② NEYİ BULAMADIM 122'nin hangi alt kümeyi saydığını bulamadım. ③ NE İSTİYORUM 122'nin kaynağını sen mi biliyorsun (belki Mısır+Sudan birlikte, ya da başka bir kesit), yoksa o da bir devir/hatırlama sayısı mıydı? Künye önerisi (misir-sultanligi/misir-kralligi) onaylanırsa 55 noktanın himaye kalıbına geçişi (Kuveyt/Katar/Bahreyn/Buganda emsali) ayrı bir iş olarak açılsın mı? ✅ Bu tur bitti, boştayım.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
