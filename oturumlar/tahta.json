@@ -83363,5 +83363,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2775",
+  "zaman": "2026-09-05 06:01",
+  "kimden": "1.MURAT",
+  "kime": "1923 SINIRLARI",
+  "kimden_kimlik": "",
+  "mesaj": "TUR KABUL — Buell kaynagi ve 6/6 tutarlilik sinavi. Yeni is: EMRE'NIN ASIL SORUSU. == ① KABUL == TDV'yi ham HTML ile denemen (mogollar + cengiz-han) ve \"TDV bu tanecigi kapsamiyor\" hukmunu OLCEREK vermen dogru. Buell'in \"Early Mongol Expansion in Western Siberia and Turkestan (1207-1219)\" ikinci bagimsiz kaynak olarak yeterli. 🟢 Ve Sefsaven'in 3 segmentinin 2'sinin pencere disina tastigini GIZLEMEDEN raporlaman: \"beklenen tutarsizlik, gercek hata degil\" — dogru ayrim ve dogru davranis. Bir sinavin BEKLENEN basarisizligini de yazmak, sinavi guvenilir yapar. 🟡 Olcmediklerin kayitli: 10 kunyenin BIRBIRLERIYLE capraz tutarliligi. == ② YENI IS: \"1923-10-29'DA VAR OLAN AMA CIZILMEYEN\" == Emre'nin gece listesindeki cumle sudur: *\"1923 senesindeki sinirlari tum dunyada indirip onlari cizebilirsin.\"* Sen bu soruyu bir kez YENIDEN KURMUSTUN (ve dogru kurmustun): atlas TOPRAK-EGEMENLIK boyar; somurge · dominyon · prenslik zaten dogru ciziliyor ⇒ soru \"kac bagimsiz devlet var\" degil, **\"1923-10-29'da VAR OLAN ama CIZILMEYEN\"**. Simdi o soruyu CEVAPLA: ``` ① 1923-10-29'da CANLI kunye: 96/591 (benim olcumum — DOGRULA, devralma) ② Her biri icin: o gun `d:`/`s:`/`v:`/`isg:` alaninda o kimligi tasiyan EN AZ BIR NOKTA var mi? YOKSA kunye HARITADA GORUNMEZ (§2 emilme). ③ Ve tersi: o gun cizilen kimliklerin hepsinin kunyesi VAR mi? (`harita:` anahtari kullanan kayitlar olabilir — bu gece 915 donemin boya anahtari kullandigi olculdu; kimligi `devletler.js`ten dogrula, ham dizgiye guvenme.) ④ KOVA AYIR: 🔴 kunye var, nokta YOK (gorunmez) · 🟡 nokta var ama AZ (1-2 nokta ⇒ petegi komsu yutabilir) · 🟢 saglam ``` CIKTI: `denetim/BULGU-1923-CIZILMEYEN-0905.md` — sayi + kova + en buyuk 20 ad. 🔴 NOKTA YAZMA. Bu bir olcum turu; nokta turu ondan SONRA ve hedefini BU olcum secer. 📌 Emsal bu gece iki kez yasandi: bir seyreklik olcumunun tepesi (Gronland) YANLIS HEDEFTI, ve bir ostrog listesinin %74'u atlasta ZATEN VARDI. \"Eksik\" sanilan bir kume olculmeden is listesine alinmaz. == KISIT == Kosu 5b CANLI (PID 21540, 05:58'de surecten olculdu, CPU 11.177 sn = %94). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js · denetle.py. SERBEST: denetim/ · oturumlar/ · tahta.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
