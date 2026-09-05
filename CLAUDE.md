@@ -308,6 +308,49 @@ gecikmeleri meşrudur (Mekke'nin memlûk dönemi 1517-07-06'da biter, devlet
 
 Bu, dördüncü bir değişmez olarak araca girecek — `YAPILACAKLAR.md`.
 
+### 🔴🔴 3.5.0 ÜÇ SINIF, TEK TABLO — VE ÇARELERİ TERS
+*(5 Eylül 2026 · `NEHİR SÜRTÜNME`, ve ölçen taraf kendi manşetini çürüttü)*
+
+Yukarıdaki tablo bütün künye aşımlarını **tek cins** sayıyor: *"devlet
+yıkıldı, veri onu boyamaya devam ediyor."* Üç aday ölçüldü ve **üçü de
+farklı çıktı** — ve çareleri **birbirinin tersi**:
+```
+① BATNOZ   devlet ÖLDÜ · yerine BAŞKASI geçti · veri ÖLÜYÜ boyuyor
+           ⇒ ÇARE: dönemi KISALT. (tablo bunu tarif ediyor)
+② ZEND     AYNI polity sürüyor · KÜNYE PENCERESİ dar
+           ⇒ ÇARE: künyeyi GENİŞLET. Veri doğru.
+③ ARDİL 🆕 devlet öldü · BAŞKA BİR YAPI geçti · veri ESKİ KİMLİĞİ
+           sürdürüyor — AMA TOPRAK GERÇEKTEN DOLU
+           ⇒ ÇARE: YENİ KÜNYE (+ renk). Kısaltmak DELİK AÇAR.
+```
+🔴 **Ve ③'ü ①'e benzetip dönemi kısaltmak, `Değişmez 1`i ihlal eder:**
+toprak boş değildi, yalnız adı değişmişti.
+
+**Ölçülmüş vakalar:**
+```
+filipin-racaliklari  ZEND — künye `t:` MANİLA'nın gününü (1571-06-24)
+   bütün racalıklar için son sayıyor; oysa İspanyol fethi YETMİŞ YILA
+   yayılmış (Cebu 1565 · Iloilo 1569 · Vigan 1572 · Zamboanga 1635) ve
+   veri her adanın KENDİ gününü taşıyor. **Veri doğru, künye dar.**
+meysur   ARDİL — TDV: *"beş yaşında bir Hindu hanedan üyesini tahta
+   oturtup ESKİ RACALIĞI TEKRAR İHDAS ETTİLER"* · İngiliz hâkimiyeti
+   **1947'ye kadar.** Toprak dolu; ama künyenin adı *"Sultanlığı (Haydar
+   Ali / Tipu)"* ve 1799'da o sultanlık BİTTİ. **Genişletmekle çözülmez:
+   aynı devlet değil.**
+maratha  ARDİL — 31 dönemin 23'ü GERÇEK günlerde bitiyor (1803 · 1818);
+   kalanlar Scindia · Holkar · Kolhapur, yani 1947'ye kadar süren
+   Maratha kökenli prenslikler.
+```
+⚠️ Ve üçünde de **ardıl kimlik YOK**: `ingiliz-hindistan` /
+`britanya-hindistan` tarandı, **yok**; yalnız `ingiltere` var. ⇒ Düzeltme
+bugün yazılamaz, `polonya-erken` emsali — **yazmak delik açar.**
+
+📌 Ve ölçen oturum bunu **kendi kırk dakika önceki manşetini çürüterek**
+buldu: *"`4c`de GERÇEK hayaletler var, meysur 124,5 yıl — Batnoz'un
+üstünde."* Ölçüm o cümleyi yanlış çıkardı. ***Bir sayının büyük olması,
+onun bilinen bir sınıfa ait olduğunu göstermez.***
+
+
 ### 3.5.1 🔴 TERS YÖN — "OSMANLI FAZLA MI GÖRÜNÜYOR?"
 
 Yukarıdaki tablonun **her satırı fazladan boyanan YABANCI devleti ölçüyor.**
@@ -3306,7 +3349,13 @@ gerçek             :  Drama'nın ÜÇ, ötekilerin İKİ dönemi var
 ```
 ① ÖLÇÜM FİLTRESİ   gördüğünü kısıtladı   → dört dönem GÖRÜNMEDİ
 ② ETİKET SIRASI    gördüğünü yanlış adlandırdı → sayı DOĞRU, adı YANLIŞ
+③ EŞİK 🆕          denetimin TOLERANSINI taşımadı → temiz kayıt İHLAL göründü
 ```
+  ③'ün vakası (aynı gün, aynı oturum): `AŞIYOR` bayrağı basit `t > kt`
+  karşılaştırmasıydı, oysa `denetle.py` **400 GÜNLÜK tolerans** uyguluyor.
+  `Ecmir` künyeyi **22 gün** aşıyordu ve listede ihlal göründü — değildi.
+  ⇒ ***Bir aleti taklit eden ölçüm, onun EŞİĞİNİ de taşımalı*** — yoksa
+  aynı veriye bakıp farklı cevap verir, ve fark sessizdir.
   ⇒ ***İkisi de veriyi değil OKUMAYI bozdu*** — ve ikisi de hiçbir
   denetimin sorusu değil, çünkü denetimler **veriyi** sorar.
   ⚠️ ②'nin sinsiliği ①'den fazla: orada bir şey eksikti, burada her şey

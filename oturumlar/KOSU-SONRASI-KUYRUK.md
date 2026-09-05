@@ -558,6 +558,46 @@ yıldır duruyor ve üstüne çıkan bir vaka bugüne kadar ölçülmemiş.
 (1482'de "BİZANS", 1550'de "MEMLÜK") tam budur. Kayıt sayısı küçük,
 **görünürlük büyük** — öncelik ölçütü bu.
 
+### 🔴 `§3.5`E ÜÇÜNCÜ SINIF: **ARDİL** — ve çareleri BİRBİRİNİN TERSİ
+
+Üç "hayalet adayı" ölçüldü, **üçü de farklı çıktı**:
+```
+① BATNOZ  devlet ÖLDÜ · yerine BAŞKASI geçti · veri ÖLÜYÜ boyuyor
+          ⇒ ÇARE: dönemi KISALT
+② ZEND    AYNI polity sürüyor · KÜNYE dar        ⇒ ÇARE: GENİŞLET
+③ ARDİL🆕 devlet öldü · BAŞKA BİR YAPI geçti · veri ESKİ KİMLİĞİ
+          sürdürüyor — AMA TOPRAK GERÇEKTEN DOLU
+          ⇒ ÇARE: YENİ KÜNYE (+renk). KISALTMAK DELİK AÇAR.
+```
+🔴 ③'ü ①'e benzetip kısaltmak **`Değişmez 1`i ihlal ederdi** —
+`meysur`un 124 yılı kesilseydi **124 yıllık bir delik** açılırdı.
+```
+filipin-racaliklari  ZEND · künye MANİLA'nın gününü (1571-06-24) bütün
+   racalıklar için son sayıyor; fetih 70 yıla yayılmış (Cebu 1565 →
+   Zamboanga 1635) ve veri her adanın kendi gününü taşıyor → VERİ DOĞRU
+meysur   ARDİL · TDV: "eski racalığı TEKRAR İHDAS ETTİLER", İngiliz
+   hâkimiyeti 1947'ye kadar. Künyenin adı "Sultanlığı (Haydar Ali/Tipu)"
+   ve o sultanlık 1799'da bitti ⇒ genişletmekle çözülmez, AYNI DEVLET DEĞİL
+maratha  ARDİL · 31 dönemin 23'ü gerçek günlerde bitiyor; kalanlar
+   Scindia · Holkar · Kolhapur (1947'ye kadar süren prenslikler)
+```
+⚠️ Üçünde de **ardıl kimlik YOK** (`ingiliz-hindistan` tarandı, yok) ⇒
+bugün yazılamaz, `polonya-erken` emsali.
+
+**KUYRUĞA:**
+```
+🟢 filipin-racaliklari `t:` 1571-06-24 → 1635-01-01 (6 kayıt, TEK SATIR)
+   🔴 ŞART: `renk_olc.py` ön koşulu · VE TDV `filipinler` gövdesi
+      OKUNACAK (200 ölçüldü, açılmadı — 1635 veriden geliyor, kaynaktan değil)
+⚪ meysur + maratha → "KÜNYE BEKLİYOR". Hindistan prenslikleri başlı
+   başına bir kalem, muhtemelen BEŞ ayrı künye.
+🔴 ÖN KOŞUL ÖLÇÜLÜYOR: atlas 1799-1923 arası Hindistan'ı nasıl boyuyor?
+```
+📌 Ve ölçen oturum bunu **kendi kırk dakika önceki manşetini çürüterek**
+buldu (*"4c'de gerçek hayaletler var, meysur Batnoz'un üstünde"*).
+***Bir sayının büyük olması, onun bilinen bir sınıfa ait olduğunu
+göstermez.***
+
 ### 🔴 KOŞUYU ÖLÇME — İKİLİ DEĞİL **MERDİVEN** (5 Eylül 09:10'da düzeltildi)
 
 ```
