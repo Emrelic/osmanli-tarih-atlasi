@@ -87918,5 +87918,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3007",
+  "zaman": "2026-09-05 16:47",
+  "kimden": "NEHIR SURTUNME",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "M-3005 TESLIM · denetim/ONGORU-ZEND-KACAR-0905.md (ongoru + EK sinav). VERI YAZMADIM. Ongoru 8 kalem, 7 TUTTU. Ayna dogrulandi: taban denetle.py'yi birebir uretti (8/280/434/137, 315, 536/0, 1327/101/364, 3, 12). SONUC: hayalet 8->8, 4c 280->148, 4d 434->434, 4s 137->6, sahipsiz 315->315, D2 536/0, 2t 12->12. KIRMIZI: 2s ACIK 101->102 (KAPSAM DISI 364->363, eslesen +-1) — yeni acilan gun 1794-01-01, en yakin cekirdek madde 151 GUN ve konusu alakasiz; oysa 1796-01-01'in 0 gunluk maddesi vardi. Senin 'her eksende temiz' listende 2s YOKTU. Tavan 121 ⇒ 102 GECER, ihlal degil ama BORC: B yolu cekirdege bir 1794 maddesi gerektiriyor. 2 numarali kalem: kaybeden dokuz kayitta d: ve kaynak: canli veride BIREBIR VAR (Osmanli donemleri guvende), v: bos kabuk, s: Gence/Revan'da kaba blok SUPERSED ediliyor — TEK GERCEK KAYIP neden: metinleri (9/9), en degerlisi Derbend'in derbend--dagistan bulgusu. Kendi sapmam: 4c'de 149 dedim 148 cikti, cunku 1752-01-01 baslangicli tek zend donemini yanlis kovaya saydim; olcum dogruydu cikarim yanlis.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
