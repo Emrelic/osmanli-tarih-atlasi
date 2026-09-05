@@ -1,0 +1,80 @@
+{
+ "oturum": "KRONOLOJI GUNEYDOGU ASYA",
+ "damga": "2026-09-05",
+ "not": "YAMA dosyasi -- data/devletler.js'e DOKUNMADIM (kosu 5b canli, PID 21540). 'eklenen' listesi mevcut kronoloji dizisine EKLENECEK yeni maddelerdir, var olan hicbir kayit degistirilmedi/silinmedi.",
+ "yontem_notu": "Kunye listesi bolge: alanindan GERCEK id ile cikarildi (elle yazilmadi) -- 59/34/25, koordinatorle BIREBIR ortustu. TDV yogunluk ornegi (15 slug, HTTP): ace 200 · ace-sultanligi 302 · malaka 200 · aceh 302 · siyam 200(-->YONLENDIRME, bk. tayland) · vietnam 302 · kamboc 302 · endonezya 200 · filipinler 200 · malezya 200 · brunei 302 · tayland 200 · aracan 302 · arakan 200 · mataram 302 -- 8/15 CANLI (%53), CLAUDE.md S4'un 'Guneydogu Asya %53' olcumuyle TUTARLI.",
+ "kunyeler": [
+  {
+   "id": "arakan",
+   "eklenen": [
+    {"t": "1546-01-01", "tur": "savas", "b": "Arakan, Toungoo Kralı Tabinshweihti'nin saldırılarını geri püskürttü", "kaynak": "TDV arakan (bu turda okundu, birebir alıntı)."},
+    {"t": "1595-01-01", "tur": "toprak-kazanc", "b": "Arakan, Portekiz yardımıyla doğudaki Pegu'yu ele geçirdi", "kaynak": "TDV arakan (bu turda okundu, birebir alıntı)."}
+   ]
+  },
+  {
+   "id": "malaka-sultanligi",
+   "eklenen": [
+    {"t": "1403-01-01", "tur": "antlasma", "b": "Bir Çin heyeti Malaka'yı ziyaret etti; 1407'de Çin donanması limana uğradı, ticarî temas kuruldu", "kaynak": "TDV malaka (bu turda okundu, birebir alıntı)."}
+   ]
+  },
+  {
+   "id": "ayutthaya",
+   "eklenen": [
+    {"t": "1448-01-01", "tur": "hukumdar", "b": "Kral Trailok döneminde (1448-1488) yüksek rütbeli görevlilere toprak tahsis edilerek feodal bir idarî yapı oluşturuldu", "kaynak": "TDV tayland (bu turda okundu, birebir alıntı; 'siyam' sluğu CANLI YÖNLENDİRME KÜTÜĞÜ — bk. tayland)."},
+    {"t": "1569-01-01", "tur": "vassal", "b": "İkinci büyük Birmanya saldırısı sonucu Ayutthaya, Birmanya üstünlüğünü kabul etmek zorunda kaldı", "kaynak": "TDV tayland (bu turda okundu, birebir alıntı)."}
+   ]
+  },
+  {
+   "id": "gova-makassar",
+   "eklenen": [
+    {"t": "1603-01-01", "tur": "hukumdar", "b": "Gowa hükümdarı müslüman oldu", "kaynak": "TDV endonezya (bu turda okundu, birebir alıntı)."}
+   ]
+  },
+  {
+   "id": "mataram-sultanligi",
+   "eklenen": [
+    {"t": "1601-01-01", "tur": "hukumdar", "b": "Kurucu Sutawicaya (Pajang'a karşı ayaklanıp Mataram Sultanlığı'nı kuran vali) öldü; ölümünde sultanlık yirmi beş kadar bölgeyi kapsıyordu", "kaynak": "TDV endonezya (bu turda okundu, birebir alıntı)."},
+    {"t": "1613-01-01", "tur": "hukumdar", "b": "Sultan Agung tahta çıktı (1613-1646), Mataram bu dönemde zirvesine ulaştı", "kaynak": "TDV endonezya (bu turda okundu, birebir alıntı)."}
+   ]
+  },
+  {
+   "id": "palembang-sultanligi",
+   "eklenen": [
+    {"t": "1440-01-01", "tur": "hukumdar", "b": "Arya Damar ve Raden Rahmet'in çalışmaları sonucunda Palembang İslâm'a girdi", "kaynak": "TDV endonezya (bu turda okundu, birebir alıntı)."}
+   ]
+  },
+  {
+   "id": "samudra-pasai",
+   "eklenen": [
+    {"t": "1297-01-01", "tur": "hukumdar", "b": "İlk sultan el-Melikü's-Sâlih öldü (696/1296-97)", "kaynak": "TDV endonezya (bu turda okundu, birebir alıntı: '696 (1296-97) yılında')."}
+   ],
+   "not_kaynak": "3/4 — ikinci ek olay bulunamadı (öncesi 2 madde idi, şimdi 3)."
+  },
+  {
+   "id": "pagaruyung",
+   "eklenen": [],
+   "not_kaynak": "ÖLÇÜLEMEDİ — TDV `endonezya` gövdesinde Pagaruyung'a HİÇ değinilmiyor (açıkça test edildi). Akademik taramaya bu turda vakit kalmadı — KALEM AÇIK, 'çürüdü' değil 'ölçülemedi'. 3/4 bırakıyorum."
+  },
+  {
+   "id": "sulu-sultanligi",
+   "eklenen": [
+    {"t": "1851-01-01", "tur": "savas", "b": "İspanyollar Sulu'ya saldırdı", "kaynak": "TDV filipinler (bu turda okundu, birebir alıntı)."},
+    {"t": "1876-01-01", "tur": "toprak-kayip", "b": "İspanyollar Jolo'yu tamamen zaptetti", "kaynak": "TDV filipinler (bu turda okundu, birebir alıntı)."}
+   ]
+  },
+  {
+   "id": "cohor-sultanligi",
+   "eklenen": [
+    {"t": "1699-01-01", "tur": "hukumdar", "b": "Sultan Mahmûd Şah öldürüldü, hânedan değişikliği yaşandı", "kaynak": "TDV malezya (bu turda okundu, birebir alıntı)."},
+    {"t": "1784-01-01", "tur": "savas", "b": "Hollandalılar, Riau'yu almak amacıyla Johor'a saldırdı", "kaynak": "TDV malezya (bu turda okundu, birebir alıntı: 'Ocak 1784')."}
+   ]
+  },
+  {
+   "id": "malay-sultanliklari",
+   "eklenen": [
+    {"t": "1874-01-20", "tur": "antlasma", "b": "Perak, İngilizlerle Pangkor Antlaşması'nı imzaladı", "kaynak": "TDV malezya (bu turda okundu, birebir alıntı, GÜN hassasiyeti)."},
+    {"t": "1896-07-01", "tur": "birlesme", "b": "Dört Malay devleti (Perak, Selangor, Negri Sembilan, Pahang) Federe Malay Devletleri olarak birleştirildi", "kaynak": "TDV malezya (bu turda okundu, birebir alıntı: 'Temmuz 1896')."}
+   ]
+  }
+ ]
+}
