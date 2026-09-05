@@ -2504,6 +2504,44 @@ mi kalsın (ve *"başlangıcı belgeler"* diye yazılı bir sözleşme mi olsun)
 yoksa `kaynak_f:` / `kaynak_t:` diye ayrılsın mı? `v:` kimlik kararıyla
 aynı sınıf: **veri modeli iki şeyi tek alanda taşıyor.**
 
+### 🔴🔴 İKİ HÜKMÜM GERİ ALINDI (20:35) — ikisini de ölçüm çürüttü
+
+**① `kaynak:` ASİMETRİSİ ÇÜRÜDÜ.** Slug başına tavanla yeniden ölçüldü:
+```
+                   `f:` 🔴   `t:` 🔴   🔴'ların `t:` payı
+DAR örneklem         %11      %76           %87
+ÇEŞİTLİ (slug ≤ 2)   %23      %21           %57   (7 kırmızıda 4)
+```
+Sebep: **`urabi-pasa` evrenin %57'si**, ilk iki slug **%72** (koordinatör
+bağımsız doğruladı: 192 uç / 19 slug, dağılım `[110, 28, 14, 12, 3, …]`).
+🟢 Ayakta kalan: sınıf **var** ve künyeden yüksek (yerleşim %22 · künye
+%12) — ama **iki kat, dört kat değil.** Vakalar gerçek.
+🔴 Ve tersi de veride: `eflak` · `bogdan` **`f:` ucunda** 🔴.
+```
+④ MİRAS EVRENE GİRMEZ        🟢 AYAKTA — bu sınav onu etkilemiyor
+⑤ `f:`/`t:` AYRI RAPORLANIR  🟡 iyi uygulama, ama "%87 asimetri"
+                                GEREKÇESİYLE DEĞİL — o gerekçe düştü
+🔵 Emre'ye `kaynak_f:`/`kaynak_t:`  🟡 SORU MEŞRU, ama artık bir ÖLÇÜMÜN
+                                değil bir TASARIM SEZGİSİNİN üstünde
+```
+
+**② 🔴 `sokoto` MADDESİ HÜKMÜM YANLIŞ — kırılmaya DENK GELMİYOR.**
+`1903-07-27`yi kabul etmiştim (TDV gövdesi birebir veriyor). Veriye
+bakılmamıştı; bakıldı:
+```
+Sokoto  s: 1812-01-01 → **1903-01-15**  sokoto
+        s: **1903-01-15** → 1923-10-29  ingiltere      kaynak=sokoto
+```
+🔴 Verideki kırılma **`1903-01-15`** — kabul ettiğim günden **194 gün**
+uzakta, ve `Değişmez 2`nin penceresi ±30 gün. ⇒ **O madde bu kırılmayı
+KAPATMAZ.**
+🔴 Ve `1903-01-15`in kendisi de dayanaksız: TDV iki gün veriyor —
+`15 Mart 1903` (işgal) ve `27 Temmuz 1903` (hâkimiyetin sonu, künye `t:`).
+Veri **ikisi de değil.**
+🟡 HİPOTEZ (ölçülmedi): `1903-01-15` ↔ `1903-03-15` ay basamağı hatası
+olabilir. **Doğrulanmadan yazılmaz.**
+⇒ Kalem yeniden açık: önce **verinin günü** sınanacak, sonra madde.
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri

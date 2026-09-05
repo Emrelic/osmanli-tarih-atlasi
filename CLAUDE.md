@@ -6457,9 +6457,39 @@ BULGU-GEOMETRI-0904.md      mtime  4 Eyl 11:49
   vermeden *"TOPLAM 792 nokta · peteksiz 0"* diye **temiz bir sayı** bastı.
   Çare regex'i düzeltmek değil, **Python'a okutmak** oldu.
 
-- 🔴🔴 **BİR DÖNEMİN `kaynak:`I ÇOĞU ZAMAN ONU **BAŞLATAN** OLAYIN
-  KAYNAĞIDIR; **BİTİREN** OLAYINKİ DEĞİL — alan tek, olay iki.**
-  *(5 Eylül 2026 · `NEHİR SÜRTÜNME`)*
+- 🔴🔴 ~~**BİR DÖNEMİN `kaynak:`I ÇOĞU ZAMAN ONU BAŞLATAN OLAYIN
+  KAYNAĞIDIR; BİTİREN OLAYINKİ DEĞİL**~~ → **ÇÜRÜDÜ, AYNI GECE.**
+  *(5 Eylül 2026 · yazan koordinatör, çürüten `NEHİR SÜRTÜNME`)*
+
+  > 🔴🔴 **BU DERS ÇÜRÜDÜ VE SEBEBİ ÖRNEKLEM YOĞUNLAŞMASIYDI.** Slug
+  > başına tavan konup yeniden ölçüldü:
+  > ```
+  >                    `f:` 🔴   `t:` 🔴   🔴'ların `t:` payı
+  > DAR örneklem         %11      %76           %87
+  > ÇEŞİTLİ (slug ≤ 2)   %23      %21           %57  (7 kırmızıda 4)
+  > ```
+  > İki uç arasındaki fark **kayboldu**. Sebep ölçüldü (koordinatör
+  > bağımsız doğruladı): **`urabi-pasa` tek başına evrenin %57'si**,
+  > ikincisiyle **%72** — rastgele bir örneklem *zorunlu olarak* o iki
+  > slug'a düşüyordu. O iki slug gerçekten asimetrik, ama bu **onların
+  > özelliği, evrenin değil.**
+  > 🔴 Ve veride tersi de var: `eflak` ve `bogdan` **`f:` ucunda** 🔴.
+  >
+  > 🟢 **AYAKTA KALAN:** sınıf var ve künyeden yüksek — ama **iki kat,
+  > dört kat değil** (yerleşim %22 · künye %12). Vakalar gerçek:
+  > `berlin-antlasmasi t=1908` · `bihac t=1908` · `eflak f=1806 ve t=1812`.
+  >
+  > 🔴🔴 **VE ASIL KUSUR ÖLÇÜMDE DEĞİL BENDE:** işçi oturum daralığı
+  > **raporunda ÖNCEDEN yazmıştı** — *"35 ucun 7'si tek slug'dan; bu
+  > darlıkta tek bir slug sonucu sürükleyebilir"*. Ben onu **okudum**,
+  > dersi `CLAUDE.md`ye **yine de yazdım**, ve ancak ondan sonra
+  > sınanmasını istedim.
+  > ⇒ ***Çürüten kanıtı elinde tutarken bir iddiayı terfi ettirmek,
+  > ölçmeden tahmin etmekten KÖTÜDÜR*** — çünkü tahminin dayanağı yoktur,
+  > bunun ise **yanlış bir dayanağı** vardır ve okuyan onu ölçülmüş sanar.
+  > 🟢 Yakalayan şey de bir denetim değil, **çürütme talebinin kendisiydi**
+  > (*"çökerse SÖYLE, damgalarım"*) — ve o cümle yazılmasaydı ders
+  > belgede kalırdı.
 
   *"Beyan edilen kaynak iddiayı taşımıyor"* sınıfı yerleşim katmanında
   ölçüldü ve çıkan şey bir oran değil bir **asimetri** oldu:
@@ -6511,3 +6541,29 @@ YERLEŞİM  slug bir OLAYIN maddesi; bir dönemin İKİ ucunu birden taşımak
   evren coğrafî ya da zamansal olarak değil, **beyan sahipliği** bakımından
   dardı. ⇒ Bir alanı ölçerken sorulacak: ***bu değeri bu kayıt mı BEYAN
   ETTİ, yoksa devraldı mı?***
+
+- 🔴🔴 **BİR EVRENİN YARISINDAN ÇOĞU TEK BİR ÜYEDEYSE, RASTGELE ÖRNEKLEM
+  EVRENİ DEĞİL O ÜYEYİ ÖLÇER — ve sonuç "ölçüldü" diye kaydedilir.**
+  *(5 Eylül 2026 · `urabi-pasa` · ve çürüyen ders bu yüzden çürüdü)*
+
+  Dönem `kaynak:` evreninin dağılımı ölçüldü:
+```
+192 uç · 19 slug
+slug başına uç: [110, 28, 14, 12, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1]
+   urabi-pasa         110  (%57)
+   + berlin-antlasmasi 28  ⇒ İLK İKİ %72
+```
+  ⇒ Rastgele 20 dönem çeken bir örneklem **zorunlu olarak** o iki slug'a
+  düşer. Ölçülen şey *"yerleşim katmanının `kaynak:` davranışı"* değil,
+  ***`urabi-pasa`nın davranışı*** olur — ve rapor birincisinin adıyla
+  yazılır.
+
+  🟢 **ÇARE: SLUG BAŞINA TAVAN.** Aynı evren, `slug ≤ 2` tavanıyla
+  yeniden örneklendi ve iddia **çöktü** (%87 → %57, 7 kırmızıda 4).
+  📌 `§11`in *"temiz çıkan bir örneklem, örneklemin dışını temiz ilan
+  etmez"* dersinin **dağılım** yüzü: orada evren coğrafî olarak dardı,
+  burada **istatistiksel olarak çarpık** — ve çarpıklık örneklem
+  büyüklüğüyle düzelmez, yalnız **tavanla** düzelir.
+  ⚠️ Ve ölçüm öncesi sorulacak tek soru bu: ***evrenin en büyük üyesi
+  yüzde kaçını tutuyor?*** Cevap yarıdan büyükse, örneklem bir oran değil
+  **o üyenin portresidir.**
