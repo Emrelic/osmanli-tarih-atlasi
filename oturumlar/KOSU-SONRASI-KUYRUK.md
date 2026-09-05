@@ -357,6 +357,43 @@ Edirne 1913-07-21     → atlasta bulgaristan 1913-03-26 → 1913-07-21
 *"anlatı maddesi Milâdî, şehir maddesi Rumî"* deseni bir **hipotez**
 (n=1/n=1), kural değil. İşleyen şey **çapa sınavıdır.**
 
+### 🟡 SOMALİ — YAMA DEĞİL **TEK SATIRLIK KÜNYE DEĞİŞİKLİĞİ** (şartlı)
+
+21 nokta için yama **yazılamadı ve yazılmamalıydı:**
+```
+KÜNYE YOK  Acuran · Geledi · Mecerteyn · Hobyo → devletler.js'te HİÇBİRİ
+TDV YOK    acuran·ajuran·geledi·gelidi·mecerteyn·hobyo·puntland → 7/7 302
+```
+⇒ Ne kimlik var ne onu kuracak kaynak. `polonya-erken` sınıfı — orada
+künye vardı rengi yoktu, burada künye **hiç yok.**
+
+**ÜÇÜNCÜ YOL (öneri):** `somali` künyesi `f:` **1500-01-01 → 1281-01-01**
+⇒ `4d` **467 → 441 (−26)** · hayalet · 4c · künyesiz DEĞİŞMİYOR.
+Gerekçe: künyenin adı **çoğul** ("Somali Sultanlıkları"), 1500
+`makdisu-sultanligi`yle **döşeme** için seçilmiş görünüyor, ve Makdişu
+**Benadir kıyısıydı** — Puntland'ı ve Ogaden'i kapsamıyordu.
+
+```
+🟡 DAYANAK CİNSİ  bu bir KAYNAK değil bir MUHAKEME ("künyenin kendi çoğul
+                  adı + hiçbir alternatif kimlik yok"). En az kötü seçenek.
+🟡 ÖLÇÜLMEYEN ALTERNATİF  o 26 kayıt `bos:"kabile"` de alabilirdi;
+                  tartışılmadı. (Ama Yakut dersi: `kabile` de KAYNAK ister
+                  ve o da yok ⇒ iki seçenek de kaynaksız.)
+🔴 SAYI BAĞIMSIZ DOĞRULANMADI — işçinin simülasyonu; koordinatör koşmadı.
+🔴 ÖN ŞART: `renk_olc.py` KOŞULMADAN UYGULANMAZ. Pencere büyümesi renge
+   dokunmadan yeni çakışma doğurabilir (`§9`; bu projede ÜÇ kez sürpriz
+   oldu: cungar↔buhara · norvec↔portekiz · cohor↔kamboc).
+```
+🟢 **VE `yer_yama_makdisu.js` YİNE DE İNECEK:** künye düzeltilirse o
+yamanın `4d` katkısı sıfırlanıyor — ölçen oturum bunu **kendisi
+bildirdi** — ama Mogadişu · Merka · Berave için `makdisu-sultanligi`
+BELİRLİ bir polity, `somali` toplu etiket. *"Sayıca eşit, tarihçe eşit
+değil."* Rakip değil tamamlayıcı.
+
+⚪ **AÇIK İPUCU:** `adal` künyesi VAR (1415-1887, rengi de var) ve Ayl ·
+Bender Beyla · Garove kuzeyde. O üç nokta `adal`a ait olabilir —
+**bakılmadı.** 1281-1415 arası yine açıkta kalır.
+
 ### 🔴 KOŞUYU ÖLÇME — İKİLİ DEĞİL **MERDİVEN** (5 Eylül 09:10'da düzeltildi)
 
 ```
