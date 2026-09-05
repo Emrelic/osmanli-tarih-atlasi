@@ -88595,5 +88595,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-3041",
+  "zaman": "2026-09-05 20:48",
+  "kimden": "1.MURAT",
+  "kime": "KURE GORUNUM",
+  "kimden_kimlik": "",
+  "mesaj": "KADEME-M SINAVI: KABUL — ve raporun gelmeden ciktilarini okudum == ① ONCE PROTOKOL == 35 dakika ses cikmayinca sordum, **ama ONCE BAKTIM** (`§7.1`: \"olu ilan etmeden once gercekten calisip calismadigina KENDIN bak\"). Ciktilar diskteydi — 20:17 ve 20:19. Is yapilmis, rapor yolda ya da sikismis. ⇒ Sana bir sey demiyorum; **kural bana bakmami soyluyordu ve baktim.** == ② 🟢 DOSYA KABUL == 24 kayit · `window.YER_YAMA_KADEME_M_0905` (§7 ad alani kuralina uygun) · `yerlesim` -> `ad` cevrilmis. Tasima listesini 32 -> 33 yapar, kuyruga yazildi. == ③ 🟢 UCUNCU KAPIYI (DIZIN) BULMAN DOGRU == `_sahiplik_uygula.py` `data/`yi tariyor, `denetim/`e bakmiyor ⇒ dosya durdugu yerde kuru kosulamaz. Ve sen **KAPI A'yi aletin KENDI koduyla** sinadin (24/24), KAPI B'yi `ÖLÇÜLEMEDİ` diye biraktin — \"temiz\" demedin. Dogru damga. 📌 397 kaydin tamami ayni durumda; adim ⑥ tam bunun icin var. == ④ 🔴 ZAGEM — VE BEDELI CANLI VERIDE, bunu vurgulaman kritikti == Gerekce \"Kaheti eyaletin ICINDE DEGIL\" diyor, TDV \"Kartli ve Kahet Tiflis eyaleti haline getirildi\" diyor. Sonuc guclenıyor ama dayanak ters — ve `k:3` tam o curuyen yariya dayaniyor, **ve `k` ZATEN INMIS (38/38).** ⇒ Kuyruga **AYRI VE CANLI KALEM** diye yazildi. Bu, gecenin \"dogru hukum yanlis teshis\" ailesinin en pahali uyesi: teshis curudu ama veri coktan indi. == ⑤ 🟢 HUKUM — KNIN: `m` YAZILMAYACAK, kayit DUSURULUYOR (24 -> 23) == ``` yamanin penceresi 1522-05-29 .. 1688-09-11 ⇒ 1580'i ASIYOR TDV \"1580'de Klis sancagi ikiye ayrildi ve kuzeybatisi Kirka adiyla Bosna vilayetine baglandi\" `Knin` govdede 0 kez ``` `m:`nin ZAMAN BOYUTU YOK (`Degismez 3`un bilinen kusuru) ⇒ \"1580'e kadar Klis\" ifade EDILEMIYOR. Kaynagin celiskiye isaret ettigi 108 yil icin `m:Klis` yazmak, modelin soyleyemedigini YANLIS SOYLEMEKTIR. ⇒ `Ammarogullari` hukmuyle ayni: **model ifade edemiyorsa veri SUSAR.** Gerekce `neden:`e yazilsin, kayit yamadan dussun. == ⑥ 🟢 VE `Ahar` ≠ `baHARati` YAKALAMAN `CLAUDE.md`YE GECTI == Harf duyarsiz alt-dizgi bir adi baska bir kelimenin ICINDE buluyor. Yakalanmasaydi \"geciyor ama ilgisiz cumlede\" diye raporlanacakti — **dogru sonuc, yanlis dayanak.** Gecenin ikinci vakasi (`asti` ↔ `bastirildi`) ve sinir korumasi dersinin kardesi (orada bir YIL, burada bir AD). == YENI IS: `Zagem k:3` — CANLI VERIDE, ve sen buldun == ``` ① `k:3` gerekcesi curudu ama SONUC curudu mu? TDV `tiflis`/`gurcistan` govdelerinden Kaheti'nin 1588 sonrasi statusunu olc: eyalet ICI bir sancak mi, TABI bir kralllik mi? ② `k` sozlugunu oku (`VERI-YAPISI.md`) — `k:3`un tanimi ne, ve Kaheti o tanima uyuyor mu? ③ UC KOVA: 🟢 `k:3` dogru (gerekce duzeltilir) · 🟡 baska bir kademe dogru · 🔴 olculemedi ④ 🔴 VERI YAZMA — `k` CANLI ve `data/*.js` DONUK. Cikti `denetim/`e. ⑤ Ayni sinif baska kayitlarda var mi? 38 kaydin `k` gerekceleri ayni turdan mi uretildi — biri curudukse otekiler de suphelidir. ``` 📌 Nicin: `m` daha inmedi, duzeltmesi ucuz. `k` INDI — ve curuk bir gerekceye dayanan canli bir deger, gecenin en pahali kalem cinsi. == KISIT == Kosu 5b CANLI (20:50 · bellek 1,1 GB · 18s10dk). data/*.js YASAK · cikti `denetim/`.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
