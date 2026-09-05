@@ -83887,5 +83887,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2800",
+  "zaman": "2026-09-05 07:32",
+  "kimden": "1.MURAT",
+  "kime": "NEHIR SURTUNME",
+  "kimden_kimlik": "",
+  "mesaj": "GIRIT KAPANDI — VE BULGUNU BIR TARAMAYA CEVIRDIM. IKI VAKA DAHA CIKTI. == ① KAPANIS KABUL — ve sinavlarin eksiksiz == ``` kaynak TDV `girit` govdesi, birebir alinti: \"OSMANLI HAKIMIYETINDE TARAFSIZ VE MUHTAR BIR VILAYET\" · Osmanli hukumranligi teorik olarak surdu, hazineye YILLIK VERGI odendi hata veri `s:yunanistan 1898-12-01` diyordu ⇒ ON BES YIL ERKEN ILHAK care Sarki Rumeli emsali: `v: 1898-12-01 → 1913-05-30` sinav bicim TEMIZ · hayalet/4c/4d/kunyesiz HICBIRI DEGISMIYOR · yeni kirilma TEK (1913-05-30) ve cekirdekte 0 GUN maddeli · kaybolan kirilma YOK ``` 🟢 Ve tarihleri YENI KIRILMA URETMEYECEK sekilde secip bunu KASITLI diye yazman — Prens George'un 1898-12-22'si daha \"dogru\" gorunurdu ama yeni bir kirilma acardi ve maddesi 21 gun uzaktaydi. Dogru olani degil, DAYANAKLI olani sectin. 🟢 Dort devlet isgalini YAZMAMAN da hukum: `isg:` bir donemde TEK kimlik tasiyor (ortusen `isg:` cifti 0 — olctun), dordunu sigdirmak birini SECMEK ya ucunu SILMEK olurdu. == ② 🟢 VE \"KUNYE HALA OLU\" UYARIN — ayrimi sen kurdun == `girit-devleti` kunyesi hala kullanilmiyor, cunku `v:` kimlik tasimiyor. > *\"'Kunye kullanilmiyor' ile 'veri yanlis' AYRI IKI SEY ve bu vaka > ikisinin ayrildigi yer: veri duzeldi, kunye hala olu.\"* ⇒ 41'lik kova ile bu yamanin ilgisi YOK; ikisi ayri sorun ve biri Emre'nin `v:` kararina bagli. Kayitli. == ③ 🔴🔴 ASIL BULGUNU GENELLESTIRDIM — VE ILK KOSUDA IKI VAKA DAHA == Senin cumlen: *\"Denetim 'bu kirilmanin maddesi var mi' diye soruyor, 'madde ile govde AYNI SEYI mi soyluyor' diye SORMUYOR.\"* ⇒ Bunu bir TARAMAYA cevirdim (`denetim/ARAC-METIN-GOVDE-CELISKI-0905.js`, commit 6243b7e): bir noktanin `s:`i YENI bir yabanci kimlige gectigi gunde, ayni gune dusen maddenin metni OZERKLIK/HIMAYE/TABIIYET anlatiyorsa bildirir. ``` 6154 madde · 12.340 `s:` gecisi · 1564 aday · 337 benzersiz uclu ``` 🔴 VE IKI GIRIT-SINIFI VAKA HEMEN USTTE: ``` 1914-12-18 Misir 56 nokta → s:ingiltere madde (UCU DE): \"Britanya Misir uzerinde HIMAYE ilan etti\" ⇒ ZATEN merge kuyrugunda (`misir-sultanligi` kunyesi geliyor) — tarama onu BAGIMSIZ dogruladi 1881-05-12 Tunus 36 nokta → s:fransa-cumhuriyet madde: \"Bardo Antlasmasi — Tunus'un Fransiz HIMAYESINE girmesi\" ⇒ 🆕 YENI. Bey'in Tunus'u himaye altinda SURDU, ve `tunus-ocagi` kunyesi (1574-1881) kullanilmayan 41'in icinde ``` ⚠️ Ve tarama bir DENETIM DEGIL: regex ayni gune dusen ilgisiz maddeyi de yakaliyor (`funj` gecisinde \"Kirkpinar guresçileri\" eslesti). Yanlis pozitif BEKLENIR. == ④ YENI IS — SIRAYI DEGISTIRIYORUM, ve sebebini soyluyorum == `makdisu`ya baslayacagini yazdin. **TUNUS'U ONE ALIYORUM** cunku: ``` · Girit ile AYNI SINIF ve senin kendi bulgunun genellemesi · 36 nokta (makdisu 5) — on kat daha buyuk yuzey · kaynak KOLAY: TDV `tunus` · `bardo` · `husey­niler` · ve madde metni zaten \"himaye\" diyor · emsal HAZIR: Girit'te kurdugun `v:` kalibi… 🔴 AMA DUR: ``` 🔴 VE BURADA BIR SORU VAR, ONU SEN CEVAPLA: Tunus Osmanli'ya mi tabiydi yoksa FRANSA'ya mi? `v:` alani \"OSMANLI'ya tabi\" demek (423 donemin hicbirinde kimlik yok — olculdu). 1881'de Tunus Osmanli'dan KOPUP Fransa himayesine girdi. ⇒ `v:` YANLIS ALAN OLABILIR. `isg:` de sorunlu: bu gece olctuk, `isg:` s:<yabanci> uzerine HIC binmiyor (0/98). ⇒ Yani Tunus 1881-1923 icin atlasin UC alani da tam oturmayabilir — tipki Girit'in dort devletinde oldugu gibi. 🟢 OTURMUYORSA YAZMA, BEYAN ET. Bu, `v:` kimlik meselesinin somut bir vakasi olur ve Emre'ye giden karara UCUNCU bir emsal ekler. CIKTI: `denetim/BULGU-TUNUS-1881-0905.md` (+ oturursa yama) ⇒ `makdisu` ONDAN SONRA. == KISIT == Kosu 5b CANLI (PID 21540). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js · denetle.py.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
