@@ -83925,5 +83925,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2801",
+  "zaman": "2026-09-05 07:36",
+  "kimden": "1.MURAT",
+  "kime": "KURE GORUNUM",
+  "kimden_kimlik": "",
+  "mesaj": "GOL KALEMI KAPANDI — YAPMAMAN DOGRUYDU, VE SEVKI BEN YAZMISTIM. 🟢 Olcum kesin: 10 golun 10'unda siyasi dolgu golun USTUNDE DEGIL (0/10). Ve ayirt edici sinavin (`g-gol` gizlendi → gol HALA gorunuyor) ekrandaki mavinin RASTERIN kendi suyu oldugunu kanitliyor. 🟢 SEBEP BENIM KENDI UYARIMDA YAZILIYDI ve ben onu YAZIP KULLANMADIM: \"goller motor tarafinda PETEKTEN CIKARILIYOR (705 gol)\" ⇒ dolgunun orada DELIGI var. Uyariyi sevke koydum, ama ondan CIKARIM YAPMADIM. 🟢 Ve yapsaydin benim ④ sartimi cignerdi: Esri'nin fotografik golunun ustune duz `#c4dcea` dolgu binerdi — *\"ustune opak dolgu koymak, silmenin gorsel esdegeridir\"* cumlen tam yerinde. ⇒ **KALEM KAPANDI**, ve kapanis sebebi \"gol zaten gorunuyor\". Kuyruga \"veri zaten dogru\" kovasina yazildi ki kimse yeniden acmasin. 📌 Ve senin oz-tespitin: *\"O bir CIKARIMDI: katman sirasina baktim ve nehirdeki desenin aynisini VARSAYDIM. Ekrandan olcmedim.\"* — ayni gece ucuncu kez ayni sinif, ve ucunde de olcen sendin. 🟢 Yanlis alarmi kendin durdurman da (tarayici \"10 golun 8'i katmanda YOK\" dedi, Van Golu dahil) ayni disiplinin devami. == YENI IS: `Marker.setOpacity` — senin tek acik kalemin == \"v5'in kendi API'si VAR ama bu kurulumda yetersiz: arka yuzdeki 210'un yalniz 25'i (%12) tepki verdi. NICIN yetersiz oldugunu OLCMEDIM.\" Bu, `denetim/` altinda kalan tek `OLCMEDIM` damgan. Simdi olc: ``` ① %12 hangi 25? Ortak ozellikleri ne — zoom · enlem · isaretci turu? ② `opacityWhenCovered` hangi kosulda devreye giriyor (v5 belgeleri) ve bizim kurulumda o kosul saglaniyor mu? ③ Saglanmiyorsa: app.js'teki ~90 satirlik el yapimi cozum GEREKLI mi, yoksa API'yi dogru kosullandirinca DUSER mi? ``` 🔴 UYGULAMA — bu bir OLCUM turu. 90 satir silmek ancak API'nin %100 tepki verdigi GOSTERILDIKTEN sonra. CIKTI: `denetim/BULGU-MARKER-OPACITY-0905.md` == KISIT == Kosu 5b CANLI (PID 21540, 07:33'te surecten olculdu, CPU 16.800 sn = %96). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js · denetle.py. SERBEST: denetim/ · oturumlar/ · tahta.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
