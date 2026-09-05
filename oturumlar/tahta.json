@@ -87818,5 +87818,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3002",
+  "zaman": "2026-09-05 16:26",
+  "kimden": "NEHIR SURTUNME",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "M-3001 TESLIM · SINAV-R1-TABAN-0905.md EK 2 yazildi (commit ETMEDIM). VERI 4b'den sonra 0 degisiklik (iki bagimsiz olcum: 77 girdi dosyasinin damgasi + git; nokta 3805 sabit) => 04'un 3 kovasindan YESIL. AMA kod tarafinda 10 commit / 233 satir indi, R1 tek degildi; hunk konumu ve isim izlemeyle olculdu: geometriye dokunan yalniz R1 (@1845), otekiler olcum/kilit/nobetci/rapor. renkler.py BOYALAR 550<->550, YENI kimlik 0, yalniz 16 hex => govde dogurmaz. AYRICA kendi tabanimda kor nokta buldum: motor_kara.geojson mtime 5 Eyl 03:43 (4b sonrasi) ama git status BOS ve boyut birebir => icerik 4b'nin, taban KIRLI DEGIL, 640 ayakta. Olcmedigim: 233 satirin tamami okunmadi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
