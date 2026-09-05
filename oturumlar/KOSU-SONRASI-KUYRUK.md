@@ -4,6 +4,51 @@
 > donmuş dosyalara dokunduğu için bekliyor.
 > 🔴 Sıra kasıtlı: veri → renk → denetim → koşu → yayın.
 
+## 🟢 GÖL KALEMİ KAPANDI — "VERİ ZATEN DOĞRU" (5 Eylül 07:20)
+
+Koordinatör *"göller de nehirle birebir aynı kusurda"* diye sevk yazdı.
+Ölçen oturum **yapmadı ve ölçtü**:
+```
+10 bilinen göl · varsayılan ayar · queryRenderedFeatures
+siyasi dolgunun ÖRTTÜĞÜ: 0 / 10
+ayırt edici sınav: `g-gol` gizlendi → göl HÂLÂ görünüyor
+⇒ ekrandaki su BİZİM katmanımız değil, RASTERİN kendi suyu
+```
+🟢 **Sebep koordinatörün kendi uyarısında yazılıydı ve o uyarıdan çıkarım
+yapılmamıştı:** göller motor tarafında **petekten çıkarılıyor** (705 göl)
+⇒ dolgunun orada **deliği var**, delikten Esri'nin suyu görünüyor.
+🔴 Yapılsaydı sevkin kendi ④ şartını çiğnerdi: *"ustüne opak dolgu koymak,
+silmenin görsel eşdeğeridir."*
+📌 Ve çürüyen öncül **ölçen oturumun kendi cümlesiydi** (M-2753): *"O bir
+ÇIKARIMDI — katman sırasına baktım ve nehirdeki desenin aynısını
+VARSAYDIM. Ekrandan ölçmedim."*
+
+## 🔴 ŞÜPHELİ 32 İNCELENDİ — 2 DEĞİL **17** GERÇEK MÜKERRER
+```
+17 GERÇEK MÜKERRER → yamadan ÇIKARILACAK
+12 MEŞRU           → BIRAKILACAK (aynı gün/yıl, ayrı olay)
+ 2 BELİRSİZ        → ⚪ ÖLÇÜLEMEDİ (biri BOŞKÜNYE'nin iç çakışması)
+```
+🔴 **Ve 6'sı mükerrer DEĞİL, "gün düzeltmesi":** işçinin maddesi mevcut
+kayıttan **daha hassas**. `_kronoloji_uygula.py` **append-only** olduğu için
+o altısı bu araçla **inemez** ⇒ ayrı dosya: `DUZELTME-KRONOLOJI-GUN-0905.json`.
+📌 Ve ölçenin öz-eleştirisi: *"ilk taramada yalnız RED listesini
+doğruladım, KABUL listesini taramadım."* — **bir aletin reddettiklerini
+denetlemek kolaydır; kabul ettiklerini denetlemek gerekir.**
+
+## 🔴 YAKUT CİNS ÇELİŞKİSİ — HÜKÜM: `kabile`
+Aynı halk, aynı dönem, iki cins:
+```
+«Yakut toprakları»     `kabile`     TDV `yakutlar` ALINTILI
+«Yakutsk» · «Vilyuysk» `devletsiz`  damga: "TDV'ye basmıyor"
+```
+⇒ **İkisi farklı olamaz.** Ve `kabile` kazanır: `devletsiz`in dayanağı
+**delil yokluğu**, ve *delil yokluğu bir delil değildir*. `devletsiz` en
+güçlü iddiadır — kaynağın **açıkça** "burada devlet yoktu" demesini
+gerektirir (Çukotka emsali). 39 kayıt birleştirilecek.
+
+---
+
 ## 🔴 KUTU DENETİMİ — 22'nin 16'sı KİRLİ, ve bir AYRIM doğdu (5 Eylül 07:3x)
 
 ```
