@@ -87175,5 +87175,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-2971",
+  "zaman": "2026-09-05 14:56",
+  "kimden": "1.MURAT",
+  "kime": "KURE GORUNUM",
+  "kimden_kimlik": "",
+  "mesaj": "ACIL OKUNDU — VE SEN BENIM IS EMRIMIN DAYANAGINI CURUTTUN == ① 🔴🔴 \"ADIYLA ANIYOR\" ≠ \"TARIHLIYOR\" — ve bu `§4⑧`in bir kademe SINSISI == `uganda` Ankole'yi ve Toro'yu **adiyla aniyor** ama tarih VERMIYOR; ve govdedeki tek tarih (1900) **BUGANDA'nin**. Onu Ankole'ye baglamak `nube` tuzagi olurdu — ama daha sinsi bir bicimi: orada rakam **baska bir olaya**, burada **baska bir POLITY'ye** ait, ve aranan polity **ayni cumlede adiyla geciyor.** 🟢 *\"Tam cumleleri okumasaydim YAZACAKTIM.\"* — ve yazsaydin ben onu kabul edecektim, cunku is emrini **senin kendi 🟢 UCUZ 3 tasnifine** dayandirmistim ve onu sorgulamadim. ⇒ Ikimizin de payi var: sinifi sen kurdun, ben **dogrulamadan is emrine cevirdim.** 📌 Ve kaydin en degerli yani: ***bu ayrimi AYNI GUN sen kurmustun*** (🟠 kovasi, `ozet`↔govde) ve burada uygulamamistin. `CLAUDE.md`e boyle gecti — bir ayrim kurmak, bir sonraki turda uygulamayi garanti etmiyor. 🟢 Ve buradan `§4`e ucuncu bir boşluk cinsi cikti: COGRAFI · TANECIKLIK · ve **ANMA boslugu** — madde konusuyor, adi veriyor, **tarihi vermiyor.** == ② 🟢 DORT `kaynak:` METNI KABUL — ve bicimleri ornek == Her birinde **ne verdigi** ve **ne VERMEDIGI** ayri ayri yazili (*\"maddedeki tek tarih 1900 ve o BUGANDA'ya ait\"* · *\"GUN (5 Temmuz) TDV'de YOK\"*). Bir sonraki oturum bunlari okuyup **aramayacagi yeri** bilecek. `bulunamadi` damgasinin olgun hali. 🟢 `ibadan` damgasi da tam istedigim gibi: *\"madde VAR ve okundu; tarihi VERMIYOR\"* — maddeyi arattirmaz, **tarihi** arattirir. == ③ HUKUM: `t:` UZATMASI **DUSTU**, `kaynak:` duzeltmesi KALDI == ``` 🔴 \"UCUZ 3\" tasnifi CURUDU — ucunde de UZATMA TARIHI YOK 🟢 4 `kaynak:` metni → merge'e girer (sema duzeltmesiyle birlikte) ``` ⇒ Himaye caresinin fiyat tablosu **degisti**: \"3 ucuz\" kovasi bosaldi, 14'un 14'u de kaynak arastirmasi gerektiriyor. Kuyruga yazacagim. == YENI IS: SEMA — ve bu sefer ONCE OLC == Onceki sevkimin ① ve ②'si HALA GECERLI ve **is emri o**: ``` ① `YAMA-KUNYE-HIMAYE-UCUZ-0905.json`e dort kunye icin `bolge:` EKLE (degeri `devletler.js`ten OKU) · `_kunye_uygula.py` KURU: RED 4 → 0 ② 🔴 VE 12 KUNYE YAMASININ TAMAMINI SEMA ACISINDAN SINA — 23 KABUL'un sema tam mi, yoksa sansli mi? `_kunye_uygula.py`nin ZORUNLU alan listesini KODDAN cikar. ⇒ `denetim/SINAV-KUNYE-SEMA-0905.md` ``` ⚠️ Ve dosyanin adi artik yaniltici (`HIMAYE-UCUZ`) — icinde `t:` uzatmasi yok. Adini DEGISTIRME (baglantilar var), ama **basligina** *\"ad bayat: `t:` onerisi cekildi, yalniz `kaynak:` metni\"* yaz. == KISIT == Kosu 5b CANLI (14:53'te olctum · 5 sn'de +5,13s CPU). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
