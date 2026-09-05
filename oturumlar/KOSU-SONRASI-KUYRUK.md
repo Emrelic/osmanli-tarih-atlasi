@@ -2107,6 +2107,59 @@ yazımı **gerektiriyor**; kuyruktaki mevcut kayıt da aynı biçimde. Gizlenmed
 *"1747-1796 penceresi bilerek `iran` bırakıldı"*. Veride **134 `zend` +
 134 `kacar`** dönemi var ⇒ ikisi de bayat, merge'de düzeltilir.
 
+### 🟢 `kur:` ARAÇ KUSURU — **DÜZELTİLDİ (19:40, commit `a42a5de`)**
+
+Elle listedeki *"`kur:` YALNIZ Ndjamena"* kalemi **araç tarafında KAPANDI.**
+`arac/_sahiplik_uygula.py`nin **dört** yerine `kur` eklendi: node süzgeci ·
+`CATISABILIR` · `SKALER_ALANLAR` · `SKALER_KORUNAN`.
+```
+ÖNCE  yalnız-`kur` yama   → node süzgecinde ELENIR, Python'a HİÇ ULAŞMAZ
+      `kur`+`kaynak` yama → süzgeci geçer, alan HİÇ OKUNMAZ, `atlanan`a
+                            kayıt DÜŞMEZ — SESSİZ
+SONRA C13 dört ayak da koşuldu · üç dal da ateşledi (kum havuzu, GERÇEK dosya)
+```
+🔴 **VE KALEMİN ÖNCÜLÜ ÇÜRÜDÜ — sayılar kuyruktan düzeltilsin:**
+```
+kuyruk/rapor  "MEVCUT kayıt 1 → Ndjamena (data/yer_yama_belgesiz4.js)"
+ÖLÇÜM         `data/yer_yama*.js` içinde `kur:"` → **0**
+              `data/yer_yama_belgesiz4.js` → **dosya YOK**
+              `denetim/` altında `"kur"` → 646 geçiş / 10 kayıt (BEKLEYEN)
+              hedeflerde (`yerlesimler*.js`) `kur:` → **1340**
+```
+⇒ Yama **düzeltici değil ÖNLEYİCİ**, ve tam bu yüzden şimdi yapılması
+gerekiyordu: 397 kayıt adım ⑥'da `data/`ye taşınınca 10 `kur` sessizce
+yok olacaktı. Taşımadan SONRA yapılsaydı kayıp çoktan gerçekleşmişti.
+🔜 **Taşıma sonrası DOĞRULA:** kuru koşuda `kur` inen kayıt sayısı > 0 olmalı.
+
+### 🟡 ELLE YAPILACAKLAR — KÜRE GÖRÜNÜM'ün ölçtüğü ÜÇ DÜZELTME
+
+```
+② YENİ NOKTA      52 → **60**   ve sınav beklentisi 3855 → **3865**
+                  (61. aday nokta DEĞİL: `yer_yama_uyg2.js` içinde
+                   ad:"Urmiye, Selmas, Sulduz…" — lat/lon YOK, bir HÜKÜM
+                   kaydı. Araç onu `atlanan`a yazıyor ⇒ gürültü, kayıp değil.)
+④ YAKUT           sayı DOĞRU (6), ama **koruma komutu KIRIK**:
+                  aranan  ad:"Anadir"          ad:"Çukotka"
+                  canlı   ad:"Anadır (Anadyrsk)"  ad:"Çukotka merkezi"
+                  ⇒ kapanış tırnağı yüzünden İKİSİNİ DE bulamaz, çıktı BOŞ
+                    gelir, ve boş çıktı *"dokunulmamış, temiz"* okunur.
+                  🟢 SAĞLAM DOĞRULAMA **SAYIMDIR**:
+                     bugün devletsiz 132 · kabile 144
+                     merge sonrası **126 / 150** olmalı
+                     (Anadır/Çukotka yanlışlıkla taşınırsa devletsiz 124'e düşer)
+                  ⚠️ Ve kalem **ÜÇ dosyada**: `_ek8` (Jigansk·Verhoyansk·Bulun) ·
+                     `_ek9` (Yakutsk·Olyokminsk) · `_ek13` (Vilyuysk).
+                     Biri atlanırsa sayım tutmaz ve SEBEBİ GÖRÜNMEZ.
+③ MUKELLA         hâlâ geçerli, hiç dokunulmamış. Canlı ad **"Mukalla"**.
+                  Düzeltme bir alan GENİŞ: `1888/ingiltere` →
+                  `1881/kuayti-sultanligi` + `isg:ingiltere 1888`.
+```
+🔴 **VE BİR ÖNCÜL İKİ KAYITTA BİRDEN YANLIŞ:** `Mukalla`nın `neden:`
+metnindeki *"19. yy'daki İngiliz HİMAYE ANTLAŞMALARINA kadar"* ifadesi,
+bu gece Manama'da **çürütülen** öncülün aynısı (himaye 1861 değil
+**1913-07-29**). ⇒ İki kayıt, tek yanlış öncül; Mukalla düzeltilirken
+`neden:` metni de elden geçer.
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri
