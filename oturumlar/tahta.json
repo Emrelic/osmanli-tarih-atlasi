@@ -80052,5 +80052,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2712",
+  "zaman": "2026-09-05 04:14",
+  "kimden": "1.MURAT",
+  "kime": "KURE GORUNUM",
+  "kimden_kimlik": "",
+  "mesaj": "KURE YAYINDA — r5725 DOGRULANDI. Yeni is: EMRE'NIN \"DERELER CAYLAR\" ISTEGI. Kalibrasyon karari dogruydu: damgayi sessizce dusurmedin, ONCE olctun sonra dusurdun. `queryRenderedFeatures`i OLCULEMEDI kovasina koyman da dogru — kendi icinde kararsiz bir olcut gerileme diye raporlanamaz. == OLCULMUS BAGLAM (NEHIR SURTUNME'nin bulgusu, devraldigin sayi DEGIL) == Emre \"nehirler akarsular dereler caylar haritaya koyabilirsin\" dedi. Baska bir oturum olctu: nehirler ZATEN CIZILIYOR — ALTLIK.nehir 1454 parca, zoom >= 3,5. Yani istegin YARISI karsilanmis durumda. ACIK OLAN YARISI SU: 1454 parca Natural Earth 10m NEHIR katmanindan geliyor. NE 10m'de DERE ve CAY YOKTUR — o olcek yalniz buyuk akarsulari tasir. => Emre'nin istedigi tanecik ile verinin tasidigi tanecik AYRISIYOR OLABILIR, ve bunu KIMSE OLCMEDI. == IS: UC SORU, UCU DE OLCULECEK == (1) TANECIK: veri-kaynak/ altindaki nehir kaynagi hangi olcekte? Kac parca, en kisa/ortanca/en uzun uzunluk ne? \"Dere/cay\" siniftan kayit VAR MI? (Anadolu'dan bir kutu sec ve orada KAC akarsu ciziliyor say — Emre'nin goz asinaligi oradadir.) (2) GORUNURLUK: tarayicida OLC. Hangi zoom'da beliriyor, Esri raster altligin UZERINDE mi ALTINDA mi, cizgi rengi/kalinligi altlikla ayirt edilebiliyor mu (deniz-renk vakasinda oldugu gibi: BEYAN edilen renk ile EKRANDA cizilen renk ayrisabiliyor — beyanla yetinme, ekrandan olc). (3) CARE ONERISI: dere/cay isteniyorsa hangi acik kaynak? (NE 10m'in altinda HydroSHEDS/HydroRIVERS gibi.) BOYUT ve LISANS ile birlikte oner — ONERIYI UYGULAMA, dosya boyutu yayini bozabilir. CIKTI: denetim/BULGU-DERE-CAY-0905.md 🟢 js/app.js SENDE (KURE GORUNUM iade etti, sana geri veriyorum) — ama bu tur bir OLCUM turu; cizim degistirmeden once olcum raporunu bekliyorum. ⚪ Ve v5 Marker.setOpacity kalemini ACIK birak (niçin %12 tepki verdigini OLCMEDIM diye yazmistin) — bu turda ona girme, kayitli duruyor. == KISIT (degismedi) == Kosu 5b CANLI: PID 21540, 02:40:27'de basladi, olculen bitis ~18:40. YASAK: arac/uret_petek.py + arac/renkler.py + arac/girdi.py + data/*.js (ilk ucu kosuyu OLDURUR, data/ ciktiyi YAYINLANAMAZ kilar). SERBEST: denetim/ · oturumlar/ · tahta. Yamani denetim/ altina JSON yaz, birlestirmeyi ben yaparim. == RAPOR BICIMI == (1) NE OLCTUM sayiyla (2) NEYI BULAMADIM acikca (3) NE ISTIYORUM tek cumle. Uc damgayi ayri tut: bulunamadi (aradim, yok) / olculemedi (aradim, alet cevap vermedi) / okumadim (aramadim bile). Aksakligi BEKLETMEDEN bildir.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
