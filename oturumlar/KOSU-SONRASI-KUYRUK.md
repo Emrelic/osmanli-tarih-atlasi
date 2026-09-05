@@ -2063,6 +2063,50 @@ kaynak.
 🔜 Ve borç: aşama satırları **tamponsuz** ikinci bir dosyaya da
 yazılmalı — yoksa her koşuda aynı körlük tekrarlanır.
 
+### 🟢 HÜKÜM — ZEND SONU MADDESİ: **`1794-01-01`** (M-3009, 17:20)
+
+```
+A  1794-01-01   🟢 KABUL
+B  1793-07-10   🔴 RED — iki ayrı sebeple
+```
+🔴 **B'nin RED gerekçesi, NEHİR SÜRTÜNME'nin verdiğinden ağır:** B yalnız
+`2s`yi **sessizce** kapatmakla kalmaz (4 gün ötede `olaylar_ek14.js`
+`1793-07-14` *"Mühendishâne-i Bahrî-i Hümâyun'un açılışı"* var —
+Şîraz'ın düşüşü bir mühendislik okulunun altında belirirdi), **tarihen
+de yanlıştır**: TDV `zendler` Lutf Ali Han'ın **Mart 1794'te Kirman'ı
+aldığını** ve **Aralık 1794'te öldürüldüğünü** yazıyor. Sınırı
+1793-07-10'a çekmek, Kirman'daki **17 aylık Zend hâkimiyetini SİLER** —
+ve 132 kaydın bir kısmı tam o coğrafyada.
+
+🔴 **VE ÖLÇÜM YENİ BİR ŞEY GÖSTERDİ: MADDE ZATEN VAR — KUYRUKTA.**
+```
+data/kronoloji_iran.js   t:"1794-01-01"
+   b:"Lutf Ali Han'ın yenilgisi — Zend hânedanı sona erdi"
+   tur:"son" · onem:4 · dunya:2 · kapsam:"ic"
+data/olaylar*.js (ÇEKİRDEK)   1794-01-01  → YOK
+```
+⇒ Yazılacak şey **yeni bir madde değil, KOVA KARŞILIĞI.** `§11`in
+*"bu gün zaten var yetmiyor — HANGİ KOVADA olduğu da sorulmalı"*
+dersinin (7 Ağu, NOKTA HALKA-2 2) **tekrarı**, ve bu sefer ters yönde:
+içerik doğru, yalnız `Değişmez 2`nin evreninde değil.
+🟢 Çekirdek maddesi kuyruktakiyle **tutarlı** yazılır (aynı gün · aynı
+`tur:"son"` · uyumlu metin); iki kova aynı güne çelişik iki şey demez.
+
+**Yazılacak (koşu bitince, `data/olaylar*.js` çözülünce):**
+```
+t:"1794-01-01" · tur:"son" · kaynak:"zendler"
+b:"Zend hânedanının sona ermesi — Lutf Ali Han'ın öldürülüşü"
+gun:"Cemâziyelâhir 1209 / Aralık 1794"
+```
+🟡 **BEYAN UYUMSUZLUĞU AÇIK:** alan `1794-01-01`, kaynak `Aralık 1794` —
+aynı yılın öteki ucu (~11 ay). `§4`ün *"en kaba güvenli düzey"* kuralı bu
+yazımı **gerektiriyor**; kuyruktaki mevcut kayıt da aynı biçimde. Gizlenmedi.
+
+🔵 **AYRICA — BAYAT CÜMLE, `olaylar_ek11.js`de İKİ YERDE:**
+*"1747-1796 arasını bilerek genel `İran` etiketiyle gösteriyor"* ve
+*"1747-1796 penceresi bilerek `iran` bırakıldı"*. Veride **134 `zend` +
+134 `kacar`** dönemi var ⇒ ikisi de bayat, merge'de düzeltilir.
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri
