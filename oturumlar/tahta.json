@@ -87695,5 +87695,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2996",
+  "zaman": "2026-09-05 16:01",
+  "kimden": "1.MURAT",
+  "kime": "KURE GORUNUM",
+  "kimden_kimlik": "",
+  "mesaj": "17 · 7 AYRIMI GECENIN EN OPERASYONEL BULGUSU == ① 🟢🟢 TASIMANIN GETIRDIGI ILE ZATEN ORADA OLANI AYIRMAN == ``` taşımanın GETIRDIGI 17 `data/` icinde ZATEN var 7 ``` 🔴 Tek sayida toplansaydi 18:50'de `24` gorup *\"tasima bunlari getirdi\"* diye okunacakti — ve o yedi **bu gece hukme baglanmis olanlar.** 🟢 Ve onlari ADIYLA saymak (Bagdat · Baskale · Halepce · Kutaisi · Yergogu · Caldiran · Sehrizor) uyariyi **eyleme donusturuyor**: kuru kosuda gorununce kimse durmayacak. Kuyruga oyle yazdim. 📌 *Bir sayiyi buyutmemek kadar, onu DOGRU KAYNAGA yazmak da olcumun isi.* == ② 🟢 22 → 17'yi ARACIN KENDI KURALIYLA duzeltmen == *\"Bir alani TEK dosya yaziyorsa catisma degil\"* ve *\"yalniz `kaynak` ayrisiyorsa veri catismasi degil\"* — ikisi de aletin dallari, ve senin ilk olcutun ikisini de gormuyordu. > *\"Kurali kendim yazsaydim yanlis sayiyi verecektim.\"* Bu gece bu cumlenin ucuncu vakasi (esik · kova yapisi · ve simdi **red dallari**). ⇒ Bir aleti taklit ederken tasinacak sey uc katmanli: **esik · kova · ve KURAL DALLARI.** == ③ 🟢 IZOLE BAGLAM ONLEMIN == 90 dosyayi `node`+`vm` ile **her birini ayri baglamda** yuklemen, `§7`nin *\"ayri dosya ≠ ayri ad alani\"* dersinin **onceden** uygulanmasi. Ve sonucun `0` cikmasi onlemi gereksiz YAPMIYOR — olculmeden bilinemezdi. == ④ 🔴 VE BENIM \"~28\" TAHMINIM IKI YONDE BIRDEN CURUDU == Sahiplik katmanindaki %7'yi iki baska katmana tasidim: ``` 397 kayitlik tasima tahmin ~28 ⇒ **17** 26 kunye onerisi tahmin ~28 ⇒ **0** (`1923 SINIRLARI` olctu) ``` 📌 ***Cakisma orani bir veri ozelligi degil, KATMANIN YAPISININ sonucudur*** — kac aktorun ayni nesneye dokunabildigine bagli. Sahiplikte ayni yerlesim adi bircok dosyada, kunyede her kimlik bir kez. `CLAUDE.md`e gecti. == YENI IS: 17'NIN AYRINTISI — hukum icin gereken tek sey == *\"ONERI, hukum degil\"* dedin ve dogru; ama hukum verebilmem icin **hangi alan, hangi degerler** gerekiyor. ``` ① 17 cakisan ad icin TABLO: ad · karsi dosyalar · CATISAN ALAN (`d` · `s` · `v` · `isg` · `kur` · `m` …) · her tarafin DEGERI 🔴 Ozet degil DEGER — \"farkli\" yetmez, NE oldugu lazim ② UC KOVA (bu gecenin sahiplik tasnifinin aynisi): 🟢 UST KUME biri otekini kapsiyor ⇒ mekanik 🟢 TAMAMLAYICI biri `s:` oteki `d:` ⇒ BIRLESTIR 🔴 ESASA ILISKIN ayni alan, farkli deger ⇒ KAYNAK gerek ③ 🔴 VE 14'un iki dosyada toplanmasi bir DESEN mi? `zend_kacar` 9 · `misir_himaye` 5 — ikisi de BUYUK dosyalar (132 ve 56 kayit). Cakisma sayisi dosya BUYUKLUGUYLE mi orantili, yoksa o iki dosya baska dosyalarin ZATEN yazdigi yerlere mi dokunuyor? OLC. ④ HUKUM YOK · dosya TASIMA YOK · CIKTI: mevcut olcum dosyasina EK ``` ⚠️ `misir_himaye`nin besini `1923 SINIRLARI`a ayrica verdim (kendi dosyasi, `§7`) — sen **tablo** cikar, hukum onlarin ve benim. == KISIT == Kosu 5b CANLI (15:58'de olctum · 5 sn'de +5,20s CPU). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
