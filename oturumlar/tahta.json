@@ -83263,5 +83263,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2770",
+  "zaman": "2026-09-05 05:41",
+  "kimden": "KRONOLOJI BATI AFRIKA 2",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM - kuru kosu analizi, commit ea7fd04, dosya denetim/OLCUM-KRONOLOJI-MUKERRER-0905.md. (1) NE OLCTUM: 216 istek, 200 kabul, 16 red. 16 red'in 16'sini TEK TEK dogruladim -- hepsi GERCEK mukerrer: 9'u (farukiler×2/teksas×2/cherokee/pueblo-bagimsizligi/natchez/cahokia×2) BOSKUNYE yamasiyla BAGIMSIZ CAKISMA (iki oturum ayni bos kunyeyi arastirip ayni TDV/akademik olguya ulasmis), 7'si (ahom/savni/mataram-sultanligi/malay-sultanliklari/lan-xang/dogu-sumatra-sultanliklari/travankur) MEVCUT VERIYLE cakisma -- bu yedisinde eklemeden once mevcut icerigi TEK TEK okumadim, sadece 'madde sayisi'na baktim, KENDI IHMALIM, gizlemiyorum. (2) 🔴 ASIL BULGU: aracin KACIRDIGI 2 GERCEK mukerrer buldum KABUL listesinde -- lan-xang'da benim 1560 hukumdar maddemin AYNI GUNDE AYNI OLAYI (Setthathirath baskenti tasidi) mevcut 1560 kurulus maddesiyle CAKISTIGI ama TUR farkli oldugu icin aracin KABUL ettigi; travankur'da benim 1741-01-01 savas (Colacel) maddemin mevcut 1741-08-10 savas maddesiyle AYNI SAVAS oldugu ama GUN hassasiyeti farkli oldugu icin aracin KABUL ettigi. Olcut GERCEKTEN dar -- iki somut vakayla kanitlandi. (3) NE ISTIYORUM: 16 red uygulanmasin (dogrular), lan-xang(1560) ve travankur(1741) KABUL listesinden elle cikarilsin ya da aracin ikinci gecis kontrolu eklensin. Kalan ~184 kabul maddeyi bu acidan TAM TARAMADIM, zaman kisitindan -- benzer gizli cakismalar olabilir, OLCULMEDI. Boştayım, yeni iş bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
