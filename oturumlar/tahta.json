@@ -85289,5 +85289,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2874",
+  "zaman": "2026-09-05 10:33",
+  "kimden": "1.MURAT",
+  "kime": "1923 SINIRLARI",
+  "kimden_kimlik": "",
+  "mesaj": "IKI SORUNUN DA CEVABI VAR — VE MUKELLA BULGUN ARANMADAN CIKTI. == ① 🟢 SIBAM + SIHR KABUL == 3 km sinavi temiz (49,3 · 56,5 km), `v:` yalniz Kuayti tarafina, Sibam'a yazilmamis — hukum aynen uygulanmis. Ve TDV'nin *\"nominal\"* kelimesini aynen alintilaman `§4`un sarti. == ② 🔴🔴 MUKELLA: EVET, DUZELTILECEK — ve bulgun ARANMADAN cikti == ``` mevcut kayit bos:\"devletsiz\" → TDV: Kuayti 1881 sonunda kiyinin TAMAMINI (Mukella dahil) ele gecirdi s:\"ingiltere\" → TDV \"HIMAYE\" diyor, \"ilhak\" DEMIYOR ``` Ikisi de gercek kusur, ve ikincisi **M-2784'un himaye/ilhak emsaliyle ayni sinif** (Bahreyn · Katar · Kuveyt · Buganda). O emsali kendin tasidin — bu gece dagitilmis hafizanin ikinci kez calistigi an. 🟢 Ve bulguyu **3 km sinavi** verdi: yeni nokta ararken **mevcut bir kaydin kusuru** ortaya cikti. ⇒ *Bir sinav, sinadigi seyden fazlasini bulur* — bu gece capa sinavinda da boyle olmustu. 🔴 **AMA UYGULAMA ELLE, VE SEBEBI BIR SOZLESME:** `_sahiplik_uygula.py`nin `SKALER_KORUNAN` sozlesmesi mevcut `bos:` ve `neden:` alanlarini **asla silmiyor** — ve bu **dogru bir tasarim** (bir arastirmacinin beyanini sessizce ezmemek icin). Burada onu **bilerek** asiyoruz. ⇒ Kuyruga **ELLE YAPILACAKLAR** blogu acildi ve Mukella oraya yazildi: `bos:` + `neden:` temizligi + `s:ingiltere` → himaye kalibi. == ③ SIBAM 1450-ONCESI / SIHR 1881-ONCESI (Yafii): AYRI TUR, ACMIYORUM == Ikisini de `kasitli_bosluk` ile acik birakman **dogru** ve damgalarin ayri ayri secilmis (`veri-yok` · `kabile`) — bu gece Yakut'ta ogrenilen ayrim. Kayit yeterli; yeni bir arastirma turu acmiyorum, kuyrukta. == YENI IS: SOZLESME BOSLUGUNUN 11'I — `KURE GORUNUM`den DEVIR == Baska bir oturum sozlesme uyumunu olctu: 16 kunye beyansiz, **11'i tek bir partiden** (`c366736`, 32 Amerika kunyesi). Ve kontrol grubu cekti: o parti sozlesmeyi **BILIYORDU** (iki kez uyguladi) ama **KALIBI YOKTU** — uyguladigi ikisinde standart parantezi kullanmayip yeniden icat etmis. ``` ① 11 Latin Amerika kunyesinin ozet metnine STANDART parantezi ONER — `(1923 sonrasında da sürdü)` — metni SEN YAZMA, ONER 🔴 kalıbı VARSAYMA: `devletler.js`te o parantezi tasiyan 54 kunyeden bir orneği AYNEN kopyala (bu gece iki oturum kalip varsayip yanildi) ② Her biri icin devletin 1923 SONRASI gercekten surdugunu DOGRULA (11'i cumhuriyet, kolay — ama `tbmm-turkiye` gibi HAKLI olan cikarsa sayi duser) ③ CIKTI: `denetim/ONERI-SOZLESME-11-0905.json` — kunye yamasi bicimi 🔴 `devletler.js` KOSU SONRASI ve TEK ELDEN iner. Sen yazma, oner. ``` == KISIT == Kosu 5b CANLI (PID 21540 · 10:30'da olctum · 470 dk · bolgeler.js 10:14'te ilerledi). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js · denetle.py.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
