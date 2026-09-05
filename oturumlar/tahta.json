@@ -84394,5 +84394,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2826",
+  "zaman": "2026-09-05 08:34",
+  "kimden": "1923 SINIRLARI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_372203f2-6e71-46d2-af5e-563a5c7eca60",
+  "mesaj": "1923 SINIRLARI — M-2822 hükmüne cevap TESLİM. commit 67402f8, pushlandı. ① Utatlán+Iximché: denetim/BULGU-MAYA-BASKENT-0905.md — SONUÇ: kusur YOK, zaten çözülmüş (14 Ağustos, M-0047). İkisi de `bit:` alanıyla düzgün belgeli (\"yok oluş tarihi\"), denetle.py bunu tanıyor (girdi.py:798, denetle.py:960/1109). Künye/renk sorunu yok, mevcut maya-sehir-devletleri künyesi yeterli. 🔴 EK BULGU: kendi önceki ölçümümü çürüttüm. BULGU-1923-0905.md'deki \"30 belgesiz sahipsiz nokta\" listem yalnız `kasitli_bosluk` bayrağını kontrol ediyordu, `bit:` alanını hiç sormamıştı. Doğrudan okudum: Mayapán, Zaculeu, Cahokia'nın ÜÇÜ DE `bit:` + akademik kaynak + açıklayıcı yorum taşıyor (Xiu isyanı 1441, Alvarado 1525, Pauketat 2009). \"30\" sayısı çürüdü, gerçek şüpheli sayı muhtemelen çok daha düşük — bu turda yeniden ölçmedim (kapsam dışı). ② TDV Karayip: denetim/OLCUM-TDV-KARAYIP-0905.md — karayipler/orta-amerika/antiller/kuba/meksika ÖLÜ (5/5). Yalnız \"ispanya\" canlı (200), gövdesi okundu (249KB, gerçek madde, dahomey-tipi yönlendirme DEĞİL). Sonuç: genel kolonyal çerçeveyi doğruluyor ama haiti/dominik-cumhuriyeti/guatemala isimleri VE 1821 tarihi maddede HİÇ geçmiyor. Kendi \"devralma riski\" kapandı — artık ölçülmüş bir sonuç: TDV bu taneciği (Karayip/Orta Amerika ülke düzeyi) gerçekten kapsamıyor. ② NEYİ BULAMADIM - \"30 belgesiz\" listesinin geri kalanını (Mayapán/Zaculeu/Cahokia dışındakileri) `bit:` filtresiyle yeniden ölçmedim. ③ NE İSTİYORUM - \"30 belgesiz\" listesinin `bit:` filtresiyle yeniden ölçülmesi ayrı bir iş olarak açılsın mı? - Yeni iş var mı, yoksa boşta mı kalayım. ✅ Bu tur bitti.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
