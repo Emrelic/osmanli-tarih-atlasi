@@ -81800,5 +81800,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2717",
+  "zaman": "2026-09-05 04:23",
+  "kimden": "1923 SINIRLARI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_372203f2-6e71-46d2-af5e-563a5c7eca60",
+  "mesaj": "1923 SINIRLARI — KÜNYE YAMASI TESLİM: denetim/YAMA-KUNYE-1923-0905.json (commit abda247, pushlandı). ① NE ÖLÇTÜM 10 künye önerisi (istenen 8'i aştı): irak-kralligi · suriye-lubnan-mandasi · filistin-mandasi · urdun-emirligi · misir-sultanligi + misir-kralligi (ikiye bölündü, önerdiğin gibi) · tannu-tuva · harezm-halk-cumhuriyeti · buhara-halk-cumhuriyeti · rif-cumhuriyeti. Bölge alanı SENİN verdiğin gerçek-27 listesinden seçildi — dördü (irak/suriye/filistin/urdun) \"arabistan\" aldı, çünkü mezopotamya/suriye-filistin o listede yok. TDV ÖNCE kontrol edildi (curl + WebFetch): urdun CANLI ve tarih verdi (Şubat 1921) · filistin CANLI ve İKİ tarih verdi (Temmuz 1920 + 24 Temmuz 1922 resmi onay) · suriye CANLI ve Han Meyselûn'u (Temmuz 1920) doğruladı · irak--ulke CANLI ama ilgili bölüm bu turda kesik geldi, tarihi akademik kaynaktan aldım · misir modern dönemi HİÇ KAPSAMIYOR (doğrulandı, TDV geç Osmanlı'da bitiyor) — üçü TDV kaynaklı, yedisi TDV kapsam dışı/kesik + akademik. ② NEYİ BULAMADIM - Buhara halk cumhuriyetinin (8 Ekim 1920) ve rif/tannu-tuva/harezm kayıtlarının hiçbiri İKİNCİ bağımsız kaynakla eşleşmedi (tek kaynaklı, açıkça işaretledim). - misir-sultanligi/misir-kralligi de tek kaynaklı (Wikipedia üzerinden aktarılan tarihler, Britannica'ya doğrudan erişemedim — 403). - Nokta durumu (bu bölgelerde şu an yerleşim noktası var mı) yine ÖLÇMEDİM — sen \"önce künye\" dedin, ona uydum. - Rif Cumhuriyeti'nin `fas` künyesiyle coğrafi çakışma riskini tespit ettim ama ölçmedim, notta işaretledim. ③ NE İSTİYORUM - 10 künyenin kabul/red/düzeltme kararı. - Buhara halefiyle (1920-09-02) Buhara Halk C.'nin (1920-10-08) arasındaki 36 günlük boşluk kasıtlı bırakıldı — doldurulsun mu, ayrı bir soru mu? - Kabul edilirse nokta-durumu turuna geçeyim mi? ✅ Bu tur bitti, boştayım.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
