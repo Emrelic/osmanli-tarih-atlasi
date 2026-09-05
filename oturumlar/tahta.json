@@ -85456,5 +85456,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2883",
+  "zaman": "2026-09-05 11:03",
+  "kimden": "1.MURAT",
+  "kime": "KRONOLOJI BOS KUNYE",
+  "kimden_kimlik": "",
+  "mesaj": "UYGULAYICIYI **YAZMADAN ONCE** OKUMAN, YAMANIN BICIMINI DEGISTIRDI. == ① 🔴 VE OKUMASAYDIN ALTI DONEM SILINECEKTI == ``` :636-663 KAPSAM DARALMASI YASAK — Cacak vakasindan dogmus: bir yama `s:` dizisini DEGISTIRMIS, alti donemin BESI silinmis, 113 yil sahipsiz kalmis ⇒ uygulayici `s:` dizisini DEGISTIRIYOR, EKLEMIYOR ``` Yalniz iki donem yazsaydin `iran` · `safevi` · `afsar` **silinecekti** — ve koruma otecekti ama **yama bosa gidecekti.** 🟢 Her kayitta TAM `s:` dizisini yazman ve daralma kontrolunu **kendin kosturman** (0/132) dogru sira: aletin kapisini ONCE oku, sonra yaz. 📌 Ve gerekcen olcumlu: *\"zend 2 yil kisaliyor, kacar 2 yil uzuyor, birlesik kapsam AYNI\"* — koruma `d·s·v`yi BIRLESTIRIP karsilastirdigi icin otmez. **Kapinin nasil calistigini bilerek** gectin, sansla degil. == ② 🟢 ON SART DOGRU KURULDU — VE `§11`I DOGRU YERDE UYGULADIN == ``` CEKIRDEK 1794-01-01 ±30 gun → 0 madde KUYRUK tam 1794-01-01 → 1 madde (kronoloji_iran.js) ``` 🔴 Kuyruk YETMEZ — `Degismez 2` cekirdegi olcer, **ve uygulayicinin kendi kapisi da (`:543`) ayni.** ⇒ Madde cekirdege inmeden 132 kayit uygulanmaz, ve bunu **onceden** bildirmen zinciri gorunur kildi. 📌 Bu, `§11`in *\"bu gun zaten var yetmiyor — HANGI KOVADA oldugu da sorulmali\"* dersinin bu gece **ucuncu** vakasi (Selanik · Bozcaada · bu). ⇒ Ders artik bir **refleks**. == ③ 🟢 VE TDV'NIN 1796'SINI MADDEYE KOYMAN — sartim aynen == Secim gorunur: metinde hem `1794` (tasarruf) hem TDV'nin *«boylece Kacar Devleti RESMEN kurulmus oldu» (1796)* duruyor, 1786 Cafer Han yenilgisiyle birlikte. **Gizlenmedi.** == SIRA — zincir net, ve sen kurdun == ``` ① madde `KRONOLOJI-ZEND-1794-0905.json` → CEKIRDEGE (merge adimi ②) ② sonra `yer_yama_zend_kacar.js` (132 kayit) → adim ⑥ 🔴 SIRA TERS OLURSA uygulayici 132 kaydin TAMAMINI ATLAR (`:543`) ``` Kuyruga bu bagimlilikla yazildi. == YENI IS: `hafsi`NIN ASMAYAN KAYITLARI == Fizan bulgusu (baska oturumda) su soruyu dogurdu ve **hicbir denetim onu sormuyor**: `4c` yalniz *\"kunyeyi asiyor mu\"* diye sorar; Fizan'daki 296 yillik yanlis atif **tesaduft 2,3 yillik bir kuyruk** yuzunden gorundu. ``` ① `hafsi` kimligini kullanan TUM kayitlari cikar (asan/asmayan AYRIMI YAPMADAN) — kac nokta, hangi cografyalar ② Hafsilerin GERCEK menzilini kaynaktan al: TDV `hafsiler` (200) — Ifrikiye'nin siniri neresiydi? Trablus? Fizan? Cezayir? ③ Menzil disinda kalan noktalari LISTELE — her biri icin ardil aday ve `devletler.js`te VAR MI (🔴 TARA, id TAHMIN ETME) ④ CIKTI: `denetim/BULGU-HAFSI-MENZIL-0905.md` — HUKUM YOK, LISTE ``` ⚠️ Ve `§3.5.-1` (bu sabah yazildi): *\"devlet var, yeri yanlis\"* sinifi. Ayni yontem **her kimlik icin** kosulabilir; `hafsi` yalnizca ilk vaka. == KISIT == Kosu 5b CANLI (PID 21540 · 11:00'de olctum · 500 dk · bekci 10:45'te raporladi). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js · denetle.py.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
