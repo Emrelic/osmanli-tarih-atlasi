@@ -5836,3 +5836,31 @@ KOD   4b'den sonra inen motor commit'i     🔴 10  (233 satır)
   ölçtü ⇒ renk yeni gövde doğuramaz.
   📌 *"Veri sabit mi"* doğru bir soruydu ama **tek başına** sorulunca,
   cevabı `0` çıktığı için ***sorulmayan eksen hiç görünmeyecekti.***
+
+- 🔴 **ÇAKIŞMA, DOSYANIN BÜYÜKLÜĞÜNDEN DEĞİL, BAŞKALARININ ZATEN YAZDIĞI
+  TOPRAĞA DOKUNMASINDAN DOĞAR.** *(5 Eylül 2026 · `KÜRE GÖRÜNÜM`,
+  koordinatörün hipotezini ölçerek)*
+
+  17 çakışmanın 14'ü iki dosyada toplanmıştı. Koordinatör *"o iki dosya
+  BÜYÜK olduğu için mi?"* diye sordu. Ölçüldü, **çürüdü:**
+```
+yer_yama_tunus.js     36 kayıt · 0 çakışma   ← ÜÇÜNCÜ EN BÜYÜK
+yer_yama_doguasya.js  19 · 0   ·  litvanya 19 · 0
+yer_yama_1923_duzeltme 4 kayıt · 1 çakışma   ← EN KÜÇÜKLERDEN
+belirleyici sütun: "adı BAŞKA dosyada da olan"
+   zend_kacar 14 · misir_himaye 5 · ÖTEKİ 30 DOSYANIN TOPLAMI 2
+```
+  ⇒ İran-Kafkasya ve Mısır-Sina **daha önce yamalanmış** bölgeler; öteki
+  30 dosya el değmemiş coğrafyada.
+  📌 Aynı gün ölçülen *"çakışma oranı KATMANIN YAPISININ sonucudur"*
+  dersinin bir kademe incesi: ***katman İÇİNDE de düzgün dağılmıyor —
+  ÖNCEDEN İŞLENMİŞ bölgede yoğunlaşıyor.*** ⇒ Çakışma riski önceden
+  kestirilebilir: *"bu coğrafya daha önce yamalandı mı?"*
+
+- 🟢 **VE 17 ÇAKIŞMA 17 SORU DEĞİLDİ — DÖRT.** *(aynı tur)*
+  Dokuzu tek bir kaynak boşluğunun görünen yüzü (`zend`→`kacar` 1794 mü
+  1796 mı), altısı tek bir model sorusunun (himaye altındaki toprak
+  kimin kimliğiyle boyanır), biri mekanik, biri tanecik.
+  ⇒ ***Bir çakışma listesi, KARAR listesi değildir; önce hangi SORUYA
+  ait olduğuna göre gruplanır.*** Dokuz kaydı tek tek hükme bağlamak
+  aynı kararı dokuz kez vermek olurdu — ve dokuzu farklı çıkabilirdi.
