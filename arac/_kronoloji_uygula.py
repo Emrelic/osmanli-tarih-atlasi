@@ -243,7 +243,7 @@ def main(argv):
     yaz("  hedefte künye: %d" % onceki["adet"])
 
     # ayıklama: şema · kimlik · mükerrer
-    kabul, red = [], []
+    kabul, red, supheli = [], [], []
     for slug, m, dosya in istek:
         if not isinstance(m, dict) or any(not m.get(a) for a in ZORUNLU):
             red.append((slug, dosya, "şema eksik (t/tur/b)", str(m)[:60]))
@@ -257,9 +257,32 @@ def main(argv):
             continue
         kabul.append((slug, m, dosya))
         var.append([m["t"], m["tur"]])          # aynı parti içinde de mükerrer olmasın
+        # ══════════════════════════════════════════════════════════════
+        # 🔶 ŞÜPHELİ — 5 Eylül 2026, ve ölçütün DAR olduğunu bir işçi
+        #   oturum İKİ VAKAYLA kanıtladı:
+        #     lan-xang  1560  aynı GÜN, aynı OLAY, farklı `tur` ⇒ KABUL edildi
+        #     travankur 1741-01-01 ↔ mevcut 1741-08-10, AYNI SAVAŞ ⇒ KABUL edildi
+        #   Ölçüt `t`+`tur` idi; ikisi de onun boşluğundan geçti.
+        # 🔴 Çare bir REDDETME DEĞİL bir UYARI: aynı güne düşen meşru iki
+        #   kayıt vardır (bir günde iki olay olur) ve reddetmek gerçek
+        #   veriyi elerdi. Şüpheli İNER, ama ADIYLA BASILIR — karar insanda.
+        # ══════════════════════════════════════════════════════════════
+        _t, _y = m["t"], m["t"][:4]
+        for _vt, _vtur in var[:-1]:
+            if _vt == _t and _vtur != m["tur"]:
+                supheli.append((slug, dosya, "aynı GÜN, farklı tur (%s ↔ %s)"
+                                % (m["tur"], _vtur), _t))
+            elif _vt[:4] == _y and _vt != _t:
+                supheli.append((slug, dosya, "aynı YIL, farklı gün (%s ↔ %s)"
+                                % (_t, _vt), _t))
 
     yaz("")
-    yaz("KABUL %d · RED %d" % (len(kabul), len(red)))
+    yaz("KABUL %d · RED %d · 🔶 ŞÜPHELİ %d" % (len(kabul), len(red), len(supheli)))
+    if supheli:
+        yaz("  🔶 ŞÜPHELİLER İNER ama GÖZDEN GEÇİR — ölçüt `t`+`tur` bunları")
+        yaz("     yakalamıyor ve iki gerçek mükerrer bu boşluktan geçmişti:")
+        for _s, _d, _n, _t in supheli:
+            yaz("     %-28s %-40s %s  (%s)" % (_s, _n, _t, _d))
     for slug, dosya, neden, ek in red:
         yaz("  🔴 %-28s %-22s %s  (%s)" % (slug, neden, ek, dosya))
 
