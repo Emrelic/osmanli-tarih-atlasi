@@ -4716,6 +4716,69 @@ dosyanın adı      YAMA-KUNYE-HIMAYE-UCUZ-0905.json  ⇒ GLOB SAHİPLENDİ
   GÖRÜNÜRLÜK ölçütüdür; reddedersek oturum onu gizlemeye değil,
   UYDURMAYA yönelir."* `§4`ün bir alet tasarlanırken doğru uygulanmış
   hâli.
+
+- 🔴🔴 **KAYNAK BULUNAMIYORSA, ÖNCE ARANAN ŞEYİN DOĞRU OLDUĞUNU DOĞRULA —
+  bir devir kaydı VARLIĞI ile GÜNÜ yanlış eşleştirmiş olabilir.**
+  *(5 Eylül 2026 · "Herseknovi 1878-09-18")*
+
+  Kuyrukta *"iki madde: 1737-10-01 Niş · **1878-09-18 Herseknovi**"*
+  yazıyordu. Bir oturum Herceg Novi için Avusturya işgal günü aradı,
+  bulamadı, ve **doğru refleksi gösterdi** — kaynağı kovalamak yerine
+  noktanın **kendi verisine** baktı:
+```
+Herseknovi  s:[… {1797-10-17 → 1918-11-11, avusturya}]
+⇒ orası 1878'de ZATEN 81 yıldır Avusturya'nın; egemenlik değişikliği
+  YOK ⇒ aranan olay HİÇ OLMAMIŞ
+```
+  Koordinatör kaydın gerçek sahibini ölçtü — eşleştirme yanlıştı:
+```
+Herseknovi  isg:[1538-01-01 → 1539-01-01, ispanya]   ← TEK işgali bu
+Bihaç       isg:[1878-09-18 → 1908-10-05, avusturya, kaynak:"bihac"]
+grep: 3 geçiş, hiçbiri Herseknovi'de
+```
+  ⇒ Kuyruk bir **günü yanlış yerleşime** bağlamıştı — **dört yerde**, ve
+  birinde o yanlış atıf üzerine **akıl yürütülmüştü** (*"Herseknovi,
+  Bosna'dan 51 gün sonra…"*). Yanlış atıf bir arama turu yaktı.
+
+  📌 ***Bir kaynak araması ısrarla başarısız oluyorsa, ihtimallerden biri
+  kaynağın susması DEĞİL, sorunun yanlış nesne hakkında olmasıdır.***
+  Ayırt etmenin yolu ucuz: **aranan kaydı veride bul ve okuduğunun o
+  olduğunu doğrula.**
+  🟢 Ve kaydın kendi yorumu tam bunu önlemek için yazılmıştı (*"Bihaç'ın
+  KENDİ tarihi TDV'de var, o yüzden komşununki ÖDÜNÇ ALINMADI"*); yorum
+  doğruydu, onu **kuyruğa taşırken** yerleşim adı kaydırılmış.
+
+- 🔴 **"MÜKERRER" GEREKÇESİ İKİ SINIF SAKLAYABİLİR — VE BİRİ SESSİZ BİR
+  SEÇİMDİR, ÖLÇÜTÜ DOSYA OKUMA SIRASI.** *(aynı gün · `NEHİR SÜRTÜNME`)*
+
+  Kronoloji uygulayıcısı 16 maddeyi tek gerekçeyle reddetti:
+  `MUKERRER (aynı t + tur)`. Altında iki apayrı sınıf çıktı:
+```
+🟢 DOĞRU RED   7   madde `devletler.js`te GERÇEKTEN zaten var
+🔴 ÇARPIŞMA    9   mevcut kayıt YOK — İKİ YENİ YAMA çarpışmış
+```
+  Dokuzunda hedefte hiçbir kayıt yok; çarpışan iki taraf da **yeni**.
+  Araç ilk okuduğunu tutuyor, ikinciyi *"mükerrer"* diye reddediyor —
+  ve metinler eşit değil (`farukiler 1601`de **reddedilen** taraf daha
+  ayrıntılı).
+  🔴 ⇒ ***Hangisinin hayatta kaldığını DOSYA OKUMA SIRASI belirliyor,
+  içerik değil.*** Bir red gerekçesi altındaki sınıfları ayırmıyorsa bir
+  **teşhis değil bir etikettir.**
+  ⚠️ Ve iki doğru redde bile bilgi kaybı var: `mataram-sultanligi` 1613'te
+  mevcut *"Sultan Agung DÖNEMİNDE hâkim oldu"* diyor, yeni *"TAHTA
+  ÇIKTI"* — **aynı `tur`, farklı FİİL**, ve red daha kesin olanı düşürüyor.
+
+- 🔴 **BİR HÜKMÜ VERMEK İLE UYGULAMAK AYRI YETKİLERDİR — ve `§7`
+  UYGULAYANI belirler.** *(aynı gün · koordinatörün ihlali)*
+
+  Koordinatör *"`pueblo` mükerrerini SEN düzelt"* diye emir yazdı. Ölçen
+  oturum dosyaları taradı: `KRONOLOJI-BOSKUNYE` ve `KRONOLOJI-KAMERIKA`
+  **onun dosyaları değildi** — ve `§7`ye dayanıp **uygulamadı, sordu.**
+  ⇒ Hüküm hazırdı; eksik olan **yetkiydi.** Üç düzeltmenin (pueblo ·
+  choctaw · hollanda-dogu-hint) uygulaması merge'de **Oturum 0'a** ait —
+  kuyruğun ⑥. adımı zaten *"TEK ELDEN"* diyor.
+  📌 Bir hükmü isteyen taraf, uygulamayı da aynı yere vermek zorunda
+  değildir; ve **karıştırırsa `§7`yi kendi eliyle deldirir.**
   📌 `§11`in *"`0`, 'yok' ile 'bakmadım' arasında ayrım yapmaz"*
   dersinin **dönüş değeri** ve **alan adı** yüzleri — ve `§4`ün
   *"bir alan adı, kullanıldığı yerden değil TANIMLANDIĞI yerden
