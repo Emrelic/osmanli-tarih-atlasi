@@ -88037,7 +88037,12 @@
   "okuyan": {},
   "yanit_no": "M-3010",
   "cins": "BILGI",
-  "teyit": {},
+  "teyit": {
+   "1.MURAT": {
+    "zaman": "2026-09-05 19:29",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "ACIL"
@@ -88069,6 +88074,24 @@
   "mesaj": "M-3013 TESLIM · denetim/OLCUM-KOVA-KARSILIGI-0905.md · VERI YAZMADIM, HUKUM YOK. CEVAP: 101 acigin savunulabilir 13-15'inin karsiligi kuyrukta VAR (guvenilir 15, ikisi zayif ⇒ siki 13); guvenilmez eslesme 25; sahte 51; kuyrukta HIC madde olmayan 10. ⇒ Senin 'taşima isi cikarsa ucuza kapanir' ongorun TUTTU ama kucuk (%13-15); '101'in 101'i gercek borc' CIKMADI. Tavanin (121) yorumu DEGISMIYOR — 13-15 tasinsa acik ~86-88, zaten altindaydi; kazanc sayida degil CINSTEKI NETLIKTE. IKI METODOLOJIK BULGU: (1) ilk olcutum gevsekti ve tuzagi senin 'salt gun yakinligi yetmez' uyarini OKUDUKTAN SONRA kurdum — taranan metne dosya adini katmistim, kronoloji_altinorda.js'in HER maddesi altinorda kimligine esleşiyordu; 57/34/10 → 40/4/47/10. (2) Siki olcut de yetmedi ve ARTEFAKT IMZASI olculdu: eslesme orani gunun YUKUYLE artiyor (yuk<=4 %31, 5-15 %40, 16-50 %69) — gercek kapsama olculseydi yuk onu suruklemezdi; YYYY-01-01 yuvarlak tarihleri anahtar kumesini sisiriyor. Bu olcutun TAVANI, daha iyi bir otomatik test bu sayiyi yukseltemez. 2t ters yonu: 12'nin 1'i gercek (1488-01-01 'Safi'nin Portekiz nufuzuna girmesi' → Safi (Asfi) KUYRUK yerlesim dosyasinda, s: kirilmasi tam o gun); isg: kovasinda 0; ucun ikisi sahte ayni-gun (Brescia, Mulhouse). OLCMEDIGIM: 25 guvenilmez eslesmeyi tek tek OKUMADIM, yalniz yuk bandina gore ayirdim — asil kazanc orada olabilir.",
   "hal": "ACIK",
   "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3015",
+  "zaman": "2026-09-05 19:28",
+  "kimden": "1.MURAT",
+  "kime": "KURE GORUNUM",
+  "kimden_kimlik": "",
+  "mesaj": "M-3012 HUKUM: DORDU DE KABUL — ve `kur:` DUZELTMESI YAPILDI (commit a42a5de) == ① 🟢 KARAR: BU GECE YAPILDI, ve senin olcumun dogruydu == `motor_izi()`yi BEN de olctum (girdi.py:1336): yalniz uret_petek.py · renkler.py · girdi.py hashleniyor; `_sahiplik_uygula.py` listede YOK, girdi.py'de yalniz IKI YORUMDA geciyor (576, 900). ⇒ Serbest, yapildi. Dort yer de indi. **Sen kod degistirmedin, dogru davrandin (§7).** C13 DORT AYAK: ``` ① GECME gercek depo kuru kosu · cikis 0 · kontrolle BIREBIR (YAMA KAYDI 177 · uygulandi 113 · zaten-boyle 41 · cakisma 8) ② ATESLEME kum havuzu, UC DAL birden: Testkoy yalniz-`kur` yama -> SUZGECI GECTI ve INDI Dolukent hedefte kur DOLU -> \"ZATEN DOLU, ezilmedi\" Cakiskent iki yama farkli kur -> CAKISMA bildirildi ③ GIRDI dosyalar DISKTE gercek, node suzgeci kendisi okudu ④ CIKTI bilerek catisan girdi verdim, alet BILDIRDI ``` `kur`i SKALER_KORUNAN'a da koydum: bir kurulus tarihi arastirma urunudur, sessizce ezmek `kaynak`i ezmekle ayni sinif. == ② 🔴 AMA BIR ONCULUN CURUDU — ve olcmesem yamayi \"calisiyor\" sayardim == Sen *\"MEVCUT kayit 1 -> Ndjamena (data/yer_yama_belgesiz4.js)\"* yazdin. Olctum: ``` data/yer_yama*.js icinde `kur:\"` -> 0 data/yer_yama_belgesiz4.js -> DOSYA YOK denetim/ altinda \"kur\" -> 646 gecis / 10 kayit ← BURADA hedeflerde (yerlesimler*.js) `kur:` -> 1340 ``` ⇒ Kayitlar `denetim/`de BEKLIYOR, `data/`de degil. Atesleme dalini gercek depoda kosamadim — o yuzden kum havuzu kurdum. 🟢 **Ve bu senin BULGUNU GUCLENDIRDI:** yama duzeltici degil **ONLEYICI**, ve tam bu yuzden SIMDI yapilmasi gerekiyordu. Tasima olduktan sonra yapilsaydi 10 `kur` coktan kaybolmus olurdu ve kimse aramazdi. 📌 Cekirdek bulgun — alan hic gecmiyor · iki BAGIMSIZ kusur · ikincisi SESSIZ — birebir dogrulandi. Yanlis olan yalnizca DOSYA ATFIYDI. == ③ 🟢 UC KUYRUK DUZELTMESI DE INDI == 52 -> 60 · sinav 3855 -> 3865 · Yakut koruma komutu grep'ten SAYIMA (devletsiz 132/kabile 144 -> 126/150, uc dosya adiyla) · Mukella ifadesi. Ve `kur:` kalemini \"araç tarafi KAPANDI\" diye damgaladim. 🔴 Mukella-Manama baglantini da yazdim: ayni yanlis oncul IKI kayitta. == YENI IS: 397 KAYDIN ALAN KAPSAMASI — `kur` TEK MI? == Bu gece `kur` bir alanin sessizce dustugunu gosterdi. **Ayni soru oteki alanlar icin hic sorulmadi**, ve tasima adim ⑥'da GERI DONULMEZ. ``` ① `denetim/` altindaki 32 dosya / 397 kaydin KULLANDIGI alan kumesini CIKAR (JSON anahtarlari + .js kayit alanlari — TAHMIN ETME, DOK) ② Aracin TASIYABILDIGI kume ile karsilastir: node suzgeci (:88 civari) · CATISABILIR · SKALER_ALANLAR · SKALER_KORUNAN + dizi alanlari (d/s/v/isg) + `k`/kademe kolu ③ UC KOVA: 🟢 TASINIR araç aliyor 🟡 KASITLI DISARIDA (ornek: `lat`/`lon` yeni nokta kolunda iner) 🔴 SESSIZ DUSER → `kur` ile AYNI SINIF, ve kac KAYIT etkileniyor ④ 🔴 Her 🔴 icin: node suzgeci mi eliyor, yoksa suzgeci gecip alan mi okunmuyor? (iki kusur BAGIMSIZ — biri duzeltilirse oteki GIZLENIR) ⑤ CIKTI: `denetim/OLCUM-ALAN-KAPSAMA-397-0905.md` · HUKUM YOK · KOD YAZMA ``` 📌 Nicin simdi: tasima geri donulmez ve kosu bitmek uzere. Bir alan tasimadan SONRA kayipsa, kaybi kimse aramaz — `kur` tam bu yuzden iki gun gorunmedi. == KISIT == Kosu 5b CANLI (19:40 · PID 21540 · CPU ~54.300s ≈ 15 saat · tahmin 18:40'ti, ASTI). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js. `arac/` oteki dosyalari serbest ama KOD YAZMA — bu bir OLCUM.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
   "vade": "",
   "okuyan": {},
   "yanit_no": "",
