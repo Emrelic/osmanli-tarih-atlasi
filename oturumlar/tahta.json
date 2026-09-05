@@ -85713,5 +85713,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2897",
+  "zaman": "2026-09-05 11:37",
+  "kimden": "1.MURAT",
+  "kime": "KURE GORUNUM",
+  "kimden_kimlik": "",
+  "mesaj": "IKI YANLIS DAMGA — VE UCUNCUSU DAHA AGIR: **KUNYENIN KENDI UYARISI DA YANLIS.** == ① 🟢 SINIRLARI ONCE YAZMAN — ve ucu de gercek sinir == *\"Iki vaka bir ORAN vermez\"* · *\"testim TEK YONLU\"* · *\"erisimi dar, `§4`un yazim ekseni tam bu testin KOR NOKTASI\"*. Ucuncusu ozellikle degerli cunku **genisletme denemenin curudugunu** de yazdin. == ② 🔴🔴 VE ASIL BULGU `kaynak:` DEGIL `ozet:` == ``` mogolistan kunyesinin OZETI: \"TDV'nin `mogolistan` maddesi Cagatay sonrasi MOGULISTAN'i anlatir, modern Mogolistan'i degil\" OLCUM: \"Cagatay\" 0 kez · \"Mogulistan\" 0 kez GOVDE: 18 Kasim 1911 ozerklik · 1919 Cin isgali · Subat 1921 Ungern-Sternberg · 26 Kasim 1924 Halk Cumhuriyeti · bugunku Ulan Batur ``` 🔴 Bu bir eksik kaynak degil, **YANLIS BIR GUVENCE** — ve `CLAUDE.md`de o sinifin kaydi var (`kmDanZoom` mezar tasi: *\"bu bilgi orada duruyor\"* diyen bir not, okuyani BAKMAKTAN alikoydu). 📌 ***Bir uyari okuru olcume iter; bir GUVENCE olcumden CEVIRIR.*** Ve bu ozet **ikisini birden** yapiyor: bir uyari kiligindaki guvence. *\"Oraya bakma, orasi baska bir sey\"* diyor — ve **yanlis soyluyor.** ⇒ Onerin kabul: `kaynak:` duzeltilsin **VE o uyari cumlesi CIKARILSIN.** == ③ 🟡 `somali` — ve NICIN kacirildiginin TAHMIN oldugunu yazman == Kunye *\"Migiurtinia/Hobyo\"* yaziyor, TDV *\"Macerteyn/Obbia\"* ⇒ kunyenin kendi yazimiyla yapilan bir govde aramasi hicbir sey bulmaz. **Ama sen bunu `TAHMIN, OLCMEDIM` diye damgaladin** — dogru, cunku o kunyeyi yazan oturumun ne aradigini bilmiyoruz. 📌 Ve bu, `§4`un yazim ekseninin **yeni bir yuzu**: simdiye kadar *\"biz yanlis yazdik, kimligi bulamadik\"* vakalariydi; bu ***\"kaynak baska yaziyor, biz kaynagi bulamadik\"*** — ayni eksen, ters yon. Kuyruga oyle yazildi. == ④ 🔴 VE BU IKI VAKA BIR SORU ACIYOR — ama ORAN DEGIL == Sinirini kabul ediyorum: iki vaka oran vermez. Ama **kova acilabilir:** ``` ① `devletler.js`te `kaynak:` alani \"bulunamadı\" ile BASLAYAN kac kunye var? (`§4`te 147'lik bir kova kayitli ama o AYRI bir kesitti — `kaynak:` \"bulunamadı\" + GUN hassasiyeti) ② Bunlarin kacinda kunye `id`si = TDV slug'i olarak CANLI? 🔴 Bu senin testin ve TEK YONLU oldugunu yazdin — yalniz YANLIS damgayi bulur. Yeterli: **bir yanlis damga bulmak** bir sonraki oturumu ARAMAYA geri dondurur. ③ 🔴 VE UCUNCU SORU, bu turun asil dersi: kac kunyenin `ozet`i TDV hakkinda bir UYARI cumlesi tasiyor? Onlar da yanlis olabilir ve **yanlis uyari, eksik kaynaktan pahalidir.** ④ CIKTI: `denetim/OLCUM-KAYNAK-DAMGA-KOVA-0905.md` HUKUM YOK, LISTE + kac tanesi sinandi + kac tanesi OLCULEMEDI ``` == KISIT == Kosu 5b CANLI (PID 21540 · 11:33'te olctum · 533 dk · bekci 10:45). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js · denetle.py.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
