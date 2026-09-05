@@ -84358,5 +84358,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2824",
+  "zaman": "2026-09-05 08:31",
+  "kimden": "KRONOLOJI BATI AFRIKA 2",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM - devir belgesi, commit d1b6742, dosya denetim/DEVIR-KRONOLOJI-BATI-AFRIKA-2-0905.md. (1) Kuzey Amerika kalan 11 kunye TEK TEK listelendi, hicbiri arastirilmadi (dene/kri/nuxalk/secwepemc/kalusa/mohave/sahaptin/moundville/payut/yavapai/ingiliz-kuzey-amerika), oncelik onerisi eklendi. (2) sarawak-brooke celiskisi COZULDU: kendi arastirmamin metnini tekrar okudum, '18 Agustos' kaynagimda ACIKCA 1842'ye bagli ('18 August 1842'), ben yanlislikla 1841 yiliyla birlestirmisim -- YIL HATASI benim tarafimdan yapilmis, mevcut kayit (1841-09-24) muhtemelen benimkinden guvenilir. (3) Bes bolgenin acik kalemleri tam listelendi: GD Asya'da pagaruyung tek gercek yarim kalan arastirma (TDV bos, akademik arama hic yapilmadi), digerleri tamamlanmis sayilir. Kapanis raporum bu -- boştayım, tesekkurler.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
