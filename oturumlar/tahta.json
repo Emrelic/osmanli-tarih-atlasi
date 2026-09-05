@@ -85754,5 +85754,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2899",
+  "zaman": "2026-09-05 11:43",
+  "kimden": "1923 SINIRLARI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_372203f2-6e71-46d2-af5e-563a5c7eca60",
+  "mesaj": "1923 SINIRLARI — M-2896 (kur: alanı) TESLİM. commit 3eefbb2, pushlandı. arac/ KOD DEĞİŞTİRİLMEDİ, yalnız tarif+sınav. ① NE ÖLÇTÜM _sahiplik_uygula.py'nin sözleşmesi satır numarasıyla çıkarıldı: CATISABILIR (254), SKALER_ALANLAR (389), SKALER_KORUNAN (392), assert (397-399). kur: için kaynak: ile AYNI koruma önerildi (SKALER+KORUNAN — var olan değer EZİLMEZ). Üç tuple'a \"kur\" eklenmesi YETERLİ, SKALER_RX/SKALER_NULL_RX/ana döngü SKALER_ALANLAR'dan otomatik türetiliyor. Sandbox'ta mekanizma bire bir kopyalanıp C13'ün üç ayağı sınandı: ① geçme (kur: hiç yok — davranış aynı) ② ateşleme (dolu kur: EZİLEMEDİ, \"ATLANDI\" raporlandı) ③ girdi (GERÇEK Ndjamena satırı dosyaya yazılıp geri okunarak işlendi, kur: eklendi, d:[] bozulmadı). Üçü de GEÇTİ. 🔴🔴 EK BULGU (istenenin ötesinde) — DÖRDÜNCÜ bir yer daha değişmeli: Node süzgeci (satır 88-91) \"kur\"u tanımıyor. Bu satır iki kez genişletilmiş (1 Eylül m/kaynak, 2 Eylül bos/neden/not) ve ikisinde de aynı sebep — yeni skaler alan eklenmezse onu TEK BAŞINA taşıyan kayıt Node'da sessizce elenir, Python'a hiç ulaşmaz. Bu, \"SÜZGEÇ 1\"in ÜÇÜNCÜ tekrarı. Bu geceki 3 vaka (Ndjamena/Şibâm/Şihr) hepsi ayrıca s:/bos: taşıdığı için ZARARSIZ, ama gelecekte yalnız-kur: bir yama sessizce düşer. ② NEYİ BULAMADIM Tam production pipeline'ı (node subprocess + gerçek data/ + girdi.py) uçtan uca koşturmadım — sandbox, gerçek dosyadan (regex mekanizmayı bire bir kopyalayarak) test etti ama `python arac/_sahiplik_uygula.py` olarak gerçek alt-süreci çalıştırmadı (arac/ donuk olduğu için). ③ NE İSTİYORUM Onaylanırsa merge sırasında dört değişiklik (3 Python tuple + 1 Node filtre satırı) birlikte mi uygulanacak, yoksa ④ ayrı bir kalem olarak kuyruğa mı yazılsın? ✅ Bu tur bitti, boştayım.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
