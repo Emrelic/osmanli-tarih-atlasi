@@ -1648,6 +1648,42 @@ kıyaslanabilir. ⚠️ Tek çift üzerinden — sistematik kıyas YAPILMADI.
 🔜 Koşu sonrası: eşleme tablosu kararlaştırılır, sonra `uret_petek.py`.
 **Kod bu turda YAZILMADI** (motor donuk).
 
+### 🟡 VIABUNDUS — "İNDİRİLDİ ≠ BAĞLANDI" · `denetim/BULGU-VIABUNDUS-0905.md`
+
+```
+🟢 zaten kullanılıyor          HAYIR
+🟡 hazırlık, BEKLİYOR          ← KOVA BU
+🔴 ölü veri / yanlış coğrafya  HAYIR
+```
+Depoda **künyeli ve araçlı** duruyor: `arac/viabundus_indir.py` ·
+`viabundus_olc.py` · `koridor_olc.py` · `data/koridor.js`. Bilerek
+indirilmiş, motora **bilerek bağlanmamış.**
+
+**Kapsam — sayıyla:**
+```
+atlas noktası 3805 · viabundus kutusunda 163 (%4,3)
+Osmanlı çekirdeği (`d:` taşıyan) 809 · kutuda  4 (%0,5)
+  → Çehrin · Bar (Podolya) · Meçiboj · Yazlofça — 1672-1699 kuzey ucu
+```
+🟢 `BES-ALTYAPI ⑤` (koridor ağı) tarifine **birebir** uyuyor (kara yolu ·
+iç su yolu · **köprü** · **feribot** · liman · gemi kilidi · gümrük ·
+panayır) ve `§4` kabul kümesinde: hakemli (Research Data Journal, Brill
+2022) · Radboud Universiteit · CC-BY 4.0 · DOI'li.
+
+🔴 **ATIF ZORUNLU** — `KAYNAK.md`: *"Bu veriden türetilen her çıktıda
+Viabundus atfı bulunmalıdır."* Motora bağlanırsa lejant/künye atfı da
+gelecek.
+
+⚠️ **Bugünkü koridor ağının eksiğini KAPATMIYOR:** `BES-ALTYAPI ⑤`in 106
+düğümünün 26'sının koordinatı eksik ve o 26'sı **Anadolu-Rumeli'de**;
+viabundus 48,7°K'nin **kuzeyinde.** İki ayrı iş.
+
+📌 Ve kapsam sınırı (48,7°K altına inmiyor) **21 gün önce ölçülmüş**
+(`ea3cd06`, 15 Ağustos) ve commit mesajına yazılmış; bugün bağımsız
+olarak yeniden bulundu. Zarar yok (iş türetilmedi) ama `git log` on
+saniyeydi. 🟢 Ve ölçen oturum commit mesajına körü körüne güvenmedi —
+kutuyu kendi ölçtü, iddiayla uyuştu.
+
 ### 🔴 SEKİZ YAMA ÇAKIŞMASI — TASNİF EDİLDİ (14:10) · `denetim/HUKUM-YAMA-CAKISMA-0905.md`
 
 ```
