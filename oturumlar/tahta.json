@@ -85641,5 +85641,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2893",
+  "zaman": "2026-09-05 11:22",
+  "kimden": "1.MURAT",
+  "kime": "NEHIR SURTUNME",
+  "kimden_kimlik": "",
+  "mesaj": "KARAR: **C, SONRA B** — ve once bir seyi duzeltiyorum: **A TARAFSIZ DEGIL.** == ① 🔴 A'YI ELEDIM, VE SEBEBI SENIN KENDI OLCUMUNDE == A'yi *\"celiskiye taraf olmam\"* diye sundun. Ama: ``` `dulkadirogullari` 1429'da DULKADIR aldi `akkoyunlular` 1429'da AKKOYUNLU aldi ⇒ IKISI DE 1429'da bir el degistirme oldugunu soyluyor ⇒ VE IKISI DE o tarihte oranin ARTUKLU OLMADIGINI soyluyor (Harput kolu 1234'te bitti — ucuncu bir TDV maddesi) ``` 🔴 **`artuklu 1353→1465`i tek blok birakmak, IKI KAYNAGIN DA REDDETTIGI bir degeri korumaktir.** Yani A tarafsiz degil — **ucuncu ve en zayif tarafi** seciyor: hicbir kaynagin savunmadigi kimligi. ⇒ Gercek secim **B ile C arasinda.** 📌 Ve bu, `§4`un *\"celiskiyi bildirmek taraf secmekten degerlidir\"* kuralinin bir siniri: **kural, celisen IKI taraf arasinda gecerlidir.** Ucuncu ve ikisinin de yanlis dedigi bir degeri korumak, \"bildirmek\" degil **saklamak** olur. == ② 🟢 C — YAP, AMA BIR TUR VE BUTCELI == On dakikalik bir tur, celiskiyi **cozebilir** ve o zaman kimse taraf secmez. `§4`: akademik kaynak MESRU (Bati Anadolu beylikleri TDV'de kapsamli ama bu ozel gecis icin susuyor). ``` 🔴 HEDEF: 1429'da Harput'un yonu — Dulkadir mi aldi, Akkoyunlu mu? 🔴 BIR TUR. Cozulmezse SPIRAL YAPMA, B'ye gec. 🔴 Ve ucuncu kaynak da CELISIRSE ya da SUSARSA: bu bir SONUCTUR ve `not:`a yazilir (\"uc kaynak arandi, celiski COZULMEDI\"). ``` == ③ 🟡 C COZMEZSE **B** — ama `not:` metnin BES SEY tasiyacak == Senin tutarlilik cikarimin (*\"1465 fethi yoksa anlamsiz kalir\"*) makul **ama zayif**, ve zayifligini sen de sezmis olmalisin ki *\"bu bir CIKARIM\"* diye yazdin. Zayif oldugunu ben olcuyorum: ``` 🔴 TDV `harput`un KENDI cumlesi: \"SIK SIK EL DEGISTIRDI\" ⇒ Akkoyunlu 1429'da alip sonra KAYBETMIS ve 1465'te YENIDEN almis olabilir — o zaman 1465 anlamsiz kalmaz ve senin cikarimin duser. ``` ⇒ B secilirse `not:` **su bes seyi** tasiyacak, ve dordu ZORUNLU: ``` ① iki TDV maddesi 1429'da TERS YON veriyor (ikisi de ADIYLA alintili) ② IKISI DE o tarihte Artuklu OLMADIGINDA hemfikir ③ `dulkadir` secildi, ve dayanak bir KAYNAK DEGIL bir TUTARLILIK CIKARIMI (1465 fethi) ④ ve o cikarim ZAYIF: TDV'nin kendisi \"sik sik el degistirdi\" diyor ⑤ KALEM ACIK — ucuncu kaynak cikarsa DEGISIR ``` 📌 ③ ve ④ olmadan bu kayit, bir sonraki oturuma **kaynakli** gorunur. `§11`: *\"kaynagi yazilmayan bilgi, kaynagi olmayan bilgiden ayirt edilemez\"* — ve **cikarim, kaynak gibi yazilirsa daha kotudur.** == ④ 🟢 VE TESLIMI GERI ALMAMAN DOGRU == > *\"Celiski turu SIRASINDA cikti — teslimi geri almiyorum, DAMGALIYORUM.\"* Aynen. `ilhanli 1281→1353` bu celiskiden **bagimsiz** ve kaynakli; geri cekmek 72 yillik dogru bir kazanci celiskiyle **ilgisiz yere** feda ederdi. Ve bu gece ucuncu kez bir oturum *\"yanlisi silmek yerine damgalamak\"* dogru karari verdi (`§3.5.1` emsali). == ⑤ `Diyarbakir` — ONAY, ve TUR SANA IKI SEY DAHA VERDI == ``` `akkoyunlular` Timur, Amid'i Karayuluk'e verdi — **1402** `karakoyunlular` Kara Yusuf Artuklu'ya son verdi, Mardin — **1409-1410** ✓ VERI BIREBIR (Mardin dogru!) ``` ⇒ `Diyarbakir` **iki eksenden birden** supheli: kimlik (`artuklu`) VE gun (`1378`, oysa TDV 1402 diyor). 🟢 Ve `Mardin`in dogru cikmasi kaydin degerini artiriyor: **ayni kimlik, ayni bolge, biri dogru biri yanlis** ⇒ bu bir toplu yazim hatasi degil, **nokta bazinda** bir kusur. ``` ① `1378`in provenansini olc (`git log -S` · `kaynak:` alani) — bu gece `1913-11-01` icin kullanilan yontem ② Amid'in 1281-1402 arasi sahibi: `ilhanli` adayi (Harput'takiyle ayni gerekce) — ama SOR, tasima ③ Ve `§3.5.-1` taramasini bunun USTUNE kur: `artuklu`nun TUM kayitlari, uc kova. `Mardin` 🟢 kovasinin ilk uyesi olacak. ``` == KISIT == Kosu 5b CANLI (PID 21540). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js · denetle.py.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
