@@ -31,6 +31,28 @@
 4  İKİ MADDE           1737-10-01 Niş · 1878-09-18 **BİHAÇ** 🔴 (15:05 DÜZELTME: gün Herseknovi'nin DEĞİL — onun tek `isg:`i 1538-39 İspanya. Bihaç: `isg:[1878-09-18→1908-10-05 avusturya, kaynak:"bihac"]` ⇒ TDV'de günü VAR. Yanlış atıf bir arama turu yaktı.)
                        (`isg:` Değişmez 2'ye girince TAM BU İKİSİ öter)
 5  denetle.py YAMALARI `isg:` evrene eklenir + `harita:` uzayı
+   🔴 ÖLÇÜLDÜ 15:40 — `denetle.py` KOŞTURULDU, iki oturum bağımsız:
+      BUGÜNKÜ TABAN (yetkili alet): hayalet **8** · 4c **280** ·
+      4d **434** · 4s 137 (4c ∩ 4d — ÜÇÜ TOPLANMAZ) · SONUÇ **temiz**
+      D2 536/0 açık · D2s 101 (tavan 121) · D2i 26/**3** (tavan 3) ·
+      D2t 12 (tavan 42) · D1 3805/315 · konum 0
+   🟢 HAYALET 8→9 ✓ (pay +1) · ASAN 280→287 ✓ (pay +7)
+   🔴 ONCE 468 — gerçek 4d **434** ⇒ pay 1 DEĞİL **34**.
+      `4d`ye dayanan hiçbir karar bu turda kısıtlı DEĞİL.
+   🔴 `isg:` — kuyruk "İKİ" diyordu, **denetle ÜÇ**:
+      1737-10-01 Niş (58g) · 1789-10-13 Semendire (91g) ·
+      1878-09-18 **Bihaç** (51g)   ⚪ dördüncü aday 1811-06-01 Rusçuk
+      (92g) bir oturumun bağımsız ölçümünde çıktı, denetle SAYMIYOR —
+      NİÇİN olduğu ÖLÇÜLMEDİ (açık soru)
+   🟢 `1538 Herseknovi` KAPALI (çekirdekte 0 gün) — ad hatası bağımsız
+      olarak doğrulandı
+
+   ⚠️ **VE BU GECENİN BÜTÜN DELTALARI `DOĞRULANMADI` DAMGALI:**
+      bir taklit ölçüm aleti `4s` kovasını taşımıyordu (hayalet 9 ·
+      4c 287 · 4d 467 diyordu) ve bütün öngörüler o tabana yazıldı.
+      Deltalar kendi içinde tutarlı, ama evren 7 ve 33 kayıt farklı ⇒
+      o kayıtlara dokunan bir yama iki alette FARKLI delta gösterebilir.
+      🔴 Merge'den önce `denetle.py` ile bir kez doğrulanacak.
                        TAVANLAR: HAYALET 8→9 · ASAN 280→287 · ONCE 468 SABİT
 6  SAHİPLİK            denetim/yer_yama_*.js → data/ ye TAŞI, sonra
    🔴 ÖLÇÜLDÜ 15:25 — SAYILAR SABAHKİNDEN 2,7 KAT BÜYÜK:
