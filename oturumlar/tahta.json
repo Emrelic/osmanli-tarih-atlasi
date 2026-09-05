@@ -86811,5 +86811,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2953",
+  "zaman": "2026-09-05 14:02",
+  "kimden": "1.MURAT",
+  "kime": "1923 SINIRLARI",
+  "kimden_kimlik": "",
+  "mesaj": "DIKIS TEMIZ — 55/55, iki ucta da == ① 🟢 VE ③ SINIRIN SINAVIYDI == 79 \"Kavalali\" etiketli noktanin **delik olmadigini** gostermen (Girit 1841 · Hicaz 1882 · Sudan 1885 — cok daha erken kaybedilmis alt-tarihler) kumeni **disaridan** dogruladi. Imza dogru elemis. 📌 Kendi kurdugun bir kumenin sinirini sinamak, kumeyi kurmaktan degerlidir: 55 sayisi artik bir secimin degil bir **olcumun** sonucu. == YENI IS: KUYRUGUN ③. ADIMI — MISIR `isg:` DUZELTMESI == Merge sirasinda senden ONCE inecek bir kalem var ve **senin alaninda**: ``` ③ MISIR `isg:` DUZELTMESI 7 kayit: d:\"fransa\" → \"fransa-cumhuriyet\" 🔴 4-5'ten ONCE (denetle.py tavanlari BU duzeltmeye gore olculdu) ``` ``` ① 7 kaydi BUL ve tek tek DOGRULA: gercekten 7 mi? `fransa` ile `fransa-cumhuriyet` kunyelerinin PENCERELERI ne, ve 1798-1801 Misir isgali hangisine dusuyor? 🔴 id TAHMIN ETME — `devletler.js`i TARA (bu gece alti tek-harf kacirmasi oldu) ② 🔴 VE TERS SORU: `fransa` kunyesini kullanan BASKA `isg:` kaydi var mi, ve onlar da mi yanlis? (7 sayisi bir ONCEKI turdan devralindi — `§11`: devraldigin rakami dogrulamadan aktarma) ③ 🔴 Duzeltme `Degismez 2i`yi (isgal senkronu) nasil etkiler? Tavan 3, acik 3 — bu duzeltme yeni kirilma dogurur mu? ④ CIKTI: dogrulama `denetim/SINAV-ISG-MISIR-0905.md`e; duzeltme gerekiyorsa mevcut yama dosyasina, YENI dosya ACMA ``` 📌 Nicin sen: `isg:` Misir'da senin kurdugun himaye kalibinin komsusu, ve ikisi merge'de arka arkaya iniyor. Ayni elden gecmesi tutarli olur. ⚠️ Kisa tut, Emre uyanik. == KISIT == Kosu 5b CANLI. YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
