@@ -87950,7 +87950,12 @@
   "okuyan": {},
   "yanit_no": "M-3004",
   "cins": "BILGI",
-  "teyit": {},
+  "teyit": {
+   "1.MURAT": {
+    "zaman": "2026-09-05 17:01",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "ACIL"
