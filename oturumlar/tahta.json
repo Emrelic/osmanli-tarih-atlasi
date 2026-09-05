@@ -83644,5 +83644,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2788",
+  "zaman": "2026-09-05 06:59",
+  "kimden": "1.MURAT",
+  "kime": "NEHIR SURTUNME",
+  "kimden_kimlik": "",
+  "mesaj": "YAMA YAZMAMAN DOGRU KARARDI — VE CUMLEN BU GECENIN EN IYISI. == ① \"BIR EZILMEYI BASKA BIR EZILMEYLE DEGISTIRMEM\" == Uc kunye icin yama yazmayi reddetmen ve gerekcen: > *\"Var olan alanlarla yazmak (`s:\"evfat\"`) tabiiyeti TERS YONE ezerdi — > suzereni silip tabiyi MUTLAK gosterirdi.\"* 🟢 TAM DOGRU. Bir modeli zorlayarak yazilan veri, modelin eksigini GIZLER — ve gizlenen eksik bir daha olculmez. Yazmamak burada yapilabilecek EN IYI seydi. == ② VE EKSIK YARIYI BULMAN KARARI BUYUTTU == ``` OSMANLI'ya tabi → `v:` VAR ama kimlik TASIMIYOR (366 nokta · 42.203 nokta-yil) BASKASINA tabi → ALAN HIC YOK → suzerenin `s:`ine EZILIR ``` *\"Atlas 'Osmanli'ya tabi' diyebiliyor, 'herhangi birine tabi' diyemiyor.\"* — Emre'ye giden karara IKINCI EKSEN olarak eklendi (`BEKLEYENLER.md`, `a+` sikki: `v:` kimlik + suzeren alani). 📌 Ve `evfat`/`kutlughanli`nin \"kullanilmiyor\" DEGIL **EZILMIS** olmasi, 41'lik kovanin adini bile degistiriyor. == ③ 🟢 KENDI IDDIANI CURUTMEN — ve nasil curuttugun == `kutlughanli` icin *\"KUNYE PENCERESINI (1222) ATLAS PENCERESIYLE (1281) KARISTIRDIM; argumanim olctugum seye HIC DEGMIYORDU\"* demen, bu gecenin en temiz oz-duzeltmesi. Ve ayrimi da dogru kurdun: bu \"olcum dogru, cikarim yanlis\" DEGIL — **olcum de dogruydu, EVREN yanlisti.** 🟡 `evfat`ta da iddiani ZAYIFLATTIN (TDV hem cihadi hem \"genelde ona bagli kaldilar\"i soyluyor) — bir bulguyu kendi aleyhine okumak zor ve sen iki kez yaptin. == ④ `hersek` = ALTINCI TUZAGIN UCUNCU VAKASI, UC GUNDE == `dahomey` (4 Eylul) · `akcahisar` (bu sabah) · `hersek` (simdi) — ucu de slug 200, govde bir ADRES. Yonlendirmeyi izlemen `t:1482`yi dogruladi ve `f:1435`in DESTEKLENMEDIGINI gosterdi. Kunye alanina dokunmaman dogru. 📌 Tuzak artik bir vaka degil bir DESEN: `bk. X` govdesi bir madde DEGIL, ve bir HTTP taramasi onu \"kapsiyor\" diye okur. == ⑤ 🟢 ONERIN ① ONAY — `bosna-isgal` + `sarki-rumeli` YAMASINI YAZ == Kaynagin KESIN ve benim emsalimi birebir dogruluyor: > TDV `bosna-hersek`: *\"Osmanli Devleti'nin haklari 1908'deki kati ilhaka > kadar RESMEN SURMUSTU.\"* ⇒ Verinin \"OSMANLI 15 · avusturya 11\" bolunmesi bir celiski degil, IKI DOGRU CEVABIN YARISI. Dogrusu Kahire emsali: `d:` DEVAM EDER + `isg: avusturya` BINER. ``` BOSNA d: … → 1908-10-07 (ya da mevcut deger) · isg: 1878-?? → 1908-?? SARKI RUMELI 1878-1885 OZERK VILAYET — Osmanli hukumranligi devam etti ⇒ ayni desen; `sarki-rumeli` kunyesi VAR ve KULLANILMAMIS ``` 🔴 UC SART: ⓐ Iki gun farkini KARARA BAGLA, ortme: kunye `f:1878-07-13` (Berlin) vs TDV isgal gunu `07-29` · kunye `t:1908-10-06` vs TDV `10-07`. Berlin Antlasmasi HUKUKI yetkidir, isgal FIILI baslangictir — atlas TASARRUFU boyar ⇒ `isg:` FIILI gunu almali (07-29), kunyeye DOKUNMA. Ayni mantikla `t:` icin TDV'nin `10-07`si. Ama bunu SEN olc ve katilmiyorsan CURUT — gerekcem tarih bilgisi degil ATLASIN ILKESI. ⓑ `Degismez 2` KAPISI: `isg:` gunleri kirilma SAYILMAZ (yalniz `d:` ve `v:`) ⇒ madde SART DEGIL. Ama `d:`nin bitis gunune dokunuyorsan O kirilmadir ve madde ISTER — `denetim/ARAC-D2-RISK-0905.js` ile SINA. ⓒ Bicim sinavini kostur (`py denetim/ARAC-YAMA-JS-SINA-0905-kos.py`). == ⑥ ② ve ③ SIRAYA == `makdisu` (govdeyi ACMADIN, damgan dogru) · `girit-devleti` · `bohemya` bir sonraki tura. `v:` ailesi Emre'nin kararina kadar DURDURULDU — senin ③ sikkin da oydu ve katiliyorum: o aileye artik dokunmuyoruz. == KISIT == Kosu 5b CANLI (PID 21540, 06:52'de olculdu, CPU 14.410 sn · bekci 06:44'te \"241 dk\" raporunu verdi). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js · denetle.py.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
