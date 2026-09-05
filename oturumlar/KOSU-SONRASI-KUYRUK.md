@@ -1115,6 +1115,63 @@ VAR). Ve toplu yazım DEĞİL — `1378-01-01` taşıyan 18 kayıt-dönemin
 **önceliklendirme aracı** olur (`kaynak:`sız kayıtlar önce taranır);
 tutmazsa bir gecelik tesadüf. ⇒ `kaynak:` kapsama ölçümü açıldı.
 
+### 🟢 `kaynak:` KAPSAMA — desen CONFOUND'u GEÇTİ, ama iki dosyada
+
+```
+kapsama       1367/3805 = %35,9
+dosya dağılımı  8 dosya %0  ·  6 dosya %100   ← bir dağılım değil, KESME ÇİZGİSİ
+ham oran      kusurlu 99 · `kaynak:` VAR 1 (%1,0)   🔴 BULGU SAYILMADI
+AYNI DOSYA İÇİNDE:
+   yerlesimler.js  kusurlu 1/45 %2,2 ↔ kusursuz 110/747 %14,7  → 6,7 KAT
+   afrika.js       kusurlu 0/34 %0,0 ↔ kusursuz  48/150 %32,0
+   h2_kuzeyafrika  0/20 ↔ 0/44   ⚪ ÖLÇÜLEMEZ (varyans YOK, `temiz` DEĞİL)
+```
+🟢 Ham oranı **reddetmesi** ölçümün en değerli yeri: öngörü dosyasında
+*"confound tam olarak bunu üretir"* diye önceden yazılmıştı.
+⇒ ***Bir ölçümün disiplini, ürettiği sayıda değil REDDETTİĞİ sayıdadır.***
+🟢 Ve tek istisna anlamlı: `timbuktu` bir hata değil **BEYAN** — kümedeki
+tek kaynaklı kayıt, kümedeki tek **kasıtlı** kayıt.
+🟢 Seçim bağımsız (küme `4c`/`4d` aritmetiğinden geldi, ölçülen değişken
+`kaynak:` varlığı) ve "kusursuz" grup kirli ⇒ fark bir **ALT SINIR.**
+
+**HÜKÜM:** önceliklendirme sezgisi olarak **kullanılabilir**; kusur
+göstergesi olarak **kullanılamaz** — %64'ü kaynaksız bir külliyatta
+*"kaynaksız"* demek *"çoğunluk"* demektir.
+🔜 Genişletme şartı: **deseni sınayacak şey başka bir SEÇİCİDİR.**
+Aday: `denetle.py` `konum` denetimi · `2s` açık kırılmalar · mükerrer
+madde listesi (üçü de `kaynak:`a hiç bakmaz).
+
+### 🔴 `kur:` — ve **DÖRDÜNCÜ BİR YER** daha değişmeli
+```
+3 Python tuple (SKALER_ALANLAR 389 · SKALER_KORUNAN 392 · assert 397)
++ 🔴 Node süzgeci (88-91) — "kur"u TANIMIYOR
+```
+Ve o satır daha önce **iki kez** genişletilmiş (1 Eylül `m`/`kaynak`,
+2 Eylül `bos`/`neden`/`not`) — bu **üçüncü tekrar.** Mekanizma hep aynı:
+*yeni bir skaler alan eklenince iki yer değişmeli, biri unutuluyor*, ve
+yalnız o alanı taşıyan bir kayıt **Node'da sessizce elenir.**
+⇒ **Dördü BİRLİKTE uygulanacak.** Ve bir borç: çare *"listeye bir şey
+daha ekle"* değil, **listeyi tekilleştirmek** — Node süzgeci
+`SKALER_ALANLAR`dan **türetilmeli.** (Refactor, bu koşuda değil.)
+🟢 `C13`ün üç ayağı sandbox'ta sınandı, üçü de geçti.
+
+### 🟡 `kaynak:` "bulunamadı" KOVASI — **263 tek sayı değil, İKİ SINIF**
+```
+140 JENERİK  "TDV'de müstakil maddesi yok…" — kaynak ADI YOK ⇒ SINANABİLİR
+123 ADLI     kaynağını ADIYLA yazıyor ⇒ "bulunamadı" DEĞİL, bir BEYAN
+```
+263'ün **tamamı** tarandı (örnek değil): `200` → **12 (%4,6)** · `302` →
+251. On ikisinin **gövdesi okundu**:
+```
+🔴 YANLIŞ İDDİA 7   nube · somali · delhi-sultanligi · mogolistan ·
+                    nepal · tibet · meysur
+🟢 İDDİA TUTUYOR 1  dahomey — "bk. BENİN" YÖNLENDİRME KÜTÜĞÜ (§4 ⑥)
+🟡 AYRI SINIF 4     kanada · liberya · ibadan · banda-adalari
+```
+🔴 **Gövde okunmasaydı `dahomey` sekizinci yanlış diye raporlanacaktı** —
+`§4②` bir sayıyı **değiştirdi.**
+⇒ **%5,0 ALT SINIR** (sayım yalnız `id = slug` vakalarını görür).
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri

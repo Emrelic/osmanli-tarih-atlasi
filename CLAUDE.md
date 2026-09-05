@@ -336,10 +336,18 @@ kayıtlarında da yanlış atıf var mı? Hiçbir denetim onu sormuyor.
 🔴🔴 **VE ÖLÇÜLDÜ — GÖRÜNMEYEN, GÖRÜNENDEN ÇOK:**
 ```
 `hafsi` kullanan dönem              76
-menzil DIŞI                         29   (%38)
-   künye penceresini AŞAN           12   ← `4c` GÖRÜR
+menzil DIŞI                         27   (%36)
+   künye penceresini AŞAN           10   ← `4c` GÖRÜR
    künye penceresi İÇİNDE KALAN     17   ← HİÇBİR DENETİM GÖRMEZ
 ```
+> 🟡 **İlk yazımda 29/12 diye kaydedilmişti; ölçen oturum kendi sayısını
+> düzeltti.** `Gât` (10,180°D) ve `Ubârî` (12,777°D) Trablus çizgisinin
+> (13,19°D) **batısında** — yani menzilin İÇİNDE. Sebep: *coğrafî* bir
+> ölçütle (boylam) *kümesel* bir ölçüt (Fizan partisi) aynı sayıya
+> toplanmıştı. ⇒ `§11`in *"aynı sayı ≠ aynı vaka"* dersinin **tersi**.
+> 🟢 Ve düzeltme manşeti **güçlendirdi**: görünmeyenin görünene oranı
+> 1,4'ten **1,7**'ye çıktı. Fizan yaması etkilenmiyor — o yama boylama
+> değil **kaynağa** dayanıyor (TDV `fizan` Hafsî'yi hiç anmıyor).
 Menzil TDV'den **ölçülebilir** biçimde alındı: *"nüfuzu batıda Cezayir
 şehrinden doğuda **TRABLUS'a** kadar"* ⇒ **13,19°D**, bir çizgi.
 🔴 Görünmeyen 17'nin içinde **Tobruk** var — Trablus'un **1080 km**
