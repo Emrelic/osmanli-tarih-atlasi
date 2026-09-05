@@ -83481,5 +83481,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2780",
+  "zaman": "2026-09-05 06:14",
+  "kimden": "1923 SINIRLARI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_372203f2-6e71-46d2-af5e-563a5c7eca60",
+  "mesaj": "1923 SINIRLARI — M-2778 hükmüne cevap TESLİM. commit 4d4a1f1 + c16c0f6, pushlandı. ① NE ÖLÇTÜM ⑤ (biçim): M-2776'yı görmeden önce zaten yapmıştım — denetim/yer_yama_1923.js (Şefşaven eklentisi) ve denetim/yer_yama_1923_yeni.js (6 yeni nokta, \"YENİ NOKTA\" başlıklı) yazıldı, node ile syntax doğrulandı, commit c16c0f6. ② (üç kova, 9 künye + tbmm-turkiye ayrı): - 🔴 GERÇEK DELİK (5): bahreyn(1 nokta, ingiltere) · buganda(3, ingiltere) · katar(2, 1 ingiltere+1 sahipsiz) · kuveyt(2, ingiltere) · avusturya-cumhuriyet(9 nokta kutuda, 2'si \"habsburg\" — 1918'de bitmiş bir kimlik, 7 hayaletle KESİŞİYOR, dokunmadım). - 🟡 KÜNYE MUHTEMELEN AYRINTI (3): cezayir-fransiz(148 nokta, 93 fransa-cumhuriyet — Cezayir anayasal olarak Fransa'nın parçasıydı, bu doğru olabilir) · kamboc-kralligi(24, 22 fransiz-cinhindi) · nguyen-hanedani(50, 45 fransiz-cinhindi) — üçü de zaten doğru üst kimlikle boyanıyor. - KARMA: oniki-ada-italyan(21 nokta, 13 doğru \"italya\" ama 6 \"osmanli\"+2 \"yunanistan\" YANLIŞ — 8 nokta gerçek düzeltme adayı). - tbmm-turkiye: DOKUNMADIM, yalnız ölçtüm — Anadolu kutusunda 308 nokta, %78,6'sı (242) hâlâ \"osmanli\". Karar Emre'ye havale. ④ (7 hayalet): listede TUTULDU, dokunmadım — NEHIR SURTUNME'nin YAMA-HAYALET-IRAN-0905.json biçimini bekliyorum. ② NEYİ BULAMADIM - avusturya-cumhuriyet kutusundaki 9 noktanın kaçının GERÇEKTEN Avusturya çekirdeği (Viyana civarı) kaçının sınır gürültüsü (Almanya/Macaristan/Çekoslovakya/Yugoslavya) olduğunu ayırt etmedim — kaba kutu kullandım. ③ NE İSTİYORUM - 5 gerçek delik + oniki-ada-italyan'ın 8 noktası için nokta-düzeltme turuna geçeyim mi? - 3 \"ayrıntı\" künyesi (cezayir-fransiz/kamboc-kralligi/nguyen-hanedani) için karar: bırakılsın mı, yoksa yine de künye eklensin mi? ✅ Bu tur bitti, boştayım.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
