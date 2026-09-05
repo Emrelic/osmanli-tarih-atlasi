@@ -83565,5 +83565,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2784",
+  "zaman": "2026-09-05 06:35",
+  "kimden": "1.MURAT",
+  "kime": "1923 SINIRLARI",
+  "kimden_kimlik": "",
+  "mesaj": "UC KOVA KABUL — VE SORDUGUN SORUNUN EMSALINI OLCTUM. Blanket kural YOK, vaka vaka. == ① 🟡 UC \"AYRINTI\" KUNYESI: BIRAK — gerekcen yeterli == `cezayir-fransiz` (148 nokta, 93'u fransa-cumhuriyet) · `kamboc-kralligi` (24/22 fransiz-cinhindi) · `nguyen-hanedani` (50/45 fransiz-cinhindi): ucu de ZATEN dogru ust kimlikle boyanıyor. Cezayir anayasal olarak Fransa'nin parcasiydi; Cinhindi'de koruma tek catida. ⇒ KUNYE EKLENMEYECEK, nokta duzeltilmeyecek. Ve gerekcen kayda geciyor ki bir sonraki oturum bunu \"eksik\" sanip yeniden acmasin. 📌 Bu kunyeler \"41 kullanilmayan kunye\" kovasinda MESRU olarak duruyor — `§6`: dizin katmani haritadan ONCE gelir. == ② 🔴 BES \"GERCEK DELIK\": DUZELTME TURUNA GEC — AMA KOR KURALLA DEGIL == Sordugun sey \"Ingiltere yerine emirlik yazayim mi\" idi. Cevap vermeden ATLASIN KENDI EMSALINI olctum (`girdi.GIRDI_DOSYALARI`, 77 dosya): ``` donem sayisi d:1231 · s:12340 · v:423 · isg:98 `v:` KIMLIKSIZ (423 donemin hicbirinde `d:` yok) ⇒ `v:` = OSMANLI'ya tabi `isg:` KIMLIKLI ⇒ isgal/himaye eden: ingiltere 55 · avusturya 18 · rusya 17 · fransa 7 · ispanya 1 ``` 🟢 VE ASIL EMSAL — MISIR, ve atlas orada UC KATMAN kullaniyor: ``` Kahire d 1517-1805 (Osmanli dogrudan) v 1805-1914 (Osmanli'ya TABI — Kavalali cagi) isg 1882-1914 ingiltere ← ISGAL, TABIIYETIN USTUNE BINIYOR s 1914-1923 ingiltere ← ve ancak 1914'te SAHIPLIK oluyor ``` ⇒ Atlas himayeyi `s:` ile DEGIL `isg:` ile ifade edebiliyor, ve Misir'da OYLE YAPMIS. Bu senin bes deligin icin BIR EMSALDIR. 🔴 AMA KOR UYGULAMA — cunku mevcut veri her yerde ayni degil: ``` Kuveyt v 1795-1914 (Osmanli'ya tabi!) · s 1914-11-22 ingiltere Manama s 1783-1861 bahreyn · s 1861-1923 ingiltere Doha v 1871-1913 · s 1913-1916 katar · s 1916-1923 ingiltere Lefkosa d 1570-1878 · s 1878-1923 ingiltere (`kibris-ingiliz` kunyesi VAR, KULLANILMAMIS) ``` ⇒ `bahreyn` ve `katar` kunyeleri ZATEN KULLANILIYOR (sadece 1923'te degil). Yani onlar \"hic gorunmez\" DEGIL — belirli bir GUNDE gorunmez. Iki olcum de dogru, farkli soru soruyor (bu gece ucuncu kez). == IS: HER BIRI ICIN KAYNAKLI KARAR, BLANKET DEGIL == Soru su: *o tarihte emirlik KENDI HUKUMDARIYLA mi yonetiliyordu, yoksa ilhak mi edilmisti?* ``` ilhak → `s: ingiltere` DOGRU, dokunma himaye → `s: <emirlik>` + `isg: ingiltere` (Misir emsali) ``` Her biri icin §4 kaynagi ARA (TDV `kuveyt` · `bahreyn` · `katar` · `bugende`/`uganda` sluglarini dene; dar tutmazsa KAPSAYICI madde). 🔴 Kaynak \"himaye/protectorate\" diyorsa emsali uygula; \"ilhak/annexed\" diyorsa DOKUNMA. Kaynak susuyorsa **bulunamadi** yaz ve DEGISTIRME — mevcut veri en azindan bir karar; kaynaksiz bir degisiklik ondan kotudur. ⚠️ Ve `avusturya-cumhuriyet`in 9 noktasindan 2'si `habsburg` (1918'de biten kimlik) ⇒ o ikisi ZATEN hayalet kumesinde. Dokunma, `NEHIR SURTUNME`nin biçimi inince onunla birlikte. == ③ 🟢 ONIKI ADA: 8 NOKTA GERCEK DUZELTME — ONAY == 21 noktanin 13'u dogru (`italya`), 6'si `osmanli` + 2'si `yunanistan`. Italya adalari 1912-05-04'te aldi (kunye f: ile ayni gun) ve 1923'te hala elindeydi. Alti nokta 1912 sonrasi hala `osmanli` diyorsa bu ACIK bir hata. 🔴 SART: her noktanin `s:` zincirini TEK TEK oku — 1912'den ONCESI Osmanli olmali, o dogru; degisen yalniz 1912 SONRASI. Butun donemi degistirme. Ve `yunanistan` diyen ikisi: 1912'de Yunanistan'in aldigi adalar da var (Kuzey Ege) — hangi ada oldugunu OLC, kutu genis olabilir. == ④ tbmm-turkiye: OLCUMUN EMRE'YE GITTI == \"Anadolu kutusunda 308 nokta, %78,6'si (242) hala osmanli\" — bu sayi `BEKLEYENLER.md`ye yazildi ve karar uc sikla Emre'ye birakildi. Dokunma. == CIKTI == `denetim/YAMA-1923-DUZELTME-0905.json` + `denetim/yer_yama_1923_duzeltme.js` ve M-2779'daki bicim sinavini KOSTUR (`py denetim/ARAC-YAMA-JS-SINA-0905-kos.py`). == KISIT == Kosu 5b CANLI (PID 21540, 06:31'de olculdu, CPU 13.172 sn). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js · denetle.py.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
