@@ -4,6 +4,76 @@
 
 ---
 
+## 🌙 5 EYLÜL GECESİ — NE OLDU, VE SENİN TEK KARARIN
+
+> Altı oturum sabaha kadar çalıştı. Aşağıda **önce senin kararın**, sonra
+> gecenin özeti. Koşu 5b hâlâ sürüyor (aşağıda).
+
+### 🔴 SENİN KARARIN — TEK KALEM: `tbmm-turkiye` HARİTADA HİÇ YOK
+
+Ölçüldü: 1923-10-29'da **98 künye canlı**, ve **10'unun hiç noktası yok** —
+yani o kimlikle haritada hiçbir yer boyanmıyor. Dokuzu araştırma işi, ama
+biri **senin kararın**:
+
+```
+tbmm-turkiye   TBMM Hükûmeti · 1920-04-23 → 1923-10-29 · künye VAR, nokta YOK
+```
+Bugün Anadolu o tarihlerde **Osmanlı** olarak boyanıyor. Ankara hükûmetinin
+denetlediği toprağı İstanbul'dan **ayrı** göstermek yüzlerce noktayı ve
+ekranın tamamını değiştirir — bu bir ölçüm değil bir **tasarım kararı**.
+```
+(a) AYRI BOYANSIN    1920-1923 Anadolu'da TBMM ayrı renk/kimlik
+                     ⇒ Millî Mücadele haritada GÖRÜNÜR olur
+                     ⚠️ yüzlerce nokta düzenlenir, büyük bir parti
+(b) BUGÜNKÜ GİBİ     Osmanlı olarak kalsın; künye dizinde durur, boyamaz
+                     ⇒ değişiklik yok, ama künye "dekoratif" kalır
+(c) SONRA            ölçüm yapılsın, karar 1923-2026 ekseni açılınca verilsin
+```
+Ötekilerin sekizi (Avusturya Cumhuriyeti · Kuveyt · Katar · Bahreyn ·
+Vietnam/Nguyễn · Kamboçya · Uganda/Buganda · Oniki Ada) araştırma turuna
+girdi — onlar için karar gerekmiyor.
+
+### 🟢 GECE NE BİTTİ
+
+```
+NEHİRLER HARİTADA GÖRÜNÜYOR — r5860 yayında
+   İstediğin "nehirler akarsular haritaya" TAMAM. Ölçüm şunu buldu:
+   1454 nehir zaten ÇİZİLİYORDU ama HİÇBİRİ GÖRÜNMÜYORDU — Esri uydu
+   altlığının ALTINDA kalıyorlardı. Sıra düzeltildi; artık siyasi gövdenin
+   üstünde. Ve "Coğrafya" kutusu bölündü: altlık ve nehir ayrı açılıp kapanıyor.
+   ⚠️ Dere/çay AYRI bir iş: Natural Earth 10m'de dere/çay YOK (ölçüldü),
+      başka bir kaynak gerekiyor. Senin kararına bırakıldı, aceleye gerek yok.
+
+KÜRE GÖRÜNÜMÜ — r5725 yayında, varsayılan KAPALI, ⑦ kutusundan açılıyor
+
+KRONOLOJİ — 168 yeni madde, beş bölge (batı/doğu Afrika · GD Asya ·
+   güney Asya · Kuzey Amerika 41/52). Koşu bitince inecek.
+
+11 YENİ KÜNYE — 1918-23 halefleri (Irak Krallığı · Suriye-Lübnan · Filistin ·
+   Ürdün · Mısır ×2 · Tannu Tuva · Harezm · Buhara · Rif) + Norse Grönland
+```
+
+### 🔴 VE HARİTADA GÖRÜNEN İKİ HATA BULUNDU — koşu bitince düzelecek
+```
+122 NOKTA YANLIŞ SAHİPLİ · içinde TÜM MISIR var
+   1921-23 arası Irak ve Mısır Krallıkları atlasta İNGİLTERE boyanıyor.
+   Irak 34 nokta · Mısır 56 · Suriye 16 · Filistin 6 · Ürdün 2 · Harezm 4 · Buhara 4
+
+6 NOKTA 424 YIL YANLIŞ KİMLİKTE
+   Derbend · Hurmuz Adası · Kiş · Kışm · Tarki · Agraham burnu 1281'den beri
+   PEHLEVÎ İRAN'ı ile boyanıyor (künye 1925-2026). Doğru kimlikler araştırılıyor.
+```
+
+### ⏳ KOŞU 5B — sabaha yetişmeyecek, bu bir ölçüm
+```
+başladı 02:40:27 · beklenen bitiş ~18:40 (koşu 4b'nin gerçek süresi 16s09dk)
+```
+Gece bir koşu (5) **öldü**: zincirin kendi zaman aşımı 200 dakikaydı, oysa
+koşu 16 saat sürüyor. **3 saat 20 dakika yandı.** Tavan 24 saate çıkarıldı,
+bekçi artık süreç canlılığına da bakıyor. Bulan bir işçi oturum oldu.
+
+---
+
 ## 🔴 27 AĞUSTOS — KUTUDAN GELEN YENİ KALEMLER
 
 > ⚠️ **Üreteç bu başlığı OKUMAZ** ve bu KASITLI: `arac/uret_bekleyenler.py`
