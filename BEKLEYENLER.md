@@ -204,25 +204,56 @@ etmek, o kodu yazmaktan zordur.
 ⇒ 90 satır kaldırılacak — **ama önce senin (a)/(b) kararın**, çünkü
 kaldırma tam o değeri kullanıyor.
 
-### 🟢 GECE NE BİTTİ
+### 🟢 GECE NE BİTTİ — 5 Eylül 09:00 ölçümü
 
+**İstediğin altı başlıktan ikisi TAMAM ve YAYINDA:**
 ```
-NEHİRLER HARİTADA GÖRÜNÜYOR — r5860 yayında
-   İstediğin "nehirler akarsular haritaya" TAMAM. Ölçüm şunu buldu:
-   1454 nehir zaten ÇİZİLİYORDU ama HİÇBİRİ GÖRÜNMÜYORDU — Esri uydu
-   altlığının ALTINDA kalıyorlardı. Sıra düzeltildi; artık siyasi gövdenin
-   üstünde. Ve "Coğrafya" kutusu bölündü: altlık ve nehir ayrı açılıp kapanıyor.
-   ⚠️ Dere/çay AYRI bir iş: Natural Earth 10m'de dere/çay YOK (ölçüldü),
-      başka bir kaynak gerekiyor. Senin kararına bırakıldı, aceleye gerek yok.
+🟢 NEHİR / AKARSU HARİTAYA — r5860 yayında
+   1454 nehir zaten ÇİZİLİYORDU ama HİÇBİRİ GÖRÜNMÜYORDU: Esri uydu
+   altlığının ALTINDA kalıyorlardı. Sıra düzeltildi. "Coğrafya" kutusu
+   bölündü — altlık ve nehir ayrı açılıp kapanıyor.
+   ⚠️ Dere/çay AYRI iş: Natural Earth 10m'de dere/çay YOK (ölçüldü).
 
-KÜRE GÖRÜNÜMÜ — r5725 yayında, varsayılan KAPALI, ⑦ kutusundan açılıyor
-
-KRONOLOJİ — 168 yeni madde, beş bölge (batı/doğu Afrika · GD Asya ·
-   güney Asya · Kuzey Amerika 41/52). Koşu bitince inecek.
-
-11 YENİ KÜNYE — 1918-23 halefleri (Irak Krallığı · Suriye-Lübnan · Filistin ·
-   Ürdün · Mısır ×2 · Tannu Tuva · Harezm · Buhara · Rif) + Norse Grönland
+🟢 KÜRE GÖRÜNÜMÜ — r5725 yayında, ⑦ kutusundan açılıyor
+   + dünyanın arka yüzündeki etiketler artık binmiyor
+   + zoom kalibrasyonu düzeltildi (bir sürgü tam 2× yanlış hesaplıyordu)
 ```
+
+**Koşu bitince inecek olanlar — hepsi ÖLÇÜLDÜ, hiçbiri tahmin değil:**
+```
+KRONOLOJİ        216 madde hazırlandı → 200 KABUL · 16 mükerrer RED
+                 (batı/doğu Afrika · GD Asya · güney Asya · Kuzey ve
+                  Orta ve Güney Amerika · Sibirya · Arnavutluk · Sisam)
+                 + 4 GÜN DÜZELTMESİ (biri "yalnız ay" diye geri çekildi)
+KÜNYE            14 yeni (1918-23 halefleri · Norse Grönland · Hürmüz ·
+                 Arnavutluk)
+YERLEŞİM         16 yama dosyası · 148 kayıt · bunların 48'i YENİ NOKTA
+                 🟢 3 km mükerrer sınavı: 0 — hiçbiri var olan bir
+                    noktayla çakışmıyor
+```
+
+**Ve gecenin en büyük bulgusu senin listende yoktu — beş vaka, tek desen:**
+```
+"İŞGAL, SAHİPLİK OLARAK BOYANMIŞ"
+   GİRİT 15 yıl · TUNUS 42 yıl · ONİKİ ADA 11 yıl · EGE ADALARI ·
+   DOĞU MAKEDONYA          ⇒ 90 yıl · 64 nokta
+Kronoloji hep doğru yazılmış; HARİTA takip etmemiş.
+```
+Ayrıca **Sisam** 433 yıl doğrudan Osmanlı boyanıyordu — oysa 1832'den
+beri özerk bir emâretti (TDV: *"vasal bir prenslik hâline getirildi"*).
+
+**Sayı düşüren ölçümler:**
+```
+4d ihlali          467 → 443   (Litvanya 19 · Makdişu 5 dönem düzeltildi)
+"belgesiz sahipsiz"  30 →   7   ilk sayım `bit:` alanını hiç sormamış
+Bozcaada "10 yıl çelişkisi"  → YARISI HİÇ YOKMUŞ: `1913-11-01` bir gün
+   iddiası değil, maddenin kendi `gun:` alanı "Kasım 1913" diyor
+```
+
+**Ve altı işçi oturum bu gece kendi bulgusunu çürüttü** — kimse sormadan,
+kabul ölçütünü karşıladıktan sonra. Biri kendi 90 satırlık kodunu
+"gereksiz" ilan etti; biri bir çelişkiyi kendi yıl hatası diye geri çekti;
+biri kendi yamasının dört ortaçağ kırılmasını sileceğini yakaladı.
 
 ### 🔴 VE HARİTADA GÖRÜNEN İKİ HATA BULUNDU — koşu bitince düzelecek
 ```
