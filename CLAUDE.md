@@ -4230,6 +4230,31 @@ DOĞU  8  (20,07° → 23,97°)  `berka` anıyor        ⇒ `hafsi` DAYANAKSIZ
   var). ⇒ Sabahki *"üç ölçüt yakınsarsa küme TAMDIR"* dersinin sınırı:
   ***yakınsama kümenin kapsamını doğrular, ama zayıf bir ölçüt güçlü
   olana güven EKLEMEZ.*** İkisi toplanmaz; güçlü olan taşır.
+
+- 🔴 **YETERLİ AMA GEREKLİ OLMAYAN BİR ÖLÇÜT, MALİYETİ FAZLA SAYAR — ve
+  fazla saymak, az saymak kadar bozar.** *(5 Eylül 2026 · koordinatörün
+  ölçütünü `NEHİR SÜRTÜNME` düzeltti)*
+
+  Koordinatör bir renk maliyeti sorarken şunu yazdı: *"eş zamanlı DEĞİLSE
+  aynı hex meşru."* Cümle **yanlış değil** — eş zamanlı olmayan iki gövde
+  hiç birlikte sahnede olmaz, paylaşım güvenlidir. Ama `renkler.py`nin
+  kendi ölçütü daha geniş:
+```
+BEYAN   "…yeter ki o devletler tarih boyunca hiç KOMŞU olmasın"
+⇒ ölçüt   EŞ ZAMANLILIK **VE** KOMŞULUK   (koordinatör yalnız birincisini verdi)
+```
+  ⇒ Verilen ölçüt **yeterliydi ama gerekli değildi**: *eş zamanlı ama
+  UZAK* olan çifti (`evfat` — Anadolu kümesiyle eş zamanlı, **~3000 km**)
+  yeni renk gerektiriyor sayardı. Ölçen oturum ikisini birden ölçtü ve
+  yük **8 → 6**'ya indi.
+
+  📌 Bu proje ölçümün **eksik** kalmasına dair çok kayıt tutuyor; bu
+  tersi. ***Bir maliyeti fazla saymak da bir ölçüm hatasıdır*** ve zararı
+  sinsidir: yanlış sayı bir hesabı değil **önceliklendirmeyi** bozar —
+  pahalı görünen bir kalem sıraya girmez, ve girmediği için bir daha
+  ölçülmez.
+  🟢 Ve düzeltmenin yönü kayda değer: koordinatörün ölçütü kalemi
+  **olduğundan pahalı** gösteriyordu, işçininki gerçek fiyatı buldu.
   📌 `§11`in *"`0`, 'yok' ile 'bakmadım' arasında ayrım yapmaz"*
   dersinin **dönüş değeri** ve **alan adı** yüzleri — ve `§4`ün
   *"bir alan adı, kullanıldığı yerden değil TANIMLANDIĞI yerden

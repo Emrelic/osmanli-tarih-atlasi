@@ -1521,7 +1521,40 @@ prensligi` Berlin 1878 bağımsızlık · `mutahharten` Akkoyunlu nüfuzu) —
    HÜKÜM DEĞİL (CIE76 yaklaşığı; gerçek CIEDE2000 koşu sonrası)
 ```
 
-### 🟡 `v:` KİMLİK BOŞLUĞU — ALTI VAKA, ve hepsi AYNI CİNS
+### 🟡 `v:` KİMLİK BOŞLUĞU — **YEDİ** VAKA, ve 6'sında harita YANLIŞ DEĞİL EKSİK
+
+> Bu blok 5 Eylül 13:45'te **ölçümle** güncellendi; ilk hâli *"altı vaka"*
+> diyordu ve renk yükünü fazla sayıyordu.
+
+```
+Evfat (Ifat)             ~10 nokta   🟢 künye VAR · renk VAR  ⇒ maliyet 0
+Kutlughanlılar (Kirman)  ~10 nokta   🟢 künye VAR · renk VAR  ⇒ maliyet 0
+Melkisi (Çemişgezek)       1         künye yok
+Mirdasi (Eğil + ÇERMİK)    2         künye yok  ← TEK künye İKİ nokta
+Süveydi (Genç + Çapakçur)  2         künye yok  ← TEK künye İKİ nokta
+Zırkan (Atak)              1         künye yok
+Sason emirliği             1         künye yok
+Hizan emirliği             1         künye yok
+```
+🔴 `Çermik` **ayrı vaka değil**: beyi kaynakta *"Şah Ali Bey MİRDİSİ
+(Çermikli)"* ⇒ Eğil'in Mirdasileriyle **aynı hânedan.**
+
+**YENİ RENK YÜKÜ: 6** (yalnız Anadolu kümesi — hem eş zamanlı hem komşu,
+~100 km içinde). `evfat` eş zamanlı ama **~3000 km** uzak, `kutlughanli`
+ayrık (1222-1306) ⇒ ikisi de paylaşabilir.
+⚠️ Bugün zaten **13 kimlik renk bekliyor** ⇒ bu kalem kuyruğu ~2 katına
+çıkarır. Ve palette çözülebilirliği **ÖLÇÜLMEDİ** (`renkler.py` donuk).
+
+🟡 **VE TERS SORU KALEMİ ACİL OLMAKTAN ÇIKARDI — 7'nin 6'sında harita
+YANLIŞ DEĞİL EKSİK.** Kaynak: *"Akkoyunlular … kendilerine bağlı kalmak
+şartıyla atalarından kalan toprakları Osmanlılara kadar yönetmelerine
+izin vermişlerdir"* ⇒ `akkoyunlu` yazmak **doğru**, yalnız tam değil.
+⚪ Tek istisna `evfat`: Ifat Habeş'e kimi zaman haraçgüzar, kimi zaman
+**savaş** hâlindeydi ⇒ *"eksik"* mi *"yanlış"* mı **ÖLÇÜLMEDİ**, ve ikisi
+farklı sonuç doğurur.
+
+⚪ Ve nokta sayıları (`~10`/`~10`) **kaba kutuyla** — büyüklük fikri,
+liste değil. Kutu bu gece iki kez yanlış bulgu üretti.
 
 Bir yerel beylik **kaynaklı ve adıyla biliniyor** ama künyesi yok ⇒ nokta
 **süzereniyle** boyanıyor:
