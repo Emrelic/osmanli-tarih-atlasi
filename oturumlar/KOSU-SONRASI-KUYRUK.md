@@ -525,8 +525,19 @@ almanya      künye "Kutsal Roma / Almanya" = 962'den beri bir ÇATI
 📌 *"Künyenin NEYİ temsil ettiği sorusu, hayalet sorusundan ÖNCE gelir"*
 uyarısı belirleyici oldu — dördü de o soruyla çözüldü.
 
-### ⚪ `kur:` ALANI UYGULAYICIDA YOK — merge ön şartı
-`_sahiplik_uygula.py` `kur:`i **taşımıyor**; yamada dursa bile düşer.
+### 🟢 `kur:` ALANI UYGULAYICIDA YOK — **ÖDENDİ 5 Eylül 19:40 · `a42a5de`**
+
+> ⚠️ **BU KALEM KAPANDI — yeniden iş sanma.** Dört yer de indi (node
+> süzgeci · `CATISABILIR` · `SKALER_ALANLAR` · `SKALER_KORUNAN`), `C13`ün
+> dört ayağı da koşuldu, üç dal da ateşledi. Ayrıntı ve ölçüm:
+> *"`kur:` ARAÇ KUSURU — DÜZELTİLDİ"* başlığı (bu dosyanın altında).
+> 🔴 Ve `KÜRE GÖRÜNÜM` sonra ölçtü: **kova boş** — `kur` tek eksik alandı,
+> 397 kaydın öteki 16 alanı taşınıyor.
+> 📌 Damga niçin: `§11` *"kendi ödediğin borcu, kaydını okumadan yeniden
+> iş sanabilirsin"* — bu gece bu tuzağın beşinci vakası.
+
+**(kapanmadan önceki tarif, kayıt için:)**
+`_sahiplik_uygula.py` `kur:`i **taşımıyordu**; yamada dursa bile düşerdi.
 Bu gece aynı sınıfın vakası yaşandı (`bos:`/`neden:` düştü, Timbuktu'nun
 beyanı kayboldu, ve düşeceğini önceden yazan uyarı okunmadı).
 ⇒ **Alan uygulayıcıya eklenecek** (`kaynak:` ile aynı sözleşme: üzerine
