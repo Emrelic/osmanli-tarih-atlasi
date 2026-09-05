@@ -741,6 +741,26 @@ büyüklüğüne göre veriliyordu.
 üçü aynı sınıf olmayabilir (İsveç 1281'de vardı ⇒ ZEND; Sardinya ve
 Toskana ⇒ ANAKRONİZM adayı). Ölçülüyor.
 
+### 🟢 ÜÇ ANAKRONİZM ADAYI — **ÜÇÜNDEN SIFIRI ANAKRONİZM**
+
+```
+sardinya  🟢 ZEND (künye dar, veri DOĞRU)  — Torino · Chambéry Savoya'nın
+             tarihî merkezleri; künye KRALİYET UNVANININ doğduğu 1720'yi
+             gösteriyor. `napoli`nin birebir aynısı, 350 kat büyük ölçekte.
+isvec     🟢 ZEND — İsveç 1281'de vardı; ve verinin gerisi TİTİZ
+             (Roskilde 1658-02-26 · Brömsebro 1645-08-13 · Kiel
+             1814-01-14 · Riga 1621-09-15 · Helsinki 1550-06-12)
+             ⇒ "bu kadar titiz bir veri 1281'i TESADÜFEN yazmaz"
+toskana   🔴 KÜNYE ÇİFTİ (makdisu sınıfı) — YAZILDI · `4d` 467 → 466
+```
+`floransa` künyesi (1115-1532) **rengiyle birlikte VAR ve veride 0
+dönem** ⇒ bir **sessiz borç** da kapandı. Ve verinin gerisi zaten doğru:
+Pisa `toskana`ya **1406-10-09**'da (Floransa'nın Pisa'yı alışı), Siena
+**1557-07-03**'te (ilhak) giriyor — **yalnız MERKEZ yanlış kimlikteydi.**
+⚪ **`Elba` kasten dışarıda:** o da `toskana` 1281'den boyanıyor ama ada
+1281-1532 arası Floransa'nın değildi (Pisa, sonra Piombino) ⇒ *"bir
+anakronizmi başkasıyla değiştirirdi."* Ayrı kalem.
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri

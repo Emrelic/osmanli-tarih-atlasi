@@ -383,6 +383,33 @@ buldu: *"`4c`de GERÇEK hayaletler var, meysur 124,5 yıl — Batnoz'un
 üstünde."* Ölçüm o cümleyi yanlış çıkardı. ***Bir sayının büyük olması,
 onun bilinen bir sınıfa ait olduğunu göstermez.***
 
+#### 🔴 VE AYNI GÜN İKİNCİ KEZ: **ÖLÇEK SINIFI BELİRLEMEZ**
+Aynı oturum bir sonraki turda `sardinya`yı *"gecenin en büyük tek
+anakronizmi, 439 yıl"* diye önerdi. Ölçtü — **anakronizm değil:**
+```
+napoli    künye 1282-03-30 · veri 1281 · 15 AY     ┐ İKİSİ DE
+sardinya  künye 1720-08-02 · veri 1281 · 439 YIL   ┘ AYNI SINIF
+```
+Torino ve Chambéry **Savoya'nın tarihî merkezleri**; Savoya Kontluğu
+11. yüzyıldan beri vardı ve künye **kraliyet unvanının** doğduğu günü
+gösteriyor. ⇒ Ad/unvan ömrü ≠ tasarruf sürekliliği, ve **ölçek 350 kat
+farklı olsa bile cins aynı.**
+⚠️ Ve koordinatör o kalemi *"ölçüt sayı değil GÖRÜNÜRLÜK"* diyerek
+seçmişti. ⇒ ***Görünürlük de sınıfı belirlemiyor — yalnız ÖLÇÜM
+belirliyor.*** Büyüklük bir **öncelik** ölçütü olabilir; bir **teşhis**
+ölçütü değildir.
+
+🟢 **VE AYNI TURDA BİR ARAÇ DERSİ:** ölçüm aleti `sardinya`yı künye
+`id`si sanıp `NoneType.get` ile **ÇÖKTÜ** — ve çökmesi doğru davranıştı:
+sessizce `None` dönseydi *"künye yok"* diye raporlayacaktı, ve o hata
+aynı gece bir kez zaten yapılmıştı (`ingiliz-hindistani`).
+📌 ***Bir aracın çökmesi, yanlış cevap vermesinden İYİDİR.*** Bu belge
+dört kez *"alet hata vermedi, temiz bir sayı üretti"* diye kusur
+kaydediyor; bu onun olumlu yüzü.
+⚠️ Ve kusurun kendisi de kayda değer: **renk `harita:` anahtarına bakar,
+`id`ye DEĞİL** (`sardinya-piyemonte` id olarak yok, `sardinya` harita
+anahtarı olarak var).
+
 
 ### 3.5.1 🔴 TERS YÖN — "OSMANLI FAZLA MI GÖRÜNÜYOR?"
 
