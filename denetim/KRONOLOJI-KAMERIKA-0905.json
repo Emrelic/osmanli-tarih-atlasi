@@ -121,6 +121,31 @@
    ]
   },
   {
+   "id": "apaci-ovalar",
+   "eklenen": [
+    {"t": "1700-01-01", "tur": "toprak-kayip", "b": "18. yüzyıl başında Missouri Nehri yukarısında yaşayan Ovalar Apaçileri, genişleyen Kiowa ve Sioux baskısıyla güneydoğuya, Arkansas Nehri havzasına doğru göç etmeye başladı", "kaynak": "bulunamadı (TDV yok) — standart akademik kaynak; kesin yıl belirsiz ('18. yüzyıl başı'), YYYY-01-01 belirsizlik AÇIKÇA yazılarak kullanıldı. Çevrimiçi ikincil kaynaklarla ('Plains Apache') doğrulandı."}
+   ],
+   "not_kaynak": "1/4 — künye BOŞTU, ilk madde eklendi ama zayıf/yuvarlak. İkinci olay (Kiowa-Apaçi konfederasyonu 1790-1806) künyenin kendi t: alanının (1750) SONRASINA düştüğü için eklenmedi."
+  },
+  {
+   "id": "ojibwe",
+   "eklenen": [
+    {"t": "1854-09-30", "tur": "toprak-kayip", "b": "La Pointe Antlaşması imzalandı: Ojibwe, Superior Gölü'nün kuzey ve batı kıyılarındaki topraklarının çoğunu ABD'ye devretti; karşılığında bugünkü Wisconsin rezervasyonlarının (Bad River, Red Cliff, Lac du Flambeau, Lac Courte Oreilles) temeli atıldı", "kaynak": "bulunamadı (TDV yok) — standart akademik/kurumsal kaynak (MNopedia), çevrimiçi doğrulandı. 🔴 NOT: künyenin kendi t: alanı 1850-09-07 — bu olay 1854, 4 yıl SONRA. Künye sahibine bildiriliyor; t: bu antlaşmaya işaret ediyor olabilir (yıl/gün karışıklığı) ya da künye başka bir 1850 olayını temsil ediyor."}
+   ]
+  },
+  {
+   "id": "hayda",
+   "eklenen": [
+    {"t": "1862-01-01", "tur": "felaket", "b": "1862 çiçek salgını Haida nüfusunun yaklaşık %90'ını yok etti (6607'den 1881'de 829'a düştü); birçok tarihi köy (Ninstints dahil) tamamen terk edildi", "kaynak": "bulunamadı (TDV yok) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('1862 Pacific Northwest smallpox epidemic') doğrulandı. 🔴 NOT: künyenin kendi t: alanı 1858-08-02 — bu olay 1862, 4 yıl SONRA. Künye sahibine bildiriliyor; 1858 muhtemelen Britanya Kolumbiyası kolonisinin kuruluşu (2 Ağustos 1858) gibi ayrı bir olayı temsil ediyor."}
+   ]
+  },
+  {
+   "id": "beothuk",
+   "eklenen": [
+    {"t": "1823-01-01", "tur": "felaket", "b": "Üç aç ve hasta Beothuk kadını yerleşimcilere teslim oldu; ikisi kısa sürede öldü, yalnızca Shanawdithit hayatta kaldı", "kaynak": "bulunamadı (TDV yok) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Shanawdithit') doğrulandı."}
+   ]
+  },
+  {
    "id": "komanci",
    "eklenen": [],
    "not_kaynak": "ÖLÇÜLEMEDİ — bulduğum tek sağlam tarihli olay (1719, Rio Grande baskını) künyenin kendi f:'sinin (1750) 31 YIL ÖNCESİNE düşüyor; künye 'Comanchería'nın SİYASİ/ASKERİ egemenlik dönemini (1750'den itibaren at kültürüyle bölgeye hakimiyet) temsil ediyor görünüyor, 1719 erken bir öncül olay. Aralık dışına taşan bir olayı zorlamadım. Bu turda vakit kalmadığı için ikinci bir arama yapamadım — KALEM AÇIK. 0/4 bırakıyorum."
