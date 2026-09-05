@@ -487,6 +487,34 @@ bilmiyoruz **çünkü hakkında sıfır bilgimiz var.**
 ⇒ `4c` haritası çıkarılacak (aynı alet, küçük değişiklik), sonra `napoli`
 (24 kayıt · 15 ay · tek soru).
 
+### 🟢 TIMBUKTU KAPANDI — 223 → **61 YIL** (60 değil, ve fark önemli)
+
+```
+`tekrur` dilimi DOĞRULANDI — ve "Tekrur Devleti" TDV'NİN KENDİ TERİMİ
+   ⇒ atlasın kimliği bir çeviri tercihi değil. Eşanlam zinciri yamaya
+     yazıldı: Tukulor / Toucouleur / Umari / Segu Tukulor = TEKRUR
+`arma` künyesi önerildi (1750-1760, iki madde) — 🔴 RENK BEKLİYOR
+```
+🔴 **VE ÖLÇEN OTURUM KENDİ YAMASINDA HAYALET DEVLET ÜRETTİĞİNİ BULDU:**
+`tekrur` dönemini 1894'e yazmıştı, künye **1893-01-01**'de bitiyor ⇒
+dönem künyenin ömrünü bir yıl aşıyordu. `§3.5`in tam vakası — ve bu
+gece o kurala yedi kez atıf yapıldı, hepsi **başkasının** verisinde;
+ilk kez biri onu **kendi yazdığı yamada** uyguladı.
+
+🟢 **Ve doğan bir yıllık deliği (1893-1894) KAPATMADI:** TDV Fransız
+ilhakını 1894 diyor, künye 1893'te bitiyor, arasını dolduracak kaynak
+yok. *"`fransa-cumhuriyet`i 1893'e çekmek kolaydı — kaynağın
+söylemediğini söyletmek olurdu."* Belirsizlik **veride değil kaynakta**
+(TDV `el-hac-omer` *"1893-1894 yıllarında işgal"* diye ARALIK veriyor).
+🟢 Ve sonucu **61 yıl** diye yazdı, 60 değil: *"bir yıllık deliği
+saymamak, onu görünmez kılmak olurdu."*
+
+⚠️ **Ve raporun kendisi kendi içinde çelişti:** düzeltme sona yazıldı,
+başlık hâlâ eski sayıyı söylüyordu — `renkler.py` vakasının (*yorum
+güncellendi, sözlük unutuldu*) aynısı, bu sefer **aynı dosyanın içinde**
+ve ölçen oturum dört yeri birden düzeltti.
+⇒ ***Bir belgeyi düzeltmek, düzeltmenin GEÇTİĞİ HER YERİ düzeltmektir.***
+
 ### 🔴 KOŞUYU ÖLÇME — İKİLİ DEĞİL **MERDİVEN** (5 Eylül 09:10'da düzeltildi)
 
 ```
