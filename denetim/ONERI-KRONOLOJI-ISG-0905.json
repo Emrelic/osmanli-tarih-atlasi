@@ -26,6 +26,7 @@
     {
       "hedef_gun": "1878-09-18",
       "yer": "Herseknovi",
+      "_M2979_DUSTU": "🔴🔴 BU KALEM DÜŞTÜ — koordinatör kendi kuyruğundaki atfın YANLIŞ olduğunu ölçtü: `grep -ro \"1878-09-18\" data/*.js` 3 geçiş verdi, HİÇBİRİ Herseknovi'de değil. Gerçek sahibi BİHAÇ (isg:[1878-09-18→1908-10-05,avusturya,kaynak:\"bihac\"]). Herseknovi'nin TEK isg:'si 1538-01-01→1539-01-01 (İspanya, Dalmaçya kaynaklı) — 1878 ile hiç ilgisi yok. Aşağıdaki tüm analiz (kaynak_arama, hassasiyet, onerilen_madde_GECICI, M2972_akademik_arama) YANLIŞ NESNEYE yapılmıştı ve artık GEÇERSİZ — silinmedi, KAYIT olarak bırakıldı (bir sonraki oturum aynı hatayı tekrarlamasın). Doğru öneri aşağıda 'bihac_dogru_kayit' altında.",
       "kaynak_arama": "🔴 'herseknovi' 302 ÖLÜ. 'berlin-antlasmasi' CANLI ama Herseknovi'yi ADIYLA anmıyor, yalnız GENEL provizyonu veriyor: \"Bosna ve Hersek Avusturya tarafından işgal edilecekti.\" 'hersek' CANLI ama 1878 olayını hiç kapsamıyor. ⇒ TDV bu TANECİKTE (Herseknovi'nin özel işgal günü) SUSUYOR — coğrafî değil taneciklik boşluğu (§4).",
       "hassasiyet": "🔴 18 Eylül 1878 GÜNÜ hiçbir TDV kaynağında doğrulanamadı — bu bir 'bulunamadı' SONUCUDUR, aramadım değil arandı. Akademik kaynak (Berlin Kongresi'nin uygulanma kronolojisi) AYRICA aranmalı; bu turda YAPILMADI (kısa tutuldu).",
       "onerilen_madde_GECICI": {
@@ -44,10 +45,33 @@
         "olasi_gercek_anlam": "🟡 isg:'nin 1878-09-18'de temsil ettiği şey muhtemelen SAHIPLIK DEGISIMI degil, Bosna seferinin LOJISTIK/ASKERI ETKISI — Boka Kotorska sefer icin bir ikmal/us bolgesi olabilirdi ve gecici sikiyonetim/askeri idareye gecmis olabilir (1869-70 Krivosije ayaklanmasi da ayni bolgede askerlik yukumlulugune tepkiydi — konuyla ILISKILI ama AYRI bir olay, 1878 DEGIL). BU YORUM DOGRULANMADI, bir HIPOTEZDIR.",
         "sonuc": "🔴 BULUNAMADI — ve bu bir arama basarisizligi degil, ARANAN SEYIN NE OLDUGUNUN BELIRSIZ olmasi. Isg: kaydinin KENDI kaynagina (onu yazan yamaya/oturuma) donup 'bu 1878-09-18 hangi olayi temsil ediyor' diye SORULMASI, yeni bir tarih aramaktan daha ucuz ve daha dogru olur."
       }
+    },
+    {
+      "hedef_gun": "1878-09-18",
+      "yer": "Bihaç",
+      "_M2979_DOGRU_NESNE": "Koordinatörün ölçtüğü gerçek kayıt: Bihaç isg:[1878-09-18→1908-10-05,avusturya,kaynak:\"bihac\"]. Kaydın kendi notu ödünç almayı zaten reddediyordu: \"komşu Bosna kayıtları 1878-07-29 kullanıyor; Bihaç'ın KENDİ tarihi TDV'de var, o yüzden komşununki ödünç ALINMADI.\"",
+      "kaynak_arama": "TDV 'bihac' — CANLI, DOĞRU konulu, GÜN veriyor. §4⑧ tuzağına (rakamı bulup neyi tarihlediğini okumamak) düşülmedi — cümle DOĞRUDAN Bihaç'ın işgalini anlatıyor, Berlin Antlaşması'nın genel provizyonunu DEĞİL.",
+      "kaynak_aynen": "\"13 Temmuz 1878 tarihinde imzalanan Berlin Antlaşması ile Avusturya-Macaristan bütün Bosna-Hersek'i ve o zaman nüfusunun büyük çoğunluğu müslüman olan Bihaç'ı ilhak etme hakkı elde etti. Fakat Bihaç'ta direnişle karşılaştı, ancak 18 Eylül 1878'de Avusturya-Macaristan ordusu General Wilhelm Freiherr von Reinländer komutasında Bihaç'ı almayı başardı.\"",
+      "hassasiyet": "🟢 GÜN hassasiyetinde, mevcut isg: f:'1878-09-18' değeriyle BİREBİR — bağımsız doğrulandı.",
+      "ters_soru_M2979_3": {
+        "soru": "Bihaç'ın d: alanı 1592-06-19→1908-10-05 diyor (Osmanlı hükümranlığı NOMİNAL olarak 1908'e kadar sürüyor, isg: bunun ÜSTÜNE bindirilmiş). 1878-09-18 bir d: kırılması DEĞİL — bu yeni madde GERÇEKTEN bir kırılmayı mı kapatıyor, yoksa yalnız belgeleme mi?",
+        "cevap": "🟢 GERÇEKTEN KAPATIYOR. `Değişmez 2` bugün yalnız d:/v: kırılmalarını sayıyor (isg: evrenin DIŞINDA) — ama KOSU-SONRASI-KUYRUK.md'nin kendi ölçümü (`ARAC-ISG-KIRILMA-0905.js`) isg:'yi evrene EKLEMENİN planlandığını ve bu eklemenin YALNIZ İKİ yeni ihlal ürettiğini gösteriyor: Niş (isg sonu) ve bu kayıt (isg başı, o zaman yanlış 'Herseknovi' sanılıyordu). isg: evrene eklendiği AN bu gün bir kırılma OLACAK ve madde onu GERÇEKTEN kapatacak — belgeleme değil, gelecekteki bir denetim ihlalini ÖNLEYEN bir madde.",
+        "kanit": "KOSU-SONRASI-KUYRUK.md ölçümü: 'isg: uç (başı+sonu): 196 · Değişmez 2 GÖRMÜYOR: 102 · ±30 günde MADDE de YOK: 2' — bu ikisinin biri buydu (o zamanki yanlış adla)."
+      },
+      "onerilen_madde": {
+        "t": "1878-09-18",
+        "b": "Avusturya-Macaristan'ın Bihaç'ı işgali",
+        "gun": "18 Eylül 1878",
+        "yer": "Bihaç",
+        "kisiler": "Wilhelm Freiherr von Reinländer",
+        "d": "13 Temmuz 1878 Berlin Antlaşması Avusturya-Macaristan'a Bosna-Hersek'i (ve nüfusunun büyük çoğunluğu Müslüman olan Bihaç'ı) ilhak hakkı vermişti. Bihaç direniş gösterdi; 18 Eylül 1878'de General Wilhelm Freiherr von Reinländer komutasındaki Avusturya-Macaristan ordusu şehri ele geçirdi.",
+        "kaynak": "bihac"
+      }
     }
   ],
   "ozet": {
     "nis": "🟢 TDV'den GÜN(ay)-hassasiyetinde madde önerildi, kırılmayı KAPATIR",
-    "herseknovi": "🔴 BULUNAMADI — VE PREMISE SORGULANDI: Herceg Novi 1797'den beri zaten Avusturya toprağı, '1878 işgali' hükümranlık değişikliği olarak doğrulanamadı. Kaynak aramak yerine isg: kaydının KENDİ yazarına/kaynağına dönülmesi önerilir."
+    "herseknovi": "🔴🔴 DÜŞTÜ — yanlış nesneydi, kayıt olarak bırakıldı (silinmedi)",
+    "bihac": "🟢 GERÇEK sahip — TDV'den GÜN hassasiyetinde madde önerildi, BİREBİR eşleşti, isg: evrene eklenince GERÇEKTEN kapatacak bir kırılma"
   }
 }
