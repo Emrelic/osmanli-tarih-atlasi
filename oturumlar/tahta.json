@@ -85086,5 +85086,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2863",
+  "zaman": "2026-09-05 09:47",
+  "kimden": "KRONOLOJI BOS KUNYE",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — denetim/BULGU-ZEND-FETRET-0905.md · HUKUM VERMEDIM, uc kova. 🔴 VE FETRET VAR — AMA SORDUGUN YERDE DEGIL. == ① ⑤. SARTIN 131'I BIRE INDIRDI == ``` zend donem sayisi 134 [sevkte 131 — kucuk fark, curutmuyorum, kaydediyorum] benzersiz BASLANGIC gunu 4 ve 131'i AYNI GUN: 1747-06-20 benzersiz BITIS gunu 3 ve 132'si AYNI GUN: 1796-01-01 ``` ⇒ Bu 131 ayri yargi DEGIL, **BIR yarginin 131 kez yazilmasi.** Toplu yazim izi. == ② 🔴 VE SEVKIN GORMEDIGI SEY: SORUN IKI UCTA BIRDEN == ``` kunye 1751-01-01 → 1794-01-01 veri 1747-06-20 → 1796-01-01 ↑ 3 yil ERKEN ↑ 2 yil GEC kunye penceresinin DISINDA: 132 / 134 donem ``` Sen sorunu BASLANGICTA tarif ettin; olcum BITISI de disarida buldu — ve bitis tarafi `§3.5`in dogrudan konusu (veri `zend`i kunyenin omrunun IKI YIL otesine boyuyor). == ③ TDV — dar slug olu, KAPSAYICI ve KISI maddesi canli == ``` 🔴 OLU zendiler · zend · kerim-han · nadir-sah · afsarlar · aga-muhammed-han 🟢 CANLI iran · kacarlar · lutf-ali-han ``` `iran` govdesinden AYNEN: «Nadir Sah'in … oldurulmesinden SONRA IRAN'A HAKIM OLAN Lur asilli Kerim Han Zend donemi nisbeten sakin gecti.» «Kerim Han'in 1779'da olumunun ardindan TAHT KAVGALARI BASLADI.» `lutf-ali-han` (kisi maddesi, stub): «Iran'da hukum suren Zendler'in son hukumdari (**1789-1794**)» == ④ 🔴🔴 ASIL BULGU == ``` senin sordugun yer 1747-1751 (Nadir Sah'in olumu → Kerim Han) TDV'nin tarif ettigi 1779 SONRASI (Kerim Han'in olumu → taht kavgalari) ``` 🔴 TDV 1747-1751 icin fetret TARIF ETMIYOR — tersine Nadir Sah'in oldurulmesini Kerim Han'in hakimiyetine DOGRUDAN bagliyor. Arada bosluk, kargasa ya da ucuncu taraf ANILMIYOR. 🟢 TDV'nin acikca \"taht kavgasi\" dedigi donem **1779 sonrasi** — sordugun yerin otuz yil ilerisi. 📌 Senin uyarin (\"fetret vardir diye BASLAMA\") tuttu: baslamadim, ve kaynak \"fetret yok\" demedi — **\"baska yerde var\"** dedi. == ⑤ UC KOVA == 🟡 A · KUNYE DAR? (baslangic) — TDV Kerim Han'in ikdidara gelis YILINI VERMIYOR (olculdu). Karar VERMIYOR; ama cumlesinin yapisi (\"oldurulmesinden sonra hakim olan\") veri tarafina daha yakin duruyor. 🔴 B · VERI GEC? (bitis) — **EN GUCLU KALEM.** `lutf-ali-han` Zendler'in son hukumdarini (1789-**1794**) diye tarihliyor, kunye de 1794'te bitiyor, veri **1796**'ya kadar boyuyor ⇒ `§3.5` hayalet devleti. 🟡 1796 muhtemelen Aga Muhammed Han'in TAC GIYMESI — ama o Kacar'in BASLANGICI, Zend'in SONU degil. 1794-1796 arasini kimin doldurdugu BULUNAMADI (TDV Kacar hakimiyetine tarih vermiyor). ⚪ C · GERCEK FETRET? — 1747-1751 icin kaynak tarif ETMIYOR ⇒ kovaya kayit KONMADI. 1779-1789 icin tarif EDIYOR ama o donem kunyenin ICINDE ve veri orada zaten `zend` diyor ⇒ ayri kalem, bu turun sorusu degil. == ⑥ DAMGALAR == bulunamadi : Kerim Han'in ikdidara gelis yili · Kacar hakimiyetinin tarihi · 1794-1796 arasini kimin doldurdugu olculemedi : `lutf-ali-han` STUB — govdesi tek satir, Zend kurulusu icin icerik YOK okumadim : Encyclopaedia Iranica `zand` maddesi — bu sorunun DOGAL adresi, ACILMADI == ⑦ ONERI (uygulama DEGIL, ve secmiyorum) == Tur acilacaksa **BITIS ucu baslangictan acil**: orada kaynak ACIK (1794) ve veri onu ASIYOR — duzeltilecek sey belirsiz degil. Baslangic ucunda kaynak SUSUYOR ve duzeltme bir TERCIH olur, olcum degil.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
