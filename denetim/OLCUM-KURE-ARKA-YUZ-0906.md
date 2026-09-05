@@ -166,3 +166,113 @@ karşılığında ikinci bir durum (`pointer-events`) getirir.
 ⚪ B'nin `pointer-events` düzeltmesinin maliyetini — yalnız eksikliğini
    ölçtüm
 ```
+
+---
+
+# EK — BAĞLAYICI ÖLÇÜM YAPILDI, VE YAMA SINANDI (6 Eylül, hüküm sonrası)
+
+**Sevk:** `denetim/HUKUM-KURE-ARKA-YUZ-0906.md` — ADAY B, iki şartla.
+**Bağlayıcı soru:** *yarı saydam banttaki etiketler okunuyor mu?*
+**Çıktı:** `denetim/YAMA-KURE-SOLMA-0906.js` — **UYGULANMADI**
+(`js/app.js` Oturum 1'in dosyası).
+
+## ① 🔴 CEVAP: BANDIN YALNIZ ÜST YARISI OKUNUYOR — ve sebebi HALO
+
+Ekran görüntüsü üç denemede de alınamadı, bu yüzden **fotometrik**
+ölçüldü. Ve ölçüm önce etiketin gerçek üslubunu buldu:
+```
+etiket = rgba(52,38,22,0.85) KOYU KAHVE metin
+       + BEYAZ HALO (text-shadow ×3: 0 0 3.6px / 1.8px / …)
+       10px/600  ve  16.2px/600
+```
+🔴 **Belirleyici:** `opacity` metni **ve halosunu BİRLİKTE** soldurur.
+Okunurluğu sağlayan şey halo olduğu için, yerel karşıtlık (metin↔halo)
+α ile **hızla** çöküyor:
+
+| α | metin↔halo (deniz) | metin↔halo (kara) | metin↔zemin (deniz) |
+|---|---|---|---|
+| 1,0 | **11,22** | 9,77 | 4,77 |
+| 0,8 | **6,86** | 5,70 | 3,40 |
+| 0,6 | **4,16** | 3,44 | 2,43 |
+| 0,5 | 3,25 | 2,73 | 2,06 |
+| 0,4 | 2,55 | 2,18 | 1,76 |
+| 0,3 | 2,00 | 1,77 | 1,52 |
+
+10px/600 WCAG'de **büyük metin değil** ⇒ eşik **4,5:1**.
+```
+α ≥ 0,8   okunur (4,5 üstü, iki zeminde de)
+α ≈ 0,6   sınırda (deniz 4,16 · kara 3,44)
+α < 0,5   OKUNMUYOR — etiket VAR ama bilgi taşımıyor
+```
+
+🟢 **AMA BU B'Yİ ÇÜRÜTMÜYOR — çünkü okunmayan bant KALICI DEĞİL.**
+Ölçüldü: merkez **20° boylam** kaydırılınca kenardaki bir işaretçinin
+ufka uzaklığı **9,82°** değişiyor ⇒ **1° ufuk ≈ 2,04° sürükleme.**
+4°'lik bir bant ≈ **8°'lik** bir sürüklemede geçilir; okunmayan alt
+yarısı bunun yarısı kadar sürer.
+⇒ Solmanın amacı *okunur kalmak* değil **yumuşak kaybolmak**; ölçüm
+bunun **hızlı** olması gerektiğini söylüyor, olmaması gerektiğini değil.
+📌 Ve eşik buradan **türetildi, seçilmedi**: `KURE_TIK_ESIK = 0.5`,
+çünkü α<0,5'te etiket okunmuyor ve **okunmayan bir etiketin tıklanması
+yanıltıcıdır.**
+
+## ② 🟡 İKİNCİ TARİH — istendi, YAPILDI (ve ilk denemem başarısızdı)
+
+🔴 İlk turda `tarihAyarla('1281-01-01')` çağırdım; fonksiyon **gün
+dizini** alıyor, tarih dizgisi değil. Sonuç: üç tarih için **birebir
+aynı** üç satır (n=1305, gizli=142, bant=63) ve başlıkta `NaN`.
+**Sayfayı bozdum ve o üç satırı «tarih etkilemiyor» diye
+raporlayabilirdim** — klasik sahte sıfır. Onardım, `gunIdx()` ile
+tekrarladım ve **ekrandaki tarihin gerçekten değiştiğini doğruladım**:
+
+| tarih | ekranda | n | gizli | ±5° bant | oran |
+|---|---|---|---|---|---|
+| 1281-01-01 | 1 Ocak 1281 ✓ | 1350 | 143 | 65 | %4,8 |
+| 1683-07-14 | 14 Temmuz 1683 ✓ | 1474 | 199 | 81 | %5,5 |
+| 1914-08-01 | 1 Ağustos 1914 ✓ | 1737 | 294 | 78 | %4,5 |
+
+⇒ Bant mutlak olarak büyüyor ama **oran kararlı: %4,5-5,5**. Bulgu
+tarihten bağımsız.
+
+## ③ YAMA SINANDI — inmeden, sayfada koşturularak
+
+```
+gizli sayısı        bugün 143  ·  öneri 143      ⇒ AYNI (arka yüz BÜYÜMÜYOR)
+solan (0<α<1)       22
+tam arka yüz        143/143 computed visibility = hidden   (şart ② tuttu)
+görünmez-tıklanabilir ihlali                       0       (şart ① tuttu)
+maliyet             bugün 3,2 ms · öneri 3,3 ms  ⇒ +0,1 ms
+```
+🔴 **VE KENDİ MALİYET SAYIMI DÜZELTTİM:** ilk ölçümüm **6,4 ms**
+demişti. O rakam **değişmez taramasının** (`getComputedStyle` her
+işaretçide) yüküydü — yamanın değil. *Kendi ölçümümün maliyetini
+ölçülen şeye yazmışım.* Aynı koşuda ikisini ayırınca **+0,1 ms** çıktı.
+
+### 🔴 VE ŞARTLARIN GÖRÜNMEYEN ÜÇÜNCÜ AYAĞI — DALI ATEŞLEYEREK BULDUM
+`C13` her kusur dalının **ayrı ayrı** ateşlenmesini istiyor. Küre
+**kapatma** dalını ateşledim:
+```
+yapay solmuş durum:        26 opaklıklı · 9 pointer-events:none
+BUGÜNKÜ geçme yolundan sonra: 26 opaklıklı · 9 tıklanamaz   🔴 KALDI
+ÖNERİLEN temizlikten sonra:    0 ·  0                        🟢
+```
+⇒ Bugünkü `!KURE_ACIK` dalı **yalnız `visibility` temizliyor** — çünkü
+bugün temizlenecek tek şey o. Solma inince küre kapatıldığında düz
+haritada **soluk ve tıklanamaz etiketler kalırdı.**
+📌 ***Bir özellik eklemek, onu temizleyecek yeri de eklemektir*** — ve
+bu, şartların ikisinde de yazılı değildi; **dal ateşlenmeden
+görünmüyordu.**
+
+## ④ ÖLÇÜLEMEDİ — ve damgası `temiz` DEĞİL
+```
+🔴 Bir turda 1 işaretçi (0,1] dışında opaklık aldı; ikinci turda
+   ÜRETİLEMEDİ, kim olduğu BULUNAMADI. Yamaya `isFinite` koruması
+   kondu — ölçülemeyen bir olaya karşı ucuz sigorta, ama SEBEP AÇIK.
+⚪ Yarı saydam bandın İNSAN gözüyle okunurluğu — ölçüm FOTOMETRİK.
+   Karşıtlık sayıları gerçek, "gözüme nasıl görünüyor" DEĞİL.
+⚪ Kare hızı — koşu 6 CPU'yu paylaşıyor (senin talimatın).
+⚪ `KURE_SOLMA_DER = 4` bir ÖLÇÜM DEĞİL bir KALİBRASYON: iki ölçümden
+   türetildi (±5° pop bandı · 2,04°/derece sürükleme) ama "4 en iyisi"
+   diye bir ölçüm YOK. Sabit olarak bırakıldı, 0 yazılırsa bugünkü
+   ikili davranışa döner.
+```
