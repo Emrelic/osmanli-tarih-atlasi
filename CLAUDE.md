@@ -4014,6 +4014,51 @@ gerçek      "Egil: 0 eşleşme · Ergani: 0 …" — alet ada göre eşleştiri
   adlara bakıyordu ⇒ yeni bir noktanın getirdiği yeni GÜN görünmezdi,
   kusur **çift**ti) · ve iki `assert`: uygulanan sayı ≠ yama sayısı ise
   alet **DURUR.**
+
+- 🟢🟢 **BİR DENETİM ADAYI ÖLÇÜLDÜ VE "BUNU YAZMAYIN" DİYE RAPORLANDI — ve
+  ölçen, kovayı AÇAN oturumdu.** *(5 Eylül 2026 · `KÜRE GÖRÜNÜM`)*
+
+  591 künyenin `t:` değeri, kronoloji kütüğündeki `son` kaydıyla
+  karşılaştırıldı — kaynağa hiç gidilmeden, **künyenin kendi iç
+  tutarlılığı**:
+```
+🟢 AYNI 418 (%70,7)   ⬜ `t:` PENCERE İŞARETİ 4 ⇒ SÖZLEŞME
+🔴 ham fark 10 (+1 ters)   ⚪ `son` kaydı YOK 158   birden çok `son` 8
+```
+  Kova bir **denetim adayı** gibi duruyordu. Ölçen oturum hükmü tersine
+  çevirdi:
+  > *"Bu ölçüt bir KUSUR değil bir TASARIM ölçüyor — `t:` künyenin DIŞ
+  > ZARFI, `son` ise FİİLÎ SONU. Bu kovadan bir denetim türetilirse her
+  > koşuda **11 yanlış alarm** öter."*
+
+  Ve dayanağı sezgi değil: **altı künye bunu kendi `ozet` metninde
+  yazıyor** (`kuzey-yuan`: *"⚠️ BİTİŞ 1635 DEĞİL 1691: 1635 Çahar'ın
+  teslimidir"*), ve sekiz künyede **iki aşamalı son TASARIMDIR** —
+  `bizans` 1453-05-29 + 1461-08-15 (İstanbul + Trabzon) · `inka`
+  1533-08-29 + 1572-09-24 (Cusco + Vilcabamba).
+
+  📌 Bu proje *"denetim var ≠ o soruyu soruyor"* dersini çok yazdı ve
+  hepsi **var olan** bir denetimin körlüğüydü. Bu ilk kez **ÖNLEYİCİ**
+  yönde: bir denetim **doğmadan** ölçülüp reddedildi.
+  ⇒ ***Bir ölçütün kusur mu tasarım mı ölçtüğü, denetime dönüştürülmeden
+  ÖNCE sorulur*** — sonra sorulursa cevabı yanlış alarmların gürültüsünden
+  okunur, ve o gürültü genellikle ölçütü değil **denetimi** öldürür.
+  🟢 Ve türetilecek biçim de yazıldı: ölçüt *"`t:` ≠ `son`"* değil,
+  ***"`t:` ≠ `son` VE `ozet` farkı AÇIKLAMIYOR"*** olmalı — ve ikincisi
+  otomatik sınanamaz.
+
+- 🔴 **KIRPILMIŞ BİR ÇIKTI DA BİR ÖLÇÜM DEĞİLDİR.** *(aynı tur)*
+  İki betik `brezilya`nın `son` sayısı için farklı şey söylüyor göründü.
+  İlk hipotez **mükerrer künye `id`si**ydi — `{d["id"]: d}` sözlüğü bir
+  mükerreri **sessizce ezer** ve bu ölçülebilir bir kusur olurdu. Ölçüldü:
+  **591 kayıt · 591 benzersiz id · mükerrer 0** ⇒ hipotez ÇÜRÜDÜ. Gerçek
+  sebep kendi `head -70` kesmesiydi; `brezilya` bölümü çıktının sonundaydı
+  ve ekrana **hiç gelmedi.**
+  📌 *"Aleti sorgulamak doğruydu, ama bozuk olan alet değil GÖRÜNTÜLEME
+  idi."* ⇒ `§11`in *"aletin gösterdiği ≠ dosyada yazan"* ailesinin
+  **kırpma** yüzü, ve *"`0`, 'yok' ile 'bakmadım' arasında ayrım yapmaz"*
+  kuralının **çıktı** tarafı: `tail`i görülmemiş bir çıktı, ölçülmemiş bir
+  kuyruktur.
   📌 `§11`in *"`0`, 'yok' ile 'bakmadım' arasında ayrım yapmaz"*
   dersinin **dönüş değeri** ve **alan adı** yüzleri — ve `§4`ün
   *"bir alan adı, kullanıldığı yerden değil TANIMLANDIĞI yerden

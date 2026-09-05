@@ -1446,6 +1446,75 @@ aynen korundu, `isg:` **eklendi**). KÜNYE+RENK bekliyor.
 sona erdi"* · kronoloji `son` kaydı **1410-01-01**. Ayrı kalem —
 `son` ↔ `t:` ayrışması künye genelinde ölçülüyor.
 
+### 🔴 `v:` KANONLAŞTIRMA — normalleştirici **0 küme** çözüyor, iş tamamen EŞANLAM
+
+```
+42 değerin normalleştirilmiş hâli → 0 küme     (norm() İÇE AKTARILDI)
+🟢 künyeye çözülen  19 değer · 337 dönem · 13 künye
+🟡 polity ama şüpheli 16 · 55      🔴 polity DEĞİL 7 · 31
+                                    42/42 · 423/423 · assert'li
+```
+⇒ Bu kümede **yazım varyantı yok**; `Kavalalı hanedanı` ile `Mısır
+(Kavalalı)` tek ortak kelime bile paylaşmıyor — `Diyarbekir/Diyarbakır`
+sınıfı. ⇒ `ad_esanlam.js` borcunun **`v:` yüzü**, ve *"`k:` bir künyeye
+çözülüyor mu"* ölçütü **sözlük olmadan sınanamaz** (ölçüldü, varsayılmadı).
+
+🔴 **VE KOORDİNATÖRÜN "karardan bağımsız" ÇERÇEVESİ DÜZELDİ:** serbest
+metin **iki şey** taşıyor — kimlik VE tâbiiyetin cinsi (`(haraçgüzar)` ·
+`(Osmanlı kazası)` · `(işgal)`). ⇒ ***Kanonlaştırma kimliği kurtarır ama
+DURUMU siler.***
+```
+🟢 HARİTA olarak (teslim edilen)  GÜVENLİ — hiçbir şey kaybolmaz
+🔴 UYGULAMA olarak                ÜZERİNE YAZARAK YAPILAMAZ:
+   kanonik kimlik var olan metnin YERİNE değil YANINA gelmeli
+```
+📌 `SKALER_KORUNAN` dersinin aynısı: *bir beyanı sessizce ezmek,
+"kimse araştırmadı" ile "biri araştırdı ve şu sonuca vardı" arasındaki
+farkı siler.*
+🟢 Ve ölçen oturum kendi sınırını yazdı: *"`kanon_onerisi` bir ÖLÇÜM
+DEĞİL, ELLE kurulmuş bir haritadır — bir alet üretmedi."*
+
+### 🟢 `son` ↔ `t:` SAYIMI — ve ÇIKAN ÜÇ UYGULANABİLİR KALEM
+
+```
+🟢 AYNI 418 · ⬜ pencere işareti 4 (SÖZLEŞME) · 🔴 ham 10+1
+⚪ `son` yok 158 · birden çok `son` 8 (yedisi TASARIM)
+```
+🔴 **BU KOVADAN DENETİM TÜRETİLMEYECEK** — ölçüt kusur değil **tasarım**
+ölçüyor (`CLAUDE.md`e geçti). Türetilirse her koşuda 11 yanlış alarm.
+
+**Kuyruğa giren üç kalem:**
+```
+① esrefogullari  `t:1326-01-01` → `1326-10-09`   TERS YÖN: ince olan
+                 `son` kaydı ve O TDV KAYNAKLI. Künye günü devralır.
+② brezilya-imparatorlugu  `son` 1889-11-15 İKİ KEZ — aynı gün, aynı
+                 olay, iki cümle ⇒ GERÇEK MÜKERRER, biri düşer
+③ saruhan        özet "1416'da KESİN sona erdi" · `son` 1410 "KESİN
+                 ilhak" — ikisi de "kesin". ⚠️ saruhan bu gecenin
+                 İKİNCİ turunda çıkıyor (`f:1313` TDV'ce çürütülmüştü)
+                 ⇒ TEK BİR BİRLEŞİK tur, iki ayrı düzeltme DEĞİL
+```
+⚪ Ve `tur:"son"` etiketi bir **statü değişimine** konuyor (`sirbistan-
+prensligi` Berlin 1878 bağımsızlık · `mutahharten` Akkoyunlu nüfuzu) —
+üç bağımsız turda çıktı, ayrı kalem.
+
+### 🟢 MISIR 1914-1923 — KÜNYE ONAYLANDI, 55 NOKTA HİMAYE KALIBINA GEÇECEK
+
+```
+① ONAY  misir-sultanligi  f:1914-12-18 (TDV birebir) t:1922-03-15
+        misir-kralligi    f:1922-03-15 (Fuad'ın KRAL unvanı; 28 Şubat
+                          İngiltere'nin tek taraflı ilanı, NOT düşüldü)
+② 55 nokta bugün `s:"ingiltere"` DOĞRUDAN yazıyor (1914-12-18'den),
+   himaye kalıbı (`s:` yerel + `isg:` yabancı) UYGULANMAMIŞ
+   emsal: Kuveyt · Katar · Bahreyn · Buganda
+③ 🔴 BAĞLAYICI SIRA: ① künye → ② renk → ③ yama. Yama künye inmeden
+   uygulanırsa `§8` harita deliği açar — bağımlılık YAMA BAŞLIĞINA yazılır
+④ RENK: dört kimlik (misir×2 · ingiliz-sudani · filistin-mandasi) TEK
+   `renk_olc.py --oner` turunda BİRLİKTE çözülür — ikisi ötekinin komşusu
+   ⇒ tek tek çözmek `§11`in "SIRA bağlar" tuzağı. Aday `#c9a635` kuyrukta,
+   HÜKÜM DEĞİL (CIE76 yaklaşığı; gerçek CIEDE2000 koşu sonrası)
+```
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri

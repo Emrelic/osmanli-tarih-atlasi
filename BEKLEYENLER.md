@@ -64,7 +64,27 @@ toplam nokta-yıl  42.203        ortalama dönem  99,8 yıl
 >
 > ⚪ Ve karardan **bağımsız** bir iyileştirme ayrıldı: 42 değeri
 > kanonlaştırmak (Mısır'ın beş yazımı **bugün** bir kusur, hangi şık
-> seçilirse seçilsin). Ölçülüyor.
+> seçilirse seçilsin). Ölçüldü — **19 değer 13 künyeye çözülüyor (337
+> dönem)**, ve kanonik dizgiler `devletler.js`ten okundu.
+>
+> 🔴 **AMA "tam bağımsız" ÇERÇEVESİ DÜZELDİ — serbest metin İKİ ŞEY
+> taşıyor:**
+> ```
+> "Mısır (Kavalalı)"      → KİMLİK
+> "Mısır ordusu (işgal)"  → aynı kimliğin bir DURUMU (1832-41)
+> ekler: (Osmanlı tâbii) · (haraçgüzar) · (Osmanlı kazası) ·
+>        (Osmanlı himayesinde)   → TÂBİİYETİN CİNSİ
+> ```
+> ⇒ ***Kanonlaştırma kimliği kurtarır ama DURUMU siler.*** ⇒ Kararın
+> artık **iki sorusu** var ve ikincisi birincinin ön koşulu:
+> ```
+> ① `v:` kimliği sorulabilir hâle gelsin mi?
+> ② Gelirse, TÂBİİYETİN CİNSİ (haraçgüzar · himaye · kaza · işgal)
+>    NEREYE yazılacak? Bugün o bilgi de aynı serbest metinde ve
+>    kanonlaştırma onu SİLER.
+> ```
+> 🟢 Ve güvenli yol ölçülmüş durumda: kanonik kimlik var olan metnin
+> **yerine değil YANINA** gelirse hiçbir şey kaybolmaz.
 
 Yani haritada **aynı açık Osmanlı tonuyla** boyanan şeyler:
 ```
