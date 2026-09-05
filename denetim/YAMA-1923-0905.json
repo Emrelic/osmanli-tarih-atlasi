@@ -1,5 +1,6 @@
 {
   "_baslik": "1923 SINIRLARI — eksik siyasi yapı önerileri (M-cross-session hüküm 2'ye cevap)",
+  "_BASLIK_NOTU": "🔴🔴 TARİHSEL DOSYA (M-2983) — bu dosyanın adı `_kunye_uygula.py`nin glob deseniyle (`YAMA-KUNYE-*0905*.json`) EŞLEŞMİYOR, yani hiçbir zaman otomatik OKUNMADI (sessiz kayıp). 8 benzersiz id_onerisi'nin 5'i (irak-kralligi·suriye-lubnan-mandasi·tannu-tuva·harezm-halk-cumhuriyeti·rif-cumhuriyeti) zaten `YAMA-KUNYE-1923-0905.json`de vardı; kaçan 3'ü (fransiz-guyanasi·hollanda-guyanasi·ingiliz-guyanasi) oraya TAŞINDI. Bu dosya artık YENİ İŞ ÜRETMEZ — SİLİNMEDİ, kayıt olarak duruyor.",
   "_not": "Bunlar ÖNERİDİR, data/devletler.js'e UYGULANMADI (koşu 5b kilitli + ölçüm oturumu düzeltme yapmaz). Koordinatör birleştirecek.",
   "_oturum": "1923 SINIRLARI (eski adı SONNET HAZIR KITA 126) · local_372203f2-6e71-46d2-af5e-563a5c7eca60",
   "maddeler": [

@@ -178,13 +178,44 @@
         "olcum_sonucu_tarih_kritigi": "🟢 ÇAKIŞMA 1923-10-29'DA GERÇEK DEĞİL: ikinci bir arama gösterdi ki İspanya'nın Şefşâven'i KAYBEDİP Rif'in eline geçmesi ANCAK 1924'TE oldu ('1924 retreat from Chefchaouen', Wikipedia) — yani SORULAN GÜNDE (29 Ekim 1923) Şefşâven HÂLÂ İspanyol/Fas idaresi altındaydı, Rif'in DEĞİL. Kutudaki 4 noktanın 4'ü de 1923-10-29'da GERÇEKTEN Rif kontrolünde DEĞİL.",
         "asil_bulgu": "🔴 Rif Cumhuriyeti'nin GERÇEK 1923 çekirdek toprağı (Abdülkerim'in başkenti Acdîr, Enval savaş alanı, iç dağlık bölge) BU KUTUDA VE ATLASTA HİÇ NOKTA OLARAK YOK. Künye kabul edilse bile MEVCUT 4 noktanın HİÇBİRİNİN `s.d`si değişmemeli (hepsi doğru: 3'ü İspanyol kıyı kalesi, 1'i 1924'e kadar hâlâ Fas/İspanyol) — çakışma riski `fas`/`ispanya` İLE DEĞİL, YOKLUKLA: yeni nokta (Acdîr/Enval bölgesi) eklenmeden bu künye haritada HİÇ görünmez (`§2` emilme). Bu YAMA'da nokta EKLEMEDİM."
       }
+    },
+    {
+      "id": "ingiliz-guyanasi",
+      "ad": "İngiliz Guyanası",
+      "f": "1831-01-01",
+      "t": "1923-10-29",
+      "bolge": "guney-amerika",
+      "ozet": "1831'de üç Hollanda kolonisinin (Essequibo, Demerara, Berbice) birleşmesiyle kurulan İngiliz taç kolonisi (1966'da bağımsızlaştı — site ufkunun çok dışında).",
+      "kaynak": "standart akademik/ansiklopedik (Britannica 'Guyana' maddesi, tarihçe bölümü) — İKİNCİ kaynakla eşleşmedi, TEK kaynaklı",
+      "not": "🔴 TAŞINDI (M-2983) — kaynak: denetim/YAMA-1923-0905.json (eski dosya, `_kunye_uygula.py` glob'u tutmuyordu, sessiz kayıp riski). Diğer sömürgeler (ingiliz-hindistani, ingiliz-malaya) zaten aynı mantıkla çiziliyor; tutarlılık için Guyana üçlüsü de eklendi."
+    },
+    {
+      "id": "hollanda-guyanasi",
+      "ad": "Hollanda Guyanası (Surinam)",
+      "f": "1667-01-01",
+      "t": "1923-10-29",
+      "bolge": "guney-amerika",
+      "ozet": "1667 Breda Antlaşması'yla Hollanda'ya geçen, 1954'e kadar (site ufkunun dışında) sömürge statüsünde kalan Güney Amerika toprağı.",
+      "kaynak": "standart akademik/ansiklopedik — TEK kaynaklı, ikinci kaynakla eşleşmedi",
+      "not": "🔴 TAŞINDI (M-2983) — bkz. ingiliz-guyanasi notu. f: tarihi KABA — Hollanda hâkimiyeti aşamalı kuruldu, kesin gün TDV/akademik kaynaktan HENÜZ doğrulanmadı."
+    },
+    {
+      "id": "fransiz-guyanasi",
+      "ad": "Fransız Guyanası",
+      "f": "1817-01-01",
+      "t": "1923-10-29",
+      "bolge": "guney-amerika",
+      "ozet": "17. yüzyıldan beri aralıklı Fransız varlığının 1817'de kalıcı sömürgeye dönüştüğü Güney Amerika toprağı (bugün de Fransız denizaşırı bölgesi).",
+      "kaynak": "standart akademik/ansiklopedik — TEK kaynaklı",
+      "not": "🔴 TAŞINDI (M-2983) — bkz. ingiliz-guyanasi notu. f: tarihi KABA, doğrulanmalı."
     }
   ],
   "_ozet_sayim": {
-    "toplam_kunye": 10,
+    "toplam_kunye": 13,
     "TDV_kaynakli": 3,
-    "TDV_kapsam_disi_akademik": 7,
+    "TDV_kapsam_disi_akademik": 10,
     "iki_bagimsiz_kaynakla_eslesen": ["suriye-lubnan-mandasi", "filistin-mandasi", "tannu-tuva"],
-    "tek_kaynakli": ["irak-kralligi (TDV kesik + akademik)", "urdun-emirligi (TDV tek)", "misir-sultanligi", "misir-kralligi", "harezm-halk-cumhuriyeti", "buhara-halk-cumhuriyeti", "rif-cumhuriyeti"]
+    "tek_kaynakli": ["irak-kralligi (TDV kesik + akademik)", "urdun-emirligi (TDV tek)", "misir-sultanligi", "misir-kralligi", "harezm-halk-cumhuriyeti", "buhara-halk-cumhuriyeti", "rif-cumhuriyeti", "ingiliz-guyanasi", "hollanda-guyanasi", "fransiz-guyanasi"],
+    "M2983_tasima": "3 Guyana künyesi denetim/YAMA-1923-0905.json'dan taşındı (id_onerisi->id, ad_onerisi->ad çevrildi). Ortak 5 (irak-kralligi, suriye-lubnan-mandasi, tannu-tuva, harezm-halk-cumhuriyeti, rif-cumhuriyeti) TEKRAR YAZILMADI."
   }
 }
