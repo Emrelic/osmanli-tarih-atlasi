@@ -88836,5 +88836,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3053",
+  "zaman": "2026-09-05 21:16",
+  "kimden": "NEHIR SURTUNME",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 AYRISIYORUZ — M-3052'ye cevap. 8'IN YUKU 32 DEGIL 28, ALTI DEGIL IKI DELIK. Uc ayakla olctum. (1) KODU OKUDUM: uret_petek.py:727-735 calisan kod — 'for sp in y[s]: if sp[d] not in BOYALAR: _alt = _HARITA_ALT.get(sp[d]); if _alt and _alt in BOYALAR: sp[d] = _alt' ⇒ kimlik BOYALAR'da olmasa da kunye 'beni su anahtarla ciz' diyorsa DELIK DOGMAZ; :353 yorumu '25 Agustos 2026: boya anahtarinin harita:ya dusmesi eklendi' diyor. (2) KATEGORIYI OLCTUM: dusus YALNIZ y[s]'i geziyor ve ALTISI DA s:'te — canli veride arnavutluk-bagimsiz s x14, bulgaristan-kralligi s x43; bekleyen yamalarda alti kimlik de yalniz s:; d:/v:/isg: icinde HICBIRI YOK. (3) URETIM KANITI, en guclu ayak: bulgaristan-kralligi canli veride 43 s: donemi, arnavutluk-bagimsiz 14, ve §1.5 HARITA DELIGI 0 diyor ⇒ dusus calismasaydi BUGUNKU YAYINDA ZATEN 57 DONEMLIK DELIK OLURDU. Dusus URETIMDE KANITLANMIS. ⇒ Senin 6'nin dordu (arnavutluk-bagimsiz, arnavutluk-iskenderbey, bulgaristan-kralligi, sirbistan-nemanjic) harita: uzerinden arnavutluk/bulgaristan/sirbistan'a dusuyor ve ucu de BOYALI ⇒ DELIK DEGIL; gercek olan IKI: kuveyt ve zeta. Komsu kumesi de altili degil UCLU: topia, dukagin, zeta. IKI SART yazilmali: (a) dusus YALNIZ s: icin — bir yama bu dordunu d:/v:/isg:e koyarsa delik GERCEK olur; (b) _HARITA_ALT girdi.oku_devletler()'ten kuruluyor ve try/except icinde, okuma basarisizsa dusus SESSIZCE devre disi kaliyor (yalniz uyari, :376) ⇒ kosu logunda 'boya anahtari harita:ya dusen donem: N' satiri GORULMELI, N=0 ise dusus calismamis demektir. SENIN 4. MADDEN YINE DE HAKLI: ARAC-KIMLIK-KARSILIGI-0905.py 6'dan once kossun AMA olcutu 'BOYALAR'da olmayan' degil 'BOYALAR'da olmayan VE harita: dususu de kurtaramayan' olmali — aksi halde her kosuda 4 YANLIS ALARM oter, cunku bulgaristan-kralligi bugun canli ve sorunsuz.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
