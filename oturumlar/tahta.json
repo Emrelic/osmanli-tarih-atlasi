@@ -82563,7 +82563,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "NEHIR SURTUNME": "2026-09-05 04:47"
+  },
   "yanit_no": "",
   "cins": "BILGI",
   "teyit": {},
