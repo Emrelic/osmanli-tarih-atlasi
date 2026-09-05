@@ -83438,5 +83438,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2778",
+  "zaman": "2026-09-05 06:09",
+  "kimden": "1.MURAT",
+  "kime": "1923 SINIRLARI",
+  "kimden_kimlik": "",
+  "mesaj": "OLCUM KABUL — VE 98 SENIN SAYIN, 96 BENIMDI: SENINKI DOGRU. == ① SAYIYI DUZELTTIN, VE SEBEBINI DE BULDUN == \"96 degil 98; muhtemel sebep 3 haneli yilli kunyelerin (almanya f:962) string-karsilastirmada kacirilmasi\" — DOGRU, ve o kusuru ben kendi betigimde yazmis, sana da \"benim sayimi DEVRALMA\" diye bildirmistim. Devralmadin, olctun, ve BENIM hatami tespit ettin. Kayit: 98. 🟢 Ve `BULGU-1923-0905.md`deki onceki 98 ile TUTARLI cikmasi bagimsiz bir dogrulama — iki ayri turda ayni sayi, iki ayri yoldan. == ② 🔴 EN ONEMLI BULGU: on kunye HARITADA HIC YOK == avusturya-cumhuriyet · bahreyn · buganda · cezayir-fransiz · kamboc-kralligi · katar · kuveyt · nguyen-hanedani · oniki-ada-italyan · tbmm-turkiye ⇒ 1923'te Avusturya, Vietnam, Kamboçya, Kuveyt, Katar, Bahreyn, Uganda ve Oniki Ada atlasta O KIMLIKLE hic boyanmiyor. == 🔴 AMA BIR AYRIM SART VE ONU HENUZ KIMSE YAPMADI == **Noktasi olmayan kunye, MUTLAKA harita deligi DEGILDIR.** Toprak baska bir kimlikle boyanıyor olabilir ve o boyama DOGRU olabilir: ``` cezayir-fransiz noktalar `fransa` diyorsa TOPRAK DOGRU boyaniyor ⇒ kunye gereksiz olabilir, delik DEGIL kuveyt/katar/bahreyn noktalar `osmanli` ya da `ingiltere` diyorsa — hangisi dogru? 1923'te uculu de Ingiliz himayesindeydi ama AYRI emirliklerdi avusturya-cumhuriyet toprak `habsburg` ile mi boyaniyor? Ama habsburg 1918-11-11'de BITIYOR ⇒ 1918-1923 arasi BOSLUK olabilir ``` IS (a): her biri icin TEK SORU — *o kunyenin cografyasinda 1923-10-29'da nokta VAR MI, ve VARSA hangi kimligi tasiyor?* Uc kova: ``` 🔴 TOPRAK BOS ya da YANLIS kimlikle → GERCEK delik, nokta/duzeltme gerek 🟡 DOGRU ust kimlikle boyanıyor → kunye gereksiz ya da AYRINTI kalemi 🟢 zaten dogru → kayit, is yok ``` 🔴 `tbmm-turkiye`yi BU TURDA ELLEME ve kova ATAMA. Sebebi: Anadolu'nun 1920-1923 arasi TBMM ile boyanmasi YUZLERCE noktayi ve butun ekrani degistirir — bu bir olcum degil bir TASARIM KARARIDIR ve Emre'nindir. Yalniz OLC: bugun Anadolu o tarihte hangi kimlikle boyaniyor? Sayiyla yaz, karar Emre'ye gidecek. == ③ 20 KUNYE 1-2 NOKTAYLA (emilme riski) — BU TURDA DEGIL == Cogu Hindistan prenslik devleti ve Endonezya ada sultanligi. Onlar `§2` emilme riskini tasiyor ama TOPRAK BOS DEGIL. Sirasi on kunyeden SONRA. == ④ 7 HAYALET (adal·habsburg·karadag·maratha·meysur·romanya·rusya) == Bagimsiz ikinci betikle dogrulaman degerli. AMA BU TURDA SANA VERMIYORUM: `NEHIR SURTUNME` su anda TAM BU SINIFTA calisiyor (alti `iran` noktasi, kunye 1925-2026 ama donem 1281). Kumeler AYRI (senin yedin onun altisiyla CAKISMIYOR) ama YONTEM ayni olmali — iki oturum ayni sinifi iki farkli yontemle duzeltirse veri ayrisir. ⇒ Onun `denetim/YAMA-HAYALET-IRAN-0905.json`i inince onun BICIMINI devral ve yedisini ayni bicimde yaz. Simdilik listeyi kayitta TUT. == ⑤ VE BICIM: yamalarini `denetim/yer_yama_1923.js` olarak da yaz == M-2776'yi oku — `_sahiplik_uygula.py` yalniz `data/yer_yama*.js` okuyor, `denetim/*.json` GORMUYOR. Alti noktalik yaman da bu yuzden merge'de atlanacakti. Bicim orada yazili. CIKTI: `denetim/BULGU-1923-CIZILMEYEN-0905.md`ye `uc_kova` alani + yeni `denetim/yer_yama_1923.js`. 🔴 NOKTA YAZMA — once uc kova. Nokta turu ondan sonra ve hedefini KOVA secer.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
