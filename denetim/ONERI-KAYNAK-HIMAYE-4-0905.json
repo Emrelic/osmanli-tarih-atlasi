@@ -1,4 +1,19 @@
 {
+ "🔴_BASLIK_NOTU": [
+  "BU DOSYA BIR KUNYE YAMASI DEGILDIR — mevcut kunyelerin `kaynak:`",
+  "alani icin bir METIN ONERISIDIR. `t:` onerisi UCUNDE DE CEKILDI",
+  "(govdeler uzatma tarihi vermiyor; ayrinti: A bolumu).",
+  "",
+  "AD DEGISIKLIGI (2026-09-05, M-2968 sonrasi):",
+  "  eski: denetim/YAMA-KUNYE-HIMAYE-UCUZ-0905.json",
+  "  yeni: denetim/ONERI-KAYNAK-HIMAYE-4-0905.json",
+  "SEBEP: `arac/_kunye_uygula.py` varsayilani",
+  "  \"denetim/YAMA-KUNYE-*0905*.json\" ve o alet YENI KUNYE EKLER;",
+  "  bu dosyanin dort kunyesi hedefte ZATEN VAR ⇒ her kosuda REDDEDILIYOR.",
+  "  Ad degisince: RED 4 → 0 (olculdu). ICERIK DEGISMEDI.",
+  "⚠️ Eski ada CANLI tek atif: oturumlar/KOSU-SONRASI-KUYRUK.md:1703",
+  "  (koordinator dosyasi — §7 geregi BEN DOKUNMADIM, bildirildi)."
+ ],
  "ust": {
   "is": "HIMAYE KUNYELERI — \"UCUZ\" ucun + ibadan'in kaynak: duzeltmesi",
   "oturum": "KURE GORUNUM",
