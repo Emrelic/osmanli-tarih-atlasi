@@ -1,0 +1,136 @@
+{
+  "_baslik": "1923 SINIRLARI — eksik siyasi yapı önerileri (M-cross-session hüküm 2'ye cevap)",
+  "_not": "Bunlar ÖNERİDİR, data/devletler.js'e UYGULANMADI (koşu 5b kilitli + ölçüm oturumu düzeltme yapmaz). Koordinatör birleştirecek.",
+  "_oturum": "1923 SINIRLARI (eski adı SONNET HAZIR KITA 126) · local_372203f2-6e71-46d2-af5e-563a5c7eca60",
+  "maddeler": [
+    {
+      "kova": "kunye_yok",
+      "id_onerisi": "tannu-tuva",
+      "ad_onerisi": "Tannu Tuva Halk Cumhuriyeti",
+      "f": "1921-08-14",
+      "t": "1923-10-29",
+      "bolge": "sibirya-bozkir",
+      "ozet": "Rus İç Savaşı sırasında Kızıl Ordu desteğiyle kurulan, resmen tanınmamış ama fiilen SSCB uydusu olan devlet; 1944'e kadar (site ufkunun dışında) sürdü.",
+      "kaynak": "Britannica, 'Tannu-Tuva' (place); doğrulama: en.wikipedia.org/wiki/Tuvan_People%27s_Republic",
+      "not": "Bölge: Sibirya öncelikli (koordinatörün ölçtüğü %43,2 örtülmeyen kara alanına düşüyor)."
+    },
+    {
+      "kova": "nokta_yok",
+      "ilgili_id": "sovyet-rusya",
+      "konu": "Kuzey Sahalin'in Japon işgali",
+      "f": "1920-04-01",
+      "t": "1923-10-29",
+      "bolge": "sibirya-bozkir",
+      "ozet": "Nikolayevsk baskınına misilleme olarak Nisan 1920'de başlayan, 1925 Pekin Antlaşması'na dek (site ufkunun dışında) süren Japon askerî işgali. 1923-10-29'da HÂLÂ SÜRÜYORDU.",
+      "kaynak": "en.wikipedia.org/wiki/Japanese_intervention_in_Siberia (Nikolayevsk incident, Japanese occupation of Northern Sakhalin bölümleri)",
+      "not": "`isg:` katmanı adayı — taban Rusya/Sovyet Rusya, üstüne Japon işgal örtüsü. Kuzey Sahalin'de mevcut bir yerleşim noktası var mı ÖLÇMEDİM."
+    },
+    {
+      "kova": "donem_yok",
+      "ilgili_id": "buhara",
+      "konu": "Buhara Halk Sovyet Cumhuriyeti — halef dönemi hiç yok",
+      "f": "1920-10-08",
+      "t": "1923-10-29",
+      "bolge": "orta-asya",
+      "ozet": "Kızıl Ordu'nun 2 Eylül 1920'de emirliği yıkmasının ardından kurulan Sovyet halk cumhuriyeti; 1924 Orta Asya millî sınır çiziminde SSCB'ye katıldı (site ufkunun dışında).",
+      "kaynak": "en.wikipedia.org/wiki/Bukharan_People%27s_Soviet_Republic",
+      "not": "`buhara` künyesi t:1920-09-02'de bitiyor (emirliğin yıkılışı) — 1920-1924 arası hiç künye/dönem yok. Yeni künye mi (`buhara-halk-cumhuriyeti`), yoksa `buhara`nın kendisine yeni bir ardıl dönem mi eklenmeli, karar koordinatörde."
+    },
+    {
+      "kova": "kunye_yok",
+      "id_onerisi": "harezm-halk-cumhuriyeti",
+      "ad_onerisi": "Harezm Halk Sovyet Cumhuriyeti",
+      "f": "1920-04-26",
+      "t": "1923-10-29",
+      "bolge": "orta-asya",
+      "ozet": "Hive Hanlığı'nın yıkılmasının ardından 26 Nisan 1920'de I. Harezm Kurultayı'nca ilan edilen Sovyet halk cumhuriyeti; 1924'te (site ufkunun dışında) SSCB içinde bölündü.",
+      "kaynak": "en.wikipedia.org/wiki/Khorezm_People%27s_Soviet_Republic",
+      "not": "Hive Hanlığı'nın kendi künyesi devletler.js'te var mı ayrıca kontrol edilmeli — ölçmedim, yalnız `buhara`ya baktım."
+    },
+    {
+      "kova": "kunye_yok",
+      "id_onerisi": "ingiliz-guyanasi",
+      "ad_onerisi": "İngiliz Guyanası",
+      "f": "1831-01-01",
+      "t": "1923-10-29",
+      "bolge": "guney-amerika",
+      "ozet": "1831'de üç Hollanda kolonisinin (Essequibo, Demerara, Berbice) birleşmesiyle kurulan İngiliz taç kolonisi (1966'da bağımsızlaştı — site ufkunun çok dışında).",
+      "kaynak": "standart akademik/ansiklopedik (Britannica 'Guyana' maddesi, tarihçe bölümü) — İKİNCİ kaynakla eşleşmedi, TEK kaynaklı",
+      "not": "Diğer sömürgeler (ingiliz-hindistani, ingiliz-malaya) zaten aynı mantıkla çiziliyor; tutarlılık için Guyana üçlüsü de eklenebilir."
+    },
+    {
+      "kova": "kunye_yok",
+      "id_onerisi": "hollanda-guyanasi",
+      "ad_onerisi": "Hollanda Guyanası (Surinam)",
+      "f": "1667-01-01",
+      "t": "1923-10-29",
+      "bolge": "guney-amerika",
+      "ozet": "1667 Breda Antlaşması'yla Hollanda'ya geçen, 1954'e kadar (site ufkunun dışında) sömürge statüsünde kalan Güney Amerika toprağı.",
+      "kaynak": "standart akademik/ansiklopedik — TEK kaynaklı, ikinci kaynakla eşleşmedi",
+      "not": "f: tarihi kaba — Hollanda hâkimiyeti aşamalı kuruldu, kesin gün TDV/akademik kaynaktan doğrulanmalı."
+    },
+    {
+      "kova": "kunye_yok",
+      "id_onerisi": "fransiz-guyanasi",
+      "ad_onerisi": "Fransız Guyanası",
+      "f": "1817-01-01",
+      "t": "1923-10-29",
+      "bolge": "guney-amerika",
+      "ozet": "17. yüzyıldan beri aralıklı Fransız varlığının 1817'de kalıcı sömürgeye dönüştüğü Güney Amerika toprağı (bugün de Fransız denizaşırı bölgesi).",
+      "kaynak": "standart akademik/ansiklopedik — TEK kaynaklı",
+      "not": "f: tarihi KABA, doğrulanmalı."
+    },
+    {
+      "kova": "kunye_yok",
+      "id_onerisi": "rif-cumhuriyeti",
+      "ad_onerisi": "Rif Cumhuriyeti (Abdülkerim el-Hattabî)",
+      "f": "1921-09-18",
+      "t": "1923-10-29",
+      "bolge": "kuzey-afrika",
+      "ozet": "22 Temmuz 1921 Annual Savaşı zaferinin ardından Kuzey Fas'ta ilan edilen, İspanya'ya (ve sonradan Fransa'ya) karşı 1926'ya dek (site ufkunun dışında) direnen dağlık cumhuriyet.",
+      "kaynak": "Britannica, 'Republic of the Rif' (place)",
+      "not": "`fas` künyesiyle aynı coğrafyada ÇAKIŞAN bir bölge — Kuzey Fas'ın bir kısmı bu dönemde fiilen `fas`ın (Fransız himayesi) değil Rif'in kontrolündeydi. Voronoi/nokta çakışması riski var, dikkatli eklenmeli."
+    },
+    {
+      "kova": "donem_yok",
+      "ilgili_id": "misir-kavalali",
+      "konu": "Mısır — 1914-1923 arası HİÇ künye yok",
+      "f": "1914-12-18",
+      "t": "1923-10-29",
+      "bolge": "misir-sudan",
+      "ozet": "18 Aralık 1914'te İngiliz himayesi ilan edildi (Kavalalı hanedanının Osmanlı'ya tâbiiyeti resmen bitti); 28 Şubat 1922 tek taraflı bağımsızlık ilanıyla Mısır Sultanlığı Krallığa dönüştü (I. Fuad, 15 Mart 1922 kararnamesiyle unvanını değiştirdi). 1936 Anglo-Mısır Antlaşması'na kadar (site ufkunun dışında) İngiliz askerî varlığı sürdü.",
+      "kaynak": "en.wikipedia.org/wiki/Unilateral_Declaration_of_Egyptian_Independence ; en.wikipedia.org/wiki/Fuad_I_of_Egypt",
+      "not": "🔴 EN BÜYÜK BULGULARDAN BİRİ: `misir-kavalali` t:1914-12-18'de bitiyor ve HİÇBİR ardıl künye yok — yani Mısır (Kahire dahil) 1914-1923 arası devletler.js'te TAMAMEN TEMSİL EDİLMİYOR. Nokta durumunu (sahipsiz mi, yanlış sahipli mi) AYRICA ölçmek gerekir, ben ölçmedim."
+    },
+    {
+      "kova": "kunye_yok",
+      "id_onerisi": "suriye-lubnan-mandasi",
+      "ad_onerisi": "Fransız Suriye-Lübnan Manda İdaresi",
+      "f": "1920-07-24",
+      "t": "1923-10-29",
+      "bolge": "suriye-filistin",
+      "ozet": "23 Temmuz 1920 Maysalun Savaşı'yla Faysal'ın kısa ömürlü Şam hükûmetinin yıkılmasından sonra fiilen, 29 Eylül 1923'te (Milletler Cemiyeti Konseyi onayıyla) resmen başlayan Fransız manda idaresi.",
+      "kaynak": "en.wikipedia.org/wiki/Mandate_for_Syria_and_the_Lebanon",
+      "not": "🔴🔴 `suriye-filistin` BÖLGESİNDE devletler.js'te TEK BİR KÜNYE BİLE YOK (ölçtüm: `grep -c bolge:\"suriye-filistin\"` = 0). Bu, yalnız bu maddenin değil, TÜM Levant bölgesinin boş olduğu anlamına geliyor — Lübnan, Filistin (İngiliz Mandası) için de ayrı künye gerekebilir, ben yalnız Suriye-Lübnan'ı araştırdım."
+    },
+    {
+      "kova": "kunye_yok",
+      "id_onerisi": "irak-kralligi",
+      "ad_onerisi": "Irak Krallığı (Faysal I, İngiliz Mandası)",
+      "f": "1921-08-23",
+      "t": "1923-10-29",
+      "bolge": "mezopotamya",
+      "ozet": "23 Ağustos 1921'de Faysal'ın kral ilan edilmesiyle kurulan, İngiliz mandası altındaki krallık; 1932'de (site ufkunun dışında) manda sona erdi.",
+      "kaynak": "Britannica, 'Faisal I' (biography) ve 'Iraq — British occupation and the mandatory regime'",
+      "not": "🔴 `mezopotamya` BÖLGESİNDE DE devletler.js'te TEK KÜNYE YOK (ölçtüm: 0). Suriye-Filistin ile birlikte, bütün Ortadoğu mandası coğrafyası devletler.js'te tamamen boş."
+    }
+  ],
+  "_ozet_sayim": {
+    "toplam_madde": 11,
+    "kunye_yok": 7,
+    "donem_yok": 3,
+    "nokta_yok": 1,
+    "tek_kaynakli_dogrulanmamis": ["ingiliz-guyanasi", "hollanda-guyanasi", "fransiz-guyanasi"],
+    "iki_veya_daha_fazla_izle_dogrulanmis": ["tannu-tuva", "buhara-halef", "harezm-halk-cumhuriyeti", "rif-cumhuriyeti", "misir-1914-1923-boslugu", "suriye-lubnan-mandasi", "irak-kralligi", "kuzey-sahalin-isgali"]
+  }
+}
