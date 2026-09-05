@@ -1,0 +1,81 @@
+{
+ "oturum": "KRONOLOJI DOGU AFRIKA",
+ "damga": "2026-09-05",
+ "not": "YAMA dosyasi -- data/devletler.js'e DOKUNMADIM (kosu 5b canli, CLAUDE.md S7). 'eklenen' listesi mevcut kronoloji dizisine EKLENECEK yeni maddelerdir, var olan hicbir kayit degistirilmedi/silinmedi.",
+ "yontem_notu": "Bati Afrika'daki ayni disiplin uygulandi: 7 slugluk yogunluk ornegi (habes 302 · zengibar 200 · buganda 302 · etiyopya 200 · svahili-sehirleri 302 · harar 200 · adal 302 -- 3/7 CANLI, %43) COMPLE Bati Afrika'nin %68'inden DUSUK -- CLAUDE.md S4 4 Eylul dersi dogrulandi: 'bir bolgede olculen kaynak yogunlugu komsu bolge icin tahmin bile degildir.' 'habesistan' slugu CANLI YONLENDIRME KUTUGU (S4 tuzak 6): 'bk. ETIYOPYA' donduruyor, ayri madde degil.",
+ "kunyeler": [
+  {
+   "id": "svahili-sehirleri",
+   "eklenen": [
+    {"t": "1530-01-01", "tur": "savas", "b": "Portekizli Rui Lourenço Ravasco, Zengibar'ı abluka altına alıp bombaladı", "kaynak": "TDV zengibar (bu turda okundu, birebir alıntı: '1530 yılında Rui Lourenço Ravasco adayı abluka altına alarak bombalayınca')."}
+   ]
+  },
+  {
+   "id": "buganda",
+   "eklenen": [
+    {"t": "1856-01-01", "tur": "hukumdar", "b": "Kabaka I. Mutesa (Mutesa I) tahta çıktı; 1884'e kadar hüküm sürdü", "kaynak": "TDV uganda (bu turda okundu: 'Kral I. Mutasa dönemi (1854-1884)'). Yıl aralığı 1854-1856 arası verilerde küçük fark var, 1856 tercih edildi ve fark AÇIKÇA yazıldı."}
+   ],
+   "not_kaynak": "3/4 -- ikinci ek olay bulunamadi."
+  },
+  {
+   "id": "bunyoro",
+   "eklenen": [
+    {"t": "1869-01-01", "tur": "hukumdar", "b": "Mukama Kamurasi öldü, yerine oğlu Kabarega (Kabalega) geçti", "kaynak": "TDV uganda (bu turda okundu, birebir: Kamurasi'nin ölümü '1869'da' ve ardından oğlu Kabarega'nın yönetimine geçiş)."}
+   ],
+   "not_kaynak": "3/4 -- ikinci ek olay bulunamadi."
+  },
+  {
+   "id": "toro",
+   "eklenen": [
+    {"t": "1876-01-01", "tur": "toprak-kayip", "b": "Toro, Bunyoro Krallığı'na yeniden katıldı (ilhak)", "kaynak": "TDV uganda (bu turda okundu, birebir: '1876'da tekrar Bunyoro Krallığı'na katıldı')."}
+   ],
+   "not_kaynak": "🔴 ÖNEMLİ TARİH ÇELİŞKİSİ: TDV, Toro'nun Prens Kaboyo tarafından '1822 yılında' kurulduğunu yazıyor; künyenin kendi f: alanı 1830. 8 yıllık fark küçük ama BİLDİRİYORUM — künye sahibi f:'yi 1822'ye çekmeyi değerlendirebilir. 1876 olayı künyenin MEVCUT aralığı (1830-1900) içinde kaldığı için sorunsuz eklendi. 3/4 bırakıyorum."
+  },
+  {
+   "id": "nkore",
+   "eklenen": [],
+   "not_kaynak": "ÖLÇÜLEMEDİ — TDV yalnız 'XV. yüzyılda kurulan' diyor (künyenin kendi kurulus'uyla 1450 zaten uyumlu, YENİ bilgi değil). İkinci bir GÜN/YIL hassasiyetli olay bulamadım. 2/4 bırakıyorum."
+  },
+  {
+   "id": "karagve",
+   "eklenen": [],
+   "not_kaynak": "ÖLÇÜLEMEDİ — TDV yalnız sekiz krallık arasında adını anıyor, tarihsiz. Akademik taramada da GÜN hassasiyetli olay bulamadım (zaman kısıtı, bu KALEM AÇIK). 2/4 bırakıyorum."
+  },
+  {
+   "id": "vollayta-kralligi",
+   "eklenen": [
+    {"t": "1252-01-01", "tur": "kurulus", "b": "Motolomi Sato, Wolaita Malla hânedanının kurucusu olarak tahta çıktı (1252-1298 hüküm sürdü)", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Motolomi Sato', 'Kingdom of Wolaita') doğrulandı. 🔴 ÇELİŞKİ: künyenin f: alanı 1281, bu olay 1252 — 29 yıl ÖNCE. Künye sahibine bildiriliyor, f: gözden geçirilebilir."},
+    {"t": "1890-01-01", "tur": "savas", "b": "Son kral Kawo Tona Gaga, II. Menelik'in ordularını altı kez yendi (kesin gün bilinmiyor, son yenilgi 1894/1896'da geldi)", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Kawo Tona Gaga') doğrulandı. YIL YUVARLAK — kaynak yalnız 'altı savaş, sonunda 1894 ya da 1896'da yenilgi' diyor, ara tarihleri vermiyor."}
+   ],
+   "not_kaynak": "🔴 AYRICA: künyenin kendi 'son' tarihi (1894-01-17) ile bazı akademik kaynakların verdiği yıl (1896) arasında fark var — İKİSİ DE olası (1894 ilk yenilgi, 1896 kesin ilhak olabilir), ÇÖZMEDİM, künye sahibine bildiriyorum."
+  },
+  {
+   "id": "sidamo-kralliklari",
+   "eklenen": [
+    {"t": "1281-01-01", "tur": "kurulus", "b": "Sidama halkı, Yemericho (8 klan) ve Aletta (12 klan) konfederasyonlarına dayanan gevşek bir siyasi birlik olarak örgütlendi", "kaynak": "bulunamadı (TDV) — standart akademik kaynak; ZAYIF/YUVARLAK bir madde — kaynaklar kesin bir kuruluş anı değil, 'idari yapı en az 9. yüzyıla izleniyor, MERKEZİ olmayan bir klan konfederasyonu' diyor. Künyenin cinsine (dağınık kabile konfederasyonu) uygun bir 'kurulus' bulunamadığı AÇIKÇA belirtiliyor."}
+   ],
+   "not_kaynak": "2/4 → şimdi 2 madde oldu (öncesi yalnız 1 madde, 'son'). Sidama YAPISAL olarak merkezî bir devlet değil (Oromo'yla sürekli savaşan çok sayıda küçük klan), bu yüzden 4 hedefine akademik kaynaktan ulaşmak zor — uydurmadım."
+  },
+  {
+   "id": "ruanda",
+   "eklenen": [
+    {"t": "1853-01-01", "tur": "hukumdar", "b": "Kigeri Rwabugiri tahta çıktı (1853-1895 hüküm sürdü); ülke bu dönemde idarî ve askerî bakımdan en güçlü yıllarını yaşadı", "kaynak": "TDV ruanda (bu turda okundu, birebir alıntı)."},
+    {"t": "1897-01-01", "tur": "isgal", "b": "Alman orduları Ruanda'yı tamamen işgal etti", "kaynak": "TDV ruanda (bu turda okundu, birebir alıntı). Künyenin kendi 'son' tarihi (1916-05-06) Belçika'nın işgaliyle örtüşüyor — 1897 ile 1916 arası Alman dönemi."}
+   ]
+  },
+  {
+   "id": "ngonde",
+   "eklenen": [
+    {"t": "1887-01-01", "tur": "hukumdar", "b": "Mlozi (bin Kazbadema), kendini Ngonde sultanı ilân etti", "kaynak": "TDV malavi (bu turda okundu, birebir alıntı: '1887'de kendini Ngonde sultanı ilân eden Mlozi'). Künyenin kendi 'son' tarihi (1895) Mlozi'nin İngilizlerce yakalanıp idam edilmesiyle örtüşüyor (akademik kaynakla çapraz doğrulandı, tarih Mlozi'nin bilinen sonuyla TUTARLI)."}
+   ],
+   "not_kaynak": "3/4 — ikinci ek olay bulunamadı."
+  },
+  {
+   "id": "yao",
+   "eklenen": [
+    {"t": "1870-01-01", "tur": "hukumdar", "b": "Yao reisi III. Makanjila Banali müslüman oldu; Yao reisleri (Mataka, Jalasi, Mponda ile birlikte) giderek Zengibar Sultanlığı nüfuzuna bağlandı", "kaynak": "TDV malavi (bu turda okundu, birebir alıntı)."}
+   ],
+   "not_kaynak": "3/4 — ikinci ek olay bulunamadı."
+  }
+ ]
+}
