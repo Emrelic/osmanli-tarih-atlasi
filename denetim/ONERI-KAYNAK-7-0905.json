@@ -1,0 +1,179 @@
+{
+ "ust": {
+  "is": "YEDI YANLIS \"bulunamadı\" DAMGASI — kaynak: metni onerisi",
+  "oturum": "KURE GORUNUM",
+  "sevk": "M-2904 (1.MURAT)",
+  "damga": "2026-09-05",
+  "cins": "ONERI — metin ONERILDI, YAZILMADI. devletler.js kosu 5b sonrasi TEK ELDEN.",
+  "dosya": "data/devletler.js",
+  "dayanak": "denetim/OLCUM-KAYNAK-DAMGA-KOVA-0905.md (263 kunye tarandi, 12 canli, 12 govde okundu)",
+  "UYGULAMADAN_ONCE_OKU": [
+   "kaynak_MEVCUT dizgileri VERIDEN uretildi, elle kopyalanmadi.",
+   "YEDISININ DE tek bir alani degisir: `kaynak`. TEK ISTISNA `mogolistan`,",
+   "onda AYRICA `ozet`teki yanlis uyari cumlesi cikacak.",
+   "🔴 `f:`/`t:` DEGISMEZ. Bu bir KAYNAK duzeltmesidir, tarih duzeltmesi DEGIL.",
+   "Ucunde tarih AYRISMASI bildirdim (mogolistan 41 gun · meysur 1 yil + gun/ay)",
+   "— BILDIRIM, HUKUM DEGIL; ayri kalem olarak degerlendirilmeli."
+  ],
+  "CAKISMA": "`somali` ONERI-SOZLESME-5-0905.json ile AYNI kunye. Uc kalem UC AYRI ALANA dokunuyor (f: · ozet · kaynak) ⇒ cakisma YOK, birlikte inebilir.",
+  "METIN_URETIMI": [
+   "Yedi metin KURALDAN TURETILMEDI, TEK TEK yazildi.",
+   "Ilk turda bir kural denendi (\"govde tarih vermiyorsa uzun metin\") ve",
+   "`nepal`e YANLIS metin verdi: TDV onun t: yilini DESTEKLIYOR.",
+   "⇒ Yedi kunyenin govdesi yedi farkli sey veriyor (GUN · YIL · AY ·",
+   "   yalniz ANLATI); tek bir kalip hepsini dogru anlatamiyor."
+  ]
+ },
+ "ONERILER": [
+  {
+   "id": "delhi-sultanligi",
+   "ad": "Delhi Sultanlığı",
+   "f": "1206-01-01",
+   "t": "1526-04-21",
+   "TDV_slug_CANLI": "delhi-sultanligi",
+   "madde_basligi": "DELHİ SULTANLIĞI",
+   "muellif": "NAIMUR RAHMAN FAROOQI",
+   "baski_tarihi": "1994",
+   "govde_ham_kar": 115014,
+   "govde_metin_kar": 22050,
+   "SS4_2_DOGRU_MADDE_MI": "EVET — maddenin kendi tanimi \"(1206-1526)\"; kunyenin konusu birebir",
+   "govde_NE_VERIYOR": "GUN",
+   "alintilar": [
+    "\"…Türk kumandan Kutbüddin Aybeg'in Muizzüddin'i 1206'da öldürüp tahta geçmesinden sonra olmuştur.\" → kunye f:1206-01-01",
+    "\"Bâbür Delhi'ye yürüdü ve ünlü Pânîpet Savaşı'nda İbrâhîm-i Lûdî'yi mağlûp ederek öldürttü (21 Nisan 1526).\" → kunye t:1526-04-21 BIREBIR GUN"
+   ],
+   "kaynak_MEVCUT": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+   "kaynak_ONERILEN": "delhi-sultanligi",
+   "not": "🔴 EN AGIR VAKA: madde ADIYLA \"Delhi Sultanligi\", kunyenin IKI UCUNU DA veriyor ve biri GUN hassasiyetinde. Damga \"TDV'de mustakil maddesi yok\" diyordu."
+  },
+  {
+   "id": "somali",
+   "ad": "Somali Sultanlıkları",
+   "f": "1500-01-01",
+   "t": "1923-10-29",
+   "TDV_slug_CANLI": "somali",
+   "madde_basligi": "SOMALİ",
+   "muellif": "AYDOĞAN KÖKSAL (I. Cografya) · AHMET KAVAS (II. Tarih)",
+   "baski_tarihi": "2009",
+   "govde_ham_kar": 128301,
+   "govde_metin_kar": 29337,
+   "SS4_2_DOGRU_MADDE_MI": "EVET — iki bolumlu madde, II. bolum TARIH",
+   "govde_NE_VERIYOR": "YIL",
+   "alintilar": [
+    "\"Somali'nin kuzeyinde hüküm süren Mâcerteyn Sultanlığı XIX. …\"",
+    "\"Ülkenin iç kısımlarında hüküm süren Mâcerteyn ve Obbia emirliklerine ait topraklar ise 1927'de İtalyanlar tarafından işgal edildi.\"",
+    "\"2 Mart 1891'de İngilizler'in İtalyanlar'la anlaşmasının ardından … Berâve ve Merkâ … İtalyanlar'ın elinde kaldı.\""
+   ],
+   "kaynak_MEVCUT": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+   "kaynak_ONERILEN": "somali",
+   "not": "Kunye sultanliklari \"Migiurtinia/Hobyo\" diye yaziyor, TDV \"Macerteyn/Obbia\" — §4 yazim ekseni. Ayrica ONERI-SOZLESME-5-0905.json ile AYNI kunye (uc kalem: f: · ozet · kaynak)."
+  },
+  {
+   "id": "mogolistan",
+   "ad": "Moğolistan (Bogd Hanlık)",
+   "f": "1911-12-29",
+   "t": "1923-10-29",
+   "TDV_slug_CANLI": "mogolistan",
+   "madde_basligi": "MOĞOLİSTAN",
+   "muellif": "İBRAHİM GÜNER (I. Cografya) · OSMAN GAZİ ÖZGÜDENLİ (II. Tarih)",
+   "baski_tarihi": "—",
+   "govde_ham_kar": 117538,
+   "govde_metin_kar": 22462,
+   "SS4_2_DOGRU_MADDE_MI": "EVET — MODERN Mogolistan. Kunyenin OZET UYARISI (\"Cagatay sonrasi MOGULISTAN\") CURUK: \"Cagatay\" 0 kez, \"Mogulistan\" 0 kez.",
+   "govde_NE_VERIYOR": "GUN",
+   "alintilar": [
+    "\"…bağımsızlıklarını ilân ettilerse de … ancak özerklik elde edebildiler (18 Kasım 1911).\"",
+    "\"Ekim 1918'de bölgeye ulaşan bir Çin ordusu 1919'da Urga'yı … ele geçirip özerkliğe son verdi.\"",
+    "\"…Cebtsun Damba Hutuhtu'nun ölümünden sonra 26 Kasım 1924'te Moğolistan Halk Cumhuriyeti ilân edildi.\""
+   ],
+   "kaynak_MEVCUT": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+   "kaynak_ONERILEN": "mogolistan",
+   "not": "🔴 IKI DUZELTME: (a) kaynak → \"mogolistan\"; (b) ozet'teki YANLIS UYARI CUMLESI CIKARILSIN. ⚠️ VE BIR AYRISMA BILDIRIYORUM, COZMUYORUM: kunye f:1911-12-29, TDV ozerklik ilanini 18 Kasim 1911 veriyor — 41 gun fark. OLCTUM, HUKUM VERMEDIM."
+  },
+  {
+   "id": "tibet",
+   "ad": "Tibet (Phagmodrupa · Rinpungpa · Tsangpa)",
+   "f": "1354-01-01",
+   "t": "1642-01-01",
+   "TDV_slug_CANLI": "tibet",
+   "madde_basligi": "TİBET",
+   "muellif": "KUAN-CHUN LIN",
+   "baski_tarihi": "2012",
+   "govde_ham_kar": 103813,
+   "govde_metin_kar": 14987,
+   "SS4_2_DOGRU_MADDE_MI": "EVET — Tibet platosu ve tarihi",
+   "govde_NE_VERIYOR": "YIL (yalniz f ucu)",
+   "alintilar": [
+    "\"Çatışmalar neticesinde merkezi dBus bölgesinde olan Phag Mo Gru Pa mezhebi galip geldi ve idarenin başına geçti (1354).\" → kunye f:1354-01-01 BIREBIR"
+   ],
+   "kaynak_MEVCUT": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+   "kaynak_ONERILEN": "tibet — TDV maddesi f: ucunu BIREBIR veriyor (\"Phag Mo Gru Pa … idarenin başına geçti (1354)\"); t:1642 (Ganden Phodrang) maddede YOK, §4 TANECİKLİK: o tarih standart akademik kaynağa göredir",
+   "not": "⚠️ t:1642 (Ganden Phodrang) govdede YOK — \"1642\", \"Dalay\", \"Gushri\", \"dGe Lugs\" hicbiri gecmiyor. §4 TANECIKLIK: TDV Tibet'i goruyor, o kirilmaya inmiyor ⇒ t: icin akademik kaynak MESRU ve BOYLE YAZILMALI."
+  },
+  {
+   "id": "nepal",
+   "ad": "Nepal (Malla Krallıkları → Gorkha/Şah Hânedanı)",
+   "f": "1281-01-01",
+   "t": "1923-10-29",
+   "TDV_slug_CANLI": "nepal",
+   "madde_basligi": "NEPAL",
+   "muellif": "MERAL AVCI (I. Cografya) · AZMİ ÖZCAN (II. Tarih)",
+   "baski_tarihi": "2006",
+   "govde_ham_kar": 113987,
+   "govde_metin_kar": 17737,
+   "SS4_2_DOGRU_MADDE_MI": "EVET — iki bolumlu, II. bolum Tarih",
+   "govde_NE_VERIYOR": "YIL",
+   "alintilar": [
+    "\"…yüzyıldan itibaren Malla hânedanına geçti.\" → kunyenin Malla kolu",
+    "\"1846 yılında Jung Bahadur Rana adlı kumandan … Nepal Krallığı'nın idaresini ele geçirdi…\"",
+    "\"Dünya Savaşı'nın ardından tam bağımsızlığını ilân etti (1923).\" → kunye t:1923-10-29 ile AYNI YIL"
+   ],
+   "kaynak_MEVCUT": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+   "kaynak_ONERILEN": "nepal — TDV maddesi t: ucunu YIL düzeyinde destekliyor (\"tam bağımsızlığını ilân etti (1923)\"); Malla→Gorkha geçişi maddede tarihsiz, o kısım standart akademik kaynağa göredir",
+   "not": "⚠️ f:1281-01-01 govdede YOK — ama o zaten atlasin PENCERE BASI, bir kurulus iddiasi degil. Gorkha fethi (1768/69) de govdede gecmiyor: §4 TANECIKLIK."
+  },
+  {
+   "id": "meysur",
+   "ad": "Meysûr Sultanlığı (Haydar Ali / Tipu Sultan)",
+   "f": "1761-01-01",
+   "t": "1799-05-04",
+   "TDV_slug_CANLI": "meysur",
+   "madde_basligi": "MEYSÛR",
+   "muellif": "AZMİ ÖZCAN",
+   "baski_tarihi": "2004",
+   "govde_ham_kar": 94423,
+   "govde_metin_kar": 10694,
+   "SS4_2_DOGRU_MADDE_MI": "EVET — Meysur/Mysore ve Haydar Ali–Tipu Sultan donemi",
+   "govde_NE_VERIYOR": "AY (t ucu) · YIL (f ucu, ve BIR YIL AYRISIYOR)",
+   "alintilar": [
+    "\"1760 yılında … Haydar Ali Han Bahadır, Fransızlar'ın da yardımıyla Raca Rama hânedanını kontrolü altına aldı.\"",
+    "\"Haydar Ali'nin 1782'de ölümü üzerine … Feth Ali Tîpû Sultan …\"",
+    "\"…Seringapatam (Şirîrangapattanam) savaşında yenilerek muharebe meydanında öldü (Mayıs 1799).\""
+   ],
+   "kaynak_MEVCUT": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+   "kaynak_ONERILEN": "meysur — TDV maddesi olayları veriyor ama HASSASİYETİ DAHA KABA: t: için \"Mayıs 1799\" (GÜN yok), f: için \"1760 yılında\" (künye 1761). Gün ve yıl TDV'ye MAL EDİLEMEZ",
+   "not": "⚠️ IKI HASSASIYET NOTU, IKISI DE BILDIRIM: (a) kunye f:1761-01-01, TDV \"1760 yılında\" diyor — BIR YIL fark; (b) kunye t:1799-05-04 GUN tasiyor, TDV yalniz \"Mayıs 1799\" veriyor ⇒ gunun dayanagi TDV DEGIL. §4: kaynak ay diyorsa gun TDV'ye MAL EDILEMEZ. HUKUM VERMEDIM."
+  },
+  {
+   "id": "nube",
+   "ad": "Nûbe Krallıkları (Makurya-Alve)",
+   "f": "543-01-01",
+   "t": "1504-01-01",
+   "TDV_slug_CANLI": "nube",
+   "madde_basligi": "NÛBE",
+   "muellif": "NEBİ BOZKURT",
+   "baski_tarihi": "2007",
+   "govde_ham_kar": 100256,
+   "govde_metin_kar": 16056,
+   "SS4_2_DOGRU_MADDE_MI": "EVET — Nube bolgesi ve Hristiyan krallıkları",
+   "govde_NE_VERIYOR": "YALNIZ ANLATI (tarih YOK)",
+   "alintilar": [
+    "\"O sırada kuzeyde Dongola'da Makarra (Makuria) Devleti, güneyde Hartum'a yakın bir merkez olan Sûbâ'da ise Alve Devleti hüküm sürüyordu.\" → kunyenin IKI KRALLIGI da ADIYLA",
+    "\"…yüzyıl başlarında kurulan Func Sultanlığı bu şeyhliklerin büyük bir kısmını idaresi altında birleştirmeyi başardı.\""
+   ],
+   "kaynak_MEVCUT": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+   "kaynak_ONERILEN": "nube — TDV maddesi Makarra (Makuria) ve Alve devletlerini ADIYLA anıyor ama f:543 ve t:1504 tarihlerini VERMİYOR (§4 TANECİKLİK boşluğu); tarihler standart akademik kaynağa göredir",
+   "not": "⚠️ f:543 ve t:1504 govdede YOK. Madde iki kralligi ADIYLA aniyor ama TARIH vermiyor ⇒ §4 TANECIKLIK boslugu: TDV bolgeyi goruyor, o tarihlere inmiyor. Kaynak alani bunu ACIKCA yazmali."
+  }
+ ]
+}
