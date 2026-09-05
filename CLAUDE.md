@@ -5790,3 +5790,49 @@ ortalama parça  163 km² → 54 km²   (üçte bire düştü)
   cümlesi eksik — geometri **veri + kodun** fonksiyonu, ve 4b ile 5b
   arasında **R1 (kod)** değişti. Verinin de değişip değişmediği
   **ölçülmedi** ⇒ düşüş görülürse tamamı R1'e yazılamaz.
+
+- 🔴 **`mtime` BİR ÖLÇÜM DEĞİL BİR DAMGADIR — içerik değişmeden değişir.**
+  *(5 Eylül 2026 · `NEHİR SÜRTÜNME`, kendi tabanındaki kör noktayı bularak)*
+
+  R1 sınavının tabanı doğrulanırken bir dosya atlanmıştı:
+  `veri-kaynak/motor_kara.geojson`, ve `mtime`ı **5 Eyl 03:43** — yani
+  kıyas çapası olan koşu 4b'den (4 Eyl 16:56) **sonra.** Bir an *"640
+  tabanı iki koşunun çıktısını karıştırıyor"* göründü. Ölçüldü:
+```
+git status --porcelain   BOŞ
+boyut                    8.016.830 ↔ 8.016.830  BİREBİR
+son commit               0e7cb11 · 4 Eyl 17:15 "KOSU 4 INDI"
+```
+  ⇒ İçerik **4b'nin çıktısı**; koşu 5b onu yeniden yazmış ama **aynı
+  baytlarla.** Taban kirli değil.
+  📌 Bu, `§11`in *"log da bir çıktıdır ve o da bayatlar"* ailesinin
+  **tersi**: orada eski bir damga yeni sanılmıştı, burada **yeni bir
+  damga içeriğin değiştiğini sandırdı.** ⇒ Bir dosyanın tazeliği
+  `mtime`la değil **içerikle** (boyut · hash · `git status`) ölçülür.
+
+  🟢 **Ve ölçen oturum kendi önceki cümlesini damgaladı:** *"girdi
+  kayması elendi"* ifadesi o dosya için **yazıldığında dayanaksızdı**;
+  bugün dayanağı kondu ve sonuç değişmedi.
+  ⇒ ***Bir iddia DOĞRU ama DAYANAKSIZ olabilir, ve sonradan dayanak
+  bulmak onu geriye dönük olarak ÖLÇÜLMÜŞ yapmaz*** — yalnız bugünden
+  itibaren ölçülmüş yapar.
+
+- 🔴 **BİR KONTROL DEĞİŞKENİ SORULURKEN YANLIŞ EKSEN SEÇİLEBİLİR — ve
+  cevap "temiz" çıkarsa yanlış eksen hiç görünmez.** *(aynı tur ·
+  koordinatörün çekincesi)*
+
+  Koordinatör R1 kıyası için şunu sordu: *"geometri veri + kodun
+  fonksiyonu; **verinin** değişip değişmediği ölçülmedi."* Ölçüm:
+```
+VERİ  4b'den sonra değişen girdi dosyası   🟢 0   (iki bağımsız yolla)
+KOD   4b'den sonra inen motor commit'i     🔴 10  (233 satır)
+```
+  ⇒ Risk **kod tarafındaydı**, ve koordinatör onu *"R1 değişti"* diye
+  **tek bir commit** sanmıştı. Ölçen oturum onu da açtı: hunk
+  konumlarını `_pe_ozet=3615` çapasıyla izleyip **10'un 9'unun
+  geometriye dokunmadığını** gösterdi (R7 yalnız okuyup basıyor,
+  `PETEK_D`ye yazım yok; A2 kilit; ikisi rapor), ve `renkler.py`de
+  `BOYALAR`ı Python'a okutup **550↔550 · yeni kimlik 0 · yalnız 16 hex**
+  ölçtü ⇒ renk yeni gövde doğuramaz.
+  📌 *"Veri sabit mi"* doğru bir soruydu ama **tek başına** sorulunca,
+  cevabı `0` çıktığı için ***sorulmayan eksen hiç görünmeyecekti.***
