@@ -1,0 +1,247 @@
+{
+ "ust": {
+  "is": "SOZLESME BEYANI — bes daginik kunye (11 Latin Amerika BENDE DEGIL)",
+  "oturum": "KURE GORUNUM",
+  "sevk": "M-2875 (1.MURAT)",
+  "damga": "2026-09-05",
+  "cins": "ONERI — metin ONERILDI, YAZILMADI. data/devletler.js kosu 5b sonrasi TEK ELDEN inecek.",
+  "uygulayan": "KOORDINATOR / Oturum 0 — ben olcum oturumuyum, VERIYE DOKUNMADIM",
+  "dosya": "data/devletler.js",
+  "UYGULAMADAN_ONCE_OKU": [
+   "ozet_MEVCUT dizgileri VERIDEN uretildi (node + json), elle",
+   "kopyalanmadi — birebir eslesme icin oyle kullanilmali.",
+   "Uygulama TEK ALAN degistirir: `ozet`. Baska hicbir alan DEGIL.",
+   "Ozellikle `t:` DEGISMEZ — bu bir pencere acma isi DEGIL, bir",
+   "BEYAN isi. Kunyeler 1923-10-29'da kalir."
+  ],
+  "KAPSAM_UYARISI": [
+   "11 Latin Amerika kunyesi BENDE DEGIL — `1923 SINIRLARI` oturumuna",
+   "verildi (M-2875 ③). Bu dosya YALNIZ bes daginik kunyeyi kapsar."
+  ]
+ },
+ "A_ONERILER": [
+  {
+   "id": "almanya",
+   "ad": "Kutsal Roma / Almanya",
+   "f": "962-02-02",
+   "t": "1923-10-29",
+   "harita": "almanya",
+   "bicim": "OZEL METIN",
+   "ozet_MEVCUT": "Alman dünyasının çatı yapısı: 1806'ya dek Kutsal Roma İmparatorluğu, 1871'den sonra Prusya önderliğinde Alman İmparatorluğu; I. Dünya Savaşı'nda Osmanlı'nın müttefiki.",
+   "ozet_ONERILEN": "Alman dünyasının çatı yapısı: 1806'ya dek Kutsal Roma İmparatorluğu, 1871'den sonra Prusya önderliğinde Alman İmparatorluğu; I. Dünya Savaşı'nda Osmanlı'nın müttefiki. Künyenin bitişi atlasın ufkudur, çatının sonu DEĞİL (1923 sonrasında da sürdü).",
+   "eklenen_EK": " Künyenin bitişi atlasın ufkudur, çatının sonu DEĞİL (1923 sonrasında da sürdü).",
+   "gerekce": [
+    "Kunye bir CATI YAPISI: 'Kutsal Roma / Almanya', f:962-02-02.",
+    "`son` kaydi 1918-11-11 CATININ degil ICINDEKI REJIMIN sonu —",
+    "bu yuzden duz parantez YETMEZ, ayrimi METIN yapmali.",
+    "TDV `almanya` govdesi teyit ediyor: Weimar donemi 1919'da basliyor",
+    "ve 1933'e kadar suruyor ('Hitler'in iktidari ele aldigi 1933'e kadar",
+    "surecek olan Weimar donemi basladi').",
+    "ACIK UCLU birakildi: Almanya bugun de var."
+   ]
+  },
+  {
+   "id": "yemen-zeydi",
+   "ad": "Yemen Zeydî İmamlığı",
+   "f": "897-01-01",
+   "t": "1923-10-29",
+   "harita": "yemen",
+   "bicim": "TARIHLI",
+   "ozet_MEVCUT": "Osmanlı hâkimiyeti iki kesik dönemde yaşandı (1517-1636, 1849-1918); aradaki 200 yıl fiilen bağımsız imamlık.",
+   "ozet_ONERILEN": "Osmanlı hâkimiyeti iki kesik dönemde yaşandı (1517-1636, 1849-1918); aradaki 200 yıl fiilen bağımsız imamlık. (1923 sonrasında da sürdü, 1962'ye dek).",
+   "eklenen_EK": " (1923 sonrasında da sürdü, 1962'ye dek).",
+   "gerekce": [
+    "🆕 BU KUNYE SEVKTE TARIHLI SAYILMAMISTI — olcum ekledi.",
+    "TDV `yemen` govdesi Zeydi Imameti'nin sonunu ACIKCA veriyor:",
+    "'284'te (897) Sa'de'ye gelip bazi inkitalarla birlikte hakimiyetini",
+    "1962 yilina kadar devam ettiren ... Zeydi Imameti'.",
+    "Kunyenin f:897-01-01 degeri de AYNI cumleden dogrulaniyor.",
+    "⇒ Duz parantez yerine TARIHLI bicim.",
+    "TDV GUN VERMIYOR, YIL veriyor ⇒ metne YIL yazildi (§4)."
+   ]
+  },
+  {
+   "id": "afganistan",
+   "ad": "Afganistan (Bârekzâyî Emirliği)",
+   "f": "1823-01-01",
+   "t": "1923-10-29",
+   "harita": "afganistan",
+   "bicim": "DUZ PARANTEZ",
+   "ozet_MEVCUT": "Dürrânî Devleti'nin dağılmasından sonra Bârekzâyî hânedanı Kâbil'de emirliği kurdu; yüzyıl boyunca İngiltere ile Rusya arasında tampon devlet oldu ve 1919'da tam bağımsızlığını kazandı.",
+   "ozet_ONERILEN": "Dürrânî Devleti'nin dağılmasından sonra Bârekzâyî hânedanı Kâbil'de emirliği kurdu; yüzyıl boyunca İngiltere ile Rusya arasında tampon devlet oldu ve 1919'da tam bağımsızlığını kazandı. (1923 sonrasında da sürdü).",
+   "eklenen_EK": " (1923 sonrasında da sürdü).",
+   "gerekce": [
+    "TDV `afganistan` govdesi 1919 tam bagimsizligi veriyor",
+    "(Emanullah Han · 8 Agustos 1919 Ravalpindi) — kunye ile uyumlu.",
+    "DUZ PARANTEZ: devlet acik uclu surdu.",
+    "🔴 'Emirlik 1926'da KRALLIGA donustu' notunu ONERMIYORUM:",
+    "TDV govdesi bunu VERMIYOR (1926 yalniz bir vefat yilinda geciyor,",
+    "'krallik'/'Emanullah' kelimeleri govdede YOK). Bu benim genel",
+    "tarih bilgimdi, KAYNAKLI DEGIL — ayri bir kapsam kalemi olarak",
+    "birakiyorum, beyana KARISTIRILMASIN."
+   ]
+  },
+  {
+   "id": "mogolistan",
+   "ad": "Moğolistan (Bogd Hanlık)",
+   "f": "1911-12-29",
+   "t": "1923-10-29",
+   "harita": "mogolistan",
+   "bicim": "TARIHLI",
+   "ozet_MEVCUT": "Qing'in çöküşüyle Dış Moğolistan Bogd Han önderliğinde muhtariyetini ilân etti; 1919-1921 arasında Çin işgali ve iç savaşın ardından 1921'de bağımsızlığını kazandı. TDV kapsamı dışında (Doğu Asya), standart akademik kaynağa göre yazıldı. ⚠️ TDV'nin `mogolistan` maddesi Çağatay sonrası MOĞULİSTAN'ı anlatır, modern Moğolistan'ı değil.",
+   "ozet_ONERILEN": "Qing'in çöküşüyle Dış Moğolistan Bogd Han önderliğinde muhtariyetini ilân etti; 1919-1921 arasında Çin işgali ve iç savaşın ardından 1921'de bağımsızlığını kazandı. TDV kapsamı dışında (Doğu Asya), standart akademik kaynağa göre yazıldı. ⚠️ TDV'nin `mogolistan` maddesi Çağatay sonrası MOĞULİSTAN'ı anlatır, modern Moğolistan'ı değil. (1923 sonrasında da sürdü, 26 Kasım 1924'e dek).",
+   "eklenen_EK": " (1923 sonrasında da sürdü, 26 Kasım 1924'e dek).",
+   "gerekce": [
+    "TDV `mogolistan` govdesi: 'Cebtsun Damba Hutuhtu'nun olumunden",
+    "sonra 26 Kasim 1924'te Mogolistan Halk Cumhuriyeti ilan edildi.'",
+    "Kunye adi 'Bogd Hanlik' ve kunye O YAPIYI tarif ediyor",
+    "(f:1911-12-29) ⇒ yapinin sonu 1924, TARIHLI bicim.",
+    "TDV GUNU VERIYOR ⇒ gun yazildi.",
+    "⚠️ TDV 'Bogd' kelimesini HIC kullanmiyor, ayni kisiyi 'Cebtsun",
+    "Damba Hutuhtu' diye aniyor — ad varyanti, tarihi etkilemiyor."
+   ]
+  },
+  {
+   "id": "somali",
+   "ad": "Somali Sultanlıkları",
+   "f": "1500-01-01",
+   "t": "1923-10-29",
+   "harita": "somali",
+   "bicim": "TARIHLI",
+   "ozet_MEVCUT": "Adal'ın çöküşünden sonra Somali kıyısında ardı ardına ortaya çıkan sultanlıklar (Ecuran/Ajuran, sonra Migiurtinia ve Hobyo); 20. yüzyıl başında İtalyan sömürgeciliğiyle sona erdi. TDV'de ayrı maddesi yok; tarihler standart akademik kaynaklara göredir, kesinlik düşük.",
+   "ozet_ONERILEN": "Adal'ın çöküşünden sonra Somali kıyısında ardı ardına ortaya çıkan sultanlıklar (Ecuran/Ajuran, sonra Migiurtinia ve Hobyo); 20. yüzyıl başında İtalyan sömürgeciliğiyle sona erdi. TDV'de ayrı maddesi yok; tarihler standart akademik kaynaklara göredir, kesinlik düşük. (1923 sonrasında da sürdü, 1927'ye dek).",
+   "eklenen_EK": " (1923 sonrasında da sürdü, 1927'ye dek).",
+   "gerekce": [
+    "TDV `somali` govdesi: 'Ulkenin ic kisimlarinda hukum suren",
+    "Macerteyn ve Obbia emirliklerine ait topraklar ise 1927'de",
+    "Italyanlar tarafindan isgal edildi.'",
+    "Kunyenin adlandirdigi sultanliklarin ta kendisi (kunye",
+    "'Migiurtinia ve Hobyo' yaziyor; TDV 'Macerteyn ve Obbia').",
+    "⇒ Kunyenin kendi 'ozet'indeki '20. yuzyil basinda sona erdi'",
+    "ifadesi de boylece TARIHLENIYOR: 1927.",
+    "TDV GUN VERMIYOR, YIL veriyor ⇒ metne YIL yazildi (§4)."
+   ]
+  }
+ ],
+ "B_SEVKTEN_SAPMA": {
+  "baslik": "SEVK IKI TARIHLI KAYIT BEKLIYORDU — OLCUM UC BULDU",
+  "sevk_dedi": "mogolistan TARIHLI beyani hak ediyor; somali'nin yili sorulmali",
+  "olcum_buldu": [
+   "mogolistan  TARIHLI  26 Kasim 1924   (TDV, GUN veriyor)",
+   "somali      TARIHLI  1927            (TDV, YIL veriyor)",
+   "yemen-zeydi TARIHLI  1962            (TDV) <- SEVKTE YOKTU"
+  ],
+  "yemen_nicin": [
+   "Onceki raporumda `yemen-zeydi`yi 'duz parantez' kovasina koymustum.",
+   "TDV `yemen` govdesi okununca sonu ACIKCA cikti: Zeydi Imameti",
+   "hakimiyetini '1962 yilina kadar devam ettiren'. Kendi kovamı",
+   "DUZELTTIM."
+  ],
+  "ve_bir_kalem_KUCULDU": [
+   "afganistan icin 'emirlik 1926'da KRALLIGA donustu' diye bir kapsam",
+   "notu onermistim. TDV govdesi bunu DESTEKLEMIYOR — 'krallik' ve",
+   "'Emanullah' kelimeleri govdede YOK, 1926 yalniz bir vefat yilinda",
+   "geciyor. O not BENIM GENEL BILGIMDI, kaynakli DEGIL.",
+   "⇒ Onermiyorum. §11: olcmedigini 'olcmedim' diye yaz."
+  ]
+ },
+ "C_KAYNAK_ALANI_YANLIS_IKI_KUNYE": {
+  "baslik": "🔴 AYRI VE DAHA AGIR BIR BULGU — 'bulunamadi' damgasi YANLIS",
+  "aciklama": [
+   "Iki kunyenin `kaynak` alani TDV'de madde OLMADIGINI beyan ediyor.",
+   "Ikisi de YANLIS: sluglar 200 DONUYOR, govdeler DOGRU KONUYU",
+   "anlatiyor, ve tam aradigim tarihleri VERIYORLAR.",
+   "§4: 'yanlis damga hatayi KALICILASTIRIR' — bir sonraki oturumu",
+   "aramaktan alikoyar. Bu iki damga tam onu yapmis."
+  ],
+  "vakalar": [
+   {
+    "id": "mogolistan",
+    "kaynak_MEVCUT": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+    "kunyenin_UYARISI": "TDV'nin `mogolistan` maddesi Cagatay sonrasi MOGULISTAN'i anlatir, modern Mogolistan'i degil",
+    "OLCUM": [
+     "HTTP 200 · ham 117.538 kar. · metin 22.462 kar.",
+     "'Cagatay' ve 'Mogulistan' kelimeleri govdede SIFIR kez geciyor.",
+     "Govde MODERN MOGOLISTAN'i anlatiyor: 1911 ozerklik ilani,",
+     "1919 Cin isgali (Urga), Subat 1921 Ungern-Sternberg,",
+     "Mart 1921 Mogol Halk Partisi, 26 Kasim 1924 Halk Cumhuriyeti,",
+     "1924-1945 Cin hakimiyeti, bugunku Ulan Batur nufusu.",
+     "⇒ KUNYENIN UYARISI CURUDU."
+    ],
+    "ONERI": "kaynak: \"mogolistan\"  (ve uyari cumlesi ozet'ten CIKARILMALI)"
+   },
+   {
+    "id": "somali",
+    "kaynak_MEVCUT": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+    "OLCUM": [
+     "HTTP 200 · ham 128.301 kar. · metin 29.337 kar.",
+     "TDV `somali` maddesi VAR ve kunyenin konusunu kapsiyor:",
+     "'Somali'nin kuzeyinde hukum suren Macerteyn Sultanligi XIX...'",
+     "'... Macerteyn ve Obbia emirliklerine ait topraklar ise 1927'de",
+     "Italyanlar tarafindan isgal edildi.'",
+     "⇒ 'TDV'de mustakil maddesi yok' beyani CURUDU."
+    ],
+    "NICIN_KACIRILMIS_OLABILIR": [
+     "TURKCE YAZIM EKSENI (§4): kunye 'Migiurtinia' ve 'Hobyo'",
+     "yaziyor; TDV 'Macerteyn' ve 'Obbia' diyor. Bir arama",
+     "kunyenin yazimiyla yapildiysa govdede HICBIR SEY bulmaz.",
+     "🔵 Bu bir TAHMIN — o aramanin nasil yapildigini OLCMEDIM."
+    ],
+    "ONERI": "kaynak: \"somali\""
+   }
+  ],
+  "damga": "Bu iki kalem BEYAN isinden AYRIDIR ve ondan onceliklidir; ayni satirda uygulanmasi ZORUNLU DEGIL."
+ },
+ "D_SOMALI_BIRLESTIRME": {
+  "baslik": "AYNI KUNYEYE IKI ONERI GITMESIN — sevk ② geregi birlestirildi",
+  "🔴_SAHIP_DUZELTMESI": [
+   "Sevk `f:` onerisinin `KRONOLOJI BOS KUNYE`den geldigini yaziyor.",
+   "OLCTUM: kaynak `denetim/BULGU-SOMALI-KALAN-0905.md` ve basligi",
+   "'Oturum NEHIR SURTUNME · sevk 1.MURAT M-2848 ④ · 5 Eylul 2026'.",
+   "⇒ Oneri NEHIR SURTUNME'nin. Yanlis atif kayda gecmesin (§11:",
+   "'bir bulgunun sahibi, bulgunun kendisi kadar kayittir')."
+  ],
+  "ayni_kunyeye_giden_UC_kalem": [
+   {
+    "kalem": "f: 1500-01-01 -> 1281-01-01",
+    "sahibi": "NEHIR SURTUNME (M-2848 ④)",
+    "gerekce": "26 donem kunyenin baslangicindan ONCE `somali` kullaniyor; 4d 467 -> 441",
+    "ONUN_UYARISI": "renk_olc.py etkisi OLCULMEDI — pencere genislemesi YENI komsuluk cifti dogurabilir (§9). Bu olculmeden uygulanmamali."
+   },
+   {
+    "kalem": "ozet sonuna \" (1923 sonrasında da sürdü, 1927'ye dek).\"",
+    "sahibi": "KURE GORUNUM (bu dosya)",
+    "gerekce": "sozlesme beyani eksik; TDV 1927 veriyor"
+   },
+   {
+    "kalem": "kaynak: \"bulunamadı — ...\" -> \"somali\"",
+    "sahibi": "KURE GORUNUM (bu dosya)",
+    "gerekce": "TDV maddesi VAR ve konuyu kapsiyor (C bolumu)"
+   }
+  ],
+  "CAKISMA_VAR_MI": "YOK — uc kalem UC AYRI ALANA dokunuyor (f · ozet · kaynak). Tek dokunusta birlikte inebilirler.",
+  "SIRA_ONERISI": [
+   "1) kaynak + ozet  (metin, risksiz, kosu gerektirmez)",
+   "2) f: 1281'e cekme — ONCE NEHIR SURTUNME'nin uyardigi renk_olc",
+   "   olcumu yapilsin. Ben o olcumu YAPMADIM."
+  ]
+ },
+ "E_DAMGALAR": [
+  "🟢 OLCTUM   5 kunyenin TDV govdesi TEK TEK okundu (ham boyutlariyla)",
+  "🟢 OLCTUM   3 tarih TDV'den ALINDI: 1962 (yemen) · 26 Kasim 1924",
+  "            (mogolistan, GUN) · 1927 (somali). Hicbiri uretilmedi.",
+  "🔴 CURUTTUM iki kunyenin 'TDV'de madde yok' beyani — ikisi de 200 ve",
+  "            ikisi de DOGRU konuyu anlatiyor",
+  "🔴 CURUTTUM kendi onceki kovamı: yemen-zeydi 'duz parantez' degil TARIHLI",
+  "🔴 GERI CEKTIM afganistan 'emirlik->krallik 1926' notunu — TDV govdesi",
+  "            DESTEKLEMIYOR, benim genel bilgimdi",
+  "🔴 DUZELTTIM somali f: onerisinin sahibi: KRONOLOJI BOS KUNYE degil,",
+  "            NEHIR SURTUNME (M-2848 ④)",
+  "⚪ OLCMEDIM somali'yi 1281'e cekmenin renk_olc etkisini (NEHIR",
+  "            SURTUNME'nin uyarisi ayakta)",
+  "⚪ OLCMEDIM mogolistan/somali kaynak damgalarinin NICIN yanlis",
+  "            konuldugunu — yazim ekseni bir TAHMIN, olculmedi",
+  "🔵 OKUMADIM govdelerin TAMAMINI — anahtar kelime cevresi okundu",
+  "🔴 YAZMADIM hicbir `ozet` alanini. Bu dosya bir ONERIDIR."
+ ]
+}
