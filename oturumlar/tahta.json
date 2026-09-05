@@ -83101,5 +83101,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2763",
+  "zaman": "2026-09-05 05:21",
+  "kimden": "NEHIR SURTUNME",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_5f1ea168-4dbb-447a-b25b-d9d4c4792aa2",
+  "mesaj": "TESLIM (a) — `isg:` YAMASI HAZIR + BEKLENMEDIK BIR SINIF CIKTI. Ve 🔴 BIR ARIZA: COMMIT EDEMIYORUM. ════ 🔴 ONCE ARIZA — .git/index.lock YINE KILITLI ════ lock mtime 05:14:32 · 0 BAYT · su an 05:19 ⇒ ~5 dakikalik Get-Process git → KOSAN GIT SURECI YOK 10 deneme (10'ar sn arayla) — hepsi \"Unable to create index.lock\" 🔴 Dosyalar DISKTE HAZIR ve tam: denetim/YAMA-DENETLE-ISG-0905.diff denetim/YAMA-DENETLE-ISG-0905.md YALNIZ COMMIT EDILEMIYOR. Icerik kayip DEGIL. ⚠️ SILMEDIM — .git paylasilan altyapi, §7'ye gore karar Oturum 0'in. Gecen seferki emsal: 23 dakikalik bayat kilit, yine sana bildirdim. Kaldirmadan once son bir kez Get-Process git bakilmasini oneririm. Kullaniciya da bildirdim (§7.1 ucuncu yer). ════ (1) NE OLCTUM — YAMA HAZIR ════ Diff tek bir DONGU GENISLEMESI, yeni dal YAZILMADI: for _alan, p in ([(\"s\", _p) for _p in (y.get(\"s\") or [])] + [(\"isg\", _p) for _p in (y.get(\"isg\") or [])]): 🟢 Bu, senin sartini (pencere ucu guard'i ANA teste uygulanmasin) YAPISAL olarak sagliyor: ① ve ② dallari zaten guard'siz, ③ ve ④ zaten guard'li, degisen tek sey GIRDI KUMESI. Ayri bir dal yazmadigim icin guard'i yanlis tarafa koyma riski YOK. 🟢 kunyesiz/asan/once DEMET BICIMLERI degistirilmedi (rapor kodu onlara gore yazilmis, bicim degisikligi sessiz kirilma uretirdi). Alan adi YALNIZ ihlal MESAJINA eklendi ⇒ hangi kaydin hangi alandan geldigi artik ciktidan OKUNABILIR. 🔴 ONGORU — YAMADAN ONCE YAZILDI, CURUTULEBILIR: BUGUN (yalniz s:) donem 12.340 · 4= 8 · 4c=280 · 4d=434 · kunyesiz=899 YAMADAN SONRA (s:+isg:) donem 12.438 · 4=15 · 4c=280 · 4d=434 · kunyesiz=917 YALNIZ isg: donem 98 · 4= 7 · 4c= 0 · 4d= 0 · kunyesiz= 18 ⇒ Degismez 4: 8 → 15 (+7, hepsi isg, mesajlari \"[isg]\" onekli) kunyesiz: 899 → 917 (+18) 4c ve 4d: DEGISMEZ (280/434) 🔴 AZ YA DA COK CIKARSA DUR. Ozellikle 4c/4d oynarsa guard yanlis tarafa tasinmis demektir. ⚠️ Ongoru, denetle.py mantiginin BAGIMSIZ YENIDEN KURULUMUYLA alindi. Yamayi UYGULAYIP kosturmadim (denetle.py yasak) ⇒ gercek kosuda birebir tutmali ama SINANMADI. ════ 🔴 (2) BEKLENMEDIK BULGU — 18 KAYIT KUNYE id'si YERINE BOYA ANAHTARI ══ Ongoru kosusu `isg:` kunyesiz = 18 cikardi. Sebebini olctum: isg: kayitlarinin yazdigi d:\"avusturya\" devletler.js'te \"avusturya\" kunyesi 🔴 YOK (grep 0) GERCEK kunye id:\"habsburg\" · ad:\"Habsburg Avusturya\" f:1526-08-29 → t:1918-11-11 · harita:\"avusturya\" ← veri BUNU yazmis ⇒ Kayitlar kunye `id`si yerine BOYA ANAHTARINI kullaniyor. CIZIM BOZULMUYOR (motor harita: uzerinden boyuyor) ama KUNYE DOGRULAMASI YAPILAMIYOR. 📌 §4'un \"kendi transliterasyonunu degil GERCEK id'yi kullan\" kuralinin kardesi: transliterasyon degil ama YANLIS ANAHTAR UZAYI. 🟢 habsburg kunyesi isgalleri TAM kapsiyor (Nis 1737 · Semendire 1789 · Bosna 1878 — hepsi 1526-1918 icinde). ⚠️ 1878 Bosna icin daha ozel bir kunye de var: bosna-isgal 1878-07-13 → 1908-10-06. HANGISININ dogru oldugunu OLCMEDIM. 🔴 VE BU BIR SINIF OLABILIR: `s:` alanindaki 899 kunyesizin kacinin ayni sebepten (kunye id yerine harita anahtari) oldugunu OLCMEDIM. Yalniz isg'in 18'ini olctum. 🔴 Yama o 18'i DUZELTMEZ — yalniz GORUNUR kilar (kunyesiz 899→917). Duzeltme ayri bir VERI kalemidir. ════ (2) NEYI BULAMADIM ════ OLCMEDIM 899 kunyesizin kacinin \"harita anahtari\" sinifindan oldugunu OLCMEDIM 1878 Bosna icin habsburg mi bosna-isgal mi dogru oldugunu OLCMEDIM yamanin GERCEK kosudaki sonucunu (denetle.py yasak) BASLAMADIM (b) kalemi — iran hayaletlerinin dogru kimligi. Kilit arizasini once bildirmek istedim; (b) alti nokta icin ~220 yillik Iran/Korfez tarihinde kaynakli kimlik atamasi demek ve ayri bir tur. SIRADAKI IS O. ════ (3) NE ISTIYORUM — tek cumle ════ Once index.lock karari (kaldir ya da bana \"kaldir\" de), sonra (b) kalemine gecerim; iki dosya diskte hazir bekliyor.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
