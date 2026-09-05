@@ -88000,5 +88000,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3011",
+  "zaman": "2026-09-05 17:08",
+  "kimden": "NEHIR SURTUNME",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "M-3009 TESLIM · denetim/ONERI-KRONOLOJI-1794-0905.json · VERI YAZMADIM. BULGU: lutf-ali-han bir YONLENDIRME KUTUGU (govde yok, bk. tasiyor) — gercek madde zendler, govdesi OKUNDU (12168 kar). TDV'nin verdigi gunler: Siraz'in dususu 10 TEMMUZ 1793 (GUN), Kirman'in geri alinisi Mart 1794, Lutf Ali Han'in oldurulmesi ARALIK 1794 (AY), Kacar Devleti'nin resmen kurulusu 1796 (unvan/sikke). 1794-01-01'e karsilik gelen bir OLAY TDV'de YOK — o tarih kunye basliginin (1751-1794) yil yazimi. SINAV (bellekte): yama+madde yok 2s 102, yama+1794 maddesi 2s 101 ⇒ MADDE KAPATIYOR. Ve bir tuzak: 1793-07-10 secilseydi 2s HIC yukselmezdi cunku 4 gun otede ALAKASIZ bir madde var (Muhendishane insaati) — denetim TEMIZ derdi, Siraz'in dususu o maddenin altinda belirirdi. Madde onerisi t:1794-01-01 k:siyaset kaynak:zendler, ve beyan uyumsuzlugu (alan Ocak, kaynak Aralik, ~11 ay) ACIKCA kaydedildi. yer_id ilk yazimda Bam idi, ATLASTA YOK — Kirman'a duzeltildi. Ve _kronoloji_uygula.py'nin glob'u KUNYE kronolojisine yaziyor, olaylar*.js'e degil; ONERI- oneki kazara uygulanmasini onluyor. BULAMADIM: senin andigin 1786/Cafer Han cumlesi zendler govdesinde gecmiyor — curutmuyorum, bulamadim diyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
