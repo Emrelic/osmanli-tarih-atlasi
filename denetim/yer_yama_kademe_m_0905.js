@@ -29,6 +29,16 @@
 // 🔵 `donem:` alani TASINMADI. Kademe yamasi her kayit icin gecerli
 //    pencereleri de veriyor (`kd:[{f,t,k,m}]` bicimi, canlida 192
 //    kayit) ama hicbir alet bir yamadan `kd:`ye yazmiyor. ACIK BORC.
+//
+// 🔴 DUSURULEN KAYIT — 24 -> 23
+//    Knin: 1.MURAT hukmu (M-3041): `m` YAZILMAYACAK, kayit yamadan DUSURULDU. Gerekce: TDV `klis` "
+//       1580'de Bosna vilâyeti tesis edildiginde Klis sancagi IKIYE AYRILDI ve KUZEYBATISI KIR
+//       KA ADIYLA BOSNA VILAYETINE BAGLANDI" diyor, ve yamanin kendi gerekcesi Knin'i O KESIME
+//        koyuyor; yamanin penceresi 1522-1688, yani 1580'i ASIYOR. `m:`nin ZAMAN BOYUTU YOK (D
+//       egismez 3'un bilinen kusuru) ⇒ "1580'e kadar Klis" IFADE EDILEMIYOR. Kaynagin celiskiy
+//       e isaret ettigi 108 yil icin m:Klis yazmak, modelin soyleyemedigini YANLIS SOYLEMEKTIR
+//       . `Ammarogullari` hukmuyle ayni: MODEL IFADE EDEMIYORSA VERI SUSAR. (`Knin` TDV `klis`
+//        govdesinde 0 kez geciyor.)
 // ---------------------------------------------------------------
 window.YER_YAMA_KADEME_M_0905 = [
  { ad:"Ahar (Karadağ)", m:"Tebriz",
@@ -58,9 +68,6 @@ window.YER_YAMA_KADEME_M_0905 = [
  { ad:"Kerene", m:"Sevâkin",
    kaynak:"bulunamadı — kademe yamasından DEVRALINDI (data/yer_yama_kademe.js, guven:HUKUM). Gerekçe: Eritre'de kasaba; Mısır idaresi 1872-1884. TDV'de müstakil madde YOK.",
    neden:"`m:` NULL idi; `oneri.m`=\"Sevâkin\" kademe yamasında duruyordu ve hiçbir alet onu taşımıyordu (izdüşüm yalnız `.k` alıyor). Aynı yamanın `k:4` yarısı ZATEN inmiş (canlı k:4). Geçerli pencereler: 1872-01-01..1884-06-03 — `kd:` olarak YAZILAMADI, açık borç.  ||  ⚪ DEVRALDIM — kaynağa SORULMADI (beş örneklik yoklamanın dışında kaldı)." },
- { ad:"Knin", m:"Klis",
-   kaynak:"TDV klis — kademe yamasından DEVRALINDI (data/yer_yama_kademe.js, guven:GEREKCELI). Gerekçe: 1580'de Klis sancağı ikiye ayrıldı, kuzeybatısı Kırka adıyla Bosna vilâyetine bağlandı; Knin o kesimde. TDV'de Knin adı GEÇMİYOR (arandı).",
-   neden:"`m:` NULL idi; `oneri.m`=\"Klis\" kademe yamasında duruyordu ve hiçbir alet onu taşımıyordu (izdüşüm yalnız `.k` alıyor). Aynı yamanın `k:3` yarısı ZATEN inmiş (canlı k:3). Geçerli pencereler: 1522-05-29..1688-09-11 — `kd:` olarak YAZILAMADI, açık borç.  ||  🔴 SINANDI — GEREKCE KENDI SONUCUNU ZAYIFLATIYOR. Cumle birebir dogru: \"1580'de Bosna vilâyeti tesis edildiğinde Klis sancağı ikiye ayrıldı ve KUZEYBATISI KIRKA ADIYLA BOSNA VILÂYETINE BAĞLANDI\" — ve gerekcenin kendisi Knin'i O KESIME koyuyor. Yamanin penceresi 1522-1688, yani 1580'i ASIYOR ⇒ 1580 SONRASI icin m:Klis tartismali. `Knin` govdede 0 kez geciyor. KARAR GEREK." },
  { ad:"Kuba", m:"Derbend",
    kaynak:"TDV sirvan — kademe yamasından DEVRALINDI (data/yer_yama_kademe.js, guven:GEREKCELI). Gerekçe: \"Kuzeyde merkezi Demirkapı/Derbend olan Derbend eyaleti ... Derbend yedi sancağa ayrıldı.\" Kuba o eyaletin kuzey kesiminde.",
    neden:"`m:` NULL idi; `oneri.m`=\"Derbend\" kademe yamasında duruyordu ve hiçbir alet onu taşımıyordu (izdüşüm yalnız `.k` alıyor). Aynı yamanın `k:3` yarısı ZATEN inmiş (canlı k:3). Geçerli pencereler: 1583-01-01..1607-01-01 — `kd:` olarak YAZILAMADI, açık borç.  ||  🟡 SINANDI, KISMEN — cumle DOGRU (\"Kuzeyde merkezi Demirkapı/Derbend olan Derbend eyaleti\") ama KUBA O CUMLEDE YOK ve Osmanli kontrolune giren yerler listesinde de YOK. Govdedeki Kuba gecisleri 1719/1758, yani yamanin penceresinin (1583-1607) DISINDA. Atama bir COGRAFI CIKARIM — kaynak onu adiyla desteklemiyor." },
@@ -99,7 +106,7 @@ window.YER_YAMA_KADEME_M_0905 = [
    neden:"`m:` NULL idi; `oneri.m`=\"Kassa (Košice)\" kademe yamasında duruyordu ve hiçbir alet onu taşımıyordu (izdüşüm yalnız `.k` alıyor). Aynı yamanın `k:4` yarısı ZATEN inmiş (canlı k:4). Geçerli pencereler: 1682-09-16..1685-10-15 — `kd:` olarak YAZILAMADI, açık borç.  ||  ⚪ DEVRALDIM — kaynağa SORULMADI (beş örneklik yoklamanın dışında kaldı)." },
  { ad:"Zagem (Kaheti)", m:"Tiflis",
    kaynak:"TDV gurcistan — kademe yamasından DEVRALINDI (data/yer_yama_kademe.js, guven:GEREKCELI). Gerekçe: \"Gürcistan üç krallığa (Kartliya, Kahetya, İmeretiya) ... ayrıldı.\" Tiflis eyaletinin dört sancağı (Gori·Tiflis·Tumanıs·Lori) sayılıyor, Kaheti bunların İÇİNDE DEĞİL ⇒ tâbi krallık merkezi.",
-   neden:"`m:` NULL idi; `oneri.m`=\"Tiflis\" kademe yamasında duruyordu ve hiçbir alet onu taşımıyordu (izdüşüm yalnız `.k` alıyor). Aynı yamanın `k:3` yarısı ZATEN inmiş (canlı k:3). Geçerli pencereler: 1578-08-09..1606-01-01 — `kd:` olarak YAZILAMADI, açık borç.  ||  🔴 SINANDI — DOGRU HUKUM, YANLIS GEREKCE. Gerekce \"Kaheti Tiflis eyaletinin dort sancagi ICINDE DEGIL ⇒ tâbi krallik\" diyor; TDV `gurcistan` ise \"KARTLI VE KAHET TIFLIS EYALETI HALINE GETIRILDI\" diyor. Yani m:Tiflis DAHA DA saglam, ama dayanagi CURUK. ⚠️ Ve `k:3` (tâbi krallik merkezi) TAM O CURUYEN yariya dayaniyor — `k` ZATEN INMIS durumda, ayri bir kalem." },
+   neden:"`m:` NULL idi; `oneri.m`=\"Tiflis\" kademe yamasında duruyordu ve hiçbir alet onu taşımıyordu (izdüşüm yalnız `.k` alıyor). Aynı yamanın `k:3` yarısı ZATEN inmiş (canlı k:3). Geçerli pencereler: 1578-08-09..1606-01-01 — `kd:` olarak YAZILAMADI, açık borç.  ||  🟢 SINANDI — VE ILK HUKMUM GERI ALINDI (M-3045). Once \"dogru hukum, curuk gerekce\" demistim; dayanagim TDV'nin \"Kartli ve Kahet Tiflis eyaleti haline getirildi\" cumlesiydi ve O CUMLENIN BIR ONCESINI OKUMAMISTIM: \"Kahet yoneticileri … HARACA BAGLANDILAR. Kahet ulkesi OCAKLIK OLARAK … Alexandre'a birakildi.\" Iki cumle AYNI ANI (Agustos 1578) anlatiyor ve CELISMIYOR ⇒ gerekce DOGRU, m:Tiflis DOGRU. Veri de ayni gunle teyit ediyor: v:[{1578-08-09 → 1606-01-01, \"Kaheti kralligi (tâbi)\"}]. ⚠️ `k:3` ayri bir kalem: `k` sozlugunde TABI POLITY kategorisi YOK ve kulliyat ayni sinifa dort cevap veriyor (M-3045)." },
  { ad:"Şakrâ", m:"Medine",
    kaynak:"TDV necid + TDV medine — kademe yamasından DEVRALINDI (data/yer_yama_kademe.js, guven:GEREKCELI). Gerekçe: TDV necid alt bölge listesinde \"Veşm\" geçiyor; Şakrâ oradadır. Kademe verilmiyor. `sakra` slugu ÖLÜ.",
    neden:"`m:` NULL idi; `oneri.m`=\"Medine\" kademe yamasında duruyordu ve hiçbir alet onu taşımıyordu (izdüşüm yalnız `.k` alıyor). Aynı yamanın `k:4` yarısı ZATEN inmiş (canlı k:4). Geçerli pencereler: 1818-09-09..1824-06-01 — `kd:` olarak YAZILAMADI, açık borç.  ||  ⚪ DEVRALDIM — kaynağa SORULMADI (beş örneklik yoklamanın dışında kaldı)." },
