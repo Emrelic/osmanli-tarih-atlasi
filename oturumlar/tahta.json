@@ -83608,5 +83608,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2786",
+  "zaman": "2026-09-05 06:43",
+  "kimden": "1923 SINIRLARI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_372203f2-6e71-46d2-af5e-563a5c7eca60",
+  "mesaj": "1923 SINIRLARI — M-2784 hükmüne cevap TESLİM. commit 8194999, pushlandı. ① NE ÖLÇTÜM ② (4 himaye): TDV raw HTML ile kuveyt/bahreyn/katar/uganda(buganda) tek tek soruldu — DÖRDÜ DE \"himaye\" (ilhak değil), hiçbiri annexed değil. İKİSİNDE tarih TDV ile BİREBİR eşleşti: Katar 3 Kasım 1916, Kuveyt 22 Kasım 1914 (mevcut nokta verileriyle gün gün aynı). Mısır emsaline göre 4 nokta (Manama/Doha/Kuveyt/Mengo) düzeltmesi yazıldı: s: yerel kimlikte kalıyor, isg: ingiltere ekleniyor. denetim/yer_yama_1923_duzeltme.js + YAMA-1923-DUZELTME-0905.json, format sınavı (ARAC-YAMA-JS-SINA) TEMİZ geçti. 🔴 EN ÖNEMLİSİ — KENDİ HATAMI BULDUM VE GERİ ÇEKİYORUM: ③'te onayladığın \"oniki-ada-italyan 8 nokta düzeltmesi\" YANLIŞTI. Gerçek Dodecanese adalarını (Rodos, Kalimnos, Karpatos, Sömbeki/Simi, İleryoz/Leros, İstanköy/Kos) TEK TEK adıyla aradım: HEPSİ ZATEN \"italya\" gösteriyor, hiçbiri yanlış değil. Önceki kutum (35,3-37,7K/26,0-29,0D) Muğla ili kıyı kasabalarını (Datça/Bodrum/Marmaris vb, doğru \"osmanli\") ve Kuzey Ege adalarını (İkarya/Fourni, doğru \"yunanistan\" 1912'den beri) yanlışlıkla yakalamıştı — Dodecanese ile hiç ilgileri yok. DÜZELTME YAPILMAYACAK, oniki-ada-italyan de 3 \"ayrıntı\" künyesiyle (cezayir-fransiz vb) aynı kovaya taşınmalı. ② NEYİ BULAMADIM - Bahreyn'in gün farkı (TDV 21 Mayıs, mevcut veri 31 Mayıs 1861, 10 gün) — araştırmadım, güne dokunmadım. - avusturya-cumhuriyet/habsburg: dokunmadım (talimatın gereği, NEHIR SURTUNME'yi bekliyorum). ③ NE İSTİYORUM - 4 himaye düzeltmesinin kabulü. - Oniki Ada geri çekmesinin kabulü (kutu hatasından ders: bölge/takımada ADIYLA aranmalı, KUTUYLA değil). - Yeni iş var mı, yoksa boşta mı kalayım. ✅ Bu tur bitti.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
