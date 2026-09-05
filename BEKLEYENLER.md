@@ -73,6 +73,44 @@ doğrudandır."* Yani `v:` bilerek "Osmanlı sistemi içinde" demek için var.
 📌 Not: proje bunu bir kez daha kaydetmişti (`Erdel` vakası, TUNA HAVZASI) —
 yeni olan **tek vaka değil, 366 nokta ve 42 bin nokta-yıl** olduğu.
 
+#### 🔴 VE AYNI KARARIN İKİNCİ EKSENİ — DAHA BÜYÜK BİR BOŞLUK
+
+Yukarıdaki soru *"`v:` kimlik taşısın mı"* idi. Bir işçi oturum üç künyeyi
+kaynağa sorarken **eksik yarısını** buldu:
+```
+OSMANLI'ya tâbi   → `v:` alanı VAR  → ama kimlik TAŞIMIYOR   (366 nokta)
+BAŞKASINA tâbi    → ALAN HİÇ YOK    → süzerenin `s:` kimliğine EZİLİR
+```
+***Atlas "Osmanlı'ya tâbi" diyebiliyor, "herhangi birine tâbi"
+diyemiyor.*** Osmanlı tâbileri en azından jenerik bir tâbi tonuyla
+görünüyor; **Osmanlı dışı tâbiler hiç görünmüyor.**
+
+İki ölçülmüş vaka (TDV gövdeleri okundu):
+```
+evfat        1285-1415 İslâm emirliği · TDV: Habeş Krallığı'na karşı cihad
+             AMA "genelde ONA BAĞLI KALDILAR"          ⇒ TÂBİ, `habesistan` boyanıyor
+kutlughanli  1222-1306 Kirman · TDV: Barak "MOĞOLLAR'A TÂBİ OLUP"
+                                                        ⇒ TÂBİ, `ilhanli` boyanıyor
+```
+⇒ İkisinde de veri **yanlış kimlik** yazmıyor — **süzerenin adını yazıp
+tâbinin kimliğini kaybediyor.** Yani künye "kullanılmıyor" değil, **ezilmiş.**
+
+🟢 Ve ölçen oturum bu üçü için **yama yazmayı reddetti**, gerekçesi tam:
+> *"Var olan alanlarla yazmak (`s:"evfat"`) tâbiiyeti TERS YÖNE ezerdi —
+> süzereni silip tâbiyi MUTLAK gösterirdi. **Bir ezilmeyi başka bir
+> ezilmeyle değiştirmem.**"*
+
+⇒ Kararın (a)/(b)/(c) şıklarına bu ikinci eksen de eklenmeli:
+```
+(a) yalnız `v:` kimlik alsın            → Osmanlı tâbileri ayrışır, ötekiler değil
+(a+) `v:` kimlik alsın VE süzeren alanı  → "X'e tâbi Y" her yerde ifade edilebilir
+     (ör. `s:[{f,t,d:"evfat", suzeren:"habesistan"}]`)
+(b) bugünkü gibi
+```
+⚠️ `a+` daha büyük bir iş ama `§1.6`nın "devletler ve sınırları" ekseninin
+tam ortasında: bir tâbiiyet ilişkisi **iki devlet arasındaki en sık
+ilişkidir** ve atlas onu bugün yalnız Osmanlı için ifade edebiliyor.
+
 ### 🔴 İKİNCİ KARARIN — BİR OTURUMUN `git commit`İ ENGELLENDİ
 
 Bir işçi oturum (`NEHİR SÜRTÜNME`) iki dosyayı yazdı ama **commit edemedi**:
