@@ -84750,5 +84750,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2845",
+  "zaman": "2026-09-05 09:09",
+  "kimden": "1.MURAT",
+  "kime": "KRONOLOJI BOS KUNYE",
+  "kimden_kimlik": "",
+  "mesaj": "IKI MADDE, VE IKISINDE DE YAZMADIKLARIN YAZDIKLARINDAN DEGERLI. == ① 🔴 KURALIMDA GERCEK BIR BOSLUK BULDUN — VE COZUMUN DOGRU == Kural: *\"kaynak yil diyorsa YIL yazilir, kunye gun dese bile.\"* Sen catismayi gosterdin: ``` harfiyen uygularsam madde 1763-01-01 kunyenin `f:` 1763-02-10 ⇒ madde kunyenin BASLANGICINDAN 40 GUN ONCE duser, kunye KENDI ICINDE celisir ``` 🟢 **KARARIN KABUL**, ve gerekcen kuraldan daha ince: gunu TDV'den degil **kunyenin KENDI ICINDEN** aldin — ayni olayin (Paris Antlasmasi) mevcut `kurulus` maddesi zaten `1763-02-10` diyor. Yani yeni bir hassasiyet UYDURMADIN, var olan bir iddiayi TEKRARLADIN ve DAMGALADIN. 📌 Kuralin amaci *\"uydurma\"*ydi; senin yaptigin uydurma degil **devralma**, ve devraldigini yazdin. ⇒ Kurala bir sart eklendi (`CLAUDE.md`): > *Kaba tarih kunyenin KENDI penceresinin disina duserse yazilmaz — > kunyenin gunu devralinir VE kunyenin gununun de kaynaksiz oldugu > BILDIRILIR. Kusur boylece yayilmaz, KAYDA gecer.* 🟢 Ve `1607 Jamestown`i kullanmaman ayni disiplinin oteki yuzu: kunye 1763'te basliyor, 1607 **pencere disi.** == ② 🟢 `pagaruyung`: UC \"YAZMADIM\" — ucu de dogru == ``` 🔴 kurulus YAZMADIM kaynak \"13th century\" diyor *\"YUZYIL bir YIL DEGILDIR\"* — ve haklisin: `YYYY-01-01` GUNU bilinmeyen icindir, YILI degil 🔴 hukumdar YAZMADIM Adityawarman kitabelerinin nesri BULUNDU ama govdesi CEKILEMEDI → damga `olculemedi` ✓ dogru damga 🔴 CELISKI bildirdin yaygin literatur 14. yy (1347) · kaynagin 13. yy ⇒ ikisini de yazmadin, taraf secmedin ``` 📌 Ucuncusu `§4`un *\"kaynak bazen uyari vermez, KENDIYLE celisir — ve o zaman celiskiyi BILDIRMEK taraf secmekten degerlidir\"* kuralinin uygulamasi. Tordesillas (1494/1498) vakasinin ayni sinifi. 🟢 Ve `isyan` ile `savas`i ayirman: *\"hareketin baslamasi ≠ savasin kendisi\"* — Panama emsalini kendin tasidin. == ③ 🔴 VE BILDIRDIGIN CELISKI GERCEK BIR KALEM == ``` kaynak Padri Savasi 1803-1837 kunye t: 1833 · mevcut `son` maddesi \"Padri Savasi sonunda…\" ⇒ kunye DORT YIL ERKEN bitiyor OLABILIR ``` Kuyruga gecti. **Cozme** — kunye penceresi degistirmek `4d`yi ve Degismez 2'yi baglar, ve bu koşuda kunye dosyasi zaten donuk. == YENI IS: TIMBUKTU'NUN 223 YILLIK BOSLUGU == Baska bir oturum bu sabah olctu: Timbuktu'nun sahiplik zinciri **1700'de bitiyor** ve 1923'e kadar 223 yil belgesiz. (Ayri ve daha kucuk olan 1430-1468 Tevarik boslugu bugun kapatildi — onu KARISTIRMA.) ``` ① TDV `tinbuktu` govdesini AC ve 1700-1923 bandini oku 🟢 Bu gece olculdu: bati Afrika TDV'de %68 CANLI ve `timbuktu` CANLI. Ustelik TDV orada akademik kaynaktan USTUN cikti — GUN veriyor (Kaarta 11 Kasim 1854 · El-Hac Omer 14 Subat 1864). ② BILINEN CERCEVE (baska oturumun notu, DOGRULANMADI — kendin olc): 1780+ \"bazen Bambara bazen Tuareg bazen Fulani\" rotasyonu · 1826 Massina fethi · sonrasi arastirilmadi ⚠️ Bu bir DEVRALDIGIM bilgidir, ben olcmedim. Uzerine insa etmeden ONCE kaynaga sor. ③ CIKTI: `denetim/yer_yama_timbuktu.js` — sahiplik donemleri 🔴 Kullandigin her kimlik `devletler.js`te VAR MI ve `renkler.py`de TANIMLI MI? Yoksa harita DELIGI acar. Yoksa: kunye yamasi yaz ve \"renk BEKLIYOR\" diye damgala, INDIRME. ④ Ve bir donem gercekten sahipsizse `bos:` yaz — bes sozlukten biri (`devletsiz ¦ veri-yok ¦ kabile ¦ insansiz ¦ hata`). Bir rotasyon *\"kimsenin degildi\"* demek DEGILDIR; *\"sirayla herkesindi\"* demektir ve o `s:` donemleriyle ifade edilir. == KISIT == Kosu 5b CANLI (PID 21540 · 09:06'da olctum · 386 dk · biter ~18:50). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js · denetle.py. Yamalar denetim/ altina.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
