@@ -4366,6 +4366,62 @@ kod      K i z **U+003F** l i r m a k     ← DÜZ ASCII SORU İŞARETİ
   sınıflaması değil, PARÇA özniteliği**: yirmi nehrin **beşi** hem `River`
   hem `Lake Centerline` parçası taşıyor. Kovalar ayrık değil **iç içe**,
   yani soru yanlış kurulmuştu.
+
+- 🔴 **İDARÎ DEVİR, SAHİPLİK DEĞİŞİMİ DEĞİLDİR — ve atlas sahiplik çizer.**
+  *(5 Eylül 2026 · Barka doğu 8 · `KRONOLOJİ BOŞ KÜNYE`)*
+
+  TDV `bingazi` iki tarih veriyor: *«1551 … Berka bölgesinin Osmanlı
+  hâkimiyetine girmesinden sonra Bingazi de **kesin olarak** Osmanlı
+  yönetimine katıldı **(1578)**»*. İkisi de gerçek — ama ikisi de
+  **Osmanlı İÇİ idarî devir**: Mısır eyaletinden Trablusgarp eyaletine.
+  ⇒ **İlk hâkimiyet değil.** Atlas eyalet sınırı çizmiyor, **sahiplik**
+  çiziyor; sahip 1517'den beri aynı.
+  📌 `§11`in tasarruf ailesinin dördüncü yüzü: *sefer* · *anılma* ·
+  *isyan* · ve şimdi **idarî devir**. Dördü de aynı hatayı farklı kapıdan
+  yapıyor — bir olayı tasarruf değişimi sanmak.
+  🟢 Ve seçim gizlenmedi: 1578 TDV'de duruyor, yama onu kullanmıyor, ve
+  **gerekçesi yamanın başlığında.**
+
+- 🟢 **KOMŞUSUNUN KULLANDIĞI GÜNÜ KULLANMAK, KENDİ GÜNÜNÜ SEÇMEKTEN
+  DAYANAKLIDIR.** *(aynı tur)*
+
+  Aynı yamada `1517-04-13` (Memlük **devletinin** sonu) ile `1517-05-19`
+  (Mısır **fethinin** tamamlanması) arasında seçim gerekti, ve üç
+  gerekçenin ikincisi bir yöntem:
+```
+① kaynak «MISIR'IN FETHİNDEN sonra» diyor, «devletin sonundan» değil
+② KOMŞUSU zaten o günü kullanıyor — Sellum (Tobruk'a 127,9 km) ve
+   Mersa Matruh: `memluk … t:"1517-05-19"`
+③ çekirdekte 0 gün uzaklıkta ve konusu birebir: «İskenderiye'nin
+   teslim alınması — Mısır fethinin tamamlanması»
+```
+  ⇒ Kaynak iki günü de destekliyorsa, **veriyle tutarlı olanı seçmek**
+  keyfî değildir: `§3`ün *"sessiz toprak değişimi yok"* kuralı zaten aynı
+  günü paylaşan komşuların birlikte kırılmasını istiyor.
+  🔴 Ve gün seçimi bir **delik** kapattı: koordinatör *"04-13 alırsan
+  1551'e kadar 34 yıllık boşluk açılır"* diye uyarmıştı; çare boşluğa
+  kimlik uydurmak değil, **`d:` başlangıcını da taşımak** oldu.
+
+- 🔴 **BİR ÇARENİN MALİYETİ, BEKLENEN EKSENDE OLMAYABİLİR — ve yanlış
+  eksenden bakan tahmin onu yanlış fiyatlar.** *(aynı gün · `KÜRE GÖRÜNÜM`)*
+
+  Himaye künyelerinin uzatılmasının maliyeti soruldu; beklenen pahalı
+  kalemler **yeni künye** ve **yeni renk**ti. Ölçüm:
+```
+🟢 kimlik var, penceresi yeter    0 / 20
+🟡 kimlik var, penceresi DAR     20 / 20   ← hepsi burada
+🔴 kimlik YOK (künye + renk)      0 / 20   ← KOVA BOŞ
+yeni künye 0 · yeni renk 0 (0 ihlal · 2 sınırda) · `t:` 20 satır · dönem 52
+🔴 KAYNAK ARAMASI                14 künye  ← AĞIRLIK BURADA
+```
+  ⇒ `t:`yi uzatmak **bir tarih yazmaktır**, ve `§4` tarih uydurulmaz —
+  14 künyenin `kaynak:` alanı *"bulunamadı"* diyor. ***Çare pahalı değil,
+  ama pahalı olduğu yer beklenen yerde değil:*** kimlik ve renk hazır, iş
+  **tarih ve dayanak** işi.
+  🟢 Ve iki yol ayrıldı: (a) polity'nin gerçek sonunu yaz → 14 kaynak
+  sorgusu · (b) atlas ufkuna uzat → tarih bir **pencere işareti** olur.
+  ⚠️ Ama **(b) tarihi ucuzlatır, İDDİAYI ucuzlatmaz**: *"bu polity 1923'te
+  hâlâ ayrı bir gövdeydi"* yine tarihsel bir iddiadır.
   📌 `§11`in *"`0`, 'yok' ile 'bakmadım' arasında ayrım yapmaz"*
   dersinin **dönüş değeri** ve **alan adı** yüzleri — ve `§4`ün
   *"bir alan adı, kullanıldığı yerden değil TANIMLANDIĞI yerden
