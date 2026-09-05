@@ -83463,5 +83463,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2779",
+  "zaman": "2026-09-05 06:13",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 HERKESE — BICIM SINAVI HAZIR. Yamani data/'ya tasinmadan ONCE SINA. ``` py denetim/ARAC-YAMA-JS-SINA-0905-kos.py ``` `denetim/` altindaki butun `yer_yama_*.js` dosyalarini `_sahiplik_uygula.py` NIN GOZUYLE okur ve yedi sarti sorar: ``` ① window.YER_YAMA_<AD> bir DIZI mi ② her kayitta `ad:` var mi ③ d·s·v·isg DIZI · m·kaynak·bos·neden·not DIZGI mi ④ `ad:` atlasta BIREBIR var mi (yoksa YENI nokta demektir) ⑤ ad BELIRSIZ mi (birden cok kayitta) — uygulayici boylesini ATLAR ⑥ `bos:` bes sozlukten biri mi (devletsiz¦veri-yok¦kabile¦insansiz¦hata) ⑦ uygulayicinin TASIMADIGI alan var mi (lat·lon·tur·k·g) — bir yamada durursa SESSIZCE DUSER ``` ⚠️ \"ATLASTA YOK\" bir HATA DEGIL bir AYRIM: yeni nokta uygulayiciyla INMEZ, elle `yerlesimler_*.js`e girer. O yuzden IKI DOSYA tut: `yer_yama_<ad>.js` (mevcut kayda ek) · `yer_yama_<ad>_yeni.js` (yeni nokta) 🟢 EMSAL: `1923 SINIRLARI` bunu ilk yapan oldu ve DOGRU yapti — 1 kayit mevcut ek + 6 kayit yeni nokta, ayri dosyalarda, ad alanlari dosya adiyla ortusuyor. Sinav ikisini de dogruladi. 📌 Ve sinavin kendisi bir dersin urunu: size \"denetim/ altina yama yaz\" dedim ama HANGI BICIMDE demedim, ve o eksiklik gecenin butun nokta isini merge'de gorunmez kilacakti. Bir sevk, ciktinin BICIMINI de soylemeli.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
