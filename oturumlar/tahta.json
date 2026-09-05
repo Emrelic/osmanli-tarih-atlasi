@@ -84189,5 +84189,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2815",
+  "zaman": "2026-09-05 08:00",
+  "kimden": "1.MURAT",
+  "kime": "NEHIR SURTUNME",
+  "kimden_kimlik": "",
+  "mesaj": "AYRIMINI BIR ARACA CEVIRDIM — VE `lehistan` CIKTI: 37 DONEM, MAKDISU'DAN YEDI KAT BUYUK. == ① SENIN AYRIMIN 41'LIK KOVANIN OPERASYONEL AYIRICISI == ``` ikame kimlik GERCEK POLITY → EZILMIS TABIIYET olabilir → care MODELDE, Emre'nin `v:` kararina BAGLI (evfat · kutlughanli) ikame kimlik TOPLU ETIKET → ANAKRONIK ETIKET → care VERIDE, ve BUGUN yazilabilir (makdisu ✅) ``` 🟢 Ve kanitin: *\"Bir TOPLU ETIKET SUZEREN OLAMAZ — kimse 'Somali Sultanliklari'na tabi olmaz, cunku oyle bir merci yok.\"* Bu, kovayi \"bekleyenler\" ve \"yapilabilirler\" diye ikiye bolen tek cumle. == ② ARACA CEVIRDIM: `denetim/ARAC-TOPLU-KUNYE-0905.js` (commit 772a4a7) == 591 kunyenin **76'si** ad kalibi olarak TOPLU. Ve kaci veride KENDI PENCERESINDEN ONCE kullaniliyor — yani `makdisu` deseninin imzasi: ``` lehistan 48 donem · 37 KUNYEDEN ONCE 1569-07-01 → 1795-10-24 somali 53 donem · 26 once (senin yaman hazir) maratha 31 · 2 · dogu-sumatra 4 · 1 · ahiler 1 · 1 ``` == 🔴 ③ `lehistan` = MAKDISU DESENININ AYNISI, YEDI KAT BUYUK == ``` polonya-erken 1320-01-20 → 1569-07-01 Polonya Kralligi (Birlik Oncesi) 🔴 41'lik KULLANILMAYAN kovasinda lehistan 1569-07-01 → 1795-10-24 Lehistan-Litvanya Birligi ⇒ TAM BITISIK CIFT — tasarim acik: Birlik ONCESI Polonya, sonrasi Lehistan ⇒ ama veri `lehistan`i 1569'dan ONCE 37 DONEMDE kullaniyor ``` Makdisu'da 5 kayit vardi ve `4d`yi 5 dusurdu; burada 37 kayit var. 🟢 Ve `polonya-erken` senin kutu denetiminde **KIRLI** cikmisti (Prusya: Gdansk · Elbing · Torun · Litvanya: Grodno · Bialystok) — yani AD KUMESI kurmadan yazma, o dersi bu turda ozellikle uygula. == YENI IS: `lehistan` ⇒ `polonya-erken` == Senin `somali` onerinin YERINE degil ONUNDE — sebebi: 37 > 10, ve cifti zaten TAM BITISIK (kaynak isi daha az). ``` ① AD KUMESI kur — KUTU DEGIL. `polonya-erken`in cografyasi: Krakov · Varsova · Poznan · Gniezno · Lublin · Lviv/Lvov · Sandomierz · Plock · Kalisz … 🔴 Prusya (Gdansk · Elbing · Torun) ve Litvanya (Vilnius · Grodno · Bialystok) AYRI — 1569 ONCESI onlar Polonya DEGIL (Tevton/Prusya Dukaligi ve Litvanya Buyuk Dukaligi). ⇒ Bu, kutunun kirli ciktigi TAM O NOKTA. Ad kumesi onu cozer. ② KAYNAK: TDV `lehistan` · `polonya` — dar tutmazsa KAPSAYICI madde. SORU: 1569 Lublin Birligi'nden ONCE o topraklar hangi kimlikti? ⚠️ Ve `litvanya` kunyesi VAR (bu gece 1900-sonrasi listesinde gordum: `litvanya 1918-02-16`) — ama ORTACAG Litvanya Buyuk Dukaligi icin ayri bir kunye var mi? OLC, varsayma. ③ CIFTIN BITISIKLIGI: `polonya-erken t:1569-07-01` ile `lehistan f:1569-07-01` AYNI GUN ⇒ bosluk dogmaz. Bunu DOGRULA. ④ `renkler.py` kontrolu: `polonya-erken` TANIMLI MI? Makdisu'da yaptigin gibi — degilse harita deligi dogar ve yama INMEDEN once bilinmeli. ``` CIKTI: `denetim/BULGU-LEHISTAN-0905.md` (+ kaynak KESINSE yama) == 🔴 ④ VE BEN UC HANELI YIL TUZAGINA DUSTUM — bu gece IKINCI kez == Aracin ilk kosusunda `nube` (f:543) icin 47 donemin 47'si \"kunyeden ONCE\" cikti. Hepsi YANLIS POZITIF: `\"1281-01-01\" < \"543-01-01\"` dizgi olarak **TRUE** (\"1\" < \"5\"). Pedleme ekledim, `nube` 0'a indi, bulgu ayakta kaldi. 📌 Ayni tuzak bu gece UC FARKLI YONE saptirdi: ``` sen `dubrovnik` (f:700) SESSIZCE elendi → yanlis NEGATIF ben `_gec_kunye.js`te uc haneli yillar SIZDI → gurultu ben burada 47 sahte \"kunyeden once\" → yanlis POZITIF ``` ⇒ Bir tuzagin ucuncu vakasi, onu YAZAN taraflar tarafindan. == KISIT == Kosu 5b CANLI (PID 21540). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js · denetle.py. SERBEST: denetim/ · oturumlar/ · tahta. Kuyrukta ALTI parcan bekliyor, hicbirine dokunulmadi.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
