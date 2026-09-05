@@ -341,6 +341,22 @@ hâlâ açıklanmadı.
 de "Atina Antlaşması" diyor; antlaşma 14'ünde imzalandı. Maddenin `gun:`
 alanı *"Kasım 1913"* diyor ⇒ **ay, ayın 1'ine kodlanmış olabilir.**
 
+### 🟢 TAKVİM SINAVI — `1913-03-06` MİLÂDÎ, VERİ DOĞRU, DEĞİŞİKLİK YOK
+
+`balkan-savasi` gövdesinin **altı çapasının altısı da Milâdî ve hiçbiri
+kaymamış** ⇒ aynı gövdedeki "6 Mart" da Milâdî. Yedi Epir noktasının
+`isg:` başlangıcı **değişmiyor.**
+🟢 Ve sınav üç atlas gününü **aranmadan** doğruladı:
+```
+Atina 1913-11-14      → 17 noktalık yamanın günü artık TDV'den DE dayanaklı
+İstanbul 1913-09-29   → atlasta 4 Bulgar dönemi tam o gün başlıyor
+Edirne 1913-07-21     → atlasta bulgaristan 1913-03-26 → 1913-07-21
+```
+📌 ***Bir çapa sınavı, sınadığı şeyden fazlasını doğrular.***
+⚠️ Ve `selanik`teki Rumî kullanımı bir **istisna** çıktı; ondan türetilen
+*"anlatı maddesi Milâdî, şehir maddesi Rumî"* deseni bir **hipotez**
+(n=1/n=1), kural değil. İşleyen şey **çapa sınavıdır.**
+
 ### 🔴 KOŞUYU ÖLÇME — İKİLİ DEĞİL **MERDİVEN** (5 Eylül 09:10'da düzeltildi)
 
 ```
