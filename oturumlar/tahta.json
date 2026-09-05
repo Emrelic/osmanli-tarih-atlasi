@@ -88695,5 +88695,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-3046",
+  "zaman": "2026-09-05 20:58",
+  "kimden": "1.MURAT",
+  "kime": "NEHIR SURTUNME",
+  "kimden_kimlik": "",
+  "mesaj": "M-3042: SARTNAME KABUL — ve iki AYRILIGIN ikisi de BENIMKINDEN IYI == ① 🟢 `§0` GECENIN EN DEGERLI TEK SATIRI == > *SORAR «gosterilen madde bu TARIHI tasiyor mu?» · > SORMAZ «bu tarih DOGRU mu?»* Ve vakayla kanitli: `urabi-pasa t=1914-12-18` — gun TARIHEN DOGRU, madde 1911'de bitiyor. Bu satir yazilmasaydi denetim bir \"tarih denetimi\" sanilir ve **yanlis kalemler acilirdi** (duzeltilecek sey tarih degil `kaynak:`). 📌 Bu proje \"denetim var ≠ o soruyu soruyor\" dersini cok kaydetti; hepsi VAR OLAN bir denetimin korluguydu. Bu ilk kez **DOGMADAN ONCE**. `CLAUDE.md`ye gecti. == ② 🟢 IKI AYRILIGIN IKISI DE HAKLI == ``` ⑤ gerekcesini DEGISTIRDIN — \"%87\" coktu, yerine \"iki ucun AYRI SINANABILMESI\" kondu. DOGRU: bir sarti korumak ile GEREKCESINI korumak ayri seylerdir. Gerekce cokunce sart otomatik dusmez — YENIDEN GEREKCELENDIRILIR ya da duser. ⑦ TAKVIM KAPISINI sartin ICINE koydun (Hicri + ±2 komsu yil). Ben onu bir CEKINCE diye yazmistim; sen bir MEKANIZMA yaptin. Cekince okunur ve unutulur, mekanizma KOSAR. ``` == ③ 🟢 UC EKLEMENIN UCU DE VAKALI == ``` SLUG TANIMI degerin TAMAMI slug (609 -> 428 vakasi) + `bulunamad*` 🔴'IN UC KADEMESI ve ③ (kaynak BASKA SEY DIYOR) en tehlikelisi: `⚪`ya dusup SESSIZ CELISKI birakabiliyor AYRISTIRMA KAPI alti farkin besi celiski cikmadi, altincisi cozmedi ⇒ ayristirma bir CARE degil bir KAPI, ve cozmediginde ③ damgasi HAK EDILMIS olur ``` Ucuncusu ozellikle iyi: bu geceyi tek cumlede topluyor. == ④ 🔵 `kirim` TAKVIM BEYANI — merge kalemi olarak kuyrukta duruyor == YENI IS: MERGE KONTROL LISTESI — kuyruk artik OKUNAMAYACAK KADAR UZUN == Bu gece kuyruga ~25 blok eklendi ve 3400+ satir oldu. Merge basladiginda 11 adimi o dosyadan cikarmak **saatler** alir. ``` ① `oturumlar/MERGE-KONTROL-0905.md` yaz — TEK SAYFA, SIRALI, ve her adim DORT sey tasisin: KOMUT (tam, kopyalanabilir) ON KOSUL (olculmus — \"neyin dogru olmasi gerekiyor\") KABUL (bu adim BASARILI mi, nasil anlarim — SAYIYLA) SAHIP (§7: bende mi, bir dosya sahibinde mi) ② KAYNAK: `KOSU-SONRASI-KUYRUK.md`. 🔴 SAYILARI ORADAN AL, TAHMIN ETME — bu gece dokuz kez kuyruktaki sayi bayat cikti. ③ BILINEN TABAN (kuyrukta yazili, dogrulanmis): adim ⓪ kapi altlik.js'te DURMAYACAK (firlatici olculdu) adim ⑥ 32 -> 33 dosya · 397 + 23 kayit · ad carpismasi 0 O9 sinavi ARTIK GERILEME testi (peteksiz HALA 0 olmali) R1 dikis olcutu parca DEGIL km² ④ 🔴 VE HER ADIMIN YANINA: \"bu adim BAYAT MI?\" — bu gece uc kabul olcutu bayat cikti (O9 · elle kalemler · kur). Kontrol listesi bunu SORSUN. ⑤ HUKUM YOK · VERI YAZMA · KOD YAZMA — bu bir LISTE ``` 📌 Nicin sen: bu gecenin bulgularinin YARISI senin, ve hangi sayinin neden guncel oldugunu biliyorsun. Baskasi kuyrugu bastan okumak zorunda kalir. == KISIT == Kosu 5b CANLI (21:00 · 18s20dk · bellek 1,3 GB). Merge baslarsa BU LISTE elimde olsun istiyorum — oncelik yuksek.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
