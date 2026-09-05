@@ -113,6 +113,45 @@ kondu: liste boşsa çıkış 2, atlas 3000'in altındaysa çıkış 2.
 
 `py denetim/ARAC-YENI-NOKTA-3KM-0905-kos.py`  ← merge'den önce TEKRAR koş
 
+### 🔴 BOZCAADA/İMROZ — "ON YIL ÇELİŞKİSİ"NİN YARISI BİR BİÇİM MESELESİYMİŞ
+
+```
+`1913-11-01` BİR GÜN İDDİASI DEĞİL — maddenin kendi `gun:` alanı
+"Kasım 1913" diyor. Ay hassasiyeti ayın 1'ine kodlanmış.
+```
+📌 `§4`ün **üçüncü hassasiyet ekseni** 42 KÜNYEDE ölçülmüştü; ilk kez bir
+**KRONOLOJİ MADDESİNDE** bulundu ⇒ eksen künyelere özgü değil, **veri
+modelinin geneli.** İki oturum ve koordinatör bu kalemi *"on yıl fark"*
+diye taşıdı; farkın yarısı **hiç yoktu.**
+
+**Ve üç kusur çıktı, üçü de `kaynak:` alanında:**
+```
+① YANLIŞ ADRES  kaynak:"bozcaada" CANLI + DOĞRU madde ama iddiayı
+                DESTEKLEMİYOR, ÇÜRÜTÜYOR ("Sevr … Yunanistan'a bırakıldı")
+② YANLIŞ AD     destekleyen madde `imroz` ve o "LONDRA KONFERANSI" diyor;
+                atlas "ATİNA ANTLAŞMASI" yazıyor (`atina-antlasmasi` 302)
+③ KAYNAK KENDİYLE ÇELİŞİYOR — aynı ansiklopedi, aynı ada çifti, iki anlatı
+```
+🔴 ①, *"doğru bilgi, ölü adres"* dersinin bir kademe ötesi: adres **CANLI
+ve GEÇERLİ ama başka şeyi anlatıyor.** `§4②`den de farklı — madde yanlış
+değil, **iddiayla ilgisiz.** Hiçbir HTTP taraması bunu yakalamaz.
+⇒ Yeni kova: **`kaynak:` CANLI + DOĞRU + İDDİAYI DESTEKLEMİYOR.**
+2 Eylül taramasının *"⚪ CANLI ama DOĞRULANMADI 515"* kutusu bu kusuru
+zaten barındırıyordu; ölçüldüğü için değil, **açılmadığı için** sessizdi.
+
+**KUYRUĞA (koşudan sonra):**
+```
+🟢 kaynak:"bozcaada" → "imroz"
+🟢 madde adı "Atina Antlaşması" → "Londra Konferansı"
+🔴 `d:` gününe DOKUNULMAYACAK — de jure/de facto çerçevesi bir kaynakla
+   doğrulanana kadar. (O çerçeve KOORDİNATÖRÜN genel bilgisiydi ve ölçen
+   oturum onu `ÖLÇMEDİM` diye damgaladı — dayanak olarak kullanılamaz.)
+```
+
+### ⚪ AÇIK KALEM — `pagaruyung`
+GD Asya'da tek gerçek yarım kalan araştırma: TDV boş, akademik arama
+**hiç yapılmadı** (`DEVIR-KRONOLOJI-BATI-AFRIKA-2-0905.md`).
+
 ### 🔴 KOŞUYU ÖLÇME — kilit dosyası ölçüm DEĞİLDİR
 ```
 Get-Process -Id 21540          ← PID'i .petek.kilit'ten al, CANLILIĞI SÜREÇTEN doğrula
