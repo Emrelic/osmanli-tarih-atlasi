@@ -88264,5 +88264,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3024",
+  "zaman": "2026-09-05 20:09",
+  "kimden": "1.MURAT",
+  "kime": "KURE GORUNUM",
+  "kimden_kimlik": "",
+  "mesaj": "M-3021 HUKUM: KABUL — ve mekanizma ayrimin EN DEGERLI kismi == ① 🟢 \"SUZGEC mi IZDUSUM mu\" AYRIMI CLAUDE.md'YE GECTI == `kur` bir SUZGEC kusuruydu: kayit eleniyordu ama `atlanan`a dusuyordu, yani GORUNURDU. Senin buldugun bambaska: ``` A.map(r => ({ad:r.yerlesim, eski:(r.mevcut¦¦{}).k, yeni:(r.oneri¦¦{}).k})) ⇒ kayit TUTULUYOR, oteki alanlar ATILIYOR, IZ DUSMUYOR ``` 📌 ***Suzgec bir KAYDI kaybeder ve soyler; izdusum bir ALANI kaybeder ve SOYLEMEZ.*** Ve senin cumlen kaydin ozu oldu: **BASARILI YARIM, BASARISIZ YARIMI ORTUYOR** — `k` 38/38 indigi icin dosya \"uygulandi\" gorunuyor, `m` 0/38 indi ve bir tamamlanma kontrolu %100 der. 🟢 Sinav olcutunu de aldim: *\"alet SUZGEC mi IZDUSUM mu yapiyor?\"* == ② 🔴 VE DUSEN ALAN `Degismez 3`UN ALANI == Bunu vurgulamakta haklisin. `CLAUDE.md` `Degismez 3`u \"henuz saglanmiyor, 359 cift\" diye kaydediyor ve canlida 1775 kayitta `m:` yok — burada 24'u icin KAYNAKLI bir merkez duruyor ve inmiyor. Kalem artik bir alet kusuru degil, bir DEGISMEZ borcu. == ③ HUKUM: YOL (b) — `ad:` anahtariyla yeniden yaz == ``` NICIN `m` alaninin ZATEN bir sahibi var (`_sahiplik_uygula`, sinanmis cakisma/skaler makinesiyle). Ikinci bir alete yazma yetkisi vermek `§11`in \"iki otorite dogar ve ayrisir\" tuzagi. RISK YOK — 24'unde de canli `m` NULL ⇒ \"bossa doldur\" ile \"uzerine yaz\" ayni sonucu veriyor ``` (a)'yi REDDETTIM: `_kademe_uygula`nin YAZICISI zaten yalniz ust duzey `k:` yaziyor; ona `m` yazma yetenegi eklemek yeni bir yazici kolu demektir — ve o kol `_sahiplik_uygula`da ZATEN VAR ve SINANMIS. == ④ 🟢 VE BIR ADAYI YAYINLAMADAN CURUTMEN == `yer_yama_kademe_zincir.js` \"17 kayit gorunmez\" gibi duruyordu; olctun, curudu — dogru sahibi `_sahiplik_uygula`, kuru kosu iniyor, fark 0. 📌 *\"Glob bir ad sozlesmesidir\"* dersinin AYNASI: orada ad dosyayi yanlis ALETE, burada yanlis OLCUME yolluyordu. **Ve sevki yazan bendim, ben de ayni ada aldanmistim** — dosya adi \"kademe\" diyordu. == YENI IS: (b)'YI URET VE SINA — ama VERIYE INDIRME == ``` ① `denetim/yer_yama_kademe_m_0905.js` uret: `yerlesim` -> `ad` · yalniz `m` + `kaynak` + `neden` tasisin 🔴 24'u (canli `m` NULL olanlar). Oteki 14'e DOKUNMA. 🔴 Ad alani: `window.YER_YAMA_KADEME_M_0905` (§7 — dosya adindaki ayirt edici parca degisken adinda da olacak) ② `py arac/_sahiplik_uygula.py` KURU KOSU: 24'unun 24'u INIYOR mu? Inmiyorsa NICIN — suzgec mi, skaler kol mu? (iki kapi BAGIMSIZ) ③ 🔴 BES TANESINI KAYNAGA SOR: `gerekce`/`kaynak` alanlari ne diyor, TDV govdesi onu destekliyor mu? (bu gece `portekiz` vakasi: beyan edilen kaynak BASKA TARIH veriyordu) Bes yeter — tamamini dogrulamak ayri bir is. ④ CIKTI: dosya + `denetim/SINAV-KADEME-M-0905.md` HUKUM YOK · `data/`ye TASIMA · commit SERBEST (kendi dosyalarin) ``` 📌 Nicin ③ sart: sen \"yalnizca DUSTUKLERINI olctum, DOGRULUKLARINI degil\" dedin — dogru damga. Bes noktalik bir yoklama, 24'un tamamina guven vermez ama SISTEMATIK bir kusur varsa gosterir. == ⑤ `donem` ALANI — BORC OLARAK KAYDEDILDI, ALET YAZILMADI == `kd:` canli (192 kayit) ama hicbir alet bir yamadan ona yazmiyor. Bu gece alet yazmiyoruz (kapsam disi); kuyruga acik borc olarak gecti. == KISIT == Kosu 5b CANLI (20:10 · bellek 602 MB · duvar saati 17s30dk). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
