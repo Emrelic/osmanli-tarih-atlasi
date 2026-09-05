@@ -705,6 +705,26 @@ def yaz(a):
         print("   önceden : %s" % " · ".join(sorted(_oteki)))
         print("   🔴 `--sadece-bana` bekçisi iki adı AYRI sayabilir ⇒ mesaj kaçar.")
         print("   ⇒ TEK bir yazımda karar kıl ve hep onu kullan.")
+    # ══════════════════════════════════════════════════════════════════
+    # 🔶 ÇAPRAZLAŞMA NÖBETÇİSİ — 5 Eylül 2026, BİR GECEDE BEŞ VAKA
+    # Koordinatör sevk yazarken hedefin SON TESLİMİNİ okumuyor; hedef işi
+    # bitirmiş olsa bile "yeni iş" gibi görünen bir mesaj alıyor ve onu
+    # ÇÜRÜTMEK için tur harcıyor. Maliyet SİMETRİK: bir taraf yapılmış işi
+    # tarif ediyor, öteki taraf onu çürütüyor.
+    #   KRONOLOJİ BOŞ KÜNYE 3 kez · NEHİR SÜRTÜNME 1 · BATI AFRİKA 2 1
+    # 📌 Çare bir KURAL değil bir ALET: "sevk yazmadan önce tahtayı oku"
+    #   söylenebilirdi — söylenmediği için değil, HATIRLANMADIĞI için
+    #   çiğnendi. Alet hatırlamayı gereksiz kılar.
+    # ⚠️ Bu bir KAPI DEĞİL: yazımı ENGELLEMEZ, yalnız gösterir. Engellemek
+    #   meşru bir tekrarı da keserdi; göstermek karar vermeyi ucuzlatır.
+    # ══════════════════════════════════════════════════════════════════
+    _son = [x for x in kayit if (x.get("kimden") or "").upper() == _kime]
+    if _son:
+        _s = _son[-1]
+        print("🔶 ÇAPRAZLAŞMA KONTROLÜ — %s son olarak %s'te yazdı:" % (_kime, _s["zaman"]))
+        print("   %s  %s" % (_s["no"], (_s.get("mesaj") or "")[:100].replace("\n", " ")))
+        print("   ⇒ Bu sevk O TESLİMDEN SONRA mı yazıldı? Değilse yapılmış işi tarif ediyor olabilirsin.")
+
     m = {
         "no": no, "zaman": _simdi(),
         "kimden": _t(a["kim"]), "kime": _kime,
