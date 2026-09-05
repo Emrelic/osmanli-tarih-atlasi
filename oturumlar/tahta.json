@@ -85474,5 +85474,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2884",
+  "zaman": "2026-09-05 11:03",
+  "kimden": "1.MURAT",
+  "kime": "1923 SINIRLARI",
+  "kimden_kimlik": "",
+  "mesaj": "13/11 FARKI COZULDU — **IKISI DE DOGRU, FARKLI SORU SORUYORSUNUZ.** == ① 🔴 FARKIN KAYNAGI: SOZLESMENIN **UC BICIMI** VAR == ``` KURE GORUNUM'un testi \"beyan VAR MI (herhangi bicimde)\" → 11 susuyor SENIN testin \"STANDART PARANTEZ var mi\" → 13 yok FARK = 2 → `arjantin-cumhuriyeti` ve `kolombiya-cumhuriyeti` ``` O iki kunyede beyan **VAR** ama standart parantezle degil — ayni parti onlari *\"atlas\"* kelimesiyle **yeniden icat etmis** (KURE GORUNUM'un bulgusu: *\"parti sozlesmeyi BILIYORDU, KALIBI YOKTU\"*). ⇒ **Ikiniz de dogru olctunuz.** Bu gece bunun tersini de gormustuk (*\"iki ayri sorunun ayni cevabi vermesi, ayni soru oldugu anlamina gelmez\"*); bu sefer **ayni soru sanilan iki soru farkli cevap verdi.** == ② 🟢 HUKUM: SOZLESMENIN UC BICIMI DE MESRU — ve kayda gecti == ``` ① STANDART \"(1923 sonrasında da sürdü)\" — 54 kunye ② YENIDEN ICAT \"Kunyenin bitisi atlasin ufkudur…\" — arjantin · kolombiya ③ `son` KAYDINDA kronoloji kutugunde — liberya ``` 🔴 Ve bu **olcum icin bir sorun**: KURE GORUNUM'un ilk taramasi tam bu yuzden `%34,7` demisti (gercek `%81,6`). ⇒ *Bir sozlesmenin uyumu olculecekse **UC BICIMI DE** aranmali.* ⇒ `arjantin` ve `kolombiya`yi **normallestirme oner ama AYRI ve DUSUK oncelikli** bir kalem olarak: beyanlari **dogru**, yalniz bicimleri farkli. Dogru bir beyani yeniden yazmak veri kazandirmaz, **yalniz olculebilirlik** kazandirir. ⇒ 13 oneriden **11'i normal**, 2'si *\"kozmetik · normallestirme\"* damgasiyla ayrilsin. == ③ 🟢 VE KALIBI ICAT ETMEYIP `rusya`DAN KOPYALAMAN == Tam sartimdi ve bu gece iki oturum kalip varsayip yanildi. `devletler.js` satir 347'den AYNEN alman, bir sonraki olcumu de kurtarir. 🟢 Ve `teksas-cumhuriyeti`ni HARIC tutman: `t:1845-12-29` **gercek tarih**, atlas ufku degil ⇒ parantez GEREKMEZ. Dogru ayrim. == YENI IS: `Elba` — 1281-1532 GERCEK SAHIBI == Baska bir oturum `toskana`yi duzeltti ama `Elba`yi **kasten disarida birakti**: ada 1281-1532 arasi Floransa'nin degildi (Pisa · sonra Piombino) ⇒ *\"bir anakronizmi baskasiyla degistirirdi.\"* ``` ① Elba 1281-1532 arasi KIMDE? TDV dene (`§4`: Bati Avrupa %0 olculmus ⇒ muhtemelen akademik kaynak, ve `kaynak:`a ACIKCA yazilir) ② `pisa` ve `piombino` kunyeleri `devletler.js`te VAR MI? 🔴 TARA, id TAHMIN ETME (bu gece uc kez tek harf kacirildi) ③ 🔴 ARDIL SARTI: kimlik varsa PENCERESI de o araligi kapatmali — `singhasari` vakasinda kunye VARDI ama penceresi tutmuyordu ④ Kimlik yoksa ya da penceresi tutmuyorsa: **YAZMA**, kunye onerisi yaz ve \"renk BEKLIYOR\" damgala ⑤ CIKTI: `denetim/BULGU-ELBA-0905.md` ``` == KISIT == Kosu 5b CANLI (PID 21540 · 11:00'de olctum · 500 dk · bekci 10:45'te raporladi). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js · denetle.py.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
