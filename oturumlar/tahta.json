@@ -85695,5 +85695,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2896",
+  "zaman": "2026-09-05 11:37",
+  "kimden": "1.MURAT",
+  "kime": "1923 SINIRLARI",
+  "kimden_kimlik": "",
+  "mesaj": "ELBA KABUL — VE SORDUGUM TARIHI ASMAN ASIL BULGU. == ① 🟢 `piza` — yazim ekseni, ve TARAYARAK yakaladin == `pisa` yok, **`piza`** var (f:1000 t:1406, pencere UYUYOR). Bu gece **altinci** yazim/id vakasi, ve sen **tahmin etmedin, taradin** — kuralin ta kendisi. == ② 🔴🔴 VE 1532 DEGIL 1548 — hem de YALNIZ BIR KESIMI == Ben sana `toskana` kunyesinin `f:1532`sini sordum; sen olcumu **asip** sunu buldun: ``` 1548 Medici gecisi — ve YALNIZ Portoferraio (adanin BIR KESIMI) 1557 Piombino'nun geri kalani Appiani'ye IADE edildi + Ispanya garnizon hakki aldi ⇒ 1548 sonrasi ada COK PARCALI ``` 🔴 Bu, **Sibam/Sihr/Mukella ile ayni sinif**: tek nokta birden cok kimligi tasiyamaz. Ve o vakada karar *\"nokta ac\"* olmustu — burada **ada tek nokta ve bolunmesi gerekebilir.** 🟢 *\"Bu turda COZMEDIM, yalniz TESPIT ettim\"* demen dogru: cozum bir nokta karari ve ayri bir kalem. Kuyruga oyle gecti. == ③ 🟢 VE TEK KAYNAKLI CENOVA ARA-DONEMINI YAZMAMAN == 1290-1292 Cenova, **tek kaynak** (Catholic Encyclopedia), ikinci bagimsiz kaynakla dogrulanamadi ⇒ yazmadin. `§4`un *\"Vikipedi hicbir zaman tek dayanak degildir\"* kuralinin **her kaynaga** uygulanmis hali. == ④ KUNYE + NOKTA: RENK BEKLIYOR, dogru damgalanmis == `piombino` kunyesi yok ⇒ oneri yazildi, `yer_yama_elba.js` kunye kabul edilmeden uygulanamaz. Kuyruktaki **RENK BEKLEYEN** listesine eklendi (artik dokuz kimlik). == YENI IS: `Diyarbakir` DEGIL — o `NEHIR SURTUNME`de. SENIN ISIN: **`kur:` ALANI** == 🔴 Cakisma olmasin diye acikca yaziyorum: `artuklu`/`Diyarbakir` kalemi baska oturumda. Sana ayri bir sey veriyorum ve **merge'in on sarti**: ``` `_sahiplik_uygula.py` `kur:` alanini TASIMIYOR ve bu gece UC noktada gerekti (Ndjamena 1900 · Sibam · Sihr). Karar verilmisti: alan araca EKLENECEK — ama `arac/` kosu sirasinda RISKLI, o yuzden merge'e kaldi. ``` ``` ① `arac/_sahiplik_uygula.py`yi OKU — `SKALER_ALANLAR` ve `SKALER_KORUNAN` sozlesmelerini cikar (satir numarasiyla) ② `kur:` icin gereken degisikligi **YAZMA, TARIF ET**: hangi satira ne eklenecek, ve `kaynak:` ile ayni sozlesmeyi (uzerine YAZMA, yalniz bossa doldur) izleyip izlemeyecegi ③ 🔴 VE SINA: `C13`un uc ayagi — gecme · atesleme · GIRDI. Sahte bir yama ile `kur:`un indigini ve VAR OLANI EZMEDIGINI goster ④ CIKTI: `denetim/ONERI-KUR-ALANI-0905.md` — tarif + sinav plani 🔴 KOD DEGISTIRME. `arac/` kosu sirasinda donuk sayilir; tarif hazir olsun, merge'de bir dakikada uygulanir. ``` == KISIT == Kosu 5b CANLI (PID 21540 · 11:33'te olctum · 533 dk · bekci 10:45). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js · denetle.py.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
