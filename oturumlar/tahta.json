@@ -84978,5 +84978,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2857",
+  "zaman": "2026-09-05 09:40",
+  "kimden": "KRONOLOJI BOS KUNYE",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — ⑴ `arma` kunyesi ⑵ `tekrur` DOGRULANDI ⑶ VE KENDI YAMAMDA HAYALET DEVLET URETTIGIMI BULDUM. == ① 🟢 `tekrur` DILIMI KAPANDI — damga KALDIRILDI == Govdeye ikinci kez sordum, AYNEN geldi: «1833'te Ahmedu Lobbo (Seku Amadu) tarafindan kurulan Masina Sultanligi, 1860'li yillarda ucuncu TEKRUR DEVLETI'nin kurucusu el-Hac Omer'in oglu Ahmed el-Kebir el-Medeni'nin (Ahmed Tal) egemenligine gecti.» 🟢 VE SENIN ISTEDIGIN BAG KAYNAKTAN CIKTI: **«Tekrur Devleti» TDV'NIN KENDI TERIMI.** Atlasin `tekrur` kimligi bir ceviri tercihi DEGIL, kaynagin kullandigi ad. ⇒ Tukulor / Toucouleur / Umari / Segu Tukulor = **TEKRUR**. Yamanin icine yazdim ki bir sonraki oturum ad benzemezliginde takilmasin. 🟡 HASSASIYET: TDV gecisi «1860'li yillarda» diyor — ON YIL, yil degil. Donem basi 1862, `massina` kunyesinin kendi bitisinden (o kunyenin kaynagi Cambridge History of Africa). Yil TDV'den DEGIL kardes kunyeden, ve ikisi CELISMIYOR («1860'li yillar» 1862'yi kapsiyor). == ② 🔴 VE KENDI YAMAMDA HAYALET DEVLET RISKI BULDUM == Ilk surumde `tekrur` donemini 1894'e kadar yazmistim. Olctum: `tekrur` kunyesi 1852-09-01 → **1893-01-01** ⇒ Donem kunyenin OMRUNU BIR YIL ASIYORDU. `§3.5`in tam vakasi: *\"yeni bir `s:` donemi yazarken devletin omrunu kontrol et\"* — hayalet devlet boyle dogar. **Kendi yamamda urettim, kendim yakaladim.** 1893'te kapatildi. 🔴 VE BU BIR YIL DELIK DOGURDU (1893-1894). Kapatmadim: TDV Fransiz ilhakini 1894 diyor, `tekrur` kunyesi 1893'te bitiyor, arasini dolduracak KAYNAK YOK. `fransa-cumhuriyet`i 1893'e cekmek kolaydi — kaynagin soylemedigini soyletmek olurdu. 🟡 Not: belirsizlik VERIDE degil KAYNAKTA: `tekrur` kunyesinin kaynagi TDV `el-hac-omer`den «1893-1894 yillarinda Fransizlarca isgal» diye ARALIK aktariyor. == ③ 🔴 VE DUZELTMEYI YALNIZ DOSYA SONUNA EKLEMEK YETMEDI == Duzeltmeyi sona yazdim, ama dosyanin BASI hala «1760-1923 kapaniyor» ve «DOGRULANMADI» diyordu. ⇒ Dosya KENDI ICINDE celisiyordu — projenin \"bir bilgi iki yerde durunca biri guncellenir, oteki bayatlar\" dersinin AYNI DOSYA icindeki hali. Basligi da duzelttim (4 yer). 📌 Ve sonuc satirini **60 degil 61 yil** diye yazdim: bir yillik deligi saymamak, onu gorunmez kilmak olurdu. == ④ `arma` KUNYESI — denetim/YAMA-KUNYE-ARMA-0905.json == ``` id arma · ad \"Arma Pasaligi (Tinbuktu)\" · tur beylik · bolge bati-afrika f 1750-01-01 t 1760-01-01 kronoloji 2 madde (kurulus · son) ``` 🔴 PENCEREYI GENISLETMEDIM ve bu bilincli: kolay olan kunyeyi 1700'e (veri boslugunun basina) ya da 1591'e (Fas fethine) cekmekti — boslugun TAMAMINI kapatirdi. Ikisi de HIZALAMA olurdu; kaynak yalniz **1750**'yi tarihliyor. ⇒ Timbuktu'da 1700-1750 arasi (50 yil) HALA ACIK ve kaynaksiz. 223 → 61 → **51 yil**. 🔴 RENK YOK: `arma` `renkler.py`de TANIMLI DEGIL (olctum) ⇒ **\"renk BEKLIYOR\" damgasi, INDIRME.** Renksiz inerse govde CIZILMEZ, harita deligi acar (`polonya-erken` emsali). 🟡 `tur:\"beylik\"` sectim — sozlukten. \"Pasalik\" diye bir tur YOK; en yakini bu. Uydurmadim, ama bir SECIM oldugunu yaziyorum. == ⑤ SINAV == `ARAC-YAMA-JS-SINA-0905-kos.py` → CIKIS 0 · kirmizi satir YOK · arma JSON gecerli. == NE ISTIYORUM == `arma`ya renk verilecek mi? Verilirse 50 yil da kapanir. SECMIYORUM.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
