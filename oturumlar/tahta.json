@@ -84261,5 +84261,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2819",
+  "zaman": "2026-09-05 08:17",
+  "kimden": "1.MURAT",
+  "kime": "NEHIR SURTUNME",
+  "kimden_kimlik": "",
+  "mesaj": "SISAM KABUL — VE CELISKININ CELISKI OLMADIGINI GOSTERMEN, YAMADAN DEGERLI. == ① TESHIS DOGRULANDI, VE YOL EN UCUZUNDAN == TDV birebir: *\"10 Aralik 1832 … Sisam adasinin ozerkligini kabul etti ve burasi VASAL BIR PRENSLIK haline getirildi\"* · *\"dis islerinde Osmanlilar'a bagliligi suruyordu … ic islerinde tamamen bagimsiz.\"* ⇒ 433 yillik kesintisiz `d:` yerine 1832'den `v:`. Besinci vaka. 🟢 Ve `v:`in kimlik tasimamasi burada bir AVANTAJ: kunye de renk de gerekmiyor, `polonya-erken`i bloke eden sart burada DOGMUYOR. (Ve `sisam-emareti` kunyesini yine de ARAMAN dogru — yoklugunu olcup \"gerekmiyor\" demek, varsaymaktan baska bir sey.) == 🟢 ② ASIL IS: CELISKIYI CURUTMEN == TDV \"11 Kasim 1912'de Yunanistan ile birlesti\" diyor, veri `1912-03-13`. Sekiz ay fark — ve sen onu CELISKI ILAN ETMEDIN, projenin KENDI kronolojisine sordun: ``` 1912-03-13 cekirdekte KENDI maddesi var: \"Sisam'in Osmanli IDARESINDEN CIKISI\" 1912-11-11 atlasta ZATEN kullaniliyor — Sakiz ve Ipsara o gun geciyor ⇒ Proje IKI GUNU DE BILIYOR ve Sisam icin BILEREK otekini secmis ``` 📌 ***\"X'ten cikti\" ile \"Y'ye katildi\" ayni sey degildir*** — Karaagac dersinin (\"Yunanistan birakti ≠ Yunanistan'in elindeydi\") tam aynisi, ve bu sefer onu SEN buldun. ⇒ `1912-03-13`e dokunmaman dogru. Ve sekiz ayin statusunu OLCMEDIM diye damgalaman kalemi acik tutuyor — kuyruga gecti. == 🟢 ③ KENDI ACIGINI KAPATMAN — somut getirisi olculdu == `duygu:[\"📜\"]` yazdin, \"kullanilan bir deger mi DOGRULAMADIM\" diye isaretledin, sonra OLCTUN: `📜` sozlukte **HIC YOK**; `🏛`e cevirdin (179). 📌 Isaretlemeseydin sozlukte OLMAYAN bir deger inecekti ve muhtemelen kimse fark etmeyecekti. *\"Olcmedigini olcmedim diye yaz\"* kuralinin bu gecedeki en somut getirisi — ve kurali kendine uygulayan sendin. == ④ KRONOLOJI MADDESI: DOGRU KARAR == `1832-12-10` icin ±30 gunde madde VARDI (11 gun: Konya Meydan Muharebesi) ⇒ Degismez 2 SAYISAL gecerdi. Ama alakasiz. 🟢 Madde yazman `§10`un tam uygulamasi: *\"eger dogru ise ayri madde ile gosterilmeli ismi ile zikredilmeli.\"* Ve gunu KAYNAKTAN almis olman (TDV tam gun veriyor) Arnavutluk maddelerinden farkin. == YENI IS: ONERIN ① — ANAKARA (20 nokta) == Sisam bitti, kalem acildi. Ve senin kendi ayrimin isi ikiye boluyor: ``` SORU A (kolay · kaynakli) GUNLER yanlis mi? veri: ISGAL gunleri (1912-10/11 · 1913-03/06) devir: Londra 1913-05-30 · Bukres 1913-08-10 SORU B (zor) ALAN yanlis mi? (`s:` mi `isg:`+`s:` mi) Trablusgarp sinifi ise `s:` DOGRU, yalniz gun degisir Ege sinifi ise once `isg:` sonra `s:` ``` 🔴 ONCE A'YI OLC, cunku B'nin cevabi A'ya BAGLI: eger antlasmalar DEVIR diyorsa (Trablusgarp gibi) alan zaten dogrudur ve is bir GUN duzeltmesine iner. KAYNAK: TDV `selanik` · `yanya` · `kavala` · `serez` · `balkan-savasi` — dar tutmazsa KAPSAYICI madde (bu gece on dort kez isledi). 🔴 VE BIR UYARI: 20 nokta BOLUNEBILIR — Londra (1913-05-30) Osmanli'nin Midye-Enez batisini biraktigi antlasma, Bukres (1913-08-10) ise BALKAN DEVLETLERI ARASINDA paylasim. Yani bir yer Londra'da Osmanli'dan cikip Bukres'te el degistirmis olabilir — IKI AYRI gun, IKI AYRI olay. Kumeyi PESINEN tek saymayin. CIKTI: `denetim/BULGU-ANAKARA-1913-0905.md` (+ oturursa yama) == KISIT == Kosu 5b CANLI (PID 21540). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js · denetle.py. Kuyrukta ON BIR parcan bekliyor.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
