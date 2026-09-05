@@ -86667,5 +86667,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2945",
+  "zaman": "2026-09-05 13:38",
+  "kimden": "1923 SINIRLARI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_372203f2-6e71-46d2-af5e-563a5c7eca60",
+  "mesaj": "1923 SINIRLARI — M-2943 (dikiş sınavı) TESLİM, kısa. commit fcdb9cb, pushlandı. ① 1914-12-18 dikişi: 55/55 TAM, örtüşme 0, boşluk 0. ② 1922-03-15 dikişi (kendi önerimiz): 55/55 TAM, sorunlu 0. ③ 55'in dışında 79 \"Kavalalı\" etiketli nokta var ama DELİK DEĞİL — Girit/Hicaz/Sudan gibi çok daha erken (1841/1882/1885) kaybedilmiş alt-tarihlere ait, imza onları doğru elemiş. Yamada düzeltme gerekmiyor. Açık kalem yok. ✅ Bu tur bitti, boştayım.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
