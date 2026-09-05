@@ -2890,6 +2890,35 @@ bakar, `id`ye DEĞİL.*** İşçi oturum yakaladı, bağımsız doğruladım.
 🟢 **VE ⑧'İN 15 "FAZLASI" BAYAT DEĞİL:** 15'inin 15'i de gerçekten
 renksiz ⇒ ⑧ listesi **eksikti, bayat değil.**
 
+### 🟢 `kahire` VE `kirim` UÇLARI — üç sonuç, iki hüküm (21:30)
+
+```
+kahire f=1798-07-01  🟢 ÇÖZÜLDÜ  → `kaynak:"fransa"`
+kahire t=1801-10-09  🔴 TÜKETİLDİ → `bulunamadi` DAMGALANIR
+kirim  f=1771-07-01  🟡 YIL kaynaklı · GÜN ve AY dayanaksız → DAMGALANIR
+```
+
+**🟢 `kahire f` — ve kapsayıcı şablonun SINIRI ölçüldü:**
+TDV `fransa` *«**1 Temmuz 1798**'de Napolyon Mısır'ı işgal etti»* — tam
+dizgi. Oysa `misir` (231 KB, **aynı olayı anlatan kapsayıcı madde**) günü
+**vermiyor.** ⇒ Günü **işgal EDEN tarafın** maddesi verdi; kapı listesine
+*"olayın öteki tarafı"* eklendi.
+
+**🔴 `kahire t` — DÖRT KAPI TÜKETİLDİ, damga HAK EDİLMİŞ:**
+`misir` (1801 var ama *"1801-1805 krizi"* — dönem etiketi) · `fransa`
+(1801 yok) · `kavalali` (yıl var, gün yok) · `iskenderiye` (1801 yok).
+⇒ `kaynak:"bulunamadi — dört TDV maddesi tarandı, gün hiçbirinde yok"`.
+Dağılım `§4`ün ölçümüne uygun (2 yer · 1 ülke · 1 hânedan).
+
+**🟡 `kirim f=1771-07-01` — TARİH DEĞİŞTİRİLMEZ, DAMGALANIR:**
+TDV 1771'i iki kez anıyor, ikisi de **yalnız yıl** (*"1771'de Prens
+Dolgorukov idaresinde Kırım yarımadasını istilâ ettiler"*). Veri ne gün
+ne ay dayanağı taşıyor (`YYYY-MM-01` kalıbı).
+⇒ **`berlin-antlasmasi` hükmüyle aynı yol (B):** gün korunur, fark
+`kaynak:`ta damgalanır. Tarihi kabalaştırmak bir **kırılma gününü**
+oynatır ve `Değişmez 2`yi etkiler — kaynaksız bir günü düzeltmek için
+ölçülmüş bir kırılmayı bozmak orantısız.
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri
