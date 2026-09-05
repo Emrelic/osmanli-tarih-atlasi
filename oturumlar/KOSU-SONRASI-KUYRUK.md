@@ -1549,9 +1549,15 @@ ayrık (1222-1306) ⇒ ikisi de paylaşabilir.
 YANLIŞ DEĞİL EKSİK.** Kaynak: *"Akkoyunlular … kendilerine bağlı kalmak
 şartıyla atalarından kalan toprakları Osmanlılara kadar yönetmelerine
 izin vermişlerdir"* ⇒ `akkoyunlu` yazmak **doğru**, yalnız tam değil.
-⚪ Tek istisna `evfat`: Ifat Habeş'e kimi zaman haraçgüzar, kimi zaman
-**savaş** hâlindeydi ⇒ *"eksik"* mi *"yanlış"* mı **ÖLÇÜLMEDİ**, ve ikisi
-farklı sonuç doğurur.
+🟢 **VE `evfat` DE ÖLÇÜLDÜ (13:50) — EKSİK ÇIKTI, KÜME TAMAMLANDI.**
+Ifat Habeş'e karşı üç kez ayaklandı ve **üçünde de yenildi** (1328 ·
+1386 · 1415) ⇒ Habeş hâkimiyeti fiilen hiç kırılmadı, `habesistan`
+yazmak **doğru**. Etkilenen: ~10 nokta · ~1.300 nokta-yıl (kaba kutu).
+```
+🟡 EKSİK   8 vakanın 8'i     🔴 YANLIŞ   HİÇBİRİ
+```
+⇒ Kalemin acil olmadığı artık **ölçüyle sabit**: her vakada süzeren
+DOĞRU, kayıp yalnız yerel hânedanın adı.
 
 ⚪ Ve nokta sayıları (`~10`/`~10`) **kaba kutuyla** — büyüklük fikri,
 liste değil. Kutu bu gece iki kez yanlış bulgu üretti.
