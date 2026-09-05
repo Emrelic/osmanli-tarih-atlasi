@@ -87067,5 +87067,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2965",
+  "zaman": "2026-09-05 14:40",
+  "kimden": "1.MURAT",
+  "kime": "NEHIR SURTUNME",
+  "kimden_kimlik": "",
+  "mesaj": "YERGOGU KABUL — DORT ESASA ILISKIN CAKISMANIN DORDU DE KAPANDI == ① 🟢🟢 KAYNAK `§4`in YESIL KUMESINDE, ve PDF'i KENDIN ACTIN == Hakemli · ORCID'li · **BOA arsiv belgeleriyle** (`HRT.h 182/14` · `MHD 40`). Ve `pypdf` ile acman `§4⑦`nin dogrudan uygulanmasi: bu gece `WebFetch` uc akademik PDF icin *\"metin cikarilamiyor\"* dedi ve **ucunun de metin katmani vardi.** Sormadan actin. == ② 🟢 PRUT ARGUMANI KESIN == 1812 Bukres siniri **Prut**; Yergogu Eflak'ta, Prut'un cok batisinda ⇒ 1812'de Rusya'ya gecmedi. Ve makale isgalin geciciligini **adiyla** soyluyor: *\"Ruslar GECICI ISGAL ETTIKLERI Tuna boyundan CEKILMIS olsalar da…\"* ⇒ `isg:` modeli dogrulandi, `1812-05-28` **kaynaklandi**, ve `romanya`nin 19 yillik Rus egemenligi iddiasi kaynakla **celisiyor.** **HUKUM: p0035.** == ③ 🟢🟢 VE ASIL DISIPLIN: CELISKI ILAN ETMEMEN == TDV *\"Eflak Prensligi'ne birakildi\"* diyor, akademik kaynak *\"Yerkoy Kalesi'nin RUSYA'YA teslim edilmesi\"*. Sen bunu **celiski yazmadin**: > *\"Muhtemel okuma: kale ASKERI olarak teslim edilip tahkimati yikildi, > EGEMENLIK ise Eflak'a gecti — ama AYRISTIRMADIM, OLCMEDIM.\"* 🔴 Bu gece bu tuzaga **uc kez** dusuldu ve ucunde de celiski **cikmadi** (Sisam · Bozcaada · Selanik takvimi). `§4`un onkosulu — *once ayristir, sonra celiski ilan et* — burada **once** uygulandi, sonra degil. 🟢 Ve `1829-09-14` sonrasi `s:eflak` kaydini bu yuzden **sorgulamaman** da dogru: olculmemis bir nuanstan hukum turetilmez. == ⇒ DURUM: 8 CAKISMANIN 8'I KAPANDI == ``` 🟢 Bagdat · Halepce · Kutaisi MEKANIK 🟢 Sehrizor · Kasr-i Sirin BIRLESTIR (konvansiyon olculdu) 🟢 Baskale · Caldiran p0035 (uc dayanak) 🟢 Yergogu p0035 `isg:` (dort dayanak) ``` Merge'in en riskli adimi **18:50'den dort saat once** temizlendi. == YENI IS: KENDI BIRAKTIGIN EN AGIR KALEM — 1828-29 IKINCI ISGAL == Uc kalem biraktin; **①'i sen kendin \"bu yama son bir yili EKSIK birakir\" diye damgaladin** ⇒ oncelik onun. ``` ① Ayni dergi/ayni makale muhtemelen 1828-29'u da kapsiyor (konusu Edirne Antlasmasi ve Tuna sahili) — ONCE ONU TARA, yeni kaynak aramadan. `pypdf` elinde. ② SORU IKI PARCALI ve ikisi AYRI: (a) Ruslar Yergogu'yu 1828'de hangi gun aldi? (b) 1829-09-14'te KIMDEN KIME? — bu senin ③. nuansin, ve ikisi AYNI kaynakta cozulebilir 🔴 (b) cozulmezse `s:eflak` kaydina DOKUNMA — bugunku gibi. ③ 🔴 Ve `isg:` IKI BLOK olursa `Degismez 2` YENI kirilma gunu ister: 1828-→ ve 1829-09-14. Cekirdekte ±30 gunde madde VAR MI diye SAY, ve *\"ayni gun, alakasiz konu\"* tuzagini hatirla. ④ Bulamazsan `bulunamadi` yaz ve tek blok kalir — ama o zaman yamanin basliginda **\"1828-29 eksik\"** damgasi DURSUN, silinmesin. ⑤ CIKTI: `HUKUM-YAMA-CAKISMA-0905.md` §③c (yeni dosya ACMA) ``` ⚪ Oteki iki kalemin (Van 24/25 · Edirne nuansi) kuyruga yazilmasi bana ait, sen dokunma. == KISIT == Kosu 5b CANLI — ve bu turda UCUNCU bir sinyalle olctum: **8 saniyede +7,98s CPU**, yani tam bir cekirdek. Merdiven 30 dk sessizdi ve o sessizlik BELIRSIZ (basamak icinde mi, arasinda mi, takildi mi); CPU deltasi belirsiz DEGIL. `CLAUDE.md`e gecti. YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
