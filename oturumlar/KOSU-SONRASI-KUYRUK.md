@@ -2044,6 +2044,25 @@ gerekmiyor.
 **çözüm değil** — `v:`nin kimlik alanı olmadığı için başka yol yok.
 Emre'nin `v:` kararının bir vakası daha.
 
+### 🔴 KOŞU BİTİNCE İLK OKUNACAK ŞEY: `kosu_ayrik.log`'un AŞAMA TABLOSU
+
+Koşu boyunca log **0,4 KB · 6 satır**ta kaldı (stdout `TextIOWrapper`
+ile sarılı, çıkışta boşalır). Koşu bitince **14+ saatlik aşama
+tablosu** birden dökülecek ve bu, o tablonun **ilk kez** görüleceği yer:
+```
+asama()    ardışık ana aşamalar — toplamları koşu süresini verir
+sayac()    ÇAPRAZ maliyet (kuşatılmışlık üç aşamaya bölünmüş; aşama
+           tablosu tek başına onu ASLA gösteremez)
+ilerleme() uzun döngülerdeki satırlar
+```
+🔴 **OKU ve KAYDET** — bu gece merdiven (dosya damgası) yöntemiyle
+çalışıldı ve o yöntem `uret_petek.py:207`de **3 Ağustos'ta emekli
+edilmiş**; yerine gelen alet koşarken okunamıyor. Tablo, bir sonraki
+koşunun süre tahminini ve darboğaz teşhisini **ölçüye** bağlayacak tek
+kaynak.
+🔜 Ve borç: aşama satırları **tamponsuz** ikinci bir dosyaya da
+yazılmalı — yoksa her koşuda aynı körlük tekrarlanır.
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri
