@@ -1,4 +1,61 @@
-# KOŞU SONRASI KUYRUK — 4 Eylül 2026
+# KOŞU SONRASI KUYRUK
+
+## 🔴 TEK EKRAN — KOŞU BİTİNCE SIRAYLA (5 Eylül 08:20'de tazelendi)
+
+> Ayrıntı ve gerekçeler aşağıdaki bölümlerde. Bu blok **sıra** içindir.
+> 🔴 **SIRA BAĞLAYICI** — her adımın gerekçesi ölçülmüş, atlanırsa ya
+> yayın durur ya bir tavan gevşer.
+
+```
+0  KAPI ÇARESİ         TESPIH.md "KAPI DURACAK" (altlik.js) — 8 satır
+1  KÜNYE               py arac/_kunye_uygula.py --yaz
+                       11 künye hazır (kuru koşu 11 kabul / 0 red)
+                       + denetim/YAMA-KUNYE-HURMUZ · YAMA-KUNYE-ARNAVUTLUK
+2  KRONOLOJİ           py arac/_kronoloji_uygula.py --yaz
+                       🔴 ÖNCE: 17 gerçek mükerrer yamalardan ÇIKARILACAK
+                       🔴 ve 6 "gün düzeltmesi" AYRI (araç append-only)
+                       + denetim/KRONOLOJI-ARNAVUTLUK · KRONOLOJI-SISAM
+3  MISIR `isg:` DÜZELTMESİ   7 kayıt: d:"fransa" → "fransa-cumhuriyet"
+                       🔴 4-5'ten ÖNCE (tavan bu düzeltmeye göre ölçüldü)
+4  İKİ MADDE           1737-10-01 Niş · 1878-09-18 Herseknovi
+                       (`isg:` Değişmez 2'ye girince TAM BU İKİSİ öter)
+5  denetle.py YAMALARI `isg:` evrene eklenir + `harita:` uzayı
+                       TAVANLAR: HAYALET 8→9 · ASAN 280→287 · ONCE 468 SABİT
+6  SAHİPLİK            denetim/yer_yama_*.js → data/ ye TAŞI, sonra
+                       py arac/_sahiplik_uygula.py --yaz    🔴 TEK ELDEN
+                       girit 5 · tunus 36 · makdisu 5 · onikiada 13 ·
+                       litvanya 19 · egeadalari 10 · sisam 1 · arnavutluk 2
+                       + 1923 (himaye 4 · yeni nokta 6) + beyan yamaları
+                       🔴 8 ÇAKIŞMA önce karara bağlanacak (Bağdat · Başkale ·
+                          Halepçe · Kasr-ı Şîrîn · Kutaisi · Yergöğü ·
+                          Çaldıran · Şehrizor)
+                       🔴 YENİ NOKTALAR araçla İNMEZ — elle eklenecek
+7  YAKUT DÜZENLEMESİ   39 kayıt `bos:` devletsiz → kabile
+                       🔴 yamayla İNMEZ (SKALER_KORUNAN) — ELLE
+8  RENK                bosna #2f1896 → #ea12ea
+                       + polonya-erken'e RENK ÜRET (renk_olc.py --oner)
+                       sonra: py arac/renk_olc.py
+9  R1 SINAVI           py denetim/ARAC-DIKIS-0904-olc.py
+                       taban: DİKİŞ 640 parça / 34.318 km²
+10 KAPANIŞ             denetle.py → durum_tablosu → surum_damgala → yayın
+```
+
+### 🔴 KOŞUYU ÖLÇME — kilit dosyası ölçüm DEĞİLDİR
+```
+Get-Process -Id 21540          ← PID'i .petek.kilit'ten al, CANLILIĞI SÜREÇTEN doğrula
+data/donemler.js damgası       ← koşu onu SONDA yazar; değişmediyse koşu SÜRÜYOR
+denetim/BEKCI-KOSU4C.log       ← saatlik "PID … canli" satırı
+```
+
+### ⚪ EMRE'NİN KARARINI BEKLEYENLER (`BEKLEYENLER.md`)
+```
+① tbmm-turkiye haritada hiç yok — Anadolu 1920-23 ayrı boyansın mı
+② bir oturumun `git commit`i izin katmanınca engellendi (dosyalar diskte)
+③ `v:` kimlik taşısın mı — 366 nokta · 42.203 nokta-yıl · dört emsal
+```
+
+---
+ — 4 Eylül 2026
 
 > Koşu 4 bitince **sırayla** uygulanacaklar. Hepsi bugün ölçüldü ve
 > donmuş dosyalara dokunduğu için bekliyor.
