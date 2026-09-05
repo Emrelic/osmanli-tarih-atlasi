@@ -30,6 +30,38 @@
    "not_kaynak": "2/4 KALDI — üçüncü olay (Chickamauga direnişinin 1794'te sona ermesi) künyenin kendi t: aralığının (…-1791-07-02) DIŞINA düşüyor, EKLEMEDİM, yalnız BİLDİRİYORUM: künyenin 'son' tarihi büyük olasılıkla Cherokee-Amerikan Savaşları'nın TAMAMINI değil yalnız Holston Antlaşması'nı temsil ediyor; künye sahibi t:'yi 1794-11-26'ya çekmeyi değerlendirebilir (bu durumda 1794 olayı da eklenebilir)."
   },
   {
+   "id": "choctaw",
+   "eklenen": [
+    {"t": "1830-09-15", "tur": "antlasma", "b": "ABD komisyonerleri, Dancing Rabbit Creek'te 6000 kadar Choctaw erkek, kadın ve çocukla görüşmeler başlattı", "kaynak": "bulunamadı (TDV yok) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Treaty of Dancing Rabbit Creek') doğrulandı."},
+    {"t": "1830-09-27", "tur": "son", "b": "Dancing Rabbit Creek Antlaşması imzalandı: Choctaw, Mississippi ve Alabama'daki on milyon dönümlük topraklarını ABD'ye devredip Oklahoma'ya yerleşmeyi kabul etti — Kaldırma Yasası kapsamında yürürlüğe giren ilk antlaşma", "kaynak": "bulunamadı (TDV yok) — BİRİNCİL BELGE emsalli standart akademik kaynak, GÜN hassasiyeti çevrimiçi kurumsal kaynaklarla (Encyclopedia of Alabama) doğrulandı. Künyenin kendi t: alanıyla BİREBİR eşleşiyor."}
+   ],
+   "not_kaynak": "2/4 KALDI — 1830 öncesi (Fransız/İngiliz ittifak dönemi) için bu turda GÜN hassasiyetli ikinci bir olay aranamadı (zaman kısıtı). Kalem açık."
+  },
+  {
+   "id": "creek-konfederasyonu",
+   "eklenen": [
+    {"t": "1813-08-30", "tur": "savas", "b": "Red Stick (militan) Creek fraksiyonu, Fort Mims'e saldırıp neredeyse herkesi öldürdü; Creek İç Savaşı ABD'yi doğrudan çatışmaya çekti", "kaynak": "bulunamadı (TDV yok) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Creek War') doğrulandı."},
+    {"t": "1814-03-27", "tur": "savas", "b": "Horseshoe Bend Muharebesi'nde General Andrew Jackson, Red Stick kuvvetlerini kesin biçimde yendi (yaklaşık 800 Mvskoke öldürüldü)", "kaynak": "bulunamadı (TDV yok) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla doğrulandı."},
+    {"t": "1814-08-09", "tur": "son", "b": "Fort Jackson Antlaşması imzalandı: Creek Konfederasyonu, bugünkü güney Georgia ve orta Alabama'da 21 milyon dönümden fazla toprağını ABD'ye devretti", "kaynak": "bulunamadı (TDV yok) — standart akademik/kurumsal kaynak (Encyclopedia of Alabama, New Georgia Encyclopedia), GÜN hassasiyeti doğrulandı."}
+   ],
+   "not_kaynak": "3/4 — künyenin kendi t: alanı (1832-03-24) 1814 Fort Jackson Antlaşması'ndan 18 yıl SONRA; muhtemelen bu, Creek'in NİHAİ kaldırma antlaşmasını (1832 Cusseta Antlaşması) gösteriyor, Fort Jackson'ı değil. Künye sahibine bildiriliyor — 1814 maddesi 'son' değil ara aşama olarak eklendi, çelişki değil."
+  },
+  {
+   "id": "powhatan",
+   "eklenen": [
+    {"t": "1607-01-01", "tur": "antlasma", "b": "İngiliz yerleşimciler Jamestown'ı kurdu; Powhatan Konfederasyonu ile başlangıçta diplomatik ilişki ve ticaret ortaklığı kuruldu", "kaynak": "bulunamadı (TDV yok) — standart akademik/kurumsal kaynak (NPS), çevrimiçi doğrulandı."},
+    {"t": "1614-04-05", "tur": "antlasma", "b": "Pocahontas, John Rolfe ile evlenip iki taraf arasında geçici bir barış dönemi (Pocahontas Barışı) başlattı", "kaynak": "bulunamadı (TDV yok) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Pocahontas') doğrulandı."},
+    {"t": "1622-03-22", "tur": "savas", "b": "Powhatan'ın kardeşi Opechancanough, İngiliz yerleşimlerine ani bir saldırı düzenletip yaklaşık 1200 kişiden 347'sini öldürttü", "kaynak": "bulunamadı (TDV yok) — standart akademik kaynak, GÜN hassasiyeti çevrimiçi ikincil kaynaklarla doğrulandı."}
+   ]
+  },
+  {
+   "id": "pueblo-bagimsizligi",
+   "eklenen": [
+    {"t": "1680-08-10", "tur": "isyan", "b": "Popé önderliğinde Pueblo halkları ayaklanıp İspanyol kolonizatörleri bölgeden kesin biçimde kovdu", "kaynak": "bulunamadı (TDV yok) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Pueblo Revolt') doğrulandı. Künyenin kendi f: alanıyla BİREBİR eşleşiyor."},
+    {"t": "1692-09-12", "tur": "son", "b": "Vali Diego de Vargas, Pueblo liderleriyle görüşüp bölgenin İspanyol yönetimine yeniden geçtiğini resmen ilan etti", "kaynak": "bulunamadı (TDV yok) — standart akademik kaynak, GÜN hassasiyeti çevrimiçi ikincil kaynaklarla ('Diego de Vargas') doğrulandı. NOT: künyenin kendi t: alanı 1692-08-01 — bu olay 1692-09-12, ~6 hafta fark; künye sahibine bildiriliyor."}
+   ]
+  },
+  {
    "id": "komanci",
    "eklenen": [],
    "not_kaynak": "ÖLÇÜLEMEDİ — bulduğum tek sağlam tarihli olay (1719, Rio Grande baskını) künyenin kendi f:'sinin (1750) 31 YIL ÖNCESİNE düşüyor; künye 'Comanchería'nın SİYASİ/ASKERİ egemenlik dönemini (1750'den itibaren at kültürüyle bölgeye hakimiyet) temsil ediyor görünüyor, 1719 erken bir öncül olay. Aralık dışına taşan bir olayı zorlamadım. Bu turda vakit kalmadığı için ikinci bir arama yapamadım — KALEM AÇIK. 0/4 bırakıyorum."
