@@ -63,13 +63,13 @@
       "3km_sinavi": "en yakın mevcut nokta: Sayansk ostrogu, 151,04 km — MÜKERRER DEĞİL",
       "kur": "bulunamadı",
       "s_onerisi": [
-        {"f": "1281-01-01", "t": "1368-09-14", "d": "yuan-hanedani", "kaynak_notu": "🟢 KAPATILDI — kaynak SUSMUYOR: Wikipedia 'Tuva' maddesi (ana madde) açıkça \"Tuva was controlled by the Mongol Empire (1206-1271) and then the Yuan dynasty (1271-1368)\" diyor, ve Budist tapınak kalıntılarıyla ARKEOLOJİK olarak da destekleniyor. `§11`in Çukotka/Yakut ayrımı: kaynak KONUŞUYOR ⇒ `bos:` değil `s:` yazılır. devletler.js'teki mevcut `yuan-hanedani` künyesi zaten bu dönemi (1271-1368) kapsıyor, YENİ künye gerekmedi."},
+        {"f": "1281-01-01", "t": "1368-09-14", "d": "yuan-hanedani", "kaynak_notu": "🟢 İKİNCİ KAYNAKLA DÜZELTİLDİ (M-2767 uyarısı doğruydu — ilk turda yalnız Wikipedia yazmıştım). TDV denendi (`mogollar`+`cengiz-han` raw HTML okundu, 1207/Tuva/Uryank hiç geçmiyor — TDV bu taneciği kapsamıyor, doğrulandı). Akademik kaynak BULUNDU: Paul D. Buell, \"Early Mongol Expansion in Western Siberia and Turkestan (1207-1219)\" — Cengiz Han'ın 1207'de oğlu Cuci'yi Sibirya 'orman halkları'na (Uryankhay, Oyrat, Barga, Hakas, Buryat, TUVA dahil) gönderdiğini, Oyrat prensi Kuduka-Beki önderliğinde Sayan Dağları'ndaki bu boyların tâbi kılındığını anlatıyor. Wikipedia 'Tuva' ana maddesiyle DE eşleşiyor (1206-1271 Moğol İmparatorluğu, 1271-1368 Yuan). `§11` Çukotka/Yakut ayrımı: kaynak KONUŞUYOR ⇒ `bos:` değil `s:`. devletler.js'teki mevcut `yuan-hanedani` künyesi (f:1271) zaten atlas ufkundan (1281) önce başladığı için 1281-1368 aralığının TAMAMINI kapsıyor, boşluk kalmıyor."},
         {"f": "1368-09-14", "t": "1636-05-15", "d": "kuzey-yuan", "kaynak_notu": "devletler.js'teki MEVCUT `kuzey-yuan` künyesinin kendi f/t'si (1368-1691) — Tuva'nın bu bozkır hanlığının kapsamında olduğu COĞRAFİ ÇIKARIM, Çaa-Höl'e ÖZEL bir kaynak DEĞİL"},
         {"f": "1636-05-15", "t": "1912-02-12", "d": "qing-hanedani", "kaynak_notu": "BÖLGESEL ÇIKARIM (Kızıl kaydındaki gerekçe)"},
         {"f": "1912-02-12", "t": "1921-08-14", "d": "cin-cumhuriyeti", "kaynak_notu": "Kızıl kaydındaki basitleştirme AYNEN geçerli"},
         {"f": "1921-08-14", "t": "1923-10-29", "d": "tannu-tuva", "kaynak_notu": "DOĞRUDAN KAYNAKLI — Wikipedia 'Chaa-Khol' maddesi köyün bugünkü Tuva Cumhuriyeti sınırları İÇİNDE (Chaa-Kholsky District) olduğunu coğrafi olarak doğruluyor."}
       ],
-      "damga": "TUTTU — 87 yıllık boşluk kapatıldı (yuan-hanedani, kaynaklı), zincir artık 1281'den 1923-10-29'a KESİNTİSİZ"
+      "damga": "TUTTU (İKİ KEZ DÜZELTİLEREK) — 87 yıllık boşluk artık İKİ bağımsız kaynakla (Wikipedia + Buell akademik) kapatıldı, zincir 1281'den 1923-10-29'a KESİNTİSİZ"
     },
     {
       "ad": "Turan",
@@ -110,6 +110,26 @@
       "onem": "Bu değişiklik 1923-10-29 SINIRINI (site ufkunu) tamamen AŞIYOR — 1924-1926 arası bir olay, sorulan tarihi HİÇ ETKİLEMEZ. Koordinatörün açık isteği üzerine yazıldı (M-2734/M-2756: 'o tarihi kullan, benim varsayımımı değil' · 'silinmez, yamada kalır'). YAMADA KALIYOR — ayrı bir karar DEĞİL."
     }
   ],
+  "tutarlilik_sinavi": {
+    "_yontem": "Her nokta için `s:` zincirindeki HER kimliğin dönemi, o kimliğin KÜNYESİNİN (devletler.js'te mevcut ya da YAMA-KUNYE-1923-0905.json'da önerilen) kendi f:/t: penceresi İÇİNDE mi diye tek tek kontrol edildi.",
+    "yeni_6_nokta": {
+      "sonuc": "6/6 TUTARLI — hiçbir segment kendi künyesinin penceresi DIŞINA taşmıyor",
+      "detay": [
+        "Ajdir/Annual: merini(1196-1549)⊇1281-1549 ✓ · sadi(1549-1659)=1549-1659 ✓ · fas(1549-1923-10-29)⊇1659-1921-09-18/19 ✓ · rif-cumhuriyeti(önerilen 1921-09-18/19→1923-10-29)=nokta periyoduyla BİREBİR ✓",
+        "Kızıl: cin-cumhuriyeti(1911-10-10→1923-10-29)⊇1914→1921-08-14 ✓ · tannu-tuva(önerilen 1921-08-14→1923-10-29)=BİREBİR ✓",
+        "Çaa-Höl/Turan/Sağlı: yuan-hanedani(1271→1368-09-14)⊇1281→1368-09-14 ✓ · kuzey-yuan(1368-09-14→1691-05-30)⊇1368-09-14→1636-05-15 ✓ · qing-hanedani(1636-05-15→1912-02-12)=BİREBİR ✓ · cin-cumhuriyeti⊇1912-02-12→1921-08-14 ✓ · tannu-tuva=BİREBİR ✓"
+      ]
+    },
+    "sefsaven_eklentisi": {
+      "sonuc": "🔴 2/3 SEGMENT TUTARSIZ ÇIKTI — ve bu BEKLENEN bir tutarsızlık, gizlenmiyor",
+      "detay": [
+        "fas(...→1659-1923-10-29) ile önerilen (...→1924-11-15): 1923-10-29 ile 1924-11-15 arası nokta periyodu künyenin KENDİ PENCERESİNİN DIŞINA taşıyor — künye 1923-10-29'da bitiyor, nokta onu 1 yıl daha uzatıyor",
+        "rif-cumhuriyeti(önerilen 1921-09-18/19→1923-10-29) ile önerilen (1924-11-15→1926-05-27): nokta periyodu künyenin BİTİŞİNDEN SONRA başlıyor — TAMAMEN dışarıda",
+        "fas (1926-05-27→) ile aynı künye (...→1923-10-29): yine tamamen dışarıda"
+      ],
+      "yorum": "Bu üç 'dışarıda' segment, `§11`in bu gece başka bir oturumun bulduğu '15 tam dışarıda dönem' sınıfının AYNISI — AMA farkı: buradaki tutarsızlık KASITLI ve zaten damgalı ('atlas ufkunun dışında, bugün etkisiz'). Künyelerin (fas · rif-cumhuriyeti) t:'si BİLEREK site ufkuna (1923-10-29) kesilmiş, gerçek tarihleri daha ileri gidiyor. Bu bir hata DEĞİL — ama sınav sonucu olduğu gibi raporlanıyor, gizlenmiyor."
+    }
+  },
   "_ozet": {
     "istenen_asgari": 4,
     "teslim_edilen_yeni_nokta": 6,
@@ -117,7 +137,7 @@
     "mevcut_nokta_donem_onerisi": 1,
     "M-2756_TURU_SONUCU": {
       "rif_ikinci_kaynak": "TDV 'abdulkerim-el-hattabi' CANLI — raw HTML `curl` ile BİZZAT doğrulandı (çeviri hatası ihtimali ELENDİ). Annual Savaşı'nın gerçek tarihi TDV'ye göre 22 HAZİRAN 1921 (Wikipedia/ICRC/HistoryNet'in 22 Temmuz'u yerine `§4` gereği TDV esas alındı, DÜZELTİLDİ). rif-cumhuriyeti kuruluşu TDV'de 19 Eylül 1921 — künyenin kabul edilmiş f'siyle (18 Eylül) BİR GÜNLÜK GERÇEK ÇELİŞKİ, koordinatöre AÇIKÇA bildiriliyor (aşağıda).",
-      "yuan_87_yil_bosluk": "KAPATILDI — Wikipedia 'Tuva' ana maddesi Moğol/Yuan idaresini (1206-1368) açıkça tarif ediyor, mevcut `yuan-hanedani` künyesiyle dolduruldu",
+      "yuan_87_yil_bosluk": "KAPATILDI — M-2767 uyarısı doğruydu (ilk turda YALNIZ Wikipedia yazmışım, aynı hatayı tekrarlamışım). TDV denendi (mogollar+cengiz-han raw HTML, konuyu kapsamıyor) ve akademik kaynak BULUNDU: Paul D. Buell 'Early Mongol Expansion in Western Siberia and Turkestan (1207-1219)' — artık İKİ bağımsız kaynak (Wikipedia + Buell)",
       "sefsaven_damgasi": "eklendi — 'atlas ufkunun dışında, bugün etkisiz'"
     },
     "ortak_zayiflik": "İç Rif köylerinin (Ajdir/Annual) 1281-1921 zinciri ve Tuva köylerinin Qing/Çin dönemi (1636-1921) hâlâ BÖLGESEL ÇIKARIMDIR, noktaya ÖZEL kaynak değil — açıkça işaretlendi, gizlenmedi.",
