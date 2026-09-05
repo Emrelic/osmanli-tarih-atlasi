@@ -778,7 +778,23 @@ diyorsa yıl yazılır, künye gün dese bile — ve fark **bildirilir.**
 ⑤ 000 BİR HTTP KODU DEĞİLDİR — taşıma arızasıdır, "ölü" diye damgalanmaz
 ⑥ CANLI slug · DOĞRU madde · DOLU gövde · ve KENDİ İÇİNDE ÇELİŞİK
 ⑦ 🆕 "METİN ÇIKARILAMADI" ≠ BELGEDE METİN YOK
+⑧ 🆕 RAKAM GÖVDEDE GEÇİYOR ≠ GÖVDE O DEĞERİ DESTEKLİYOR
 ```
+⑧ (5 Eylül 2026 · `KÜRE GÖRÜNÜM`): `nube` künyesi `f:543-01-01` taşıyor,
+adı *"Nûbe Krallıkları (Makurya-Alve)"*, ve TDV gövdesinde **"543"
+geçiyor** — bir arama onu **DESTEKLENDİ** diye işaretler. Cümle ise şu:
+> *"Misyonerlerin Nûbe'de Hıristiyanlığı yayma faaliyetleri ilk defa
+> **543**'te başlamış…"*
+
+⇒ Hıristiyanlaşmanın başlangıcı; **krallıkların kuruluşu değil.**
+🔴 ***Değer gövdeye İZLENEBİLİR ama gövde onu BAŞKA BİR ŞEYE bağlıyor.***
+Ve bu, öteki yedi tuzaktan **daha sinsi**: onlar bir doğrulamayı
+*başarısız* kılar, bu onu **YANLIŞ BAŞARILI** kılar — bir arama
+**sahte pozitif** üretir ve kimse bakmaz.
+📌 `§11`in *"eşleşme bulmak, doğru şeyi bulmak değildir"* dersinin
+**tarih doğrulama** yüzü. ⇒ Bir künye tarihini gövdeyle doğrularken
+rakamı bulmak yetmez: **o rakamı taşıyan CÜMLENİN neyi tarihlediği**
+okunur.
 ⑦ (5 Eylül 2026 · `NEHİR SÜRTÜNME`): `WebFetch` üç akademik PDF için de
 *"metin çıkarılamıyor / JBIG2"* dedi. **Üçünün de metin katmanı vardı** —
 `pypdf` on saniyede okudu (Toksoy 55.959 · Ünal 48.133 · Alanoğlu 33.002

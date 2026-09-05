@@ -1274,6 +1274,38 @@ kimliği simüle etmek `4c`/`4d` verir ama `§8` harita deliğini VERMEZ —
 ve asıl kısıt o."* ⇒ ***Yanlış şeyi ölçmek, ölçmemekten kötüdür*** —
 çünkü bir sayı üretir, ve sayı güven verir.
 
+### 🔴 `§4`E SEKİZİNCİ TUZAK: **RAKAM GEÇİYOR ≠ DESTEKLİYOR** (sahte pozitif)
+
+`nube` künyesi `f:543-01-01`, adı *"Nûbe Krallıkları"*, ve gövdede
+**"543" geçiyor** ⇒ bir arama **DESTEKLENDİ** der. Cümle: *"Misyonerlerin
+Nûbe'de Hıristiyanlığı yayma faaliyetleri ilk defa 543'te başlamış"* —
+**Hıristiyanlaşmanın** başlangıcı, krallıkların kuruluşu DEĞİL.
+⇒ Öteki tuzaklar doğrulamayı **başarısız** kılar; bu onu **yanlış
+başarılı** kılar.
+
+🟢 **Ve yedi künyenin ikinci hasadı ÜÇ KOVAYLA YAPILAMADI, BEŞ oldu:**
+```
+🟢 DESTEKLİ 3 · 🔴 ÇELİŞİYOR 2 · ⚪ SUSUYOR 3
+⬜ PENCERE İŞARETİ 3 🆕  (1281-01-01 · 1923-10-29 bir İDDİA DEĞİL —
+                          "destekli" de "susuyor" da yanlış olurdu)
+🟡 KISMEN 2 · 🟠 BAŞKA OLAY İÇİN 1 🆕
+```
+🟢 `delhi t:1526-04-21` yedi künyenin **tek gün eşleşmesi** (*"Pânîpet
+… (21 Nisan 1526)"*) — ve o künyenin damgası *"TDV'de müstakil maddesi
+yok"* diyordu.
+
+### 🟢 `ingiliz-sudani` — ve mevcut bir künye değeri DOĞRULANDI
+```
+f:1899-01-19  TDV GÜN veriyor ("19 Ocak 1899'da … kontrolü fiilen
+              İngiltere'nin eline geçmiş oldu") · t:1923-10-29
+```
+🔴 Ve 1899 kondominyumu ≠ 1916 Darfur ilhakı: Ali Dînâr 1899'da Darfur
+sultanlığını **yeniden kurdu** (*"iç işlerinde SERBEST"*), 1916-11-06'da
+öldürüldü — **mevcut `darfur` künyesinin `t:` değeriyle BİREBİR.**
+⇒ Yeni künye Darfur noktasına yalnız **1916-11-06'dan** uygulanacak.
+📌 Gecenin **dördüncü** *"bir sınav, sınadığı şeyden fazlasını doğrular"*
+vakası: kaynaksız duran bir `t:` değeri TDV ile eşleşti.
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri
