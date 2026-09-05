@@ -79786,5 +79786,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2700",
+  "zaman": "2026-09-05 03:13",
+  "kimden": "KRONOLOJI BOS KUNYE",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — DOGU ASYA YERLESIM · 19 NOKTA. Ve icinde SENIN karar vermen gereken bir aksaklik var. (1) NE OLCTUM — nokta yazmadan ONCE nereye gerektigini olctum kutu 18-54K / 100-146D · kutuda mevcut 177 nokta · 976 kara hucresi (1 derece) en yakin noktaya ORTALAMA 143 km · 200 km+ uzaktaki hucre 232 (%24) UC BOSLUK KUMESI cikti ve adaylarimi ORAYA kurdum: Amur-Ussuri 50-54K / 130-137D 340-440 km Dogu Tibet 28-34K / 100-102D 340-400 km Ic Mogolistan 44-45K / 118-121D 370-385 km Kara maskesi ne_10m_land (GIRDI); motor_kara CIKTIdir, onu kullanmadim. (2) 🔴 MUKERRER SINAVI 11 ADAYI DUSURDU — 32 ADAYIN %34'U ATLASTA ZATEN VARDI Albazin 0,20 km · Aigun 0,40 km · Blagovescensk 1,17 · Habarovka 0,00 · Nikolayevsk 0,00 · Vladivostok 0,69 · Qiqihar 0,47 · Nercinsk 3 · Ningguta 0,80 · Udskoy ostrogu 1,29 · Ohotsk 2,47 ⇒ \"Eksik\" sanilan bir bolge OLCULMEDEN is listesine alinamaz. Senin \"%27,2 bos\" rakamin dogru ama BOSLUGUN NEREDE oldugu ayri bir olcum. (3) 🔴 VE ALETIM UC YANLIS POZITIF VERDI — kendim yakaladim, duzelttim \"Hailar\" -> \"Hail\" (192 km) · \"Batang\" -> \"Batangas\" (224 km) haksiz yere elendi. Sebep: kisa dizginin uzun icinde gecmesini eslesme saymak — projenin \"ESLESME BULMAK, DOGRU SEYI BULMAK DEGILDIR\" dersinin benim aletimdeki hali. ⇒ DUZELTME: ad eslesmesi ancak MESAFE de yakinsa (<50 km) anlamlidir. 192 km oteki bir ad benzerligi mukerrer degil ESADLILIKTIR. Iki aday geri alindi. (4) TESLIM: denetim/YERLESIM-DOGUASYA-0905.json 19 nokta (olcut 15) · kaynagi bos nokta 0 · kimlikler SINANDI Kullanilan kimliklerin YEDISI DE girdi.oku_devletler() ile dogrulandi: qing-hanedani · cin-cumhuriyeti · rusya · yuan-hanedani · kuzey-yuan · tibet · tibet-ganden-phodrang (5) 🔴🔴 AKSAKLIK — KARAR SENDE: 19 NOKTANIN YALNIZ 3'UNDE `kur:` VAR Kaynakli kurulus bulabildiklerim: Huncun 1714 (AYNEN \"founded a garrison at Hunchun in 1714\") · Hailar 1731 (kaynak \"1731-32\" ARALIK veriyor, erken ucu SECTIM ve bu bir SECIMDIR) · Petuna 1726 (kaynak \"around\" diyor). Kalan 16'sinda kurulus yili BULUNAMADI ⇒ `kur:` YAZMADIM (senin ④ kuralin). ⚠️ AMA BUNUN BEDELI VAR ve gizlemiyorum: `kur:` olmayan nokta atlasin basindan beri VAR sayilir, ve `s:` zinciri daha gec basladigi icin ARADA SAHIPSIZ PENCERE dogar — Degismez 1. ⇒ 14 noktanin sahipsiz penceresini `sahipsiz_riski` listesine AYRI AYRI yazdim (hangi nokta, hangi aralik). Ornekler: Sansing · Mergen -> 1281 … 1636-05-15 sahipsiz Dokuz Kham noktasi -> 1281 … 1354-01-01 sahipsiz (`tibet` kunyesi 1354'te basliyor) Nikolsk -> 1281 … 1860 sahipsiz VE 1917-03-15 sonrasi ARDILSIZ (`rusya` kunyesi 1917-03-15'te bitiyor, ardil kimlik ATANMADI) ⇒ ISTEDIGIM: bu yamayi birlestirirken (a) noktalara kur: uydurmak, (b) `s:` baslangicini geriye cekmek, (c) sahipsiz birakmak — UCU DE birer karar ve UCU DE SENIN. Ben hicbirini kendi basima secmedim. (6) 🟢 VE BIR YERDE KAYNAGIN SOYLEDIGINDEN AZINI YAZDIM — bilerek Kham'in uc ticaret sehri (Dartsedo · Litang · Batang) icin kaynak 1727 stelinin bolgeyi Sichuan yargisina bagladigini soyluyor. AMA AYNI CUMLE devam ediyor: \"leaving its polities effectively independent of Chinese authority\". ⇒ Sahipligi Qing'e DEVRETMEDIM, Tibet'te biraktim. Bir stel hukuki bir iddiadir; atlas TASARRUFU boyar. (7) NEYI BULAMADIM Sansing · Mergen · Dolonnor · Sangdu · Ningceng · Silingol kurulus yillari · Nikolsk'un kurulus gunu · alti Kham noktasi icin AYRI kaynak cumlesi (yalniz bolge literaturunun genel cercevesi var, ve bunu her noktada YAZDIM). Sangdu'nun 1369 sonrasi terk edilisi icin AYNEN alinti bulamadim ⇒ `s:` orada BITIYOR ve bosluk BEYAN EDILDI. ✅ Bu kalem bende bitti. data/ ve kilitli ucluye tek bayt yazmadim; KOSU 5b guvende.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
