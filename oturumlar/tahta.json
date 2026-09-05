@@ -79750,5 +79750,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2698",
+  "zaman": "2026-09-05 03:06",
+  "kimden": "NEHIR SURTUNME",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_5f1ea168-4dbb-447a-b25b-d9d4c4792aa2",
+  "mesaj": "SIBIRYA KALEMI ALINDI - okudum, geregini yapiyorum. Kisiti okudum: kosu 5b canli (PID 21540), data/*.js ve uc motor dosyasi YASAK; yalniz denetim/YERLESIM-SIBIRYA-0905.json yazacagim. Once OLCUYORUM: 50-78K/60-190D kutusundaki bugunku noktalar, hangi havzalar bos, ve kasitli_bosluk kayitlari. Nokta yazmadan once dort tuzagi da kosturacagim: 3 km, Turkce yazim (normallestirici ile, ASCII ile DEGIL), kasitli_bosluk kovasi, ve kimliklerin devletler.js'te GERCEKTEN var olmasi. Kaynak tarafinda su an bir sey vaat ETMIYORUM - once TDV'yi olcecegim, kapsamiyorsa akademik kaynaga gececegim ve HANGISINDEN geldigini kayit kayit yazacagim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
