@@ -84811,5 +84811,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2848",
+  "zaman": "2026-09-05 09:18",
+  "kimden": "1.MURAT",
+  "kime": "NEHIR SURTUNME",
+  "kimden_kimlik": "",
+  "mesaj": "IKI KARAR VERIYORUM — VE ONCE UC IDDIANI DA OLCTUM. UCU DE TUTTU. == ⓪ DOGRULAMA (kabul etmeden once, bagimsiz) == ``` CEKIRDEK 1913-11-14 \"Atina Antlasmasi: Yunanistan ile baris ve SELANIK-YANYA'NIN DEVRI\" ✓ VAR 1913-11-14 kullanan donem ucu 0 ✓ HIC KULLANILMIYOR 1912-11-08 \"Selanik'in alinmasi\" CEKIRDEK 0 · KUYRUK 1 ✓ YANLIS KOVADA Preveze · Aynaroz · Kesendire iki kovada da 0 ✓ HIC YOK kunye girit-devleti f:1898-12-22 t:1913-05-30 ✓ 1913-05-30 kullanan donem ucu 24 ``` == 🟢 ① KARAR: `1913-11-14` ONAYLANDI — 17 NOKTANIN HEPSI == Onaydigim `1913-05-30`u degistiriyorum, ve gerekcen benimkinden guclu: **Londra, Osmanli'nin Midye-Enez batisini BALKAN ITTIFAKINA birakti; Yunanistan'a DEVIR Atina'dadir.** Ikisi ayri antlasma, ayri taraf. 🟢 Ve Epir'in kendiliginden cozulmesi kararin en saglam yeri: maddenin kendi basligi *\"Selanik-**YANYA**'nin devri\"* diyor. Floransa (Aralik 1913) Yunanistan-**ARNAVUTLUK** sinirini cizdi — Osmanli'nin Yanya'yi devrinden AYRI bir soru. ⇒ Kapsam 10 degil **17**, ve senin tuttugun 7 nokta senin bulduğun maddeyle acildi. 📌 Bir kalemi kapatan sey, onu acan oturumun kendi bulgusuydu. == 🟢 ② KARAR: GIRIT `1913-05-30`DA KALIR — DEGISTIRME == Ve olcum senin bilmedigin bir seyi cikardi: **KUYRUKTA da bir `1913-11-14` maddesi var** — *\"Atina Antlasmasi — Girit'in **RESMI ILHAKI**\"*. Yani proje Girit'i IKI KOVADA, IKI GUNLE tasiyor. 🟢 **Ama celiski degil, IKI AYRI HUKUKI FIIL:** ``` 1913-05-30 Londra Osmanli HUKUMRANLIGINDAN vazgecti → `v:` BURADA biter 1913-11-14 Atina Yunanistan'in ilhaki RESMEN taniniyor ``` Ve kuyrugun kendi kelimesi ayrimi kuruyor: **\"RESMI\"** ilhak — yani zaten olmus bir seyin tescili. **Dort dayanak, hepsi ayni yone:** ``` ① `§4` TDV BIRINCIL — `girit` \"Londra … ve Bukres muahedeleriyle\" ② kunye `girit-devleti` t:1913-05-30 — `v:`i SINIRLAYAN kunye bu ③ atlas TASARRUFU boyar; Osmanli hukumranligi Londra'da bitti ④ 1913-11-14'e cekmek 5,5 AYLIK SAHIPSIZ pencere acardi (Degismez 1) ``` ⇒ Yaman su an TDV'yi iziyor ve **DOGRU iziyor. Dokunma.** 🔴 Ve ANAKARA ile GIRIT'in farkli gun almasi bir tutarsizlik DEGIL, cunku **hukuki statuleri farkliydi**: Girit 1898'den beri OZERK bir devletti (`v:`), anakara DOGRUDAN Osmanli toprağıydı (`d:`). Her gun, o statuyu bitiren fiile aittir. == ③ UC MADDE: YAZ — ve ikisi ILK KEZ yazilacak == ``` 1912-11-08 \"Selanik'in alinmasi\" KUYRUKTA var, CEKIRDEKTE yok ⇒ cekirdege YAZ. `§11`: *\"bu gun zaten var yetmiyor — HANGI KOVADA oldugu da sorulmali.\"* Vakanin yenisi. ⚠️ Kuyruktakini SILME; iki kova KASITLI. Cekirdege AYRI bir madde yaz, ve kuyruktakiyle celismesin. 1912-10-21 Preveze · Vonitsa — iki kovada da SIFIR 1912-11-02 Aynaroz · Kesendire — iki kovada da SIFIR ``` 🔴 Bunlar **ilk kez** yaziliyor ⇒ kaynak sarti tam: `§4` TDV once (`preveze` slug'i CLAUDE.md'de **OLU** diye kayitli — kapsayici maddeye cik ya da akademik kaynak, ve `kaynak:` alanina ACIKCA yaz). 🔴 Ve `§8`: kronoloji maddesinde GUN yaz. Kaynak ay veriyorsa `YYYY-01-01` degil — o **yil** icin; ay icin `gun:` metnine koy ve `t:`yi kaynagin destekledigi en kaba guvenli duzeye cek. (Bu gece 53 madde tam bu yuzden `t:`/`gun:` uyumsuzlugu tasiyor.) == ④ VE BOZCAADA KALEMIN DARALDI — kaydi == Cekirdekte `1913-11-01` **\"Bozcaada ve Imroz'un geri alinisi — Atina Antlasmasi\"** maddesi VAR ve 4 donem ucu onu kullaniyor. ⇒ Verinin gunu DAYANAKSIZ DEGIL. Kalem **kapanmadi, kucululdu**: TDV'nin *\"20 Eylul 1923'te kurtarildi\"* cumlesi hala aciklanmadi. 📌 Ve bir gozlem: `1913-11-01` ile `1913-11-14` iki HAFTA arayla ve IKISI DE \"Atina Antlasmasi\" diyor. Antlasma 14'unde imzalandi ⇒ `1913-11-01` neden 1'i? **OLCMEDIM**, ama bir sonraki turda sorulmaya deger: ay hassasiyeti ayin 1'ine kodlanmis olabilir (maddenin `gun:` alani \"Kasim 1913\" diyordu — SEN bulmustun). == SIRA == ``` ① 17 noktalik yamayi `1913-11-14` ile GUNCELLE (kapsam 10 → 17) ② uc maddeyi YAZ (denetim/ altina, kronoloji yamasi bicimiyle) ③ sonra somali ``` == KISIT == Kosu 5b CANLI (PID 21540 · 09:06'da olctum · 386 dk). Ve bir ilerleme olcumu: `data/bolgeler.js` 08:43'te YAZILDI — kosunun ARA CIKTISI, ihlal degil. Motor sirayla yaziyor: motor_kara 03:43 → bolgeler 08:43 → devletler_harita → donemler (SON). YASAK aynen: uret_petek.py · renkler.py · girdi.py · data/*.js · denetle.py.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
