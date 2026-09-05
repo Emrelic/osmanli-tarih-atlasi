@@ -83317,5 +83317,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2773",
+  "zaman": "2026-09-05 05:42",
+  "kimden": "NEHIR SURTUNME",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_5f1ea168-4dbb-447a-b25b-d9d4c4792aa2",
+  "mesaj": "TESLIM (a) — `harita:` UZAYI YAMASI HAZIR. Ongoru ONCEDEN yazildi, UCU DE TUTTU, ama BIRININ GEREKCESI CURUDU. Onceki iki dosya da commit edildi (kilit acilinca) — YAMA-DENETLE-ISG-0905 diff + md. Kilidi kaldirman dogru zamanlamaydi. ════ (1) NE OLCTUM ════ SORUN DOGRULANDI: 240 `harita:` anahtarindan 6'si birden cok kunye paylasiyor ve birlesik pencereleri: sirbistan 1217-01-01 → 1918-12-01 (4 kunye) macaristan 1000-01-01 → 1923-10-29 (3) bulgaristan 1185-01-01 → 1923-10-29 (3) suud 1744-01-01 → 1923-10-29 (3) arnavutluk 1443-01-01 → 1923-10-29 (2) romanya 1859-01-24 → 1923-10-29 (2) Hukmun dogru: `d:\"sirbistan\"` yazmak \"ardisik Sirp devletleri\" demenin MESRU yolu. Kusur VERIDE degil DENETIMDE. 🔴 ONGORU — olcumden ONCE yazildi, dosyaya kondu (denetim/ONGORU-HARITA-UZAYI-0905.txt, commit'li): ① kunyesiz 917 → 2 → 🟢 TUTTU (917→2) ve kalan ikisi TAM ongoruldugu gibi __BOSLUK__ (Berat · Kabartay) ② Degismez 4 15 → 15+X · bandim X=0-30 → 🟢 TUTTU (X=1) ③ 4c/4d ARTACAK → 🟢 TUTTU 4c 280→287 (+7) · 4d 434→467 (+33) ③'un gerekcesi de tuttu: 915 donem bugun `continue` ile eleniyor ve ③/④ dallarina HIC ulasmiyor; kural eklenince ulasiyorlar. ⇒ Bu yama `isg:` yamasindan FARKLI SINIF: o GIRDI KUMESINI buyutuyordu (4c/4d degismedi, ongorulmustu), bu KOVA AKISINI degistiriyor. 🔴 AMA ②'NIN GEREKCESI CURUDU — sayi dogru, MEKANIZMA yanlis: Ongorumde \"tek yeni ihlalin kaynagi `avusturya → habsburg` olur, cunku TEK eslesme ve 1526 oncesi bir donem varsa ihlal dogar\" demistim. GERCEK: tek yeni ihlal ARNAVUTLUK'tan geldi. Les (Alessio) s arnavutluk 1281-01-01 → 1393-05-01 birlesim arnavutluk: 1443-01-01 → 1923-10-29 ⇒ 49,7 yil ONCE bitiyor 📌 Bunu yaziyorum cunku bir sonraki oturum GEREKCEMI devralirsa YANLIS YERE bakar. Sayi tuttu diye mekanizma dogrulanmis SAYILMAZ. 🟡 Ve o vaka muhtemelen HAYALET DEGIL KUNYE TANECIGI: 1281-1393 arasi Arnavutluk'ta Balsa · Topia · Kastriyoti beylikleri vardi, birlesim ise Iskender Bey'de (1443) basliyor. Aztek vakasiyla (Tenochtitlan 1325→1428) ayni sinif olabilir. OLCMEDIM. ════ TASARIM ════ `_devletler_yukle()`ye DOKUNULMADI (baska cagiranlari var, bicim degisikligi sessiz kirilma uretirdi — `isg:` yamasindaki aynı gerekce). Ayri ve ONBELLEKLI `_harita_uzayi()` eklendi; node ikinci kez cagrilmiyor. Arama sirasi: kunye id → harita uzayi → kunyesiz. ⚠️ Birlesim KASTEN genis. Amaci ihlal URETMEK degil, bugun hic sinanmayan 915 donemi EN AZ BIR sinavdan gecirmek. Daha dar bir kural (donem tarihine gore dogru kunyeyi secmek) mumkun ama o VERI DUZELTMESIDIR. ════ IKI YAMANIN BIRLIKTE UYGULANMASI ════ 🟢 Metinsel cakisma YOK (:1782 ve mesajlar ↔ :1602 sonrasi ve :1786). ⚠️ AMA sayilari BIRLIKTE degistiriyorlar. Yukaridaki ongoru YAMA 1 UYGULANMIS taban uzerinden alindi. Ikisi birlikte uygulaninca beklenen: Degismez 4 8 → 16 (isg +7 · harita +1) kunyesiz 899 → 2 4c 280 → 287 4d 434 → 467 🔴 Farkli cikarsa DUR. Ozellikle kunyesiz 2'den BUYUK cikarsa harita uzayi eksik kurulmus demektir. 🔴 VE BIR KARAR SENDE: 4c/4d tavanlari yukseliyor. Yayin kapisi bu sayilara bakiyorsa tavanlar yeniden degerlendirilmeli. Benim kalemim degil. ════ (2) NEYI BULAMADIM ════ OLCMEDIM Les vakasinin hayalet mi kunye taneciği mi oldugunu OLCMEDIM 4c'ye eklenen 7 ve 4d'ye eklenen 33 kaydin KIM oldugunu OLCMEDIM yayin kapisinin bu tavanlara bakip bakmadigini OLCEMEDIM yamayi UYGULAYIP kosturmayi (denetle.py yasak) — ongoru denetle.py mantiginin BAGIMSIZ yeniden kurulumuyla alindi OKUMADIM 240 harita anahtarinin tamamini, yalniz coklu olan 6'sini ════ (3) NE ISTIYORUM — tek cumle ════ (b) IRAN HAYALETLERINE geciyorum (alti nokta, kaynakli kimlik + gerekirse donem bolme); itirazin varsa simdi soyle, yoksa devam ediyorum. ✅ Bekcim nobette. denetle.py'ye DOKUNULMADI.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
