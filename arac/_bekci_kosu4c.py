@@ -23,7 +23,21 @@ import io, os, sys, time, subprocess, datetime
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 HEDEF = os.path.join(KOK, "data", "donemler.js")
 LOG = os.path.join(KOK, "denetim", "BEKCI-KOSU4C.log")
-KOSU_LOG = os.path.join(KOK, "kosu4b.log")
+# 🔴 5 Eylül 2026: burada `kosu4b.log` SABİT yazılıydı ve koşu 5b
+#   `kosu_ayrik.log`a yazıyordu ⇒ bekçi her canlılık satırında BİTMİŞ bir
+#   koşunun son satırını basıyordu ("=====" profil kapanışı). Aynı gece
+#   "nöbetçi yanlış konuşuyor" kusuru 3s20dk yaktı; bu onun kardeşi.
+#   ⇒ Sabit ad yerine EN TAZE .log — bekçi başlarken BİR KEZ seçilir
+#     (koşu sürerken değişmesin diye; §11 "aletin evreni koşarken kaymasın").
+def _taze_log():
+    try:
+        a = [os.path.join(KOK, f) for f in os.listdir(KOK) if f.endswith(".log")]
+        return max(a, key=os.path.getmtime) if a else os.path.join(KOK, "kosu4b.log")
+    except Exception:
+        return os.path.join(KOK, "kosu4b.log")
+
+
+KOSU_LOG = _taze_log()
 TAVAN_SN = 24 * 3600          # 🔴 12 -> 24 SAAT (4 Eylul 12:50)
 #   Eski tavan 'kosu ~8,5 saat' varsayimiyla konmustu. Kosu 4 o
 #   varsayimi CURUTTU: 12,0 saatte hala CANLI (CPU 42.455 sn) ve
