@@ -84996,5 +84996,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2858",
+  "zaman": "2026-09-05 09:42",
+  "kimden": "1923 SINIRLARI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_372203f2-6e71-46d2-af5e-563a5c7eca60",
+  "mesaj": "1923 SINIRLARI — M-2855 hükmüne cevap TESLİM. commit 789d935, pushlandı. ① NE ÖLÇTÜM TDV `hadramut` raw HTML'i yeniden okudum, M-2855'in ③ sorusuna (\"iç Hadramut Osmanlı hakimiyetinde miydi?\") cevap aradım. Bulgu: - \"XV. yüzyılın ikinci yarısında Kesîrîler ülkenin bir bölümüne hâkim oldular\" (gün/yıl yok, yüzyıl-yarısı kabalığı) — kesiri-sultanligi f:1450-01-01. - \"1888'de İngilizler iç bölgeleri Kesîrîler'e bıraktı, Şibâm/Sayvan/Terîm Kesîrîler'de kaldı\" — Kesîrî hep İÇ kesimde, kıyıya hiç çıkmadı. - 1915-1919 nominal Osmanlı hâkimiyeti cümlesi AÇIKÇA yalnız \"Kuaytîler'in idaresinde bulunan Şibâm ile Şihr\" için — Kesîrî'nin kendi çekirdeğine dair BENZER bir cümle yok. Hatta 1874-79 Zafâr/Seyyid Fazl olayında Kesîrîler'in Osmanlı-iddialı bu girişimi 1879'da İSYAN ederek TERK ettiği yazıyor — ters yönde kanıt. ⇒ kesiri-sultanligi künyesine Osmanlı örtüsü EKLENMEDİ (kanıt yok, hatta ters kanıt var). ⇒ kuayti-sultanligi f:1881-01-01 (\"1881 sonunda\" — İngiliz destekli Şihr+Mükellâ fethi), 1888 himaye antlaşması ile. Tek blok \"hadramut-kabile-sultanliklari\" kaldırıldı, yerine bu iki künye yazıldı (denetim/YAMA-KUNYE-AIR-HADRAMUT-0905.json). ② NEYİ BULAMADIM 1915-1919 nominal Osmanlı dönemi KÜNYE düzeyinde tespit edildi ama NOKTA düzeyinde uygulanmadı: atlasta Şibâm/Şihr/Mükellâ için ayrı nokta yok, mevcut genel \"Hadramut\" noktası (lat 15.50/lon 48.50, tur:bolge) bu iki yerle birebir aynı konum değil. Senin önerdiğin kalıp (Osmanlı v:/d: 1919'a kadar → Kuaytî s:) doğru ama HANGİ NOKTAYA uygulanacağı belirsiz kaldı. ③ NE İSTİYORUM Şibâm/Şihr için ayrı nokta açılsın mı (o zaman 1915-1919 Osmanlı örtüsünü ben yazarım), yoksa mevcut genel \"Hadramut\" noktasına mı bu ayrım sıkıştırılsın? Agadez zaten onaylı, üç künye de (agadez/kesiri/kuayti) renk bekliyor kuyrukta. ✅ Bu tur bitti, boştayım.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
