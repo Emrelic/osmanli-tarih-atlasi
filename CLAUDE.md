@@ -4827,6 +4827,62 @@ ingiliz-guyanasi · ve id'siz bir öğe
   `_sahiplik_uygula.py` `data/` dizinini `^yer_yama.*\.js$` ile tarıyor
   ve `denetim/` altına **hiç bakmıyor** — kuyruğun ⑥. adımının *"önce
   `data/`ye TAŞI"* demesi bu yüzden doğru.
+
+- 🔴🔴 **İZLENEBİLİRLİK, DOĞRULANMIŞLIKTAN ÖNCE GELİR — çünkü izlenebilir
+  olan sonradan doğrulanabilir, doğrulanmış ama izlenemeyen bir daha
+  sınanamaz.** *(5 Eylül 2026 · `cahokia 1050` · koordinatör hükmü)*
+
+  İki yama aynı olay için çarpıştı ve `§4`ün iki değeri karşı karşıya
+  geldi:
+```
+A  kaynağı ADIYLA veriyor (EBSCO + başlık) ama "🟡 DEVRALDIM" damgalı
+B  DOĞRULAMIŞ ama kaynağı ADSIZ
+```
+  ⇒ **A kazanır.** `§4`ün kırmızı çizgisi zaten bunu söylüyor:
+  *"Kaynağı yazılmayan bilgi, kaynağı olmayan bilgiden ayırt edilemez."*
+  Adsız bir doğrulama, doğrulayan oturum kapandığında **hiçbir şeye
+  dayanmaz**; adlı ama devralınmış bir kaynak yarın **açılıp
+  sınanabilir.**
+  ⚠️ Şartı: `DEVRALDIM` damgası birleştirilmiş kayda **taşınır** —
+  düşürülürse hüküm bir doğrulama iddiasına dönüşür ve o iddia sahte olur.
+
+  🟢 **Ve eşitlik bozulmuyorsa ölçüt merdiveni iner:**
+```
+① DAYANAK      izlenebilirlik → sonra doğrulanmışlık
+② eşitse İÇERİK  hangi metin daha çok DOĞRULANABİLİR ayrıntı taşıyor
+③ o da eşitse   ARACIN KABUL ETTİĞİ kalır — değiştirmenin maliyeti var,
+                kazancı yok
+```
+  📌 ③ bir *"kıdem doğruluk ölçütüdür"* iddiası **değil**: ilk ikisi
+  ayırdığında kıdem hiç sorulmuyor. Kıdem yalnız **hiçbir şey ayırt
+  etmediğinde** ve *maliyet* gerekçesiyle devreye giriyor.
+
+- 🟢 **BİR DAMGA, BİR HÜKMÜN DAYANAĞI OLABİLİR.** *(aynı tur ·
+  `NEHİR SÜRTÜNME`)*
+
+  Dokuz çarpışmanın altısında bir taraf kazandı, ve sebebi hep aynıydı:
+  öteki taraf künyenin kendi alanından **devralmış ve doğrulamamıştı** —
+  ve bunu `kaynak:` alanında **açıkça damgalamıştı** (`🟡 DEVRALDIM`).
+  ⇒ ***O damga olmasaydı iki taraf EŞİT görünürdü ve hüküm
+  verilemezdi.*** `§11`in *"ölçmediğini `ölçmedim` diye yaz"* kuralı
+  burada bir dürüstlük jesti değil, **bir hükmün dayanağı** oldu.
+  ⚠️ Ve ölçen oturum deseni bir kurala çevirmedi: yedinci vakada
+  (`natchez`) damgalı taraf **hakemli ve adlı** bir çalışma gösteriyordu
+  ve **kazandı.** *"Dosyaya göre değil, VAKAYA göre hüküm"* — altının
+  aynı yöne çıkması bir gözlem, bir kural değil.
+
+- 🟢 **BİR DAVRANIŞ KASITLI OLABİLİR VE YİNE DE EKSİK OLABİLİR — kusur
+  DAVRANIŞTA değil, olmayan bir ÖLÇÜTTEDİR.** *(aynı tur)*
+
+  Kronoloji uygulayıcısının *"iki yeni yama çarpışırsa ilk okunanı tut"*
+  davranışı bir kaza değil: `:259` satırı kabul edilen her maddeyi
+  görülmüşler kümesine ekliyor ve yorumu bunu **açıkça** söylüyor
+  (*"aynı parti içinde de mükerrer olmasın"*).
+  ⇒ Davranış doğru; eksik olan **adayları sıralayan bir ölçüt.** Araç
+  *"hangisi"* sorusunu sormuyor çünkü o soru **hiç tanımlanmamış.**
+  🟢 Ve aynı okuma bir sayıyı da kesinleştirdi: üç red dalından ikisi
+  bu koşuda **0** kez ateşledi ⇒ **16 bir alt sınır değil, TAM SAYI**,
+  ve kronolojide künye tarafındaki gibi bir şema kusuru **yok.**
   📌 `§11`in *"`0`, 'yok' ile 'bakmadım' arasında ayrım yapmaz"*
   dersinin **dönüş değeri** ve **alan adı** yüzleri — ve `§4`ün
   *"bir alan adı, kullanıldığı yerden değil TANIMLANDIĞI yerden
