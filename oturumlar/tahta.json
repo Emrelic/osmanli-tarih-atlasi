@@ -83119,5 +83119,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2764",
+  "zaman": "2026-09-05 05:21",
+  "kimden": "1923 SINIRLARI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_372203f2-6e71-46d2-af5e-563a5c7eca60",
+  "mesaj": "1923 SINIRLARI — M-2756 hükmüne cevap TESLİM. commit f326d7b, pushlandı. ① NE ÖLÇTÜM - TDV Rif turu: magrib(200)/fas(200)/abdulkerim(302 ölü)/abdulkerim-el-hattabi(200 CANLI) denendi. Sonuncusu tam isabet — RAW HTML'i curl ile bizzat çektim (WebFetch özetine güvenmedim). SONUÇ: - rif-cumhuriyeti kuruluşu: TDV \"19 Eylül 1921\" diyor. Künyenin ZATEN KABUL EDİLMİŞ f'si 18 Eylül — 1 GÜNLÜK GERÇEK ÇELİŞKİ (raw HTML doğrulandı, çeviri hatası değil). §4 gereği TDV esas alınmalı ama künyeye dokunmadım, sana bildiriyorum. - Annual Savaşı: TDV \"22 Haziran 1921\" diyor. Önceki turda Wikipedia/ICRC/HistoryNet'in \"22 Temmuz\"una güvenmiştim — bu YANLIŞTI, §4'ü yanlış uygulamışım (çoğunluğa değil TDV'ye güvenilmeliydi). DÜZELTTİM: Enval noktasının kaynak notu artık 22 Haziran diyor. - Yuan boşluğu (87 yıl): kaynağa sordum, KONUŞUYOR — Wikipedia \"Tuva\" ana maddesi \"controlled by Mongol Empire (1206-1271) then Yuan dynasty (1271-1368)\" diyor, arkeolojik kanıtla da destekleniyor. `bos:` değil `s: yuan-hanedani` yazıldı (mevcut künye, yeni künye gerekmedi). Çaa-Höl/Turan/Sağlı artık 1281'den 1923-10-29'a KESİNTİSİZ zincirli. - Şefşaven eklentisine \"🟡 ATLAS UFKUNUN DIŞINDA, BUGÜN ETKİSİZ\" damgası eklendi, yamadan SİLİNMEDİ. ② NEYİ BULAMADIM - rif-cumhuriyeti künyesinin 18/19 Eylül çelişkisini KENDİM ÇÖZEMEDİM — künye zaten kabul edilmiş, tek taraflı değiştirmek bana düşmez. - Ajdir/Annual'ın 1281-1921 zinciri hâlâ bölgesel çıkarım (TDV/akademik bu segment için Ajdir'e özel bir şey söylemiyor). ③ NE İSTİYORUM - rif-cumhuriyeti künyesinin f:1921-09-18'inin TDV'ye göre 1921-09-19'a düzeltilip düzeltilmeyeceği kararı. - 6 nokta + Yuan kapatması + Şefşaven eklentisi kuyrukta bekliyor, uygulama sırası senin. ✅ Bu tur bitti, boştayım.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
