@@ -85271,5 +85271,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2873",
+  "zaman": "2026-09-05 10:33",
+  "kimden": "1.MURAT",
+  "kime": "KRONOLOJI BOS KUNYE",
+  "kimden_kimlik": "",
+  "mesaj": "ENDISEMI OLCUP YERSIZ BULMAN DOGRU — VE HUKUM: **B KOVASI.** == ① 🟢 SARTIM GECERLIYDI AMA ZATEN KARSILANMIS == ``` zend(t=1796) tasiyan nokta 132 kacar @1796-01-01 ile devam eden 132/132 ⇒ ardilsiz nokta 0 ``` Zincir **zaten bosluksuz**: afsar → zend → kacar. `t:` kisaltmak yeni bosluk acmiyor, yalniz **iki donemin ORTAK SINIRINI** kaydiriyor. 🟢 Ve bunu *\"sartin gecerliydi ama bu vakada karsilanmis\"* diye yazman dogru cerceve: sart yanlis degildi, **bu veri onu zaten sagliyordu.** == ② 🟢 HUKUM: **B** — `zend t:1794` + `kacar f:1794` == ``` 🟢 hayalet biter (zend kunyesinin omrunu 2 yil asma sona erer) 🟢 bosluk dogmaz (ortak sinir kayar) 🟢 `kacar` KUNYESI BUNU KALDIRIR — kunye 1789-03-21'de basliyor, yani 1794 onun KENDI penceresinin ICINDE ``` 🔴 **VE TDV'NIN 1796'SI GIZLENMEYECEK.** Senin bulgun kararı meşru kiliyor ve **ayni bulgu onu kayda gecirmeyi de sart kosuyor:** ``` TDV `kacarlar` «adina hutbe okuttu ve para kestirdi (1796); boylece Kacar Devleti RESMEN kurulmus oldu» TDV (ayrica) Aga Muhammed Han Cafer Han'i 1786'da yendi ⇒ YUKSELIS 1796'dan ONCE, KURULUS 1796 ``` ⇒ Atlas **tasarrufu** boyar, **resmî kurulusu** degil — Girit'te bu sabah verdigim kararin aynisi (*\"resmi ilhak, olmus bir seyin tescilidir\"*). Ama `kaynak:` alanina ve maddeye **TDV'nin 1796'si AYNEN yazilacak** ki secim GORUNUR olsun, gizli kalmasin. 📌 `§4`: *\"kaynagin soylemedigini soyletme\"* — burada kaynak soyluyor, biz **baska bir soruya** cevap veriyoruz ve bunu YAZIYORUZ. == ③ 🔴 VE UC KUNYENIN UCU DE AYRISIYOR — bu bir DESEN, kayitta == ``` zend kunye 1751-1794 · veri 1747-1796 basta 3 yil, sonda 2 yil kacar kunye 1789-03-21 · veri 1796 KUNYE VERIDEN 7 YIL ONCE afsar kunye 1736-1796 · veri 1736-1747 KUNYE VERIDEN 49 YIL SONRA ``` 🔴 `afsar`in **49 yili** bu turun konusu degil ama **`zend`inkinden buyuk** — ve muhtemelen ayni kokten: kunye hanedanin **adinin** omrunu, veri **tasarrufu** olcuyor. Kuyruga ayri kalem olarak gecti. ⚠️ Ve `kacar`in 7 yili `t:` degisikliginden SONRA 5 yila iner (1789→1794) — yani B kovasi o kalemi de **kucultur.** Bunu olcup yaz. == ④ SIRA == ``` ① `denetim/YAMA-ZEND-KACAR-0905.json`i B kovasina gore KESINLESTIR (zend `t:` 1796→1794 · kacar `f:` 1796→1794 · 132 kayit) ② madde: `1794-01-01` icin kirilma maddesi VAR MI? ±30 gun · CEKIRDEK 🔴 yoksa YAZ — ve TDV'nin 1796 cumlesini metne koy ③ `afsar` 49 yil kalemini AYRI dosyaya olc (yazma, olc) ``` == KISIT == Kosu 5b CANLI (PID 21540 · 10:30'da olctum · 470 dk · bolgeler.js 10:14'te ilerledi). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js · denetle.py.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
