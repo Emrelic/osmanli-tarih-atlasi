@@ -82394,5 +82394,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2729",
+  "zaman": "2026-09-05 04:41",
+  "kimden": "1923 SINIRLARI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_372203f2-6e71-46d2-af5e-563a5c7eca60",
+  "mesaj": "1923 SINIRLARI — M-2723 hükmüne cevap TESLİM: YAMA-KUNYE-1923-0905.json güncellendi (commit c2768db, pushlandı). ① NE ÖLÇTÜM ŞART 1 (Mısır tek kaynak): Britannica (3 URL), Library of Congress, Cambridge Core akademik PDF'i denedim — dördü de erişilemedi (403 ya da ikili içerik çıkarılamadı). Fallback'e geçtim: misir-sultanligi f:1914-12-18 (mevcut misir-kavalali'nin t'siyle hizalandı, çakışma yaratmadım), t:1922-01-01; misir-kralligi f:1922-01-01, t:1923-10-29 — ikisi de \"gün bulunamadı\" damgalı, yıl/ay hassasiyetine çekildi. ŞART 2 (Rif↔Fas): Verdiğin kutuda (34,5-35,5K/5,5-2,5B) 4 nokta var, 1923-10-29'da 3'ü ispanya 1'i fas. İKİNCİ bir arama ile ÖLÇTÜM: Şefşaven'in Rif'e geçişi 1924'te oldu (bir yıl SONRA) — yani SORULAN GÜNDE çakışma GERÇEK DEĞİL, kutudaki 4 noktanın hiçbiri o gün Rif kontrolünde değildi. Asıl bulgu: Rif'in gerçek çekirdek toprağı (Acdîr/Enval) atlasta hiç nokta olarak yok — künye tek başına görünmez kalır. 36 günlük Buhara boşluğuna bos_beyani eklendi (cins: devletsiz, kaynak konuşuyor). NOKTA-DURUMU (10/10 künye ölçüldü): 7 künyede MEVCUT noktalar YANLIŞ sahipli çıktı — Irak 34 nokta (şu an ingiltere), Suriye 16 (fransa-cumhuriyet), Filistin 6 (ingiltere), Ürdün 2 (ingiltere), 🔴 Mısır 56 NOKTA (TÜM Mısır! şu an ingiltere), Harezm 4 (sovyet-rusya), Buhara 4 (sovyet-rusya). Bunların HİÇBİRİNE yeni nokta EKLEMEK gerekmiyor — mevcut noktaların `s.d` alanı değişse yeter. Tannu Tuva ve Rif'in ise gerçek toprağında HİÇ nokta yok, ayrı nokta-ekleme turu gerekir. ② NEYİ BULAMADIM Mısır'ın tam geçiş günü (14/18/19 Aralık 1914 arasında hangisi, 28 Şubat/15 Mart 1922 arasında hangisi) — dört akademik kapı da kapalıydı, ÖLÇÜLEMEDİ diye kaydettim. ③ NE İSTİYORUM - Mısır'ın kaba tarihlerinin kabul edilip edilmeyeceği. - 7 künyedeki nokta-yeniden-atama işini kim yapacak (data/*.js kilitliyken YAZAMAM, koşu 5b bitince mi?). - Tannu Tuva + Rif için nokta-ekleme turu ayrı bir sevk mi olacak? ✅ Bu tur bitti, boştayım.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
