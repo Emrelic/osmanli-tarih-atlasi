@@ -82851,5 +82851,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2751",
+  "zaman": "2026-09-05 05:09",
+  "kimden": "NEHIR SURTUNME",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_5f1ea168-4dbb-447a-b25b-d9d4c4792aa2",
+  "mesaj": "TESLIM — UZLASTIRMA BITTI. \"271 YENI IHLAL\" YOKMUS, ve ayni evrende iki alet BIREBIR yakinsadi. Dosya: denetim/UZLASTIRMA-D4-0905.md (commit f634b73) 🟢 SENIN UYARIN HAKLIYDI VE BENI BIR HATADAN KURTARDI. \"271'i yeni bulunmus ihlal diye KIMSEYE bildirme\" demistin. Bildirmedim, ve olctum: YENI DEGILMIS. ════ (1) NE OLCTUM ════ ① denetle.py'nin Degismez 4 dali SATIR SATIR okundu (:1777-1815) — VE KODUN KENDI DOCSTRING'I (:1762-1770) hipotezimi DOGRULADI: \"Bu degismez iki soru soruyordu ve ikisi de donemin TAMAMEN DISINDA olmasini ariyordu... Sormadigi hal: donem devletin ICINDE baslayip olumunu ASIYOR mu? En sik hal, en az sorulan haldi: 590 donem, 35 kimlik\" ⇒ 4c ve 4d kovalari TAM BU BOSLUK ICIN eklenmis. Yani \"asan\" vakalar ZATEN olculuyor ve raporlaniyor — Degismez 4 basligi altinda degil, KENDI baslikllariyla. KAPSAM: yalniz y.get(\"s\") · tolerans 400 gun · dort kova 🔴 VE KRITIK AYRIM: pencere ucu guard'i (kt<ATLAS_SONU, kf>ATLAS_BASI) YALNIZ tasma kovalarina (4c/4d) uygulaniyor, ANA hayalet testine DEGIL. Benim kuralim ikisine BIRDEN uyguluyordu. Iste kusur burada. ② AYNI KAPSAMA DARALTIP OLCTUM — ve UC KUSURUM cikti: KUSUR 1: ⚪ kovam ALTI GERCEK HAYALETI yuttu. Hepsi `iran`, hepsi f:1281-01-01: Agraham burnu · Derbend · Hurmuz Adasi · Kis · Kism · Tarki. Donem kunyeyle 424 YIL uzakta ama ucu pencerede diye muaf sayiliyordu. denetle.py HAKLI. 📌 Kendi ihbarim (\"kova kuralim genis, 11 bir ALT SINIR\") SAYIYLA dogrulandi — yonu dogru bilmisim, miktari 6. KUSUR 2: `pt <= kf` yazmisim ⇒ BITISIK devri bosluk sandi, iki YANLIS POZITIF uretti (Tenochtitlan · Tlacopan, aztek 1325→1428 vs kunye 1428→). Bir donem biterken otekinin baslamasi NORMAL DEVIRDIR. denetle.py saymiyor ve HAKLI. KUSUR 3: alet MODUL DUZEYINDE sys.stdout'u sariyordu; import edilince cagiranin stdout'unu KAPATIYORDU (\"I/O operation on closed file\"). ③ UCU DE DUZELTILDI. Ve 🟢 C13 BENI DUZELTTI, BEN C13'U DEGIL: kural degisince (d) dali DUSTU — beklentisi eski (yanlis) anlama gore yaziliydi. Sinavi yeni anlama gore yeniden yazdim VE BIR DAL EKLEDIM: (d) KESISEN + ucu pencerede → ⚪ sinir isareti ✓ (f) KESISMEYEN + ucu pencerede → 🔴 IHLAL ✓ ← YENI dal Sinav yeniden GECTI (bes atesleme dali + 3 haneli yil dali). ④ DUZELTME SONRASI OLCUM VE YAKINSAMA: 🔴 TAM DISARIDA 15 (once 11) 🟡 TASAN 269 (once 267) ⚪ SINIR ISARETI 308 (once 314) ALAN AYRIMI OLCULDU, CIKARIM DEGIL (--ayrinti ciktisi alan alan sayildi): TAM DISARIDA 15 = 8 (`s:`) + 7 (`isg:`) denetle.py Degismez 4 (`s:`) = 8 ⇒ 8 = 8 BIREBIR. kunyesiz de 899 = 899. ════ UC HIPOTEZIN HUKMU ════ (a) denetle.py baska olcutle muaf tutuyor → 🟡 KISMEN: muaf TUTMUYOR, AYRI KOVALARDA (4c/4d) rapor ediyor; ben cross-check ETMEDIM (b) benim kova kuralim genis → 🟢 DOGRU, 6 vaka, duzeltildi (c) biri bulup raporlamiyor (sessiz dal) → 🔴 CURUDU: ikisi de rapor ediyor ════ GERIYE KALAN TEK YENI BULGU ════ `isg:` alanindaki 7 — denetle.py o alani HIC taramiyor. Misir'in Fransiz isgali 1798-1801, d:\"fransa\" ama kunye 1792-09-22'de bitiyor; dogrusu fransa-cumhuriyet (devletler.js:805). UYGULAMADIM, data/ kilitli. ════ (2) NEYI BULAMADIM ════ OLCMEDIM 4c(280)+4d(434)=714 ile benim TASAN(269) farkinin KAYIT KAYIT dokumunu. Fark BOLUMLEME kaynakli (denetle bir donemi HEM 4c HEM 4d sayabilir, ben tek kovaya koyuyorum) ama 714-269'un tamamini kalem kalem ACMADIM. OLCMEDIM kunyesiz 899'un icerigini (sayi iki alette de ayni cikti) OLCMEDIM `d:`/`v:` alanlarinin 0 cikmasini BAGIMSIZ bir yolla — \"kimlik tasimiyorlar\" varsayimina dayaniyor OKUMADIM denetle.py'nin 4c/4d RAPORLAMA satirlarini (kovalari okudum, ekrana nasil bastigini degil) ════ (3) NE ISTIYORUM — tek cumle ════ Duzeltilmis alet arac/ altina tasinacaksa soyle; taşimadan once `isg:` kapsaminin denetle.py'ye mi ekleneceğine yoksa aletin ayri mi kalacagina karar vermen gerekiyor — ikisi de mumkun ama IKISI BIRDEN olursa ayni sayi iki yerden raporlanir. ✅ Bunun disinda BOSTAYIM. Bekcim nobette. denetle.py'ye DOKUNULMADI.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
