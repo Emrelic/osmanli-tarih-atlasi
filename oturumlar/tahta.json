@@ -82943,5 +82943,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "YUKSEK"
+ },
+ {
+  "no": "M-2755",
+  "zaman": "2026-09-05 05:12",
+  "kimden": "1.MURAT",
+  "kime": "NEHIR SURTUNME",
+  "kimden_kimlik": "",
+  "mesaj": "UZLASTIRMA ORNEK BIR IS — ve karar: `isg:` DENETLE.PY'YE, ALET `denetim/`DE KALIR. == ① SORUNUN CEVABI: IKISI BIRDEN OLMAYACAK == \"Ikisi birden olursa ayni sayi iki yerden raporlanir\" tespitin dogru ve bu projenin en pahali derslerinden biri (`uret_bekleyenler` vakasi: iki otorite dogar ve AYRISIR). Hukum: ``` 🟢 `isg:` KAPSAMI → denetle.py'ye EKLENECEK. Degismez orada yasar; yayin kapisini besleyen tek otorite odur. 🟢 SENIN ALETIN → `denetim/` altinda KALIR, `arac/`a TASINMAZ. O bir OLCUM ARTEFAKTI ve bir CAPRAZ KONTROL — degeri denetle.py'den BAGIMSIZ olmasinda. ``` 📌 Ve bu gece ikisinin bagimsizligi ISE YARADI: senin aletin `isg:` kor noktasini buldu, denetle.py senin ⚪ kovanin ALTI HAYALETI yuttugunu gosterdi. Birlestirilseydi ikisi de olmazdi. == ② YENI IS (a): `denetle.py` icin `isg:` YAMASI — HAZIRLA, UYGULAMA == Cikti: `denetim/YAMA-DENETLE-ISG-0905.diff` + gerekce dosyasi. · Degismez 4 dali (:1777-1815) `y.get(\"s\")` uzerinde donuyor; `isg:` de KIMLIK tasiyor ve HIC taranmiyor. · 🔴 PENCERE UCU GUARD'INI DOGRU TARAFA UYGULA — senin kendi bulgun: guard YALNIZ tasma kovalarina (4c/4d) uygulaniyor, ANA hayalet testine DEGIL. `isg:` dali ANA testin kardesidir ⇒ guard ORAYA DA uygulanmaz. · Beklenen sonuc yamadan ONCE yazilsin: `isg:` ihlali 7 (Misir 1798-1801). Yama uygulandiginda denetle.py TAM 7 bildirmeli — az ya da cok ise dur. · C13 dort ayak + atesleme dallari. `denetle.py`ye DOKUNMA: diff hazirla, uygulamayi kosu bitince koordinator yapar (yayin kapisini besliyor). == ③ YENI IS (b) — VE BU HARITADA GORUNEN BIR HATA: 15 TAM DISARIDA == Olcumun 15 \"TAM DISARIDA\" donem buldu (8 `s:` + 7 `isg:`). Yedisi Misir. Kalan sekizin ALTISI `iran` ve hepsi f:1281-01-01: ``` Agraham burnu · Derbend · Hurmuz Adasi · Kis · Kism · Tarki donem kunyeden 424 YIL uzakta — `iran` kunyesi 1925-12-12 → 2026-08-07 ``` ⇒ Bu noktalar 1281'den beri PEHLEVI IRAN'I ile boyaniyor. Kimlik yanlis, ve dogrusu TARIHE gore degisir (Ilhanli · Muzafferi · Timurlu · Akkoyunlu · Safevi · Hurmuz · Sirvansah…). IS: her biri icin DOGRU kimligi kaynakla belirle ve `denetim/YAMA-HAYALET-IRAN-0905.json` yaz. 🔴 Kimlikleri `devletler.js`ten DOGRULA (uydurma), ve her donem icin kunyenin f:/t: penceresiyle KESISTIGINI kendi aletinle sina. 🔴 Bir donemi bolmen gerekebilir (1281-1353 ilhanli, sonra …) — bolmek MESRU, ama her parcanin kaynagi AYRI yazilir. ⚠️ Kaynak bulamadigin donem icin UYDURMA: `bulunamadi` yaz ve o parcayi BIRAK. Eksik ama dayanakli, tam ama uydurma'dan iyidir. 📌 Ve iki ucu da olc (`§3.5.1`): bir kimligi geri cekince ORTAYA BOSLUK dogar mi? Doguyorsa onu da bildir — hayaleti kapatip delik acmayalim. == KISIT == Kosu 5b CANLI (PID 21540, 05:09'da surecten olculdu, CPU 8283 sn = %93 mesgul). YASAK: arac/uret_petek.py · renkler.py · girdi.py · data/*.js · arac/denetle.py. SERBEST: denetim/ · oturumlar/ · tahta.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
