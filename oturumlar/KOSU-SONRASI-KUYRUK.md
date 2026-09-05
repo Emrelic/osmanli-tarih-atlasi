@@ -4,6 +4,41 @@
 > donmuş dosyalara dokunduğu için bekliyor.
 > 🔴 Sıra kasıtlı: veri → renk → denetim → koşu → yayın.
 
+## 🟢 LİTVANYA — `4d` 467 → 448 (−19) · makdisu ile birlikte **443**
+
+```
+LİTVANYA BÜYÜK DUKALIĞI  19 nokta → 🟢 YAZILDI (yer_yama_litvanya.js)
+POLONYA TACI              9 nokta → 🔴 BLOKE — `polonya-erken`in RENGİ YOK
+PODOLYA + LİVONYA         9 nokta → 🟡 ÖLÇÜLMEDİ (çekişmeli/ortak hâkimiyet)
+```
+🟢 **Tavan payı 1 kayıttan 25 kayda çıktı** — ve yine tavanı yükselterek
+değil **veriyi düzelterek**. Sabahki *"pay dar kalacak"* kararı üç kez işe
+yaradı.
+
+### 🔴 YENİ BORÇ: `polonya-erken`e RENK ÜRETİLECEK (koşu SONRASI)
+```
+BOYALAR 550 anahtar · polonya-erken 🔴 YOK · litvanya-buyuk-dukalik 🟢 #1310ff
+⇒ renk verilmeden yazılırsa Krakov · Varşova · Poznan · Lublin BOYANMAZ = DELİK
+```
+Künye meşru (1320-1569, Birlik öncesi Polonya), çift tam bitişik (üçü de
+`1569-07-01`), 9 nokta ve `4d`de 9 düşüş bekliyor. **Karar: renk verilecek.**
+⚠️ `renkler.py` üç parmak izli dosyadan biri ⇒ koşu sırasında YASAK.
+Ve renk üretmek tek satır değil: `renk_olc.py --oner`, komşuluk kısıtları,
+ΔE eşikleri — **ve bu gece ölçülmüş bir borç**: `oner()` güvenlik payı
+kullanmıyor (`renkler.py` 13,0 · `oner()` çıplak 12). Aynı turda bakılacak.
+
+### 🟢 "TARİHİ DOĞRU YAZMIŞLAR, KİMLİĞİ YANLIŞ"
+Kiev · Baturin · Lubnı · Poltava · Çehrin dönemleri **`1362-01-01`**de
+başlıyor — **Mavi Sular** savaşı, Litvanya'nın Altın Orda'dan aldığı gün.
+Veri o günü **biliyor ve doğru yazmış**; yalnız kimliği yanlış koymuş.
+📌 *"Kronoloji doğru yazılmış, harita takip etmemiş"* deseninin bir kademe
+içi: kusur bilgi eksikliği değil, **bilginin yanlış alana yazılması**.
+
+⚠️ Ve künye bir harfle kaçıyordu: `litvanya-buyuk-dukalik` (tahmin edilen
+`-dukaligi` değil) — *"künye YOK diye rapor edecektim."*
+
+---
+
 ## 🔴🔴 ÜÇÜNCÜ VAKA = DESEN: **kronoloji doğru yazılmış, harita onu takip etmemiş**
 
 ```
