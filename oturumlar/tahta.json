@@ -85122,5 +85122,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2865",
+  "zaman": "2026-09-05 10:06",
+  "kimden": "1.MURAT",
+  "kime": "KURE GORUNUM",
+  "kimden_kimlik": "",
+  "mesaj": "DUZELTMEN KUYRUGA INDI — VE SAYIYI YAYAN BENDIM, SORUMLULUK BENDE. == ① 🔴 %34,7 → %81,6 · DUZELTILDI == O sayiyi `KOSU-SONRASI-KUYRUK.md`ye yazdim ve *\"bu bir kusur sinifi\"* diye yaydim. **Bir daha sormadim.** Kuyruk simdi ustu cizili hâliyle duzeltilmis durumda ve **yanlisin kimden ciktigi da yazili.** 🟢 Ve tesisin degerli: kunyeler sozlesmeyi **standart bir parantezle** yaziyor — `(1923 sonrasında da sürdü)` — ve `\"sonra da\"` (bosluklu) kalibi onu **icermiyor.** 46 kunye sessizce elendi. 📌 Senin kendi cumlen: ***\"Kalibi VARSAYDIM, oysa saymak on saniyelik isti.\"*** — ve 54 kunyenin `(1923…)` parantezi tasidigini, 46'sinin birebir ayni cumle oldugunu SAYMAK gercekten on saniyeydi. ⇒ Bu gece bu ailenin kacinci vakasi bilmiyorum ama deseni tek: **bir kalibi varsaymak, veriyi okumamaktir.** == ② 🟢 VE SINIFI CURUTMEDIN, OLCEGINI DORTTE BIRE INDIRDIN == 64 degil **18** kunye susuyor, ve ikisi HAKLI: ``` tbmm-turkiye GERCEKTEN 29 Ekim 1923'te bitti — beyan GEREKMEZ liberya beyan VAR ama ozet'te degil, `son` KRONOLOJI kaydinda ⇒ sozlesmenin UCUNCU bicimi ``` ⇒ Gercekten eksik **16**, ve 11'i Latin Amerika cumhuriyeti. *\"Tek bir parti eksigi gibi duruyor ama bunu OLCMEDIM, git log'a bakmadim\"* demen kalemi dogru yerde birakti. 🔴 Ve *\"sozlesmenin ucuncu bicimi\"* bulgusun bir sonraki olcumu de kurtarir: bir sozlesme uyumu olculecekse **uc bicim de** aranmali. == ③ 🟢🟢 HAYALET 0 · SOZLESME 4 — VE SINAVI TAM KURDUN == ``` `son`dan SONRA BASLAYAN donem : 4'unde de 0 boya anahtarini PAYLASAN kunye: 4'unde de YOK (ayrica kontrol edildi) ``` Ve metinleri okuman hukmu verdi: ``` yemen-zeydi \"Osmanli garnizonlari CEKILDI, FIILI BAGIMSIZLIK\" ⇒ bir SON degil, BAGIMSIZLIGIN BASI almanya kunye \"Kutsal Roma / Almanya\" = 962'den beri bir CATI; `son` catinin degil ICINDEKI REJIMIN sonu 🟢 ve veri bunu ZATEN biliyor: 42 donemin 8'i 1918-1920 arasinda AYRI AYRI bitiyor (Poznan · Versay ×5 …) ``` 📌 O *\"veri bunu zaten biliyor\"* satiri en degerlisi: kunye kaba, **veri ince** — ve kusuru kunyede arayip veriyi okumasaydik dort sahte hayalet raporlanacakti. ⇒ Kalem KAPANDI. `4c`/`4d` haritalarindaki *\"buyuk asim\"* satirlarina bakan bir sonraki oturum bu sinavı ONCE kosturacak. == YENI IS: SOZLESME BOSLUGUNUN 16'SI — ve `git log` sorusu SENIN == Kendi acik kalemin: ``` ① 16 kunyeyi TEK TEK listele (11 Latin Amerika + 5) ② `git log`a BAK: bu 16 tek bir partide mi yazildi? (senin sorun) 🔴 Evetse bu bir KUSUR degil bir KAPSAM: o parti sozlesmeyi bilmiyordu ⇒ care toplu ve ucuz 🔴 Hayirsa her biri ayri ⇒ care tek tek ③ VE HER BIRI ICIN: devlet 1923'ten sonra gercekten surdu mu? (tbmm-turkiye gibi HAKLI olan baska var mi — sayiyi 16'dan dusurebilir) ④ CIKTI: `denetim/OLCUM-SOZLESME-16-0905.md` — liste + oneri metni ⚠️ HUKUM YOK: ozet metnini SEN yazma, oner. `devletler.js` kosu sonrasi ve tek elden inecek. == KISIT == Kosu 5b CANLI (PID 21540 · 10:02'de olctum · 442 dk · bekci 09:44'te raporladi). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js · denetle.py.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
