@@ -4,6 +4,35 @@
 > donmuş dosyalara dokunduğu için bekliyor.
 > 🔴 Sıra kasıtlı: veri → renk → denetim → koşu → yayın.
 
+## 🟢🟢 BİRLEŞTİRME ARTIK TEK KOMUT — `arac/_kronoloji_uygula.py` (5 Eylül 04:50)
+
+```bash
+py arac/_kronoloji_uygula.py            # KURU KOŞU — ne ineceğini basar
+py arac/_kronoloji_uygula.py --yaz      # koşu BİTTİKTEN sonra
+```
+🔴 **Koşu canlıyken KENDİSİ REDDEDER** (çıkış kodu 2) ve canlılığı kilit
+dosyasından değil **süreçten** ölçer — bu gecenin en pahalı dersi aracın
+içine gömüldü.
+
+**Kuru koşu bugünkü hâliyle:**
+```
+istek 168 · KABUL 160 · RED 8 (hepsi MÜKERRER — aynı t + tur)
+   farukiler 1370 · farukiler 1601 · ahom 1671 · travankur 1729   (GASYA)
+   mataram-sultanligi 1613 · malay-sultanliklari 1874-01-20 ·
+   lan-xang 1353 · dogu-sumatra-sultanliklari 1723                (GDASYA)
+yazma yolu bir KOPYA üzerinde koşuldu: 160 madde · 111 künye ·
+künye sayısı 591 DEĞİŞMEDİ · node ile yeniden okundu, sayılar birebir
+```
+📌 **Sekizi de elden yazılan bir betikte SESSİZCE inerdi** — 4 Eylül'de 200
+madde tam öyle indi ve o betik commit bile edilmedi. *"Kendi yazdığın
+ayrıştırıcı her zaman kötüdür"* dersinin en pahalı hâli, **her seferinde
+yeniden yazılan** ayrıştırıcıdır.
+
+⚠️ Ve mükerrerler bir kusur değil bir **eksik kapı**: künye zaten aynı
+`t`+`tur`u taşıyordu, oturum ikinci kez yazdı. Kapı artık araçta.
+
+---
+
 ## 🟢 GECE — İKİNCİ TUR HÜKÜMLERİ (5 Eylül 04:30)
 
 ### ⓐ 🔴 `CLAUDE.md`'YE YAZILACAK YENİ KURAL — **KÜNYE PENCERESİ BİR TASARRUF ÖLÇÜSÜ DEĞİLDİR**
