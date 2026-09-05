@@ -274,5 +274,81 @@
     "not": "\"1504\" · \"yıkıl\" · \"son buldu\" · \"XVI. yüz\" — hiçbiri yok. Gövde iki krallığı ADIYLA anıyor (\"kuzeyde Dongola'da Makarra (Makuria) Devleti, güneyde … Sûbâ'da ise Alve Devleti\") ama sonlarını tarihlemiyor."
    }
   }
- ]
+ ],
+ "D_TURUNCU_KOVA_KAPANISI": {
+  "sevk": "M-2920 (1.MURAT)",
+  "dayanak": "denetim/OLCUM-SAHTE-POZITIF-0905.md (25 kunye · 45 deger · 4 turuncu)",
+  "🔴_ONCE_KENDI_HATAM__DORT_DEGIL_IKI": [
+   "Sahte pozitif taramasinda DORT 🟠 bildirmistim. Cozumleyince",
+   "IKISI CURUDU — ve ikisi de AYNI SEBEPTEN: TDV govdesine baktim,",
+   "KUNYENIN KENDI BEYANINA bakmadim.",
+   "⇒ Taramam ILISKININ TEK UCUNU olcuyordu.",
+   "📌 §3.5.1: \"bir sinir kaymasi onerildiginde IKI UC DA olculur\" —",
+   "  bu onun KAYNAK yuzu: govde ile kunye KARSILIKLI okunur."
+  ],
+  "VAKALAR": [
+   {
+    "id": "saruhan",
+    "alan": "f",
+    "deger": "1313-01-01",
+    "HUKUM": "🟠 AYAKTA — ve dordunun EN AGIRI",
+    "govde_ne_diyor": "\"Manisa'nın fetih tarihinin 713 (1313) olarak gösterilmesi de DOGRUDAN CAGDAS BIR KAYNAGA DAYANMAMAKTADIR.\"",
+    "govdenin_KENDI_tarihi": "\"Batı Anadolu uç kesiminde 1290'LI YILLARDAN ITIBAREN faaliyet gösteren Saruhan Bey tarafından Manisa merkezli olarak kurulmuş\"",
+    "kunyenin_kendi_beyani": "YOK — ozet 1313'ten hic soz etmiyor, kronoloji \"1313-01-01 kurulus: Saruhan Bey tarafından kuruldu\" diyor ve dayanak vermiyor.",
+    "provenans": "72f9799 · 2026-07-28 · \"Devletler dizini: 64 komsu devlet/beylik/hanlik indeksi\" (EN ESKI parti) · 8a43dfb 2026-08-03 tekrar dokunmus",
+    "CELISKI_CINSI": "SUSMUYOR, CELISIYOR — kaynak hem yili REDDEDIYOR hem KENDI tarihini veriyor, ve ~20 yil ONCE",
+    "ONERI": "🔴 TARIH DEGISTIRILMEDI. §4 \"kaynagin destekledigi EN KABA GUVENLI duzey\" kurali burada bir YIL degil bir ON YIL veriyor (\"1290'lı yıllar\") ⇒ f: icin gun/yil uretilemez. kaynak: alanina AYRISMA YAZILSIN: \"saruhanogullari — TDV bu tarihi ACIKCA dayanaksiz sayiyor ('doğrudan çağdaş bir kaynağa dayanmamaktadır') ve beyligi 1290'lı yıllara tarihliyor; f:1313 TDV'ye DAYANMAZ\"",
+    "EK_IC_CELISKI": "🟡 Ayrica: kunye t:1416-09-01, ozet \"1416'da … kesin olarak sona erdi\" diyor, ama kronolojideki `son` kaydi 1410-01-01. Uc yerde iki farkli bitis. AYRI kalem."
+   },
+   {
+    "id": "rusya",
+    "alan": "t",
+    "deger": "1917-03-15",
+    "HUKUM": "🟠 AYAKTA",
+    "govde_ne_diyor": "\"1917\" 17 CUMLEDE geciyor ve HICBIRI tahttan cekilme degil. Olculdu: \"Mart 1917\" 0 kez · \"Şubat 1917\" 0 kez · \"feragat\" tek gecisi 1990 Almanya hakkinda. Govdenin verdigi: \"Lenin önderliğindeki Bolşevikler 1917 EKIM İhtilâli akabinde iktidarı ele geçirdiler.\"",
+    "kunyenin_kendi_beyani": "YOK — ozet tarih dayanagi vermiyor; kronoloji \"1917-03-15 son: II. Nikolay tahttan çekildi\" diyor, kaynak belirtmiyor.",
+    "provenans": "72f9799 · 2026-07-28 (EN ESKI parti) · cf5a2a3 2026-08-08 \"kopyala-yapistir artigi temizlendi\" · 1e61195 2026-09-02",
+    "CELISKI_CINSI": "SUSUYOR — govde olayi hic tarihlemiyor; celiski YOK, DAYANAK yok",
+    "ONERI": "🔴 TARIH DEGISTIRILMEDI. Deger tarihen dogru olabilir (II. Nikolay 15 Mart 1917) ama TDV `rusya` maddesinden GELMIYOR. kaynak: alanina: \"rusya — madde carligin sonunu TARIHLEMIYOR (Ekim 1917 Ihtilali'ni veriyor); t:1917-03-15 baska bir dayanaga sahip, ve o dayanak YAZILI DEGIL\"",
+    "NOT": "⚠️ Bu, taramanin en ogretici vakasi: eslesme sayisi 17 — ve BUYUKLUK, dayanagin gucu DEGIL."
+   },
+   {
+    "id": "cagatay",
+    "alan": "t",
+    "deger": "1370-01-01",
+    "HUKUM": "🔻 CURUDU — 🟠 DEGIL, 🟡 (HASSASIYET)",
+    "govde_ne_diyor": "\"Daha sonra Hüseyin'i de bertaraf edip 1370'LERDE Mâverâünnehir'e fiilen hâkim oldu.\"",
+    "kunyenin_kendi_beyani": "kronoloji \"1370-01-01 son: Timur, Mâverâünnehir'de fiilî iktidarı ele geçirdi\" — 🔴 GOVDEYLE AYNI OLAY.",
+    "provenans": "6cb69b1 · 2026-07-29 · \"Oturum 3 bitti: devletler dizini 77'den 212 kayda\"",
+    "NICIN_CURUDU": "Ilk tasnifimde \"ozne TIMUR, kunyenin olayi degil\" demistim. YANLIS: kunyenin `son` kaydi da AYNEN Timur'un iktidari ele gecirmesini anlatiyor. Govde olayi DOGRU tarihliyor; tek fark HASSASIYET (\"1370'ler\" bir ON YIL, kunye bir YIL yaziyor).",
+    "ONERI": "🟡 Hassasiyet kalemi — 🟠 kovasindan CIKARILDI. §4: kaynak on yil diyorsa yil TDV'ye mal edilemez; bildirim yeter."
+   },
+   {
+    "id": "gurcistan-demokratik-cumhuriyeti",
+    "alan": "t",
+    "deger": "1921-03-16",
+    "HUKUM": "🔻🔻 CURUDU — KUSUR DEGIL, ORNEK BEYAN",
+    "govde_ne_diyor": "\"…Sovyet Rusyası, ŞUBAT 1921'de Gürcistan'ı da işgal ederek…\"",
+    "kunyenin_kendi_beyani": "🟢 KUNYE AYRISMAYI ZATEN BILIYOR VE YAZMIS. `kaynak:`/ozet birebir: \"(kaynak: TDV, madde: gurcistan — kuruluş 26 Mayıs 1918 birebir; işgal 'Şubat 1921' olarak veriliyor, GUN YOK; bitiş günü 16 Mart 1921 atlasın kendi verisiyle — Batum'un düşüşü — uyumlu tutuldu)\". Ve kronoloji IKISINI DE tasiyor: \"1921-02-25 isgal: Tiflis\" ve \"1921-03-16 son: Batum'un düşüşü\".",
+    "provenans": "37b5e7b · 2026-08-07 · \"devletler.js 328 -> 337: Dalga 2'nin dokuz kunyesi\" (EN YENI parti)",
+    "NICIN_CURUDU": "Taramam TDV govdesine bakti, kunyenin KENDI beyanina BAKMADI. Kunye TDV'nin ne dedigini biliyor, farki YAZIYOR, ve secimini GEREKCELENDIRIYOR.",
+    "ONERI": "🟢 HICBIR SEY YAPILMASIN. Bu kayit, ayrisma nasil BEYAN EDILIR sorusunun EMSALI — ve oteki uc vakada eksik olan sey tam olarak budur."
+   }
+  ],
+  "PROVENANS_DESENI": {
+   "gozlem": [
+    "AYAKTA kalan iki 🟠 (saruhan · rusya) — IKISI DE 72f9799,",
+    "  2026-07-28, \"64 komsu devlet indeksi\": EN ESKI parti.",
+    "CURUYEN iki vaka — cagatay 2026-07-29, gurcistan 2026-08-07.",
+    "Ve EN IYI BEYAN (gurcistan) EN YENI partiden."
+   ],
+   "🔴_SINIR": "n=4. Bu bir TREND DEGIL, bir gozlem. Dort vakadan \"eski partiler daha kotu\" hukmu CIKARILAMAZ."
+  },
+  "🔴_KAPSAM_SINIRI": [
+   "Bu bolum DORT vakayi kapatir, kovayi DEGIL.",
+   "Evren 224 kunye idi; 25'i tarandi, 199'u TARANMADI.",
+   "Dort vaka bir ORAN vermez ve bu bolumden bir oran cikarilamaz."
+  ],
+  "SAYIM_DUZELTMESI": "🟠 4 → 2 · 🟡 3 → 4 (cagatay eklendi) · 🟢 26 → 27 (gurcistan eklendi). 45 deger degismedi."
+ }
 }

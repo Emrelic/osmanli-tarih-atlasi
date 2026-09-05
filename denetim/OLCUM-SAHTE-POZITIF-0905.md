@@ -5,6 +5,31 @@
 
 ---
 
+> ## 🔴 DAMGA — BU RAPORUN MANŞET SAYISI DÜZELTİLDİ (aynı gün, `M-2920`)
+> ```
+> yazdığım    🟠 4 sahte pozitif
+> GERÇEK      🟠 2   (saruhan f · rusya t)
+> ```
+> İkisi çürüdü ve **ikisi de aynı sebepten**: TDV gövdesine baktım,
+> **künyenin KENDİ beyanına bakmadım.**
+> ```
+> cagatay t:1370   → 🟡 HASSASİYET: künyenin `son` kaydı da AYNI olayı
+>                    (Timur'un iktidarı) anlatıyor; fark yalnız
+>                    "1370'ler" (on yıl) ile 1370 (yıl) arasında
+> gurcistan t     → 🟢 KUSUR DEĞİL, ÖRNEK BEYAN: künye TDV'nin "Şubat
+>                    1921" dediğini ZATEN YAZMIŞ ve 16 Mart seçimini
+>                    gerekçelendirmiş
+> ```
+> ⇒ **Taramam ilişkinin TEK UCUNU ölçüyordu.** `§3.5.1`in *"bir sınır
+> kayması önerildiğinde İKİ UÇ DA ölçülür"* kuralının **kaynak** yüzü:
+> gövde ile künye **karşılıklı** okunur.
+> 📌 Ders SİLİNMEDİ, sayı DAMGALANDI — aşağıdaki §3'ün `saruhan` ve
+> `rusya` bölümleri **ayakta**. Tam çözümleme:
+> `ONERI-KAYNAK-7-0905.json` → `D_TURUNCU_KOVA_KAPANISI`.
+> **Düzeltilmiş sayım:** 🟢27 · 🟠2 · 🟡4 · ⚪12 · ⬜5
+
+---
+
 ## 0. 🔴 SINIRLAR — ÖNCE
 
 ```
@@ -92,12 +117,24 @@ Ekim İhtilâli** akabinde iktidarı ele geçirdiler."*
 ⇒ Yıl doğru, **olay başka** (Ekim ≠ Mart). *"17 cümle bulundu"* diyen
 bir sayaç bunu güçlü bir dayanak sanırdı.
 
-### 🟠 `cagatay` t:1370
+### 🔻 `cagatay` t:1370 — **BU HÜKÜM ÇÜRÜDÜ, aşağısı ilk hâlidir**
+> 🔴 **DÜZELTME (`M-2920`):** 🟠 değil **🟡 HASSASİYET.** Künyenin kendi
+> `son` kaydı *"Timur, Mâverâünnehir'de fiilî iktidarı ele geçirdi"*
+> diyor — yani gövdeyle **AYNI OLAY.** Aşağıdaki *"özne Timur, künyenin
+> olayı değil"* gerekçesi yanlıştı. Fark yalnız **hassasiyet**.
+
 Tek cümle: *"Daha sonra Hüseyin'i de bertaraf edip **1370'lerde**
 Mâverâünnehir'e fiilen hâkim oldu."* — özne **Timur**, ve ifade bir
 **on yıl** (*1370'ler*), bir yıl değil.
 
-### 🟠 `gurcistan-demokratik-cumhuriyeti` t:1921-03-16
+### 🔻🔻 `gurcistan-demokratik-cumhuriyeti` t:1921-03-16 — **ÇÜRÜDÜ**
+> 🔴 **DÜZELTME (`M-2920`):** kusur DEĞİL, **örnek beyan.** Künyenin
+> `kaynak:` alanı ayrışmayı **zaten yazmış**: *"işgal 'Şubat 1921'
+> olarak veriliyor, GÜN YOK; bitiş günü 16 Mart 1921 atlasın kendi
+> verisiyle — Batum'un düşüşü — uyumlu tutuldu"*. Ve kronolojisi
+> ikisini de taşıyor (`1921-02-25 işgal` · `1921-03-16 son`).
+> ⇒ **Ben gövdeye baktım, künyenin beyanına bakmadım.**
+
 Gövde: *"…Sovyet Rusyası, **Şubat 1921**'de Gürcistan'ı da işgal
 ederek…"* — künye **16 Mart 1921** diyor. Yıl eşleşiyor, **ay
 çelişiyor.**
