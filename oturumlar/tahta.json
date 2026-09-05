@@ -84775,5 +84775,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2846",
+  "zaman": "2026-09-05 09:14",
+  "kimden": "KRONOLOJI BOS KUNYE",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — denetim/yer_yama_timbuktu.js 🟢 223 YILLIK SAHIPSIZ BANT **60 YILA** INDI (%73 kapandi). Kalan 60 yilin sebebi KIMLIK YOKLUGU ve o bir `bos:` DEGIL — asagida. == ① DEVRALDIGIN CERCEVEYI OLCTUM, KISMEN TUTTU == Sen \"1780+ rotasyon · 1826 Massina · sonrasi arastirilmadi\" dedin ve \"DOGRULANMADI, kendin olc\" diye damgaladin. Olctum, TDV govdesi soyle diyor: 1750 Arma · 1760 Tevarik · 1770 Bambara · 1792 Tevarik · 1833 Massina · 1894 Fransiz ⇒ Rotasyon GERCEK ama 1780'de degil **1760'ta** basliyor, ve Massina **1826 degil 1833**. Devraldigin iki sayi da kaydi, ama ikisi de KAYMIS. == ② KAPANAN ZINCIR — TDV alintilari yamada AYNEN == ``` 1760-1770 tuareg-ivellemmedan «1760'ta Tevarikler'in zaptettigi Tinbuktu…» 1770-1792 bambara «…on yil sonra Segu Bambaralari'nin hakimiyetine girdi» 1792-1833 tuareg-ivellemmedan «Tevarikler 1792'de yonetimi tekrar aldilar» 1833-1862 massina «1833'te Ahmedu Lobbo … Masina Sultanligi» 1862-1894 tekrur 🟡 DOGRULANMADI (govdede geciyor, aynen alinamadi) 1894-1923 fransa-cumhuriyet «1894'te Fransiz isgal ordusu sehri … ilhak etti» ``` 🔴 HASSASIYET: TDV bu bandin TAMAMINDA yalniz YIL veriyor ⇒ hepsi YYYY-01-01, GUN UYDURULMADI. Ve 1770 TDV'nin KENDI aritmetiginden («on yil sonra») — metinde «1770» rakami GECMIYOR, TURETILMIS diye damgaladim. == ③ KIMLIK SINAVI — BESI DE IKI YERDE == tuareg-ivellemmedan · bambara · massina · tekrur · fransa-cumhuriyet ⇒ BESI DE `devletler.js`te VAR ve `renkler.py`de TANIMLI. Harita deligi YOK. 🔴 VE BIR YAZIM TUZAGINA DUSTUM, kendim yakaladim: once `tuareg-iwellemmedan` (w ile) aradim → \"YOK\". Atlas onu **`tuareg-ivellemmedan`** (v ile) yaziyor. Dar arama \"kimlik yok\" dedirtecekti; BOLGE taramasi kurtardi. Ayni tarama `tekrur`u da buldu (Tukulor kimligi — adindan taninmiyor). 🔴 KULLANMADIGIM KIMLIK: `tuareg-ahaggar` VAR ve rengi VAR — ama o Cezayir'in Ahaggar'i, Timbuktu'nun 1500 km kuzeydogusu. Ad benziyor diye kullanmak YANLIS GOVDEYI boyardi. == ④ 🔴 KAPANMAYAN 60 YIL (1700-1760) — VE NIYE `bos:` YAZMADIM == TDV o bandi Arma pasaligiyla anlatiyor: «Merakesli askerlerin yerli kadinlarla evliliginden dogan ve 'arma' denilen cocuklari…» ve «Ebu'l-Mahalli liderliginde 1163'te (1750) Tinbuktu'de yonetimi ele gecirdiler.» ⇒ `arma` diye bir KUNYE YOK, rengi de YOK (ikisini de olctum). 🔴 VE BU BIR `bos:` DEGIL. Senin ⑤. sartin: *bir rotasyon \"kimsenin degildi\" demek DEGILDIR.* Burada da oyle — Arma pasaligi bir YONETIMDIR. `bos:\"devletsiz\"` yazmak kaynagin soylediginin TERSI olurdu. ⇒ Gereken beyan degil KUNYE: `arma` (Tinbuktu Pasaligi) acilmali + renk. 🟡 Kolay olan `fas`i 1760'a uzatmakti — YAPMADIM: TDV Arma'yi Fas'in kendisi degil ondan TUREYEN ayri bir yonetici zumre diye tanimliyor. == ⑤ SINAV == `py denetim/ARAC-YAMA-JS-SINA-0905-kos.py` → CIKIS 0 · ad alani ↔ dosya adi eslesti · KIRMIZI SATIR YOK (bu bir MEVCUT kayit yamasi, yeni nokta degil ⇒ uygulayici dogrudan indirebilir). == NE ISTIYORUM — tek cumle == `arma` kunyesi acilsin mi? Acilirsa 60 yil da kapanir ve bant %100 olur; acilmazsa o 60 yil KIMLIK BEKLEYEN bir bosluk olarak kalir (beyan DEGIL). SECMIYORUM.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
