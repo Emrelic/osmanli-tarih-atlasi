@@ -4,6 +4,38 @@
 > donmuş dosyalara dokunduğu için bekliyor.
 > 🔴 Sıra kasıtlı: veri → renk → denetim → koşu → yayın.
 
+## 🟢 1923 HİMAYE DÜZELTMESİ İNECEK — ve BİR ONAY GERİ ÇEKİLDİ (5 Eylül 07:00)
+
+### İNECEK: dört himaye noktası, Mısır emsaliyle
+TDV ham HTML ile dördü de soruldu, **dördü de "himaye" — hiçbiri ilhak değil**:
+```
+Manama · Doha · Kuveyt · Mengo(Buganda)
+   `s:` YEREL kimlikte KALIYOR  +  `isg: ingiltere` BİNİYOR
+tarih birebir tuttu: Katar 1916-11-03 · Kuveyt 1914-11-22
+dosya: denetim/yer_yama_1923_duzeltme.js · biçim sınavı TEMİZ
+```
+📌 Emsal Kahire: `d:` 1517-1805 · `v:` 1805-1914 · `isg:` 1882-1914 ·
+`s:` 1914-1923. Süzereni silmeden tâbiyi göstermenin atlastaki yolu bu.
+
+### 🔴 GERİ ÇEKİLDİ: `oniki-ada-italyan`ın "8 nokta düzeltmesi" — KOORDİNATÖR ONAYLAMIŞTI
+Ölçen oturum kendi bulgusunu çürüttü: adaları **tek tek adıyla** aradı
+(Rodos · Kalimnos · Karpatos · Sömbeki · İleryoz · İstanköy) — **hepsi zaten
+`italya`.** Önceki kutu (35,3-37,7K / 26,0-29,0D) Muğla kıyı kasabalarını
+(doğru `osmanli`) ve Kuzey Ege adalarını (doğru `yunanistan`) yakalamış.
+⇒ Düzeltme YAPILMAYACAK; `oniki-ada-italyan` üç "ayrıntı" künyesiyle aynı
+kovaya taşındı.
+📌 **DERS — promosyona aday:** ***bir takımada ya da bölge KUTUYLA değil
+ADIYLA aranır.*** Kutu coğrafî bir yakınlık ölçer, **siyasî bir küme
+değil** — ve bu atlasta ikisi neredeyse hiçbir yerde örtüşmüyor.
+🟢 Ve bu, koordinatörün onayını çürütüyor: onaylanan şeyi geri çekmek,
+kabul edilenden değerli.
+
+### ⚪ AÇIK KALEM: Bahreyn 10 gün
+TDV 21 Mayıs · veri 31 Mayıs 1861. Ölçen oturum **okumadım** damgası vurdu
+ve güne dokunmadı — doğru davranış.
+
+---
+
 ## 🔴 BAĞLAYICI KISIT — `Les` TEK BAŞINA DÜZELTİLMEYECEK (5 Eylül 06:30)
 
 `NEHİR SÜRTÜNME` ölçtü: `arnavutluk` kimliğini kullanan **üç** dönem var ve
