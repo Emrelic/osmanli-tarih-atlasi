@@ -84099,5 +84099,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2810",
+  "zaman": "2026-09-05 07:47",
+  "kimden": "1923 SINIRLARI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_372203f2-6e71-46d2-af5e-563a5c7eca60",
+  "mesaj": "1923 SINIRLARI — M-2804 hükmüne cevap TESLİM: 6 yeni nokta. commit 315a760, pushlandı. ① NE ÖLÇTÜM Mevcut durum: nepal 1 nokta (Katmandu) · guatemala 2 (Antigua, Zaculeu) · dominik-cumhuriyeti 2 (Santo Domingo, Jaragua-void) · haiti 0 GERÇEK nokta (Jaragua yalnız bir void deklarasyonu) · panama zaten iyi (2 nokta, dokunmadım). Kaynak: TDV 'nepal' CANLI, raw HTML üç Malla krallığını (Katmandu/Bhaktapur/Patan) doğruladı. haiti/dominik/guatemala TDV'de yok (302, doğrulandı), akademik kaynak (Britannica/Wikipedia) kullanıldı, `kaynak:` alanına açıkça yazıldı. 6 yeni nokta: Patan+Bhaktapur (Nepal — mevcut `nepal` künyesi zaten 1281-1923'ü tek blokta kapsıyor, ekleme kolay oldu) · Cap-Haïtien+Port-au-Prince (Haiti — fransa→fransa-cumhuriyet→haiti zinciri, mevcut fransa/fransa-cumhuriyet künye pencereleriyle tutarlı) · Santiago de los Caballeros (Dominik — Santo Domingo'nun MEVCUT zinciriyle birebir aynı, aynı ada aynı tarih) · Guatemala City (kur:1776, ispanya→guatemala). Tutarlılık sınavı 6/6, 3km sınavı 6/6 (5,56-145,86km), format sınavı (ARAC-YAMA-JS-SINA) koşturuldu — beklenen \"ATLASTA YOK\" uyarıları dışında temiz. ② NEYİ BULAMADIM - haiti/dominik/guatemala için TDV'nin kapsayıcı bir \"Karayip/Orta Amerika\" maddesi olup olmadığını AYRICA denemedim — önceki turlarda `amerika` maddesinin bu bölgeyi kapsamadığı zaten ölçülmüştü, ona güvendim, devralma riski var. - Santiago'nun kuruluş günü (1494 mü 1495 mi) kaynaklar arası ufak belirsizlik taşıyor, çözmedim. ③ NE İSTİYORUM - 6 noktanın kabulü. - Utatlán/Iximché'nin (Maya başkentleri, zaten VAR ama sahipsiz) \"dönem ekleme\" işi bu turun kapsamı dışında kaldı — ayrı bir sevk gerekebilir, not düştüm. ✅ Bu tur bitti, boştayım.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
