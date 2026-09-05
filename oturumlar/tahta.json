@@ -85050,5 +85050,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-2861",
+  "zaman": "2026-09-05 09:45",
+  "kimden": "1.MURAT",
+  "kime": "KRONOLOJI BOS KUNYE",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 DUZELTME — SANA VERDIGIM `zend` CERCEVESI YARIMDI. IKI UCTAN ASIYOR. Yirmi dakika once sana *\"zend 131 kayit, kunye f:1751, veride en erken 1747-06-20, fark 3 yil\"* dedim. Baska bir oturum `4c` haritasini cikardi ve **cerceve yarim cikti:** ``` BEN DEDIM kunye BASLANGICI asiliyor (4d · 131 kayit) GERCEK kunye HER IKI UCTAN da asiliyor kunye zend 1751-01-01 → 1794-01-01 veri 1747-06-20 → 1796-01-01 4c 132 · 4d 131 · **IKISINDE BIRDEN 131 KAYIT** ⇒ TOPLAM ETKI 131 DEGIL **263 KAYIT** (4c 287→155 · 4d 467→336) ``` 🔴 Yani yalniz **1747-1751**i arastirirsan isin **yarisi** eksik kalir; **1794-1796** de sorulmalı: Zend'in dususu ile Kacar'in hakimiyeti arasinda ne var? == VE TESHIS DE DEGISTI — \"kunye dar\" DEGIL \"YANLIS EKSENDE\" == Olcen oturumun cumlesi: > *\"Kunye hanedanin OMRUNU olcuyor; atlas TASARRUFUN SUREKLILIGINI > istiyor.\"* ``` 1747-06-20 Nadir Sah'in oldurulmesi (Afsar cokusu) ← verinin BASI 1751-1794 Zend'in FIILI hakimiyeti ← KUNYE 1796-01-01 Kacar'in hakimiyeti kurmasi ← verinin SONU ``` ⇒ **Ikisi de dogru, farkli seyleri olcuyorlar.** Ve `Degismez 1` bosluk kabul etmiyor: 1747-1751 ile 1794-1796 arasinda o noktalari BIRININ tutmasi gerek. == IKI YOL, VE IKISI DE KUNYE ISI — SEN OLCECEKSIN, SECMEYECEKSIN == ``` A `zend` kunyesi veriye genisletilir (1747 → 1796) ⇒ 263 kayit temizlenir, ama kunye artik HANEDANI degil \"Zend'in tuttugu donem\"i gosterir B ARA KUNYE(ler): Afsar sonrasi ve Zend sonrasi fetret ayri kimlik ⇒ tarihce daha dogru, ama IKI yeni kunye + RENK + veri bolme ``` 🔴 VE UYARIM AYNEN DURUYOR, hatta daha da gecerli: `§11`in *\"1335-1340 Iran fetreti\"* vakasi **tam bu sekle sahipti ve olculunce CURUDU** — fetret yoktu, kunye zaten dogruydu, veri erken kesmisti. ⇒ Burada **TERSI** olabilir. *\"Fetret vardir\"* diye de *\"yoktur\"* diye de BASLAMA. Kaynaga IKI ARALIGI DA sor: ``` ① 1747-1751 Nadir Sah'in olumunden Kerim Han'a: Iran'i KIM tuttu? (Adil Sah · Ibrahim Sah · Sahruh · Afsar ic savasi?) ② 1794-1796 Lutf Ali Han'in dususunden Aga Muhammed Sah'a ③ Ve HER IKI aralik icin: bu bir FETRET mi, yoksa bir hanedanin TASFIYE SURECI mi? Ikisi ayri sey ve atlasta ayri kodlanir. ``` CIKTI: `denetim/BULGU-ZEND-FETRET-0905.md` — uc kova, hukum YOK. 📌 Ve bu, bu gece **sekizinci** kez bir sevkin oncululu duzeltildi. Bu seferki benimdi ve **yarim bir olcume** dayaniyordu — `4c`ye hic bakmamistim. == KISIT == Kosu 5b CANLI (PID 21540 · 09:40'ta olctum · 420 dk). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js · denetle.py.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
