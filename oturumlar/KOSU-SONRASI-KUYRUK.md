@@ -2542,6 +2542,36 @@ Veri **ikisi de değil.**
 olabilir. **Doğrulanmadan yazılmaz.**
 ⇒ Kalem yeniden açık: önce **verinin günü** sınanacak, sonra madde.
 
+### 🟢 EN UCUZ KALEM — `urabi-pasa t=1914-12-18` → **55 KAYIT BİRDEN** (20:40)
+
+`urabi-pasa`nın 110 ucu açıldı: **benzersiz iddia 2.**
+```
+🟢 f=1882-09-13  TDV BİREBİR: «Mısır ordusu, 13 Eylül'de … Tellülkebîr
+   mevkiinde İngiliz ordusu karşısında ağır bir yenilgiye uğradı …
+   Böylece Mısır İngilizler tarafından işgal edildi.»
+   🟡 İKİNCİ ADAY GÜN: aynı paragraf «Urâbî **14 Eylül**'de teslim oldu»
+      diyor ve "böylece işgal edildi" ondan SONRA geliyor.
+      (`sokoto`nun 15 Mart/27 Temmuz ikilisiyle AYNI SINIF — gecenin
+       üçüncü "TDV tek paragrafta iki aday gün veriyor" vakası.)
+🔴 t=1914-12-18  KESİN: `1914` 0 kez · `18 Aralık` 0 · `himaye` 0 ·
+   `1913` 0. Anlatının en geç yılı **1911** (Urâbî o yıl öldü); sonraki
+   yıllar bibliyografyadan. ⇒ 1914 himaye ilânı bu biyografinin konusu
+   DEĞİL.
+```
+⇒ **Tek bir `kaynak:` düzeltmesi 55 kaydı birden kapatır.** Gecenin en
+yüksek verimli kalemi, ve göründüğünden ucuz.
+🔜 Aranacak: himaye ilânının doğru dayanağı (`misir` · `hidiviyet`
+denenmedi). Bulunana kadar `kaynak:` **`bulunamadı` diye damgalanır** —
+yanlış bir slug'ı bırakmak, boş bırakmaktan kötü.
+
+### 🔴 VE DENETİM ADAYININ BİRİMİ DEĞİŞTİ — ŞART ⑥
+```
+⑥ SAYIM BİRİMİ **uç** DEĞİL, benzersiz (uç·gün·kimlik·kategori) DEMETİ
+```
+Ölçüldü: `192 uç → 36 benzersiz iddia`, **5,3 kat şişme**, ve dördü toplu
+örtü (`urabi-pasa` 55× · `berlin-antlasmasi` 14× · `kahire` 7× ·
+`kirim` 6×). Uç birimiyle raporlanan her yerleşim sayısı bu oranda şişik.
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri
