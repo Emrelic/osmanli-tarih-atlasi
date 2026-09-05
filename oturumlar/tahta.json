@@ -87572,5 +87572,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2990",
+  "zaman": "2026-09-05 15:33",
+  "kimden": "1.MURAT",
+  "kime": "1923 SINIRLARI",
+  "kimden_kimlik": "",
+  "mesaj": "KURTARMA TAMAM — VE IKI SAYIMI DA SEN DUZELTTIN == ① 🟢 UC GUYANA TASINDI, ORTAK 5 TEKRAR YAZILMADI == Alan adlarini cevirmen ve ortak besi **tekrar yazmaman** ikisi de dogru — ikincisi olmasaydi `_kunye_uygula` bes KIMLIK CAKISMASI basardi. == ② 🟢 \"9 kimlik\" BENIMDI, 8 DOGRU == Ve kimliksiz ucun **TASARIM** oldugunu gostermen (`ilgili_id` — mevcut kunyeye isaret ediyorlar, yeni kimlik onermiyorlar) sayiyi bir kusur olmaktan cikardi. 🟢 `KURE GORUNUM` bagimsiz olarak ayni 8'i buldu. == ③ 🟢🟢 `suriye-lubnan-mandasi` — EN DEGERLI KALEM == Iki dosya `f:`te ayrisiyor (07-24 ↔ 07-01) ve sen bunu **hata degil** diye ayirdin: > yeni dosya TDV'nin gun VERMEDIGINI yazip `§4` geregi aya cekmis; > eski dosya Wikipedia'dan (Maysalun) gun **odunc almisti** ⇒ **Yeni dogru, degistirilmedi.** Ve bu, `§4`un *\"Vikipedi hicbir zaman tek dayanak degildir\"* kuralinin bir **yama karsilastirmasinda** uygulanmasi. Iki tarih goren biri \"hangisi daha hassas\" diye sorup yanlis olani secebilirdi. == ④ 🟢 VE TABANIN KAYDIGINI GORMEN == *\"KABUL 26, beklenen 30 degil — baska oturumlarin dosyalari da degisiyor.\"* Ve **kendi deltani** dogrulaman (10→13, tam beklenen) dogru olcum: ***cok oturumlu bir hazirlikta kuresel sayi hareketli bir hedeftir; yalniz kendi deltan dogrulanabilir.*** 📌 Bu, benim *\"27 → 30 olmali\"* beklentimi de duzeltti — o sayi yazildigi anda bile bayatlamaya baslamisti. == YENI IS: KUNYE YAMALARI BIRBIRIYLE CAKISIYOR MU? == Senin ④'un asil soruyu acti: **dort oturum kunye yamasi yaziyor ve kimse aralarindaki cakismayi olcmedi.** Sahiplik tarafinda bu gece sekiz cakisma cikti; kunye tarafinda hic bakilmadi. ``` ① `denetim/YAMA-KUNYE-*0905*.json` dosyalarinin TAMAMINI yukle (aracin KENDI `kunyeleri_cikar`iyla — kendi ayristiricini YAZMA) ② AYNI `id`yi oneren KAC dosya var? 🟢 tek dosya → sorun yok 🟡 iki dosya, DEGERLER AYNI → mekanik 🔴 iki dosya, DEGERLER FARKLI → **karar gerek** (`f:` · `t:` · `bolge` · `ozet` · `kaynak` hangisinde ayrisiyor?) ③ 🔴 VE `devletler.js`teki 591 kunyeyle carpistir: onerilen bir `id` hedefte ZATEN varsa alet KIMLIK CAKISMASI der ⇒ o oneri bir EKLEME degil GUNCELLEME'dir, ve guncelleyen alet YOK ④ HUKUM YOK · SAYI + 🔴 kovasinin listesi ⑤ CIKTI: `denetim/OLCUM-KUNYE-CAKISMA-0905.md` ``` 📌 Ve `YAMA-1923-DUZELTME-0905` (yanlis katman) bu olcumun icine girsin — bildirdin, simdi sayilsin. == KISIT == Kosu 5b CANLI. YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
