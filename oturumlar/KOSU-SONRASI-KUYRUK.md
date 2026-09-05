@@ -2215,6 +2215,36 @@ yani bu bir **regresyon**, ve koşu bitince nereye döküldüğü görülecek.
 dosyadan artık **ölçülemez**; eski satırları (`devlet 90/550 · iş %66`)
 başka bir koşuya ait.
 
+### 🟢 ADIM ⓪ ÖLÇÜLDÜ — kapı `altlik.js`te **DURMAYACAK** (19:50)
+
+Kuyrukta *"muhtemelen GEREKSİZ"* yazıyordu; *muhtemelen* bir ölçüm değil.
+Ölçüldü:
+```
+FIRLATICI  `kosu_ayrik.log` başlığındaki "olculen en uzun kosu" dizgisi
+           YALNIZ `arac/kos_ve_yayinla.py`de geçiyor       ⇒ fırlatıcı O
+SÜREÇ      Win32_Process(21540).CommandLine = "arac/uret_petek.py"
+           ⇒ koşan süreç o fırlatıcının ÇOCUĞU
+ADIM       kos_ve_yayinla.py:198 `uret_altlik.py` · :200 `uret_bekleyenler.py`
+           ikisi de `olumcul=False`, üretim/devirler ile AYNI blokta
+ZAMAN      düzeltme 055567d · 4 Eyl 22:48:32
+           kos_ve_yayinla.py mtime 5 Eyl 02:40:09
+           koşu başlangıcı        5 Eyl 02:40:26  ← 17 sn SONRA
+```
+⇒ Koşu **düzeltilmiş kodu yükledi**; `altlik.js` ve `bekleyenler.js`
+kendi üretilecek.
+
+🔴 **AMA BİR TUZAK VAR — İKİ ZİNCİR BETİĞİ, DÜZELTME YALNIZ BİRİNDE:**
+```
+arac/_yayin_zinciri.py   uret_devirler · denetle · renk_olc   🔴 altlik YOK
+arac/kos_ve_yayinla.py   + uret_altlik + uret_bekleyenler     🟢 DÜZELTİLMİŞ
+kosu_yayin.py:191        altlik.js'i COMMIT'liyor, ÜRETMİYOR
+```
+⇒ **Koşu bitince `_yayin_zinciri.py` KOŞULMAZ.** Koşulursa kapı duracak ve
+sebebi *"düzeltme yapılmadı"* değil **"düzeltme öteki betikte"** olacak.
+
+⚠️ **Ve hüküm yine de "koştur ve OKU":** *durmayacak* bir öngörüdür,
+kapının çıktısı bir ölçümdür. TESPIH'in kendi uyarısı da bu.
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri
