@@ -308,6 +308,34 @@ gecikmeleri meşrudur (Mekke'nin memlûk dönemi 1517-07-06'da biter, devlet
 
 Bu, dördüncü bir değişmez olarak araca girecek — `YAPILACAKLAR.md`.
 
+### 🔴🔴 3.5.-1 VE HAYALETİN KARDEŞİ: **DEVLET VAR, YERİ YANLIŞ**
+*(5 Eylül 2026 · `NEHİR SÜRTÜNME` · ve bulgu bir KUYRUK sayesinde çıktı)*
+
+Yukarıdaki tablo **var olmayan** devleti yakalar. Kardeşi hiç
+sorulmamıştı: ***devlet gerçekten vardı, ama ORADA DEĞİLDİ.***
+```
+atlas   12 Fizan noktası (Murzuk · Gat · Sokna · Sebha · Ubari …)
+        `hafsi` 1281 → 1577                      = 296 YIL
+TDV `fizan`  918 Benî Hattâb → 1190 Karakuş → "Fizan KÂNİM
+        SULTANLIĞI'NIN KONTROLÜ ALTINA GİRDİ" → 16. yy Evlâd-i
+        Muhammed → 1551 Osmanlı sancağı
+⇒ HAFSÎ HÂKİMİYETİ HİÇ ANILMIYOR. Hafsîler Tunus'ta, Fizan 1.500 km
+  güneydoğuda.
+```
+🔴 **VE `4c` BUNU YALNIZ 2,3 YILLIK BİR KUYRUK YÜZÜNDEN GÖSTERDİ.**
+Künye `hafsi` 1574'te bitiyor, veri 1577'ye kadar boyuyor — o üç yıllık
+taşma olmasaydı **296 yıllık yanlış atıf hiç görünmeyecekti.**
+```
+`4c`/`4d` sorar   "bu kimlik künye PENCERESİNİ aşıyor mu?"
+SORMAZ            "bu kimlik oraya HİÇ ait miydi?"
+⇒ YANLIŞ ATIF, ancak TESADÜFEN bir pencereyi de aşıyorsa görünür
+```
+⚠️ ⇒ Aynı soru **her kimlik için** açık: `hafsi`nin **aşmayan**
+kayıtlarında da yanlış atıf var mı? Hiçbir denetim onu sormuyor.
+📌 `§11`in *"denetim var ≠ o soruyu soruyor"* ailesinin en pahalı üyesi:
+burada denetim doğru çalışıyor, **soru hiç yok.**
+
+
 ### 🔴🔴 3.5.0 ÜÇ SINIF, TEK TABLO — VE ÇARELERİ TERS
 *(5 Eylül 2026 · `NEHİR SÜRTÜNME`, ve ölçen taraf kendi manşetini çürüttü)*
 
@@ -377,6 +405,16 @@ maratha  ARDİL — 31 dönemin 23'ü GERÇEK günlerde bitiyor (1803 · 1818);
 > ```
 > ⚠️ **ARDİL SINIFININ KENDİSİ DOĞRU** — çürüyen yalnız *"ardıl kimlik
 > yok"* iddiası. Ders korunur, vaka damgalanır (`§3.5.1` emsali).
+
+🔴 **VE BİR DÜZELTMEYİ BİR ALETE KOYMAK, ONU ÖTEKİ ALETLERE KOYMAZ.**
+Üç haneli yıl tuzağı (`"800-01-01" <= "1281-01-01"` → **False**, çünkü
+`"8" > "1"`) bir gecede **dört** alette çıktı: `dubrovnik` (elendi) ·
+`nube` (47 sahte pozitif) · `ARAC-4C` (pad kondu) · ve ardıl kontrolü
+(`kanem-bornu` yanlışlıkla *"kapsamaz"* bastı). `pad()` iki alete
+yazılmıştı ve `CLAUDE.md`de kayıtlıydı; üçüncüsüne konmadı.
+🟢 Yakalayan şey alet değil **göz** oldu: *"800 ≤ 1281 apaçık."*
+⇒ Bir aletin çıktısını gözle sınamak, alete güvenmenin yerine geçmez
+**ama onu yakalar.**
 
 🔴 **VE BU, BİR GECEDE ÜÇÜNCÜ TEK-HARF KÜNYE KAÇIRMASI:**
 ```

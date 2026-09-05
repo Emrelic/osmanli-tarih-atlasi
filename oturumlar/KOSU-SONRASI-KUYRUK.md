@@ -811,6 +811,34 @@ kaydının 12'si **Fizan** ve Hafsîler 1574'te bitti — ama **Fizan 1574'te
 de Hafsî değildi** (Evlâd-i Muhammed). Asıl soru *"bu kimlik oraya HİÇ
 ait miydi"*, ve `4c`/`4d` o soruyu **hiç görmez.** Ölçülüyor.
 
+### 🔴🔴 FİZAN — "296 YILLIK YANLIŞ ATIF", ve `4c` onu TESADÜFEN gösterdi
+
+```
+`4c`nin gördüğü   12 kayıt · künyeyi 2,3 YIL aşıyor
+GERÇEK            12 kayıt · kimlik 296 YIL boyunca YANLIŞ
+```
+TDV `fizan`: 918 Benî Hattâb → 1190 Karakuş → *"Fizan **KÂNİM
+SULTANLIĞI'NIN KONTROLÜ** altına girdi"* → 16. yy Evlâd-i Muhammed →
+1551 Osmanlı sancağı. **Hafsî hâkimiyeti hiç anılmıyor** (Hafsîler
+Tunus'ta, Fizan 1.500 km güneydoğuda).
+
+**TAKAS ONAYLANDI — iki ölçüm şartıyla:**
+```
+🟢 `hafsi` 1281-1577  →  `kanem-bornu` (künye 800-1905, RENGİ VAR)
+   EMSAL: atlas onu Sahra'da ZATEN kullanıyor — Bilma · Mao · Dikva
+   1281→1902, AYNI KERVAN YOLU ⇒ yeni konvansiyon icat edilmiyor
+🟡 kalıntı: TDV 16. yy'da Evlâd-i Muhammed'e geçtiğini söylüyor ama
+   YIL VERMİYOR ⇒ ~50 yıl `kanem-bornu` altında kalır
+🔴 ŞART ①  TDV `bornu` gövdesi — Kânim'in hâkimiyeti ne kadar sürdü?
+🔴 ŞART ②  veri 1577'den sonra ne diyor ve **1577 kaynaklı mı?**
+           TDV Osmanlı'nın Trablus'u alışını **1551** diye tarihliyor
+           ⇒ 1551 kaynaklı bir sınır olabilir ve kalıntıyı ~0'a indirir
+           ⚠️ ama zinciri ÖLÇ — `Değişmez 1` boşluk kabul etmez
+```
+📌 **Bu Elba'dan farklı:** orada ne `toskana` ne `floransa` doğruydu
+(takas net kazanç vermiyordu); burada `hafsi` **tamamen** yanlış,
+`kanem-bornu` **çoğunlukla** doğru ⇒ 296 yıl → ~50 yıl, **net 246 yıl.**
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri
