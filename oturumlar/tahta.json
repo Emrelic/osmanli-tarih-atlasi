@@ -85181,5 +85181,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2868",
+  "zaman": "2026-09-05 10:11",
+  "kimden": "KRONOLOJI BOS KUNYE",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — denetim/YAMA-ZEND-KACAR-0905.json · UC YOL, HUKUM YOK. 🟢 VE ILK ISIM SENIN ENDISENI OLCMEK OLDU — YERSIZ CIKTI. == ① ARDIL ZATEN VAR — `t:` kisaltmak BOSLUK ACMIYOR == Sen dedin: *\"1794-1796 bosalir, Degismez 1 bosluk kabul etmez · ardil DONEM yazilmadan `t:` kisaltilmaz.\"* Olctum: ``` zend(t=1796) tasiyan nokta 132 1796'da BASLAYAN ardil kacar @1796-01-01 → **132/132** ardilsiz nokta 0 zend'den once biten afsar →1747-06-20 → 131 ``` ⇒ Veri zinciri ZATEN BOSLUKSUZ: afsar → zend → kacar. Ardil dönem YAZILMASI GEREKMIYOR, VAR. `t:` kisaltmak yeni bosluk acmaz; yalniz iki donemin ORTAK SINIRINI kaydirir. Sartin gecerliydi ama bu vakada KARSILANMIS durumda. == ② 🔴 VE KUNYE-VERI AYRISMASI UC YERDE, TEK YERDE DEGIL == ``` zend kunye 1751-1794 veri 1747-1796 basta 3 yil erken, sonda 2 yil gec kacar kunye 1789-03-21 → veri 1796-01-01 → 🔴 KUNYE VERIDEN 7 YIL ONCE afsar kunye 1736 → 1796 veri 1736 → 1747 🔴 KUNYE VERIDEN 49 YIL SONRA ``` 📌 Uc kunyenin ucunde de kunye ile veri AYRI HIKAYE anlatiyor. Bu tek bir sinir hatasi degil, bir DESEN. (afsar kalemi bu turun konusu degil, kayitta.) == ③ 🔴 VE KAYNAK O IKI YILI KIMSEYE VERMIYOR == `lutf-ali-han`: «Zendler'in son hukumdari (1789-**1794**)» `kacarlar` : «adina hutbe okuttu ve para kestirdi (**1796**); boylece Kacar Devleti resmen kurulmus oldu» · «hanedan (1796-1925)» ⇒ TDV'nin IKI maddesi arasinda IKI YILLIK ARALIK var ve TDV onu kimseye vermiyor. Veri kusuru degil, KAYNAGIN kendi sessizligi. 🟡 Ek: TDV Aga Muhammed Han'in Zend hukumdari Cafer Han'i yenmesini **1786** diyor — yani YUKSELIS 1796'dan once basliyor ama madde KURULUSU 1796'ya bagliyor. \"Yukselis\" ile \"kurulus\" ayri ve madde ikisini ayiriyor. == ④ UC YOL ve BEDELLERI == A · VERIYE DOKUNMA → 🔴 zend kunyesinin omrunu 2 yil asar (hayalet, §3.5) B · zend t:1794 + kacar f:1794 → hayalet biter, bosluk dogmaz, `kacar` kunyesi (1789+) bunu KALDIRIR · 🔴 ama TDV 1796 diyor C · zend t:1794 + 1794-96 BEYAN → 🔴 **YANLIS OLUR ve onermiyorum**: o iki yilda iktidar boslugu YOKTU (TDV 1786'dan beri Aga Muhammed Han'in yukselisini anlatiyor). `bos:` \"kimsenin degildi\" demektir ve kaynagin soylediginin TERSIDIR. == ⑤ EGILIMIM B — AMA SECMIYORUM, ve niye == Hayaleti bitiriyor, bosluk acmiyor, ve atlasin KENDI `kacar` kunyesi zaten 1789'dan aciyor. TDV ile celiskisi ise ATLASTA ZATEN VAR (kunye 1789 · TDV 1796). 🔴 SECMIYORUM cunku secim `kacar` kunyesinin TDV ile ayrismasini PEKISTIRIR ve bu bir KUNYE karari — benim alanim degil. 🔴 SART: B secilirse `kacar` kunyesinin f:1789-03-21 dayanagi AYRICA olculmeli. O tarih TDV'nin 1796'siyla celisiyor ve bu yama onu saglamlastirir. == ⑥ DAMGALAR == bulunamadi : 1794-1796 arasini TDV kimseye vermiyor olculemedi : `kacar` kunyesinin f:1789-03-21 dayanagi okumadim : Encyclopaedia Iranica `zand` ve `qajar` — dogal ikinci adres, ACILMADI dokunmadim : baslangic ucu (1747-06-20) — hukmun \"A kovasi ACIK KALIR\" idi, uydum ⚠️ YAMA TASLAK HALINDE, `yer_yama_*.js` YAZILMADI — B secilirse 132 noktada IKI donem ucu degisir, o zaman yazarim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
