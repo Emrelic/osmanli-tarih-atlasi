@@ -410,16 +410,44 @@ ediyor"* — veride pencereyi aşan dönem **SIFIR**, eksen hiç açılmamış.
 🟢 Bağımsız doğrulama: ölçüm bittikten SONRA `js/app.js:99`da aynı iki
 sayı (3632 · 96) bulundu — **devralınmadı, ayrıca ölçüldü.**
 
-**VE `devletler.js` KENDİ SÖZLEŞMESİNE %34,7 UYUYOR:**
-64 künye `1923-10-29` taşıyor ama özetinde not düşmüyor, ve neredeyse
-hepsi 1923'ten sonra da yaşadı (abd · fransa · ingiltere · japonya ·
-brezilya · polonya …). ⇒ `1923-10-29` **iki farklı şeyi aynı biçimde**
-yazıyor: *"bu devlet o gün BİTTİ"* ile *"bu devlet SÜRÜYOR, ATLAS bitti."*
+**VE `devletler.js` KENDİ SÖZLEŞMESİNE ~~%34,7~~ → %81,6 UYUYOR:**
+```
+🔴 İLK SAYI YANLIŞTI VE ONU KOORDİNATÖR YAYDI — 34/98 değil 80/98
+sebep: künyeler sözleşmeyi STANDART bir parantezle yazıyor —
+       "(1923 sonrasında da sürdü)" — ölçüm kalıbı "sonra da"
+       (BOŞLUKLU) arıyordu; "sonrasında da" onu İÇERMEZ.
+       46 künye SESSİZCE elendi.
+```
+📌 Ölçen oturumun kendi cümlesi: ***"Kalıbı VARSAYDIM, oysa saymak on
+saniyelik işti."*** — ve 54 künyenin `(1923…)` parantezi taşıdığı,
+46'sının birebir aynı cümle olduğu **sayılabilirdi.**
+⇒ **Sınıf gerçek, ölçeği dörtte biri:** 64 değil **18** künye susuyor.
+Ve o 18'in ikisi HAKLI: `tbmm-turkiye` gerçekten 29 Ekim 1923'te bitti
+(beyan gerekmez) · `liberya`nın beyanı **`son` kronoloji kaydında** —
+sözleşmenin ÜÇÜNCÜ biçimi. ⇒ Gerçekten eksik: **16.**
+⚪ 11'i Latin Amerika cumhuriyeti (tek bir parti eksiği gibi duruyor,
+`git log`a BAKILMADI).
 
-⚪ **AYRI VE BUGÜNKÜ BİR KUSUR (eksenden bağımsız):** dört künye
-`t:1923-10-29` taşıyor ama kendi `son` kaydı daha erken —
-`yemen-zeydi` 1918-11-01 · `almanya` 1918-11-11 · `manipur` 1891 ·
-`san-devletleri` 1887. **Hayalet mi sözleşme mi ölçülüyor.**
+### 🟢 DÖRT "İÇ ÇELİŞKİ" ÖLÇÜLDÜ: **HAYALET 0 · SÖZLEŞME 4**
+```
+künye            son          sonra-biten  sonra-BAŞLAYAN
+yemen-zeydi   1918-11-01           9              0
+almanya       1918-11-11          42              0
+manipur       1891                 1              0
+san-devletleri 1887                3              0
+```
+Boya anahtarını paylaşan künye: dördünde de YOK (atıf karışmıyor).
+🟢 Ve metinler okununca dördü de **sözleşme** çıktı:
+```
+yemen-zeydi  `son` metni: "Osmanlı garnizonları ÇEKİLDİ, FİİLÎ
+             BAĞIMSIZLIK" — bir son değil, BAĞIMSIZLIĞIN BAŞI
+almanya      künye "Kutsal Roma / Almanya" = 962'den beri bir ÇATI
+             yapısı; `son` çatının değil İÇİNDEKİ REJİMİN sonu
+             — ve veri bunu ZATEN biliyor: 42 dönemin 8'i 1918-1920
+             arasında ayrı ayrı bitiyor (Poznan · Versay ×5 …)
+```
+📌 *"Künyenin NEYİ temsil ettiği sorusu, hayalet sorusundan ÖNCE gelir"*
+uyarısı belirleyici oldu — dördü de o soruyla çözüldü.
 
 ### ⚪ `kur:` ALANI UYGULAYICIDA YOK — merge ön şartı
 `_sahiplik_uygula.py` `kur:`i **taşımıyor**; yamada dursa bile düşer.
@@ -597,6 +625,49 @@ bugün yazılamaz, `polonya-erken` emsali.
 buldu (*"4c'de gerçek hayaletler var, meysur Batnoz'un üstünde"*).
 ***Bir sayının büyük olması, onun bilinen bir sınıfa ait olduğunu
 göstermez.***
+
+### 🟢 `zend` — FETRET VAR AMA SORULAN YERDE DEĞİL, ve 131 → **BİR KARAR**
+
+```
+benzersiz BAŞLANGIÇ günü 4 · 131'i AYNI GÜN 1747-06-20
+benzersiz BİTİŞ günü     3 · 132'si AYNI GÜN 1796-01-01
+⇒ 131 ayrı yargı DEĞİL, BİR yargının 131 kez yazılması (toplu yazım izi)
+```
+📌 Aynı şart (*"önce kaç ayrı GÜN"*) bu gece `isg:`de de 32 ucu **5 güne**
+indirmişti. ***Değişmez 2 güne bakar, kayda değil*** — ve bir kalemin
+büyüklüğünü kayıt sayısıyla ölçmek iki kez fazla tahmin ürettirdi.
+
+🔴 **VE KOORDİNATÖRÜN SORDUĞU YER YANLIŞTI:**
+```
+soruldu          1747-1751 (Nâdir Şah'ın ölümü → Kerim Han)
+TDV tarif ediyor 1779 SONRASI (Kerim Han'ın ölümü → TAHT KAVGALARI)
+```
+TDV `iran` gövdesi Nâdir Şah'ın öldürülmesini Kerim Han'ın hâkimiyetine
+**doğrudan bağlıyor**; arada boşluk anılmıyor. Ölçen oturumun cümlesi:
+***"Kaynak 'fetret yok' demedi — 'BAŞKA YERDE VAR' dedi."***
+
+**HÜKÜM: B kovası uygulanır, A açık kalır**
+```
+🟢 B · VERİ GEÇ (bitiş) — kaynaklı: TDV `lutf-ali-han` Zendler'in son
+   hükümdarını 1789-**1794** diye tarihliyor, künye de 1794'te bitiyor,
+   veri 1796'ya boyuyor ⇒ 132 dönemin `t:` → 1794-01-01
+   🔴 ŞART: 1794-1796 BOŞALIR ve `Değişmez 1` boşluk kabul etmez —
+      ardıl `kacar` dönemi yazılmadan `t:` KISALTILMAZ.
+🟡 A · KÜNYE DAR (başlangıç) — TDV Kerim Han'ın iktidara geliş yılını
+   VERMİYOR ⇒ `bulunamadi`, `1747-06-20`ye DOKUNULMAZ.
+```
+⇒ Kalem **yarısı çözülür** (bitiş), yarısı açık kalır. 263'ün tamamı
+değil bir kısmı temizlenir — **sayı önceden şişirilmesin.**
+
+### 🟢 HADRAMUT — künye bölmesi NOKTASIZ ANLAMSIZ
+Ölçen oturum Kesîrî için **ters kanıt** buldu (1879'da Osmanlı-iddialı
+girişimi **isyan ederek terk ettiler**) ⇒ Osmanlı örtüsü eklenmedi.
+🔴 Ama atlasta `Hadramut` **tek nokta** (`tur:bolge`, 15.50/48.50) ⇒ o
+tek nokta hem kıyıdaki Kuaytî'yi hem içerideki Kesîrî'yi temsil ediyor
+ve **ikisi aynı rengi alıyor.**
+⇒ ***Künye bölmesinin haritada hiçbir etkisi olmaz.*** Şibâm (Kesîrî) ve
+Şihr+Mükellâ (Kuaytî) için **nokta açılacak**; 1915-1919 nominal Osmanlı
+örtüsü yalnız Kuaytî tarafına (`v:`, TDV "nominal" diyor).
 
 ### 🔴 KOŞUYU ÖLÇME — İKİLİ DEĞİL **MERDİVEN** (5 Eylül 09:10'da düzeltildi)
 
