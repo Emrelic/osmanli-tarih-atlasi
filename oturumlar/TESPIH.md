@@ -4,23 +4,41 @@
 > **buradan** devam edilir. 20 dakikalık uyandırıcı (`cron fb6be0f1`)
 > her turda bu dosyayı okur.
 
-## 🔒 GÜNÜN KISITI — KOŞU 5 KOŞUYOR
+## 🔒 GÜNÜN KISITI — KOŞU 5 **ÖLDÜ**, KOŞU 5B KOŞUYOR
 
 ```
-KOŞU 5 · 2026-09-04 21:26:47 başladı · uret_petek.py PID 19380
-zincir    arac/kos_ve_yayinla.py  (üretim → denetle → damga → YAYIN)
-log       kosu_ayrik.log   ·   bekçi denetim/BEKCI-KOSU5-stdout.log
-beklenen  ~16 saat (koşu 4b 16s09dk sürdü) → 5 Eylül sabah/öğlen
+🔴 KOŞU 5   21:26:47 başladı · PID 19380 · ~00:47'de ZİNCİRİN KENDİ ZAMAN
+            AŞIMIYLA kesildi (dk=200, başlığı "~75 dk"). Koşu 4b 16s09dk
+            sürmüştü ⇒ 200 dakikalık tavan onu ASLA bitiremezdi.
+            3 SAAT 20 DAKİKA boşa gitti.
+🟢 KOŞU 5B  2026-09-05 02:40:26 başladı · uret_petek.py PID **21540**
+            bekçi PID 20172 · zincir tavanı 200 → **1440 dk**
+            beklenen bitiş **~18:40** — SABAHA YETİŞMEZ, bu bir ÖLÇÜM
+            (16s09dk koşu 4b'nin gerçek süresi), tahmin değil.
+log       kosu_ayrik.log + kosu_zincir.log · bekçi denetim/BEKCI-KOSU4C.log
 DONMUŞ : data/*  ·  arac/uret_petek.py · renkler.py · girdi.py
 SERBEST: js/app.js · css/style.css · index.html · denetim/* · oturumlar/*
 ```
-⚠️ Log 21:26'dan sonra SESSİZ görünür — motor stdout'u tamponluyor, bu
-   BELGELİ ve normal. Ölçüm SÜREÇTEN yapılır (`.petek.kilit` PID'i canlı mı),
-   logdan değil.
-🟢 Çift koşu kilidi bu koşuda İLK KEZ CANLI (`arac/kosu_kilit.py`): ikinci
-   bir `py arac/uret_petek.py` REDDEDİLİR. Eski kilidin 4 saatlik eskime
-   tavanı vardı ve koşu 16 saat sürüyor — dördüncü saatten sonra ikinci bir
-   koşu kilidi DEVRALIRDI.
+
+🔴 **ÖLÇÜM SÜREÇTEN YAPILIR, KİLİT DOSYASINDAN DEĞİL.**
+```
+DOĞRU   Get-Process -Id 21540        ya da  tasklist /FI "PID eq 21540"
+YANLIŞ  .petek.kilit'i okuyup "PID yazıyor ⇒ canlı" demek
+```
+Koordinatör bu gece iki saat boyunca "PID canlı" diye rapor etti çünkü
+**dosyayı** okuyordu; dosyadaki PID'in **yaşadığını** hiç ölçmedi. Ölümü
+bir işçi oturum (`1923 SINIRLARI`) kendi işine başlamadan önce ölçüp
+buldu — üç bağımsız kanıtla (log · tasklist · kilit).
+📌 Ve bekçi de **yanlış konuşuyordu**: yalnız `donemler.js` damgasına
+bakıyordu, koşu ölünce damga da değişmez ⇒ ölümü *"henüz bitmedi"* diye
+okudu. Artık `.petek.kilit`ten PID okuyup her turda canlılığa bakıyor
+(`🔴🔴 SUREC OLDU` + 3 alçak beep). ***Bir yanlış "iyi gidiyor",
+sessizlikten tehlikelidir — çünkü sorgulanmaz.***
+
+⚠️ Log 02:40'tan sonra SESSİZ görünür — motor stdout'u tamponluyor, bu
+   BELGELİ ve normal (`CLAUDE.md §9`).
+🟢 Çift koşu kilidi (`arac/kosu_kilit.py`) İLK GERÇEK İŞİNİ YAPTI: ölü
+   PID'i kendiliğinden devraldı, elle temizlik gerekmedi.
 
 ### KOŞU 5 NELERİ TAŞIYOR (hepsi 4 Eylül'de indi, hiçbiri ekranda yoktu)
 ```
@@ -84,6 +102,52 @@ Kapı doğru davrandı; eksik olan ZİNCİRDİ.
 ⑤ 21 rengin EKRANDA gözle sınanması — alet "meşru" der, "güzel" demez.
    Beşi Anadolu beyliği (karaman · aydin · teke · ramazanoglu ·
    inancogullari) ve belirgin değişti.
+```
+
+---
+
+## 🌙 GECE NÖBETİ — 5 Eylül 04:15 · BEŞ OTURUM SEVK EDİLDİ
+
+Emre'nin gece talimatı: *"hazır kıtaları kullan sabaha kadar çalış… pek çok
+konu var, konulara sen kendin analiz ile ne eksik karar ver."*
+Beşi de gece boyunca teslim etti, **beşi de boştaydı** ⇒ yeniden sevk edildi.
+Yamalar `denetim/` altına yazılıyor; birleştirme koşu 5b bitince (`§KUYRUK`).
+
+| oturum | yeni iş | çıktı |
+|---|---|---|
+| `1923 SINIRLARI` | 1918-23 halef künyeleri (≥8) | `YAMA-KUNYE-1923-0905.json` |
+| `NEHİR SÜRTÜNME` | 11 künyede `f:`/`t:` triyajı (A/B/C) | `TRIYAJ-KUNYE-TARIH-0905.md` |
+| `KRONOLOJİ BATI AFRİKA 2` | güney-asya, 50 künye | `KRONOLOJI-GASYA-0905.json` |
+| `KRONOLOJİ BOŞ KÜNYE` | dünya seyreklik haritası (nokta YAZMA) | `SEYREKLIK-DUNYA-0905.json` |
+| `KÜRE GÖRÜNÜM` | "dereler çaylar" tanecik ölçümü | `BULGU-DERE-CAY-0905.md` |
+
+### 🔴 VE BİR SEVKİN ÖNCÜLÜ ÖLÇÜLDÜ, ÇERÇEVESİ ÇÜRÜDÜ *(`§11` — sevk öncülünü doğrular)*
+`1923 SINIRLARI` şunu bildirmişti: *"`mezopotamya` ve `suriye-filistin`
+bölgelerinin ikisinde de tek künye yok (0/0)."* Koordinatör ölçtü:
+```
+devletler.js · 591 künye · 27 BÖLGE CİNSİ — ve o ikisi LİSTEDE HİÇ YOK
+⇒ "0/0" DOĞRU bir sayıdır ama VAR OLMAYAN bir alan değerini sorar
+  (`kim` vs `kimden` vakasının birebir aynısı: 0, "yok" ile "bakmadım"ı ayırmaz)
+```
+🔴 **Ve asıl düzeltme çerçevede:** Irak ve Suriye 1281-1918 arası **Osmanlı
+vilâyetidir** — ayrı künyeleri olmaması kusur değil, **doğru.** Bu çerçeveyle
+iş verilseydi, doğru çizilen 600 yıla künye yazılacaktı.
+🟢 **Bulgu yine de ayakta:** gerçek boşluk **1918-1923 halefleridir** ve
+bağımsız ölçüm onu doğruladı — `1923-10-29`da canlı künye **96/591**; Irak ·
+Suriye-Lübnan · Filistin · Ürdün · Mısır 1914-23 · Rif · Tannu-Tuva ·
+Harezm/Buhara halefi **gerçekten yok.**
+📌 Ders iki uçlu: *bir sevk öncülünü doğrular* — ama doğrularken **bulguyu
+çürütmek ile çerçeveyi çürütmek** ayrı şeydir. Burada çerçeve çürüdü, bulgu
+ayakta kaldı.
+
+### 🟢 KAPANAN İKİ KALEM
+```
+NEHİRLER HARİTAYA   Emre'nin isteği ÖLÇÜLDÜ ve YARISI ZATEN KARŞILANMIŞ:
+                    ALTLIK.nehir 1454 parça, zoom ≥ 3,5'te çiziliyor.
+                    AÇIK KALAN: Natural Earth 10m'de DERE ve ÇAY YOKTUR
+                    ⇒ istenen tanecik ile verinin taneciği AYRIŞIYOR olabilir
+SİBİRYA YERLEŞİM    KAPATILDI — 54 ostrogun 40'ı zaten atlasta, kalan
+                    boşlukların çoğu BEYAN EDİLMİŞ (51 `kasitli_bosluk`)
 ```
 
 ---
