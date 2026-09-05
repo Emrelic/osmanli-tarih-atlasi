@@ -2462,6 +2462,48 @@ alındı: **`denetim/ARAC-PETEKSIZ-0905.js`**, ve geçici `girdi_listesi.txt`
 bağımlılığı kaldırıldı — dosya listesini artık `girdi.py`den **Python'a
 okutarak** alıyor.
 
+### 🔴 `kaynak:` YERLEŞİM KATMANINDA — bulgu bir ORAN değil bir ASİMETRİ (20:25)
+
+```
+                 KÜNYE          YERLEŞİM (temizlenmiş evren)
+🔴 taşımıyor     3/26 (%12)     15/35 (%43)
+🟡 gün yok      13/26 (%50)      9/35 (%26)
+⚪ doğrulanmadı 10/26 (%38)     11/35 (%31)
+```
+🔴🔴 **ASIL BULGU:**
+```
+`f:` ucu   18 uçtan  2'si 🔴  (%11)
+`t:` ucu   17 uçtan 13'ü 🔴  (%76)      ⇒ 🔴'ların %87'si `t:` ucunda
+```
+⇒ **Bir dönemin `kaynak:`ı onu BAŞLATAN olayın kaynağıdır; BİTİRENİNKİ
+değil.** `urabi-pasa` f=1882-09-13 ⚪ / t=1914-12-18 🔴 — madde 30 yıl
+önce bitiyor, ve **yedi yerleşimde aynı desen**. `berlin-antlasmasi`
+f=1878 🟡 / t=1908 🔴 (ilhak) ×4.
+🟢 **Kayıt kusurlu DEĞİL** — alan iki farklı olayı tek slug'la göstermek
+zorunda. ⇒ Çare kaynak aramak değil, **alan tasarımı** olabilir.
+
+**Ve künye/yerleşim farkının sebebi denetim değil İŞLEV:** künye slug'ı
+devletin KENDİ maddesi (kendi doğum/ölümü), yerleşim slug'ı bir OLAYIN
+maddesi ve bir dönemin İKİ ucunu birden taşımak zorunda.
+
+🟢 **DENETİM ADAYI — ŞART SAYISI 5'E ÇIKTI:**
+```
+① gövde KESİLMEDEN alınır          ② `⚫ ölçülemedi` AYRI kova
+③ pencere uçları ELENİR            ④ MİRAS `kaynak:` evrene GİRMEZ
+⑤ `f:` ve `t:` AYRI raporlanır  🆕 (%87 asimetri tek sayıda kaybolur)
+```
+⚠️ ④ ölçüldü: temizlenmemiş evrenin **%77'si** dönem beyanı değil,
+kayıttan miras. Ona karşı ölçmek kaydın hiç yapmadığı bir iddiayı sınamak.
+
+⚠️ **Ve `%43` bir ORAN DEĞİL:** 35 ucun 7'si tek slug'dan (`urabi-pasa`),
+4'ü `berlin-antlasmasi`'ndan — bu darlıkta tek bir slug sonucu sürükler.
+Ölçen oturum bunu kendi yazdı.
+
+🔵 **EMRE'YE — ACİL DEĞİL, ama iyi konmuş bir soru:** dönem `kaynak:`ı tek
+mi kalsın (ve *"başlangıcı belgeler"* diye yazılı bir sözleşme mi olsun),
+yoksa `kaynak_f:` / `kaynak_t:` diye ayrılsın mı? `v:` kimlik kararıyla
+aynı sınıf: **veri modeli iki şeyi tek alanda taşıyor.**
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri

@@ -6456,3 +6456,58 @@ BULGU-GEOMETRI-0904.md      mtime  4 Eyl 11:49
   listeyi ilk parantezde kesti ve **77 yerine 1 dosya** verdi — betik hata
   vermeden *"TOPLAM 792 nokta · peteksiz 0"* diye **temiz bir sayı** bastı.
   Çare regex'i düzeltmek değil, **Python'a okutmak** oldu.
+
+- 🔴🔴 **BİR DÖNEMİN `kaynak:`I ÇOĞU ZAMAN ONU **BAŞLATAN** OLAYIN
+  KAYNAĞIDIR; **BİTİREN** OLAYINKİ DEĞİL — alan tek, olay iki.**
+  *(5 Eylül 2026 · `NEHİR SÜRTÜNME`)*
+
+  *"Beyan edilen kaynak iddiayı taşımıyor"* sınıfı yerleşim katmanında
+  ölçüldü ve çıkan şey bir oran değil bir **asimetri** oldu:
+```
+`f:` ucu   18 uçtan  2'si 🔴   (%11)
+`t:` ucu   17 uçtan 13'ü 🔴   (%76)
+⇒ 🔴'ların %87'si `t:` ucunda
+```
+  Vakalar deseni açıkça gösteriyor:
+```
+urabi-pasa  f=1882-09-13 ⚪ (madde İngiliz işgalini ANLATIR)
+            t=1914-12-18 🔴 (himaye ilânı — madde 30 YIL ÖNCE biter)
+            YEDİ yerleşimde aynı desen
+berlin-antlasmasi  f=1878-07-29 🟡 · t=1908-10-05 🔴 (ilhak)  ×4
+```
+  ⇒ ***Kayıt kusurlu DEĞİL; alan iki farklı olayı tek slug'la göstermek
+  zorunda.*** Bir dönemin başı ve sonu genellikle **ayrı olaylardır** ve
+  ayrı maddelerde anlatılır; `kaynak:` ise tektir.
+
+  🟢 **VE BU, KÜNYE İLE YERLEŞİM ARASINDAKİ FARKI DA AÇIKLIYOR** —
+  *"künyeler daha mı çok denetlendi?"* sorusunun cevabı **hayır**, sebep
+  **alanın işlevi**:
+```
+KÜNYE     slug DEVLETİN KENDİ maddesi; taşıdığı tarih onun kendi
+          doğum/ölümü ⇒ madde çoğu zaman İKİSİNİ DE taşır
+YERLEŞİM  slug bir OLAYIN maddesi; bir dönemin İKİ ucunu birden taşımak
+          zorunda, ve o iki uç genellikle FARKLI olaylar
+```
+  📌 ⇒ Çare *"daha çok kaynak aramak"* olmayabilir; **alan tasarımı**
+  sorgulanmalı. Ve bu ayrım ancak `f:` ile `t:` **ayrı raporlanırsa**
+  görünür — tek sayıda toplanırsa asimetri kaybolur ve çare yanlış yere
+  gider.
+
+- 🔴 **MİRAS ALINMIŞ BİR ÖZNİTELİK, BİR BEYAN DEĞİLDİR — ona karşı ölçmek,
+  kaydın hiç yapmadığı bir iddiayı sınamaktır.** *(aynı ölçüm)*
+
+  İlk manşet **%53**ti. Ölçen oturum kendi *"ne ölçmedim"* satırını ölçtü
+  ve evreni üç kademe temizledi:
+```
+609 → 428   ilk kelimeyi slug saymak: `ankraj` 47 · `ostrog` 42 ·
+            `veri-ici` 22 · `1913-05-30` 16 girmişti
+428 → 101   🔴 DÖNEMİN KENDİ `kaynak:` alanı 101
+            🟡 KAYIT ÜSTÜNDEN MİRAS          330  (%77)
+```
+  ⇒ Evrenin **%77'si** bir dönem beyanı değil, kayıt seviyesinden
+  devralınmış bir etiketti. Ona karşı ölçmek, o dönemin **hiç yapmadığı**
+  bir kaynak iddiasını çürütmek olurdu.
+  📌 `§11`in *"ölçüm doğru, evren yanlış"* ailesinin **miras** yüzü: burada
+  evren coğrafî ya da zamansal olarak değil, **beyan sahipliği** bakımından
+  dardı. ⇒ Bir alanı ölçerken sorulacak: ***bu değeri bu kayıt mı BEYAN
+  ETTİ, yoksa devraldı mı?***
