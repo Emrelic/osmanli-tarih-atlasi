@@ -442,6 +442,51 @@ paşalığıyla** anlatıyor ⇒ `arma` künyesi + renk gerekiyor.
 📌 Aynı gece, iki ayrı kolda aynı ders: Darfur · Agadez · Hadramut'ta da
 `bos:` yazmak gerçeği silecekti.
 
+### 🔴 `4d` HARİTASI — EN BÜYÜK KALEM `zend`: **131 KAYIT**, ve 3 YIL FARK
+
+```
+zend      131 · künye f:1751-01-01 · veride en erken 1747-06-20 · 3 YIL
+isvec      42 · 242 yıl        adal      37 · 134 yıl
+lehistan   37 · 288 yıl (19'u yazıldı)   somali 26 (künye önerisi kuyrukta)
+napoli     24 · künye 1282-03-30 · veri 1281-01-01 · **15 AY**
+bosna 14 · bogdan 14 · eflak 13 · ispanya 9 · avusturya 6 · milanoduka 6
+```
+🔴 **Bu gece kapatılanın toplamı 52 kayıt; `zend` tek başına 131.**
+📌 Ve fark küçük olduğu için muhtemelen bir **karar**: `1747-06-20` Nâdir
+Şah'ın öldürüldüğü gün, `1751` Kerim Han Zend'in hâkimiyeti kurduğu yıl —
+arada dört yıllık bir fetret olabilir.
+🔴 **HÜKÜM VERİLMEDİ**, ve gerekçesi `§11`in *"1335-1340 İran fetreti"*
+vakası: **aynı şekle sahipti ve ölçülünce ÇÜRÜDÜ** (fetret yoktu, künye
+zaten doğruydu, veri 17 yıl erken kesmişti). Kaynak gerekir.
+
+⚠️ **VE BU SINIF İÇİN TEK BİR TOPLU ÇARE YOK:** kimi künye penceresi DAR
+(İsveç 1281'de vardı, künye Vasa'yı 1523 gösteriyor), kimi GERÇEKTEN
+sonra kurulmuş (Bosna 1377). Her satır ayrı bir soru.
+
+### 🟢 `adal` — DESEN TUTTU, COĞRAFYA TUTMADI (yama YAZILMADI)
+```
+evfat 1285-1415 → adal 1415-1887   TAM BİTİŞİK ÇİFT · ikisinin de rengi var
+TDV `evfat`: "Adel Emirliği onun yerini aldı"  ⇒ künye çifti bunu kodluyor
+🔴 AMA 37 noktanın dağılımı: Afar kıyısı · Ogaden · PUNTLAND (50-51°D,
+   Guardafui) · Somaliland — Ifat ŞEVVA'da bir emirlikti, 1.100 km batıda
+```
+📌 ***Bir künye çiftinin ZAMAN ekseninde kusursuz olması, MEKÂN ekseninde
+doğru olduğu anlamına gelmez.*** Toplu uygulansaydı bu gece kaba kutunun
+iki kez ürettiği yanlış bulgunun üçüncüsü olurdu — bu sefer kutuyla değil
+**kimlikle.**
+🔴 Ve aynı bölgede **iki ayrı sorun karıştırılmamalı:** Şevva'nın 6
+noktası (`habesistan`, ezilmiş tâbiiyet, Emre'nin `v:` kararına bağlı) ile
+Somaliland/Ogaden'in 37'si **hiç örtüşmüyor.**
+⚪ Ve bir sessiz borç: `evfat` künyesi VAR, rengi VAR, **veride 0 dönem.**
+
+### 🔴 SIRADAKİ ÖLÇÜM `4c` — ve sebebi bir YAYIN TAVANI
+`BEKLENEN_ASAN = 280`, bugünkü ölçüm **287** ⇒ kuyruk tavanı
+**yükseltmeyi** öngörüyor. Oysa `4d`de tam tersi yapıldı: tavan
+yükseltilmedi, **veri düzeltildi** (467 → 443). `4c`de aynı şansı
+bilmiyoruz **çünkü hakkında sıfır bilgimiz var.**
+⇒ `4c` haritası çıkarılacak (aynı alet, küçük değişiklik), sonra `napoli`
+(24 kayıt · 15 ay · tek soru).
+
 ### 🔴 KOŞUYU ÖLÇME — İKİLİ DEĞİL **MERDİVEN** (5 Eylül 09:10'da düzeltildi)
 
 ```
