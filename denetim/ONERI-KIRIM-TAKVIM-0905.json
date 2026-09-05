@@ -1,0 +1,26 @@
+{
+  "_NOT": "`kirim` takvim beyani — merge kalemi. Sevk 1.MURAT M-3057 🔵. Oturum NEHIR SURTUNME, 5 Eylul 2026. VERI YAZILMADI (data/*.js DONUK, kosu 5b canli). Bu bir ONERI METNIDIR, uygulama koordinatorun.",
+
+  "_NICIN": "TDV `kirim` govdesi ilhak gununu JULYEN takvimle veriyor: «Kirim carligin bir vilayeti haline getirildi (8 Nisan 1783)». Atlas ayni gunu GREGORYEN yaziyor: 1783-04-19 (18. yy Julyen-Gregoryen farki 11 gun; 8+11=19). AYNI GUN. Ama hicbir alanda BEYAN EDILMEMIS ⇒ bir sonraki oturum govdeyi acip '8 Nisan' gorunce veriyi YANLIS sanabilir. §4'un emsali var ve uygulanmamis: «30 Ocak 1667 (Julyen) / 9 Subat 1667 (Gregoryen)».",
+
+  "_GLOB_UYARISI": "Ad `ONERI-` onekli ⇒ hicbir uygulayicinin glob'una girmez. Metin ELLE yazilacak. Adi degistirmeyin.",
+
+  "_HEDEF_KAYITLAR": {
+    "aciklama": "Alti yerlesim, hepsi `isg:` kategorisinde, hepsi ayni donem ucunu tasiyor: f=1771-07-01 → t=1783-04-19, d=rusya, kaynak=kirim",
+    "liste": ["Sudak (Suğdak)", "Balaklava (Cembalo)", "Yalta", "Aluşta",
+              "Mankup", "İnkirman (Kalamita)"],
+    "_uyari": "Alti kayitta da `not:` alani BUGUN BOS — ustune yazilmiyor, doldurulmus oluyor. `_sahiplik_uygula.py` `not:`u SKALER_KORUNAN listesinde tasiyor (bossa doldurur, uzerine YAZMAZ), yani yamayla da inebilir; ama bu dosya yama DEGIL."
+  },
+
+  "not_metni": "Gün GREGORYEN. TDV `kirim` maddesi ilhakı JÜLYEN takvimle veriyor: «Kırım çarlığın bir vilâyeti haline getirildi (8 Nisan 1783)». 18. yüzyılda iki takvim arasındaki fark 11 gündür (8 + 11 = 19), yani AYNI GÜNDÜR. Kaynak günü Jülyen, atlas Gregoryen tutar.",
+
+  "_ALTERNATIF_KISA": "Gün GREGORYEN; TDV `kirim` aynı günü JÜLYEN verir (8 Nisan 1783 = 19 Nisan 1783, 18. yy farkı 11 gün).",
+
+  "_ILGILI_ACIK_KALEM": "🔴 AYNI KAYITLARIN `f:` UCU (1771-07-01) DAYANAKSIZ ve BU DOSYANIN KONUSU DEGIL: TDV `kirim` 1771'i iki kez aniyor, ikisi de yalniz YIL veriyor («1771'de Prens Dolgorukov idaresinde Kirim yarimadasini istila ettiler»). Veri ne gunu ne AYI kaynakli tasiyor. Koordinator hukmu (M-3057 ③): TARIH DEGISMEZ, DAMGALANIR — cunku kabalastirmak bir KIRILMA GUNUNU oynatir ve Degismez 2'yi etkiler. O damganin metni BU DOSYADA YOK, ayri bir kalem.",
+
+  "_OLCMEDIKLERIM": [
+    "🔴 Alti kaydin `isg:rusya 1771-1783` doneminin COGRAFI dogrulugunu olcmedim — yalniz takvim beyanini yazdim.",
+    "🔴 TDV `kirim` govdesinin tamami okunmadi; `1783` gecen alti cumle ve `1771` gecen iki cumle okundu.",
+    "⚪ 11 gunluk farkin 1783 icin dogru oldugunu takvim kuralindan turettim (1700-1800 arasi fark 11 gun); bagimsiz bir kaynakla dogrulamadim."
+  ]
+}

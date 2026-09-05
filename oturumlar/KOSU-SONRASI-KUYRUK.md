@@ -2958,6 +2958,32 @@ BU GECE EKLENEN ALET: 32  (`denetim/ARAC-*0905*`)
 ⚠️ **VE BU BLOK DA BAYATLAR.** Aleti yeniden koştur, sayıyı kopyalama —
 bu gece kuyruktaki dokuz sayı bayat çıktı, üçü kabul ölçütüydü.
 
+### 🟢 `kirim` TAKVİM BEYANI — metin HAZIR (21:35)
+
+`denetim/ONERI-KIRIM-TAKVIM-0905.json` · **elle yazılacak** (`ONERI-`
+öneki kasıtlı, hiçbir uygulayıcının glob'una girmez).
+```
+HEDEF  altı yerleşim · hepsi `isg:` · hepsi AYNI dönem ucu
+       Sudak · Balaklava · Yalta · Aluşta · Mankup · İnkirman
+       f=1771-07-01 → t=1783-04-19 · d=rusya · kaynak=kirim
+🟢 ALTISINDA DA `not:` BUGÜN BOŞ ⇒ DOLDURULUYOR, üstüne YAZILMIYOR
+```
+**Metin:** *"Gün GREGORYEN. TDV `kirim` maddesi ilhakı JÜLYEN takvimle
+veriyor: «Kırım çarlığın bir vilâyeti haline getirildi (8 Nisan 1783)».
+18. yüzyılda iki takvim arasındaki fark 11 gündür (8+11=19), yani AYNI
+GÜNDÜR. Kaynak günü Jülyen, atlas Gregoryen tutar."*
+
+🟢 **11 GÜN DOĞRULANDI — türetme meşru:** Jülyen-Gregoryen farkı 1700
+Şubat'ından sonra **11 gün**, 1800 Şubat'ından sonra 12. `1783` o
+aralıkta ⇒ takvim kuralının kendisi kaynak, bağımsız teyide gerek yok.
+(Ölçen oturum *"kuraldan türettim, doğrulamadım"* diye damgalamıştı —
+damga doğruydu, ve türetme de doğru.)
+
+⚠️ **VE AYNI KAYITLARIN `f:` UCU AYRI KALEM:** `1771-07-01` dayanaksız
+(TDV yalnız yıl veriyor) ⇒ hükmüm *"tarih değişmez, damgalanır"*, ve o
+damganın **metni henüz YOK.** Ölçen oturum ikisini **karıştırmadı** —
+doğru.
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri
