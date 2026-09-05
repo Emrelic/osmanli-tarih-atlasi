@@ -6054,3 +6054,40 @@ dosyada duran    1794-01-01 → "Lutf Ali Han'ın yenilgisi — Zend hânedanı
   aşarsan **`?` bas** — ya da veriyi kendi dilinin yorumlayıcısına ver.
   ⚠️ Ve bu, `§11`in *"kendi yazdığın ayrıştırıcı her zaman kötüdür"*
   dersinin bu projede **yedinci** vakası.
+
+- 🟢🟢 **BİR EŞLEŞTİRİCİNİN DOĞRULUĞU, İSABET ORANINI ADAY KÜMESİNİN
+  BÜYÜKLÜĞÜYLE İLİŞKİLENDİREREK SINANIR — İKİSİ BİRLİKTE ARTIYORSA
+  ÖLÇÜLEN ŞEY İÇERİK DEĞİL ANAHTAR UZAYIDIR.** *(5 Eylül 2026 ·
+  `NEHİR SÜRTÜNME`, ve kendi ölçütünü İKİ KEZ çürüterek)*
+
+  *"`2s`nin 101 açığının kaçı aslında kuyrukta duruyor?"* sorusu ölçüldü.
+  İlk ölçüt **57** dedi, sıkı ölçüt **40**, ve ikisi de fazlaydı. Sayıyı
+  düşüren şey bir hata bulmak değil, **bir imza aramak** oldu:
+```
+GÜN YÜKÜ (o güne bağlı kimlik + yerleşim)     eşleşme oranı
+   ≤ 4      48 gün · eşleşen 15                    %31
+   5-15     40 gün · eşleşen 16                    %40
+   16-50    13 gün · eşleşen  9                    %69
+```
+  🔴 **İsabet oranı yükle BİRLİKTE ARTIYOR.** Gerçek bir kapsama ölçülüyor
+  olsaydı yük onu sürüklemezdi — bir günün kalabalık olması, o gün için
+  madde yazılmış olma ihtimalini artırmaz. ⇒ Eşleşmelerin bir kısmı
+  **anahtar uzayının büyümesinden** doğuyor: `YYYY-01-01` yuvarlak
+  tarihleri aday kümesini o kadar şişiriyor ki *her şey* eşleşiyor.
+
+  📌 Ve hükmün yönü kayda değer: bu **aletin kusuru değil ÖLÇÜTÜN TAVANI.**
+  ⇒ *"Daha iyi bir otomatik test bu sayıyı yükseltemez"* — ve bunu bilmek,
+  yükseltmeye çalışarak tur yakmayı önlüyor. `§11`in *"çözülemedi'nin üç
+  cinsi"* ailesine dördüncüsü: **ölçüt tavanı.**
+
+  🟢 **VE İLK ÖLÇÜT, UYARI OKUNDUKTAN SONRA KURULDU:** taranan metne
+  maddenin **dosya adı** katılmıştı ⇒ `kronoloji_altinorda.js`in HER
+  maddesi `altinorda` kimliğine eşleşiyordu. Ölçüt maddeyi değil
+  **dosyayı** ölçüyordu.
+  ⇒ `§11`in *"eşleşme bulmak, doğru şeyi bulmak değildir"* dersinin
+  **taranan metnin sınırı** yüzü: bir eşleştiricide *neyin taranacağı*,
+  *nasıl taranacağı* kadar belirleyici — ve dosya adı içeriğin parçası
+  değildir.
+  ⚠️ Kural yazılıydı ve yazan taraf onu **okuduktan sonra** ihlal etti.
+  Bu projede *"kural yetmiyor, ALIŞKANLIK gerekiyor"*un kaçıncı vakası
+  olduğu sayılmadı.

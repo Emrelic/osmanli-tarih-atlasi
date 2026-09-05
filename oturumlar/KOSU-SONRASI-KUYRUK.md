@@ -2160,6 +2160,33 @@ bu gece Manama'da **çürütülen** öncülün aynısı (himaye 1861 değil
 **1913-07-29**). ⇒ İki kayıt, tek yanlış öncül; Mukalla düzeltilirken
 `neden:` metni de elden geçer.
 
+### 🟢 `2s` 101 AÇIK — KOVA KARŞILIĞI ÖLÇÜLDÜ: **13-15 taşıma, 10 kesin borç**
+
+```
+101 açık gün
+   🟢 GÜVENİLİR kova karşılığı   15   (ikisi zayıf ⇒ sıkı sayı 13)
+   🟡 eşleşiyor ama GÜVENİLMEZ   25   ← TEK TEK OKUNMADI, kazanç olabilir
+   ⚪ ±30'da madde var, bağ YOK   51
+   🔴 kuyrukta HİÇ madde yok      10   ← KESİN BORÇ
+```
+⇒ **Tavanın (121) yorumu DEĞİŞMİYOR:** 13-15 taşınsa açık ~86-88 olur,
+zaten tavanın altındaydı. Kazanç sayıda değil **cinsteki netlikte** —
+hangisi araştırma, hangisi taşıma artık ayrılabiliyor.
+
+🔴 **KESİN BORÇ (10), ve YEDİSİ SÖMÜRGE AFRİKASI:**
+`1349 Mankup/Teodoro` · `1646 Yeni Ürgenç` · `1668 Sault Ste. Marie` ·
+`1841 Lahsa/Katîf` · `1880 Franceville` · `1880 Ouesso` · `1895 Garissa` ·
+`1899 Hoima/Bunyoro` · `1902 Abalessa` · `1903 Bauci/Yola`
+⚠️ **ÖN SORU — madde yazmadan önce:** bu günlerin çoğu yuvarlak yıl
+(`YYYY-01-01`). `§4`: *künyenin `f:`/`t:` günü bir KAYNAK DEĞİLDİR.*
+Gün kaynaksızsa borç *"madde eksik"* değil **"gün dayanaksız"**, ve
+çaresi başka.
+
+🟢 **`2t` TERS YÖNÜ — 12'nin 1'i gerçek:** `1488-01-01 "Safi'nin Portekiz
+nüfuzuna girmesi"` → `Safi (Asfi)` KUYRUK yerleşim dosyasında ve `s:`
+kırılması **tam o gün.** Madde yetim değil, `2t`nin **evreni dar.**
+(`isg:` kovasında 0/12 · kuyruk yerleşiminde 3/12, ikisi sahte aynı-gün.)
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri
