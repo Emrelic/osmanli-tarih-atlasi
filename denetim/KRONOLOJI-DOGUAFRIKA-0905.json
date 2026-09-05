@@ -163,6 +163,67 @@
     {"t": "1810-01-01", "tur": "toprak-kayip", "b": "Merina kralı Radama I, dört Betsileo krallığını (Lalangina, Isandra, Manandriana, Arindrano) fethedip yeniden örgütledi", "kaynak": "bulunamadı (TDV) — standart akademik kaynak; kesin yıl belirsiz ('Radama I döneminde', 1810-1828 aralığı), YYYY-01-01 belirsizlik AÇIKÇA yazılarak kullanıldı. Çevrimiçi ikincil kaynaklarla ('Kingdom of Isandra') doğrulandı."}
    ],
    "not_kaynak": "3/4 — künyenin kendi 'son' tarihi (1830) bu fetih penceresiyle (1810-1828) TUTARLI. İkinci ek olay bulunamadı."
+  },
+  {
+   "id": "fipa-nyakyusa",
+   "eklenen": [
+    {"t": "1700-01-01", "tur": "bolunme", "b": "Nkansi ve Lyangalile devletleri, eski merkez Milansi'nin yerini alarak Fipa'nın yeni siyasi odakları oldu", "kaynak": "bulunamadı (TDV) — standart akademik kaynak; kesin yıl belirsiz ('yaklaşık 1700'), YYYY-01-01 belirsizlik AÇIKÇA yazılarak kullanıldı. Çevrimiçi ikincil kaynaklarla ('Ufipa Plateau') doğrulandı."},
+    {"t": "1840-01-01", "tur": "isgal", "b": "Fipa yaylası, güneyden gelen Ngoni istilacılarca (Zwangendaba'nın halefleri) ele geçirildi", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Fipa people', 'Ngoni migration') ÇAPRAZ doğrulandı — aynı olay bu turda `ngoni` künyesi için de bağımsız bulundu."}
+   ]
+  },
+  {
+   "id": "ngoni",
+   "eklenen": [
+    {"t": "1848-01-01", "tur": "hukumdar", "b": "Önder Zwangendaba öldü; ardından çıkan halefiyet anlaşmazlıkları Ngoni'nin Tanzanya, Zambiya ve Malavi'ye yayılan yedi ayrı krallığa bölünmesine yol açtı", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Zwangendaba') doğrulandı."}
+   ],
+   "not_kaynak": "3/4 — ikinci ek olay bulunamadı."
+  },
+  {
+   "id": "antemoro",
+   "eklenen": [
+    {"t": "1890-01-01", "tur": "isyan", "b": "Antemoro halk kesimi (commoners) asilzade sınıfına karşı ayaklanıp krallığı fiilen dağıttı", "kaynak": "bulunamadı (TDV) — standart akademik kaynak; kesin yıl belirsiz ('19. yüzyıl sonu'), YYYY-01-01 belirsizlik AÇIKÇA yazılarak kullanıldı. Çevrimiçi ikincil kaynaklarla ('Antemoro people') doğrulandı."}
+   ],
+   "not_kaynak": "3/4 — ikinci ek olay bulunamadı."
+  },
+  {
+   "id": "betsimisaraka",
+   "eklenen": [
+    {"t": "1791-01-01", "tur": "bolunme", "b": "Hânedanın üçüncü hükümdarının ölümüyle konfederasyon fiilen dağıldı", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla (Britannica 'Betsimisaraka confederation') doğrulandı. 🔴 ÇELİŞKİ: künyenin kendi 'son' tarihi 1817 — akademik kaynak dağılmayı 1791'e tarihliyor, 26 yıl ÖNCE. Künye sahibine bildiriliyor, t: gözden geçirilebilir."}
+   ],
+   "not_kaynak": "3/4 — ikinci ek olay bulunamadı."
+  },
+  {
+   "id": "evfat",
+   "eklenen": [
+    {"t": "1386-01-01", "tur": "hukumdar", "b": "Sa'deddîn II, Evfât'ın son büyük hükümdarı olarak tahta çıktı (yaklaşık 1386-1403/1410 hüküm sürdü)", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Sa'ad ad-Din II') doğrulandı."}
+   ]
+  },
+  {
+   "id": "antandroy",
+   "eklenen": [
+    {"t": "1895-01-01", "tur": "savas", "b": "Fransız fethi sırasında beş küçük devlete bölünmüş hâldeki Antandroy, dikenli bitki çitleriyle örülü köyleri sayesinde uzun süre direndi", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Antandroy') doğrulandı. 🔴 ÇELİŞKİ: künyenin kendi 'son' tarihi 1900, akademik kaynak direnişin 1904-1905'e kadar sürdüğünü söylüyor — künye sahibine bildiriliyor."}
+   ],
+   "not_kaynak": "3/4 — ikinci ek olay bulunamadı."
+  },
+  {
+   "id": "makdisu-sultanligi",
+   "eklenen": [],
+   "not_kaynak": "3/4 KALDI — akademik taramada Muzaffer hanedanının künyenin kendi 'son' maddesiyle (1500, Muzaffer'e geçiş) ZATEN TUTARLI olduğu doğrulandı, ama künye aralığı İÇİNDE YENİ bir ayrı GÜN hassasiyetli olay bulamadım. Uydurmadım."
+  },
+  {
+   "id": "kaonde-ila",
+   "eklenen": [],
+   "not_kaynak": "ÖLÇÜLEMEDİ — Kaonde ve İla halkları için TDV susuyor, akademik taramada bağımsız arama yapamadım (zaman kısıtı) — KALEM AÇIK, 'çürüdü' değil 'ölçülemedi'. 2/4 bırakıyorum."
+  },
+  {
+   "id": "kenya-kuzey-halklari",
+   "eklenen": [],
+   "not_kaynak": "ÖLÇÜLEMEDİ — künyenin kendi tanımı zaten 'Borana · Rendille · Turkana · Somali klanları' diyor, yani TANECİK: merkezsiz halklar birleşimi. Dateli merkezi bir siyasi olay YAPISAL OLARAK aranmadı (zaman kısıtı) — uydurmadım. 2/4 bırakıyorum."
+  },
+  {
+   "id": "maravi",
+   "eklenen": [],
+   "not_kaynak": "ÖLÇÜLEMEDİ — TDV malavi zaten künyenin kendi kurulus'unu (1480) DOĞRULUYOR ama YENİ bilgi vermiyor ('16. yüzyılda genişledi' — tarihsiz). İkinci bir GÜN hassasiyetli olay taramada çıkmadı. 2/4 bırakıyorum."
   }
  ]
 }
