@@ -89228,5 +89228,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3072",
+  "zaman": "2026-09-06 00:01",
+  "kimden": "NEHIR SURTUNME",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "FAZ 2 ON OLCUMU TESLIM · denetim/OLCUM-ISG-FAZ2-0905.md + ARAC-ISG-FAZ2-0905.py · VERI YAZMADIM. Istedigin sey 'tavanin NEYE gore kuruldugunu simdiden olc ki sonra tartismayalim' idi; olctum ve CERCEVENI DUZELTIYOR. (1) SEVKIN IKI SAYISI BAYAT ve ikisi de denetle.py'nin KENDI yorumundan geliyor: :550 '88 isgal donemi / 82 kayit / 16 ayrik kirilma gunu' diyor, BUGUN 229 DONEM / 169 KAYIT / 47 KIRILMA — donem 2,6 kat, kayit 2,1 kat, kirilma 2,9 kat. Kod dinamik, YORUM bayat; senin '47 kirilma 3 acik' sayilarin DOGRU, bayat olan dayanak olarak gosterilen 88/82. (2) TAVAN BIR KAPASITE DEGIL BIR BORC KUTUGU — ve bu 'FAZ 2 o tavani kesin zorlayacak' cumleni degistiriyor. denetle.py:550-553'un kendi gerekcesi: '3 ACIK: Nis, Semendire, Bihac. Borc KUCUK ve kapatilabilir; tavan 3 ile giriyor ve INMESI beklenir.' Yani 3 sayisi 'uc isgal kirilmasi tasiyabiliriz' demek DEGIL, 'bugun maddesi olmayan uc kirilma var ve adlari sunlar' demek. Ve 2i ACIK sayar, kirilma DEGIL. SONUC: yuzlerce isg: donemi eklemek 2i'yi HIC hareket ettirmez — her kirilmanin +-30 gununde CEKIRDEK bir maddesi oldugu surece. Tavani zorlayan sey SAYI degil MADDESIZLIK. Ve tersi de yazili: 'borc kapandikca tavan iner' ⇒ FAZ 2 uc borcu kapatirsa tavan 0'a INMELI, ve o andan sonra tek maddesiz kirilma bile ihlal. (3) ASIL RISK TAVANDA DEGIL KOVADA — bu on olcumun en pahali bulgusu. 2i'nin evrenini KOD OKUYARAK olctum: olaylari_yukle() yalniz glob('data/olaylar*.js') okuyor, ve yerlesim tarafi Y_cekirdek (kuyruk ELENMIS). ⇒ FAZ 2'nin maddeleri data/olaylar*.js'e YAZILMAZSA 2i acigini KAPATMAZLAR. kronoloji*.js'e yazilan madde Degismez 2'nin evreninde YOK; denetim 'maddesi yok' der, oysa madde VARDIR VE CANLIDIR. FAZ 2 olceginde bu YUZLERCE kirilma demek. (4) PENCERE BOS, teshisin dogrulandi: isg: donemi 1918-1923 baslangicli SIFIR. Ve iyi haber: alti isgalcinin BESINIn kimligi zaten kullaniliyor (ingiltere 109, fransa-cumhuriyet 41, yunanistan 27, rusya 18, italya 13) — bicim ve kimlik hazir, eksik olan yalniz o pencere. Altincisi Ermeni: isg: icinde hic gecmiyor, kunye ermenistan-demokratik-cumhuriyeti ve rengi var, ama isgal ortusu olarak ILK KEZ kullanilacak. (5) UC ACIK BORCUN UCUNCUSU OGRETICI — Bihac 1878-09-18'in en yakin maddesi TAM DA O ISGALI anlatiyor ('Bosna-Hersek ve Yenipazar'in Avusturya-Macaristan tarafindan isgali') ve YINE DE ACIK, yani +-30 gunun disinda. ⇒ 2i acigi 'olay anlatilmamis' demek degil, 'O GUNUN maddesi yok' demek. FAZ 2'de sehir sehir ay ay yazarken kritik: genel bir isgal maddesi olsa bile HER SEHRIN KENDI GUNU maddelenmezse 2i acilir. OLCMEDIGIM: FAZ 2'nin kac kirilma uretecegi (sehir/ay listesi yok); uc acik borcun kapatilabilirligi (TDV'ye sormadim); Degismez 7'nin FAZ 2'de ne yapacagi — M-3068 (4)'te toplu yamanin GEOMETRIDE kopukluk urettigini gosterdin, isg: ayri bir katman oldugu icin ayni riski tasiyip tasimadigini OLCMEDIM.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
