@@ -33,6 +33,16 @@
 5  denetle.py YAMALARI `isg:` evrene eklenir + `harita:` uzayı
                        TAVANLAR: HAYALET 8→9 · ASAN 280→287 · ONCE 468 SABİT
 6  SAHİPLİK            denetim/yer_yama_*.js → data/ ye TAŞI, sonra
+   🔴 ÖLÇÜLDÜ 15:25 — SAYILAR SABAHKİNDEN 2,7 KAT BÜYÜK:
+      denetim/ altında yer_yama*.js  **32 dosya · 397 KAYIT**
+      data/ altında yer_yama*.js      58 dosya  (alet YALNIZ bunları görür)
+      data/'da aynı adla var olan      0  ⇒ HİÇBİRİ TAŞINMAMIŞ
+      en büyükleri: zend_kacar 132 · misir_himaye 56 · tunus 36 ·
+      doguasya 19 · litvanya 19 · yunananakara 17 · onikiada 13 ·
+      fizan 12 · egeadalari 10 · gronland_col 9 · barka_dogu8 8
+   🟢 Bu bir KUSUR DEĞİL: koşu canlı, `data/*.js` yasak, oturumlar
+      yazamadıkları için `denetim/`e koydu. Ama TAŞIMA adımı artık
+      148 değil **397 kayıt** taşıyor — ve tek elden.
                        py arac/_sahiplik_uygula.py --yaz    🔴 TEK ELDEN
                        🟢 ÖLÇÜLDÜ (doğrulayıcı çıktısı, 08:35):
                           16 DOSYA · 148 KAYIT · bunların 48'i YENİ NOKTA
@@ -1762,6 +1772,35 @@ kazanır) — ama yabancı gövde o günü **kendi alanına saymaya devam eder**
 yani lejanttaki ≈km² **şişer.**
 📌 ⇒ Tamamlayıcı iki yamayı birleştirirken çakışan pencere **kasıtlı mı**
 diye sorulur; değilse `s:` kısaltılır. (Şehrizor'da tam bu var.)
+
+### 🔴 GÜNCELLEYEN UYGULAYICI YOK — iki katmanda aynı boşluk (15:25 ölçümü)
+
+```
+_kunye_uygula.py       YENİ künye EKLER · mevcut `id`yi REDDEDER
+_kronoloji_uygula.py   APPEND-ONLY — mevcut maddenin GÜNÜNÜ değiştiremez
+```
+⇒ Bir künyenin **bir alanını** ya da bir maddenin **gününü** güncelleyen
+alet **yok.** Ve bu, iki ayrı dosyanın kendi başlığında yazılı:
+`DUZELTME-KRONOLOJI-GUN` — *"`_kronoloji_uygula.py`nin APPEND-ONLY
+olması nedeniyle ayrı tutuldu"*.
+⇒ **Sekiz `ONERI-*` dosyası + gün düzeltmeleri merge'de ELLE inecek.**
+Boşluk, kusur değil — ama sayılmamıştı.
+
+### 🟡 `YAMA-1923-0905` — kayıp ÖLÇÜLDÜ, ve iki kez daraldı
+
+```
+11 öğe · 8 benzersiz `id_onerisi` · 3 öğe `ilgili_id` (TASARIM — mevcut
+künyeye işaret ediyorlar, yeni kimlik önermiyorlar)
+ORTAK 5 · YALNIZ kaçanda 3 (üç Guyana) ⇒ TAŞINDI, alan adları çevrildi
+```
+🟢 Üç Guyana `YAMA-KUNYE-1923-0905`e taşındı; ortak 5 tekrar yazılmadı.
+⚠️ `suriye-lubnan-mandasi`nın `f:` farkı (07-24 ↔ 07-01) **hata değil**:
+yeni dosya TDV'nin gün vermediğini yazıp `§4` gereği aya çekmiş, eski
+dosya Wikipedia'dan gün ödünç almıştı. **Yeni doğru.**
+🔴 Ve `_kunye_uygula.py` kuru koşusu **KABUL 26 · RED 0** — beklenen 30
+değil, çünkü **başka oturumların dosyaları da değişiyor, taban kayıyor.**
+⇒ Çok oturumlu bir hazırlıkta **yalnız kendi deltan doğrulanabilir**
+(o oturumun payı 10→13, tam beklenen).
 
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
