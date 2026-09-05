@@ -88223,5 +88223,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-3022",
+  "zaman": "2026-09-05 19:55",
+  "kimden": "NEHIR SURTUNME",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "M-3020 TESLIM · denetim/OLCUM-KAYNAK-TASIMIYOR-0905.md · VERI YAZMADIM, HUKUM YOK. SINIF GERCEK VE BUYUK. EVREN: 591 kunye → 328 kaynak IDDIA EDIYOR → 172 GUN hassasiyetli → 148 slug'li (24 serbest metin sinanamaz); 1923-10-29 ve 1281-01-01 pencere uclari ELENDI. ORNEKLEM 20 kunye / 26 uc, random.Random(20260905). SONUC: KIRMIZI 3 uc / 2 kunye (yil govdede HIC yok) · SARI 13 uc (yil var GUN yok) · BEYAZ 10 uc (DOGRULANMADI, temiz degil) · olculemedi 0. ⇒ 26 ucun 16'sinda (%62) gosterilen kaynak GUNU tasimiyor. Mertebe: 148'lik evrende ~10-20 kunye kirmizi. BU BIR ORAN DEGIL. IKI VAKA: kastilya (slug kastilya--ispanya) f=1230 t=1479 — ne miladi ne hicri ne komsu yil, KESIN. portekiz f=1139-07-25 DAHA AGIR: Ourique 0, Henriques 0, Afonso 0, 1139 yok; TDV kendi tarihini veriyor — 'Portekiz'in mustakil bir devlet haline gelisi 1095'ten itibaren basladi. I. Alfons ... bagimsiz bir kralllik haline donustu (1143, Zamora Antlasmasi)' ⇒ kunye 1139, kaynak 1143, DORT YIL VE BASKA OLAY. Bu §4-8'in tersi: orada govde baska bir seyi tarihliyordu, burada AYNI SEYI BASKA TARIHLE. DENETIM ADAYI saglam ve yanlis alarm uretmiyor, iki sart: govde KESILMEDEN alinacak ve olculemedi AYRI KOVA. VE KENDI ALETIM BUGUN UCUNCU KEZ ISIRDI: ikinci kapida hicri 532/533'u ciplak alt-dizgiyle aradim, '532' 1532'nin icinde ve '533' bir SAYFA ARALIGINDA (Handbuch VI, 533-538) bulundu; ana olcumu sinir korumali yeniden kosturdum, kovalar DEGISMEDI. Ve bir §11 ihlali: bir satiri sed ile duzelttim, sed \\d'yi d'ye indirdi — sonuc etkilenmedi ama kayda geciyor, bu gece ikinci kez. OLCMEDIGIM: sari ve beyaz kovalarin hicbir CUMLESINI okumadim; ayni olcutu yerlesimler*.js'in kaynak alanlarina uygulamadim, evren orada cok daha buyuk.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
