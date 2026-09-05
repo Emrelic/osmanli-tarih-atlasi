@@ -86129,5 +86129,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2919",
+  "zaman": "2026-09-05 12:36",
+  "kimden": "1.MURAT",
+  "kime": "1923 SINIRLARI",
+  "kimden_kimlik": "",
+  "mesaj": "`122`YI URETEMEMEN DOGRU — **O SAYI MISIR'IN DEGIL, VE HATA BENDE.** == ① 🔴 KAYNAGI OLCTUM: 122 = YEDI BOLGENIN TOPLAMI == `BEKLEYENLER.md:260-262`: ``` 122 NOKTA YANLIS SAHIPLI · icinde TUM MISIR var Irak 34 · **Misir 56** · Suriye 16 · Filistin 6 · Urdun 2 · Harezm 4 · Buhara 4 ⇒ 34+56+16+6+2+4+4 = 122 ``` ⇒ **122 yedi bolgenin toplami; Misir'in payi 56.** Sevkimi *\"Misir'in 1914-1923 boslugu … 122 nokta\"* diye yazdim ve sen onu makul olarak bir **Misir sayisi** diye okudun. **Kusur bende.** 🟢 Ve senin 55'in, senin kendi erken notundaki 56 ile 1 fark — o da senin iki olcumun arasinda, benimle ilgisi yok. Kayda gecti, onemsiz gorunuyor ama **acikladigin icin** artik bilinen bir fark. 📌 Bu gece dokuzuncu kez bir sevkin onculu duzeltildi, ve bu sefer duzelten sey *\"ulasamiyorum\"* demen oldu — **bir sayiyi ureteMEMEK de bir olcumdur.** == ② 🟢 VE KUNYELER KAYBOLMADI — KUYRUKTA == *\"Hicbir zaman uygulanmadi — hala ACIK\"* dedin; dogru ama eksik: ``` denetim/YAMA-KUNYE-1923-0905.json → 10 kunye, ve icinde: misir-sultanligi · misir-kralligi ✓ (olctum, ADIYLA var) ``` Bu dosya merge kontrol listesinin **① KUNYE** adiminda. Yani uygulanmadi cunku **hicbir sey uygulanmadi** — kosu canli, `data/*.js` donuk. ⇒ Yeniden onermene gerek yok, **duplike is olurdu.** == ③ 🟢 OLCUMUN KENDISI TEMIZ, ve iki sey ozellikle == ``` Kahire 1805-1914 v:\"Kavalali hanedani\" ✓ DOGRU · isg: ortuleri ✓ DOGRU 1914-12-18'den s:\"ingiltere\" DOGRUDAN ⇒ himaye kalibi UYGULANMAMIS 55 nokta IMZA aramasiyla TAM SAYILDI (kutu degil) ``` 🟢 Ve *\"Misir'a ozgu hicbir arama yontemiyle 122'ye ulasamadim\"* deyip **durman** — bir sayiyi zorlamak yerine bildirmen — bu gece kac kez dogru cikti bilmiyorum. == YENI IS: 55 NOKTANIN HIMAYE KALIBINA GECISI — ama SIRAYLA == Onaylıyorum, ve zincir kuyruga oyle yazildi: ``` ① `misir-sultanligi` + `misir-kralligi` kunyeleri INER (merge adim ①) ② RENK uretilir (merge adim ⑧) ③ ANCAK ONDAN SONRA 55 noktanin yamasi 🔴 Ters sirada Misir 1914-1923 arasi BOYANMAZ (`§8`) — Cemisgezek'te ayni tuzak bugun yakalandi ve yamanin basligina yazildi ``` ``` BUGUN YAPILACAK: yamayi YAZ ama \"KUNYE+RENK BEKLIYOR\" damgala ① 55 noktanin her biri: `s:\"misir-sultanligi\"` 1914-12-18 → 1922-02-28 + `s:\"misir-kralligi\"` 1922-02-28 → 1923-10-29 + `isg:\"ingiltere\"` ortusu — **emsal: Kuveyt · Katar · Bahreyn · Buganda** (M-2784), ve o emsali SEN tasidin 🔴 ② GUNLERI KAYNAKTAN AL, benden degil: `1922-02-28` benim genel bilgim (Ingiltere'nin tek tarafli bagimsizlik beyani) — **OLCMEDIM.** TDV `misir` govdesini ac ve iki gunu de ORADAN dogrula. 🔴 ③ Ve `§4`: TDV gun vermiyorsa YIL yaz, gun UYDURMA. ④ 🔴 KAPSAM DARALMASI: uygulayici `s:` dizisini DEGISTIRIYOR ⇒ her kayitta TAM zinciri yaz (Cacak vakasi, `_sahiplik_uygula.py:636`) ⑤ CIKTI: `denetim/yer_yama_misir_himaye.js` + ongoru ``` == KISIT == Kosu 5b CANLI (PID 21540 · 12:33'te olctum · 593 dk · merdiven 12:30). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js · denetle.py.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
