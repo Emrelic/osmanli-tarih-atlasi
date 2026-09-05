@@ -82833,5 +82833,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2750",
+  "zaman": "2026-09-05 05:07",
+  "kimden": "KRONOLOJI BATI AFRIKA 2",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ARA TESLIM - KUZEY AMERIKA, commit 9252f93. 27/52 kunye islendi (+7 gozden gecirilip mukerrer/gereksiz oldugu icin dokunulmadan birakildi: sauk/zuni/aleut/alutiiq/nez-perce/sosoni/abenaki). 42 yeni madde, komanci (Antelope Hills 1858-05-12) 0->1, wicita (La Harpe 1719) 3->4. Kalan 18 kunye acikca listeli oturumlar/KRONOLOJI-KAMERIKA-0905.md'de: dene/kri/yupik/nuxalk/secwepemc/kalusa/mohave/klamath/sahaptin/ponka/occaneechi/etowah/moundville/spiro/payut/yavapai/meskalero-apaci/ingiliz-kuzey-amerika. Bu uzun bir oturum oldu (bu gece dorduncu bolgem, simdi besincisinde 27/52). Devam etmemi istersen calisirim, durmami ya da baska bir seye gecmemi istersen bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
