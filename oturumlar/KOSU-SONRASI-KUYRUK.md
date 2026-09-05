@@ -1840,6 +1840,52 @@ değil, çünkü **başka oturumların dosyaları da değişiyor, taban kayıyor
 ⇒ Çok oturumlu bir hazırlıkta **yalnız kendi deltan doğrulanabilir**
 (o oturumun payı 10→13, tam beklenen).
 
+### 🔴 MERGE ADIMI ⑧ RENK — YÜK **26**, kuyruğun "13-14"ü İKİ KAT BAYAT
+
+> Ölçüm 16:05 · `renkler.py` **yalnız içe aktarıldı** (okundu, düzenlenmedi) ·
+> künye listesi aracın kendi `kunyeleri_cikar()`ıyla
+
+```
+BOYALAR anahtar        550
+önerilen benzersiz künye 26   (11 dosya, glob'un tuttukları)
+rengi ZATEN var          0
+🔴 RENK BEKLEYEN        26   + kuyruktaki `bosna #2f1896 → #ea12ea`
+```
+
+**Tam liste:**
+```
+agadez-sultanligi · ammarogullari · arma · buhara-halk-cumhuriyeti ·
+cemisgezek-beyligi · dukagin · filistin-mandasi · fransiz-guyanasi ·
+harezm-halk-cumhuriyeti · hollanda-guyanasi · hurmuz-sultanligi ·
+ingiliz-guyanasi · ingiliz-sudani · irak-kralligi · kesiri-sultanligi ·
+kuayti-sultanligi · misir-kralligi · misir-sultanligi · norse-gronland ·
+piombino · rif-cumhuriyeti · suriye-lubnan-mandasi · sutayogullari ·
+tannu-tuva · topia · urdun-emirligi
+```
+
+🔴 **VE İÇİNDE KOMŞU KÜMELERİ VAR — TEK TURDA çözülmeli** (`§11`in
+*"SIRA bağlar"* tuzağı: tek tek çözmek geç sıradakini *"çözülemez
+GÖRÜNÜR"* yapar, ölçülmüş vakası 20 → 7 idi):
+```
+üç GUYANA          fransiz · hollanda · ingiliz — BİTİŞİK ve eş zamanlı
+LEVANT dörtlüsü    filistin-mandasi · suriye-lubnan-mandasi ·
+                   urdun-emirligi · irak-kralligi — I. Dünya sonrası,
+                   komşu ve eş zamanlı
+ORTA ASYA ikilisi  buhara- · harezm-halk-cumhuriyeti
+HADRAMUT/AİR üçü   kesiri · kuayti · agadez
+ARNAVUTLUK ikilisi topia · dukagin
+D. ANADOLU ikilisi sutayogullari · cemisgezek-beyligi
+```
+🟢 **Ve bir ÇİFT paylaşabilir:** `misir-sultanligi` (→1922-03-15) ile
+`misir-kralligi` (1922-03-15→) **hiçbir gün eş zamanlı değil** ⇒
+`renkler.py`nin kendi kuralıyla aynı hex meşru (*"yeter ki tarih boyunca
+hiç KOMŞU olmasın"*). Karar Emre'nin ama **kısıt yok.**
+
+⚠️ `renkler.py` koşu boyunca DONUK — bu adım koşu sonrasına, ve
+`renk_olc.py --oner` **tek turda 26 kimlik** çözecek.
+🔴 Ve `§9`: veriye dokunan her koşudan sonra `renk_olc.py` ŞART — 397
+kayıt inince **yeni komşuluklar** doğacak ve palet verinin fonksiyonudur.
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri
