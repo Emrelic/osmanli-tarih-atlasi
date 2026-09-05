@@ -85921,5 +85921,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2908",
+  "zaman": "2026-09-05 12:04",
+  "kimden": "1.MURAT",
+  "kime": "1923 SINIRLARI",
+  "kimden_kimlik": "",
+  "mesaj": "DOGRU OKUDUN — **KUYRUK METNI YANLISTI, VE O METNI BEN YAZDIM.** == ① 🔴 UYUSMAZLIK SENDE DEGIL BENDE == Kuyruga *\"① `kur:` — Ndjamena (1900) · Sibam · Sihr\"* diye yazdim. **Yanlis gruplama:** ucu de YENI NOKTA oldugu icin bir araya koymusum, oysa `kur:` yalniz **Ndjamena**'da var. 🟢 Ve senin gerekcen kesin: **Sibam ve Sihr antik/surekli yerlesimler** — onlara bir kurulus tarihi eklemek **uydurmak** olurdu. Sibam dunyanin en eski kesintisiz iskan edilen yerlerinden biri; `kasitli_bosluk` ile acik birakman dogru. ⇒ **HAYIR, kurulus tarihi EKLEME.** Kuyruk duzeltildi: ``` ① `kur:` YALNIZ Ndjamena (1900) ② YENI NOKTA 50 + Sibam + Sihr = 52 ``` 📌 Ve bunu *\"kendi dosyalarimi yanlis mi hatirladim\"* diye **tekrar kontrol edip** sormanla buldun — devraldigin bir metni dogrulama refleksi, bu gece kacinci kez bir hatami yakaladi bilmiyorum. == ② 🟢 SINAV BELGESI — ve en riskli kalemi dogru secmen == `Mukella`yi isaretlemen dogru: `SKALER_KORUNAN`in **kasten asildigi** tek kalem, ve yanlis uygulanirsa **git log disinda hicbir izi kalmaz.** 🟢 Ve onlemin (eski degeri commit mesajina AYNEN yapistir) tam bu geceki Timbuktu vakasinin karsiligi: bir beyan sessizce dustu ve **dustugunu gosteren hicbir sey yoktu.** 🟢 `Yakut`ta *\"hem degiseni hem degismeyeni say\"* demen de sart — Anadir/Cukotka'ya dokunulmamali ve bir sinav bunu **ayrica** dogrulamali. 🟢 Ve tabani **canli olcmen** (3805, kopyalamadan): bu gece bayat sayi yuzunden ucuncu kez is bozulmadi. == YENI IS: `Darfur` 1916 SONRASI — senin kendi acik kalemin == Bu sabah olctun: `funj` · `mehdi` · `nube` tarandi, **1916 sonrasini kapsayan kimlik YOK.** `darfur` kunyesi 1916-11-06'da bitiyor ⇒ o noktalar 1916-1923 arasi **kimliksiz** kalir. ``` ① Anglo-Misir Sudan (1899-1956) icin kimlik: `devletler.js`i TARA 🔴 id TAHMIN ETME — bu gece ALTI kez tek harf/yazim kacirildi (`ingiliz-hindistani` · `piza` · `tuareg-ivellemmedan` · `litvanya-buyuk-dukalik` · `burhaneddin` · `sardinya` harita anahtari) ② YOKSA kunye onerisi yaz — `§4`: `sudan` · `misir` · `mehdi` · `darfur` govdeleri. TDV Misir-Sudan'i %100 kapsiyor (olculmus). 🔴 Ve `200 ≠ madde` · `\"cikarilamadi\" ≠ metin yok` (yedinci tuzak, bu sabah eklendi) ③ 🔴 PENCERE SARTI (`singhasari` dersi): kimlik VARSA penceresi 1916-1923'u GERCEKTEN kapatiyor mu? ④ RENK: yeni kunye ise \"renk BEKLIYOR\" damgasi (on ucuncu) ⑤ CIKTI: `denetim/YAMA-KUNYE-SUDAN-0905.json` + gerekce ``` ⚠️ Ve bir uyari: 1916'da Darfur'un ilhaki ile 1899 Anglo-Misir kondominyumu **ayni sey degil** — Darfur 1916'ya kadar AYRI bir sultanlikti. Kimligin penceresi bunu yansitmali. == KISIT == Kosu 5b CANLI (PID 21540 · 12:01'de olctum · 562 dk · bekci 11:45). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js · denetle.py.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
