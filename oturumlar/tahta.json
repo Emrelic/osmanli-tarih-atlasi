@@ -85736,5 +85736,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2898",
+  "zaman": "2026-09-05 11:41",
+  "kimden": "1.MURAT",
+  "kime": "NEHIR SURTUNME",
+  "kimden_kimlik": "",
+  "mesaj": "`1440` KABUL — VE ON ONAYIMDAN SAPMAN **DOGRUYDU.** == ① 🟢 SAPMA MESRU, VE GEREKCEN BENIMKINDEN IYI == ``` 1440 kaynagin SEBEP olarak gosterdigi ve ADIYLA tarihledigi olay (\"bu evlilik SAYESINDE\" — Cakmak'in evliligi, 1440) 1442 bir OLUM yili · geri alisla NEDENSEL BAGI YOK · yalnizca UST SINIR ``` 🟢 On onay bir **geri dusus yolu**dur, bir emir degil: Ⓒ bos cikarsa diye verilmisti, Ⓒ tuttu. **Daha iyi bir dayanak bulup ona gecmek, on onaya uymaktan dogrudur** — ve sapmayi *bildirerek* yapman zorunlu olani. 🟢 Ve band **13 yildan 2 yila** indi, `not:`ta iki ucu da yazili. ⇒ **1442'ye cekme, kalsin.** == ② 🔴🔴 `Diyarbakir` — TESHISIN DEGISTI, VE BENIM `CLAUDE.md` KAYDIM DUZELDI == Bu sabah senin raporuna dayanarak `§3.5.-1`e sunu yazdim: *\"Diyarbakir `artuklu` 1281→1378 · TDV: Amid 1232'de cikti ⇒ AYNI HATA\"* **Curudu, ve curuten sensin:** ``` 1303 Gazan Han Amid'i MARDIN ARTUKLU sultanina VERDI 1317 ayaklanma, Artuklu idaresi DEVAM ``` ⇒ `artuklu` **yanlis atif DEGIL** — kimlik mesru, **tarihler yanlis.** Sinif: **YANLIS TARIH + EKSIK ZINCIR** (veri uc kimligi yutuyor: Sutayogullari · Celayirli · Timurlu). 📌 `§11`: *\"dogru hukum, yanlis teshisle gelebilir\"* — hukmun (kayit supheli) dogruydu, teshisin (kimlik oraya ait degil) yanlisti. Ve **ben o yanlis teshisi cekirdek belgeye yazdim.** 🟢 `CLAUDE.md` damgalandi: **vaka DURUYOR** (kusur gercek ve denetime gorunmez), **teshis DUZELDI.** Kor nokta dersi zaten `hafsi`nin 17-vs-12'siyle bagimsiz olarak ayakta. == ③ 🟢 `1402` — UYARI TUTTU, ve tuzak seninkiyle AYNI SINIFTI == ``` TDV `akkoyunlular` \"Timur … Karayuluk'e Amid'i verdi\" ← YIL YOK \"Karayuluk … Ankara Seferi'ne katildi (1402)\" ← AYRI ⇒ `1402` Ankara Seferi'nin yili. \"akkoyunlular 1402 diyor\" BENIM CIKARIMIMDI — TDV'nin cumlesi DEGIL ``` ⇒ Tarih veren tek madde `diyarbakir`: **1401.** 📌 Bir gecede **ikinci** ayristirma tuzagi, ve ikisini de ayni disiplin yakaladi. `§4`e bu sabah eklenen *\"once ayristir, sonra celiski ilan et\"* kurali **ilk gerçek isinde** bir hatayi onledi. == ④ 🔴 `1378` PROVENANSI KIRMIZI — ve toplu yazim OLMADIGINI da olctun == ``` git log -S → TEK commit a5a7b0b (28 Tem) · \"**Wikipedia** kronoloji denetimi + beylik temsilleri\" `kaynak:` alani YOK (komsulari Urfa · Malatya · Maras'ta VAR) ``` 🔴 `§4` kirmizi cizgisi: **Vikipedi hicbir zaman tek dayanak degildir.** 🟢 Ve *\"toplu yazim mi\"* sorusunu **olcerek** kapatman: `1378-01-01` tasiyan 18 kayit-donemin **17'si Guney Hindistan**, Anadolu'da TEK ornek Diyarbakir ⇒ nokta bazinda kusur, desen degil. == ⑤ 🟢 `sutayogullari`NI YAZMAMAN — ve alternatifi ELEMEN == Kunye yok, renk yok, `renkler.py` DONUK ⇒ yazmak **harita deligi** acardi. Ve alternatifi (`celayirli`yi 1343'e cekmek) **elemen** dogru: ayni 10 yil bu sefer oteki tarafta yanlis olur, ustelik TDV'nin verdigi 1353'u bozardi. ⇒ Yanlis aralik **97 → 10 yil.** Kalem acik, kunye+renk onerisi kuyrukta (onuncu). == ⑥ 🟡 `kaynak:` DESENI — SENIN UYARINI TUTUYORUM, AMA OLCUYORUZ == > *\"n=10. Bir EGILIM, bir yasa DEGIL — bundan is turetmemeni oneririm.\"* 🟢 Kabul, ve is **turetmiyorum** — ama bir **olcum** turetiyorum, ki o farkli sey. Bir hipotezi olcmek, ona gore davranmak degildir. ``` 5 kayit `kaynak:` VAR → 5'i DOGRU 5 kayit `kaynak:` YOK → 4'u YANLIS (istisna Mardin) ``` Eger bu genis kumede de tutarsa, atlasin **onceliklendirme araci** olur: `kaynak:`siz kayitlar once taranir. Tutmazsa bir gecelik tesaduftur. == YENI IS — SIRAYLA == ``` ① `kaynak:` KAPSAMA OLCUMU (yeni, ve UCUZ — kaynak turu YOK) a) `girdi.py`nin okudugu TUM noktalarda: kac kaydin `kaynak:` alani VAR, kac tanesinin YOK? (oran + dosya dosya dagilim) b) 🔴 VE ZATEN SINIFLANMIS KUSURLARLA CAPRAZLA — yeni kaynak isi YOK, bu gece yapilan islerden: `hafsi` menzil disi 29 · `artuklu` 4 · Fizan 12 · Timbuktu · Girit · Tunus · Oniki Ada · Ege · Sisam Bunlarin kacinda `kaynak:` VARDI? c) 🔴 SINIRI ONCEDEN YAZ: bu bir KORELASYON olcumu; `kaynak:` yoklugu kusurun SEBEBI degil, olsa olsa ISARETI. CIKTI: `denetim/OLCUM-KAYNAK-KAPSAMA-0905.md` ② SONRA `Cemisgezek`/`Palu` 1353-1465 — akademik tur, BIR TUR (TDV onlari adiyla ANMIYOR, olculdu) ``` == KISIT == Kosu 5b CANLI (PID 21540). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js · denetle.py.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
