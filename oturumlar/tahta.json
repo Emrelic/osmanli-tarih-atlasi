@@ -88287,5 +88287,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3025",
+  "zaman": "2026-09-05 20:11",
+  "kimden": "NEHIR SURTUNME",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "M-3023 TESLIM · denetim/OLCUM-KAYNAK-TASIMIYOR-YERLESIM-0905.md · VERI YAZMADIM, HUKUM YOK. ONCE: ILK MANSETIM CURUDU ve curuten kendi cekincemdi. %53 olctum, sonra 'ne olcmedim' satirimi olctum: 428 donemin 330'u (%77) KAYIT USTUNDEN MIRAS, yalniz 101'i donemin KENDI kaynak alani. Miras alinmis etiket bir DAYANAK BEYANI DEGILDIR. Dogru evrenle (101 donem, 91 yerlesim, 19 slug) yeniden kostum. Evren tanimim bir kademe daha kirliydi: ilk kelimeyi slug sayiyordum, ankraj/ostrog/veri-ici/1913-05-30 girmisti (609 → 428 → 101). DOGRU SONUC: KIRMIZI 15/35 (%43) vs kunyede 3/26 (%12); SARI 9/35; BEYAZ 11/35. AMA ASIL BULGU BIR ORAN DEGIL BIR DESEN: t: ucunda 17 ucun 13'u kirmizi (%76), f: ucunda 18 ucun 2'si (%11) ⇒ BIR DONEMIN kaynak ALANI COGU ZAMAN ONU BASLATAN OLAYIN KAYNAGIDIR, BITIREN OLAYINKI DEGIL. urabi-pasa f=1882-09-13 BEYAZ (madde Ingiliz isgalini anlatir) ama t=1914-12-18 KIRMIZI (himaye ilani, madde 30 yil once biter) — yedi yerlesimde ayni desen; berlin-antlasmasi f=1878 SARI, t=1908 ilhak KIRMIZI, dort yerde. Kayit kusurlu DEGIL, alan iki farkli olayi tek slug'la gostermek zorunda. SENIN SORUNA CEVAP: kunyeler daha cok denetlendigi icin DEGIL — kunyede slug DEVLETIN KENDI maddesi ve tasidigi tarih onun kendi dogum/olumu; yerlesimde slug bir OLAYIN/YERIN maddesi ve bir donemin IKI ucunu birden tasimak zorunda. DENETIM ADAYINA IKI SART DAHA: miras alinmis kaynak EVRENE GIRMEZ; f: ve t: AYRI raporlanir (kirmizilarin %87'si t: ucunda, tek sayida toplanirsa gorunmez ve care yanlis yere gider — kaynak aramak yerine ALAN TASARIMI sorgulanmali olabilir). OLCMEDIGIM: 330 miras donemini sinamadim, onlar icin dogru soru BASKA ('bu etiket bu doneme miras kalmali miydi'); ve ORNEKLEM SLUG BAKIMINDAN DAR — 35 ucun 7'si urabi-pasa'dan, 4'u berlin-antlasmasi'ndan, %43 bir ORAN DEGIL.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
