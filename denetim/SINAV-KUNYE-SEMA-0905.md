@@ -1,0 +1,185 @@
+# SINAV — künye yaması şeması: **kusur `bolge:` değildi, DOSYANIN CİNSİYDİ**
+
+> **Oturum:** KÜRE GÖRÜNÜM · **Sevk:** `M-2968` · **Tarih:** 5 Eylül 2026
+> **Cins:** SINAV + DÜZELTME — *`data/` yazılmadı; yalnız `denetim/`
+> altındaki KENDİ dosyam yeniden adlandırıldı.*
+
+---
+
+## 0. 🔴 SEVKİN ÖNCÜLÜ YANLIŞTI — `bolge:` EKLEMEDİM, ve sebebi ölçüldü
+
+Sevk şöyle diyordu:
+> *"① dört künye için `bolge:` EKLE — değeri tahmin etme, `devletler.js`ten
+> OKU."*
+
+Değerleri okudum (`nkore`/`toro` → `dogu-afrika`, `eve-notse`/`ibadan`
+→ `bati-afrika`) **ama eklemedim**, çünkü kodu okuyunca eklemenin
+**reddi kaldırmayacağı** çıktı:
+
+```python
+# arac/_kunye_uygula.py:219
+eksik = [a for a in ZORUNLU if not k.get(a)]
+if eksik:  red.append(... "şema eksik: " ...)
+if i in mevcut:  red.append(... "KİMLİK ÇAKIŞMASI — zaten var")   # ← İKİNCİ KAPI
+```
+Ve ölçtüm — **dördü de hedefte ZATEN VAR:**
+```
+nkore      hedefte EVET   mevcut bolge: dogu-afrika
+toro       hedefte EVET   dogu-afrika
+eve-notse  hedefte EVET   bati-afrika
+ibadan     hedefte EVET   bati-afrika
+```
+> ### ⇒ `bolge:` eklemek reddi **KALDIRMAZ**, gerekçesini
+> *"şema eksik"* → *"KİMLİK ÇAKIŞMASI"* yapar.
+> Ve bu **daha kötü** olurdu: yanlış bir gerekçeyle reddedilen bir
+> yama, okuyanı *"aynı künye iki kez yazılmış"* diye düşündürür.
+
+---
+
+## 1. 🔴 ASIL KUSUR: **YANLIŞ ALET, ve onu ADIM çağırdı**
+
+```
+`_kunye_uygula.py`  YENİ künye EKLER  (mevcut id'yi REDDEDER)
+benim dosyam        MEVCUT künyenin `kaynak:` alanını DÜZELTME ÖNERİSİ
+```
+Aracın varsayılan taraması:
+```python
+VARSAYILAN = "denetim/YAMA-KUNYE-*0905*.json"
+```
+Dosyamın adı **`YAMA-KUNYE-HIMAYE-UCUZ-0905.json`** idi ⇒ **glob onu
+sahiplendi.** İçerik bir künye yaması değildi; **adı öyle diyordu.**
+
+📌 Bu, bu gecenin *"eşleşme ≠ doğru şey"* ailesinin **dosya adı** yüzü —
+ve `§7`nin *"ayrı dosya vermek ayrı ad alanı vermek değildir"* dersinin
+kardeşi: orada `window.<AD>` çakışıyordu, burada **bir glob deseni**.
+⇒ ***Bir glob bir AD SÖZLEŞMESİDİR: ad, dosyanın CİNSİNİ ilan eder.***
+
+### 🟢 ÇARE VE ÖLÇÜMÜ
+```
+git mv denetim/YAMA-KUNYE-HIMAYE-UCUZ-0905.json \
+       denetim/ONERI-KAYNAK-HIMAYE-4-0905.json
+```
+`ONERI-` öneki benim bu geceki öteki öneri dosyalarımın (
+`ONERI-KAYNAK-7-0905.json` · `ONERI-SOZLESME-5-0905.json`) sözleşmesi
+ve glob onu **tutmuyor.**
+
+```
+ÖNCE   TOPLAM istek 27 · KABUL 23 · RED 4   (dördü de benim)
+SONRA  TOPLAM istek 23 · KABUL 23 · RED 0 · UYARI 0
+```
+⇒ **RED 4 → 0. Ölçüldü.** Ve öneri dosyasının **içeriği değişmedi**.
+
+---
+
+## 2. ① ŞEMANIN TAMAMI — koddan okundu
+
+```python
+# arac/_kunye_uygula.py:45
+ZORUNLU  = ("id", "ad", "f", "t", "bolge")
+ONERILEN = ("ozet", "kaynak")
+```
+Ve **üçüncü bir kapı** var, listede yazılı değil ama kodda:
+```
+③ `bolge` değeri HEDEFTEKİ bölge kümesinde OLMALI (27 cins)
+   → değilse RED: "bölge listede YOK"
+④ `id` hedefte OLMAMALI → varsa RED: "KİMLİK ÇAKIŞMASI"
+```
+
+🟢 **Ve `ONERILEN`in niçin zorunlu olmadığı kodda gerekçelendirilmiş** —
+alıntılamaya değer:
+> *"`ozet` ve `kaynak` zorunlu DEĞİL ama eksikse UYARILIR: `§4`ün
+> «kaynağı yazılmayan bilgi, kaynağı olmayandan ayırt edilemez» kuralı
+> bir REDDETME ölçütü değil bir GÖRÜNÜRLÜK ölçütüdür — reddedersek
+> oturum onu gizlemeye değil, **uydurmaya** yönelir."*
+📌 Bu, `§4`ün bir aleti tasarlarken **doğru** uygulanmış hâli: kural
+sıkıysa uydurma davet edilir.
+
+---
+
+## 3. ② ON İKİ YAMA DOSYASININ UYUM TABLOSU
+
+Aracın **kendi ayrıştırıcısıyla** (`kunyeleri_cikar`) tarandı — kendi
+ayrıştırıcımı yazmadım (`§11`).
+
+| dosya | künye | şema TAM | ozet | kaynak | ÇAKIŞMA | bölge geçersiz |
+|---|---:|---:|---:|---:|---:|---:|
+| `YAMA-KUNYE-1923-0905.json` | 10 | 10 | 10 | 10 | 0 | 0 |
+| `…-AIR-HADRAMUT-…` | 3 | 3 | 3 | 3 | 0 | 0 |
+| `…-AMMAR-…` | 1 | 1 | 1 | 1 | 0 | 0 |
+| `…-ARMA-…` | 1 | 1 | 1 | 1 | 0 | 0 |
+| `…-ARNAVUTLUK-…` | 2 | 2 | 2 | 2 | 0 | 0 |
+| `…-HURMUZ-…` | 1 | 1 | 1 | 1 | 0 | 0 |
+| `…-NORSE-…` | 1 | 1 | 1 | 1 | 0 | 0 |
+| `…-PIOMBINO-…` | 1 | 1 | 1 | 1 | 0 | 0 |
+| `…-SUDAN-…` | 1 | 1 | 1 | 1 | 0 | 0 |
+| `…-SUTAY-YELMAN-…` | 2 | 2 | 2 | 2 | 0 | 0 |
+| **`…-HIMAYE-UCUZ-…` (benim)** | 4 | **0** | 0 | 0 | **4** | 0 |
+| `…-T-0905.json` | **0** | — | — | — | — | — |
+
+```
+TOPLAM 27 künye · şema TAM 23 · şema EKSİK 4 · ÇAKIŞMA 4 · bölge geçersiz 0
+```
+
+> ### 🟢 ⇒ ÖTEKİ ON BİR DOSYA TEMİZ
+> 23 künyenin **23'ü** şema-tam, **23'ü** hem `ozet` hem `kaynak`
+> taşıyor, **0** çakışma, **0** geçersiz bölge.
+> Sevkin *"onlar da aynı kusuru taşıyor olabilir"* endişesi **ölçüldü ve
+> çıkmadı.** Şanslı değillerdi — **doğru cins dosyalardı.**
+
+---
+
+## 4. 🟡 VE İKİNCİ BİR VAKA — aynı sınıf, başka oturum
+
+```
+YAMA-KUNYE-T-0905.json   →  0 künye
+anahtarları: _NOT · oturum · tarih · sevk ·
+             🔴_ONERIYI_BEN_YAPMISTIM_VE_TERS_CIKTI · olcum · sonuc ·
+             _ACIK_KALEM · _OLCMEDIKLERIM
+```
+Bu bir **bulgu dosyası**, künye yaması değil — ama glob onu da
+sahipleniyor. Bugün zararsız (0 künye üretiyor, sessizce geçiliyor),
+ama:
+🔴 **`0 künye` bir SESSİZ SIFIRDIR.** Araç *"0 künye"* diye basıyor ve
+kimse durmuyor; yarın o dosyaya künye biçimli bir alan eklenirse
+**istenmeden uygulanır.**
+⇒ İki dosya, iki ayrı oturum, **aynı kusur**: yama olmayan bir dosya
+yama glob'una adlandırılmış.
+
+---
+
+## 5. DAMGALAR
+
+```
+🔴 SEVKİN ÖNCÜLÜNÜ ÇÜRÜTTÜM  `bolge:` eklemek reddi KALDIRMAZDI —
+               ikinci kapı (KİMLİK ÇAKIŞMASI) devreye girerdi.
+               Değerleri OKUDUM ama EKLEMEDİM.
+🟢 ÖLÇTÜM      dördü de hedefte VAR (591 künye içinde)
+🟢 ÇARE        dosya glob'dan çıkarıldı (`ONERI-` öneki) ·
+               RED 4 → 0 · içerik DEĞİŞMEDİ
+🟢 OKUDUM      şemanın tamamı: ZORUNLU 5 · ÖNERİLEN 2 · +2 gizli kapı
+               (bölge kümesi · id çakışması)
+🟢 TARADIM     12 dosya · aracın KENDİ ayrıştırıcısıyla
+🟢 ÇÜRÜTTÜM    "öteki dosyalar da aynı kusuru taşıyabilir" — 23/23 temiz
+🟡 BULDUM      ikinci vaka: `YAMA-KUNYE-T-0905.json` 0 künye ·
+               bir bulgu dosyası, glob'da duruyor
+⚪ ÖLÇMEDİM    `kaynak:` alanını GERÇEKTEN güncelleyecek bir aracın
+               var olup olmadığını — `_sahiplik_uygula.py` yerleşim
+               içindir, künye alanı için bir eşi ARAMADIM
+🔴 YAZMADIM    `data/` altına hiçbir şey. Yalnız kendi `denetim/`
+               dosyamı yeniden adlandırdım.
+```
+
+---
+
+## 6. TESLİM — sayıyla
+
+```
+① ŞEMA      ZORUNLU: id · ad · f · t · bolge
+            ÖNERİLEN: ozet · kaynak (eksikse UYARI, RED değil — ve
+            kodun kendi gerekçesi §4'e dayanıyor)
+            +2 GİZLİ KAPI: bölge kümesinde olmalı · id ÇAKIŞMAMALI
+② UYUM      12 dosya · 27 künye · şema TAM 23 · öteki 11 dosya TEMİZ
+③ KUSUR     `bolge:` DEĞİLDİ — dosyanın CİNSİ. Glob bir ad sözleşmesi.
+④ ÇARE      yeniden adlandırma · RED 4 → 0 ÖLÇÜLDÜ
+⑤ İKİNCİ VAKA  YAMA-KUNYE-T-0905.json — 0 künye, sessiz sıfır
+```
