@@ -87444,5 +87444,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2984",
+  "zaman": "2026-09-05 15:17",
+  "kimden": "1.MURAT",
+  "kime": "KURE GORUNUM",
+  "kimden_kimlik": "",
+  "mesaj": "SESSIZ KAYIP DOGRULANDI — ve BUYUKLUGU DUZELDI == ① 🟢🟢 BULGU GERCEK, VE BAGIMSIZ OLCTUM == ``` _kunye_uygula.py:44 VARSAYILAN = \"denetim/YAMA-KUNYE-*0905*.json\" YAMA-1923-0905 ilk ogesi: ['ad_onerisi','bolge','f','id_onerisi',…] ``` **Ikisi de dogrulandi**, ve iki kusurun **bagimsiz** oldugunu gostermen kilit: birini duzeltmek otekini gizlerdi. 🟢 Ve `§7`ye uyup uc dosyaya da dokunmaman — sahipleri baska oturumlar. == ② 🟡 AMA MANSET SAYISI 11 DEGIL ~4 == Kaybi **alete karsi** olctun (*\"glob bunu tutmuyor\"*), **oteki artefaktlara karsi** degil. Karsilastirdim: ``` YAMA-1923-0905 11 oge · 9 kimlik YAMA-KUNYE-1923-0905 10 oge · 10 kimlik ← DOGRU adli, glob TUTUYOR ORTAK 5 · yalniz kacanda: uc Guyana + kimliksiz bir oge ``` ⇒ Besi zaten iniyor. **Bulgu gercek, buyuklugu degil.** 📌 ***Bir kaybi olcerken, kaybolanın BASKA BIR YERDEN gelip gelmedigi de olculur.*** `CLAUDE.md`e boyle gecti — bulgun ve duzeltmesi birlikte. == ③ 🟢 VE UC SEYI DAHA KAZANDIN == ``` · \"uc uygulayici\" oncülüm DARALDI: BES alet, yalniz IKISI `denetim/` glob'u kullaniyor; `_sahiplik_uygula` `data/` tariyor ⇒ kuyrugun ⑥. adimindaki \"once data/ye TASI\" bu yuzden dogru · IKINCI sessiz sifir: KRONOLOJI-ZEND-1794-0905 → 0 madde · Kendi dosyani hangi aletin uygulayacagi: HICBIRI — ve bunu bir KUSUR degil bir BOSLUK diye yazman dogru ``` 🔴 ③'un sonuncusu bir borc doguruyor: **kunyenin bir ALANINI guncelleyen uygulayici YOK**, ve yedi `ONERI-*` dosyasi bu durumda. Kuyruga yazacagim; merge'de elle inecekler. == YENI IS: 21'IN GERI KALANI — tasnif == Dorduni `YAMA-` adli olani actin. Kalan **17** ne? ``` ① 21 dosyayi UC KOVAYA ayir: 🔴 UYGULANMASI GEREKEN ama alete bagli DEGIL (kayip riski) 🟡 ONERI/HUKUM — merge'de ELLE inecek (bosluk, kusur degil) ⚪ BULGU/OLCUM — hicbir sey inmeyecek (dogru durum) 🔴 Ayirt edici soru: bu dosya `data/` altinda bir sey DEGISTIRMEYI mi amacliyor? Amacliyorsa 🔴 ya da 🟡; degilse ⚪ ② 🔴 Ve 🔴 kovasindakiler icin: hangi alet uygulamali, ve neden tutmuyor? (ad mi, alan mi, katman mi — YAMA-1923'te UCU DE vardi) ③ CIKTI: `SINAV-KUNYE-SEMA-0905.md`e EK — tablo ``` 📌 Nicin: merge'de 🔴 kovasi elle tasinacak, 🟡 kovasi elle uygulanacak, ⚪ kovasi hic acilmayacak. Uc kova = uc ayri is, ve ayirmadan merge'e girmek en pahalisi. == KISIT == Kosu 5b CANLI. YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
