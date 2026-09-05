@@ -4,6 +4,52 @@
 > donmuş dosyalara dokunduğu için bekliyor.
 > 🔴 Sıra kasıtlı: veri → renk → denetim → koşu → yayın.
 
+## 🔴🔴 UYGULAMA SIRASI BAĞLAYICI — YANLIŞ SIRA YAYINI DURDURUR (5 Eylül 06:00)
+
+Bir işçi oturum sordu: *"4c/4d tavanları yükseliyor; yayın kapısı bu sayılara
+bakıyorsa tavanlar yeniden değerlendirilmeli — benim kalemim değil."*
+**Kaynak koddan ölçüldü ve cevap EVET:**
+```
+denetle.py:3407   if n4c > BEKLENEN_ASAN:  ihlal = True
+denetle.py:3445   if n4d > BEKLENEN_ONCE:  ihlal = True
+denetle.py:3754   if ihlal: sys.exit(1)
+kos_ve_yayinla.py `if kos("ALTI DEĞİŞMEZ (denetle.py)" …)`  → ÖLÜMCÜL adım
+MEVCUT: BEKLENEN_HAYALET = 8 · BEKLENEN_ASAN = 280 · BEKLENEN_ONCE = 468
+```
+İki denetim yaması birlikte uygulanırsa (ölçülmüş öngörü):
+**hayalet 8 → 16 · 4c 280 → 287 · 4d 434 → 467**
+⇒ hayalet ve 4c **tavanı aşıyor** ⇒ `denetle.py` çıkış 1 ⇒ **zincir durur,
+yayın olmaz.** (4d rahat: 467 ≤ 468 — ve o tavan bugün zaten GEVŞEK.)
+
+### 🔴 VE SIRA MESELESİ — bunu kimse yazmamıştı
+Tavanı 16 yapmak **yanlış** olur: o 16'nın **7'si Mısır'ın Fransız işgali**
+ve biz onu zaten düzelteceğiz (`d:"fransa"` → `fransa-cumhuriyet`).
+```
+🔴 YANLIŞ  önce denetle.py yaması + tavan 16  →  sonra veri düzeltmesi
+           ⇒ tavan 16'da kalır, 7 ihlal kapanır, TAVAN GEVŞER:
+             yarın 7 GERÇEK hayalet doğsa denetim SUSAR
+🟢 DOĞRU   ① VERİ    künye → kronoloji → sahiplik (Mısır `isg:` + `iran` 6 nokta)
+           ② SONRA   denetle.py yamaları (`isg:` + `harita:` uzayı)
+           ③ TAVAN   DÜZELTİLMİŞ veri üzerinde YENİDEN ölçülür
+```
+📌 `denetle.py`nin kendi kuralı: *"tavan yükseltmek delik örtmeye dönüşür."*
+Ve `§11`: *"eşiği gevşetme — SIKILAŞTIR."*
+
+### TAM SIRA — koşu 5b bittiğinde
+```
+0  KAPI DURACAK çaresi (TESPIH.md, altlik.js)
+1  py arac/_kunye_uygula.py --yaz          11 künye  (kuru koşu: 11 kabul / 0 red)
+2  py arac/_kronoloji_uygula.py --yaz      160 madde (kuru koşu: 160 kabul / 8 mükerrer)
+3  sahiplik: 122 nokta yanlış sahip · Mısır `isg:` 7 · `iran` 6 · 1923 nokta yaması 6
+   · beyan/dolgu (Grönland + çöl) · Doğu Asya 19 — HEPSİ `_sahiplik_uygula.py`, TEK ELDEN
+4  renk: bosna #2f1896 → #ea12ea   ·  sonra py arac/renk_olc.py (yakın-ama-değmeyen 1 → 0)
+5  denetle.py yamaları + tavanlar (③'e göre)
+6  py denetim/ARAC-DIKIS-0904-olc.py       R1 sınavı (taban DİKİŞ 640 parça / 34.318 km²)
+7  denetle → durum_tablosu → surum_damgala → yayın
+```
+
+---
+
 ## 🔴 DÖRDÜNCÜ DEĞİŞMEZİN KÖR NOKTASI — `isg:` HİÇ SINANMIYORMUŞ (5 Eylül 04:54)
 
 `CLAUDE.md §3.5` yıllardır *"dördüncü bir değişmez olarak araca girecek"*
