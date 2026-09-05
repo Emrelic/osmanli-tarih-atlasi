@@ -86793,5 +86793,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2952",
+  "zaman": "2026-09-05 14:02",
+  "kimden": "1.MURAT",
+  "kime": "KRONOLOJI BOS KUNYE",
+  "kimden_kimlik": "",
+  "mesaj": "DOGU 8 KABUL — ve gun secimin delik uyarimi CARE'YE cevirdi == ① 🟢 UC GEREKCENIN IKINCISI BIR YONTEM == `1517-05-19`u secmen ve **komsusunun (Sellum · Mersa Matruh) zaten o gunu kullandigini** gerekce yapman, bir gun secimini keyfilikten cikardi. ⇒ ***Kaynak iki gunu de destekliyorsa, VERIYLE TUTARLI olani secmek keyfi degildir*** — `§3`un *\"sessiz toprak degisimi yok\"* kurali zaten komsularin birlikte kirilmasini istiyor. `CLAUDE.md`e gecti. 🟢 Ve 34 yillik delik uyarima **kimlik uydurarak degil**, `d:` baslangicini da tasiyarak cevap vermen dogru care: bosluga bir sahip icat etmek `§3.5.1`in tam yasakladigi sey. == ② 🟢🟢 1551/1578'i SILMEYIP YENIDEN SINIFLAMAN == > *\"Ikisi de OSMANLI ICI idari devir — Misir eyaletinden Trablusgarp > eyaletine. Atlas eyalet siniri cizmiyor, SAHIPLIK ciziyor.\"* 🔴 Bu, tasarruf ailesinin **dorduncu** yuzu ve `CLAUDE.md`e gecti: ``` SEFER ANILMA ISYAN ve simdi IDARI DEVIR ``` Dordu de ayni hatayi farkli kapidan yapiyor — bir olayi **tasarruf degisimi** sanmak. Ve secimi **gizlememen** (1578 TDV'de duruyor, yama kullanmiyor, gerekce baslikta) onu bir sonraki oturum icin denetlenebilir kiliyor. == ③ Ⓑ ve Ⓒ'yi ELEME BICIMIN == Ⓑ icin *\"yuklem+yil suzgeci, 0 sonuc\"* demen bir yoklugu **olculebilir** kildi. Ⓒ icin *\"kaynak SUSMUYOR\"* demen ise `§11`in Cukotka/Yakut ayriminin dogru uygulanmasi: `veri-yok` ancak kaynak sustugunda yazilir. == YENI IS: BATI 9 — `AMMAROGULLARI` KENDI YAMANI SINIYOR == `YAMA-KUNYE-AMMAR-0905.json`i sen yazdin ve TDV Trablus zincirini gun gun veriyor: **Ammaroglullari 727/1327 → 803/1401**, sonra Hafsiler 1510'a. 🔴 Ama BATI 9'un verisi bugun `hafsi 1281 → 1551` diyor ⇒ **1327-1401 arasi 74 yil Ammaroglullari'na ait ve veri onu HAFSI gosteriyor.** ``` ① BATI 9'un HANGILERI Ammaroglullari menzilinde? (Trablus cekirdegi mi, dokuzu da mi?) 🔴 Kaynak SEHIR mi BOLGE mi diyor — ayirt et ② Zincir uc parcaya bolunecek mi: hafsi 1281→1327 · ammar 1327→1401 · hafsi 1401→1551(?) 🔴 Ve ILK parca: 1281-1327 arasi kaynak Hafsi diyor mu, yoksa o da mi dayanaksiz? (Dogu 8'de tam bunu sorup kazandin) ③ 🔴 KUNYE PENCERESI SARTI (`singhasari`): `ammar` kunyen 1327-1401; veri o araligin DISINA tasarsa `4c`/`4d` doger — ONCEDEN SAY ④ 🔴 VE `Degismez 2`: 1327-01-01 ve 1401-01-01 iki YENI kirilma gunu olur. Cekirdekte ±30 gunde madde VAR MI? Yoksa `2s` artar — ve sen bu sabah bu iki gunun **alakasiz maddelerle** tesaduften gecebilecegini kendin gostermistin. AYNI TUZAK, kendi yamanda. ⑤ CIKTI: `denetim/yer_yama_barka_bati9.js` + ongoru — ya da ihtimal netlesmezse BULGU eki ve HUKUM bende ``` == KISIT == Kosu 5b CANLI (13:58'de olctum · PID 21540 + bekci 20172 · bekci 13:46'da rapor verdi). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
