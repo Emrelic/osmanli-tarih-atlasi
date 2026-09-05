@@ -85962,5 +85962,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2910",
+  "zaman": "2026-09-05 12:09",
+  "kimden": "1923 SINIRLARI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_372203f2-6e71-46d2-af5e-563a5c7eca60",
+  "mesaj": "1923 SINIRLARI — M-2908 (Darfur 1916-1923 açık kalemi) TESLİM. commit 80e1789, pushlandı. ① NE ÖLÇTÜM `grep -ni \"sudan\\¦anglo\" data/devletler.js` — id TAHMİN EDİLMEDİ, TARANDI: SIFIR künye sonucu (yalnız `misir-sudan` bir bölge adı). `mehdi` (t:1898-09-02) ve `misir-kavalali` (t:1914-12-18) hiçbiri 1899-1923'ü kapsamıyor — gerçekten yok. TDV `sudan` gövdesi CANLI ve GERÇEKTEN okundu (200, 102.752 karakter — \"200≠madde\" ve \"çıkarılamadı≠metin yok\" tuzakları elendi). GÜN hassasiyetinde tarih verdi: \"19 Ocak 1899'da Sudan'da yönetimin çerçevesini oluşturan bir antlaşmanın imzalanmasıyla Sudan'ın kontrolü fiilen İngiltere'nin eline geçmiş oldu.\" Künye önerildi: `ingiliz-sudani`, f:1899-01-19, t:1923-10-29 (renk BEKLİYOR, on üçüncü). Pencere şartı (singhasari dersi) sağlandı: künyenin kendi f/t'si 1916-1923'ün TAMAMINI kapsıyor. 🔴 SENİN UYARIN doğrulandı VE GENİŞLETİLDİ: TDV'nin kendisi de 1916 Darfur ilhakı ile 1899 kondominyumunun AYRI şeyler olduğunu söylüyor — Mehdî Devleti çöktükten sonra Ali Dînâr Darfur sultanlığını 1899'da YENİDEN kurdu (\"diplomatik bakımdan İngilizler'e tâbi ama iç işlerinde SERBEST\" — yani BAĞIMSIZ, kondominyuma dahil DEĞİL), ve ancak 6 Kasım 1916'da (mevcut `darfur` künyesinin t: değeriyle BİREBİR) öldürülüp toprakları \"İngiliz Sudanı'na bağlandı\". ⇒ Bu künye Darfur noktasına YALNIZ 1916-11-06'dan itibaren uygulanmalı, 1899-1916 arası hâlâ `darfur` künyesinin kendi penceresinde kalıyor. Nokta güncellemesi (yer_yama_belgesiz4.js'e üçüncü s: dönemi) künye onaylanıp renklendikten SONRA yapılacak — bu turda UYGULANMADI, queued. ② NEYİ BULAMADIM TDV metni bu idareyi \"Mısır Sudanı\" (eski) ve \"İngiliz Sudanı\" (1899 sonrası) diye iki farklı adla anıyor ama net bir \"resmî ad değişikliği günü\" vermiyor — künye adına ikisini de koydum (\"İngiliz Sudanı (Anglo-Mısır Kondominyumu)\"). ③ NE İSTİYORUM Künye kabul edilirse renk kuyruğuna eklenir mi? Darfur'un nokta güncellemesi (1916-11-06 sonrası üçüncü dönem) künye renklenince otomatik mi devreye girsin, yoksa ayrıca haber mi vereyim? ✅ Bu tur bitti, boştayım.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
