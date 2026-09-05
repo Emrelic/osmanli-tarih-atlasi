@@ -33,6 +33,46 @@ ekranın tamamını değiştirir — bu bir ölçüm değil bir **tasarım karar
 Vietnam/Nguyễn · Kamboçya · Uganda/Buganda · Oniki Ada) araştırma turuna
 girdi — onlar için karar gerekmiyor.
 
+### 🔴 ÜÇÜNCÜ KARARIN — BOĞDAN, EFLAK, KIRIM, ERDEL VE KAVALALI MISIR **AYNI RENK**
+
+Bir işçi oturum beş künyenin haritada hiç görünmediğini buldu, ve beşi
+**tek bir sebepten**: `v:` alanı (Osmanlı'ya tâbi) **kimlik taşımıyor.**
+Ölçtüm — kapsamı beş künyeden çok daha büyük:
+
+```
+`v:` taşıyan NOKTA   366        `v:` DÖNEM   423
+toplam nokta-yıl  42.203        ortalama dönem  99,8 yıl
+100 yıldan uzun dönem: 216
+```
+Yani haritada **aynı açık Osmanlı tonuyla** boyanan şeyler:
+```
+Boğdan       Yaş · Roman · Bîrlad · Kalas          1456 → 1878   422 yıl
+Eflak        Bükreş · Tırgovişte · Piteşti …       1462 → 1878   416 yıl
+Kırım Hanlığı Bahçesaray · Gözleve                 1475 → 1771   296 yıl
+Dubrovnik    (Ragusa)                              1459 → 1806   347 yıl
+Erdel · Kavalalı Mısır · Cezayir/Tunus/Trablus Ocakları …
+```
+⇒ Kırım Hanı ile Boğdan voyvodası ile Kavalalı Mehmed Ali ekranda **ayırt
+edilemiyor.**
+
+⚠️ **VE BU BİR HATA DEĞİL, BİR TASARIM KARARI** — `CLAUDE.md` bunu açıkça
+yazıyor: *"`OSMANLI` ile `tâbi` çelişki SAYILMAZ… Boğdan voyvodalıktır ama
+Hotin rayası doğrudandır, Kırım Hanlığı tâbidir ama Kefe sancağı
+doğrudandır."* Yani `v:` bilerek "Osmanlı sistemi içinde" demek için var.
+🔴 Soru şu: **`v:` bir KİMLİK de taşımalı mı?**
+```
+(a) TAŞISIN      `v:[{f,t,d:"bogdan"}]` — her tâbi kendi adıyla, kendi tonuyla
+                 ⇒ senin "statüler sıralı bir MERDİVEN" ilkenle örtüşür
+                 ⚠️ 423 dönem elden geçer + 40 küçük künyeye renk gerekir
+(b) BUGÜNKÜ GİBİ tek jenerik tâbi tonu kalsın; ayrım kronolojide anlatılır
+                 ⇒ değişiklik yok
+(c) ARA YOL      yalnız EN BÜYÜK tâbiler (Boğdan · Eflak · Kırım · Erdel ·
+                 Kavalalı Mısır · Dubrovnik · üç Ocak) kimlik alsın —
+                 216 uzun dönemin çoğu bu on kimliğe düşüyor
+```
+📌 Not: proje bunu bir kez daha kaydetmişti (`Erdel` vakası, TUNA HAVZASI) —
+yeni olan **tek vaka değil, 366 nokta ve 42 bin nokta-yıl** olduğu.
+
 ### 🔴 İKİNCİ KARARIN — BİR OTURUMUN `git commit`İ ENGELLENDİ
 
 Bir işçi oturum (`NEHİR SÜRTÜNME`) iki dosyayı yazdı ama **commit edemedi**:
