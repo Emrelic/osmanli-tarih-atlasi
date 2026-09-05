@@ -183,3 +183,142 @@ yama glob'una adlandırılmış.
 ④ ÇARE      yeniden adlandırma · RED 4 → 0 ÖLÇÜLDÜ
 ⑤ İKİNCİ VAKA  YAMA-KUNYE-T-0905.json — 0 künye, sessiz sıfır
 ```
+
+---
+---
+
+# EK — GLOB DENETİMİ: **bir yama hiçbir alete bağlı değil**
+
+> **Sevk:** `M-2975` · aynı gün · *ölçüm, hüküm yok, veri yazılmadı.*
+
+## G1. ① BEŞ UYGULAYICI — ve **yalnız İKİSİ** `denetim/` glob'u kullanıyor
+
+Sevk *"üç uygulayıcı"* diyordu; kodu taradım, **beş** var ve girdi
+biçimleri farklı:
+
+```
+_kunye_uygula.py      denetim/YAMA-KUNYE-*0905*.json     GLOB
+_kronoloji_uygula.py  denetim/KRONOLOJI-*0905*.json      GLOB
+_sahiplik_uygula.py   data/  dizin taraması  ^yer_yama.*\.js$
+                      🔴 `denetim/` altına HİÇ BAKMIYOR
+_kademe_uygula.py     data/yer_yama_kademe.js + kademe2.js   SABİT
+_bayat_uygula.py      denetim/HUKUM-BAYAT.json               SABİT
+```
+⇒ **`denetim/*.json` yazan bir oturumun yamasını yalnız İKİ alet
+görebilir.** Ötekiler `data/` tarafında çalışıyor.
+
+## G2. ② GLOB'UN TUTTUKLARI — ve **iki sessiz sıfır**
+
+```
+YAMA-KUNYE-*0905*  → 12 dosya · 11'i 🟢 doğru cins
+   🔴 YAMA-KUNYE-T-0905.json           0 künye
+KRONOLOJI-*0905*   → 11 dosya
+   🔴 KRONOLOJI-ZEND-1794-0905.json    0 madde
+       (aracın KENDİ okuyucusuyla doğrulandı: kuru koşu
+        "yama KRONOLOJI-ZEND-1794-0905.json  0 madde" diyor)
+```
+İkisi de aynı sınıf: **glob sahipleniyor, alet hiçbir şey bulamıyor,
+ve `0` basıp geçiyor.** O sıfır *"bu dosyada kayıt yok"* değil,
+*"bu dosya o cinsten değil"* demek — **ve alet ikisini ayırt etmiyor.**
+
+## G3. 🔴🔴 ③ TERS YÖN — **21 dosyayı hiçbir glob tutmuyor**
+
+```
+denetim/*0905*.json toplam      43
+glob'un TUTMADIĞI               21
+   bunlardan `YAMA-` adlı         4   ← 🔴 sessiz kayıp riski
+   `ONERI-` adlı                  7   ← tasarım gereği (aşağıda)
+   ölçüm/bulgu adlı              10   ⚪ sorun yok
+```
+
+### 🔴 EN AĞIRI: `YAMA-1923-0905.json` — **ÇİFT KAÇIRMA**
+
+```
+içerik   "maddeler": 11 öğe
+alanlar  kova · id_onerisi · ad_onerisi · f · t · bolge · ozet · kaynak · not
+```
+Bu **gerçek bir künye yaması** — `f`, `t`, `bolge`, `ozet`, `kaynak`
+hepsi yerinde. Ama iki ayrı yerden kaçıyor:
+```
+① ADI     `YAMA-1923-*`   ≠  `YAMA-KUNYE-*`   ⇒ glob TUTMUYOR
+② ALANI   `id_onerisi` / `ad_onerisi`  ≠  `id` / `ad`
+          ⇒ glob tutsaydı BİLE `kunyeleri_cikar` **0 KAYIT** görürdü
+```
+🔴 **Ölçüldü: `kunyeleri_cikar(YAMA-1923)` = 0.**
+⇒ **11 künye merge'de sessizce kaybolur** — ve hiçbir denetim ötmez.
+📌 İki bağımsız kusur aynı dosyada: biri düzeltilse öteki hâlâ yutardı.
+
+### 🟡 `YAMA-1923-DUZELTME-0905.json` — doğru cins, YANLIŞ KATMAN
+```
+"duzeltmeler": 4 öğe · alanlar: nokta · eski · yeni · kaynak
+```
+Bu bir **nokta** düzeltmesi — `_sahiplik_uygula.py`nin alanı. Ama o alet
+`data/yer_yama*.js` okuyor, `denetim/*.json` **değil.** ⇒ Hiçbir alet
+almaz.
+
+### ⚪ `YAMA-HAYALET-IRAN-0905.json` · `YAMA-ZEND-KACAR-0905.json`
+Bulgu/ölçüm dosyaları (`🔴_HUKUM_VERILMEDI` · `olcmediklerim` gibi
+anahtarlar). `YAMA-` adı **yanıltıcı** — `YAMA-KUNYE-T` ile aynı sınıf.
+⇒ Bugün zararsız; ama üç dosya aynı gece aynı yanlış öneki aldı.
+
+## G4. ③b ⇒ **BENİM DOSYAMI HANGİ ALET UYGULAYACAK? — HİÇBİRİ**
+
+Sevkin doğrudan sorusu. Ölçtüm:
+```
+ONERI-KAYNAK-HIMAYE-4-0905.json
+   `kunyeleri_cikar` → 4 KAYIT görüyor  (yani glob'da olsa claim edilirdi)
+   ama o alet YENİ künye ekler; benim dördü hedefte VAR ⇒ RED
+   ve `denetim/` glob'u olan öteki alet KRONOLOJI, konusu değil
+```
+> ### 🔴 CEVAP: **künyenin bir ALANINI güncelleyen uygulayıcı YOK.**
+> `_sahiplik_uygula.py` `kaynak`/`bos`/`neden`/`not` alanlarını
+> günceller ama **yerleşim** için (`yerlesimler*.js`), künye için değil.
+> ⇒ Benim dört `kaynak:` metnim **elle ve tek elden** inecek. Bu bir
+> kusur değil bir **boşluk**, ve yedi `ONERI-*` dosyasının tamamı aynı
+> durumda.
+
+## G5. ④ TABLO — glob × dosya × kayıt
+
+| glob | dosya | kayıt | hüküm |
+|---|---|---:|---|
+| `YAMA-KUNYE-*` | 11 dosya | 23 | 🟢 doğru cins |
+| `YAMA-KUNYE-*` | `…-T-0905` | **0** | 🔴 yanlış cins (bulgu dosyası) |
+| `KRONOLOJI-*` | 10 dosya | 218 | 🟢 doğru cins |
+| `KRONOLOJI-*` | `…-ZEND-1794-…` | **0** | 🔴 yanlış cins |
+| *(hiçbiri)* | `YAMA-1923-0905` | **11 künye** | 🔴🔴 KAYBOLUYOR |
+| *(hiçbiri)* | `YAMA-1923-DUZELTME` | 4 nokta | 🔴 yanlış katman |
+| *(hiçbiri)* | `YAMA-HAYALET-IRAN` · `YAMA-ZEND-KACAR` | — | ⚪ bulgu, adı yanıltıcı |
+| *(hiçbiri)* | 7 × `ONERI-*` | — | ⚪ uygulayıcısı YOK (boşluk) |
+| *(hiçbiri)* | 10 × ölçüm/bulgu | — | ⚪ sorun yok |
+
+## G6. DAMGALAR — EK
+
+```
+🔴 DARALTTIM   sevk "üç uygulayıcının glob deseni" diyordu; BEŞ alet var
+               ve yalnız İKİSİ `denetim/` glob'u kullanıyor
+🔴 BULDUM      `YAMA-1923-0905.json` — 11 künyelik GERÇEK yama, hiçbir
+               glob tutmuyor VE alan adları da tutmuyor (ÇİFT kaçırma)
+🔴 BULDUM      `YAMA-1923-DUZELTME` — doğru cins, yanlış katman
+🔴 BULDUM      ikinci sessiz sıfır: `KRONOLOJI-ZEND-1794` 0 madde
+               (aracın KENDİ kuru koşusuyla doğrulandı)
+🟢 CEVAPLADIM  benim dosyamı hangi alet uygular: HİÇBİRİ — künye ALAN
+               güncelleyicisi YOK. Boşluk, kusur değil.
+⚪ ÖLÇMEDİM    `YAMA-1923-0905`in 11 künyesinin şema-tam olup olmadığını
+               (alan adları farklı; `id_onerisi`→`id` eşlemesi
+               yapılmadan sınanamaz — ve o eşlemeyi YAPMADIM)
+⚪ ÖLÇMEDİM    `data/` tarafındaki `yer_yama*.js` dosyalarının
+               `_sahiplik_uygula` tarafından tam kapsanıp kapanmadığını
+🔴 YAZMADIM    hiçbir dosyayı düzeltmedim — üçü de başka oturumların
+```
+
+## G7. TESLİM — EK, sayıyla
+
+```
+① UYGULAYICI   5 alet · 2'si `denetim/` glob'u · 3'ü `data/` ya da sabit
+② YANLIŞ CİNS  2 sessiz sıfır (YAMA-KUNYE-T · KRONOLOJI-ZEND-1794)
+③ TUTULMAYAN   43 artefaktın 21'i · bunların 4'ü `YAMA-` adlı
+   🔴 KAYIP     YAMA-1923-0905 — 11 künye, ÇİFT kaçırma
+   🔴 KATMAN    YAMA-1923-DUZELTME — 4 nokta, yanlış alet
+   ⚪ AD         YAMA-HAYALET-IRAN · YAMA-ZEND-KACAR — bulgu dosyası
+④ BOŞLUK       künye ALAN güncelleyicisi YOK ⇒ 7 `ONERI-*` elle iner
+```
