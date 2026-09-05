@@ -4,6 +4,43 @@
 > donmuş dosyalara dokunduğu için bekliyor.
 > 🔴 Sıra kasıtlı: veri → renk → denetim → koşu → yayın.
 
+## 🔴🔴 ADIM 3 KIRIK — NOKTA YAMALARI UYGULAYICININ OKUMADIĞI BİÇİMDE (5 Eylül 06:10)
+
+Adım 3'ü (`_sahiplik_uygula.py` ile 122 + 6 + 19 + beyan noktaları) yazarken
+aracın GİRDİSİNİ ölçmemiştim. Ölçtüm:
+```
+_sahiplik_uygula.py OKUDUĞU:  data/yer_yama*.js  ·  window.YER_YAMA_<AD> = [...]
+gece yazılanlar:              denetim/*.json
+⇒ ARAÇ ONLARI HİÇ GÖRMÜYOR
+kuru koşu bugün: YAMA KAYDI 177 · uygulandı 113 · ÇAKIŞMA 8
+   — ve bu 177'nin HİÇBİRİ bu geceninki değil; hepsi eski `data/yer_yama*.js`
+```
+⇒ Koşu bitince *"sahiplik yamalarını indir"* adımı **gecenin bütün nokta
+işini sessizce atlardı** ve kimse fark etmezdi.
+📌 `§7`: *"denetimler 'yama UYGULANDI mı' diye sorar, 'yama OKUNDU mu' diye
+SORMAZ."* — ve bu sefer okunmayacak olan **altı oturumun gece emeğiydi.**
+🔴 Ve kusur işçilerde değil **sevkte**: onlara *"denetim/ altına yama yaz"*
+dedim, **hangi biçimde demedim.** *Bir sevk, çıktının BİÇİMİNİ de söylemeli
+— yoksa doğru iş yanlış kapıda birikir.*
+
+### ÇARE (sevk edildi, M-2776 · HERKES)
+Her yama sahibi kendi JSON'unun yanına bir de `denetim/yer_yama_<ad>.js`
+yazacak; ad alanı dosya adıyla aynı ayırt edici parçayı taşıyacak
+(`window.YER_YAMA_<AD>`). Koşu bitince ben `data/`ye taşıyacağım.
+🟢 `bos:`/`neden:`/`not:` artık iniyor — ayrı `elle_konacak` listesi gereksiz.
+🔴 YENİ nokta (Ajdir · Kızıl · Norse yerleşimleri) ile MEVCUT kayda ek AYRI
+tutulacak: araç mevcut kayıtları günceller, yeni noktayı elle eklerim.
+
+### 🔴 VE 8 ÇAKIŞMA ZATEN BEKLİYOR — merge'den önce KARAR GEREK
+```
+Bağdat · Başkale · Halepçe · Kasr-ı Şîrîn · Kutaisi · Yergöğü · Çaldıran · Şehrizor
+```
+Aynı `ad:` için İKİ dosyada FARKLI içerik. Araç doğru davranıp UYGULAMIYOR
+(*"dosya adının alfabetik sırası KARAR VEREMEZ"*). Bunlar bu geceden değil,
+**önceden** bekliyor — ve adım 3'ün bir parçası.
+
+---
+
 ## 🔴🔴 UYGULAMA SIRASI BAĞLAYICI — YANLIŞ SIRA YAYINI DURDURUR (5 Eylül 06:00)
 
 Bir işçi oturum sordu: *"4c/4d tavanları yükseliyor; yayın kapısı bu sayılara
