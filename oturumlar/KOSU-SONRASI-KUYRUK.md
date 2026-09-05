@@ -2761,6 +2761,40 @@ kapsayıcı madde bir ucu kapattı.
 `bosna--osmanli-donemi` 819 karakter ⇒ boilerplate.
 `avusturya-macaristan` 5.773 — eşiğin üstünde ama ince, 🟡 şüpheli.
 
+### 🟢 `Zagem k:3` KALEMİ **KAPANDI** — bulgu geri alındı (21:05)
+
+⚠️ Bu kalemi ben *"AYRI VE CANLI KALEM"* diye açmıştım. **Bulgu yanlıştı**
+ve onu **bulan oturum geri aldı.**
+```
+alıntılanan  «Kartli ve Kahet Tiflis eyaleti hâline getirildi»
+OKUNMAYAN, bir ÖNCEKİ cümle:
+  «…Kahet yöneticileri itaatlerini bildirdiler; haraca bağlandılar.
+   KAHET ÜLKESİ OCAKLIK OLARAK eski hâkimi Alexandre'a BIRAKILDI»
+```
+İki cümle **aynı ânı** anlatıyor ve çelişmiyorlar: idarî olarak eyalete
+yazıldı, **fiilen tâbi krallık** kaldı. Gerekçe **doğruydu.**
+🟢 Ve veri aynı günle teyit ediyor: `Zagem v:[{f:"1578-08-09" …
+k:"Kaheti krallığı (tâbi)"}]` · TDV *"Ağustos 1578"*.
+🔴 Ayrıca *"altı sancak"* cümlesi **1728'e** ait — 16. yy için kullanmak
+150 yıllık kaydırma (ölçen oturum bunu da kendi yaptığını yazdı).
+
+### 🔴 YERİNE AÇILAN KALEM — `k` SÖZLÜĞÜNDE **TÂBİ POLITY YOK**
+
+`VERI-YAPISI.md:127`: `0=kademesiz · 1-2=eyalet/sancak merkezi ·
+3-4=alt kademe`. Bir **tâbi krallığın başkenti** ikisi de değil.
+Külliyat aynı sınıfa **dört** cevap veriyor:
+```
+k1 Kutaisi · k2 Bahçesaray·Yaş·Bükreş·Belgrad·Kassa
+k3 Zagem·Tarki·Hotin·Bender·Delvine · k4 Cetinje·Ordu·Ünye·Ayasaranda
+```
+🔴 Ve **aynı yamada, aynı yazarın elinden** üç aynı-sınıf kayıt iki farklı
+kademe almış: `Kassa` k2 · `Zagem` k3 · `Tarki` k3.
+⇒ Kusur bir kaydın gerekçesinde değil, **sözlükte o sınıfın olmamasında.**
+🟡 Gradyan var (büyük tâbi devlet → k1-k2, küçük polity → k3-k4) ve
+Kaheti uyuyor — ama bu **emsalle uyum**, doğrulama değil.
+🟢 Kademe **önerilmedi**: sözlük yazılmadan seçmek, seçimi ölçüm gibi
+göstermek olurdu. ⇒ Sözlük satırı yazılana kadar kalem AÇIK.
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri

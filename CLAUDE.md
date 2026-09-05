@@ -6833,3 +6833,79 @@ SORMAZ   «bu kimlik buraya AİT mi?»     (o `§3.5` ailesinin işi)
   gerekçe çöktüğünde şart otomatik düşmez, **yeniden gerekçelendirilir**
   ya da düşer. Bu gece ikisi de yapıldı: `kaynak_f:`/`kaynak_t:` sorusu
   düştü, bu iki şart yeniden gerekçelendirildi.
+
+- 🔴🔴 **BİR CÜMLEYİ ALINTILAMADAN ÖNCE **ÖNCEKİNİ** OKU — ve aynı gece
+  aynı disiplin bir yılı kurtardı, uygulanmadığında bir bulguyu çürüttü.**
+  *(5 Eylül 2026 · `Zagem` · `KÜRE GÖRÜNÜM` kendi bulgusunu geri aldı)*
+
+  Bir gerekçe *"çürük"* ilan edilmişti. Dayanak tek bir cümleydi:
+```
+alıntılanan   «Kartli ve Kahet Tiflis eyaleti hâline getirildi.»
+OKUNMAYAN — bir ÖNCEKİ cümle:
+  «Tiflis'in fethinden sonra İmeret ve KAHET YÖNETİCİLERİ Osmanlılar'a
+   itaatlerini bildirdiler; her yıl otuz yük ipek … HARACA BAĞLANDILAR.
+   KAHET ÜLKESİ **OCAKLIK OLARAK** buranın eski hâkimi ALEXANDRE'A
+   BIRAKILDI.»
+```
+  ⇒ İki cümle **aynı ânı** (Ağustos 1578) anlatıyor ve **çelişmiyorlar**:
+  Kahet idarî olarak eyalete yazıldı, **fiilen** eski hâkimine ocaklık
+  olarak bırakıldı ve haraca bağlandı — yani **tâbi krallık.** Gerekçenin
+  dediği tam olarak buydu.
+  🟢 Ve veri bunu **zaten aynı günle** söylüyor:
+  `Zagem v:[{f:"1578-08-09", … k:"Kaheti krallığı (tâbi)"}]` · TDV
+  *"Ağustos 1578"*. Bağımsız teyit.
+
+  📌 **VE AYNI DİSİPLİN AYNI GECE İKİ YÖNDE DE ÖLÇÜLDÜ:** `Bahreyn`de
+  *"Bu tarihte"* zamirinin **öncülü ayrıca okundu** ve doğru güne varıldı;
+  burada öncül **okunmadı** ve bir bulgu çürüdü.
+  ⇒ ***Bir alıntının anlamı, alıntının içinde bitmez.*** `§4`ün
+  *"önce ayrıştır, sonra çelişki ilan et"* önkoşulunun **komşu cümle**
+  yüzü — ve ayrıştırmanın sınırı cümle değil **paragraf**.
+
+  🔴 **VE İKİNCİ BİR KAYDIRMA AYNI ÖLÇÜMDE BULUNDU:** *"altı sancak"*
+  cümlesi **1728 tahririne** ait; onu 16. yüzyıl için kullanmak **150
+  yıllık** bir kaydırma. Ölçen oturum bunu da **kendi** yaptığını yazdı.
+
+- 🔴 **BİR SÖZLÜKTE OLMAYAN SINIF, VERİDE **DÖRT FARKLI** CEVAP ALIR — ve
+  hiçbiri yanlış sayılamaz.** *(aynı ölçüm)*
+
+  `VERI-YAPISI.md:127` `k` sözlüğü: `0=kademesiz · 1-2=eyalet/sancak
+  merkezi · 3-4=alt kademe`. **TÂBİ POLITY diye bir kategori YOK** — bir
+  tâbi krallığın başkenti ne *"eyalet/sancak merkezi"*dir, ne bir merkeze
+  bağlı *"alt kademe"*.
+  Külliyat tarandı (`v:` etiketinde *"tâbi"* geçen bütün canlı kayıtlar):
+```
+k1  Kutaisi (İmereti krallığı)
+k2  Bahçesaray · Yaş · Bükreş · Belgrad · Kassa
+k3  Zagem · Tarki · Hotin · Bender · Delvine
+k4  Cetinje · Ordu (Bayramlı) · Ünye · Ayasaranda
+```
+  🔴 **VE AYNI YAMADA, AYNI YAZARIN ELİNDEN, ÜÇ AYNI-SINIF KAYIT İKİ
+  FARKLI KADEME ALMIŞ:**
+```
+Kassa  Orta Macar prensliğinin MERKEZİ  → k:2
+Zagem  Kaheti krallığının MERKEZİ       → k:3
+Tarki  Kumuk şamhallığının MERKEZİ      → k:3
+```
+  ⇒ ***Kusur tek bir kaydın gerekçesinde değil: o sınıf için tutarlı bir
+  ÖLÇÜT yok, çünkü SÖZLÜKTE O SINIF YOK.*** Zagem'i tek başına
+  düzeltmek tutarsızlığı **çözmez.**
+  🟡 Görünür bir gradyan **var** (büyük tâbi devletler → k1-k2, küçük
+  polity'ler → k3-k4) ve Kaheti ona uyuyor — ama bu bir **doğrulama
+  değil, EMSALLE UYUM**; sözlük yazılana kadar kalem kapanmaz.
+  🟢 Ve ölçen oturum **bir kademe önermedi**: *"sözlük yazılmadan seçmek,
+  seçimi ölçüm gibi göstermek olurdu."*
+
+- 🔴 **BİR KOORDİNATÖR, OKUDUĞUNDAN HIZLI SEVK EDERSE İKİ KUSUR ÜRETİR:
+  MÜKERRER İŞ VE HAKSIZ SORU.** *(5 Eylül 2026 · aynı gece iki vaka)*
+```
+① 20:29  M-3030 ve M-3031 AYNI DAKİKADA — aynı iş iki kez sevk edildi
+② 20:45  "NE OLDU BİZİM İŞ?" — oysa rapor 20:22'de TAHTADAYDI
+         (iş 20:09'da verilmişti ⇒ işçi 13 DAKİKADA teslim etmiş,
+          koordinatör 23 dakika SONRA "sessizsin" diye sormuş)
+```
+  ⇒ İkisinin de kökü aynı: **sevk hızı, okuma hızını geçti.** Ve ikisi de
+  işçi tarafında bir kusur değil.
+  📌 `§7.1` koordinatöre *"ses yoksa sor"* diyor; eksik olan ayak
+  ***"sormadan önce TAHTAYI OKU"*** — çünkü *"ses yok"* bir ölçüm değil,
+  **okumamanın sonucu** olabilir.
