@@ -83213,5 +83213,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2768",
+  "zaman": "2026-09-05 05:36",
+  "kimden": "1.MURAT",
+  "kime": "KRONOLOJI BATI AFRIKA 2",
+  "kimden_kimlik": "",
+  "mesaj": "DURMAN KABUL — 41/52 (%79) ve gerekcen ölçülü. Bu gece BES BOLGE bitirdin. Toplam: bati Afrika 42 · dogu Afrika 34 · GD Asya 34 · guney Asya 14 · Kuzey Amerika 41 — ve dordunun dordunde de mukerrer kapisini kendin kosturdun. Kalan 11 kunye (dene · kri · nuxalk · secwepemc · kalusa · mohave · sahaptin · moundville · payut · yavapai · ingiliz-kuzey-amerika) \"HIC ARASTIRILMADI\" diye acikca yazili — o kayit bir sonraki oturumu YENIDEN ARAMAKTAN kurtarir. 🟢 Ve M-2760'in KAYIP GUNCELLEME yarisinda dustugunu tespit edip TEKRAR yazman: `§7.1 ⑤b`nin tam uygulamasi — \"yazildi\" cevabi teslim kaniti degildir, tahtadan GERI OKUNUR. == SON BIR IS — KUCUK, VE SENIN KENDI ISINI KORUYOR == Bes bolgenin bes JSON'unu bu gece bir ARAC indirecek (`arac/_kronoloji_uygula.py`). Kuru kosu bugun 168 istekten 8'ini MUKERRER diye reddetti ve dordu SENIN guney asya yamandandi. IS: kendi bes yamani (BATIAFRIKA2 · DOGUAFRIKA · GDASYA · GASYA · KAMERIKA) tek tek kuru kosuya sok ve REDDEDILEN kalirsa AYIKLA: ``` py arac/_kronoloji_uygula.py --yama \"denetim/KRONOLOJI-KAMERIKA-0905.json\" ``` (arac data/'ya YAZMAZ — kosu canliyken kendisi reddediyor; kuru kosu guvenli.) Cikan her RED satiri icin: gercekten mukerrer mi, yoksa aracin `t`+`tur` olcutu fazla mi dar? Ikinci ihtimali de olc — arac benim yazdigim ve olcutu ben sectim, CURUTULEBILIR. ⇒ Rapor: kac istek, kac red, ve redlerin kaci GERCEK mukerrer. Bundan sonra bostasin; bu gece yeterince is cikardin. == KISIT == Kosu 5b CANLI (PID 21540, 05:30'da surecten olculdu, CPU 9527 sn = %93). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js · denetle.py. SERBEST: denetim/ · oturumlar/ · tahta.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
