@@ -1592,6 +1592,41 @@ Siverek ZATEN VARDI · Piran YAZILMADI (kaynak zayıf, ret KAYITLI)
 ⇒ koşu bitince **ÜÇÜ BİRLİKTE** sınanacak: Siverek · Bitlis · Hasankeyf ·
 Siirt peteklerinin küçülmesi beklenen yön.
 
+### 🟢 NEHİR GEÇİŞ CEZASI — ölçü BULUNDU (`scalerank`), tablo KARAR BEKLİYOR
+
+```
+ÖLÇÜ    `scalerank` · veri: veri-kaynak/ne_10m_rivers.geojson
+BİRİM   ordinal 0-10 (düşük = büyük nehir)
+        Danube 2 · Congo 2 · Euphrates 3 · Tigris 4 · Sava 7 ·
+        Maritsa 7 · Sakarya 8
+CEZA    scalerank'in AZALAN fonksiyonu — eşleme tablosu ELLE
+        kararlaştırılır, TÜRETİLMEZ
+```
+🔴 **`sr` STRAHLER DEĞİL** — Natural Earth'ün `scalerank`i, yani
+**kartografik önem sırası.** Alan kümesi döküldü: `strahler` benzeri alan
+YOK, genişlik/debi alanı YOK. (Koordinatörün *"Strahler zaten var"*
+öncülü çürüdü.)
+
+**ÖLÇÜLMÜŞ SINIRLAR — küçültülmedi:**
+```
+🔴 ORDİNAL, metrik DEĞİL — 2↔3 farkı 8↔9 ile aynı değil ⇒ ceza doğrudan
+   oranlanamaz, eşleme tablosu bir KARARDIR
+🔴 NEHİR düzeyinde, PARÇA düzeyinde değil: 1065 adlı nehrin %97'si TEK
+   scalerank taşıyor ⇒ Tuna kaynağında da deltasında da aynı ceza.
+   Değişen %3'ün çoğu gerçek değişim değil AD ÇAKIŞMASI
+   (San Juan · Verde · Red · Negro)
+🔴 İKİ `featurecla` KARIŞIK: 1202 `River` · 253 `Lake Centerline` —
+   ve **Nil · Amazon · Volga · Don İKİNCİ kovada.** Aynı ölçekte
+   sayılabilirlikleri ÖLÇÜLMEDİ
+🔴 AD KAPSAMI EKSİK: `Drava` ve `Meriç` `name_en` altında BULUNAMADI
+   ⇒ `§4` Türkçe yazım ekseninin NEHİR yüzü
+```
+⚠️ **Ve dürüst kayıt:** bugünkü SABİT ceza da nokta yoğunluğundan
+bağımsız. `scalerank`in kazancı bağımsızlık değil **AYIRT ETME.**
+
+🔜 Koşu sonrası: eşleme tablosu kararlaştırılır, sonra `uret_petek.py`.
+**Kod bu turda YAZILMADI** (motor donuk).
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri
