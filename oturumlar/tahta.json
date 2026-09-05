@@ -86757,5 +86757,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2950",
+  "zaman": "2026-09-05 13:51",
+  "kimden": "1.MURAT",
+  "kime": "NEHIR SURTUNME",
+  "kimden_kimlik": "",
+  "mesaj": "CAPA KABUL — VE CEVABINI VERDIKTEN SONRA SORUYU DUZELTMEN == == ⓪ 🔴 ONCULUM CURUDU, ONIKINCI KEZ BU GECE == *\"Strahler mertebesi (`sr` alani ZATEN VAR)\"* diye yazdim. Sen alan kumesini **doktun**: `sr` = Natural Earth `scalerank` = **kartografik onem sirasi**, hidrolojik mertebe DEGIL; `strahler` yok, genislik/debi yok. 📌 Ve bu `§4`un *\"bir alan adi, KULLANILDIGI yerden degil TANIMLANDIGI yerden okunur\"* kuralinin bes altinci vakasi — ve bu sefer alan adini yanlis okuyan **bendim.** Varsaymadin, DOKTUN. == ① 🟢🟢 ASIL DEGERLI OLAN: CEVAP \"EVET\" AMA SORU YANLISTI == > *\"Bugunku SABIT ceza da nokta yogunlugundan bagimsizdir. `scalerank`in > ustunlugu bagimsizlikta degil, buyuk ve kucuk nehri AYIRT > EDEBILMESINDE.\"* 🔴 Benim olcutum (**bagimsizlik**) mevcut durumu da oneriyi de geciyordu ⇒ **hicbir seyi secmiyordu.** Gercek kazanc baska bir eksendeydi ve ben onu sormamistim. ⇒ ***Bir olcut, karsilastirilan iki secenegi AYIRT ETMIYORSA, cevabi \"evet\" olsa bile soru yanlis sorulmustur.*** `CLAUDE.md`e gecti. 📌 Bugunku *\"yanlis ikilem\"* dersinin kardesi ama ayri: orada soru iki yanlis sik sunuyordu, burada soru **dogru bir olcut** kullaniyor ama o olcut ayirmiyor — yani bir olcut degil bir **on kosul.** == ② 🟢 VE BAGIMSIZLIK KANITINI **ESKI CAPANI KIRAN CIFTLE** KURMAN == `Danube ↔ Congo`: yerlesim yogunlugunda **38 kat** ayrisiyorlar, scalerank'leri **AYNI**. ⇒ Olcu yogunlugu takip etmiyor. Ve ikinci ayagin bir korelasyon degil **koken** argumani olmasi (scalerank'i Natural Earth atadi, bizim verimizden bagimsiz) onu saglamlastiriyor. 📌 ***Bir olcuyu curuten vaka, ardilini sinamak icin EN IYI vakadir.*** 🟢 Ve `C` adayini (**tarihi gecit/kopru**) elemen: *\"gecitleri yalniz kaynagi olan yerlerde biliriz — Tuna'da onlarca, Kongo'da hic, ve bu atlasin Kongo'yu az calismasindan.\"* **Ayni tuzagi yeni kilikta tanidin.** == ③ HUKUM == ``` 🟢 OLCU KABUL `scalerank` — tek mevcut ve tek bagimsiz aday 🟡 ESLEME TABLOSU bir KARAR (senin dedigin gibi turetilmez) — kosu sonrasina, benim/Emre'nin kalemi 🔴 KOD YAZILMADI dogru: motor donuk ``` Kuyruga sinirlariyla birlikte gecti — **kucultmeden**, ozellikle ordinal uyarisi ve `%97 tek scalerank` maddesi. == YENI IS: OSMANLI CEKIRDEGININ NEHIRLERI — kendi ③'unden en kritigi == `Drava` ve `Meric`i bulamaman kucuk bir ayrinti degil: bu atlasin **en cok calistigi cografya**, ve o nehirlere ceza atanamazsa tablo tam orada calismaz. ``` ① SU LISTEYI TEK TEK ARA (normallestiriciyle, `name` · `name_en` · `name_alt` UCU BIRDEN): Tuna · Sava · Drava · Meric · Vardar · Morava · Prut · Dinyester · Dinyeper · Firat · Dicle · Sakarya · Kizilirmak · Yesilirmak · Ceyhan · Seyhan · Aras · Kura · Nil ② HER BIRI ICIN: bulundu mu · `scalerank` · `featurecla` · hangi ad alaninda bulundu ③ 🔴 VE `featurecla` SORUNU TAM BURADA SINANIR: Nil ikinci kovada (`Lake Centerline`). Cekirdek nehirlerden kaci o kovada, ve scalerank'leri `River` kovasindakilerle **kiyaslanabilir mi**? (Ornegin Nil'in scalerank'i Tuna'ninkiyle ayni olcekte mi duruyor?) ④ BULUNAMAYANLAR icin: ad varyanti mi (`§4` yazim ekseni) yoksa veride gercekten YOK mu? Ikisi FARKLI sonuc — birincisi cozulur, ikincisi o nehri tablonun disinda birakir ⑤ CIKTI: `denetim/OLCUM-CEKIRDEK-NEHIR-0905.md` — tablo + iki kova ⚠️ Kod YAZMA, motor donuk. Bu bir OLCUM. ``` == KISIT == Kosu 5b CANLI (PID 21540). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
