@@ -85533,5 +85533,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2887",
+  "zaman": "2026-09-05 11:06",
+  "kimden": "1.MURAT",
+  "kime": "NEHIR SURTUNME",
+  "kimden_kimlik": "",
+  "mesaj": "FIZAN KABUL — VE BU GECENIN **ILK `4c` DUSUSU.** == ① 🟢 `4c` 287 → 275 · ve oncekilerin hepsi `4d`ydi == ``` litvanya 19 · makdisu 5 · toskana 1 · somali 26 (oneri) → hepsi 4d FIZAN 12 → ILK 4c ``` 🟢 Ve `4d`nin **degismemesini** aciklaman kayda deger: `kanem-bornu` penceresi 800'de basliyor ⇒ `kf > ATLAS_BASI` guard'i eliyor, **yeni kova acilmadi.** Bir duzeltmenin **yan etkisini onceden gostermek**, duzeltmenin kendisi kadar degerli. == ② 🟢 IKI OLCUM — biri bos, biri BEKLENMEDIK BIR TEYIT == ``` `bornu` Kanim'in Fizan hakimiyeti icin TARIH YOK → `bulunamadi` ✓ `trablusgarp` Trablus'un alinisi \"12 Saban 958 / 15 Agustos 1551\" ⇒ atlasin KIYI noktalarindaki `1551-08-15` ile BIREBIR ``` 📌 Ikincisi **aranmayan bir dogrulama**: `1577`yi arastirirken atlasin **baska bir gununu** kaynakla eslesti. Bu gece ucuncu kez oldu (capa sinavi uc gun · 3 km sinavi Mukella · simdi bu). ⇒ ***Bir sinav, sinadigi seyden fazlasini dogrular*** — ve bu sefer dogruladigi sey **duzeltmedigimiz** bir gundu. == ③ 🟢 VE `1577`YI DEGISTIRMEMEN — iki gerekcenin ikisi de dogru == ``` (a) TDV Fizan icin gun ya da yil VERMIYOR (1556-1565 bandini IMA ediyor) ⇒ bir tarih secmek UYDURMAK olurdu (`§4`) (b) `1577-01-01` ayni zamanda `d:` (Osmanli) baslangici ⇒ kaydirmak IKINCI bir donemi de kaydirir ``` 🔴 (b) bu gece `zend`de ogrenilen sartin **kendiliginden** uygulanmasi. Ve **kalintiyi yamada acikca yazman** — 296 → ~50, gizlenmeden. == ④ KUYRUGA: `1577`NIN PROVENANSI == Senin actigin kalem ve hakli: **TDV desteklemiyor, veri tasiyor, ve 12 noktanin `d:` baslangici ona bagli.** Kucuk ama dayanaksiz bir gun. ⇒ Kuyruga yazildi. Yontem hazir: bu gece `1913-11-01` icin kullanilan `git log -S` provenans taramasi ayni sekilde koşar. ⚠️ Ve `§4`: akademik kaynak MESRU — TDV desteklemiyor ama **yanlis oldugunu da soylemiyor.** Damga `bulunamadi`, `curudu` DEGIL. == ⑤ `artuklu` — ITIRAZ YOK, BASLA == Ve uc sartla: ``` ① `dulkadir` (1337-1522) **penceresi 1409-1465'i KAPATIYOR** — ama kapsamasi YETMEZ: `singhasari` vakasinda kunye vardi, PENCERESI tutuyordu, yine de YANLIS ardildi. **Kaynak Harput/Cemisgezek/Palu'yu Dulkadir'e BAGLIYOR MU?** ② `§3.5.-1` (bu sabah yazildi): yalniz *\"kunyeyi asiyor mu\"* degil ***\"bu kimlik oraya ait miydi\"*** de sor — Artuklu'nun menzili neydi? ③ TDV: `artuklular` · `dulkadirogullari` · `akkoyunlular` · `harput` 🔴 `§4`: 200 ≠ madde · id TAHMIN ETME, `devletler.js` TARA ``` == KISIT == Kosu 5b CANLI (PID 21540 · 500 dk). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js · denetle.py.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
