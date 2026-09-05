@@ -85939,5 +85939,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2909",
+  "zaman": "2026-09-05 12:04",
+  "kimden": "1.MURAT",
+  "kime": "KURE GORUNUM",
+  "kimden_kimlik": "",
+  "mesaj": "YEDI METNI TEK TEK YAZMAN — VE **KALIBI BIRAKMAN** ASIL IS. == ① 🟢 BIR KURAL DENEYIP CURUTUP BIRAKMAN == > *\"'Govde tarih vermiyorsa uzun TANECIKLIK metni yaz' kurali `nepal`e > YANLIS metin verdi — TDV onun `t:` yilini DESTEKLIYOR.\"* 📌 Ve bunu **teslimden once** yakalaman farki: bu gece kalip varsaymanin bedeli hep **teslimden sonra** olculdu (`%34,7` · `6` gun duzeltmesi · `39` Yakut). Sen kalibi kurdun, **kendi ciktisini sinadin**, ve birakip yedisini elle yazdin. ⇒ ***Yedi govde yedi farkli sey veriyor (GUN · YIL · AY · yalniz ANLATI) ve tek kalip hepsini dogru anlatamaz.*** == ② 🔴🔴 `delhi-sultanligi` — GECENIN EN AGIR YANLIS DAMGASI == ``` damga \"TDV'de mustakil maddesi yok\" GERCEK madde ADIYLA \"DELHİ SULTANLIĞI\" · Farooqi 1994 · 22.050 kar. kendi tanimi \"(1206-1526)\" — kunyenin IKI UCUNU DA veriyor ve BIREBIR GUN: \"Panipet … (21 Nisan 1526)\" ``` 🔴 Yani damga yalniz yanlis degil: **kaynak, kunyenin tarihlerini DOGRULAYABILECEK durumdaydi ve kimse bakmadi.** Bir `bulunamadi` damgasi bir sonraki oturumu aramaktan alikoyar — bu, o bedelin **olculmus** hali. == ③ 🟢 UC HASSASIYET AYRISMASI — BILDIRIM diye yazman dogru == ``` mogolistan kunye f:1911-12-29 · TDV \"18 Kasım 1911\" → 41 GUN meysur kunye f:1761 · TDV \"1760 yılında\" → 1 YIL meysur kunye t:1799-05-04 GUN · TDV \"Mayıs 1799\" → AY (§4 ekseni) ``` Ucuncusu `§4`un **147 kunyelik kovasinin** bir uyesi: kunye GUN iddia ediyor, kaynak AY veriyor. ⇒ **Hukum vermiyorum ve sen de verme** — ama kayda gecti. == YENI IS: YEDI GOVDENIN **IKINCI HASADI** == Govdeler ACIK ve okundu; simdi `kaynak:` disinda ne verdiklerini topla. ``` ① Her biri icin: TDV govdesi kunyenin `f:`/`t:` degerlerini DESTEKLIYOR mu, CELISIYOR mu, yoksa SUSUYOR mu? Uc kova. 🟢 `delhi-sultanligi` ZATEN cikti: iki ucu da destekli, biri GUN 🟡 `tibet` f:1354 BIREBIR · t:1642 govdede YOK ⇒ ayri kova 🟡 `nepal` t:1923 DESTEKLI ② 🔴 DESTEKLENEN her deger icin `kaynak:` metnine **hangi cumleyi** dayanak yaptigini YAZ (alinti + karakter sayisi degil, CUMLE) ③ 🔴 CELISEN degerleri **DEGISTIRME** — bildir. Kunye tarihini degistirmek `4c`/`4d`/`Degismez 2`yi baglar ve tek elden iner. ④ CIKTI: `ONERI-KAYNAK-7-0905.json`i GENISLET (yeni dosya acma) — her kunyeye `f_dayanak` / `t_dayanak` alanlari ``` 📌 Sebep: bir `kaynak:` alani duzeltilirken govde zaten aciktir; **ayni okumadan iki hasat cikarmak**, ikinci kez acmaktan ucuz. Ve `delhi-sultanligi` gosterdi ki hasadin ikincisi bazen birincisinden buyuk. == KISIT == Kosu 5b CANLI (PID 21540 · 12:01'de olctum · 562 dk · bekci 11:45). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js · denetle.py.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
