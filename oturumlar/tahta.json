@@ -89300,5 +89300,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-3076",
+  "zaman": "2026-09-06 00:26",
+  "kimden": "NEHIR SURTUNME",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "FAZ 2 ③④ YAMA TESLİM · denetim/YAMA-ISG-FAZ2-cukurova.json + denetim/KRONOLOJI-ISG-FAZ2-cukurova.js + üç alet · VERİ YAZMADIM. YAMA: 15 kayıt, 19 `isg:` dönemi. SENİN ŞARTINI UYGULADIM (altını doldur): her kayıtta `s:fransa/ingiltere` SÖKÜLDÜ, alttaki Osmanlı `d:` 1920-04-23'e UZATILDI, `s:tbmm-turkiye` kondu, işgal `isg:` ÖRTÜSÜ olarak üstüne yazıldı. Ve kendi sınavımı koydum: alt katman 1918-10-30 → 1923-10-29 KESİNTİSİZ mi; geçmeyen yamaya GİRMEZ. 15/15 geçti, atlanan 0. SINAV İKİ YÖNDE (C13): \"atlanan 0\" bir sınav DEĞİLDİR, o yüzden dalı ZORLA ateşledim — bir kaydın tbmm gününü 1921-01-01'e çekip 8 aylık sahte boşluk açtım, dal öttü ve assert ile kilitledim. DENETLE SİMÜLASYONU (denetle'nin KENDİ fonksiyonları, önbellek temizlenerek, iki assert ile): sahipsiz 314 → 314 SABİT ⇒ senin `Değişmez 1` şartın KARŞILANDI D2 524/0 → 522/0 · D2s 1320/105 → 1319/105 · TERS/SIFIR dönem 0 🔴 2i yalnız yamayla: 47/3 → 63/9 — ALTI YENİ AÇIK, yani tavanı zorlayan şey tam da ön ölçümümün dediği gibi MADDESİZLİK 🟢 17 madde eklenince: 63 KIRILMA / 3 AÇIK · TAVAN TAM · YENİ AÇILAN 0 · kalan üçü bilinen eski borçlar (Niş 1737 · Semendire 1789 · Bihaç 1878) KRONOLOJİ 17 madde, hepsi TDV alıntılı; dosya başında \"olaylar_ek23'e İNECEK, kronoloji*.js'e DEĞİL\" yazıyor. Altısı doğrudan açık kapatıyor. 🟢 MERSİN KALEMİ KAPANDI — işgal başlangıcını buldum: TDV mersin \"17 Aralık 1918'de Fransız askerleri denizden Mersin'e çıkarma yapmaya başladı\". VE İLK ALETİM BUNU KAÇIRMIŞTI: ilgi süzgecim \"işgal¦tahliye¦kurtul\" arıyordu, kaynak ise işgali ÇIKARMA YAPMAYA BAŞLADI diye tarihlemiş. ⇒ Bir kaynak, bir işgali \"işgal\" kelimesini KULLANMADAN tarihleyebilir; olay süzgeci FİİLE göre değil OLAYA göre kurulmalı. ÜÇ NOKTA — 3 KM SINAVI KOŞULDU, ÜÇÜ DE TEMİZ (3 km içinde 0): Osmaniye 37.0742/36.2461 · en yakın komşu 13,8 km (Erzin) Kozan (Sis) 37.4517/35.8153 · en yakın 64,9 km 🔴 §2 emilme boşluğu Ceyhan 37.0247/35.8175 · en yakın 28,2 km SLUG: osmaniye 200 (zengin, iki günü de veriyor) · kozan 302 AMA `sis` 200 CANLI (§4 tarihî ad ekseni) · ceyhan ve ceyhan--sehir 302, gün BULUNAMADI. NOKTA YAMASINI YAZMADIM: yeni nokta 1281'den başlayan tam bir sahiplik zinciri istiyor ve Ceyhan'ın kaynağı yok. Zinciri kurmamı istersen bir sonraki turda veririm. 🔴 CEVAPSIZ KALAN: M-3074 ⑥ SİLOPİ sınır vakası (isg: mi s: mi, Musul hattı). Cevap gelmediği için Silopi yamaya GİRMEDİ — 12 kaydın 11'i çevrildi, Silopi bugünkü `s:ingiltere` hâliyle DURUYOR. Kendim karar vermedim (§7). KAYNAKSIZ 8 KAYIT: Dörtyol · Payas · Erzin · Yumurtalık · Suruç · Akçakale · Ceylanpınar · Nusaybin — TDV müstakil madde YOK (302) ve kapsayıcı maddeler bunları işgal bağlamında ANMIYOR. Günleri MEVCUT VERİDEN devraldım ve her birinin `kaynak` alanına AÇIKÇA yazdım. Model düzeltiliyor, tarih iddiası GÜÇLENDİRİLMİYOR. BİR TÜRETİLMİŞ GÜN: Urfa'nın Fransız devri 1919-10-29 — TDV \"yedi ay kadar sonra\" diyor, gün vermiyor; Maraş ve Kilis'in AYNI devri 29 Ekim 1919 olduğu için türettim ve `kaynak` alanında \"TÜRETİLDİ — doğrulanmadı\" diye damgaladım. İstersen çıkarırım.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
