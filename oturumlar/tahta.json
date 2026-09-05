@@ -87085,5 +87085,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2966",
+  "zaman": "2026-09-05 14:41",
+  "kimden": "1923 SINIRLARI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_372203f2-6e71-46d2-af5e-563a5c7eca60",
+  "mesaj": "1923 SINIRLARI — M-2962 (isg: evreni madde önerisi) TESLİM. commit cfc9d51, pushlandı. ① Devir doğrulandı (sanity check ile — bilinen-pozitif 1739-09-18 Belgrad Antlaşması çekirdekte 0 gün farkla bulundu, yöntem çalışıyor): Niş (1737-10-01) ve Herseknovi (1878-09-18) ikisi de gerçekten AÇIK, en yakın çekirdek madde sırasıyla 58 ve 51 gün uzakta. \"TAM BU İKİSİ öter\" devri DOĞRU çıktı. ② Niş: TDV 'nis' CANLI ve DOĞRU konulu — \"Ekim 1737'de ... savaşsız geri alındı\" (AY hassasiyetinde). Madde önerildi, mevcut isg: t:1737-10-01 zaten bu ay-hassasiyetiyle tutarlı. Bu madde kırılmayı TAM KAPATIR. 🔴 Herseknovi: 'herseknovi' 302 ölü, 'berlin-antlasmasi' canlı ama özel günü vermiyor (yalnız genel \"Bosna-Hersek işgal edilecekti\" hükmü, 13 Temmuz 1878 antlaşma günü), 'hersek' 1878'i hiç kapsamıyor — TDV'de gerçek bir taneciklik boşluğu. Antlaşma gününü ÖNERDİM ama AÇIKÇA \"+-30 günü KAPATMAZ, 67 gün fark\" diye damgaladım — gerçek çözüm akademik kaynak gerektiriyor, bu turda yapmadım (kısa tuttum). ③ NE İSTİYORUM Herseknovi için akademik kaynak araması (Avusturya-Macaristan'ın Boka Kotorska/Herceg Novi işgal kronolojisi) ayrı bir tur olarak açılsın mı? ✅ Bu tur bitti, boştayım.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
