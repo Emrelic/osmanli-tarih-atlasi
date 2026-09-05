@@ -413,6 +413,37 @@ seçmişti. ⇒ ***Görünürlük de sınıfı belirlemiyor — yalnız ÖLÇÜM
 belirliyor.*** Büyüklük bir **öncelik** ölçütü olabilir; bir **teşhis**
 ölçütü değildir.
 
+#### 🔴 VE ÇERÇEVENİN KENDİSİ EKSİKTİ — EN SIK VAKA İÇİNDE YOKTU
+*(5 Eylül 2026 · bir gecede ~10 kalem ölçüldükten sonra)*
+
+`4c`/`4d` kalemleri iki kovayla çerçeveleniyordu: **künye DAR** ·
+**veri ERKEN**. Gece boyunca en sık çıkan sonuç **üçüncüsüydü**, ve
+bugün **dördüncüsü** de çıktı:
+```
+③ İKİSİ DE DOĞRU, FARKLI ŞEY ÖLÇÜYOR   ad/unvan ömrü ≠ tasarruf sürekliliği
+   napoli (15 ay) · sardinya (439 yıl) · isvec (242 yıl)
+④ KÜNYE DOĞRU, VERİ KAYNAKSIZ 🆕
+   mentese · serbedariler — TDV YIL veriyor, künye `YYYY-01-01` ile
+   doğru kodluyor; kaynaksız olan VERİNİN günleri
+```
+🔴 ④'ün önerisi *"künye yuvarlak, veri gün biliyor ⇒ künyeyi güncelle"*
+idi ve uygulansaydı **iki DOĞRU künye kaynaksız günlere taşınacaktı.**
+Önleyen şart: ***"künyeyi veriye uydurmak, veriyi kaynak yerine
+koymaktır"*** — `§4`ün *"künyenin `f:`/`t:` günü bir KAYNAK DEĞİLDİR"*
+kuralının **ters yönü**: bu sefer kaynak sanılan şey **VERİYDİ.**
+
+⚠️ **Ve buradan "çoğu DOKUNMA çıkar" diye bir taban beklenti
+ÜRETİLMEZ** — aynı gece `toskana` · `litvanya` · `makdisu` · `sisam` ·
+`girit` gerçek kusur çıktı ve düzeltildi.
+```
+DOKUNMA / meşru    napoli · sardinya · isvec · mentese · serbedariler
+GERÇEK, yazıldı    toskana · litvanya · makdisu · sisam · girit …
+GERÇEK, BLOKE      zend · meysur · maratha · singhasari · artuklu
+```
+⇒ Doğru beklenti *"kusur yok"* değil ***"kusur VARSA da çoğu bugün
+YAZILAMAZ"*** (ardıl kimlik yok, ya da penceresi tutmuyor, ya da renk
+donuk). ⇒ ***İlk iş düzeltme değil SINIFLANDIRMA.***
+
 🟡 **AMA BU SATIR "ÖLÇEĞİ YOK SAY" DİYE OKUNMAMALI** — ertesi tur
 düzeltildi. Aynı oturum ölçeği bilinçli olarak yeniden kullandı, riski
 **öngörüsüne yazdı**, ve bu sefer **tuttu**: `1,4-2,3 yıl → gün kararı`

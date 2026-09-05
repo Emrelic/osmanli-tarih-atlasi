@@ -787,6 +787,30 @@ gelecek, veriden değil — künyeyi veriye uydurmak veriyi kaynak yerine
 koymaktır. (`serbedariler`in `f:`i zaten TDV'den tam günle düzeltilmiş
 ⇒ bir ucu kaynaklı bir ucu değil.)
 
+### 🟢 `mentese` + `serbedariler` — **KÜNYE DEĞİŞİKLİĞİ SIFIR** (ve bu iyi haber)
+
+Öneri *"künye yuvarlak, veri gün biliyor ⇒ künyeyi güncelle, 9 kayıt"*
+idi. TDV ikisinde de **YIL** veriyor:
+```
+menteseogullari  "827'de (1424) … beylik SONA ERDİ"        → YIL
+serbedariler     "788 (1386) yılında öldürülmesiyle"        → YIL
+⇒ künyeler ZATEN DOĞRU · kaynaksız olan VERİNİN günleri
+  (1425-06-01 · 1387-11-01 — TDV ikisini de anmıyor)
+```
+🔴 Uygulansaydı **iki doğru künye kaynaksız günlere taşınacaktı.**
+Önleyen şart: *"künyeyi veriye uydurmak, veriyi kaynak yerine
+koymaktır."* ⇒ `§4`ün kuralı **ters yönden** işledi.
+🟢 Ve veri sanılandan iyi: `serbedariler`in üç tarihinden **ikisi TDV
+ile birebir** (20 nokta → 1381 · Esterâbâd → 1386); `mentese`nin
+`1402-07-28` başlangıcı da doğrulandı.
+⚪ İki kaynaksız gün **SİLİNMEDİ** — *"bir gün kaynaksız diye silinmez,
+önce ARANIR"*; `bulunamadi` damgasıyla açık kaldı.
+
+⚪ **AÇIK KALEM (bir "DOKUNMA"nın altından çıktı):** `hafsi`nin 12
+kaydının 12'si **Fizan** ve Hafsîler 1574'te bitti — ama **Fizan 1574'te
+de Hafsî değildi** (Evlâd-i Muhammed). Asıl soru *"bu kimlik oraya HİÇ
+ait miydi"*, ve `4c`/`4d` o soruyu **hiç görmez.** Ölçülüyor.
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri
