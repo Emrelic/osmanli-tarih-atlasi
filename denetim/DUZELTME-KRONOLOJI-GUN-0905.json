@@ -1,0 +1,52 @@
+{
+ "oturum": "KRONOLOJI BATI AFRIKA 2",
+ "damga": "2026-09-05",
+ "not": "Bu dosya `_kronoloji_uygula.py`nin APPEND-ONLY olması nedeniyle ayrı tutuldu -- her kayit MEVCUT bir maddenin GUNUNU degistirme ONERISIDIR, yeni madde eklemek DEGIL. Uygulama karari kunye sahibinde (data/devletler.js kilitli, ben yazmadim).",
+ "on_duzeltme_notu": "🔴 ÖZ-DÜZELTME: koordinatöre ilk raporumda '6 kayıt benim daha hassas' dedim. Bu dosyayı hazırlarken HER BİRİNİ TEKRAR KONTROL ETTİM ve sayı YANLIŞTI — gerçekte yalnız 4 kayıt net biçimde 'benim maddem daha hassas' kriterini karşılıyor. Beşinci aday (hollanda-dogu-hint) kendi kaynak alıntımı tekrar okuyunca GÜN iddiamın (30 Mayıs) doğrudan kaynaklanmadığını gördüm -- yalnız 'Mayıs 1619' (AY) kaynaklıydı, günü ben eklemişim. Bunu AŞAĞIDA ay seviyesine indirdim, gün iddiasını GERİ ÇEKTİM. Altıncı aday (sarawak-brooke) İKİ TARAFIN DA gün hassasiyetli ama ÇELİŞEN kaynağa dayandığını gördüm -- bu bir 'hassasiyet düzeltmesi' değil, 'çelişen tarih' sorunu; §4 gereği iki dayanaklı iddia arasında ben seçim yapmıyorum, ayrı bölümde işaretledim.",
+ "duzeltmeler": [
+  {
+   "id": "malva-sultanligi",
+   "mevcut_t": "1436-01-01",
+   "onerilen_t": "1436-05-16",
+   "mevcut_tur": "hukumdar",
+   "mevcut_b": "I. Mahmud ile Halacî kolu tahta geçti, Mândû başkent olarak imar edildi",
+   "kaynak": "TDV malva — birebir alıntı: '16 Mayıs 1436'da Mahmûd Şah unvanıyla kendini sultan ilân etti'",
+   "nicin_daha_hassas": "Mevcut kayıt YIL hassasiyetinde (YYYY-01-01 kalıbı); TDV'nin kendi maddesi GÜN veriyor. Aynı olay (Mahmûd Halacî'nin tahta çıkışı)."
+  },
+  {
+   "id": "campa",
+   "mevcut_t": "1471-03-01",
+   "onerilen_t": "1471-03-22",
+   "mevcut_tur": "toprak-kayip",
+   "mevcut_b": "Lê hükümdarı Thánh Tông başkent Vijaya'yı aldı, krallık güneye sıkıştı",
+   "kaynak": "standart akademik kaynak (çevrimiçi ikincil kaynak, 'Vijaya (Champa)') — birebir: 'On March 22, 1471, Vijaya fell to the Vietnamese.'",
+   "nicin_daha_hassas": "Mevcut kayıt ayın 1'ine kodlanmış (AY biliniyor gibi görünüyor, GÜN yer tutucu); akademik kaynak GÜN veriyor. Aynı olay (Vijaya'nın düşüşü)."
+  },
+  {
+   "id": "hollanda-dogu-hint",
+   "mevcut_t": "1619-01-01",
+   "onerilen_t": "1619-05-01",
+   "mevcut_tur": "kurulus",
+   "mevcut_b": "Batavia (Cakarta) VOC'nin Asya merkezi yapıldı",
+   "kaynak": "standart akademik kaynak — birebir: 'He arrived with 17 ships and 1,000 soldiers in May 1619... building Batavia on the city's ruins.' Kaynak yalnız AY (Mayıs 1619) veriyor.",
+   "nicin_daha_hassas": "🔴 ÖZ-DÜZELTME: kendi patch'imde bu olaya '1619-05-30' (GÜN) yazmıştım ama o günü DOĞRUDAN KAYNAKLAYAMIYORUM — yalnız 'Mayıs 1619' buluyorum. Gün iddiamı GERİ ÇEKİYORUM, yalnız AY seviyesinde düzeltme öneriyorum (YIL → AY, GÜN DEĞİL). Mevcut kayıt YIL hassasiyetinde, önerim AY hassasiyetinde."
+  },
+  {
+   "id": "ingiliz-malaya",
+   "mevcut_t": "1819-01-01",
+   "onerilen_t": "1819-02-06",
+   "mevcut_tur": "kurulus",
+   "mevcut_b": "Stamford Raffles Singapur'da İngiliz ticaret üssü kurdu",
+   "kaynak": "standart akademik kaynak ('Founding years of modern Singapore') — birebir: 'On 6 February 1819, Thomas Stamford Raffles, representing the EIC, signed a treaty with Sultan Hussein Shah of Johor for the rights to establish a trading post on the island of Singapore.'",
+   "nicin_daha_hassas": "Mevcut kayıt YIL hassasiyetinde; akademik kaynak GÜN veriyor. Aynı olay (Raffles'ın Singapur antlaşması)."
+  }
+ ],
+ "cozulmemis_celiskiler": [
+  {
+   "id": "sarawak-brooke",
+   "mevcut_t": "1841-09-24",
+   "benim_t": "1841-08-18",
+   "not": "🔴 BU BİR 'DÜZELTME' DEĞİL — İKİ TARAF DA GÜN HASSASİYETİNDE ama FARKLI GÜN veriyor (Brunei Sultanı'nın Brooke'a devri: 24 Eylül mü, 18 Ağustos mu?). Kaynağım 'James Brooke was granted the title of raja of Sarawak in 1841... his reign officially lasted from 18 August 1842' diyor — dikkat, BENİM KENDİ ARAŞTIRMAMDA BİLE 18 Ağustos aslında 1841 DEĞİL 1842! Kendi patch'imde yıl hatası yapmış olabilirim. İKİ DAYANAKLI iddia arasında seçim yapmak `§4`e göre dayanak ÜRETMEZ — bu bir DÜZELTME önerisi değil, İKİNCİ BİR ARAŞTIRMA gerektiren AÇIK SORU olarak bırakıyorum."
+  }
+ ]
+}
