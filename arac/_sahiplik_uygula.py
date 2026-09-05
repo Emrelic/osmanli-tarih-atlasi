@@ -88,7 +88,8 @@ for (const k of Object.keys(global.window)) {
     if (r && r.ad !== undefined &&
         (r.d || r.s || r.v || r.isg || r.m !== undefined ||
          r.kaynak !== undefined || r.bos !== undefined ||
-         r.neden !== undefined || r.not !== undefined)) {
+         r.neden !== undefined || r.not !== undefined ||
+         r.kur !== undefined)) {
       cik.push({ __dosya: kaynak[k] || '?', __alan: k, r: r });
     }
   }
@@ -251,7 +252,8 @@ for x in yama:
 #   hangisinin doğru olduğu, dosya adının alfabetik sırasıyla da
 #   sessizce geçmekle de belirlenemez (1.MURAT'ın sevki, ölçülmedi
 #   çünkü bugünkü yamalarda bu üç alan hiç çakışmıyor — aşağıya bak).
-CATISABILIR = ("d", "s", "v", "isg", "m", "kaynak", "bos", "neden", "not")
+CATISABILIR = ("d", "s", "v", "isg", "m", "kaynak", "bos", "neden", "not",
+                "kur")
 
 cakisan = {}
 cakisan_alan = {}
@@ -386,10 +388,23 @@ ALAN_RX = {a: re.compile(r'(\b%s:\s*)\[' % a) for a in ("d", "s", "v", "isg")}
 #                                "biri araştırdı ve şu sonuca vardı"
 #                                arasındaki farkı SİLER. `kaynak`ın aynı
 #                                korumasını `SKALER_KORUNAN`da paylaşıyor.
-SKALER_ALANLAR = ("m", "kaynak", "bos", "neden", "not")
+# 🔴 5 Eylul 2026 — `kur` EKLENDI, ve kusur `bos:`/`neden:`in birebir
+#   tekrarıydı, iki alan otede. Olculdu (KURE GORUNUM · M-3012):
+#   `kur:` tasıyan 10 kayıt var ve alan bu dosyada HIC gecmiyordu ⇒
+#   IKI BAGIMSIZ yoldan kayboluyordu:
+#     yalnız-`kur` yama   -> node suzgecinde elenir, Python'a HIC ULASMAZ
+#     `kur`+`kaynak` yama -> suzgeci GECER, ama burada olmadıgı icin alan
+#                            HIC OKUNMAZ ve `atlanan`a KAYIT DUSMEZ.
+#   Ikincisi SESSIZDIR: Ndjamena yaması `kaynak:` tasıdıgı icin suzgeci
+#   geciyor, sonra `kur:` iz bırakmadan yok oluyordu. Bir kusuru iki ayrı
+#   yerden duzeltmek gerekiyorsa, birini duzeltmek otekini GIZLER.
+SKALER_ALANLAR = ("m", "kaynak", "bos", "neden", "not", "kur")
 # ÜZERİNE YAZILMAYAN skalerler — yalnız BOŞSA doldurulur, DOLUYSA atlanır.
 # `m` bilerek DIŞARIDA: onun sözleşmesi tersi (bkz. yukarı).
-SKALER_KORUNAN = ("kaynak", "bos", "neden", "not")
+# `kur` KORUNAN: bir kurulus tarihi arastırma urunudur; sessizce ezmek
+# `kaynak`ı ezmekle aynı sınıf. Iki yama ayrı gun soyluyorsa CATISABILIR
+# onu CAKISMA diye bildirir — dogru davranıs budur, sessiz secim degil.
+SKALER_KORUNAN = ("kaynak", "bos", "neden", "not", "kur")
 # 🔴 İKİ LİSTE AYRIŞMASIN — `CATISABILIR` yukarıda elle yazılı (o blok bu
 #   satırdan ÖNCE koşuyor). Bir bilgi iki yerde durunca biri güncellenip
 #   öteki bayatlar; bu `assert` o bayatlamayı SESSİZ olmaktan çıkarır.
