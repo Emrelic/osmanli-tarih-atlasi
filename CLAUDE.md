@@ -3440,6 +3440,32 @@ eski defter SİLİNMEZ, `.ONCEKI.json` olarak durur
   ⇒ Sınav yine tek soru: ***bu bilgiyi bir `if` ile sorabiliyor muyum?***
   Ve yeni bir soru daha: ***onu yazan araç, o alanı yazabiliyor mu?***
 
+  > 🟢🟢 **BU VAKANIN DURUMU DEĞİŞTİ — BORÇ ÖDENDİ (2 Eylül 2026), ve bu
+  > satır 5 Eylül'de damgalandı çünkü BAYATLIĞI İKİ OTURUMA İŞ ÇIKARDI.**
+  > ```
+  > _sahiplik_uygula.py:389  SKALER_ALANLAR = ("m","kaynak","bos","neden","not")
+  > _sahiplik_uygula.py:392  SKALER_KORUNAN = ("kaynak","bos","neden","not")
+  > :254 CATISABILIR de üçünü taşıyor · :397 `assert` ikisini birbirine bağlıyor
+  > ```
+  > Araç artık `bos:`/`neden:`/`not:` **indiriyor** — ve `kaynak`la aynı
+  > sözleşmeyle: **üzerine YAZMIYOR**, yalnız boşsa dolduruyor. Bir
+  > araştırmacı beyanını sessizce ezmek, *"kimse burayı araştırmadı"* ile
+  > *"biri araştırdı ve şu sonuca vardı"* arasındaki farkı siler.
+  >
+  > 🔴 **VE BAYATLIĞIN BEDELİ ÖLÇÜLDÜ — koordinatörün kendi hatası:**
+  > 5 Eylül gecesi bu paragraf okundu ve **iki ayrı sevke** *"bu alanlar
+  > İNMEZ, `elle_konacak` listesi tut"* diye yazıldı. İki oturum da o
+  > listeyi tuttu; **gereksizdi.** Borcu ödeyen sevk de aynı koordinatörden
+  > çıkmıştı (`arac/_sahiplik_uygula.py:245` — *"1.MURAT sevki"*).
+  > 📌 `§11`in *"kendi ödediğin borcu, kaydını okumadan yeniden iş
+  > sanabilirsin"* dersinin **dördüncü** vakası — ve bu sefer bayatlayan
+  > şey bir tablo ya da bir log değil, **dersin kendi metni.**
+  >
+  > ⚠️ **DERS SİLİNMEDİ, VAKA DAMGALANDI** (`§3.5.1`in Yukarı Macaristan
+  > emsali): *"bir vakayı silmek dersi de siler; damgalamak dersi korur."*
+  > Yukarıdaki iki soru — *bir `if` ile sorabiliyor muyum* ve *onu yazan
+  > araç o alanı yazabiliyor mu* — **hâlâ doğru ve hâlâ sorulmalı.**
+
 - 🔴 **BİR DÖNGÜDE BAŞARI VARLIKLA, HATA YOKLUKLA BİLDİRİLİRSE HATA
   GÖRÜNMEZ — VE ÇIKIŞ KODU SON YİNELEMENİNKİDİR.** *(2 Eylül 2026)*
 
