@@ -1172,6 +1172,44 @@ daha ekle"* değil, **listeyi tekilleştirmek** — Node süzgeci
 `§4②` bir sayıyı **değiştirdi.**
 ⇒ **%5,0 ALT SINIR** (sayım yalnız `id = slug` vakalarını görür).
 
+### 🟢 HARPUT `1440` → **`1436`** · ÇEMİŞGEZEK yazılıyor · PALU **ölçülmüş sınır**
+
+🔴 **VE ÖNCE BİR ALET KUSURU:** `WebFetch` üç akademik PDF için de
+*"metin çıkarılamıyor"* dedi; **üçünün de metni vardı** (`pypdf`, 10 sn).
+O boş sonuca dayanan bir kayıt yanlıştı (*"Toksoy 1429'u anmıyor"* —
+gövdede 10× "Harput", 2× "1429"). ⇒ `§4`e **⑦. tuzak** olarak girdi:
+*"metin çıkarılamadı" ≠ belgede metin yok.*
+
+```
+🟢 1429 AKKOYUNLU — ÜÇ dayanaklı (Woods 1993: "Harput ise Ali Bey'e
+   bırakıldı (1429)") ⇒ DEĞİŞMİYOR
+🔴 1440 ÇÜRÜDÜ — Toksoy/Woods devri BARSBAY esir pazarlığıyla
+   anlatıyor (~1436); çapalar 1435 · ~1436 · 1437 yazı · 1438 Barsbay
+   ÖLDÜ ⇒ 1440 Çakmak evliliğiyle AYNI OLAY OLAMAZ
+```
+**KARAR: Ⓑ — `1436-01-01`.** Gerekçe: iki kaynak *aynı soruya farklı
+cevap* vermiyor; **TDV soruya hiç cevap vermiyor** (tarih değil SEBEP
+veriyor) ⇒ `§4`ün *"çelişirse TDV esastır"* kuralı **tetiklenmiyor**, ve
+`1440` TDV'nin değil **bizim** çıkarımımızdı.
+🔴 Ⓒ (seçme) elendi: bir dönem sınırı boş bırakılamaz ⇒ Ⓒ pratikte
+`1440`ı korumak, yani üç seçeneğin **en zayıfını** seçmek olurdu —
+*"tarafsız görünen seçenek çoğu zaman tarafsız değildir"*, bu gecenin
+üçüncü tekrarı.
+⚠️ **Çelişki tarihte değil MEKANİZMADA** ve `not:`ta duracak; iki ayrı
+devir hipotezi (~1436 ve 1440) **kaynaksız** diye yazılacak.
+
+⚪ **`Palu` 1353-1465 KAPATILAMAZ — ve bu bir eksiklik değil:**
+M.A. Ünal (XI. Türk Tarih Kongresi): *"bunun hangi tarihte
+gerçekleştiğini belirleme imkânına sahip değiliz."*
+📌 `bulunamadi`nın **en güçlü biçimi**: alanın uzmanı, birincil
+şecereye ve Şerefhan'a bakarak *"tarihlenemiyor"* diyor. ⇒ Bir sonraki
+oturum bunu **açmasın.**
+
+⚪ İki yeni kimlik yüzeye çıktı, ikisi de künye+renk bekliyor:
+`sutayogullari` (1343-1353) · `cemisgezek-beyligi` (**Yelman** — Toksoy/
+Esterâbâdî *"Cemişkezek emiri Yelman"* + TDV `tunceli` *"Yelmâniye Camii
+1396-1404"*: **kişi ve eseri, iki bağımsız kaynaktan**).
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri

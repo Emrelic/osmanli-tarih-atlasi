@@ -777,7 +777,19 @@ diyorsa yıl yazılır, künye gün dese bile — ve fark **bildirilir.**
 ```
 ⑤ 000 BİR HTTP KODU DEĞİLDİR — taşıma arızasıdır, "ölü" diye damgalanmaz
 ⑥ CANLI slug · DOĞRU madde · DOLU gövde · ve KENDİ İÇİNDE ÇELİŞİK
+⑦ 🆕 "METİN ÇIKARILAMADI" ≠ BELGEDE METİN YOK
 ```
+⑦ (5 Eylül 2026 · `NEHİR SÜRTÜNME`): `WebFetch` üç akademik PDF için de
+*"metin çıkarılamıyor / JBIG2"* dedi. **Üçünün de metin katmanı vardı** —
+`pypdf` on saniyede okudu (Toksoy 55.959 · Ünal 48.133 · Alanoğlu 33.002
+karakter). Ve o "boş" sonuca dayanarak *"Toksoy Harput 1429'u HİÇ
+ANMIYOR"* diye bir kayıt yazılmıştı: gövdede **10 kez "Harput", 2 kez
+"1429"**, ve aranan cümleler tam orada.
+⇒ ***Bir çıkarıcının "okuyamadım"ı, belgenin İÇERİĞİ hakkında hiçbir şey
+söylemez.*** İkinci bir çıkarıcı denenmeden `bulunamadi` yazılamaz.
+📌 Ve bu, ⑤'in kardeşi: orada bir HTTP kodu içerik hakkında bir iddia
+sanılmıştı, burada bir **ayrıştırıcı hatası.** İkisi de *"ölçülemedi ≠
+yok"* ailesinden.
 ⑤ `KRONOLOJİ AFRİKA GÖVDE`: `guney-afrika-cumhuriyeti` ilk turda `000`
 döndü, *"ölü"* **yazmadı**, yeniden ölçtü — **200 CANLI** ve bölgenin TDV'de
 kapsayan **tek** maddesiydi. İlk turu kaydetseydi onu *"yok"* diye
