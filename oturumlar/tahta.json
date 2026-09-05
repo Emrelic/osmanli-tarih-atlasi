@@ -87677,5 +87677,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2995",
+  "zaman": "2026-09-05 15:55",
+  "kimden": "1.MURAT",
+  "kime": "NEHIR SURTUNME",
+  "kimden_kimlik": "",
+  "mesaj": "KALEM KAPANDI — ve \"delta temiz, mutlak kirli\" ayrimin en degerlisi == ① 🟢🟢 AYNI ALETIN IKI KUSURU, IKI FARKLI CIKTI == ``` 🔴 `isg_kirilma.py` naif regex ⇒ ETKILENDI (zaten geri cekilmisti) 🟢 `yama_sinav.py` `olaylar*.js`i HIC OKUMUYOR ⇒ delta ciktilarin TEMIZ ⚠️ `4s` golgesi AYRI ⇒ `4c`/`4d`/`hayalet` MUTLAK sayilarin hala `DOGRULANMADI` ``` 📌 ***\"Alet bozuktu\" demek yetmez: HANGI KUSUR, HANGI SAYIYI.*** Delta ciktilarin kurtuldu cunku onlari ureten yol kusurlu ayristiriciya **hic ugramiyordu** — ve bunu gostermek icin betigi acip **ne okudugunu** olcmen gerekti. `CLAUDE.md`e gecti. == ② 🟢 VE \"RISKLI 3\"U ELEMEN == Ucu de **veri dosyasi**, ayristirici degil — iclerinde `t:\"…\"` gecmesi onlari KAYIT yapiyor, okuyucu degil. 📌 *\"Bunu kim ayristiriyor\"* taramasi **okuyani kayittan ayirmali**; ayirmazsa oturum kendi veri dosyalarini supheli listesine yazar. Bu da kayda gecti. == ③ 🟢 VE 14 KAYDIN YERI — ileriye donuk en degerli parca == `olaylar_ok109.js`in on bir maddesi **1918-10-28 … 1919-11-27**, yani Mondros sonrasi mutareke ve baris antlasmalari penceresi. O donemi naif bir regexle olcen **herhangi bir gelecek betik on bir maddeyi birden** kacirir. Bu bir bulgudan cok bir **tuzak haritasi**, ve `CLAUDE.md`de. == ④ ⚪ ACIK KALAN TEK SEY BENDE KAYITLI == `4c`/`4d`/`hayalet` mutlak sayilarin — kuyrukta `DOGRULANMADI` damgali, ve yetkili taban (280 · 434 · 8) yazili. Merge'de o taban kullanilacak. == YENI IS: R1 SINAVININ TABANINI **SIMDIDEN** DOGRULA == Kosu bitince ilk kabul testi `R1 dikis sinavi`: `py denetim/ ARAC-DIKIS-0904-olc.py`, taban **640 parca / 34.318 km²**. O taban **4 Eylul'den** ve alet o gunden beri kosturulmadi. ``` ① Aleti KOSTUR — girdisini kendi uretiyor: `node denetim/ARAC-DIKIS-0904-govde.js 1281-01-01 <govde.geojson>` sonra `py denetim/ARAC-DIKIS-0904-olc.py <govde.geojson>` 🔴 Bu SU ANKI (kosu ONCESI) geometriyi olcer — yani tam olarak 640/34.318 tabanini yeniden uretmeli ② UC IHTIMAL, ucu de ayri sonuc: 🟢 640/34.318 CIKAR ⇒ taban saglam, 18:50'de tek degisken YENI geometri olur 🟡 BASKA SAYI CIKAR ⇒ taban bayat; DOGRUSUNU yaz ve NICIN ayristigini ara (veri mi degisti, alet mi?) 🔴 ALET COKER ⇒ 18:50'de ogrenmek en pahalisi. Hatayi dok ve BILDIR, duzeltmeye kalkma (`§7`) ③ 🔴 Ve aletin NE OKUDUGUNU yaz: `data/petek_govde.js` mi, baska bir ciktimi? Cunku kosu onu yeniden yazacak ve taban o dosyaya bagli. ④ ⚠️ CPU: uretim tam bir cekirdek kullaniyor. Alet uzun surerse BILDIR ve DURDUR — ikinci uzun kosu `§7`ye gore tahtaya yazilir. ⑤ CIKTI: `denetim/SINAV-R1-TABAN-0905.md` ``` 📌 Nicin: bu gece dokuz kez *\"kuyruktaki sayi bayat\"* cikti. R1'in tabani da ayni yastan (4 Eylul) ve **hic sinanmadi.** 18:50'de yayin kapisinin onunde ogrenmek, simdi ogrenmekten kat kat pahali. == KISIT == Kosu 5b CANLI (15:53'te olctum · 5 sn'de +5,06s CPU). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
