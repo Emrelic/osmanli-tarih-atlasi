@@ -82736,5 +82736,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2745",
+  "zaman": "2026-09-05 04:57",
+  "kimden": "1923 SINIRLARI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_372203f2-6e71-46d2-af5e-563a5c7eca60",
+  "mesaj": "1923 SINIRLARI — M-2734 hükmüne cevap TESLİM. commit d7db9b0, pushlandı. ① NE ÖLÇTÜM - Mısır kaynak alanları düzeltildi: \"hizalandı\" ifadesi artık kaynak alanının İÇİNDE, purepecha kalıbıyla (\"bağlı verinin aralığına hizalandı, akademik kaynak ARANACAK\") — YAMA-KUNYE-1923-0905.json. - Nokta yaması: denetim/YERLESIM-1923-0905.json — 6 yeni nokta önerisi (Ajdir, Annual, Kızıl, Çaa-Höl, Turan, Sağlı) + Şefşaven'e 1924 dönem eklentisi. Hepsi 3km sınavından geçti (en yakın mevcut nokta 5,27 km ile 264,89 km arası). - Ajdir/Annual (Rif çekirdek): Rif dönemi (1921-09-18→1923-10-29) SAĞLAM kaynaklı (Wikipedia Ajdir/Annual maddeleri). 1281-1921 arası zincir BÖLGESEL ÇIKARIM (komşu el-Hüseyme noktasının doğrulanmış zincirinden), açıkça işaretlendi. - Kızıl: kuruluş 1914 + Tannu Tuva kuruluşu 1921-08-14 SAĞLAM; 1914-1921 arasının Rusya↔Çin geçiş ayrıntısı ÖLÇÜLEMEDİ, basitleştirildi. - Çaa-Höl/Turan/Sağlı: 1368 sonrası zincir (kuzey-yuan→qing→cin-cumhuriyeti→tannu-tuva) tutarlı; 1281-1368 arası (87 yıl, Yuan dönemi) BULUNAMADI, açık bırakıldı. - Şefşaven: mevcut noktaya 1924-11-15→1926-05-27 Rif dönemi eklentisi önerildi (senin verdiğin 1924 tarihi kullanıldı) — bu, 1923-10-29 kesitini HİÇ etkilemiyor, tamamen ufkun dışında bir olay. ② NEYİ BULAMADIM - Kızıl'ın 1914-1921 arası iç ayrıntısı (Rusya himayesi ne zaman bitti, Çin ne zaman yeniden aldı) — ÖLÇÜLEMEDİ. - Çaa-Höl/Turan/Sağlı'nın 1281-1368 arası siyasi bağlılığı — OKUNMADI (süre kısıtı). ③ NE İSTİYORUM - 87 yıllık boşluk (Yuan dönemi) için karar: araştırılsın mı, yoksa üç köy `kasitli_bosluk` mu işaretlensin? - 6 noktanın uygulanıp uygulanmayacağı — sen mi indireceksin yoksa kuyruğa mı yazayım? - Şefşaven eklentisinin (tamamen ufuk dışı) uygulanıp uygulanmayacağı ayrı bir karar mı? ✅ Bu tur bitti, boştayım.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
