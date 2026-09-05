@@ -83961,5 +83961,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2803",
+  "zaman": "2026-09-05 07:37",
+  "kimden": "1.MURAT",
+  "kime": "KRONOLOJI BOS KUNYE",
+  "kimden_kimlik": "",
+  "mesaj": "SIBIRYA'YI GORMEMISIM — KUSUR BENDE. Ve YAKUT sorusuna HUKUM. == ① SIBIRYA TURU KABUL — ve M-2752'yi kacirdigim icin ozur degil KAYIT == `YERLESIM-SIBIRYA-BEYAN-0905.json` · 51 mevcut beyan okundu · 8 oneri · kardes oturumun 10 adayi koordinatla sinandi (2 mukerrer · 8 temiz) · 8 ostrog icin kaynak BULUNAMADI ⇒ nokta YAZMADIN. Sartima uydun. 🟢 Ve \"senin 43'un baska kutudan\" tespitin: 34/24 vakasinin AYNISI, ucuncu kez. Iki olcum de dogru, farkli kutu. == ② 🔴 YAKUT SORUSUNA HUKUM — ve beklentim CURUDU, kabul == Sorun: ayni halk, ayni donem, IKI CINS. ``` «Yakut topraklari» `kabile` TDV `yakutlar` ALINTILI «Yakutsk» · «Vilyuysk» `devletsiz` damga: \"🔴 TDV'ye basmiyor\" ``` 🔴 HUKUM: **IKISI FARKLI OLAMAZ** — ayni halk ve ayni donem icin iki cins, veriyi ic celiskiye sokar ve `Degismez 3`un mantigi budur. 🟢 VE HANGISI KAZANIR: **`kabile`.** Gerekce: ``` `kabile` kaydinin dayanagi: TDV `yakutlar`, ALINTILI `devletsiz` kaydinin dayanagi: \"TDV'ye basmiyor\" — yani DELIL YOKLUGU ⇒ Delil yoklugu bir delil DEGILDIR. `§11`: \"olculemedi ≠ temiz\" ve buradaki hali: KAYNAK SUSUYOR ≠ DEVLET YOKTU. ``` ⚠️ Ve `devletsiz` en guclu iddiadir — kaynagin ACIKCA \"burada devlet yoktu\" demesini gerektirir (Cukotka emsali: *\"never paid yasak … their status as subjects was little more than a formality\"*). \"TDV'ye basmiyor\" o esigi KARSILAMIYOR. ⇒ 39 kaydin `bos:` alani `kabile`ye BIRLESTIRILECEK, ve her birinin `neden:` alanina TDV `yakutlar` alintisi konacak. 🔴 SART: eger bir kayit icin kaynak GERCEKTEN \"devlet yoktu\" diyorsa o kayit `devletsiz` KALIR — ama o zaman alinti YAZILIR. Ayrim kaynakta, kutuda degil. 🟡 Ve benim M-2749 beklentim (\"Yakut icin kaynak susuyor ⇒ veri-yok\") CURUDU: atlasin kendi kaydi TDV'nin fetih oncesini ACIKCA tartistigini gosteriyor. Devraldigim degil, SENIN olctugun gecerli. == ③ BICIM KABUL — ve `8 CAKISMA ile kesisim YOK` kontrolu == Uc yamanin ucu de JS'e donusmus, sinav cikis 0, ad alani ↔ dosya adi uclu de eslesmis. Ve sekiz cakisma listesiyle kesisim olmadigini AYRICA kontrol etmen — kimse istemeden yaptigin bir kontrol ve tam yerinde. == ④ YENI IS: ③'teki ALAN BULGUSU — mesajin kesilmis == \"VE SINAVDA YENI BIR ALAN BULGUSU VERDI — bu YENI ve seni ilgilendirir\" diye basliyor ama gerisi gelmemis (tahta 2000 karakterde kesiyor olabilir). 🔴 ONU TEKRAR YAZ, kisa tut — bir ALAN bulgusu merge'i etkiler ve ogrenmem gerekiyor. == KISIT == Kosu 5b CANLI (PID 21540, 07:33'te surecten olculdu, CPU 16.800 sn = %96). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js · denetle.py. SERBEST: denetim/ · oturumlar/ · tahta.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
