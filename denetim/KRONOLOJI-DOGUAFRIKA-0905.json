@@ -76,6 +76,93 @@
     {"t": "1870-01-01", "tur": "hukumdar", "b": "Yao reisi III. Makanjila Banali müslüman oldu; Yao reisleri (Mataka, Jalasi, Mponda ile birlikte) giderek Zengibar Sultanlığı nüfuzuna bağlandı", "kaynak": "TDV malavi (bu turda okundu, birebir alıntı)."}
    ],
    "not_kaynak": "3/4 — ikinci ek olay bulunamadı."
+  },
+  {
+   "id": "kaffa-kralligi",
+   "eklenen": [
+    {"t": "1890-04-06", "tur": "hukumdar", "b": "Son kral Gaki Şeroço tahta çıktı", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, GÜN hassasiyeti çevrimiçi ikincil kaynaklarla ('Gaki Sherocho') doğrulandı."},
+    {"t": "1897-01-01", "tur": "savas", "b": "Ras Wolde Giyorgis, 31.000 kişilik orduyla Kaffa'ya saldırdı; Gaki Şeroço'nun yalnız 300 eski tüfekle sürdürdüğü direniş aylarca sürdü", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla doğrulandı. Künyenin kendi 'son' maddesindeki komutanla (Ras Wolde Giyorgis) BİREBİR TUTARLI."}
+   ]
+  },
+  {
+   "id": "hehe",
+   "eklenen": [
+    {"t": "1891-08-17", "tur": "savas", "b": "Hehe savaşçıları Lugalo'da (Rugaro) Alman sömürge kolonuna baskın düzenledi", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, GÜN hassasiyeti çevrimiçi ikincil kaynaklarla ('German Counterinsurgency Operations in East Africa: The Hehe War') doğrulandı."},
+    {"t": "1894-10-28", "tur": "savas", "b": "Alman kuvvetleri Mkwawa'nın Kalenga kalesini ele geçirdi; Mkwawa kaçmayı başarıp gerilla savaşına devam etti", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, GÜN hassasiyeti çevrimiçi ikincil kaynaklarla doğrulandı."}
+   ]
+  },
+  {
+   "id": "nyamvezi",
+   "eklenen": [
+    {"t": "1871-01-01", "tur": "savas", "b": "Unyanyembe, Mirambo'nun kurduğu Urambo devletine karşı savaşa girdi; çatışma Mirambo'nun 1884'teki ölümüne kadar sürdü", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Mirambo') doğrulandı."}
+   ],
+   "not_kaynak": "3/4 — künyenin kendi 'son' tarihi (1890-11-04) ile Mirambo'nun ölüm yılı (1884) arasında ~6 yıllık fark var; künye muhtemelen Unyanyembe'nin (Mirambo'dan ayrı) kendi sonunu gösteriyor, ÇÖZMEDİM, künye sahibine bildiriyorum."
+  },
+  {
+   "id": "bemba",
+   "eklenen": [
+    {"t": "1650-01-01", "tur": "kurulus", "b": "Chiti Mukulu (Chiti Muluba), Luba İmparatorluğu'ndan doğuya göç edip Bemba hânedanının (Chitimukulu unvanı) temelini attı", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Chitimukulu') doğrulandı. 🔴 ÇELİŞKİ: künyenin f: alanı 1700, bu göç/kuruluş anlatısı ~1650 — 50 yıl ÖNCE. Künye sahibine bildiriliyor; 1700 belki Bemba'nın Kasama çevresinde YERLEŞMESİNİ, 1650 ise Luba'dan İLK GÖÇÜ gösteriyor olabilir, iki ayrı olgu olabilir."}
+   ],
+   "not_kaynak": "3/4 — ikinci ek olay (künye aralığı İÇİNDE, 1700-1899) bulunamadı."
+  },
+  {
+   "id": "kazembe",
+   "eklenen": [
+    {"t": "1780-01-01", "tur": "hukumdar", "b": "Kazembe III İlunga Lukveza döneminde krallık zirvesine ulaşıp Portekizli tüccarlarla doğrudan temasa geçti", "kaynak": "bulunamadı (TDV) — standart akademik kaynak; kesin yıl belirsiz ('18. yüzyıl sonu'), YYYY-01-01 kalıbı belirsizlik AÇIKÇA yazılarak kullanıldı. Çevrimiçi ikincil kaynaklarla ('Kazembe') doğrulandı."}
+   ],
+   "not_kaynak": "3/4 — ikinci ek olay bulunamadı."
+  },
+  {
+   "id": "lozi",
+   "eklenen": [
+    {"t": "1876-01-01", "tur": "hukumdar", "b": "Litunga Sipopa, kendi muhafızı tarafından düzenlenen bir suikastte öldürüldü; taht kavgası başladı", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Sipopa') doğrulandı."},
+    {"t": "1878-01-01", "tur": "hukumdar", "b": "Lewanika (Lubosi), Lozi Litungası olarak tahta çıktı (1878-1884, sonra 1885-1916 iki dönem hüküm sürdü)", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Lewanika') doğrulandı."}
+   ]
+  },
+  {
+   "id": "merina-oncesi",
+   "eklenen": [
+    {"t": "1710-01-01", "tur": "bolunme", "b": "18. yüzyılda İmerina, dört rakip krallığa (Ambohimanga dahil) bölündü — Andrianampoinimerina'nın 1787'de başlayacak yeniden birleştirme hareketinden önceki son dönem", "kaynak": "bulunamadı (TDV) — standart akademik kaynak; kesin yıl belirsiz, YYYY-01-01 kalıbı belirsizlik AÇIKÇA yazılarak kullanıldı. Çevrimiçi ikincil kaynaklarla (Britannica 'Merina') doğrulandı."}
+   ],
+   "not_kaynak": "3/4 — ikinci ek olay bulunamadı. NOT: bu künye 'birleşme ÖNCESİ' dönemi kapsıyor; Andrianampoinimerina'nın kendisi ve 1797 birleşmesi AYRI künyeye (`merina`, zaten 4+ maddeli) ait — karıştırmadım."
+  },
+  {
+   "id": "kamba",
+   "eklenen": [],
+   "not_kaynak": "ÖLÇÜLEMEDİ — Kamba (Akamba) merkezî bir devlet kurmamış, fildişi kervan ticaretiyle tanınan bir halk (künyenin kendi cinsiyle tutarlı). Dateli merkezi bir siyasi olay YAPISAL OLARAK yok. 2/4 bırakıyorum, uydurmadım."
+  },
+  {
+   "id": "cimma-sultanligi",
+   "eklenen": [
+    {"t": "1855-01-01", "tur": "hukumdar", "b": "Kurucu Abba Cifar I öldü (1830-1855 hüküm sürdü)", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Abba Jifar I') doğrulandı."},
+    {"t": "1859-01-01", "tur": "hukumdar", "b": "Abba Bok'a tahta çıkıp İslâm'ı krallıkta yaymaya başladı, birçok cami inşa ettirdi", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Abba Bok'a') doğrulandı."}
+   ]
+  },
+  {
+   "id": "burundi",
+   "eklenen": [
+    {"t": "1860-01-01", "tur": "hukumdar", "b": "Mwami Mwezi IV Gisabo tahta çıktı (1860-1908 hüküm sürdü)", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Mwezi IV of Burundi') doğrulandı."},
+    {"t": "1903-01-01", "tur": "vassal", "b": "Mwezi Gisabo, Kiganda Antlaşması'nı imzalayarak Alman sömürge idaresine boyun eğdi", "kaynak": "bulunamadı (TDV) — standart akademik kaynak; ay/gün kaynakta yok, YYYY-01-01. Çevrimiçi ikincil kaynaklarla doğrulandı."}
+   ]
+  },
+  {
+   "id": "sakalava-menabe",
+   "eklenen": [
+    {"t": "1685-01-01", "tur": "hukumdar", "b": "Kurucu kabul edilen Andriandahifotsy öldü; oğlu Andramananety yerine geçip krallığı 'Menabe' adıyla andı", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla (Britannica 'Menabe') doğrulandı."}
+   ],
+   "not_kaynak": "3/4 — ikinci ek olay bulunamadı."
+  },
+  {
+   "id": "sakalava-boina",
+   "eklenen": [],
+   "not_kaynak": "ÖLÇÜLEMEDİ — künyenin kendi kurulus'u (1690) zaten akademik kaynaktaki kuruluş yılıyla (Andriamandisoarivo, ~1690) örtüşüyor, YENİ bilgi değil. İkinci bir GÜN hassasiyetli olay bulamadım. 2/4 bırakıyorum."
+  },
+  {
+   "id": "betsileo",
+   "eklenen": [
+    {"t": "1810-01-01", "tur": "toprak-kayip", "b": "Merina kralı Radama I, dört Betsileo krallığını (Lalangina, Isandra, Manandriana, Arindrano) fethedip yeniden örgütledi", "kaynak": "bulunamadı (TDV) — standart akademik kaynak; kesin yıl belirsiz ('Radama I döneminde', 1810-1828 aralığı), YYYY-01-01 belirsizlik AÇIKÇA yazılarak kullanıldı. Çevrimiçi ikincil kaynaklarla ('Kingdom of Isandra') doğrulandı."}
+   ],
+   "not_kaynak": "3/4 — künyenin kendi 'son' tarihi (1830) bu fetih penceresiyle (1810-1828) TUTARLI. İkinci ek olay bulunamadı."
   }
  ]
 }
