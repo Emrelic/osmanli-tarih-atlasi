@@ -164,3 +164,111 @@ RENK    20/20 mevcut · 0 ihlal · 2 sınırda (eve-notse · toro)
 VERİ    52 dönem yeniden yazılır
 KAYNAK  14/20 "bulunamadı"  ← maliyetin ağırlığı BURADA
 ```
+
+---
+---
+
+# EK — 14 kaynak sorgusunun hangisi UCUZ?
+
+> **Sevk:** `M-2954` · aynı gün · *ölçüm, hüküm yok.*
+
+## E1. 🔴 ÖNCE: 14'ÜN 14'Ü DE *"TDV'de ayrı madde yok"* DİYOR
+
+Ve bu sabah böyle **12 iddianın 7'si yanlış** çıkmıştı. Sınadım.
+
+### E1.1 Bölge dağılımı ve `§4` kapsama tablosuyla eşleme
+```
+bati-afrika     7   🟢 %68 CANLI (38 slug / 26)
+orta-afrika     3   🟡 Afrika'nın "dördü %100" satırı
+dogu-afrika     2   🟡 aynı satır
+guney-afrika    1   🔴 %25 CANLI (32 slug / 8)
+guneydogu-asya  1   🟡 %53
+```
+🔴 **VE TABLONUN KENDİ UYARISI OKUNDU:** *"bu tablo KÜNYE kapsamasını
+ölçer, TANECİK kapsamasını DEĞİL."* ⇒ Yukarıdaki **bir olasılıktır, bir
+garanti değil.** O yüzden tabloyla yetinmedim ve **tek tek sınadım.**
+
+## E2. HTTP SONDASI — 7/14 canlı aday, **ama gövde okununca 4**
+
+```
+ham sonda   7 / 14 "canlı aday bulundu"
+gövde okundu → GERÇEKTEN KULLANILABİLİR: 4
+```
+
+### 🔴 ÜÇÜ YANLIŞ POZİTİFTİ — ve biri YANLIŞ ÜLKE
+```
+gyaaman → `gana` 200    gövdede "Gyaaman" 0 kez  ⇒ KULLANILAMAZ
+gonja   → `gana` 200    gövdede "Gonja"   0 kez  ⇒ KULLANILAMAZ
+nijer-deltasi → `nijer` 200   🔴 YANLIŞ ÜLKE: Nijer Deltası
+        NİJERYA'dadır, `nijer` Nijer Cumhuriyeti'nin maddesi.
+        Sondamın "ilk 200 kazanır" kuralı yanlış maddeyi seçti.
+        Doğrusu denendi: `nijerya` 200 — ama gövdesinde delta yalnız
+        COĞRAFÎ ("alüvyon düzlükleri"), 1884 yok, Kalabar/Bonny yok
+        ⇒ yine KULLANILAMAZ. (`kalabar` 302 · `bonny` 302)
+```
+📌 `§4②`nin bu turdaki üçüncü uygulaması: **canlı slug ≠ doğru madde**,
+ve bu sefer *yanlış ülke*. Gövde okunmasaydı manşetim **7** olacaktı.
+
+### 🟢 DÖRDÜ GERÇEKTEN KULLANILABİLİR
+```
+nkore     → `uganda`  gövde "Ankole" ×4, sekiz krallığı ADIYLA sayıyor
+toro      → `uganda`  gövde "Toro" ×6, aynı listede
+eve-notse → `togo`    "1884 yılında Togo gölü civarındaki kabile
+                       reislerinden III. …" ⇒ Alman himayesi TARİHLİ
+ibadan    → `ibadan`  KENDİ maddesi CANLI (7.899 kar.), doğru konu
+                       (Oyo · Yoruba · şehrin kuruluşu)
+                       ⚠️ ama t:1893 gövdede YOK
+```
+
+## E3. ⇒ ÜÇ KOVA — maliyete göre
+
+| kova | sayı | künyeler |
+|---|---:|---|
+| 🟢 **UCUZ** — kapsayıcı gövde polity'yi adıyla anıyor | **3** | `nkore` · `toro` · `eve-notse` |
+| 🟡 **ORTA** — madde var, doğru konu, ama tarih yok | **1** | `ibadan` |
+| 🔴 **PAHALI** — TDV yolu yok ⇒ `§4` gereği akademik kaynak meşru | **10** | `bundu` · `loango` · `matamba` · `tio` · `tsvana` · `gambiya-mandinka` · `laos-kralliklari` · `gyaaman` · `gonja` · `nijer-deltasi` |
+
+🔴 **VE `ibadan` AYRI BİR KALEM:** künyesi *"TDV'de ayrı madde yok"*
+diyor ama **kendi id'sinde canlı, doğru konulu bir madde var.** O beyan
+**yanlış** — bu sabahki 7 vakanın **sekizincisi.** (Tarih ayrı mesele.)
+
+## E4. ④ KÜNYELERİN KENDİ `ozet`İ 1923'E KADAR SÜRDÜĞÜNÜ SÖYLÜYOR MU?
+
+```
+14 / 14  → HAYIR
+```
+Hiçbirinin `ozet`i himâye sonrası için bir süre beyanı taşımıyor;
+on dördü de aynı cümleyle bitiyor: *"TDV'de ayrı madde yok; standart
+akademik kaynağa göre yazıldı."*
+⇒ **(a)/(b) ayrımı künyelerin kendi metninden ÇÖZÜLEMİYOR.** Bu sabah
+64 künyenin tipolojiyi kendi metninde yazdığını ölçmüştüm; **bu 14'ü o
+64'ün içinde değil.**
+
+## E5. DAMGALAR — EK
+
+```
+🟢 ÖLÇTÜM      14 künye · bölge dağılımı · HTTP sondası · 5 kapsayıcı gövde
+🔴 KENDİ SAYIMI YARILADIM  ham sonda 7 "canlı" dedi; gövde okununca
+               GERÇEKTEN kullanılabilir 4. Üçü yanlış pozitif.
+🔴 YANLIŞ ÜLKE YAKALADIM   `nijer` ≠ Nijer Deltası (Nijerya'da).
+               Sondamın "ilk 200 kazanır" kuralının kusuru.
+🔴 BULDUM      `ibadan`ın "TDV'de yok" beyanı YANLIŞ — kendi id'si canlı
+🟢 OKUDUM      `§4` tablosunun KENDİ uyarısını: künye kapsaması ≠
+               tanecik kapsaması ⇒ sonucu OLASILIK diye yazdım
+⚪ ÖLÇMEDİM    🟢 üçlünün gövdesinin KÜNYE TARİHİNİ verip vermediğini —
+               yalnız polity'den SÖZ ETTİĞİNİ ölçtüm (eve-notse hariç:
+               orada 1884 var)
+⚪ ÖLÇMEDİM    🔴 onluğun akademik kaynak maliyetini — TDV dışı arama
+               yapmadım, bu tur kaynak turu değildi
+🔵 OKUMADIM    hiçbir gövdenin tamamını
+```
+
+## E6. TESLİM — EK, sayıyla
+
+```
+🟢 UCUZ    3 / 14   nkore · toro · eve-notse   (kapsayıcı gövde adıyla anıyor)
+🟡 ORTA    1 / 14   ibadan                     (madde var, tarih yok)
+🔴 PAHALI 10 / 14   akademik kaynak gerekir (§4 meşru kılıyor)
+④ ozet'ten çözüm  0 / 14 — hiçbiri süre beyanı taşımıyor
+🔴 YAN BULGU  `ibadan`ın "TDV'de yok" beyanı yanlış (8. vaka)
+```
