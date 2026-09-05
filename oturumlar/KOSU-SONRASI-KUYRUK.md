@@ -4,6 +4,67 @@
 > donmuş dosyalara dokunduğu için bekliyor.
 > 🔴 Sıra kasıtlı: veri → renk → denetim → koşu → yayın.
 
+## 🟢 GECE — İKİNCİ TUR HÜKÜMLERİ (5 Eylül 04:30)
+
+### ⓐ 🔴 `CLAUDE.md`'YE YAZILACAK YENİ KURAL — **KÜNYE PENCERESİ BİR TASARRUF ÖLÇÜSÜ DEĞİLDİR**
+
+`NEHİR SÜRTÜNME` bir yan bulgu getirdi: *"de facto / de jure ölçütü projede
+tutarsız"* — üç vaka, üç ayrı karar, ve **hiçbiri ötekine atıf yapmıyor**:
+```
+varsova-dukaligi     de facto 1813 / de jure 1815   → DE JURE seçilmiş
+teksas-cumhuriyeti   de jure 1845-12-29 / de facto 1846-02-19 → DE JURE
+sunda-pajajaran      de facto 1527 / de jure 1579   → DE FACTO
+```
+🟢 **HÜKÜM: bu kendiliğinden bir çelişki DEĞİL — ve sebebi bir ayrım.**
+```
+TASARRUFU boyayan şey KÜNYE DEĞİL, yerleşimin `d:` / `s:` / `v:` DÖNEMLERİDİR
+Künyenin `f:`/`t:`si bir KİMLİK PENCERESİDİR: "bu ad, bu siyasî özne ne zaman VARDI"
+```
+⇒ Üçü de kimliğin varlık penceresini işaretliyor; üçü de savunulabilir.
+🔴 **AMA BİR ŞART VAR VE ÜÇÜNDE DE EKSİK: hangisinin seçildiği künyenin kendi
+özet/`kaynak` metninde YAZILI OLMALI.** `sarawak-brooke` bunu yapmış
+(*"1923 sonrasında da sürdü … atlas ufkunun ötesine taşıyor"*) ve tam o yüzden
+triyajda **otuz saniyede** çözüldü; ötekiler yapmamış ve her biri ayrı bir
+oturuma iş çıkardı.
+⇒ **Üç künye de DEĞİŞMİYOR; yalnız BEYAN eklenecek.**
+📌 Ve bu, `§4`ün *"kaynağı yazılmayan bilgi, kaynağı olmayan bilgiden ayırt
+edilemez"* kuralının **ölçüt** yüzü: *seçimi yazılmayan tarih, keyfî seçilmiş
+tarihten ayırt edilemez.*
+
+### ⓑ ÇAKIŞAN İKİ SİBİRYA ÖLÇÜMÜ — İKİSİ DE DOĞRU
+```
+NEHİR SÜRTÜNME   54 klasik ostrogun 40'ı atlasta VAR      ⇒ "zincir tam"
+KRONOLOJİ BOŞ K. 2126 kara hücresinin 913'ü 200 km+       ⇒ "en büyük boşluk"
+```
+Farklı şey ölçüyorlar: **ADLI VARLIK tamamlığı ≠ MEKÂNSAL yoğunluk.**
+⇒ Sibirya'da eksik olan ünlü kaleler değil **iç yoğunluk** — ve iç alanın ne
+kadarının gerçekten boş olduğu (tayga/tundra) **ölçülmemiş.**
+📌 *"Aynı sayı ≠ aynı vaka"* dersinin tersi: **farklı sayılar, aynı bölge, ve
+ikisi de geçerli.** Hangi soruyu sorduğun evreni belirliyor.
+
+### ⓒ TARİH DÜZELTMELERİ — ikinci parti
+```
+🟢 antandroy  t:1900-01-01 → 1905-01-01   YIL hassasiyeti (kaynak GÜN vermiyor)
+              mevcut değer yuvarlak yıl ve HİÇBİR belgelenmiş olaya denk
+              gelmiyor; üstelik VERİ künyenin ölümünü AŞIYOR
+⏸️ toro · bemba · betsimisaraka   DÜZELTME BEKLETİLİYOR
+              "iki dayanaksız yıl" arasında seçim yapmak dayanak ÜRETMEZ
+🚫 nyamvezi (iki ayrı ÖZNE) · sarawak-brooke (beyan edilmiş pencere sonu) ·
+   sunda-pajajaran (birincil arşiv dayanağı)   DOKUNULMUYOR
+```
+
+### ⓓ 1923 HALEF KÜNYELERİ — 10 kabul, İKİSİ ŞARTLI
+`denetim/YAMA-KUNYE-1923-0905.json` · birleştirmeden önce:
+```
+🔴 misir-sultanligi · misir-kralligi   tarihleri VİKİPEDİ üzerinden aktarılmış
+   ⇒ §4: tek dayanak olamaz. Kurumsal kaynak bulunmazsa `1922-01-01`e çekilecek
+🔴 rif-cumhuriyeti ↔ fas               coğrafî çakışma ÖLÇÜLMEDEN inmez
+   (Rif 1921-26 Fas'ın kuzeyinde; `fas` künyesi aynı pencerede canlı)
+🟡 Buhara 36 günlük boşluk (1920-09-02 → 10-08) KASITLI — ama `bos:` beyanı EKLENECEK
+```
+
+---
+
 ## 🔴🔴 GECE HASADI — KOŞU 5b BİTİNCE BİRLEŞTİRİLECEK (5 Eylül 03:5x)
 
 ⚠️ **BU BLOK BİR OTURUMUN BAĞLAMINDAN KURTARILDI.** Beş işçi oturum gece
