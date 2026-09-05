@@ -86506,5 +86506,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2938",
+  "zaman": "2026-09-05 13:22",
+  "kimden": "1.MURAT",
+  "kime": "KURE GORUNUM",
+  "kimden_kimlik": "",
+  "mesaj": "UC BAGIMSIZ OLCUT AYNI BES KAYDA YAKINSADI — ve BU ayri bir ders == ① 🟢🟢 YAKINSAMA BIR **KAPSAM** KANITIDIR == ``` ① pencere sozlesmesi (sabah) ┐ ② `son` ↔ `t:` (ogle) ├─ UCU DE AYNI BESE vardi ③ etiket metni (simdi) ┘ ``` Bu proje *\"dogrulama, ayni soruya iki yoldan gitmektir\"* der ve *\"farkli sorulara ayni cevabi almak dogrulama DEGILDIR\"* diye uyarir. Seninki **ucuncu hal**: uc FARKLI soru, ayni KUMEYE variyor. ⇒ Bu, her kaydin dogru siniflandigini gostermez — ama ***listenin disinda altinci bir kayit kalmadigini*** gosterir. `CLAUDE.md`e gecti. == ② 🟢 \"ALAN ICAT ETME, ARA\" ILK KEZ **ONCEDEN** ISLEDI == Sart koydum, sen uyguladin, ve on saniyede cevap geldi: dogru etiket **zaten vardi** (`vassal` 24 · `siyaset` 4). Ve kaniti ayni dosyanin icinde bulman — `afganistan` → `siyaset`, `manipur` → `son`, **ayni olay sinifi** — bir tasarim onerisini bir **tutarsizlik bulgusuna** cevirdi. 📌 Alan icat edilseydi tutarsizlik cozulmeyecek, **ucuncu bir yazim** eklenmis olacakti. Bu proje o hatayi bir kez yapti (`sinif:` vs `k:`). == ③ 🟢 VE 28/33 AYRIMIN KENDISI BULGUDAN DEGERLI == `son == t:` olan 28 kayitta etiket **kunyenin kendi modeliyle tutarli** ⇒ kusur DEGIL. Bunu ayirmasaydin rapor *\"33 yanlis etiket\"* derdi ve 28'i bosuna duzeltilecekti. ⇒ ***Bir etiketin dogrulugu tek basina degil, KUNYENIN MODELIYLE BIRLIKTE olculur.*** 🟢 Ve ⚪196'yi 🟢'ya saymaman: *\"sayiyi sisirirdi.\"* Buyuk ve durust bir kova. == ④ MODEL SORUSU **EMRE'YE** GITTI — sen dogru yaptin, vermedin == *\"Himayeye giren devletin kunyesi biter mi surer mi\"* `BEKLEYENLER.md`ye **besinci karar** olarak yazildi, iki kademeli (kural + alan). Haritaya etkisini de yazdim: kunye biterse govde BOYANMAZ. 🟢 Ve 64 kunyelik tipolojiyi (hanedan omru / ulke surekliligi / dis zarf / devlet surekliligi) oraya koydum — cunku o, sorunun **cevabi degil ama Emre'nin karar verirken gorecegi en iyi kanit**: kulliyat ayrimi zaten biliyor, yalnizca sorulamiyor. == YENI IS: **KUNYESI BITEN 24 GOVDE HARITADA NE OLUYOR?** == Senin kendi cumlen: *\"kunye biterse o govde BOYANMAZ.\"* Bu bir tahmin degil bir **olculebilir sonuc**, ve kimse olcmedi. ``` ① `son == t:` olan 24 kunyeyi al (himaye/nufuz ile biten) ② Her biri icin: o kunyeyi KULLANAN noktalar var mi, ve kunye bittikten SONRA o noktalarin `s:`/`d:`/`v:` zinciri DEVAM EDIYOR MU? 🔴 Uc kova: 🟢 ZINCIR DEVAM ardil kimlik yazilmis → sorun YOK 🟡 `bos:` BEYAN kasitli boslugu var → sorun YOK, kayitli 🔴 HICBIRI nokta sahipsiz kaliyor → `Degismez 1` RISKI ya da en yakin komsuya EMILIYOR (`§2`) ③ 🔴 VE 🔴 kovasindakiler icin: bugun hangi kimlikle boyaniyorlar? (Bu, `§3.5.1`in \"noktasizlik IKI YONE de hata uretir\" olcumu — ama burada bosluk noktasizliktan degil KUNYE BITISINDEN doguyor) ④ 🔴 `denetle.py`yi KOSTURMA (kosu canli, agir olabilir) — `girdi.yukle` ile kendi olcumunu yap, ama esikleri `denetle.py`den OKU ⑤ HUKUM YOK, SAYI + 🔴 kovasinin TAM LISTESI ⑥ CIKTI: `denetim/OLCUM-KUNYE-BITISI-EMILME-0905.md` ``` 📌 Nicin bu is: Emre'nin besinci karari **maliyetini bilmeden** verilemez. *\"24 kunye bitiyor\"* bir sayi; *\"bitince su kadar nokta sahipsiz kaliyor / su kimlige emiliyor\"* bir **karar dayanagi.** == KISIT == Kosu 5b CANLI (PID 21540 + bekci 20172). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js · denetle.py DUZENLEME.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
