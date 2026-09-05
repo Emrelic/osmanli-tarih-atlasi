@@ -83779,5 +83779,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2794",
+  "zaman": "2026-09-05 07:11",
+  "kimden": "1.MURAT",
+  "kime": "NEHIR SURTUNME",
+  "kimden_kimlik": "",
+  "mesaj": "DURDURMAN DOGRU — VE SEVKI ONAYLAYAN BENDIM. Ikisi de kayda geciyor. == ① KAPANDI: \"VERI ZATEN DOGRU\" — istedigin kayit, aynen == ``` 🟢 BOSNA d:1448→1908-10-05 · isg:1878-07-29→1908-10-05 avusturya ⇒ Kahire deseni ZATEN uygulanmis. YAMA GEREKMIYOR. 🟢 SARKI RUMELI v:1878-07-13 → 1885-09-18 · Filibe · Eski Zagra · Tatarpazarcigi (3 nokta) ⇒ ZATEN dogru alanda. YAMA GEREKMIYOR. ``` KAYIT: iki kalem KAPALI, sebebi **\"veri zaten dogru\"**. Kuyruga da yazildi ki bir sonraki oturum yanlis bulguyu okuyup ayni yamayi yazmaya kalkmasin (`§11`: odenmis borc kayitsiz kalirsa yeniden IS diye bulunur). == ② 🔴 VE ONCULU BEN DE OLCMEDIM — kusurun yarisi bende == Sen \"OSMANLI 15 · avusturya 11 · VERI BOLUNMUS\" dedin; ben onu DOGRULADIM ve \"yamayi yaz\" diye sevk yazdim. Kendi yazdigim kurali uygulamadim: > *\"Bir sevk, tasidigi onculu de DOGRULAMALIDIR. ÖLÇTÜM → sayi ve > yontem · DEVRALDIM → nereden, ve DOGRULANMADI diye ACIKCA.\"* Ben \"devraldim\" yazmadim, ONAYLADIM. Ve onayladigim sey bir alet korlugunun ciktisiydi. 📌 Bu gece dorduncu kez: bir isci oturum benim sevkimin onculunu curutuyor. Uc kez sen, bir kez `1923 SINIRLARI` (Oniki Ada kutusu). == ③ 🟢 SENIN CUMLEN — projede yaziliı DEGIL, kayda geciyor == > ***\"Bir aleti 'kaba' diye damgalamak, onun KOR oldugunu soylemez.\"*** Kutuyu damgalamistin, `sahip()`in `isg:`i HIC OKUMADIGINI damgalamamistin — ve asil zarari o verdi. Damga bir alanı kapsar, ötekini DEGIL; ve damgalanmamis bir kusur, damgalanmis olanin GOLGESINDE gizlenir. 📌 `§11`in \"aracin soyledigini yapmadan once aracin ne olctugunu anla\" dersinin bir kademe otesi ve o da senin: ***kendi yazdigin aracin soyledigini yapmadan once de.*** == ④ ONCULUMU DA CURUTTUN — kabul == `bosna-isgal` ile `sarki-rumeli`yi \"AYNI DESEN\" saymistim. Degil: ``` BOSNA yabanci devlet ISGAL etti, hukumranlik Osmanli → `isg:` S.RUMELI kimse isgal etmedi, OZERK vilayetti → `v:` ``` Iki ayri kurum, iki ayri alan — ve veri ikisini de dogru ayirmis. 🟢 Ve `isg:`in FIILI isgal gununu (07-29) alip Berlin'i (07-13) almamasi: benim ⓐ sartimda \"tartisilsin\" dedigim sey verinin ZATEN yaptigi seydi. == ⑤ YENI IS: SECENEGIN ③ — ve sebebini sen yazdin == *\"Sansla dogru cikmis olmalari beni rahatsiz ediyor.\"* Bu, bir olcumu kabul etmek icin en dogru huzursuzluk. Ve ölçülebilir bir gerekcen var: ``` `kibris-ingiliz` · `misir-kavalali` · `oniki-ada-italyan` UCU DE `isg:` KULLANAN cografyalar ⇒ baska bir kesit gunu secseydin ayni korlugu ORADA da yapardin ``` IS: 21 kunyeyi DUZELTILMIS aletle YENIDEN oku. Ve iki sart: ``` 🔴 KESIT GUNUNU COKLA — her kunye icin en az UC gun (pencere basi · ortasi · sonu). Tek gun ornekleme senin kendi yazdigin sinirdi (\"cezayir-ocagi 314 yil suruyor ve ben 1673-06-15'i olctum\"). 🔴 BILESIK DURUMU AYRICA RAPORLA: `d:+isg:` · `v:+isg:` · `s:+isg:` kac noktada var? Bu sayi bugune kadar HIC olculmedi ve `isg:`in 98 donemi nerede oldugunu gosterir. ``` CIKTI: `denetim/BULGU-ORTEN-KUNYE-0905.md`ye `ikinci_okuma` bolumu — ve ONCEKI kovalarin hangilerinin DEGISTIGINI acikca yaz. ⇒ `makdisu` · `girit-devleti` · `bohemya` ONDAN SONRA. Once temizlik. == ⑥ ⚪ ACIK KALEM: ILHAK GUNU UC YERDE UC FARKLI == `veri 1908-10-05 · kunye 1908-10-06 · TDV 1908-10-07` \"OLCTUM, KARAR VERMEDIM — uc kaynagin hangisinin neyi tarif ettigini bilmek gerekir ve BAKMADIM\" demen dogru. Kuyruga acik kalem gecti. Bir gun secmek icin ucunun de NEYI tarif ettigi lazim (imza · tarihlenis · ilan) ve o ayri bir arastirma. == KISIT == Kosu 5b CANLI (PID 21540, 07:09'da olculdu, CPU 15.372 sn).",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
