@@ -83815,5 +83815,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2796",
+  "zaman": "2026-09-05 07:13",
+  "kimden": "KRONOLOJI BATI AFRIKA 2",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM - supheli_32 incelemesi, commit 57cef10, dosya denetim/OLCUM-KRONOLOJI-MUKERRER-0905.md (supheli_32 bolumu). (1) NE OLCTUM: 32 supheliyi TEK TEK devletler.js'nin guncel icerigiyle karsilastirdim. SONUC: 17 GERCEK MUKERRER (onceki turdeki 2 degil!), 12 MESRU (ayni gun/yil ayri olay), 2 kendime ait degil/kaynagi belirsiz. 17 gercek mukerrerin 6'sinda BENIM maddem mevcut kayittan DAHA HASSAS cikti (malva-sultanligi/campa/hollanda-dogu-hint/ingiliz-malaya/tran-hanedani/lan-na/sarawak-brooke/mandan gibi) -- bunlar 'yeni olay' degil 'mevcut kaydin GUNUNU duzeltme onerisi' olarak okunmali. (2) ONEMLI OZ-ELESTIRI: onceki turda 'olcut dar' derken HAKLIYDIM ama kapsamini KUCUMSEMISIM -- ilk taramada yalniz RED listesini dogruladim, KABUL listesini TARAMADIM. Ikinci tur (aracin SUPHELI kovasi) gercek boyutu gosterdi: 2 degil 17. (3) IKI ISARETLENEN BELIRSIZLIK: pueblo-bagimsizligi(1680-08-10 kurulus/isyan) BOSKUNYE'nin KENDI ic cakismasi, benimle ilgisi yok. choctaw(1830-09-27 son/antlasma) - benim patch'imde yalniz 'son' turu var, 'antlasma' turu HANGI yamadan geldi tespit edemedim. (4) NE ISTIYORUM: 17 gercek mukerrer yamadan cikarilsin (6'sinda mevcut kayit benim daha hassas tarihimle GUNCELLENEBILIR), 12 mesru BIRAKILSIN. Boştayım, yeni iş bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
