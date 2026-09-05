@@ -1624,6 +1624,27 @@ YOK, genişlik/debi alanı YOK. (Koordinatörün *"Strahler zaten var"*
 ⚠️ **Ve dürüst kayıt:** bugünkü SABİT ceza da nokta yoğunluğundan
 bağımsız. `scalerank`in kazancı bağımsızlık değil **AYIRT ETME.**
 
+**ÇEKİRDEK SINAVI (13:55) — 19 nehrin 16'sı bulundu, tablo çalışıyor:**
+```
+Tuna 2 · Fırat 3 · Dicle 4 · Dinyeper 4 · Dinyester 6 · Drava 6-7 ·
+Sava 7 · Meriç 7 (ad: Evros) · Prut 7 · Morava 7-8 · Kızılırmak 7 ·
+Sakarya 8 · Aras 8 · Kura 8 · Ceyhan 9 · Nil 1-3
+```
+🔴 **İKİ KAYIT GEREKİYOR, ve ikisi ayrı cins:**
+```
+① EŞANLAM   Kızılırmak → "Kiz?lirmak"   ← kaynak verisinde DÜZ SORU
+            İŞARETİ (U+003F). Normalleştirici çözmez; eşanlam çözer.
+② EKSİK 3   Vardar · Yeşilırmak · Seyhan — ad araması VE coğrafî kutu
+            tükendi, veride GERÇEKTEN yok. Kelkit (Yeşilırmak'ın kolu)
+            var ⇒ havza boş değil, ANA KOL eksik.
+            ⇒ Çare ad işi değil VERİ işi: daha ince katman ya da elle
+              çizim. Bu üçü tablonun DIŞINDA kalır.
+```
+🟢 `featurecla` sorunu çözüldü: bir nehir sınıflaması değil **parça**
+özniteliği (20 nehrin 5'i her iki türü taşıyor, kovalar iç içe). Nil'in
+parçaları scalerank **1-3**, Tuna'nın **2**'sini kuşatıyor ⇒ aynı ölçek,
+kıyaslanabilir. ⚠️ Tek çift üzerinden — sistematik kıyas YAPILMADI.
+
 🔜 Koşu sonrası: eşleme tablosu kararlaştırılır, sonra `uret_petek.py`.
 **Kod bu turda YAZILMADI** (motor donuk).
 
