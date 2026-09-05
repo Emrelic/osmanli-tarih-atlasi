@@ -74,29 +74,30 @@
       "id": "misir-sultanligi",
       "ad": "Mısır Sultanlığı (İngiliz Himayesi)",
       "f": "1914-12-18",
-      "t": "1922-01-01",
+      "t": "1922-03-15",
       "bolge": "misir-sudan",
-      "ozet": "Aralık 1914'te İngiliz himayesinin ilanı ve Kavalalı hanedanının Osmanlı'ya tâbiiyetinin resmen bitmesiyle Hüseyin Kâmil'in sultan ilan edilmesiyle kuruldu; 1922'de Krallığa dönüştü.",
-      "kaynak": "bulunamadı — TDV 'mısır' maddesi modern dönemi (Osmanlı sonrası) HİÇ KAPSAMIYOR (doğrulandı). Denenen akademik kapılar: Britannica (ÜÇ AYRI URL) · Library of Congress · Cambridge Core akademik PDF — dördü de erişilemedi (403 ya da ikili içerik). Tarihin dayanağı DURUYOR: f: bağlı verinin kullandığı aralığa (`misir-kavalali`nin t:'sine) HİZALANDI, t: `§4`ün en kaba güvenli düzeyine (yıl) çekildi. Akademik kaynak ARANACAK.",
-      "not": "f:1914-12-18 KASITLI OLARAK `misir-kavalali`nin t:1914-12-18'iyle BİREBİR HİZALANDI — bu benim yeni bir araştırmam DEĞİL, zaten TDV-kaynaklı olan komşu künyenin sınırını devralmak (gün belirsizliğini araştırmaktansa 17-19 Aralık aralığındaki gerçek günü aramak yerine, boşluk/çakışma YARATMAMAYI önceledim). Gerçek gün (14/18/19 Aralık tartışmalı) netleşirse ikisi birden düzeltilmeli.",
+      "ozet": "18 Aralık 1914'te İngiliz himayesinin ilanı ve Kavalalı hanedanının Osmanlı'ya tâbiiyetinin resmen bitmesiyle Hüseyin Kâmil'in sultan ilan edilmesiyle kuruldu; 15 Mart 1922'de Fuâd'ın kral unvanını almasıyla Krallığa dönüştü.",
+      "kaynak": "🟢🟢 DÜZELTİLDİ (5 Eylül, M-2919 turu) — ESKİ 'bulunamadı' hükmü YANLIŞTI: TDV 'misir' maddesi CANLI ve modern dönemi ZENGİN kapsıyor (raw HTML doğrulandı, 278.117 karakter — eski turda erişim engelleri Britannica/LOC/Cambridge'e aitti, TDV'nin kendisi hiç denenmemiş/erişilememiş). AYNEN: \"İngiltere, 18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır'ı himayesine aldı ... yerine amcası Hüseyin Kâmil'i Mısır sultanı olarak ilân etti.\" GÜN hassasiyetinde, f: değeriyle BİREBİR eşleşti (önceki 'hizalama' varsayımı artık BAĞIMSIZ DOĞRULANDI).",
+      "not": "🟢 f:1914-12-18 artık `misir-kavalali`ye hizalanmış bir VARSAYIM değil, TDV'nin KENDİ verdiği gün — iki kaynak (künye penceresi + TDV gövdesi) BAĞIMSIZ ÇAKIŞTI. t: ESKİ '1922-01-01' (kaba yıl) → '1922-03-15' DÜZELTİLDİ: TDV AYNEN \"Sultan Ahmed Fuâd 15 Mart 1922'de kral (melik) unvanını aldı ve Mısır'da monarşi ilân edildi.\" ⚠️ TDV AYRICA 28 Şubat 1922'yi de veriyor (\"İngiltere 28 Şubat 1922'de tek taraflı olarak Mısır'ı bağımsız devlet ilân etti\") — bu DİPLOMATİK bağımsızlık ilanı, unvan değişikliğinden (15 Mart) 15 gün ÖNCE. Künye adı 'Sultanlık' bizzat UNVANI izlediği için 15 Mart esas alındı; 28 Şubat ozet'te ayrıca not düşüldü, KARIŞTIRILMASIN.",
       "nokta_durumu": {
-        "olcum": "OKUMADIM — nokta-durumu ölçümüm yalnız SORULAN TARİH (1923-10-29) için yapıldı; o tarihte aktif olan `misir-kralligi`dir, bu künye (Sultanlık) DEĞİL. Sultanlık dönemi (1914-1922) için ayrı bir tarih kesitinde ölçüm gerekir, yapmadım."
+        "olcum": "🟢 TAMAMLANDI (M-2919 turu) — imza aramasıyla (v:'Kavalalı hanedanı' biten + s:'ingiltere' TAM 1914-12-18'de başlayan) 55 nokta TAM SAYILDI (denetim/OLCUM-MISIR-1914-1923-0905.md). Nokta yaması yazıldı: denetim/yer_yama_misir_himaye.js — KÜNYE+RENK BEKLİYOR damgasıyla, bu turda UYGULANMADI."
       }
     },
     {
       "id": "misir-kralligi",
       "ad": "Mısır Krallığı (I. Fuad)",
-      "f": "1922-01-01",
+      "f": "1922-03-15",
       "t": "1923-10-29",
       "bolge": "misir-sudan",
-      "ozet": "1922'de (28 Şubat tek taraflı bağımsızlık ilanı, 15 Mart unvan değişikliği — iki ayrı olay, HANGİSİNİN 'künye başlangıcı' sayılacağı belirsiz) Sultanlık'tan dönüşen krallık; 1953'e dek (site ufkunun çok dışında) sürdü.",
-      "kaynak": "bulunamadı — aynı erişim engelleri (misir-sultanligi kaydına bkz). WebSearch özetleri iki AYRI tarihli olay veriyor (28 Şubat bağımsızlık ilanı / 15 Mart unvan kararnamesi) ve ikisi de kavramsal olarak 'Krallığın başlangıcı' olabilir — hangisinin doğru çapa olduğuna karar veremedim, bu yüzden `§4`ün en kaba güvenli düzeyine (yıl) çekildim. Akademik kaynak ARANACAK.",
-      "not": "t: standart 1923-10-29 sınırına ÇEKİLDİ (koordinatörün 'iran' emsali gibi çok ileri bir tarihe UZATILMADI) — Krallığın 1953'e kadar sürmesi bu YAMA'nın kapsamı dışında, ozet'te not düşüldü.",
+      "ozet": "15 Mart 1922'de Sultan Ahmed Fuâd'ın kral (melik) unvanını almasıyla Sultanlık'tan dönüşen krallık; 1953'e dek (site ufkunun çok dışında) sürdü.",
+      "kaynak": "🟢🟢 DÜZELTİLDİ (5 Eylül, M-2919 turu) — TDV 'misir' maddesi (CANLI, raw HTML) AYNEN: \"Sultan Ahmed Fuâd 15 Mart 1922'de kral (melik) unvanını aldı ve Mısır'da monarşi ilân edildi.\" GÜN hassasiyetinde. Eski turdaki 'iki tarih arasında karar veremedim' belirsizliği ÇÖZÜLDÜ — bkz. misir-sultanligi'nin `not:` alanı.",
+      "not": "f: ESKİ '1922-01-01' (kaba yıl, belirsizlik nedeniyle) → '1922-03-15' DÜZELTİLDİ. t: standart 1923-10-29 sınırında KALDI (koordinatörün 'iran' emsali gibi çok ileri bir tarihe UZATILMADI) — Krallığın 1953'e kadar sürmesi bu YAMA'nın kapsamı dışında, ozet'te not düşüldü.",
       "nokta_durumu": {
-        "olcum_kutusu": "lat 22,0-31,7 / lon 25,0-35,0 (Mısır'ın Nil vadisi + Sina)",
+        "olcum_kutusu": "lat 22,0-31,7 / lon 25,0-35,0 (Mısır'ın Nil vadisi + Sina) — ESKİ, kutu-bazlı ölçüm",
         "toplam_nokta_kutuda": 57,
-        "1923-10-29_bugunku_sahiplik": {"ingiltere": 56, "sahipsiz": 1},
-        "yorum": "🔴🔴 EN BÜYÜK TEKİL BULGU: Kahire-bölgesi dahil TÜM 56 Mısır noktası ŞU AN DOĞRUDAN 'ingiltere' GÖSTERİYOR. Bu künye kabul edilirse 56 noktanın `s.d` alanı 'ingiltere'den 'misir-kralligi'ye DEĞİŞTİRİLMELİ — 1914'ten (Osmanlı tâbiiyetinin bitişinden) 1923'e dek DOKUZ YIL boyunca Mısır'ın hiçbir zaman ayrı bir kimlik taşımadığı, doğrudan İngiltere'nin bir parçası gibi çizildiği anlamına geliyor. Bu, salt bir künye eksikliğinden daha büyük bir sonuç: 56 nokta demek Mısır'ın BÜTÜN yerleşim ağı demek."
+        "1923-10-29_bugunku_sahiplik_ESKI": {"ingiltere": 56, "sahipsiz": 1},
+        "1923-10-29_bugunku_sahiplik_GUNCEL": {"ingiltere_imza_ile_tam_sayim": 55, "not": "56→55 farkı açıklanmadı, küçük ve muhtemelen kutu-vs-imza yöntem farkı — bkz. denetim/OLCUM-MISIR-1914-1923-0905.md §③"},
+        "yorum": "🔴🔴 EN BÜYÜK TEKİL BULGU (hâlâ geçerli): Kahire dahil 55 Mısır noktası ŞU AN DOĞRUDAN 'ingiltere' GÖSTERİYOR. Bu künye kabul edilirse 55 noktanın `s:` dizisi `misir-sultanligi`(1914-12-18→1922-03-15)+`misir-kralligi`(1922-03-15→1923-10-29) olarak bölünüp yanına `isg:ingiltere` (himaye kalıbı, Kuveyt/Katar/Bahreyn/Buganda emsali) eklenmeli — YAMA ZATEN YAZILDI: denetim/yer_yama_misir_himaye.js, KÜNYE+RENK BEKLİYOR damgasıyla."
       }
     },
     {
