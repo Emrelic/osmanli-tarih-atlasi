@@ -2683,6 +2683,84 @@ ettiği 108 yıl için `m:Klis` yazmak, modelin söyleyemediğini **yanlış
 söylemektir.** ⇒ `Ammaroğulları` hükmüyle aynı: **model ifade edemiyorsa
 veri SUSAR.** Gerekçe `neden:`e yazılır, kayıt yamadan düşer.
 
+### 🟢 `isg:` **YAPISAL DEĞİL** — ölçüt ateşledi, soru Emre'den ÇEKİLDİ (20:55)
+
+Ölçütü ben koymuştum: *"dörtte dört `t:` kırmızı çıkarsa gözlem hükme
+yaklaşır; **biri bile yeşil çıkarsa** `isg:` yapısal DEĞİL."*
+```
+urabi-pasa         t=1914-12-18  🔴 KESİN (`1914` gövdede 0 kez)
+berlin-antlasmasi  t=1908-10-05  🔴 KESİN (`1908` yok)
+kahire             t=1801-10-09  🔴 yıl VAR ama BAŞKA ŞEYE bağlı
+                      («1801-1805 yıllarının krizi» — bir DÖNEM ETİKETİ)
+kirim              t=1783-04-19  🟢 **TAŞIYOR** — takvim çevirisiyle
+```
+🟢 `kirim`: TDV *«Kırım çarlığın bir vilâyeti haline getirildi
+(**8 Nisan 1783**)»* — Jülyen. Veri Gregoryen (`+11 gün` = 19 Nisan).
+**Aynı gün.**
+
+## 🔴 HÜKÜM: `kaynak_f:`/`kaynak_t:` SORUSU EMRE'NİN LİSTESİNDEN ÇIKARILDI
+Dayanağı **üç kez** daraldı ve son ölçüm onu çürüttü:
+```
+① "bütün dönemlerde `t:` kaynaksız" (%87)  → ÇÖKTÜ (örneklem yoğunlaşması)
+② "toplu örtülerde alan iki ucu ifade EDEMEZ" → DARALDI (`misir` ikisini
+                                                de taşıyor ⇒ eksik olan ADRES)
+③ "`isg:` bu bakımdan YAPISAL"              → ÇÜRÜDÜ (`kirim` 🟢)
+```
+⇒ Geriye bir **tasarım sezgisi** kalıyor ve arkasında ölçüm yok. Emre'ye
+dayanağı üç kez çökmüş bir soru taşımak, dikkatini harcamaktır.
+🟢 **Gözlem SİLİNMEDİ, kayıtta kalıyor** — ileride yeni bir dayanak
+çıkarsa oradan devam edilir.
+
+### 🔵 AÇIK KALEM — `kirim` TAKVİMİ BEYANSIZ
+Kaynak **Jülyen**, veri **Gregoryen**, ve bunu **hiçbir alan yazmıyor**.
+`§4`ün emsali var (*"30 Ocak 1667 (Jülyen) / 9 Şubat 1667 (Gregoryen)"* —
+iki takvimi de yaz) ama burada uygulanmamış. ⇒ `not:` alanına beyan.
+
+### 🔴 DENETİM ADAYI — SON KAPSAM (şart 7)
+```
+① gövde KESİLMEDEN      ② `⚫ ölçülemedi` AYRI    ③ pencere uçları ELENİR
+④ MİRAS `kaynak:` GİRMEZ ⑤ `f:`/`t:` AYRI        ⑥ birim BENZERSİZ DEMET
+⑦ 🆕 YALNIZ `🔴` OTOMATİK — `⚪`/`🟡` ayrımı otomatikleştirilemez, ve
+   `🔴` bile TAKVİM ekseninde yanılabilir (`kirim` vakası)
+```
+
+### 🔴 `berlin-antlasmasi` — `f:` KAPANDI, `t:` GERÇEK BİR ÇELİŞKİ (21:00)
+
+```
+f=1878-07-29  🟢 `saraybosna` TAM DİZGİYLE:
+   «…29 Temmuz 1878 tarihinde Bosna'ya dört taraftan giren işgalci
+    güçler 19 Ağustos 1878'de Saraybosna'ya girip … şehri işgal ettiler»
+   (`bosna-hersek` ve `avusturya` da "29 Temmuz" veriyor)
+t=1908-10-05  🔴 HİÇBİRİ VERMİYOR — ve `bosna-hersek` BAŞKA GÜN veriyor:
+   «7 Ekim 1908'de buranın resmen Avusturya-Macaristan toprağı olduğu
+    ilân edildi.»                                     ⇒ İKİ GÜN FARK
+```
+🔴 **AYRIŞTIRMA DENENDİ VE ÇÖZMEDİ.** Bu gecenin beş vakasında fark hep
+ayrıştırmayla çözülmüştü (yan cümle · hassasiyet · takvim · kapsam ·
+nesne). Burada TDV'nin tarihlediği fiil **"ilân"**, atlasınki de **aynı
+fiil** ⇒ ayrı olaylar değil, **aynı olay farklı gün.**
+⇒ Gecenin *"çelişki sandığım şey çelişki çıkmadı"* dizisinin **İLK
+GERÇEK İSTİSNASI** — ve kuralı güçlendiriyor: **ayrıştır, SONRA ilan et.**
+Sınıf: **`portekiz`** (kaynak susmuyor, başka tarih veriyor).
+
+**🟢 HÜKÜM — YOL B: gün KORUNUR, fark DAMGALANIR. `C` açık kalem.**
+```
+A  veriyi TDV'ye uydur (1908-10-07)  🔴 RED — `5 Ekim` tarihen yaygın, ve
+   fark AYRIŞTIRILAMADI. `§4`: "künyeyi veriye uydurmak veriyi kaynak
+   yerine koymaktır" — TERSİ de doğru: veriyi TEK bir kaynağa uydurmak,
+   farkı çözmeden yapılırsa AYNI hatadır.
+B  günü koru + `kaynak:"bulunamadı — TDV 7 Ekim veriyor, fark
+   açıklanamadı"`                    🟢 KABUL — ucuz, dürüst, geri alınabilir
+C  üçüncü bağımsız kaynak            🔵 AÇIK KALEM (5 ilân / 6 yayım /
+   7 bildirim ayrımı OLABİLİR ama BU METİNDE YOK)
+```
+🟢 Ve `f:` için `saraybosna` yazılır — `misir`den sonra **ikinci** kez
+kapsayıcı madde bir ucu kapattı.
+
+⚫ **Ölçülemeyenler "yok" SAYILMADI:** `bosna` 2.470 · `hersek` 2.384 ·
+`bosna--osmanli-donemi` 819 karakter ⇒ boilerplate.
+`avusturya-macaristan` 5.773 — eşiğin üstünde ama ince, 🟡 şüpheli.
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri
