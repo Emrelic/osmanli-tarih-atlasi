@@ -22,7 +22,35 @@
    "`nepal`e YANLIS metin verdi: TDV onun t: yilini DESTEKLIYOR.",
    "⇒ Yedi kunyenin govdesi yedi farkli sey veriyor (GUN · YIL · AY ·",
    "   yalniz ANLATI); tek bir kalip hepsini dogru anlatamiyor."
-  ]
+  ],
+  "IKINCI_HASAT": {
+   "sevk": "M-2909 (1.MURAT)",
+   "soru": "TDV gövdesi künyenin f:/t: değerlerini DESTEKLİYOR mu, ÇELİŞİYOR mu, SUSUYOR mu?",
+   "🔴_UC_KOVA_YETMEDI_BES_OLDU": [
+    "🟢 DESTEKLI          gövde değeri veriyor ve AYNI OLAY için",
+    "🔴 CELISIYOR         gövde BAŞKA bir değer veriyor (mogolistan 41 gün · meysur 1 yıl)",
+    "⚪ SUSUYOR           gövde o kırılmaya hiç inmiyor (§4 TANECİKLİK)",
+    "⬜ PENCERE ISARETI   değer bir iddia DEĞİL, atlasın ufku/başı — 1281-01-01 · 1923-10-29",
+    "🟠 BASKA OLAY ICIN   🆕 yıl gövdede GEÇİYOR ama gövde onu BAŞKA bir olaya bağlıyor"
+   ],
+   "BESINCI_KOVA_NICIN_GEREKTI": [
+    "`nube` f:543 — gövdede \"543\" VAR, ve bir arama onu \"DESTEKLENDI\" diye",
+    "işaretlerdi. Ama gövdenin cümlesi HIRISTIYANLASMANIN başlangıcını",
+    "anlatıyor, Makurya/Alve krallıklarının kuruluşunu DEĞİL.",
+    "⇒ Yıl eşleşmesi DAYANAK DEĞİLDİR; dayanak, gövdenin o yılı NEYE",
+    "  bağladığıdır. (§11: \"eşleşme bulmak, doğru şeyi bulmak değildir.\")"
+   ],
+   "SAYIM": {
+    "🟢 DESTEKLI": 3,
+    "🔴 CELISIYOR": 2,
+    "⚪ SUSUYOR": 3,
+    "⬜ PENCERE ISARETI": 3,
+    "🟡 KISMEN/YIL": 2,
+    "🟠 BASKA OLAY ICIN": 1,
+    "not": "14 deger (7 künye × f/t). \"🟡\" iki ayrı yarı-kova: meysur t (ay) ve nepal t (yıl çakışması)."
+   },
+   "DEGISTIRILEN_TARIH": "SIFIR — çelişen iki değere (mogolistan f · meysur f) DOKUNULMADI. §: künye tarihi 4c/4d/Değişmez 2 bağlar, tek elden iner."
+  }
  },
  "ONERILER": [
   {
@@ -44,7 +72,18 @@
    ],
    "kaynak_MEVCUT": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
    "kaynak_ONERILEN": "delhi-sultanligi",
-   "not": "🔴 EN AGIR VAKA: madde ADIYLA \"Delhi Sultanligi\", kunyenin IKI UCUNU DA veriyor ve biri GUN hassasiyetinde. Damga \"TDV'de mustakil maddesi yok\" diyordu."
+   "not": "🔴 EN AGIR VAKA: madde ADIYLA \"Delhi Sultanligi\", kunyenin IKI UCUNU DA veriyor ve biri GUN hassasiyetinde. Damga \"TDV'de mustakil maddesi yok\" diyordu.",
+   "f_dayanak": {
+    "kova": "🟢 DESTEKLI (YIL)",
+    "cumle": "\"Ancak bağımsız bir sultanlık haline gelişi, Türk kumandan Kutbüddin Aybeg'in Muizzüddin'i 1206'da öldürüp tahta geçmesinden sonra olmuştur.\"",
+    "ek": "Hükümdar cetveli de teyit ediyor: \"Kutbüddin Aybeg 602 (1206)\".",
+    "not": "Künye f:1206-01-01 — TDV YIL veriyor, gün vermiyor. §4: yazım doğru."
+   },
+   "t_dayanak": {
+    "kova": "🟢 DESTEKLI (GUN)",
+    "cumle": "\"Bunun üzerine Bâbür Delhi'ye yürüdü ve ünlü Pânîpet Savaşı'nda İbrâhîm-i Lûdî'yi mağlûp ederek öldürttü (21 Nisan 1526).\"",
+    "not": "Künye t:1526-04-21 ile BIREBIR — yedi künyenin TEK gün eşleşmesi."
+   }
   },
   {
    "id": "somali",
@@ -66,7 +105,17 @@
    ],
    "kaynak_MEVCUT": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
    "kaynak_ONERILEN": "somali",
-   "not": "Kunye sultanliklari \"Migiurtinia/Hobyo\" diye yaziyor, TDV \"Macerteyn/Obbia\" — §4 yazim ekseni. Ayrica ONERI-SOZLESME-5-0905.json ile AYNI kunye (uc kalem: f: · ozet · kaynak)."
+   "not": "Kunye sultanliklari \"Migiurtinia/Hobyo\" diye yaziyor, TDV \"Macerteyn/Obbia\" — §4 yazim ekseni. Ayrica ONERI-SOZLESME-5-0905.json ile AYNI kunye (uc kalem: f: · ozet · kaynak).",
+   "f_dayanak": {
+    "kova": "⚪ SUSUYOR",
+    "cumle": null,
+    "not": "\"1500\" gövdede geçmiyor. Gövdenin verdiği dönüm noktası başka: \"Ancak 1543 yılında Habeşliler'in … Ahmed el-Mücâhid'i öldürmeleri neticesinde Adel Sultanlığı'nın yıkılması…\". Künyenin f:1500 değeri TDV'ye DAYANDIRILAMAZ."
+   },
+   "t_dayanak": {
+    "kova": "⬜ PENCERE ISARETI — bir iddia DEGIL",
+    "cumle": null,
+    "not": "1923-10-29 atlasın ufkudur. Gövdenin ilgili verdiği tarih ayrı: \"Mâcerteyn ve Obbia emirliklerine ait topraklar ise 1927'de İtalyanlar tarafından işgal edildi.\""
+   }
   },
   {
    "id": "mogolistan",
@@ -88,7 +137,17 @@
    ],
    "kaynak_MEVCUT": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
    "kaynak_ONERILEN": "mogolistan",
-   "not": "🔴 IKI DUZELTME: (a) kaynak → \"mogolistan\"; (b) ozet'teki YANLIS UYARI CUMLESI CIKARILSIN. ⚠️ VE BIR AYRISMA BILDIRIYORUM, COZMUYORUM: kunye f:1911-12-29, TDV ozerklik ilanini 18 Kasim 1911 veriyor — 41 gun fark. OLCTUM, HUKUM VERMEDIM."
+   "not": "🔴 IKI DUZELTME: (a) kaynak → \"mogolistan\"; (b) ozet'teki YANLIS UYARI CUMLESI CIKARILSIN. ⚠️ VE BIR AYRISMA BILDIRIYORUM, COZMUYORUM: kunye f:1911-12-29, TDV ozerklik ilanini 18 Kasim 1911 veriyor — 41 gun fark. OLCTUM, HUKUM VERMEDIM.",
+   "f_dayanak": {
+    "kova": "🔴 CELISIYOR (41 GUN)",
+    "cumle": "\"Aynı tarihte Cebtsun Damba Hutuhtu'nun liderliğinde birleşen Moğollar bağımsızlıklarını ilân ettilerse de uzun görüşmelerden sonra ancak özerklik elde edebildiler (18 Kasım 1911).\"",
+    "not": "Künye f:1911-12-29. TDV 18 Kasım 1911 diyor. DEGISTIRMEDIM — bildirim. Hangi tarafın doğru olduğunu ÖLÇMEDİM."
+   },
+   "t_dayanak": {
+    "kova": "⬜ PENCERE ISARETI — bir iddia DEGIL",
+    "cumle": null,
+    "not": "Gövde Bogd Hanlık'ın gerçek sonunu veriyor: \"…Cebtsun Damba Hutuhtu'nun ölümünden sonra 26 Kasım 1924'te Moğolistan Halk Cumhuriyeti ilân edildi.\" (ONERI-SOZLESME-5-0905.json'daki tarihli beyanın dayanağı budur.)"
+   }
   },
   {
    "id": "tibet",
@@ -108,7 +167,17 @@
    ],
    "kaynak_MEVCUT": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
    "kaynak_ONERILEN": "tibet — TDV maddesi f: ucunu BIREBIR veriyor (\"Phag Mo Gru Pa … idarenin başına geçti (1354)\"); t:1642 (Ganden Phodrang) maddede YOK, §4 TANECİKLİK: o tarih standart akademik kaynağa göredir",
-   "not": "⚠️ t:1642 (Ganden Phodrang) govdede YOK — \"1642\", \"Dalay\", \"Gushri\", \"dGe Lugs\" hicbiri gecmiyor. §4 TANECIKLIK: TDV Tibet'i goruyor, o kirilmaya inmiyor ⇒ t: icin akademik kaynak MESRU ve BOYLE YAZILMALI."
+   "not": "⚠️ t:1642 (Ganden Phodrang) govdede YOK — \"1642\", \"Dalay\", \"Gushri\", \"dGe Lugs\" hicbiri gecmiyor. §4 TANECIKLIK: TDV Tibet'i goruyor, o kirilmaya inmiyor ⇒ t: icin akademik kaynak MESRU ve BOYLE YAZILMALI.",
+   "f_dayanak": {
+    "kova": "🟢 DESTEKLI (YIL)",
+    "cumle": "\"Çatışmalar neticesinde merkezi dBus bölgesinde olan Phag Mo Gru Pa mezhebi galip geldi ve idarenin başına geçti (1354).\"",
+    "not": "Künye f:1354-01-01 ile BIREBIR yıl."
+   },
+   "t_dayanak": {
+    "kova": "⚪ SUSUYOR",
+    "cumle": null,
+    "not": "ARANDI ve YOK: \"1642\" · \"XVII. yüz\" · \"Gelug\" · \"Dalay\" · \"Sarı\" — hiçbiri gövdede geçmiyor. §4 TANECİKLİK: TDV Tibet'i görüyor, Ganden Phodrang kırılmasına inmiyor."
+   }
   },
   {
    "id": "nepal",
@@ -130,7 +199,17 @@
    ],
    "kaynak_MEVCUT": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
    "kaynak_ONERILEN": "nepal — TDV maddesi t: ucunu YIL düzeyinde destekliyor (\"tam bağımsızlığını ilân etti (1923)\"); Malla→Gorkha geçişi maddede tarihsiz, o kısım standart akademik kaynağa göredir",
-   "not": "⚠️ f:1281-01-01 govdede YOK — ama o zaten atlasin PENCERE BASI, bir kurulus iddiasi degil. Gorkha fethi (1768/69) de govdede gecmiyor: §4 TANECIKLIK."
+   "not": "⚠️ f:1281-01-01 govdede YOK — ama o zaten atlasin PENCERE BASI, bir kurulus iddiasi degil. Gorkha fethi (1768/69) de govdede gecmiyor: §4 TANECIKLIK.",
+   "f_dayanak": {
+    "kova": "⬜ PENCERE ISARETI — bir iddia DEGIL",
+    "cumle": null,
+    "not": "1281-01-01 atlasın pencere başıdır. Gövde Malla hanedanını tarihsiz anıyor (\"…yüzyıldan itibaren Malla hânedanına geçti\")."
+   },
+   "t_dayanak": {
+    "kova": "🟡 YIL DESTEKLI ama DEGER PENCERE ISARETI",
+    "cumle": "\"Dünya Savaşı'nın ardından tam bağımsızlığını ilân etti (1923).\"",
+    "not": "🔴 AYRIM: TDV 1923 YILINI veriyor, 29 EKİM gününü vermiyor. Künyenin t:1923-10-29 değeri bir pencere işaretidir ve yılın çakışması TESADUFTUR — \"TDV t: değerini doğruluyor\" DENEMEZ."
+   }
   },
   {
    "id": "meysur",
@@ -152,7 +231,17 @@
    ],
    "kaynak_MEVCUT": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
    "kaynak_ONERILEN": "meysur — TDV maddesi olayları veriyor ama HASSASİYETİ DAHA KABA: t: için \"Mayıs 1799\" (GÜN yok), f: için \"1760 yılında\" (künye 1761). Gün ve yıl TDV'ye MAL EDİLEMEZ",
-   "not": "⚠️ IKI HASSASIYET NOTU, IKISI DE BILDIRIM: (a) kunye f:1761-01-01, TDV \"1760 yılında\" diyor — BIR YIL fark; (b) kunye t:1799-05-04 GUN tasiyor, TDV yalniz \"Mayıs 1799\" veriyor ⇒ gunun dayanagi TDV DEGIL. §4: kaynak ay diyorsa gun TDV'ye MAL EDILEMEZ. HUKUM VERMEDIM."
+   "not": "⚠️ IKI HASSASIYET NOTU, IKISI DE BILDIRIM: (a) kunye f:1761-01-01, TDV \"1760 yılında\" diyor — BIR YIL fark; (b) kunye t:1799-05-04 GUN tasiyor, TDV yalniz \"Mayıs 1799\" veriyor ⇒ gunun dayanagi TDV DEGIL. §4: kaynak ay diyorsa gun TDV'ye MAL EDILEMEZ. HUKUM VERMEDIM.",
+   "f_dayanak": {
+    "kova": "🔴 CELISIYOR (1 YIL)",
+    "cumle": "\"1760 yılında Hindu racalığının müslüman kumandanlarından Haydar Ali Han Bahadır, Fransızlar'ın da yardımıyla Raca Rama hânedanını kontrolü altına aldı.\"",
+    "not": "Künye f:1761-01-01. DEGISTIRMEDIM — bildirim."
+   },
+   "t_dayanak": {
+    "kova": "🟡 KISMEN — AY destekli, GUN desteksiz",
+    "cumle": "\"…Seringapatam (Şirîrangapattanam) savaşında yenilerek muharebe meydanında öldü (Mayıs 1799).\"",
+    "not": "Künye t:1799-05-04 GÜN taşıyor; TDV yalnız AY veriyor. §4'ün 147 künyelik kovasının bir üyesi: künye gün iddia ediyor, kaynak ay diyor. Gün TDV'ye MAL EDILEMEZ."
+   }
   },
   {
    "id": "nube",
@@ -173,7 +262,17 @@
    ],
    "kaynak_MEVCUT": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
    "kaynak_ONERILEN": "nube — TDV maddesi Makarra (Makuria) ve Alve devletlerini ADIYLA anıyor ama f:543 ve t:1504 tarihlerini VERMİYOR (§4 TANECİKLİK boşluğu); tarihler standart akademik kaynağa göredir",
-   "not": "⚠️ f:543 ve t:1504 govdede YOK. Madde iki kralligi ADIYLA aniyor ama TARIH vermiyor ⇒ §4 TANECIKLIK boslugu: TDV bolgeyi goruyor, o tarihlere inmiyor. Kaynak alani bunu ACIKCA yazmali."
+   "not": "⚠️ f:543 ve t:1504 govdede YOK. Madde iki kralligi ADIYLA aniyor ama TARIH vermiyor ⇒ §4 TANECIKLIK boslugu: TDV bolgeyi goruyor, o tarihlere inmiyor. Kaynak alani bunu ACIKCA yazmali.",
+   "f_dayanak": {
+    "kova": "🟠 YIL GOVDEDE VAR — AMA BASKA OLAY ICIN",
+    "cumle": "\"Misyonerlerin Nûbe'de Hıristiyanlığı yayma faaliyetleri ilk defa 543'te başlamış, bölgede ilk kilise 600 yılından sonra yapılmıştır.\"",
+    "not": "🔴 BU EN INCE VAKA: künye f:543-01-01 ve gövdede 543 GEÇİYOR — ama HIRISTIYANLASMANIN başlangıcı olarak, bir DEVLETIN kuruluşu olarak DEĞİL. Künye \"Nûbe Krallıkları (Makurya-Alve)\" diyor. ⇒ Değer gövdeye İZLENEBİLİR ama gövde onu BAŞKA BİR ŞEYE bağlıyor. \"Destekli\" demek YANLIS olurdu."
+   },
+   "t_dayanak": {
+    "kova": "⚪ SUSUYOR",
+    "cumle": null,
+    "not": "\"1504\" · \"yıkıl\" · \"son buldu\" · \"XVI. yüz\" — hiçbiri yok. Gövde iki krallığı ADIYLA anıyor (\"kuzeyde Dongola'da Makarra (Makuria) Devleti, güneyde … Sûbâ'da ise Alve Devleti\") ama sonlarını tarihlemiyor."
+   }
   }
  ]
 }
