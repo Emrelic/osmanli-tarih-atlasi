@@ -839,6 +839,45 @@ Tunus'ta, Fizan 1.500 km güneydoğuda).
 (takas net kazanç vermiyordu); burada `hafsi` **tamamen** yanlış,
 `kanem-bornu` **çoğunlukla** doğru ⇒ 296 yıl → ~50 yıl, **net 246 yıl.**
 
+### 🔴 SÖZLEŞMENİN **ÜÇ BİÇİMİ** VAR — ve bir uyum ölçümü üçünü de aramalı
+
+İki oturum aynı kümeyi ölçtü, **13 ve 11** çıktı. İkisi de doğru:
+```
+"beyan VAR MI (herhangi biçimde)"  → 11 susuyor
+"STANDART PARANTEZ var mı"         → 13 yok
+FARK = arjantin-cumhuriyeti · kolombiya-cumhuriyeti
+```
+O iki künyede beyan **var** ama standart parantezle değil — aynı parti
+onları *"atlas"* kelimesiyle **yeniden icat etmiş.**
+```
+① STANDART      "(1923 sonrasında da sürdü)"          — 54 künye
+② YENİDEN İCAT  "Künyenin bitişi atlasın ufkudur…"     — arjantin · kolombiya
+③ `son` KAYDINDA  kronoloji kütüğünde                  — liberya
+```
+🔴 Ve bu bir **ölçüm** sorunu: ilk tarama tam bu yüzden `%34,7` demişti
+(gerçek `%81,6`). ⇒ ***Bir sözleşmenin uyumu ölçülecekse ÜÇ BİÇİMİ DE
+aranmalı.***
+⇒ `arjantin` ve `kolombiya` **kozmetik/normalleştirme** damgasıyla ayrı
+ve düşük öncelikli: beyanları doğru, yalnız biçimleri farklı.
+
+### 🔴 `zend`+`kacar` YAMASI HAZIR — AMA BİR MADDEYE BAĞLI (132 kayıt)
+```
+denetim/yer_yama_zend_kacar.js      132 kayıt · sınav çıkış 0
+denetim/KRONOLOJI-ZEND-1794-0905.json   ÖN ŞART
+```
+🔴 `1794-01-01` **çekirdekte MADDESİZ** (±30 gün → 0; kuyrukta 1 var ama
+`Değişmez 2` çekirdeği ölçer, **ve uygulayıcının kendi kapısı da öyle**
+— `_sahiplik_uygula.py:543` maddesiz günde kaydı ATLAR).
+⇒ **SIRA BAĞLAYICI:** madde önce (merge adımı ②), yama sonra (adım ⑥).
+Ters olursa uygulayıcı **132 kaydın tamamını atlar.**
+
+🟢 Ve yamanın biçimi, uygulayıcı **yazılmadan önce okunduğu** için
+değişti: `:636-663` kapsam daralmasını yasaklıyor (Çaçak vakası — bir
+yama `s:` dizisini değiştirmiş, altı dönemin beşi silinmiş, **113 yıl
+sahipsiz** kalmış). Uygulayıcı diziyi **değiştiriyor, eklemiyor** ⇒ her
+kayıtta TAM `s:` dizisi yazıldı, yalnız iki uç değişti. Daralma
+kontrolü koşturuldu: **0/132.**
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri
