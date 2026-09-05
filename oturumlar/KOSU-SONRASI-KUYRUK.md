@@ -1387,6 +1387,34 @@ sanardı. ⇒ ***Eşleşme sayısının büyüklüğü, dayanağın gücü deği
 otomatik eşleşmenin yanılması"* — otomatik bir tasnif **tam da ölçtüğü
 kusuru üretirdi.**
 
+### 🔴🔴 ALET, ÖNGÖRÜYÜ **SAHTE DOĞRULAYACAKTI** — ve yakalayan onu yazandı
+
+```
+öngörü      "hayalet+0 · 4c+0 · 4d+0 · künyesiz+0"
+alet bastı   BİREBİR AYNISI
+gerçek      "Egil: 0 eşleşme · Ergani: 0 …" ⇒ HİÇBİR ŞEY UYGULANMADI
+            o `+0` bir ölçüm değil TABAN
+```
+⇒ ***Bir öngörü, ancak aletin GERÇEKTEN çalıştığı doğrulanmışsa
+sınanmış olur.*** Sessizce hiçbir şey yapmayan bir aletin çıktısı
+tabandır, ve taban *"değişiklik beklemiyorum"* öngörüsüyle ayırt
+edilemez. `C13 ④`ün beşinci vakası — ve ilki **kendi aletinde, kendi
+lehine.**
+🟢 Çare alet oldu: eşleşme yoksa EKLE · kırılma kümesini KÜRESEL ölç
+(eski alet yeni noktanın getirdiği yeni günü de göremezdi — kusur
+**çift**ti) · iki `assert` ile **DUR.**
+
+**Düzeltilmiş ölçüm:** 7 eklendi · küme 3805→3812 · denetim +0 · küresel
+kırılma 538→538 · 3 km 7/7 · `Değişmez 1` **tam günlük tarama**
+(234.785 gün × 7) sahipsiz **0/7**.
+⚪ ⑤ petek etkisi **ÖLÇÜLEMEDİ** (motor gerekir, koşu canlı) — *"TUTTU
+da ÇÜRÜDÜ de demiyorum"*.
+⚪ En zayıf halkalar gizlenmedi: `Atak` konumu (tarihî kale bulunamadı,
+Lice merkezi) · `Kığı` kaynağı (TEK anılma, ve coğrafî olarak Erzincan
+yörüngesinde ⇒ `diyarbakir` konvansiyonu orada en zayıf).
+🟢 Ve zincirin **bir konvansiyon** olduğu yedi kaydın `not:` alanına
+yazıldı — bir sonraki oturum bunu yedi ayrı araştırma sanmayacak.
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri

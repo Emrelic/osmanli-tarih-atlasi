@@ -3988,6 +3988,27 @@ gerçek             :  Drama'nın ÜÇ, ötekilerin İKİ dönemi var
        bilerek kusurlu bir girdi ver, alet onu BİLDİRSİN.
        Bildirmiyorsa bozuk olan senin OKUMAN, aletin değil.
   ```
+  🔴🔴 **VE ④'ÜN EN TEHLİKELİ HÂLİ: ALET SESSİZCE HİÇBİR ŞEY YAPAR VE
+  ÇIKTISI SENİN ÖNGÖRÜNLE AYNI OLUR.** *(5 Eylül 2026 · `NEHİR SÜRTÜNME`,
+  ve kendi aletinde, kendi lehine)*
+```
+öngörü      "hayalet+0 · 4c+0 · 4d+0 · künyesiz+0"
+alet bastı   hayalet+0 · 4c+0 · 4d+0 · künyesiz+0      ← BİREBİR
+gerçek      "Egil: 0 eşleşme · Ergani: 0 …" — alet ada göre eşleştiriyor,
+            YENİ kayıtta eşleşme yok ⇒ HİÇBİR ŞEY UYGULANMADI
+            o `+0` bir ölçüm değil, TABAN
+```
+  ⇒ Bu proje öngörü disiplinini *"ancak yanlış çıkabilen bir şey bilgi
+  taşır"* diye kurdu. Burada disiplin **tersine döndü**: sessizce hiçbir
+  şey yapmayan bir aletin çıktısı **tabandır**, ve taban *"değişiklik
+  beklemiyorum"* diyen bir öngörüyle **ayırt edilemez.**
+  📌 ***Bir öngörü, ancak aletin GERÇEKTEN çalıştığı doğrulanmışsa
+  sınanmış olur.*** Yoksa öngörü kendini doğrular.
+  🟢 Ve çare *"dikkat et"* değil **alet** oldu: eşleşme yoksa kayıt
+  EKLENİR · kırılma kümesi KÜRESEL ölçülür (eski alet yalnız eşleşen
+  adlara bakıyordu ⇒ yeni bir noktanın getirdiği yeni GÜN görünmezdi,
+  kusur **çift**ti) · ve iki `assert`: uygulanan sayı ≠ yama sayısı ise
+  alet **DURUR.**
   📌 `§11`in *"`0`, 'yok' ile 'bakmadım' arasında ayrım yapmaz"*
   dersinin **dönüş değeri** ve **alan adı** yüzleri — ve `§4`ün
   *"bir alan adı, kullanıldığı yerden değil TANIMLANDIĞI yerden
