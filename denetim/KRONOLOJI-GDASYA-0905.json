@@ -75,6 +75,60 @@
     {"t": "1874-01-20", "tur": "antlasma", "b": "Perak, İngilizlerle Pangkor Antlaşması'nı imzaladı", "kaynak": "TDV malezya (bu turda okundu, birebir alıntı, GÜN hassasiyeti)."},
     {"t": "1896-07-01", "tur": "birlesme", "b": "Dört Malay devleti (Perak, Selangor, Negri Sembilan, Pahang) Federe Malay Devletleri olarak birleştirildi", "kaynak": "TDV malezya (bu turda okundu, birebir alıntı: 'Temmuz 1896')."}
    ]
+  },
+  {
+   "id": "tran-hanedani",
+   "eklenen": [
+    {"t": "1258-01-01", "tur": "savas", "b": "İlk Moğol istilası yarım ay içinde püskürtüldü", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Mongol invasions of Vietnam') doğrulandı."},
+    {"t": "1288-01-01", "tur": "savas", "b": "Trần Hưng Đạo, Bạch Đằng nehri ağzında demir uçlu kazıklarla Moğol donanmasını yok etti; üçüncü Moğol istilası da geri püskürtüldü", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Battle of Bạch Đằng (1288)') doğrulandı."}
+   ]
+  },
+  {
+   "id": "mac-hanedani",
+   "eklenen": [
+    {"t": "1533-01-01", "tur": "bolunme", "b": "Nguyễn Kim, Lê Trang Tông'u tahta çıkararak Lê hânedanını güneyde restore etti; ülke Mạc (kuzey) ve Lê (güney) arasında fiilen bölündü", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Mạc dynasty') doğrulandı."}
+   ]
+  },
+  {
+   "id": "tay-son",
+   "eklenen": [
+    {"t": "1788-11-22", "tur": "hukumdar", "b": "Nguyễn Huệ, Quang Trung unvanıyla imparator ilan edildi", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, GÜN hassasiyeti çevrimiçi ikincil kaynaklarla ('Quang Trung') doğrulandı."},
+    {"t": "1789-01-01", "tur": "savas", "b": "Quang Trung, Thăng Long'da yaklaşık 290.000 kişilik Çing (Qing) ordusunu bayram tatilinde baskınla yenilgiye uğratıp Vietnam bağımsızlığını pekiştirdi", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla doğrulandı."}
+   ]
+  },
+  {
+   "id": "campa",
+   "eklenen": [
+    {"t": "1471-03-22", "tur": "toprak-kayip", "b": "Başkent Vijaya, Vietnam İmparatoru Lê Thánh Tông'un ordularınca alındı; şehir tamamen yıkılıp on binlerce Cham öldürüldü — Champa'nın fiilî çöküşü sayılır", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, GÜN hassasiyeti çevrimiçi ikincil kaynaklarla ('Vijaya (Champa)') doğrulandı."},
+    {"t": "1627-01-01", "tur": "hukumdar", "b": "Po Rome tahta çıktı (1627-1651), küçülmüş Champa'nın son güçlü döneminde hüküm sürdü", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Po Rome') doğrulandı."}
+   ]
+  },
+  {
+   "id": "lan-xang",
+   "eklenen": [
+    {"t": "1353-01-01", "tur": "kurulus", "b": "Fa Ngum, Lan Xang Krallığı'nı resmen kurdu", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Fa Ngum', 'Lan Xang') doğrulandı. 🔴 NOT: künyenin f: alanı 1281, bu kesin kuruluş tarihi 1353 — muhtemelen künyenin f:'si burada da (angkor-kmer'de olduğu gibi) 'atlas ufku', gerçek kuruluş değil. Künye sahibine bildiriliyor."},
+    {"t": "1560-01-01", "tur": "hukumdar", "b": "Kral Setthathirath, başkenti Luang Prabang'dan Vientiane'a taşıdı", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla doğrulandı."}
+   ]
+  },
+  {
+   "id": "nguyen-hanedani",
+   "eklenen": [
+    {"t": "1820-01-01", "tur": "hukumdar", "b": "Minh Mạng tahta çıktı (1820-1841); sıkı Konfüçyüsçü politika izleyip Hıristiyan misyonerlere baskı uyguladı", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Nguyen dynasty') doğrulandı."}
+   ]
+  },
+  {
+   "id": "sarawak-brooke",
+   "eklenen": [
+    {"t": "1841-08-18", "tur": "kurulus", "b": "James Brooke, Brunei Sultanlığı'na bir isyanı bastırma yardımı karşılığında Sarawak racası unvanını aldı; resmî görevi 18 Ağustos 1842'de başladı", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, GÜN hassasiyeti çevrimiçi ikincil kaynaklarla ('James Brooke', 'White Rajah') doğrulandı."},
+    {"t": "1868-08-03", "tur": "hukumdar", "b": "Charles Brooke, dayısı James Brooke'un yerine ikinci Beyaz Raca (White Rajah) oldu", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, GÜN hassasiyeti çevrimiçi ikincil kaynaklarla ('Charles Brooke') doğrulandı."}
+   ],
+   "not_kaynak": "3/4 (1'den 3'e çıktı) — künyenin kendi 'son' tarihi (1923-10-29) atlas penceresinin sonu; Brooke hanedanı gerçekte 1946'ya kadar sürdü, bu bir ÇELİŞKİ değil KASITLI PENCERE KESME gibi görünüyor, künye sahibine bildiriliyor."
+  },
+  {
+   "id": "angkor-kmer",
+   "eklenen": [
+    {"t": "1181-01-01", "tur": "hukumdar", "b": "Jayavarman VII tahta çıktı (1181-1215); Angkor Thom, Bayon ve Ta Prohm tapınaklarını inşa ettirip imparatorluğu Budist bir krallığa dönüştürdü, Çamlıları geri püskürttü", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Jayavarman VII') doğrulandı. 🔴 NOT: künyenin f: alanı 1281, bu olay 1181 — 100 yıl ÖNCE. Muhtemelen künyenin f:'si (bu bölgedeki birçok künyede görülen desen) gerçek kuruluş değil 'atlas ufku' (1281 = atlasın başlangıç yılı) — künye sahibine bildiriliyor."}
+   ]
   }
  ]
 }
