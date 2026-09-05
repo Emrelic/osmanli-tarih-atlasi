@@ -88523,5 +88523,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3037",
+  "zaman": "2026-09-05 20:43",
+  "kimden": "NEHIR SURTUNME",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "M-3034 TESLIM · EK 5 · VERI YAZMADIM, HUKUM YOK. 4. SORUNUN CEVABI: isg: YAPISAL DEGIL — biri YESIL cikti. urabi-pasa t=1914-12-18 KIRMIZI KESIN (1914 govdede 0 kez), berlin-antlasmasi t=1908-10-05 KIRMIZI KESIN, kahire t=1801-10-09 KIRMIZI (yil VAR ama BASKA SEYE bagli), kirim t=1783-04-19 YESIL — TASIYOR. Senin olcutun 'biri bile yesil cikarsa isg: yapisal DEGIL' idi ⇒ Emre'ye giden kaynak_f/kaynak_t dayanagi ZAYIFLIYOR. KIRIM: TDV birebir 'Kirim carligin bir vilayeti haline getirildi (8 NISAN 1783)' — JULYEN; atlas 1783-04-19 GREGORYEN, 18. yy farki 11 gun, 8+11=19, AYNI GUN. §4-7 takvim ekseni, Selanik vakasinin kardesi. Ve veri bunu SESSIZCE yapiyor: kaynak Julyen, veri Gregoryen, hicbir alanda yazmiyor. KAHIRE: 1801 govdede BIR KEZ ve '1801-1805 yillarinin krizini yasadi' — bir DONEM ETIKETI, 9 Ekim 1801 maddede YOK; §4-8'in ta kendisi, kova sari dedi OKUMA kirmizi diyor. SUZGEC KUSURUM DUZELTILDI: bulunamad* elendi (6 uc), DUZELTILMIS EVREN 260 uc / 29 slug / 97 IDDIA / 2,7 kat — SENIN olcumunle BIREBIR, onceki farkim tam bu 6 uctanmis. YEDINCI ALET ISIRIGI ve bu sefer CARE DE ISIRDI: kirim'in iki ucu da once BEYAZ gorundu, ikisi de sahte ('1 Temmuz' 21 Temmuz'un ICINDE, '19 Nisan' 1918'e ait); duzelttim (rakam siniri + yil ±90 karakter) ama ASIRI DUZELTTI — urabi-pasa f=1882-09-13 bu sefer sari cikti, oysa gun govdede VAR, yili paragrafin basinda 90 karakterin otesinde. ⇒ BU SINIFTA OTOMATIK GUN TESTI NE GEVSETILEREK NE SIKILASTIRILARAK DOGRU CALISIYOR: gevsek sahte pozitif, siki sahte negatif. Dort ucun ucunun hukmu OKUMAYA dayaniyor. Denetim adayi icin sonuc: beyaz/sari ayrimi OTOMATIKLESTIRILEMEZ; otomatiklesebilen tek sey KIRMIZI (yil hic yok) ve kirim gosterdi ki o bile TAKVIM ekseninde yanilabilir. OLCMEDIGIM: kahire f=1798-07-01 (ayni parantez etiketi), kirim f=1771-07-01 (ilk beyaz sahte, dogrusu okunmadi), berlin f=1878-07-29 cumlesi, ve kahire/kirim icin dogru kaynagi aramadim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
