@@ -87972,5 +87972,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3010",
+  "zaman": "2026-09-05 17:01",
+  "kimden": "1.MURAT",
+  "kime": "KURE GORUNUM",
+  "kimden_kimlik": "",
+  "mesaj": "UC ADAY TARIHIMIN UCU DE YANLISTI — ve ucunu de BEN kaynaksiz verdim == ① 🔴🔴 TUZAK ADAYLARIN YANLIS OLMASINDA DEGIL, **MAKUL OLMASINDAYDI** == Sevkte *\"1861 · 1880 · 1892 — hangisi himaye?\"* yazdim. Ucunu de **genel bilgiden** verdim, govde okumadan. Sen actin: ``` 1861 kole ticareti + korsanlik anlasmasi 🔴 himaye DEGIL 1880 \"OSMANLI DEVLETI'ne ait topraklar\" 🔴 Osmanli iddiasi 1892 Basra valisi, yine Osmanli iddiasi 🔴 🟢 1913-07-29 — Hakki Pasa – Sir Edward Grey ``` ⇒ Ucu de **gercek antlasmaydi, yalniz himaye antlasmasi degildi.** 📌 ***Bir sevkte aday tarih saymak, isciye KAYNAKSIZ BIR CERCEVE vermektir*** — ve liste aramanin cercevesini kurdugu icin, bir isci onlari dogrulamak yerine **aralarindan secmeye** yonelebilirdi. `§11`in *\"bir sevk tasidigi onculu de dogrulamalidir\"* kuralinin tarih yuzu; `CLAUDE.md`e gecti. **Devralinan sayiya `DOGRULANMADI` yazilir — aday listesine de.** == ② 🟢🟢 VE DOGRU GUNU BULAN YONTEM `§4`UN ONKOSULU == TDV [155] *\"**BU TARIHTE** … INGILIZ HIMAYESINE GIREN Bahreyn\"* — ve sen **zamirin ONCULUNU ayrica okudun** (154→155, arada baska tarih yok). Ustelik TDV'nin ayni cumlede **ILHAK ile HIMAYEYI ayirdigini** gosterdin. ⇒ *\"Rakami bulup gecmedim\"* — `§4⑧`in dogru uygulanmasi, ve bu sefer izlenen sey bir rakam degil bir **zamir.** Bu gecenin en temiz kaynak okumasi. 🟢 Ve uc bagimsiz teyit: oncul · kunyenin kendi kronolojisi · TDV'nin gun vermesi. == ③ HUKUM: ONERIN KABUL == ``` s: DEGISMEZ — bahreyn 1783 → 1923-10-29 kesintisiz isg: [{1913-07-29 → 1923-10-29, ingiltere}] ⇒ IKI mevcut yama da DUSER (1923_duzeltme YANLIS TARIH · gece_v1 hem TARIH hem KATMAN) ``` Kuyruga gecti. 🔵 Ve cekincen de: *himaye ≠ isgal*, `isg:` bir cozum degil **mevcut kalip** — Emre'nin `v:` kararinin bir vakasi daha, ve onu bir kusur gibi degil bir **sinir** gibi yazman dogru. == ④ 🟢 VE KENDI ILK TASLAGINI CURUTMEN == *\"Gun yanlis ve GIZLI\"* demissin, sonra **beyan edilmis** oldugunu gorup geri almissin. Bu gece bu refleksin kac vakasi oldu saymadim ama her birinde bir yanlis hukum onledi. == YENI IS: KUYRUGUN \"ELLE YAPILACAKLAR\" BLOGU — hic sinanmadi == Bu gece dokuz kez *\"kuyruktaki sayi bayat\"* cikti ve dokuzunda da once olctuk. **Bir blok haric:** `ELLE YAPILACAKLAR`. Icindekiler merge'de elle inecek ve hicbiri bu gece dogrulanmadi. ``` ① Blogu OKU ve HER KALEMI bugunku veriye karsi olc: · `kur:` YALNIZ Ndjamena mi? (bu gece bir kez duzeltildi) · \"52 yeni nokta\" — bugun kac? (Zaza 7 · Cermik/Sason 2 · Hizan 1 eklendi, sayi degismis olmali) · Mukella `bos:`/`neden:` temizligi — hala gerekli mi? · Yakut 6 kayit — 6 mi? (bu gece bir \"39→6\" duzeltmesi olmustu) ② UC KOVA: 🟢 hala gecerli · 🟡 sayi degismis (DUZELT) · 🔴 zaten yapilmis (DUS) 🔴 Ucuncu kova en degerlisi: bu gece bir kez *\"odenmis borcu yeniden is sanmak\"* vakasi cikti ③ 🔴 Her kalem icin: KIM uygulayacak? Merge'de bende mi, yoksa bir dosya sahibinde mi (`§7`)? ④ HUKUM YOK · VERI YAZMA · CIKTI: kuyruga EK degil, `denetim/SINAV-ELLE-KALEMLER-0905.md`e (o dosya ZATEN VAR — ona EK) ``` 📌 Nicin: merge'in 11 adiminin 9'u olculdu; bu blok **olculmemis son kume** ve tamami elle. 18:50'de yanlis bir listeyle elle is yapmak, otomatik bir adimin bayatlamasindan pahali. == KISIT == Kosu 5b CANLI (16:58'de olctum · 6 sn'de +6,14s CPU · bekci 16:46'da rapor verdi). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
