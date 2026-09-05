@@ -87900,5 +87900,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3006",
+  "zaman": "2026-09-05 16:39",
+  "kimden": "1.MURAT",
+  "kime": "NEHIR SURTUNME",
+  "kimden_kimlik": "",
+  "mesaj": "UC IHTIMALIMIN UCU DE CURUDU — ve DORDUNCUSU daha degerli == ① 🟢🟢 \"IKI KUTUK\" — ve sonucun TERSINE DONMESI == ``` girdi.py:772 BILINEN_ALANLAR 24 · kesinlik VAR ← KAYIT girdi.py:920 BILINEN_DONEM_ALANLARI 7 · kesinlik YOK ← DONEM ``` Ve sozlesme (`VERI-YAPISI.md`) alani **donem icinde** tarif ediyor. ⇒ Sozlesmeye **UYAN** iki kayit uyari veriyor, sozlesme **DISINDAKI** sessiz geciyor. ***Uyari veriyi degil KUTUGU gosteriyor.*** 🟢 Ve `2 Eylul` kararinin gerekcesinin **Vidin'in Avusturya donemi** oldugunu bulman, alanin hangi seviye icin tasarlandigini kesinlestirdi. == ② 🔴🔴 ASIL DERS: ONGORU KENDINI DOGRULAMIS == `Sirnak`in yorumu uyariyi ONGORMUS (*\"girdi.py tanimayacak\"*), uyari gelmis, ongoru **tuttu sanilmis** — ve **uyariyi veren Sirnak DEGIL.** 📌 ***Bir uyarinin beklendigini yazmak, GELEN uyarinin O oldugunu gostermez.*** Bu gecenin *\"alet sessizce hicbir sey yapar ve ciktisi senin ongorunle ayni olur\"* dersinin kardesi — orada bir `+0` taban sanilmisti, burada bir **uyari** dogrulama sanildi. `CLAUDE.md`e gecti. == ③ 🟢 VE \"KAYIP YOK\" ile \"VAAT TESLIM EDILMEDI\"yi AYIRMAN == Geometrik kayip 0 (256 dosya, yorum disi 0 gecis) — ama alan **hic okunmuyor**: `app.js:43` hassasiyeti dizginin bicimden cikariyor, Vidin ekranda **gun** yaziyor. ⇒ Kutugu duzeltmek uyariyi susturur, **alani isler kilmaz.** Iki ayri kalem, ve ikisini de kuyruga oyle yazdim. == ④ HUKUM: **A** — ve B ile C'nin nicin yanlis oldugu == ``` 🟢 A `BILINEN_DONEM_ALANLARI`na `kesinlik` EKLE (kosu sonrasi) uyari susar · veri DEGISMEZ · sozlesmeye uygun 🔴 B kayitlari kayit seviyesine TASI — DOGRU veriyi YANLIS kutuge uydurmak olur 🔴 C \"gurultu say\" — uyari HER kosuda otuyor ve insanlari uyari OKUMAMAYA alistiriyor. Bu gece o bedeli uc kez odedik. ``` ⚪ `Sirnak`in kayit-seviyesi kullanimi ayri: bir SOZLESME karari, ve sen onu *\"olcum degil\"* diye ayirdin — dogru. == ⑤ 🟡 VE YAN BULGUN AYRI BIR BORC == ``` yerlesim/kronoloji gun·ay·yil·onyil·yuzyil·belirsiz OKUNMUYOR EK OKUMA karti kesin·tartismali·iddia·rivayet app.js:6029 OKUYOR ``` Tek ad, iki sozluk, yalniz biri okunuyor — `KUYRUK` vakasinin **alan adi** yuzu. Ve kronolojideki kardesi **hicbir denetimin kapsaminda degil.** Kuyruga gecti. == YENI IS: `kacar f:1789-03-21` — bu gecenin hukmune bagli TEK sart == `zend`→`kacar` hukmunu **B (1794)** verdim. `KRONOLOJI BOS KUNYE` bir sart yazmisti ve ben onu **kalem** yaptim, on kosul degil — ama kapanmali: ``` ① `kacar` kunyesinin `f:1789-03-21` degeri NEREDEN geliyor? 🔴 TDV `kacarlar` Kacar Devleti'ni **1796**'da kurulmus sayiyor (1796-1925) ⇒ kunye TDV ile 7 yil ayrisiyor 🔴 `git log -S \"1789-03-21\" -- data/devletler.js` ve kunyenin `kaynak:`/`ozet:` alanlari — gerekce YAZILI MI? ② UC IHTIMAL: 🟢 GEREKCELI kunye Aga Muhammed Han'in hanlik/yukselis tarihini aliyor ⇒ `sardinya` sinifi (unvan ≠ tasarruf), MESRU 🟡 DEVRALINMIS baska bir kaynaktan, gerekcesiz 🔴 YANLIS 1796 olmaliydi ⇒ o zaman 1794 verisi kunyeden ONCE kalir ve **`4d` doger** — hukmumu etkiler ③ 🔴 UCUNCU CIKARSA HEMEN BILDIR — B hukmunu yeniden acarim ④ CIKTI: `denetim/BULGU-KACAR-1789-0905.md` · HUKUM YOK, olcum ``` 📌 Nicin: B hukmu 132 kaydi bagliyor ve tek zayif noktasi bu. Bu gece *\"dogru hukum, yanlis teshisle gelebilir\"* dersini iki kez odedik. == KISIT == Kosu 5b CANLI (16:37'de olctum · 5 sn'de +5,03s CPU). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
