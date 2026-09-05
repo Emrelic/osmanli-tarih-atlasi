@@ -1980,6 +1980,46 @@ M-2784 kalıbı  `s:` YEREL kalır + `isg:` yabancı EKLENİR
 **Birini seçmek yanlış olur.** Ölçülecek: Bahreyn'in İngiliz himayesine
 giriş günü (1861 · 1880 · 1892 — üç ayrı antlaşma, hangisi *himaye*?).
 
+### 🔴 `zend`→`kacar` B HÜKMÜNÜN **ŞARTI**: çekirdeğe `1794` maddesi (16:50)
+
+Yama bellekte uygulanıp `denetle.py`nin kendi fonksiyonlarıyla ölçüldü:
+```
+🟢 hayalet 8→8 · 4d 434→434 · 4s 137→6 · sahipsiz 315→315 · D2 536/0
+🟡 4c 280→148   (öngörü 149 — 1 kayıt `4c yalnız`, `4s` değil)
+🔴 2s AÇIK 101 → **102**   ·   KAPSAM DIŞI 364 → 363
+   YENİ açılan gün 1794-01-01 · en yakın çekirdek madde **151 GÜN** ve
+   konusu ALAKASIZ («III. Selim'in esnaf loncaları»)
+   ⚠️ Tavan 121 ⇒ 102 GEÇER, ihlal DEĞİL — ama BORÇ
+```
+⇒ **B yolu, çekirdeğe (`data/olaylar*.js`) bir `1794-01-01` maddesi
+yazılmasını GEREKTİRİR.** Kuyruğa yazılan madde `2s` evreninde
+görünmez. Hassasiyet `1794-01-01` kalır — gün uydurulmaz.
+⚪ Dayanak TDV `lutf-ali-han` (Zendler'in son hükümdarı 1789-1794) —
+🟡 gövdesi **OKUNMADI**, devralındı.
+
+🟢 Ve bugünkü `1796-01-01` kırılmasının maddesi **0 gün** uzaklıkta ve
+tam konulu («Kaçar hânedanının İran'a hâkim oluşu») — B onu kırılma
+olmaktan çıkarır ama madde yerinde kalır (`2t` 12'de sabit).
+
+### 🔴 DOKUZ KAYBEDEN KAYIT — TEK GERÇEK KAYIP `neden:`
+
+```
+🟢 `d:`     9/9 canlı veride BİREBİR var ⇒ Osmanlı dönemleri GÜVENDE
+🟢 `kaynak` 9/9 birebir var    🟢 `v:` boş kabuk, kayıp değil
+🟢 `s:`     7/9 kayıp 0 · Gence·Revan kaba bloğu kaybediyor ama KAZANAN
+            onu daha İNCE veriyor (1917 geçici hükümet · transkafkasya ·
+            azerbaycan · sovyet) ⇒ SÜPERSED
+🔴 `neden:` 9/9 CANLIDA YOK ve GERÇEK İÇERİK — **TEK GERÇEK KAYIP**
+```
+⇒ Kazanan yamada `neden:` alanı **hiç yok**; taşınmazsa dokuz kaydın
+kaynak gerekçesi düşer. 🔴 **Taşınırsa KAYNAĞIYLA taşınır.**
+🟢 En değerlisi Derbend'inki: *"`derbend` ÖLÜ (302) ama
+`derbend--dagistan` CANLI (200)"* — `CLAUDE.md`in desen listesine
+eklendi.
+
+⚪ AYRI KALEM: `zend f=1747-06-20` ↔ künye `f=1751-01-01` — **3,5 yıllık
+`4d` borcu**, ve `4d`nin 434'te kalmasının sebebi bu.
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri

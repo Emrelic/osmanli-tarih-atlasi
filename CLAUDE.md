@@ -1260,7 +1260,7 @@ Yaşanmış örnekler: `ordu` askerî ordu maddesini açar, şehir maddesi `ordu
 ```
 📌 Desen tekrar tekrar çıkıyor (`§4③`): **kaynak vardı, adres yanlıştı.**
 `hurmuz` ölü ama `hurmuz--iran` canlı · `incular` ölü ama `incu` canlı ·
-`kutlug-hanlilar` ölü ama `kutlughanlilar` canlı · `nisabur` ölü ama
+`kutlug-hanlilar` ölü ama `kutlughanlilar` canlı · `derbend` ölü ama **`derbend--dagistan` canlı** (5 Eylül 2026'da ölçüldü — bu belge `derbend`i ölü diye kaydetmiş ama canlı varyantını bilmiyordu) · `nisabur` ölü ama
 `nisabur--iran` canlı. ⇒ **"TDV'de yok" demeden önce ARA.** Bir künyede
 *"TDV'de madde bulunmadığı için ertelendi"* yazıyorsa, o erteleme bu tuzağa
 düşmüş olabilir — `data/devletler.js` `uman` künyesinde gerçekleşmiş vaka var.
@@ -5913,3 +5913,38 @@ EK OKUMA kartı      kesin · tartismali · iddia · rivayet         app.js:6029
   (*"aynı kelime iki ayrı şey"*) **alan adı** yüzü. Ve kronolojideki
   kardeşi **hiçbir denetimin kapsamında değil** — kronoloji için alan
   kütüğü yok, `denetle.py` alan adı denetlemiyor.
+
+- 🔴 **"HER EKSENDE TEMİZ" DEMEK, SAYDIĞIN EKSENLERDE TEMİZ DEMEKTİR.**
+  *(5 Eylül 2026 · `zend`→`kacar` hükmü · `NEHİR SÜRTÜNME` ölçtü)*
+
+  Koordinatör bir hükmü *"her eksende temiz"* diye gerekçelendirdi ve
+  dört ekseni saydı: **hayalet · 4d · Değişmez 1 · C yolunun reddi.**
+  Yama bellekte uygulanıp `denetle.py`nin **kendi fonksiyonları**
+  çağrıldığında beşinci bir eksen çıktı — ve listede yoktu:
+```
+2s AÇIK  101 → 102     ·     2s KAPSAM DIŞI  364 → 363   (eşleşen ±1)
+YENİ açılan gün: 1794-01-01 · KAPANAN: yok
+1796-01-01  en yakın çekirdek madde   0 GÜN  «Kaçar hânedanının İran'a
+                                              hâkim oluşu»        🟢
+1794-01-01  en yakın çekirdek madde 151 GÜN  «III. Selim'in esnaf
+                                              loncaları…»   🔴 ALAKASIZ
+```
+  ⇒ Bugün `1794-01-01` yalnız beş **Kanada/Sibirya** kaydında kırılıyor
+  (kapsam dışı); yama 132 İran/Kafkasya kaydını o güne taşıyınca gün
+  **kapsam içine** giriyor.
+  🟢 Tavan 121 ⇒ **102 geçer, ihlal değil.** Hüküm ayakta — ama
+  ***gerekçesi eksikti, ve eksikliği ancak ölçüm gösterdi.***
+  📌 ⇒ Bir hüküm *"her eksende temiz"* diye savunuluyorsa, **saydığı
+  eksenlerin listesi de hükmün parçasıdır**; sayılmayan eksen bir
+  boşluk değil, **görünmeyen bir iddiadır.**
+  🟢 Ve doğru sonuç hükmü değiştirmiyor, **borcunu adlandırıyor**:
+  B yolu çekirdeğe bir `1794` maddesi yazılmasını **gerektiriyor**.
+  Alternatif (A) bir hayalet devlet bırakırdı; B belgelenebilir bir
+  kırılma bırakıyor. **Belgelenebilir borç, sessiz kusurdan iyidir.**
+
+  🟢 **VE AYNI TURDA TAKLİT ALET AYNAYA DÖNDÜ:** aynı oturum bu gece
+  `denetle.py` ile ayrışmıştı (`4s` kovasını taşımadığı için). Bu turda
+  **kova yapısını ve eşiği taşıdı** ve taban birebir üretildi
+  (`8 · 280 · 434 · 137 · 315 · 536/0 · 1327/101/364 · 3 · 12`).
+  ⇒ *"Bir aleti taklit ederken eşik · kova · kural dalları taşınır"*
+  dersi **aynı gece uygulandı ve tuttu.**
