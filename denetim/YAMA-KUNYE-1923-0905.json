@@ -77,7 +77,7 @@
       "t": "1922-01-01",
       "bolge": "misir-sudan",
       "ozet": "Aralık 1914'te İngiliz himayesinin ilanı ve Kavalalı hanedanının Osmanlı'ya tâbiiyetinin resmen bitmesiyle Hüseyin Kâmil'in sultan ilan edilmesiyle kuruldu; 1922'de Krallığa dönüştü.",
-      "kaynak": "🔴 GÜN BULUNAMADI — KABA GÜVENLİ DÜZEYE ÇEKİLDİ. TDV 'mısır' maddesi modern dönemi (Osmanlı sonrası) HİÇ KAPSAMIYOR (doğrulandı, madde geç Osmanlı döneminde bitiyor). Denenen akademik kapılar: Britannica ('place/Egypt/...') ÜÇ AYRI URL'DE 403 verdi (bot koruması) · Library of Congress 'Egypt: a country study' 403 · Cambridge Core akademik PDF ('Independence and constitutionalism in Egypt 1919-1922') indirildi ama metin çıkarılamadı (ikili/sıkıştırılmış). WebSearch özetleri ÜÇ FARKLI GÜN verdi aynı olay için (14/18/19 Aralık 1914) — bu ÇELİŞKİNİN KENDİSİ gün hassasiyetini haklı çıkarmıyor, tam tersi kanıtlıyor.",
+      "kaynak": "bulunamadı — TDV 'mısır' maddesi modern dönemi (Osmanlı sonrası) HİÇ KAPSAMIYOR (doğrulandı). Denenen akademik kapılar: Britannica (ÜÇ AYRI URL) · Library of Congress · Cambridge Core akademik PDF — dördü de erişilemedi (403 ya da ikili içerik). Tarihin dayanağı DURUYOR: f: bağlı verinin kullandığı aralığa (`misir-kavalali`nin t:'sine) HİZALANDI, t: `§4`ün en kaba güvenli düzeyine (yıl) çekildi. Akademik kaynak ARANACAK.",
       "not": "f:1914-12-18 KASITLI OLARAK `misir-kavalali`nin t:1914-12-18'iyle BİREBİR HİZALANDI — bu benim yeni bir araştırmam DEĞİL, zaten TDV-kaynaklı olan komşu künyenin sınırını devralmak (gün belirsizliğini araştırmaktansa 17-19 Aralık aralığındaki gerçek günü aramak yerine, boşluk/çakışma YARATMAMAYI önceledim). Gerçek gün (14/18/19 Aralık tartışmalı) netleşirse ikisi birden düzeltilmeli.",
       "nokta_durumu": {
         "olcum": "OKUMADIM — nokta-durumu ölçümüm yalnız SORULAN TARİH (1923-10-29) için yapıldı; o tarihte aktif olan `misir-kralligi`dir, bu künye (Sultanlık) DEĞİL. Sultanlık dönemi (1914-1922) için ayrı bir tarih kesitinde ölçüm gerekir, yapmadım."
@@ -90,7 +90,7 @@
       "t": "1923-10-29",
       "bolge": "misir-sudan",
       "ozet": "1922'de (28 Şubat tek taraflı bağımsızlık ilanı, 15 Mart unvan değişikliği — iki ayrı olay, HANGİSİNİN 'künye başlangıcı' sayılacağı belirsiz) Sultanlık'tan dönüşen krallık; 1953'e dek (site ufkunun çok dışında) sürdü.",
-      "kaynak": "🔴 GÜN BULUNAMADI — aynı erişim engelleri (yukarıya bak). WebSearch özetleri iki AYRI tarihli olay veriyor (28 Şubat bağımsızlık ilanı / 15 Mart unvan kararnamesi) ve ikisi de kavramsal olarak 'Krallığın başlangıcı' olabilir — hangisinin doğru çapa olduğuna karar veremedim, bu yüzden YIL düzeyine çekildim.",
+      "kaynak": "bulunamadı — aynı erişim engelleri (misir-sultanligi kaydına bkz). WebSearch özetleri iki AYRI tarihli olay veriyor (28 Şubat bağımsızlık ilanı / 15 Mart unvan kararnamesi) ve ikisi de kavramsal olarak 'Krallığın başlangıcı' olabilir — hangisinin doğru çapa olduğuna karar veremedim, bu yüzden `§4`ün en kaba güvenli düzeyine (yıl) çekildim. Akademik kaynak ARANACAK.",
       "not": "t: standart 1923-10-29 sınırına ÇEKİLDİ (koordinatörün 'iran' emsali gibi çok ileri bir tarihe UZATILMADI) — Krallığın 1953'e kadar sürmesi bu YAMA'nın kapsamı dışında, ozet'te not düşüldü.",
       "nokta_durumu": {
         "olcum_kutusu": "lat 22,0-31,7 / lon 25,0-35,0 (Mısır'ın Nil vadisi + Sina)",
