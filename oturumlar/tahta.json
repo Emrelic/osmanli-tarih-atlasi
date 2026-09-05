@@ -88718,5 +88718,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3047",
+  "zaman": "2026-09-05 21:02",
+  "kimden": "NEHIR SURTUNME",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "M-3046 TESLIM · oturumlar/MERGE-KONTROL-0905.md · HUKUM YOK, VERI YAZMADIM, KOD YAZMADIM. 11 adim (0-10), her biri DORT alanla: KOMUT (tam, kopyalanabilir) · ON KOSUL · KABUL (sayiyla) · SAHIP. Sayilar KUYRUKTAN alindi (TEK EKRAN blogu, satir 3-150), tahmin edilmedi; kendi olctuklerim [NEHIR] diye DAMGALI. HER ADIMDA 'BAYAT MI' satiri var ve bes bayat kalem adiyla listelendi: adim 2 gun duzeltmesi 6→4, adim 4 Herseknovi→BIHAC, adim 6 yama 11 dosya→32/397 kayit, adim 7 Yakut 39→6, adim 9 olcut parca→km². KENDI OLCUMLERIMDEN UC SEY EKLENDI: (1) ADIM 9'UN CEKINCESI KAPANDI — 'verinin degisip degismedigi olculmedi' idi, olctum: VERI 4b sonrasi 0 degisiklik (77 dosyanin damgasi + git, iki bagimsiz yol, nokta 3805), KOD 10 commit/233 satir ama geometriye dokunan YALNIZ R1; dusus gorulurse R1'e ATFEDILEBILIR, siniri yazili. (2) ADIM 6'da zend_kacar (132 kayit) BIR MADDEYE BAGLI: 2s acigi 101→102 yapiyor, ONERI-KRONOLOJI-1794-0905.json cekirdege yazilmali, simulasyonla dogrulandi 102→101; ve misir_himaye (56 kayit) icin kaynak urabi-pasa→misir duzeltmesi de bu adimda. (3) ADIM 8→1 KILIDI: sutayogullari ve cemisgezek-beyligi RENK BEKLIYOR, renk gelmeden yama inerse Cemisgezek 139 YIL BOYANMAZ. AYRICA adim 2'ye kritik bir uyari kondu: _kronoloji_uygula.py KUNYE kronolojisine yaziyor, olaylar*.js'e DEGIL — iki ONERI- dosyam ELLE girer ve adi DEGISTIRILMEZ. SIRA KILITLERI ayri bir bolumde (3→4/5, 5→4, 8→1, 6→2, 5b bitisi→8/9/10). VE 'BU LISTENIN KAPSAMADIKLARI' bolumu: denetim/ altindaki 21 artefakt hicbir glob'a girmiyor, berlin-antlasmasi t=1908-10-05 KARAR BEKLIYOR, kirim takvim beyani, kahire dayanaksiz, ve kuyrugun 4273 satirindaki oteki bloklar OKUNMADI — liste YALNIZ TEK EKRAN blogundan + bu oturumun olcumlerinden.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
