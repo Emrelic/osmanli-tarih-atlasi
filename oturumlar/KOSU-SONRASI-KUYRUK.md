@@ -1075,6 +1075,46 @@ taşı vakasının sınıfı: *bir uyarı okuru ölçüme iter, bir güvence
 TDV *Macerteyn/Obbia*) — ama bu **TAHMİN, ölçülmedi.** Ve eksenin yeni
 yüzü: *"kaynak başka yazıyor, biz KAYNAĞI bulamadık."*
 
+### 🟢 HARPUT + DİYARBAKIR KAPANDI — ve `Diyarbakır`ın TEŞHİSİ değişti
+
+```
+HARPUT      1281→1353 ilhanli · 1353→1429 artuklu (bilinen yanlış, damgalı)
+            1429→1440 akkoyunlu · 1440→1465 dulkadir · 1465→1507 akkoyunlu
+DİYARBAKIR  1281→1303 ilhanli · 1303→1353 artuklu · 1353→1394 celayirli
+            1394→1401 timurlu · 1401→1507 akkoyunlu · 1507→1515-09-10 safevi
+ikisinde de ÖNGÖRÜ = ÖLÇÜM (hayalet+0 · 4c 287+0 · 4d+0 · kırılma 0/0)
+```
+🟢 **`1440` bulundu** (TDV: *"Çakmak … Nasreddin Mehmed'in kızı ile
+evlendi **(1440)**"*) ⇒ tarihsiz sınır **13 yıldan 2 yıla** indi, ve
+`1442` (bir ÖLÜM yılı, nedensel bağı yok) yerine **1440** yazıldı.
+Ön onaydan sapıldı ve **bildirildi** — ön onay bir geri düşüş yoludur,
+bir emir değil.
+
+🔴 **`Diyarbakır`ın teşhisi ÇÜRÜDÜ (kendi raporu tarafından):** TDV
+`diyarbakir` 1303'te Gazan Han'ın Amid'i **Mardin Artuklu sultanına
+verdiğini** söylüyor ⇒ `artuklu` yanlış atıf DEĞİL, **tarihler yanlış**
+(veri üç kimliği yutuyor: Sutayoğulları · Celâyirli · Timurlu).
+⇒ Kör nokta dersi **etkilenmiyor** — kayıt hâlâ kusurlu, denetime hâlâ
+görünmez; değişen yalnız kusurun **cinsi.**
+
+⚪ `sutayogullari` (1343-1353) **bilerek** `artuklu` altında bırakıldı:
+künye yok, renk yok, `renkler.py` donuk ⇒ yazmak **harita deliği**
+açardı. Yanlış aralık **97 → 10 yıl.** Künye+renk önerisi kuyrukta (10.).
+⚪ `1378`in provenansı **kırmızı**: tek commit `a5a7b0b`, mesajı
+*"**Wikipedia** kronoloji denetimi"*, `kaynak:` alanı YOK (komşularında
+VAR). Ve toplu yazım DEĞİL — `1378-01-01` taşıyan 18 kayıt-dönemin
+**17'si Güney Hindistan.**
+
+#### 🟡 BİR EĞİLİM (n=10, YASA DEĞİL): `kaynak:` VARSA DOĞRU
+```
+`kaynak:` VAR 5 kayıt → 5'i DOĞRU
+`kaynak:` YOK 5 kayıt → 4'ü YANLIŞ (istisna Mardin)
+```
+Ölçen oturum *"bundan iş türetme"* diye uyardı — **haklı.** Ama bir
+**ölçüm** türetiliyor: geniş kümede de tutarsa atlasın
+**önceliklendirme aracı** olur (`kaynak:`sız kayıtlar önce taranır);
+tutmazsa bir gecelik tesadüf. ⇒ `kaynak:` kapsama ölçümü açıldı.
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri

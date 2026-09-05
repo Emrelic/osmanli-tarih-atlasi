@@ -355,6 +355,21 @@ denetimin SORDUĞU SORUYA denk gelmesiyle belirlenir.***
 sonra veriyi ona karşı tara. Menzil ölçülebilir değilse tarama da
 yapılamaz — ve o zaman `ölçülemedi` yazılır.
 
+> 🔴 **`Diyarbakır` SATIRININ TEŞHİSİ AYNI GÜN DÜZELDİ — vaka duruyor,
+> tanı değişti.** Aşağıda *"TDV: Amid 1232'de çıktı ⇒ aynı hata"*
+> yazıyordu; ölçen oturum kendi raporunu çürüttü:
+> ```
+> TDV `diyarbakir`: 1303 Gazan Han Amid'i MARDİN ARTUKLU sultanına VERDİ
+>                   1317 ayaklanma, Artuklu idaresi DEVAM
+>                   1343 Sutayoğulları · 1353 Celâyirli · 1394 Timur
+>                   1401 Karayülük · 1507 Safevî · 1515-09-10 Osmanlı
+> ```
+> ⇒ `artuklu` **yanlış atıf DEĞİL** — kimlik meşru, **tarihler yanlış.**
+> Sınıf: **YANLIŞ TARİH + EKSİK ZİNCİR** (veri üç kimliği yutuyor).
+> 🟢 **Kör nokta dersi etkilenmiyor:** kayıt hâlâ kusurlu ve denetime
+> hâlâ görünmez (kimlik künyeye OTURUYOR). Değişen yalnız **kusurun
+> cinsi.** `§11`: *"doğru hüküm, yanlış teşhisle gelebilir."*
+
 🔴 **VE İLK DOĞRULANMIŞ VAKA AYNI GÜN GELDİ — `artuklu`:**
 ```
 Harput · Çemişgezek · Palu  `artuklu` 1281 → 1465
