@@ -323,6 +323,20 @@ farklı çıktı** — ve çareleri **birbirinin tersi**:
            sürdürüyor — AMA TOPRAK GERÇEKTEN DOLU
            ⇒ ÇARE: YENİ KÜNYE (+ renk). Kısaltmak DELİK AÇAR.
 ```
+🔴 **VE ③'ÜN ÇARESİ AYNI GÜN DÜZELTİLDİ — "yeni künye" YETMEZ:**
+*(`singhasari` · `NEHİR SÜRTÜNME`, ve öngörüsü ÇÜRÜYEREK buldu)*
+```
+`majapahit` künyesi VAR (1293-1527) — AMA YAZILAMAZ
+Cava çekirdeği  singhasari →1292 · majapahit 1292→1527   ✓ doğru
+Doğu adaları    singhasari →1343 · majapahit 1343→1478   ve 1343 DOĞRU
+                (Gajah Mada Bali'yi 1343'te aldı)
+⇒ 1292-1343 arası ada BAĞIMSIZDI (Pejeng) ve o kimlik YOK
+  (`bali-kralliklari` 1478'de başlıyor — 135 yıl GEÇ)
+```
+⇒ Kısaltmak **51 yıllık delik** açar, genişletmek **fetihten 51 yıl
+önce** boyar. ***ARDIL KÜNYENİN VAR OLMASI, YAZILABİLİR OLDUĞU ANLAMINA
+GELMEZ — PENCERESİ DE TUTMALI.*** Ön koşul *"künye var mı"* değil,
+**"künye var mı VE penceresi boşluğu kapatıyor mu."**
 🔴 **Ve ③'ü ①'e benzetip dönemi kısaltmak, `Değişmez 1`i ihlal eder:**
 toprak boş değildi, yalnız adı değişmişti.
 
@@ -398,6 +412,13 @@ farklı olsa bile cins aynı.**
 seçmişti. ⇒ ***Görünürlük de sınıfı belirlemiyor — yalnız ÖLÇÜM
 belirliyor.*** Büyüklük bir **öncelik** ölçütü olabilir; bir **teşhis**
 ölçütü değildir.
+
+🟡 **AMA BU SATIR "ÖLÇEĞİ YOK SAY" DİYE OKUNMAMALI** — ertesi tur
+düzeltildi. Aynı oturum ölçeği bilinçli olarak yeniden kullandı, riski
+**öngörüsüne yazdı**, ve bu sefer **tuttu**: `1,4-2,3 yıl → gün kararı`
+· `51-56 yıl → gerçek kusur`. ⇒ ***Ölçek bir KORELASYONDUR, bir KURAL
+DEĞİL:*** bir **öncel**dir, bir hüküm değil. Nereden şüpheleneceğini
+söyler; ne olduğunu ölçüm söyler.
 
 🟢 **VE AYNI TURDA BİR ARAÇ DERSİ:** ölçüm aleti `sardinya`yı künye
 `id`si sanıp `NoneType.get` ile **ÇÖKTÜ** — ve çökmesi doğru davranıştı:

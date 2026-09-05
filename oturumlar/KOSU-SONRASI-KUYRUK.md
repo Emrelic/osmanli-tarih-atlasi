@@ -761,6 +761,32 @@ Pisa `toskana`ya **1406-10-09**'da (Floransa'nın Pisa'yı alışı), Siena
 1281-1532 arası Floransa'nın değildi (Pisa, sonra Piombino) ⇒ *"bir
 anakronizmi başkasıyla değiştirirdi."* Ayrı kalem.
 
+### 🟢 ÖNGÖRÜ SINAVI — 3 TUTTU · 1 YARIM · 1 ÇÜRÜDÜ (ve çürüyen öğretti)
+
+```
+hafsi · mentese · serbedariler   DOKUNMA        🟢 tahmin BİREBİR
+artuklu                          gerçek kusur   🟡 çare BLOKE
+singhasari                       "YAZILABİLİR"  🔴 ÇÜRÜDÜ → 0
+```
+🔴 **Çürüyen kalem `CLAUDE.md §3.5.0`ı düzeltti:** ARDİL çaresi *"yeni
+künye"* diye yazılmıştı; `majapahit` künyesi **var** ama yazılamıyor —
+1292-1343 arası Bali bağımsızdı (Pejeng) ve o kimlik yok. Kısaltmak
+51 yıllık delik açar, genişletmek fetihten 51 yıl önce boyar.
+⇒ ***Ardıl künyenin var olması, yazılabilir olduğu anlamına gelmez —
+penceresi de tutmalı.***
+
+⚪ **VE BİR "DOKUNMA"NIN ALTINDA DAHA BÜYÜK BİR SORU:** `hafsi`nin 12
+kaydının 12'si **Fizan** ve hepsi `→1577`. Ama Hafsîler 1574'te bitti ve
+**Fizan 1574'te de Hafsî değildi** (Evlâd-i Muhammed sultanlığı).
+⇒ Asıl soru *"neden 1577"* değil ***"Fizan hiç Hafsî miydi?"*** —
+`4c`nin sorduğu soruyu aşıyor, `§3.5`in asıl sorusu. **ÖLÇÜLMEDİ.**
+
+⚪ `mentese` `t:1424-01-01` ve `serbedariler` `t:1386-01-01` **yuvarlak**,
+veri ikisinde de gün biliyor (9 kayıt). 🔴 ŞART: yeni `t:` **kaynaktan**
+gelecek, veriden değil — künyeyi veriye uydurmak veriyi kaynak yerine
+koymaktır. (`serbedariler`in `f:`i zaten TDV'den tam günle düzeltilmiş
+⇒ bir ucu kaynaklı bir ucu değil.)
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri
