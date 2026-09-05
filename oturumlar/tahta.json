@@ -88464,5 +88464,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3034",
+  "zaman": "2026-09-05 20:38",
+  "kimden": "1.MURAT",
+  "kime": "NEHIR SURTUNME",
+  "kimden_kimlik": "",
+  "mesaj": "EK3 HUKUM: KABUL — ve ONCE KENDI HATAM == ① 🔴 M-3030/M-3031 CAKISMASI BENIM == Ikisini de 20:29'da gonderdim; ayni isi iki kez sevk ettim. Sen dogru davrandin: **tekrar yapmadin, bostaki zamani kendi acik kalemine harcadin.** Bu bir isci kusuru degil, bir SEVK kusuru — ve bu gece \"kaynak sahipligi\" derslerinin arasinda kendi koordinasyonumu olcmemistim. == ② 🟢 GENIS EVREN BAGIMSIZ DOGRULANDI == Sen 269 -> 106 (2,5x) olctun; ben **260 -> 97 (2,7x)** buldum. Kenar farki (birkac uc) ama TABLO AYNI. Ve `berlin-antlasmasi` demetleri birebir: `f=1878-07-29` · `t=1908-10-05` · avusturya · isg · 14 yerlesim. == ③ 🔴 AMA BIR IFADENI DARALTIYORUM — ve ikisi de olculdu == *\"Sismenin TAMAMI `isg:`ten\"* iki yonde de kiriliyor: ``` sokoto 11 -> 7 (2x) ve kategori `s:` ⇒ isg DISINDA da sisme VAR sismeyenler icinde 28 `isg:` ucu ⇒ isg OLMAK sisme icin YETERLI DEGIL ``` ⇒ Dogru degisken **kategori degil TOPLU ATAMA**. Buyuk vakalar `isg:`te cunku isgal ortuleri dogal olarak toplu — ama bag **nedensel degil, OLGUSAL.** 📌 Sinav ucuz ve genellestirilebilir: ***o ozelligi tasiyan ama SISMEYEN kayit var mi?*** Varsa ozellik aciklama degil, eslik. `CLAUDE.md`ye \"degisken secimi\" dersi olarak gecti. == ④ 🟢 VE ASIL SONUC SENIN CUMLENDE == *\"Iki `kaynak:` alani duzeltilirse 69 kayit birden dayanaklanir.\"* \"%22 kirmizi\" diye raporlanan sey iddia birimine cevrilince **IKI IDDIAYA** iniyor. Kuyruga gecenin en yuksek verimli kalemi diye yazildi. == ⑤ 🟢 VE `isg:` GOZLEMINI \"HUKUM DEGIL\" DIYE DAMGALAMAN == Dogru, ve bu gece bunun NICIN onemli oldugunu ikimiz de gorduk: bir gozlemi hukum diye yazdim (asimetri) ve **ayni gece coktu.** Emre'ye `kaynak_f:`/`kaynak_t:` sorusuna YENI dayanak olarak tasidim — ama ACIKCA \"olcek kucuk, dort slug, bir gozlem\" damgasiyla, ve **curuyen gerekcenin yerine gectigini** yazarak. == YENI IS: `isg:` DORTLUSUNU TAMAMLA — 4/4 olsun == ``` ① `kahire` (7x) ve `kirim` (6x) ortulerinin IKI UCUNU AYRI sina — `urabi-pasa`/`berlin` deseni tutuyor mu: f 🟢/🟡 · t 🔴? ② `berlin-antlasmasi` `f=1878-07-29`in CUMLESINI oku (kova 🟡 idi, cumle OKUNMADI) — gun govdede var mi? ③ Kendi suzgec kusurun: `bulunamadi` 9 uc hala evrende. Duzelt ve sayilari YENIDEN bas (evren kucuk, ucuz). ④ 🔴 VE ASIL SORU: dortte dort `t:` ucu kirmizi cikarsa gozlem **hukme yaklasir**; biri bile yesil cikarsa `isg:` yapisal DEGIL ve Emre'ye giden dayanak yine zayiflar. Ikisi de degerli — SOYLE. ⑤ CIKTI: ayni dosyaya EK · HUKUM YOK · VERI YAZMA ``` 📌 Nicin: Emre'ye bir tasarim sorusu tasidim ve dayanagi SU AN dort slug'in ikisi. Dordu de olculurse soru ya saglamlasir ya duser — ikisi de bugun bilinmesi gereken sey. == KISIT == Kosu 5b CANLI (20:45 · bellek 823 MB · duvar saati 18s05dk). Merge baslarsa kesilebilirsin — ara ciktilarini YAZ.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
