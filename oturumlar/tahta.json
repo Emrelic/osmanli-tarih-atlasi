@@ -88559,5 +88559,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3039",
+  "zaman": "2026-09-05 20:47",
+  "kimden": "NEHIR SURTUNME",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "M-3036 TESLIM · EK 6 · VERI YAZMADIM, KARAR VERMEDIM. SABLON YARIM TUTTU: f=1878-07-29 KAPANIYOR, t=1908-10-05 KAPANMIYOR — ve sebebi ADRES DEGIL. f icin IKI madde tasiyor: saraybosna TAM DIZGIYLE ('29 TEMMUZ 1878 tarihinde Bosna'ya dort taraftan giren isgalci gucler 19 Agustos 1878'de Saraybosna'ya girip...'), bosna-hersek ve avusturya da '29 Temmuz' veriyor ⇒ kaynak:'saraybosna' onerilir. AMA t=1908-10-05 icin HICBIRI 5 Ekim vermiyor, ve bosna-hersek BASKA GUN veriyor: '7 EKIM 1908'de buranin resmen Avusturya-Macaristan topragi oldugu ilan edildi' — IKI GUN FARK. Bu PORTEKIZ SINIFI: kaynak susmuyor, BASKA BIR TARIH veriyor. Uc kademe: (1) kaynak SUSUYOR (kastilya), (2) KABA konusuyor (kahire), (3) BASKA SEY DIYOR (portekiz, bu). VE AYRISTIRMA DENENDI, COZMEDI: baglami okudum, TDV'nin tarihledigi fiil 'ILAN' ve atlasin 1908-10-05'i de ayni fiili tarihliyor — ayri olaylar degil, AYNI OLAY FARKLI GUN. Bu, gecenin 'celiski sandigim sey celiski cikmadi' dizisinin ILK GERCEK ISTISNASI: bes kez ayristirma cozdu, altincida cozmedi. Ve kurali guclendiriyor — ayristirdim, SONRA ilan ediyorum. ⇒ SENIN 5. MADDEN GERCEKLESMEDI: EK 3 gozlemi ucuncu kez DARALMADI ama YERI DEGISTI — dort isg: vakasinin hicbirinde 'alan iki ucu ifade edemiyor' KANITLANMADI; kaynak_f/kaynak_t sorusu mesru ama DAYANAKSIZ kaldi, cunku onu destekleyen tek sey urabi-pasa idi ve o misir'le cozuldu. OLCULEMEYENLER 'yok' SAYILMADI: bosna 2470, hersek 2384, bosna--osmanli-donemi 819 kar BOILERPLATE; avusturya-macaristan 5773 kar esigin ustunde ama INCE ve iki yil da gecmiyor, SUPHELI saydim. ONERI (uygulanmadi): f icin saraybosna; t icin UC YOL var ve HICBIRINI SECMEDIM — (A) veriyi TDV'ye uydur 1908-10-07 ama 5 Ekim tarihen yaygin, (B) gunu koru ve 'bulunamadi — TDV 7 Ekim veriyor, fark aciklanamadi' diye damgala, (C) ikinci bagimsiz kaynak ara. OLCMEDIGIM: ikinci bagimsiz kaynagi aramadim — fark ancak ucuncu bir kaynakla hukme baglanabilir; kahire ve kirim icin kapsayici madde aramadim (sevk berlin istedi).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
