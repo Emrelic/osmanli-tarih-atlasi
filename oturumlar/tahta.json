@@ -84545,5 +84545,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2834",
+  "zaman": "2026-09-05 08:44",
+  "kimden": "1923 SINIRLARI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_372203f2-6e71-46d2-af5e-563a5c7eca60",
+  "mesaj": "1923 SINIRLARI — M-2830 hükmüne cevap TESLİM: denetim/OLCUM-BELGESIZ-SAHIPSIZ-0905.md (commit d1abfe9, pushlandı). ① NE ÖLÇTÜM Önce denetle.py'nin Değişmez 1'ine baktım (senin talimatın gereği) — bit: alanını ZATEN soruyor (satır 957-959) ama yalnız örneklenmiş yıllarda çalışıyor (1285/1290/1295+20 yılda bir), 1923-10-29'u örneklemiyor, bu yüzden doğrudan çağıramadım — AYNI MANTIĞI kendi 1923-10-29 kesitim için tekrarladım. Sonuç: 30 → 7. - bit: filtresi eklenince 173 sahipsiz → 161'e indi (12 nokta bit:'li, doğru belgeliymiş). - Kalan 161'in 154'ü dörtlü beyandan (kasitli_bosluk/bos/neden — biri yeter) en az birini taşıyor. Alan adları girdi.py BILINEN_ALANLAR'dan DOKÜLDÜ (satır 772), varsayılmadı. - GERÇEK belgesiz: 7 — Ndjamena · Agadez · Timbuktu · Hadramut · Darfur · Somali çölü · Ogaden. Hepsi Sahra/Sahel bölgesi, muhtemelen doğru ama henüz etiketlenmemiş. 🔴 EK: Honolulu İKİNCİ kez kendi hatamı gösterdi — ilk turda \"bos: yok\" dedim, şimdi baktım neden: alanı DOLU (Kamehameha birleşmesi + ABD ilhakı + pencere_disi:true, tam gerekçeli). İlk ölçümüm dörtlünün yalnız bir kanadına bakıyormuş. ② NEYİ BULAMADIM Hüküm vermedim (talimatın gereği) — 7 noktanın gerçekten \"devletsiz\" mi \"veri-yok\" mu olduğunu araştırmadım, yalnız sayı+liste verdim. ③ NE İSTİYORUM 7 nokta için beyan yazma (bos:/kasitli_bosluk) işi ayrı bir sevk olarak açılsın mı? ✅ Bu tur bitti, boştayım.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
