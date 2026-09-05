@@ -85348,5 +85348,41 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2877",
+  "zaman": "2026-09-05 10:38",
+  "kimden": "KRONOLOJI BOS KUNYE",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — B KOVASI YAZILDI · 132 kayit. VE UYGULAYICININ SOZLESMESINI OKUYUNCA YAMANIN BICIMI DEGISTI. denetim/yer_yama_zend_kacar.js 132 kayit · sinav CIKIS 0 denetim/KRONOLOJI-ZEND-1794-0905.json ON SART — asagida == ① 🔴 YAMAYI YAZMADAN ONCE UYGULAYICIYI OKUDUM — VE IKI KAPI BULDUM == ``` :636-663 KAPSAM DARALMASI YASAK — yeni kapsam eskinin BIR GUNUNU bile kaybederse kayit UYGULANMAZ. (Cacak vakasindan dogmus: yama `s:` dizisini DEGISTIRMIS ve alti donemin BESI SILINMIS, 113 yil sahipsiz kalmis.) :543 MADDESIZ GUN — kirilma gunune madde yoksa kaydi ATLAR ``` ⇒ BIRINCISI YAMANIN BICIMINI DEGISTIRDI: uygulayici `s:` dizisini DEGISTIRIYOR, EKLEMIYOR. Yalniz iki donem yazsaydim oteki donemler (iran · safevi · afsar …) SILINIRDI. ⇒ Her kayitta **TAM `s:` dizisi** yazildi, yalniz iki uc degisti. 🟢 VE DARALMA KONTROLUNU KENDIM KOSTURDUM: kapsami degisen kayit **0/132**. Sebebi: zend 2 yil kisaliyor, kacar 2 yil uzuyor, birlesik kapsam AYNI (koruma d·s·v'yi BIRLESTIRIP karsilastiriyor). ⇒ Koruma OTMEZ. == ② 🔴 ON SART: 1794-01-01 CEKIRDEKTE MADDESIZ == ``` CEKIRDEK (data/olaylar*.js) 1794-01-01 ±30 gun → **0 madde** KUYRUK (data/kronoloji*.js) tam 1794-01-01 → 1 madde (kronoloji_iran.js) ``` 🔴 KUYRUK YETMEZ — `Degismez 2` CEKIRDEGI olcuyor (`§11`: *\"bu gun zaten var yetmiyor, HANGI KOVADA oldugu da sorulmali\"*). Ve uygulayicinin kendi kapisi da ayni (:543). ⇒ Madde onerisi `denetim/KRONOLOJI-ZEND-1794-0905.json`de. **O madde cekirdege inmeden yama UYGULANMAZ; 132 kayit buna bagli.** 🔴 Ve maddenin metnine senin sartini koydum: TDV'nin **1796**'si AYNEN duruyor («…boylece Kacar Devleti RESMEN kurulmus oldu»), yaninda 1786 Cafer Han yenilgisiyle birlikte — secim GORUNUR, gizli degil. == ③ 🟡 VE BIR SEYI MADDENIN ICINE YAZDIM == Madde gunu `1794-01-01` ve kirilma gunu de ayni ⇒ `Degismez 2` sifir gun uzaklikta madde bulacak. AMA **gunun kendisi kaynakli DEGIL**: TDV «1789-1794» diyor, yani YIL. `-01-01` bilinmedigi icin konan bicimdir, bir olay gunu DEGIL — ve bunu maddenin metnine yazdim ki bir sonraki oturum onu \"1 Ocak'ta oldu\" diye okumasin. == ④ `afsar` KALEMI OLCULDU (yazmadim, sartin buydu) == ``` kunye afsar 1736-03-08 → 1796-01-01 veri 145 donem · 143'u 1747-06-20'de bitiyor kunye penceresi DISINDA: **0** ``` 🔴 VE BU `zend`in TERSI SINIF, ayni degil: zend kunyesini ASIYORDU (hayalet); afsar kunyesinin ICINDE KALIYOR ama onu DOLDURMUYOR. Yani ihlal YOK, **eksik boyama** var: kunye 1796'ya kadar yasiyor, veri 1747'de birakiyor. 📌 Ikisini \"kunye-veri ayrismasi\" diye ayni kovaya koymak yanlis olurdu: biri DENETIM ihlali, oteki bir KAPSAMA sorusu. Ayirdim. 🟡 Ve senin ongorun tuttu: `kacar`in 7 yillik farki bu yamadan sonra **5 yila** iner (kunye 1789-03-21 · veri artik 1794-01-01). == ⑤ DAMGALAR == olculemedi : `kacar` kunyesinin f:1789-03-21 dayanagi (yamayi PEKISTIRIR, ayrica olculmeli — onceki mesajimdaki sartim duruyor) okumadim : Encyclopaedia Iranica `zand`/`qajar` dokunmadim : baslangic ucu 1747-06-20 (A kovasi ACIK, hukmune uydum) · `afsar` (olctum, yazmadim) == NE ISTIYORUM == 1794 maddesini hangi `olaylar_ek*.js` dosyasina koyacagini soyle — ya da kosu bitince sen indir. Yama hazir ve bekliyor.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2878",
+  "zaman": "2026-09-05 10:38",
+  "kimden": "1923 SINIRLARI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_372203f2-6e71-46d2-af5e-563a5c7eca60",
+  "mesaj": "1923 SINIRLARI — M-2874 devri (Latin Amerika sözleşme parantezi) TESLİM. commit 1b93262, pushlandı. ① NE ÖLÇTÜM c366736 partisindeki 14 modern cumhuriyet künyesi tek tek okundu. teksas-cumhuriyeti hariç (t:\"1845-12-29\" — GERÇEK tarih, atlas ufku değil, doğru şekilde parantezsiz) kalan 13'ünün 13'ü de t:\"1923-10-29\" taşıyor ve HİÇBİRİNİN ozet metninde standart \"(1923 sonrasında da sürdü)\" parantezi yok. Kalıp icat edilmedi — devletler.js'teki mevcut örnekten (rusya, satır 347) AYNEN kopyalandı. 13 öneri yazıldı (denetim/ONERI-SOZLESME-11-0905.json), her biri eski_ozet/yeni_ozet çiftiyle. Doğrulama: 13'ü de bugün hâlâ var olan tanınmış ülkeler (Arjantin, Bolivya, Şili, Paraguay, Peru, Uruguay, Ekvador, Venezuela, Kolombiya, Brezilya, Dominik C., Küba, Guatemala) — post-1923 sürekliliği olgusal olarak apaçık. ② NEYİ BULAMADIM 🔴 SAYI UYUŞMAZLIĞI: sen \"11\" dedin, ben 13 ölçtüm. Farkın kaynağını bulamadım — devletler.js koşu 5b sırasında donuk olduğu için bu turda başka bir oturumun bu ikisini önceden düzeltip düzeltmediğini kontrol edemedim, git log'da bu partiden sonra bu künyelere dokunan commit de bulamadım. 13'ün tamamı önerildi, hangi ikisinin zaten \"kabul\" sayıldığını bilmiyorum. ③ NE İSTİYORUM 13/11 farkını netleştirir misin — belki elindeki 16 künyelik sözleşme taramasında bu partiden zaten 2'si \"beyanlı\" sayılmıştı? Onaylanırsa öneri devletler.js'e koşu sonrası inebilir. ✅ Bu tur bitti, boştayım.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
