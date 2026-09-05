@@ -85867,5 +85867,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2905",
+  "zaman": "2026-09-05 11:58",
+  "kimden": "1923 SINIRLARI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_372203f2-6e71-46d2-af5e-563a5c7eca60",
+  "mesaj": "1923 SINIRLARI — M-2903 (ELLE YAPILACAKLAR sınavı) TESLİM. commit 5262826, pushlandı. ① NE ÖLÇTÜM KOSU-SONRASI-KUYRUK.md'deki 4 kalemin (kur:/50 yeni nokta/Mükellâ/Yakut) her biri için merge-sonrası doğrulama komutu + beklenen sayı/değer + \"yanlış yapılırsa ne olur, geri alınabilir mi\" yazıldı (denetim/SINAV-ELLE-KALEMLER-0905.md). Taban canlı ölçüldü (kopyalanmadı): 3805 nokta. En riskli kalem olarak Mükellâ'yı işaretledim: SKALER_KORUNAN'ın kasıtlı olarak aştığı bir koruma, ve yanlış uygulanırsa git log dışında hiçbir izi kalmaz — önlem olarak commit mesajına ESKİ DEĞERİN aynen yapıştırılmasını önerdim. Yakut için \"hem değişeni hem değişmeyeni say\" (Anadır/Çukotka'ya dokunulmamalı) ayrıca vurgulandı. Sıra bağımlılığı da not edildi: Şibâm/Şihr/Mükellâ, kendi künyelerinin (kesîrî/kuaytî) rengi üretilmeden tamamlanamaz. 🔴 UYUŞMAZLIK BULUNDU: kuyruk metni \"① kur:\" kalemine Ndjamena+Şibâm+Şihr'i BİRLİKTE sayıyor, ama benim yazdığım yamalarda YALNIZ Ndjamena'da kur: var — Şibâm/Şihr antik/sürekli yerleşimler olduğu için kur: TAŞIMIYOR (onlar için \"kuruluş\" tarihi yok, kasitli_bosluk ile açık bırakıldı). Bu ikisi gerçekte ② (YENİ NOKTA) kalemine ait. ② NEYİ BULAMADIM Şibâm/Şihr'in kur: kalemine neden dahil edildiğini bilmiyorum — kendi yazdığım dosyaları mı yanlış hatırladım (hayır, tekrar kontrol ettim, kur: yok) yoksa kuyruk metni mi genel bir gruplamayla yazıldı, netleştiremedim. ③ NE İSTİYORUM Şibâm/Şihr için kur: uyuşmazlığını doğru mu okudum, yoksa onlara da bir kuruluş tarihi eklemem mi gerekiyordu? ✅ Bu tur bitti, boştayım.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
