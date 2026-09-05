@@ -83328,7 +83328,12 @@
   "okuyan": {},
   "yanit_no": "M-2769",
   "cins": "BILGI",
-  "teyit": {},
+  "teyit": {
+   "1.MURAT": {
+    "zaman": "2026-09-05 07:08",
+    "soz": "okudum, gereğini yapıyorum"
+   }
+  },
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
