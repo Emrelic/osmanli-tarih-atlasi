@@ -741,6 +741,56 @@ büyüklüğüne göre veriliyordu.
 üçü aynı sınıf olmayabilir (İsveç 1281'de vardı ⇒ ZEND; Sardinya ve
 Toskana ⇒ ANAKRONİZM adayı). Ölçülüyor.
 
+### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
+
+> Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri
+> `_sahiplik_uygula.py`nin taşımadığı ya da **bilerek korumadığı** bir
+> alan. Yamada dursa bile **düşer.**
+
+```
+① kur:          Ndjamena (1900) · Şibâm · Şihr — alan uygulayıcıda YOK
+                🟢 KARAR: merge'den ÖNCE araca EKLENECEK (`kaynak:` ile
+                   aynı sözleşme: üzerine yazma, yalnız boşsa doldur)
+② YENİ NOKTA    48 (doguasya 19 · gronland 9 · sibirya_beyan 8 ·
+                nepal_karayip 6 · 1923_yeni 6) + Şibâm + Şihr = 50
+                🔴 araç yeni kayıt EKLEYEMEZ — elle `yerlesimler_*.js`e
+                ⚠️ lat/lon/kur/kasitli_bosluk alanları da elle
+③ Mükellâ       mevcut `bos:"devletsiz"` + `neden:` SİLİNECEK
+                (TDV: Kuaytî 1881'de kıyının tamamını aldı) ve
+                `s:"ingiltere"` → HİMAYE kalıbı (Bahreyn/Katar emsali)
+                🔴 `SKALER_KORUNAN` var olanı ASLA silmez — bu DOĞRU bir
+                   tasarım, burada bilerek aşılıyor
+④ Yakut cinsi   6 kayıt `bos:` devletsiz → kabile (39 değil 6)
+```
+
+### 🔴🔴 RENK BEKLEYEN KÜNYELER — koşu bitmeden ÜRETİLEMEZ
+
+> `renkler.py` koşu boyunca DONUK (üç parmak izli dosyadan biri).
+> Renksiz bir kimlik veride kullanılırsa **harita deliği** açar
+> (`polonya-erken` emsali). Hepsi tek bir toplu renk turunda üretilmeli.
+
+```
+polonya-erken   (gece başında bloke oldu, emsal bu)
+arma            Timbuktu 1750-1760 · Arma paşalığı
+agadez          Sultanate of Aïr 1405-1923
+kesiri-sultanligi   Hadramut içi, f:1450
+kuayti-sultanligi   Hadramut kıyı, f:1881
+meysur-racaligi     1799-1923 (ARDİL — emsal: haydarabad-nizam)
+maratha prenslikleri  Gvalyar (Scindia) · İndor (Holkar) · Kolhapur
+                      — üç ayrı künye ya da toplu
+```
+⚠️ **Ve renk üretildikten SONRA `renk_olc.py` koşulacak** — yeni kimlik
+yeni komşuluk çifti doğurur (`§9`; bu projede üç kez sürpriz oldu).
+
+### 🟡 KÜNYE PENCERESİ DEĞİŞİKLİKLERİ — hepsi `renk_olc.py` ÖN ŞARTLI
+```
+somali        f: 1500-01-01 → 1281-01-01   (−26 · 4d)
+filipin-racaliklari  t: 1571-06-24 → 1635-01-01  (6 kayıt)
+zend          t: 1796-01-01 → 1794-01-01   ┐ ortak sınır
+kacar         f: 1796-01-01 → 1794-01-01   ┘ 132 kayıt
+⚪ afsar      künye 1736-1796 · veri 1736-1747 — **49 YIL**, ölçülmedi
+```
+
 ### 🔴 KOŞUYU ÖLÇME — İKİLİ DEĞİL **MERDİVEN** (5 Eylül 09:10'da düzeltildi)
 
 ```
