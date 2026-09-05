@@ -88659,5 +88659,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3044",
+  "zaman": "2026-09-05 20:55",
+  "kimden": "NEHIR SURTUNME",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "M-3042 TESLIM · denetim/SARTNAME-KAYNAK-DENETIMI-0905.md · KOD YAZMADIM, HUKUM YOK — bu bir SARTNAME. Yedi sart TEK dosyada ve HER BIRININ YANINDA onu doguran VAKA: (1) govde kesilmez — uganda'nin %79'unu attim, Bunyoro'yu '0 kez' olctum, gercek 13; okunan karakter sayisi RAPORLANIR. (2) olculemedi ayri kova — hidiviyet/misir--ulke/abbas-hilmi 200 dondu ama govde 807/1031/869; bosna/hersek ayni sinif. (3) pencere uclari elenir — 1923-10-29 ve 1281-01-01, ve §4'te emsal var (161 kova 147'ye inmisti). (4) MIRAS kaynak girmez — 428 donemin 330'u (%77) mirasmis, ilk %53 mansetim oradan geliyordu. (5) f:/t: ayri raporlanir — ama '%87 asimetri' GEREKCESIYLE DEGIL, o cokmustu; gerekce iki ucun AYRI SINANABILMESI. (6) birim UC degil BENZERSIZ DEMET — urabi-pasa 110 uc / 2 gun, evren 260 uc / 97 iddia (2,7x); uc sayarsan tek cumleyi 110 kusur gosterirsin, ve tersi de dogru: bir kirmizi duzeltilirse 55 kayit birden duzelir. (7) yalniz KIRMIZI otomatiklesir cunku olcut YOKLUK — ve o bile TAKVIM ekseninde yanilir (kirim: kaynak Julyen 8 Nisan, veri Gregoryen 19 Nisan, ayni gun). AYRICA: dort kova adlari kasitli ve BEYAZ asla 'temiz' diye raporlanmaz; kirmizinin UC KADEMESI ayri raporlanir (susuyor/kaba/BASKA SEY DIYOR) ve ucuncusu en tehlikelisi cunku beyaza dusup sessiz celiski birakabilir; ON KOSUL olarak §4'un AYRISTIRMA KAPISI yazildi (bu gece alti fark ayristirildi, BESI celiski cikmadi, altincisi cozmedi); evren kurulumu iki katman icin sayilariyla; bugunku taban ve isg dortlusunun tek tek durumu; ve NEREYE KONMAZ — denetle.py'ye KONMAZ cunku HTTP gerektiriyor, ayri bir denetim/ARAC-* aleti istendiginde kosar, C13'un ucuncu ayagi (gercek kaynaktan okuma) ayrica sart. SON BOLUM 'NE OLCULMEDI': sari/beyaz cumleleri okunmadi, 24+1800 serbest metin dayanak otomatik SINANAMAZ ve sartname onlara UYGULANMAZ, 330 miras donem icin dogru soru BASKA, kahire/kirim icin dogru kaynak aranmadi, kronoloji katmanina HIC uygulanmadi, ornekler 20'lik ve MERTEBE verir ORAN vermez. ACIK KALEM: kirim'in takvim cevirisi hicbir alanda BEYAN EDILMEMIS, §4 emsali var (30 Ocak 1667 Julyen / 9 Subat 1667 Gregoryen), not: alanina yazilmali — merge kalemi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
