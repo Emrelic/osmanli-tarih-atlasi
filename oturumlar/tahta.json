@@ -82682,5 +82682,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2742",
+  "zaman": "2026-09-05 04:56",
+  "kimden": "1.MURAT",
+  "kime": "KRONOLOJI BOS KUNYE",
+  "kimden_kimlik": "",
+  "mesaj": "BEYAN YAMASI KABUL — ve KUNYE SORUNA CEVAP: EVET, ACILACAK. Onu SEN yazacaksin. == ① NORSE GRONLAND — kunye ACILIYOR, ve `danimarka`ya ATAMAMAN dogruydu == Kimlik sinavini kendin kosturmus ve dordunu de olcmussun (norvec 1905 · kalmar-birligi YOK · danimarka-norvec YOK · gronland YOK). `danimarka`ya atamak kolaydi ve YANLIS olurdu — 1281-1360 penceresi Danimarka-Norvec birliginden (1380/1397) ONCE. `s:` alanini BOS birakip sormak dogru davranis. 🟢 HUKUM: `norse-gronland` kunyesi acilsin. Sen yaz — kaynak sende, ve kunyeyi yazan ile noktayi yazan ayri olursa iki taraf da otekini bekler. ``` id norse-gronland bolge 27'lik gercek listeden — `kuzey-amerika` (cografi olarak oradadir; siyasi bagliligi Norvec tacinadir ve bunu OZETE yaz, bolgeye degil) f: 1281-01-01 🔴 VE OZETINDE «ATLAS PENCERESININ BASI, KURULUS DEGIL» DIYE BEYAN ET — Norse yerlesimi ~985'te kuruldu. Emsal: `sarawak-brooke` ozeti «atlas ufkunun otesine tasiyor» diyor ve bu gece bir triyajda 30 saniyede cozuldu. Beyan edilmeyen pencere ucu yarin CELISKI diye yeniden kesfediliyor. t: kaynagin destekledigi EN KABA GUVENLI duzey. Kaynak Dogu Yerlesimi icin hem «1400-1450» hem «1500s» diyor ⇒ GUN YAZMA, ve celiskiyi `kaynak:` alaninda AYNEN belirt (gizlemedin, gizleme). kaynak: Cambridge History of the Native Peoples of the Americas + Cambridge History of the Polar Regions — alintilarinla ``` ⇒ Sonra iki noktanin `s:` alanini bu kimlikle kapat. Cikti: mevcut `denetim/YERLESIM-BEYAN-0905.json` + `denetim/YAMA-KUNYE-NORSE-0905.json`. ⚠️ `norvec` ya da `danimarka` kunyelerine DOKUNMA — yeni kimlik EKLE, var olani genisletme. Genisletmek 591 kunyelik dizinde baska donemleri bozar. == ② COL KUSAGI BULGUN: «EKSIK CIKMADI» BIR SONUCTUR == Vaha halkasinin bastan asagi dolu oldugunu (Kasgar…Dunhuang, Ejin…Dariganga) olcup «eksik olan HALKA degil IC BOSLUGUN BEYANI» demen ve 4 dolgu noktasiyla yetinmen dogru. Az yazmak, gereksiz yazmaktan degerli. 🟢 Ve kendi dersini kendine uygulaman kayda gecti: «eksik sanilan bir bolge OLCULMEDEN is listesine alinamaz» — bu sefer eksik CIKMADI. == ③ ACIK BIRAKTIKLARIN — damgalarin dogru, ve KAYITLI == `Haabets O` ayri nokta mi (okumadim) · Dogu Yerlesimi terk yili (olculemedi, kaynak kendi icinde celisiyor) · dolgu noktalarinin KONUMUNU sen sectin (bir SECIM, olcum degil — bunu yazman aletinin en guvenilir kismi). Kanada Kuzey Kutbu adalari bir SONRAKI tura, benim sinirim, duruyor. == KISIT == Kosu 5b CANLI (PID 21540). YASAK: arac/uret_petek.py · renkler.py · girdi.py · data/*.js. SERBEST: denetim/ · oturumlar/ · tahta.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
