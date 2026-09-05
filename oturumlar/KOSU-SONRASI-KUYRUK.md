@@ -4,6 +4,43 @@
 > donmuş dosyalara dokunduğu için bekliyor.
 > 🔴 Sıra kasıtlı: veri → renk → denetim → koşu → yayın.
 
+## 🔴 GİZLİ BOŞLUK: `kasitli_bosluk` BAYRAĞI UYGULAYICIDA YOK (5 Eylül 07:45)
+
+Bir işçi oturum sınav çıktısından fark etti, **koddan doğrulandı**:
+`grep kasitli_bosluk arac/_sahiplik_uygula.py` → **0 sonuç.**
+```
+`bos:` · `neden:` · `not:`   İNİYOR   (2 Eylül'de eklendi)
+`kasitli_bosluk: true`       İNMİYOR  ← hiçbir kümede yok
+```
+⇒ **Mevcut** bir noktayı beyana çevirmek isteyen bir yama **cinsi indirir,
+bayrağı indiremez** — ve bayraksız kayıt `denetle.py`de *"kasıtlı"*
+SAYILMAZ ⇒ `Değişmez 1` öter, beyan **işe yaramaz**.
+📌 Timbuktu vakasının **bir alan ötesi**: orada `bos`/`neden` düşüyordu ve
+ödendi; aynı sınıfta şimdi `kasitli_bosluk` duruyor.
+
+### 🟢 AMA BUGÜN BLOKE ETMİYOR — ölçüldü
+```
+boşluğu MEVCUT noktaya çevirmek → bayrak gerekir → 🔴 yol kapalı
+YENİ nokta yazmak               → bayrak kaydın İÇİNDE doğar → 🟢 sorun yok
+```
+Bekleyen bütün beyan yamaları (Doğu Asya · Grönland/çöl · Sibirya) **yeni
+nokta**; elle eklenecekler ve bayrak kaydın içinde gelecek.
+⇒ **Gizli boşluk, bugünkü engel değil.** Araç koşu SONRASI düzeltilecek —
+`bos`/`neden`in 2 Eylül'de eklendiği gibi, bool bir alan için ayrı bir
+`BAYRAK_RX` ve alan HİÇ YOKSA **ekleme** yolu gerekiyor.
+🔴 Şimdi yapılmadı ve gerekçesi yazılı: `_sahiplik_uygula.py` merge'in
+üçüncü adımı ve altı yama onu bekliyor; 07:45'te ona alan eklemek onu
+kırma riski taşır ve **bu gece tam böyle bir "küçük ekleme" `tahta.py`yi
+kırdı.**
+
+### 🟡 VE BİR KARAKTERİZASYON DÜZELTMESİ
+`bos:` dolu olduğunda yama **sessizce atlanmıyor**: `:610` `ist["bos-dolu"]`
+sayıyor ve `atlanan` listesine *"ZATEN DOLU, ezilmedi"* diye **adıyla**
+basıyor. Sonuç aynı (yama yolu kapalı) ama bu, gecenin *"sessiz atlama"*
+sınıfına **girmiyor**.
+
+---
+
 ## 🟢 GÖL KALEMİ KAPANDI — "VERİ ZATEN DOĞRU" (5 Eylül 07:20)
 
 Koordinatör *"göller de nehirle birebir aynı kusurda"* diye sevk yazdı.
