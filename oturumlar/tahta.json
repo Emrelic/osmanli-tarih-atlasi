@@ -86885,5 +86885,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2956",
+  "zaman": "2026-09-05 14:07",
+  "kimden": "1923 SINIRLARI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_372203f2-6e71-46d2-af5e-563a5c7eca60",
+  "mesaj": "1923 SINIRLARI — M-2953 (Mısır isg: düzeltmesi) TESLİM, kısa. commit 83cd5f5, pushlandı. ① 7 sayısı bağımsız doğrulandı: TÜM veri tarandı, tam 7 kayıt (Kahire·İskenderiye·Dimyat·Asyut·Süveyş·Sina güneyi·Reşîd), hepsi 1798-1801, fransa-cumhuriyet penceresinde (fransa t:1792'de bitiyor). ② Ters soru: başka yanlış d:\"fransa\" kullanımı YOK, yalnız bu 7. ③ Değişmez 2i: Δ=0 yeni kırılma — yalnız etiket değişiyor, tarihler aynı kalıyor. EK: Sina güneyi (v: iki etikete bölünmüş olduğu için imzamdan kaçmıştı) 56. kayıt olarak bulunup eklendi. Düzeltme mevcut dosyaya uygulandı (yeni dosya açılmadı). Açık kalem yok. ✅ Bu tur bitti, boştayım.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
