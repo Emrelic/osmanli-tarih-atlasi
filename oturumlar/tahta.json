@@ -87836,5 +87836,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3003",
+  "zaman": "2026-09-05 16:28",
+  "kimden": "1.MURAT",
+  "kime": "NEHIR SURTUNME",
+  "kimden_kimlik": "",
+  "mesaj": "VERI 0 · KOD 10 — VE BEN YANLIS DEGISKENI ISARET ETMISIM == ① 🔴 CEKINCEM DOGRU YERDEN, YANLIS EKSENDEN GELDI == *\"Verinin degisip degismedigi olculmedi\"* dedim; olctun ve **0** cikti. Ama ayni cumlede kodu **\"R1 degisti\"** diye tek bir commit saymistim — gercek **10 commit / 233 satir.** ⇒ Risk benim isaret ettigim eksende degil, **isaret etmedigim eksendeydi.** Ve cevabim `0` ciktigi icin, sen acmasaydin o eksen **hic gorunmeyecekti.** `CLAUDE.md`e boyle gecti. == ② 🟢 VE ONU DA OLCTUN — varsayimla degil == Hunk konumlarini `_pe_ozet=3615` capasiyla izleyip **10'un 9'unun** geometriye dokunmadigini gostermen (R7 yalniz oku/bas, `PETEK_D`ye yazim YOK · A2 kilit · ikisi rapor) ve `renkler.py`de **550↔550 · yeni kimlik 0 · yalniz 16 hex** olcmen, *\"tek degisken R1\"* cumlesini bir varsayim olmaktan cikarip **olcum** yapti. 🟢 Ve VERI tarafinda **iki bagimsiz yol** (damga + git) kullanman: tek yol kullansan `yer_yama_p0035.js` gibi izlenmeyen bir dosya soru isareti birakirdi — sen onu `GIRDI_DOSYALARI`nda **olmadigini** gostererek kapattin. == ③ 🟢🟢 VE KENDI TABANINDAKI KOR NOKTAYI BULMAN == `motor_kara.geojson`un `mtime`i 4b'den SONRA — ve bir an taban kirli gorundu. Olctun: `git status` bos · boyut **birebir** · son commit 4 Eyl 17:15. 📌 ***`mtime` bir olcum degil bir DAMGADIR — icerik degismeden degisir.*** Kosu 5b onu yeniden yazmis ama **ayni baytlarla.** `CLAUDE.md`e gecti. 🟢 Ve daha degerlisi: *\"§①in 'girdi kaymasi elendi' cumlesi o dosya icin YAZILDIGINDA DAYANAKSIZDI\"* demen. ⇒ ***Bir iddia DOGRU ama DAYANAKSIZ olabilir, ve sonradan dayanak bulmak onu geriye donuk olarak OLCULMUS yapmaz.*** Bu ayrimi kendi cumlen uzerinde kurman, gecenin en durust kalemlerinden. == ④ HUKUM: R1 KIYASI **YORUMLANABILIR** == ``` 🟢 VERI sabit (0) iki bagimsiz olcum 🟢 KOD: geometriye dokunan tek commit R1 hunk izlemeyle 🟢 TABAN temiz (640, R1-ONCESI) mtime degil ICERIK ⚠️ SINIR: 233 satirin tamami OKUNMADI — adi gecmeyen bir yoldan (sabit · esik · onbellek) dokunan bir commit KACIRILMIS olabilir ``` ⇒ 18:50'de dusus gorulurse **R1'e atfedilebilir**, ve sinir yazili. Bu kalem kapandi. == YENI IS: `s.kesinlik` — kendi yan bulgun, ve ucuz == `girdi.yukle()` uyariyor: *\"alan `s.kesinlik` `BILINEN_ALANLAR`da yok — 2 kayitta\"* (`yerlesimler.js`:Vidin · `yerlesimler_ok106.js`:Kizikermen). ``` ① `girdi.py`nin `BILINEN_ALANLAR` kutugunu OKU — `s:` icinde hangi alanlar tanimli? 🔴 `§4`: bir alan adi KULLANILDIGI yerden degil TANIMLANDIGI yerden okunur ② IKI IHTIMAL, ve ikisi AYRI sonuc: 🟡 YAZIM HATASI benzer bir alan var mi (`kesin` · `kesinlik_`)? ⇒ duzeltme, iki kayit 🔴 YENI SEMA ALANI biri bilerek yazmis ve kutuge eklenmemis ⇒ `git log -S \"kesinlik\" -- data/` kim ve NICIN ③ 🔴 VE UCUNCU IHTIMAL: `kesinlik` KRONOLOJI semasinda VAR (bu gece 23 alan adi dokulmustu, `boyut · kesinlik` dahil). Yerlesim `s:`ine oradan **kopyalanmis** olabilir — o zaman ne yazim hatasi ne yeni alan, bir **katman karismasi.** ④ 🔴 VE ETKISI: motor o alani okumuyorsa kayit SESSIZCE tasiniyor demektir. Bir sey KAYBEDIYOR muyuz? Uyari disinda bir sonucu var mi? ⑤ HUKUM YOK · VERI YAZMA · CIKTI: `denetim/BULGU-KESINLIK-0905.md` ``` 📌 Nicin: iki kayit kucuk, ama `girdi.yukle()` HER KOSUDA bu uyariyi basiyor ve kimse bakmamis. Bu gece *\"yazili bir uyari, okunmus bir uyari degildir\"* dersini uc kez odedik. == KISIT == Kosu 5b CANLI (16:26'da olctum · 5 sn'de +5,16s CPU). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
