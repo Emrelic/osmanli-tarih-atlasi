@@ -80,6 +80,34 @@ git add -- data index.html && git commit -F <mesaj> && git push
 `uret_altlik` + `uret_bekleyenler` adımları eklendi. Ama **çalışan süreç
 eski kodu yükledi**, yani bu düzeltme **bir sonraki koşudan** itibaren
 geçerli. Koşu 5 yine kapıda duracak.
+
+> 🟢🟢 **BU SON CÜMLE KOŞU 5B İÇİN BAYAT — ÖLÇÜLDÜ, 5 Eylül 13:25.**
+> Blok **koşu 5** için doğruydu; koşu 5 öldü ve **5b** olarak yeniden
+> başladı, ve 5b düzeltmeden SONRA başladı:
+> ```
+> uret_altlik adımı eklendi   055567d   4 Eylül 22:48:32
+> kos_ve_yayinla.py mtime               5 Eylül 02:40:09
+> KOŞU 5B başladı                       5 Eylül 02:40:26   ← 17 sn SONRA
+> çalışma ağacında "uret_altlik.py"     2 kez  (satır 198-201)
+> ve adım KOŞULSUZ — üretim/devirler ile aynı blokta, `olumcul=False`
+> ```
+> ⇒ **Koşu 5b `uret_altlik` ve `uret_bekleyenler`i KENDİ koşacak**,
+> yani kapı `altlik.js`te durmayacak.
+>
+> ⚠️ **AMA BU DA BİR VARSAYIM OLMASIN:** doğru davranış kapıyı
+> **koşturmak** ve sonucu okumaktır — *"duracak"* ile *"durmayacak"*
+> arasındaki fark, ikisi de ölçülmediğinde aynıdır. Çare adımları
+> zararsız ve ~10 dakika; kapı durursa AYNEN uygulanır.
+> 📌 Ve `§3.5.1` emsali: **ders silinmedi, vaka damgalandı.** Blok
+> hâlâ doğru bir şeyi öğretiyor (*kapı doğru davrandı, eksik olan
+> ZİNCİRDİ*) — bayatlayan yalnız son cümlesi.
+>
+> 🔴 **VE BİR ARTIK BORÇ ÖLÇÜLDÜ:** `kos_ve_yayinla.py --kuru`nun
+> bastığı PLAN satırı hâlâ eski (`uret_petek → uret_devirler → renk_olc
+> → denetle → denetle_yayin → surum_damgala`) — **`altlik` ve
+> `bekleyenler` orada YOK.** Kod düzeldi, kodun kendini anlattığı satır
+> düzelmedi. Bir sonraki oturum `--kuru` çıktısına bakıp aynı yanlış
+> sonuca varabilir.
 📌 Aynı arıza 4 Eylül sabahı koşu 4b'de de oldu ve üç üreteç elle koşuldu.
 Kapı doğru davrandı; eksik olan ZİNCİRDİ.
 

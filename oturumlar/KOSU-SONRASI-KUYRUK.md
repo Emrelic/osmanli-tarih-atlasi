@@ -7,7 +7,13 @@
 > yayın durur ya bir tavan gevşer.
 
 ```
-0  KAPI ÇARESİ         TESPIH.md "KAPI DURACAK" (altlik.js) — 8 satır
+0  KAPI ÇARESİ         🟢 MUHTEMELEN GEREKSİZ — 5 Eylül 13:25'te ölçüldü:
+                       koşu 5b düzeltilmiş zinciri yükledi (uret_altlik
+                       4 Eyl 22:48'de eklendi · 5b 5 Eyl 02:40'ta başladı)
+                       ⇒ altlık ve bekleyenler KENDİ üretilecek
+                       🔴 YİNE DE ÖNCE KAPIYI KOŞTUR, varsayma:
+                          py arac/denetle_yayin.py
+                       durursa TESPIH.md "KAPI DURACAK" çaresi AYNEN geçerli
 1  KÜNYE               py arac/_kunye_uygula.py --yaz
                        11 künye hazır (kuru koşu 11 kabul / 0 red)
                        + denetim/YAMA-KUNYE-HURMUZ · YAMA-KUNYE-ARNAVUTLUK
