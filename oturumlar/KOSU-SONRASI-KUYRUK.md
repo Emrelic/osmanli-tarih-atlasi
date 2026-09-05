@@ -2020,6 +2020,30 @@ eklendi.
 ⚪ AYRI KALEM: `zend f=1747-06-20` ↔ künye `f=1751-01-01` — **3,5 yıllık
 `4d` borcu**, ve `4d`nin 434'te kalmasının sebebi bu.
 
+### 🟢 MANAMA ÇÖZÜLDÜ (16:47) — himaye **1913-07-29**, 1861 DEĞİL
+
+```
+ÖNERİLEN  s:   DEĞİŞMEZ — bahreyn 1783-01-01 → 1923-10-29 kesintisiz
+          isg: [{f:"1913-07-29", t:"1923-10-29", d:"ingiltere"}]
+```
+🔴 **İKİ MEVCUT YAMA DA DÜŞER:**
+```
+yer_yama_1923_duzeltme.js  isg 1861-05-31        → YANLIŞ TARİH
+yer_yama_gece_v1.js        s:ingiltere 1861-05-31 → TARİH *ve* KATMAN
+                                                    (M-2784'e aykırı)
+```
+**Dayanak (TDV `bahreyn`, gövde okundu):** [154] *"Osmanlı Devleti
+Bahreyn adaları üzerindeki haklarından vazgeçerek… İngiltere de bu
+adaları İLHAK ETMEYECEĞİNİ açıklamak suretiyle…"* · [155] *"BU TARİHTE
+… İNGİLİZ HİMAYESİNE GİREN Bahreyn…"* — zamirin öncülü ayrıca
+doğrulandı, künyenin kendi kronolojisi aynı günü taşıyor, ve TDV **gün**
+veriyor.
+🟢 `bahreyn` künyesi 1783→1923-10-29 **açık** ⇒ künye düzeltmesi
+gerekmiyor.
+🔵 ÇEKİNCE (ölçen oturumun): *himaye ≠ işgal*; `isg:` mevcut kalıp,
+**çözüm değil** — `v:`nin kimlik alanı olmadığı için başka yol yok.
+Emre'nin `v:` kararının bir vakası daha.
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri
