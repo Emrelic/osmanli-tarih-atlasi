@@ -4,6 +4,55 @@
 > donmuş dosyalara dokunduğu için bekliyor.
 > 🔴 Sıra kasıtlı: veri → renk → denetim → koşu → yayın.
 
+## 🔴 BAĞLAYICI KISIT — `Les` TEK BAŞINA DÜZELTİLMEYECEK (5 Eylül 06:30)
+
+`NEHİR SÜRTÜNME` ölçtü: `arnavutluk` kimliğini kullanan **üç** dönem var ve
+**üçü de 162 yıl erken başlıyor** — ama yalnız biri hayalet diye ötüyor.
+```
+Les    1281-01-01 → 1393-05-01   t < kf:1443 ⇒ kesişim YOK ⇒ 🔴 HAYALET (yayını DURDURUR)
+Kruja  1281-01-01 → 1478-06-15   t > kf      ⇒ kesişim VAR ⇒ 🟡 yalnız 4d (TOLERE)
+Mat    1281-01-01 → 1478-06-15   aynı
+```
+📌 ***Aynı kusur, iki kova; biri yayını durduruyor, ikisi sessizce geçiyor.
+Ve ayıran şey kusurun BÜYÜKLÜĞÜ değil — dönemin BİTİŞİNİN künye penceresine
+değip değmediği.*** Kruja ve Mat'in kusuru Les'inkinden küçük değil,
+**görünürlüğü az.**
+
+🔴 **KISIT:** Les tek başına düzeltilirse hayalet 9→8 iner **ama Les 4d'ye
+girer** ⇒ 4d 467→**468 = tavana TAM OTURUR, payı SIFIRLAR.** Üçü birden
+düzeltilirse 4d **465**'e iner.
+⇒ **Üçü AYNI yamada.** (Adaylar TDV `les` gövdesinden: 1281-1355
+`sirbistan-nemanjic` · 1355-1387 `zeta` · 1387-1478 Dukagin — künyesi YOK.)
+
+### 🟢 VE `f:1301 → 1281` DÜZELTMESİ AYNI DAR PAYIN ESERİ
+Koordinatör `hurmuz-sultanligi` için `f:1301-01-01` önerdi ("en kaba güvenli
+düzey"). Ölçen oturum **simüle etti** ve çürüttü:
+```
+f:1301 → 4d 470  🔴 TAVAN 468 AŞILIR   (üç dönemin f:'i 1281; g4 ≈ 7305 gün > 400)
+f:1281 → 4d 467  🟢 GEÇER
+```
+📌 Sabah *"4d payı 1 kayıtta kalsın, dar kalacak"* diye karar verilmişti.
+**Üç saat sonra o dar pay bir künye tarihinin yanlış seçilmesini yakaladı.**
+Pay geniş olsaydı 470 sessizce geçerdi. ⇒ *Bir tavanı dar tutmak, gelecekteki
+bir hatayı bugünden yakalar.*
+
+## 🆕 41 KÜNYE VAR AMA VERİ KULLANMIYOR — ve içinde Osmanlı çekirdeği var
+`denetim/ARAC-KULLANILMAYAN-KUNYE-0905.js` (commit `92194cc`):
+```
+künye 591 · id ile kullanılan 527 · YALNIZ harita anahtarıyla 23 · 🔴 HİÇ 41
+cezayir-ocagi 1516-1830 · tunus-ocagi 1574-1881 · trablusgarp-ocagi 1551-1911
+misir-kavalali 1805-1914 · erdel 1570-1711 · mora-despotlugu 1349-1460
+bosna-isgal 1878-1908 · girit-devleti 1898-1913 · kibris-ingiliz 1878-1914
+```
+1923'te canlı olup kullanılmayan **5**'i, `1923 SINIRLARI`nın bağımsız
+ölçümüyle **birebir** örtüşüyor (oniki-ada · cezayir-fransiz · kuveyt ·
+avusturya-cumhuriyet · tbmm-turkiye) — iki ayrı yoldan aynı sonuç.
+⚠️ Kendiliğinden **kusur değil** (`§6`: dizin katmanı haritadan ÖNCE gelir),
+ama sayı bilinmeden hangi boşluğun kasıtlı olduğu da bilinmiyordu — ve
+`zeta` gibi biri **gerçek bir hatayı örtüyor** (Les'in doğru kimliği o).
+
+---
+
 ## 🟢 TAVAN KARARI — ÖLÇÜLDÜ, VE ÜÇÜNDEN YALNIZ İKİSİ HAREKET EDİYOR (5 Eylül 06:20)
 
 Bir önceki blokta *"hayalet 8 → 16"* yazmıştım — **o bir TAHMİNDİ ve düzeltildi.**
