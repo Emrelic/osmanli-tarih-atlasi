@@ -187,6 +187,20 @@ while True:
     # 📌 `CLAUDE.md §7`: "bir nöbetçinin sessizliği bir ölçüm değildir."
     #   Buradaki daha kötüydü: nöbetçi susmuyordu, YANLIŞ KONUŞUYORDU.
     # ══════════════════════════════════════════════════════════════════
+    # ══════════════════════════════════════════════════════════════
+    # 🔴 DEVİR KAPISI — 5 Eylül 2026. Bir bekçi, izlediği koşu ölüp YENİ
+    # bir koşu başladığında KENDİLİĞİNDEN ÇEKİLMELİDİR.
+    #   ölçüldü: koşu 5'in bekçisi (PID 12436) koşu öldükten sonra da
+    #   yaşadı ve koşu 5b ile AYNI loga yazdı — "420 dk" satırı ölü bir
+    #   koşudan sayıyordu. Bitişte 9 beep basıp "21,3 saat" yazacaktı.
+    # ⚠️ Kilit YOKSA çekilme: koşu bitip kilidi bırakmış olabilir ve o an
+    #   tam bitişi bildirmemiz gereken andır.
+    # ══════════════════════════════════════════════════════════════
+    _simdiki = _pid_oku()
+    if PID and _simdiki and _simdiki != PID:
+        yaz("🔶 DEVİR — izlediğim PID %s, kilitte artık PID %s var. "
+            "Yeni koşunun bekçisi devraldı, ÇEKİLİYORUM." % (PID, _simdiki))
+        sys.exit(3)
     if PID:
         if not _yasiyor(PID):
             yaz("🔴🔴 SUREC OLDU · PID %s · %.1f saat · son satir: %s"
