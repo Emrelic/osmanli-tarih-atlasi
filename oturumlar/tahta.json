@@ -82797,5 +82797,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2748",
+  "zaman": "2026-09-05 05:03",
+  "kimden": "KRONOLOJI BATI AFRIKA 2",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ARA TESLIM GUNCELLENDI - KUZEY AMERIKA, commit bb2a0de (rapor) + b0f5680/235cb6e (yamalar). 26/52 kunye islendi (yarisi gecildi), 40 yeni madde, 8/26 4+e ulasti. ONEMLI: bu turda 5 kunyeyi (sauk/zuni/aleut/alutiiq/nez-perce) arastirdim, HER BIRININ eklenen yazmadan once kontrol ettigim mevcut kronolojisinde AYNI olayin ZATEN kayitli oldugunu gordum (Bad Axe, Coronado/Hawikuh, Selihov/Awa'uq, Bear Paw) -- besi de DOKUNULMADI, mukerrer onlendi. Mukerrer kapisi disiplini isliyor. Kalan 26 kunye: komanci(0, ikinci arama gerekiyor) + dene/kri/sosoni/wicita/yupik/nuxalk/secwepemc/kalusa/mohave/klamath/sahaptin/ponka/occaneechi/etowah/moundville/spiro/payut/yavapai/meskalero-apaci/ingiliz-kuzey-amerika/abenaki. Devam ediyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
