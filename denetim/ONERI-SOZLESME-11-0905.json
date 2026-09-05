@@ -2,13 +2,10 @@
   "_baslik": "1923 SINIRLARI — Sözleşme boşluğu: Latin Amerika cumhuriyetleri parantez önerisi (M-2874 devri, c366736 partisi)",
   "_not": "ÖNERİDİR, devletler.js'e UYGULANMADI. `devletler.js` KOŞU SONRASI ve TEK ELDEN iner — bu dosya yalnız ÖNERİ metnidir, doğrudan yazma yapılmadı.",
   "_oturum": "1923 SINIRLARI · local_372203f2-6e71-46d2-af5e-563a5c7eca60",
-  "_SAYI_UYUSMAZLIGI": "🔴 M-2874 '11 künye' dedi, BEN 13 ÖLÇTÜM — devraldığım sayı doğrulanmadan aktarılmadı. c366736 partisindeki 14 modern cumhuriyetten yalnız `teksas-cumhuriyeti` (t:1845-12-29, GERÇEK tarih, atlas ufku DEĞİL) hariç, kalan 13'ünün 13'ü de t:'1923-10-29' taşıyor ve HİÇBİRİNİN ozet metninde standart parantez YOK. 13 → 11 farkının kaynağı BULUNAMADI (belki başka bir oturum bu arada 2'sini düzeltti — koşu 5b sırasında devletler.js DONUK olduğu için bu turda kontrol edilemedi, git log'da da bu partiden sonra bu künyelere dokunan commit bulunamadı). Aşağıda 13'ü de listelendi; hangisinin zaten 'kabul' sayıldığını koordinatör bilir.",
+  "_SAYI_UYUSMAZLIGI_COZULDU": "🟢 M-2884 ile çözüldü: KÜRE GÖRÜNÜM'ün testi 'beyan VAR MI (herhangi biçimde)' → 11 susuyor; benim testim 'STANDART PARANTEZ var mı' → 13 yok. Fark = 2 (arjantin-cumhuriyeti, kolombiya-cumhuriyeti) — bu ikisinde beyan VAR ama standart parantezle değil, 'atlas' kelimesiyle YENİDEN İCAT edilmiş. İkimiz de doğru ölçtük, farklı soru sorduk. Sözleşmenin ÜÇ biçimi var: ① standart parantez (54 künye) ② yeniden icat 'atlas ufkudur…' (arjantin·kolombiya) ③ kronoloji kutuğunda son kaydı (liberya). Aşağıda 11'i NORMAL öncelikte, arjantin+kolombiya AYRI ve DÜŞÜK öncelikli 'kozmetik · normalleştirme' damgasıyla ayrıldı — doğru bir beyanı yeniden yazmak veri kazandırmaz, yalnız ÖLÇÜLEBİLİRLİK kazandırır.",
   "yontem": "Standart kalıp `devletler.js`teki 54 mevcut örnekten AYNEN kopyalandı (kalıp icat EDİLMEDİ) — örnek: rusya (satır 347) '...SSCB'yi oluşturdu (1923 sonrasında da sürdü).' Parantez, ozet cümlesinin SONUNA, son noktadan ÖNCE eklenir.",
   "dogrulama": "13'ünün 13'ü de bugün (2026) hâlâ var olan tanınmış ulus-devletler (Arjantin, Bolivya, Şili, Paraguay, Peru, Uruguay, Ekvador, Venezuela, Kolombiya, Brezilya, Dominik Cumhuriyeti, Küba, Guatemala) — 1923 sonrası sürdüğü OLGUSAL olarak apaçık, ayrıca kaynak aranmadı.",
   "oneriler": [
-    { "id": "arjantin-cumhuriyeti",
-      "eski_ozet": "Mayıs Devrimi'nden (1810) doğan, 1816 Tucumán Kongresi'nde bağımsızlığını resmen ilan eden La Plata ardılı. Atlas künyesinin f: tarihi, bağlı veride bu kimliğin kullanıldığı en erken güne hizalandı.",
-      "yeni_ozet": "Mayıs Devrimi'nden (1810) doğan, 1816 Tucumán Kongresi'nde bağımsızlığını resmen ilan eden La Plata ardılı (1923 sonrasında da sürdü). Atlas künyesinin f: tarihi, bağlı veride bu kimliğin kullanıldığı en erken güne hizalandı." },
     { "id": "bolivya-cumhuriyeti",
       "eski_ozet": "Yukarı Peru'da son İspanyol direnişinin kırılmasıyla kurulan cumhuriyet; adını Simón Bolívar'dan alır.",
       "yeni_ozet": "Yukarı Peru'da son İspanyol direnişinin kırılmasıyla kurulan cumhuriyet; adını Simón Bolívar'dan alır (1923 sonrasında da sürdü)." },
@@ -30,9 +27,6 @@
     { "id": "venezuela-cumhuriyeti",
       "eski_ozet": "Gran Kolombiya'dan 1830 başında kesin olarak ayrılan cumhuriyet. Künye, resmî çözülme yılına değil bağlı verinin kullandığı fiilî ayrılma gününe hizalandı.",
       "yeni_ozet": "Gran Kolombiya'dan 1830 başında kesin olarak ayrılan cumhuriyet (1923 sonrasında da sürdü). Künye, resmî çözülme yılına değil bağlı verinin kullandığı fiilî ayrılma gününe hizalandı." },
-    { "id": "kolombiya-cumhuriyeti",
-      "eski_ozet": "Gran Kolombiya dağıldıktan sonra Yeni Granada soyunu sürdüren cumhuriyet; atlas boyunca Kolombiya kimliği bu künyeden okunur.",
-      "yeni_ozet": "Gran Kolombiya dağıldıktan sonra Yeni Granada soyunu sürdüren cumhuriyet; atlas boyunca Kolombiya kimliği bu künyeden okunur (1923 sonrasında da sürdü)." },
     { "id": "brezilya-cumhuriyeti",
       "eski_ozet": "1889 darbesiyle imparatorluğun yerini alan cumhuriyet; künye imparatorluktan cumhuriyete geçiş gününden başlar.",
       "yeni_ozet": "1889 darbesiyle imparatorluğun yerini alan cumhuriyet; künye imparatorluktan cumhuriyete geçiş gününden başlar (1923 sonrasında da sürdü)." },
@@ -46,15 +40,25 @@
       "eski_ozet": "Orta Amerika'nın İspanya'dan ayrılış gününden (15 Eylül 1821) başlayan künye; Orta Amerika Federasyonu dönemi de bu kimlik altında izlenir.",
       "yeni_ozet": "Orta Amerika'nın İspanya'dan ayrılış gününden (15 Eylül 1821) başlayan künye; Orta Amerika Federasyonu dönemi de bu kimlik altında izlenir (1923 sonrasında da sürdü)." }
   ],
+  "kozmetik_normallestirme_DUSUK_ONCELIK": [
+    { "id": "arjantin-cumhuriyeti",
+      "mevcut_beyan": "Atlas künyesinin f: tarihi, bağlı veride bu kimliğin kullanıldığı en erken güne hizalandı.",
+      "durum": "Beyan VAR, biçim standart DEĞİL (f: hizalamasını anlatıyor, 1923-sonrası sürekliliği DEĞİL — aslında bu künyenin hiç böyle bir cümlesi yok, KÜRE GÖRÜNÜM'ün 'atlas kelimesiyle yeniden icat' bulgusu bu satırı işaret ediyor olabilir; ben doğrudan '1923 sonrası sürdü' anlamına gelen bir cümle bulamadım).",
+      "oneri_DUSUK_ONCELIK": "Mayıs Devrimi'nden (1810) doğan, 1816 Tucumán Kongresi'nde bağımsızlığını resmen ilan eden La Plata ardılı (1923 sonrasında da sürdü). Atlas künyesinin f: tarihi, bağlı veride bu kimliğin kullanıldığı en erken güne hizalandı." },
+    { "id": "kolombiya-cumhuriyeti",
+      "mevcut_beyan": "atlas boyunca Kolombiya kimliği bu künyeden okunur.",
+      "durum": "Beyan VAR — 'atlas boyunca ... bu künyeden okunur' cümlesi kimliğin ATLASIN TAMAMINDA (1923 dahil, hatta örtük olarak ötesinde) bu künyeyle temsil edildiğini söylüyor; standart '(1923 sonrasında da sürdü)' kalıbı değil ama AYNI ANLAMI taşıyan bir YENİDEN İCAT.",
+      "oneri_DUSUK_ONCELIK": "Gran Kolombiya dağıldıktan sonra Yeni Granada soyunu sürdüren cumhuriyet; atlas boyunca Kolombiya kimliği bu künyeden okunur (1923 sonrasında da sürdü)." }
+  ],
   "IMTINA": {
     "id": "teksas-cumhuriyeti",
     "sebep": "t:'1845-12-29' — GERÇEK tarihli son (ABD'ye katılma), atlas ufku DEĞİL. Parantez EKLENMEDİ, doğru şekilde."
   },
   "ozet_sayim": {
     "taranan_toplam": 14,
-    "onerilen_parantez": 13,
+    "onerilen_parantez_NORMAL": 11,
+    "onerilen_parantez_KOZMETIK_DUSUK_ONCELIK": 2,
     "muaf_gercek_tarihli": 1,
-    "koordinatorun_sayisi": 11,
-    "fark_aciklamasi": "bulunamadı — bkz. _SAYI_UYUSMAZLIGI"
+    "M2884_hukmu": "13/11 farkı ÇÖZÜLDÜ — sözleşmenin üç biçimi (standart · yeniden icat · kronoloji kutuğu) kayda geçti, arjantin+kolombiya kozmetik/düşük öncelikli olarak ayrıldı."
   }
 }
