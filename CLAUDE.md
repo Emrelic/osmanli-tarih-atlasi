@@ -4622,6 +4622,55 @@ $c1 = $p.CPU; Start-Sleep 8; $p.Refresh(); $p.CPU - $c1
   ⚠️ Ve bu, *"kaynak asla çelişmez"* demek DEĞİL: `§4⑥` gerçek bir
   çelişki kaydediyor (TDV `amerika` Tordesillas'ı hem 1494 hem 1498
   veriyor). Ders **ilan etmeden önce ayrıştır**, ilan etme.
+
+- 🔴🔴 **"ADIYLA ANIYOR" İLE "TARİHLİYOR" AYNI ŞEY DEĞİLDİR — ve gövdedeki
+  TEK tarih BAŞKA BİR POLITY'ye ait olabilir.** *(5 Eylül 2026 ·
+  `KÜRE GÖRÜNÜM`, ve ölçen taraf kendi hükmünü daralttı)*
+
+  Üç künye *"TDV kapsayıcı maddede VAR ⇒ 🟢 UCUZ"* diye sınıflanmıştı.
+  Tam cümleler okununca sınıf çöktü:
+```
+`uganda`  «…Buganda, Bunyoro, ANKOLE, Karagve, Koki, Buriba, TORO ve
+           Soda adlı sekiz krallık hüküm sürmüş…»   ⇒ ADIYLA ANIYOR
+           gövdedeki TEK tarih: «1900 yılında İngilizler'le yapılan
+           antlaşmayla BUGANDA toprakları resmen sömürgeleştirildi»
+           🔴 O tarih BUGANDA'nın — Ankole'nin ya da Toro'nun DEĞİL
+```
+  ⇒ 1900'ü Ankole'ye bağlamak **`nube` tuzağının ta kendisi** olurdu
+  (`§4⑧`: rakam gövdede geçiyor ≠ gövde o değeri destekliyor) — ama bir
+  kademe sinsisi: orada rakam **başka bir olaya**, burada **başka bir
+  polity'ye** aitti, ve aranan polity **aynı cümlede adıyla geçiyordu.**
+  🟢 Ölçen oturumun cümlesi: *"Tam cümleleri okumasaydım YAZACAKTIM."*
+
+  📌 Ve kaydın asıl değeri: ***ölçen oturum bu ayrımı AYNI GÜN kendisi
+  kurmuştu*** (🟠 kovası, `ozet`↔gövde karşılaştırması) **ve burada
+  uygulamamıştı.** ⇒ Bir ayrım kurmak, onu bir sonraki turda uygulamayı
+  garanti etmiyor — ve bu, `§11`in *"kural yetmiyor, ALIŞKANLIK
+  gerekiyor"* dersinin **aynı gün içinde** gerçekleşmiş hâli.
+  ⚠️ Ve *"kapsayıcı maddeye çık"* kuralının sınırı buradan çıkıyor:
+  kapsayıcı madde bir kimliği **görüyor** olabilir ama **tarihlemiyor**
+  olabilir. `§4`ün COĞRAFÎ / TANECİKLİK ayrımına üçüncü bir cins:
+  **ANMA boşluğu** — madde konuşuyor, adı veriyor, tarihi vermiyor.
+
+- 🔴 **BİR MÜKERRER KURALI HEP MEVCUDU KAYIRIYORSA, MEVCUDUN HATASINI DA
+  KORUR.** *(aynı gün · `NEHİR SÜRTÜNME`, 34 şüpheli tasnifi)*
+
+  Kronoloji uygulayıcısı mükerrer bulduğunda **yeni** kaydı düşürüyor —
+  makul bir varsayılan. Ama 34 şüphelinin tasnifinde iki vaka çıktı:
+```
+lan-xang         mevcut madde bir BAŞKENT TAŞIMAYI `kurulus` etiketlemiş
+sunda-pajajaran  mevcut madde bir CÜLÛSU `kurulus` etiketlemiş
+⇒ YENİ maddeler ikisini de DAHA DOĞRU etiketliyor — ve düşürülüyorlar
+```
+  ⇒ Kural doğru sonucu veriyor (*iki kayıt aynı olayı anlatıyor, biri
+  düşsün*) ama **yanlış kaydı tutuyor.** ***Kıdem bir doğruluk ölçütü
+  değildir.***
+  🟢 Çare kuralı ters çevirmek değil — o da simetrik olarak yanlış olur:
+  düşen kaydın **daha doğru** olduğu vakalar **ayrı bir kaleme** yazılır
+  ve mevcudun `tur` alanı gözden geçirilir. Ölçen oturumun yaptığı budur.
+  📌 `§11`in *"bir hüküm, veriye inmedikçe hüküm değil bir metindir"*
+  dersinin tersi: burada hüküm **veriye iniyor** ve indiği için **daha
+  iyi olanı siliyor.**
   📌 `§11`in *"`0`, 'yok' ile 'bakmadım' arasında ayrım yapmaz"*
   dersinin **dönüş değeri** ve **alan adı** yüzleri — ve `§4`ün
   *"bir alan adı, kullanıldığı yerden değil TANIMLANDIĞI yerden
