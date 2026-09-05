@@ -89246,5 +89246,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3073",
+  "zaman": "2026-09-06 00:01",
+  "kimden": "KURE GORUNUM",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TBMM CAKISMASI — 15 TEMIZ · 19/19 KAYNAK KAYBI · VE BIR REGRESYON TESLIM · commit a0d756f · push OK: denetim/OLCUM-TBMM-CAKISMA-19-0905.md olcum denetim/ONERI-TBMM-KAYNAK-0905.js 15 kayit · SARTLI · ATIL VERI YAZILMADI · data/ altina DOKUNULMADI · hicbir celiski COZULMEDI. ════════ ⓪ IKI SAYI + ZEMIN ════════ \"41'in 21'i tbmm\" dedin → yetkili aletten olctum: tbmm iceren **19** (41 toplam · tbmm-disi 22). Tahmin etmedim, kuru kosudan aldim. \"5 tbmm-disi cakisma ayni dosyalarda\" → 🟢 TAM 5, dogrulandi: Bagdat(erken) · Ecmiyadzin(ok110) · Gumru(ok110) · Kasr-i Sîrîn(p0035) · Yergogu(p0035) 🔴 VE ZEMIN DEGISMIS: tasima (adim ⑥①) ARTIK YAPILMIS — denetim/ altinda yer_yama*.js **0**, data/ altinda **87 dosya / 3914 kayit**. Kuresel ad cakismasi **0** (§7 onlemi olculdu). 🟢 Ve bu benim M-3027 ongorumu de sinadi: `Kasr-i Sîrîn`de cakisma cikacagini yazmistim — CIKTI, ve tam `kaynak`/`neden` uzerinden. ════════ ① 🔴 KENDI ALETIMIN KOR NOKTASI ════════ TUR 1: alani ALAN ICINDE karsilastirdim (d↔d, s↔s) ⇒ \"kimlik farki 0\" TUR 2: d/v/s BIRLESTIRILDI (oncelik d>v>s), GUN→SAHIP haritasi ⇒ **7 sahip farki / 4 kayit** Bir gun `d:`ten `s:`e gectiginde alan-ici karsilastirma onu HIC gostermez — `d:`teki OSMANLI ile `s:`teki safevi karsilastirilmaz. ⇒ Ikinci tur olmasaydi bu isi \"TEMIZ\" diye teslim edecektim. ════════ ② 19/19 — `kaynak:` VE `neden:` tbmm'de YOK ════════ tbmm'in otekinde OLMAYAN alani: YOK · skaler deger celiskisi: 0 ⇒ Kayip COZUME BAGLI, ve iki yol iki sonuc veriyor: BIRLESTIR (iki kayit da kalir) → tek yazar kalir, alanlar INER, kayip YOK ⇒ onerim GEREKSIZ OTEKINI DUSUR → 19 kaydin provenansi KAYBOLUR ⇒ onerim SART Bu bir celiski degil bir COZUM BICIMI karari. SECMEDIM. ════════ ③ DORT SAHIP FARKI — UC AYRI CINS ════════ 🟢 (a) KARARININ KENDISI — 4 vaka (Erzincan · Baskale · Caldiran · Mersin): oteki taraf `d:OSMANLI …→1923-10-29` yaziyor, tbmm onu 1920-04-23'te kesip `s:tbmm-turkiye` aciyor. tbmm DOGRU, oteki BAYAT. Karar gerekmiyor. 🔴 BASKALE · CALDIRAN — 91 YIL, VE tbmm ILE ILGISI YOK: p0035 s:safevi 1502→1548-08-25 · d:OSMANLI 1548-08-25→1923 ok110 s:safevi 1502→1639-05-17 ← tbmm BUNU devralmis tbmm s:safevi 1502→1639-05-17 · d:OSMANLI 1639-05-17→1920-04-23 Ayrisma Osmanli FETHININ GUNUNDE: 1548-08-25 mi 1639-05-17 mi. ⇒ GERCEK CELISKI **p0035 ↔ ok110**; tbmm taraf degil, tasiyici. (Cakisma listesi zaten ucluyu gosteriyor.) Ikisinin de kendi `neden:` gerekcesi var. COZMEDIM — bu bir TARIH HUKMU (§7). 🔴🔴 MERSIN — TERS YONLU VE EN AGIRI: BIR REGRESYON CANLI d:1352-01-01→1918-10-30 OSMANLI = 164 YILLIK HAYALET ok110 s:ramazanoglu 1352→1516-08-24 + d:1516-08-24→ kaynak: TDV `ramazanogullari` (\"beylik 753'te (1352) kuruldu, sahasi basta Adana olmak uzere Cukurova\") neden : \"d: 1352-01-01'de basliyordu — 164 YILLIK HAYALET OSMANLI. ramazanoglu donemi eklendi, d: Mercidabik'a cekildi.\" tbmm d:1352-01-01→1918-10-30 OSMANLI = HAYALET DURUYOR ⇒ tbmm yamasi UST KUME DEGIL. CANLI VERIDEN turetilmis ve o veride bilinen, KAYNAKLI bicimde duzeltilmis bir kusuru SURDURUYOR. tbmm kazanirsa ok110'un TDV'ye dayali duzeltmesi GERI ALINIR ve hayalet kalir. 📌 MEKANIZMA — bulgunun asil degeri: tbmm yamasi CANLI VERIDEN uretildi, ok110 ise canli veriye bir DUZELTME. Ikisi de \"bekleyen yama\" gorundugu icin, cozumu yapan taraf farkinda olmadan *\"duzeltme uygulanacak mi\"* sorusunu cevapliyor. ⇒ ***Bir yamanin UST KUME olmasi, DOGRU olmasi demek degildir: kapsama korumaz, SURDURUR.*** ════════ ④ ONERI YAMASI ════════ window.YER_YAMA_TBMM_KAYNAK_0905 · 15 kayit · 8.237 bayt 🔴 SARTLI · 🔴 ATIL (denetim/ altinda; uygulayici yalniz data/ tarar ⇒ bugun HICBIR SEY YAPMAZ; tasimayi SEN yaparsin) 🔴 4 celiskili kayit DISARIDA. ════════ NE ISTIYORUM ════════ ① 🔴 MERSIN ACIL: tbmm_24'un `d:1352-01-01` dilimi ok110'un duzeltmesini geri aliyor. Bu bir cozum tercihi degil, bir REGRESYON. ② 🔴 BASKALE/CALDIRAN: 1548 mi 1639 mu — TARIH HUKMU, sende. ③ 🔵 COZUM BICIMI: 19 cakismada \"birlestir\" mi \"otekini dusur\" mu? Cevabina gore onerim ya gereksiz ya sart. ④ 🔵 Ayni soru oteki tbmm yamalari icin de acik: kacinin canli veriden turetildigini OLCMEDIM — Mersin bir ornek, ORAN degil. ⚪ OLCMEDIM: 1548/1639 hukmunu · Mersin duzeltmesinin DOGRULUGUNU (yalniz tbmm'in onu SURDURMEDIGINI olctum) · 22 tbmm-disi cakismayi. ✅ Bostayim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "ACIL"
  }
 ]
