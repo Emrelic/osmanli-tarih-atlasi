@@ -283,6 +283,64 @@ açıklamıyor.** İki ayrı boşluk, iki ayrı borç.
 sonrası kimlik) · Agadez ve Hadramut (**YENİ KÜNYE ⇒ RENK BEKLİYOR**,
 koşuda üretilemez) · Timbuktu 1700-1923 zinciri.
 
+### 🔴 ATİNA mı LONDRA mı — İKİ KARAR, VE İKİSİ FARKLI ÇIKTI
+
+Koordinatör 17 Yunan noktasını `1913-05-30` (Londra) ile onaylamıştı.
+Ölçen oturum çekirdekte şunu buldu ve **onayı çürüttü**:
+```
+1913-11-14  "Atina Antlaşması: Yunanistan ile barış ve
+             SELANİK-YANYA'nın DEVRİ"        ← çekirdek, doğrulandı
+1913-11-14 kullanan dönem ucu: 0             ← atlasta HİÇ kullanılmıyor
+```
+🟢 **Londra**, Osmanlı'nın Midye-Enez batısını **Balkan İttifakına**
+bıraktığı antlaşmadır; **Yunanistan'a devir Atina'dadır.** Ayrı antlaşma,
+ayrı taraf.
+🟢 **VE EPİR KENDİLİĞİNDEN ÇÖZÜLDÜ:** maddenin başlığı *"Selanik-YANYA'nın
+devri"* diyor. Floransa Protokolü (Aralık 1913) Yunanistan-**Arnavutluk**
+sınırını çizdi — Osmanlı'nın Yanya'yı devrinden ayrı bir soru.
+⇒ **Kapsam 10 → 17.** Kalemi kapatan şey, onu açan oturumun kendi bulgusu.
+
+#### 🟢 AMA GİRİT `1913-05-30`DA KALIR — ve sebebi bir çelişki değil
+Ölçüm, ölçen oturumun görmediği bir şey çıkardı: **kuyrukta da bir
+`1913-11-14` maddesi var** — *"Atina Antlaşması — Girit'in **RESMÎ
+İLHAKI**"*. Proje Girit'i iki kovada iki günle taşıyor.
+```
+1913-05-30 Londra   Osmanlı HÜKÜMRANLIĞINDAN vazgeçti  → `v:` BURADA biter
+1913-11-14 Atina    Yunanistan'ın ilhakı RESMEN tanınıyor
+```
+Kuyruğun kendi kelimesi ayrımı kuruyor: **"resmî"** ilhak — zaten olmuş
+bir şeyin tescili. Dört dayanak aynı yöne:
+```
+① §4 TDV BİRİNCİL — `girit` "Londra … ve Bükreş muahedeleriyle"
+② künye `girit-devleti` t:1913-05-30 — `v:`i sınırlayan künye bu
+③ atlas TASARRUFU boyar; Osmanlı hükümranlığı Londra'da bitti
+④ 1913-11-14'e çekmek 5,5 AYLIK sahipsiz pencere açardı (Değişmez 1)
+```
+🔴 Ve anakara ile Girit'in **farklı gün alması tutarsızlık DEĞİL**:
+hukukî statüleri farklıydı — Girit 1898'den beri **özerk** bir devletti
+(`v:`), anakara **doğrudan** Osmanlı toprağıydı (`d:`). Her gün, o
+statüyü bitiren fiile aittir.
+
+#### ⚪ VE ÜÇ MADDE — biri YANLIŞ KOVADA, ikisi HİÇ YOK
+```
+1912-11-08  "Selanik'in alınması"  KUYRUKTA var · ÇEKİRDEKTE yok
+            ⇒ Değişmez 2 onu GÖRMÜYOR. `§11`: *"bu gün zaten var
+              yetmiyor — HANGİ KOVADA olduğu da sorulmalı."*
+1912-10-21  Preveze · Vonitsa      iki kovada da SIFIR
+1912-11-02  Aynaroz · Kesendire    iki kovada da SIFIR
+```
+⚠️ `preveze` slug'ı `CLAUDE.md`'de **ÖLÜ** diye kayıtlı — kapsayıcı
+maddeye çıkılacak ya da akademik kaynak, `kaynak:` alanına açıkça.
+
+#### ⚪ BOZCAADA KALEMİ DARALDI (kapanmadı)
+Çekirdekte `1913-11-01` *"Bozcaada ve İmroz'un geri alınışı — Atina
+Antlaşması"* maddesi VAR ve 4 dönem ucu onu kullanıyor ⇒ verinin günü
+**dayanaksız değil.** TDV'nin *"20 Eylül 1923'te kurtarıldı"* cümlesi
+hâlâ açıklanmadı.
+⚪ **ÖLÇÜLMEDİ:** `1913-11-01` ile `1913-11-14` iki hafta arayla ve ikisi
+de "Atina Antlaşması" diyor; antlaşma 14'ünde imzalandı. Maddenin `gun:`
+alanı *"Kasım 1913"* diyor ⇒ **ay, ayın 1'ine kodlanmış olabilir.**
+
 ### 🔴 KOŞUYU ÖLÇME — İKİLİ DEĞİL **MERDİVEN** (5 Eylül 09:10'da düzeltildi)
 
 ```
