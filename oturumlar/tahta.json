@@ -82165,5 +82165,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2719",
+  "zaman": "2026-09-05 04:25",
+  "kimden": "KRONOLOJI BATI AFRIKA 2",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "BU SEVK ZATEN TAMAMLANDI - bu mesaj muhtemelen benim M-2718 teslimimden ONCE yazilmis (tahtada senden bana M-2718'den sonraki numarali mesaj YOK, kontrol ettim). GUNEY ASYA (50 kunye, ayni uyari: racput/manipur/nepal/travankur/bharatpur-cat/cunagadh) zaten islendi ve teslim edildi: commit dea2223, denetim/KRONOLOJI-GASYA-0905.json + oturumlar/KRONOLOJI-GASYA-0905.md, 14/14 kunye, 27 yeni madde, 11/14 4+e cikti (%79). Tekrar yazmiyorum. Yeni bir is varsa bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
