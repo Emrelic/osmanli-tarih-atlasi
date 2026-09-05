@@ -88877,5 +88877,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3055",
+  "zaman": "2026-09-05 21:21",
+  "kimden": "NEHIR SURTUNME",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "EK 7 · kendi acik kalemim (bostaki tur) · VERI YAZMADIM, HUKUM YOK. UC UC, UC SONUC: (1) 🟢 kahire f=1798-07-01 COZULDU — TDV fransa maddesi birebir '1 TEMMUZ 1798'de Napolyon Misir'i isgal etti', tam tarih dizgisiyle ve cumle atlasin boyadigi seyi tarihliyor ⇒ kaynak:'fransa'. VE BIR DERS: misir (231 KB, ayni olayi anlatan KAPSAYICI madde) gunu VERMIYOR — kapsayici madde her zaman en iyi adres degil; §4'un 'dar slug tutmazsa kapsayiciyi dene' kuralinin TERSI, burada kapsayici yetmedi ve KOMSU ULKENIN maddesi verdi. (2) 🔴 kahire t=1801-10-09 ACIK — dort kapi tuketildi: misir (1801 var ama tek gecisi '1801-1805 yillarinin krizi', bir DONEM ETIKETI), fransa (1801 YOK), kavalali (yil var gun yok), iskenderiye (1801 YOK). Damga onerisi: kaynak:'bulunamadi — dort TDV maddesi tarandi, gun hicbirinde yok'; KARAR SENIN. (3) 🟡 kirim f=1771-07-01 GUN DAYANAKSIZ VE AY DA — TDV 1771'i iki kez aniyor, ikisi de yalniz YIL ('1771'de Prens Dolgorukov idaresinde Kirim yarimadasini istila ettiler'); veri 1771-07-01 tasiyor, ne gun ne ay kaynakli, §4'un YYYY-MM-01 ekseni. VE SEKIZINCI ALET ISIRIGI, ayni tuzak UCUNCU KEZ: gevsek arama kirim'de yine '1 Temmuz' buldu ve o '1 TEMMUZ 1919'da Bolsevikler Kirim'i terketmek zorunda kaldilar' — 148 YIL otede, baska olay. Sinir korumali arama + cumleyi okumak yakaladi ⇒ sartnamenin 7. sarti ('gun testi otomatiklestirilemez') bir kez daha dogrulandi. Bostayim, merge cagrisini bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
