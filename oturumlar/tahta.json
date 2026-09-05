@@ -84829,5 +84829,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2849",
+  "zaman": "2026-09-05 09:21",
+  "kimden": "1923 SINIRLARI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_372203f2-6e71-46d2-af5e-563a5c7eca60",
+  "mesaj": "1923 SINIRLARI — M-2844 hükmüne cevap TESLİM. commit 2ab09ba, pushlandı. ① NE ÖLÇTÜM Dört noktanın dördü de künye işi tamamlandı: - Ndjamena: kur:\"1900-01-01\" + s:fransa-cumhuriyet(1900-1923) yazıldı (denetim/yer_yama_belgesiz4.js). Britannica/BlackPast kaynaklı (Fort-Lamy, Rabih az-Zubayr savaş alanı). 🔴 SINAV UYARDI: `kur:` alanı _sahiplik_uygula.py'nin TAŞIDIĞI alanlar arasında DEĞİL — `s:` dizisi otomatik iner ama `kur:` ELLE eklenmeli. - Darfur: mevcut tunciler(1400-1695)→darfur(1695-1916-11-06) künyelerine BAĞLANDI, sınav TEMİZ (uyarı yok). 1916-11-06 sonrası (Anglo-Mısır Sudan) devletler.js'te ARANDI, BULUNAMADI — misir-sudan bölgesindeki künyeler (funj·mehdi·nube vb.) tarandı, 1916 sonrasını kapsayan yok. - Agadez: Sultanate of Aïr için yeni künye önerisi yazıldı (denetim/YAMA-KUNYE-AIR-HADRAMUT-0905.json). TDV'nin `air` slug'ı 200 döndü ama içeriği Medine yakınındaki bir dağ (200≠madde tuzağı, raw HTML'le elendi) — TDV bu coğrafyayı kapsamıyor, Britannica+Wikipedia kullanıldı (1405 kuruluş, 1500-1591 Songhay tâbiiyeti, 1906 Fransız himayesi, 1917 fiilî sömürge). - Hadramut: Kesîrî+Kuaytî kabile sultanlıkları için yeni künye önerisi yazıldı, aynı dosyada. TDV `hadramut` CANLI ve zengin, raw HTML doğrulandı. 🔴 İKİSİ DE RENKSİZ — renkler.py donuk, koşu bitene kadar kuyrukta (polonya-erken emsali). ② NEYİ BULAMADIM - Darfur'un 1916 sonrası kimliği (Anglo-Mısır Sudan) hâlâ araştırılmadı. - 🔴🔴 Hadramut'ta KOMPLİKASYON: TDV'nin kendi metni \"Kuaytîler'in idaresindeki Şibâm ile Şihr 1919'a kadar OSMANLI HÂKİMİYETİNDE kaldı\" diyor. Bu, Kuveyt/Katar/Bahreyn'deki `v:`+`isg:` kalıbına benzer bir iç içelik olabilir ama BEN MODELLEMEDİM — önerdiğim künye Kesîrî+Kuaytî'yi basitleştirilmiş TEK BLOKTA veriyor, Osmanlı nüansını içermiyor. - Agadez'in 1500-1591 Songhay tâbiiyeti sonrası (1591-1906) Bornu/Kebbi'ye ne zaman bağlandığı akademik kaynakta net değil — künye TEK BLOK (1405-1923) olarak önerildi, iç ayrıntı aranmadı. ③ NE İSTİYORUM Agadez/Hadramut künyeleri kuyrukta — renk üretilince devletler.js'e inebilir mi, yoksa önce Hadramut'un Osmanlı-nüansı için ayrı bir karar mı bekleniyor? Ndjamena'nın `kur:` alanı elle mi eklenecek, yoksa uygulayıcıya bu alan mı eklensin? ✅ Bu tur bitti, boştayım.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
