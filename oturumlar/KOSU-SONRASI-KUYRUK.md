@@ -1029,6 +1029,52 @@ akkoyunlu künye 1340-1514 · dulkadir künye 1337-1522
 değil, ***"künyeye TAM OTURAN"*** yanlış atıfları da kapsıyor —
 ve onları **hiçbir sayı göstermez.**
 
+### 🔴🔴 KÖR NOKTA ÖLÇÜLDÜ — **GÖRÜNMEYEN 17, GÖRÜNEN 12**
+
+```
+`hafsi` 76 dönem · menzil DIŞI 29 (%38)
+   künyeyi AŞAN     12  ← `4c` görür
+   künye İÇİNDE     17  ← HİÇBİR DENETİM GÖRMEZ
+```
+Menzil TDV'den ölçülebilir alındı (*"batıda Cezayir'den doğuda
+TRABLUS'a kadar"* ⇒ 13,19°D). Görünmeyen 17'de **Tobruk** var — 1080 km
+doğuda, dönemi `1551-08-15`te bitiyor (künye 1574-09-13 → içinde).
+📌 `Fizan`ın görünmesi **tesadüftü** (`t:1577` künyeyi 2y3a aşıyordu).
+⇒ ***Bir denetimin gördüğü şey, kusurun büyüklüğüyle değil, kusurun
+denetimin sorduğu soruya denk gelmesiyle belirlenir.***
+⚪ Sıradaki: Barka'nın 17 kaydı için 1281-1551 arası gerçek sahip.
+(Fizan'ın 12'si `kanem-bornu` ile ÇÖZÜLDÜ — çift sayılmayacak.)
+
+### 🟢 ELBA — `piza` bulundu, ve 1532 DEĞİL **1548**, hem de yalnız bir kesimi
+```
+zincir  1281 → 1399-02-19 `piza` (künye VAR: id `piza`, f:1000 t:1406)
+        1399-02-19'dan Piombino Prensliği (Appiani) — künye YOK
+🔴 EK BULGU: Elba'nın Medici geçişi 1532 değil **1548**, ve yalnız
+   Portoferraio (adanın BİR KESİMİ). 1557'de gerisi Appiani'ye İADE +
+   İspanyol garnizonu ⇒ 1548 sonrası ada ÇOK PARÇALI
+```
+⇒ Şibâm/Şihr/Mükellâ ile **aynı sınıf**: tek nokta birden çok kimliği
+taşıyamaz. Tespit edildi, **çözülmedi** — ada bölünmesi ayrı kalem.
+⚪ 1290-1292 Cenova ara-dönemi **tek kaynaklı** bulundu, ikinci bağımsız
+kaynak yok ⇒ YAZILMADI.
+🔴 `piombino` künyesi + `yer_yama_elba.js` → **RENK BEKLİYOR** (dokuzuncu).
+
+### 🔴 YANLIŞ `kaynak:` DAMGASI — ve daha ağırı: **YANLIŞ `ozet:` UYARISI**
+```
+mogolistan · somali   `kaynak:` "TDV'de müstakil maddesi yok"
+GERÇEK                ikisi de 200 · 117 KB ve 128 KB gövde
+```
+🔴 Ve `mogolistan` künyesinin **özeti** bir uyarı taşıyor: *"TDV'nin
+maddesi Çağatay sonrası Moğulistan'ı anlatır, modern Moğolistan'ı
+değil."* Ölçüm: **"Çağatay" 0 · "Moğulistan" 0**; gövde modern
+Moğolistan (18 Kasım 1911 · 26 Kasım 1924 · bugünkü Ulan Batur).
+📌 Bu bir eksik kaynak değil **YANLIŞ BİR GÜVENCE** — `kmDanZoom` mezar
+taşı vakasının sınıfı: *bir uyarı okuru ölçüme iter, bir güvence
+ölçümden çevirir*, ve bu özet **uyarı kılığında bir güvence.**
+⚪ `somali`de sebep muhtemelen yazım ekseni (künye *Migiurtinia/Hobyo*,
+TDV *Macerteyn/Obbia*) — ama bu **TAHMİN, ölçülmedi.** Ve eksenin yeni
+yüzü: *"kaynak başka yazıyor, biz KAYNAĞI bulamadık."*
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri

@@ -333,6 +333,28 @@ SORMAZ            "bu kimlik oraya HİÇ ait miydi?"
 ⚠️ ⇒ Aynı soru **her kimlik için** açık: `hafsi`nin **aşmayan**
 kayıtlarında da yanlış atıf var mı? Hiçbir denetim onu sormuyor.
 
+🔴🔴 **VE ÖLÇÜLDÜ — GÖRÜNMEYEN, GÖRÜNENDEN ÇOK:**
+```
+`hafsi` kullanan dönem              76
+menzil DIŞI                         29   (%38)
+   künye penceresini AŞAN           12   ← `4c` GÖRÜR
+   künye penceresi İÇİNDE KALAN     17   ← HİÇBİR DENETİM GÖRMEZ
+```
+Menzil TDV'den **ölçülebilir** biçimde alındı: *"nüfuzu batıda Cezayir
+şehrinden doğuda **TRABLUS'a** kadar"* ⇒ **13,19°D**, bir çizgi.
+🔴 Görünmeyen 17'nin içinde **Tobruk** var — Trablus'un **1080 km**
+doğusunda, ve dönemi `1551-08-15`te bitiyor, yani künyenin
+(1574-09-13) **içinde.**
+📌 Ve `Fizan` kümesinin görünmesi **tesadüf**: `t:1577` künyeyi 2 yıl
+3 ay aştığı için `4c` ötmüş. Aşmasaydı o 12 de görünmeyecekti.
+⇒ ***Bir denetimin gördüğü şey, kusurun BÜYÜKLÜĞÜYLE değil, kusurun
+denetimin SORDUĞU SORUYA denk gelmesiyle belirlenir.***
+
+🟢 **VE YÖNTEM ÇIKTI, tekrarlanabilir:** kimliğin menzilini önce bir
+**sayıya** çevir (`hafsi`de boylam, `artuklu`da kol bitiş tarihleri),
+sonra veriyi ona karşı tara. Menzil ölçülebilir değilse tarama da
+yapılamaz — ve o zaman `ölçülemedi` yazılır.
+
 🔴 **VE İLK DOĞRULANMIŞ VAKA AYNI GÜN GELDİ — `artuklu`:**
 ```
 Harput · Çemişgezek · Palu  `artuklu` 1281 → 1465
