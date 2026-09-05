@@ -1,7 +1,8 @@
 {
-  "_baslik": "1923 SINIRLARI — Sultanate of Aïr (Agadez) + Hadramut künye önerisi (M-2844 ③④)",
+  "_baslik": "1923 SINIRLARI — Sultanate of Aïr (Agadez) + Hadramut künye önerisi (M-2844 ③④, M-2855 hükmüyle BÖLÜNDÜ)",
   "_not": "ÖNERİDİR, devletler.js'e UYGULANMADI. 🔴 RENK BEKLİYOR — renkler.py bu koşuda DONUK (üç parmak izli dosyadan biri), yeni künye renksiz kalır ve renk kosu bitene kadar ÜRETİLEMEZ (polonya-erken emsali). Bu YAMA KUYRUĞA yazılıyor, koşu bitmeden İNDİRİLMEMELİ.",
   "_oturum": "1923 SINIRLARI · local_372203f2-6e71-46d2-af5e-563a5c7eca60",
+  "_M2855_DEGISIKLIK": "Hadramut TEK BLOK künye (hadramut-kabile-sultanliklari) M-2855'te REDDEDİLDİ — TDV'nin kendi cümlesiyle çelişiyordu (Şibâm+Şihr 1919'a kadar Osmanlı hâkimiyetinde). ① BÖLÜNDÜ: kesiri-sultanligi + kuayti-sultanligi. ② M-2855'in ③ sorusu ('iç Hadramut — Kesîrî tarafı — Osmanlı hâkimiyetinde miydi?') raw HTML yeniden okunarak ÖLÇÜLDÜ: TDV'nin 1915-1919 nominal Osmanlı hâkimiyeti cümlesi AÇIKÇA yalnız 'Kuaytîler'in idaresinde bulunan Şibâm ile Şihr' için — Kesîrî'nin kendi çekirdek toprağı (Sayvan/Terîm iç kesimi) için AYRI, BENZER bir cümle YOK. 1538 sancak-teşkilatı dönemi hariç (o da yalnız nominal, 'Hadramut içinde idareyi ellerinde bulunduranlar Kesîrî kabilesi reisleri idi' deniyor) Kesîrî'ye özgü bir 20. yy Osmanlı hakimiyet iddiası METINDE YOK ⇒ kesiri-sultanligi künyesine Osmanlı örtüsü EKLENMEDİ.",
   "kunyeler": [
     {
       "id": "agadez-sultanligi",
@@ -14,21 +15,32 @@
       "not": "1500-1591 Songhay tâbiiyeti VE 1591-1906 arası hangi güçlere (Bornu, Kebbi) ne zaman bağlandığı TAM NETLEŞTİRİLMEDİ ('incorporated into Songhai, Bornu, and Kebbi' — akademik kaynak sırayı/tarihleri net vermiyor). Bu künye TEK BLOK olarak önerildi (1405-1923), İÇ AYRINTI (Songhay dönemi vb.) ARANMADI — istenirse ayrı bir tur bunu inceler."
     },
     {
-      "id": "hadramut-kabile-sultanliklari",
-      "ad": "Hadramut Kabile Sultanlıkları (Kesîrî · Kuaytî)",
-      "f": "1500-01-01",
+      "id": "kesiri-sultanligi",
+      "ad": "Kesîrî Sultanlığı (Hadramut iç kesimi)",
+      "f": "1450-01-01",
       "t": "1923-10-29",
       "bolge": "arabistan",
-      "ozet": "16. yüzyıldan itibaren Kesîrî (Kathiri) kabilesinin, 19. yüzyıl ikinci yarısından itibaren de Kuaytî (Qu'aiti) kabilesinin rekabetle hâkim olduğu Hadramut; 1882'den itibaren İngiliz himayesine (Aden Protektorası) girdi ama YEREL kabile idaresi 1923'te de sürüyordu.",
-      "kaynak": "TDV, madde: hadramut (CANLI, raw HTML doğrulandı) — \"Kesîrî kabilesi reisleri\" idareyi elinde tutuyordu, 1866'da Gālib b. Muhsin öne çıktı, 1882'de Ömer b. Avad el-Kuaytî hâkimiyet mücadelesine girdi. Britannica 'Kathiri sultanate' + 'Quʿaiti sultanate' ile İKİ BAĞIMSIZ kaynak eşleşti.",
-      "not": "🔴🔴 ÖNEMLİ KOMPLİKASYON — TDV'nin kendi metni: \"Kuaytîler'in idaresinde bulunan Şibâm ile Şihr 1919 yılına kadar OSMANLI HÂKİMİYETİNDE kaldı.\" Yani Hadramut kıyısının bir kısmı 1919'a dek NOMİNAL Osmanlı tâbiiydi — bu, mevcut `osmanli`/`v:` mantığıyla nasıl modelleneceği AYRI bir karar gerektirir (Kuveyt/Katar gibi `v: Osmanlı kazâsı` sonra `isg:`/`s:` İngiltere kalıbına benzer olabilir ama BEN MODELLEMEDİM). Bu künye Kesîrî+Kuaytî'yi TEK BLOKTA basitleştiriyor — Kuveyt/Bahreyn/Katar'daki gibi İngiliz himayesini `isg:` ile AYRICA işaretlemek isteyen bir sonraki tur bunu ELE ALMALI, ben yalnız KÜNYENİN KENDİSİNİ öneriyorum."
+      "ozet": "Hadramut vadisinin iç kesimine (Sayvan, zaman zaman Terîm/Şibâm) hâkim olan Kesîrî kabilesi; 1538'de nominal Osmanlı sancağı ilan edilen dönemde bile 'idareyi ellerinde bulunduranlar Kesîrî kabilesi reisleri idi'; 1888 İngiliz-Yâfiî/Kuaytî himaye antlaşmasından sonra da İngilizler 'iç bölgeleri Kesîrîler'e bıraktı', yani kıyı gibi doğrudan himayeye girmedi.",
+      "kaynak": "TDV, madde: hadramut (CANLI, raw HTML doğrulandı, 2 Eylül taraması + 5 Eylül yeniden okuma) — \"XV. yüzyılın ikinci yarısında da Kesîrîler ülkenin bir bölümüne hâkim oldular.\" 🟡 HASSASİYET: kaynak yalnız 'yüzyılın ikinci yarısı' diyor, gün/yıl YOK — f: bu yüzden 1450-01-01 olarak YÜZYIL-YARISI kabaligindadir, sahte kesinlik DEĞİL.",
+      "not": "M-2855 ③ sorusuna cevap: iç Hadramut (Kesîrî çekirdeği) için 20. yy Osmanlı hâkimiyet iddiasına dair TDV'de AYRI bir cümle YOK — yalnız Kuaytî-idaresindeki Şibâm+Şihr için var (bkz. kuayti-sultanligi). Bu yüzden bu künyeye Osmanlı örtüsü EKLENMEDİ. ⚠️ 1874-79 Zafâr/Seyyid Fazl olayında Kesîrîler bir ara destekçiydi ama bu farklı bir bölge (Zafâr/Dhofar, bugünkü Umman) içindi ve TDV'nin kendi metni Kesîrîler'in 1879'da İSYAN ederek bu girişimi TERK ETTİĞİNİ söylüyor — yani bu, Kesîrî'nin Osmanlı tâbiiliğini DEĞİL, tam tersini gösteriyor."
+    },
+    {
+      "id": "kuayti-sultanligi",
+      "ad": "Kuaytî Sultanlığı (Şihr-Mükellâ, Hadramut kıyısı)",
+      "f": "1881-01-01",
+      "t": "1923-10-29",
+      "bolge": "arabistan",
+      "ozet": "1840'lardan itibaren güç toplayan Yâfiî lideri Ömer b. Avad el-Kuaytî, 1881 sonunda İngiliz desteğiyle Şihr ve Mükellâ dahil Hadramut kıyısının tamamını ele geçirdi; 1888'de İngiliz himaye antlaşması imzalandı (dış ilişkiler İngiltere'ye geçti, iç idare Kuaytî'de kaldı).",
+      "kaynak": "TDV, madde: hadramut (CANLI) — \"İngilizler Yâfiîler'i destekleyerek onların 1881 sonunda Şihr ve Mükellâ dahil bütün Hadramut sahilini ele geçirmelerini sağladılar ... 1888'de imzaladıkları himaye antlaşmasıyla ... Yâfiîler'in dış ilişkilerini tamamen üzerlerine aldılar.\" Britannica 'Qu'aiti sultanate' ile eşleşti. 🟡 f: 1881-01-01 — TDV '1881 sonunda' diyor (gün yok), YIL kullanıldı.",
+      "not": "🔴🔴 M-2855'in işaret ettiği komplikasyon TAM BURADA, ve künyenin `f:`/`t:` alanları bunu TAŞIMIYOR — nokta düzeyinde AYRICA modellenmesi gerekiyor: TDV'nin kendi cümlesi, \"1915'te Hadramut şeyhleriyle ... Ali Said Paşa arasında imzalanan mukavelenâmede ... Kuaytîler'in idaresinde bulunan Şibâm ile Şihr 1919 yılına kadar Osmanlı hâkimiyetinde kaldı.\" ⇒ Kuaytî'nin ŞİBÂM+ŞİHR toprağı 1915-1919 arası NOMİNAL Osmanlı tâbiiliğinde (şeyhler İngiliz antlaşmalarını iptal edip Osmanlı'ya bağlılık ilan etti), 1919'dan sonra bu iddia düştü ve 1923 Lozan'la kesin bitti. M-2855'in önerdiği kalıp (Osmanlı v:/d: 1919'a kadar → sonra Kuaytî s:) YALNIZ Şibâm+Şihr'e özgüdür ve BUGÜN atlasta bu iki nokta AYRI olarak YOK — atlastaki tek genel 'Hadramut' noktası (lat 15.50/lon 48.50, tur:bolge) bu ikisiyle BİREBİR aynı yer değil, o yüzden bu nokta-seviyesi ayrımı BU TURDA UYGULAMADIM, yalnız KÜNYE düzeyinde tespit ettim — bir sonraki tur Şibâm/Şihr/Mükellâ için ayrı nokta açmak isteyip istemediğine karar vermeli."
     }
   ],
-  "renk_durumu": "İKİSİ DE RENKSİZ — renkler.py donuk. Koşu bitince renk_olc.py --oner ile çözülmeli, sonra devletler.js'e inebilir.",
+  "renk_durumu": "ÜÇÜ DE RENKSİZ — renkler.py donuk. Koşu bitince renk_olc.py --oner ile çözülmeli, sonra devletler.js'e inebilir.",
   "ozet_sayim": {
-    "toplam_kunye": 2,
-    "TDV_kaynakli": 1,
+    "toplam_kunye": 3,
+    "liste": ["agadez-sultanligi", "kesiri-sultanligi", "kuayti-sultanligi"],
+    "TDV_kaynakli": 2,
     "TDV_kapsam_disi_akademik": 1,
-    "acik_komplikasyon": "Hadramut'un Osmanlı/İngiltere iç içeliği (1919) modellenmedi, ayrı bir karar/tur gerektirir"
+    "acik_komplikasyon": "kuayti-sultanligi'nin Şibâm+Şihr toprağındaki 1915-1919 nominal Osmanlı hâkimiyeti KÜNYE düzeyinde tespit edildi ama NOKTA düzeyinde uygulanmadı (atlasta Şibâm/Şihr ayrı nokta yok, genel 'Hadramut' noktası bunlarla birebir aynı yer değil)"
   }
 }
