@@ -9,6 +9,73 @@
 > Altı oturum sabaha kadar çalıştı. Aşağıda **önce senin kararın**, sonra
 > gecenin özeti. Koşu 5b hâlâ sürüyor (aşağıda).
 
+### 🕗 20:00 GÜNCELLEMESİ — bu dosya 14:34'te yazılmıştı, arada 5,5 saat iş var
+
+> Bu blok **eskisini çürütmüyor, üstüne ekliyor.** Aşağıdaki dört kararın
+> hiçbiri değişmedi — ama üçüncüsüne **yeni bir somut vaka** geldi.
+
+**KOŞU — henüz bitmedi, ve sebebi ölçüldü:**
+```
+başlangıç 02:40:26 · 20:00'de duvar saati 17s20dk · CANLI
+fırlatıcının kendi kaydı: "ölçülen en uzun koşu 16s09dk"
+⇒ TARİHÎ AZAMİ AŞILDI (+1s11dk)
+```
+🟢 **Ama bu takılma DEĞİL, ayrıca ölçüldü:** tam çekirdek CPU (8 sn'de
++8s) · bellek 192 → 688 MB büyüdü, sonra 446'ya **düştü** (bir aşama
+sınırının işareti) · bekçi 60 dk'da bir raporlu.
+🟢 **Ve aşım BEKLENEN:** 16s09dk tabanı **~2731 petek** üzerinde
+ölçülmüş; bu koşu **3805 petek** işliyor (+%39) ve maliyet doğrusaldan
+kötü ölçekliyor. Süre kaydının yanına girdi büyüklüğü yazılmadığı için
+"gecikme" gibi göründü.
+🔴 **YAYIN YOK** — `donemler.js` hâlâ 4 Eylül 16:56 (motor onu en sonda yazar).
+
+**14:34'TEN BERİ KAPANANLAR (hepsi ölçülmüş):**
+```
+🟢 Manama himaye günü        1861 DEĞİL 1913-07-29 — verdiğim üç aday
+                             tarihin ÜÇÜ de yanlıştı, işçi gövdeyi açıp eledi
+🟢 Zend→Kaçar sınırı         1794-01-01 · madde KUYRUKTA zaten varmış
+🟢 `kur:` araç kusuru        DÜZELTİLDİ (a42a5de) — 397 kaydın 10'u
+                             merge'de SESSİZCE kaybolacaktı
+🟢 397 kaydın alan kapsaması KOVA BOŞ — `kur` tek eksikmiş (3 bağımsız yol)
+🟢 merge adım ⓪              kapı altlik.js'te DURMAYACAK (fırlatıcı ölçüldü;
+                             yine de koşturulup okunacak)
+🟢 `2s` 101 açığın cinsi     13-15'i TAŞIMA · 10'u KESİN BORÇ
+🟢 10 borcun günü sınandı    🔴 YARISI DAYANAKSIZ ⇒ madde YAZILMADI
+                             (yazsaydık dayanaksız günleri meşrulaştırırdık)
+```
+
+**VE İKİ YAPISAL BULGU — sayı değil, ANLAM düzelten:**
+```
+🔴 `Değişmez 2`nin "kapalı"sı, o günün BÜTÜN geçişlerinin anlatıldığı
+   anlamına GELMİYOR — yalnız EN AZ BİRİNİN. Ölçüldü: kırılma
+   günlerinin %21'i ≥2000 km ayrı geçişler taşıyor, ve bunların %92'si
+   `YYYY-01-01`. Uç örnek: 1438-01-01 → 52 geçiş, Cusco ↔ Roi Et
+   19.467 km. Denetime dönüştürülmedi (386 yanlış alarm olurdu), ama
+   sayı artık doğru okunuyor.
+🔴 BEYAN EDİLEN KAYNAK İDDİAYI TAŞIMIYOR olabilir. Vaka: bir künye
+   `kaynak: uganda` diyor, TDV `uganda` tam metninde (34.134 kar.)
+   "1899" 0 kez, "Kabalega" 0 kez. Alan DOLU olduğu için hiçbir denetim
+   sormuyor. Otomatik sınanabilir — ölçüt YOKLUK.
+```
+
+**BU GECE BENİM ÜÇ HATAM — üçünü de işçi oturumlar yakaladı:**
+```
+① Bahreyn'e üç aday tarih verdim; üçü de kaynaksızdı ve üçü de yanlıştı
+② Bir işçinin dosya adına `data/` önekini BEN ekledim, sonra kendi
+   eklediğim yolu ölçüp onu "çürüdü" diye damgaladım — geri aldım
+③ "1786 Cafer Han" cümlesini gövdeden değil genel bilgiden verdim — geri çektim
+```
+
+**SENDE DURAN DÖRT KARAR — hiçbiri değişmedi. Ve üçüncüye yeni vaka:**
+> `Ammaroğulları` (Trablus 1327-1401): TDV altı kırılma veriyor ve
+> **dördü TÂBİİYET değişimi** (Merînî → Hafsî → Sicilya), toprak devri
+> değil. Atlas tâbiiyeti **yalnız Osmanlı için** ifade edebiliyor
+> (`v:` kimlik alanı yok) ⇒ o dördünü `s:` yazmak *"Trablus Merînî
+> toprağı oldu"* demek olurdu — **yaklaşıklama değil, farklı bir iddia.**
+> Veri şimdilik **susuyor** (iki blok + `not:` beyanı).
+> ⇒ Üçüncü kararının maliyeti artık bir örnekle görünür.
+
+
 ### 🔴 SENİN KARARIN — TEK KALEM: `tbmm-turkiye` HARİTADA HİÇ YOK
 
 Ölçüldü: 1923-10-29'da **98 künye canlı**, ve **10'unun hiç noktası yok** —
