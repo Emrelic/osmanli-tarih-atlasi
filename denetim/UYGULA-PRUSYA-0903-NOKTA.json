@@ -1,0 +1,163 @@
+{
+  "is": "PRUSYA-0903 ② — Torun ve Elbing NOKTA reçetesi (M-2428 sevki)",
+  "oturum": "PRUSYA-0903",
+  "damga": "2026-09-03 · KOŞU CANLI — `data/` DONMUŞ, YAZILMADI. Reçete turu.",
+  "uygulayan": "1.MURAT — yeni `data/yerlesimler_*.js` onun kararı (§7)",
+
+  "🔴_KARARA_BAGLI_DAMGA": {
+    "baslik": "ZİNCİRLER BUGÜN YAZILABİLECEK TEK DOĞRU HÂLİYLE — karar çıkınca GÜNCELLENECEK",
+    "sebep": "`prusya` BOYALAR'da yok. Yazılsa `uret_petek.py:706-710` onu `sp[\"d\"] = _alt` ile `almanya`ya ÇEVİRİR (canlı koşuda 142 dönem bu yolla düşüyor). Yani bugün `prusya` yazmak `almanya` yazmakla AYNI ŞEY.",
+    "eger_SENARYO_B_acilirsa": "Aşağıdaki zincirlerde `almanya` yazan Prusya dönemleri `prusya`ya çevrilir: Torun 1793-01-23→1807 ve 1815-06-09→1920-01-18 · Elbing 1772-08-05→1923-10-29. Töton dönemi (1281→1466) `almanya` KALIR — o ayrı bir kimlik sorunu (`teuton-sovalyeleri`, künyesiz ve renksiz).",
+    "kim_karar_verecek": "Çözücü koşu bitince koşturulacak (M-2428 ①). Renk çıkarsa B, çıkmazsa A."
+  },
+
+  "0_ON_SINAV": {
+    "yontem": "Üç kırmızı sınav, kayıt yazılmadan ÖNCE (§11 mükerrer tuzağı + ad çakışması + Değişmez 2)",
+    "①_3km_yakinlik": {
+      "Torun": "en yakın nokta Poznan 131,0 km · Gdansk 149,2 km · Varşova 184,1 km — 🟢 3 km altı 0",
+      "Elbing": "en yakın nokta Gdansk 54,3 km · Königsberg 94,5 km — 🟢 3 km altı 0",
+      "not": "§11'in Varat/Varad ve Afyon/Karahisâr tuzağı. İkisi de temiz, `ikiz:` beyanı GEREKMİYOR."
+    },
+    "②_ad_cakismasi": {
+      "yontem": "Normalleştiricili (Türkçe + Lehçe diakritik: ń ł ó ż ź ę ą ś ć)",
+      "Torun": "🟢 atlasta karşılığı YOK — torun · Toruń · Thorn üçü de 0 sonuç",
+      "Elbing": "🟢 atlasta karşılığı YOK — elbing · elblag · Elbląg üçü de 0 sonuç",
+      "🔴_uyari": "`Radom` tuzağına dikkat: atlastaki tek `Radom` DARFUR'da. Bu iki ad için öyle bir çakışma YOK, ölçüldü."
+    },
+    "③_degismez_2": "Aşağıda kayıt kayıt — her kırılma günü ÇEKİRDEKTE (`olaylar*.js`) ölçüldü, kuyrukta değil (§11: «hangi kovada olduğu da sorulmalı»)"
+  },
+
+  "1_ELBING": {
+    "durum": "🟢 TAMAMEN TEMİZ — üç kırılmasının üçü de çekirdekte kapalı, madde GEREKMİYOR",
+    "ad": "Elbing (Elbląg)",
+    "lat": 54.1522,
+    "lon": 19.4088,
+    "k": 3,
+    "kur": "YAZILMASIN — gerekçe aşağıda (2_KUR_GEREKCESI)",
+    "s": [
+      { "f": "1281-01-01", "t": "1466-10-19", "d": "almanya",
+        "ne": "Töton Şövalyeleri Devleti (şehir 1237'de kuruldu, atlas penceresinden önce)",
+        "degismez_2": "🟢 atlas açılışı — kırılma değil" },
+      { "f": "1466-10-19", "t": "1772-08-05", "d": "lehistan",
+        "ne": "II. Torun Barışı — Kraliyet Prusyası (Prusy Królewskie) olarak Lehistan tacına bağlandı",
+        "degismez_2": "🟢 ÇEKİRDEKTE VAR — 0 gün (olaylar_ek16.js, 1466-10-19)" },
+      { "f": "1772-08-05", "t": "1923-10-29", "d": "almanya",
+        "ne": "Lehistan'ın Birinci Paylaşımı — Prusya aldı, Doğu Prusya eyaletine katıldı. 1923'e kadar Alman kaldı (Varşova Dukalığı'na GİRMEDİ).",
+        "degismez_2": "🟢 ÇEKİRDEKTE VAR — 0 gün (olaylar_ek16.js, 1772-08-05)" }
+    ],
+    "kaynak": "bulunamadı — TDV'de `elbing` slug'ı ÖLÜ (302) ve `prusya` gövdesi Elbing'i HİÇ anmıyor (ölçüldü); dayanak: Karin Friedrich, The Other Prussia: Royal Prussia, Poland and Liberty 1569-1772 (Cambridge UP, 2000) — Kraliyet Prusyası şehirlerinin tam konusu"
+  },
+
+  "2_TORUN": {
+    "durum": "🟡 BEŞ KIRILMANIN DÖRDÜ TEMİZ — biri (1807) ÇEKİRDEK MADDE İSTİYOR",
+    "ad": "Torun (Toruń)",
+    "lat": 53.0103,
+    "lon": 18.6047,
+    "k": 3,
+    "kur": "YAZILMASIN — gerekçe aşağıda",
+
+    "🔴_TEK_ENGEL": {
+      "baslik": "1807-1815 Varşova Dukalığı dilimi — ÇEKİRDEKTE MADDE YOK",
+      "olcum": {
+        "1807-07-09 (Tilsit, TDV'nin verdiği gün)": "🔴 çekirdekte en yakın 40 GÜN (1807-05-30, olaylar_ek7.js) ⇒ AÇIK doğurur",
+        "1807-07-22 (Dresden anayasası, künye `varsova-dukaligi` f:)": "🔴 çekirdekte en yakın 53 GÜN ⇒ AÇIK doğurur",
+        "1806-11-28 (Varşova noktasının kullandığı gün)": "🟢 çekirdekte 24 gün — KAPALI, ama Torun için TARİHEN YANLIŞ (o gün Fransızlar Varşova'ya girdi, Torun değil)",
+        "cekirdekte 1807 gunleri": "1807-02-20 · 03-17 · 04-21 · 05-25 · 05-29 · 05-30 — sonra doğrudan 1808-07-19'a atlıyor. Temmuz 1807 çekirdekte BOŞ."
+      },
+      "sinif": "§11 «bu gün zaten var YETMİYOR — HANGİ KOVADA olduğu da sorulmalı». 1807-07-09 KUYRUKTA var (kronoloji_almanya.js, 0 gün) ama çekirdekte YOK.",
+      "iki_surum": "Aşağıda A ve B sürümü. A madde istemez ama tarihen eksik; B tam ama bir çekirdek madde ister."
+    },
+
+    "SURUM_A_madde_istemez": {
+      "hukum": "🟡 Değişmez 2 TEMİZ ama 1807-1815 Varşova Dukalığı dönemi İFADE EDİLMEZ",
+      "s": [
+        { "f": "1281-01-01", "t": "1466-10-19", "d": "almanya", "degismez_2": "🟢 atlas açılışı" },
+        { "f": "1466-10-19", "t": "1793-01-23", "d": "lehistan", "degismez_2": "🟢 0 gün (olaylar_ek16.js)" },
+        { "f": "1793-01-23", "t": "1920-01-18", "d": "almanya", "degismez_2": "🟢 0 gün (olaylar_ek16.js)" },
+        { "f": "1920-01-18", "t": "1923-10-29", "d": "polonya", "degismez_2": "🟢 10 gün (olaylar_ek5.js, 1920-01-28)" }
+      ],
+      "eksigi": "Torun 1807-1815 arası Varşova Dukalığı'ndaydı; bu sürüm o sekiz yılı `almanya` gösterir. Gdansk'ın bugünkü hâliyle AYNI kusur — yani yeni bir kusur DEĞİL, var olanın tekrarı."
+    },
+
+    "SURUM_B_ONERILEN": {
+      "hukum": "🟢 TARİHEN TAM — ama bir ÇEKİRDEK MADDE ister (aşağıda hazır)",
+      "s": [
+        { "f": "1281-01-01", "t": "1466-10-19", "d": "almanya",
+          "ne": "Töton Şövalyeleri Devleti (şehir 1233'te Kulm hukukuyla kuruldu)" },
+        { "f": "1466-10-19", "t": "1793-01-23", "d": "lehistan",
+          "ne": "II. Torun Barışı — Kraliyet Prusyası", "degismez_2": "🟢 0 gün" },
+        { "f": "1793-01-23", "t": "1807-07-09", "d": "almanya",
+          "ne": "II. Paylaşım — Güney Prusya eyaleti", "degismez_2": "🟢 0 gün (başlangıç) · 🔴 bitiş MADDE İSTİYOR" },
+        { "f": "1807-07-09", "t": "1815-06-09", "d": "varsova-dukaligi",
+          "ne": "Tilsit Antlaşması — Torun Varşova Dukalığı'na verildi", "degismez_2": "🔴 başlangıç MADDE İSTİYOR · 🟢 bitiş 0 gün (olaylar_ek16.js, 1815-06-09)" },
+        { "f": "1815-06-09", "t": "1920-01-18", "d": "almanya",
+          "ne": "Viyana Kongresi — Batı Prusya'ya geri döndü", "degismez_2": "🟢 0 gün" },
+        { "f": "1920-01-18", "t": "1923-10-29", "d": "polonya",
+          "ne": "Versailles'ın uygulanması — Polonya Koridoru", "degismez_2": "🟢 10 gün" }
+      ],
+
+      "GEREKEN_CEKIRDEK_MADDE": {
+        "🔴_dosya_SENIN": "`data/olaylar*.js` KOORDİNATÖRÜN dosyası — ben YAZMADIM, öneriyorum",
+        "nicin_gerekli": "1807-07-09 çekirdekte 40 gün uzak. Bu madde inerse hem Torun'un iki kırılması kapanır HEM DE aşağıdaki mevcut açık kapanır.",
+        "madde": {
+          "t": "1807-07-09",
+          "b": "Tilsit Antlaşması — Prusya'nın Polonya toprakları Varşova Dukalığı'na verildi",
+          "tur": "antlasma",
+          "yer_id": "",
+          "d": "Fransa ile Prusya arasında Tilsit'te imzalanan antlaşma, Prusya'nın Lehistan paylaşımlarında aldığı toprakların büyük kısmını elinden aldı ve bunlardan Napolyon'a bağlı bir tampon devlet olan Varşova Dukalığı kuruldu. Prusya toprağının ve nüfusunun yaklaşık yarısını kaybetti; Torun, Poznan ve Varşova yeni dukalığa dâhil edildi, Białystok bölgesi ise Rusya'ya bırakıldı.",
+          "kaynak": "prusya — TDV; gövdede AYNEN: «ağır bir barışı kabul etmek zorunda kaldı (9 Temmuz 1807)». Gün TDV'nin kendi verdiği gündür."
+        },
+        "🟢_YAN_FAYDA_olculdu": "Bu madde inerse **Białystok'un BUGÜN AÇIK olan iki kırılması da kapanır** (aşağıda, 4_AYRI_BULGU). Yani madde yalnız Torun için değil, mevcut bir açığı da kapatıyor."
+      }
+    },
+
+    "kaynak": "bulunamadı — TDV'de `torun` slug'ı CANLI ama YANLIŞ MADDE (akrabalık terimi «hafîd», Polonya şehri DEĞİL — §4② beşinci vakası) ve `prusya` gövdesi Torun'u HİÇ anmıyor (ölçüldü); dayanak: Karin Friedrich, The Other Prussia (Cambridge UP, 2000) ve Christopher Clark, Iron Kingdom (Harvard UP, 2006)"
+  },
+
+  "3_KUR_GEREKCESI": {
+    "sevk": "M-2428: «koordinat + `kur:` (M-2410 ①: en erken kalıcı yerleşim olayı) + kaynak»",
+    "hukmüm": "🔴 İKİSİNDE DE `kur:` YAZILMASIN — ve gerekçe ÖLÇÜLDÜ, tercih değil",
+    "olcum": {
+      "kur_dolu_kayit": "362 / 2731",
+      "1281_oncesi_kur_tasiyan": "2 kayıt — Rapa Nui (1200) ve Lapaha (1220), ikisi de Okyanusya",
+      "emsal_8_sehir": "Gdansk · Königsberg · Poznan · Stettin · Varşova · Krakov · Vilnius · Berlin — SEKİZİNİN SEKİZİNDE de `kur:` YOK, ve sekizi de 1281'den önce kurulmuş"
+    },
+    "gerekce": "`kur:` alanının işlevi «bu tarihten önce nokta YOKTU» demektir (Değişmez 1 taraması `if (t.kur && t.kur > g) continue` ile atlar). Torun 1233, Elbing 1237 — ikisi de atlas penceresinden (1281) ÖNCE kurulmuş, dolayısıyla `kur:` hiçbir günü değiştirmez.",
+    "🔴_zarar_riski": "Yanlış bir `kur:` (örneğin 1466) noktayı 185 yıl boyunca haritadan SİLER ve Töton dönemi hiç çizilmez.",
+    "not": "M-2410 ① kuralı `kur:` YAZILACAKSA nasıl yazılacağını söylüyor; YAZILIP YAZILMAYACAĞINI söylemiyor. Emsal yazılmamasını gösteriyor."
+  },
+
+  "4_AYRI_BULGU_mevcut_acik": {
+    "baslik": "🔴 Białystok BUGÜN AÇIK bir `Değişmez 2` taşıyor — benim yazdığım bir şey DEĞİL",
+    "olcum": {
+      "1807-07-09 (bitiş, almanya)": "🔴 AÇIK — çekirdekte en yakın madde 40 gün (1807-05-30)",
+      "1807-07-09 (başlangıç, rusya)": "🔴 AÇIK — aynı",
+      "oteki_kirilmalari": "🟢 1795-10-24 (0 gün) · 1917-03-15 (4) · 1917-11-07 (0) · 1918-11-11 (0) — hepsi kapalı"
+    },
+    "nicin_gorunmemis": "1807-07-09 KUYRUKTA var (`kronoloji_almanya.js`, 0 gün). Kuyruğa bakan bir göz bunu «kapalı» sanır — §11'in kova dersi.",
+    "care": "Yukarıdaki Tilsit maddesi (2_TORUN → GEREKEN_CEKIRDEK_MADDE) inerse bu açık da kapanır. İki iş TEK maddeyle çözülüyor.",
+    "kapsam": "Białystok benim dosyam değil ve ben DOKUNMADIM. Ölçüm, bilgi olarak veriliyor."
+  },
+
+  "5_KAYNAK_DURUSTLUK_BEYANI": {
+    "TDV_olcumu": "15 slug denendi — 14'ü 302 ÖLÜ (krakov · oliwa-antlasmasi · welawa-antlasmasi · danzig · gdansk · konigsberg · poznan · elbing · lehistan-litvanya · toton-sovalyeleri · teuton · vehlau · kralievec · kral-krakov-antlasmasi). Tek 200: `torun` ve o da AKRABALIK TERİMİ.",
+    "prusya_govdesi": "OKUNDU — Krakov 1525 · Wehlau 1657 · Oliwa 1660 · 1618 birleşme · Danzig · Poznan altı konunun ALTISI da «GEÇMİYOR».",
+    "hukum": "§4 COĞRAFÎ boşluk ⇒ akademik kaynak MEŞRU, şartı `kaynak:` alanına AÇIKÇA yazmak.",
+    "🔴_SINIRIM": "Aşağıdaki eserler bu oturumda TEK TEK AÇILIP OKUNMADI. Zincirdeki tarihler bu eserlerin standart anlatısıyla eşleniyor — bu bir SINIRLAMADIR ve `kaynak:` alanında açıkça duruyor. TEK İSTİSNA 1807-07-09: o gün TDV `prusya` gövdesinden BİREBİR alıntıyla geliyor.",
+    "kutukler": [
+      "Karin Friedrich, The Other Prussia: Royal Prussia, Poland and Liberty, 1569-1772 (Cambridge UP, 2000)",
+      "Christopher Clark, Iron Kingdom: The Rise and Downfall of Prussia, 1600-1947 (Harvard UP, 2006)",
+      "Norman Davies, God's Playground: A History of Poland, I (Oxford UP)"
+    ],
+    "emsal": "`data/kronoloji_almanya.js` başlığı aynı dürüstlük beyanını taşıyor — biçim ondan alındı."
+  },
+
+  "6_BITIS_OLCUTU": {
+    "①_koordinat": "🟢 Torun 53.0103/18.6047 · Elbing 54.1522/19.4088",
+    "②_3km_ve_ad": "🟢 ikisi de temiz — 3 km altı 0, ad çakışması 0 (normalleştiricili)",
+    "③_kur": "🟢 ÖLÇÜLDÜ — ikisinde de YAZILMASIN, gerekçe 8/8 emsal",
+    "④_zincir": "🟢 Elbing 3 dilim (tamamen temiz) · Torun 6 dilim (B sürümü, 1 çekirdek madde ister)",
+    "⑤_kaynak": "🟢 TDV 15/15 kullanılamaz diye ÖLÇÜLDÜ · akademik kütük yazıldı · SINIRIM açıkça beyan edildi",
+    "⑥_degismez_2": "🟢 her kırılma ÇEKİRDEKTE tek tek ölçüldü — 8 kapalı, 1 madde istiyor (hazır), 1 mevcut açık bulundu (Białystok)"
+  }
+}

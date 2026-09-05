@@ -1,0 +1,56 @@
+{
+  "oturum": "KRONOLOJI BOS KUNYE",
+  "damga": "2026-09-05 08:56",
+  "is": "M-2838 — iki kalem: `ingiliz-kuzey-amerika` (TDV `amerika` gövdesi) ve `pagaruyung` (akademik kaynak, TDV'de madde yok)",
+  "kunyeler": [
+    {
+      "id": "ingiliz-kuzey-amerika",
+      "eklenen": [
+        {
+          "t": "1763-02-10",
+          "tur": "toprak-kazanc",
+          "b": "Paris Antlaşması ile Kanada'nın tamamı ve Mississippi'nin doğusundaki topraklar İngiltere'ye geçti",
+          "kaynak": "TDV `amerika` (HTTP 200, gövde okundu) — AYNEN: «1763'te Paris Antlaşması ile Kanada'nın tamamını ve Mississippi'nin doğusundaki toprakları ele geçiren İngiltere». 🔴 KAYNAK YIL VERİYOR («1763'te»), GÜN VERMİYOR. 10 Şubat GÜNÜ künyenin kendi `f:` alanından ve aynı olayı anlatan mevcut `kurulus` maddesinden DEVRALINDI — TDV'den DEĞİL."
+        }
+      ],
+      "🔴_KURALINLA_VERI_BURADA_CATISTI": {
+        "kuralin": "M-2838: «kaynak yıl diyorsa yıl yazılır, künye gün dese bile, ve fark BİLDİRİLİR».",
+        "sorun": "Kuralı harfiyen uygularsam tarih `1763-01-01` olur — ama künyenin `f:` değeri `1763-02-10`. Yani madde künyenin BAŞLANGICINDAN 40 GÜN ÖNCE düşer ve künye kendi içinde çelişir.",
+        "kararim": "Günü künyeden DEVRALDIM ve damgaladım. Gerekçe: madde künyedeki mevcut `kurulus` maddesiyle AYNI OLAYI anlatıyor (Paris Antlaşması) ve onun günü zaten 1763-02-10 — yani gün TDV'den değil, KÜNYENİN KENDİ İÇİNDEN geliyor.",
+        "senin_kararin": "Kuralı sıkı uygulamak istersen tarih `1763-01-01`e çekilir ve o zaman künyenin `f:` günü de sorgulanır (o da TDV'de YOK). Tek satırlık değişiklik — SEÇMİYORUM."
+      },
+      "🔴_KULLANILAMAYAN_KAYNAK_CUMLESI": {
+        "cumle": "TDV `amerika` — AYNEN: «1607'de ellerinde krallığın imtiyaz belgesi bulunan bir grup İngiliz tüccar Virginia'daki James nehri ağzına gelerek Jamestown şehrini kurdular»",
+        "niye": "🔴 KÜNYE PENCERESİNİN DIŞINDA: künye `f:1763-02-10`de başlıyor, Jamestown 1607. Bu künyeye yazılamaz. ⇒ TDV'nin iki tarihli cümlesinden BİRİ kullanılamaz hâlde, ötekinin günü zaten vardı."
+      },
+      "eksik_kalan": "Künye artık kurulus · birlesme · toprak-kazanc taşıyor. `son` MUAF (t:1923-10-29 = pencere sonu). Açılmayan cinsler: savas · antlasma · hukumdar · isyan · ittifak · bolunme — TDV `amerika` gövdesi bu künye için başka tarihli cümle VERMİYOR (ölçüldü)."
+    },
+    {
+      "id": "pagaruyung",
+      "eklenen": [
+        {
+          "t": "1803-01-01",
+          "tur": "savas",
+          "b": "Padri Savaşı başladı; Padri hareketi geleneksel Minangkabau soyluları ile Hollanda sömürge ordusunun ittifakına karşı savaştı",
+          "kaynak": "Cambridge, Modern Asian Studies — «Islamic Revivalism in Minangkabau at the Turn of the Nineteenth Century» + Cambridge, «Political and Legal Transformations of an Indonesian Polity» — AYNEN: «The so-called Padri War (1803–1837) began when a group of religious teachers and recently returned pilgrims from Mecca (the “Padris”) engaged in violent campaigns…» ve «led to a protracted and highly disruptive war against an alliance of traditional Minangkabau nobility and the Dutch colonial army». 🔴 GÜN YOK ⇒ YYYY-01-01. 🟡 Künyede aynı yılda bir `isyan` maddesi zaten var; bu AYRI BİR CİNS (hareketin başlaması ≠ savaşın kendisi), Panama'daki antlasma+toprak-kayip ayrımının aynısı."
+        }
+      ],
+      "🔴_YAZMADIKLARIM_ve_NIYE": [
+        "`kurulus` YAZILMADI: kaynak Pagaruyung'un kuruluşunu **«13th century»** diye veriyor (Adityawarman). 🔴 YÜZYIL bir YIL değildir — `YYYY-01-01` GÜNÜ bilinmeyen içindir, YILI bilinmeyen için DEĞİL. Yıl uydurmak tarih uydurmaktır. ⚠️ Ve bir çelişki var: yaygın literatür Adityawarman'ı 14. yüzyıla (1347) koyar, bulduğum kaynak 13. diyor — ÇÖZMEDİM, ikisini de yazmadım.",
+        "`hukumdar` YAZILMADI: Adityawarman'ın kitabelerini yayımlayan akademik künye BULUNDU (Taylor & Francis, Indonesia and the Malay World 38/110, «ĀDITYAWARMAN: THREE INSCRIPTIONS») ama GÖVDESİ ÇEKİLMEDİ ⇒ tarih alınamadı. Damga: ölçülemedi."
+      ],
+      "🔴_KAYNAK_KUNYEYLE_CELISIYOR": {
+        "ne": "Kaynak Padri Savaşı'nı **1803–1837** diye veriyor; künyenin `t:` alanı **1833-01-01** ve mevcut `son` maddesi «Padri Savaşı sonunda hânedan tükendi» diyor.",
+        "yorum": "İkisi çelişmiyor OLABİLİR — hânedanın tükenmesi (1833) ile savaşın bitişi (1837) ayrı olaylar olabilir. AMA bunu ÖLÇMEDİM ve künyenin 1833'ünün dayanağı da «standart akademik kaynak» diye yazılı, adı YOK.",
+        "hukum": "Künyeye DOKUNMADIM. Kayda geçiriyorum."
+      },
+      "kaynak_kirmizi_cizgi": "🟢 Kullanılan kaynakların hepsi Cambridge Core ve Taylor & Francis hakemli yayınları. Britannica KULLANILMADI — senin uyarın (‹Quick Summary … created using AI› sayfaları kırmızı listeye girer) gereksiz kaldı, o siteye hiç gitmedim."
+    }
+  ],
+  "olcum": {
+    "kunye": 2,
+    "eklenen_madde": 2,
+    "kaynagi_bos_madde": 0,
+    "yazilmayan_madde_gerekceli": 2
+  }
+}

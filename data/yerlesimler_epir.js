@@ -69,10 +69,9 @@
 
 window.YERLESIMLER_EPIR = [
 
-{ ad:"Aydonat (Paramythia)", tur:"sehir", lat:39.4667, lon:20.5167, g:0, k:3, m:"Yanya",
-  s:[{f:"1281-01-01", t:"1430-10-01", d:"bizans"},
-     {f:"1913-03-06", t:"1923-10-29", d:"yunanistan"}],
-  d:[{f:"1430-10-01", t:"1913-03-06"}] },
+{ ad:"Aydonat (Paramythia)",kaynak:"atina-antlasmasi",isg:[{f:"1913-03-06",t:"1913-11-14",d:"yunanistan"}], tur:"sehir", lat:39.4667, lon:20.5167, g:0, k:3, m:"Yanya",
+  s:[{f:"1281-01-01",t:"1430-10-01",d:"bizans"},{f:"1913-11-14",t:"1923-10-29",d:"yunanistan"}],
+  d:[{f:"1430-10-01",t:"1913-11-14"}] },
 // kaynak: TDV "aydonat" md. — gövde okundu, 22 Ağu 2026.
 //   "Burası Yanya'nın 1430'da ele geçirilmesinin ardından Osmanlı
 //    topraklarına katıldı."
@@ -89,10 +88,9 @@ window.YERLESIMLER_EPIR = [
 //   Bu kayıt o gerilimden ETKİLENMİYOR — Aydonat'ın 1430'u iki maddede de
 //   aynı. Delvine kaydı bu yüzden YAZILMADI.
 
-{ ad:"Margiliç (Margariti)", tur:"sehir", lat:39.5500, lon:20.4167, g:0, k:4, m:"Yanya",
-  s:[{f:"1281-01-01", t:"1430-10-01", d:"bizans"},
-     {f:"1913-03-06", t:"1923-10-29", d:"yunanistan"}],
-  d:[{f:"1430-10-01", t:"1913-03-06"}] },
+{ ad:"Margiliç (Margariti)",kaynak:"atina-antlasmasi",isg:[{f:"1913-03-06",t:"1913-11-14",d:"yunanistan"}], tur:"sehir", lat:39.5500, lon:20.4167, g:0, k:4, m:"Yanya",
+  s:[{f:"1281-01-01",t:"1430-10-01",d:"bizans"},{f:"1913-11-14",t:"1923-10-29",d:"yunanistan"}],
+  d:[{f:"1430-10-01",t:"1913-11-14"}] },
 // kaynak: TDV "aydonat" md. — gövde okundu. Margariti'nin MÜSTAKİL maddesi
 //   YOK (slug `margariti` ve `margilic` ikisi de 302 = ölü); ama `aydonat`
 //   maddesi "Margariti nahiyesi"ni erken İslâmlaşma merkezi olarak ANIYOR.
@@ -319,11 +317,10 @@ window.YERLESIMLER_EPIR = [
 //   bir harita değil, YANLIŞ BOYANMIŞ bir haritadır.
 //   ⚠️ Çürütülürse silinsin; ama silinmeden önce yerine bir nokta konsun.
 
-{ ad:"Souli (Sûli)", tur:"kale", lat:39.4167, lon:20.6167, g:0, k:4, m:"Yanya",
+{ ad:"Souli (Sûli)",isg:[{f:"1913-03-06",t:"1913-11-14",d:"yunanistan"}], tur:"kale", lat:39.4167, lon:20.6167, g:0, k:4, m:"Yanya",
   kaynak:"aydonat",
-  s:[{f:"1281-01-01", t:"1430-10-01", d:"bizans"},
-     {f:"1913-03-06", t:"1923-10-29", d:"yunanistan"}],
-  d:[{f:"1430-10-01", t:"1913-03-06"}] },
+  s:[{f:"1281-01-01",t:"1430-10-01",d:"bizans"},{f:"1913-11-14",t:"1923-10-29",d:"yunanistan"}],
+  d:[{f:"1430-10-01",t:"1913-11-14"}] },
 // 🔴 ŞARTNAMENİN HİPOTEZİ ÖLÇÜLDÜ VE **ÇÜRÜDÜ** — `devletsiz` YAZILMADI.
 //   Şartname: "Souli'de kaynak konuşuyor — o hâlde `devletsiz` olmalı,
 //   ama kararı kaynağı okuduktan sonra ver." Kaynak okundu; **konuşuyor,
@@ -353,11 +350,10 @@ window.YERLESIMLER_EPIR = [
 // HARİTA DEĞERİ: Souli, Parga'nın (VENEDİK) doğusundaki dağlık iç kesimde.
 //   Yazılmasaydı Parga'nın peteği içeriye doğru uzanmaya devam ederdi.
 
-{ ad:"İgumenitsa (Gomenice)", tur:"sehir", lat:39.5042, lon:20.2650, g:0, k:4, m:"Yanya",
+{ ad:"İgumenitsa (Gomenice)",isg:[{f:"1913-03-06",t:"1913-11-14",d:"yunanistan"}], tur:"sehir", lat:39.5042, lon:20.2650, g:0, k:4, m:"Yanya",
   kaynak:"bulunamadı — TDV'de müstakil madde YOK (`igumenitsa` 302); Çamlık bölgesi Aydonat md.nden çıkarım",
-  s:[{f:"1281-01-01", t:"1430-10-01", d:"bizans"},
-     {f:"1913-03-06", t:"1923-10-29", d:"yunanistan"}],
-  d:[{f:"1430-10-01", t:"1913-03-06"}] },
+  s:[{f:"1281-01-01",t:"1430-10-01",d:"bizans"},{f:"1913-11-14",t:"1923-10-29",d:"yunanistan"}],
+  d:[{f:"1430-10-01",t:"1913-11-14"}] },
 // 🔴 ÇIKARIM — DAMGALANIYOR. TDV'de İgumenitsa maddesi yok.
 //   Dayanak: TDV "aydonat" md. bölgeyi bir bütün olarak anlatıyor —
 //   "Kapalı dağ köylerinde Arnavutça hâlâ ... konuşulmakta ve bu kesime
@@ -371,11 +367,10 @@ window.YERLESIMLER_EPIR = [
 //   Yanya · Parga · Aydonat · Margiliç dördü de 1913-03-06 kullanıyor
 //   (Yanya'nın düşüşü) ⇒ teamüle uyuldu, yeni kırılma AÇILMADI.
 
-{ ad:"Filat (Filiates)", tur:"sehir", lat:39.6053, lon:20.3175, g:0, k:4, m:"Yanya",
+{ ad:"Filat (Filiates)",isg:[{f:"1913-03-06",t:"1913-11-14",d:"yunanistan"}], tur:"sehir", lat:39.6053, lon:20.3175, g:0, k:4, m:"Yanya",
   kaynak:"bulunamadı — TDV'de müstakil madde YOK (`filat` ve `filates` 302); Çamlık bölgesi Aydonat md.nden çıkarım",
-  s:[{f:"1281-01-01", t:"1430-10-01", d:"bizans"},
-     {f:"1913-03-06", t:"1923-10-29", d:"yunanistan"}],
-  d:[{f:"1430-10-01", t:"1913-03-06"}] },
+  s:[{f:"1281-01-01",t:"1430-10-01",d:"bizans"},{f:"1913-11-14",t:"1923-10-29",d:"yunanistan"}],
+  d:[{f:"1430-10-01",t:"1913-11-14"}] },
 // 🔴 ÇIKARIM — İgumenitsa ile aynı gerekçe ve aynı damga.
 //   Filat, Margiliç'in 10,5 km kuzeyinde, Çamlık'ın iç kesimindeki kaza
 //   merkezidir; TDV bölgeyi anlatıyor ama bu kasabayı ADIYLA anmıyor.

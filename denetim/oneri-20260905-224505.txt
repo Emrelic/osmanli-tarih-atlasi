@@ -1,0 +1,31 @@
+// renk_olc.py --oner çıktısı — aktarımdan SONRA:
+//   py arac/renk_olc.py --dogrula oneri-20260905-224505.txt
+agadez-sultanligi #243cd2
+ammarogullari #2442d2
+arma #24c0d2
+buhara-halk-cumhuriyeti #244ed2
+cemisgezek-beyligi #24c6d2
+dukagin #24d28a
+filistin-mandasi #24d2a8
+fransiz-guyanasi #24d2ae
+harezm-halk-cumhuriyeti #24d2b4
+hollanda-guyanasi #3cd224
+hurmuz-sultanligi #24d2ba
+ingiliz-guyanasi #4824d2
+ingiliz-sudani #24d2c0
+irak-kralligi #42d224
+kesiri-sultanligi #4e24d2
+kuayti-sultanligi #90d224
+misir-kralligi #48d224
+misir-sultanligi #4ed224
+norse-gronland #5424d2
+piombino #54d224
+rif-cumhuriyeti #5a24d2
+suriye-lubnan-mandasi #9c24d2
+sutayogullari #5ad224
+tannu-tuva #6024d2
+topia #60d224
+urdun-emirligi #d2249c
+kuveyt #d25424
+zeta #6624d2
+tbmm-turkiye #6c24d2

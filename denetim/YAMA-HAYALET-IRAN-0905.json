@@ -1,0 +1,83 @@
+{
+  "_NOT": "BU BIR YAMA DEGIL, BIR RET GEREKCESIDIR. Sevk 'her biri icin dogru kimligi KAYNAKLA belirle' dedi ve 'kaynak bulamadigin parcayi BIRAK, bulunamadi yaz' diye sartladi. TDV ucunde de sirayi veriyor, TARIHI vermiyor. Kimlik ATANMADI. Uygulanacak bir yama yok; uygulanacak bir KARAR var (bkz. hukum).",
+  "oturum": "NEHIR SURTUNME",
+  "tarih": "2026-09-05",
+  "sevk": "1.MURAT M-2755 / M-2774 — is (b)",
+
+  "kapsam_duzeltmesi": {
+    "sevkte": 6,
+    "olculen": 8,
+    "yeni": ["Dihistan ovasi (Meshed-i Misriyan)", "Kizilarvat"],
+    "not": "Ikisi de Turkmenistan Hazar kiyisi; Kaspi ve Korfez kumelerinin disinda. Sevk kapsami onlarsiz yazilmisti."
+  },
+
+  "kaynak_taramasi": {
+    "canli_200": ["derbend--dagistan", "sirvansahlar", "sirvan", "hurmuz--iran", "dagistan"],
+    "olu_302": ["hurmuz", "kis", "kism", "samhal", "tarki"],
+    "govde_okundu": ["hurmuz--iran", "derbend--dagistan", "dagistan", "sirvansahlar", "sirvan"],
+    "not": "CANLI olan BESIN BESI de okundu. Hicbiri 1281-1509 arasi icin kimlik+tarih vermiyor."
+  },
+
+  "kumeler": [
+    {
+      "kume": "KASPI",
+      "noktalar": ["Derbend", "Tarki (Tarku)", "Agraham burnu"],
+      "pencere": "1281-01-01 → 1501/1509",
+      "kaynak": "TDV derbend--dagistan (200) · TDV dagistan (200)",
+      "alinti_derbend": "Ilhanlilar, Derbend Kalesi'ni ele geciremmekle birlikte — sehir Altin Orda ile Ilhanli mucadelelerinde defalarca el degistirdi; kaynak 13. yy sonu ile 16. yy basi arasi icin yonetim hakkinda AYRINTI VERMIYOR.",
+      "alinti_dagistan": "Daha sonra sirasiyla Ilhanlilar, Altin Orda Hanligi, Timurlular, Sirvansahlar ve Safeviler Dagistan'a hakim oldular.",
+      "hukum": "bulunamadi",
+      "gerekce": "TDV bir SIRA veriyor (Ilhanli → Altin Orda → Timurlu → Sirvansah → Safevi) ama GECIS TARIHI vermiyor. Donemi bolmek, kaynagin soylemedigi dort tarih uydurmak demektir (CLAUDE.md §4: 'tarih uydurma').",
+      "damga_gucu": "DORT kapsayici madde denendi (derbend--dagistan · dagistan · sirvansahlar · sirvan), hepsinin govdesi okundu. §4'un 'dar slug tutmazsa kapsayiciyi dene' kurali TUKETILDI. Bu 'bulunamadi' iki maddelik degil DORT maddelik.",
+      "karsi_delil_sirvansah": "Bir aday kimlik (sirvansah) AKTIF OLARAK ZAYIFLADI: TDV `sirvan` maddesi Osmanli doneminde Derbend'i Sirvan'dan AYRI bir eyalet olarak gosteriyor ('merkezi Demirkapi/Derbend olan Derbend eyaleti', Semahi eyaletinden ayri). Derbend'i Sirvan'a bagli saymak icin delil ISTENIRKEN, ayriligina delil CIKTI. Komsuluktan cikarim yapmak (Kuba 80 km, Sabüran 110 km sirvansah) bu yuzden de yeterli DEGIL.",
+      "kazanc_1": "BITIS TARIHI DOGRULANDI: TDV 'Sah Ismail 1509'da sehri zaptedip' diyor; veride Derbend s: ... → 1509-01-01. Kaynakli.",
+      "kazanc_2": "Kaspi'nin OTEKI IKISI icin de bitis destegi: TDV sirvansahlar '1500'de Sah Ismail 7000 askerle Ferruh Yesar uzerine yurudu, Baku ve Semahi'yi aldi; Sirvansahlar hanedani sona erdi ve Sirvan Safevi Devleti'ne katildi.' Veride Tarki ve Agraham burnu 1501-07-01'de safevi'ye geciyor — kaynakla uyumlu (~1 yil, bolgesel teslim gecikmesi mertebesinde, §3.5)."
+    },
+    {
+      "kume": "KORFEZ",
+      "noktalar": ["Hurmuz Adasi", "Kism (Qeshm)", "Kis (Kish)"],
+      "pencere": "1281-01-01 → 1508/1510-12-02",
+      "kaynak": "TDV hurmuz--iran (200)",
+      "alinti": "14. yuzyilda hur, guzel, hareketli bir ticaret sehri; Izki, Suhar, Hur Fakkan ve Kelba Hurmuz Sultanligi'na bagliydi. — 1507'de Albuquerque adayi kusatti fakat alamadan dondu; yedi yil sonra Sah Ismail'in Osmanli ile ihtilafindan yararlanarak adayi ele gecirdi ve IRAN'A TABI OLAN sultani Portekiz hakimiyeti altina soktu (1514).",
+      "hukum": "kimlik BELLI ama KUNYE YOK",
+      "dogru_kimlik": "Hurmuz Sultanligi — bagimsiz, kendi tabileri olan bir sultanlik; 16. yy basinda Iran'a TABI (vassal), 1514'ten Portekiz'e tabi.",
+      "kunye_durumu": "data/devletler.js icinde `hurmuz` ya da `hurmuz-sultanligi` diye bir kunye YOK (olculdu).",
+      "gerekce": "Dogru kimlik kaynakla belirlendi ama yazilamaz: yeni kunye acmak data/devletler.js isidir ve bu oturuma YASAK. Oneri olarak birakiliyor, atama olarak DEGIL.",
+      "oneri": {
+        "id": "hurmuz-sultanligi",
+        "f": "1281-01-01",
+        "t": "1514-01-01",
+        "kaynak": "hurmuz--iran",
+        "uyari": "f: ve t: gunleri ONERI DEGIL — TDV 14. yy diyor, gun vermiyor. Kunyeyi acacak oturum §4'un 'en kaba guvenli duzey' kuralini uygulamali. t: icin 1514 kaynakta ACIKCA var."
+      },
+      "ikinci_bulgu": "TDV 1514 diyor; veride Hurmuz Adasi s: 1515-04-01'de portekiz'e geciyor. ~15 ay fark. OLCULDU, DUZELTILMEDI (veri yasak)."
+    },
+    {
+      "kume": "TURKMEN",
+      "noktalar": ["Dihistan ovasi (Meshed-i Misriyan)", "Kizilarvat"],
+      "hukum": "okumadim",
+      "gerekce": "Sevkin kapsaminda yoktular; kaynak taramasi YAPILMADI. 'bulunamadi' yazmiyorum cunku ARAMADIM BILE."
+    }
+  ],
+
+  "iki_uc_olcumu": {
+    "_kural": "CLAUDE.md §3.5.1 — bir sinir kaymasi onerildiginde IKI UC DA olculur.",
+    "soru": "`iran` kimligi bu 8 noktadan geri cekilirse ne olur?",
+    "olcum": "Sekizinin sekizinde de `s:` zincirinin ILK donemi bu. Oncesinde hicbir `d:`, `s:` ya da `v:` donemi YOK.",
+    "sonuc": "Geri cekme 1281'den ~1510'a kadar 8 SAHIPSIZ NOKTA uretir — Degismez 1 ihlali, yani haritada sekiz DELIK.",
+    "hukum": "SILME BIR SECENEK DEGIL. Bu hayaletler kaza degil, OGRENILENLER §72'nin tarif ettigi seyin ta kendisi: Degismez 1 'kimsenin degildi' diyemedigi icin veri en yakin kimlige itilmis — ve bu sefer o donemde VAR OLMAYAN bir kimlige.",
+    "cikis_yollari": [
+      "① DOGRU KUNYEYI AC (Korfez icin uygulanabilir: hurmuz-sultanligi). Kaspi icin kaynak tarih vermedigi icin bugun uygulanamaz.",
+      "② `bos:` ile BEYAN ET (girdi.py:831 — devletsiz | veri-yok | kabile | insansiz | hata). Kaspi kumesi icin dogru kova `veri-yok` DEGIL: kaynak susmuyor, SIRA veriyor ama TARIH vermiyor. Bu, mevcut bes kovanin HICBIRINE tam oturmuyor — ayri bir bulgu.",
+      "③ OLDUGU GIBI BIRAK ve tavani 9'a cikar (bkz. ONGORU-TAVAN-0905.txt). Kusuru gorunur tutar, veriyi bozmaz."
+    ],
+    "onerim": "③ SIMDI, ① Korfez icin BIR SONRAKI TURDA. Kaspi kumesi kaynak bulunana kadar ACIK KALEM."
+  },
+
+  "olcmediklerim": [
+    "OKUMADIM  Dihistan ovasi ve Kizilarvat icin hicbir kaynak",
+    "KAPANDI   `sirvansahlar` ve `sirvan` govdeleri OKUNDU (bu dosyanin ilk surumunde acik uctu). Kaspi icin tarih VERMEDILER; ustelik `sirvan` sirvansah atamasina KARSI delil verdi. Damga guclendi, hukum degismedi.",
+    "OLCMEDIM  `Les (Alessio)` vakasini (arnavutluk, ayri sinif)",
+    "OLCEMEDIM Kis (Kish) icin TDV'yi — slug 302, kapsayici `hurmuz--iran` govdesi Kis'ten hic bahsetmiyor"
+  ]
+}

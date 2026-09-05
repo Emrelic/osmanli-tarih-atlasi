@@ -1,0 +1,8 @@
+// renk_olc.py --oner çıktısı — aktarımdan SONRA:
+//   py arac/renk_olc.py --dogrula oneri-20260903-225148.txt
+bunyoro #2472cc
+mangbetu #cca824
+ovambo #24cc24
+tsvana #1ea29c
+adamava #c0cc24
+adar #1e6c8a

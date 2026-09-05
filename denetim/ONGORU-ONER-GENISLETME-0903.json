@@ -1,0 +1,145 @@
+{
+  "is": "`renk_olc.py` `oner()` fonksiyonunun engel evrenini genişletme — ÖNGÖRÜ",
+  "yazan": "PRUSYA-0903",
+  "damga": "2026-09-03 21:25 · KOD HENÜZ DEĞİŞMEDİ · ölçüm YAPILMADI",
+  "sevk": "1.MURAT M-2623 — «oner()'i engel_kumesi() evrenine geçir · C13 üç ayak · ÖNCEDEN yaz: kaç kimliğin önerisi DEĞİŞECEK»",
+  "nicin_simdi": "§11: «sonradan yazılan beklenti, ölçümü gördükten sonra farkında olmadan ona göre şekillenir ve hiçbir zaman yanlış çıkmaz — yani hiçbir şey öğretmez.» Kod değişmeden yazıyorum.",
+  "0_TABAN_OLCUMU": {
+    "not": "Bu ÖLÇÜMdür, öngörü DEĞİL — evreni bilmek için alındı",
+    "kunye": 591,
+    "BOYALAR": 407,
+    "renksiz_kunye": 175,
+    "bolge_dagilimi": {
+      "kuzey-amerika": 46,
+      "bati-afrika": 41,
+      "dogu-afrika": 26,
+      "orta-afrika": 17,
+      "guney-afrika": 13,
+      "balkanlar": 10,
+      "kuzey-afrika": 6,
+      "guney-amerika": 4,
+      "orta-avrupa": 3,
+      "dogu-asya": 3,
+      "anadolu": 2,
+      "misir-sudan": 1,
+      "sibirya-bozkir": 1,
+      "arabistan": 1,
+      "dogu-avrupa": 1
+    },
+    "evren_kiyasi": {
+      "evreni_GENISLEYEN": 57,
+      "evreni_AYNI_kalan": 118,
+      "toplam_engel_dar": 113,
+      "toplam_engel_genis": 432,
+      "kimlik_basina": "0,6 → 2,5",
+      "en_cok_genisleyen": "pavni +15 · cikasav +13 · ponka +13 · sauk +13 · wicita +13"
+    },
+    "🔴_taban_uyarisi": "113/175 = kimlik başına 0,6 engel. Yani çoğu renksiz künyenin BUGÜN HİÇ Voronoi komşusu yok (gövdesiz). `oner()` onlara «kısıtsız» muamelesi yapıyor — bu, `prusya`da ölçtüğüm `#242ad2` vakasının kaynağı."
+  },
+  "KALEMLER": [
+    {
+      "no": "①",
+      "ne_bekliyorum": "175 kimliğin **en az 150'sinin** önerilen rengi DEĞİŞECEK",
+      "gerekce": "Dar evrende `uygun.sort(key=uyum)` hepsi için neredeyse AYNI sıralamayı veriyor (26 künyelik denemede 26/26 bitişik hex aldı: #242ad2 · #2430d2 · #2436d2…). Evren genişleyince 57 kimlik doğrudan etkilenir, ve `oner()` SIRALI çalıştığı için (her seçim sonrakine engel) etki ZİNCİRLEME yayılır.",
+      "mazereti_var_mi": "🟡 VAR ve önceden yazıyorum: 118 kimliğin evreni AYNI kalıyor. Eğer zincirleme etki zayıfsa sayı 57'ye yakın çıkabilir. O zaman ① çürür ve öğreteceği şey **zincirleme etkinin sanılandan zayıf olduğu** olur.",
+      "hangi_ciktidan_hangi_birimde": "iki `--oner` koşusunun artefaktları karşılaştırılır (eski kod vs yeni kod, AYNI 175 kimlik) · birim: HEX'İ DEĞİŞEN KİMLİK SAYISI",
+      "hangi_kosuda_neye_karsi": "kod değişmeden ÖNCE bir artefakt alınır (taban), sonra yeni kodla ikinci artefakt; ikisi kimlik kimlik karşılaştırılır"
+    },
+    {
+      "no": "②",
+      "ne_bekliyorum": "Önerilen renklerin KENDİ ARALARINDAKİ ΔE<12 çift sayısı BÜYÜK ORANDA AZALACAK — ama SIFIR olmayacak",
+      "gerekce": "Düzeltme tam bu kusuru hedefliyor. Ama 175 kimlik ve palet dolu (407 renk); bazı çiftlerin çözülememesi beklenir.",
+      "mazereti_var_mi": "🔴 MAZERET YOK — bu düzeltmenin ASIL SINAVI. Azalma olmazsa düzeltme işe yaramamış demektir.",
+      "hangi_ciktidan_hangi_birimde": "artefakttaki hex'lerin ikili ΔE'si · CIE76 · `gorunen()` zinciri (ham hex DEĞİL) · birim: ÇİFT SAYISI",
+      "hangi_kosuda_neye_karsi": "aynı iki artefakt; taban = eski kodun ürettiği çift sayısı"
+    },
+    {
+      "no": "③",
+      "ne_bekliyorum": "«ÇÖZÜLEMEDİ» sayısı ARTACAK — 0'dan pozitif bir sayıya",
+      "gerekce": "Engel kümesi 113 → 432'ye çıkıyor. Kısıt sıkılaşınca bazı kimlikler için ΔE≥12 sağlayan aday kalmayabilir. §11: «çözülemedi»nin üç cinsi — TERCİH · YAPI · SIRA. Burada beklediğim SIRA cinsi.",
+      "mazereti_var_mi": "🟡 VAR: 73.454 aday havuzu geniş; artış 0'da kalabilir. O zaman ③ çürür ve öğreteceği şey **havuzun sanılandan bol olduğu** olur.",
+      "hangi_ciktidan_hangi_birimde": "`oner()` çıktısındaki «ÇÖZÜLEMEDİ» satırları · birim: KİMLİK SAYISI",
+      "hangi_kosuda_neye_karsi": "aynı iki koşu"
+    },
+    {
+      "no": "④",
+      "ne_bekliyorum": "Mevcut 407 rengin HİÇBİRİ değişmeyecek",
+      "gerekce": "`oner()` yalnız İSTENEN kimliklere renk seçer; `BOYALAR`a yazmaz. Düzeltme engel kümesini büyütüyor, mevcut renkleri okumuyor.",
+      "mazereti_var_mi": "🔴 MAZERET YOK. Değişirse düzeltme kapsamı aşmış demektir.",
+      "hangi_ciktidan_hangi_birimde": "`git diff arac/renkler.py` · birim: DEĞİŞEN SATIR SAYISI · beklenen 0",
+      "hangi_kosuda_neye_karsi": "kod değişikliğinden sonra, doğrudan"
+    },
+    {
+      "no": "⑤",
+      "ne_bekliyorum": "`prusya` için yeni kod, bugün ELLE bulduğum `#2478d2`ye YAKIN bir renk verecek — ya da en azından `iskocya`/`savoya`/`parma` ile ΔE≥12 tutan bir renk",
+      "gerekce": "Bugün `oner()` `#242ad2` verdi (iskocya ΔE 2,62). Ben geniş kümeyle `#2478d2` buldum. Yeni kod aynı geniş kümeyi kullanacağına göre benzer bölgeye düşmeli. Bu, düzeltmenin GERÇEK VAKA üzerinde sınavıdır.",
+      "mazereti_var_mi": "🔴 MAZERET YOK — `prusya` bu kusurun bulunduğu vaka. Yeni kod onu çözemezse düzeltme yanlış yerde demektir.",
+      "hangi_ciktidan_hangi_birimde": "`py arac/renk_olc.py --oner prusya` çıktısı · önerilen hex'in `iskocya`·`savoya`·`parma`ya ΔE'si · birim: ΔE",
+      "hangi_kosuda_neye_karsi": "yeni kodla tek kimlik koşusu; taban = bugünkü #242ad2'nin 2,62 / 7,18 / 11,78 değerleri",
+      "⚠️_not": "`prusya` artık BOYALAR'da (407'nci). `oner()` mevcut kimliği de kabul ediyor (kendi rengi engel kümesinden düşer) — o yüzden sınav yapılabilir."
+    }
+  ],
+  "🔴_UC_DAMGA": {
+    "TUTTU": "öngörü doğrulandı",
+    "CURUDU": "öngörü yanlıştı → BİLGİ taşır, dersi alınır",
+    "OLCULEMEDI": "alet o soruyu cevaplamıyor → kalem AÇIK kalır, «çürüdü» diye KAPATILMAZ"
+  },
+  "🔴_KENDI_SINIRIM": "Bu öngörüyü yazan, düzeltmeyi de yapacak olan kişi (ben). Yani kendi işimin sınavını kendim kuruyorum — `§11`in «ölçen kendi sorduğu soruyu ölçüyor» riski. Panzehir: kalemlerin ikisi (②④) MAZERETSİZ, ve ⑤ gerçek bir vakaya (prusya) bağlı; üçü de kendi lehime yorumlanamaz.",
+  "🔴_SONUC_2026-09-03": {
+    "damga": "2026-09-03 22:10 · PRUSYA-0903 · kod DEĞİŞTİ, iki koşu karşılaştırıldı",
+    "taban_artefakt": "denetim/oneri-20260903-214132.txt (ESKİ kod, 175 kimlik)",
+    "yeni_artefakt": "_yeni_oner.txt (YENİ kod, aynı 175 kimlik)",
+    "①": {
+      "damga": "🟢 TUTTU",
+      "beklenen": "≥150 kimliğin önerisi değişecek",
+      "olculen": "175 / 175 — HEPSİ değişti",
+      "not": "Zincirleme etki beklediğimden GÜÇLÜ çıktı; mazeretim (118 kimliğin evreni aynı kalıyor ⇒ sayı 57'ye yakın olabilir) GEREKMEDİ."
+    },
+    "②": {
+      "damga": "🟢 TUTTU — ve beklediğimden GÜÇLÜ",
+      "beklenen": "eşik altı çift büyük ölçüde azalacak, sıfır olmayacak",
+      "olculen_ham": "ΔE<12 çift: 1667 → 1005 (−662, %39,7)",
+      "olculen_gercek": "🔴 GERÇEK İHLAL (örtüşen + Voronoi ya da aynı bölge): 1337 → **0**",
+      "kalan_1005in_cinsi": {
+        "örtüşmüyor — paylaşım MEŞRU": 288,
+        "örtüşen + FARKLI bölge — muhtemelen meşru, ÖLÇÜLMEDİ": 717,
+        "örtüşen + aynı bölge ya da Voronoi — GERÇEK İHLAL": 0
+      },
+      "🔴_olculemedi": "717 çiftin gerçekten uzak mı yoksa bölge SINIRINDA komşu mu olduğu ÖLÇÜLMEDİ — bu künyelerin veride noktası yok, mesafe hesaplanamıyor. §11: «ölçülemedi» TEMİZ diye raporlanmaz."
+    },
+    "③": {
+      "damga": "🔴 ÇÜRÜDÜ — ve BİLGİ taşıyor",
+      "beklenen": "«ÇÖZÜLEMEDİ» 0'dan pozitife çıkacak",
+      "olculen": "0 → 0",
+      "ogrettigi": "73.454 adaylık havuz, engel kümesi 113→432 (4×) büyümesine RAĞMEN yeterli. Mazeretimi ÖNCEDEN yazmıştım («havuz bol olabilir») ve o mazeret TUTTU — yani öngörü yanlıştı ama sebebi önceden biliniyordu.",
+      "not": "§11: bir öngörünün çürümesi bilgi taşır. Bu kalem, kısıt sıkılaştırmanın maliyetinin SANILANDAN AZ olduğunu gösterdi."
+    },
+    "④": {
+      "damga": "🟢 TUTTU",
+      "olculen": "git diff arac/renkler.py → BOŞ. Mevcut 407 rengin hiçbiri değişmedi."
+    },
+    "⑤": {
+      "damga": "🟢 TUTTU — TAM İSABET",
+      "beklenen": "prusya için #2478d2'ye YAKIN, ya da en az iskocya/savoya/parma ile ΔE≥12",
+      "olculen": "#2478d2 — elle bulduğumun BİREBİR AYNISI",
+      "dE": {
+        "iskocya": "2,62 → 24,25",
+        "savoya": "7,18 → 23,19",
+        "parma": "11,78 → 15,07"
+      },
+      "raporlama_da_duzeldi": "eski kod «en yakın engel ΔE 16.8» diyordu (gerçek 2,62); yeni kod «12.3» diyor (benim ölçümüm 12,32)"
+    },
+    "MALIYET": {
+      "sure": "175 kimlik: eski ~12 dk · yeni 10 dk'da bitmedi (arka planda tamamlandı)",
+      "sebep": "engel kümesi 113 → 432 (4×) ⇒ aday taraması 4× ağırlaştı",
+      "hafifletme": "engel_kumesi()'e süreç ömrü önbelleği eklendi (her çağrıda girdi.yukle() + oku_devletler() yapıyordu)",
+      "not": "İşlevsel olarak doğru ama UCUZ DEĞİL — 98'lik parti için süre ayrılmalı."
+    },
+    "C13_UC_AYAK": {
+      "①_GECME": "🟢 prusya tek kimlik → doğru renk",
+      "②_ATESLEME": "🟢 abenaki ↔ aleut (örtüşen + aynı bölge + Voronoi DEĞİL) → ΔE 15,76, ayrıldılar",
+      "③_GIRDI": "🟢 her koşu gerçek data/'dan okudu — enjekte kayıt YOK",
+      "🔴_KENDI_SINAVIMIN_HATASI": "İlk ateşleme çiftim (bohemya+erdel) YANLIŞTI: pencereleri hiç örtüşmüyor (1198-1526 vs 1570-1711), yani aynı rengi paylaşmaları DOĞRU davranış. «Düzeltme çalışmıyor» diye rapor edecektim. Çifti ölçüp düzelttim; doğru çift 2174 aday arasından seçildi. §11: «doğru aleti yanlış evrenle koşturmak» — bu sefer kendi sınavımda."
+    }
+  }
+}

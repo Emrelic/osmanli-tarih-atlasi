@@ -45,15 +45,15 @@ window.YERLESIMLER_EK26 = [
   d:[{f:"1578-08-09",t:"1878-03-03"}], v:[] },
 
 // ───────── ERMENİSTAN HATTI · Arpaçay (Ahuryan) ─────────
-{ ad:"Arpaçay (Akyaka)",kaynak:"ankraj Revan (67 km) — külliyattaki zincirin birebir aynısı; TDV `akkoyunlular` (kuruluş 1340, Elvend'in yenilgisi 1501)", tur:"kasaba", lat:40.845, lon:43.325, g:0, k:3, m:"Erzurum",
+{ ad:"Arpaçay (Akyaka)",neden:"akkoyunlu 1281-01-01'de açılıyordu — devletin kuruluşundan 59 yıl önce. Zincir bölgenin ankrajına açıldı; `d:` günlerine DOKUNULMADI.",kaynak:"ankraj Revan (67 km) — külliyattaki zincirin birebir aynısı; TDV `akkoyunlular` (kuruluş 1340, Elvend'in yenilgisi 1501)", tur:"kasaba", lat:40.845, lon:43.325, g:0, k:3, m:"Erzurum",
   s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},{f:"1340-01-01",t:"1410-01-01",d:"celayirli"},{f:"1410-01-01",t:"1469-01-01",d:"karakoyunlu"},{f:"1469-01-01",t:"1501-07-01",d:"akkoyunlu"},{f:"1501-07-01",t:"1534-01-01",d:"safevi"},{f:"1878-03-03",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-10-13",d:"sovyet-rusya"}],
   d:[{f:"1534-01-01",t:"1878-03-03"},{f:"1921-10-13",t:"1923-10-29"}], v:[] },
 
-{ ad:"Digor",kaynak:"ankraj Revan — aynı zincir", tur:"kasaba", lat:40.375, lon:43.410, g:0, k:3, m:"Erzurum",
+{ ad:"Digor",neden:"akkoyunlu 1281'de açılıyordu; bölge ankrajına hizalandı.",kaynak:"ankraj Revan — aynı zincir", tur:"kasaba", lat:40.375, lon:43.410, g:0, k:3, m:"Erzurum",
   s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},{f:"1340-01-01",t:"1410-01-01",d:"celayirli"},{f:"1410-01-01",t:"1469-01-01",d:"karakoyunlu"},{f:"1469-01-01",t:"1501-07-01",d:"akkoyunlu"},{f:"1501-07-01",t:"1534-01-01",d:"safevi"},{f:"1878-03-03",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-10-13",d:"sovyet-rusya"}],
   d:[{f:"1534-01-01",t:"1878-03-03"},{f:"1921-10-13",t:"1923-10-29"}], v:[] },
 
-{ ad:"Iğdır",kaynak:"ankraj Revan (46 km) — aynı zincir", tur:"kasaba", lat:39.920, lon:44.045, g:0, k:3, m:"Erzurum",
+{ ad:"Iğdır",neden:"CEVAP.json notunun adıyla andığı vaka: \"Iğdır tek blok 1281->1534\". Zincir açıldı; 253 yıllık tek parça akkoyunlu 32 yıla indi.",kaynak:"ankraj Revan (46 km) — aynı zincir", tur:"kasaba", lat:39.920, lon:44.045, g:0, k:3, m:"Erzurum",
   s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},{f:"1340-01-01",t:"1410-01-01",d:"celayirli"},{f:"1410-01-01",t:"1469-01-01",d:"karakoyunlu"},{f:"1469-01-01",t:"1501-07-01",d:"akkoyunlu"},{f:"1501-07-01",t:"1534-01-01",d:"safevi"},{f:"1878-03-03",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-10-13",d:"sovyet-rusya"}],
   d:[{f:"1534-01-01",t:"1878-03-03"},{f:"1921-10-13",t:"1923-10-29"}], v:[] },
 
@@ -93,7 +93,7 @@ window.YERLESIMLER_EK26 = [
   d:[], v:[] },
 
 // ───────── İRAN HATTI · Kasr-ı Şirin (1639) çizgisi ─────────
-{ ad:"Doğubayazıt",kaynak:"ankraj Van (117 km) · Erciş — külliyattaki zincir", tur:"kale", lat:39.548, lon:44.084, g:0, k:3, m:"Erzurum",
+{ ad:"Doğubayazıt",neden:"akkoyunlu 1281→1514-09-06 tek blok. `d:` 1514-09-06'dan başlıyordu ve BAŞLAMAYA DEVAM EDİYOR — Osmanlı kırılması korundu.",kaynak:"ankraj Van (117 km) · Erciş — külliyattaki zincir", tur:"kale", lat:39.548, lon:44.084, g:0, k:3, m:"Erzurum",
   s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1514-09-06",d:"safevi"}],
   d:[{f:"1514-09-06",t:"1923-10-29"}], v:[] },
 
@@ -101,7 +101,7 @@ window.YERLESIMLER_EK26 = [
   s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1639-05-17",d:"safevi"}],
   d:[{f:"1639-05-17",t:"1923-10-29"}], v:[] },
 
-{ ad:"Özalp (Saray)",kaynak:"ankraj Van (55 km) — külliyattaki zincir; 1548-08-25 Van'ın kendi Osmanlı günü", tur:"kasaba", lat:38.658, lon:43.998, g:0, k:3, m:"Van",
+{ ad:"Özalp (Saray)",neden:"akkoyunlu tek blok; safevi dilimi 1502'ye çekildi, Osmanlı 1548-08-25'te başlamaya devam ediyor.",kaynak:"ankraj Van (55 km) — külliyattaki zincir; 1548-08-25 Van'ın kendi Osmanlı günü", tur:"kasaba", lat:38.658, lon:43.998, g:0, k:3, m:"Van",
   s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-25",d:"safevi"}],
   d:[{f:"1548-08-25",t:"1923-10-29"}], v:[] },
 
@@ -109,7 +109,7 @@ window.YERLESIMLER_EK26 = [
   s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1639-05-17",d:"safevi"}],
   d:[{f:"1639-05-17",t:"1923-10-29"}], v:[] },
 
-{ ad:"Yüksekova (Gever)",kaynak:"ankraj Çölemerik/Hakkâri (48 km) — külliyattaki zincir", tur:"kasaba", lat:37.573, lon:44.290, g:0, k:3, m:"Van",
+{ ad:"Yüksekova (Gever)",neden:"Özalp ile aynı desen.",kaynak:"ankraj Çölemerik/Hakkâri (48 km) — külliyattaki zincir", tur:"kasaba", lat:37.573, lon:44.290, g:0, k:3, m:"Van",
   s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1548-08-25",d:"safevi"}],
   d:[{f:"1548-08-25",t:"1923-10-29"}], v:[] },
 

@@ -1,0 +1,40 @@
+{
+  "_NOT": "Tek kunye. `arac/_kunye_uygula.py` icin. Sevk 1.MURAT M-2782 (a). Oturum NEHIR SURTUNME, 5 Eylul 2026. data/devletler.js'e DOKUNULMADI — uygulama koordinatorun.",
+
+  "_F_SECIMI_OLCULDU": {
+    "sevkin_onerisi": "f:1301-01-01 (TDV '14. yuzyil' diyor)",
+    "benim_secimim": "f:1281-01-01 (atlas penceresi basi, BEYANLA)",
+    "gerekce": "SIMULE EDILDI, hesaplanmadi. Kunye indikten SONRAKI turda uc Korfez noktasinin `s:` alani `iran`dan `hurmuz-sultanligi`na cevrilecek. Iki senaryo de o cevrimle birlikte olculdu:",
+    "olcum": {
+      "taban": "hayalet 9 · 4c 287 · 4d 467   (tavanlar 9 · 287 · 468)",
+      "f_1301": "hayalet 6 (−3) · 4c 287 (+0) · 4d 470 (+3)  → 🔴 4d TAVANI ASILIR (468)",
+      "f_1281": "hayalet 6 (−3) · 4c 287 (+0) · 4d 467 (+0)  → 🟢 GECER"
+    },
+    "sebep": "Uc donemin `f:` degeri 1281-01-01. Kunye 1301'de baslarsa g4 = 1301−1281 ≈ 7305 gun > 400 ⇒ ucu de 4d'ye girer. 4d'nin payi ZATEN 1 kayit (467/468) — bu turda benim onerimle dar birakildi ve tam bu yuzden onemli.",
+    "durust_uyari": "1281-01-01 bir KAYNAK IDDIASI DEGILDIR, atlas penceresinin basidir. Ozette ACIKCA beyan edildi. TDV gun de yil da vermiyor, yalniz '14. yuzyil' diyor.",
+    "sevkin_emsali_bulunamadi": "Sevk `norse-gronland` kunyesini emsal gosterdi; `id` alaninda 'gronland' ya da 'norse' geceni ARADIM, 591 kunye icinde BULAMADIM. Baska bir id altinda olabilir — OLCEMEDIM. Secimim o emsale degil, YUKARIDAKI SIMULASYONA dayaniyor."
+  },
+
+  "kunye": {
+    "id": "hurmuz-sultanligi",
+    "ad": "Hürmüz Sultanlığı",
+    "tur": "sultanlik",
+    "bolge": "iran",
+    "f": "1281-01-01",
+    "t": "1514-01-01",
+    "kaynak": "hurmuz--iran",
+    "ozet": "Hürmüz Boğazı'nı ve Basra Körfezi ağzındaki deniz ticaretini denetleyen bağımsız bir sultanlık. TDV: 14. yüzyılda \"hür, güzel, hareketli bir ticaret şehri\" ve İzki, Suhâr, Hûr Fakkân ile Kelbâ ona bağlıydı — yani kendi tâbileri olan bir siyasî yapı. 1507'de Albuquerque adayı kuşattı fakat alamadan döndü; yedi yıl sonra Şah İsmâil'in Osmanlı ile ihtilâfından yararlanarak adayı ele geçirdi ve İran'a tâbi olan sultanı Portekiz hâkimiyeti altına soktu (1514). ⚠️ f:1281-01-01 BİR KAYNAK İDDİASI DEĞİLDİR — TDV \"14. yüzyıl\" diyor, gün ya da yıl vermiyor; 1281 atlas penceresinin başıdır ve bu alan o yüzden buraya çekilmiştir. t:1514 ise kaynakta AÇIKÇA vardır."
+  },
+
+  "_TANECIK_UYARISI": "t:1514 sultanligin BAGIMSIZLIGININ sonudur, varliginin degil: Hurmuz Krallığı 1622'ye kadar Portekiz tabii olarak sürdü (TDV: 'Portekiz isgalinden 108 yil sonra, 23 Nisan 1622'de Safevi Sah I. Abbas doneminde geri alindi'). Atlas 1515-04-01'den itibaren `portekiz` boyadigi icin t:1514 veriyle tutarli. Bagimsizlik/tabiiyet ayrimini ifade etmek istenirse bu bir `v:` (vasal) isidir, kunye isi degil.",
+
+  "_ACIK_KALEM": "TDV 1514 diyor, veri Hurmuz Adasi ve Kism'i 1515-04-01'de portekiz'e geciriyor (~15 ay fark). OLCTUM, DUZELTMEDIM — veri yasak ve bu AYRI bir yama.",
+
+  "_SONRAKI_TUR": "Kunye indikten sonra uc noktanin (Hurmuz Adasi · Kism (Qeshm) · Kis (Kish)) ilk `s:` donemi `iran`dan `hurmuz-sultanligi`na cevrilir ⇒ hayalet 9 → 6. AYRI yama, AYRI tur (sevkin kendi sarti).",
+
+  "_OLCMEDIKLERIM": [
+    "OLCEMEDIM  `kis` slug'i 302; Kis (Kish) icin TDV'de mustakil madde YOK ve kapsayici `hurmuz--iran` govdesi Kis'ten HIC bahsetmiyor. Kis'i bu kunyeye baglamak bir CIKARIM — sevkte oyle yazildigi icin degil, cografi ve donemsel ortakliktan. ZAYIF HALKA BUDUR.",
+    "OLCMEDIM   `bolge:iran` secimini bir kaynakla — uc atlas noktasi da (26,5-26,9 K / 54,0-56,4 D) Bogaz'in IRAN yakasinda, ama sultanligin tabileri (Suhar, Hur Fakkan, Kelba) Umman/BAE tarafinda. Kunye 27'lik listeden `iran` ya da `arabistan` olabilirdi; NOKTALARIN yerine gore sectim.",
+    "BULUNAMADI sevkin gosterdigi `norse-gronland` emsali — 591 kunye tarandi"
+  ]
+}

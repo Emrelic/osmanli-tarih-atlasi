@@ -1,0 +1,36 @@
+{
+  "_NOT": "IKI kunye. `arac/_kunye_uygula.py` icin. Sevk 1.MURAT M-2783 ⑥. Oturum NEHIR SURTUNME, 5 Eylul 2026. data/devletler.js'e DOKUNULMADI.",
+
+  "_NICIN_GEREKLI": "Uc `arnavutluk` noktasinin (Les · Kruja · Mat) 1281'den baslayan donemleri hayalet/4d uretiyor. TDV dogru kimlikleri VERIYOR ama ikisinin kunyesi YOK: Topia ve Dukagin. Bunlar inmeden nokta yamasi yazilamaz — yazilirsa `kunyesiz` kovasina duser.",
+
+  "_SIRA_BAGLAYICI": "① BU KUNYELER inecek → ② `denetim/yer_yama_arnavutluk.js` uygulanacak. Ters sirada yapilirsa iki donem kunyesiz kalir.",
+
+  "kunyeler": [
+    {
+      "id": "topia",
+      "ad": "Topia (Thopia) Beyliği",
+      "tur": "beylik",
+      "bolge": "balkanlar",
+      "f": "1363-01-01",
+      "t": "1415-01-01",
+      "kaynak": "kruya",
+      "ozet": "Orta Arnavutluk'ta Kruya (Akçahisar) merkezli Arnavut hânedanı. TDV: \"Charles Thopia Kruya'ya hâkim oldu (1363)\" ve \"Charles ile oğlu ve aynı zamanda halefi olan George burayı 1392'ye kadar ellerinde tuttular.\" 1392-1402 arası şehir elden çıktı (George'un ölümünden sonra kız kardeşi Helena Venedikli Barbadigo ile evlendi; 1394'te Osmanlı vasali olarak Sırp Prensi Konstantin Balšić getirildi), ardından \"Nikola Thopia, Kruya'yı ailesi adına geri aldı ve 1415'teki ölümüne kadar elinde tutmayı başardı.\" ⚠️ f: ve t: kaynakta AÇIKÇA verilen yıllardır (1363 · 1415); gün YOKTUR, ayın 1'i bir hassasiyet iddiası değildir."
+    },
+    {
+      "id": "dukagin",
+      "ad": "Dukagin (Dukagjini) Prensliği",
+      "tur": "prenslik",
+      "bolge": "balkanlar",
+      "f": "1387-01-01",
+      "t": "1479-01-25",
+      "kaynak": "les",
+      "ozet": "Kuzey Arnavutluk'ta Leş (Alessio) merkezli Arnavut prensliği. TDV: 1387'de \"Paul ve Lek Dukagjin adlı Arnavut asilzâdeleri … burayı Arnavut Dukakin Prensliği'nin merkezi hâline getirdiler.\" Prenslik İskender Bey'in direnişine katıldı ve Osmanlı hâkimiyeti kurulana kadar sürdü. ⚠️ f:1387 kaynakta AÇIKÇA var. 🔴 t:1479-01-25 KAYNAKTAN DEĞİL: `arnavutluk-iskenderbey` künyesinin bitişiyle HİZALANDI (Osmanlı-Venedik antlaşması). TDV Dukagin Prensliği'nin sonu için tarih VERMİYOR — bu alan bir kaynak iddiası değil, bir hizalamadır ve o yüzden burada beyan ediliyor."
+    }
+  ],
+
+  "_OLCMEDIKLERIM": [
+    "OLCEMEDIM  `mat` slug'i 302 ve `kruya` govdesi Mat icin HICBIR tarih vermiyor ⇒ Mat'in zinciri bu turda YAZILAMADI (bkz. yer yamasi).",
+    "OLCMEDIM   Topia beyliginin Kruya DISINDAKI topraklarini — kunye yalniz TDV `kruya`nin anlattigi kadarini kapsiyor.",
+    "OLCMEDIM   Dukagin Prensligi'nin gercek bitis tarihini — HIZALANDI, kaynaklanmadi."
+  ]
+}

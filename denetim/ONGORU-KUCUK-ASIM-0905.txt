@@ -1,0 +1,97 @@
+═══════════════════════════════════════════════════════════════════════
+ÖNGÖRÜ — "küçük aşım" kümesi + iki büyük aşım
+Oturum NEHİR SÜRTÜNME · sevk 1.MURAT M-2876 · 5 Eylül 2026
+═══════════════════════════════════════════════════════════════════════
+
+🔴 BU DOSYA ÖLÇÜMDEN **ÖNCE** YAZILDI.
+   Elimdeki TEK bilgi `BULGU-4C-HARITA-0905.md`nin özet satırları:
+   kimlik · kayıt sayısı · künye `t:` · en büyük aşım · üç örnek ad.
+   Hiçbir kaydın zincirini AÇMADIM, hiçbir kaynağa BAKMADIM.
+
+───────────────────────────────────────────────────────────────────────
+ELİMDEKİ TABAN (haritadan, ölçülmüş)
+───────────────────────────────────────────────────────────────────────
+   hafsi          12 kayıt · künye t:1574-09-13 ·  2,3 yıl · Murzuk · Gât · Sokna
+   mentese         6 kayıt · künye t:1424-01-01 ·  1,4 yıl · Datça · Marmaris · Fethiye
+   serbedariler    3 kayıt · künye t:1386-01-01 ·  1,8 yıl · Simnân · Dâmgan · Bistâm
+   artuklu         3 kayıt · künye t:1409-01-01 · 56,0 yıl · Harput · Çemişgezek · Palu
+   singhasari      4 kayıt · künye t:1292-01-01 · 51,0 yıl · Bali · Mataram (Lombok)
+
+───────────────────────────────────────────────────────────────────────
+SINIF ÖNGÖRÜLERİ — her biri: ① SINIF ② MAZERET ③ NEREDEN OKUYACAĞIM
+───────────────────────────────────────────────────────────────────────
+
+① `hafsi`  →  **GÜN KARARI** (sınıf: ZEND'in küçük hâli) · DOKUNMA bekliyorum
+   Gerekçe: künye `1574-09-13` Osmanlı'nın Tunus'u alışı. Ama örnekler
+   **Murzuk · Gât · Sokna** — bunlar FİZAN, Sahra'nın derinliği, İfrîkıye
+   çekirdeği DEĞİL. Uzak noktaların birkaç yıl geç devredilmesi
+   `§3.5`e göre MEŞRU ("bölgesel teslim gecikmeleri … aylar mertebesinde").
+   ⚠️ 2,3 yıl "aylar" değil ⇒ mazeret ZAYIF.
+   ② MAZERET: örneklerin Fizan olması varsayımım; başka noktalar
+     İfrîkıye çekirdeğindeyse bu gerekçe DÜŞER ve gerçek bir kusur olur.
+   ③ 12 kaydın TAM listesi + `t:` günleri (veriden)
+
+② `mentese`  →  **GÜN KARARI** · DOKUNMA bekliyorum
+   Gerekçe: künye `1424-01-01` yuvarlak; Menteşe'nin Osmanlı'ya kesin
+   ilhakı literatürde 1424-1426 arası verilir. 1,4 yıl tam o bandın içi.
+   ② MAZERET YOK — bu en güvendiğim öngörü. Çürürse künye günü ya da
+     veri günü gerçekten yanlıştır.
+   ③ 6 kaydın `t:` günleri
+
+③ `serbedariler`  →  **GÜN KARARI** · DOKUNMA bekliyorum
+   Gerekçe: künye `1386-01-01` yuvarlak (Timur'un İran seferi).
+   1,8 yıl ⇒ veri muhtemelen `1387/1388` kullanıyor.
+   ⚠️ VE BU KÜNYE BU PROJEDE BİR KEZ DÜZELTİLDİ: `CLAUDE.md §11`
+     `serbedariler f:` için TDV'den **9 Eylül 1337** tam gününü almış.
+     `t:` tarafı aynı titizlikte olmayabilir.
+   ② MAZERET: `f:` düzeltilirken `t:` gözden kaçmışsa bu bir kusurdur,
+     gün kararı değil.
+   ③ 3 kaydın `t:` günleri + künyenin `kaynak:` alanı
+
+④ `artuklu`  →  🔴 **BATNOZ SINIFI** (gerçek hayalet) · DÜZELTME bekliyorum
+   Gerekçe: 56 yıl "gün kararı" olamaz. Künye `1409-01-01` Mardin
+   Artuklularının sonu (Karakoyunlu). Ama örnekler **Harput ·
+   Çemişgezek · Palu** — Harput Artuklu kolu çok daha ERKEN bitti ve
+   o bölge Akkoyunlu/Dulkadir sahasıydı.
+   ⇒ Veri yıkılmış bir devleti 1465'e kadar boyuyor olabilir.
+   ② MAZERET YOK — 56 yıl için mazeret yazamam.
+   ③ 3 kaydın `t:` günleri + o tarihte bölgede hangi kimlik var
+
+⑤ `singhasari`  →  🔴 **ARDIL SINIFI** · YAZILABİLİR bekliyorum
+   Gerekçe: Singhasari 1292'de yıkıldı, yerine **Majapahit** geçti.
+   51 yıl ⇒ 1343, ve Majapahit'in Bali'yi fethi tam o yıllardadır.
+   ⇒ Veri ardılı biliyor ama kimliği güncellememiş olabilir.
+   🔴 KRİTİK ÖN KOŞUL: `macapahit` / `majapahit` künyesi VAR MI ve
+     RENGİ VAR MI? Yoksa `polonya-erken` gibi BLOKE olur.
+   ② MAZERET: künye yoksa yazılamaz ve bu bir başarısızlık DEĞİL.
+   ③ `devletler.js` TARAMASI (id tahmin ETMEYECEĞİM — bu gece üç kez
+     tek harf kaçırıldı) + `renkler.py`
+
+───────────────────────────────────────────────────────────────────────
+TOPLAM ÖNGÖRÜ — sayıyla
+───────────────────────────────────────────────────────────────────────
+   DOKUNMA çıkacak        **3** (hafsi · mentese · serbedariler)
+   GERÇEK KUSUR çıkacak   **2** (artuklu · singhasari)
+   YAZILABİLİR olacak     **1** (singhasari — künye varsa)
+
+🔴 VE BU ÖNGÖRÜNÜN ASIL SINAVI BİR SAYI DEĞİL BİR ALIŞKANLIK:
+   Bu gece ÜÇ kez "büyük görünen kalem ölçülünce meşru çıktı"
+   (`napoli` 15 ay · `sardinya` 439 yıl · `isvec` 242 yıl).
+   ⇒ Bu sefer **üçünü önceden DOKUNMA diye işaretliyorum.**
+   Tutarsa: kalibrasyon oturdu.
+   Çürürse: hâlâ "büyük sayı = büyük kusur" refleksiyle bakıyorum.
+
+⚠️ VE BİR ÖNGÖRÜ DAHA, ÖLÇEK ÜZERİNE:
+   Koordinatör bu sabah *"ölçüt sayı değil GÖRÜNÜRLÜK"* dedi, sonra
+   `sardinya`da onu da düzeltti: **ölçek sınıfı belirlemez.**
+   ⇒ Ben burada ölçeği yine kullanıyorum (56 ve 51 yıl → gerçek kusur).
+   🔴 **Bu bilinçli bir risk:** eğer ④ ya da ⑤ de "meşru" çıkarsa,
+     ölçek ÜÇÜNCÜ kez yanıltmış olur ve o zaman kural şu olur:
+     ***aşımın büyüklüğü sınıf hakkında HİÇBİR ŞEY söylemez.***
+
+───────────────────────────────────────────────────────────────────────
+ŞİMDİDEN: NEYİ ÖLÇEMEYECEĞİM
+───────────────────────────────────────────────────────────────────────
+ÖLÇEMEYECEĞİM  `denetle.py`yi koşturup doğrulamayı (koşu 5b, yasak).
+               Bütün sayılar bağımsız yeniden kurulumdan.
+ÖLÇMEYECEĞİM   `4c`nin 26'dan sonrasını (hepsi ≤2 kayıt)

@@ -1,0 +1,76 @@
+ONGORU — `kaynak:` KAPSAMA OLCUMU
+Oturum NEHIR SURTUNME · sevk 1.MURAT M-2898 ① · 5 Eylul 2026
+🔴 BU DOSYA OLCUMDEN **ONCE** YAZILDI. Betik henuz kosulmadi.
+
+═══════════════════════════════════════════════════════════════════
+① SINIR — ve bunu olcumden ONCE yaziyorum ki sonucu MAZUR GOSTERMEYEYIM
+═══════════════════════════════════════════════════════════════════
+
+Bu bir KORELASYON olcumudur. `kaynak:` yoklugu kusurun SEBEBI DEGIL,
+olsa olsa ISARETIDIR. (Koordinatorun M-2898 ①c sarti; aynen kabul.)
+
+🔴🔴 VE BIR CONFOUND VAR, ONU DA ONCEDEN YAZIYORUM:
+
+    **DOSYA YASI.** Bu gece siniflanan kusurlarin cogu `yerlesimler.js`te
+    — atlasin EN ESKI dosyasi. O dosya `kaynak:` alani yayginlasmadan
+    once yazildi. Yani "kusurlu kayitlarda `kaynak:` yok" sonucu
+    tamamen **dosya yasiyla** aciklanabilir ve `kaynak:` alaniyla
+    hicbir ilgisi olmayabilir.
+
+    ⇒ Bu yuzden HAM ORAN TEK BASINA HIC BIR SEY SOYLEMEZ.
+      Olcum **AYNI DOSYA ICINDE** yapilmali:
+         kusurlu noktalarin `kaynak:` orani
+         vs. AYNI DOSYADAKI kusursuz noktalarin `kaynak:` orani
+      Ikisi ayni cikarsa: desen YOK, gece bir tesadufmus.
+      Kusurlularda belirgin dusukse: desen VAR, ama hala korelasyon.
+
+📌 `§11`: *"temiz cikan bir orneklem, orneklemin disini temiz ilan
+   etmez"* — ve tersi: **kirli cikan bir orneklem, kirliligin SEBEBINI
+   soylemez.**
+
+⚠️ IKINCI SINIR: kusur kumesi **RASTGELE SECILMEDI.** Bu gece
+   olculen yerler, `4c`/`4d`nin gosterdigi ya da benim supheyle
+   gittigim yerler. Yani kume **taraflı**: kusur bulunan yerler,
+   kusur ARANAN yerler. Bir kontrol grubu ancak (b)'deki "ayni dosya"
+   kiyasiyla kurulabiliyor, ve o da tam bir kontrol degil.
+
+⚠️ UCUNCU SINIR: `kaynak:` alani **iki kademede** olabilir (kayit
+   duzeyi ve donem duzeyi). Ikisini de sayacagim; yalniz birine
+   bakmak sayiyi bozar (`§11` "alan adi, TANIMLANDIGI yerden okunur").
+
+═══════════════════════════════════════════════════════════════════
+② ONGORU — dort kalem, ve HANGI CIKTIDAN OKUYACAGIMI da yaziyorum
+═══════════════════════════════════════════════════════════════════
+
+① GENEL KAPSAMA          `kaynak:` alani olan nokta orani
+   BEKLIYORUM  %25 - %50
+   NEREDEN     betigin (a) bolumu · girdi.yukle() tum noktalar
+   MAZERET     YOK — bu duz bir sayim
+
+② DOSYA DAGILIMI         varyans BUYUK olacak
+   BEKLIYORUM  yeni partiler (0903/0904 · afrika2 · kamerika ·
+               okyanusya) %70+ · `yerlesimler.js` %20 alti
+   NEREDEN     betigin (a) bolumu, dosya dosya
+   MAZERET     YOK
+
+③ KUSUR KUMESI, HAM ORAN  kusurlu noktalarda `kaynak:` orani
+   BEKLIYORUM  genel ortalamanin ALTINDA
+   NEREDEN     betigin (b) bolumu
+   🔴 MAZERET VAR VE ONCEDEN YAZIYORUM: tutsa bile **HICBIR SEY
+      KANITLAMAZ** — confound (dosya yasi) aynen bunu uretir.
+      Bu kalemi bir bulgu olarak RAPORLAMAYACAGIM.
+
+④ 🔴 ASIL SINAV — AYNI DOSYA ICINDE KIYAS
+   BEKLIYORUM  **BILMIYORUM.** Iki yone de gidebilir ve bu kalemin
+               tahmin edilemez olmasi onun DEGERI.
+   NEREDEN     betigin (b) bolumu, dosya kirilimli
+   MAZERET     YOK. Fark yoksa desen COKER ve bunu boyle yazarim.
+
+═══════════════════════════════════════════════════════════════════
+③ NE YAPMAYACAGIM
+═══════════════════════════════════════════════════════════════════
+🔴 Hicbir kayda `kaynak:` YAZMAYACAGIM. Bu bir OLCUM turu; kaynak
+   turu DEGIL (M-2898: "yeni kaynak isi YOK").
+🔴 Sonuctan is TURETMEYECEGIM. Koordinator "olcum turetiyorum,
+   davranis degil" dedi; ayni siniri tutuyorum.
+🔴 `data/*.js` DONUK (kosu 5b canli) — zaten yazamam.

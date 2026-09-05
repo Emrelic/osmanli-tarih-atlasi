@@ -1,0 +1,128 @@
+{
+  "is": "143 renksiz künyenin renk partisi — ÖNGÖRÜ (98'lik dosyanın halefi)",
+  "yazan": "PRUSYA-0903",
+  "damga": "2026-09-03 22:30 · 🔴 ARTEFAKT GÖRÜLMEDİ · çözücü koordinatörde koşuyor, çıktı ONUN elinde",
+  "sevk": "1.MURAT M-2644 — «C: öngörüyü 143 için YENİDEN yaz, ve ŞİMDİ yaz, çözücünün bitmesini BEKLEME»",
+  "nicin_simdi_ve_neyi_biliyorum": {
+    "kural": "§11: önce yazılan beklenti YANLIŞ ÇIKABİLİR, ve ancak yanlış çıkabilen bir şey bilgi taşır.",
+    "biliyorum_GIRDI": "143 kimlik · bölge dağılımı · çift cinsleri · engel yoğunluğu — hepsi ÖLÇTÜĞÜM GİRDİ",
+    "bilmiyorum_CIKTI": "🔴 artefaktı GÖRMEDİM ve koordinatör onu elinde tutuyor. Koordinatörün gerekçesi: «bitti haberini beklemek bile risk — o haber geldiğinde elimde bir çıktı olduğunu bilirsin ve BİLMEK BİLE beklentiyi şekillendirir.»",
+    "onceki_dosyanin_akibeti": "`ONGORU-RENK-98-0903.json` SİLİNMEZ. Kalem ① ve ②'si `ÖLÇÜLEMEDİ` kovasına girer — «98 künyede ΔE<12 kalan çift 5-20» sorusu 143 künyelik evrende AYNI SORU DEĞİLDİR. Çürük saymak, düzeltmenin başarısızlığı gibi okunurdu."
+  },
+  "0_GIRDI_TABANI": {
+    "not": "ÖLÇÜM — hepsi çözücü koşmadan, girdiden okundu",
+    "kimlik": 143,
+    "cift": 10153,
+    "bolge_dagilimi": {
+      "kuzey-amerika": 45,
+      "bati-afrika": 41,
+      "dogu-afrika": 26,
+      "orta-afrika": 16,
+      "guney-afrika": 13,
+      "kuzey-afrika": 2
+    },
+    "cift_cinsleri": {
+      "örtüşmeyen — paylaşım MEŞRU": 629,
+      "örtüşen + AYNI bölge — çözücü AYIRMALI": 2258,
+      "örtüşen + farklı bölge — uzak, muhtemelen meşru": 7266
+    },
+    "engel_yogunlugu": "kimlik başına ~13,7 (ilk 40'ta ölçüldü) — 175'lik kümede 2,5'ti. Bu küme çok daha SIKIŞIK, çünkü hepsinin veride gövdesi var.",
+    "🔴_zorluk_beyani": "45 kuzey-amerika kimliği aynı bölgede ve pencereleri örtüşüyor ⇒ 45'inin BİRBİRİNDEN ΔE≥12 ayrışması gerekiyor. Aynısı 41 batı-afrika için. Bu, 175'lik kümeden ZOR bir problem."
+  },
+  "KALEMLER": [
+    {
+      "no": "①",
+      "ne_bekliyorum": "ΔE<12 kalan çift sayısı **300-700 bandında**",
+      "gerekce": "175'lik kümede yeni kod 1005 verdi. 143'te çift sayısı %67'ye düşüyor (15.225 → 10.153) ⇒ orantılı 673. Ama engel yoğunluğu 2,5 → 13,7'ye çıkıyor (5,5×), yani ayrışma DAHA İYİ olmalı ⇒ bandın alt ucuna doğru.",
+      "mazereti_var_mi": "🟡 VAR ve önceden yazıyorum: bu küme 175'ten SIKIŞIK (45+41 kimlik iki bölgede yığılmış). Sıkışıklık orantısal tahmini bozabilir ve sayı 700'ü aşabilir. O zaman ① çürür ve öğreteceği şey **bölge yığılmasının çift sayısından baskın olduğu** olur.",
+      "hangi_ciktidan_hangi_birimde": "koordinatörün artefaktındaki hex'lerin ikili ΔE'si · **CIE76** · **`gorunen()`** zinciri (ham hex DEĞİL) · birim: ÇİFT SAYISI",
+      "hangi_kosuda_neye_karsi": "koordinatörün 143 kimlikli tek koşusu; taban YOK (bu küme eski kodla hiç çözülmedi) ⇒ mutlak sayı ölçülür, fark değil"
+    },
+    {
+      "no": "②",
+      "ne_bekliyorum": "🔴 GERÇEK İHLAL (örtüşen **ve** (aynı bölge ya da Voronoi komşusu)) = **0**",
+      "gerekce": "`oner()` genişletmesinin ASIL sınavı. 175'lik kümede aynı ölçüt 1337 → 0 verdi. Burada ayrılması gereken çift 2258 ve düzeltme tam bunu hedefliyor.",
+      "mazereti_var_mi": "🔴 **MAZERET YOK.** Sıfır çıkmazsa düzeltme bu evrende yetersiz demektir — ve bunu ben yazdım, kendi işimin sınavı.",
+      "hangi_ciktidan_hangi_birimde": "aynı artefakt · ΔE<12 olan çiftler künye penceresi + bölge + Voronoi ile süzülür · birim: ÇİFT SAYISI · beklenen 0",
+      "hangi_kosuda_neye_karsi": "aynı koşu; ölçüt `denetim/SINAV-RENK-98-0903.py`nin kova ayrımıyla aynı"
+    },
+    {
+      "no": "③",
+      "ne_bekliyorum": "«ÇÖZÜLEMEDİ» sayısı **0'dan büyük olacak** — 1 ile 20 arasında",
+      "gerekce": "175'lik kümede 0 çıktı ve öngörüm ÇÜRÜDÜ; sebebi havuzun bolluğuydu (73.454 aday). Ama bu küme SIKIŞIK: 45 kimlik tek bölgede, engel yoğunluğu 5,5× daha yüksek. Aynı bölgedeki 45 kimliğin hepsinin birbirinden ΔE≥12 durması, palet 407 doluyken zorlanabilir.",
+      "mazereti_var_mi": "🟡 VAR: 175'te de aynı şeyi bekledim ve çürüdü. Havuz yine yetebilir. O zaman ③ İKİNCİ KEZ çürür ve öğreteceği şey **73.454'lük havuzun bu ölçekte pratikte tükenmediği** olur — ki bu, bir sonraki partide 'çözülemez' korkusunu kaldırır.",
+      "hangi_ciktidan_hangi_birimde": "artefaktta EKSİK olan kimlikler (143 istendi, kaçı yazıldı) · birim: KİMLİK SAYISI",
+      "hangi_kosuda_neye_karsi": "aynı koşu; 143 istendi ⇒ artefaktta 143'ten az kimlik varsa fark = çözülemedi"
+    },
+    {
+      "no": "④",
+      "ne_bekliyorum": "En çok kusurlu çift **kuzey-amerika**'da olacak",
+      "gerekce": "Girdide kuzey-amerika %31,5 (45/143) ve batı-afrika %28,7 (41/143) — ikisi başa baş. Kuzey-amerika'yı seçiyorum çünkü SAYICA önde. 98'lik öngörüde bu kalem «batı-afrika» diyordu; evren değişti, cevap da değişmeli.",
+      "mazereti_var_mi": "🟡 VAR: fark yalnız 4 kimlik (45 vs 41). Batı-afrika çıkarsa bu bir ÖLÇÜM hatası değil, iki bölgenin başa baş olması demektir. O zaman ④ çürür ama zayıf bilgi taşır — bunu şimdiden yazıyorum ki sonradan mazeret üretmiş olmayayım.",
+      "hangi_ciktidan_hangi_birimde": "①'in saydığı çiftler künyelerin `bolge` alanına göre gruplanır · bir çift iki bölgeye aitse İKİSİ de sayılır (sütunlar TOPLANMAZ) · birim: ÇİFT SAYISI",
+      "hangi_kosuda_neye_karsi": "aynı koşu"
+    },
+    {
+      "no": "⑤",
+      "ne_bekliyorum": "Mevcut **407** rengin hiçbiri değişmeyecek, ve `prusya` **#2478d2** kalacak",
+      "gerekce": "`oner()` yalnız istenen kimliklere renk seçer, `BOYALAR`a yazmaz. `prusya` bu partide İSTENMİYOR (artık renkli).",
+      "mazereti_var_mi": "🔴 MAZERET YOK — kapsam sınavı. Değişirse parti kapsamı aşmış demektir.",
+      "hangi_ciktidan_hangi_birimde": "`git diff arac/renkler.py` (koordinatör yazdıktan SONRA) · birim: DEĞİŞEN SATIR · beklenen: yalnız 143 EKLEME, hiç DEĞİŞİKLİK yok",
+      "hangi_kosuda_neye_karsi": "renk aktarımından sonra"
+    }
+  ],
+  "🔴_UC_DAMGA": {
+    "TUTTU": "öngörü doğrulandı",
+    "CURUDU": "öngörü yanlıştı → BİLGİ taşır, dersi alınır",
+    "OLCULEMEDI": "alet o soruyu cevaplamıyor ya da EVREN değişti → kalem AÇIK kalır, «çürüdü» diye KAPATILMAZ"
+  },
+  "🔴_KENDI_SINIRIM": [
+    "Bu öngörüyü yazan, ölçülecek düzeltmeyi de yapan kişi (ben). Panzehir: ② ve ⑤ MAZERETSİZ.",
+    "GİRDİYİ biliyorum (143 · bölge · çift cinsleri · engel yoğunluğu), ÇIKTIYI bilmiyorum. Koordinatör artefaktı elinde tutuyor ve bana «bitti» haberini bile vermeden yazmamı istedi.",
+    "③'ü İKİNCİ KEZ aynı yönde yazıyorum (175'te çürümüştü). Bilerek: ya bu evrende tutar, ya da havuzun bolluğu İKİ FARKLI ÖLÇEKTE doğrulanmış olur. İkisi de bilgi."
+  ],
+  "🔴_SONUC_2026-09-03_22-45": {
+    "artefakt": "denetim/oneri-20260903-223128.txt · 143/143 çözüldü",
+    "olcut": "CIE76 · gorunen() zinciri · alet: denetim/SINAV-RENK-98-0903.py 143 --artefakt",
+    "①": {
+      "damga": "🟢 TUTTU",
+      "beklenen": "300-700",
+      "olculen": "550 / 10.153 çift"
+    },
+    "②": {
+      "damga": "🟢 TUTTU — MAZERETSİZ kalemdi",
+      "beklenen": "GERÇEK İHLAL = 0",
+      "olculen": "0",
+      "ayrisma": {
+        "örtüşmeyen (meşru)": 50,
+        "örtüşen + farklı bölge (uzak)": 500,
+        "GERÇEK İHLAL": 0
+      },
+      "not": "550 eşik-altı çiftin HİÇBİRİ aynı sahnede+aynı bölgede ya da Voronoi komşusu değil. `oner()` genişletmesi bu evrende de ölçülebilir bütün ihlalleri kapattı."
+    },
+    "③": {
+      "damga": "🔴 ÇÜRÜDÜ — İKİNCİ KEZ, ve bu sefer DAHA ÇOK bilgi taşıyor",
+      "beklenen": "1-20 çözülemedi",
+      "olculen": "0 (143/143 çözüldü)",
+      "ogrettigi": "73.454'lük aday havuzu İKİ FARKLI ÖLÇEKTE tükenmedi: 175 kimlik/engel yoğunluğu 2,5 ve 143 kimlik/engel yoğunluğu 13,7. Mazeretimi önceden yazmıştım ve bilerek aynı yönde tekrarlamıştım — «ya tutar, ya havuzun bolluğu iki ölçekte doğrulanmış olur». İkincisi oldu.",
+      "sonuc": "⇒ Bir sonraki partide «çözülemez» korkusu ÖLÇÜLMÜŞ olarak kalkıyor."
+    },
+    "④": {
+      "damga": "🟢 TUTTU",
+      "beklenen": "kuzey-amerika",
+      "olculen": "kuzey-amerika 279 · bati-afrika 263 (fark 16)",
+      "not": "Mazeretimi önceden yazmıştım (fark yalnız 4 kimlik, başa baş). Tuttu ama DAR tuttu — 16 çiftlik fark."
+    },
+    "⑤": {
+      "damga": "🟢 TUTTU — MAZERETSİZ kalemdi",
+      "olculen": "git diff arac/renkler.py BOŞ · BOYALAR 407 · prusya #2478d2"
+    },
+    "🔴_SINAV_BETIGININ_KENDI_KALEMI_④": {
+      "gozlem": "`renk_fark.py` fark ölçümü KIRMIZI verdi: doğan kusur 2→4 (+2) · zincir kusuru 20→163 (+143)",
+      "hukum": "🔴 BU BENİM PARTİMİN KUSURU DEĞİL — TABAN BAYAT",
+      "olcum": "Taban 15:24'te alındı; şu an 22:45. Arada yerleşim 2913→3802, künye 591'e çıktı. `zincir()` fonksiyonu «künyesi olup rengi olmayan» kimlikleri sayıyor (renk_fark.py:76-90) ⇒ zincir kusuru = RENKSİZ KÜNYE SAYISI. 163 = benim 143'üm + 20 sessiz borç.",
+      "sonuc": "⇒ Parti bu sayıyı DOĞURMUYOR, KAPATACAK: renkler yazılınca 163 → 20 düşer.",
+      "kendi_kusurum": "Sınav betiğimin fark ölçümü TABANIN YAŞINI hesaba katmıyor. §11 «log da bir çıktıdır ve o da bayatlar» — burada bayatlayan TABAN. Bugün kendi üzerimde ALTINCI kör nokta."
+    }
+  }
+}

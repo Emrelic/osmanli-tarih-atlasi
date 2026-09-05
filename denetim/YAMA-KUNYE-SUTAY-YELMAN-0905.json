@@ -1,0 +1,74 @@
+{
+  "_NOT": "IKI kunye onerisi. `arac/_kunye_uygula.py` icin. Sevk 1.MURAT M-2907. Oturum NEHIR SURTUNME, 5 Eylul 2026. data/devletler.js'e DOKUNULMADI — uygulama koordinatorun.",
+  "_YOKLUK_OLCULDU_TAHMIN_EDILMEDI": {
+    "gerekce": "`§3.5.0` dersi: bir kimligi 'yok' ilan etmeden once devletler.js TARANIR, TAHMIN EDILEN id ARANMAZ. Bu gece o hata bir kez yapildi (`ingiliz-hindistan` yerine `ingiliz-hindistani`) ve uzerine HUKUM kuruldu.",
+    "yontem": "591 kunyenin `id` + `ad` + `bolge` + `harita` + `kaynak` + `not` alanlari BIRLESTIRILIP `ARAC-NORMAL` bicimi bir normallestiriciden gecirildi (Turkce harf + NFKD + birlesik isaret atma), sonra alt-dizgi arandi.",
+    "aranan_anahtarlar": [
+      "sutay",
+      "cemis",
+      "yelman",
+      "melkis",
+      "mirdes",
+      "dersim",
+      "tunceli",
+      "palu"
+    ],
+    "sonuc": "SEKIZININ SEKIZI DE BULUNAMADI. Iki kimlik de gercekten YOK.",
+    "tdv_sluglari": "sutayogullari 302 · sutay 302 · cemisgezek 302 · yelmaniye 302 · mirdasi 302 · melkisi 302 · cemisgezek-beyligi 302 — YEDISI DE OLU. Ikisinin de kaynagi KAPSAYICI maddelerden geldi (`diyarbakir` ve `tunceli`), `§4`un 'dar slug tutmazsa kapsayiciyi dene' kuralinca."
+  },
+  "_RENK": "🔴 IKISI DE 'RENK BEKLIYOR'. `renkler.py` kosu 5b boyunca DONUK; renk uretilmeden veriye yazilirlarsa `§8`e gore HARITA DELIGI acarlar. Bu yuzden yamalarda KULLANILMADILAR — yalnizca kunye olarak oneriliyorlar. Kuyruktaki on birinci ve on ikinci 'renk bekleyen' kalem.",
+  "kunyeler": [
+    {
+      "id": "sutayogullari",
+      "ad": "Sutayogullari",
+      "tur": "beylik",
+      "bolge": "anadolu",
+      "f": "1343-01-01",
+      "t": "1353-01-01",
+      "kaynak": "TDV `diyarbakir` (200, govde okundu): Amid'in el degistirme zincirinde 1343'te \"Sutayogullari'ndan Ibrahim Sah\" yonetti, 1353'ten sonra Celayirliler'e gecti. 🔴 PENCERE CINSI: bu aralik POLITY'NIN OMRU DEGIL, Diyarbakir'daki hakimiyetin KAYNAKLI araligidir. Sutayogullarinin kurulus ve bitis tarihleri OLCULEMEDI — TDV'de mustakil madde YOK (`sutayogullari` ve `sutay` sluglari 302), akademik tur YAPILMADI. Baska bir yerde Sutayogullari kaydi cikarsa pencere GENISLETILIR.",
+      "ozet": "Ilhanli sonrasi Diyarbekir bolgesinde hakim olan Mogol asilli emirlik. TDV `diyarbakir` govdesi Amid'in el degistirme zincirinde onlari ADIYLA sayiyor: 1303'te Gazan Han sehri Mardin Artuklu sultanina verdi, 1317 ayaklanmasindan sonra Artuklu idaresi surdu, 1343'te 'Sutayogullari'ndan Ibrahim Sah' yonetti, 1353'ten sonra idare Celayirliler'e gecti. ⚠️ Kunyenin `f:`/`t:` degerleri bu YEREL zincirden gelir, hanedanin omrunden DEGIL — ayrinti `kaynak` alaninda.",
+      "_PENCERE_SARTI": {
+        "kapatmasi_gereken_aralik": "Diyarbakir 1343-01-01 → 1353-01-01 (10 yil)",
+        "onerilen_pencere": "1343-01-01 → 1353-01-01",
+        "kapatiyor_mu": "🟢 EVET — TAM kapatiyor, ne eksik ne fazla.",
+        "singhasari_sinavi": "GECTI. Kunye penceresi bosluğu tam ortuyor; ne delik acar ne fetihten once boyar."
+      },
+      "_DURUST_UYARI": "🔴 BU PENCERE POLITY'NIN OMRU DEGIL, DIYARBAKIR'DAKI HAKIMIYET ARALIGIDIR. Sutayogullarinin ne zaman kuruldugunu ve ne zaman sona erdigini OLCEMEDIM — TDV'de mustakil maddesi YOK (yedi slug 302). Yani bu kunye, `§4`un uyardigi 'kunyeyi veriye uydurmak' bicimine YAKIN duruyor ve bunu gizlemiyorum: pencere tek bir yerin zincirinden turetildi. Baska bir yerde Sutayogullari kaydi cikarsa pencere GENISLETILMELIDIR, ve o zaman bu satir onun gerekcesidir.",
+      "_KULLANIM": "Hedef: `denetim/yer_yama_diyarbakir.js` icindeki `artuklu 1303-01-01 → 1353-01-01` donemi IKIYE bolunur: `artuklu 1303→1343` + `sutayogullari 1343→1353`. Bugun BIRLESIK birakildi cunku kunye ve renk yok; o yamanin `not:` alaninda bu ACIKCA yaziyor ('o on yil artuklu altinda BILEREK birakildi'). Kunye + renk inince yanlis aralik 10 yildan 0'a iner."
+    },
+    {
+      "id": "cemisgezek-beyligi",
+      "ad": "Cemisgezek Beyligi (Melkisi)",
+      "tur": "beylik",
+      "bolge": "anadolu",
+      "f": "1281-01-01",
+      "t": "1420-01-01",
+      "kaynak": "🟢 AKADEMIK TUR YAPILDI (M-2912 sevki), `pypdf` ile — WebFetch'e SORULMADI (bu sabah onun 'cikarilamadi'si UC PDF'te de yanlis cikti). (1) Serdar KARABULUT, \"Osmanlilarin Dogu ve Guneydogu Anadolu'yu Ilhakinda Bir Halk: Zazalar\", Munzur Univ. Sosyal Bilimler Dergisi 7(14), 2019, s.76-93 — dayanaklari Serefhan 2010 (Serefname), Ibn Bibi 1956, Paydas 2003, Karabulut 2013. (2) \"Cemisgezek-Ulukale Koyu'nun Tarihsel Yerlesim Dokusu\", Firat Univ. Sosyal Bilimler Dergisi. (3) Esterabadi 1928:369, Toksoy uzerinden. 🔴 PENCERE CINSI: `f:1281-01-01` BIR KURULUS TARIHI DEGIL, ATLAS PENCERESININ BASIDIR — beylik ondan ONCE vardir ve bu iki bagimsiz kaynakla sabittir.",
+      "ozet": "Cemisgezek merkezli yerel Zaza (Melkisi) beyligi. Karabulut: Memluklerin 1281'de Mogol nufuzunu kirmasi uzerine \"Melkisi Cemisgezek Beyleri … gucsuz kalan Mogol valilerinden topraklarini GERI ALDILAR\" ve \"Mogol hakimiyetinin kalkmasi neticesinde yerli hanedanlar Akkoyunlular ile Karakoyunlular'in bolgede hakimiyet kurmalarina kadar KENDI BOLGELERINI YONETTILER\" (Karabulut 2013:142). Cemisgezek-Ulukale makalesi bagimsiz olarak: \"Anadolu Selcuklu Devleti, Cemisgezek'i 1200'lu yillarin basinda beylik merkezi haline getirmistir. Cemisgezek Beyligi, Kanuni Sultan Suleyman zamanina kadar mevcudiyetini surdurmustur.\" Beyin ADI bir vekayi'nameden (Yelman, Mutahharten devri), ESERI bir mimari kayittan (Yelmaniye Medresesi, Emir Taceddin Yelman b. Keykubat b. Halit el-Kurdi, H.800-809) dogrulaniyor.",
+      "_PENCERE_SARTI": {
+        "kapatmasi_gereken_aralik": "Cemisgezek 1353-01-01 → 1429-01-01 (76 yil, bugun YANLIS `artuklu`)",
+        "onerilen_pencere": "1281-01-01 → 1420-01-01 (139 yil)",
+        "kapatiyor_mu": "🟢 EVET — TAM kapatiyor, ustune tasiyor.",
+        "singhasari_sinavi": "GECTI. Onceki surumde (`f:1396`) yalniz %43'unu kapatiyordu ve o yuzden BEKLETILMISTI (M-2912 ②); akademik tur `f:`i cozdu.",
+        "tasma_uyarisi": "🔴 Pencere 1281-1353 arasini da kapsiyor ama ORAYA YAZILMASI otomatik DEGIL: veri o araligi `ilhanli` gosteriyor ve TDV `harput` destekliyor (\"Kosedag'dan bir sure sonra da ILHANLILAR tarafindan zaptedildi\"). Kunye penceresi bir IZIN'dir, bir EMIR degil."
+      },
+      "_KULLANIM": "Hedef: `denetim/yer_yama_harput.js` icindeki Cemisgezek kaydinin `artuklu 1353→1429` donemi. Onerilen (Ⓐ): `artuklu` TAMAMEN kalkar, yerine `cemisgezek-beyligi 1281→1420` + `akkoyunlu 1420→1507` gelir; `ilhanli 1281→1353` de kalkar. 🔴 SEKIL DEGISIKLIGI BUYUK — Ⓐ/Ⓑ/Ⓒ secenekleri `denetim/BULGU-CEMISGEZEK-BEYLIGI-0905.md`de. VERIYE DOKUNULMADI, karar koordinatorun.",
+      "_T_KARARI": {
+        "onerilen": "t:1420-01-01",
+        "dayanak": "Karabulut: \"1420 yilinda Kara Yusuf'un olumunun ardindan … Kara Yuluk Osman Bey'in Cemisgezek'i SEYH HASAN'DAN ALDIGI GORULMEKTEDIR.\"",
+        "durust_uyari": "🔴 \"gorulmektedir\" — kaynak KESIN konusmuyor. Ve `t:1420` beyligin SONU DEGIL: ayni kaynak Akkoyunlularin Melkisileri \"kendilerine bagli kalmak sartiyla atalarindan kalan topraklari OSMANLILARA KADAR yonetmelerine izin verdigini\" soyluyor (Karabulut 2013:145). Beylik TABI olarak SURUYOR — ama atlasta \"Akkoyunlu'ya tabi Melkisi beyligi\" IFADE EDILEMIYOR (`v:` yalniz Osmanli tabiiyeti icin ve kimlik tasimiyor). `t:1420` BAGIMSIZLIGIN sonudur, varligin degil — `hurmuz-sultanligi` kunyesindeki bicimin ayni."
+      }
+    }
+  ],
+  "_OLCMEDIKLERIM": {
+    "denetim_etkisi": "Iki kunyenin de veriye INMESI SIMULE EDILMEDI. Sebebi: ikisi de RENKSIZ, bugun yazilamazlar; renksiz bir kimligi simule etmek `4c`/`4d` sayilarini verir ama `§8` harita deligini VERMEZ, ve asil kisit odur. Renk indikten SONRA olculmelidir.",
+    "sutayogullari_omru": "Polity'nin kurulus ve bitis tarihleri — TDV'de mustakil madde YOK (`sutayogullari` ve `sutay` 302), akademik tur YAPILMADI (butce). Kunye penceresi bu yuzden YEREL zincirden turetildi; `kaynak` alaninda ACIKCA yaziyor.",
+    "cemisgezek_1353_1396": "🟢 BU SATIR BAYATLADI, KAPANDI. Onceki surumde 'kaynak ARANMADI (butce)' yaziyordu; M-2912 ile tur YAPILDI ve `f:` cozuldu (1281-01-01). Ayrinti: `denetim/BULGU-CEMISGEZEK-BEYLIGI-0905.md`.",
+    "karakoyunlu_geri_alisi": "🔴 YENI ACIK KALEM: Karabulut, Karakoyunlularin Cemisgezek'i 1420-1429 arasinda Akkoyunlulardan GERI ALDIGINI soyluyor ama YILINI VERMIYOR. Ⓑ secenegi bu yuzden bir tarih TURETMEYI gerektiriyor. Ayri tur gerekir.",
+    "melkisi_baglantisi": "🟢 DOGRULANDI (onceki surumde 'akademik kaynaktan DOGRULANMADI' yaziyordu). Karabulut 2019 'Cemisgezek Melkisi Beyleri'ni ADIYLA ve tekrar tekrar aniyor. `id` yine de yer adina dayaniyor (`cemisgezek-beyligi`), hanedan adina degil — atlasin oteki beylik id'leriyle tutarli olsun diye.",
+    "oteki_uc_zaza_mirligi": "🔴 ACILMADI, AYRI KALEM: ayni kaynak Egil Mirdasi · Suveydi (Genc/Capakcur) · Zirkan (Atak) beyliklerini de ADIYLA sayiyor ve ucu de Akkoyunlu konfederasyonuna bagli. Atlasta o noktalar hangi kimlikle boyaniyor OLCULMEDI — buyuk ihtimalle ayni sinifta kusur tasiyorlar.",
+    "yelmaniye_duzeltmesi": "🟢 Onceki surumdeki '1396-1404' TDV `tunceli` ozetinden geliyordu. Birincil tarif: 'Emir Taceddin Yelman b. Keykubat b. Halit el-Kurdi tarafindan HICRI 800-809 tarihleri arasinda MEDRESE olarak yaptirildigi SANILMAKTADIR' = 1397/98-1406/07, ve bir kitabeye degil bir KANAATE dayaniyor. `f:` icin kullanilmadi."
+  },
+  "_KOORDINATORE": "🟢 `sutayogullari` ONAYLANDI (M-2912 ①) ve pencere cinsi `kaynak` alanina yazildi. 🟢 `cemisgezek-beyligi` BEKLETILMISTI (M-2912 ②, sebep: `f:` bir attestasyondu); akademik tur YAPILDI ve `f:` COZULDU ⇒ pencere sarti artik GECIYOR. Ama ayni tur yer yamasindaki `1429` sinirini da EKSIK gosterdi — Ⓐ/Ⓑ/Ⓒ karari bekliyor.",
+  "_GUNCELLEME": "5 Eylul 2026, M-2912 sonrasi. `cemisgezek-beyligi`: f 1396-01-01→1281-01-01 · t 1429-01-01→1420-01-01. Sebep: akademik tur (Karabulut 2019 + Firat Univ.). `sutayogullari` DEGISMEDI, yalniz `kaynak` alanina pencere cinsi eklendi."
+}

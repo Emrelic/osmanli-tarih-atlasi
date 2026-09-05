@@ -1,0 +1,152 @@
+{
+  "oturum": "KRONOLOJI BOS KUNYE",
+  "damga": "2026-09-05 05:08",
+  "is": "Sibirya iç beyanı — M-2749",
+  "①_MEVCUT_BEYANLAR_OKUNDU": {
+    "sart": "Koordinatörün şartı: 43 mevcut beyan önce okunacak. OKUDUM.",
+    "olcum": "Kutuda (50-78K/60-190D) beyan: **51** (koordinatörün 43'ü başka kutudan olmalı — 34/24 vakasının aynısı, kutu farkı).",
+    "cins_dagilimi": {
+      "devletsiz": 39,
+      "veri-yok": 8,
+      "kabile": 2,
+      "insansiz": 1,
+      "hata": 1
+    },
+    "🔴🔴_VERIYE_YAZILMIS_BIR_CELISKI_BULDUM": {
+      "ne": "AYNI HALK, AYNI DÖNEM, İKİ FARKLI CİNS — ve kaynaklı olan `kabile`, kaynaksız olan `devletsiz`.",
+      "kanit": [
+        "«Yakut toprakları (Orta Lena)» 65,00/123,00 → `bos:kabile`, ve gerekçesi TDV `yakutlar` maddesini ALINTILIYOR (uruğ/toyon düzeni).",
+        "«Yakutsk» 62,03/129,73 → `bos:devletsiz`, gerekçesi «1632 öncesi Yakut (Saha) toprağı, devletsiz» ve kendi içinde «🔴 TDV'ye basmıyor» damgası taşıyor.",
+        "«Vilyuysk» 63,75/121,63 → aynı: `devletsiz` + «TDV'ye basmıyor»."
+      ],
+      "hukum": "🔴 KARARI BEN VERMİYORUM ama ölçüm net: `devletsiz` kaydı kaynağa BASMIYOR (kendi damgası söylüyor), `kabile` kaydı TDV'ye BASIYOR. M-2725'te bu çelişkiyi bildirmiş ve «o 39 kaydın kaynaklarını OKUMADIM» demiştim. Bu tur OKUDUM: çelişki gerçek ve veride duruyor.",
+      "🟡_koordinatorun_beklentisi_de_curudu": "M-2749 «Yakut için kaynak fetih öncesini HİÇ tartışmıyor ⇒ `veri-yok`» diyordu. ÇÜRÜDÜ: atlasın kendi kaydı TDV'nin fetih öncesini AÇIKÇA tartıştığını gösteriyor ⇒ `kabile`. Bu gece bu üçüncü: Grönland · Gobi · Yakut."
+    }
+  },
+  "②_KARDES_OTURUMUN_ADAY_LISTESI_SINANDI": {
+    "kaynak": "denetim/YERLESIM-SIBIRYA-0905.json — `NEHİR SÜRTÜNME`, 10 aday, «DOĞRULANMADI» damgalı",
+    "yontem": "Ad araması DEĞİL KOORDİNAT: 3 km yarıçap, ve ad eşleşmesi yalnız mesafe yakınsa anlamlı sayıldı.",
+    "🔴_IKISI_ATLASTA_ZATEN_VAR_ve_TRANSLITERASYONLA_GIZLENMISTI": [
+      "Olekminsk ↔ **Olyokminsk** — 0,88 km",
+      "Zigansk   ↔ **Jigansk**    — 0,05 km"
+    ],
+    "sonuc": "10 adayın 2'si MÜKERRER çıktı. Yazılsalardı iki mükerrer nokta doğardı — ve kardeş oturum kendi aletinin bu tuzağı ürettiğini ZATEN yazmıştı («Olekminsk→Minsk» yanlış pozitifi). Ad araması bu sefer ters yönde yanıldı: aynı yeri FARKLI yazım yüzünden «yok» saydı.",
+    "temiz_kalan_8": [
+      "Ilimsk",
+      "Ust-Kut",
+      "Tunka",
+      "Kyahta",
+      "Makovsk",
+      "Amga",
+      "Nijneilimsk",
+      "Idinsk"
+    ]
+  },
+  "③_SEKIZ_ADAY_ICIN_KAYNAK_ARANDI": {
+    "sonuc": "🔴 BULUNAMADI — kuruluş yılı hiçbiri için akademik kaynakta AYNEN bulunamadı.",
+    "tek_kunye": "Kyahta için künye VAR: Brill, Journal of Early Modern History — «Interracial Outposts in Siberia: Nerchinsk, KIAKHTA, and the Russo-Chinese Trade in the Seventeenth/Eighteenth Centuries». Yerin varlığını ve önemini doğruluyor AMA KURULUŞ TARİHİ VERMİYOR.",
+    "kararim": "🔴 SEKİZİNİ DE NOKTA OLARAK YAZMADIM. Koordinatörün şartı «bulamazsan bulunamadı diye BIRAK, zorlama» idi; zorlamadım. `kur:` olmadan yazılsalardı 1281'den beri sahipsiz görünürlerdi (Doğu Asya'da ölçtüğüm sorunun aynısı).",
+    "oneri": "Bu sekizi için hedefli bir kaynak turu gerekir — Cambridge «Conquest of Siberia» ve «Eastward to Empire» ciltleri künye düzeyinde bulundu, GÖVDELERİ ÇEKİLEMEDİ."
+  },
+  "④_BEYAN_ONERILERI": [
+    {
+      "alt_kusak": "Batı Sibirya bataklıkları",
+      "lat": 62.5,
+      "lon": 82.5,
+      "en_yakin_noktaya_km": 427,
+      "kasitli_bosluk": true,
+      "bos": "veri-yok",
+      "neden": "Kaynak SUSUYOR ⇒ `veri-yok`. `devletsiz` yazmak kaynağın söylemediğini söyletmek olurdu.",
+      "kaynak": "🔴 KAYNAK BULUNAMADI — Batı Sibirya bataklıklarının iç kesiminde pencere içi siyasî örgütlenme için akademik kaynak ARADIM, bulamadım.",
+      "🔴_konum_notu": "Konumu BEN seçtim — alt kuşağın EN BOŞ hücresinin merkezi. Kaynaktan gelmiyor, bir SEÇİMDİR."
+    },
+    {
+      "alt_kusak": "Batı Sibirya bataklıkları",
+      "lat": 62.5,
+      "lon": 83.5,
+      "en_yakin_noktaya_km": 426,
+      "kasitli_bosluk": true,
+      "bos": "veri-yok",
+      "neden": "Kaynak SUSUYOR ⇒ `veri-yok`. `devletsiz` yazmak kaynağın söylemediğini söyletmek olurdu.",
+      "kaynak": "🔴 KAYNAK BULUNAMADI — Batı Sibirya bataklıklarının iç kesiminde pencere içi siyasî örgütlenme için akademik kaynak ARADIM, bulamadım.",
+      "🔴_konum_notu": "Konumu BEN seçtim — alt kuşağın EN BOŞ hücresinin merkezi. Kaynaktan gelmiyor, bir SEÇİMDİR."
+    },
+    {
+      "alt_kusak": "Orta Sibirya yaylası",
+      "lat": 63.5,
+      "lon": 98.5,
+      "en_yakin_noktaya_km": 549,
+      "kasitli_bosluk": true,
+      "bos": "kabile",
+      "neden": "Kaynak halkın siyasî örgütlenmesini AÇIKÇA tarif ediyor (uruğ/toyon) ⇒ `kabile`. `veri-yok` DEĞİL: kaynak SUSMUYOR. `devletsiz` DE DEĞİL: kaynak «devlet yoktu» demiyor, kabile düzenini anlatıyor.",
+      "kaynak": "TDV `yakutlar` maddesi — atlasın KENDİ kaydından aktarıldığı hâliyle: Yakutlar «hemen hemen bütün Lena havzası boyunca yarı uruğlar (küçük kabileler) halinde yaşıyordu», her uruğun «kendi beyleri (toyon)» vardı.",
+      "🔴_konum_notu": "Konumu BEN seçtim — alt kuşağın EN BOŞ hücresinin merkezi. Kaynaktan gelmiyor, bir SEÇİMDİR."
+    },
+    {
+      "alt_kusak": "Orta Sibirya yaylası",
+      "lat": 62.5,
+      "lon": 97.5,
+      "en_yakin_noktaya_km": 537,
+      "kasitli_bosluk": true,
+      "bos": "kabile",
+      "neden": "Kaynak halkın siyasî örgütlenmesini AÇIKÇA tarif ediyor (uruğ/toyon) ⇒ `kabile`. `veri-yok` DEĞİL: kaynak SUSMUYOR. `devletsiz` DE DEĞİL: kaynak «devlet yoktu» demiyor, kabile düzenini anlatıyor.",
+      "kaynak": "TDV `yakutlar` maddesi — atlasın KENDİ kaydından aktarıldığı hâliyle: Yakutlar «hemen hemen bütün Lena havzası boyunca yarı uruğlar (küçük kabileler) halinde yaşıyordu», her uruğun «kendi beyleri (toyon)» vardı.",
+      "🔴_konum_notu": "Konumu BEN seçtim — alt kuşağın EN BOŞ hücresinin merkezi. Kaynaktan gelmiyor, bir SEÇİMDİR."
+    },
+    {
+      "alt_kusak": "Yakutistan-Lena havzası",
+      "lat": 58.5,
+      "lon": 127.5,
+      "en_yakin_noktaya_km": 412,
+      "kasitli_bosluk": true,
+      "bos": "kabile",
+      "neden": "Kaynak halkın siyasî örgütlenmesini AÇIKÇA tarif ediyor (uruğ/toyon) ⇒ `kabile`. `veri-yok` DEĞİL: kaynak SUSMUYOR. `devletsiz` DE DEĞİL: kaynak «devlet yoktu» demiyor, kabile düzenini anlatıyor.",
+      "kaynak": "TDV `yakutlar` maddesi — atlasın KENDİ kaydından aktarıldığı hâliyle: Yakutlar «hemen hemen bütün Lena havzası boyunca yarı uruğlar (küçük kabileler) halinde yaşıyordu», her uruğun «kendi beyleri (toyon)» vardı.",
+      "🔴_konum_notu": "Konumu BEN seçtim — alt kuşağın EN BOŞ hücresinin merkezi. Kaynaktan gelmiyor, bir SEÇİMDİR."
+    },
+    {
+      "alt_kusak": "Yakutistan-Lena havzası",
+      "lat": 69.5,
+      "lon": 115.5,
+      "en_yakin_noktaya_km": 409,
+      "kasitli_bosluk": true,
+      "bos": "kabile",
+      "neden": "Kaynak halkın siyasî örgütlenmesini AÇIKÇA tarif ediyor (uruğ/toyon) ⇒ `kabile`. `veri-yok` DEĞİL: kaynak SUSMUYOR. `devletsiz` DE DEĞİL: kaynak «devlet yoktu» demiyor, kabile düzenini anlatıyor.",
+      "kaynak": "TDV `yakutlar` maddesi — atlasın KENDİ kaydından aktarıldığı hâliyle: Yakutlar «hemen hemen bütün Lena havzası boyunca yarı uruğlar (küçük kabileler) halinde yaşıyordu», her uruğun «kendi beyleri (toyon)» vardı.",
+      "🔴_konum_notu": "Konumu BEN seçtim — alt kuşağın EN BOŞ hücresinin merkezi. Kaynaktan gelmiyor, bir SEÇİMDİR."
+    },
+    {
+      "alt_kusak": "Kolyma-Çukotka",
+      "lat": 69.5,
+      "lon": 177.5,
+      "en_yakin_noktaya_km": 453,
+      "kasitli_bosluk": true,
+      "bos": "devletsiz",
+      "neden": "Kaynak devlet denetiminin YOKLUĞUNU açıkça söylüyor ⇒ `devletsiz`. Emsal atlasta zaten var (Anadır · Çukotka merkezi).",
+      "kaynak": "Atlasın kendi Çukotka kaydı: kaynak «never paid yasak … their status as subjects was little more than a formality» diyor; kale 1649'da kuruldu, 1764'te TERK edildi.",
+      "🔴_konum_notu": "Konumu BEN seçtim — alt kuşağın EN BOŞ hücresinin merkezi. Kaynaktan gelmiyor, bir SEÇİMDİR."
+    },
+    {
+      "alt_kusak": "Kolyma-Çukotka",
+      "lat": 69.5,
+      "lon": 176.5,
+      "en_yakin_noktaya_km": 433,
+      "kasitli_bosluk": true,
+      "bos": "devletsiz",
+      "neden": "Kaynak devlet denetiminin YOKLUĞUNU açıkça söylüyor ⇒ `devletsiz`. Emsal atlasta zaten var (Anadır · Çukotka merkezi).",
+      "kaynak": "Atlasın kendi Çukotka kaydı: kaynak «never paid yasak … their status as subjects was little more than a formality» diyor; kale 1649'da kuruldu, 1764'te TERK edildi.",
+      "🔴_konum_notu": "Konumu BEN seçtim — alt kuşağın EN BOŞ hücresinin merkezi. Kaynaktan gelmiyor, bir SEÇİMDİR."
+    }
+  ],
+  "⑤_ALETIMIN_SINIRLARI": [
+    "Alt kuşak kutuları ELLE; sınırlar yuvarlak derecelerde.",
+    "Öneri noktalarının KONUMUNU ben seçtim (en boş hücrenin merkezi) — kaynaktan gelmiyor, bir SEÇİMDİR.",
+    "1° hücre 60. enlemde ~55 km ⇒ Sibirya hücre sayıları şişkin görünür.",
+    "Koordinatörün «43 beyan» sayısı ile benim 51'im farklı kutulardan; hangisinin doğru olduğu KUTUYA bağlı, ikisi de geçerli."
+  ],
+  "⑥_DAMGALAR": {
+    "bulunamadi": "8 ostrog adayının kuruluş tarihleri · Batı Sibirya bataklıkları için pencere içi siyasî örgütlenme kaynağı",
+    "olculemedi": "Sibirya iç alanının ne kadarının GERÇEKTEN boş olduğu (tayga/tundra ayrımı) — koordinatörün sorduğu soru, arazi örtüsü verisi gerektirir ve bende YOK",
+    "okumadim": "Kanada Kuzey Kutbu adaları (koordinatörün sınırı) · 39 `devletsiz` kaydın TEK TEK kaynak zincirleri (üçünü örnek olarak okudum, hepsini değil)"
+  }
+}

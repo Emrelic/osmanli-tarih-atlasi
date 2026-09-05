@@ -1,0 +1,880 @@
+[
+ {
+  "ad": "Beyan G46.5 B71.5",
+  "lat": -46.5761,
+  "lon": -71.4933,
+  "kasitli_bosluk": true,
+  "bos": "kabile",
+  "kapatir": 15,
+  "kova_bolge": "guney",
+  "neden": "HSAI c.1 'The Marginal Tribes', Smithsonian BAE Bulletin 143. Yahgan · Alacaluf · Chono · Ona · Tehuelche band duzeyi avci-toplayici ve kano halklari. Kaynak SUSMUYOR (cilt onlara yuzlerce sayfa ayiriyor) ama merkezi devlet TARIF ETMIYOR ⇒ `devletsiz` degil `kabile`. Cooper: Roca-Villegas seferleri 1879-83 'completely defeated and disorganized the Indian confederates'; 'Recent period, 1883 to date'. Cooper, HSAI c.1: 'Recent period, 1883 to date.—Settlers, following the frontier, have taken up most of the country from the northern limit of the Pampa to the Strait of Magellan.' ⇒ BEYAN yalniz 1281-1883 icindir; 1883 sonrasi kimliklidir.",
+  "s": [
+   {
+    "d": "arjantin-cumhuriyeti",
+    "f": "1883-01-01",
+    "t": "1923-10-29"
+   }
+  ],
+  "not": "1281-1883 BEYAN (kabile); 1883 sonrasi Arjantin. ⚠️ Arjantin-Sili siniri bu enlemde DAGA gore cizili; boylam esigi (-72) YAKLASIKTIR, olculmedi. · 🔴 KONUM DUZELTILDI: ilk koordinat (-46.5000, -71.5000) IZGARA MERKEZIYDI ve kara maskesinin 7,58 km DISINDA kaliyordu — Patagonya'da izgara merkezi gole/buzula dusebiliyor. `denetle.py` olctu ve bu koordinati ONERDI; oneri gercek maskede SINANMISTIR. Maske disindaki bir nokta HIC toprak sahibi olamaz, yani bu beyan duzeltilmeden HICBIR hucreyi kapatmiyordu. · 🔴 IKINCI KONUM DUZELTMESI: `denetle.py` ilk duzeltmeyi (-46.5661, -71.5185) SINIRDA diye isaretledi — 'ham gol poligonunun icinde ama sadelestirilmisin disinda (ihlal DEGIL ... ama nokta suyun ustunde)'. Ihlal olmasa da bir beyan noktasi suyun ustunde durmamali: sadelestirme onu bugun kurtariyor, yarinki bir KARA_TOL degisikligi kurtarmayabilir. Nokta HAM gol poligonundan da CIKARILDI ve 4 ondalikta sinandi."
+ },
+ {
+  "ad": "Beyan G43.5 B68.5",
+  "lat": -43.5,
+  "lon": -68.5,
+  "kasitli_bosluk": true,
+  "bos": "kabile",
+  "kapatir": 15,
+  "kova_bolge": "guney",
+  "neden": "HSAI c.1 'The Marginal Tribes', Smithsonian BAE Bulletin 143. Yahgan · Alacaluf · Chono · Ona · Tehuelche band duzeyi avci-toplayici ve kano halklari. Kaynak SUSMUYOR (cilt onlara yuzlerce sayfa ayiriyor) ama merkezi devlet TARIF ETMIYOR ⇒ `devletsiz` degil `kabile`. Cooper: Roca-Villegas seferleri 1879-83 'completely defeated and disorganized the Indian confederates'; 'Recent period, 1883 to date'. Cooper, HSAI c.1: 'Recent period, 1883 to date.—Settlers, following the frontier, have taken up most of the country from the northern limit of the Pampa to the Strait of Magellan.' ⇒ BEYAN yalniz 1281-1883 icindir; 1883 sonrasi kimliklidir.",
+  "s": [
+   {
+    "d": "arjantin-cumhuriyeti",
+    "f": "1883-01-01",
+    "t": "1923-10-29"
+   }
+  ],
+  "not": "1281-1883 BEYAN (kabile); 1883 sonrasi Arjantin. ⚠️ Arjantin-Sili siniri bu enlemde DAGA gore cizili; boylam esigi (-72) YAKLASIKTIR, olculmedi."
+ },
+ {
+  "ad": "Beyan G49.5 B72.5",
+  "lat": -49.5,
+  "lon": -72.5,
+  "kasitli_bosluk": true,
+  "bos": "kabile",
+  "kapatir": 13,
+  "kova_bolge": "guney",
+  "neden": "HSAI c.1 'The Marginal Tribes', Smithsonian BAE Bulletin 143. Yahgan · Alacaluf · Chono · Ona · Tehuelche band duzeyi avci-toplayici ve kano halklari. Kaynak SUSMUYOR (cilt onlara yuzlerce sayfa ayiriyor) ama merkezi devlet TARIF ETMIYOR ⇒ `devletsiz` degil `kabile`. Cooper: Roca-Villegas seferleri 1879-83 'completely defeated and disorganized the Indian confederates'; 'Recent period, 1883 to date'. Cooper, HSAI c.1: 'Recent period, 1883 to date.—Settlers, following the frontier, have taken up most of the country from the northern limit of the Pampa to the Strait of Magellan.' ⇒ BEYAN yalniz 1281-1883 icindir; 1883 sonrasi kimliklidir.",
+  "s": [
+   {
+    "d": "sili-cumhuriyeti",
+    "f": "1883-01-01",
+    "t": "1923-10-29"
+   }
+  ],
+  "not": "1281-1883 BEYAN (kabile); 1883 sonrasi Sili. ⚠️ Arjantin-Sili siniri bu enlemde DAGA gore cizili; boylam esigi (-72) YAKLASIKTIR, olculmedi."
+ },
+ {
+  "ad": "Beyan G40.5 B68.5",
+  "lat": -40.5,
+  "lon": -68.5,
+  "kasitli_bosluk": true,
+  "bos": "kabile",
+  "kapatir": 11,
+  "kova_bolge": "kuzey",
+  "neden": "HSAI c.1 (Cooper, Patagonian and Pampean Hunters) + c.2 (Cooper, Araucanians), Smithsonian BAE Bulletin 143. 1281-1725 Tehuelche/Puelche/Querandi band duzeyi — kaynak SUSMUYOR (yuzlerce sayfa etnografya) ama merkezi devlet TARIF ETMIYOR. c.2: 'we can establish 1725 as the approximate date in which the Araucanians were definitely established in the great plains'.",
+  "s": [
+   {
+    "d": "mapuche-araukanya",
+    "f": "1725-01-01",
+    "t": "1883-01-01"
+   },
+   {
+    "d": "arjantin-cumhuriyeti",
+    "f": "1883-01-01",
+    "t": "1923-10-29"
+   }
+  ],
+  "not": "1281-1725 BEYAN (kabile); 1725 sonrasi kimlikli. Bu kayit HEM beyan HEM nokta."
+ },
+ {
+  "ad": "Beyan G39.5 B64.5",
+  "lat": -39.5,
+  "lon": -64.5,
+  "kasitli_bosluk": true,
+  "bos": "kabile",
+  "kapatir": 11,
+  "kova_bolge": "kuzey",
+  "neden": "HSAI c.1 (Cooper, Patagonian and Pampean Hunters) + c.2 (Cooper, Araucanians), Smithsonian BAE Bulletin 143. 1281-1725 Tehuelche/Puelche/Querandi band duzeyi — kaynak SUSMUYOR (yuzlerce sayfa etnografya) ama merkezi devlet TARIF ETMIYOR. c.2: 'we can establish 1725 as the approximate date in which the Araucanians were definitely established in the great plains'.",
+  "s": [
+   {
+    "d": "mapuche-araukanya",
+    "f": "1725-01-01",
+    "t": "1883-01-01"
+   },
+   {
+    "d": "arjantin-cumhuriyeti",
+    "f": "1883-01-01",
+    "t": "1923-10-29"
+   }
+  ],
+  "not": "1281-1725 BEYAN (kabile); 1725 sonrasi kimlikli. Bu kayit HEM beyan HEM nokta."
+ },
+ {
+  "ad": "Beyan G37.5 B68.5",
+  "lat": -37.5,
+  "lon": -68.5,
+  "kasitli_bosluk": true,
+  "bos": "kabile",
+  "kapatir": 11,
+  "kova_bolge": "kuzey",
+  "neden": "HSAI c.1 (Cooper, Patagonian and Pampean Hunters) + c.2 (Cooper, Araucanians), Smithsonian BAE Bulletin 143. 1281-1725 Tehuelche/Puelche/Querandi band duzeyi — kaynak SUSMUYOR (yuzlerce sayfa etnografya) ama merkezi devlet TARIF ETMIYOR. c.2: 'we can establish 1725 as the approximate date in which the Araucanians were definitely established in the great plains'.",
+  "s": [
+   {
+    "d": "mapuche-araukanya",
+    "f": "1725-01-01",
+    "t": "1883-01-01"
+   },
+   {
+    "d": "arjantin-cumhuriyeti",
+    "f": "1883-01-01",
+    "t": "1923-10-29"
+   }
+  ],
+  "not": "1281-1725 BEYAN (kabile); 1725 sonrasi kimlikli. Bu kayit HEM beyan HEM nokta."
+ },
+ {
+  "ad": "Beyan G36.5 B64.5",
+  "lat": -36.5,
+  "lon": -64.5,
+  "kasitli_bosluk": true,
+  "bos": "kabile",
+  "kapatir": 11,
+  "kova_bolge": "kuzey",
+  "neden": "HSAI c.1 (Cooper, Patagonian and Pampean Hunters) + c.2 (Cooper, Araucanians), Smithsonian BAE Bulletin 143. 1281-1725 Tehuelche/Puelche/Querandi band duzeyi — kaynak SUSMUYOR (yuzlerce sayfa etnografya) ama merkezi devlet TARIF ETMIYOR. c.2: 'we can establish 1725 as the approximate date in which the Araucanians were definitely established in the great plains'.",
+  "s": [
+   {
+    "d": "mapuche-araukanya",
+    "f": "1725-01-01",
+    "t": "1883-01-01"
+   },
+   {
+    "d": "arjantin-cumhuriyeti",
+    "f": "1883-01-01",
+    "t": "1923-10-29"
+   }
+  ],
+  "not": "1281-1725 BEYAN (kabile); 1725 sonrasi kimlikli. Bu kayit HEM beyan HEM nokta."
+ },
+ {
+  "ad": "Beyan G31.5 B56.5",
+  "lat": -31.5,
+  "lon": -56.5,
+  "kasitli_bosluk": true,
+  "bos": "kabile",
+  "kapatir": 11,
+  "kova_bolge": "dogu",
+  "neden": "HSAI c.1 (Serrano, The Charrua; Metraux). Charrua · Minuan · Guenoa — Rio de la Plata'nin DOGU kiyisi. c.1: 'the Querandi and Charrua, primarily nomadic hunters and fishermen, ignorant of agriculture, tall, and warlike'. 🔴 `mapuche-araukanya` BURAYA YAZILMAZ: HSAI'nin 1725 yayilma ifadesi 'the great plains' yani Arjantin pampasi icindir, Uruguay nehrinin dogusu icin DEGIL.",
+  "s": [
+   {
+    "d": "uruguay-cumhuriyeti",
+    "f": "1828-08-27",
+    "t": "1923-10-29"
+   }
+  ],
+  "not": "1281-1828 BEYAN (kabile, Charrua/Minuan). 🔴 mapuche YAZILMAZ. Kolonyal donem (ispanya/portekiz) OLCULMEDI — bu kutuda kaynak aranmadi."
+ },
+ {
+  "ad": "Beyan G36.5 B61.5",
+  "lat": -36.5,
+  "lon": -61.5,
+  "kasitli_bosluk": true,
+  "bos": "kabile",
+  "kapatir": 9,
+  "kova_bolge": "kuzey",
+  "neden": "HSAI c.1 (Cooper, Patagonian and Pampean Hunters) + c.2 (Cooper, Araucanians), Smithsonian BAE Bulletin 143. 1281-1725 Tehuelche/Puelche/Querandi band duzeyi — kaynak SUSMUYOR (yuzlerce sayfa etnografya) ama merkezi devlet TARIF ETMIYOR. c.2: 'we can establish 1725 as the approximate date in which the Araucanians were definitely established in the great plains'.",
+  "s": [
+   {
+    "d": "mapuche-araukanya",
+    "f": "1725-01-01",
+    "t": "1883-01-01"
+   },
+   {
+    "d": "arjantin-cumhuriyeti",
+    "f": "1883-01-01",
+    "t": "1923-10-29"
+   }
+  ],
+  "not": "1281-1725 BEYAN (kabile); 1725 sonrasi kimlikli. Bu kayit HEM beyan HEM nokta."
+ },
+ {
+  "ad": "Beyan G34.5 B65.5",
+  "lat": -34.5,
+  "lon": -65.5,
+  "kasitli_bosluk": true,
+  "bos": "kabile",
+  "kapatir": 9,
+  "kova_bolge": "kuzey",
+  "neden": "HSAI c.1 (Cooper, Patagonian and Pampean Hunters) + c.2 (Cooper, Araucanians), Smithsonian BAE Bulletin 143. 1281-1725 Tehuelche/Puelche/Querandi band duzeyi — kaynak SUSMUYOR (yuzlerce sayfa etnografya) ama merkezi devlet TARIF ETMIYOR. c.2: 'we can establish 1725 as the approximate date in which the Araucanians were definitely established in the great plains'.",
+  "s": [
+   {
+    "d": "mapuche-araukanya",
+    "f": "1725-01-01",
+    "t": "1883-01-01"
+   },
+   {
+    "d": "arjantin-cumhuriyeti",
+    "f": "1883-01-01",
+    "t": "1923-10-29"
+   }
+  ],
+  "not": "1281-1725 BEYAN (kabile); 1725 sonrasi kimlikli. Bu kayit HEM beyan HEM nokta."
+ },
+ {
+  "ad": "Beyan G46.5 B68.5",
+  "lat": -46.5,
+  "lon": -68.5,
+  "kasitli_bosluk": true,
+  "bos": "kabile",
+  "neden": "HSAI c.1 'The Marginal Tribes', Smithsonian BAE Bulletin 143 (Cooper · Lothrop · Bird). Yahgan · Alacaluf · Chono · Ona · Tehuelche band duzeyi avci-toplayici ve kano halklari. Kaynak SUSMUYOR — cilt onlara yuzlerce sayfa ayiriyor — ama merkezi devlet TARIF ETMIYOR ⇒ `devletsiz` degil `kabile`. Cooper: Roca-Villegas seferleri 1879-83 'completely defeated and disorganized the Indian confederates'; 'Recent period, 1883 to date.—Settlers, following the frontier, have taken up most of the country from the northern limit of the Pampa to the Strait of Magellan.' ⇒ BEYAN 1281-1883 icindir.",
+  "kapatir": 7,
+  "kova_bolge": "guney",
+  "s": [
+   {
+    "d": "arjantin-cumhuriyeti",
+    "f": "1883-01-01",
+    "t": "1923-10-29"
+   }
+  ],
+  "sinif": "BEYAN",
+  "ayiklama_notu": "Santa Cruz bozkiri."
+ },
+ {
+  "ad": "Nokta adayi G32.5 B53.5",
+  "lat": -32.5,
+  "lon": -53.5,
+  "neden": "URUGUAY ici (Rio Negro-Tacuarembo). Kolonyal estancia kusagi; Charrua bolgesi AMA yerlesim de var. Beyan DEGIL, arastirilacak.",
+  "kapatir": 7,
+  "kova_bolge": "dogu",
+  "sinif": "NOKTA",
+  "ayiklama_notu": "URUGUAY ici (Rio Negro-Tacuarembo). Kolonyal estancia kusagi; Charrua bolgesi AMA yerlesim de var. Beyan DEGIL, arastirilacak.",
+  "BEKLET": true,
+  "beklet_neden": "🔴 NOKTA ADAYI, KAYIT DEGIL. Bu koordinat bir bosluk merkezidir ve bolge YERLESIKTIR — beyan yazilamaz, ama hangi yerlesimin oraya konacagi bu turda ARANMADI. UYGULANMASIN; bir sonraki tur burada kaynak arasin. URUGUAY ici (Rio Negro-Tacuarembo). Kolonyal estancia kusagi; Charrua bolgesi AMA yerlesim de var. Beyan DEGIL, arastirilacak."
+ },
+ {
+  "ad": "Beyan G35.5 B69.5",
+  "lat": -35.5,
+  "lon": -69.5,
+  "kasitli_bosluk": true,
+  "bos": "kabile",
+  "neden": "HSAI c.1 (Cooper, Patagonian and Pampean Hunters) + c.2 (Cooper, Araucanians). 1281-1725 Tehuelche/Puelche/Querandi band duzeyi. c.2: 'we can establish 1725 as the approximate date in which the Araucanians were definitely established in the great plains ... rapidly became the dominant one.' 1725 sonrasi mapuche-araukanya. 🔜 NOT: `ranquel` kunyesi recetededir (t:1883); indiginde bu hucreler ona da bakabilir.",
+  "kapatir": 6,
+  "kova_bolge": "kuzey",
+  "s": [
+   {
+    "d": "mapuche-araukanya",
+    "f": "1725-01-01",
+    "t": "1883-01-01"
+   },
+   {
+    "d": "arjantin-cumhuriyeti",
+    "f": "1883-01-01",
+    "t": "1923-10-29"
+   }
+  ],
+  "sinif": "BEYAN",
+  "ayiklama_notu": "Mendoza guneyi / kuzey Neuquen — sinir bolgesi, Pehuenche."
+ },
+ {
+  "ad": "Nokta adayi G33.5 B62.5",
+  "lat": -33.5,
+  "lon": -62.5,
+  "neden": "CORDOBA-SANTA FE arasi. Cordoba (1573) ve Santa Fe (1573) ATLASTA ZATEN VAR. Kolonyal cekirdek.",
+  "kapatir": 6,
+  "kova_bolge": "kuzey",
+  "sinif": "NOKTA",
+  "ayiklama_notu": "CORDOBA-SANTA FE arasi. Cordoba (1573) ve Santa Fe (1573) ATLASTA ZATEN VAR. Kolonyal cekirdek.",
+  "BEKLET": true,
+  "beklet_neden": "🔴 NOKTA ADAYI, KAYIT DEGIL. Bu koordinat bir bosluk merkezidir ve bolge YERLESIKTIR — beyan yazilamaz, ama hangi yerlesimin oraya konacagi bu turda ARANMADI. UYGULANMASIN; bir sonraki tur burada kaynak arasin. CORDOBA-SANTA FE arasi. Cordoba (1573) ve Santa Fe (1573) ATLASTA ZATEN VAR. Kolonyal cekirdek."
+ },
+ {
+  "ad": "Beyan G44.5 B72.5",
+  "lat": -44.5,
+  "lon": -72.5,
+  "kasitli_bosluk": true,
+  "bos": "kabile",
+  "neden": "HSAI c.1 'The Marginal Tribes', Smithsonian BAE Bulletin 143 (Cooper · Lothrop · Bird). Yahgan · Alacaluf · Chono · Ona · Tehuelche band duzeyi avci-toplayici ve kano halklari. Kaynak SUSMUYOR — cilt onlara yuzlerce sayfa ayiriyor — ama merkezi devlet TARIF ETMIYOR ⇒ `devletsiz` degil `kabile`. Cooper: Roca-Villegas seferleri 1879-83 'completely defeated and disorganized the Indian confederates'; 'Recent period, 1883 to date.—Settlers, following the frontier, have taken up most of the country from the northern limit of the Pampa to the Strait of Magellan.' ⇒ BEYAN 1281-1883 icindir.",
+  "kapatir": 5,
+  "kova_bolge": "guney",
+  "s": [
+   {
+    "d": "sili-cumhuriyeti",
+    "f": "1883-01-01",
+    "t": "1923-10-29"
+   }
+  ],
+  "sinif": "BEYAN",
+  "ayiklama_notu": "Aysen / kanallar."
+ },
+ {
+  "ad": "Beyan G42.5 B65.5",
+  "lat": -42.5,
+  "lon": -65.5,
+  "kasitli_bosluk": true,
+  "bos": "kabile",
+  "neden": "HSAI c.1 'The Marginal Tribes', Smithsonian BAE Bulletin 143 (Cooper · Lothrop · Bird). Yahgan · Alacaluf · Chono · Ona · Tehuelche band duzeyi avci-toplayici ve kano halklari. Kaynak SUSMUYOR — cilt onlara yuzlerce sayfa ayiriyor — ama merkezi devlet TARIF ETMIYOR ⇒ `devletsiz` degil `kabile`. Cooper: Roca-Villegas seferleri 1879-83 'completely defeated and disorganized the Indian confederates'; 'Recent period, 1883 to date.—Settlers, following the frontier, have taken up most of the country from the northern limit of the Pampa to the Strait of Magellan.' ⇒ BEYAN 1281-1883 icindir.",
+  "kapatir": 5,
+  "kova_bolge": "guney",
+  "s": [
+   {
+    "d": "arjantin-cumhuriyeti",
+    "f": "1883-01-01",
+    "t": "1923-10-29"
+   }
+  ],
+  "sinif": "BEYAN",
+  "ayiklama_notu": "Chubut bozkiri."
+ },
+ {
+  "ad": "Beyan G52.5 B74.5",
+  "lat": -52.5,
+  "lon": -74.5,
+  "kasitli_bosluk": true,
+  "bos": "kabile",
+  "neden": "HSAI c.1 'The Marginal Tribes', Smithsonian BAE Bulletin 143 (Cooper · Lothrop · Bird). Yahgan · Alacaluf · Chono · Ona · Tehuelche band duzeyi avci-toplayici ve kano halklari. Kaynak SUSMUYOR — cilt onlara yuzlerce sayfa ayiriyor — ama merkezi devlet TARIF ETMIYOR ⇒ `devletsiz` degil `kabile`. Cooper: Roca-Villegas seferleri 1879-83 'completely defeated and disorganized the Indian confederates'; 'Recent period, 1883 to date.—Settlers, following the frontier, have taken up most of the country from the northern limit of the Pampa to the Strait of Magellan.' ⇒ BEYAN 1281-1883 icindir.",
+  "kapatir": 3,
+  "kova_bolge": "guney",
+  "s": [
+   {
+    "d": "sili-cumhuriyeti",
+    "f": "1883-01-01",
+    "t": "1923-10-29"
+   }
+  ],
+  "sinif": "BEYAN",
+  "ayiklama_notu": "Magallanes kanallari."
+ },
+ {
+  "ad": "Falkland/Malvinas — NOKTA ADAYI",
+  "lat": -51.5,
+  "lon": -60.5,
+  "neden": "🔴 BEYAN DEGIL, NOKTA ADAYI. Adalarda YERLESIM VARDI: Port Louis 1764 (Bougainville, Fransiz) · Puerto Soledad (Ispanyol devralma 1767) · Port Egmont 1765 (Ingiliz, Saunders Adasi) · Stanley 1845. 🔴 HICBIRI BU TURDA AKADEMIK KAYNAKLA DOGRULANMADI. HSAI c.1'de 'Falkland' gecisi 0 — cunku HSAI bir YERLI HALKLAR el kitabi ve adalarda yerli nufus YOKTU; yani kutuk bu soruyu CEVAPLAYAMAZ, baska kaynak turu gerekli (Ingiliz/Ispanyol somurge kaydi). ⚠️ 1281-1764 arasi muhtemelen `insansiz` ama BU DA olculmedi. UYGULANMASIN — arastirilsin.",
+  "BEKLET": true,
+  "kapatir": 3,
+  "kova_bolge": "ada",
+  "sinif": "ADA"
+ },
+ {
+  "ad": "Beyan G38.5 B62.5",
+  "lat": -38.5,
+  "lon": -62.5,
+  "kasitli_bosluk": true,
+  "bos": "kabile",
+  "neden": "HSAI c.1 (Cooper, Patagonian and Pampean Hunters) + c.2 (Cooper, Araucanians). 1281-1725 Tehuelche/Puelche/Querandi band duzeyi. c.2: 'we can establish 1725 as the approximate date in which the Araucanians were definitely established in the great plains ... rapidly became the dominant one.' 1725 sonrasi mapuche-araukanya. 🔜 NOT: `ranquel` kunyesi recetededir (t:1883); indiginde bu hucreler ona da bakabilir.",
+  "kapatir": 3,
+  "kova_bolge": "kuzey",
+  "s": [
+   {
+    "d": "mapuche-araukanya",
+    "f": "1725-01-01",
+    "t": "1883-01-01"
+   },
+   {
+    "d": "arjantin-cumhuriyeti",
+    "f": "1883-01-01",
+    "t": "1923-10-29"
+   }
+  ],
+  "sinif": "BEYAN",
+  "ayiklama_notu": "Bahia Blanca ardi bozkir."
+ },
+ {
+  "ad": "Beyan G54.5 B67.5",
+  "lat": -54.5,
+  "lon": -67.5,
+  "kasitli_bosluk": true,
+  "bos": "kabile",
+  "neden": "HSAI c.1 'The Marginal Tribes', Smithsonian BAE Bulletin 143 (Cooper · Lothrop · Bird). Yahgan · Alacaluf · Chono · Ona · Tehuelche band duzeyi avci-toplayici ve kano halklari. Kaynak SUSMUYOR — cilt onlara yuzlerce sayfa ayiriyor — ama merkezi devlet TARIF ETMIYOR ⇒ `devletsiz` degil `kabile`. Cooper: Roca-Villegas seferleri 1879-83 'completely defeated and disorganized the Indian confederates'; 'Recent period, 1883 to date.—Settlers, following the frontier, have taken up most of the country from the northern limit of the Pampa to the Strait of Magellan.' ⇒ BEYAN 1281-1883 icindir.",
+  "kapatir": 2,
+  "kova_bolge": "guney",
+  "s": [
+   {
+    "d": "arjantin-cumhuriyeti",
+    "f": "1883-01-01",
+    "t": "1923-10-29"
+   }
+  ],
+  "sinif": "BEYAN",
+  "ayiklama_notu": "Ates Topraklari — Ona/Yahgan."
+ },
+ {
+  "ad": "Beyan G41.5 B71.5",
+  "lat": -41.5,
+  "lon": -71.5,
+  "kasitli_bosluk": true,
+  "bos": "kabile",
+  "neden": "HSAI c.1 'The Marginal Tribes', Smithsonian BAE Bulletin 143 (Cooper · Lothrop · Bird). Yahgan · Alacaluf · Chono · Ona · Tehuelche band duzeyi avci-toplayici ve kano halklari. Kaynak SUSMUYOR — cilt onlara yuzlerce sayfa ayiriyor — ama merkezi devlet TARIF ETMIYOR ⇒ `devletsiz` degil `kabile`. Cooper: Roca-Villegas seferleri 1879-83 'completely defeated and disorganized the Indian confederates'; 'Recent period, 1883 to date.—Settlers, following the frontier, have taken up most of the country from the northern limit of the Pampa to the Strait of Magellan.' ⇒ BEYAN 1281-1883 icindir.",
+  "kapatir": 2,
+  "kova_bolge": "guney",
+  "s": [
+   {
+    "d": "arjantin-cumhuriyeti",
+    "f": "1883-01-01",
+    "t": "1923-10-29"
+   }
+  ],
+  "sinif": "BEYAN",
+  "ayiklama_notu": "Kuzey Patagonya And etegi."
+ },
+ {
+  "ad": "Beyan G39.5 B70.5",
+  "lat": -39.5,
+  "lon": -70.5,
+  "kasitli_bosluk": true,
+  "bos": "kabile",
+  "neden": "HSAI c.1 'The Marginal Tribes', Smithsonian BAE Bulletin 143 (Cooper · Lothrop · Bird). Yahgan · Alacaluf · Chono · Ona · Tehuelche band duzeyi avci-toplayici ve kano halklari. Kaynak SUSMUYOR — cilt onlara yuzlerce sayfa ayiriyor — ama merkezi devlet TARIF ETMIYOR ⇒ `devletsiz` degil `kabile`. Cooper: Roca-Villegas seferleri 1879-83 'completely defeated and disorganized the Indian confederates'; 'Recent period, 1883 to date.—Settlers, following the frontier, have taken up most of the country from the northern limit of the Pampa to the Strait of Magellan.' ⇒ BEYAN 1281-1883 icindir.",
+  "kapatir": 2,
+  "kova_bolge": "guney",
+  "s": [
+   {
+    "d": "arjantin-cumhuriyeti",
+    "f": "1883-01-01",
+    "t": "1923-10-29"
+   }
+  ],
+  "sinif": "BEYAN",
+  "ayiklama_notu": "Neuquen ici."
+ },
+ {
+  "ad": "Nokta adayi G32.5 B66.5",
+  "lat": -32.5,
+  "lon": -66.5,
+  "neden": "CUYO / San Luis havzasi. San Luis 1594. Huarpe/Comechingon bolgesi ve Ispanyol yerlesimi VAR.",
+  "kapatir": 2,
+  "kova_bolge": "kuzey",
+  "sinif": "NOKTA",
+  "ayiklama_notu": "CUYO / San Luis havzasi. San Luis 1594. Huarpe/Comechingon bolgesi ve Ispanyol yerlesimi VAR.",
+  "BEKLET": true,
+  "beklet_neden": "🔴 NOKTA ADAYI, KAYIT DEGIL. Bu koordinat bir bosluk merkezidir ve bolge YERLESIKTIR — beyan yazilamaz, ama hangi yerlesimin oraya konacagi bu turda ARANMADI. UYGULANMASIN; bir sonraki tur burada kaynak arasin. CUYO / San Luis havzasi. San Luis 1594. Huarpe/Comechingon bolgesi ve Ispanyol yerlesimi VAR."
+ },
+ {
+  "ad": "Nokta adayi G31.5 B71.5",
+  "lat": -31.5,
+  "lon": -71.5,
+  "neden": "SILI KIYISI (Coquimbo). La Serena 1544'te kuruldu. Kolonyal yerlesim kusagi — `kabile` beyani YANLIS olur.",
+  "kapatir": 2,
+  "kova_bolge": "guney",
+  "sinif": "NOKTA",
+  "ayiklama_notu": "SILI KIYISI (Coquimbo). La Serena 1544'te kuruldu. Kolonyal yerlesim kusagi — `kabile` beyani YANLIS olur.",
+  "BEKLET": true,
+  "beklet_neden": "🔴 NOKTA ADAYI, KAYIT DEGIL. Bu koordinat bir bosluk merkezidir ve bolge YERLESIKTIR — beyan yazilamaz, ama hangi yerlesimin oraya konacagi bu turda ARANMADI. UYGULANMASIN; bir sonraki tur burada kaynak arasin. SILI KIYISI (Coquimbo). La Serena 1544'te kuruldu. Kolonyal yerlesim kusagi — `kabile` beyani YANLIS olur."
+ },
+ {
+  "ad": "Güney Georgia (Grytviken)",
+  "lat": -54.28,
+  "lon": -36.51,
+  "kasitli_bosluk": true,
+  "bos": "insansiz",
+  "neden": "1281-1904 arasi YERLESIM YOK. Ada kesif oncesi hic iskan edilmemis; HSAI c.1'de 'Falkland' gibi 'South Georgia' da HIC GECMIYOR (olculdu: 0 gecis) — ve HSAI band duzeyindeki en kucuk halklari bile ayri bolumlerle isliyor. ⚠️ BU BIR SESSIZLIK ARGUMANIDIR, POZITIF KAYNAK DEGIL: `insansiz` damgasi bu turda pozitif olarak KAYNAKLANMADI. 1904-11-16'da C.A. Larsen Grytviken balina istasyonunu kurdu (Compania Argentina de Pesca) — bu tarih de bu turda AKADEMIK kaynakla DOGRULANMADI; gov.gs zaman asimi verdi. ⇒ 1904 sonrasi NOKTA olarak AYRI yazilmali.",
+  "s": [
+   {
+    "d": "ingiltere",
+    "f": "1904-11-16",
+    "t": "1923-10-29"
+   }
+  ],
+  "kapatir": 1,
+  "kova_bolge": "ada",
+  "sinif": "ADA",
+  "not": "🔴 1904-11-16 gunu DOGRULANMADI. Dogrulanamazsa `1904-01-01` yazilmali (par.4: yil biliniyor, gun yok). Ingiliz idaresi 1775 Cook'un talebiyle iddia edildi, fiilen 1908 Falkland Bagimliliklari — BU DA OLCULMEDI."
+ },
+ {
+  "ad": "Beyan G51.5 B69.5",
+  "lat": -51.5,
+  "lon": -69.5,
+  "kasitli_bosluk": true,
+  "bos": "kabile",
+  "neden": "HSAI c.1 'The Marginal Tribes', Smithsonian BAE Bulletin 143 (Cooper · Lothrop · Bird). Yahgan · Alacaluf · Chono · Ona · Tehuelche band duzeyi avci-toplayici ve kano halklari. Kaynak SUSMUYOR — cilt onlara yuzlerce sayfa ayiriyor — ama merkezi devlet TARIF ETMIYOR ⇒ `devletsiz` degil `kabile`. Cooper: Roca-Villegas seferleri 1879-83 'completely defeated and disorganized the Indian confederates'; 'Recent period, 1883 to date.—Settlers, following the frontier, have taken up most of the country from the northern limit of the Pampa to the Strait of Magellan.' ⇒ BEYAN 1281-1883 icindir.",
+  "kapatir": 1,
+  "kova_bolge": "guney",
+  "s": [
+   {
+    "d": "arjantin-cumhuriyeti",
+    "f": "1883-01-01",
+    "t": "1923-10-29"
+   }
+  ],
+  "sinif": "BEYAN",
+  "ayiklama_notu": "Guney Santa Cruz."
+ },
+ {
+  "ad": "Beyan G48.5 B75.5",
+  "lat": -48.5,
+  "lon": -75.5,
+  "kasitli_bosluk": true,
+  "bos": "kabile",
+  "neden": "HSAI c.1 'The Marginal Tribes', Smithsonian BAE Bulletin 143 (Cooper · Lothrop · Bird). Yahgan · Alacaluf · Chono · Ona · Tehuelche band duzeyi avci-toplayici ve kano halklari. Kaynak SUSMUYOR — cilt onlara yuzlerce sayfa ayiriyor — ama merkezi devlet TARIF ETMIYOR ⇒ `devletsiz` degil `kabile`. Cooper: Roca-Villegas seferleri 1879-83 'completely defeated and disorganized the Indian confederates'; 'Recent period, 1883 to date.—Settlers, following the frontier, have taken up most of the country from the northern limit of the Pampa to the Strait of Magellan.' ⇒ BEYAN 1281-1883 icindir.",
+  "kapatir": 1,
+  "kova_bolge": "guney",
+  "s": [
+   {
+    "d": "sili-cumhuriyeti",
+    "f": "1883-01-01",
+    "t": "1923-10-29"
+   }
+  ],
+  "sinif": "BEYAN",
+  "ayiklama_notu": "Sili kanallari, buzul kusagi."
+ },
+ {
+  "ad": "Beyan G46.5 B74.5",
+  "lat": -46.5,
+  "lon": -74.5,
+  "kasitli_bosluk": true,
+  "bos": "kabile",
+  "neden": "HSAI c.1 'The Marginal Tribes', Smithsonian BAE Bulletin 143 (Cooper · Lothrop · Bird). Yahgan · Alacaluf · Chono · Ona · Tehuelche band duzeyi avci-toplayici ve kano halklari. Kaynak SUSMUYOR — cilt onlara yuzlerce sayfa ayiriyor — ama merkezi devlet TARIF ETMIYOR ⇒ `devletsiz` degil `kabile`. Cooper: Roca-Villegas seferleri 1879-83 'completely defeated and disorganized the Indian confederates'; 'Recent period, 1883 to date.—Settlers, following the frontier, have taken up most of the country from the northern limit of the Pampa to the Strait of Magellan.' ⇒ BEYAN 1281-1883 icindir.",
+  "kapatir": 1,
+  "kova_bolge": "guney",
+  "s": [
+   {
+    "d": "sili-cumhuriyeti",
+    "f": "1883-01-01",
+    "t": "1923-10-29"
+   }
+  ],
+  "sinif": "BEYAN",
+  "ayiklama_notu": "Sili kanallari."
+ },
+ {
+  "ad": "Beyan G44.5 B65.5",
+  "lat": -44.5,
+  "lon": -65.5,
+  "kasitli_bosluk": true,
+  "bos": "kabile",
+  "neden": "HSAI c.1 'The Marginal Tribes', Smithsonian BAE Bulletin 143 (Cooper · Lothrop · Bird). Yahgan · Alacaluf · Chono · Ona · Tehuelche band duzeyi avci-toplayici ve kano halklari. Kaynak SUSMUYOR — cilt onlara yuzlerce sayfa ayiriyor — ama merkezi devlet TARIF ETMIYOR ⇒ `devletsiz` degil `kabile`. Cooper: Roca-Villegas seferleri 1879-83 'completely defeated and disorganized the Indian confederates'; 'Recent period, 1883 to date.—Settlers, following the frontier, have taken up most of the country from the northern limit of the Pampa to the Strait of Magellan.' ⇒ BEYAN 1281-1883 icindir.",
+  "kapatir": 1,
+  "kova_bolge": "guney",
+  "s": [
+   {
+    "d": "arjantin-cumhuriyeti",
+    "f": "1883-01-01",
+    "t": "1923-10-29"
+   }
+  ],
+  "sinif": "BEYAN",
+  "ayiklama_notu": "Chubut kiyi ardi."
+ },
+ {
+  "ad": "Beyan G40.5 B62.5",
+  "lat": -40.5,
+  "lon": -62.5,
+  "kasitli_bosluk": true,
+  "bos": "kabile",
+  "neden": "HSAI c.1 (Cooper, Patagonian and Pampean Hunters) + c.2 (Cooper, Araucanians). 1281-1725 Tehuelche/Puelche/Querandi band duzeyi. c.2: 'we can establish 1725 as the approximate date in which the Araucanians were definitely established in the great plains ... rapidly became the dominant one.' 1725 sonrasi mapuche-araukanya. 🔜 NOT: `ranquel` kunyesi recetededir (t:1883); indiginde bu hucreler ona da bakabilir.",
+  "kapatir": 1,
+  "kova_bolge": "kuzey",
+  "s": [
+   {
+    "d": "mapuche-araukanya",
+    "f": "1725-01-01",
+    "t": "1883-01-01"
+   },
+   {
+    "d": "arjantin-cumhuriyeti",
+    "f": "1883-01-01",
+    "t": "1923-10-29"
+   }
+  ],
+  "sinif": "BEYAN",
+  "ayiklama_notu": "Rio Negro agzi ardi."
+ },
+ {
+  "ad": "Beyan G38.5 B66.5",
+  "lat": -38.5,
+  "lon": -66.5,
+  "kasitli_bosluk": true,
+  "bos": "kabile",
+  "neden": "HSAI c.1 (Cooper, Patagonian and Pampean Hunters) + c.2 (Cooper, Araucanians). 1281-1725 Tehuelche/Puelche/Querandi band duzeyi. c.2: 'we can establish 1725 as the approximate date in which the Araucanians were definitely established in the great plains ... rapidly became the dominant one.' 1725 sonrasi mapuche-araukanya. 🔜 NOT: `ranquel` kunyesi recetededir (t:1883); indiginde bu hucreler ona da bakabilir.",
+  "kapatir": 1,
+  "kova_bolge": "kuzey",
+  "s": [
+   {
+    "d": "mapuche-araukanya",
+    "f": "1725-01-01",
+    "t": "1883-01-01"
+   },
+   {
+    "d": "arjantin-cumhuriyeti",
+    "f": "1883-01-01",
+    "t": "1923-10-29"
+   }
+  ],
+  "sinif": "BEYAN",
+  "ayiklama_notu": "La Pampa ici — Ranquel bolgesi."
+ },
+ {
+  "ad": "Nokta adayi G32.5 B58.5",
+  "lat": -32.5,
+  "lon": -58.5,
+  "neden": "ENTRE RIOS / Uruguay nehri hatti. Kolonyal yerlesim kusagi.",
+  "kapatir": 1,
+  "kova_bolge": "kuzey",
+  "sinif": "NOKTA",
+  "ayiklama_notu": "ENTRE RIOS / Uruguay nehri hatti. Kolonyal yerlesim kusagi.",
+  "BEKLET": true,
+  "beklet_neden": "🔴 NOKTA ADAYI, KAYIT DEGIL. Bu koordinat bir bosluk merkezidir ve bolge YERLESIKTIR — beyan yazilamaz, ama hangi yerlesimin oraya konacagi bu turda ARANMADI. UYGULANMASIN; bir sonraki tur burada kaynak arasin. ENTRE RIOS / Uruguay nehri hatti. Kolonyal yerlesim kusagi."
+ },
+ {
+  "ad": "Beyan K4.5 B59.5",
+  "lat": 4.5,
+  "lon": -59.5,
+  "kasitli_bosluk": true,
+  "bos": "kabile",
+  "kapatir": 7,
+  "kova_bolge": "guyana",
+  "s": [],
+  "neden": "Rupununi savanları. HSAI c.3 iki halkı KOORDİNATIYLA buraya yerleştiriyor: Macushi (Makusi) 'on the savannas of southern British Guiana and adjacent regions (lat. 3°-4° N., long. 58°-61° W.)' ve Wapishana 'the basin of the Tacutu River (lat. 3° N., long. 60° W.)'. Kaynak SUSMUYOR — bu halkları adıyla, konumuyla, 1778 ve 1787 kayıtlarıyla anıyor — ama merkezî devlet TARİF ETMİYOR ⇒ `devletsiz` değil `kabile`. ⚠️ Bu merkezin kovası bu partinin EN GÜÇLÜSÜ: kütük tam bu koordinatı veriyor.",
+  "not": "1281-1923 boyunca BEYAN. `s:` BOŞ bırakıldı — Hollanda/İngiliz kıyı sömürgeleri iç yaylayı fiilen idare etmiyordu ve kütük bunun tersini söylemiyor. 🔴 BU BİR HÜKÜMDÜR, ölçüm değil: atlas TASARRUFU boyar (§11 'atlas seferi değil tasarrufu boyar') ve Guyana içinde 1923'e kadar sömürge tasarrufu ÖLÇÜLMEDİ. Koordinatör aksini düşünüyorsa değiştirilsin."
+ },
+ {
+  "ad": "Beyan K1.5 B60.5",
+  "lat": 1.5,
+  "lon": -60.5,
+  "kasitli_bosluk": true,
+  "bos": "kabile",
+  "kapatir": 9,
+  "kova_bolge": "guyana",
+  "s": [],
+  "neden": "Yukarı Rio Branco / Tacutu havzası. HSAI c.3: Wapishana 'formerly, they occupied the basin of the Tacutu River (lat. 3° N., long. 60° W.)'; Macushi aynı kuşakta. ⚠️ AYRICA: Portekiz Forte São Joaquim (~3,0K/-60,5B) bu merkezin 165 km kuzeyinde — AYRI bir nokta adayı olarak kuyrukta, kaynağı BULUNAMADI.",
+  "not": "1281-1923 BEYAN. Forte São Joaquim inerse bu hücrelerin bir kısmı NOKTA ile kapanır ve beyan daralır."
+ },
+ {
+  "ad": "Beyan K1.5 B57.5",
+  "lat": 1.5,
+  "lon": -57.5,
+  "kasitli_bosluk": true,
+  "bos": "kabile",
+  "kapatir": 9,
+  "kova_bolge": "guyana",
+  "s": [],
+  "neden": "Serra Acaraí / Mapuera havzası. HSAI c.3 Waiwai'yi (Ouayeoué) Mapuera nehrinde konumluyor (O. Coudreau 1903). Kütük halkı anlatıyor, merkezî devlet tarif etmiyor ⇒ `kabile`.",
+  "not": "1281-1923 BEYAN."
+ },
+ {
+  "ad": "Beyan K1.5 B54.5",
+  "lat": 1.5,
+  "lon": -54.5,
+  "kasitli_bosluk": true,
+  "bos": "kabile",
+  "kapatir": 9,
+  "kova_bolge": "guyana",
+  "s": [],
+  "neden": "Tumucumaque / Brezilya-Surinam sınırı. HSAI c.3 Oyana'yı (Wayana · Ojana · Rucuyen · Urucuiana) 'in the southern border region' diye konumluyor. Kütük halkı anlatıyor, devlet tarif etmiyor ⇒ `kabile`.",
+  "not": "1281-1923 BEYAN."
+ },
+ {
+  "ad": "Beyan K4.5 B62.5",
+  "lat": 4.5,
+  "lon": -62.5,
+  "kasitli_bosluk": true,
+  "bos": "kabile",
+  "kapatir": 9,
+  "kova_bolge": "guyana",
+  "s": [],
+  "neden": "Gran Sabana / Roraima yaylası (Pemón · Arekuna · Kamarakoto). HSAI c.4 Guyana Kalkanı Karib halklarını kapsıyor. ⚠️ Bu merkez için kütükte AÇIK bir koordinat İFADESİ BULAMADIM — kova komşu merkezlerin desenine dayanıyor. `kabile` damgası bu merkezde ötekilerden ZAYIF; bir sonraki tur doğrulasın.",
+  "not": "1281-1923 BEYAN. ⚠️ Gerekçe komşu desenden türetildi, doğrudan alıntı YOK."
+ },
+ {
+  "ad": "Beyan K7.5 B62.5",
+  "lat": 7.5,
+  "lon": -62.5,
+  "kasitli_bosluk": true,
+  "bos": "kabile",
+  "kapatir": 9,
+  "kova_bolge": "guyana",
+  "s": [],
+  "neden": "Caura-Aro havzası, aşağı Orinoco'nun GÜNEYİ (Ye'kuana · Panare). ⚠️ Angostura/Ciudad Bolívar (~8,1K/-63,6B) bu merkezin 135 km kuzeybatısında ve 1764'te kuruldu — AMA kütükte BULUNAMADI (HSAI c.4'te 'Angostura' geçişi: 0) ve AYRI bir nokta adayı olarak kuyrukta.",
+  "not": "1281-1923 BEYAN. Angostura inerse beyan daralır. 🔴 Orinoco'nun KUZEYİ ayrı: orada Píritu misyonları ve Caraballeda var."
+ },
+ {
+  "ad": "Beyan K1.5 B63.5",
+  "lat": 1.5,
+  "lon": -63.5,
+  "kasitli_bosluk": true,
+  "bos": "kabile",
+  "kapatir": 4,
+  "kova_bolge": "guyana",
+  "s": [],
+  "neden": "Yukarı Rio Branco / Parima — Guaharibo · Waica · Shiriana (Yanomami) bölgesi. HSAI c.3: 'A few tribes of the area, such as the Shiriana, Waica, and Guaharibo and the Macu of the Rio Negro formerly had no farming'. Tarımı bile olmayan band düzeyi ⇒ `kabile`; merkezî devlet söz konusu değil.",
+  "not": "1281-1923 BEYAN. Bu, kütüğün EN AÇIK band-düzeyi ifadesi."
+ },
+ {
+  "ad": "Beyan K2.5 B52.5",
+  "lat": 2.5,
+  "lon": -52.5,
+  "kasitli_bosluk": true,
+  "bos": "kabile",
+  "kapatir": 4,
+  "kova_bolge": "guyana",
+  "s": [],
+  "neden": "Amapá / Oyapock-Tumucumaque içi. HSAI c.3 Oyapock bölgesi halklarını (Macuani 1729 · Palicur · Ouanari misyonu) anıyor; iç yayla band düzeyi. ⚠️ Fransız Guyanası kıyısı AYRI — Cayenne 1643 atlasta ZATEN var ve bu merkezden ~250 km uzakta.",
+  "not": "1281-1923 BEYAN."
+ },
+ {
+  "ad": "Beyan K3.5 B56.5",
+  "lat": 3.5,
+  "lon": -56.5,
+  "kasitli_bosluk": true,
+  "bos": "kabile",
+  "kapatir": 4,
+  "kova_bolge": "guyana",
+  "s": [],
+  "neden": "Surinam içi (yukarı Surinam · Tapanahoni). Trio ve Wayana bölgesi; HSAI c.3 Cariban Trio'yu adıyla anıyor. Hollanda sömürgesi KIYIDAYDI — Paramaribo 1630 atlasta var ve bu merkezden ~300 km uzakta.",
+  "not": "1281-1923 BEYAN."
+ },
+ {
+  "ad": "Beyan K7.5 B60.5",
+  "lat": 7.5,
+  "lon": -60.5,
+  "kasitli_bosluk": true,
+  "bos": "kabile",
+  "kapatir": 3,
+  "kova_bolge": "guyana",
+  "s": [],
+  "neden": "Cuyuní / yukarı Mazaruni (Akawaio · Pemón). Kyk-over-al 1616 Essequibo'nun AŞAĞISINDA (6,4K/-58,7B) ve bu merkezden ~270 km uzakta — yani kıyı sömürgesi buraya ULAŞMIYOR. ⚠️ Kütükte bu koordinat için doğrudan ifade BULAMADIM; kova komşu desenden.",
+  "not": "1281-1923 BEYAN. ⚠️ Gerekçe komşu desenden türetildi."
+ },
+ {
+  "ad": "Beyan K3.5 B54.5",
+  "lat": 3.5,
+  "lon": -54.5,
+  "kasitli_bosluk": true,
+  "bos": "kabile",
+  "kapatir": 1,
+  "kova_bolge": "guyana",
+  "s": [],
+  "neden": "Surinam-Brezilya sınırı, Tumucumaque batısı. Wayana/Tiriyó bölgesi. Tek hücre.",
+  "not": "1281-1923 BEYAN."
+ },
+ {
+  "ad": "Forte São Joaquim (Rio Branco) — NOKTA ADAYI",
+  "lat": 3.02,
+  "lon": -60.49,
+  "BEKLET": true,
+  "kapatir": 0,
+  "kova_bolge": "guyana",
+  "sinif": "NOKTA",
+  "neden": "🔴 NOKTA ADAYI, KAYIT DEĞİL. Portekiz'in Rio Branco'daki kalesi (~1775) ve Boa Vista'nın öncülü. HSAI c.3'te 'Rio Branco' yer adı olarak geçiyor ama KALENİN KURULUŞU YOK (ölçüldü). Portekiz sömürge kaydı gerekli. UYGULANMASIN.",
+  "beklet_neden": "kuruluş tarihi kütükte BULUNAMADI"
+ },
+ {
+  "ad": "Angostura (Ciudad Bolívar) — NOKTA ADAYI",
+  "lat": 8.13,
+  "lon": -63.55,
+  "BEKLET": true,
+  "kapatir": 0,
+  "kova_bolge": "guyana",
+  "sinif": "NOKTA",
+  "neden": "🔴 NOKTA ADAYI, KAYIT DEĞİL. Aşağı Orinoco'nun ana yerleşimi, 1764 diye BİLİNİYOR. HSAI c.4'te 'Angostura' geçişi: 0 (ölçüldü) — kütük bu soruyu cevaplamıyor. İspanyol sömürge kaydı gerekli. UYGULANMASIN.",
+  "beklet_neden": "kuruluş tarihi kütükte BULUNAMADI"
+ },
+ {
+  "ad": "Beyan G10.5 B52.5",
+  "lat": -10.5,
+  "lon": -52.5,
+  "kasitli_bosluk": true,
+  "bos": "kabile",
+  "kapatir": 9,
+  "kova_bolge": "amazon",
+  "s": [],
+  "neden": "YUKARI XINGU. HSAI c.3'ün 'TRIBES OF UPPER XINGU' bölümü (Lévi-Strauss) bölgeyi ADIYLA ve SAYIYLA anlatıyor: 'Villages visited by Von den Steinen had from 2 to 20 huts and from 30 to 200 inhabitants' · 'the Suyá (in 1884) and the Trumai (in 1887) villages, both built on a river bank' · Bacairí · Nahukwá · Camayurá · Yaulapití köyleri. ⇒ Kaynak SUSMUYOR: yerleşik, tarım yapan, ticaret ağı olan köyler tarif ediliyor. AMA merkezî devlet TARİF EDİLMİYOR — köyler arası ittifak ve ticaret var, hükümranlık yok ⇒ `devletsiz` değil `kabile`.",
+  "not": "1281-1923 boyunca BEYAN. `s:` BOŞ: Brezilya'nın bu havzada fiilî tasarrufu 1923'e kadar ÖLÇÜLMEDİ; von den Steinen 1884-87'de bölgeyi AVRUPALIYA İLK TANITAN kişidir. 🔴 Bu bir HÜKÜMDÜR: atlas tasarrufu boyar, ve burada tasarruf gösterilemedi."
+ },
+ {
+  "ad": "Beyan G10.5 B61.5",
+  "lat": -10.5,
+  "lon": -61.5,
+  "kasitli_bosluk": true,
+  "bos": "kabile",
+  "kapatir": 9,
+  "kova_bolge": "amazon",
+  "s": [],
+  "neden": "RONDÔNIA — Machado/Ji-Paraná havzası. HSAI c.3: Rondon'un Telgraf Hattı Komisyonu bölgeyi 20. yy başında tanıdı; 'brought by General Rondon to the Rio Machado, where they lived until 1925, when the last six members of the group joined the Telegraphic Post of Pimenta Bueno'. ⚠️ Pimenta Bueno telgraf karakolu bir NOKTA adayıdır ama kütüğün verdiği tek tarih 1925 — ATLAS UFKUNUN (1923) DIŞINDA, o yüzden yazılmadı.",
+  "not": "1281-1923 BEYAN. ⚠️ Rondon hattı 1907-15'te kuruldu ama kütük bu karakol için yalnız 1925 veriyor; erken tarih BULUNAMADI."
+ },
+ {
+  "ad": "Beyan G10.5 B58.5",
+  "lat": -10.5,
+  "lon": -58.5,
+  "kasitli_bosluk": true,
+  "bos": "kabile",
+  "kapatir": 9,
+  "kova_bolge": "amazon",
+  "s": [],
+  "neden": "ARIPUANÃ-JURUENA arası, kuzey Mato Grosso. HSAI c.3: 'In 1915, an expedition of the Commission of Strategic Telegraph Lines from Mato Grosso to the Amazon, led by Lieutenant F. P. Vasconcellos, was attacked by Indians on the lower Sangue River. These Indians were strong and well built. They used bark canoes, grew manioc and bananas, and had hammocks.' ⇒ 1915'te bile devlet SEFER gönderiyor, TASARRUF etmiyor; ve halk tarif ediliyor ⇒ `kabile`.",
+  "not": "1281-1923 BEYAN."
+ },
+ {
+  "ad": "Beyan G7.5 B62.5",
+  "lat": -7.5,
+  "lon": -62.5,
+  "kasitli_bosluk": true,
+  "bos": "kabile",
+  "kapatir": 9,
+  "kova_bolge": "amazon",
+  "s": [],
+  "neden": "MADEIRA-PURUS arası. HSAI c.3 Mura'yı bu kuşakta konumluyor: 'In 1749 ... the Mura were established on a lake on the right bank of the Madeira River, opposite the mouth of the Autaz (a little above Borba)'. Mura tarımı BIRAKMIŞ bir halktır (c.3: 'the Guayakí and the Mura have abandoned cultivation since the Conquest and subsist solely on hunting') ⇒ band düzeyi, `kabile`. ⚠️ Madeira ANA KANALI ayrı: Borba (1723) NOKTA olarak yazıldı ve bu merkezden ~370 km uzakta.",
+  "not": "1281-1923 BEYAN."
+ },
+ {
+  "ad": "Beyan G7.5 B56.5",
+  "lat": -7.5,
+  "lon": -56.5,
+  "kasitli_bosluk": true,
+  "bos": "kabile",
+  "kapatir": 9,
+  "kova_bolge": "amazon",
+  "s": [],
+  "neden": "TAPAJÓS-XINGU arası, Mundurucú bölgesi. HSAI c.3: 'the Tapajoz River Mundurucú have a patrilineal sib and moiety system' ve Maué ile Mundurucú için ayrı bölümler. Kaynak halkı ayrıntısıyla anlatıyor, merkezî devlet tarif etmiyor ⇒ `kabile`. ⚠️ Tapajós ANA KANALI ayrı: Itaituba (1823) NOKTA olarak yazıldı, bu merkezden ~370 km.",
+  "not": "1281-1923 BEYAN. HSAI: 'Missions were established on the Tapajóz in 1799 and on the Madeira in 1811' — ikisi de NEHİR BOYU, iç kuşak değil."
+ },
+ {
+  "ad": "Beyan G7.5 B50.5",
+  "lat": -7.5,
+  "lon": -50.5,
+  "kasitli_bosluk": true,
+  "bos": "kabile",
+  "kapatir": 9,
+  "kova_bolge": "amazon",
+  "s": [],
+  "neden": "ARAGUAIA-TOCANTINS arası, Kayapó/Gê bölgesi. HSAI c.3 ve c.1'in 'NORTHWESTERN AND CENTRAL GE' bölümü (Lowie) bu halkları köy düzeyinde tarif ediyor; c.3: Arara için 'Another band of Arara, which numbered about 30 in 1917, settled on the right bank of the Pacajá do Xingú River'. ⇒ Band/köy düzeyi, merkezî devlet YOK ⇒ `kabile`.",
+  "not": "1281-1923 BEYAN."
+ },
+ {
+  "ad": "Beyan G4.5 B52.5",
+  "lat": -4.5,
+  "lon": -52.5,
+  "kasitli_bosluk": true,
+  "bos": "kabile",
+  "kapatir": 8,
+  "kova_bolge": "amazon",
+  "s": [],
+  "neden": "ORTA XINGU — Altamira üstü. HSAI c.3: 'In the 18th century, the Jesuits succeeded in settling Yuruna and Tacunyapé in the Tacuana (Tauaquéra) mission, a little above present-day Altamira, and in 1762 and 1784 the Tacunyapé are mentioned as among the Indians settled at Portel.' ⚠️ Misyon VARDI ama kütük KURULUŞ YILI VERMİYOR ('in the 18th century') ⇒ nokta yazılamadı, beyan yazıldı. Aradaki iç kuşak zaten Yuruna/Arara band düzeyi.",
+  "not": "1281-1923 BEYAN. 🔜 Tacuana misyonu bir NOKTA adayıdır; kuruluş yılı başka kaynakta aranmalı."
+ },
+ {
+  "ad": "Beyan G10.5 B68.5",
+  "lat": -10.5,
+  "lon": -68.5,
+  "kasitli_bosluk": true,
+  "bos": "kabile",
+  "kapatir": 9,
+  "kova_bolge": "amazon",
+  "s": [],
+  "neden": "ACRE-YUKARI PURUS. HSAI c.3: 'The linguistic relationships of the various tribes and subtribes of the Juruá-Purús Basin were the most confused in South America until Rivet and Tastevin (1921) established their classification'; bölge 1921'de bile etnik haritası YENİ çıkarılan bir alandır. ⇒ Kaynak halkları anlatıyor, devlet tarif etmiyor ⇒ `kabile`. ⚠️ Kauçuk kasabaları (Rio Branco 1882 · Sena Madureira) NOKTA adayıdır ama kütükte kuruluş tarihleri YOK.",
+  "not": "1281-1923 BEYAN. 🔜 Kauçuk dönemi kasabaları için Brezilya kaynağı gerekli."
+ },
+ {
+  "ad": "Beyan G9.5 B65.5",
+  "lat": -9.5,
+  "lon": -65.5,
+  "kasitli_bosluk": true,
+  "bos": "kabile",
+  "kapatir": 9,
+  "kova_bolge": "amazon",
+  "s": [],
+  "neden": "MADEIRA-MAMORÉ kavşağı ardı, Rondônia batısı. HSAI c.3 bölgenin halklarını (Mura · Pacaás Novos · Karipuna) anlatıyor. ⚠️ Forte Príncipe da Beira (1776-06-20) atlasta ZATEN VAR ve bu merkezden ~290 km güneybatıda — yani Portekiz kalesi Guaporé'de, bu iç kuşakta DEĞİL.",
+  "not": "1281-1923 BEYAN."
+ },
+ {
+  "ad": "Beyan G7.5 B47.5",
+  "lat": -7.5,
+  "lon": -47.5,
+  "kasitli_bosluk": true,
+  "bos": "kabile",
+  "kapatir": 9,
+  "kova_bolge": "amazon",
+  "s": [],
+  "neden": "TOCANTINS-PARNAÍBA arası, Maranhão/Tocantins içi. HSAI c.3: 'In 1840 the provincial government of Maranhão established the Colony of São Pedro do Pindaré for the Indians of the region, with but little success' ve Guajajara için 'settled on the Gurupi River near Cerzedello in 1818'. ⇒ Devlet 19. yy'da KOLONİ KURUYOR ama 'with but little success'; iç kuşak Timbira/Gê band düzeyi ⇒ `kabile`.",
+  "not": "1281-1923 BEYAN. 🔜 São Pedro do Pindaré (1840) bir NOKTA adayıdır ve tarihi KAYNAKLI — ama konumu bu merkezden uzak; ayrı ölçülmeli."
+ }
+]

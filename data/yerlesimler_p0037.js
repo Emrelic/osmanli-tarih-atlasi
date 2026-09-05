@@ -86,43 +86,43 @@ window.YERLESIMLER_P0037 = [
 
 // Prusya payı → Tilsit'le Rusya (1807)
 { ad:"Białystok", tur:"sehir", lat:53.1325, lon:23.1688, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1807-07-09",d:"prusya"},{f:"1807-07-09",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-11-11",d:"sovyet-rusya"},{f:"1918-11-11",t:"1923-10-29",d:"polonya"}],
+  s:[{f:"1281-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1807-07-09",d:"prusya"},{f:"1807-07-09",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-11-11",d:"sovyet-rusya"},{f:"1918-11-11",t:"1923-10-29",d:"polonya"}],
   d:[],
   kaynak:"N. Davies, God's Playground: üçüncü taksimde Prusya'ya (Yeni Doğu Prusya), Tilsit (9 Temmuz 1807 — kronoloji_almanya.js'te maddeli) ile Rusya'ya (Belostok oblastı). Prusya külliyatta Varşova kaydının deseniyle `almanya` kimliğinde. 1918-11-11 Polonya günü Varşova'nın deseni (fiilî Polonya girişi Şubat 1919 — ay farkı bilinçli, külliyat günü tercih edildi). Koordinat: coğrafî bilgi." },
 
 // Litvanya Büyük Dukalığı / Volhinya payı → 1795 Rusya → Riga 1921 Polonya
 { ad:"Brest-Litovsk", tur:"kale", lat:52.0975, lon:23.6877, g:1, k:3,
-  s:[{f:"1281-01-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-03-18",d:"sovyet-rusya"},{f:"1921-03-18",t:"1923-10-29",d:"polonya"}],
+  s:[{f:"1281-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-03-18",d:"sovyet-rusya"},{f:"1921-03-18",t:"1923-10-29",d:"polonya"}],
   d:[],
   kaynak:"N. Davies, God's Playground: üçüncü taksim (24 Ekim 1795) ile Rusya; Riga Antlaşması (18 Mart 1921) ile Polonya. TDV `brest` 302. 1918 Brest-Litovsk Antlaşması'nın Alman işgali (1915-1918) `isg:` olarak YAZILMADI — bu partinin kapsamı dışı, kayda geçiyor. Koordinat: coğrafî bilgi. Ad `Brest-Litovsk` seçildi çünkü külliyatta Fransa'daki `Brest` var (ad çakışması girdi.py'de HATA)." },
 
 { ad:"Pinsk", tur:"sehir", lat:52.1150, lon:26.1030, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-03-18",d:"sovyet-rusya"},{f:"1921-03-18",t:"1923-10-29",d:"polonya"}],
+  s:[{f:"1281-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-03-18",d:"sovyet-rusya"},{f:"1921-03-18",t:"1923-10-29",d:"polonya"}],
   d:[],
   kaynak:"Brest-Litovsk kaydıyla aynı dayanak (N. Davies): Polesye 1795 Rusya, 1921 Riga ile Polonya. Koordinat: coğrafî bilgi." },
 
 { ad:"Grodno", tur:"sehir", lat:53.6778, lon:23.8297, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-03-18",d:"sovyet-rusya"},{f:"1921-03-18",t:"1923-10-29",d:"polonya"}],
+  s:[{f:"1281-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-03-18",d:"sovyet-rusya"},{f:"1921-03-18",t:"1923-10-29",d:"polonya"}],
   d:[],
   kaynak:"N. Davies, God's Playground: 1795 üçüncü taksimde Rusya (son Seym Grodno'da toplandı), 1921 Riga ile Polonya. Koordinat: coğrafî bilgi." },
 
 { ad:"Kovel", tur:"sehir", lat:51.2153, lon:24.7086, g:0, k:4, m:"Lutsk",
-  s:[{f:"1281-01-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-03-18",d:"sovyet-rusya"},{f:"1921-03-18",t:"1923-10-29",d:"polonya"}],
+  s:[{f:"1281-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-03-18",d:"sovyet-rusya"},{f:"1921-03-18",t:"1923-10-29",d:"polonya"}],
   d:[],
   kaynak:"Volhinya: N. Davies, God's Playground — 1569 Lublin Birliği'yle Taç'a, 1795 Rusya, 1921 Riga ile Polonya. 1281-1340 Halic-Volhinya dönemi külliyat deseni gereği `lehistan` altında sadeleştirildi (Lvov kaydı gibi). Koordinat: coğrafî bilgi." },
 
 { ad:"Lutsk (Łuck)", tur:"kale", lat:50.7472, lon:25.3254, g:1, k:3,
-  s:[{f:"1281-01-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-03-18",d:"sovyet-rusya"},{f:"1921-03-18",t:"1923-10-29",d:"polonya"}],
+  s:[{f:"1281-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-03-18",d:"sovyet-rusya"},{f:"1921-03-18",t:"1923-10-29",d:"polonya"}],
   d:[],
   kaynak:"Kovel kaydıyla aynı dayanak (Volhinya voyvodalığının merkezi). Koordinat: coğrafî bilgi." },
 
 { ad:"Volodymyr-Volynskyi (Włodzimierz)", tur:"sehir", lat:50.8480, lon:24.3226, g:0, k:4, m:"Lutsk",
-  s:[{f:"1281-01-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-03-18",d:"sovyet-rusya"},{f:"1921-03-18",t:"1923-10-29",d:"polonya"}],
+  s:[{f:"1281-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-03-18",d:"sovyet-rusya"},{f:"1921-03-18",t:"1923-10-29",d:"polonya"}],
   d:[],
   kaynak:"Kovel kaydıyla aynı dayanak. Koordinat: coğrafî bilgi." },
 
 { ad:"Rivne (Równe)", tur:"sehir", lat:50.6199, lon:26.2516, g:0, k:4, m:"Lutsk",
-  s:[{f:"1281-01-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-03-18",d:"sovyet-rusya"},{f:"1921-03-18",t:"1923-10-29",d:"polonya"}],
+  s:[{f:"1281-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1921-03-18",d:"sovyet-rusya"},{f:"1921-03-18",t:"1923-10-29",d:"polonya"}],
   d:[],
   kaynak:"Kovel kaydıyla aynı dayanak. Koordinat: coğrafî bilgi." }
 

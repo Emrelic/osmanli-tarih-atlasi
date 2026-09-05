@@ -1,0 +1,31 @@
+{
+  "_NOT": "Tek kronoloji maddesi. Sevk 1.MURAT M-2818 ④. Oturum NEHIR SURTUNME, 5 Eylul 2026. data/olaylar*.js'e DOKUNULMADI.",
+
+  "_NICIN": "`denetim/yer_yama_sisam.js` Sisam'a `v: 1832-12-10 → 1912-03-13` ekliyor. `v:` doneminin BASI bir KIRILMADIR (CLAUDE.md Degismez 2, tavan 0). Olctum: cekirdekte ±30 gunde madde VAR (11 gun: 'Konya Meydan Muharebesi') ⇒ SAYISAL olarak gecer. 🔴 AMA ALAKASIZ — `§2`nin 'degisim, o gune rastgele denk gelen alakasiz bir maddenin altinda belirir' kusuru, ve Emre'nin EN COK sikayet ettigi sey. Bu madde onu kapatiyor.",
+
+  "_GUN_DURUMU": "🟢 GUN KAYNAKTAN: TDV `sisam` **10 Aralik 1832** diyor. Yil ya da ay hassasiyeti DEGIL, tam gun. Arnavutluk maddelerinden farki bu.",
+
+  "maddeler": [
+    {
+      "t": "1832-12-10",
+      "k": "siyaset",
+      "etiket": ["siyaset"],
+      "b": "Sisam'a özerklik — vasal prensliğin kuruluşu",
+      "gun": "1832-12-10",
+      "yer": "Sisam (Samos), Ege",
+      "yer_id": "Sisam",
+      "kisiler": "II. Mahmud",
+      "d": "Yunan İsyanı'nın ardından Batılı büyük devletlerin baskısı altında kalan Osmanlı hükûmeti, Sisam adasının özerkliğini kabul ederek burayı vasal bir prensliğe dönüştürdü. Ada dış işlerinde Osmanlı Devleti'ne bağlı kaldı; buna karşılık kendi bayrağını çekti ve koruyucu güçlerin himâyesinde iç işlerinde tamamen bağımsız hâle geldi. Yönetimi bir Ortodoks vali ile meclis üstlendi; Osmanlı adada garnizon tuttu fakat prensi kendisi tayin etmedi. Böylece Sisam, Şarkî Rumeli ve Girit'te sonradan tekrarlanacak olan «hükümranlık Osmanlı'da, idare yerli» düzeninin erken bir örneği oldu ve bu statü seksen yıl sürdü.",
+      "statu_vasal": ["Sisam"],
+      "kaynak": "sisam",
+      "duygu": ["🏛"]
+    }
+  ],
+
+  "_DUYGU_DUZELTILDI": "Ilk yazimda '📜' kullanmis ve '_OLCMEDIKLERIM'e 'kullanilan bir deger mi DOGRULAMADIM' diye yazmistim. SONRA OLCTUM: `olaylar*.js`te kullanilan sozluk 🎉 255 · 😔 204 · 🏛 179 · ⚔️ 172 · 🤝 80 · ✊ 44 · 🎨 42 · 📌 41. **'📜' HIC KULLANILMIYOR.** Kurumsal/idari bir duzenleme oldugu icin '🏛' secildi (179 kullanim). ⇒ Kendi isaretledigim acigi kapattim; isaretlemeseydim sozlukte olmayan bir deger inecekti.",
+
+  "_OLCMEDIKLERIM": [
+    "OLCMEDIM  bu maddenin `Degismez 2t` sayacina etkisini — kirilmali oldugu icin buyutmemeli ama SIMULE ETMEDIM.",
+    "BULUNAMADI 1912-03-13 ile 1912-11-11 arasindaki sekiz ayin statusu — AYRI KALEM, bkz. yer yamasindaki not."
+  ]
+}

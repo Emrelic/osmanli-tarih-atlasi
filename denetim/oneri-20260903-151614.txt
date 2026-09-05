@@ -1,0 +1,28 @@
+// renk_olc.py --oner çıktısı — aktarımdan SONRA:
+//   py arac/renk_olc.py --dogrula oneri-20260903-151614.txt
+avusturya-cumhuriyet #242ad2
+bohemya #2430d2
+bosna-isgal #2436d2
+cezayir-fransiz #243cd2
+cezayir-ocagi #2442d2
+dubrovnik #2448d2
+erdel #244ed2
+fransiz-misir-seferi #2454d2
+garbi-trakya #245ad2
+girit-devleti #2460d2
+hersek #2466d2
+jin-hanedani #246cd2
+kasim #2472d2
+kibris-ingiliz #2478d2
+kuveyt #247ed2
+mogol-imparatorlugu #2484d2
+mora-despotlugu #248ad2
+naksa-dukaligi #2496d2
+oniki-ada-italyan #249cd2
+polonya-erken #24a2d2
+sarki-rumeli #24a8d2
+song #24aed2
+tbmm-turkiye #24b4d2
+trablusgarp-ocagi #24bad2
+tunus-ocagi #24c0d2
+zeta #24c6d2

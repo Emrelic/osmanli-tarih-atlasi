@@ -427,10 +427,8 @@ window.YERLESIMLER_H2_RUSYA = [
 // ─── F · DNYEPER-DON — Hetmanlık merkezleri ve Azak kuşağı ─────────────────
 // (Bu çeyrek zaten doygun; yalnız SINIR KARARI taşıyan üç nokta eklendi.)
 // Baturin ve Hluhiv — Hetmanlığın başkentleri; Poltava/Putivl modeliyle aynı.
-{ ad:"Baturin", tur:"kale", lat:51.343, lon:32.879, g:1, k:4,
-  s:[{f:"1281-01-01", t:"1362-01-01", d:"altinorda"},
-     {f:"1362-01-01", t:"1654-01-08", d:"lehistan"},
-     {f:"1654-01-08",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+{ ad:"Baturin",kaynak:"polonya", tur:"kale", lat:51.343, lon:32.879, g:1, k:4,
+  s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda"},{f:"1362-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1654-01-08",d:"lehistan"},{f:"1654-01-08",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 { ad:"Hluhiv", tur:"sehir", lat:51.678, lon:33.917, g:2, k:3,
   s:[{f:"1281-01-01", t:"1362-01-01", d:"altinorda"},
      {f:"1362-01-01",t:"1503-04-02",d:"litvanya-buyuk-dukalik"},

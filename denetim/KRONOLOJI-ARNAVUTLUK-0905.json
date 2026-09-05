@@ -1,0 +1,49 @@
+{
+  "_NOT": "Iki kronoloji maddesi. Sevk 1.MURAT M-2785 ②. Oturum NEHIR SURTUNME, 5 Eylul 2026. data/olaylar*.js'e DOKUNULMADI — uygulama koordinatorun.",
+
+  "_NICIN": "`denetim/yer_yama_arnavutluk.js` Kruja'ya `v: 1415-01-01 → 1443-01-01` ekliyor. CLAUDE.md Degismez 2: her `d:` YA DA `v:` doneminin basi ve sonu bir KIRILMADIR ve ±30 gun icinde madde ISTER (tavan 0). Koordinatorun olcumu: iki gun de SAYISAL olarak geciyor (0 gun uzaklikta madde var) AMA hicbiri Kruja/Kastrioti ile ILGILI DEGIL — `§2`nin 'degisim, o gune rastgele denk gelen alakasiz bir maddenin altinda belirir' kusuru. Bu iki madde onu kapatiyor.",
+
+  "_GUN_DURUMU": "🔴 IKISI DE YIL HASSASIYETINDE VE BU BIR SECIM DEGIL, KAYNAGIN SINIRI. TDV `kruya` 1415 icin gun vermiyor ('1415'teki olumune kadar elinde tutmayi basardi'). TDV `iskender-bey` 1443 icin gun vermiyor (yalniz 'Izladi savasinda (1443)'). Ikisinde de `gun:` alani YIL dizgisini tasiyor — projenin kendi yerlesik bicimi (emsal: olaylar_ek6.js `gun:\"1427\"` ve `gun:\"1499\"`).",
+
+  "_KAYNAGIN_KENDI_UYARISI": "🔴 TDV `iskender-bey` 1443 anlatisini KENDI SUPHESIYLE veriyor: «Bati kaynaklarinda, Iskender Bey'in Izladi savasinda (1443) timarli sipahi olarak bulunmus olabilecegi, bozgunu muteakip Osmanli ordusundan kactigi ve daha sonra isyana kalkistigi IDDIA EDILMEKTEDIR.» ⇒ `§4`un 'kaynagin kendi uyarisini da oku' kurali. Madde metni bu supheyi TASIYOR, duzlestirmiyor.",
+
+  "maddeler": [
+    {
+      "t": "1415-01-01",
+      "k": "siyaset",
+      "etiket": ["siyaset"],
+      "b": "Kruya'nın Kastrioti eline geçmesi ve Osmanlı tâbiiyeti — Akçahisar",
+      "gun": "1415",
+      "yer": "Akçahisar (Kruja), Orta Arnavutluk",
+      "yer_id": "Akçahisar (Kruja)",
+      "kisiler": "Gjon Kastrioti, Nikola Thopia",
+      "d": "Kruya'yı ailesi adına geri alan Nikola Thopia'nın ölümüyle Topia hânedanının şehir üzerindeki elli yıllık hâkimiyeti sona erdi. Yerine geçen Gjon Kastrioti şehrin idaresini Osmanlılar'ın vasali sıfatıyla üstlendi; böylece Kruya, doğrudan bir fetihle değil bir tâbiiyet bağıyla Osmanlı düzenine girdi. Bu bağ, Gjon'un oğlu İskender Bey'in 1443'teki isyanına kadar sürecek ve Arnavutluk'un iç beylikleri ile Osmanlı arasındaki ilişkinin tipik biçimini teşkil edecekti. TDV'nin verdiği tarih yıl hassasiyetindedir; Nikola Thopia'nın ölüm günü kaynakta bulunamadı.",
+      "statu_vasal": ["Akçahisar (Kruja)"],
+      "kaynak": "kruya",
+      "duygu": ["🤝"]
+    },
+    {
+      "t": "1443-01-01",
+      "k": "isyan",
+      "etiket": ["isyan", "toprak-kayip"],
+      "b": "İskender Bey'in isyanı ve Akçahisar'ın elden çıkması",
+      "gun": "1443",
+      "yer": "Akçahisar (Kruja), Svetigrad (Kocacık), Kuzey Arnavutluk",
+      "yer_id": "Akçahisar (Kruja)",
+      "kisiler": "İskender Bey (Gjergj Kastrioti), II. Murad",
+      "d": "Gjon Kastrioti'nin oğlu İskender Bey, babasından devraldığı Osmanlı tâbiiyetini bırakarak isyan etti ve kuzey Arnavutluk yolundaki Svetigrad (Kocacık) Hisarı ile Akçahisar'ı zaptetti. Kruya böylece yirmi sekiz yıllık vasal statüsünden çıkıp otuz beş yıl sürecek bir direniş merkezine dönüştü; şehir ancak İskender Bey'in ölümünden on yıl sonra Osmanlı idaresine girecekti. ⚠️ TDV isyanın başlangıcını kendi şüphesiyle aktarır: Batı kaynaklarına göre İskender Bey İzlâdi savaşında (1443) timarlı sipahi olarak bulunmuş, bozgunun ardından Osmanlı ordusundan kaçmış ve sonra isyana kalkışmış olabilir. Ansiklopedi bunu kesin bir vâkıa olarak değil bir iddia olarak kaydeder. Gün kaynakta bulunamadı.",
+      "kaybedilen": ["Akçahisar (Kruja)"],
+      "kaynak": "iskender-bey",
+      "duygu": ["⚔️"]
+    }
+  ],
+
+  "_KUNYE_HIZALAMA_SORUSU_CEVABI": "Sevk sordu: '`arnavutluk-iskenderbey` kunyesinin `f:` degeri ne? Kunye zaten bir gun tasiyorsa `v:`in bitisi ONUNLA hizalanmali.' ⇒ OLCTUM: `arnavutluk-iskenderbey` f:\"1443-01-01\" · t:\"1479-01-25\". `f:` ZATEN YUVARLAK (01-01); `t:` ise gercek bir gun tasiyor. ⇒ Hizalanacak daha iyi bir gun YOK, `v:` bitisi 1443-01-01'de KALIYOR ve yamada degisiklik GEREKMEDI.",
+
+  "_OLCMEDIKLERIM": [
+    "BULUNAMADI Nikola Thopia'nin olum GUNU — TDV `kruya` yalniz yil veriyor",
+    "BULUNAMADI Iskender Bey'in isyan/Akcahisar'i zapt GUNU — TDV `iskender-bey` yalniz yil veriyor",
+    "OKUMADIM   Izladi (Zlatitsa) savasinin kendi maddesini — gun oradan cikabilir, DENEMEDIM",
+    "OLCMEDIM   bu iki maddenin Degismez 2t (kirilmasiz madde) sayacina etkisini — ikisi de KIRILMALI, yani 2t'yi buyutmemeli, ama SIMULE ETMEDIM"
+  ]
+}

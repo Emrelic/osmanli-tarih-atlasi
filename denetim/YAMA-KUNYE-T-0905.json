@@ -1,0 +1,53 @@
+{
+  "_NOT": "🔴 BU BIR YAMA DEGIL, BIR RET GEREKCESIDIR. Sevk 1.MURAT M-2880 ⑤ iki kunyenin `t:` degerini KAYNAKTAN duzeltmemi istedi. Kaynaga sordum ve **IKI KUNYE DE ZATEN DOGRU CIKTI**. Degistirilecek bir sey yok; degistirilecek olan VERI, ve o ayri bir kalem.",
+
+  "oturum": "NEHIR SURTUNME",
+  "tarih": "2026-09-05",
+  "sevk": "1.MURAT M-2880 ⑤",
+
+  "🔴_ONERIYI_BEN_YAPMISTIM_VE_TERS_CIKTI": {
+    "onerim": "mentese `t:1424-01-01` ve serbedariler `t:1386-01-01` YUVARLAK; veri gun biliyor (1425-06-01 ve 1387-11-01) ⇒ kunye guncellensin, 4c'den 9 kayit temizlensin.",
+    "olcum": "TDV IKISINDE DE YIL VERIYOR, GUN VERMIYOR. Kunyeler yili DOGRU kodluyor (`YYYY-01-01` = 'yil biliniyor, gun bilinmiyor'). ⇒ KUNYELER DOGRU. Kaynaksiz olan VERININ gunleri.",
+    "ders": "Kunyeyi veriye uydursaydim, IKI DOGRU KUNYEYI kaynaksiz gunlere tasimis olacaktim. Koordinatorun sarti (`kunyeyi veriye uydurmak, veriyi kaynak yerine koymaktir`) tam bunu onledi — ve sarti koyan taraf HAKLIYDI, oneriyi yapan taraf BEN."
+  },
+
+  "olcum": [
+    {
+      "kunye": "mentese",
+      "kunye_t": "1424-01-01",
+      "tdv_slug": "menteseogullari",
+      "tdv_alinti": "II. Murad 827'de (1424) Mentese topraklarini ele gecirdigi zaman bu iki kardes yakalanarak hapsedildi, boylece beylik sona erdi.",
+      "tdv_hassasiyet": "YIL (1424) — gun/ay YOK",
+      "hukum": "🟢 KUNYE DOGRU — DEGISTIRME",
+      "veri_gunu": "1425-06-01 (6 nokta: Datca · Marmaris · Fethiye · Mugla · Milas · Balat)",
+      "veri_durumu": "🔴 bulunamadi — TDV `1425-06-01`i ANMIYOR, yalniz 1424 diyor",
+      "ek": "TDV ayrica: Ankara Savasi'ndan (1402) sonra Timur beylikleri iade etti; 1413'te Ilyas Bey Osmanli VASALI kaldi. ⇒ verinin `1402-07-28` baslangici DOGRU."
+    },
+    {
+      "kunye": "serbedariler",
+      "kunye_t": "1386-01-01",
+      "tdv_slug": "serbedariler",
+      "tdv_alinti": "Hace Ali'nin 788 (1386) yilinda oldurulmesiyle Serbedari hanedani sona ermis oldu.",
+      "tdv_hassasiyet": "YIL (1386) — gun/ay YOK",
+      "hukum": "🟢 KUNYE DOGRU — DEGISTIRME",
+      "veri_gunu": "1387-11-01 (3 nokta: Simnan · Damgan · Bistam)",
+      "veri_durumu": "🔴 bulunamadi — TDV bu uc sehrin Timur sonrasi akibeti icin 'no specific information' veriyor",
+      "🟢_ek_bulgu": "VERININ COGUNLUGU ZATEN KAYNAKLI: 20 nokta `1381` kullaniyor ve TDV 'Timur 783'te (1381) … Sebzevar uzerine yurudugunde' diyor ✓ · Esterabad `1386-01-01` kullaniyor ve TDV hanedanin sonunu 1386 veriyor ✓ ⇒ Veri UC tarih tasiyor, IKISI TDV ile BIREBIR. Kaynaksiz olan yalniz ucuncusu."
+    }
+  ],
+
+  "sonuc": {
+    "kunye_degisikligi": 0,
+    "4c_etkisi": 0,
+    "bulunamadi_damgasi": 2,
+    "aciklama": "Sevkin ③ sikki uygulandi: 'TDV gun VERMIYORSA → kunye YUVARLAK KALIR ve verinin gunu bulunamadi damgasiyla kayda gecer. Senkronlamak icin senkronlama yapilmaz.'"
+  },
+
+  "_ACIK_KALEM": "Verinin iki gunu (`1425-06-01` · `1387-11-01`) KAYNAKSIZ ve DEGISTIRILMEDI. Ikisi de akademik kaynakla dogrulanabilir (`§4` mesru kilar) ama bu tur o tur DEGILDI. 🔴 Ve DEGISTIRILMEMELI-ye kadar: bir gun kaynaksiz diye SILINMEZ, once ARANIR.",
+
+  "_OLCMEDIKLERIM": [
+    "ARAMADIM  `1425-06-01` ve `1387-11-01` icin akademik kaynak",
+    "OLCMEDIM  `mentese` verisinin 1390-1402 arasindaki boslugu (Yildirim'in ilk ilhaki) — TDV aniyor, veri de tasiyor ama KARSILASTIRMADIM",
+    "OKUMADIM  `mentese` slug'ini (200 olctum) — `menteseogullari` daha dar ve TUTTU, kapsayiciya CIKMAYA gerek kalmadi"
+  ]
+}

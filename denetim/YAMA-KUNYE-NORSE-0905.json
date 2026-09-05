@@ -1,0 +1,35 @@
+{
+  "oturum": "KRONOLOJI BOS KUNYE",
+  "damga": "2026-09-05 04:59",
+  "hukum": "M-2742 — `norse-gronland` künyesi açılsın, yazımı bana verildi.",
+  "🔴_SINIRLAR_UYGULANDI": [
+    "`norvec` ve `danimarka` künyelerine DOKUNULMADI — yeni kimlik EKLENDİ, var olan GENİŞLETİLMEDİ (senin şartın).",
+    "`bolge` 27'lik gerçek listeden seçildi: `kuzey-amerika` (ölçüldü, listede var). Siyasî bağlılık ÖZETE yazıldı, bölgeye değil.",
+    "`baskent` alanı YAZILMADI: kaynağım Norse Grönland için bir başkent ADLANDIRMIYOR. Garðar (piskoposluk merkezi) ya da Brattahlíð yazmak kolaydı ve kaynaksız olurdu. Damga: bulunamadı."
+  ],
+  "🟢_KUNYE_BOS_DOGMUYOR": "2 kronoloji maddesiyle açılıyor (toprak-kayip · son). Sebebi: bu oturum bugün «kronolojisi SIFIR olan 17 künye» işini bitirdi; boş bir künye daha açmak o işi geri almak olurdu. `kurulus` maddesi YOK ve olmaması DOĞRU — pencere muafiyeti (~985).",
+  "kunye": {
+    "id": "norse-gronland",
+    "ad": "Norse Grönland (Vestribygð–Eystribygð)",
+    "tur": "devlet",
+    "bolge": "kuzey-amerika",
+    "f": "1281-01-01",
+    "t": "1450-01-01",
+    "ozet": "Grönland'ın güneybatı kıyısındaki iki İskandinav yerleşim bölgesi — güneyde Eystribygð (Doğu Yerleşimi) ve yaklaşık 400 km kuzeydeki Vestribygð (Batı Yerleşimi). 1261'den itibaren Norveç tacına bağlıydı; Batı Yerleşimi ~1360'ta, Doğu Yerleşimi 1400-1450 arasında terk edildi ve Grönland'daki İskandinav varlığı sona erdi. 🔴 `f:1281-01-01` ATLAS PENCERESİNİN BAŞIDIR, KURULUŞ DEĞİLDİR — yerleşim ~985'te kuruldu, yani pencereden yaklaşık üç yüzyıl önce. 🔴 SİYASÎ BAĞLILIK NORVEÇ TACINADIR, coğrafî konum Kuzey Amerika'dır; `bolge:kuzey-amerika` COĞRAFÎ bir alandır, siyasî bağlılık DEĞİL. 🟡 Bu künye `danimarka`nın kapsamına GİRMEZ: Danimarka-Norveç birliği 1380/1397'dedir ve künyenin ilk yüzyılını kapsamaz — kimlik bu yüzden ayrı açıldı.",
+    "kaynak": "Cambridge History of the Native Peoples of the Americas, «The Arctic from Norse contact to modern times» + Cambridge History of the Polar Regions, «The Norse Settlement of Greenland» + Cambridge, «The Vanished Settlers of Greenland» — AYNEN: «two Norse settlements were established on the western coast of Greenland, one in the south known as the “Eastern Settlement” and one about 400 km further north, near what is now the modern capital of Nuuk, and known as the “Western Settlement”» · «The Western Settlement seems to have been abandoned around AD 1360, and the Eastern Settlement sometime in the 1500s, with this dated to between AD 1400 to 1450.» 🔴 KAYNAK KENDİ İÇİNDE ÇELİŞİYOR ve gizlemiyorum: aynı cümle Doğu Yerleşimi'nin terki için hem «sometime in the 1500s» hem «between AD 1400 to 1450» diyor. `t:` için AÇIKÇA TARİHLENEN aralığın (1400-1450) GEÇ ucu alındı — bu bir SEÇİMDİR, kaynakta tek tarih YOK. 🔴 GÜN YAZILMADI: kaynak yıl bile vermiyor, aralık veriyor ⇒ YYYY-01-01. Hassasiyet kaynağı aşmadı.",
+    "kronoloji": [
+      {
+        "t": "1360-01-01",
+        "tur": "toprak-kayip",
+        "b": "Vestribygð (Batı Yerleşimi) terk edildi",
+        "kaynak": "Cambridge History of the Native Peoples of the Americas, «The Arctic from Norse contact to modern times» + Cambridge History of the Polar Regions, «The Norse Settlement of Greenland» + Cambridge, «The Vanished Settlers of Greenland» — AYNEN: «The Western Settlement seems to have been abandoned around AD 1360». 🟡 Kaynak «around» diyor ⇒ yıl YAKLAŞIK. 🔴 GÜN YOK."
+      },
+      {
+        "t": "1450-01-01",
+        "tur": "son",
+        "b": "Eystribygð (Doğu Yerleşimi) terk edildi, Grönland'daki İskandinav varlığı sona erdi",
+        "kaynak": "Cambridge History of the Native Peoples of the Americas, «The Arctic from Norse contact to modern times» + Cambridge History of the Polar Regions, «The Norse Settlement of Greenland» + Cambridge, «The Vanished Settlers of Greenland» — «the Eastern Settlement … dated to between AD 1400 to 1450». 🔴 ARALIĞIN GEÇ UCU alındı, ve aynı cümledeki «1500s» okuması ÇÜRÜTÜLMEDİ, yalnız kullanılmadı."
+      }
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "_NOT": "Zend hanedaninin sonu maddesi. Sevk 1.MURAT M-3009. Oturum NEHIR SURTUNME, 5 Eylul 2026. VERI YAZILMADI — data/olaylar*.js DONUK (kosu 5b canli, §7).",
+
+  "_HEDEF_DOSYA": "🔴 data/olaylar*.js (CEKIRDEK) — `denetle.py:920` yalniz `data/olaylar*.js` okuyor; `kronoloji*.js`e yazilan madde `2s` evreninde GORUNMEZ (§11 'hangi kovada oldugu da sorulmali').",
+
+  "_GLOB_UYARISI": "🔴 IKI AYRI BORU HATTI VAR, KARISTIRILMASIN. `arac/_kronoloji_uygula.py` glob'u `denetim/KRONOLOJI-*0905*.json` ve hedefi `data/devletler.js` KUNYE kronolojisidir (`onceki['kronoloji'][slug]`, satir 254) — `olaylar*.js` DEGIL. Bu dosyanin adi `ONERI-` onekli oldugu icin o glob'a GIRMEZ; kazara uygulanmaz. Uygulanacaksa elle, ve `olaylar*.js`e. Adi `KRONOLOJI-...` yapmak onu YANLIS ALETE teslim eder (bu gecenin 'glob bir ad sozlesmesidir' dersi).",
+
+  "_KAYNAK_OLCUMU": {
+    "lutf-ali-han": "🔴 YONLENDIRME KUTUGU (§4⑥). HTTP 200, <title> 'LUTF ALI HAN' — ama govde YOK: 80.685 karakter ham HTML'de `Kirman` 0, `Aga Muhammed` 0, `Siraz` 0, `oldur` 0, `bk.` 1. WebFetch de govdeyi getiremedi. Iki cikarici denendi (§4⑦). Gercek madde: `zendler`.",
+    "zendler": "🟢 CANLI ve GOVDELI — 107.492 kar. ham, 12.168 kar. govde. Siraz 28, Kerim Han 25, Aga Muhammed 6, BIBLIYOGRAFYA 1. OKUNDU.",
+    "kacarlar": "🟢 CANLI ve GOVDELI — 20.899 kar. OKUNDU.",
+    "zend": "🔴 302 OLU", "aga-muhammed-han": "🔴 302 OLU"
+  },
+
+  "_TDV_BIREBIR_ALINTILAR": [
+    "zendler basligi: «Iran'da hukum suren bir hanedan (1751-1794).»",
+    "zendler: «Aga Muhammed Han ciddi bir direnisle karsilasmadan bassehir Siraz'a girerek hakimiyeti ele gecirdi (1 Zilhicce 1207 / 10 Temmuz 1793).»",
+    "zendler: «Mucadeleyi surduren Lutf Ali Han ... guclu bir orduyla Kirman'a hucum edip sehri ele gecirdi (Saban 1208 / Mart 1794).»",
+    "zendler: «Aga Muhammed Han ordusuyla Kirman'a gelip onu maglup etti.»",
+    "zendler: «Bam sehrine siginan Lutf Ali Han mihmandarinin ihanetine ugrayarak Aga Muhammed Han'a teslim edildi.»",
+    "zendler: «Lutf Ali Han'in oldurulmesiyle (Cemaziyelahir 1209 / Aralik 1794) Zend hanedani tarihe karisti.»",
+    "kacarlar basligi: «Bir Turkmen oymagi ve Iran'da hukum suren bir hanedan (1796-1925).»",
+    "kacarlar: «...Tahran'da kalabalik bir davetli toplulugu onunde 'sehinsahlik' tacini giyerek adina hutbe okuttu ve para kestirdi (1796); boylece Kacar Devleti resmen kurulmus oldu.»"
+  ],
+
+  "_ASIL_BULGU": "🔴 `1794-01-01`e KARSILIK GELEN BIR OLAY TDV'DE YOK. O tarih, kunye basliginin («1751-1794») §4 konvansiyonuyla yazilmis YIL halidir. TDV'nin verdigi UC gercek gun/ay sunlar: (a) tasarruf devri 10 TEMMUZ 1793 — GUN hassasiyetinde, bassehrin dususu; (b) hanedanin sonu ARALIK 1794 — AY hassasiyetinde, Lutf Ali Han'in oldurulmesi; (c) Kacar Devleti'nin RESMEN kurulusu 1796 — unvan/sikke tarihi. §4: «kunyenin f:/t: gunu bir KAYNAK DEGILDIR.»",
+
+  "_SINAV_SONUCU": {
+    "yontem": "Yama + madde BELLEKTE uygulandi, `denetle.degismez2` + `denetle.kapsam_disi` DOGRUDAN cagrildi. `_osmanli_kure` onbellegi her kosu arasi temizlendi. Veri YAZILMADI.",
+    "① bugun (yama yok)": "2s ACIK 101 · KAPSAM DISI 364 · 2t 12",
+    "② yama 1794-01-01 · madde YOK": "2s ACIK 102 · KAPSAM DISI 363 · 2t 12",
+    "③ yama 1794-01-01 · madde VAR": "2s ACIK 101 · KAPSAM DISI 363 · 2t 12  🟢 MADDE KAPATIYOR",
+    "④ yama 1793-07-10 · madde YOK": "2s ACIK 101 · KAPSAM DISI 364  🔴 SESSIZ ve YANLIS KAPANIS",
+    "⑤ yama 1793-07-10 · madde VAR": "2s ACIK 101 · KAPSAM DISI 364",
+    "🔴 ④'UN UYARISI": "1793-07-10'un 4 gun otesinde `1793-07-14 Muhendishane-i Berri-i Humayun'un insaatina baslanmasi` maddesi var. `denetle` onu ±30 icinde sayip KAPALI kabul ediyor; `_madde_yeri_aniyor` ALAKA sorup uyari basiyor ama SAYIYI degistirmiyor. Yani 1793-07-10 secilseydi denetim TEMIZ derdi ve Siraz'in dususu bir muhendislik okulu maddesinin altinda belirirdi — `§2`nin sikayet edilen kusuru."
+  },
+
+  "maddeler": [
+    {
+      "_hedef": "data/olaylar*.js (yeni bir _ekNN dosyasi ya da mevcut birine)",
+      "t": "1794-01-01",
+      "k": "siyaset",
+      "etiket": ["siyaset"],
+      "b": "Zend hanedaninin sona ermesi — Lutf Ali Han'in olduruluşu",
+      "gun": "Cemaziyelahir 1209 / Aralik 1794 (TDV AY veriyor, GUN vermiyor; alan §4 geregi YYYY-01-01 yazimindadir)",
+      "yer": "Kirman ve Bam",
+      "yer_id": "Kirman",
+      "_YER_ID_OLCULDU": "🔴 Ilk yazimda `Bam` idi; ATLASTA YOK (olculdu, 3805 kaydin adlari tarandi). `Kirman` VAR ve maglubiyetin gectigi yer odur; Bam sadece siginilan sehir. `Sîraz` da atlasta `Siraz` olarak var — TDV `Sîraz` yaziyor, atlas `Siraz`: §4'un Turkce yazim ekseninin bir vakasi daha, ve bir `yer_id` bu yuzden sessizce bosa dusebilirdi.",
+      "kisiler": "Lutf Ali Han, Aga Muhammed Han Kacar",
+      "d": "Zendler'in son hukumdari Lutf Ali Han, Aga Muhammed Han'in 10 Temmuz 1793'te Siraz'a girip bassehri ele gecirmesinden sonra mucadeleyi surdurdu; Mart 1794'te Kirman'i geri aldiysa da Aga Muhammed Han'in ordusu karsisinda maglup oldu. Bam sehrine siginan Lutf Ali Han mihmandarinin ihanetiyle teslim edildi ve Aralik 1794'te olduruldu; TDV'nin ifadesiyle «Zend hanedani tarihe karisti». Boylece 1751'den beri Iran'in buyuk bolumunde hukum suren Zend idaresi sona erdi ve Aga Muhammed Han'in hakimiyeti tartismasiz hale geldi. ⚠️ Aga Muhammed Han'in taci giyip sikke kestirmesi — yani Kacar Devleti'nin RESMEN kurulusu — 1796'dir; atlas ise tasarrufu boyadigi icin 1794'u sinir gunu olarak kullanmaktadir.",
+      "kaynak": "zendler",
+      "duygu": ["🏛"],
+
+      "_HASSASIYET_UYARISI": "🔴 BEYAN UYUMSUZLUGU BURADA ACIKCA KAYDEDILIYOR: alan `1794-01-01`, TDV ise `Aralik 1794` diyor — yani AYNI YILIN OTEKI UCU, ~11 ay. §4'un kurali («tarih alani kaynagin destekledigi en kaba guvenli duzeyi tasir, gerisi metinde durur») bu yazimi gerektiriyor; ama ayni §4'un 'hassasiyet sismis' ekseni bunu bir 🟡 kalem yapar. Kaydediliyor, gizlenmiyor.",
+      "_TUR_UYARISI": "`k:\"siyaset\"` secildi. Bu bir SON'dur, bir KURULUS ya da CULUS DEGIL (M-3009 ③'un uyardigi tuzak). `olaylar*.js` semasi `k:` kullanir; `_kronoloji_uygula.py`nin ZORUNLU kildigi `tur:` alani KUNYE kronolojisine aittir ve burada YOKTUR."
+    }
+  ],
+
+  "_ALTERNATIF_VE_BU_BIR_HUKUM_ISTEGIDIR": {
+    "durum": "Olcum, hukmun sectigi gunun TDV'de bir olaya karsilik gelmedigini gosterdi. Karar koordinatorun (§7); ben yalniz olcumu koyuyorum.",
+    "A · 1794-01-01 (bugunku hukum)": "🟢 kunye ile tutarli (zend t: · kacar f:) · 🟢 2s'yi kapatir · 🟡 TDV'de o gune bir olay YOK, madde AY hassasiyetini metinde tasir",
+    "B · 1793-07-10 (Siraz'in dususu)": "🟢 TDV GUN veriyor · 🟢 atlasin boyadigi sey TASARRUF ve tasarruf o gun degisiyor · 🔴 kunye `zend t:1794-01-01`i asar (yeni bir 4c dogar) · 🔴 SESSIZ KAPANIS riski: alakasiz bir madde 4 gun otede",
+    "C · ikisi birden": "sinir 1793-07-10 + hanedanin sonu icin 1794 maddesi. En dogru anlatiyi verir, ama kunye penceresini de degistirmeyi gerektirir — ve kunye TDV basligiyla (1751-1794) birebir uyusuyor, yani onu degistirmek kaynaga aykiri olur.",
+    "_EGILIMIM": "A — cunku kunye TDV'nin KENDI basligindan geliyor ve C onu bozar. Ama bu bir EGILIM, bir KARAR degil."
+  },
+
+  "_YAN_BULGU": "Mevcut `1796-01-01` maddesi (`data/olaylar_ek11.js:207`) kendi metninde soyle diyor: «⚠️ Atlas 1747-1796 arasini bilerek genel `Iran` etiketiyle gosteriyor». Bu satir ARTIK BAYAT — o pencere `afsar`/`zend`/`kacar` zincirine gecmis durumda (veride 134 zend + 134 kacar donemi). Ayrica ayni maddenin `gun:` alani «devlet dizini bu tarihi Afsar'in bitisi olarak tasiyor» diyor ve `afsar` kunyesi gercekten `t=1796-01-01`. Yama sonrasi 1796 kirilmasi Kizilarvat ve Yakutat'ta SURUYOR, yani madde kirilmasiz kalmiyor (2t 12 → 12, olculdu).",
+
+  "_OLCMEDIKLERIM": [
+    "🔴 Maddeyi VERIYE YAZMADIM — `data/olaylar*.js` donuk, ve sevk zaten 'VERI YAZMA' diyor.",
+    "🔴 Hangi `olaylar_ekNN.js` dosyasina gireceğini secmedim — dosya sahipligi §7, koordinatorun.",
+    "🔴 `zendler` govdesinin TAMAMINI okumadim: 1794 · 1789 · Lutf Ali · Aga Muhammed · Kirman gecen cumleleri ve son paragrafi okudum (12.168 karakterin bir bolumu).",
+    "🔴 Koordinatorun M-3005'te andigi «TDV Aga Muhammed Han'i 1786'da Cafer Han'i yenerken anlatiyor» cumlesini GOREMEDIM — okudugum `zendler` govdesinde 1786 gecmiyor. Curutmuyorum, BULAMADIM diyorum; baska bir maddede olabilir.",
+    "🔴 `duygu` ve `etiket` degerlerinin projedeki sozluge uygunlugunu ayrica olcmedim; mevcut 1796 maddesinin biciminden aldim.",
+    "🟢 `yer_id` OLCULDU ve DUZELTILDI — Bam atlasta YOK, Kirman VAR. Ayrintisi maddenin `_YER_ID_OLCULDU` alaninda."
+  ]
+}

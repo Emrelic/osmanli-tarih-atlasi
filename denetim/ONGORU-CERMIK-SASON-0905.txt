@@ -1,0 +1,106 @@
+ONGORU — CERMIK ve SASON nokta yamasi
+Oturum NEHIR SURTUNME · sevk 1.MURAT M-2929 · 5 Eylul 2026
+🔴 YAMA YAZILMADAN ve SINAVLAR KOSULMADAN once yazildi.
+
+═══════════════════════════════════════════════════════════════════
+① 🔴 EN ONEMLI BULGU: IKISI AYNI SINIFTA DEGIL
+═══════════════════════════════════════════════════════════════════
+Koordinator sordu: *"onceki kumeyle ayni sinif mi? Sason Bitlis
+yorungesinde — OLC, varsayma."*  OLCTUM, ve **haklı cikti:**
+
+CERMIK (38,140 · 39,452)   en yakin bes nokta
+   44,5 km Siverek · 66,3 Harput · 73,3 Diyarbakir · 74,7 Palu · 82,9 Kahta
+SASON  (38,323 · 41,243)   en yakin bes nokta
+   69,3 km Hasankeyf · 75,0 Siirt · 75,9 Bitlis · 99,2 Diyarbakir · 101,3 Midyat
+
+⇒ Sason'un yorungesinde Diyarbakir **DORDUNCU** sirada ve 99 km uzakta.
+  `diyarbakir` konvansiyonu Sason icin GECERSIZ.
+
+🔴 VE KAYNAK BUNU BAGIMSIZ OLARAK DOGRULUYOR — Karabulut kendi
+   listesinde ikisini AYRI gruplara koyuyor:
+   ZAZA mirlikleri  "Palu · Genc · Hazro · Cemisgezek · Atak · CERMIK"
+   oteki (Kurt)     "Cezire · Bitlis · Hasankeyf · Hizan · Sirvan · Siirt"
+   ve Sason bu ikinci grupla anilliyor ("Sasonlu Ali Bey" · "Hizanli Mir
+   Davud" · "Cizre Hukumdari Botanli Sah Ali Bey" ayni cumlede).
+   ⇒ **Sason bir Zaza mirligi DEGIL** — ne cografi ne grup olarak.
+
+═══════════════════════════════════════════════════════════════════
+② IKI FARKLI KONVANSIYON KULLANIYORUM — ve her biri damgali
+═══════════════════════════════════════════════════════════════════
+CERMIK → `diyarbakir` konvansiyonu (Zaza yedilisiyle AYNI)
+   1281→1303 ilhanli · 1303→1353 artuklu · 1353→1394 celayirli
+   1394→1401 timurlu · 1401→1507 akkoyunlu · 1507→1515-09-10 safevi
+   d: 1515-09-10
+SASON  → `bitlis` konvansiyonu (BIREBIR Bitlis'in zinciri)
+   1281→1351 ilhanli · 1351→1467 karakoyunlu · 1467→1502 akkoyunlu
+   1502→1515-09-15 safevi
+   d: 1515-09-15
+
+⚠️ Cermik'in bugunku EN YAKIN komsusu Siverek ve Siverek 1450'de
+   `memluk` — yani Cermik'in topragi su an MEMLUK boyaniyor. Kaynak
+   Cermik'i Akkoyunlu yorungesinde gosteriyor (1452'de Karakoyunlu
+   Rustem Bey "Ergani ve CERMIK kalelerine saldirdi" — yani Cermik
+   Akkoyunlu tarafiydi). ⇒ Bugunku emilme YANLIS YONE calisiyor.
+
+═══════════════════════════════════════════════════════════════════
+③ ONGORU — bes kalem
+═══════════════════════════════════════════════════════════════════
+① DEGISMEZ SAYILARI   hayalet +0 · 4c +0 · 4d +0 · kunyesiz +0
+   NEREDEN  `yama_sinav_yeni.py` (ekleme yolu olan surum)
+   GEREKCE  Cermik'in alti kimligi Zaza turunda OLCULDU ve pencereleri
+            tutuyor. Sason'un dordu: ilhanli 1256-1353 ⊇ 1281-1351 ·
+            karakoyunlu 1351-1469 ⊇ 1351-1467 · akkoyunlu 1340-1514 ⊇
+            1467-1502 · safevi 1501-07-01 ≤ 1502-01-01
+   MAZERET  YOK
+
+② YENI KIRILMA  0
+   GEREKCE  `1515-09-10` Diyarbakir'in `d:` baslangici (olculdu);
+            `1515-09-15` Bitlis'in `d:` baslangici (olculdu, veride
+            iki kez geciyor). CEKIRDEKTE madde: olaylar_ek.js
+            **1515-09-15** — Sason icin SIFIR gun, Cermik icin 5 gun.
+   MAZERET  YOK
+
+③ KAYBOLAN KIRILMA  0
+   GEREKCE  Yalniz YENI kayit; var olan hicbir `d:`/`v:` alanina
+            dokunulmuyor.
+   MAZERET  YOK
+
+④ 3 KM SINAVI  2/2 GECER
+   GEREKCE  en yakin mevcut nokta Cermik 44,5 km · Sason 69,3 km —
+            esigin ON KATI uzaginda. Bu sefer IKISI DE olculdu
+            (Zaza turunda Kigi ve Ergani olculmemisti ve bunu
+            ongoruye yazmistim).
+   MAZERET  YOK
+
+⑤ PETEK ETKISI  ⚪ **OLCULEMEZ** — motor gerekir, kosu 5b CANLI
+   YON      Cermik → **Siverek**'in petegi kuculur (44,5 km, en yakin)
+            Sason  → **Hasankeyf · Siirt · Bitlis** ucu birden kuculur
+   BUYUKLUK BILMIYORUM, tahmin ETMIYORUM
+   🔴 Bu kalem Zaza turunda da `OLCULEMEDI` kaldi ⇒ motor kosunca
+      IKISI BIRLIKTE sinanacak. `TUTTU`/`CURUDU` damgasi VURULMAZ.
+
+═══════════════════════════════════════════════════════════════════
+④ SARTLARA UYUM
+═══════════════════════════════════════════════════════════════════
+🔴 YENI KUNYE ONERMIYORUM (sevkin ④'u). `mirdasi` kunyesi YOK ve
+   Cermik'in beyi kaynakta "Sah Ali Bey MIRDISI (Cermikli)" diye
+   geciyor — yani Cermik de bir Mirdasi kolu. Kimlik yazilamiyor;
+   `akkoyunlu` SUZERENI gosteriyor. `v:` kimlik boslugunun BESINCI
+   vakasi.
+🔴 `data/*.js`ye DOKUNULMUYOR; yama `denetim/` altinda.
+🔴 Bunlar YENI KAYIT ⇒ merge'in ELLE listesine katilir.
+
+═══════════════════════════════════════════════════════════════════
+⑤ NE YAPMIYORUM
+═══════════════════════════════════════════════════════════════════
+OLCMEDIM   tarihi kale konumlarini — bugunku ilce merkezleri
+OLCMEDIM   Sason icin Hasankeyf mi Bitlis mi daha dogru konvansiyon:
+           uc komsu (Hasankeyf · Siirt · Bitlis) 6,6 km icinde ve
+           ZINCIRLERI FARKLI (Hasankeyf eyyubi 1281-1462 · Siirt
+           ilhanli→celayirli→karakoyunlu · Bitlis ilhanli→karakoyunlu).
+           **Bitlis'i sectim** cunku Sason kaynakta Bitlis emiriyle
+           ayni cumlede aniliyor ve Idris-i Bitlisi'nin turunda
+           "Diyarbakir, SASON, Hizan, Imadiyye" birlikte geciyor.
+           🔴 AMA BU BIR SECIM, BIR OLCUM DEGIL.
+ARAMADIM   TDV'de `cermik` ve `sason` sluglarini (butce; kaynak zaten
+           akademik ve `§4` bunu mesru kiliyor)

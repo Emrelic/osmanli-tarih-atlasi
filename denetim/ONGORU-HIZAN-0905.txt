@@ -1,0 +1,87 @@
+ONGORU — HIZAN nokta yamasi
+Oturum NEHIR SURTUNME · sevk 1.MURAT M-2935 · 5 Eylul 2026
+🔴 YAMA YAZILMADAN ve SINAVLAR KOSULMADAN once yazildi.
+
+═══════════════════════════════════════════════════════════════════
+① YORUNGE OLCULDU — ve Sason'dakinden GUCLU cikti
+═══════════════════════════════════════════════════════════════════
+HIZAN (38,224 · 42,424) en yakin bes nokta:
+   **33,9 km Bitlis** · 53,5 Siirt · 79,0 Sirnak · 90,0 Van · 101,5 Cizre
+
+🔴 BES KOMSUNUN BESI DE FARKLI ZINCIR tasiyor (5/5 imza) ⇒ konvansiyon
+   secimi veriyi BELIRLIYOR, ve bunu yine damgaliyorum.
+
+🟢 AMA SASON'DAN FARKLI OLARAK **UC AYRI DAYANAK AYNI YERE ISARET
+   EDIYOR** — ve farki yazmak onemli:
+   ① MESAFE  Bitlis 33,9 km · ikinci sirada Siirt **53,5 km**
+             ⇒ 20 km'lik ACIK ARA. Sason'da uc komsu 6,6 km icindeydi
+             ve secim gercekten belirsizdi; burada degil.
+   ② ZINCIR  Van (90 km) Bitlis ile 1281-1502 arasinda **AYNI zinciri**
+             tasiyor (ilhanli 1281-1351 · karakoyunlu 1351-1467 ·
+             akkoyunlu 1467-1502); yalniz Safevi sonu ayrisiyor
+             (Bitlis 1515-09-15 · Van 1548-08-25).
+             ⇒ Bolgenin iki noktasi bagimsiz olarak AYNI SEYI soyluyor.
+   ③ KAYNAK  Karabulut Hizan'i ADIYLA "Cezire · **Bitlis** · Hasankeyf ·
+             **HIZAN** · Sirvan · Siirt" grubunda sayiyor. Ve Idris-i
+             Bitlisi'nin turunda "Diyarbakir, Sason, **HIZAN**,
+             Imadiyye" birlikte geciyor.
+
+⇒ Secim YINE bir secim, ama Sason'dakinden **daha dayanakli**, ve fark
+  yamanin `not:` alaninda ACIKCA yazili.
+
+═══════════════════════════════════════════════════════════════════
+② KAYNAKLI CAPALAR — uc tane
+═══════════════════════════════════════════════════════════════════
+1507        "**Hizanli Mir Davud**", Sah Ismail'e baglilik bildiren on
+            bir Kurt yoneticisinden biri
+~1514-15    "**Hizan Emiri Davut Bey**", Idris-i Bitlisi araciligiyla
+            Osmanli tabiiyetini kabul eden yirmi bes emirden biri
+1515        "**Hizan hakimi Davud Bey**", Koruk savasi saf duzeninde
+            (Genc 2016:163-164)
+
+═══════════════════════════════════════════════════════════════════
+③ ONGORU — bes kalem
+═══════════════════════════════════════════════════════════════════
+① DEGISMEZ  hayalet +0 · 4c +0 · 4d +0 · kunyesiz +0
+   NEREDEN  `yama_sinav_yeni.py` (ekleme yolu)
+   GEREKCE  Dort kimlik: ilhanli 1256-1353 ⊇ 1281-1351 · karakoyunlu
+            1351-1469 ⊇ 1351-1467 · akkoyunlu 1340-1514 ⊇ 1467-1502 ·
+            safevi 1501-07-01 ≤ 1502-01-01. Dordu de TUTUYOR.
+   MAZERET  YOK
+② YENI KIRILMA  0
+   GEREKCE  `1515-09-15` Bitlis'in `d:` baslangici; veride ZATEN var
+            (olculdu, iki kez geciyor) ve CEKIRDEKTE ayni gun madde
+            var (olaylar_ek.js 1515-09-15, SIFIR gun uzaklikta).
+   MAZERET  YOK
+③ KAYBOLAN KIRILMA  0   — yalniz YENI kayit
+④ 3 KM SINAVI  1/1 GECER
+   GEREKCE  en yakin nokta 33,9 km — esigin on kati uzaginda
+   MAZERET  YOK
+⑤ PETEK ETKISI  ⚪ **OLCULEMEZ** (motor gerekir, kosu 5b CANLI)
+   YON      **Bitlis**'in petegi kuculur (33,9 km, ve ikinci komsudan
+            20 km daha yakin ⇒ etki agirlikli olarak TEK noktada)
+   BUYUKLUK BILMIYORUM, tahmin ETMIYORUM
+   🔴 Zaza ve Cermik/Sason turlarinda da acik kaldi ⇒ motor kosunca
+      **UCU BIRLIKTE** sinanacak.
+
+═══════════════════════════════════════════════════════════════════
+④ 🔴 PIRAN — ARANDI, YAZILMADI (kayit, ki ucuncu kez aranmasin)
+═══════════════════════════════════════════════════════════════════
+`Piran` (bugunku Dicle, Diyarbakir) atlasta YOK — olculdu.
+AMA kaynakta **TEK** anilmasi var ve o da bir YERLESIM kaydi degil bir
+**GUZERGAH**: *"Ahmet Cavus, **Palu - Piran - Egil** yolunu takip etti."*
+🔴 Bir guzergah anilmasi bir yerlesimin VARLIGINI gosterir ama
+   SIYASI TARIHINI vermez — ne beyi, ne tarihi, ne tabiiyeti.
+   Oteki dokuz merkezin hepsinde en az bir bey ADIYLA ve bir olay
+   TARIHIYLE vardi; Piran'da HICBIRI yok.
+⇒ **YAZILMADI.** Koordinator de ayni hukumde (M-2935 ⑤).
+⇒ Bu satir bir sonraki oturum ucuncu kez aramasin diye buraya kondu.
+
+═══════════════════════════════════════════════════════════════════
+⑤ NE YAPMIYORUM
+═══════════════════════════════════════════════════════════════════
+YENI KUNYE ONERMIYORUM — `hizan` kunyesi TARANDI, YOK. Hizan emirligi
+   kendi adiyla yazilamiyor; `karakoyunlu`/`akkoyunlu` SUZERENI
+   gosteriyor. `v:` kimlik boslugunun ALTINCI vakasi.
+OLCMEDIM  tarihi kale konumunu (bugunku ilce merkezi kullanildi)
+ARAMADIM  TDV `hizan` slugunu (butce; kaynak akademik, `§4` mesru kilar)

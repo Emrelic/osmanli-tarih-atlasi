@@ -144,19 +144,19 @@ window.YERLESIMLER_EK7 = [
   s:[{f:"1281-01-01",t:"1561-11-28",d:"almanya"},{f:"1561-11-28",t:"1772-08-05",d:"lehistan"},{f:"1772-08-05",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-11-11",d:"sovyet-rusya"},{f:"1918-11-11",t:"1923-10-29",d:"letonya"}] },
 
 // ── LİTVANYA — Vilnius'un zinciri ───────────────────────────────────
-{ ad:"Kaunas", tur:"sehir", lat:54.897, lon:23.886, g:0, k:1,kd:[{f:"1918-02-16",t:"1923-10-29",k:1,m:null}], d:[],
-  s:[{f:"1281-01-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-02-16",d:"sovyet-rusya"},{f:"1918-02-16",t:"1923-10-29",d:"litvanya"}] },
-{ ad:"Šiauliai", tur:"sehir", lat:55.934, lon:23.315, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-02-16",d:"sovyet-rusya"},{f:"1918-02-16",t:"1923-10-29",d:"litvanya"}] },
+{ ad:"Kaunas",kaynak:"polonya", tur:"sehir", lat:54.897, lon:23.886, g:0, k:1,kd:[{f:"1918-02-16",t:"1923-10-29",k:1,m:null}], d:[],
+  s:[{f:"1281-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-02-16",d:"sovyet-rusya"},{f:"1918-02-16",t:"1923-10-29",d:"litvanya"}] },
+{ ad:"Šiauliai",kaynak:"polonya", tur:"sehir", lat:55.934, lon:23.315, g:0, k:3, d:[],
+  s:[{f:"1281-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1795-10-24",d:"lehistan"},{f:"1795-10-24",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-02-16",d:"sovyet-rusya"},{f:"1918-02-16",t:"1923-10-29",d:"litvanya"}] },
 // ⚠️ Memel Litvanya DEĞİL: Töton/Prusya toprağıdır ve 1923 Ocak'a kadar
 //    Almanya'dadır. Königsberg'in zinciri kullanıldı.
 { ad:"Klaipėda (Memel)", tur:"liman", lat:55.703, lon:21.144, g:0, k:3, d:[],
   s:[{f:"1281-01-01",t:"1701-01-18",d:"almanya"},{f:"1701-01-18",t:"1871-01-18",d:"prusya"},{f:"1871-01-18",t:"1923-10-29",d:"almanya"}] },
 
 // ── LİTVANYA BÜYÜK DUKALIĞI'NIN DOĞUSU — birinci taksim ─────────────
-{ ad:"Polotsk", tur:"sehir", lat:55.485, lon:28.786, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1772-08-05",d:"lehistan"},{f:"1772-08-05",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
-{ ad:"Vitebsk", tur:"sehir", lat:55.191, lon:30.206, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1772-08-05",d:"lehistan"},{f:"1772-08-05",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+{ ad:"Polotsk",kaynak:"polonya", tur:"sehir", lat:55.485, lon:28.786, g:0, k:3, d:[],
+  s:[{f:"1281-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1772-08-05",d:"lehistan"},{f:"1772-08-05",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+{ ad:"Vitebsk",kaynak:"polonya", tur:"sehir", lat:55.191, lon:30.206, g:0, k:3, d:[],
+  s:[{f:"1281-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1772-08-05",d:"lehistan"},{f:"1772-08-05",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 ];

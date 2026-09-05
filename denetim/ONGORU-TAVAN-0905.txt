@@ -1,0 +1,88 @@
+═══════════════════════════════════════════════════════════════════════
+TAVAN ÖNGÖRÜSÜ — düzeltilmiş veri üzerinde
+Oturum NEHİR SÜRTÜNME · sevk 1.MURAT (a) · 5 Eylül 2026
+═══════════════════════════════════════════════════════════════════════
+
+🔴 BU BİR TAHMİN DEĞİL, BİR SİMÜLASYON.
+   Sevk "ölç, tahmin etme" dedi. İki yamanın mantığı + Mısır düzeltmesi
+   scratchpad'de BELLEKTE uygulandı; `data/*.js` ve `arac/denetle.py`
+   dosyalarına DOKUNULMADI (ikisi de koşu 5b sırasında yasak).
+   Betik: scratchpad/tavan_olc.py · girdi: `girdi.yukle()` (motorun kendi
+   okuyucusu, regex DEĞİL — §11 "veri kendi dilinde ayrıştırılır").
+
+───────────────────────────────────────────────────────────────────────
+① ÖLÇÜM
+───────────────────────────────────────────────────────────────────────
+
+                        BUGÜN        MISIR DÜZELTMESİNDEN SONRA
+   hayalet (Değişmez 4)    16      →      9        (−7)
+   4c (künye ölümünü aşan) 287     →    287        (değişmedi)
+   4d (künye doğumundan    467     →    467        (değişmedi)
+       önce başlayan)
+   künyesiz                  2      →      2
+
+   Mısır düzeltmesi: `isg:` alanında `d:"fransa"`, `f:` 1798 ile başlayan
+   7 kayıt → `fransa-cumhuriyet`. Bellekte uygulandı, 7 kayıt değişti.
+
+🟢 NİÇİN 4c/4d KIPIRDAMIYOR — ve bunu önceden yazıyorum:
+   Düzeltilen 7 kayıt bugün ihlal kovasında `continue` ile çıkıyor, yani
+   ③/④ dallarına HİÇ ulaşmıyor. Düzeltildikten sonra dönem (1798-1801)
+   künyenin (1792-09-22 → 1923-10-29) TAM İÇİNDE kalıyor:
+      kt = 1923-10-29  ⇒  `kt < ATLAS_SONU` YANLIŞ  ⇒  4c dalı atlanır
+      kf = 1792-09-22  ⇒  g4 = 1792 − 1798 NEGATİF  ⇒  4d dalı ötmez
+   ⇒ Ne ihlal, ne 4c, ne 4d. Temiz geçiyor.
+
+───────────────────────────────────────────────────────────────────────
+② TAVAN KARARI — ÜÇÜNDEN YALNIZ İKİSİ HAREKET ETMELİ
+───────────────────────────────────────────────────────────────────────
+
+   sabit                bugünkü   ölçülen   kapı        gereken
+   ───────────────────────────────────────────────────────────────────
+   BEKLENEN_HAYALET        8         9      🔴 AŞIYOR   →  9
+   BEKLENEN_ASAN         280       287      🔴 AŞIYOR   → 287
+   BEKLENEN_ONCE         468       467      🟢 GEÇİYOR  → DOKUNMA
+
+🔴 ÜÇÜNCÜSÜ ÖNEMLİ VE KOLAY GÖZDEN KAÇAR: `4d` 434 → 467 diye ARTIYOR
+   ama tavan 468'di ⇒ **bir kayıt payla geçiyor.** Tavanı yükseltmek
+   GEREKMİYOR, ve gereksiz yükseltmek gerçek bir gerilemeyi görünmez
+   kılardı. Pay 1 kayıt — dar. Bir sonraki veri partisi onu aşabilir;
+   o zaman ölçülüp yükseltilir, ŞİMDİ DEĞİL.
+
+⚠️ İki tavan `sys.exit(1)` üretiyor (:3407 ve :3445 → :3754). Yamalar
+   tavanlar güncellenmeden uygulanırsa YAYIN ZİNCİRİ DURUR.
+   ⇒ Sıra: ① Mısır `isg:` düzeltmesi → ② iki yama → ③ iki tavan.
+   Üçü AYNI commit'te olmalı; arada bir koşu olursa kapı kapanır.
+
+───────────────────────────────────────────────────────────────────────
+③ KALAN 9 HAYALET — ve 8'i TEK BİR KİMLİKTEN
+───────────────────────────────────────────────────────────────────────
+
+   Tarki (Tarku)                   s   iran
+   Ağraham burnu                   s   iran
+   Derbend                         s   iran
+   Hürmüz Adası                    s   iran
+   Kişm (Qeshm)                    s   iran
+   Kiş (Kish)                      s   iran
+   Dihistan ovası (Meşhed-i Mis…)  s   iran     🆕 sevkte YOKTU
+   Kızılarvat                      s   iran     🆕 sevkte YOKTU
+   Leş (Alessio)                   s   arnavutluk
+
+🔴 SEVKİN ÖNCÜLÜ ÇÜRÜDÜ: sevk "ALTI nokta" diyordu, ölçüm SEKİZ diyor.
+   Fazladan ikisi Türkmenistan'ın Hazar kıyısında (Dihistan ovası ·
+   Kızılarvat) — Kaspi/Körfez kümelerinin hiçbirine girmiyorlar, ve
+   (b) işinin kapsamı onlarsız yazılmıştı.
+   📌 §11: "devraldığın öncülü ölçmeden aktarma" — ölçtüm, çürüdü.
+
+🟡 Ve 9'uncusu (`Leş`) ayrı bir sınıf olabilir — HAYALET değil KÜNYE
+   TANECİĞİ. ÖLÇMEDİM; `YAMA-DENETLE-HARITA-0905.md §②`de kayıtlı.
+
+───────────────────────────────────────────────────────────────────────
+ÖLÇMEDİKLERİM
+───────────────────────────────────────────────────────────────────────
+ÖLÇEMEDİM  yamaları GERÇEKTEN uygulayıp `denetle.py` koşturmayı —
+           `denetle.py` koşu 5b sırasında yasak. Sayılar denetle.py
+           mantığının BAĞIMSIZ yeniden kurulumuyla alındı; birebir
+           uyuşma `isg:` turunda doğrulanmıştı (8=8, künyesiz 899=899).
+ÖLÇMEDİM   yayın kapısının (`denetle_yayin.py`) bu üç sabite bakıp
+           bakmadığını — yalnız `denetle.py`nin çıkış kodunu ölçtüm.
+ÖLÇMEDİM   `Leş` ve iki yeni Türkmen noktasının doğru kimliğini.

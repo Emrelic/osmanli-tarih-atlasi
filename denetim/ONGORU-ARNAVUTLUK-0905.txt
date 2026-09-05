@@ -1,0 +1,171 @@
+═══════════════════════════════════════════════════════════════════════
+ÖNGÖRÜ — `arnavutluk` üçlüsü (Leş · Akçahisar/Kruja · Mat)
+Oturum NEHİR SÜRTÜNME · sevk 1.MURAT M-2783 ⑥ · 5 Eylül 2026 · 06:3x
+═══════════════════════════════════════════════════════════════════════
+
+🔴 BU DOSYA, TDV `akcahisar` ve `mat` GÖVDELERİ OKUNMADAN **ÖNCE**
+   YAZILDI. Ölçümden sonra yazılan bir beklenti ona göre şekillenir ve
+   hiçbir şey öğretmez. Damga: yazıldığı an, çekilen tek kaynak TDV `les`
+   (M-2782 turunda okundu). `akcahisar` ve `mat` HENÜZ AÇILMADI.
+
+───────────────────────────────────────────────────────────────────────
+BUGÜNKÜ TABAN (ölçüldü, M-2782 turunda)
+───────────────────────────────────────────────────────────────────────
+   hayalet  9      (tavan 9)
+   4c     287      (tavan 287)
+   4d     467      (tavan 468 — pay 1 KAYIT)
+   künyesiz 2      (ikisi de `__BOSLUK__`)
+
+   Leş     s: arnavutluk 1281-01-01 → 1393-05-01   → 🔴 hayalet (kesişim YOK)
+   Kruja   s: arnavutluk 1281-01-01 → 1478-06-15   → 🟡 4d
+   Mat     s: arnavutluk 1281-01-01 → 1478-06-15   → 🟡 4d
+
+───────────────────────────────────────────────────────────────────────
+ÖNGÖRÜLER — her biri: ① NE ② MAZERET ③ HANGİ ÇIKTI/BİRİM ④ NEYE KARŞI
+───────────────────────────────────────────────────────────────────────
+
+① hayalet  9 → **8**
+   ② MAZERET YOK. Leş `arnavutluk` kullanan tek hayalet; kimliği
+     değişince kovadan çıkmak ZORUNDA. Çıkmazsa yamam yanlış yazılmıştır.
+   ③ scratchpad simülatörü (`tavan_olc.py` türevi) · birim: KAYIT ADEDİ
+   ④ Mısır düzeltmesi uygulanmış taban (9) karşısında
+
+② 4d  467 → **465**
+   ② 🟡 MAZERET VAR ve şimdiden yazıyorum: bu sayı, Kruja ve Mat'ın
+     1281 başlangıcının `sirbistan-nemanjic`e (kf 1217-01-01) bağlanmasına
+     DAYANIYOR. 1217 < ATLAS_BASI (1281) ⇒ `kf > ATLAS_BASI` guard'ı
+     YANLIŞ ⇒ 4d dalı ATLANIR. Eğer TDV Kruja/Mat için 1281'de
+     BAŞKA bir kimlik gösterirse ve o künyenin `f:`i 1281'den SONRAYSA,
+     ikisi 4d'de KALIR ve sayı 467'de sabit çıkar.
+     ⇒ 467 çıkması yamanın yanlış olduğunu göstermez; **kimliğin farklı
+       çıktığını** gösterir. Ama 468'den BÜYÜK çıkarsa mazeret YOK.
+   ③ aynı simülatör · birim: KAYIT ADEDİ
+   ④ 467 karşısında
+
+③ künyesiz  2 → **2 ya da 3**
+   ② MAZERET YOK ama BANT var: Leş'in 1387-1393 dilimi TDV'ye göre
+     **Dukagin Prensliği**ne ait ve o künye YOK (tarandı: bals · dukagin ·
+     dukagjin · zeta · topia · kastriyot → yalnız `zeta` çıktı).
+     Ayrı künye önerirsem 2'de kalır; öneremezsem 3 olur.
+     🔴 3 çıkarsa bu bir KUSUR DEĞİL, bir BEYAN — ve yamada öyle yazılacak.
+   ③ aynı simülatör
+   ④ 2 karşısında
+
+④ 4c  287 → **287** (değişmez)
+   ② MAZERET YOK. Üç dönemin de `t:`i künye ölümünü aşmıyor ve
+     adayların hiçbirinin `t:`i ATLAS_SONU'ndan küçük+uzak değil.
+     Değişirse bir aday künyeyi yanlış seçmişim demektir.
+   ③ aynı simülatör
+   ④ 287 karşısında
+
+⑤ TDV `akcahisar` ve `mat` sluglarının DURUMU
+   ① BANT: ikisinden **en az biri** 200 döner. `akcahisar` Osmanlı
+     kaynaklarında yaygın bir ad (Kruja) ⇒ 200 bekliyorum; `mat` kısa ve
+     genel bir kelime ⇒ `§4②` "canlı slug yanlış madde" riski YÜKSEK.
+   ② 🟡 MAZERET VAR: ikisi de 302 dönerse bu bir kapsam boşluğudur,
+     yamanın kusuru değil — ve o zaman `les` gövdesinden ÇIKARIM yapmak
+     yerine `bulunamadı` yazacağım.
+   ③ `curl -o /dev/null -w "%{http_code}"` · birim: HTTP KODU
+   ④ ölçüm yok, ilk kez ölçülüyor
+
+🔴 ⑥ EN RİSKLİ ÖNGÖRÜ — ve mazereti YOK:
+   ① Kruja ve Mat'ın `t:1478-06-15` değeri TDV tarafından
+     **DESTEKLENMEYECEK** (Leş için TDV Osmanlı fethini 1468 veriyor).
+   ② MAZERET YOK. M-2782'de bunu *"Kruja'dan ödünç alınmış OLABİLİR —
+     TAHMİN, kanıt değil"* diye damgalamıştım. Bu tur o damgayı
+     ÇÖZECEK: ya kaynakla doğrulanır ya çürür.
+   ⚠️ VE DİKKAT: `1478-06-15` KRUJA'NIN KENDİ düşüş günüyse Kruja için
+     DOĞRU, Leş ve Mat için ÖDÜNÇ demektir. Yani öngörü "üçü de yanlış"
+     DEĞİL — "en az ikisi ödünç" .
+
+───────────────────────────────────────────────────────────────────────
+BAĞLAYICI KISIT (koordinatörden, M-2783 ④)
+───────────────────────────────────────────────────────────────────────
+🔴 LEŞ TEK BAŞINA DÜZELTİLMEYECEK. Tek başına düzeltilirse Leş 4d'ye
+   girer ⇒ 467 → 468 = tavana TAM OTURUR, payı SIFIRLAR.
+   Üçü AYNI yamada, ya hep ya hiç.
+
+───────────────────────────────────────────────────────────────────────
+ŞİMDİDEN YAZIYORUM — NEYİ ÖLÇEMEYECEĞİM
+───────────────────────────────────────────────────────────────────────
+ÖLÇEMEYECEĞİM  yamayı gerçekten `data/`ye indirip `denetle.py` koşturmayı
+               (ikisi de koşu 5b sırasında yasak). Bütün sayılar
+               denetle.py mantığının BAĞIMSIZ yeniden kurulumundan.
+               Birebir uyum `isg:` turunda doğrulanmıştı (8=8, künyesiz
+               899=899) — ama bu bir DEVRALINAN doğrulama, bu tur için
+               YENİDEN yapılmadı.
+
+═══════════════════════════════════════════════════════════════════════
+SINAV SONUCU — öngörü yazıldıktan SONRA ölçüldü (aynı gün, 06:4x)
+═══════════════════════════════════════════════════════════════════════
+
+   kalem      öngörü        ölçüm    sonuç        tavan
+   ────────────────────────────────────────────────────────────────
+   ① hayalet   8             8       🟢 TUTTU     9   🟢 geçer
+   ② 4d      465           466       🔴 ÇÜRÜDÜ  468   🟢 geçer
+   ③ künyesiz  2 ya da 3     2       🟢 BANTTA    —
+   ④ 4c      287           287       🟢 TUTTU   287   🟢 geçer
+   ⑤ slug    "en az biri 200"        🟢 TUTTU
+             akcahisar 200 · mat 302 · kruja 302 · arnavutluk 200
+   ⑥ 1478-06-15 desteklenmeyecek     🟡 KISMEN — aşağıda
+
+───────────────────────────────────────────────────────────────────────
+② NİÇİN ÇÜRÜDÜ — ve mazereti ÖNCEDEN yazılmıştı
+───────────────────────────────────────────────────────────────────────
+Öngörü 465 diyordu ve mazereti şuydu:
+   *"Eğer TDV Kruja/Mat için başka bir kimlik gösterirse … ikisi 4d'de
+     KALIR ve sayı 467'de sabit çıkar."*
+
+Gerçekleşen **üçüncü** hâl: Kruja çözüldü (4d'den çıktı), **Mat
+çözülemedi.** `mat` slug'ı 302 · `kruya` gövdesi Mat için hiçbir tarih
+vermiyor · `arnavutluk` gövdesi Mat'ı hiç anmıyor ⇒ `bulunamadı`.
+⇒ 467 − 1 = **466.** Mat 4d'de KALIYOR ve yamada öyle beyan edildi.
+
+📌 Mazeret bandı iki uçluydu (465 ya da 467); ölçüm **ortaya** düştü.
+Bandı önceden yazmak sonucu açıklamamı sağladı, ama bandın kendisi
+eksikti — *"ikisi de çözülür ya da ikisi de çözülmez"* varsayıyordu.
+***Bir mazeret bandı, ARA HÂLLERİ de saymalı.***
+
+───────────────────────────────────────────────────────────────────────
+🔴 ⑥ — MAZERETSİZ ÖNGÖRÜ, ve YARISI ÇÜRÜDÜ
+───────────────────────────────────────────────────────────────────────
+Öngörü: *"Kruja ve Mat'ın `t:1478-06-15` değeri TDV tarafından
+DESTEKLENMEYECEK."*
+
+TDV `kruya` **günü verdi**: *"15 Rebîülevvel 883'te (16 HAZİRAN 1478)
+fethedildi"*
+```
+veri  1478-06-15        TDV  1478-06-16        ⇒ BİR GÜN fark
+```
+⇒ Tarih **yanlış çıktı** — ama öngördüğüm sebepten DEĞİL. Ben *"ödünç
+alınmış, yıl bile tutmayabilir"* bekliyordum; gerçek **yılı doğru, günü
+bir gün kaymış** bir kayıt. Yani hüküm (yanlış) tuttu, **mekanizma
+tutmadı.**
+📌 Bu gece bu ailenin üçüncü vakası, ve `§11`in kendi dersi:
+***sayı tuttu diye mekanizma doğrulanmış sayılmaz*** — burada tersi:
+**yön tuttu, sebep tutmadı.**
+
+⚠️ VE DÜZELTME UYGULANMADI: aynı `1478-06-15` günü Leş ve Mat'ta da
+duruyor. Tek noktada değiştirmek üç noktayı bir gün ayırırdı.
+`§11`: *"iki ayrı kusur tek satırda raporlanırsa aynı çare uygulanır."*
+⇒ AYRI kalem olarak bildirildi.
+
+───────────────────────────────────────────────────────────────────────
+BİÇİM SINAVI (M-2779) — KOŞULDU
+───────────────────────────────────────────────────────────────────────
+`py denetim/ARAC-YAMA-JS-SINA-0905-kos.py`
+   YER_YAMA_ARNAVUTLUK · 2 kayıt · **yedi şartın hiçbirinde uyarı YOK**
+   (karşılaştırma: aynı koşuda `yer_yama_1923_yeni.js` altı kayıtta
+    uyarı veriyor — sınav gerçekten ötüyor, sessiz geçmiyor)
+
+───────────────────────────────────────────────────────────────────────
+YAN BULGU — `§4`ün ALTINCI TUZAĞI, doğduğu günün ERTESİ GÜNÜ tekrar
+───────────────────────────────────────────────────────────────────────
+`akcahisar` slug'ı **200** döner ve gövdesinin tamamı bir ADRESTİR:
+   *"Arnavutluk'ta Osmanlı döneminde Akçahisar adıyla anılan tarihî bir
+     kasaba ve kale."* + **bk. KRUYA**
+⇒ `dahomey` vakasının (4 Eylül, `KRONOLOJİ AFRİKA GÖVDE`) birebir
+tekrarı: slug canlı · gövde geliyor · boş değil · yanlış konu da değil —
+ama bir **madde değil bir YÖNLENDİRME.** Bir HTTP taraması bundan
+*"TDV Akçahisar'ı kapsıyor"* hükmü çıkarırdı.
+🟢 Yönlendirme izlendi: `kruya` gövdesi altı kimlik + bir GÜN verdi.

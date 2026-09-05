@@ -1,0 +1,574 @@
+{
+  "oturum": "KRONOLOJI BOS KUNYE (yerleşim kolu)",
+  "damga": "2026-09-05 03:12 · dördüncü yol uygulandı (M-2711)",
+  "kapsam": "Doğu Asya — ölçülmüş üç boşluk kümesi: Amur/Mançurya · İç Moğolistan · Doğu Tibet (Kham)",
+  "bosluk_olcumu": {
+    "kutu": "18-54K / 100-146D",
+    "kutudaki_mevcut_nokta": 177,
+    "kara_hucresi_1derece": 976,
+    "en_yakin_noktaya_ortalama": "143 km",
+    "200km_uzaktaki_hucre": "232 (%24)",
+    "en_bos_kumeler": [
+      "Amur-Ussuri 50-54K/130-137D (340-440 km)",
+      "Doğu Tibet 28-34K/100-102D (340-400 km)",
+      "İç Moğolistan 44-45K/118-121D (370-385 km)"
+    ],
+    "kara_maskesi": "ne_10m_land (GİRDİ maskesi; motor_kara ÇIKTIdır)"
+  },
+  "mukerrer_sinavi": {
+    "denenen_aday": 32,
+    "3km_icinde_mukerrer_cikip_DUSEN": 11,
+    "dusenler": [
+      "Albazin 0,20 km",
+      "Aigun 0,40 km",
+      "Blagoveşçensk 1,17 km",
+      "Habarovka 0,00 km",
+      "Nikolayevsk 0,00 km",
+      "Vladivostok 0,69 km",
+      "Qiqihar 0,47 km",
+      "Nerçinsk 3 km",
+      "Ningguta 0,80 km",
+      "Udskoy ostrogu 1,29 km",
+      "Ohotsk 2,47 km"
+    ],
+    "🔴_ders": "32 adayın 11'i (%34) ATLASTA ZATEN VARDI. «Eksik» sanılan bir bölge, ölçülmeden iş listesine alınamaz.",
+    "🔴_aletimin_kendi_yanlisi": "Ad eşleştiricim ÜÇ yanlış pozitif verdi: «Hailar»→«Hâil» (192 km), «Batang»→«Batangas» (224 km), «Nerçinsk» (bu GERÇEKTİ). Sebep: kısa dizginin uzun içinde geçmesini eşleşme saymak. ⇒ DÜZELTME: ad eşleşmesi ancak MESAFE de yakınsa (<50 km) anlamlıdır; 192 km ötedeki bir ad benzerliği mükerrer değil EŞADLILIKTIR. İki aday bu yüzden haksız yere elenmişti, geri alındı."
+  },
+  "kural": "Her noktanın `s:` zinciri kaynağın desteklediği EN ERKEN günden başlar; kaynak yoksa `kur:` YAZILMAZ ve `s:` başlangıcının neye dayandığı `dayanak` alanında yazılır.",
+  "kimlik_sinavi": "Kullanılan kimlikler girdi.oku_devletler() ile SINANDI: qing-hanedani · cin-cumhuriyeti · rusya · yuan-hanedani · kuzey-yuan · tibet · tibet-ganden-phodrang — YEDİSİ DE GERÇEK.",
+  "noktalar": [
+    {
+      "ad": "Hunçun",
+      "lat": 42.87,
+      "lon": 130.36,
+      "kaynak": "Cambridge/Brill — Qing Mançurya garnizon literatürü (Journal of Chinese History, «Qing Military Institutions…»; Brill, Inner Asia, «Milk, Game or Grain for a Manchurian Outpost»; Oxford RE of Asian History, «Manchuria in Modern East Asia, 1600s–1949») — AYNEN: «The Qing court founded a garrison at Hunchun in 1714.» 🟢 YIL KAYNAKLI ve kesin. 🔴 GÜN YOK ⇒ YYYY-01-01.",
+      "s": [
+        {
+          "d": "qing-hanedani",
+          "f": "1714-01-01",
+          "t": "1912-02-12"
+        },
+        {
+          "d": "cin-cumhuriyeti",
+          "f": "1912-02-12",
+          "t": "1923-10-29"
+        }
+      ],
+      "kur": "1714-01-01"
+    },
+    {
+      "ad": "Hailar (Hulunbuir)",
+      "lat": 49.21,
+      "lon": 119.7,
+      "kaynak": "Cambridge/Brill — Qing Mançurya garnizon literatürü (Journal of Chinese History, «Qing Military Institutions…»; Brill, Inner Asia, «Milk, Game or Grain for a Manchurian Outpost»; Oxford RE of Asian History, «Manchuria in Modern East Asia, 1600s–1949») — AYNEN: «The Hulun Buir garrison was established in 1731-32, with the main long-term issue being to 'protect the direct route from Russia'.» 🔴 KAYNAK ARALIK VERİYOR (1731-32); aralığın ERKEN ucu alındı ve bu bir SEÇİMDİR, kaynakta tek yıl YOK.",
+      "s": [
+        {
+          "d": "qing-hanedani",
+          "f": "1731-01-01",
+          "t": "1912-02-12"
+        },
+        {
+          "d": "cin-cumhuriyeti",
+          "f": "1912-02-12",
+          "t": "1923-10-29"
+        }
+      ],
+      "kur": "1731-01-01"
+    },
+    {
+      "ad": "Petuna (Bedune)",
+      "lat": 45.14,
+      "lon": 124.82,
+      "kaynak": "Cambridge/Brill — Qing Mançurya garnizon literatürü (Journal of Chinese History, «Qing Military Institutions…»; Brill, Inner Asia, «Milk, Game or Grain for a Manchurian Outpost»; Oxford RE of Asian History, «Manchuria in Modern East Asia, 1600s–1949») — AYNEN: «Patuna was established around 1726.» 🔴 KAYNAK «around» DİYOR — yıl YAKLAŞIK. `kur:` yine de yazıldı çünkü yazılmazsa nokta 1281'den beri SAHİPSİZ görünür (Değişmez 1); ama yaklaşıklık burada AÇIKÇA duruyor ve koordinatör düşürebilir.",
+      "s": [
+        {
+          "d": "qing-hanedani",
+          "f": "1726-01-01",
+          "t": "1912-02-12"
+        },
+        {
+          "d": "cin-cumhuriyeti",
+          "f": "1912-02-12",
+          "t": "1923-10-29"
+        }
+      ],
+      "kur": "1726-01-01"
+    },
+    {
+      "ad": "Sanşing (Yilan)",
+      "lat": 46.32,
+      "lon": 129.57,
+      "kaynak": "Cambridge/Brill — Qing Mançurya garnizon literatürü (Journal of Chinese History, «Qing Military Institutions…»; Brill, Inner Asia, «Milk, Game or Grain for a Manchurian Outpost»; Oxford RE of Asian History, «Manchuria in Modern East Asia, 1600s–1949») — Sanxing (bugünkü Yilan) Mudan ve Sungari nehirlerinin birleştiği yerde Qing'in kürk haracı toplama noktasıydı. 🔴 KURULUŞ YILI BULUNAMADI ⇒ `kur:` YAZILMADI.",
+      "s": [
+        {
+          "d": "qing-hanedani",
+          "f": "1636-05-15",
+          "t": "1912-02-12"
+        },
+        {
+          "d": "cin-cumhuriyeti",
+          "f": "1912-02-12",
+          "t": "1923-10-29"
+        }
+      ],
+      "dayanak": "`s:` başlangıcı Qing künyesinin kendi başlangıcıdır, yerleşimin kuruluşu DEĞİL — kaynak o tarihi vermiyor.",
+      "kasitli_bosluk": true,
+      "bos": "veri-yok",
+      "neden": "Kullandigim akademik kaynaklar bu pencerede bolgenin siyasi orgutlenmesini HIC TARTISMIYOR — sustuklari icin `veri-yok`. `devletsiz` DEGIL: kaynak «burada devlet yoktu» DEMIYOR, hic konusmuyor. Ikisini karistirmadim."
+    },
+    {
+      "ad": "Mergen (Nenjiang)",
+      "lat": 49.18,
+      "lon": 125.22,
+      "kaynak": "Cambridge/Brill — Qing Mançurya garnizon literatürü (Journal of Chinese History, «Qing Military Institutions…»; Brill, Inner Asia, «Milk, Game or Grain for a Manchurian Outpost»; Oxford RE of Asian History, «Manchuria in Modern East Asia, 1600s–1949») — Mergen, Heilongjiang boyunca kurulan Qing garnizon hattının halkalarından biri. 🔴 KURULUŞ YILI BULUNAMADI ⇒ `kur:` YAZILMADI. 🟡 Yaygın literatür 1685-1690 arası verir ama akademik kaynakta AYNEN göremedim, yazmadım.",
+      "s": [
+        {
+          "d": "qing-hanedani",
+          "f": "1636-05-15",
+          "t": "1912-02-12"
+        },
+        {
+          "d": "cin-cumhuriyeti",
+          "f": "1912-02-12",
+          "t": "1923-10-29"
+        }
+      ],
+      "dayanak": "aynı gerekçe: Qing künyesinin başlangıcı.",
+      "kasitli_bosluk": true,
+      "bos": "veri-yok",
+      "neden": "Kullandigim akademik kaynaklar bu pencerede bolgenin siyasi orgutlenmesini HIC TARTISMIYOR — sustuklari icin `veri-yok`. `devletsiz` DEGIL: kaynak «burada devlet yoktu» DEMIYOR, hic konusmuyor. Ikisini karistirmadim."
+    },
+    {
+      "ad": "Nikolsk (Ussuriysk)",
+      "lat": 43.8,
+      "lon": 131.95,
+      "kaynak": "Cambridge, Modern Asian Studies — «Material States: China, Russia, and the incorporation of a cross-border indigenous people» (Ussuri havzasının Rus idaresine geçişi). 🔴 KURULUŞ GÜNÜ/YILI AYNEN BULUNAMADI ⇒ `kur:` YAZILMADI. `s:` başlangıcı Pekin Antlaşması'nın (1860) Ussuri bölgesini Rusya'ya bıraktığı tarihe değil, ATLASTA ZATEN KULLANILAN Vladivostok deseni dikkate alınarak 1860-11-14'e konuldu — 🔴 BU TARİHİ BEN DOĞRULAMADIM.",
+      "s": [
+        {
+          "d": "rusya",
+          "f": "1860-11-14",
+          "t": "1917-03-15"
+        }
+      ],
+      "dayanak": "🔴 `rusya` künyesi 1917-03-15'te bitiyor; 1917-1923 arası ardıl kimlik ATANMADI — koordinatör kapatmalı.",
+      "kasitli_bosluk": true,
+      "bos": "kabile",
+      "neden": "Ussuri havzasi bu pencerede klan/boy orgutlenmesi altindaydi; kaynak (Cambridge, Modern Asian Studies — «Material States: China, Russia, and the incorporation of a CROSS-BORDER INDIGENOUS PEOPLE») bu halklari ACIKCA konu ediyor ⇒ kaynak SUSMUYOR, merkezi devlet de tarif etmiyor. `veri-yok` DEGIL."
+    },
+    {
+      "ad": "Şangdu (Kaiping)",
+      "lat": 42.36,
+      "lon": 116.18,
+      "kaynak": "Yuan hânedanının yazlık başkenti (Kaiping/Şangdu). 🔴 KURULUŞU ATLAS PENCERESİNDEN ÖNCE (1256) ⇒ `kur:` YAZILMADI, pencere muafiyeti. 🔴 Ming'in 1369'da şehri alışı ve sonrasındaki terk edilişi için AYNEN alıntı BULAMADIM ⇒ `s:` yalnız Yuan dönemini taşıyor, sonrası AÇIK BIRAKILDI.",
+      "s": [
+        {
+          "d": "yuan-hanedani",
+          "f": "1281-01-01",
+          "t": "1368-09-14"
+        },
+        {
+          "d": "kuzey-yuan",
+          "f": "1368-09-14",
+          "t": "1369-01-01"
+        }
+      ],
+      "kasitli_bosluk": true,
+      "bos": "veri-yok",
+      "neden": "Kullandigim akademik kaynaklar bu pencerede bolgenin siyasi orgutlenmesini HIC TARTISMIYOR — sustuklari icin `veri-yok`. `devletsiz` DEGIL: kaynak «burada devlet yoktu» DEMIYOR, hic konusmuyor. Ikisini karistirmadim."
+    },
+    {
+      "ad": "Dolonnor (Duolun)",
+      "lat": 42.19,
+      "lon": 116.48,
+      "kaynak": "Qing–Halha ilişkilerinin düğüm noktası; 1691 Dolonnor kurultayında Halha Moğolları Qing hâkimiyetini kabul etti. 🔴 KURULTAYIN GÜNÜ ve kasabanın kuruluş yılı AYNEN BULUNAMADI ⇒ `kur:` YAZILMADI, `s:` 1691 yılına dayandırıldı.",
+      "s": [
+        {
+          "d": "qing-hanedani",
+          "f": "1691-01-01",
+          "t": "1912-02-12"
+        },
+        {
+          "d": "cin-cumhuriyeti",
+          "f": "1912-02-12",
+          "t": "1923-10-29"
+        }
+      ],
+      "kasitli_bosluk": true,
+      "bos": "veri-yok",
+      "neden": "Kullandigim akademik kaynaklar bu pencerede bolgenin siyasi orgutlenmesini HIC TARTISMIYOR — sustuklari icin `veri-yok`. `devletsiz` DEGIL: kaynak «burada devlet yoktu» DEMIYOR, hic konusmuyor. Ikisini karistirmadim."
+    },
+    {
+      "ad": "Ningçeng (Liao Zhongjing)",
+      "lat": 41.55,
+      "lon": 119.35,
+      "kaynak": "Liao hânedanının Orta Başkenti (Zhongjing) olan kadim yerleşme; Yuan ve Qing devirlerinde bölgenin merkezlerinden. 🔴 Atlas penceresi içindeki sahiplik geçişleri için AYNEN alıntı BULAMADIM; `s:` künye pencerelerine dayandırıldı.",
+      "s": [
+        {
+          "d": "yuan-hanedani",
+          "f": "1281-01-01",
+          "t": "1368-09-14"
+        },
+        {
+          "d": "kuzey-yuan",
+          "f": "1368-09-14",
+          "t": "1636-05-15"
+        },
+        {
+          "d": "qing-hanedani",
+          "f": "1636-05-15",
+          "t": "1912-02-12"
+        },
+        {
+          "d": "cin-cumhuriyeti",
+          "f": "1912-02-12",
+          "t": "1923-10-29"
+        }
+      ],
+      "dayanak": "🔴 Bu zincir KÜNYE PENCERELERİNDEN türetildi, olay kaynağından DEĞİL. Koordinatör doğrulamalı."
+    },
+    {
+      "ad": "Şilingol (Abaga)",
+      "lat": 43.93,
+      "lon": 116.09,
+      "kaynak": "Şilingol (Abaga banner) — Halha ve İç Moğol otlaklarının kavşağı. 🔴 Kuruluş yılı ve sahiplik geçişleri için AYNEN alıntı BULAMADIM; `s:` künye pencerelerine dayandırıldı.",
+      "s": [
+        {
+          "d": "yuan-hanedani",
+          "f": "1281-01-01",
+          "t": "1368-09-14"
+        },
+        {
+          "d": "kuzey-yuan",
+          "f": "1368-09-14",
+          "t": "1636-05-15"
+        },
+        {
+          "d": "qing-hanedani",
+          "f": "1636-05-15",
+          "t": "1912-02-12"
+        },
+        {
+          "d": "cin-cumhuriyeti",
+          "f": "1912-02-12",
+          "t": "1923-10-29"
+        }
+      ],
+      "dayanak": "🔴 Aynı damga: künye penceresinden türetildi."
+    },
+    {
+      "ad": "Dartsedo (Kangding)",
+      "lat": 30.05,
+      "lon": 101.96,
+      "kaynak": "Oxford RE of Asian History, «The Sino-Tibetan Borderlands» + Cambridge, Journal of Global History, «Across Zomia with merchants, monks, and musk» — AYNEN: «The southern trans-Kham trade route connected the lowlands of the Sichuan basin to the highlands of the Tibetan Plateau through Dartsedo, Litang, and Batang» ve «a stone stele erected in 1727 proclaimed much of the Kham region … to be under Sichuan's jurisdiction, its invested rulers were administered by a 'loose rein' policy, leaving its polities effectively independent of Chinese authority». 🔴 Kuruluş yılı AYNEN BULUNAMADI ⇒ `kur:` YAZILMADI. 🔴 VE SAHİPLİK KASTEN TİBET'TE BIRAKILDI: kaynak 1727 stelinin Kham'ı Sichuan yargısına bağladığını söylüyor AMA aynı cümlede «effectively independent of Chinese authority» diyor. Kaynağın söylediğinden fazlasını yazmamak için Qing'e DEVREDİLMEDİ.",
+      "s": [
+        {
+          "d": "tibet",
+          "f": "1354-01-01",
+          "t": "1642-01-01"
+        },
+        {
+          "d": "tibet-ganden-phodrang",
+          "f": "1642-01-01",
+          "t": "1923-10-29"
+        }
+      ],
+      "kasitli_bosluk": true,
+      "bos": "veri-yok",
+      "neden": "Kullandigim akademik kaynaklar bu pencerede bolgenin siyasi orgutlenmesini HIC TARTISMIYOR — sustuklari icin `veri-yok`. `devletsiz` DEGIL: kaynak «burada devlet yoktu» DEMIYOR, hic konusmuyor. Ikisini karistirmadim."
+    },
+    {
+      "ad": "Litang",
+      "lat": 30.0,
+      "lon": 100.27,
+      "kaynak": "Oxford RE of Asian History, «The Sino-Tibetan Borderlands» + Cambridge, Journal of Global History, «Across Zomia with merchants, monks, and musk» — AYNEN: «The southern trans-Kham trade route connected the lowlands of the Sichuan basin to the highlands of the Tibetan Plateau through Dartsedo, Litang, and Batang» ve «a stone stele erected in 1727 proclaimed much of the Kham region … to be under Sichuan's jurisdiction, its invested rulers were administered by a 'loose rein' policy, leaving its polities effectively independent of Chinese authority». 🔴 Kuruluş yılı AYNEN BULUNAMADI ⇒ `kur:` YAZILMADI. 🔴 VE SAHİPLİK KASTEN TİBET'TE BIRAKILDI: kaynak 1727 stelinin Kham'ı Sichuan yargısına bağladığını söylüyor AMA aynı cümlede «effectively independent of Chinese authority» diyor. Kaynağın söylediğinden fazlasını yazmamak için Qing'e DEVREDİLMEDİ.",
+      "s": [
+        {
+          "d": "tibet",
+          "f": "1354-01-01",
+          "t": "1642-01-01"
+        },
+        {
+          "d": "tibet-ganden-phodrang",
+          "f": "1642-01-01",
+          "t": "1923-10-29"
+        }
+      ],
+      "kasitli_bosluk": true,
+      "bos": "veri-yok",
+      "neden": "Kullandigim akademik kaynaklar bu pencerede bolgenin siyasi orgutlenmesini HIC TARTISMIYOR — sustuklari icin `veri-yok`. `devletsiz` DEGIL: kaynak «burada devlet yoktu» DEMIYOR, hic konusmuyor. Ikisini karistirmadim."
+    },
+    {
+      "ad": "Batang",
+      "lat": 30.0,
+      "lon": 99.11,
+      "kaynak": "Oxford RE of Asian History, «The Sino-Tibetan Borderlands» + Cambridge, Journal of Global History, «Across Zomia with merchants, monks, and musk» — AYNEN: «The southern trans-Kham trade route connected the lowlands of the Sichuan basin to the highlands of the Tibetan Plateau through Dartsedo, Litang, and Batang» ve «a stone stele erected in 1727 proclaimed much of the Kham region … to be under Sichuan's jurisdiction, its invested rulers were administered by a 'loose rein' policy, leaving its polities effectively independent of Chinese authority». 🔴 Kuruluş yılı AYNEN BULUNAMADI ⇒ `kur:` YAZILMADI. 🔴 VE SAHİPLİK KASTEN TİBET'TE BIRAKILDI: kaynak 1727 stelinin Kham'ı Sichuan yargısına bağladığını söylüyor AMA aynı cümlede «effectively independent of Chinese authority» diyor. Kaynağın söylediğinden fazlasını yazmamak için Qing'e DEVREDİLMEDİ.",
+      "s": [
+        {
+          "d": "tibet",
+          "f": "1354-01-01",
+          "t": "1642-01-01"
+        },
+        {
+          "d": "tibet-ganden-phodrang",
+          "f": "1642-01-01",
+          "t": "1923-10-29"
+        }
+      ],
+      "kasitli_bosluk": true,
+      "bos": "veri-yok",
+      "neden": "Kullandigim akademik kaynaklar bu pencerede bolgenin siyasi orgutlenmesini HIC TARTISMIYOR — sustuklari icin `veri-yok`. `devletsiz` DEGIL: kaynak «burada devlet yoktu» DEMIYOR, hic konusmuyor. Ikisini karistirmadim."
+    },
+    {
+      "ad": "Derge (Dege)",
+      "lat": 31.81,
+      "lon": 98.58,
+      "kaynak": "Oxford RE of Asian History, «The Sino-Tibetan Borderlands» + Cambridge, Journal of Global History, «Across Zomia with merchants, monks, and musk» — AYNEN: «The southern trans-Kham trade route connected the lowlands of the Sichuan basin to the highlands of the Tibetan Plateau through Dartsedo, Litang, and Batang» ve «a stone stele erected in 1727 proclaimed much of the Kham region … to be under Sichuan's jurisdiction, its invested rulers were administered by a 'loose rein' policy, leaving its polities effectively independent of Chinese authority». 🔴 Bu nokta için AYRI bir kaynak cümlesi BULAMADIM; yalnız Kham/Sino-Tibet sınır bölgesi literatürünün genel çerçevesine dayanıyor. Kuruluş yılı YOK ⇒ `kur:` YAZILMADI. 🟡 Songpan için kaynak «Zungchu» adıyla kuzeydeki üç ticaret merkezinden biri diyor — nokta o cümleyle bağlantılı.",
+      "s": [
+        {
+          "d": "tibet",
+          "f": "1354-01-01",
+          "t": "1642-01-01"
+        },
+        {
+          "d": "tibet-ganden-phodrang",
+          "f": "1642-01-01",
+          "t": "1923-10-29"
+        }
+      ],
+      "kasitli_bosluk": true,
+      "bos": "veri-yok",
+      "neden": "Kullandigim akademik kaynaklar bu pencerede bolgenin siyasi orgutlenmesini HIC TARTISMIYOR — sustuklari icin `veri-yok`. `devletsiz` DEGIL: kaynak «burada devlet yoktu» DEMIYOR, hic konusmuyor. Ikisini karistirmadim."
+    },
+    {
+      "ad": "Jyekundo (Yuşu)",
+      "lat": 33.01,
+      "lon": 97.01,
+      "kaynak": "Oxford RE of Asian History, «The Sino-Tibetan Borderlands» + Cambridge, Journal of Global History, «Across Zomia with merchants, monks, and musk» — AYNEN: «The southern trans-Kham trade route connected the lowlands of the Sichuan basin to the highlands of the Tibetan Plateau through Dartsedo, Litang, and Batang» ve «a stone stele erected in 1727 proclaimed much of the Kham region … to be under Sichuan's jurisdiction, its invested rulers were administered by a 'loose rein' policy, leaving its polities effectively independent of Chinese authority». 🔴 Bu nokta için AYRI bir kaynak cümlesi BULAMADIM; yalnız Kham/Sino-Tibet sınır bölgesi literatürünün genel çerçevesine dayanıyor. Kuruluş yılı YOK ⇒ `kur:` YAZILMADI. 🟡 Songpan için kaynak «Zungchu» adıyla kuzeydeki üç ticaret merkezinden biri diyor — nokta o cümleyle bağlantılı.",
+      "s": [
+        {
+          "d": "tibet",
+          "f": "1354-01-01",
+          "t": "1642-01-01"
+        },
+        {
+          "d": "tibet-ganden-phodrang",
+          "f": "1642-01-01",
+          "t": "1923-10-29"
+        }
+      ],
+      "kasitli_bosluk": true,
+      "bos": "veri-yok",
+      "neden": "Kullandigim akademik kaynaklar bu pencerede bolgenin siyasi orgutlenmesini HIC TARTISMIYOR — sustuklari icin `veri-yok`. `devletsiz` DEGIL: kaynak «burada devlet yoktu» DEMIYOR, hic konusmuyor. Ikisini karistirmadim."
+    },
+    {
+      "ad": "Nagçu (Nagqu)",
+      "lat": 31.48,
+      "lon": 92.06,
+      "kaynak": "Oxford RE of Asian History, «The Sino-Tibetan Borderlands» + Cambridge, Journal of Global History, «Across Zomia with merchants, monks, and musk» — AYNEN: «The southern trans-Kham trade route connected the lowlands of the Sichuan basin to the highlands of the Tibetan Plateau through Dartsedo, Litang, and Batang» ve «a stone stele erected in 1727 proclaimed much of the Kham region … to be under Sichuan's jurisdiction, its invested rulers were administered by a 'loose rein' policy, leaving its polities effectively independent of Chinese authority». 🔴 Bu nokta için AYRI bir kaynak cümlesi BULAMADIM; yalnız Kham/Sino-Tibet sınır bölgesi literatürünün genel çerçevesine dayanıyor. Kuruluş yılı YOK ⇒ `kur:` YAZILMADI. 🟡 Songpan için kaynak «Zungchu» adıyla kuzeydeki üç ticaret merkezinden biri diyor — nokta o cümleyle bağlantılı.",
+      "s": [
+        {
+          "d": "tibet",
+          "f": "1354-01-01",
+          "t": "1642-01-01"
+        },
+        {
+          "d": "tibet-ganden-phodrang",
+          "f": "1642-01-01",
+          "t": "1923-10-29"
+        }
+      ],
+      "kasitli_bosluk": true,
+      "bos": "veri-yok",
+      "neden": "Kullandigim akademik kaynaklar bu pencerede bolgenin siyasi orgutlenmesini HIC TARTISMIYOR — sustuklari icin `veri-yok`. `devletsiz` DEGIL: kaynak «burada devlet yoktu» DEMIYOR, hic konusmuyor. Ikisini karistirmadim."
+    },
+    {
+      "ad": "Tsona (Cona)",
+      "lat": 27.99,
+      "lon": 91.95,
+      "kaynak": "Oxford RE of Asian History, «The Sino-Tibetan Borderlands» + Cambridge, Journal of Global History, «Across Zomia with merchants, monks, and musk» — AYNEN: «The southern trans-Kham trade route connected the lowlands of the Sichuan basin to the highlands of the Tibetan Plateau through Dartsedo, Litang, and Batang» ve «a stone stele erected in 1727 proclaimed much of the Kham region … to be under Sichuan's jurisdiction, its invested rulers were administered by a 'loose rein' policy, leaving its polities effectively independent of Chinese authority». 🔴 Bu nokta için AYRI bir kaynak cümlesi BULAMADIM; yalnız Kham/Sino-Tibet sınır bölgesi literatürünün genel çerçevesine dayanıyor. Kuruluş yılı YOK ⇒ `kur:` YAZILMADI. 🟡 Songpan için kaynak «Zungchu» adıyla kuzeydeki üç ticaret merkezinden biri diyor — nokta o cümleyle bağlantılı.",
+      "s": [
+        {
+          "d": "tibet",
+          "f": "1354-01-01",
+          "t": "1642-01-01"
+        },
+        {
+          "d": "tibet-ganden-phodrang",
+          "f": "1642-01-01",
+          "t": "1923-10-29"
+        }
+      ],
+      "kasitli_bosluk": true,
+      "bos": "veri-yok",
+      "neden": "Kullandigim akademik kaynaklar bu pencerede bolgenin siyasi orgutlenmesini HIC TARTISMIYOR — sustuklari icin `veri-yok`. `devletsiz` DEGIL: kaynak «burada devlet yoktu» DEMIYOR, hic konusmuyor. Ikisini karistirmadim."
+    },
+    {
+      "ad": "Songpan (Zungchu)",
+      "lat": 32.65,
+      "lon": 103.6,
+      "kaynak": "Oxford RE of Asian History, «The Sino-Tibetan Borderlands» + Cambridge, Journal of Global History, «Across Zomia with merchants, monks, and musk» — AYNEN: «The southern trans-Kham trade route connected the lowlands of the Sichuan basin to the highlands of the Tibetan Plateau through Dartsedo, Litang, and Batang» ve «a stone stele erected in 1727 proclaimed much of the Kham region … to be under Sichuan's jurisdiction, its invested rulers were administered by a 'loose rein' policy, leaving its polities effectively independent of Chinese authority». 🔴 Bu nokta için AYRI bir kaynak cümlesi BULAMADIM; yalnız Kham/Sino-Tibet sınır bölgesi literatürünün genel çerçevesine dayanıyor. Kuruluş yılı YOK ⇒ `kur:` YAZILMADI. 🟡 Songpan için kaynak «Zungchu» adıyla kuzeydeki üç ticaret merkezinden biri diyor — nokta o cümleyle bağlantılı.",
+      "s": [
+        {
+          "d": "tibet",
+          "f": "1354-01-01",
+          "t": "1642-01-01"
+        },
+        {
+          "d": "tibet-ganden-phodrang",
+          "f": "1642-01-01",
+          "t": "1923-10-29"
+        }
+      ],
+      "kasitli_bosluk": true,
+      "bos": "veri-yok",
+      "neden": "Kullandigim akademik kaynaklar bu pencerede bolgenin siyasi orgutlenmesini HIC TARTISMIYOR — sustuklari icin `veri-yok`. `devletsiz` DEGIL: kaynak «burada devlet yoktu» DEMIYOR, hic konusmuyor. Ikisini karistirmadim."
+    },
+    {
+      "ad": "Ngawa (Aba)",
+      "lat": 32.9,
+      "lon": 101.7,
+      "kaynak": "Oxford RE of Asian History, «The Sino-Tibetan Borderlands» + Cambridge, Journal of Global History, «Across Zomia with merchants, monks, and musk» — AYNEN: «The southern trans-Kham trade route connected the lowlands of the Sichuan basin to the highlands of the Tibetan Plateau through Dartsedo, Litang, and Batang» ve «a stone stele erected in 1727 proclaimed much of the Kham region … to be under Sichuan's jurisdiction, its invested rulers were administered by a 'loose rein' policy, leaving its polities effectively independent of Chinese authority». 🔴 Bu nokta için AYRI bir kaynak cümlesi BULAMADIM; yalnız Kham/Sino-Tibet sınır bölgesi literatürünün genel çerçevesine dayanıyor. Kuruluş yılı YOK ⇒ `kur:` YAZILMADI. 🟡 Songpan için kaynak «Zungchu» adıyla kuzeydeki üç ticaret merkezinden biri diyor — nokta o cümleyle bağlantılı.",
+      "s": [
+        {
+          "d": "tibet",
+          "f": "1354-01-01",
+          "t": "1642-01-01"
+        },
+        {
+          "d": "tibet-ganden-phodrang",
+          "f": "1642-01-01",
+          "t": "1923-10-29"
+        }
+      ],
+      "kasitli_bosluk": true,
+      "bos": "veri-yok",
+      "neden": "Kullandigim akademik kaynaklar bu pencerede bolgenin siyasi orgutlenmesini HIC TARTISMIYOR — sustuklari icin `veri-yok`. `devletsiz` DEGIL: kaynak «burada devlet yoktu» DEMIYOR, hic konusmuyor. Ikisini karistirmadim."
+    }
+  ],
+  "sahipsiz_riski": [
+    "Sanşing (Yilan) — 1281-01-01 … 1636-05-15 arası SAHİPSİZ",
+    "Mergen (Nenjiang) — 1281-01-01 … 1636-05-15 arası SAHİPSİZ",
+    "Nikolsk (Ussuriysk) — 1281 … 1860 SAHİPSİZ, ve 1917-03-15 sonrası ardılsız",
+    "Şangdu — 1369-01-01 sonrası SAHİPSİZ (kasıtlı: şehir terk edildi, ama bunu ben KAYNAKLA gösteremedim)",
+    "Dolonnor — 1281 … 1691 SAHİPSİZ",
+    "Dartsedo (Kangding) — 1281-01-01 … 1354-01-01 arası SAHİPSİZ (`tibet` künyesi 1354'te başlıyor)",
+    "Litang — 1281-01-01 … 1354-01-01 arası SAHİPSİZ (`tibet` künyesi 1354'te başlıyor)",
+    "Batang — 1281-01-01 … 1354-01-01 arası SAHİPSİZ (`tibet` künyesi 1354'te başlıyor)",
+    "Derge (Dege) — 1281-01-01 … 1354-01-01 arası SAHİPSİZ",
+    "Jyekundo (Yuşu) — 1281-01-01 … 1354-01-01 arası SAHİPSİZ",
+    "Nagçu (Nagqu) — 1281-01-01 … 1354-01-01 arası SAHİPSİZ",
+    "Tsona (Cona) — 1281-01-01 … 1354-01-01 arası SAHİPSİZ",
+    "Songpan (Zungchu) — 1281-01-01 … 1354-01-01 arası SAHİPSİZ",
+    "Ngawa (Aba) — 1281-01-01 … 1354-01-01 arası SAHİPSİZ"
+  ],
+  "elle_konacak": {
+    "niye_ayri": "🔴 `_sahiplik_uygula.py` `bos:` ve `neden:` alanlarini ALAN KUMESINDE TASIMIYOR (2 Eylul, Timbuktu vakasi: yamada duruyordu, veriye INMEDI). Bu liste o yuzden AYRI — birlestirirken ELLE konacak.",
+    "hukum": "Koordinator hukmu M-2711 — dorduncu yol: bosluk BEYAN EDILIR. (a) kur uydurmak §4 ihlali · (b) `s:` geriye cekmek kaynagin soylemedigini soyletmek · (c) beyansiz birakmak Degismez 1'i sessizce ihlal eder.",
+    "cins_dagilimi": {
+      "veri-yok": 13,
+      "kabile": 1
+    },
+    "kayitlar": [
+      {
+        "ad": "Sanşing (Yilan)",
+        "sahipsiz_pencere": "1281-01-01 … 1636-05-15 arası SAHİPSİZ",
+        "kasitli_bosluk": true,
+        "bos": "veri-yok",
+        "neden": "Kullandigim akademik kaynaklar bu pencerede bolgenin siyasi orgutlenmesini HIC TARTISMIYOR — sustuklari icin `veri-yok`. `devletsiz` DEGIL: kaynak «burada devlet yoktu» DEMIYOR, hic konusmuyor. Ikisini karistirmadim."
+      },
+      {
+        "ad": "Mergen (Nenjiang)",
+        "sahipsiz_pencere": "1281-01-01 … 1636-05-15 arası SAHİPSİZ",
+        "kasitli_bosluk": true,
+        "bos": "veri-yok",
+        "neden": "Kullandigim akademik kaynaklar bu pencerede bolgenin siyasi orgutlenmesini HIC TARTISMIYOR — sustuklari icin `veri-yok`. `devletsiz` DEGIL: kaynak «burada devlet yoktu» DEMIYOR, hic konusmuyor. Ikisini karistirmadim."
+      },
+      {
+        "ad": "Nikolsk (Ussuriysk)",
+        "sahipsiz_pencere": "1281 … 1860 SAHİPSİZ, ve 1917-03-15 sonrası ardılsız",
+        "kasitli_bosluk": true,
+        "bos": "kabile",
+        "neden": "Ussuri havzasi bu pencerede klan/boy orgutlenmesi altindaydi; kaynak (Cambridge, Modern Asian Studies — «Material States: China, Russia, and the incorporation of a CROSS-BORDER INDIGENOUS PEOPLE») bu halklari ACIKCA konu ediyor ⇒ kaynak SUSMUYOR, merkezi devlet de tarif etmiyor. `veri-yok` DEGIL."
+      },
+      {
+        "ad": "Şangdu",
+        "sahipsiz_pencere": "1369-01-01 sonrası SAHİPSİZ (kasıtlı: şehir terk edildi, ama bunu ben KAYNAKLA gösteremedim)",
+        "kasitli_bosluk": true,
+        "bos": "veri-yok",
+        "neden": "Kullandigim akademik kaynaklar bu pencerede bolgenin siyasi orgutlenmesini HIC TARTISMIYOR — sustuklari icin `veri-yok`. `devletsiz` DEGIL: kaynak «burada devlet yoktu» DEMIYOR, hic konusmuyor. Ikisini karistirmadim."
+      },
+      {
+        "ad": "Dolonnor",
+        "sahipsiz_pencere": "1281 … 1691 SAHİPSİZ",
+        "kasitli_bosluk": true,
+        "bos": "veri-yok",
+        "neden": "Kullandigim akademik kaynaklar bu pencerede bolgenin siyasi orgutlenmesini HIC TARTISMIYOR — sustuklari icin `veri-yok`. `devletsiz` DEGIL: kaynak «burada devlet yoktu» DEMIYOR, hic konusmuyor. Ikisini karistirmadim."
+      },
+      {
+        "ad": "Dartsedo (Kangding)",
+        "sahipsiz_pencere": "1281-01-01 … 1354-01-01 arası SAHİPSİZ (`tibet` künyesi 1354'te başlıyor)",
+        "kasitli_bosluk": true,
+        "bos": "veri-yok",
+        "neden": "Kullandigim akademik kaynaklar bu pencerede bolgenin siyasi orgutlenmesini HIC TARTISMIYOR — sustuklari icin `veri-yok`. `devletsiz` DEGIL: kaynak «burada devlet yoktu» DEMIYOR, hic konusmuyor. Ikisini karistirmadim."
+      },
+      {
+        "ad": "Litang",
+        "sahipsiz_pencere": "1281-01-01 … 1354-01-01 arası SAHİPSİZ (`tibet` künyesi 1354'te başlıyor)",
+        "kasitli_bosluk": true,
+        "bos": "veri-yok",
+        "neden": "Kullandigim akademik kaynaklar bu pencerede bolgenin siyasi orgutlenmesini HIC TARTISMIYOR — sustuklari icin `veri-yok`. `devletsiz` DEGIL: kaynak «burada devlet yoktu» DEMIYOR, hic konusmuyor. Ikisini karistirmadim."
+      },
+      {
+        "ad": "Batang",
+        "sahipsiz_pencere": "1281-01-01 … 1354-01-01 arası SAHİPSİZ (`tibet` künyesi 1354'te başlıyor)",
+        "kasitli_bosluk": true,
+        "bos": "veri-yok",
+        "neden": "Kullandigim akademik kaynaklar bu pencerede bolgenin siyasi orgutlenmesini HIC TARTISMIYOR — sustuklari icin `veri-yok`. `devletsiz` DEGIL: kaynak «burada devlet yoktu» DEMIYOR, hic konusmuyor. Ikisini karistirmadim."
+      },
+      {
+        "ad": "Derge (Dege)",
+        "sahipsiz_pencere": "1281-01-01 … 1354-01-01 arası SAHİPSİZ",
+        "kasitli_bosluk": true,
+        "bos": "veri-yok",
+        "neden": "Kullandigim akademik kaynaklar bu pencerede bolgenin siyasi orgutlenmesini HIC TARTISMIYOR — sustuklari icin `veri-yok`. `devletsiz` DEGIL: kaynak «burada devlet yoktu» DEMIYOR, hic konusmuyor. Ikisini karistirmadim."
+      },
+      {
+        "ad": "Jyekundo (Yuşu)",
+        "sahipsiz_pencere": "1281-01-01 … 1354-01-01 arası SAHİPSİZ",
+        "kasitli_bosluk": true,
+        "bos": "veri-yok",
+        "neden": "Kullandigim akademik kaynaklar bu pencerede bolgenin siyasi orgutlenmesini HIC TARTISMIYOR — sustuklari icin `veri-yok`. `devletsiz` DEGIL: kaynak «burada devlet yoktu» DEMIYOR, hic konusmuyor. Ikisini karistirmadim."
+      },
+      {
+        "ad": "Nagçu (Nagqu)",
+        "sahipsiz_pencere": "1281-01-01 … 1354-01-01 arası SAHİPSİZ",
+        "kasitli_bosluk": true,
+        "bos": "veri-yok",
+        "neden": "Kullandigim akademik kaynaklar bu pencerede bolgenin siyasi orgutlenmesini HIC TARTISMIYOR — sustuklari icin `veri-yok`. `devletsiz` DEGIL: kaynak «burada devlet yoktu» DEMIYOR, hic konusmuyor. Ikisini karistirmadim."
+      },
+      {
+        "ad": "Tsona (Cona)",
+        "sahipsiz_pencere": "1281-01-01 … 1354-01-01 arası SAHİPSİZ",
+        "kasitli_bosluk": true,
+        "bos": "veri-yok",
+        "neden": "Kullandigim akademik kaynaklar bu pencerede bolgenin siyasi orgutlenmesini HIC TARTISMIYOR — sustuklari icin `veri-yok`. `devletsiz` DEGIL: kaynak «burada devlet yoktu» DEMIYOR, hic konusmuyor. Ikisini karistirmadim."
+      },
+      {
+        "ad": "Songpan (Zungchu)",
+        "sahipsiz_pencere": "1281-01-01 … 1354-01-01 arası SAHİPSİZ",
+        "kasitli_bosluk": true,
+        "bos": "veri-yok",
+        "neden": "Kullandigim akademik kaynaklar bu pencerede bolgenin siyasi orgutlenmesini HIC TARTISMIYOR — sustuklari icin `veri-yok`. `devletsiz` DEGIL: kaynak «burada devlet yoktu» DEMIYOR, hic konusmuyor. Ikisini karistirmadim."
+      },
+      {
+        "ad": "Ngawa (Aba)",
+        "sahipsiz_pencere": "1281-01-01 … 1354-01-01 arası SAHİPSİZ",
+        "kasitli_bosluk": true,
+        "bos": "veri-yok",
+        "neden": "Kullandigim akademik kaynaklar bu pencerede bolgenin siyasi orgutlenmesini HIC TARTISMIYOR — sustuklari icin `veri-yok`. `devletsiz` DEGIL: kaynak «burada devlet yoktu» DEMIYOR, hic konusmuyor. Ikisini karistirmadim."
+      }
+    ],
+    "🔴_DURUM_DEGISTI": "M-2761 (5 Eylül): `_sahiplik_uygula.py` `bos:`/`neden:`/`not:` alanlarını ARTIK TAŞIYOR — borç 2 Eylül'de ödenmiş, bana verilen kısıt BAYATMIŞ. 🔴 VE BENDE ZARARSIZ DEĞİLDİ: bu 14 beyan YALNIZ bu listede duruyordu, nokta kayıtlarının içinde DEĞİL — yani birleştirici `noktalar`ı okursa GÖRMEZDİ. Bayat kısıt beni veriyi «makinenin bakmadığı yere» yazmaya itmiş; Timbuktu vakasının TERS yönü. ⇒ Alanlar nokta kayıtlarının İÇİNE taşındı (12 kayıt). Bu liste yedek olarak KALIYOR.",
+    "🔴_AD_ESLESTIRICI_NOTU": "🔴 KENDİ ALETİMİN ÜÇÜNCÜ AD HATASI (bu gece): elle_konacak listesindeki adlar «Şangdu — 1369 sonrası…» metninden kesilmişti, nokta kaydında ise «Şangdu (Kaiping)» yazıyor ⇒ tam eşitlik 12/14 tutturdu, 2 kayıt dışarıda kaldı. ÖNEK eşleşmesiyle ve TEK EŞLEŞME şartıyla kapatıldı; çoklu eşleşme olsaydı DOKUNMAZDIM. Ders aynı: ad eşleştirmesi tek başına karar veremez — önce 192 km ötedeki Hâil, sonra Olekminsk/Olyokminsk, şimdi bu."
+  }
+}

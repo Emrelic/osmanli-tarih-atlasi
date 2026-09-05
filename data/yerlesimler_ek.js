@@ -114,13 +114,13 @@ window.YERLESIMLER_EK = [
        {f:"1526-08-29",t:"1682-09-16",d:"avusturya"},
        {f:"1685-10-15",t:"1918-11-11",d:"avusturya"},
        {f:"1918-11-11",t:"1923-10-29",d:"cekoslovakya"}] },
-{ ad:"Eperjes (Prešov)", tur:"sehir", lat:48.999, lon:21.236, g:0, k:4, d:[],
+{ ad:"Eperjes (Prešov)",neden:"`m:` NULL idi; `oneri.m`=\"Kassa (Košice)\" kademe yamasında duruyordu ve hiçbir alet onu taşımıyordu (izdüşüm yalnız `.k` alıyor). Aynı yamanın `k:4` yarısı ZATEN inmiş (canlı k:4). Geçerli pencereler: 1682-09-16..1685-10-15 — `kd:` olarak YAZILAMADI, açık borç.  ||  ⚪ DEVRALDIM — kaynağa SORULMADI (beş örneklik yoklamanın dışında kaldı).",kaynak:"TDV macaristan — kademe yamasından DEVRALINDI (data/yer_yama_kademe.js, guven:HUKUM). Gerekçe: Orta Macar prensliği şehri. TDV'de adı GEÇMİYOR (arandı).",m:"Kassa (Košice)", tur:"sehir", lat:48.999, lon:21.236, g:0, k:4, d:[],
     v:[{f:"1682-09-16",t:"1685-10-15",k:"Orta Macar Krallığı (Tököli İmre)"}],
     s:[{f:"1281-01-01",t:"1526-08-29",d:"macaristan"},
        {f:"1526-08-29",t:"1682-09-16",d:"avusturya"},
        {f:"1685-10-15",t:"1918-11-11",d:"avusturya"},
        {f:"1918-11-11",t:"1923-10-29",d:"cekoslovakya"}] },
-{ ad:"Tokaj", tur:"kale", lat:48.117, lon:21.409, g:0, k:4, d:[],
+{ ad:"Tokaj",neden:"`m:` NULL idi; `oneri.m`=\"Kassa (Košice)\" kademe yamasında duruyordu ve hiçbir alet onu taşımıyordu (izdüşüm yalnız `.k` alıyor). Aynı yamanın `k:4` yarısı ZATEN inmiş (canlı k:4). Geçerli pencereler: 1682-09-16..1685-10-15 — `kd:` olarak YAZILAMADI, açık borç.  ||  ⚪ DEVRALDIM — kaynağa SORULMADI (beş örneklik yoklamanın dışında kaldı).",kaynak:"TDV macaristan — kademe yamasından DEVRALINDI (data/yer_yama_kademe.js, guven:HUKUM). Gerekçe: Orta Macar prensliği kalesi. TDV'de yalnız şarap bölgesi olarak geçiyor.",m:"Kassa (Košice)", tur:"kale", lat:48.117, lon:21.409, g:0, k:4, d:[],
     v:[{f:"1682-09-16",t:"1685-10-15",k:"Orta Macar Krallığı (Tököli İmre)"}],
     s:[{f:"1281-01-01",t:"1526-08-29",d:"macaristan"},
        {f:"1526-08-29",t:"1682-09-16",d:"avusturya"},
@@ -204,7 +204,7 @@ window.YERLESIMLER_EK = [
     d:[{f:"1522-05-29",t:"1688-09-11",y:"kusatma"}] },
 // Sin (Sinj): Osmanlı 1513 (gün belirsiz, §76 → YYYY-01-01); Venedik
 // 30 Eylül 1686, Poljica milisleriyle.
-{ ad:"Sin (Sinj)", tur:"kale", lat:43.704, lon:16.639, g:0, k:4,
+{ ad:"Sin (Sinj)",neden:"`m:` NULL idi; `oneri.m`=\"Klis\" kademe yamasında duruyordu ve hiçbir alet onu taşımıyordu (izdüşüm yalnız `.k` alıyor). Aynı yamanın `k:4` yarısı ZATEN inmiş (canlı k:4). Geçerli pencereler: 1513-01-01..1686-09-30 — `kd:` olarak YAZILAMADI, açık borç.  ||  ⚪ DEVRALDIM — kaynağa SORULMADI (beş örneklik yoklamanın dışında kaldı).",kaynak:"TDV klis — kademe yamasından DEVRALINDI (data/yer_yama_kademe.js, guven:HUKUM). Gerekçe: Klis sancağı içinde kale. TDV'de Sinj adı GEÇMİYOR (arandı).",m:"Klis", tur:"kale", lat:43.704, lon:16.639, g:0, k:4,
     s:[{f:"1281-01-01",t:"1513-01-01",d:"macaristan"},
        {f:"1686-09-30",t:"1797-10-17",d:"venedik"},
        {f:"1797-10-17",t:"1918-11-11",d:"avusturya"},
@@ -234,7 +234,7 @@ window.YERLESIMLER_EK = [
 //    hukuken sürdü. Yan faydası: `isg:` Değişmez 2 borcu doğurmaz (motor okumaz).
 //    ⚠️ Tarihler YIL hassasiyetli — TDV gün vermiyor, §76 gereği uydurulmadı.
 //    Karşılaştırma turunda Ekim 1538 / Temmuz-Ağustos 1539 da geçiyor; TDV esas.
-{ ad:"Herseknovi (Herceg Novi)", tur:"kale", lat:42.453, lon:18.538, g:0, k:4,
+{ ad:"Herseknovi (Herceg Novi)",neden:"`m:` NULL idi; `oneri.m`=\"Mostar\" kademe yamasında duruyordu ve hiçbir alet onu taşımıyordu (izdüşüm yalnız `.k` alıyor). Aynı yamanın `k:4` yarısı ZATEN inmiş (canlı k:4). Geçerli pencereler: 1482-01-01..1687-09-30 — `kd:` olarak YAZILAMADI, açık borç.  ||  ⚪ DEVRALDIM — kaynağa SORULMADI (beş örneklik yoklamanın dışında kaldı).",m:"Mostar", tur:"kale", lat:42.453, lon:18.538, g:0, k:4,
     kur:"1382-01-01",
     s:[{f:"1382-01-01",t:"1482-01-01",d:"bosna"},
        {f:"1687-09-30",t:"1797-10-17",d:"venedik"},

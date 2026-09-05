@@ -1,0 +1,65 @@
+{
+  "_NOT": "Uc kronoloji maddesi. Sevk 1.MURAT M-2848 ③. Oturum NEHIR SURTUNME, 5 Eylul 2026. data/olaylar*.js'e DOKUNULMADI.",
+
+  "_NICIN": "`denetim/yer_yama_yunananakara.js` uc isgal gununu `isg:` baslangicina cevirir. Bugun o gunler `d:` bitisi olarak KIRILMA; `isg:` evrene eklendikten sonra yine kirilma olacaklar. Ucunun de ±30 gununde cekirdek maddesi VAR ama UCU DE ALAKASIZ ('Edirne kusatmasi', 'Sark Ordusu bozgunu') — `§2`nin 'degisim, o gune rastgele denk gelen ALAKASIZ bir maddenin altinda belirir' kusuru ve `§10`un 'ismi ile zikredilmeli' kurali.",
+
+  "🔴_TAKVIM_TUZAGI_OLCULDU": "TDV `selanik` **'26 Ekim 1912'de Yunanlilar'a birakti'** diyor; veri `1912-11-08`. BU BIR CELISKI DEGIL — 26 Ekim 1912 (Rumi/Julian) = 8 Kasim 1912 (Miladi/Gregoryen), 20. yuzyilda tam 13 gun fark. ⚠️ VERIYI DEGISTIRMEDIM ve DEGISTIRILMEMELI. 🔴 Ve bir sonraki oturum icin uyari: TDV bu iki takvimi KARISIK kullaniyor — ayni savas icin Selanik'te Rumi (26 Ekim), Yanya'da Miladi (6 Mart) veriyor. Bir TDV gununu veriye yazmadan once HANGI TAKVIM oldugunu sor.",
+
+  "maddeler": [
+    {
+      "t": "1912-11-08",
+      "k": "kayip",
+      "etiket": ["toprak-kayip"],
+      "b": "Selânik'in teslimi — Hasan Tahsin Paşa'nın şehri Yunan ordusuna bırakması",
+      "gun": "1912-11-08",
+      "yer": "Selânik, Makedonya",
+      "yer_id": "Selanik",
+      "kisiler": "Hasan Tahsin Paşa",
+      "d": "Balkan Savaşı'nın ilk haftalarında Yunan ordusu güneyden, Bulgar ordusu kuzeyden Selânik üzerine yürüdü; şehrin hangi devlete kalacağı iki müttefik arasında bir yarışa dönüştü. Vali Hasan Tahsin Paşa, kuşatmayı sürdürmenin şehri yıkıma götüreceğini görerek Selânik'i Yunanlılar'a teslim etti. Beş yüz yılı aşkın Osmanlı idaresi böylece sona erdi; şehrin Türk idaresinde kalmayı isteyen ahalisi ve özellikle yahudi cemaati sonradan protestolarda bulundu. Devrin resmî tanınması ise ancak 1913 antlaşmalarıyla geldi. ⚠️ TDV günü Rumî takvimle 26 Ekim 1912 olarak verir; buradaki 8 Kasım 1912 aynı günün mîlâdî karşılığıdır.",
+      "kaybedilen": ["Selanik"],
+      "kaynak": "selanik",
+      "duygu": ["😔"]
+    },
+    {
+      "t": "1912-11-02",
+      "k": "kayip",
+      "etiket": ["toprak-kayip"],
+      "b": "Aynaroz ve Kesendire'nin elden çıkması — Halkidikya yarımadası",
+      "gun": "Kasım 1912",
+      "yer": "Aynaroz (Athos), Kesendire (Kassandra), Halkidikya",
+      "yer_id": "Aynaroz (Athos)",
+      "kisiler": "",
+      "d": "Balkan Savaşı'nda Yunan ordusu Halkidikya yarımadasına girerek Aynaroz'daki Türk idaresine son verdi. Manastır cumhuriyeti, siyasî hâkimiyet değişmesine rağmen kendi müstakil idaresini korudu: Türk memurun yerini bir Yunan idareci aldı, liman ve iskele denetimi Yunan gümrüğü ile polisine geçti, fakat Aynaroz sıradan Yunan toprağından idarî olarak ayrı kaldı ve bu özel statü sonraki antlaşmalarda da sürdürüldü. ⚠️ TDV bu olayı yalnız «1912 yılı Kasım ayında» diye verir, GÜN VERMEZ; buradaki 2 Kasım günü kaynaktan değil atlasın kendi kırılma kaydından gelir.",
+      "kaybedilen": ["Aynaroz (Athos)", "Kesendire (Kassandra)"],
+      "kaynak": "aynaroz",
+      "duygu": ["😔"]
+    },
+    {
+      "t": "1912-10-21",
+      "k": "kayip",
+      "etiket": ["toprak-kayip"],
+      "b": "Preveze ve Vonitsa'nın kaybı — Ambrakya körfezi",
+      "gun": "1912-10-21",
+      "yer": "Preveze, Vonitsa, Epir",
+      "yer_id": "Preveze",
+      "kisiler": "",
+      "d": "Balkan Savaşı'nın açılış haftasında Yunan kuvvetleri Ambrakya körfezinin ağzındaki Preveze ile karşı kıyıdaki Vonitsa'yı ele geçirdi. Körfezin kontrolü, Epir içlerine ve Yanya'ya yönelecek harekâtın deniz ikmalini güvence altına aldı; Yanya ancak dört ay sonra düşecekti. 🔴 TDV'de müstakil bir «Preveze» maddesi YOKTUR (slug ölçüldü, 302 döndü) ve kapsayıcı «Balkan Savaşı» maddesi de Preveze'yi anmaz. Buradaki gün, atlasın kendi kırılma kaydından gelmektedir; olayın kendisi için akademik bir kaynak ARANMAMIŞTIR.",
+      "kaybedilen": ["Preveze", "Vonitsa"],
+      "kaynak": "bulunamadı — TDV `preveze` slug'ı ÖLÜ (302, ölçüldü); kapsayıcı `balkan-savasi` gövdesi Preveze'yi anmıyor. Akademik kaynak ARANMADI.",
+      "duygu": ["😔"]
+    }
+  ],
+
+  "_KAYNAK_DURUMU": {
+    "selanik": "🟢 TDV `selanik` (200, gövde okundu) — vali ve teslim ACIKCA anlatiliyor",
+    "aynaroz": "🟡 TDV `aynaroz` (200, gövde okundu) — olay VAR ama yalniz AY hassasiyetinde. `gun:` alanina 'Kasim 1912' yazildi, `t:` atlasin kirilma gunu.",
+    "preveze": "🔴 BULUNAMADI — dar slug 302, kapsayici madde anmiyor. Madde YAZILDI cunku kirilma maddesiz kalirsa alakasiz bir maddenin altinda belirir; ama kaynaksizligi metinde ve `kaynak:` alaninda ACIKCA duruyor."
+  },
+
+  "_OLCMEDIKLERIM": [
+    "OLCMEDIM  `1913-03-06` (Yanya) icin yeni madde GEREKMIYOR — cekirdekte 0 gun maddesi ZATEN var ('Yanya'nin dususu — Epir'in ve Parga'nin kaybi').",
+    "OLCMEDIM  kuyruktaki 'Selanik'in alinmasi' maddesiyle yazdigim cekirdek maddesinin CELISIP celismedigini — ikisi ayni gunu ve ayni olayi anlatiyor, silmedim (iki kova KASITLI, sevkin sarti).",
+    "OLCMEDIM  `1913-03-06`nin TDV'de hangi takvimle verildigini — `balkan-savasi` '6 Mart' diyor ve veri de 1913-03-06; Selanik'teki Rumi/Miladi karisikligi burada TEKRARLANIYOR OLABILIR.",
+    "ARAMADIM  Preveze icin akademik kaynak — `§4` mesru kilar ama bu tur kaynak turu DEGILDI."
+  ]
+}

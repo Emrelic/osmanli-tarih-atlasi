@@ -1,0 +1,268 @@
+{
+  "oturum": "KRONOLOJI BOS KUNYE",
+  "damga": "2026-09-05 00:40",
+  "kapsam": "kronolojisi SIFIR olan 17 künye (591 künyeden; taban bağımsız türetildi ve TUTTU)",
+  "yontem": "Yeni kaynak aramadan ÖNCE künyelerin KENDİ `kaynak` alanları okundu — bu küme «kaynaksız» değil «kaynağı kronolojiye çevrilmemiş». Her maddenin kaynağı künyede adlandırılmış akademik kaynaktır, alıntı AYNEN taşındı. TDV slugları (eyyubiler · hasankeyf · farukiler · burhanpur) HTTP ile BİZZAT sınandı: dördü de 200.",
+  "damga_sozlugu": {
+    "SINADIM": "bu turda kendim ölçtüm (HTTP kodu)",
+    "DEVRALDIM": "künyenin kaynak alanından alındı, gövde bu turda yeniden çekilmedi — gizlenmiyor, her maddede yazılı",
+    "DOĞRULANMADI": "künye o tarih için bağımsız dayanak göstermiyor"
+  },
+  "kunyeler": [
+    {
+      "id": "eyyubi-hisnikeyfa",
+      "eklenen": [
+        {
+          "t": "1232-01-01",
+          "tur": "kurulus",
+          "b": "el-Melikü'l-Kâmil Hısnıkeyfâ'yı Artuklular'dan alıp oğlu el-Melikü's-Sâlih'e bıraktı, Eyyûbîler'in Hısnıkeyfâ kolu doğdu",
+          "kaynak": "TDV `eyyubiler` — AYNEN: «el-Melikü'l-Kâmil 630 (1232) yılında Güneydoğu Anadolu'da idarî düzenlemelere girişti. Önce Âmid'i, daha sonra Hısnıkeyfâ'yı zaptederek Artuklular'ın Hısnıkeyfâ koluna son verdi.» 🟢 SLUG BİZZAT SINANDI (HTTP 200, eyyubiler). Alıntı künyenin kaynak alanından DEVRALINDI — gövdeyi bu turda yeniden çekmedim. 🟡 TDV `hasankeyf` aynı olayı 629/1232 diye verir: iki madde HİCRÎ yılda ayrışıyor (629/630), MÎLÂDÎ 1232'de uyuşuyor — ayrışma gizlenmiyor. 🔴 GÜN YOK ⇒ YYYY-01-01."
+        },
+        {
+          "t": "1462-01-01",
+          "tur": "son",
+          "b": "Akkoyunlu Uzun Hasan Hısnıkeyfâ Eyyûbî kolunu ortadan kaldırdı",
+          "kaynak": "TDV `eyyubiler` — AYNEN: «Hısnıkeyfâ kolu ise 1462'de Akkoyunlular'dan Uzun Hasan tarafından ortadan kaldırıldı.» 🟢 SLUG BİZZAT SINANDI (HTTP 200, eyyubiler). Alıntı künyenin kaynak alanından DEVRALINDI — gövdeyi bu turda yeniden çekmedim. 🔴 GÜN YOK ⇒ YYYY-01-01."
+        }
+      ],
+      "not": "🔴 Künyenin İKİ UCU DA GERÇEK uçtur, atlas ufku değil — bu yüzden pencere muafiyeti UYGULANMADI ve `kurulus` yazıldı. 🟡 Slug notu: `eyyubi` 302 ölü; `hisnikeyfa` 200 döner ama gövdesi boilerplate (§4 tuzak ④) — künyenin kendi uyarısı, bizzat sınadım."
+    },
+    {
+      "id": "farukiler",
+      "eklenen": [
+        {
+          "t": "1370-01-01",
+          "tur": "kurulus",
+          "b": "Melik Ahmed Handeş'te istiklâlini ilân ederek Fârûkî hânedanını kurdu",
+          "kaynak": "TDV `farukiler` — AYNEN: «Melik Ahmed … istiklâlini ilân ederek Fârûkīler hânedanını kurmuştur (772/1370)» ve maddenin AÇILIŞ CÜMLESİ: «Handeş'te (Hindistan) 1370-1601 yılları arasında hüküm süren…» 🟢 SLUG BİZZAT SINANDI (HTTP 200, farukiler). Alıntı künyenin kaynak alanından DEVRALINDI — gövdeyi bu turda yeniden çekmedim. 🔴 GÜN YOK ⇒ YYYY-01-01."
+        },
+        {
+          "t": "1601-01-01",
+          "tur": "son",
+          "b": "Bâbürlüler Asîrgarh'ı alarak sultanlığa son verdi, Handeş Bâbürlü eyaleti oldu",
+          "kaynak": "TDV `farukiler` — açılış cümlesindeki «1370-1601» aralığı; başşehirler Asîrgarh ve Burhânpûr (TDV `burhanpur` md. de SINANDI, HTTP 200). 🟢 SLUG BİZZAT SINANDI (HTTP 200, farukiler). Alıntı künyenin kaynak alanından DEVRALINDI — gövdeyi bu turda yeniden çekmedim. 🔴 GÜN YOK ⇒ YYYY-01-01."
+        }
+      ]
+    },
+    {
+      "id": "cahokia",
+      "eklenen": [
+        {
+          "t": "1050-01-01",
+          "tur": "kurulus",
+          "b": "Cahokia'da kentleşme başladı, Mississippi havzasının en büyük höyük merkezi kuruldu",
+          "kaynak": "EBSCO Research Starters, «Cahokia Becomes the First North American City» — kentleşme ~1050'de başladı. 🟡 DEVRALDIM (künye kaynak alanı), bu turda yeniden çekmedim. 🔴 GÜN YOK."
+        },
+        {
+          "t": "1350-01-01",
+          "tur": "son",
+          "b": "Cahokia terk edildi",
+          "kaynak": "Aynı kaynak — ~1350'de terk edildi; künye nokta verisiyle BİREBİR örtüşüyor. 🟡 DEVRALDIM. 🔴 GÜN YOK."
+        }
+      ],
+      "not": "Künyenin iki ucu da atlas ufkundan bağımsız gerçek uçlardır (1050 · 1350), muafiyet uygulanmadı."
+    },
+    {
+      "id": "cherokee",
+      "eklenen": [
+        {
+          "t": "1791-07-02",
+          "tur": "antlasma",
+          "b": "Holston Antlaşması imzalandı, Cherokee Ulusu ABD himayesini tanıdı",
+          "kaynak": "🟡 GÜN KÜNYENİN KENDİ `t:` ALANINDAN DEVRALINDI ve künyenin kaynak alanı bunun için bağımsız bir dayanak GÖSTERMİYOR («nokta verisinde zaten bu tarih kullanılıyor» diyor). TARAFIMDAN DOĞRULANMADI — Holston Antlaşması'nın günü için akademik/birincil kaynak aranmalı."
+        }
+      ],
+      "not": "🔴 `kurulus` YAZILMADI — PENCERE MUAFİYETİ. Künyenin kaynak alanı açıkça diyor: «kesin kuruluş tarihi yok … atlas ufku 1281'e hizalandı». Hizalanmış bir ufka kuruluş maddesi yazmak, veriye olmayan bir iddia eklemek olurdu."
+    },
+    {
+      "id": "choctaw",
+      "eklenen": [
+        {
+          "t": "1830-09-27",
+          "tur": "antlasma",
+          "b": "Dancing Rabbit Creek Antlaşması imzalandı, Choctaw toprakları devredildi ve sürgün başladı",
+          "kaynak": "🟡 GÜN künyenin `t:` alanından DEVRALINDI; künye onu «tanınan, tarihî bir antlaşma» diye niteliyor ama kaynak GÖSTERMİYOR. TARAFIMDAN DOĞRULANMADI."
+        }
+      ],
+      "not": "🔴 `kurulus` YAZILMADI — pencere muafiyeti; künye «üç halkın federasyonu, kesin kuruluş tarihi yok» diyor."
+    },
+    {
+      "id": "creek-konfederasyonu",
+      "eklenen": [
+        {
+          "t": "1832-03-24",
+          "tur": "antlasma",
+          "b": "Cusseta Antlaşması imzalandı, Creek Konfederasyonu topraklarını ABD'ye devretti",
+          "kaynak": "🟡 GÜN künyenin `t:` alanından DEVRALINDI, künye kaynak GÖSTERMİYOR. TARAFIMDAN DOĞRULANMADI."
+        }
+      ],
+      "not": "🔴 `kurulus` YAZILMADI — pencere muafiyeti; künye «savunma ittifakı olarak kuruldu, kesin tarih yok» diyor."
+    },
+    {
+      "id": "haudenosaunee",
+      "eklenen": [
+        {
+          "t": "1450-01-01",
+          "tur": "kurulus",
+          "b": "Altı Millet Konfederasyonu'nun kuruluşu — akademik çoğunluğun verdiği 15. yüzyıl ortası",
+          "kaynak": "Britannica, «Haudenosaunee Confederacy» (akademik çoğunluk 15. yy ortası/sonu) + Bruce E. Johansen, «Dating the Iroquois Confederacy» — anlaşmazlığı DOĞRUDAN tartışan kaynak. 🔴 KURULUŞ TARİHİ AKADEMİDE TARTIŞMALIDIR: gelenek 1570-1600 diyor, bazı araştırmacılar çok daha erken tarih öneriyor. Künye veriye hizalanmış (1450) ve tartışma künyenin kaynak alanında AÇIKÇA duruyor. 🟡 DEVRALDIM. 🔴 GÜN YOK."
+        },
+        {
+          "t": "1777-01-01",
+          "tur": "bolunme",
+          "b": "Konsey ateşi örtüldü, Konfederasyon Amerikan Bağımsızlık Savaşı'nda karşı saflara bölündü",
+          "kaynak": "🟡 Künyenin `t:` alanından DEVRALINDI; künye bu uç için ayrı kaynak GÖSTERMİYOR. TARAFIMDAN DOĞRULANMADI."
+        }
+      ],
+      "not": "🔴 `son` YERİNE `bolunme` YAZILDI ve bu bilinçli: Haudenosaunee Konfederasyonu 1777'de ORTADAN KALKMADI, birliği bölündü. Atlas o günü künyenin sonu sayıyor; kronoloji maddesi ise olayın KENDİSİNİ anlatmalı. `tur` sözlüğünde `bolunme` var, uydurma değil."
+    },
+    {
+      "id": "komanci",
+      "eklenen": [
+        {
+          "t": "1750-01-01",
+          "tur": "kurulus",
+          "b": "At ve tüfek ticaretinin birleşmesiyle Komançi bantları güney ovalarda Comanchería hâkimiyetini kurdu",
+          "kaynak": "Encyclopedia.com «Comanche» — AYNEN: «Between 1750 and 1875 Comanche groups spread across central and western Texas… This 24,000-square-mile area became known as the Comanchería.» Britannica «Apache» ile 1750 sınırında BİREBİR uyuşuyor (iki bağımsız kaynak aynı eşiği veriyor). 🟡 DEVRALDIM. 🔴 GÜN YOK ⇒ YYYY-01-01."
+        },
+        {
+          "t": "1875-01-01",
+          "tur": "son",
+          "b": "Quanah Parker ve yanındakilerin teslim olmasıyla Komançi direnişi sona erdi",
+          "kaynak": "Encyclopedia.com «Comanche» — AYNEN: «1874-75: The Comanche make their last stand; Quanah Parker and his followers are the last Comanches to surrender.» 🟡 Kaynak İKİ YILLIK ARALIK veriyor (1874-75); künye muhafazakâr uçtan 1875'i almış. DEVRALDIM. 🔴 GÜN YOK ⇒ tam gün için üçüncü kaynak gerekir."
+        }
+      ]
+    },
+    {
+      "id": "natchez",
+      "eklenen": [
+        {
+          "t": "1731-01-01",
+          "tur": "son",
+          "b": "1729 ayaklanmasının ardından Fransızlar Natchez'i siyasî bir varlık olarak dağıttı",
+          "kaynak": "Brown & Steponaitis, «The Grand Village of the Natchez Indians Was Indeed Grand» (UNC Research Laboratories of Archaeology, hakemli) + Mississippi Department of Archives & History — Natchez halkı MS 700-1730 arası güneybatı Mississippi'de yaşadı. 🟡 DEVRALDIM. 🔴 GÜN YOK ⇒ YYYY-01-01. 🟡 Kaynak «1730» diyor, künye `t:1731` — BİR YIL AYRIŞIYOR ve bunu gizlemiyorum; ayrışma çözülmedi, künyenin yılı korundu."
+        }
+      ],
+      "not": "🔴 `kurulus` YAZILMADI — pencere muafiyeti (f:1281 atlas ufku; kaynak halkın varlığını MS 700'e götürüyor, yani pencereden ÇOK önce)."
+    },
+    {
+      "id": "powhatan",
+      "eklenen": [
+        {
+          "t": "1646-10-01",
+          "tur": "son",
+          "b": "İngiliz Virginia kolonisiyle savaşların ardından Tsenacomoco birliği dağıldı",
+          "kaynak": "Encyclopedia Virginia, «Tsenacomoco (Powhatan Paramount Chiefdom)» — 🔴 KÜNYENİN KENDİSİ ŞUNU YAZIYOR: «Bitiş tarihi nokta verisinde var ama BEN DOĞRULAYAMADIM (tam kaynak bulunamadı).» Bu itirafı DEVRALIYORUM ve tekrar ediyorum: 1646-10-01 günü DOĞRULANMAMIŞTIR."
+        }
+      ],
+      "not": "🔴 `kurulus` YAZILMADI — pencere muafiyeti; kaynak «Şef Powhatan 1500'lerin sonunda küçük oymakları birleştirdi» diyor, künye ise 1281'e hizalanmış."
+    },
+    {
+      "id": "pueblo-bagimsizligi",
+      "eklenen": [
+        {
+          "t": "1680-08-10",
+          "tur": "isyan",
+          "b": "Pueblo Ayaklanması başladı, İspanyol yönetimi Yeni Meksika'dan sürüldü",
+          "kaynak": "Standart akademik (künye kaynak alanı) — «Pueblo İsyanı (10 Ağustos 1680) İspanyolları kovdu». Künyenin `f:` alanıyla BİREBİR. 🟡 DEVRALDIM, bu turda bağımsız kaynağa gitmedim."
+        },
+        {
+          "t": "1680-08-10",
+          "tur": "kurulus",
+          "b": "İspanyol yönetiminin sona ermesiyle on iki yıl sürecek bağımsızlık dönemi başladı",
+          "kaynak": "Aynı kaynak ve aynı gün — AYRI BİR CİNS: biri olayı (isyan), öteki o olayın doğurduğu siyasî durumu (kuruluş) kaydeder. 🟡 DEVRALDIM."
+        },
+        {
+          "t": "1692-08-01",
+          "tur": "son",
+          "b": "İspanyol yeniden fethi (Reconquista) bağımsızlık dönemini sona erdirdi",
+          "kaynak": "Standart akademik (künye kaynak alanı) — «İspanyol 'Reconquista'sı (1692) ile sona erdi». 🟡 Kaynak YIL veriyor; künyedeki 1 Ağustos GÜNÜ dayanaksız, DEVRALINDI ve DOĞRULANMADI."
+        }
+      ]
+    },
+    {
+      "id": "teksas-cumhuriyeti",
+      "eklenen": [
+        {
+          "t": "1836-03-02",
+          "tur": "kurulus",
+          "b": "Teksas Meksika'dan bağımsızlığını ilan etti",
+          "kaynak": "🟡 Künyenin `f:` alanından DEVRALINDI; künye dayanağı «Encyclopedia.com bağlamında çapraz doğrulanmış standart tarih» diye niteliyor — yani ikincil ve dolaylı. TARAFIMDAN DOĞRULANMADI."
+        },
+        {
+          "t": "1845-12-29",
+          "tur": "son",
+          "b": "Teksas ABD'ye katıldı, cumhuriyet sona erdi",
+          "kaynak": "🟡 Aynı künye alanından DEVRALINDI, aynı damga: ikincil, dolaylı, TARAFIMDAN DOĞRULANMADI."
+        }
+      ],
+      "not": "⚠️ Künyenin `t:` değeri 1923 DEĞİL — kısa ömürlü cumhuriyet. Bu iki gün ATLASIN EN ÇOK KULLANILAN cinsinden (tam gün, 19. yy) ve dayanağı en zayıf olanlardan; öncelikli doğrulama adayı."
+    },
+    {
+      "id": "apaci-ovalar",
+      "eklenen": [
+        {
+          "t": "1750-01-01",
+          "tur": "toprak-kayip",
+          "b": "At ve tüfek ticaretinin birleşmesiyle artan Komançi baskısı karşısında Ovalar Apaçileri güney ovalardan çekildi",
+          "kaynak": "Encyclopaedia Britannica «Apache» — AYNEN: «semisedentary Plains Apache farmers were living along the Dismal River … as recently as 1700. When the horse and gun trades converged in the central Plains about 1750 … The remaining Plains Apache were severely pressured and retreated.» 🟡 DEVRALDIM. 🔴 Kaynak «about 1750» diyor ⇒ YIL bile YAKLAŞIK; GÜN YOK. 🟢 `komanci` künyesinin Encyclopedia.com kaynağıyla aynı eşiği veriyor — iki bağımsız kaynak, tek eşik."
+        }
+      ],
+      "not": "🔴 `kurulus` YAZILMADI — pencere muafiyeti; künye açıkça «künyenin başı ATLASIN UFKUDUR, kuruluş tarihi DEĞİL (Apaçiler bölgede en az 1100'den beri)» diyor. 🟡 `son` yerine `toprak-kayip` yazıldı: kaynak halkın yok oluşunu değil OVALARDAN ÇEKİLMESİNİ anlatıyor. Kaynağın söylediğinden fazlasını yazmadım."
+    },
+    {
+      "id": "arua",
+      "eklenen": [
+        {
+          "t": "1836-01-01",
+          "tur": "son",
+          "b": "Cabanagem ayaklanmasının ardından Marajó ve çevre adalarındaki son Aruã toplulukları ortadan kalktı",
+          "kaynak": "Métraux, Handbook of South American Indians c.3 (Steward ed., Smithsonian, BAE Bulletin 143) — AYNEN: «Rebordello counted 279 Indians in 1816, but the last Aruã of Marajó and neighboring islands disappeared, probably in consequence of the revolt of the Cabanos, 1834-36.» 🔴 KAYNAK HEM ARALIK HEM ŞÜPHE TAŞIYOR: «1834-36» ve «probably». Künye aralığın SON ucunu almış. 🟡 DEVRALDIM. 🔴 GÜN YOK."
+        }
+      ],
+      "not": "🔴 `kurulus` YAZILMADI — künye açıkça «f:1281-01-01 ATLAS UFKUDUR, kuruluş yılı DEĞİLDİR» diyor. ⚠️ Künye ayrıca bir karışıklığı önceden kapatmış: bu künye MARAJOARA HÖYÜK KÜLTÜRÜ DEĞİLDİR."
+    },
+    {
+      "id": "charrua",
+      "eklenen": [
+        {
+          "t": "1831-01-01",
+          "tur": "son",
+          "b": "Salsipuedes deresindeki baskın Charrúa'yı bir siyasî varlık olarak sona erdirdi",
+          "kaynak": "Sömürge/ulus-devlet kaydı: Salsipuedes, Uruguay ordusu, Cumhurbaşkanı Fructuoso Rivera. 🔴 KÜNYENİN KENDİ ÖLÇÜMÜ: HSAI c.1 (Serrano, «The Charrua») halkı ve teritoryayı tarif ediyor ama SİYASÎ BİTİŞ VERMİYOR — «bitiş ifadesi + yıl» içeren cümle 0. 🔴 GÜN 11 Nisan 1831 diye BİLDİRİLİYOR ama AKADEMİK kaynakla DOĞRULANAMADI (Uruguay Comisión Nacional de Sitios de Memoria sayfası 403; kalanı Vikipedi düzeyi). ⇒ YIL yazıldı, GÜN YAZILMADI."
+        }
+      ],
+      "not": "🔴 `kurulus` YAZILMADI — pencere muafiyeti, künyenin kendi beyanı. 🟢 Bu künye bugünün kuralının en temiz örneği: GÜN BİLİNİYOR GİBİ duruyor (11 Nisan) ama akademik dayanağı yok ⇒ KULLANILMADI."
+    },
+    {
+      "id": "diaguita-calchaqui-konfederasyonu",
+      "eklenen": [
+        {
+          "t": "1667-01-02",
+          "tur": "son",
+          "b": "Calchaquí vadilerindeki bir buçuk asırlık direniş sona erdi",
+          "kaynak": "🔴 KÜNYENİN KENDİSİ ŞUNU YAZIYOR: «Bitiş tarihi nokta verisinde var ama BEN DOĞRULAYAMADIM (tam kaynak bulunamadı).» Bu itirafı DEVRALIYORUM: 1667-01-02 günü DOĞRULANMAMIŞTIR. ⚠️ Üstelik gün `-01-02` gibi olağandışı bir değer — hizalama ürünü olma ihtimali yüksek, ama ÖLÇMEDİM."
+        }
+      ],
+      "not": "🔴 `kurulus` YAZILMADI — künye «kesin kuruluş tarihi yok» diyor."
+    },
+    {
+      "id": "tui-tonga-imparatorlugu",
+      "eklenen": [
+        {
+          "t": "1845-12-04",
+          "tur": "son",
+          "b": "I. George Tupou adaları birleştirip modern krallığı kurdu, Tuʻi Tonga düzeni sona erdi",
+          "kaynak": "UNESCO World Heritage Centre, «The Ancient Capitals of the Kingdom of Tonga» + künyenin kendi hizalama beyanı: bitiş tarihi `tonga-kralligi` künyesinin BAŞLANGICIYLA birebir hizalı, devir boşluksuz. 🔴 BU BİR HİZALAMADIR ve künye onu gizlemiyor; GÜN bağımsız olarak DOĞRULANMADI. 🟡 DEVRALDIM."
+        }
+      ],
+      "not": "🔴 `kurulus` YAZILMADI — PENCERE MUAFİYETİ, ve sebebi ince: künyenin `f:` değeri 1220, atlas penceresi 1281'de başlıyor ⇒ 1220 zaten pencereden ÖNCE. Üstelik kaynak hânedan çizgisini ~950'ye götürüyor. 1220 bir KURULUŞ değil, Muʻa/Lapaha'nın kalıcı başkent oluşudur — `tur` sözlüğünde bunun karşılığı YOK, o yüzden madde YAZILMADI, uydurma bir tür ÜRETİLMEDİ."
+    }
+  ],
+  "olcum": {
+    "kunye": 17,
+    "madde": 25,
+    "kaynagi_bos_madde": 0,
+    "kurulus_yazilmayan_kunye_pencere_muafiyeti": 9
+  }
+}

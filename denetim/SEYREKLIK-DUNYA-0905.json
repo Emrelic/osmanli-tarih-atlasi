@@ -1,0 +1,321 @@
+{
+  "oturum": "KRONOLOJI BOS KUNYE (seyreklik ölçüm kolu)",
+  "damga": "2026-09-05",
+  "tur": "🔴 ÖLÇÜM TURU — NOKTA YAZILMADI (koordinatör hükmü M-2711)",
+  "yontem": {
+    "kara_maskesi": "veri-kaynak/ne_10m_land.geojson (GİRDİ maskesi; motor_kara ÇIKTIdır ve kullanılmadı)",
+    "izgara": "1° · kara hücresi 15.395 · hücre merkezi kara içindeyse sayılır",
+    "mesafe": "her kara hücresinden en yakın yerleşime, numpy ile 3.805 nokta × 15.395 hücre tam tarama",
+    "evren": "girdi.yukle() — CLAUDE.md §5'in tek otoritesi",
+    "🔴_bolge_kutulari": "elle tanımlı, ÖRTÜŞMELİ ve SIRA ÖNEMLİ — bir hücre İLK eşleşen bölgeye atanır. Bu bir SEÇİMDİR, projenin `bolge:` alanından türetilmedi."
+  },
+  "olcum": [
+    {
+      "bolge": "Gronland-Kuzey Atlantik",
+      "kara_hucresi": 696,
+      "nokta": 4,
+      "ortalama_km": 564.1,
+      "hucre_200km_ustu": 646,
+      "oran_200km": 92.8,
+      "hucre_400km_ustu": 503,
+      "oran_400km": 72.3,
+      "en_kotu_km": 1288,
+      "kasitli_bosluk_noktasi": 2,
+      "beyan_orani": 0.003
+    },
+    {
+      "bolge": "Orta Amerika-Karayip",
+      "kara_hucresi": 92,
+      "nokta": 12,
+      "ortalama_km": 222.2,
+      "hucre_200km_ustu": 52,
+      "oran_200km": 56.5,
+      "hucre_400km_ustu": 7,
+      "oran_400km": 7.6,
+      "en_kotu_km": 600,
+      "kasitli_bosluk_noktasi": 2,
+      "beyan_orani": 0.038
+    },
+    {
+      "bolge": "diger",
+      "kara_hucresi": 670,
+      "nokta": 65,
+      "ortalama_km": 350.5,
+      "hucre_200km_ustu": 299,
+      "oran_200km": 44.6,
+      "hucre_400km_ustu": 197,
+      "oran_400km": 29.4,
+      "en_kotu_km": 3376,
+      "kasitli_bosluk_noktasi": 7,
+      "beyan_orani": 0.023
+    },
+    {
+      "bolge": "Sibirya",
+      "kara_hucresi": 2126,
+      "nokta": 103,
+      "ortalama_km": 196.4,
+      "hucre_200km_ustu": 913,
+      "oran_200km": 42.9,
+      "hucre_400km_ustu": 108,
+      "oran_400km": 5.1,
+      "en_kotu_km": 549,
+      "kasitli_bosluk_noktasi": 43,
+      "beyan_orani": 0.047
+    },
+    {
+      "bolge": "Guney Amerika",
+      "kara_hucresi": 1477,
+      "nokta": 168,
+      "ortalama_km": 176.2,
+      "hucre_200km_ustu": 496,
+      "oran_200km": 33.6,
+      "hucre_400km_ustu": 68,
+      "oran_400km": 4.6,
+      "en_kotu_km": 689,
+      "kasitli_bosluk_noktasi": 48,
+      "beyan_orani": 0.097
+    },
+    {
+      "bolge": "Guney Asya",
+      "kara_hucresi": 640,
+      "nokta": 177,
+      "ortalama_km": 153.2,
+      "hucre_200km_ustu": 163,
+      "oran_200km": 25.5,
+      "hucre_400km_ustu": 37,
+      "oran_400km": 5.8,
+      "en_kotu_km": 554,
+      "kasitli_bosluk_noktasi": 0,
+      "beyan_orani": 0.0
+    },
+    {
+      "bolge": "Kuzey Afrika",
+      "kara_hucresi": 887,
+      "nokta": 237,
+      "ortalama_km": 158.6,
+      "hucre_200km_ustu": 226,
+      "oran_200km": 25.5,
+      "hucre_400km_ustu": 57,
+      "oran_400km": 6.4,
+      "en_kotu_km": 667,
+      "kasitli_bosluk_noktasi": 30,
+      "beyan_orani": 0.133
+    },
+    {
+      "bolge": "Dogu Asya",
+      "kara_hucresi": 809,
+      "nokta": 157,
+      "ortalama_km": 138.8,
+      "hucre_200km_ustu": 181,
+      "oran_200km": 22.4,
+      "hucre_400km_ustu": 0,
+      "oran_400km": 0.0,
+      "en_kotu_km": 383,
+      "kasitli_bosluk_noktasi": 6,
+      "beyan_orani": 0.033
+    },
+    {
+      "bolge": "Orta Asya",
+      "kara_hucresi": 872,
+      "nokta": 116,
+      "ortalama_km": 136.1,
+      "hucre_200km_ustu": 148,
+      "oran_200km": 17.0,
+      "hucre_400km_ustu": 12,
+      "oran_400km": 1.4,
+      "en_kotu_km": 548,
+      "kasitli_bosluk_noktasi": 9,
+      "beyan_orani": 0.061
+    },
+    {
+      "bolge": "Orta Dogu-Arabistan",
+      "kara_hucresi": 510,
+      "nokta": 246,
+      "ortalama_km": 111.7,
+      "hucre_200km_ustu": 72,
+      "oran_200km": 14.1,
+      "hucre_400km_ustu": 7,
+      "oran_400km": 1.4,
+      "en_kotu_km": 473,
+      "kasitli_bosluk_noktasi": 15,
+      "beyan_orani": 0.208
+    },
+    {
+      "bolge": "Guneydogu Asya",
+      "kara_hucresi": 271,
+      "nokta": 154,
+      "ortalama_km": 108.5,
+      "hucre_200km_ustu": 30,
+      "oran_200km": 11.1,
+      "hucre_400km_ustu": 0,
+      "oran_400km": 0.0,
+      "en_kotu_km": 369,
+      "kasitli_bosluk_noktasi": 10,
+      "beyan_orani": 0.333
+    },
+    {
+      "bolge": "Kuzey Amerika",
+      "kara_hucresi": 2780,
+      "nokta": 475,
+      "ortalama_km": 108.4,
+      "hucre_200km_ustu": 150,
+      "oran_200km": 5.4,
+      "hucre_400km_ustu": 0,
+      "oran_400km": 0.0,
+      "en_kotu_km": 335,
+      "kasitli_bosluk_noktasi": 18,
+      "beyan_orani": 0.12
+    },
+    {
+      "bolge": "Kafkasya-Iran",
+      "kara_hucresi": 71,
+      "nokta": 24,
+      "ortalama_km": 100.4,
+      "hucre_200km_ustu": 2,
+      "oran_200km": 2.8,
+      "hucre_400km_ustu": 0,
+      "oran_400km": 0.0,
+      "en_kotu_km": 253,
+      "kasitli_bosluk_noktasi": 2,
+      "beyan_orani": 1.0
+    },
+    {
+      "bolge": "Okyanusya",
+      "kara_hucresi": 772,
+      "nokta": 135,
+      "ortalama_km": 113.4,
+      "hucre_200km_ustu": 21,
+      "oran_200km": 2.7,
+      "hucre_400km_ustu": 1,
+      "oran_400km": 0.1,
+      "en_kotu_km": 546,
+      "kasitli_bosluk_noktasi": 52,
+      "beyan_orani": 2.476
+    },
+    {
+      "bolge": "Sahra alti Afrika",
+      "kara_hucresi": 1636,
+      "nokta": 627,
+      "ortalama_km": 88.9,
+      "hucre_200km_ustu": 11,
+      "oran_200km": 0.7,
+      "hucre_400km_ustu": 0,
+      "oran_400km": 0.0,
+      "en_kotu_km": 369,
+      "kasitli_bosluk_noktasi": 51,
+      "beyan_orani": 4.636
+    },
+    {
+      "bolge": "Avrupa",
+      "kara_hucresi": 924,
+      "nokta": 626,
+      "ortalama_km": 62.0,
+      "hucre_200km_ustu": 1,
+      "oran_200km": 0.1,
+      "hucre_400km_ustu": 0,
+      "oran_400km": 0.0,
+      "en_kotu_km": 201,
+      "kasitli_bosluk_noktasi": 1,
+      "beyan_orani": 1.0
+    },
+    {
+      "bolge": "Anadolu+Rumeli",
+      "kara_hucresi": 162,
+      "nokta": 479,
+      "ortalama_km": 38.1,
+      "hucre_200km_ustu": 0,
+      "oran_200km": 0.0,
+      "hucre_400km_ustu": 0,
+      "oran_400km": 0.0,
+      "en_kotu_km": 132,
+      "kasitli_bosluk_noktasi": 1,
+      "beyan_orani": null
+    }
+  ],
+  "diger_kovasi": {
+    "hucre": 670,
+    "aciklama": "🔴 ALETİMİN SINIRI: 670 hücre hiçbir kutuya girmedi (%4,4). Bunlar çoğunlukla Antarktika çevresi, uzak adalar ve kutup kuşağı. «Ölçülemedi» değil «kutulanamadı» — sayı doğru, ETİKET yok.",
+    "en_yogun_kutular": [
+      {
+        "kutu": "60..70 K / 50..60 D",
+        "hucre": 85
+      },
+      {
+        "kutu": "50..60 K / 40..50 D",
+        "hucre": 76
+      },
+      {
+        "kutu": "60..70 K / 40..50 D",
+        "hucre": 73
+      },
+      {
+        "kutu": "70..80 K / -90..-80 D",
+        "hucre": 56
+      },
+      {
+        "kutu": "70..80 K / -100..-90 D",
+        "hucre": 42
+      },
+      {
+        "kutu": "40..50 K / 90..100 D",
+        "hucre": 40
+      },
+      {
+        "kutu": "50..60 K / 50..60 D",
+        "hucre": 40
+      },
+      {
+        "kutu": "70..80 K / -120..-110 D",
+        "hucre": 32
+      }
+    ]
+  },
+  "SIRALAMA_VE_HUKUM": {
+    "olcut": "🔴 «karne» eşiğini BEN seçtim: >%20 hücre 200 km üstündeyse seyrek, ve beyan/boşluk oranı <0,10 ise BEYANSIZ. Bu eşik ölçümden çıkmadı, benim kararım — değiştirilebilir ve değişirse sıralama değişir.",
+    "🔴_EN_BUYUK_SAYI_YANLIS_HEDEF": {
+      "vaka": "Grönland-Kuzey Atlantik: 646 hücre 200 km üstünde (%92,8), 400 km üstünde %72,3 — listenin AÇIK ARA birincisi.",
+      "ama": "Bu hücrelerin ezici çoğunluğu GRÖNLAND BUZ TABAKASI ve kutup adaları. Oraya yerleşim noktası yazmak yanlış olurdu: eksik olan VERİ değil, YERLEŞİMİN KENDİSİ.",
+      "dogru_karsilik": "Nokta değil BEYAN: `kasitli_bosluk: true` + `bos: \"insansiz\"`. Bugün orada 4 nokta ve 2 beyan var.",
+      "ders": "Bir seyreklik ölçümü «nereye nokta gerek» sorusunu TEK BAŞINA cevaplamaz. Boş olması DOĞRU olan yerler var — çölün, buzun ve okyanus adalarının boşluğu kusur değil. ⇒ Sıralamanın tepesi otomatik hedef DEĞİLDİR."
+    },
+    "SIRALAMA_nokta_yazilacak_yerler_icin": [
+      {
+        "sira": 1,
+        "bolge": "Sibirya",
+        "gerekce": "913 hücre 200 km üstünde — MUTLAK olarak en büyük gerçek boşluk. 2.126 kara hücresine karşı 103 nokta. Beyan/boşluk 0,047: boşluğun %95'i beyansız. Ve buzul değil: Batı Sibirya ovası, Yenisey-Lena havzaları tarihsel yerleşim taşıyor (ostrog hattı, Yakut ve Buryat merkezleri).",
+        "🟡_uyari": "Sibirya'da 43 beyan zaten var — bir sonraki tur önce ONLARI okumalı, yoksa beyan edilmiş boşluğa nokta yazar."
+      },
+      {
+        "sira": 2,
+        "bolge": "Güney Amerika",
+        "gerekce": "496 hücre 200 km üstünde, 168 nokta, beyan/boşluk 0,097. Amazon havzası ve Gran Chaco. 48 beyan var, yani kısmen çalışılmış."
+      },
+      {
+        "sira": 3,
+        "bolge": "Kuzey Afrika",
+        "gerekce": "226 hücre, ve beyan/boşluk 0,133 ile listenin EN İYİ beyanlanmış seyrek bölgesi — Sahra kasten boş. ⇒ Nokta hedefi olarak DÜŞÜK öncelik: boşluğu zaten AÇIKLANMIŞ."
+      },
+      {
+        "sira": 4,
+        "bolge": "Güney Asya",
+        "gerekce": "163 hücre 200 km üstünde ve BEYAN SIFIR — tek bölge. Mutlak boşluk küçük ama HİÇ beyan yok: yani boşluğun kasıtlı mı eksik mi olduğu HİÇ ÖLÇÜLMEMİŞ. Küçük ama TAMAMEN kör bir bölge."
+      }
+    ],
+    "🟢_ZATEN_ISLENMIS_bolgeler": {
+      "olcut": "beyan/boşluk oranı 1'in ÜSTÜNDE — boşluktan çok beyan var",
+      "bolgeler": {
+        "Sahra altı Afrika": 4.636,
+        "Okyanusya": 2.476,
+        "Kafkasya-İran": 1.0,
+        "Avrupa": 1.0
+      },
+      "yorum": "Bu bölgelerde iş YAPILMIŞ: boşluklar ölçülmüş ve cinsi yazılmış. Yeni bir nokta turu buralara gitmemeli."
+    },
+    "🔴_ALETIMIN_SINIRLARI": [
+      "Bölge kutuları ELLE tanımlı ve örtüşmeli; bir hücre İLK eşleşen bölgeye atanıyor. Projenin kendi `bolge:` alanından türetilmedi ⇒ sayılar bu kutulara BAĞLI.",
+      "670 hücre (%4,4) hiçbir kutuya girmedi — Ural/Kuzey Rusya (50-70K/40-60D) ve Kanada Kuzey Kutbu ağırlıklı. Bu «ölçülemedi» DEĞİL, «kutulanamadı»: mesafe ölçüldü, ETİKET yok.",
+      "1° hücre ekvatorda ~111 km, 60. enlemde ~55 km — YÜKSEK ENLEMDE hücre sayısı alanla orantılı DEĞİL. Grönland/Sibirya'nın hücre sayısı bu yüzden ŞİŞKİN görünür. Oranlar buna göre okunmalı.",
+      "Ölçüm BUGÜNKÜ noktalara göre; kasıtlı boşluk noktaları da «nokta» sayılıyor, yani beyanlı bir boşluk mesafeyi KISALTIYOR."
+    ]
+  }
+}

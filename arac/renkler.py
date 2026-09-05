@@ -3057,6 +3057,47 @@ BOYALAR = {
     "zerma":                   ("Zerma (Djerma) Devletçikleri",        "#6c1290"),
     "zuni":                    ("Zuni (A:shiwi)",                      "#1e78c0"),
     "kabartay":                ("Kabartay (Kabardey) Beylikleri",    "#d058e8"),
+    # ================================================================
+    # MERGE 5 EYLUL 2026 — 29 KIMLIK, TEK TURDA COZULDU
+    # `renk_olc.py --oner` · artefakt: oneri-20260905-224505.txt
+    # 🔴 TEK TURDA: komsu kumeleri var (uc GUYANA · LEVANT dortlusu ·
+    #    ORTA ASYA ikilisi · HADRAMUT/AIR ucu · ARNAVUTLUK ucu
+    #    topia-dukagin-zeta). `§11` SIRA BAGLAR: tek tek cozmek gec
+    #    siradakini 'cozulemez GORUNUR' yapar (olculmus vaka 20→7).
+    # ⚠️ Ucu esige YAKIN (DE 12,6-13,1): irak-kralligi ·
+    #    kesiri-sultanligi · suriye-lubnan-mandasi. ACIK BORC:
+    #    `oner()` hedefi `DE_KOMSU + pay` olmali (emsal 13,0).
+    # ================================================================
+    "agadez-sultanligi": ("Agadez (Aïr) Sultanlığı — Tuareg", "#243cd2"),
+    "ammarogullari": ("Ammâroğulları (Trablusgarp)", "#2442d2"),
+    "arma": ("Arma Paşalığı (Tinbüktü)", "#24c0d2"),
+    "buhara-halk-cumhuriyeti": ("Buhara Halk Sovyet Cumhuriyeti", "#244ed2"),
+    "cemisgezek-beyligi": ("Cemisgezek Beyligi (Melkisi)", "#24c6d2"),
+    "dukagin": ("Dukagin (Dukagjini) Prensliği", "#24d28a"),
+    "filistin-mandasi": ("İngiliz Filistin Mandası", "#24d2a8"),
+    "fransiz-guyanasi": ("Fransız Guyanası", "#24d2ae"),
+    "harezm-halk-cumhuriyeti": ("Harezm Halk Sovyet Cumhuriyeti", "#24d2b4"),
+    "hollanda-guyanasi": ("Hollanda Guyanası (Surinam)", "#3cd224"),
+    "hurmuz-sultanligi": ("Hürmüz Sultanlığı", "#24d2ba"),
+    "ingiliz-guyanasi": ("İngiliz Guyanası", "#4824d2"),
+    "ingiliz-sudani": ("İngiliz Sudanı (Anglo-Mısır Kondominyumu)", "#24d2c0"),
+    "irak-kralligi": ("Irak Krallığı (Faysal I, İngiliz Mandası)", "#42d224"),
+    "kesiri-sultanligi": ("Kesîrî Sultanlığı (Hadramut iç kesimi)", "#4e24d2"),
+    "kuayti-sultanligi": ("Kuaytî Sultanlığı (Şihr-Mükellâ, Hadramut kıyısı)", "#90d224"),
+    "misir-kralligi": ("Mısır Krallığı (I. Fuad)", "#48d224"),
+    "misir-sultanligi": ("Mısır Sultanlığı (İngiliz Himayesi)", "#4ed224"),
+    "norse-gronland": ("Norse Grönland (Vestribygð–Eystribygð)", "#5424d2"),
+    "piombino": ("Piombino Prensliği (Appiani hânedanı)", "#54d224"),
+    "rif-cumhuriyeti": ("Rif Cumhuriyeti (Abdülkerim el-Hattâbî)", "#5a24d2"),
+    "suriye-lubnan-mandasi": ("Fransız Suriye-Lübnan Manda İdaresi", "#9c24d2"),
+    "sutayogullari": ("Sutayogullari", "#5ad224"),
+    "tannu-tuva": ("Tannu Tuva Halk Cumhuriyeti", "#6024d2"),
+    "topia": ("Topia (Thopia) Beyliği", "#60d224"),
+    "urdun-emirligi": ("Şarkî Ürdün Emirliği (Abdullah bin Hüseyin)", "#d2249c"),
+    "kuveyt": ("Kuveyt (Sabah Şeyhliği)", "#d25424"),
+    "zeta": ("Zeta Prensliği (Balšić / Crnojević)", "#6624d2"),
+    "tbmm-turkiye": ("Türkiye Büyük Millet Meclisi Hükûmeti", "#6c24d2"),
+
 }
 
 

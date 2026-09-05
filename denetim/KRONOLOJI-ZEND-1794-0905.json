@@ -1,0 +1,26 @@
+{
+  "oturum": "KRONOLOJI BOS KUNYE",
+  "damga": "2026-09-05 10:37",
+  "is": "M-2873 ② — `1794-01-01` için ÇEKİRDEK kırılma maddesi",
+  "🔴_NIYE_ZORUNLU": {
+    "olcum": "ÇEKİRDEKTE (data/olaylar*.js) 1794-01-01 ±30 gün: **0 madde**. KUYRUKTA (data/kronoloji*.js) 1 madde var (`kronoloji_iran.js`, tam 1794-01-01).",
+    "sonuc": "🔴 KUYRUK YETMEZ. `Değişmez 2` ÇEKİRDEĞİ ölçüyor — `CLAUDE.md §11`: «bu gün zaten var yetmiyor, HANGİ KOVADA olduğu da sorulmalı». Üstelik uygulayıcının kendi kapısı da aynı: `_sahiplik_uygula.py:543` MADDESİZ GÜN'de kaydı ATLAR.",
+    "⇒": "Bu madde ÇEKİRDEĞE inmeden `yer_yama_zend_kacar.js` UYGULANAMAZ. 132 kayıt buna bağlı."
+  },
+  "hedef_dosya": "data/olaylar_ek*.js (koordinatör seçer — data/ DONMUŞ, ben yazamam)",
+  "madde": {
+    "t": "1794-01-01",
+    "tur": "son",
+    "b": "Zend hânedanı sona erdi; İran'da hâkimiyet Ağa Muhammed Han Kaçar'a geçti",
+    "kaynak": "TDV `lutf-ali-han` (HTTP 200) — AYNEN: «İran'da hüküm süren Zendler'in son hükümdarı (1789-1794)». 🔴 VE SEÇİMİN GÖRÜNÜR OLMASI İÇİN: TDV `kacarlar` Kaçar Devleti'ni «adına hutbe okuttu ve para kestirdi (1796); böylece Kaçar Devleti RESMEN kurulmuş oldu» diyerek **1796**'ya bağlar ve hânedanı «(1796-1925)» diye tarihler. Atlas burada TASARRUFU esas alıyor, resmî kuruluşu değil: aynı madde Ağa Muhammed Han'ın Zend hükümdarı Câfer Han'ı **1786**'da yendiğini yazıyor ⇒ yükseliş kuruluştan önce. 🔴 GÜN YOK — TDV yalnız YIL veriyor ⇒ YYYY-01-01."
+  },
+  "🟡_UYARI_kirilma_gunu_ile_madde_gunu": {
+    "ne": "Bu madde `1794-01-01` gününe yazılıyor ve 132 kaydın kırılması da aynı gün ⇒ `Değişmez 2` sıfır gün uzaklıkta bir madde bulur.",
+    "ama": "🔴 GÜN KENDİSİ KAYNAKLI DEĞİL: TDV «1789-1794» diyor, yani YIL. `-01-01` GÜNÜ bilinmediği için konan biçimdir, bir olay günü DEĞİL. Madde bunu kendi metninde taşımalı ki bir sonraki oturum onu «1 Ocak'ta oldu» diye okumasın."
+  },
+  "olcum": {
+    "eklenen_madde": 1,
+    "cekirdekteki_mevcut": 0,
+    "kuyruktaki_mevcut": 1
+  }
+}

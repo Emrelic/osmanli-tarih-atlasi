@@ -112,7 +112,7 @@ window.YERLESIMLER_SERHAT = [
 // 🔴 H-0007'nin koridor kanıtı: TDV `sehirkoy` 1689'da şehrin müttefik
 //    hıristiyan kuvvetlerince zaptedildiğini AÇIKÇA yazıyor. Niş
 //    (1689-09-24) ile Vidin arasındaki hattın eksik halkası budur.
-{ ad:"Şehirköy (Pirot)",kaynak:"sehirkoy", tur:"kasaba", lat:43.1531, lon:22.5861, g:0, k:3, m:"Sofya",
+{ ad:"Şehirköy (Pirot)",not:"H-0017 · 1386-1413 penceresi veride HIC yoktu: Sehirkoy, Osmanli Sofya'si (1385-09-01) ile Osmanli Nis'i (1386-01-01) ARASINDA olmasina ragmen 1428'e kadar Sirp gorunuyordu. Emre'nin 'Nis'in yaninda kalmis Sirbistan topragi' dedigi parca budur. IKI olay BILEREK modellenmedi, ikisinde de TDV GUN vermiyor: (1) 1389 Vojinovic'in kaleyi geri almasi ve Sirplarin yakip terk etmesi, (2) 1412'de Stefan Lazarevic'in zapti. Devir gunu olarak TDV'nin 'resmen iade etti' dedigi 1413-07-05 (Musa Celebi'nin olumu) secildi — o gun kulliyatta VAR, 1412-01-01 ise YOKTU ve uygulayici onu haklı olarak reddetti.",kaynak:"sehirkoy", tur:"kasaba", lat:43.1531, lon:22.5861, g:0, k:3, m:"Sofya",
   s:[{f:"1281-01-01",t:"1386-01-01",d:"sirbistan"},{f:"1413-07-05",t:"1428-01-01",d:"sirp-despotlugu"},{f:"1443-01-01",t:"1456-01-01",d:"sirp-despotlugu"},{f:"1689-09-24",t:"1690-09-09",d:"avusturya"},{f:"1878-07-13",t:"1882-03-06",d:"sirbistan-prensligi"},{f:"1882-03-06",t:"1918-12-01",d:"sirbistan-kralligi"},{f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],
   d:[{f:"1386-01-01",t:"1413-07-05"},{f:"1428-01-01",t:"1443-01-01"},{f:"1456-01-01",t:"1689-09-24"},{f:"1690-09-09",t:"1878-07-13"}],
   v:[] },

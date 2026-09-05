@@ -38,29 +38,20 @@ window.YERLESIMLER_KALITE4 = [
   // kaynak: standart akademik — "ilk kez 16. yy'da (Safevî dönemi)
   // kaydediliyor, 17. yy'da Mükrî beyliğinin merkezi oldu" (Budak Sultan
   // Mükrî). TDV müstakil maddesi yok (`mehabad`/`savucbulak` ölü).
-  s:[{f:"1501-07-01",t:"1736-03-08",d:"safevi"},
-     {f:"1736-03-08",t:"1747-06-20",d:"afsar"},
-     {f:"1747-06-20",t:"1796-01-01",d:"zend"},
-     {f:"1796-01-01",t:"1923-10-29",d:"kacar"}] },
+  s:[{f:"1501-07-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1794-01-01",d:"zend"},{f:"1794-01-01",t:"1923-10-29",d:"kacar"}] },
 
 { ad:"Bâne", tur:"sehir", lat:35.99, lon:45.88, g:0, k:3,
   kur:"1501-07-01",
   // kaynak: standart akademik — Erdelan/Baban/Mükriyân Kürt beyliklerinden
   // birinin toprağı, yerel Ehtiyârüddin ailesi Safevî döneminde "sultan"
   // unvanıyla anılıyor. TDV müstakil maddesi yok.
-  s:[{f:"1501-07-01",t:"1736-03-08",d:"safevi"},
-     {f:"1736-03-08",t:"1747-06-20",d:"afsar"},
-     {f:"1747-06-20",t:"1796-01-01",d:"zend"},
-     {f:"1796-01-01",t:"1923-10-29",d:"kacar"}] },
+  s:[{f:"1501-07-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1794-01-01",d:"zend"},{f:"1794-01-01",t:"1923-10-29",d:"kacar"}] },
 
 { ad:"Serdeşt (Sardasht)", tur:"sehir", lat:36.16, lon:45.48, g:0, k:3,
   kur:"1501-07-01",
   // kaynak: standart akademik — Bâne ile aynı Kürt beylik kuşağı
   // (Mükriyân), Safevî-Osmanlı sınır bölgesi. TDV müstakil maddesi yok.
-  s:[{f:"1501-07-01",t:"1736-03-08",d:"safevi"},
-     {f:"1736-03-08",t:"1747-06-20",d:"afsar"},
-     {f:"1747-06-20",t:"1796-01-01",d:"zend"},
-     {f:"1796-01-01",t:"1923-10-29",d:"kacar"}] },
+  s:[{f:"1501-07-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1794-01-01",d:"zend"},{f:"1794-01-01",t:"1923-10-29",d:"kacar"}] },
 
 { ad:"Şerur (Sharur)", tur:"sehir", lat:39.55, lon:44.95, g:0, k:3,
   // kaynak: standart akademik — "Nahçıvan'ın en eski ve en büyük
@@ -69,15 +60,6 @@ window.YERLESIMLER_KALITE4 = [
   // yy Osmanlı-Safevî savaşlarında sık sık el değiştirdi. TDV müstakil
   // maddesi yok. Komşu Nahçıvan ile AYNI zincir (aynı hanlık/idari birim,
   // 1828 Türkmençay Antlaşması'yla Rusya'ya geçiyor).
-  s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},
-     {f:"1340-01-01",t:"1386-01-01",d:"celayirli"},
-     {f:"1386-01-01",t:"1406-10-21",d:"timurlu"},
-     {f:"1406-10-21",t:"1468-04-01",d:"karakoyunlu"},
-     {f:"1468-04-01",t:"1501-07-01",d:"akkoyunlu"},
-     {f:"1501-07-01",t:"1736-03-08",d:"safevi"},
-     {f:"1736-03-08",t:"1747-06-20",d:"afsar"},
-     {f:"1747-06-20",t:"1796-01-01",d:"zend"},
-     {f:"1796-01-01",t:"1828-02-22",d:"kacar"},
-     {f:"1828-02-22",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
+  s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},{f:"1340-01-01",t:"1386-01-01",d:"celayirli"},{f:"1386-01-01",t:"1406-10-21",d:"timurlu"},{f:"1406-10-21",t:"1468-04-01",d:"karakoyunlu"},{f:"1468-04-01",t:"1501-07-01",d:"akkoyunlu"},{f:"1501-07-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1794-01-01",d:"zend"},{f:"1794-01-01",t:"1828-02-22",d:"kacar"},{f:"1828-02-22",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}] },
 
 ];

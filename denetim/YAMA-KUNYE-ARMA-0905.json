@@ -1,0 +1,41 @@
+{
+  "oturum": "KRONOLOJI BOS KUNYE",
+  "damga": "2026-09-05 09:38",
+  "is": "M-2853 ① — `arma` künye önerisi",
+  "🔴_INDIRME_RENK_BEKLIYOR": "Bu künye `renkler.py`de TANIMLI DEĞİL (ölçtüm: `arma` BOYALAR'da yok). Renk verilmeden veriye inerse gövde ÇİZİLMEZ — harita deliği açar. `polonya-erken` emsali: önce renk, sonra iniş.",
+  "kunye": {
+    "id": "arma",
+    "ad": "Arma Paşalığı (Tinbüktü)",
+    "tur": "beylik",
+    "bolge": "bati-afrika",
+    "f": "1750-01-01",
+    "t": "1760-01-01",
+    "ozet": "Tinbüktü'de, 1591 Fas fethinden sonra kalan Merakeşli askerlerin yerli kadınlarla evliliğinden doğan ve «arma» denilen zümrenin kurduğu yönetim. Ebü'l-Mahallî önderliğinde 1750'de şehrin idaresini ele geçirdiler; 1760'ta Tevârikler şehri zaptedince hâkimiyetleri sona erdi. 🔴 `f:` ve `t:` ATLAS UFKU DEĞİL, kaynağın verdiği iki gerçek uçtur. 🟡 Arma zümresi 1750'den ÖNCE de vardı (1591 fethinin artçısıdır); künye penceresi zümrenin varlığını değil YÖNETİMİNİ ölçüyor — kaynak yalnız 1750'yi tarihliyor.",
+    "kaynak": "TDV `tinbuktu` (HTTP 200, gövde açıldı) — AYNEN: «Merakeşli askerlerin yerli kadınlarla evliliğinden doğan ve 'arma' denilen çocukları Ebü'l-Mahallî liderliğinde 1163'te (1750) Tinbüktü'de yönetimi ele geçirdiler.» ve «1760'ta Tevârikler'in zaptettiği Tinbüktü on yıl sonra Segu Bambaraları'nın hâkimiyetine girdi.» 🔴 GÜN YOK ⇒ YYYY-01-01. Hicrî 1163 = mîlâdî 1750, TDV ikisini de veriyor.",
+    "kronoloji": [
+      {
+        "t": "1750-01-01",
+        "tur": "kurulus",
+        "b": "Arma zümresi Ebü'l-Mahallî önderliğinde Tinbüktü'nün yönetimini ele geçirdi",
+        "kaynak": "TDV `tinbuktu` (HTTP 200, gövde açıldı) — AYNEN: «Merakeşli askerlerin yerli kadınlarla evliliğinden doğan ve 'arma' denilen çocukları Ebü'l-Mahallî liderliğinde 1163'te (1750) Tinbüktü'de yönetimi ele geçirdiler.»"
+      },
+      {
+        "t": "1760-01-01",
+        "tur": "son",
+        "b": "Tevârikler Tinbüktü'yü zaptetti, Arma hâkimiyeti sona erdi",
+        "kaynak": "TDV `tinbuktu` — AYNEN: «1760'ta Tevârikler'in zaptettiği Tinbüktü…»"
+      }
+    ]
+  },
+  "🔴_PENCEREYI_GENISLETMEDIM": {
+    "kolay_olan": "Künyeyi 1700'e (verideki boşluğun başına) ya da 1591'e (Fas fethine) çekmek — boşluğun tamamını kapatırdı.",
+    "niye_yapmadim": "İkisi de HİZALAMA olurdu: kaynak yalnız 1750'yi tarihliyor. Veri boşluğuna göre künye penceresi yazmak, bu gece defalarca kaydettiğimiz kusurun ta kendisi.",
+    "sonuc": "⇒ Timbuktu'da 1700-01-01 … 1750-01-01 arası (50 yıl) HÂLÂ AÇIK ve kaynaksız. 223 → 60 → **50 yıl**."
+  },
+  "olcum": {
+    "kunye": 1,
+    "kronoloji_madde": 2,
+    "renk": "🔴 YOK — indirme",
+    "kimlik_cakismasi": "`arma` id'si dizinde BOŞ (591 künye tarandı)"
+  }
+}

@@ -78,126 +78,126 @@ window.YERLESIMLER_AFRIKA = [
 // (mevcut İskenderiye, Dimyat, Reşîd kayıtlarıyla aynı gün).
 // ===========================================================================
 
-{ ad:"Demenhûr (Damanhur)", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"sehir", lat:31.034, lon:30.470, g:0, k:3, m:"Kahire",
-  s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+{ ad:"Demenhûr (Damanhur)",not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor.", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], tur:"sehir", lat:31.034, lon:30.470, g:0, k:3, m:"Kahire",
+  s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
   d:[{f:"1517-05-19",t:"1805-07-03"}],
   v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
-{ ad:"Dessûk", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"sehir", lat:31.135, lon:30.647, g:0, k:4, m:"Kahire",
-  s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+{ ad:"Dessûk",not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor.", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], tur:"sehir", lat:31.135, lon:30.647, g:0, k:4, m:"Kahire",
+  s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
   d:[{f:"1517-05-19",t:"1805-07-03"}],
   v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
-{ ad:"Kafrüşşeyh", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"sehir", lat:31.112, lon:30.940, g:0, k:4, m:"Kahire",
-  s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+{ ad:"Kafrüşşeyh",not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor.", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], tur:"sehir", lat:31.112, lon:30.940, g:0, k:4, m:"Kahire",
+  s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
   d:[{f:"1517-05-19",t:"1805-07-03"}],
   v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
 // Burullus gölünün kuzey kordonu; Delta'nın kuzey kıyısını Reşîd ile Dimyat
 // arasında tutan tek nokta.
-{ ad:"Bürüllüs (Baltîm)", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"liman", lat:31.556, lon:31.090, g:0, k:4, m:"Kahire",
-  s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+{ ad:"Bürüllüs (Baltîm)",not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor.", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], tur:"liman", lat:31.556, lon:31.090, g:0, k:4, m:"Kahire",
+  s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
   d:[{f:"1517-05-19",t:"1805-07-03"}],
   v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
-{ ad:"Tanta", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"sehir", lat:30.786, lon:31.001, g:1, k:4, m:"Kahire",
-  s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+{ ad:"Tanta",not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor.", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], tur:"sehir", lat:30.786, lon:31.001, g:1, k:4, m:"Kahire",
+  s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
   d:[{f:"1517-05-19",t:"1805-07-03"}],
   v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
 // Garbiye kâşifliğinin merkezi.
-{ ad:"Mahalletülkübrâ", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"sehir", lat:30.970, lon:31.168, g:0, k:3, m:"Kahire",
-  s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+{ ad:"Mahalletülkübrâ",not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor.", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], tur:"sehir", lat:30.970, lon:31.168, g:0, k:3, m:"Kahire",
+  s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
   d:[{f:"1517-05-19",t:"1805-07-03"}],
   v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
 // Menûfiye kâşifliğinin merkezi.
-{ ad:"Şibînülkûm (Menûfiye)", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"sehir", lat:30.552, lon:31.011, g:0, k:3, m:"Kahire",
-  s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+{ ad:"Şibînülkûm (Menûfiye)",not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor.", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], tur:"sehir", lat:30.552, lon:31.011, g:0, k:3, m:"Kahire",
+  s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
   d:[{f:"1517-05-19",t:"1805-07-03"}],
   v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
 // Kalyûbiye kâşifliğinin merkezi.
-{ ad:"Benhâ (Kalyûbiye)", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"sehir", lat:30.466, lon:31.184, g:0, k:4, m:"Kahire",
-  s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+{ ad:"Benhâ (Kalyûbiye)",not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor.", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], tur:"sehir", lat:30.466, lon:31.184, g:0, k:4, m:"Kahire",
+  s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
   d:[{f:"1517-05-19",t:"1805-07-03"}],
   v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
 // Dakahliye kâşifliğinin merkezi.
-{ ad:"Mansûre", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"sehir", lat:31.038, lon:31.380, g:1, k:3, m:"Kahire",
-  s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+{ ad:"Mansûre",not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor.", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], tur:"sehir", lat:31.038, lon:31.380, g:1, k:3, m:"Kahire",
+  s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
   d:[{f:"1517-05-19",t:"1805-07-03"}],
   v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
-{ ad:"Mît Gamr", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"sehir", lat:30.718, lon:31.259, g:0, k:4, m:"Kahire",
-  s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+{ ad:"Mît Gamr",not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor.", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], tur:"sehir", lat:30.718, lon:31.259, g:0, k:4, m:"Kahire",
+  s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
   d:[{f:"1517-05-19",t:"1805-07-03"}],
   v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
-{ ad:"Menzile", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"sehir", lat:31.157, lon:31.937, g:0, k:4, m:"Kahire",
-  s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+{ ad:"Menzile",not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor.", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], tur:"sehir", lat:31.157, lon:31.937, g:0, k:4, m:"Kahire",
+  s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
   d:[{f:"1517-05-19",t:"1805-07-03"}],
   v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
 // Şarkiye kâşifliğinin merkezi; Mısır'dan Suriye'ye giden ordu yolunun ilk
 // menzili.
-{ ad:"Bilbîs (Şarkiye)", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"sehir", lat:30.417, lon:31.567, g:0, k:3, m:"Kahire",
-  s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+{ ad:"Bilbîs (Şarkiye)",not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor.", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], tur:"sehir", lat:30.417, lon:31.567, g:0, k:3, m:"Kahire",
+  s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
   d:[{f:"1517-05-19",t:"1805-07-03"}],
   v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
-{ ad:"Fâkûs", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"sehir", lat:30.729, lon:31.797, g:0, k:4, m:"Kahire",
-  s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+{ ad:"Fâkûs",not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor.", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], tur:"sehir", lat:30.729, lon:31.797, g:0, k:4, m:"Kahire",
+  s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
   d:[{f:"1517-05-19",t:"1805-07-03"}],
   v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
 // Sînâ yolunun son Mısır menzili.
-{ ad:"Sâlihiyye", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"kale", lat:30.793, lon:31.986, g:0, k:4, m:"Kahire",
-  s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+{ ad:"Sâlihiyye",not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor.", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], tur:"kale", lat:30.793, lon:31.986, g:0, k:4, m:"Kahire",
+  s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
   d:[{f:"1517-05-19",t:"1805-07-03"}],
   v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
 // 1798 ve 1799 Ebûkîr muharebelerinin sahnesi.
-{ ad:"Ebûkîr", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"kale", lat:31.317, lon:30.062, g:0, k:4, m:"Kahire",
-  s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+{ ad:"Ebûkîr",not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor.", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], tur:"kale", lat:31.317, lon:30.062, g:0, k:4, m:"Kahire",
+  s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
   d:[{f:"1517-05-19",t:"1805-07-03"}],
   v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
 // Süveyş Kanalı şehirleri: kur: alanı motorca okunmuyor (MIMARI.md §3.1), ama
 // kanaldan önce burada yerleşim yoktu; zaman dilimli Voronoi geldiğinde veri
 // hazır olsun diye yazıldı. Dönem zincirleri Mısır'ın geneliyle aynı.
-{ ad:"Portsaid", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"liman", lat:31.257, lon:32.284, g:0, k:4, m:"Kahire", kur:"1859-04-25",
-  s:[{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+{ ad:"Portsaid",not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor.", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], tur:"liman", lat:31.257, lon:32.284, g:0, k:4, m:"Kahire", kur:"1859-04-25",
+  s:[{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
   d:[],
   v:[{f:"1859-04-25",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
-{ ad:"İsmâiliye", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"sehir", lat:30.588, lon:32.271, g:0, k:4, m:"Kahire", kur:"1863-04-27",
-  s:[{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+{ ad:"İsmâiliye",not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor.", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], tur:"sehir", lat:30.588, lon:32.271, g:0, k:4, m:"Kahire", kur:"1863-04-27",
+  s:[{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
   d:[],
   v:[{f:"1863-04-27",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
 // Sînâ'nın kuzey kıyısı — Mısır ile Suriye arasındaki tek karayolu buradan
 // geçer; Katye kervan ve hac yolu menzili, El-Arîş sınır kalesidir.
-{ ad:"Katye", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"kale", lat:30.940, lon:32.633, g:0, k:4, m:"Kahire",
-  s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+{ ad:"Katye",not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor.", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], tur:"kale", lat:30.940, lon:32.633, g:0, k:4, m:"Kahire",
+  s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
   d:[{f:"1517-05-19",t:"1805-07-03"}],
   v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
-{ ad:"El-Arîş", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"kale", lat:31.132, lon:33.798, g:0, k:4, m:"Kahire",
-  s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+{ ad:"El-Arîş",not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor.", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], tur:"kale", lat:31.132, lon:33.798, g:0, k:4, m:"Kahire",
+  s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
   d:[{f:"1517-05-19",t:"1805-07-03"}],
   v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
 // Marmarika kıyısı: İskenderiye ile Derne arasında 700 km boyunca hiç nokta
 // yoktu, kıyı şeridi İskenderiye'nin peteğine emiliyordu.
-{ ad:"Mersâ Matruh", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"liman", lat:31.353, lon:27.237, g:0, k:4, m:"Kahire",
-  s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+{ ad:"Mersâ Matruh",not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor.", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], tur:"liman", lat:31.353, lon:27.237, g:0, k:4, m:"Kahire",
+  s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
   d:[{f:"1517-05-19",t:"1805-07-03"}],
   v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
 // Mısır-Trablusgarp sınırı; 1911 sınır düzenlemesinde Mısır'da kaldı.
-{ ad:"Sellûm", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"liman", lat:31.545, lon:25.170, g:0, k:4, m:"Kahire",
-  s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+{ ad:"Sellûm",not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor.", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], tur:"liman", lat:31.545, lon:25.170, g:0, k:4, m:"Kahire",
+  s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
   d:[{f:"1517-05-19",t:"1805-07-03"}],
   v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
@@ -208,92 +208,92 @@ window.YERLESIMLER_AFRIKA = [
 // Asvan kayıtlarıyla aynı gün).
 // ===========================================================================
 
-{ ad:"Atfîh", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"sehir", lat:29.408, lon:31.257, g:0, k:4, m:"Kahire",
-  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+{ ad:"Atfîh",not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor.", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], tur:"sehir", lat:29.408, lon:31.257, g:0, k:4, m:"Kahire",
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
   d:[{f:"1517-04-13",t:"1805-07-03"}],
   v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
-{ ad:"Benî Süveyf", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"sehir", lat:29.074, lon:31.098, g:0, k:3, m:"Kahire",
-  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+{ ad:"Benî Süveyf",not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor.", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], tur:"sehir", lat:29.074, lon:31.098, g:0, k:3, m:"Kahire",
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
   d:[{f:"1517-04-13",t:"1805-07-03"}],
   v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
 // Nil vadisinin batısındaki tek büyük vaha-ova; kendi noktası olmazsa Batı
 // çölü dolgusuna ya da Kahire'ye emilir.
-{ ad:"Feyyûm", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"sehir", lat:29.309, lon:30.842, g:1, k:3, m:"Kahire",
-  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+{ ad:"Feyyûm",not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor.", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], tur:"sehir", lat:29.309, lon:30.842, g:1, k:3, m:"Kahire",
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
   d:[{f:"1517-04-13",t:"1805-07-03"}],
   v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
-{ ad:"Behnesâ", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"sehir", lat:28.535, lon:30.650, g:0, k:4, m:"Kahire",
-  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+{ ad:"Behnesâ",not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor.", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], tur:"sehir", lat:28.535, lon:30.650, g:0, k:4, m:"Kahire",
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
   d:[{f:"1517-04-13",t:"1805-07-03"}],
   v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
-{ ad:"Minye", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"sehir", lat:28.109, lon:30.750, g:0, k:3, m:"Kahire",
-  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+{ ad:"Minye",not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor.", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], tur:"sehir", lat:28.109, lon:30.750, g:0, k:3, m:"Kahire",
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
   d:[{f:"1517-04-13",t:"1805-07-03"}],
   v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
-{ ad:"Mellevî", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"sehir", lat:27.732, lon:30.841, g:0, k:4, m:"Kahire",
-  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+{ ad:"Mellevî",not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor.", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], tur:"sehir", lat:27.732, lon:30.841, g:0, k:4, m:"Kahire",
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
   d:[{f:"1517-04-13",t:"1805-07-03"}],
   v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
-{ ad:"Deyrût", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"sehir", lat:27.554, lon:30.809, g:0, k:4, m:"Kahire",
-  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+{ ad:"Deyrût",not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor.", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], tur:"sehir", lat:27.554, lon:30.809, g:0, k:4, m:"Kahire",
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
   d:[{f:"1517-04-13",t:"1805-07-03"}],
   v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
-{ ad:"Tahtâ", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"sehir", lat:26.768, lon:31.502, g:0, k:4, m:"Kahire",
-  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+{ ad:"Tahtâ",not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor.", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], tur:"sehir", lat:26.768, lon:31.502, g:0, k:4, m:"Kahire",
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
   d:[{f:"1517-04-13",t:"1805-07-03"}],
   v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
-{ ad:"Ahmîm", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"sehir", lat:26.564, lon:31.745, g:0, k:4, m:"Kahire",
-  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+{ ad:"Ahmîm",not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor.", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], tur:"sehir", lat:26.564, lon:31.745, g:0, k:4, m:"Kahire",
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
   d:[{f:"1517-04-13",t:"1805-07-03"}],
   v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
 // Osmanlı Yukarı Mısır'ının sancak merkezi (Circe sancağı).
-{ ad:"Cirge (Girga)", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"sehir", lat:26.340, lon:31.891, g:1, k:3, m:"Kahire",
-  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+{ ad:"Cirge (Girga)",not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor.", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], tur:"sehir", lat:26.340, lon:31.891, g:1, k:3, m:"Kahire",
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
   d:[{f:"1517-04-13",t:"1805-07-03"}],
   v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
-{ ad:"Ferşût", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"sehir", lat:26.052, lon:32.158, g:0, k:4, m:"Kahire",
-  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+{ ad:"Ferşût",not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor.", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], tur:"sehir", lat:26.052, lon:32.158, g:0, k:4, m:"Kahire",
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
   d:[{f:"1517-04-13",t:"1805-07-03"}],
   v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
 // Kusayr limanı üzerinden Hicaz'a giden hac ve tahıl yolunun Nil ayağı.
-{ ad:"Kına", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"sehir", lat:26.164, lon:32.716, g:0, k:3, m:"Kahire",
-  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+{ ad:"Kına",not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor.", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], tur:"sehir", lat:26.164, lon:32.716, g:0, k:3, m:"Kahire",
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
   d:[{f:"1517-04-13",t:"1805-07-03"}],
   v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
-{ ad:"Kûs", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"sehir", lat:25.915, lon:32.760, g:0, k:4, m:"Kahire",
-  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+{ ad:"Kûs",not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor.", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], tur:"sehir", lat:25.915, lon:32.760, g:0, k:4, m:"Kahire",
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
   d:[{f:"1517-04-13",t:"1805-07-03"}],
   v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
-{ ad:"Uksur (Luksor)", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"sehir", lat:25.687, lon:32.640, g:0, k:4, m:"Kahire",
-  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+{ ad:"Uksur (Luksor)",not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor.", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], tur:"sehir", lat:25.687, lon:32.640, g:0, k:4, m:"Kahire",
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
   d:[{f:"1517-04-13",t:"1805-07-03"}],
   v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
-{ ad:"Esna", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"sehir", lat:25.293, lon:32.554, g:0, k:4, m:"Kahire",
-  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+{ ad:"Esna",not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor.", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], tur:"sehir", lat:25.293, lon:32.554, g:0, k:4, m:"Kahire",
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
   d:[{f:"1517-04-13",t:"1805-07-03"}],
   v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
-{ ad:"Edfû", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"sehir", lat:24.978, lon:32.874, g:0, k:4, m:"Kahire",
-  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+{ ad:"Edfû",not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor.", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], tur:"sehir", lat:24.978, lon:32.874, g:0, k:4, m:"Kahire",
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
   d:[{f:"1517-04-13",t:"1805-07-03"}],
   v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
-{ ad:"Kûm Ombo", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"sehir", lat:24.476, lon:32.943, g:0, k:4, m:"Kahire",
-  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+{ ad:"Kûm Ombo",not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor.", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], tur:"sehir", lat:24.476, lon:32.943, g:0, k:4, m:"Kahire",
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
   d:[{f:"1517-04-13",t:"1805-07-03"}],
   v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
@@ -316,8 +316,8 @@ window.YERLESIMLER_AFRIKA = [
   v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
 // Kusayr ile Halâib arasındaki 300 km'lik kıyı boşluğunu kapatır.
-{ ad:"Ebû Ramâd (Şalâtîn)", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"liman", lat:23.133, lon:35.600, g:0, k:4, m:"Kahire",
-  s:[{f:"1281-01-01",t:"1517-01-22",d:"memluk"},{f:"1517-01-22",t:"1557-01-01",d:"habesistan"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+{ ad:"Ebû Ramâd (Şalâtîn)",not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor.", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], tur:"liman", lat:23.133, lon:35.600, g:0, k:4, m:"Kahire",
+  s:[{f:"1281-01-01",t:"1517-01-22",d:"memluk"},{f:"1517-01-22",t:"1557-01-01",d:"habesistan"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
   d:[{f:"1557-01-01",t:"1805-07-03"}],
   v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
@@ -332,8 +332,8 @@ window.YERLESIMLER_AFRIKA = [
 // Nûbe: İbrim kâşifliğinin güney ucu. Zincir mevcut İbrim kaydıyla birebir
 // (Özdemir Paşa'nın Nûbe harekâtı, 1555). Mehdî isyanı sırasında Vâdî Halfâ
 // Mısır elinde kaldı — Sudan zinciri DEĞİL, Mısır zinciri yazıldı.
-{ ad:"Vâdî Halfâ", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"kale", lat:21.802, lon:31.352, g:0, k:4, m:"Kahire",
-  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+{ ad:"Vâdî Halfâ",not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor.", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], tur:"kale", lat:21.802, lon:31.352, g:0, k:4, m:"Kahire",
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
   d:[{f:"1517-04-13",t:"1805-07-03",y:"kusatma"}],
   v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
@@ -346,98 +346,98 @@ window.YERLESIMLER_AFRIKA = [
 // (d:) yazıldı. Ocaklık ayrımı hepsine birlikte uygulanacak (görev tanımı).
 // ===========================================================================
 
-{ ad:"Benzert (Bizerte)", tur:"liman", lat:37.276, lon:9.858, g:1, k:3, m:"Tunus",
-  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17", t:"1881-05-12", k:"Tunus Ocaklığı (Hüseynîler)"}] },
+{ ad:"Benzert (Bizerte)",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"liman", lat:37.276, lon:9.858, g:1, k:3, m:"Tunus",
+  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
+  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29"}] },
 
 // Tunus'un liman kalesi; 1535-1574 arası İspanyol garnizonu buradaydı.
-{ ad:"Halkulvâdî", tur:"kale", lat:36.823, lon:10.295, g:0, k:4, m:"Tunus",
-  s:[{f:"1281-01-01",t:"1535-07-21",d:"hafsi"},{f:"1535-07-21",t:"1574-08-25",d:"ispanya",enklav:true},{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17", t:"1881-05-12", k:"Tunus Ocaklığı (Hüseynîler)"}] },
+{ ad:"Halkulvâdî",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"kale", lat:36.823, lon:10.295, g:0, k:4, m:"Tunus",
+  s:[{f:"1281-01-01",t:"1535-07-21",d:"hafsi"},{f:"1535-07-21",t:"1574-08-25",d:"ispanya"}],
+  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29"}] },
 
-{ ad:"Mâtir (Mateur)", tur:"sehir", lat:37.040, lon:9.664, g:0, k:4, m:"Tunus",
-  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17", t:"1881-05-12", k:"Tunus Ocaklığı (Hüseynîler)"}] },
+{ ad:"Mâtir (Mateur)",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:37.040, lon:9.664, g:0, k:4, m:"Tunus",
+  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
+  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29"}] },
 
 // 1540-1741 arası Cenevizli Lomellini ailesinin mercan imtiyazıyla elinde
 // tuttuğu ada-kale. Bu ara dönem VERİYE YAZILMADI: 1741 devralması için
 // kronoloji maddesi yok, yazılsaydı Değişmez 2'yi açardı.
-{ ad:"Tabarka", tur:"kale", lat:36.954, lon:8.758, g:0, k:4, m:"Tunus",
-  s:[{f:"1281-01-01",t:"1544-01-01",d:"hafsi"},{f:"1544-01-01",t:"1741-06-12",d:"ceneviz"},{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[], v:[{f:"1741-06-12", t:"1881-05-12", k:"Tunus Ocaklığı (Hüseynîler)"}] },
+{ ad:"Tabarka",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"kale", lat:36.954, lon:8.758, g:0, k:4, m:"Tunus",
+  s:[{f:"1281-01-01",t:"1544-01-01",d:"hafsi"},{f:"1544-01-01",t:"1741-06-12",d:"ceneviz"}],
+  d:[], v:[{f:"1741-06-12",t:"1923-10-29"}] },
 
-{ ad:"Bâce (Béja)", tur:"sehir", lat:36.733, lon:9.183, g:0, k:4, m:"Tunus",
-  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17", t:"1881-05-12", k:"Tunus Ocaklığı (Hüseynîler)"}] },
+{ ad:"Bâce (Béja)",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:36.733, lon:9.183, g:0, k:4, m:"Tunus",
+  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
+  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29"}] },
 
-{ ad:"Cendûbe", tur:"sehir", lat:36.501, lon:8.780, g:0, k:4, m:"Tunus",
-  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17", t:"1881-05-12", k:"Tunus Ocaklığı (Hüseynîler)"}] },
+{ ad:"Cendûbe",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:36.501, lon:8.780, g:0, k:4, m:"Tunus",
+  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
+  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29"}] },
 
 // Cezayir eyaletiyle sınır bölgesinin merkezi.
-{ ad:"Kef", tur:"kale", lat:36.174, lon:8.705, g:0, k:3, m:"Tunus",
-  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17", t:"1881-05-12", k:"Tunus Ocaklığı (Hüseynîler)"}] },
+{ ad:"Kef",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"kale", lat:36.174, lon:8.705, g:0, k:3, m:"Tunus",
+  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
+  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29"}] },
 
-{ ad:"Nâbil (Nabeul)", tur:"sehir", lat:36.451, lon:10.735, g:0, k:4, m:"Tunus",
-  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17", t:"1881-05-12", k:"Tunus Ocaklığı (Hüseynîler)"}] },
+{ ad:"Nâbil (Nabeul)",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:36.451, lon:10.735, g:0, k:4, m:"Tunus",
+  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
+  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29"}] },
 
 // Kelîbiye burnu — Sicilya Boğazı'nın Afrika yakasındaki gözcü kalesi.
-{ ad:"Kelîbiye", tur:"kale", lat:36.849, lon:11.094, g:0, k:4, m:"Tunus",
-  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17", t:"1881-05-12", k:"Tunus Ocaklığı (Hüseynîler)"}] },
+{ ad:"Kelîbiye",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"kale", lat:36.849, lon:11.094, g:0, k:4, m:"Tunus",
+  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
+  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29"}] },
 
-{ ad:"Zağvân", tur:"sehir", lat:36.402, lon:10.143, g:0, k:4, m:"Tunus",
-  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17", t:"1881-05-12", k:"Tunus Ocaklığı (Hüseynîler)"}] },
+{ ad:"Zağvân",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:36.402, lon:10.143, g:0, k:4, m:"Tunus",
+  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
+  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29"}] },
 
-{ ad:"Sûse", tur:"liman", lat:35.826, lon:10.638, g:1, k:3, m:"Tunus",
-  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17", t:"1881-05-12", k:"Tunus Ocaklığı (Hüseynîler)"}] },
+{ ad:"Sûse",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"liman", lat:35.826, lon:10.638, g:1, k:3, m:"Tunus",
+  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
+  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29"}] },
 
-{ ad:"Munastır", tur:"kale", lat:35.778, lon:10.826, g:0, k:4, m:"Tunus",
-  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17", t:"1881-05-12", k:"Tunus Ocaklığı (Hüseynîler)"}] },
+{ ad:"Munastır",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"kale", lat:35.778, lon:10.826, g:0, k:4, m:"Tunus",
+  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
+  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29"}] },
 
-{ ad:"Mehdiye", tur:"liman", lat:35.505, lon:11.062, g:0, k:4, m:"Tunus",
-  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17", t:"1881-05-12", k:"Tunus Ocaklığı (Hüseynîler)"}] },
+{ ad:"Mehdiye",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"liman", lat:35.505, lon:11.062, g:0, k:4, m:"Tunus",
+  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
+  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29"}] },
 
-{ ad:"Kasrayn", tur:"sehir", lat:35.167, lon:8.836, g:0, k:4, m:"Tunus",
-  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17", t:"1881-05-12", k:"Tunus Ocaklığı (Hüseynîler)"}] },
+{ ad:"Kasrayn",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:35.167, lon:8.836, g:0, k:4, m:"Tunus",
+  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
+  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29"}] },
 
-{ ad:"Kafsa", tur:"sehir", lat:34.425, lon:8.784, g:0, k:3, m:"Tunus",
-  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17", t:"1881-05-12", k:"Tunus Ocaklığı (Hüseynîler)"}] },
+{ ad:"Kafsa",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:34.425, lon:8.784, g:0, k:3, m:"Tunus",
+  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
+  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29"}] },
 
 // Cerîd vahaları: Tunus eyaletinin çöl kapısı. Bunlar Sahra'nın İÇİ değil,
 // şattların kuzey kıyısındaki hurmalık kasabalardır.
-{ ad:"Tozer", tur:"sehir", lat:33.920, lon:8.134, g:0, k:4, m:"Tunus",
-  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17", t:"1881-05-12", k:"Tunus Ocaklığı (Hüseynîler)"}] },
+{ ad:"Tozer",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:33.920, lon:8.134, g:0, k:4, m:"Tunus",
+  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
+  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29"}] },
 
-{ ad:"Nefta", tur:"sehir", lat:33.873, lon:7.878, g:0, k:4, m:"Tunus",
-  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17", t:"1881-05-12", k:"Tunus Ocaklığı (Hüseynîler)"}] },
+{ ad:"Nefta",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:33.873, lon:7.878, g:0, k:4, m:"Tunus",
+  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
+  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29"}] },
 
-{ ad:"Medenîn", tur:"sehir", lat:33.354, lon:10.505, g:0, k:4, m:"Tunus",
-  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17", t:"1881-05-12", k:"Tunus Ocaklığı (Hüseynîler)"}] },
+{ ad:"Medenîn",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:33.354, lon:10.505, g:0, k:4, m:"Tunus",
+  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
+  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29"}] },
 
-{ ad:"Tatavin", tur:"sehir", lat:32.930, lon:10.451, g:0, k:4, m:"Tunus",
-  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17", t:"1881-05-12", k:"Tunus Ocaklığı (Hüseynîler)"}] },
+{ ad:"Tatavin",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:32.930, lon:10.451, g:0, k:4, m:"Tunus",
+  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
+  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29"}] },
 
-{ ad:"Cerciş (Zarzis)", tur:"liman", lat:33.504, lon:11.112, g:0, k:4, m:"Tunus",
-  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17", t:"1881-05-12", k:"Tunus Ocaklığı (Hüseynîler)"}] },
+{ ad:"Cerciş (Zarzis)",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"liman", lat:33.504, lon:11.112, g:0, k:4, m:"Tunus",
+  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
+  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29"}] },
 
 // Trablusgarp eyaletiyle sınır kasabası.
-{ ad:"Bin Gerdân", tur:"sehir", lat:33.138, lon:11.220, g:0, k:4, m:"Tunus",
-  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17", t:"1881-05-12", k:"Tunus Ocaklığı (Hüseynîler)"}] },
+{ ad:"Bin Gerdân",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:33.138, lon:11.220, g:0, k:4, m:"Tunus",
+  s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
+  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29"}] },
 
 // ===========================================================================
 // 5) TRABLUSGARP EYALETİ (Trablus, Cebel, Sirte, Bingazi)
@@ -492,23 +492,23 @@ window.YERLESIMLER_AFRIKA = [
   d:[{f:"1551-08-15", t:"1711-03-01"}, {f:"1835-05-26", t:"1912-10-18"}], v:[{f:"1711-03-01", t:"1835-05-26", k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
 
 { ad:"Ecdâbiye", tur:"sehir", lat:30.755, lon:20.225, g:0, k:4, m:"Bingazi",
-  s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
-  d:[{f:"1551-08-15", t:"1711-03-01"}, {f:"1835-05-26", t:"1912-10-18"}], v:[{f:"1711-03-01", t:"1835-05-26", k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
+  s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+  d:[{f:"1517-05-19",t:"1711-03-01"},{f:"1835-05-26",t:"1912-10-18"}], v:[{f:"1711-03-01", t:"1835-05-26", k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
 
 // Cebeliahdar (Yeşil Dağ): Bingazi ile Derne arasındaki verimli yayla.
 { ad:"Merc", tur:"sehir", lat:32.492, lon:20.833, g:0, k:4, m:"Bingazi",
-  s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
-  d:[{f:"1551-08-15", t:"1711-03-01"}, {f:"1835-05-26", t:"1912-10-18"}], v:[{f:"1711-03-01", t:"1835-05-26", k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
+  s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+  d:[{f:"1517-05-19",t:"1711-03-01"},{f:"1835-05-26",t:"1912-10-18"}], v:[{f:"1711-03-01", t:"1835-05-26", k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
 
 { ad:"Beyzâ (Kirene)", tur:"sehir", lat:32.827, lon:21.858, g:0, k:4, m:"Bingazi",
-  s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
-  d:[{f:"1551-08-15", t:"1711-03-01"}, {f:"1835-05-26", t:"1912-10-18"}], v:[{f:"1711-03-01", t:"1835-05-26", k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
+  s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+  d:[{f:"1517-05-19",t:"1711-03-01"},{f:"1835-05-26",t:"1912-10-18"}], v:[{f:"1711-03-01", t:"1835-05-26", k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
 
 // Derne ile Sellûm arasındaki tek liman; Mısır sınırına en yakın Osmanlı
 // noktası.
 { ad:"Tobruk", tur:"liman", lat:32.077, lon:23.971, g:0, k:4, m:"Bingazi",
-  s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
-  d:[{f:"1551-08-15", t:"1711-03-01"}, {f:"1835-05-26", t:"1912-10-18"}], v:[{f:"1711-03-01", t:"1835-05-26", k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
+  s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+  d:[{f:"1517-05-19",t:"1711-03-01"},{f:"1835-05-26",t:"1912-10-18"}], v:[{f:"1711-03-01", t:"1835-05-26", k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
 
 // ===========================================================================
 // 6) CEZAYİR EYALETİ
@@ -691,7 +691,7 @@ window.YERLESIMLER_AFRIKA = [
 
 // Bogos: 1872-1884 arası Mısır (Kavalalı) işgalindeydi; bu ara dönem
 // yazılmadı — kronoloji maddesi yok.
-{ ad:"Kerene", tur:"sehir", lat:15.778, lon:38.451, g:0, k:4,
+{ ad:"Kerene",neden:"`m:` NULL idi; `oneri.m`=\"Sevâkin\" kademe yamasında duruyordu ve hiçbir alet onu taşımıyordu (izdüşüm yalnız `.k` alıyor). Aynı yamanın `k:4` yarısı ZATEN inmiş (canlı k:4). Geçerli pencereler: 1872-01-01..1884-06-03 — `kd:` olarak YAZILAMADI, açık borç.  ||  ⚪ DEVRALDIM — kaynağa SORULMADI (beş örneklik yoklamanın dışında kaldı).",kaynak:"bulunamadı — kademe yamasından DEVRALINDI (data/yer_yama_kademe.js, guven:HUKUM). Gerekçe: Eritre'de kasaba; Mısır idaresi 1872-1884. TDV'de müstakil madde YOK.",m:"Sevâkin", tur:"sehir", lat:15.778, lon:38.451, g:0, k:4,
   s:[{f:"1281-01-01",t:"1872-01-01",d:"habesistan"},{f:"1884-06-03",t:"1889-01-01",d:"habesistan"},{f:"1889-01-01",t:"1923-10-29",d:"italya"}],
   d:[], v:[{f:"1872-01-01",t:"1884-06-03",k:"Mısır (Kavalalı)"}] },
 
@@ -748,8 +748,8 @@ window.YERLESIMLER_AFRIKA = [
 // penceresinin güney sınırı 1.5°K, ikisi de dışarıda kalıyor.
 // ===========================================================================
 
-{ ad:"Merka", tur:"liman", lat:1.716, lon:44.772, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1923-10-29",d:"italya"}], d:[] },
+{ ad:"Merka",kaynak:"makdisu", tur:"liman", lat:1.716, lon:44.772, g:0, k:3,
+  s:[{f:"1281-01-01",t:"1500-01-01",d:"makdisu-sultanligi"},{f:"1500-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1923-10-29",d:"italya"}], d:[] },
 
 { ad:"Beledveyne", tur:"sehir", lat:4.735, lon:45.204, g:0, k:3,
   s:[{f:"1281-01-01",t:"1905-01-01",d:"somali"},{f:"1905-01-01",t:"1923-10-29",d:"italya"}], d:[] },
@@ -926,8 +926,8 @@ window.YERLESIMLER_AFRIKA = [
   v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
 
 // Fizan'ın batı ucu; zincir mevcut Murzuk kaydıyla birebir (1577 tâbiiyeti).
-{ ad:"Gât", tur:"sehir", lat:24.964, lon:10.180, g:0, k:4, m:"Murzuk (Fizan)",
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"hafsi"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+{ ad:"Gât",kaynak:"fizan", tur:"sehir", lat:24.964, lon:10.180, g:0, k:4, m:"Murzuk (Fizan)",
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"kanem-bornu"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
   d:[{f:"1577-01-01",t:"1711-03-01",y:"vassal"},{f:"1835-05-26",t:"1912-10-18"}],
   v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
 
@@ -959,12 +959,12 @@ window.YERLESIMLER_AFRIKA = [
   s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)"}] },
 
-{ ad:"Nyala",kaynak:"TDV `darfur` — \"Merkezi Fâşir şehridir\"; kasaba taneciğinde TDV susuyor (TANECİKLİK boşluğu), s:/v: dizisi El-Fâşir'le birebir",m:"El-Fâşir", tur:"sehir", lat:12.048, lon:24.882, g:0, k:4,
+{ ad:"Nyala",neden:"k:4, m:— idi.",kaynak:"TDV `darfur` — \"Merkezi Fâşir şehridir\"; kasaba taneciğinde TDV susuyor (TANECİKLİK boşluğu), s:/v: dizisi El-Fâşir'le birebir",m:"El-Fâşir", tur:"sehir", lat:12.048, lon:24.882, g:0, k:4,
   s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)"}] },
 
 // Darfur'un batı ucu; Vaday Sultanlığı ile sınır. Vaday'ın kimliği de YOK.
-{ ad:"Cenîne", tur:"sehir", lat:13.452, lon:22.445, g:0, k:4,
+{ ad:"Cenîne",neden:"`m:` NULL idi; `oneri.m`=\"El-Fâşir\" kademe yamasında duruyordu ve hiçbir alet onu taşımıyordu (izdüşüm yalnız `.k` alıyor). Aynı yamanın `k:4` yarısı ZATEN inmiş (canlı k:4). Geçerli pencereler: 1874-11-02..1883-12-23 — `kd:` olarak YAZILAMADI, açık borç.  ||  ⚪ DEVRALDIM — kaynağa SORULMADI (beş örneklik yoklamanın dışında kaldı).",kaynak:"TDV darfur — kademe yamasından DEVRALINDI (data/yer_yama_kademe.js, guven:GEREKCELI). Gerekçe: \"Dârfûr'un Mısır tarafından zaptı ... 1874\" · \"1883'te mehdî hareketi başlamıştır.\" Dârfûr'un merkezi el-Fâşir. TDV bu KASABALARI adıyla saymıyor — §4 TANECİKLİK boşluğu.",m:"El-Fâşir", tur:"sehir", lat:13.452, lon:22.445, g:0, k:4,
   s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
   d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)"}] },
 
@@ -1058,20 +1058,20 @@ window.YERLESIMLER_AFRIKA = [
 // Kaynak yoksa uydurulmaz (KOORDINASYON.md §3): Siva DUZELTMELER.md §5'te
 // iki ölçülmüş seçenekle merkeze bırakıldı.
 
-{ ad:"Hârice (Vâhât)", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"bolge", lat:25.440, lon:30.546, g:0, k:4, m:"Kahire",
-  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+{ ad:"Hârice (Vâhât)",not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor.", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], tur:"bolge", lat:25.440, lon:30.546, g:0, k:4, m:"Kahire",
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
   d:[{f:"1517-04-13",t:"1805-07-03"}], v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
-{ ad:"Dâhile", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"bolge", lat:25.494, lon:28.976, g:0, k:4, m:"Kahire",
-  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+{ ad:"Dâhile",not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor.", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], tur:"bolge", lat:25.494, lon:28.976, g:0, k:4, m:"Kahire",
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
   d:[{f:"1517-04-13",t:"1805-07-03"}], v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
-{ ad:"Ferâfire", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"bolge", lat:27.058, lon:27.970, g:0, k:4, m:"Kahire",
-  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+{ ad:"Ferâfire",not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor.", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], tur:"bolge", lat:27.058, lon:27.970, g:0, k:4, m:"Kahire",
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
   d:[{f:"1517-04-13",t:"1805-07-03"}], v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
-{ ad:"Bahriye (Bâvîtî)", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"}], tur:"bolge", lat:28.349, lon:28.864, g:0, k:4, m:"Kahire",
-  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+{ ad:"Bahriye (Bâvîtî)",not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor.", isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}], tur:"bolge", lat:28.349, lon:28.864, g:0, k:4, m:"Kahire",
+  s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
   d:[{f:"1517-04-13",t:"1805-07-03"}], v:[{f:"1805-07-03",t:"1914-12-18",k:"Kavalalı hanedanı"}] },
 
 // ===========================================================================
@@ -1108,13 +1108,13 @@ window.YERLESIMLER_AFRIKA = [
 // mükerrer yerleşim" tuzağı; kendi dosyamda, kendi noktalarımla tekrarladım.
 // Denetimi yazmadan önce değil, yazdıktan SONRA koşturmanın bedeli.
 
-{ ad:"Sokna", tur:"bolge", lat:29.070, lon:15.792, g:0, k:4, m:"Trablus",
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"hafsi"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+{ ad:"Sokna",kaynak:"fizan", tur:"bolge", lat:29.070, lon:15.792, g:0, k:4, m:"Trablus",
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"kanem-bornu"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
   d:[{f:"1577-01-01",t:"1711-03-01"},{f:"1835-05-26",t:"1912-10-18"}],
   v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
 
-{ ad:"Câlû", tur:"bolge", lat:29.033, lon:21.548, g:0, k:4, m:"Bingazi",
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"hafsi"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+{ ad:"Câlû",kaynak:"fizan", tur:"bolge", lat:29.033, lon:21.548, g:0, k:4, m:"Bingazi",
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"kanem-bornu"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
   d:[{f:"1577-01-01",t:"1711-03-01"},{f:"1835-05-26",t:"1912-10-18"}],
   v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
 
@@ -1208,13 +1208,13 @@ window.YERLESIMLER_AFRIKA = [
 // bölerler, sınırı DIŞARI TAŞIMAZLAR. Toprak büyümez — md.40'ta dört vahanın
 // boş çölü yutması gibi bir etki burada yok, ölçüldü.
 
-{ ad:"Sebha", tur:"sehir", lat:27.038, lon:14.428, g:0, k:4, m:"Murzuk (Fizan)",
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"hafsi"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+{ ad:"Sebha",kaynak:"fizan", tur:"sehir", lat:27.038, lon:14.428, g:0, k:4, m:"Murzuk (Fizan)",
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"kanem-bornu"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
   d:[{f:"1577-01-01",t:"1711-03-01"},{f:"1835-05-26",t:"1912-10-18"}],
   v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
 
-{ ad:"Ubârî", tur:"sehir", lat:26.590, lon:12.777, g:0, k:4, m:"Murzuk (Fizan)",
-  s:[{f:"1281-01-01",t:"1577-01-01",d:"hafsi"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+{ ad:"Ubârî",kaynak:"fizan", tur:"sehir", lat:26.590, lon:12.777, g:0, k:4, m:"Murzuk (Fizan)",
+  s:[{f:"1281-01-01",t:"1577-01-01",d:"kanem-bornu"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
   d:[{f:"1577-01-01",t:"1711-03-01"},{f:"1835-05-26",t:"1912-10-18"}],
   v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
 

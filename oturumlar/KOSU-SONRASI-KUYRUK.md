@@ -3028,6 +3028,59 @@ D  GERİ ALIŞ kırılmaları          Sakarya · Büyük Taarruz · İzmir ·
                         boş bırakır.
 ```
 
+### 🔴🔴 EMRE'NİN KARARI (5 Eylül 22:10) — **(a)**: Osmanlı 1920'de biter
+
+> *"(a) şıkkını seç, osmanlı 1920'de bitsin"*
+> *"...işgalleri ... şehir şehir bölge bölge ... AY AY göstersin,
+> kronoloji haritası ve senkronize olarak göster"*
+
+**MALİYET ÖLÇÜLDÜ:**
+```
+`d:` dönemi 1920-04-23'ten SONRA biten kayıt   **242**
+   ve 242'sinin de bitişi AYNI GÜN: `1923-10-29`
+⇒ 242 kaydın `d:` ucu 1920-04-23'e çekilir
+⇒ 242 YENİ `s:"tbmm-turkiye"` dönemi açılır
+⇒ 242 yeni kırılma — ama HEPSİ TEK GÜNDE (1920-04-23)
+```
+🟢 `Değişmez 2` için **tek madde yeter** (TBMM'nin açılışı) — ve bu, bu
+gecenin *"bir gün, kaç ayrı borç"* dersinin **meşru** hâli: 242 kayıt
+gerçekten **tek olayla** değişiyor.
+
+**ALTI İŞGALCİ — kimlik altyapısı hazır mı:**
+```
+🟢 yunanistan · fransa-cumhuriyet · ingiltere · italya · sovyet-rusya
+   · rusya            künye VAR · renk VAR
+🔴 tbmm-turkiye       künye VAR · **renk YOK**  → adım ⑧: 28 → 29
+🔴 ermenistan         künye YOK — ama `ermenistan-demokratik-cumhuriyeti`
+                      VAR (doğru id o) · renk ölçülecek
+```
+
+**BUGÜNKÜ KAPSAM:**
+```
+Anadolu/Trakya/Kafkasya kutusu (35,5-43,5K / 25-45D)  329 yerleşim
+1914 sonrası HİÇ kaydı olmayan                          0
+kronoloji 1914-1923                     199 madde (çekirdek 56 · kuyruk 143)
+`isg:` 1918-1923 başlangıçlı                            0   🔴
+```
+⇒ Yerleşimler **var**, kayıtları **var** — eksik olan **tanecik**: aylık
+el değiştirme hiç yazılmamış.
+
+## 🔴 DÖRT FAZ — "çöl seyyahı" sırası (`ONCELIK.md`)
+```
+FAZ 1  (a) KARARI          242 kayıt · MEKANİK · + tbmm rengi
+                           + `ermenistan-demokratik-cumhuriyeti` teyidi
+FAZ 2  BÜYÜK İŞGAL HATLARI İstanbul · İzmir · Adana · Antep-Maraş-Urfa ·
+                           Kars-Ardahan · Trakya · Batum
+                           ~30-50 yerleşim, tarihleri BELİRGİN
+FAZ 3  AY AY İLERLEME      Yunan ilerleyişi 1920-1921 · geri çekiliş 1922
+                           🔴 yüzlerce kayıt VE her kırılmaya MADDE
+FAZ 4  İSYANLAR/HAREKÂTLAR Kuva-yı Milliye · iç isyanlar · Koçgiri ·
+                           Pontus · Ermeni harekâtı
+```
+⚠️ **VE BİR ŞART, `Değişmez 2`den:** her toprak değişimine bir kronoloji
+maddesi gerekir. Faz 3'te ~300 el değiştirme demek ~300 madde demek —
+**iş maddede, noktada değil.**
+
 ### 🔴🔴 ELLE YAPILACAKLAR — ARAÇ BUNLARI **TAŞIMAZ**
 
 > Bu blok gece boyunca dağıldı ve tek yerde toplanması şart: her biri

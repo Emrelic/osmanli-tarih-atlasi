@@ -1,0 +1,177 @@
+{
+  "oturum": "KRONOLOJI BOS KUNYE (beyan turu)",
+  "damga": "2026-09-05",
+  "tur": "🔴 BEYAN TURU — NOKTA YAZILMADI (koordinatör hükmü M-2721)",
+  "🔴🔴_ONCE_BUNU_OKU": {
+    "bulgu": "BEYAN ile NOKTA bu projede KARŞIT DEĞİL — beyanın kendisi bir NOKTADIR. 297 `kasitli_bosluk` kaydının hepsi `yerlesimler`de lat/lon taşıyan yerleşim kaydı. Emsal açık: «Yamal ucu» kaydının kendi gerekçesi «yarımadanın kuzey ucu için DOLGU NOKTASI — noktasız kalırsa Perm'in peteği 2.100 km uzaktan buraya uzanır» diyor.",
+    "sonuc": "⇒ «NOKTA YAZMA» talimatını şöyle uyguladım: hiçbir kayıt yazmadım, yalnız ÖNERİ ürettim. Ama birleştirme aşamasında bu önerilerin veriye inişi ZORUNLU OLARAK dolgu noktası biçiminde olacak — aksi hâlde beyan haritada hiçbir şey yapmaz.",
+    "damga": "Bu bir ÖLÇÜM, hüküm değil: mekanizmayı emsalden okudum."
+  },
+  "mevcut_beyan_envanteri": {
+    "toplam": 297,
+    "cins_dagilimi": {
+      "kabile": 144,
+      "hata": 7,
+      "devletsiz": 122,
+      "insansiz": 10,
+      "veri-yok": 14
+    },
+    "kusak_bazinda": {
+      "buz/kutup": 34,
+      "sahra": 28,
+      "arabistan": 6,
+      "taklamakan/gobi": 0,
+      "sibirya": 50
+    },
+    "🔴_taklamakan_gobi": "SIFIR beyan — bu kuşak HİÇ ele alınmamış."
+  },
+  "kusaklar": [
+    {
+      "kusak": "① BUZ/KUTUP · Grönland iç buz tabakası",
+      "kutu": "60..84K / -50..-20D",
+      "kara_hucresi": 499,
+      "hucre_200km_ustu": 470,
+      "ortalama_km": 490.0,
+      "mevcut_kasitli_bosluk_noktasi": 1,
+      "onerilen_bos": "insansiz",
+      "kaynak_cumlesi": "Cambridge History of the Polar Regions / Cambridge, «Adapting to Climate Change» — Grönland'ın iç buz tabakası yerleşime kapalıdır; Norse ve Thule yerleşimlerinin TAMAMI KIYIDADIR («two Norse settlements were established on the WESTERN COAST of Greenland»).",
+      "bu_hucrede_nokta_gerekir_mi": "HAYIR — buz tabakası; beyan yeter"
+    },
+    {
+      "kusak": "① BUZ/KUTUP · Grönland kıyıları",
+      "kutu": "59..78K / -60..-18D",
+      "kara_hucresi": 427,
+      "hucre_200km_ustu": 376,
+      "ortalama_km": 451.8,
+      "mevcut_kasitli_bosluk_noktasi": 2,
+      "onerilen_bos": "kabile",
+      "kaynak_cumlesi": "🔴 SEVKİN BEKLEDİĞİ CİNS BURADA ÇÜRÜDÜ. Cambridge History of the Native Peoples of the Americas, «The Arctic from Norse contact to modern times» — AYNEN: «First contacts between Norse and the ancestors of modern Inuit of the THULE CULTURE are usually assigned to about the beginning of the THIRTEENTH CENTURY.» ⇒ Atlas penceresi (1281) açıldığında Thule/İnuit Grönland'da ZATEN VAR. `insansiz` YANLIŞ olurdu.",
+      "bu_hucrede_nokta_gerekir_mi": "🔴 EVET, VE BU SEVKİN BEKLENTİSİNİ DEĞİŞTİRİR. Kaynak üç ayrı yerleşim katmanı veriyor, üçü de pencere içinde: Norse Batı Yerleşimi (~1360'a kadar) · Norse Doğu Yerleşimi (1400-1450 arası terk) · Danimarka kolonisi (Hans Egede 1721, Haabets Ø). ⇒ Grönland kıyısı BEYAN değil NOKTA hak ediyor; beyan yalnız aralardaki boşluk için."
+    },
+    {
+      "kusak": "① BUZ/KUTUP · Kanada Kuzey Kutbu adaları",
+      "kutu": "68..84K / -125..-60D",
+      "kara_hucresi": 433,
+      "hucre_200km_ustu": 333,
+      "ortalama_km": 596.0,
+      "mevcut_kasitli_bosluk_noktasi": 0,
+      "onerilen_bos": "kabile",
+      "kaynak_cumlesi": "Aynı Cambridge cildi — Kuzey Kutbu adaları Thule geleneğinin yayılma alanı. 🟡 Bu kutu için AYRI cümle bulamadım; Grönland cümlesinin kapsamına dayanıyor, ve bunu damgalıyorum.",
+      "bu_hucrede_nokta_gerekir_mi": "HAYIR (şimdilik) — beyan yeter; nokta için ayrı araştırma gerekir"
+    },
+    {
+      "kusak": "① BUZ/KUTUP · Svalbard + Novaya Zemlya",
+      "kutu": "70..82K / 10..70D",
+      "kara_hucresi": 65,
+      "hucre_200km_ustu": 10,
+      "ortalama_km": 138.4,
+      "mevcut_kasitli_bosluk_noktasi": 4,
+      "onerilen_bos": "insansiz",
+      "kaynak_cumlesi": "🔴 KAYNAK BULAMADIM. Svalbard ve Novaya Zemlya için pencere içi (1281-1923) yerleşim/avcılık kaydını ARAMADIM — damgam «okumadım», «bulunamadı» DEĞİL.",
+      "bu_hucrede_nokta_gerekir_mi": "ÖLÇÜLEMEDİ — kaynak okumadım"
+    },
+    {
+      "kusak": "② ÇÖL · Sahra içi",
+      "kutu": "18..30K / -8..28D",
+      "kara_hucresi": 432,
+      "hucre_200km_ustu": 145,
+      "ortalama_km": 176.6,
+      "mevcut_kasitli_bosluk_noktasi": 21,
+      "onerilen_bos": "devletsiz",
+      "kaynak_cumlesi": "EMSAL: atlasta zaten 28 Sahra beyanı var ve gerekçe biçimi kurulmuş — örn. Gilf el-Kebîr: «Sahra'nın en izole ve susuz kesimlerinden biri; tarihte hiçbir yerleşim ya da devlet denetimi kaydı yok.» Yeni kutular bu emsale dayanır.",
+      "bu_hucrede_nokta_gerekir_mi": "HAYIR — 28 mevcut beyan emsali bu yönde"
+    },
+    {
+      "kusak": "② ÇÖL · Rub'ul Hâlî",
+      "kutu": "17..24K / 45..56D",
+      "kara_hucresi": 76,
+      "hucre_200km_ustu": 41,
+      "ortalama_km": 221.3,
+      "mevcut_kasitli_bosluk_noktasi": 3,
+      "onerilen_bos": "devletsiz",
+      "kaynak_cumlesi": "EMSAL: atlasta 6 Arabistan beyanı var — «Rub'ul Hâlî: hiçbir devletin fiilî idaresi yoktu».",
+      "bu_hucrede_nokta_gerekir_mi": "HAYIR — 6 mevcut beyan emsali bu yönde"
+    },
+    {
+      "kusak": "② ÇÖL · Taklamakan",
+      "kutu": "36..42K / 78..90D",
+      "kara_hucresi": 72,
+      "hucre_200km_ustu": 10,
+      "ortalama_km": 136.6,
+      "mevcut_kasitli_bosluk_noktasi": 0,
+      "onerilen_bos": "insansiz",
+      "kaynak_cumlesi": "Cambridge, Journal of Global History — «Islands in a sea of sand: The role of Tarim Basin polities…» — AYNEN: «the interior of the desert itself remained UNSUITABLE FOR PERMANENT HUMAN HABITATION» ve yerleşim «in oasis areas in a WIDE CIRCLE AROUND the Taklamakan desert».",
+      "bu_hucrede_nokta_gerekir_mi": "🟡 İÇİ HAYIR, KENARI EVET — kaynak yerleşimin «wide circle AROUND the desert» olduğunu söylüyor. İç kutu `insansiz`, ama vaha halkası (Hotan · Keriya · Çerçen · Kuça) ayrı bir NOKTA turu konusudur."
+    },
+    {
+      "kusak": "② ÇÖL · Gobi içi",
+      "kutu": "40..46K / 95..112D",
+      "kara_hucresi": 102,
+      "hucre_200km_ustu": 39,
+      "ortalama_km": 169.9,
+      "mevcut_kasitli_bosluk_noktasi": 0,
+      "onerilen_bos": "kabile",
+      "kaynak_cumlesi": "🔴 SEVKİN BEKLEDİĞİ CİNS BURADA DA ÇÜRÜDÜ. Oxford Handbook of World History, «Nomadic pastoralism» + Cambridge/Antiquity Gobi araştırmaları — bölgenin tarihî coğrafyası «characterized by MOBILITY RATHER THAN FIXED SETTLEMENTS». ⇒ İnsan VAR ama yerleşik değil: `insansiz` değil `kabile`.",
+      "bu_hucrede_nokta_gerekir_mi": "HAYIR — hareketli pastoralizm; yerleşik nokta yanlış olur, beyan doğrudur"
+    },
+    {
+      "kusak": "③ SİBİRYA İÇ · Batı Sibirya bataklıkları",
+      "kutu": "55..66K / 65..85D",
+      "kara_hucresi": 220,
+      "hucre_200km_ustu": 74,
+      "ortalama_km": 171.8,
+      "mevcut_kasitli_bosluk_noktasi": 5,
+      "onerilen_bos": "kabile",
+      "kaynak_cumlesi": "EMSAL + atlasın kendi kaydı: Sibirya'da 50 beyan var ve gerekçeleri halkları ADIYLA anıyor — «1601 öncesi Nenets/Selkup toprağı», «1607 öncesi Evenk/Ket toprağı». 🔴 AMA O BEYANLARIN CİNSİ `devletsiz` (39/50) — ben `kabile` öneriyorum ve bu bir ÇELİŞKİ: aşağıya bak.",
+      "bu_hucrede_nokta_gerekir_mi": "🟡 KISMEN — Ob-İrtiş hattı"
+    },
+    {
+      "kusak": "③ SİBİRYA İÇ · Orta Sibirya yaylası",
+      "kutu": "58..70K / 90..115D",
+      "kara_hucresi": 300,
+      "hucre_200km_ustu": 203,
+      "ortalama_km": 271.5,
+      "mevcut_kasitli_bosluk_noktasi": 3,
+      "onerilen_bos": "kabile",
+      "kaynak_cumlesi": "EMSAL + atlasın kendi kaydı: Sibirya'da 50 beyan var ve gerekçeleri halkları ADIYLA anıyor — «1601 öncesi Nenets/Selkup toprağı», «1607 öncesi Evenk/Ket toprağı». 🔴 AMA O BEYANLARIN CİNSİ `devletsiz` (39/50) — ben `kabile` öneriyorum ve bu bir ÇELİŞKİ: aşağıya bak.",
+      "bu_hucrede_nokta_gerekir_mi": "🟡 KISMEN — Yenisey hattı"
+    },
+    {
+      "kusak": "③ SİBİRYA İÇ · Yakutistan-Lena havzası",
+      "kutu": "58..72K / 115..145D",
+      "kara_hucresi": 410,
+      "hucre_200km_ustu": 163,
+      "ortalama_km": 183.9,
+      "mevcut_kasitli_bosluk_noktasi": 10,
+      "onerilen_bos": "kabile",
+      "kaynak_cumlesi": "EMSAL + atlasın kendi kaydı: Sibirya'da 50 beyan var ve gerekçeleri halkları ADIYLA anıyor — «1601 öncesi Nenets/Selkup toprağı», «1607 öncesi Evenk/Ket toprağı». 🔴 AMA O BEYANLARIN CİNSİ `devletsiz` (39/50) — ben `kabile` öneriyorum ve bu bir ÇELİŞKİ: aşağıya bak.",
+      "bu_hucrede_nokta_gerekir_mi": "EVET — Yakut merkezleri"
+    },
+    {
+      "kusak": "③ SİBİRYA İÇ · Kolyma-Çukotka",
+      "kutu": "60..72K / 145..180D",
+      "kara_hucresi": 329,
+      "hucre_200km_ustu": 118,
+      "ortalama_km": 175.8,
+      "mevcut_kasitli_bosluk_noktasi": 6,
+      "onerilen_bos": "kabile",
+      "kaynak_cumlesi": "EMSAL + atlasın kendi kaydı: Sibirya'da 50 beyan var ve gerekçeleri halkları ADIYLA anıyor — «1601 öncesi Nenets/Selkup toprağı», «1607 öncesi Evenk/Ket toprağı». 🔴 AMA O BEYANLARIN CİNSİ `devletsiz` (39/50) — ben `kabile` öneriyorum ve bu bir ÇELİŞKİ: aşağıya bak.",
+      "bu_hucrede_nokta_gerekir_mi": "HAYIR — mevcut beyanlar bu yönde"
+    }
+  ],
+  "🔴_SEVKIN_BEKLENTISI_IKI_YERDE_CURUDU": [
+    "① Grönland için sevk `insansiz` bekliyordu. ÇÜRÜDÜ: Cambridge — Norse ve Thule temasları «about the beginning of the thirteenth century», yani atlas penceresi açılmadan ÖNCE. Kıyı `kabile` ve NOKTA hak ediyor; yalnız İÇ BUZ TABAKASI `insansiz`. Sevk bunu zaten sezmişti («KÖR YAZMA: Nuuk 1728…») ve sezgisi doğruydu.",
+    "② Gobi için sevk `insansiz` ya da `kabile` bekliyordu. Kaynak `kabile` tarafını seçtirdi: «mobility rather than fixed settlements» — insan VAR, yerleşik DEĞİL."
+  ],
+  "🔴_COZULMEMIS_CELISKI": {
+    "ne": "Sibirya'daki 50 mevcut beyanın 39'u `devletsiz`; ben aynı bölge için `kabile` öneriyorum.",
+    "niye": "Mevcut gerekçeler halkları ADIYLA anıyor («Nenets/Selkup toprağı», «Evenk/Ket toprağı») — bu `kabile` tanımıdır (kaynak susmuyor, merkezî devlet tarif etmiyor). `devletsiz` ise kaynağın «burada devlet yoktu» DEMESİNİ gerektirir.",
+    "hukum": "🔴 KARAR VERMEDİM. İki ihtimal var: (a) mevcut 39 kayıt yanlış cinste, (b) benim `kabile` önerim fazla geniş. İkisini ayırmak, o 39 kaydın kaynaklarını tek tek okumayı gerektirir ve BU TURDA OKUMADIM. Damga: «okumadım»."
+  },
+  "🔴_ALETIMIN_SINIRLARI": [
+    "Kuşak kutuları ELLE seçildi — koordinatörün uyardığı gibi. Sınırlar yuvarlak derecelerde ve gerçek coğrafî sınırlarla ÇAKIŞMIYOR (örn. «Gobi içi 40-46K/95-112D» kutusu Gobi'nin tamamı değil).",
+    "Kutular ÖRTÜŞEBİLİR ve bir hücre birden çok kuşakta sayılabilir; bu turda örtüşme ÖLÇÜLMEDİ.",
+    "1° hücre yüksek enlemde alanca küçülür — Grönland ve Sibirya hücre sayıları ŞİŞKİN görünür (önceki turda da yazmıştım).",
+    "Svalbard/Novaya Zemlya için kaynak ARAMADIM: damga «okumadım»."
+  ]
+}

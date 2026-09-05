@@ -1,0 +1,69 @@
+{
+  "_NOT": "GUN KAYNAKLI cikan 2 kalemin madde onerisi. Sevk 1.MURAT M-3016 ④. Oturum NEHIR SURTUNME, 5 Eylul 2026. VERI YAZILMADI — data/olaylar*.js DONUK (kosu 5b canli, §7). Olcumun tamami: denetim/OLCUM-GUN-DAYANAK-10-0905.md",
+
+  "_HEDEF_DOSYA": "🔴 data/olaylar*.js (CEKIRDEK). `denetle.py:920` yalniz `data/olaylar*.js` okuyor; kuyruga yazilan madde `2s` evreninde GORUNMEZ.",
+
+  "_GLOB_UYARISI": "Ad `ONERI-` onekli ⇒ `_kronoloji_uygula.py`nin `denetim/KRONOLOJI-*0905*.json` glob'una GIRMEZ. Zaten o alet KUNYE kronolojisine (devletler.js) yaziyor, `olaylar*.js`e degil. Adi degistirmeyin.",
+
+  "_ONCE_OKUNSUN": "10 kesin borcun BESI 🔴 GUN DAYANAKSIZ cikti ve onlara madde YAZILMADI. Sevkin gerekcesi: 'bir maddeyi kaynaksiz bir gune yazmak, o gunu MESRULASTIRIR.' Bu dosyada yalniz gunu dayanakli olan IKI kalem var.",
+
+  "maddeler": [
+    {
+      "_KOVA": "🟢 GUN KAYNAKLI — BEN DOGRULADIM",
+      "t": "1903-07-27",
+      "k": "siyaset",
+      "etiket": ["siyaset"],
+      "b": "Sokoto Halifeliği'nin siyasî hâkimiyetinin sona ermesi",
+      "gun": "27 Temmuz 1903",
+      "yer": "Burmi çevresi, Sokoto Halifeliği",
+      "yer_id": "Sokoto",
+      "kisiler": "Halife Muhammed Tâhir",
+      "d": "Ingilizler 15 Mart 1903'te Sokoto ordusunu yenip sehri isgal etmisti; halife Tahir kacip mucadeleyi surdurdu. 27 Temmuz 1903'te Ingilizler'le yaptigi yeni bir savasta oldurulmesiyle Osman dan Fodio'nun 1804'te baslattigi cihad hareketinden dogan ve yaklasik bir asir suren Sokoto halifeliginin siyasi hakimiyeti sona erdi; halifelik unvani dini bir sembol olarak surdu. Atlas bu gunu Bauci ve Yola'nin Ingiliz idaresine gecisi olarak isliyor.",
+      "kaynak": "sokoto",
+      "duygu": ["🏛"],
+      "_TDV_BIREBIR": "«Askerlerinin cogunu kaybettikten sonra kacmayi basaran Tahir'in Ingilizler'le yaptigi yeni bir savasta oldurulmesiyle yaklasik bir asir suren Sokoto halifeliginin siyasi hakimiyeti sona erdi (27 Temmuz 1903).»",
+      "_DOGRULAMA": "🟢 TDV `sokoto` govdesi TAM METINDE okundu (14.514 kar.; ilk turda BIBLIYOGRAFYA'da kesip eksik okumustum, yeniden kosuldu). §4⑧ uygulandi: cumle TAM OLARAK atlasin boyadigi seyi — siyasi hakimiyetin sonunu — tarihliyor.",
+      "_IKINCI_GUN": "🟡 Ayni govde `15 Mart 1903` de veriyor (sehrin isgali). Atlas `27 Temmuz`u kullaniyor: EGEMENLIGIN sonu, sehrin isgali degil. Dogru secim, ama iki gunun varligi kayda deger — bir sonraki oturum 15 Mart'i gorup 'celiski' sanmasin.",
+      "_YER_ID": "🟢 `Sokoto` atlasta VAR (olculdu). `Bauci (Bauchi)` ve `Yola` da var; yer_id tekil oldugu icin halifeligin merkezi secildi."
+    },
+    {
+      "_KOVA": "🟡 GUN KAYNAKLI AMA DEVRALINDI — BEN DOGRULAMADIM",
+      "t": "1902-05-07",
+      "k": "savas",
+      "etiket": ["savas", "siyaset"],
+      "b": "Tit muharebesi — Kel Ahaggar Tuaregleri'nin Fransız kuvvetlerine yenilmesi",
+      "gun": "7 Mayıs 1902",
+      "yer": "Tit, Hoggar (Ahaggar)",
+      "yer_id": "Abalessa",
+      "kisiler": "Amenokal Musa ag Amastan",
+      "d": "Hoggar yaylasinda Amenokal unvanli reislerce yonetilen Kel Ahaggar Tuareg konfederasyonu, Tit'te Fransiz kuvvetlerine yenildi. Atlas bu gunu fiili hakimiyet degisimi olarak isliyor; Amenokal Musa ag Amastan'in resmi tabiiyeti ise 1905'tedir. Kervan yollarini ve tuz ticaretini denetleyen konfederasyonun bagimsiz tasarrufu boylece sona erdi.",
+      "kaynak": "bulunamadı — TDV'de müstakil madde yok; dayanak: `tuareg-ahaggar` künyesinin kendi beyanı, standart akademik el kitabı (çevrimiçi doğrulanmadı)",
+      "duygu": ["⚔"],
+      "_DOGRULAMA": "🟡 DEVRALDIM. Kunyenin kendi `kaynak` alani: «⚠️ Tit muharebesi 1902-05-07 KESIN GUNDUR; Amenokal Musa ag Amastan'in resmi tabiiyeti 1905'tedir — kunye ERKEN ucu, yani fiili yenilgiyi aliyor.» Ayni alan varlik icin *bulunamadi — cevrimici dogrulanmadi* diyor. IKISI CELISMIYOR (biri `f:`, oteki `t:`) ama GUNU BAGIMSIZ OLARAK SINAMADIM.",
+      "_SART": "🔴 Bu madde yazilmadan once gun BAGIMSIZ bir kaynakla dogrulanmali. Dogrulanamazsa `gun:` alani kaba duzeye (`1902-01-01`) inmeli ve fark BILDIRILMELI (§4). Ben o aramayi YAPMADIM.",
+      "_YER_ID": "🟢 `Abalessa` atlasta VAR; `İdeles` ve `Tamanrasset` de var."
+    }
+  ],
+
+  "_YAZILMAYANLAR": {
+    "🔴 gun DAYANAKSIZ (5) — madde YAZILMADI": {
+      "1349-01-01": "gun `teodoro` kunyesinden DEVRALINMIS ve o kunyenin kaynagi 'bulunamadi'. Ayrica ayni gun Montpellier'in aragon→fransa gecisini de tasiyor (ilgisiz).",
+      "1841-10-01": "alti kayitta da kaynak/not/neden YOK, kunye ucu da degil. Ay kodlu. ⚠️ Ve TDV kapsami guclu olabilecek bir bolge (Lahsa · Katif) — ARANMAMIS gorunuyor.",
+      "1880-06-01": "tek kayit, kaynak 'bulunamadi'. Ay `06` dayanaksiz.",
+      "1880-10-03": "SAHTE KESINLIK — kunye yalniz YIL veriyor ('Makoko ile Brazza antlasmasi 1880'), veri GUN tasiyor.",
+      "1899-04-09": "🔴🔴 BEYAN EDILEN KAYNAK IDDIAYI TASIMIYOR. Kunye 'kaynak: uganda … Kabalega 1899'da esir alindi' diyor; TDV `uganda` TAM METNINDE (34.134 kar.) `1899` 0 kez, `Kabalega` 0 kez, `Kabarega` 3 kez ve hicbirinde esir alinma tarihi yok."
+    },
+    "🟡 gun YUVARLAK, olay kaynakli (3) — madde YAZILABILIR ama BU DOSYADA DEGIL": {
+      "1646-01-01": "Arizpe icin Peter Gerhard (1982) YIL veriyor; Yeni Urgenc'in kaynagi YOK. Iki ayri gecis.",
+      "1668-01-01": "🔴 UC AYRI GECIS, UC KITA (Waskaganish/HBC · Sault Ste. Marie/Fransa · Kamislov/Ural). TEK MADDE BUNU KAPATAMAZ — `2s` mekanik olarak kapanir, borc kapanmaz.",
+      "1895-07-01": "kimlik TDV `kenya`ya dayaniyor ama `07` ayi hicbir beyanda gerekcelendirilmiyor."
+    }
+  },
+
+  "_OLCMEDIKLERIM": [
+    "🔴 `1902-05-07`i bagimsiz dogrulamadim — kunyenin beyanina dayaniyorum.",
+    "🔴 Bes 🔴 kalemin DOGRU gununu aramadim — sevk 'once gun sinansin' dedi.",
+    "🔴 `1841-10-01` icin TDV'ye hic sormadim (butce).",
+    "⚪ Bu iki maddenin hangi `olaylar_ekNN.js` dosyasina gireceğini secmedim — dosya sahipligi §7."
+  ]
+}

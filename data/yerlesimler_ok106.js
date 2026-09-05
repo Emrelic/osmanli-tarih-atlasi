@@ -203,11 +203,7 @@ window.YERLESIMLER_OK106 = [
   //    55 km kuzeybatısında, aynı alayda ve aynı siyasî çemberde.
   // 🟢 Yeni gün doğurmaz: iki gün de Poltava'da ZATEN kullanılıyor.
   { ad:"Lubnı", tur:"sehir", lat:50.0200, lon:33.0000, g:0, k:3,
-    s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda"},
-       {f:"1362-01-01",t:"1654-01-18",d:"lehistan"},
-       {f:"1654-01-18",t:"1917-03-15",d:"rusya"},
-       {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
-       {f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
+    s:[{f:"1281-01-01",t:"1362-01-01",d:"altinorda"},{f:"1362-01-01",t:"1569-07-01",d:"litvanya-buyuk-dukalik"},{f:"1569-07-01",t:"1654-01-18",d:"lehistan"},{f:"1654-01-18",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
     kaynak:"bulunamadı — TDV kapsamı dışı. Dayanak: Internet Encyclopedia of Ukraine (CIUS, University of Alberta), madde \"Lubny\"; 1281-1654 zinciri komşu Poltava kaydının kalıbıdır (tutarlılık seçimi, kaynak günü değil)" },
 
   // ── SUMI ───────────────────────────────────────────────────────────

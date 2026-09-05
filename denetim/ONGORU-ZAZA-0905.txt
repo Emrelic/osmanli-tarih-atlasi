@@ -1,0 +1,122 @@
+ONGORU — ZAZA MIRLIK MERKEZLERI NOKTA YAMASI
+Oturum NEHIR SURTUNME · sevk 1.MURAT M-2917 · 5 Eylul 2026
+🔴 BU DOSYA YAMA YAZILMADAN VE SINAVLAR KOSULMADAN ONCE YAZILDI.
+
+═══════════════════════════════════════════════════════════════════
+① NE YAZIYORUM
+═══════════════════════════════════════════════════════════════════
+YEDI YENI NOKTA — `denetim/yer_yama_zaza.js`
+   Egil · Genc · Capakcur (Bingol) · Atak · Hazro · Kigi · Ergani
+
+Kume nasil kuruldu: Karabulut 2019'un ADIYLA saydigi mirlik merkezleri,
+M-2917 ①'in istedigi gibi TAMAMLANDI (Kigi · Ergani eklendi; Siverek
+ZATEN VAR, yazilmiyor).
+
+🔴 KAPSAM DISI BIRAKTIKLARIM (ve sebebi):
+   Cermik · Sason · Piran · Hizan → ATLASTA YOK olduklarini OLCTUM
+   ama sevkin kumesi disindalar ve ayri emirlik oberklerine ait
+   (Cermik Mirdasi-komsusu · Sason ve Hizan Bitlis yorungesi ·
+   Piran yalniz bir GUZERGAH anilmasi). YAZMADIM, BILDIRDIM.
+
+═══════════════════════════════════════════════════════════════════
+② ONGORU — bes kalem, her birinde HANGI CIKTIDAN okuyacagim yazili
+═══════════════════════════════════════════════════════════════════
+
+① DEGISMEZ SAYILARI      hayalet +0 · 4c +0 · 4d +0 · kunyesiz +0
+   NEREDEN   `yama_sinav.py denetim/yer_yama_zaza.js YER_YAMA_ZAZA`
+   GEREKCE   Alti kimligin ALTISI da olculdu ve pencereleri TUTUYOR:
+             ilhanli 1256-1353 · artuklu 1102-1409 · celayirli 1340-1431
+             timurlu 1370-04-09/1507-05-01 · akkoyunlu 1340-1514
+             safevi 1501-07-01/1736-03-08
+   MAZERET   YOK. Tutmazsa bir kunye penceresini yanlis okumusum demektir.
+
+② YENI KIRILMA           0
+   NEREDEN   ayni sinavin `YENI kirilma` satiri
+   GEREKCE   Tek `d:` sinirim `1515-09-10` ve o gun ZATEN kirilma:
+             Diyarbakir onu `d:` baslangici olarak kullaniyor (olctum).
+             Ve `§11`in KOVA sorusu da soruldu: CEKIRDEKTE madde VAR —
+             olaylar_ek.js 1515-09-15 (5 gun) · olaylar_ek5.js ve
+             olaylar_ok107.js 1515-09-19 (9 gun). Kuyruga DEGIL,
+             cekirdege bakildi.
+   MAZERET   YOK.
+
+③ KAYBOLAN KIRILMA       0
+   NEREDEN   ayni sinavin `KAYBOLAN kirilma` satiri
+   GEREKCE   Yama yalniz YENI kayit ekliyor; var olan hicbir kaydin
+             `d:`/`v:` alanina dokunmuyor.
+   MAZERET   YOK. Bu kalem 5 Eylul'de bir kez ATESLEDI (Dogu Makedonya
+             yamasi dort ortacag kirilmasini siliyordu) ⇒ nobetci
+             calisiyor, ve simdi sessiz kalmasi BEKLENIYOR.
+
+④ 3 KM SINAVI            7/7 GECER
+   NEREDEN   `py denetim/ARAC-YENI-NOKTA-3KM-0905-kos.py`
+   GEREKCE   Bes merkez icin en yakin mevcut nokta OLCULDU:
+             Egil 41,6 · Capakcur 53,1 · Genc 54,2 · Hazro 60,9 ·
+             Atak 67,6 km. Hepsi 3 km esiginin ON KAT uzaginda.
+   🔴 RISKLI KISIM: **Kigi ve Ergani icin uzaklik OLCULMEDI** — kumeye
+      bu turda katildilar. Kendi hesabimla Ergani ≈55 km (Diyarbakir),
+      Kigi ≈78 km (Palu) cikiyor ama bunu ARACA DOGRULATMADIM.
+      Bu ikisi calarsa sasirmam; oteki beste calarsa bir seyi yanlis
+      olcmusum demektir.
+
+⑤ PETEK ETKISI           Palu ve Diyarbakir'in petekleri KUCULECEK
+   NEREDEN   🔴 BU TURDA OLCULEMEZ — motor ciktisi gerekir, kosu 5b CANLI
+             ve `data/*.js` DONUK. Sinav BIR SONRAKI KOSUDA yapilir.
+   YON       Palu su an Genc (54 km) · Capakcur (53) · Atak (68) uc
+             merkezi birden emiyor; Diyarbakir Egil (42) ve Hazro (61).
+             Bes yeni komsu ikisinin de petegini BOLER.
+   BUYUKLUK  🔴 BILMIYORUM ve TAHMIN ETMIYORUM. `§2`: "petek buyuklugunu
+             belirleyen sey noktanin kendisi degil CEVRESIDIR" — cevre
+             degisiyor, ama km² icin motor gerekir.
+   MAZERET   Bu kalem "olculemedi" kovasinda ACIK kalir; `TUTTU` ya da
+             `CURUDU` diye damgalanamaz.
+
+═══════════════════════════════════════════════════════════════════
+③ KIMLIK SARTI — sevkin ④'u
+═══════════════════════════════════════════════════════════════════
+🔴 YENI KUNYE ONERMIYORUM. `mirdasi` · `suveydi` · `zirkan` kunyeleri
+   YOK (591 kunye normallestiriciyle tarandi, sekiz anahtar, sifir
+   sonuc) ve bu tur bir NOKTA turudur.
+
+Zincir, bolgenin TDV ile kaynaklanmis merkezinin (Diyarbakir/Amid)
+zincirini izliyor ve bu bir KONVANSIYON olarak damgalaniyor —
+`Harput`ta `ilhanli 1281→1353` icin kullanilan bicimin ayni:
+   1281→1303 ilhanli · 1303→1353 artuklu · 1353→1394 celayirli
+   1394→1401 timurlu · 1401→1507 akkoyunlu · 1507→1515-09-10 safevi
+   d: 1515-09-10 → 1923-10-29
+
+⚠️ VE BUNUN NE OLMADIGI: bu zincir bu YEDI YER icin AYRI AYRI
+   kaynaklanmadi. Kaynak (Karabulut) mirliklerin **Akkoyunlu
+   konfederasyonuna bagli** olduklarini ve **1515'te Osmanli'ya
+   gectiklerini** soyluyor; ortadaki halkalar Diyarbakir'in belgeli
+   zincirinden DEVRALINDI. Her kaydin `not:` alaninda yaziyor.
+
+🔴 VE BIR SEYI IFADE EDEMIYORUM: bu yerler kendi beyleri tarafindan
+   yonetiliyordu ve Akkoyunlu'ya TABI idiler. Atlasta bunun karsiligi
+   yok (`v:` yalniz Osmanli tabiiyeti ve kimlik tasimiyor). Yani
+   `akkoyunlu` yazmak SUZERENI gosteriyor, YONETICIYI degil.
+   Bu `v:` kimlik boslugunun DORDUNCU vakasi.
+
+═══════════════════════════════════════════════════════════════════
+④ BAGIMLILIK — uygulama sirasi
+═══════════════════════════════════════════════════════════════════
+🔴 Bu yama `denetim/yer_yama_diyarbakir.js` ile AYNI zinciri kullaniyor.
+   O yama uygulanmazsa yedi yeni nokta Diyarbakir'in KENDISINDEN farkli
+   gorunur (canli veride Diyarbakir `artuklu 1281→1378` tasiyor).
+   ⇒ IKISI BIRLIKTE uygulanmali. Yama basligina da yazildi.
+
+🔴 VE BUNLAR YENI KAYIT: uygulayici yeni kayit EKLEYEMEZ ⇒ merge'in
+   52 kalemlik ELLE listesine katilirlar (M-2917 ②).
+
+═══════════════════════════════════════════════════════════════════
+⑤ NE YAPMADIM
+═══════════════════════════════════════════════════════════════════
+OLCMEDIM   tarihi kale konumlarini — bugunku ilce merkezleri kullanildi
+🔴 EN ZAYIF HALKA: **Atak**. Tarihi Atak kalesinin tam yeri
+   ARASTIRILMADI; Lice ilce merkezine alindi. En yakin mevcut nokta
+   68 km oldugu icin 3 km sinavi bundan etkilenmez, ama KONUM
+   KESIN DEGIL ve `not:`a yazildi.
+YAZMADIM   `kur:` alani — bu yerlesimlerin kurulus tarihleri
+   bilinmiyor ve hepsi 1281'den ONCE vardi
+YAZMADIM   yeni kunye (sevkin ④ sarti)
+OLCMEDIM   Cermik · Sason · Piran · Hizan'i yamaya almanin etkisini

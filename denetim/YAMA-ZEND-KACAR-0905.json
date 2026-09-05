@@ -1,0 +1,85 @@
+{
+  "oturum": "KRONOLOJI BOS KUNYE",
+  "damga": "2026-09-05 10:10",
+  "is": "M-2866 — `zend` bitiş ucu (B kovası) ve ardıl `kacar` dönemi",
+  "🔴_HUKUM_VERILMEDI": "Üç yol ölçüldü, üçünün de bedeli yazıldı. Seçim 132 kaydı ve iki künyeyi bağlar — koordinatörün.",
+  "①_ARDIL_OLCULDU_ve_SEVKIN_ENDISESI_YERSIZ_CIKTI": {
+    "sevkin_endisesi": "«1794-1796 arası BOŞALIR ve Değişmez 1 boşluk kabul etmez · ardıl DÖNEM yazılmadan `t:` kısaltılmaz»",
+    "olcum": {
+      "zend(t=1796) taşıyan nokta": 132,
+      "1796'da başlayan ardıl": "kacar @1796-01-01 — **132/132**",
+      "ardılsız nokta": 0,
+      "zend'den önce biten": "afsar →1747-06-20 — 131"
+    },
+    "sonuc": "🟢 VERİ ZİNCİRİ ZATEN BOŞLUKSUZ: afsar → 1747-06-20 → zend → 1796-01-01 → kacar. Ardıl dönem YAZILMASI GEREKMİYOR, ZATEN VAR. ⇒ `t:` kısaltmak yeni bir boşluk açmaz; yalnız iki dönemin ORTAK SINIRINI kaydırır."
+  },
+  "②_KUNYE_ve_VERI_AYRISMASI_UC_YERDE": {
+    "zend": {
+      "künye": "1751-01-01 → 1794-01-01",
+      "veri": "1747-06-20 → 1796-01-01",
+      "fark": "başta 3 yıl erken, sonda 2 yıl geç"
+    },
+    "kacar": {
+      "künye": "1789-03-21 → 1923-10-29",
+      "veri": "1796-01-01 → …",
+      "fark": "🔴 KÜNYE VERİDEN 7 YIL ÖNCE BAŞLIYOR — ve bu, TDV'nin kendi tarihiyle de çelişiyor: TDV Kaçar Devleti'ni **1796**'da kurulmuş sayıyor (1796-1925). Künyenin 1789'u nereden geldiği BU TURDA ÖLÇÜLMEDİ."
+    },
+    "afsar": {
+      "künye": "1736-03-08 → 1796-01-01",
+      "veri": "1736-03-08 → 1747-06-20",
+      "fark": "🔴 KÜNYE VERİDEN 49 YIL SONRA BİTİYOR. Afşarîler Horasan'da 1796'ya kadar tutunmuştur; künye onu, veri Nadir Şah'ın ölümünü esas alıyor. AYRI BİR KALEM, bu turun konusu değil — kayda geçiriyorum."
+    },
+    "📌": "Üç künyenin üçünde de künye ile veri AYRI HİKÂYE anlatıyor. Bu, tek bir sınır hatası değil bir DESEN."
+  },
+  "③_KAYNAK_1794-1796_ARASINI_BOS_BIRAKIYOR": {
+    "zend_sonu": "TDV `lutf-ali-han` (HTTP 200, STUB) — AYNEN: «İran'da hüküm süren Zendler'in son hükümdarı (1789-1794)»  ⇒ Zend hânedanı **1794**'te bitiyor.",
+    "kacar_baslangici": "TDV `kacarlar` (HTTP 200, gövde açıldı) — AYNEN: «adına hutbe okuttu ve para kestirdi (1796); böylece Kaçar Devleti resmen kurulmuş oldu.» ve maddenin tanım cümlesi: «Bir Türkmen oymağı ve İran'da hüküm süren bir hânedan (1796-1925).»  ⇒ Kaçar Devleti **1796**'da kuruluyor.",
+    "🔴_sonuc": "TDV'nin İKİ MADDESİ ARASINDA İKİ YILLIK BİR ARALIK VAR ve TDV o aralığı kimseye VERMİYOR. Bu bir veri kusuru değil, KAYNAĞIN kendi sessizliği.",
+    "🟡_ek": "TDV `kacarlar` Ağa Muhammed Han'ın Zend hükümdarı Câfer Han'ı yenmesini **1786** diye veriyor — yani Kaçar yükselişi 1796'dan ÖNCE başlamış, ama TDV devletin KURULUŞUNU 1796'ya bağlıyor. «Yükseliş» ile «kuruluş» ayrı şeyler ve madde ikisini ayırıyor."
+  },
+  "④_UC_YOL_ve_BEDELLERI": [
+    {
+      "yol": "A — VERİYE DOKUNMA (zend 1796'da kalsın)",
+      "lehte": "Veri zinciri boşluksuz; `kacar` künyesi zaten 1789'dan beri açık, yani 1796 başlangıcı künyeyle çelişmiyor.",
+      "aleyhte": "🔴 `zend` künyesi 1794'te bitiyor ⇒ veri künyenin ömrünü İKİ YIL aşıyor. `§3.5` hayalet devleti — ve bunu bu turda ben kendi yamamda üretip yakalamıştım."
+    },
+    {
+      "yol": "B — `zend` t: 1794, `kacar` f: 1794 (ortak sınır geri kayar)",
+      "lehte": "Hayalet biter; boşluk doğmaz (ardıl zaten var, sadece 2 yıl erken başlar); `kacar` künyesi (1789+) bunu KALDIRIR.",
+      "aleyhte": "🔴 TDV Kaçar Devleti'ni 1796'da kurulmuş sayıyor ⇒ `kacar`ı 1794'ten boyamak TDV'nin söylemediğini söyletir. 🟡 Ama atlasın KENDİ `kacar` künyesi zaten 1789 diyor — yani atlas bu konuda TDV'yi ZATEN takip etmiyor."
+    },
+    {
+      "yol": "C — `zend` t: 1794 + 1794-1796 BEYAN",
+      "lehte": "Kaynağın sessizliğini olduğu gibi kaydeder.",
+      "aleyhte": "🔴 YANLIŞ OLUR: o iki yılda İran'da bir iktidar boşluğu YOKTU — Ağa Muhammed Han fiilen hâkimdi (TDV 1786'dan beri yükselişini anlatıyor). `bos:` yazmak «kimsenin değildi» demektir ve kaynağın söylediğinin TERSİ olur. ⇒ Bu yolu ÖNERMİYORUM ve sebebini yazıyorum."
+    }
+  ],
+  "⑤_ONERIM_ve_niye_secmedigim": {
+    "egilimim": "B — ama bu bir EĞİLİM, karar değil.",
+    "gerekce": "Hayaleti bitiriyor, boşluk açmıyor, ve atlasın kendi `kacar` künyesi (1789-03-21) onu zaten kaldırıyor. TDV ile çelişkisi ise ATLASTA ZATEN VAR — künye 1789 diyor, TDV 1796.",
+    "niye_secmiyorum": "Seçim 132 kaydı ve `kacar` künyesinin TDV ile ayrışmasını bağlar. İkincisi bir künye kararıdır ve benim alanım değil.",
+    "🔴_sart": "B seçilirse `kacar` künyesinin f:1789-03-21 değerinin nereden geldiği AYRICA ölçülmeli — çünkü o tarih TDV'nin 1796'sıyla çelişiyor ve bu yama onu PEKİŞTİRİR."
+  },
+  "⑥_YAMA_TASLAGI_uygulanmadi": {
+    "not": "🔴 Bu bir TASLAKTIR — B yolu seçilirse yazılacak yamanın biçimi. ŞU AN UYGULANMADI ve `denetim/yer_yama_*.js` olarak YAZILMADI.",
+    "etkilenecek": "132 nokta · her birinde İKİ dönem ucu",
+    "degisiklik": [
+      {
+        "kimlik": "zend",
+        "eski_t": "1796-01-01",
+        "yeni_t": "1794-01-01"
+      },
+      {
+        "kimlik": "kacar",
+        "eski_f": "1796-01-01",
+        "yeni_f": "1794-01-01"
+      }
+    ]
+  },
+  "⑦_DAMGALAR": {
+    "bulunamadı": "1794-1796 arasını TDV kimseye vermiyor",
+    "ölçülemedi": "`kacar` künyesinin f:1789-03-21 değerinin dayanağı",
+    "okumadım": "Encyclopaedia Iranica `zand` ve `qajar` maddeleri — bu sorunun doğal ikinci adresi, AÇILMADI",
+    "dokunmadım": "başlangıç ucu (1747-06-20) — senin hükmün «A kovası AÇIK KALIR» idi, uydum"
+  }
+}

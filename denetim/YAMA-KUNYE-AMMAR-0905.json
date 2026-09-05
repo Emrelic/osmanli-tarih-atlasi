@@ -1,0 +1,92 @@
+{
+  "oturum": "KRONOLOJI BOS KUNYE",
+  "damga": "2026-09-05 13:40",
+  "🔴🔴_DUZELTME_2026-09-05_14:20": {
+    "ne_curudu": "Bu dosyanın ilk hâli iki şey söylüyordu ve İKİSİ DE YANLIŞTI: ① «MÜSTAKİL MADDE YOK — 7 slug denendi, 7 ölü» ② veri için tek blok `ammarogullari 1327→1401` ima ediliyordu.",
+    "①_madde_VAR": "Gerçek slug: **`ammarogullari--trablusgarp`** (HTTP 200, 10.232 kar., başlık «AMMÂROĞULLARI»). Yedi tahminimin hiçbiri tutmadı çünkü TDV'de İKİ Ammâroğulları var — öteki 1070-1109 Trablusşam'da — ve ayrım `--trablusgarp` sonekiyle yapılmış. `§4②`nin `ordu--sehir` · `saray--sehir` · `cin--ulke` · `hurmuz--iran` ailesinin BEŞİNCİ vakası.",
+    "nasil_bulundu": "Slug TAHMİN EDİLMEDİ, BAĞLANTI OKUNDU: `libya` sayfasının HTML'inde TDV'nin kendi çapraz atfı duruyordu (`<a href=\"/ammarogullari--trablusgarp\">`). `§4`: «bir kimliği YOK ilan etmeden önce ARA; TAHMİN EDİLEN id ARANMAZ.» Ben yedi kez tahmin ettim, bir kez aramadım.",
+    "②_zincir_TEK_BLOK_DEGIL": "Gerçek madde okununca 1327-1401 arasının KESİNTİLİ olduğu çıktı — aşağıdaki `gercek_zincir` alanına bakınız. Tek blok yazılsaydı, bu oturumun bütün gece bulduğu kusur sınıfının (künye içinde görünmeyen yanlış atıf) YENİSİ ÜRETİLMİŞ olurdu.",
+    "damga_duzeltmesi": "Önceki `bulunamadı` damgası GERİ ÇEKİLDİ. Doğrusu: aradım, YANLIŞ ARADIM, ve ikinci turda BULDUM."
+  },
+  "is": "M-2932 ② → M-2952 — `ammarogullari` künye önerisi (DÜZELTİLMİŞ)",
+  "🔴_INDIRME_RENK_BEKLIYOR": "Bu künye `renkler.py`de TANIMLI DEĞİL (ölçüldü: `arac/renkler.py`de `ammar` geçen tek kayıt `sammar` — Arabistan 1835, ilgisiz). Renk verilmeden veriye inerse gövde ÇİZİLMEZ — harita deliği açar. `arma` ve `polonya-erken` emsali: önce renk, sonra iniş.",
+  "🔴_IKINCI_ON_SART_CEKIRDEK_MADDE": {
+    "⚠️_BU_BLOK_ASILDI": "Aşağısı İKİ gün varsayıyordu (1327 · 1401). Gerçek zincir ALTI gün istiyor — `🔴_DEGISMEZ_2_ON_SARTI_ALTI_GUN` bloğuna bakınız. Blok SİLİNMEDİ, DAMGALANDI: silmek dersi de siler.",
+    "sorun": "İki kırılma gününün ikisi de ÇEKİRDEKTE (`data/olaylar*.js`) MADDESİZ. Ölçüm `girdi._cevir` ile yapıldı (regex DEĞİL — ilk regex ölçümüm yedi günün beşinde yanlış çıkmıştı), 34 dosya · 1316 madde.",
+    "1327-01-01": "±30 gün içinde 1 madde VAR ama KONUSU ALAKASIZ: «İlk Osmanlı akçesinin basılması». `Değişmez 2`yi TESADÜFEN geçer.",
+    "1401-01-01": "±30 gün içinde 1 madde VAR ama KONUSU ALAKASIZ: «Timur Bağdat'ı ikinci defa işgal etti». `Değişmez 2`yi TESADÜFEN geçer.",
+    "hukum": "⇒ Bu künye veriye inerse `Değişmez 2` TEMİZ görünür ve o temizlik YALANDIR — gün eşleşmesi var, konu eşleşmesi yok. Aşağıdaki iki `kronoloji` maddesi ÇEKİRDEĞE de yazılmalı; künye içindeki kronoloji `Değişmez 2`nin evreninde DEĞİL.",
+    "emsal": "`zend`/`kacar` yamasının 1794-01-01 ön şartıyla aynı sınıf."
+  },
+  "kunye": {
+    "id": "ammarogullari",
+    "ad": "Ammâroğulları (Trablusgarp)",
+    "tur": "beylik",
+    "bolge": "kuzey-afrika",
+    "baskent": "Trablus",
+    "f": "1327-01-01",
+    "t": "1401-01-01",
+    "ozet": "Hafsîler'in iç karışıklıklar yüzünden zayıfladığı bir sırada Trablusgarp'ta kurulan ve 74 yıl süren mahallî hânedan; sonrasında şehir yeniden Hafsî hâkimiyetine döndü ve 1510'a kadar öyle kaldı. 🔴 `f:`/`t:` GÜN DEĞİL YIL hassasiyetindedir: TDV hicrî+mîlâdî çift veriyor (727/1327 · 803/1401), gün vermiyor ⇒ `§4`ün «yıl biliniyor, gün bilinmiyor» yazımı. 🟡 Hânedanın Trablus şehri DIŞINDA hangi yerleşimleri tuttuğu ÖLÇÜLEMEDİ — kaynak bir menzil vermiyor.",
+    "kaynak": "TDV **`ammarogullari--trablusgarp`** (HTTP 200, 10.232 kar., başlık «AMMÂROĞULLARI») — MÜSTAKİL MADDE VAR. AYNEN: «Hevvâre Berberî kabilesinin Zâkûga koluna mensup olan Sâbit b. Ammâr Trablusgarp'a hâkim oldu ve böylece Benî Ammâr (Benî Sâbit) hânedanının temelleri atılmış oldu (727/1327).» ve «Böylece Ammâroğulları hânedanı da sona ermiş oldu (803/1401).» Destekleyen: TDV `trablusgarp` «…kuruldu (727/1327) ve 803 (1401) yılına kadar devam etti» · TDV `libya` «AMMÂROĞULLARI 1327-1401 yılları arasında Trablusgarp'ta hüküm süren bir hânedan.»",
+    "kronoloji": [
+      {
+        "t": "1327-01-01",
+        "tur": "kurulus",
+        "b": "Ammâroğulları hânedanı Trablusgarp'ta kuruldu — Hafsî hâkimiyetinin kesintiye uğraması",
+        "kaynak": "TDV `trablusgarp` — AYNEN: «Hafsîler'in iç karışıklıklar yüzünden zayıfladığı bir sırada Trablusgarp'ta Ammâroğulları hânedanı kuruldu (727/1327)». 🔴 Hicrî 727 = mîlâdî 1327; GÜN YOK ⇒ YYYY-01-01."
+      },
+      {
+        "t": "1401-01-01",
+        "tur": "son",
+        "b": "Ammâroğulları hâkimiyeti sona erdi, Trablusgarp yeniden Hafsîler'e geçti",
+        "kaynak": "TDV `trablusgarp` — AYNEN: «803 (1401) yılına kadar devam etti» ve «Ammâroğulları'ndan sonra Trablusgarp'ta Hafsîler'in hâkimiyeti 1510 yılına kadar sürdü». 🔴 GÜN YOK ⇒ YYYY-01-01."
+      }
+    ]
+  },
+  "veri_etkisi": {
+    "kesin_dokunulan": "YALNIZ Trablus (13,191°D) — bugün `s: hafsi 1281-01-01 → 1510-07-25` TEK BLOK.",
+    "🔴_menzil_SEHIRDIR": "Madde baştan sona ŞEHİR diyor: «Trablus'a hâkim oldu» · «şehrin yönetimini ele geçirdi» · «Trablusgarp Ammâroğulları'nın elinde MÜSTAKİL BİR ŞEHİR olarak kaldı». Hinterland için TEK BİR CÜMLE YOK; Cerbe ayrıca ve AYRI bir fetih olarak anılıyor. ⇒ Öteki 8 batı noktası (Terhûne · Benî Velîd · Hums · Zilten · Tâverğa · Misrata · Sirte · Nûfiliye) DIŞARIDA — onlara yazmak kaynaksız olur.",
+    "ortusme_barka_kalemiyle": "0 — Ammâroğulları BATI kümesinde, Barka kalemi DOĞU kümesinde (Bingazi 20,07°D → Tobruk 23,97°D). İki kalem PARALEL gidebilir."
+  },
+  "🔴🔴_gercek_zincir_TEK_BLOK_DEGIL": {
+    "uyari": "Künye penceresi (1327-1401) hânedanın ÖMRÜDÜR. Trablus'un TASARRUFU o pencerede EN AZ İKİ KEZ hânedanın elinden çıkıyor. Tek blok yazmak, bu oturumun gece boyu bulduğu kusurun (künye içinde görünmeyen yanlış atıf) YENİSİNİ üretirdi.",
+    "kaynak_zinciri": [
+      "1327 (727) — Sâbit b. Ammâr Trablus'a hâkim oldu, hânedan kuruldu",
+      "1347-48 — Merînîler Tunus'a hâkim; Ebü'l-Hasan el-Merînî Muhammed b. Sâbit'in hâkimiyetini TANIDI, «Trablusgarp Ammâroğulları'nın elinde müstakil bir şehir olarak kaldı»",
+      "1355 — 🔴 «Tüccar kılığında şehre giren CENEVİZLİ askerler … şehre hâkim oldular (1355)». Beş ay kaldılar",
+      "1355 — «burayı Kābis ve Cerbe hâkimi Ebü'l-Abbas Ahmed b. Ali'ye 50.000 miskal altına SATTILAR. Böylece Trablus'ta hâkimiyet MERÎNÎLER'E BAĞLILIK ARZEDEN Ahmed b. Ali el-Mekkî'nin eline geçti». 1364-65'te oğlu Abdurrahman",
+      "1370-71 (772) — «Ebû Bekir bedevî Araplar'ın da desteğiyle Trablus'a hâkim oldu». Hafsî sultanına itaat arzetti, «o da Ebû Bekir'i Trablus VALİSİ olarak tanıdı» ⇒ TÂBİ",
+      "1390 — Ali b. Ammâr. «Bu dönemde Ammâroğulları BAZAN Hafsîler'e tâbi oluyor, zaman zaman da BAĞIMSIZ hareket ediyordu»",
+      "1393 Mayıs — 🔴 «Trablus ve Cerbe'den gelen elçiler KRALIN (Sicilya) hâkimiyetini tanıdıklarını … haber verdiler. Böylece kralın adamları kolayca Trablus ve Cerbe'ye hâkim oldular»",
+      "1394 — Hafsî Ebû Fâris Abdülazîz «şehri ele geçirdi», Yahyâ'yı VALİ tayin etti",
+      "1401 (803) — «ikisini de azledip hapsettirdi ve yerlerine KENDİ ADAMLARINI görevlendirdi. Böylece Ammâroğulları hânedanı da sona ermiş oldu»"
+    ],
+    "en_az_iki_kesinti": "① 1355 → 1370-71 (~15-16 yıl): Ceneviz, sonra Merînî'ye bağlı Ahmed b. Ali · ② 1393-05 → 1394 (~1 yıl): Sicilya kralı",
+    "kimlik_durumu": {
+      "ceneviz": "🟢 VAR — künye `id:\"cenova\"` (Cenova Cumhuriyeti, 1005-01-01 → 1797-06-14), `harita:\"ceneviz\"`, renk ✓, veride 25 dönem. ⚠️ `id` ile aranırsa BULUNMAZ — `ingiliz-hindistani` tuzağı; `harita:` alanından bulundu.",
+      "merini": "🟢 VAR — `merini` 1196-01-01 → 1549-01-01, renk ✓, veride 46 dönem. 🟡 Ama kaynak «Merînîler'e BAĞLILIK ARZEDEN Ahmed b. Ali» diyor — Merînî'nin kendi tasarrufu DEĞİL, tâbi bir mahallî hâkim. Kimlik seçimi HÜKÜM ister.",
+      "sicilya": "🟡 `sicilya` diye künye YOK. En yakın adaylar: `aragon` (1164-01-01 → 1479-01-20, renk ✓ — Sicilya adası 1282'den beri Aragon hânedanında) ve `napoli` («Napoli Krallığı / İki Sicilya»). 🔴 ADAY, hüküm değil: kaynak yalnız «Sicilya kralları» / «Kral Martinoil» diyor.",
+      "ammarogullari": "🔴 künye YOK (bu dosyanın önerisi) · renk YOK"
+    }
+  },
+  "🔴_DEGISMEZ_2_ON_SARTI_ALTI_GUN": {
+    "olcum": "`girdi._cevir` ile 34 çekirdek dosyası, 1316 madde. Zincirin gerektirdiği ALTI kırılma günü:",
+    "1327-01-01": "1 madde · 0 gün · «İlk Osmanlı akçesinin basılması» → 🔴 KONU ALAKASIZ",
+    "1355-01-01": "🔴 0 MADDE",
+    "1371-01-01": "1 madde · 0 gün · «Kârkiyâ hânedanı Gîlân'da kuruldu» → 🔴 KONU ALAKASIZ",
+    "1393-05-01": "1 madde · 0 gün · «Leş'in (Alessio) … Venedik'e bırakılması» → 🔴 KONU ALAKASIZ",
+    "1394-01-01": "1 madde · 0 gün · «Teselya'ya iniş» → 🔴 KONU ALAKASIZ",
+    "1401-01-01": "1 madde · 0 gün · «Timur Bağdat'ı ikinci defa işgal etti» → 🔴 KONU ALAKASIZ",
+    "hukum": "⇒ ALTI günün ALTISI da gerçek madde istiyor: beşi gün eşleşiyor ama konu eşleşmiyor (`Değişmez 2`yi TESADÜFEN geçer, ve o temizlik yalan olur), biri hiç yok. Bu, bu oturumun kendi kurduğu ölçütün kendi yamasına uygulanmış hâlidir."
+  },
+  "olcum": {
+    "kunye": 1,
+    "kronoloji_madde": 2,
+    "renk": "🔴 YOK — indirme",
+    "id_cakismasi": "`ammarogullari` id'si dizinde BOŞ (591 künye tarandı; `ammar` geçen tek kayıt `sammar`, ilgisiz)",
+    "tdv_slug_denemesi": "7 tahmin, 7 ölü — SONRA bağlantı okundu: `ammarogullari--trablusgarp` CANLI, 10.232 kar., gerçek madde",
+    "cekirdek_madde_on_sarti": "🔴 ALTI GÜNÜN ALTISI da gerçek madde istiyor (beşi alakasız gün eşleşmesi, biri hiç yok)",
+    "veri_yamasi": "🔴 BU DOSYA VERİ YAMASI DEĞİL. `denetim/yer_yama_barka_bati9.js` YAZILMADI: zincir altı kırılma günü ve üç ayrı kimlik kararı (ceneviz/merini/sicilya) istiyor, ikisi de HÜKÜM gerektiriyor. `§7.1⑥`: kaynak birden çok kimlik adaylandırıyorsa seçimi işçi yapmaz."
+  },
+  "🔴_PENCEREYI_VERIYE_UYDURMADIM": "Kolay olan, künyeyi verideki `hafsi 1281→1510` bloğuna hizalamaktı. Yapmadım: kaynak yalnız 1327 ve 1401'i tarihliyor. `§4`: künyenin `f:`/`t:` günü bir KAYNAK DEĞİLDİR — ve tersi de doğru, veri de kaynak değildir."
+}

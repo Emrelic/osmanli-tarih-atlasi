@@ -553,10 +553,9 @@ window.YERLESIMLER_E9353F = [
 //      geçmiyorum. Karar koordinatörde; künye benim dosyam değil.
 // ⚠️ Nokta Mengo/Kampala kuşağına kondu; Kabaka'nın başşehri sık taşındığı
 //   için bu bir ÖZDEŞLEŞTİRMEDİR — Buganda'nın çekirdek bölgesidir.
-{ ad:"Mengo (Buganda)", tur:"sehir", lat:0.348, lon:32.583, g:0, k:1,
+{ ad:"Mengo (Buganda)",isg:[{f:"1900-01-01",t:"1923-10-29",d:"ingiltere"}], tur:"sehir", lat:0.348, lon:32.583, g:0, k:1,
   kur:"1300-01-01",
-  s:[{f:"1300-01-01", t:"1900-01-01", d:"buganda", kaynak:"uganda"},
-     {f:"1900-01-01", t:"1923-10-29", d:"ingiltere", kaynak:"uganda"}],
+  s:[{f:"1300-01-01",t:"1923-10-29",d:"buganda",kaynak:"uganda"}],
   d:[], v:[],
   bos:"veri-yok",
   neden:"kunye-yok — sahipsiz araligi YOK, bu bayrak bir KUNYE CELISKISINI isaretliyor: TDV uganda maddesi Buganda'nin ilk krali Kato Kimera'nin XIII. yuzyil BASINDA tahta ciktigini soyluyor, yani 1281'de kralik VARDI; ama buganda kunyesi f:1300-01-01. §3.5 geregi kunyeye uydum (kur:1300), boylece TDV'nin 1281'i kapsayan ifadesi veriye INMEDI. Kunye duzeltilirse kur: 1281 oncesine cekilmeli. Ingiliz donemi KAYNAKLI: 1900 antlasmasi." },

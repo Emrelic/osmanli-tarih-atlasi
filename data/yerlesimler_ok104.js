@@ -151,9 +151,7 @@ window.YERLESIMLER_OK104 = [
 // ⚠️ `1393-05-01` külliyatta YOKTU (±30 günde 0 madde) — maddesi aynı turda
 //    `data/olaylar_ok104.js`e yazıldı. Nokta maddesiz inseydi `2s` açılırdı.
 { ad:"Leş (Alessio)", tur:"liman", lat:41.783, lon:19.644, g:0, k:3, m:"İşkodra",
-  s:[{f:"1281-01-01",t:"1393-05-01",d:"arnavutluk"},
-     {f:"1393-05-01",t:"1478-06-15",d:"venedik"},
-     {f:"1912-11-28",t:"1923-10-29",d:"arnavutluk-bagimsiz"}],
+  s:[{f:"1281-01-01",t:"1356-01-01",d:"sirbistan-nemanjic"},{f:"1356-01-01",t:"1387-01-01",d:"zeta"},{f:"1387-01-01",t:"1393-05-01",d:"dukagin"},{f:"1393-05-01",t:"1478-06-15",d:"venedik"},{f:"1912-11-28",t:"1923-10-29",d:"arnavutluk-bagimsiz"}],
   d:[{f:"1478-06-15",t:"1912-11-28"}],
   kaynak:"TDV les · TDV iskender-bey" },
 

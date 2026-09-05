@@ -1,0 +1,66 @@
+{
+  "oturum": "KRONOLOJI BOS KUNYE",
+  "damga": "2026-09-05 13:52",
+  "is": "M-2942 — DOĞU 8'in 1517-1551/1578 penceresi",
+  "🔴_BU_DOSYA_OLCUMDEN_ONCE_YAZILDI": "Yamayı üretmeden ve doğrulamayı koşturmadan önce yazıldı. Sonradan yazılan beklenti ölçüme göre şekillenir ve hiçbir şey öğretmez.",
+  "her_kalemin_dort_alani": "① ne bekliyorum ② mazereti var mı ③ hangi çıktıdan hangi birimde ④ hangi koşuda neye karşı",
+  "kalemler": [
+    {
+      "no": "①",
+      "ne": "Değişmez 1 — 8 noktanın 1281-1923 arası SAHİPSİZ günü: 0",
+      "mazeret": "🔴 MAZERET YOK. `s: memluk` bitişi ile `d:` başlangıcı AYNI güne konuyor; boşluk doğarsa tasarım hatasıdır, taban kayması değil.",
+      "nereden": "kendi benzetimim — d/s/v dönemlerinin birleşimi, gün gün, 1281-01-01…1923-10-29 (birim: GÜN)",
+      "hangi_kosuda": "yama üretildikten hemen sonra, yamanın ürettiği kayıtlar üzerinde (veriye İNMEDEN)"
+    },
+    {
+      "no": "②",
+      "ne": "Kapsam DARALMASI: 0 / 8 kayıt",
+      "mazeret": "🔴 MAZERET YOK. Eski birleşik kapsam ile yeni birleşik kapsam GÜN GÜN aynı olmalı: `hafsi 1281→1551-08-15` + `d:1551-08-15→…` yerine `memluk 1281→1517-05-19` + `d:1517-05-19→…` geliyor; uçlar aynı.",
+      "nereden": "aynı benzetim — eski küme ∖ yeni küme farkı (birim: GÜN)",
+      "hangi_kosuda": "aynı koşu"
+    },
+    {
+      "no": "③",
+      "ne": "`hafsi` dönem sayısı 76 → 68",
+      "mazeret": "🟡 TABANA DUYARLI — Fizan yaması (12 kayıt) bu arada inerse taban 76 değil 64 olur ve sayı 56 çıkar. O zaman kalem ÇÜRÜMÜŞ SAYILMAZ, taban kaymıştır.",
+      "nereden": "`girdi.yukle` + `s[].d == 'hafsi'` sayımı (birim: DÖNEM)",
+      "hangi_kosuda": "yama İNDİKTEN sonra — bugün İNMEYECEK (Koşu 5b), yani bu kalem BUGÜN ÖLÇÜLEMEZ"
+    },
+    {
+      "no": "④",
+      "ne": "`memluk` dönem sayısı 130 → 138",
+      "mazeret": "🟡 TABANA DUYARLI — ③ ile aynı gerekçe",
+      "nereden": "aynı sayım (birim: DÖNEM)",
+      "hangi_kosuda": "③ ile aynı — BUGÜN ÖLÇÜLEMEZ"
+    },
+    {
+      "no": "⑤",
+      "ne": "MADDESİZ GÜN kapısı (`_sahiplik_uygula.py:543`) 8 kaydın hiçbirinde ötmez",
+      "mazeret": "🔴 MAZERET YOK. `1517-05-19` çekirdekte 0 gün uzaklıkta ve KONUSU birebir («İskenderiye'nin donanmayla teslim alınması — Mısır fethinin tamamlanması»). Ötüyorsa kapıyı yanlış okumuşumdur.",
+      "nereden": "`girdi._cevir` ile çekirdek taraması (birim: MADDE / GÜN uzaklığı)",
+      "hangi_kosuda": "yama üretilirken, ayrıca doğrulanır"
+    },
+    {
+      "no": "⑥",
+      "ne": "Bu yama YENİ bir kırılma günü DOĞURMAZ",
+      "mazeret": "🔴 MAZERET YOK. `1517-05-19` zaten kırılma günü — Sellûm ve Mersâ Matruh (memlük, Mısır kıyısı) onu kullanıyor.",
+      "nereden": "canlı veride `1517-05-19` uçlu dönem sayımı (birim: KAYIT)",
+      "hangi_kosuda": "yama üretilirken"
+    },
+    {
+      "no": "⑦",
+      "ne": "`1551-08-15` günü ÇEKİRDEKTE kırılma olarak KALIR — Değişmez 2'de yeni açık doğmaz",
+      "mazeret": "🔴 MAZERET YOK. Trablus ve BATI 9 o günü kullanmaya devam ediyor; bu 8 kayıttan kalkması günü öksüz bırakmamalı.",
+      "nereden": "canlı veride `1551-08-15` uçlu dönem sayımı, 8 kayıt ÇIKARILDIKTAN sonra (birim: KAYIT)",
+      "hangi_kosuda": "yama üretilirken"
+    }
+  ],
+  "🔴_KAYNAK_DAYANAGI_ONCEDEN": {
+    "secilen_ihtimal": "Ⓐ — Memlük sonrası doğrudan Osmanlı",
+    "niye": "İKİ BAĞIMSIZ TDV gövdesi aynı şeyi söylüyor: `berka` «Tarih boyunca Mısır'a bağımlı olduğu görülen Berka bölgesi, Mısır'ın Osmanlılar tarafından fethinden sonra bu idareye bağlandı» · `libya` «Bingazi, Mısır'ın Osmanlı Devleti'ne bağlanmasının ardından KENDİLİĞİNDEN kontrol altına girmişti.»",
+    "Ⓑ_neden_elendi": "`berka` gövdesinde 16. yüzyıla ait TEK BİR egemenlik cümlesi YOK (ölçüldü: yüklem+yıl süzgeci 0 sonuç). Üçüncü bir kimlik adlandıran hiçbir cümle bulunamadı.",
+    "Ⓒ_neden_elendi": "Kaynak SUSMUYOR — iki gövde de konuşuyor. `veri-yok` damgası ancak kaynak sustuğunda yazılır (`§11` Çukotka/Yakut ayrımı).",
+    "1551_ve_1578_ne_oluyor": "İkisi de OSMANLI İÇİ bir idarî devirdir, ilk hâkimiyet değil: `bingazi` «1551 Trablusgarp seferi sırasında Berka bölgesinin Osmanlı hâkimiyetine girmesinden sonra Bingazi de KESİN OLARAK Osmanlı yönetimine katıldı (1578)» — yani Mısır eyaletinden Trablusgarp eyaletine geçiş. Atlas eyalet sınırı çizmiyor, SAHİPLİK çiziyor ⇒ sahip 1517'den beri aynı.",
+    "1517-05-19_niye_1517-04-13_degil": "Kaynak «MISIR'IN FETHİNDEN sonra» diyor, «Memlük Devleti'nin sonundan» değil. Ve komşu Mısır kıyısı noktaları (Sellûm 127,9 km, Mersâ Matruh) ZATEN `1517-05-19` kullanıyor. Komşusuyla aynı günü kullanmak, kendi günümü seçmekten dayanaklıdır."
+  }
+}

@@ -95,9 +95,9 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
     kur:"1764-01-01",
     s:[{f:"1764-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
 
-  { ad:"Şefşâven", tur:"sehir", lat:35.171, lon:-5.269, g:0, k:3, m:null,
+  { ad:"Şefşâven",neden:"1923-10-29 kesitini ETKİLEMİYOR (olay 1924-1926 arası) — kayıt tamlık için, atlas ufkunun dışı için eklendi.",kaynak:"islamansiklopedisi'de bu tanecik yok; Wikipedia '1924 retreat from Chaoen' — İspanyol tahliyesi 15 Kasım 1924 gecesi. Rif Cumhuriyeti'nin resmî sonu (27 Mayıs 1926) kendi künyesinden.", tur:"sehir", lat:35.171, lon:-5.269, g:0, k:3, m:null,
     kur:"1471-01-01",
-    s:[{f:"1471-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1923-10-29",d:"fas"}], d:[], v:[] },
+    s:[{f:"1471-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1924-11-15",d:"fas"},{f:"1924-11-15",t:"1926-05-27",d:"rif-cumhuriyeti"},{f:"1926-05-27",t:"9999-01-01",d:"fas"}], d:[], v:[] },
 
   // Vezzâniyye zâviyesinin merkezi. Kuruluş yılı için güvenilir tarih
   // BULUNAMADI ⇒ `kur` HİÇ YAZILMADI (`VERI-YAPISI.md`: "Bilinmiyorsa alanı
@@ -321,61 +321,52 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   // ⚠️ Konum 37,166/10,190'dan taşındı: `denetle.konum_denetimi` noktayı
   // kara maskesinin 1,19 km DIŞINDA buldu — Ğâru'l-Melh gölünün üstüne
   // düşüyordu. Maskenin gösterdiği en yakın kara noktası kullanıldı.
-  { ad:"Ğâru'l-Melh (Porto Farina)", tur:"liman", lat:37.177, lon:10.191, g:0, k:4, m:"Tunus",
-    s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},
-       {f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+  { ad:"Ğâru'l-Melh (Porto Farina)",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"liman", lat:37.177, lon:10.191, g:0, k:4, m:"Tunus",
+    s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
     d:[{f:"1574-08-25",t:"1705-07-17"}],
-    v:[{f:"1705-07-17",t:"1881-05-12",k:"Tunus Ocaklığı (Hüseynîler)"}] },
+    v:[{f:"1705-07-17",t:"1923-10-29"}] },
 
   // 1609 Endülüs sürgünlerinin kurduğu Mecerde vadisi kasabası.
-  { ad:"Testûr", tur:"sehir", lat:36.556, lon:9.442, g:0, k:4, m:"Tunus",
-    s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},
-       {f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+  { ad:"Testûr",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:36.556, lon:9.442, g:0, k:4, m:"Tunus",
+    s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
     d:[{f:"1574-08-25",t:"1705-07-17"}],
-    v:[{f:"1705-07-17",t:"1881-05-12",k:"Tunus Ocaklığı (Hüseynîler)"}] },
+    v:[{f:"1705-07-17",t:"1923-10-29"}] },
 
-  { ad:"Ğar Dimâv", tur:"sehir", lat:36.450, lon:8.435, g:0, k:4, m:"Tunus",
-    s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},
-       {f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+  { ad:"Ğar Dimâv",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:36.450, lon:8.435, g:0, k:4, m:"Tunus",
+    s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
     d:[{f:"1574-08-25",t:"1705-07-17"}],
-    v:[{f:"1705-07-17",t:"1881-05-12",k:"Tunus Ocaklığı (Hüseynîler)"}] },
+    v:[{f:"1705-07-17",t:"1923-10-29"}] },
 
-  { ad:"Mekter (Maktar)", tur:"sehir", lat:35.855, lon:9.203, g:0, k:4, m:"Tunus",
-    s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},
-       {f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+  { ad:"Mekter (Maktar)",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:35.855, lon:9.203, g:0, k:4, m:"Tunus",
+    s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
     d:[{f:"1574-08-25",t:"1705-07-17"}],
-    v:[{f:"1705-07-17",t:"1881-05-12",k:"Tunus Ocaklığı (Hüseynîler)"}] },
+    v:[{f:"1705-07-17",t:"1923-10-29"}] },
 
-  { ad:"Sübaytıla", tur:"sehir", lat:35.235, lon:9.120, g:0, k:4, m:"Tunus",
-    s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},
-       {f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+  { ad:"Sübaytıla",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:35.235, lon:9.120, g:0, k:4, m:"Tunus",
+    s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
     d:[{f:"1574-08-25",t:"1705-07-17"}],
-    v:[{f:"1705-07-17",t:"1881-05-12",k:"Tunus Ocaklığı (Hüseynîler)"}] },
+    v:[{f:"1705-07-17",t:"1923-10-29"}] },
 
-  { ad:"Sîdî Bû Zeyd", tur:"sehir", lat:35.038, lon:9.485, g:0, k:4, m:"Tunus",
-    s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},
-       {f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+  { ad:"Sîdî Bû Zeyd",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:35.038, lon:9.485, g:0, k:4, m:"Tunus",
+    s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
     d:[{f:"1574-08-25",t:"1705-07-17"}],
-    v:[{f:"1705-07-17",t:"1881-05-12",k:"Tunus Ocaklığı (Hüseynîler)"}] },
+    v:[{f:"1705-07-17",t:"1923-10-29"}] },
 
-  { ad:"Metlâvî", tur:"sehir", lat:34.320, lon:8.400, g:0, k:4, m:"Tunus",
-    s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},
-       {f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+  { ad:"Metlâvî",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:34.320, lon:8.400, g:0, k:4, m:"Tunus",
+    s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
     d:[{f:"1574-08-25",t:"1705-07-17"}],
-    v:[{f:"1705-07-17",t:"1881-05-12",k:"Tunus Ocaklığı (Hüseynîler)"}] },
+    v:[{f:"1705-07-17",t:"1923-10-29"}] },
 
   // Nefzâve vahaları — Şott el-Cerîd'in güney kıyısı, noktasızdı.
-  { ad:"Kıbillî (Nefzâve)", tur:"sehir", lat:33.704, lon:8.969, g:0, k:4, m:"Tunus",
-    s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},
-       {f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+  { ad:"Kıbillî (Nefzâve)",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:33.704, lon:8.969, g:0, k:4, m:"Tunus",
+    s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
     d:[{f:"1574-08-25",t:"1705-07-17"}],
-    v:[{f:"1705-07-17",t:"1881-05-12",k:"Tunus Ocaklığı (Hüseynîler)"}] },
+    v:[{f:"1705-07-17",t:"1923-10-29"}] },
 
-  { ad:"Dûz", tur:"sehir", lat:33.466, lon:9.020, g:0, k:4, m:"Tunus",
-    s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"},
-       {f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+  { ad:"Dûz",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:33.466, lon:9.020, g:0, k:4, m:"Tunus",
+    s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
     d:[{f:"1574-08-25",t:"1705-07-17"}],
-    v:[{f:"1705-07-17",t:"1881-05-12",k:"Tunus Ocaklığı (Hüseynîler)"}] },
+    v:[{f:"1705-07-17",t:"1923-10-29"}] },
 
 
   // ---------------------------------------------------------------------
@@ -416,15 +407,13 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
     v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
 
   // Cufre vahaları — Sokna'nın (29,070/15,792) doğu komşusu.
-  { ad:"Vaddân (Cufre)", tur:"sehir", lat:29.161, lon:16.139, g:0, k:4, m:"Trablus",
-    s:[{f:"1281-01-01",t:"1577-01-01",d:"hafsi"},
-       {f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+  { ad:"Vaddân (Cufre)",kaynak:"fizan", tur:"sehir", lat:29.161, lon:16.139, g:0, k:4, m:"Trablus",
+    s:[{f:"1281-01-01",t:"1577-01-01",d:"kanem-bornu"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
     d:[{f:"1577-01-01",t:"1711-03-01"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
 
-  { ad:"Zilla (Zella)", tur:"bolge", lat:28.556, lon:17.532, g:0, k:4, m:"Trablus",
-    s:[{f:"1281-01-01",t:"1577-01-01",d:"hafsi"},
-       {f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+  { ad:"Zilla (Zella)",kaynak:"fizan", tur:"bolge", lat:28.556, lon:17.532, g:0, k:4, m:"Trablus",
+    s:[{f:"1281-01-01",t:"1577-01-01",d:"kanem-bornu"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
     d:[{f:"1577-01-01",t:"1711-03-01"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
 
@@ -436,17 +425,15 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
     d:[{f:"1551-08-15",t:"1711-03-01"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
 
-  { ad:"Merâde", tur:"bolge", lat:29.230, lon:19.213, g:0, k:4, m:"Bingazi",
-    s:[{f:"1281-01-01",t:"1577-01-01",d:"hafsi"},
-       {f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+  { ad:"Merâde",kaynak:"fizan", tur:"bolge", lat:29.230, lon:19.213, g:0, k:4, m:"Bingazi",
+    s:[{f:"1281-01-01",t:"1577-01-01",d:"kanem-bornu"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
     d:[{f:"1577-01-01",t:"1711-03-01"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
 
   // Cebeliahdar'ın kuzey kıyısı (Batlamyus/Tolmeita).
   { ad:"Tulmeyse", tur:"liman", lat:32.712, lon:20.951, g:0, k:4, m:"Bingazi",
-    s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},
-       {f:"1912-10-18",t:"1923-10-29",d:"italya"}],
-    d:[{f:"1551-08-15",t:"1711-03-01"},{f:"1835-05-26",t:"1912-10-18"}],
+    s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+    d:[{f:"1517-05-19",t:"1711-03-01"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
 
   // ⚠️ Konum taşındı — ilk yazım (32,507/23,117) Bomba körfezinin suyuna,
@@ -455,9 +442,8 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   // 📌 Ders: maskenin verdiği "en yakın kara" noktası GÜVENLİ nokta değildir
   //    — tanımı gereği tam sınırın üstündedir. Denetim iki kez koşturuldu.
   { ad:"Ayn el-Ğazâle (Bomba)", tur:"liman", lat:32.495, lon:23.120, g:0, k:4, m:"Bingazi",
-    s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},
-       {f:"1912-10-18",t:"1923-10-29",d:"italya"}],
-    d:[{f:"1551-08-15",t:"1711-03-01"},{f:"1835-05-26",t:"1912-10-18"}],
+    s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+    d:[{f:"1517-05-19",t:"1711-03-01"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
 
 
@@ -468,24 +454,21 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   // ---------------------------------------------------------------------
 
   // Murzuk'tan önceki Fizan başkenti.
-  { ad:"Tırgan (Traghan)", tur:"sehir", lat:26.130, lon:14.470, g:0, k:4, m:"Murzuk (Fizan)",
-    s:[{f:"1281-01-01",t:"1577-01-01",d:"hafsi"},
-       {f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+  { ad:"Tırgan (Traghan)",kaynak:"fizan", tur:"sehir", lat:26.130, lon:14.470, g:0, k:4, m:"Murzuk (Fizan)",
+    s:[{f:"1281-01-01",t:"1577-01-01",d:"kanem-bornu"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
     d:[{f:"1577-01-01",t:"1711-03-01",y:"vassal"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
 
   // Benî Hattâb'ın eski merkezi; TDV `fizan` maddesinde Evlâd-ı
   // Muhammed'in ilk yerleştiği yer olarak geçer.
-  { ad:"Zevîle (Zawila)", tur:"sehir", lat:26.170, lon:15.113, g:0, k:4, m:"Murzuk (Fizan)",
-    s:[{f:"1281-01-01",t:"1577-01-01",d:"hafsi"},
-       {f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+  { ad:"Zevîle (Zawila)",kaynak:"fizan", tur:"sehir", lat:26.170, lon:15.113, g:0, k:4, m:"Murzuk (Fizan)",
+    s:[{f:"1281-01-01",t:"1577-01-01",d:"kanem-bornu"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
     d:[{f:"1577-01-01",t:"1711-03-01",y:"vassal"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
 
   // Fizan'ın güney kapısı — Bornu kervan yolunun ilk menzili.
-  { ad:"el-Katrûn", tur:"sehir", lat:24.919, lon:14.647, g:0, k:4, m:"Murzuk (Fizan)",
-    s:[{f:"1281-01-01",t:"1577-01-01",d:"hafsi"},
-       {f:"1912-10-18",t:"1923-10-29",d:"italya"}],
+  { ad:"el-Katrûn",kaynak:"fizan", tur:"sehir", lat:24.919, lon:14.647, g:0, k:4, m:"Murzuk (Fizan)",
+    s:[{f:"1281-01-01",t:"1577-01-01",d:"kanem-bornu"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
     d:[{f:"1577-01-01",t:"1711-03-01",y:"vassal"},{f:"1835-05-26",t:"1912-10-18"}],
     v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
 

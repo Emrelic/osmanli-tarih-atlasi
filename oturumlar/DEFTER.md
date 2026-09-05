@@ -90,6 +90,7 @@ Ad ne tekildir ne kararlı — bir günde üç zarar bundan doğdu:
 | ❔ — | CLAUDEMRE | — | ❓ | — | — | — | `local_0fea5375-313a-4f0c-8db6-61d2f3462ef4` |
 | ❔ — | GUI GELİŞTİRME | — | ❓ | — | — | — | `local_ded0729e-7d63-47fb-8223-d9ea4520155e` |
 | ❔ — | HAZIR KITA 6 | BOSTA — 33 saat gorevsiz | opus | hazir-kita | -  🔴 DOSYA YOK | - | `local_dc1f5720-f6a1-4891-a08a-e22c1fe02da4` |
+| ❔ — | HÜKÜM ALANI | — | ❓ | gorevde | — | — | `local_dd072f52-ceaf-411e-af3b-0d559226b3ce` |
 | ❔ — | KAYNAK | — | ❓ | — | — | — | `local_2cecfda0-c48a-4865-88e1-922ff00b5c40` |
 | ❔ — | KORIDOR SEMA | koridor agi · m: ve kd: alanlari | ? | gorevde | oturumlar/KORIDOR-SEMA.md | data/koridor.js · yerlesimler m:/kd: | `local_454b8342-eab4-4222-8e29-acea08aade74` |
 | ❔ — | KRONOLOJİ AFRİKA GÖVDE | — | ❓ | gorevde | — | — | `local_8aae7ac2-1d69-49dd-8bf7-5908724bae6c` |

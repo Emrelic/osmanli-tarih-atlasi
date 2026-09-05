@@ -1,0 +1,286 @@
+{
+  "_NOT": "`v:` `k:` alanindaki serbest metin degerleri icin KANON ONERISI. Sevk 1.MURAT M-2924. Oturum NEHIR SURTUNME, 5 Eylul 2026. 🔴 HUKUM YOK, ONERI — `k:` alanina DOKUNULMADI (`data/*.js` DONUK, kosu 5b canli).",
+  "_NORMALLESTIRICI_OLCUMU": {
+    "arac": "denetim/ARAC-NORMAL-0903.py (ICE AKTARILDI, kopyalanmadi)",
+    "cozdugu_kume": 0,
+    "hukum": "🔴 Normallestirici bu kumede 0 kume cozuyor. Degerler farkli YAZIMLAR degil farkli KELIMELER — is tamamen ESANLAM isi. Bu, `CLAUDE.md`de borc olarak duran `data/ad_esanlam.js` sozlugunun `v:` yuzudur.",
+    "ornek": "`Kavalali hanedani` ile `Misir (Kavalali)` ayni polity ama tek ortak kelimeleri bile normallestirmeyle eslesmiyor — `Diyarbekir/Diyarbakir` ile AYNI SINIF."
+  },
+  "_KOVALAR": {
+    "kunyeye_cozulen": {
+      "deger": 19,
+      "donem": 337,
+      "kunye": 13
+    },
+    "polity_ama_supheli": {
+      "deger": 16,
+      "donem": 55
+    },
+    "polity_degil": {
+      "deger": 7,
+      "donem": 31
+    },
+    "siniflanmayan": {
+      "deger": 0,
+      "donem": 0,
+      "degerler": []
+    }
+  },
+  "kanon_onerisi": [
+    {
+      "kunye_id": "misir-kavalali",
+      "kunye_ad": "Mısır Kavalalı Hanedanı",
+      "kanonik_dizgi": "Mısır Kavalalı Hanedanı",
+      "bugunku_yazimlar": [
+        "Mısır (Kavalalı)",
+        "Kavalalı hanedanı",
+        "Mısır (İbrâhim Paşa)",
+        "Mısır ordusu (işgal)",
+        "Mısır valiliği (Kavalalı hanedanı)",
+        "Mısır Hidivliği"
+      ],
+      "donem": 168,
+      "mukerrer_yazim": true
+    },
+    {
+      "kunye_id": "cezayir-ocagi",
+      "kunye_ad": "Cezayir Ocağı",
+      "kanonik_dizgi": "Cezayir Ocağı",
+      "bugunku_yazimlar": [
+        "Cezayir Ocaklığı (dayı idaresi)"
+      ],
+      "donem": 41,
+      "mukerrer_yazim": false
+    },
+    {
+      "kunye_id": "trablusgarp-ocagi",
+      "kunye_ad": "Trablusgarp Ocağı (Karamanlı Hanedanı)",
+      "kanonik_dizgi": "Trablusgarp Ocağı (Karamanlı Hanedanı)",
+      "bugunku_yazimlar": [
+        "Trablusgarp Ocaklığı (Karamanlılar)"
+      ],
+      "donem": 39,
+      "mukerrer_yazim": false
+    },
+    {
+      "kunye_id": "tunus-ocagi",
+      "kunye_ad": "Tunus Ocağı (Hüseynî Hanedanı)",
+      "kanonik_dizgi": "Tunus Ocağı (Hüseynî Hanedanı)",
+      "bugunku_yazimlar": [
+        "Tunus Ocaklığı (Hüseynîler)"
+      ],
+      "donem": 36,
+      "mukerrer_yazim": false
+    },
+    {
+      "kunye_id": "eflak",
+      "kunye_ad": "Eflak Voyvodalığı (Wallachia)",
+      "kanonik_dizgi": "Eflak Voyvodalığı (Wallachia)",
+      "bugunku_yazimlar": [
+        "Eflak Voyvodalığı"
+      ],
+      "donem": 16,
+      "mukerrer_yazim": false
+    },
+    {
+      "kunye_id": "bogdan",
+      "kunye_ad": "Boğdan Voyvodalığı (Moldavia)",
+      "kanonik_dizgi": "Boğdan Voyvodalığı (Moldavia)",
+      "bugunku_yazimlar": [
+        "Boğdan Voyvodalığı",
+        "Boğdan Voyvodalığı (Osmanlı tâbii)"
+      ],
+      "donem": 14,
+      "mukerrer_yazim": true
+    },
+    {
+      "kunye_id": "bulgaristan-prensligi",
+      "kunye_ad": "Bulgaristan Prensliği",
+      "kanonik_dizgi": "Bulgaristan Prensliği",
+      "bugunku_yazimlar": [
+        "Bulgaristan Prensliği"
+      ],
+      "donem": 7,
+      "mukerrer_yazim": false
+    },
+    {
+      "kunye_id": "kirim",
+      "kunye_ad": "Kırım Hanlığı",
+      "kanonik_dizgi": "Kırım Hanlığı",
+      "bugunku_yazimlar": [
+        "Kırım Hanlığı"
+      ],
+      "donem": 6,
+      "mukerrer_yazim": false
+    },
+    {
+      "kunye_id": "erdel",
+      "kunye_ad": "Erdel Prensliği (Transilvanya)",
+      "kanonik_dizgi": "Erdel Prensliği (Transilvanya)",
+      "bugunku_yazimlar": [
+        "Erdel Prensliği"
+      ],
+      "donem": 3,
+      "mukerrer_yazim": false
+    },
+    {
+      "kunye_id": "sarki-rumeli",
+      "kunye_ad": "Şarkî Rumeli Vilayeti (Özerk)",
+      "kanonik_dizgi": "Şarkî Rumeli Vilayeti (Özerk)",
+      "bugunku_yazimlar": [
+        "Şarkî Rumeli vilâyeti"
+      ],
+      "donem": 3,
+      "mukerrer_yazim": false
+    },
+    {
+      "kunye_id": "haciemir",
+      "kunye_ad": "Hacıemîroğulları (Bayramlı/Ordu)",
+      "kanonik_dizgi": "Hacıemîroğulları (Bayramlı/Ordu)",
+      "bugunku_yazimlar": [
+        "Hacıemîroğulları Beyliği (Osmanlı tâbii)"
+      ],
+      "donem": 2,
+      "mukerrer_yazim": false
+    },
+    {
+      "kunye_id": "imereti",
+      "kunye_ad": "İmereti Krallığı",
+      "kanonik_dizgi": "İmereti Krallığı",
+      "bugunku_yazimlar": [
+        "İmereti krallığı (tâbi)"
+      ],
+      "donem": 1,
+      "mukerrer_yazim": false
+    },
+    {
+      "kunye_id": "dubrovnik",
+      "kunye_ad": "Dubrovnik (Ragusa) Cumhuriyeti",
+      "kanonik_dizgi": "Dubrovnik (Ragusa) Cumhuriyeti",
+      "bugunku_yazimlar": [
+        "Dubrovnik Cumhuriyeti (haraçgüzâr)"
+      ],
+      "donem": 1,
+      "mukerrer_yazim": false
+    }
+  ],
+  "polity_ama_supheli": [
+    {
+      "deger": "Ahmed Bey'in Konstantin beyliği",
+      "donem": 11,
+      "sebep": "kunye ARANMADI"
+    },
+    {
+      "deger": "Mekke Şerifliği",
+      "donem": 9,
+      "sebep": "kunye ARANMADI"
+    },
+    {
+      "deger": "Sırbistan Prensliği",
+      "donem": 5,
+      "sebep": "19.yy prensligi — `sirbistan-nemanjic` YANLIS"
+    },
+    {
+      "deger": "Macaristan (Zapolya vasal krallığı)",
+      "donem": 5,
+      "sebep": "`macaristan` mi, ayri mi?"
+    },
+    {
+      "deger": "Ahmed Bey'in Konstantin beyliği (Osmanlı adına)",
+      "donem": 5,
+      "sebep": "ayni, ikinci yazim"
+    },
+    {
+      "deger": "Orta Macar Krallığı (Tököli İmre)",
+      "donem": 5,
+      "sebep": "kunye ARANMADI"
+    },
+    {
+      "deger": "Dejanović Prensliği (Kostadin-ili)",
+      "donem": 4,
+      "sebep": "kunye ARANMADI"
+    },
+    {
+      "deger": "Boğdan Voyvodalığı (Cenûbî Besarabya — Paris Antlaşması'yla Boğdan'a geri verildi, Berlin Antlaşması'yla tekrar Rusya'ya)",
+      "donem": 3,
+      "sebep": "Bogdan'in bir PARCASI — ayri kimlik mi, ayni mi? Ve metin bir OLAY ZINCIRI anlatiyor, bir kimlik degil."
+    },
+    {
+      "deger": "Orta Macar Krallığı — Ilona Zrínyi'nin Munkács savunması",
+      "donem": 1,
+      "sebep": "ayni, ikinci yazim"
+    },
+    {
+      "deger": "Crnojeviç Zetası (Osmanlı tâbii)",
+      "donem": 1,
+      "sebep": "kunye ARANMADI"
+    },
+    {
+      "deger": "Kumuk şamhallığı (tâbi)",
+      "donem": 1,
+      "sebep": "kunye ARANMADI"
+    },
+    {
+      "deger": "Kaheti krallığı (tâbi)",
+      "donem": 1,
+      "sebep": "kunye ARANMADI"
+    },
+    {
+      "deger": "Sabah emirliği (Osmanlı himayesinde)",
+      "donem": 1,
+      "sebep": "kunye ARANMADI"
+    },
+    {
+      "deger": "Sabah emirliği (Osmanlı kazâsı)",
+      "donem": 1,
+      "sebep": "ayni, ikinci yazim"
+    },
+    {
+      "deger": "Sânî emirliği (Osmanlı kazâsı)",
+      "donem": 1,
+      "sebep": "kunye ARANMADI"
+    },
+    {
+      "deger": "eski Memlûk beyleri (Osmanlı desteğiyle)",
+      "donem": 1,
+      "sebep": "bir POLITY mi bir GRUP mu — SUPHELI"
+    }
+  ],
+  "polity_degil_KANONLASTIRILMAZ": [
+    {
+      "deger": "Osmanlı hükümranlık iddiası (ocaklık lağvedildi)",
+      "donem": 11
+    },
+    {
+      "deger": "(BOS)",
+      "donem": 9
+    },
+    {
+      "deger": "Sahra vahalarının özerk idaresi",
+      "donem": 6
+    },
+    {
+      "deger": "Kabiliye'nin fiilî özerkliği",
+      "donem": 2
+    },
+    {
+      "deger": "manastır harâcı",
+      "donem": 1
+    },
+    {
+      "deger": "Arvanid sancağı — nominal tâbiiyet",
+      "donem": 1
+    },
+    {
+      "deger": "Arvanid sancağı — nominal tâbiiyet, KESİN hâkimiyet yok",
+      "donem": 1
+    }
+  ],
+  "_SINIRLAR": {
+    "esanlam_haritasi_ELLE": "🔴 Yukaridaki `kanon_onerisi` bir OLCUM DEGIL, ELLE kurulmus bir haritadir. Her satir insan gozuyle bakilarak baglandi; bir alet uretmedi.",
+    "kunye_dogrulamasi": "`kunye_ad` alani `devletler.js`ten OKUNDU (tahmin degil). '🔴 KUNYE YOK' yazanlar gercekten yok.",
+    "supheli_kovasi_ARASTIRILMADI": "16 degerin kunyesi ARANMADI — butce. `Sirbistan Prensligi` ozellikle riskli: kaba eslemem onu `sirbistan-nemanjic`e bagliyordu ve o hanedan 1371'de bitti.",
+    "durum_kovasi_TASARIM_SORUSU": "Bu 7 deger kanonlastirilamaz cunku polity degiller. Ⓐ sikki secilirse bunlar icin NE yazilacagi hala cevapsiz.",
+    "🔴_SERBEST_METIN_IKI_SEY_TASIYOR": "En sik kume bunu acikca gosteriyor: `Misir (Kavalali)` bir KIMLIK, `Misir ordusu (isgal)` ve `Misir (Ibrahim Pasa)` ayni kimligin bir DURUMUNU anlatiyor (1832-1841 Suriye/Anadolu isgali). Kanonlastirma kimligi kurtarir ama DURUMU SILER. ⇒ Bir alan iki sey tasiyorsa, onu tek bir alana cevirmek kaybettirir. Ayni sey `(Osmanli tabii)` · `(tabi)` · `(haracguzar)` · `(Osmanli kazasi)` eklerinde de var: bunlar TABIIYETIN CINSINI soyluyor ve `v:`nin kendisi bunu ifade edemiyor. 🔴 BU BIR ONERI DEGIL, BIR OLCUM: kanonlastirma yapilacaksa bu bilginin NEREYE gidecegi onceden kararlastirilmali."
+  }
+}

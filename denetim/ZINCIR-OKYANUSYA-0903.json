@@ -1,0 +1,1833 @@
+{
+ "_": "OKYANUSYA ZINCIR HAZIRLIGI - DUNYA-OKYANUSYA-0903 - 3 Eylul 2026",
+ "_hedef_dosya": "data/yerlesimler_okyanusya.js",
+ "_ad_alani": "window.YERLESIMLER_OKYANUSYA",
+ "_model": "ingiltere[kur..1901-01-01] -> avustralya[1901-01-01..1923-10-29]",
+ "_uyari": "Kosu canliyken data/ DONUK. Bu dosya denetim/ altindadir ve VERI DEGILDIR. Indirme islemi koordinatorde (M-2411).",
+ "_kur_secimi_KARAR_BEKLIYOR": "Bir kasabanin TEK kurulus tarihi yok (kesif / parsel / rezerv ilan / olcum / demiryolu). Onerim: en erken KALICI YERLESIM olayi, gerekce CLAUDE.md §2 emilme kurali. Koordinator karari beklenirken TUM aday tarihler 'aday_tarihler' alaninda saklandi.",
+ "dogrulanmis": [
+  {
+   "ad": "Noumea (Yeni Kaledonya)",
+   "tur": "sehir",
+   "lat": -22.27,
+   "lon": 166.44,
+   "kur": "1854-01-01",
+   "s": [
+    {
+     "f": "1854-01-01",
+     "t": "1923-10-29",
+     "d": "fransa-cumhuriyet"
+    }
+   ],
+   "kaynak": "Encyclopaedia Britannica, 'New Caledonia: History' ve 'Nouméa'; ayrıca Journal de la Société des Océanistes, 'Chronologie de Kanaky Nouvelle-Calédonie (1774-2018)' (hakemli): \"on 24 September 1853, France took possession of 'Grande Terre'\"; Noumea 1854'te Port-de-France adıyla kuruldu. ⚠️ `fransa` künyesi 1792'de bittiği için `fransa-cumhuriyet` kullanıldı — `fransa` yazılsaydı HAYALET olurdu.",
+   "aday_tarihler": "1853-09-24 Fransa Grande Terre'i aldı (Balade ve Île des Pins) · 1854 Noumea 'Port-de-France' adıyla kuruldu",
+   "dogrulandi": true,
+   "kur_secimi": "PASIFIK — zinciri Avustralya deseninden FARKLI, mevcut atlasin kendi desenleri esas alindi"
+  },
+  {
+   "ad": "Tulagi",
+   "tur": "sehir",
+   "lat": -9.0938,
+   "lon": 160.1497,
+   "kur": "1893-01-01",
+   "s": [
+    {
+     "f": "1893-01-01",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "kaynak": "Encyclopaedia Britannica, 'Solomon Islands: History' ve 'Tulagi'; ayrıca Judith Bennett, 'Wealth of the Solomons: a history of trade, plantations and society, Solomon Islands, c.1800-1942' (ANU Open Research): protektora 1893'te ilan edildi, Tulagi 1893'ten itibaren idarî merkezdi.",
+   "aday_tarihler": "1893 İngiliz Solomon Adaları Protektorası ilan edildi; Tulagi o tarihten itibaren idarî merkez",
+   "dogrulandi": true,
+   "kur_secimi": "PASIFIK — zinciri Avustralya deseninden FARKLI, mevcut atlasin kendi desenleri esas alindi"
+  },
+  {
+   "ad": "Gizo",
+   "tur": "sehir",
+   "lat": -8.1014,
+   "lon": 156.8364,
+   "kur": "1893-01-01",
+   "s": [
+    {
+     "f": "1893-01-01",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "kaynak": "Encyclopaedia Britannica, 'Solomon Islands: History' + Bennett (ANU): İngiliz Solomon Adaları Protektorası 1893. ⚠️ Gizo'nun KENDİ kuruluş yılı ayrıca doğrulanamadı; protektora tarihi kullanıldı.",
+   "aday_tarihler": "1893 protektora · Gizo batı bölge istasyonu",
+   "dogrulandi": true,
+   "kur_secimi": "PASIFIK — zinciri Avustralya deseninden FARKLI, mevcut atlasin kendi desenleri esas alindi"
+  },
+  {
+   "ad": "Levuka",
+   "tur": "sehir",
+   "lat": -17.6814,
+   "lon": 178.8327,
+   "kur": "1874-10-10",
+   "s": [
+    {
+     "f": "1874-10-10",
+     "t": "1923-10-29",
+     "d": "ingiltere"
+    }
+   ],
+   "kaynak": "Atlasın kendi Suva kaydıyla aynı gün (1874-10-10, Fiji'nin devri) — Encyclopaedia Britannica, 'Fiji: History'. Levuka 1874-1882 arası koloninin ilk başkentiydi.",
+   "aday_tarihler": "1874-10-10 Fiji İngiltere'ye devredildi (Levuka ilk başkent)",
+   "dogrulandi": true,
+   "kur_secimi": "PASIFIK — zinciri Avustralya deseninden FARKLI, mevcut atlasin kendi desenleri esas alindi"
+  },
+  {
+   "ad": "Samarai",
+   "tur": "sehir",
+   "lat": -10.6098,
+   "lon": 150.6833,
+   "kur": "1884-11-06",
+   "s": [
+    {
+     "f": "1884-11-06",
+     "t": "1906-09-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1906-09-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Encyclopaedia Britannica, 'Samarai': \"Samarai Island was visited in 1873 by the British captain John Moresby and purchased by the London Missionary Society in the 1880s. In 1884 Britain annexed the southeastern part of New Guinea where Samarai is located.\" Zincir atlasın kendi Port Moresby kaydıyla aynı (İngiliz Papua -> 1906-09-01 Avustralya).",
+   "aday_tarihler": "1873 John Moresby ziyaret etti · 1880'lerde Londra Misyoner Cemiyeti satın aldı · 1884 İngiltere güneydoğu Yeni Gine'yi ilhak etti",
+   "dogrulandi": true,
+   "kur_secimi": "PASIFIK — zinciri Avustralya deseninden FARKLI, mevcut atlasin kendi desenleri esas alindi"
+  },
+  {
+   "ad": "Herbertshöhe (Kokopo) — Rabaul",
+   "tur": "sehir",
+   "lat": -4.35,
+   "lon": 152.26,
+   "kur": "1884-11-03",
+   "s": [
+    {
+     "f": "1884-11-03",
+     "t": "1914-09-17",
+     "d": "almanya"
+    },
+    {
+     "f": "1914-09-17",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "National Library of Australia, 'German colonies in the Pacific': Almanya 1884'te Kaiser Wilhelmsland ve Bismarck Takımadaları'nı ilhak etti. Australian War Memorial: \"Herbertshohe, later Kokopo, the capital of the Protectorate before the establishment of Rabaul\"; Dr Albert Hahl 1896'da Blanche Bay'deki bu \"primitive little settlement\"e yerleşti. Encyclopaedia Britannica, 'Rabaul': \"Rabaul, the town founded in 1910 as a German colonial headquarters\". 🔴 KOORDİNAT DÜZELTİLDİ: önce Rabaul'a (-4,20/152,18) yazmıştım, ama RABAUL 1910'DA KURULDU — 1884-1910 arasında oradaki yerleşim HERBERTSHÖHE'ydi (bugünkü Kokopo, ~15 km güneydoğu). Nokta ona taşındı. Kuruluş günü atlasın kendi Madang/Finschhafen kayıtlarıyla aynı.",
+   "aday_tarihler": "1884 Alman ilhakı (Kaiser Wilhelmsland + Bismarck Takımadaları) · Herbertshöhe protektoranın başkenti · 1896 Albert Hahl geldiğinde 'ilkel küçük bir yerleşim' · 1910 RABAUL kuruldu ve başkent oldu · 1914-09-17 Avustralya işgali",
+   "dogrulandi": true,
+   "kur_secimi": "PASIFIK — zinciri Avustralya deseninden FARKLI, mevcut atlasin kendi desenleri esas alindi"
+  },
+  {
+   "ad": "Hughenden",
+   "tur": "sehir",
+   "lat": -20.84,
+   "lon": 144.2,
+   "kur": "1877-01-01",
+   "s": [
+    {
+     "f": "1877-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Queensland Places (Centre for the Government of Queensland, University of Queensland), 'Hughenden': \"In 1877 a township was surveyed and named after Henry's pastoral station.\"",
+   "aday_tarihler": "1877 kasaba ölçüldü",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Boulia",
+   "tur": "sehir",
+   "lat": -22.91,
+   "lon": 139.9,
+   "kur": "1879-01-01",
+   "s": [
+    {
+     "f": "1879-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Queensland Places, 'Boulia and Boulia Shire': \"the town of Boulia was established in 1879\".",
+   "aday_tarihler": "1879 kasaba kuruldu",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Normanton",
+   "tur": "sehir",
+   "lat": -17.67,
+   "lon": 141.08,
+   "kur": "1867-01-01",
+   "s": [
+    {
+     "f": "1867-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Queensland Places, 'Normanton': \"by 1867 a European settlement was established on the site of the future Normanton township\"; \"The town was proclaimed in August 1868 and town allotments were put up for sale.\"",
+   "aday_tarihler": "1867 Avrupa yerleşimi · 1868-08 kasaba ilan",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Cairns",
+   "tur": "sehir",
+   "lat": -16.9,
+   "lon": 145.7651,
+   "kur": "1876-01-01",
+   "s": [
+    {
+     "f": "1876-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Queensland Places, 'Cairns': \"a township was proclaimed at the mouth of Trinity Inlet and named after the Governor of Queensland, Sir William Cairns\" (1876); \"The first land sales came in 1877\".",
+   "aday_tarihler": "1876 kasaba ilan · 1877 arazi satışı · 1885 belediye · 1893 kasaba statüsü",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Rockhampton",
+   "tur": "sehir",
+   "lat": -23.38,
+   "lon": 150.51,
+   "kur": "1855-01-01",
+   "s": [
+    {
+     "f": "1855-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Queensland Places, 'Rockhampton': \"Europeans first settled the district in 1855 when Charles and William Archer established Gracemere pastoral station\"; \"Rockhampton was formally proclaimed as both a port and a town in 1858\".",
+   "aday_tarihler": "1855 ilk yerleşim (Gracemere) · 1858 liman+kasaba ilan · 1860 belediye",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Charleville",
+   "tur": "sehir",
+   "lat": -26.4,
+   "lon": 146.24,
+   "kur": "1863-01-01",
+   "s": [
+    {
+     "f": "1863-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Queensland Places, 'Charleville': \"a town reserve of four sq miles gazetted in 1865\"; Gowrie pastoral run 1863'te kuruldu ve \"A hotel was constructed there\"; 1868'de William Tully sokakları ölçtü.",
+   "aday_tarihler": "1863 pastoral run + otel · 1865 kasaba rezervi ilan · 1868 sokaklar ölçüldü",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Longreach",
+   "tur": "sehir",
+   "lat": -23.44,
+   "lon": 144.25,
+   "kur": "1885-01-01",
+   "s": [
+    {
+     "f": "1885-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Queensland Places, 'Longreach': \"In 1885 township lots were sold at a site on the Thomson River\"; \"became Longreach, gazetted as a town in 1887\"; \"The opening of the railway line in 1892\".",
+   "aday_tarihler": "1885 parsel satışı · 1887 kasaba ilan · 1892 demiryolu",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Cloncurry",
+   "tur": "sehir",
+   "lat": -20.7,
+   "lon": 140.51,
+   "kur": "1867-05-01",
+   "s": [
+    {
+     "f": "1867-05-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Queensland Places, 'Cloncurry': \"in May 1867 he found the 'Great Australian' copper ore body south of present day Cloncurry\"; \"in 1876 the Cloncurry Township was surveyed\".",
+   "aday_tarihler": "1867-05 bakır keşfi (madenci kampı) · 1876 kasaba ölçüldü · 1884 izabe",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Winton",
+   "tur": "sehir",
+   "lat": -22.39,
+   "lon": 143.04,
+   "kur": "1876-01-01",
+   "s": [
+    {
+     "f": "1876-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Queensland Places, 'Winton': \"A former police sergeant from Aramac, Robert Allen, opened a hotel/store in 1876 at Pelican Waterhole\"; \"The Winton town reserve was gazetted in 1879.\"",
+   "aday_tarihler": "1876 otel/dükkân (Pelican Waterhole) · 1879 kasaba rezervi ilan",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Cunnamulla",
+   "tur": "sehir",
+   "lat": -28.07,
+   "lon": 145.68,
+   "kur": "1865-01-01",
+   "s": [
+    {
+     "f": "1865-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Queensland Places, 'Cunnamulla': \"The waterhole became a convenient stopping place, on the intersection of stock routes, with a shanty and rudimentary settlement by the mid-1860s\"; \"A town was surveyed and a court house opened by 1869.\"",
+   "aday_tarihler": "1860'ların ortası konaklama yeri · 1869 ölçüm + adliye",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Barcaldine",
+   "tur": "sehir",
+   "lat": -23.55,
+   "lon": 145.29,
+   "kur": "1885-01-01",
+   "s": [
+    {
+     "f": "1885-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Queensland Places, 'Barcaldine and Barcaldine Shire': \"Barcaldine town lots were sold in 1885 and within a year several buildings were under construction\"; \"By the end of 1886 the town had been surveyed and the railway line had reached there\".",
+   "aday_tarihler": "1885 parsel satışı · 1886 ölçüm + demiryolu",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Blackall",
+   "tur": "sehir",
+   "lat": -24.42,
+   "lon": 145.46,
+   "kur": "1867-01-01",
+   "s": [
+    {
+     "f": "1867-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Queensland Places, 'Blackall and Blackall Shire': \"a rudimentary village settlement evident by 1867\"; \"Local government was established in 1879 with the Kargoolnah division\".",
+   "aday_tarihler": "1867 'rudimentary village settlement' · 1879 yerel yönetim (Kargoolnah)",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Croydon",
+   "tur": "sehir",
+   "lat": -18.2,
+   "lon": 142.24,
+   "kur": "1885-01-01",
+   "s": [
+    {
+     "f": "1885-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Queensland Places, 'Croydon and Croydon Shire': \"In 1885 the owners of Croydon Downs discovered gold at the site of the future township\"; \"by 1886 batteries were brought in and installed along with masses of corrugated iron for buildings\". ⚠️ Kaynak resmî kasaba ilan günü VERMİYOR.",
+   "aday_tarihler": "1885 altın keşfi · 1886 bataryalar+binalar · 1887 yerel yönetim · 1892 belediye",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Georgetown",
+   "tur": "sehir",
+   "lat": -18.29,
+   "lon": 143.55,
+   "kur": "1869-01-01",
+   "s": [
+    {
+     "f": "1869-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Queensland Places, 'Georgetown': \"Georgetown began in 1869 as an alluvial gold mining centre, based on the Etheridge River.\"",
+   "aday_tarihler": "1869 alüvyal altın merkezi · 1870 telgraf · 1872 postane+adliye",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Charters Towers",
+   "tur": "sehir",
+   "lat": -20.08,
+   "lon": 146.26,
+   "kur": "1872-01-01",
+   "s": [
+    {
+     "f": "1872-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Queensland Places, 'Charters Towers': \"In January 1872 an Aboriginal youth, Jupiter Mosman, stumbled on gold near Towers Hill\"; \"Charters Towers was made a municipal borough in 1877\".",
+   "aday_tarihler": "1872-01 altın keşfi (Jupiter Mosman) · 1877 belediye · 1882 demiryolu",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Barrow Creek Telgraf İstasyonu",
+   "tur": "sehir",
+   "lat": -21.53,
+   "lon": 133.88,
+   "kur": "1872-01-01",
+   "s": [
+    {
+     "f": "1872-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Northern Territory Government, Parks and Wildlife, 'Barrow Creek Telegraph Station Historical Reserve': istasyon 1872'de inşa edildi; yeri Eylül 1871'de John Ross'un Overland Telegraph keşif kolu tarafından seçildi.",
+   "aday_tarihler": "1871-09 yer seçildi (John Ross kolu) · 1872 inşa",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Tennant Creek Telgraf İstasyonu",
+   "tur": "sehir",
+   "lat": -19.55,
+   "lon": 134.19,
+   "kur": "1872-01-01",
+   "s": [
+    {
+     "f": "1872-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Northern Territory Government, Parks and Wildlife, 'Tennant Creek Telegraph Station Historical Reserve': \"A temporary building for a telegraph repeater station was erected near the watercourse of Tennant Creek, 11km north of the town, in 1872.\" ⚠️ Koordinat İSTASYONUNdur, kasabanın değil (11 km kuzey).",
+   "aday_tarihler": "1872 geçici telgraf tekrarlayıcı istasyonu",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Halls Creek",
+   "tur": "sehir",
+   "lat": -18.23,
+   "lon": 127.67,
+   "kur": "1885-08-01",
+   "s": [
+    {
+     "f": "1885-08-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Western Australian Museum, 'WA Goldfields' ve DPLH inHerit Register of Heritage Places: \"In August 1885, Charles Hall and his partner John Slattery discovered gold in the vicinity of the old Halls Creek townsite\" — WA'nın ilk ödenebilir altını; Kimberley altına hücumu başladı.",
+   "aday_tarihler": "1885-08 altın keşfi (Charles Hall + John Slattery) · bir yılda ~3.000 kişi",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Marble Bar",
+   "tur": "sehir",
+   "lat": -21.17,
+   "lon": 119.75,
+   "kur": "1893-07-13",
+   "s": [
+    {
+     "f": "1893-07-13",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Landgate (WA) / WA Museum: Marble Bar ve Nullagine'de altın 1880'lerde bulundu; \"The Marble Bar townsite was gazetted on 13 July 1893.\"",
+   "aday_tarihler": "1880'ler altın · 1893-07-13 kasaba ilan",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Emerald",
+   "tur": "sehir",
+   "lat": -23.53,
+   "lon": 148.16,
+   "kur": "1878-01-01",
+   "s": [
+    {
+     "f": "1878-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Queensland Places, 'Emerald': \"By 1877 the line reached Blackwater and, in anticipation of a further extension west, the town of Emerald was surveyed in 1878\" — Nogoa Nehri'nin batı yakasına yerleştirildi.",
+   "aday_tarihler": "1877 demiryolu Blackwater'a ulaştı · 1878 kasaba ölçüldü · 1900 istasyon",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Bowen",
+   "tur": "sehir",
+   "lat": -20.01,
+   "lon": 148.25,
+   "kur": "1861-04-01",
+   "s": [
+    {
+     "f": "1861-04-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Queensland Places, 'Bowen': \"in April 1861 the two parties came together for the proclamation of the township\"; \"Named Bowen after the Governor of Queensland, it was the first township north of Rockhampton\"; \"In 1863 Bowen was proclaimed a municipality\".",
+   "aday_tarihler": "1859 Port Denison belirlendi · 1861-04 kasaba ilan · 1863 belediye",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Roma (Queensland)",
+   "tur": "sehir",
+   "lat": -26.57,
+   "lon": 148.79,
+   "kur": "1867-01-01",
+   "s": [
+    {
+     "f": "1867-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Queensland Places, 'Roma': \"The Bungil Creek location, known as Reids Crossing after the shanty's proprietor, Thomas Reid, was chosen for survey, and named Roma after the Queensland Governor's wife, Diamantina Roma Bowen\"; \"Declared a municipality in 1867\". ⚠️ Kaynak ÖLÇÜM YILINI vermiyor; 1867 belediye ilanıdır. ⚠️ AD: atlasta Roma (İtalya) var, ayırt edici sonek ZORUNLU (girdi.py tam dizgi karşılaştırır).",
+   "aday_tarihler": "Reids Crossing'de shanty (Thomas Reid) · ölçüm · 1867 belediye ilan",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Bundaberg",
+   "tur": "sehir",
+   "lat": -24.87,
+   "lon": 152.35,
+   "kur": "1866-01-01",
+   "s": [
+    {
+     "f": "1866-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Queensland Places, 'Bundaberg': \"in 1868 the district surveyor, John Thompson, was instructed to mark out a town reserve on the south bank. It was named Bundaberg\"; ilk Avrupa yerleşimi 1860'ların ortası, Stewart kardeşler 1866'da araziyi aldı.",
+   "aday_tarihler": "1866 Stewart kardeşler arazi aldı · 1868 kasaba rezervi ölçüldü ve adlandırıldı · 1881 belediye · 1913 şehir",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Broken Hill",
+   "tur": "sehir",
+   "lat": -31.96,
+   "lon": 141.47,
+   "kur": "1883-09-05",
+   "s": [
+    {
+     "f": "1883-09-05",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Australian Dictionary of Biography (ANU), 'Charles Rasp': \"On 5 September 1883, Charles Rasp pegged the first block on the 'Broken Hill', which he thought was a mountain of tin\"; Mount Gipps müdürü George McCulloch'un önerisiyle 'syndicate of seven' kuruldu; 1885'te zengin gümüş cevheri Broken Hill Proprietary Co.'nun kurulmasına yol açtı. TAM GÜN kaynakta.",
+   "aday_tarihler": "1883-09-05 Charles Rasp ilk bloğu kazıkladı · 1885 zengin gümüş · BHP kuruldu",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Darwin (Palmerston)",
+   "tur": "sehir",
+   "lat": -12.4577,
+   "lon": 130.8414,
+   "kur": "1869-02-01",
+   "s": [
+    {
+     "f": "1869-02-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Library & Archives NT, 'Surveying Darwin 1869': Güney Avustralya Ölçüm Genel Müdürü G. W. Goyder ve 138 kişilik ekibi Şubat-Eylül 1869 arasında dört kasaba yeri dâhil ~270.000 hektar ölçtü; ana kasaba 'Palmerston' adıyla beş haftada ölçüldü. Adı 1911'de Darwin oldu. ⚠️ 1869-1911 arası adı PALMERSTON'dur — atlas 1923'e kadar geldiği için ikisi de kayıtta.",
+   "aday_tarihler": "1869-02..09 Goyder ölçümü (138 kişi, ~270.000 ha, 4 kasaba yeri) · ana kasaba 5 haftada ölçüldü · 1911 adı Darwin oldu",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Pine Creek",
+   "tur": "sehir",
+   "lat": -13.82,
+   "lon": 131.83,
+   "kur": "1871-01-01",
+   "s": [
+    {
+     "f": "1871-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Library & Archives NT / City of Darwin: \"The town's growth was accelerated when gold was discovered at Pine Creek in 1871.\"",
+   "aday_tarihler": "1871 altın keşfi (Palmerston'un büyümesini hızlandırdı)",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Horsham",
+   "tur": "sehir",
+   "lat": -36.71,
+   "lon": 142.2,
+   "kur": "1842-01-01",
+   "s": [
+    {
+     "f": "1842-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Victorian Places (Monash University ve University of Queensland), 'Horsham': \"In 1842 James Darlot took up occupation of a pastoral run in the district where Horsham was later established\"; \"a town survey plan of 1849 shows the name and Langland's store at the corner of Darlot and Hamilton Streets\"; \"the borough of Horsham was established on 17 November 1882\".",
+   "aday_tarihler": "1842 James Darlot pastoral run · 1849 kasaba ölçüm planı + Langland dükkânı · 1882-11-17 belediye",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Cue",
+   "tur": "sehir",
+   "lat": -27.43,
+   "lon": 117.9,
+   "kur": "1892-01-01",
+   "s": [
+    {
+     "f": "1892-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "DPLH inHerit (Heritage Council of WA, Places Database) / WA Museum: \"Cue was established as a result of a gold find reported by Tom Cue in 1892\"; \"the townsite of Cue was gazetted on 17 August 1893\".",
+   "aday_tarihler": "1892 Tom Cue altın ihbarı · 1893 Progress Committee · 1893-08-17 kasaba ilan",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Southern Cross",
+   "tur": "sehir",
+   "lat": -31.23,
+   "lon": 119.33,
+   "kur": "1888-10-01",
+   "s": [
+    {
+     "f": "1888-10-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "DPLH inHerit (Heritage Council of WA): \"The Yilgarn goldfield had been declared on 1 October 1888 and the townsite of Southern Cross was gazetted in 1890\"; 1892 Eylül'ünde Coolgardie keşfiyle sönmeye başladı.",
+   "aday_tarihler": "1888-10-01 Yilgarn altın sahası ilan · 1888 buluş · 1890 kasaba ilan",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Leonora",
+   "tur": "sehir",
+   "lat": -28.88,
+   "lon": 121.33,
+   "kur": "1897-01-01",
+   "s": [
+    {
+     "f": "1897-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "DPLH inHerit (Heritage Council of WA): \"In 1897, the Mount Margaret Goldfield was gazetted, with a warden's office situated at Malcolm. In the same year a townsite was laid out in Leonora.\"",
+   "aday_tarihler": "1897 Mount Margaret altın sahası ilan · aynı yıl kasaba düzenlendi",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Port Augusta",
+   "tur": "sehir",
+   "lat": -32.49,
+   "lon": 137.77,
+   "kur": "1852-05-24",
+   "s": [
+    {
+     "f": "1852-05-24",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "State Library of South Australia / SA Memory, 'Port Augusta: evolution of a city': \"On 24 May 1852, Port Augusta was proclaimed after erecting a flagstaff on the beach.\" TAM GÜN kaynakta.",
+   "aday_tarihler": "1852-05-24 sahilde bayrak direği dikilerek ilan edildi · 1878 kuzey demiryolu başladı",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Ceduna",
+   "tur": "sehir",
+   "lat": -32.1347,
+   "lon": 133.6739,
+   "kur": "1901-06-20",
+   "s": [
+    {
+     "f": "1901-06-20",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "State Library of South Australia / SA Memory, 'Developing Trade and Port Histories: Outports - Ceduna/Thevenard': kasaba Haziran 1901'de ilan edildi, \"Ceduna was proclaimed on 20 June 1901\"; önceki adı Murat Bay. TAM GÜN.",
+   "aday_tarihler": "1901-06-20 ilan (o zamana kadar Murat Bay olarak biliniyordu)",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Oodnadatta",
+   "tur": "sehir",
+   "lat": -27.55,
+   "lon": 135.45,
+   "kur": "1891-01-01",
+   "s": [
+    {
+     "f": "1891-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "SA Department for Environment and Water, 'Oodnadatta Track Heritage Survey' ve State Library of SA: \"the line north from Port Augusta was started in 1878 and by 1891 it had only reached Oodnadatta\"; demiryolu başı 1901'de Commonwealth devralana kadar orada kaldı.",
+   "aday_tarihler": "1878 Port Augusta'dan kuzey hattı başladı · 1891 demiryolu Oodnadatta'ya ulaştı ve başı orada kaldı",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Kalgoorlie",
+   "tur": "sehir",
+   "lat": -30.75,
+   "lon": 121.47,
+   "kur": "1893-06-01",
+   "s": [
+    {
+     "f": "1893-06-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "DPLH inHerit (Heritage Council of WA) / State Library of WA: \"In June 1893, Paddy Hannan and his partners discovered alluvial gold thirty miles (48 kms) north-east of Coolgardie. On 4 September 1894, Hannan's Find was declared the townsite of Kalgoorlie.\"",
+   "aday_tarihler": "1893-06 Paddy Hannan alüvyal altın buldu · 1894-09-04 Hannan's Find Kalgoorlie kasabası ilan edildi",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Onslow",
+   "tur": "sehir",
+   "lat": -21.6531,
+   "lon": 115.0983,
+   "kur": "1885-01-01",
+   "s": [
+    {
+     "f": "1885-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "DPLH inHerit, 'Old Onslow Townsite' (Register of Heritage Places): \"Onslow (Old Onslow) was gazetted in 1885\"; Yeni Onslow Ocak 1924'te ilan edildi. ⚠️ Koordinat ESKİ Onslow'undur — atlas 1923'e kadar geliyor.",
+   "aday_tarihler": "1885 Eski Onslow kasaba ilan · 1924-01 Yeni Onslow",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Carnarvon",
+   "tur": "sehir",
+   "lat": -24.88,
+   "lon": 113.66,
+   "kur": "1883-01-01",
+   "s": [
+    {
+     "f": "1883-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "DPLH inHerit (Heritage Council of WA): \"The town of Carnarvon was gazetted in January 1883.\"",
+   "aday_tarihler": "1883-01 kasaba ilan",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Broome",
+   "tur": "sehir",
+   "lat": -17.96,
+   "lon": 122.24,
+   "kur": "1883-01-01",
+   "s": [
+    {
+     "f": "1883-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Western Australian Museum, 'Broome' / DPLH inHerit: \"The town of Broome was gazetted in 1883 in response to the expansion of the pastoral and pearling industry in the western Kimberley region.\"",
+   "aday_tarihler": "1883 kasaba ilan — Batı Kimberley'de otlakçılık ve inci sanayiinin genişlemesine karşılık",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Meekatharra",
+   "tur": "sehir",
+   "lat": -26.59,
+   "lon": 118.49,
+   "kur": "1903-01-01",
+   "s": [
+    {
+     "f": "1903-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "DPLH inHerit (Heritage Council of WA), Murchison Goldfields kayıtları: \"A town was not gazetted until 1903\". Komşu Nannine 1893'te, Gabanintha Kasım 1898'de ilan edilmişti.",
+   "aday_tarihler": "1903 kasaba ilan  ⚠️ TAHMİNİM 1894'TÜ, KAYNAK 1903 DİYOR (9 yıl)",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Wagga Wagga",
+   "tur": "sehir",
+   "lat": -35.11,
+   "lon": 147.37,
+   "kur": "1849-01-01",
+   "s": [
+    {
+     "f": "1849-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Encyclopaedia Britannica, 'Wagga Wagga': \"Settled in the 1830s, Wagga Wagga was proclaimed a town in 1849, a borough in 1870, and a city in 1946.\"",
+   "aday_tarihler": "1830'larda yerleşildi · 1849 kasaba ilan · 1870 belediye · 1946 şehir",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Dubbo",
+   "tur": "sehir",
+   "lat": -32.24,
+   "lon": 148.6,
+   "kur": "1841-01-01",
+   "s": [
+    {
+     "f": "1841-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Encyclopaedia Britannica, 'Dubbo': \"The district around what is now Dubbo was visited in 1818 by the explorer John Oxley, and it received its first settlers in 1824. Dubbo, founded in 1841, was an established village by 1849.\" ⚠️ TAHMİNİM 1849'DU, kaynak 1841 diyor.",
+   "aday_tarihler": "1818 Oxley keşfi · 1824 ilk yerleşimciler · 1841 kuruldu · 1849 köy",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Goulburn",
+   "tur": "sehir",
+   "lat": -34.75,
+   "lon": 149.72,
+   "kur": "1818-01-01",
+   "s": [
+    {
+     "f": "1818-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Encyclopaedia Britannica, 'Goulburn': \"A settlement was established on a site chosen in 1818 by the explorer Hamilton Hume and was originally named Goulburn Plains.\" ⚠️ Kaynak kasaba ilan yılını vermiyor; 1818 YER SEÇİMİ tarihidir ve en erken kaynaklı olaydır.",
+   "aday_tarihler": "1818 Hamilton Hume yeri seçti (Goulburn Plains) · sonra kasaba kuruldu",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Armidale",
+   "tur": "sehir",
+   "lat": -30.51,
+   "lon": 151.67,
+   "kur": "1839-01-01",
+   "s": [
+    {
+     "f": "1839-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Encyclopaedia Britannica, 'Armidale': \"Armidale was founded in 1839 by G.J. Macdonald, commissioner of crown lands, who named it for his father's Scottish baronial estate on the Isle of Skye.\"",
+   "aday_tarihler": "1839 G. J. Macdonald (taç toprakları komiseri) kurdu",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Bourke",
+   "tur": "sehir",
+   "lat": -30.09,
+   "lon": 145.94,
+   "kur": "1835-01-01",
+   "s": [
+    {
+     "f": "1835-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Encyclopaedia Britannica, 'Bourke': \"The town originated with a stockade, Fort Bourke, built in 1835 by Sir Thomas Livingstone Mitchell\". ⚠️ 1835 İSTİHKÂM tarihidir; tahminim 1862 (kasaba) idi. En erken kaynaklı kalıcı yerleşim olayı olarak 1835 seçildi.",
+   "aday_tarihler": "1835 Fort Bourke istihkâmı (T. L. Mitchell) · kasaba sonra gelişti",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Geraldton",
+   "tur": "sehir",
+   "lat": -28.77,
+   "lon": 114.61,
+   "kur": "1850-01-01",
+   "s": [
+    {
+     "f": "1850-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Encyclopaedia Britannica, 'Geraldton': \"Surveyed in 1850, Geraldton originated as a military post for the nearby Murchinson goldfield and was declared a town in 1871.\"",
+   "aday_tarihler": "1850 ölçüldü (Murchison altın sahası için askerî karakol) · 1871 kasaba ilan",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Derby",
+   "tur": "sehir",
+   "lat": -17.3,
+   "lon": 123.63,
+   "kur": "1883-01-01",
+   "s": [
+    {
+     "f": "1883-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Encyclopaedia Britannica, 'Derby (Western Australia)': \"Founded in 1883 to serve a pastoral district, Derby was named for Edward Henry Stanley, 15th earl (of Derby).\"",
+   "aday_tarihler": "1883 otlak bölgesine hizmet için kuruldu",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Wyndham",
+   "tur": "sehir",
+   "lat": -15.48,
+   "lon": 128.12,
+   "kur": "1885-01-01",
+   "s": [
+    {
+     "f": "1885-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Encyclopaedia Britannica, 'Wyndham': \"Founded in 1885 as a port for the Kimberley goldfield, it was named for the son of Sir Napier Broome.\" ⚠️ Tahminim 1886'ydı.",
+   "aday_tarihler": "1885 Kimberley altın sahasının limanı olarak kuruldu",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Burketown",
+   "tur": "sehir",
+   "lat": -17.74,
+   "lon": 139.55,
+   "kur": "1865-01-01",
+   "s": [
+    {
+     "f": "1865-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Queensland Places / Encyclopaedia Britannica: \"Burketown was founded on the Albert River in 1865.\"",
+   "aday_tarihler": "1865 Albert Nehri üzerinde kuruldu",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Thargomindah",
+   "tur": "sehir",
+   "lat": -27.99,
+   "lon": 143.82,
+   "kur": "1870-01-01",
+   "s": [
+    {
+     "f": "1870-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Queensland Places, 'Bulloo Shire': \"Pastoral occupation of the Bulloo district began in the 1860s and a police barracks was constructed at Thargomindah, the shire's administrative centre, in the early 1870s\"; mahkeme 1876, okul 1884, hastane 1888. ⚠️ Kaynak TAM YIL vermiyor, '1870'lerin başı' diyor — 1870 alt sınır olarak alındı.",
+   "aday_tarihler": "1860'larda otlakçılık · 1870'lerin başı polis kışlası · 1876 mahkeme · 1884 okul · 1888 hastane",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Port Lincoln",
+   "tur": "sehir",
+   "lat": -34.72,
+   "lon": 135.86,
+   "kur": "1839-01-01",
+   "s": [
+    {
+     "f": "1839-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Encyclopaedia Britannica, 'Port Lincoln': \"The city was surveyed in 1839, and it was named by explorer Matthew Flinders for his native English county of Lincoln.\"",
+   "aday_tarihler": "1839 ölçüldü (adı Matthew Flinders'tan)",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Cobar",
+   "tur": "sehir",
+   "lat": -31.5,
+   "lon": 145.83,
+   "kur": "1869-01-01",
+   "s": [
+    {
+     "f": "1869-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Encyclopaedia Britannica, 'Cobar': \"The town's origins date to 1869 or 1870, when a party of well-sinkers being guided through the area by two Aboriginal men noticed strange green streaks next to a water hole near their campsite.\" ⚠️ Kaynak iki yıl veriyor; erken sınır 1869 alındı.",
+   "aday_tarihler": "1869/1870 kuyu kazıcıları bakır izlerini fark etti · bakır madenciliği merkezi",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Moree",
+   "tur": "sehir",
+   "lat": -29.46,
+   "lon": 149.84,
+   "kur": "1848-01-01",
+   "s": [
+    {
+     "f": "1848-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Encyclopaedia Britannica, 'Moree': \"Moree originated in 1848 as a livestock station; it became a village in 1852, a town in 1862, and a municipality in 1890.\"",
+   "aday_tarihler": "1848 hayvan istasyonu · 1852 köy · 1862 kasaba · 1890 belediye",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Hay",
+   "tur": "sehir",
+   "lat": -34.51,
+   "lon": 144.85,
+   "kur": "1840-01-01",
+   "s": [
+    {
+     "f": "1840-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Encyclopaedia Britannica, 'Hay (New South Wales)': \"The settlement originated in 1840 as a coach station known as Lang's Crossing Place. It was surveyed in 1858 and became a town the following year, named for John Hay.\"",
+   "aday_tarihler": "1840 Lang's Crossing Place posta durağı · 1858 ölçüldü · 1859 kasaba",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Katanning",
+   "tur": "sehir",
+   "lat": -33.69,
+   "lon": 117.56,
+   "kur": "1898-01-01",
+   "s": [
+    {
+     "f": "1898-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Encyclopaedia Britannica, 'Katanning': \"The town was laid out in 1898... Although sandalwood cutters had been in the area for some time, there was no permanent settlement until the arrival of the railroad there in the late 19th century.\" ⚠️ TAHMİNİM 1889'DU — kaynak 1898 diyor, 9 YIL sapma.",
+   "aday_tarihler": "1898 kasaba düzenlendi · öncesinde sandal ağacı kesicileri vardı ama KALICI YERLEŞİM YOKTU (demiryolu gelene kadar)",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Wave Hill",
+   "tur": "sehir",
+   "lat": -17.39,
+   "lon": 130.83,
+   "kur": "1883-01-01",
+   "s": [
+    {
+     "f": "1883-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Northern Territory Government (fossicking.nt.gov.au, 'Wave Hill'): \"Wave Hill Station started in 1883, and Wave Hill was formed as a settlement supply town to service the local pastoral industry which grew up in the early 1900's in the area.\"",
+   "aday_tarihler": "1883 Wave Hill istasyonu kuruldu · 1900'lerin başı ikmal kasabası",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Mildura",
+   "tur": "sehir",
+   "lat": -34.19,
+   "lon": 142.16,
+   "kur": "1887-01-01",
+   "s": [
+    {
+     "f": "1887-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Encyclopaedia Britannica, 'Mildura' ve Victorian Places (Monash+UQ): \"The Chaffey brothers began the Mildura irrigation colony near the Murray River in the Mallee region of north-west Victoria in 1887\"; 1840'larda bölgede koyun otlakları kurulmuştu.",
+   "aday_tarihler": "1840'larda koyun otlakları · 1887 Chaffey kardeşler Mildura sulama kolonisi",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Bairnsdale",
+   "tur": "sehir",
+   "lat": -37.83,
+   "lon": 147.63,
+   "kur": "1844-01-01",
+   "s": [
+    {
+     "f": "1844-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Victorian Places (Monash University ve University of Queensland), 'Bairnsdale': Bairnsdale run \"occupied by Archibald McLeod from 1844\"; \"the government township was surveyed on the west bank of the river, the first land being sold in 1860\".",
+   "aday_tarihler": "1844 Archibald McLeod Bairnsdale run'ını işgal etti · 1860 hükûmet kasabası ölçüldü ve ilk arazi satıldı · 1867 Road District · 1868 shire",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Roebourne",
+   "tur": "sehir",
+   "lat": -20.78,
+   "lon": 117.14,
+   "kur": "1866-08-17",
+   "s": [
+    {
+     "f": "1866-08-17",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "DPLH inHerit (Heritage Council of WA): \"Roebourne, the first gazetted town in the North-West, was proclaimed on 17 August 1866. Roebourne was the centre for 49 surrounding pastoral leases and was the main town in the fast developing North District with Cossack as its port.\" TAM GÜN kaynakta.",
+   "aday_tarihler": "1866-08-17 kasaba ilan — KUZEYBATI'NIN İLK İLAN EDİLEN KASABASI · 49 otlak kirasının merkezi · limanı Cossack",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Birdsville",
+   "tur": "sehir",
+   "lat": -25.9,
+   "lon": 139.35,
+   "kur": "1882-01-01",
+   "s": [
+    {
+     "f": "1882-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Queensland Places, 'Diamantina Shire': \"Birdsville had both a store and a hotel by 1882\"; bugünkü otel 1885 tarihli olanın kopyası; 1886'da Diamantina yerel yönetim bölümü kuruldu. 1903 Australian Handbook onu \"Queensland'in en uzak kasabası\" diye anıyor.",
+   "aday_tarihler": "1870'lerde Birdsville Track sığır güzergâhı · 1882'de dükkân VE otel vardı · 1885 otel · 1886 Diamantina yerel yönetimi",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Wiluna",
+   "tur": "sehir",
+   "lat": -26.59,
+   "lon": 120.22,
+   "kur": "1902-01-01",
+   "s": [
+    {
+     "f": "1902-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "DPLH inHerit (Heritage Council of WA), 'Wiluna Mine (fmr)': \"The Wiluna Gold Mine commenced operations in 1902 and was worked very successfully until 1947.\" ⚠️ TAHMİNİM 1898'Dİ — kaynak 1902 diyor.",
+   "aday_tarihler": "1902 Wiluna Altın Madeni işletmeye açıldı (1902-1914 Gwalia Consolidated) · 1937-38 zirvesinde 1.028 işçi",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Camooweal",
+   "tur": "sehir",
+   "lat": -19.92,
+   "lon": 138.12,
+   "kur": "1883-12-15",
+   "s": [
+    {
+     "f": "1883-12-15",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "QUEENSLAND HERITAGE REGISTER (Queensland Government, Department of Environment and Science, apps.des.qld.gov.au): \"A town reserve of four square miles was gazetted on 15 December 1883 and was amended and re-gazetted in August 1884\"; rezerv Georgina Nehri üzerinde, Lake Frances yakınında, Rocklands Station'ın güneyinde. 1883'te yerel otlakçılar Queensland hükûmetine dilekçe vererek Burketown'dan Georgina Nehri boyunca inen ana sığır güzergâhı ile doğudan Kuzey Toprakları'na giden yolun kavşağında kasaba arazisi istemişti. TAM GÜN kaynakta. 📌 EN YÜKSEK KATKILI KAYIT (18 hücre) ve en zor kaynaklısıydı — Queensland Places'te sayfası YOK, kurumsal siciline gidilerek bulundu.",
+   "aday_tarihler": "1883 otlakçıların dilekçesi · 1883-12-15 dört mil karelik kasaba rezervi ilan edildi · 1884-08 değiştirilip yeniden ilan edildi",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Borroloola",
+   "tur": "sehir",
+   "lat": -16.07,
+   "lon": 136.3,
+   "kur": "1884-01-01",
+   "s": [
+    {
+     "f": "1884-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "NORTHERN TERRITORY PLACE NAMES REGISTER (NT Government, ntlis.nt.gov.au/placenames): \"The 'Town of Borroloola' was declared on 4 September 1885 under the Northern Territory Crown Lands Consolidation Act 1882. The township itself was set out in 1884 by Surveyor JP Hingston.\" Kasaba McArthur Nehri kıyısında, Queensland'den Roper Nehri, Katherine ve Darwin'e sığır götüren sürücülere hizmet için kuruldu.",
+   "aday_tarihler": "1884 Ölçümcü J. P. Hingston kasabayı düzenledi · 1885-09-04 'Town of Borroloola' Kuzey Toprakları Crown Lands Consolidation Act 1882 uyarınca ilan edildi",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Daly Waters Telgraf İstasyonu",
+   "tur": "sehir",
+   "lat": -16.25,
+   "lon": 133.37,
+   "kur": "1872-01-01",
+   "s": [
+    {
+     "f": "1872-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Northern Territory Government (nt.gov.au, Parks bilgi föyleri) ve Library & Archives NT: Overland Telegraph hattı 1872'de tamamlandı ve Daly Waters onun telgraf istasyonlarından biridir (Territory Stories, 'Daly Waters Station'). ⚠️ AÇIKÇA YAZIYORUM: İSTASYONA ÖZEL bir 'şu tarihte inşa edildi' cümlesi BULUNAMADI — Barrow Creek ve Tennant Creek'te böyle bir cümle vardı, burada YOK. Tarih HAT düzeyindeki kaynaktan türetilmiştir. Bir sonraki tur istasyon listesini (11-15 istasyon, kaynaklar sayıda ayrışıyor) tek tek doğrulamalı.",
+   "aday_tarihler": "1872 Overland Telegraph hattı tamamlandı; Daly Waters onun tekrarlayıcı istasyonlarından biri",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Windorah",
+   "tur": "sehir",
+   "lat": -25.42,
+   "lon": 142.65,
+   "kur": "1880-01-01",
+   "s": [
+    {
+     "f": "1880-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Queensland Places (Centre for the Government of Queensland, UQ), 'Barcoo Shire': \"Windorah was gazetted as a town in 1880.\"",
+   "aday_tarihler": "1880 kasaba ilan edildi",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Laverton",
+   "tur": "sehir",
+   "lat": -28.63,
+   "lon": 122.4,
+   "kur": "1899-01-01",
+   "s": [
+    {
+     "f": "1899-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "DPLH inHerit (Heritage Council of WA) / State Library of WA: \"The town of Laverton was gazetted in 1899\"; Mount Margaret 1897'de kasaba ilan edilmişti. ⚠️ TAHMİNİM 1896'YDI (altın keşfi) — kasaba ilanı 1899.",
+   "aday_tarihler": "1896 bölgede altın · 1897 Mount Margaret altın sahası ve Leonora kasabası · 1899 Laverton kasaba ilan",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Timber Creek Polis Karakolu",
+   "tur": "sehir",
+   "lat": -15.66,
+   "lon": 130.48,
+   "kur": "1895-01-01",
+   "s": [
+    {
+     "f": "1895-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "NORTHERN TERRITORY PLACE NAMES REGISTER (NT Government, ntlis.nt.gov.au/placenames): dereyi A. C. Gregory 24 Kasım 1855'te North Australian Expedition sırasında adlandırdı; polis karakolu 1890'ların ortasında kuruldu; otlak deposu 1911'de Phillip Hutchison tarafından. 🔴 KASABA 20 HAZİRAN 1975'TE İLAN EDİLDİ — ATLASIN UFKUNUN DIŞINDA. Bu yüzden kayıt KASABA değil POLİS KARAKOLU adıyla yazıldı; 1281-1923 ufkunda var olan yerleşim odur. ⚠️ Kaynak 'mid-1890s' diyor, TAM YIL VERMİYOR — 1895 orta değer olarak alındı ve bu not kayıtta duruyor.",
+   "aday_tarihler": "1855-11-24 A. C. Gregory dereyi adlandırdı · 1890'ların ORTASI polis karakolu · 1911 Phillip Hutchison otlak deposu · 1975-06-20 KASABA ilan",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Newcastle Waters",
+   "tur": "sehir",
+   "lat": -17.37,
+   "lon": 133.41,
+   "kur": "1884-01-01",
+   "s": [
+    {
+     "f": "1884-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "NORTHERN TERRITORY PLACE NAMES REGISTER (NT Government): istasyon adını yakınındaki Newcastle Waters su birikintisinden alır; Dr W. B. Browne 1880'lerin başında aldı ve \"had established Newcastle Waters by 1884 with cattle overlanded from Queensland\"; ~1890'da Lewis ailesine satıldı. ⚠️ TAHMİNİM 1861'Dİ — kaynak 1884 diyor, 23 YIL sapma. Sicilde resmî ilan tarihi YOK.",
+   "aday_tarihler": "1880'lerin başı Dr W. B. Browne istasyonu aldı · 1884'e kadar Queensland'den getirilen sığırla kurdu · ~1890 Lewis ailesine sattı",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Esperance",
+   "tur": "sehir",
+   "lat": -33.86,
+   "lon": 121.89,
+   "kur": "1894-01-01",
+   "s": [
+    {
+     "f": "1894-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "Western Australian Museum, 'WA Goldfields' / 'The Rush for Gold': \"during the W.A. goldrush in 1894, businesses were established in Esperance, believing that it would be the port for the goldfields\". ⚠️ Kaynak KASABA İLAN yılını vermiyor; 1894 en erken kaynaklı kalıcı yerleşim olayıdır.",
+   "aday_tarihler": "1894 altına hücumda işyerleri kuruldu (altın sahasının limanı olacağı beklentisiyle) · 1895 okul · 1890'ların sonunda liman kasabası",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  },
+  {
+   "ad": "Marree (Hergott Springs)",
+   "tur": "sehir",
+   "lat": -29.65,
+   "lon": 138.06,
+   "kur": "1883-01-01",
+   "s": [
+    {
+     "f": "1883-01-01",
+     "t": "1901-01-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1901-01-01",
+     "t": "1923-10-29",
+     "d": "avustralya"
+    }
+   ],
+   "kaynak": "History Trust of South Australia: 1883'te Faiz ve Tagh Mahomet kardeşler \"the new railhead township of Marree (formerly Hergott Springs)\"de deve nakliye şirketi kurdu; okul 1884'te açıldı, ad 1918'de Marree oldu.",
+   "aday_tarihler": "1883 demiryolu başı kasabası · 1884 okul · 1918 ad 'Marree' oldu",
+   "dogrulandi": true,
+   "kur_secimi": "kaynagin verdigi EN ERKEN kalici yerlesim olayi (M-2409 onerisi; koordinator karari BEKLENIYOR)"
+  }
+ ],
+ "dogrulanmamis_bekleyen": [
+  {
+   "ad": "Tanami",
+   "sira": 8,
+   "lat": -19.99,
+   "lon": 129.72,
+   "yil_tahmin_DOGRULANMADI": 1900,
+   "dogrulandi": false,
+   "s": null,
+   "not": "ARANDI, KURUMSAL KAYNAKTA TARIH BULUNAMADI - zincir YAZILMAZ",
+   "denenen_kaynaklar": "🔴 BULUNDU AMA KASABA DEGIL — SINIFI YANLISTI, tarihi degil. NT Geological Survey (geoscience.nt.gov.au, 'Geology and mineral resources of the NT, Ch11 Tanami'): altin 1900'de Allan Davidson tarafindan the Granites'te bulundu; 1910-1932 arasi YALNIZ KUCUK uretim; kisa altina hucum 1932'DE; modern madencilik 1986. ⇒ 1281-1923 ufkunda KALICI YERLESIM YOK. Nokta degil, bos:'kabile' BEYANI olmali (Warlpiri toprağı). 14 hucre BEYANLA kapanir."
+  },
+  {
+   "ad": "Nullagine",
+   "sira": 19,
+   "lat": -21.89,
+   "lon": 120.11,
+   "yil_tahmin_DOGRULANMADI": 1888,
+   "dogrulandi": false,
+   "s": null,
+   "not": "ARANDI, KURUMSAL KAYNAKTA TARIH BULUNAMADI - zincir YAZILMAZ",
+   "denenen_kaynaklar": "Landgate/WA Museum 'Marble Bar ve Nullagine'de altin 1880'lerde bulundu' diyor; Marble Bar'in ilani 1893-07-13 CIKTI, Nullagine'inki CIKMADI."
+  },
+  {
+   "ad": "Tibooburra",
+   "sira": 27,
+   "lat": -29.43,
+   "lon": 142.01,
+   "yil_tahmin_DOGRULANMADI": 1881,
+   "dogrulandi": false,
+   "s": null,
+   "not": "ARANDI, KURUMSAL KAYNAKTA TARIH BULUNAMADI - zincir YAZILMAZ",
+   "denenen_kaynaklar": "Britannica · ADB — 1885'te Mount Browne altin sahasinda bira fabrikasi subesi var, KURULUS YILI yok."
+  },
+  {
+   "ad": "Fitzroy Crossing",
+   "sira": 50,
+   "lat": -18.19,
+   "lon": 125.57,
+   "yil_tahmin_DOGRULANMADI": 1894,
+   "dogrulandi": false,
+   "s": null,
+   "not": "ARANDI, KURUMSAL KAYNAKTA TARIH BULUNAMADI - zincir YAZILMAZ",
+   "denenen_kaynaklar": "DPLH inHerit · WA Museum — cikmadi."
+  },
+  {
+   "ad": "Alexandria Station",
+   "sira": 54,
+   "lat": -19.06,
+   "lon": 136.71,
+   "yil_tahmin_DOGRULANMADI": 1877,
+   "dogrulandi": false,
+   "s": null,
+   "not": "ARANDI, KURUMSAL KAYNAKTA TARIH BULUNAMADI - zincir YAZILMAZ",
+   "denenen_kaynaklar": "NT/QLD kaynaklari — tarih cikmadi."
+  },
+  {
+   "ad": "Urandangi",
+   "sira": 55,
+   "lat": -21.6,
+   "lon": 138.31,
+   "yil_tahmin_DOGRULANMADI": 1885,
+   "dogrulandi": false,
+   "s": null,
+   "not": "ARANDI, KURUMSAL KAYNAKTA TARIH BULUNAMADI - zincir YAZILMAZ",
+   "denenen_kaynaklar": "🟡 Vikipedi 'adsiz kasaba 1883-08-02 kuruldu, 1884-12-12 Urandangi adi verildi' diyor — TEK DAYANAK OLAMAZ. Bakilacak kurum: Queensland Government Gazette."
+  },
+  {
+   "ad": "Innamincka",
+   "sira": 60,
+   "lat": -27.74,
+   "lon": 140.74,
+   "yil_tahmin_DOGRULANMADI": 1890,
+   "dogrulandi": false,
+   "s": null,
+   "not": "ARANDI, KURUMSAL KAYNAKTA TARIH BULUNAMADI - zincir YAZILMAZ",
+   "denenen_kaynaklar": "History Trust of SA · SA History Hub · Britannica — yerlesim maddesi cikmadi (yalniz ayni adli gemi)."
+  },
+  {
+   "ad": "Mount Magnet",
+   "sira": 67,
+   "lat": -28.06,
+   "lon": 117.85,
+   "yil_tahmin_DOGRULANMADI": 1895,
+   "dogrulandi": false,
+   "s": null,
+   "not": "ARANDI, KURUMSAL KAYNAKTA TARIH BULUNAMADI - zincir YAZILMAZ",
+   "denenen_kaynaklar": "DPLH inHerit · Britannica (madde YOK) — cikmadi."
+  },
+  {
+   "ad": "Wilcannia",
+   "sira": 75,
+   "lat": -31.56,
+   "lon": 143.38,
+   "yil_tahmin_DOGRULANMADI": 1866,
+   "dogrulandi": false,
+   "s": null,
+   "not": "ARANDI, KURUMSAL KAYNAKTA TARIH BULUNAMADI - zincir YAZILMAZ",
+   "denenen_kaynaklar": "Britannica · ADB — 'gecmis bir nehir limaniydi' diyor ama KURULUS YILI vermiyor. ADB 1877'de bir fabrika satisi aniyor."
+  },
+  {
+   "ad": "Lae",
+   "sira": 76,
+   "lat": -6.73,
+   "lon": 146.99,
+   "yil_tahmin_DOGRULANMADI": 1885,
+   "dogrulandi": false,
+   "s": null,
+   "not": "ARANDI, KURUMSAL KAYNAKTA TARIH BULUNAMADI - zincir YAZILMAZ",
+   "denenen_kaynaklar": "🔴 UFUK DISI — DOGRULANDI, ve supem hakli cikti. Encyclopaedia Britannica, 'Lae': \"Lae originated as a Lehe mission settlement and developed around an airport that was built in 1928\"; ic bolgedeki Bulolo/Edie Creek altin yataklarinin kesfi 1920'LERDE oldu ve kasabayi o buyuttu. ⇒ 1281-1923 ufkunda KASABA YOK. Tahminim 1885'ti; nokta YAZILMAMALI. 1 hucresi beyanla ya da komsu kayitla kapanir."
+  },
+  {
+   "ad": "Kieta (Bougainville)",
+   "sira": 78,
+   "lat": -6.22,
+   "lon": 155.63,
+   "yil_tahmin_DOGRULANMADI": 1905,
+   "dogrulandi": false,
+   "s": null,
+   "not": "ARANDI, KURUMSAL KAYNAKTA TARIH BULUNAMADI - zincir YAZILMAZ",
+   "denenen_kaynaklar": "Britannica 'Bougainville'in eski idari merkezi' diyor, TARIH vermiyor."
+  },
+  {
+   "ad": "Port Vila (Vanuatu)",
+   "sira": 79,
+   "lat": -17.73,
+   "lon": 168.32,
+   "yil_tahmin_DOGRULANMADI": 1880,
+   "dogrulandi": false,
+   "s": null,
+   "not": "ARANDI, KURUMSAL KAYNAKTA TARIH BULUNAMADI - zincir YAZILMAZ",
+   "denenen_kaynaklar": "Britannica · ANU — 1906 Ingiliz-Fransiz kondominyumu KESIN, ama 🔴 ATLASTA KONDOMINYUM KIMLIGI YOK (devletler.js'te ne 'yeni-hebrid' ne benzeri var). Kimlik sorunu, tarih sorunu degil — KOORDINATORE SORULDU."
+  },
+  {
+   "ad": "Merauke (Yeni Gine gd)",
+   "sira": 81,
+   "lat": -8.49,
+   "lon": 140.4,
+   "yil_tahmin_DOGRULANMADI": 1902,
+   "dogrulandi": false,
+   "s": null,
+   "not": "ARANDI, KURUMSAL KAYNAKTA TARIH BULUNAMADI - zincir YAZILMAZ",
+   "denenen_kaynaklar": "Britannica · AWM — Hollanda'nin 1828 iddiasi var, Merauke'nin 1902 kurulusu DOGRULANMADI."
+  },
+  {
+   "ad": "Aitape",
+   "sira": 82,
+   "lat": -3.14,
+   "lon": 142.35,
+   "yil_tahmin_DOGRULANMADI": 1906,
+   "dogrulandi": false,
+   "s": null,
+   "not": "ARANDI, KURUMSAL KAYNAKTA TARIH BULUNAMADI - zincir YAZILMAZ",
+   "denenen_kaynaklar": "AWM · NLA · ANU — cikmadi. 1884 Alman ilhaki kesin ama istasyonun kendi tarihi yok."
+  }
+ ]
+}

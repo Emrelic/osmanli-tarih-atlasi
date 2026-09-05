@@ -421,7 +421,7 @@ window.YERLESIMLER_EK29 = [
 // Sırp despotluğu → 1459 Osmanlı → 1717-1739 Avusturya → 1830 muhtar
 // Sırbistan (v:) → 1878 istiklâl.
 // kaynak: bulunamadı — çizgi kardeş kayıt Kragujevac'tan
-{ ad:"Yagodina (Jagodina)",kaynak:"bulunamadı — TDV'de Yagodina/Jagodina müstakil maddesi yok. Dayanak KARDEŞ KAYIT: Kragujevac (28,4 km, aynı Morava koridoru) birebir aynı günleri taşıyor; 1690-09-09 günü külliyatta \"Niş, Vidin ve Belgrad geri alındı\" maddesiyle zaten kayıtlı.",s:[{f:"1281-01-01",t:"1439-08-27",d:"sirbistan"},{f:"1444-08-01",t:"1459-06-20",d:"sirp-despotlugu"},{f:"1689-09-24",t:"1690-09-09",d:"avusturya"},{f:"1717-08-18",t:"1739-09-18",d:"avusturya"},{f:"1878-07-13",t:"1882-03-06",d:"sirbistan-prensligi"},{f:"1882-03-06",t:"1918-12-01",d:"sirbistan-kralligi"},{f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],d:[{f:"1439-08-27",t:"1444-08-01"},{f:"1459-06-20",t:"1689-09-24"},{f:"1690-09-09",t:"1717-08-18"},{f:"1739-09-18",t:"1830-11-08"}], tur:"kasaba", lat:43.9772, lon:21.2617, g:0, k:4,
+{ ad:"Yagodina (Jagodina)",neden:"1689-09-24 → 1690-09-09 Avusturya ara dönemi eksikti (Osmanlı 1459-1717 kesintisiz görünüyordu). Ara dönem eklendi VE mevcut `v:` 1830-1878 KORUNDU — yerlesimler_ek29.js:424'teki ölü düzeltme `v:`yi taşımıyordu, uygulansaydı 48 yıllık sahipsizlik açacaktı.",kaynak:"bulunamadı — TDV'de Yagodina/Jagodina müstakil maddesi yok. Dayanak KARDEŞ KAYIT: Kragujevac (28,4 km, aynı Morava koridoru) birebir aynı günleri taşıyor; 1690-09-09 günü külliyatta \"Niş, Vidin ve Belgrad geri alındı\" maddesiyle zaten kayıtlı.",s:[{f:"1281-01-01",t:"1439-08-27",d:"sirbistan"},{f:"1444-08-01",t:"1459-06-20",d:"sirp-despotlugu"},{f:"1689-09-24",t:"1690-09-09",d:"avusturya"},{f:"1717-08-18",t:"1739-09-18",d:"avusturya"},{f:"1878-07-13",t:"1882-03-06",d:"sirbistan-prensligi"},{f:"1882-03-06",t:"1918-12-01",d:"sirbistan-kralligi"},{f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],d:[{f:"1439-08-27",t:"1444-08-01"},{f:"1459-06-20",t:"1689-09-24"},{f:"1690-09-09",t:"1717-08-18"},{f:"1739-09-18",t:"1830-11-08"}], tur:"kasaba", lat:43.9772, lon:21.2617, g:0, k:4,
   s:[{f:"1281-01-01",t:"1439-08-27",d:"sirbistan"},
      {f:"1444-08-01",t:"1459-06-20",d:"sirp-despotlugu"},
      {f:"1717-08-18",t:"1739-09-18",d:"avusturya"},
@@ -434,14 +434,9 @@ window.YERLESIMLER_EK29 = [
 // ⚠️ 3 km kuralının DIŞINDA ama yakın; koordinatöre bildirildi (M-0084).
 //   Ayrı bir menzil konağıdır, Kavala'nın mahallesi değil.
 // kaynak: bulunamadı — çizgi kardeş kayıt Kavala'dan
-{ ad:"Praviște (Eleftheroupoli)", tur:"kasaba", lat:40.9167, lon:24.2500, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1387-04-09",d:"bizans"},
-     {f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},
-     {f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},
-     {f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},
-     {f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},
-     {f:"1913-06-28",t:"1923-10-29",d:"yunanistan"}],
-  d:[{f:"1387-04-09",t:"1402-07-28"},{f:"1413-07-05",t:"1913-06-28"}], v:[] },
+{ ad:"Praviște (Eleftheroupoli)",kaynak:"kavala", tur:"kasaba", lat:40.9167, lon:24.2500, g:0, k:4,
+  s:[{f:"1281-01-01",t:"1387-04-09",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-05-30",t:"1913-08-10",d:"bulgaristan-kralligi"},{f:"1913-08-10",t:"1923-10-29",d:"yunanistan"}],
+  d:[{f:"1387-04-09",t:"1402-07-28"},{f:"1413-07-05",t:"1913-05-30"}], v:[] },
 
 // LANZAKA (Lagkadas) — Selanik (16 km) çizgisine yaslandı.
 // ⚠️ Selanik kaydındaki 1403-1430 arası Bizans/Venedik dönemi BU KAYDA
@@ -451,13 +446,8 @@ window.YERLESIMLER_EK29 = [
 //   ⇒ Bu bir TERCİH ve gerekçesi yazılı; ölçüm değil.
 // kaynak: bulunamadı — çizgi Selanik (fetih ve 1912 devir) ile Serez
 //   (Fetret deseni) kayıtlarından
-{ ad:"Lanzaka (Lagkadas)", tur:"kasaba", lat:40.7500, lon:23.0667, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1387-04-09",d:"bizans"},
-     {f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},
-     {f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},
-     {f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},
-     {f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},
-     {f:"1912-11-08",t:"1923-10-29",d:"yunanistan"}],
-  d:[{f:"1387-04-09",t:"1402-07-28"},{f:"1413-07-05",t:"1912-11-08"}], v:[] },
+{ ad:"Lanzaka (Lagkadas)",kaynak:"atina-antlasmasi",isg:[{f:"1912-11-08",t:"1913-11-14",d:"yunanistan"}], tur:"kasaba", lat:40.7500, lon:23.0667, g:0, k:4,
+  s:[{f:"1281-01-01",t:"1387-04-09",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-11-14",t:"1923-10-29",d:"yunanistan"}],
+  d:[{f:"1387-04-09",t:"1402-07-28"},{f:"1413-07-05",t:"1913-11-14"}], v:[] },
 
 ];

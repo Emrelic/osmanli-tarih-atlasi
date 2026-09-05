@@ -1563,16 +1563,35 @@ def degismez3(Y):
 #      (28) açılmış.
 # ⇒ Düşüş VERİDEN. Denetim kapanmadı, borç ödendi.
 #
-# KALAN 8 — ve ikisi ayrı sınıf, bir sonraki oturum yeniden keşfetmesin:
-#   7 × `iran`     1281→1501/1510   künye Pehlevî İran'ı (1925-12-12)
-#                  Tarki · Ağraham burnu · Hürmüz · Kişm · Kiş ·
-#                  Dihistan ovası · Kızılarvat
+# KALAN 9 — iki ayrı sınıf, bir sonraki oturum yeniden keşfetmesin.
+#
+# ⚠️ BU BLOK 5 EYLÜL 2026 MERGE'İNDE GÜNCELLENDİ, ve eski hâlinin
+#    HEM SAYISI HEM BİLEŞİMİ bayatlamıştı:
+#      "1 × lehistan" ÇÖZÜLDÜ — ayrı künye açıldı, tam da bu bloğun
+#         önerdiği çare uygulandı ve borç ödendi
+#      "7 × iran" 8 OLDU — `Derbend` kümeye katıldı
+#      merge bir de `fas` getirdi
+#    ⇒ Bir tavanın SAYISI kadar BİLEŞİMİ de bayatlar; ikisi BİRLİKTE
+#      güncellenir, yoksa sayı tutar ama gerekçe yalan söyler.
+#
+#   8 × `iran`     1281→1501/1510   künye Pehlevî İran'ı (1925-12-12)
+#                  Tarki · Ağraham burnu · Derbend · Hürmüz · Kişm ·
+#                  Kiş · Dihistan ovası · Kızılarvat
 #                  ⇒ çare: ortaçağ kimliği (akkoyunlu · timurlu · safevi)
-#   1 × `lehistan` Varşova 1806-11-28 → 1815-06-09
-#                  künye 1795-10-24'te bitiyor (taksimler)
-#                  ⇒ bu VARŞOVA DÜKALIĞI (Napolyon), ayrı bir devlet —
-#                    çare künyeyi uzatmak DEĞİL, yeni künye açmak
-BEKLENEN_HAYALET = 8
+#                  🔴 5 Eylül'de ARANDI ve ÇARE BULUNAMADI: `sirvansah`
+#                     denendi, TDV `sirvan` Derbend'i AYRI eyalet sayıyor
+#                     ⇒ atama KAYNAKSIZ olurdu. Beş kapsayıcı madde
+#                     tüketildi; `bulunamadı` HAK EDİLMİŞ bir damgadır.
+#   1 × `fas`      Şefşâven 1926-05-27 → 9999 · künye 1923-10-29'da biter
+#                  🟢 KASITLI VE BEYANLI — kaydın kendi `neden:` alanı:
+#                     "1923-10-29 kesitini ETKİLEMİYOR (olay 1924-1926
+#                      arası) — kayıt tamlık için, atlas ufkunun dışında"
+#                  ⇒ Çizilen hiçbir kesiti bozmuyor: atlas 1923-10-29'da
+#                     bitiyor, bu dönem ondan SONRA başlıyor.
+#                  ⇒ ÇARE KAYDI SİLMEK DEĞİL: 1923-2026 ekseni açılınca
+#                     `fas` künyesi uzayacak ve hayalet KENDİLİĞİNDEN
+#                     düşecek. O güne kadar tavanda, GEREKÇESİYLE.
+BEKLENEN_HAYALET = 9
 HAYALET_TOLERANS_GUN = 400      # ~13 ay: teslim gecikmesi meşru, yıllar değil
 
 
@@ -2099,7 +2118,17 @@ D7_ADA_MUAF = frozenset((
 #    FOTOGRAF. Dunya yerlesim programi surerken her parti onu buyutur.
 #    Buyume KUSUR DEGIL — kusur, bir enklavin koridoru SORULDUGU HALDE
 #    cevapsiz kalmasidir, ki onu bu sayac OLCMEZ.
-BEKLENEN_ENKLAV_SORGU = 642
+# 🟢 642 -> 660, 5 EYLÜL 2026 MERGE — ve büyüme TAHMİN EDİLMEDİ, SEBEBİ
+#    ADIYLA YAZILDI: `_sahiplik_uygula.py` **423 sahiplik dönemi**ni 26
+#    dosyaya indirdi (35 yama `denetim/` → `data/`). Yeni `s:`/`d:`
+#    dönemi = yeni gövde kesiti = yeni KOPUK gövde ihtimali.
+#    +18, ve dağılımı ölçülmedi (içerisi/dışarısı ayrımı bu turda da
+#    yapılmadı — yukarıdaki borç DURUYOR).
+#    ⚠️ Bu bloğun kendi kuralı gereği: **büyüme kusur değil**; kusur, bir
+#    enklavın koridoru SORULDUĞU HÂLDE cevapsız kalmasıdır — onu bu
+#    sayaç ölçmez. Tavanı yükseltmek o borcu KAPATMAZ, yalnız fotoğrafı
+#    günceller.
+BEKLENEN_ENKLAV_SORGU = 660
 # 🟢 639 -> 642, 4 EYLUL 2026 — ve buyume TAHMIN EDILMEDI, ADIYLA OLCULDU.
 #    Fotografi kaydirmadan once "hangi UC" diye soruldu ve ucu de bulundu:
 #       1466-10-19  Elbing (Elbląg) -> lehistan   239 km
