@@ -246,7 +246,29 @@ etmek, o kodu yazmaktan zordur.
 ⇒ 90 satır kaldırılacak — **ama önce senin (a)/(b) kararın**, çünkü
 kaldırma tam o değeri kullanıyor.
 
-### 🔴 BEŞİNCİ KARARIN — HİMAYEYE GİREN DEVLETİN KÜNYESİ **BİTER Mİ, SÜRER Mİ?**
+### 🔴 BEŞİNCİ KARARIN — ~~künye biter mi sürer mi~~ → **ÜÇÜNCÜ KARARIN AYNISI**
+
+> 🟢 **BU KARAR BİR SAAT SONRA ÖLÇÜLDÜ VE ÜÇÜNCÜYE BİRLEŞTİ.** Onu ayrı
+> bir kalem olarak ben açmıştım; ölçüm **yanlış ikilem** olduğunu
+> gösterdi.
+```
+SAHİPSİZLİK MALİYETİ   0   (28 künye · 133 nokta · ölçüldü)
+⇒ künyeyi himaye gününde bitirmenin `Değişmez 1` maliyeti YOK
+```
+> **Maliyet temsilde:** külliyat aynı duruma **üç işlem** uyguluyor —
+> ① Osmanlı çevresi `v:` tâbi katmanıyla (gövde görünür, bağımlılığı da
+> görünür) · ② sömürge, künye biter, **metropol kimliğiyle boyanır**
+> (20 künye · ~1.890 nokta-yıl) · ③ sömürge, künye sürer, **bağımsız
+> gibi** görünür (3 künye · 359,6).
+>
+> 🔴 **Ve ①'in niçin yalnız Osmanlı'ya açık olduğu ölçüldü: `v:`
+> dönemlerinin KİMLİK ALANI YOK.** Sömürge himayesi için ① yapısal
+> olarak mevcut değil ⇒ herkes ② ya da ③'ü seçmek **zorunda** kalmış.
+> ⇒ ***② ile ③ arasındaki tutarsızlık bir tercih değil, ÜÇÜNCÜ
+> KARARINDAKİ eksiğin sonucu.*** İkisi tek karardır ve tek cevapla
+> kapanır.
+
+
 
 Külliyat bugün **ikisini de** yapıyor, ve bu bir tutarsızlık değil bir
 **karar boşluğu** — kimse karar vermediği için her oturum kendi seçmiş:

@@ -4173,6 +4173,63 @@ Piran                hiçbiri
   *anılması*. İkisinde de eksik olan aynı şey — **yüklem.**
   🟢 Ve ret `denetim/`e kaydedildi (*"arandı, kaynak zayıf, YAZILMADI"*):
   bir sonraki oturum üçüncü kez aramasın diye.
+
+- 🔴🔴 **BİR TUTARSIZLIK BİR TERCİH DEĞİL, BİR EKSİĞİN SONUCU OLABİLİR — ve
+  o zaman "hangisi doğru" SORUSU YANLIŞTIR.** *(5 Eylül 2026 · `KÜRE GÖRÜNÜM`)*
+
+  Külliyat aynı tarihsel duruma (bir devletin himayeye girmesi) **üç ayrı
+  işlem** uyguluyor, ve bu bir özensizlik gibi okunuyordu:
+```
+① OSMANLI ÇEVRESİ   `v:` tâbi katmanı → gövde GÖRÜNÜR ve bağımlılığı da
+                    görünür        (misir-kavalali · tunus-ocagi — 2 künye)
+② SÖMÜRGE, künye biter, metropol kimliği → gövde GÖRÜNMEZ      (20 künye)
+③ SÖMÜRGE, künye sürer, kendi kimliği   → BAĞIMSIZ GİBİ görünür ( 3 künye)
+```
+  🔴 **Ve ①'in niçin yalnız Osmanlı'ya açık olduğu ölçüldü:** `v:`
+  dönemlerinin **kimlik alanı yok** (423 dönem: yalnız `f`/`t`/`k`/`enklav`).
+  ⇒ Sömürge himayesi için ① **yapısal olarak mevcut değil**; herkes ② ya da
+  ③'ü seçmek **zorunda** kalmış.
+
+  📌 ⇒ ***② ile ③ arasındaki tutarsızlık bir TERCİH DEĞİL, BİR EKSİĞİN
+  SONUCUDUR.*** Ve bu, sorulacak soruyu değiştirir: *"künye bitmeli mi
+  sürmeli mi"* bir **yanlış ikilem** — gerçek soru *"①'in eşdeğeri Osmanlı
+  dışına da açılacak mı"*.
+  ⚠️ Ve maliyeti `Değişmez 1`de değil **TEMSİLDE**: sahipsizlik **0**
+  (ölçüldü, 28 künye · 133 nokta), ama ②'de gövde metropol kimliğine
+  dönüşüyor — **20 künye · 52 dönem ≈ 1.890 nokta-yıl**, karşısında ③'ün
+  359,6'sı.
+  🟢 Ve iki bağımsız tur aynı boşluğa vardı: sabahki *"`v:` kimlik
+  taşımıyor"* ölçümü **veri** tarafıydı, bu **harita** tarafı.
+
+- 🔴 **BİR YER ADI GÖVDEDE GEÇEBİLİR VE GÖVDE ONU KAPSAMIYOR OLABİLİR —
+  SINIR olarak geçmiştir.** *(aynı gün · `KRONOLOJİ BOŞ KÜNYE`, ve kendi
+  aletini yakaladı)*
+
+  TDV `berka` gövdesinde **Sirte** geçiyor — ama içerik olarak değil:
+  *«Batısında Büyük **SİRTE** körfezi bulunur.»* Madde onu kapsadığını
+  değil, **orada BİTTİĞİNİ** söylüyor.
+  ⇒ `§4⑧`in (*"rakam gövdede geçiyor ≠ gövde o değeri destekliyor"*)
+  **yer adı** yüzü — ve ölçen oturum *"az kalsın Sirte'yi Barka'ya
+  sayacaktım"* diye kendi yakaladı.
+
+  🟢 **Ve aynı ölçüm bir sınırı KAYNAKLI hâle getirdi:** `berka` kendi
+  kapsamını coğrafî olarak tarif ediyor, ve 17 noktanın adı üç gövdede
+  arandığında küme **ikiye ayrıldı** —
+```
+BATI  9  (13,19° → 17,98°)  `trablusgarp` anıyor  ⇒ `hafsi` MEŞRU
+─── Büyük Sirte körfezi · ÜÇ MADDE DE burada yer adı ANMIYOR ───
+DOĞU  8  (20,07° → 23,97°)  `berka` anıyor        ⇒ `hafsi` DAYANAKSIZ
+```
+  📌 Ve ölçen oturumun kendi teşhisi kayıttan değerli: *"sınırı TARİHÎ
+  ANLATIDA aradım, oysa COĞRAFÎ TARİFTE duruyordu."* ⇒ Bir sınır
+  kaynaksız görünüyorsa, **yanlış bölümde aranıyor** olabilir.
+
+  ⚠️ Ve iki sınav aynı yöne çıktı ama **güçleri eşit değil**: Ⓐ coğrafî
+  kapsama, Ⓑ söz dizimine dayanıyor, ve Ⓑ tek başına çelişkiyi
+  kaldırmıyordu (aynı cümlede *"Trablusgarp İLE BİRLİKTE"* ters işareti
+  var). ⇒ Sabahki *"üç ölçüt yakınsarsa küme TAMDIR"* dersinin sınırı:
+  ***yakınsama kümenin kapsamını doğrular, ama zayıf bir ölçüt güçlü
+  olana güven EKLEMEZ.*** İkisi toplanmaz; güçlü olan taşır.
   📌 `§11`in *"`0`, 'yok' ile 'bakmadım' arasında ayrım yapmaz"*
   dersinin **dönüş değeri** ve **alan adı** yüzleri — ve `§4`ün
   *"bir alan adı, kullanıldığı yerden değil TANIMLANDIĞI yerden
