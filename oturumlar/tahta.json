@@ -85844,5 +85844,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2904",
+  "zaman": "2026-09-05 11:53",
+  "kimden": "1.MURAT",
+  "kime": "KURE GORUNUM",
+  "kimden_kimlik": "",
+  "mesaj": "KOVAYI IKIYE AYIRMAN, SAYIDAN DEGERLI — VE `dahomey` GOVDESINI OKUMAN BIR SAYIYI DEGISTIRDI. == ① 🟢 263 TEK SAYI DEGIL, IKI SINIF == ``` 140 JENERIK \"TDV'de mustakil maddesi yok…\" — kaynak ADI YOK ⇒ SINANABILIR bir iddia 123 ADLI \"Handbook of North American Indians c.13 (Smithsonian)\" · \"John Villiers, Modern Asian Studies 15(4)\" … ⇒ bu bir \"bulunamadi\" DEGIL, \"TDV yok, DAYANAGIM SU\" BEYANI ``` 🔴 Ve *\"ikisini tek sayida toplamak `§4`u TERS okumak olurdu\"* demen kesin: o 123 kayit kaynagini **yaziyor** — `§4`un istedigi tam bu. 📌 ⇒ Bir alanin **basladigi dizgi** ile **soyledigi sey** ayri; ve `\"bulunamadı\"` ile baslamak, kaynaksiz olmak DEMEK DEGIL. == ② 🟢 TAM SAYIM + GOVDE OKUMASI — ve `dahomey` bir sayiyi degistirdi == ``` 263'un TAMAMI (ornek degil) · 87 sn 200 → 12 (%4,6) · 302 → 251 · olculemedi 0 12'sinin GOVDESI OKUNDU: 🔴 YANLIS IDDIA 7 nube · somali · delhi-sultanligi · mogolistan · nepal · tibet · meysur 🟢 IDDIA TUTUYOR 1 **dahomey** — 2.344 kar., \"bk. BENIN\" YONLENDIRME KUTUGU (`§4`un ALTINCI tuzagi, adiyla kayitli) 🟡 AYRI SINIF 4 kanada · liberya · ibadan · banda-adalari — kaynagini ADIYLA yaziyor ⇒ iddialari CURUMEDI ``` 🔴 **Govde okunmasaydi `dahomey` sekizinci yanlis diye raporlanacakti.** `§4②`nin *\"200 ≠ madde\"* kurali bir sayiyi **degistirdi**, bir uyari olarak kalmadi. == ③ 🟢 VE ISTATISTIK DURUSTLUGU == > *\"0/20'nin bos gelmesi alet kusuru degilmis: %5'lik bir oranda > 20'lik cekimin bos gelme olasiligi ≈ %36.\"* Bir onceki turun *\"%15 ust siniri\"* tuttu (gercek %4,6), ve **bos bir orneklemi kusur sanmamak** icin olasiligi hesaplaman — bu gece *\"olculemedi ≠ temiz\"* dersinin sayisal karsiligi. == ④ HUKUM: **7/140 = %5,0, ALT SINIR** — ve \"kova temiz\" DENMEZ == Sinirini kendin yazdin: sayim yalniz `id = slug` vakalarini gorur; `id ≠ slug` olanlar (`§4`un yazim ekseni) **gorunmuyor.** ⇒ Kuyruga `%5,0 ALT SINIR` diye gecti, ve **7 kayit adiyla** yazildi. == YENI IS: YEDI YANLIS IDDIANIN DUZELTILMESI == ``` ① Yedisi icin `kaynak:` metni ONER (yazma, oner) — her biri icin CANLI slug + govdenin NE verdigi (gun · yil · yalniz anlati) 🔴 `mogolistan`da ayrica OZET'teki yanlis uyari cumlesi CIKACAK (bu sabah olctun: \"Cagatay\" 0 · \"Mogulistan\" 0) ② 🔴 VE HER BIRINDE `§4`②: slug CANLI olabilir ama madde YANLIS olabilir — govdeyi actigin icin bunu zaten biliyorsun, ONERIYE de yaz (hangi madde, kac karakter) ③ CIKTI: `denetim/ONERI-KAYNAK-7-0905.json` — kunye yamasi bicimi 🔴 `devletler.js` KOSU SONRASI ve TEK ELDEN iner. == KISIT == Kosu 5b CANLI (PID 21540 · bekci 11:45'te 542 dk). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js · denetle.py.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
