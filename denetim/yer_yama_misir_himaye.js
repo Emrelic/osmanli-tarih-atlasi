@@ -34,25 +34,25 @@
 window.YER_YAMA_MISIR_HIMAYE = [
 { ad:"Kahire",
   s:[{f:"1281-01-01",t:"1517-02-15",d:"memluk"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
-  isg:[{f:"1798-07-01",t:"1801-10-09",d:"fransa",kaynak:"kahire"},{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+  isg:[{f:"1798-07-01",t:"1801-10-09",d:"fransa-cumhuriyet",kaynak:"kahire"},{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
   kaynak:"TDV, madde: misir (CANLI, raw HTML dogrulandi, 278.117 kar.) - AYNEN: '18 Aralik 1914'te tek tarafli olarak Osmanli hukumranlik haklarini kaldirip Misir'i himayesine aldi' (GUN, mevcut kunye f: degeriyle BIREBIR) ve 'Sultan Ahmed Fuad 15 Mart 1922'de kral unvanini aldi ve Misir'da monarsi ilan edildi' (GUN). Himaye kalibi: Kuveyt/Katar/Bahreyn/Buganda emsali (M-2784).",
   not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor." },
 
 { ad:"İskenderiye",
   s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
-  isg:[{f:"1798-07-01",t:"1801-10-09",d:"fransa",kaynak:"kahire"},{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+  isg:[{f:"1798-07-01",t:"1801-10-09",d:"fransa-cumhuriyet",kaynak:"kahire"},{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
   kaynak:"TDV, madde: misir (CANLI, raw HTML dogrulandi, 278.117 kar.) - AYNEN: '18 Aralik 1914'te tek tarafli olarak Osmanli hukumranlik haklarini kaldirip Misir'i himayesine aldi' (GUN, mevcut kunye f: degeriyle BIREBIR) ve 'Sultan Ahmed Fuad 15 Mart 1922'de kral unvanini aldi ve Misir'da monarsi ilan edildi' (GUN). Himaye kalibi: Kuveyt/Katar/Bahreyn/Buganda emsali (M-2784).",
   not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor." },
 
 { ad:"Dimyat",
   s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
-  isg:[{f:"1798-07-01",t:"1801-10-09",d:"fransa",kaynak:"kahire"},{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+  isg:[{f:"1798-07-01",t:"1801-10-09",d:"fransa-cumhuriyet",kaynak:"kahire"},{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
   kaynak:"TDV, madde: misir (CANLI, raw HTML dogrulandi, 278.117 kar.) - AYNEN: '18 Aralik 1914'te tek tarafli olarak Osmanli hukumranlik haklarini kaldirip Misir'i himayesine aldi' (GUN, mevcut kunye f: degeriyle BIREBIR) ve 'Sultan Ahmed Fuad 15 Mart 1922'de kral unvanini aldi ve Misir'da monarsi ilan edildi' (GUN). Himaye kalibi: Kuveyt/Katar/Bahreyn/Buganda emsali (M-2784).",
   not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor." },
 
 { ad:"Asyut",
   s:[{f:"1281-01-01",t:"1517-04-13",d:"memluk"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
-  isg:[{f:"1798-07-01",t:"1801-10-09",d:"fransa",kaynak:"kahire"},{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+  isg:[{f:"1798-07-01",t:"1801-10-09",d:"fransa-cumhuriyet",kaynak:"kahire"},{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
   kaynak:"TDV, madde: misir (CANLI, raw HTML dogrulandi, 278.117 kar.) - AYNEN: '18 Aralik 1914'te tek tarafli olarak Osmanli hukumranlik haklarini kaldirip Misir'i himayesine aldi' (GUN, mevcut kunye f: degeriyle BIREBIR) ve 'Sultan Ahmed Fuad 15 Mart 1922'de kral unvanini aldi ve Misir'da monarsi ilan edildi' (GUN). Himaye kalibi: Kuveyt/Katar/Bahreyn/Buganda emsali (M-2784).",
   not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor." },
 
@@ -70,13 +70,13 @@ window.YER_YAMA_MISIR_HIMAYE = [
 
 { ad:"Süveyş",
   s:[{f:"1281-01-01",t:"1517-02-15",d:"memluk"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
-  isg:[{f:"1798-07-01",t:"1801-10-09",d:"fransa",kaynak:"kahire"},{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+  isg:[{f:"1798-07-01",t:"1801-10-09",d:"fransa-cumhuriyet",kaynak:"kahire"},{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
   kaynak:"TDV, madde: misir (CANLI, raw HTML dogrulandi, 278.117 kar.) - AYNEN: '18 Aralik 1914'te tek tarafli olarak Osmanli hukumranlik haklarini kaldirip Misir'i himayesine aldi' (GUN, mevcut kunye f: degeriyle BIREBIR) ve 'Sultan Ahmed Fuad 15 Mart 1922'de kral unvanini aldi ve Misir'da monarsi ilan edildi' (GUN). Himaye kalibi: Kuveyt/Katar/Bahreyn/Buganda emsali (M-2784).",
   not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor." },
 
 { ad:"Reşîd (Rosetta)",
   s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},{f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
-  isg:[{f:"1798-07-01",t:"1801-10-09",d:"fransa",kaynak:"kahire"},{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+  isg:[{f:"1798-07-01",t:"1801-10-09",d:"fransa-cumhuriyet",kaynak:"kahire"},{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
   kaynak:"TDV, madde: misir (CANLI, raw HTML dogrulandi, 278.117 kar.) - AYNEN: '18 Aralik 1914'te tek tarafli olarak Osmanli hukumranlik haklarini kaldirip Misir'i himayesine aldi' (GUN, mevcut kunye f: degeriyle BIREBIR) ve 'Sultan Ahmed Fuad 15 Mart 1922'de kral unvanini aldi ve Misir'da monarsi ilan edildi' (GUN). Himaye kalibi: Kuveyt/Katar/Bahreyn/Buganda emsali (M-2784).",
   not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor." },
 
@@ -361,5 +361,20 @@ window.YER_YAMA_MISIR_HIMAYE = [
   isg:[{f:"1882-09-13",t:"1914-12-18",d:"ingiltere",kaynak:"urabi-pasa"},{f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
   kaynak:"TDV, madde: misir (CANLI, raw HTML dogrulandi, 278.117 kar.) - AYNEN: '18 Aralik 1914'te tek tarafli olarak Osmanli hukumranlik haklarini kaldirip Misir'i himayesine aldi' (GUN, mevcut kunye f: degeriyle BIREBIR) ve 'Sultan Ahmed Fuad 15 Mart 1922'de kral unvanini aldi ve Misir'da monarsi ilan edildi' (GUN). Himaye kalibi: Kuveyt/Katar/Bahreyn/Buganda emsali (M-2784).",
   not:"KUNYE+RENK BEKLIYOR -- misir-sultanligi/misir-kralligi devletler.js'e henuz UYGULANMADI (denetim/YAMA-KUNYE-1923-0905.json). Bu yama koşu 5b BITTIKTEN ve kunyeler RENKLENDIKTEN SONRA inecek. NOT: TDV ayrica '28 Subat 1922'de Ingiltere tek tarafli olarak Misir'i bagimsiz devlet ilan etti' diyor -- bu BASKA bir tarih (diplomatik bagimsizlik ilani), kral unvaninin alinmasindan (15 Mart) 15 GUN once. Sultanlik->Krallik gecisi icin unvan degisikligi (15 Mart) esas alindi, cunku kunye adlari ('Sultanlik'/'Krallik') basin UNVANINI izliyor." },
+
+// ── Sina güneyi -- M-2953 sınavında BULUNDU, 56. kayıt ──
+// İmza (v: tek period "Kavalalı hanedanı" + t:1914-12-18) bunu YAKALAMADI
+// çünkü v: dizisi İKİ ayrı etikete bölünmüş (Vilayet 1805-1867 + Hidivlik
+// 1867-1914) — ama s:/isg: yapısı SUBSTANCE olarak 55'in geri kalanıyla
+// AYNI (s: 1914-1923 doğrudan ingiltere, isg: 1798-1801 fransa hatası).
+// AYNI dosyaya eklendi, YENİ dosya AÇILMADI (M-2953 talimatı).
+{ ad:"Sina güneyi",
+  s:[{f:"1281-01-01",t:"1517-02-15",d:"memluk"},
+     {f:"1914-12-18",t:"1922-03-15",d:"misir-sultanligi"},
+     {f:"1922-03-15",t:"1923-10-29",d:"misir-kralligi"}],
+  isg:[{f:"1798-07-01",t:"1801-10-09",d:"fransa-cumhuriyet",kaynak:"kahire"},
+       {f:"1914-12-18",t:"1923-10-29",d:"ingiltere"}],
+  kaynak:"Aynı TDV misir gövdesi (bkz. diğer 55 kayıt) + kendi mevcut kaydı (data/yerlesimler.js:1038) — v: dizisi iki etikete bölünmüş olsa da s:/isg: aynı düzeltmeyi gerektiriyor.",
+  not:"KUNYE+RENK BEKLIYOR — aynı sıra kısıtı (bkz. dosya başlığı). d: ve v: alanlarına DOKUNULMADI, yalnız s:/isg: değiştirildi (Çaçak tuzağı, TAM zincir yazıldı)." }
 
 ];
