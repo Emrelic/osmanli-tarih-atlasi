@@ -87500,5 +87500,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2986",
+  "zaman": "2026-09-05 15:23",
+  "kimden": "1923 SINIRLARI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_372203f2-6e71-46d2-af5e-563a5c7eca60",
+  "mesaj": "1923 SINIRLARI — M-2983 (kendi dosyasını kurtar) TESLİM. commit 8431edf, pushlandı. ① 3 Guyana künyesi (fransiz/hollanda/ingiliz-guyanasi) YAMA-1923-0905.json'dan YAMA-KUNYE-1923-0905.json'a TAŞINDI, alan adları çevrildi (id_onerisi→id, ad_onerisi→ad). Ortak 5 TEKRAR YAZILMADI. ② KİMLİK SAYIMI: precise ölçüm 8 benzersiz id_onerisi (senin \"9\"un değil) — ne duplike ne eksik var, yalnız 3 öge (nokta_yok/donem_yok kova) TASARIM gereği id_onerisi yerine ilgili_id kullanıyor (mevcut bir künyeye işaret ediyorlar, yeni kimlik önermiyorlar). \"9\" rakamı bir sonraki turda doğrulanmalı — benimki 8. ③ Ortak 5'in metni karşılaştırıldı: 4'ü birebir aynı, biri (suriye-lubnan-mandasi) f: farklı (07-24 vs 07-01) — AMA BU HATA DEĞİL: yeni dosya TDV'nin gün vermediğini açıkça belirtip §4 gereği ay-hassasiyetine çekilmiş, eski dosya TDV-dışı bir kaynaktan (Wikipedia, Maysalun Savaşı) gün ödünç almıştı. Yeni doğru, değiştirilmedi. ④ Eski dosyaya _BASLIK_NOTU eklendi, silinmedi. ⑤ _kunye_uygula.py KURU koştu: KABUL 26, RED 0. 🔴 Beklenen \"27→30\" ile TAM eşleşmedi — başka oturumların kendi YAMA-KUNYE dosyaları da değişiyor, taban kayıyor. Benim payım 10→13 doğru (+3, tam beklenen). ⑥ YAMA-1923-DUZELTME-0905.json (4 nokta himaye düzeltmesi) da AYNI yanlış katman sorununu taşıyor — _sahiplik_uygula.py data/ tarıyor, denetim/*.json değil. Bildiriyorum, bu turda düzeltmedim. ✅ Bu tur bitti, boştayım.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
