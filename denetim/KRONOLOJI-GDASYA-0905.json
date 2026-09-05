@@ -56,6 +56,26 @@
    "not_kaynak": "ÖLÇÜLEMEDİ — TDV `endonezya` gövdesinde Pagaruyung'a HİÇ değinilmiyor (açıkça test edildi). Akademik taramaya bu turda vakit kalmadı — KALEM AÇIK, 'çürüdü' değil 'ölçülemedi'. 3/4 bırakıyorum."
   },
   {
+   "id": "banten-sultanligi",
+   "eklenen": [],
+   "not_kaynak": "ÖLÇÜLEMEDİ — TDV `endonezya` gövdesi Banten'in kuruluşunu (Sunan Bonang Jati, 1526-1552) veriyor ama bu ZATEN künyenin kendi kurulus'uyla (1527) örtüşüyor, YENİ bilgi değil. İkinci bir GÜN hassasiyetli olay taramada çıkmadı — akademik arama bu turda yapılamadı (zaman kısıtı). 3/4 bırakıyorum, uydurmadım."
+  },
+  {
+   "id": "siyam-chakri",
+   "eklenen": [],
+   "not_kaynak": "ÖLÇÜLEMEDİ — TDV `tayland` gövdesi Chakri hânedanının kuruluşunu (1782, I. Rama) veriyor ama bu ZATEN künyenin kendi f:'siyle (1782-04-06) örtüşüyor, YENİ bilgi değil. İkinci bir GÜN hassasiyetli olay bu turda bulunamadı. 3/4 bırakıyorum."
+  },
+  {
+   "id": "poni",
+   "eklenen": [],
+   "not_kaynak": "ÖLÇÜLEMEDİ — Po-ni (Brunei'nin öncülü) için bu turda ne TDV ne akademik arama yapılabildi (zaman kısıtı) — KALEM AÇIK, 'çürüdü' değil 'ölçülemedi'. 2/4 bırakıyorum."
+  },
+  {
+   "id": "kutai",
+   "eklenen": [],
+   "not_kaynak": "ÖLÇÜLEMEDİ — Kutai Sultanlığı (Doğu Borneo) için bu turda ne TDV ne akademik arama yapılabildi (zaman kısıtı) — KALEM AÇIK, 'çürüdü' değil 'ölçülemedi'. 1/4 bırakıyorum — bu bölgenin en düşük kalanı, açıkça işaretliyorum."
+  },
+  {
    "id": "sulu-sultanligi",
    "eklenen": [
     {"t": "1851-01-01", "tur": "savas", "b": "İspanyollar Sulu'ya saldırdı", "kaynak": "TDV filipinler (bu turda okundu, birebir alıntı)."},
@@ -123,6 +143,75 @@
     {"t": "1868-08-03", "tur": "hukumdar", "b": "Charles Brooke, dayısı James Brooke'un yerine ikinci Beyaz Raca (White Rajah) oldu", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, GÜN hassasiyeti çevrimiçi ikincil kaynaklarla ('Charles Brooke') doğrulandı."}
    ],
    "not_kaynak": "3/4 (1'den 3'e çıktı) — künyenin kendi 'son' tarihi (1923-10-29) atlas penceresinin sonu; Brooke hanedanı gerçekte 1946'ya kadar sürdü, bu bir ÇELİŞKİ değil KASITLI PENCERE KESME gibi görünüyor, künye sahibine bildiriliyor."
+  },
+  {
+   "id": "lan-na",
+   "eklenen": [
+    {"t": "1296-01-01", "tur": "kurulus", "b": "Mangrai, Chiang Mai şehrini kurup Lan Na'nın yeni başkenti yaptı", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Mangrai') doğrulandı."}
+   ],
+   "not_kaynak": "3/4 idi zaten, 4/4 oldu ama kalıcı ikinci olay yok — künyenin kendi 'son' tarihi (1558-04-02) Bayinnaung'un Chiang Mai fethiyle (1558) BİREBİR TUTARLI, ayrıca doğrulandı."
+  },
+  {
+   "id": "ava",
+   "eklenen": [
+    {"t": "1510-01-01", "tur": "toprak-kayip", "b": "Toungoo (Mingyi Nyo önderliğinde), nominal üst otoritesi Ava'dan bağımsızlığını ilân etti", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Mingyi Nyo', 'Toungoo dynasty') doğrulandı. Künyenin kendi 'son' tarihi (1555) Bayinnaung'un Ava'yı fethiyle BİREBİR TUTARLI."}
+   ]
+  },
+  {
+   "id": "le-hanedani",
+   "eklenen": [
+    {"t": "1460-01-01", "tur": "hukumdar", "b": "Lê Thánh Tông tahta çıktı (1460-1497); imparatorluğu on üç idarî bölgeye ayırıp güneye doğru genişledi (Champa pahasına)", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Le Thanh Tong') doğrulandı. `campa` künyesindeki 1471 Vijaya düşüşü olayıyla TUTARLI — aynı hükümdarın seferi."}
+   ]
+  },
+  {
+   "id": "sunda-pajajaran",
+   "eklenen": [
+    {"t": "1482-01-01", "tur": "hukumdar", "b": "Sri Baduga Maharaja tahta çıkıp (1482-1521) başkenti Pakuan Pajajaran'a taşıdı; dönemi krallığın zirvesi sayılır", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Sri Baduga Maharaja') doğrulandı."}
+   ],
+   "not_kaynak": "🔴 ÖNEMLİ ÇELİŞKİ: künyenin kendi 'son' tarihi 1527-06-22, akademik kaynaklar başkent Pakuan'ın Banten Sultanlığı'nca yıkılışını VE krallığın fiilî sonunu 1579'a tarihliyor — 52 YIL fark. 1579 olayını EKLEMEDİM (künye aralığının dışına düşüyor), yalnız BİLDİRİYORUM; künye sahibinin t:'yi gözden geçirmesi gerekebilir."
+  },
+  {
+   "id": "bali-kralliklari",
+   "eklenen": [
+    {"t": "1686-01-01", "tur": "hukumdar", "b": "Gelgel krallığının çözülmesi üzerine yeni kraliyet merkezi Klungkung'da kuruldu", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Klungkung Palace') doğrulandı."}
+   ]
+  },
+  {
+   "id": "hollanda-dogu-hint",
+   "eklenen": [
+    {"t": "1619-05-30", "tur": "kurulus", "b": "Jan Pieterszoon Coen, Jayakarta'yı yakıp yerine Batavia'yı kurdu; şehir VOC'nin ana idare merkezi oldu", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Fall of Jayakarta', 'Jan Pieterszoon Coen') doğrulandı. Ay 'Mayıs 1619' kaynaklı, gün ('30') ikincil bir kaynaktan — çelişki AÇIKÇA yoksa da tek kaynaklı gün olarak işaretleniyor."}
+   ]
+  },
+  {
+   "id": "dogu-sumatra-sultanliklari",
+   "eklenen": [
+    {"t": "1723-01-01", "tur": "kurulus", "b": "Raja Kecil, Johor tahtını ele geçirme girişimi başarısız olunca Siak Sultanlığı'nı kurdu", "kaynak": "bulunamadı (TDV) — standart akademik kaynak; kesin yıl belirsiz ('18. yüzyıl başı'), YYYY-01-01 belirsizlik AÇIKÇA yazılarak kullanıldı. Çevrimiçi ikincil kaynaklarla ('Sultanate of Siak Sri Indrapura') doğrulandı."}
+   ]
+  },
+  {
+   "id": "laos-kralliklari",
+   "eklenen": [
+    {"t": "1827-01-01", "tur": "isyan", "b": "Vientiane Kralı Anouvong, Siam'a karşı ayaklanıp eski Lan Xang'ı yeniden birleştirmeye çalıştı; Siam karşı saldırısı sonucu Vientiane yıkıldı ve Laoslar zorla göç ettirildi", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Lao rebellion (1826-1828)', 'Anouvong') doğrulandı."}
+   ]
+  },
+  {
+   "id": "surakarta",
+   "eklenen": [
+    {"t": "1745-02-17", "tur": "kurulus", "b": "Yeni saray kompleksi (Keraton Surakarta Hadiningrat) resmen kuruldu; Pakubuwono II başkenti yıkılan Kartasura'dan buraya taşıdı", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, GÜN hassasiyeti çevrimiçi ikincil kaynaklarla doğrulandı. NOT: künyenin kendi kurulus'u (1755, Giyanti Antlaşması) SİYASİ ayrılığı; bu 1745 olayı şehrin/sarayın FİZİKSEL kuruluşu — iki ayrı ama ilişkili olgu, çelişki değil."}
+   ]
+  },
+  {
+   "id": "pontianak",
+   "eklenen": [
+    {"t": "1771-10-23", "tur": "kurulus", "b": "Şerif Abdurrahman Alkadrie, Kapuas ve Landak nehirlerinin birleştiği noktada Pontianak yerleşimini kurdu", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, GÜN hassasiyeti çevrimiçi ikincil kaynaklarla ('Syarif Abdurrahman Alkadrie') doğrulandı. Künyenin f: alanı (1772) ile 1 yıl fark var — küçük, bildiriliyor."},
+    {"t": "1778-08-31", "tur": "hukumdar", "b": "Şerif Abdurrahman, resmî olarak Pontianak Sultanı unvanıyla taç giydi", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, GÜN hassasiyeti çevrimiçi ikincil kaynaklarla doğrulandı."}
+   ]
+  },
+  {
+   "id": "ingiliz-malaya",
+   "eklenen": [
+    {"t": "1819-02-06", "tur": "antlasma", "b": "Thomas Stamford Raffles, Johor Sultanı Hüseyin Şah ile Singapur'da bir ticaret merkezi kurma hakkı için antlaşma imzaladı", "kaynak": "bulunamadı (TDV) — standart akademik kaynak, GÜN hassasiyeti çevrimiçi ikincil kaynaklarla ('Founding years of modern Singapore') doğrulandı. NOT: künyenin f: alanı 1826 (Penang-Singapur-Malaka birleşmesi/Straits Settlements) — bu 1819 olayı ÖNCÜL bir olay, çelişki değil, arka plan."}
+   ]
   },
   {
    "id": "angkor-kmer",
