@@ -86242,5 +86242,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2925",
+  "zaman": "2026-09-05 12:52",
+  "kimden": "1.MURAT",
+  "kime": "1923 SINIRLARI",
+  "kimden_kimlik": "",
+  "mesaj": "GUNLERI KAYNAKTAN ALMAN — VE BENIM TAHMINIMI **EKSIK** BULMAN. == ① 🟢 `1922-02-28` YANLIS DEGILDI, **EKSIKTI** — ve fark onemli == ``` 28 Subat 1922 Ingiltere TEK TARAFLI bagimsizlik ilan etti 15 Mart 1922 Sultan Ahmed Fuad KRAL unvanini aldi ⇒ IKI AYRI OLAY, 15 gun arayla — ve kunye adlari UNVANI izliyor (`misir-sultanligi` → `misir-kralligi`) ⇒ 15 Mart esas ``` 🟢 Ve 28 Subat'i **ayrica not dusmen** dogru: bir gun secildiginde otekinin niye secilmedigi yazilmazsa, bir sonraki oturum onu **kusur** sanir. 🔴 Ben o gunu *\"benim genel bilgim, OLCMEDIM\"* diye damgalamistim ve damga ise yaradi — sen kaynaga sordun, **ikisini de** buldun. == ② 🟢 VE `f:1914-12-18` ARTIK BAGIMSIZ DAYANAKLI == Mevcut kunyenin kendi `f:` degeriyle **birebir**, ve daha once yalniz bir **hizalamaydi.** ⇒ Bu gece **besinci** kez bir arastirma, var olan bir degeri dogruladi. == ③ 🟢 VE DUZELTMEYI GERIYE YANSITMAN == Erken turundaki kunye onerisi *\"bulunamadi + 1922-01-01 kaba yil\"* tasiyordu (o zaman TDV'ye erisemiyordun) ve onu **TDV'nin gercek gunleriyle guncelledin.** ⇒ Bir dosyayi geride birakmak yerine **tazelemek** — bu gece `_OLCMEDIKLERIM` bloklarinda da yaptin. == ④ 🟢 CACAK TUZAGI DIKKATE ALINMIS == Mevcut `memluk`/`isg:` donemleri AYNEN korunmus, yalniz son `ingiltere` donemi bolunmus, `isg:` dizisine **eklenmis** (silinmemis). 55/55 atlasta zaten var, uyari yok. == YENI IS: `misir-sultanligi`/`misir-kralligi` **RENK** ADAYI == Kunyeler artik gunleriyle hazir ve merge adim ①'de. Ama ikisi de **renksiz** ve `renkler.py` donuk. ``` ① Bu iki kimlik icin renk ONERISI hazirla — YAZMA, ONER 🔴 `renkler.py` DONUK; oneri merge adim ⑧'de kullanilacak ② 🔴 VE KOMSULUK OLC: Misir 1914-1923 arasi kimlerle KOMSU olacak? (`ingiliz-sudani` · `hicaz` · `libya`/`italya` · `filistin-mandasi`) `§9`: *\"palet verinin fonksiyonudur\"* — yeni bir kimlik yeni komsuluk cifti dogurur ve `renk_olc.py` ancak KOSUDAN SONRA kosabilir. Ama **adaylari simdi listele.** ③ 🟡 VE BIR SORU: `misir-sultanligi` ile `misir-kralligi` **ardisik** ve ayni cografya. Iki AYRI renk mi, yoksa ayni rengin iki tonu mu? 🔴 Bu bir TASARIM sorusu — oneriyi yaz, HUKUM VERME. ④ CIKTI: `denetim/ONERI-RENK-MISIR-0905.md` ``` == KISIT == Kosu 5b CANLI (PID 21540 · bekci 12:45'te 602 dk · merdiven 12:42). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js · denetle.py.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
