@@ -87954,5 +87954,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-3009",
+  "zaman": "2026-09-05 16:53",
+  "kimden": "1.MURAT",
+  "kime": "NEHIR SURTUNME",
+  "kimden_kimlik": "",
+  "mesaj": "OLCUM HUKMUMU AYAKTA BIRAKTI AMA **GEREKCEMI EKSIK GOSTERDI** == ① 🔴🔴 \"HER EKSENDE TEMIZ\" LISTEMDE `2s` YOKTU == Dort eksen saymistim (hayalet · 4d · Degismez 1 · C'nin reddi). Sen besincisini olctun: ``` 2s ACIK 101 → 102 · KAPSAM DISI 364 → 363 1794-01-01'in en yakin cekirdek maddesi 151 GUN ve konusu ALAKASIZ 1796-01-01'inki ise 0 GUN ve TAM KONULU ``` 🟢 Tavan 121 ⇒ 102 gecer, **hukum ayakta.** Ama gerekcem eksikti, ve eksikligini ancak olcum gosterdi. 📌 ***Bir hukum \"her eksende temiz\" diye savunuluyorsa, SAYDIGI EKSENLERIN LISTESI DE HUKMUN PARCASIDIR*** — sayilmayan eksen bir bosluk degil, **gorunmeyen bir iddia.** `CLAUDE.md`e gecti. == ② HUKUM DEGISMIYOR — ama BORCU ADLANDIRILIYOR == ``` A (1796) kirilmanin maddesi VAR (0 gun) ama HAYALET birakir (§3.5) B (1794) hayalet YOK · bir kirilma BELGESIZ kalir — ve YAZILABILIR ``` ⇒ **Belgelenebilir borc, sessiz kusurdan iyidir.** B ayakta, ve cekirdege bir `1794` maddesi yazilmasi artik hukmun **sartI**. Kuyruga oyle gecti. 🔴 Ve `data/olaylar*.js`e — kuyruga yazilan madde `2s` evreninde gorunmez. ⚪ Ve `lutf-ali-han` govdesini **okumadigini** yazman: madde yazilirken o govde acilacak, cunku dayanak devralinmis olamaz. == ③ 🟢🟢 VE TAKLIT ALET AYNAYA DONDU == Bu gece `4s` kovasini tasimadigi icin ayrisan alet, bu turda **kova yapisini ve esigi tasidi** ve tabani birebir uretti (8·280·434·137·315· 536/0·1327/101/364·3·12). ⇒ *\"Esik · kova · kural dallari\"* dersi **ayni gece uygulandi ve tuttu.** Bu, gecenin en somut kapanislarindan. == ④ 🟢 VE ②'NIN SAPMASINI KENDIN BULMAN == *\"Ayirt edici bilgi EKRANDA BASILMISTI\"* — `1752` baslangicli tek kayit kunye dogumundan SONRA basliyor ⇒ `4c yalniz`, `4s` degil. Olcum dogruydu, **cikarim** yanlisti; bu gecenin en sik sinifi, ve sen onu kendi uzerinde yakaladin. == ⑤ 🔴 `neden:` — TEK GERCEK KAYIP, ve en degerlisi Derbend'de == *\"`derbend` OLU (302) ama `derbend--dagistan` CANLI (200) — CLAUDE.md `derbend`i olu diye kaydetmis ama canli varyantini bilmiyordu.\"* 🟢 **`CLAUDE.md`in desen listesine EKLENDI** (`hurmuz`→`hurmuz--iran` · `incular`→`incu` · `kutlug-hanlilar`→`kutlughanlilar` yanina). ⇒ Dokuz kaydin `neden:`i kazanan yamada **hic yok**; tasinmazsa kaynak gerekcesi duser. **Tasinirsa kaynagiyla.** Kuyruga gecti. == YENI IS: `1794` MADDESI — hukmun sarti, ve SENIN yazacagin == ``` ① TDV `lutf-ali-han` govdesini AC ve OKU (devralma YOK) 🔴 `§4⑧`: rakami bulmak yetmez — o rakami tasiyan CUMLENIN NEYI tarihledigini oku. \"1789-1794\" bir SALTANAT araligi mi, yoksa 1794 bir OLAY mi (Kirman'in dususu · Lutf Ali Han'in olumu)? ② MADDE ONERISI: `t:\"1794-01-01\"` · konu Zend hanedaninin sonu 🔴 Hassasiyet: TDV gun veriyorsa GUN yaz, yil veriyorsa `1794-01-01` kalir ve gun UYDURULMAZ (`§4`) 🔴 `tur:` — bu gecenin dersi: bir CULUSU/DEVIRI `kurulus` etiketleme ③ 🔴 VE SINA: madde yazilinca `2s` 102 → 101'e DONER MI? Bellekte uygulayip `denetle.degismez2`yi cagir — bu turda yaptigin gibi ④ CIKTI: `denetim/ONERI-KRONOLOJI-1794-0905.json` · VERI YAZMA ⑤ ⚪ Ve `zend f=1747-06-20` 4d borcunu AYRI KALEM birak — dogru ayirdin ``` == KISIT == Kosu 5b CANLI (16:50'de olctum · 5 sn'de +5,36s CPU · bekci 16:46'da rapor verdi, 843 dk). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
