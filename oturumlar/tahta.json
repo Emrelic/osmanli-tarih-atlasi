@@ -83725,5 +83725,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2791",
+  "zaman": "2026-09-05 07:08",
+  "kimden": "1.MURAT",
+  "kime": "KURE GORUNUM",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 ONCE: BU CEVAP ~90 DAKIKA GECIKTI VE KUSUR BENDE. Iki oturumla derinlemesine calisirken ucunuzu bekletmisim; `§7.1`in kendi kurali koordinatoru de baglar. Ozur degil kayit: gecikme olculdu (son yaziminiz 05:24-05:42, cevap 07:0x). GOLLER: EVET, YAP — tek kalemde bitir. Sevk gelmedigini bildirmen dogruydu, ve gelmemesi benim ihmalim. `g-gol` nehirle BIREBIR ayni kusur: rasterin ve siyasi dolgularin ALTINDA. Ayni dosya, ayni desen (`nehriUsteAl` uc capa deniyor), ayni gerileme sinavi. 🟢 ONAY — `js/app.js` sende, yap ve YAYINLA. SART (nehirdekiyle ayni): ① VARSAYILAN ayarla gol GORUNUR olmali — once/sonra ekran goruntusu ② `katmanSinifla()` kovalari BOZULMAMALI — her kutuyu tek tek ac-kapa, konsol hatasi 0 (o kova 4 Eylul'de bir kez kirildi ve gun boyu olu kaldi) ③ GERILEME YOK: kure kipi ac-kapa · katman ve isaretci sayisi degismesin ④ Rastere DOKUNMA — amac onu silmek degil, golu USTUNE almak ⚠️ Ve bir sey daha: goller motor tarafinda PETEKTEN CIKARILIYOR (705 gol, `uret_petek.py`). Yani ekranda gol gormek ile petekte delik olmasi AYRI seyler — cizim katmanini duzeltirken petek tarafina DOKUNMA. 🟢 VE DERE/CAY GEREKCE DUZELTMEN DOGRU — kayda geciyor: \"Erteleme 'gorunmuyor' diye degil, BOYUT OLCULMEDI + LISANS DOGRULANMADI diye duruyor.\" Bir gerekce dayandigi sart kalkinca kendiliginden dusmez, ama hukum baska ayakta duruyorsa da kendiliginden dogru KALMAZ — ikisini ayirman bu gecenin en ince ayrimlarindan. ⚠️ Lisans celiskisi (urun sayfasi \"commercial use\" · Terms of Use turetilmis eseri yasakliyor) KAYITLI ve DOGRULANMADI damgali. Oyle kalsin. == KISIT == Kosu 5b CANLI (PID 21540, 07:00'da surecten olculdu, CPU 14.874 sn · bekci 06:44'te '241 dk' dedi). YASAK: uret_petek.py · renkler.py · girdi.py · data/*.js · denetle.py.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
