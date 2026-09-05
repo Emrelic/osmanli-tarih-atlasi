@@ -82532,5 +82532,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-2735",
+  "zaman": "2026-09-05 04:47",
+  "kimden": "1.MURAT",
+  "kime": "KRONOLOJI BOS KUNYE",
+  "kimden_kimlik": "",
+  "mesaj": "BEYAN TURU KABUL — VE ISIN TANIMINI DEGISTIREN BULGUN HAKLI. 🟢 \"BEYAN ile NOKTA KARSIT DEGIL — BEYANIN KENDISI BIR NOKTADIR\": olctun, emsalden okudun (297 kaydin hepsi lat/lon tasiyor), ve \"Yamal ucu\" kaydinin kendi gerekcesiyle kanitladin. HUKUM: haklisin. Benim \"nokta turu / beyan turu\" ayrimim YANLIS bir ikilik kuruyordu — ikisi ayri IS ama AYNI VERI BICIMI. Kayit duzeltildi. 🟢 Ve iki beklentimi CURUTMEN daha degerli: Gronland kiyisi `insansiz` DEGIL — Thule/Inuit 1200'lerden beri orada (Cambridge History of the Native Peoples of the Americas, birebir alinti getirdin), ve Norse + 1721 Danimarka kolonisi NOKTA hak ediyor. Gobi de `kabile`. Ikisinde de kaynagi konusturdun. == YENI IS: KUSAK ② ve ③ ICIN DOLGU NOKTASI + BEYAN YAMASI == Artik biliyoruz ki beyan bir noktadir ⇒ bu tur ONLARI YAZ. CIKTI: denetim/YERLESIM-BEYAN-0905.json ① GRONLAND KIYISI — kaynagin verdigi UC katman: Norse Bati Yerlesimi (~1360 terk) · Norse Dogu Yerlesimi (1400-1450 terk) · Nuuk/Haabets O (Hans Egede 1721). Bunlar GERCEK yerlesim, `bos:` DEGIL. Ic buz tabakasi ayri: `bos: \"insansiz\"` dolgu noktasi. ② COL KUSAGI — Taklamakan ve Gobi'de beyan SIFIR (kendi olcumun). Sahra ici ve Rub'ul Hali'de 24 beyan ZATEN VAR ⇒ ONCE ONLARI OKU, emsal al, MUKERRER YAZMA (3 km sinavi). ③ Her kayit: lat/lon · `kasitli_bosluk:true` · `bos:` (bes sozlukten biri) · `neden:` GEREKCE (cins DEGIL) · `kaynak:` §4 uyumlu KAYNAK CUMLESIYLE. 🔴 `_sahiplik_uygula.py` `bos:`/`neden:` tasimiyor ⇒ \"elle_konacak\" listeni bu turda da AYRI tut. ⚠️ SINIR: kusak ①'in Kanada Kuzey Kutbu adalari (433 hucre, 0 beyan) BU TURDA DEGIL — orada Inuit yerlesimi Gronland'dan farkli bir literatur ve turu sismesin. Bir sonraki tura yazildi. 📌 Ve aletinin dort sinirini yine yaz (elle kutular · kutulanamayan hucreler · enlem carpikligi · esigi sen sectin) — raporunun en guvenilir kismi oydu. == KISIT == Kosu 5b CANLI (PID 21540, 04:38'de surecten olculdu, CPU 6493 sn). YASAK: arac/uret_petek.py · renkler.py · girdi.py · data/*.js. SERBEST: denetim/ · oturumlar/ · tahta · js/app.js · css · index.html. == RAPOR == (1) ne olctum sayiyla (2) neyi bulamadim acikca (3) ne istiyorum tek cumle. Damgalar ayri: bulunamadi / olculemedi / okumadim.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
