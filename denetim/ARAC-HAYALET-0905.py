@@ -32,7 +32,10 @@ from datetime import date
 
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(KOK, "arac"))
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
+# 🔴 `sys.stdout` MODÜL DÜZEYİNDE SARILMAZ — uzlaştırma turunda ölçüldü:
+#    bu satır burada olduğunda aleti `import` eden betiğin stdout'u
+#    KAPANIYOR ("I/O operation on closed file"). Bir alet, import edilmekle
+#    çağıranı bozmamalı. Sarma artık `main()` içinde.
 
 UFUK_BAS = "1281-01-01"
 UFUK_SON = "1923-10-29"
@@ -102,18 +105,27 @@ def olc(Y, pen):
                 if kf is None or kt is None:
                     continue
                 # ⚪ SINIR İŞARETİ — pencere ucu bir ÖLÇÜM DEĞERİ değildir
-                if p.get("f") == UFUK_BAS or p.get("t") == UFUK_SON \
-                        or kfs == UFUK_BAS or kts == UFUK_SON:
-                    ucta = True
-                else:
-                    ucta = False
+                # 🔴 DÜZELTİLDİ (uzlaştırma turu): ilk sürümde bu bayrak
+                #    KESİŞMEYEN dönemleri de yutuyordu ve ALTI GERÇEK
+                #    HAYALETİ (hepsi `iran`, f:1281-01-01) ihlal dışına
+                #    çıkarıyordu. `denetle.py` haklıydı: pencere-ucu
+                #    muafiyeti ANA hayalet testine DEĞİL, yalnız
+                #    "taşma" kovasına uygulanır (`:1805` `kt < ATLAS_SONU`,
+                #    `:1812` `kf > ATLAS_BASI`).
+                ucta = (p.get("f") == UFUK_BAS or p.get("t") == UFUK_SON
+                        or kfs == UFUK_BAS or kts == UFUK_SON)
                 # kesişim var mı
-                if pt <= kf or pf >= kt:
-                    yil = (kf - pt).days / 365.25 if pt <= kf \
+                # 🔴 DÜZELTİLDİ: `<=` yerine `<`. Bitişik dönem (biri
+                #    künyenin doğduğu gün BİTİYOR) bir boşluk değil NORMAL
+                #    DEVİRDİR. İlk sürüm Tenochtitlan ve Tlacopan'ı
+                #    (aztek 1325→1428, künye 1428→) yanlışlıkla hayalet
+                #    saydı; `denetle.py` saymıyor ve HAKLI.
+                if pt < kf or pf > kt:
+                    yil = (kf - pt).days / 365.25 if pt < kf \
                         else (pf - kt).days / 365.25
                     kayit = (ad, alan, kim, p.get("f"), p.get("t"),
                              kfs, kts, round(yil, 1))
-                    (sinir if ucta else tam).append(kayit)
+                    tam.append(kayit)          # ← ucta OLSA BİLE ihlaldir
                     continue
                 # kısmen taşıyor mu (tolerans dışı)
                 on = (kf - pf).days
@@ -171,13 +183,27 @@ def sinav():
     print("            (c) KÜNYESİZ (isg alanından!) → %d  %s"
           % (len(kz), "✓" if g2c else "🔴 ÖTMEDİ"))
 
-    # ⚪ SINIR İŞARETİ ayrı kovaya düşmeli, ihlal SAYILMAMALI
-    d_ = [{"ad": "SINAV-SINIR", "s": [{"f": UFUK_BAS, "t": "1200-01-01",
+    # ⚪ SINIR İŞARETİ — KESİŞEN ama ucu pencereye dayanan dönem
+    # 🔴 BU SINAV UZLAŞTIRMA TURUNDA DEĞİŞTİ. Eski hâli KESİŞMEYEN bir
+    #    dönemi ⚪ bekliyordu ve o beklenti YANLIŞTI — `denetle.py` ile
+    #    karşılaştırma altı gerçek hayaletin (hepsi `iran`) benim ⚪ kovam
+    #    tarafından yutulduğunu gösterdi. Sınav düzeltilen ANLAMA göre
+    #    yeniden yazıldı. 📌 C13 tam bunun için var: anlam değişince sınav
+    #    ÖTTÜ ve beklentiyi ben değil ALET düzeltti.
+    d_ = [{"ad": "SINAV-SINIR", "s": [{"f": UFUK_BAS, "t": "1560-01-01",
                                        "d": "hayali"}]}]
     t, ts, sn, _, _ = olc(d_, pen)
     g2d = (len(sn) == 1 and len(t) == 0 and len(ts) == 0)
-    print("            (d) SINIR İŞARETİ ayrı kovada → sınır %d · ihlal %d  %s"
+    print("            (d) KESİŞEN + ucu pencerede → sınır %d · ihlal %d  %s"
           % (len(sn), len(t) + len(ts), "✓" if g2d else "🔴 YANLIŞ KOVA"))
+
+    # 🔴 (f) YENİ DAL — pencere ucu bir MUAFİYET DEĞİLDİR
+    f_ = [{"ad": "SINAV-UC-AMA-HAYALET",
+           "s": [{"f": UFUK_BAS, "t": "1200-01-01", "d": "hayali"}]}]
+    t, ts, sn, _, _ = olc(f_, pen)
+    g2f = (len(t) == 1 and len(sn) == 0)
+    print("            (f) KESİŞMEYEN + ucu pencerede → İHLAL %d · sınır %d  %s"
+          % (len(t), len(sn), "✓" if g2f else "🔴 ⚪ KOVASI YUTUYOR"))
 
     # 🔴 3 HANELİ YIL — dizgi karşılaştırması burada ÇÖKER
     pen2 = {"eski": (_gun("962-02-02"), _gun("1923-10-29"),
@@ -191,10 +217,11 @@ def sinav():
 
     print("\n③ GİRDİ     gerçek dosyalardan okuma yolu aşağıdaki ANA KOŞUDA")
     print("④ ÇIKTI     `oku_devletler()` dönüşünün biçimi ANA KOŞUDA basılıyor")
-    return all([g1, g2a, g2b, g2c, g2d, g2e])
+    return all([g1, g2a, g2b, g2c, g2d, g2e, g2f])
 
 
 def main():
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
     ayrinti = "--ayrinti" in sys.argv
     if "--sinav" in sys.argv:
         ok = sinav()
