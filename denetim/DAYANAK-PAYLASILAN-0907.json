@@ -1802,5 +1802,118 @@
     }
    }
   ]
+ },
+ "D_AVRUPA_KALANI": {
+  "_NOT": "⑲ kalemi. Kesin Avrupa olan 4 gün + iki `R0` günü. 🔴 `1919-11-22` ve `1921-07-11` bana verildi ama ikisi de DOGU-GD-ASYA (mogolistan·cin-cumhuriyeti) — DOKUNMADIM, takas bildirildi.",
+  "_BULGU": "🔴 ALTI GÜNÜN HİÇBİRİNİ TDV GÜN HASSASİYETİNDE DOĞRULAMADI. Üçünde TDV olayı tanıyor ama BAŞKA bir gün veriyor ya da hiç gün vermiyor. Bu, `§4`ün 'hassasiyet kaynağı aşamaz' kuralının altı katlı vakası: atlas GÜN yazıyor, kaynak YIL ya da BAŞKA GÜN diyor.",
+  "gunler": [
+   {
+    "gun": "1918-10-26",
+    "nokta": 4,
+    "kimlik": [
+     "fransa-cumhuriyet"
+    ],
+    "etkilenen_bolgeler": {
+     "DOGU-AVRUPA": 6,
+     "ORTADOGU-IRAN": 2
+    },
+    "kaynak": "halep (TDV)",
+    "hassasiyet": "🔴 TDV BAŞKA GÜN VERİYOR — 27 Ekim 1918",
+    "alinti": "«Cemal Paşa … geri çekildi ve şehir önce Arap kuvvetleri, ardından da İngilizler tarafından işgal edildi (27 Ekim 1918)»",
+    "not": "Gövdede «26 Ekim» HİÇ GEÇMİYOR. Fark 1 GÜN ⇒ takvim çevrimi DEĞİL (o 10-13 gün olurdu). Muhtemel sebep OLAY TANIMI: Osmanlı çekilmesi (26) ile işgalin tamamlanması (27) ayrı günler olabilir — atlasın `s:` kırılması çekilmeyi işaretliyor olabilir. 🔴 ÖLÇMEDİM: atlasın 26'yı hangi olaya bağladığını. KARAR KOORDİNATÖRDE, veriye dokunmadım."
+   },
+   {
+    "gun": "1833-06-30",
+    "nokta": 3,
+    "kimlik": [],
+    "etkilenen_bolgeler": {
+     "DOGU-AVRUPA": 2,
+     "BALKANLAR": 1
+    },
+    "kaynak": "bulunamadı",
+    "hassasiyet": "🔴 TDV'nin 1833 tarihlerinin HİÇBİRİ bu gün değil",
+    "alinti": "İki gövdeden çıkan sekiz tam 1833 tarihi: 2 Şubat · 3-7 Şubat · 20 Şubat · 30 Mart · 3 Mayıs · 5 Mayıs · 8 Temmuz · 18 Eylül. «30 Haziran» İKİ GÖVDEDE DE GEÇMİYOR.",
+    "not": "⚠️ Ve bu günün `kimlik` alanı BOŞ — hiçbir devlet kimliği değişmiyor. İkisi birlikte okununca gün bir YER TUTUCU olabilir. 🔴 Bunu ÖLÇMEDİM, yalnız iki işaretin yan yana durduğunu bildiriyorum."
+   },
+   {
+    "gun": "1918-11-28",
+    "nokta": 2,
+    "kimlik": [
+     "avusturya",
+     "romanya-kralligi"
+    ],
+    "etkilenen_bolgeler": {
+     "BALKANLAR": 2,
+     "DOGU-AVRUPA": 2
+    },
+    "kaynak": "romanya (TDV)",
+    "hassasiyet": "🟡 OLAY doğrulandı · GÜN doğrulanmadı — TDV 1 Aralık 1918 diyor",
+    "alinti": "«1775'te yine Avusturya'ya dahil olan Bukovina … her birinin yerli halkının kararıyla Romanya Krallığı bayrağı altında birleşti. Böylece Büyük Romanya … oluştu (1 Aralık 1918)»",
+    "not": "TDV Bukovina'yı ADIYLA anıyor (3 kez) ama BİRLEŞMEYİ tek bir güne — 1 Aralık, Alba Iulia — bağlıyor. Atlasın 28 Kasım'ı BUKOVINA'YA ÖZGÜ genel kongre günüdür ve TDV onu vermiyor. ⇒ Çelişki DEĞİL, TANECİK farkı: TDV birleşmeyi toplu anlatıyor, atlas bileşenini ayrı tutuyor."
+   },
+   {
+    "gun": "1866-10-03",
+    "nokta": 5,
+    "kimlik": [
+     "avusturya",
+     "italya"
+    ],
+    "etkilenen_bolgeler": {
+     "ITALYA": 6,
+     "BALKANLAR": 4
+    },
+    "kaynak": "venedik · italya · avusturya (TDV, üçü de)",
+    "hassasiyet": "🟡 YIL doğrulandı (1866) · GÜN doğrulanmadı",
+    "alinti": "`italya`: «Avusturyalılar'a karşı Prusya ile yapılan antlaşmadan sonra 1866'da Venedik ülkenin topraklarına katıldı» · `venedik`: «XIX. yüzyılda Avusturya İmparatorluğu'nun, 1866'da İtalya Krallığı'nın bir parçası haline geldi»",
+    "not": "Üç gövdenin üçü de 1866'yı veriyor, HİÇBİRİ gün vermiyor — gövdelerde 1866'nın tam tarihi YOK. `R0`dan çıktı: eski dayanağı «bulunamadı — gün DOĞRULANMADI» idi; artık YIL düzeyinde DAYANAKLI."
+   },
+   {
+    "gun": "1860-03-18",
+    "nokta": 6,
+    "kimlik": [
+     "parma",
+     "sardinya",
+     "papalik",
+     "ferrara"
+    ],
+    "etkilenen_bolgeler": {
+     "ITALYA": 8,
+     "BALKANLAR": 4
+    },
+    "kaynak": "bulunamadı",
+    "hassasiyet": "🔴 bulunamadı — TDV arandı, yok",
+    "alinti": "`italya` (71.389 kar.) ve `sardinya` (14.683 kar.) gövdeleri okundu; 1860 ile Sardinya/Piyemonte/Toskana yan yana GEÇMİYOR.",
+    "not": "§4: TDV bu taneciği (İtalyan birleşmesinin iç adımları) kapsamıyor — COĞRAFÎ değil TANECİKLİK boşluğu. Akademik kaynak meşru, ama bu turda ULAŞMADIM."
+   },
+   {
+    "gun": "1477-01-05",
+    "nokta": 2,
+    "kimlik": [
+     "burgonya",
+     "fransa"
+    ],
+    "etkilenen_bolgeler": {
+     "BATI-ORTA-AVRUPA": 2,
+     "ITALYA": 2
+    },
+    "kaynak": "bulunamadı",
+    "hassasiyet": "🔴 bulunamadı — TDV arandı, yok",
+    "alinti": "`burgonya` ÖLÜ · `lorraine` ÖLÜ · `fransa` (120.747 kar.) okundu, 1477 ile Nancy/Burgonya/Charles yan yana geçmiyor.",
+    "not": "🟡 VE SEVKİN İPUCU YARIM: «ikisi de antlaşma günü» denmişti — Nancy bir MUHAREBEDİR, imzalanmış metni yoktur. «Belgenin kendi metnine inmek» yolu burada AÇIK DEĞİL; kaynak vekayiname/akademik olmalı."
+   }
+  ],
+  "_DOKUNULMAYAN": {
+   "1919-11-22": "mogolistan·cin-cumhuriyeti · DOGU-GD-ASYA(20) — ASYA kolunun",
+   "1921-07-11": "cin-cumhuriyeti·mogolistan · DOGU-GD-ASYA(20) — ASYA kolunun",
+   "_gerekce": "Bana AVRUPA diye verildiler; ölçüm ikisinin de Doğu Asya olduğunu gösterdi. Mükerrer iş olmasın diye DOKUNMADIM."
+  },
+  "_KARNE": {
+   "gun": 6,
+   "GUN_dogrulandi": 0,
+   "TDV_BASKA_GUN_veriyor": 1,
+   "YIL_dogrulandi": 2,
+   "bulunamadi": 2,
+   "dayanaksiz_yer_tutucu_suphesi": 1
+  }
  }
 }

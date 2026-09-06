@@ -1,7 +1,7 @@
 {
   "oturum": "RENK KAPISI (⑫ KOL)",
   "damga": "2026-09-07 · ONGORU — HICBIR OLCUM YAPILMADAN yazildi",
-  "durum": "TESLIM — olcum bitti",
+  "durum": "TESLIM · Ⓑ SECILDI (koordinator) · guvensiz yon OLCULDU ve KAPANDI",
   "gorev": "Bekleyen yamalarin kullandigi renksiz kimlikleri cikar ve renk ONER. renkler.py DONUK (kosu 7b, PID 3880) — cikti denetim/ altina.",
   "devralinan": {
     "iddia": "Bekleyen yamalarin kullandigi 81 kimligin 17'sinin rengi yok ⇒ 17 harita deligi",
@@ -44,13 +44,13 @@
   ],
   "olculemedi": [
     "Onerilen renk CIZILMEDI — butun sayilar hesaptan.",
-    "11 es zamanli kimligin VERIDE noktasi yok ⇒ Viyana/Graz'a mesafeleri OLCULEMEDI. Kisit kumesine ALINMADILAR; biri gercekten yakinsa payim oldugundan kucuk olabilir. Guvensiz yon.",
     "152 kimligin 142'sinin rengi VAR diye dogruladim ama o renklerin BIRBIRIYLE cakisip cakismadigini olcmedim — gorevim renksizleri bulmakti.",
     "Grep'le 'd:\"x\"' arayip bosluklu yazimi (d: \"x\") KACIRDIM; vm tabanli aletim dogru buldu. Iki alet celisince vm'e guvendim ve dogruydu.",
     "Uc somurge kunyesinin ONERI dosyasindaki f:/t: degerleri DOGRULANMADI — AMERIKA'nin olcumu, ben kaynaga sormadim.",
     "Onerilen dort rengin (avusturya-cumhuriyet + uc somurge) hicbiri CIZILMEDI.",
     "Uc somurge icin 'noktasiz' kimlikler (11-13 adet) mesafe ayaginda OLCULEMEDI ve kisit kumesine ALINMADILAR — biri gercekten yakinsa payim oldugundan kucuk. Guvensiz yon.",
-    "🟡 YAN GOZLEM (gorevim degil, kayda geciyorum): harita penceresi artik box(-180,-60,180,85) — BUTUN DUNYA. 0904 turumda dort Sibirya bosluk kaydimin 'pencere disi' oldugunu ve M-0342 hukmunun SINANAMADIGINI yazmistim; pencere acildigina gore o sinav ARTIK KOSULABILIR. Ben kosmadim — kolum degil."
+    "🟡 YAN GOZLEM (gorevim degil, kayda geciyorum): harita penceresi artik box(-180,-60,180,85) — BUTUN DUNYA. 0904 turumda dort Sibirya bosluk kaydimin 'pencere disi' oldugunu ve M-0342 hukmunun SINANAMADIGINI yazmistim; pencere acildigina gore o sinav ARTIK KOSULABILIR. Ben kosmadim — kolum degil.",
+    "🟢 KAPANDI (onceden 'olculemedi' idi): 11 noktasiz kimligin Viyana/Graz'a mesafesi hala olculemiyor, AMA en kotu hal sinaviyla Ⓑ'nin bu riske DAYANIKLI oldugu gosterildi — bkz. EN_KOTU_HAL_SINAVI."
   ],
   "olcum": {
     "yama_dosyasi": 81,
@@ -99,7 +99,12 @@
       "altlik_dE": 30.8,
       "not": "renk_olc'un kendi 'yetinmeci' olcutu (L_ORT/S_ORT'a yakinlik), komsu payi >=20 sartiyla."
     },
-    "ONERIM": "B_SUREKLILIK — komsu payi da yuksek (>=32) ve ardil kimligi gorsel olarak baglıyor. A daha guvenli ama Avusturya'yla hicbir baglantisi yok; C paletin hissine en yakin."
+    "ONERIM": "B_SUREKLILIK — komsu payi da yuksek (>=32) ve ardil kimligi gorsel olarak baglıyor. A daha guvenli ama Avusturya'yla hicbir baglantisi yok; C paletin hissine en yakin.",
+    "SECILEN": {
+      "hex": "#f9e006",
+      "secen": "koordinator (1.MURAT HUDAVENDIGAR)",
+      "gerekce": "avusturya (#bdab3f) ile 12-25 bandinda ⇒ ardil kimligin GORSEL SUREKLILIGI; ve komsu payi 34.6, Ⓐ'nin 36.1'ine neredeyse esit ⇒ sureklilik neredeyse BEDAVA."
+    }
   },
   "🔴 IKINCI ON SART — BENIM ISIM DEGIL": {
     "kaynak": "data/yer_yama_ok109.js · kaydin kendi `d2_gerek` alani",
@@ -176,5 +181,17 @@
     ],
     "🟢 HUKUM": "AYAK AYIRT EDIYOR ⇒ OLCUTTUR, on kosul degil. Sert kipte guvenli gorunen bir renk (dE 21.6) yumusak kipte esigin ALTINA dusuyor (11.1). Tek kipte olcen, gercek bir ihlali KACIRIR. ⇒ dE iki kipte de olculup KUCUGU alinmali.",
     "nicin_ingiltere": "Ayirt eden ciftlerin ornekleri hep `ingiltere` ile — beklenen, cunku bunlar Ingiliz somurgeleri ve Ingiltere'ye komsu/yakin."
+  },
+  "EN_KOTU_HAL_SINAVI": {
+    "_nicin": "§11 kuba↔lunda: engel_kumesi() VERISI OLMAYAN adayi 'sorun olmayan aday' diye eledi, sonra noktalar indi ve 365 km komsu ciktilar. Care: 'kunyesi ortusen VE ayni bolgede olan noktasiz aday EN KOTU HAL varsayilarak engel sayilir.'",
+    "benim_acik_riskim": "11 es zamanli kimligin VERIDE noktasi yoktu; mesafe olculemedi ve kisit kumesine ALINMADILAR. GUVENSIZ yon: biri gercekten yakinsa payim oldugundan kucuk olurdu.",
+    "olcum": {
+      "noktasiz_es_zamanli": 11,
+      "bolgeleri": "orta-asya 2 · arabistan 5 · guney-amerika 3 · sibirya-bozkir 1",
+      "Viyana_Graz_bolgesi_orta_avrupa_da_olan": 0,
+      "en_temkinli_hal_11_in_hepsi_engel_sayilsa": "en yakin irak-kralligi dE 31.90"
+    },
+    "🟢 HUKUM": "RISK OLCULDU VE KAPANDI. Ⓑ #f9e006 hem §11 caresi altinda (orta-avrupa'da noktasiz kimlik YOK ⇒ care hic baglamıyor) hem de EN TEMKINLI halde (11'in hepsi engel sayilsa bile dE 31.90) AYAKTA. Onerinin gecerliligi bu riske BAGLI DEGIL.",
+    "_not": "renkler.py'ye DOKUNULMADI — yalniz okundu. Care UYGULANMADI, yalniz Ⓑ'nin ona DAYANIKLI oldugu gosterildi."
   }
 }
