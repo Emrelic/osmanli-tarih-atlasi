@@ -1,0 +1,115 @@
+{
+ "_NOT": "② EKSİK KÜNYE · NEHİR SÜRTÜNME · 6 Eylül 2026 · ÖNERİDİR, HÜKÜM DEĞİL. Sevkin öncülü (7 polity / 39 dönem) ÖLÇÜLDÜ ve DEĞİŞTİ: `v:` katmanında künye karşılığı bulunamayan 16 etiket / 47 dönem var, AMA bunların 5'i POLITY DEĞİL (durum tarifi) ve künye ALMAMALI. Gerçek polity: 10 etiket / 26 dönem + Konstantin beyliği 16 dönem = 42 dönem.",
+ "_YONTEM": "Künyeler `devletler.js`ten node+vm ile okundu (regex DEĞİL). Eşleştirme KÖK bazlı; ilk sürümüm `Cezayir Ocaklığı` ile künye `Cezayir Ocağı`yı bağlayamayıp 22 polity saymıştı — kendi üzerimde çürüdü ve düzeltildi.",
+ "_SAHTE_ESLESME": "İki aday KÜNYE DEĞİL, tuzak: `Sânî emirliği` (Katar) → `san-devletleri` (Burma, Şan Beylikleri); `Konstantin beyliği` (Cezayir) → `ahmednagar` (Hindistan). Kök eşleşmesi bulur, DOĞRU ŞEYİ bulmaz.",
+ "_TARIH_KURALI": "§4: gün uydurulmadı. Kaynak gün vermiyorsa veri günü DEVRALINDI ve `kaynak` alanında AÇIKÇA damgalandı. Doğrulanan tek gün Tököli'nin `t:`si.",
+
+ "kunye": [
+  {
+   "id": "orta-macar-kralligi",
+   "ad": "Orta Macar Krallığı (Tököli İmre)",
+   "f": "1682-09-16",
+   "t": "1688-01-17",
+   "bolge": "orta-avrupa",
+   "ozet": "Osmanlı Devleti'nin Habsburglara karşı Kuzey Macaristan'da kurdurduğu vasal krallık. İmre Tököli 1682'de Osmanlı desteğiyle kral ilân edildi; II. Viyana bozgunundan sonra Osmanlılar onu yenilgiden sorumlu tutup 15 Ekim 1685'te tutukladı. Krallığın son kalesi Munkács, Tököli'nin eşi Ilona Zrínyi'nin idaresinde 1688 başına kadar direndi.",
+   "kaynak": "TDV `tokoli-imre` — madde başlığı polity'yi ADIYLA doğruluyor: «TÖKÖLİ, İmre (ö. 1705) Osmanlılar'a bağlı Orta Macar kralı ve Erdel prensi». 🟢 TDV DOĞRULADI: «15 Ekim 1685'te Serdar Melek İbrâhim Paşa'nın emriyle Varad Beylerbeyi Ahmed Paşa kendisine yardım için gelen İmre Tököli'yi yakalattı.» 🔴 AMA O GÜN `t:` DEĞİL: kapsama sınavım künyeyi ÇÜRÜTTÜ — veri `1688-01-17`ye kadar gidiyor (Ilona Zrínyi'nin Munkács'ı). Tököli'nin TUTUKLANMASI polity'nin SONU değil; `t:` veriye göre açıldı ve o gün kaynaksız. ⇒ `§11` «veri penceresi ile künye penceresi AYRI şeylerdir» dersinin canlı vakası. 🟡 `f:` VERİDEN DEVRALINDI — TDV «1682 başında» ve «mayıs başında» diyor, 16 Eylül gününü VERMİYOR."
+  },
+  {
+   "id": "arvanid-sancagi",
+   "ad": "Arvanid Sancağı (Arnavut-ili)",
+   "f": "1415-01-01",
+   "t": "1537-08-25",
+   "bolge": "balkanlar",
+   "ozet": "Osmanlıların Arnavutluk'ta kurduğu ilk sancak. Güney Arnavutluk kıyısında hâkimiyet uzun süre nominal kaldı; yerel beyler tâbiiyeti tanımakla birlikte fiilî idare kurulamadı.",
+   "kaynak": "TDV `arnavutluk` — 🟢 KURULUŞ DOĞRULANDI: «Arnavutluk'un tamamını ele geçirerek Arvanid-ili (Arnavut-ili) adıyla bilinen sancağı kurmuşlardır (1415-1417)». 🔴 DİKKAT: veri bu etiketi `1430-10-01`den kullanıyor, kaynak ise sancağı 1415'te kuruyor ⇒ künye penceresi kaynağa göre AÇILDI ve veriyi de kapsıyor. `t:` (1537-08-25) VERİDEN, kaynaksız."
+  },
+  {
+   "id": "mekke-serifligi",
+   "ad": "Mekke Şerifliği",
+   "f": "1281-01-01",
+   "t": "1919-01-10",
+   "bolge": "arabistan",
+   "ozet": "Mekke'yi ve Hicaz'ın kutsal şehirlerini idare eden Hâşimî şerifleri. 1517'de Osmanlı hâkimiyetini tanıdılar ve dört yüzyıl boyunca Osmanlı adına idareyi sürdürdüler.",
+   "kaynak": "TDV `haremeyn` — «Mısır'ın fethiyle birlikte (1517) Memlükler'in nüfuzu altında bulunan Haremeyn de Osmanlı hâkimiyetini tanıdı. O sıradaki Mekke Emîri Şerîf…» 🟡 `f:` ATLAS PENCERESİ KONVANSİYONU — şeriflik atlas penceresinden ESKİ (TDV `mekke`, 133.872 kar.), bir kuruluş iddiası DEĞİL. 🔴 `t:` İLK YAZIMDA 1916-06-10 (Şerif Hüseyin'in isyanı) İDİ ve kapsama sınavım ÇÜRÜTTÜ: veri `1919-01-10`a kadar gidiyor — Medine'nin teslim günü. `t:` veriye göre açıldı, gün KAYNAKSIZ. ⚠️ Ve bu `t:` bir POLITY SONU DEĞİL, ATLAS KULLANIM SONU: şeriflik o gün sona ermedi, Hicaz Krallığı olarak sürdü."
+  },
+  {
+   "id": "konstantin-beyligi",
+   "ad": "Konstantin Beyliği (Ahmed Bey)",
+   "f": "1830-07-05",
+   "t": "1844-03-04",
+   "bolge": "kuzey-afrika",
+   "ozet": "Fransa'nın Cezayir'i işgalinden sonra doğu beyliğinde Ahmed Bey'in Osmanlı adına sürdürdüğü idare. Konstantin 1837'de Fransızların eline geçti; iç kesimlerdeki direniş 1840'ların ortasına kadar sürdü.",
+   "kaynak": "TDV `kostantine` — gövde okundu (11.785 kar.), madde Osmanlı FETHİNE odaklı (1517 · 1519-20 · 1526 · 1533-34) ve Ahmed Bey dönemi için GÜN VERMİYOR. 🔴 `f:`/`t:` VERİDEN DEVRALINDI, kaynaksız. `f:` 1830-07-05 (Cezayir'in Fransızlara düşüşü) ve `t:` yerleşimden yerleşime değişiyor (1832-03-01 … 1844-03-04); künye penceresi HEPSİNİ KAPSAYACAK biçimde en genişine açıldı."
+  },
+  {
+   "id": "sani-emirligi",
+   "ad": "Âl-i Sânî Emirliği (Katar)",
+   "f": "1871-09-20",
+   "t": "1913-07-29",
+   "bolge": "arabistan",
+   "ozet": "Katar yarımadasında Âl-i Sânî ailesinin emirliği. 1871'de Osmanlı idaresine kazâ olarak bağlandı; I. Dünya Savaşı öncesinde Osmanlı-İngiliz antlaşmasıyla İngiliz nüfuz alanına bırakıldı.",
+   "kaynak": "TDV `katar` — 🟢 YIL DOĞRULANDI: «1871 baharında Nâfiz Paşa kumandasındaki birliklerle Lahsâ'ya bir sefer düzenledi» ve «1868 sonbaharında Katar'a gemi göndererek Muhammed b. Sânî'yi Bahreyn emîrlerine vergi vermeye mecbur bıraktılar». 🟡 GÜNLER (09-20 · 07-29) VERİDEN DEVRALINDI, kaynaksız. ⚫ `al-i-sani` slug'ı CANLI ama BOİLERPLATE (2.390 kar., §4④) — 'yok' SAYILMADI, okunamadı."
+  },
+  {
+   "id": "sabah-emirligi",
+   "ad": "Sabah Emirliği (Kuveyt)",
+   "f": "1795-04-01",
+   "t": "1914-11-22",
+   "bolge": "arabistan",
+   "ozet": "Kuveyt'te Âl-i Sabâh ailesinin şeyhliği. Uzun süre Basra'ya bağlı Osmanlı kazâsı sayıldı; 1899'dan itibaren fiilen İngiliz himayesine girdi.",
+   "kaynak": "TDV `kuveyt` — «Hindistan genel valisi Lord Curzon yüzbaşı Mead'i Küveyt'e göndererek Mübârek es-Sabâh ile gizli bir antlaşma yaptı (23 Ocak 1899)» ve «uzunca bir süre Türk hâkimiyetinde kaldıktan sonra İngiliz himayesinde bir şeyhliğe dönüştü». 🟡 `f:`/`t:` VERİDEN DEVRALINDI; TDV bu iki günü VERMİYOR. Veri iki dönem taşıyor (1795-04-01→1871-01-01 himaye, 1871-01-01→1914-11-22 kazâ); künye ikisini de kapsıyor."
+  },
+  {
+   "id": "kumuk-samhalligi",
+   "ad": "Kumuk Şamhallığı (Tarki)",
+   "f": "1578-11-01",
+   "t": "1607-01-01",
+   "bolge": "kafkasya",
+   "ozet": "Dağıstan'da Tarki merkezli Kumuk şamhallığı. Osmanlı-Safevî mücadelesi sırasında Osmanlı tâbiiyetini tanıdı; sonraki yüzyıllarda Rus baskısı altında bağımsızlığını yitirdi.",
+   "kaynak": "TDV `kumuklar` — şamhallık ADIYLA anlatılıyor: «Ruslar şemhallerin bağımsız yönetimlerine son verdiler (1725)» ve «Kumuklar, 1586 yılından itibaren başlayan Rus saldırılarına…». 🔴 Osmanlı tâbiiyeti penceresi (1578-1607) için GÜN YOK; `f:`/`t:` VERİDEN DEVRALINDI, kaynaksız."
+  },
+  {
+   "id": "kaheti-kralligi",
+   "ad": "Kaheti Krallığı",
+   "f": "1578-08-09",
+   "t": "1606-01-01",
+   "bolge": "kafkasya",
+   "ozet": "Doğu Gürcistan'da Bagratoğulları'nın üç krallığından biri. 1578 Osmanlı seferinden sonra ocaklık olarak eski hâkimine bırakıldı ve haraca bağlandı.",
+   "kaynak": "TDV `gurcistan` — «Bagratoğulları'ndan I. Alexandre (1412-1442) Gürcistan'da hâkimiyet tesis edip birliği sağlamaya muvaffak oldu. Fakat daha sonra Gürcistan üç krallığa…». 🟢 `f:` DESTEKLENİYOR: bu gece KÜRE GÖRÜNÜM aynı günü TDV `sirvan` gövdesinden «Ağustos 1578» ile eşledi (Kahet ülkesi ocaklık olarak Alexandre'a bırakıldı). 🟡 GÜN (08-09) veriden. `t:` (1606-01-01) kaynaksız."
+  },
+  {
+   "id": "crnojevic-zetasi",
+   "ad": "Crnojević Zetası",
+   "f": "1482-01-01",
+   "t": "1499-01-01",
+   "bolge": "balkanlar",
+   "ozet": "Zeta'da (bugünkü Karadağ) Crnojević ailesinin idaresi. Osmanlı nüfuzu altında tâbi bir prenslik olarak sürdü; sonunda İşkodra sancağına katıldı.",
+   "kaynak": "TDV `karadag` — «Bölge, Crnojevići desteğinde yayılan Venedik gücüyle zorlu mücadelelere sahne olurken aynı zamanda Osmanlılar da doğudan nüfuz ettiler. İlk Osmanlı idaresi Fâtih Sultan Mehmed döneminin son yıllarında…» ve «1514'te Crnojevići'nin soyundan gelen … İskender Bey'in idaresinde … ayrı bir sancak». 🟡 `f:`/`t:` YIL hassasiyetinde (`YYYY-01-01`) ve VERİDEN; TDV bu iki yılı ADIYLA vermiyor."
+  },
+  {
+   "id": "dejanovic-prensligi",
+   "ad": "Dejanović Prensliği (Kostadin-ili)",
+   "f": "1371-09-26",
+   "t": "1395-05-17",
+   "bolge": "balkanlar",
+   "ozet": "Doğu Makedonya'da Dejanović ailesinin prensliği. Çirmen bozgunundan sonra Osmanlı tâbiiyetini kabul etti; Konstantin Dejanović Osmanlı ordusunda savaşırken öldü ve topraklar doğrudan Osmanlı idaresine geçti.",
+   "kaynak": "bulunamadı — `dejanovic` · `velbuzd` · `kostadin` üçü de 302 (ölü slug). Kapsayıcı madde denenmedi (`makedonya` · `uskup` aranmadı) ⇒ damga `bulunamadı` DEĞİL, 🔴 **ARANMAYA DEVAM**. `f:`/`t:` VERİDEN DEVRALINDI ve ikisi de bilinen savaş günleri (Çirmen 1371-09-26 · Rovine 1395-05-17), yani veri onları BAŞKA bir olaydan ödünç almış olabilir — DOĞRULANMADI."
+  }
+ ],
+
+ "_KUNYE_ALMAMALI": {
+  "_NOT": "🔴 Bu 5 etiket POLITY DEĞİL, bir DURUM tarifi. Künye açmak kategori hatası olurdu — atlas devlet boyar, hukukî durum boyamaz. Sevkin 'yedisi de gerçek polity' öncülü bu noktada DEĞİŞTİ.",
+  "Osmanlı hükümranlık iddiası (ocaklık lağvedildi)": "11 dönem · 1830-07-05→1832-11-22 · Fransa Cezayir'i aldıktan sonra Osmanlı'nın SÜRDÜRDÜĞÜ HUKUKÎ İDDİA. Bir devlet değil, bir iddia.",
+  "Sahra vahalarının özerk idaresi": "6 dönem · tek bir polity değil, VAHALARIN ortak durumu (Ağvât · Gardâye · Tuggurt · Vargla ayrı ayrı idarelerdi).",
+  "Kabiliye'nin fiilî özerkliği": "2 dönem · Fransız hâkimiyetinin ULAŞAMADIĞI bir bölge durumu; kurumsallaşmış bir polity değil.",
+  "eski Memlûk beyleri (Osmanlı desteğiyle)": "1 dönem · Zebîd · bir HÂNEDAN ya da devlet değil, bir GRUP.",
+  "manastır harâcı": "1 dönem · Batnoz (Patmos) · bir VERGİ STATÜSÜ."
+ },
+
+ "_OLCMEDIGIM": [
+  "Dejanović için kapsayıcı madde (`makedonya` · `uskup` · `sirbistan`) DENENMEDİ — §4 'dar slug tutmazsa kapsayıcıyı dene' kuralı TÜKETİLMEDİ.",
+  "10 künyenin 8'inde `f:`/`t:` VERİDEN devralındı; yalnız Tököli'nin `t:`si ve Arvanid'in kuruluş yılı TDV'de birebir doğrulandı.",
+  "`bolge` alanları külliyattaki bölge sözlüğüne karşı DOĞRULANMADI — `devletler.js`in `bolge:` değerleri taranmadı.",
+  "Renk gerekmiyor: `v:` katmanı Osmanlı tâbi tonuyla çiziliyor, `BOYALAR` anahtarı istemiyor. AMA bunu ÖLÇMEDİM, motorun `v:` çizim yolunu okumadım."
+ ]
+}
