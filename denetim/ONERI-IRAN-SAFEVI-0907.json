@@ -1,0 +1,131 @@
+{
+  "_NOT": "㉕ `iran` künyesi / Safevî. BU BİR YAMA DEĞİL, BİR ÖNERİDİR — sevk «YAMA YAZMA» dedi. Koşu 7b sürerken üretildi; `data/` ve `arac/` DONUK, hiçbirine dokunulmadı. `arac/denetle.py` ve `arac/renkler.py` OKUNDU ve ÇAĞRILDI, DEĞİŞTİRİLMEDİ.",
+  "_URETIM": "2026-09-07",
+  "_OTURUM": "DAYANAK VOLGA (㉕ kola devir)",
+  "_KOORDINATOR": "1.MURAT HÜDAVENDİGAR",
+
+  "_MANSET": "🔴 SEVKİN ÖNCÜLÜ BAYAT VE DOKUZ KAT: `CLAUDE.md §3.5` «Tebriz, Hemedan, Bağdat ve 70 kayıt» diyor. ÖLÇÜM: `iran` kimliğini kullanan **8 dönem / 8 yerleşim** var ve **Tebriz, Hemedan, Bağdat'ta `iran` YOK**. Borç büyük ölçüde ÖDENMİŞ. 🟢 Ve kalan 8'in **5'i bugün çözülebilir**, çünkü doğru kimlikler ATLASTA ZATEN VAR, pencereleri TUTUYOR ve renkleri MEVCUT.",
+
+  "_SEVKIN_ONCULLERI_OLCULDU": {
+    "① «§3.5 70 kayıt diyor — DOĞRULA, bayat olabilir»": {
+      "_HUKUM": "🔴 BAYAT. Ölçüm: 8 dönem, 8 benzersiz yerleşim.",
+      "_KANIT": "`iran` kimliğini taşıyan dönemler: Tarki · Ağraham burnu · Derbend · Hürmüz Adası · Kişm · Kiş · Dihistan ovası · Kızılarvat. HEPSİ kıyı ya da uzak nokta. `Tebriz` · `Hemedan` · `Bağdat` listede YOK.",
+      "_SEN_ISARETLEMISTIN": "Sevkte «o sayı bayat olabilir» yazıyordu — ve öyleymiş. Öncülü doğrulamadan üstüne inşa etmedim."
+    },
+    "② «senin Değişmez 4 ölçümündeki 8 `iran` hayaleti»": {
+      "_HUKUM": "🟢 DOĞRU — ve şimdi ÖLÇTÜM (önceki turumda `ihlal` kovasını 9 diye saymış ama içinden `iran` olanları AYIRMAMIŞTIM; bunu açıkça bildirmiştim).",
+      "_OLCUM": "`denetle.degismez4(Y)` doğrudan koşturuldu: `ihlal` kovası **9**, bunun **8'i `iran`** (%89). `4c(asan)` 138'de `iran` **0**, `4d(once)` 409'da `iran` **0**, `künyesiz` 898'de `iran` **0**.",
+      "_ANLAMI": "🔴 `iran`, atlasın en büyük TEK anakronizm kimliğidir — ama yalnız 8 kayıtla. `ihlal` kovasının neredeyse tamamı bu tek kimlik; kalan 1 kayıt başka bir şey."
+    },
+    "③ «⑲ 65 gerçek anakronizm buldu»": {
+      "_HUKUM": "⚫ ÖLÇMEDİM — ve `iran` için o sayıyı DOĞRULAYAMAM.",
+      "_GEREKCE": "Benim ölçtüğüm `ihlal` kovası TOPLAM 9 kayıt; `iran` olan 8. ⇒ «65» bir `iran` sayısı OLAMAZ; ⑲'un evreni benimkinden farklı (muhtemelen bütün kimlikler ve/veya gün bazlı bir tarama). Sevk ikisini yan yana koyunca «iki bağımsız yol AYNI borcu gösteriyor» gibi okunuyor — **örtüşen kısım `iran`ın 8 kaydıdır, 65 değil.** ⑲'un kendi kovasını ölçmedim ve ölçmeden hüküm vermiyorum.",
+      "_DERS": "§11: «bir raporda ölçülmüş ile hatırlanmış yan yana durursa, okuyan ikisini de ölçülmüş sanır.» Burada iki AYRI evrenin sayısı yan yana durunca aynı şeyi ölçüyor gibi göründü."
+    }
+  },
+
+  "_ONCEKI_OLCUM_OKUNDU_TEKRAR_EDILMEDI": {
+    "_DOSYA": "denetim/YAMA-HAYALET-IRAN-0905.json (NEHİR SÜRTÜNME, 5 Eylül)",
+    "_NE_DIYOR": "Kaspi kümesi (Derbend · Tarki · Ağraham burnu) için BEŞ canlı TDV gövdesi okundu (`derbend--dagistan` · `dagistan` · `sirvansahlar` · `sirvan` · `hurmuz--iran`); hiçbiri 1281-1509 için kimlik+tarih vermiyor ⇒ `bulunamadı`, ve bu «iki maddelik değil BEŞ maddelik» bir tüketme. Ayrıca `sirvansah` adayı AKTİF OLARAK ZAYIFLADI: TDV `sirvan` Osmanlı döneminde Derbend'i Şirvan'dan AYRI bir eyalet gösteriyor.",
+    "_BEN_NE_YAPTIM": "🟢 O kaynak turunu TEKRAR ETMEDİM. Yerine ölçülmemiş bir ekseni ölçtüm: **atlasın kendi bölgesel konvansiyonu** (aşağıda). Ve iki başka hüküm dosyası buldum (`HUKUM-OK106.json` · `HUKUM-OK110.json`) — ikisi de «7 dönem» diyor.",
+    "_ONLARI_DA_DOGRULADIM": "🟡 İki hüküm dosyası da **bir eksik sayıyor**: adıyla saydıkları yedi nokta (Hurmuz · Kism · Kis · Tarki · Agraham · Dihistan · Kizilarvat) arasında **Derbend YOK**. Gerçek sayı **8**. Küçük bir fark ama kaydediliyor — çünkü bir sonraki oturum «7» diye devralırsa Derbend'i kaçırır."
+  },
+
+  "_UC_KOVA": {
+    "_YONTEM": "Her `iran` dönemi (a) `safevi` künye penceresiyle, (b) kendi `s:` ZİNCİRİNDEKİ komşularıyla, (c) atlasın AYNI COĞRAFYADAKİ konvansiyonuyla karşılaştırıldı. Üçüncüsü sevk listesinde yoktu ve çözümü O verdi.",
+
+    "KOVA_1_KORFEZ": {
+      "kayit": 3,
+      "yerlesim": ["Hürmüz Adası", "Kişm (Qeshm)", "Kiş (Kish)"],
+      "mevcut": "iran 1281-01-01 → 1510-12-02 (Kiş: → 1508-01-01)",
+      "ONERI": "hurmuz-sultanligi",
+      "_HUKUM": "🟢 ÇÖZÜLEBİLİR — künye ATLASTA VAR ve pencereyi TAM KAPSIYOR.",
+      "_KUNYE": "hurmuz-sultanligi · **1281-01-01 → 1514-01-01** · «Hürmüz Sultanlığı» ⇒ üç dönemin üçünü de içine alıyor.",
+      "_TARIHSEL": "Hürmüz Sultanlığı bu üç adanın (Hürmüz · Kişm · Kiş) tarihî hâkimiydi — bir denizci-ticaret devleti. Atlasın onları `iran` diye boyaması, o dönemde var olmayan bir kimliğe itilme (`OGRENILENLER §72`: `Değişmez 1` «kimsenin değildi» diyemediği için veriyi en yakın kimliğe itiyor).",
+      "_BOLGESEL_KONVANSIYON": "600 km içinde eş zamanlı kimlikler: `timurlu` 60 · `ilhanli` 60 · `karakoyunlu` 60 · `akkoyunlu` 60 · `muzafferi` 59 · `nebhani` 19 · `cebri` 9 · `usfuri` 6. Karada `timurlu` baskın; ADALAR için ayrı bir kimlik gerekiyor ve o kimlik zaten yazılmış, yalnız KULLANILMAMIŞ.",
+      "_RENK_AYAGI": {
+        "boyalar": "#24d2ba «Hürmüz Sultanlığı» — MEVCUT 🟢",
+        "_RISK_OLCULDU": "🔴 Bu kimlik veride **0 dönem** kullanılıyor. §11'in `kuba ↔ lunda` dersi tam bu sınıftır: çözücünün `engel_kumesi`i «veride noktası olmayan» adayı ENGEL SAYMAZ; sonra nokta iner, komşu olur, ve çizili haritada ÇAKIŞIR. ⇒ Nokta İNMEDEN ÖNCE ölçtüm.",
+        "_OLCUM": "`renkler.py`nin KENDİ metriği ve KENDİ harmanıyla (`_de3` + `_bindirilmis_lab` — yani EKRANDA görünen hâl, ham hex DEĞİL; §11 PAKET RENK 0904 dersi). Eş zamanlı + 600 km içindeki 11 kimliğe karşı en yakın üç: **`portekiz` ΔE 19,82** · `akkoyunlu` 44,78 · `lur-i-buzurg` 53,29.",
+        "_HUKUM": "🟢 TEMİZ. `renkler.py`nin okunabilirlik tabanı ΔE≥12, güvenli payı 13,0. En yakın komşu 19,82 ile ikisinin de rahatça üstünde.",
+        "_CURUYEN_SUPHEM": "⚠️ `#24d2ba` (teal) ile `portekiz` `#34fcfc` (camgöbeği) gözle YAKIN duruyordu ve bunu bir risk olarak yazmıştım. Ölçüm ŞÜPHEMİ ÇÜRÜTTÜ. Kaydediyorum çünkü ölçmeseydim gereksiz bir renk işi önerecektim."
+      }
+    },
+
+    "KOVA_2_HORASAN": {
+      "kayit": 2,
+      "yerlesim": ["Dihistan ovası (Meşhed-i Misriyân)", "Kızılarvat"],
+      "mevcut": "iran 1507-05-24 → 1510-12-02 (timurlu ile safevi ARASINDA 3,5 yıllık bir dilim)",
+      "ONERI": "buhara",
+      "_HUKUM": "🟢🟢 EN UCUZ KALEM — ve bu bir KAYNAK sorusu bile değil: **19 komşu yerleşim birebir aynı üçlüyü zaten taşıyor.**",
+      "_KONVANSIYON_OLCULDU": {
+        "_DESEN": "`timurlu … → 1507-05-24` → `buhara 1507-05-24 → 1510-12-02` → `safevi 1510-12-02 → …`",
+        "_TASIYAN_YERLESIM": 19,
+        "_ORNEKLER": ["Meşhed", "Nîşâbur", "Tûs", "Sebzevâr", "Serahs", "Merv (Mari)", "Nesâ", "Ebîverd", "Bocnûrd", "Esferâyin", "Kûçân", "Kelât-ı Nâdirî", "Turbet-i Câm", "Zerenc (Sîstan)"],
+        "_GUN_SAYIMI": "Bütün veride `1507-05-24` günü: `timurlu` t: **21** · `buhara` f: **19** · `iran` f: **2**. Ve `1510-12-02`: `buhara` t: **20** · `safevi` f: **26** · `iran` t: **4**. ⇒ İki `iran` kaydı, 19-21 kayıtlık bir konvansiyondan SAPAN AZINLIK.",
+        "_MESAFE": "Dihistan → en yakın konvansiyon noktası Bocnûrd **249 km**; Kızılarvat → Bocnûrd **192 km**. Aynı coğrafya (Horasan'ın kuzey hattı), farklı kimlik."
+      },
+      "_TARIHSEL_DOGRULAMA": "🟢 İki gün de tanınabilir: **1507** Şeybânî Han'ın Herat'ı alıp Timurlu hâkimiyetine son vermesi; **2 Aralık 1510** Merv Savaşı — Şah İsmail Şeybânî Han'ı yendi ve Horasan Safevî'ye geçti. Aradaki 3,5 yıl **Şeybânî/Özbek** dönemidir ve atlas onu `buhara` kimliğiyle modelliyor. ⇒ Konvansiyon yalnız yaygın değil, DOĞRU.",
+      "_KUNYE": "buhara · 1500-01-01 → 1920-09-02 ⇒ 1507-05-24 → 1510-12-02 dilimini KAPSIYOR 🟢",
+      "_RENK_AYAGI": "buhara → `#785ae7` «Buhara Hanlığı» MEVCUT 🟢, ve veride **48 dönem** kullanılıyor ⇒ çözücü onu ZATEN engel olarak görmüş; `kuba` riski burada YOK."
+    },
+
+    "KOVA_3_KASPI": {
+      "kayit": 3,
+      "yerlesim": ["Tarki (Tarku)", "Ağraham burnu", "Derbend"],
+      "mevcut": "iran 1281-01-01 → 1501-07-01 (Derbend: → 1509-01-01)",
+      "ONERI": "yok — KALEM AÇIK KALIYOR",
+      "_HUKUM": "🔴 ÇÖZÜLEMEZ. Ve bu bir tembellik değil, ÖLÇÜLMÜŞ bir sonuç.",
+      "_NIÇIN": [
+        "① KAYNAK TÜKENDİ: NEHİR SÜRTÜNME beş canlı TDV gövdesini okudu, hiçbiri 1281-1509 için kimlik+tarih vermiyor. §4'ün «dar slug tutmazsa kapsayıcıyı dene» kuralı TÜKETİLMİŞ.",
+        "② KOMŞULUK DA ÇÖZMÜYOR — ve bunu BEN ölçtüm: 400 km içindeki komşuların 1400-06-15'teki kimlikleri BÖLÜNMÜŞ. Tarki: `sirvansah` 8 · `altinorda` 4 · `gurcistan` 4 · `celayirli` 2. Derbend: `sirvansah` 9 · `timurlu` 6 · `altinorda` 3 · `celayirli` 3 · `gurcistan` 2. ⇒ Tek bir hâkim kimlik YOK. §11: «komşuluk bir İPUCUDUR, kanıt değil» — burada ipucu bile bölünmüş.",
+        "③ VE `sirvansah` AKTİF OLARAK ELENMİŞ: TDV `sirvan` Osmanlı döneminde Derbend'i Şirvan'dan AYRI bir eyalet gösteriyor («merkezi Demirkapı/Derbend olan Derbend eyaleti»). Bir kimliği ATAMAK için delil aranırken ATAMAMAK için delil çıkmış."
+      ],
+      "_SILINEMEZ_DE": "🔴 Üçü de kendi `s:` zincirinin **İLK** dönemi ve `kur:` alanları BOŞ ⇒ dönem silinirse 1281'den itibaren **sahipsiz** kalırlar (`Değişmez 1` ihlali). Ölçüldü: örtüşen başka dönem **0**, `kur:` susturması **yok**.",
+      "_DOGRU_SINIF": "Bu bir `bos:` vakası DEĞİL — TDV o coğrafyada bir SIRA sayıyor (İlhanlılar → Altın Orda → Timurlular → Şirvanşahlar → Safevîler), bilmediğimiz **GÜN**. Yani bir boşluk değil bir **TARİH BİLİNMEZLİĞİ**, ve `bos:` onu ifade edemez çünkü ETMEMELİ."
+    }
+  },
+
+  "_SINAV": {
+    "_NE_SINANDI": "Beş önerinin (3 Körfez + 2 Horasan) her biri için: (a) önerilen künye dönemi KAPSIYOR mu, (b) `s:` zinciri SÜREKLİ kalıyor mu, (c) komşu dönem aynı kimliğe sahip mi (mükerrer birleşme riski).",
+    "_SONUC": "🟢 **BEŞİNİN BEŞİ DE GEÇTİ.** künye-kapsıyor: 5/5 · zincir-sürekli: 5/5 · mükerrer-birleşme riski: 0/5.",
+    "_IKI_UC_§3.5.1": {
+      "_KRITIK_AYRIM": "🔴 Bu öneri **KİMLİK DEĞİŞTİRİYOR, TARİH DEĞİŞTİRMİYOR.** `f:` ve `t:` aynen kalıyor ⇒ ne boşluk doğar ne çakışma. `§3.5.1`in «bir sınır kayması önerildiğinde İKİ UÇ DA ölçülür» kuralı burada UYGULANIR ama sonucu boştur, çünkü **sınır kaymıyor.**",
+      "_KENDI_OLCUMUMUN_YANLIS_OKUNMASINI_ONLUYORUM": "⚠️ Ara ölçümlerimden biri sekiz kaydın da «SAHİPSİZ KALIR» dediğini gösterdi. **O ölçüm SİLME senaryosunu ölçüyordu**, bu öneriyi değil. Silme sahipsizlik üretir; kimlik değiştirmek üretmez. İki cümleyi ayrı yazıyorum ki biri ötekinin yerine okunmasın — §11: «ölçtüğüm şu, bundan çıkardığım şu.»"
+    }
+  },
+
+  "_ONERI_LISTESI": [
+    {"yerlesim": "Hürmüz Adası", "kat": "s", "f": "1281-01-01", "t": "1510-12-02", "eski_d": "iran", "yeni_d": "hurmuz-sultanligi", "kova": "KORFEZ"},
+    {"yerlesim": "Kişm (Qeshm)", "kat": "s", "f": "1281-01-01", "t": "1510-12-02", "eski_d": "iran", "yeni_d": "hurmuz-sultanligi", "kova": "KORFEZ"},
+    {"yerlesim": "Kiş (Kish)", "kat": "s", "f": "1281-01-01", "t": "1508-01-01", "eski_d": "iran", "yeni_d": "hurmuz-sultanligi", "kova": "KORFEZ"},
+    {"yerlesim": "Dihistan ovası (Meşhed-i Misriyân)", "kat": "s", "f": "1507-05-24", "t": "1510-12-02", "eski_d": "iran", "yeni_d": "buhara", "kova": "HORASAN"},
+    {"yerlesim": "Kızılarvat", "kat": "s", "f": "1507-05-24", "t": "1510-12-02", "eski_d": "iran", "yeni_d": "buhara", "kova": "HORASAN"}
+  ],
+
+  "_BEKLENEN_ETKI": {
+    "_ONGORU_OLCUMDEN_ONCE_YAZILDI": true,
+    "degismez4_ihlal": "9 → 4 (8 `iran` kaydından 5'i düşer; 3 Kaspi kaydı + 1 `iran` olmayan kayıt kalır)",
+    "_HANGI_CIKTIDAN_HANGI_BIRIMDE": "`denetle.degismez4(Y)`in dönüşünün BİRİNCİ öğesi (`ihlal`), birim = DÖNEM sayısı. `py arac/denetle.py` çıktısındaki `Değişmez 4` satırı.",
+    "4c_asan": "138 → 138 (DEĞİŞMEZ — `iran`ın `asan` kovasında 0 kaydı var)",
+    "4d_once": "409 → 409 (DEĞİŞMEZ — aynı sebep)",
+    "Degismez_1_sahipsiz": "315 → 315 (DEĞİŞMEZ — tarih değişmiyor)",
+    "Degismez_2s": "DEĞİŞMEZ — kırılma GÜNLERİ aynı kalıyor, yalnız kimlik değişiyor",
+    "yeni_cizilen_kimlik": "`hurmuz-sultanligi` ilk kez haritada görünür (bugün 0 dönem). `buhara` zaten 48 dönemde çiziliyor.",
+    "_MAZERET": "🔴 MAZERET YOK. Bu öngörüler tarih değil kimlik değişikliğine dayanıyor ve mekanizması basit; tutmazlarsa bir varsayımım yanlış demektir, taban kayması mazereti geçerli DEĞİL."
+  },
+
+  "_KOORDINATORE": {
+    "veri_yazildi_mi": false,
+    "commit_edildi_mi": false,
+    "yama_uretildi_mi": false,
+    "arac_degistirildi_mi": false,
+    "_KARAR_SENIN": "5 öneri uygulanmalı mı? Ben YAMA YAZMADIM (sevk öyle dedi) ve uygulamıyorum.",
+    "_ACIK_KALEM": "KASPİ üçlüsü (Tarki · Ağraham burnu · Derbend) — kimlik BİLİNMİYOR, kaynak TÜKENMİŞ, komşuluk BÖLÜNMÜŞ, silmek Değişmez 1'i ihlal eder. Denenmemiş tek kanal: **Rusça/Farsça akademik kaynak** (TDV tüketildi, Batı akademik kanalı ben denemedim) ⇒ `okumadım`, `bulunamadı` DEĞİL.",
+    "_BELGE_BORCU": "🔴 `CLAUDE.md §3.5`in «Tebriz, Hemedan, Bağdat ve 70 kayıt` iran` 1501-1736 arası — 235 yıl» satırı BAYAT. Gerçek: 8 kayıt, ve Tebriz/Hemedan/Bağdat'ta `iran` yok. §3.5.1'in emsali gereği **ders SİLİNMEZ, VAKA DAMGALANIR** — çünkü dersin kendisi (hayalet devlet sınıfı) hâlâ doğru ve değerli; bayatlayan yalnız vakanın bugünkü durumu. Bu benim değil, kök `*.md` sahibinin kalemi.",
+    "_OLCULEMEDI": [
+      "⑲'un «65 gerçek anakronizm» sayısı — evreni benimkinden farklı, ölçmedim ve ölçmeden hüküm vermedim."
+    ],
+    "_TEKRAR_EDILMEDI": "NEHİR SÜRTÜNME'nin 5 TDV gövdelik Kaspi kaynak turu — sevk «onu oku, tekrar etme» dedi, okudum ve tekrar etmedim."
+  }
+}
