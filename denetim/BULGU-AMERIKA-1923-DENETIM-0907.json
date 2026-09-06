@@ -6,12 +6,10 @@
     "benzersiz_kimlik": "27 🟢 şartnameyle birebir",
     "isg_ortu": "0 — koordinatör 0 dedi, ÖLÇTÜM (dört katman d/v/s/isg tarandı). «0» ile «bakmadım» arasındaki farkı ancak bakarak bilirim."
   },
-
   "🟢_TEMIZ_CIKAN": {
     "sahipsiz_92": "🟢 TAM TEMİZ — 92'nin 92'si BEYANLI: 80 `kasitli_bosluk` + 12 `bit:`. Açıklamasız SIFIR. `bos:` cinsleri: kabile 69 · devletsiz 6 · veri-yok 4 · insansiz 1 — dördü de `girdi.py`nin BILINEN_ALANLAR kütüğündeki geçerli kovalar. Bu bir varsayım değil ölçüm; şüpheli listesi BOŞ döndü.",
     "guyana_kutusu_beyanlari": "🟢 8/8 düzgün — `kasitli_bosluk` + `bos:kabile` + HSAI c.3 alıntılı `neden:`. Biri gerekçesini «⚠️ komşu desenden türetildi» diye kendi damgalamış."
   },
-
   "🔴_BULGU_1_UC_ULUSAL_BASKENT_ATLASTA_YOK": {
     "olcum": "3805 noktanın TAMAMI Türkçe normalleştiriciyle tarandı (`İ`.lower() tuzağına karşı; `usku`≠`Üsküp` dersinin aleti).",
     "haiti": "🔴 Port-au-Prince · Cap-Haïtien · Cap-Français · Gonaïves → HİÇBİRİ YOK. `haiti` kimliğini atlasta TEK bir nokta taşıyor: **Jaragua (Taino kasikazgosu)** — yani 1804'te kurulan cumhuriyet, haritada bir Kolomb-öncesi kasikazgo merkezinden yayılıyor.",
@@ -23,7 +21,6 @@
     "kaynak_kapisi": "🔴 TDV KAPSAMIYOR: `haiti` · `guatemala` · `tonga` · `kuba` · `dominik-cumhuriyeti` · `orta-amerika` = 302. Kapsayıcı `amerika` (75.093 kar.) okundu: «Haiti» 2 kez, «Guatemala» 4 kez geçiyor ama YALNIZ ÜLKE/BÖLGE olarak — şehir kuruluşu YOK; «Tonga» 0 kez. §4'ün ANMA boşluğu.",
     "damga": "🟡 AÇIK — nokta YAZILMADI. Üç gerekçe: (a) `data/` donuk, (b) nokta yazımı Oturum 4 kulvarı, (c) kuruluş günleri akademik kaynak ister ve §4 uydurmayı yasaklıyor. Bu `okumadım` DEĞİL: arandı, atlasta yok, TDV'de tarih yok — o kadarı ÖLÇÜLDÜ."
   },
-
   "🔴_BULGU_2_ingiltere_D_SINIFI": {
     "olcum": "1923-10-28'de `ingiltere` kimliğini ÜÇ bölgede 13 nokta taşıyor. Yamam (yer_yama_guyana.js) üçünü çeviriyor ⇒ 10 kalıyor, ve onlar BEŞ sömürge kümesi:",
     "kumeler": {
@@ -38,7 +35,6 @@
     "sinif": "§3.5.0 — ardıl kimlik YOK. Yazılabilir DEĞİL: künye + renk gerekiyor, ikisi de donuk dosyalarda, ve künye ad+tarih+kaynak ister.",
     "damga": "🟡 AÇIK — künye önerisi YAZILMADI. Ölçüldü ve kümelenmiş hâlde teslim edildi; bir künye oturumu doğrudan devralabilir."
   },
-
   "🟡_BULGU_3_BOLGE_BOLUMLEMESI_SIRA_KUSURU": {
     "alet": "denetim/ARAC-BOLGE-KUTU-0906.js (başka oturumun aleti — ÖLÇÜM, suçlama değil)",
     "cascade": "53: la>=12 && lo<=-50 → KUZEY-AMERIKA · 54: la<12 && lo<=-30 → GUNEY-ORTA-AMERIKA · 55: lo>100 || lo<-140 → OKYANUSYA · 56: else → VOLGA-URAL-SIBIRYA",
@@ -48,7 +44,6 @@
     "etki": "🟢 İŞ DAĞITIMINA ETKİSİ YOK — GUNEY-ORTA-AMERIKA ve OKYANUSYA aynı süper bölgeye (AMERİKA-OKYANUSYA) bağlı. Etkilenen tek şey RAPORLARDAKİ KOVA ADI: «Tonga Güney Amerika'da» diye okunuyor.",
     "kardes_vaka": "Sibirya (43 nokta, `lo>100` dalı → OKYANUSYA) aletin KENDİ dosyasında 90-95. satırlarda ZATEN kayıtlı ve o bu oturumun 6 Eylül ölçümü. Güney Pasifik kardeşi kayıtlı DEĞİLDİ."
   },
-
   "⚪_E_KOVASI_TRIYAJI_METRIK_CURUDU": {
     "denenen": "E kovasının 10 künyesi için «kimliğin noktalarının 300 km çevresinde YABANCI kimlik oranı» ölçüldü; oran yüksek olanlar ŞÜPHELİ sayılacaktı.",
     "sonuc": "🔴 METRİK ÇÜRÜDÜ. `kuba-cumhuriyeti` %64 çıktı ve yabancı komşuları `ingiltere` (Jamaika) ile `meksika` (Yucatán) — İKİSİ DE DOĞRU. `dominik`in `abd` komşusu Porto Riko, o da doğru. Metrik ADA YOĞUNLUĞUNU ölçüyordu, kusuru değil.",
@@ -56,13 +51,11 @@
     "🟢_yine_de_ise_yaradi": "Metrik yanlıştı ama çıktısına BAKARKEN Haiti'nin tek noktasının bir Taino kasikazgosu olduğu görüldü — BULGU 1 oradan çıktı. Ölçüt çürüdü, ONA BAKMAK çürümedi.",
     "damga": "Bu kova için «kusur» hükmü VERİLMEDİ. E kovası bir ADAY listesidir ve aday olmak kusur değildir (koordinatörün uyarısı)."
   },
-
   "OLCMEDIKLERIM": {
     "peteğe_etkisi": "⚪ BULGU 1'in haritada gerçekten bir emilme üretip üretmediği ÖLÇÜLMEDİ — petek çıktısı gerekiyor ve koşu sürüyor. Koşu bitince Haiti/Dominik sınırında sınanabilir.",
-    "kaynak_denetimi": "⚪ Kutumun 822 noktasının `kaynak:` alanı BÜTÜN olarak taranmadı. Beş Guyana kaydında tarandı (4'ünde alan HİÇ YOK) — beş kayıttan bir kutu hükmü ÇIKMAZ.",
+    "kaynak_denetimi": "🟢 ÖLÇÜLDÜ — yukarıdaki BULGU 4. (Bu satır önceki turda '⚪ taranmadı' diyordu.)",
     "okyanusya_ve_kuzey_amerika_derinligi": "⚪ Bu tur GUNEY-ORTA-AMERIKA'ya yoğunlaştı (Guyana + Karayip). OKYANUSYA'nın 165 ve KUZEY-AMERIKA'nın 477 noktası kimlik DAĞILIMI düzeyinde ölçüldü, kayıt kayıt DEĞİL."
   },
-
   "ALETLER": [
     "denetim/ARAC-AMERIKA-1923-TABAN.js      dört katmanlı taban + kimlik dağılımı",
     "denetim/ARAC-AMERIKA-1923-SUPHE.js      birinci tur şüpheliler",
@@ -78,6 +71,43 @@
     "denetim/ARAC-INGILTERE-D-SINIF.js       D-sınıfı künye taraması",
     "denetim/ARAC-E-KOVA-TRIYAJ.js           E kovası triyajı (metriği ÇÜRÜDÜ — kayıt olarak duruyor)",
     "denetim/ARAC-BASKENT-ARA.js             başkent taraması",
-    "denetim/_tdv_oku.py                     TDV gövde okuyucu (depo DIŞINA yazar)"
-  ]
+    "denetim/_tdv_oku.py                     TDV gövde okuyucu (depo DIŞINA yazar)",
+    "denetim/ARAC-AMERIKA-KAYNAK-DENETIM.js   822 noktanın kaynak denetimi",
+    "denetim/ARAC-AMERIKA-KAYNAK-DENETIM2.js  kovaların ayrıştırılması",
+    "denetim/ARAC-KAMERIKA-KENDI-IDDIAM.js    kendi partimin iddiasının sınavı",
+    "denetim/ARAC-KAMERIKA-NOT-EZILME.js      not: ezilme hipotezi (ÇÜRÜDÜ)"
+  ],
+  "🔴_BULGU_4_KAYNAK_DENETIMI": {
+    "kapsam": "Şartname ⑤ — kutumun 822 noktasının TAMAMI. (Önceki turda '⚪ ölçülmedi' diye damgalanmıştı; bu tur ÖLÇÜLDÜ.)",
+    "kovalar": {
+      "🟢 ATIF — kaynak: bir kaynağı ADIYLA veriyor": "192  (%23)",
+      "🟢 bulunamadı + AKADEMİK DAYANAK adıyla yazılı (§4 biçimi)": "378  (%46)",
+      "🟡 kaynak: YOK ama not: VAR — dayanak metinde olabilir": "47  (%6)",
+      "🔴 HİÇBİR BEYAN YOK": "205  (%25)",
+      "TOPLAM 🟢 dayanağı adıyla yazılı": "570  (%69)",
+      "TOPLAM 🔴 dayanaksız ya da adsız": "252  (%31)"
+    },
+    "🔴_BEYANSIZ_205_TEK_BIR_PARTIDE_YOGUNLASIYOR": {
+      "yerlesimler_amerika.js": "133  ← kutumdaki 133 noktanın 133'ü beyansız (%0 kaynaklı)",
+      "yerlesimler_okyanusya.js": "33",
+      "yerlesimler_ek30.js": "11",
+      "ek8 · ek13 · 0ee15e · ek9 · sibirya · ek31 · amerika2": "28 (toplam)",
+      "hüküm": "Bu bir COĞRAFÎ değil PARTİ etkisi: `kaynak:` yazma alışkanlığı partiden partiye değişiyor. `yerlesimler_kamerika.js` 377/377 (%100) · `yerlesimler_amerika.js` 0/133 (%0). ⇒ Çare noktaları tek tek aramak değil, O PARTİYİ hedeflemek."
+    },
+    "DONEM_DUZEYI": {
+      "dönem ucu (UYGULANMA sayısı)": 3374,
+      "BENZERSİZ İDDİA": "917  ← şişme 3,7×",
+      "🔴 dönemin KENDİ kaynak:ı": "0 — kutumda TEK BİR dönem bile kendi beyanını taşımıyor",
+      "kayıttan MİRAS": "2330 (%69) — dönemin BEYANI DEĞİL",
+      "hiçbir beyan yok": "1044 (%31)",
+      "birim uyarısı": "Bir denetim 'kaç uç' diye sorarsa tek bir iddiayı 3,7 kat şişirir — ve çareyi de 3,7 kat pahalı gösterir. (urabi-pasa vakası 55× idi.)"
+    },
+    "🔴_KENDI_OLCUMUMU_IKI_KEZ_CURUTTUM": {
+      "① manşet yanıltıcıydı": "İlk turum «kaynak: alanı VAR: 570 (%69)» dedi ve bu İYİ HABER gibi okunuyor. 570'in 378'i literal `bulunamadı` — bir ATIF değil, BEYAN EDİLMİŞ YOKLUK. Dolu bir alan, dolu olduğu için doğrulanmış sayılmaz.",
+      "② detektörüm yanlış desen arıyordu": "İkinci turum 199 KAMERIKA kaydını «dayanağı ADSIZ» kovasına attı. Yayın adı arıyordum ve `Naske & Slotnick, Alaska: A History` ile `Gulløv (ed.), Grønlands forhistorie` desene uymadı. Ölçtüm: 377/377'sinde `dayanak:` VAR. ⇒ Bir dayanağı tanımak için yayın adını TAHMİN ETME, projenin KENDİ SÖZLEŞMESİNİ (`dayanak:` öneki) ara.",
+      "③ ve bir kusuru KIRPMA ÜRETTİ": "`Sisimiut` ve `Nome`un `not:` alanında akademik dayanağın EZİLDİĞİNİ sandım — konum düzeltme notu başa geçmişti ve ben 200 karakterde kesiyordum. Ölçtüm: konum düzeltmesi alan 52 kaydın 52'sinde `dayanak:` KORUNMUŞ, ezilen 0. §11 «kırpılmış bir çıktı da bir ölçüm değildir» — az önce onu kendi verime yaptım."
+    },
+    "🟡_YAN_BULGU_MUKERRER_NOT": "51 KAMERIKA kaydında konum düzeltme notu İKİ KEZ yazılmış (reçete iki turda uygulandı, not her ikisinde de eklendi). Veri DOĞRU — `denetle.py` konum 0 diyor; kusur yalnız notun tekrarında. Kozmetik.",
+    "⚪_OLCMEDIKLERIM": "192 ATIF kaydının dayanaklarının GERÇEKTEN o iddiayı taşıyıp taşımadığı ölçülmedi — bu `§4`ün «beyan edilen kaynak iddiayı taşımıyor» denetimidir ve ayrı bir iştir. Bu tur yalnız BEYANIN VARLIĞINI ölçtü, DOĞRULUĞUNU değil."
+  }
 }

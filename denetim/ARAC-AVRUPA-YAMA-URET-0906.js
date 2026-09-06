@@ -54,6 +54,19 @@ for (const [ad, onc] of [["Madrid", KA], ["Sevilla", KA], ["Barselona", AR],
 ["Valensiya", AR], ["Mayorka (Palma)", AR], ["Menorka (Mahon)", AR], ["İbiza", AR],
 ["Kalyari (Cagliari)", AR], ["Sasari (Sassari)", AR]])
   KALEMLER.push({ ad, oncesi: onc, kaynak: KAYNAK_ISPANYA });
+// KALEM ④ — İSVEÇ / KALMAR BİRLİĞİ. Nokta adları ELLE YAZILMAZ: kimliği
+// 1523-06-06'dan ÖNCE kullanan bütün kayıtlar CANLI VERİDEN seçilir.
+// (§11: elle liste yazmak, listenin dışında kalanı sessizce bırakır.)
+const KAYNAK_ISVEC =
+  "EBSCO Research Starters (editöryal incelemeli akademik özet, imzalı: Joseph P. " +
+  "Byrne, 2022): 'The Swedish Estates refused to recognize Frederick as the new monarch " +
+  "and elected Gustav by acclamation on JUNE 6, 1523.' İkinci bağımsız teyit: seçim " +
+  "Strängnäs'taki Riksdag'da yapıldı ve Kalmar Birliği böylece resmen dağıldı (aynı gün " +
+  "İsveç Ulusal Günü'dür). TDV kapsam dışı — Batı/Kuzey Avrupa TDV kapsamı %0 (§4). " +
+  "İÇ TUTARLILIK: `isvec-birlik-oncesi` künyesi (1281-01-01→1523-06-06) TAM bu dönem " +
+  "için yazılmış ve özeti Kalmar'ı adıyla anıyor; `isvec` künyesi AYNI GÜN başlıyor.";
+const ISVEC_GUN = "1523-06-06";
+
 // Künye düzeltmesi BELLEKTE uygulanır — yama tek başına inemez, ikisi BİRLİKTE ölçülür.
 const KUNYE_ONERISI = { piombino: { t: "1815-06-09" } };
 
@@ -73,6 +86,25 @@ for (const f of fs.readdirSync("data").filter(x => /^yerlesimler.*\.js$/.test(x)
     for (const y of A) if (y && y.ad && KALEMLER.some(z => z.ad === y.ad)) KAYIT[y.ad] = { y, f };
   }
 }
+// İSVEÇ kalemleri CANLI VERİDEN türetilir — ad listesi elle yazılmaz.
+if (process.argv.includes("--isvec")) {
+  const bulunan = [];
+  for (const f of fs.readdirSync("data").filter(x => /^yerlesimler.*\.js$/.test(x))) {
+    let w; try { w = baglam("data/" + f); } catch (e) { continue; }
+    for (const k of Object.keys(w)) {
+      const A = w[k]; if (!Array.isArray(A)) continue;
+      for (const y of A)
+        if (y && y.ad && (y.s || []).some(p => p.d === "isvec" && p.f < ISVEC_GUN)) {
+          bulunan.push(y.ad);
+          KALEMLER.push({ ad: y.ad, oncesi: { [ISVEC_GUN]: "isvec-birlik-oncesi" },
+            kaynak: KAYNAK_ISVEC });
+          KAYIT[y.ad] = { y, f };
+        }
+    }
+  }
+  console.log("↳ İSVEÇ kalemi: canlı veriden " + bulunan.length + " nokta seçildi");
+}
+
 const gn = (s) => Math.round(Date.UTC(+s.slice(0, 4), +s.slice(5, 7) - 1, +s.slice(8, 10)) / 864e5);
 
 // `bol`     : o günde böl, günden SONRAKİ parçaya yeni kimlik ata
@@ -194,15 +226,28 @@ console.log("C13: geçme=" + (gecmeHata === 0 ? "🟢 TEMİZ" : "🔴 " + gecmeH
   " · ön koşul ÖTTÜ=" + onKosulOttu + "/" + URETILEN.length +
   " (piombino künyesi dar olduğu için ÖTMESİ BEKLENİR)");
 
-if (gecmeHata === 0 && atesOttu === URETILEN.length && process.argv[2] === "--yaz") {
-  const bas = fs.readFileSync("denetim/_yama_basligi_avrupa.txt", "utf8");
-  const gov = URETILEN.map(u =>
+if (gecmeHata === 0 && atesOttu === URETILEN.length && process.argv.includes("--yaz")) {
+  // 🔴 İSVEÇ AYRI DOSYAYA — koordinatörün kapsam kararı BEKLİYOR (yeni bir `2s`
+  //   günü doğuruyor). Ötekiler onsuz da inebilmeli. Ve §7: ayrı dosya ayrı
+  //   AD ALANI demektir — dosya adındaki ayırt edici parça değişken adında da var.
+  const govde = (L) => L.map(u =>
     "  { ad:" + JSON.stringify(u.kalem.ad) + ",\n    s:[" +
     u.YENI.map(p => "{f:" + JSON.stringify(p.f) + ",t:" + JSON.stringify(p.t) +
       ",d:" + JSON.stringify(p.d) + "}").join(",\n       ") +
     "\n    ],\n    kaynak:" + JSON.stringify(u.kalem.kaynak) + " },").join("\n\n");
+  const isv = URETILEN.filter(u => u.kalem.kaynak === KAYNAK_ISVEC);
+  const oteki = URETILEN.filter(u => u.kalem.kaynak !== KAYNAK_ISVEC);
+
   fs.writeFileSync("denetim/yer_yama_avrupa_1923.js",
-    bas + "\nwindow.YER_YAMA_AVRUPA_1923 = [\n\n" + gov + "\n\n];\n", "utf8");
+    fs.readFileSync("denetim/_yama_basligi_avrupa.txt", "utf8") +
+    "\nwindow.YER_YAMA_AVRUPA_1923 = [\n\n" + govde(oteki) + "\n\n];\n", "utf8");
   console.log("");
-  console.log("🟢 YAZILDI: denetim/yer_yama_avrupa_1923.js  (" + URETILEN.length + " kayıt)");
+  console.log("🟢 YAZILDI: denetim/yer_yama_avrupa_1923.js  (" + oteki.length + " kayıt)");
+
+  if (isv.length) {
+    fs.writeFileSync("denetim/yer_yama_avrupa_isvec_1923.js",
+      fs.readFileSync("denetim/_yama_basligi_isvec.txt", "utf8") +
+      "\nwindow.YER_YAMA_AVRUPA_ISVEC_1923 = [\n\n" + govde(isv) + "\n\n];\n", "utf8");
+    console.log("🟢 YAZILDI: denetim/yer_yama_avrupa_isvec_1923.js  (" + isv.length + " kayıt)");
+  }
 }
