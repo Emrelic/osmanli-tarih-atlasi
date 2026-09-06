@@ -195,3 +195,48 @@ maddesiydi** — regex kullansam mükerreri göremezdim.
 **AÇIK:** beş `k:` — koordinatör hükmü **boş kalacak**, çünkü çekirdeğin
 `k` sözlüğünde *polity sonu* sınıfı YOK. Bir seçim değil, **sözlük eksiği**
 (SERHAT'ın *tâbi polity* eksiğiyle aynı sözlükte, ikisi birlikte Emre'ye).
+
+---
+
+### 7 Eylül 2026 — üçüncü parti · `sovyet-rusya` + Sohum
+
+Emre'nin sevki: *"ikisini de ölç, sonra Sohum'a geç."*
+
+**`sovyet-rusya` (65 nokta)** → `denetim/BALKAN-SOVYET-0907.md`
+```
+giriş yolu 1917-11-07 <- rusya-gecici-hukumet   65/65 (tek yol)
+🔴 İKİ NOKTA YANLIŞTI — ve İKİSİ DE BENİM DÜNKÜ KAÇIRDIKLARIMDI:
+   Akkirman (kutuyu 0,04°) · Hotin (kutunun 0,11° altında)
+```
+🔴 **KUSUR YÖNTEMDE:** Besarabya kümesini bir **coğrafî kutu** ile seçmiştim;
+TDV `bucak` ilçeleri **adıyla** sayıyor («İsmâil, Cetatea Alba (Akkirman),
+Tighina (Bender) ve Kahul»). Ve Hotin'in kendi maddesi var: *«1918'de Hotin
+ile Besarabya Romanya'ya verildi.»*
+📌 **DERS: ad listesi kutudan ÖNCE gelir.** Kutu yalnız ad listesi yokken
+bir yaklaşıklamadır. ⇒ `yer_yama_balkan_1923.js` **11 → 13**.
+
+**İki alt soru — ikisi de TEMİZ:**
+```
+Ukrayna/Belarus SSC  ayrı künye YOK — ama `sovyet-rusya` künyesinin ADI
+                     «Sovyet Rusya / SSCB» ve özeti birleşmeyi yazıyor;
+                     kesit 1922-12-30'dan on ay SONRA ⇒ kusur yok
+Riga hattı           atlas ZATEN modellemiş: 7 nokta `1921-03-18`de
+                     sovyet→polonya. İki kümenin boylamları örtüşmüyor.
+```
+
+**Sohum** → `denetim/yer_yama_sohum.js` + `KRONOLOJI-SOHUM-0907.json`
+🟢 `sohum` slug'ı CANLI ve şehre özgü günü verdi: *«Kızılordu … şehri
+**4 Mart 1921**'de ele geçirip Sovyet hükümranlığını ilân ettiler.»*
+🟡 Ama **orta üç yıl KAYNAKSIZ** — TDV 1917-1921 için sahip adlandırmıyor
+(*«Rus sivil savaşı içinde yok oldu»*); o aralık Kutaisi'nin
+konvansiyonundan alındı ve **konvansiyon olduğu yamada yazılı**.
+```
+SINAV kapsam daralması 0 · yeni sahipsizlik 0 · künye penceresi 6/6 İÇİNDE
+🔴 ÖN KOŞUL: `1921-03-04` veride 0 uç · çekirdekte 28 gün uzakta ve alakasız
+```
+⇒ `rusya` hayaletinin **altı noktasının altısı** kapandı.
+
+**AÇIK / SIRADAKİ:** `1921-03-16` (Moskova Antlaşması) veride **dört
+dönemin ucu** (Batum · Kutaisi) ama çekirdekte onu anlatan madde **YOK**
+(en yakın 16 gün, alakasız) — 1917 ihtilâlleriyle aynı sınıf. **Madde
+yazılacak.**
