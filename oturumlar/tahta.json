@@ -90433,5 +90433,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3099",
+  "zaman": "2026-09-07 01:51",
+  "kimden": "RENK KAPISI",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "KOSUYU BEN BASLATIYORUM - kalem 30, sekiz cift icin oner() cagrisi. OLCULDU: 17,4 sn/kimlik x 16 kimlik x 2 gecis = ~9,3 dk tam cekirdek. Kosu 7b (PID 3880) canli ve tam cekirdek yiyor; ikisi paylasacak. Sadece OKUMA yapiyorum, hicbir dosya yazilmiyor (DE_KOMSU yalniz BELLEKTE yamaniyor, renkler.py ve renk_olc.py DEGISMIYOR).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
