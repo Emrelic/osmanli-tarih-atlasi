@@ -152,14 +152,34 @@ data/yerlesimler_4ff22b.js · Honolulu
   Çare: `ad:` satırındaki mükerrerleri sil. DEĞER DEĞİŞMEZ.
 ```
 
+
+### 🔴🔴 §③b — MÜKERRER ALAN: 5 KAYIT, VE KOŞAN ÜRETİMİ ETKİLİYOR
+```
+4668 kayıt tarandı · MÜKERRER ALAN taşıyan 5:
+  Honolulu · Mersin · Yagodina (Jagodina) · Yedisan bozkırı · Şırnak
+BEŞİNİN BEŞİ DE AYRIŞIYOR — desen TEK: bir yama `ad:` satırına `s:`/`d:`
+EKLEMİŞ, aşağıdaki ESKİ yazım SİLİNMEMİŞ. JS ve `json.loads` SON anahtarı
+alır ⇒ DÜZELTME KAYBOLUR.
+  Şırnak   TBMM katmanı TAMAMEN kayıp (s: BOŞ okunuyor)
+  Mersin   tbmm-turkiye kayıp · Yagodina Habsburg işgali kayıp
+  Yedisan  kirim bitişi 1783 yerine 1792 · Honolulu TEK TERS vaka
+🔴 MOTOR DA SON YAZIMI OKUYOR (girdi.py ölçüldü) ⇒ KOŞU 7B'NİN
+   ÇIKTISINDA BU BEŞ NOKTA DÜZELTMESİZ OLACAK.
+⚠️ Koşu ÖLDÜRÜLMEDİ: 3805'in 5'i (%0,13), 3,2 saat yatırım, ve `data/`
+   donuk olduğu için düzeltmek çıktıyı yayınlanamaz yapar.
+   🔴 KARAR EMRE'NİN — bildirildi.
+ÇARE `yer_yama_` DEĞİL: tabanda mükerrer anahtar; eski yazım SİLİNİR.
+   ⚠️ Honolulu ters yönde ⇒ vaka vaka ölçülür, kural yok.
+```
+Dayanak: `denetim/OLCUM-MUKERRER-ALAN-0906.md`
+
 ---
 
 ## ④ ⚠️ ÖLÇÜLEMEYENLER — `bulunamadı` DEĞİL, **ölçmedim**
 
 ```
 oynatma yamasının gerçek etkisi     pencere küçültülmüş + koşu CPU'yu tutuyor
-mükerrer alanın YAYGINLIĞI          yazdığım tarama BOZUKTU (322 dedi, sahte),
-                                    alet SİLİNDİ — JS ayrıştırıcısıyla yeniden
+(mükerrer alan ÖLÇÜLDÜ — §③b'ye taşındı, artık burada DEĞİL)
 1548-08-24 mü -25 mi                atlasta 44 uç · Değişmez 2 etkisi ölçülmedi
 Bahreyn himaye günü                 1861-05-31 mi 1913-07-29 mu (iki ayrı olay)
 Ahıska · Akçahisar · Floransa       "KAPSAM DARALDI" — ekleme mi değiştirme mi
