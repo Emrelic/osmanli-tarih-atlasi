@@ -76,8 +76,50 @@ belirecek** — Emre'nin en çok şikâyet ettiği hatanın ta kendisi
                                (mülkî idarenin fiilî başlangıcı). İki
                                gerekçe ÇAKIŞIYOR; ayırt edilemez, BEYAN EDİLDİ
 1921-08-23  IRAK            Faysal'ın taç giymesi · künye `f:` ile aynı
-1913-08-10  SİLİSTRE        Bükreş Antlaşması
+1913-05-30  SİLİSTRE        Londra düzenlemesi   🔴 DÜZELTİLDİ — aşağıya bak
 ```
+
+### 🔴 SİLİSTRE'NİN GÜNÜ DÜZELTİLDİ: `1913-08-10` DEĞİL `1913-05-30`
+*(aynı gün, kaynak okununca — bu hükmün ilk yazımı YANLIŞTI)*
+
+İlk hüküm Bükreş Antlaşması'nı (10 Ağustos 1913) seçmişti. **TDV çürüttü:**
+```
+`balkan-savasi`  "Edirne, Trakya ve Dedeağaç Bulgaristan'a; … SİLİSTRE DE
+                  ROMANYA'YA BIRAKILDI."            ← Londra düzenlemesi
+                 "Romanya, Silistre'nin Bulgaristan'dan alınarak kendisine
+                  verilmesinden DE TATMİN OLMADI"   ← bu yüzden savaşa girdi
+`dobruca`        "Bükreş Antlaşması ile (1913) Bulgaristan Dobruca'nın
+                  güneyini DE Romanya'ya terketmiş" ← GERİ KALANI
+```
+⇒ **Silistre II. Balkan Savaşı'ndan ÖNCE gitti**; Bükreş Güney Dobruca'nın
+*geri kalanını* verdi. Bükreş'i seçmek, savaşın **sebebini sonucu** sayardı.
+
+🟢 **Ve doğru gün üç şeyi birden getirdi:**
+```
+ÇEKİRDEK   1913-05-30 "Londra Antlaşması — Rumeli'nin kaybı"   0 GÜN
+EMSAL      Gümülcine · İskeçe · Dedeağaç aynı günü kullanıyor
+2s         YENİ kırılma günü AÇMIYOR ⇒ çekirdek maddesi GEREKMİYOR
+```
+📌 Yanlış gün bir çekirdek maddesi **borçlandırıyordu**; doğru gün o borcu
+**doğurmuyor** ⇒ çekirdek maddesi dört değil **ÜÇ**.
+
+⚠️ **1916-1918 Bulgar geri alışı YAZILMADI:** TDV `dobruca` bu dönem
+hakkında **susuyor** (1913'ten doğrudan 1940 Kraiova'ya atlıyor).
+`arandı, kaynak susuyor` ⇒ uydurulmadı. Bulunursa `isg:` olacak (geçici ve
+geri alınmış — Yagodina emsali), `s:` DEĞİL.
+
+### 🔴 VE ELLE YAZILAN YAMA BEŞ DÖNEMİ SİLİYORDU
+Silistre'nin `s:` dizisi **6 dönem** taşıyor — içinde **Fetret zinciri**
+(Süleyman Çelebi ↔ Musa Çelebi, 1402-1413). Elle yazdığım ilk sürüm yalnız
+iki dönem içeriyordu ⇒ uygulansa **beşi birden düşerdi** (`KAPSAM DARALDI`).
+🟢 Yakalayan şey sınavdı: `d:+v:+s:` birlikte ölçülünce `SAHİPSİZ
+1402-07-28 → 1413-07-05` öttü. Yama canlı veriden **yeniden üretildi**
+(6 → 7 dönem), zincir 1281→1923 kesintisiz.
+📌 Ve kökü ölçüm aletimdeydi: ilk taramam `t >= 1870` süzgeciyle bakıyor ve
+`v:` alanını **hiç basmıyordu** — Bulgaristan Prensliği'nin 30 yıllık tâbi
+dönemini de o yüzden "delik" sanmıştım.
+⇒ ***Bir kaydı değiştirmeden önce kaydın TAMAMI okunur.*** Süzgeçli bir
+bakış kaydın tamamı sanılırsa, **sildiği şeyi göstermez.**
 
 ---
 
