@@ -127,6 +127,50 @@ ONAYLANDI — künye + renk hazır, koşu sonrası künye turunda.
 ⚪ KASPİ üçlüsü AÇIK: kaynak tüketilmiş, komşuluk 400 km'de bölünmüş,
 silmek 1281'den sahipsizlik açar. Damga `okumadım` (Rusça/Farsça kanal).
 
+## ⑤d 🔴🔴 İKİ RAPORUM ÇÜRÜDÜ — düzeltme
+
+### ① PANEL KUSURU **GERÇEK DEĞİL** — Emre'ye yanlış rapor edildi
+```
+RAPOR ETTİĞİM   "Yerleşimler sekmesi atlasın %20,8'ini gösteriyor"
+GERÇEK          `window.YERLESIMLER` ÇALIŞMA ZAMANINDA zaten 3805 taşıyor
+SEBEP           index.html ~1054-1075'te 11 AĞUSTOS'tan beri bir birleştirme
+                betiği var (commit a550bcd) ve app.js'ten ÖNCE koşuyor
+TARAYICI SAYIMI Şehirler sekmesi DOM'dan: 7+70+277+566 = 920 · KOD DEĞİŞMEDEN
+                ilk kayıtlar: Albazin · Yakutsk · Akobo · Riyad · Acoma Pueblo
+```
+🔴 **KÖK SEBEP — ve iki ölçüm birbirini doğruluyor SANDI:** ⑰ ve ⑯ ikisi de
+`data/` dosyalarını **statik** okudu, `index.html`i hiç çalıştırmadı. ⑯'nın
+kendi cümlesi: *"⑰'nin sayısını «birebir üreterek doğruladım» derken aslında
+sadece AYNI YANLIŞ YÖNTEMİ tekrarlamıştım."*
+📌 `§11`in *"doğrulama, aynı soruya İKİ YOLDAN gitmektir"* kuralının ihlali:
+aynı yoldan iki kez gitmek doğrulama **değildir**. Ve ben ikisini birden
+Emre'ye **teyitli** diye sundum.
+🟢 ⑯ kendi kodunu **geri aldı** (`git checkout -- js/app.js`), `git diff` boş.
+   Ayrıntı: `denetim/DUZELTME-PANEL-EVRENI-0907.md`
+
+### ② `zend` SINIFLANDIRMASI ÇÜRÜDÜ — künye DOĞRU, veri ERKEN
+```
+CLAUDE.md §3.5.0  `zend`i ZEND SINIFININ ADI diye kaydediyor
+                  ("künye dar, veri doğru ⇒ künyeyi GENİŞLET")
+ÖLÇÜM             TAM TERSİ. künye 1751→1794 DOĞRU · 131 dönem `f:1747-06-20`
+                  = Nâdir Şah'ın öldürüldüğü gün · 4c 0 · `t:` ucu TEMİZ
+TDV `zendler`     «1160'ta (1747) Nâdir Şah öldürüldüğü sırada Derregez'deki
+                   Zendler OTUZ VEYA KIRK AİLEDEN İBARETTİ.»
+```
+⇒ 1747'de Zendler bir devlet değil, sürgünde otuz-kırk aile. `zend f:`i
+öne çekmek **131 noktayı sahipsiz bırakır** (`Değişmez 1` ihlali).
+🔴 **VE BENİM "tek künye satırı 131 dönemi kapatır" KALDIRAÇ İDDİAM YANLIŞ:**
+künye satırı **değişmemeli**; 131'i kapatan şey iki VERİ ucunun birlikte
+kaydırılması (`afsar t:` + `zend f:`) ve kimlik seçimi **ölçülmedi**.
+🟢 Künye tarafının gerçek kazancı: `kaynak:` alanı. `zend` **302 ÖLÜ**,
+**`zendler` 200 CANLI** (17.725 kar., müellif Rıza Kurtuluş) — slug
+TAHMİN EDİLMİŞ, aranmamış. `incular→incu` ailesinin yeni üyesi.
+⚠️ Genelleme sınavı KURULDU ve ÇÜRÜDÜ: 22 künyeye 8 varyant denendi, **1/22**.
+   (sınır: yalnız Türkçe çoğul ekleri; `--ulke`/`--sehir`/`--iran` sonekleri
+   DENENMEDİ ⇒ alt sınır.)
+
+### ⑯ ve ⑰ BOŞTA — sıradaki koordinatör turu görevlendirsin
+
 ## ⑥ KENDİ KUSURLARIM — kayda geçiyor
 
 ```
