@@ -1,0 +1,95 @@
+{
+  "oturum": "BALKAN-DOĞU AVRUPA",
+  "damga": "2026-09-06",
+  "is": "1917 Rus ihtilâlleri — ÜÇ MADDE KUYRUKTAN ÇEKİRDEĞE TAŞINIR",
+  "🔴_TASIMA_KOPYALAMA_DEGIL": "Her iki dosya da `index.html`de YÜKLÜ (ölçüldü). Kopyalanırsa madde arayüzde İKİ KEZ görünür ve `denetle.py`nin mükerrer denetimi (`MUKERRER_ESIK 0.34` · `MUKERRER_GUN 400`) muhtemelen öter. ⇒ ÇEKİRDEĞE EKLENİR **VE** KUYRUKTAN SİLİNİR.",
+  "🔴_VERI_YAZILMADI": "`data/*.js` DONUK (Koşu 7b canlı). Bu bir ÖNERİDİR.",
+  "niye": {
+    "bulgu": "1917-03-15 ve 1917-11-07 atlasın en yüklü kırılma günlerinden ve çekirdekte onları anlatan TEK BİR MADDE YOKTU. `Değişmez 2` yalnız KONUSU ALAKASIZ maddelerle kapanıyordu: 1917-03-15 → «Bağdat'ın kaybı» (4 gün) · 1917-11-07 → «Üçüncü Gazze Muharebesi» (0 gün).",
+    "kova_dersi": "`CLAUDE.md §11`: «bu gün zaten var YETMİYOR — HANGİ KOVADA olduğu da sorulmalı.» Maddeler VARDI, ama KUYRUKTA (`data/kronoloji_rusya.js`) — `Değişmez 2`nin evreninde DEĞİL.",
+    "yuk": {
+      "1917-03-08": "0 dönem UCU",
+      "1917-03-15": "892 dönem UCU",
+      "1917-11-07": "896 dönem UCU"
+    },
+    "🟡_BIRIM_NOTU": "Bir önceki raporumda `1917-03-15` için **446** demiştim, koordinatör **892**. İkisi de doğru, FARKLI BİRİM: 446 = `rusya-gecici-hukumet` DÖNEM sayısı · 892 = o günü UÇ olarak taşıyan dönem sayısı (her dönem `f` ve `t` ile iki uç verir). Ölçüldü ve ayrıldı."
+  },
+  "🟢_KAYNAK_OKUNDU_DAMGA_KALKTI": "Önceki raporumda bu iki madde için **OKUMADIM** damgası vurmuştum. Şimdi okundu: üçü de `Riasanovsky & Steinberg, A History of Russia`ya dayanıyor — `§4`in kabul listesindeki cinsten (alanın standart el kitabı). Ve üçü de takvimi AÇIKÇA yazıyor (Julyen/Gregoryen farkı metinde), yani `§4`ün takvim tuzağına karşı zaten korunmuşlar. ⇒ Yeni madde YAZILMASINA GEREK YOK; sıfırdan yazmak mükerrer üretirdi.",
+  "hedef_dosya_onerisi": {
+    "oneri": "data/olaylar_ok109.js",
+    "gerekce": "O dosya zaten 1918-1920 Avrupa ardıllık maddelerini taşıyor (Çekoslovakya · Avusturya Cumhuriyeti · Habsburg mirası · SHS Krallığı · Versailles · Neuilly) — 1917 Rus ihtilâlleri aynı sınıf. Ve mevcut bir dosyaya eklemek `index.html`e yeni satır gerektirmez (`§5`).",
+    "🔴_SAHIPLIK_SORUSU": "`olaylar_ok109.js` başka bir oturumun (OK109) dosyası. `§7`: dosya sahipliği. ⇒ HEDEFİ KOORDİNATÖR SEÇSİN. Alternatif: yeni `data/olaylar_balkan_1917.js` — ama o zaman `index.html`e de satır eklenmeli."
+  },
+  "cekirdekte_ayni_gun": {
+    "1917-03-08": [],
+    "1917-03-15": [],
+    "1917-11-07": [
+      [
+        "olaylar_ek6.js",
+        "Üçüncü Gazze Muharebesi — Gazze ve Han Yûnus'un kaybı"
+      ]
+    ]
+  },
+  "tasinacak_maddeler": [
+    {
+      "kaynak_dosya": "kronoloji_rusya.js",
+      "ad_alani": "KRONOLOJI_RUSYA",
+      "dizin": 138,
+      "madde": {
+        "t": "1917-03-08",
+        "b": "Şubat Devrimi başladı (Petrograd ekmek ayaklanmaları)",
+        "tur": "isyan",
+        "onem": 5,
+        "dunya": 4,
+        "kapsam": "ic",
+        "etiket": [
+          "isyan",
+          "devrim"
+        ],
+        "yer_id": "St. Petersburg",
+        "d": "Petrograd'da ekmek kıtlığı ve savaş yorgunluğuyla başlayan gösteriler, günler içinde garnizon birliklerinin de isyana katılmasıyla genel bir ayaklanmaya dönüştü (Jülyen takvimiyle 23 Şubat, bu yüzden \"Şubat Devrimi\" adını taşır — Gregoryen'de 8 Mart). Rus tarihyazımında bu, üç yüz yıllık Romanov hanedanının fiilen sona erdiği hafta olarak kaydedilir.",
+        "kaynak": "Riasanovsky & Steinberg, A History of Russia"
+      }
+    },
+    {
+      "kaynak_dosya": "kronoloji_rusya.js",
+      "ad_alani": "KRONOLOJI_RUSYA",
+      "dizin": 139,
+      "madde": {
+        "t": "1917-03-15",
+        "b": "II. Nikolay tahttan çekildi, Romanov hanedanı sona erdi ⭐",
+        "tur": "son",
+        "onem": 5,
+        "dunya": 4,
+        "kapsam": "ic",
+        "etiket": [
+          "siyaset",
+          "taht"
+        ],
+        "yer_id": "Pskov",
+        "d": "II. Nikolay, kendisi ve oğlu adına tahttan çekildiğini ilan etti; kardeşi Mihail'in de ertesi gün tacı kabul etmeyi reddetmesiyle 1613'ten beri 304 yıl süren Romanov hanedanı ve üç yüzyıllık otokratik monarşi resmen sona erdi. Rus tarihyazımında Kulikovo, 1613, 1812 ve 1861 ile aynı düzeyde, imparatorluk döneminin kapanış tarihidir (bkz. [[rusya-gecici-hukumet]], [[sovyet-rusya]]).",
+        "kaynak": "Riasanovsky & Steinberg, A History of Russia — devletler.js:299'dan taşındı, doğrulandı"
+      }
+    },
+    {
+      "kaynak_dosya": "kronoloji_rusya.js",
+      "ad_alani": "KRONOLOJI_RUSYA",
+      "dizin": 140,
+      "madde": {
+        "t": "1917-11-07",
+        "b": "Ekim Devrimi — Bolşevikler iktidarı ele geçirdi",
+        "tur": "son",
+        "onem": 5,
+        "dunya": 5,
+        "kapsam": "ic",
+        "etiket": [
+          "devrim",
+          "siyaset"
+        ],
+        "yer_id": "St. Petersburg",
+        "d": "Lenin önderliğindeki Bolşevikler, Petrograd'da Geçici Hükûmet'i devirerek iktidarı ele geçirdi (Jülyen takvimiyle 25 Ekim, bu yüzden \"Ekim Devrimi\"). Bu dosyanın kapsamı imparatorluk dönemiyle (1281-1917) sınırlı olduğundan yalnız KAPANIŞ İŞARETİ olarak eklenmiştir — devamı için bkz. data/devletler.js `sovyet-rusya` kronolojisi ve [[rusya-gecici-hukumet]].",
+        "kaynak": "Riasanovsky & Steinberg, A History of Russia"
+      }
+    }
+  ]
+}

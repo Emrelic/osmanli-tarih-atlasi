@@ -1,0 +1,50 @@
+{
+  "_NOT": "🔴 BU BİR `YAMA-KUNYE-*` DOSYASI DEĞİL — KASTEN. `_kunye_uygula.py` YENİ künye EKLER, MEVCUT id'yi `KİMLİK ÇAKIŞMASI — zaten var` diye REDDEDER (satır 223-224). Burada önerilen şey mevcut bir künyenin `t:` DÜZELTMESİ ⇒ o aletin işi değil, ELLE uygulanır. Adı `ONERI-` ile başlıyor ki glob onu sahiplenmesin (§11 · `KÜRE GÖRÜNÜM` emsali: yanlış ad RED üretiyordu, `git mv` ile 4 → 0).",
+  "oturum": "AVRUPA · 1923 sınır denetimi",
+  "koordinator": "1.MURAT HÜDAVENDİGAR",
+  "durum": "🔒 data/ ve arac/ DONUK (koşu 7b) — UYGULANMADI, öneri bekliyor",
+
+  "ONERI": {
+    "id": "piombino",
+    "alan": "t",
+    "eski": "1548-01-01",
+    "yeni": "1815-06-09",
+    "fark_gun": 97679,
+    "fark_yil": 267.4
+  },
+
+  "GEREKCE": {
+    "sinif": "🔴 İKİ KUSUR ÜST ÜSTE, ÇARELERİ TERS YÖNDE (§3.5.0) — ve ikisi AYNI kayıtta",
+    "②_KUNYE_DAR": "1548 bir SON DEĞİL. Treccani (Enciclopedia Italiana, 'Piombino'): «nel 1548 Carlo V ... finì col permettere a costui di presidiare e fortificare Portoferraio e infine di occupare, SIA PURE TEMPORANEAMENTE, Piombino» ve «SOLO NEL 1557, quando ottenne il possesso di Siena, Cosimo si decise a RENDERLO a Iacopo VI.» ⇒ 1548 geçici bir işgal, prenslik 1557'de İADE edildi ve Ludovisi (1634) · Boncompagni (1702) hânedanlarıyla SÜRDÜ.",
+    "①_VERI_FAZLA": "Prenslik 1815'te bitti: «nel 1805 fu destinata da Napoleone alla sorella Elisa e a suo marito Felice Baciocchi» ... «Caduto Napoleone, con l'atto finale del congresso di Vienna, Piombino fu UNITA ALLA TOSCANA.» ⇒ veri 1923'e kadar boyuyordu; 1815-1923 arası (108,4 yıl) GERÇEK anakronizm.",
+    "AYRISMA": "375,8 yılın tamamı anakronizm DEĞİL: 1548-1815 arası (267,4 yıl) veri DOĞRU / künye DAR · 1815-1923 arası (108,4 yıl) veri YANLIŞ. Tek sayıda toplanırsa tek bir çare uygulanır ve yarısı yanlış olur."
+  },
+
+  "SARDINYA_EMSALI_SINANDI_VE_CURUDU": "Şartname §⑤ uyardı: `sardinya` da 439 yıl çıkmıştı ve MEŞRU olduğu ölçülmüştü (ad/unvan ömrü ≠ tasarruf sürekliliği). Bu vaka için sınandı: 1548 ne bir unvanın doğuşu ne ölümü — kaynağın KENDİ ifadesiyle («sia pure temporaneamente») GEÇİCİ bir işgal. ⇒ `§3.5.0 ③` sınıfı DEĞİL. Ölçek bir ÖNCEL'di ve bu sefer gerçek kusuru işaret etti, ama SEBEBİ farklı çıktı.",
+
+  "KAYNAK": {
+    "birincil": "Treccani, Enciclopedia Italiana — 'Piombino'. İtalya'nın resmî akademik ansiklopedisi; §4'ün 🔴 listesinin hiçbir maddesine girmiyor (forum/blog/içerik çiftliği/YZ üretimi değil).",
+    "TDV": "🔴 KAPSAM DIŞI, ÖLÇÜLDÜ — `piza` slug 302 ölü (BULGU-ELBA-0905 raw HTML ile doğruladı), Batı Avrupa TDV kapsamı %0 (§4).",
+    "britannica": "⚪ ÖLÇÜLEMEDİ — HTTP 403 Forbidden. §4⑤: bir HTTP kodu içerik hakkında iddia DEĞİLDİR; 'kaynakta yok' diye damgalanmadı.",
+    "ikinci_bagimsiz": "🟡 Treccani'nin 1815 hükmü, atlasın KENDİ çekirdek kronolojisiyle bağımsız çakışıyor: `1815-06-09` gününde 'Viyana Kongresi Nihai Senedi — Napolyon sonrası Avrupa haritası yeniden çizildi' maddesi 0 GÜN uzaklıkta duruyor."
+  },
+
+  "GUN_HASSASIYETI": {
+    "kaynak_ne_veriyor": "Treccani YIL veriyor (1815), gün vermiyor — «con l'atto finale del congresso di Vienna».",
+    "nicin_gun_yazildi": "§4 'kaynağın desteklediği EN KABA güvenli düzey' der ve kaba tarih `1815-01-01` olurdu. AMA o gün seçilmedi, çünkü: (a) Treccani olayı ADIYLA veriyor ve o olayın günü atlasın çekirdeğinde ZATEN var (`1815-06-09`, 0 gün, konusu birebir); (b) `1815-01-01` çekirdekte en yakın maddeye 19 gün ve konusu ALAKASIZ ('Bisel Muharebesi'); (c) KOMŞU KURALI (YONTEM §③): `1815-06-09`u atlasta 36 kayıt kullanıyor.",
+    "damga": "⚠️ Gün TREccani'den DEĞİL, olayın adından ve atlasın kendi çekirdeğinden geliyor. Yeni bir hassasiyet ÜRETİLMEDİ — var olan bir gün DEVRALINDI, ve devralındığı BURADA YAZILI (§4: 'künyenin günü DEVRALINIR ve DEVRALINDIĞI YAZILIR')."
+  },
+
+  "ON_KOSUL_OLCUMU": {
+    "kunye_var_mi": "🟢 4/4 — piombino · toskana · italya · piza hepsi künyeli",
+    "renk_var_mi": "🟢 4/4 — piombino #d86c24 · toskana #b484f3 · italya #74a074 · piza #2ac9a8 (ölçüldü: denetim/ARAC-AVRUPA-PIOMBINO-0906.py, `harita:` dolaylaması dahil)",
+    "harita_deligi": "🟢 0 — ARAC-KIMLIK-BOYA-0906.py tek delik buldu ve o `__BOSLUK__`, yani BEYAN (§1.5)",
+    "2s_kapisi": "🟢 1815-06-09 → 0 gün, 'Viyana Kongresi Nihai Senedi' · 1861-03-17 → 0 gün, 'İtalya Krallığının ilânı'. İKİSİ DE ÇEKİRDEKTE (data/olaylar*.js, 1317 madde) ve konusu BİREBİR ilgili ⇒ yeni çekirdek maddesi GEREKMİYOR."
+  },
+
+  "🔴_NOT_ALANI_UYARISI": "Bu öneriye bir `not:` alanı EKLEMEDİM — çünkü inmez. Ölçüldü: `_kunye_uygula.py:136` alan listesi `[id,ad,tur,bolge,f,t,baskent,harita,ozet,kaynak]` ve `not` orada YOK; canlı `devletler.js`in 617 künyesinin 0'ında `not:` var, oysa denetim/ altındaki 25 künye önerisinin 17'si onu taşıyor. Ayrı bir aksaklık olarak koordinatöre bildirildi. Bu vakanın kendisi o kusurun KANITI: `piombino`nun ORİJİNAL önerisi (YAMA-KUNYE-PIOMBINO-0905.json) «t:'1548-01-01' GEÇİCİ VE MUHTEMELEN ÇOK KISA» diye AÇIKÇA uyarıyordu ve o uyarı künyeye İNMEDİ ⇒ künye bugün dayanaklı GÖRÜNÜYOR.",
+
+  "🟡_ACIK_KALEM_DEVRALINDI": "BULGU-ELBA-0905 §⑤ şunu tespit etmişti: 1557'den sonra ada BÖLÜNDÜ (Portoferraio Medici'de kaldı, geri kalanı Appiani'ye iade, sonra İspanyol garnizonu). Treccani bunu DOĞRULUYOR. Bu yama o bölünmeyi ÇÖZMÜYOR — Elba tek nokta ve tek nokta iki sahibi ifade edemez (§2). Basitleştirme SÜRÜYOR, ama artık 1923'e kadar değil 1815'e kadar. ⇒ Kalem AÇIK kalır, ve kaydın mevcut `not:` alanı onu zaten beyan ediyor.",
+
+  "🔴_MEVCUT_not_ALANI_BAYATLAYACAK": "Elba kaydının canlı `not:` alanı «bu tek 'piombino' periyodu 1923'e KADAR BASİTLEŞTİRMEDİR» diyor. Yama inince o cümle YANLIŞ olur (periyot artık 1815'te bitiyor). AMA `_sahiplik_uygula.py` `not:`ı `SKALER_KORUNAN`da tutuyor — dolu bir `not:`ı EZMİYOR, yalnız boşsa dolduruyor. ⇒ Bu satır ELLE güncellenmeli, yoksa doğru bir veri yanlış bir beyanla birlikte durur."
+}

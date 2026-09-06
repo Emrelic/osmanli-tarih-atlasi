@@ -1,0 +1,25 @@
+{
+  "oturum": "BALKAN-DOĞU AVRUPA",
+  "damga": "2026-09-06",
+  "is": "M-hüküm: `oniki-ada-italyan` künyesi DÜŞÜRÜLMEZ, BEYAN ALIR",
+  "🔴_NIYE_SILINMIYOR": "Koordinatör hükmü, gerekçe `CLAUDE.md §11`: «kabul edilmiş bir borç kayıtsız kalırsa yarın kusur diye yeniden bulunur.» Künye silinirse bir sonraki oturum aynı boşluğu (Oniki Ada 1912-1923 kimliksiz görünüyor) görüp künyeyi YENİDEN YARATIR. Beyan yazılırsa bir daha açılmaz.",
+  "🔴_VERI_YAZILMADI": "`data/devletler.js` DONUK (Koşu 7b canlı, PID 3880). Bu bir ÖNERİDİR; koşu bitince koordinatör uygular.",
+  "hedef_kunye": "oniki-ada-italyan",
+  "mevcut": {
+    "f": "1912-05-04",
+    "t": "1923-10-29",
+    "veride_kullanim": "0 dönem",
+    "renk": "🔴 BOYALAR'da YOK"
+  },
+  "degisiklik": {
+    "alan": "ozet",
+    "islem": "MEVCUT ÖZETİN SONUNA EKLE — üzerine yazma",
+    "eklenecek": "🔴 BU KÜNYE KULLANILMIYOR VE KULLANILMAMALI. Atlas Oniki Ada'nın 1912-1923 arası statüsünü `isg:` (işgal örtüsü) katmanında çözmüş: 13 adanın 13'ünde `isg: italya` dönemi var (Rodos·Lindos 1912-05-04 · dokuz ada 1912-05-12 · İstanköy 1912-05-20), egemenlik `d:` OSMANLI olarak 1923-07-24'e (Lozan) kadar sürüyor, sonra `s: italya`. Bu kimliği `s:` olarak yazmak İŞGALİ TASARRUF YAPAR ve TDV'nin kendi cümlesini çiğner — `oniki-ada` (Cevdet Küçük): «Böylece … Osmanlı Devleti'nin adalar üzerindeki egemenlik hakları KALDIRILMAMIŞ oldu.» `isg:`e ikinci kimlik olarak koymak da mükerrer olur. ⇒ Künye kayıt olarak DURUR, veriye İNMEZ; renk de GEREKMEZ. (Ölçen: BALKAN-DOĞU AVRUPA, 6 Eylül 2026.)"
+  },
+  "olcum": {
+    "isg_ortusu": "13 / 13 ada — tam",
+    "kronoloji": "çekirdekte 0 gün uzaklıkta ve konusu birebir ÜÇ madde: «Rodos'un İtalyan işgali» (1912-05-04) · «Onikiada'nın İtalyan işgali» (1912-05-12) · «İstanköy'ün işgali» (1912-05-21) — artı 1923-07-24 «Lozan Antlaşması»",
+    "egemenlik": "`d:` OSMANLI → 1923-07-24, TDV `rodos` ile birebir: «1522-1912 yılları arasında Osmanlı Devleti idaresi altında kalan ada» (idare) + `oniki-ada`: egemenlik 1923'e kadar"
+  },
+  "🟡_ALETIN_SINIRI": "Koordinatörün kendi tespiti, buraya kaydediliyor: `ARAC-ATIL-KUNYE-0906.js` üç şey ölçüyor (künye VAR + renk YOK + veride 0 dönem) ve DÖRDÜNCÜYÜ sormuyor: «bu vaka BAŞKA BİR KATMANDA zaten çözülmüş mü?» Bu künye o kör noktanın ilk ölçülmüş vakası."
+}
