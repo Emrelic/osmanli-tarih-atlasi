@@ -30,6 +30,40 @@ bellekte uygulandı, `degismez4` doğrudan çağrıldı —
 ⚠️ Sınırı: künye yamaları uygulanmadı; künyeler inince **yeniden ölçülmeli**.
 🟢 `MERGE-BAGIMLILIK-0907.json`: 20/22 yama doğrudan inebilir · çakışan künye 0.
 
+## ①b 🔴🔴 MERGE'İ SESSİZCE YARIM BIRAKACAK KUSUR — ÖNCE BUNU DÜZELT
+
+```
+_kunye_uygula.py:44       VARSAYILAN      = "denetim/YAMA-KUNYE-*0905*.json"
+_kronoloji_uygula.py:49   VARSAYILAN_YAMA = "denetim/KRONOLOJI-*0905*.json"
+KOSU-SONRASI-KUYRUK.md    `--yaz` çağrılarında DESEN YOK ⇒ varsayılan kullanılıyor
+```
+**GLOB'UN DIŞINDA KALAN: 12 dosya · 10 künye + 216 kronoloji maddesi**
+(`YAMA-KUNYE-VASSAL-0906` 10 · `KRONOLOJI-BATIAFRIKA-0904` 92 ·
+`GUNEYAMERIKA-0904` 81 · `ORTAAMERIKA-0904` 27 · +16)
+⚠️ **`0904` dosyaları da kaçıyor** ⇒ sorun *"bugünün tarihi"* değil, desenin
+**sabit bir güne çivilenmiş** olması. *"Tarihi ileri al"* aynı kusuru
+yarına taşır.
+
+🔴 **VE NİÇİN GÖRÜNMEDİ — kuyruğun kendi beklentisi de aynı dar kümeden:**
+```
+KUYRUK:3835  «11 künye  (kuru koşu: 11 kabul / 0 red)»
+KUYRUK:3836  «160 madde (kuru koşu: 160 kabul / 8 mükerrer)»
+```
+Beklenti ile ölçüm **uyuşuyor** çünkü ikisi de aynı dar kümeden geliyor.
+*"Kabul 11 / red 0"* **temiz bir başarı** gibi okunuyor. Alet *"şu dosyayı
+atladım"* demez — deseni tutmayan dosya onun için **hiç var olmaz.**
+📌 `§11`in **sessiz sıfır** ailesinin en pahalı üyesi: burada `0` bile yok.
+
+**ÇARE — sırayla:**
+```
+A ŞİMDİ  kuyruğa deseni AÇIKÇA yaz:  --yama "denetim/YAMA-KUNYE-*.json"
+                                     --yama "denetim/KRONOLOJI-*.json"
+B SONRA  arac/*.py VARSAYILAN'ını tarihsizleştir (koşu bitince, arac/ donuk)
+C ASLA   "deseni her gün güne çevir" — aynı kusuru her gün üretir
+```
+⚪ ÖLÇÜLMEDİ: 226 kaydın kaçının **kabul** edileceği. Desen genişleyince
+mükerrer/çakışma çıkabilir ⇒ genişletmeden sonra **ayrı bir kuru koşu**.
+
 ## ② ON BEŞ KOL — kimlikler ÖLÇÜLDÜ
 
 ```

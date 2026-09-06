@@ -1,0 +1,116 @@
+{
+ "🔴_BASLIK_NOTU": [
+  "BU DOSYA BIR KUNYE YAMASI DEGILDIR — mevcut kunyelerin `kaynak:` alani",
+  "icin bir METIN ONERISIDIR. Hicbir `f:`/`t:` degismez.",
+  "AD, `_kunye_uygula.py`nin glob'una (denetim/YAMA-KUNYE-*NNNN*.json)",
+  "KASTEN girmiyor — o alet YENI kunye EKLER, bu dortu hedefte ZATEN VAR.",
+  "Emsal: denetim/ONERI-KAYNAK-HIMAYE-4-0905.json (ayni sebeple yeniden adlandirilmisti)."
+ ],
+ "ust": {
+  "is": "DORT TEK-NOKTALI POLITY — kaynak: metni onerisi",
+  "oturum": "ASYA",
+  "sevk": "1.MURAT ① (7 Eylul 2026)",
+  "damga": "2026-09-07",
+  "cins": "ONERI — metin ONERILDI, YAZILMADI. devletler.js kosu 7b sonrasi TEK ELDEN.",
+  "dosya": "data/devletler.js",
+  "dayanak": "denetim/ASYA-DORT-POLITY-0907.md (Tur 5 olcumu)",
+  "ANLIK_GORUNTU": "7 Eylul, kosu 7b surerken (PID 3880). data/*.js DONUK.",
+  "UYGULAMADAN_ONCE_OKU": [
+   "kaynak_MEVCUT dizgileri VERIDEN uretildi, elle kopyalanmadi.",
+   "DORDUNDE DE tek bir alan degisir: `kaynak`. `f:`/`t:` DOKUNULMAZ.",
+   "🔴 `nepal` UC AYRI ARTEFAKTTA geciyor (asagida CAKISMA). Uygulamada",
+   "   uc metin BIRLESTIRILMELI, arka arkaya uygulanmamali.",
+   "🔴 `brunei-sultanligi`in TARIH ayrismasi BILDIRIMDIR, hukum DEGIL —",
+   "   kunye kalemi 1.MURAT'ta.",
+   "travankur'da damga DEGISMIYOR, yalnizca GEREKCESI genisliyor."
+  ],
+  "CAKISMA": {
+   "nepal": [
+    "denetim/ONERI-KAYNAK-7-0905.json (5 Eylul, KURE GORUNUM — ayni oturum)",
+    "denetim/OLCUM-YANLIS-BULUNAMADI-0907.md (7 Eylul, ayni oturum)",
+    "BU DOSYA"
+   ],
+   "not": "Ucu de AYNI YONDE: damga yanlis, TDV `nepal` canli. Metinler ayrisiyor."
+  }
+ },
+ "ONERILER": [
+  {
+   "id": "nepal",
+   "ad": "Nepal (Malla Krallıkları → Gorkha/Şah Hânedanı)",
+   "f": "1281-01-01",
+   "t": "1923-10-29",
+   "DAMGA": "🔴 DEGISMELI — mevcut damga YANLIS",
+   "TDV_slug": "nepal",
+   "http": "200",
+   "govde_metin_kar": 16050,
+   "SS4_DOGRU_MADDE_MI": "EVET — TDV `nepal` ulke maddesi, Nepal'i 84 kez aniyor",
+   "alintilar": [
+    "\"1814-1816 yillarindaki Ingiliz-Nepal savasinin ardindan yapilan Suguali Antlasmasi ile nufusun yogunlastigi Terai topraklarinin buyuk kismi Ingilizler'e gecti ve bu tarihten itibaren Nepal Kralligi varligini INGILTERE HIMAYESINDE devam ettirdi.\"",
+    "\"…yuzyildan itibaren Malla hanedanina gecti.\""
+   ],
+   "kaynak_MEVCUT": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+   "kaynak_ONERILEN": "TDV `nepal` — gövde okundu (16.050 kar.): «1814-1816 yıllarındaki İngiliz-Nepal savaşının ardından yapılan Suguali Antlaşması ile … bu tarihten itibaren Nepal Krallığı varlığını İngiltere himayesinde devam ettirdi.» ⚠️ Birleşme günü (1768-09-25) TDV'de DESTEKLENMİYOR (Gorkha · Prithvi · 1768 → 0 isabet); başka kaynaktan gelmiş, hangisi ÖLÇÜLMEDİ.",
+   "not": "🔴 UC DOSYA AYNI KUNYEYE DOKUNUYOR: bu dosya · ONERI-KAYNAK-7-0905.json · OLCUM-YANLIS-BULUNAMADI-0907.md. Uygulamada BIRLESTIRILMELI.",
+   "OLCMEDIM": "TDV himaye (1816) diyor, atlas 1281-1923 kesintisiz BAGIMSIZ boyuyor — `v:` kimlik alani olmadigi icin ifade EDILEMIYOR (yapisal, senin kalemin)."
+  },
+  {
+   "id": "travankur",
+   "ad": "Travankur Krallığı (Venâd)",
+   "f": "1281-01-01",
+   "t": "1923-10-29",
+   "DAMGA": "🟢 KALSIN — damga HAK EDILMIS, tek EKLEME",
+   "TDV_slug": "malabar",
+   "http": "200",
+   "govde_metin_kar": 7310,
+   "SS4_DOGRU_MADDE_MI": "EVET ama KAPSAMIYOR — Travankur'u hic anmiyor",
+   "alintilar": [
+    "travankur · trivandrum · kerala → UCU DE 302 OLU",
+    "kapsayici `malabar` (7.310 kar.) OKUNDU: Travankur 0 · Venad 0 · 1729 0 · 1741 0 · Kolacel 0 · Marthanda 0 · Tiruvitamkur 0 ⇒ SIFIR ISABET"
+   ],
+   "kaynak_MEVCUT": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+   "kaynak_ONERILEN": "bulunamadı — TDV'de müstakil maddesi yok (travankur · trivandrum · kerala hepsi 302); KAPSAYICI `malabar` maddesi de OKUNDU (7.310 kar.) ve Travankur'u ANMIYOR (0 isabet). Dayanak: standart akademik kaynak.",
+   "not": "Ekleme tek amacli: bir sonraki oturum `malabar`i YENIDEN denemesin.",
+   "OLCMEDIM": null
+  },
+  {
+   "id": "brunei-sultanligi",
+   "ad": "Brunei Sultanlığı",
+   "f": "1368-01-01",
+   "t": "1923-10-29",
+   "DAMGA": "🔴 KAYNAK DOGRU — ama kunyeyi IKI TARIHTE CURUTUYOR",
+   "TDV_slug": "bruney",
+   "http": "200",
+   "govde_metin_kar": 12815,
+   "SS4_DOGRU_MADDE_MI": "EVET — kunyenin KENDI gosterdigi slug (`brunei` 302 OLU, `bruney` CANLI)",
+   "alintilar": [
+    "\"…Muhammed Sah (1405-1415) adini alan yerli lider Alang Betatar'in bir sultanlik kurmasiyla baslar\"  ↔ kunye f:1368-01-01  🔴 ~37-47 YIL",
+    "\"Sultan Bolkiah'nin doneminde ise (1473-1521)\"  ↔ kunye 1473-1521 🟢 BIREBIR",
+    "\"…Bruney bir Ingiliz himaye devleti haline geldi (Aralik 1888)\"  ↔ kunye 1888-09-17  🔴 TDV AY veriyor, kunye GUN iddia ediyor"
+   ],
+   "kaynak_MEVCUT": "bruney",
+   "kaynak_ONERILEN": "TDV `bruney` — gövde okundu (12.815 kar.). ⚠️ İKİ AYRIŞMA: (1) künye f:1368, TDV sultanlığın kuruluşunu Muhammed Şah'a (1405-1415) bağlıyor; (2) künye himaye 1888-09-17, TDV «Aralık 1888» diyor — TDV AY veriyor, GÜN vermiyor. Bolkiah 1473-1521 BİREBİR uyuşuyor.",
+   "not": "🔴 TARIHLER BU DOSYANIN KONUSU DEGIL — f:/t: DEGISMEZ. Kunye kalemi 1.MURAT'ta (kendi beyani, 7 Eylul). Bu dosya yalniz `kaynak:` metnini oneriyor.",
+   "OLCMEDIM": null
+  },
+  {
+   "id": "tidore-sultanligi",
+   "ad": "Tidore Sultanlığı (Moluk)",
+   "f": "1281-01-01",
+   "t": "1923-10-29",
+   "DAMGA": "🟡 DEGISMELI — kaynak VAR ama YANLIS ALANDA",
+   "TDV_slug": "endonezya",
+   "http": "200",
+   "govde_metin_kar": 116293,
+   "SS4_DOGRU_MADDE_MI": "KISMEN — polity'yi ADIYLA aniyor, TARIH vermiyor (§4 ANMA boslugu)",
+   "alintilar": [
+    "\"…o zaman Ternate, Tidor, Gilolo ve Batjan (bugun Bacan) prensliklerinin yonetimindeydiler.\"",
+    "tidore · ternate · molukler · maluku → DORDU DE 302 OLU",
+    "🔵 Widjojo 2009 kunyenin KRONOLOJISINDE adiyla duruyor — `kaynak:` alaninda DEGIL"
+   ],
+   "kaynak_MEVCUT": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+   "kaynak_ONERILEN": "Widjojo 2009 (künye kronolojisinde adıyla duruyor). TDV: dar sluglar ÖLÜ (tidore · ternate · molukler · maluku hepsi 302); KAPSAYICI `endonezya` maddesi (116.293 kar.) Tidore'yi PRENSLİK olarak adıyla ANIYOR ama künyenin hiçbir tarihini VERMİYOR (§4 ANMA boşluğu).",
+   "not": "Kaynak zaten VARDI, yalniz izlenemez bir alandaydi. `§4`: kaynak alani dolu olmadikca izlenemez.",
+   "OLCMEDIM": "Widjojo 2009'un kunyenin DORT tarihini gercekten verip vermedigi OLCULMEDI — kitaba erisilmedi."
+  }
+ ]
+}
