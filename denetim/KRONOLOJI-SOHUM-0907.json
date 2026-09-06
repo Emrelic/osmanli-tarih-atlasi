@@ -1,0 +1,24 @@
+{
+  "oturum": "BALKAN-DOĞU AVRUPA",
+  "damga": "2026-09-07",
+  "is": "`denetim/yer_yama_sohum.js`in ÖN KOŞULU",
+  "🔴_NIYE": "`1921-03-04` veride HİÇ kullanılmıyor (0 uç) ⇒ YENİ bir kırılma günü. Çekirdekte ±30 günde tek madde 28 gün uzakta ve konusu alakasız («İkinci İnönü Muharebesi»). Madde inmeden yama `Değişmez 2`yi açar.",
+  "maddeler": [
+    {
+      "t": "1921-03-04",
+      "b": "Sohum'un Kızılordu tarafından alınması — Abhazya'da Sovyet hâkimiyetinin ilânı",
+      "k": "kayip",
+      "yer": "Sohum",
+      "yer_id": "Sohum",
+      "kaynak": "TDV `sohum` (HTTP 200, 17.661 kar.) — AYNEN: «Kızılordu ve yerel güçler şehri 4 Mart 1921'de ele geçirip Sovyet hükümranlığını ilân ettiler.» Destekleyen: «31 Mart 1921'de Abhazya Sovyet Sosyalist Cumhuriyeti teşkil edildi.»",
+      "🟡_TAKVIM": "TDV takvimini SÖYLEMİYOR. 1918 Şubat'ından sonra Sovyet Rusya Gregoryen kullanıyordu ⇒ 1921 tarihlerinde Rumî/Milâdî ayrışması BEKLENMİYOR. Çapa: TDV `batum` «16 Mart 1921 … Moskova Antlaşması» veriyor ve atlas `1921-03-16` kullanıyor — aynı gövde ailesinde Milâdî. Yine de TDV `sohum`un takvimi AYRICA ölçülmedi."
+    }
+  ],
+  "🟡_AYRI_KALEM_KAYDI": "`1921-03-16` (Moskova Antlaşması) veride DÖRT dönemin ucu (Batum · Kutaisi) ve çekirdekte onu anlatan madde YOK (en yakın 16 gün, alakasız). Bu yamanın konusu DEĞİL — ayrı bir kalem olarak kaydediliyor.",
+  "damgalar": {
+    "ölçtüm": "aday günlerin veride kullanımı ve 2s kapısı · künye pencereleri · kapsam",
+    "bulunamadı": "1917-11-07 → 1921-03-04 arası Abhazya'nın sahibini ADLANDIRAN kaynak cümlesi — TDV `sohum` «Rus sivil savaşı içinde yok oldu» diyor, sahip vermiyor",
+    "ölçülemedi": "TDV `sohum` maddesinin takvimi (çapa ile desteklendi, doğrudan ölçülmedi)",
+    "okumadım": "Encyclopaedia of Islam / akademik Abhazya literatürü — TDV bu turda konuştu"
+  }
+}

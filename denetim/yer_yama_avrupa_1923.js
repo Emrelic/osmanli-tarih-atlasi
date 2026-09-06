@@ -112,37 +112,37 @@ window.YER_YAMA_AVRUPA_1923 = [
 
   { ad:"Madrid",
     s:[{f:"1281-01-01",t:"1479-01-20",d:"kastilya"},
-       {f:"1479-01-20",t:"1923-10-29",d:"ispanya"}
+       {f:"1479-01-20",t:"1923-10-29",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gövde: «20 January 1479 … [in] Barcelona», Ferdinand II babasının yerine Aragon kralı oldu."}
     ],
     kaynak:"İÇ TUTARLILIK DÜZELTMESİ — yeni tarih iddiası YOK. `kastilya` (künye kaynağı: TDV `kastilya--ispanya`) ve `aragon` (TDV `aragon`) künyeleri 1479-01-20'de bitiyor, `ispanya` künyesi (TDV `ispanya`) AYNI GÜN başlıyor; künyelerin kendi `ozet` alanları geçişi tarif ediyor ('Katolik Kralların evliliğiyle Aragon ile birleşerek İspanya'nın çekirdeğini oluşturdu'). Atlasın EMSALİ: 22 nokta `kastilya`, 11 nokta `aragon`, 7 nokta `granada` ile zincirlenmiş; bu dokuz nokta o konvansiyonun DIŞINDA kalmıştı. Gün 1479-01-20'yi atlasta 60 kayıt kullanıyor (YONTEM §③ komşu kuralı). Taç ataması coğrafî: Madrid/Sevilla Kastilya Tacı, Barselona/Valensiya/Balear/Sardinya Aragon Tacı. 🔵 §②b DAMGASI: burada YENİ BİR GÜN İDDİASI YOK — gün künyelerin kendi `f:`/`t:`si ve atlasta 60 kayıt tarafından zaten kullanılıyor. Bu ne OLAYIN ne GÜNÜN yeni bir dayanağıdır; mevcut konvansiyona KATILIMDIR." },
 
   { ad:"Sevilla",
     s:[{f:"1281-01-01",t:"1479-01-20",d:"kastilya"},
-       {f:"1479-01-20",t:"1923-10-29",d:"ispanya"}
+       {f:"1479-01-20",t:"1923-10-29",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gövde: «20 January 1479 … [in] Barcelona», Ferdinand II babasının yerine Aragon kralı oldu."}
     ],
     kaynak:"İÇ TUTARLILIK DÜZELTMESİ — yeni tarih iddiası YOK. `kastilya` (künye kaynağı: TDV `kastilya--ispanya`) ve `aragon` (TDV `aragon`) künyeleri 1479-01-20'de bitiyor, `ispanya` künyesi (TDV `ispanya`) AYNI GÜN başlıyor; künyelerin kendi `ozet` alanları geçişi tarif ediyor ('Katolik Kralların evliliğiyle Aragon ile birleşerek İspanya'nın çekirdeğini oluşturdu'). Atlasın EMSALİ: 22 nokta `kastilya`, 11 nokta `aragon`, 7 nokta `granada` ile zincirlenmiş; bu dokuz nokta o konvansiyonun DIŞINDA kalmıştı. Gün 1479-01-20'yi atlasta 60 kayıt kullanıyor (YONTEM §③ komşu kuralı). Taç ataması coğrafî: Madrid/Sevilla Kastilya Tacı, Barselona/Valensiya/Balear/Sardinya Aragon Tacı. 🔵 §②b DAMGASI: burada YENİ BİR GÜN İDDİASI YOK — gün künyelerin kendi `f:`/`t:`si ve atlasta 60 kayıt tarafından zaten kullanılıyor. Bu ne OLAYIN ne GÜNÜN yeni bir dayanağıdır; mevcut konvansiyona KATILIMDIR." },
 
   { ad:"Barselona",
     s:[{f:"1281-01-01",t:"1479-01-20",d:"aragon"},
-       {f:"1479-01-20",t:"1923-10-29",d:"ispanya"}
+       {f:"1479-01-20",t:"1923-10-29",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gövde: «20 January 1479 … [in] Barcelona», Ferdinand II babasının yerine Aragon kralı oldu."}
     ],
     kaynak:"İÇ TUTARLILIK DÜZELTMESİ — yeni tarih iddiası YOK. `kastilya` (künye kaynağı: TDV `kastilya--ispanya`) ve `aragon` (TDV `aragon`) künyeleri 1479-01-20'de bitiyor, `ispanya` künyesi (TDV `ispanya`) AYNI GÜN başlıyor; künyelerin kendi `ozet` alanları geçişi tarif ediyor ('Katolik Kralların evliliğiyle Aragon ile birleşerek İspanya'nın çekirdeğini oluşturdu'). Atlasın EMSALİ: 22 nokta `kastilya`, 11 nokta `aragon`, 7 nokta `granada` ile zincirlenmiş; bu dokuz nokta o konvansiyonun DIŞINDA kalmıştı. Gün 1479-01-20'yi atlasta 60 kayıt kullanıyor (YONTEM §③ komşu kuralı). Taç ataması coğrafî: Madrid/Sevilla Kastilya Tacı, Barselona/Valensiya/Balear/Sardinya Aragon Tacı. 🔵 §②b DAMGASI: burada YENİ BİR GÜN İDDİASI YOK — gün künyelerin kendi `f:`/`t:`si ve atlasta 60 kayıt tarafından zaten kullanılıyor. Bu ne OLAYIN ne GÜNÜN yeni bir dayanağıdır; mevcut konvansiyona KATILIMDIR." },
 
   { ad:"Valensiya",
     s:[{f:"1281-01-01",t:"1479-01-20",d:"aragon"},
-       {f:"1479-01-20",t:"1923-10-29",d:"ispanya"}
+       {f:"1479-01-20",t:"1923-10-29",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gövde: «20 January 1479 … [in] Barcelona», Ferdinand II babasının yerine Aragon kralı oldu."}
     ],
     kaynak:"İÇ TUTARLILIK DÜZELTMESİ — yeni tarih iddiası YOK. `kastilya` (künye kaynağı: TDV `kastilya--ispanya`) ve `aragon` (TDV `aragon`) künyeleri 1479-01-20'de bitiyor, `ispanya` künyesi (TDV `ispanya`) AYNI GÜN başlıyor; künyelerin kendi `ozet` alanları geçişi tarif ediyor ('Katolik Kralların evliliğiyle Aragon ile birleşerek İspanya'nın çekirdeğini oluşturdu'). Atlasın EMSALİ: 22 nokta `kastilya`, 11 nokta `aragon`, 7 nokta `granada` ile zincirlenmiş; bu dokuz nokta o konvansiyonun DIŞINDA kalmıştı. Gün 1479-01-20'yi atlasta 60 kayıt kullanıyor (YONTEM §③ komşu kuralı). Taç ataması coğrafî: Madrid/Sevilla Kastilya Tacı, Barselona/Valensiya/Balear/Sardinya Aragon Tacı. 🔵 §②b DAMGASI: burada YENİ BİR GÜN İDDİASI YOK — gün künyelerin kendi `f:`/`t:`si ve atlasta 60 kayıt tarafından zaten kullanılıyor. Bu ne OLAYIN ne GÜNÜN yeni bir dayanağıdır; mevcut konvansiyona KATILIMDIR." },
 
   { ad:"Mayorka (Palma)",
     s:[{f:"1281-01-01",t:"1479-01-20",d:"aragon"},
-       {f:"1479-01-20",t:"1923-10-29",d:"ispanya"}
+       {f:"1479-01-20",t:"1923-10-29",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gövde: «20 January 1479 … [in] Barcelona», Ferdinand II babasının yerine Aragon kralı oldu."}
     ],
     kaynak:"İÇ TUTARLILIK DÜZELTMESİ — yeni tarih iddiası YOK. `kastilya` (künye kaynağı: TDV `kastilya--ispanya`) ve `aragon` (TDV `aragon`) künyeleri 1479-01-20'de bitiyor, `ispanya` künyesi (TDV `ispanya`) AYNI GÜN başlıyor; künyelerin kendi `ozet` alanları geçişi tarif ediyor ('Katolik Kralların evliliğiyle Aragon ile birleşerek İspanya'nın çekirdeğini oluşturdu'). Atlasın EMSALİ: 22 nokta `kastilya`, 11 nokta `aragon`, 7 nokta `granada` ile zincirlenmiş; bu dokuz nokta o konvansiyonun DIŞINDA kalmıştı. Gün 1479-01-20'yi atlasta 60 kayıt kullanıyor (YONTEM §③ komşu kuralı). Taç ataması coğrafî: Madrid/Sevilla Kastilya Tacı, Barselona/Valensiya/Balear/Sardinya Aragon Tacı. 🔵 §②b DAMGASI: burada YENİ BİR GÜN İDDİASI YOK — gün künyelerin kendi `f:`/`t:`si ve atlasta 60 kayıt tarafından zaten kullanılıyor. Bu ne OLAYIN ne GÜNÜN yeni bir dayanağıdır; mevcut konvansiyona KATILIMDIR." },
 
   { ad:"Menorka (Mahon)",
     s:[{f:"1281-01-01",t:"1479-01-20",d:"aragon"},
-       {f:"1479-01-20",t:"1708-09-29",d:"ispanya"},
+       {f:"1479-01-20",t:"1708-09-29",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gövde: «20 January 1479 … [in] Barcelona», Ferdinand II babasının yerine Aragon kralı oldu."},
        {f:"1708-09-29",t:"1802-03-25",d:"ingiltere"},
        {f:"1802-03-25",t:"1923-10-29",d:"ispanya"}
     ],
@@ -150,14 +150,14 @@ window.YER_YAMA_AVRUPA_1923 = [
 
   { ad:"İbiza",
     s:[{f:"1281-01-01",t:"1479-01-20",d:"aragon"},
-       {f:"1479-01-20",t:"1923-10-29",d:"ispanya"}
+       {f:"1479-01-20",t:"1923-10-29",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gövde: «20 January 1479 … [in] Barcelona», Ferdinand II babasının yerine Aragon kralı oldu."}
     ],
     kaynak:"İÇ TUTARLILIK DÜZELTMESİ — yeni tarih iddiası YOK. `kastilya` (künye kaynağı: TDV `kastilya--ispanya`) ve `aragon` (TDV `aragon`) künyeleri 1479-01-20'de bitiyor, `ispanya` künyesi (TDV `ispanya`) AYNI GÜN başlıyor; künyelerin kendi `ozet` alanları geçişi tarif ediyor ('Katolik Kralların evliliğiyle Aragon ile birleşerek İspanya'nın çekirdeğini oluşturdu'). Atlasın EMSALİ: 22 nokta `kastilya`, 11 nokta `aragon`, 7 nokta `granada` ile zincirlenmiş; bu dokuz nokta o konvansiyonun DIŞINDA kalmıştı. Gün 1479-01-20'yi atlasta 60 kayıt kullanıyor (YONTEM §③ komşu kuralı). Taç ataması coğrafî: Madrid/Sevilla Kastilya Tacı, Barselona/Valensiya/Balear/Sardinya Aragon Tacı. 🔵 §②b DAMGASI: burada YENİ BİR GÜN İDDİASI YOK — gün künyelerin kendi `f:`/`t:`si ve atlasta 60 kayıt tarafından zaten kullanılıyor. Bu ne OLAYIN ne GÜNÜN yeni bir dayanağıdır; mevcut konvansiyona KATILIMDIR." },
 
   { ad:"Kalyari (Cagliari)",
     s:[{f:"1281-01-01",t:"1324-01-01",d:"ceneviz"},
        {f:"1324-01-01",t:"1479-01-20",d:"aragon"},
-       {f:"1479-01-20",t:"1720-02-24",d:"ispanya"},
+       {f:"1479-01-20",t:"1720-02-24",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gövde: «20 January 1479 … [in] Barcelona», Ferdinand II babasının yerine Aragon kralı oldu."},
        {f:"1720-02-24",t:"1861-03-17",d:"sardinya"},
        {f:"1861-03-17",t:"1923-10-29",d:"italya"}
     ],
@@ -166,7 +166,7 @@ window.YER_YAMA_AVRUPA_1923 = [
   { ad:"Sasari (Sassari)",
     s:[{f:"1281-01-01",t:"1324-01-01",d:"ceneviz"},
        {f:"1324-01-01",t:"1479-01-20",d:"aragon"},
-       {f:"1479-01-20",t:"1720-02-24",d:"ispanya"},
+       {f:"1479-01-20",t:"1720-02-24",d:"ispanya",kaynak:"Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gövde: «20 January 1479 … [in] Barcelona», Ferdinand II babasının yerine Aragon kralı oldu."},
        {f:"1720-02-24",t:"1861-03-17",d:"sardinya"},
        {f:"1861-03-17",t:"1923-10-29",d:"italya"}
     ],

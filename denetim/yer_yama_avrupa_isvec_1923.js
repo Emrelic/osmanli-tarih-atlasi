@@ -141,20 +141,20 @@ window.YER_YAMA_AVRUPA_ISVEC_1923 = [
   { ad:"Turku (Åbo)",
     s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},
        {f:"1523-06-06",t:"1809-09-17",d:"isvec"},
-       {f:"1809-09-17",t:"1917-03-15",d:"rusya"},
+       {f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
        {f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},
-       {f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}
+       {f:"1917-12-06",t:"1923-10-29",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}
     ],
     kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, imzalı: Joseph P. Byrne, 2022): 'The Swedish Estates refused to recognize Frederick as the new monarch and elected Gustav by acclamation on JUNE 6, 1523.' İkinci bağımsız teyit: seçim Strängnäs'taki Riksdag'da yapıldı ve Kalmar Birliği böylece resmen dağıldı (aynı gün İsveç Ulusal Günü'dür). TDV kapsam dışı — Batı/Kuzey Avrupa TDV kapsamı %0 (§4). İÇ TUTARLILIK: `isvec-birlik-oncesi` künyesi (1281-01-01→1523-06-06) TAM bu dönem için yazılmış ve özeti Kalmar'ı adıyla anıyor; `isvec` künyesi AYNI GÜN başlıyor. 🟢 §②b DAMGASI: bu kaynak GÜNÜN dayanağıdır — gövde günü AÇIKÇA veriyor ('on June 6, 1523') ve gövdesi ÇEKİLİP okundu. ⚠️ İkinci bağımsız teyit ise arama sonuçlarının çakışmasından geliyor, GÖVDE OKUMASINDAN DEĞİL (Britannica · Oxford Reference · Library of Congress ÜÇÜ DE HTTP 403) — bu bir zayıflık ve YAZILI." },
 
   { ad:"Hämeenlinna",
     s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},
        {f:"1523-06-06",t:"1809-09-17",d:"isvec"},
-       {f:"1809-09-17",t:"1917-03-15",d:"rusya"},
+       {f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
        {f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},
-       {f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}
+       {f:"1917-12-06",t:"1923-10-29",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}
     ],
     kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, imzalı: Joseph P. Byrne, 2022): 'The Swedish Estates refused to recognize Frederick as the new monarch and elected Gustav by acclamation on JUNE 6, 1523.' İkinci bağımsız teyit: seçim Strängnäs'taki Riksdag'da yapıldı ve Kalmar Birliği böylece resmen dağıldı (aynı gün İsveç Ulusal Günü'dür). TDV kapsam dışı — Batı/Kuzey Avrupa TDV kapsamı %0 (§4). İÇ TUTARLILIK: `isvec-birlik-oncesi` künyesi (1281-01-01→1523-06-06) TAM bu dönem için yazılmış ve özeti Kalmar'ı adıyla anıyor; `isvec` künyesi AYNI GÜN başlıyor. 🟢 §②b DAMGASI: bu kaynak GÜNÜN dayanağıdır — gövde günü AÇIKÇA veriyor ('on June 6, 1523') ve gövdesi ÇEKİLİP okundu. ⚠️ İkinci bağımsız teyit ise arama sonuçlarının çakışmasından geliyor, GÖVDE OKUMASINDAN DEĞİL (Britannica · Oxford Reference · Library of Congress ÜÇÜ DE HTTP 403) — bu bir zayıflık ve YAZILI." },
 
@@ -164,7 +164,7 @@ window.YER_YAMA_AVRUPA_ISVEC_1923 = [
        {f:"1721-09-10",t:"1917-03-15",d:"rusya"},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
        {f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},
-       {f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}
+       {f:"1917-12-06",t:"1923-10-29",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}
     ],
     kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, imzalı: Joseph P. Byrne, 2022): 'The Swedish Estates refused to recognize Frederick as the new monarch and elected Gustav by acclamation on JUNE 6, 1523.' İkinci bağımsız teyit: seçim Strängnäs'taki Riksdag'da yapıldı ve Kalmar Birliği böylece resmen dağıldı (aynı gün İsveç Ulusal Günü'dür). TDV kapsam dışı — Batı/Kuzey Avrupa TDV kapsamı %0 (§4). İÇ TUTARLILIK: `isvec-birlik-oncesi` künyesi (1281-01-01→1523-06-06) TAM bu dönem için yazılmış ve özeti Kalmar'ı adıyla anıyor; `isvec` künyesi AYNI GÜN başlıyor. 🟢 §②b DAMGASI: bu kaynak GÜNÜN dayanağıdır — gövde günü AÇIKÇA veriyor ('on June 6, 1523') ve gövdesi ÇEKİLİP okundu. ⚠️ İkinci bağımsız teyit ise arama sonuçlarının çakışmasından geliyor, GÖVDE OKUMASINDAN DEĞİL (Britannica · Oxford Reference · Library of Congress ÜÇÜ DE HTTP 403) — bu bir zayıflık ve YAZILI." },
 
@@ -219,110 +219,110 @@ window.YER_YAMA_AVRUPA_ISVEC_1923 = [
   { ad:"Vaasa",
     s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},
        {f:"1523-06-06",t:"1809-09-17",d:"isvec"},
-       {f:"1809-09-17",t:"1917-03-15",d:"rusya"},
+       {f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
        {f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},
-       {f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}
+       {f:"1917-12-06",t:"1923-10-29",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}
     ],
     kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, imzalı: Joseph P. Byrne, 2022): 'The Swedish Estates refused to recognize Frederick as the new monarch and elected Gustav by acclamation on JUNE 6, 1523.' İkinci bağımsız teyit: seçim Strängnäs'taki Riksdag'da yapıldı ve Kalmar Birliği böylece resmen dağıldı (aynı gün İsveç Ulusal Günü'dür). TDV kapsam dışı — Batı/Kuzey Avrupa TDV kapsamı %0 (§4). İÇ TUTARLILIK: `isvec-birlik-oncesi` künyesi (1281-01-01→1523-06-06) TAM bu dönem için yazılmış ve özeti Kalmar'ı adıyla anıyor; `isvec` künyesi AYNI GÜN başlıyor. 🟢 §②b DAMGASI: bu kaynak GÜNÜN dayanağıdır — gövde günü AÇIKÇA veriyor ('on June 6, 1523') ve gövdesi ÇEKİLİP okundu. ⚠️ İkinci bağımsız teyit ise arama sonuçlarının çakışmasından geliyor, GÖVDE OKUMASINDAN DEĞİL (Britannica · Oxford Reference · Library of Congress ÜÇÜ DE HTTP 403) — bu bir zayıflık ve YAZILI." },
 
   { ad:"Kokkola",
     s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},
        {f:"1523-06-06",t:"1809-09-17",d:"isvec"},
-       {f:"1809-09-17",t:"1917-03-15",d:"rusya"},
+       {f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
        {f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},
-       {f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}
+       {f:"1917-12-06",t:"1923-10-29",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}
     ],
     kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, imzalı: Joseph P. Byrne, 2022): 'The Swedish Estates refused to recognize Frederick as the new monarch and elected Gustav by acclamation on JUNE 6, 1523.' İkinci bağımsız teyit: seçim Strängnäs'taki Riksdag'da yapıldı ve Kalmar Birliği böylece resmen dağıldı (aynı gün İsveç Ulusal Günü'dür). TDV kapsam dışı — Batı/Kuzey Avrupa TDV kapsamı %0 (§4). İÇ TUTARLILIK: `isvec-birlik-oncesi` künyesi (1281-01-01→1523-06-06) TAM bu dönem için yazılmış ve özeti Kalmar'ı adıyla anıyor; `isvec` künyesi AYNI GÜN başlıyor. 🟢 §②b DAMGASI: bu kaynak GÜNÜN dayanağıdır — gövde günü AÇIKÇA veriyor ('on June 6, 1523') ve gövdesi ÇEKİLİP okundu. ⚠️ İkinci bağımsız teyit ise arama sonuçlarının çakışmasından geliyor, GÖVDE OKUMASINDAN DEĞİL (Britannica · Oxford Reference · Library of Congress ÜÇÜ DE HTTP 403) — bu bir zayıflık ve YAZILI." },
 
   { ad:"Pori",
     s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},
        {f:"1523-06-06",t:"1809-09-17",d:"isvec"},
-       {f:"1809-09-17",t:"1917-03-15",d:"rusya"},
+       {f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
        {f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},
-       {f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}
+       {f:"1917-12-06",t:"1923-10-29",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}
     ],
     kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, imzalı: Joseph P. Byrne, 2022): 'The Swedish Estates refused to recognize Frederick as the new monarch and elected Gustav by acclamation on JUNE 6, 1523.' İkinci bağımsız teyit: seçim Strängnäs'taki Riksdag'da yapıldı ve Kalmar Birliği böylece resmen dağıldı (aynı gün İsveç Ulusal Günü'dür). TDV kapsam dışı — Batı/Kuzey Avrupa TDV kapsamı %0 (§4). İÇ TUTARLILIK: `isvec-birlik-oncesi` künyesi (1281-01-01→1523-06-06) TAM bu dönem için yazılmış ve özeti Kalmar'ı adıyla anıyor; `isvec` künyesi AYNI GÜN başlıyor. 🟢 §②b DAMGASI: bu kaynak GÜNÜN dayanağıdır — gövde günü AÇIKÇA veriyor ('on June 6, 1523') ve gövdesi ÇEKİLİP okundu. ⚠️ İkinci bağımsız teyit ise arama sonuçlarının çakışmasından geliyor, GÖVDE OKUMASINDAN DEĞİL (Britannica · Oxford Reference · Library of Congress ÜÇÜ DE HTTP 403) — bu bir zayıflık ve YAZILI." },
 
   { ad:"Tampere",
     s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},
        {f:"1523-06-06",t:"1809-09-17",d:"isvec"},
-       {f:"1809-09-17",t:"1917-03-15",d:"rusya"},
+       {f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
        {f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},
-       {f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}
+       {f:"1917-12-06",t:"1923-10-29",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}
     ],
     kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, imzalı: Joseph P. Byrne, 2022): 'The Swedish Estates refused to recognize Frederick as the new monarch and elected Gustav by acclamation on JUNE 6, 1523.' İkinci bağımsız teyit: seçim Strängnäs'taki Riksdag'da yapıldı ve Kalmar Birliği böylece resmen dağıldı (aynı gün İsveç Ulusal Günü'dür). TDV kapsam dışı — Batı/Kuzey Avrupa TDV kapsamı %0 (§4). İÇ TUTARLILIK: `isvec-birlik-oncesi` künyesi (1281-01-01→1523-06-06) TAM bu dönem için yazılmış ve özeti Kalmar'ı adıyla anıyor; `isvec` künyesi AYNI GÜN başlıyor. 🟢 §②b DAMGASI: bu kaynak GÜNÜN dayanağıdır — gövde günü AÇIKÇA veriyor ('on June 6, 1523') ve gövdesi ÇEKİLİP okundu. ⚠️ İkinci bağımsız teyit ise arama sonuçlarının çakışmasından geliyor, GÖVDE OKUMASINDAN DEĞİL (Britannica · Oxford Reference · Library of Congress ÜÇÜ DE HTTP 403) — bu bir zayıflık ve YAZILI." },
 
   { ad:"Jyväskylä",
     s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},
        {f:"1523-06-06",t:"1809-09-17",d:"isvec"},
-       {f:"1809-09-17",t:"1917-03-15",d:"rusya"},
+       {f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
        {f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},
-       {f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}
+       {f:"1917-12-06",t:"1923-10-29",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}
     ],
     kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, imzalı: Joseph P. Byrne, 2022): 'The Swedish Estates refused to recognize Frederick as the new monarch and elected Gustav by acclamation on JUNE 6, 1523.' İkinci bağımsız teyit: seçim Strängnäs'taki Riksdag'da yapıldı ve Kalmar Birliği böylece resmen dağıldı (aynı gün İsveç Ulusal Günü'dür). TDV kapsam dışı — Batı/Kuzey Avrupa TDV kapsamı %0 (§4). İÇ TUTARLILIK: `isvec-birlik-oncesi` künyesi (1281-01-01→1523-06-06) TAM bu dönem için yazılmış ve özeti Kalmar'ı adıyla anıyor; `isvec` künyesi AYNI GÜN başlıyor. 🟢 §②b DAMGASI: bu kaynak GÜNÜN dayanağıdır — gövde günü AÇIKÇA veriyor ('on June 6, 1523') ve gövdesi ÇEKİLİP okundu. ⚠️ İkinci bağımsız teyit ise arama sonuçlarının çakışmasından geliyor, GÖVDE OKUMASINDAN DEĞİL (Britannica · Oxford Reference · Library of Congress ÜÇÜ DE HTTP 403) — bu bir zayıflık ve YAZILI." },
 
   { ad:"Kuopio",
     s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},
        {f:"1523-06-06",t:"1809-09-17",d:"isvec"},
-       {f:"1809-09-17",t:"1917-03-15",d:"rusya"},
+       {f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
        {f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},
-       {f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}
+       {f:"1917-12-06",t:"1923-10-29",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}
     ],
     kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, imzalı: Joseph P. Byrne, 2022): 'The Swedish Estates refused to recognize Frederick as the new monarch and elected Gustav by acclamation on JUNE 6, 1523.' İkinci bağımsız teyit: seçim Strängnäs'taki Riksdag'da yapıldı ve Kalmar Birliği böylece resmen dağıldı (aynı gün İsveç Ulusal Günü'dür). TDV kapsam dışı — Batı/Kuzey Avrupa TDV kapsamı %0 (§4). İÇ TUTARLILIK: `isvec-birlik-oncesi` künyesi (1281-01-01→1523-06-06) TAM bu dönem için yazılmış ve özeti Kalmar'ı adıyla anıyor; `isvec` künyesi AYNI GÜN başlıyor. 🟢 §②b DAMGASI: bu kaynak GÜNÜN dayanağıdır — gövde günü AÇIKÇA veriyor ('on June 6, 1523') ve gövdesi ÇEKİLİP okundu. ⚠️ İkinci bağımsız teyit ise arama sonuçlarının çakışmasından geliyor, GÖVDE OKUMASINDAN DEĞİL (Britannica · Oxford Reference · Library of Congress ÜÇÜ DE HTTP 403) — bu bir zayıflık ve YAZILI." },
 
   { ad:"Iisalmi",
     s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},
        {f:"1523-06-06",t:"1809-09-17",d:"isvec"},
-       {f:"1809-09-17",t:"1917-03-15",d:"rusya"},
+       {f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
        {f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},
-       {f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}
+       {f:"1917-12-06",t:"1923-10-29",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}
     ],
     kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, imzalı: Joseph P. Byrne, 2022): 'The Swedish Estates refused to recognize Frederick as the new monarch and elected Gustav by acclamation on JUNE 6, 1523.' İkinci bağımsız teyit: seçim Strängnäs'taki Riksdag'da yapıldı ve Kalmar Birliği böylece resmen dağıldı (aynı gün İsveç Ulusal Günü'dür). TDV kapsam dışı — Batı/Kuzey Avrupa TDV kapsamı %0 (§4). İÇ TUTARLILIK: `isvec-birlik-oncesi` künyesi (1281-01-01→1523-06-06) TAM bu dönem için yazılmış ve özeti Kalmar'ı adıyla anıyor; `isvec` künyesi AYNI GÜN başlıyor. 🟢 §②b DAMGASI: bu kaynak GÜNÜN dayanağıdır — gövde günü AÇIKÇA veriyor ('on June 6, 1523') ve gövdesi ÇEKİLİP okundu. ⚠️ İkinci bağımsız teyit ise arama sonuçlarının çakışmasından geliyor, GÖVDE OKUMASINDAN DEĞİL (Britannica · Oxford Reference · Library of Congress ÜÇÜ DE HTTP 403) — bu bir zayıflık ve YAZILI." },
 
   { ad:"Nurmes",
     s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},
        {f:"1523-06-06",t:"1809-09-17",d:"isvec"},
-       {f:"1809-09-17",t:"1917-03-15",d:"rusya"},
+       {f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
        {f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},
-       {f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}
+       {f:"1917-12-06",t:"1923-10-29",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}
     ],
     kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, imzalı: Joseph P. Byrne, 2022): 'The Swedish Estates refused to recognize Frederick as the new monarch and elected Gustav by acclamation on JUNE 6, 1523.' İkinci bağımsız teyit: seçim Strängnäs'taki Riksdag'da yapıldı ve Kalmar Birliği böylece resmen dağıldı (aynı gün İsveç Ulusal Günü'dür). TDV kapsam dışı — Batı/Kuzey Avrupa TDV kapsamı %0 (§4). İÇ TUTARLILIK: `isvec-birlik-oncesi` künyesi (1281-01-01→1523-06-06) TAM bu dönem için yazılmış ve özeti Kalmar'ı adıyla anıyor; `isvec` künyesi AYNI GÜN başlıyor. 🟢 §②b DAMGASI: bu kaynak GÜNÜN dayanağıdır — gövde günü AÇIKÇA veriyor ('on June 6, 1523') ve gövdesi ÇEKİLİP okundu. ⚠️ İkinci bağımsız teyit ise arama sonuçlarının çakışmasından geliyor, GÖVDE OKUMASINDAN DEĞİL (Britannica · Oxford Reference · Library of Congress ÜÇÜ DE HTTP 403) — bu bir zayıflık ve YAZILI." },
 
   { ad:"Joensuu",
     s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},
        {f:"1523-06-06",t:"1809-09-17",d:"isvec"},
-       {f:"1809-09-17",t:"1917-03-15",d:"rusya"},
+       {f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
        {f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},
-       {f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}
+       {f:"1917-12-06",t:"1923-10-29",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}
     ],
     kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, imzalı: Joseph P. Byrne, 2022): 'The Swedish Estates refused to recognize Frederick as the new monarch and elected Gustav by acclamation on JUNE 6, 1523.' İkinci bağımsız teyit: seçim Strängnäs'taki Riksdag'da yapıldı ve Kalmar Birliği böylece resmen dağıldı (aynı gün İsveç Ulusal Günü'dür). TDV kapsam dışı — Batı/Kuzey Avrupa TDV kapsamı %0 (§4). İÇ TUTARLILIK: `isvec-birlik-oncesi` künyesi (1281-01-01→1523-06-06) TAM bu dönem için yazılmış ve özeti Kalmar'ı adıyla anıyor; `isvec` künyesi AYNI GÜN başlıyor. 🟢 §②b DAMGASI: bu kaynak GÜNÜN dayanağıdır — gövde günü AÇIKÇA veriyor ('on June 6, 1523') ve gövdesi ÇEKİLİP okundu. ⚠️ İkinci bağımsız teyit ise arama sonuçlarının çakışmasından geliyor, GÖVDE OKUMASINDAN DEĞİL (Britannica · Oxford Reference · Library of Congress ÜÇÜ DE HTTP 403) — bu bir zayıflık ve YAZILI." },
 
   { ad:"Savonlinna",
     s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},
        {f:"1523-06-06",t:"1809-09-17",d:"isvec"},
-       {f:"1809-09-17",t:"1917-03-15",d:"rusya"},
+       {f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
        {f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},
-       {f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}
+       {f:"1917-12-06",t:"1923-10-29",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}
     ],
     kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, imzalı: Joseph P. Byrne, 2022): 'The Swedish Estates refused to recognize Frederick as the new monarch and elected Gustav by acclamation on JUNE 6, 1523.' İkinci bağımsız teyit: seçim Strängnäs'taki Riksdag'da yapıldı ve Kalmar Birliği böylece resmen dağıldı (aynı gün İsveç Ulusal Günü'dür). TDV kapsam dışı — Batı/Kuzey Avrupa TDV kapsamı %0 (§4). İÇ TUTARLILIK: `isvec-birlik-oncesi` künyesi (1281-01-01→1523-06-06) TAM bu dönem için yazılmış ve özeti Kalmar'ı adıyla anıyor; `isvec` künyesi AYNI GÜN başlıyor. 🟢 §②b DAMGASI: bu kaynak GÜNÜN dayanağıdır — gövde günü AÇIKÇA veriyor ('on June 6, 1523') ve gövdesi ÇEKİLİP okundu. ⚠️ İkinci bağımsız teyit ise arama sonuçlarının çakışmasından geliyor, GÖVDE OKUMASINDAN DEĞİL (Britannica · Oxford Reference · Library of Congress ÜÇÜ DE HTTP 403) — bu bir zayıflık ve YAZILI." },
 
   { ad:"Mikkeli",
     s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},
        {f:"1523-06-06",t:"1809-09-17",d:"isvec"},
-       {f:"1809-09-17",t:"1917-03-15",d:"rusya"},
+       {f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
        {f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},
-       {f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}
+       {f:"1917-12-06",t:"1923-10-29",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}
     ],
     kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, imzalı: Joseph P. Byrne, 2022): 'The Swedish Estates refused to recognize Frederick as the new monarch and elected Gustav by acclamation on JUNE 6, 1523.' İkinci bağımsız teyit: seçim Strängnäs'taki Riksdag'da yapıldı ve Kalmar Birliği böylece resmen dağıldı (aynı gün İsveç Ulusal Günü'dür). TDV kapsam dışı — Batı/Kuzey Avrupa TDV kapsamı %0 (§4). İÇ TUTARLILIK: `isvec-birlik-oncesi` künyesi (1281-01-01→1523-06-06) TAM bu dönem için yazılmış ve özeti Kalmar'ı adıyla anıyor; `isvec` künyesi AYNI GÜN başlıyor. 🟢 §②b DAMGASI: bu kaynak GÜNÜN dayanağıdır — gövde günü AÇIKÇA veriyor ('on June 6, 1523') ve gövdesi ÇEKİLİP okundu. ⚠️ İkinci bağımsız teyit ise arama sonuçlarının çakışmasından geliyor, GÖVDE OKUMASINDAN DEĞİL (Britannica · Oxford Reference · Library of Congress ÜÇÜ DE HTTP 403) — bu bir zayıflık ve YAZILI." },
 
@@ -332,7 +332,7 @@ window.YER_YAMA_AVRUPA_ISVEC_1923 = [
        {f:"1721-08-30",t:"1917-03-15",d:"rusya"},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
        {f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},
-       {f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}
+       {f:"1917-12-06",t:"1923-10-29",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}
     ],
     kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, imzalı: Joseph P. Byrne, 2022): 'The Swedish Estates refused to recognize Frederick as the new monarch and elected Gustav by acclamation on JUNE 6, 1523.' İkinci bağımsız teyit: seçim Strängnäs'taki Riksdag'da yapıldı ve Kalmar Birliği böylece resmen dağıldı (aynı gün İsveç Ulusal Günü'dür). TDV kapsam dışı — Batı/Kuzey Avrupa TDV kapsamı %0 (§4). İÇ TUTARLILIK: `isvec-birlik-oncesi` künyesi (1281-01-01→1523-06-06) TAM bu dönem için yazılmış ve özeti Kalmar'ı adıyla anıyor; `isvec` künyesi AYNI GÜN başlıyor. 🟢 §②b DAMGASI: bu kaynak GÜNÜN dayanağıdır — gövde günü AÇIKÇA veriyor ('on June 6, 1523') ve gövdesi ÇEKİLİP okundu. ⚠️ İkinci bağımsız teyit ise arama sonuçlarının çakışmasından geliyor, GÖVDE OKUMASINDAN DEĞİL (Britannica · Oxford Reference · Library of Congress ÜÇÜ DE HTTP 403) — bu bir zayıflık ve YAZILI." },
 
@@ -357,50 +357,50 @@ window.YER_YAMA_AVRUPA_ISVEC_1923 = [
   { ad:"Tornio",
     s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},
        {f:"1523-06-06",t:"1809-09-17",d:"isvec"},
-       {f:"1809-09-17",t:"1917-03-15",d:"rusya"},
+       {f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
        {f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},
-       {f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}
+       {f:"1917-12-06",t:"1923-10-29",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}
     ],
     kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, imzalı: Joseph P. Byrne, 2022): 'The Swedish Estates refused to recognize Frederick as the new monarch and elected Gustav by acclamation on JUNE 6, 1523.' İkinci bağımsız teyit: seçim Strängnäs'taki Riksdag'da yapıldı ve Kalmar Birliği böylece resmen dağıldı (aynı gün İsveç Ulusal Günü'dür). TDV kapsam dışı — Batı/Kuzey Avrupa TDV kapsamı %0 (§4). İÇ TUTARLILIK: `isvec-birlik-oncesi` künyesi (1281-01-01→1523-06-06) TAM bu dönem için yazılmış ve özeti Kalmar'ı adıyla anıyor; `isvec` künyesi AYNI GÜN başlıyor. 🟢 §②b DAMGASI: bu kaynak GÜNÜN dayanağıdır — gövde günü AÇIKÇA veriyor ('on June 6, 1523') ve gövdesi ÇEKİLİP okundu. ⚠️ İkinci bağımsız teyit ise arama sonuçlarının çakışmasından geliyor, GÖVDE OKUMASINDAN DEĞİL (Britannica · Oxford Reference · Library of Congress ÜÇÜ DE HTTP 403) — bu bir zayıflık ve YAZILI." },
 
   { ad:"Oulu",
     s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},
        {f:"1523-06-06",t:"1809-09-17",d:"isvec"},
-       {f:"1809-09-17",t:"1917-03-15",d:"rusya"},
+       {f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
        {f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},
-       {f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}
+       {f:"1917-12-06",t:"1923-10-29",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}
     ],
     kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, imzalı: Joseph P. Byrne, 2022): 'The Swedish Estates refused to recognize Frederick as the new monarch and elected Gustav by acclamation on JUNE 6, 1523.' İkinci bağımsız teyit: seçim Strängnäs'taki Riksdag'da yapıldı ve Kalmar Birliği böylece resmen dağıldı (aynı gün İsveç Ulusal Günü'dür). TDV kapsam dışı — Batı/Kuzey Avrupa TDV kapsamı %0 (§4). İÇ TUTARLILIK: `isvec-birlik-oncesi` künyesi (1281-01-01→1523-06-06) TAM bu dönem için yazılmış ve özeti Kalmar'ı adıyla anıyor; `isvec` künyesi AYNI GÜN başlıyor. 🟢 §②b DAMGASI: bu kaynak GÜNÜN dayanağıdır — gövde günü AÇIKÇA veriyor ('on June 6, 1523') ve gövdesi ÇEKİLİP okundu. ⚠️ İkinci bağımsız teyit ise arama sonuçlarının çakışmasından geliyor, GÖVDE OKUMASINDAN DEĞİL (Britannica · Oxford Reference · Library of Congress ÜÇÜ DE HTTP 403) — bu bir zayıflık ve YAZILI." },
 
   { ad:"Rovaniemi",
     s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},
        {f:"1523-06-06",t:"1809-09-17",d:"isvec"},
-       {f:"1809-09-17",t:"1917-03-15",d:"rusya"},
+       {f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
        {f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},
-       {f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}
+       {f:"1917-12-06",t:"1923-10-29",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}
     ],
     kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, imzalı: Joseph P. Byrne, 2022): 'The Swedish Estates refused to recognize Frederick as the new monarch and elected Gustav by acclamation on JUNE 6, 1523.' İkinci bağımsız teyit: seçim Strängnäs'taki Riksdag'da yapıldı ve Kalmar Birliği böylece resmen dağıldı (aynı gün İsveç Ulusal Günü'dür). TDV kapsam dışı — Batı/Kuzey Avrupa TDV kapsamı %0 (§4). İÇ TUTARLILIK: `isvec-birlik-oncesi` künyesi (1281-01-01→1523-06-06) TAM bu dönem için yazılmış ve özeti Kalmar'ı adıyla anıyor; `isvec` künyesi AYNI GÜN başlıyor. 🟢 §②b DAMGASI: bu kaynak GÜNÜN dayanağıdır — gövde günü AÇIKÇA veriyor ('on June 6, 1523') ve gövdesi ÇEKİLİP okundu. ⚠️ İkinci bağımsız teyit ise arama sonuçlarının çakışmasından geliyor, GÖVDE OKUMASINDAN DEĞİL (Britannica · Oxford Reference · Library of Congress ÜÇÜ DE HTTP 403) — bu bir zayıflık ve YAZILI." },
 
   { ad:"Sodankylä",
     s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},
        {f:"1523-06-06",t:"1809-09-17",d:"isvec"},
-       {f:"1809-09-17",t:"1917-03-15",d:"rusya"},
+       {f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
        {f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},
-       {f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}
+       {f:"1917-12-06",t:"1923-10-29",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}
     ],
     kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, imzalı: Joseph P. Byrne, 2022): 'The Swedish Estates refused to recognize Frederick as the new monarch and elected Gustav by acclamation on JUNE 6, 1523.' İkinci bağımsız teyit: seçim Strängnäs'taki Riksdag'da yapıldı ve Kalmar Birliği böylece resmen dağıldı (aynı gün İsveç Ulusal Günü'dür). TDV kapsam dışı — Batı/Kuzey Avrupa TDV kapsamı %0 (§4). İÇ TUTARLILIK: `isvec-birlik-oncesi` künyesi (1281-01-01→1523-06-06) TAM bu dönem için yazılmış ve özeti Kalmar'ı adıyla anıyor; `isvec` künyesi AYNI GÜN başlıyor. 🟢 §②b DAMGASI: bu kaynak GÜNÜN dayanağıdır — gövde günü AÇIKÇA veriyor ('on June 6, 1523') ve gövdesi ÇEKİLİP okundu. ⚠️ İkinci bağımsız teyit ise arama sonuçlarının çakışmasından geliyor, GÖVDE OKUMASINDAN DEĞİL (Britannica · Oxford Reference · Library of Congress ÜÇÜ DE HTTP 403) — bu bir zayıflık ve YAZILI." },
 
   { ad:"İnari",
     s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},
        {f:"1523-06-06",t:"1809-09-17",d:"isvec"},
-       {f:"1809-09-17",t:"1917-03-15",d:"rusya"},
+       {f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},
        {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
        {f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},
-       {f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}
+       {f:"1917-12-06",t:"1923-10-29",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}
     ],
     kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, imzalı: Joseph P. Byrne, 2022): 'The Swedish Estates refused to recognize Frederick as the new monarch and elected Gustav by acclamation on JUNE 6, 1523.' İkinci bağımsız teyit: seçim Strängnäs'taki Riksdag'da yapıldı ve Kalmar Birliği böylece resmen dağıldı (aynı gün İsveç Ulusal Günü'dür). TDV kapsam dışı — Batı/Kuzey Avrupa TDV kapsamı %0 (§4). İÇ TUTARLILIK: `isvec-birlik-oncesi` künyesi (1281-01-01→1523-06-06) TAM bu dönem için yazılmış ve özeti Kalmar'ı adıyla anıyor; `isvec` künyesi AYNI GÜN başlıyor. 🟢 §②b DAMGASI: bu kaynak GÜNÜN dayanağıdır — gövde günü AÇIKÇA veriyor ('on June 6, 1523') ve gövdesi ÇEKİLİP okundu. ⚠️ İkinci bağımsız teyit ise arama sonuçlarının çakışmasından geliyor, GÖVDE OKUMASINDAN DEĞİL (Britannica · Oxford Reference · Library of Congress ÜÇÜ DE HTTP 403) — bu bir zayıflık ve YAZILI." },
 

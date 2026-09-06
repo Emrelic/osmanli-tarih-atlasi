@@ -1,21 +1,21 @@
 {
   "oturum": "DAYANAK KUZEY AMERİKA",
   "kol": "⑬",
-  "damga": "2026-09-07 01:10",
+  "damga": "2026-09-07 01:35",
   "_NOT": "Dayanaksiz GUN defterinin (DAYANAK-GUNLER-0907.json) `sahip` = KUZEY-AMERIKA kovasi. Borcun birimi NOKTA degil GUN; bir gune bir dayanak yuzlerce noktayi birden kaynaklandirir.",
   "_KAYNAK_KALITESI": "UC KADEME, karistirilmaz. BIRINCIL = belgenin KENDI metni okundu (Avalon/Yale · OSU Kappler Tribal Treaties Database · Government of Canada antlasma metinleri · imparatorluk emirnamesi). KURUMSAL = akademik/kurumsal referansin GOVDESI okundu (Canadian Encyclopedia imzali madde · US National Park Service). 🟡 ARAMA-OZETI = YALNIZ arama motorunun ozeti gorulду, GOVDE ACILMADI ⇒ bu bir DAYANAK DEGIL bir IZDIR; bir sonraki tur govdeyi acmali. `okumadim` damgasinin yumusak hali, ve `bulunamadi` ile KARISTIRILMAZ.",
   "ozet": {
     "kovadaki_gun": 124,
     "kovadaki_nokta": 579,
-    "dayanak_yazilan_gun": 19,
-    "dayanak_yazilan_nokta": 386,
-    "birincil": 11,
-    "kurumsal": 4,
-    "karma_yil_kurumsal_gun_arama": 2,
-    "arama_ozeti": 2,
+    "dayanak_yazilan_gun": 26,
+    "dayanak_yazilan_nokta": 394,
+    "birincil": 16,
+    "kurumsal": 5,
+    "karma": 2,
+    "arama_ozeti": 3,
     "devredilen_paylasilan": 1,
-    "yazilmayan_gun": 104,
-    "yazilmayan_nokta": 137
+    "yazilmayan_gun": 97,
+    "yazilmayan_nokta": 129
   },
   "_BEKLEYEN_PAYLASILAN_GUN": {
     "gun": "1763-02-10",
@@ -172,12 +172,68 @@
       "aciklama": "Holston Antlasmasi. 🟡 GOVDE ACILMADI — alinti arama ozetinden. Sayfa adresi biliniyor (treaties.okstate.edu/treaties/treaty-with-the-cherokee-1791-0029); bir sonraki tur acip AYNEN dogrulamali."
     },
     {
+      "gun": "1850-09-07",
+      "nokta": 2,
+      "damga": "BIRINCIL",
+      "kaynak": "Government of Canada (RCAANC-CIRNAC), «Treaty Texts — Ojibewa Indians of Lake Superior» (Robinson-Superior Antlasmasi). Belge metni OKUNDU.",
+      "alinti": "«THIS AGREEMENT, made and entered into on the seventh day of September, in the year of Our Lord one thousand eight hundred and fifty, at Sault Ste. Marie, in the Province of Canada, between the Honorable WILLIAM BENJAMIN ROBINSON, of the one part, on behalf of HER MAJESTY THE QUEEN, and JOSEPH PEANDECHAT, JOHN IUINWAY, MISHE-MUCKQUA, TOTOMENCIE, Chiefs … principal men of the OJIBEWA Indians inhabiting the Northern Shore of Lake Superior»",
+      "aciklama": "Robinson-Superior Antlasmasi. ⚠️ AYRIM: 1850 Eylul'unde IKI Robinson antlasmasi imzalandi — Superior 7 Eylul, HURON 9 Eylul. Defterdeki gun 7 Eylul, yani SUPERIOR'unki. Huron ayri bir gundur ve defterde yoktur."
+    },
+    {
       "gun": "1830-09-27",
       "nokta": 1,
       "damga": "BIRINCIL",
       "kaynak": "Oklahoma State University, Tribal Treaties Database (Kappler) — «Treaty with the Choctaw, 1830» (Dancing Rabbit Creek). Belge metni OKUNDU.",
       "alinti": "«Sept. 27, 1830. | 7 Stat., 333. | Proclamation, Feb. 24, 1831.» — Madde III: «the Choctaw nation of Indians consent and hereby cede to the United States, the entire country they own and possess, east of the Mississippi River; and they agree to move beyond the Mississippi River, early as practicable»",
       "aciklama": "Dancing Rabbit Creek Antlasmasi. Gorusmeler 15 Eylul 1830'da basladi, imza 27 Eylul. Choctaw ulusu Mississippi'nin dogusundaki butun topragini devretti."
+    },
+    {
+      "gun": "1868-06-01",
+      "nokta": 1,
+      "damga": "BIRINCIL",
+      "kaynak": "Oklahoma State University, Tribal Treaties Database (Kappler) — «Treaty with the Navaho, 1868». Belge metni OKUNDU.",
+      "alinti": "«Articles of a treaty and agreement made and entered into at Fort Sumner, New Mexico, on the first day of June, one thousand eight hundred and sixty-eight, by and between the United States … and the Navajo Nation or tribe of Indians»",
+      "aciklama": "Bosque Redondo (Fort Sumner) Antlasmasi — Navaholar'in surgunu bitirip kendi topraklarina donmelerini saglayan antlasma. ABD adina Korgeneral W. T. Sherman ve Albay Samuel F. Tappan."
+    },
+    {
+      "gun": "1832-09-21",
+      "nokta": 1,
+      "damga": "BIRINCIL",
+      "kaynak": "Oklahoma State University, Tribal Treaties Database (Kappler) — «Treaty with the Sauk and Foxes, 1832». Belge metni OKUNDU.",
+      "alinti": "«Sept. 21, 1832» · «Fort Armstrong, Rock Island, Illinois» — taraflar: ABD (Tumgeneral Winfield Scott ve Illinois Valisi John Reynolds) ile Sac ve Fox konfedere kabileleri.",
+      "aciklama": "Black Hawk Savasi'ni bitiren antlasma. ABD, savasin tazminati olarak Sac ve Fox topragindan bir kesimin devrini talep etti."
+    },
+    {
+      "gun": "1832-10-20",
+      "nokta": 1,
+      "damga": "BIRINCIL",
+      "kaynak": "Oklahoma State University, Tribal Treaties Database (Kappler) — «Treaty with the Chickasaw, 1832» (Pontotoc Creek). Belge metni OKUNDU.",
+      "alinti": "«Articles of a treaty made and entered into between Genl. John Coffee, being duly authorized thereto, by the President of the United States, and the whole Chickasaw Nation, in General Council assembled, at the council House, on Pontitock Creek on the twentieth day of October, 1832.»",
+      "aciklama": "Pontotoc Creek Antlasmasi — Chickasaw ulusu Mississippi'nin dogusundaki butun topragini devretti."
+    },
+    {
+      "gun": "1857-09-24",
+      "nokta": 1,
+      "damga": "BIRINCIL",
+      "kaynak": "Oklahoma State University, Tribal Treaties Database (Kappler) — «Treaty with the Pawnee, 1857» (Table Creek). Belge metni OKUNDU.",
+      "alinti": "«Articles of agreement and convention made this twenty-fourth day of September, A. D. 1857, at Table Creek, Nebraska Territory, between James W. Denver, commissioner on behalf of the United States, and the chiefs and head-men of the four confederate bands of Pawnee Indians, viz: Grand Pawnees, Pawnee Loups, Pawnee Republicans, and Pawnee Tappahs»",
+      "aciklama": "Table Creek Antlasmasi — Pawnee bandlari, Loup Fork'un iki yakasini iceren 30x15 millik bir bolge disindaki butun haklarini ABD'ye devretti."
+    },
+    {
+      "gun": "1877-10-05",
+      "nokta": 1,
+      "damga": "KURUMSAL",
+      "kaynak": "U.S. National Park Service, «Bear Paw Battlefield» (Nez Perce National Historical Park). Sayfa metni OKUNDU.",
+      "alinti": "«Following a five-day battle and siege, the Nimiipuu ceased fighting at Bear Paw on October 5th, 1877, in which Chief Joseph gave his immortal speech» — «At 2pm Joseph met with Miles and Howard, handed over his rifle, and made his now famous speech: 'From where the sun now stands, I will fight no more forever.'»",
+      "aciklama": "Bear Paw'da Nez Perce (Nimiipuu) direnisinin sonu ve Sef Joseph'in teslimi. Kanada sinirina az kala, uc aydan uzun suren ve dort eyalette yaklasik 1.600 km'yi bulan bir kacisin ardindan."
+    },
+    {
+      "gun": "1890-12-29",
+      "nokta": 1,
+      "damga": "🟡 ARAMA-OZETI",
+      "kaynak": "Library of Congress, «Disaster at Wounded Knee» (Classroom Materials — Immigration and Relocation in U.S. History).",
+      "alinti": "«On December 29, 1890, tragedy occurred as US Army troops fired upon Native Americans at Wounded Knee creek on the Pine Ridge Reservation, leaving an estimated 200 people dead.»",
+      "aciklama": "Wounded Knee katliami. 🔴 GOVDE ACILMADI: loc.gov WebFetch'e 403 veriyor (bu turda iki ayri LoC adresinde de). Alinti ARAMA OZETINDEN. ⇒ Bir sonraki tur: LoC'u tarayicidan denemek, ya da NPS'in Wounded Knee sayfasi (varsa) — NPS hattinin WebFetch'e ACIK oldugu bu turda olculdu."
     }
   ],
   "kalan_gunler": [
@@ -358,17 +414,6 @@
       "kimlik": [
         "metis",
         "kanada"
-      ],
-      "damga": "okumadim",
-      "takvim": "gregoryen"
-    },
-    {
-      "gun": "1850-09-07",
-      "nokta": 2,
-      "kimlik": [
-        "ojibwe",
-        "ingiliz-kuzey-amerika",
-        "abd"
       ],
       "damga": "okumadim",
       "takvim": "gregoryen"
@@ -920,30 +965,10 @@
       "takvim": "gregoryen"
     },
     {
-      "gun": "1890-12-29",
-      "nokta": 1,
-      "kimlik": [
-        "lakota",
-        "abd"
-      ],
-      "damga": "okumadim",
-      "takvim": "gregoryen"
-    },
-    {
       "gun": "1583-08-05",
       "nokta": 1,
       "kimlik": [
         "ingiltere"
-      ],
-      "damga": "okumadim",
-      "takvim": "gregoryen"
-    },
-    {
-      "gun": "1877-10-05",
-      "nokta": 1,
-      "kimlik": [
-        "nez-perce",
-        "abd"
       ],
       "damga": "okumadim",
       "takvim": "gregoryen"
@@ -971,26 +996,6 @@
       "nokta": 1,
       "kimlik": [
         "ingiltere"
-      ],
-      "damga": "okumadim",
-      "takvim": "gregoryen"
-    },
-    {
-      "gun": "1832-09-21",
-      "nokta": 1,
-      "kimlik": [
-        "sauk",
-        "abd"
-      ],
-      "damga": "okumadim",
-      "takvim": "gregoryen"
-    },
-    {
-      "gun": "1857-09-24",
-      "nokta": 1,
-      "kimlik": [
-        "pavni",
-        "abd"
       ],
       "damga": "okumadim",
       "takvim": "gregoryen"
@@ -1032,31 +1037,11 @@
       "takvim": "gregoryen"
     },
     {
-      "gun": "1868-06-01",
-      "nokta": 1,
-      "kimlik": [
-        "navaho",
-        "abd"
-      ],
-      "damga": "okumadim",
-      "takvim": "gregoryen"
-    },
-    {
       "gun": "1682-04-09",
       "nokta": 1,
       "kimlik": [
         "wicita",
         "fransa"
-      ],
-      "damga": "okumadim",
-      "takvim": "gregoryen"
-    },
-    {
-      "gun": "1832-10-20",
-      "nokta": 1,
-      "kimlik": [
-        "cikasav",
-        "abd"
       ],
       "damga": "okumadim",
       "takvim": "gregoryen"

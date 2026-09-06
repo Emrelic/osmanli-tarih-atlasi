@@ -277,10 +277,19 @@ if (gecmeHata === 0 && atesOttu === URETILEN.length && process.argv.includes("--
   // 🔴 İSVEÇ AYRI DOSYAYA — koordinatörün kapsam kararı BEKLİYOR (yeni bir `2s`
   //   günü doğuruyor). Ötekiler onsuz da inebilmeli. Ve §7: ayrı dosya ayrı
   //   AD ALANI demektir — dosya adındaki ayırt edici parça değişken adında da var.
+  // 🔴 BURADA SABİT BİR ALAN LİSTESİ VARDI (`{f, t, d}`) ve dönem-içi
+  //   `kaynak:` SESSİZCE DÜŞÜYORDU — bugün `_kunye_uygula.py`de ölçtüğüm
+  //   `not:` kusurunun BİREBİR AYNISI, kendi aletimde. Üretici "gün dayanağı
+  //   eklenen dönem: 1" diye BASIYORDU ama yamada yoktu.
+  //   ⚠️ Ve `grep -c 'kaynak:'` bunu GİZLEDİ: 42 saydı, ama o sayı KAYIT
+  //   seviyesindeki `kaynak:` alanlarıydı. Gerçeği node ile saymak gösterdi
+  //   (dönem-içi: 0). §11: "aletin gösterdiği ≠ dosyada yazan."
+  //   ⇒ Çare `js_yaz`ın yaptığı: alanları SAYMA, sözlüğü DOLAŞ.
+  const donemJs = (p) => "{" + Object.entries(p)
+    .map(([k, v]) => k + ":" + JSON.stringify(v)).join(",") + "}";
   const govde = (L) => L.map(u =>
     "  { ad:" + JSON.stringify(u.kalem.ad) + ",\n    s:[" +
-    u.YENI.map(p => "{f:" + JSON.stringify(p.f) + ",t:" + JSON.stringify(p.t) +
-      ",d:" + JSON.stringify(p.d) + "}").join(",\n       ") +
+    u.YENI.map(donemJs).join(",\n       ") +
     "\n    ],\n    kaynak:" + JSON.stringify(u.kalem.kaynak) + " },").join("\n\n");
   const isv = URETILEN.filter(u => u.kalem.kaynak === KAYNAK_ISVEC);
   const oteki = URETILEN.filter(u => u.kalem.kaynak !== KAYNAK_ISVEC);
