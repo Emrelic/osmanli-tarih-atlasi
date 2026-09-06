@@ -84,3 +84,94 @@ kimliğinin KENDİ sınırları AVRUPA'nın; senin işin SÖMÜRGE tarafı.
 
 ---
 ## İLERLEME NOTU
+
+### 7 Eylül 2026 · TABAN + İKİ YAMA + DENETİM TURU
+
+**TABAN (kendi ölçtüm, B10)** — 822 nokta · 27 benzersiz kimlik ·
+`isg:` örtü **0** (dört katman tarandı; "koordinatör 0 dedi" diye geçmedim).
+Şartnamenin 730'u UYUŞUYOR: `822 − 92 sahipsiz = 730`, fark tanımsal.
+
+🔴 **Ve tabanı ölçerken kendi ayrıştırıcım yalan söyledi.** `GIRDI_DOSYALARI`
+sabitini regex'le çıkardım; tembel `[\s\S]*?` ilk kapanış parantezinde kesti
+⇒ **77 yerine 1 dosya**, 792 nokta, kutumda 0. Alet **hata vermedi, temiz bir
+sayı bastı** ve "730 değil 0" diye rapor edecektim. Cevap `YONTEM §③`te zaten
+yazılıydı (`py denetim/_girdi_listesi.py` — *"CANLI dosya listesi, tek
+otorite"*); ben kendi ayrıştırıcımı yazdım.
+
+#### TESLİM EDİLEN
+
+| dosya | ne |
+|---|---|
+| `denetim/yer_yama_amerika_1923.js` | 3 nokta · `ingiliz-kuzey-amerika` 1867 kesimi |
+| `denetim/ONERI-KUNYE-AMERIKA-1923.json` | künye `t:` 1923-10-29 → 1867-07-01 |
+| `denetim/yer_yama_guyana.js` | 5 nokta · üç âtıl Guyana künyesi canlanıyor |
+| `denetim/BULGU-GUYANA-0907.json` | üç açık kalem |
+| `denetim/BULGU-AMERIKA-1923-DENETIM-0907.json` | denetim turu |
+| 15 alet | `denetim/ARAC-*` |
+
+İki yama da **elle yazılmadı, ÜRETİLDİ** (`YONTEM §⑥` Silistre: uygulayıcı
+`s:` dizisinin TAMAMINI değiştirir, eksik yazılan her dönem KAYBOLUR).
+Genel kabul sınavı `denetim/ARAC-YAMA-SINA.js` — ikisi de **temiz**.
+
+#### BU TURUN ÖĞRETTİKLERİ
+
+**1. DAR SORU DOĞRU CEVABI TESADÜFEN VERDİ.**
+İlk aletim *"1923-10-28'de bu künyeyi kim kullanıyor"* diye sordu → 3 nokta.
+Ama künyeyi 1867'de kesmek **1867'yi AŞAN HER** dönemi hayalet yapar; 1900'de
+biten bir dönem o sorunun kapsamına hiç düşmez. Küresel ölçtüm (3805 nokta ·
+77 dosya · dört katman): 130 dönemin 3'ü aşıyor, 127'si zaten 1867'de bitiyor.
+**İki soru aynı üçe çıktı — tesadüfen.**
+
+**2. HAFIZADAN GELEN BİR CÜMLEYİ DOSYA BAŞLIĞINA YAZDIM.**
+Yamanın başlığına *"1867-07-01 çekirdekte ZATEN maddeli"* yazdım. Ölçtüm:
+±30 gündeki iki madde de Osmanlı; Kanada maddesi çekirdekte **yok**. İddia
+geri çekildi, yerine **iki ölçüm** kondu (gün zaten 254 dönem ucu kırıyor ·
+üçü de `2s` kapsamı dışında, 5406-6000 km). Hüküm değişmedi, **gerekçesi**
+değişti — ve gerekçe yazılmasa bir sonraki oturum yanlış olanı düzeltmeye
+kalkardı.
+
+**3. KÜNYENİN ADINDAKİ PARANTEZ BİR MENZİLDİR.**
+`hollanda-guyanasi`yı Essequibo ve Berbice'e de yazacaktım — coğrafî olarak
+uyuyorlar ve künye penceresi (1667-1923) onları kapsıyor. Künyenin **adı**
+durdurdu: *"Hollanda Guyanası **(Surinam)**"*. Onlar ayrı Hollanda
+kolonileriydi ve TDV `guyana` onları adıyla ayırıyor. `§3.5.-1` **"devlet
+var, YERİ YANLIŞ"** sınıfı — ve `4c`/`4d` göremezdi, çünkü pencere aşımı yok.
+
+**4. BİR ÖLÇÜT ÇÜRÜDÜ AMA ONA BAKMAK ÇÜRÜMEDİ.**
+E kovası için *"300 km'de yabancı kimlik oranı"* ölçütü kurdum. `kuba` %64
+çıktı ve yabancı komşuları Jamaika ile Yucatán — **ikisi de doğru**. Ölçüt
+kusuru değil **Karayip ada yoğunluğunu** ölçüyordu (`§11`in nehir geçiş
+metriği dersinin aynısı). Ama çıktısına bakarken Haiti'nin tek noktasının bir
+**Taino kasikazgosu** olduğu görüldü ve gecenin en büyük bulgusu oradan çıktı:
+**üç ulusal başkent atlasta yok** — Port-au-Prince · Nueva Guatemala ·
+Nukuʻalofa. Üçünde de kimliği bir Kolomb-öncesi ya da erken merkez taşıyor.
+
+**5. KENDİ ÇERÇEVEMİ İKİ KEZ ÇÜRÜTTÜM.**
+*"Cascade 41 Kuzey Pasifik noktasını yanlış kovalıyor"* diyecektim — o 41
+nokta **Alaska** ve Alaska gerçekten Kuzey Amerika. Gerçek kusur **tek nokta**
+(Lapaha). Ve *"`renkler.py` donuk, renk ölçemem"* diye damgalamıştım — donuk
+olan **yazmak**; okudum, 8/8 kimlikte renk var.
+
+**6. ALETİN "⚪ ÖLÇÜLEMEDİ"Sİ BENİM OKUMAMDI.**
+Renk sınavı `⚪` bastı; sebep `renkler.py`nin içe aktarılırken ekrana yazması
+ve o satırın JSON'a karışmasıydı. `C13 ④`: aletin cevabını **doğru yerden**
+okuduğunu göster.
+
+**7. TELİFLİ GÖVDEYİ DEPODAN ÇIKARDIM.**
+Dört TDV maddesini (256 KB) ölçüm için `denetim/_tdv/` altına yazmıştım. Bu
+depo **GitHub Pages'te yayınlanıyor**. Scratchpad'e taşındı; okuyucunun
+varsayılanı depo **dışına** çevrildi ki bir sonraki oturum tekrarlamasın.
+Depoda kalan: okuyucu betik + kısa atıflı alıntılar + karakter sayıları
+(izlenebilirlik korunuyor, gövde yeniden çekilebilir).
+
+#### AÇIK — ve hiçbiri kendi başıma başlatılmadı
+
+- Üç başkentin akademik kaynakla araştırılması (nokta önerisi)
+- Altı sömürge künyesi: Jamaika · Trinidad · Belize · Moskito · Fiji · G. Georgia
+- Essequibo · Demerara · Berbice künyeleri — Surinam kendi kimliğini alıyor,
+  komşu üç Hollanda kolonisi almıyor; asimetri gerçek
+- 822 noktanın `kaynak:` alanının bütün taraması (beşinde tarandı, 4'ünde
+  alan HİÇ yok — beşten kutu hükmü çıkmaz)
+- `fransiz-guyanasi f:1817` bir **geri veriliş**, kuruluş değil — künye kararı
+- ⚪ Üç başkent boşluğunun haritada gerçekten emilme üretip üretmediği
+  ÖLÇÜLMEDİ; petek çıktısı gerekiyor, koşu 7b sürüyor
