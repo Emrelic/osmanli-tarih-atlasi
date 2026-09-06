@@ -1,0 +1,82 @@
+{
+ "_NOT": [
+  "ASYA · 1.MURAT sevki · 6 Eylül 2026 · ÖNERİDİR — data/devletler.js'e",
+  "YAZILMADI (koşu 7b boyunca donuk). Renk çözümü koordinatörde",
+  "(oturumlar/KOSU-BITINCE-SIRA.md §⑤).",
+  "Ölçüm ve gerekçe: denetim/ASYA-HINT-HAYALET-0906.md",
+  "🔴 §4: künyenin f:/t: günü bir KAYNAK DEĞİLDİR. Kaynak yıl diyorsa yıl",
+  "yazıldı ve fark BİLDİRİLDİ — aşağıda her künyenin `hassasiyet` alanı var."
+ ],
+ "_YONTEM": [
+  "id TAHMİN EDİLMEDİ: data/devletler.js'in 617 künyesi Türkçe",
+  "normalleştirmeyle (id · ad · harita alanlarında) tarandı, sonra renk",
+  "arac/renkler.py BOYALAR'a DOĞRUDAN soruldu. Dördü de YOK.",
+  "(Yetkili tarama aleti yalnız 'veride KULLANILAN' kimlikleri gezer;",
+  " âtıl/olmayan künye oraya hiç girmez — o yüzden doğrudan bakıldı.)"
+ ],
+ "kunyeler": [
+  {
+   "id": "meysur-racaligi",
+   "ad": "Meysûr Racalığı (Voduyar hânedanı)",
+   "f": "1565-01-26",
+   "t": "1923-10-29",
+   "hassasiyet": "f: GÜN — mevcut veriden DEVRALINDI (Talikota/Vijayanagara'nın çöküşü, kayıtta zaten bu gün var). t: atlas PENCERE SONU, bir iddia değil.",
+   "bolge": "guney-asya",
+   "harita": null,
+   "ozet": "Vijayanagara'nın çöküşünden sonra bağımsızlaşan Voduyar racalığı. 1760'ta Haydar Ali Han denetimi ele geçirdi ve sultanlık dönemi başladı (ayrı künye: meysur); Tîpû Sultan'ın 4 Mayıs 1799'da Seringapatam'da ölümünden sonra İngilizler ESKİ RACALIĞI YENİDEN İHDAS ETTİ ve prenslik olarak 1947'ye kadar sürdü (1923 sonrasında da sürdü).",
+   "kaynak": "TDV `meysur` — gövde okundu (9.327 kar., kesilmeden): \"Böylece İngilizler … Meysûr Sultanlığı'nın topraklarını ele geçirdiler ve beş yaşında bir Hindu hânedan üyesini tahta oturtup ESKİ RACALIĞI TEKRAR İHDAS ETTİLER; gerçek yönetici ise kendilerinin Hindistan genel valisi idi.\" · \"1760 yılında Hindu racalığının müslüman kumandanlarından Haydar Ali Han Bahadır … Raca Rama hânedanını kontrolü altına aldı.\"",
+   "gerekce": "CLAUDE.md §3.5.0 sınıf ③ ARDİL: polity sürdü, kimlik değişti. Emsal: haydarabad-nizam 1724→1923. Veride `meysur` bugün 1565/1687→1923 kullanılıyor, yani künyenin (1761-1799) İKİ UCUNDAN da taşıyor — kuyruk 124,5 yıl, baş 196 yıl.",
+   "_TEK_KUNYE_IKI_DONEM": "1565→1760 ve 1799→1923 AYNI künye. TDV 'eski racalığı tekrar ihdas ettiler' diyor ⇒ aynı hânedanın kesintiye uğramış hâli. Kesintiyi `s:` zinciri taşır, künye penceresi ikisini de kapsar."
+  },
+  {
+   "id": "gvalyar-sindiya",
+   "ad": "Gvalyar (Sindiya hânedanı)",
+   "f": "1761-01-01",
+   "t": "1923-10-29",
+   "hassasiyet": "f: YIL — TDV 'Sindiya hânedanı (1761-1858)' diyor, GÜN VERMİYOR ⇒ YYYY-01-01. t: atlas PENCERE SONU.",
+   "bolge": "guney-asya",
+   "harita": null,
+   "ozet": "Maratha Konfederasyonu'nun Sindiya (Scindia) kolu; Gvalyar merkezli. 1818'de konfederasyonun dağılmasından sonra İngiliz hâkimiyeti altında prenslik olarak sürdü (1923 sonrasında da sürdü).",
+   "kaynak": "TDV `hindistan` — dar slug `maratha`/`marathalar` ÖLÜ (302), KAPSAYICI madde denendi ve tuttu (§4): \"…Marata Pîşveleri (1714-1818) Holkar hânedanı (1728-1858) Gaikwar hânedanı (1721-1858) Sindiya hânedanı (1761-1858)…\"",
+   "gerekce": "Veride Gvalyar 1784-01-01→1923 `maratha`; künye 1818-06-03'te bitiyor ⇒ 105,4 yıl hayalet. Ardıl künye YOKTU (tarandı).",
+   "_UYARI": "TDV'nin '1858' bitişi HÂNEDANIN SONU DEĞİL — aynı liste Haydarâbâd'ı 1948'e götürüyor ve o da prensliktir. 1858 = Bâbürlü'nün sonu / Taç yönetiminin başı. Künye `t:`si atlas konvansiyonuna göre ufka çekildi (emsal: haydarabad-nizam)."
+  },
+  {
+   "id": "indor-holkar",
+   "ad": "İndor (Holkar hânedanı)",
+   "f": "1728-01-01",
+   "t": "1923-10-29",
+   "hassasiyet": "f: YIL — TDV 'Holkar hânedanı (1728-1858)', GÜN VERMİYOR ⇒ YYYY-01-01. t: atlas PENCERE SONU.",
+   "bolge": "guney-asya",
+   "harita": null,
+   "ozet": "Maratha Konfederasyonu'nun Holkar kolu; İndor merkezli. 1818 sonrası İngiliz hâkimiyeti altında prenslik olarak sürdü (1923 sonrasında da sürdü).",
+   "kaynak": "TDV `hindistan` — aynı hânedan listesi: \"Holkar hânedanı (1728-1858)\".",
+   "gerekce": "Veride İndor 1732-01-01→1923 `maratha`; künye 1818-06-03'te bitiyor. Ardıl künye YOKTU (tarandı).",
+   "_UYARI": "TDV'nin f:1728'i ile verinin 1732'si 4 yıl ayrışıyor. İkisi AYNI ŞEYİ ÖLÇMÜYOR olabilir: TDV HÂNEDANIN kuruluşunu, veri O YERİN el değiştirmesini. Karıştırılmadı — künye TDV'yi, `s:` verisi kendi gününü taşıyor."
+  },
+  {
+   "id": "kolhapur",
+   "ad": "Kolhapûr (Chhatrapati racalığı)",
+   "f": "1659-01-01",
+   "t": "1923-10-29",
+   "hassasiyet": "🔴 f: KAYNAKSIZ — mevcut veriden DEVRALINDI. TDV'de dayanağı YOK.",
+   "bolge": "guney-asya",
+   "harita": null,
+   "ozet": "Maratha hânedanının Kolhapûr kolu; 1818 sonrası İngiliz hâkimiyeti altında prenslik olarak sürdü (1923 sonrasında da sürdü).",
+   "kaynak": "🔴 bulunamadı — TDV `maratha`/`marathalar` slug'ları ÖLÜ (302); KAPSAYICI `hindistan` maddesinin hânedan listesinde Kolhapûr YOK (Sindiya · Holkar · Gaikwar var). Akademik kaynak ARANACAK.",
+   "gerekce": "Veride Kolhapûr 1659-01-01→1923 `maratha`. İKİ AYRI KUSUR: (1) kuyruk — künye 1818-06-03'te bitiyor; (2) BAŞ — veri künyenin f:1674-06-06'sından 15 yıl ÖNCE başlıyor.",
+   "_ACIK": "Bu künye ÖNERİ olarak yazıldı ama KAYNAKSIZ. Kaynak bulunmadan inmemeli — ya da `f:` verinin gününden değil kaynaktan alınmalı."
+  }
+ ],
+ "_INMEDEN_ONCE": [
+  "① RENK: dördü de BOYALAR'da YOK. Sahneye çıkınca yeni çiftler doğar",
+  "   ve BUGÜN GÖRÜNMEZLER (renk_olc çizilmeyen gövde için çift kurmaz).",
+  "   Ölçüm koşu sonrasına — koordinatörde.",
+  "② 2s KAPISI: `1760-01-01` ve `1799-05-04` kırılma günlerinin ÇEKİRDEKTE",
+  "   (data/olaylar*.js) maddesi var mı VE KONUSU İLGİLİ Mİ — ÖLÇÜLMEDİ.",
+  "③ Mandu ve Uccayn'ın 1818 sonrası sahibi BULUNAMADI — bu iki nokta",
+  "   yamanın DIŞINDA kalır, ya da ayrıca araştırılır.",
+  "④ Meysûr'un başlangıcında TDV KENDİ İÇİNDE ÇELİŞİYOR (1760 ↔ 1761).",
+  "   Mevcut künye 1761 ile TDV `hindistan` uyuşuyor ⇒ DOKUNULMADI."
+ ]
+}
