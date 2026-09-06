@@ -64,8 +64,17 @@ YANLIŞ  .petek.kilit'i okuyup "PID yazıyor ⇒ canlı" demek
    geometri (bütün tâbi dünya tek gövde) ⇒ ada asılacak yer yok.
    🔴 RENK yarısı TEK BAŞINA İNMEZ (paket hükmü): etiketsiz aynı renk,
       tâbiyi ayırt edilemez yapar — bugünkünden KÖTÜ.
-⑦ 18 çakışma · Timbuktu 1700-1894 · Agadez zinciri · Sutter's Fort
-⑧ geometri <script>ten fetch()+JSON'a — A/B anahtarını VE ~9,2 sn
+⑦ 🟢 SUTTER YAMASI HAZIR VE KAYNAKLI — `denetim/yer_yama_sutter_0906.js`
+   Anakronizm: `abd` 1839'dan başlıyordu, Kaliforniya o tarihte MEKSİKA.
+   Kaynak: ABD Millî Arşivi, Guadalupe Hidalgo birincil belgesi (2 Şub 1848)
+   VE atlasın kendi konvansiyonu (beş komşu aynı günü kullanıyor).
+   Yeni künye/renk GEREKMEZ · Değişmez 1 ve 2s etkisi ÖLÇÜLDÜ (yeni açık
+   gün YOK). Uygulama: `git mv denetim/yer_yama_sutter_0906.js data/`
+   → `py arac/_sahiplik_uygula.py` (kuru koşu VARSAYILAN) → `s:` indiğini
+   GÖR → `--yaz`.
+⑧ 18 çakışma · Timbuktu 1700-1894 · Agadez zinciri
+⑨ 1848-02-02'ye kronoloji maddesi (Guadalupe Hidalgo) — `2s` zayıf gün
+⑩ geometri <script>ten fetch()+JSON'a — A/B anahtarını VE ~9,2 sn
    ayrıştırma blokunu birlikte çözer (OLCUM-YUK-VE-AB-0906.md)
    ⚠️ Pencere açık olmadan UYGULANMAZ: görsel doğrulama şart
 ```
