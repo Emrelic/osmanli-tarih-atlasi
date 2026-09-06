@@ -217,6 +217,26 @@ gerçek çare seçim kuralında (`uyum` yetinmeciliği) ya da engel kümesinin
 
 ### ⑯ ve ⑰ BOŞTA — sıradaki koordinatör turu görevlendirsin
 
+## ⑤e 🔴 `§7` İHLALİ — VE BENİM · commit kapsamı ÇOK KABA
+
+KÜRE GÖRÜNÜM ölçtü: dört geçici dosyası (`denetim/_yb_*.json`) **benim**
+commit'lerime girmiş (`ad4ea4e` · `6aa7eaa`). O oturum hiç commit atmadı.
+```
+KULLANDIĞIM   git add -- denetim/ oturumlar/     ← DİZİN düzeyinde pathspec
+SONUÇ         o dizinlere yazan HERKESİN geçici dosyası süpürülüyor
+ÖLÇÜM         denetim/ altında 42 `_` önekli İZLENEN dosya
+              (bir kısmı meşru: `_girdi_listesi.py` gibi)
+```
+🔴 `§7` *"yol adı ZORUNLU"* diyor ve ben yol adı **verdim** — ama dizin
+düzeyinde. Kural harfiyen sağlandı, **amacı sağlanmadı**: başka bir
+oturumun sahnelediği dosya benim commit'ime girdi.
+📌 `§11`in *"`-F <dosya>` kullanmak yetmiyor, o dosyanın NASIL yazıldığı da
+kuralın içinde"* dersinin **commit kapsamı** yüzü — doğru aleti kaba
+kullanmak.
+🟢 ÇARE (bir sonraki tur): `denetim/` altında `_` önekli dosyalar
+`.gitignore`a ya da commit'ler dosya listesiyle atılsın. 42 izlenen `_`
+dosyası önce **meşru/geçici** diye ayrılmalı — ölçülmedi.
+
 ## ⑥ KENDİ KUSURLARIM — kayda geçiyor
 
 ```
