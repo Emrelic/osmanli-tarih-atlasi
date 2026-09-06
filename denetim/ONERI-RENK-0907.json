@@ -1,15 +1,13 @@
 {
   "oturum": "RENK KAPISI (⑫ KOL)",
   "damga": "2026-09-07 · ONGORU — HICBIR OLCUM YAPILMADAN yazildi",
-  "durum": "ONGORU DAMGALANDI · olcum baslamadi",
+  "durum": "TESLIM — olcum bitti",
   "gorev": "Bekleyen yamalarin kullandigi renksiz kimlikleri cikar ve renk ONER. renkler.py DONUK (kosu 7b, PID 3880) — cikti denetim/ altina.",
-
   "devralinan": {
     "iddia": "Bekleyen yamalarin kullandigi 81 kimligin 17'sinin rengi yok ⇒ 17 harita deligi",
     "kaynak": "koordinator, KOL-0907.md ⑫",
     "🔴 durum": "DOGRULANMADI — kural ④ geregi kendim olcecegim. 0904 turunda koordinatorun iki sayisi (deniz ihlali '0', Kol G '8 kopuk kunye') olculunce curumustu; bu sayiyi da olcmeden kullanmiyorum."
   },
-
   "ongoru": [
     {
       "kalem": "① RENKSIZ KIMLIK SAYISI",
@@ -44,6 +42,71 @@
       "hangi_kosuda_neye_karsi": "Kendi bulacagim aday cift kumesine karsi."
     }
   ],
-
-  "olculemedi": ["Henuz hicbir sey olculmedi — bu dosya su an YALNIZ ongoru tasiyor."]
+  "olculemedi": [
+    "Onerilen renk CIZILMEDI — butun sayilar hesaptan.",
+    "11 es zamanli kimligin VERIDE noktasi yok ⇒ Viyana/Graz'a mesafeleri OLCULEMEDI. Kisit kumesine ALINMADILAR; biri gercekten yakinsa payim oldugundan kucuk olabilir. Guvensiz yon.",
+    "152 kimligin 142'sinin rengi VAR diye dogruladim ama o renklerin BIRBIRIYLE cakisip cakismadigini olcmedim — gorevim renksizleri bulmakti.",
+    "Grep'le 'd:\"x\"' arayip bosluklu yazimi (d: \"x\") KACIRDIM; vm tabanli aletim dogru buldu. Iki alet celisince vm'e guvendim ve dogruydu."
+  ],
+  "olcum": {
+    "yama_dosyasi": 81,
+    "yerlesim_kaydi": 1021,
+    "BENZERSIZ_KIMLIK": 152,
+    "🔴 devralinan_sayi_BAYAT": "Koordinator '81 kimligin 17'sinin rengi yok' dedi. OLCUM: kimlik 152 (81 DOSYA sayisi), renksiz 2. Sebep git'te: BOYALAR 09-04'te ~549, 09-05 23:07 'MERGE INDI ... renk 29' commit'inden sonra ~578. '17' o merge'den ONCEYE ait.",
+    "kapsama": {
+      "BOYALAR_da_var": 142,
+      "harita_koprusuyle": 7,
+      "RENKSIZ": 2
+    },
+    "renksiz_iki": {
+      "__BOSLUK__": "🟢 RENK VERILMEZ — devlet degil, §1.5'in 'kusur degil BEYAN' dedigi kasitli bosluk isareti.",
+      "avusturya-cumhuriyet": "🔴 TEK GERCEK KALEM — kunye var (1918-11-12→1923-10-29), harita: yok, BOYALAR'da yok."
+    },
+    "iki_ayakli_olcutun_getirisi": {
+      "tek_ayak_es_zamanlilik": "113 kimlige dE>=12 dayatildi -> 118 gecerli aday, komsu payi 12.1-14.3 (tabanin kil payi ustu)",
+      "iki_ayak_es_zamanlilik_VE_600km": "12 kimlige dayatildi -> 4253 gecerli aday, komsu payi 34.6",
+      "hukum": "Sartnamenin kurali SAYIYLA dogrulandi: tek ayak 36 kat daraltiyor ve emniyet payini 12'nin kil payina dusuruyor."
+    },
+    "baglayan_12_kimlik": "cekoslovakya 55km · macaristan-naiplik 60 · yugoslavya 109 · italya 202 · polonya 332 · romanya-kralligi 437 · ispanya 513 · isvicre 523 · fransa-cumhuriyet 535 · sovyet-rusya 556 · karadag 589 · isvec 595"
+  },
+  "renk_onerisi": {
+    "id": "avusturya-cumhuriyet",
+    "yama": "data/yer_yama_ok109.js · Viyana + Graz · 1918-11-11→1923-10-29",
+    "A_EN_GUVENLI": {
+      "hex": "#f9f906",
+      "komsu_dE": 36.1,
+      "en_yakin": "karadag",
+      "avusturyaya_dE": 29.7,
+      "altlik_dE": 47.5
+    },
+    "B_SUREKLILIK": {
+      "hex": "#f9e006",
+      "komsu_dE": 34.6,
+      "en_yakin": "ispanya",
+      "avusturyaya_dE": 24.4,
+      "altlik_dE": 42.9,
+      "not": "avusturya (imparatorluk) #bdab3f ile 12-25 dE bandinda — ardil kimlik gorsel surekliligi. Bu bir TERCIH, kisit degil."
+    },
+    "C_PALET_HISSI": {
+      "hex": "#dfb920",
+      "komsu_dE": 20.6,
+      "en_yakin": "ispanya",
+      "avusturyaya_dE": 11.0,
+      "altlik_dE": 30.8,
+      "not": "renk_olc'un kendi 'yetinmeci' olcutu (L_ORT/S_ORT'a yakinlik), komsu payi >=20 sartiyla."
+    },
+    "ONERIM": "B_SUREKLILIK — komsu payi da yuksek (>=32) ve ardil kimligi gorsel olarak baglıyor. A daha guvenli ama Avusturya'yla hicbir baglantisi yok; C paletin hissine en yakin."
+  },
+  "🔴 IKINCI ON SART — BENIM ISIM DEGIL": {
+    "kaynak": "data/yer_yama_ok109.js · kaydin kendi `d2_gerek` alani",
+    "metin": "② `devletler.js` `avusturya-cumhuriyet` kunyesi f:1918-11-12 → 1918-11-11 cekilmeli (yoksa Degismez 4d 468 tavanini 470'e cikarir).",
+    "hukum": "Rengim TEK BASINA yetmez. Yama IKI on sart ilan ediyor ve ikincisi koordinatorun dosyasinda (devletler.js). Ikisi INMEDEN yama uygulanmamali — bunu ben yazmadim, yamanin kendisi yaziyor."
+  },
+  "ongoru_hukmu": {
+    "① RENKSIZ SAYISI": "🟡 YARI TUTTU — 'tam 17 cikmayacak' ve 'sapma KUCUK yonde' TUTTU (olculen 2), ama verdigim BANT (12-22) CURUDU: 2, bandin cok altinda. Yonu bildim, buyuklugu bilemedim; sebebini de ongoremedim (29 renklik bir merge 09-05'te inmis).",
+    "② harita: KOPRUSU": "🟡 SINIRDA CURUDU — 2-6 bekledim, 7 cikti. Mekanizma dogru (kopru var ve is degil), sayi bir fazla.",
+    "③ COZULEBILIRLIK": "🟢 TUTTU — tek gercek kalem cozuldu, 4253 gecerli aday. Mazeretim ('kimlikler ayni bolgede kumelenirse uzay daralir') gerekmedi.",
+    "④ IKI AYAKLI OLCUT": "🟢 TUTTU ve BEKLEDIGIMDEN GUCLU — 'yaridan fazlasi mesru cikacak' demistim; 113 es zamanli kimligin 101'i (%89) UZAK cikti, kisiti yalniz 12'si bagliyor.",
+    "_ozet": "Dort ongorunun ikisi tuttu, ikisi sinirda/bant olarak curudu. Curuyenler bilgi tasidi: ①'in curumesi 'bir sayi iki gunde bayatlar' vakasini ortaya cikardi (BOYALAR 549 -> 578), ②'ninki koprunun sandigimdan yaygin oldugunu gosterdi."
+  }
 }

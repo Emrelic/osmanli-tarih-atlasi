@@ -1,27 +1,28 @@
 {
   "oturum": "DAYANAK KUZEY AMERİKA",
   "kol": "⑬",
-  "damga": "2026-09-07 01:00",
+  "damga": "2026-09-07 01:06",
   "_NOT": "Dayanaksiz GUN defterinin (DAYANAK-GUNLER-0907.json) `sahip` = KUZEY-AMERIKA kovasi. Borcun birimi NOKTA degil GUN; bir gune bir dayanak yuzlerce noktayi birden kaynaklandirir.",
   "_KAYNAK_KALITESI": "UC KADEME, karistirilmaz. BIRINCIL = belgenin KENDI metni okundu (Avalon/Yale · OSU Kappler Tribal Treaties Database · Government of Canada antlasma metinleri · imparatorluk emirnamesi). KURUMSAL = akademik/kurumsal referansin GOVDESI okundu (Canadian Encyclopedia imzali madde · US National Park Service). 🟡 ARAMA-OZETI = YALNIZ arama motorunun ozeti gorulду, GOVDE ACILMADI ⇒ bu bir DAYANAK DEGIL bir IZDIR; bir sonraki tur govdeyi acmali. `okumadim` damgasinin yumusak hali, ve `bulunamadi` ile KARISTIRILMAZ.",
   "ozet": {
     "kovadaki_gun": 124,
     "kovadaki_nokta": 579,
-    "dayanak_yazilan_gun": 16,
-    "dayanak_yazilan_nokta": 351,
+    "dayanak_yazilan_gun": 18,
+    "dayanak_yazilan_nokta": 381,
     "birincil": 11,
-    "kurumsal": 2,
-    "arama_ozeti": 3,
-    "yazilmayan_gun": 107,
-    "yazilmayan_nokta": 172
+    "kurumsal": 3,
+    "arama_ozeti": 4,
+    "devredilen_paylasilan": 1,
+    "yazilmayan_gun": 105,
+    "yazilmayan_nokta": 142
   },
   "_BEKLEYEN_PAYLASILAN_GUN": {
     "gun": "1763-02-10",
     "nokta": 56,
-    "damga": "BIRINCIL — YAZILMADI, KARAR BEKLIYOR",
+    "damga": "🔵 DEVREDILDI — ⑮ PAYLASILAN GUNLER KOLUNA",
     "kaynak": "The Avalon Project, Yale Law School — «Treaty of Paris» (1763). Belge metni OKUNDU ve dayanak HAZIR.",
     "alinti": "«Done at Paris the tenth day of February, 1763.» — Madde IV: Fransa krali «cedes and guaranties to his said Britannick Majesty, in full right, Canada, with all its dependencies, as well as the island of Cape Breton, and all the other islands and coasts in the gulph and river of St. Lawrence.» Madde XX: Ispanya «cedes and guaranties, in full right, to his Britannick Majesty, Florida, with Fort St. Augustin, and the Bay of Pensacola»",
-    "aciklama": "🔴 BU GUN YAZILMADI. Sebep CAKISMA RISKI: defterde `paylasilan: true` (KUZEY-AMERIKA 108 · GUNEY-ORTA-ASYA 2 · GUNEY-ORTA-AMERIKA 2) ve ⑮. KOL '120 paylasilan gunu TEK ELDEN dayanaklandir' diye gorevli. Ayni gune iki oturum ayri kaynak yazarsa `§11`in 'metin birlestirmek dayanaklari birlestirmek DEGILDIR' riski dogar. Dayanak HAZIR; koordinatorun karari gelince ya buraya yazilir ya ⑮'e devredilir."
+    "aciklama": "🔵 KOORDINATOR HUKMU (0907): `paylasilan: true` olan HICBIR gunu bolge kolu yazmaz; hepsi ⑮ PAYLASILAN GUNLER kolunundur — sahip kimse olursa olsun. Bu gun benim kovamdaki TEK paylasilan gundur (olctum: 124 gunun 1'i) ve ⑮'e DEVREDILMISTIR. 🟢 Dayanagi yine de burada BIRAKILIYOR, cunku hazir ve ⑮'in isini kolaylastirir: Avalon/Yale Paris 1763 birincil metni, «Done at Paris the tenth day of February, 1763.» + Madde IV (Kanada) ve Madde XX (Florida) alintili. ⑮ bunu KULLANABILIR ya da kendi kaynagini yazabilir — ama MADDEYI O YAZAR, ben yazmam. 📌 Ve ortusme koordinatorun kendi tasariminda: iki kural (bolge sahipligi ve ⑮ tekelciligi) birbirini kesiyordu; hukum onu cozdu."
   },
   "_YAZILMAYANLAR": "Kalan 107 gun (172 nokta) HENUZ ARANMADI — damgasi `okumadim`, `bulunamadi` DEGIL. Cogu 1-2 noktalik tekil gun. Bir sonraki tur ya da bir sonraki oturum icin: gunler asagida `kalan_gunler` altinda kimlikleriyle duruyor.",
   "gunler": [
@@ -66,6 +67,14 @@
       "aciklama": "Alaska'nin Rusya'dan ABD'ye RESMI DEVRI (Sitka, Castle Hill). ⚠️ Devir gunu ile ANTLASMA gunu ayridir: satin alma antlasmasi 30 Mart 1867'de imzalandi; defterdeki gun DEVIR toreninindir."
     },
     {
+      "gun": "1535-04-17",
+      "nokta": 23,
+      "damga": "🟡 ARAMA-OZETI (gun) + KURUMSAL (yil)",
+      "kaynak": "Real Academia de la Historia, «Historia Hispánica» — «Antonio de Mendoza y Pacheco» maddesi. Govde TARAYICIDAN OKUNDU (7.890 karakter).",
+      "alinti": "GOVDEDEN AYNEN: «Mendoza y Pacheco, Antonio de. Mondéjar (Guadalajara), 1490 – Lima (Perú), 21.VII.1552. Primer virrey de Nueva España (1535-1550) y segundo virrey de Perú (1551-1552).» — ARAMA OZETINDEN (govdede BULAMADIM): «On April 17, 1535, Carlos V appointed Antonio de Mendoza y Pacheco as the first Viceroy, governor, and captain general of Nueva España and president of the Real Audiencia de México.»",
+      "aciklama": "Yeni Ispanya Genel Valiliginin kurulusu — Antonio de Mendoza'nin ilk genel vali atanmasi. 🔴 HASSASIYET AYRIMI: RAH govdesi YILI kesin veriyor (1535) ama GUNU (17 Nisan) govdede BULAMADIM — o yalniz arama ozetinde geciyor. ⇒ Yil KURUMSAL, gun 🟡 ARAMA-OZETI. Iki kademe TEK MADDEDE ayri ayri damgalanmistir; birinin gucu otekine odunc verilmemistir. Bir sonraki tur: RAH biyografi govdesinin tamami (sayfa gec yukleniyor olabilir) ya da atama belgesinin kendisi. ⚠️ TAKVIM: 1582 oncesi ⇒ JULYEN."
+    },
+    {
       "gun": "1899-06-21",
       "nokta": 13,
       "damga": "BIRINCIL",
@@ -80,6 +89,14 @@
       "kaynak": "The Avalon Project, Yale Law School — «Declaration of Independence». Belge metni OKUNDU.",
       "alinti": "«Declaration of Independence, July 4, 1776» — «When in the course of human events, it becomes necessary for one people to dissolve the political bands which have connected them with another…»",
       "aciklama": "ABD Bagimsizlik Bildirisi."
+    },
+    {
+      "gun": "1521-08-13",
+      "nokta": 7,
+      "damga": "KURUMSAL",
+      "kaynak": "Encyclopaedia Britannica, «Calendar — The Mexican (Aztec) calendar». Govde TARAYICIDAN OKUNDU (21.809 karakter).",
+      "alinti": "«The most widely accepted correlation of the calendar of Tenochtitlán with the Christian JULIAN calendar is based on the entrance of Spanish conquistador Hernán Cortés into that city on November 8, 1519, and on the surrender of Cuauhtémoc on August 13, 1521.»",
+      "aciklama": "Tenochtitlan'in dususu — Cuauhtemoc'un teslimi. 🟢 TAKVIM SORUSU KAYNAKTAN CEVAPLANDI: bu tarih JULYEN takvimindedir ve kaynak bunu ACIKCA yaziyor ('the Christian Julian calendar'). ⇒ Atlasin 1582 oncesi icin Julyen kullandigi yolundaki AVRUPA olcumuyle UYUSUYOR; benim kovamda bu konvansiyonun ilk KAYNAKLI dogrulamasidir. ⚠️ Ve kaynak bunu bir yan bilgi olarak degil, Azteka takviminin Hristiyan takvimiyle ESLESTIRILME TEMELI olarak veriyor — yani gun zaten Julyen olarak tanimlanmis."
     },
     {
       "gun": "1848-02-02",
@@ -156,25 +173,6 @@
   ],
   "kalan_gunler": [
     {
-      "gun": "1535-04-17",
-      "nokta": 23,
-      "kimlik": [
-        "ispanya",
-        "yeni-ispanya"
-      ],
-      "damga": "okumadim"
-    },
-    {
-      "gun": "1521-08-13",
-      "nokta": 7,
-      "kimlik": [
-        "aztek-imparatorlugu",
-        "ispanya",
-        "nahua-sehir-devletleri"
-      ],
-      "damga": "okumadim"
-    },
-    {
       "gun": "1803-12-20",
       "nokta": 5,
       "kimlik": [
@@ -182,7 +180,8 @@
         "abd",
         "yeni-ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1858-08-02",
@@ -194,7 +193,8 @@
         "secwepemc",
         "nuu-cah-nulth"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1902-05-20",
@@ -203,7 +203,8 @@
         "abd",
         "kuba-cumhuriyeti"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1762-11-03",
@@ -212,7 +213,8 @@
         "fransa",
         "yeni-ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1530-02-14",
@@ -221,7 +223,8 @@
         "purepecha-imparatorlugu",
         "ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "JULYEN"
     },
     {
       "gun": "1680-08-10",
@@ -230,7 +233,8 @@
         "yeni-ispanya",
         "pueblo-bagimsizligi"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1692-08-01",
@@ -239,7 +243,8 @@
         "pueblo-bagimsizligi",
         "yeni-ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1784-08-14",
@@ -248,7 +253,8 @@
         "alutiiq",
         "rusya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1821-09-15",
@@ -257,7 +263,8 @@
         "yeni-ispanya",
         "guatemala"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1664-09-08",
@@ -266,7 +273,8 @@
         "hollanda",
         "ingiltere"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1836-03-02",
@@ -275,7 +283,8 @@
         "meksika",
         "teksas-cumhuriyeti"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1845-12-29",
@@ -284,7 +293,8 @@
         "teksas-cumhuriyeti",
         "abd"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1795-07-22",
@@ -293,7 +303,8 @@
         "ispanya",
         "fransa-cumhuriyet"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1809-07-09",
@@ -302,7 +313,8 @@
         "fransa-cumhuriyet",
         "ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1822-02-09",
@@ -311,7 +323,8 @@
         "ispanya",
         "haiti"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1844-02-27",
@@ -320,7 +333,8 @@
         "haiti",
         "dominik-cumhuriyeti"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1861-03-18",
@@ -329,7 +343,8 @@
         "dominik-cumhuriyeti",
         "ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1865-03-03",
@@ -338,7 +353,8 @@
         "ispanya",
         "dominik-cumhuriyeti"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1885-05-12",
@@ -347,7 +363,8 @@
         "metis",
         "kanada"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1850-09-07",
@@ -357,7 +374,8 @@
         "ingiliz-kuzey-amerika",
         "abd"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1725-12-15",
@@ -367,7 +385,8 @@
         "fransa",
         "ingiltere"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1649-03-16",
@@ -376,7 +395,8 @@
         "vendat",
         "ingiltere"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1699-04-08",
@@ -385,7 +405,8 @@
         "choctaw",
         "fransa"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1519-10-18",
@@ -394,7 +415,8 @@
         "nahua-sehir-devletleri",
         "ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "JULYEN"
     },
     {
       "gun": "1519-07-01",
@@ -403,7 +425,8 @@
         "nahua-sehir-devletleri",
         "ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "JULYEN"
     },
     {
       "gun": "1520-09-04",
@@ -412,7 +435,8 @@
         "aztek-imparatorlugu",
         "ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "JULYEN"
     },
     {
       "gun": "1524-03-07",
@@ -420,7 +444,8 @@
       "kimlik": [
         "maya-sehir-devletleri"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "JULYEN"
     },
     {
       "gun": "1524-07-25",
@@ -429,7 +454,8 @@
         "maya-sehir-devletleri",
         "ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "JULYEN"
     },
     {
       "gun": "1697-03-13",
@@ -438,7 +464,8 @@
         "maya-sehir-devletleri",
         "yeni-ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1519-03-25",
@@ -447,7 +474,8 @@
         "maya-sehir-devletleri",
         "ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "JULYEN"
     },
     {
       "gun": "1519-04-22",
@@ -455,7 +483,8 @@
       "kimlik": [
         "ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "JULYEN"
     },
     {
       "gun": "1531-04-16",
@@ -463,7 +492,8 @@
       "kimlik": [
         "yeni-ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "JULYEN"
     },
     {
       "gun": "1542-02-14",
@@ -471,7 +501,8 @@
       "kimlik": [
         "yeni-ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "JULYEN"
     },
     {
       "gun": "1542-01-06",
@@ -479,7 +510,8 @@
       "kimlik": [
         "yeni-ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "JULYEN"
     },
     {
       "gun": "1540-10-04",
@@ -487,7 +519,8 @@
       "kimlik": [
         "yeni-ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "JULYEN"
     },
     {
       "gun": "1528-03-31",
@@ -495,7 +528,8 @@
       "kimlik": [
         "yeni-ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "JULYEN"
     },
     {
       "gun": "1523-07-25",
@@ -503,7 +537,8 @@
       "kimlik": [
         "yeni-ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "JULYEN"
     },
     {
       "gun": "1646-10-01",
@@ -512,7 +547,8 @@
         "powhatan",
         "ingiltere"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1779-09-21",
@@ -521,7 +557,8 @@
         "ingiltere",
         "ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1798-04-07",
@@ -530,7 +567,8 @@
         "ispanya",
         "abd"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1608-07-03",
@@ -538,7 +576,8 @@
       "kimlik": [
         "fransa"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1642-05-17",
@@ -546,7 +585,8 @@
       "kimlik": [
         "fransa"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1763-11-03",
@@ -555,7 +595,8 @@
         "fransa",
         "ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1607-05-14",
@@ -563,7 +604,8 @@
       "kimlik": [
         "ingiltere"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1620-12-21",
@@ -571,7 +613,8 @@
       "kimlik": [
         "ingiltere"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1630-09-07",
@@ -579,7 +622,8 @@
       "kimlik": [
         "ingiltere"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1682-10-27",
@@ -587,7 +631,8 @@
       "kimlik": [
         "ingiltere"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1670-04-15",
@@ -595,7 +640,8 @@
       "kimlik": [
         "ingiltere"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1733-02-12",
@@ -603,7 +649,8 @@
       "kimlik": [
         "ingiltere"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1701-07-24",
@@ -611,7 +658,8 @@
       "kimlik": [
         "fransa"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1796-07-11",
@@ -620,7 +668,8 @@
         "ingiltere",
         "abd"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1713-04-11",
@@ -629,7 +678,8 @@
         "fransa",
         "ingiltere"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1565-09-08",
@@ -637,7 +687,8 @@
       "kimlik": [
         "ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "JULYEN"
     },
     {
       "gun": "1821-07-10",
@@ -646,7 +697,8 @@
         "ispanya",
         "abd"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1698-11-17",
@@ -654,7 +706,8 @@
       "kimlik": [
         "ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1781-05-08",
@@ -663,7 +716,8 @@
         "ingiltere",
         "ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1821-07-17",
@@ -672,7 +726,8 @@
         "ispanya",
         "abd"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1718-05-01",
@@ -680,7 +735,8 @@
       "kimlik": [
         "yeni-ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1769-07-16",
@@ -688,7 +744,8 @@
       "kimlik": [
         "yeni-ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1776-06-29",
@@ -696,7 +753,8 @@
       "kimlik": [
         "yeni-ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1799-07-01",
@@ -704,7 +762,8 @@
       "kimlik": [
         "rusya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1697-09-20",
@@ -713,7 +772,8 @@
         "ispanya",
         "fransa"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1511-08-15",
@@ -721,7 +781,8 @@
       "kimlik": [
         "ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "JULYEN"
     },
     {
       "gun": "1515-07-25",
@@ -729,7 +790,8 @@
       "kimlik": [
         "ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "JULYEN"
     },
     {
       "gun": "1519-11-16",
@@ -737,7 +799,8 @@
       "kimlik": [
         "ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "JULYEN"
     },
     {
       "gun": "1762-08-13",
@@ -746,7 +809,8 @@
         "ispanya",
         "ingiltere"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1655-05-10",
@@ -755,7 +819,8 @@
         "ispanya",
         "ingiltere"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1898-08-12",
@@ -764,7 +829,8 @@
         "hawaii-kralligi",
         "abd"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1546-09-08",
@@ -772,7 +838,8 @@
       "kimlik": [
         "yeni-ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "JULYEN"
     },
     {
       "gun": "1563-07-08",
@@ -780,7 +847,8 @@
       "kimlik": [
         "yeni-ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "JULYEN"
     },
     {
       "gun": "1577-07-25",
@@ -788,7 +856,8 @@
       "kimlik": [
         "yeni-ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "JULYEN"
     },
     {
       "gun": "1596-09-20",
@@ -796,7 +865,8 @@
       "kimlik": [
         "yeni-ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1709-10-12",
@@ -804,7 +874,8 @@
       "kimlik": [
         "yeni-ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1697-10-25",
@@ -812,7 +883,8 @@
       "kimlik": [
         "yeni-ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1780-08-27",
@@ -820,7 +892,8 @@
       "kimlik": [
         "yeni-ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1576-08-01",
@@ -828,7 +901,8 @@
       "kimlik": [
         "inuit"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "JULYEN"
     },
     {
       "gun": "1534-07-24",
@@ -836,7 +910,8 @@
       "kimlik": [
         "fransa"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "JULYEN"
     },
     {
       "gun": "1829-06-06",
@@ -845,7 +920,8 @@
         "beothuk",
         "ingiliz-kuzey-amerika"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1890-12-29",
@@ -854,7 +930,8 @@
         "lakota",
         "abd"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1583-08-05",
@@ -862,7 +939,8 @@
       "kimlik": [
         "ingiltere"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1877-10-05",
@@ -871,7 +949,8 @@
         "nez-perce",
         "abd"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1634-07-04",
@@ -879,7 +958,8 @@
       "kimlik": [
         "fransa"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1811-04-12",
@@ -887,7 +967,8 @@
       "kimlik": [
         "ingiliz-kuzey-amerika"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1749-06-21",
@@ -895,7 +976,8 @@
       "kimlik": [
         "ingiltere"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1832-09-21",
@@ -904,7 +986,8 @@
         "sauk",
         "abd"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1857-09-24",
@@ -913,7 +996,8 @@
         "pavni",
         "abd"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1847-07-24",
@@ -921,7 +1005,8 @@
       "kimlik": [
         "abd"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1764-02-14",
@@ -929,7 +1014,8 @@
       "kimlik": [
         "yeni-ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1777-11-29",
@@ -937,7 +1023,8 @@
       "kimlik": [
         "yeni-ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1770-06-03",
@@ -945,7 +1032,8 @@
       "kimlik": [
         "yeni-ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1868-06-01",
@@ -954,7 +1042,8 @@
         "navaho",
         "abd"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1682-04-09",
@@ -963,7 +1052,8 @@
         "wicita",
         "fransa"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1832-10-20",
@@ -972,7 +1062,8 @@
         "cikasav",
         "abd"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1706-04-23",
@@ -980,7 +1071,8 @@
       "kimlik": [
         "yeni-ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1782-04-21",
@@ -988,7 +1080,8 @@
       "kimlik": [
         "yeni-ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1733-06-09",
@@ -997,7 +1090,8 @@
         "creek-konfederasyonu",
         "ingiltere"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1781-09-04",
@@ -1005,7 +1099,8 @@
       "kimlik": [
         "yeni-ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1775-08-20",
@@ -1013,7 +1108,8 @@
       "kimlik": [
         "yeni-ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1659-12-08",
@@ -1021,7 +1117,8 @@
       "kimlik": [
         "yeni-ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1755-05-15",
@@ -1029,7 +1126,8 @@
       "kimlik": [
         "yeni-ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1749-03-05",
@@ -1037,7 +1135,8 @@
       "kimlik": [
         "yeni-ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1750-10-06",
@@ -1045,7 +1144,8 @@
       "kimlik": [
         "yeni-ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1689-07-15",
@@ -1053,7 +1153,8 @@
       "kimlik": [
         "yeni-ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "gregoryen"
     },
     {
       "gun": "1514-06-04",
@@ -1061,7 +1162,8 @@
       "kimlik": [
         "ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "JULYEN"
     },
     {
       "gun": "1525-05-18",
@@ -1069,7 +1171,22 @@
       "kimlik": [
         "ispanya"
       ],
-      "damga": "okumadim"
+      "damga": "okumadim",
+      "takvim": "JULYEN"
     }
-  ]
+  ],
+  "_TAKVIM_EKSENI": {
+    "_NOT": "Koordinator erken gunlerde kaynagin HANGI TAKVIMI verdigini yazmami istedi. Kovami olctum — bu tek gunluk bir mesele degil, kovanin CEYREGI.",
+    "1582-10-15_oncesi": {
+      "gun": 27,
+      "nokta": 57,
+      "aciklama": "27 gun · 57 nokta. Hemen hepsi Ispanyol fethi gunleri (yeni-ispanya · aztek · maya-sehir-devletleri · purepecha · nahua). Gregoryen reformu 15 Ekim 1582'de basladigi icin bu gunlerin TAMAMI JULYEN olmalidir. 🟢 VE BU BIR VARSAYIM DEGIL: 1521-08-13 icin kaynak bunu ACIKCA yaziyor (Britannica, «the Christian Julian calendar»). Kovamin 1582 oncesi tarafi icin ilk KAYNAKLI dogrulama budur."
+    },
+    "1582-10-15_sonrasi": {
+      "gun": 97,
+      "nokta": 522,
+      "aciklama": "97 gun · 522 nokta. Gregoryen guvenli."
+    },
+    "🔴 AYRI_VAKA_1867-10-18": "Alaska devri — TAKVIM SINIRI 1582 DEGIL. Rusya 1867'de HALA JULYEN kullaniyordu (Gregoryen'e 1918'de gecti). Ayni an Rus tarafi icin 6 Ekim, Amerikan tarafi icin 18 Ekim'dir. Defterdeki gun (1867-10-18) GREGORYEN ve ABD tarafinin gunudur; NPS kaynagi da o gunu veriyor. ⇒ Bu bir CELISKI DEGIL, iki takvimin AYNI ANI. 📌 Ve dersi genel: takvim sorusu yalniz 1582 oncesinde degil, JULYEN KULLANAN BIR DEVLETIN taraf oldugu HER gunde sorulur. ⚠️ OLCMEDIM: kovamda Rusya'nin taraf oldugu baska gun var mi (1784-08-14 alutiiq/rusya bir aday) — bir sonraki turun isi."
+  }
 }

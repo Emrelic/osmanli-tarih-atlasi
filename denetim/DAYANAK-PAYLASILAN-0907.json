@@ -30,7 +30,8 @@
   "  TDV_GUN_dogruladi": 2,
   "  TDV_YIL_dogruladi_GUN_YOK": 4,
   "  TDV_bulunamadi": 2,
-  "MADDE_YOK_HENUZ_OKUNMADI": 14
+  "MADDE_YOK_HENUZ_OKUNMADI": 14,
+  "  devralinip_DOGRULANAN": 1
  },
  "A_DEVRALINAN_96": [
   {
@@ -205,19 +206,30 @@
    "nokta": 56,
    "olay": "Paris Antlaşması — Yeni Fransa'nın kaybı",
    "etkilenen_bolgeler": {
-    "KUZEY-AMERIKA": 108,
+    "KUZEY-AMERIKA": 56,
     "GUNEY-ORTA-ASYA": 2,
     "GUNEY-ORTA-AMERIKA": 2
    },
-   "secilen_dayanak": "standart akademik kaynak (Kamen)",
-   "kademe": 2,
+   "secilen_dayanak": "Avalon Project (Yale Law School) — «The Definitive Treaty of Peace and Friendship … Concluded at Paris the 10th day of February, 1763» (birincil metin, avalon.law.yale.edu/18th_century/paris763.asp)",
+   "kademe": 1,
    "destekleyen": [
+    "standart akademik kaynak (Kamen)",
     "standart ders kitabı bilgisi — WebFetch ile doğrulanmadı",
     "el-kitabi"
    ],
    "elenen_supheli": [
     "standart ders kitabı bilgisi — WebFetch ile doğrulanmadı"
-   ]
+   ],
+   "devralindi": "DAYANAK KUZEY AMERİKA — paylaşılan gün olduğu için YAZMADI, devretti",
+   "dogrulama": {
+    "damga": "🟢 DEVRALDIM ve DOĞRULADIM — körlemesine aktarmadım",
+    "①_adres": "HTTP 200 · başlık «Avalon Project - Treaty of Paris 1763» · gövde 43.861 kar.",
+    "②_gun": "🟢 BİREBİR: «Concluded at Paris the 10th day of February, 1763»",
+    "③_madde_IV_Kanada": "🟢 DOĞRULANDI — ve metnin KENDİ ÇAPRAZ ATFIYLA: «The stipulations inserted in the IVth article, in favour of the inhabitants of Canada»",
+    "④_madde_XX_Florida": "🟢 BİREBİR: «XX. … his Catholick Majesty cedes and guaranties, in full right, to his Britannick Majesty, Florida, with Fort St. Augustin, and the Bay of Pensacola»",
+    "🔴_kendi_aletimin_kusuru": "Madde dedektörüm ÖNCE BAŞARISIZ oldu: `ARTICLE IV` kalıbı aradı, oysa Avalon maddeleri ÇIPLAK ROMEN RAKAMIYLA işaretliyor (`XX.` · `VIII.`) — metinde yalnız 2 'Article' geçiyor. Yani 'Madde IV bulunamadı' çıktısı BELGENİN değil ALETİN kusuruydu. İçeriği okuyunca iddia DOĞRULANDI.",
+    "📌_ders": "Belgenin kendi iç çapraz atfı («the IVth article … Canada»), benim konumsal sezgimden GÜÇLÜ bir kanıt: numaralandırmayı belgenin kendisi tasdik ediyor."
+   }
   },
   {
    "gun": "1792-09-22",

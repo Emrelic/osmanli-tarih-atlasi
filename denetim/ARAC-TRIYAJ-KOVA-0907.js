@@ -495,6 +495,29 @@ KUME.push(
             "yine de sınırda: ilhak edilmiş ama ayrı idare ⇒ SÖMÜRGE'ye yakın.",
     kaynak:"1920 Kenya (Annexation) Order in Council", damga:"genel-bilgi" },
 
+  { kimlik:"ingiltere", kume:"İngiliz Kamerunu mandası (Northern)", kova:"MANDA",
+    esle: ad("Dikva (Dikeo)"),
+    gerekce:"Dikwa, 1919 bölünmesinde İngiliz payına düşen Northern "+
+            "Cameroons'un merkezi — B sınıfı MC mandası, Nijerya ile "+
+            "BİRLİKTE yönetiliyordu ama hukuken AYRI toprak. `ingiltere` "+
+            "kimliği manda toprağını İngiliz toprağı gösteriyor.",
+    kaynak:"MC manda belgesi (genel bilgi)", damga:"genel-bilgi" },
+
+  { kimlik:"ingiltere", kume:"Batı Afrika sınır şüphesi (Fransız tarafı)",
+    kova:"KUSUR-ADAYI",
+    esle: ad("Garua (Garoua)","Marua (Maroua)","Ngaunder (Ngaoundéré)",
+             "Rey Buba","Tibati","Banyo","Nikki (Borgu)","Bondugu (Gyaaman)"),
+    gerekce:"🔴 SINIR ŞÜPHESİ — ÖLÇÜLMEDİ, YALNIZ İŞARETLENDİ. Sekizi de "+
+            "1919/1898 bölünmelerinde FRANSIZ tarafında kalmış GÖRÜNÜYOR: "+
+            "Garoua · Maroua · Ngaoundéré · Rey Buba · Tibati · Banyo "+
+            "Fransız Kamerunu'nda (İngiliz payı Nijerya sınırı boyunca DAR "+
+            "bir şeritti); Nikki 1898 Borgu bölünmesinde Dahomey'de; "+
+            "Bondoukou 1888'de Fransız Fildişi'nde. Doğruysa kimlik "+
+            "`ingiltere` değil `fransa-cumhuriyet` (Kamerun için: MANDA). "+
+            "⚠️ DAMGA `okumadım`: akademik kaynak ARANMADI, yalnız genel "+
+            "bilgiden şüphe. Yama YAZILMADI — kaynağa sorulmalı.",
+    kaynak:"bulunamadı — akademik kaynak aranmadı", damga:"okumadım" },
+
   { kimlik:"ingiltere", kume:"Britanya Batı Afrikası", kova:"SOMURGE",
     esle: kutu(3.5, 14.5, -17.5, 15.0),
     gerekce:"Nijerya · Altın Sahili · Sierra Leone · Gambiya — dördü de "+
@@ -566,6 +589,35 @@ if (require.main === module) {
     for (const k of (kume[n]||[]).sort((a,b)=>a.lat-b.lat))
       console.log("  " + k.lat.toFixed(1).padStart(7) + k.lon.toFixed(1).padStart(8) +
                   "  " + k.ad);
+  } else if (arg === "--json") {
+    const K = {};
+    for (const R of KUME) K[R.kume] = R;
+    const cikti = {
+      _NOT: "TRİYAJ METROPOL — 1923-10-28'de metropol kimliğini anakarası " +
+            "DIŞINDA taşıyan kayıtların HUKUKÎ triyajı. Bu bir KUSUR LİSTESİ " +
+            "DEĞİLDİR: ILHAK ve KUTU kovalarındaki kayıtlar DOĞRU yazılmıştır " +
+            "ve ayrılırlarsa atlas BOZULUR. Yama YAZILMADI (şartname gereği).",
+      _OLCUM_GUNU: "1923-10-28",
+      _URETEN: "denetim/ARAC-TRIYAJ-KOVA-0907.js",
+      _DAMGA_SOZLUGU: {
+        "dogrulandi": "kaynak gövdesi okundu",
+        "genel-bilgi": "standart tarih bilgisi — TDV/akademik gövde OKUNMADI",
+        "okumadım": "aramadım bile — kalem HİÇ AÇILMADI"
+      },
+      toplam: kayit.length,
+      kova_dagilimi: Object.fromEntries(
+        Object.entries(kova).sort((a,b)=>b[1].length-a[1].length)
+              .map(([n,a])=>[n,a.length])),
+      kumeler: Object.entries(kume)
+        .sort((a,b)=>b[1].length-a[1].length)
+        .map(([n,arr]) => ({
+          kume: n, kova: K[n].kova, kimlik: K[n].kimlik, nokta: arr.length,
+          bekleyen_yamada: arr.filter(x=>x.bekleyen_yamada).length,
+          gerekce: K[n].gerekce, kaynak: K[n].kaynak, damga: K[n].damga,
+          adlar: arr.map(x=>x.ad).sort(),
+        })),
+    };
+    console.log(JSON.stringify(cikti, null, 1));
   } else {
     console.log("toplam kayıt: " + kayit.length);
     for (const [n, arr] of Object.entries(kova).sort((a,b)=>b[1].length-a[1].length))
