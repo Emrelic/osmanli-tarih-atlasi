@@ -119,3 +119,44 @@ bitişik; emsal 40 nokta. Madrid · Sevilla · Barselona konvansiyonun dışınd
 (`oncesi` kipinde muafiyet yönü ters ⇒ 423 sahte KAYBOLAN; `ceneviz`/`sardinya`
 paylaşılan boya anahtarı olduğu hâlde «künye yok» dedi). İkisi de düzeltildi;
 sınav artık yamanın GETİRDİĞİ kusuru mevcut olandan ayırıyor.
+
+
+### 2026-09-07 · TUR 2 — İsveç · D sınıfı · kaynak beyanı
+
+**KALEM ④ `isvec` — BALKAN'ın `§3.5.0③` öncülü ÇÜRÜDÜ.** ③ ancak öncül künye
+YOKSA geçerli; burada VAR (`isvec-birlik-oncesi`, `isvec`in `f:`siyle gün gün
+bitişik) ve künyenin kendi özeti Kalmar'ı adıyla anıyor. Asıl kanıt: proje aynı
+ayrımı Norveç'te **24/24** yapıyor, İsveç'te 1/43.
+`git log`: künyeler 7 Ağustos'ta doğdu, 25 Ağustos partisi Norveç'e 24 nokta
+indirdi, İsveç'e 1 — o parti `Değişmez 4` HAYALET arıyordu, İsveç'in kusuru
+ERKEN kovasında ve o soruyu sormuyordu.
+⇒ 42 nokta AYRI dosyada (`yer_yama_avrupa_isvec_1923.js`): yeni bir `2s` günü
+(`1523-06-06`) doğuruyor, koordinatör Ⓐ dedi ve `2s` borcunu üstlendi.
+
+**D SINIFI — `YONTEM §②a` ile ölçüldü, YENİ KUSUR YOK.**
+70 metropol-dışı adayın dördü de DOKUNMA: Cezayir (ilhak) · Tunus (himaye,
+`isg:` zaten var) · Cebelitarık (Utrecht) · Sebte-Melîle (*plazas de
+soberanía*, İspanya'nın kendi toprağı — Melilla 1497'den). Malta açık kalem
+bırakıldı; koordinatör küresel ölçtü (803 nokta) ve **konvansiyon** hükmü verdi.
+
+**KAYNAK BEYANI — AMERİKA'nın parti etkisi doğrulandı, daha keskin:**
+```
+KAYIT seviyesi   35 beyanlı / 408 beyansız (%92,1)
+DÖNEM seviyesi   dönemin KENDİ kaynağı: 0   (1463 dönem)
+parti etkisi     yerlesimler_avrupa.js 225 nokta · %0   (beyansızın %55'i)
+beyanlı 35'in 27'si MAĞRİB ⇒ AVRUPA'nın kendi beyanı ~9/430 (%2)
+```
+🟢 **VE BORÇ DARALDI:** 408 → 88 pencere-ucu (borç DEĞİL) + 5 yuvarlak +
+**315 gün iddiası** → ve o 315 nokta **162 BENZERSİZ GÜNE** iniyor.
+Bölüşüm: **154 gün yalnız AVRUPA · 66 ORTAK** (1917-03-15 ve 1917-11-07 ALTI
+oturumu birden bağlıyor).
+
+**AÇIK — koordinatörden bekleniyor:**
+1. Dönem-içi `kaynak:` `_sahiplik_uygula.py` ile İNİYOR MU? (biçim veride VAR
+   — 148 dönem — ama aracın taşıdığı ÖLÇÜLMEDİ) ⇒ dayanak yaması BEKLİYOR
+2. Ortak gün dayanak defteri kurulsun mu (66 gün, altısı altı oturumluk)
+3. "Yalnız AVRUPA" listemde Mağrib kirliliği var — eleme benim kalemim değil
+
+**KENDİ KUSURUM:** gün sayımında birim hatası — "130 nokta" dediğim aslında
+"nokta-uç" (aynı nokta `f` ve `t` olarak iki kez sayılıyordu). Sıralama ve oran
+doğru, mutlak sayı şişik. Bölüşüm aletinde düzeltildi (nokta BİR KEZ sayılıyor).
