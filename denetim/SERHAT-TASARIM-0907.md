@@ -183,9 +183,29 @@ GABRIEL kenarı            6920
    nehre yaslanan          549  (%42,7)   🟢 Emre'nin sezgisi
    kara sınırı             737
 ```
-⚠️ **1286, iki veri arızasını İÇERİYOR** (`SERHAT-ARIZA-0907.md`):
-`OSMANLI ↔ tbmm-turkiye` 35 çift · `rusya ↔ sovyet-rusya` 13 çift —
-aynı devletin iki kimliği aynı anda sahnede. Çıkarılırsa **1238.**
+### 🔴 1286 HAM SAYIDIR — kovalar ayrıldı (`SERHAT-KOVA-0907.md`)
+```
+TOPLAM sınır çifti (Gabriel)                 1286
+🔴 ① ARTEFAKT — aynı devletin iki kimliği      48   (OSMANLI↔tbmm 35 · rusya↔sovyet 13)
+🔴 ② DENİZ AŞIMI — kara sınırı değil          260
+   ⚠️ İKİSİ BİRDEN (kesişim)                    2
+🟢 TEMİZ KARA SINIRI ÇİFTİ                    980   (%76,2)
+```
+**Toplama denetimi:** 1286 − 48 − 260 + 2 = **980** ✓
+⚠️ Kesişim **2** çıktı; iki elemeyi ayrı ayrı çıkarsaydım **978** derdim.
+Örtüşmeyi ölçmek gerekiyordu.
+
+| sayı | ne demek | nerede kullanılır |
+|---|---|---|
+| **1286** | Gabriel'in bulduğu her şey | ham ölçüm |
+| **1238** | artefaktsız | veri düzeldikten sonra beklenen |
+| **980** | 🟢 artefaktsız **VE** kara | **Emre'nin "A-B C-D" listesi** |
+| **260** | deniz aşan | ayrı kategori — **silinmez, AYRILIR** |
+
+🔴 **Deniz çiftleri silinmemeli.** Bir deniz sınırı da sınırdır
+(Çanakkale · Malaka · Fin Körfezi); yalnız *"iki yerleşimin arasından
+geçen bir çizgi"* olarak çizilemez. ⇒ `tur:"deniz"` diye ayrı bir kova —
+**Model C'nin `tur` alanının zaten öngördüğü şey.**
 
 ⚪ **ÖLÇMEDİM:** 1281-1923'ün tamamında toplam kaç çift olacağını
 ölçmedim — yalnız 1923 kesitini ve yedi örnek kesiti ölçtüm. Tablo
@@ -229,6 +249,23 @@ koparabilir. Komşuluğun ne zaman kurulup koptuğunu **ölçmedim.**
 > hangi tarih · A-B C-D"*) birinci cümlesinin (*"buna da S diyelim"*)
 > taşıdığı bilgiyi **kapsıyor**; tersi kapsamıyor. Ölçülen fark bu.
 > `S` damgası C'de **kaybolmuyor, türetiliyor.**
+
+### 🔴 VE GERÇEK SEÇİM ÜÇ ŞIKLI DEĞİL — «C YA DA HİÇ»
+
+Model B (`serhat:true`) bir orta yol gibi duruyor ve **değil.** `serhat:`
+de bir **skalerdir**; `③`teki ölçüm — 3648 noktanın 1672'sinin durum
+değiştirmesi — **onu da aynen vurur.** B, A'nın motor/arayüz kırılmasını
+önler ama **asıl imkânsızlığı çözmez.**
+```
+A  k:"S"        skaler  🔴 1672 nokta için yanlış  + motor/arayüz KIRILIR
+B  serhat:true  skaler  🔴 1672 nokta için yanlış  · motor/arayüz sağlam
+C  ilişki tablosu       🟢 zaman boyutu VAR
+```
+⇒ **B ucuz bir kaçış değil, aynı imkânsızlığın sessiz hâli.** Gerçek
+seçim **C ya da hiç.**
+📌 Bu satır koordinatörün uyarısıyla eklendi (M-3087): *"ölçümün A ile
+B'yi BİRLİKTE eliyor; yoksa Emre B'yi 'ucuz kaçış' sanabilir."* Ölçüm
+bendeydi, **çıkarımı o gördü.**
 
 **Ve fiyat etiketleri — üçü de ölçüldü, hiçbiri yorum değil:**
 ```
