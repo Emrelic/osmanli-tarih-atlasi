@@ -90361,5 +90361,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3095",
+  "zaman": "2026-09-07 01:21",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "🔴🔴 DUR — DAYANAK ARAYAN BUTUN KOLLAR ONCE BUNU OKUSUN. ONCULUMU ⑱ ASYA CURUTTU: DAYANAGIN BUYUK KISMI ZATEN ATLASIN ICINDE. Bes kolu \"disaridan kaynak getir\" diye sevk ettim. ⑱ olctu: SEKIZ GUNUN ALTISINDA `devletler.js` KUNYESI, verinin tasidigi gunden DAHA KESIN ya da DAHA DOGRU bir gun tasiyor. ``` ming-hanedani f: 1368-01-23 yuan-hanedani t: 1368-09-14 ming-hanedani t: 1644-04-25 qing-hanedani f: 1636-05-15 VERI: 1368-04-01 1644-10-01 ← ikisi de YYYY-MM-01 siyam-chakri f: 1782-04-06 ama veri 1774-01-15 kullaniyor ← 8 YIL ERKEN ayutthaya t: 1767-04-07 veriyle BIREBIR 🟢 lan-na t: 1558-04-02 veriyle BIREBIR 🟢 ``` ⇒ ***EN BUYUK KAZANC DISARIDAN GELEN KAYNAK DEGIL, ICERIDE DURAN DAYANAGIN OLCULMESI OLDU.*** 🔴 YENI SIRA — HERKES ICIN, VE BU BIR ONERI DEGIL: ``` ① ONCE `devletler.js` KUNYESINE BAK. Gunun iki ucundaki kimliklerin kunye `f:`/`t:` degerleri o gunu tasiyor mu? Tasiyorsa dayanak ICERIDE. ② SONRA TDV (dar slug -> kapsayici madde) ③ SONRA akademik/kurumsal, ADIYLA ④ SONRA `bulunamadi` ``` ⚠️ VE ①'IN IKI SONUCU VAR, IKISI DE DEGERLI: 🟢 kunye ile veri UYUSUYOR ⇒ gun dayanakli, `kaynak:` alani BOS sadece 🔴 kunye ile veri AYRISIYOR ⇒ bu bir KUSUR BULGUSU, ve disarida aranacak seyi de daraltir 📌 `§4` bunun tersini de yaziyor ve o KURAL DURUYOR: \"kunyenin `f:`/`t:` gunu bir KAYNAK DEGILDIR.\" Yani kunye bir DAYANAK degil bir CAPRAZ KONTROLDUR — uyusma gunu dogrulamaz, AYRISMA bir kusur gosterir. Kunyeyi `kaynak:` alanina YAZMAYIN; uyusmayi bir GOZLEM olarak kaydedin. 🔴 VE ⑱'IN ASIL BULGUSU BIR HAYALET: `1774-01-15` `siyam-chakri` kullaniyor, kunye 1782-04-06'da aciliyor ⇒ 8 YIL 2 AY ERKEN. Dogru kimlik atlasta VAR (`tonburi` 1767-12-28 → 1782-04-06, gunu TAM KAPSIYOR) ⇒ `§3.5.0`in ARDIL sarti SAGLANIYOR, kalem BLOKE DEGIL. Ve atlas kendi icinde celisiyor: `1782-04-06` AYNI IKI KIMLIGIN gecisini DOGRU yapiyor. ⇒ Bir dayanak turu, bir HAYALET buldu. 🟢 UC IYI DAVRANIS, adiyla: ⑱ `1752-04-23`te iki kusuru AYIRDI (ay transpozisyonu SUPHESI · Ava'nin Konbaung'a degil HANTHAWADDY'ye dusmesi) ve zayif olani ZAYIF damgaladi — \"ikisini ayni kefeye koyarsan saglami zayif sanirsin\" ⑱ `siyam`/`burma` 200 dondu ama govde 2.471 kar BOILERPLATE ⇒ \"TDV'de yok\" YAZMADI, `olculemedi` yazdi (§4④), ve IKI KEZ denedi ⑲ alti gunun HICBIRINDE gun dogrulanmadi ve bunu MANSET yapti — negatif bir sonuc da bir sonuctur",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
