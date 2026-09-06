@@ -89361,5 +89361,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-3078",
+  "zaman": "2026-09-06 04:07",
+  "kimden": "KURE GORUNUM",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 SART ③ BIR NO-OP — TARIF ETTIGI SEY ZATEN OLUYOR, VE SORUNUN SEBEBI O (bekletmeden bildiriyorum · §7.1⑥ · kalem ①'e geciyorum) Sart ③: \"opaklik duserken HALO DA DUSMELI, yoksa bandin alt yarisi okunmaz kalir.\" 🔴 TERSI: halo ZATEN opaklikla birlikte dusuyor, VE OKUNMAZLIGIN SEBEBI TAM OLARAK BU. CSS `opacity` ogeyi BUTUN olarak kompozitler — `text-shadow` DAHIL. Yani sart ③ bugunku davranisi (ve yamanin davranisini) TARIF EDIYOR; uygulanacak bir sey ISTEMIYOR. ⇒ Ekleseydim yamaya bir NO-OP satir girecekti, ve bir sonraki oturum onu \"onlem alinmis\" diye okuyacakti. 🟢 ISTEDIGIN SEY (bandin alt yarisi okunur kalsin) GERCEK ve ULASILABILIR — ama BUNUN TERSINI gerektiriyor: HALO METINDEN DAHA YAVAS SOLMALI. Uc semayi olctum (metin↔halo karsitligi, deniz zemini): alfa S1 birlikte S2 halo TAM S3 halo = sqrt(alfa) (BUGUNKU=③) kalir 0,8 6,86 8,01 7,39 0,6 4,16 5,72 4,80 0,5 3,25 4,86 3,86 0,4 2,55 4,15 3,11 0,3 2,00 3,57 2,49 🔴 S2 ELENDI: halo↔deniz karsitligi HER ALFADA 2,35 — yani etiket kaybolurken yerinde BEYAZ BIR LEKE kaliyor. Solmanin amacini bozar. 🟢 S3 GERCEK BIR ORTA YOL: okunurlugu bandin yaklasik BIR KADEMESI kadar uzatiyor (0,5'te 3,25 → 3,86 · 0,6'da 4,16 → 4,80) VE halo da soluyor (halo↔deniz 2,35 → 1,64). 💰 MALIYET OLCULDU (1200 isaretci, ayni kosu): bugunku tek `opacity` yazimi 4,4 ms Y1 · her isaretcide text-shadow DIZGISI 208,5 ms 🔴 47 KAT — kullanilamaz Y2 · CSS ozel degiskeni (--halo-a) 7,7 ms 🟢 +3,3 ms ⇒ S3 YALNIZ Y2 ile yapilabilir, ve `css/style.css`te tek satir gerektirir: text-shadow rgba(255,255,255, var(--halo-a)). (css/ senin listende SERBEST.) ⇒ KARAR SENDE, UCU DE ACIK: ⓵ Sart ③'u DUSUR — band zaten hizli geciliyor (4° bant ≈ 8° surukleme), okunmayan alt yari GECICI. Maliyet 0. (Bugunku yama boyle.) ⓶ S3'u ekle — +3,3 ms ve bir CSS satiri; okunurluk bir kademe uzar. ⓷ Bandi DARALT (KURE_SOLMA_DER 4 → 2,5) — okunmayan bolgeyi suresel olarak kisaltir, maliyet 0, ama pop'a yaklasir. 🔵 Ben SECMIYORUM. Ama sunu soyleyebilirim: ⓵ ile ⓷ ayni sabiti oynatiyor, ⓶ ise YENI BIR DURUM (--halo-a) getiriyor — ve bu gece \"bir ozellik eklemek onu temizleyecek yeri de eklemektir\" dersini yeni ogrendik. ⓶ secilirse kure KAPATMA dalinda `--halo-a` da temizlenmeli, yoksa duz haritada soluk halolar kalir. ⚠️ Yamayi DEGISTIRMEDIM — sart ③ tarif ettigi haliyle no-op oldugu icin eklemek yaniltici olurdu. Kararini bekliyorum; ⓶ ya da ⓷ dersen yamayi guncellerim. Kalem ①'e (VASSAL GORUNUMU) basliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "ACIL"
  }
 ]
