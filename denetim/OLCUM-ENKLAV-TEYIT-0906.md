@@ -114,3 +114,64 @@ gelmez.*** Geniş süzgeç aynı üç vakayı 149 meşru kaydın içinde gömüy
    en verimli kova 19.yy (152) ve 16.yy (143).
 3. `Sutter's Fort` ayrıca ölçülsün — küçük ama net bir aday.
 ```
+
+
+---
+
+## ⑦ 🔴 İKİNCİ GENELLEME DE ÇÜRÜDÜ — ve bu sefer daha net
+
+`§④`te coğrafî süzgeç çürümüştü. Bu turda **kaynaksızlık** denendi:
+üç doğrulanmış anakronizmin (Khami · Danangombe · Blantyre) **üçü de**
+`kaynak:"bulunamadi"` diyordu — onları bulunabilir kılan şey coğrafya
+değil, **kaydın kendi beyanıydı.** Sinyal sistematik uygulandı:
+
+```
+enklav kaydı        651
+🔴 KAYNAKSIZ        547   (%84)
+🟢 kaynaklı          85
+⚪ kayıt bulunamadı  19
+benzersiz (yer,kimlik) kaynaksız : 524
+```
+
+⇒ **`kaynak:"bulunamadi"` bir İSTİSNA değil NORM.** %84'ü işaretleyen
+bir süzgeç hiçbir şeyi ayırt etmez.
+📌 İki genelleme, iki çürüme — ve ikisi de aynı sebepten: *üç vakanın
+paylaştığı bir özellik, o özelliğin AYIRT EDİCİ olduğunu göstermez.*
+Sınav ucuz ve her ikisinde de atlanmıştı: **o özelliği taşıyan ama
+KUSURSUZ olan kayıt var mı?** Burada 544 tane var.
+
+🟢 **Ama liste bir triyaj olarak işe yarıyor** ve en uzak 25 okundu.
+Çoğu yine **meşru**: Gorée · Massangano · Kambambe · Pondiçeri ·
+Candernagor · Boston · Pemaquid · Trablus 1510 `ispanya` ·
+**Avignon 1348 `papalik`** (524 km — tarihin en bilinen enklavı) ·
+Lahsâ + Ukayr `OSMANLI` (Necid çölü ayırıyor) · Zeytun + Zhangzhou
+`san-fan` (Üç Feudatory isyanı, 1673-1681 — dönem doğru).
+
+---
+
+## ⑧ 🟢 VE BLANTYRE'I KENDİ KOMŞULARI DOĞRULADI
+
+Aynı listede, **aynı bölgede**, iki kayıt daha çıktı:
+```
+1891-01-01  Zomba     ingiltere   530 km
+1891-01-01  Mangoçi   ingiltere   584 km
+   ⇕
+1876-01-01  Blantyre  ingiltere            ← 15 YIL ERKEN
+```
+Britanya Orta Afrika Himayesi **1891**'de kuruldu. Zomba ve Mangoçi o
+günü taşıyor; Blantyre 1876'yı taşıyor — ve 1876 o şehirdeki **İskoç
+misyonunun** kuruluşudur, İngiliz idaresinin değil.
+
+📌 `CLAUDE.md`nin *"bir bölgenin en ayrıntılı modellenmiş yeri, en az
+ayrıntılı kaydını en iyi ele veren yerdir"* dersi (Harput vakası) —
+burada tersten işledi: **doğru tarihli komşular, yanlış tarihli kaydı
+kendi başına ele verdi.** Dış bir kaynağa gerek kalmadı.
+⇒ Blantyre artık **iki bağımsız yolla** doğrulanmış: tarihî çapa
+(BSAC 1888/1890, BCA 1891) ve **verinin kendi iç tutarlılığı.**
+
+## ⑨ ÖLÇMEDİĞİM (güncel)
+- Kalan ~400 sorunun teyidi. Bu turda **en uzak 25** okundu (önceki
+  turda 15) ⇒ toplam ~40 vaka gözden geçirildi.
+- Ayırt edici bir sinyal **bulunamadı**. İki aday denendi, ikisi de
+  çürüdü. Üçüncü bir aday **önerilmiyor** — bu kalem bugün
+  **otomatikleştirilemez** görünüyor ve elde teyit gerektiriyor.
