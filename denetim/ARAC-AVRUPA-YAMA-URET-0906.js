@@ -24,13 +24,20 @@ const KALEMLER = [
       "Nihai Senedi ile Toskana'ya birleştirme ('Caduto Napoleone, con l'atto finale del " +
       "congresso di Vienna, Piombino fu unita alla Toscana'). TDV kapsam dışı — 'piza' slug 302 " +
       "ölü, Batı Avrupa TDV kapsamı %0 (§4). Britannica 'Elba' HTTP 403 ⇒ ÖLÇÜLEMEDİ, " +
-      "'kaynak yok' DEĞİL." },
+      "'kaynak yok' DEĞİL. " +
+      "🔴 §②b DAMGASI: bu kaynak OLAYIN dayanağıdır, GÜNÜN DEĞİL — Treccani " +
+      "'con l'atto finale del congresso di Vienna' diyor ve YIL veriyor (1815), gün " +
+      "VERMİYOR. `1815-06-09` günü atlasın KENDİ çekirdeğinden devralındı (aynı gün, " +
+      "0 gün uzaklıkta, 'Viyana Kongresi Nihai Senedi' maddesi) ve 36 kayıt onu " +
+      "kullanıyor. GÜNÜN kaynaktan dayanağı ÖLÇÜLEMEDİ." },
   { ad: "Dublin",
     bol: { "1922-12-06": "irlanda-serbest-devlet" },
     kaynak: "RTÉ Century Ireland (İrlanda ulusal yayıncısının Boston College ortaklı akademik " +
       "tarih projesi): 'The constitution of the Irish Free State became law on 6 December 1922.' " +
       "İkinci bağımsız teyit: 6 Aralık 1922'de George V'in bildirisiyle Serbest Devlet kuruldu ve " +
-      "Dublin başkenti oldu. TDV kapsam dışı — Batı Avrupa TDV kapsamı %0 (§4)." },
+      "Dublin başkenti oldu. TDV kapsam dışı — Batı Avrupa TDV kapsamı %0 (§4). " +
+      "🟢 §②b DAMGASI: bu kaynak GÜNÜN dayanağıdır — gövde günü AÇIKÇA veriyor " +
+      "('on 6 December 1922') ve gövdesi ÇEKİLİP okundu, arama özetinden alınmadı." },
 ];
 
 // KALEM ③ — İSPANYA ÖNCÜL TACLARI. Dokuz nokta 1281'den beri doğrudan
@@ -48,7 +55,10 @@ const KAYNAK_ISPANYA =
   "`kastilya`, 11 nokta `aragon`, 7 nokta `granada` ile zincirlenmiş; bu dokuz nokta " +
   "o konvansiyonun DIŞINDA kalmıştı. Gün 1479-01-20'yi atlasta 60 kayıt kullanıyor " +
   "(YONTEM §③ komşu kuralı). Taç ataması coğrafî: Madrid/Sevilla Kastilya Tacı, " +
-  "Barselona/Valensiya/Balear/Sardinya Aragon Tacı.";
+  "Barselona/Valensiya/Balear/Sardinya Aragon Tacı. " +
+  "🔵 §②b DAMGASI: burada YENİ BİR GÜN İDDİASI YOK — gün künyelerin kendi `f:`/`t:`si " +
+  "ve atlasta 60 kayıt tarafından zaten kullanılıyor. Bu ne OLAYIN ne GÜNÜN yeni bir " +
+  "dayanağıdır; mevcut konvansiyona KATILIMDIR.";
 const AR = { "1479-01-20": "aragon" }, KA = { "1479-01-20": "kastilya" };
 for (const [ad, onc] of [["Madrid", KA], ["Sevilla", KA], ["Barselona", AR],
 ["Valensiya", AR], ["Mayorka (Palma)", AR], ["Menorka (Mahon)", AR], ["İbiza", AR],
@@ -64,7 +74,11 @@ const KAYNAK_ISVEC =
   "Strängnäs'taki Riksdag'da yapıldı ve Kalmar Birliği böylece resmen dağıldı (aynı gün " +
   "İsveç Ulusal Günü'dür). TDV kapsam dışı — Batı/Kuzey Avrupa TDV kapsamı %0 (§4). " +
   "İÇ TUTARLILIK: `isvec-birlik-oncesi` künyesi (1281-01-01→1523-06-06) TAM bu dönem " +
-  "için yazılmış ve özeti Kalmar'ı adıyla anıyor; `isvec` künyesi AYNI GÜN başlıyor.";
+  "için yazılmış ve özeti Kalmar'ı adıyla anıyor; `isvec` künyesi AYNI GÜN başlıyor. " +
+  "🟢 §②b DAMGASI: bu kaynak GÜNÜN dayanağıdır — gövde günü AÇIKÇA veriyor " +
+  "('on June 6, 1523') ve gövdesi ÇEKİLİP okundu. ⚠️ İkinci bağımsız teyit ise " +
+  "arama sonuçlarının çakışmasından geliyor, GÖVDE OKUMASINDAN DEĞİL (Britannica · " +
+  "Oxford Reference · Library of Congress ÜÇÜ DE HTTP 403) — bu bir zayıflık ve YAZILI.";
 const ISVEC_GUN = "1523-06-06";
 
 // Künye düzeltmesi BELLEKTE uygulanır — yama tek başına inemez, ikisi BİRLİKTE ölçülür.
