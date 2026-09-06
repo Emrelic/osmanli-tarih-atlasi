@@ -367,3 +367,105 @@ yüzü: burada alet bastı, doğru bastı, ve yine de yanılttı.
 **kuralı bilmek, hatta onu izliyor olmak bile yetmiyor.** `§11`in
 *"kural yetmiyor, ALIŞKANLIK gerekiyor"* dersinin bendeki vakası.
 ⇒ Bundan sonra: **tek muhatap**; birden çok ilgili varsa `HERKES`.
+
+---
+
+## ⑨ ㉚ — SEKİZ ÇİFTİN ÇÖZÜMÜ · `oner()`in KENDİ KODUYLA (7 Eylül 2026)
+
+**Teslim:** `denetim/ONERI-RENK-8CIFT-0907.json` · **öngörü:** `denetim/_ONGORU-8CIFT-0907.md`
+**Kısıt:** `renkler.py` DONUK (koşu 7b canlı, PID 3880) — hiçbir dosya değiştirilmedi.
+`DE_KOMSU` yalnız **bellekte** 13,0'a yamandı.
+
+### Koordinatörün sorduğu ölçüm
+> *"`oner()`in ek tercihleri (uyum, palet hissi) bedeli 0'dan büyük yapabilir."*
+
+```
+ÇÖZÜLEBİLİRLİK bedeli   0.  Hedef 13,0'da ÇÖZÜLEMEDİ: 0/16 (tek tek) · 0/15 (toplu)
+                            ⇒ ㉗'nin "pay bedava" hükmü oner()'in KENDİ evreninde de AYAKTA
+PAY bedeli              0 DEĞİL — ama beklenen eksende değil:
+                            3/16 kimlik float'ta ≥13 olduğu hâlde 8 BİTTE <13
+                            (kastilya 12,97 · selcuklu 12,98 · memluk 12,88)
+```
+
+### İki yapısal bulgu — tarama değil, KOD ARGÜMANI (bütün koşuları kapsar)
+```
+:1020  uygun = [u for u in uygun if u[0] >= DE_KOMSU]   ← eşiği geçenler
+:1032  uygun.sort(key=lambda u: uyum(h2r(u[1])))         ← YETİNMECİ
+:1033  m, hx, L = uygun[0]                               ← palete EN UYGUN
+```
+`oner()` **en ayrık olanı değil, palete en yakın olanı** seçiyor; palete yakınlık
+komşuya yakınlıkla aynı yöne çeker. Ölçüldü: hedef 12,0'da 15 kimliğin **10'u**,
+hedef 13,0'da **8'i** eşiğin 0,5 içinde.
+⇒ ***Hedefi yükseltmek KENARI TAŞIR, KENARA YASLANMAYI KALDIRMAZ.***
+
+Ve `oner()` engel kümesini `gorunen()` = **float harman** ile kuruyor; ekran **8 bit**
+çiziyor. ⇒ Çare *"hedefi yükselt"* değil ***"ölçümü 8 bite taşı"*** — pay **belirtiyi**,
+kip **sebebi** kapatır. (Bu, `CLAUDE.md`de kapanmış olan *"10 çakışma gerçekti"*
+kaleminin devamı: orada 8 bite geçiş kusuru **görünür** kılmıştı.)
+
+### 🔴 ④ ÖZ-SINAV ATEŞLEDİ — ve öngörüde yazdığı şeyi buldu
+Öngörünün ④. kalemi şöyleydi: *"ayrışırsa bozuk olan `oner()` değil **BENİM ENGEL
+KÜMEM**dir ve ①-③ okunmaz."* Birebir o çıktı:
+```
+azuchi-momoyama   oner 23,90 · benim 30,68 · fark 6,78  🔴
+kastilya          oner 13,40 · benim 14,81 · fark 1,41  🔴
+sebep   renk_olc.py:905   e += list(OSM.values())
+        OSMANLI doğrudan #8e0b22 @0,68 · OSMANLI tâbi #b2384a @0,60 — HİÇ KATMAMIŞTIM
+düzeltince   azami sapma 6,78 → 0,04 · ±0,1 dışında 2/16 → 0/16
+```
+⇒ Düzeltmeden önceki 8 bit sayılarım **alt sınırdı** (*"<13: 11/15"* sanılıyordu;
+tam kümeyle **3/16**). ***Bir ölçümün kendi engel kümesi, taklit ettiği aletinkiyle
+BİREBİR olmalı — eşik ve kova yetmiyor, EVREN de taşınmalı.***
+
+### 🟢 EN KÜÇÜK ÖRTÜ — 15 değil 7
+`oner()`e 15 kimlik birden verilince **15 rengi birden** değiştirdi. Oysa bir çifti
+kapatmak için **tek uç** yeter, ve iki uç birden çok çifte giriyor:
+```
+filipin-racaliklari  2 satır · sokoto  2 satır   ⇒ en küçük örtü 7 kimlik
+```
+⚠️ Ve örtünün **en ucuz hâli en dar paylı hâli**: `sokoto` taşınırsa
+`jukun-kvararafa` ile **13,19** kalıyor; öteki ucu taşımak **86,32** veriyor.
+Hangi ucun taşınacağı bir **KARAR** — seçmedim, iki ucun da sayısını verdim.
+
+### Öngörü hükmü
+| kalem | öngörü | ölçüm | hüküm |
+|---|---|---|---|
+| ① A'da 8bit<12 | 4-10 | **4/15** | 🟢 TUTTU |
+| ② B'de 8bit<12 | 0 | **0/16** | 🟢 TUTTU |
+| ③ ÇÖZÜLEMEDİ | 0-2 | **0** | 🟢 TUTTU |
+| ④ öz-sınav ±0,1 | tutmalı | 🔴 **ateşledi** → düzeltildi → 🟢 | ateşlemesi DEĞERLİ |
+
+📌 **Bilgiyi çürüyen taşıdı — ve bu sefer çürüyen bir ÖZ-SINAVDI.** ①-③ tutunca
+ölçüm bitmiş görünüyordu; ④ olmasaydı **alt sınır bir sayıyı kesin sayı diye**
+teslim edecektim.
+
+### 🔴 Kendi kusurlarım, kayda geçiyor
+```
+① KAPSAM  ㉗ çifti "filipin ↔ sulu/yuan" diye BELİRSİZ yazmıştı; ben belirsizliği
+          ÖLÇMEDEN daralttım ⇒ `yuan-hanedani` ilk koşudan DÜŞTÜ (15 kimlik, 16 değil).
+          İkinci koşu ikisini de içeriyor; A/B tabloları 15 kimliğe aittir.
+② ALARM   `:1022`deki "aday YOK" satırını görüp "grep anahtarım yanlış" diye alarm
+          verdim; `:1041` gerçekten "— ÇÖZÜLEMEDİ" basıyor. Satırdan hükme atladım,
+          GERİSİNİ OKUMADIM. Alarm yanlıştı.
+③ EVREN   yukarıdaki ④ — OSM engelleri atlanmıştı.
+```
+
+### Ölçmediklerim
+- **Uygulamadım.** Bu bir öneridir; aktarımdan sonra `py arac/renk_olc.py --dogrula <artefakt>`.
+- **Hangi ucun taşınacağını seçmedim** — karar, ölçüm değil.
+- `sulu-sultanligi` ile `yuan-hanedani` **aynı hex'i** taşıyor (`#636f03`); paylaşımın
+  meşru olup olmadığını (hiç komşu olmuyorlar mı) **ölçmedim.**
+- Yalnız **en yakın** engel ölçüldü; ikinci/üçüncü engel de bantta olabilir.
+- **Estetiği ölçmedim.** Aracın kendi cümlesi: *"Araç 'meşru' der, 'güzel' demez."*
+  Birkaç öneri doygun/parlak (`#0cf00c` · `#06f606` · `#96f60c`) — `uyum` sıralamasının
+  sonucu, ve göz kararı Emre'nin.
+- Öneriler **bugünkü** `BOYALAR`a (579 kimlik) göre çözüldü; koşu 7b sonrası palet
+  değişirse **yeniden çözülmeli.**
+
+### Kaynak ölçüm dosyaları
+`denetim/_ONGORU-8CIFT-0907.md` · `_oner_8cift.json` · `_oner_uc_uc.json` · `_oner_tam.json`
+· `oneri-20260907-015714.txt` (A, hedef 12,0) · `oneri-20260907-020045.txt` (B, hedef 13,0)
+
+**Kaynak sahipliği:** koşu öncesi maliyeti ölçtüm (17,4 sn/kimlik), `§7` gereği
+tahtaya yazdım (**M-3099**) ve `tahta.json`dan **geri okuyup doğruladım** (`§7.1⑤b`),
+ancak ondan sonra başlattım. Toplam ~15 dk CPU, koşu 7b ile paylaşıldı.
