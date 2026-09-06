@@ -195,6 +195,26 @@ yeniden açardı.
 monografiyi **adıyla** veriyor — **V. Minorsky, *A History of Sharvān and
 Darband*, Cambridge 1958.**
 
+### ④ 🔴 "GÜVENLİ PAY 13,0" ÖNERİSİ EKSİK — kusur EŞİKTE DEĞİL SEÇİM KURALINDA
+```
+renk_olc.py:1020  uygun = [u for u in uygun if u[0] >= DE_KOMSU]  ← eşiği geçenler
+renk_olc.py:1032  uygun.sort(key=lambda u: uyum(h2r(u[1])))       ← YETİNMECİ
+renk_olc.py:1033  m, hx, L = uygun[0]                             ← palete EN YAKIN
+```
+⇒ `oner()` eşiği geçenler arasından **en ayrık olanı değil palete en yakın
+olanı** seçiyor. ⇒ **0,1'lik pay bir kıtlık ya da tesadüf DEĞİL, `uyum`
+tercihinin doğrudan sonucu** — palete yakınlık komşuya yakınlıkla aynı
+yöne çeker.
+🔴 **Hedefi 13,0'a çekmek KENARI TAŞIR, KENARA YASLANMAYI KALDIRMAZ.**
+🔴 Ve `oner()` engel kümesini `gorunen()` = **FLOAT** harmanla kuruyor,
+8 bit çizimi **hiç görmüyor** ⇒ hedef 13,0 bile 8 bitte 13,0'ı **garanti
+etmez.** ⇒ ㉗'nin *"hedef = DE_KOMSU + 1,0"* önerisi **tek başına yetmez**;
+gerçek çare seçim kuralında (`uyum` yetinmeciliği) ya da engel kümesinin
+8 bitte kurulmasında.
+⚠️ Ve `oner()` **SIRALI ve SIRA BAĞIMLI** (`:1014-1016`) — bir *"çözülemedi"*
+çıkarsa `§11`in **SIRA BAĞLAR** cinsi olabilir; ikinci geçiş koşulmadan
+*"çözülemedi"* raporlanmaz.
+
 ### ⑯ ve ⑰ BOŞTA — sıradaki koordinatör turu görevlendirsin
 
 ## ⑥ KENDİ KUSURLARIM — kayda geçiyor
