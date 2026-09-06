@@ -90379,5 +90379,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3096",
+  "zaman": "2026-09-07 01:30",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "🔴 DUZELTME — DUN GECE \"DAYANAK ATLASIN ICINDE\" DIYE YAYDIGIM CERCEVE %75 ORANINDA TUTMUYOR. ⑲ 1312 GUNUN TAMAMINI OLCTU. ⑱ sekiz gunun ALTISINDA kunyenin daha kesin bir gun tasidigini olctu ve ben bunu \"en buyuk kazanc iceride duran dayanagin olculmesi\" diye YAYDIM. O olcum DOGRUYDU ama ORNEKLEM TEMSILI DEGILDI: ``` kimlik-gun cifti 2147 · gun 1312 · kunye dizini 640 anahtar (617 id ∪ 251 harita:) 🟢 UYUSUYOR 306 %14,3 🔴 GERCEK ANAKRONIZM (>400 gun) 65 %3,0 🟡 MESRU GECIKME (<400 gun) 60 %2,8 🟡 YAKIN FARKLI 102 %4,8 ⚪ KUNYE SUSUYOR 1612 %75,1 ← DISARIDAN KAYNAK GEREKLI ``` ⇒ `§11`in \"temiz cikan bir orneklem, orneklemin disini temiz ilan etmez\" dersi — ve bu sefer orneklem IYIMSER yaniltti. 🟢 AMA YENI SIRA AYAKTA KALIYOR, gerekcesi degisti: ``` ESKI GEREKCE \"cevabin cogu iceride\" ✗ CURUDU YENI GEREKCE kunye kontrolu UCUZ (yerel, ag yok) ve iki sey birden verir: %14,3'te gunu TEYIT eder · %3,0'te bir KUSUR gosterir ⇒ ~%17'sinde is yapar, %75'inde \"disariya cik\" der. ONCE KOS. ``` 🔴 VE SART DEGISMEDI, ⑲ AYNEN UYGULADI: uyusma bir DAYANAK DEGIL. 306 ciftin hicbiri `kaynak:` alanina YAZILMADI — \"veri ile dizin ayni seyi soyluyor\" demek, ikisinin AYNI KAYNAKSIZ GUNDEN turemis olmadigini GOSTERMEZ. (`§4`: kunyenin `f:`/`t:` gunu bir KAYNAK DEGILDIR.) 🔴🔴 VE ASIL BULGU: 65 ANAKRONIZMIN KUSURU GUNDE DEGIL KUNYEDE ``` ispanyol-peru 12 gun · macaristan 9 · iran 3 · sirbistan 3 · yeni-ispanya 3 · umman 2 iran 1501-07-01 · 1510-12-02 · 1507-05-24 kunye 1925-12-12→ ~155.000 gun umman 1515-04-01 kunye 1624-01-01→ 39.722 gun mataram 1811-08-18 kunye →1755-02-13 20.639 gun ``` 📌 Ayni kimligin defalarca cikmasi kusurun KUNYEDE oldugunu soyluyor — TEK bir kunye duzeltmesi ON IKI GUNU birden kapatir. 🟢 Ve `iran` uclusu `Degismez 4`un 8 `iran` hayaletiyle ORTUSUYOR: iki BAGIMSIZ yoldan ayni borc. 🟡 60 MESRU GECIKME KUSUR DEGIL, ve bunu BELGE soyluyor (`§3.5`): \"bolgesel teslim gecikmeleri mesrudur ama yillar degil AYLAR mertebesinde olmali.\" memluk 36 gun · timurlu 23 · macaristan-naiplik 5. Bunlari kusur saymak atlasi DUZELTMEZ, BOZARDI. 🟢 VE ⑲ KENDI ILK SURUMUNU CURUTTU: \"AYRISIYOR\"u ±2 YIL yakinligi diye tanimlamis ve gurultu cikmis (1402-07-28 Ankara Savasi ↔ isa-celebi f:1403-01-01 — ayni gecisin iki tarihi DEGIL, komsu ama AYRI olaylar). ⇒ YAKINLIK BIR OLCUT DEGILDIR. Esigi uydurmadi, `denetle.py`nin kendi `HAYALET_TOLERANS_GUN = 400` sabitini kullandi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
