@@ -1,0 +1,329 @@
+{
+ "_NOT": [
+  "㉚ SEKİZ ÇİFTİN ÇÖZÜMÜ — ÖNERİ, UYGULAMA DEĞİL.",
+  "🔴 renkler.py DONUK (koşu 7b canlı, PID 3880). Hiçbir dosya değiştirilmedi.",
+  "🔴 Renkler `oner()`in KENDİ KODUYLA üretildi — kendi kısıt kümemle DEĞİL.",
+  "   DE_KOMSU yalnız BELLEKTE 13.0'a yamandı; renk_olc.py diskte DEĞİŞMEDİ.",
+  "   Her uç TEK BAŞINA çözüldü: oner([X]) — öteki uç BUGÜNKÜ rengiyle engel.",
+  "   Böylece her satır 'yalnız X taşınırsa' senaryosunu verir.",
+  "Kaynak ölçümler: denetim/_oner_tam.json · _oner_uc_uc.json · _oner_8cift.json",
+  "Öngörü (ölçümden ÖNCE damgalandı): denetim/_ONGORU-8CIFT-0907.md"
+ ],
+ "KOORDINATORUN_SORDUGU_OLCUM": {
+  "soru": "oner()'in ek tercihleri (uyum, palet hissi) bedeli 0'dan büyük yapar mı?",
+  "cevap_cozulebilirlik": "HAYIR — bedel 0. Hedef 13.0'da ÇÖZÜLEMEDİ: 0/16 (tek tek) ve 0/15 (toplu). ㉗'nin 'pay bedava' hükmü oner()'in KENDİ evreninde de AYAKTA.",
+  "cevap_pay": "EVET, ama başka bir eksende: `uyum` sıralaması kimliği EŞİĞE YASLIYOR, ve oner() payı FLOAT'ta ölçtüğü için 8 bit ekranda hedef ISKALANIYOR.",
+  "olculen": {
+   "8bitte_13_altinda_kalan": 3,
+   "8bitte_13_altinda_kalanlar": {
+    "kastilya": 12.97,
+    "memluk": 12.88,
+    "selcuklu": 12.98
+   },
+   "8bitte_12_altinda_kalan": 0,
+   "toplam_uc": 16
+  }
+ },
+ "YAPISAL_BULGU": {
+  "① oner() 8 BİT GÖRMÜYOR": {
+   "kod": "renk_olc.py — engel kümesi gorunen(b) ile kuruluyor = FLOAT harman",
+   "sonuc": "Hedefi 13.0'a çekmek 8 bitte 13.0'ı GARANTİ ETMEZ. Ölçüldü: 3/16 kimlik float'ta ≥13 olduğu hâlde 8 bitte <13.",
+   "cikarim": "Çare 'hedefi yükselt' DEĞİL, 'ÖLÇÜMÜ 8 BİTE TAŞI'. Pay eklemek belirtiyi, kip düzeltmek sebebi kapatır."
+  },
+  "② uyum TERCİHİ KİMLİĞİ EŞİĞE YASLIYOR": {
+   "kod": "renk_olc.py:1020 eşiği geçenler süzülür · :1032 uygun.sort(key=uyum) · :1033 uygun[0]",
+   "anlami": "En AYRIK olan değil, palete EN UYGUN olan seçiliyor. Palete yakınlık komşuya yakınlıkla aynı yöne çeker.",
+   "olculdu_toplu_kosuda": {
+    "hedef_12.0_esigin_0.5_icinde": "10/15",
+    "hedef_13.0_esigin_0.5_icinde": "8/15"
+   },
+   "cikarim": "Hedefi yükseltmek KENARI TAŞIR, KENARA YASLANMAYI KALDIRMAZ. Bu bir kusur değil TASARIM (yorumu :1034-1039'da: 'en ayrık'ı seçmek uçlara kaçıyordu) — ama 8 bit kipiyle birleşince hedefi ıskalatıyor."
+  },
+  "③ oner() SIRA BAĞIMLI": {
+   "kod": "renk_olc.py:1014-1016 — her seçilen renk sonraki kimliğe engel olur",
+   "sonuc": "Toplu koşuda 15 kimlik BİRDEN değişti; tek tek koşuda her uç kendi başına çözüldü ve İKİSİ DE 0 çözülemeyen verdi.",
+   "uyari": "Bir 'ÇÖZÜLEMEDİ' çıksaydı §11'in SIRA BAĞLAR cinsi olabilirdi; ikinci geçiş koşulmadan raporlanamazdı. Bu koşuda çıkmadı."
+  }
+ },
+ "UCLAR": {
+  "azuchi-momoyama": {
+   "eski_hex": "#6042ae",
+   "onerilen_hex": "#d25a24",
+   "oner_bildirdigi_dE_float": 23.9,
+   "dogrulama_float_tam_kume": 23.89,
+   "dogrulama_8bit_tam_kume": 23.27,
+   "8bit_en_yakin_engel": "OSMANLI tâbi",
+   "8bitte_13_saglandi_mi": true,
+   "kac_cifti_kapatir": 1
+  },
+  "bamum": {
+   "eski_hex": "#8a24d2",
+   "onerilen_hex": "#8a6c1e",
+   "oner_bildirdigi_dE_float": 13.2,
+   "dogrulama_float_tam_kume": 13.21,
+   "dogrulama_8bit_tam_kume": 13.15,
+   "8bit_en_yakin_engel": "oyo-imparatorlugu",
+   "8bitte_13_saglandi_mi": true,
+   "kac_cifti_kapatir": 1
+  },
+  "filipin-racaliklari": {
+   "eski_hex": "#58a028",
+   "onerilen_hex": "#b424d2",
+   "oner_bildirdigi_dE_float": 13.0,
+   "dogrulama_float_tam_kume": 13.03,
+   "dogrulama_8bit_tam_kume": 13.09,
+   "8bit_en_yakin_engel": "brunei-sultanligi",
+   "8bitte_13_saglandi_mi": true,
+   "kac_cifti_kapatir": 2
+  },
+  "fransa-cumhuriyet": {
+   "eski_hex": "#00297c",
+   "onerilen_hex": "#96f60c",
+   "oner_bildirdigi_dE_float": 13.2,
+   "dogrulama_float_tam_kume": 13.24,
+   "dogrulama_8bit_tam_kume": 13.33,
+   "8bit_en_yakin_engel": "loango",
+   "8bitte_13_saglandi_mi": true,
+   "kac_cifti_kapatir": 1
+  },
+  "granada": {
+   "eski_hex": "#7ba05b",
+   "onerilen_hex": "#24d85a",
+   "oner_bildirdigi_dE_float": 13.5,
+   "dogrulama_float_tam_kume": 13.46,
+   "dogrulama_8bit_tam_kume": 13.77,
+   "8bit_en_yakin_engel": "sardinya",
+   "8bitte_13_saglandi_mi": true,
+   "kac_cifti_kapatir": 1
+  },
+  "jukun-kvararafa": {
+   "eski_hex": "#2424a2",
+   "onerilen_hex": "#0cf00c",
+   "oner_bildirdigi_dE_float": 14.2,
+   "dogrulama_float_tam_kume": 14.19,
+   "dogrulama_8bit_tam_kume": 14.33,
+   "8bit_en_yakin_engel": "bagirmi",
+   "8bitte_13_saglandi_mi": true,
+   "kac_cifti_kapatir": 1
+  },
+  "kastilya": {
+   "eski_hex": "#4bae4e",
+   "onerilen_hex": "#d83024",
+   "oner_bildirdigi_dE_float": 13.4,
+   "dogrulama_float_tam_kume": 13.36,
+   "dogrulama_8bit_tam_kume": 12.97,
+   "8bit_en_yakin_engel": "OSMANLI tâbi",
+   "8bitte_13_saglandi_mi": false,
+   "kac_cifti_kapatir": 1
+  },
+  "lusignan": {
+   "eski_hex": "#8a6ba0",
+   "onerilen_hex": "#66f60c",
+   "oner_bildirdigi_dE_float": 13.4,
+   "dogrulama_float_tam_kume": 13.39,
+   "dogrulama_8bit_tam_kume": 13.52,
+   "8bit_en_yakin_engel": "incu",
+   "8bitte_13_saglandi_mi": true,
+   "kac_cifti_kapatir": 1
+  },
+  "memluk": {
+   "eski_hex": "#f09087",
+   "onerilen_hex": "#6cf60c",
+   "oner_bildirdigi_dE_float": 13.0,
+   "dogrulama_float_tam_kume": 13.01,
+   "dogrulama_8bit_tam_kume": 12.88,
+   "8bit_en_yakin_engel": "sardinya",
+   "8bitte_13_saglandi_mi": false,
+   "kac_cifti_kapatir": 1
+  },
+  "nijer-deltasi": {
+   "eski_hex": "#d224d2",
+   "onerilen_hex": "#de24d8",
+   "oner_bildirdigi_dE_float": 14.1,
+   "dogrulama_float_tam_kume": 14.07,
+   "dogrulama_8bit_tam_kume": 13.94,
+   "8bit_en_yakin_engel": "kanem-tubu",
+   "8bitte_13_saglandi_mi": true,
+   "kac_cifti_kapatir": 1
+  },
+  "ryukyu": {
+   "eski_hex": "#7b1fa2",
+   "onerilen_hex": "#d2d224",
+   "oner_bildirdigi_dE_float": 13.5,
+   "dogrulama_float_tam_kume": 13.53,
+   "dogrulama_8bit_tam_kume": 13.41,
+   "8bit_en_yakin_engel": "guney-ming",
+   "8bitte_13_saglandi_mi": true,
+   "kac_cifti_kapatir": 1
+  },
+  "selcuklu": {
+   "eski_hex": "#d878a8",
+   "onerilen_hex": "#2472d8",
+   "oner_bildirdigi_dE_float": 13.2,
+   "dogrulama_float_tam_kume": 13.22,
+   "dogrulama_8bit_tam_kume": 12.98,
+   "8bit_en_yakin_engel": "atinadukaligi",
+   "8bitte_13_saglandi_mi": false,
+   "kac_cifti_kapatir": 1
+  },
+  "sokoto": {
+   "eski_hex": "#2860d4",
+   "onerilen_hex": "#5a72de",
+   "oner_bildirdigi_dE_float": 13.2,
+   "dogrulama_float_tam_kume": 13.22,
+   "dogrulama_8bit_tam_kume": 13.19,
+   "8bit_en_yakin_engel": "jukun-kvararafa",
+   "8bitte_13_saglandi_mi": true,
+   "kac_cifti_kapatir": 2
+  },
+  "sulu-sultanligi": {
+   "eski_hex": "#636f03",
+   "onerilen_hex": "#2454d8",
+   "oner_bildirdigi_dE_float": 13.7,
+   "dogrulama_float_tam_kume": 13.7,
+   "dogrulama_8bit_tam_kume": 13.49,
+   "8bit_en_yakin_engel": "gova-makassar",
+   "8bitte_13_saglandi_mi": true,
+   "kac_cifti_kapatir": 1
+  },
+  "timurlu": {
+   "eski_hex": "#9c7563",
+   "onerilen_hex": "#06f606",
+   "oner_bildirdigi_dE_float": 13.9,
+   "dogrulama_float_tam_kume": 13.93,
+   "dogrulama_8bit_tam_kume": 13.49,
+   "8bit_en_yakin_engel": "sardinya",
+   "8bitte_13_saglandi_mi": true,
+   "kac_cifti_kapatir": 1
+  },
+  "yuan-hanedani": {
+   "eski_hex": "#636f03",
+   "onerilen_hex": "#2424d8",
+   "oner_bildirdigi_dE_float": 17.8,
+   "dogrulama_float_tam_kume": 17.76,
+   "dogrulama_8bit_tam_kume": 17.7,
+   "8bit_en_yakin_engel": "cagatay",
+   "8bitte_13_saglandi_mi": true,
+   "kac_cifti_kapatir": 1
+  }
+ },
+ "CIFTLER": [
+  {
+   "uclar": [
+    "azuchi-momoyama",
+    "ryukyu"
+   ],
+   "bugun_8bit": 11.65,
+   "azuchi-momoyama_tasinirsa_8bit": 44.93,
+   "ryukyu_tasinirsa_8bit": 67.43,
+   "iki_uc_da_cozuyor": true
+  },
+  {
+   "uclar": [
+    "filipin-racaliklari",
+    "sulu-sultanligi"
+   ],
+   "bugun_8bit": 11.72,
+   "filipin-racaliklari_tasinirsa_8bit": 70.22,
+   "sulu-sultanligi_tasinirsa_8bit": 60.58,
+   "iki_uc_da_cozuyor": true
+  },
+  {
+   "uclar": [
+    "filipin-racaliklari",
+    "yuan-hanedani"
+   ],
+   "bugun_8bit": 11.72,
+   "filipin-racaliklari_tasinirsa_8bit": 70.22,
+   "yuan-hanedani_tasinirsa_8bit": 74.37,
+   "iki_uc_da_cozuyor": true
+  },
+  {
+   "uclar": [
+    "fransa-cumhuriyet",
+    "sokoto"
+   ],
+   "bugun_8bit": 11.79,
+   "fransa-cumhuriyet_tasinirsa_8bit": 82.38,
+   "sokoto_tasinirsa_8bit": 14.45,
+   "iki_uc_da_cozuyor": true
+  },
+  {
+   "uclar": [
+    "jukun-kvararafa",
+    "sokoto"
+   ],
+   "bugun_8bit": 11.8,
+   "jukun-kvararafa_tasinirsa_8bit": 86.32,
+   "sokoto_tasinirsa_8bit": 13.19,
+   "iki_uc_da_cozuyor": true
+  },
+  {
+   "uclar": [
+    "lusignan",
+    "selcuklu"
+   ],
+   "bugun_8bit": 11.88,
+   "lusignan_tasinirsa_8bit": 73.9,
+   "selcuklu_tasinirsa_8bit": 20.25,
+   "iki_uc_da_cozuyor": true
+  },
+  {
+   "uclar": [
+    "bamum",
+    "nijer-deltasi"
+   ],
+   "bugun_8bit": 11.91,
+   "bamum_tasinirsa_8bit": 61.38,
+   "nijer-deltasi_tasinirsa_8bit": 14.1,
+   "iki_uc_da_cozuyor": true
+  },
+  {
+   "uclar": [
+    "memluk",
+    "timurlu"
+   ],
+   "bugun_8bit": 11.98,
+   "memluk_tasinirsa_8bit": 57.37,
+   "timurlu_tasinirsa_8bit": 74.07,
+   "iki_uc_da_cozuyor": true
+  },
+  {
+   "uclar": [
+    "granada",
+    "kastilya"
+   ],
+   "bugun_8bit": 11.99,
+   "granada_tasinirsa_8bit": 14.74,
+   "kastilya_tasinirsa_8bit": 40.02,
+   "iki_uc_da_cozuyor": true
+  }
+ ],
+ "EN_KUCUK_ORTU": {
+  "aciklama": "Bir çifti kapatmak için TEK UÇ yeter. Toplu koşu 15 rengi birden değiştiriyordu; gerekli olan bir ÖRTÜ (vertex cover).",
+  "birden_cok_cifte_giren_uclar": {
+   "filipin-racaliklari": 2,
+   "sokoto": 2
+  },
+  "en_kucuk_ortu_boyutu": 7,
+  "hesap": "filipin-racaliklari, sokoto her biri 2/2 satırı kapatıyor; kalan 5 satırın her biri 1 uç istiyor.",
+  "🔴 UYARI": "Örtünün EN UCUZ hâli EN DAR paylı hâli: sokoto taşınırsa jukun-kvararafa ile 13.19 kalıyor — çözüm, ama kıl payı. Öteki ucu taşımak 86.32 veriyor. Hangi ucun taşınacağı bir KARARDIR, ölçüm değil; iki ucun da sayısı yukarıda."
+ },
+ "ONGORU_HUKMU": {
+  "① A'da 8bit<12 (öngörü 4-10)": "ölçüm 4/15 — 🟢 TUTTU (bandın alt ucu)",
+  "② B'de 8bit<12 (öngörü 0)": "ölçüm 0/15, tam kümeyle 0/16 — 🟢 TUTTU",
+  "③ B'de ÇÖZÜLEMEDİ (öngörü 0-2)": "ölçüm 0 — 🟢 TUTTU · ㉗'nin 'bedel 0' hükmü oner() evreninde de ayakta",
+  "④ ÖZ-SINAV ±0.1": "🔴 ATEŞLEDİ (2/16: azuchi 6.78 · kastilya 1.41) ⇒ DÜZELTİLDİ ⇒ 🟢 azami 0.04 · 0/16",
+  "④ün DEĞERİ": "Öngörüde 'ayrışırsa bozuk olan oner() değil BENİM engel kümemdir' yazılıydı ve BİREBİR o çıktı: renk_olc.py:905 `e += list(OSM.values())` — OSMANLI gövde renklerini (doğrudan #8e0b22 @0.68 · tâbi #b2384a @0.60) hiç katmamıştım. Düzeltilmeden önceki 8 bit sayılarım ALT SINIRDI (<13: 11/15 sanılıyordu).",
+  "ÖNGÖRÜNÜN SORMADIĞI, ASIL BULGU": "Kalemlerin hiçbiri '8 bitte <13' sormuyordu; hepsi <12'ye bakıyordu. Asıl cevap orada çıktı: 3/16."
+ },
+ "OLCMEDIKLERIM": [
+  "🔴 UYGULAMADIM. renkler.py donuk; bu dosya bir ÖNERİDİR. Aktarımdan sonra `py arac/renk_olc.py --dogrula <artefakt>` koşulmalı.",
+  "🔴 HANGİ UCUN TAŞINACAĞINI SEÇMEDİM — karar, ölçüm değil. İki ucun da sayısı verildi.",
+  "🔴 Bu 16 uç, ㉗'nin 8 bit yumuşak kipte <12 bulduğu kimliklerdir. ㉗'nin çifti 'filipin-racaliklari ↔ sulu/yuan' diye BELİRSİZ yazmıştı; ben ilk koşuda belirsizliği ÖLÇMEDEN daralttım ve yuan-hanedani düştü. İkinci koşu ikisini de içeriyor. İlk koşunun (A/B) sayıları 15 kimliğe aittir, 16'ya değil.",
+  "🔴 sulu-sultanligi ve yuan-hanedani AYNI hex'i taşıyor (#636f03). Paylaşımın meşru olup olmadığını (hiç komşu olmuyorlar mı) ÖLÇMEDİM.",
+  "🔴 Yalnız EN YAKIN engel ölçüldü; ikinci/üçüncü engel de bandın içinde olabilir. Kimlik başına tek sayı.",
+  "🔴 Önerilen renklerin ESTETİĞİNİ ölçmedim. Aracın kendi cümlesi: 'Bu liste ONAY İSTER. Araç meşru der, güzel demez.' Birkaçı doygun/parlak (#0cf00c · #06f606 · #96f60c) — bu `uyum` sıralamasının sonucu, ve göz kararı Emre'nin.",
+  "🔴 Bu öneriler BUGÜNKÜ BOYALAR'a (579 kimlik) göre çözüldü. Koşu 7b sonrası palet değişirse yeniden çözülmeli — `oner()` artefaktının var olma sebebi bu (renk_olc.py:1046 yorumu)."
+ ]
+}

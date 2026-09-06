@@ -268,6 +268,24 @@ dokunuyor; `devletler.js` donuk olduğu için 0905 hiç uygulanmadı
 🟢 ONAYLANDI: tek dosyada birleşiyor → `denetim/ONERI-KAYNAK-11-0907.json`
 (0905 emekli damgasıyla KALIR, silinmez).
 
+### ⑥ 🟢 RENK ㉚ KAPANDI — `denetim/ONERI-RENK-8CIFT-0907.json`
+```
+ÇÖZÜLEBİLİRLİK bedeli 0  (hedef 13,0'da çözülemedi 0/16)
+PAY bedeli ≠ 0           3/16 float'ta ≥13, 8 BİTTE <13 (kastilya 12,97 ·
+                         selcuklu 12,98 · memluk 12,88) — hiçbiri <12 DEĞİL
+EN KÜÇÜK ÖRTÜ  15 DEĞİL 7 KİMLİK  ← merge riskini yarıdan aza indiriyor
+```
+🔴 **Öz-sınav `④` ATEŞLEDİ ve bir alt sınırı kesin sayı olmaktan kurtardı:**
+engel kümesine `renk_olc.py:905`teki **Osmanlı gövde renkleri** katılmamıştı
+(sapma 6,78 → 0,04 · yanlış rapor olacaktı: *"11/15"*, gerçek **3/16**).
+📌 KURAL: *bir ölçümün engel kümesi, taklit ettiği aletinkiyle BİREBİR
+olmalı — **eşik ve kova yetmiyor, EVREN de taşınmalı.***
+🔴 ŞART: öneriler **bugünkü** `BOYALAR`a (579) göre çözüldü ⇒ koşu 7b
+sonrası palet değişirse **yeniden çözülmeli**. Ve uygulamadan sonra
+`py arac/renk_olc.py --dogrula <artefakt>`.
+⚪ ESTETİK ölçülmedi — birkaç öneri doygun/parlak; aracın kendi cümlesi:
+*"meşru der, güzel demez."* Göz kararı Emre'nin.
+
 ### ⑯ ve ⑰ BOŞTA — sıradaki koordinatör turu görevlendirsin
 
 ## ⑤e 🔴 `§7` İHLALİ — VE BENİM · commit kapsamı ÇOK KABA
