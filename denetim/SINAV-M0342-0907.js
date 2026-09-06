@@ -122,13 +122,23 @@ if (peteksiz) {
 }
 console.log('');
 
+// 🔴 v1 KUSURU — KONTROL YAKALADI, C13④ tam bunun için var:
+//   v1 ilk eşleşmede `return` ediyordu VE yabancıları Osmanlı'dan ÖNCE
+//   kontrol ediyordu. Sonuç: `KONTROL Bursa 1500 → venedik` — Bursa 1500'de
+//   OSMANLI'ydı. Ölçüldü: Bursa 1500'de 2 Osmanlı parçasının VE 1 Venedik
+//   parçasının içinde; alet Osmanlı'ya HİÇ BAKMADAN çıkıyordu.
+//   ⇒ Kusur TESPİTTE değil ATIFTA: "boyalı mı" doğru, "kim boyuyor" yanlış.
+//   ⇒ Ve yönü GÜVENLİ: alet FAZLA boya raporlar, eksik değil — dört hedef
+//     fazla-raporlayan bir aletle bile boyasız çıktı.
+//   Düzeltme: kısa devre YOK, BÜTÜN katmanlar taranır ve HEPSİ döner.
 function boyayan(pt, tarih) {
+  const bulunan = [];
   for (const d of DH) {
     for (const p of (d.dnm || [])) {
       if (!(p.f <= tarih && tarih < p.t)) continue;
       for (const gi of (p.g || [])) {
         const hal = DPARCA[gi];
-        if (hal && icinde(pt, hal)) return d.id;
+        if (hal && icinde(pt, hal)) { bulunan.push(d.id); break; }
       }
     }
   }
@@ -137,11 +147,14 @@ function boyayan(pt, tarih) {
     for (const alan of ['o', 'v']) {
       for (const gi of (d[alan] || [])) {
         const hal = PARCA[gi];
-        if (hal && icinde(pt, hal)) return alan === 'o' ? 'OSMANLI' : 'OSMANLI-tabi';
+        if (hal && icinde(pt, hal)) {
+          bulunan.push(alan === 'o' ? 'OSMANLI' : 'OSMANLI-tabi');
+          break;
+        }
       }
     }
   }
-  return null;
+  return bulunan.length ? [...new Set(bulunan)].join('+') : null;
 }
 
 console.log('=== ADIM 1 — DORT BOSLUK KAYDI: BOYANIYOR MU ===');
