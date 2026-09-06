@@ -73,6 +73,21 @@
    "_SONUC": "Kolhapûr noktası YAMANIN DIŞINDA. Veride `maratha 1659→1923` olarak KALIYOR — yani hayalet SÜRÜYOR ve bu BİLİNEN bir borç, gizlenmiş değil."
   }
  ],
+ "_MEVCUT_KUNYEDE_DUZELTME_ONERISI": {
+  "id": "buhara-halk-cumhuriyeti",
+  "_DURUM": "Künye VAR (1920-10-08 → 1923-10-29) ve rengi VAR (#244ed2). Yeni künye DEĞİL — mevcut künyenin `f:` alanında bir DÜZELTME önerisi.",
+  "f_bugun": "1920-10-08",
+  "f_onerilen": "1920-10-06",
+  "gerekce": "1.MURAT hükmü: verinin `buhara` bitişi 1920-09-02 KAYNAKSIZDI ve TDV onu çürütüyor — `buhara`: \"1920 yılı Ağustos sonunda son emîr Âlim Han … tahtından uzaklaştırıldı ve 6 EKİM 1920'de Buhara Hanlığı İLGA EDİLDİ.\" Yama hanlığın bitişini 1920-10-06'ya taşıyor.",
+  "_ZORUNLU_YAN_ETKI": "Hanlık 1920-10-06'da bitiyorsa ardıl dönem de O GÜN başlamalı — yoksa 2 günlük SAHİPSİZ pencere doğar (`Değişmez 1` ihlali). Ama künye `f:1920-10-08` ise o dönem künyenin 2 GÜN ÖNCESİNDE başlar ve `4c` ATEŞLER. İkisi birden olamaz.",
+  "_SECENEKLER": [
+   "Ⓐ künye f: → 1920-10-06 (ÖNERİM): tek kırılma günü, delik yok, 4c temiz. Bedeli: künye penceresi ilga gününden başlar, ilân gününden değil.",
+   "Ⓑ yama 1920-10-08 kullanır: künye dokunulmaz, ama TDV'nin ilga günü (10-06) veriye GİRMEZ ve 2 gün hanlığa yazılmış olur.",
+   "Ⓒ 1920-10-06 → 1920-10-08 arası ayrı bir ara dönem: model bunu ifade edecek bir kimlik taşımıyor (`§11` Ammaroğulları: model ifade edemiyorsa veri SUSAR) ⇒ ELENDİ."
+  ],
+  "_KARAR": "🔴 BENDE DEĞİL. Yama Ⓐ'ya göre üretildi (1920-10-06); Ⓑ seçilirse yama YENİDEN ÜRETİLİR — tek satır değişikliği.",
+  "_NOT_ALANI": "TDV ilga gününü (6 Ekim) veriyor; Buhara Halk Sovyet Cumhuriyeti'nin İLÂNI 8 Ekim 1920'dir. İki gün fark BEYAN EDİLDİ, gizlenmedi."
+ },
  "_INMEDEN_ONCE": [
   "① RENK: dördü de BOYALAR'da YOK. Sahneye çıkınca yeni çiftler doğar",
   "   ve BUGÜN GÖRÜNMEZLER (renk_olc çizilmeyen gövde için çift kurmaz).",

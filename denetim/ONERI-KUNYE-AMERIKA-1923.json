@@ -1,0 +1,65 @@
+{
+  "_NOT": "🔴 BU BİR `YAMA-KUNYE-*` DOSYASI DEĞİL — KASTEN. `_kunye_uygula.py` YENİ künye EKLER, MEVCUT id'yi `KİMLİK ÇAKIŞMASI — zaten var` diye REDDEDER. Burada önerilen şey mevcut bir künyenin `t:` DÜZELTMESİ ⇒ o aletin işi değil, ELLE uygulanır. Adı `ONERI-` ile başlıyor ki glob onu sahiplenmesin (§11 · `KÜRE GÖRÜNÜM` emsali: yanlış ad RED üretiyordu, `git mv` ile 4 → 0). Emsal: denetim/ONERI-KUNYE-DUZELTME-AVRUPA-0906.json.",
+  "oturum": "AMERİKA-OKYANUSYA · 1923 sınır denetimi",
+  "koordinator": "1.MURAT HÜDAVENDİGAR",
+  "durum": "🔒 data/ ve arac/ DONUK (koşu 7b) — UYGULANMADI, öneri bekliyor",
+
+  "🔴🔴_IKI_DOSYA_BIRLIKTE_INER": {
+    "①": "denetim/yer_yama_amerika_1923.js   — 3 nokta (Quebec · Montreal · Port Royal)",
+    "②": "denetim/ONERI-KUNYE-AMERIKA-1923.json — bu dosya (künye `t:` kesimi)",
+    "yalniz_①_inerse": "`4c` temiz kalır ama künye 56,3 YIL fazla durur — kusur GÖRÜNMEZ hâle gelir.",
+    "yalniz_②_inerse": "ÜÇ HAYALET doğar: künye 1867'de biter, üç nokta 1923'e kadar onu kullanmaya devam eder.",
+    "koordinatorun_hukmu": "M-3059 · «nokta kesilir künye kesilmezse `4c` temiz kalır ama künye 56 yıl fazla durur; künye kesilir nokta kesilmezse üç hayalet doğar»"
+  },
+
+  "ONERI": {
+    "id": "ingiliz-kuzey-amerika",
+    "ad": "İngiliz Kuzey Amerika (Kanada)",
+    "alan": "t",
+    "eski": "1923-10-29",
+    "yeni": "1867-07-01",
+    "fark_gun": 20573,
+    "fark_yil": 56.3
+  },
+
+  "GEREKCE": {
+    "sinif": "🔴 KÜNYE FAZLA — ardılı VAR, penceresi TUTUYOR, ve ardıl ZATEN KULLANILIYOR. §3.5.0'ın üç sınıfından hiçbiri değil: ① BATNOZ değil (toprak boş kalmıyor), ② ZEND değil (künye dar değil, FAZLA), ③ ARDİL değil (ardıl künye eksik değil — `kanada` var, renkli, ve 185 dönemde kullanılıyor). Bu, o üçlünün EN UCUZ hâli: kesim bir delik açmıyor, çünkü ardıl aynı günde başlıyor.",
+    "olculen_catisma": "`ingiliz-kuzey-amerika` 1763-02-10..1923-10-29 · `kanada` 1867-07-01..1923-10-29 ⇒ 1867-1923 arası (56,3 yıl) AYNI TOPRAK İKİ KİMLİKLE boyanabiliyor. Veri bugün ikisini de kullanıyor: `kanada` 185 dönem · `ingiliz-kuzey-amerika` 130 dönem.",
+    "nicin_kunye_kesiliyor_veri_degil": "130 dönemin 127'si ZATEN 1867-07-01'de bitiyor (DUNYA-KAMERIKA-0903 partisi). Yani külliyatın kendi konvansiyonu 1867 kesimidir; künye ona uymuyor. Kesilecek olan 3 aykırı nokta (yama ①) VE künyenin kuyruğu."
+  },
+
+  "GUN_HASSASIYETI": {
+    "gun": "1867-07-01",
+    "ne": "British North America Act 1867'nin yürürlüğe giriş günü — Kanada Dominyonu'nun kuruluşu.",
+    "🔴_kaynak_damgasi": "Bu gün künyenin `f:`inden DEVRALINMADI ve DEVRALINSAYDI DA §4 gereği bildirilmesi gerekirdi: «künyenin `f:`/`t:` günü bir KAYNAK DEĞİLDİR». Gün belgenin kendi yürürlük günüdür ve `kanada` künyesinin `f:`i ile birebir aynıdır — yani iki uç ZATEN hizalı, kesim yeni bir hassasiyet ÜRETMİYOR.",
+    "⚪_olcmedim": "`kanada` künyesinin kendi `kaynak:` alanının bu günü destekleyip desteklemediğini AYRICA ÖLÇMEDİM. Kesim o künyenin `f:`ini değiştirmiyor, yalnız ona hizalanıyor — ama «hizalandım» bir dayanak değildir. §4'ün `f:`/`t:` kuralı `kanada` için ayrı sorulmalı."
+  },
+
+  "ON_KOSUL_OLCUMU": {
+    "kunye_var_mi": "🟢 2/2 — `ingiliz-kuzey-amerika` VE `kanada` ikisi de künyeli (ölçüldü: ARAC-AMERIKA-1923-KUNYE-SINA.js §C)",
+    "ardil_penceresi_tutuyor_mu": "🟢 EVET — `kanada` f:1867-07-01, kesim günüyle BİREBİR aynı. §3.5.0'ın `singhasari` şartı («ardıl künyenin VAR OLMASI, YAZILABİLİR OLDUĞU ANLAMINA GELMEZ — PENCERESİ DE TUTMALI») sınandı ve TUTUYOR: 0 gün boşluk.",
+    "ardil_zaten_kullaniliyor_mu": "🟢 EVET — 185 dönem, en erkeni tam 1867-07-01 (Fort McPherson). Yani ardıl bir teori değil, canlı veride ÇALIŞAN bir kimlik.",
+    "renk_var_mi": "⚪ ÖLÇMEDİM — `renkler.py` koşu 7b boyunca DONUK (üç parmak izli dosyadan biri, §7). AMA riski YAPISAL olarak düşük: `kanada` bugün 185 dönemde çiziliyor ve §1.5 «Renksiz künye — HARİTA DELİĞİ ✓ 0» diyor ⇒ rengi olmasaydı bugünkü yayında 185 dönemlik delik olurdu. (§11 · `harita:` boya düşüşü dersinin aynı biçimi: bir mekanizmanın çalıştığını, çalışmasaydı kırılacak bir değişmezin sağlam olmasıyla göstermek.) Yine de bu bir ÇIKARIM, ölçüm değil — koşu bitince `renk_olc.py` ile doğrulanmalı.",
+    "harita_deligi": "🟢 0 — kesim BOŞLUK AÇMIYOR: üç noktanın da 1867 sonrası `kanada`ya devrediliyor (yama ①), 127 nokta zaten devrediyor. Değişmez 1 etkilenmiyor.",
+    "2s_kapisi": "🟢 BORÇ YOK, ve gerekçe İKİ AYRI ÖLÇÜM — aşağıda."
+  },
+
+  "DEGISMEZ_2_OLCUMU": {
+    "①_gun_zaten_kiriliyor": "1867-07-01'de canlı veride 254 dönem ucu kırılıyor. Yamanın eklediği 3 uç YENİ BİR GÜN AÇMIYOR ⇒ bir borç varsa BUGÜN de vardır; bu öneri onu DOĞURMUYOR.",
+    "②_kapsam_disi": "`2s` küresi = `d:` ya da `v:` taşıyan BÜTÜN noktalar (§11: başkentler DEĞİL — bir oturum tam bunu varsayıp kapsamı 15 sanmıştı, gerçek 165'ti). Ölçüldü: 929 nokta, boylam -1,7 → 51,5. Üç noktanın en yakın Osmanlı noktasına uzaklığı: Quebec 5788 km · Montreal 6000 km · Port Royal 5406 km (hepsi Nedrûme). Eşik 2014 km ⇒ ÜÇÜ DE KAPSAM DIŞI.",
+    "🔴_geri_cekilen_iddia": "Yamanın İLK yazımında başlığa «1867-07-01 çekirdekte ZATEN maddeli (Kanada Dominyonu kuruldu) — KAMERIKA turunda ölçülmüştü» yazmıştım. ÖLÇTÜM, YANLIŞ ÇIKTI: çekirdeğin (data/olaylar*.js, 1317 madde) ±30 gün penceresinde İKİ madde var ve ikisi de Osmanlı — «Abdülaziz'in Avrupa seyahati» (1867-06-21) ve «Mısır valilerine hidiv unvanının verilmesi» (1867-06-08). Kanada maddesi çekirdekte YOK; benim OLAY-KAMERIKA-0903.json'umda ve o dosya henüz İNMEDİ. Hafızadan gelen bir cümleyi ölçmeden dosya başlığına yazmışım — §11: «ölçmediğini `ölçmedim` diye yaz». İDDİA GERİ ÇEKİLDİ, yerine yukarıdaki iki ÖLÇÜM kondu.",
+    "sonuc": "Hüküm DEĞİŞMEDİ (borç yok) ama GEREKÇESİ değişti. §11: «doğru hüküm, yanlış teşhisle gelebilir» — gerekçe yazılmazsa bir sonraki oturum yanlış olanı düzeltmeye kalkar."
+  },
+
+  "KAPSAM_OLCUMUNUN_KENDISI": {
+    "🔴_ilk_aletim_yanlis_soruyu_soruyordu": "`ARAC-AMERIKA-1923-SUPHE.js ②` şunu sordu: «1923-10-28'de bu künyeyi kim kullanıyor?» → 3 nokta. AMA künyeyi 1867'de kesmek, 1867'yi AŞAN HER dönemi hayalet yapar; 1900'de biten bir dönem o sorunun kapsamına HİÇ DÜŞMEZ. §11: «bir denetimin KAPSAMI, doğruluğundan AYRI ölçülür».",
+    "🟢_dogru_soru": "«kesim gününü AŞAN dönem var mı» — ve evren KÜRESEL, çünkü künye kesimi bölge tanımaz. Ölçüldü (ARAC-AMERIKA-1923-KUNYE-SINA.js §A, 3805 nokta · 77 dosya · dört katman d/v/s/isg): künyeyi kullanan 130 dönemin YALNIZ 3'ü kesimi aşıyor, kalan 127 zaten 1867-07-01'de bitiyor.",
+    "sonuc": "İki soru bu vakada AYNI üç noktaya çıktı — ama tesadüfen. Dar soru bir hayaleti kaçırabilirdi ve kaçırdığı ancak koşudan sonra görülürdü."
+  },
+
+  "YAMANIN_URETIMI": {
+    "elle_yazilmadi": "denetim/ARAC-AMERIKA-1923-YAMA-URET.js — zincir CANLI veriden okundu. YONTEM §⑥: uygulayıcı `s:` dizisinin TAMAMINI değiştirir; Silistre elle yazılmıştı ve yama 6 dönemin 5'ini SİLİYORDU.",
+    "uretici_sinavlari": "① hiçbir dönem KAYBOLMADI (eski her dönem çıktıda var) · ② zincir SÜREKLİ (her `t:` bir sonrakinin `f:`i) · ③ TERS/SIFIR dönem yok · ④ zincirin İKİ UCU değişmedi. Dördü de geçti; biri geçmezse üretici yamayı YAZMIYOR (çıkış kodu 1).",
+    "sonuc": "Quebec 2→3 · Montreal 2→3 · Port Royal 3→4 dönem."
+  }
+}

@@ -133,3 +133,82 @@ iki aday elendi, kalem açık.
 ⚠️ kapsam      `turkistan-assr`ın yaratılıp yaratılmayacağı — egemenlik
                ayrımı BENİM OKUMAM, TDV söylemiyor. Karar koordinatörde.
 ```
+
+---
+
+# EK — HÜKÜMLER İŞLENDİ (6 Eylül, 1.MURAT'ın dört hükmü)
+
+## ① 🟢 `harezm` GÜNÜ ARANDI VE **BULUNDU** — `bulunamadı` damgası KALKTI
+
+Hüküm *"bir kez ara, bulamazsan dokunma"* idi. **Buldum.**
+```
+`hive`         → 302 ÖLÜ          (ilk turda denenen)
+`harizm`       → 200 · 25.850 kar. 🟢  ← TÜRKÇE YAZIM
+`harezm`       → 200 ama 2.375 kar. 🔴 BOİLERPLATE (§4④)
+`hivehanligi`  → 302 ÖLÜ
+```
+> TDV `harizm`: *"1917 Bolşevik İhtilâli'nden sonra Abdullah Han
+> Moskova'ya götürüldü ve hanlığa son verilerek **26 Nisan 1920**'de
+> Hârizm Halk Cumhuriyeti ilân edildi."*
+
+⇒ Verinin `1920-04-26`sı **TDV-DESTEKLİ**. Künyenin `f:1920-04-26`sı da
+aynı gün. Değiştirilecek bir şey yok — **yalnız kimlik** değişiyor.
+📌 Ve bu, `§4`ün Türkçe yazım dersinin bu turdaki vakası: `hive` ölü,
+`harizm` canlı. Dört slug denendi; ikisi ölü, biri **canlı ama
+boilerplate**, biri cevabı verdi. Tek slug'da dursaydım *"bulunamadı"*
+diye kapatacaktım — ve **yanlış olacaktı.**
+
+## ② 🔴 `turkistan-assr` — **YARATILMAYACAK.** (1.MURAT hükmü + gerekçe)
+
+> 📌 Bu karar burada **gerekçesiyle** duruyor ki bir sonraki oturum aynı
+> boşluğu görüp yeniden önermesin (`§11`: kabul edilmiş bir borç kayıtsız
+> kalırsa yarın yeniden **iş** sanılır).
+
+```
+Buhara Halk Cum. · Harezm Halk Cum.   1924'e kadar NOMİNAL OLARAK BAĞIMSIZ
+Türkistan ASSR                        RSFSR'nin İÇİNDE özerk cumhuriyet
+```
+Türkistan ASSR'yi ayrı bir gövde olarak boyamak, **Başkurt ve Tatar
+ASSR'lerini boyamamakla tutarsız** olurdu — ve atlas onları boyamıyor.
+⚠️ TDV üçünü aynı cümlede *"yerel kuruluşlar"* diye anıyor ve egemenlik
+ayrımına **girmiyor**; ayrım bir okumadır, TDV beyanı değil. Hüküm bu
+ayrımı kabul etti.
+⇒ Beş nokta (Taşkent · Semerkant · Hokand · Hucend · Cizzah)
+`sovyet-rusya` olarak **KALIYOR**. Bu bir kusur değil, **karar**.
+
+## ③ 🔵 `tannu-tuva` — **DONDURULDU** (1.MURAT onayladı)
+```
+Sayansk ostrogu  52,85°K / 91,90°D — Sayan'ın KUZEYİ, Minusinsk havzası,
+                 1709'dan beri Rus. TUVA DEĞİL.
+Kızıl (Belotsarsk) 51,717°K / 94,450°D · k:1 — Tuva'nın BAŞKENTİ,
+                 ama `data/yer_yama_1923_yeni.js`te BEKLİYOR (canlı değil)
+```
+⇒ Kalem `data/yer_yama_1923_yeni.js` **indikten sonra** açılır.
+Bugün canlı aday **sıfır**; Sayansk'a `tannu-tuva` yazmak **yanlış
+toprağı boyamak** olurdu.
+
+## ④ 🟢 `buhara` GÜNÜ TAŞINDI — ve bir YAN ETKİ doğdu
+Hüküm: `buhara` `t:` **1920-09-02 → 1920-10-06** (TDV `buhara`:
+*"6 Ekim 1920'de Buhara Hanlığı ilga edildi"*), altı noktanın **tamamı
+birlikte**. Yamaya girdi.
+🔴 **Ve zorunlu yan etki:** ardıl dönem de o gün başlamalı, yoksa 2
+günlük **sahipsiz** pencere doğar. Ama künye `f:1920-10-08` ⇒ dönem
+künyenin 2 gün öncesinde başlar ve **`4c` ateşler.** İkisi birden olamaz.
+⇒ `denetim/ONERI-KUNYE-ASYA-0906.json`a **künye `f:` düzeltme önerisi**
+eklendi (1920-10-08 → 1920-10-06), üç seçenek ve gerekçeleriyle.
+**Karar bende değil**; yama Ⓐ'ya göre üretildi, Ⓑ seçilirse tek satır.
+
+## ⑤ 🟢 YAMA GENİŞLEDİ — 5 → **16 KAYIT**, sınav temiz
+`denetim/yer_yama_asya_1923.js` · `node --check` geçti.
+```
+HINDISTAN  5 nokta   Bangalor · Seringapatam · Meysûr · Gvalyar · İndor
+ORTA ASYA  6 nokta   Buhara · Karşi · Şehrisebz · Termez · Hisar · Külâb
+ORTA ASYA  5 nokta   Küngrat · Köhne Ürgenç · Hîve · Yeni Ürgenç · Hazârasp
+
+SINAV (üreticinin içinde):
+  KAYBOLAN gün   yalnız 1920-09-02 × 6  ⇒ KASITLI (TDV günüyle değişti)
+  SÜREKSİZLİK    0 / 16
+  KAPANIŞ        16/16 → 1923-10-29
+```
+🔵 Orta Asya kolunun künyeleri **HAZIR** (renk dâhil): Hindistan kolu
+künye bekliyor, Orta Asya kolu beklemiyor — **ikisi ayrı inebilir.**
