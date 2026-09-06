@@ -177,3 +177,47 @@ sahipliği: iki ağır koşu birbirini yavaşlatır).
 
 Şartnameler açılışta yazılacak (`oturumlar/<AD>.md`, `F9` beş alan +
 yedi başlık + haberleşme bloğu).
+
+
+---
+
+## GÖREVLENDİRME — 6 Eylül 2026, hazır kıta ÖLÇÜLDÜ
+
+🔴 **Bu planın ilk hâli "OTURUMLAR hepsi ÖLÜ" varsayımıyla yazıldı — ve o
+varsayım TAŞINMIŞTI, ölçülmemişti.** Emre sordu (*"hiç yok mu hazırda 3
+oturum"*), `list_sessions` koşuldu ve atlas dizininde **20'den fazla
+oturum** çıktı — dördü Opus.
+
+📌 `§7.1`in kendi dersi: *"duran bir oturum ÖLÜ DEĞİLDİR, cevabı sıkışmış
+olabilir"* ve *"ölü ilan etmeden ÖNCE gerçekten çalışıp çalışmadığına
+KENDİN BAK."* Aynı hata, bu sefer koordinatörde — ve `list_sessions` on
+saniyelik bir işti.
+
+```
+NEHİR SÜRTÜNME       Opus · 6 Eyl 01:06  ->  ORTADOĞU              ✅ atandı
+KÜRE GÖRÜNÜM         Opus · 6 Eyl 01:23  ->  ASYA                  ✅ atandı
+KRONOLOJİ BOŞ KÜNYE  Opus · 5 Eyl 11:10  ->  BALKAN-DOĞU AVRUPA    ✅ atandı
+Dünya-Afrika-0903    Opus · 6 Eyl 15:09  ->  AFRİKA           ⚪ SIRADA
+```
+
+**Atama ölçütü ALAN UYUMU, kıdem değil:**
+```
+NEHİR SÜRTÜNME       Barka · Fizan · Hafsî · Harput ölçtü
+                     ⇒ Ortadoğu-K.Afrika coğrafyasının TA KENDİSİ
+KÜRE GÖRÜNÜM         himaye ve ardıl künye modelini ölçtü
+                     ⇒ Hindistan prenslikleri AYNI SINIF
+KRONOLOJİ BOŞ KÜNYE  künye işi yaptı
+                     ⇒ Balkan listesi künye ağırlıklı (rusya · romanya ·
+                       karadag hayaletleri · iki âtıl künye)
+```
+
+⚠️ **`§7` GERİLİMİ, AÇIKÇA:** üç işçi + koordinatör = **4 eşzamanlı**, ve
+kural *"en çok 3"* diyor. Emre açıkça üç istedi; kural bir tavsiye, istek
+bir karar. Ama **cephane ÖLÇÜLMEDİ** — haftalık limitin ne kadarı dolu
+bilinmiyor (`G12`).
+⇒ Limit sıkışırsa ya da bir oturum yavaşlarsa ilk durdurulacak olan
+**ASYA** (öncelik 3).
+
+⚠️ Ve ikinci bir bilinmez: bu üç oturumun **bağlamı dolu.** Dolu bağlama
+atılan her mesaj bağlamın tamamını yeniden taşır — canlandırma taze
+kıtadan **pahalı olabilir.** Ölçülmedi; ilk cevaplarının hızı gösterecek.
