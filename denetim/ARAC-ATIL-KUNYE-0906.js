@@ -38,8 +38,30 @@ for (const f of DOSYA) {
   }
 }
 
-const A = [], B = [], C = [];
+// ─────────────────────────────────────────────────────────────────────
+// 🔴 DORDUNCU KOVA — "EKSIK KULLANILAN" (AFRIKA oturumu buldu, 6 Eylul)
+//
+// Bu aletin ilk surumu yalniz "veride SIFIR donem" ariyordu. AFRIKA
+// oturumu kor noktayi olctu:
+//    `ingiliz-sudani`  kunye 1899-01-19 -> 1923-10-29 · renk #24d2c0
+//    veride kullanim: 1 donem  ⇒ ATIL SAYILMIYOR ⇒ listede GORUNMUYOR
+//    ama Sudan cografyasinda `ingiltere` tasiyan 37 NOKTA var
+// ⇒ Kovanin adi "ATIL"di; eksik olan kova "EKSIK KULLANILAN".
+//   Ikisi farkli sey ve IKINCISI DAHA UCUZ: kunye zaten sahnede oldugu
+//   icin renk cifti de ZATEN olculmus durumda.
+// 📌 §11: "bir denetimin gordugu sey, kusurun BUYUKLUGUYLE degil,
+//   denetimin SORDUGU SORUYA denk gelmesiyle belirlenir."
+const AZ_ESIK = 5;   // bu kadar VE DAHA AZ donem = "eksik kullanilan"
+// ─────────────────────────────────────────────────────────────────────
+const A = [], B = [], C = [], E = [];
 for (const k of D) {
+  const n = kullanim[k.id] || (k.harita ? kullanim[k.harita] : 0) || 0;
+  if (n > 0 && n <= AZ_ESIK) {
+    const tt = (!k.f || k.f <= G) && (!k.t || k.t > G);
+    if (tt) E.push({ id: k.id, ad: k.ad || "", f: k.f, t: k.t,
+                     bolge: k.bolge || "?", n: n,
+                     renk: RENK[k.harita ? k.harita : k.id] || null });
+  }
   if (kullanim[k.id]) continue;                       // veride VAR
   if (k.harita && kullanim[k.harita]) continue;       // paylasilan anahtar KULLANILIYOR
   const tutar = (!k.f || k.f <= G) && (!k.t || k.t > G);
@@ -61,6 +83,13 @@ console.log("");
 console.log("B · ATIL + 1923'u TUTUYOR + RENGI YOK   : " + say(B) + "   -> renk de gerekiyor");
 for (const x of B) console.log("    " + x.id.padEnd(26) + "         " + (x.f || "?") + "->" + (x.t || "?") +
   "  [" + x.bolge + "]  " + x.ad.slice(0, 42));
+console.log("");
+console.log("E · EKSIK KULLANILAN (1-" + AZ_ESIK + " donem) + 1923'u TUTUYOR : " + say(E) +
+  "   -> kunye SAHNEDE, renk cifti ZATEN olculmus");
+E.sort((a, b) => a.n - b.n);
+for (const x of E) console.log("    " + x.id.padEnd(26) + (x.renk || "RENK YOK").padEnd(9) +
+  String(x.n).padStart(3) + " donem  " + (x.f || "?") + "->" + (x.t || "?") +
+  "  [" + x.bolge + "]  " + x.ad.slice(0, 34));
 console.log("");
 console.log("C · ATIL ama 1923 DISI                  : " + say(C) + "   -> bu taramanin konusu DEGIL");
 const cb = {};

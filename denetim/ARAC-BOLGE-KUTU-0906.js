@@ -68,6 +68,37 @@ const SAHIP = {
   "GUNEY-ORTA-AMERIKA": "AMERİKA-OKYANUSYA", "OKYANUSYA": "AMERİKA-OKYANUSYA",
   "VOLGA-URAL-SIBIRYA": "(atanmadı — tek kimlik, sıfır sınır çifti)",
 };
+
+// ─────────────────────────────────────────────────────────────────────
+// 🔴 İKİ KAYIT — bu iki soru ARTIK SORULMASIN (ikisi de ölçüldü)
+//
+// ① SAHİPLİK KALEM BAZLIDIR, CASCADE BAZLI DEĞİL.
+//    Cascade SURVEY'i böler: hangi oturum hangi noktaları TARAR.
+//    Bir KİMLİĞİN bütün noktaları, onu İLK ÖLÇEN oturumda kalır —
+//    cascade onları başka kovalara dağıtsa bile. Yoksa aynı zincire
+//    iki oturum iki farklı gün yazar.
+//    Ölçülmüş vakalar (6 Eylül):
+//      Tunus 36 nokta  -> cascade ITALYA/AVRUPA'ya atıyor, kalem ORTADOĞU'nun
+//      Levant 12 nokta -> cascade BALKANLAR'a atıyor, `yer_yama_manda`
+//                         ZATEN işlemiş (ORTADOĞU'nun)
+//      Viyana          -> cascade AVRUPA'ya, `avusturya` kalemi BALKAN'ın
+//      Buhara · Hîve   -> cascade ORTADOGU-IRAN'a, kalem ASYA'nın
+//      Mersin          -> cascade ORTADOGU-IRAN'a, `OSMANLI/tbmm` kalemi
+//                         BALKAN'ın
+//    ⇒ Bir kimlik senin kutunda görünüyor diye SENİN DEĞİLDİR. Tahtadan sor.
+//
+// ② OKYANUSYA KOVASINDAKİ 35 SİBİRYA NOKTASI — ATANMADI.
+//    (AMERİKA-OKYANUSYA ölçtü, 6 Eylül: boylam 101,8-170,4 · enlem
+//     56,3-72,9 · hepsi `sovyet-rusya` — Yakutsk · Verhoyansk · Hatanga ·
+//     Jigansk · Bulun · Ust-Yansk · Zaşiversk · Olyokminsk …)
+//    Cascade `lo > 100` kuralıyla onları OKYANUSYA'ya atıyor. Ama
+//    `VOLGA-URAL-SIBIRYA`yı atanmaz yapan gerekçe — TEK KİMLİK, SIFIR
+//    SINIR ÇİFTİ — bu 35 için de BİREBİR geçerli.
+//    ⇒ HÜKÜM: bu 35 nokta da ATANMADI. Sınır denetimi işi YOK.
+//    📌 Ve bu soru bir kez soruldu; kaydı burada olmasaydı bir sonraki
+//      oturum yeniden soracaktı (`§11`: kabul edilmiş bir borç kayıtsız
+//      kalırsa yarın yeniden iş sanılır — ve tersi de doğru).
+// ─────────────────────────────────────────────────────────────────────
 module.exports = { bolge, SAHIP };
 
 if (require.main === module) {
