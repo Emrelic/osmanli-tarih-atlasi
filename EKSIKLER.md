@@ -180,13 +180,42 @@ Dayanak: `denetim/OLCUM-MUKERRER-ALAN-0906.md`
 ```
 oynatma yamasının gerçek etkisi     pencere küçültülmüş + koşu CPU'yu tutuyor
 (mükerrer alan ÖLÇÜLDÜ — §③b'ye taşındı, artık burada DEĞİL)
-1548-08-24 mü -25 mi                atlasta 44 uç · Değişmez 2 etkisi ölçülmedi
-Bahreyn himaye günü                 1861-05-31 mi 1913-07-29 mu (iki ayrı olay)
-Ahıska · Akçahisar · Floransa       "KAPSAM DARALDI" — ekleme mi değiştirme mi
-Timbuktu 1700-1760 (60 yıl)         hangi kimlik? ARAŞTIRILMADI
-Timbuktu 1893-1894 (1 yıl)          gerçek boşluk mu, yuvarlama mı
-Agadez zinciri                      1405→1923 TEK dönem, kaynak YOK
+Timbuktu 1893-1894 (1 yıl)          `tekrur` künyesi 1893'te biter, TDV
+                                    ilhakı 1894 der — aradaki yıl KAYNAKSIZ
+420 enklav sorusu                   işçi oturum işi, oturumlar ÖLÜ
+oynatma yamasının GERÇEK etkisi     pencere küçültülmüş + koşu CPU'yu tutuyor
+tavanı YÜKSELTMENİN çöl bedeli      kaba ölçüldü ama `COL_PUAN_ESIK` ve
+                                    `COL_TAVAN_KM` frenleri ölçüme GİRMEDİ
 ```
+
+
+### 🟢 6 EYLÜL AKŞAMI KAPANANLAR — hepsi hazır, koşu bekliyor
+```
+✅ AGADEZ            17 yıllık hayalet · TDV `nijer` kapsayıcı madde
+                     yama + kronoloji maddesi PAKET (denetim/)
+✅ TIMBUKTU          60 yıllık boşluk KAPANDI (`fas`→1750 · `arma` 1750-1760)
+                     ve DÖRT parça yama TEK ZİNCİRE indi
+✅ VAN 1548          kayıt TDV'yi kaynak gösterip 25 diyor, TDV 24 diyor
+                     ⇒ düzeltici hazır (12 dosya · 63 geçiş)
+                     🟢 yan teyit: TDV `van`da 1639 HİÇ geçmiyor
+✅ KAPSAM DARALDI    Ahıska · Akçahisar · Floransa — üçü de aynı sınıf,
+                     çare BİRLEŞTİRME (yama erken dönemi zenginleştirip
+                     kuyruğu düşürüyor)
+✅ KUTAİSİ+TIMBUKTU  çakışmaların son ikisi hükme bağlandı ⇒ 18/18 TAMAM
+✅ TAVAN ÖLÇÜMÜ      Çağatay %83,9 · seçenekler kazanç/bedel birlikte
+                     ölçüldü ⇒ Ⓒ1 (k1=400 k2=300) ÖNERİLDİ
+✅ PAKET H-0001      dört işlevin ÜÇÜ zaten var; boşlukların sebebi tek
+                     parametre (TAVAN_KM) ve o Emre'nin 2 Eylül deneyi
+✅ BAHREYN GÜNÜ      🟡 AÇIK SANIYORDUM — ZATEN BEYANLI çıktı: kronoloji
+                     maddesi "TDV 21 Mayıs der, İngiliz belgeleri 31 Mayıs
+                     der, on günlük fark ÇÖZÜLMEDİ" diye AÇIKÇA yazıyor.
+                     ⇒ Van'daki gibi bir SAPMA değil, BEYAN EDİLMİŞ bir
+                       kaynak çelişkisi. Envanterden düşürüldü.
+```
+📌 Ve `BAHREYN GÜNÜ` bir ders: envanterimde *"ölçülemedi"* diye duruyordu,
+oysa **ölçülmüş ve damgalanmıştı.** Kayıt okunmadan açık kalem sanmak,
+`§11`in *"kendi ödediğin borcu yeniden iş sanabilirsin"* dersinin
+envanter yüzü.
 
 ---
 
