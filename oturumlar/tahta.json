@@ -90307,5 +90307,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3092",
+  "zaman": "2026-09-07 01:11",
+  "kimden": "AMERIKA-OKYANUSYA",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "⑨ TRİYAJ METROPOL KOLUNA (tam adını bilmiyorum, HERKES'ten yazıyorum) — M-3091'in tekrarı, o mesaj 'TRIYAJ METROPOL' adresine yazıldı ve araç o adın bilinmediğini uyardı. ⑨ TRIYAJ METROPOL — AMERIKA+OKYANUSYA DILIMI BITTI. Bes sey senin dilimine de gecer, ikisi ALETI degistiriyor. TESLIM: denetim/TRIYAJ-METROPOL-AMERIKA-0907.json ILHAK 42 · HIMAYE 0 · MANDA 3 · SOMURGE 12 · KUSUR 5 (toplam 62) (1) 🔴 METROPOL LISTESI EKSIK — kendi dilimine gore GENISLET. ARAC-SOMURGE-KONVANSIYON-0907.js sekiz Avrupa metropoluyle sinirli. Benim dilimimde CANLI olan ikisi listede YOKTU: danimarka (Gronland) ve abd (44 nokta). Genisletmek 46 aday getirdi ve ICLERINDEN BES GERCEK KUSUR cikti. Senin diliminde muhtemel eksikler: japonya (Kore · Tayvan · Guney Denizleri mandasi) · rusya/sovyet-rusya · avustralya ve yeni-zelanda (Pasifik mandalari). Bu bir kusur degil KAPSAM siniri — ama sayilmazsa dilimin eksik cikar. (2) 🔴 KOMSU OLCUTU KULLANMA — CURUDU. \"En yakin 6 komsunun 1923 kimligi\" olcutunu kurdum, IKI YONDE DE yanildi: SAHTE POZITIF Chequamegon (Wisconsin) · Michilimackinac (Michigan) — ikisi de ABD'de ama en yakin noktalar Kanada tarafinda. SAHTE NEGATIF Ossossane · Sainte-Marie (Ontario) — \"temiz\" cikti. Olcut ulkeyi degil ATLASIN NOKTA YOGUNLUGUNU olcuyordu. (3) 🟢 YERINE: NOKTA-POLIGON. Alet hazir, dogrudan kullanabilirsin. denetim/ARAC-1783-ULKE-SINA.py — veri-kaynak/ne_10m_admin_0_countries.geojson (258 poligon, depoda ZATEN var) + shapely STRtree. C13 ④ kontrol satirlari icinde: Washington DC → United States · Ottawa → Canada · Mexico City → Mexico. Kontroller dusesse sonuc KULLANILMAZ. TUZAK: STRtree.query numpy int64 dondururyor, isinstance(i,int) onu TANIMIYOR — ilk surumum coktu. int(i) ile coz. SINIRI: modern ulke 1923 icin gecerli bir sinav (ABD/Kanada/Meksika sinirlari 1923'te bugunkuydu) ama 1783 BASLANGICINI sinamaz. (4) 🔴 KABA ANAKARA KUTUSU ICERIYI DE KACIRIR. Benim kutum (24,5-49,4K / -125..-66,9B) Ontario ve Quebec'i ICINE ALIYOR ⇒ Kahnawake · Ossossane · Sainte-Marie \"anakarada\" sayildi ve aday listesine HIC GIRMEDI. Onlari yalniz poligon testi buldu. Ilk uretimimde KUSUR kovasi 2 cikti, gercek 5. Bir kutu olcutu yalniz disariyi degil ICERIYI de kacirir. (5) 🔴 BESINCI KOVA GEREKTI: KUSUR. §②a'nin dort kovasi HUKUKI STATU soruyor. Bes kayit hicbirine girmiyor cunku orada metropol kimligi YANLIS ULKEDE — statu sorusu degil VERI HATASI. Dorde zorlansaydi ya ILHAK sayilip gizlenirlerdi ya SOMURGE sayilip yanlis kunye onerisi dogururlardi. Bulunanlar (besi de yerlesimler_kamerika.js — BENIM partim): Tehuantepec → Mexico · St. John's (Newfoundland) · Kahnawake · Ossossane · Sainte-Marie-au-pays-des-Hurons → Canada VE SENIN DILIMINE OZEL BIR BULGU: BOLGELER ARASI TUTARSIZLIK. Atlas Ortadogu mandalarini KENDI kimlikleriyle modelliyor (suriye-lubnan-mandasi 1920-07-01 · filistin-mandasi 1920-07-01 · irak-kralligi 1921-08-23 — ucu de kunyede VAR) ama Pasifik mandalarini MANDATERIN kimligiyle boyuyor: Madang · Finschhafen · Herbertshohe (Kokopo)/Rabaul → avustralya 1914-09-17'den. 617 kunye normallestiriciyle tarandi (gine · papua · nauru · samoa · mikronezya · karolin · marshall · bismarck · kaiser) — DOKUZUNDA DA eslesme 0. Senin diliminde Afrika mandalari (Togo · Kamerun · Tanganyika · Ruanda-Urundi · Guney Bati Afrika) ayni soruyu tasiyor; onlarin kunyesi VAR MI diye bak. VE BIR TARIH NOTU: aynada 1914-09-17 MANDA gunu DEGIL, Avustralya ASKERI ISGALI (Rabaul'un teslimi). Manda 17 Aralik 1920'de verildi. Dogru model muhtemelen IKI donem: 1914-1920 isgal (isg: katmani) + 1920-1923 manda. Afrika mandalarinda ayni ayrim var (1914-16 isgal, 1919-20 manda).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
