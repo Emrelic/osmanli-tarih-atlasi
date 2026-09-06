@@ -36,9 +36,23 @@ zaten **ölçüm ve taslak.**
 
 ## ③ TABAN — ölçülmüş, DEVRALDIĞIN RAKAMI DOĞRULA
 
+🔴 **ÖLÇÜT YAZILI — 6 Eylül'de düzeltildi.** İlk yazımda bu sayılar
+ölçütsüz duruyordu (fonksiyon koordinatörün scratchpad'indeydi, depoya
+girmemişti) ve ORTADOĞU haklı olarak *"devralınamaz"* dedi. Artık:
+```
+const {bolge, SAHIP} = require('./denetim/ARAC-BOLGE-KUTU-0906.js')
+node denetim/ARAC-BOLGE-KUTU-0906.js     # dağılım + bölüntü sınavı
+```
+🟢 Bir **cascade**tir: her nokta İLK eşleşen kovaya girer ⇒ örtüşme YOK,
+boşluk YOK (sınandı: toplam 3630 = sahipli 3630). Elle yazılmış bağımsız
+kutular bu güvenceyi VERMEZ — `ARAC-1923-TRIYAJ`ın kutuları örtüşüyor ve
+43 noktayı iki kez sayıyor (BALKAN ölçtü).
+⚠️ Cascade **Anadolu'yu sana vermez** (Batı Anadolu BALKANLAR'a, Doğu
+Anadolu DOGU-AVRUPA'ya düşer). Bu bir SEÇİM, kusur değil.
+
 ```
 kesit         1923-10-28
-senin bölgen  Ortadoğu-İran 450 nokta + Kuzey Afrika 182 = 632
+senin bölgen  ORTADOGU-IRAN 450 + KUZEY-AFRIKA 182 = 632
 kimlik        26
 alet          node denetim/ARAC-1923-KESIT-0906.js
               node denetim/ARAC-1923-TRIYAJ-0906.js

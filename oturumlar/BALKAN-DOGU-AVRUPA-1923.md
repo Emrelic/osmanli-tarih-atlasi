@@ -45,13 +45,21 @@ başlıyor — yani `4d` (dönem künyeden önce başlıyor) riski yüksek.
    ⇒ Karadağ 1918-11-26'da Sırbistan'a katıldı; ardıl `yugoslavya`
      (1918-12-01→) VAR. ARADAKİ BEŞ GÜN ölçülecek.
 ④ ATIL KÜNYE · oniki-ada-italyan  (1912-05-04→1923) künye VAR, RENGİ YOK
-   ⇒ kaba kutu 17 nokta saydı ama 5'i `tbmm-turkiye` — kutu TAŞIYOR,
-     gerçek kümeyi SEN ölç.
-⑤ ATIL KÜNYE · avusturya-cumhuriyet (1918-11-12→1923) künye VAR, RENGİ YOK
-   ⇒ `Viyana` ve `Graz` bugün `avusturya` → `habsburg`a çözülüyor.
-     1923'te Habsburg monarşisi YOK. (id sonunda `i` YOK.)
-     ⚠️ Kaba kutu 10 saydı; Münih·Regensburg·Augsburg·Ulm ALMANYA,
-        Bratislava ÇEKOSLOVAKYA. Gerçek küme muhtemelen 2.
+   🔴 DÜZELTİLDİ: "17 nokta" koordinatörün FAZLA SAYAN kaba kutusuydu.
+      BALKAN ölçtü — aday küme `italya`nın **13**'ü, `tbmm-turkiye` DEĞİL.
+      Kimlik veride SIFIR dönem: âtıl künyenin tanımı.
+⑤ 🔴 ÜÇÜNCÜ HAYALET · `habsburg` — çerçeve DÜZELTİLDİ (BALKAN haklıydı)
+   Bu bir "âtıl künye" kalemi DEĞİL: `Viyana` ve `Graz` `s:"avusturya"`
+   taşıyor, `avusturya` bir künye `id`si değil **`habsburg`un `harita:`
+   ANAHTARI**, ve `habsburg` **1918-11-11'de bitiyor** ⇒ **4,96 yıl
+   HAYALET.** Âtıl künye (`avusturya-cumhuriyet`, 1918-11-12→1923, id
+   sonunda `i` YOK) kusurun kendisi değil ÇARESİDİR.
+   ⇒ Gerçek küme **2** (Viyana · Graz) — ölçüldü. Kaba kutunun saydığı
+     Münih·Regensburg·Augsburg·Ulm ALMANYA, Bratislava ÇEKOSLOVAKYA.
+   🔴 Rengi YOK ⇒ yazılırsa gövde ÇİZİLMEZ. Renk Oturum 0'da.
+   📌 Alet: `py denetim/ARAC-KIMLIK-BOYA-0906.py` — `harita:`
+      dolaylamasını çözer. Koordinatör bu kör noktaya AYNI GÜN İKİ KEZ
+      düştü; alet tam onun için yazıldı.
 ⑥ SILISTRE — BİTTİ, devral: `denetim/yer_yama_silistre_0906.js`
    (Güney Dobruca 1913'te Romanya'ya geçti; veri 1923'e kadar Bulgar
     diyordu. Gün `1913-05-30`, TDV `balkan-savasi`.)
@@ -71,11 +79,25 @@ romanya            ↔ polonya      256 km
 AVRUPA oturumu açılırsa tahtadan haberdar et (yatay mesaj SERBEST, şartı
 TAHTADAN geçmesi).
 
-## ⑥ TABAN — DOĞRULA
+## ⑥ TABAN — ÖLÇÜT YAZILI (6 Eylül'de düzeltildi)
+İlk yazımda bu sayılar **ölçütsüz** duruyordu ve BALKAN haklı olarak
+ayrıştığını bildirdi — üstelik `ARAC-1923-TRIYAJ`ın kutularının
+**örtüştüğünü** (lat 44-48 / lon 20-30 · 43 nokta ORTAK) ölçerek. Artık:
 ```
-Balkanlar 389 nokta · Doğu Avrupa 206 · toplam 595 · 26 kimlik
+const {bolge, SAHIP} = require('./denetim/ARAC-BOLGE-KUTU-0906.js')
+BALKANLAR 389 + DOGU-AVRUPA 206 = 595 · 26 kimlik
 ```
-⚠️ 6 Eylül ölçümü. **İlk işin kendin ölçmek** (`B10`). Ayrışırsa BİLDİR.
+🟢 **Cascade** ⇒ örtüşme YOK, boşluk YOK (toplam 3630 = sahipli 3630).
+⚠️ Batı Anadolu BALKANLAR'a düşer — kutudaki 88 `tbmm-turkiye` bunun
+sonucudur, **kusur değil SEÇİM**: 1923'te Trakya-Ege sınırı Balkan
+meselesidir.
+
+🔴 **KİMLİK KALEMLERİ CASCADE'E GÖRE BÖLÜNMEZ.** Cascade *survey*'i
+yönetir. Bir kimliğin bütün noktaları, onu İLK ölçen oturumda kalır —
+yoksa aynı zincir iki oturumda iki farklı günle yazılır.
+⇒ `rusya`nın altı noktası (Kafkas beşlisi dâhil) **BALKAN'da.**
+
+⚠️ Sayılar 6 Eylül ölçümü. **İlk işin kendin ölçmek** (`B10`).
 
 ## ⑦ HABERLEŞME · DAMGALAR · COMMIT
 → `oturumlar/YONTEM-1923-SINIR.md` §④ ⑥ ⑦. **Cevabını kendi pencerene
