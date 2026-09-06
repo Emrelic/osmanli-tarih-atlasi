@@ -369,23 +369,6 @@ window.YER_YAMA_OK109_FETRET = [
   },
 
   {
-    ad: "Meşkinşehr (Hiyav)",
-    s: [
-      {"f": "1281-01-01", "t": "1340-01-01", "d": "ilhanli"},
-      {"f": "1340-01-01", "t": "1386-01-01", "d": "celayirli"},
-      {"f": "1386-01-01", "t": "1406-10-21", "d": "timurlu"},
-      {"f": "1406-10-21", "t": "1468-04-01", "d": "karakoyunlu"},
-      {"f": "1468-04-01", "t": "1501-07-01", "d": "akkoyunlu"},
-      {"f": "1501-07-01", "t": "1736-03-08", "d": "safevi"},
-      {"f": "1736-03-08", "t": "1747-06-20", "d": "afsar"},
-      {"f": "1747-06-20", "t": "1796-01-01", "d": "zend"},
-      {"f": "1796-01-01", "t": "1923-10-29", "d": "kacar"}
-    ],
-    kaynak: "TDV `ilhanlilar` (govde okundu): \"ILHANLILAR - Iran'da kurulan bir Mogol devleti (1256-1353)\" ve ilhan listesi 1335 sonrasini sayiyor (Arpa 1335, Musa 1336, Muhammed 1336, Tuga Timur 1337, Cihan Timur 1338, Sati Beg 1339, Suleyman 1340, Nusirevan 1344-1353). TDV `celayirliler` (govde okundu): \"CELAYIRLILER 1340-1431 yillari arasinda ... hukum suren Mogol hanedani\", \"bagimsiz bir devlet kurdu (1340)\". Iki madde birlikte: 1335-1340 arasi SAHIPSIZ DEGILDI; veri sinir gununu 1335-12-01 yazmis, dogrusu 1340-01-01.",
-    neden: "Kimlik DEGISMIYOR, yalniz SINIR GUNU kayiyor: ilhanli 1340-01-01'e uzuyor (kunyesi 1353'e kadar canli), celayirli kunyesinin dogum gununden basliyor. Bosluk dogmuyor. Degismez 4d 469 -> 436."
-  },
-
-  {
     ad: "Musul",
     s: [
       {"f": "1281-01-01", "t": "1340-01-01", "d": "ilhanli"},

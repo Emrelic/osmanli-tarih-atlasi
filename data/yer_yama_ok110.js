@@ -165,17 +165,7 @@ window.YER_YAMA_OK110 = [
 //    ankrajlara hizalanıyor — ama künye düzeltilirse bu 18 kayıt zaten uyumlu olur.
 
 // ── A · SÜRMELİ-ARAS (5) — ankraj: Revan (40,18/44,52) ───────────────
- {ad:"Gümrü (Aleksandropol)",
-  s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},{f:"1340-01-01",t:"1410-01-01",d:"celayirli"},{f:"1410-01-01",t:"1469-01-01",d:"karakoyunlu"},{f:"1469-01-01",t:"1501-07-01",d:"akkoyunlu"},{f:"1501-07-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1796-01-01",d:"zend"},{f:"1796-01-01",t:"1828-02-22",d:"kacar"},{f:"1828-02-22",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
-  kaynak:"ankraj Revan (86 km) — aynı zincir",
-  neden:"akkoyunlu 1281-1534 tek blok. ⚠️ Bu kayıtta 1534-01-01 KIRILMASI DÜŞÜYOR: safevi 1501-07-01'den 1736'ya kesintisiz akıyor, çünkü kayıt zaten 1534'ten sonra safevi devam ediyordu — iki safevi dilimi tek dilim oldu, sahip DEĞİŞMEDİ."},
-
- {ad:"Eçmiyadzin",
-  s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},{f:"1340-01-01",t:"1410-01-01",d:"celayirli"},{f:"1410-01-01",t:"1469-01-01",d:"karakoyunlu"},{f:"1469-01-01",t:"1501-07-01",d:"akkoyunlu"},{f:"1501-07-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1796-01-01",d:"zend"},{f:"1796-01-01",t:"1828-02-22",d:"kacar"},{f:"1828-02-22",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
-  kaynak:"ankraj Revan (19 km — en yakın ankraj) — aynı zincir",
-  neden:"Gümrü ile aynı: iki safevi dilimi birleşti, sahip değişmedi."},
-
-// ── B · VAN-HAKKÂRİ (8) — ankraj: Van · Çölemerik · Erciş ────────────
+ // ── B · VAN-HAKKÂRİ (8) — ankraj: Van · Çölemerik · Erciş ────────────
  {ad:"Çaldıran",
   s:[{f:"1281-01-01",t:"1351-01-01",d:"ilhanli"},{f:"1351-01-01",t:"1467-01-01",d:"karakoyunlu"},{f:"1467-01-01",t:"1502-01-01",d:"akkoyunlu"},{f:"1502-01-01",t:"1639-05-17",d:"safevi"}],
   kaynak:"ankraj Van (78 km) — külliyattaki zincir",

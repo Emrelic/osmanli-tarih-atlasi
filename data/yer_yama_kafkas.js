@@ -152,43 +152,6 @@ window.YERLESIMLER_KAFKAS_DUZELTME = [
 // ─────────────────────────────────────────────────────────────────────
 // 3 · DERBEND — üç tarihten ikisi yanlıştı; üçüncüsü zaten doğruydu
 // ─────────────────────────────────────────────────────────────────────
-{ad:"Derbend",
- s:[{f:"1281-01-01",t:"1509-01-01",d:"iran"},
-    {f:"1509-01-01",t:"1722-08-23",d:"safevi"},
-    {f:"1722-08-23",t:"1735-03-10",d:"rusya"},
-    {f:"1735-03-10",t:"1736-03-08",d:"safevi"},
-    {f:"1736-03-08",t:"1747-06-20",d:"afsar"},
-    {f:"1747-06-20",t:"1796-01-01",d:"zend"},
-    {f:"1796-01-01",t:"1813-10-24",d:"kacar"},
-    {f:"1813-10-24",t:"1923-10-29",d:"rusya"}],
- d:[{f:"1578-11-01",t:"1607-01-01"}],
- v:[],
- kaynak:"derbend--dagistan",
- neden:"TDV `derbend` slug'i OLU (302) ama `derbend--dagistan` CANLI (200) — §4'un `--` deseninin "
-      +"YENI bir vakasi; CLAUDE.md `derbend`i \"olu\" diye kaydetmis ama canli varyantini bilmiyordu. "
-      +"GOVDESI OKUNDU. UC TARIH SINANDI: "
-      +"(1) safevi baslangici — TDV \"Sah Ismail 1509'da sehri zaptedip Rumlu oymaklarindan birini "
-      +"buraya yerlestirdi\"; veri 1501-07-01 diyordu ⇒ ~8 YIL ERKEN. "
-      +"🔴 GUN IKINCI KEZ DUZELTILDI 1509-05-17 → 1509-01-01 (HAZIR KITA OPUS 85, 30 Agu 2026). "
-      +"Bu kaydin kendi notu 1509-05-17'yi \"kulliyatta ZATEN VAR, yeni gun dogurulmadi\" diye "
-      +"savunuyordu — DOGRU ama YETERSIZ bir olcut: gun kulliyatta VARDI, ama ait oldugu madde "
-      +"\"Oran'in Ispanya'ya dususu — Kardinal Cisneros'un Kuzey Afrika seferi\"dir. TAM GUN "
-      +"oldugu icin tesaduf degil KOPYA; Derbend'in el degistirmesi CEZAYIR'deki bir maddenin "
-      +"altinda belirirdi (CLAUDE.md §10'un \"kullanicinin en cok sikayet ettigi hata\"si). "
-      +"TDV `derbend--dagistan` BAGIMSIZ DOGRULANDI (HTTP 200, baslik DERBEND, govde 20.468 "
-      +"karakter): YILI veriyor (\"Sah Ismail 1509'da\"), GUNU VERMIYOR ⇒ §8 geregi 1509-01-01. "
-      +"🟢 VE BU GUN ARTIK ACIKTA DEGIL: `data/olaylar_ek21.js`e Derbend maddesi yazildi "
-      +"(madde ④). 1509-01-01 bugun 33 gun acikta ve veride 4 kirilma tasiyor ⇒ madde baglanınca "
-      +"Degismez 2s'de bir ACIK GUN KAPANIR. Not: dosya index.html'e HENUZ BAGLI DEGIL. "
-      +"(2) Osmanli baslangici — TDV \"1578 seferi sirasinda Osmanlilar bolgeyi tamamiyla zaptedince\" "
-      +"ve \"1607'ye kadar suren Osmanli hakimiyeti\"; veri 1583-01-01 diyordu ⇒ ~5 YIL GEC. "
-      +"Duzeltildi: 1578-11-01 (komsu SAMAHI'nin ayni Sirvan seferindeki gunu, kulliyatta 8 kayitta gecer). "
-      +"Bitis 1607-01-01 ZATEN DOGRUYDU, dokunulmadi. "
-      +"(3) rusya — TDV \"Rus Cari I. Petro, 1722 Agustosunda burayi isgal etti\"; veri 1722-08-23 ⇒ TUTUYOR. "
-      +"🔴 DUZELTILEMEYEN: 1281-1509 araligi hala `iran` (kunye f:1925-12-12 — 424 yil hayalet). "
-      +"Dogrusu SIRVANSAHLAR ve kunyesi VAR (`sirvansah`, 861-01-01..1538-01-01) — AMA BOYALAR'da "
-      +"RENGI YOK. Yazsaydim harita deligi acardim (§8). RENK oturumu renk versin, sonra yazilir."},
-
 // ─────────────────────────────────────────────────────────────────────
 // 4 · KUTAİSİ — hiç Osmanlı görünmüyordu; ve künyesi de yanlıştı
 // ─────────────────────────────────────────────────────────────────────
@@ -233,140 +196,15 @@ window.YERLESIMLER_KAFKAS_DUZELTME = [
 // ─────────────────────────────────────────────────────────────────────
 // 5 · GENCE — `iran` hayaleti; ve TDV'nin KENDİSİ 1468-1501 aralığını veriyor
 // ─────────────────────────────────────────────────────────────────────
-{ad:"Gence",
- s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},
-    {f:"1340-01-01",t:"1406-10-21",d:"celayirli"},
-    {f:"1406-10-21",t:"1468-04-01",d:"karakoyunlu"},
-    {f:"1468-04-01",t:"1501-07-01",d:"akkoyunlu"},
-    {f:"1501-07-01",t:"1736-03-08",d:"safevi"},
-    {f:"1736-03-08",t:"1747-06-20",d:"afsar"},
-    {f:"1747-06-20",t:"1796-01-01",d:"zend"},
-    {f:"1796-01-01",t:"1813-10-24",d:"kacar"},
-    {f:"1813-10-24",t:"1923-10-29",d:"rusya"}],
- d:[{f:"1588-01-01",t:"1606-01-01"},{f:"1725-09-12",t:"1735-06-19"}],
- v:[],
- kaynak:"gence",
- neden:"ESKI: ilhanli 1281..1335-12-01, sonra `iran` 1335-12-01..1501-07-01 (165,6 yil). "
-      +"`iran` kunyesi f:1925-12-12 ⇒ 424 yillik hayalet (T-0101). "
-      +"TDV `gence` (200, GOVDESI OKUNDU) o araligi UC katmana boluyor ve BIRINI TARIHIYLE VERIYOR: "
-      +"\"XIV. yuzyil ortalarinda Gence ve Karabag'a Celayirliler hakim oldular\" · "
-      +"\"XV. yuzyilin baslarinda bu bolge Karakoyunlular'in eline gecti\" · "
-      +"\"Akkoyunlular'in bolgede hakimiyet kurdugu donemde (1468-1501) Karabag ve Gence muhtemelen "
-      +"Kacar emirlerinin idaresindeydi\" · \"Safeviler Devleti'nin kurulusundan (1501) sonra\". "
-      +"🟢 TDV'nin verdigi 1468-1501 araligi kulliyattaki 1468-04-01 (50 kayit) ve 1501-07-01 "
-      +"(77 kayit) gunleriyle BIREBIR ortusuyor — yeni gun dogurulmadi. "
-      +"⚠️ TIMURLU KATMANI YAZILMADI: komsu Serur/Nahcivan 1386-1406 timurlu tasiyor ama TDV Gence "
-      +"maddesinde Timur HIC GECMIYOR. Komsuya bakip yazmak, kaynagin susmasini kaynak saymak olurdu; "
-      +"celayirli dogemini 1406-10-21'e kadar uzattim (TDV \"XV. yuzyilin baslari\" diyor, o gun "
-      +"kulliyatta zaten var). Bu bir TERCIH, TDV alintisi degil. "
-      +"⚠️ DEGISTIRMEDIGIM IKI TARIH, ikisi de kaynakla ufak celisiyor: (a) Osmanli 1588-01-01 — TDV "
-      +"\"20 Temmuz 1588'de ... Gence onlerine geldiler\"; (b) Osmanli 1725-09-12 — TDV \"4 Eylul "
-      +"1725'te ... zaptettiler\", 8 gun fark. Ikisi de yeni kirilma gunu dogururdu; Degismez 2 "
-      +"maddesiz kirilma uretmesin diye DOKUNMADIM, kayda geciriyorum. "
-      +"⚠️ Ve TDV Rus isgalini 1804'e cekiyor (\"3 Ocak 1804'te Cevad Han sehid dustu\"), veri "
-      +"1813-10-24 (Gulistan) diyor. Bu de facto/de jure ayrimi olabilir — OLCMEDIM, dokunmadim."},
-
 // ─────────────────────────────────────────────────────────────────────
 // 6 · REVAN — `iran` hayaleti; TDV sirayi doğruluyor ama TARİH vermiyor
 // ─────────────────────────────────────────────────────────────────────
-{ad:"Revan",
- s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},
-    {f:"1340-01-01",t:"1386-01-01",d:"celayirli"},
-    {f:"1386-01-01",t:"1406-10-21",d:"timurlu"},
-    {f:"1406-10-21",t:"1468-04-01",d:"karakoyunlu"},
-    {f:"1468-04-01",t:"1501-07-01",d:"akkoyunlu"},
-    {f:"1501-07-01",t:"1736-03-08",d:"safevi"},
-    {f:"1736-03-08",t:"1747-06-20",d:"afsar"},
-    {f:"1747-06-20",t:"1796-01-01",d:"zend"},
-    {f:"1796-01-01",t:"1828-02-22",d:"kacar"},
-    {f:"1828-02-22",t:"1923-10-29",d:"rusya"}],
- d:[{f:"1583-06-01",t:"1604-06-08"},{f:"1635-08-08",t:"1636-04-01"},
-    {f:"1724-09-28",t:"1735-06-19"}],
- v:[],
- kaynak:"revan",
- neden:"ESKI: ilhanli 1281..1335-12-01, sonra `iran` 1335-12-01..1501-07-01 (165,6 yil hayalet). "
-      +"TDV `revan` (200, GOVDESI OKUNDU) SIRAYI dogruluyor ama TARIH VERMIYOR: "
-      +"\"Timur'un Revan'i hakimiyeti altina almasi\" · \"Timurlular'in ardindan Akkoyunlu ve "
-      +"Karakoyunlu idaresine giren Revan bir kultur merkezi haline geldi\" · \"Daha sonra sehre "
-      +"Sirvansahlar, Gurcu prensleri ve Safeviler hakim oldu\". "
-      +"⇒ `iran` YANLIS oldugu KESIN (Timurlu/Karakoyunlu/Akkoyunlu adiyla geciyor), ama gunleri "
-      +"TDV vermedigi icin KOMSU KAYITLARIN gunlerini aldim: Serur (39,55 K) ve Nahcivan (39,21 K) "
-      +"birebir bu zinciri tasiyor ve Revan 40,18 K'da, ikisine de ~70 km. "
-      +"📌 Bu bir CIKARIM: kimlikler TDV'den, GUNLER komsudan. Ayri satirda yaziyorum ki "
-      +"olculmus ile devralinmis karismasin. "
-      +"⚠️ TDV ayrica \"Sirvansahlar\" ve \"Gurcu prensleri\" de sayiyor — TARIHSIZ, ve `sirvansah` "
-      +"kimliginin BOYALAR'da RENGI YOK. Yazilmadi. "
-      +"🔴 DEGISTIRMEDIGIM BIR CELISKI: Osmanli fethi veride 1583-06-01, TDV ise \"991 Ramazani "
-      +"baslarinda (Eylul 1583 ortalari) Osmanlilar tarafindan kontrol altina alindi\" diyor — "
-      +"~3,5 AY fark. Duzeltmek yeni bir kirilma gunu dogurur ve Degismez 2 o gune madde ister; "
-      +"kronoloji bende degil. KAYDA GECIRIYORUM, dokunmuyorum. "
-      +"🟢 Ote yandan 1635-08-08 TDV ile BIREBIR: \"8 Agustos'ta teslim aldi\"."},
-
 // ─────────────────────────────────────────────────────────────────────
 // 7 · HEMEDAN — TDV zinciri ADIM ADIM veriyor, tek cümlede
 // ─────────────────────────────────────────────────────────────────────
-{ad:"Hemedan",
- s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},
-    {f:"1340-01-01",t:"1387-11-01",d:"celayirli"},
-    {f:"1387-11-01",t:"1452-01-01",d:"timurlu"},
-    {f:"1452-01-01",t:"1469-01-01",d:"karakoyunlu"},
-    {f:"1469-01-01",t:"1508-01-01",d:"akkoyunlu"},
-    {f:"1508-01-01",t:"1736-03-08",d:"safevi"},
-    {f:"1736-03-08",t:"1747-06-20",d:"afsar"},
-    {f:"1747-06-20",t:"1796-01-01",d:"zend"},
-    {f:"1796-01-01",t:"1923-10-29",d:"kacar"}],
- d:[{f:"1590-03-21",t:"1603-10-21"},{f:"1724-08-31",t:"1730-08-12"}],
- v:[],
- kaynak:"hemedan",
- neden:"ESKI: ilhanli 1281..1335-12-01, sonra `iran` 1335-12-01..1508-01-01 (172,1 yil hayalet, "
-      +"kunye f:1925-12-12). "
-      +"🟢 TDV `hemedan` (200, GOVDESI OKUNDU) zinciri TEK CUMLEDE ve SIRAYLA veriyor, aynen: "
-      +"\"Ilhanlilar'dan sonra Celayirliler ve Timurlular'in eline gecti\" ... \"daha sonra da "
-      +"SIRASIYLA Karakoyunlular, Akkoyunlular ve Safeviler'in hakimiyeti altinda kaldi\". "
-      +"⇒ Alti kimligin ALTISI da kaynakta ADIYLA ve SIRASIYLA geciyor. Kimlik tarafinda hicbir "
-      +"cikarim yok. "
-      +"GUNLER: TDV tarih vermiyor; komsu Kasr-i Sirin'in (130 km) zincirindeki gunleri aldim — "
-      +"1340-01-01(50) · 1387-11-01(26) · 1452-01-01(40) · 1469-01-01(150) · 1508-01-01(95), "
-      +"hepsi kulliyatta VAR, yeni gun dogurulmadi. Bu tarafi CIKARIM. "
-      +"🟢 VE BIR TARIH BIREBIR TUTTU: veri 1724-08-31, TDV \"elli dokuz gunluk bir kusatmanin "
-      +"ardindan Hemedan'i aldiysa da (11 Zilhicce 1136 / 31 AGUSTOS 1724)\". "
-      +"⚠️ EKLENMEYEN IKI OSMANLI DONEMI, ikisi de TDV'de VAR: (a) 1588 \"Cigalazade Sinan Pasa "
-      +"Hemedan civarini zaptetti\" — \"civarini\" diyor, sehri degil; (b) 1630 \"Husrev Pasa 27 "
-      +"Sevval 1039'da (9 Haziran 1630) Hemedan'a girdi\" — bu bir SEFER isgali, ne kadar surdugu "
-      +"yazmiyor. Ikisi de YENI kirilma gunu dogururdu ve Degismez 2 madde ister. KAYDA GECIRILDI."},
-
 // ─────────────────────────────────────────────────────────────────────
 // 8 · KİRMANŞAH — TDV bu tanecikte SUSUYOR; dayanak açıkça yazıldı
 // ─────────────────────────────────────────────────────────────────────
-{ad:"Kirmanşah",
- s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},
-    {f:"1340-01-01",t:"1387-11-01",d:"celayirli"},
-    {f:"1387-11-01",t:"1452-01-01",d:"timurlu"},
-    {f:"1452-01-01",t:"1469-01-01",d:"karakoyunlu"},
-    {f:"1469-01-01",t:"1508-01-01",d:"akkoyunlu"},
-    {f:"1508-01-01",t:"1736-03-08",d:"safevi"},
-    {f:"1736-03-08",t:"1747-06-20",d:"afsar"},
-    {f:"1747-06-20",t:"1796-01-01",d:"zend"},
-    {f:"1796-01-01",t:"1923-10-29",d:"kacar"}],
- d:[{f:"1590-03-21",t:"1603-10-21"},{f:"1723-10-01",t:"1730-08-12"}],
- v:[],
- kaynak:"bulunamadı — TDV `kirmansah` maddesi (slug CANLI, 200, gövdesi OKUNDU) 14.-16. yüzyılı "
-       +"HİÇ anlatmıyor: Selçukluların 1045'te şehri almasından doğrudan Osmanlı-İran savaşlarına "
-       +"atlıyor. Dayanak: komşu Hemedan (TDV `hemedan`, ~130 km), zinciri orada ADIYLA veriliyor.",
- neden:"ESKI: `iran` 1335-12-01..1508-01-01 (172,1 yil hayalet). "
-      +"🔴 TDV BU TANECIKTE SUSUYOR — ve bu CLAUDE.md §4'un olculmus 'TANECIKLIK BOSLUGU' vakasi: "
-      +"TDV bolgeyi goruyor ama O KADAR INCE taneciklikte konusmuyor. Kural: susuyorsa standart "
-      +"akademik kaynak mesru, SARTI kaynagin ACIKCA yazilmasi. `kaynak:` alanina yazdim. "
-      +"⇒ Kimlik zinciri Hemedan'dan devralindi (ayni Cibal bolgesi, ayni Osmanli-Safevi hatti, "
-      +"130 km). Kirmansah'in KENDI kaydinda TDV dayanagi YOK — bunu gizlemiyorum. "
-      +"🟢 Ama bir sey KESIN: `iran` YANLIS. Kunye f:1925-12-12, donem 1335'te basliyor ⇒ 424 yillik "
-      +"hayalet. Yanlisin yerine 'bilmiyorum' yazilamaz (Degismez 1 sahipsizlik uretir); en yakin "
-      +"belgeli komsunun zinciri, hayaletten HER HALUKARDA daha dogru. "
-      +"⚠️ TDV'nin verdigi TEK somut sey: \"1630 yilinda Husrev Pasa tarafindan tahkim edildikten "
-      +"sonra\" ve \"son olarak 1916 yilinda Osmanlilar'in eline gectiyse de 1917 Martinda tahliye "
-      +"edildi\". Ikisi de mevcut donemlerle celismiyor; 1916-1917 atlasin ufkunda ama veride yok — "
-      +"AYRI BIR KALEM, dokunmadim."},
-
 // ═════════════════════════════════════════════════════════════════════
 // 9-13 · ek26'NIN BEŞ KAYDI — AKKOYUNLU İKİ UÇTAN DA HAYALET
 //

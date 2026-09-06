@@ -1,0 +1,4 @@
+// renk_olc.py --oner çıktısı — aktarımdan SONRA:
+//   py arac/renk_olc.py --dogrula oneri-20260906-133842.txt
+tbmm-turkiye #7e24d2
+piombino #d86c24

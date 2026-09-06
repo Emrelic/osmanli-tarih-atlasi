@@ -31,7 +31,7 @@ window.YERLESIMLER_KALITE4 = [
   // Sasani dönemine (MS 337) kadar giden yerleşim, Azerbaycan Atabegleri
   // sikkeleriyle doğrulanmış — komşu Erdebil/Sarâb ile AYNI tam zincir.
   // kaynak: standart akademik (Encyclopaedia Iranica/Wikipedia, TDV müstakil maddesi yok)
-  s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},{f:"1340-01-01",t:"1386-01-01",d:"celayirli"},{f:"1386-01-01",t:"1406-10-21",d:"timurlu"},{f:"1406-10-21",t:"1468-04-01",d:"karakoyunlu"},{f:"1468-04-01",t:"1501-07-01",d:"akkoyunlu"},{f:"1501-07-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1796-01-01",d:"zend"},{f:"1796-01-01",t:"1923-10-29",d:"kacar"}] },
+  s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},{f:"1340-01-01",t:"1386-01-01",d:"celayirli"},{f:"1386-01-01",t:"1406-10-21",d:"timurlu"},{f:"1406-10-21",t:"1468-04-01",d:"karakoyunlu"},{f:"1468-04-01",t:"1501-07-01",d:"akkoyunlu"},{f:"1501-07-01",t:"1736-03-08",d:"safevi"},{f:"1736-03-08",t:"1747-06-20",d:"afsar"},{f:"1747-06-20",t:"1794-01-01",d:"zend"},{f:"1794-01-01",t:"1923-10-29",d:"kacar"}] },
 
 { ad:"Mahabad (Sâvücbulak)", tur:"sehir", lat:36.77, lon:45.72, g:0, k:3,
   kur:"1501-07-01",

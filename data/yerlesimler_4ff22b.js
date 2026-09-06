@@ -80,7 +80,7 @@ window.YERLESIMLER_4FF22B = [
   // ⚠️ TDV'de madde YOK ve bu ÖLÇÜLDÜ: hawaii · honolulu · havai = 302.
   //   `§4` kırmızı çizgisi gereği dayanak AKADEMİK ve künyede yazılı.
   {
-    ad: "Honolulu",
+    ad: "Honolulu",not:"1923 boslugu kapatildi. `abd` kunyesi 1776-07-04 -> 1923-10-29, pencere TUTUYOR.",kaynak:"Atlasin KENDI capasi: `hawaii-kralligi` kunyesi zaten `t:\"1898-08-12\"` ile bitiyor (ABD ilhaki). Bu yama o gunu devralir — yeni bir tarih iddiasi URETMEZ, var olan kirilmanin OTEKI ucunu yazar. Kaydin son donemi `hawaii-kralligi -> 1898-08-12` idi ve ondan sonrasi SAHIPSIZDI.",s:[{f:"1898-08-12",t:"1923-10-29",d:"abd"}],
     lat: 21.3069, lon: -157.8583,
     tur: "sehir",
     s: [{ f: "1795-01-01", t: "1898-08-12", d: "hawaii-kralligi" },

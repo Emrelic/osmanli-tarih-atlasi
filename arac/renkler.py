@@ -3087,7 +3087,7 @@ BOYALAR = {
     "misir-kralligi": ("Mısır Krallığı (I. Fuad)", "#48d224"),
     "misir-sultanligi": ("Mısır Sultanlığı (İngiliz Himayesi)", "#4ed224"),
     "norse-gronland": ("Norse Grönland (Vestribygð–Eystribygð)", "#5424d2"),
-    "piombino": ("Piombino Prensliği (Appiani hânedanı)", "#54d224"),
+    "piombino": ("Piombino Prensliği (Appiani hânedanı)", "#d86c24"),
     "rif-cumhuriyeti": ("Rif Cumhuriyeti (Abdülkerim el-Hattâbî)", "#5a24d2"),
     "suriye-lubnan-mandasi": ("Fransız Suriye-Lübnan Manda İdaresi", "#9c24d2"),
     "sutayogullari": ("Sutayogullari", "#5ad224"),
@@ -3096,7 +3096,7 @@ BOYALAR = {
     "urdun-emirligi": ("Şarkî Ürdün Emirliği (Abdullah bin Hüseyin)", "#d2249c"),
     "kuveyt": ("Kuveyt (Sabah Şeyhliği)", "#d25424"),
     "zeta": ("Zeta Prensliği (Balšić / Crnojević)", "#6624d2"),
-    "tbmm-turkiye": ("Türkiye Büyük Millet Meclisi Hükûmeti", "#6c24d2"),
+    "tbmm-turkiye": ("Türkiye Büyük Millet Meclisi Hükûmeti", "#7e24d2"),
 
 }
 

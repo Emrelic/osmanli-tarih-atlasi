@@ -1681,7 +1681,14 @@ ATLAS_SONU = "1923-10-29"
 #      bu sayinin YUKSELMESI artik bir SINYALDIR. Yukselirse once
 #      "hangi donem, hangi kunye" diye SORULUR; tavan sonra tartisilir.
 #   🔜 Kalan 21 tbmm cakismasi cozulunce bu sayi DAHA DA duser.
-BEKLENEN_ASAN = 160
+# 🔴 160 -> 138, 6 EYLÜL 2026 — ZEND → KAÇAR düzeltmesi (1794-01-01).
+#   `zend` künyesi 1794-01-01'de bitiyor ama 14 dönem `1796-01-01`
+#   kullanıyordu ⇒ künyeyi 2 YIL aşıyorlardı. Hüküm 8 ÇAKIŞAN kaydı
+#   kapsıyordu; `denetle` kalan 14'ü gösterdi ve kapsam genişletildi.
+#   ⚠️ Kaynak: TDV `zendler` "İran'da hüküm süren bir hânedan (1751-1794)".
+#   1796 KULLANILMADI — TDV `kacarlar` onu "şehinşahlık TACINI giyerek …
+#   resmen kuruldu" diye veriyor; bir TAÇ GİYME, tasarruf devri değil.
+BEKLENEN_ASAN = 138
 ATLAS_BASI = "1281-01-01"
 # 🔴 4d TAVANI — DÖRDÜNCÜ BİÇİM: dönem devletin DOĞUMUNDAN ÖNCE başlıyor.
 # 4c'den AYRI KOVA, ve sebebi ÇARENİN YÖNÜ:
@@ -1780,7 +1787,10 @@ BEKLENEN_ONCE = 409
 #   icin en cok o daraldi: kesisim, iki kumenin birden kuculmesinden
 #   BILESIK olarak etkilenir. 143'ten 28'e dusus bir veri kaybi DEGIL,
 #   iki kumenin de kuculmesinin carpimidir.
-BEKLENEN_SARAN = 28
+# 🔴 28 -> 6, 6 EYLÜL 2026 — aynı düzeltme. `4s` = `4c` ∩ `4d` KESİŞİMİ
+#   olduğu için en çok o daraldı: 14 dönem `4c`den çıkınca kesişimden de
+#   çıktı. Düşüşün büyüklüğü bir veri kaybı DEĞİL, kesişimin doğası.
+BEKLENEN_SARAN = 6
 
 
 def degismez4(Y):
