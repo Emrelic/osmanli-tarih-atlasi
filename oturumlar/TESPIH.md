@@ -1,4 +1,86 @@
-# TESPİH — 4 Eylül 2026
+# TESPİH — 6 Eylül 2026
+
+> Sıra `FAYDA ÷ EMEK`e göre. Kalem kapandıkça işaretlenir; ertesi gün
+> **buradan** devam edilir. 20 dakikalık uyandırıcı her turda bu dosyayı
+> okur.
+
+## 🔒 GÜNÜN KISITI — KOŞU 7B KOŞUYOR (6 Eylül)
+
+```
+🔴 KOŞU 7   13:41 başladı · 32,9 dk'da ÇÖKTÜ — 0xC0000005 ACCESS_VIOLATION,
+            "su koridoru: 1454 akarsu parçası" adımından sonra.
+🟢 KOŞU 7B  14:23:20 başladı · uret_petek.py PID **3880** · AYRIK fırlatıcı
+            log kosu7-20260906-142320.log · .err BOŞ
+            🟢 ÇÖKME NOKTASI GEÇİLDİ: 71. dakikada tam çekirdek (%94,6),
+              bellek 199 MB ⇒ 0xC0000005 **GEÇİCİYDİ, determinist değil.**
+            ⚠️ Bellek 15. dk'da 6,2 GB tepesi yaptı, sonra düştü — OOM
+              hipotezi ÖLÇÜLDÜ ve kapandı.
+DONMUŞ : data/*  ·  arac/uret_petek.py · renkler.py · girdi.py
+SERBEST: js/app.js · css/style.css · index.html · denetim/* · oturumlar/*
+```
+
+🔴 **ÖLÇÜM SÜREÇTEN YAPILIR, KİLİT DOSYASINDAN DEĞİL.** (Aşağıdaki 4 Eylül
+bloğunda niçini yazılı — o ders GEÇERLİ, yalnız PID'i bayat.)
+```
+DOĞRU   Get-Process -Id 3880  +  CPU DELTASI  (canlı ≠ ilerliyor)
+YANLIŞ  .petek.kilit'i okuyup "PID yazıyor ⇒ canlı" demek
+```
+
+## 6 EYLÜL — BUGÜN KAPANANLAR
+
+```
+✅ OYNATMA KUYRUĞU KESİLDİ   tik 62 ms / iş ~400 ms teşhisi · js/app.js
+                             kendini kuran zincir + rAF + gerçek zamana
+                             bağlı adım + ikili arama (46.585 vakada
+                             eşdeğer, bozuk hâli yakalanıyor)
+                             🔴 GERÇEK ETKİSİ ÖLÇÜLEMEDİ — pencere
+                                küçültülmüş, rAF gizli belgede susuyor
+✅ SİTE ÖLÜYDÜ, DİRİLTİLDİ   `duygu: "notr"` (dizi olmalı) app.js:4177'de
+                             betiği durduruyordu ⇒ harita hiç kurulmuyordu.
+                             Kusur KOORDİNATÖRÜN. denetle.py TEMİZ diyordu.
+✅ ALAN TİPİ DENETİMİ        denetim/ARAC-ALAN-TIPI-0906.js · 6155 kayıt,
+                             25 alan, ayrışan 0 · C13 üç ayak da koşuldu
+                             🔜 denetle.py'ye katmak KOŞUDAN SONRA (arac/ donuk)
+✅ TAHTA M-3077..M-3082      altısı da TEYİT EDİLDİ
+✅ HÜKÜM A/B MİMARİSİ        M-3081 ölçüldü: "ikinci koşu gerekmiyor" REDDEDİLDİ
+                             (üç sebep: `_birlesik` ham değil · yabancı 541
+                             devlette ara gövde yok · B1'in anahtarı yok).
+                             Emre'nin iki geçiş mimarisi AYAKTA.
+```
+
+## 6 EYLÜL — KOŞU BİTİNCE, SIRAYLA
+
+```
+① py denetim/ARAC-IKINCI-GECIS-SURE-0906.py   ← EMRE'NİN AÇIK İSTEĞİ
+   ⚠️ sonuç ALT SINIRDIR, üç sebeple (ikisi betikte, üçüncüsü
+      HUKUM-AB-MIMARI-0906.md §③'te: ikinci geçişin girdisi
+      DEVLET_HARITA değil HAM PETEK olmalı)
+② denetle_yayin.py oku · yayını doğrula (r no + commit)
+③ tarayıcıda OYNATMA ÖLÇ (`agirOlc` kodda) — bugünkü yamanın etkisi
+④ denetle.py'ye ALAN TİPİ denetimini kat
+⑤ denetim/YAMA-KUNYE-VASSAL-0906.json — 10 künye (5'i POLITY DEĞİL, künye
+   ALMAYACAK: kategori hatası olurdu)
+⑥ VASSAL ETİKET — BLOKE: donemler.js `k`/`statu` taşımıyor VE `d.v` tek
+   geometri (bütün tâbi dünya tek gövde) ⇒ ada asılacak yer yok.
+   🔴 RENK yarısı TEK BAŞINA İNMEZ (paket hükmü): etiketsiz aynı renk,
+      tâbiyi ayırt edilemez yapar — bugünkünden KÖTÜ.
+⑦ 18 çakışma · Timbuktu 1700-1894 · Agadez zinciri · Sutter's Fort
+⑧ geometri <script>ten fetch()+JSON'a — A/B anahtarını VE ~9,2 sn
+   ayrıştırma blokunu birlikte çözer (OLCUM-YUK-VE-AB-0906.md)
+   ⚠️ Pencere açık olmadan UYGULANMAZ: görsel doğrulama şart
+```
+
+---
+
+# 🕰️ AŞAĞISI 4 EYLÜL — BAYAT, DERSLERİ GEÇERLİ
+
+> 🔴 **Aşağıdaki "GÜNÜN KISITI" bloğu KOŞU 5/5B'yi anlatıyor ve PID'leri
+> BAYAT** (21540 · 19380 · 20172). Bugünkü koşu **7B, PID 3880.**
+> Silinmedi çünkü içindeki dersler (süreçten ölç · bekçi yanlış konuşabilir
+> · bir yanlış "iyi gidiyor" sessizlikten tehlikelidir) **hâlâ doğru** —
+> `§3.5.1`: *bir vakayı silmek dersi de siler; damgalamak dersi korur.*
+
+## (4 Eylül başlığı)
 
 > Sıra `FAYDA ÷ EMEK`e göre. Kalem kapandıkça işaretlenir; ertesi gün
 > **buradan** devam edilir. 20 dakikalık uyandırıcı (`cron fb6be0f1`)
