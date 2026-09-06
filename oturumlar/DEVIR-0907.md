@@ -93,6 +93,23 @@ M-3086..3098
 · adal: DOKUNMA (tek kayıt, ardıl künye kaynaksız)
 ```
 
+## ⑤b EK — 01:50, kapanış öncesi
+
+```
+🔴 BENDE: `brunei-sultanligi` künye kalemi — `f:1368` KENDİ KAYNAĞI
+   tarafından çürütülüyor (TDV: "Muhammed Şah (1405-1415)"), ve himaye
+   günü künyede GÜN, TDV'de AY. Koşu sonrası künye turunda.
+
+🟢 AÇILAN SON KOL: "YANLIŞ bulunamadı" sınıfı ölçümü (KÜRE GÖRÜNÜM).
+   Gerekçe: çıplak bir damga ŞÜPHE uyandırır, gerekçeli-YANLIŞ olan
+   GÜVEN VERİR. `nepal` vakası: damga "TDV'de müstakil maddesi yok"
+   diyordu, slug 200 ve madde 16.050 karakter — kaynak VARDI, iki tur
+   kullanılmadı.
+   ⇒ `§11`in "yanlış bir güvence, hiç yazılmamış bir nottan kötüdür"
+     dersinin KAYNAK DAMGASI yüzü.
+   Çıktı: `denetim/OLCUM-YANLIS-BULUNAMADI-0907.md`
+```
+
 ## ⑥ KENDİ KUSURLARIM — kayda geçiyor
 
 ```
