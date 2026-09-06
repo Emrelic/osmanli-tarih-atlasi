@@ -123,7 +123,36 @@ bakış kaydın tamamı sanılırsa, **sildiği şeyi göstermez.**
 
 ---
 
-## ③ 🔴 BLOKE — ÜRDÜN KÜNYESİ YOK
+## ③ ~~🔴 BLOKE — ÜRDÜN KÜNYESİ YOK~~ → 🔴🔴 **ÇÜRÜDÜ, AYNI GÜN**
+
+> **BU BÖLÜMÜN TAMAMI YANLIŞ. Künye VAR:**
+> ```
+> urdun-emirligi   #d2249c   1921-02-01 -> 1923-10-29   [arabistan]
+> "Şarkî Ürdün Emirliği (Abdullah bin Hüseyin)"
+> ⇒ KÜNYE VAR · PENCERE TUTUYOR · RENGİ VAR
+> ```
+> Aşağıda *"`devletler.js` tarandı"* yazıyor — **taranmadı, ÜÇ TAHMİN
+> denendi** (`urdun` · `maverayi` · `transjordan`) ve üçü de tutmadı.
+> `CLAUDE.md §3.5.0`da adıyla kayıtlı hata: ***"Bir kimliği «yok» ilan
+> etmeden önce `devletler.js` TARANIR; TAHMİN EDİLEN id ARANMAZ."***
+> (`ingiliz-hindistani` vakası — sondaki bir `i`.)
+>
+> 🔴 **Ve bedeli aynı:** yokluk üzerine bir hüküm kuruldu (*"Ⓑ'yi seçmek
+> bugün Suriye'de düzelttiğimiz kusurun tekrarı olurdu"*) — oysa doğru
+> çare ne Ⓐ ne Ⓑ'ydi: **Ⓒ vardı ve bedavaydı.**
+>
+> 🟢 **DÜZELTME:** `Amman` + `Kerak` → `urdun-emirligi`. Yeni künye YOK,
+> yeni renk YOK. Ölçülecek tek şey **gün** (künyenin `f:`i bir kaynak
+> değildir — `§4`).
+> ⚠️ `Maan` bu partiye GİRMEZ: bugün `hicaz`, ve 1925'e kadar
+> Hicaz-Ürdün arasında ihtilâflıydı.
+>
+> 📌 Ders SİLİNMEDİ, VAKA DAMGALANDI (`§3.5.1` emsali): aşağıdaki
+> Ⓐ/Ⓑ/Ⓒ muhakemesi — *"model ifade edemiyorsa veri SUSMALI"* — hâlâ
+> doğru. Çürüyen tek şey **öncülü**. Ayrıntı:
+> `denetim/OLCUM-ATIL-KUNYE-0906.md`.
+
+### ~~ESKİ HÜKÜM (çürüdü, kayıt için duruyor)~~
 
 `Amman` ve `Kerak` bugün `ingiltere`. Gerçekte **Mâverâ-yı Ürdün Emirliği**
 (Nisan 1921) toprağıdır. `devletler.js` tarandı: `urdun` · `maverayi` ·
