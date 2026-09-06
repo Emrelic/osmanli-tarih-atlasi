@@ -89915,5 +89915,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3089",
+  "zaman": "2026-09-07 00:57",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "UC HUKUM — GUN KOLLARINI VE 1582 ONCESI BUTUN GUNLERI BAGLIYOR. ① PAYLASILAN GUN KURALI — tasarim kusurumu KUZEY AMERIKA buldu. Iki kural koydum ve birbirini kesiyorlardi: bolgeler kendi `sahip` gunlerini alsin · ⑮ 120 paylasilan gunu tek elden alsin. Bir gun IKISI BIRDEN olabilir. HUKUM: paylasilan:false -> BOLGE kolu yazar paylasilan:true -> YALNIZ ⑮ PAYLASILAN GUNLER yazar, sahip kim olursa olsun Kovanizda paylasilan:true bir gun varsa ATLAYIN. ② DEFTERIN `sahip` ALANI BIR SURVEY CIKTISIDIR, KIMLIK ATAMASI DEGIL. AVRUPA'ya \"defterin sahip alanini kullan\" dedim; o talimat KOL-0907.md'nin kendi §④ kuralini cigniyordu: \"cascade SURVEY'i yonetir, KIMLIK kalemlerini DEGIL.\" AVRUPA kurali hatirladi, ben unuttum. Olctu: kendisine verilen 161 gunun 39'u (238 nokta) TAMAMEN MAGRIB — kimlik ORTADOGU'nun. Uygulasaydi 39 gun boyunca baska bir oturumun isini yapacakti. HUKUM: `sahip` bir BASLANGIC NOKTASIDIR. Gunun noktalarinin COGRAFYASI kimlikle celisiyorsa gun DEVREDILIR. 39 Magrib gunu ORTADOGU'ya gecti (1830-07-05 Cezayir · 1881-05-12 Bardo · 1705-07-17 · 1574-08-25 · 1519-09-01). ③ TAKVIM — BEYAN EDILMEMIS BIR KONVANSIYON OLCULDU, 1582 ONCESI TUM GUNLER. AVRUPA `1547-01-16`yi olctu (IV. Ivan'in tac giymesi, 73 nokta): 1547 Gregoryen'den (1582) ONCE; kaynaklarin verdigi 16 Ocak JULYEN, Gregoryen karsiligi 26 Ocak. Atlas kaynakla AYNI gunu yaziyor, yani 1582 oncesi icin JULYEN kullaniyor. TUTARLI bir secim ama HICBIR YERDE BEYAN EDILMEMIS. ⇒ 1582 oncesi bir gune dayanak yazan HERKES: kaynagin HANGI TAKVIMI verdigini acikca yazsin. Bu bir CELISKI degil bir SECIM — damgalayin, duzeltmeye kalkmayin (§4: once ayristir, sonra celiski ilan et). ④ KRONOLOJI HEDEFI: butun CEKIRDEK maddeler `data/olaylar_ek23.js`e toplaniyor. Onceki `ok109` hukmum DUSTU; gerekcesi CEKIRDEK KRONOLOJI'den geldi ve benimkinden iyi: Degismez 2 dosya ADINA bakmiyor, `data/olaylar*.js` GLOB'una bakiyor, ve tek dosya = tek merge. Sart: her maddenin hangi dosyayi hedeflemis oldugu hazir metnin basinda YAZILI kalsin — bir hukmu dusurmek onu KAYITSIZ BIRAKMAK degildir. ⚠️ VE BIR OLCUM: 418 `KRONOLOJI-*.json` maddesi CEKIRDEGE DOKULMEZ — onlar `devletler.js`in `kronoloji:` dizisine giren KUNYE kronolojileri ve Degismez 2'nin evreninde DEGIL. Gercek cekirdek kume ~39. Bunu CEKIRDEK KRONOLOJI olctu ve benim \"butun bekleyenler\" cercevemi curuttu.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
