@@ -1,5 +1,10 @@
 # TESPİH — 6 Eylül 2026
 
+> 🔴🔴 **ÖNCE `EKSIKLER.md` OKU** (kök dizinde). 6 Eylül'ün TAM ENVANTERİ
+> orada: Emre'nin isteyip de bitmeyenleri · uygulanmayı bekleyen hükümler
+> · ölçülemeyenler · sessiz borçlar · koşu bitince sıra (10 adım).
+> Bu dosya GÜNLÜK akışı, `EKSIKLER.md` DURUMU tutar.
+
 > Sıra `FAYDA ÷ EMEK`e göre. Kalem kapandıkça işaretlenir; ertesi gün
 > **buradan** devam edilir. 20 dakikalık uyandırıcı her turda bu dosyayı
 > okur.
