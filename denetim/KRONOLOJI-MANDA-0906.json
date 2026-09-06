@@ -1,0 +1,43 @@
+{
+  "_NOT": "1923 MANDA KIMLIKLERI — CEKIRDEK kronoloji paketi. Dayanak: denetim/HUKUM-MANDA-KIMLIK-0906.md. Hedef: data/olaylar_ek*.js (CEKIRDEK, kuyruk DEGIL). Bu uc gun `yer_yama_manda_0906.js`in acacagi kirilma gunleridir; ucunun de en yakin CEKIRDEK maddesi bugun ALAKASIZ (Sevr 17g · Trianon 27g · Sakarya 21g) ⇒ madde yazilmazsa degisim o maddelerin altinda belirir (CLAUDE.md §10). Silistre'ye madde GEREKMIYOR: 1913-05-30 cekirdekte 0 gun uzaklikta ve konusu birebir.",
+  "_KAPSAM": "Uc madde. Hicbiri var olan bir gunu MUKERRER etmiyor: 1920-07-24 / 1920-07-01 / 1921-08-23 cekirdekte YOK (en yakinlari sirasiyla 17 · 27 · 21 gun).",
+  "maddeler": [
+    {
+      "t": "1920-07-24",
+      "k": "savas",
+      "etiket": ["siyaset", "askeri"],
+      "b": "Han Meysalun — Faysal'ın Şam hükûmetinin sonu ve Fransız manda idaresinin kuruluşu",
+      "gun": "24 Temmuz 1920",
+      "yer": "Han Meysalun (Şam batısı), Şam, Halep, Beyrut",
+      "kisiler": "Emîr Faysal, Yûsuf el-Azma, General Henri Gouraud",
+      "d": "San Remo Konferansı'nda (19-26 Nisan 1920) Suriye ve Lübnan'ın Fransa'ya bırakılmasının ardından Fransız kuvvetleri Şam'a yürüdü; Han Meysalun'da Faysal'ın kuvvetleri yenildi ve Şam hükûmetine son verildi. TDV, işgalin \"iki yıl sonra Milletler Cemiyeti'nin onayıyla resmen manda yönetimine dönüştü\"ğünü kaydeder. Atlasta bu gün, Suriye ve Lübnan'ın on yedi yerleşiminin `fransa-cumhuriyet` kimliğinden `suriye-lubnan-mandasi` kimliğine geçtiği gündür: toprak degismez, GORUNEN KIMLIK degisir — Suriye o güne kadar haritada Fransa ile aynı renkte boyanıyordu. Künye `suriye-lubnan-mandasi` penceresi 1920-07-01'dir ve künyenin kendi beyanına göre AY hassasiyetlidir; veri kaynakta adı geçen GÜNÜ kullanır.",
+      "kaynak": "suriye"
+    },
+    {
+      "t": "1920-07-01",
+      "k": "siyaset",
+      "etiket": ["siyaset"],
+      "b": "Filistin'de İngiliz mülkî manda idaresinin kurulması — askerî yönetimin sonu",
+      "gun": "Temmuz 1920",
+      "yer": "Kudüs, Yafa, Gazze, Akkâ, Nablus, Han Yûnus",
+      "kisiler": "Sir Herbert Samuel",
+      "d": "Aralık 1917'de Kudüs'ün alınmasıyla başlayan İngiliz askerî yönetimi, Temmuz 1920'de mülkî bir manda idaresine dönüştü. TDV: \"1920 Temmuzu'ndan itibaren Filistin'de mülkî bir manda idaresi kuruldu.\" Milletler Cemiyeti mandayı 24 Temmuz 1922'de resmen onayladı. Atlasta bu gün, Filistin'in altı yerleşiminin `ingiltere` kimliğinden `filistin-mandasi` kimliğine geçtiği gündür. GUNUN HASSASIYETI: TDV yalnız AY veriyor; 1 Temmuz 1920 aynı zamanda mülkî idarenin fiilî başlangıç günüdür, yani iki gerekçe çakışıyor ve hangisinin yazıldığı VERIDEN AYIRT EDILEMEZ — bu yüzden burada beyan edilmiştir. Mâverâ-yı Ürdün (Amman, Kerak) bu maddenin kapsamı DIŞINDADIR: hukuken aynı mandanın toprağı olsa da ayrı bir idaredir ve atlasta künyesi henüz yoktur.",
+      "kaynak": "filistin"
+    },
+    {
+      "t": "1921-08-23",
+      "k": "kurulus",
+      "etiket": ["siyaset"],
+      "b": "Faysal'ın Irak kralı ilân edilmesi — İngiliz mandası altında Irak Krallığı",
+      "gun": "23 Ağustos 1921",
+      "yer": "Bağdat, Musul, Basra, Kerkük",
+      "kisiler": "Kral I. Faysal, Sir Percy Cox",
+      "d": "San Remo Konferansı'nda (19-26 Nisan 1920) Irak'ın İngiltere'ye bırakılmasının ardından, Suriye'den çıkarılan Emîr Faysal 23 Ağustos 1921'de Bağdat'ta Irak kralı ilân edildi; krallık İngiliz mandası altında kuruldu ve manda 1932'de sona erdi. Atlasta bu gün, Irak'ın otuz beş yerleşiminin `ingiltere` kimliğinden `irak-kralligi` kimliğine geçtiği gündür. MUSUL bu tarihte hâlâ İHTİLÂFLIDIR — Lozan meseleyi çözmemiş, sınır Brüksel hattı (1924), Milletler Cemiyeti kararı (1925) ve 1926 antlaşmasıyla belirlenmiştir; 1923'te fiilî idare İngiliz-Irak elindedir. KAYNAK NOTU: TDV `irak--ulke` maddesinin gövdesi ÇEKİLEBİLİYOR (150.000+ karakter) ama anlatısı 1920'de biter — \"İngilizler'in Irak'ta ele geçirdikleri topraklarda kurdukları askerî yönetim 1920'ye kadar devam etti\" — ve 1921 hiç geçmez. Yani bu bir 'çekilemedi' değil, ARANDI VE KAYNAK SUSUYOR durumudur (§4 TANECIKLIK boşluğu); taç giyme günü akademik kaynağa dayanır.",
+      "kaynak": "irak--ulke"
+    }
+  ],
+  "_OLCULMEDI": [
+    "Faysal'in tac giyme gununun TDV disi kaynagi ADIYLA dogrulanmadi — kunye `irak-kralligi` Britannica 'Faisal I' diyor, o sayfanin YZ ozeti mi imzali madde mi oldugu SINANMADI (§4: Britannica sayfa duzeyinde degerlendirilir).",
+    "San Remo'nun kendi gunu (25 Nisan 1920, manda paylasimi) atlasa madde olarak YAZILMADI — uc mandanin da ortak hukuki capasi odur."
+  ]
+}
