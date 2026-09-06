@@ -215,6 +215,25 @@ gerçek çare seçim kuralında (`uyum` yetinmeciliği) ya da engel kümesinin
 çıkarsa `§11`in **SIRA BAĞLAR** cinsi olabilir; ikinci geçiş koşulmadan
 *"çözülemedi"* raporlanmaz.
 
+### ⑤ 🔴 «YANLIŞ `bulunamadı`» YENİ SINIF DEĞİL — ve hatanın YARISI BENDE
+```
+5 Eylül   ONERI-KAYNAK-7-0905.json · oturum KURE GORUNUM · sevk M-2904 (BENDEN)
+7 Eylül   aynı oturum, aynı sınıfı "YENİ" diye getirdi — ve BEN de öyle kabul
+          edip Emre'ye "sınıfı yeni" diye raporladım
+```
+⇒ İkimiz de `git log`a bakmadık; **on saniyelik iş.** `§11`in *"kendi
+ödediğin borcu kaydını okumadan yeniden iş sanabilirsin"* dersi, ve bu
+sefer **sevki veren de kabul eden de aynı kişi (ben).**
+🟢 Ölçüm mükerrer DEĞİL, **genişleme**: 7 → 11, ortak 7, **gerileme 0**.
+Ve dördünün üçü tek sebepten: slug `id`den değil `harita:`/`ad`dan
+türetildi (12 canlı → **21 canlı**). ⇒ *Bir künyenin `id`si ölü olabilir
+ve maddesi yine de vardır.*
+🔴 **UYGULAMA ÇAKIŞMASI:** iki öneri dosyası **aynı yedi künyeye**
+dokunuyor; `devletler.js` donuk olduğu için 0905 hiç uygulanmadı
+(`«bulunamadı — TDV'de müstakil maddesi yok»` külliyatta **145** kez).
+🟢 ONAYLANDI: tek dosyada birleşiyor → `denetim/ONERI-KAYNAK-11-0907.json`
+(0905 emekli damgasıyla KALIR, silinmez).
+
 ### ⑯ ve ⑰ BOŞTA — sıradaki koordinatör turu görevlendirsin
 
 ## ⑤e 🔴 `§7` İHLALİ — VE BENİM · commit kapsamı ÇOK KABA

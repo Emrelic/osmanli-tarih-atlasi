@@ -8,6 +8,55 @@ dosyası.** Koşu inince paydalar kayabilir; oranlar kaymaz.
 
 ---
 
+---
+
+## 🔴🔴 ÖNCE BİR DÜZELTME: BU SINIF **YENİ DEĞİL**, VE ÖNCEKİ ÖLÇÜMÜ BEN YAPMIŞIM
+
+Bu ölçümü *"yeni bir kusur sınıfı"* diye önerdim ve koordinatör onu öyle
+kabul etti. **İkimiz de yanıldık:**
+
+```
+denetim/ONERI-KAYNAK-7-0905.json
+   «YEDİ YANLIŞ "bulunamadı" DAMGASI — kaynak: metni önerisi»
+   oturum: KURE GORUNUM  ·  sevk: M-2904  ·  damga: 2026-09-05
+   dayanak: denetim/OLCUM-KAYNAK-DAMGA-KOVA-0905.md (263 künye · 12 canlı)
+```
+**KURE GORUNUM bu oturumun kendi önceki kimliğidir.** Yani iki gün önce
+ölçtüğüm bir sınıfı, kaydını okumadan yeniden keşfettim.
+📌 `§11`: *"kendi ödediğin borcu, kaydını okumadan yeniden iş
+sanabilirsin"* — ve bu sefer *borç* değil **bulgunun kendisi** tekrarlandı.
+⚠️ Ve `§11`in çaresi (*"işe dönüştürmeden önce `git log`"*) **on saniyelik
+işti**; yapmadım.
+
+### 🟢 AMA ÖLÇÜM MÜKERRER DEĞİL — GENİŞLEME, ve niçin genişlediği ölçülü
+```
+5 Eylül   7   delhi-sultanligi · meysur · mogolistan · nepal · nube · somali · tibet
+7 Eylül  11
+ORTAK     7   ⇒ 5 Eylül'ün bulup bugün KAÇIRDIĞIM: 0  (gerileme YOK)
+YENİ      4   banda-adalari · cenova · cimma-sultanligi · sur-hanedani
+```
+**Ve dördünün üçü tek bir sebepten geldi — ADAY SLUG'IN KÖKENİ:**
+```
+cenova            `ceneviz`  ← `harita:` anahtarından   (id `cenova` ÖLÜ)
+cimma-sultanligi  `cimma`    ← `harita:` anahtarından
+sur-hanedani      `suriler`  ← künye ADINDAN            (id `sur-hanedani` ÖLÜ)
+banda-adalari     `banda-adalari` ← id (5 Eylül evreni 263 künyeydi)
+```
+⇒ 5 Eylül taraması sluğu ağırlıkla **`id`den** türetiyordu. Bugünkü
+tarama `id ∪ harita: ∪ ad` kullandı ⇒ **21 canlı slug** (5 Eylül: 12).
+📌 Yani kazanç yeni bir fikirden değil, `§4`ün **Türkçe yazım ekseninden**
+geldi: *bir künyenin `id`si ölü olabilir ve maddesi yine de vardır.*
+
+### ⚠️ VE 5 EYLÜL ÖNERİSİ HÂLÂ UYGULANMAMIŞ — ölçüldü
+`data/devletler.js` bugün yedisinde de **eski damgayı taşıyor** (`«bulunamadı
+— TDV'de müstakil maddesi yok»` külliyatta **145** kez geçiyor). Sebep meşru:
+`devletler.js` koşudan beri DONUK ve uygulama TEK ELDEN.
+⇒ **İki öneri dosyası aynı yedi künyeye dokunacak.** Uygulanırken
+`ONERI-KAYNAK-7-0905.json` ile bu ölçüm **birleştirilmeli**, arka arkaya
+uygulanmamalı.
+
+---
+
 ## ⓪ TESTİN YÖNÜ — ÖNCE BU, çünkü sonucu okumanın şartı
 
 ```
