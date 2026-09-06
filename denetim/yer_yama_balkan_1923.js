@@ -79,7 +79,35 @@
 //     `denetim/KRONOLOJI-BALKAN-0906.json`
 //   **O maddeler inmeden bu yama uygulanırsa `Değişmez 2` açılır.**
 //   (`1881-03-26` zaten 18 noktanın kırılma günü — yeni gün DEĞİL.)
-
+//
+// ═══════════ 🔴🔴 DÜZELTME (7 Eylül 2026) — 11 → 13 KAYIT ═══════════
+// `sovyet-rusya` kümesini denetlerken KENDİ YAMAMIN EKSİK olduğunu buldum.
+//
+// KUSUR YÖNTEMDE: Besarabya kümesini bir **COĞRAFÎ KUTU** ile seçmiştim
+//   (lat 45,2-48,6 · lon 26,6-30,3), oysa TDV `bucak` ilçeleri **ADIYLA**
+//   sayıyor:
+//     «1918'den 1940'a kadar Besarabya Rumen idaresinde kalmış, eski Bucak
+//      arazisi ise **İsmâil, Cetatea Alba (AKKİRMAN), Tighina (Bender) ve
+//      Kahul** adlarıyla dört vilâyete bölünmüştür.»
+//   Kutu o dört addan İKİSİNİ tuttu, birini KAÇIRDI:
+//     Akkirman  lon 30,34 — kutuyu **0,04 derece** aşıyor   🔴 KAÇTI
+//     Hotin     lon 26,49 — kutunun **0,11 derece** altında 🔴 KAÇTI
+//
+// 🟢 VE HOTİN'İN KENDİ TDV MADDESİ VAR, TEK CÜMLEYLE:
+//     `hotin` (HTTP 200, 11.176 kar.): «**1918'de Hotin ile Besarabya
+//      Romanya'ya verildi.**»
+//   `bucak` da onu bölgenin parçası olarak anıyor («…Kili ve Bucak'a dahil
+//   olmayan Hotin'in sahip bulunduğu köy sayısı…») — yani Bucak'a değil,
+//   **Besarabya'ya** dahil.
+//
+// 📌 DERS: elimde KAYNAKTAN GELEN BİR AD LİSTESİ varken bir DİKDÖRTGEN
+//   kullandım. Ad listesi kutudan önce gelir; kutu yalnız ad listesi
+//   YOKKEN bir yaklaşıklamadır. İki nokta yüzde birkaç derecelik bir
+//   sınırdan düştü ve ikisi de kaynakta ADIYLA yazılıydı.
+// 🟢 Ve bunu yakalayan şey bir denetim değil, **bir sonraki kalemin
+//   ölçümü** oldu: `sovyet-rusya`nın 65 noktası listelenince Akkirman ve
+//   Hotin orada duruyordu.
+//
 window.YER_YAMA_BALKAN_1923 = [
   { ad: "İsmail", s: [{"f": "1281-01-01", "t": "1456-06-01", "d": "bogdan"}, {"f": "1790-12-22", "t": "1792-01-10", "d": "rusya"}, {"f": "1812-05-28", "t": "1856-03-30", "d": "rusya"}, {"f": "1878-07-13", "t": "1917-03-15", "d": "rusya"}, {"f": "1917-03-15", "t": "1917-11-07", "d": "rusya-gecici-hukumet"}, {"f": "1917-11-07", "t": "1918-01-01", "d": "sovyet-rusya"}, {"f": "1918-01-01", "t": "1923-10-29", "d": "romanya-kralligi"}] },
   { ad: "Kili", s: [{"f": "1281-01-01", "t": "1456-06-01", "d": "bogdan"}, {"f": "1812-05-28", "t": "1917-03-15", "d": "rusya"}, {"f": "1917-03-15", "t": "1917-11-07", "d": "rusya-gecici-hukumet"}, {"f": "1917-11-07", "t": "1918-01-01", "d": "sovyet-rusya"}, {"f": "1918-01-01", "t": "1923-10-29", "d": "romanya-kralligi"}] },
@@ -88,6 +116,8 @@ window.YER_YAMA_BALKAN_1923 = [
   { ad: "Soroka (Soroca)", s: [{"f": "1281-01-01", "t": "1456-06-01", "d": "bogdan"}, {"f": "1812-05-28", "t": "1917-03-15", "d": "rusya"}, {"f": "1917-03-15", "t": "1917-11-07", "d": "rusya-gecici-hukumet"}, {"f": "1917-11-07", "t": "1918-01-01", "d": "sovyet-rusya"}, {"f": "1918-01-01", "t": "1923-10-29", "d": "romanya-kralligi"}] },
   { ad: "Orhei", s: [{"f": "1281-01-01", "t": "1456-06-01", "d": "bogdan"}, {"f": "1812-05-28", "t": "1917-03-15", "d": "rusya"}, {"f": "1917-03-15", "t": "1917-11-07", "d": "rusya-gecici-hukumet"}, {"f": "1917-11-07", "t": "1918-01-01", "d": "sovyet-rusya"}, {"f": "1918-01-01", "t": "1923-10-29", "d": "romanya-kralligi"}] },
   { ad: "Bender", s: [{"f": "1281-01-01", "t": "1456-06-01", "d": "bogdan"}, {"f": "1770-09-27", "t": "1774-07-21", "d": "rusya"}, {"f": "1812-05-28", "t": "1917-03-15", "d": "rusya"}, {"f": "1917-03-15", "t": "1917-11-07", "d": "rusya-gecici-hukumet"}, {"f": "1917-11-07", "t": "1918-01-01", "d": "sovyet-rusya"}, {"f": "1918-01-01", "t": "1923-10-29", "d": "romanya-kralligi"}] },
+  { ad: "Akkirman", s: [{"f": "1281-01-01", "t": "1456-06-01", "d": "bogdan"}, {"f": "1812-05-28", "t": "1917-03-15", "d": "rusya"}, {"f": "1917-03-15", "t": "1917-11-07", "d": "rusya-gecici-hukumet"}, {"f": "1917-11-07", "t": "1918-01-01", "d": "sovyet-rusya"}, {"f": "1918-01-01", "t": "1923-10-29", "d": "romanya-kralligi"}] },
+  { ad: "Hotin", s: [{"f": "1281-01-01", "t": "1456-06-01", "d": "bogdan"}, {"f": "1769-09-19", "t": "1774-07-21", "d": "rusya"}, {"f": "1812-05-28", "t": "1917-03-15", "d": "rusya"}, {"f": "1917-03-15", "t": "1917-11-07", "d": "rusya-gecici-hukumet"}, {"f": "1917-11-07", "t": "1918-01-01", "d": "sovyet-rusya"}, {"f": "1918-01-01", "t": "1923-10-29", "d": "romanya-kralligi"}] },
   { ad: "Bükreş", s: [{"f": "1281-01-01", "t": "1462-06-01", "d": "eflak"}, {"f": "1878-07-13", "t": "1881-03-26", "d": "romanya"}, {"f": "1881-03-26", "t": "1923-10-29", "d": "romanya-kralligi"}] },
   { ad: "Yaş", s: [{"f": "1281-01-01", "t": "1456-06-01", "d": "bogdan"}, {"f": "1878-07-13", "t": "1881-03-26", "d": "romanya"}, {"f": "1881-03-26", "t": "1923-10-29", "d": "romanya-kralligi"}] },
   { ad: "Cetinje", s: [{"f": "1697-01-01", "t": "1918-11-26", "d": "karadag"}, {"f": "1918-11-26", "t": "1923-10-29", "d": "yugoslavya"}] },

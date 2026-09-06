@@ -1,0 +1,1137 @@
+{
+ "olcum_zamani": "2026-09-07",
+ "olcen": "SONNET HAZIR KITA 129 (⑩→⑯ KOL)",
+ "baseline_kunye_sayisi": 617,
+ "baseline_harita_anahtar_sayisi": 240,
+ "baseline_renk_anahtar_sayisi": 579,
+ "id_onerisi_sema_sapmasi_gorulen_dosyalar": [],
+ "kunye_md_okunmadi": [
+  "denetim\\ONERI-KUNYE-KABARTAY.md"
+ ],
+ "renk_md_okunmadi": [
+  "denetim\\ONERI-RENK-MISIR-0905.md"
+ ],
+ "sira": {
+  "1_KUNYE_ONCE": [
+   "denetim\\ONERI-KUNYE-AMERIKA-1923.json",
+   "denetim\\ONERI-KUNYE-ASYA-0906.json",
+   "denetim\\ONERI-KUNYE-BALKAN-0906.json",
+   "denetim\\ONERI-KUNYE-DUZELTME-AVRUPA-0906.json",
+   "denetim\\ONERI-KUNYE-SOMURGE-AMERIKA-0907.json",
+   "denetim\\YAMA-KUNYE-1923-0905.json",
+   "denetim\\YAMA-KUNYE-AIR-HADRAMUT-0905.json",
+   "denetim\\YAMA-KUNYE-AMMAR-0905.json",
+   "denetim\\YAMA-KUNYE-ARMA-0905.json",
+   "denetim\\YAMA-KUNYE-ARNAVUTLUK-0905.json",
+   "denetim\\YAMA-KUNYE-HURMUZ-0905.json",
+   "denetim\\YAMA-KUNYE-NORSE-0905.json",
+   "denetim\\YAMA-KUNYE-PIOMBINO-0905.json",
+   "denetim\\YAMA-KUNYE-SUDAN-0905.json",
+   "denetim\\YAMA-KUNYE-SUTAY-YELMAN-0905.json",
+   "denetim\\YAMA-KUNYE-T-0905.json",
+   "denetim\\YAMA-KUNYE-VASSAL-0906.json"
+  ],
+  "2_RENK_SONRA": [
+   "denetim\\ONERI-RENK-0904.json",
+   "denetim\\ONERI-RENK-0907.json"
+  ],
+  "3_YAMA_EN_SON": [
+   "denetim\\yer_yama_ada_istankoy.js",
+   "denetim\\yer_yama_ada_kaynak.js",
+   "denetim\\yer_yama_afrika_1923.js",
+   "denetim\\yer_yama_afrika_darfur_BEKLIYOR.js",
+   "denetim\\yer_yama_agadez_0906.js",
+   "denetim\\yer_yama_amerika_1923.js",
+   "denetim\\yer_yama_asya_1923.js",
+   "denetim\\yer_yama_avrupa_1923.js",
+   "denetim\\yer_yama_avrupa_dayanak_1923.js",
+   "denetim\\yer_yama_avrupa_isvec_1923.js",
+   "denetim\\yer_yama_balkan_1923.js",
+   "denetim\\yer_yama_balkan_avusturya_BEKLIYOR.js",
+   "denetim\\yer_yama_guyana.js",
+   "denetim\\yer_yama_isg_yunan_kaynak.js",
+   "denetim\\yer_yama_kafkas_rusya.js",
+   "denetim\\yer_yama_manda_0906.js",
+   "denetim\\yer_yama_moskito.js",
+   "denetim\\yer_yama_ortadogu_1923.js",
+   "denetim\\yer_yama_silistre_0906.js",
+   "denetim\\yer_yama_sutter_0906.js",
+   "denetim\\yer_yama_tbmm_dort_0906.js",
+   "denetim\\yer_yama_timbuktu_tam_0906.js"
+  ],
+  "gerekce": "Künye ve renk dosyaları arasında birbirine bağımlılık ÖLÇÜLMEDİ (0 `hedef_kunye` künye-öneri dosyasına işaret ediyor) — ikisi PARALEL inebilir, ikisi de yamalardan ÖNCE inmeli."
+ },
+ "kenarlar": [
+  {
+   "yama": "denetim\\yer_yama_asya_1923.js",
+   "once_gerekli": "denetim\\ONERI-KUNYE-ASYA-0906.json",
+   "tur": "kunye",
+   "kimlik": "gvalyar-sindiya"
+  },
+  {
+   "yama": "denetim\\yer_yama_asya_1923.js",
+   "once_gerekli": "denetim\\ONERI-KUNYE-ASYA-0906.json",
+   "tur": "kunye",
+   "kimlik": "indor-holkar"
+  },
+  {
+   "yama": "denetim\\yer_yama_asya_1923.js",
+   "once_gerekli": "denetim\\ONERI-KUNYE-ASYA-0906.json",
+   "tur": "kunye",
+   "kimlik": "meysur-racaligi"
+  },
+  {
+   "yama": "denetim\\yer_yama_balkan_avusturya_BEKLIYOR.js",
+   "once_gerekli": "denetim\\ONERI-RENK-0907.json",
+   "tur": "renk",
+   "kimlik": "avusturya-cumhuriyet"
+  }
+ ],
+ "kenar_sayisi": 4,
+ "kunye_tanimlanan_dosya_sayisi": 17,
+ "kunye_guncellenen_hedef_sayisi": 1,
+ "renk_boyanan_dosya_sayisi": 2,
+ "yama_dosya_sayisi": 22,
+ "cakisan_kunye_tanimi": {},
+ "coz_yok_kimlikler": [
+  {
+   "yama": "denetim\\yer_yama_asya_1923.js",
+   "kimlikler": [
+    "gvalyar-sindiya (renk)",
+    "indor-holkar (renk)",
+    "meysur-racaligi (renk)"
+   ]
+  }
+ ],
+ "yama_ozet": [
+  {
+   "yama": "denetim\\yer_yama_ada_istankoy.js",
+   "degisken": "YER_YAMA_ADA_ISTANKOY",
+   "kayit_sayisi": 1,
+   "kullanilan_benzersiz_kimlik": 1,
+   "kimlikler": [
+    "italya"
+   ],
+   "kimlik_durum": {
+    "italya": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    }
+   },
+   "hazir_mi": true
+  },
+  {
+   "yama": "denetim\\yer_yama_ada_kaynak.js",
+   "degisken": "YER_YAMA_ADA_KAYNAK",
+   "kayit_sayisi": 13,
+   "kullanilan_benzersiz_kimlik": 1,
+   "kimlikler": [
+    "italya"
+   ],
+   "kimlik_durum": {
+    "italya": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    }
+   },
+   "hazir_mi": true
+  },
+  {
+   "yama": "denetim\\yer_yama_afrika_1923.js",
+   "degisken": "YER_YAMA_AFRIKA_1923",
+   "kayit_sayisi": 34,
+   "kullanilan_benzersiz_kimlik": 4,
+   "kimlikler": [
+    "funj",
+    "ingiliz-sudani",
+    "mehdi",
+    "nube"
+   ],
+   "kimlik_durum": {
+    "funj": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "ingiliz-sudani": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "mehdi": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "nube": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    }
+   },
+   "hazir_mi": true
+  },
+  {
+   "yama": "denetim\\yer_yama_afrika_darfur_BEKLIYOR.js",
+   "degisken": "YER_YAMA_AFRIKA_DARFUR",
+   "kayit_sayisi": 3,
+   "kullanilan_benzersiz_kimlik": 5,
+   "kimlikler": [
+    "dacu",
+    "darfur",
+    "ingiliz-sudani",
+    "mehdi",
+    "tunciler"
+   ],
+   "kimlik_durum": {
+    "dacu": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "darfur": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "ingiliz-sudani": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "mehdi": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "tunciler": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    }
+   },
+   "hazir_mi": true
+  },
+  {
+   "yama": "denetim\\yer_yama_agadez_0906.js",
+   "degisken": "YER_YAMA_AGADEZ_0906",
+   "kayit_sayisi": 1,
+   "kullanilan_benzersiz_kimlik": 2,
+   "kimlikler": [
+    "agadez-sultanligi",
+    "fransa-cumhuriyet"
+   ],
+   "kimlik_durum": {
+    "agadez-sultanligi": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "fransa-cumhuriyet": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    }
+   },
+   "hazir_mi": true
+  },
+  {
+   "yama": "denetim\\yer_yama_amerika_1923.js",
+   "degisken": "YER_YAMA_AMERIKA_1923",
+   "kayit_sayisi": 3,
+   "kullanilan_benzersiz_kimlik": 4,
+   "kimlikler": [
+    "fransa",
+    "ingiliz-kuzey-amerika",
+    "ingiltere",
+    "kanada"
+   ],
+   "kimlik_durum": {
+    "fransa": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "ingiliz-kuzey-amerika": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "ingiltere": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "kanada": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    }
+   },
+   "hazir_mi": true
+  },
+  {
+   "yama": "denetim\\yer_yama_asya_1923.js",
+   "degisken": "YER_YAMA_ASYA_1923",
+   "kayit_sayisi": 16,
+   "kullanilan_benzersiz_kimlik": 20,
+   "kimlikler": [
+    "afsar",
+    "altinorda",
+    "babur-imparatorlugu",
+    "bicapur",
+    "buhara",
+    "buhara-halk-cumhuriyeti",
+    "cagatay",
+    "delhi-sultanligi",
+    "gvalyar-sindiya",
+    "harezm-halk-cumhuriyeti",
+    "hive",
+    "hoysala",
+    "indor-holkar",
+    "maratha",
+    "meysur",
+    "meysur-racaligi",
+    "racput",
+    "sur-hanedani",
+    "timurlu",
+    "vijayanagara"
+   ],
+   "kimlik_durum": {
+    "afsar": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "altinorda": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "babur-imparatorlugu": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "bicapur": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "buhara": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "buhara-halk-cumhuriyeti": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "cagatay": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "delhi-sultanligi": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "gvalyar-sindiya": {
+     "kunye": "bekliyor:denetim\\ONERI-KUNYE-ASYA-0906.json",
+     "renk": "YOK"
+    },
+    "harezm-halk-cumhuriyeti": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "hive": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "hoysala": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "indor-holkar": {
+     "kunye": "bekliyor:denetim\\ONERI-KUNYE-ASYA-0906.json",
+     "renk": "YOK"
+    },
+    "maratha": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "meysur": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "meysur-racaligi": {
+     "kunye": "bekliyor:denetim\\ONERI-KUNYE-ASYA-0906.json",
+     "renk": "YOK"
+    },
+    "racput": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "sur-hanedani": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "timurlu": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "vijayanagara": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    }
+   },
+   "hazir_mi": false
+  },
+  {
+   "yama": "denetim\\yer_yama_avrupa_1923.js",
+   "degisken": "YER_YAMA_AVRUPA_1923",
+   "kayit_sayisi": 11,
+   "kullanilan_benzersiz_kimlik": 11,
+   "kimlikler": [
+    "aragon",
+    "ceneviz",
+    "ingiltere",
+    "irlanda-serbest-devlet",
+    "ispanya",
+    "italya",
+    "kastilya",
+    "piombino",
+    "piza",
+    "sardinya",
+    "toskana"
+   ],
+   "kimlik_durum": {
+    "aragon": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "ceneviz": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "ingiltere": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "irlanda-serbest-devlet": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "ispanya": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "italya": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "kastilya": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "piombino": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "piza": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "sardinya": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "toskana": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    }
+   },
+   "hazir_mi": true
+  },
+  {
+   "yama": "denetim\\yer_yama_avrupa_dayanak_1923.js",
+   "degisken": "YER_YAMA_AVRUPA_DAYANAK_1923",
+   "kayit_sayisi": 21,
+   "kullanilan_benzersiz_kimlik": 8,
+   "kimlikler": [
+    "danimarka",
+    "finlandiya",
+    "isvec",
+    "norvec",
+    "norvec-kralligi",
+    "rusya",
+    "rusya-gecici-hukumet",
+    "sovyet-rusya"
+   ],
+   "kimlik_durum": {
+    "danimarka": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "finlandiya": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "isvec": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "norvec": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "norvec-kralligi": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "rusya": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "rusya-gecici-hukumet": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "sovyet-rusya": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    }
+   },
+   "hazir_mi": true
+  },
+  {
+   "yama": "denetim\\yer_yama_avrupa_isvec_1923.js",
+   "degisken": "YER_YAMA_AVRUPA_ISVEC_1923",
+   "kayit_sayisi": 42,
+   "kullanilan_benzersiz_kimlik": 6,
+   "kimlikler": [
+    "finlandiya",
+    "isvec",
+    "isvec-birlik-oncesi",
+    "rusya",
+    "rusya-gecici-hukumet",
+    "sovyet-rusya"
+   ],
+   "kimlik_durum": {
+    "finlandiya": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "isvec": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "isvec-birlik-oncesi": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "rusya": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "rusya-gecici-hukumet": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "sovyet-rusya": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    }
+   },
+   "hazir_mi": true
+  },
+  {
+   "yama": "denetim\\yer_yama_balkan_1923.js",
+   "degisken": "YER_YAMA_BALKAN_1923",
+   "kayit_sayisi": 11,
+   "kullanilan_benzersiz_kimlik": 10,
+   "kimlikler": [
+    "bogdan",
+    "eflak",
+    "karadag",
+    "romanya",
+    "romanya-kralligi",
+    "rusya",
+    "rusya-gecici-hukumet",
+    "sirbistan",
+    "sovyet-rusya",
+    "yugoslavya"
+   ],
+   "kimlik_durum": {
+    "bogdan": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "eflak": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "karadag": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "romanya": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "romanya-kralligi": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "rusya": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "rusya-gecici-hukumet": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "sirbistan": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "sovyet-rusya": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "yugoslavya": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    }
+   },
+   "hazir_mi": true
+  },
+  {
+   "yama": "denetim\\yer_yama_balkan_avusturya_BEKLIYOR.js",
+   "degisken": "YER_YAMA_BALKAN_AVUSTURYA_BEKLIYOR",
+   "kayit_sayisi": 1,
+   "kullanilan_benzersiz_kimlik": 2,
+   "kimlikler": [
+    "avusturya",
+    "avusturya-cumhuriyet"
+   ],
+   "kimlik_durum": {
+    "avusturya": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "avusturya-cumhuriyet": {
+     "kunye": "mevcut",
+     "renk": "bekliyor:denetim\\ONERI-RENK-0907.json"
+    }
+   },
+   "hazir_mi": false
+  },
+  {
+   "yama": "denetim\\yer_yama_guyana.js",
+   "degisken": "YER_YAMA_GUYANA",
+   "kayit_sayisi": 5,
+   "kullanilan_benzersiz_kimlik": 8,
+   "kimlikler": [
+    "fransa",
+    "fransa-cumhuriyet",
+    "fransiz-guyanasi",
+    "hollanda",
+    "hollanda-guyanasi",
+    "ingiliz-guyanasi",
+    "ingiltere",
+    "portekiz"
+   ],
+   "kimlik_durum": {
+    "fransa": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "fransa-cumhuriyet": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "fransiz-guyanasi": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "hollanda": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "hollanda-guyanasi": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "ingiliz-guyanasi": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "ingiltere": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "portekiz": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    }
+   },
+   "hazir_mi": true
+  },
+  {
+   "yama": "denetim\\yer_yama_isg_yunan_kaynak.js",
+   "degisken": "YER_YAMA_ISG_YUNAN_KAYNAK",
+   "kayit_sayisi": 25,
+   "kullanilan_benzersiz_kimlik": 1,
+   "kimlikler": [
+    "yunanistan"
+   ],
+   "kimlik_durum": {
+    "yunanistan": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    }
+   },
+   "hazir_mi": true
+  },
+  {
+   "yama": "denetim\\yer_yama_kafkas_rusya.js",
+   "degisken": "YER_YAMA_KAFKAS_RUSYA",
+   "kayit_sayisi": 4,
+   "kullanilan_benzersiz_kimlik": 10,
+   "kimlikler": [
+    "afsar",
+    "altinorda",
+    "iran",
+    "kacar",
+    "kirim",
+    "rusya",
+    "rusya-gecici-hukumet",
+    "safevi",
+    "sovyet-rusya",
+    "zend"
+   ],
+   "kimlik_durum": {
+    "afsar": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "altinorda": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "iran": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "kacar": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "kirim": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "rusya": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "rusya-gecici-hukumet": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "safevi": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "sovyet-rusya": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "zend": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    }
+   },
+   "hazir_mi": true
+  },
+  {
+   "yama": "denetim\\yer_yama_manda_0906.js",
+   "degisken": "YER_YAMA_MANDA_0906",
+   "kayit_sayisi": 58,
+   "kullanilan_benzersiz_kimlik": 14,
+   "kimlikler": [
+    "akkoyunlu",
+    "artuklu",
+    "celayirli",
+    "filistin-mandasi",
+    "fransa-cumhuriyet",
+    "ilhanli",
+    "ingiltere",
+    "irak-kralligi",
+    "karakoyunlu",
+    "memluk",
+    "safevi",
+    "suriye-lubnan-mandasi",
+    "timurlu",
+    "zend"
+   ],
+   "kimlik_durum": {
+    "akkoyunlu": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "artuklu": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "celayirli": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "filistin-mandasi": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "fransa-cumhuriyet": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "ilhanli": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "ingiltere": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "irak-kralligi": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "karakoyunlu": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "memluk": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "safevi": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "suriye-lubnan-mandasi": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "timurlu": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "zend": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    }
+   },
+   "hazir_mi": true
+  },
+  {
+   "yama": "denetim\\yer_yama_moskito.js",
+   "degisken": "YER_YAMA_MOSKITO",
+   "kayit_sayisi": 1,
+   "kullanilan_benzersiz_kimlik": 3,
+   "kimlikler": [
+    "ingiltere",
+    "meksika",
+    "yeni-ispanya"
+   ],
+   "kimlik_durum": {
+    "ingiltere": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "meksika": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "yeni-ispanya": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    }
+   },
+   "hazir_mi": true
+  },
+  {
+   "yama": "denetim\\yer_yama_ortadogu_1923.js",
+   "degisken": "YER_YAMA_ORTADOGU_1923",
+   "kayit_sayisi": 2,
+   "kullanilan_benzersiz_kimlik": 3,
+   "kimlikler": [
+    "ingiltere",
+    "memluk",
+    "urdun-emirligi"
+   ],
+   "kimlik_durum": {
+    "ingiltere": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "memluk": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "urdun-emirligi": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    }
+   },
+   "hazir_mi": true
+  },
+  {
+   "yama": "denetim\\yer_yama_silistre_0906.js",
+   "degisken": "YER_YAMA_SILISTRE_0906",
+   "kayit_sayisi": 1,
+   "kullanilan_benzersiz_kimlik": 5,
+   "kimlikler": [
+    "bulgaristan",
+    "bulgaristan-kralligi",
+    "musa-celebi",
+    "romanya-kralligi",
+    "suleyman-celebi"
+   ],
+   "kimlik_durum": {
+    "bulgaristan": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "bulgaristan-kralligi": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "musa-celebi": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "romanya-kralligi": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "suleyman-celebi": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    }
+   },
+   "hazir_mi": true
+  },
+  {
+   "yama": "denetim\\yer_yama_sutter_0906.js",
+   "degisken": "YER_YAMA_SUTTER_0906",
+   "kayit_sayisi": 1,
+   "kullanilan_benzersiz_kimlik": 2,
+   "kimlikler": [
+    "abd",
+    "meksika"
+   ],
+   "kimlik_durum": {
+    "abd": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "meksika": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    }
+   },
+   "hazir_mi": true
+  },
+  {
+   "yama": "denetim\\yer_yama_tbmm_dort_0906.js",
+   "degisken": "YER_YAMA_TBMM_DORT_0906",
+   "kayit_sayisi": 4,
+   "kullanilan_benzersiz_kimlik": 4,
+   "kimlikler": [
+    "fransa-cumhuriyet",
+    "kilikya-ermeni",
+    "memluk",
+    "tbmm-turkiye"
+   ],
+   "kimlik_durum": {
+    "fransa-cumhuriyet": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "kilikya-ermeni": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "memluk": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "tbmm-turkiye": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    }
+   },
+   "hazir_mi": true
+  },
+  {
+   "yama": "denetim\\yer_yama_timbuktu_tam_0906.js",
+   "degisken": "YER_YAMA_TIMBUKTU_TAM_0906",
+   "kayit_sayisi": 1,
+   "kullanilan_benzersiz_kimlik": 9,
+   "kimlikler": [
+    "arma",
+    "bambara",
+    "fas",
+    "fransa-cumhuriyet",
+    "mali-imparatorlugu",
+    "massina",
+    "songhay-imparatorlugu",
+    "tekrur",
+    "tuareg-ivellemmedan"
+   ],
+   "kimlik_durum": {
+    "arma": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "bambara": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "fas": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "fransa-cumhuriyet": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "mali-imparatorlugu": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "massina": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "songhay-imparatorlugu": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "tekrur": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "tuareg-ivellemmedan": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    }
+   },
+   "hazir_mi": true
+  }
+ ],
+ "kunye_tanimlayan_id_listesi": {
+  "denetim\\ONERI-KUNYE-AMERIKA-1923.json": [
+   "ingiliz-kuzey-amerika"
+  ],
+  "denetim\\ONERI-KUNYE-ASYA-0906.json": [
+   "gvalyar-sindiya",
+   "indor-holkar",
+   "meysur-racaligi"
+  ],
+  "denetim\\ONERI-KUNYE-BALKAN-0906.json": [],
+  "denetim\\ONERI-KUNYE-DUZELTME-AVRUPA-0906.json": [],
+  "denetim\\ONERI-KUNYE-SOMURGE-AMERIKA-0907.json": [
+   "ingiliz-fiji",
+   "ingiliz-jamaika",
+   "ingiliz-trinidad"
+  ],
+  "denetim\\YAMA-KUNYE-1923-0905.json": [
+   "buhara-halk-cumhuriyeti",
+   "filistin-mandasi",
+   "fransiz-guyanasi",
+   "harezm-halk-cumhuriyeti",
+   "hollanda-guyanasi",
+   "ingiliz-guyanasi",
+   "irak-kralligi",
+   "misir-kralligi",
+   "misir-sultanligi",
+   "rif-cumhuriyeti",
+   "suriye-lubnan-mandasi",
+   "tannu-tuva",
+   "urdun-emirligi"
+  ],
+  "denetim\\YAMA-KUNYE-AIR-HADRAMUT-0905.json": [
+   "agadez-sultanligi",
+   "kesiri-sultanligi",
+   "kuayti-sultanligi"
+  ],
+  "denetim\\YAMA-KUNYE-AMMAR-0905.json": [
+   "ammarogullari"
+  ],
+  "denetim\\YAMA-KUNYE-ARMA-0905.json": [
+   "arma"
+  ],
+  "denetim\\YAMA-KUNYE-ARNAVUTLUK-0905.json": [
+   "dukagin",
+   "topia"
+  ],
+  "denetim\\YAMA-KUNYE-HURMUZ-0905.json": [
+   "hurmuz-sultanligi"
+  ],
+  "denetim\\YAMA-KUNYE-NORSE-0905.json": [
+   "norse-gronland"
+  ],
+  "denetim\\YAMA-KUNYE-PIOMBINO-0905.json": [
+   "piombino"
+  ],
+  "denetim\\YAMA-KUNYE-SUDAN-0905.json": [
+   "ingiliz-sudani"
+  ],
+  "denetim\\YAMA-KUNYE-SUTAY-YELMAN-0905.json": [
+   "cemisgezek-beyligi",
+   "sutayogullari"
+  ],
+  "denetim\\YAMA-KUNYE-T-0905.json": [],
+  "denetim\\YAMA-KUNYE-VASSAL-0906.json": [
+   "arvanid-sancagi",
+   "crnojevic-zetasi",
+   "dejanovic-prensligi",
+   "kaheti-kralligi",
+   "konstantin-beyligi",
+   "kumuk-samhalligi",
+   "mekke-serifligi",
+   "orta-macar-kralligi",
+   "sabah-emirligi",
+   "sani-emirligi"
+  ]
+ },
+ "kunye_guncelleyen_id_listesi": {
+  "denetim\\ONERI-KUNYE-AMERIKA-1923.json": [],
+  "denetim\\ONERI-KUNYE-ASYA-0906.json": [],
+  "denetim\\ONERI-KUNYE-BALKAN-0906.json": [
+   "oniki-ada-italyan"
+  ],
+  "denetim\\ONERI-KUNYE-DUZELTME-AVRUPA-0906.json": [],
+  "denetim\\ONERI-KUNYE-SOMURGE-AMERIKA-0907.json": [],
+  "denetim\\YAMA-KUNYE-1923-0905.json": [],
+  "denetim\\YAMA-KUNYE-AIR-HADRAMUT-0905.json": [],
+  "denetim\\YAMA-KUNYE-AMMAR-0905.json": [],
+  "denetim\\YAMA-KUNYE-ARMA-0905.json": [],
+  "denetim\\YAMA-KUNYE-ARNAVUTLUK-0905.json": [],
+  "denetim\\YAMA-KUNYE-HURMUZ-0905.json": [],
+  "denetim\\YAMA-KUNYE-NORSE-0905.json": [],
+  "denetim\\YAMA-KUNYE-PIOMBINO-0905.json": [],
+  "denetim\\YAMA-KUNYE-SUDAN-0905.json": [],
+  "denetim\\YAMA-KUNYE-SUTAY-YELMAN-0905.json": [],
+  "denetim\\YAMA-KUNYE-T-0905.json": [],
+  "denetim\\YAMA-KUNYE-VASSAL-0906.json": []
+ },
+ "renk_boyayan_id_listesi": {
+  "denetim\\ONERI-RENK-0904.json": [
+   "bosna",
+   "ilhanli",
+   "le-hanedani",
+   "norvec-kralligi",
+   "novgorod"
+  ],
+  "denetim\\ONERI-RENK-0907.json": [
+   "avusturya-cumhuriyet"
+  ]
+ },
+ "OLCULEMEDI_kapsam_disi": {
+  "not": "Görev tanımı YALNIZ üç kalıbı adlandırdı (yer_yama_*.js · ONERI-KUNYE-*/YAMA-KUNYE-* · ONERI-RENK-*). Aşağıdaki benzer adlı dosyalar İSTENMEDİĞİ için TARANMADI — kimlik taşıyıp taşımadıkları bilinmiyor.",
+  "dosyalar": [
+   "denetim\\ORTADOGU-YAMA-URDUN-0907.json",
+   "denetim\\YAMA-1923-0905.json",
+   "denetim\\YAMA-1923-BOSLUK-0906.json",
+   "denetim\\YAMA-1923-DUZELTME-0905.json",
+   "denetim\\YAMA-HAYALET-IRAN-0905.json",
+   "denetim\\YAMA-ISG-FAZ2-cukurova.json",
+   "denetim\\YAMA-VASSAL-KID-0906.json",
+   "denetim\\YAMA-ZEND-KACAR-0905.json"
+  ]
+ }
+}

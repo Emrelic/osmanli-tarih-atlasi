@@ -46,7 +46,11 @@
     "Onerilen renk CIZILMEDI — butun sayilar hesaptan.",
     "11 es zamanli kimligin VERIDE noktasi yok ⇒ Viyana/Graz'a mesafeleri OLCULEMEDI. Kisit kumesine ALINMADILAR; biri gercekten yakinsa payim oldugundan kucuk olabilir. Guvensiz yon.",
     "152 kimligin 142'sinin rengi VAR diye dogruladim ama o renklerin BIRBIRIYLE cakisip cakismadigini olcmedim — gorevim renksizleri bulmakti.",
-    "Grep'le 'd:\"x\"' arayip bosluklu yazimi (d: \"x\") KACIRDIM; vm tabanli aletim dogru buldu. Iki alet celisince vm'e guvendim ve dogruydu."
+    "Grep'le 'd:\"x\"' arayip bosluklu yazimi (d: \"x\") KACIRDIM; vm tabanli aletim dogru buldu. Iki alet celisince vm'e guvendim ve dogruydu.",
+    "Uc somurge kunyesinin ONERI dosyasindaki f:/t: degerleri DOGRULANMADI — AMERIKA'nin olcumu, ben kaynaga sormadim.",
+    "Onerilen dort rengin (avusturya-cumhuriyet + uc somurge) hicbiri CIZILMEDI.",
+    "Uc somurge icin 'noktasiz' kimlikler (11-13 adet) mesafe ayaginda OLCULEMEDI ve kisit kumesine ALINMADILAR — biri gercekten yakinsa payim oldugundan kucuk. Guvensiz yon.",
+    "🟡 YAN GOZLEM (gorevim degil, kayda geciyorum): harita penceresi artik box(-180,-60,180,85) — BUTUN DUNYA. 0904 turumda dort Sibirya bosluk kaydimin 'pencere disi' oldugunu ve M-0342 hukmunun SINANAMADIGINI yazmistim; pencere acildigina gore o sinav ARTIK KOSULABILIR. Ben kosmadim — kolum degil."
   ],
   "olcum": {
     "yama_dosyasi": 81,
@@ -108,5 +112,69 @@
     "③ COZULEBILIRLIK": "🟢 TUTTU — tek gercek kalem cozuldu, 4253 gecerli aday. Mazeretim ('kimlikler ayni bolgede kumelenirse uzay daralir') gerekmedi.",
     "④ IKI AYAKLI OLCUT": "🟢 TUTTU ve BEKLEDIGIMDEN GUCLU — 'yaridan fazlasi mesru cikacak' demistim; 113 es zamanli kimligin 101'i (%89) UZAK cikti, kisiti yalniz 12'si bagliyor.",
     "_ozet": "Dort ongorunun ikisi tuttu, ikisi sinirda/bant olarak curudu. Curuyenler bilgi tasidi: ①'in curumesi 'bir sayi iki gunde bayatlar' vakasini ortaya cikardi (BOYALAR 549 -> 578), ②'ninki koprunun sandigimdan yaygin oldugunu gosterdi."
+  },
+  "🔴 KAPSAM DUZELTMESI — 'taban 17→20' DEGIL": {
+    "_olcum_ani": "2026-09-07 01:08",
+    "iddia": "Koordinator: 'TABANIN DEGISTI: 17 → 20. AMERIKA uc yeni somurge kunyesi yazdi.'",
+    "olcum": {
+      "uc_kunye_bekleyen_yamalarda_kullaniliyor_mu": "HAYIR — ucu de yok",
+      "uc_kunye_devletler_js_te_mi": "HAYIR — yalniz denetim/ONERI-KUNYE-SOMURGE-AMERIKA-0907.json icinde ONERI olarak",
+      "yeniden_olculen_taban": "yama dosyasi 81 · benzersiz kimlik 152 · RENKSIZ 2 — DEGISMEDI"
+    },
+    "hukum": "Taban DEGISMEDI. Uc kunye zincirin IKI ADIM yukarisinda: oneri -> devletler.js -> yer_yama -> harita deligi. Bugun delik ACAMAZLAR cunku hicbir veri onlari kullanmiyor. ⇒ Dogru siniflandirma: 'bugunku acik 1 + ONDEN HAZIRLIK 3'.",
+    "nicin_onemli": "'Taban 20' diye kaydedilirse bir sonraki oturum 20 delik arar ve 18'ini bulamaz. Ve AMERIKA'nin kendi uyarisi da bunu soyluyor: kunye TEK BASINA inerse uc ATIL kunye dogar; `s:` zinciri icin ayri bir yer_yama gerekiyor."
+  },
+  "onden_hazirlik_uc_somurge": {
+    "_durum": "Kunyeler HENUZ devletler.js'te DEGIL. Renkler ONDEN hazirlandi ki kunye+yama indiginde renk isi engel olmasin.",
+    "_konum_kaynagi": "Koordinat UYDURULMADI: adalarin bilinen cografi kutusunda VERIDE duran noktalar kullanildi — Fiji: Bau/Suva/Levuka · Jamaika: Spanish Town/Port Royal/Kingston · Trinidad: San Jose de Oruna/Port of Spain.",
+    "renkler": {
+      "ingiliz-fiji": {
+        "hex": "#12e212",
+        "komsu_dE": 81.5,
+        "en_yakin": "ingiltere",
+        "baglayan": 1,
+        "uzak": 234,
+        "noktasiz": 11,
+        "aday": 1401,
+        "konum_noktasi": 3
+      },
+      "ingiliz-jamaika": {
+        "hex": "#abe212",
+        "komsu_dE": 36.8,
+        "en_yakin": "ispanya",
+        "baglayan": 8,
+        "uzak": 370,
+        "noktasiz": 13,
+        "aday": 937,
+        "konum_noktasi": 3
+      },
+      "ingiliz-trinidad": {
+        "hex": "#e212e2",
+        "komsu_dE": 35.8,
+        "en_yakin": "ingiltere",
+        "baglayan": 6,
+        "uzak": 311,
+        "noktasiz": 11,
+        "aday": 877,
+        "konum_noktasi": 2
+      }
+    }
+  },
+  "ucuncu_ayak_sinavi": {
+    "soru": "Koordinatorun sarti: 'Sert ile yumusak kip AYNI cifti AYNI kovaya koyuyorsa o ayak bir OLCUT DEGIL bir ON KOSULDUR, ve eklenmez.'",
+    "olcum": {
+      "olculen_cift": 24495,
+      "karar_degistiren": 1551,
+      "oran": "6.3%"
+    },
+    "ornekler": [
+      "#3d3d8f vs ingiltere: sert 21.6 · yumusak 11.1",
+      "#4949ab vs ingiltere: sert 22.8 · yumusak 11.4",
+      "#6262bc vs ingiltere: sert 23.6 · yumusak 11.6",
+      "#353172 vs ingiltere: sert 24.3 · yumusak 11.9",
+      "#433d8f vs ingiltere: sert 20.0 · yumusak 10.1"
+    ],
+    "🟢 HUKUM": "AYAK AYIRT EDIYOR ⇒ OLCUTTUR, on kosul degil. Sert kipte guvenli gorunen bir renk (dE 21.6) yumusak kipte esigin ALTINA dusuyor (11.1). Tek kipte olcen, gercek bir ihlali KACIRIR. ⇒ dE iki kipte de olculup KUCUGU alinmali.",
+    "nicin_ingiltere": "Ayirt eden ciftlerin ornekleri hep `ingiltere` ile — beklenen, cunku bunlar Ingiliz somurgeleri ve Ingiltere'ye komsu/yakin."
   }
 }

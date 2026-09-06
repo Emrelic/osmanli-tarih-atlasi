@@ -1,0 +1,45 @@
+{
+ "sonuc": {
+  "ingiliz-fiji": {
+   "hex": "#12e212",
+   "komsu_dE": 81.5,
+   "en_yakin": "ingiltere",
+   "baglayan": 1,
+   "uzak": 234,
+   "noktasiz": 11,
+   "aday": 1401,
+   "konum_noktasi": 3
+  },
+  "ingiliz-jamaika": {
+   "hex": "#abe212",
+   "komsu_dE": 36.8,
+   "en_yakin": "ispanya",
+   "baglayan": 8,
+   "uzak": 370,
+   "noktasiz": 13,
+   "aday": 937,
+   "konum_noktasi": 3
+  },
+  "ingiliz-trinidad": {
+   "hex": "#e212e2",
+   "komsu_dE": 35.8,
+   "en_yakin": "ingiltere",
+   "baglayan": 6,
+   "uzak": 311,
+   "noktasiz": 11,
+   "aday": 877,
+   "konum_noktasi": 2
+  }
+ },
+ "ucuncu_ayak": {
+  "ayirt_eden": 1551,
+  "toplam": 24495,
+  "ornek": [
+   "#3d3d8f vs ingiltere: sert 21.6 · yumusak 11.1",
+   "#4949ab vs ingiltere: sert 22.8 · yumusak 11.4",
+   "#6262bc vs ingiltere: sert 23.6 · yumusak 11.6",
+   "#353172 vs ingiltere: sert 24.3 · yumusak 11.9",
+   "#433d8f vs ingiltere: sert 20.0 · yumusak 10.1"
+  ]
+ }
+}

@@ -1,20 +1,21 @@
 {
   "oturum": "DAYANAK KUZEY AMERİKA",
   "kol": "⑬",
-  "damga": "2026-09-07 01:06",
+  "damga": "2026-09-07 01:10",
   "_NOT": "Dayanaksiz GUN defterinin (DAYANAK-GUNLER-0907.json) `sahip` = KUZEY-AMERIKA kovasi. Borcun birimi NOKTA degil GUN; bir gune bir dayanak yuzlerce noktayi birden kaynaklandirir.",
   "_KAYNAK_KALITESI": "UC KADEME, karistirilmaz. BIRINCIL = belgenin KENDI metni okundu (Avalon/Yale · OSU Kappler Tribal Treaties Database · Government of Canada antlasma metinleri · imparatorluk emirnamesi). KURUMSAL = akademik/kurumsal referansin GOVDESI okundu (Canadian Encyclopedia imzali madde · US National Park Service). 🟡 ARAMA-OZETI = YALNIZ arama motorunun ozeti gorulду, GOVDE ACILMADI ⇒ bu bir DAYANAK DEGIL bir IZDIR; bir sonraki tur govdeyi acmali. `okumadim` damgasinin yumusak hali, ve `bulunamadi` ile KARISTIRILMAZ.",
   "ozet": {
     "kovadaki_gun": 124,
     "kovadaki_nokta": 579,
-    "dayanak_yazilan_gun": 18,
-    "dayanak_yazilan_nokta": 381,
+    "dayanak_yazilan_gun": 19,
+    "dayanak_yazilan_nokta": 386,
     "birincil": 11,
-    "kurumsal": 3,
-    "arama_ozeti": 4,
+    "kurumsal": 4,
+    "karma_yil_kurumsal_gun_arama": 2,
+    "arama_ozeti": 2,
     "devredilen_paylasilan": 1,
-    "yazilmayan_gun": 105,
-    "yazilmayan_nokta": 142
+    "yazilmayan_gun": 104,
+    "yazilmayan_nokta": 137
   },
   "_BEKLEYEN_PAYLASILAN_GUN": {
     "gun": "1763-02-10",
@@ -37,10 +38,10 @@
     {
       "gun": "1821-09-27",
       "nokta": 81,
-      "damga": "🟡 ARAMA-OZETI",
-      "kaynak": "Encyclopaedia Britannica, «Army of the Three Guarantees».",
-      "alinti": "«The independence of Mexico was consummated after Iturbide entered Mexico City at the head of his troops on September 27, 1821.»",
-      "aciklama": "Meksika bagimsizliginin tamamlanmasi — Iturbide'nin Uc Garanti Ordusu'nun basinda Mexico City'ye girisi. 🔴 GOVDE OKUNMADI: Britannica bu turda Cloudflare kontroluyle karsiladi (sayfa 'Bir dakika lutfen...' dondu, gövde 0 karakter). Alinti ARAMA OZETINDEN. ⇒ Bu bir DAYANAK DEGIL bir IZDIR; bir sonraki tur govdeyi acmali ya da baska kurumsal kaynak (LoC 'Plan for Independence of America Septentrional' — WebFetch 403 verdi) denemeli."
+      "damga": "KURUMSAL",
+      "kaynak": "Secretaría de la Defensa Nacional (Meksika Milli Savunma Bakanligi), «27 de septiembre de 1821, Consumación de la Independencia de México» — gob.mx. Sayfa metni OKUNDU.",
+      "alinti": "AYNEN: «el Ejército Trigarante entró triunfante a la Ciudad de México el 27 de septiembre de 1821, dando así por consumada la lucha de independencia»",
+      "aciklama": "Meksika bagimsizliginin tamamlanmasi — Uc Garanti Ordusu'nun Mexico City'ye zaferle girisi. 🟢 DAMGA YUKSELTILDI: kalem 1'de 🟡 ARAMA-OZETI idi (Britannica Cloudflare'a takilmis, LoC 403 vermisti). Koordinatorun onerisi uzerine Meksika kurumsal kaynaklarina bakildi ve Milli Savunma Bakanligi'nin kendi metni bulundu. ⚠️ VE BIR AYRIM: koordinator «Acta de Independencia» metnini onermisti; o belge 28 EYLUL 1821 tarihlidir, defterdeki gun ise 27 EYLUL. Ikisi AYRI OLAY: 27'si ORDUNUN GIRISI, 28'i BELGENIN IMZASI. Acta'yi kullansaydim BASKA BIR GUNU kaynaklandirmis olurdum. ⇒ Onerilen kaynak dogruydu ama BASKA BIR SORUNUN cevabiydi; defterin gunu icin girisin kendi kaynagi gerekiyordu. 📌 Ayrica Archivo General de la Nación bulteninde (bagn.archivos.gob.mx) ayni gunu anlatan bir makale var — OKUMADIM, ikinci bagimsiz dogrulama icin aday."
     },
     {
       "gun": "1880-09-01",
@@ -115,6 +116,14 @@
       "aciklama": "Ispanya-ABD savasini bitiren Paris Antlasmasi: Kuba uzerindeki egemenlik birakiliyor; Porto Riko, Guam ve Filipinler ABD'ye devrediliyor."
     },
     {
+      "gun": "1858-08-02",
+      "nokta": 5,
+      "damga": "🟡 ARAMA-OZETI (gun) + KURUMSAL (yil)",
+      "kaynak": "The Canadian Encyclopedia, «British Columbia and Confederation» — Jon Tattrie; guncelleyen Eli Yarhi, Andrew McIntosh. Govde TARAYICIDAN OKUNDU (7.136 karakter).",
+      "alinti": "GOVDEDEN AYNEN: «The colony of British Columbia was founded in 1858 in response to the Fraser River Gold Rush.» — ARAMA OZETINDEN (govdede BULAMADIM): «On 2 August 1858, an imperial act established the mainland colony of British Columbia under the authority of Governor James Douglas.»",
+      "aciklama": "Ingiliz Kolumbiyasi anakara somurgesinin kurulusu. 🔴 HASSASIYET AYRIMI: ansiklopedi govdesi YILI kesin veriyor (1858) ama GUNU (2 Agustos, imparatorluk yasasi) govdede BULAMADIM — o yalniz arama ozetinde. ⇒ Yil KURUMSAL, gun 🟡. `1535-04-17` ile ayni desen. Bir sonraki tur: yasanin kendi metni (bclaws.gov.bc.ca pre-Confederation statutes) acilabilir — birincil belge yolu ACIK ve denenmedi."
+    },
+    {
       "gun": "1876-08-23",
       "nokta": 4,
       "damga": "BIRINCIL",
@@ -179,19 +188,6 @@
         "ispanya",
         "abd",
         "yeni-ispanya"
-      ],
-      "damga": "okumadim",
-      "takvim": "gregoryen"
-    },
-    {
-      "gun": "1858-08-02",
-      "nokta": 5,
-      "kimlik": [
-        "hayda",
-        "ingiliz-kuzey-amerika",
-        "nuxalk",
-        "secwepemc",
-        "nuu-cah-nulth"
       ],
       "damga": "okumadim",
       "takvim": "gregoryen"
@@ -1188,5 +1184,30 @@
       "aciklama": "97 gun · 522 nokta. Gregoryen guvenli."
     },
     "🔴 AYRI_VAKA_1867-10-18": "Alaska devri — TAKVIM SINIRI 1582 DEGIL. Rusya 1867'de HALA JULYEN kullaniyordu (Gregoryen'e 1918'de gecti). Ayni an Rus tarafi icin 6 Ekim, Amerikan tarafi icin 18 Ekim'dir. Defterdeki gun (1867-10-18) GREGORYEN ve ABD tarafinin gunudur; NPS kaynagi da o gunu veriyor. ⇒ Bu bir CELISKI DEGIL, iki takvimin AYNI ANI. 📌 Ve dersi genel: takvim sorusu yalniz 1582 oncesinde degil, JULYEN KULLANAN BIR DEVLETIN taraf oldugu HER gunde sorulur. ⚠️ OLCMEDIM: kovamda Rusya'nin taraf oldugu baska gun var mi (1784-08-14 alutiiq/rusya bir aday) — bir sonraki turun isi."
+  },
+  "_DEVIR": {
+    "_NOT": "Bir sonraki tur / oturum icin. Kaynak hatti KURULU ve calisiyor.",
+    "CALISAN_KAYNAK_HATTI": {
+      "avalon.law.yale.edu": "BIRINCIL antlasma metinleri. WebFetch'e ACIK (403 vermiyor). ABD antlasmalari icin ilk durak.",
+      "treaties.okstate.edu": "OSU Tribal Treaties Database (Kappler, «Indian Affairs: Laws and Treaties»). BIRINCIL. WebFetch'e ACIK. ABD-yerli antlasmalarinin TAMAMI burada; kovamdaki yerli gunlerin dogal kaynagi.",
+      "rcaanc-cirnac.gc.ca": "Government of Canada, «Treaty Texts». BIRINCIL. WebFetch'e ACIK. Numarali antlasmalar (Treaty 1-11) burada.",
+      "gob.mx": "Meksika devlet kurumlari. WebFetch'e ACIK. SEDENA ve AGN koleksiyonlari Meksika gunleri icin calisiyor.",
+      "nps.gov / history.state.gov": "ABD kurumsal. WebFetch'e ACIK.",
+      "historia-hispanica.rah.es": "Real Academia de la Historia. TARAYICI gerekiyor. Ispanyol figurleri icin en yetkili kaynak.",
+      "thecanadianencyclopedia.ca": "TARAYICI gerekiyor (WebFetch 403).",
+      "britannica.com": "🔴 WebFetch 403 VE tarayicida Cloudflare cikabiliyor. Bugun bir kez basarili, bir kez engellendi. Ve DIKKAT: bazi sayfalari YZ URETIMI ozet (bkz. CLAUDE.md §4 besinci tuzak) — 'Quick Summary' ve 'created ... using AI' ibaresi varsa KULLANILMAZ.",
+      "loc.gov": "🔴 WebFetch 403 verdi."
+    },
+    "SIRADAKI_AGIRLIKLI_GUNLER": [
+      "1803-12-20 (5) Louisiana'nin New Orleans'ta resmi devri — history.state.gov milestone sayfasi GUN VERMIYOR (okundu). Baska yol gerekiyor.",
+      "1902-05-20 (4) Kuba Cumhuriyeti — history.state.gov 404 verdi.",
+      "1762-11-03 (4) Fontainebleau on antlasmasi (Louisiana'nin Ispanya'ya gizli devri) — Avalon'da olabilir, DENENMEDI.",
+      "1876-08-23 ve 1899-06-21 YAZILDI; kalan yerli antlasma gunleri (1850-09-07 Robinson · 1885-05-12 Batoche · 1725-12-15 Dummer · 1699-04-08 · 1791-07-02 · 1832-03-24) icin OSU ve Kanada hatti HAZIR."
+    ],
+    "UC_YUKSELTILECEK_DAMGA": [
+      "1832-03-24 Creeks 1832 — adres biliniyor: treaties.okstate.edu/treaties/treaty-with-the-creeks-1832-0341",
+      "1791-07-02 Cherokee 1791 — adres biliniyor: treaties.okstate.edu/treaties/treaty-with-the-cherokee-1791-0029",
+      "1535-04-17 ve 1858-08-02 — GUNU govdede bulunamadi, YILI kurumsal. Birincil belge yollari acik (RAH tam biyografi · bclaws.gov.bc.ca)."
+    ]
   }
 }

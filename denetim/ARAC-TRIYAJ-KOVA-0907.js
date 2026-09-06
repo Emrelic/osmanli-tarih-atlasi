@@ -154,14 +154,18 @@ const KUME = [
             "aşağıda.", kaynak:"genel bilgi", damga:"genel-bilgi" },
 
   // ══════════ İTALYA ══════════
-  { kimlik:"italya", kume:"Oniki Ada (Dodekanez)", kova:"ILHAK",
+  { kimlik:"italya", kume:"Oniki Ada (Dodekanez)", kova:"SINIRDA",
     esle: kutu(35.0, 37.5, 26.0, 29.0),
     gerekce:"1912'den İtalyan işgali; **Lozan (1923-07-24) md. 15 ile Türkiye "+
             "adaları İtalya'ya TERK ETTİ** ⇒ 1923-10-28'de İtalyan egemen "+
             "toprağı. Metropol kimliği savunulabilir. ⚠️ Ama 1923-10-28'de "+
             "Lozan HENÜZ ONAYLANMAMIŞTI (yürürlük 1924-08-06); fiilî durum "+
             "işgal + de facto devir. Gün seçimi ayrı bir sorudur — Ege kolu "+
-            "bu adları YAMADA kapsıyor (13/13 *YAMA).",
+            "bu adları YAMADA kapsıyor (13/13 *YAMA). "+
+            "🔴 KOVA İLHAK'TAN SINIRDA'YA TAŞINDI (koordinatör hükmü, 7 Eylül): "+
+            "İLHAK kovasına yanlış konan kayıt SESSİZCE DOĞRU SAYILIR, ve "+
+            "buradaki şüphe gerekçenin KENDİ İÇİNDE yazılıydı. Kararsız "+
+            "bırakmak, yanlış tarafa kesin karar vermekten ucuz.",
     kaynak:"Lozan Antlaşması md. 15", damga:"genel-bilgi" },
 
   { kimlik:"italya", kume:"Libya (Trablusgarp + Sirenayka + Fizan)", kova:"ILHAK",
@@ -258,7 +262,7 @@ KUME.push(
             "künyesi VAR, ORTADOĞU kolu ölçtü). Ayrı kimlik gerekiyor.",
     kaynak:"genel bilgi + ORTADOĞU kolu ölçümü", damga:"genel-bilgi" },
 
-  { kimlik:"ingiltere", kume:"Kıbrıs", kova:"ILHAK",
+  { kimlik:"ingiltere", kume:"Kıbrıs", kova:"SINIRDA",
     esle: ad("Lefkoşa","Magosa","Girne (Kyrenia)","Limasol","Baf (Paphos)",
              "Tuzla (Larnaka)"),
     gerekce:"🔴 METROPOL KİMLİĞİ SAVUNULABİLİR. 1878'den İngiliz idaresi "+
@@ -267,7 +271,10 @@ KUME.push(
             "TANIDI** ⇒ 1923-10-28'de İngiliz egemen toprağı. Crown Colony "+
             "ilanı 1925'te. ⚠️ Ama idare AYRIYDI (kendi valisi, kendi "+
             "kanunları) ⇒ İLHAK/SÖMÜRGE sınırında. `kibris-ingiliz` künyesi "+
-            "VAR ve ÂTIL — âtıl kalması bir SEÇİM olarak savunulabilir.",
+            "VAR ve ÂTIL — âtıl kalması bir SEÇİM olarak savunulabilir. "+
+            "🔴 KOVA İLHAK'TAN SINIRDA'YA TAŞINDI: iki yön de güçlü "+
+            "(1914 ilhak ⇒ İLHAK · ayrı idare + hazır künye ⇒ SÖMÜRGE) ve "+
+            "İLHAK'ta bırakmak şüpheyi GÖRÜNMEZ kılardı.",
     kaynak:"Lozan md. 20 + 1914 ilhak", damga:"genel-bilgi" },
 
   { kimlik:"ingiltere", kume:"Cebelitarık", kova:"ILHAK",
@@ -296,13 +303,15 @@ KUME.push(
             "(Crown Colony) — koordinatör seçmeli.",
     kaynak:"Nanking 1842 + 1898 kira sözleşmesi", damga:"genel-bilgi" },
 
-  { kimlik:"ingiltere", kume:"Aden", kova:"ILHAK",
+  { kimlik:"ingiltere", kume:"Aden", kova:"SINIRDA",
     esle: ad("Aden"),
     gerekce:"1839'da fetih; 1923'te **Britanya Hindistanı'nın parçası** "+
             "(Bombay Başkanlığı'na bağlı Aden Settlement). Yani ayrı bir "+
             "polity değil, başka bir İngiliz idarî bütününün içinde. "+
             "⚠️ Metropol kimliği yine de tam doğru değil: doğrusu "+
-            "`ingiliz-hindistani` olabilir. Ayrıca sorulmalı.",
+            "`ingiliz-hindistani` olabilir. Ayrıca sorulmalı. "+
+            "🔴 KOVA İLHAK'TAN SINIRDA'YA TAŞINDI: şüphe zaten bu "+
+            "gerekçenin İÇİNDE yazılıydı ve İLHAK damgası onu susturuyordu.",
     kaynak:"genel bilgi", damga:"genel-bilgi" },
 
   { kimlik:"ingiltere", kume:"Aden Protektorası (Hadramut)", kova:"HIMAYE",
@@ -529,6 +538,18 @@ KUME.push(
             "⚠️ Bu küme ikinci bir triyaj hak ediyor.",
     kaynak:"genel bilgi", damga:"genel-bilgi" },
 
+  { kimlik:"ingiltere", kume:"Moskito Sahili (Río Tinto)", kova:"KUSUR-ADAYI",
+    esle: ad("Río Tinto (Black River, Moskito kıyısı)"),
+    gerekce:"🔴 TARİH KUSURU — TRİYAJ KALEMİ DEĞİL. AMERİKA kolu ölçtü "+
+            "(7 Eylül): İngiltere Moskito Sahili'nden **1786'da çekildi** "+
+            "(1786 Londra Sözleşmesi), veri 1923'e kadar `ingiltere` "+
+            "boyuyor ⇒ **137 yıllık yanlış kimlik**. Benim kutu-bazlı "+
+            "kümem onu 'Batı Hint Adaları' sömürgesi sayıyordu — yani "+
+            "COĞRAFÎ olarak doğru kümeye, HUKUKÎ olarak yanlış kovaya "+
+            "koymuştum. `yer_yama_moskito.js` bu kalemi zaten yamalıyor.",
+    kaynak:"AMERİKA kolu ölçümü (7 Eylül) + 1786 Londra Sözleşmesi",
+    damga:"devraldım" },
+
   { kimlik:"ingiltere", kume:"Batı Hint Adaları + Orta Amerika", kova:"SOMURGE",
     esle: kutu(5.0, 20.0, -90.0, -55.0),
     gerekce:"Jamaika · Trinidad · Britanya Hondurası · Britanya Guyanası — "+
@@ -602,7 +623,8 @@ if (require.main === module) {
       _DAMGA_SOZLUGU: {
         "dogrulandi": "kaynak gövdesi okundu",
         "genel-bilgi": "standart tarih bilgisi — TDV/akademik gövde OKUNMADI",
-        "okumadım": "aramadım bile — kalem HİÇ AÇILMADI"
+        "okumadım": "aramadım bile — kalem HİÇ AÇILMADI",
+        "devraldım": "BAŞKA BİR KOL ölçtü, ben DOĞRULAMADIM"
       },
       toplam: kayit.length,
       kova_dagilimi: Object.fromEntries(
