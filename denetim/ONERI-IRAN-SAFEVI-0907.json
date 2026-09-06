@@ -82,7 +82,38 @@
         "③ VE `sirvansah` AKTİF OLARAK ELENMİŞ: TDV `sirvan` Osmanlı döneminde Derbend'i Şirvan'dan AYRI bir eyalet gösteriyor («merkezi Demirkapı/Derbend olan Derbend eyaleti»). Bir kimliği ATAMAK için delil aranırken ATAMAMAK için delil çıkmış."
       ],
       "_SILINEMEZ_DE": "🔴 Üçü de kendi `s:` zincirinin **İLK** dönemi ve `kur:` alanları BOŞ ⇒ dönem silinirse 1281'den itibaren **sahipsiz** kalırlar (`Değişmez 1` ihlali). Ölçüldü: örtüşen başka dönem **0**, `kur:` susturması **yok**.",
-      "_DOGRU_SINIF": "Bu bir `bos:` vakası DEĞİL — TDV o coğrafyada bir SIRA sayıyor (İlhanlılar → Altın Orda → Timurlular → Şirvanşahlar → Safevîler), bilmediğimiz **GÜN**. Yani bir boşluk değil bir **TARİH BİLİNMEZLİĞİ**, ve `bos:` onu ifade edemez çünkü ETMEMELİ."
+      "_DOGRU_SINIF": "Bu bir `bos:` vakası DEĞİL — TDV o coğrafyada bir SIRA sayıyor (İlhanlılar → Altın Orda → Timurlular → Şirvanşahlar → Safevîler), bilmediğimiz **GÜN**. Yani bir boşluk değil bir **TARİH BİLİNMEZLİĞİ**, ve `bos:` onu ifade edemez çünkü ETMEMELİ.",
+
+      "_IKINCI_TUR_YESIL_LISTE_TUKETILDI": {
+        "_NIÇIN_GERI_DONDUM": "🔴 Kendi raporumda «denenmemiş kanal: Rusça/Farsça akademik» diye `okumadım` damgası yazmıştım — ve sonra gördüm ki `§4`ün 🟢 YEŞİL LİSTESİ **Encyclopaedia Iranica**'yı ADIYLA sayıyor, ve ne ben ne NEHİR SÜRTÜNME onu açmışız. Beş TDV gövdesi tüketilmişti ama **yeşil listenin ilk maddesi hiç denenmemişti.** ⇒ «Kaynak tükendi» hükmü, yeşil liste denenmeden verilemez.",
+        "_TASIMA_BULGUSU": "🟢 EKİBE: `iranicaonline.org` **`WebFetch` ile HTTP 403** veriyor (yedi slug denendi, yedisi de 403) ama **TARAYICI PANELİNDEN AÇILIYOR**. Britannica ile birebir aynı desen. ⇒ Iranica'yı «erişilemez» diye damgalamış bir oturum varsa o damga YANLIŞ.",
+        "_OKUNAN_UC_MADDE": [
+          {
+            "slug": "darband-i-ancient-city",
+            "ad": "DARBAND — Erich Kettenhofen (Vol. VII, Fasc. 1, ss. 13-19; 1994)",
+            "sonuc": "⚫ PENCEREYİ KAPSAMIYOR. Madde 22/643'teki İslâm fethinde bitiyor ve KENDİ ÇAPRAZ ATFINI veriyor: «For Darband in the Islamic period, see DĀḠESTĀN.»"
+          },
+          {
+            "slug": "dagestan",
+            "ad": "DĀḠESTĀN — Fridrik Thordarson & Gadzhi Gamzatovich Gamzatov (1993, 42.838 karakter)",
+            "sonuc": "⚫ KAPSAMIYOR. Madde DİL ve EDEBİYAT ağırlıklı; 1281-1509 siyasî hâkimiyet zincirini vermiyor. 13.-16. yy'a değen beş cümlenin hepsi kitâbe/epigrafi (1301 vakıf kitâbesi · 1438-39 · 1462 kitâbeleri). Bölüm başlığı taraması: tek bölüm, siyasî tarih alt maddesi YOK."
+          },
+          {
+            "slug": "servansahs",
+            "ad": "ŠERVĀNŠAHS — **Clifford Edmund Bosworth** (11 Şubat 2011)",
+            "sonuc": "🔴🔴 KAPSIYOR VE HÜKMÜ DEĞİŞTİRİYOR — aşağıya bak."
+          }
+        ],
+        "_BOSWORTH_NE_DIYOR": {
+          "alinti_1": "The history of Šervānšāhs was clearly closely bound up with that of another Arab military family, the Hāšemis of Bāb al-abwāb/Darband … with the Šervānšāhs AT TIMES ruling in the latter town (at times invited into Darband by rebellious elements there).",
+          "alinti_2": "The energies of the Yazidi Shahs had to be directed eastwards towards the Caspian, and ON VARIOUS OCCASIONS they expanded as far as Darband.",
+          "alinti_3": "Ebrāhim b. Moḥammad of Darband (780-821/1378-1418) [came to power in Šervān, founding a second line of Shahs]"
+        },
+        "_HUKUM": "🔴 `sirvansah`ı 1281-1509 için SÜREKLİ yazmak YANLIŞ OLURDU. Bosworth iki kez «at times» / «on various occasions» diyor — yani hâkimiyet **ARALIKLI**, ve Darband'ın **kendi hânedanı** var (Bâbü'l-ebvâb Hâşimîleri). Sürekli bir `s:` dönemi bunu ifade edemez.",
+        "_ONCEKI_HUKUM_DOGRULANDI_TESHISI_CURUDU": "🔴🔴 **NEHİR SÜRTÜNME'nin RET KARARI DOĞRUYDU — ama GEREKÇESİ YANLIŞ DÖNEMDEN geliyordu.** Onlar TDV `sirvan`ın **Osmanlı dönemi** idarî ayrımına dayanmıştı («merkezi Demirkapı/Derbend olan Derbend eyaleti»), yani **16.-17. yüzyıla**; oysa tartışılan pencere **1281-1509**. Iranica ret kararını **kendi döneminden** ve **daha güçlü** biçimde destekliyor. ⇒ `§11`: «doğru hüküm, yanlış teşhisle gelebilir» — ve teşhis yazılmasaydı bir sonraki oturum yanlış dönemin delilini çürütüp reddi yeniden açardı.",
+        "_ADIYLA_SONRAKI_ADIM": "🟢 Bosworth'ün kaynakçası, bu sorunun **standart monografisini** adıyla veriyor: **V. Minorsky, «A History of Sharvān and Darband», Cambridge, 1958.** ⇒ `okumadım` damgası artık belirsiz bir «Rusça/Farsça akademik» değil, **TEK BİR ADI OLAN KİTAP.** Bir sonraki oturum tahmin etmeyecek.",
+        "_DAMGA_DEGISIMI": "`okumadım` → **kısmen kapandı**: yeşil listenin ilk maddesi (Iranica) AÇILDI ve ÜÇ maddesi okundu; kalan tek adım adıyla belli (Minorsky 1958). KOVA 3'ün hükmü DEĞİŞMEDİ — hâlâ ÇÖZÜLEMEZ, ama artık **niçin** çözülemediği iki bağımsız ve DOĞRU DÖNEMDEN kaynağa dayanıyor."
+      }
     }
   },
 

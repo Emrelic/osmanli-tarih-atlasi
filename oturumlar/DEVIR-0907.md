@@ -169,6 +169,32 @@ TAHMİN EDİLMİŞ, aranmamış. `incular→incu` ailesinin yeni üyesi.
    (sınır: yalnız Türkçe çoğul ekleri; `--ulke`/`--sehir`/`--iran` sonekleri
    DENENMEDİ ⇒ alt sınır.)
 
+### ③ 🟢 YENİ KURAL — "KAYNAK TÜKENDİ" HÜKMÜ, YEŞİL LİSTE DE DENENMEDEN VERİLEMEZ
+```
+Kaspi üçlüsü için BEŞ TDV gövdesi tüketilmişti
+ama `§4`ün 🟢 listesinin İLK MADDESİ — Encyclopaedia Iranica — HİÇ AÇILMAMIŞTI
+```
+📌 `§4`ün *"TDV'de yok demeden önce ARA"* kuralı **TDV içinde** kalıyordu
+(dar slug → kapsayıcı madde). Bir kademe yukarısı: **liste de tüketilir.**
+
+🔴 **VE IRANICA ERİŞİM DESENİ — Britannica'nın birebir aynısı:**
+`iranicaonline.org` · WebFetch **403** (yedi slug, yedisi de) · **TARAYICI
+PANELİ AÇILIYOR.** Onu *"erişilemez"* diye damgalamış bir kayıt varsa
+**o damga yanlıştır.**
+
+🔴 **VE BİR HÜKÜM AYAKTA KALDI, TEŞHİSİ DEĞİŞTİ:** Kaspi'de `sirvansah`
+reddi DOĞRUYDU ama gerekçesi **yanlış dönemden** geliyordu (TDV `sirvan`ın
+16.-17. yy Osmanlı idarî ayrımı; tartışılan pencere **1281-1509**).
+Iranica `ŠERVĀNŠAHS` (C. E. Bosworth 2011) aynı reddi **kendi döneminden**
+destekliyor: hâkimiyet *"at times"* / *"on various occasions"*, ve
+Darband'ın **kendi hânedanı var** (Hāšemis of Bāb al-abwāb).
+⇒ `§11`: *doğru hüküm, yanlış teşhisle gelebilir* — ve yazılmasaydı bir
+sonraki oturum yanlış dönemin delilini çürütüp reddi **haklı olarak**
+yeniden açardı.
+🟢 Ve `okumadım` artık belirsiz değil: Bosworth'ün kaynakçası standart
+monografiyi **adıyla** veriyor — **V. Minorsky, *A History of Sharvān and
+Darband*, Cambridge 1958.**
+
 ### ⑯ ve ⑰ BOŞTA — sıradaki koordinatör turu görevlendirsin
 
 ## ⑥ KENDİ KUSURLARIM — kayda geçiyor

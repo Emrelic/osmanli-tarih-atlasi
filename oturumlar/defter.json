@@ -53,7 +53,7 @@
  "_olcum": {
   "kaynak": "kutu/emeklilik.py",
   "kosan": 29,
-  "z": "2026-09-07 01:41"
+  "z": "2026-09-07 01:51"
  },
  "oturumlar": {
   "local_01bec65d-b7a3-4814-a006-0e9a3128ab45": {
@@ -225,14 +225,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 154768,
-    "bosta_dk": 435,
+    "bosta_dk": 446,
     "hukum": "✅ sürdür",
     "istek": 20,
     "rol": "koordinator",
     "sebep": "bağlam 155 K < 208 K",
-    "z": "2026-09-07 01:41"
+    "z": "2026-09-07 01:51"
    },
-   "olcum_zamani": "2026-09-07 01:41"
+   "olcum_zamani": "2026-09-07 01:51"
   },
   "local_07041e8f-6913-4062-ae07-28f7ca5b874a": {
    "ad": "Prusya atlas doğrulaması",
@@ -252,14 +252,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 780233,
-    "bosta_dk": 1,
+    "bosta_dk": 11,
     "hukum": "🟡 iş bitti",
     "istek": 1200,
     "rol": "isci",
-    "sebep": "1 dk boşta (eşik 45 dk)",
-    "z": "2026-09-07 01:41"
+    "sebep": "11 dk boşta (eşik 45 dk)",
+    "z": "2026-09-07 01:51"
    },
-   "olcum_zamani": "2026-09-07 01:41"
+   "olcum_zamani": "2026-09-07 01:51"
   },
   "local_092993bf-69a9-40c1-86a1-a0b5028dcd5f": {
    "ad": "DÜNYA PENCERE",
@@ -279,14 +279,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 801708,
-    "bosta_dk": 142,
+    "bosta_dk": 152,
     "hukum": "🔴 EMEKLİ ET",
     "istek": 819,
     "rol": "isci",
-    "sebep": "işini bitirdi ve 142 dk boşta — öğrendiği zaten diskte; beklemek bir sonraki çağrıda tabanı yeniden ödetir",
-    "z": "2026-09-07 01:41"
+    "sebep": "işini bitirdi ve 152 dk boşta — öğrendiği zaten diskte; beklemek bir sonraki çağrıda tabanı yeniden ödetir",
+    "z": "2026-09-07 01:51"
    },
-   "olcum_zamani": "2026-09-07 01:41"
+   "olcum_zamani": "2026-09-07 01:51"
   },
   "local_095cb470-0691-4c86-84de-f2b288e1a319": {
    "ad": "VERİ DEVLET (Ranking)",
@@ -326,14 +326,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 329093,
-    "bosta_dk": 657,
+    "bosta_dk": 668,
     "hukum": "🔴 EMEKLİ ET",
     "istek": 152,
     "rol": "isci",
-    "sebep": "işini bitirdi ve 657 dk boşta — öğrendiği zaten diskte; beklemek bir sonraki çağrıda tabanı yeniden ödetir",
-    "z": "2026-09-07 01:41"
+    "sebep": "işini bitirdi ve 668 dk boşta — öğrendiği zaten diskte; beklemek bir sonraki çağrıda tabanı yeniden ödetir",
+    "z": "2026-09-07 01:51"
    },
-   "olcum_zamani": "2026-09-07 01:41"
+   "olcum_zamani": "2026-09-07 01:51"
   },
   "local_0d2ae9fb-cd9f-41a0-81d6-acde82ea796d": {
    "ad": "TUNA HAVZASI",
@@ -805,14 +805,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 273265,
-    "bosta_dk": 673,
+    "bosta_dk": 683,
     "hukum": "🟡 İŞ BÖLÜNMELİ",
     "istek": 112,
     "rol": "isci",
-    "sebep": "iş bitmedi, 673 dk boşta, bağlam 273 K ≥ 216 K — kalan işi TAZE bir işçiye vermek daha ucuz",
-    "z": "2026-09-07 01:41"
+    "sebep": "iş bitmedi, 683 dk boşta, bağlam 273 K ≥ 216 K — kalan işi TAZE bir işçiye vermek daha ucuz",
+    "z": "2026-09-07 01:51"
    },
-   "olcum_zamani": "2026-09-07 01:41"
+   "olcum_zamani": "2026-09-07 01:51"
   },
   "local_322232bd-a54d-4f2d-b2d4-8b42740b23e6": {
    "ad": "Untitled session",
@@ -966,14 +966,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 450376,
-    "bosta_dk": 667,
+    "bosta_dk": 677,
     "hukum": "🟡 İŞ BÖLÜNMELİ",
     "istek": 387,
     "rol": "isci",
-    "sebep": "iş bitmedi, 667 dk boşta, bağlam 450 K ≥ 216 K — kalan işi TAZE bir işçiye vermek daha ucuz",
-    "z": "2026-09-07 01:41"
+    "sebep": "iş bitmedi, 677 dk boşta, bağlam 450 K ≥ 216 K — kalan işi TAZE bir işçiye vermek daha ucuz",
+    "z": "2026-09-07 01:51"
    },
-   "olcum_zamani": "2026-09-07 01:41"
+   "olcum_zamani": "2026-09-07 01:51"
   },
   "local_3cb6b8b6-1b23-4a8c-94c0-311e745e131e": {
    "ad": "SAVAS ISARETI",
@@ -1025,15 +1025,15 @@
    "model": "?",
    "nobetciler": [],
    "olcum": {
-    "baglam": 676551,
-    "bosta_dk": 0,
+    "baglam": 711232,
+    "bosta_dk": 2,
     "hukum": "🟡 iş bitti",
-    "istek": 400,
+    "istek": 470,
     "rol": "isci",
-    "sebep": "0 dk boşta (eşik 45 dk)",
-    "z": "2026-09-07 01:41"
+    "sebep": "2 dk boşta (eşik 45 dk)",
+    "z": "2026-09-07 01:51"
    },
-   "olcum_zamani": "2026-09-07 01:41"
+   "olcum_zamani": "2026-09-07 01:51"
   },
   "local_439bbe3b-ec4a-40ec-97b8-439f8d1c0979": {
    "ad": "ARAŞTIRMA KÜNYE 2",
@@ -1254,14 +1254,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 374566,
-    "bosta_dk": 433,
+    "bosta_dk": 443,
     "hukum": "🔴 EMEKLİ ET",
     "istek": 240,
     "rol": "isci",
-    "sebep": "işini bitirdi ve 433 dk boşta — öğrendiği zaten diskte; beklemek bir sonraki çağrıda tabanı yeniden ödetir",
-    "z": "2026-09-07 01:41"
+    "sebep": "işini bitirdi ve 443 dk boşta — öğrendiği zaten diskte; beklemek bir sonraki çağrıda tabanı yeniden ödetir",
+    "z": "2026-09-07 01:51"
    },
-   "olcum_zamani": "2026-09-07 01:41"
+   "olcum_zamani": "2026-09-07 01:51"
   },
   "local_4acb2000-87d9-4f54-9720-a02b738e9bb7": {
    "ad": "OPUS HAZIR KITA 124",
@@ -1278,7 +1278,7 @@
      "baslangic": "2026-09-07 00:50",
      "betik": "tahta_bekci.py",
      "cmd": "C:\\Program Files\\Git\\bin\\bash.exe -c source /c/Users/emrem/.claude/shell-snapshots/snapshot-bash-1788731437892-br265v.sh 2>/dev/null || true && export TEMP='C:\\Users\\emrem\\AppData\\Local\\Temp' TMP='C:\\Users\\emrem\\AppData\\",
-     "dakika": 50,
+     "dakika": 60,
      "dongu": false,
      "kim": "OPUS HAZIR KITA 124",
      "pid": 11480
@@ -1288,7 +1288,7 @@
      "baslangic": "2026-09-07 00:50",
      "betik": "tahta_bekci.py",
      "cmd": "C:\\Program Files\\Git\\bin\\..\\usr\\bin\\bash.exe -c source /c/Users/emrem/.claude/shell-snapshots/snapshot-bash-1788731437892-br265v.sh 2>/dev/null || true && export TEMP='C:\\Users\\emrem\\AppData\\Local\\Temp' TMP='C:\\Users\\emr",
-     "dakika": 50,
+     "dakika": 60,
      "dongu": false,
      "kim": "OPUS HAZIR KITA 124",
      "pid": 15888
@@ -1298,22 +1298,22 @@
      "baslangic": "2026-09-07 00:50",
      "betik": "tahta_bekci.py",
      "cmd": "C:\\Program Files\\Git\\bin\\..\\usr\\bin\\bash.exe -c source /c/Users/emrem/.claude/shell-snapshots/snapshot-bash-1788731437892-br265v.sh 2>/dev/null || true && export TEMP='C:\\Users\\emrem\\AppData\\Local\\Temp' TMP='C:\\Users\\emr",
-     "dakika": 50,
+     "dakika": 60,
      "dongu": false,
      "kim": "OPUS HAZIR KITA 124",
      "pid": 20028
     }
    ],
    "olcum": {
-    "baglam": 666446,
-    "bosta_dk": 0,
+    "baglam": 704193,
+    "bosta_dk": 1,
     "hukum": "🟡 iş bitti",
-    "istek": 319,
+    "istek": 352,
     "rol": "isci",
-    "sebep": "0 dk boşta (eşik 45 dk)",
-    "z": "2026-09-07 01:41"
+    "sebep": "1 dk boşta (eşik 45 dk)",
+    "z": "2026-09-07 01:51"
    },
-   "olcum_zamani": "2026-09-07 01:41"
+   "olcum_zamani": "2026-09-07 01:51"
   },
   "local_4cb3d3a4-5700-4ae3-8a92-70fc067ed2e5": {
    "ad": "MOTOR",
@@ -1490,14 +1490,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 956664,
-    "bosta_dk": 4,
+    "bosta_dk": 14,
     "hukum": "🟡 iş bitti",
     "istek": 1279,
     "rol": "isci",
-    "sebep": "4 dk boşta (eşik 45 dk)",
-    "z": "2026-09-07 01:41"
+    "sebep": "14 dk boşta (eşik 45 dk)",
+    "z": "2026-09-07 01:51"
    },
-   "olcum_zamani": "2026-09-07 01:41"
+   "olcum_zamani": "2026-09-07 01:51"
   },
   "local_4fadb6a7-f8ca-431e-ac07-19ffc97b3cd1": {
    "ad": "ÇAPRAZ İRAN",
@@ -1541,14 +1541,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 900952,
-    "bosta_dk": 1,
+    "bosta_dk": 11,
     "hukum": "🟡 iş bitti",
     "istek": 550,
     "rol": "isci",
-    "sebep": "1 dk boşta (eşik 45 dk)",
-    "z": "2026-09-07 01:41"
+    "sebep": "11 dk boşta (eşik 45 dk)",
+    "z": "2026-09-07 01:51"
    },
-   "olcum_zamani": "2026-09-07 01:41"
+   "olcum_zamani": "2026-09-07 01:51"
   },
   "local_55f9e251-a9ee-4ee9-809e-80895deb6350": {
    "ad": "MOTOR 2",
@@ -1624,14 +1624,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 719342,
-    "bosta_dk": 6,
+    "bosta_dk": 16,
     "hukum": "🟡 İŞ BÖLÜNMELİ",
     "istek": 1011,
     "rol": "isci",
-    "sebep": "iş bitmedi, 6 dk boşta, bağlam 719 K ≥ 216 K — kalan işi TAZE bir işçiye vermek daha ucuz",
-    "z": "2026-09-07 01:41"
+    "sebep": "iş bitmedi, 16 dk boşta, bağlam 719 K ≥ 216 K — kalan işi TAZE bir işçiye vermek daha ucuz",
+    "z": "2026-09-07 01:51"
    },
-   "olcum_zamani": "2026-09-07 01:41"
+   "olcum_zamani": "2026-09-07 01:51"
   },
   "local_597c562e-e7ff-46d9-b338-c758e39cb4d3": {
    "ad": "Opus hazır kıta 5",
@@ -1924,15 +1924,15 @@
    "model": "?",
    "nobetciler": [],
    "olcum": {
-    "baglam": 751456,
+    "baglam": 798311,
     "bosta_dk": 0,
     "hukum": "🔴 ÖNCE YAZ",
-    "istek": 14002,
+    "istek": 14037,
     "rol": "koordinator",
-    "sebep": "bağlam 751 K ≥ 208 K (taze tabanın 2 katı) VE depoda 200 dosya commit'siz — sıkıştırmadan ya da devretmeden ÖNCE hasat: yazılmamış olan, iki yolda da kaybolur",
-    "z": "2026-09-07 01:41"
+    "sebep": "bağlam 798 K ≥ 208 K (taze tabanın 2 katı) VE depoda 197 dosya commit'siz — sıkıştırmadan ya da devretmeden ÖNCE hasat: yazılmamış olan, iki yolda da kaybolur",
+    "z": "2026-09-07 01:51"
    },
-   "olcum_zamani": "2026-09-07 01:41"
+   "olcum_zamani": "2026-09-07 01:51"
   },
   "local_6f4a0887-83bf-4edb-b701-478a143605aa": {
    "ad": "ŞEHİR -KARTI",
@@ -2017,14 +2017,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 515767,
-    "bosta_dk": 92,
+    "bosta_dk": 103,
     "hukum": "🔴 ÖNCE YAZ",
     "istek": 959,
     "rol": "koordinator",
-    "sebep": "bağlam 516 K ≥ 208 K (taze tabanın 2 katı) VE depoda 200 dosya commit'siz — sıkıştırmadan ya da devretmeden ÖNCE hasat: yazılmamış olan, iki yolda da kaybolur",
-    "z": "2026-09-07 01:41"
+    "sebep": "bağlam 516 K ≥ 208 K (taze tabanın 2 katı) VE depoda 197 dosya commit'siz — sıkıştırmadan ya da devretmeden ÖNCE hasat: yazılmamış olan, iki yolda da kaybolur",
+    "z": "2026-09-07 01:51"
    },
-   "olcum_zamani": "2026-09-07 01:41"
+   "olcum_zamani": "2026-09-07 01:51"
   },
   "local_72db58e6-1b2d-4747-a90f-3554ddff5d25": {
    "ad": "NOKTA HALKA-2 2",
@@ -2175,14 +2175,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 776703,
-    "bosta_dk": 847,
+    "bosta_dk": 857,
     "hukum": "🟡 SESSİZ",
     "istek": 461,
     "rol": "isci",
-    "sebep": "14.1 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 777 K",
-    "z": "2026-09-07 01:41"
+    "sebep": "14.3 saattir hareket yok, bitti beyanı da YOK — canlı mı ölü mü SORULMALI (F15) · bağlam 777 K",
+    "z": "2026-09-07 01:51"
    },
-   "olcum_zamani": "2026-09-07 01:41"
+   "olcum_zamani": "2026-09-07 01:51"
   },
   "local_8aae7ac2-1d69-49dd-8bf7-5908724bae6c": {
    "acilis": "2026-09-04 10:24",
@@ -2434,14 +2434,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 941645,
-    "bosta_dk": 2460,
+    "bosta_dk": 2470,
     "hukum": "🔴 EMEKLİ ET",
     "istek": 745,
     "rol": "isci",
-    "sebep": "işini bitirdi ve 2460 dk boşta — öğrendiği zaten diskte; beklemek bir sonraki çağrıda tabanı yeniden ödetir",
-    "z": "2026-09-07 01:41"
+    "sebep": "işini bitirdi ve 2470 dk boşta — öğrendiği zaten diskte; beklemek bir sonraki çağrıda tabanı yeniden ödetir",
+    "z": "2026-09-07 01:51"
    },
-   "olcum_zamani": "2026-09-07 01:41"
+   "olcum_zamani": "2026-09-07 01:51"
   },
   "local_93578728-3ebc-4f1a-b2b1-0c37d2b76ac5": {
    "ad": "MOTOR MALİYET",
@@ -2575,14 +2575,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 824479,
-    "bosta_dk": 1616,
+    "bosta_dk": 1626,
     "hukum": "🔴 EMEKLİ ET",
     "istek": 1668,
     "rol": "isci",
-    "sebep": "işini bitirdi ve 1616 dk boşta — öğrendiği zaten diskte; beklemek bir sonraki çağrıda tabanı yeniden ödetir",
-    "z": "2026-09-07 01:41"
+    "sebep": "işini bitirdi ve 1626 dk boşta — öğrendiği zaten diskte; beklemek bir sonraki çağrıda tabanı yeniden ödetir",
+    "z": "2026-09-07 01:51"
    },
-   "olcum_zamani": "2026-09-07 01:41"
+   "olcum_zamani": "2026-09-07 01:51"
   },
   "local_981f4322-a220-4cc2-84ea-19e98d3cccf1": {
    "ad": "VERİ KİMLİK 3",
@@ -2626,14 +2626,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 403570,
-    "bosta_dk": 440,
+    "bosta_dk": 450,
     "hukum": "🔴 EMEKLİ ET",
     "istek": 917,
     "rol": "isci",
-    "sebep": "işini bitirdi ve 440 dk boşta — öğrendiği zaten diskte; beklemek bir sonraki çağrıda tabanı yeniden ödetir",
-    "z": "2026-09-07 01:41"
+    "sebep": "işini bitirdi ve 450 dk boşta — öğrendiği zaten diskte; beklemek bir sonraki çağrıda tabanı yeniden ödetir",
+    "z": "2026-09-07 01:51"
    },
-   "olcum_zamani": "2026-09-07 01:41"
+   "olcum_zamani": "2026-09-07 01:51"
   },
   "local_99aee3ff-50db-4cad-ad05-fc9e19c41aa7": {
    "acilis": "2026-08-15 00:39",
@@ -2842,14 +2842,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 0,
-    "bosta_dk": 136,
+    "bosta_dk": 146,
     "hukum": "🔴 EMEKLİ ET",
     "istek": 112,
     "rol": "isci",
-    "sebep": "işini bitirdi ve 136 dk boşta — öğrendiği zaten diskte; beklemek bir sonraki çağrıda tabanı yeniden ödetir",
-    "z": "2026-09-07 01:41"
+    "sebep": "işini bitirdi ve 146 dk boşta — öğrendiği zaten diskte; beklemek bir sonraki çağrıda tabanı yeniden ödetir",
+    "z": "2026-09-07 01:51"
    },
-   "olcum_zamani": "2026-09-07 01:41"
+   "olcum_zamani": "2026-09-07 01:51"
   },
   "local_9eef052c-326a-434c-b6b6-c358d2cee25c": {
    "ad": "NEHİR SÜRTÜNME",
@@ -2869,14 +2869,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 721381,
-    "bosta_dk": 7,
+    "bosta_dk": 17,
     "hukum": "🟡 iş bitti",
     "istek": 3338,
     "rol": "isci",
-    "sebep": "7 dk boşta (eşik 45 dk)",
-    "z": "2026-09-07 01:41"
+    "sebep": "17 dk boşta (eşik 45 dk)",
+    "z": "2026-09-07 01:51"
    },
-   "olcum_zamani": "2026-09-07 01:41"
+   "olcum_zamani": "2026-09-07 01:51"
   },
   "local_a083bcff-1ed6-4c6b-977e-a415d9d28cf8": {
    "ad": "MACARISTAN SERHAT ARASTIRMA",
@@ -2933,15 +2933,15 @@
    "model": "?",
    "nobetciler": [],
    "olcum": {
-    "baglam": 625629,
-    "bosta_dk": 0,
+    "baglam": 653070,
+    "bosta_dk": 1,
     "hukum": "🔴 ÖNCE YAZ",
-    "istek": 414,
+    "istek": 467,
     "rol": "koordinator",
-    "sebep": "bağlam 626 K ≥ 208 K (taze tabanın 2 katı) VE depoda 200 dosya commit'siz — sıkıştırmadan ya da devretmeden ÖNCE hasat: yazılmamış olan, iki yolda da kaybolur",
-    "z": "2026-09-07 01:41"
+    "sebep": "bağlam 653 K ≥ 208 K (taze tabanın 2 katı) VE depoda 197 dosya commit'siz — sıkıştırmadan ya da devretmeden ÖNCE hasat: yazılmamış olan, iki yolda da kaybolur",
+    "z": "2026-09-07 01:51"
    },
-   "olcum_zamani": "2026-09-07 01:41"
+   "olcum_zamani": "2026-09-07 01:51"
   },
   "local_a6016e23-a53e-464e-be25-7b550a49a741": {
    "acilis": "2026-08-15 00:39",
@@ -3111,14 +3111,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 371767,
-    "bosta_dk": 496,
+    "bosta_dk": 506,
     "hukum": "🟡 İŞ BÖLÜNMELİ",
     "istek": 213,
     "rol": "isci",
-    "sebep": "iş bitmedi, 496 dk boşta, bağlam 372 K ≥ 216 K — kalan işi TAZE bir işçiye vermek daha ucuz",
-    "z": "2026-09-07 01:41"
+    "sebep": "iş bitmedi, 506 dk boşta, bağlam 372 K ≥ 216 K — kalan işi TAZE bir işçiye vermek daha ucuz",
+    "z": "2026-09-07 01:51"
    },
-   "olcum_zamani": "2026-09-07 01:41"
+   "olcum_zamani": "2026-09-07 01:51"
   },
   "local_af23086f-f1b7-4d87-bf76-d25fdde717e0": {
    "ad": "VERİ İÇERİK",
@@ -3420,14 +3420,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 423913,
-    "bosta_dk": 20,
+    "bosta_dk": 30,
     "hukum": "🟡 İŞ BÖLÜNMELİ",
     "istek": 73,
     "rol": "isci",
-    "sebep": "iş bitmedi, 20 dk boşta, bağlam 424 K ≥ 216 K — kalan işi TAZE bir işçiye vermek daha ucuz",
-    "z": "2026-09-07 01:41"
+    "sebep": "iş bitmedi, 30 dk boşta, bağlam 424 K ≥ 216 K — kalan işi TAZE bir işçiye vermek daha ucuz",
+    "z": "2026-09-07 01:51"
    },
-   "olcum_zamani": "2026-09-07 01:41"
+   "olcum_zamani": "2026-09-07 01:51"
   },
   "local_c20e9d83-6f47-4822-9870-4c19f014521a": {
    "ad": "Untitled session",
@@ -3618,14 +3618,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 645483,
-    "bosta_dk": 60,
+    "bosta_dk": 70,
     "hukum": "🟡 İŞ BÖLÜNMELİ",
     "istek": 299,
     "rol": "isci",
-    "sebep": "iş bitmedi, 60 dk boşta, bağlam 645 K ≥ 216 K — kalan işi TAZE bir işçiye vermek daha ucuz",
-    "z": "2026-09-07 01:41"
+    "sebep": "iş bitmedi, 70 dk boşta, bağlam 645 K ≥ 216 K — kalan işi TAZE bir işçiye vermek daha ucuz",
+    "z": "2026-09-07 01:51"
    },
-   "olcum_zamani": "2026-09-07 01:41"
+   "olcum_zamani": "2026-09-07 01:51"
   },
   "local_d101e464-d9c2-4b7b-99f7-cee706f680aa": {
    "ad": "YER ATAMA",
@@ -3766,15 +3766,15 @@
    "model": "?",
    "nobetciler": [],
    "olcum": {
-    "baglam": 547461,
-    "bosta_dk": 0,
+    "baglam": 602673,
+    "bosta_dk": 1,
     "hukum": "🟡 İŞ BÖLÜNMELİ",
-    "istek": 255,
+    "istek": 295,
     "rol": "isci",
-    "sebep": "iş bitmedi, 0 dk boşta, bağlam 547 K ≥ 216 K — kalan işi TAZE bir işçiye vermek daha ucuz",
-    "z": "2026-09-07 01:41"
+    "sebep": "iş bitmedi, 1 dk boşta, bağlam 603 K ≥ 216 K — kalan işi TAZE bir işçiye vermek daha ucuz",
+    "z": "2026-09-07 01:51"
    },
-   "olcum_zamani": "2026-09-07 01:41"
+   "olcum_zamani": "2026-09-07 01:51"
   },
   "local_d625bfad-1a15-495e-bfe4-01dea19b5ca0": {
    "ad": "Untitled session",
@@ -3794,14 +3794,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 311217,
-    "bosta_dk": 127,
+    "bosta_dk": 137,
     "hukum": "🔴 EMEKLİ ET",
     "istek": 145,
     "rol": "isci",
-    "sebep": "işini bitirdi ve 127 dk boşta — öğrendiği zaten diskte; beklemek bir sonraki çağrıda tabanı yeniden ödetir",
-    "z": "2026-09-07 01:41"
+    "sebep": "işini bitirdi ve 137 dk boşta — öğrendiği zaten diskte; beklemek bir sonraki çağrıda tabanı yeniden ödetir",
+    "z": "2026-09-07 01:51"
    },
-   "olcum_zamani": "2026-09-07 01:41"
+   "olcum_zamani": "2026-09-07 01:51"
   },
   "local_d63695fb-b499-490e-a4e4-1956679a143b": {
    "ad": "NOKTA EKLEME OTURUMU",
@@ -3862,15 +3862,15 @@
    "model": "opus",
    "nobetciler": [],
    "olcum": {
-    "baglam": 947478,
+    "baglam": 305502,
     "bosta_dk": 0,
     "hukum": "🟡 iş bitti",
-    "istek": 1697,
+    "istek": 1712,
     "rol": "isci",
     "sebep": "0 dk boşta (eşik 45 dk)",
-    "z": "2026-09-07 01:41"
+    "z": "2026-09-07 01:51"
    },
-   "olcum_zamani": "2026-09-07 01:41",
+   "olcum_zamani": "2026-09-07 01:51",
    "sartname": "-  🔴 DOSYA YOK",
    "son_gorulme": "2026-08-15 00:25",
    "takma_adlar": [
@@ -4039,15 +4039,15 @@
    "model": "?",
    "nobetciler": [],
    "olcum": {
-    "baglam": 945230,
-    "bosta_dk": 1,
+    "baglam": 311861,
+    "bosta_dk": 0,
     "hukum": "🟡 iş bitti",
-    "istek": 2539,
+    "istek": 2559,
     "rol": "isci",
-    "sebep": "1 dk boşta (eşik 45 dk)",
-    "z": "2026-09-07 01:41"
+    "sebep": "0 dk boşta (eşik 45 dk)",
+    "z": "2026-09-07 01:51"
    },
-   "olcum_zamani": "2026-09-07 01:41"
+   "olcum_zamani": "2026-09-07 01:51"
   },
   "local_eed0d36f-80ea-495f-9af7-aa716d3d74a5": {
    "ad": "ARAŞTIRMA KÜNYE 3",
@@ -4262,14 +4262,14 @@
    "nobetciler": [],
    "olcum": {
     "baglam": 644665,
-    "bosta_dk": 13,
+    "bosta_dk": 23,
     "hukum": "🟡 iş bitti",
     "istek": 1047,
     "rol": "isci",
-    "sebep": "13 dk boşta (eşik 45 dk)",
-    "z": "2026-09-07 01:41"
+    "sebep": "23 dk boşta (eşik 45 dk)",
+    "z": "2026-09-07 01:51"
    },
-   "olcum_zamani": "2026-09-07 01:41"
+   "olcum_zamani": "2026-09-07 01:51"
   }
  }
 }
