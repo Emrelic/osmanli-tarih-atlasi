@@ -21,6 +21,7 @@ veri BASKA bir kimlik mi kullaniyor?"
 import io
 import os
 import sys
+import importlib.util as _ilu
 from collections import Counter
 
 KOK = r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ"
@@ -56,17 +57,16 @@ KUTU = {
 ATLAS_BASI, ATLAS_SONU = "1281-01-01", "1923-10-29"
 
 
-def pad(s):
-    """🔴 UC HANELI YIL TUZAGI: ISO dizgi karsilastirmasinda
-       "700-01-01" > "1281-01-01" cikar ("7" > "1"). devletler.js'te
-       uc haneli yil tasiyan kunyeler VAR (dubrovnik f:700-01-01).
-       Karsilastirmadan ONCE yil DORT HANEYE tamamlanir.
-       ⚠️ Bu tuzak bu aracin ILK surumunde GERCEKLESTI: `dubrovnik`
-       "pencere atlas disinda" diye SESSIZCE elendi."""
-    if not s:
-        return s
-    p = str(s).split("-")
-    return "-".join(["%04d" % int(p[0])] + p[1:])
+# ⑩ KOL (7 Eylül 2026): pad() artık ORTAK — bu aletin İLK sürümünde
+# `dubrovnik` bu yüzden "pencere atlas dışında" diye SESSİZCE elenmişti.
+# Aynı tuzak dört ayrı alette ayrı yazıldığı için beş kez çıktı.
+# Bkz. ARAC-TARIH-0907.py.
+_spec = _ilu.spec_from_file_location(
+    "_tarih0907", os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                "ARAC-TARIH-0907.py"))
+_tarih0907 = _ilu.module_from_spec(_spec)
+_spec.loader.exec_module(_tarih0907)
+pad = _tarih0907.pad
 
 
 def kesitler(f, t):

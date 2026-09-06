@@ -26,18 +26,22 @@ Sevk: 1.MURAT M-2856 ③. Oturum NEHIR SURTUNME, 5 Eylul 2026. SALT OKUMA.
 import io
 import os
 import sys
+import importlib.util as _ilu
 from collections import defaultdict
 from datetime import date
 
 KOK = r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ"
 ATLAS_BASI, ATLAS_SONU, TOL = "1281-01-01", "1923-10-29", 400
 
-
-def pad(s):
-    if not s:
-        return s
-    p = str(s).split("-")
-    return "-".join(["%04d" % int(p[0])] + p[1:])
+# ⑩ KOL (7 Eylül 2026): pad() artık ORTAK — dört ayrı alette ayrı ayrı
+# yazılmış olması üç haneli yıl tuzağının (dubrovnik·nube·bu alet·ardıl
+# kontrolü·yemen-zeydi) beşinci vakasına sebep oldu. Bkz. ARAC-TARIH-0907.py.
+_spec = _ilu.spec_from_file_location(
+    "_tarih0907", os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                "ARAC-TARIH-0907.py"))
+_tarih0907 = _ilu.module_from_spec(_spec)
+_spec.loader.exec_module(_tarih0907)
+pad = _tarih0907.pad
 
 
 def _g(s):

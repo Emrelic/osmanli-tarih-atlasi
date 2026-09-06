@@ -1,0 +1,38 @@
+{
+ "renksiz": [
+  "__BOSLUK__",
+  "avusturya-cumhuriyet"
+ ],
+ "kopru": [
+  [
+   "arnavutluk-bagimsiz",
+   "arnavutluk"
+  ],
+  [
+   "arnavutluk-iskenderbey",
+   "arnavutluk"
+  ],
+  [
+   "bulgaristan-kralligi",
+   "bulgaristan"
+  ],
+  [
+   "sirbistan-kralligi",
+   "sirbistan"
+  ],
+  [
+   "sirbistan-nemanjic",
+   "sirbistan"
+  ],
+  [
+   "sirbistan-prensligi",
+   "sirbistan"
+  ],
+  [
+   "sirp-despotlugu",
+   "sirbistan"
+  ]
+ ],
+ "boyali": 142,
+ "toplam": 152
+}
