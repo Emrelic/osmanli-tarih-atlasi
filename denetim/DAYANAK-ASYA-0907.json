@@ -222,8 +222,16 @@
         "ad": "Howard L. Boorman & Richard C. Howard (ed.), «Biographical Dictionary of Republican China», Columbia University Press — «Xu Shuzheng» maddesi; ENP-China (X-Boorman) tarafından dijitalleştirilmiş",
         "url": "https://xboorman.enpchina.eu/biographie/xu-shuzheng/",
         "alinti": "On 22 November 1919 Hsü Shih-ch'ang proclaimed the end of Outer Mongolian autonomy.",
-        "_PROVENANS_UYARISI": "🔴 DÜRÜSTLÜK KAYDI: bu cümle bana ARAMA SONUCU ÖZETİNDEN geldi; sayfanın KENDİSİNİ ÇEKEMEDİM (ECONNREFUSED 134.158.33.190:443) ⇒ `ölçülemedi`. Yani kaynağın KİMLİĞİ (Boorman/Columbia UP, Wade-Giles «Hsü Shih-ch'ang» yazımı akademik neşrin imzasıdır) güçlü, ama alıntıyı KENDİ GÖZÜMLE gövdede görmedim. Damga bu yüzden düz `DOGRULANDI` değil.",
+        "_PROVENANS_UYARISI": "🔴 DÜRÜSTLÜK KAYDI: bu cümle bana ARAMA SONUCU ÖZETİNDEN geldi; sayfanın KENDİSİNİ ÇEKEMEDİM — `WebFetch` ECONNREFUSED (134.158.33.190:443) **ve** tarayıcı panelinden de açılmadı, İKİ KANAL denendi ⇒ `ölçülemedi`. Kaynağın KİMLİĞİ güçlü (Boorman/Columbia UP; Wade-Giles «Hsü Shih-ch'ang» yazımı akademik neşrin imzasıdır) ama alıntıyı KENDİ GÖZÜMLE gövdede görmedim. Damga bu yüzden düz `DOGRULANDI` değil.",
         "_OLAY": "Çin Cumhurbaşkanı Xu Shichang'ın Dış Moğolistan özerkliğini kaldıran kararnamesi. Öncesinde Xu Shuzheng'in Kuzeybatı Sınır Savunma Ordusu Ekim 1919'da Urga'yı işgal etmişti."
+      },
+      "kaynak_2_AY_DUZEYINDE_KENDI_GOZUMLE": {
+        "ad": "Eric Her, «The 'Great Game': Mongolia Between Russia and China», The Mongolian Journal of International Affairs, No. 4 (1997), s. 62 vd. — MongoliaJOL (hakemli dergi platformu)",
+        "url": "https://www.mongoliajol.info/index.php/MJIA/article/download/421/441",
+        "alinti": "Under tremendous pressure from Beijing, the Khutukhtu \"petitioned\" for the abolition of Mongolia's autonomy in November 1919 and China gladly \"complied.\"",
+        "_HASSASIYET": "AY (Kasım 1919). Gün vermiyor — ama atlasın gününü ÇÜRÜTMÜYOR, KAPSIYOR.",
+        "_NASIL_OKUNDU": "🟢 §4⑦ DERSİ TEKRAR TUTTU. `WebFetch` bu PDF için «corrupted or compressed PDF file with largely unreadable text» dedi ve «no clear information … is discernible» diye rapor etti. İKİNCİ ÇIKARICI denendi (`pypdf`): **10 sayfa · 25.828 karakter · temiz metin**. Bir çıkarıcının «okuyamadım»ı belgenin İÇERİĞİ hakkında hiçbir şey söylemez — ve bu kez o ders bir hakemli dergi makalesini kurtardı.",
+        "_DEGERI": "Bu kaynak GÜNÜ vermiyor, ama üç şey yapıyor: (a) AYI bağımsız ve hakemli bir yayında sabitliyor, (b) olayın biçimini doğruluyor (Bogd Han'ın baskı altında «dilekçe» vermesi, Çin'in «kabul» etmesi), (c) Boorman'ın günüyle ÇELİŞMİYOR. ⇒ Gün tek ayakta duruyor ama ay ÜÇ ayakta."
       },
       "_TDV": {
         "slug": "mogolistan",
@@ -252,9 +260,12 @@
       "kaynak": {
         "ad": "Encyclopaedia Britannica, «Mongolia — Independence and revolution»",
         "url": "https://www.britannica.com/place/Mongolia/Independence-and-revolution",
-        "alinti": "A 'people's government' of Mongolia was appointed with Bodoo as prime minister, and July 11 subsequently was celebrated as the anniversary of its establishment.",
-        "_PROVENANS_UYARISI": "🔴 Sayfa ÇEKİLEMEDİ (HTTP 403, Britannica bu turda dördüncü kez) ⇒ `ölçülemedi`. §11'in 4 Eylül dersi gereği «Quick Summary / YZ üretimi» damgası KONTROL EDİLEMEDİ. Alıntı arama sonucundan geldi. ⚠️ Bu bir yer maddesinin alt bölümüdür (`/place/Mongolia/…`), yani klasik imzalı madde biçimindedir — ama bunu DOĞRULAYAMADIM.",
-        "_IKINCI_AYAK": "Gün bağımsız olarak Moğolistan'ın **Millî Günü** (Naadam'ın ilk günü) olarak sabittir — bu bir devlet takvimi olgusudur ve tek bir yayına bağlı değildir."
+        "alinti": "A \"people's government\" of Mongolia was appointed, with Bodoo as prime minister, and July 11 subsequently was celebrated as the anniversary of its establishment (now the first day of the naadam sports festival). The Bogd Khan was reinstated as a constitutional monarch with limited powers.",
+        "_PROVENANS": "🟢 GÖVDE KENDİ GÖZÜMLE OKUNDU. `WebFetch` bu sayfaya DÖRT KEZ HTTP 403 döndürdü; tarayıcı panelinden açıldı ve tam metin alındı. ⇒ Damga `ölçülemedi`den `DOGRULANDI`ya YÜKSELDİ.",
+        "_YZ_DAMGASI_KONTROL_EDILDI": "🔴 §11'in 4 Eylül dersi (Britannica «Quick Summary» YZ üretimi vakası) gereği ayrıca bakıldı: sayfada «This summary is created from Britannica articles using AI» ya da «Quick Summary» ibaresi **YOK**. Künye: **Chauncy D. Harris** · «All Britannica Editors» · Sep. 1, 2026. Klasik imzalı yer maddesinin alt bölümü.",
+        "_AYRIM_UYARISI": "⚠️ Sayfada «Britannica AI — Ask Anything» widget'ı VAR. Bu bir **sohbet aracıdır**, içerik üretim beyanı DEĞİL — §11'in yasakladığı şey «bu özet YZ ile üretildi» ibaresidir. İkisini karıştırmak MEŞRU bir imzalı maddeyi haksız yere 🔴 listeye atardı. Ayrım ölçülerek yapıldı, varsayılarak değil.",
+        "_UCUNCU_AYAK": "Aynı gövde benim TDV ayrıştırmamı da BAĞIMSIZ olarak doğruluyor: «advanced southward into Mongolia and **in July 1921 captured Niislel Khüree**. A 'people's government' … was appointed» ⇒ ŞEHRİN ALINIŞI ile HÜKÛMETİN KURULUŞU ayrı cümlelerde ve ardışık. TDV'nin «6 Temmuz»u birincisi, atlasın «11 Temmuz»u ikincisidir. Çelişki yok, ve bunu artık İKİ bağımsız kaynak söylüyor.",
+        "_IKINCI_AYAK": "Gün bağımsız olarak Moğolistan'ın **Millî Günü** (Naadam'ın ilk günü) olarak sabittir — Britannica bunu parantez içinde ayrıca teyit ediyor."
       },
       "_TDV_AYRISTIRMASI": {
         "_GOZLEM": "🟡 TDV `mogolistan` şunu diyor: «Haziran 1921 tarihinde Kızılordu Moğolistan'a girdi. **6 Temmuz'da** Kızılordu'nun da yardımıyla işgalci Beyaz Rus ordusu Urga'dan çıkarıldı.» Atlas: **11 Temmuz**. Fark 5 gün.",

@@ -64,13 +64,54 @@
       "kaynak": "nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedish monarch»",
       "§②b": "🟢 GÜNÜN dayanağı — gövde ÇEKİLİP okundu, üniversite yayını, künye sayfanın kendisinde.",
       "zayiflik": "🟢 YOK — bu kaydın dayanağı doğrudan okundu ve kurumsal kimliği doğrulandı. Dört günün EN SAĞLAMI."
+    },
+    {
+      "gun": "1905-06-07",
+      "nokta": 20,
+      "olay": "İsveç-Norveç birliğinin dağılması — Storting kraliyet yetkisinin sona erdiğini ilan etti",
+      "kimlik": [
+        "isvec",
+        "norvec"
+      ],
+      "kaynak": "EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»",
+      "§②b": "🟢 GÜNÜN dayanağı — gövde ÇEKİLİP okundu, günü açıkça veriyor.",
+      "zayiflik": "🟢 DÜŞÜK — imzalı, editöryal incelemeli, gövde doğrudan okundu. Bağlam ikinci bir aramada da doğrulandı (Michelsen hükümetinin istifası, Oscar II'nin reddi)."
+    },
+    {
+      "gun": "1809-09-17",
+      "nokta": 19,
+      "olay": "Fredrikshamn (Hamina) Antlaşması — İsveç Finlandiya'yı Rusya'ya bıraktı",
+      "kimlik": [
+        "isvec",
+        "rusya"
+      ],
+      "kaynak": "V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı.",
+      "§②b": "🟡 GÜNÜN dayanağı ama İKİ ÇEKİNCEYLE (aşağıda).",
+      "🔴_TAKVIM_OLCULEMEDI": "Kaynakların verdiği 17 Eylül'ün JÜLYEN mi GREGORYEN mi olduğu ÖLÇÜLEMEDİ. Rusya 1918'e kadar Jülyen kullanıyordu; antlaşma ise İsveç toprağında (Fredrikshamn/Hamina) imzalandı ve İsveç 1753'ten beri Gregoryen. Rus kaynakları ratifikasyon için «October 1 (13), 1809» diye ÇİFT veriyor — yani o kaynakta iki takvim yan yana kullanılıyor, ama imza günü için çift verilmemiş. §4⑦: bir günü veriye yazmadan önce hangi takvim olduğu sorulur; SORULDU, CEVAPLANAMADI.",
+      "🟡_IMZA_MI_YURURLUK_MU": "İmza 17 Eylül 1809; ratifikasyon değişimi 1 (13) Ekim 1809, St. Petersburg. Atlas İMZA gününü kullanıyor — `1792-09-22` vakasının kardeşi (iki gün, iki olay, çelişki DEĞİL). Seçim savunulabilir ama BİR SEÇİMDİR.",
+      "zayiflik": "🔴 EN ZAYIFI. prlib.ru (Rusya Cumhurbaşkanlığı Kütüphanesi) GÜVENLİK KONTROLÜNE takıldı ⇒ ÖLÇÜLEMEDİ (bugün beşinci engel). Künye Wikipedia kaynakçasından DEVRALINDI ve kitap OKUNMADI. Üstelik tek akademik künye ve o da Rusça bir başvuru kitabı — ikinci bağımsız kaynak BULUNAMADI."
+    },
+    {
+      "gun": "1479-01-20",
+      "nokta": 30,
+      "olay": "II. Juan'ın ölümü — Ferdinand Aragon kralı oldu; Kastilya ve Aragon taçları aynı çift altında birleşti",
+      "kimlik": [
+        "kastilya",
+        "aragon",
+        "ispanya"
+      ],
+      "kaynak": "Jaime Vicens Vives (1952), *Fernando el Católico: príncipe de Aragón, rey de Sicilia, 1458–1478*, Madrid: Consejo Superior de Investigaciones Científicas — ve Roger Bigelow Merriman (1918), *The Rise of the Spanish Empire in the Old and in the New*, Vol. 2, The Macmillan Company. Künyeler ADIYLA alındı. Gövde: «20 January 1479 … [in] Barcelona», Ferdinand II babasının yerine Aragon kralı oldu.",
+      "§②b": "🟢 GÜNÜN dayanağı — ölüm günü ve yeri açıkça veriliyor.",
+      "🔵_NICIN_BU_GUN": "Atlasın `kastilya`/`aragon` → `ispanya` geçişi bu günde. ÖLÇÜLDÜ: birlik bir EVLİLİKLE değil bir VERASETLE tamamlandı — evlilik 19 Ekim 1469, Isabella'nın Kastilya tahtı 1474, ve Ferdinand'ın Aragon tahtı 20 Ocak 1479. Atlasın seçtiği gün, iki tacın AYNI ÇİFTİN elinde toplandığı gündür. ⚠️ Ve kaynaklar hatırlatıyor: Kastilya ile Aragon 1600'lere kadar AYRI krallıklar olarak, kendi hukuk ve yönetimleriyle sürdü — birlik bir KONFEDERASYONdu. Atlas tek kimlik (`ispanya`) yazıyor; bu bir BASİTLEŞTİRME ve burada beyan ediliyor.",
+      "zayiflik": "🟡 DEVRALDIM — beş akademik künyenin ikisi seçildi, hiçbiri OKUNMADI; gövde Wikipedia'dan. Tarih üç bağımsız aramada çakışıyor."
     }
   ],
   "_KAPSAM": {
-    "yazilan": "4 gün · 169 nokta",
-    "temiz_dilim": "119 gün · 560 nokta",
-    "pay": "%30,2",
-    "sirada": "1905-06-07 (20) · 1516-01-23 (19) · 1809-09-17 (19) · 1478-01-15 (35) · 1861-03-17 (18) · 1815-06-09 (18)"
+    "yazilan": "7 gün",
+    "bunlardan_⑮e_devredilen": "2 gün (1547-01-16 · 1792-09-22) — metinler DURUYOR",
+    "benim_yazacagim": "5 gün",
+    "temiz_dilim": "119 gün · 560 nokta (Mağrib elenmiş)",
+    "sirada": "1707-05-01 (9) · 1830-10-04 (9) · 1482-03-27 (10) · 1795-10-01 (10) · 1581-07-26 (7) · 1581-04-16 (11) · 1640-12-01 (10)"
   },
   "_OLCULEMEDI": "⚪ Bugün DÖRT akademik kaynak HTTP 403 döndü: Britannica (iki kez) · Oxford Reference · Library of Congress. §4⑤: bir HTTP kodu içerik hakkında iddia DEĞİLDİR ⇒ hiçbiri «kaynakta yok» diye damgalanmadı. Ama sonucu şu: dört günün ÜÇÜNDE ikinci bağımsız teyit gövde okumasından değil ARAMA SONUÇLARININ ÇAKIŞMASINDAN geliyor. Bu bir zayıflık ve her kaydın kendi `zayiflik` alanında YAZILI.",
   "🔴_PAYLASILAN_OLCUTU_BOLGE_BAZLI": {

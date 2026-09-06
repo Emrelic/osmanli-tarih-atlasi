@@ -91,6 +91,32 @@ function baglam(y) {
 const KUN = {};
 for (const k of (baglam("data/devletler.js").DEVLETLER || [])) KUN[k.id] = k;
 
+// 🔵 GÜN DAYANAKLARI — kendi yamalarımın dokunduğu noktalara `kaynak:` BURADAN
+//    yazılır, ayrı dayanak yamasından DEĞİL. Sebep: aynı noktaya iki yama
+//    dokunursa `_sahiplik_uygula.py` "içerik farklı" deyip İKİSİNİ DE atlar
+//    (ölçüldü: 20 Finlandiya noktası tam bu durumdaydı).
+// 🔴 `paylasilan` VE çok oturumlu günler ATLANIR — onları ⑮ yazar
+//    (koordinatörün 7 Eylül kuralı, OTURUM bazlı süzülmüş hâliyle).
+const { SAHIP: _SAHIP } = require("./ARAC-BOLGE-KUTU-0906.js");
+const GUN_DAYANAK = {};
+try {
+  const _def = {};
+  for (const g of (JSON.parse(fs.readFileSync(
+    "denetim/DAYANAK-GUNLER-0907.json", "utf8")).gunler || [])) _def[g.gun] = g;
+  for (const g of JSON.parse(fs.readFileSync(
+    "denetim/DAYANAK-AVRUPA-0907.json", "utf8")).GUNLER) {
+    const d = _def[g.gun];
+    const ot = d ? new Set(Object.keys(d.bolgeler || {}).map(b => _SAHIP[b] || "?"))
+      : new Set(["AVRUPA"]);
+    if (d && d.paylasilan && ot.size > 1) continue;      // ⑮'in
+    GUN_DAYANAK[g.gun] = g.kaynak;
+  }
+  console.log("↳ gün dayanağı yüklendi: " + Object.keys(GUN_DAYANAK).length +
+    " gün (⑮'e devredilenler HARİÇ)");
+} catch (e) {
+  console.log("⚠️ dayanak dosyası okunamadı — `kaynak:` YAZILMAYACAK: " + e.message);
+}
+
 // ③ GİRDİ — gerçek dosyalardan
 const KAYIT = {};
 for (const f of fs.readdirSync("data").filter(x => /^yerlesimler.*\.js$/.test(x))) {
@@ -209,6 +235,13 @@ for (const kalem of KALEMLER) {
   console.log("  GİRDİ (canlı):");
   for (const p of ESKI) console.log("     " + p.f + " > " + p.t + "  " + p.d);
   const YENI = bol(ESKI, kalem.bol, kalem.oncesi);
+  // gün dayanağı: bir dönemin `kaynak:`ı onun `f:` gününü dayanaklandırır.
+  // Dolu olanı EZMEZ (§11: bir araştırmacı beyanını sessizce ezmek, "kimse
+  // burayı araştırmadı" ile "biri araştırdı" arasındaki farkı siler).
+  let dyEklendi = 0;
+  for (const p of YENI)
+    if (!p.kaynak && GUN_DAYANAK[p.f]) { p.kaynak = GUN_DAYANAK[p.f]; dyEklendi++; }
+  if (dyEklendi) console.log("  🔵 gün dayanağı eklenen dönem: " + dyEklendi);
   console.log("  ÜRETİLEN:");
   for (const p of YENI) {
     const k = KUN[p.d] || {};

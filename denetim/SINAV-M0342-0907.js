@@ -62,6 +62,24 @@
 //   ④ ÇIKTI    : bilerek "emilmiş" bir vaka verildi (KONTROL), sınav onu
 //                AYIRT ETMELİ. Ayırt etmiyorsa sonuç güvenilmez.
 // ============================================================================
+// ── SONUÇ (7 Eylül 2026 · 5 Eyl 22:24 çıktısına karşı TABAN) ──────────────
+//   ADIM 0  dört kaydın PETEĞİ VAR (4/4)
+//   ADIM 1  🟢 0/4 BOYALI — hiçbiri hiçbir devlete emilmemiş
+//   ADIM 2  kontrol 2/2 boyalı ⇒ okuma yolu sağlam
+//   ⇒ M-0342 TUTTU. Öngörü (0/4) BİREBİR tuttu; mazeret (yetim yüz devri)
+//     gerekmedi.
+//
+// 🔴 ALETİN BİLİNEN SINIRI — sonucu ZAYIFLATMIYOR, GÜÇLENDİRİYOR:
+//   `DEVLET_PARCA_HALKA` YOK SAYILIYOR. Ölçüldü: HALKA[564]=580 ≠ 564, yani
+//   bazı parçalar kendi başına dış halka DEĞİL (delik ya da çok-halkalı
+//   gövdenin parçası). Bu alet onları DOLU poligon sayıyor ⇒ FAZLA boya
+//   raporluyor. Kanıtı çıktının kendisinde: `venedik` hem Bursa'da hem
+//   Viyana'da, `isvec` Viyana'da çıkıyor — coğrafî olarak imkânsız.
+//   ⇒ Hata GÜVENLİ yönde: dört hedef, FAZLA-raporlayan bir aletle bile
+//     BOYASIZ çıktı. Delik-farkında bir okuyucu da boyasız bulur.
+//   ⚠️ AMA bu aletin ATIF çıktısı ("kim boyuyor") GÜVENİLMEZ. Yalnız
+//     "boyalı mı / değil mi" sorusu için kullanılmalı.
+// ============================================================================
 'use strict';
 const fs = require('fs');
 
