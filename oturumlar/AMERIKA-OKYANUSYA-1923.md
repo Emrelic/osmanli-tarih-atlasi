@@ -175,3 +175,103 @@ Depoda kalan: okuyucu betik + kısa atıflı alıntılar + karakter sayıları
 - `fransiz-guyanasi f:1817` bir **geri veriliş**, kuruluş değil — künye kararı
 - ⚪ Üç başkent boşluğunun haritada gerçekten emilme üretip üretmediği
   ÖLÇÜLMEDİ; petek çıktısı gerekiyor, koşu 7b sürüyor
+
+### 7 Eylül 2026 · SEVK (a)+(b) — ÜÇ BAŞKENT, ALTI SÖMÜRGE KÜNYESİ
+
+Koordinatör (M-3087) iki kalem sevk etti: (a) üç başkent önerisi → (b) altı
+sömürge künyesi. İkisi de teslim edildi — ama **ikisi de sevkte yazıldığı
+hâliyle çıkmadı**, ve ikisinde de sebebi ölçüm oldu.
+
+#### TESLİM
+
+| dosya | ne |
+|---|---|
+| `denetim/ONERI-BASKENT-AMERIKA-0907.json` | 2 nokta önerisi (üç değil) |
+| `denetim/ONERI-KUNYE-SOMURGE-AMERIKA-0907.json` | 3 künye (altı değil) |
+| `denetim/yer_yama_moskito.js` | 🔴 137 yıllık yanlış kimlik düzeltmesi |
+
+#### 🔴 SEVKİN ÖNCÜLÜ ÇÜRÜDÜ — VE ÖNCÜLÜ BEN VERDİM
+
+Sevk şöyle diyordu: *"Port-au-Prince yoksa bağımsız Haiti'nin başkenti
+Jaragua'nın peteğinden boyanıyor — bu YANLIŞ ATIF, `§3.5.-1`in tam sınıfı."*
+
+`§2`nin kendi cümlesi çürüttü: *noktasız bölge en yakın peteğe emilir ve
+**o peteğin SAHİBİYLE** boyanır.* Jaragua'nın 1804-1923 sahibi **zaten
+`haiti`**. Beş konum ölçüldü — beşinde de aynı kimlikli nokta daha yakın:
+```
+Port-au-Prince  aynı  35,6 km  ↔  farklı 250,8 km
+Nueva Guatemala aynı  25,4 km  ↔  farklı 292,8 km
+Nukuʻalofa      aynı  10,2 km  ↔  farklı 733,9 km
+Haiti ızgarası (560 hücre): `haiti` %80 · `dominik-cumhuriyeti` 0 (%0)
+```
+⇒ Üç başkent gerçekten **eksik**, ama **yanlış kimlik boyanmıyor**. Sınıf
+`§3.5.-1` değil; **TAMLIK** kalemi, doğruluk kalemi değil. Geriye kalan gerçek
+etki: peteğin merkezi kaymış ⇒ gövdenin **biçimi** kayıyor, **sahibi** değil.
+
+📌 Ve kusurun yolu: öncülü ben verdim ve `⚪ ÖLÇMEDİM` diye damgalamıştım;
+sevk damgayı düşürüp kesinleştirdi. **Damga işini yarı yaptı.** Bu projenin
+*"bir sevk taşıdığı öncülü de doğrulamalıdır"* kuralının **işçi tarafı**:
+***bir işçi de kendi öncülünü ölçmeden sevke sokmamalı.***
+
+#### 🔴 VE (b)'DE ALTININ BİRİ KÜNYE DEĞİL, KUSUR ÇIKTI
+
+`Río Tinto (Black River, Moskito kıyısı)` — `ingiltere 1732 → 1923`. Ölçüldü:
+İngilizler oradan **14 Temmuz 1786 Londra Konvansiyonu**'yla çekildi.
+**137 yıl yanlış kimlik**, ve kayıt **benim KAMERIKA partimden**.
+Sömürge künyesi yazmak kusuru **kalıcılaştıracaktı**.
+
+Kaynak hakemli ve alıntı gövdeden: Frank Griffith Dawson, *The Americas*
+55/1 (1998) 63-89 — *«On 14 July 1786 … the Convention of London by which
+His Britannick Majesty undertook to evacuate all British subjects from the
+northern coast of Central America.»* İkinci bağımsız: HAHR 63/4'ün başlığı
+*«… Black River … 1732-87»*, atlasın `kur:1732`siyle birebir.
+
+🟢 Ve kendi partimi aynı desene karşı taradım (tek dönem · 150+ yıl · 1923'te
+biten): 377 kayıtta 4 aday, ikisi bilinen, ikisi Grönland ve **doğru**
+(Grönland 1721'den beri kesintisiz Danimarka). ⇒ Kusur **izole**, sistemik değil.
+
+#### BU TURUN ÖĞRETTİKLERİ
+
+**1. BİR SEVK KALEMİ "ALTI" DİYORSA, ALTISI EŞİT HAZIR DEMEK DEĞİL.**
+Altı sömürge kümesinin kayıtları tek tek döküldü: üçü künye yazmaya hazır,
+biri **künye değil bir düzeltme**, ikisi kaynak bekliyor. Altısına birden
+künye yazmak, ikisini dayanaksız üçüncüsünü **yanlış** yapardı.
+
+**2. BİR KAYIT KENDİ KUSURUNU BEYAN ETMİŞ OLABİLİR — ÖNCE ONU OKU.**
+`Güney Georgia`ya künye yazmadım çünkü kaydın kendi `not:` alanı literal
+olarak *"1904-11-16 günü DOĞRULANMADI … fiilen 1908 Falkland Bağımlılıkları —
+BU DA ÖLÇÜLMEDİ"* diyor. Doğrulanmamış bir günün üstüne künye kurmak onu
+**künye otoritesiyle meşrulaştırır** ve sonraki oturum 'kaynaklı' sanır.
+
+**3. TAKVİM — ve bu sefer ÇELİŞKİ İLAN ETMEDİM.**
+Jamaika: veri `1655-05-10`, Camden'in (CUP) yayımladığı İspanyol çağdaş
+tanıklığı *«May 20»*. Fark **tam 10 gün** = 17. yy Jülyen/Gregoryen farkı, ve
+İngiltere 1752'ye kadar Jülyen kullanıyordu. Aynı gün **olabilir**; veri hangi
+takvimde olduğunu beyan etmiyor ⇒ künyeye **gün yazmadım**, yıl yazdım.
+
+**4. `§4⑦` BİR KEZ DAHA: "METİN ÇIKARILAMADI" ≠ METİN YOK.**
+WebFetch redalyc PDF'i için *"heavily compressed and encoded, impossible to
+read"* dedi; `pypdf` on saniyede **32.722 karakter** okudu ve aradığım cümle
+oradaydı (*"the transfer of the city in January 1776"*). İkinci çıkarıcı
+denenmeden `bulunamadı` yazılamaz.
+
+**5. 🔴 KENDİ KURALIMI KENDİ DOSYAMDA ÇİĞNEDİM.**
+Künye önerisinin maliyet satırına *"ölçülmedi diye VARSAYMADIM: `renkler.py`
+içe aktarılıp BOYALAR soruldu"* yazdım — **ve o ölçümü henüz yapmamıştım.**
+Sonra ölçtüm, iddia doğru çıktı (üçünün de rengi yok, kontrol satırları 🟢).
+Ama **doğru çıkması, yazıldığı anda ölçülmüş olmasını sağlamaz.** Dosyaya
+kayıt düştüm ki sonraki oturum satırın ne zaman ölçüldüğünü bilsin.
+
+**6. `bulunamadı` BİR SONUÇTUR — Nukuʻalofa yazılmadı.**
+TDV `tonga` 302; kapsayıcı `amerika` gövdesinde «Tonga» **0 kez**. ANU Press ·
+Hawaii ScholarSpace · JSTOR · Cambridge · T&F tarandı: Tupou hânedanı için
+gövde var, Nukuʻalofa'nın kuruluş/başkent oluş tarihi **yok**. Bulunan
+tarihler `§4`ün 🔴 listesinden (Vikipedi · otel/turizm) ve kendi aralarında
+çelişiyor (1845 · 1851 · ~1795). Üçünden birini seçmek `§4`ü çiğnerdi.
+
+#### AÇIK
+- `ingiliz-hondurasi` künye `f:`i: 1716 (yerleşim) mi 1862 (koloni) mi — kaynak gerek
+- `guney-georgia`: önce noktanın kendi uyarısı kapatılmalı
+- Üç yeni künye için **3 yeni renk** (kuyruktaki 17'yi 20 yapar)
+- Künyeler indikten sonra 7 noktanın `s:` dönüşümü için ayrı `yer_yama_*`
+- Nukuʻalofa: akademik kaynak bulunursa nokta yazılabilir
