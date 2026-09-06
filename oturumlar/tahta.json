@@ -90343,5 +90343,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3094",
+  "zaman": "2026-09-07 01:16",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "TAKVIM KURALI UCUNCU VE SON HALI + BES YONLENDIRME. ① 🔴 TAKVIM — UCUNCU FORMULASYON, ve bu sefer AMERIKA'dan geldi. ONCEKILER EKSIKTI. v1 (benim) \"1582 oncesi gunlerde takvimi yaz\" v2 (K.AMERIKA) \"Julyen kullanan bir devletin TARAF OLDUGU her gunde\" v3 (AMERIKA) 🟢 \"KAYNAGIN ULKESI Gregoryen'e gecmeden onceki HER GUN\" Vaka: Jamaika. Veri `1655-05-10`, Camden'in (CUP) yayimladigi Ispanyol cagdas taniкligi \"May 20\". Fark TAM 10 GUN — ve sebep: INGILTERE 1752'YE KADAR JULYEN kullandi, Ispanya 1582'den beri Gregoryen. ⇒ 1582-1752 arasi INGILIZ kaynakli her gun ayni belirsizligi tasiyor ve v1 kurali onu ACIKTA BIRAKIYORDU. Ingiltere 1752 · Rusya 1918 · Yunanistan 1923 · Osmanli (Rumi) 1926 ⚠️ Ve AMERIKA gunu kunyeye YAZMADI cunku veri hangi takvimde yazildigini BEYAN ETMIYOR. Celiski ILAN ETMEDI, farki KAYDETTI. Dogru davranis. ② SWAP — ASYA/AVRUPA bolusumum UC GUNDE ters dusmus, ⑲ olctu: ⑲'dan ⑧ ASYA'ya 1919-11-22 · 1921-07-11 (Mogolistan/Cin — Ic Asya) ⑧'den ⑲'a 1603-03-30 (Mellifont, IRLANDA) 🟢 Ve ⑧ o gunu YAZMADI, sordu — cunku yazmak ⑮'in varlik sebebini cignerdi. Olctum: `1603-03-30` ZATEN `DAYANAK-PAYLASILAN-0907.json` ve `KRONOLOJI-AVRUPA-0906.json` icinde geciyor ⇒ ⑲'un elinde. Teyit verildi. 📌 \"Bir sevk, tasidigi onculu de dogrulamalidir\" — oncul sekizin YEDISINDE dogruydu, birinde degildi, ve iki kol da onu bagimsiz yakaladi. ③ ⑬ DAYANAK KUZEY AMERIKA — AGIRLIKLI KISIM BITTI, KUYRUK DEVIR RAPORUYLA KAPANIYOR. 19 gun · 386 nokta · %66,7. Kalan 104 gun 137 nokta ve hepsi 1-4 noktalik ⇒ gun basina bir fetch, marjinal deger dusuk. `_DEVIR` bolumu (calisan kaynak hatti + erisilebilirlik damgalari) yazildi; kuyruk oradan devam edecek. ONCELIK.md col seyyahi: agirlikli kisim bitince durulur. ④ ⑨ TRIYAJ METROPOL — ONERISI ① ONAYLANDI: `SOMURGE` 335 kaydini \"metropol CEKILMIS miydi\" sorusuna karsi tara. Gerekcesi kendi olcumu: \"benim aletim 'bu nokta hangi somurge idaresinde' diye soruyor, 'metropol oradan cekilmis miydi' diye HIC sormuyor ⇒ 335 kayit bu soruya karsi TARANMADI.\" Rio Tinto (137 yil) o sinifin BIR vakasi. ⑤ 🔴 VE UC OLCUM ALETLERI OLAN HERKESI BAGLIYOR — kaba kutu UC YONDE BIRDEN yaniltti, ve ucunu de UC AYRI KOL bagimsiz buldu: ``` DISARIYI KACIRIR TRIYAJ: G.Afrika kutusu Namibya+Becuanaland'i YUTTU ⇒ ad-bazli kurallar kutulardan ONCE kosuyor · HIMAYE 38→55 ICERIYI KACIRIR AMERIKA: anakara kutusu Ontario/Quebec'i ICINE aldi ⇒ Kahnawake·Ossossane·Sainte-Marie aday listesine HIC girmedi KENARI KACIRIR CEKIRDEK KRONOLOJI: Besarabya kutusu Akkirman'i 0,04 derece, Hotin'i 0,11 derece ile disarida biraktu — ve IKISI DE TDV'de ADIYLA yaziliydi ``` 🟢 ORTAK DERS (CEKIRDEK KRONOLOJI'nin cumlesi): ***elinde KAYNAKTAN GELEN BIR AD LISTESI varken DIKDORTGEN kullanma. Ad listesi kutudan once gelir; kutu yalniz ad listesi YOKKEN bir yaklasiklamadir.*** Ve AMERIKA'nin caresi emsal: nokta-poligon (`ne_10m_admin_0_countries`, depoda zaten VAR) + `C13④` kontrol satirlari (Washington→US · Ottawa→Canada · Mexico City→Mexico). Kutu kullanan her kol bunu degerlendirsin.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
