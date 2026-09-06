@@ -275,3 +275,98 @@ tarihler `§4`ün 🔴 listesinden (Vikipedi · otel/turizm) ve kendi aralarınd
 - Üç yeni künye için **3 yeni renk** (kuyruktaki 17'yi 20 yapar)
 - Künyeler indikten sonra 7 noktanın `s:` dönüşümü için ayrı `yer_yama_*`
 - Nukuʻalofa: akademik kaynak bulunursa nokta yazılabilir
+
+### 7 Eylül 2026 · ⑨ TRİYAJ METROPOL — Amerika + Okyanusya dilimi
+
+**TESLİM** — `denetim/TRIYAJ-METROPOL-AMERIKA-0907.json`
+
+| kova | n | ne demek |
+|---|---|---|
+| İLHAK | 42 | metropol kimliği DOĞRU (39 Alaska · Honolulu · 2 Porto Riko) |
+| HİMAYE | 0 | baktım, yok |
+| MANDA | 3 | Madang · Finschhafen · Herbertshöhe/Rabaul |
+| SÖMÜRGE | 12 | Jamaika 3 · Trinidad 2 · Fiji 2 · Grönland 2 · Belize · G.Georgia · Noumea |
+| 🔴 KUSUR | 5 | metropol kimliği YANLIŞ ÜLKEDE |
+
+Üreteç her adayın **tam bir** kovaya düştüğünü sınıyor ve `KUSUR` sayısını
+poligon ölçümüne bağlıyor; uyuşmazsa çıktıyı yazmıyor.
+
+#### 🔴 ÜÇ AYRI KAPSAM KUSURU — ve üçü de ÖLÇÜMLE bulundu
+
+**1. Koordinatörün METROPOL listesi eksikti.** Sekiz Avrupa metropolü;
+dilimimde canlı olan `danimarka` (Grönland) ve `abd` (44 nokta) **yoktu**.
+Genişletmek 46 aday getirdi ve içlerinden **beş gerçek kusur** çıktı.
+
+**2. Komşu ölçütüm iki yönde birden çürüdü.**
+```
+SAHTE POZİTİF  Chequamegon (Wisconsin) · Michilimackinac (Michigan)
+SAHTE NEGATİF  Ossossané · Sainte-Marie (Ontario) — "temiz" çıktılar
+```
+Ölçüt ülkeyi değil **atlasın nokta yoğunluğunu** ölçüyordu — nehir geçiş
+metriği dersinin aynısı. Yerine **nokta-poligon**
+(`ne_10m_admin_0_countries.geojson`, 258 poligon, depoda zaten vardı) ve
+`C13 ④` kontrol satırları: Washington DC → United States · Ottawa → Canada ·
+Mexico City → Mexico. Düşseydi sonuç kullanılmayacaktı.
+
+**3. Ve kendi kutum dışarıyı değil İÇERİYİ kaçırdı.** Kaba anakara kutum
+Ontario ve Quebec'i **içine alıyor** ⇒ Kahnawake · Ossossané · Sainte-Marie
+"anakarada" sayıldı ve aday listesine hiç girmedi. İlk üretimde `KUSUR` 2
+çıktı, gerçek 5. ⇒ ***Bir kutu ölçütü yalnız dışarıyı değil içeriyi de
+kaçırır.***
+
+#### 🔴 BEŞİNCİ KOVA GEREKTİ — ve dördü zorlansa kusur GİZLENİRDİ
+`§②a`nın dördü hukukî statü soruyor. Beş kayıt hiçbirine girmiyor çünkü
+orada metropol kimliği **yanlış ülkede** — statü sorusu değil VERİ HATASI.
+`İLHAK`a zorlansalar "doğru" sayılıp gizlenirlerdi; `SÖMÜRGE`ye zorlansalar
+yanlış bir künye önerisi doğururlardı.
+
+Beşi de `yerlesimler_kamerika.js` — **benim partim**: Tehuantepec (Meksika) ·
+St. John's · Kahnawake · Ossossané · Sainte-Marie (Kanada).
+📌 `Tehuantepec`te kaydın **kendi `not:` alanı "1522 İspanyol" diyor** ve
+`s:` zinciri `ingiltere` — beyan ile veri birbirini yalanlıyor, ve hiçbir
+denetim bu soruyu sormuyor.
+🔴 KAMERIKA turumda kaba Kanada kutumun ABD noktalarını yuttuğunu bulup elle
+düzeltmiştim; **ters yönü hiç sınamadım.** `§3.5.1`: iki uç da ölçülür.
+
+#### 🔴🔴 EN BÜYÜK BULGU — AYNI HUKUKÎ KATEGORİ, İKİ BÖLGE, İKİ MODEL
+Atlas Ortadoğu mandalarını **kendi kimlikleriyle** modelliyor
+(`suriye-lubnan-mandasi` · `filistin-mandasi` · `irak-kralligi` — üçü de
+künyede var), Pasifik mandalarını **mandaterin** kimliğiyle boyuyor.
+617 künye normalleştiriciyle dokuz anahtarla tarandı — **dokuzunda da 0**.
+
+🟢 Ve aynı adada iki statü yan yana: atlas **tarihleri** doğru ayırıyor,
+**kimliği** ayırmıyor —
+```
+PAPUA  Port Moresby · Samarai   avustralya 1906-09-01'den  ⇒ İLHAK, DOĞRU
+MANDA  Madang · Finschhafen · Rabaul  avustralya 1914-09-17'den ⇒ kendi kimliği olmalı
+```
+⚠️ `1914-09-17` manda günü **değil**, askerî işgal (Rabaul'ün teslimi);
+manda 17 Aralık 1920'de verildi.
+
+#### 🟢 HİMAYE 0 — "bakmadım" değil, BAKTIM
+Bitişik bulgu: `Lapaha (Muʻa)` `§②a`nın HİMAYE tarifinin **yarısını**
+karşılıyor — kendi kimliği var, `isg:` örtüsü **yok**. Tonga 1900-1970
+İngiliz himaye devletiydi.
+
+#### 🔴 KOORDİNATÖRÜN TAKVİM KURALINI GENİŞLETİYORUM — 1582 YETMİYOR
+M-3089 *"1582 öncesi bir güne dayanak yazan herkes hangi takvimi kullandığını
+yazsın"* diyor. Jamaika bulgum bunun **dışında** kalıyor ve aynı tuzağı
+taşıyor: veri `1655-05-10`, Camden'in yayımladığı İspanyol tanıklığı «May 20»,
+fark **tam 10 gün**. Sebep: **İngiltere 1752'ye kadar Jülyen kullandı.**
+⇒ Kural *"kaynağın ülkesi Gregoryen'e geçmeden önceki her gün"* diye
+kurulmalı — İngiltere 1752 · Rusya 1918 · Yunanistan 1923.
+
+#### YATAY KOORDİNASYON — ve bir ADRES kusuru
+⑨ koluna tahtadan yazdım. İlk yazımda `--kime "TRIYAJ METROPOL"` kullandım;
+araç **uyardı** ki bu bilinen bir oturum adı değil ve `--sadece-bana` koşan
+bir bekçi görmez. Tam adını bilmediğim için `HERKES`e yeniden yazdım.
+🟢 İkisini de `tahta.json`dan **geri okuyarak** doğruladım (`§7.1⑤b`) —
+M-3091 ve M-3092, ikisi de yerinde.
+
+#### AÇIK
+- Porto Riko'nun kovası bir HUKUK sorusu ve **ben seçtim** (İLHAK);
+  `§②a` kovaları ABD toprak hukuku için sınanmadı
+- Yeni Kaledonya'nın hukukî cinsi ölçülmedi
+- 1920-12-17 manda günü ve Tonga himaye günü kaynağa sorulmadı
+- `Mound Key` — 1923 ucu doğru, `abd 1783-1821` yanlış (Florida İspanyol;
+  `St. Augustine` aynı külliyatta doğru zinciri taşıyor)
