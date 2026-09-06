@@ -25,8 +25,8 @@ import girdi  # noqa: E402
 G = "1923-10-28"
 
 # ── cascade'i KENDİ aletinden sor, taklit etme
-// 🔴 `require` GEÇİCİ DOSYANIN yerine göre çözülür, cwd'ye göre DEĞİL —
-// ilk yazımda `./denetim/...` ile çağırdım ve node modülü BULAMADI.
+# 🔴 `require` GEÇİCİ DOSYANIN yerine göre çözülür, cwd'ye göre DEĞİL —
+# ilk yazımda `./denetim/...` ile çağırdım ve node modülü BULAMADI.
 JS = """
 const path=require('path');
 const {bolge} = require(path.resolve(process.argv[2],
@@ -44,7 +44,7 @@ process.stdout.write(JSON.stringify({
 fd, p = tempfile.mkstemp(suffix=".js")
 os.write(fd, JS.encode("utf-8"))
 os.close(fd)
-r = subprocess.run(["node", p], capture_output=True, cwd=KOK)
+r = subprocess.run(["node", p, KOK], capture_output=True, cwd=KOK)
 os.unlink(p)
 assert r.returncode == 0, r.stderr.decode("utf-8", "replace")[:400]
 KUNYE = {k["id"]: k for k in json.loads(r.stdout.decode("utf-8"))["kunye"]}

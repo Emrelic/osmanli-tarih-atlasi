@@ -32,6 +32,28 @@ const KALEMLER = [
       "İkinci bağımsız teyit: 6 Aralık 1922'de George V'in bildirisiyle Serbest Devlet kuruldu ve " +
       "Dublin başkenti oldu. TDV kapsam dışı — Batı Avrupa TDV kapsamı %0 (§4)." },
 ];
+
+// KALEM ③ — İSPANYA ÖNCÜL TACLARI. Dokuz nokta 1281'den beri doğrudan
+// `ispanya` yazıyor, oysa `kastilya` (1230-09-23→1479-01-20) ve `aragon`
+// (1164→1479-01-20) künyeleri VAR ve `ispanya`nın `f:`siyle GÜN GÜN BİTİŞİK.
+// EMSAL EZİCİ: 22 nokta `kastilya` · 11 nokta `aragon` · 7 nokta `granada`
+// kullanıyor (Toledo · Valladolid · Burgos · Zaragoza · Girona · Alicante …).
+// Bu bir YENİ TARİH İDDİASI DEĞİL — mevcut konvansiyona katılım.
+const KAYNAK_ISPANYA =
+  "İÇ TUTARLILIK DÜZELTMESİ — yeni tarih iddiası YOK. `kastilya` (künye kaynağı: " +
+  "TDV `kastilya--ispanya`) ve `aragon` (TDV `aragon`) künyeleri 1479-01-20'de " +
+  "bitiyor, `ispanya` künyesi (TDV `ispanya`) AYNI GÜN başlıyor; künyelerin kendi " +
+  "`ozet` alanları geçişi tarif ediyor ('Katolik Kralların evliliğiyle Aragon ile " +
+  "birleşerek İspanya'nın çekirdeğini oluşturdu'). Atlasın EMSALİ: 22 nokta " +
+  "`kastilya`, 11 nokta `aragon`, 7 nokta `granada` ile zincirlenmiş; bu dokuz nokta " +
+  "o konvansiyonun DIŞINDA kalmıştı. Gün 1479-01-20'yi atlasta 60 kayıt kullanıyor " +
+  "(YONTEM §③ komşu kuralı). Taç ataması coğrafî: Madrid/Sevilla Kastilya Tacı, " +
+  "Barselona/Valensiya/Balear/Sardinya Aragon Tacı.";
+const AR = { "1479-01-20": "aragon" }, KA = { "1479-01-20": "kastilya" };
+for (const [ad, onc] of [["Madrid", KA], ["Sevilla", KA], ["Barselona", AR],
+["Valensiya", AR], ["Mayorka (Palma)", AR], ["Menorka (Mahon)", AR], ["İbiza", AR],
+["Kalyari (Cagliari)", AR], ["Sasari (Sassari)", AR]])
+  KALEMLER.push({ ad, oncesi: onc, kaynak: KAYNAK_ISPANYA });
 // Künye düzeltmesi BELLEKTE uygulanır — yama tek başına inemez, ikisi BİRLİKTE ölçülür.
 const KUNYE_ONERISI = { piombino: { t: "1815-06-09" } };
 
@@ -53,9 +75,13 @@ for (const f of fs.readdirSync("data").filter(x => /^yerlesimler.*\.js$/.test(x)
 }
 const gn = (s) => Math.round(Date.UTC(+s.slice(0, 4), +s.slice(5, 7) - 1, +s.slice(8, 10)) / 864e5);
 
-function bol(zincir, harita) {
+// `bol`     : o günde böl, günden SONRAKİ parçaya yeni kimlik ata
+// `oncesi`  : o günde böl, günden ÖNCEKİ parçaya yeni kimlik ata
+//             (Kastilya/Aragon vakası: ardıl DOĞRU, ÖNCÜL eksik)
+function bol(zincir, harita, oncesi) {
+  harita = harita || {}; oncesi = oncesi || {};
   let z = zincir.map(p => ({ f: p.f, t: p.t, d: p.d }));
-  for (const g of Object.keys(harita).sort()) {
+  for (const g of [...Object.keys(harita), ...Object.keys(oncesi)].sort()) {
     const c = [];
     for (const p of z) {
       if (p.f < g && g < p.t) { c.push({ f: p.f, t: g, d: p.d }); c.push({ f: g, t: p.t, d: p.d }); }
@@ -63,7 +89,10 @@ function bol(zincir, harita) {
     }
     z = c;
   }
-  for (const p of z) if (harita[p.f]) p.d = harita[p.f];
+  for (const p of z) {
+    if (harita[p.f]) p.d = harita[p.f];
+    for (const [g, kim] of Object.entries(oncesi)) if (p.t === g) p.d = kim;
+  }
   return z;
 }
 
@@ -105,7 +134,7 @@ for (const kalem of KALEMLER) {
   const ESKI = r.y.s || [];
   console.log("  GİRDİ (canlı):");
   for (const p of ESKI) console.log("     " + p.f + " > " + p.t + "  " + p.d);
-  const YENI = bol(ESKI, kalem.bol);
+  const YENI = bol(ESKI, kalem.bol, kalem.oncesi);
   console.log("  ÜRETİLEN:");
   for (const p of YENI) {
     const k = KUN[p.d] || {};
@@ -114,7 +143,7 @@ for (const kalem of KALEMLER) {
       "künye " + (k.f || "?") + ">" + (k.t || "?") +
       (as > 0 ? "  AŞIM " + as + (as > TOLERANS ? " 🔴" : " 🟢 tol.içi") : "  🟢"));
   }
-  const gunler = Object.keys(kalem.bol);
+  const gunler = [...Object.keys(kalem.bol || {}), ...Object.keys(kalem.oncesi || {})];
   onKosulOttu += sina(ESKI, YENI, gunler, "④ ÖN KOŞUL (BUGÜNKÜ künyeyle)") > 0 ? 1 : 0;
   URETILEN.push({ kalem, ESKI, YENI, gunler });
 }
