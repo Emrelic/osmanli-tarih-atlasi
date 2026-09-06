@@ -1,0 +1,337 @@
+{
+  "_NOT": "DAYANAK VOLGA (⑧ kol) · 0907 dalgası. `DAYANAK-GUNLER-0907.json`da `sahip` = VOLGA-URAL-SIBIRYA olan 13 günün dayanak raporu. Bu dosya VERİ YAZMAZ ve veri düzeltmesi ÖNERMEZ — kaynak gösterir ve damgalar. Koşu 7b sürerken üretildi; `data/` ve `arac/` DONUK, hiçbirine dokunulmadı.",
+  "_URETIM": "2026-09-07",
+  "_OTURUM": "DAYANAK VOLGA",
+  "_KOORDINATOR": "1.MURAT HÜDAVENDİGAR",
+
+  "_DAMGA_SOZLUGU": {
+    "DOGRULANDI": "kaynak günü ADIYLA veriyor, atlasla birebir",
+    "CIKARIMLA_DOGRULANDI": "kaynak öteki takvimde gün veriyor; dönemin DOĞRU farkıyla atlasın gününe iniyor. Çıkarım AÇIKÇA yazılı, gizlenmedi",
+    "YIL_DOGRULANDI_GUN_BULUNAMADI": "yıl birden çok kaynakta; GÜN hiçbirinde yok",
+    "GUN_ESLESIYOR_AKADEMIK_DAYANAK_BULUNAMADI": "gün eşleşiyor ama tek bulduğum yer Vikipedi — §4: tek dayanak OLAMAZ",
+    "bulunamadi": "arandı, yok",
+    "olculemedi": "arandı, ALET cevap veremedi (HTTP 403 / ECONNREFUSED) — ÖLÜ DEĞİL, tekrar denenmeli",
+    "okumadim": "aranmadı bile"
+  },
+
+  "_TABAN": {
+    "_YONTEM": "girdi.yukle() ile — regex YOK (§11: veri kendi dilinde yazılıysa o dilin yorumlayıcısını çağır). Devralınan hiçbir sayı doğrulanmadan aktarılmadı (kural ④).",
+    "kova_gun": 13,
+    "kova_nokta": 935,
+    "paylasilan": 4,
+    "devralinan_dogrulandi": {
+      "1917-11-07": "defter 448 — ÖLÇÜM 448 benzersiz yerleşim (896 dönem ucu) ✓",
+      "1917-03-15": "defter 446 — ÖLÇÜM 446 benzersiz yerleşim (892 dönem ucu) ✓"
+    },
+    "_BIRIM_UYARISI": "Defterin `nokta` alanı BENZERSİZ YERLEŞİM sayar; `bolgeler` ve `sahip_pay` ise DÖNEM UCU sayar (896 = 266+144+144+116+90+70+56+10). İkisi AYRI BİRİM. Yan yana okunursa 448 ile 266 çelişiyor sanılır — çelişmiyorlar. Defter doğru; eksik olan birim etiketi.",
+    "kaynakli_donem_ucu": 0,
+    "_KAYNAKLI_NOT": "13 günün 935 noktasındaki dönem uçlarının HİÇBİRİ kendi `kaynak:` alanını taşımıyor — defterin ölçütü doğrulandı."
+  },
+
+  "_TAKVIM_EKSENI": {
+    "_BULGU": "🔴 Bu kova İKİ TAKVİM kullanıyor ve bunu HİÇBİR YERDE BEYAN ETMİYOR. 11 gün Jülyen (O.S.), 2 gün Gregoryen (N.S.). İkisi de kendi bağlamında DOĞRU — Rusya takvimi Şubat 1918'de değiştirdi ve 1917 olayları literatürde N.S. anılır — ama beyan edilmediği için bir sonraki oturum bunu bir tutarsızlık sanıp 'düzeltmeye' kalkabilir. CLAUDE.md §4⑦: iki takvimi de yazmak, sonraki oturumu bu tuzaktan kurtarır.",
+    "_FARK_TABLOSU": "1582-1699 → 10 gün · 1700-1799 → 11 gün · 1800-1899 → 12 gün · 1900-2100 → 13 gün",
+    "JULYEN_OS": ["1502-03-01", "1551-05-24", "1552-10-02", "1589-07-02", "1590-07-12", "1598-08-20", "1636-04-17", "1713-06-29", "1735-08-31", "1736-09-02", "1743-04-30"],
+    "GREGORYEN_NS": ["1917-03-15", "1917-11-07"],
+    "_SINAV": "Hipotez hafızadan kurulmadı, ÖLÇÜLDÜ: Çelyabinsk'in N.S. kuruluşu birden çok kaynakta 13 Eylül 1736; atlas 1736-09-02; fark 11 gün = 18. yüzyılın DOĞRU Jülyen farkı. Rastgele bir sapma 11'e denk gelmezdi.",
+    "_SINIR": "Sınav TEK bir gün üzerinde koşuldu (1736-09-02). Öteki on Jülyen günü için takvim sınıflaması bir ÇIKARIMDIR, ölçüm değil — her biri kendi kaynağıyla ayrıca sınanmalı. `ölçmediğimi ölçmedim diye yazıyorum`."
+  },
+
+  "gunler": [
+    {
+      "gun": "1917-11-07",
+      "nokta": 448,
+      "donem_ucu": 896,
+      "paylasilan": true,
+      "etkilenen_bolge": ["VOLGA-URAL-SIBIRYA", "DOGU-AVRUPA", "KUZEY-AVRUPA", "ORTADOGU-IRAN", "GUNEY-ORTA-ASYA", "OKYANUSYA", "DOGU-GD-ASYA", "BALKANLAR"],
+      "kimlik": ["rusya-gecici-hukumet (t:)", "sovyet-rusya (f:)", "transkafkasya (f:)", "ingiltere (f:)"],
+      "damga": "DOGRULANDI",
+      "takvim": "Gregoryen (N.S.) — Jülyen karşılığı 25 Ekim 1917",
+      "kaynak": {
+        "ad": "TDV İslâm Ansiklopedisi, «KIRIM»",
+        "slug": "kirim",
+        "url": "https://islamansiklopedisi.org.tr/kirim",
+        "govde_karakter": 131545,
+        "govde_kesildi_mi": false,
+        "alinti": "7 Kasım 1917'de Bolşevikler'in Petrograd'da iktidarı ele geçirmeleriyle eski Çarlık Rusyası topraklarının her tarafında doğan kargaşa ortamı, kurultayın Kırım'da Kırım Tatar millî hâkimiyetinin teşkili yönündeki çalışmalarını kolaylaştırdı."
+      },
+      "_DAR_SLUG_TUTMADI": "TDV `rusya` (143.579 kar, KESİLMEDİ) 1917'yi 17 cümlede anıyor ve HEPSİ YIL — «1917 Ekim İhtilâli». `geçici hükûmet` ifadesi 0 eşleşme. `sovyetler-birligi` · `turkistan` · `azerbaycan` · `kazakistan` · `tataristan` gövdeleri de çekildi: hiçbiri günü vermiyor.",
+      "_DERS": "§4'ün «dar slug tutmazsa KAPSAYICI maddeyi dene» kuralı işledi, ama kapsayıcı `rusya` DEĞİL çıktı: günü, olayın ETKİLEDİĞİ bölgenin maddesi verdi. Kapı listesine bir eksen daha — olayın MERKEZİ değil, ÇEVRESİ."
+    },
+    {
+      "gun": "1917-03-15",
+      "nokta": 446,
+      "donem_ucu": 892,
+      "paylasilan": true,
+      "etkilenen_bolge": ["VOLGA-URAL-SIBIRYA", "DOGU-AVRUPA", "KUZEY-AVRUPA", "ORTADOGU-IRAN", "GUNEY-ORTA-ASYA", "OKYANUSYA", "DOGU-GD-ASYA", "BALKANLAR"],
+      "kimlik": ["rusya (t:)", "rusya-gecici-hukumet (f:)", "kongre-polonyasi (t:)"],
+      "damga": "DOGRULANDI",
+      "takvim": "Gregoryen (N.S.) — Jülyen karşılığı 2 Mart 1917. Kaynak takvimi KENDİSİ ayırıyor.",
+      "kaynak": {
+        "ad": "University of York, Department of History — David Moon, Anniversary Professor in History",
+        "url": "https://www.york.ac.uk/history/about/news/2017/tsar-nicholas-ii/",
+        "tur": "üniversite bölümü, adı geçen akademisyen",
+        "alinti": "On 15 March 1917 (according to the western calendar) Tsar Nicholas II abdicated from the Russian throne."
+      },
+      "_TDV_YETMEDI": "🔴 TDV bu günü HİÇBİR maddede vermiyor. Taranan gövdeler: `rusya` · `kirim` · `sovyetler-birligi` · `turkistan` · `azerbaycan` · `kazakistan` · `tataristan` · `kazan` · `kazan-hanligi` · `sibir-hanligi` · `kucum-han` · `astarhan-hanligi` · `nogaylar` · `altin-orda-hanligi`. Tümünde `[0-9]+ (ay) 1917` kalıbının verdiği tek 1917 günü `7 Kasım 1917` (kirim) — Mart YOK.",
+      "_KAYNAGIN_KUSURU": "🔴 TDV `kirim` şunu diyor: «Mart 1917'de Rusya'da patlak veren BOLŞEVİK İHTİLÂLİ». İki kusur: (a) AY hassasiyeti, gün yok; (b) Mart 1917'deki Şubat Devrimi'ni «Bolşevik İhtilâli» diye adlandırıyor — oysa AYNI GÖVDE Bolşeviklerin iktidarı almasını 7 Kasım'a tarihliyor. §4⑥: kaynak kendi içinde tutarsız. Bu bir AYRIŞTIRMA hatası değil; iki cümle de okundu, ikisi de aynı gövdede, ve birbirini kesiyorlar.",
+      "_GEREKCE": "§4'ün TANECİKLİK boşluğu: TDV Rusya'yı GÖRÜYOR ama bu tanecikte KONUŞMUYOR ⇒ akademik kaynak MEŞRU, ve `kaynak:` alanına adıyla yazılır.",
+      "_IKINCI_UC": "Atlasta bu gün hem `rusya`nın SONU hem `rusya-gecici-hukumet`in BAŞI. Kaynak ikisini de taşıyor: York metni tahttan çekilmeyi 15 Mart'a koyuyor, ve Geçici Hükûmet aynı gün kuruldu. Tek uç değil, İKİ UÇ da dayanaklı."
+    },
+    {
+      "gun": "1598-08-20",
+      "nokta": 6,
+      "donem_ucu": 12,
+      "paylasilan": true,
+      "etkilenen_bolge": ["VOLGA-URAL-SIBIRYA"],
+      "kimlik": ["sibir-hanligi (t:)", "rusya (f:)"],
+      "yerlesim": ["Tümen (Çimgi-Tura)", "Tobolsk (İsker)", "Baraba bozkırı", "Abalak", "Kızıl-Tura", "Zaural Başkurt toprakları"],
+      "damga": "DOGRULANDI",
+      "takvim": "Jülyen (O.S.) — Gregoryen karşılığı 30 Ağustos 1598 (+10)",
+      "kaynak": {
+        "ad": "TDV İslâm Ansiklopedisi, «KÜÇÜM HAN»",
+        "slug": "kucum-han",
+        "url": "https://islamansiklopedisi.org.tr/kucum-han",
+        "govde_karakter": 11497,
+        "govde_kesildi_mi": false,
+        "alinti": "4 Ağustos 1598'de Tara'dan başlayan askerî bir harekâtla Küçüm bugünkü Novasibirsk yakınlarında kuşatıldı. 20 Ağustos'ta çar birliklerine karşı giriştiği bu son savaşta da mağlûp olan Küçüm, oğlu Gali ve birkaç taraftarıyla kaçmayı başardı."
+      },
+      "_YIL_TURETILMEDI": "Gün ve ay ikinci cümlede, yıl birincide. Bu bir TÜRETME DEĞİL: iki cümle AYNI harekâtı anlatıyor ve «bu son savaşta da» ifadesi zinciri açıkça bağlıyor. Yine de yılın ayrı cümlede olduğu KAYDEDİLDİ — okuyan kendi tartabilsin.",
+      "_DAR_SLUG_TUTMADI": "TDV `sibir-hanligi` (10.528 kar, KESİLMEDİ) gövdesinde `1598` — 0 EŞLEŞME. Hanlığın kendi maddesi hanlığın bitiş gününü vermiyor; HÜKÜMDARIN maddesi veriyor.",
+      "_UYARI": "Aynı gövde Küçüm Han'ı «Batı Sibirya hanı (1563-1581)» diye künyeliyor ama 1598 harekâtını da anlatıyor ve ölüm kaydı «ö. 1006/1598'den sonra». Künye penceresi ile anlatı AYRIŞIYOR — kayıt için değil, sonraki oturumun `4c` ölçümü için not."
+    },
+    {
+      "gun": "1552-10-02",
+      "nokta": 10,
+      "donem_ucu": 20,
+      "paylasilan": false,
+      "etkilenen_bolge": ["VOLGA-URAL-SIBIRYA"],
+      "kimlik": ["kazan (t:)", "rusya (f:)"],
+      "damga": "DOGRULANDI",
+      "takvim": "Jülyen (O.S.) — Gregoryen karşılığı 12 Ekim 1552 (+10)",
+      "kaynak": {
+        "ad": "Michael Khodarkovsky, «The non-Christian peoples on the Muscovite frontiers», The Cambridge History of Russia (ed. Maureen Perrie, University of Birmingham), Cambridge University Press — ve konunun standart literatürü (Janet Martin, Medieval Russia 980-1584, CUP; Khodarkovsky, Russia's Steppe Frontier 1500-1800)",
+        "url": "https://www.cambridge.org/core/books/abs/cambridge-history-of-russia/nonchristian-peoples-on-the-muscovite-frontiers/6F7847AF2032EFD3CD107DE59EBF509B",
+        "alinti": "bulunamadı — bölümün erişilebilir kısmı Kazan'ın düşüş GÜNÜNÜ vermiyor; bölüm ve yazarı DOĞRULANDI, gün cümlesi ALINAMADI",
+        "_DAMGA": "Gün için birincil dayanak ALINTILANAMADI. Aşağıdaki `_HUKUM` bu tek kaynağa değil, üç ayrı ölçüme dayanıyor."
+      },
+      "_HUKUM": "🟢 ATLAS DOĞRU — `1552-10-02` DEĞİŞTİRİLMEMELİDİR. 2 Ekim 1552 (O.S.) konunun standart akademik tarihidir ve kuşatmanın başlangıcı (23 Ağustos 1552 O.S.) ile tutarlıdır.",
+      "_TDV_ILE_AYRISMA": {
+        "_GOZLEM": "🔴 TDV `kazan-hanligi`: «İki ay kadar süren kanlı çarpışmaların ardından 15 EKİM 1552'de Kazan düştü.» Atlas: 1552-10-02. Fark 13 GÜN.",
+        "_AYRISTIRMA": "§4'ün önkoşulu uygulandı: çelişki İLAN EDİLMEDEN önce ayrıştırıldı, ve fark bir kaynak çelişkisi DEĞİL bir ÇEVRİM HATASI çıktı.",
+        "_TESHIS": "2 + 13 = 15. 13 gün, JÜLYEN FARKININ 20. YÜZYIL DEĞERİDİR. 1552'de doğru fark 10 gündür (Gregoryen takvim 1582'de doğdu; 1582-1699 arası fark 10). TDV, 2 Ekim (O.S.) tarihine dönemin farkını değil BUGÜNKÜ farkı uygulamış görünüyor.",
+        "_IC_KANIT": "Teşhis TDV'nin KENDİ gövdesinden sınanabiliyor: aynı paragraf «Rus ordusu 20 Ağustos 1552'de Kazan'a ulaşarak 23 Ağustos'ta şehri kuşattı» diyor ve o iki tarih standart O.S. değerleriyle uyuşuyor. Yani gövde Ağustos'ta O.S., Ekim'de (mis)çevrilmiş N.S. kullanıyor — AYNI OLAY ANLATISI İÇİNDE İKİ TAKVİM. §4⑥'nın temiz bir vakası.",
+        "_IKINCI_IC_KANIT": "TDV «iki ay kadar süren çarpışmalar» diyor. 23 Ağustos → 2 Ekim = 41 gün. 23 Ağustos → 15 Ekim = 53 gün. Ne 41 ne 53 «iki ay»dır; ifade her iki tarihi de tam desteklemiyor ⇒ o cümle bir gün dayanağı olarak KULLANILAMAZ.",
+        "_KESINLIK": "🟡 Teşhis (bugünkü farkın uygulanması) bir ÇIKARIMDIR, TDV'nin beyanı değil. AMA hüküm ona bağlı DEĞİL: atlasın 2 Ekim'i bağımsız olarak standart tarihtir. Teşhis yalnız «TDV niçin 15 diyor» sorusunu cevaplıyor.",
+        "_NIÇIN_KAYDEDILIYOR": "Bu satır olmadan bir sonraki oturum TDV'yi (§4: birincil kaynak) görüp atlası «düzeltmeye» kalkar ve DOĞRU VERİYİ BOZAR. §11: bir ihlali kapatan reçete gerçeği silebilir."
+      }
+    },
+    {
+      "gun": "1502-03-01",
+      "nokta": 17,
+      "donem_ucu": 34,
+      "paylasilan": true,
+      "etkilenen_bolge": ["VOLGA-URAL-SIBIRYA"],
+      "kimlik": ["altinorda (t:)", "kirim (f:)", "nogay (f:)", "astarhan (f:)"],
+      "damga": "YIL_DOGRULANDI_GUN_BULUNAMADI",
+      "takvim": "Jülyen (O.S.) varsayılıyor — SINANMADI",
+      "kaynak": [
+        {
+          "ad": "TDV İslâm Ansiklopedisi, «ALTIN ORDA HANLIĞI» (müellif: MEHMET SARAY, 1989)",
+          "slug": "altin-orda-hanligi",
+          "url": "https://islamansiklopedisi.org.tr/altin-orda-hanligi",
+          "govde_karakter": 17164,
+          "govde_kesildi_mi": false,
+          "alinti": "ALTIN ORDA HANLIĞI — 1241-1502 yılları arasında Deştikıpçak'ta hüküm süren bir Türk-Moğol devleti."
+        },
+        {
+          "ad": "TDV İslâm Ansiklopedisi, «ASTARHAN HANLIĞI»",
+          "slug": "astarhan-hanligi",
+          "url": "https://islamansiklopedisi.org.tr/astarhan-hanligi",
+          "govde_karakter": 7958,
+          "govde_kesildi_mi": false,
+          "alinti": "Kırım hanlarından Mengli Giray'ın 1502'de Saray şehrini tahrip etmesinden sonra Saray Hanlığı'nın toprakları Kırım ile Nogay hanlıkları arasında paylaşılmıştı."
+        },
+        {
+          "ad": "Edward P. Keleher & Donald L. Layton, «Golden Horde», EBSCO Research Starters: History (2022)",
+          "url": "https://www.ebsco.com/research-starters/history/golden-horde",
+          "alinti": "Eleven years later, in 1502, Mengli's Crimean Tatars delivered the final blow, and the Golden Horde collapsed.",
+          "_PROVENANS": "İmzalı, YZ üretimi uyarısı YOK (kontrol edildi — §11'in Britannica «Quick Summary» vakası yüzünden). §4 ARA BÖLGE kuralı: 🔴 listeye girmeyen kurumsal/ansiklopedik kaynak KABUL, adıyla yazılır."
+        }
+      ],
+      "_BULGU": "🟡 YIL 1502 ÜÇ BAĞIMSIZ KAYNAKTA. GÜN (1 Mart) HİÇBİRİNDE YOK. Dahası, ikinci TDV alıntısı da EBSCO da olayı bir GÜNE değil bir SÜRECE bağlıyor, ve akademik anlatı süreci 1502'nin İLK YARISINA yayıyor — Saray'ın tahribi, ardından Şeyh Ahmed'in Sula boyundaki bozgunu (10 Haziran 1502) ve son direnişi.",
+      "_HUKUM": "🔴 HÜKÜM VERMİYORUM, BİLDİRİYORUM. `1502-03-01` bir KAYNAK GÜNÜ olarak doğrulanamadı; bir atlas konvansiyonu (hizalama) olabilir. Ama bunu ölçmek benim kalemim DEĞİL: gün değişirse 17 nokta ve dört kimlik (`altinorda`/`kirim`/`nogay`/`astarhan`) birden kayar, ve §3.5.1 gereği İKİ UÇ da ölçülmeden dokunulmaz. Kalem AÇIK bırakıldı.",
+      "_ARANAN_KAPILAR": "`altin-orda` · `altinorda` · `altin-ordu` üçü de 302 (ÖLÜ). Canlı slug `altin-orda-hanligi` TAHMİNLE DEĞİL, TDV'nin `astarhan-hanligi` maddesindeki KENDİ ÇAPRAZ ATFINDAN okundu. `mengli-giray` · `seyh-ahmed` · `astarhan` · `sarayulcedid` → 302. `saray` 200 ama §4② tuzağı (mimarî saray maddesi) — KULLANILMADI."
+    },
+    {
+      "gun": "1551-05-24",
+      "nokta": 1,
+      "donem_ucu": 1,
+      "paylasilan": false,
+      "etkilenen_bolge": ["VOLGA-URAL-SIBIRYA"],
+      "yerlesim": ["Sviyajsk"],
+      "kimlik": ["kazan (f:)"],
+      "damga": "AY_DOGRULANDI_GUN_BULUNAMADI",
+      "takvim": "Jülyen (O.S.) varsayılıyor — SINANMADI",
+      "kaynak": {
+        "ad": "UNESCO World Heritage Centre, «Assumption Cathedral and Monastery of the town-island of Sviyazhsk» (liste no. 1525) ve bağlı akademik özetler",
+        "url": "https://whc.unesco.org/en/list/1525/",
+        "alinti": "olculemedi — WebFetch HTTP 403 döndürdü; sayfa ÖLÜ DEĞİL, ÇEKİLEMEDİ",
+        "_IKINCIL": "Arama sonuçlarında tutarlı ifade: «In late May 1551, Muscovite forces disembarked at the site of the future Sviyazhsk» ve «in the spring of 1551, it was all loaded on rafts and floated down the Volga» — AY (Mayıs 1551) desteklendi, GÜN (24) desteklenmedi."
+      },
+      "_NOT": "🟡 Atlasın kaydı ilginç ve muhtemelen DOĞRU bir modelleme: Sviyajsk `kazan` kimliğiyle 1551-05-24'te BAŞLIYOR ve 1552-10-02'de bitiyor. Yani kale bir Rus ileri üssü olduğu hâlde atlas onu Kazan toprağında gösteriyor — bu bir kusur DEĞİL, `§2` gereği bir petek noktasıdır ve sahipliği ayrıca tartışılmalı. DOKUNULMADI."
+    },
+    {
+      "gun": "1636-04-17",
+      "nokta": 1,
+      "donem_ucu": 2,
+      "paylasilan": false,
+      "etkilenen_bolge": ["VOLGA-URAL-SIBIRYA"],
+      "yerlesim": ["Tambov"],
+      "kimlik": ["kirim (t:)", "rusya (f:)"],
+      "damga": "GUN_ESLESIYOR_AKADEMIK_DAYANAK_BULUNAMADI",
+      "takvim": "Jülyen (O.S.) varsayılıyor — SINANMADI",
+      "kaynak": {
+        "ad": "bulunamadı — akademik/kurumsal kaynak",
+        "alinti": "Gün (17 Nisan 1636) yalnız Vikipedi'de bulundu ve §4 gereği Vikipedi TEK DAYANAK OLAMAZ.",
+        "_DAMGA": "Bu `bulunamadı`dır (arandı, akademik karşılığı yok), `okumadım` DEĞİL."
+      },
+      "_UYARI": "🔴 Bu kayıt bir KİMLİK sorusu da taşıyor ve dayanak sorusundan AYRI: Tambov'un `s:kirim` dönemi 1441-01-01'de başlıyor. Tambov ormanlık Rus sınır bölgesindedir; Kırım Hanlığı'nın oraya TASARRUFU değil AKINLARI olmuştur, ve §11: «atlas seferi değil TASARRUFU boyar». Bu benim kalemim değil — SAHİBİNE BİLDİRİLİYOR, dokunulmadı."
+    },
+    {
+      "gun": "1736-09-02",
+      "nokta": 1,
+      "donem_ucu": 1,
+      "paylasilan": false,
+      "etkilenen_bolge": ["VOLGA-URAL-SIBIRYA"],
+      "yerlesim": ["Çelyabinsk"],
+      "kimlik": ["rusya (f:)"],
+      "damga": "CIKARIMLA_DOGRULANDI",
+      "takvim": "Jülyen (O.S.) — Gregoryen karşılığı 13 Eylül 1736 (+11)",
+      "kaynak": {
+        "ad": "South Ural State University (Chelyabinsk) ve Chelyabinsk City Administration — kuruluş günü N.S. olarak 13 Eylül 1736, kurucusu Albay Aleksey Tevkelev, Miass nehri üzerinde Çelyabinsk kalesi",
+        "url": "https://cheladmin.ru/en/chelyabinsk-0/history-chelyabinsk",
+        "alinti": "olculemedi — WebFetch ECONNREFUSED (91.224.155.76:443). Sayfa ÖLÜ DEĞİL, BAĞLANILAMADI. Tarih arama sonuçlarında tutarlı biçimde «September 13, 1736» olarak geçiyor.",
+        "_CIKARIM": "13 Eylül 1736 (N.S.) − 11 gün = 2 Eylül 1736 (O.S.) = atlasın kaydı. 11 gün, 1700-1799 aralığının DOĞRU Jülyen farkıdır. Çıkarım AÇIKÇA yazıldı; gizlenmedi."
+      },
+      "_DEGERI": "Bu gün kovadaki en küçük kalemlerden biri (1 nokta) ama TAKVİM SINAVININ ÇAPASI oldu: 11 günlük farkın dönemin doğru değerine denk gelmesi, öteki on Jülyen gününün sınıflamasına dayanak verdi."
+    },
+    {
+      "gun": "1589-07-02",
+      "nokta": 1,
+      "donem_ucu": 1,
+      "paylasilan": false,
+      "etkilenen_bolge": ["VOLGA-URAL-SIBIRYA"],
+      "yerlesim": ["Tsaritsyn"],
+      "kimlik": ["rusya (f:)"],
+      "damga": "YIL_DOGRULANDI_GUN_BULUNAMADI",
+      "takvim": "Jülyen (O.S.) varsayılıyor — SINANMADI",
+      "kaynak": {
+        "ad": "Volgograd State University — «Volga Land» tarih portalı",
+        "url": "https://volgaland.volsu.ru/en/object/4",
+        "alinti": "Volgograd is considered to be founded in 1589.",
+        "_NOT": "Üniversite yayını, YIL veriyor, GÜN vermiyor. Kurucusu Grigori Zasekin, Tsaritsa-İdil kavşağında; kayıtlı belge 1589'a ait."
+      }
+    },
+    {
+      "gun": "1590-07-12",
+      "nokta": 1,
+      "donem_ucu": 1,
+      "paylasilan": false,
+      "etkilenen_bolge": ["VOLGA-URAL-SIBIRYA"],
+      "yerlesim": ["Saratov"],
+      "kimlik": ["rusya (f:)"],
+      "damga": "YIL_DOGRULANDI_GUN_BULUNAMADI",
+      "takvim": "Jülyen (O.S.) varsayılıyor — SINANMADI",
+      "kaynak": {
+        "ad": "bulunamadı — akademik/kurumsal kaynak GÜN için",
+        "alinti": "Yıl ve mevsim tutarlı biçimde destekleniyor: «founded in the summer of 1590 during the reign of Tsar Fyodor Ivanovich», kurucuları Knez Grigory Zasekin ve boyar Fyodor Turov. GÜN (12 Temmuz) hiçbir akademik/kurumsal kaynakta bulunamadı.",
+        "_EK_UYARI": "🔴 Saratov iki kez TAŞINDI (1616 ve 1674, bugünkü yerine). Atlasın noktası (51,533 / 46,034) BUGÜNKÜ Saratov'dur; 1590 kalesi başka yerdeydi. Bu bir dayanak sorusu değil bir KONUM sorusudur ve sahibine bildiriliyor — dokunulmadı."
+      }
+    },
+    {
+      "gun": "1735-08-31",
+      "nokta": 1,
+      "donem_ucu": 1,
+      "paylasilan": false,
+      "etkilenen_bolge": ["VOLGA-URAL-SIBIRYA"],
+      "yerlesim": ["Orsk"],
+      "kimlik": ["rusya (f:)"],
+      "damga": "YIL_DOGRULANDI_GUN_BULUNAMADI",
+      "takvim": "Jülyen (O.S.) varsayılıyor — SINANMADI",
+      "kaynak": {
+        "ad": "bulunamadı — GÜN için akademik/kurumsal kaynak",
+        "alinti": "Yıl DOĞRULANDI: Orsk 1735'te İvan Kirilov'un seferi tarafından, Yayık (Ural) nehrinin sol kıyısında Preobrajenskaya tepesinde ORENBURG adıyla kuruldu; adı 1739'da Orsk oldu. GÜN (31 Ağustos) bulunamadı.",
+        "_NOT": "Orsk ile Orenburg AYNI kalenin iki adıdır ve atlasın iki ayrı günü (1735-08-31 Orsk · 1743-04-30 Orenburg) bu iki AŞAMAYA denk düşüyor. Model tutarlı."
+      }
+    },
+    {
+      "gun": "1743-04-30",
+      "nokta": 1,
+      "donem_ucu": 1,
+      "paylasilan": false,
+      "etkilenen_bolge": ["VOLGA-URAL-SIBIRYA"],
+      "yerlesim": ["Orenburg"],
+      "kimlik": ["rusya (f:)"],
+      "damga": "YIL_DOGRULANDI_GUN_BULUNAMADI",
+      "takvim": "Jülyen (O.S.) varsayılıyor — SINANMADI",
+      "kaynak": {
+        "ad": "Encyclopaedia Britannica, «Orenburg»",
+        "url": "https://www.britannica.com/place/Orenburg-Russia",
+        "alinti": "olculemedi — WebFetch HTTP 403. Arama sonucundaki ifade: «Founded as a fortress in 1735 at the Ural-Or confluence, where Orsk now stands, it was moved to its present site in 1743.»",
+        "_DAMGA": "Britannica sayfası ÇEKİLEMEDİ ⇒ ne 🟢 ne 🔴; ve çekilseydi §11 gereği «Quick Summary / AI» damgası ayrıca kontrol edilecekti. YIL 1743 desteklendi, GÜN (30 Nisan) bulunamadı."
+      }
+    },
+    {
+      "gun": "1713-06-29",
+      "nokta": 1,
+      "donem_ucu": 1,
+      "paylasilan": false,
+      "etkilenen_bolge": ["VOLGA-URAL-SIBIRYA"],
+      "yerlesim": ["Kolıvan (Çaus)"],
+      "kimlik": ["rusya (f:)"],
+      "damga": "bulunamadi",
+      "takvim": "Jülyen (O.S.) varsayılıyor — SINANMADI",
+      "kaynak": {
+        "ad": "bulunamadı",
+        "alinti": "Çaus ostrogu (Çausskiy ostrog, bugünkü Kolıvan, Novosibirsk oblastı) için ne yıl ne gün akademik/kurumsal bir kaynakta bulunabildi. İngilizce arama karşılığı yok denecek kadar az; Rusça kurumsal kaynak DENENMEDİ.",
+        "_DAMGA_AYRIMI": "Bu `bulunamadı` (İngilizce akademik/kurumsal kanaldan arandı, yok) ve aynı zamanda kısmen `okumadım` (Rusça kurumsal kanal — Novosibirsk oblastı arşivi, Bolşaya Rossiyskaya Entsiklopediya — HİÇ denenmedi). İkisi ayrı ve karıştırılmıyor: bir sonraki oturum Rusça kanalı denemelidir, ve bu satır onu ARAMAKTAN ALIKOYMAMALIDIR."
+      }
+    }
+  ],
+
+  "_OZET": {
+    "gun": 13,
+    "nokta": 935,
+    "DOGRULANDI": 4,
+    "CIKARIMLA_DOGRULANDI": 1,
+    "YIL_veya_AY_DOGRULANDI_GUN_BULUNAMADI": 6,
+    "_OZET_DUZELTILDI": "İlk yazımda `DOGRULANDI: 3` ve `YIL/AY: 7` yazmıştım — YANLIŞTI, `1552-10-02`yi (DOGRULANDI) yanlış kovaya saymıştım. Elle yazılan özet, kayıtların KENDİSİNİ sayan bir çapraz sınavla ölçüldü ve çürüdü; düzeltildi. §1.5: bir özet ELLE YAZILMAZ, ÜRETİLİR — burada üretilemedi, ama en azından SINANDI.",
+    "GUN_ESLESIYOR_AKADEMIK_DAYANAK_BULUNAMADI": 1,
+    "bulunamadi": 1,
+    "_NOKTA_AGIRLIKLI": "Kovanın 935 noktasının 894'ü (%95,6) — iki 1917 günü — ADIYLA AKADEMİK/TDV kaynağa bağlandı. Kalan 41 noktanın 10'u (Kazan) hükme bağlandı, 17'si (1502) yıl düzeyinde dayanaklı ve günü açık kaldı, 14'ü tek noktalık kalemler.",
+    "_BIRIM_UYARISI": "Bu özet GÜN sayar. Nokta ağırlıklı okunduğunda tablo tamamen değişir — §11: «bir sayım birimi yanlışsa, ölçüm veriyi değil verinin YAPISINI ölçer.» İki birim de yazıldı ki hangisiyle okunacağı okuyanın seçimi olsun."
+  },
+
+  "_KOORDINATORE": {
+    "veri_yazildi_mi": false,
+    "commit_edildi_mi": false,
+    "kova_disina_dokunuldu_mu": false,
+    "_ACIK_KALEMLER": [
+      "1502-03-01 — GÜN dayanaksız (yıl üç kaynakta). Değişirse 17 nokta + 4 kimlik kayar; §3.5.1 iki uç ölçümü gerekir. BENİM KALEMİM DEĞİL.",
+      "1713-06-29 Kolıvan (Çaus) — Rusça kurumsal kanal HİÇ denenmedi (`okumadım`).",
+      "1636-04-17 Tambov — `s:kirim 1441→1636` kaydı bir TASARRUF iddiasıdır ve akın ile tasarruf ayrımı (§11) sorulmamış. Sahibine bildiriliyor.",
+      "1590-07-12 Saratov — nokta BUGÜNKÜ Saratov'da; 1590 kalesi başka yerdeydi (iki taşınma: 1616, 1674). KONUM sorusu, dayanak sorusu değil.",
+      "TDV `kazan-hanligi` «15 Ekim 1552» — kaynakta takvim çevrim hatası teşhisi. Atlas DOĞRU, DEĞİŞTİRİLMEMELİ. Bu satır olmadan bir sonraki oturum doğru veriyi bozar.",
+      "TAKVİM BEYANI — kova iki takvim kullanıyor ve beyan etmiyor. §4⑦: iki takvimi de yazmak sonraki oturumu kurtarır. Bir yama DEĞİL, bir BEYAN borcu."
+    ],
+    "_OLCULEMEDI": [
+      "britannica.com — 3 ayrı sayfada HTTP 403 (Nicholas II · Sviyazhsk · Orenburg). ÖLÜ DEĞİL, ÇEKİLEMEDİ.",
+      "whc.unesco.org/en/list/1525 — HTTP 403.",
+      "historytoday.com — HTTP 403.",
+      "cheladmin.ru — ECONNREFUSED.",
+      "cambridge.org — sayfa ÇEKİLDİ, bölüm ve yazarı doğrulandı, ama gün cümlesi erişilebilir kısımda YOK."
+    ],
+    "_KULLANILMAYAN": "Aramalarda `grokipedia.com` · `fandom.com` · `historysphere.com` · `wisdomlib.org` · `triposo` · `studyguides.com` çıktı — §4'ün 🔴 listesi (YZ üretimi metin · içerik çiftliği · kaynaksız derleme). HİÇBİRİ KULLANILMADI ve bu KASITLIDIR."
+  }
+}

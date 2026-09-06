@@ -20,8 +20,39 @@ const { bolge } = require("./ARAC-BOLGE-KUTU-0906.js");
 
 const BENIM = new Set(["KUZEY-AVRUPA", "BATI-ORTA-AVRUPA", "IBERYA", "ITALYA"]);
 const D = JSON.parse(fs.readFileSync("denetim/DAYANAK-AVRUPA-0907.json", "utf8"));
-const DAYANAK = {};
-for (const g of D.GUNLER) DAYANAK[g.gun] = g;
+
+// 🔴 YENİ KURAL (koordinatör, 7 Eylül): `paylasilan: true` günü ⑮ PAYLAŞILAN
+//    GÜNLER kolu yazar, bölge kolu ATLAR. Amaç doğru — altı oturum aynı günü
+//    yazmasın.
+// 🟡 AMA ÖLÇÜT BÖLGE BAZLI, OTURUM BAZLI DEĞİL — ve AVRUPA'nın DÖRT kovası var.
+//    İki kovaya yayılan bir gün "paylaşılan" görünür ama iki kova da BENİM
+//    (ölçüldü: 14 gün · 111 nokta böyle). O günleri ⑮'e devretmek, ⑮'i benim
+//    kovamı araştırmaya zorlar — kuralın önlemek istediği şeyin ta kendisi.
+//    ⇒ Burada OTURUM bazlı süzülüyor; ölçüm `ARAC-AVRUPA-PAYLASIM-0907.js`de.
+const { SAHIP } = require("./ARAC-BOLGE-KUTU-0906.js");
+const DEFTER = {};
+for (const g of (JSON.parse(fs.readFileSync(
+  "denetim/DAYANAK-GUNLER-0907.json", "utf8")).gunler || [])) DEFTER[g.gun] = g;
+
+const DAYANAK = {}, DEVREDILEN = [];
+for (const g of D.GUNLER) {
+  const d = DEFTER[g.gun];
+  const oturumlar = d ? new Set(Object.keys(d.bolgeler || {})
+    .map(b => SAHIP[b] || "?")) : new Set(["AVRUPA"]);
+  const cokOturum = oturumlar.size > 1;
+  if (d && d.paylasilan && cokOturum) {
+    DEVREDILEN.push({ gun: g.gun, nokta: d.nokta, oturumlar: [...oturumlar] });
+    continue;                       // ⑮'in — YAZMIYORUM
+  }
+  DAYANAK[g.gun] = g;
+}
+if (DEVREDILEN.length) {
+  console.log("🔵 ⑮ PAYLAŞILAN GÜNLER koluna DEVREDİLDİ (yeni kural):");
+  for (const x of DEVREDILEN)
+    console.log("   " + x.gun + "  " + String(x.nokta).padStart(3) +
+      " nokta  ⇒ " + x.oturumlar.join(" · "));
+  console.log("");
+}
 
 function baglam(y) {
   const c = { window: {} }; vm.createContext(c);

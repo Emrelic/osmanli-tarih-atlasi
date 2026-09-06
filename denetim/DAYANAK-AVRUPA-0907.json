@@ -2,9 +2,8 @@
   "_NOT": "AVRUPA oturumunun GÜN DAYANAKLARI. Ortak defter (`DAYANAK-GUNLER-0907.json`) PAYLAŞILAN ALTYAPI ve Oturum 0'ın — ona YAZMIYORUM, kendi dilimimi buraya yazıyorum; birleştirme koordinatörün. §7.",
   "oturum": "AVRUPA · 1923 sınır denetimi",
   "durum": "🔒 data/ DONUK (koşu 7b) — UYGULANMADI",
-
-  "_UYGULAMA_RISKI": "🔴 BU DAYANAKLAR HENÜZ VERİYE İNEMEZ. Bir nokta birden çok gün taşıyor (Oslo: 1814-01-14 VE 1905-06-07) ama `kaynak:` KAYIT seviyesinde tek alan ⇒ dayanak DÖNEM seviyesine yazılmalı. Biçim veride VAR ve meşru (148 dönem `kaynak:` taşıyor — Niş · Niğbolu · Rusçuk · Semendire, hepsi `isg:` içinde), AMA `_sahiplik_uygula.py`nin dönem-içi `kaynak:`ı TAŞIDIĞI ÖLÇÜLMEDİ. Ölçülmeden yazılırsa ve alan sessizce düşerse iş yapılmış GÖRÜNÜR ve dayanak kaybolur — bugün künye tarafında ölçülen kusurun (`not:` 17 beyan) birebir kardeşi.",
-
+  "_UYGULAMA_RISKI_KAPANDI": "🟢 ÖLÇÜLDÜ VE TEMİZ ÇIKTI (Ⓑ · `SINAV-DONEM-KAYNAK-0907.py`, 7 Eylül). Dönem-içi `kaynak:` `_sahiplik_uygula.py` ile İNİYOR: ① `js_yaz` sabit alan listesi KULLANMIYOR — `deger.items()` sözlükteki her anahtarı yazar (ateşleme 2/2 taşıdı, kontrol 0 uydurmadı); ② node süzgeci kaydın TAMAMINI geçiriyor (`r: r`, izdüşüm yok — süzgeçten geçen dönemin alanları ['d','f','kaynak','t']). Sınav aletin KENDİ kodunu çalıştırdı: `js_yaz` `ast` ile kaynak dosyadan çıkarıldı, node süzgeci aletin kendi JS metniyle koşuldu (TEK değişiklik: okuduğu dizin `data` → geçici test dizini, ve o değişiklik betikte YAZILI). ⇒ `not:`/`bos:` vakasının (sabit `sira` listesi) TERSİ; o kusur burada YOK.",
+  "_ESKI_RISK_BEYANI_BAYAT": "⚠️ Aşağıdaki satır 7 Eylül'de ölçümden ÖNCE yazıldı ve ARTIK GEÇERLİ DEĞİL — damgalanıyor, silinmiyor (§3.5.1: bir vakayı silmek dersi de siler; damgalamak dersi korur). Ders ayakta: ölçmeden yazsaydım ve alan düşseydi iş yapılmış GÖRÜNÜR, dayanak kaybolurdu. || ESKİ METİN: 🔴 BU DAYANAKLAR HENÜZ VERİYE İNEMEZ. Bir nokta birden çok gün taşıyor (Oslo: 1814-01-14 VE 1905-06-07) ama `kaynak:` KAYIT seviyesinde tek alan ⇒ dayanak DÖNEM seviyesine yazılmalı. Biçim veride VAR ve meşru (148 dönem `kaynak:` taşıyor — Niş · Niğbolu · Rusçuk · Semendire, hepsi `isg:` içinde), AMA `_sahiplik_uygula.py`nin dönem-içi `kaynak:`ı TAŞIDIĞI ÖLÇÜLMEDİ. Ölçülmeden yazılırsa ve alan sessizce düşerse iş yapılmış GÖRÜNÜR ve dayanak kaybolur — bugün künye tarafında ölçülen kusurun (`not:` 17 beyan) birebir kardeşi.",
   "_DILIM_OLCUMU": {
     "defterin_verdigi": "161 gün · 849 nokta (sahip alanı benim dört kovamdan biri)",
     "🔴_MAGRIB_ELEMESI": "Defterin `sahip` alanı bir SURVEY ölçütü, KİMLİK kalemi DEĞİL (şartname §④). Cascade Mağrib kıyısını Avrupa kutularına düşürüyor ⇒ defter bana ORTADOĞU'nun günlerini veriyor. Ölçüldü (`ARAC-AVRUPA-MAGRIB-ELE-0907.js`):",
@@ -13,33 +12,43 @@
     "🟡_karisik": "3 gün · 51 nokta — 1479-01-20 (Avrupa 23 / Mağrib 7) · 1581-04-16 (8/3) · 1640-12-01 (8/2). Bölüşüm gerekir.",
     "🔴_IKI_OTORITE_AYRISIYOR": "Koordinatör kendi mesajında `1830-07-05 → ORTADOĞU-IRAN` dedi; defter aynı gün için `sahip: IBERYA` diyor. Defter yanlış değil — ölçütü coğrafî kutu, ve o kutu cascade'in kirliliğini taşıyor. Ama iki otorite AYRIŞMIŞ durumda ve bir sonraki oturum hangisini okuduğuna göre farklı iş yapar."
   },
-
   "GUNLER": [
     {
       "gun": "1547-01-16",
       "nokta": 73,
       "olay": "IV. İvan'ın çar olarak taç giymesi — Moskova Büyük Knezliği'nin Rus Çarlığına dönüşmesi",
-      "kimlik": ["moskova", "rusya"],
+      "kimlik": [
+        "moskova",
+        "rusya"
+      ],
       "kaynak": "EBSCO Research Starters (editöryal incelemeli akademik özet, 2019): «Ivan Vasilyevich, Grand Duke Ivan IV of the Grand Duchy of Muscovy, was crowned czar of all Russia on January 16, 1547.»",
       "§②b": "🟢 GÜNÜN dayanağı — gövde günü açıkça veriyor, ve gövde ÇEKİLİP okundu.",
       "🟡_TAKVIM_UYARISI": "1547 GREGORYEN TAKVİMDEN ÖNCE (1582). Kaynakların verdiği 16 Ocak JÜLYEN'dir; Gregoryen karşılığı 26 Ocak 1547. Atlas kaynağın günüyle aynı yazıyor ⇒ o dönem için Jülyen kullanıyor. Bu TUTARLI bir seçim ama BEYAN EDİLMEMİŞTİ. §4⑦: bir günü veriye yazmadan önce hangi takvim olduğu sorulur.",
-      "zayiflik": "EBSCO girdisi İMZASIZ (öteki EBSCO kaydımda yazar vardı: Joseph P. Byrne). Editöryal inceleme var, imza yok."
+      "zayiflik": "EBSCO girdisi İMZASIZ (öteki EBSCO kaydımda yazar vardı: Joseph P. Byrne). Editöryal inceleme var, imza yok.",
+      "🔵_DEVREDILDI": "⑮ PAYLAŞILAN GÜNLER koluna devredildi (koordinatörün 7 Eylül kuralı: `paylasilan: true` günü ⑮ yazar). Oturumlar: AVRUPA · BALKAN-DOĞU AVRUPA · (atanmamış kova). ⚠️ DAYANAK METNİ BURADA DURUYOR ve SİLİNMEDİ — ⑮ onu devralabilir; yeniden aramak gereksiz iş olur."
     },
     {
       "gun": "1792-09-22",
       "nokta": 55,
       "olay": "Fransız Birinci Cumhuriyeti'nin ilk tam günü — Cumhuriyet takviminin I. Yıl 1. günü",
-      "kimlik": ["fransa", "fransa-cumhuriyet"],
+      "kimlik": [
+        "fransa",
+        "fransa-cumhuriyet"
+      ],
       "kaynak": "William Doyle, *The Oxford History of the French Revolution* (2. baskı), Oxford University Press, 1990 — künye ADIYLA alındı.",
       "§②b": "🟢 GÜNÜN dayanağı — ama aşağıdaki AYRIMLA birlikte okunmalı.",
       "🔴_IKI_GUN_IKI_OLAY_—_CELISKI_DEGIL": "21 Eylül 1792: Konvansiyon monarşiyi kaldırdığını İLAN ETTİ. 22 Eylül 1792: Cumhuriyetin İLK TAM GÜNÜ ve Cumhuriyet takviminin I. Yıl 1. günü. İkisi FARKLI olayları tarihliyor (§4: önce ayrıştır, sonra çelişki ilan et). Atlas 22'yi kullanıyor ve `fransa → fransa-cumhuriyet` geçişi için bu SAVUNULABİLİR — ama 21 de savunulabilirdi. ⇒ Bu bir SEÇİM, ve damga onu meşrulaştırmaz, GÖRÜNÜR kılar.",
-      "zayiflik": "🟡 DEVRALDIM — Doyle'un kitabı OKUNMADI; künye Wikipedia'nın kaynakçasından alındı. §4: Vikipedi tek dayanak değildir, ama gösterdiği künye izlenebilirdir. §11 (`cahokia` hükmü): izlenebilirlik doğrulanmışlıktan önce gelir, ŞARTI damganın kayda TAŞINMASI."
+      "zayiflik": "🟡 DEVRALDIM — Doyle'un kitabı OKUNMADI; künye Wikipedia'nın kaynakçasından alındı. §4: Vikipedi tek dayanak değildir, ama gösterdiği künye izlenebilirdir. §11 (`cahokia` hükmü): izlenebilirlik doğrulanmışlıktan önce gelir, ŞARTI damganın kayda TAŞINMASI.",
+      "🔵_DEVREDILDI": "⑮ PAYLAŞILAN GÜNLER koluna devredildi (koordinatörün 7 Eylül kuralı: `paylasilan: true` günü ⑮ yazar). Oturumlar: AVRUPA · ORTADOĞU · AFRİKA · AMERİKA-OKYANUSYA. ⚠️ DAYANAK METNİ BURADA DURUYOR ve SİLİNMEDİ — ⑮ onu devralabilir; yeniden aramak gereksiz iş olur."
     },
     {
       "gun": "1917-12-06",
       "nokta": 21,
       "olay": "Finlandiya'nın bağımsızlık ilanı — Eduskunta bildirgeyi kabul etti",
-      "kimlik": ["sovyet-rusya", "finlandiya"],
+      "kimlik": [
+        "sovyet-rusya",
+        "finlandiya"
+      ],
       "kaynak": "Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi).",
       "§②b": "🟢 GÜNÜN dayanağı — «Parliament adopted the Declaration on 6 December with 100 votes against 88.»",
       "zayiflik": "🟡 DEVRALDIM — iki künye de ADIYLA alındı ama HİÇBİRİ OKUNMADI; cümle Wikipedia gövdesinden. Sovyet Rusya'nın tanıması AYRI bir gün (18/31 Aralık 1917) ve atlas onu kullanmıyor."
@@ -48,19 +57,27 @@
       "gun": "1814-01-14",
       "nokta": 20,
       "olay": "Kiel Antlaşması — Danimarka Norveç'i İsveç'e bıraktı",
-      "kimlik": ["danimarka", "isvec"],
+      "kimlik": [
+        "danimarka",
+        "isvec"
+      ],
       "kaynak": "nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedish monarch»",
       "§②b": "🟢 GÜNÜN dayanağı — gövde ÇEKİLİP okundu, üniversite yayını, künye sayfanın kendisinde.",
       "zayiflik": "🟢 YOK — bu kaydın dayanağı doğrudan okundu ve kurumsal kimliği doğrulandı. Dört günün EN SAĞLAMI."
     }
   ],
-
   "_KAPSAM": {
     "yazilan": "4 gün · 169 nokta",
     "temiz_dilim": "119 gün · 560 nokta",
     "pay": "%30,2",
     "sirada": "1905-06-07 (20) · 1516-01-23 (19) · 1809-09-17 (19) · 1478-01-15 (35) · 1861-03-17 (18) · 1815-06-09 (18)"
   },
-
-  "_OLCULEMEDI": "⚪ Bugün DÖRT akademik kaynak HTTP 403 döndü: Britannica (iki kez) · Oxford Reference · Library of Congress. §4⑤: bir HTTP kodu içerik hakkında iddia DEĞİLDİR ⇒ hiçbiri «kaynakta yok» diye damgalanmadı. Ama sonucu şu: dört günün ÜÇÜNDE ikinci bağımsız teyit gövde okumasından değil ARAMA SONUÇLARININ ÇAKIŞMASINDAN geliyor. Bu bir zayıflık ve her kaydın kendi `zayiflik` alanında YAZILI."
+  "_OLCULEMEDI": "⚪ Bugün DÖRT akademik kaynak HTTP 403 döndü: Britannica (iki kez) · Oxford Reference · Library of Congress. §4⑤: bir HTTP kodu içerik hakkında iddia DEĞİLDİR ⇒ hiçbiri «kaynakta yok» diye damgalanmadı. Ama sonucu şu: dört günün ÜÇÜNDE ikinci bağımsız teyit gövde okumasından değil ARAMA SONUÇLARININ ÇAKIŞMASINDAN geliyor. Bu bir zayıflık ve her kaydın kendi `zayiflik` alanında YAZILI.",
+  "🔴_PAYLASILAN_OLCUTU_BOLGE_BAZLI": {
+    "bulgu": "Defterin `paylasilan` alanı BÖLGE sayısından hesaplanıyor, OTURUM sayısından değil. AVRUPA'nın DÖRT kovası var (KUZEY-AVRUPA · BATI-ORTA-AVRUPA · IBERYA · ITALYA) ⇒ iki kovaya yayılan bir gün 'paylaşılan' görünüyor ama iki kova da AYNI OTURUMUN.",
+    "olcum": "ARAC-AVRUPA-PAYLASIM-0907.js — AVRUPA'nın 161 gününde: tekil 132 gün/362 nokta · SAHTE paylaşım 14 gün/111 nokta · GERÇEK paylaşım 15 gün/376 nokta.",
+    "sonuc": "Kural körü körüne uygulanırsa 14 gün (111 nokta) gereksizce ⑮'e gider — ve ⑮ onları yazmak için BENİM kovamı araştırır, yani kuralın önlemek istediği mükerrer işin ta kendisi doğar.",
+    "ornek": "1922-12-06 (İrlanda Serbest Devleti) — BATI-ORTA-AVRUPA 16 · KUZEY-AVRUPA 4, ikisi de benim. Üstelik o günün çekirdek maddesini BEN yazdım (KRONOLOJI-AVRUPA-0906.json). 1871-01-18 (Alman İmparatorluğu) aynı durumda.",
+    "uyguladigim": "Bu üreticide OTURUM bazlı süzdüm: `paylasilan` VE birden çok OTURUM ⇒ devret; `paylasilan` ama tek oturum ⇒ TUT. Hüküm koordinatörün, bu bir ölçüm ve gerekçe."
+  }
 }

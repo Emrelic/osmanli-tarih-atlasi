@@ -1,0 +1,95 @@
+{
+ "supheli": [
+  {
+   "ad": "St. John's (Newfoundland)",
+   "lat": 47.561,
+   "lon": -52.712,
+   "dosya": "yerlesimler_kamerika.js",
+   "komsu": "kanada 6",
+   "baskin": "kanada",
+   "baskinN": 6,
+   "onceki": "ingiltere 1583-08-05",
+   "not": "Gilbert'ın 1583 ilânı; balıkçı iskânı daha eski · dayanak: Dictionary of Canadian Biography"
+  },
+  {
+   "ad": "Tehuantepec",
+   "lat": 16.323,
+   "lon": -95.241,
+   "dosya": "yerlesimler_kamerika.js",
+   "komsu": "meksika 6",
+   "baskin": "meksika",
+   "baskinN": 6,
+   "onceki": "ingiltere 1523-01-01",
+   "not": "Kıstakta Zapotek merkezi; 1522 İspanyol · dayanak: Cambridge History of Latin America (CUP)"
+  },
+  {
+   "ad": "Chequamegon (La Pointe)",
+   "lat": 46.782,
+   "lon": -90.786,
+   "dosya": "yerlesimler_kamerika.js",
+   "komsu": "kanada 5 · abd 1",
+   "baskin": "kanada",
+   "baskinN": 5,
+   "onceki": "ingiltere 1763-02-10",
+   "not": "konum denetle.py reçetesiyle düzeltildi (0.29 km maske dışıydı: 46.7830,-90.7890 → 46.7816,-90.7862) · konum denetle.py "
+  },
+  {
+   "ad": "Kahnawake",
+   "lat": 45.412,
+   "lon": -73.683,
+   "dosya": "yerlesimler_kamerika.js",
+   "komsu": "kanada 4 · ingiliz-kuzey-amerika 2",
+   "baskin": "kanada",
+   "baskinN": 4,
+   "onceki": "ingiltere 1777-01-01",
+   "not": "dayanak: HNAI c.15 Northeast (Smithsonian)"
+  },
+  {
+   "ad": "Michilimackinac",
+   "lat": 45.858,
+   "lon": -84.735,
+   "dosya": "yerlesimler_kamerika.js",
+   "komsu": "kanada 3 · abd 3",
+   "baskin": "kanada",
+   "baskinN": 3,
+   "onceki": "ingiltere 1763-02-10",
+   "not": "konum denetle.py reçetesiyle düzeltildi (0.93 km maske dışıydı: 45.8500,-84.7300 → 45.8575,-84.7347) · konum denetle.py "
+  },
+  {
+   "ad": "Mound Key (Kalusa başkenti)",
+   "lat": 26.43,
+   "lon": -81.849,
+   "dosya": "yerlesimler_kamerika.js",
+   "komsu": "meksika 3 · kuba-cumhuriyeti 1 · abd 1",
+   "baskin": "meksika",
+   "baskinN": 3,
+   "onceki": "ingiltere 1763-01-01",
+   "not": "konum denetle.py reçetesiyle düzeltildi (0.07 km maske dışıydı: 26.4300,-81.8500 → 26.4304,-81.8490) · konum denetle.py "
+  }
+ ],
+ "temiz": [
+  "Onondaga (İrokua Konfederasyon Merkezi)",
+  "Mohawk (Kayenlaha'ke)",
+  "Seneca (Ganondagan)",
+  "Cayuga",
+  "Oneida",
+  "Norridgewock (Abenaki)",
+  "Sainte-Marie-au-pays-des-Hurons",
+  "La Baye (Green Bay)",
+  "Ossossané",
+  "Pemaquid",
+  "Falmouth (Portland, Maine)",
+  "Portsmouth (New Hampshire)",
+  "Prairie du Chien",
+  "Providence",
+  "Hartford",
+  "Fort Duquesne (Pittsburgh)",
+  "Vincennes (Poste Vincennes)",
+  "Kaskaskia",
+  "Norfolk (Virginia)",
+  "Occaneechi (Hillsborough)",
+  "Wilmington (Kuzey Karolayna)",
+  "Etowah",
+  "Moundville"
+ ]
+}

@@ -12,7 +12,12 @@
 //    SOMURGE  ayrı idare, metropole bağlı      → kendi kimliği
 //    KUTU     🆕 metropolün KENDİ toprağı, kaba kutunun dışında kalmış
 //             → hiç sömürge değil, kayıt DOĞRU, ölçüm artefaktı
-//    SINIRDA  🆕 kümesi belirsiz / hukukî durumu ayrıca sorulmalı
+//    SINIRDA  🆕 İKİ KOVA ARASINDA GERÇEK BELİRSİZLİK — koordinatör seçmeli
+//    KOVA-DISI 🆕 hukukî sınıf dördün DIŞINDA (dominyon · kondominyum ·
+//             şirket idaresi). Sonuç yine "kendi kimliği", ama gerekçe
+//             sömürge değil ⇒ AYRI SEVK gerekiyor.
+//    KUSUR-ADAYI 🆕 kimlik 1923'te hukuken YANLIŞ görünüyor. BU KOLUN İŞİ
+//             DEĞİL — triyaj değil, tarih düzeltmesi. Bildirilir, YAZILMAZ.
 //
 // ⚠️ SINIFLANDIRMA SIRALI: ilk eşleşen kural kazanır, dar→geniş.
 //    Sınıflanamayan kayıt SESSİZCE DÜŞMEZ — "SINIFLANMADI" basılır ve
@@ -22,7 +27,8 @@ const { kayit } = require("./ARAC-TRIYAJ-METROPOL-0907.js");
 
 const kutu = (la0, la1, lo0, lo1) => (k) =>
   k.lat >= la0 && k.lat <= la1 && k.lon >= lo0 && k.lon <= lo1;
-const ad = (...adlar) => { const S = new Set(adlar); return (k) => S.has(k.ad); };
+const ad = (...adlar) => { const S = new Set(adlar);
+  const f = (k) => S.has(k.ad); f.adBazli = true; return f; };
 
 // ── KÜME KÜTÜĞÜ ───────────────────────────────────────────────────────
 // { kimlik, kume, kova, esle, gerekce, kaynak, damga }
@@ -38,7 +44,7 @@ const KUME = [
     kaynak:"genel bilgi — Versay Doğu Prusya'yı Almanya'da bıraktı, Polonya "+
            "koridoruyla ayırdı", damga:"genel-bilgi" },
 
-  { kimlik:"almanya", kume:"Memel", kova:"SINIRDA",
+  { kimlik:"almanya", kume:"Memel", kova:"KUSUR-ADAYI",
     esle: ad("Klaipėda (Memel)"),
     gerekce:"🔴 TRİYAJ KALEMİ DEĞİL, TARİH KUSURU ADAYI. Memel Versay ile "+
             "Almanya'dan ayrıldı (1920), Müttefik idaresine geçti, Ocak 1923'te "+
@@ -178,7 +184,7 @@ const KUME = [
             "Metropolün parçası değil.", kaynak:"genel bilgi", damga:"genel-bilgi" },
 
   // ══════════ PORTEKİZ ══════════
-  { kimlik:"portekiz", kume:"Umtali", kova:"SINIRDA",
+  { kimlik:"portekiz", kume:"Umtali", kova:"KUSUR-ADAYI",
     esle: ad("Umtali (Mutare)"),
     gerekce:"🔴 KOVA KALEMİ DEĞİL, KONUM/KİMLİK KUSURU ADAYI. Umtali (Mutare) "+
             "1923'te GÜNEY RODEZYA'dadır (İngiliz), Mozambik'te değil — "+
@@ -325,7 +331,7 @@ KUME.push(
             "tarafından ölçüldü: **1913-07-29** (TDV `bahreyn`).",
     kaynak:"TDV `bahreyn` (ORTADOĞU kolu ölçtü) + genel bilgi", damga:"genel-bilgi" },
 
-  { kimlik:"ingiltere", kume:"Mısır (Kızıldeniz kıyısı + Sina + Süveyş)", kova:"SINIRDA",
+  { kimlik:"ingiltere", kume:"Mısır (Kızıldeniz kıyısı + Sina + Süveyş)", kova:"KUSUR-ADAYI",
     esle: ad("Kusayr","Sefâce","Tûr (Sînâ)","Sina güneyi","Süveyş"),
     gerekce:"🔴 GERÇEK KUSUR ADAYI, VE KOVA KALEMİ DEĞİL. Mısır **1922-02-28 "+
             "tek taraflı beyanla bağımsız** oldu (Fuad kral). 1923-10-28'de "+
@@ -335,7 +341,7 @@ KUME.push(
             "İŞGAL/ÜS ilişkisidir, egemenlik devri değil ⇒ `isg:` örtüsü.",
     kaynak:"1922-02-28 İngiliz beyannamesi (genel bilgi)", damga:"genel-bilgi" },
 
-  { kimlik:"ingiltere", kume:"Anglo-Mısır Sudanı", kova:"SINIRDA",
+  { kimlik:"ingiltere", kume:"Anglo-Mısır Sudanı", kova:"KOVA-DISI",
     esle: kutu(3.0, 23.0, 21.5, 39.0),
     gerekce:"🔴 KOVALARIN HİÇBİRİ TAM UYMUYOR — KONDOMİNYUM. 1899-01-19 "+
             "İngiliz-Mısır anlaşması: egemenlik İKİ devlette ORTAK, bayrak "+
@@ -362,7 +368,7 @@ KUME.push(
             "reformlarıyla Yasama Konseyi. Metropolün parçası değil.",
     kaynak:"genel bilgi", damga:"genel-bilgi" },
 
-  { kimlik:"ingiltere", kume:"Güney Afrika Birliği", kova:"SINIRDA",
+  { kimlik:"ingiltere", kume:"Güney Afrika Birliği", kova:"KOVA-DISI",
     esle: (k) => (k.lat >= -35.0 && k.lat <= -22.0 && k.lon >= 16.4 && k.lon <= 33.0) ||
                  ["Kap (Cape Town)","Oranj (Bur cumhuriyeti)","Transvaal (Bur cumhuriyeti)"].includes(k.ad),
     gerekce:"🔴🔴 EN BÜYÜK KUSUR ADAYI — VE KOVALARIN HİÇBİRİNE GİRMİYOR. "+
@@ -376,8 +382,30 @@ KUME.push(
             "kalemi değil, bir DOMİNYON kalemidir ve ayrı sevk edilmeli.",
     kaynak:"1909 South Africa Act + 1919 Versay imzası", damga:"genel-bilgi" },
 
+  { kimlik:"ingiltere", kume:"Valvis Körfezi", kova:"KOVA-DISI",
+    esle: ad("Valvis Körfezi"),
+    gerekce:"Walvis Bay 1878'de İngiliz, 1884'te **Cape Colony'ye İLHAK** "+
+            "edildi ⇒ 1923'te GÜNEY AFRİKA BİRLİĞİ'nin kendi toprağı, manda "+
+            "toprağı DEĞİL. Kova: dominyon toprağı (Güney Afrika kalemiyle "+
+            "aynı sevke gider). ⚠️ Manda kutusuna düşerse manda sanılır ve "+
+            "yanlış kimliğe yazılır.",
+    kaynak:"1884 Cape ilhakı (genel bilgi)", damga:"genel-bilgi" },
+
+  { kimlik:"ingiltere", kume:"Ondjiva", kova:"KUSUR-ADAYI",
+    esle: ad("Ondjiva (Ovambo)"),
+    gerekce:"🔴 KONUM/KİMLİK KUSURU ADAYI. Ondjiva (17,07°G) Portekiz-Alman "+
+            "sınırının (~17°28'G paraleli, 1886 antlaşması) KUZEYİNDE ⇒ "+
+            "1923'te ANGOLA'da, Güney Batı Afrika mandasında değil. "+
+            "`ingiltere` şüpheli. Kaynağa sorulmalı; yama YAZMIYORUM. "+
+            "⚠️ Ondangva (Ondonga, 17,9°G) BAŞKA bir yerdir ve manda "+
+            "içindedir — ad benzerliği ikisini karıştırmaya davet ediyor.",
+    kaynak:"bulunamadı — akademik kaynak aranmadı", damga:"okumadım" },
+
   { kimlik:"ingiltere", kume:"Güney Batı Afrika mandası", kova:"MANDA",
-    esle: kutu(-29.0, -16.9, 11.5, 21.5),
+    esle: ad("Lüderitz","Keetmanshoop","Bethanie","Varmbad (Warmbad)",
+             "Mariental","Aranos","Gobabis","Rehoboth","Vindhuk (Windhoek)",
+             "Otjimbingve","Okahandja","Outjo","Grutfontein","Tsumeb",
+             "Rundu","Ondangva (Ondonga)","Katima Mulilo"),
     gerekce:"C sınıfı MC mandası — 1920-12-17 verildi, **Güney Afrika "+
             "Birliği** tarafından yönetiliyor, İngiltere tarafından değil. "+
             "⇒ `ingiltere` iki kere yanlış: ne İngiliz toprağı, ne İngiliz "+
@@ -413,9 +441,9 @@ KUME.push(
     gerekce:"1903'ten İngiliz protektorası; Svazi kraliyeti (Sobhuza II) "+
             "SÜRDÜ. Kendi kimliği gerekiyor.", kaynak:"genel bilgi", damga:"genel-bilgi" },
 
-  { kimlik:"ingiltere", kume:"Güney Rodezya", kova:"SINIRDA",
+  { kimlik:"ingiltere", kume:"Güney Rodezya", kova:"SOMURGE",
     esle: ad("Salisbury (Harare)","Bulavayo","Gveru","Gvanda","Hvange","Khami",
-             "Danangombe (Rozvi)"),
+             "Danangombe (Rozvi)","Binga"),
     gerekce:"🔴 GÜN HASSASİYETİ KRİTİK. 1923-09-12'de resmen İngiltere'ye "+
             "İLHAK edildi (BSAC idaresi bitti) ve **1923-10-01'de sorumlu "+
             "hükümetli ÖZ-YÖNETİMLİ koloni** oldu — yani atlas gününden "+
@@ -425,7 +453,15 @@ KUME.push(
             "büsbütün başka bir sorudur.",
     kaynak:"1923 Southern Rhodesia Constitution Letters Patent", damga:"genel-bilgi" },
 
-  { kimlik:"ingiltere", kume:"Kuzey Rodezya", kova:"SINIRDA",
+  { kimlik:"ingiltere", kume:"Barotseland (Lozi)", kova:"HIMAYE",
+    esle: ad("Lealui (Lozi)"),
+    gerekce:"Lewanika'nın Barotseland'ı 1890 Lochner Anlaşması'ndan itibaren "+
+            "AYRI bir himaye statüsü taşıdı — litunga yerinde kaldı ve "+
+            "Barotseland Kuzey Rodezya'nın geri kalanından farklı bir hukukî "+
+            "rejimle yönetildi. Hânedan SÜRDÜ ⇒ HİMAYE.",
+    kaynak:"1890 Lochner Anlaşması (genel bilgi)", damga:"genel-bilgi" },
+
+  { kimlik:"ingiltere", kume:"Kuzey Rodezya", kova:"KOVA-DISI",
     esle: kutu(-18.2, -8.0, 21.9, 33.8),
     gerekce:"🔴 1923-10-28'de HÂLÂ **British South Africa Company** idaresi — "+
             "Taç idaresine devir 1924-04-01. Yani atlas gününde bir DEVLET "+
@@ -450,7 +486,7 @@ KUME.push(
             "değişti. Kendi kimlikleri + `isg:` gerekiyor.",
     kaynak:"1900 Buganda Anlaşması + TDV `uganda`", damga:"genel-bilgi" },
 
-  { kimlik:"ingiltere", kume:"Kenya Kolonisi + Protektorası", kova:"SINIRDA",
+  { kimlik:"ingiltere", kume:"Kenya Kolonisi + Protektorası", kova:"SOMURGE",
     esle: kutu(-4.8, 5.2, 33.9, 42.0),
     gerekce:"🔴 TEK AD, İKİ HUKUKÎ REJİM. 1920'den itibaren iç kısım **Kenya "+
             "Colony** (ilhak edilmiş Taç toprağı), 16 km'lik KIYI ŞERİDİ ise "+
@@ -477,12 +513,20 @@ KUME.push(
             "parçası değil. (Guyana üçlüsü ve Moskito kıyısı ZATEN yamada.)",
     kaynak:"genel bilgi", damga:"genel-bilgi" },
 
-  { kimlik:"ingiltere", kume:"Pasifik", kova:"SINIRDA",
-    esle: ad("Suva","Levuka","Tulagi","Gizo"),
-    gerekce:"Fiji **1874'te DEVREDİLDİ** (Deed of Cession, Cakobau) ⇒ Crown "+
-            "Colony, egemenlik İngiliz. Solomon Adaları (Tulagi · Gizo) "+
-            "1893'ten **PROTEKTORA** ⇒ farklı rejim. Tek kutuda iki kova.",
-    kaynak:"1874 Deed of Cession + 1893 protektora", damga:"genel-bilgi" },
+  { kimlik:"ingiltere", kume:"Fiji", kova:"SOMURGE",
+    esle: ad("Suva","Levuka"),
+    gerekce:"1874 Deed of Cession — Cakobau ve şefler egemenliği Kraliçe'ye "+
+            "DEVRETTİ ⇒ Crown Colony, ayrı idare ve vali. Metropolün parçası "+
+            "değil. ⚠️ Devir gönüllüydü ve şeflik yapısı korundu (Great "+
+            "Council of Chiefs) ⇒ HİMAYE'ye kayan bir yönü var.",
+    kaynak:"1874 Deed of Cession", damga:"genel-bilgi" },
+
+  { kimlik:"ingiltere", kume:"Solomon Adaları Protektorası", kova:"HIMAYE",
+    esle: ad("Tulagi","Gizo"),
+    gerekce:"1893'ten British Solomon Islands PROTECTORATE — ilhak DEĞİL. "+
+            "⚠️ Fiji ile aynı kutuda ama BAŞKA rejim: ikisini tek kalemde "+
+            "raporlamak, birine uygulanan çareyi ötekine de uygulatır.",
+    kaynak:"1893 protektora ilanı", damga:"genel-bilgi" },
 
   { kimlik:"ingiltere", kume:"Güney Georgia", kova:"SOMURGE",
     esle: ad("Güney Georgia (Grytviken)"),
@@ -490,10 +534,16 @@ KUME.push(
     kaynak:"genel bilgi", damga:"genel-bilgi" },
 );
 
+// ── SIRA: ad-bazli (dar) kurallar KUTULARDAN once. Bir kutu komsu bir
+//    kumeyi yutabilir — GA Birligi kutusu Namibya guneyini VE Becuanaland'i
+//    yutuyordu (Keetmanshoop · Vindhuk · Tsabong · Serove …). Dar kural
+//    her zaman kazanmali; sira KUME dizisinin yazim sirasina BIRAKILMAZ.
+const SIRALI = [...KUME.filter(K => K.esle.adBazli), ...KUME.filter(K => !K.esle.adBazli)];
+
 // ── SINIFLANDIR ───────────────────────────────────────────────────────
 const kova = {}, kume = {}, kalan = [];
 for (const k of kayit) {
-  const bulunan = KUME.find(K => K.kimlik === k.kimlik && K.esle(k));
+  const bulunan = SIRALI.find(K => K.kimlik === k.kimlik && K.esle(k));
   if (!bulunan) { kalan.push(k); continue; }
   k._kova = bulunan.kova; k._kume = bulunan.kume;
   (kova[bulunan.kova] = kova[bulunan.kova] || []).push(k);

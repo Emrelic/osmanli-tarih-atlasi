@@ -1,0 +1,292 @@
+[
+ {
+  "ad": "Tehuantepec",
+  "lat": 16.323,
+  "lon": -95.241,
+  "dosya": "yerlesimler_kamerika.js",
+  "onceki": "ingiltere 1523-01-01",
+  "son": "1923-10-29",
+  "modern_ulke": "Mexico",
+  "abd_1923_dogru": false
+ },
+ {
+  "ad": "Prairie du Chien",
+  "lat": 43.052,
+  "lon": -91.141,
+  "dosya": "yerlesimler_kamerika.js",
+  "onceki": "fransa 1781-01-01",
+  "son": "1923-10-29",
+  "modern_ulke": "United States of America",
+  "abd_1923_dogru": true
+ },
+ {
+  "ad": "Chequamegon (La Pointe)",
+  "lat": 46.7816,
+  "lon": -90.7862,
+  "dosya": "yerlesimler_kamerika.js",
+  "onceki": "ingiltere 1763-02-10",
+  "son": "1923-10-29",
+  "modern_ulke": "United States of America",
+  "abd_1923_dogru": true
+ },
+ {
+  "ad": "Kaskaskia",
+  "lat": 37.921,
+  "lon": -89.92,
+  "dosya": "yerlesimler_kamerika.js",
+  "onceki": "ingiltere 1763-02-10",
+  "son": "1923-10-29",
+  "modern_ulke": "United States of America",
+  "abd_1923_dogru": true
+ },
+ {
+  "ad": "La Baye (Green Bay)",
+  "lat": 44.513,
+  "lon": -88.016,
+  "dosya": "yerlesimler_kamerika.js",
+  "onceki": "ingiltere 1763-02-10",
+  "son": "1923-10-29",
+  "modern_ulke": "United States of America",
+  "abd_1923_dogru": true
+ },
+ {
+  "ad": "Moundville",
+  "lat": 32.998,
+  "lon": -87.63,
+  "dosya": "yerlesimler_kamerika.js",
+  "onceki": "ingiltere 1763-02-10",
+  "son": "1923-10-29",
+  "modern_ulke": "United States of America",
+  "abd_1923_dogru": true
+ },
+ {
+  "ad": "Vincennes (Poste Vincennes)",
+  "lat": 38.677,
+  "lon": -87.529,
+  "dosya": "yerlesimler_kamerika.js",
+  "onceki": "ingiltere 1763-02-10",
+  "son": "1923-10-29",
+  "modern_ulke": "United States of America",
+  "abd_1923_dogru": true
+ },
+ {
+  "ad": "Etowah",
+  "lat": 34.122,
+  "lon": -84.809,
+  "dosya": "yerlesimler_kamerika.js",
+  "onceki": "ingiltere 1733-06-09",
+  "son": "1923-10-29",
+  "modern_ulke": "United States of America",
+  "abd_1923_dogru": true
+ },
+ {
+  "ad": "Michilimackinac",
+  "lat": 45.8575,
+  "lon": -84.7347,
+  "dosya": "yerlesimler_kamerika.js",
+  "onceki": "ingiltere 1763-02-10",
+  "son": "1923-10-29",
+  "modern_ulke": "United States of America",
+  "abd_1923_dogru": true
+ },
+ {
+  "ad": "Mound Key (Kalusa başkenti)",
+  "lat": 26.4304,
+  "lon": -81.849,
+  "dosya": "yerlesimler_kamerika.js",
+  "onceki": "ingiltere 1763-01-01",
+  "son": "1923-10-29",
+  "modern_ulke": "United States of America (kıyıdan 0.001°)",
+  "abd_1923_dogru": true
+ },
+ {
+  "ad": "Fort Duquesne (Pittsburgh)",
+  "lat": 40.441,
+  "lon": -80.01,
+  "dosya": "yerlesimler_kamerika.js",
+  "onceki": "ingiltere 1763-02-10",
+  "son": "1923-10-29",
+  "modern_ulke": "United States of America",
+  "abd_1923_dogru": true
+ },
+ {
+  "ad": "Ossossané",
+  "lat": 44.5,
+  "lon": -79.933,
+  "dosya": "yerlesimler_kamerika.js",
+  "onceki": "ingiltere 1649-03-16",
+  "son": "1923-10-29",
+  "modern_ulke": "Canada",
+  "abd_1923_dogru": false
+ },
+ {
+  "ad": "Sainte-Marie-au-pays-des-Hurons",
+  "lat": 44.683,
+  "lon": -79.75,
+  "dosya": "yerlesimler_kamerika.js",
+  "onceki": "ingiltere 1649-03-16",
+  "son": "1923-10-29",
+  "modern_ulke": "Canada",
+  "abd_1923_dogru": false
+ },
+ {
+  "ad": "Occaneechi (Hillsborough)",
+  "lat": 36.075,
+  "lon": -79.1,
+  "dosya": "yerlesimler_kamerika.js",
+  "onceki": "ingiltere 1676-01-01",
+  "son": "1923-10-29",
+  "modern_ulke": "United States of America",
+  "abd_1923_dogru": true
+ },
+ {
+  "ad": "Wilmington (Kuzey Karolayna)",
+  "lat": 34.226,
+  "lon": -77.945,
+  "dosya": "yerlesimler_kamerika.js",
+  "onceki": "ingiltere 1739-01-01",
+  "son": "1923-10-29",
+  "modern_ulke": "United States of America",
+  "abd_1923_dogru": true
+ },
+ {
+  "ad": "Seneca (Ganondagan)",
+  "lat": 42.9084,
+  "lon": -77.4258,
+  "dosya": "yerlesimler_amerika.js",
+  "onceki": "ingiltere 1777-01-01",
+  "son": "1923-10-29",
+  "modern_ulke": "United States of America",
+  "abd_1923_dogru": true
+ },
+ {
+  "ad": "Cayuga",
+  "lat": 42.7326,
+  "lon": -76.7466,
+  "dosya": "yerlesimler_amerika.js",
+  "onceki": "ingiltere 1777-01-01",
+  "son": "1923-10-29",
+  "modern_ulke": "United States of America",
+  "abd_1923_dogru": true
+ },
+ {
+  "ad": "Norfolk (Virginia)",
+  "lat": 36.851,
+  "lon": -76.286,
+  "dosya": "yerlesimler_kamerika.js",
+  "onceki": "ingiltere 1682-01-01",
+  "son": "1923-10-29",
+  "modern_ulke": "United States of America",
+  "abd_1923_dogru": true
+ },
+ {
+  "ad": "Onondaga (İrokua Konfederasyon Merkezi)",
+  "lat": 43.0326,
+  "lon": -76.1794,
+  "dosya": "yerlesimler_amerika.js",
+  "onceki": "ingiltere 1777-01-01",
+  "son": "1923-10-29",
+  "modern_ulke": "United States of America",
+  "abd_1923_dogru": true
+ },
+ {
+  "ad": "Oneida",
+  "lat": 43.0906,
+  "lon": -75.6349,
+  "dosya": "yerlesimler_amerika.js",
+  "onceki": "ingiltere 1777-01-01",
+  "son": "1923-10-29",
+  "modern_ulke": "United States of America",
+  "abd_1923_dogru": true
+ },
+ {
+  "ad": "Mohawk (Kayenlaha'ke)",
+  "lat": 42.9506,
+  "lon": -74.3287,
+  "dosya": "yerlesimler_amerika.js",
+  "onceki": "ingiltere 1777-01-01",
+  "son": "1923-10-29",
+  "modern_ulke": "United States of America",
+  "abd_1923_dogru": true
+ },
+ {
+  "ad": "Kahnawake",
+  "lat": 45.412,
+  "lon": -73.683,
+  "dosya": "yerlesimler_kamerika.js",
+  "onceki": "ingiltere 1777-01-01",
+  "son": "1923-10-29",
+  "modern_ulke": "Canada",
+  "abd_1923_dogru": false
+ },
+ {
+  "ad": "Hartford",
+  "lat": 41.764,
+  "lon": -72.674,
+  "dosya": "yerlesimler_kamerika.js",
+  "onceki": "ingiltere 1636-01-01",
+  "son": "1923-10-29",
+  "modern_ulke": "United States of America",
+  "abd_1923_dogru": true
+ },
+ {
+  "ad": "Providence",
+  "lat": 41.824,
+  "lon": -71.413,
+  "dosya": "yerlesimler_kamerika.js",
+  "onceki": "ingiltere 1636-01-01",
+  "son": "1923-10-29",
+  "modern_ulke": "United States of America",
+  "abd_1923_dogru": true
+ },
+ {
+  "ad": "Portsmouth (New Hampshire)",
+  "lat": 43.071,
+  "lon": -70.763,
+  "dosya": "yerlesimler_kamerika.js",
+  "onceki": "ingiltere 1623-01-01",
+  "son": "1923-10-29",
+  "modern_ulke": "United States of America",
+  "abd_1923_dogru": true
+ },
+ {
+  "ad": "Falmouth (Portland, Maine)",
+  "lat": 43.659,
+  "lon": -70.257,
+  "dosya": "yerlesimler_kamerika.js",
+  "onceki": "ingiltere 1632-01-01",
+  "son": "1923-10-29",
+  "modern_ulke": "United States of America",
+  "abd_1923_dogru": true
+ },
+ {
+  "ad": "Norridgewock (Abenaki)",
+  "lat": 44.717,
+  "lon": -69.792,
+  "dosya": "yerlesimler_kamerika.js",
+  "onceki": "ingiltere 1725-12-15",
+  "son": "1923-10-29",
+  "modern_ulke": "United States of America",
+  "abd_1923_dogru": true
+ },
+ {
+  "ad": "Pemaquid",
+  "lat": 43.876,
+  "lon": -69.513,
+  "dosya": "yerlesimler_kamerika.js",
+  "onceki": "ingiltere 1625-01-01",
+  "son": "1923-10-29",
+  "modern_ulke": "United States of America",
+  "abd_1923_dogru": true
+ },
+ {
+  "ad": "St. John's (Newfoundland)",
+  "lat": 47.561,
+  "lon": -52.712,
+  "dosya": "yerlesimler_kamerika.js",
+  "onceki": "ingiltere 1583-08-05",
+  "son": "1923-10-29",
+  "modern_ulke": "Canada",
+  "abd_1923_dogru": false
+ }
+]

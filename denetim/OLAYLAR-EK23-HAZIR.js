@@ -63,9 +63,23 @@
 //      1917-03-15 · 1917-11-07 · 1906-01-01 · 1918-11-26   tur="son"
 //      1918-01-01                                tur="toprak-kazanc"
 //    Çekirdek `k` sözlüğünde `son` ve `toprak-kazanc` YOK.
-//    ⇒ Bu beşinin `k:` değeri bir SEMANTİK KARAR ister (`son` → `taht` mı
-//      `siyaset` mi `kayip` mı?) ve o karar bu oturumun değil.
-//      **Koordinatör ya da maddenin yazarı seçmeli.**
+//    ⇒ 🟢 HÜKÜM (koordinatör, 7 Eylül): **`k:` BOŞ KALACAK.**
+//      Soru *"`son` → `taht` mı `siyaset` mi `kayip` mı"* diye sorulmuştu;
+//      cevap **hiçbiri**, ve sebebi ölçümün kendisinde: çekirdeğin 28
+//      değerlik `k` sözlüğünde bir **POLITY SONU** kategorisi YOK.
+//      Üçünden birini seçmek `1917-11-07`yi (Bolşevik iktidarı) bir *taht*
+//      olayı ya da bir *kayıp* diye kaydetmek olurdu — ve bir sonraki
+//      oturum onu **kaynaklı bir sınıflandırma** sanardı.
+//      ⇒ `k:` boş · `tur:` duruyor · beşi burada adıyla kayıtlı.
+//      🟢 Zararsız: `Değişmez 2` `k`yı okumuyor; `app.js:1898` yalnız
+//        muharebe glifi için okuyor ve boş `k` glif çizmez.
+//
+// 🔴 VE BU BİR BORÇ OLARAK KAYDEDİLDİ — çekirdeğin `k` sözlüğü EKSİK.
+//    Aynı gün SERHAT oturumu `k` sözlüğünde **tâbi polity** sınıfının da
+//    olmadığını ölçtü ve aynı yamada üç eş-sınıf kayıt iki farklı kademe
+//    almıştı. **Aynı sözlük, iki eksik** — ikisi birlikte Emre'ye gidiyor.
+//    ⇒ Bu beş maddenin `k:`i bir SEÇİM bekliyor DEĞİL; sözlükte olmayan
+//      bir sınıfı bekliyor. Sözlük genişlerse otomatik çözülür.
 //
 // ═══════════ GÜN HASSASİYETİ (şartname: "gün yaz") ═══════════
 //   `YYYY` ya da `YYYY-MM` biçimli madde: **0** — hiçbiri ay hassasiyetinde
