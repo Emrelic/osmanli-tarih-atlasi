@@ -46,17 +46,19 @@ bırakılmıştı. Dar kural artık **her zaman** kazanıyor — HİMAYE 38 → 
 
 ```
 KOVA          TOPLAM  YAMADA  YAMASIZ
-SOMURGE          336       6      330
+SOMURGE          335       5      330
 KOVA-DISI        151      37      114
 MANDA            121      60       61
-ILHAK            118      13      105
+ILHAK             98       0       98
 HIMAYE            55       0       55
-KUSUR-ADAYI       16       0       16
-SINIRDA            3       0        3
+SINIRDA           23      13       10
+KUSUR-ADAYI       17       1       16
 KUTU               3       1        2
 ──────────────────────────────────────
 TOPLAM           803     117      686
 ```
+> ⚠️ **Bu tablo ikinci turda değişti** (koordinatörün asimetri hükmü, §⑦).
+> İlk tur: `ILHAK 118 · SINIRDA 3 · KUSUR-ADAYI 16 · SOMURGE 336`.
 
 🔴 **DÖRT KOVA YETMEDİ — dördü de eklendi ve dördü de GEREKLİ:**
 
@@ -126,3 +128,42 @@ okumadım      12    aramadım bile — sınır şüpheleri ve Kemeran
 kararı**: şartname *"kova ayrımı ve gerekçe yeter"* diyor ve tur bütçesi 803
 kaydı kümelemeye gitti. Ama kaydın dürüst hâli budur — `genel-bilgi` damgası
 `dogrulandi` DEĞİLDİR ve bir sonraki oturum bunu ölçülmüş sanmamalı.
+
+## ⑦ İKİNCİ TUR — koordinatörün ASİMETRİ hükmü uygulandı
+
+> *"İLHAK kovası en tehlikelisi — oraya yanlış konan bir kayıt 'düzeltilecek'
+> diye işaretlenmez ve **sessizce doğru sayılır**; SÖMÜRGE'ye yanlış konan ise
+> yeni bir künye işi doğurur. İkisinin maliyeti asimetrik; şüphelendiğinde
+> **kararsız bırak**, tahmin etme."*
+
+🔴 **Ve hüküm bende üç kalem buldu — üçünde de ŞÜPHE GEREKÇENİN İÇİNDE ZATEN
+YAZILIYDI, ve `ILHAK` damgası onu susturuyordu:**
+
+```
+Oniki Ada  13   "1923-10-28'de Lozan HENÜZ ONAYLANMAMIŞTI (yürürlük 1924-08-06)"
+Kıbrıs      6   "idare AYRIYDI ⇒ İLHAK/SÖMÜRGE sınırında"
+Aden        1   "metropol kimliği tam doğru değil: doğrusu `ingiliz-hindistani`"
+```
+⇒ Üçü de **SINIRDA**'ya taşındı. `ILHAK 118 → 98 · SINIRDA 3 → 23`.
+
+📌 Ve asıl ders: ***bir gerekçeye şüphe yazmak, şüpheyi KAYDA GEÇİRİR ama
+KOVAYA GEÇİRMEZ.*** Okuyan kovayı görür, gerekçeyi sonra okur — ve `ILHAK`
+etiketi *"dokunma"* demektir. Şüphe **kovanın kendisinde** görünmeliydi.
+
+🟢 **VE TAŞIMA BİR GÜVENLİK SİNYALİ ÜRETTİ: `ILHAK` artık 98 kayıt ve
+YAMADA 0.** Yani hiçbir bekleyen yama, metropol kimliğinin doğru olduğu bir
+kayda dokunmuyor — "en tehlikeli kova" bugün hiç risk altında değil.
+
+### Río Tinto — kutu doğru, kova yanlıştı
+
+AMERİKA kolu ölçtü (7 Eylül): İngiltere Moskito Sahili'nden **1786'da
+çekildi**, veri 1923'e kadar `ingiltere` boyuyor ⇒ **137 yıllık yanlış
+kimlik**. Benim kutum onu *"Batı Hint Adaları"* sömürgesine koymuştu:
+**coğrafî olarak doğru kümeye, hukukî olarak yanlış kovaya.**
+⇒ `KUSUR-ADAYI`ya taşındı, damga **`devraldım`** (yeni damga: *başka bir kol
+ölçtü, ben doğrulamadım*).
+
+⚠️ Ve bu bir uyarı: **bir kutu, kümenin coğrafyasını doğru bulup tarihini
+hiç sormaz.** Bu kümede benim ölçmediğim başka "metropol oradan çekilmişti"
+vakaları olabilir; `SOMURGE` kovasının 335 kaydı bu soruya karşı
+**taranmadı** — damga `okumadım`.
