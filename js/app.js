@@ -6168,7 +6168,6 @@ function oynatDurdur() {
     zamanlayici = setInterval(adimla, bekleme);
   } else {
     var gunSn = parseInt(hizSec.value, 10);
-    var adim = Math.max(1, Math.round(gunSn / 16));
     // 🔴🔴 DÖRDÜNCÜ SESSİZ DAL — 24 Ağustos 2026, OPUS HAZIR KITA 82 buldu.
     //
     // Üç sessiz dal bugün düzeltilmişti (konumsuz · konum işaretlenmemiş ·
@@ -6188,26 +6187,78 @@ function oynatDurdur() {
     //    kullanıcı "haritayı ben yönetiyorum, sen zamanı akıt" diyor.
     //    Her olayda uçmak o sözleşmeyi bozardı. Yalnız İŞARET yanıyor —
     //    "burada bir şey oldu" der, kadrajı değiştirmez.
+    // 🔴🔴 KUYRUK KESİLDİ — 6 Eylül 2026, ÖLÇÜLMÜŞ DARBOĞAZ.
+    //
+    // Eski hâl `setInterval(..., 62)` idi: saniyede ~16 tik. Ama bir tikin
+    // işi bu dosyada ZATEN ölçülüydü ve ~400 ms sürüyordu (`app.js:5131`,
+    // 22 Ağustos) — yani zamanlayıcı işin ALTI KATI hızlı ateşleniyordu.
+    // Tek iş parçacığı hiç boşalmıyor, boyama ve tıklama sıraya giriyordu.
+    // ⇒ Emre'nin gördüğü "takılma" bir yavaşlık DEĞİL, biriken kuyruğun
+    //   boşalmasıydı. (Ölçüm: `denetim/OLCUM-OYNATMA-TAKILMA-0906.md`)
+    //
+    // ÜÇ DEĞİŞİKLİK, ÜÇÜ DE AYNI KUSURUN AYRI UCU:
+    //   ① KENDİNİ KURAN ZİNCİR — bir sonraki tik ancak bu tik BİTİNCE
+    //      kurulur. Kuyruk artık YAPISAL OLARAK birikemez.
+    //   ② requestAnimationFrame — tarayıcı tikler arasında BOYAYABİLİR,
+    //      ve sekme arkadayken kendiliğinden susar (pil + CPU).
+    //   ③ GERÇEK ZAMANA BAĞLI ADIM — gün, geçen SÜREYE göre ilerler.
+    //      Kare düşse bile takvim hızı (gün/saniye) DEĞİŞMEZ.
+    //
+    // ⚠️ ③ OLMADAN ①② OYNATMAYI YAVAŞLATIRDI: düşen her kare bir adım
+    //    eksik demek olurdu. Üçü ayrı ayrı değil, BİRLİKTE anlamlı.
+    // 🔴 Ve `_gecen` tavanı şart: sekme arkaya alınıp geri gelince `rAF`
+    //    dakikalarca susar, sonra tek karede yüzlerce gün atlanırdı —
+    //    takvim SIÇRARDI. Tavan bir kareyi en çok 1 saniyelik ilerlemeye
+    //    sınırlıyor.
     var _sonIsaretGun = suanki;
-    zamanlayici = setInterval(function () {
+    var _sonAn = performance.now();
+    var _tik = function () {
+      if (!zamanlayici) return;            // durduruldu — zinciri KURMA
       if (suanki >= BITIS) { oynatDurdur(); return; }
+      var _simdi = performance.now();
+      var _gecen = Math.min(1000, _simdi - _sonAn);
+      _sonAn = _simdi;
       var _onceki = suanki;
-      tarihAyarla(suanki + adim);
+      tarihAyarla(suanki + Math.max(1, Math.round(gunSn * _gecen / 1000)));
       // Aralıkta kalan SON olayı işaretle. Birden çok olay varsa hepsini
       // ard arda yakmak titreme üretirdi; sonuncusu "gelinen an"dır.
       try {
-        var _son = null;
-        for (var _i = 0; _i < olaylar.length; _i++) {
-          var _g = olaylar[_i].gi;
-          if (_g > _onceki && _g <= suanki) _son = olaylar[_i];
-          else if (_g > suanki) break;
+        // 🔴 İKİLİ ARAMA — dizi `gi`ye göre sıralı (`app.js:4109`, o satır
+        // olmadan bu arama YANLIŞ olur; sıralama kalkarsa burası da kalkar.)
+        // Eski hâl diziyi her tikte baştan tarıyordu ve tarama TARİHLE
+        // BÜYÜYORDU: 1300'de 9, 1923'te 1317 madde — 146 kat. Artık ~11
+        // adım, ve tarihten BAĞIMSIZ.
+        // ⚠️ DÜRÜSTLÜK NOTU: 1317 ögelik lineer bir tarama mikrosaniyeler
+        // sürer — yani bu, ölçülen ~400 ms'in KAYNAĞI DEĞİL. Asıl yük
+        // `guncelle()` içindeki DOM ve `setData` işinde. Bu değişiklik
+        // gerçek ama KÜÇÜK; takılmayı çözen şey yukarıdaki ①②'dir.
+        // 📌 İlk yazımda burada "342 → 6143, 18 kat" yazıyordu; o sayı
+        // ÇEKİRDEK+KUYRUK evreninden (6155) alınmıştı, oysa `app.js`
+        // yalnız `OLAYLAR*` kovalarını süzüyor (`app.js:4099`). Ölçüm
+        // doğruydu, EVREN yanlıştı.
+        var _lo = 0, _hi = olaylar.length;
+        while (_lo < _hi) {
+          var _or = (_lo + _hi) >> 1;
+          if (olaylar[_or].gi <= suanki) _lo = _or + 1; else _hi = _or;
         }
+        var _son = (_lo > 0 && olaylar[_lo - 1].gi > _onceki)
+          ? olaylar[_lo - 1] : null;
         if (_son && _son.gi !== _sonIsaretGun) {
           var _kon = olayKonumu(_son);
           if (_kon) { _sonIsaretGun = _son.gi; isaretYanipSon(_kon); }
         }
       } catch (eAkis) { /* işaret şart değil, akış durmasın */ }
-    }, 62);
+      if (zamanlayici) requestAnimationFrame(_tik);
+    };
+    // `zamanlayici` artık bir zamanlayıcı kimliği değil BAYRAK — ve öyle
+    // olması şart, çünkü YEDİ yerde "oynuyor mu" diye okunuyor (4012 ·
+    // 4491 · 4517 · 6122 · 7567 · 8152 · 8159). `-1` truthy'dir, o yüzden
+    // hepsi eskisi gibi çalışır. `oynatDurdur` ona `clearInterval`
+    // uyguluyor: bilinmeyen bir kimlikte clearInterval ZARARSIZDIR
+    // (HTML spec: eşleşmeyen kimlik yok sayılır) ve asıl durduran şey
+    // `zamanlayici = null` — zincir bir sonraki tikte kendini kesiyor.
+    zamanlayici = -1;
+    requestAnimationFrame(_tik);
   }
 }
 btnOynat.addEventListener("click", oynatDurdur);
