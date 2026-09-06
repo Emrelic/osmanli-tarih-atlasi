@@ -83,7 +83,8 @@ window.YERLESIMLER_4FF22B = [
     ad: "Honolulu",
     lat: 21.3069, lon: -157.8583,
     tur: "sehir",
-    s: [{ f: "1795-01-01", t: "1898-08-12", d: "hawaii-kralligi" }],
+    s: [{ f: "1795-01-01", t: "1898-08-12", d: "hawaii-kralligi" },
+        { f: "1898-08-12", t: "1923-10-29", d: "abd" }],
     kaynak: "bulunamadı — TDV'de ARANDI (hawaii · honolulu · havai, ücü de 302 OLU); dayanak: devletler.js `hawaii-kralligi` künyesi ve onun akademik kaynağı",
     neden: "Kunye baskent alani 'Honolulu' ve donem 1795-01-01 -> 1898-08-12 (Kamehameha I'in birlestirmesinden ABD ilhakina). Veride bulunan 'Hawaii Adalari (Birlesme Oncesi)' kaydi tur:bolge + kasitli_bosluk ve 1795 ONCESINI isaretliyor; bu nokta onu TAMAMLIYOR, cakismiyor (310,8 km, ayri ada). PENCERE DISI (lon -157,86) — pencere Pasifik'e acilinca canlanir",
     pencere_disi: true
