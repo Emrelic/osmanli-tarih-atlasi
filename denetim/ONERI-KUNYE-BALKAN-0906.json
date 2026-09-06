@@ -21,5 +21,38 @@
     "kronoloji": "çekirdekte 0 gün uzaklıkta ve konusu birebir ÜÇ madde: «Rodos'un İtalyan işgali» (1912-05-04) · «Onikiada'nın İtalyan işgali» (1912-05-12) · «İstanköy'ün işgali» (1912-05-21) — artı 1923-07-24 «Lozan Antlaşması»",
     "egemenlik": "`d:` OSMANLI → 1923-07-24, TDV `rodos` ile birebir: «1522-1912 yılları arasında Osmanlı Devleti idaresi altında kalan ada» (idare) + `oniki-ada`: egemenlik 1923'e kadar"
   },
-  "🟡_ALETIN_SINIRI": "Koordinatörün kendi tespiti, buraya kaydediliyor: `ARAC-ATIL-KUNYE-0906.js` üç şey ölçüyor (künye VAR + renk YOK + veride 0 dönem) ve DÖRDÜNCÜYÜ sormuyor: «bu vaka BAŞKA BİR KATMANDA zaten çözülmüş mü?» Bu künye o kör noktanın ilk ölçülmüş vakası."
+  "🟡_ALETIN_SINIRI": "Koordinatörün kendi tespiti, buraya kaydediliyor: `ARAC-ATIL-KUNYE-0906.js` üç şey ölçüyor (künye VAR + renk YOK + veride 0 dönem) ve DÖRDÜNCÜYÜ sormuyor: «bu vaka BAŞKA BİR KATMANDA zaten çözülmüş mü?» Bu künye o kör noktanın ilk ölçülmüş vakası.",
+  "🔴_IKINCI_KALEM_1918-11-11_KONVANSIYON_BEYANI": {
+    "onay": "KOORDİNATÖR KABUL (7 Eylül 2026)",
+    "🔴_NIYE": "Veri `1918-11-11`i (Habsburg mirasının ardıllara devri) kullanıyor; üç künyenin `f:` değeri ise devletin KENDİ kuruluş günü. Fark KASITLI ve kronolojide BEYAN EDİLMİŞ (`olaylar_ok109.js` · `1918-11-11`: «Avusturya-Macaristan mirasının ardıl devletlere geçişi — altı devlet haritaya giriyor»). AMA KÜNYE TARAFINDA HİÇBİR BEYAN YOK.",
+    "🔴_RISK": "Bugün görünmüyor çünkü `HAYALET_TOLERANS_GUN = 400`. Tolerans daralırsa — ya da `4d`yi taklit eden bir alet toleransı taşımazsa — 51 nokta kusur diye raporlanır, OLMADIKLARI HÂLDE. `§11`in «taklit eden ölçüm eşiği de taşımalı» dersinin TERS YÜZÜ: eşik doğru çalışıp bir konvansiyonu görünmez kılıyor.",
+    "alternatif_niye_secilmedi": "Her ardılı kendi kuruluş gününde başlatmak 5-20 GÜNLÜK BOŞLUKLAR açar ve `Değişmez 1`i bozar. Konvansiyon o boşluğu önlüyor.",
+    "islem": "MEVCUT ÖZETİN SONUNA EKLE — üzerine yazma",
+    "kunyeler": [
+      {
+        "id": "yugoslavya",
+        "kunye_f": "1918-12-01",
+        "veride_kullanilan_gun": "1918-11-11",
+        "fark_gun": 20,
+        "etkilenen_nokta": 28,
+        "eklenecek": "🟡 VERİ `1918-11-11` GÜNÜNÜ KULLANIR — künyenin `f:` değerinden 20 gün ÖNCE. Bu KASITLIDIR: `1918-11-11` atlasın Habsburg mirasının ardıllara devri günüdür (89 `avusturya` dönemi o gün biter, altı ardıl o gün başlar) ve çekirdekte kendi maddesi vardır. Künye `f:` ise devletin KENDİ kuruluş günüdür. Her ardılı kendi gününde başlatmak 5-20 günlük boşluklar açar ve `Değişmez 1`i bozardı. Etkilenen nokta: 28. (Ölçen: BALKAN-DOĞU AVRUPA, 7 Eylül 2026.)"
+      },
+      {
+        "id": "macaristan-naiplik",
+        "kunye_f": "1918-11-16",
+        "veride_kullanilan_gun": "1918-11-11",
+        "fark_gun": 5,
+        "etkilenen_nokta": 20,
+        "eklenecek": "🟡 VERİ `1918-11-11` GÜNÜNÜ KULLANIR — künyenin `f:` değerinden 5 gün ÖNCE. Bu KASITLIDIR: `1918-11-11` atlasın Habsburg mirasının ardıllara devri günüdür (89 `avusturya` dönemi o gün biter, altı ardıl o gün başlar) ve çekirdekte kendi maddesi vardır. Künye `f:` ise devletin KENDİ kuruluş günüdür. Her ardılı kendi gününde başlatmak 5-20 günlük boşluklar açar ve `Değişmez 1`i bozardı. Etkilenen nokta: 20. (Ölçen: BALKAN-DOĞU AVRUPA, 7 Eylül 2026.)"
+      },
+      {
+        "id": "letonya",
+        "kunye_f": "1918-11-18",
+        "veride_kullanilan_gun": "1918-11-11",
+        "fark_gun": 7,
+        "etkilenen_nokta": 3,
+        "eklenecek": "🟡 VERİ `1918-11-11` GÜNÜNÜ KULLANIR — künyenin `f:` değerinden 7 gün ÖNCE. Bu KASITLIDIR: `1918-11-11` atlasın Habsburg mirasının ardıllara devri günüdür (89 `avusturya` dönemi o gün biter, altı ardıl o gün başlar) ve çekirdekte kendi maddesi vardır. Künye `f:` ise devletin KENDİ kuruluş günüdür. Her ardılı kendi gününde başlatmak 5-20 günlük boşluklar açar ve `Değişmez 1`i bozardı. Etkilenen nokta: 3. (Ölçen: BALKAN-DOĞU AVRUPA, 7 Eylül 2026.)"
+      }
+    ]
+  }
 }

@@ -107,6 +107,71 @@ C13 DÖRT AYAK: ① GEÇME ② ATEŞLEME ③ GİRDİ (gerçek dosyadan)
    Eşik: ΔE 12 ihlal · 12-13 sınırda · anlatının merkezindeki çift ≥25
 ```
 
+## ②a 🔴🔴 D SINIFININ ÇERÇEVESİ DÜZELTİLDİ — metropol kimliği HER ZAMAN kusur DEĞİL
+*(ORTADOĞU kurdu, 7 Eylül · Cezayir ölçümünden · ALTI OTURUMU bağlar)*
+
+Şartnameler D sınıfını *"sömürge metropol kimliğiyle boyanıyor ⇒ kusur"*
+diye kurdu. **Bu çerçeve eksikti.** Hukukî durum belirleyici:
+```
+İLHAK       toprak metropolün PARÇASI oldu   → METROPOL KİMLİĞİ DOĞRU
+            Cezayir (1848'den Fransa'nın vilâyetleri) · `cezayir-fransiz` ÂTIL kalır
+HİMAYE      hânedan SÜRDÜ, metbû değişti     → KENDİ KİMLİĞİ + `isg:` ÖRTÜSÜ
+            Tunus (`v:` + `isg:fransa`, Bardo 1881) · Fas (`fas` künyesi)
+MANDA       MC yetkisi, ayrı idare           → KENDİ KİMLİĞİ
+            Suriye-Lübnan · Irak · Filistin
+SÖMÜRGE     ayrı idare, metropole bağlı      → KENDİ KİMLİĞİ
+            İngiliz Sudanı · üç Guyana · Seylan
+```
+🔴 **Atlas TUTARSIZ DEĞİL, AYIRT EDİYOR olabilir.** Kuzey Afrika'da üç
+farklı model yan yana duruyor ve **üçü de hukukî duruma uyuyor.**
+
+⇒ **KURAL: bir kimliği metropolden ayırmadan önce, o toprağın 1923'teki
+HUKUKÎ DURUMUNU ölç.** İlhak edilmiş bir toprağı ayırmak, atlası
+düzeltmez — **bozar.**
+⚠️ Ve `denetim/ARAC-1923-TRIYAJ-0906.js`in D listesi bu ayrımı
+**yapmıyor**: yalnız *"kimlik kendi bölgesinin dışında"* diye bakıyor.
+O liste bir **aday listesidir**, ve adaylığın ilk sınavı budur.
+
+📌 Ve ORTADOĞU'nun asıl bulgusu kimlikte değil **dayanakta** çıktı:
+Cezayir'in 57 noktası **24 ayrı fetih günü** taşıyor (fetih şehir şehir
+modellenmiş, veri iyi) ama **49'unda hiçbir `kaynak:` yok.**
+⇒ *Veri iyi ama SESSİZ: doğru olduğu ölçülebiliyor, dayanağı kayıtlı
+değil.* Çare tarihleri değiştirmek değil, `kaynak:` yazmak.
+
+## ②b 🔴 `kaynak:` NEYİN DAYANAĞI — OLAYIN mı GÜNÜN mü?
+*(BALKAN-DOĞU AVRUPA kurdu, 7 Eylül · altı oturumu birden bağlar)*
+
+Bir kayda `kaynak:"selanik"` yazmak **iki ayrı iddia** olabilir ve
+külliyat ikisini **aynı biçimde** yazıyor:
+```
+🟢 OLAYIN dayanağı   "bu yer o kimliğe geçti — kaynak bunu söylüyor"
+🟢 GÜNÜN dayanağı    "ve TAM O GÜN geçti — kaynak günü de veriyor"
+```
+🔴 **İkisi karıştırılırsa, bir sonraki oturum günü kaynaklı sanır ve
+sorgulamaz.** Ölçülmüş vaka:
+```
+TDV `oniki-ada`  «20 Ekim - 20 Aralık 1912 tarihleri arasında … Limni,
+                  Taşoz, Bozbaba, Semadirek, İpsara, Sakız ve Midilli»
+veri             ada ada ALTI AYRI GÜN
+⇒ `kaynak:"oniki-ada"` OLAYI dayanaklandırıyor, GÜNLERİ DEĞİL
+🔴 ve iki gün ARALIĞIN DIŞINDA: `1912-07-17` maddenin verdiği
+   başlangıçtan ÜÇ AY ÖNCE
+```
+⇒ **KURAL:** `kaynak:` yazarken, kaynağın **gün verip vermediği**
+kaydın `not:`ına ya da yamanın başlığına yazılır. Vermiyorsa:
+> *"`kaynak:` OLAYIN dayanağıdır; GÜNÜN dayanağı ÖLÇÜLEMEDİ."*
+
+📌 `§4⑧`in (*rakam gövdede geçiyor ≠ gövde o değeri destekliyor*) **tersi**:
+orada rakam gövdedeydi ama başka şeyi tarihliyordu; burada **rakam
+gövdede hiç yok** ve alan yine de dolu. İkisi de aynı sonucu verir —
+**doğrulanmamış bir gün, doğrulanmış görünür.**
+
+🟢 Ve `kaynak:`ı **grup grup** doldur, tek slugla toptan değil: aynı
+`isg:` kümesinin dört ayrı dayanağı olabilir (Ege adaları `oniki-ada` ·
+Selânik `selanik` · Yanya `yanya` · Aynaroz `aynaroz`). Toptan yazmak,
+bir kaynağı **kapsamadığı kayda ÖDÜNÇ VERMEK**tir (`§11`: *metin
+birleştirmek, DAYANAKLARI birleştirmek değildir*).
+
 ## ③ ARAÇLAR
 ```
 node denetim/ARAC-1923-KESIT-0906.js        1923 kesiti + sınır çiftleri

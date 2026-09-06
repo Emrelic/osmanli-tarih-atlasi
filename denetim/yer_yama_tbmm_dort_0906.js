@@ -1,4 +1,44 @@
 // -*- coding: utf-8 -*-
+// 🔴🔴 UYGULANMAZ — KOORDİNATÖR HÜKMÜ, 7 Eylül 2026
+//    (`denetim/HUKUM-CUKUROVA-CAKISMA-0907.md`)
+//
+//    Bu dört noktayı ORTADOĞU oturumu `denetim/YAMA-ISG-FAZ2-cukurova.json`
+//    içinde **daha doğru bir modelle** çözmüş. ÖLÇTÜM, doğruladım:
+//      15 kaydın içinde Antep · Kilis · Mersin · Payas VAR, ve her birinde
+//      `isg:` örtüsü + şehir bazlı TDV kaynağı (`gaziantep` · `kilis` ·
+//      `mersin`) duruyor.
+//
+//    ÇAKIŞMA VERİ DEĞİL **MODEL** ÇAKIŞMASIYDI:
+//      ORTADOĞU  d: → 1920-04-23 · s: tbmm-turkiye · isg: ingiltere→fransa
+//                ⇒ ÖRTÜ — Fransız işgali bir MÜTAREKE İŞGALİ, Sevr
+//                  onaylanmadı, Ankara İtilâfnâmesi'yle Fransa ÇEKİLDİ,
+//                  Osmanlı egemenliği HİÇ DEVROLMADI
+//      BU YAMA   d: → 1918-10-30 · s: fransa-cumhuriyet · s: tbmm 1921-10-20
+//                ⇒ DEVİR — işgali TASARRUF sayıyor
+//
+// 🔴 VE HÜKMÜN GEREKÇESİ BU OTURUMUN KENDİ CÜMLESİ (aynı gün, Oniki Ada):
+//    «`s:` olarak yazmak, "egemenlik hakları kaldırılmamış oldu"
+//     cümlesini ÇİĞNER — işgali tasarruf yapar.»
+//    Aynı ilke, aynı gün, iki farklı sonuç. Oniki Ada'da `isg:` örtüsü
+//    ZATEN ORADAYDI ve görünüyordu; Çukurova'da ORTADOĞU'nun HENÜZ İNMEMİŞ
+//    yamasındaydı — bu oturum onu göremezdi. **Bağlam farkı, kural farkı
+//    değil.**
+//
+// 🟢 AYAKTA KALAN — bulgunun kendisi düşmedi, yalnız ÇARE BİÇİMİ düştü:
+//    ① 1923'te `d:` OSMANLI kalan 12 noktayı bu oturum buldu
+//    ② Payas ↔ Dörtyol (9 km, aynı gün, iki farklı alan) bu oturum ölçtü
+//    ③ Bekleyen 218 kayıtlık TBMM yamasının bu dördü YAPISAL OLARAK
+//       kapsayamayacağını (yama 1920-04-23'ü keser, bu dördünün `d:`
+//       dönemi 1921-10-20'de BAŞLAR) bu oturum kanıtladı
+//    🟢 Ve ORTADOĞU'nun yaması Dörtyol·Erzin·Yumurtalık·Suruç·Akçakale·
+//       Ceylanpınar·Nusaybin'i de aynı modele çeviriyor ⇒ bulduğum
+//       ASİMETRİ tek yönde kapanıyor.
+//
+// ⚠️ DOSYA SİLİNMEDİ, DAMGALANDI (`§3.5.1` Yukarı Macaristan emsali):
+//    bir vakayı silmek dersi de siler; damgalamak dersi korur.
+//
+// ═══════════════ AŞAĞISI ÖZGÜN BAŞLIK — TARİHÎ KAYIT ═══════════════
+//
 // YER_YAMA_TBMM_DORT_0906 — BALKAN-DOĞU AVRUPA oturumu, 6 Eylül 2026
 // Koordinatör hükmü: 1923'te `d:` OSMANLI kalan 12 noktanın SEKİZİ bekleyen
 //   `data/yer_yama_tbmm_1920_0905.js`te VAR; **DÖRDÜ GERÇEK BOŞLUK** ve

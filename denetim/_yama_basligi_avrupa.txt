@@ -41,6 +41,31 @@
 //    "sıfır/çok kısa dönem" riskini taşır ve emsali yok ⇒ veri SUSUYOR (§11).
 //
 // =====================================================================
+// KALEM ③ — İSPANYA'NIN ÖNCÜL TACLARI · 9 nokta
+// =====================================================================
+// Dokuz nokta 1281'den beri doğrudan `ispanya` yazıyor. Oysa öncül künyeler
+// VAR ve ardılın `f:`siyle GÜN GÜN BİTİŞİK:
+//     kastilya  1230-09-23 → 1479-01-20  ┐
+//     aragon    1164-01-01 → 1479-01-20  ├─ ispanya  1479-01-20 → 1923-10-29
+//     granada   1238-05-12 → 1492-01-02  ┘
+// 🟢 EMSAL EZİCİ, ÖLÇÜLDÜ: 22 nokta `kastilya` · 11 `aragon` · 7 `granada`
+//    kullanıyor (Toledo · Valladolid · Burgos · Zaragoza · Girona · Alicante…).
+//    Bu dokuz nokta konvansiyonun DIŞINDA kalmış — ve aralarında Madrid,
+//    Sevilla, Barselona var, yani ülkenin en büyük şehirleri.
+// 🔴 Bu `sardinya` sınıfı DEĞİL (`§3.5.0③`, ad/unvan ömrü ≠ tasarruf
+//    sürekliliği): orada ÖNCÜL KÜNYE YOKTU, burada VAR ve penceresi TUTUYOR.
+//    `§3.5.0`ın ön koşulu — "künye var mı VE penceresi boşluğu kapatıyor mu" —
+//    ikisi de sağlanıyor.
+// 🟢 YENİ TARİH İDDİASI YOK: gün künyelerin kendi `f:`/`t:`si, ve atlasta
+//    `1479-01-20`yi 60 kayıt kullanıyor (YONTEM §③).
+// ⚠️ BEYAN — Mayorka Krallığı (1276-1349) TARANDI, KÜNYESİ YOK. O tanecik
+//    ifade edilemiyor ⇒ Balear adaları doğrudan `aragon` yazıldı. Bu bir
+//    BASİTLEŞTİRME ve emsalle uyumlu (Castellón · Alicante da `aragon`).
+// ⚠️ Kalyari ve Sasari'nin mevcut zinciri KORUNDU (`ceneviz` 1281-1324 ve
+//    `sardinya` 1720-1861 dönemleri dokunulmadan duruyor); yalnız 1324-1479
+//    arası `ispanya` → `aragon` oldu. Sardinya 1324'te Aragon'un fethiydi.
+//
+// =====================================================================
 // GÜN SEÇİMİ — üçü de KOMŞUNUN kullandığı gün (YONTEM §③)
 // =====================================================================
 //   1815-06-09   36 kayıt · çekirdek 0 GÜN «Viyana Kongresi Nihai Senedi»   🟢

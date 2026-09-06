@@ -41,6 +41,31 @@
 //    "sıfır/çok kısa dönem" riskini taşır ve emsali yok ⇒ veri SUSUYOR (§11).
 //
 // =====================================================================
+// KALEM ③ — İSPANYA'NIN ÖNCÜL TACLARI · 9 nokta
+// =====================================================================
+// Dokuz nokta 1281'den beri doğrudan `ispanya` yazıyor. Oysa öncül künyeler
+// VAR ve ardılın `f:`siyle GÜN GÜN BİTİŞİK:
+//     kastilya  1230-09-23 → 1479-01-20  ┐
+//     aragon    1164-01-01 → 1479-01-20  ├─ ispanya  1479-01-20 → 1923-10-29
+//     granada   1238-05-12 → 1492-01-02  ┘
+// 🟢 EMSAL EZİCİ, ÖLÇÜLDÜ: 22 nokta `kastilya` · 11 `aragon` · 7 `granada`
+//    kullanıyor (Toledo · Valladolid · Burgos · Zaragoza · Girona · Alicante…).
+//    Bu dokuz nokta konvansiyonun DIŞINDA kalmış — ve aralarında Madrid,
+//    Sevilla, Barselona var, yani ülkenin en büyük şehirleri.
+// 🔴 Bu `sardinya` sınıfı DEĞİL (`§3.5.0③`, ad/unvan ömrü ≠ tasarruf
+//    sürekliliği): orada ÖNCÜL KÜNYE YOKTU, burada VAR ve penceresi TUTUYOR.
+//    `§3.5.0`ın ön koşulu — "künye var mı VE penceresi boşluğu kapatıyor mu" —
+//    ikisi de sağlanıyor.
+// 🟢 YENİ TARİH İDDİASI YOK: gün künyelerin kendi `f:`/`t:`si, ve atlasta
+//    `1479-01-20`yi 60 kayıt kullanıyor (YONTEM §③).
+// ⚠️ BEYAN — Mayorka Krallığı (1276-1349) TARANDI, KÜNYESİ YOK. O tanecik
+//    ifade edilemiyor ⇒ Balear adaları doğrudan `aragon` yazıldı. Bu bir
+//    BASİTLEŞTİRME ve emsalle uyumlu (Castellón · Alicante da `aragon`).
+// ⚠️ Kalyari ve Sasari'nin mevcut zinciri KORUNDU (`ceneviz` 1281-1324 ve
+//    `sardinya` 1720-1861 dönemleri dokunulmadan duruyor); yalnız 1324-1479
+//    arası `ispanya` → `aragon` oldu. Sardinya 1324'te Aragon'un fethiydi.
+//
+// =====================================================================
 // GÜN SEÇİMİ — üçü de KOMŞUNUN kullandığı gün (YONTEM §③)
 // =====================================================================
 //   1815-06-09   36 kayıt · çekirdek 0 GÜN «Viyana Kongresi Nihai Senedi»   🟢
@@ -84,5 +109,67 @@ window.YER_YAMA_AVRUPA_1923 = [
        {f:"1922-12-06",t:"1923-10-29",d:"irlanda-serbest-devlet"}
     ],
     kaynak:"RTÉ Century Ireland (İrlanda ulusal yayıncısının Boston College ortaklı akademik tarih projesi): 'The constitution of the Irish Free State became law on 6 December 1922.' İkinci bağımsız teyit: 6 Aralık 1922'de George V'in bildirisiyle Serbest Devlet kuruldu ve Dublin başkenti oldu. TDV kapsam dışı — Batı Avrupa TDV kapsamı %0 (§4)." },
+
+  { ad:"Madrid",
+    s:[{f:"1281-01-01",t:"1479-01-20",d:"kastilya"},
+       {f:"1479-01-20",t:"1923-10-29",d:"ispanya"}
+    ],
+    kaynak:"İÇ TUTARLILIK DÜZELTMESİ — yeni tarih iddiası YOK. `kastilya` (künye kaynağı: TDV `kastilya--ispanya`) ve `aragon` (TDV `aragon`) künyeleri 1479-01-20'de bitiyor, `ispanya` künyesi (TDV `ispanya`) AYNI GÜN başlıyor; künyelerin kendi `ozet` alanları geçişi tarif ediyor ('Katolik Kralların evliliğiyle Aragon ile birleşerek İspanya'nın çekirdeğini oluşturdu'). Atlasın EMSALİ: 22 nokta `kastilya`, 11 nokta `aragon`, 7 nokta `granada` ile zincirlenmiş; bu dokuz nokta o konvansiyonun DIŞINDA kalmıştı. Gün 1479-01-20'yi atlasta 60 kayıt kullanıyor (YONTEM §③ komşu kuralı). Taç ataması coğrafî: Madrid/Sevilla Kastilya Tacı, Barselona/Valensiya/Balear/Sardinya Aragon Tacı." },
+
+  { ad:"Sevilla",
+    s:[{f:"1281-01-01",t:"1479-01-20",d:"kastilya"},
+       {f:"1479-01-20",t:"1923-10-29",d:"ispanya"}
+    ],
+    kaynak:"İÇ TUTARLILIK DÜZELTMESİ — yeni tarih iddiası YOK. `kastilya` (künye kaynağı: TDV `kastilya--ispanya`) ve `aragon` (TDV `aragon`) künyeleri 1479-01-20'de bitiyor, `ispanya` künyesi (TDV `ispanya`) AYNI GÜN başlıyor; künyelerin kendi `ozet` alanları geçişi tarif ediyor ('Katolik Kralların evliliğiyle Aragon ile birleşerek İspanya'nın çekirdeğini oluşturdu'). Atlasın EMSALİ: 22 nokta `kastilya`, 11 nokta `aragon`, 7 nokta `granada` ile zincirlenmiş; bu dokuz nokta o konvansiyonun DIŞINDA kalmıştı. Gün 1479-01-20'yi atlasta 60 kayıt kullanıyor (YONTEM §③ komşu kuralı). Taç ataması coğrafî: Madrid/Sevilla Kastilya Tacı, Barselona/Valensiya/Balear/Sardinya Aragon Tacı." },
+
+  { ad:"Barselona",
+    s:[{f:"1281-01-01",t:"1479-01-20",d:"aragon"},
+       {f:"1479-01-20",t:"1923-10-29",d:"ispanya"}
+    ],
+    kaynak:"İÇ TUTARLILIK DÜZELTMESİ — yeni tarih iddiası YOK. `kastilya` (künye kaynağı: TDV `kastilya--ispanya`) ve `aragon` (TDV `aragon`) künyeleri 1479-01-20'de bitiyor, `ispanya` künyesi (TDV `ispanya`) AYNI GÜN başlıyor; künyelerin kendi `ozet` alanları geçişi tarif ediyor ('Katolik Kralların evliliğiyle Aragon ile birleşerek İspanya'nın çekirdeğini oluşturdu'). Atlasın EMSALİ: 22 nokta `kastilya`, 11 nokta `aragon`, 7 nokta `granada` ile zincirlenmiş; bu dokuz nokta o konvansiyonun DIŞINDA kalmıştı. Gün 1479-01-20'yi atlasta 60 kayıt kullanıyor (YONTEM §③ komşu kuralı). Taç ataması coğrafî: Madrid/Sevilla Kastilya Tacı, Barselona/Valensiya/Balear/Sardinya Aragon Tacı." },
+
+  { ad:"Valensiya",
+    s:[{f:"1281-01-01",t:"1479-01-20",d:"aragon"},
+       {f:"1479-01-20",t:"1923-10-29",d:"ispanya"}
+    ],
+    kaynak:"İÇ TUTARLILIK DÜZELTMESİ — yeni tarih iddiası YOK. `kastilya` (künye kaynağı: TDV `kastilya--ispanya`) ve `aragon` (TDV `aragon`) künyeleri 1479-01-20'de bitiyor, `ispanya` künyesi (TDV `ispanya`) AYNI GÜN başlıyor; künyelerin kendi `ozet` alanları geçişi tarif ediyor ('Katolik Kralların evliliğiyle Aragon ile birleşerek İspanya'nın çekirdeğini oluşturdu'). Atlasın EMSALİ: 22 nokta `kastilya`, 11 nokta `aragon`, 7 nokta `granada` ile zincirlenmiş; bu dokuz nokta o konvansiyonun DIŞINDA kalmıştı. Gün 1479-01-20'yi atlasta 60 kayıt kullanıyor (YONTEM §③ komşu kuralı). Taç ataması coğrafî: Madrid/Sevilla Kastilya Tacı, Barselona/Valensiya/Balear/Sardinya Aragon Tacı." },
+
+  { ad:"Mayorka (Palma)",
+    s:[{f:"1281-01-01",t:"1479-01-20",d:"aragon"},
+       {f:"1479-01-20",t:"1923-10-29",d:"ispanya"}
+    ],
+    kaynak:"İÇ TUTARLILIK DÜZELTMESİ — yeni tarih iddiası YOK. `kastilya` (künye kaynağı: TDV `kastilya--ispanya`) ve `aragon` (TDV `aragon`) künyeleri 1479-01-20'de bitiyor, `ispanya` künyesi (TDV `ispanya`) AYNI GÜN başlıyor; künyelerin kendi `ozet` alanları geçişi tarif ediyor ('Katolik Kralların evliliğiyle Aragon ile birleşerek İspanya'nın çekirdeğini oluşturdu'). Atlasın EMSALİ: 22 nokta `kastilya`, 11 nokta `aragon`, 7 nokta `granada` ile zincirlenmiş; bu dokuz nokta o konvansiyonun DIŞINDA kalmıştı. Gün 1479-01-20'yi atlasta 60 kayıt kullanıyor (YONTEM §③ komşu kuralı). Taç ataması coğrafî: Madrid/Sevilla Kastilya Tacı, Barselona/Valensiya/Balear/Sardinya Aragon Tacı." },
+
+  { ad:"Menorka (Mahon)",
+    s:[{f:"1281-01-01",t:"1479-01-20",d:"aragon"},
+       {f:"1479-01-20",t:"1708-09-29",d:"ispanya"},
+       {f:"1708-09-29",t:"1802-03-25",d:"ingiltere"},
+       {f:"1802-03-25",t:"1923-10-29",d:"ispanya"}
+    ],
+    kaynak:"İÇ TUTARLILIK DÜZELTMESİ — yeni tarih iddiası YOK. `kastilya` (künye kaynağı: TDV `kastilya--ispanya`) ve `aragon` (TDV `aragon`) künyeleri 1479-01-20'de bitiyor, `ispanya` künyesi (TDV `ispanya`) AYNI GÜN başlıyor; künyelerin kendi `ozet` alanları geçişi tarif ediyor ('Katolik Kralların evliliğiyle Aragon ile birleşerek İspanya'nın çekirdeğini oluşturdu'). Atlasın EMSALİ: 22 nokta `kastilya`, 11 nokta `aragon`, 7 nokta `granada` ile zincirlenmiş; bu dokuz nokta o konvansiyonun DIŞINDA kalmıştı. Gün 1479-01-20'yi atlasta 60 kayıt kullanıyor (YONTEM §③ komşu kuralı). Taç ataması coğrafî: Madrid/Sevilla Kastilya Tacı, Barselona/Valensiya/Balear/Sardinya Aragon Tacı." },
+
+  { ad:"İbiza",
+    s:[{f:"1281-01-01",t:"1479-01-20",d:"aragon"},
+       {f:"1479-01-20",t:"1923-10-29",d:"ispanya"}
+    ],
+    kaynak:"İÇ TUTARLILIK DÜZELTMESİ — yeni tarih iddiası YOK. `kastilya` (künye kaynağı: TDV `kastilya--ispanya`) ve `aragon` (TDV `aragon`) künyeleri 1479-01-20'de bitiyor, `ispanya` künyesi (TDV `ispanya`) AYNI GÜN başlıyor; künyelerin kendi `ozet` alanları geçişi tarif ediyor ('Katolik Kralların evliliğiyle Aragon ile birleşerek İspanya'nın çekirdeğini oluşturdu'). Atlasın EMSALİ: 22 nokta `kastilya`, 11 nokta `aragon`, 7 nokta `granada` ile zincirlenmiş; bu dokuz nokta o konvansiyonun DIŞINDA kalmıştı. Gün 1479-01-20'yi atlasta 60 kayıt kullanıyor (YONTEM §③ komşu kuralı). Taç ataması coğrafî: Madrid/Sevilla Kastilya Tacı, Barselona/Valensiya/Balear/Sardinya Aragon Tacı." },
+
+  { ad:"Kalyari (Cagliari)",
+    s:[{f:"1281-01-01",t:"1324-01-01",d:"ceneviz"},
+       {f:"1324-01-01",t:"1479-01-20",d:"aragon"},
+       {f:"1479-01-20",t:"1720-02-24",d:"ispanya"},
+       {f:"1720-02-24",t:"1861-03-17",d:"sardinya"},
+       {f:"1861-03-17",t:"1923-10-29",d:"italya"}
+    ],
+    kaynak:"İÇ TUTARLILIK DÜZELTMESİ — yeni tarih iddiası YOK. `kastilya` (künye kaynağı: TDV `kastilya--ispanya`) ve `aragon` (TDV `aragon`) künyeleri 1479-01-20'de bitiyor, `ispanya` künyesi (TDV `ispanya`) AYNI GÜN başlıyor; künyelerin kendi `ozet` alanları geçişi tarif ediyor ('Katolik Kralların evliliğiyle Aragon ile birleşerek İspanya'nın çekirdeğini oluşturdu'). Atlasın EMSALİ: 22 nokta `kastilya`, 11 nokta `aragon`, 7 nokta `granada` ile zincirlenmiş; bu dokuz nokta o konvansiyonun DIŞINDA kalmıştı. Gün 1479-01-20'yi atlasta 60 kayıt kullanıyor (YONTEM §③ komşu kuralı). Taç ataması coğrafî: Madrid/Sevilla Kastilya Tacı, Barselona/Valensiya/Balear/Sardinya Aragon Tacı." },
+
+  { ad:"Sasari (Sassari)",
+    s:[{f:"1281-01-01",t:"1324-01-01",d:"ceneviz"},
+       {f:"1324-01-01",t:"1479-01-20",d:"aragon"},
+       {f:"1479-01-20",t:"1720-02-24",d:"ispanya"},
+       {f:"1720-02-24",t:"1861-03-17",d:"sardinya"},
+       {f:"1861-03-17",t:"1923-10-29",d:"italya"}
+    ],
+    kaynak:"İÇ TUTARLILIK DÜZELTMESİ — yeni tarih iddiası YOK. `kastilya` (künye kaynağı: TDV `kastilya--ispanya`) ve `aragon` (TDV `aragon`) künyeleri 1479-01-20'de bitiyor, `ispanya` künyesi (TDV `ispanya`) AYNI GÜN başlıyor; künyelerin kendi `ozet` alanları geçişi tarif ediyor ('Katolik Kralların evliliğiyle Aragon ile birleşerek İspanya'nın çekirdeğini oluşturdu'). Atlasın EMSALİ: 22 nokta `kastilya`, 11 nokta `aragon`, 7 nokta `granada` ile zincirlenmiş; bu dokuz nokta o konvansiyonun DIŞINDA kalmıştı. Gün 1479-01-20'yi atlasta 60 kayıt kullanıyor (YONTEM §③ komşu kuralı). Taç ataması coğrafî: Madrid/Sevilla Kastilya Tacı, Barselona/Valensiya/Balear/Sardinya Aragon Tacı." },
 
 ];

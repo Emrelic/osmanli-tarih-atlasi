@@ -96,30 +96,58 @@ function bol(zincir, harita, oncesi) {
   return z;
 }
 
-function sina(eski, yeni, bolGunleri, ad) {
-  const hata = [];
+// 🔴 İKİ YANLIŞ POZİTİF ÖLÇÜLDÜ VE DÜZELTİLDİ — ikisi de aletin kusuruydu:
+//   ① `oncesi` kipinde muafiyet YÖNÜ tersti. `bol` günün SONRASINI değiştirir
+//      (muafiyet t >= gün), `oncesi` ÖNCESİNİ (muafiyet t < gün). Ters yön
+//      423 sahte "KAYBOLAN" üretti — kasıtlı kimlik değişimini kayıp sandı.
+//   ② `ceneviz` ve `sardinya` "KÜNYE YOK" diye ötüyordu; ikisi de PAYLAŞILAN
+//      BOYA ANAHTARI (`id` değil, birden çok künyenin `harita:` hedefi —
+//      ARAC-KIMLIK-BOYA-0906 bunları "TASARIM, kusur DEĞİL" diye sayıyor).
+//      §11: renk `harita:` anahtarına bakar, `id`ye DEĞİL.
+// 🟢 VE SINAV ARTIK FARK ÖLÇÜYOR: eski zincirde de var olan bir kusur bu
+//    yamanın kusuru DEĞİLDİR (§11: "taşımanın GETİRDİĞİ ile ZATEN ORADA
+//    OLANI ayırmak — yoksa taşımaya haksız yüklenir").
+const HARITA_HEDEFI = new Set();
+for (const k of Object.values(KUN)) if (k.harita) HARITA_HEDEFI.add(k.harita);
+
+function kusurlar(zincir, eski, yeni, gunler, kip) {
+  const h = [];
   const kap = (g, d) => yeni.some(p => p.f <= g && g < p.t && p.d === d);
-  for (const p of eski)
-    for (let g = gn(p.f); g < gn(p.t); g += 1500) {
-      const t = new Date(g * 864e5).toISOString().slice(0, 10);
-      if (!kap(t, p.d) && !bolGunleri.some(b => t >= b))
-        hata.push("KAYBOLAN: " + t + " " + p.d);
-    }
-  const s = yeni.slice().sort((a, b) => a.f < b.f ? -1 : 1);
+  if (zincir === yeni)
+    for (const p of eski)
+      for (let g = gn(p.f); g < gn(p.t); g += 1500) {
+        const t = new Date(g * 864e5).toISOString().slice(0, 10);
+        const muaf = gunler.some(b => kip === "oncesi" ? t < b : t >= b);
+        if (!kap(t, p.d) && !muaf) h.push("KAYBOLAN: " + t + " " + p.d);
+      }
+  const s = zincir.slice().sort((a, b) => a.f < b.f ? -1 : 1);
   for (let i = 1; i < s.length; i++) {
-    if (s[i].f > s[i - 1].t) hata.push("BOŞLUK: " + s[i - 1].t + " -> " + s[i].f);
-    if (s[i].f < s[i - 1].t) hata.push("ÖRTÜŞME: " + s[i].f + " < " + s[i - 1].t);
+    if (s[i].f > s[i - 1].t) h.push("BOŞLUK: " + s[i - 1].t + " -> " + s[i].f);
+    if (s[i].f < s[i - 1].t) h.push("ÖRTÜŞME: " + s[i].f + " < " + s[i - 1].t);
   }
-  for (const p of yeni) {
-    const k = KUN[p.d]; if (!k) { hata.push("KÜNYE YOK: " + p.d); continue; }
+  for (const p of zincir) {
+    const k = KUN[p.d];
+    if (!k) {
+      if (!HARITA_HEDEFI.has(p.d)) h.push("KÜNYE YOK: " + p.d);
+      continue;                       // paylaşılan boya anahtarı — pencere YOK
+    }
     if (k.t && gn(p.t) - gn(k.t) > TOLERANS)
-      hata.push("KÜNYE AŞIMI: " + p.d + " " + (gn(p.t) - gn(k.t)) + " gün");
+      h.push("KÜNYE AŞIMI: " + p.d + " " + (gn(p.t) - gn(k.t)) + " gün");
     if (k.f && gn(k.f) - gn(p.f) > TOLERANS)
-      hata.push("KÜNYE ERKEN: " + p.d + " " + (gn(k.f) - gn(p.f)) + " gün");
+      h.push("KÜNYE ERKEN: " + p.d + " " + (gn(k.f) - gn(p.f)) + " gün");
   }
-  console.log("   --- " + ad + ": " + (hata.length ? "" : "🟢 TEMİZ"));
-  for (const h of hata) console.log("      🔴 " + h);
-  return hata.length;
+  return h;
+}
+
+function sina(eski, yeni, gunler, ad, kip) {
+  const oncekiler = new Set(kusurlar(eski, eski, yeni, gunler, kip));
+  const simdi = kusurlar(yeni, eski, yeni, gunler, kip);
+  const yeniKusur = simdi.filter(x => !oncekiler.has(x));
+  const devralinan = simdi.filter(x => oncekiler.has(x));
+  console.log("   --- " + ad + ": " + (yeniKusur.length ? "" : "🟢 TEMİZ") +
+    (devralinan.length ? "   (⚪ " + devralinan.length + " kusur MEVCUTTU, yama getirmedi)" : ""));
+  for (const x of yeniKusur) console.log("      🔴 " + x);
+  return yeniKusur.length;
 }
 
 let onKosulOttu = 0, gecmeHata = 0, atesOttu = 0;
@@ -144,8 +172,8 @@ for (const kalem of KALEMLER) {
       (as > 0 ? "  AŞIM " + as + (as > TOLERANS ? " 🔴" : " 🟢 tol.içi") : "  🟢"));
   }
   const gunler = [...Object.keys(kalem.bol || {}), ...Object.keys(kalem.oncesi || {})];
-  onKosulOttu += sina(ESKI, YENI, gunler, "④ ÖN KOŞUL (BUGÜNKÜ künyeyle)") > 0 ? 1 : 0;
-  URETILEN.push({ kalem, ESKI, YENI, gunler });
+  onKosulOttu += sina(ESKI, YENI, gunler, "④ ÖN KOŞUL (BUGÜNKÜ künyeyle)", kalem.oncesi ? "oncesi" : "bol") > 0 ? 1 : 0;
+  URETILEN.push({ kalem, ESKI, YENI, gunler, kip: kalem.oncesi ? "oncesi" : "bol" });
 }
 
 // Künye önerisi bellekte uygulanır, sınav TEKRARLANIR
@@ -154,10 +182,10 @@ console.log("");
 console.log("↳ künye önerisi bellekte uygulandı: " + JSON.stringify(KUNYE_ONERISI));
 for (const u of URETILEN) {
   console.log("  " + u.kalem.ad + ":");
-  gecmeHata += sina(u.ESKI, u.YENI, u.gunler, "① GEÇME (künye ÖNERİSİYLE)");
+  gecmeHata += sina(u.ESKI, u.YENI, u.gunler, "① GEÇME (künye ÖNERİSİYLE)", u.kip);
   const bozuk = u.YENI.map(p => ({ ...p }));
   if (bozuk.length > 1) bozuk[bozuk.length - 2].t = "1750-01-01";
-  atesOttu += sina(u.ESKI, bozuk, u.gunler, "② ATEŞLEME (bilerek bozuk)") > 0 ? 1 : 0;
+  atesOttu += sina(u.ESKI, bozuk, u.gunler, "② ATEŞLEME (bilerek bozuk)", u.kip) > 0 ? 1 : 0;
 }
 
 console.log("");
