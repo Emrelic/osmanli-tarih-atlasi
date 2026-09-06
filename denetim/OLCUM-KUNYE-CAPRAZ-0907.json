@@ -1,0 +1,1136 @@
+{
+ "_NOT": "㉒ KÜNYE ÇAPRAZ KONTROLÜ — `DAYANAK-GUNLER-0907.json`daki 1312 günün TAMAMI, `devletler.js`in 617 künyesine karşı. Yerel ölçüm, ağ yok.",
+ "_KRITIK_SART": "🔴 `§4`: «künyenin f:/t: günü bir KAYNAK DEĞİLDİR.» Bu ölçüm bir DAYANAK üretmez, bir ÇAPRAZ KONTROLdür: UYUŞMA günü DOĞRULAMAZ (yalnızca iç tutarlılık), AYRIŞMA bir KUSUR GÖSTERİR. Hiçbir künye günü `kaynak:` alanına yazılmadı ve yazılmamalı.",
+ "_YONTEM": {
+  "kunye_dizini": "617 id ∪ 251 `harita:` = 640 anahtar — ⑯'nın yalnız `id`ye bakıp altı kimliği sahte «künye yok» sayması böyle önlendi",
+  "tarih_kiyasi": "`denetim/ARAC-TARIH-0907.py` İÇE AKTARILDI — kendi `pad`imi yazmadım (üç haneli yıl tuzağı beş vakada çıkmış)",
+  "tolerans": "400 gün — `denetle.py`nin KENDİ `HAYALET_TOLERANS_GUN` sabiti. Kendi eşiğimi uydurmadım.",
+  "pencere_uclari": "`1281-01-01` ve `1923-10-29` bir tarih iddiası değil SINIR İŞARETİ — yakınlık ölçümünde elendi"
+ },
+ "_BIRINCI_SURUM_CURUDU": "İlk sürümüm «AYRIŞIYOR»u ±2 YIL yakınlığıyla tanımladı ve GÜRÜLTÜ üretti: `1402-07-28` (Ankara Savaşı) ↔ `isa-celebi f:1403-01-01`, `1918-11-11` (Compiègne) ↔ `cekoslovakya f:1918-10-28`. Bunlar aynı geçişin iki tarihi DEĞİL, komşu ama AYRI olaylar. ⇒ Yakınlık bir ölçüt değildir (§11: «aynı sayı ≠ aynı vaka»). Kovalar yeniden kuruldu.",
+ "_KARNE": {
+  "kimlik_gun_cifti": 2147,
+  "gun": 1312,
+  "🟢 UYUSUYOR": 306,
+  "🔴 GERCEK_ANAKRONIZM_400_gun_ustu": 65,
+  "🟡 MESRU_GECIKME_400_gun_alti": 60,
+  "🟡 YAKIN_FARKLI_ayni_gecis_supheli": 102,
+  "⚪ KUNYE_SUSUYOR": 1612,
+  "KIMLIK_YOK": 2
+ },
+ "_HUKUM": {
+  "①": "⚪ 1612 çift (%75) — künye SUSUYOR ⇒ DIŞ KAYNAK GEREKLİ. Künye çapraz kontrolü bu günlerin işini DARALTMIYOR.",
+  "②": "🟢 306 çift künye ile UYUŞUYOR — ama bu bir DAYANAK DEĞİL. Günün doğru olduğunu göstermez; yalnız veri ile dizinin AYNI ŞEYİ söylediğini gösterir. İkisi de aynı kaynaksız günden türemiş olabilir.",
+  "③": "🔴 65 çift GERÇEK ANAKRONİZM (>400 gün) — bunlar `§3.5` hayalet ailesinden ve `Değişmez 4`ün gördüğü kümeyle ÇAKIŞMASI beklenir.",
+  "④": "🟡 60 çift MEŞRU GECİKME (<400 gün) — `CLAUDE.md §3.5`: «Bölgesel teslim gecikmeleri meşrudur (Mekke'nin memlûk dönemi 1517-07-06'da biter, devlet 04-13'te yıkılmıştır) ama yıllar değil AYLAR mertebesinde olmalıdır.» Bunlar KUSUR DEĞİL."
+ },
+ "A_GERCEK_ANAKRONIZM": [
+  {
+   "gun": "1501-07-01",
+   "nokta": 47,
+   "kimlik": "iran",
+   "ad": "İran (Pehlevi Hanedanı → İran İslam Cumhuriyeti)",
+   "kunye": {
+    "f": "1925-12-12",
+    "t": "2026-08-07"
+   },
+   "fark_gun": 155027
+  },
+  {
+   "gun": "1507-05-24",
+   "nokta": 21,
+   "kimlik": "iran",
+   "ad": "İran (Pehlevi Hanedanı → İran İslam Cumhuriyeti)",
+   "kunye": {
+    "f": "1925-12-12",
+    "t": "2026-08-07"
+   },
+   "fark_gun": 152874
+  },
+  {
+   "gun": "1510-12-02",
+   "nokta": 26,
+   "kimlik": "iran",
+   "ad": "İran (Pehlevi Hanedanı → İran İslam Cumhuriyeti)",
+   "kunye": {
+    "f": "1925-12-12",
+    "t": "2026-08-07"
+   },
+   "fark_gun": 151586
+  },
+  {
+   "gun": "1388-09-28",
+   "nokta": 1,
+   "kimlik": "sardinya",
+   "ad": "Sardinya-Piyemonte Krallığı (Savoya)",
+   "kunye": {
+    "f": "1720-08-02",
+    "t": "1861-03-17"
+   },
+   "fark_gun": 121203
+  },
+  {
+   "gun": "1565-01-26",
+   "nokta": 7,
+   "kimlik": "meysur",
+   "ad": "Meysûr Sultanlığı (Haydar Ali / Tipu Sultan)",
+   "kunye": {
+    "f": "1761-01-01",
+    "t": "1799-05-04"
+   },
+   "fark_gun": 71563
+  },
+  {
+   "gun": "1335-05-02",
+   "nokta": 1,
+   "kimlik": "avusturya",
+   "ad": "Habsburg Avusturya",
+   "kunye": {
+    "f": "1526-08-29",
+    "t": "1918-11-11"
+   },
+   "fark_gun": 69880
+  },
+  {
+   "gun": "1382-09-30",
+   "nokta": 1,
+   "kimlik": "avusturya",
+   "ad": "Habsburg Avusturya",
+   "kunye": {
+    "f": "1526-08-29",
+    "t": "1918-11-11"
+   },
+   "fark_gun": 52562
+  },
+  {
+   "gun": "1406-10-09",
+   "nokta": 1,
+   "kimlik": "toskana",
+   "ad": "Floransa / Toskana Büyük Dükalığı",
+   "kunye": {
+    "f": "1532-01-01",
+    "t": "1860-03-22"
+   },
+   "fark_gun": 45739
+  },
+  {
+   "gun": "1515-04-01",
+   "nokta": 19,
+   "kimlik": "umman",
+   "ad": "Umman (Ya'rubî / Bû Saîd) Sultanlığı",
+   "kunye": {
+    "f": "1624-01-01",
+    "t": "1923-10-29"
+   },
+   "fark_gun": 39722
+  },
+  {
+   "gun": "1466-10-19",
+   "nokta": 3,
+   "kimlik": "lehistan",
+   "ad": "Lehistan-Litvanya Birliği",
+   "kunye": {
+    "f": "1569-07-01",
+    "t": "1795-10-24"
+   },
+   "fark_gun": 37510
+  },
+  {
+   "gun": "1811-08-18",
+   "nokta": 22,
+   "kimlik": "mataram-sultanligi",
+   "ad": "Mataram Sultanlığı (Cava)",
+   "kunye": {
+    "f": "1587-01-01",
+    "t": "1755-02-13"
+   },
+   "fark_gun": 20639
+  },
+  {
+   "gun": "1455-06-20",
+   "nokta": 1,
+   "kimlik": "sirbistan",
+   "ad": "Sırbistan Krallığı (Nemanjić Hanedanı)",
+   "kunye": {
+    "f": "1217-01-01",
+    "t": "1402-01-01"
+   },
+   "fark_gun": 19528
+  },
+  {
+   "gun": "1455-06-01",
+   "nokta": 2,
+   "kimlik": "sirbistan",
+   "ad": "Sırbistan Krallığı (Nemanjić Hanedanı)",
+   "kunye": {
+    "f": "1217-01-01",
+    "t": "1402-01-01"
+   },
+   "fark_gun": 19509
+  },
+  {
+   "gun": "1566-09-07",
+   "nokta": 1,
+   "kimlik": "macaristan",
+   "ad": "Macaristan Krallığı (bağımsız dönem)",
+   "kunye": {
+    "f": "1000-01-01",
+    "t": "1526-08-29"
+   },
+   "fark_gun": 14619
+  },
+  {
+   "gun": "1566-09-02",
+   "nokta": 1,
+   "kimlik": "macaristan",
+   "ad": "Macaristan Krallığı (bağımsız dönem)",
+   "kunye": {
+    "f": "1000-01-01",
+    "t": "1526-08-29"
+   },
+   "fark_gun": 14614
+  },
+  {
+   "gun": "1439-08-27",
+   "nokta": 4,
+   "kimlik": "sirbistan",
+   "ad": "Sırbistan Krallığı (Nemanjić Hanedanı)",
+   "kunye": {
+    "f": "1217-01-01",
+    "t": "1402-01-01"
+   },
+   "fark_gun": 13752
+  },
+  {
+   "gun": "1764-01-14",
+   "nokta": 1,
+   "kimlik": "sih-imparatorlugu",
+   "ad": "Sih İmparatorluğu (Pencap)",
+   "kunye": {
+    "f": "1801-04-12",
+    "t": "1849-03-29"
+   },
+   "fark_gun": 13602
+  },
+  {
+   "gun": "1765-04-16",
+   "nokta": 6,
+   "kimlik": "sih-imparatorlugu",
+   "ad": "Sih İmparatorluğu (Pencap)",
+   "kunye": {
+    "f": "1801-04-12",
+    "t": "1849-03-29"
+   },
+   "fark_gun": 13144
+  },
+  {
+   "gun": "1853-12-11",
+   "nokta": 1,
+   "kimlik": "maratha",
+   "ad": "Maratha Konfederasyonu",
+   "kunye": {
+    "f": "1674-06-06",
+    "t": "1818-06-03"
+   },
+   "fark_gun": 12975
+  },
+  {
+   "gun": "1848-04-05",
+   "nokta": 1,
+   "kimlik": "maratha",
+   "ad": "Maratha Konfederasyonu",
+   "kunye": {
+    "f": "1674-06-06",
+    "t": "1818-06-03"
+   },
+   "fark_gun": 10899
+  },
+  {
+   "gun": "1552-09-04",
+   "nokta": 1,
+   "kimlik": "macaristan",
+   "ad": "Macaristan Krallığı (bağımsız dönem)",
+   "kunye": {
+    "f": "1000-01-01",
+    "t": "1526-08-29"
+   },
+   "fark_gun": 9503
+  },
+  {
+   "gun": "1552-07-27",
+   "nokta": 1,
+   "kimlik": "macaristan",
+   "ad": "Macaristan Krallığı (bağımsız dönem)",
+   "kunye": {
+    "f": "1000-01-01",
+    "t": "1526-08-29"
+   },
+   "fark_gun": 9464
+  },
+  {
+   "gun": "1519-08-15",
+   "nokta": 1,
+   "kimlik": "ispanyol-peru",
+   "ad": "Peru Genel Valiliği",
+   "kunye": {
+    "f": "1542-11-20",
+    "t": "1824-12-09"
+   },
+   "fark_gun": 8498
+  },
+  {
+   "gun": "1504-10-01",
+   "nokta": 3,
+   "kimlik": "babur-imparatorlugu",
+   "ad": "Bâbürlü (Timurlu-Hint) İmparatorluğu",
+   "kunye": {
+    "f": "1526-04-21",
+    "t": "1857-09-21"
+   },
+   "fark_gun": 7872
+  },
+  {
+   "gun": "1544-09-01",
+   "nokta": 3,
+   "kimlik": "macaristan",
+   "ad": "Macaristan Krallığı (bağımsız dönem)",
+   "kunye": {
+    "f": "1000-01-01",
+    "t": "1526-08-29"
+   },
+   "fark_gun": 6578
+  },
+  {
+   "gun": "1479-01-25",
+   "nokta": 4,
+   "kimlik": "bizans",
+   "ad": "Bizans (Doğu Roma) İmparatorluğu",
+   "kunye": {
+    "f": "330-05-11",
+    "t": "1461-08-15"
+   },
+   "fark_gun": 6372
+  },
+  {
+   "gun": "1661-04-30",
+   "nokta": 1,
+   "kimlik": "ming-hanedani",
+   "ad": "Ming Hanedanı",
+   "kunye": {
+    "f": "1368-01-23",
+    "t": "1644-04-25"
+   },
+   "fark_gun": 6214
+  },
+  {
+   "gun": "1543-08-10",
+   "nokta": 3,
+   "kimlik": "macaristan",
+   "ad": "Macaristan Krallığı (bağımsız dönem)",
+   "kunye": {
+    "f": "1000-01-01",
+    "t": "1526-08-29"
+   },
+   "fark_gun": 6190
+  },
+  {
+   "gun": "1543-07-21",
+   "nokta": 1,
+   "kimlik": "macaristan",
+   "ad": "Macaristan Krallığı (bağımsız dönem)",
+   "kunye": {
+    "f": "1000-01-01",
+    "t": "1526-08-29"
+   },
+   "fark_gun": 6170
+  },
+  {
+   "gun": "1522-09-06",
+   "nokta": 1,
+   "kimlik": "timurlu",
+   "ad": "Timurlu Devleti",
+   "kunye": {
+    "f": "1370-04-09",
+    "t": "1507-05-01"
+   },
+   "fark_gun": 5607
+  },
+  {
+   "gun": "1541-08-29",
+   "nokta": 9,
+   "kimlik": "macaristan",
+   "ad": "Macaristan Krallığı (bağımsız dönem)",
+   "kunye": {
+    "f": "1000-01-01",
+    "t": "1526-08-29"
+   },
+   "fark_gun": 5479
+  },
+  {
+   "gun": "1382-01-06",
+   "nokta": 3,
+   "kimlik": "yuan-hanedani",
+   "ad": "Yuan Hanedanı (Moğol Çin)",
+   "kunye": {
+    "f": "1271-01-01",
+    "t": "1368-09-14"
+   },
+   "fark_gun": 4862
+  },
+  {
+   "gun": "1841-10-01",
+   "nokta": 4,
+   "kimlik": "benihalid",
+   "ad": "Benî Hâlid Emirliği (Lahsa)",
+   "kunye": {
+    "f": "1670-01-01",
+    "t": "1830-01-01"
+   },
+   "fark_gun": 4291
+  },
+  {
+   "gun": "1523-07-25",
+   "nokta": 1,
+   "kimlik": "yeni-ispanya",
+   "ad": "Yeni İspanya Genel Valiliği",
+   "kunye": {
+    "f": "1535-04-17",
+    "t": "1821-09-27"
+   },
+   "fark_gun": 4284
+  },
+  {
+   "gun": "1834-05-06",
+   "nokta": 1,
+   "kimlik": "afgan-durrani",
+   "ad": "Dürrânî (Afgan) Devleti",
+   "kunye": {
+    "f": "1747-10-01",
+    "t": "1823-01-01"
+   },
+   "fark_gun": 4143
+  },
+  {
+   "gun": "1537-03-12",
+   "nokta": 1,
+   "kimlik": "macaristan",
+   "ad": "Macaristan Krallığı (bağımsız dönem)",
+   "kunye": {
+    "f": "1000-01-01",
+    "t": "1526-08-29"
+   },
+   "fark_gun": 3848
+  },
+  {
+   "gun": "1533-06-01",
+   "nokta": 1,
+   "kimlik": "ispanyol-peru",
+   "ad": "Peru Genel Valiliği",
+   "kunye": {
+    "f": "1542-11-20",
+    "t": "1824-12-09"
+   },
+   "fark_gun": 3459
+  },
+  {
+   "gun": "1792-01-09",
+   "nokta": 2,
+   "kimlik": "kirim",
+   "ad": "Kırım Hanlığı",
+   "kunye": {
+    "f": "1441-01-01",
+    "t": "1783-04-19"
+   },
+   "fark_gun": 3187
+  },
+  {
+   "gun": "1774-01-15",
+   "nokta": 3,
+   "kimlik": "siyam-chakri",
+   "ad": "Siyam Krallığı (Rattanakosin / Chakri Hanedanı)",
+   "kunye": {
+    "f": "1782-04-06",
+    "t": "1923-10-29"
+   },
+   "fark_gun": 3003
+  },
+  {
+   "gun": "1534-11-01",
+   "nokta": 1,
+   "kimlik": "ispanyol-peru",
+   "ad": "Peru Genel Valiliği",
+   "kunye": {
+    "f": "1542-11-20",
+    "t": "1824-12-09"
+   },
+   "fark_gun": 2941
+  }
+ ],
+ "B_MESRU_GECIKME": [
+  {
+   "gun": "1402-07-28",
+   "nokta": 211,
+   "kimlik": "isa-celebi",
+   "kunye": {
+    "f": "1403-01-01",
+    "t": "1403-09-01"
+   },
+   "fark_gun": 157
+  },
+  {
+   "gun": "1747-06-20",
+   "nokta": 143,
+   "kimlik": "afgan-durrani",
+   "kunye": {
+    "f": "1747-10-01",
+    "t": "1823-01-01"
+   },
+   "fark_gun": 103
+  },
+  {
+   "gun": "1918-11-11",
+   "nokta": 98,
+   "kimlik": "macaristan-naiplik",
+   "kunye": {
+    "f": "1918-11-16",
+    "t": "1923-10-29"
+   },
+   "fark_gun": 5
+  },
+  {
+   "gun": "1918-11-11",
+   "nokta": 98,
+   "kimlik": "yugoslavya",
+   "kunye": {
+    "f": "1918-12-01",
+    "t": "1923-10-29"
+   },
+   "fark_gun": 20
+  },
+  {
+   "gun": "1410-02-13",
+   "nokta": 78,
+   "kimlik": "musa-celebi",
+   "kunye": {
+    "f": "1411-02-17",
+    "t": "1413-07-05"
+   },
+   "fark_gun": 369
+  },
+  {
+   "gun": "1410-06-15",
+   "nokta": 78,
+   "kimlik": "musa-celebi",
+   "kunye": {
+    "f": "1411-02-17",
+    "t": "1413-07-05"
+   },
+   "fark_gun": 247
+  },
+  {
+   "gun": "1899-01-19",
+   "nokta": 74,
+   "kimlik": "mehdi",
+   "kunye": {
+    "f": "1881-03-01",
+    "t": "1898-09-02"
+   },
+   "fark_gun": 139
+  },
+  {
+   "gun": "1797-10-17",
+   "nokta": 31,
+   "kimlik": "venedik",
+   "kunye": {
+    "f": "697-01-01",
+    "t": "1797-05-12"
+   },
+   "fark_gun": 158
+  },
+  {
+   "gun": "1517-05-19",
+   "nokta": 30,
+   "kimlik": "memluk",
+   "kunye": {
+    "f": "1250-01-01",
+    "t": "1517-04-13"
+   },
+   "fark_gun": 36
+  },
+  {
+   "gun": "1507-05-24",
+   "nokta": 21,
+   "kimlik": "timurlu",
+   "kunye": {
+    "f": "1370-04-09",
+    "t": "1507-05-01"
+   },
+   "fark_gun": 23
+  },
+  {
+   "gun": "1752-04-23",
+   "nokta": 19,
+   "kimlik": "toungoo",
+   "kunye": {
+    "f": "1510-01-01",
+    "t": "1752-01-01"
+   },
+   "fark_gun": 113
+  },
+  {
+   "gun": "1767-04-07",
+   "nokta": 19,
+   "kimlik": "tonburi",
+   "kunye": {
+    "f": "1767-12-28",
+    "t": "1782-04-06"
+   },
+   "fark_gun": 265
+  },
+  {
+   "gun": "1861-03-17",
+   "nokta": 18,
+   "kimlik": "toskana",
+   "kunye": {
+    "f": "1532-01-01",
+    "t": "1860-03-22"
+   },
+   "fark_gun": 360
+  },
+  {
+   "gun": "1502-03-01",
+   "nokta": 17,
+   "kimlik": "altinorda",
+   "kunye": {
+    "f": "1242-01-01",
+    "t": "1502-01-01"
+   },
+   "fark_gun": 59
+  },
+  {
+   "gun": "1861-02-13",
+   "nokta": 16,
+   "kimlik": "italya",
+   "kunye": {
+    "f": "1861-03-17",
+    "t": "1923-10-29"
+   },
+   "fark_gun": 32
+  },
+  {
+   "gun": "1821-08-19",
+   "nokta": 16,
+   "kimlik": "funj",
+   "kunye": {
+    "f": "1504-01-01",
+    "t": "1821-06-14"
+   },
+   "fark_gun": 66
+  },
+  {
+   "gun": "1825-08-06",
+   "nokta": 14,
+   "kimlik": "ispanyol-peru",
+   "kunye": {
+    "f": "1542-11-20",
+    "t": "1824-12-09"
+   },
+   "fark_gun": 240
+  },
+  {
+   "gun": "1517-07-06",
+   "nokta": 13,
+   "kimlik": "memluk",
+   "kunye": {
+    "f": "1250-01-01",
+    "t": "1517-04-13"
+   },
+   "fark_gun": 84
+  },
+  {
+   "gun": "1864-06-04",
+   "nokta": 13,
+   "kimlik": "yakub-beg",
+   "kunye": {
+    "f": "1865-01-01",
+    "t": "1878-03-16"
+   },
+   "fark_gun": 211
+  },
+  {
+   "gun": "1461-06-01",
+   "nokta": 12,
+   "kimlik": "candar",
+   "kunye": {
+    "f": "1309-01-01",
+    "t": "1461-01-01"
+   },
+   "fark_gun": 151
+  },
+  {
+   "gun": "1526-09-01",
+   "nokta": 12,
+   "kimlik": "macaristan",
+   "kunye": {
+    "f": "1000-01-01",
+    "t": "1526-08-29"
+   },
+   "fark_gun": 3
+  },
+  {
+   "gun": "1644-06-06",
+   "nokta": 9,
+   "kimlik": "ming-hanedani",
+   "kunye": {
+    "f": "1368-01-23",
+    "t": "1644-04-25"
+   },
+   "fark_gun": 42
+  },
+  {
+   "gun": "1687-09-21",
+   "nokta": 8,
+   "kimlik": "bicapur",
+   "kunye": {
+    "f": "1489-01-01",
+    "t": "1686-09-22"
+   },
+   "fark_gun": 364
+  },
+  {
+   "gun": "1429-02-01",
+   "nokta": 7,
+   "kimlik": "germiyan",
+   "kunye": {
+    "f": "1300-01-01",
+    "t": "1429-01-01"
+   },
+   "fark_gun": 31
+  },
+  {
+   "gun": "1576-07-12",
+   "nokta": 7,
+   "kimlik": "bengal-sultanligi",
+   "kunye": {
+    "f": "1340-01-01",
+    "t": "1576-01-01"
+   },
+   "fark_gun": 193
+  }
+ ],
+ "C_YAKIN_FARKLI": [
+  {
+   "gun": "1918-11-11",
+   "nokta": 98,
+   "kimlik": "sirbistan-kralligi",
+   "kunye_gunu": [
+    {
+     "uc": "t",
+     "gun": "1918-12-01",
+     "fark": 20
+    }
+   ]
+  },
+  {
+   "gun": "1918-11-11",
+   "nokta": 98,
+   "kimlik": "cekoslovakya",
+   "kunye_gunu": [
+    {
+     "uc": "f",
+     "gun": "1918-10-28",
+     "fark": -14
+    }
+   ]
+  },
+  {
+   "gun": "1912-02-12",
+   "nokta": 97,
+   "kimlik": "cin-cumhuriyeti",
+   "kunye_gunu": [
+    {
+     "uc": "f",
+     "gun": "1911-10-10",
+     "fark": -125
+    }
+   ]
+  },
+  {
+   "gun": "1410-02-13",
+   "nokta": 78,
+   "kimlik": "suleyman-celebi",
+   "kunye_gunu": [
+    {
+     "uc": "t",
+     "gun": "1411-02-17",
+     "fark": 369
+    }
+   ]
+  },
+  {
+   "gun": "1410-06-15",
+   "nokta": 78,
+   "kimlik": "suleyman-celebi",
+   "kunye_gunu": [
+    {
+     "uc": "t",
+     "gun": "1411-02-17",
+     "fark": 247
+    }
+   ]
+  },
+  {
+   "gun": "1403-09-01",
+   "nokta": 56,
+   "kimlik": "mehmed-celebi",
+   "kunye_gunu": [
+    {
+     "uc": "f",
+     "gun": "1402-07-28",
+     "fark": -400
+    }
+   ]
+  },
+  {
+   "gun": "1918-12-01",
+   "nokta": 39,
+   "kimlik": "gurcistan-demokratik-cumhuriyeti",
+   "kunye_gunu": [
+    {
+     "uc": "f",
+     "gun": "1918-05-26",
+     "fark": -189
+    }
+   ]
+  },
+  {
+   "gun": "1644-04-25",
+   "nokta": 37,
+   "kimlik": "dashun",
+   "kunye_gunu": [
+    {
+     "uc": "f",
+     "gun": "1644-01-01",
+     "fark": -115
+    }
+   ]
+  },
+  {
+   "gun": "1574-08-25",
+   "nokta": 34,
+   "kimlik": "hafsi",
+   "kunye_gunu": [
+    {
+     "uc": "t",
+     "gun": "1574-09-13",
+     "fark": 19
+    }
+   ]
+  },
+  {
+   "gun": "1516-08-24",
+   "nokta": 31,
+   "kimlik": "memluk",
+   "kunye_gunu": [
+    {
+     "uc": "t",
+     "gun": "1517-04-13",
+     "fark": 232
+    }
+   ]
+  },
+  {
+   "gun": "1468-04-01",
+   "nokta": 30,
+   "kimlik": "karakoyunlu",
+   "kunye_gunu": [
+    {
+     "uc": "t",
+     "gun": "1469-01-01",
+     "fark": 275
+    }
+   ]
+  },
+  {
+   "gun": "1368-09-14",
+   "nokta": 28,
+   "kimlik": "ming-hanedani",
+   "kunye_gunu": [
+    {
+     "uc": "f",
+     "gun": "1368-01-23",
+     "fark": -235
+    }
+   ]
+  },
+  {
+   "gun": "1368-04-01",
+   "nokta": 27,
+   "kimlik": "yuan-hanedani",
+   "kunye_gunu": [
+    {
+     "uc": "t",
+     "gun": "1368-09-14",
+     "fark": 166
+    }
+   ]
+  },
+  {
+   "gun": "1368-04-01",
+   "nokta": 27,
+   "kimlik": "ming-hanedani",
+   "kunye_gunu": [
+    {
+     "uc": "f",
+     "gun": "1368-01-23",
+     "fark": -69
+    }
+   ]
+  },
+  {
+   "gun": "1917-12-06",
+   "nokta": 21,
+   "kimlik": "sovyet-rusya",
+   "kunye_gunu": [
+    {
+     "uc": "f",
+     "gun": "1917-11-07",
+     "fark": -29
+    }
+   ]
+  },
+  {
+   "gun": "1368-01-23",
+   "nokta": 20,
+   "kimlik": "yuan-hanedani",
+   "kunye_gunu": [
+    {
+     "uc": "t",
+     "gun": "1368-09-14",
+     "fark": 235
+    }
+   ]
+  },
+  {
+   "gun": "1347-08-03",
+   "nokta": 19,
+   "kimlik": "behmeni",
+   "kunye_gunu": [
+    {
+     "uc": "f",
+     "gun": "1347-01-01",
+     "fark": -214
+    }
+   ]
+  },
+  {
+   "gun": "1752-04-23",
+   "nokta": 19,
+   "kimlik": "konbaung",
+   "kunye_gunu": [
+    {
+     "uc": "f",
+     "gun": "1752-01-01",
+     "fark": -113
+    }
+   ]
+  },
+  {
+   "gun": "1336-11-07",
+   "nokta": 17,
+   "kimlik": "muromachi",
+   "kunye_gunu": [
+    {
+     "uc": "f",
+     "gun": "1336-01-01",
+     "fark": -311
+    }
+   ]
+  },
+  {
+   "gun": "1475-06-06",
+   "nokta": 15,
+   "kimlik": "teodoro",
+   "kunye_gunu": [
+    {
+     "uc": "t",
+     "gun": "1475-12-01",
+     "fark": 178
+    }
+   ]
+  },
+  {
+   "gun": "1916-05-23",
+   "nokta": 14,
+   "kimlik": "darfur",
+   "kunye_gunu": [
+    {
+     "uc": "t",
+     "gun": "1916-11-06",
+     "fark": 167
+    }
+   ]
+  },
+  {
+   "gun": "1821-01-04",
+   "nokta": 12,
+   "kimlik": "funj",
+   "kunye_gunu": [
+    {
+     "uc": "t",
+     "gun": "1821-06-14",
+     "fark": 161
+    }
+   ]
+  },
+  {
+   "gun": "1911-12-29",
+   "nokta": 12,
+   "kimlik": "qing-hanedani",
+   "kunye_gunu": [
+    {
+     "uc": "t",
+     "gun": "1912-02-12",
+     "fark": 45
+    }
+   ]
+  },
+  {
+   "gun": "1428-01-03",
+   "nokta": 12,
+   "kimlik": "le-hanedani",
+   "kunye_gunu": [
+    {
+     "uc": "f",
+     "gun": "1428-01-01",
+     "fark": -2
+    }
+   ]
+  },
+  {
+   "gun": "1802-06-01",
+   "nokta": 12,
+   "kimlik": "tay-son",
+   "kunye_gunu": [
+    {
+     "uc": "t",
+     "gun": "1802-06-20",
+     "fark": 19
+    }
+   ]
+  },
+  {
+   "gun": "1698-12-13",
+   "nokta": 11,
+   "kimlik": "umman-zengibar",
+   "kunye_gunu": [
+    {
+     "uc": "f",
+     "gun": "1698-01-01",
+     "fark": -346
+    }
+   ]
+  },
+  {
+   "gun": "1885-11-28",
+   "nokta": 10,
+   "kimlik": "konbaung",
+   "kunye_gunu": [
+    {
+     "uc": "t",
+     "gun": "1885-11-29",
+     "fark": 1
+    }
+   ]
+  },
+  {
+   "gun": "1802-06-20",
+   "nokta": 10,
+   "kimlik": "nguyen-hanedani",
+   "kunye_gunu": [
+    {
+     "uc": "f",
+     "gun": "1802-06-01",
+     "fark": -19
+    }
+   ]
+  },
+  {
+   "gun": "1310-08-15",
+   "nokta": 9,
+   "kimlik": "sovalye",
+   "kunye_gunu": [
+    {
+     "uc": "f",
+     "gun": "1310-01-01",
+     "fark": -226
+    }
+   ]
+  },
+  {
+   "gun": "1644-06-06",
+   "nokta": 9,
+   "kimlik": "dashun",
+   "kunye_gunu": [
+    {
+     "uc": "f",
+     "gun": "1644-01-01",
+     "fark": -157
+    }
+   ]
+  }
+ ],
+ "_TEKRARLAYAN_KIMLIKLER": {
+  "_not": "Aynı kimlik defalarca çıkıyorsa kusur GÜNDE değil KÜNYEDEDİR — tek bir künye düzeltmesi çok günü birden kapatır.",
+  "en_cok": [
+   {
+    "kimlik": "ispanyol-peru",
+    "gun_sayisi": 12
+   },
+   {
+    "kimlik": "macaristan",
+    "gun_sayisi": 9
+   },
+   {
+    "kimlik": "iran",
+    "gun_sayisi": 3
+   },
+   {
+    "kimlik": "sirbistan",
+    "gun_sayisi": 3
+   },
+   {
+    "kimlik": "yeni-ispanya",
+    "gun_sayisi": 3
+   },
+   {
+    "kimlik": "avusturya",
+    "gun_sayisi": 2
+   },
+   {
+    "kimlik": "umman",
+    "gun_sayisi": 2
+   },
+   {
+    "kimlik": "lehistan",
+    "gun_sayisi": 2
+   },
+   {
+    "kimlik": "sih-imparatorlugu",
+    "gun_sayisi": 2
+   },
+   {
+    "kimlik": "maratha",
+    "gun_sayisi": 2
+   },
+   {
+    "kimlik": "babur-imparatorlugu",
+    "gun_sayisi": 2
+   },
+   {
+    "kimlik": "bengal-nevabligi",
+    "gun_sayisi": 2
+   }
+  ]
+ }
+}

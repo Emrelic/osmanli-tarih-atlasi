@@ -47,19 +47,23 @@ for kim, (adlar, gun, kay) in SINIF.items():
             atlanan.append((ad, "ATLASTA YOK"))
             continue
         s = [dict(q) for q in (z.get("s") or [])]
-        hedef = [q for q in s if q.get("d") == "ingiltere"
-                 and q.get("f", "") <= gun < q.get("t", "")]
-        if len(hedef) != 1:
-            # Sudan'da gün == dönemin BAŞLANGICI ⇒ bölme değil ÇEVİRME
-            hedef = [q for q in s if q.get("d") == "ingiltere"
-                     and q.get("f") == gun]
-            if len(hedef) != 1:
-                atlanan.append((ad, "🔴 hedef dönem %d" % len(hedef)))
-                continue
-            q = hedef[0]
+        # 🔴 SIRA ÖNEMLİ — ÇEVİRME ÖNCE SORULUR.
+        #   İlk yazımda BÖLME dalını önce koydum ve `Abrî`/`Delgo` için
+        #   SIFIR UZUNLUKTA dönem ürettim (`1899-01-19→1899-01-19`) —
+        #   `§8`in adıyla yasakladığı Tebriz vakası. Gün dönemin
+        #   BAŞLANGICINA eşitse bölünecek bir şey YOK, kimlik DEĞİŞİR.
+        tam = [q for q in s if q.get("d") == "ingiltere"
+               and q.get("f") == gun]
+        if len(tam) == 1:
+            q = tam[0]
             yeni = [dict(x) if x is not q else
                     dict(x, d=kim, kaynak=kay) for x in s]
         else:
+            hedef = [q for q in s if q.get("d") == "ingiltere"
+                     and q.get("f", "") < gun < q.get("t", "")]
+            if len(hedef) != 1:
+                atlanan.append((ad, "🔴 hedef dönem %d" % len(hedef)))
+                continue
             q = hedef[0]
             yeni = []
             for x in s:

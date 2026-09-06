@@ -126,11 +126,6 @@ window.YER_YAMA_ORTADOGU_MISIR_1923 = [
    },
    {
     "f": "1899-01-19",
-    "t": "1899-01-19",
-    "d": "ingiltere"
-   },
-   {
-    "f": "1899-01-19",
     "t": "1923-10-29",
     "d": "ingiliz-sudani",
     "kaynak": "künye `ingiliz-sudani` f:1899-01-19 — kaydın kendi günü künyenin AÇILIŞ günüyle BİREBİR aynı (Anglo-Mısır Kondominyumu). 🟡 Kimlik düzeltmesi bu eşleşmeye dayanıyor; TDV'ye AYRICA sorulmadı (damga: okumadım)."
@@ -154,11 +149,6 @@ window.YER_YAMA_ORTADOGU_MISIR_1923 = [
     "f": "1885-01-26",
     "t": "1899-01-19",
     "d": "mehdi"
-   },
-   {
-    "f": "1899-01-19",
-    "t": "1899-01-19",
-    "d": "ingiltere"
    },
    {
     "f": "1899-01-19",

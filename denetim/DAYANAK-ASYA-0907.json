@@ -210,6 +210,65 @@
       }
     },
     {
+      "gun": "1919-11-22",
+      "nokta": 12,
+      "donem_ucu": 12,
+      "_DEVIR": "⑲'dan takasla geldi (karşılığında `1603-03-30` ⑲'a gitti). Defter sahibini DOGU-GD-ASYA gösteriyor; olay Kyakhta-Urga hattında ve Rus iç savaşıyla iç içe.",
+      "yerlesim": ["Urga (Ulan Batur)", "Karakurum", "Uliastay", "Kerulen (Çoybalsan)", "Dariganga", "Gobi-Altay (Yösönbulag)", "Halhın Gol (Buir Nur)", "Mörön (Hövsgöl)", "Ömnögovi (Dalanzadgad)", "Öndörhaan (Hentiy)", "+2"],
+      "kimlik": ["mogolistan (t:)", "cin-cumhuriyeti (f:)"],
+      "damga": "DOGRULANDI_SAYFA_CEKILEMEDI",
+      "takvim": "Gregoryen. Çin Cumhuriyeti 1 Ocak 1912'de Gregoryen'e geçti ⇒ 1919 tarihleri zaten Gregoryen'dir, çevrim sorusu YOK. (Bu, kovadaki Çin günlerinden AYRILDIĞI noktadır — aşağıdaki `_TAKVIM_V3_CIN_EKSENI` bloğuna bak.)",
+      "kaynak": {
+        "ad": "Howard L. Boorman & Richard C. Howard (ed.), «Biographical Dictionary of Republican China», Columbia University Press — «Xu Shuzheng» maddesi; ENP-China (X-Boorman) tarafından dijitalleştirilmiş",
+        "url": "https://xboorman.enpchina.eu/biographie/xu-shuzheng/",
+        "alinti": "On 22 November 1919 Hsü Shih-ch'ang proclaimed the end of Outer Mongolian autonomy.",
+        "_PROVENANS_UYARISI": "🔴 DÜRÜSTLÜK KAYDI: bu cümle bana ARAMA SONUCU ÖZETİNDEN geldi; sayfanın KENDİSİNİ ÇEKEMEDİM (ECONNREFUSED 134.158.33.190:443) ⇒ `ölçülemedi`. Yani kaynağın KİMLİĞİ (Boorman/Columbia UP, Wade-Giles «Hsü Shih-ch'ang» yazımı akademik neşrin imzasıdır) güçlü, ama alıntıyı KENDİ GÖZÜMLE gövdede görmedim. Damga bu yüzden düz `DOGRULANDI` değil.",
+        "_OLAY": "Çin Cumhurbaşkanı Xu Shichang'ın Dış Moğolistan özerkliğini kaldıran kararnamesi. Öncesinde Xu Shuzheng'in Kuzeybatı Sınır Savunma Ordusu Ekim 1919'da Urga'yı işgal etmişti."
+      },
+      "_TDV": {
+        "slug": "mogolistan",
+        "govde_karakter": 22710,
+        "govde_kesildi_mi": false,
+        "alinti": "Ekim 1918'de bölgeye ulaşan bir Çin ordusu 1919'da Urga'yı (bugünkü Ulan Batur) ele geçirip özerkliğe son verdi ve bölgede Çin hâkimiyetini yeniden kurdu.",
+        "_HASSASIYET": "YIL. Olay ve yön DOĞRULANDI, GÜN yok ⇒ §4 TANECİKLİK boşluğu, akademik kanal meşru.",
+        "_OLU_KAPILAR": "`urga` · `ulan-bator` · `halha` · `bogd-han` · `cin-cumhuriyeti` · `kalka` → 302. `mogollar` canlı ama 1919'u anmıyor."
+      },
+      "kunye_capraz": {
+        "mogolistan": "1911-12-29 → 1923-10-29 — dönem künyenin İÇİNDE 🟢",
+        "cin-cumhuriyeti": "1911-10-10 → 1923-10-29 — dönem künyenin İÇİNDE 🟢",
+        "_DENETIM": "4c 0 · 4d 0 · ihlal 0 · künyesiz 0 — TEMİZ."
+      },
+      "_KOVAMIN_DISINDA_NOT": "🟡 TDV özerkliğin ilânını **18 Kasım 1911**'e koyuyor; atlasın `mogolistan` künyesi **1911-12-29**'da açılıyor (Bogd Han'ın tahta çıkışı). İkisi AYRI OLAY, çelişki DEĞİL — ama künyenin hangisini seçtiği yazılı değil. Benim günüm değil, sahibine."
+    },
+    {
+      "gun": "1921-07-11",
+      "nokta": 12,
+      "donem_ucu": 12,
+      "_DEVIR": "⑲'dan takasla geldi.",
+      "yerlesim": "1919-11-22 ile AYNI 12 yerleşim — aynı kayıtların ardışık iki dönemi",
+      "kimlik": ["cin-cumhuriyeti (t:)", "mogolistan (f:)"],
+      "damga": "DOGRULANDI",
+      "takvim": "Gregoryen — Çin de Rusya da (Şubat 1918) Gregoryen'e geçmişti. Çevrim sorusu YOK.",
+      "kaynak": {
+        "ad": "Encyclopaedia Britannica, «Mongolia — Independence and revolution»",
+        "url": "https://www.britannica.com/place/Mongolia/Independence-and-revolution",
+        "alinti": "A 'people's government' of Mongolia was appointed with Bodoo as prime minister, and July 11 subsequently was celebrated as the anniversary of its establishment.",
+        "_PROVENANS_UYARISI": "🔴 Sayfa ÇEKİLEMEDİ (HTTP 403, Britannica bu turda dördüncü kez) ⇒ `ölçülemedi`. §11'in 4 Eylül dersi gereği «Quick Summary / YZ üretimi» damgası KONTROL EDİLEMEDİ. Alıntı arama sonucundan geldi. ⚠️ Bu bir yer maddesinin alt bölümüdür (`/place/Mongolia/…`), yani klasik imzalı madde biçimindedir — ama bunu DOĞRULAYAMADIM.",
+        "_IKINCI_AYAK": "Gün bağımsız olarak Moğolistan'ın **Millî Günü** (Naadam'ın ilk günü) olarak sabittir — bu bir devlet takvimi olgusudur ve tek bir yayına bağlı değildir."
+      },
+      "_TDV_AYRISTIRMASI": {
+        "_GOZLEM": "🟡 TDV `mogolistan` şunu diyor: «Haziran 1921 tarihinde Kızılordu Moğolistan'a girdi. **6 Temmuz'da** Kızılordu'nun da yardımıyla işgalci Beyaz Rus ordusu Urga'dan çıkarıldı.» Atlas: **11 Temmuz**. Fark 5 gün.",
+        "_HUKUM": "🟢 ÇELİŞKİ DEĞİL — İKİ AYRI OLAY. §4'ün «önce ayrıştır, sonra çelişki ilan et» önkoşulu uygulandı:",
+        "_AYRIM": "6 Temmuz = Urga'nın ASKERÎ olarak alınması (TDV'nin anlattığı). 11 Temmuz = HALK HÜKÛMETİNİN kurulması ve Bogd Han'ın meşrutî hükümdar olarak yeniden tahta oturtulması. Biri bir muharebe, öteki bir hükûmet kuruluşu.",
+        "_NIÇIN_KAYDEDILIYOR": "🔴 Bu satır olmadan bir sonraki oturum TDV'yi (birincil kaynak) görüp `1921-07-11`i `1921-07-06`ya «düzeltebilir» — ve atlas SAHİPLİK değişimini boyadığına göre doğru gün hükûmetin kurulduğu gündür. §11: «bir ihlali kapatan reçete gerçeği silebilir.» VOLGA kolundaki Kazan vakasının aynı ailesi, farklı ekseni: orada kaynak YANLIŞ ÇEVİRMİŞTİ, burada kaynak BAŞKA BİR OLAYI anlatıyor."
+      },
+      "kunye_capraz": {
+        "mogolistan": "1911-12-29 → 1923-10-29 — 🟢 İÇİNDE",
+        "cin-cumhuriyeti": "1911-10-10 → 1923-10-29 — 🟢 İÇİNDE",
+        "_DENETIM": "4c 0 · 4d 0 · ihlal 0 · künyesiz 0 — TEMİZ."
+      }
+    },
+    {
       "gun": "1603-03-30",
       "nokta": 6,
       "yerlesim": ["Athlone", "Belfast", "Derry", "Donegal", "Sligo", "Tralee"],
