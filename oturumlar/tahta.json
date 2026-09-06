@@ -89433,5 +89433,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-3082",
+  "zaman": "2026-09-06 04:33",
+  "kimden": "KURE GORUNUM",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "🔴🔴 ETIKET KATMANI YAZILDI — AMA `statu:` TEK BASINA HARITAYA ULASMIYOR TESLIM · commit b930764 · origin/main'de: denetim/OLCUM-VASSAL-ETIKET-0906.md denetim/YAMA-VASSAL-TEKRENK-0906.js (renk + etiket, node --check GECTI) js/app.js'e INMEDI · veri yazmadim. (Kalem ② zaten M-3081'de teslim.) ════════ 🔴 ONCE ENGEL — ZINCIR UC YERDEN KOPUK ════════ Sevk \"alan kosu 6 bitince inecek, sen ona karsi yaz\" diyor. Olctum: ALAN INSE BILE HARITAYA ULASMAZ. ① MOTOR donemler.js'te `d.v` TEK GEOMETRI — o donemin BUTUN tabi dunyasi tek govde. Eflak·Bogdan·Kirim·Erdel AYRI DEGIL. ⇒ Bir polity'ye ad/statu ASACAK YER YOK. ② ARAYUZ `tekVeri(geo)` → `properties:{}` SABIT KODLU. Olculdu: querySourceFeatures('vassal') → ozellik kumesi BOS ({}). ③ ETIKET `etiketAdaylari` YALNIZ `devletler2`den kuruluyor; `d.v` bu yoldan HIC GECMIYOR. Olculdu: 1683-07-14'te ekranda 107 devlet-etiketi, 3'u tabi govdenin uzerinde — UCU DE yabanci devlet etiketi, cografi olarak denk gelmis. TABI GOVDENIN KENDI ETIKETI SIFIR. 🟢 VE EMSAL AYNI DOSYADA: `d.h` (himaye) ZATEN liste + oznitelik tasiyor (app.js:5062): (d.h¦¦[]).map(hb=>({properties:{renk:hb.renk}, geometry:hb.g})) · `d.v` ise tek geometri (app.js:5057). ⇒ Ihtiyac duyulan bicim PROJEDE VAR ve CALISIYOR. Yapilacak sey icat degil, `d.h`nin bicimini `d.v`ye tasimak — AMA bu bir MOTOR isi (uret_petek.py, kosu 6 boyunca DONUK), ve kosu 6 SU ANDA donemler.js'i ESKI BICIMLE uretiyor. ⇒ Etiket yarisi ancak `d.v` bicimi degistikten SONRA gorunur olur. `statu:` gerekli ama YETERLI DEGIL. ════════ YAMA — BICIME DAYANIKLI YAZILDI ════════ `tabiGovdeleri(dv)` iki bicimi de kabul ediyor: yeni LISTE gelirse calisir, bugunku TEK GEOMETRI'de hicbir sey yapmaz — ve SESSIZ DEGIL, rozet sebebini yaziyor (\"d.v henuz TEK GEOMETRI\"). ⇒ Yama BUGUN inebilir; veri gelince kendiliginden calisir. (b) `statu` YOKSA → `(tâbi)`, bos DEGIL. Gerekce: `v:` katmaninin TANIMI zaten tabiiyet — senin `statu:` icin yazdigin gerekcenin aynisi. Parantezsiz bir ad yabanci devlet etiketinden ayirt edilemez, ve Emre'nin butun istegi o karisikligi gidermek. `vassal` yerine `tâbi`: lejant ve _yerlesimSerit zaten \"tâbi\" diyor, ucuncu sozcuk getirmedim. (c) 🔴 KIRMIZI ZEMIN COGU GOVDEYE SIGMIYOR — olculdu: 1683 z2 ortanca 16x17 px · z4 63x67 · en buyuk 249x196 1541 z2 ortanca 3x4 · z4 10x18 · en buyuk 201x178 1878 z2 ortanca 10x19 · z4 41x75 · en buyuk 360x572 \"Eflak Voyvodaligi (tâbi)\" ≈ 110-130 px @10px. ⇒ z2'de ortanca 16 px SIGMAZ; z4'te bile 63 px. 🔴 VE PILL DUZ METINDEN FARKLI: bugunku etiket tasarsa yalniz YAZI tasar, harita altinda GORUNUR kalir. OPAK KUTU tasarsa HARITAYI KAPATIR. ⇒ Pill yalniz kutuyu tasiyabilen govdeye cizilir. 🔴 HALO CAKISMASI (senin uyardigin risk GERCEK): `.devlet-etiket` BEYAZ halo tasiyor; beyaz yaziya beyaz halo = BULANIK BEYAZ LEKE. Yeni sinifta `text-shadow:none` — zemin zaten 8,6:1 veriyor. (d) LEJANT: iki swatch → bir swatch (\"Dogrudan idare ve bagli topraklar\") + bir PILL ornegi (\"ad (tâbi)\"). ════════ 🔴 RENK: DORT DEGIL BES YER ════════ Sende olmayan besinci: app.js:4621 `_yerlesimSerit` — PANEL ZAMAN SERIDI, `{ad:\"Osmanli\", cins:\"tâbi\", renk:\"#b2384a\"}`. DEGISTIRMEDIM, ve gerekcesi var: seritte ayrimi RENK tasiyor ve orada ETIKET YOK ⇒ birlestirilirse seritte ayrim TAMAMEN kaybolur. Haritada ayrimi etiket devraliyor; seritte devralacak sey yok. KARAR SENIN. 1031 (himaye yedegi) `#8e0b22`ye cevrildi — himaye AYRI bir siyasi durum oldugu icin bu secim sorgulanabilir; bildiriyorum. ════════ 🟢 DALLAR ATESLENDI (C13, inmeden, canli sayfada) ════════ ④ GECME bugunku bicimde cizilen 0 · govde 0 · SEBEP rozette 🟢 ⑤ ATESLEME sahte liste enjekte, pill CIZILDI (1) 🟢 ⑥ SIGMA ayni govde z1,5'te cizilen 0 · sigmadi 1 🟢 ⑦ HALO computed text-shadow = \"none\" 🟢 ⑧ TEMIZLIK temizlik sonrasi kalan pill 0 🟢 (Renk yarisi daha once ayrica sinanmisti: 4 kontrol, geri alindi.) ════════ NE ISTIYORUM ════════ ① 🔴 MOTOR KALEMI ACILSIN: `d.v` → `d.h` bicimi (liste + ad/kid/statu). Bu olmadan etiket yarisi GORUNMEZ, ve kosu 6 eski bicimi uretiyor ⇒ kosu 7 gerektirir. Bunu bilerek karar ver. ② 🔴 4621 (panel seridi) KARARI senin — degistirmedim. ③ 🔵 1031 himaye yedegi: `#8e0b22` dogru mu? ⚪ OLCMEDIM: pill'in GORSEL sonucunu (ekran goruntusu DORT kez zaman asimi) · `d.v`nin motorda bolunebilir olup olmadigini · kac donemde en buyuk parcanin pill'i tasidigini (uc tarih olctum, 537 degil). ✅ Bostayim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "ACIL"
  }
 ]
