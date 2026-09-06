@@ -76,6 +76,40 @@
 //     ay hassasiyetinin ayın 1'ine genişlemesi tuzağı BURADA YOK.
 //     Her birinin gerekçesi kendi kaynak dosyasında yazılı.
 //
+// ═══════════ 🔴 HEDEF KAYDI — hangi madde HANGİ DOSYAYI hedefliyordu ═══
+// Koordinatör hükmü (7 Eylül): **hepsi `ek23`e.** Gerekçe: `Değişmez 2`
+// dosya adına BAKMIYOR, `data/olaylar*.js` glob'una bakıyor; `ok109`
+// hükmü bir YERLEŞTİRME TERCİHİYDİ, bir invariant gereği DEĞİL. Tek dosya
+// = tek merge = tek çakışma yüzeyi.
+// 🔴 Şart: düşen hüküm KAYITSIZ bırakılmaz — orijinal hedefler burada:
+//
+//   KRONOLOJI-ISG-FAZ2-cukurova.js         17 madde  →  data/olaylar_ek23.js  (ZATEN ek23 — dosyanın kendi başlığı)
+//   KRONOLOJI-YUNANANAKARA-0905.json        3 madde  →  🔴 BEYAN YOK
+//   KRONOLOJI-1917-TASIMA-0906.json         3 madde  →  data/olaylar_ok109.js  (koordinatör hükmü, 7 Eylül — bu dosyada DÜŞÜRÜLDÜ)
+//   KRONOLOJI-MANDA-0906.json               3 madde  →  🔴 BEYAN YOK
+//   KRONOLOJI-ARNAVUTLUK-0905.json          2 madde  →  🔴 BEYAN YOK
+//   KRONOLOJI-AVRUPA-0906.json              2 madde  →  data/olaylar*.js  (dosya adı BELİRTİLMEMİŞ)
+//   KRONOLOJI-BALKAN-0906.json              2 madde  →  data/olaylar_ek6.js  (metinden — MEVCUT madde düzeltmesi için)
+//   KRONOLOJI-SISAM-0905.json               1 madde  →  🔴 BEYAN YOK
+//   KRONOLOJI-AGADEZ-1906-0906.json         1 madde  →  data/olaylar_ek22.js  (Oturum 0'ın dosyası)
+//   KRONOLOJI-AFRIKA-0906.json              1 madde  →  data/olaylar_ek9.js  (o oturumun önerisi)
+//   KRONOLOJI-ORTADOGU-URDUN-0907.json      1 madde  →  data/olaylar_ek23.js  (ZATEN ek23)
+//
+// 🟢 VE İKİ UYARI KENDİ ÖLÇÜMÜME KARŞI SINANDI (koordinatör, 7 Eylül):
+//   ① EVREN: yalnız `data/olaylar*.js` (34 dosya). `kronoloji*.js`in
+//     42 dosyası evrene GİRMEDİ — bir madde kuyrukta varsa çekirdek
+//     için hâlâ YENİDİR.
+//   ② `t: "` BOŞLUKLU BİÇİM: veri `node`a okutuldu (`girdi._cevir`),
+//     regex YAZILMADI. Ölçüldü — boşluksuz bir regex kaç madde
+//     kaçırırdı:
+//        girdi._cevir (node)     1317 madde
+//        boşluksuz regex sayımı  1284 madde   ⇒ FARK 33
+//     🔴 Ve fark KRİTİKTİ: `olaylar_ek22.js`te `t: "` 1 · `t:"` 0 —
+//       yani o dosyadaki TEK madde ancak node ile okunabiliyordu.
+//       **O madde Zend maddesiydi.** Regex kullansaydım mükerreri
+//       göremez ve `1794-01-01`i ikinci kez yazardım.
+//       (`olaylar_ok109.js`: `t: "` 11 · `t:"` 0 — regex 0 okurdu.)
+//
 // ═══════════ 🔴 TAŞIMA: KUYRUKTAN SİLİNMESİ GEREKENLER ═══════════
 // `KRONOLOJI-1917-TASIMA-0906.json`un üç maddesi `data/kronoloji_rusya.js`te
 // HÂLÂ DURUYOR. İkisi de `index.html`de yüklü ⇒ **kopyalanırsa madde

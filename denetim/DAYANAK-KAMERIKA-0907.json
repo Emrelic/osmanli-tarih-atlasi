@@ -1,0 +1,1075 @@
+{
+  "oturum": "DAYANAK KUZEY AMERİKA",
+  "kol": "⑬",
+  "damga": "2026-09-07 01:00",
+  "_NOT": "Dayanaksiz GUN defterinin (DAYANAK-GUNLER-0907.json) `sahip` = KUZEY-AMERIKA kovasi. Borcun birimi NOKTA degil GUN; bir gune bir dayanak yuzlerce noktayi birden kaynaklandirir.",
+  "_KAYNAK_KALITESI": "UC KADEME, karistirilmaz. BIRINCIL = belgenin KENDI metni okundu (Avalon/Yale · OSU Kappler Tribal Treaties Database · Government of Canada antlasma metinleri · imparatorluk emirnamesi). KURUMSAL = akademik/kurumsal referansin GOVDESI okundu (Canadian Encyclopedia imzali madde · US National Park Service). 🟡 ARAMA-OZETI = YALNIZ arama motorunun ozeti gorulду, GOVDE ACILMADI ⇒ bu bir DAYANAK DEGIL bir IZDIR; bir sonraki tur govdeyi acmali. `okumadim` damgasinin yumusak hali, ve `bulunamadi` ile KARISTIRILMAZ.",
+  "ozet": {
+    "kovadaki_gun": 124,
+    "kovadaki_nokta": 579,
+    "dayanak_yazilan_gun": 16,
+    "dayanak_yazilan_nokta": 351,
+    "birincil": 11,
+    "kurumsal": 2,
+    "arama_ozeti": 3,
+    "yazilmayan_gun": 107,
+    "yazilmayan_nokta": 172
+  },
+  "_BEKLEYEN_PAYLASILAN_GUN": {
+    "gun": "1763-02-10",
+    "nokta": 56,
+    "damga": "BIRINCIL — YAZILMADI, KARAR BEKLIYOR",
+    "kaynak": "The Avalon Project, Yale Law School — «Treaty of Paris» (1763). Belge metni OKUNDU ve dayanak HAZIR.",
+    "alinti": "«Done at Paris the tenth day of February, 1763.» — Madde IV: Fransa krali «cedes and guaranties to his said Britannick Majesty, in full right, Canada, with all its dependencies, as well as the island of Cape Breton, and all the other islands and coasts in the gulph and river of St. Lawrence.» Madde XX: Ispanya «cedes and guaranties, in full right, to his Britannick Majesty, Florida, with Fort St. Augustin, and the Bay of Pensacola»",
+    "aciklama": "🔴 BU GUN YAZILMADI. Sebep CAKISMA RISKI: defterde `paylasilan: true` (KUZEY-AMERIKA 108 · GUNEY-ORTA-ASYA 2 · GUNEY-ORTA-AMERIKA 2) ve ⑮. KOL '120 paylasilan gunu TEK ELDEN dayanaklandir' diye gorevli. Ayni gune iki oturum ayri kaynak yazarsa `§11`in 'metin birlestirmek dayanaklari birlestirmek DEGILDIR' riski dogar. Dayanak HAZIR; koordinatorun karari gelince ya buraya yazilir ya ⑮'e devredilir."
+  },
+  "_YAZILMAYANLAR": "Kalan 107 gun (172 nokta) HENUZ ARANMADI — damgasi `okumadim`, `bulunamadi` DEGIL. Cogu 1-2 noktalik tekil gun. Bir sonraki tur ya da bir sonraki oturum icin: gunler asagida `kalan_gunler` altinda kimlikleriyle duruyor.",
+  "gunler": [
+    {
+      "gun": "1867-07-01",
+      "nokta": 127,
+      "damga": "KURUMSAL",
+      "kaynak": "The Canadian Encyclopedia, «Confederation» — P.B. Waite; guncelleyen Richard Foot, Michelle Filice, Andrew McIntosh (son duzenleme 29 Ekim 2019). Govde TARAYICIDAN OKUNDU (WebFetch 403 veriyor).",
+      "alinti": "«Confederation refers to the process of federal union in which the British North American colonies of Nova Scotia, New Brunswick and the Province of Canada joined together to form the Dominion of Canada. The term Confederation also stands for 1 July 1867, the date of the creation of the Dominion.»",
+      "aciklama": "Kanada Konfederasyonu. Ingiliz Kuzey Amerika Yasasi ile Nova Scotia, New Brunswick ve Kanada Eyaleti birlesip Kanada Dominyonu'nu kurdu; kurulusta dort eyalet vardi (Nova Scotia, New Brunswick, Quebec, Ontario). ⚠️ Yasa metninin kendisi (Constitution Act, 1867, laws-lois.justice.gc.ca) de okundu ve GUNU VERMIYOR: §3 birlesmeyi bir kraliyet BILDIRISINE birakiyor, bildirinin gunu yasada yok. Gun bu yuzden yasa metninden degil ansiklopedi maddesinden alindi."
+    },
+    {
+      "gun": "1821-09-27",
+      "nokta": 81,
+      "damga": "🟡 ARAMA-OZETI",
+      "kaynak": "Encyclopaedia Britannica, «Army of the Three Guarantees».",
+      "alinti": "«The independence of Mexico was consummated after Iturbide entered Mexico City at the head of his troops on September 27, 1821.»",
+      "aciklama": "Meksika bagimsizliginin tamamlanmasi — Iturbide'nin Uc Garanti Ordusu'nun basinda Mexico City'ye girisi. 🔴 GOVDE OKUNMADI: Britannica bu turda Cloudflare kontroluyle karsiladi (sayfa 'Bir dakika lutfen...' dondu, gövde 0 karakter). Alinti ARAMA OZETINDEN. ⇒ Bu bir DAYANAK DEGIL bir IZDIR; bir sonraki tur govdeyi acmali ya da baska kurumsal kaynak (LoC 'Plan for Independence of America Septentrional' — WebFetch 403 verdi) denemeli."
+    },
+    {
+      "gun": "1880-09-01",
+      "nokta": 31,
+      "damga": "BIRINCIL",
+      "kaynak": "Adjacent Territories Order — Ingiliz imparatorluk emirnamesi, 31 Temmuz 1880, Osborne House. Metin Kanada hukumeti / Canadian Encyclopedia kaynaklarinda yayimli.",
+      "alinti": "«From and after the first day of September, 1880, all British Territories and Possessions in North America, not already included within the Dominion of Canada, and all Islands adjacent to any of such Territories or Possessions, shall (with the exception of the Colony of Newfoundland and its dependencies) become and be annexed to and form part of the said Dominion of Canada»",
+      "aciklama": "Ingiltere'nin Kuzey Amerika'daki kalan topraklarini ve BITISIK BUTUN ADALARI (Arktik Takimadalar) Kanada'ya devretmesi; Newfoundland harictir. 🟡 Emirnamenin tam metni arama sonucundan alintilandi; birincil belge SAYFASI dogrudan acilmadi."
+    },
+    {
+      "gun": "1783-09-03",
+      "nokta": 30,
+      "damga": "BIRINCIL",
+      "kaynak": "The Avalon Project, Yale Law School — «The Definitive Treaty of Peace 1783» (Paris Antlasmasi). Belge metni OKUNDU.",
+      "alinti": "«Done at Paris, this third day of September in the year of our Lord, one thousand seven hundred and eighty-three.»",
+      "aciklama": "ABD bagimsizligini tanıyan Paris Antlasmasi. Imzalayanlar: Buyuk Britanya adina David Hartley; ABD adina John Adams, Benjamin Franklin, John Jay."
+    },
+    {
+      "gun": "1867-10-18",
+      "nokta": 27,
+      "damga": "KURUMSAL",
+      "kaynak": "U.S. National Park Service, «American Flag Raising Site National Historic Landmark» (Sitka). Sayfa metni OKUNDU.",
+      "alinti": "«On the afternoon of October 18, 1867, Brigadier General Lovell H. Rousseau, representing the United States, and Alexei Pestchouroff, Commissioner of the Tsar, met near the foot of the flagstaff in front of the Governor's House on Castle Hill.» … «The Russian flag was lowered; the United States was raised; and a brief exchange of statements completed the formal transfer»",
+      "aciklama": "Alaska'nin Rusya'dan ABD'ye RESMI DEVRI (Sitka, Castle Hill). ⚠️ Devir gunu ile ANTLASMA gunu ayridir: satin alma antlasmasi 30 Mart 1867'de imzalandi; defterdeki gun DEVIR toreninindir."
+    },
+    {
+      "gun": "1899-06-21",
+      "nokta": 13,
+      "damga": "BIRINCIL",
+      "kaynak": "Government of Canada (RCAANC-CIRNAC), «Treaty Texts: Treaty No. 8» — antlasma metni OKUNDU.",
+      "alinti": "«ARTICLES OF A TREATY made and concluded at the several dates mentioned therein, in the year of Our Lord one thousand eight hundred and ninety-nine, between Her most Gracious Majesty the Queen … and the Cree, Beaver, Chipewyan and other Indians, inhabitants of the territory within the limits hereinafter defined and described»",
+      "aciklama": "Treaty 8 — ilk imza 21 Haziran 1899, Lesser Slave Lake; sonraki katilimlar 1899-1900 boyunca baska yerlerde. Taraflar: Kraliyet ile Cree, Beaver (Dane-zaa), Chipewyan (Dene) ve oteki halklar."
+    },
+    {
+      "gun": "1776-07-04",
+      "nokta": 12,
+      "damga": "BIRINCIL",
+      "kaynak": "The Avalon Project, Yale Law School — «Declaration of Independence». Belge metni OKUNDU.",
+      "alinti": "«Declaration of Independence, July 4, 1776» — «When in the course of human events, it becomes necessary for one people to dissolve the political bands which have connected them with another…»",
+      "aciklama": "ABD Bagimsizlik Bildirisi."
+    },
+    {
+      "gun": "1848-02-02",
+      "nokta": 6,
+      "damga": "BIRINCIL",
+      "kaynak": "The Avalon Project, Yale Law School — «Treaty of Guadalupe Hidalgo». Belge metni OKUNDU.",
+      "alinti": "«TREATY OF PEACE, FRIENDSHIP, LIMITS, AND SETTLEMENT BETWEEN THE UNITED STATES OF AMERICA AND THE UNITED MEXICAN STATES CONCLUDED AT GUADALUPE HIDALGO, FEBRUARY 2, 1848»",
+      "aciklama": "Meksika-ABD savasini bitiren antlasma. Madde V yeni siniri kuruyor: sinir Meksika Korfezi'nde Rio Grande agzinin uc fersah acigindan basliyor, New Mexico'dan Gila'ya, oradan Colorado'yu asip Yukari ve Asagi Kaliforniya arasindaki ayrim cizgisini izleyerek Pasifik'e ulasiyor."
+    },
+    {
+      "gun": "1898-12-10",
+      "nokta": 6,
+      "damga": "BIRINCIL",
+      "kaynak": "The Avalon Project, Yale Law School — «Treaty of Peace Between the United States and Spain» (Paris, 1898). Belge metni OKUNDU.",
+      "alinti": "«Done in duplicate at Paris, the tenth day of December, in the year of Our Lord one thousand eight hundred and ninety-eight.» — Madde I: «Spain relinquishes all claim of sovereignty over and title to Cuba.» Madde II: «Spain cedes to the United States the island of Porto Rico … and the island of Guam» Madde III: «Spain cedes to the United States the archipelago known as the Philippine Islands»",
+      "aciklama": "Ispanya-ABD savasini bitiren Paris Antlasmasi: Kuba uzerindeki egemenlik birakiliyor; Porto Riko, Guam ve Filipinler ABD'ye devrediliyor."
+    },
+    {
+      "gun": "1876-08-23",
+      "nokta": 4,
+      "damga": "BIRINCIL",
+      "kaynak": "Government of Canada (RCAANC-CIRNAC), «Treaty Texts: Treaty No. 6» — antlasma metni OKUNDU.",
+      "alinti": "«ARTICLES OF A TREATY made and concluded near Carlton on the 23rd day of August and on the 28th day of said month, respectively, and near Fort Pitt on the 9th day of September, in the year of Our Lord one thousand eight hundred and seventy-six … and the Plain and Wood Cree and the other Tribes of Indians»",
+      "aciklama": "Treaty 6 — Fort Carlton (23 ve 28 Agustos) ve Fort Pitt (9 Eylul) 1876. Taraflar: Kraliyet komiserleri (Alexander Morris, James McKay, William Joseph Christie) ile Ova ve Orman Cree'leri ve oteki halklar."
+    },
+    {
+      "gun": "1868-07-03",
+      "nokta": 4,
+      "damga": "BIRINCIL",
+      "kaynak": "Oklahoma State University, Tribal Treaties Database (Kappler, «Indian Affairs: Laws and Treaties») — «Treaty with the Eastern Band Shoshoni and Bannock, 1868». Belge metni OKUNDU.",
+      "alinti": "«Articles of a treaty made and concluded at Fort Bridger, Utah Territory, on the third day of July, in the year of our Lord one thousand eight hundred and sixty-eight, by and between the undersigned commissioners on the part of the United States, and the undersigned chiefs and head-men of and representing the Shoshonee (eastern band) and Bannack tribes of Indians»",
+      "aciklama": "Fort Bridger Antlasmasi — Dogu Shoshone ve Bannock."
+    },
+    {
+      "gun": "1851-09-17",
+      "nokta": 3,
+      "damga": "BIRINCIL",
+      "kaynak": "Oklahoma State University, Tribal Treaties Database (Kappler) — «Treaty of Fort Laramie with Sioux, etc., 1851». Belge metni OKUNDU.",
+      "alinti": "«Articles of a treaty made and concluded at Fort Laramie, in the Indian Territory, between D. D. Mitchell, superintendent of Indian affairs, and Thomas Fitzpatrick, Indian agent … and the chiefs, headmen, and braves of the following Indian nations … viz, the Sioux or Dahcotahs, Cheyennes, Arrapahoes, Crows. Assinaboines, Gros-Ventre Mandans, and Arrickaras … on the seventeenth day of September, A. D. one thousand eight hundred and fifty-one.»",
+      "aciklama": "Fort Laramie Antlasmasi 1851. Defterdeki kimlikler (hidatsa · mandan · karga) belgede Gros-Ventre, Mandans ve Crows olarak geciyor."
+    },
+    {
+      "gun": "1795-08-03",
+      "nokta": 2,
+      "damga": "BIRINCIL",
+      "kaynak": "The Avalon Project, Yale Law School — «Treaty of Greenville» (1795). Belge metni OKUNDU.",
+      "alinti": "«Done at Greenville, in the territory of the United States northwest of the river Ohio, on the third day of August, one thousand seven hundred and ninety five.»",
+      "aciklama": "Greenville Antlasmasi. Taraflar: ABD (Tumgeneral Anthony Wayne) ile Wyandot, Delaware, Shawnee, Ottawa, Chippewa, Potawatomi, Miami, Eel River, Wea, Kickapoo, Piankeshaw ve Kaskaskia halklari. Defterdeki kimlikler (miami · savni) belgede Miamis ve Shawanees olarak geciyor."
+    },
+    {
+      "gun": "1832-03-24",
+      "nokta": 2,
+      "damga": "🟡 ARAMA-OZETI",
+      "kaynak": "Oklahoma State University, Tribal Treaties Database — «Treaty with the Creeks, 1832» (Cusseta).",
+      "alinti": "«The Treaty with the Creeks was signed on March 24, 1832. It was made at the City of Washington between Lewis Cass and the Creek tribe of Indians, and the Creek tribe of Indians ceded to the United States all their land, East of the Mississippi river.»",
+      "aciklama": "Cusseta Antlasmasi. 🟡 GOVDE ACILMADI — alinti arama ozetinden. Sayfa adresi biliniyor (treaties.okstate.edu/treaties/treaty-with-the-creeks-1832-0341); bir sonraki tur acip AYNEN dogrulamali."
+    },
+    {
+      "gun": "1791-07-02",
+      "nokta": 2,
+      "damga": "🟡 ARAMA-OZETI",
+      "kaynak": "Oklahoma State University, Tribal Treaties Database — «Treaty with the Cherokee, 1791» (Holston).",
+      "alinti": "«A treaty was made and concluded on Holston River on the second day of July in 1791 between the United States of America and the Cherokee nation of Indians.»",
+      "aciklama": "Holston Antlasmasi. 🟡 GOVDE ACILMADI — alinti arama ozetinden. Sayfa adresi biliniyor (treaties.okstate.edu/treaties/treaty-with-the-cherokee-1791-0029); bir sonraki tur acip AYNEN dogrulamali."
+    },
+    {
+      "gun": "1830-09-27",
+      "nokta": 1,
+      "damga": "BIRINCIL",
+      "kaynak": "Oklahoma State University, Tribal Treaties Database (Kappler) — «Treaty with the Choctaw, 1830» (Dancing Rabbit Creek). Belge metni OKUNDU.",
+      "alinti": "«Sept. 27, 1830. | 7 Stat., 333. | Proclamation, Feb. 24, 1831.» — Madde III: «the Choctaw nation of Indians consent and hereby cede to the United States, the entire country they own and possess, east of the Mississippi River; and they agree to move beyond the Mississippi River, early as practicable»",
+      "aciklama": "Dancing Rabbit Creek Antlasmasi. Gorusmeler 15 Eylul 1830'da basladi, imza 27 Eylul. Choctaw ulusu Mississippi'nin dogusundaki butun topragini devretti."
+    }
+  ],
+  "kalan_gunler": [
+    {
+      "gun": "1535-04-17",
+      "nokta": 23,
+      "kimlik": [
+        "ispanya",
+        "yeni-ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1521-08-13",
+      "nokta": 7,
+      "kimlik": [
+        "aztek-imparatorlugu",
+        "ispanya",
+        "nahua-sehir-devletleri"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1803-12-20",
+      "nokta": 5,
+      "kimlik": [
+        "ispanya",
+        "abd",
+        "yeni-ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1858-08-02",
+      "nokta": 5,
+      "kimlik": [
+        "hayda",
+        "ingiliz-kuzey-amerika",
+        "nuxalk",
+        "secwepemc",
+        "nuu-cah-nulth"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1902-05-20",
+      "nokta": 4,
+      "kimlik": [
+        "abd",
+        "kuba-cumhuriyeti"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1762-11-03",
+      "nokta": 4,
+      "kimlik": [
+        "fransa",
+        "yeni-ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1530-02-14",
+      "nokta": 3,
+      "kimlik": [
+        "purepecha-imparatorlugu",
+        "ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1680-08-10",
+      "nokta": 3,
+      "kimlik": [
+        "yeni-ispanya",
+        "pueblo-bagimsizligi"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1692-08-01",
+      "nokta": 3,
+      "kimlik": [
+        "pueblo-bagimsizligi",
+        "yeni-ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1784-08-14",
+      "nokta": 3,
+      "kimlik": [
+        "alutiiq",
+        "rusya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1821-09-15",
+      "nokta": 2,
+      "kimlik": [
+        "yeni-ispanya",
+        "guatemala"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1664-09-08",
+      "nokta": 2,
+      "kimlik": [
+        "hollanda",
+        "ingiltere"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1836-03-02",
+      "nokta": 2,
+      "kimlik": [
+        "meksika",
+        "teksas-cumhuriyeti"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1845-12-29",
+      "nokta": 2,
+      "kimlik": [
+        "teksas-cumhuriyeti",
+        "abd"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1795-07-22",
+      "nokta": 2,
+      "kimlik": [
+        "ispanya",
+        "fransa-cumhuriyet"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1809-07-09",
+      "nokta": 2,
+      "kimlik": [
+        "fransa-cumhuriyet",
+        "ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1822-02-09",
+      "nokta": 2,
+      "kimlik": [
+        "ispanya",
+        "haiti"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1844-02-27",
+      "nokta": 2,
+      "kimlik": [
+        "haiti",
+        "dominik-cumhuriyeti"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1861-03-18",
+      "nokta": 2,
+      "kimlik": [
+        "dominik-cumhuriyeti",
+        "ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1865-03-03",
+      "nokta": 2,
+      "kimlik": [
+        "ispanya",
+        "dominik-cumhuriyeti"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1885-05-12",
+      "nokta": 2,
+      "kimlik": [
+        "metis",
+        "kanada"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1850-09-07",
+      "nokta": 2,
+      "kimlik": [
+        "ojibwe",
+        "ingiliz-kuzey-amerika",
+        "abd"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1725-12-15",
+      "nokta": 2,
+      "kimlik": [
+        "abenaki",
+        "fransa",
+        "ingiltere"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1649-03-16",
+      "nokta": 2,
+      "kimlik": [
+        "vendat",
+        "ingiltere"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1699-04-08",
+      "nokta": 2,
+      "kimlik": [
+        "choctaw",
+        "fransa"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1519-10-18",
+      "nokta": 1,
+      "kimlik": [
+        "nahua-sehir-devletleri",
+        "ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1519-07-01",
+      "nokta": 1,
+      "kimlik": [
+        "nahua-sehir-devletleri",
+        "ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1520-09-04",
+      "nokta": 1,
+      "kimlik": [
+        "aztek-imparatorlugu",
+        "ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1524-03-07",
+      "nokta": 1,
+      "kimlik": [
+        "maya-sehir-devletleri"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1524-07-25",
+      "nokta": 1,
+      "kimlik": [
+        "maya-sehir-devletleri",
+        "ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1697-03-13",
+      "nokta": 1,
+      "kimlik": [
+        "maya-sehir-devletleri",
+        "yeni-ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1519-03-25",
+      "nokta": 1,
+      "kimlik": [
+        "maya-sehir-devletleri",
+        "ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1519-04-22",
+      "nokta": 1,
+      "kimlik": [
+        "ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1531-04-16",
+      "nokta": 1,
+      "kimlik": [
+        "yeni-ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1542-02-14",
+      "nokta": 1,
+      "kimlik": [
+        "yeni-ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1542-01-06",
+      "nokta": 1,
+      "kimlik": [
+        "yeni-ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1540-10-04",
+      "nokta": 1,
+      "kimlik": [
+        "yeni-ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1528-03-31",
+      "nokta": 1,
+      "kimlik": [
+        "yeni-ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1523-07-25",
+      "nokta": 1,
+      "kimlik": [
+        "yeni-ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1646-10-01",
+      "nokta": 1,
+      "kimlik": [
+        "powhatan",
+        "ingiltere"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1779-09-21",
+      "nokta": 1,
+      "kimlik": [
+        "ingiltere",
+        "ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1798-04-07",
+      "nokta": 1,
+      "kimlik": [
+        "ispanya",
+        "abd"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1608-07-03",
+      "nokta": 1,
+      "kimlik": [
+        "fransa"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1642-05-17",
+      "nokta": 1,
+      "kimlik": [
+        "fransa"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1763-11-03",
+      "nokta": 1,
+      "kimlik": [
+        "fransa",
+        "ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1607-05-14",
+      "nokta": 1,
+      "kimlik": [
+        "ingiltere"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1620-12-21",
+      "nokta": 1,
+      "kimlik": [
+        "ingiltere"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1630-09-07",
+      "nokta": 1,
+      "kimlik": [
+        "ingiltere"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1682-10-27",
+      "nokta": 1,
+      "kimlik": [
+        "ingiltere"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1670-04-15",
+      "nokta": 1,
+      "kimlik": [
+        "ingiltere"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1733-02-12",
+      "nokta": 1,
+      "kimlik": [
+        "ingiltere"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1701-07-24",
+      "nokta": 1,
+      "kimlik": [
+        "fransa"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1796-07-11",
+      "nokta": 1,
+      "kimlik": [
+        "ingiltere",
+        "abd"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1713-04-11",
+      "nokta": 1,
+      "kimlik": [
+        "fransa",
+        "ingiltere"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1565-09-08",
+      "nokta": 1,
+      "kimlik": [
+        "ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1821-07-10",
+      "nokta": 1,
+      "kimlik": [
+        "ispanya",
+        "abd"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1698-11-17",
+      "nokta": 1,
+      "kimlik": [
+        "ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1781-05-08",
+      "nokta": 1,
+      "kimlik": [
+        "ingiltere",
+        "ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1821-07-17",
+      "nokta": 1,
+      "kimlik": [
+        "ispanya",
+        "abd"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1718-05-01",
+      "nokta": 1,
+      "kimlik": [
+        "yeni-ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1769-07-16",
+      "nokta": 1,
+      "kimlik": [
+        "yeni-ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1776-06-29",
+      "nokta": 1,
+      "kimlik": [
+        "yeni-ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1799-07-01",
+      "nokta": 1,
+      "kimlik": [
+        "rusya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1697-09-20",
+      "nokta": 1,
+      "kimlik": [
+        "ispanya",
+        "fransa"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1511-08-15",
+      "nokta": 1,
+      "kimlik": [
+        "ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1515-07-25",
+      "nokta": 1,
+      "kimlik": [
+        "ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1519-11-16",
+      "nokta": 1,
+      "kimlik": [
+        "ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1762-08-13",
+      "nokta": 1,
+      "kimlik": [
+        "ispanya",
+        "ingiltere"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1655-05-10",
+      "nokta": 1,
+      "kimlik": [
+        "ispanya",
+        "ingiltere"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1898-08-12",
+      "nokta": 1,
+      "kimlik": [
+        "hawaii-kralligi",
+        "abd"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1546-09-08",
+      "nokta": 1,
+      "kimlik": [
+        "yeni-ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1563-07-08",
+      "nokta": 1,
+      "kimlik": [
+        "yeni-ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1577-07-25",
+      "nokta": 1,
+      "kimlik": [
+        "yeni-ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1596-09-20",
+      "nokta": 1,
+      "kimlik": [
+        "yeni-ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1709-10-12",
+      "nokta": 1,
+      "kimlik": [
+        "yeni-ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1697-10-25",
+      "nokta": 1,
+      "kimlik": [
+        "yeni-ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1780-08-27",
+      "nokta": 1,
+      "kimlik": [
+        "yeni-ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1576-08-01",
+      "nokta": 1,
+      "kimlik": [
+        "inuit"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1534-07-24",
+      "nokta": 1,
+      "kimlik": [
+        "fransa"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1829-06-06",
+      "nokta": 1,
+      "kimlik": [
+        "beothuk",
+        "ingiliz-kuzey-amerika"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1890-12-29",
+      "nokta": 1,
+      "kimlik": [
+        "lakota",
+        "abd"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1583-08-05",
+      "nokta": 1,
+      "kimlik": [
+        "ingiltere"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1877-10-05",
+      "nokta": 1,
+      "kimlik": [
+        "nez-perce",
+        "abd"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1634-07-04",
+      "nokta": 1,
+      "kimlik": [
+        "fransa"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1811-04-12",
+      "nokta": 1,
+      "kimlik": [
+        "ingiliz-kuzey-amerika"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1749-06-21",
+      "nokta": 1,
+      "kimlik": [
+        "ingiltere"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1832-09-21",
+      "nokta": 1,
+      "kimlik": [
+        "sauk",
+        "abd"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1857-09-24",
+      "nokta": 1,
+      "kimlik": [
+        "pavni",
+        "abd"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1847-07-24",
+      "nokta": 1,
+      "kimlik": [
+        "abd"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1764-02-14",
+      "nokta": 1,
+      "kimlik": [
+        "yeni-ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1777-11-29",
+      "nokta": 1,
+      "kimlik": [
+        "yeni-ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1770-06-03",
+      "nokta": 1,
+      "kimlik": [
+        "yeni-ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1868-06-01",
+      "nokta": 1,
+      "kimlik": [
+        "navaho",
+        "abd"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1682-04-09",
+      "nokta": 1,
+      "kimlik": [
+        "wicita",
+        "fransa"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1832-10-20",
+      "nokta": 1,
+      "kimlik": [
+        "cikasav",
+        "abd"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1706-04-23",
+      "nokta": 1,
+      "kimlik": [
+        "yeni-ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1782-04-21",
+      "nokta": 1,
+      "kimlik": [
+        "yeni-ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1733-06-09",
+      "nokta": 1,
+      "kimlik": [
+        "creek-konfederasyonu",
+        "ingiltere"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1781-09-04",
+      "nokta": 1,
+      "kimlik": [
+        "yeni-ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1775-08-20",
+      "nokta": 1,
+      "kimlik": [
+        "yeni-ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1659-12-08",
+      "nokta": 1,
+      "kimlik": [
+        "yeni-ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1755-05-15",
+      "nokta": 1,
+      "kimlik": [
+        "yeni-ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1749-03-05",
+      "nokta": 1,
+      "kimlik": [
+        "yeni-ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1750-10-06",
+      "nokta": 1,
+      "kimlik": [
+        "yeni-ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1689-07-15",
+      "nokta": 1,
+      "kimlik": [
+        "yeni-ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1514-06-04",
+      "nokta": 1,
+      "kimlik": [
+        "ispanya"
+      ],
+      "damga": "okumadim"
+    },
+    {
+      "gun": "1525-05-18",
+      "nokta": 1,
+      "kimlik": [
+        "ispanya"
+      ],
+      "damga": "okumadim"
+    }
+  ]
+}

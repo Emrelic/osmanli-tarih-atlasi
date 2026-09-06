@@ -83,7 +83,36 @@ console.log("🔴 ÇAKIŞMA KORUMASI — kendi yamalarımda olan, BURADAN yazıl
     (catisan.length > 8 ? " …" : "") + ")" : ""));
 console.log("⚪ dönemi ZATEN `kaynak:` taşıyan (ezilmedi): " + zatenVar.length);
 
-if (process.argv.includes("--yaz")) {
+// ── SINAV: yama zinciri BOZUYOR MU? (§11: Silistre yaması 6 dönemin 5'ini
+//    siliyordu ve sınav yakaladı. Burada tek değişiklik `kaynak:` EKLEMEK
+//    olmalı — dönem sayısı, sırası ve (f,t,d) üçlüleri AYNEN kalmalı.)
+let bozuk = 0, denetlenen = 0;
+const eskiler = {};
+for (const { y } of N) eskiler[y.ad] = y.s || [];
+for (const r of uretilen) {
+  const e = eskiler[r.ad] || [];
+  denetlenen++;
+  if (e.length !== r.s.length) { bozuk++; console.log("   🔴 " + r.ad + ": dönem sayısı " + e.length + " -> " + r.s.length); continue; }
+  for (let i = 0; i < e.length; i++)
+    if (e[i].f !== r.s[i].f || e[i].t !== r.s[i].t || e[i].d !== r.s[i].d) {
+      bozuk++; console.log("   🔴 " + r.ad + " [" + i + "]: (f,t,d) DEĞİŞTİ"); break;
+    }
+}
+// ATEŞLEME: bilerek bozulmuş bir zincir sınavı ötürüyor mu
+const test = uretilen.length ? JSON.parse(JSON.stringify(uretilen[0])) : null;
+let atesledi = false;
+if (test && test.s.length) {
+  test.s.pop();
+  const e = eskiler[test.ad] || [];
+  atesledi = e.length !== test.s.length;
+}
+console.log("");
+console.log("SINAV: zincir bozulmadı mı → " + (bozuk === 0 ? "🟢 TEMİZ" : "🔴 " + bozuk + " bozuk") +
+  "  (" + denetlenen + " kayıt denetlendi)");
+console.log("       ateşleme (bir dönem silinince ötüyor mu) → " +
+  (atesledi ? "🟢 ÖTTÜ" : "🔴 ÖTMEDİ"));
+
+if (bozuk === 0 && atesledi && process.argv.includes("--yaz")) {
   const bas = [
     "// -*- coding: utf-8 -*-",
     "// AVRUPA — GÜN DAYANAKLARI · dönem seviyesinde `kaynak:`",

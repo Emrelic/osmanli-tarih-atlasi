@@ -1,0 +1,1794 @@
+{
+ "_NOT": "⑮ KOL — PAYLAŞILAN GÜNLER. `DAYANAK-GUNLER-0907.json`da `paylasilan:true` olan 120 günün, VOLGA'ya ait iki gün (1917-03-15 · 1917-11-07) DIŞINDA kalan 118'i. Bir gün için TEK dayanak seçildi; ötekiler `destekleyen` kovasında DURUYOR, silinmedi.",
+ "_TABAN": {
+  "gun_toplam": 1312,
+  "paylasilan": 120,
+  "volga_disinda": 118,
+  "🟡 nokta_birimi": "ozet.nokta=2905 TEKİL NOKTA; günlerin `nokta` alanları toplandığında 8274 çıkar — o NOKTA-GÜN çiftidir. İkisi de doğru, birimleri ayrı."
+ },
+ "_SECIM_OLCUTU": {
+  "damga": "ÖLÇÜMDEN ÖNCE yazıldı (aracın başlığında), sonucu görüp şekillendirilmedi",
+  "R0_ELE": "kendi metninde 'DOĞRULANMADI' diyen kaynak SEÇİLMEZ — kendi beyanıyla dayanaksız",
+  "R1": "ADIYLA anılan akademik/kurumsal kaynak (alıntılı)",
+  "R2": "TDV slug'ı (dar ama izlenebilir)",
+  "R3": "atlas içi atıf (devletler.js / olaylar*.js)",
+  "R4_SON": "'el-kitabi' · 'standart ders kitabı' — §4'e göre ADSIZ; başka yoksa seçilir ve DAMGALANIR"
+ },
+ "_CELISKI_SINAVI": {
+  "olcut": "kaynak dizgisinde geçen bir YIL, günün yılından farklı mı?",
+  "ilk_surum": "5 SAHTE POZİTİF verdi — eşleşen yıllar KİTAP BAŞLIĞI ARALIKLARIYDI (Kamen 'Spain 1469-1714' · Blackbourn '1780-1918' · Roberts '1560-1718')",
+  "duzeltme": "NNNN-NNNN aralıkları ve 1394-95 biçimi elendi",
+  "sonuc": "🟢 GERÇEK ÇELİŞKİ 0",
+  "🔴 SINIRI": "Bu sınav yalnız `kaynak:` DİZGİSİNDE yazılı bir yıl uyuşmazlığını görür. İki kaynağın GÖVDESİNİ okuyup birbiriyle çeliştiklerini ÖLÇMEDİM. 'Çelişki 0' = 'bu ölçütle çelişki bulunmadı', 'çelişki yok' DEĞİL."
+ },
+ "_KARNE": {
+  "KAYNAK_VAR_devralindi": 96,
+  "  tek_kaynakli": 39,
+  "  cok_kaynakli_TEKLESTIRILDI": 57,
+  "  supheli_kaynak_ELENDI": 10,
+  "MADDE_YOK_arastirildi": 8,
+  "  TDV_GUN_dogruladi": 2,
+  "  TDV_YIL_dogruladi_GUN_YOK": 4,
+  "  TDV_bulunamadi": 2,
+  "MADDE_YOK_HENUZ_OKUNMADI": 14
+ },
+ "A_DEVRALINAN_96": [
+  {
+   "gun": "1402-07-28",
+   "nokta": 211,
+   "olay": "ANKARA SAVAŞI — Karayülük Timur'un safında",
+   "etkilenen_bolgeler": {
+    "BALKANLAR": 292,
+    "DOGU-AVRUPA": 128
+   },
+   "secilen_dayanak": "TDV `timur`: \"1402 (28 Temmuz): Ankara'da Osmanlı Sultanı Yıldırım Bayezid'e karşı zafer\" — `data/olaylar.js:30` (Osmanlı tarafı, eski şema) ile aynı gün; `dunya:5` koordinatörün kendi hükmüdür",
+   "kademe": 1,
+   "destekleyen": [
+    "akkoyunlular",
+    "karamanogullari",
+    "aydinogullari",
+    "ankara-savasi",
+    "celayirliler",
+    "TDV 'ceneviz'",
+    "karakoyunlular (Kara Yûsuf bağlamı) — savaşın kendisi için var olan atlas kaydı"
+   ],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1920-04-23",
+   "nokta": 210,
+   "olay": "Türkiye Büyük Millet Meclisi'nin açılışı",
+   "etkilenen_bolgeler": {
+    "BALKANLAR": 200,
+    "DOGU-AVRUPA": 170,
+    "ORTADOGU-IRAN": 50
+   },
+   "secilen_dayanak": "turkiye-buyuk-millet-meclisi",
+   "kademe": 2,
+   "destekleyen": [],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1413-07-05",
+   "nokta": 146,
+   "olay": "Çelebi Mehmed birliği sağladı — Bizans'ın kazandığı ala",
+   "etkilenen_bolgeler": {
+    "BALKANLAR": 246,
+    "DOGU-AVRUPA": 46
+   },
+   "secilen_dayanak": "camurlu-savasi",
+   "kademe": 2,
+   "destekleyen": [
+    "el-kitabi"
+   ],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1747-06-20",
+   "nokta": 143,
+   "olay": "Nadir Şah suikastla öldürüldü",
+   "etkilenen_bolgeler": {
+    "ORTADOGU-IRAN": 274,
+    "GUNEY-ORTA-ASYA": 12
+   },
+   "secilen_dayanak": "nadir-sah--iran (TDV, doğrulanmış)",
+   "kademe": 2,
+   "destekleyen": [],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1411-02-17",
+   "nokta": 135,
+   "olay": "Emîr Süleyman'ın ölümü — Musa Rumeli'ye hâkim",
+   "etkilenen_bolgeler": {
+    "BALKANLAR": 244,
+    "DOGU-AVRUPA": 26
+   },
+   "secilen_dayanak": "musa-celebi",
+   "kademe": 2,
+   "destekleyen": [],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1918-11-11",
+   "nokta": 98,
+   "olay": "Compiègne Ateşkesi — I. Dünya Savaşı'nın Batı Cephesi'n",
+   "etkilenen_bolgeler": {
+    "BALKANLAR": 148,
+    "DOGU-AVRUPA": 24,
+    "BATI-ORTA-AVRUPA": 16,
+    "KUZEY-AVRUPA": 8
+   },
+   "secilen_dayanak": "standart ders kitabı bilgisi · 🔴 dunya:5 — habsburg dosyasıyla BİREBİR AYNI (M-0873 hizalaması, Cihan Harbi'nin sonu)",
+   "kademe": 1,
+   "destekleyen": [
+    "Der Erste Weltkrieg / Die Welt der Habsburger: \"In November 1918, the Habsburg monarchy came to an end\" · TDV `avusturya`: \"Savaş her iki imparatorluğun da yıkılması ile sonuçlanmış\" · ⚠️ GÜN DOĞRULANMADI (mevcut künyenin tarihi korundu)",
+    "el-kitabi",
+    "birinci-dunya-savasi"
+   ],
+   "elenen_supheli": [
+    "Der Erste Weltkrieg / Die Welt der Habsburger: \"In November 1918, the Habsburg monarchy came to an end\" · TDV `avusturya`: \"Savaş her iki imparatorluğun da yıkılması ile sonuçlanmış\" · ⚠️ GÜN DOĞRULANMADI (mevcut künyenin tarihi korundu)"
+   ]
+  },
+  {
+   "gun": "1912-02-12",
+   "nokta": 97,
+   "olay": "Puyi tahttan feragat etti — Qing hanedanı sona erdi",
+   "etkilenen_bolgeler": {
+    "DOGU-GD-ASYA": 144,
+    "GUNEY-ORTA-ASYA": 50
+   },
+   "secilen_dayanak": "cin--ulke",
+   "kademe": 2,
+   "destekleyen": [],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1899-01-19",
+   "nokta": 74,
+   "olay": "Kondominyum Antlaşması — Sudan'ın İngiliz-Mısır ortak i",
+   "etkilenen_bolgeler": {
+    "ORTADOGU-IRAN": 80,
+    "SAHRA-ALTI-AFRIKA": 45
+   },
+   "secilen_dayanak": "sudan (TDV) — data/olaylar_ek9.js:313'te zaten doğrulanmış, Mısır perspektifine uyarlandı",
+   "kademe": 1,
+   "destekleyen": [
+    "sudan"
+   ],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1547-01-16",
+   "nokta": 73,
+   "olay": "IV. İvan (Korkunç) \"Çar\" unvanını aldı ⭐",
+   "etkilenen_bolgeler": {
+    "KUZEY-AVRUPA": 72,
+    "VOLGA-URAL-SIBIRYA": 60,
+    "DOGU-AVRUPA": 14
+   },
+   "secilen_dayanak": "Riasanovsky & Steinberg, A History of Russia — devletler.js:285'ten taşındı, tarih doğrulandı",
+   "kademe": 1,
+   "destekleyen": [],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1404-03-01",
+   "nokta": 57,
+   "olay": "Emîr Süleyman Anadolu'ya geçti: Bursa ve Ankara onun el",
+   "etkilenen_bolgeler": {
+    "BALKANLAR": 88,
+    "DOGU-AVRUPA": 26
+   },
+   "secilen_dayanak": "suleyman-celebi-emir",
+   "kademe": 2,
+   "destekleyen": [],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1403-09-01",
+   "nokta": 56,
+   "olay": "Kara Yûsuf Şam'a kaçtı",
+   "etkilenen_bolgeler": {
+    "BALKANLAR": 88,
+    "DOGU-AVRUPA": 24
+   },
+   "secilen_dayanak": "karakoyunlular",
+   "kademe": 2,
+   "destekleyen": [
+    "ulubat--bursa"
+   ],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1763-02-10",
+   "nokta": 56,
+   "olay": "Paris Antlaşması — Yeni Fransa'nın kaybı",
+   "etkilenen_bolgeler": {
+    "KUZEY-AMERIKA": 108,
+    "GUNEY-ORTA-ASYA": 2,
+    "GUNEY-ORTA-AMERIKA": 2
+   },
+   "secilen_dayanak": "standart akademik kaynak (Kamen)",
+   "kademe": 2,
+   "destekleyen": [
+    "standart ders kitabı bilgisi — WebFetch ile doğrulanmadı",
+    "el-kitabi"
+   ],
+   "elenen_supheli": [
+    "standart ders kitabı bilgisi — WebFetch ile doğrulanmadı"
+   ]
+  },
+  {
+   "gun": "1792-09-22",
+   "nokta": 55,
+   "olay": "I. Fransız Cumhuriyeti'nin ilanı",
+   "etkilenen_bolgeler": {
+    "BATI-ORTA-AVRUPA": 64,
+    "IBERYA": 18,
+    "ITALYA": 16,
+    "KUZEY-AFRIKA": 4,
+    "SAHRA-ALTI-AFRIKA": 4,
+    "KUZEY-AMERIKA": 2,
+    "GUNEY-ORTA-AMERIKA": 2
+   },
+   "secilen_dayanak": "TDV `fransa` maddesi ve `data/devletler.js:fransa` notu — \"22 Eylül'de de cumhuriyet ilân edildi\"",
+   "kademe": 1,
+   "destekleyen": [
+    "fransa"
+   ],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1878-07-13",
+   "nokta": 45,
+   "olay": "Berlin Kongresi'nde 'dürüst simsar' rolü",
+   "etkilenen_bolgeler": {
+    "BALKANLAR": 86,
+    "ORTADOGU-IRAN": 4
+   },
+   "secilen_dayanak": "TDV `berlin-antlasmasi`: 'Bulgaristan toprakları üç bölgeye ayrılacaktı. Birinci bölge Osmanlı Devleti'ne tâbi, iç işlerinde serbest, prensi halk tarafından seçilen ... Tuna ile Balkanlar arasında Sofya, Niğbolu, Ziştovi, Rusçuk, Silistre, Varna, Şumnu, Lofça ve Tırnova gibi şehirleri içine alan muhtar bir Bulgaristan Prensliği kuruldu.'",
+   "kademe": 1,
+   "destekleyen": [
+    "TDV `berlin-antlasmasi`: 13 Temmuz 1878 tarihli antlaşma; dunya değeri kronoloji_habsburg.js'teki aynı tarihli maddeyle (dunya:4) HİZALANDI, kusur önlendi",
+    "TDV `karadag`: '1878 Berlin Kongresi'nde Karadağ istiklâlini kazandı.' dunya: kronoloji_sirbistan.js ile eşleştirildi (dunya:4).",
+    "Die Welt der Habsburger, 'Okkupation Bosniens 1878': Avusturya-Macaristan, Balkanlar'da Rus üstünlüğünü dengelemek için Bosna-Hersek'i işgal ve idare hakkını aldı · TDV `bosna-hersek` slug CANLI · ⚠️ GÜN DOĞRULANMADI (mevcut künyenin tarihi korundu)",
+    "ingiltere (TDV) — dunya değeri kronoloji_rusya.js ve kronoloji_habsburg.js ile BİREBİR eşleştirildi",
+    "berlin-antlasmasi (TDV, doğrulanmış — data/olaylar*.js kullanıyor)",
+    "TDV `berlin-antlasmasi`: 'Sırbistan'ın bağımsızlığı tanınacak, kendisine Niş ve Pirot verilecekti.'",
+    "berlin-antlasmasi"
+   ],
+   "elenen_supheli": [
+    "Die Welt der Habsburger, 'Okkupation Bosniens 1878': Avusturya-Macaristan, Balkanlar'da Rus üstünlüğünü dengelemek için Bosna-Hersek'i işgal ve idare hakkını aldı · TDV `bosna-hersek` slug CANLI · ⚠️ GÜN DOĞRULANMADI (mevcut künyenin tarihi korundu)"
+   ]
+  },
+  {
+   "gun": "1830-07-05",
+   "nokta": 41,
+   "olay": "Cezayir'in Fransız işgali — üç yüz yıllık ocağın sonu",
+   "etkilenen_bolgeler": {
+    "IBERYA": 42,
+    "ITALYA": 20,
+    "BATI-ORTA-AVRUPA": 10,
+    "KUZEY-AFRIKA": 10
+   },
+   "secilen_dayanak": "cezayir",
+   "kademe": 2,
+   "destekleyen": [],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1918-12-01",
+   "nokta": 39,
+   "olay": "Sırp-Hırvat-Sloven Krallığı'nın kuruluşuyla birleşme",
+   "etkilenen_bolgeler": {
+    "BALKANLAR": 72,
+    "KUZEY-AVRUPA": 4,
+    "ORTADOGU-IRAN": 2
+   },
+   "secilen_dayanak": "devletler.js `sirbistan-kralligi` künyesi (t:'1918-12-01') + TDV `sirbistan` genel anlatısı.",
+   "kademe": 1,
+   "destekleyen": [
+    "yugoslavya"
+   ],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1912-10-18",
+   "nokta": 39,
+   "olay": "Uşi (Ouchy/Lozan) Antlaşması",
+   "etkilenen_bolgeler": {
+    "KUZEY-AFRIKA": 76,
+    "BALKANLAR": 1
+   },
+   "secilen_dayanak": "TDV `trablusgarp` (gövdesi okundu): \"1912'de İsviçre'nin Uşi (Ouchy/Lozan) şehrinde yapılan antlaşma ile Osmanlı Devleti, Afrika'daki bu son vilâyetini İtalya'ya terkettiğini kabul etti\" — bu oturumda WebFetch ile doğrulandı; tarih data/devletler.js `italya` ve `oniki-ada-italyan` embedded kronolojisiyle birebir uyumlu",
+   "kademe": 1,
+   "destekleyen": [
+    "TDV `trablusgarp-savasi`: \"18 Ekim 1912 Uşi Barış Antlaşması\""
+   ],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1881-05-12",
+   "nokta": 36,
+   "olay": "Bardo Antlaşması — Tunus'un Fransız himayesine girmesi",
+   "etkilenen_bolgeler": {
+    "ITALYA": 14,
+    "BATI-ORTA-AVRUPA": 12,
+    "KUZEY-AFRIKA": 10
+   },
+   "secilen_dayanak": "duyun-i-umumiyye",
+   "kademe": 2,
+   "destekleyen": [
+    "data/devletler.js (fransa-cumhuriyet kaydı) — standart ders kitabı bilgisiyle çapraz doğrulandı"
+   ],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1885-01-26",
+   "nokta": 35,
+   "olay": "General Gordon Hartum'un düşüşünde öldürüldü",
+   "etkilenen_bolgeler": {
+    "ORTADOGU-IRAN": 56,
+    "SAHRA-ALTI-AFRIKA": 11
+   },
+   "secilen_dayanak": "sudan (TDV) — data/olaylar_ek6.js:122'de zaten doğrulanmış, Mısır perspektifine uyarlandı",
+   "kademe": 1,
+   "destekleyen": [
+    "el-kitabi",
+    "sudan"
+   ],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1705-07-17",
+   "nokta": 35,
+   "olay": "Tunus'ta Hüseynî hanedanının kurulması",
+   "etkilenen_bolgeler": {
+    "ITALYA": 26,
+    "BATI-ORTA-AVRUPA": 24,
+    "KUZEY-AFRIKA": 20
+   },
+   "secilen_dayanak": "huseyniler",
+   "kademe": 2,
+   "destekleyen": [],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1478-01-15",
+   "nokta": 35,
+   "olay": "Novgorod Cumhuriyeti ilhak edildi",
+   "etkilenen_bolgeler": {
+    "KUZEY-AVRUPA": 36,
+    "VOLGA-URAL-SIBIRYA": 34
+   },
+   "secilen_dayanak": "Cambridge History of Russia, c.1",
+   "kademe": 2,
+   "destekleyen": [],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1574-08-25",
+   "nokta": 34,
+   "olay": "Osmanlı Tunus'u kesin olarak geri aldı",
+   "etkilenen_bolgeler": {
+    "ITALYA": 26,
+    "BATI-ORTA-AVRUPA": 24,
+    "KUZEY-AFRIKA": 18
+   },
+   "secilen_dayanak": "tunus",
+   "kademe": 2,
+   "destekleyen": [
+    "`data/yerlesimler.js` Tunus kaydı (tarih korunuyor) · standart akademik kaynak"
+   ],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1516-08-24",
+   "nokta": 31,
+   "olay": "Ali Bey Mercidâbık Savaşı'na katıldı",
+   "etkilenen_bolgeler": {
+    "DOGU-AVRUPA": 44,
+    "ORTADOGU-IRAN": 18
+   },
+   "secilen_dayanak": "tdv:mercidabik-muharebesi",
+   "kademe": 2,
+   "destekleyen": [
+    "dulkadirogullari",
+    "ramazanogullari"
+   ],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1517-05-19",
+   "nokta": 30,
+   "olay": "İskenderiye'nin teslimi — Mısır fethinin tamamlanması",
+   "etkilenen_bolgeler": {
+    "ORTADOGU-IRAN": 44,
+    "KUZEY-AFRIKA": 16
+   },
+   "secilen_dayanak": "iskenderiye (TDV) — data/olaylar_ek5.js:172'de zaten doğrulanmış, Mısır perspektifine uyarlandı",
+   "kademe": 1,
+   "destekleyen": [
+    "iskenderiye"
+   ],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1918-10-30",
+   "nokta": 29,
+   "olay": "Mondros sonrası Osmanlı çekildi — imamet tam bağımsızlı",
+   "etkilenen_bolgeler": {
+    "ORTADOGU-IRAN": 32,
+    "DOGU-AVRUPA": 26
+   },
+   "secilen_dayanak": "TDV `yemen`: '1918: Osmanlı askerî-sivil bürokrasisi Hudeyde'de İngilizler'e teslim oldu.' · '5 Mart 1919: Yemen'de asker ve memur kadrosu İngilizler'e teslim oldu.' dunya devralındı: kronoloji_ingiltere.js (Mondros, dunya:4).",
+   "kademe": 1,
+   "destekleyen": [
+    "ingiltere (TDV) + genel askeri tarih",
+    "mondros-mutarekesi",
+    "avusturya"
+   ],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1368-09-14",
+   "nokta": 28,
+   "olay": "Ming orduları Pekin'i aldı, Yuan sarayı kuzeye çekildi",
+   "etkilenen_bolgeler": {
+    "DOGU-GD-ASYA": 50,
+    "GUNEY-ORTA-ASYA": 6
+   },
+   "secilen_dayanak": "cin--ulke",
+   "kademe": 2,
+   "destekleyen": [],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1519-09-01",
+   "nokta": 25,
+   "olay": "Cezayir'in Osmanlı Devleti'ne bağlanması",
+   "etkilenen_bolgeler": {
+    "IBERYA": 26,
+    "ITALYA": 16,
+    "BATI-ORTA-AVRUPA": 8
+   },
+   "secilen_dayanak": "barbaros-hayreddin-pasa",
+   "kademe": 2,
+   "destekleyen": [],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1923-07-24",
+   "nokta": 23,
+   "olay": "Lozan Antlaşması'nın imzalanması",
+   "etkilenen_bolgeler": {
+    "BALKANLAR": 63,
+    "DOGU-AVRUPA": 6
+   },
+   "secilen_dayanak": "TDV `yunanistan`: 'Lozan Antlaşması, Sevr Antlaşması'nın Yunanistan'a sağladığı kazanımları ortadan kaldırdığından Yunanistan'ın kurulduğu tarihten beri sürdürdüğü genişlemeyi durduran bir antlaşma oldu.' dunya:5 değeri data/kronoloji_fransa.js:1012 ile birebir çapraz doğrulandı.",
+   "kademe": 1,
+   "destekleyen": [
+    "TDV `fransa` maddesi (canlı) — \"1923: Lozan Antlaşması\" · dunya:5, iki taraflı bir barışın ötesinde yeni bir devletin uluslararası tanınmasını sağlaması nedeniyle",
+    "ingiltere (TDV)",
+    "lozan-antlasmasi"
+   ],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1783-04-19",
+   "nokta": 23,
+   "olay": "II. Katerina'nın manifestosuyla Rusya Kırım'ı, Taman'ı ",
+   "etkilenen_bolgeler": {
+    "DOGU-AVRUPA": 37,
+    "ORTADOGU-IRAN": 4,
+    "VOLGA-URAL-SIBIRYA": 4
+   },
+   "secilen_dayanak": "kirim-hanligi (TDV, doğrulanmış) — devletler.js:294'ten taşındı, doğrulandı",
+   "kademe": 1,
+   "destekleyen": [
+    "kirim, sahin-giray (TDV); devletler.js:195 kayıtlı kırım kronolojisinden doğrulanarak taşındı",
+    "kirim"
+   ],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1841-02-25",
+   "nokta": 22,
+   "olay": "Mısır ordusunun Suriye ve Çukurova'yı boşaltması",
+   "etkilenen_bolgeler": {
+    "DOGU-AVRUPA": 20,
+    "ORTADOGU-IRAN": 5
+   },
+   "secilen_dayanak": "suriye (TDV) — data/olaylar_ek4.js:265'te zaten doğrulanmış, Mısır perspektifine uyarlandı",
+   "kademe": 1,
+   "destekleyen": [
+    "suriye"
+   ],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1913-05-30",
+   "nokta": 21,
+   "olay": "Londra Antlaşması — I. Balkan Savaşı sona erdi",
+   "etkilenen_bolgeler": {
+    "BALKANLAR": 32,
+    "DOGU-AVRUPA": 10
+   },
+   "secilen_dayanak": "TDV `yunanistan`: '30 Mayıs 1913 Londra ve 10 Ağustos 1913 Bükreş antlaşmaları ile Yunanistan'ın kazanımları tanındı.'",
+   "kademe": 1,
+   "destekleyen": [
+    "TDV `bulgaristan`: '30 Mayıs 1913: Londra Antlaşması imzalandı.'",
+    "balkan"
+   ],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1526-08-29",
+   "nokta": 20,
+   "olay": "Mohaç Meydan Savaşı ve Habsburg mirasının doğuşu",
+   "etkilenen_bolgeler": {
+    "BALKANLAR": 20,
+    "BATI-ORTA-AVRUPA": 10,
+    "DOGU-AVRUPA": 10
+   },
+   "secilen_dayanak": "TDV `avusturya`: \"1526 Mohaç Meydan Savaşı sonunda Macar Krallığı'nın yıkılması… XVI. yüzyıl boyunca devam edecek olan Osmanlı-Avusturya mücadelelerinin başlıca sebebini teşkil\" · Die Welt der Habsburger: 1526 Wendepunkt, Ferdinand Bohemya ve Macaristan'ı miras aldı · depo savaslar.js",
+   "kademe": 1,
+   "destekleyen": [
+    "TDV `mohac`: II. Lajos'un ordusunun ağır bir bozguna uğradığı, kralın kaçarken öldüğü, Macaristan'ın bu yenilgiyle merkezî otoritesini yitirdiği anlatılır · depo savaslar.js (1526-08-29)",
+    "mohac-muharebesi"
+   ],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1402-09-15",
+   "nokta": 19,
+   "olay": "Timur Anadolu beyliklerini yeniden kurdu — Türk birliği",
+   "etkilenen_bolgeler": {
+    "DOGU-AVRUPA": 30,
+    "BALKANLAR": 8
+   },
+   "secilen_dayanak": "ankara-savasi",
+   "kademe": 2,
+   "destekleyen": [],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1821-06-14",
+   "nokta": 19,
+   "olay": "Sennâr (Fûnc) Sultanlığı'nın teslimi",
+   "etkilenen_bolgeler": {
+    "ORTADOGU-IRAN": 30,
+    "SAHRA-ALTI-AFRIKA": 8
+   },
+   "secilen_dayanak": "func (TDV) — data/olaylar_ek4.js:98'de zaten doğrulanmış, Mısır perspektifine uyarlandı",
+   "kademe": 1,
+   "destekleyen": [
+    "func"
+   ],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1569-07-01",
+   "nokta": 19,
+   "olay": "LUBLIN BİRLİĞİ — Rzeczpospolita kuruldu",
+   "etkilenen_bolgeler": {
+    "DOGU-AVRUPA": 28,
+    "KUZEY-AVRUPA": 10
+   },
+   "secilen_dayanak": "el-kitabi",
+   "kademe": 2,
+   "destekleyen": [],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1516-01-23",
+   "nokta": 19,
+   "olay": "Fernando'nun ölümü — taç, torunu Şarlken'e geçti",
+   "etkilenen_bolgeler": {
+    "BATI-ORTA-AVRUPA": 36,
+    "ITALYA": 2
+   },
+   "secilen_dayanak": "standart akademik kaynak (Kamen, Spain 1469-1714)",
+   "kademe": 2,
+   "destekleyen": [
+    "bulunamadı"
+   ],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1347-08-03",
+   "nokta": 19,
+   "olay": "Calais'nin İngilizlere düşmesi",
+   "etkilenen_bolgeler": {
+    "GUNEY-ORTA-ASYA": 36,
+    "BATI-ORTA-AVRUPA": 2
+   },
+   "secilen_dayanak": "behmeniler (TDV)",
+   "kademe": 2,
+   "destekleyen": [
+    "standart ders kitabı bilgisi — WebFetch ile doğrulanmadı"
+   ],
+   "elenen_supheli": [
+    "standart ders kitabı bilgisi — WebFetch ile doğrulanmadı"
+   ]
+  },
+  {
+   "gun": "1861-03-17",
+   "nokta": 18,
+   "olay": "İtalya Krallığı'nın ilanı",
+   "etkilenen_bolgeler": {
+    "ITALYA": 28,
+    "BALKANLAR": 8
+   },
+   "secilen_dayanak": "Treccani, 'Vittorio Emanuele II re d'Italia' (L'Unificazione, gövdesi WebFetch ile okundu): \"il 17 marzo 1861, venne proclamato dal primo Parlamento italiano re d'Italia\"; tarih data/devletler.js `italya` (f:) ile birebir uyumlu",
+   "kademe": 1,
+   "destekleyen": [
+    "bulunamadı"
+   ],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1815-06-09",
+   "nokta": 18,
+   "olay": "Viyana Kongresi Nihaî Senedi'nin imzalanması",
+   "etkilenen_bolgeler": {
+    "BATI-ORTA-AVRUPA": 24,
+    "DOGU-AVRUPA": 8,
+    "ITALYA": 2,
+    "KUZEY-AVRUPA": 2
+   },
+   "secilen_dayanak": "Encyclopaedia Britannica, 'Italy — The restoration period' (WebSearch ile alıntılandı): \"His kingdom was later restored, with the addition of Genoa, by the Final Act of the Congress of Vienna (June 9, 1815) ... the Vienna settlement dismantled the three aristocratic republics of Venice, Genoa, and Lucca; it strengthened Piedmont\"",
+   "kademe": 1,
+   "destekleyen": [
+    "standart ders kitabı bilgisi · 🔴 dunya:5 — habsburg dosyasıyla BİREBİR AYNI (M-0873 hizalaması)",
+    "bulunamadı — gün DOĞRULANMADI (kongre için kaynak okundu, senedin GÜNÜ için ayrı kaynak açılamadı)",
+    "el-kitabi",
+    "Graziani, Histoire de Gênes",
+    "Riasanovsky & Steinberg, A History of Russia",
+    "bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Congress of Vienna / Final Act tarihyazımı)"
+   ],
+   "elenen_supheli": [
+    "bulunamadı — gün DOĞRULANMADI (kongre için kaynak okundu, senedin GÜNÜ için ayrı kaynak açılamadı)"
+   ]
+  },
+  {
+   "gun": "1502-03-01",
+   "nokta": 17,
+   "olay": "Altın Orda Hanlığı'nın yıkılışı ve Kırım'ın yükselişi",
+   "etkilenen_bolgeler": {
+    "VOLGA-URAL-SIBIRYA": 22,
+    "DOGU-AVRUPA": 10,
+    "ORTADOGU-IRAN": 2
+   },
+   "secilen_dayanak": "altin-orda-hanligi",
+   "kademe": 2,
+   "destekleyen": [],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1861-02-13",
+   "nokta": 16,
+   "olay": "Gaeta'nın düşüşü — Bourbon direnişinin sonu",
+   "etkilenen_bolgeler": {
+    "BALKANLAR": 30,
+    "ITALYA": 2
+   },
+   "secilen_dayanak": "data/devletler.js `napoli` (t:\"1861-02-13\") — dosyanın kendi kapanış tarihiyle birebir uyumlu",
+   "kademe": 1,
+   "destekleyen": [
+    "bulunamadı"
+   ],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1821-08-19",
+   "nokta": 16,
+   "olay": "Kordofan'ın ele geçirilmesi",
+   "etkilenen_bolgeler": {
+    "ORTADOGU-IRAN": 24,
+    "SAHRA-ALTI-AFRIKA": 8
+   },
+   "secilen_dayanak": "sudan (TDV) — data/olaylar_ek4.js:102'de zaten doğrulanmış, Mısır perspektifine uyarlandı",
+   "kademe": 1,
+   "destekleyen": [
+    "sudan"
+   ],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1795-10-24",
+   "nokta": 16,
+   "olay": "ÜÇÜNCÜ TAKSİM — Polonya devleti haritadan silindi",
+   "etkilenen_bolgeler": {
+    "DOGU-AVRUPA": 24,
+    "KUZEY-AVRUPA": 6,
+    "BATI-ORTA-AVRUPA": 2
+   },
+   "secilen_dayanak": "Riasanovsky & Steinberg, A History of Russia",
+   "kademe": 2,
+   "destekleyen": [
+    "el-kitabi",
+    "bulunamadı"
+   ],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1456-06-01",
+   "nokta": 14,
+   "olay": "Boğdan'ın haraca bağlanışı",
+   "etkilenen_bolgeler": {
+    "BALKANLAR": 20,
+    "DOGU-AVRUPA": 8
+   },
+   "secilen_dayanak": "bogdan",
+   "kademe": 2,
+   "destekleyen": [],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1874-11-02",
+   "nokta": 14,
+   "olay": "Darfur Sultanlığı'nın Mısır'a ilhakı",
+   "etkilenen_bolgeler": {
+    "KUZEY-AFRIKA": 14,
+    "ORTADOGU-IRAN": 8,
+    "SAHRA-ALTI-AFRIKA": 6
+   },
+   "secilen_dayanak": "darfur (TDV) — data/olaylar_ek9.js:99'da zaten doğrulanmış, Mısır perspektifine uyarlandı",
+   "kademe": 1,
+   "destekleyen": [
+    "darfur"
+   ],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1883-12-23",
+   "nokta": 14,
+   "olay": "Darfur'un Mehdî kuvvetlerine geçişi — Slatin Paşa'nın t",
+   "etkilenen_bolgeler": {
+    "KUZEY-AFRIKA": 14,
+    "ORTADOGU-IRAN": 8,
+    "SAHRA-ALTI-AFRIKA": 6
+   },
+   "secilen_dayanak": "darfur",
+   "kademe": 2,
+   "destekleyen": [],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1898-09-02",
+   "nokta": 14,
+   "olay": "Ümmüdurman Muharebesi — Mehdî devletinin yıkılışı",
+   "etkilenen_bolgeler": {
+    "KUZEY-AFRIKA": 14,
+    "ORTADOGU-IRAN": 8,
+    "SAHRA-ALTI-AFRIKA": 6
+   },
+   "secilen_dayanak": "sudan (TDV) — data/olaylar_ek9.js:307'de zaten doğrulanmış, Mısır perspektifine uyarlandı",
+   "kademe": 1,
+   "destekleyen": [
+    "sudan"
+   ],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1774-07-21",
+   "nokta": 13,
+   "olay": "Küçük Kaynarca Antlaşması imzalandı — Kırım Hanlığı Osm",
+   "etkilenen_bolgeler": {
+    "DOGU-AVRUPA": 22,
+    "ORTADOGU-IRAN": 2,
+    "BALKANLAR": 2
+   },
+   "secilen_dayanak": "kirim (TDV, doğrulanmış — kucuk-kaynarca-antlasmasi slugı bu turda içerik olarak yeniden okunamadı, ancak data/kronoloji_rusya.js:368-371'de TDV içeriği doğrulanmış ve KULLANILAN bir kaynaktır); tarih ve dunya puanı data/kronoloji_rusya.js:368 ile birebir",
+   "kademe": 1,
+   "destekleyen": [
+    "kucuk-kaynarca-antlasmasi (TDV, doğrulanmış, birebir içerik okundu — tasdiknâme 26 Temmuz) — devletler.js:293'ten taşındı",
+    "kucuk-kaynarca-antlasmasi"
+   ],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1739-09-18",
+   "nokta": 12,
+   "olay": "Belgrad Antlaşması — Pasarofça kazançlarının kaybı",
+   "etkilenen_bolgeler": {
+    "BALKANLAR": 18,
+    "DOGU-AVRUPA": 4,
+    "ORTADOGU-IRAN": 2
+   },
+   "secilen_dayanak": "TDV `avusturya` (kronoloji_habsburg.js'te alıntılanan): 'Avusturya Pasarofça'da kazandığı yerleri…ve Belgrad'ı geri vermiştir.'",
+   "kademe": 1,
+   "destekleyen": [
+    "TDV `avusturya`: Avusturya \"Pasarofça'da kazandığı yerleri…ve Belgrad'ı geri vermiştir\" · depo savaslar.js (1739-09-18)",
+    "kirim (TDV); tarih data/kronoloji_habsburg.js:210 ile birebir (aynı gün imzalanan çok taraflı antlaşmalar zinciri)",
+    "belgrad-antlasmalari"
+   ],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1921-10-20",
+   "nokta": 12,
+   "olay": "Ankara Antlaşması — Fransa'nın Anadolu'daki savaşı sona",
+   "etkilenen_bolgeler": {
+    "DOGU-AVRUPA": 18,
+    "ORTADOGU-IRAN": 6
+   },
+   "secilen_dayanak": "TDV `fransa` maddesi (canlı) — \"20 Ekim 1921: Ankara Antlaşması (Hatay'ın özel statüsü)\"",
+   "kademe": 1,
+   "destekleyen": [
+    "milli-mucadele"
+   ],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1911-12-29",
+   "nokta": 12,
+   "olay": "Sun Yat-sen geçici cumhurbaşkanı seçildi",
+   "etkilenen_bolgeler": {
+    "DOGU-GD-ASYA": 20,
+    "GUNEY-ORTA-ASYA": 4
+   },
+   "secilen_dayanak": "The Cambridge History of China, cilt 11 (Cambridge UP) — TDV bu taneciği kapsamıyor",
+   "kademe": 2,
+   "destekleyen": [],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1912-05-12",
+   "nokta": 10,
+   "olay": "Onikiada'nın İtalyan işgali",
+   "etkilenen_bolgeler": {
+    "BALKANLAR": 8,
+    "DOGU-AVRUPA": 2
+   },
+   "secilen_dayanak": "rodos",
+   "kademe": 2,
+   "destekleyen": [],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1714-03-07",
+   "nokta": 10,
+   "olay": "Rastatt Antlaşması — İspanyol Veraset Savaşı sona erdi,",
+   "etkilenen_bolgeler": {
+    "BATI-ORTA-AVRUPA": 18,
+    "ITALYA": 2
+   },
+   "secilen_dayanak": "bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Treaty of Rastatt tarihyazımı)",
+   "kademe": 2,
+   "destekleyen": [],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1844-03-04",
+   "nokta": 10,
+   "olay": "Biskra'nın işgali — Sahra kapısının kaybı",
+   "etkilenen_bolgeler": {
+    "BATI-ORTA-AVRUPA": 10,
+    "IBERYA": 8,
+    "ITALYA": 2
+   },
+   "secilen_dayanak": "cezayir",
+   "kademe": 2,
+   "destekleyen": [],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1922-12-06",
+   "nokta": 10,
+   "olay": "İrlanda Serbest Devleti resmen kuruldu",
+   "etkilenen_bolgeler": {
+    "BATI-ORTA-AVRUPA": 16,
+    "KUZEY-AVRUPA": 4
+   },
+   "secilen_dayanak": "el-kitabi",
+   "kademe": 2,
+   "destekleyen": [],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1691-05-30",
+   "nokta": 10,
+   "olay": "Halha Moğolları Dolonnor'da Qing'e tâbi oldu",
+   "etkilenen_bolgeler": {
+    "DOGU-GD-ASYA": 18,
+    "GUNEY-ORTA-ASYA": 2
+   },
+   "secilen_dayanak": "cin--ulke",
+   "kademe": 2,
+   "destekleyen": [],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1812-05-28",
+   "nokta": 9,
+   "olay": "Bükreş Antlaşması ile Besarabya alındı ⭐",
+   "etkilenen_bolgeler": {
+    "BALKANLAR": 11,
+    "DOGU-AVRUPA": 6
+   },
+   "secilen_dayanak": "bukres-antlasmasi (TDV, doğrulanmış) — devletler.js:295'ten taşındı, doğrulandı",
+   "kademe": 1,
+   "destekleyen": [
+    "bukres-antlasmalari"
+   ],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1793-01-23",
+   "nokta": 9,
+   "olay": "İKİNCİ TAKSİM — Rusya ve Prusya yeniden böldü",
+   "etkilenen_bolgeler": {
+    "DOGU-AVRUPA": 12,
+    "BATI-ORTA-AVRUPA": 4,
+    "KUZEY-AVRUPA": 2
+   },
+   "secilen_dayanak": "Riasanovsky & Steinberg, A History of Russia",
+   "kademe": 2,
+   "destekleyen": [
+    "el-kitabi",
+    "bulunamadı"
+   ],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1871-01-18",
+   "nokta": 9,
+   "olay": "Alman İmparatorluğu'nun Versailles'de ilanı",
+   "etkilenen_bolgeler": {
+    "BATI-ORTA-AVRUPA": 10,
+    "KUZEY-AVRUPA": 8
+   },
+   "secilen_dayanak": "standart ders kitabı bilgisi — dunya:5, Avrupa'nın yeni büyük gücünün doğuşu olması nedeniyle",
+   "kademe": 1,
+   "destekleyen": [
+    "Blackbourn, History of Germany 1780-1918; devletler.js `almanya` künyesinin de kaydettiği 18 Ocak 1871 tarihi — standart ve tartışmasız"
+   ],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1829-09-14",
+   "nokta": 8,
+   "olay": "Edirne Antlaşması",
+   "etkilenen_bolgeler": {
+    "DOGU-AVRUPA": 6,
+    "ORTADOGU-IRAN": 6,
+    "BALKANLAR": 5
+   },
+   "secilen_dayanak": "TDV `yunanistan`: 'Rusya, Osmanlı Devleti'ne karşı savaş açtı ve 1827-1829 savaşında Rus orduları Edirne'ye kadar ilerleyerek bu şehri ele geçirdi.' Antlaşmanın tam tarihi TDV'de yok; dayanak: standart akademik kaynak (Britannica, 'Treaty of Adrianople').",
+   "kademe": 1,
+   "destekleyen": [
+    "ahiska (TDV) + cildir-eyaleti (TDV — 'Ahıska ve Ahılkelek Rusya'ya terkedildi... eyalet beş kazaya düştü') — bkz. data/olaylar_ek7.js",
+    "edirne-antlasmasi (TDV, doğrulanmış) — devletler.js:296'dan taşındı, doğrulandı",
+    "TDV `sirbistan`: Osmanlı Devleti 'bir fermanla Sırplar'a yeni haklar tanıdı' — kronoloji_rusya.js (1829-09-14, dunya:3).",
+    "edirne-antlasmasi",
+    "ahiska"
+   ],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1699-01-26",
+   "nokta": 8,
+   "olay": "Karlofça Antlaşması — Macaristan'ın Habsburg'a geçişi",
+   "etkilenen_bolgeler": {
+    "DOGU-AVRUPA": 10,
+    "BALKANLAR": 6
+   },
+   "secilen_dayanak": "TDV `avusturya`: \"bu antlaşmayla gerileyen Osmanlı gücü yerini Avusturya ve Rusya'ya bırakmıştır\" · depo savaslar.js (1699-01-26) · TDV `karlofca` slug CANLI",
+   "kademe": 1,
+   "destekleyen": [
+    "ingiltere (TDV) — dunya değeri kronoloji_habsburg.js ve kronoloji_venedik.js ile BİREBİR eşleştirildi",
+    "karlofca",
+    "TDV `karlofca`: antlaşmayla Osmanlı'nın Macaristan'dan (Temeşvar hariç) kesin olarak çekildiği anlatılır",
+    "depo `data/savaslar.js` (1699-01-26) · TDV `karlofca` slug CANLI · 🔴 `dunya:4` — Habsburg dosyasıyla BİREBİR AYNI, M-0873 çapa listesinde de 4"
+   ],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1824-06-01",
+   "nokta": 8,
+   "olay": "İkinci Suûdî Devleti'nin Riyad'da kurulması",
+   "etkilenen_bolgeler": {
+    "ORTADOGU-IRAN": 14,
+    "SAHRA-ALTI-AFRIKA": 1
+   },
+   "secilen_dayanak": "suudiler",
+   "kademe": 2,
+   "destekleyen": [],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1429-02-01",
+   "nokta": 7,
+   "olay": "Germiyan'ın vasiyetle ilhakı",
+   "etkilenen_bolgeler": {
+    "BALKANLAR": 12,
+    "DOGU-AVRUPA": 2
+   },
+   "secilen_dayanak": "germiyanogullari",
+   "kademe": 2,
+   "destekleyen": [],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1514-09-06",
+   "nokta": 6,
+   "olay": "Yavuz Sultan Selim'in Tebriz'e girişi",
+   "etkilenen_bolgeler": {
+    "ORTADOGU-IRAN": 9,
+    "DOGU-AVRUPA": 2
+   },
+   "secilen_dayanak": "tebriz",
+   "kademe": 2,
+   "destekleyen": [],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1832-06-15",
+   "nokta": 6,
+   "olay": "Şam'ın teslim olması",
+   "etkilenen_bolgeler": {
+    "DOGU-AVRUPA": 3,
+    "ORTADOGU-IRAN": 3
+   },
+   "secilen_dayanak": "dimask (TDV) — data/olaylar_ek4.js:168'de zaten doğrulanmış, Mısır perspektifine uyarlandı",
+   "kademe": 1,
+   "destekleyen": [
+    "dimask"
+   ],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1772-08-05",
+   "nokta": 6,
+   "olay": "BİRİNCİ TAKSİM — Rusya, Prusya ve Avusturya toprak aldı",
+   "etkilenen_bolgeler": {
+    "KUZEY-AVRUPA": 8,
+    "DOGU-AVRUPA": 4
+   },
+   "secilen_dayanak": "Riasanovsky & Steinberg, A History of Russia",
+   "kademe": 2,
+   "destekleyen": [
+    "el-kitabi",
+    "bulunamadı"
+   ],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1797-05-12",
+   "nokta": 6,
+   "olay": "Büyük Konsey'in kendini feshi — cumhuriyetin sonu",
+   "etkilenen_bolgeler": {
+    "ITALYA": 8,
+    "BALKANLAR": 4
+   },
+   "secilen_dayanak": "bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Fall of the Republic of Venice tarihyazımı)",
+   "kademe": 2,
+   "destekleyen": [
+    "Treccani, 'Manìn, Ludovico': Manin, cumhuriyetin Fransız silahlarıyla devrildiği anda (Mayıs 1797) dogeydi; \"Il doge abbandonò il potere con dignitosa fermezza\" · ⚠️ GÜN DOĞRULANMADI (kaynak 'Mayıs 1797' diyor)"
+   ],
+   "elenen_supheli": [
+    "Treccani, 'Manìn, Ludovico': Manin, cumhuriyetin Fransız silahlarıyla devrildiği anda (Mayıs 1797) dogeydi; \"Il doge abbandonò il potere con dignitosa fermezza\" · ⚠️ GÜN DOĞRULANMADI (kaynak 'Mayıs 1797' diyor)"
+   ]
+  },
+  {
+   "gun": "1682-09-16",
+   "nokta": 6,
+   "olay": "Tököli İmre'ye Orta Macar krallığı beratının verilmesi",
+   "etkilenen_bolgeler": {
+    "DOGU-AVRUPA": 10,
+    "BATI-ORTA-AVRUPA": 2
+   },
+   "secilen_dayanak": "tokoli-imre",
+   "kademe": 2,
+   "destekleyen": [],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1920-09-02",
+   "nokta": 6,
+   "olay": "Kızıl Ordu Buhara'yı ele geçirdi, emirlik sona erdi",
+   "etkilenen_bolgeler": {
+    "GUNEY-ORTA-ASYA": 10,
+    "ORTADOGU-IRAN": 2
+   },
+   "secilen_dayanak": "TDV, madde: buhara-hanligi",
+   "kademe": 2,
+   "destekleyen": [],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1598-08-20",
+   "nokta": 6,
+   "olay": "KÜÇÜM HAN'IN SON SAVAŞI — Sibir Hanlığı sona erdi",
+   "etkilenen_bolgeler": {
+    "VOLGA-URAL-SIBIRYA": 10,
+    "GUNEY-ORTA-ASYA": 2
+   },
+   "secilen_dayanak": "kucum-han (TDV)",
+   "kademe": 2,
+   "destekleyen": [],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1538-09-01",
+   "nokta": 5,
+   "olay": "Boğdan Seferi ve Bucak (Bender) bölgesinin ilhakı",
+   "etkilenen_bolgeler": {
+    "BALKANLAR": 6,
+    "DOGU-AVRUPA": 4
+   },
+   "secilen_dayanak": "bogdan",
+   "kademe": 2,
+   "destekleyen": [],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1537-10-01",
+   "nokta": 5,
+   "olay": "Barbaros'un Ege seferi: Venedik'in doğrudan yönettiği a",
+   "etkilenen_bolgeler": {
+    "BALKANLAR": 6,
+    "DOGU-AVRUPA": 4
+   },
+   "secilen_dayanak": "barbaros-hayreddin-pasa",
+   "kademe": 2,
+   "destekleyen": [],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1866-10-03",
+   "nokta": 5,
+   "olay": "Viyana Barışı — Venedik'in kaybı",
+   "etkilenen_bolgeler": {
+    "ITALYA": 6,
+    "BALKANLAR": 4
+   },
+   "secilen_dayanak": "bulunamadı — gün DOĞRULANMADI",
+   "kademe": 0,
+   "destekleyen": [],
+   "elenen_supheli": [
+    "bulunamadı — gün DOĞRULANMADI"
+   ]
+  },
+  {
+   "gun": "1685-10-15",
+   "nokta": 5,
+   "olay": "Thököly'nin Kassa'yı kaybetmesi ve Orta Macar Krallığı'",
+   "etkilenen_bolgeler": {
+    "DOGU-AVRUPA": 8,
+    "BATI-ORTA-AVRUPA": 2
+   },
+   "secilen_dayanak": "akademik: Kontler (2002), s. 166",
+   "kademe": 2,
+   "destekleyen": [],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1919-06-28",
+   "nokta": 5,
+   "olay": "Versay Antlaşması'nın imzalanması",
+   "etkilenen_bolgeler": {
+    "BATI-ORTA-AVRUPA": 6,
+    "ITALYA": 2,
+    "KUZEY-AFRIKA": 2
+   },
+   "secilen_dayanak": "birinci-dunya-savasi — antlaşmanın günü ve tarafları TDV'nin bu maddesinden doğrudan alındı: \"28 Haziran'da Almanya ile Versailles, 10 Eylül'de Avusturya ile Saint-Germain, 27 Kasım'da Bulgaristan ile Neuilly, 4 Haziran 1920'de Macaristan ile Trianon\". ⚠️ TANECİKLİK BOŞLUĞU (CLAUDE.md §4): TDV Alsas-Loren'in devrini bu ayrıntıda anlatmıyor; `versay-antlasmasi` · `versailles` · `alsas` sluglarının üçü de 302 (ÖLÜ). Dört şehrin el değiştirmesi atlasın KENDİ verisinden okunmuştur (1919-06-28'de almanya → fransa-cumhuriyet, 4 kayıt), tarih dışı bir iddia eklenmemiştir.",
+   "kademe": 1,
+   "destekleyen": [
+    "Blackbourn — Versay Antlaşması'nın 28 Haziran 1919 imzası; Metz'in Fransa'ya iadesi yerlesimler.js'te aynı döneme (t:1919-06-28) denk düşüyor",
+    "standart ders kitabı bilgisi — dunya:5, sonraki yirmi yılın dünya düzenini belirlemesi nedeniyle",
+    "el-kitabi"
+   ],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1461-08-15",
+   "nokta": 4,
+   "olay": "Amasra kolonisinin Osmanlı'ya düşmesi",
+   "etkilenen_bolgeler": {
+    "DOGU-AVRUPA": 4,
+    "ORTADOGU-IRAN": 4
+   },
+   "secilen_dayanak": "data/devletler.js `cenova` embedded kronoloji: \"Amasra kolonisi Osmanlı'ya düştü\"",
+   "kademe": 1,
+   "destekleyen": [
+    "TDV 'ceneviz'; TDV 'karadeniz'",
+    "trabzon"
+   ],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1516-08-28",
+   "nokta": 4,
+   "olay": "Halep'in Osmanlı'ya teslimi",
+   "etkilenen_bolgeler": {
+    "DOGU-AVRUPA": 6,
+    "ORTADOGU-IRAN": 2
+   },
+   "secilen_dayanak": "tdv:selim-i",
+   "kademe": 2,
+   "destekleyen": [
+    "halep"
+   ],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1918-10-01",
+   "nokta": 4,
+   "olay": "Şam'ın kaybı",
+   "etkilenen_bolgeler": {
+    "DOGU-AVRUPA": 6,
+    "ORTADOGU-IRAN": 2
+   },
+   "secilen_dayanak": "dimask",
+   "kademe": 2,
+   "destekleyen": [],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1701-01-18",
+   "nokta": 4,
+   "olay": "I. Friedrich'in kendini 'Prusya Kralı' ilan etmesi",
+   "etkilenen_bolgeler": {
+    "BATI-ORTA-AVRUPA": 4,
+    "KUZEY-AVRUPA": 4
+   },
+   "secilen_dayanak": "Clark, Iron Kingdom — I. Friedrich'in 18 Ocak 1701 Königsberg taç giyme töreni",
+   "kademe": 1,
+   "destekleyen": [
+    "prusya"
+   ],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1838-10-13",
+   "nokta": 4,
+   "olay": "Setif'in işgali",
+   "etkilenen_bolgeler": {
+    "ITALYA": 6,
+    "IBERYA": 2
+   },
+   "secilen_dayanak": "cezayir",
+   "kademe": 2,
+   "destekleyen": [],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1871-05-10",
+   "nokta": 4,
+   "olay": "Frankfurt Antlaşması — Alsace-Lorraine'in ilhakı",
+   "etkilenen_bolgeler": {
+    "BATI-ORTA-AVRUPA": 6,
+    "ITALYA": 2
+   },
+   "secilen_dayanak": "Blackbourn — Frankfurt Antlaşması'nın 10 Mayıs 1871 imzası; Metz'in yerlesimler.js kaydında d:'almanya' geçişi bu tarihle örtüşüyor",
+   "kademe": 1,
+   "destekleyen": [
+    "standart ders kitabı bilgisi — dunya:4, uzun vadeli Fransız-Alman geriliminin doğrudan kaynağı olması nedeniyle"
+   ],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1516-09-27",
+   "nokta": 3,
+   "olay": "Şam'ın Osmanlı'ya teslimi",
+   "etkilenen_bolgeler": {
+    "ORTADOGU-IRAN": 4,
+    "DOGU-AVRUPA": 2
+   },
+   "secilen_dayanak": "tdv:selim-i",
+   "kademe": 2,
+   "destekleyen": [
+    "selim-i"
+   ],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1840-10-10",
+   "nokta": 3,
+   "olay": "Beyrut ve sahil şehirlerinin elden çıkması",
+   "etkilenen_bolgeler": {
+    "ORTADOGU-IRAN": 2,
+    "DOGU-AVRUPA": 1
+   },
+   "secilen_dayanak": "trablussam (TDV) — data/olaylar_ek4.js:253'te zaten doğrulanmış, Mısır perspektifine uyarlandı",
+   "kademe": 1,
+   "destekleyen": [
+    "trablussam"
+   ],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1466-10-19",
+   "nokta": 3,
+   "olay": "İkinci Toruń Barışı — Gdańsk ve Kraliyet Prusyası kazan",
+   "etkilenen_bolgeler": {
+    "KUZEY-AVRUPA": 4,
+    "BATI-ORTA-AVRUPA": 2
+   },
+   "secilen_dayanak": "bulunamadı — TDV bu antlaşmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Second Peace of Thorn 1466 tarihyazımı)",
+   "kademe": 2,
+   "destekleyen": [
+    "el-kitabi"
+   ],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1807-07-09",
+   "nokta": 3,
+   "olay": "Tilsit Antlaşması — Prusya'nın topraklarının yarısını k",
+   "etkilenen_bolgeler": {
+    "BATI-ORTA-AVRUPA": 4,
+    "DOGU-AVRUPA": 2
+   },
+   "secilen_dayanak": "Clark, Iron Kingdom — Tilsit'in 9 Temmuz 1807 Prusya antlaşması",
+   "kademe": 1,
+   "destekleyen": [
+    "prusya"
+   ],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1852-12-04",
+   "nokta": 3,
+   "olay": "Ağvât'ın (Laghouat) düşüşü — Sahra kapısının açılması",
+   "etkilenen_bolgeler": {
+    "KUZEY-AFRIKA": 4,
+    "IBERYA": 2
+   },
+   "secilen_dayanak": "cezayir",
+   "kademe": 2,
+   "destekleyen": [],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1648-10-24",
+   "nokta": 3,
+   "olay": "Vestfalya Barışı'nın imzalanması",
+   "etkilenen_bolgeler": {
+    "BATI-ORTA-AVRUPA": 4,
+    "KUZEY-AVRUPA": 2
+   },
+   "secilen_dayanak": "Michael Roberts, The Swedish Imperial Experience 1560-1718 — dunya değeri kronoloji_habsburg.js:245'ten alındı",
+   "kademe": 1,
+   "destekleyen": [
+    "standart ders kitabı bilgisi · 🔴 dunya:5 — habsburg dosyasıyla BİREBİR AYNI (M-0873 hizalaması)",
+    "Die Welt der Habsburger, 'Endlich Friede' ve 'Dreißigjähriger Krieg 1618-1648': ayaklanmanın başlattığı savaşlar dizisi otuz yıl sonra Vestfalya Barışı ile sona erdi · ⚠️ gün DOĞRULANMADI",
+    "depo `data/kronoloji_habsburg.js` (aynı oturum) — `dunya:5`, M-0880'de ilan edilen değerle birebir",
+    "almanya"
+   ],
+   "elenen_supheli": [
+    "Die Welt der Habsburger, 'Endlich Friede' ve 'Dreißigjähriger Krieg 1618-1648': ayaklanmanın başlattığı savaşlar dizisi otuz yıl sonra Vestfalya Barışı ile sona erdi · ⚠️ gün DOĞRULANMADI"
+   ]
+  },
+  {
+   "gun": "1738-08-01",
+   "nokta": 2,
+   "olay": "Semendire'nin Avusturya'dan geri alınışı — 1737-39 Sava",
+   "etkilenen_bolgeler": {
+    "BALKANLAR": 2,
+    "DOGU-AVRUPA": 2
+   },
+   "secilen_dayanak": "semendire",
+   "kademe": 2,
+   "destekleyen": [
+    "kirim"
+   ],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1775-05-07",
+   "nokta": 2,
+   "olay": "Bukovina'nın (Kuzey Boğdan) Avusturya'ya terki",
+   "etkilenen_bolgeler": {
+    "BALKANLAR": 2,
+    "DOGU-AVRUPA": 2
+   },
+   "secilen_dayanak": "hotin",
+   "kademe": 2,
+   "destekleyen": [],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1663-09-24",
+   "nokta": 2,
+   "olay": "Uyvar'ın kaybı",
+   "etkilenen_bolgeler": {
+    "BALKANLAR": 2,
+    "BATI-ORTA-AVRUPA": 2
+   },
+   "secilen_dayanak": "depo savaslar.js (1663-09-24) · TDV `uyvar` slug CANLI · TDV `avusturya`: Avusturya \"Uyvar gibi önemli serhad kalelerinden bazılarını elden çıkarmak zorunda\" kaldı",
+   "kademe": 1,
+   "destekleyen": [
+    "uyvar"
+   ],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1685-08-19",
+   "nokta": 2,
+   "olay": "Uyvar'ın kaybı",
+   "etkilenen_bolgeler": {
+    "BALKANLAR": 2,
+    "BATI-ORTA-AVRUPA": 2
+   },
+   "secilen_dayanak": "uyvar",
+   "kademe": 2,
+   "destekleyen": [],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1803-04-30",
+   "nokta": 2,
+   "olay": "Vehhâbîlerin Mekke'yi ilk kez ele geçirmesi",
+   "etkilenen_bolgeler": {
+    "ORTADOGU-IRAN": 2,
+    "KUZEY-AMERIKA": 2
+   },
+   "secilen_dayanak": "mekke",
+   "kademe": 2,
+   "destekleyen": [],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1530-03-24",
+   "nokta": 2,
+   "olay": "Malta ve Trablusgarp'ın Şarlken tarafından tarikata ver",
+   "etkilenen_bolgeler": {
+    "KUZEY-AFRIKA": 2,
+    "BATI-ORTA-AVRUPA": 2
+   },
+   "secilen_dayanak": "TDV 'malta' md.: \"Kanûnî Sultan Süleyman transferred the Knights of Saint Jean from Rhodes, and Spain's King Carlos V settled them in Malta in 1530\" · Mallia-Milanes (ed.), Hospitaller Malta 1530-1798 · 🟢 `dunya:3` referansı BEN kuruyorum",
+   "kademe": 1,
+   "destekleyen": [
+    "malta"
+   ],
+   "elenen_supheli": []
+  },
+  {
+   "gun": "1477-01-05",
+   "nokta": 2,
+   "olay": "Nancy Savaşı — Cesur Charles'ın ölümü ve Burgonya'nın p",
+   "etkilenen_bolgeler": {
+    "BATI-ORTA-AVRUPA": 2,
+    "ITALYA": 2
+   },
+   "secilen_dayanak": "standart ders kitabı bilgisi — WebFetch ile doğrulanmadı",
+   "kademe": 0,
+   "destekleyen": [],
+   "elenen_supheli": [
+    "standart ders kitabı bilgisi — WebFetch ile doğrulanmadı"
+   ]
+  },
+  {
+   "gun": "1659-11-07",
+   "nokta": 2,
+   "olay": "Pireneler Antlaşması",
+   "etkilenen_bolgeler": {
+    "BATI-ORTA-AVRUPA": 2,
+    "IBERYA": 2
+   },
+   "secilen_dayanak": "standart akademik kaynak (Kamen)",
+   "kademe": 2,
+   "destekleyen": [
+    "standart ders kitabı bilgisi — WebFetch ile doğrulanmadı"
+   ],
+   "elenen_supheli": [
+    "standart ders kitabı bilgisi — WebFetch ile doğrulanmadı"
+   ]
+  },
+  {
+   "gun": "1918-11-03",
+   "nokta": 2,
+   "olay": "Villa Giusti Mütarekesi — Avusturya-Macaristan'ın tesli",
+   "etkilenen_bolgeler": {
+    "BALKANLAR": 2,
+    "ITALYA": 2
+   },
+   "secilen_dayanak": "bulunamadı — gün YAKLAŞIK, standart akademik konsensüs; bu oturumda ikincil doğrulama yapılmadı",
+   "kademe": 2,
+   "destekleyen": [
+    "birinci-dunya-savasi"
+   ],
+   "elenen_supheli": []
+  }
+ ],
+ "B_ARASTIRILAN": [
+  {
+   "gun": "1898-09-29",
+   "nokta": 5,
+   "kimlik": [
+    "vasulu",
+    "fransa-cumhuriyet"
+   ],
+   "etkilenen_bolgeler": {
+    "SAHRA-ALTI-AFRIKA": 6,
+    "KUZEY-AFRIKA": 4
+   },
+   "kaynak": "samori-ture (TDV)",
+   "hassasiyet": "GÜN DOĞRULANDI",
+   "alinti": "Samori Fransız birliğine esir düştü (29 Eylül 1898)"
+  },
+  {
+   "gun": "1903-07-27",
+   "nokta": 2,
+   "kimlik": [
+    "sokoto",
+    "ingiltere"
+   ],
+   "etkilenen_bolgeler": {
+    "KUZEY-AFRIKA": 2,
+    "SAHRA-ALTI-AFRIKA": 2
+   },
+   "kaynak": "sokoto (TDV)",
+   "hassasiyet": "GÜN DOĞRULANDI",
+   "alinti": "yaklaşık bir asır süren Sokoto halifeliğinin siyasî hâkimiyeti sona erdi (27 Temmuz 1903)"
+  },
+  {
+   "gun": "1916-05-23",
+   "nokta": 14,
+   "kimlik": [
+    "darfur",
+    "ingiltere"
+   ],
+   "etkilenen_bolgeler": {
+    "KUZEY-AFRIKA": 14,
+    "ORTADOGU-IRAN": 8,
+    "SAHRA-ALTI-AFRIKA": 6
+   },
+   "kaynak": "darfur (TDV)",
+   "hassasiyet": "🟡 YIL DOĞRULANDI · GÜN DOĞRULANMADI",
+   "alinti": "Ali Dînâr … 6 Kasım 1916'da öldürüldü; bir süre sonra da Dârfûr toprakları bir eyalet halinde İngiliz Sudanı'na bağlandı"
+  },
+  {
+   "gun": "1882-09-07",
+   "nokta": 14,
+   "kimlik": [
+    "mehdi"
+   ],
+   "etkilenen_bolgeler": {
+    "ORTADOGU-IRAN": 20,
+    "SAHRA-ALTI-AFRIKA": 8
+   },
+   "kaynak": "sudan (TDV)",
+   "hassasiyet": "🟡 YIL DOĞRULANDI · GÜN DOĞRULANMADI",
+   "alinti": "Mısır'ı işgal eden İngilizler Ekim 1882'de Hartum'a kuvvet sevkettiler"
+  },
+  {
+   "gun": "1903-01-10",
+   "nokta": 6,
+   "kimlik": [
+    "ace-sultanligi",
+    "hollanda-dogu-hint"
+   ],
+   "etkilenen_bolgeler": {
+    "DOGU-GD-ASYA": 8,
+    "GUNEY-ORTA-ASYA": 4
+   },
+   "kaynak": "ace (TDV)",
+   "hassasiyet": "🟡 YIL DOĞRULANDI · GÜN DOĞRULANMADI",
+   "alinti": "Son Açe Sultanı Tunku Muhammed Dâvûd'un 1903'te Hollandalılar'a boyun eğmesinden sonra"
+  },
+  {
+   "gun": "1901-09-02",
+   "nokta": 6,
+   "kimlik": [
+    "adamava",
+    "almanya"
+   ],
+   "etkilenen_bolgeler": {
+    "SAHRA-ALTI-AFRIKA": 10,
+    "KUZEY-AFRIKA": 2
+   },
+   "kaynak": "adamava (TDV)",
+   "hassasiyet": "🟡 YIL DOĞRULANDI · GÜN DOĞRULANMADI",
+   "alinti": "1901'de Adamava, İngiltere'ye bağlı Kuzey Nijerya ile Almanya'ya bağlı Kamerun arasında paylaşılmış"
+  },
+  {
+   "gun": "1911-04-12",
+   "nokta": 3,
+   "kimlik": [
+    "darul-kuti",
+    "fransa-cumhuriyet"
+   ],
+   "etkilenen_bolgeler": {
+    "SAHRA-ALTI-AFRIKA": 4,
+    "KUZEY-AFRIKA": 2
+   },
+   "kaynak": "bulunamadı",
+   "hassasiyet": "🔴 bulunamadı — TDV arandı, yok",
+   "alinti": "darulkuti ÖLÜ · orta-afrika-cumhuriyeti ve cad gövdelerinde Dârülkûtî/Ndélé HİÇ geçmiyor"
+  },
+  {
+   "gun": "1916-09-01",
+   "nokta": 25,
+   "kimlik": [
+    "almanya",
+    "ingiltere"
+   ],
+   "etkilenen_bolgeler": {
+    "SAHRA-ALTI-AFRIKA": 48,
+    "KUZEY-AFRIKA": 2
+   },
+   "kaynak": "bulunamadı",
+   "hassasiyet": "🔴 bulunamadı — TDV arandı, yok",
+   "alinti": "kamerun gövdesi (16.803 kar.) 1916'yı Kamerun bağlamında vermiyor; almanya (115.002 kar.) 1 kez ve ilgisiz"
+  }
+ ],
+ "C_OKUMADIM_14": {
+  "_damga": "🔴 `okumadım` — ARAMADIM BİLE. `bulunamadı` DEĞİL. Üçüncü damga (4 Eylül).",
+  "_nicin": "Ağırlık Doğu/GD Asya ve Avrupa — §4'e göre TDV kapsamı dışı, akademik kaynak gerekiyor ve bu turda ulaşamadım.",
+  "gunler": [
+   {
+    "gun": "1368-04-01",
+    "nokta": 27,
+    "kimlik": [
+     "yuan-hanedani",
+     "ming-hanedani"
+    ],
+    "bolgeler": {
+     "DOGU-GD-ASYA": 52,
+     "GUNEY-ORTA-ASYA": 2
+    }
+   },
+   {
+    "gun": "1782-04-06",
+    "nokta": 20,
+    "kimlik": [
+     "tonburi",
+     "siyam-chakri"
+    ],
+    "bolgeler": {
+     "DOGU-GD-ASYA": 22,
+     "GUNEY-ORTA-ASYA": 18
+    }
+   },
+   {
+    "gun": "1752-04-23",
+    "nokta": 19,
+    "kimlik": [
+     "toungoo",
+     "konbaung"
+    ],
+    "bolgeler": {
+     "GUNEY-ORTA-ASYA": 36,
+     "DOGU-GD-ASYA": 2
+    }
+   },
+   {
+    "gun": "1767-04-07",
+    "nokta": 19,
+    "kimlik": [
+     "ayutthaya",
+     "tonburi"
+    ],
+    "bolgeler": {
+     "DOGU-GD-ASYA": 20,
+     "GUNEY-ORTA-ASYA": 18
+    }
+   },
+   {
+    "gun": "1919-11-22",
+    "nokta": 12,
+    "kimlik": [
+     "mogolistan",
+     "cin-cumhuriyeti"
+    ],
+    "bolgeler": {
+     "DOGU-GD-ASYA": 20,
+     "GUNEY-ORTA-ASYA": 4
+    }
+   },
+   {
+    "gun": "1921-07-11",
+    "nokta": 12,
+    "kimlik": [
+     "cin-cumhuriyeti",
+     "mogolistan"
+    ],
+    "bolgeler": {
+     "DOGU-GD-ASYA": 20,
+     "GUNEY-ORTA-ASYA": 4
+    }
+   },
+   {
+    "gun": "1603-03-30",
+    "nokta": 6,
+    "kimlik": [
+     "irlanda",
+     "ingiltere"
+    ],
+    "bolgeler": {
+     "KUZEY-AVRUPA": 8,
+     "BATI-ORTA-AVRUPA": 4
+    }
+   },
+   {
+    "gun": "1860-03-18",
+    "nokta": 6,
+    "kimlik": [
+     "parma",
+     "sardinya",
+     "papalik",
+     "ferrara"
+    ],
+    "bolgeler": {
+     "ITALYA": 8,
+     "BALKANLAR": 4
+    }
+   },
+   {
+    "gun": "1644-10-01",
+    "nokta": 6,
+    "kimlik": [
+     "dashun",
+     "qing-hanedani",
+     "ming-hanedani"
+    ],
+    "bolgeler": {
+     "DOGU-GD-ASYA": 10,
+     "GUNEY-ORTA-ASYA": 2
+    }
+   },
+   {
+    "gun": "1918-10-26",
+    "nokta": 4,
+    "kimlik": [
+     "fransa-cumhuriyet"
+    ],
+    "bolgeler": {
+     "DOGU-AVRUPA": 6,
+     "ORTADOGU-IRAN": 2
+    }
+   },
+   {
+    "gun": "1833-06-30",
+    "nokta": 3,
+    "kimlik": [],
+    "bolgeler": {
+     "DOGU-AVRUPA": 2,
+     "BALKANLAR": 1
+    }
+   },
+   {
+    "gun": "1558-04-02",
+    "nokta": 3,
+    "kimlik": [
+     "lan-na",
+     "toungoo"
+    ],
+    "bolgeler": {
+     "GUNEY-ORTA-ASYA": 4,
+     "DOGU-GD-ASYA": 2
+    }
+   },
+   {
+    "gun": "1774-01-15",
+    "nokta": 3,
+    "kimlik": [
+     "konbaung",
+     "siyam-chakri"
+    ],
+    "bolgeler": {
+     "GUNEY-ORTA-ASYA": 4,
+     "DOGU-GD-ASYA": 2
+    }
+   },
+   {
+    "gun": "1918-11-28",
+    "nokta": 2,
+    "kimlik": [
+     "avusturya",
+     "romanya-kralligi"
+    ],
+    "bolgeler": {
+     "BALKANLAR": 2,
+     "DOGU-AVRUPA": 2
+    }
+   }
+  ]
+ }
+}

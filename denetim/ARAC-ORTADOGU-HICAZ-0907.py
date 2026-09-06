@@ -17,10 +17,22 @@ import os
 import subprocess
 import sys
 import tempfile
+import importlib.util as _ilu
 
 KOK = r"C:\Users\emrem\OneDrive\Desktop\TARİH COĞRAFYA SİTESİ"
 sys.path.insert(0, os.path.join(KOK, "arac"))
 os.chdir(KOK)
+
+# ⑩ KOL (7 Eylül 2026): pad() artık ORTAK. Bu dosyanın KENDİ pad()'i
+# (`s.rjust(10,"0")`) tam bu sürümde `yemen` için 29 sahte pozitif
+# üretmişti — dört ayrı alette dört ayrı yazım olmasının beşinci vakası.
+# Bkz. ARAC-TARIH-0907.py.
+_spec = _ilu.spec_from_file_location(
+    "_tarih0907", os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                "ARAC-TARIH-0907.py"))
+_tarih0907 = _ilu.module_from_spec(_spec)
+_spec.loader.exec_module(_tarih0907)
+pad = _tarih0907.pad
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 import girdi  # noqa: E402
 import renkler as R  # noqa: E402
@@ -83,14 +95,7 @@ for a in ADAY:
     # Ⓒ ilgili künyelerin durumu
     for kid in HAR.get(a, []):
         k = ID[kid]
-        # 🔴 ÜÇ HANELİ YIL TUZAĞI — `CLAUDE.md §3.5.0`de kayıtlı ve bir
-        #   gecede DÖRT alette çıkmış: "1281-01-01" < "897-01-01" dizgi
-        #   karşılaştırmasında TRUE, çünkü "1" < "8".
-        #   İlk yazımda pad KOYMADIM ve `yemen` için 29 SAHTE POZİTİF
-        #   ürettim — bu tuzağın BEŞİNCİ vakası, ve bu sefer bende.
-        def pad(s):
-            return s.rjust(10, "0") if s and s[4] != "-" else \
-                ("0" * (10 - len(s)) + s if s else s)
+        # (pad artık modül seviyesinde, ARAC-TARIH-0907'den — yukarı bkz.)
         asan = [x for x in kul if pad(x[3]) > pad(k["t"])]
         once = [x for x in kul if pad(x[2]) < pad(k["f"])]
         print("   Ⓒ DENETİM `%s` penceresi %s → %s · veri AŞAN %d · ÖNCE %d"
