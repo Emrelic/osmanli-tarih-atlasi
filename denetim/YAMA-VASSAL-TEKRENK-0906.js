@@ -61,6 +61,18 @@ harita.addLayer({ id: "osmanli-dolgu", type: "fill", source: "osmanli",
 //    artık hiçbir katmanla eşleşmiyor — bilinçli bırakıldı, çünkü o
 //    varsayılan yalnız `renk` alanı BOŞ olduğunda devreye giriyor.)
 
+// ── 🟢 SINANDI — İNMEDEN, CANLI SAYFADA (6 Eylül, 1683-07-14) ──────────
+// Yama `setPaintProperty` ile GEÇİCİ uygulandı, ölçüldü, GERİ ALINDI.
+// (`js/app.js` dosyasına dokunulmadı; sayfa eski rengine döndürüldü.)
+//    ① aynı dolgu          vassal #8e0b22 == osmanli #8e0b22      🟢
+//    ② iç hat KALDI        21.156 nokta tarandı · 178'inde
+//                          `osmanli-cizgi` render ediliyor        🟢 beklenen
+//    ③ dış çerçeve durdu   `imparatorluk-hale` 357 noktada        🟢
+//    ④ geçme yolu          1300-01-01'de `vassal` kaynağı 0 gövde 🟢
+//    geri alındı           fill-color yeniden #b2384a             🟢
+// ⚠️ ②'nin 🟢 olması "hat kayboldu" değil "hat KALDI" demek — bu yamanın
+//    bilinen ve kabul edilen sonucu (yukarıdaki kırmızı bloğa bak).
+//
 // ── İNDİKTEN SONRA KOŞULACAK SINAV ─────────────────────────────────────
 // ① Bir tâbi gövdesi ile Osmanlı gövdesi AYNI dolguda mı:
 //    queryRenderedFeatures ile iki nokta seç, fill-color'ları eşit olmalı.
