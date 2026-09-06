@@ -146,3 +146,52 @@ dört ölçüm aleti.
 
 **AÇIK:** Sohum (komşu kanıtı bölünüyor) · 1917 maddelerinin kaynağı
 (okumadım) · ~337 noktanın nokta nokta kaynak denetimi (şartname ⑧).
+
+---
+
+### 7 Eylül 2026 — ikinci parti
+
+**KİMLİK DENETİMLERİ — 161 nokta, YAMA YOK ve bu bir sonuç.**
+```
+yunanistan  97  başlangıç günleri antlaşma günleriyle hizalı, önceki
+                kimlikler doğru tarafta (İyon→ingiltere · Girit→OSMANLI-tâbi
+                · Kavala→bulgaristan-kralligi). Tek şüphe Sisam ve o bir
+                yazım hatası DEĞİL — modelin ifade edemediği ARA STATÜ.
+yugoslavya  64  36 sirbistan-kralligi'nden (künyeyle birebir) · 28
+                avusturya'dan 1918-11-11'de. Boşluk 0 · örtüşme 0.
+```
+🟡 Ve `1918-11-11` atlas çapında ölçüldü: **51 nokta üç künyeden erken**
+başlıyor, konvansiyon **kronolojide beyan edilmiş** ama **künyede değil**.
+Üç künyeye beyan cümlesi önerildi (`ONERI-KUNYE-BALKAN-0906.json`).
+
+**ÇUKUROVA — yamam DÜŞTÜ, bulgu AYAKTA.** ORTADOĞU'nun `isg:` modeli
+daha doğru (mütareke işgali, egemenlik devrolmadı). Dosya silinmedi,
+damgalandı. Ayakta kalan: 12 noktayı bulmak · Payas↔Dörtyol 9 km ·
+bekleyen yamanın bu dördü **yapısal olarak** kapsayamayacağı.
+
+🔴 **VE KENDİ HATAMI YAKALADIM:** üç künyeye aynı beyan metnini yazdım;
+`letonya` Habsburg ardılı DEĞİL (önceki kimlik `sovyet-rusya` 3/3).
+Aynı gün `isg: yunanistan` yamasında **önlediğim** hatayı burada yaptım —
+kuralı bildiğim için değil, **metnimi ölçtüğüm için** yakaladım.
+⇒ Kaynak ödünç vermek ile **gerekçe ödünç vermek** aynı sınıf.
+
+---
+
+### 7 Eylül 2026 — ⑪ KOL · ÇEKİRDEK KRONOLOJİ
+
+`denetim/OLAYLAR-EK23-HAZIR.js` · **36 madde** · `girdi._cevir` ile geçerli.
+```
+"bütün bekleyenler" 440 DEĞİL 39 — 418'i KÜNYE kronolojisi (devletler.js)
+mükerrer: 0.34 eşiği 55 SAHTE verdi · aynı gün ölçümü 1 GERÇEK verdi
+düşürülen 3: Zend (çekirdekte ZATEN VAR) + kendi iki 1917 mükerrerim
+```
+🔴 **Bulgu: TAŞIMA BİR ŞEMA ÇEVİRİSİDİR.** `tur` kuyrukta %100, çekirdekte
+%4; okuyan taraf `k` (`app.js:1898` · `denetle.py:3371`). `tur:` ile
+taşınan bir maddenin türü çekirdekte **hiçbir yerde okunmaz.**
+🟢 Ve regex yerine `node` kullanmak ölçülebilir bir kayıp önledi:
+`olaylar_ek22.js`teki tek madde `t: "` boşluklu biçimde ve **o madde Zend
+maddesiydi** — regex kullansam mükerreri göremezdim.
+
+**AÇIK:** beş `k:` — koordinatör hükmü **boş kalacak**, çünkü çekirdeğin
+`k` sözlüğünde *polity sonu* sınıfı YOK. Bir seçim değil, **sözlük eksiği**
+(SERHAT'ın *tâbi polity* eksiğiyle aynı sözlükte, ikisi birlikte Emre'ye).
