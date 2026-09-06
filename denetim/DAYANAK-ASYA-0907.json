@@ -284,16 +284,62 @@
     }
   ],
 
+  "_KORLUK_OLCUMU": {
+    "_SORU": "Koordinatörün sorusu: «`4c`/`4d` bunu görüyor mu — çünkü künye penceresi tutuyorsa hiçbir denetim ötmez (§3.5.-1).»",
+    "_YONTEM": "🟢 Alet TAKLİT EDİLMEDİ, KOŞTURULDU: `denetle.degismez4(Y)` doğrudan çağrıldı. Dönüş yapısı (5 öğe) ve tavan sabitleri VARSAYILMADI, DÖKÜLDÜ. §11: «bir aletin dönüş yapısı varsayılmaz, dökülür» — ve bu proje o dersi bir koordinatörün üç ayrı yanılgısıyla öğrenmişti.",
+    "_TABAN": "ihlal 9 · 4c(asan) 138 · 4d(once) 409 · künyesiz 898 · HAYALET_TOLERANS_GUN 400",
+    "_SONUC": "🔴 HEM KOORDİNATÖRÜN ÖNCÜLÜ HEM BENİM ÖNGÖRÜM YARI YARIYA ÇÜRÜDÜ. `1774-01-15` «künye penceresi tutuyor» sınıfına GİRMİYOR: dönem künyeden 8,22 YIL ÖNCE başlıyor, yani düpedüz bir `4d`, ve denetim onu GÖRÜYOR (3 kayıt: Chiang Mai · Chiang Rai · Nan).",
+    "_UC_AYRI_GORUNMEZLIK_MEKANIZMASI": {
+      "① SORU HİÇ SORULMUYOR": {
+        "_MEKANIZMA": "Tarih künye penceresinin İÇİNDE ⇒ ne 4c ne 4d ateşler. Tarih YANLIŞ olabilir ama denetim yanlışlığı SORMUYOR.",
+        "_VAKALAR": ["1368-04-01 (ming + yuan)", "1644-10-01 (qing + ming)", "1752-04-23 (toungoo + konbaung)", "1558-04-02 (lan-na + toungoo)"],
+        "_OLCUM": "4c 0 · 4d 0 · ihlal 0 — dördü de tam sessiz.",
+        "_SINIF": "§3.5.-1'in GERÇEK sınıfı: «denetim doğru çalışıyor, SORU HİÇ YOK.»",
+        "_CARE": "Yeni bir SORU gerekir (bir tarihin künye içinde ama yanlış olup olmadığını hiçbir değişmez sormuyor)."
+      },
+      "② SORU SORULUYOR, CEVAP TOLERANSTA ELENİYOR": {
+        "_MEKANIZMA": "🆕 `HAYALET_TOLERANS_GUN = 400`. Dört dalın dördü de `> 400` şartı arıyor (denetle.py:1836-1870).",
+        "_VAKA": "1767-04-07 · `tonburi` künye f 1767-12-28 · dönem f 1767-04-07 = **265 GÜN** ⇒ 265 < 400 ⇒ SESSİZCE ELENİR.",
+        "_CARE": "Bir EŞİK kararı — ve 400 günün gevşetilmesi 4d'yi 409'un üstüne çıkarır, yani ucuz değil."
+      },
+      "③ GÖRÜNÜYOR AMA DOLU BİR TAVANIN İÇİNDE GÖMÜLÜ": {
+        "_MEKANIZMA": "🆕 Kayıt raporlanıyor, ama kova tavanına kadar dolu ⇒ denetim `✓` basıyor ve kimse listeye bakmıyor.",
+        "_VAKA": "1774-01-15 · 4d'de 3 kayıt · `4d(once) = 409` ve `BEKLENEN_ONCE = 409` ⇒ **TAM TAVANDA, SIFIR PAY**.",
+        "_CARE": "Hiçbir alet değişikliği gerekmez — kayıt zaten orada, yalnız OKUNMUYOR."
+      }
+    },
+    "_DERS": "📌 ***Bir kusurun görünmezliği tek cinsten değildir.*** Üçünü tek satırda «denetim görmüyor» diye raporlasaydım üçüne de AYNI çare uygulanırdı — ve yalnız biri için doğru olurdu. §11'in «denetle.py altı noktaya aynı koordinatı önerdi» vakasının denetim tarafı: iki apayrı şeyi tek satırda söylemek, çareleri ters olsa bile aynı çareyi getirir.",
+    "_TAVAN_UYARISI": "🔴 KOVAMIN DIŞINDA AMA KRİTİK: `4c(asan) = 138` / `BEKLENEN_ASAN = 138` **ve** `4d(once) = 409` / `BEKLENEN_ONCE = 409`. **İKİSİ DE TAM TAVANDA, sıfır paylı.** Bekleyen yamalar taşınırsa tek bir yeni dönem denetimi `✗`a çevirir. Bu bir kalem değil bir UYARI — merge sırasını bağlar.",
+    "_YAN_BULGU_DOKUNULMADI": "`yuan-hanedani` 4c'de 3 kayıt: Kunming · Dali · Guiyang, dönem `1281 → 1382-01-06`, künye t 1368-09-14, **13,3 yıl aşım**. Yunnan'daki Yuan direnişi gerçekten 1382'ye kadar sürdü ⇒ bu bir VERİ hatası değil KÜNYE DARLIĞI olabilir (§3.5.0'ın ZEND sınıfı: künyeyi GENİŞLET, veri doğru). Kovamın dışı, DOKUNULMADI, sahibine."
+  },
+
+  "_TAKVIM_V3_CIN_EKSENI": {
+    "_GELEN_KURAL": "Koordinatörden: v3 = «KAYNAĞIN ÜLKESİ Gregoryen'e geçmeden önceki HER GÜN» (vaka: Jamaika 1655, İngiltere 1752'ye kadar Jülyen · İspanya 1582'den beri Gregoryen ⇒ 10 gün).",
+    "_OLCUM": "🔴 v3 ÇİN'E OLDUĞU GİBİ UYGULANAMIYOR, ve sebebi bir istisna değil bir VARSAYIM: v3, kaynağın ülkesinin JÜLYEN'de olduğunu ve sonra Gregoryen'e GEÇTİĞİNİ varsayıyor. **Çin hiçbir zaman Jülyen kullanmadı.** Çin 1912'ye kadar kendi ay-güneş takvimini kullandı ve doğrudan Gregoryen'e geçti.",
+    "_SONUC": "⇒ Çin olayları için Batı literatüründeki tarih zaten bir ÇEVRİMDİR, ve soru «Jülyen mi Gregoryen mi» değil ***«çeviren yazar hangi hedef takvime çevirdi»***. Ve bu, neşirlerin çoğunda BEYAN EDİLMEZ.",
+    "_BENIM_GUNLERIM": {
+      "1368-04-01": "⚫ ÖLÇÜLEMEDİ — 1368'de Jülyen-Gregoryen farkı 8 gündür; künyedeki `1368-01-23` (Ming'in ilânı) hangi hedefte verildiği YAZILI DEĞİL. Kaynak bulunamadığı için değil, kaynak SÖYLEMEDİĞİ için ölçülemedi.",
+      "1644-10-01": "⚫ ÖLÇÜLEMEDİ — aynı sebep; 1644'te fark 10 gün.",
+      "1558-04-02": "⚫ ÖLÇÜLEMEDİ — Burma vekāyi'nâme tarihi, ve o da kendi ay-güneş takvimindendir; literatürdeki 2 Nisan 1558 bir çevrimdir, hedefi beyan edilmemiş. 1558'de fark 10 gün.",
+      "1919-11-22 · 1921-07-11": "🟢 SORU YOK — Çin 1 Ocak 1912'de, Rusya Şubat 1918'de Gregoryen'e geçti. Bu iki gün zaten Gregoryen.",
+      "1767-04-07 · 1782-04-06": "🟡 Siyam Budist takvimi kullanıyordu; literatürdeki günler çevrimdir ama 1582 SONRASI olduğu için hedef neredeyse kesin Gregoryen. Yine de BEYAN EDİLMEMİŞ ⇒ çıkarım."
+    },
+    "_ONCEDEN_BEYAN": "⚠️ Bu sonucu (`ölçülemedi`) işe BAŞLARKEN koordinatöre yazdım — «belirleyemezsem `ölçülemedi` yazacağım, `bulunamadı` değil» — ki sonradan bir mazerete dönüşmesin. §11: mazeret de önceden yazılır.",
+    "_KURALA_ONERI": "🟢 v3'e bir ayak: kaynağın ülkesi Jülyen'de MİYDİ diye sorulmadan v3 uygulanamaz. Üç hâl var ve çareleri farklı: (a) ülke Jülyen'deydi ⇒ v3 aynen işler; (b) ülke Gregoryen'deydi ⇒ soru yok; (c) 🆕 ülke **hiçbirinde değildi** (Çin · Burma · Siyam · İslâm dünyası) ⇒ tarih zaten bir ÇEVRİMDİR ve sorulacak şey ÇEVİRENİN hedefidir, kaynağın takvimi değil. (c) çoğu zaman `ölçülemedi` ile biter, ve bu bir başarısızlık değil bir KAYITTIR."
+  },
+
   "_OZET": {
-    "gun": 8,
-    "nokta": 103,
-    "DOGRULANDI": 3,
+    "gun": 10,
+    "nokta": 127,
+    "_DEVIR_NOTU": "İlk teslimde 8 gün / 103 nokta idi. `1603-03-30` ⑲'a gitti (kayıtta KALDI, damgası değişmedi) ve `1919-11-22` + `1921-07-11` geldi ⇒ 8 − 0 + 2 = 10 kayıt, 103 + 24 = 127 nokta. `1603-03-30`un 6 noktası TOPLAMA DÂHİL çünkü kaydı silinmedi, YAZILMADI diye damgalandı.",
+    "DOGRULANDI": 4,
+    "DOGRULANDI_SAYFA_CEKILEMEDI": 1,
     "AY_SUPHELI_GUN_VE_YIL_DOGRULANDI": 1,
     "IKI_AYRI_KUSUR_OLCULDU": 1,
     "DAYANAK_ATLASIN_ICINDE_VERI_ONU_KULLANMIYOR": 2,
     "YAZILMADI_SAHIPLIK_SORULDU": 1,
-    "_NOKTA_AGIRLIKLI": "103 noktanın 42'si (1782-04-06 · 1767-04-07 · 1558-04-02) DOGRULANDI. 33'ü (1368-04-01 · 1644-10-01) dayanağı ATLASIN İÇİNDE ama kullanılmayan kovada. 19'u (1752-04-23) ay şüpheli + ardıl atlanmış. 3'ü (1774-01-15) iki kusurlu. 6'sı (1603-03-30) sahiplik beklemede.",
-    "_UYARI": "Bu özet ELLE yazıldı ve kayıtların kendisine karşı ÇAPRAZ SINANDI (VOLGA kolunda elle yazılan bir özet sınavda çürümüştü)."
+    "_NOKTA_AGIRLIKLI": "127 noktanın 54'ü DOGRULANDI (1782-04-06 20 · 1767-04-07 19 · 1558-04-02 3 · 1921-07-11 12). 12'si DOGRULANDI ama sayfa çekilemedi (1919-11-22). 33'ü (1368-04-01 · 1644-10-01) dayanağı ATLASIN İÇİNDE ama kullanılmayan kovada. 19'u (1752-04-23) ay şüpheli + ardıl atlanmış. 3'ü (1774-01-15) iki kusurlu. 6'sı (1603-03-30) ⑲'a devredildi, yazılmadı.",
+    "_UYARI": "Bu özet ELLE yazıldı ve kayıtların kendisine karşı ÇAPRAZ SINANDI (VOLGA kolunda elle yazılan bir özet sınavda çürümüştü — o yüzden burada her turda yeniden sınanıyor)."
   },
 
   "_KOORDINATORE": {
