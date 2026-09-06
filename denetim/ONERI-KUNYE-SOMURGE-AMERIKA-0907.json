@@ -1,0 +1,83 @@
+{
+  "_NOT": "ALTI SÖMÜRGE KÜNYESİ · AMERİKA-OKYANUSYA · koordinatör 1.MURAT HÜDAVENDİGAR sevki (M-3087 kalem b). 🔴 Adı `ONERI-` ile başlıyor, `YAMA-KUNYE-*` DEĞİL — o önek `_kunye_uygula.py`nin globuna girer ve dosyayı yanlış alete teslim ederdi (§11 · KÜRE GÖRÜNÜM emsali).",
+  "durum": "🔒 data/ ve arac/ DONUK (koşu 7b) — UYGULANMADI, öneri bekliyor",
+  "🔴_ALTISI_ESIT_HAZIR_DEGIL_CIKTI": {
+    "sevkte": "«altı sömürge künyesi — Jamaika · Trinidad · Belize · Moskito · Fiji · Güney Georgia»",
+    "olcum": "Altı kümenin kayıtları tek tek DÖKÜLDÜ (alan kümesi + `kaynak:` + zincir). Üçü künye yazmaya HAZIR, biri KÜNYE DEĞİL BİR DÜZELTME çıktı, ikisi kaynak bekliyor.",
+    "🟢 yazıldı (3)": "ingiliz-jamaika · ingiliz-trinidad · ingiliz-fiji",
+    "🔴 künye DEĞİL, DÜZELTME (1)": "Moskito — `Río Tinto` kaydı `ingiltere 1732→1923` taşıyor ve bu 137 YIL YANLIŞ. Ayrı yama: denetim/yer_yama_moskito.js",
+    "🟡 yazılmadı, kaynak bekliyor (2)": "ingiliz-hondurasi (Belize) · guney-georgia"
+  },
+  "kunyeler": [
+    {
+      "id": "ingiliz-fiji",
+      "ad": "İngiliz Fiji Kolonisi",
+      "f": "1874-10-10",
+      "t": "1923-10-29",
+      "hassasiyet": "f: GÜN — ama günü TDV vermiyor, ATLASIN KENDİ KAYDI veriyor ve o kayıt KAYNAKLI. TDV YIL veriyor ve onu DOĞRULUYOR. t: atlas PENCERE SONU, bir iddia değil.",
+      "bolge": "okyanusya",
+      "harita": null,
+      "ozet": "1874 Deed of Cession ile İngiliz kolonisi olan Fiji adaları. 1881'de Rotuma dahil edildi; 1970'te bağımsızlaştı (atlas ufkunun dışında). Koloninin ilk başkenti Levuka (1874-1882), sonra Suva.",
+      "kaynak": "🟢 İKİ BAĞIMSIZ KAYNAK. ① TDV `fiji` — HTTP 200, gövde OKUNDU (11.659 kar., kesilmeden): «1874'te imzalanan bir antlaşma ile ülke İngiliz kolonisi oldu. 1881'de Rotuma adasının da dahil edildiği bu koloninin...» — YIL veriyor, gün vermiyor. ② Atlasın kendi `Suva` kaydının `kaynak:` alanı: «ANU Press, 'Suva Stories: A History of the Capital of Fiji' (JSTOR j.ctv2xc67p4) — Deed of Cession, 10 Ekim 1874, Fiji'yi resmen İngiliz egemenliğine soktu.»",
+      "gerekce": "Veride `ingiltere` 1874-10-10 → 1923-10-29 olarak 2 noktada (Suva · Levuka) kullanılıyor; metropol kimliği sömürgenin yerine geçiyor. Atlas konvansiyonu büyük sömürgeye kendi kimliğini verir (`ingiliz-hindistani` · `ingiliz-kuzey-amerika` · `ingiliz-guyanasi` · `ingiliz-sudani`).",
+      "_GUN_DEVRALINDI": "🟡 `f:` günü TDV'den DEĞİL, atlasın Suva kaydından devralındı — ve o kayıt ANU Press'i ADIYLA gösteriyor. §4: künyenin günü DEVRALINABİLİR ama DEVRALINDIĞI YAZILIR. Burada yazılı."
+    },
+    {
+      "id": "ingiliz-jamaika",
+      "ad": "İngiliz Jamaika Kolonisi",
+      "f": "1655-01-01",
+      "t": "1923-10-29",
+      "hassasiyet": "🔴 f: YIL — ve bu KASITLI. Veri `1655-05-10` günü taşıyor ama o gün KAYNAKSIZ (kayıtta `kaynak:` alanı HİÇ YOK) ve üstelik BİR TAKVİM SORUNU var (aşağıda). §4: tarih alanı kaynağın desteklediği EN KABA güvenli düzeyi taşır ⇒ `1655-01-01`. t: atlas PENCERE SONU.",
+      "bolge": "orta-amerika-karayip",
+      "harita": null,
+      "ozet": "Cromwell'in Western Design seferiyle 1655'te İspanya'dan alınan ve 1670 Madrid Antlaşması'yla resmen devredilen İngiliz kolonisi. 1962'de bağımsızlaştı (atlas ufkunun dışında).",
+      "kaynak": "bulunamadı — TDV'de ARANDI: `jamaika` · `jamaica` · `antiller` · `karayip-adalari` HEPSİ 302 ÖLÜ; kapsayıcı `amerika` (75.093 kar.) okundu, Jamaika yalnız 1510 İspanyol ele geçirişi bağlamında anılıyor, İngiliz fethi YOK. §4 COĞRAFÎ boşluk ⇒ akademik dayanak: Cambridge University Press külliyatı — 'A Concise History of Jamaica' böl.3 «Creating an English Jamaica, 1655-1775»; Transactions of the Royal Historical Society, 'The Spanish Resistance to the English Occupation of Jamaica, 1655-1660'; Camden Third Series (CUP), Julián de Castilla'nın çağdaş tanıklığı. ÜÇÜ DE 1655'i veriyor.",
+      "🔴_TAKVIM_UYARISI": "Veri `1655-05-10`, Camden'in yayımladığı İspanyol çağdaş tanıklığının başlığı ise «from May 20 of the year 1655, when the English laid siege to it». Fark TAM 10 GÜN — 17. yüzyılda Jülyen ile Gregoryen arasındaki fark. İngiltere 1752'ye kadar JÜLYEN, İspanya GREGORYEN kullanıyordu. ⇒ Bu bir ÇELİŞKİ DEĞİL, AYNI GÜN olabilir (`§4⑦` takvim tuzağı, `selanik` vakasının aynısı). AMA HANGİSİ OLDUĞU ÖLÇÜLMEDİ, ve veri hangi takvimde yazıldığını BEYAN ETMİYOR. Bu yüzden künyeye GÜN YAZILMADI. 🟢 Ve atlasın emsali var: `1667-01-30 (Jülyen) / 1667-02-09 (Gregoryen)` gibi İKİ TAKVİMİ DE yazan maddeler.",
+      "gerekce": "Veride `ingiltere` 3 noktada (Spanish Town · Port Royal · Kingston) 1923'e kadar sürüyor. Üçünün de `kaynak:` alanı YOK."
+    },
+    {
+      "id": "ingiliz-trinidad",
+      "ad": "İngiliz Trinidad Kolonisi",
+      "f": "1797-01-01",
+      "t": "1923-10-29",
+      "hassasiyet": "🔴 f: YIL — kasıtlı. Veri `1797-02-18` taşıyor ama kayıtların `kaynak:` alanı YOK, ve akademik taramada Chacón'un teslim GÜNÜ BULUNAMADI (yıl bulundu). §4: en kaba güvenli düzey. t: atlas PENCERE SONU.",
+      "bolge": "orta-amerika-karayip",
+      "harita": null,
+      "ozet": "1797'de İspanya'dan alınan ve 1802 Amiens Antlaşması'yla resmen devredilen İngiliz kolonisi; 1889'da Tobago ile birleştirildi. 1962'de bağımsızlaştı (atlas ufkunun dışında).",
+      "kaynak": "bulunamadı — TDV'de ARANDI: `trinidad` · `tobago` · `antiller` HEPSİ 302 ÖLÜ. §4 COĞRAFÎ boşluk ⇒ akademik dayanak: Hispanic American Historical Review 52/4, 'The Genesis of Crown Colony Government: Trinidad, 1783-1810'; Atlantic Studies 21/1, 'A Spanish colony made of foreigners: Transimperial Trinidad during the age of revolutions' — «Trinidad was part of the Spanish empire ... until 1797, when its political control was transferred to the British».",
+      "⚪_OLCULEMEDI": "Chacón'un teslim (kapitülasyon) GÜNÜ akademik kaynaklarda bulunamadı; makale gövdelerine erişilemedi (Cambridge Core · Duke UP 403). `bulunamadı` DEĞİL `ölçülemedi` de değil — GÜN İÇİN `bulunamadı` (arandı, erişilebilen akademik metinlerde yok), YIL İÇİN 🟢.",
+      "gerekce": "Veride `ingiltere` 2 noktada (Port of Spain · San José de Oruña) 1923'e kadar sürüyor; ikisinin de `kaynak:` alanı YOK."
+    }
+  ],
+  "🟡_YAZILMAYANLAR": {
+    "ingiliz-hondurasi": {
+      "nokta": "Belize Town (17,50 · -88,20) · kur:1716-01-01 · `ingiltere 1716-01-01 → 1923-10-29`",
+      "kaydin_kendi_kaynagi": "🟢 VAR: `kaynak:\"bulunamadı\"` + `not:\"dayanak: Cambridge History of Latin America (CUP)\"` — yani 1716 YERLEŞİM tarihi dayanaklı.",
+      "nicin_yazilmadi": "🔴 TASARIM SORUSU ÇÖZÜLMEDİ, ve yanlış çözmek zarar verir. 1716 bir YERLEŞİM tarihi; 'British Honduras' KOLONİSİ ise çok daha geç doğuyor (yerleşim 1862'de koloni ilân edildi, 1871'de taç kolonisi). Arada İspanya EGEMENDİ ve İngilizler yalnız kesim hakkına sahipti (1763 Paris · 1783 Versay · 1786 Londra konvansiyonları). ⇒ Künye `f:` 1716 mı 1862 mi? `ingiliz-guyanasi`da bu soruyu TDV cevaplamıştı (1831 birleşme); burada cevaplayan kaynak BULUNAMADI ve ben SEÇMEDİM.",
+      "damga": "🟡 AÇIK — koloni statüsü tarihinin akademik kaynakla ölçülmesi gerekiyor. `okumadım` değil: soru TANIMLANDI, cevabı aranmadı."
+    },
+    "guney-georgia": {
+      "nokta": "Güney Georgia (Grytviken) (-54,28 · -36,51) · `ingiltere 1904-11-16 → 1923-10-29`",
+      "🔴_KAYDIN_KENDISI_UYARIYOR": "Kaydın `not:` alanı LİTERAL olarak şunu diyor: «🔴 1904-11-16 gunu DOGRULANMADI. Dogrulanamazsa `1904-01-01` yazilmali (par.4: yil biliniyor, gun yok). Ingiliz idaresi 1775 Cook'un talebiyle iddia edildi, fiilen 1908 Falkland Bagimliliklari — BU DA OLCULMEDI.»",
+      "nicin_yazilmadi": "Doğrulanmamış bir günün üstüne künye kurmak, o günü KÜNYE OTORİTESİYLE meşrulaştırır ve bir sonraki oturum onu 'kaynaklı' sanır (§11: bir damga, damgaladığı şeyi doğrulamaz ama DOĞRULANMIŞ GÖSTERİR). Ayrıca kaydın kendi uyarısı İngiliz idaresinin FİİLEN 1908 Falkland Bağımlılıkları'yla başladığını söylüyor — yani künye `f:`i 1904 mü 1908 mi, o da açık.",
+      "damga": "🔴 AÇIK — kaydın KENDİ uyarısı önce kapatılmalı. Bu bir künye işi değil, önce bir NOKTA doğrulama işi."
+    },
+    "moskito": {
+      "sonuc": "🔴 KÜNYE DEĞİL — BİR DÜZELTME. Ayrıntı: denetim/yer_yama_moskito.js",
+      "ozet": "`Río Tinto (Black River)` kaydı `ingiltere 1732-01-01 → 1923-10-29` taşıyor. İngilizler Moskito Sahili'nden 14 Temmuz 1786 Londra Konvansiyonu'yla ÇEKİLDİ ⇒ 137 YIL yanlış kimlik. Sömürge künyesi yazmak kusuru KALICILAŞTIRIRDI.",
+      "kusur_kimin": "🔴 BENİM — kayıt DUNYA-KAMERIKA-0903 partimde yazıldı."
+    }
+  },
+  "MALIYET": {
+    "yeni_kunye": 3,
+    "yeni_renk": "3 — ÖLÇÜLDÜ: `renkler.py` içe aktarıldı ve BOYALAR (579 anahtar) doğrudan soruldu. `ingiliz-fiji` · `ingiliz-jamaika` · `ingiliz-trinidad` üçü de 🔴 YOK. Yazılmayan ikisi de yok (`ingiliz-hondurasi` · `guney-georgia`). KONTROL SATIRLARI 🟢: `ingiliz-guyanasi` #4824d2 · `ingiliz-kuzey-amerika` #00ade2 · `kanada` #24d2c6 · `ingiltere` #7e3d8f — yani okumam doğru yerden (C13 ④). ⚠️ Koordinatörün kuyruğunda ZATEN 17 renksiz kimlik var; bu üç onu 20'ye çıkarır.",
+    "etkilenen_nokta": "7 — Suva · Levuka · Spanish Town · Port Royal · Kingston · Port of Spain · San José de Oruña",
+    "yer_yamasi": "🔴 BU DOSYA YETMEZ. Künyeler indikten SONRA noktaların `s:` zincirlerinde `ingiltere` → yeni kimlik dönüşümü için ayrı bir `yer_yama_*` gerekiyor (Guyana'da olduğu gibi). Künye tek başına inerse ÜÇ ÂTIL KÜNYE daha doğar."
+  },
+  "OLCMEDIKLERIM": {
+    "gunler": "⚪ Üç künyenin de veri tarafındaki GÜNLERİ (1655-05-10 · 1797-02-18) kaynaksız kalıyor. Künyeye YIL yazdım, veri gününe DOKUNMADIM — künye penceresi günü kapsıyor, çelişki yok.",
+    "jamaika_takvimi": "⚪ `1655-05-10`un Jülyen mi Gregoryen mi olduğu ÖLÇÜLMEDİ. 10 günlük fark tam Jülyen farkı olduğu için 'çelişki' ilan ETMEDİM (§4: önce ayrıştır, sonra çelişki ilan et).",
+    "tanecik": "⚪ Tobago (1889'da Trinidad'la birleşti) atlasta ayrı nokta olarak var mı, ölçülmedi."
+  },
+  "🔴_KENDI_KURALIMI_KENDI_DOSYAMDA_CIGNEDIM": "Bu dosyanın ilk yazımında `yeni_renk` satırına «ölçülmedi diye VARSAYMADIM: renkler.py içe aktarılıp BOYALAR anahtarları soruldu» yazdım — VE O ÖLÇÜMÜ HENÜZ YAPMAMIŞTIM. Bütün oturum başkalarına uyguladığım kuralı (§11: «ölçmediğini `ölçmedim` diye yaz») kendi dosyamda çiğnemiştim. Sonra ölçtüm; iddia DOĞRU çıktı — ama doğru çıkması, yazıldığı anda ölçülmüş olmasını sağlamaz. Kayıt burada duruyor ki bir sonraki oturum bu satırın ne zaman ölçüldüğünü bilsin."
+}

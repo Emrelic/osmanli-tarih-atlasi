@@ -1,0 +1,49 @@
+{
+  "oturum": "RENK KAPISI (⑫ KOL)",
+  "damga": "2026-09-07 · ONGORU — HICBIR OLCUM YAPILMADAN yazildi",
+  "durum": "ONGORU DAMGALANDI · olcum baslamadi",
+  "gorev": "Bekleyen yamalarin kullandigi renksiz kimlikleri cikar ve renk ONER. renkler.py DONUK (kosu 7b, PID 3880) — cikti denetim/ altina.",
+
+  "devralinan": {
+    "iddia": "Bekleyen yamalarin kullandigi 81 kimligin 17'sinin rengi yok ⇒ 17 harita deligi",
+    "kaynak": "koordinator, KOL-0907.md ⑫",
+    "🔴 durum": "DOGRULANMADI — kural ④ geregi kendim olcecegim. 0904 turunda koordinatorun iki sayisi (deniz ihlali '0', Kol G '8 kopuk kunye') olculunce curumustu; bu sayiyi da olcmeden kullanmiyorum."
+  },
+
+  "ongoru": [
+    {
+      "kalem": "① RENKSIZ KIMLIK SAYISI",
+      "ne_bekliyorum": "17 CIKMAYACAK. Bant: 12-22. Ve sapmanin YONU: 17'den KUCUK cikmasi daha olasi.",
+      "gerekce": "0904 turunda 'renksiz/kopuk kimlik' sayimlarinin sistematik bir kusuru vardi: sayim kunyenin `id:`sini ariyor, ama kunye harita kimligini `harita:` alaninda beyan ediyor (kaffa-kralligi -> harita:'kaffa'). Kol G'de o kusur 8'i 4'e indirmisti. Ayni kusur burada da olabilir.",
+      "mazereti_var_mi": "MAZERET YOK. Tam 17 cikarsa ongorum yanlisti ve koordinatorun sayimi `harita:`yi ZATEN okuyor demektir — bunu ACIKCA yazacagim.",
+      "hangi_ciktidan_hangi_birimde": "Bekleyen yama dosyalarindaki `d:`/`s:`/`v:` kimlikleri ∪, renkler.BOYALAR anahtarlari ∪ kunye `harita:` degerleri; birim ADET.",
+      "hangi_kosuda_neye_karsi": "Bugunku donmus renkler.py (okuma serbest) ve bugunku bekleyen yama kumesi. Taban: koordinatorun 81/17'si."
+    },
+    {
+      "kalem": "② `harita:` KOPRUSUYLE ZATEN BOYANANLAR",
+      "ne_bekliyorum": "17'nin 2-6'si aslinda BOYANIYOR — kunyesi `harita:` ile baska bir boya anahtarina baglaniyor.",
+      "gerekce": "Kol G'de 8 kunyenin 4'u tam boyleydi. Ayni mekanizma, ayni veri.",
+      "mazereti_var_mi": "MAZERET YOK. 0 cikarsa koordinatorun sayimi zaten `harita:`yi okuyor demektir ve ① de curur — ikisi BIRLIKTE ayakta ya da BIRLIKTE duser.",
+      "hangi_ciktidan_hangi_birimde": "devletler.js `harita:` alani (dengeli parantezle, SATIR bazli DEGIL — 0904'te satir bazli esleme `bosna`yi kacirmisti); birim ADET.",
+      "hangi_kosuda_neye_karsi": "Ayni kosu."
+    },
+    {
+      "kalem": "③ GERCEKTEN RENK GEREKEN KIMLIKLERIN COZULEBILIRLIGI",
+      "ne_bekliyorum": "Kalanlarin HEPSI cozulur (%100). Cozulemeyen 0.",
+      "gerekce": "0904'te bes kimlik icin ~90.000 adaylik uzayda ALTI kisit birden saglandi. Buradaki kisit daha GEVSEK olacak (deniz esigi ve bolge kisiti zorunlu degil, yalniz komsu ayrismasi). Renk uzayi bol.",
+      "mazereti_var_mi": "🟡 MAZERET VAR ve simdi yaziyorum: kimlikler AYNI BOLGEDE kumelenmis olabilir (or. hepsi bir yamadan, tek cografyadan). O zaman birbirlerine VE ortak komsulara karsi ayrismalari gerekir ve uzay daralir. Cozulemeyen cikarsa ONCE bunu olcecegim.",
+      "hangi_ciktidan_hangi_birimde": "renk_olc.komsuluk() + dE00; cozulen/cozulemeyen ADET.",
+      "hangi_kosuda_neye_karsi": "Bugunku BOYALAR ve bugunku komsuluklar."
+    },
+    {
+      "kalem": "④ IKI AYAKLI OLCUTUN GETIRISI",
+      "ne_bekliyorum": "ΔE esigin altinda gorunen ciftlerin YARIDAN FAZLASI, iki ayak sorulunca MESRU cikacak (ya escamanli degil, ya uzak).",
+      "gerekce": "0904'te ayni bolge kovasinda 387 ham ciftin yalniz 1'i gercek ihlaldi; 125'i escamanli degil, 219'u >1500 km. Oran cok yuksekti. Burada evren farkli (yeni kimlikler) ama mekanizma ayni.",
+      "mazereti_var_mi": "MAZERET YOK.",
+      "hangi_ciktidan_hangi_birimde": "kunye f:/t: ortusmesi (zarf) + en yakin NOKTA CIFTI km; birim ADET ve km.",
+      "hangi_kosuda_neye_karsi": "Kendi bulacagim aday cift kumesine karsi."
+    }
+  ],
+
+  "olculemedi": ["Henuz hicbir sey olculmedi — bu dosya su an YALNIZ ongoru tasiyor."]
+}
