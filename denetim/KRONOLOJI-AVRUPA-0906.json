@@ -1,0 +1,48 @@
+{
+  "_NOT": "🔴 BU ÖNERİ `_kronoloji_uygula.py` İLE İNMEZ — o alet `data/devletler.js`in künye-içi `kronoloji:[]` dizinine yazıyor (satır 47/199: `hedef = DEVLETLER`), ÇEKİRDEĞE değil. `Değişmez 2s`nin evreni `data/olaylar*.js` (YONTEM §⑤) ve o dosyalara yazan bir uygulayıcı ARANDI, BULUNAMADI. ⇒ ELLE inecek. Ve ikinci bir engel: aletin varsayılan globu `denetim/KRONOLOJI-*0905*.json`, bu dosya 0906 ⇒ varsayılanla koşulursa ZATEN tutulmaz.",
+  "oturum": "AVRUPA · 1923 sınır denetimi",
+  "durum": "🔒 data/ DONUK (koşu 7b) — UYGULANMADI",
+  "hedef_dosya": "data/olaylar*.js (ÇEKİRDEK — Değişmez 2'nin evreni)",
+
+  "NICIN_GEREKIYOR": {
+    "kural": "YONTEM §⑤: «±30 günü geçmek YETMEZ — maddenin KONUSU İLGİLİ olmalı. İlgisizse çekirdek maddesi de yazılır.»",
+    "olcum": "`1922-12-06` için ÇEKİRDEKTE (1317 madde) en yakın üç madde: 19 gün «VI. Mehmed Vahdeddin'in İstanbul'dan ayrılışı» · 35 gün «Saltanatın kaldırılması» · 56 gün «Mudanya Mütarekesi».",
+    "hukum": "Üçü de ±30/±56 bandında ama ÜÇÜ DE ALAKASIZ — hiçbiri İrlanda'dan söz etmiyor. Manda günlerinde ölçülen desenin aynısı (Sevr · Trianon · Sakarya). ⇒ Sayaç kapalı görünür, BORÇ kapanmaz."
+  },
+
+  "MADDELER": [
+    {
+      "t": "1922-12-06",
+      "k": "siyaset",
+      "etiket": ["siyaset", "antlasma"],
+      "b": "İrlanda Serbest Devleti'nin kuruluşu",
+      "gun": "6 Aralık 1922",
+      "yer": "Dublin, İrlanda",
+      "kisiler": "V. George",
+      "d": "6 Aralık 1922'de İrlanda Serbest Devleti anayasası yürürlüğe girdi ve V. George'un bildirisiyle yeni devlet resmen kuruldu. İrlanda'nın otuz iki kontluğundan yirmi altısı Britanya'dan ayrılarak Britanya İmparatorluğu içinde dominyon statüsü kazandı ve Dublin başkent oldu. Kuzey İrlanda'nın altı kontluğu ise antlaşmanın tanıdığı hakla ertesi gün Serbest Devlet'ten çekilerek Birleşik Krallık'ta kaldı; adanın bölünmesi böylece kalıcılaştı.",
+      "kaynak": "RTÉ Century Ireland (İrlanda ulusal yayıncısı RTÉ'nin Boston College ortaklığıyla yürüttüğü akademik tarih projesi): «The constitution of the Irish Free State became law on 6 December 1922.» — TDV kapsam dışı, Batı Avrupa TDV kapsamı %0 (§4).",
+      "duygu": ["🏛"],
+      "yer_id": "Dublin"
+    }
+  ],
+
+  "KAYNAK_DAMGASI": {
+    "birincil": "🟢 RTÉ Century Ireland — gövdesi ÇEKİLDİ ve cümle BİREBİR alındı. §4'ün 🔴 listesinin hiçbir maddesine girmiyor; yayıncısı ve akademik ortaklığı sayfanın kendisinde yazılı.",
+    "ikinci_bagimsiz": "🟢 Aynı gün ikinci bir taramada da doğrulandı: 6 Aralık 1922'de V. George'un bildirisi, ve Kuzey İrlanda'nın 7 Aralık 1922'de opt-out'u.",
+    "britannica": "⚪ ÖLÇÜLEMEDİ — HTTP 403 (§4⑤: HTTP kodu içerik hakkında bir iddia DEĞİLDİR).",
+    "TDV": "🔴 KAPSAM DIŞI — Batı Avrupa TDV kapsamı %0, ÖLÇÜLMÜŞ (§4)."
+  },
+
+  "YAZILMAYAN_MADDE_VE_NICIN": {
+    "aday": "Kuzey İrlanda'nın 7 Aralık 1922'de Serbest Devlet'ten çekilmesi",
+    "hukum": "YAZILMADI. Atlasta o gün bir KIRILMA ÜRETMİYOR: Belfast ve Derry `ingiltere` olarak kesintisiz sürüyor ve bu DOĞRU. Bir gün için `irlanda-serbest-devlet` yazıp ertesi gün geri almak §8'in «sıfır/çok kısa dönem» riskini taşır ve emsali yok. ⇒ Olay GERÇEK, ama atlasın modelinde ifade edilmiyor; veri SUSUYOR (§11)."
+  },
+
+  "🟡_ACIK_KALEM_BENIM_URETMEDIGIM": {
+    "gun": "1603-03-30",
+    "olcum": "Atlasta 12 kayıt bu günü kullanıyor (`irlanda` → `ingiltere` geçişi: Athlone · Belfast · Derry · Donegal · Sligo · Tralee). ÇEKİRDEKTE en yakın madde 88 GÜN ve alakasız («Deli Hasan Paşa isyanı») ⇒ `Değişmez 2s` bu günde AÇIK.",
+    "olay": "Mellifont Antlaşması — Hugh O'Neill'in 30 Mart 1603'te Mountjoy'a teslim olması, Dokuz Yıl Savaşı'nın ve örgütlü Gal direnişinin sonu.",
+    "damga": "🔴 MADDE YAZILMADI — kaynak turu TAMAMLANMADI. Tarih üç bağımsız aramada çakışıyor ama Oxford Reference gövdesi HTTP 403 döndü ⇒ doğrudan alıntı ÖLÇÜLEMEDİ. §4: doğrulanmamış kaynakla madde yazılmaz.",
+    "sinir": "Bu benim ÜRETTİĞİM bir kırılma DEĞİL — mevcut veride duruyor, yani mevcut bir borç. Yeni borç doğurmuyorum; kalemi AÇIK bırakıp bildiriyorum."
+  }
+}

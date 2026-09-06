@@ -80,6 +80,18 @@ function zincirB(y) {
 
 const j = (o) => JSON.stringify(o);
 const satir = (y, z) => "  { ad: " + j(y.ad) + ", s: " + j(z) + " },";
+// KALEM B satırı `not:` de taşır — koordinatörün şartı:
+// "1916-05-23'ü SİLME, not: alanında kalsın. Bir günü kaldırmak, onun
+//  bir gün var olduğunu da siler."
+// `not` skaler alan: `_sahiplik_uygula.py:255` CATISABILIR içinde.
+const NOT_B = "1916-05-23: verinin ÖNCEKİ günü. Dayanağı ÖLÇÜLEMEDİ — " +
+  "TDV `sudan` gövdesi o günü ANMIYOR. (el-Fâşir'in askerî düşüşü " +
+  "olabilir; bu bir TAHMİN, kaynak DEĞİL.) Yeni gün 1916-11-06: TDV " +
+  "«Ali Dinar 6 Kasım 1916'da öldürüldü» + «Dârfûr toprakları bir " +
+  "eyalet halinde İngiliz Sudanı'na bağlandı», ve `darfur` künyesinin " +
+  "kendi t: değeriyle BİREBİR.";
+const satirB = (y, z) => "  { ad: " + j(y.ad) + ", s: " + j(z) +
+  ", not: " + j(NOT_B) + " },";
 
 const basA = `// -*- coding: utf-8 -*-
 // YER_YAMA_AFRIKA_1923 — AFRİKA oturumu, 6 Eylül 2026
@@ -153,7 +165,7 @@ fs.writeFileSync("denetim/yer_yama_afrika_1923.js",
   basA + "\n" + A.map(y => satir(y, zincir(y, "ingiliz-sudani"))).join("\n") +
   "\n];\n", "utf8");
 fs.writeFileSync("denetim/yer_yama_afrika_darfur_BEKLIYOR.js",
-  basB + "\n" + B.map(y => satir(y, zincirB(y))).join("\n") + "\n];\n", "utf8");
+  basB + "\n" + B.map(y => satirB(y, zincirB(y))).join("\n") + "\n];\n", "utf8");
 
 console.log("\n🟢 YAZILDI:");
 console.log("  denetim/yer_yama_afrika_1923.js            " + A.length + " kayıt");

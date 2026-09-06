@@ -1,102 +1,156 @@
 {
  "_NOT": [
-  "ASYA · 1.MURAT sevki · 6 Eylül 2026 · ÖNERİDİR — data/devletler.js'e",
-  "YAZILMADI (koşu 7b boyunca donuk). Renk çözümü koordinatörde",
-  "(oturumlar/KOSU-BITINCE-SIRA.md §⑤).",
-  "Ölçüm ve gerekçe: denetim/ASYA-HINT-HAYALET-0906.md",
-  "🔴 §4: künyenin f:/t: günü bir KAYNAK DEĞİLDİR. Kaynak yıl diyorsa yıl",
-  "yazıldı ve fark BİLDİRİLDİ — aşağıda her künyenin `hassasiyet` alanı var."
+  "ASYA · 1.MURAT sevki ve hükümleri · 6 Eylül 2026 · ÖNERİDİR —",
+  "data/devletler.js'e YAZILMADI (koşu 7b boyunca donuk).",
+  "Ölçüm: denetim/ASYA-HINT-HAYALET-0906.md · ASYA-ORTA-ASYA-0906.md"
+ ],
+ "_BICIM_UYARISI": [
+  "🔴 KÜNYE NESNESİNİN İÇİNE META ANAHTAR YAZILMAZ. 1.MURAT ölçtü:",
+  "   `_kunye_uygula.py` `kunye_metni()` yalnız şu sırayı yazıyor —",
+  "   id · ad · tur · bolge · f · t · baskent · harita · ozet · kaynak",
+  "   (+ kronoloji). Nesnenin İÇİNDEKİ `not` · `_NOT` · `_ACIK` ·",
+  "   `hassasiyet` · `gerekce` SESSİZCE DÜŞER.",
+  "🟢 Dosya KÖKÜNDEKİ meta güvende: `kunyeleri_cikar` yalnız `id`",
+  "   taşıyan nesneleri arıyor, kardeş anahtarlara BAKMIYOR.",
+  "⇒ Bu dosya o hükme göre YENİDEN KURULDU: künye nesneleri ŞEMA-SAF,",
+  "  bütün gerekçeler kökteki `_GEREKCELER` altında."
  ],
  "_YONTEM": [
   "id TAHMİN EDİLMEDİ: data/devletler.js'in 617 künyesi Türkçe",
-  "normalleştirmeyle (id · ad · harita alanlarında) tarandı, sonra renk",
-  "arac/renkler.py BOYALAR'a DOĞRUDAN soruldu. Dördü de YOK.",
+  "normalleştirmeyle (id · ad · harita) tarandı; renk arac/renkler.py",
+  "BOYALAR'a DOĞRUDAN soruldu. Üçü de YOK.",
   "(Yetkili tarama aleti yalnız 'veride KULLANILAN' kimlikleri gezer;",
-  " âtıl/olmayan künye oraya hiç girmez — o yüzden doğrudan bakıldı.)"
+  " olmayan künye oraya hiç girmez — o yüzden doğrudan bakıldı.)"
  ],
+
  "kunyeler": [
   {
    "id": "meysur-racaligi",
    "ad": "Meysûr Racalığı (Voduyar hânedanı)",
+   "tur": "racalik",
+   "bolge": "guney-asya",
    "f": "1565-01-26",
    "t": "1923-10-29",
-   "hassasiyet": "f: GÜN — mevcut veriden DEVRALINDI (Talikota/Vijayanagara'nın çöküşü, kayıtta zaten bu gün var). t: atlas PENCERE SONU, bir iddia değil.",
-   "bolge": "guney-asya",
-   "harita": null,
-   "ozet": "Vijayanagara'nın çöküşünden sonra bağımsızlaşan Voduyar racalığı. 1760'ta Haydar Ali Han denetimi ele geçirdi ve sultanlık dönemi başladı (ayrı künye: meysur); Tîpû Sultan'ın 4 Mayıs 1799'da Seringapatam'da ölümünden sonra İngilizler ESKİ RACALIĞI YENİDEN İHDAS ETTİ ve prenslik olarak 1947'ye kadar sürdü (1923 sonrasında da sürdü).",
-   "kaynak": "TDV `meysur` — gövde okundu (9.327 kar., kesilmeden): \"Böylece İngilizler … Meysûr Sultanlığı'nın topraklarını ele geçirdiler ve beş yaşında bir Hindu hânedan üyesini tahta oturtup ESKİ RACALIĞI TEKRAR İHDAS ETTİLER; gerçek yönetici ise kendilerinin Hindistan genel valisi idi.\" · \"1760 yılında Hindu racalığının müslüman kumandanlarından Haydar Ali Han Bahadır … Raca Rama hânedanını kontrolü altına aldı.\"",
-   "gerekce": "CLAUDE.md §3.5.0 sınıf ③ ARDİL: polity sürdü, kimlik değişti. Emsal: haydarabad-nizam 1724→1923. Veride `meysur` bugün 1565/1687→1923 kullanılıyor, yani künyenin (1761-1799) İKİ UCUNDAN da taşıyor — kuyruk 124,5 yıl, baş 196 yıl.",
-   "_TEK_KUNYE_IKI_DONEM": "1565→1760 ve 1799→1923 AYNI künye. TDV 'eski racalığı tekrar ihdas ettiler' diyor ⇒ aynı hânedanın kesintiye uğramış hâli. Kesintiyi `s:` zinciri taşır, künye penceresi ikisini de kapsar."
+   "ozet": "Vijayanagara'nın çöküşünden sonra bağımsızlaşan Voduyar racalığı. 1760'ta Haydar Ali Han denetimi ele geçirdi ve sultanlık dönemi başladı (ayrı künye: meysur); Tîpû Sultan'ın 4 Mayıs 1799'da Seringapatam'da ölümünden sonra İngilizler ESKİ RACALIĞI YENİDEN İHDAS ETTİ ve prenslik olarak 1947'ye kadar sürdü (1923 sonrasında da sürdü). Künye penceresi bir DIŞ ZARFTIR: 1565-1760 ve 1799-1923 iki dönemi kapsar, aradaki sultanlık kesintisini `s:` zinciri taşır.",
+   "kaynak": "TDV `meysur` — gövde okundu (9.327 kar., kesilmeden): \"Böylece İngilizler … Meysûr Sultanlığı'nın topraklarını ele geçirdiler ve beş yaşında bir Hindu hânedan üyesini tahta oturtup ESKİ RACALIĞI TEKRAR İHDAS ETTİLER; gerçek yönetici ise kendilerinin Hindistan genel valisi idi.\" · \"1760 yılında Hindu racalığının müslüman kumandanlarından Haydar Ali Han Bahadır … Raca Rama hânedanını kontrolü altına aldı.\" ⚠️ f: günü kaynaktan DEĞİL, mevcut veriden DEVRALINDI (Talikota, kayıtta zaten bu gün var)."
   },
   {
    "id": "gvalyar-sindiya",
    "ad": "Gvalyar (Sindiya hânedanı)",
+   "tur": "prenslik",
+   "bolge": "guney-asya",
    "f": "1761-01-01",
    "t": "1923-10-29",
-   "hassasiyet": "f: YIL — TDV 'Sindiya hânedanı (1761-1858)' diyor, GÜN VERMİYOR ⇒ YYYY-01-01. t: atlas PENCERE SONU.",
-   "bolge": "guney-asya",
-   "harita": null,
    "ozet": "Maratha Konfederasyonu'nun Sindiya (Scindia) kolu; Gvalyar merkezli. 1818'de konfederasyonun dağılmasından sonra İngiliz hâkimiyeti altında prenslik olarak sürdü (1923 sonrasında da sürdü).",
-   "kaynak": "TDV `hindistan` — dar slug `maratha`/`marathalar` ÖLÜ (302), KAPSAYICI madde denendi ve tuttu (§4): \"…Marata Pîşveleri (1714-1818) Holkar hânedanı (1728-1858) Gaikwar hânedanı (1721-1858) Sindiya hânedanı (1761-1858)…\"",
-   "gerekce": "Veride Gvalyar 1784-01-01→1923 `maratha`; künye 1818-06-03'te bitiyor ⇒ 105,4 yıl hayalet. Ardıl künye YOKTU (tarandı).",
-   "_UYARI": "TDV'nin '1858' bitişi HÂNEDANIN SONU DEĞİL — aynı liste Haydarâbâd'ı 1948'e götürüyor ve o da prensliktir. 1858 = Bâbürlü'nün sonu / Taç yönetiminin başı. Künye `t:`si atlas konvansiyonuna göre ufka çekildi (emsal: haydarabad-nizam)."
+   "kaynak": "TDV `hindistan` — dar slug `maratha`/`marathalar` ÖLÜ (302), KAPSAYICI madde denendi ve tuttu (§4): \"…Marata Pîşveleri (1714-1818) Holkar hânedanı (1728-1858) Gaikwar hânedanı (1721-1858) Sindiya hânedanı (1761-1858)…\" ⚠️ TDV YIL veriyor, GÜN VERMİYOR ⇒ f: YYYY-01-01 yazıldı."
   },
   {
    "id": "indor-holkar",
    "ad": "İndor (Holkar hânedanı)",
+   "tur": "prenslik",
+   "bolge": "guney-asya",
    "f": "1728-01-01",
    "t": "1923-10-29",
-   "hassasiyet": "f: YIL — TDV 'Holkar hânedanı (1728-1858)', GÜN VERMİYOR ⇒ YYYY-01-01. t: atlas PENCERE SONU.",
-   "bolge": "guney-asya",
-   "harita": null,
    "ozet": "Maratha Konfederasyonu'nun Holkar kolu; İndor merkezli. 1818 sonrası İngiliz hâkimiyeti altında prenslik olarak sürdü (1923 sonrasında da sürdü).",
-   "kaynak": "TDV `hindistan` — aynı hânedan listesi: \"Holkar hânedanı (1728-1858)\".",
-   "gerekce": "Veride İndor 1732-01-01→1923 `maratha`; künye 1818-06-03'te bitiyor. Ardıl künye YOKTU (tarandı).",
-   "_UYARI": "TDV'nin f:1728'i ile verinin 1732'si 4 yıl ayrışıyor. İkisi AYNI ŞEYİ ÖLÇMÜYOR olabilir: TDV HÂNEDANIN kuruluşunu, veri O YERİN el değiştirmesini. Karıştırılmadı — künye TDV'yi, `s:` verisi kendi gününü taşıyor."
-  },
-  {
-   "_GERI_CEKILDI": "kolhapur",
-   "_HUKUM": "1.MURAT: 'bir kez ara — bulamazsan künye YAZILMAZ, nokta yamanın DIŞINDA kalır, ve arandı-bulunamadı diye KAYDEDİLİR.' Arandı. KÜNYE YAZILMADI.",
-   "_ARAMA_KAYDI": [
-    "🔴 bulunamadı — TDV `maratha` · `marathalar` slug'ları 302 ÖLÜ.",
-    "🔴 bulunamadı — KAPSAYICI `hindistan` maddesinin hânedan listesi",
-    "   okundu: Sindiya · Holkar · Gaikwar VAR, KOLHAPÛR YOK (0 isabet).",
-    "⚪ ölçülemedi — TDV arama sayfası (`/arama/?q=Kolhapur`) JS ile",
-    "   yükleniyor, curl ham HTML'de sonuç DÖNDÜRMÜYOR.",
-    "⚪ ölçülemedi — Britannica `place/Kolhapur-India` → HTTP 403.",
-    "🔵 İKİ AYRI DAMGA, KASITLI: TDV tarafı `bulunamadı` (gövde okundu,",
-    "   sonuç sıfır — bir SONUÇ); akademik taraf `ölçülemedi` (erişilemedi).",
-    "   İkisini tek damgada birleştirmek, aranmamış olanı aranmış",
-    "   göstermek olurdu."
-   ],
-   "_NICIN_1659_YAZILMADI": "Veride `maratha` 1659-01-01'de başlıyor ve künyenin f:1674-06-06'sından 15 yıl ÖNCE. O günü künyeye taşımak, VERİYİ KAYNAK YERİNE KOYMAK olurdu — §4'ün 147 künyelik vakası tam bu. (1.MURAT aynı uyarıyı verdi.)",
-   "_SONUC": "Kolhapûr noktası YAMANIN DIŞINDA. Veride `maratha 1659→1923` olarak KALIYOR — yani hayalet SÜRÜYOR ve bu BİLİNEN bir borç, gizlenmiş değil."
+   "kaynak": "TDV `hindistan` — aynı hânedan listesi: \"Holkar hânedanı (1728-1858)\". ⚠️ TDV YIL veriyor, GÜN VERMİYOR ⇒ f: YYYY-01-01."
   }
  ],
- "_MEVCUT_KUNYEDE_DUZELTME_ONERISI": {
+
+ "_MEVCUT_KUNYEDE_DUZELTME": {
   "id": "buhara-halk-cumhuriyeti",
-  "_DURUM": "Künye VAR (1920-10-08 → 1923-10-29) ve rengi VAR (#244ed2). Yeni künye DEĞİL — mevcut künyenin `f:` alanında bir DÜZELTME önerisi.",
+  "durum": "Künye VAR ve rengi VAR (#244ed2). Yeni künye DEĞİL — tek alan düzeltmesi.",
   "f_bugun": "1920-10-08",
-  "f_onerilen": "1920-10-06",
-  "gerekce": "1.MURAT hükmü: verinin `buhara` bitişi 1920-09-02 KAYNAKSIZDI ve TDV onu çürütüyor — `buhara`: \"1920 yılı Ağustos sonunda son emîr Âlim Han … tahtından uzaklaştırıldı ve 6 EKİM 1920'de Buhara Hanlığı İLGA EDİLDİ.\" Yama hanlığın bitişini 1920-10-06'ya taşıyor.",
-  "_ZORUNLU_YAN_ETKI": "Hanlık 1920-10-06'da bitiyorsa ardıl dönem de O GÜN başlamalı — yoksa 2 günlük SAHİPSİZ pencere doğar (`Değişmez 1` ihlali). Ama künye `f:1920-10-08` ise o dönem künyenin 2 GÜN ÖNCESİNDE başlar ve `4c` ATEŞLER. İkisi birden olamaz.",
-  "_SECENEKLER": [
-   "Ⓐ künye f: → 1920-10-06 (ÖNERİM): tek kırılma günü, delik yok, 4c temiz. Bedeli: künye penceresi ilga gününden başlar, ilân gününden değil.",
-   "Ⓑ yama 1920-10-08 kullanır: künye dokunulmaz, ama TDV'nin ilga günü (10-06) veriye GİRMEZ ve 2 gün hanlığa yazılmış olur.",
-   "Ⓒ 1920-10-06 → 1920-10-08 arası ayrı bir ara dönem: model bunu ifade edecek bir kimlik taşımıyor (`§11` Ammaroğulları: model ifade edemiyorsa veri SUSAR) ⇒ ELENDİ."
-  ],
-  "_KARAR": "🔴 BENDE DEĞİL. Yama Ⓐ'ya göre üretildi (1920-10-06); Ⓑ seçilirse yama YENİDEN ÜRETİLİR — tek satır değişikliği.",
-  "_NOT_ALANI": "TDV ilga gününü (6 Ekim) veriyor; Buhara Halk Sovyet Cumhuriyeti'nin İLÂNI 8 Ekim 1920'dir. İki gün fark BEYAN EDİLDİ, gizlenmedi."
+  "f_YENI": "1920-10-06",
+  "karar": "🟢 1.MURAT hükmü Ⓐ — VERİLDİ.",
+  "ozet_EKLENECEK": "Buhara Hanlığı 6 Ekim 1920'de ilga edildi; Buhara Halk Sovyet Cumhuriyeti 8 Ekim 1920'de ilân edildi. Künye penceresi İLGA gününden başlar — iki günlük fark bir hassasiyet kaybı değil, künyenin DIŞ ZARF payıdır ve burada BEYAN EDİLMİŞTİR.",
+  "kaynak_EKLENECEK": "TDV `buhara`: \"1920 yılı Ağustos sonunda son emîr Âlim Han Kızılordu'nun şehri işgali sonunda tahtından uzaklaştırıldı ve 6 Ekim 1920'de Buhara Hanlığı ilga edildi.\""
  },
+
+ "_GEREKCELER": {
+  "_NICIN_BURADA": "Bu blok künye NESNELERİNİN DIŞINDA — nesne içine yazılsa uygulayıcı onu sessizce düşürürdü (bkz. _BICIM_UYARISI).",
+
+  "meysur-racaligi": [
+   "SINIF: CLAUDE.md §3.5.0 ③ ARDİL — polity sürdü, kimlik değişti.",
+   "Emsal: haydarabad-nizam 1724→1923.",
+   "🔴 VE İKİ UÇTAN TAŞMA: veride `meysur` bugün 1565/1687→1923",
+   "   kullanılıyor; künye (1761-1799) kuyruktan 124,5 yıl, BAŞTAN",
+   "   196 yıl taşıyor. Şartname yalnız kuyruğu biliyordu.",
+   "🔵 TEK KÜNYE / İKİ DÖNEM — 1.MURAT onayladı. TDV 'eski racalığı",
+   "   TEKRAR İHDAS ETTİLER' diyor ⇒ aynı hânedanın kesintiye uğramış",
+   "   hâli, iki ayrı polity değil. Üç künye yapmak TDV'nin beyanını",
+   "   çürütürdü. Emsal: bizans 1453+1461 · inka 1533+1572."
+  ],
+
+  "gvalyar-sindiya": [
+   "Veride Gvalyar 1784-01-01→1923 `maratha`; künye 1818-06-03'te",
+   "bitiyor ⇒ 105,4 yıl hayalet. Ardıl künye YOKTU (tarandı).",
+   "⚠️ TDV'nin '1858' bitişi HÂNEDANIN SONU DEĞİL — aynı liste",
+   "   Haydarâbâd'ı 1948'e götürüyor ve o da prensliktir. 1858 =",
+   "   Bâbürlü'nün sonu / Taç yönetiminin başı. Künye `t:`si atlas",
+   "   konvansiyonuna çekildi (emsal haydarabad-nizam 1724→1923).",
+   "⚠️ TDV f:1761 ile verinin 1784'ü ayrışıyor ve İKİSİ AYNI ŞEYİ",
+   "   ÖLÇMÜYOR: TDV HÂNEDANIN kuruluşunu, veri O YERİN el",
+   "   değiştirmesini. Karıştırılmadı."
+  ],
+
+  "indor-holkar": [
+   "Veride İndor 1732-01-01→1923 `maratha`; künye 1818-06-03'te bitiyor.",
+   "⚠️ TDV f:1728 ile verinin 1732'si 4 yıl ayrışıyor — aynı ayrım:",
+   "   TDV hânedanı, veri yeri ölçüyor. Künye TDV'yi, `s:` kendi gününü",
+   "   taşıyor."
+  ],
+
+  "buhara-halk-cumhuriyeti": [
+   "Verinin `buhara` bitişi 1920-09-02 KAYNAKSIZDI; TDV onu çürütüyor",
+   "(6 Ekim 1920 ilga). Yama hanlığın bitişini 1920-10-06'ya taşıyor.",
+   "🔴 ZORUNLU YAN ETKİ: ardıl dönem de o gün başlamalı, yoksa 2 günlük",
+   "   SAHİPSİZ pencere doğar (Değişmez 1). Ama künye f:1920-10-08 ise",
+   "   dönem künyenin öncesinde başlar ve 4c ateşler. İkisi olamaz.",
+   "ELENEN SEÇENEKLER (1.MURAT'ın gerekçeleriyle):",
+   "  Ⓑ veriyi 10-08'de kes → TDV'yi çürütür",
+   "  Ⓒ 2 günlük ara kimlik → model ifade edemiyor (§11 Ammaroğulları)",
+   "  Ⓓ 2 günlük beyanlı boşluk → altı mikro-boşluk, Değişmez 1b'nin",
+   "     beyanlı kovasını 5'ten 11'e çıkarır; iki gün için ORANTISIZ",
+   "🟢 Ⓐ SEÇİLDİ: künye penceresi DIŞ ZARF, ilân günü ozet'e yazılır."
+  ],
+
+  "_GERI_CEKILEN__kolhapur": [
+   "1.MURAT: 'bir kez ara — bulamazsan künye YAZILMAZ, nokta yamanın",
+   "DIŞINDA kalır, arandı-bulunamadı diye KAYDEDİLİR.' Arandı, YAZILMADI.",
+   "🔴 bulunamadı  TDV `maratha` · `marathalar` → 302 ÖLÜ",
+   "🔴 bulunamadı  TDV `hindistan` hânedan listesi OKUNDU → Sindiya ·",
+   "               Holkar · Gaikwar VAR, KOLHAPÛR YOK (0 isabet)",
+   "⚪ ölçülemedi  TDV arama sayfası JS ile yükleniyor, curl sonuç vermiyor",
+   "⚪ ölçülemedi  Britannica `place/Kolhapur-India` → HTTP 403",
+   "🔵 İKİ AYRI DAMGA KASITLI: TDV tarafı `bulunamadı` (gövde okundu,",
+   "   sonuç sıfır — bir SONUÇ); akademik taraf `ölçülemedi` (erişilemedi).",
+   "   Birleştirmek, aranmamış olanı aranmış göstermek olurdu.",
+   "🔴 `1659-01-01` künyeye TAŞINMADI: o gün veride var, kaynakta yok;",
+   "   taşımak VERİYİ KAYNAK YERİNE KOYMAK olurdu (§4, 147 künyelik vaka).",
+   "SONUÇ: Kolhapûr noktası yamanın DIŞINDA; veride `maratha 1659→1923`",
+   "olarak kalıyor — hayalet SÜRÜYOR ve bu BİLİNEN bir borç."
+  ],
+
+  "_YARATILMAYAN__turkistan-assr": [
+   "🔴 1.MURAT hükmü: YARATILMAYACAK.",
+   "Buhara ve Harezm 1924'e kadar NOMİNAL OLARAK BAĞIMSIZDI; Türkistan",
+   "ASSR ise RSFSR'nin İÇİNDE özerk bir cumhuriyetti. Ayrı gövde olarak",
+   "boyamak, Başkurt ve Tatar ASSR'lerini boyamamakla TUTARSIZ olurdu —",
+   "ve atlas onları boyamıyor.",
+   "⚠️ TDV üçünü aynı cümlede 'yerel kuruluşlar' diye anıyor ve egemenlik",
+   "   ayrımına GİRMİYOR; ayrım bir OKUMADIR, TDV beyanı değil.",
+   "SONUÇ: Taşkent · Semerkant · Hokand · Hucend · Cizzah `sovyet-rusya`",
+   "olarak KALIYOR. Kusur değil, KARAR."
+  ]
+ },
+
  "_INMEDEN_ONCE": [
-  "① RENK: dördü de BOYALAR'da YOK. Sahneye çıkınca yeni çiftler doğar",
-  "   ve BUGÜN GÖRÜNMEZLER (renk_olc çizilmeyen gövde için çift kurmaz).",
-  "   Ölçüm koşu sonrasına — koordinatörde.",
-  "② 2s KAPISI: `1760-01-01` ve `1799-05-04` kırılma günlerinin ÇEKİRDEKTE",
-  "   (data/olaylar*.js) maddesi var mı VE KONUSU İLGİLİ Mİ — ÖLÇÜLMEDİ.",
-  "③ Mandu ve Uccayn'ın 1818 sonrası sahibi BULUNAMADI — bu iki nokta",
-  "   yamanın DIŞINDA kalır, ya da ayrıca araştırılır.",
-  "④ Meysûr'un başlangıcında TDV KENDİ İÇİNDE ÇELİŞİYOR (1760 ↔ 1761).",
-  "   Mevcut künye 1761 ile TDV `hindistan` uyuşuyor ⇒ DOKUNULMADI."
+  "① RENK: üç yeni künyenin hiçbiri BOYALAR'da YOK. Sahneye çıkınca yeni",
+  "   çiftler doğar ve BUGÜN GÖRÜNMEZLER. Koordinatörde.",
+  "② 2s KAPISI: `1760-01-01` · `1799-05-04` · `1818-06-03` · `1920-10-06`",
+  "   günlerinin ÇEKİRDEKTE maddesi var mı VE KONUSU İLGİLİ Mİ — ÖLÇÜLMEDİ.",
+  "③ İKİ KOL AYRI İNEBİLİR: Hindistan (5 nokta) üç künye BEKLİYOR;",
+  "   ORTA ASYA (11 nokta) beklemiyor — buhara-halk-cumhuriyeti ve",
+  "   harezm-halk-cumhuriyeti künye+renk HAZIR."
  ]
 }

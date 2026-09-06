@@ -1,0 +1,62 @@
+{
+  "oturum": "AFRİKA",
+  "damga": "2026-09-06",
+  "is": "KALEM B'nin ÖN KOŞULU — Dârfûr'un ilhakı için ÇEKİRDEK maddesi",
+
+  "🔴_VERI_YAZILMADI": "data/*.js DONUK (Koşu 7b canlı, PID 3880). Bu bir ÖNERİDİR.",
+
+  "🔴_BU_DOSYA_KUNYE_KRONOLOJISI_DEGIL": "Ölçüldü: `arac/_kronoloji_uygula.py` künye `kronoloji:` alanına ekler (`kunyeler` → `eklenen`, ZORUNLU t·tur·b). BURADA İSTENEN O DEĞİL — `Değişmez 2s`nin evreni ÇEKİRDEK, yani `data/olaylar*.js`. ⇒ Bu dosya bir ÖNERİDİR; hedef dosyayı ve uygulamayı Oturum 0 seçer. Emsal: KRONOLOJI-1917-TASIMA-0906.json aynı ayrımı yapıyor.",
+
+  "🔴_GLOB_UYARISI": "`_kronoloji_uygula.py:49` VARSAYILAN_YAMA = 'denetim/KRONOLOJI-*0905*.json' — 0905'e SABİTLENMİŞ. Bu dosya 0906 taşıyor ⇒ VARSAYILANLA KOŞULURSA SESSİZCE ATLANIR. AVRUPA aynı kusuru `_kunye_uygula.py:44`te buldu; bu İKİNCİ vaka, ve aynı sınıf: `§11` «bir glob bir ad sözleşmesidir». ⇒ `--yama` ile AÇIKÇA verilmeli.",
+
+  "niye": {
+    "bulgu": "KALEM B (3 Dârfûr noktası: Ed-Da'în · Burâm · Radom) `1916-05-23`te `darfur` → `ingiltere` geçiyor. Emsal nokta `Darfur` ise `1916-11-06` → `ingiliz-sudani` taşıyor ve TDV kaynaklı. `darfur` künyesinin kendi `t:` değeri de `1916-11-06`. ⇒ veri künyesinden 5,5 AY ERKEN kesiyor.",
+    "2s_kapisi": "`1916-11-06`nın ÇEKİRDEKTE en yakın maddesi 3 gün ötede ve KONUSU ALAKASIZ («İngiliz-Katar Antlaşması», olaylar_ek16.js). KUYRUKTA da ilgili madde yok. ⇒ Yama TEK BAŞINA inerse `Değişmez 2s`ye YENİ AÇIK kırılma ekler.",
+    "hukum": "Koordinatör M-…'de şık (a)yı onayladı: madde ve yama BİRLİKTE iner, ayrı değil.",
+    "kaynak_hazir": "Madde UYDURULMUYOR — TDV `sudan` gövdesinin kendi cümlelerinden yazılıyor."
+  },
+
+  "kaynak_alintisi": {
+    "slug": "sudan",
+    "durum": "CANLI · gövde KESİLMEDEN okundu",
+    "cumleler": [
+      "Ali Dinar «6 Kasım 1916'da öldürüldü»",
+      "«Dârfûr toprakları bir eyalet halinde İngiliz Sudanı'na bağlandı»",
+      "Bağlam: I. Dünya Savaşı'nda Osmanlı yanlısı tutumu sebebiyle İngiliz kuvvetleriyle çatıştı"
+    ],
+    "🟡_olcemedigim": "TDV gövdesi ilhak için AYRI bir gün vermiyor; «öldürülüp ... bağlandı» aynı cümlede. ⇒ `1916-11-06` ÖLDÜRÜLME günüdür ve ilhak ona bağlanmıştır. Ayrı bir ilhak günü ARANDI, BULUNAMADI."
+  },
+
+  "cekirdekte_ayni_gun": {
+    "1916-11-06": [],
+    "en_yakin": "1916-11-03 «İngiliz-Katar Antlaşması» — 3 gün, KONUSU ALAKASIZ [olaylar_ek16.js]"
+  },
+
+  "hedef_dosya_onerisi": {
+    "oneri": "data/olaylar_ek9.js",
+    "gerekce": "O dosya zaten Sudan zincirinin ÖTEKİ İKİ ucunu taşıyor: «Dongola'nın geri alınışı» (1896-09-23) ve «Ümmüdurman Muharebesi — Mehdî devletinin yıkılışı» (1898-09-02) ve «Kondominyum Antlaşması» (1899-01-19). Dârfûr ilhakı aynı zincirin son halkası. Mevcut dosyaya eklemek `index.html`e yeni satır gerektirmez (`§5`).",
+    "🔴_SAHIPLIK": "`olaylar_ek9.js` benim dosyam DEĞİL. `§7`: hedefi ve uygulamayı KOORDİNATÖR seçer."
+  },
+
+  "onerilen_madde": {
+    "t": "1916-11-06",
+    "k": "fetih",
+    "etiket": ["toprak-kazanc", "savas"],
+    "b": "Ali Dinar'ın öldürülmesi — Dârfûr'un İngiliz Sudanı'na ilhakı",
+    "gun": "6 Kasım 1916",
+    "yer": "Dârfûr, el-Fâşir",
+    "kisiler": "Ali Dinar",
+    "d": "Mehdî Devleti'nin 1898'de yıkılmasından sonra Ali Dinar Dârfûr Sultanlığı'nı yeniden kurmuş ve yirmi yıla yakın bağımsız hüküm sürmüştü. I. Dünya Savaşı'nda Osmanlı Devleti'nden yana tavır alması üzerine İngiliz kuvvetleriyle çatıştı ve 6 Kasım 1916'da öldürüldü. Dârfûr toprakları bir eyalet hâlinde İngiliz Sudanı'na bağlandı; böylece Sudan'ın bugünkü sınırları içindeki son bağımsız yapı da ortadan kalktı. Atlasta üç Dârfûr noktası (Ed-Da'în · Burâm · Radom) bugün `1916-05-23`te el değiştiriyor — o gün kaynaksız ve `darfur` künyesinin kendi `t:` değeriyle (1916-11-06) çelişiyor.",
+    "kaynak": "sudan",
+    "duygu": ["😢"],
+    "yer_id": "Darfur"
+  },
+
+  "🔴_yer_id_UYARISI": "`yer_id:\"Darfur\"` ÖLÇÜLDÜ: `data/yerlesimler.js` içinde `ad:\"Darfur\"` bir nokta VAR (lat 13,5 · lon 24) ve `ingiliz-sudani` taşıyan TEK nokta odur. Ama atlasın ad yazımı `Darfur` (diakritiksiz); madde metninde `Dârfûr` geçiyor. `§4` Türkçe yazım ekseni: ikisi AYNI yer, yazım farkı KASITLI DEĞİL — `yer_id` veriye uydu, metin kaynağa.",
+
+  "sinav": {
+    "madde_inince_2s": "1916-11-06 kırılması ÇEKİRDEKTE 0 gün uzaklıkta ve konusu BİREBİR ilgili olur ⇒ KAPI AÇILIR",
+    "madde_INMEZSE": "yama uygulanırsa 2s'ye 1 YENİ AÇIK kırılma eklenir ⇒ tavan 121'e karşı 101+1",
+    "mukerrer_riski": "ÖLÇÜLDÜ: çekirdekte 1916-11-06 gününde madde YOK, ±30 günde ilgili madde YOK ⇒ mükerrer üretmez"
+  }
+}

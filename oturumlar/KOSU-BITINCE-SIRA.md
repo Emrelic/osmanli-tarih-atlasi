@@ -132,3 +132,69 @@ doğmuştu.** Uygulamadan önce:
 · `_sahiplik_uygula.py` KURU KOŞU önce, `--yaz` sonra
 · "KAPSAM DARALDI" uyarısı ASLA zorlanmaz (29 Ağustos veri kaybı)
 ```
+
+
+---
+
+# 🔴🔴 EK — ÜÇ ARAÇ BULGUSU (6-7 Eylül gecesi, işçi oturumlar buldu)
+
+Bu üçü **uygulama sırasını değiştiriyor** ve üçü de aynı sınıf:
+`§11` *"bir glob bir AD SÖZLEŞMESİDİR"* / *"aynı kelime iki ayrı şey"*.
+
+## ① `not:` KÜNYE ŞEMASINDA YOK — 17 beyan düşecek (AVRUPA)
+```
+_kunye_uygula.py  sira = [id,ad,tur,bolge,f,t,baskent,harita,ozet,kaynak]
+⇒ `not` · `_NOT` · `_ACIK` · `_SECENEKLER` — künye NESNESİNİN İÇİNDEKİ
+  her meta anahtar SESSİZCE DÜŞER
+🟢 dosya KÖKÜNDEKİ meta anahtarlar GÜVENDE (`kunyeleri_cikar` yalnız
+  "id" taşıyan nesneleri arıyor)
+```
+🔴 **ŞEMA DÜZELMEDEN HİÇBİR KÜNYE ÖNERİSİ UYGULANMAZ.**
+Hüküm Ⓐ: `denetim/HUKUM-NOT-ALANI-VE-1917-0906.md`
+
+## ② İKİ UYGULAYICININ VARSAYILAN GLOB'U `0905`E SABİT
+```
+_kunye_uygula.py:44      VARSAYILAN = "denetim/YAMA-KUNYE-*0905*.json"
+_kronoloji_uygula.py:49  VARSAYILAN_YAMA = "denetim/KRONOLOJI-*0905*.json"
+bugünkü dosyalar         *-0906.json · *-0907.json
+```
+🔴 Varsayılanla koşulursa **sessizce atlanır ve "0 kayıt" diye temiz bir
+sayı basar.** ⇒ **Her ikisi de `--yama` ile AÇIKÇA çağrılacak.**
+⚠️ Ve bu benim kendi kalemimi de vuruyordu: `YAMA-KUNYE-VASSAL-0906.json`
+(10 künye) varsayılanla atlanacaktı.
+
+## ③ 🔴🔴 `data/olaylar*.js`E YAZAN HİÇBİR ALET YOK — ÖLÇÜLDÜ
+```
+_kronoloji_uygula.py  hedef = DEVLETLER (data/devletler.js)
+                      ⇒ künye İÇİNDEKİ `kronoloji:[]` dizisine yazıyor
+`arac/` altında `data/olaylar*.js`i YAZMA modunda açan betik:  YOK
+```
+📌 *"Kronoloji"* bu projede **İKİ AYRI ŞEY**:
+```
+künye kronolojisi   devletler.js içinde, `kronoloji:[]`  → aleti VAR
+ÇEKİRDEK kronoloji  data/olaylar*.js                     → aleti YOK
+```
+Ve aletin adı hangisi olduğunu **söylemiyor** — `§11`in `KUYRUK`
+vakasının aynısı (*aynı kelime iki ayrı şeyi anlatıyorsa, birini ölçen
+ötekini ölçtüğünü sanır*).
+
+🔴 **SONUÇ: bu gecenin BÜTÜN çekirdek kronoloji önerileri ELLE
+uygulanacak** — Oturum 0 tarafından, tek tek:
+```
+KRONOLOJI-MANDA-0906.json        3 madde  (Meysalun · Filistin · Faysal)
+KRONOLOJI-BALKAN-0906.json       4 madde + 1 mevcut madde `t:` düzeltmesi
+KRONOLOJI-AFRIKA-0906.json       1 madde  (Ali Dinar · Dârfûr ilhakı)
+KRONOLOJI-AVRUPA-0906.json       1 madde  (İrlanda Serbest Devleti)
+KRONOLOJI-1917-TASIMA-0906.json  3 madde  TAŞIMA (kuyruktan çekirdeğe)
+```
+⚠️ **Taşıma olanı ayrı dikkat ister:** çekirdeğe EKLE **ve** kuyruktan
+SİL — `index.html` ikisini de yüklüyor, kopyalanırsa madde arayüzde
+iki kez görünür ve mükerrer denetimi öter.
+
+## ④ VE BİR ŞEMA SORUSU AÇIK KALDI
+`neden:` alanı `girdi.py`de *"kasitli_bosluk'un GEREKÇESİ"* diye tanımlı,
+ama veride **kademe yamasının notu** olarak da kullanılmış (AFRİKA ölçtü:
+11 kayıtta içerik *"k:4, m:— idi"*). **Tek alan, iki amaç** ⇒ `neden:`
+varlığına bakan her tarama yanılır.
+📌 `§11`: *bir alan adı TANIMLANDIĞI yerden okunur* — ama tanımı okumak
+**kullanımı ölçmenin yerine geçmiyor.**

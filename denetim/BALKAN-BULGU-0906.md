@@ -255,14 +255,45 @@ seçmek, üç konvansiyondan birini **kaynaksız tercih etmek** olurdu.
 `gurcistan-demokratik-cumhuriyeti` (1918-05-26 → 1921-03-16). **Eksik olan
 kimlik değil, HÜKÜM.**
 
-### Bu kalemin İÇİNDEKİLER — üçü ayrı ölçüm ister
+### Bu kalemin İÇİNDEKİLER — üçü ayrı ölçüm istiyordu, İKİSİ ÖLÇÜLDÜ
 ```
-① Sohum'un 1917-1923 zinciri            (kimlik seçimi)
-② Batum'un 1918-04-14 → 1918-12-01 arası 8 AYLIK BOŞLUĞU
-   ⚠️ Bu bir `Değişmez 1` ihlali olabilir — ÖLÇÜLMEDİ
-③ Kutaisi ↔ Tiflis ayrışması: `transkafkasya` kimliği bazı noktalarda VAR,
-   bazılarında YOK. Hangisi doğru — ve kaç nokta etkileniyor? ÖLÇÜLMEDİ
+① Sohum'un 1917-1923 zinciri   🔴 AÇIK — komşu kanıtı bölünüyor, kaynak lazım
+② Batum'un 8 aylık boşluğu     🟢 KAPANDI — BOŞLUK YOK
+③ `transkafkasya` yayılımı     🟡 ÖLÇÜLDÜ — 5 nokta, ve muhtemelen KUSUR DEĞİL
 ```
+
+#### ② 🔴 KENDİ ALARMIMI ÇÜRÜTTÜM — ve kusur okumamdaydı
+Bu bölümün ilk yazımında *"Batum'un 1918-04-14 → 1918-12-01 arası 8 aylık
+boşluğu bir `Değişmez 1` ihlali OLABİLİR"* yazmıştım. Ölçüldü:
+```
+Batum d: [{1578-08-09 → 1878-07-13, savas},
+          {**1918-04-14 → 1918-12-01, antlasma**}]
+⇒ o sekiz ay `d:` (OSMANLI) ile DOLU — Brest-Litovsk'la geri alınış,
+  Mondros'la bırakılış. Atlas bunu DOĞRU modellemiş.
+SAHİPSİZLİK: Batum 0 · Sohum 0 · Kutaisi 0 · Tiflis 0
+```
+🔴 **Kusur bendeydi:** yalnız `s:` zincirini okudum, `d:`ye bakmadım.
+YÖNTEM §⑥ tam bunu yasaklıyor: *«süzgeçli bir bakış kaydın tamamı
+sanılırsa SİLDİĞİ ŞEYİ GÖSTERMEZ; `v:` alanını unutma.»* Ben `d:`yi
+unuttum. ⇒ **Bir kayıttan boşluk ilan etmeden önce d + s + v BİRLİKTE
+okunur.**
+
+#### ③ `transkafkasya` ÖLÇÜLDÜ — ve desen tesadüfî değil
+```
+transkafkasya kullanan nokta: 5
+   Kutaisi 1917-11-07→1918-05-26 · Ardahan →1918-05-25 · Kars →1918-05-25
+   Revan →1918-05-28 · Gence →1918-05-28
+Kafkasya kutusunda (38-45K · 38-50D) 1917-11-07 başlangıçlı:
+   sovyet-rusya 41 · transkafkasya 5
+gurcistan-demokratik-cumhuriyeti: 2 nokta (Batum · Kutaisi)
+```
+🟡 Beşinin beşi de Osmanlı'nın 1918'de geri aldığı ya da sınırında olduğu
+yerler, ve bitiş günleri **Elviye-i Selâse / Batum Antlaşması** günleriyle
+hizalı (05-25 · 05-26 · 05-28). ⇒ `transkafkasya` rastgele serpilmiş değil,
+**Osmanlı cephesinin anlatısına bağlı** yazılmış. Tiflis'in düz zinciri bir
+tutarsızlık olmayabilir — o kayıtlar o anlatıya girmediği için hiç
+bölünmemiş olabilir.
+🔴 **Ölçüm bunu ayırt etmiyor; hüküm için kaynak gerekir.**
 ⚠️ **Coğrafî sahiplik ayrı:** cascade Sohum·Batum·Kutaisi·Tiflis'i
 `ORTADOGU-IRAN`a veriyor (lon ≥ 40 ya da lat < 34-72 bandı dışı). Ama
 `rusya` bir **kimlik kalemi** ve bölünmez ⇒ ilk ölçen bu oturumda.

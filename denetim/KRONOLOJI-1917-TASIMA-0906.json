@@ -16,9 +16,11 @@
   },
   "🟢_KAYNAK_OKUNDU_DAMGA_KALKTI": "Önceki raporumda bu iki madde için **OKUMADIM** damgası vurmuştum. Şimdi okundu: üçü de `Riasanovsky & Steinberg, A History of Russia`ya dayanıyor — `§4`in kabul listesindeki cinsten (alanın standart el kitabı). Ve üçü de takvimi AÇIKÇA yazıyor (Julyen/Gregoryen farkı metinde), yani `§4`ün takvim tuzağına karşı zaten korunmuşlar. ⇒ Yeni madde YAZILMASINA GEREK YOK; sıfırdan yazmak mükerrer üretirdi.",
   "hedef_dosya_onerisi": {
-    "oneri": "data/olaylar_ok109.js",
-    "gerekce": "O dosya zaten 1918-1920 Avrupa ardıllık maddelerini taşıyor (Çekoslovakya · Avusturya Cumhuriyeti · Habsburg mirası · SHS Krallığı · Versailles · Neuilly) — 1917 Rus ihtilâlleri aynı sınıf. Ve mevcut bir dosyaya eklemek `index.html`e yeni satır gerektirmez (`§5`).",
-    "🔴_SAHIPLIK_SORUSU": "`olaylar_ok109.js` başka bir oturumun (OK109) dosyası. `§7`: dosya sahipliği. ⇒ HEDEFİ KOORDİNATÖR SEÇSİN. Alternatif: yeni `data/olaylar_balkan_1917.js` — ama o zaman `index.html`e de satır eklenmeli."
+    "HUKUM": "data/olaylar_ok109.js — KOORDİNATÖR HÜKMÜ (7 Eylül 2026)",
+    "gerekce": "Aynı sınıf içerik (1918-1920 Avrupa ardıllığı: Çekoslovakya · Avusturya Cumhuriyeti · Habsburg mirası · SHS Krallığı · Versailles · Neuilly), ve mevcut dosyaya eklemek `index.html`e satır gerektirmiyor (`CLAUDE.md §5`).",
+    "🟢_SAHIPLIK_SORUSU_KAPANDI": "Sorduğum `§7` çakışması YOK. Koordinatör: «`data/*` `§7` gereği zaten Oturum 0'ın; sen `denetim/`e öneri yazıyorsun, ben merge ediyorum ⇒ OK109'un dosya sahipliği burada hiç devreye girmiyor.»",
+    "🟢_UCU_DE_TASINIR": "KOORDİNATÖR HÜKMÜ: `1917-03-08` 0 dönem ucu taşıdığı için DENETİM BORCU değil, ama ANLATININ parçası — 15 Mart'ı hazırlıyor. İkisini taşıyıp birincisini kuyrukta bırakmak TEK BİR ANLATIYI İKİ KOVAYA BÖLERDİ: kullanıcı çekirdekte «Romanov hânedanı sona erdi» görür, NİÇİN sona erdiğini göremezdi. (`§10`: bir madde okunduğunda haritada tam o değişimin görünmesi gerekir — ve değişimin SEBEBİ de.)",
+    "🟡_AYRIM_KORUNUYOR": "Üçü de taşınıyor ama `1917-03-08`in denetim yükü **0** olduğu kayıtta duruyor. Seçim yapıldı, seçim GÖRÜNÜR."
   },
   "cekirdekte_ayni_gun": {
     "1917-03-08": [],

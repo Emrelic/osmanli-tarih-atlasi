@@ -68,21 +68,3 @@
 // cümle yanlış olur (periyot 1815'te bitiyor). `_sahiplik_uygula.py` dolu bir
 // `not:`ı EZMEZ (SKALER_KORUNAN) ⇒ ELLE güncellenmeli.
 // =====================================================================
-
-window.YER_YAMA_AVRUPA_1923 = [
-
-  { ad:"Elba",
-    s:[{f:"1281-01-01",t:"1399-02-19",d:"piza"},
-       {f:"1399-02-19",t:"1815-06-09",d:"piombino"},
-       {f:"1815-06-09",t:"1861-03-17",d:"toskana"},
-       {f:"1861-03-17",t:"1923-10-29",d:"italya"}
-    ],
-    kaynak:"Treccani, Enciclopedia Italiana, 'Piombino' — 1548 GEÇİCİ işgal ('...di occupare, SIA PURE TEMPORANEAMENTE, Piombino'), 1557 iade ('SOLO NEL 1557 ... Cosimo si decise a renderlo a Iacopo VI'), 1805 Elisa Bonaparte, 1815 Viyana Kongresi Nihai Senedi ile Toskana'ya birleştirme ('Caduto Napoleone, con l'atto finale del congresso di Vienna, Piombino fu unita alla Toscana'). TDV kapsam dışı — 'piza' slug 302 ölü, Batı Avrupa TDV kapsamı %0 (§4). Britannica 'Elba' HTTP 403 ⇒ ÖLÇÜLEMEDİ, 'kaynak yok' DEĞİL." },
-
-  { ad:"Dublin",
-    s:[{f:"1281-01-01",t:"1922-12-06",d:"ingiltere"},
-       {f:"1922-12-06",t:"1923-10-29",d:"irlanda-serbest-devlet"}
-    ],
-    kaynak:"RTÉ Century Ireland (İrlanda ulusal yayıncısının Boston College ortaklı akademik tarih projesi): 'The constitution of the Irish Free State became law on 6 December 1922.' İkinci bağımsız teyit: 6 Aralık 1922'de George V'in bildirisiyle Serbest Devlet kuruldu ve Dublin başkenti oldu. TDV kapsam dışı — Batı Avrupa TDV kapsamı %0 (§4)." },
-
-];

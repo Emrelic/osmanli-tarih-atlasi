@@ -1,0 +1,66 @@
+{
+  "_NOT": "ÜÇ GUYANA · AMERİKA-OKYANUSYA oturumu · koordinatör 1.MURAT HÜDAVENDİGAR. Yama: denetim/yer_yama_guyana.js (5 nokta). Bu dosya YAMANIN DIŞINDA KALAN kalemleri taşır — düzeltilmedi, ÖLÇÜLDÜ.",
+  "durum": "🔒 data/ ve arac/ DONUK (koşu 7b) — yama denetim/ altında, commit §7 gereği bende değil",
+
+  "TESLIM": {
+    "yama": "denetim/yer_yama_guyana.js — 5 nokta · 3 âtıl künye canlanıyor",
+    "Georgetown (Stabroek)": "5 → 6 dönem · 1831-01-01'de bölündü → ingiliz-guyanasi",
+    "New Amsterdam (Berbice)": "4 → 5 dönem · 1831-01-01'de bölündü → ingiliz-guyanasi",
+    "Kyk-over-al (Essequibo)": "2 → 3 dönem · 1831-01-01'de bölündü → ingiliz-guyanasi",
+    "Paramaribo": "6 → 6 dönem · 3 `hollanda` dönemi → hollanda-guyanasi (bölme YOK)",
+    "Cayenne": "4 → 4 dönem · son dönem fransa-cumhuriyet → fransiz-guyanasi (bölme YOK)",
+    "sinav": "denetim/ARAC-YAMA-SINA.js — 44/44 temiz: süreklilik · ters dönem · uç koruma · dönem kapsaması · künye penceresi · RENK (8/8 kimlik BOYALAR'da)"
+  },
+
+  "SINIF": {
+    "ne_degil": "🔴 Bu bir HATA DÜZELTMESİ DEĞİL. Üç sömürgenin metropol kimliğiyle boyanması YANLIŞ değil — İngiliz Guyanası'nın egemeni gerçekten Britanya'ydı. §11 (`Ammaroğulları`): atlas TASARRUFU boyar.",
+    "ne": "🟢 TANECİK eksiği. Atlasın kendi konvansiyonu büyük sömürgeye AYRI kimlik veriyor — `ingiliz-hindistani` 70-76 nokta · `ingiliz-kuzey-amerika` 130 dönem. Üç Guyana künyesi tam bunun için YAZILMIŞ ve rengi de var, ama veride SIFIR dönem taşıyorlardı. §11: «bir tutarsızlık bir TERCİH değil, bir EKSİĞİN sonucu olabilir»."
+  },
+
+  "🔴_ONLENEN_YANLIS_ATIF": {
+    "ne_yapilabilirdi": "`hollanda-guyanasi` kimliğini Kyk-over-al ve New Amsterdam'ın Hollanda dönemlerine de yazmak — coğrafî olarak «Hollanda Guyanası» gibi görünüyorlar ve künye penceresi (1667-1923) onları KAPSIYOR.",
+    "nicin_yazilmadi": "Künyenin ADI ayırıyor: «Hollanda Guyanası (SURİNAM)». Essequibo · Demerara · Berbice AYRI Hollanda kolonileriydi ve TDV `guyana` onları adıyla ayırıyor: «Demerara ve Essequibo Birleşik Kolonisi ... Berbice ayrı bir koloni olarak kaldı».",
+    "sinif": "§3.5.-1 «DEVLET VAR, YERİ YANLIŞ» — Fizan'a `hafsi` yazmakla aynı hata. Künye penceresi TUTUYOR olması, kimliğin oraya AİT olduğu anlamına gelmiyor; `4c`/`4d` bu hatayı GÖREMEZDİ çünkü pencere aşımı yok.",
+    "ayirt_eden": "Kimliğin MENZİLİ. Ve bu vakada menzil ölçülebilir bir sayı değil, künyenin KENDİ ADINDAKİ parantez — «(Surinam)». §3.5.-1'in yöntemi: «kimliğin menzilini önce bir sayıya çevir»; burada sayı yok ama AD var ve o da bir menzildir."
+  },
+
+  "ACIK_KALEM_1_KUNYESIZ_HOLLANDA_KOLONILERI": {
+    "olcum": "Essequibo (Kyk-over-al 1616-1803) · Berbice (New Amsterdam 1627-1803) · Demerara (Georgetown 1784-1803) — üç AYRI Hollanda kolonisi, üçü de `hollanda` (metropol) kimliğiyle boyanıyor. TDV `guyana` üçünü de ADIYLA anıyor.",
+    "nicin_yazilmadi": "Künyeleri YOK. §3.5.0'ın `singhasari` şartı: «ardıl künyenin VAR OLMASI yetmez, penceresi de tutmalı» — burada künye HİÇ yok, ve künye yazmak `devletler.js` işidir (donuk).",
+    "buyukluk": "3 nokta · ~187 + ~176 + ~19 yıl. Simetrik değil: Surinam kendi kimliğini alıyor, komşu üç Hollanda kolonisi almıyor.",
+    "damga": "🟡 AÇIK — künye önerisi YAZILMADI, çünkü ad/tarih/kaynak üçlüsü ayrıca araştırılmalı. `okumadım` değil, `ölçtüm ve yazamadım`."
+  },
+
+  "ACIK_KALEM_2_UC_KUNYE_UC_AYRI_KONVANSIYON": {
+    "olcum": [
+      "hollanda-guyanasi  f:1667 = koloninin KURULUŞU (Breda ile Hollanda'ya geçiş) — TDV DOĞRULADI",
+      "ingiliz-guyanasi   f:1831 = koloninin BİRLEŞMEYLE OLUŞMASI — TDV DOĞRULADI. Britanya egemenliği 1803'ten beri var ama «İngiliz Guyanası» diye bir birim 1831'de doğuyor.",
+      "fransiz-guyanasi   f:1817 = bir GERİ VERİLİŞ, bir kuruluş DEĞİL. Künyenin KENDİ `ozet`i bunu yazıyor: «17. yüzyıldan beri ARALIKLI Fransız varlığının 1817'de kalıcı sömürgeye dönüştüğü». Atlas verisi de öyle diyor: Cayenne 1643'ten beri `fransa`."
+    ],
+    "soru": "Üç künye aynı tarihsel duruma (bir sömürgenin kimliği) ÜÇ ayrı başlangıç ölçütü uyguluyor: kuruluş · birleşme · geri veriliş. İlk ikisi savunulabilir (o tarihte gerçekten YENİ bir idarî birim doğuyor); üçüncüsü 1643-1809 arası 166 yıllık Fransız sömürgesini kimliğin DIŞINDA bırakıyor.",
+    "⚪_olcmedim": "1817'nin `fransiz-guyanasi` için doğru `f:` olup olmadığını ÖLÇMEDİM — bunun için akademik bir kaynak gerekiyor ve TDV kapsamıyor (8 slug 302; `amerika` ve `fransa` gövdeleri okundu, tarih yok). Yukarıdaki gözlem atlasın KENDİ kayıtlarından çıkıyor (künyenin ozet'i + Cayenne'in zinciri), dış kaynaktan DEĞİL.",
+    "damga": "🟡 AÇIK — bu bir KÜNYE kararı, benim yamamın konusu değil. Yama 1817'yi DEĞİŞTİRMİYOR."
+  },
+
+  "ACIK_KALEM_3_KAYNAKSIZ_SINIR_GUNLERI": {
+    "olcum": "Beş Guyana kaydının alan kümesi DÖKÜLDÜ (varsayılmadı): Cayenne · Paramaribo · Georgetown · New Amsterdam → alanlar `ad · g · k · kur · lat · lon · s · tur`; `kaynak:` alanı HİÇ YOK. Yalnız Kyk-over-al (`yerlesimler_gamerika.js`, sonraki parti) `kaynak:` taşıyor (HSAI c.4 alıntısı) ve `not:` ile konum kesinliği beyan ediyor.",
+    "dolayisiyla": "21 dönem sınırı (1667-07-31 · 1796-04-22 · 1802-03-27 · 1803-09-01 · 1809-01-14 · 1816-01-01 · 1817-01-01 …) BEYANSIZ. Günlerin çoğu tarihen tanınabilir (Breda · Amiens · Demerara teslimi) ama kaydın kendisi bunu SÖYLEMİYOR.",
+    "🔴_ONEMLI": "`fransiz-guyanasi f:1817-01-01` ile Cayenne'in `1817-01-01` sınırı BİREBİR aynı. Koordinatör haklı olarak sordu: künyenin `f:`i kaynak mı? ÖLÇÜM: kayıtta `kaynak:` alanı YOK ⇒ günün nereden geldiği KAYITLI DEĞİL. Yani ne «künyeden devralındı» ne «kaynaklı» denebilir — üçüncü bir hâl: BEYANSIZ. §4: «kaynağı yazılmayan bilgi, kaynağı olmayan bilgiden ayırt edilemez.»",
+    "damga": "🟡 AÇIK — düzeltmedim. Bir gün EKLEMEK ya da ÇEKMEK kaynak ister; `kaynak:` alanı doldurmak da kaynak ister. İkisi de bu turun bütçesinde değil.",
+    "kapsam_uyarisi": "Bu ölçüm BEŞ kayıt içindir. `yerlesimler_amerika.js`in tamamında `kaynak:` oranı ÖLÇÜLMEDİ — beş kayıttan bir dosya hükmü çıkarılmaz (§11: «temiz çıkan bir örneklem, örneklemin dışını temiz ilan etmez» — tersi de doğru)."
+  },
+
+  "KUTUDAKI_BEYAN_NOKTALARI": {
+    "olcum": "Guyana kutusunda (1,0-8,7K / 61,5-51,0B) 13 nokta: 5 kıyı yerleşimi + 8 `Beyan ...` noktası.",
+    "sonuc": "🟢 Sekizinin sekizi de DÜZGÜN beyanlı: `kasitli_bosluk:true` + `bos:\"kabile\"` + kaynaklı `neden:` (HSAI c.3 alıntıları, halkları koordinatıyla konumlayan) + `not:` ile beyan aralığı. Kimlik BEKLEMİYORLAR — yamam onlara DOKUNMUYOR.",
+    "not": "Biri (`Beyan K7.5 B60.5`) kendi gerekçesini «⚠️ komşu desenden türetildi» diye damgalamış — ölçülmemişi ölçülmüş göstermemiş. Bir başkası (`Beyan K1.5 B60.5`) «Forte São Joaquim inerse bu beyan DARALIR» diye ileriye dönük not düşmüş."
+  },
+
+  "KAYNAK_KAPISI": {
+    "TDV_denenen_slug": "guyana 200 · surinam 200 · guyan 302 · cayenne 302 · fransiz-guyanasi 302 · guyan-fransiz 302 · guyanlar 302 · guyana--fransiz 302 · latin-amerika 302 · karayipler 302 · antiller 302 · brezilya 302",
+    "govdeler_OKUNDU_kesilmeden": "guyana 16.748 kar. · surinam 18.425 kar. · amerika 75.093 kar. · fransa 122.179 kar.",
+    "🔴_amerika_ANMA_boslugu": "TDV `amerika` üç Guyana'yı ADIYLA anıyor («üç Guyana'nın (bugün Surinam, Guyana ve Fransız Guyanası) dışında bütün Güney Amerika devletleri bağımsızlıklarını elde etmiş oldular») ama Fransız Guyanası'na hiçbir TARİH vermiyor. §4'ün üçüncü boşluk cinsi: madde konuşuyor, adı veriyor, TARİHLEMİYOR. Bir slug taraması bundan «TDV kapsıyor» hükmü çıkarırdı.",
+    "fransa_maddesinde": "«Guyan» · «Cayenne» · «Kayen» → 0 eşleşme (122.179 kar. gövdede).",
+    "🔴_GOVDELER_DEPOYA_KONMADI": "Dört gövde (256 KB) TDV'nin TELİFLİ tam metni ve bu depo GitHub Pages'te YAYINLANIYOR. `denetim/_tdv/` altına yazılmıştı, ÇIKARILDI — oturum scratchpad'ine taşındı. Depoda kalan yalnız okuyucu (`denetim/_tdv_oku.py`, artık varsayılan olarak depo DIŞINA yazıyor) ve yukarıdaki kısa atıflı alıntılar. Ölçüm izlenebilirliği korunuyor: slug + karakter sayısı + alıntı yazılı, gövde yeniden çekilebilir."
+  }
+}
