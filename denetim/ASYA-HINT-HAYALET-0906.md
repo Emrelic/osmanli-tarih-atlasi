@@ -143,3 +143,79 @@ gelmeden yama üretilmeyeceği için sıra ona gelmedi. `ölçmedim`.
 ⚠️ çelişki    Meysûr'un başlangıcı: TDV `hindistan` 1761 · TDV `meysur`
               ve `tipu-sultan` 1760. Taraf SEÇİLMEDİ, bildirildi.
 ```
+
+---
+
+# EK — HÜKÜM UYGULANDI, YAMA ÜRETİLDİ (6 Eylül, tur 1 hükmü sonrası)
+
+## 🔴 "ARANDI, YOK" KAYDI — ÜÇÜNCÜ KEZ ARANMASIN DİYE
+
+> Bu blok kasten ayrı ve kalıcı. `§4`ün *"«bulunamadı» bir SONUÇTUR"*
+> kuralı: bir sonraki oturum bunları **yeniden aramasın.**
+
+### ① Kolhapûr künye tarihi — ARANDI
+```
+🔴 bulunamadı  TDV `maratha` · `marathalar`           → 302 ÖLÜ
+🔴 bulunamadı  TDV `hindistan` hânedan listesi OKUNDU → Sindiya · Holkar ·
+               Gaikwar VAR, KOLHAPÛR YOK (0 isabet)
+⚪ ölçülemedi  TDV arama sayfası JS ile yükleniyor, curl sonuç vermiyor
+⚪ ölçülemedi  Britannica `place/Kolhapur-India` → HTTP 403
+```
+🔵 **İki ayrı damga, kasıtlı.** TDV tarafı `bulunamadı` (gövde okundu,
+sonuç sıfır — bir SONUÇ); akademik taraf `ölçülemedi` (erişilemedi).
+İkisini birleştirmek, aranmamış olanı aranmış göstermek olurdu.
+⇒ **Künye YAZILMADI. Kolhapûr noktası yamanın DIŞINDA.** Veride
+`maratha 1659→1923` olarak kalıyor — hayalet **sürüyor ve bu bilinen bir
+borç**, gizlenmiş değil.
+🔴 Ve `1659-01-01`i künyeye taşımadım: o gün **veride** var, kaynakta
+yok; taşımak **veriyi kaynak yerine koymak** olurdu (`§4`, 147 künyelik
+vaka).
+
+### ② Mandu ve Uccayn'ın 1818 sonrası sahibi — ARANDI
+```
+🔴 bulunamadı  TDV `hindistan` Malva'nın 1818 sonrası bölünmesini
+               TANECİKTE vermiyor (§4 TANECİKLİK boşluğu)
+🔴 TAHMİN EDİLMEDİ  Holkar ↔ Sindiya arasında paylaşılmış olabilir;
+               ikisinden birini seçmek UYDURMAK olurdu
+```
+⇒ **İkisi de yamanın DIŞINDA.** Veride `maratha 1732→1923` kalıyor.
+
+## 🟢 YAMA ÜRETİLDİ — `denetim/yer_yama_asya_1923.js`
+**CANLI VERİDEN** (`§⑥`: elle yazma), 5 kayıt. `node --check` geçti.
+```
+Bangalor · Seringapatam · Meysûr (Mysore)   3 dönem → 5
+Gvalyar (Gwalior)                           7 dönem → 8
+İndor (Indore)                              2 dönem → 3
+```
+**Sınav (üretici içinde koşuyor):**
+```
+KAYBOLAN gün      0 / 5 kayıt      ⇒ hiçbir dönem silinmedi
+SÜREKSİZLİK       0 / 5            ⇒ zincirler bitişik
+KAPANIŞ           5/5 → 1923-10-29
+EKLENEN gün       1760-01-01 · 1799-05-04 (meysur) · 1818-06-03 (maratha)
+```
+🟢 Silistre vakasının tuzağı (elle yazılan yama 6 dönemin 5'ini
+siliyordu) burada **yapısal olarak** imkânsız: yama mevcut zinciri
+kopyalayıp **böler**, yeniden yazmaz.
+
+🔴 **ÖN KOŞUL:** `meysur-racaligi` · `gvalyar-sindiya` · `indor-holkar`
+künyeleri **henüz YOK**. Künye+renk inmeden bu yama uygulanırsa 5 nokta
+**boyanmaz** (`§8` harita deliği). Yama dosyasının başlığında yazılı.
+
+## 🟢 `meysur-racaligi` TEK KÜNYE / İKİ DÖNEM — onaylandı, ve biçimi:
+```
+1565-01-26 → 1760-01-01   meysur-racaligi
+1760-01-01 → 1799-05-04   meysur            ← DEĞİŞMEDİ, TDV günü
+1799-05-04 → 1923-10-29   meysur-racaligi
+```
+Künye penceresi (1565→1923) bir **dış zarf**; kesintiyi `s:` zinciri
+taşıyor. `bizans` (1453 + 1461) ve `inka` (1533 + 1572) emsali.
+
+## ÖLÇMEDİM (bu turda da)
+```
+⚪ 2s kapısı — `1760-01-01` · `1799-05-04` · `1818-06-03` günlerinin
+   ÇEKİRDEKTE (`data/olaylar*.js`) maddesi var mı VE KONUSU İLGİLİ Mİ.
+   Künye kararı gelmeden yama inmeyeceği için sıra ona gelmedi.
+⚪ Renk — dört kimliğin hiçbiri `BOYALAR`da yok; `renkler.py` donuk.
+⚪ +7 taban farkı — iki hipotez (isg · mükerrer ad) ÇÜRÜDÜ, sebep açık.
+```

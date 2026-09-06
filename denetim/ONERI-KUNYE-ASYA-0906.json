@@ -55,17 +55,22 @@
    "_UYARI": "TDV'nin f:1728'i ile verinin 1732'si 4 yıl ayrışıyor. İkisi AYNI ŞEYİ ÖLÇMÜYOR olabilir: TDV HÂNEDANIN kuruluşunu, veri O YERİN el değiştirmesini. Karıştırılmadı — künye TDV'yi, `s:` verisi kendi gününü taşıyor."
   },
   {
-   "id": "kolhapur",
-   "ad": "Kolhapûr (Chhatrapati racalığı)",
-   "f": "1659-01-01",
-   "t": "1923-10-29",
-   "hassasiyet": "🔴 f: KAYNAKSIZ — mevcut veriden DEVRALINDI. TDV'de dayanağı YOK.",
-   "bolge": "guney-asya",
-   "harita": null,
-   "ozet": "Maratha hânedanının Kolhapûr kolu; 1818 sonrası İngiliz hâkimiyeti altında prenslik olarak sürdü (1923 sonrasında da sürdü).",
-   "kaynak": "🔴 bulunamadı — TDV `maratha`/`marathalar` slug'ları ÖLÜ (302); KAPSAYICI `hindistan` maddesinin hânedan listesinde Kolhapûr YOK (Sindiya · Holkar · Gaikwar var). Akademik kaynak ARANACAK.",
-   "gerekce": "Veride Kolhapûr 1659-01-01→1923 `maratha`. İKİ AYRI KUSUR: (1) kuyruk — künye 1818-06-03'te bitiyor; (2) BAŞ — veri künyenin f:1674-06-06'sından 15 yıl ÖNCE başlıyor.",
-   "_ACIK": "Bu künye ÖNERİ olarak yazıldı ama KAYNAKSIZ. Kaynak bulunmadan inmemeli — ya da `f:` verinin gününden değil kaynaktan alınmalı."
+   "_GERI_CEKILDI": "kolhapur",
+   "_HUKUM": "1.MURAT: 'bir kez ara — bulamazsan künye YAZILMAZ, nokta yamanın DIŞINDA kalır, ve arandı-bulunamadı diye KAYDEDİLİR.' Arandı. KÜNYE YAZILMADI.",
+   "_ARAMA_KAYDI": [
+    "🔴 bulunamadı — TDV `maratha` · `marathalar` slug'ları 302 ÖLÜ.",
+    "🔴 bulunamadı — KAPSAYICI `hindistan` maddesinin hânedan listesi",
+    "   okundu: Sindiya · Holkar · Gaikwar VAR, KOLHAPÛR YOK (0 isabet).",
+    "⚪ ölçülemedi — TDV arama sayfası (`/arama/?q=Kolhapur`) JS ile",
+    "   yükleniyor, curl ham HTML'de sonuç DÖNDÜRMÜYOR.",
+    "⚪ ölçülemedi — Britannica `place/Kolhapur-India` → HTTP 403.",
+    "🔵 İKİ AYRI DAMGA, KASITLI: TDV tarafı `bulunamadı` (gövde okundu,",
+    "   sonuç sıfır — bir SONUÇ); akademik taraf `ölçülemedi` (erişilemedi).",
+    "   İkisini tek damgada birleştirmek, aranmamış olanı aranmış",
+    "   göstermek olurdu."
+   ],
+   "_NICIN_1659_YAZILMADI": "Veride `maratha` 1659-01-01'de başlıyor ve künyenin f:1674-06-06'sından 15 yıl ÖNCE. O günü künyeye taşımak, VERİYİ KAYNAK YERİNE KOYMAK olurdu — §4'ün 147 künyelik vakası tam bu. (1.MURAT aynı uyarıyı verdi.)",
+   "_SONUC": "Kolhapûr noktası YAMANIN DIŞINDA. Veride `maratha 1659→1923` olarak KALIYOR — yani hayalet SÜRÜYOR ve bu BİLİNEN bir borç, gizlenmiş değil."
   }
  ],
  "_INMEDEN_ONCE": [
