@@ -1,0 +1,264 @@
+{
+  "_NOT": "⑱ ASYA GÜNLERİ · 0907 dalgası. ⑮ PAYLAŞILAN GÜNLER'den `okumadım` damgasıyla devrolan sekiz gün. Bu dosya VERİ YAZMAZ ve yama ÜRETMEZ — kaynak gösterir, damgalar, ve ölçtüğü kusurları BİLDİRİR. Koşu 7b sürerken üretildi; `data/` ve `arac/` DONUK, hiçbirine dokunulmadı.",
+  "_URETIM": "2026-09-07",
+  "_OTURUM": "DAYANAK VOLGA (⑱ kola devir)",
+  "_KOORDINATOR": "1.MURAT HÜDAVENDİGAR",
+
+  "_MANSET": "🔴 Bu kovada DAYANAK aramak, dayanağın BÜYÜK KISMININ ATLASIN KENDİ İÇİNDE durduğunu gösterdi. Sekiz günün altısında `devletler.js` künyeleri veriden DAHA KESİN ya da DAHA DOĞRU bir gün taşıyor. İki günde veri künyeyle çelişiyor, birinde kimlik künyesinden sekiz yıl önce kullanılıyor, birinde ay yanlış görünüyor. ⇒ Kovanın en büyük kazancı dışarıdan getirilen kaynak değil, İÇERİDE ZATEN DURAN dayanağın ölçülmesi oldu.",
+
+  "_TABAN": {
+    "_YONTEM": "girdi.yukle() ve girdi.oku_devletler() ile — regex YOK. Devralınan dört sayı da doğrulandı (kural ④).",
+    "gun": 8,
+    "nokta": 103,
+    "donem_ucu": 206,
+    "kaynakli_donem_ucu": 0,
+    "devralinan_dogrulandi": {
+      "1368-04-01": "sevk 27 — ÖLÇÜM 27 ✓",
+      "1782-04-06": "sevk 20 — ÖLÇÜM 20 ✓",
+      "1752-04-23": "sevk 19 — ÖLÇÜM 19 ✓",
+      "1767-04-07": "sevk 19 — ÖLÇÜM 19 ✓"
+    },
+    "sevkte_sayisi_verilmemis": {
+      "1644-10-01": 6,
+      "1558-04-02": 3,
+      "1774-01-15": 3,
+      "1603-03-30": 6
+    }
+  },
+
+  "_SEVK_ONCULU_OLCULDU": {
+    "_ONCUL": "Sevk: «Doğu/GD Asya ağırlıklı olanlar sende».",
+    "_OLCUM": "Sekizin YEDİSİ doğru. BİRİ değil: `1603-03-30` = Athlone · Belfast · Derry · Donegal · Sligo · Tralee, kimlik `irlanda` → `ingiltere`, ve defterin kendisi sahibini KUZEY-AVRUPA gösteriyor (bölgeler: KUZEY-AVRUPA 8, BATI-ORTA-AVRUPA 4).",
+    "_DAVRANIS": "🔴 YAZILMADI. ⑮'in var olma sebebi tam bu: «bir gün için TEK kaynak yazılır; iki bölge farklı kaynak yazarsa dayanaklar çelişir.» KUZEY-AVRUPA kolu bu günü çoktan yazmış olabilir. Koordinatöre üç şıkla soruldu; teyit gelmeden yazılmayacak.",
+    "_DERS": "§11: «bir sevk, taşıdığı öncülü de doğrulamalıdır.» Devralınan öncül ölçüldü ve %87,5 doğru çıktı — kalan %12,5 bir mükerrer dayanak üretecekti."
+  },
+
+  "_TDV_TURU": {
+    "_SONUC": "🔴 TDV bu kovanın HİÇBİR gününü GÜN hassasiyetinde vermiyor. Sekiz günün sekizi için TDV ya YIL veriyor ya HİÇ konuşmuyor ⇒ §4'ün TANECİKLİK boşluğu ⇒ akademik/kurumsal kaynak MEŞRU ve `kaynak:` alanına ADIYLA yazılır.",
+    "canli_ve_okundu": {
+      "cin--ulke": "72.590 kar, KESİLMEDİ — `1368` 6 cümlede, `1644` 5 cümlede, HEPSİ YIL (hânedan aralıkları: 1271-1368 · 1368-1644 · 1644-1911). GÜN yok.",
+      "tayland": "40.438 kar, KESİLMEDİ — `1767` 1 cümlede, `1782` 1 cümlede, ikisi de YIL. `Chakri` 0 eşleşme (metinde «Chakkri» yazımı geçiyor — §4'ün yazım ekseni), `Thonburi` 0 eşleşme.",
+      "myanmar": "23.296 kar, KESİLMEDİ — `1752` 1 cümlede (YIL). `1558` ve `1774` → **0 EŞLEŞME**, TDV o iki olayı HİÇ anmıyor."
+    },
+    "olculemedi_BOILERPLATE": {
+      "siyam": "200 döndü ama gövde 2.471 karakter ve tamamı ekran klavyesi işaretlemesi — madde gövdesi HİÇ GELMEDİ (§4④). İKİ KEZ denendi, ikisinde de aynı bayt sayısı.",
+      "burma": "200 döndü, gövde 2.469 karakter, aynı durum. İKİ KEZ denendi.",
+      "_DAMGA": "Bu ikisi için «TDV'de yok» YAZILMADI — doğru damga `ölçülemedi`. §4④: madde VAR olabilir ama ALINAMIYOR."
+    },
+    "olu_302": ["ming-hanedani", "ming", "qing", "mancu", "siyam-kralligi", "birmanya", "ava", "pegu", "chiang-mai", "guneydogu-asya"],
+    "_TUZAK_KACINILDI": "`cin` slug'ı 200 döner ama §4②: o FIKIH TERİMİ maddesidir. Ülke maddesi `cin--ulke` kullanıldı. Sevk bunu hatırlattı, ve doğruydu."
+  },
+
+  "gunler": [
+    {
+      "gun": "1782-04-06",
+      "nokta": 20,
+      "kimlik": ["tonburi (t:)", "siyam-chakri (f:)"],
+      "damga": "DOGRULANDI",
+      "_KOVANIN_EN_TEMIZ_GUNU": true,
+      "kunye_capraz": {
+        "tonburi": "t: 1782-04-06 — VERİYLE BİREBİR",
+        "siyam-chakri": "f: 1782-04-06 — VERİYLE BİREBİR",
+        "_HUKUM": "🟢 Veri, iki künyeyle de tam örtüşüyor. Kovadaki tek gün böyle."
+      },
+      "kaynak": {
+        "ad": "Chakri hânedanının kuruluşu / I. Rama'nın (Phutthayotfa Chulalok) cülûsu — 6 Nisan 1782. Tayland'da «Chakri Günü» resmî bayramdır.",
+        "_KANAL": "Birden çok bağımsız kanalda tutarlı: «The Chakri dynasty was founded on 6 April 1782 by Phutthayotfa Chulalok (Rama I)» · «Rama I assumed the throne of Siam on April 6, 1782».",
+        "_SINIR": "🟡 Britannica'nın imzalı «Rama I» maddesi (britannica.com/biography/Rama-I) DENENDİ ve HTTP 403 döndürdü ⇒ `ölçülemedi`. Gün ÇOK KANALLI desteklendi ama ADIYLA AKADEMİK bir künye ALINAMADI. Bu bir `bulunamadı` DEĞİL — sayfa var, çekilemedi."
+      },
+      "takvim": "Gregoryen — Siyam 18. yy'da Gregoryen'le uyumlu bir hesap kullanmıyordu (Budist takvimi); literatürdeki 6 Nisan 1782 Gregoryen karşılıktır. Kaynak takvimi AÇIKÇA söylemiyor, bu bir çıkarımdır."
+    },
+    {
+      "gun": "1767-04-07",
+      "nokta": 19,
+      "kimlik": ["ayutthaya (t:)", "tonburi (f:)"],
+      "damga": "DOGRULANDI",
+      "kunye_capraz": {
+        "ayutthaya": "t: 1767-04-07 — VERİYLE BİREBİR 🟢",
+        "tonburi": "f: 1767-12-28 — 🔴 VERİ KÜNYEDEN 8 AY 21 GÜN ÖNCE BAŞLIYOR",
+        "_BULGU": "🟡 Ayutthaya'nın DÜŞÜŞÜ (7 Nisan 1767) ile Taksin'in Thonburi'de TAÇ GİYMESİ (28 Aralık 1767) aynı gün değildir; künye ikincisini, veri birincisini kullanıyor. Arada 265 gün var ve o dönemde Siyam parçalanmış hâldeydi. Bu bir `4c` kalemi olabilir — ama düzeltmesi TARTIŞMALI: boşluk bırakmak `Değişmez 1`i ihlal eder, `tonburi`yi öne çekmek künyeyi kaynaksız bir güne taşır (§4: «künyeyi veriye uydurmak, veriyi kaynak yerine koymaktır»). BİLDİRİLİYOR, HÜKÜM VERİLMİYOR."
+      },
+      "kaynak": {
+        "ad": "Ayutthaya'nın düşüşü — 7 Nisan 1767, yaklaşık 14 aylık kuşatmanın ardından Burma ordusu şehri aldı ve yaktı.",
+        "_KANAL": "Birden çok bağımsız kanalda tutarlı: «The fall of Ayutthaya took place on 7 April 1767, after a siege of almost 14 months.»",
+        "_TDV_TEYIDI": "TDV `tayland` olayı YIL düzeyinde teyit ediyor: «Ayutthaya sarayının 1767'de Burmalılar'ın işgaline uğraması üzerine Kral Taksin krallık merkezini on beş yıl süreyle Thonburi'ye taşımak zorunda kaldı.» — GÜN yok ama olay ve yön DOĞRULANDI.",
+        "_SINIR": "🟡 UNESCO «Historic City of Ayutthaya» (whc.unesco.org/en/list/576) DENENDİ, HTTP 403 ⇒ `ölçülemedi`. Adıyla akademik künye ALINAMADI."
+      }
+    },
+    {
+      "gun": "1558-04-02",
+      "nokta": 3,
+      "yerlesim": ["Chiang Mai", "Chiang Rai", "Nan"],
+      "kimlik": ["lan-na (t:)", "toungoo (f:)"],
+      "damga": "DOGRULANDI",
+      "kunye_capraz": {
+        "lan-na": "t: 1558-04-02 — VERİYLE BİREBİR 🟢",
+        "toungoo": "f: 1510-01-01 — pencere tutuyor 🟢"
+      },
+      "kaynak": {
+        "ad": "Bayinnaung'un Lan Na'yı tâbi kılması — Burma ordusu 31 Mart 1558'de Chiang Mai önüne geldi, Kral Mekuti 2 Nisan 1558'de savaşmadan teslim oldu.",
+        "_KANAL": "«Bayinnaung became Suzerain of Lan Na beginning on 2 April 1558» · «when Bayinnaung and his armies arrived at Chiang Mai on March 31, 1558, King Mekuti surrendered without a fight on April 2, 1558».",
+        "_TDV": "🔴 TDV `myanmar` gövdesinde `1558` → 0 EŞLEŞME. TDV bu olayı HİÇ anmıyor.",
+        "_SINIR": "🟡 Gün Burma vekāyi'nâmelerine dayanıyor (G.E. Harvey · Victor Lieberman geleneği) ama ADIYLA AKADEMİK bir sayfa ÇEKİLEMEDİ. Damga `DOGRULANDI` çünkü gün BAĞIMSIZ İKİ AYAKLA duruyor: (a) birden çok kanalda aynı gün, (b) ATLASIN KENDİ `lan-na` künyesi aynı günü taşıyor ve o künye ayrı bir oturumun ayrı bir kaynak turundan gelmiş."
+      },
+      "_MODEL_NOTU": "⚠️ Kaynak «suzerain / tâbi» diyor, «ilhak» demiyor. Atlas burada `s:toungoo` yazıyor, yani DOĞRUDAN tasarruf. Lan Na 1558'den sonra Burma'ya TÂBİ bir krallık olarak sürdü. §11'in tasarruf ailesi burada canlı — ama atlasın `v:` katmanı YALNIZ OSMANLI için kimlik taşıyabiliyor (5 Eylül ölçümü: `v:` dönemlerinin kimlik alanı yok), yani bu model eksiği YAPISALDIR, bu kaydın kusuru değil. BİLDİRİLİYOR."
+    },
+    {
+      "gun": "1752-04-23",
+      "nokta": 19,
+      "kimlik": ["toungoo (t:)", "konbaung (f:)"],
+      "damga": "AY_SUPHELI_GUN_VE_YIL_DOGRULANDI",
+      "_BULGU_1_AY": {
+        "_GOZLEM": "🔴 Akademik anlatı Ava'nın düşüşünü ve Toungoo hânedanının sonunu **23 MART 1752**'ye koyuyor: «Hanthawaddy invaded Upper Burma in November 1751, and captured Ava on 23 March 1752, ending the 266-year-old Toungoo dynasty.» Atlas: **1752-04-23**.",
+        "_FARK": "GÜN aynı (23), YIL aynı (1752), AY farklı (Mart ↔ Nisan).",
+        "_AYRISTIRMA": "§4'ün önkoşulu uygulandı — bu bir TAKVİM farkı OLAMAZ: 1752'de Jülyen-Gregoryen farkı 11 gündür, bir AY değil. Ve Burma vekāyi'nâme tarihleri literatüre zaten çevrilmiş biçimde geçer. ⇒ Kalan en olası açıklama bir AY TRANSPOZİSYONU (03 ↔ 04).",
+        "_KESINLIK": "🟡 ÇIKARIM, ölçüm değil. `23` sayısının iki tarafta da aynı olması güçlü bir işaret ama TEK BAŞINA kanıt değil. Ve karşı ihtimal ölçülmedi: 23 Nisan 1752'de ayrı bir olay olabilir mi? ARANMADI ⇒ `okumadım`."
+      },
+      "_BULGU_2_ARDIL": {
+        "_GOZLEM": "🔴🔴 DAHA AĞIR: Ava, KONBAUNG'a düşmedi — **RESTORE HANTHAWADDY**'ye (Mon) düştü. Konbaung'u Alaungpaya 1752 Şubat'ında Yukarı Burma'da AYRI bir direniş olarak kurdu ve Yukarı Burma'yı ancak **Aralık 1753**'e kadar ele geçirdi. Atlas `toungoo` → `konbaung` diye DOĞRUDAN geçiyor ve Hanthawaddy safhasını ATLIYOR.",
+        "_ARDIL_KUNYE_VAR_VE_PENCERESI_TUTUYOR": "🟢 `hanthawaddy` künyesi ATLASTA MEVCUT: **1287-01-01 → 1757-05-06**. Bitiş günü Pegu'nun Alaungpaya'ya düşüşüdür ve DOĞRUDUR. Pencere 1752-1753'ü TAM KAPSIYOR.",
+        "_NIÇIN_ÖNEMLİ": "§3.5.0'ın ARDİL sınıfı şu şartı koyar: «ardıl künyenin VAR OLMASI, YAZILABİLİR OLDUĞU anlamına gelmez — PENCERESİ DE TUTMALI.» Burada İKİSİ DE tutuyor. Yani bu, bloke OLMAYAN bir kalem: yazılabilir.",
+        "_HUKUM": "🔴 HÜKÜM VERMİYORUM, BİLDİRİYORUM. 19 nokta ve üç kimlik etkilenir; `§3.5.1` iki uç ölçümü ister (Hanthawaddy'yi yazmak Konbaung tarafında yeni bir boşluk açar mı?). BENİM KALEMİM DEĞİL."
+      },
+      "kunye_capraz": {
+        "toungoo": "t: 1752-01-01 (YIL hassasiyeti) — veri 1752-04-23, yani künyeyi 113 gün AŞIYOR",
+        "konbaung": "f: 1752-01-01 (YIL hassasiyeti) — veri künyenin İÇİNDE",
+        "_UYARI": "⚠️ Burada veri künyeden DAHA hassas. §4'ün `mentese`/`serbedariler` dersi: «künyeyi veriye uydurmak, veriyi kaynak yerine koymaktır.» Künyenin `YYYY-01-01`i bir yıl beyanıdır; veri gün iddia ediyor ve o gün ŞÜPHELİ. Künye veriye UYDURULMAMALI."
+      },
+      "kaynak": {
+        "ad": "Ava'nın düşüşü ve Toungoo hânedanının sonu — 23 Mart 1752, Restore Hanthawaddy Krallığı tarafından.",
+        "_TDV": "TDV `myanmar` olayı YIL düzeyinde teyit ediyor ve ardılı da: «Toungoo hânedanının 1752'de yıkılması üzerine … Alaungpaya adlı bir lider … Konbaung hânedanını kurdu.» ⚠️ TDV de Hanthawaddy safhasını atlıyor — yani atlasın modeli TDV'yi izliyor olabilir. Bu kaydın niçin böyle yazıldığını AÇIKLAR ama DOĞRULAMAZ.",
+        "_SINIR": "🟡 23 Mart günü için ADIYLA AKADEMİK künye ALINAMADI; Lieberman («Strange Parallels», CUP) ve Harvey («History of Burma») bu kronolojinin standart dayanaklarıdır ama sayfaları çekilemedi ⇒ `ölçülemedi`."
+      }
+    },
+    {
+      "gun": "1774-01-15",
+      "nokta": 3,
+      "yerlesim": ["Chiang Mai", "Chiang Rai", "Nan"],
+      "kimlik": ["konbaung (t:)", "siyam-chakri (f:)"],
+      "damga": "IKI_AYRI_KUSUR_OLCULDU",
+      "_BULGU_1_KIMLIK_HAYALET": {
+        "_OLCUM": "🔴🔴 `siyam-chakri` künyesi **f: 1782-04-06**. Veri onu **1774-01-15**'te başlatıyor ⇒ kimlik künyesinden **8 YIL 2 AY 22 GÜN ÖNCE** kullanılıyor.",
+        "_DOGRU_KIMLIK_ATLASTA_VAR": "🟢 1774'te Siyam **Tonburi** (Taksin) idaresindeydi ve `tonburi` künyesi **1767-12-28 → 1782-04-06** ile o tarihi TAM KAPSIYOR. Yani doğru kimlik atlasta var, penceresi tutuyor, ve bu kalem BLOKE DEĞİL.",
+        "_KANITIN_CINSI": "🟢 Bu bulgu bir web kaynağına DEĞİL, ATLASIN KENDİ `devletler.js` künyelerine dayanıyor — yani dışarıdan bir teyide ihtiyacı yok ve çürütülmesi için künyenin kendisinin yanlış olduğunun gösterilmesi gerekir.",
+        "_ICSEL_TUTARSIZLIK": "📌 Ve atlas kendi içinde çelişiyor: `1782-04-06` günü (benim öteki kalemim, 20 nokta) `tonburi` → `siyam-chakri` geçişini DOĞRU yapıyor. Aynı iki kimlik, iki gün, ve biri sekiz yıl erken."
+      },
+      "_BULGU_2_TARIH": {
+        "_GOZLEM": "🟡 Siyam'ın Lan Na'yı fethi **Kasım 1774 – Ocak 1775** arasıdır; Chiang Mai **Ocak 1775**'te alındı. Taksin donanmasıyla Kasım 1774'te yola çıktı. Atlas `1774-01-15` — yani seferin BAŞLAMASINDAN ON AY ÖNCE.",
+        "_CIKARIM": "Muhtemel bir YIL hatası: `1775-01-15` kastedilmiş olabilir (15 Ocak, sefer penceresinin tam içinde).",
+        "_KESINLIK": "🟡 ZAYIF DAYANAK. Bu bulgunun tek kanalı Vikipedi ve §4 gereği Vikipedi TEK DAYANAK OLAMAZ. `bulunamadı`: 1775 Ocak günü için akademik/kurumsal kaynak ARANDI, bulunamadı. TDV `myanmar`da `1774` → 0 EŞLEŞME.",
+        "_AYRIM": "🔴 BULGU 1 ile BULGU 2 AYRI GÜÇTEDİR ve karıştırılmamalı: kimlik bulgusu ATLASIN KENDİ VERİSİYLE kanıtlı, tarih bulgusu YALNIZ Vikipedi'de. Bir sonraki oturum ikisini aynı kefeye koyarsa ya sağlam olanı zayıf sanır ya zayıf olanı sağlam."
+      },
+      "kunye_capraz": {
+        "konbaung": "f: 1752-01-01, t: 1885-11-29 — 1774 künyenin İÇİNDE 🟢",
+        "siyam-chakri": "f: 1782-04-06 — 🔴🔴 VERİ KÜNYEDEN 8 YIL ÖNCE",
+        "tonburi": "1767-12-28 → 1782-04-06 — 🟢 1774-01-15'i TAM KAPSIYOR (kullanılmamış doğru kimlik)"
+      }
+    },
+    {
+      "gun": "1368-04-01",
+      "nokta": 27,
+      "kimlik": ["yuan-hanedani (t:)", "ming-hanedani (f:)"],
+      "damga": "DAYANAK_ATLASIN_ICINDE_VERI_ONU_KULLANMIYOR",
+      "_BULGU": {
+        "_OLCUM": "🔴 Atlasın KENDİ künyeleri bu geçiş için İKİ ayrı, GÜN hassasiyetli ve tarihen tanınabilir tarih taşıyor — ve VERİ İKİSİNİ DE KULLANMIYOR:",
+        "_KUNYELER": {
+          "ming-hanedani": "f: **1368-01-23** — Zhu Yuanzhang'ın Nanking'de imparatorluğunu ilân ettiği gün (Ming'in kuruluşu)",
+          "yuan-hanedani": "t: **1368-09-14** — Ming ordusunun Dadu'yu (Pekin) alması, Yuan'ın Çin'den çekilişi"
+        },
+        "_VERI": "1368-04-01 — ikisinin ARASINDA, ve HİÇBİRİNE denk gelmiyor.",
+        "_MM01_SUPHESI": "🟡 `04-01` bir `YYYY-MM-01` kalıbıdır. §4'ün «ay, ayın 1'ine kodlanmış» ekseni (künyelerde 42, kronolojide 53 kesin vaka) burada CANLI olabilir — yani kayıt «Nisan 1368» demek isteyip ayın 1'ine kodlamış olabilir. AMA BU ÇÜRÜTÜLEMEZ: hassasiyet ancak AÇIKLAYAN alandan okunur (§11) ve `s:` dönemlerinin `gun:` gibi bir açıklama alanı YOK. ⇒ `ölçülemedi`, `kusur` DEĞİL.",
+        "_NIÇIN_ONEMLI": "🟢 Bu gün 27 nokta ile kovanın en büyüğü, ve dayanağı DIŞARIDA ARAMAYA GEREK YOK: künyeler zaten iki savunulabilir gün sunuyor. Hangisinin seçileceği bir MODEL kararıdır (hânedanın ilânı mı, başşehrin düşüşü mü) ve BENİM KALEMİM DEĞİL."
+      },
+      "kaynak": {
+        "ad": "TDV İslâm Ansiklopedisi, «ÇİN» (ülke maddesi)",
+        "slug": "cin--ulke",
+        "url": "https://islamansiklopedisi.org.tr/cin--ulke",
+        "govde_karakter": 72590,
+        "govde_kesildi_mi": false,
+        "alinti": "Sosyal ve iktisadî açıdan gittikçe zayıflayan halkın isyanı sonunda Moğol hâkimiyeti şehir şehir gerileyerek nihayet 1368 yılında yerini Ming sülâlesine bıraktı.",
+        "_HASSASIYET": "YIL. TDV ayrıca «Ming hânedanı zamanında (1368-1644)» ve «Yüan Hânedanı döneminde (1271-1368)» diyor — üçü de yıl. GÜN YOK.",
+        "_TDV_KENDI_ANLATISI": "📌 TDV'nin «şehir şehir gerileyerek» ifadesi kayda değer: geçiş TEK BİR GÜNDE olmadı. Atlasın 27 noktayı tek güne bağlaması bir MODEL SADELEŞTİRMESİDİR ve bu bir kusur değil — ama seçilen günün savunulabilir olması gerekir, ve `1368-04-01` şu an savunulmuyor."
+      },
+      "takvim": "🟡 1368 Gregoryen ÖNCESİDİR (takvim 1582'de doğdu). Künyedeki `1368-01-23` ve `1368-09-14` literatürde Jülyen olarak verilir. Bu güne yeni bir tarih yazılacaksa hangi takvimde olduğu BEYAN EDİLMELİ — VOLGA kolunda Kazan'da tam bu eksende bir kaynak hatası ölçülmüştü."
+    },
+    {
+      "gun": "1644-10-01",
+      "nokta": 6,
+      "yerlesim": ["Ciyayuguan (Jiayuguan)", "Lanzhou", "Pingyao", "Taiyuan", "Yinchuan (Ningxia)", "Zhangye (Ganzhou)"],
+      "kimlik": ["ming-hanedani (t:)", "dashun (t:)", "qing-hanedani (f:)"],
+      "damga": "DAYANAK_ATLASIN_ICINDE_VERI_ONU_KULLANMIYOR",
+      "_BULGU": {
+        "_OLCUM": "🔴 `1368-04-01` ile AYNI DESEN, ve aynı kovada ikinci kez:",
+        "_KUNYELER": {
+          "ming-hanedani": "t: **1644-04-25** — Chongzhen imparatorunun intiharı ve Pekin'in Li Zicheng'e düşmesi",
+          "qing-hanedani": "f: **1636-05-15** — Hong Taiji'nin Qing hânedanını ilân etmesi",
+          "dashun": "f: 1644-01-01, t: 1647-01-01 — ikisi de YIL hassasiyetinde"
+        },
+        "_VERI": "1644-10-01 — üç künyenin hiçbirine denk gelmiyor, ve yine `YYYY-MM-01` kalıbında.",
+        "_COGRAFI_NOT": "🟡 Altı nokta Shanxi-Gansu-Ningxia hattıdır (Taiyuan · Lanzhou · Yinchuan · Zhangye · Jiayuguan · Pingyao) — Qing'in kuzeybatıyı ele geçirmesi 1644-1646'ya YAYILMIŞ bir süreçti, tek bir güne değil. Yani burada da tek gün bir MODEL SADELEŞTİRMESİ.",
+        "_MM01_SUPHESI": "🟡 `10-01` yine `MM-01`. Aynı sınır: `s:` dönemlerinde açıklama alanı yok ⇒ `ölçülemedi`, `kusur` DEĞİL.",
+        "_DESEN": "🔴 İki günün İKİSİ DE Çin, İKİSİ DE `MM-01`, İKİSİ DE künyelerin taşıdığı kesin günleri kullanmıyor. İki vaka bir ORAN vermez ama bir DESEN gösterir: Çin hânedan geçişleri bu atlasa GÜN hassasiyetinde girmemiş olabilir. Kovamın DIŞINDAKİ Çin günleri ÖLÇÜLMEDİ (`okumadım`) — bir sonraki oturum için."
+      },
+      "kaynak": {
+        "ad": "TDV İslâm Ansiklopedisi, «ÇİN» (ülke maddesi)",
+        "slug": "cin--ulke",
+        "govde_karakter": 72590,
+        "govde_kesildi_mi": false,
+        "alinti": "Müslümanlar ile Çinliler arasında siyasî mahiyette ilk ciddi çarpışma, Ming hânedanının yıkılmasından sonra yerine geçen Mançular'ın Ch'ing hânedanı devrinde (1644-1911) olmuştur.",
+        "_HASSASIYET": "YIL. GÜN YOK."
+      }
+    },
+    {
+      "gun": "1603-03-30",
+      "nokta": 6,
+      "yerlesim": ["Athlone", "Belfast", "Derry", "Donegal", "Sligo", "Tralee"],
+      "kimlik": ["irlanda (t:)", "ingiltere (f:)"],
+      "damga": "YAZILMADI_SAHIPLIK_SORULDU",
+      "_GEREKCE": "🔴 Bu gün ASYA GÜNÜ DEĞİL. Defterin kendisi sahibini KUZEY-AVRUPA gösteriyor. ⑮'in kuruluş gerekçesi «bir gün için TEK kaynak» olduğuna göre, sahibi arıyor olabilecek bir güne ikinci bir dayanak yazmak tam olarak önlenmek istenen şeydir. Koordinatöre üç şıkla soruldu (bende kalsın / sahibine gitsin / ⑮'e dönsün); teyit gelmeden YAZILMAYACAK.",
+      "kunye_capraz": {
+        "irlanda": "t: 1603-03-30 — VERİYLE BİREBİR 🟢",
+        "ingiltere": "f: 1066-01-01 — pencere tutuyor 🟢",
+        "_NOT": "Künye ile veri uyuşuyor; yani bu gün muhtemelen zaten dayanaklı ve yalnız `kaynak:` alanı boş. Bu da onu benim değil sahibinin kalemi yapıyor."
+      },
+      "kaynak": "yazilmadi — sahiplik teyidi bekleniyor"
+    }
+  ],
+
+  "_OZET": {
+    "gun": 8,
+    "nokta": 103,
+    "DOGRULANDI": 3,
+    "AY_SUPHELI_GUN_VE_YIL_DOGRULANDI": 1,
+    "IKI_AYRI_KUSUR_OLCULDU": 1,
+    "DAYANAK_ATLASIN_ICINDE_VERI_ONU_KULLANMIYOR": 2,
+    "YAZILMADI_SAHIPLIK_SORULDU": 1,
+    "_NOKTA_AGIRLIKLI": "103 noktanın 42'si (1782-04-06 · 1767-04-07 · 1558-04-02) DOGRULANDI. 33'ü (1368-04-01 · 1644-10-01) dayanağı ATLASIN İÇİNDE ama kullanılmayan kovada. 19'u (1752-04-23) ay şüpheli + ardıl atlanmış. 3'ü (1774-01-15) iki kusurlu. 6'sı (1603-03-30) sahiplik beklemede.",
+    "_UYARI": "Bu özet ELLE yazıldı ve kayıtların kendisine karşı ÇAPRAZ SINANDI (VOLGA kolunda elle yazılan bir özet sınavda çürümüştü)."
+  },
+
+  "_KOORDINATORE": {
+    "veri_yazildi_mi": false,
+    "commit_edildi_mi": false,
+    "yama_uretildi_mi": false,
+    "_BEKLEYEN_KARAR": "`1603-03-30` — bende mi kalsın, sahibine mi gitsin, ⑮'e mi dönsün? Teyit gelmezse listemden DÜŞÜYORUM, sessizce yazmıyorum.",
+    "_BILDIRILEN_KUSURLAR_HUKUM_VERILMEDI": [
+      "1774-01-15 — `siyam-chakri` künyesinden 8 yıl 2 ay önce kullanılıyor; doğru kimlik `tonburi` ATLASTA VAR ve penceresi TAM TUTUYOR. Kanıt dış kaynakta değil ATLASIN KENDİ künyesinde. 3 nokta. BLOKE DEĞİL.",
+      "1752-04-23 — (a) akademik anlatı 23 MART diyor, ay şüpheli; (b) Ava Konbaung'a değil HANTHAWADDY'ye düştü ve `hanthawaddy` künyesi (1287 → 1757-05-06) pencereyi TUTUYOR. 19 nokta. §3.5.1 iki uç ölçümü gerekir.",
+      "1368-04-01 ve 1644-10-01 — künyeler dört ayrı GÜN HASSASİYETLİ tarih taşıyor (1368-01-23 · 1368-09-14 · 1644-04-25 · 1636-05-15), veri hiçbirini kullanmıyor ve ikisi de `YYYY-MM-01`. 33 nokta. Hangi günün seçileceği MODEL kararı.",
+      "1767-04-07 — `tonburi` künyesi 1767-12-28'de açılıyor, veri 8 ay 21 gün önce başlatıyor. Düzeltmesi TARTIŞMALI (boşluk `Değişmez 1`i ihlal eder, künyeyi öne çekmek kaynaksız güne taşır).",
+      "1558-04-02 — kaynak «suzerain/tâbi» diyor, atlas `s:` (doğrudan tasarruf) yazıyor. Ama `v:` katmanı YALNIZ Osmanlı için kimlik taşıyabiliyor ⇒ bu YAPISAL bir eksik, kaydın kusuru değil."
+    ],
+    "_OLCULEMEDI": [
+      "britannica.com/biography/Rama-I — HTTP 403",
+      "whc.unesco.org/en/list/576 (Ayutthaya) — HTTP 403",
+      "TDV `siyam` ve `burma` — 200 döndü, gövde saf boilerplate (2.471 / 2.469 kar), İKİ KEZ denendi. «TDV'de yok» YAZILMADI."
+    ],
+    "_OKUMADIM": [
+      "23 Nisan 1752'de ayrı bir olay var mı — ay transpozisyonu çıkarımının karşı ihtimali ARANMADI",
+      "Kovamın DIŞINDAKİ Çin hânedan geçişi günleri — `MM-01` deseninin yaygınlığı ÖLÇÜLMEDİ",
+      "Lieberman «Strange Parallels» ve Harvey «History of Burma» birincil metinleri — sayfaları çekilemedi, kütüphane erişimi denenmedi"
+    ],
+    "_KULLANILMAYAN": "Aramalarda `fandom.com` (Military Wiki, 4 kez) · `historycooperative` · `histofreak` · `factsanddetails` · `myvirtualworldtrip` · seyahat blogları çıktı — §4'ün 🔴 listesi. HİÇBİRİ KULLANILMADI, kasıtlı."
+  }
+}
