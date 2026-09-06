@@ -106,4 +106,43 @@ yazmak = hiç cevap vermemek.**
 ---
 
 ## İLERLEME NOTU
-*(buradan aşağısı senin)*
+
+### 6 Eylül 2026 — birinci parti
+
+**TABAN DOĞRULANDI** (`ARAC-BOLGE-KUTU-0906.js` otoritesiyle):
+`BALKANLAR 389 + DOGU-AVRUPA 206 = 595 · 18 benzersiz kimlik`.
+⚠️ Şartnamenin *"26 kimlik"*i şişikti (koordinatör düzeltti). Ve ilk
+ölçümüm 578 vermişti — `ARAC-1923-TRIYAJ`ın **bağımsız** kutularıyla;
+o kutular örtüşüyor ve boşluk bırakıyor, cascade bırakmıyor.
+
+**KUSUR TABLOSU** (bütün küme tarandı, elle verilen liste değil):
+```
+4c HAYALET 8 nokta-dönem / 4 kimlik · 4d 0 · KÜNYESİZ 0 · RENKSİZ 0
+```
+📌 Şartnamenin beş kaleminin dışında **altıncı bir 4c/4d kusuru çıkmadı** —
+bu bir kapsam kanıtıdır. Ama 4c/4d kusurun tamamı değil: aşağıdaki iki
+sınıf hiçbir künyeyi aşmıyor ve hiçbir denetime görünmüyor.
+
+**ŞARTNAMEDE OLMAYAN ÜÇ BULGU:**
+1. **Besarabya 7 nokta** — 6'sı `sovyet-rusya` ile künye içinde kalıyor,
+   TDV üç gövdede 1918'den itibaren Romanya diyor. Görünen 1, görünmeyen 6.
+2. **`OSMANLI` ↔ `tbmm-turkiye` çatışması** — 12 nokta hâlâ `d:` OSMANLI;
+   dördü (Antep·Kilis·Mersin·Payas) `1921-10-20`'yi `d:`de taşırken sekiz
+   komşusu aynı günü `s: tbmm-turkiye`de taşıyor. Payas ile Dörtyol **9 km**.
+3. **1917 Rus ihtilâlleri çekirdekte YOK** — 446+896 dönem sınırı, olayı
+   anlatılmadan kapanıyor.
+
+**REDDEDİLEN KALEM:** `oniki-ada-italyan` — atlas vakayı `isg:` ile zaten
+doğru çözmüş (13/13 ada, gün gün, kronolojisiyle). Renk kalemi kapandı.
+
+**DÜZELTİLEN ŞARTNAME MADDELERİ:** ④ (17 → aday küme `italya`nın 13'ü,
+sonra tamamen reddedildi) · ⑤ (`avusturya` bir künye id'si değil,
+`habsburg`un `harita:` anahtarı ⇒ âtıl künye değil ÜÇÜNCÜ HAYALET).
+
+**TESLİM:** `denetim/BALKAN-BULGU-0906.md` · `yer_yama_balkan_1923.js` (11)
+· `yer_yama_kafkas_rusya.js` (4) · `yer_yama_balkan_avusturya_BEKLIYOR.js`
+(1, renk bekliyor) · `KRONOLOJI-BALKAN-0906.json` (4 madde, iki kovada) ·
+dört ölçüm aleti.
+
+**AÇIK:** Sohum (komşu kanıtı bölünüyor) · 1917 maddelerinin kaynağı
+(okumadım) · ~337 noktanın nokta nokta kaynak denetimi (şartname ⑧).
