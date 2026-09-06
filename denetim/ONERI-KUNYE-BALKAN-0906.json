@@ -35,7 +35,8 @@
         "veride_kullanilan_gun": "1918-11-11",
         "fark_gun": 20,
         "etkilenen_nokta": 28,
-        "eklenecek": "🟡 VERİ `1918-11-11` GÜNÜNÜ KULLANIR — künyenin `f:` değerinden 20 gün ÖNCE. Bu KASITLIDIR: `1918-11-11` atlasın Habsburg mirasının ardıllara devri günüdür (89 `avusturya` dönemi o gün biter, altı ardıl o gün başlar) ve çekirdekte kendi maddesi vardır. Künye `f:` ise devletin KENDİ kuruluş günüdür. Her ardılı kendi gününde başlatmak 5-20 günlük boşluklar açar ve `Değişmez 1`i bozardı. Etkilenen nokta: 28. (Ölçen: BALKAN-DOĞU AVRUPA, 7 Eylül 2026.)"
+        "eklenecek": "🟡 VERİ `1918-11-11` GÜNÜNÜ KULLANIR — künyenin `f:` değerinden 20 gün ÖNCE. Bu KASITLIDIR: `1918-11-11` atlasın Habsburg mirasının ardıllara devri günüdür (89 `avusturya` dönemi o gün biter, altı ardıl o gün başlar) ve çekirdekte kendi maddesi vardır. Künye `f:` ise devletin KENDİ kuruluş günüdür. Her ardılı kendi gününde başlatmak 5-20 günlük boşluklar açar ve `Değişmez 1`i bozardı. Etkilenen nokta: 28. (Ölçen: BALKAN-DOĞU AVRUPA, 7 Eylül 2026.)",
+        "onceki_kimlik": "avusturya (28/28)"
       },
       {
         "id": "macaristan-naiplik",
@@ -43,7 +44,8 @@
         "veride_kullanilan_gun": "1918-11-11",
         "fark_gun": 5,
         "etkilenen_nokta": 20,
-        "eklenecek": "🟡 VERİ `1918-11-11` GÜNÜNÜ KULLANIR — künyenin `f:` değerinden 5 gün ÖNCE. Bu KASITLIDIR: `1918-11-11` atlasın Habsburg mirasının ardıllara devri günüdür (89 `avusturya` dönemi o gün biter, altı ardıl o gün başlar) ve çekirdekte kendi maddesi vardır. Künye `f:` ise devletin KENDİ kuruluş günüdür. Her ardılı kendi gününde başlatmak 5-20 günlük boşluklar açar ve `Değişmez 1`i bozardı. Etkilenen nokta: 20. (Ölçen: BALKAN-DOĞU AVRUPA, 7 Eylül 2026.)"
+        "eklenecek": "🟡 VERİ `1918-11-11` GÜNÜNÜ KULLANIR — künyenin `f:` değerinden 5 gün ÖNCE. Bu KASITLIDIR: `1918-11-11` atlasın Habsburg mirasının ardıllara devri günüdür (89 `avusturya` dönemi o gün biter, altı ardıl o gün başlar) ve çekirdekte kendi maddesi vardır. Künye `f:` ise devletin KENDİ kuruluş günüdür. Her ardılı kendi gününde başlatmak 5-20 günlük boşluklar açar ve `Değişmez 1`i bozardı. Etkilenen nokta: 20. (Ölçen: BALKAN-DOĞU AVRUPA, 7 Eylül 2026.)",
+        "onceki_kimlik": "avusturya (20/20)"
       },
       {
         "id": "letonya",
@@ -51,8 +53,14 @@
         "veride_kullanilan_gun": "1918-11-11",
         "fark_gun": 7,
         "etkilenen_nokta": 3,
-        "eklenecek": "🟡 VERİ `1918-11-11` GÜNÜNÜ KULLANIR — künyenin `f:` değerinden 7 gün ÖNCE. Bu KASITLIDIR: `1918-11-11` atlasın Habsburg mirasının ardıllara devri günüdür (89 `avusturya` dönemi o gün biter, altı ardıl o gün başlar) ve çekirdekte kendi maddesi vardır. Künye `f:` ise devletin KENDİ kuruluş günüdür. Her ardılı kendi gününde başlatmak 5-20 günlük boşluklar açar ve `Değişmez 1`i bozardı. Etkilenen nokta: 3. (Ölçen: BALKAN-DOĞU AVRUPA, 7 Eylül 2026.)"
+        "eklenecek": "🟡 VERİ `1918-11-11` GÜNÜNÜ KULLANIR — künyenin `f:` değerinden 7 gün ÖNCE (künye 1918-11-18, Letonya'nın bağımsızlık ilânı). Bu KASITLIDIR: `1918-11-11` atlasta Compiègne Mütarekesi'nin ve yeni devletlerin haritaya girdiği gündür; üç noktanın önceki kimliği `sovyet-rusya`dır (1917-11-07 → 1918-11-11), yani geçiş Habsburg ardıllığından DEĞİL Rus cephesinin çöküşünden gelir. Etkilenen nokta: 3. (Ölçen: BALKAN-DOĞU AVRUPA, 7 Eylül 2026.)",
+        "onceki_kimlik": "sovyet-rusya (3/3)"
       }
-    ]
+    ],
+    "🔴🔴_DUZELTME": "İLK YAZIMDA ÜÇ KÜNYEYE DE AYNI METNİ YAZDIM ve `letonya` için YANLIŞTI. Ölçtüm: `letonya`nın üç noktasının önceki kimliği `sovyet-rusya` (1917-11-07 → 1918-11-11), `avusturya` DEĞİL. Yani Habsburg ardıllığı gerekçesi ona UYMUYOR. `yugoslavya` 28/28 ve `macaristan-naiplik` 20/20 `avusturya`dan geliyor ⇒ onlarda gerekçe doğru. 📌 Bu, aynı gün `isg: yunanistan` yamasında ÖNLEDİĞİM hatanın ta kendisi («tek kaynağı 27 kayda ödünç vermem») — orada önledim, burada YAPTIM ve kendi metnimi sınayarak yakaladım. Kural yetmiyor, ÖLÇÜM yakalıyor.",
+    "iki_ayri_gerekce": {
+      "HABSBURG ARDILLIĞI": "yugoslavya (28/28 `avusturya`dan) · macaristan-naiplik (20/20 `avusturya`dan)",
+      "MÜTAREKE GÜNÜ": "letonya (3/3 `sovyet-rusya`dan) — `1918-11-11` burada Compiègne Mütarekesi'nin günü; kuyrukta o günde «Mütareke — I. Dünya Savaşı sona erdi» ve «Polonya bağımsızlığını yeniden kazandı» maddeleri var"
+    }
   }
 }

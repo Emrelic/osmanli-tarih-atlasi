@@ -1,0 +1,83 @@
+{
+  "_NOT": "AMERİKA-OKYANUSYA · 1923-10-28 sahiplik kimliği denetimi · koordinatör 1.MURAT HÜDAVENDİGAR. Bu dosya ÖLÇÜMDÜR; düzeltme İÇERMEZ. `data/` ve `arac/` koşu 7b boyunca donuk.",
+  "taban": {
+    "kutu": "KUZEY-AMERIKA 477 · GUNEY-ORTA-AMERIKA 180 · OKYANUSYA 165 = 822 nokta",
+    "sartname_730": "🟢 UYUŞUYOR — 822 − 92 sahipsiz = 730. Şartnamenin sayısı SAHİPLİ noktaları sayıyor; fark tanımsal, kusur değil.",
+    "benzersiz_kimlik": "27 🟢 şartnameyle birebir",
+    "isg_ortu": "0 — koordinatör 0 dedi, ÖLÇTÜM (dört katman d/v/s/isg tarandı). «0» ile «bakmadım» arasındaki farkı ancak bakarak bilirim."
+  },
+
+  "🟢_TEMIZ_CIKAN": {
+    "sahipsiz_92": "🟢 TAM TEMİZ — 92'nin 92'si BEYANLI: 80 `kasitli_bosluk` + 12 `bit:`. Açıklamasız SIFIR. `bos:` cinsleri: kabile 69 · devletsiz 6 · veri-yok 4 · insansiz 1 — dördü de `girdi.py`nin BILINEN_ALANLAR kütüğündeki geçerli kovalar. Bu bir varsayım değil ölçüm; şüpheli listesi BOŞ döndü.",
+    "guyana_kutusu_beyanlari": "🟢 8/8 düzgün — `kasitli_bosluk` + `bos:kabile` + HSAI c.3 alıntılı `neden:`. Biri gerekçesini «⚠️ komşu desenden türetildi» diye kendi damgalamış."
+  },
+
+  "🔴_BULGU_1_UC_ULUSAL_BASKENT_ATLASTA_YOK": {
+    "olcum": "3805 noktanın TAMAMI Türkçe normalleştiriciyle tarandı (`İ`.lower() tuzağına karşı; `usku`≠`Üsküp` dersinin aleti).",
+    "haiti": "🔴 Port-au-Prince · Cap-Haïtien · Cap-Français · Gonaïves → HİÇBİRİ YOK. `haiti` kimliğini atlasta TEK bir nokta taşıyor: **Jaragua (Taino kasikazgosu)** — yani 1804'te kurulan cumhuriyet, haritada bir Kolomb-öncesi kasikazgo merkezinden yayılıyor.",
+    "guatemala": "🔴 Guatemala City / Nueva Guatemala de la Asunción (1776 başkenti) → YOK. Kimliği Nojpetén (Tayasal) ve Antigua Guatemala taşıyor; ikisi de 1776 ÖNCESİ merkezler.",
+    "tonga": "🔴 Nukuʻalofa → YOK. Kimliği **Lapaha (Muʻa)** taşıyor — Tuʻi Tonga'nın ESKİ merkezi.",
+    "🟢_kontrol": "Panama (Panamá) · Dominik (Santo Domingo) · Küba (Havana) → ÜÇÜNÜN DE başkenti VAR. Yani bu bir tarama artefaktı değil: aynı alet aynı turda üç başkenti buldu, üçünü bulamadı.",
+    "nicin_onemli": "§2 — noktasız bölge en yakın peteğe emilir ve O PETEĞİN SAHİBİYLE boyanır. Haiti'nin peteği güneybatı yarımadadan (Jaragua) yayılıyor; kuzey ve doğusu `dominik-cumhuriyeti` tarafından emiliyor olabilir. Bu ÖLÇÜLMEDİ — petek çıktısı gerekir, koşu bitince sınanabilir.",
+    "kunye_bk_alani": "Üç künyenin de `bk:` (başkent) alanı YOK — yani künye tarafı da bu boşluğu ifade etmiyor.",
+    "kaynak_kapisi": "🔴 TDV KAPSAMIYOR: `haiti` · `guatemala` · `tonga` · `kuba` · `dominik-cumhuriyeti` · `orta-amerika` = 302. Kapsayıcı `amerika` (75.093 kar.) okundu: «Haiti» 2 kez, «Guatemala» 4 kez geçiyor ama YALNIZ ÜLKE/BÖLGE olarak — şehir kuruluşu YOK; «Tonga» 0 kez. §4'ün ANMA boşluğu.",
+    "damga": "🟡 AÇIK — nokta YAZILMADI. Üç gerekçe: (a) `data/` donuk, (b) nokta yazımı Oturum 4 kulvarı, (c) kuruluş günleri akademik kaynak ister ve §4 uydurmayı yasaklıyor. Bu `okumadım` DEĞİL: arandı, atlasta yok, TDV'de tarih yok — o kadarı ÖLÇÜLDÜ."
+  },
+
+  "🔴_BULGU_2_ingiltere_D_SINIFI": {
+    "olcum": "1923-10-28'de `ingiltere` kimliğini ÜÇ bölgede 13 nokta taşıyor. Yamam (yer_yama_guyana.js) üçünü çeviriyor ⇒ 10 kalıyor, ve onlar BEŞ sömürge kümesi:",
+    "kumeler": {
+      "Jamaika": "Spanish Town (1655-05-10) · Port Royal (1655) · Kingston (1692)",
+      "Trinidad": "Port of Spain (1797-02-18) · San José de Oruña (1797-02-18)",
+      "İngiliz Hondurası (Belize)": "Belize Town (1716)",
+      "Moskito kıyısı": "Río Tinto / Black River (1732)",
+      "Fiji": "Suva (1874-10-10) · Levuka (1874-10-10)",
+      "Güney Georgia": "Grytviken (1904-11-16)"
+    },
+    "kunye_taramasi": "🔴 ALTISININ DA KÜNYESİ YOK. 617 künye `id` · `ad` · `harita` ÜÇ alanda, Türkçe normalleştiriciyle tarandı: jamaika/jamaica · trinidad/tobago · belize/honduras · moskito/mosquito/miskito · fiji · georgia/falkland/malvin → eşleşme 0. (id TAHMİN EDİLMEDİ: `ingiliz-hindistan` diye aranıp «yok» denen ve gerçekte `ingiliz-hindistani` olan vakanın tekrarı önlendi.)",
+    "sinif": "§3.5.0 — ardıl kimlik YOK. Yazılabilir DEĞİL: künye + renk gerekiyor, ikisi de donuk dosyalarda, ve künye ad+tarih+kaynak ister.",
+    "damga": "🟡 AÇIK — künye önerisi YAZILMADI. Ölçüldü ve kümelenmiş hâlde teslim edildi; bir künye oturumu doğrudan devralabilir."
+  },
+
+  "🟡_BULGU_3_BOLGE_BOLUMLEMESI_SIRA_KUSURU": {
+    "alet": "denetim/ARAC-BOLGE-KUTU-0906.js (başka oturumun aleti — ÖLÇÜM, suçlama değil)",
+    "cascade": "53: la>=12 && lo<=-50 → KUZEY-AMERIKA · 54: la<12 && lo<=-30 → GUNEY-ORTA-AMERIKA · 55: lo>100 || lo<-140 → OKYANUSYA · 56: else → VOLGA-URAL-SIBIRYA",
+    "kusur": "55'in `lo < -140` DALI 12°K'nin ALTINDA HİÇ ATEŞLENEMEZ — 54 önce çalışıyor ve `lo <= -30` olan her şeyi yutuyor. Güney Pasifik adaları OKYANUSYA kovasına giremiyor.",
+    "buyuklugu": "🟢 **1 NOKTA** — Lapaha (Muʻa), (-21,18 · -175,12). Koordinat DOĞRU Tonga; kusur veride değil kovalamada.",
+    "🔴_kendi_cercevemi_curuttum": "Aynı turda «53 de 41 Kuzey Pasifik noktasını yutuyor» diye ikinci bir kusur bildirecektim. ÖLÇTÜM: o 41 nokta ALASKA (Nome · Unalaska · Point Hope …) ve Alaska GERÇEKTEN Kuzey Amerika ⇒ 53 doğru çalışıyor, kusur YOK. Çerçevem yanlıştı, ölçüm düzeltti.",
+    "etki": "🟢 İŞ DAĞITIMINA ETKİSİ YOK — GUNEY-ORTA-AMERIKA ve OKYANUSYA aynı süper bölgeye (AMERİKA-OKYANUSYA) bağlı. Etkilenen tek şey RAPORLARDAKİ KOVA ADI: «Tonga Güney Amerika'da» diye okunuyor.",
+    "kardes_vaka": "Sibirya (43 nokta, `lo>100` dalı → OKYANUSYA) aletin KENDİ dosyasında 90-95. satırlarda ZATEN kayıtlı ve o bu oturumun 6 Eylül ölçümü. Güney Pasifik kardeşi kayıtlı DEĞİLDİ."
+  },
+
+  "⚪_E_KOVASI_TRIYAJI_METRIK_CURUDU": {
+    "denenen": "E kovasının 10 künyesi için «kimliğin noktalarının 300 km çevresinde YABANCI kimlik oranı» ölçüldü; oran yüksek olanlar ŞÜPHELİ sayılacaktı.",
+    "sonuc": "🔴 METRİK ÇÜRÜDÜ. `kuba-cumhuriyeti` %64 çıktı ve yabancı komşuları `ingiltere` (Jamaika) ile `meksika` (Yucatán) — İKİSİ DE DOĞRU. `dominik`in `abd` komşusu Porto Riko, o da doğru. Metrik ADA YOĞUNLUĞUNU ölçüyordu, kusuru değil.",
+    "ders": "§11'in nehir geçiş metriği dersinin aynısı: ölçü nehri değil ATLASI ölçüyordu. Burada ölçü kusuru değil KARAYİP COĞRAFYASINI ölçtü. Bir ölçüt seçmeden önce: bu ölçüt karşılaştırdığım seçeneklere FARKLI cevap veriyor mu — ve verdiği farkı NE üretiyor?",
+    "🟢_yine_de_ise_yaradi": "Metrik yanlıştı ama çıktısına BAKARKEN Haiti'nin tek noktasının bir Taino kasikazgosu olduğu görüldü — BULGU 1 oradan çıktı. Ölçüt çürüdü, ONA BAKMAK çürümedi.",
+    "damga": "Bu kova için «kusur» hükmü VERİLMEDİ. E kovası bir ADAY listesidir ve aday olmak kusur değildir (koordinatörün uyarısı)."
+  },
+
+  "OLCMEDIKLERIM": {
+    "peteğe_etkisi": "⚪ BULGU 1'in haritada gerçekten bir emilme üretip üretmediği ÖLÇÜLMEDİ — petek çıktısı gerekiyor ve koşu sürüyor. Koşu bitince Haiti/Dominik sınırında sınanabilir.",
+    "kaynak_denetimi": "⚪ Kutumun 822 noktasının `kaynak:` alanı BÜTÜN olarak taranmadı. Beş Guyana kaydında tarandı (4'ünde alan HİÇ YOK) — beş kayıttan bir kutu hükmü ÇIKMAZ.",
+    "okyanusya_ve_kuzey_amerika_derinligi": "⚪ Bu tur GUNEY-ORTA-AMERIKA'ya yoğunlaştı (Guyana + Karayip). OKYANUSYA'nın 165 ve KUZEY-AMERIKA'nın 477 noktası kimlik DAĞILIMI düzeyinde ölçüldü, kayıt kayıt DEĞİL."
+  },
+
+  "ALETLER": [
+    "denetim/ARAC-AMERIKA-1923-TABAN.js      dört katmanlı taban + kimlik dağılımı",
+    "denetim/ARAC-AMERIKA-1923-SUPHE.js      birinci tur şüpheliler",
+    "denetim/ARAC-AMERIKA-1923-SUPHE2.js     ikinci tur (ingiltere · kova çelişkisi · sahipsiz 92)",
+    "denetim/ARAC-AMERIKA-1923-KUNYE-SINA.js künye kesiminin KÜRESEL ön koşulu",
+    "denetim/ARAC-AMERIKA-1923-KAPSAM.js     `2s` kapsam ölçümü (929 noktalık küre)",
+    "denetim/ARAC-YAMA-SINA.js               GENEL yama kabul sınavı (iki yamayı da sınar)",
+    "denetim/ARAC-GUYANA-TABAN.js            üç Guyana taban",
+    "denetim/ARAC-GUYANA-BEYAN.js            alan kümesi dökümü",
+    "denetim/ARAC-GUYANA-BEYAN2.js           beyan noktaları",
+    "denetim/ARAC-GUYANA-YAMA-URET.js        Guyana yama üreteci",
+    "denetim/ARAC-KUTU-SIRA-SINA.js          cascade sıra ölçümü",
+    "denetim/ARAC-INGILTERE-D-SINIF.js       D-sınıfı künye taraması",
+    "denetim/ARAC-E-KOVA-TRIYAJ.js           E kovası triyajı (metriği ÇÜRÜDÜ — kayıt olarak duruyor)",
+    "denetim/ARAC-BASKENT-ARA.js             başkent taraması",
+    "denetim/_tdv_oku.py                     TDV gövde okuyucu (depo DIŞINA yazar)"
+  ]
+}

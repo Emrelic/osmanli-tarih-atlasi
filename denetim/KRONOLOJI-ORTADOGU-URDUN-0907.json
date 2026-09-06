@@ -1,0 +1,24 @@
+{
+ "_NOT": "① ÜRDÜN · ORTADOĞU · 7 Eylül 2026 · TASLAK. `data/olaylar_ek23.js`E İNECEK — `kronoloji*.js`e DEĞİL (`Değişmez 2`nin evreni `glob('data/olaylar*.js')`).",
+ "_NICIN": "🔴 1921-02-01'in çekirdekteki en yakın maddesi 22 gün uzaklıkta ve ±30 eşiğini GEÇİYOR — ama KONUSU «Birinci İnönü Muharebesi», yani Anadolu cephesi. Yöntemin ⑤. adımı: «±30 günü geçmek YETMEZ, maddenin KONUSU İLGİLİ olmalı.» Bu madde o yüzden yazıldı; olmasaydı `2s` sayacı kapanır, BORÇ kapanmazdı.",
+ "_HASSASIYET": "🟡 GÜN KAYNAKSIZ. TDV `urdun` AY veriyor: «Şubat 1921'de kendini Şarkī Ürdün emîri ilân etti». `§4` kaba tarih (`1921-01-01`) yazılmasını isterdi, AMA o gün maddeyi `urdun-emirligi` künyesinin (f:1921-02-01) DIŞINA düşürür ve `4d` ihlali doğar. ⇒ Yöntemin ③. adımının istisnası uygulandı: künyenin günü DEVRALINDI ve devralındığı BURAYA YAZILDI. Künyenin kendi günü de kaynaksızdır.",
+
+ "madde": [
+  {
+   "t": "1921-02-01",
+   "b": "Şarkî Ürdün Emirliği'nin kurulması — Abdullah b. Hüseyin'in emirliğini ilânı",
+   "k": "siyaset",
+   "onem": 3,
+   "dunya": 0,
+   "kapsam": "dis",
+   "etiket": ["kurulus", "siyaset"],
+   "yer": "Amman",
+   "yer_id": "Amman",
+   "kisiler": "Abdullah b. Hüseyin",
+   "gun": "Şubat 1921",
+   "kesinlik": "ay",
+   "kaynak": "urdun",
+   "d": "Şerîf Hüseyin'in oğlu Faysal'ın 1920'de Fransızlar tarafından Suriye'den çıkarılmasının ardından kardeşi Abdullah Ürdün'e geldi ve kendini Şarkî Ürdün emîri ilân etti. Emirlik, Filistin mandası içinde ayrı bir idarî birim olarak İngiliz desteğiyle kuruldu; Amman ve Kerak bu tarihten sonra Osmanlı sonrası İngiliz askerî idaresinden çıkıp emirliğin idaresine girdi. TDV'nin kaydı şöyledir: \"Faysal'ın 1920'de Fransızlar tarafından Suriye'den çıkarılmasının ardından kardeşi Abdullah Ürdün'e gelerek Şubat 1921'de kendini Şarkī Ürdün emîri ilân etti. Onun yönetimi bölgeyi elinde tutan İngilizler tarafından desteklendi ve İngiliz manda yönetimi kuruldu.\" Kaynak ay veriyor, gün vermiyor; tarih alanı künyenin gününü devralmıştır."
+  }
+ ]
+}

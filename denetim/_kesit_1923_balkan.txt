@@ -1,0 +1,346 @@
+=== 1923-10-28 DUNYA KESITI ===
+sahnedeki kimlik: 106   noktali toplam: 3630
+
+kimlik                        nokta  bolge            komsu  kunye penceresi
+  ingiltere                     420  bati-avrupa        31  1066-01-01 -> 1923-10-29
+  sovyet-rusya                  399  dogu-avrupa        18  1917-11-07 -> 1923-10-29
+  fransa-cumhuriyet             278  bati-avrupa        23  1792-09-22 -> 1923-10-29
+  tbmm-turkiye                  230  anadolu            12  1920-04-23 -> 1923-10-29
+  abd                           196  kuzey-amerika       4  1776-07-04 -> 1923-10-29
+  kanada                        185  kuzey-amerika       2  1867-07-01 -> 1923-10-29
+  italya                        127  italya             18  1861-03-17 -> 1923-10-29
+  ingiliz-hindistani            112  guney-asya         19  1757-06-23 -> 1923-10-29
+  kacar                         106  iran               10  1789-03-21 -> 1923-10-29
+  yunanistan                     97  balkanlar           7  1821-03-25 -> 1923-10-29
+  cin-cumhuriyeti                95  dogu-asya           7  1911-10-10 -> 1923-10-29
+  avustralya                     79  okyanusya           0  1901-01-01 -> 1923-10-29
+  meksika                        77  orta-amerika        4  1821-09-27 -> 1923-10-29
+  hollanda-dogu-hint             67  guneydogu-asya      7  1602-03-20 -> 1923-10-29
+  yugoslavya                     64  balkanlar          10  1918-12-01 -> 1923-10-29
+  habesistan                     64  dogu-afrika         6  1270-01-01 -> 1923-10-29
+  portekiz                       60  iberya             11  1139-07-25 -> 1923-10-29
+  belcika                        59  bati-avrupa         7  1830-10-04 -> 1923-10-29
+  meiji-japonya                  55  dogu-asya           2  1868-01-03 -> 1923-10-29
+  misir-kralligi                 51  misir-sudan         3  1922-03-15 -> 1923-10-29
+  ispanya                        47  iberya              4  1479-01-20 -> 1923-10-29
+  fransiz-cinhindi               46  guneydogu-asya      3  1859-02-17 -> 1923-10-29
+  OSMANLI-tabi                   36  (osmanli)           2  ? -> ?
+  fas                            34  kuzey-afrika        4  1549-01-01 -> 1923-10-29
+  almanya                        34  orta-avrupa        12  962-02-02 -> 1923-10-29
+  arjantin-cumhuriyeti           34  guney-amerika       4  1810-05-25 -> 1923-10-29
+  brezilya-cumhuriyeti           31  guney-amerika       1  1889-11-15 -> 1923-10-29
+  isvec                          30  kuzey-avrupa        5  1523-06-06 -> 1923-10-29
+  romanya-kralligi               28  balkanlar          10  1881-03-26 -> 1923-10-29
+  peru-cumhuriyeti               27  guney-amerika       2  1824-12-09 -> 1923-10-29
+  bulgaristan-kralligi           23  balkanlar           9  1908-10-05 -> 1923-10-29
+  siyam-chakri                   23  guneydogu-asya      4  1782-04-06 -> 1923-10-29
+  finlandiya                     22  kuzey-avrupa        4  1917-12-06 -> 1923-10-29
+  macaristan-naiplik             20  orta-avrupa         6  1918-11-16 -> 1923-10-29
+  norvec                         20  kuzey-avrupa        4  1905-06-07 -> 1923-10-29
+  umman                          19  arabistan           2  1624-01-01 -> 1923-10-29
+  polonya                        18  dogu-avrupa        10  1918-11-11 -> 1923-10-29
+  suud-ucuncu                    15  arabistan           5  1902-01-15 -> 1923-10-29
+  somali                         15  dogu-afrika         4  1500-01-01 -> 1923-10-29
+  arnavutluk-bagimsiz            14  balkanlar           5  1912-11-28 -> 1923-10-29
+  bolivya-cumhuriyeti            14  guney-amerika       4  1825-08-06 -> 1923-10-29
+  sili-cumhuriyeti               14  guney-amerika       1  1818-02-12 -> 1923-10-29
+  hicaz                          13  ?                   3  ? -> ?
+  cekoslovakya                   12  orta-avrupa         7  1918-10-28 -> 1923-10-29
+  danimarka                      12  kuzey-avrupa        5  1281-01-01 -> 1923-10-29
+  OSMANLI                        12  (osmanli)           5  ? -> ?
+  mogolistan                     12  dogu-asya           1  1911-12-29 -> 1923-10-29
+  ingiliz-malaya                 11  guneydogu-asya      3  1826-01-01 -> 1923-10-29
+  irlanda-serbest-devlet         10  bati-avrupa         1  1922-12-06 -> 1923-10-29
+  yemen                           9  ?                   5  ? -> ?
+  hollanda                        9  bati-avrupa         6  1581-07-26 -> 1923-10-29
+  haydarabad-nizam                8  guney-asya          2  1724-10-11 -> 1923-10-29
+  umman-zengibar                  8  dogu-afrika         3  1698-01-01 -> 1923-10-29
+  racput                          7  guney-asya          5  1281-01-01 -> 1923-10-29
+  rusya                           6  dogu-avrupa         5  1547-01-16 -> 1917-03-15
+  isvicre                         6  orta-avrupa         4  1291-08-01 -> 1923-10-29
+  ekvador-cumhuriyeti             6  guney-amerika       1  1830-05-13 -> 1923-10-29
+  afganistan                      5  orta-asya           3  1823-01-01 -> 1923-10-29
+  maratha                         5  guney-asya          6  1674-06-06 -> 1818-06-03
+  kolombiya-cumhuriyeti           5  guney-amerika       0  1831-01-01 -> 1923-10-29
+  liberya                         5  bati-afrika         1  1822-04-25 -> 1923-10-29
+  tibet-ganden-phodrang           4  dogu-asya           0  1642-01-01 -> 1923-10-29
+  kuba-cumhuriyeti                4  orta-amerika-karayip    3  1902-05-19 -> 1923-10-29
+  paraguay-cumhuriyeti            4  guney-amerika       2  1811-05-14 -> 1923-10-29
+  estonya                         4  dogu-avrupa         4  1918-02-24 -> 1923-10-29
+  letonya                         3  dogu-avrupa         5  1918-11-18 -> 1923-10-29
+  litvanya                        3  dogu-avrupa         5  1918-02-16 -> 1923-10-29
+  cammu-kesmir                    3  guney-asya          1  1846-03-16 -> 1923-10-29
+  meysur                          3  guney-asya          2  1761-01-01 -> 1799-05-04
+  san-devletleri                  3  guneydogu-asya      3  1281-01-01 -> 1923-10-29
+  cohor-sultanligi                3  guneydogu-asya      2  1528-01-01 -> 1923-10-29
+  venezuela-cumhuriyeti           3  guney-amerika       0  1830-01-13 -> 1923-10-29
+  ingiliz-kuzey-amerika           3  kuzey-amerika       2  1763-02-10 -> 1923-10-29
+  uruguay-cumhuriyeti             3  guney-amerika       1  1828-08-27 -> 1923-10-29
+  yeni-zelanda                    3  okyanusya           0  1840-02-06 -> 1923-10-29
+  romanya                         2  balkanlar           6  1859-01-24 -> 1881-03-26
+  avusturya                       2  ?                   4  ? -> ?
+  karadag                         2  balkanlar           5  1516-01-01 -> 1918-11-26
+  guatemala                       2  orta-amerika-karayip    2  1821-09-15 -> 1923-10-29
+  dominik-cumhuriyeti             2  orta-amerika-karayip    2  1844-02-27 -> 1923-10-29
+  izlanda                         2  kuzey-avrupa        0  1918-12-01 -> 1923-10-29
+  panama-cumhuriyeti              2  orta-amerika-karayip    0  1903-11-03 -> 1923-10-29
+  agadez-sultanligi               1  bati-afrika         1  1405-01-01 -> 1923-10-29
+  kuveyt                          1  arabistan           2  1752-01-01 -> 1923-10-29
+  katar                           1  arabistan           3  1868-01-01 -> 1923-10-29
+  kuayti-sultanligi               1  arabistan           1  1881-01-01 -> 1923-10-29
+  ingiliz-sudani                  1  misir-sudan         2  1899-01-19 -> 1923-10-29
+  piombino                        1  italya              2  1399-02-19 -> 1548-01-01
+  cimma                           1  ?                   1  ? -> ?
+  luksemburg                      1  bati-avrupa         5  1890-11-23 -> 1923-10-29
+  nepal                           1  guney-asya          1  1281-01-01 -> 1923-10-29
+  bahavelpur                      1  guney-asya          2  1748-01-01 -> 1923-10-29
+  bharatpur-cat                   1  guney-asya          3  1733-01-01 -> 1923-10-29
+  cunagadh                        1  guney-asya          3  1748-01-01 -> 1923-10-29
+  bhopal                          1  guney-asya          2  1708-01-01 -> 1923-10-29
+  manipur                         1  guney-asya          1  1281-01-01 -> 1923-10-29
+  travankur                       1  guney-asya          1  1281-01-01 -> 1923-10-29
+  yogyakarta                      1  guneydogu-asya      2  1755-02-13 -> 1923-10-29
+  surakarta                       1  guneydogu-asya      2  1755-02-13 -> 1923-10-29
+  brunei-sultanligi               1  guneydogu-asya      0  1368-01-01 -> 1923-10-29
+  sarawak-brooke                  1  guneydogu-asya      1  1841-09-24 -> 1923-10-29
+  tidore-sultanligi               1  guneydogu-asya      1  1281-01-01 -> 1923-10-29
+  haiti                           1  orta-amerika        2  1804-01-01 -> 1923-10-29
+  adal                            1  dogu-afrika         5  1415-01-01 -> 1887-01-06
+  tonga-kralligi                  1  okyanusya           0  1845-12-04 -> 1923-10-29
+  buganda                         1  dogu-afrika         2  1300-01-01 -> 1923-10-29
+
+=== SINIR CIFTLERI (en yakin nokta <= 300 km) ===
+toplam cift: 233
+     4 km   kacar                     tbmm-turkiye
+     5 km   bulgaristan-kralligi      yunanistan
+     5 km   fransa-cumhuriyet         ingiliz-hindistani
+     5 km   bulgaristan-kralligi      romanya-kralligi
+     7 km   cin-cumhuriyeti           sovyet-rusya
+    10 km   OSMANLI                   tbmm-turkiye
+    10 km   tbmm-turkiye              yunanistan
+    11 km   bulgaristan-kralligi      tbmm-turkiye
+    12 km   fransa-cumhuriyet         tbmm-turkiye
+    12 km   hollanda-dogu-hint        tidore-sultanligi
+    12 km   karadag                   yugoslavya
+    13 km   abd                       ingiliz-kuzey-amerika
+    16 km   OSMANLI                   fransa-cumhuriyet
+    16 km   arnavutluk-bagimsiz       yunanistan
+    16 km   sovyet-rusya              tbmm-turkiye
+    19 km   ingiliz-sudani            ingiltere
+    20 km   italya                    tbmm-turkiye
+    22 km   ingiltere                 tbmm-turkiye
+    23 km   belcika                   fransa-cumhuriyet
+    25 km   yugoslavya                yunanistan
+    25 km   ingiltere                 kacar
+    26 km   cohor-sultanligi          ingiliz-malaya
+    26 km   belcika                   hollanda
+    27 km   ingiltere                 umman-zengibar
+    28 km   italya                    yugoslavya
+    28 km   ingiltere                 ispanya
+    28 km   fransa-cumhuriyet         isvicre
+    28 km   danimarka                 isvec
+    29 km   almanya                   hollanda
+    29 km   almanya                   danimarka
+    30 km   italya                    yunanistan
+    30 km   OSMANLI                   kacar
+    31 km   romanya-kralligi          rusya
+    34 km   kacar                     sovyet-rusya
+    35 km   fas                       ispanya
+    36 km   bharatpur-cat             ingiliz-hindistani
+    36 km   rusya                     sovyet-rusya
+    37 km   almanya                   fransa-cumhuriyet
+    38 km   cekoslovakya              macaristan-naiplik
+    39 km   fas                       fransa-cumhuriyet
+    39 km   almanya                   luksemburg
+    40 km   almanya                   belcika
+    41 km   cammu-kesmir              ingiliz-hindistani
+    43 km   fransa-cumhuriyet         ingiltere
+    43 km   macaristan-naiplik        romanya-kralligi
+    44 km   arnavutluk-bagimsiz       yugoslavya
+    45 km   fransa-cumhuriyet         ispanya
+    46 km   OSMANLI                   ingiltere
+    46 km   arnavutluk-bagimsiz       karadag
+    47 km   abd                       meksika
+    47 km   bulgaristan-kralligi      yugoslavya
+    47 km   romanya-kralligi          sovyet-rusya
+    47 km   OSMANLI-tabi              fransa-cumhuriyet
+    47 km   ingiltere                 italya
+    49 km   macaristan-naiplik        yugoslavya
+    52 km   arjantin-cumhuriyeti      uruguay-cumhuriyeti
+    52 km   almanya                   isvicre
+    53 km   ingiltere                 misir-kralligi
+    54 km   ingiliz-hindistani        travankur
+    54 km   almanya                   polonya
+    55 km   fransa-cumhuriyet         luksemburg
+    55 km   avusturya                 cekoslovakya
+    56 km   surakarta                 yogyakarta
+    57 km   romanya                   romanya-kralligi
+    57 km   habesistan                italya
+    57 km   fas                       ingiltere
+    60 km   avusturya                 macaristan-naiplik
+    62 km   afganistan                sovyet-rusya
+    64 km   ingiltere                 irlanda-serbest-devlet
+    64 km   bulgaristan-kralligi      romanya
+    66 km   italya                    yemen
+    66 km   ingiltere                 portekiz
+    69 km   fransa-cumhuriyet         piombino
+    69 km   buganda                   ingiltere
+    70 km   ingiltere                 suud-ucuncu
+    73 km   ingiltere                 yemen
+    73 km   cekoslovakya              romanya-kralligi
+    75 km   ingiliz-kuzey-amerika     kanada
+    77 km   hollanda-dogu-hint        surakarta
+    77 km   abd                       kanada
+    78 km   habesistan                ingiltere
+    79 km   ingiliz-hindistani        san-devletleri
+    79 km   cimma                     habesistan
+    80 km   OSMANLI-tabi              italya
+    81 km   ispanya                   portekiz
+    82 km   polonya                   romanya-kralligi
+    82 km   ingiltere                 kuveyt
+    82 km   estonya                   finlandiya
+    83 km   ingiltere                 somali
+    84 km   haydarabad-nizam          ingiliz-hindistani
+    84 km   fransa-cumhuriyet         italya
+    89 km   polonya                   sovyet-rusya
+    91 km   finlandiya                norvec
+    92 km   bahavelpur                ingiliz-hindistani
+    92 km   arnavutluk-bagimsiz       italya
+    93 km   hollanda-dogu-hint        yogyakarta
+    95 km   finlandiya                isvec
+    96 km   romanya                   sovyet-rusya
+    98 km   italya                    somali
+   100 km   belcika                   portekiz
+   100 km   OSMANLI                   sovyet-rusya
+   100 km   belcika                   ingiltere
+   103 km   finlandiya                sovyet-rusya
+   103 km   ingiliz-hindistani        maratha
+   104 km   fransa-cumhuriyet         hollanda
+   104 km   italya                    piombino
+   105 km   cunagadh                  portekiz
+   107 km   bolivya-cumhuriyeti       brezilya-cumhuriyeti
+   107 km   cin-cumhuriyeti           portekiz
+   109 km   avusturya                 yugoslavya
+   110 km   hicaz                     ingiltere
+   110 km   hicaz                     suud-ucuncu
+   110 km   fransiz-cinhindi          siyam-chakri
+   112 km   kacar                     kuveyt
+   112 km   fransa-cumhuriyet         liberya
+   113 km   estonya                   sovyet-rusya
+   114 km   adal                      fransa-cumhuriyet
+   114 km   hollanda-dogu-hint        portekiz
+   115 km   agadez-sultanligi         fransa-cumhuriyet
+   117 km   almanya                   cekoslovakya
+   118 km   ingiltere                 meksika
+   119 km   hollanda-dogu-hint        sarawak-brooke
+   121 km   belcika                   luksemburg
+   121 km   romanya-kralligi          yugoslavya
+   123 km   letonya                   litvanya
+   124 km   ingiliz-malaya            siyam-chakri
+   124 km   ingiliz-hindistani        ingiltere
+   125 km   ingiliz-hindistani        racput
+   127 km   ingiltere                 kuayti-sultanligi
+   128 km   italya                    misir-kralligi
+   128 km   estonya                   letonya
+   129 km   cin-cumhuriyeti           ingiltere
+   130 km   ingiltere                 umman
+   131 km   bharatpur-cat             maratha
+   135 km   isvec                     norvec
+   136 km   litvanya                  polonya
+   138 km   almanya                   litvanya
+   138 km   maratha                   portekiz
+   138 km   katar                     suud-ucuncu
+   141 km   ingiltere                 katar
+   141 km   hollanda                  luksemburg
+   144 km   ingiliz-hindistani        siyam-chakri
+   144 km   almanya                   isvec
+   147 km   ingiliz-hindistani        meysur
+   147 km   fransa-cumhuriyet         yemen
+   148 km   letonya                   sovyet-rusya
+   149 km   cohor-sultanligi          hollanda-dogu-hint
+   151 km   cekoslovakya              polonya
+   151 km   cin-cumhuriyeti           meiji-japonya
+   155 km   hollanda-dogu-hint        ingiliz-malaya
+   155 km   san-devletleri            siyam-chakri
+   157 km   cin-cumhuriyeti           mogolistan
+   161 km   fransiz-cinhindi          san-devletleri
+   161 km   adal                      habesistan
+   165 km   ekvador-cumhuriyeti       peru-cumhuriyeti
+   165 km   hollanda                  ingiltere
+   167 km   bhopal                    maratha
+   168 km   danimarka                 norvec
+   169 km   kuba-cumhuriyeti          meksika
+   170 km   rusya                     tbmm-turkiye
+   172 km   litvanya                  sovyet-rusya
+   172 km   bharatpur-cat             racput
+   173 km   suud-ucuncu               yemen
+   174 km   isvicre                   italya
+   176 km   afganistan                kacar
+   177 km   fransa-cumhuriyet         habesistan
+   178 km   arjantin-cumhuriyeti      bolivya-cumhuriyeti
+   180 km   kacar                     umman
+   181 km   norvec                    sovyet-rusya
+   182 km   guatemala                 meksika
+   182 km   habesistan                somali
+   182 km   arjantin-cumhuriyeti      sili-cumhuriyeti
+   183 km   bolivya-cumhuriyeti       peru-cumhuriyeti
+   183 km   fransa-cumhuriyet         portekiz
+   185 km   abd                       dominik-cumhuriyeti
+   185 km   bulgaristan-kralligi      rusya
+   191 km   guatemala                 ingiltere
+   197 km   cin-cumhuriyeti           fransiz-cinhindi
+   198 km   ingiliz-hindistani        portekiz
+   202 km   avusturya                 italya
+   204 km   bulgaristan-kralligi      sovyet-rusya
+   208 km   cunagadh                  racput
+   211 km   italya                    karadag
+   211 km   cekoslovakya              yugoslavya
+   213 km   hicaz                     misir-kralligi
+   213 km   adal                      italya
+   220 km   bahavelpur                racput
+   220 km   ingiliz-hindistani        nepal
+   221 km   almanya                   italya
+   222 km   romanya                   rusya
+   223 km   maratha                   racput
+   223 km   adal                      ingiltere
+   223 km   bhopal                    ingiliz-hindistani
+   229 km   afganistan                ingiliz-hindistani
+   229 km   fransa-cumhuriyet         kacar
+   229 km   almanya                   letonya
+   234 km   arnavutluk-bagimsiz       bulgaristan-kralligi
+   235 km   fas                       portekiz
+   238 km   romanya-kralligi          tbmm-turkiye
+   240 km   cunagadh                  ingiliz-hindistani
+   241 km   macaristan-naiplik        polonya
+   244 km   romanya-kralligi          yunanistan
+   246 km   arjantin-cumhuriyeti      paraguay-cumhuriyeti
+   249 km   kacar                     suud-ucuncu
+   250 km   ingiltere                 kuba-cumhuriyeti
+   251 km   ingiliz-hindistani        manipur
+   252 km   isvicre                   luksemburg
+   254 km   meiji-japonya             sovyet-rusya
+   255 km   somali                    umman-zengibar
+   256 km   polonya                   romanya
+   262 km   fransa-cumhuriyet         ingiliz-sudani
+   264 km   italya                    macaristan-naiplik
+   267 km   danimarka                 polonya
+   267 km   haydarabad-nizam          maratha
+   269 km   fransa-cumhuriyet         meysur
+   275 km   danimarka                 hollanda
+   277 km   adal                      yemen
+   278 km   cekoslovakya              sovyet-rusya
+   280 km   portekiz                  umman-zengibar
+   281 km   bolivya-cumhuriyeti       paraguay-cumhuriyeti
+   281 km   kacar                     katar
+   282 km   estonya                   litvanya
+   282 km   bulgaristan-kralligi      karadag
+   282 km   haiti                     kuba-cumhuriyeti
+   285 km   dominik-cumhuriyeti       haiti
+   286 km   isvec                     polonya
+   287 km   tbmm-turkiye              yugoslavya
+   287 km   ingiltere                 sovyet-rusya
+   289 km   cin-cumhuriyeti           ingiliz-hindistani
+   290 km   romanya                   tbmm-turkiye
+   292 km   belcika                   buganda
+   294 km   karadag                   yunanistan
+   300 km   letonya                   polonya

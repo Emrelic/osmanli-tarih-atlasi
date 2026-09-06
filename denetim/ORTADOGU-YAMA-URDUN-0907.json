@@ -1,0 +1,50 @@
+{
+ "_NOT": "① ÜRDÜN · ORTADOĞU · 7 Eylül 2026 · TASLAK, veri yazılmadı. Model: MANDA → KENDİ KİMLİĞİ (`YONTEM §②a`). Yama CANLI VERİDEN üretildi, elle yazılmadı.",
+ "_MAAN": "KASTEN DIŞARIDA — bugün `s:hicaz`, 1925'e kadar ihtilâflı (koordinatör notu). ÖLÇÜLDÜ: Maan `s:hicaz 1918-09-27→1923-10-29` taşıyor. Kaynağa SORMADIM.",
+ "_FILISTIN": "Kudüs · Akkâ · Nablus · Yafa · Gazze · Han Yûnus `yer_yama_manda_0906.js`te ZATEN VAR (`filistin-mandasi`, 6 kayıt) — dokunulmadı.",
+ "_2S": "🔴 1921-02-01'in çekirdekteki en yakın maddesi 22 gün uzaklıkta ve KONUSU ALAKASIZ (Birinci İnönü Muharebesi). Eşiği geçiyor ama yöntemin ⑤. adımı gereği YETMEZ ⇒ çekirdek maddesi YAZILDI: KRONOLOJI-ORTADOGU-URDUN-0907.json",
+ "kayit": [
+  {
+   "ad": "Amman",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1516-12-28",
+     "d": "memluk"
+    },
+    {
+     "f": "1918-09-25",
+     "t": "1921-02-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1921-02-01",
+     "t": "1923-10-29",
+     "d": "urdun-emirligi",
+     "kaynak": "TDV `urdun` — «kardeşi Abdullah Ürdün'e gelerek Şubat 1921'de kendini Şarkī Ürdün emîri ilân etti». 🟡 OLAYIN dayanağı KESİN, GÜNÜN dayanağı YOK: kaynak AY veriyor. Gün künyeden DEVRALINDI (`urdun-emirligi` f:1921-02-01) — §4'ün kaba tarih kuralı burada uygulanamadı, çünkü `1921-01-01` maddeyi künye penceresinin DIŞINA düşürürdü (`4d`)."
+    }
+   ]
+  },
+  {
+   "ad": "Kerak",
+   "s": [
+    {
+     "f": "1281-01-01",
+     "t": "1517-01-01",
+     "d": "memluk"
+    },
+    {
+     "f": "1918-01-01",
+     "t": "1921-02-01",
+     "d": "ingiltere"
+    },
+    {
+     "f": "1921-02-01",
+     "t": "1923-10-29",
+     "d": "urdun-emirligi",
+     "kaynak": "TDV `urdun` — «kardeşi Abdullah Ürdün'e gelerek Şubat 1921'de kendini Şarkī Ürdün emîri ilân etti». 🟡 OLAYIN dayanağı KESİN, GÜNÜN dayanağı YOK: kaynak AY veriyor. Gün künyeden DEVRALINDI (`urdun-emirligi` f:1921-02-01) — §4'ün kaba tarih kuralı burada uygulanamadı, çünkü `1921-01-01` maddeyi künye penceresinin DIŞINA düşürürdü (`4d`)."
+    }
+   ]
+  }
+ ]
+}
