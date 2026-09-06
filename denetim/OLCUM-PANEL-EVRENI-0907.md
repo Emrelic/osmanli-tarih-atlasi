@@ -1,5 +1,18 @@
 # ÖLÇÜM — ㉓ ŞEHİRLER PANELİ EVRENİ (7 Eylül 2026)
 
+> 🔴🔴 **DÜZELTİLDİ, 7 Eylül 2026, ㉖ KOL'da — BU RAPORUN "③ DÜZELTİLİRSE
+> KAÇ KAYIT GÖRÜNÜR" SONUCU YANLIŞ ÖNCÜLE DAYANIYORDU.** Aşağıdaki ölçüm
+> `data/` dosyalarını `girdi.yukle()`/`node` ile DOĞRUDAN okuyarak yapıldı,
+> **tarayıcıda hiç doğrulanmadı**. Tarayıcıda doğrulanınca (`git log -S`
+> ile de kanıtlandı) görüldü ki `index.html` satır ~1067'de **11 Ağustos
+> 2026'dan beri duran bir birleştirme betiği** zaten `window.YERLESIMLER`i
+> çalışma zamanında TAM 3805 kayda genişletiyor — panel **zaten** 920/3805
+> gösteriyordu, kod hiç değişmeden. Bug YOKTU. Ayrıntı ve tam kanıt:
+> **`denetim/DUZELTME-PANEL-EVRENI-0907.md`.** Aşağıdaki ①②③ bölümlerindeki
+> git-tarihi analizi ve 6 çağrı yerinin envanteri hâlâ doğru ve değerlidir
+> — yalnız "③"ün vardığı sayı, ZATEN GERÇEKLEŞMİŞ bir durumu "gelecekte
+> olacak" gibi sunuyordu.
+
 > Oturum: SONNET HAZIR KITA 129. Sevk: 1.MURAT, KOL-0907.md sonrası ek kalem
 > (⑰'nin bulgusunun devamı). **BU BİR ÖLÇÜMDÜR, DÜZELTME YAZILMADI.**
 > `js/app.js`e dokunulmadı — kullanıcı görünürlüğü kararı Emre'nindir.

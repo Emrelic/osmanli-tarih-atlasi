@@ -110,6 +110,23 @@ M-3086..3098
    Çıktı: `denetim/OLCUM-YANLIS-BULUNAMADI-0907.md`
 ```
 
+## ⑤c BELGE BORCU — `CLAUDE.md §3.5` BAYAT, benim kalemim
+
+```
+YAZAN    "Tebriz, Hemedan, Bağdat ve 70 kayıt `iran` 1501-1736 arası"
+ÖLÇÜM    8 dönem · 8 yerleşim
+         Tebriz'de `iran` 0 · Hemedan'da 0 · Bağdat'ta 0     ⇒ 9 KAT bayat
+```
+🔴 `§3.5.1` emsali: **ders SİLİNMEZ, vaka DAMGALANIR.** Hayalet devlet
+sınıfı hâlâ doğru; bayatlayan yalnız vakanın durumu.
+🟡 `HUKUM-OK106` ve `HUKUM-OK110` da *"7 dönem"* diyor — Derbend eksik,
+gerçek 8.
+
+🟢 KOVA 1 (`hurmuz-sultanligi`, 3 nokta) ve KOVA 2 (`buhara`, 2 nokta)
+ONAYLANDI — künye + renk hazır, koşu sonrası künye turunda.
+⚪ KASPİ üçlüsü AÇIK: kaynak tüketilmiş, komşuluk 400 km'de bölünmüş,
+silmek 1281'den sahipsizlik açar. Damga `okumadım` (Rusça/Farsça kanal).
+
 ## ⑥ KENDİ KUSURLARIM — kayda geçiyor
 
 ```

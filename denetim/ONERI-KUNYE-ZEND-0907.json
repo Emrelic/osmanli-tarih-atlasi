@@ -1,0 +1,115 @@
+{
+  "_NOT": "㉙ KOL · OPUS HAZIR KITA 124 · 7 Eylül 2026. ÖNERİ, yama DEĞİL. data/ ve arac/ DONUK — hiçbirine dokunulmadı. Sevk: 1.MURAT, `zend` 4d'nin üçte biri (131 dönem).",
+  "_AD_SOZLESMESI": "🔴 Dosya adı `ONERI-` önekiyle KASITLI. `arac/_kunye_uygula.py:44` varsayılan glob'u `denetim/YAMA-KUNYE-*0905*.json`; bu dosya ona GİRMEZ ve kazara uygulanmaz. Bunu bugün ⑭ kolunda kendim ölçtüm (glob 0905'e sabit, 0904/0906/0907 kör) ve `§11`in «bir glob bir ad sözleşmesidir» dersinin gereği. Uygulanacaksa ELLE ve koordinatör eliyle.",
+
+  "_ANLIK_GORUNTU": {
+    "zaman": "2026-09-07 01:40-01:46",
+    "data/devletler.js": "mtime 22:43:58 · 811.482 bayt · sha256 a4b60de5ddbf",
+    "🔴_UYARI": "denetim/ altı bu gece CANLI — ㉔ kolunda paydam ölçülürken 148→153 kaydı. Aşağıdaki sayılar bu ana aittir."
+  },
+
+  "_HUKUM": "🔴 SEVKIN SINIFLANDIRMASI ÇÜRÜDÜ. `CLAUDE.md §3.5.0` `zend`i ZEND sınıfının ADI olarak kaydediyor: «AYNI polity sürüyor · KÜNYE PENCERESİ dar ⇒ ÇARE künyeyi GENİŞLET, veri DOĞRU.» Ölçtüm: TAM TERSİ. Künye DOĞRU, VERİ ERKEN. Künyeye DOKUNULMAMALI.",
+
+  "①_OLCUM_KUNYE_VS_VERI": {
+    "kunye": { "id": "zend", "f": "1751-01-01", "t": "1794-01-01" },
+    "veri_donem_sayisi": 134,
+    "dagilim": {
+      "🔴 DOĞUMDAN ÖNCE başlayan (4d)": 131,
+      "🔴 ÖLÜMÜ AŞAN (4c)": 0,
+      "🟢 pencere İÇİNDE": 3
+    },
+    "f_degerleri": { "1747-06-20": 131, "1776-04-16": 1, "1753-01-01": 1, "1752-01-01": 1 },
+    "t_degerleri": { "1794-01-01": 132, "1779-04-01": 1, "1783-01-01": 1 },
+    "⇒": "TEK UÇTAN. 131'inin 131'i `f:` ucundan taşıyor, `t:` ucu TEMİZ (132/134 künyeyle birebir). Sevkin ② sorusunun cevabı: HEPSİ AYNI UÇTAN."
+  },
+
+  "②_1747_06_20_NEDIR": {
+    "olcum": "131 dönemin ÖNCEKİ kimliği: `afsar` 131 · zincir başı 2 · `umman` 1. Önceki dönemin `t:` değeri: `1747-06-20` ×131.",
+    "teshis": "1747-06-20 = Nâdir Şah'ın öldürüldüğü gün. Toplu bir yazım «Nâdir öldü ⇒ sırada Zend var» diyerek bütün ardıl dönemleri o güne çapalamış.",
+    "📌": "Bu, `CLAUDE.md §11`de ZATEN KAYITLI bir desenin ikinci vakası: «Ebû Saîd 30 Kasım 1335'te öldü … toplu yazımı yapan 'İlhanlı bitti, sırada İran var' demiş» — orada `1335-12-01`, burada `1747-06-20`. Aynı mekanizma, başka hânedan."
+  },
+
+  "③_KAYNAK": {
+    "🔴_KUNYENIN_KENDI_BEYANI_YANLIS": "Künye `kaynak` alanı: «bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak». ÖLÇÜLDÜ ve YANLIŞ.",
+    "slug_olcumu": {
+      "zend": "🔴 302 ÖLÜ",
+      "zendler": "🟢 200 CANLI — 107.492 karakter ham HTML · 17.725 karakter gövde · müellif RIZA KURTULUŞ",
+      "kerim-han": "🔴 302 ÖLÜ",
+      "kacarlar": "🟢 200", "avsarlilar": "🟢 200", "nadir-sah--iran": "🟢 200"
+    },
+    "_SINIF": "§4② tuzağı — SLUG TAHMİN EDİLMİŞ, ARANMAMIŞ. `incular`→`incu` · `kutlug-hanlilar`→`kutlughanlilar` · `hurmuz`→`hurmuz--iran` ailesinin yeni üyesi.",
+    "_DEVRALMADIM": "NEHİR SÜRTÜNME (5 Eylül, `ONERI-KRONOLOJI-1794-0905.json`) `zendler`i zaten bulmuş. Devralmadım: gövdeyi kendim çektim ve kendim aradım. Aynı sonuca vardım ⇒ TUTTU.",
+    "_TDV_BIREBIR_ALINTILAR": [
+      "BAŞLIK: «ZENDLER — İran'da hüküm süren bir hânedan (1751-1794).»",
+      "«Kerim Han, 1751 yılının ilk aylarında hiçbir otoritesi kalmayan Safevî Hükümdarı III. İsmâil'in adına vekillik unvanıyla yönetimi ele alarak Zendler'i FİİLEN İRAN'DA İKTİDARA GEÇİRDİ.»",
+      "🔴 «1160'ta (1747) Nâdir Şah öldürüldüğü sırada Derregez'deki Zendler OTUZ VEYA KIRK AİLEDEN İBARETTİ.»",
+      "«Lutf Ali Han'ın öldürülmesiyle (Cemâziyelâhir 1209 / ARALIK 1794) Zend hânedanı tarihe karıştı.»"
+    ],
+    "⇒": "TDV künyenin İKİ UCUNU DA doğruluyor: 1751 ve 1794. Ve üçüncü alıntı `1747-06-20`yi çürütüyor — 1747'de Zendler bir devlet değil, Kuzey Horasan'da sürgünde OTUZ-KIRK AİLEYDİ. O tarihte Tebriz'i, Bakü'yü, Derbend'i yönetmeleri imkânsız."
+  },
+
+  "④_ONERI": {
+    "KUNYE_f_t": "🔴 DEĞİŞMEZ. TDV başlığı `(1751-1794)` künyeyle BİREBİR. Genişletmek, veriyi kaynak yerine koymak olurdu (`§4`: «künyeyi veriye uydurmak, veriyi kaynak yerine koymaktır»).",
+    "KUNYE_kaynak_DEGISSIN": {
+      "eski": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+      "yeni": "zendler (TDV, HTTP 200, gövde 17.725 kar., müellif Rıza Kurtuluş) — AYNEN: «İran'da hüküm süren bir hânedan (1751-1794).» Künyenin `f:` ve `t:` uçlarının İKİSİ DE bu başlıkla doğrulandı. 🔴 GÜN YOK: TDV yalnız YIL veriyor ⇒ `YYYY-01-01` biçimi §4 gereğidir, bir olay günü DEĞİLDİR.",
+      "_GEREKCE": "§4 kırmızı çizgi: «kaynağı yazılmayan bilgi, kaynağı olmayan bilgiden ayırt edilemez.» Burada kaynak VARDI ve `bulunamadı` yazılmıştı — bu, yokluğun değil ARAMANIN kaydı, ve yanlış."
+    },
+    "VERI_DUZELTMESI": "🔴 BENİM DOSYAM DEĞİL, ve KÜNYE İŞİ DE DEĞİL. 131 dönemin `f:` değeri `1747-06-20` → `1751-01-01` olmalı. Ama TEK BAŞINA UYGULANAMAZ — aşağıya bak."
+  },
+
+  "⑤_IKI_UC_DA_OLCULDU": {
+    "_KURAL": "§3.5.1 — «bir sınır kayması önerildiğinde İKİ UÇ DA ölçülür; tek uçtan bakan düzeltme hatayı taşır, silmez.»",
+    "acilan_pencere": "1747-06-20 → 1751-01-01 = 3 yıl 6 ay 12 gün",
+    "🔴_BEDEL": "Önceki dönem (`afsar`) `t:1747-06-20`de bitiyor. `zend` 1751'de başlarsa 131 nokta o pencerede SAHİPSİZ kalır ⇒ `Değişmez 1` İHLAL, haritada 131 DELİK.",
+    "⇒": "`f:`i tek başına çekmek YANLIŞ ÇARE. Boşluk bir kimlikle kapatılmalı.",
+    "ADAY_PENCERELERI": {
+      "afsar": "f:1736-03-08 t:1796-01-01 → 🟢 PENCERE TUTUYOR (tek aday)",
+      "safevi": "t:1736-03-08 → 🔴 tutmuyor",
+      "kacar": "f:1789-03-21 → 🔴 tutmuyor",
+      "galzay": "t:1738-01-01 → 🔴 tutmuyor",
+      "iran": "f:1925-12-12 → 🔴 tutmuyor"
+    },
+    "🔴_KIMLIGI_SECMIYORUM": "Penceresi tutan TEK aday `afsar` ve künyesi zaten 1796'ya kadar sürüyor («Horasan'da bir kolu 1796'ya dek sürdü» — künyenin kendi özeti). Ama `afsar`ın 1747-1751'de GERÇEKTEN o toprakları tuttuğunu ÖLÇMEDİM. Seçim kaynak işidir ve bu kalemin remiti değil."
+  },
+
+  "⑥_ARANMAYAN_BULGU_MENZIL": {
+    "_NOT": "Bu, sevkin sorduğu soru DEĞİL. Pencereyi ölçerken çıktı ve ayrı bir kalem olabilir.",
+    "olcum": "134 kaydın coğrafî dağılımı — Şîraz (Zend başkenti, 29,61K/52,53D) referans:",
+    "kovalar": {
+      "ORTA-GÜNEY İRAN (Zend çekirdeği)": 60,
+      "DOĞU İRAN / Horasan": 28,
+      "KAFKASYA (Güney Kafkas + Dağıstan)": 26,
+      "KUZEYBATI İRAN / Azerbaycan": 9,
+      "ÖTEKİ": 11
+    },
+    "mesafe": "Şîraz'a >1000 km olan: 47/134 · ortanca 871 km · en uzak: Ağraham burnu 1652 km · Tarki 1553 · Gümrü 1470 · Derbend 1435 · Revan 1383 · Şeki 1376 · Gence 1352",
+    "🟢_CEKIRDEK_MESRU": "Şîraz · Isfahan · Yezd · Kirmanşah · Buşehr — hepsi `zend` taşıyor ve bu DOĞRU.",
+    "🟡_SORU": "Kafkas hanlıkları (Gence · Revan · Nahçıvan · Şeki · Kuba · Bakü · Derbend · Şamahı) Zend hâkimiyetinde miydi? ÖLÇMEDİM. `§3.5.-1`in «DEVLET VAR, YERİ YANLIŞ» sınıfının adayı olabilir — ama bu bir ŞÜPHE, ölçüm değil, ve HÜKÜM VERMİYORUM."
+  },
+
+  "⑦_GENELLEME_SINAVI_CURUDU": {
+    "hipotez": "«TDV'de müstakil maddesi yok» diyen künyelerin çoğunda slug TAHMİN edilmiş olabilir; çoğul/varyant slug canlı çıkar.",
+    "evren": "145 künye böyle beyan ediyor; ilk 22'si sınandı",
+    "yontem": "her künye id'si için 8 varyant (·ler ·lar ·iler ·ilar ·lilar ·liler · tiresiz) HTTP ile denendi",
+    "SONUC": "🔴 1 / 22 — yalnız `zend`→`zendler`. Hipotez ÇÜRÜDÜ.",
+    "_YORUM": "Ve düşük oran BEKLENEN: 22'nin çoğu Rus/Avrupa künyesi (novgorod · pskov · tver · bohemya · floransa · savoya · milano-dukaligi) ve `CLAUDE.md §4` Batı Avrupa kapsamasını %0 diye ölçmüş. Yani bu künyelerin `bulunamadı` beyanı büyük ihtimalle DOĞRU.",
+    "🔴_SINIRIM": "Yalnız TÜRKÇE ÇOĞUL EKLERİ denendi. §4②'nin öteki biçimleri (`--sehir` · `--ulke` · `--iran` sonekleri) DENENMEDİ. ⇒ «1/22» bir ALT SINIRDIR, oran DEĞİL.",
+    "_DAMGA": "Bu tarama YALNIZ HTTP KODU ölçtü. `200` «doğru madde» demek değildir (§4②: `ordu` askerî ordudur). `zendler` gövdesi OKUNDU ve doğrulandı; ötekiler için soru DOĞMADI çünkü hepsi 302."
+  },
+
+  "⑧_OLCMEDIKLERIM": [
+    "⚪ `afsar`ın 1747-1751'de o toprakları gerçekten tutup tutmadığı — TDV `avsarlilar` CANLI ama OKUMADIM",
+    "⚪ Kafkas hanlıklarının 1747-1794 gerçek sahibi — ⑥'daki şüphe ÖLÇÜLMEDİ",
+    "⚪ 145 künyenin kalan 123'ü — ilk 22 sınandı",
+    "⚪ §4②'nin sonek biçimleri (`--ulke` vb.) — denenmedi",
+    "🔴 HÜKÜM VERMEDİM: hiçbir dönemi «yanlış» ilan etmedim, hiçbir kimlik seçmedim, hiçbir veri yaması yazmadım",
+    "⚠️ KENDİ ALETİMİN KUSURU: TDV gövdesinde kelime sayarken `Şiraz` 0 ve `Nadir` 0 çıktı — gövde `Şîraz` ve `Nâdir` yazıyor (şapkalı). Sayım yanlıştı, ALINTILAR doğru (tam bağlam okundu). §4'ün Türkçe yazım ekseni, bu sefer kendi sayacımda."
+  ],
+
+  "⑨_KALDIRAC": {
+    "kunye_kaynak_duzeltmesi": "1 alan · 0 dönem etkiler · risk YOK (yalnız izlenebilirlik kazancı)",
+    "veri_f_duzeltmesi": "131 dönem · AMA `afsar t:` ile BİRLİKTE, yoksa 131 delik",
+    "⇒": "«Tek künye satırı 131 dönemi kapatır» beklentisi ÇÜRÜDÜ: künye satırı DEĞİŞMEMELİ. 131'i kapatan şey İKİ VERİ UCUNUN birlikte kaydırılması, ve o BENİM DOSYAM DEĞİL."
+  }
+}
