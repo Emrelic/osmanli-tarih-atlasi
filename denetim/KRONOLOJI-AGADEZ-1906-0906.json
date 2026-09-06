@@ -1,0 +1,28 @@
+{
+  "_NOT": "AGADEZ 1906 — `yer_yama_agadez_0906.js` ile PAKET. Tek başına inmez, ikisi BİRLİKTE iner. Sebep ölçüldü: `1906-01-01` atlasta HİÇ kullanılmayan bir gün (0 uç) ve çekirdekte 1906'ya ait madde YOK (0). Sahiplik yaması tek başına inerse `Değişmez 2s` AÇIK 104 → 105 olur — tavan 121, geçer, ama `CLAUDE.md §3`ün 'sessiz toprak değişimi yok' kuralı ihlal edilir: kırılma olur, maddesi olmaz.",
+  "_HEDEF": "data/olaylar_ek22.js  (Oturum 0'ın dosyası)",
+  "_UYGULAMA": "Koşu bitince: önce bu madde, sonra sahiplik yaması. Sıra önemli — uygulayıcı `d:` uçları için maddesiz günü SERT atlıyor, `s:` için 'zayıf gün' diye UYARIYOR. Bu bir `s:` ucu, yani uyarı alır; madde önce inerse uyarı da doğmaz.",
+  "_KAYNAK_DAMGASI": "TDV `nijer` — ülke maddesi, gövde okundu (~50.000 kar., Aydoğan Köksal · Ahmet Kavas imzalı). `agadez` slug'ı ÖLÜ (302); kapsayıcı madde `§4` gereği denendi ve TUTTU.",
+  "maddeler": [
+    {
+      "t": "1906-01-01",
+      "b": "Fransa Agadez'i işgal etti — Aïr Tuareg sultanlığı sona erdi",
+      "d": "Fransız kuvvetleri Aïr bölgesinin merkezi Agadez'i işgal ederek şehirdeki Tuareg sultanlığının fiilî hâkimiyetine son verdi. TDV `nijer` maddesi işgalin gerekçelerinden birini açıkça kaydediyor: Fransızlar bu adımla bölge halkının Osmanlı Devleti ile irtibata geçmesini engellemeyi amaçlıyordu. 1405'ten beri süren Agadez (Aïr) Sultanlığı böylece bağımsız bir siyasî yapı olmaktan çıktı ve bölge Fransız Batı Afrikası'na bağlandı.",
+      "gun": "1906 (TDV YIL veriyor, gün vermiyor — `§4` gereği yıl hassasiyeti)",
+      "yer": "Agadez",
+      "yer_id": "Agadez",
+      "tur": "son",
+      "etiket": ["somurge", "isgal"],
+      "kaynak": "nijer",
+      "duygu": ["😔"],
+      "kapsam": "dunya",
+      "dunya": 1,
+      "onem": 2
+    }
+  ],
+  "_OLCMEDIGIM": [
+    "Gün — TDV yalnız '1906' diyor. Ay/gün ARANMADI (akademik kaynak denenmedi).",
+    "1917 Kaocen isyanı ayrı bir madde hak ediyor mu — TDV onu anıyor ('Mart 1917', Tuaregler yenildi) ama tasarruf değişmediği için sahiplik yamasına GİRMEDİ. Kronoloji maddesi olarak yazılabilir; YAZILMADI.",
+    "1515 Songhay bağlılığı — TDV başlangıcı veriyor, BİTİŞİ vermiyor."
+  ]
+}
