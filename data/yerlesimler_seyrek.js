@@ -86,7 +86,7 @@ window.YERLESIMLER_SEYREK = [
 { ad:"Tedmür (Palmyra)", tur:"sehir", lat:34.550, lon:38.270, g:0, k:4, m:"Şam",
   s:[{f:"1281-01-01",t:"1516-09-27",d:"memluk"},{f:"1918-10-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   d:[{f:"1516-09-27",t:"1918-10-01"}],
-  v:[{f:"1832-06-15",t:"1841-02-25",k:"Mısır (İbrâhim Paşa)"}] },
+  v:[{f:"1832-06-15",t:"1841-02-25",k:"Mısır (İbrâhim Paşa)",statu:"vassal",kid:"misir-kavalali"}] },
 
 // ── ②③ KUZEY NECİD / CEVF — p5/H-0007 YILDIZININ İLACI ──────────────
 // TDV `dumetulcendel` (+ `cevf` aynı maddeye gider): "Kuzey Arabistan'da

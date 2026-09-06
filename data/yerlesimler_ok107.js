@@ -178,7 +178,7 @@ window.YERLESIMLER_OK107 = [
      {f:"1916-07-27",t:"1923-10-29",d:"hicaz"}],
   d:[{f:"1517-07-06",t:"1805-07-20"},
      {f:"1841-05-24",t:"1916-07-27"}],
-  v:[{f:"1811-11-01",t:"1841-05-24",k:"Mısır (Kavalalı)"}],
+  v:[{f:"1811-11-01",t:"1841-05-24",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}],
   kaynak:"bulunamadı — TDV `bedir` maddesi Bedir Gazvesi'ni anlatıyor, yerleşimin Osmanlı dönemini KAPSAMIYOR (§4 tanecik boşluğu). Dönem günleri Yenbu kaydından (82 km) bölgesel hizalama ile alındı."
 },
 
@@ -190,7 +190,7 @@ window.YERLESIMLER_OK107 = [
      {f:"1916-06-16",t:"1923-10-29",d:"hicaz"}],
   d:[{f:"1517-07-06",t:"1813-01-23"},
      {f:"1841-05-24",t:"1916-06-16"}],
-  v:[{f:"1813-01-23",t:"1841-05-24",k:"Mısır (Kavalalı)"}],
+  v:[{f:"1813-01-23",t:"1841-05-24",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}],
   kaynak:"bulunamadı — TDV'de `rabig` maddesi YOK (slug 302 ölçüldü). Dönem günleri Cidde kaydından (141 km) bölgesel hizalama ile alındı."
 },
 
@@ -396,7 +396,7 @@ window.YERLESIMLER_OK107 = [
      {f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},
      {f:"1912-10-26",t:"1918-12-01",d:"sirbistan-kralligi"},
      {f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],
-  v:[{f:"1371-09-26",t:"1395-05-17",k:"Dejanović Prensliği (Kostadin-ili)"}],
+  v:[{f:"1371-09-26",t:"1395-05-17",k:"Dejanović Prensliği (Kostadin-ili)",statu:"vassal"}],
   d:[{f:"1395-05-17",t:"1402-07-28"},
      {f:"1413-07-05",t:"1912-10-26"}],
   kaynak:"koprulu" },
@@ -409,7 +409,7 @@ window.YERLESIMLER_OK107 = [
      {f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},
      {f:"1912-10-26",t:"1918-12-01",d:"sirbistan-kralligi"},
      {f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],
-  v:[{f:"1371-09-26",t:"1395-05-17",k:"Dejanović Prensliği (Kostadin-ili)"}],
+  v:[{f:"1371-09-26",t:"1395-05-17",k:"Dejanović Prensliği (Kostadin-ili)",statu:"vassal"}],
   d:[{f:"1395-05-17",t:"1402-07-28"},
      {f:"1413-07-05",t:"1912-10-26"}],
   kaynak:"istip" },
@@ -422,7 +422,7 @@ window.YERLESIMLER_OK107 = [
      {f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},
      {f:"1912-10-26",t:"1918-12-01",d:"sirbistan-kralligi"},
      {f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],
-  v:[{f:"1371-09-26",t:"1395-05-17",k:"Dejanović Prensliği (Kostadin-ili)"}],
+  v:[{f:"1371-09-26",t:"1395-05-17",k:"Dejanović Prensliği (Kostadin-ili)",statu:"vassal"}],
   d:[{f:"1395-05-17",t:"1402-07-28"},
      {f:"1413-07-05",t:"1912-10-26"}],
   kaynak:"ustrumca" },
@@ -435,7 +435,7 @@ window.YERLESIMLER_OK107 = [
      {f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},
      {f:"1912-10-26",t:"1918-12-01",d:"sirbistan-kralligi"},
      {f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],
-  v:[{f:"1371-09-26",t:"1395-05-17",k:"Dejanović Prensliği (Kostadin-ili)"}],
+  v:[{f:"1371-09-26",t:"1395-05-17",k:"Dejanović Prensliği (Kostadin-ili)",statu:"vassal"}],
   d:[{f:"1395-05-17",t:"1402-07-28"},
      {f:"1413-07-05",t:"1912-10-26"}],
   kaynak:"doyran" },

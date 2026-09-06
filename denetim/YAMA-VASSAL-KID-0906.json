@@ -1,0 +1,4782 @@
+{
+ "_NOT": "SECENEK 🅑 — `v:` donemlerine `kid:` (kunye kimligi) ve `statu:` (tabiiyet cinsi) eklenir. Uretici: denetim/ARAC-VASSAL-YAMA-URET-0906.py. Mevcut alanlar (f/t/k/enklav) AYNEN korunur — dict kopyalanip UZERINE eklenir.",
+ "_KURAL": "`statu` HER doneme yazilir (katmanin tanimi zaten tabiiyet, deger tek: vassal). `kid` YALNIZ kunye penceresi donemi KAPSIYORSA yazilir — 23 donem pencereyi ASIYOR ve onlara kid YAZILMADI (4c/4d ihlali olurdu).",
+ "_ASAN": [
+  {
+   "ad": "Sofya",
+   "kid": "bulgaristan-prensligi",
+   "donem": "1878-01-04>1908-10-05",
+   "kunye": "1878-07-13>1908-10-05"
+  },
+  {
+   "ad": "Bükreş",
+   "kid": "eflak",
+   "donem": "1462-06-01>1878-07-13",
+   "kunye": "1330-01-01>1859-01-24"
+  },
+  {
+   "ad": "Yaş",
+   "kid": "bogdan",
+   "donem": "1456-06-01>1878-07-13",
+   "kunye": "1359-01-01>1859-01-24"
+  },
+  {
+   "ad": "Roman",
+   "kid": "bogdan",
+   "donem": "1456-06-01>1878-07-13",
+   "kunye": "1359-01-01>1859-01-24"
+  },
+  {
+   "ad": "Birlad (Bârlad)",
+   "kid": "bogdan",
+   "donem": "1456-06-01>1878-07-13",
+   "kunye": "1359-01-01>1859-01-24"
+  },
+  {
+   "ad": "Kalas (Galatz)",
+   "kid": "bogdan",
+   "donem": "1456-06-01>1878-07-13",
+   "kunye": "1359-01-01>1859-01-24"
+  },
+  {
+   "ad": "Erdel (Kaloşvar)",
+   "kid": "erdel",
+   "donem": "1541-08-29>1687-08-12",
+   "kunye": "1570-01-01>1711-04-30"
+  },
+  {
+   "ad": "Varad (Oradea)",
+   "kid": "erdel",
+   "donem": "1541-08-29>1660-08-27",
+   "kunye": "1570-01-01>1711-04-30"
+  },
+  {
+   "ad": "Yanova (Ineu)",
+   "kid": "erdel",
+   "donem": "1541-08-29>1658-08-27",
+   "kunye": "1570-01-01>1711-04-30"
+  },
+  {
+   "ad": "İsmail",
+   "kid": "bogdan",
+   "donem": "1856-03-30>1878-07-13",
+   "kunye": "1359-01-01>1859-01-24"
+  },
+  {
+   "ad": "Tırgovişte",
+   "kid": "eflak",
+   "donem": "1462-06-01>1878-07-13",
+   "kunye": "1330-01-01>1859-01-24"
+  },
+  {
+   "ad": "Piteşti",
+   "kid": "eflak",
+   "donem": "1462-06-01>1878-07-13",
+   "kunye": "1330-01-01>1859-01-24"
+  },
+  {
+   "ad": "Slatina",
+   "kid": "eflak",
+   "donem": "1462-06-01>1878-07-13",
+   "kunye": "1330-01-01>1859-01-24"
+  },
+  {
+   "ad": "Buzău",
+   "kid": "eflak",
+   "donem": "1462-06-01>1878-07-13",
+   "kunye": "1330-01-01>1859-01-24"
+  },
+  {
+   "ad": "Rimnik-i Sârat (Râmnicu Sărat)",
+   "kid": "eflak",
+   "donem": "1462-06-01>1878-07-13",
+   "kunye": "1330-01-01>1859-01-24"
+  },
+  {
+   "ad": "Krayova (Craiova)",
+   "kid": "eflak",
+   "donem": "1739-09-18>1878-07-13",
+   "kunye": "1330-01-01>1859-01-24"
+  },
+  {
+   "ad": "Tırgu Jiu",
+   "kid": "eflak",
+   "donem": "1739-09-18>1878-07-13",
+   "kunye": "1330-01-01>1859-01-24"
+  },
+  {
+   "ad": "Rimnik (Râmnicu Vâlcea)",
+   "kid": "eflak",
+   "donem": "1739-09-18>1878-07-13",
+   "kunye": "1330-01-01>1859-01-24"
+  },
+  {
+   "ad": "Turnu Severin",
+   "kid": "eflak",
+   "donem": "1739-09-18>1878-07-13",
+   "kunye": "1330-01-01>1859-01-24"
+  },
+  {
+   "ad": "Kımpulung (Câmpulung)",
+   "kid": "eflak",
+   "donem": "1462-06-01>1878-07-13",
+   "kunye": "1330-01-01>1859-01-24"
+  },
+  {
+   "ad": "Dubrovnik",
+   "kid": "dubrovnik",
+   "donem": "1459-03-07>1806-05-27",
+   "kunye": "700-01-01>1808-01-31"
+  },
+  {
+   "ad": "Kahul (Cahul)",
+   "kid": "bogdan",
+   "donem": "1856-03-30>1878-07-13",
+   "kunye": "1359-01-01>1859-01-24"
+  },
+  {
+   "ad": "Bolgrad (Bolhrad)",
+   "kid": "bogdan",
+   "donem": "1856-03-30>1878-07-13",
+   "kunye": "1359-01-01>1859-01-24"
+  }
+ ],
+ "kayitlar": [
+  {
+   "ad": "Kütahya",
+   "v": [
+    {
+     "f": "1833-02-02",
+     "t": "1833-06-30",
+     "k": "Mısır ordusu (işgal)",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Konya",
+   "v": [
+    {
+     "f": "1832-11-21",
+     "t": "1833-06-30",
+     "k": "Mısır ordusu (işgal)",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Karaman",
+   "v": [
+    {
+     "f": "1832-11-21",
+     "t": "1833-06-30",
+     "k": "Mısır ordusu (işgal)",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Ordu (Bayramlı)",
+   "v": [
+    {
+     "f": "1398-06-01",
+     "t": "1402-07-28",
+     "k": "Hacıemîroğulları Beyliği (Osmanlı tâbii)",
+     "statu": "vassal",
+     "kid": "haciemir"
+    }
+   ]
+  },
+  {
+   "ad": "Ünye",
+   "v": [
+    {
+     "f": "1398-06-01",
+     "t": "1402-07-28",
+     "k": "Hacıemîroğulları Beyliği (Osmanlı tâbii)",
+     "statu": "vassal",
+     "kid": "haciemir"
+    }
+   ]
+  },
+  {
+   "ad": "Urfa",
+   "v": [
+    {
+     "f": "1832-08-15",
+     "t": "1841-02-25",
+     "k": "Mısır (İbrâhim Paşa)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Maraş",
+   "v": [
+    {
+     "f": "1832-07-29",
+     "t": "1841-02-25",
+     "k": "Mısır (İbrâhim Paşa)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Adana",
+   "v": [
+    {
+     "f": "1832-07-29",
+     "t": "1841-02-25",
+     "k": "Mısır (İbrâhim Paşa)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Tarsus",
+   "v": [
+    {
+     "f": "1832-07-29",
+     "t": "1841-02-25",
+     "k": "Mısır (İbrâhim Paşa)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Antakya",
+   "v": [
+    {
+     "f": "1832-07-29",
+     "t": "1841-02-25",
+     "k": "Mısır (İbrâhim Paşa)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Eski Zağra (Stara Zagora)",
+   "v": [
+    {
+     "f": "1878-07-13",
+     "t": "1885-09-18",
+     "k": "Şarkî Rumeli vilâyeti",
+     "statu": "vassal",
+     "kid": "sarki-rumeli"
+    }
+   ]
+  },
+  {
+   "ad": "Tatarpazarcığı",
+   "v": [
+    {
+     "f": "1878-07-13",
+     "t": "1885-09-18",
+     "k": "Şarkî Rumeli vilâyeti",
+     "statu": "vassal",
+     "kid": "sarki-rumeli"
+    }
+   ]
+  },
+  {
+   "ad": "Filibe",
+   "v": [
+    {
+     "f": "1878-07-13",
+     "t": "1885-09-18",
+     "k": "Şarkî Rumeli vilâyeti",
+     "statu": "vassal",
+     "kid": "sarki-rumeli"
+    }
+   ]
+  },
+  {
+   "ad": "Sofya",
+   "v": [
+    {
+     "f": "1878-01-04",
+     "t": "1908-10-05",
+     "k": "Bulgaristan Prensliği",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Vidin",
+   "v": [
+    {
+     "f": "1878-07-13",
+     "t": "1908-10-05",
+     "k": "Bulgaristan Prensliği",
+     "statu": "vassal",
+     "kid": "bulgaristan-prensligi"
+    }
+   ]
+  },
+  {
+   "ad": "Tırnova",
+   "v": [
+    {
+     "f": "1878-07-13",
+     "t": "1908-10-05",
+     "k": "Bulgaristan Prensliği",
+     "statu": "vassal",
+     "kid": "bulgaristan-prensligi"
+    }
+   ]
+  },
+  {
+   "ad": "Varna",
+   "v": [
+    {
+     "f": "1878-07-13",
+     "t": "1908-10-05",
+     "k": "Bulgaristan Prensliği",
+     "statu": "vassal",
+     "kid": "bulgaristan-prensligi"
+    }
+   ]
+  },
+  {
+   "ad": "Şumnu",
+   "v": [
+    {
+     "f": "1878-07-13",
+     "t": "1908-10-05",
+     "k": "Bulgaristan Prensliği",
+     "statu": "vassal",
+     "kid": "bulgaristan-prensligi"
+    }
+   ]
+  },
+  {
+   "ad": "Silistre",
+   "v": [
+    {
+     "f": "1878-07-13",
+     "t": "1908-10-05",
+     "k": "Bulgaristan Prensliği",
+     "statu": "vassal",
+     "kid": "bulgaristan-prensligi"
+    }
+   ]
+  },
+  {
+   "ad": "Rusçuk",
+   "v": [
+    {
+     "f": "1878-07-13",
+     "t": "1908-10-05",
+     "k": "Bulgaristan Prensliği",
+     "statu": "vassal",
+     "kid": "bulgaristan-prensligi"
+    }
+   ]
+  },
+  {
+   "ad": "Mora (Tripoliçe)",
+   "v": [
+    {
+     "f": "1825-06-22",
+     "t": "1828-10-05",
+     "k": "Mısır (İbrâhim Paşa)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Modon",
+   "v": [
+    {
+     "f": "1825-02-24",
+     "t": "1828-10-05",
+     "k": "Mısır (İbrâhim Paşa)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Semendire",
+   "v": [
+    {
+     "f": "1867-04-18",
+     "t": "1878-07-13",
+     "k": "Sırbistan Prensliği",
+     "statu": "vassal",
+     "kid": "sirbistan-prensligi"
+    }
+   ]
+  },
+  {
+   "ad": "Belgrad",
+   "v": [
+    {
+     "f": "1867-04-18",
+     "t": "1878-07-13",
+     "k": "Sırbistan Prensliği",
+     "statu": "vassal",
+     "kid": "sirbistan-prensligi"
+    }
+   ]
+  },
+  {
+   "ad": "Bükreş",
+   "v": [
+    {
+     "f": "1462-06-01",
+     "t": "1878-07-13",
+     "k": "Eflak Voyvodalığı",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Yaş",
+   "v": [
+    {
+     "f": "1456-06-01",
+     "t": "1878-07-13",
+     "k": "Boğdan Voyvodalığı",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Akkirman",
+   "v": [
+    {
+     "f": "1456-06-01",
+     "t": "1484-08-04",
+     "k": "Boğdan Voyvodalığı",
+     "statu": "vassal",
+     "kid": "bogdan"
+    }
+   ]
+  },
+  {
+   "ad": "Kili",
+   "v": [
+    {
+     "f": "1456-06-01",
+     "t": "1484-07-15",
+     "k": "Boğdan Voyvodalığı",
+     "statu": "vassal",
+     "kid": "bogdan"
+    }
+   ]
+  },
+  {
+   "ad": "Suçava (Suceava)",
+   "v": [
+    {
+     "f": "1456-06-01",
+     "t": "1775-05-07",
+     "k": "Boğdan Voyvodalığı",
+     "statu": "vassal",
+     "kid": "bogdan"
+    }
+   ]
+  },
+  {
+   "ad": "Çernovitz (Çernivtsi)",
+   "v": [
+    {
+     "f": "1456-06-01",
+     "t": "1775-05-07",
+     "k": "Boğdan Voyvodalığı",
+     "statu": "vassal",
+     "kid": "bogdan"
+    }
+   ]
+  },
+  {
+   "ad": "Roman",
+   "v": [
+    {
+     "f": "1456-06-01",
+     "t": "1878-07-13",
+     "k": "Boğdan Voyvodalığı",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Birlad (Bârlad)",
+   "v": [
+    {
+     "f": "1456-06-01",
+     "t": "1878-07-13",
+     "k": "Boğdan Voyvodalığı",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Kalas (Galatz)",
+   "v": [
+    {
+     "f": "1456-06-01",
+     "t": "1878-07-13",
+     "k": "Boğdan Voyvodalığı",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "İbrail",
+   "v": [
+    {
+     "f": "1462-06-01",
+     "t": "1538-09-01",
+     "k": "Eflak Voyvodalığı",
+     "statu": "vassal",
+     "kid": "eflak"
+    }
+   ]
+  },
+  {
+   "ad": "Erdel (Kaloşvar)",
+   "v": [
+    {
+     "f": "1541-08-29",
+     "t": "1687-08-12",
+     "k": "Erdel Prensliği",
+     "statu": "vassal"
+    },
+    {
+     "f": "1526-09-01",
+     "t": "1541-08-29",
+     "k": "Macaristan (Zapolya vasal krallığı)",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Budin",
+   "v": [
+    {
+     "f": "1526-09-01",
+     "t": "1541-08-29",
+     "k": "Macaristan (Zapolya vasal krallığı)",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Kandiye (Girit)",
+   "v": [
+    {
+     "f": "1830-11-01",
+     "t": "1841-02-25",
+     "statu": "vassal"
+    },
+    {
+     "f": "1898-12-01",
+     "t": "1913-05-30",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Hanya",
+   "v": [
+    {
+     "f": "1830-11-01",
+     "t": "1841-02-25",
+     "statu": "vassal"
+    },
+    {
+     "f": "1898-12-01",
+     "t": "1913-05-30",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Sisam",
+   "v": [
+    {
+     "f": "1832-12-10",
+     "t": "1912-03-13",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Girit (Resmo)",
+   "v": [
+    {
+     "f": "1830-11-01",
+     "t": "1841-02-25",
+     "statu": "vassal"
+    },
+    {
+     "f": "1898-12-01",
+     "t": "1913-05-30",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Bahçesaray",
+   "v": [
+    {
+     "f": "1475-06-06",
+     "t": "1771-07-01",
+     "k": "Kırım Hanlığı",
+     "statu": "vassal",
+     "kid": "kirim"
+    }
+   ]
+  },
+  {
+   "ad": "Tarki (Tarku)",
+   "v": [
+    {
+     "f": "1578-11-01",
+     "t": "1607-01-01",
+     "k": "Kumuk şamhallığı (tâbi)",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Zagem (Kaheti)",
+   "v": [
+    {
+     "f": "1578-08-09",
+     "t": "1606-01-01",
+     "k": "Kaheti krallığı (tâbi)",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Halep",
+   "v": [
+    {
+     "f": "1832-06-25",
+     "t": "1841-02-25",
+     "k": "Mısır (İbrâhim Paşa)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Hama",
+   "v": [
+    {
+     "f": "1832-06-15",
+     "t": "1841-02-25",
+     "k": "Mısır (İbrâhim Paşa)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Şam",
+   "v": [
+    {
+     "f": "1832-06-15",
+     "t": "1841-02-25",
+     "k": "Mısır (İbrâhim Paşa)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Beyrut",
+   "v": [
+    {
+     "f": "1832-06-15",
+     "t": "1840-10-10",
+     "k": "Mısır (İbrâhim Paşa)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Trablusşam",
+   "v": [
+    {
+     "f": "1832-06-15",
+     "t": "1840-10-10",
+     "k": "Mısır (İbrâhim Paşa)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Kudüs",
+   "v": [
+    {
+     "f": "1831-11-08",
+     "t": "1841-02-25",
+     "k": "Mısır (İbrâhim Paşa)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Gazze",
+   "v": [
+    {
+     "f": "1831-10-31",
+     "t": "1841-02-25",
+     "k": "Mısır (İbrâhim Paşa)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Akkâ",
+   "v": [
+    {
+     "f": "1832-05-27",
+     "t": "1840-11-03",
+     "k": "Mısır (İbrâhim Paşa)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Mekke",
+   "v": [
+    {
+     "f": "1517-07-06",
+     "t": "1803-04-30",
+     "k": "Mekke Şerifliği",
+     "statu": "vassal"
+    },
+    {
+     "f": "1803-08-06",
+     "t": "1806-01-01",
+     "k": "Mekke Şerifliği",
+     "statu": "vassal"
+    },
+    {
+     "f": "1841-05-24",
+     "t": "1916-06-10",
+     "k": "Mekke Şerifliği",
+     "statu": "vassal"
+    },
+    {
+     "f": "1813-01-23",
+     "t": "1841-05-24",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Medine",
+   "v": [
+    {
+     "f": "1517-07-06",
+     "t": "1805-06-01",
+     "k": "Mekke Şerifliği",
+     "statu": "vassal"
+    },
+    {
+     "f": "1841-05-24",
+     "t": "1919-01-10",
+     "k": "Mekke Şerifliği",
+     "statu": "vassal"
+    },
+    {
+     "f": "1812-12-03",
+     "t": "1841-05-24",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Cidde",
+   "v": [
+    {
+     "f": "1813-01-23",
+     "t": "1841-05-24",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Yenbu",
+   "v": [
+    {
+     "f": "1811-11-01",
+     "t": "1841-05-24",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Dir'iye (Necid)",
+   "v": [
+    {
+     "f": "1818-09-09",
+     "t": "1824-06-01",
+     "k": "Mısır (İbrâhim Paşa)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Zebîd",
+   "v": [
+    {
+     "f": "1517-07-06",
+     "t": "1539-01-01",
+     "k": "eski Memlûk beyleri (Osmanlı desteğiyle)",
+     "enklav": true,
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Kahire",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "İskenderiye",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Dimyat",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Asyut",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Asvan",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "İbrim",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Dongola",
+   "v": [
+    {
+     "f": "1821-01-04",
+     "t": "1885-01-26",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Hartum",
+   "v": [
+    {
+     "f": "1821-06-14",
+     "t": "1885-01-26",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Sennar",
+   "v": [
+    {
+     "f": "1821-06-14",
+     "t": "1885-01-26",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Kordofan (Ubeyyid)",
+   "v": [
+    {
+     "f": "1821-08-19",
+     "t": "1882-09-07",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Sevâkin",
+   "v": [
+    {
+     "f": "1865-01-01",
+     "t": "1884-02-01",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Masavva",
+   "v": [
+    {
+     "f": "1865-01-01",
+     "t": "1885-02-05",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Trablus",
+   "v": [
+    {
+     "f": "1711-03-01",
+     "t": "1835-05-26",
+     "k": "Trablusgarp Ocaklığı (Karamanlılar)",
+     "statu": "vassal",
+     "kid": "trablusgarp-ocagi"
+    }
+   ]
+  },
+  {
+   "ad": "Misrata",
+   "v": [
+    {
+     "f": "1711-03-01",
+     "t": "1835-05-26",
+     "k": "Trablusgarp Ocaklığı (Karamanlılar)",
+     "statu": "vassal",
+     "kid": "trablusgarp-ocagi"
+    }
+   ]
+  },
+  {
+   "ad": "Bingazi",
+   "v": [
+    {
+     "f": "1711-03-01",
+     "t": "1835-05-26",
+     "k": "Trablusgarp Ocaklığı (Karamanlılar)",
+     "statu": "vassal",
+     "kid": "trablusgarp-ocagi"
+    }
+   ]
+  },
+  {
+   "ad": "Derne",
+   "v": [
+    {
+     "f": "1711-03-01",
+     "t": "1835-05-26",
+     "k": "Trablusgarp Ocaklığı (Karamanlılar)",
+     "statu": "vassal",
+     "kid": "trablusgarp-ocagi"
+    }
+   ]
+  },
+  {
+   "ad": "Murzuk (Fizan)",
+   "v": [
+    {
+     "f": "1711-03-01",
+     "t": "1835-05-26",
+     "k": "Trablusgarp Ocaklığı (Karamanlılar)",
+     "statu": "vassal",
+     "kid": "trablusgarp-ocagi"
+    }
+   ]
+  },
+  {
+   "ad": "Tunus",
+   "v": [
+    {
+     "f": "1705-07-17",
+     "t": "1923-10-29",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Kayrevan",
+   "v": [
+    {
+     "f": "1705-07-17",
+     "t": "1923-10-29",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Gabes",
+   "v": [
+    {
+     "f": "1705-07-17",
+     "t": "1923-10-29",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Cezayir",
+   "v": [
+    {
+     "f": "1671-01-01",
+     "t": "1830-07-05",
+     "k": "Cezayir Ocaklığı (dayı idaresi)",
+     "statu": "vassal",
+     "kid": "cezayir-ocagi"
+    }
+   ]
+  },
+  {
+   "ad": "Konstantin",
+   "v": [
+    {
+     "f": "1671-01-01",
+     "t": "1830-07-05",
+     "k": "Cezayir Ocaklığı (dayı idaresi)",
+     "statu": "vassal",
+     "kid": "cezayir-ocagi"
+    },
+    {
+     "f": "1830-07-05",
+     "t": "1837-10-13",
+     "k": "Ahmed Bey'in Konstantin beyliği (Osmanlı adına)",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Tilimsan",
+   "v": [
+    {
+     "f": "1671-01-01",
+     "t": "1830-07-05",
+     "k": "Cezayir Ocaklığı (dayı idaresi)",
+     "statu": "vassal",
+     "kid": "cezayir-ocagi"
+    }
+   ]
+  },
+  {
+   "ad": "Sayda",
+   "v": [
+    {
+     "f": "1832-06-15",
+     "t": "1840-10-10",
+     "k": "Mısır (İbrâhim Paşa)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Yafa",
+   "v": [
+    {
+     "f": "1831-10-31",
+     "t": "1841-02-25",
+     "k": "Mısır (İbrâhim Paşa)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Nablus",
+   "v": [
+    {
+     "f": "1831-11-08",
+     "t": "1841-02-25",
+     "k": "Mısır (İbrâhim Paşa)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Süveyş",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Sfaks",
+   "v": [
+    {
+     "f": "1705-07-17",
+     "t": "1923-10-29",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Annaba",
+   "v": [
+    {
+     "f": "1671-01-01",
+     "t": "1830-07-05",
+     "k": "Cezayir Ocaklığı (dayı idaresi)",
+     "statu": "vassal",
+     "kid": "cezayir-ocagi"
+    },
+    {
+     "f": "1830-07-05",
+     "t": "1832-03-01",
+     "k": "Ahmed Bey'in Konstantin beyliği (Osmanlı adına)",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Bicâye",
+   "v": [
+    {
+     "f": "1671-01-01",
+     "t": "1830-07-05",
+     "k": "Cezayir Ocaklığı (dayı idaresi)",
+     "statu": "vassal",
+     "kid": "cezayir-ocagi"
+    },
+    {
+     "f": "1830-07-05",
+     "t": "1833-09-29",
+     "k": "Ahmed Bey'in Konstantin beyliği (Osmanlı adına)",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Riyad",
+   "v": [
+    {
+     "f": "1818-09-09",
+     "t": "1824-06-01",
+     "k": "Mısır (İbrâhim Paşa)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Kutaisi",
+   "v": [
+    {
+     "f": "1555-05-29",
+     "t": "1810-02-20",
+     "k": "İmereti krallığı (tâbi)",
+     "statu": "vassal",
+     "kid": "imereti"
+    }
+   ]
+  },
+  {
+   "ad": "Kuveyt",
+   "v": [
+    {
+     "f": "1795-04-01",
+     "t": "1871-01-01",
+     "k": "Sabah emirliği (Osmanlı himayesinde)",
+     "statu": "vassal",
+     "kid": "kuveyt"
+    },
+    {
+     "f": "1871-01-01",
+     "t": "1914-11-22",
+     "k": "Sabah emirliği (Osmanlı kazâsı)",
+     "statu": "vassal",
+     "kid": "kuveyt"
+    }
+   ]
+  },
+  {
+   "ad": "Doha (Katar)",
+   "v": [
+    {
+     "f": "1871-09-20",
+     "t": "1913-07-29",
+     "k": "Sânî emirliği (Osmanlı kazâsı)",
+     "statu": "vassal",
+     "kid": "katar"
+    }
+   ]
+  },
+  {
+   "ad": "Cetinje",
+   "v": [
+    {
+     "f": "1482-01-01",
+     "t": "1499-01-01",
+     "k": "Crnojeviç Zetası (Osmanlı tâbii)",
+     "statu": "vassal",
+     "kid": "zeta"
+    }
+   ]
+  },
+  {
+   "ad": "Nefud çölü",
+   "v": [
+    {
+     "f": "1818-09-09",
+     "t": "1824-06-01",
+     "k": "Mısır (İbrâhim Paşa)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Necid içi",
+   "v": [
+    {
+     "f": "1818-09-09",
+     "t": "1824-06-01",
+     "k": "Mısır (İbrâhim Paşa)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Sina güneyi",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1867-06-08",
+     "k": "Mısır valiliği (Kavalalı hanedanı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    },
+    {
+     "f": "1867-06-08",
+     "t": "1914-12-18",
+     "k": "Mısır Hidivliği",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Kordofan",
+   "v": [
+    {
+     "f": "1821-08-19",
+     "t": "1882-09-07",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Peşte",
+   "v": [
+    {
+     "f": "1526-09-01",
+     "t": "1541-08-29",
+     "k": "Macaristan (Zapolya vasal krallığı)",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Varad (Oradea)",
+   "v": [
+    {
+     "f": "1526-09-01",
+     "t": "1541-08-29",
+     "k": "Macaristan (Zapolya vasal krallığı)",
+     "statu": "vassal"
+    },
+    {
+     "f": "1541-08-29",
+     "t": "1660-08-27",
+     "k": "Erdel Prensliği",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Yanova (Ineu)",
+   "v": [
+    {
+     "f": "1526-09-01",
+     "t": "1541-08-29",
+     "k": "Macaristan (Zapolya vasal krallığı)",
+     "statu": "vassal"
+    },
+    {
+     "f": "1541-08-29",
+     "t": "1658-08-27",
+     "k": "Erdel Prensliği",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Hotin",
+   "v": [
+    {
+     "f": "1456-06-01",
+     "t": "1713-06-24",
+     "k": "Boğdan Voyvodalığı (Osmanlı tâbii)",
+     "statu": "vassal",
+     "kid": "bogdan"
+    }
+   ]
+  },
+  {
+   "ad": "Bender",
+   "v": [
+    {
+     "f": "1456-06-01",
+     "t": "1538-09-01",
+     "k": "Boğdan Voyvodalığı (Osmanlı tâbii)",
+     "statu": "vassal",
+     "kid": "bogdan"
+    }
+   ]
+  },
+  {
+   "ad": "İsmail",
+   "v": [
+    {
+     "f": "1456-06-01",
+     "t": "1538-09-01",
+     "k": "Boğdan Voyvodalığı",
+     "statu": "vassal",
+     "kid": "bogdan"
+    },
+    {
+     "f": "1856-03-30",
+     "t": "1878-07-13",
+     "k": "Boğdan Voyvodalığı (Cenûbî Besarabya — Paris Antlaşması'yla Boğdan'a geri verildi, Berlin Antlaşması'yla tekrar Rusya'ya)",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Cerbe (Djerba)",
+   "v": [
+    {
+     "f": "1705-07-17",
+     "t": "1923-10-29",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Antep",
+   "v": [
+    {
+     "f": "1832-07-29",
+     "t": "1841-02-25",
+     "k": "Mısır (İbrâhim Paşa)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Tâif",
+   "v": [
+    {
+     "f": "1517-07-06",
+     "t": "1803-02-01",
+     "k": "Mekke Şerifliği",
+     "statu": "vassal"
+    },
+    {
+     "f": "1813-05-02",
+     "t": "1916-06-10",
+     "k": "Mekke Şerifliği",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Humus",
+   "v": [
+    {
+     "f": "1832-07-08",
+     "t": "1841-02-25",
+     "k": "Mısır (İbrâhim Paşa)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Reşîd (Rosetta)",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Şerşel (Cherchell)",
+   "v": [
+    {
+     "f": "1671-01-01",
+     "t": "1830-07-05",
+     "k": "Cezayir Ocaklığı (dayı idaresi)",
+     "statu": "vassal",
+     "kid": "cezayir-ocagi"
+    }
+   ]
+  },
+  {
+   "ad": "Medea (Titteri)",
+   "v": [
+    {
+     "f": "1671-01-01",
+     "t": "1830-07-05",
+     "k": "Cezayir Ocaklığı (dayı idaresi)",
+     "statu": "vassal",
+     "kid": "cezayir-ocagi"
+    }
+   ]
+  },
+  {
+   "ad": "Setif",
+   "v": [
+    {
+     "f": "1671-01-01",
+     "t": "1830-07-05",
+     "k": "Cezayir Ocaklığı (dayı idaresi)",
+     "statu": "vassal",
+     "kid": "cezayir-ocagi"
+    },
+    {
+     "f": "1830-07-05",
+     "t": "1838-10-13",
+     "k": "Ahmed Bey'in Konstantin beyliği (Osmanlı adına)",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Biskra",
+   "v": [
+    {
+     "f": "1671-01-01",
+     "t": "1830-07-05",
+     "k": "Cezayir Ocaklığı (dayı idaresi)",
+     "statu": "vassal",
+     "kid": "cezayir-ocagi"
+    },
+    {
+     "f": "1830-07-05",
+     "t": "1844-03-04",
+     "k": "Ahmed Bey'in Konstantin beyliği (Osmanlı adına)",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Tuggurt",
+   "v": [
+    {
+     "f": "1671-01-01",
+     "t": "1830-07-05",
+     "k": "Cezayir Ocaklığı (dayı idaresi)",
+     "statu": "vassal",
+     "kid": "cezayir-ocagi"
+    },
+    {
+     "f": "1830-07-05",
+     "t": "1854-12-02",
+     "k": "Sahra vahalarının özerk idaresi",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Batnoz (Patmos)",
+   "v": [
+    {
+     "f": "1522-12-21",
+     "t": "1537-10-01",
+     "k": "manastır harâcı",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Kerkene (Kerkennah)",
+   "v": [
+    {
+     "f": "1705-07-17",
+     "t": "1923-10-29",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Dahlak",
+   "v": [
+    {
+     "f": "1865-01-01",
+     "t": "1885-02-05",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "İsfakiye (Sfakia)",
+   "v": [
+    {
+     "f": "1830-11-01",
+     "t": "1841-02-25",
+     "statu": "vassal"
+    },
+    {
+     "f": "1898-12-01",
+     "t": "1913-05-30",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Sitiye (Sitia)",
+   "v": [
+    {
+     "f": "1830-11-01",
+     "t": "1841-02-25",
+     "statu": "vassal"
+    },
+    {
+     "f": "1898-12-01",
+     "t": "1913-05-30",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Buraydâ (Kasîm)",
+   "v": [
+    {
+     "f": "1818-09-09",
+     "t": "1824-06-01",
+     "k": "Mısır (İbrâhim Paşa)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Uneyze",
+   "v": [
+    {
+     "f": "1818-09-09",
+     "t": "1824-06-01",
+     "k": "Mısır (İbrâhim Paşa)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Şakrâ",
+   "v": [
+    {
+     "f": "1818-09-09",
+     "t": "1824-06-01",
+     "k": "Mısır (İbrâhim Paşa)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Kragujevac",
+   "v": [
+    {
+     "f": "1830-11-08",
+     "t": "1878-07-13",
+     "k": "Sırbistan Prensliği",
+     "statu": "vassal",
+     "kid": "sirbistan-prensligi"
+    }
+   ]
+  },
+  {
+   "ad": "Çaçak",
+   "v": [
+    {
+     "f": "1830-11-08",
+     "t": "1878-07-13",
+     "k": "Sırbistan Prensliği",
+     "statu": "vassal",
+     "kid": "sirbistan-prensligi"
+    }
+   ]
+  },
+  {
+   "ad": "Tırgovişte",
+   "v": [
+    {
+     "f": "1462-06-01",
+     "t": "1878-07-13",
+     "k": "Eflak Voyvodalığı",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Piteşti",
+   "v": [
+    {
+     "f": "1462-06-01",
+     "t": "1878-07-13",
+     "k": "Eflak Voyvodalığı",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Slatina",
+   "v": [
+    {
+     "f": "1462-06-01",
+     "t": "1878-07-13",
+     "k": "Eflak Voyvodalığı",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Buzău",
+   "v": [
+    {
+     "f": "1462-06-01",
+     "t": "1878-07-13",
+     "k": "Eflak Voyvodalığı",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Rimnik-i Sârat (Râmnicu Sărat)",
+   "v": [
+    {
+     "f": "1462-06-01",
+     "t": "1878-07-13",
+     "k": "Eflak Voyvodalığı",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Krayova (Craiova)",
+   "v": [
+    {
+     "f": "1462-06-01",
+     "t": "1718-07-21",
+     "k": "Eflak Voyvodalığı",
+     "statu": "vassal",
+     "kid": "eflak"
+    },
+    {
+     "f": "1739-09-18",
+     "t": "1878-07-13",
+     "k": "Eflak Voyvodalığı",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Tırgu Jiu",
+   "v": [
+    {
+     "f": "1462-06-01",
+     "t": "1718-07-21",
+     "k": "Eflak Voyvodalığı",
+     "statu": "vassal",
+     "kid": "eflak"
+    },
+    {
+     "f": "1739-09-18",
+     "t": "1878-07-13",
+     "k": "Eflak Voyvodalığı",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Rimnik (Râmnicu Vâlcea)",
+   "v": [
+    {
+     "f": "1462-06-01",
+     "t": "1718-07-21",
+     "k": "Eflak Voyvodalığı",
+     "statu": "vassal",
+     "kid": "eflak"
+    },
+    {
+     "f": "1739-09-18",
+     "t": "1878-07-13",
+     "k": "Eflak Voyvodalığı",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Turnu Severin",
+   "v": [
+    {
+     "f": "1462-06-01",
+     "t": "1718-07-21",
+     "k": "Eflak Voyvodalığı",
+     "statu": "vassal",
+     "kid": "eflak"
+    },
+    {
+     "f": "1739-09-18",
+     "t": "1878-07-13",
+     "k": "Eflak Voyvodalığı",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Kımpulung (Câmpulung)",
+   "v": [
+    {
+     "f": "1462-06-01",
+     "t": "1878-07-13",
+     "k": "Eflak Voyvodalığı",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Soroka (Soroca)",
+   "v": [
+    {
+     "f": "1456-06-01",
+     "t": "1812-05-28",
+     "k": "Boğdan Voyvodalığı",
+     "statu": "vassal",
+     "kid": "bogdan"
+    }
+   ]
+  },
+  {
+   "ad": "Orhei",
+   "v": [
+    {
+     "f": "1456-06-01",
+     "t": "1812-05-28",
+     "k": "Boğdan Voyvodalığı",
+     "statu": "vassal",
+     "kid": "bogdan"
+    }
+   ]
+  },
+  {
+   "ad": "Böğürdelen (Šabac)",
+   "v": [
+    {
+     "f": "1867-04-18",
+     "t": "1878-07-13",
+     "k": "Sırbistan Prensliği",
+     "statu": "vassal",
+     "kid": "sirbistan-prensligi"
+    }
+   ]
+  },
+  {
+   "ad": "Dubrovnik",
+   "v": [
+    {
+     "f": "1459-03-07",
+     "t": "1806-05-27",
+     "k": "Dubrovnik Cumhuriyeti (haraçgüzâr)",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Gözleve (Kezlev)",
+   "v": [
+    {
+     "f": "1475-06-06",
+     "t": "1771-07-01",
+     "k": "Kırım Hanlığı",
+     "statu": "vassal",
+     "kid": "kirim"
+    }
+   ]
+  },
+  {
+   "ad": "Or Kapı (Ferahkirman)",
+   "v": [
+    {
+     "f": "1475-06-06",
+     "t": "1771-07-01",
+     "k": "Kırım Hanlığı",
+     "statu": "vassal",
+     "kid": "kirim"
+    }
+   ]
+  },
+  {
+   "ad": "Akmescid",
+   "v": [
+    {
+     "f": "1475-06-06",
+     "t": "1771-07-01",
+     "k": "Kırım Hanlığı",
+     "statu": "vassal",
+     "kid": "kirim"
+    }
+   ]
+  },
+  {
+   "ad": "Karasubazar",
+   "v": [
+    {
+     "f": "1475-06-06",
+     "t": "1771-07-01",
+     "k": "Kırım Hanlığı",
+     "statu": "vassal",
+     "kid": "kirim"
+    }
+   ]
+  },
+  {
+   "ad": "Eski Kırım (Solhat)",
+   "v": [
+    {
+     "f": "1475-06-06",
+     "t": "1771-07-01",
+     "k": "Kırım Hanlığı",
+     "statu": "vassal",
+     "kid": "kirim"
+    }
+   ]
+  },
+  {
+   "ad": "Tedmür (Palmyra)",
+   "v": [
+    {
+     "f": "1832-06-15",
+     "t": "1841-02-25",
+     "k": "Mısır (İbrâhim Paşa)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Demenhûr (Damanhur)",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Dessûk",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Kafrüşşeyh",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Bürüllüs (Baltîm)",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Tanta",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Mahalletülkübrâ",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Şibînülkûm (Menûfiye)",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Benhâ (Kalyûbiye)",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Mansûre",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Mît Gamr",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Menzile",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Bilbîs (Şarkiye)",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Fâkûs",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Sâlihiyye",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Ebûkîr",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Portsaid",
+   "v": [
+    {
+     "f": "1859-04-25",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "İsmâiliye",
+   "v": [
+    {
+     "f": "1863-04-27",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Katye",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "El-Arîş",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Mersâ Matruh",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Sellûm",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Atfîh",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Benî Süveyf",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Feyyûm",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Behnesâ",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Minye",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Mellevî",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Deyrût",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Tahtâ",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Ahmîm",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Cirge (Girga)",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Ferşût",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Kına",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Kûs",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Uksur (Luksor)",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Esna",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Edfû",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Kûm Ombo",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Kusayr",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Sefâce",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Ebû Ramâd (Şalâtîn)",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Tûr (Sînâ)",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Vâdî Halfâ",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Benzert (Bizerte)",
+   "v": [
+    {
+     "f": "1705-07-17",
+     "t": "1923-10-29",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Halkulvâdî",
+   "v": [
+    {
+     "f": "1705-07-17",
+     "t": "1923-10-29",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Mâtir (Mateur)",
+   "v": [
+    {
+     "f": "1705-07-17",
+     "t": "1923-10-29",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Tabarka",
+   "v": [
+    {
+     "f": "1741-06-12",
+     "t": "1923-10-29",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Bâce (Béja)",
+   "v": [
+    {
+     "f": "1705-07-17",
+     "t": "1923-10-29",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Cendûbe",
+   "v": [
+    {
+     "f": "1705-07-17",
+     "t": "1923-10-29",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Kef",
+   "v": [
+    {
+     "f": "1705-07-17",
+     "t": "1923-10-29",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Nâbil (Nabeul)",
+   "v": [
+    {
+     "f": "1705-07-17",
+     "t": "1923-10-29",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Kelîbiye",
+   "v": [
+    {
+     "f": "1705-07-17",
+     "t": "1923-10-29",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Zağvân",
+   "v": [
+    {
+     "f": "1705-07-17",
+     "t": "1923-10-29",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Sûse",
+   "v": [
+    {
+     "f": "1705-07-17",
+     "t": "1923-10-29",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Munastır",
+   "v": [
+    {
+     "f": "1705-07-17",
+     "t": "1923-10-29",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Mehdiye",
+   "v": [
+    {
+     "f": "1705-07-17",
+     "t": "1923-10-29",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Kasrayn",
+   "v": [
+    {
+     "f": "1705-07-17",
+     "t": "1923-10-29",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Kafsa",
+   "v": [
+    {
+     "f": "1705-07-17",
+     "t": "1923-10-29",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Tozer",
+   "v": [
+    {
+     "f": "1705-07-17",
+     "t": "1923-10-29",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Nefta",
+   "v": [
+    {
+     "f": "1705-07-17",
+     "t": "1923-10-29",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Medenîn",
+   "v": [
+    {
+     "f": "1705-07-17",
+     "t": "1923-10-29",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Tatavin",
+   "v": [
+    {
+     "f": "1705-07-17",
+     "t": "1923-10-29",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Cerciş (Zarzis)",
+   "v": [
+    {
+     "f": "1705-07-17",
+     "t": "1923-10-29",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Bin Gerdân",
+   "v": [
+    {
+     "f": "1705-07-17",
+     "t": "1923-10-29",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Zâviye",
+   "v": [
+    {
+     "f": "1711-03-01",
+     "t": "1835-05-26",
+     "k": "Trablusgarp Ocaklığı (Karamanlılar)",
+     "statu": "vassal",
+     "kid": "trablusgarp-ocagi"
+    }
+   ]
+  },
+  {
+   "ad": "Zuvâre",
+   "v": [
+    {
+     "f": "1711-03-01",
+     "t": "1835-05-26",
+     "k": "Trablusgarp Ocaklığı (Karamanlılar)",
+     "statu": "vassal",
+     "kid": "trablusgarp-ocagi"
+    }
+   ]
+  },
+  {
+   "ad": "Nâlût",
+   "v": [
+    {
+     "f": "1711-03-01",
+     "t": "1835-05-26",
+     "k": "Trablusgarp Ocaklığı (Karamanlılar)",
+     "statu": "vassal",
+     "kid": "trablusgarp-ocagi"
+    }
+   ]
+  },
+  {
+   "ad": "Yefren",
+   "v": [
+    {
+     "f": "1711-03-01",
+     "t": "1835-05-26",
+     "k": "Trablusgarp Ocaklığı (Karamanlılar)",
+     "statu": "vassal",
+     "kid": "trablusgarp-ocagi"
+    }
+   ]
+  },
+  {
+   "ad": "Garyân",
+   "v": [
+    {
+     "f": "1711-03-01",
+     "t": "1835-05-26",
+     "k": "Trablusgarp Ocaklığı (Karamanlılar)",
+     "statu": "vassal",
+     "kid": "trablusgarp-ocagi"
+    }
+   ]
+  },
+  {
+   "ad": "Mızde",
+   "v": [
+    {
+     "f": "1711-03-01",
+     "t": "1835-05-26",
+     "k": "Trablusgarp Ocaklığı (Karamanlılar)",
+     "statu": "vassal",
+     "kid": "trablusgarp-ocagi"
+    }
+   ]
+  },
+  {
+   "ad": "Hums (Lebde)",
+   "v": [
+    {
+     "f": "1711-03-01",
+     "t": "1835-05-26",
+     "k": "Trablusgarp Ocaklığı (Karamanlılar)",
+     "statu": "vassal",
+     "kid": "trablusgarp-ocagi"
+    }
+   ]
+  },
+  {
+   "ad": "Zilten",
+   "v": [
+    {
+     "f": "1711-03-01",
+     "t": "1835-05-26",
+     "k": "Trablusgarp Ocaklığı (Karamanlılar)",
+     "statu": "vassal",
+     "kid": "trablusgarp-ocagi"
+    }
+   ]
+  },
+  {
+   "ad": "Benî Velîd",
+   "v": [
+    {
+     "f": "1711-03-01",
+     "t": "1835-05-26",
+     "k": "Trablusgarp Ocaklığı (Karamanlılar)",
+     "statu": "vassal",
+     "kid": "trablusgarp-ocagi"
+    }
+   ]
+  },
+  {
+   "ad": "Sirte",
+   "v": [
+    {
+     "f": "1711-03-01",
+     "t": "1835-05-26",
+     "k": "Trablusgarp Ocaklığı (Karamanlılar)",
+     "statu": "vassal",
+     "kid": "trablusgarp-ocagi"
+    }
+   ]
+  },
+  {
+   "ad": "Ecdâbiye",
+   "v": [
+    {
+     "f": "1711-03-01",
+     "t": "1835-05-26",
+     "k": "Trablusgarp Ocaklığı (Karamanlılar)",
+     "statu": "vassal",
+     "kid": "trablusgarp-ocagi"
+    }
+   ]
+  },
+  {
+   "ad": "Merc",
+   "v": [
+    {
+     "f": "1711-03-01",
+     "t": "1835-05-26",
+     "k": "Trablusgarp Ocaklığı (Karamanlılar)",
+     "statu": "vassal",
+     "kid": "trablusgarp-ocagi"
+    }
+   ]
+  },
+  {
+   "ad": "Beyzâ (Kirene)",
+   "v": [
+    {
+     "f": "1711-03-01",
+     "t": "1835-05-26",
+     "k": "Trablusgarp Ocaklığı (Karamanlılar)",
+     "statu": "vassal",
+     "kid": "trablusgarp-ocagi"
+    }
+   ]
+  },
+  {
+   "ad": "Tobruk",
+   "v": [
+    {
+     "f": "1711-03-01",
+     "t": "1835-05-26",
+     "k": "Trablusgarp Ocaklığı (Karamanlılar)",
+     "statu": "vassal",
+     "kid": "trablusgarp-ocagi"
+    }
+   ]
+  },
+  {
+   "ad": "Blida",
+   "v": [
+    {
+     "f": "1671-01-01",
+     "t": "1830-07-05",
+     "k": "Cezayir Ocaklığı (dayı idaresi)",
+     "statu": "vassal",
+     "kid": "cezayir-ocagi"
+    }
+   ]
+  },
+  {
+   "ad": "Miliana",
+   "v": [
+    {
+     "f": "1671-01-01",
+     "t": "1830-07-05",
+     "k": "Cezayir Ocaklığı (dayı idaresi)",
+     "statu": "vassal",
+     "kid": "cezayir-ocagi"
+    }
+   ]
+  },
+  {
+   "ad": "Dellîs",
+   "v": [
+    {
+     "f": "1671-01-01",
+     "t": "1830-07-05",
+     "k": "Cezayir Ocaklığı (dayı idaresi)",
+     "statu": "vassal",
+     "kid": "cezayir-ocagi"
+    },
+    {
+     "f": "1830-07-05",
+     "t": "1832-11-22",
+     "k": "Osmanlı hükümranlık iddiası (ocaklık lağvedildi)",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Tenes",
+   "v": [
+    {
+     "f": "1671-01-01",
+     "t": "1830-07-05",
+     "k": "Cezayir Ocaklığı (dayı idaresi)",
+     "statu": "vassal",
+     "kid": "cezayir-ocagi"
+    },
+    {
+     "f": "1830-07-05",
+     "t": "1832-11-22",
+     "k": "Osmanlı hükümranlık iddiası (ocaklık lağvedildi)",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Şelif",
+   "v": [
+    {
+     "f": "1671-01-01",
+     "t": "1830-07-05",
+     "k": "Cezayir Ocaklığı (dayı idaresi)",
+     "statu": "vassal",
+     "kid": "cezayir-ocagi"
+    },
+    {
+     "f": "1830-07-05",
+     "t": "1832-11-22",
+     "k": "Osmanlı hükümranlık iddiası (ocaklık lağvedildi)",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Mustagānim",
+   "v": [
+    {
+     "f": "1671-01-01",
+     "t": "1830-07-05",
+     "k": "Cezayir Ocaklığı (dayı idaresi)",
+     "statu": "vassal",
+     "kid": "cezayir-ocagi"
+    },
+    {
+     "f": "1830-07-05",
+     "t": "1832-11-22",
+     "k": "Osmanlı hükümranlık iddiası (ocaklık lağvedildi)",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Muaskar",
+   "v": [
+    {
+     "f": "1671-01-01",
+     "t": "1830-07-05",
+     "k": "Cezayir Ocaklığı (dayı idaresi)",
+     "statu": "vassal",
+     "kid": "cezayir-ocagi"
+    },
+    {
+     "f": "1830-07-05",
+     "t": "1832-11-22",
+     "k": "Osmanlı hükümranlık iddiası (ocaklık lağvedildi)",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Sîdî Bel Abbès",
+   "v": [
+    {
+     "f": "1671-01-01",
+     "t": "1830-07-05",
+     "k": "Cezayir Ocaklığı (dayı idaresi)",
+     "statu": "vassal",
+     "kid": "cezayir-ocagi"
+    },
+    {
+     "f": "1830-07-05",
+     "t": "1832-11-22",
+     "k": "Osmanlı hükümranlık iddiası (ocaklık lağvedildi)",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Ayn Temûşent",
+   "v": [
+    {
+     "f": "1671-01-01",
+     "t": "1830-07-05",
+     "k": "Cezayir Ocaklığı (dayı idaresi)",
+     "statu": "vassal",
+     "kid": "cezayir-ocagi"
+    },
+    {
+     "f": "1830-07-05",
+     "t": "1832-11-22",
+     "k": "Osmanlı hükümranlık iddiası (ocaklık lağvedildi)",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Nedrûme",
+   "v": [
+    {
+     "f": "1671-01-01",
+     "t": "1830-07-05",
+     "k": "Cezayir Ocaklığı (dayı idaresi)",
+     "statu": "vassal",
+     "kid": "cezayir-ocagi"
+    },
+    {
+     "f": "1830-07-05",
+     "t": "1832-11-22",
+     "k": "Osmanlı hükümranlık iddiası (ocaklık lağvedildi)",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Cicel",
+   "v": [
+    {
+     "f": "1671-01-01",
+     "t": "1830-07-05",
+     "k": "Cezayir Ocaklığı (dayı idaresi)",
+     "statu": "vassal",
+     "kid": "cezayir-ocagi"
+    },
+    {
+     "f": "1830-07-05",
+     "t": "1839-05-13",
+     "k": "Ahmed Bey'in Konstantin beyliği",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Kolo",
+   "v": [
+    {
+     "f": "1671-01-01",
+     "t": "1830-07-05",
+     "k": "Cezayir Ocaklığı (dayı idaresi)",
+     "statu": "vassal",
+     "kid": "cezayir-ocagi"
+    },
+    {
+     "f": "1830-07-05",
+     "t": "1838-10-13",
+     "k": "Ahmed Bey'in Konstantin beyliği",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Sikikde",
+   "v": [
+    {
+     "f": "1671-01-01",
+     "t": "1830-07-05",
+     "k": "Cezayir Ocaklığı (dayı idaresi)",
+     "statu": "vassal",
+     "kid": "cezayir-ocagi"
+    },
+    {
+     "f": "1830-07-05",
+     "t": "1838-10-13",
+     "k": "Ahmed Bey'in Konstantin beyliği",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Mîle",
+   "v": [
+    {
+     "f": "1671-01-01",
+     "t": "1830-07-05",
+     "k": "Cezayir Ocaklığı (dayı idaresi)",
+     "statu": "vassal",
+     "kid": "cezayir-ocagi"
+    },
+    {
+     "f": "1830-07-05",
+     "t": "1837-10-13",
+     "k": "Ahmed Bey'in Konstantin beyliği",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Kalme (Guelma)",
+   "v": [
+    {
+     "f": "1671-01-01",
+     "t": "1830-07-05",
+     "k": "Cezayir Ocaklığı (dayı idaresi)",
+     "statu": "vassal",
+     "kid": "cezayir-ocagi"
+    },
+    {
+     "f": "1830-07-05",
+     "t": "1837-10-13",
+     "k": "Ahmed Bey'in Konstantin beyliği",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Sûk Ahrâs",
+   "v": [
+    {
+     "f": "1671-01-01",
+     "t": "1830-07-05",
+     "k": "Cezayir Ocaklığı (dayı idaresi)",
+     "statu": "vassal",
+     "kid": "cezayir-ocagi"
+    },
+    {
+     "f": "1830-07-05",
+     "t": "1844-03-04",
+     "k": "Ahmed Bey'in Konstantin beyliği",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Tebesse",
+   "v": [
+    {
+     "f": "1671-01-01",
+     "t": "1830-07-05",
+     "k": "Cezayir Ocaklığı (dayı idaresi)",
+     "statu": "vassal",
+     "kid": "cezayir-ocagi"
+    },
+    {
+     "f": "1830-07-05",
+     "t": "1844-03-04",
+     "k": "Ahmed Bey'in Konstantin beyliği",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Batna",
+   "v": [
+    {
+     "f": "1671-01-01",
+     "t": "1830-07-05",
+     "k": "Cezayir Ocaklığı (dayı idaresi)",
+     "statu": "vassal",
+     "kid": "cezayir-ocagi"
+    },
+    {
+     "f": "1830-07-05",
+     "t": "1844-03-04",
+     "k": "Ahmed Bey'in Konstantin beyliği",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Berc Bû Areric",
+   "v": [
+    {
+     "f": "1671-01-01",
+     "t": "1830-07-05",
+     "k": "Cezayir Ocaklığı (dayı idaresi)",
+     "statu": "vassal",
+     "kid": "cezayir-ocagi"
+    },
+    {
+     "f": "1830-07-05",
+     "t": "1838-10-13",
+     "k": "Ahmed Bey'in Konstantin beyliği",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Mesîle",
+   "v": [
+    {
+     "f": "1671-01-01",
+     "t": "1830-07-05",
+     "k": "Cezayir Ocaklığı (dayı idaresi)",
+     "statu": "vassal",
+     "kid": "cezayir-ocagi"
+    },
+    {
+     "f": "1830-07-05",
+     "t": "1832-11-22",
+     "k": "Osmanlı hükümranlık iddiası (ocaklık lağvedildi)",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Bû Sa'âde",
+   "v": [
+    {
+     "f": "1671-01-01",
+     "t": "1830-07-05",
+     "k": "Cezayir Ocaklığı (dayı idaresi)",
+     "statu": "vassal",
+     "kid": "cezayir-ocagi"
+    },
+    {
+     "f": "1830-07-05",
+     "t": "1832-11-22",
+     "k": "Osmanlı hükümranlık iddiası (ocaklık lağvedildi)",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Ağvât",
+   "v": [
+    {
+     "f": "1671-01-01",
+     "t": "1830-07-05",
+     "k": "Cezayir Ocaklığı (dayı idaresi)",
+     "statu": "vassal",
+     "kid": "cezayir-ocagi"
+    },
+    {
+     "f": "1830-07-05",
+     "t": "1852-12-04",
+     "k": "Sahra vahalarının özerk idaresi",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Gardâye",
+   "v": [
+    {
+     "f": "1671-01-01",
+     "t": "1830-07-05",
+     "k": "Cezayir Ocaklığı (dayı idaresi)",
+     "statu": "vassal",
+     "kid": "cezayir-ocagi"
+    },
+    {
+     "f": "1830-07-05",
+     "t": "1852-12-04",
+     "k": "Sahra vahalarının özerk idaresi",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Kerene",
+   "v": [
+    {
+     "f": "1872-01-01",
+     "t": "1884-06-03",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Kerma",
+   "v": [
+    {
+     "f": "1821-01-04",
+     "t": "1885-01-26",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Debbe",
+   "v": [
+    {
+     "f": "1821-01-04",
+     "t": "1885-01-26",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Merevî",
+   "v": [
+    {
+     "f": "1821-01-04",
+     "t": "1885-01-26",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Ebû Hamed",
+   "v": [
+    {
+     "f": "1821-01-04",
+     "t": "1885-01-26",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Berber",
+   "v": [
+    {
+     "f": "1821-01-04",
+     "t": "1884-05-01",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Şendî",
+   "v": [
+    {
+     "f": "1821-06-14",
+     "t": "1885-01-26",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Vad Medenî",
+   "v": [
+    {
+     "f": "1821-06-14",
+     "t": "1885-01-26",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Ed-Düveym",
+   "v": [
+    {
+     "f": "1821-06-14",
+     "t": "1885-01-26",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Kosti",
+   "v": [
+    {
+     "f": "1821-06-14",
+     "t": "1885-01-26",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Kadârif",
+   "v": [
+    {
+     "f": "1821-06-14",
+     "t": "1885-01-26",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Rusayris",
+   "v": [
+    {
+     "f": "1821-06-14",
+     "t": "1885-01-26",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Fâzûğlî",
+   "v": [
+    {
+     "f": "1821-06-14",
+     "t": "1885-01-26",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Bâra",
+   "v": [
+    {
+     "f": "1821-08-19",
+     "t": "1882-09-01",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Nühûd",
+   "v": [
+    {
+     "f": "1821-08-19",
+     "t": "1885-01-26",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Kesela",
+   "v": [
+    {
+     "f": "1840-01-01",
+     "t": "1885-01-26",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Ğadâmis",
+   "v": [
+    {
+     "f": "1711-03-01",
+     "t": "1835-05-26",
+     "k": "Trablusgarp Ocaklığı (Karamanlılar)",
+     "statu": "vassal",
+     "kid": "trablusgarp-ocagi"
+    }
+   ]
+  },
+  {
+   "ad": "Gât",
+   "v": [
+    {
+     "f": "1711-03-01",
+     "t": "1835-05-26",
+     "k": "Trablusgarp Ocaklığı (Karamanlılar)",
+     "statu": "vassal",
+     "kid": "trablusgarp-ocagi"
+    }
+   ]
+  },
+  {
+   "ad": "El-Fâşir",
+   "v": [
+    {
+     "f": "1874-11-02",
+     "t": "1883-12-23",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Nyala",
+   "v": [
+    {
+     "f": "1874-11-02",
+     "t": "1883-12-23",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Cenîne",
+   "v": [
+    {
+     "f": "1874-11-02",
+     "t": "1883-12-23",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Hârice (Vâhât)",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Dâhile",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Ferâfire",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Bahriye (Bâvîtî)",
+   "v": [
+    {
+     "f": "1805-07-03",
+     "t": "1914-12-18",
+     "k": "Kavalalı hanedanı",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Sokna",
+   "v": [
+    {
+     "f": "1711-03-01",
+     "t": "1835-05-26",
+     "k": "Trablusgarp Ocaklığı (Karamanlılar)",
+     "statu": "vassal",
+     "kid": "trablusgarp-ocagi"
+    }
+   ]
+  },
+  {
+   "ad": "Câlû",
+   "v": [
+    {
+     "f": "1711-03-01",
+     "t": "1835-05-26",
+     "k": "Trablusgarp Ocaklığı (Karamanlılar)",
+     "statu": "vassal",
+     "kid": "trablusgarp-ocagi"
+    }
+   ]
+  },
+  {
+   "ad": "Sebha",
+   "v": [
+    {
+     "f": "1711-03-01",
+     "t": "1835-05-26",
+     "k": "Trablusgarp Ocaklığı (Karamanlılar)",
+     "statu": "vassal",
+     "kid": "trablusgarp-ocagi"
+    }
+   ]
+  },
+  {
+   "ad": "Ubârî",
+   "v": [
+    {
+     "f": "1711-03-01",
+     "t": "1835-05-26",
+     "k": "Trablusgarp Ocaklığı (Karamanlılar)",
+     "statu": "vassal",
+     "kid": "trablusgarp-ocagi"
+    }
+   ]
+  },
+  {
+   "ad": "Kassa (Košice)",
+   "v": [
+    {
+     "f": "1682-09-16",
+     "t": "1685-10-15",
+     "k": "Orta Macar Krallığı (Tököli İmre)",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Eperjes (Prešov)",
+   "v": [
+    {
+     "f": "1682-09-16",
+     "t": "1685-10-15",
+     "k": "Orta Macar Krallığı (Tököli İmre)",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Tokaj",
+   "v": [
+    {
+     "f": "1682-09-16",
+     "t": "1685-10-15",
+     "k": "Orta Macar Krallığı (Tököli İmre)",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Kilis",
+   "v": [
+    {
+     "f": "1832-07-29",
+     "t": "1841-02-25",
+     "k": "Mısır (İbrâhim Paşa)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Payas",
+   "v": [
+    {
+     "f": "1832-07-29",
+     "t": "1841-02-25",
+     "k": "Mısır (İbrâhim Paşa)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Erdel Belgradı (Gyulafehérvár)",
+   "v": [
+    {
+     "f": "1526-09-01",
+     "t": "1541-08-29",
+     "statu": "vassal"
+    },
+    {
+     "f": "1541-08-29",
+     "t": "1687-08-12",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Brassó (Braşov)",
+   "v": [
+    {
+     "f": "1526-09-01",
+     "t": "1541-08-29",
+     "statu": "vassal"
+    },
+    {
+     "f": "1541-08-29",
+     "t": "1687-08-12",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Segesvár (Sighişoara)",
+   "v": [
+    {
+     "f": "1526-09-01",
+     "t": "1541-08-29",
+     "statu": "vassal"
+    },
+    {
+     "f": "1541-08-29",
+     "t": "1687-08-12",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Prevadi (Provadia)",
+   "v": [
+    {
+     "f": "1878-07-13",
+     "t": "1908-10-05",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Yagodina (Jagodina)",
+   "v": [
+    {
+     "f": "1830-11-08",
+     "t": "1878-07-13",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Delvine",
+   "v": [
+    {
+     "f": "1430-10-01",
+     "t": "1537-08-25",
+     "k": "Arvanid sancağı — nominal tâbiiyet, KESİN hâkimiyet yok",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Ayasaranda (Sarandë)",
+   "v": [
+    {
+     "f": "1430-10-01",
+     "t": "1537-08-25",
+     "k": "Arvanid sancağı — nominal tâbiiyet",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Debrecen",
+   "v": [
+    {
+     "f": "1526-08-29",
+     "t": "1660-08-27",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Delgo (Sükkût)",
+   "v": [
+    {
+     "f": "1821-01-04",
+     "t": "1885-01-26",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Abrî (Mahas)",
+   "v": [
+    {
+     "f": "1821-01-04",
+     "t": "1885-01-26",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Kortî",
+   "v": [
+    {
+     "f": "1821-01-04",
+     "t": "1885-01-26",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Ed-Dâmer",
+   "v": [
+    {
+     "f": "1821-01-04",
+     "t": "1885-01-26",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Kabûşiyye",
+   "v": [
+    {
+     "f": "1821-01-04",
+     "t": "1885-01-26",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Ümmü Dermân",
+   "v": [
+    {
+     "f": "1821-06-14",
+     "t": "1885-01-26",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Sincâ",
+   "v": [
+    {
+     "f": "1821-06-14",
+     "t": "1885-01-26",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Müsellemiyye",
+   "v": [
+    {
+     "f": "1821-06-14",
+     "t": "1885-01-26",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Rufâa",
+   "v": [
+    {
+     "f": "1821-06-14",
+     "t": "1885-01-26",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "El-Kavâ",
+   "v": [
+    {
+     "f": "1821-06-14",
+     "t": "1885-01-26",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Cebeleyn",
+   "v": [
+    {
+     "f": "1821-06-14",
+     "t": "1885-01-26",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Kurmuk",
+   "v": [
+    {
+     "f": "1821-06-14",
+     "t": "1885-01-26",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Er-Rahad",
+   "v": [
+    {
+     "f": "1821-08-19",
+     "t": "1882-09-07",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Ümmü Rüvâbe",
+   "v": [
+    {
+     "f": "1821-08-19",
+     "t": "1882-09-07",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Sodirî",
+   "v": [
+    {
+     "f": "1821-08-19",
+     "t": "1882-09-07",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Dilling",
+   "v": [
+    {
+     "f": "1821-08-19",
+     "t": "1882-09-07",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Kâdûglî",
+   "v": [
+    {
+     "f": "1821-08-19",
+     "t": "1882-09-07",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Talodi",
+   "v": [
+    {
+     "f": "1821-08-19",
+     "t": "1882-09-07",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Ebû Zabed",
+   "v": [
+    {
+     "f": "1821-08-19",
+     "t": "1882-09-07",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Muglad",
+   "v": [
+    {
+     "f": "1821-08-19",
+     "t": "1882-09-07",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Bâbanûsa",
+   "v": [
+    {
+     "f": "1821-08-19",
+     "t": "1882-09-07",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Ğubeyş",
+   "v": [
+    {
+     "f": "1821-08-19",
+     "t": "1882-09-07",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Kutum",
+   "v": [
+    {
+     "f": "1874-11-02",
+     "t": "1883-12-23",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Kebkâbiye",
+   "v": [
+    {
+     "f": "1874-11-02",
+     "t": "1883-12-23",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Cebel Merre",
+   "v": [
+    {
+     "f": "1874-11-02",
+     "t": "1883-12-23",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Zâlincî",
+   "v": [
+    {
+     "f": "1874-11-02",
+     "t": "1883-12-23",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Ed-Da'în",
+   "v": [
+    {
+     "f": "1874-11-02",
+     "t": "1883-12-23",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Burâm",
+   "v": [
+    {
+     "f": "1874-11-02",
+     "t": "1883-12-23",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Ümmü Keddâde",
+   "v": [
+    {
+     "f": "1874-11-02",
+     "t": "1883-12-23",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Tîne (Dârfûr)",
+   "v": [
+    {
+     "f": "1874-11-02",
+     "t": "1883-12-23",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Şereyk",
+   "v": [
+    {
+     "f": "1821-01-04",
+     "t": "1885-01-26",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Kerreri",
+   "v": [
+    {
+     "f": "1821-06-14",
+     "t": "1885-01-26",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "El-Menâkıl",
+   "v": [
+    {
+     "f": "1821-06-14",
+     "t": "1885-01-26",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Ed-Damazîn",
+   "v": [
+    {
+     "f": "1821-06-14",
+     "t": "1885-01-26",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Tendelti",
+   "v": [
+    {
+     "f": "1821-08-19",
+     "t": "1882-09-07",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Ümmü Bedr",
+   "v": [
+    {
+     "f": "1821-08-19",
+     "t": "1882-09-07",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Mellît",
+   "v": [
+    {
+     "f": "1874-11-02",
+     "t": "1883-12-23",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Şa'riyye",
+   "v": [
+    {
+     "f": "1874-11-02",
+     "t": "1883-12-23",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Radom",
+   "v": [
+    {
+     "f": "1874-11-02",
+     "t": "1883-12-23",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Tîzî Vezzû (Kabiliye)",
+   "v": [
+    {
+     "f": "1671-01-01",
+     "t": "1830-07-05",
+     "k": "Cezayir Ocaklığı (dayı idaresi)",
+     "statu": "vassal",
+     "kid": "cezayir-ocagi"
+    },
+    {
+     "f": "1830-07-05",
+     "t": "1857-07-11",
+     "k": "Kabiliye'nin fiilî özerkliği",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Akbû (Benî Abbâs)",
+   "v": [
+    {
+     "f": "1671-01-01",
+     "t": "1830-07-05",
+     "k": "Cezayir Ocaklığı (dayı idaresi)",
+     "statu": "vassal",
+     "kid": "cezayir-ocagi"
+    },
+    {
+     "f": "1830-07-05",
+     "t": "1857-07-11",
+     "k": "Kabiliye'nin fiilî özerkliği",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Tâhert (Tiaret)",
+   "v": [
+    {
+     "f": "1671-01-01",
+     "t": "1830-07-05",
+     "k": "Cezayir Ocaklığı (dayı idaresi)",
+     "statu": "vassal",
+     "kid": "cezayir-ocagi"
+    },
+    {
+     "f": "1830-07-05",
+     "t": "1832-11-22",
+     "k": "Osmanlı hükümranlık iddiası (ocaklık lağvedildi)",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Cilfe (Djelfa)",
+   "v": [
+    {
+     "f": "1671-01-01",
+     "t": "1830-07-05",
+     "k": "Cezayir Ocaklığı (dayı idaresi)",
+     "statu": "vassal",
+     "kid": "cezayir-ocagi"
+    },
+    {
+     "f": "1830-07-05",
+     "t": "1852-12-04",
+     "k": "Sahra vahalarının özerk idaresi",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Vargla (Ouargla)",
+   "v": [
+    {
+     "f": "1671-01-01",
+     "t": "1830-07-05",
+     "k": "Cezayir Ocaklığı (dayı idaresi)",
+     "statu": "vassal",
+     "kid": "cezayir-ocagi"
+    },
+    {
+     "f": "1830-07-05",
+     "t": "1854-11-23",
+     "k": "Sahra vahalarının özerk idaresi",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "el-Vâdî (Sûf)",
+   "v": [
+    {
+     "f": "1671-01-01",
+     "t": "1830-07-05",
+     "k": "Cezayir Ocaklığı (dayı idaresi)",
+     "statu": "vassal",
+     "kid": "cezayir-ocagi"
+    },
+    {
+     "f": "1830-07-05",
+     "t": "1854-12-02",
+     "k": "Sahra vahalarının özerk idaresi",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Hanşele (Khenchela)",
+   "v": [
+    {
+     "f": "1671-01-01",
+     "t": "1830-07-05",
+     "k": "Cezayir Ocaklığı (dayı idaresi)",
+     "statu": "vassal",
+     "kid": "cezayir-ocagi"
+    },
+    {
+     "f": "1830-07-05",
+     "t": "1844-03-04",
+     "k": "Ahmed Bey'in Konstantin beyliği",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Aynı Beydâ",
+   "v": [
+    {
+     "f": "1671-01-01",
+     "t": "1830-07-05",
+     "k": "Cezayir Ocaklığı (dayı idaresi)",
+     "statu": "vassal",
+     "kid": "cezayir-ocagi"
+    },
+    {
+     "f": "1830-07-05",
+     "t": "1844-03-04",
+     "k": "Ahmed Bey'in Konstantin beyliği",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Ğâru'l-Melh (Porto Farina)",
+   "v": [
+    {
+     "f": "1705-07-17",
+     "t": "1923-10-29",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Testûr",
+   "v": [
+    {
+     "f": "1705-07-17",
+     "t": "1923-10-29",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Ğar Dimâv",
+   "v": [
+    {
+     "f": "1705-07-17",
+     "t": "1923-10-29",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Mekter (Maktar)",
+   "v": [
+    {
+     "f": "1705-07-17",
+     "t": "1923-10-29",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Sübaytıla",
+   "v": [
+    {
+     "f": "1705-07-17",
+     "t": "1923-10-29",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Sîdî Bû Zeyd",
+   "v": [
+    {
+     "f": "1705-07-17",
+     "t": "1923-10-29",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Metlâvî",
+   "v": [
+    {
+     "f": "1705-07-17",
+     "t": "1923-10-29",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Kıbillî (Nefzâve)",
+   "v": [
+    {
+     "f": "1705-07-17",
+     "t": "1923-10-29",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Dûz",
+   "v": [
+    {
+     "f": "1705-07-17",
+     "t": "1923-10-29",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Terhûne",
+   "v": [
+    {
+     "f": "1711-03-01",
+     "t": "1835-05-26",
+     "k": "Trablusgarp Ocaklığı (Karamanlılar)",
+     "statu": "vassal",
+     "kid": "trablusgarp-ocagi"
+    }
+   ]
+  },
+  {
+   "ad": "Kabâv (Nefûse)",
+   "v": [
+    {
+     "f": "1711-03-01",
+     "t": "1835-05-26",
+     "k": "Trablusgarp Ocaklığı (Karamanlılar)",
+     "statu": "vassal",
+     "kid": "trablusgarp-ocagi"
+    }
+   ]
+  },
+  {
+   "ad": "Sinâvin",
+   "v": [
+    {
+     "f": "1711-03-01",
+     "t": "1835-05-26",
+     "k": "Trablusgarp Ocaklığı (Karamanlılar)",
+     "statu": "vassal",
+     "kid": "trablusgarp-ocagi"
+    }
+   ]
+  },
+  {
+   "ad": "Derc (Derj)",
+   "v": [
+    {
+     "f": "1711-03-01",
+     "t": "1835-05-26",
+     "k": "Trablusgarp Ocaklığı (Karamanlılar)",
+     "statu": "vassal",
+     "kid": "trablusgarp-ocagi"
+    }
+   ]
+  },
+  {
+   "ad": "Tâverğa",
+   "v": [
+    {
+     "f": "1711-03-01",
+     "t": "1835-05-26",
+     "k": "Trablusgarp Ocaklığı (Karamanlılar)",
+     "statu": "vassal",
+     "kid": "trablusgarp-ocagi"
+    }
+   ]
+  },
+  {
+   "ad": "Vaddân (Cufre)",
+   "v": [
+    {
+     "f": "1711-03-01",
+     "t": "1835-05-26",
+     "k": "Trablusgarp Ocaklığı (Karamanlılar)",
+     "statu": "vassal",
+     "kid": "trablusgarp-ocagi"
+    }
+   ]
+  },
+  {
+   "ad": "Zilla (Zella)",
+   "v": [
+    {
+     "f": "1711-03-01",
+     "t": "1835-05-26",
+     "k": "Trablusgarp Ocaklığı (Karamanlılar)",
+     "statu": "vassal",
+     "kid": "trablusgarp-ocagi"
+    }
+   ]
+  },
+  {
+   "ad": "Nûfiliye",
+   "v": [
+    {
+     "f": "1711-03-01",
+     "t": "1835-05-26",
+     "k": "Trablusgarp Ocaklığı (Karamanlılar)",
+     "statu": "vassal",
+     "kid": "trablusgarp-ocagi"
+    }
+   ]
+  },
+  {
+   "ad": "Merâde",
+   "v": [
+    {
+     "f": "1711-03-01",
+     "t": "1835-05-26",
+     "k": "Trablusgarp Ocaklığı (Karamanlılar)",
+     "statu": "vassal",
+     "kid": "trablusgarp-ocagi"
+    }
+   ]
+  },
+  {
+   "ad": "Tulmeyse",
+   "v": [
+    {
+     "f": "1711-03-01",
+     "t": "1835-05-26",
+     "k": "Trablusgarp Ocaklığı (Karamanlılar)",
+     "statu": "vassal",
+     "kid": "trablusgarp-ocagi"
+    }
+   ]
+  },
+  {
+   "ad": "Ayn el-Ğazâle (Bomba)",
+   "v": [
+    {
+     "f": "1711-03-01",
+     "t": "1835-05-26",
+     "k": "Trablusgarp Ocaklığı (Karamanlılar)",
+     "statu": "vassal",
+     "kid": "trablusgarp-ocagi"
+    }
+   ]
+  },
+  {
+   "ad": "Tırgan (Traghan)",
+   "v": [
+    {
+     "f": "1711-03-01",
+     "t": "1835-05-26",
+     "k": "Trablusgarp Ocaklığı (Karamanlılar)",
+     "statu": "vassal",
+     "kid": "trablusgarp-ocagi"
+    }
+   ]
+  },
+  {
+   "ad": "Zevîle (Zawila)",
+   "v": [
+    {
+     "f": "1711-03-01",
+     "t": "1835-05-26",
+     "k": "Trablusgarp Ocaklığı (Karamanlılar)",
+     "statu": "vassal",
+     "kid": "trablusgarp-ocagi"
+    }
+   ]
+  },
+  {
+   "ad": "el-Katrûn",
+   "v": [
+    {
+     "f": "1711-03-01",
+     "t": "1835-05-26",
+     "k": "Trablusgarp Ocaklığı (Karamanlılar)",
+     "statu": "vassal",
+     "kid": "trablusgarp-ocagi"
+    }
+   ]
+  },
+  {
+   "ad": "Fülek (Fiľakovo)",
+   "v": [
+    {
+     "f": "1682-09-16",
+     "t": "1685-10-15",
+     "k": "Orta Macar Krallığı (Tököli İmre)",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Ungvár (Uzhhorod)",
+   "v": [
+    {
+     "f": "1682-09-16",
+     "t": "1685-10-15",
+     "k": "Orta Macar Krallığı (Tököli İmre)",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Munkács (Mukacheve)",
+   "v": [
+    {
+     "f": "1682-09-16",
+     "t": "1688-01-17",
+     "k": "Orta Macar Krallığı — Ilona Zrínyi'nin Munkács savunması",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Hayber",
+   "v": [
+    {
+     "f": "1517-07-06",
+     "t": "1805-06-01",
+     "k": "Mekke Şerifliği",
+     "statu": "vassal"
+    },
+    {
+     "f": "1812-12-03",
+     "t": "1841-05-24",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    },
+    {
+     "f": "1841-05-24",
+     "t": "1919-01-10",
+     "k": "Mekke Şerifliği",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Bedir",
+   "v": [
+    {
+     "f": "1811-11-01",
+     "t": "1841-05-24",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Râbiğ",
+   "v": [
+    {
+     "f": "1813-01-23",
+     "t": "1841-05-24",
+     "k": "Mısır (Kavalalı)",
+     "statu": "vassal",
+     "kid": "misir-kavalali"
+    }
+   ]
+  },
+  {
+   "ad": "Köprülü (Veles)",
+   "v": [
+    {
+     "f": "1371-09-26",
+     "t": "1395-05-17",
+     "k": "Dejanović Prensliği (Kostadin-ili)",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "İştip (Štip)",
+   "v": [
+    {
+     "f": "1371-09-26",
+     "t": "1395-05-17",
+     "k": "Dejanović Prensliği (Kostadin-ili)",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Ustrumca (Strumica)",
+   "v": [
+    {
+     "f": "1371-09-26",
+     "t": "1395-05-17",
+     "k": "Dejanović Prensliği (Kostadin-ili)",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Doyran",
+   "v": [
+    {
+     "f": "1371-09-26",
+     "t": "1395-05-17",
+     "k": "Dejanović Prensliği (Kostadin-ili)",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Kahul (Cahul)",
+   "v": [
+    {
+     "f": "1456-06-01",
+     "t": "1812-05-28",
+     "k": "Boğdan Voyvodalığı",
+     "statu": "vassal",
+     "kid": "bogdan"
+    },
+    {
+     "f": "1856-03-30",
+     "t": "1878-07-13",
+     "k": "Boğdan Voyvodalığı (Cenûbî Besarabya — Paris Antlaşması'yla Boğdan'a geri verildi, Berlin Antlaşması'yla tekrar Rusya'ya)",
+     "statu": "vassal"
+    }
+   ]
+  },
+  {
+   "ad": "Bolgrad (Bolhrad)",
+   "v": [
+    {
+     "f": "1856-03-30",
+     "t": "1878-07-13",
+     "k": "Boğdan Voyvodalığı (Cenûbî Besarabya — Paris Antlaşması'yla Boğdan'a geri verildi, Berlin Antlaşması'yla tekrar Rusya'ya)",
+     "statu": "vassal"
+    }
+   ]
+  }
+ ]
+}

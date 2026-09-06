@@ -49,7 +49,7 @@ window.YERLESIMLER_EK28 = [
 { ad:"Payas",kaynak:"Belen muharebesi 29 Temmuz 1832 (TDV `ibrahim-pasa-kavalali`) Payas'ın hemen kuzeyindeki geçitte; Adana bölgesi 1833-1840 İbrâhim Paşa'da (TDV `adana`, gövdesi okundu: '1833-1840 yıllarında ... İbrâhim Paşa'nın eline geçmiş, Londra Antlaşması ile de 1841'de tekrar Osmanlı Devleti'ne bağlanmıştır'). Bitiş külliyatın Adana günü.", tur:"kale", lat:36.755, lon:36.213, g:0, k:3, m:"Halep",
   // kaynak: UK Cmd.1556 / LNTS Vol.54 pp.178-193, Ankara İtilâfnâmesi Md.8 (doğrulandı, bkz. yukarı)
   s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet"}],
-  d:[{f:"1516-08-24",t:"1918-10-30"},{f:"1921-10-20",t:"1923-10-29"}], v:[{f:"1832-07-29",t:"1841-02-25",k:"Mısır (İbrâhim Paşa)"}] },
+  d:[{f:"1516-08-24",t:"1918-10-30"},{f:"1921-10-20",t:"1923-10-29"}], v:[{f:"1832-07-29",t:"1841-02-25",k:"Mısır (İbrâhim Paşa)",statu:"vassal",kid:"misir-kavalali"}] },
 
 // ───────── ③ ÇUKUROVA · İskenderun körfezinin KUZEY kıyısı ─────────
 // Kaynak (üçü için): TÜBA "Occupation and Liberation of Adana" (Nejla

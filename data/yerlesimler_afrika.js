@@ -348,96 +348,96 @@ window.YERLESIMLER_AFRIKA = [
 
 { ad:"Benzert (Bizerte)",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"liman", lat:37.276, lon:9.858, g:1, k:3, m:"Tunus",
   s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
-  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29"}] },
+  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}] },
 
 // Tunus'un liman kalesi; 1535-1574 arası İspanyol garnizonu buradaydı.
 { ad:"Halkulvâdî",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"kale", lat:36.823, lon:10.295, g:0, k:4, m:"Tunus",
   s:[{f:"1281-01-01",t:"1535-07-21",d:"hafsi"},{f:"1535-07-21",t:"1574-08-25",d:"ispanya"}],
-  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29"}] },
+  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}] },
 
 { ad:"Mâtir (Mateur)",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:37.040, lon:9.664, g:0, k:4, m:"Tunus",
   s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
-  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29"}] },
+  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}] },
 
 // 1540-1741 arası Cenevizli Lomellini ailesinin mercan imtiyazıyla elinde
 // tuttuğu ada-kale. Bu ara dönem VERİYE YAZILMADI: 1741 devralması için
 // kronoloji maddesi yok, yazılsaydı Değişmez 2'yi açardı.
 { ad:"Tabarka",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"kale", lat:36.954, lon:8.758, g:0, k:4, m:"Tunus",
   s:[{f:"1281-01-01",t:"1544-01-01",d:"hafsi"},{f:"1544-01-01",t:"1741-06-12",d:"ceneviz"}],
-  d:[], v:[{f:"1741-06-12",t:"1923-10-29"}] },
+  d:[], v:[{f:"1741-06-12",t:"1923-10-29",statu:"vassal"}] },
 
 { ad:"Bâce (Béja)",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:36.733, lon:9.183, g:0, k:4, m:"Tunus",
   s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
-  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29"}] },
+  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}] },
 
 { ad:"Cendûbe",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:36.501, lon:8.780, g:0, k:4, m:"Tunus",
   s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
-  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29"}] },
+  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}] },
 
 // Cezayir eyaletiyle sınır bölgesinin merkezi.
 { ad:"Kef",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"kale", lat:36.174, lon:8.705, g:0, k:3, m:"Tunus",
   s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
-  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29"}] },
+  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}] },
 
 { ad:"Nâbil (Nabeul)",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:36.451, lon:10.735, g:0, k:4, m:"Tunus",
   s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
-  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29"}] },
+  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}] },
 
 // Kelîbiye burnu — Sicilya Boğazı'nın Afrika yakasındaki gözcü kalesi.
 { ad:"Kelîbiye",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"kale", lat:36.849, lon:11.094, g:0, k:4, m:"Tunus",
   s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
-  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29"}] },
+  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}] },
 
 { ad:"Zağvân",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:36.402, lon:10.143, g:0, k:4, m:"Tunus",
   s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
-  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29"}] },
+  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}] },
 
 { ad:"Sûse",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"liman", lat:35.826, lon:10.638, g:1, k:3, m:"Tunus",
   s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
-  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29"}] },
+  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}] },
 
 { ad:"Munastır",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"kale", lat:35.778, lon:10.826, g:0, k:4, m:"Tunus",
   s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
-  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29"}] },
+  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}] },
 
 { ad:"Mehdiye",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"liman", lat:35.505, lon:11.062, g:0, k:4, m:"Tunus",
   s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
-  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29"}] },
+  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}] },
 
 { ad:"Kasrayn",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:35.167, lon:8.836, g:0, k:4, m:"Tunus",
   s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
-  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29"}] },
+  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}] },
 
 { ad:"Kafsa",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:34.425, lon:8.784, g:0, k:3, m:"Tunus",
   s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
-  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29"}] },
+  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}] },
 
 // Cerîd vahaları: Tunus eyaletinin çöl kapısı. Bunlar Sahra'nın İÇİ değil,
 // şattların kuzey kıyısındaki hurmalık kasabalardır.
 { ad:"Tozer",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:33.920, lon:8.134, g:0, k:4, m:"Tunus",
   s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
-  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29"}] },
+  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}] },
 
 { ad:"Nefta",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:33.873, lon:7.878, g:0, k:4, m:"Tunus",
   s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
-  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29"}] },
+  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}] },
 
 { ad:"Medenîn",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:33.354, lon:10.505, g:0, k:4, m:"Tunus",
   s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
-  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29"}] },
+  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}] },
 
 { ad:"Tatavin",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:32.930, lon:10.451, g:0, k:4, m:"Tunus",
   s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
-  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29"}] },
+  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}] },
 
 { ad:"Cerciş (Zarzis)",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"liman", lat:33.504, lon:11.112, g:0, k:4, m:"Tunus",
   s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
-  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29"}] },
+  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}] },
 
 // Trablusgarp eyaletiyle sınır kasabası.
 { ad:"Bin Gerdân",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:33.138, lon:11.220, g:0, k:4, m:"Tunus",
   s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
-  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29"}] },
+  d:[{f:"1574-08-25", t:"1705-07-17"}], v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}] },
 
 // ===========================================================================
 // 5) TRABLUSGARP EYALETİ (Trablus, Cebel, Sirte, Bingazi)
@@ -450,46 +450,46 @@ window.YERLESIMLER_AFRIKA = [
 
 { ad:"Zâviye", tur:"sehir", lat:32.757, lon:12.728, g:0, k:4, m:"Trablus",
   s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
-  d:[{f:"1551-08-15", t:"1711-03-01"}, {f:"1835-05-26", t:"1912-10-18"}], v:[{f:"1711-03-01", t:"1835-05-26", k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
+  d:[{f:"1551-08-15", t:"1711-03-01"}, {f:"1835-05-26", t:"1912-10-18"}], v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
 { ad:"Zuvâre", tur:"liman", lat:32.931, lon:12.082, g:0, k:4, m:"Trablus",
   s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
-  d:[{f:"1551-08-15", t:"1711-03-01"}, {f:"1835-05-26", t:"1912-10-18"}], v:[{f:"1711-03-01", t:"1835-05-26", k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
+  d:[{f:"1551-08-15", t:"1711-03-01"}, {f:"1835-05-26", t:"1912-10-18"}], v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
 // Cebelinefûse: Trablus'un güneyindeki dağ sırasının İbâzî kasabaları.
 { ad:"Nâlût", tur:"sehir", lat:31.868, lon:10.983, g:0, k:4, m:"Trablus",
   s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
-  d:[{f:"1551-08-15", t:"1711-03-01"}, {f:"1835-05-26", t:"1912-10-18"}], v:[{f:"1711-03-01", t:"1835-05-26", k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
+  d:[{f:"1551-08-15", t:"1711-03-01"}, {f:"1835-05-26", t:"1912-10-18"}], v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
 { ad:"Yefren", tur:"sehir", lat:32.063, lon:12.529, g:0, k:4, m:"Trablus",
   s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
-  d:[{f:"1551-08-15", t:"1711-03-01"}, {f:"1835-05-26", t:"1912-10-18"}], v:[{f:"1711-03-01", t:"1835-05-26", k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
+  d:[{f:"1551-08-15", t:"1711-03-01"}, {f:"1835-05-26", t:"1912-10-18"}], v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
 { ad:"Garyân", tur:"sehir", lat:32.172, lon:13.020, g:0, k:3, m:"Trablus",
   s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
-  d:[{f:"1551-08-15", t:"1711-03-01"}, {f:"1835-05-26", t:"1912-10-18"}], v:[{f:"1711-03-01", t:"1835-05-26", k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
+  d:[{f:"1551-08-15", t:"1711-03-01"}, {f:"1835-05-26", t:"1912-10-18"}], v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
 // Trablus ile Fizan arasındaki kervan yolunun ilk büyük menzili.
 { ad:"Mızde", tur:"sehir", lat:31.450, lon:12.983, g:0, k:4, m:"Trablus",
   s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
-  d:[{f:"1551-08-15", t:"1711-03-01"}, {f:"1835-05-26", t:"1912-10-18"}], v:[{f:"1711-03-01", t:"1835-05-26", k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
+  d:[{f:"1551-08-15", t:"1711-03-01"}, {f:"1835-05-26", t:"1912-10-18"}], v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
 { ad:"Hums (Lebde)", tur:"liman", lat:32.649, lon:14.262, g:0, k:4, m:"Trablus",
   s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
-  d:[{f:"1551-08-15", t:"1711-03-01"}, {f:"1835-05-26", t:"1912-10-18"}], v:[{f:"1711-03-01", t:"1835-05-26", k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
+  d:[{f:"1551-08-15", t:"1711-03-01"}, {f:"1835-05-26", t:"1912-10-18"}], v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
 { ad:"Zilten", tur:"sehir", lat:32.467, lon:14.568, g:0, k:4, m:"Trablus",
   s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
-  d:[{f:"1551-08-15", t:"1711-03-01"}, {f:"1835-05-26", t:"1912-10-18"}], v:[{f:"1711-03-01", t:"1835-05-26", k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
+  d:[{f:"1551-08-15", t:"1711-03-01"}, {f:"1835-05-26", t:"1912-10-18"}], v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
 { ad:"Benî Velîd", tur:"sehir", lat:31.746, lon:13.983, g:0, k:4, m:"Trablus",
   s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
-  d:[{f:"1551-08-15", t:"1711-03-01"}, {f:"1835-05-26", t:"1912-10-18"}], v:[{f:"1711-03-01", t:"1835-05-26", k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
+  d:[{f:"1551-08-15", t:"1711-03-01"}, {f:"1835-05-26", t:"1912-10-18"}], v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
 // Sirte körfezi: Misrata ile Bingazi arasında 600 km boyunca hiç nokta yoktu.
 { ad:"Sirte", tur:"liman", lat:31.205, lon:16.589, g:0, k:4, m:"Trablus",
   s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
-  d:[{f:"1551-08-15", t:"1711-03-01"}, {f:"1835-05-26", t:"1912-10-18"}], v:[{f:"1711-03-01", t:"1835-05-26", k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
+  d:[{f:"1551-08-15", t:"1711-03-01"}, {f:"1835-05-26", t:"1912-10-18"}], v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
 { ad:"Ecdâbiye", tur:"sehir", lat:30.755, lon:20.225, g:0, k:4, m:"Bingazi",
   s:[{f:"1281-01-01",t:"1517-05-19",d:"memluk"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
@@ -526,106 +526,106 @@ window.YERLESIMLER_AFRIKA = [
 
 { ad:"Blida", tur:"sehir", lat:36.470, lon:2.829, g:0, k:4, m:"Cezayir",
   s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1830-07-05",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1830-07-05", k:"Cezayir Ocaklığı (dayı idaresi)"}] },
+  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"}] },
 
 { ad:"Miliana", tur:"sehir", lat:36.305, lon:2.229, g:0, k:4, m:"Cezayir",
   s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1830-07-05",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1830-07-05", k:"Cezayir Ocaklığı (dayı idaresi)"}] },
+  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"}] },
 
 { ad:"Dellîs", tur:"liman", lat:36.908, lon:3.914, g:0, k:4, m:"Cezayir",
   s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1832-11-22",t:"1844-03-04",d:"abdulkadir"},{f:"1844-03-04",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1830-07-05", k:"Cezayir Ocaklığı (dayı idaresi)"},{f:"1830-07-05", t:"1832-11-22", k:"Osmanlı hükümranlık iddiası (ocaklık lağvedildi)"}] },
+  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1832-11-22",k:"Osmanlı hükümranlık iddiası (ocaklık lağvedildi)",statu:"vassal"}] },
 
 // Gerçek işgal 1843 (Ténès) — 1844-03-04'e yuvarlandı.
 { ad:"Tenes", tur:"liman", lat:36.507, lon:1.307, g:0, k:4, m:"Cezayir",
   s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1832-11-22",t:"1843-01-01",d:"abdulkadir"},{f:"1843-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1830-07-05", k:"Cezayir Ocaklığı (dayı idaresi)"},{f:"1830-07-05", t:"1832-11-22", k:"Osmanlı hükümranlık iddiası (ocaklık lağvedildi)"}] },
+  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1832-11-22",k:"Osmanlı hükümranlık iddiası (ocaklık lağvedildi)",statu:"vassal"}] },
 
 // Gerçek işgal 1843 (Şelif vadisi) — 1844-03-04'e yuvarlandı.
 { ad:"Şelif", tur:"sehir", lat:36.165, lon:1.334, g:0, k:4, m:"Cezayir",
   s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1832-11-22",t:"1843-01-01",d:"abdulkadir"},{f:"1843-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1830-07-05", k:"Cezayir Ocaklığı (dayı idaresi)"},{f:"1830-07-05", t:"1832-11-22", k:"Osmanlı hükümranlık iddiası (ocaklık lağvedildi)"}] },
+  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1832-11-22",k:"Osmanlı hükümranlık iddiası (ocaklık lağvedildi)",statu:"vassal"}] },
 
 // General Desmichels 28 Temmuz 1833'te girdi; Hünkâr İskelesi maddesine 20 gün.
 { ad:"Mustagānim", tur:"liman", lat:35.931, lon:0.089, g:0, k:3, m:"Cezayir",
   s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},{f:"1832-11-22",t:"1833-07-28",d:"abdulkadir"},{f:"1833-07-28",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1552-01-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1830-07-05", k:"Cezayir Ocaklığı (dayı idaresi)"},{f:"1830-07-05", t:"1832-11-22", k:"Osmanlı hükümranlık iddiası (ocaklık lağvedildi)"}] },
+  d:[{f:"1552-01-01", t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1832-11-22",k:"Osmanlı hükümranlık iddiası (ocaklık lağvedildi)",statu:"vassal"}] },
 
 // Abdülkādir el-Cezâirî'nin ilk merkezi. Gerçek düşüş 1841-05 — 1844-03-04'e
 // yuvarlandı.
 { ad:"Muaskar", tur:"sehir", lat:35.396, lon:0.140, g:0, k:4, m:"Cezayir",
   s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},{f:"1832-11-22",t:"1841-01-01",d:"abdulkadir"},{f:"1841-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1552-01-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1830-07-05", k:"Cezayir Ocaklığı (dayı idaresi)"},{f:"1830-07-05", t:"1832-11-22", k:"Osmanlı hükümranlık iddiası (ocaklık lağvedildi)"}] },
+  d:[{f:"1552-01-01", t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1832-11-22",k:"Osmanlı hükümranlık iddiası (ocaklık lağvedildi)",statu:"vassal"}] },
 
 { ad:"Sîdî Bel Abbès", tur:"sehir", lat:35.194, lon:-0.641, g:0, k:4, m:"Cezayir",
   s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},{f:"1832-11-22",t:"1843-06-12",d:"abdulkadir"},{f:"1843-06-12",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1552-01-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1830-07-05", k:"Cezayir Ocaklığı (dayı idaresi)"},{f:"1830-07-05", t:"1832-11-22", k:"Osmanlı hükümranlık iddiası (ocaklık lağvedildi)"}] },
+  d:[{f:"1552-01-01", t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1832-11-22",k:"Osmanlı hükümranlık iddiası (ocaklık lağvedildi)",statu:"vassal"}] },
 
 { ad:"Ayn Temûşent", tur:"sehir", lat:35.298, lon:-1.140, g:0, k:4, m:"Cezayir",
   s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},{f:"1832-11-22",t:"1844-03-04",d:"abdulkadir"},{f:"1844-03-04",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1552-01-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1830-07-05", k:"Cezayir Ocaklığı (dayı idaresi)"},{f:"1830-07-05", t:"1832-11-22", k:"Osmanlı hükümranlık iddiası (ocaklık lağvedildi)"}] },
+  d:[{f:"1552-01-01", t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1832-11-22",k:"Osmanlı hükümranlık iddiası (ocaklık lağvedildi)",statu:"vassal"}] },
 
 // Fas sınırına en yakın Osmanlı kasabası; iki devlet arasındaki sınır burada
 // tanımlanır.
 { ad:"Nedrûme", tur:"sehir", lat:35.010, lon:-1.747, g:0, k:4, m:"Cezayir",
   s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},{f:"1832-11-22",t:"1844-01-01",d:"abdulkadir"},{f:"1844-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1552-01-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1830-07-05", k:"Cezayir Ocaklığı (dayı idaresi)"},{f:"1830-07-05", t:"1832-11-22", k:"Osmanlı hükümranlık iddiası (ocaklık lağvedildi)"}] },
+  d:[{f:"1552-01-01", t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1832-11-22",k:"Osmanlı hükümranlık iddiası (ocaklık lağvedildi)",statu:"vassal"}] },
 
 // Fransızlar 13 Mayıs 1839'da girdi; Fırat geçişi maddesine 22 gün.
 { ad:"Cicel", tur:"liman", lat:36.821, lon:5.766, g:0, k:4, m:"Cezayir",
   s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1839-05-13",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1830-07-05", k:"Cezayir Ocaklığı (dayı idaresi)"},{f:"1830-07-05", t:"1839-05-13", k:"Ahmed Bey'in Konstantin beyliği"}] },
+  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1839-05-13",k:"Ahmed Bey'in Konstantin beyliği",statu:"vassal"}] },
 
 { ad:"Kolo", tur:"liman", lat:37.000, lon:6.564, g:0, k:4, m:"Cezayir",
   s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1838-10-13",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1830-07-05", k:"Cezayir Ocaklığı (dayı idaresi)"},{f:"1830-07-05", t:"1838-10-13", k:"Ahmed Bey'in Konstantin beyliği"}] },
+  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1838-10-13",k:"Ahmed Bey'in Konstantin beyliği",statu:"vassal"}] },
 
 { ad:"Sikikde", tur:"liman", lat:36.876, lon:6.909, g:0, k:4, m:"Cezayir",
   s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1838-10-13",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1830-07-05", k:"Cezayir Ocaklığı (dayı idaresi)"},{f:"1830-07-05", t:"1838-10-13", k:"Ahmed Bey'in Konstantin beyliği"}] },
+  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1838-10-13",k:"Ahmed Bey'in Konstantin beyliği",statu:"vassal"}] },
 
 { ad:"Mîle", tur:"sehir", lat:36.450, lon:6.264, g:0, k:4, m:"Cezayir",
   s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1837-10-13",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1830-07-05", k:"Cezayir Ocaklığı (dayı idaresi)"},{f:"1830-07-05", t:"1837-10-13", k:"Ahmed Bey'in Konstantin beyliği"}] },
+  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1837-10-13",k:"Ahmed Bey'in Konstantin beyliği",statu:"vassal"}] },
 
 { ad:"Kalme (Guelma)", tur:"sehir", lat:36.462, lon:7.426, g:0, k:4, m:"Cezayir",
   s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1837-10-13",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1830-07-05", k:"Cezayir Ocaklığı (dayı idaresi)"},{f:"1830-07-05", t:"1837-10-13", k:"Ahmed Bey'in Konstantin beyliği"}] },
+  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1837-10-13",k:"Ahmed Bey'in Konstantin beyliği",statu:"vassal"}] },
 
 { ad:"Sûk Ahrâs", tur:"sehir", lat:36.286, lon:7.951, g:0, k:4, m:"Cezayir",
   s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1844-03-04",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1830-07-05", k:"Cezayir Ocaklığı (dayı idaresi)"},{f:"1830-07-05", t:"1844-03-04", k:"Ahmed Bey'in Konstantin beyliği"}] },
+  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1844-03-04",k:"Ahmed Bey'in Konstantin beyliği",statu:"vassal"}] },
 
 { ad:"Tebesse", tur:"sehir", lat:35.404, lon:8.124, g:0, k:4, m:"Cezayir",
   s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1844-03-04",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1830-07-05", k:"Cezayir Ocaklığı (dayı idaresi)"},{f:"1830-07-05", t:"1844-03-04", k:"Ahmed Bey'in Konstantin beyliği"}] },
+  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1844-03-04",k:"Ahmed Bey'in Konstantin beyliği",statu:"vassal"}] },
 
 { ad:"Batna", tur:"sehir", lat:35.556, lon:6.178, g:0, k:4, m:"Cezayir",
   s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1844-03-04",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1830-07-05", k:"Cezayir Ocaklığı (dayı idaresi)"},{f:"1830-07-05", t:"1844-03-04", k:"Ahmed Bey'in Konstantin beyliği"}] },
+  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1844-03-04",k:"Ahmed Bey'in Konstantin beyliği",statu:"vassal"}] },
 
 { ad:"Berc Bû Areric", tur:"sehir", lat:36.073, lon:4.761, g:0, k:4, m:"Cezayir",
   s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1838-10-13",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1830-07-05", k:"Cezayir Ocaklığı (dayı idaresi)"},{f:"1830-07-05", t:"1838-10-13", k:"Ahmed Bey'in Konstantin beyliği"}] },
+  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1838-10-13",k:"Ahmed Bey'in Konstantin beyliği",statu:"vassal"}] },
 
 { ad:"Mesîle", tur:"sehir", lat:35.705, lon:4.542, g:0, k:4, m:"Cezayir",
   s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},{f:"1832-11-22",t:"1844-03-04",d:"abdulkadir"},{f:"1844-03-04",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1830-07-05", k:"Cezayir Ocaklığı (dayı idaresi)"},{f:"1830-07-05", t:"1832-11-22", k:"Osmanlı hükümranlık iddiası (ocaklık lağvedildi)"}] },
+  d:[{f:"1519-09-01", t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1832-11-22",k:"Osmanlı hükümranlık iddiası (ocaklık lağvedildi)",statu:"vassal"}] },
 
 { ad:"Bû Sa'âde", tur:"sehir", lat:35.212, lon:4.177, g:0, k:4, m:"Cezayir",
   s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},{f:"1832-11-22",t:"1844-03-04",d:"abdulkadir"},{f:"1844-03-04",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1552-01-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1830-07-05", k:"Cezayir Ocaklığı (dayı idaresi)"},{f:"1830-07-05", t:"1832-11-22", k:"Osmanlı hükümranlık iddiası (ocaklık lağvedildi)"}] },
+  d:[{f:"1552-01-01", t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1832-11-22",k:"Osmanlı hükümranlık iddiası (ocaklık lağvedildi)",statu:"vassal"}] },
 
 // Sahra'nın kuzey eşiğindeki iki vaha kasabası. Gerçek düşüşleri 1852-12-04
 // (Ağvât) ve 1882 (Mîzâb) — ikisi de Tuggurt kırılmasına (1854-12-02)
 // yuvarlandı; başka kapsanan tarih yok.
 { ad:"Ağvât", tur:"sehir", lat:33.800, lon:2.865, g:0, k:4, m:"Cezayir",
   s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},{f:"1852-12-04",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1552-01-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1830-07-05", k:"Cezayir Ocaklığı (dayı idaresi)"},{f:"1830-07-05", t:"1852-12-04", k:"Sahra vahalarının özerk idaresi"}] },
+  d:[{f:"1552-01-01", t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1852-12-04",k:"Sahra vahalarının özerk idaresi",statu:"vassal"}] },
 
 { ad:"Gardâye", tur:"sehir", lat:32.490, lon:3.673, g:0, k:4, m:"Cezayir",
   s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},{f:"1852-12-04",t:"1923-10-29",d:"fransa-cumhuriyet"}],
-  d:[{f:"1552-01-01", t:"1671-01-01"}], v:[{f:"1671-01-01", t:"1830-07-05", k:"Cezayir Ocaklığı (dayı idaresi)"},{f:"1830-07-05", t:"1852-12-04", k:"Sahra vahalarının özerk idaresi"}] },
+  d:[{f:"1552-01-01", t:"1671-01-01"}], v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1852-12-04",k:"Sahra vahalarının özerk idaresi",statu:"vassal"}] },
 
 // ===========================================================================
 // 7) HABEŞ EYALETİ ve KIZILDENİZ'İN BATI KIYISI
@@ -835,67 +835,67 @@ window.YERLESIMLER_AFRIKA = [
 
 { ad:"Kerma", tur:"sehir", lat:19.600, lon:30.410, g:0, k:4, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)"}], d:[] },
+  v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 { ad:"Debbe", tur:"sehir", lat:18.056, lon:30.951, g:0, k:4, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)"}], d:[] },
+  v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Nil'in büyük kıvrımı; Kerîme (Karima) ve eski Napata bölgesi.
 { ad:"Merevî", tur:"sehir", lat:18.550, lon:31.850, g:0, k:4, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)"}], d:[] },
+  v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 { ad:"Ebû Hamed", tur:"sehir", lat:19.535, lon:33.319, g:0, k:4, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)"}], d:[] },
+  v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Nil ile Sevâkin arasındaki kervan yolunun düğüm noktası.
 { ad:"Berber", tur:"sehir", lat:18.017, lon:33.983, g:0, k:3, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1884-05-01",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-01-04",t:"1884-05-01",k:"Mısır (Kavalalı)"}], d:[] },
+  v:[{f:"1821-01-04",t:"1884-05-01",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // İsmâil Paşa'nın 1822'de yakılarak öldürüldüğü yer (kronolojide maddesi var).
 { ad:"Şendî", tur:"sehir", lat:16.691, lon:33.433, g:0, k:3, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)"}], d:[] },
+  v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 { ad:"Vad Medenî", tur:"sehir", lat:14.401, lon:33.519, g:0, k:3, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)"}], d:[] },
+  v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 { ad:"Ed-Düveym", tur:"sehir", lat:13.995, lon:32.334, g:0, k:4, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)"}], d:[] },
+  v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 { ad:"Kosti", tur:"sehir", lat:13.170, lon:32.663, g:0, k:4, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)"}], d:[] },
+  v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 { ad:"Kadârif", tur:"sehir", lat:14.036, lon:35.383, g:0, k:4, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)"}], d:[] },
+  v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Rusayris ve Fâzûğlî: Func Sultanlığı'nın Mavi Nil boyundaki güney ucu.
 { ad:"Rusayris", tur:"sehir", lat:11.861, lon:34.386, g:0, k:4, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)"}], d:[] },
+  v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 { ad:"Fâzûğlî", tur:"sehir", lat:11.267, lon:34.783, g:0, k:4, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)"}], d:[] },
+  v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Kordofan: mevcut Ubeyyid kaydıyla aynı gün (1821-08-19).
 { ad:"Bâra", tur:"sehir", lat:13.700, lon:30.367, g:0, k:4, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-01",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-08-19",t:"1882-09-01",k:"Mısır (Kavalalı)"}], d:[] },
+  v:[{f:"1821-08-19",t:"1882-09-01",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Batı Kordofan — Darfur ile Sennâr arasındaki tartışmalı kuşak. Darfur
 // kimliği olmadığı için Kordofan zinciriyle yazıldı; kimlik gelince
 // 1821 öncesi yeniden değerlendirilmeli.
 { ad:"Nühûd", tur:"sehir", lat:12.700, lon:28.433, g:0, k:4, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1785-01-01",d:"funj"},{f:"1785-01-01",t:"1821-08-19",d:"darfur"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  d:[], v:[{f:"1821-08-19",t:"1885-01-26",k:"Mısır (Kavalalı)"}] },
+  d:[], v:[{f:"1821-08-19",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}] },
 
 // Taka bölgesi 1840'ta Kavalalı Mısır'ı tarafından alındı ve Kesela şehri o
 // yıl askerî karargâh olarak kuruldu (Ahmed Paşa Ebû Vidân dönemi). YIL
@@ -904,7 +904,7 @@ window.YERLESIMLER_AFRIKA = [
 // Gerçek gün bulunduğunda düzeltilmeli.
 { ad:"Kesela", tur:"sehir", lat:15.451, lon:36.400, g:0, k:3, m:"Hartum", kur:"1840-01-01",
   s:[{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1840-01-01",t:"1885-01-26",k:"Mısır (Kavalalı)"}], d:[] },
+  v:[{f:"1840-01-01",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 
 // ===========================================================================
@@ -923,7 +923,7 @@ window.YERLESIMLER_AFRIKA = [
 { ad:"Ğadâmis", tur:"sehir", lat:30.133, lon:9.500, g:0, k:4, m:"Trablus",
   s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],
   d:[{f:"1551-08-15",t:"1711-03-01"},{f:"1835-05-26",t:"1912-10-18"}],
-  v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
+  v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
 // Fizan'ın batı ucu; zincir mevcut Murzuk kaydıyla birebir (1577 tâbiiyeti).
 { ad:"Gât",kaynak:"fizan", tur:"sehir", lat:24.964, lon:10.180, g:0, k:4, m:"Murzuk (Fizan)",
@@ -957,7 +957,7 @@ window.YERLESIMLER_AFRIKA = [
 
 { ad:"El-Fâşir", tur:"sehir", lat:13.630, lon:25.349, g:1, k:1,
   s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
-  d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)"}] },
+  d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}] },
 
 { ad:"Nyala",neden:"k:4, m:— idi.",kaynak:"TDV `darfur` — \"Merkezi Fâşir şehridir\"; kasaba taneciğinde TDV susuyor (TANECİKLİK boşluğu), s:/v: dizisi El-Fâşir'le birebir",m:"El-Fâşir", tur:"sehir", lat:12.048, lon:24.882, g:0, k:4,
   s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],

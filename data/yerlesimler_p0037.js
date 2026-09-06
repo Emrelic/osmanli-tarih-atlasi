@@ -46,13 +46,13 @@ window.YERLESIMLER_P0037 = [
 // ───── H-0001 · Cenûbî Besarabya ─────
 { ad:"Kahul (Cahul)", tur:"sehir", lat:45.905, lon:28.198, g:0, k:4, m:"Yaş",
   s:[{f:"1281-01-01",t:"1456-06-01",d:"bogdan"},{f:"1812-05-28",t:"1856-03-30",d:"rusya"},{f:"1878-07-13",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
-  v:[{f:"1456-06-01",t:"1812-05-28",k:"Boğdan Voyvodalığı"},{f:"1856-03-30",t:"1878-07-13",k:"Boğdan Voyvodalığı (Cenûbî Besarabya — Paris Antlaşması'yla Boğdan'a geri verildi, Berlin Antlaşması'yla tekrar Rusya'ya)"}],
+  v:[{f:"1456-06-01",t:"1812-05-28",k:"Boğdan Voyvodalığı",statu:"vassal",kid:"bogdan"},{f:"1856-03-30",t:"1878-07-13",k:"Boğdan Voyvodalığı (Cenûbî Besarabya — Paris Antlaşması'yla Boğdan'a geri verildi, Berlin Antlaşması'yla tekrar Rusya'ya)",statu:"vassal"}],
   d:[],
   kaynak:"TDV `bogdan` (gövdesi okundu): '1812 Bükreş Antlaşması gereğince Boğdan'ın doğu kısmı ... Rusya'ya bırakıldı' · 'Paris Antlaşması ile sonuçlanan Kırım Harbi'nden sonra Rusya Kahul (Cahul), İsmâil Kalesi ve Bolgrad'ı Boğdan'a geri verdi' · 'Berlin Antlaşması ile Besarabya'nın üç vilâyeti tekrar Rusya'ya verilmiş'. 1456-1812 Boğdan tâbiliği: İsmail kaydının deseni; Kahul Bucak rayasına girmedi (Bucak sınırının kuzeyi), bu kısım genel akademik/coğrafî bilgi. Koordinat: coğrafî bilgi. TDV `kahul` 302 (müstakil madde yok)." },
 
 { ad:"Bolgrad (Bolhrad)", tur:"sehir", lat:45.681, lon:28.613, g:0, k:4, m:"Yaş", kur:"1821-01-01",
   s:[{f:"1821-01-01",t:"1856-03-30",d:"rusya"},{f:"1878-07-13",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
-  v:[{f:"1856-03-30",t:"1878-07-13",k:"Boğdan Voyvodalığı (Cenûbî Besarabya — Paris Antlaşması'yla Boğdan'a geri verildi, Berlin Antlaşması'yla tekrar Rusya'ya)"}],
+  v:[{f:"1856-03-30",t:"1878-07-13",k:"Boğdan Voyvodalığı (Cenûbî Besarabya — Paris Antlaşması'yla Boğdan'a geri verildi, Berlin Antlaşması'yla tekrar Rusya'ya)",statu:"vassal"}],
   d:[],
   kaynak:"TDV `bogdan` (gövdesi okundu): 1856 iadesi ve 1878 geri alınışı Bolgrad'ı ADIYLA sayıyor. Kuruluş 1821 (Rus idaresinde Bulgar göçmen kolonisi): TDV `bolgrad` 302, Encyclopedia of Ukraine sayfası BULUNAMADI — yıl genel akademik/coğrafî bilgi, DOĞRULANMADI; `kur:` alanı bu yüzden yuvarlak (1821-01-01). Koordinat: coğrafî bilgi." },
 

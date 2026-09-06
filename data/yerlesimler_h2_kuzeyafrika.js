@@ -205,16 +205,14 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
     s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},
        {f:"1857-07-11",t:"1923-10-29",d:"fransa-cumhuriyet"}],
     d:[{f:"1519-09-01",t:"1671-01-01"}],
-    v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)"},
-       {f:"1830-07-05",t:"1857-07-11",k:"Kabiliye'nin fiilî özerkliği"}] },
+    v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1857-07-11",k:"Kabiliye'nin fiilî özerkliği",statu:"vassal"}] },
 
   // Kal'a-i Benî Abbâs'ın (Ait Abbas) bölgesi.
   { ad:"Akbû (Benî Abbâs)", tur:"kale", lat:36.457, lon:4.531, g:0, k:4, m:"Cezayir",
     s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},
        {f:"1857-07-11",t:"1923-10-29",d:"fransa-cumhuriyet"}],
     d:[{f:"1519-09-01",t:"1671-01-01"}],
-    v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)"},
-       {f:"1830-07-05",t:"1857-07-11",k:"Kabiliye'nin fiilî özerkliği"}] },
+    v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1857-07-11",k:"Kabiliye'nin fiilî özerkliği",statu:"vassal"}] },
 
   // TDV `tahert`. Emîr Abdülkādir'in Tekdemt'teki merkezi buradaydı;
   // Bugeaud'nun 1841 Mayıs seferinde Tekdemt ve Muaskar birlikte düştü —
@@ -224,8 +222,7 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
        {f:"1832-11-22",t:"1841-01-01",d:"abdulkadir"},
        {f:"1841-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
     d:[{f:"1552-01-01",t:"1671-01-01"}],
-    v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)"},
-       {f:"1830-07-05",t:"1832-11-22",k:"Osmanlı hükümranlık iddiası (ocaklık lağvedildi)"}] },
+    v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1832-11-22",k:"Osmanlı hükümranlık iddiası (ocaklık lağvedildi)",statu:"vassal"}] },
 
   // Evlâd Nâil bozkırı — Medea (36,264) ile Ağvât (33,800) arasındaki
   // 274 km'lik boşluğun ortası. Ağvât 4 Aralık 1852'de alındığı seferin
@@ -234,8 +231,7 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
     s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},
        {f:"1852-12-04",t:"1923-10-29",d:"fransa-cumhuriyet"}],
     d:[{f:"1519-09-01",t:"1671-01-01"}],
-    v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)"},
-       {f:"1830-07-05",t:"1852-12-04",k:"Sahra vahalarının özerk idaresi"}] },
+    v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1852-12-04",k:"Sahra vahalarının özerk idaresi",statu:"vassal"}] },
 
   // Vargla 23 Kasım 1854'te işgal edildi (Şerîf'in direnişinin sonu).
   // ⚠️ YENİ TARİH — kaynaklarda 1852/1853/1854/1872 varyantları dolaşıyor;
@@ -245,8 +241,7 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
     s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},
        {f:"1854-11-23",t:"1923-10-29",d:"fransa-cumhuriyet"}],
     d:[{f:"1552-01-01",t:"1671-01-01"}],
-    v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)"},
-       {f:"1830-07-05",t:"1854-11-23",k:"Sahra vahalarının özerk idaresi"}] },
+    v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1854-11-23",k:"Sahra vahalarının özerk idaresi",statu:"vassal"}] },
 
   // Sûf vahaları — Tuggurt ile birlikte aynı seferde (Aralık 1854) boyun
   // eğdi, o yüzden Tuggurt'un kayıtlı tarihini paylaşır: YENİ TARİH YOK.
@@ -254,23 +249,20 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
     s:[{f:"1281-01-01",t:"1552-01-01",d:"zeyyani"},
        {f:"1854-12-02",t:"1923-10-29",d:"fransa-cumhuriyet"}],
     d:[{f:"1552-01-01",t:"1671-01-01"}],
-    v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)"},
-       {f:"1830-07-05",t:"1854-12-02",k:"Sahra vahalarının özerk idaresi"}] },
+    v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1854-12-02",k:"Sahra vahalarının özerk idaresi",statu:"vassal"}] },
 
   // Evrâs (Aurès) dağları — Batna ile Tebesse'nin 1844-03-04 kümesinde.
   { ad:"Hanşele (Khenchela)", tur:"sehir", lat:35.436, lon:7.144, g:0, k:4, m:"Cezayir",
     s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},
        {f:"1844-03-04",t:"1923-10-29",d:"fransa-cumhuriyet"}],
     d:[{f:"1519-09-01",t:"1671-01-01"}],
-    v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)"},
-       {f:"1830-07-05",t:"1844-03-04",k:"Ahmed Bey'in Konstantin beyliği"}] },
+    v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1844-03-04",k:"Ahmed Bey'in Konstantin beyliği",statu:"vassal"}] },
 
   { ad:"Aynı Beydâ", tur:"sehir", lat:35.796, lon:7.393, g:0, k:4, m:"Cezayir",
     s:[{f:"1281-01-01",t:"1519-09-01",d:"zeyyani"},
        {f:"1844-03-04",t:"1923-10-29",d:"fransa-cumhuriyet"}],
     d:[{f:"1519-09-01",t:"1671-01-01"}],
-    v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)"},
-       {f:"1830-07-05",t:"1844-03-04",k:"Ahmed Bey'in Konstantin beyliği"}] },
+    v:[{f:"1671-01-01",t:"1830-07-05",k:"Cezayir Ocaklığı (dayı idaresi)",statu:"vassal",kid:"cezayir-ocagi"},{f:"1830-07-05",t:"1844-03-04",k:"Ahmed Bey'in Konstantin beyliği",statu:"vassal"}] },
 
   // --- TUVÂT · GÛRÂRE · TÎDÎKELT · SÂVRE -------------------------------
   // 🔴 BU DÖRT VAHA KÜMESİ OSMANLI DEĞİL, FAS EGEMENLİĞİNDEYDİ ve bugün
@@ -324,49 +316,49 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
   { ad:"Ğâru'l-Melh (Porto Farina)",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"liman", lat:37.177, lon:10.191, g:0, k:4, m:"Tunus",
     s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
     d:[{f:"1574-08-25",t:"1705-07-17"}],
-    v:[{f:"1705-07-17",t:"1923-10-29"}] },
+    v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}] },
 
   // 1609 Endülüs sürgünlerinin kurduğu Mecerde vadisi kasabası.
   { ad:"Testûr",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:36.556, lon:9.442, g:0, k:4, m:"Tunus",
     s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
     d:[{f:"1574-08-25",t:"1705-07-17"}],
-    v:[{f:"1705-07-17",t:"1923-10-29"}] },
+    v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}] },
 
   { ad:"Ğar Dimâv",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:36.450, lon:8.435, g:0, k:4, m:"Tunus",
     s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
     d:[{f:"1574-08-25",t:"1705-07-17"}],
-    v:[{f:"1705-07-17",t:"1923-10-29"}] },
+    v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}] },
 
   { ad:"Mekter (Maktar)",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:35.855, lon:9.203, g:0, k:4, m:"Tunus",
     s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
     d:[{f:"1574-08-25",t:"1705-07-17"}],
-    v:[{f:"1705-07-17",t:"1923-10-29"}] },
+    v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}] },
 
   { ad:"Sübaytıla",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:35.235, lon:9.120, g:0, k:4, m:"Tunus",
     s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
     d:[{f:"1574-08-25",t:"1705-07-17"}],
-    v:[{f:"1705-07-17",t:"1923-10-29"}] },
+    v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}] },
 
   { ad:"Sîdî Bû Zeyd",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:35.038, lon:9.485, g:0, k:4, m:"Tunus",
     s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
     d:[{f:"1574-08-25",t:"1705-07-17"}],
-    v:[{f:"1705-07-17",t:"1923-10-29"}] },
+    v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}] },
 
   { ad:"Metlâvî",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:34.320, lon:8.400, g:0, k:4, m:"Tunus",
     s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
     d:[{f:"1574-08-25",t:"1705-07-17"}],
-    v:[{f:"1705-07-17",t:"1923-10-29"}] },
+    v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}] },
 
   // Nefzâve vahaları — Şott el-Cerîd'in güney kıyısı, noktasızdı.
   { ad:"Kıbillî (Nefzâve)",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:33.704, lon:8.969, g:0, k:4, m:"Tunus",
     s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
     d:[{f:"1574-08-25",t:"1705-07-17"}],
-    v:[{f:"1705-07-17",t:"1923-10-29"}] },
+    v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}] },
 
   { ad:"Dûz",kaynak:"tunus",isg:[{f:"1881-05-12",t:"1923-10-29",d:"fransa-cumhuriyet"}], tur:"sehir", lat:33.466, lon:9.020, g:0, k:4, m:"Tunus",
     s:[{f:"1281-01-01",t:"1574-08-25",d:"hafsi"}],
     d:[{f:"1574-08-25",t:"1705-07-17"}],
-    v:[{f:"1705-07-17",t:"1923-10-29"}] },
+    v:[{f:"1705-07-17",t:"1923-10-29",statu:"vassal"}] },
 
 
   // ---------------------------------------------------------------------
@@ -379,32 +371,32 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
     s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},
        {f:"1912-10-18",t:"1923-10-29",d:"italya"}],
     d:[{f:"1551-08-15",t:"1711-03-01"},{f:"1835-05-26",t:"1912-10-18"}],
-    v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
+    v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
   // Cebelinefûse'nin batı ucu — TDV `nefuse`.
   { ad:"Kabâv (Nefûse)", tur:"sehir", lat:31.941, lon:12.036, g:0, k:4, m:"Trablus",
     s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},
        {f:"1912-10-18",t:"1923-10-29",d:"italya"}],
     d:[{f:"1551-08-15",t:"1711-03-01"},{f:"1835-05-26",t:"1912-10-18"}],
-    v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
+    v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
   { ad:"Sinâvin", tur:"sehir", lat:31.007, lon:10.616, g:0, k:4, m:"Trablus",
     s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},
        {f:"1912-10-18",t:"1923-10-29",d:"italya"}],
     d:[{f:"1551-08-15",t:"1711-03-01"},{f:"1835-05-26",t:"1912-10-18"}],
-    v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
+    v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
   { ad:"Derc (Derj)", tur:"sehir", lat:30.155, lon:10.442, g:0, k:4, m:"Trablus",
     s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},
        {f:"1912-10-18",t:"1923-10-29",d:"italya"}],
     d:[{f:"1551-08-15",t:"1711-03-01"},{f:"1835-05-26",t:"1912-10-18"}],
-    v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
+    v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
   { ad:"Tâverğa", tur:"sehir", lat:32.005, lon:15.055, g:0, k:4, m:"Trablus",
     s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},
        {f:"1912-10-18",t:"1923-10-29",d:"italya"}],
     d:[{f:"1551-08-15",t:"1711-03-01"},{f:"1835-05-26",t:"1912-10-18"}],
-    v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
+    v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
   // Cufre vahaları — Sokna'nın (29,070/15,792) doğu komşusu.
   { ad:"Vaddân (Cufre)",kaynak:"fizan", tur:"sehir", lat:29.161, lon:16.139, g:0, k:4, m:"Trablus",
@@ -423,7 +415,7 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
     s:[{f:"1281-01-01",t:"1551-08-15",d:"hafsi"},
        {f:"1912-10-18",t:"1923-10-29",d:"italya"}],
     d:[{f:"1551-08-15",t:"1711-03-01"},{f:"1835-05-26",t:"1912-10-18"}],
-    v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)"}] },
+    v:[{f:"1711-03-01",t:"1835-05-26",k:"Trablusgarp Ocaklığı (Karamanlılar)",statu:"vassal",kid:"trablusgarp-ocagi"}] },
 
   { ad:"Merâde",kaynak:"fizan", tur:"bolge", lat:29.230, lon:19.213, g:0, k:4, m:"Bingazi",
     s:[{f:"1281-01-01",t:"1577-01-01",d:"kanem-bornu"},{f:"1912-10-18",t:"1923-10-29",d:"italya"}],

@@ -109,27 +109,27 @@ window.YERLESIMLER_H2_AFRIKA = [
 // Vâdî Halfâ arasında 245 km boyunca tek nokta yoktu.
 { ad:"Delgo (Sükkût)", tur:"sehir", lat:20.126, lon:30.548, g:0, k:4, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)"}], d:[] },
+  v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Mahas bölgesi; Nûbe'nin İkinci Şelâle'ye bakan kuzey ucu.
 { ad:"Abrî (Mahas)", tur:"sehir", lat:20.803, lon:30.352, g:0, k:4, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)"}], d:[] },
+  v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Nil'in büyük kıvrımının batı ucu — Debbe ile Merevî arasındaki eyer.
 { ad:"Kortî", tur:"sehir", lat:18.100, lon:31.567, g:0, k:4, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)"}], d:[] },
+  v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Atbara ile Nil'in birleştiği yer; Mecâzîb şeyhliğinin merkeziydi.
 { ad:"Ed-Dâmer", tur:"sehir", lat:17.598, lon:33.966, g:0, k:4, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)"}], d:[] },
+  v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Eski Meroe (Begravviye) piramitleri; Şendî ile Ed-Dâmer arasındaki halka.
 { ad:"Kabûşiyye", tur:"sehir", lat:16.883, lon:33.750, g:0, k:4, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)"}], d:[] },
+  v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // 🔴 MEHDÎ DEVLETİ'NİN BAŞKENTİ — ve atlasta HİÇ YOKTU.
 // TDV `muhammed-ahmed-el-mehdi`: Hartum 26 Ocak 1885'te düştükten sonra
@@ -140,7 +140,7 @@ window.YERLESIMLER_H2_AFRIKA = [
 // 📌 `ek6`daki Çerkask vakasının aynısı: künyede yazılı BAŞKENT, haritada yok.
 { ad:"Ümmü Dermân", tur:"sehir", lat:15.645, lon:32.477, g:1, k:3, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)"}], d:[] },
+  v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // ===========================================================================
 // 2) SUDAN — MAVİ NİL ve CEZÎRE (Sennâr kolu, 1821-06-14)
@@ -153,31 +153,31 @@ window.YERLESIMLER_H2_AFRIKA = [
 // Mavi Nil boyunda Sennâr ile Vad Medenî arasındaki eyer.
 { ad:"Sincâ", tur:"sehir", lat:13.145, lon:33.932, g:0, k:4, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)"}], d:[] },
+  v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // TDV `muhammed-ahmed-el-mehdi` maddesinde adı geçen Müsellemiyye.
 { ad:"Müsellemiyye", tur:"sehir", lat:14.400, lon:33.325, g:0, k:4, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)"}], d:[] },
+  v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 { ad:"Rufâa", tur:"sehir", lat:14.767, lon:33.367, g:0, k:4, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)"}], d:[] },
+  v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Beyaz Nil'in sol yakası — Ed-Düveym ile Kosti arasındaki eski Kavâ.
 { ad:"El-Kavâ", tur:"sehir", lat:13.740, lon:32.500, g:0, k:4, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)"}], d:[] },
+  v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Beyaz Nil'in Kosti'den güneye uzanan kolu; Func'un güney sınır kuşağı.
 { ad:"Cebeleyn", tur:"sehir", lat:12.598, lon:32.816, g:0, k:4, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)"}], d:[] },
+  v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Mavi Nil'in Habeşistan sınırındaki güney ucu; Fâzûğlî'nin devamı.
 { ad:"Kurmuk", tur:"sehir", lat:10.830, lon:34.283, g:0, k:4, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)"}], d:[] },
+  v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // ===========================================================================
 // 3) SUDAN — KORDOFAN (1821-08-19 / Mehdî 1882-09-07)
@@ -193,48 +193,48 @@ window.YERLESIMLER_H2_AFRIKA = [
 
 { ad:"Er-Rahad", tur:"sehir", lat:12.712, lon:30.648, g:0, k:4, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)"}], d:[] },
+  v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 { ad:"Ümmü Rüvâbe", tur:"sehir", lat:12.903, lon:31.217, g:0, k:4, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)"}], d:[] },
+  v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Kuzey Kordofan'ın çöle bakan ucu; Bâra ile Dârfûr arasındaki 300 km'lik
 // boşluğun ortası.
 { ad:"Sodirî", tur:"sehir", lat:14.423, lon:29.100, g:0, k:4, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)"}], d:[] },
+  v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Nûbe dağları — TDV `muhammed-ahmed-el-mehdi` maddesinde "Nûbe dağları" ve
 // "Kadır bölgesi" olarak geçer; Mehdî'nin ilk sığındığı dağlık kuşak.
 { ad:"Dilling", tur:"sehir", lat:12.050, lon:29.650, g:0, k:4, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)"}], d:[] },
+  v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 { ad:"Kâdûglî", tur:"sehir", lat:11.010, lon:29.717, g:0, k:4, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)"}], d:[] },
+  v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 { ad:"Talodi", tur:"sehir", lat:10.633, lon:30.383, g:0, k:4, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)"}], d:[] },
+  v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 { ad:"Ebû Zabed", tur:"sehir", lat:12.350, lon:29.250, g:0, k:4, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)"}], d:[] },
+  v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Bâbanûsa ve Muglad: Batı Kordofan'ın Bahrülgazâl'e bakan güney ucu.
 { ad:"Muglad", tur:"sehir", lat:11.033, lon:27.733, g:0, k:4, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)"}], d:[] },
+  v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 { ad:"Bâbanûsa", tur:"sehir", lat:11.333, lon:27.817, g:0, k:4, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)"}], d:[] },
+  v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 { ad:"Ğubeyş", tur:"sehir", lat:12.150, lon:27.383, g:0, k:4, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)"}], d:[] },
+  v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // ===========================================================================
 // 4) DÂRFÛR — DÂCÛ → TUNCİLER → KEYRA
@@ -297,7 +297,7 @@ window.YERLESIMLER_H2_AFRIKA = [
 // Keyra hânedanının çekirdek yurdu.
 { ad:"Cebel Merre", tur:"bolge", lat:12.950, lon:24.270, g:0, k:0,
   s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
-  d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)"}] },
+  d:[], v:[{f:"1874-11-02",t:"1883-12-23",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}] },
 
 { ad:"Zâlincî",neden:"k:4, m:— idi.",kaynak:"TDV `darfur` — aynı gerekçe",m:"El-Fâşir", tur:"sehir", lat:12.905, lon:23.483, g:0, k:4,
   s:[{f:"1281-01-01",t:"1400-01-01",d:"dacu"},{f:"1400-01-01",t:"1695-01-01",d:"tunciler"},{f:"1695-01-01",t:"1874-11-02",d:"darfur"},{f:"1883-12-23",t:"1898-09-02",d:"mehdi"},{f:"1898-09-02",t:"1916-05-23",d:"darfur"},{f:"1916-05-23",t:"1923-10-29",d:"ingiltere"}],
@@ -932,32 +932,32 @@ window.YERLESIMLER_H2_AFRIKA = [
 // Nil'in Ebû Hamed kavsi; A zinciri (1821-01-04).
 { ad:"Şereyk", tur:"sehir", lat:18.750, lon:33.600, g:0, k:4, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)"}], d:[] },
+  v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // TDV `muhammed-ahmed-el-mehdi` maddesinde "Kerari" olarak geçer; Halife
 // Abdullah'ın 2 Eylül 1898'de yenildiği yer.
 { ad:"Kerreri", tur:"sehir", lat:15.830, lon:32.480, g:0, k:4, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)"}], d:[] },
+  v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Cezîre'nin ortası — Mavi Nil ile Beyaz Nil arası (B zinciri).
 { ad:"El-Menâkıl", tur:"sehir", lat:14.200, lon:32.980, g:0, k:4, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)"}], d:[] },
+  v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Mavi Nil'in Habeş sınırına bakan eyalet merkezi (B zinciri).
 { ad:"Ed-Damazîn", tur:"sehir", lat:11.789, lon:34.359, g:0, k:4, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)"}], d:[] },
+  v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Kordofan kuzeyi (C zinciri).
 { ad:"Tendelti", tur:"sehir", lat:13.020, lon:31.870, g:0, k:4, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)"}], d:[] },
+  v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 { ad:"Ümmü Bedr", tur:"sehir", lat:14.200, lon:27.900, g:0, k:4, m:"Hartum",
   s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
-  v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)"}], d:[] },
+  v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Kızıldeniz tepeleri, Beca ülkesi (E zinciri).
 { ad:"Derûdeb", tur:"sehir", lat:17.550, lon:36.100, g:0, k:4, m:"Sevâkin",

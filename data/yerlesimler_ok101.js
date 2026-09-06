@@ -105,9 +105,7 @@ window.YERLESIMLER_OK101 = [
      {f:"1805-06-01",t:"1812-12-03",d:"suud"},
      {f:"1919-01-10",t:"1923-10-29",d:"hicaz"}],
   d:[],
-  v:[{f:"1517-07-06",t:"1805-06-01",k:"Mekke Şerifliği"},
-     {f:"1812-12-03",t:"1841-05-24",k:"Mısır (Kavalalı)"},
-     {f:"1841-05-24",t:"1919-01-10",k:"Mekke Şerifliği"}],
+  v:[{f:"1517-07-06",t:"1805-06-01",k:"Mekke Şerifliği",statu:"vassal"},{f:"1812-12-03",t:"1841-05-24",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"},{f:"1841-05-24",t:"1919-01-10",k:"Mekke Şerifliği",statu:"vassal"}],
   kaynak:"TDV `hayber` (HTTP 200, gövde okundu): \"Medine'nin yaklaşık 180 km. kadar kuzeyinden başlayan ve denizden 850-1000 m. yükseklikte yer alan etrafı volkanik topraklarla çevrili geniş bir vadinin adıdır.\" ⚠️ TDV maddesi Osmanlı dönemine dair idarî bilgi VERMİYOR (19. yy'da Burckhardt'ın gözlemi dışında) — dönem zinciri Medine'nin kaydından alındı, ÇIKARIMDIR.",
   neden:"H-0054/H-0055 — Medine ile Teymâ arasındaki 200 km'lik boşlukta tek yerleşik vaha. `v:` (tâbi) yazıldı çünkü Medine'nin kendisi de öyle: Osmanlı doğrudan değil Mekke Şerifliği eliyle yönetiliyordu."},
 

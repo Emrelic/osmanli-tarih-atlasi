@@ -922,6 +922,24 @@ BILINEN_DONEM_ALANLARI = {
     "t": "bitiş",
     "d": "devlet kimliği — s: ve isg: içinde; renkler.py'de tanımlı olmalı",
     "k": "tâbi devletin adı — v: içinde (motor okumaz, gösterim için)",
+    # ── 🅑 (Emre, 6 Eylül 2026) — `k` SERBEST METİN, makine SORAMAZ ──
+    # Ölçüldü: 429 dönem · 373'ü `k` taşıyor · 40 ayrı METİN · ve ikisi
+    # aynı şeyin iki yazımı ("Mısır (Kavalalı)" 74 + "Kavalalı hânedanı"
+    # 54 = 128 dönem). Künye bağı yok ⇒ renk yok, dizin yok, ve
+    # `denetle.py` "bu devlet o tarihte yaşıyor mu" diye SORAMIYOR.
+    # `CLAUDE.md`: bir ders serbest metin olarak inerse inmiş sayılmaz —
+    # sınavı tek soru: bunu bir `if` ile sorabiliyor muyum?
+    "kid": "tâbi devletin KÜNYE kimliği — v: içinde. `k` görünen ad olarak "
+           "KALIR; eşleşme bunun üzerinden yapılır. devletler.js'te tanımlı "
+           "olmalı VE künye penceresi dönemi kapsamalı (§3.5.0).",
+    # ⚠️ `statu:` — Emre'nin "parantez içinde vassal özerk himaye gibi
+    # terimler yazalım" isteğinin YAPILANDIRILMIŞ karşılığı. Terimi `k`
+    # metninden ÇIKARMAK denenmedi: parantez slotu zaten hanedan/kişi
+    # taşıyor ("Mısır (Kavalalı)"), ve `VERI-YAPISI.md:399` o yolu adıyla
+    # yasaklıyor ("bu proje onu ÜÇ KEZ denedi").
+    "statu": "tâbiiyet cinsi — v: içinde. Varsayılan 'vassal' (katmanın "
+             "tanımı zaten tâbiiyet). İnceltme: özerk · himaye · haraçgüzâr · "
+             "ocaklık · voyvodalık — KAYNAKLI olarak, ayrı iş.",
     # ⚠️ `enklav:` — GEOMETRİNİN SORAMADIĞI SORUYU TAŞIYAN İKİNCİ ALAN.
     # `kasitli_bosluk` ile aynı sınıftır ve gerekçesi tek cümle:
     # ENKLAVLIK HUKUKÎ BİR DURUMDUR, GEOMETRİK DEĞİL. Motor "bu peteğin

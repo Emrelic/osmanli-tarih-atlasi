@@ -175,7 +175,7 @@ window.YERLESIMLER_EPIR = [
   kaynak:"delvine",
   s:[{f:"1281-01-01", t:"1430-10-01", d:"bizans"},
      {f:"1912-11-28",t:"1923-10-29",d:"arnavutluk-bagimsiz"}],
-  v:[{f:"1430-10-01", t:"1537-08-25", k:"Arvanid sancağı — nominal tâbiiyet, KESİN hâkimiyet yok"}],
+  v:[{f:"1430-10-01",t:"1537-08-25",k:"Arvanid sancağı — nominal tâbiiyet, KESİN hâkimiyet yok",statu:"vassal"}],
   d:[{f:"1537-08-25", t:"1912-11-28"}] },
 // kaynak: TDV "delvine" md. — GÖVDE OKUNDU, 22 Ağu 2026.
 //   "Şehrin Osmanlılar'la ilk teması, 1432'de Sinan Paşa'nın bu bölgeye
@@ -300,7 +300,7 @@ window.YERLESIMLER_EPIR = [
   kaynak:"bulunamadı — TDV'de müstakil madde YOK, Delvine md. yalnız konum veriyor",
   s:[{f:"1281-01-01", t:"1430-10-01", d:"bizans"},
      {f:"1912-11-28",t:"1923-10-29",d:"arnavutluk-bagimsiz"}],
-  v:[{f:"1430-10-01", t:"1537-08-25", k:"Arvanid sancağı — nominal tâbiiyet"}],
+  v:[{f:"1430-10-01",t:"1537-08-25",k:"Arvanid sancağı — nominal tâbiiyet",statu:"vassal"}],
   d:[{f:"1537-08-25", t:"1912-11-28"}] },
 // 🔴 BU KAYIT BİR ÇIKARIMDIR — TDV'DE SARANDË MADDESİ YOKTUR.
 //   Sınanan sluglar: `sarande` · `ayasaranda` → İKİSİ DE 302 (ölü).

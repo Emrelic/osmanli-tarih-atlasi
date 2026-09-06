@@ -109,7 +109,7 @@ window.YERLESIMLER_EK = [
 //    Değişmez 2: iki kırılma günü de çekirdekte maddeli (1682-09-16 → 0 gün,
 //    1685-10-15 → 3 gün).
 { ad:"Kassa (Košice)", tur:"sehir", lat:48.714, lon:21.258, g:0, k:2, d:[],
-    v:[{f:"1682-09-16",t:"1685-10-15",k:"Orta Macar Krallığı (Tököli İmre)"}],
+    v:[{f:"1682-09-16",t:"1685-10-15",k:"Orta Macar Krallığı (Tököli İmre)",statu:"vassal"}],
     s:[{f:"1281-01-01",t:"1526-08-29",d:"macaristan"},
        {f:"1526-08-29",t:"1682-09-16",d:"avusturya"},
        {f:"1685-10-15",t:"1918-11-11",d:"avusturya"},
