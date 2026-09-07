@@ -1,0 +1,1012 @@
+{
+ "_NOT": "denetle.py'nin BÜTÜN continue dalları, `ast` ile çıkarıldı. `kovali_gorunuyor` bir İPUCUDUR, hüküm DEĞİL — aynı `if` gövdesinde append/print/sayaç geçiyor mu diye bakar; elle okunmadan kova ataması yapılmaz.",
+ "toplam": 70,
+ "fonksiyon_dagilimi": {
+  "_yorumsuz": 5,
+  "oku_pencere": 6,
+  "_anahtar_tirnakla": 4,
+  "ikiz_ayikla": 3,
+  "olaylari_yukle": 1,
+  "degismez1": 3,
+  "degismez1b": 2,
+  "degismez2": 1,
+  "kapsam_disi": 3,
+  "kirilmasiz_madde": 1,
+  "degismez3": 4,
+  "degismez4": 4,
+  "degismez5": 1,
+  "degismez7": 8,
+  "degismez3z": 4,
+  "_kisiler_kumesi": 2,
+  "_onek_orani": 1,
+  "onek_olcutu": 2,
+  "hassasiyet_dususu": 2,
+  "savas_senkronu": 2,
+  "mukerrer_maddeler": 2,
+  "konum_denetimi": 4,
+  "donem_sagligi": 3,
+  "main": 2
+ },
+ "dallar": [
+  {
+   "satir": 678,
+   "fonksiyon": "_yorumsuz",
+   "dongu_satiri": 672,
+   "kosul": "kacis",
+   "kovali_gorunuyor": true,
+   "cevre": [
+    "            cik.append(c)",
+    "            kacis = False",
+    "            i += 1",
+    "            continue",
+    "        if dizge:"
+   ]
+  },
+  {
+   "satir": 686,
+   "fonksiyon": "_yorumsuz",
+   "dongu_satiri": 672,
+   "kosul": "dizge",
+   "kovali_gorunuyor": true,
+   "cevre": [
+    "            elif c == dizge:",
+    "                dizge = None",
+    "            i += 1",
+    "            continue",
+    "        if c in \"\\\"'`\":"
+   ]
+  },
+  {
+   "satir": 691,
+   "fonksiyon": "_yorumsuz",
+   "dongu_satiri": 672,
+   "kosul": "c in \"\\\"'`\"",
+   "kovali_gorunuyor": true,
+   "cevre": [
+    "            dizge = c",
+    "            cik.append(c)",
+    "            i += 1",
+    "            continue",
+    "        if c == \"/\" and i + 1 < n:"
+   ]
+  },
+  {
+   "satir": 698,
+   "fonksiyon": "_yorumsuz",
+   "dongu_satiri": 672,
+   "kosul": "js[i + 1] == \"/\"",
+   "kovali_gorunuyor": false,
+   "cevre": [
+    "                if j < 0:",
+    "                    break",
+    "                i = j                      # satır sonu KORUNUR",
+    "                continue",
+    "            if js[i + 1] == \"*\":"
+   ]
+  },
+  {
+   "satir": 702,
+   "fonksiyon": "_yorumsuz",
+   "dongu_satiri": 672,
+   "kosul": "js[i + 1] == \"*\"",
+   "kovali_gorunuyor": false,
+   "cevre": [
+    "            if js[i + 1] == \"*\":",
+    "                j = js.find(\"*/\", i + 2)",
+    "                i = (j + 2) if j >= 0 else n",
+    "                continue",
+    "        cik.append(c)"
+   ]
+  },
+  {
+   "satir": 748,
+   "fonksiyon": "oku_pencere",
+   "dongu_satiri": 745,
+   "kosul": "_atla",
+   "kovali_gorunuyor": false,
+   "cevre": [
+    "    for i, c in enumerate(govde):",
+    "        if _atla:",
+    "            _atla -= 1",
+    "            continue",
+    "        if kacis:"
+   ]
+  },
+  {
+   "satir": 751,
+   "fonksiyon": "oku_pencere",
+   "dongu_satiri": 745,
+   "kosul": "kacis",
+   "kovali_gorunuyor": false,
+   "cevre": [
+    "            continue",
+    "        if kacis:",
+    "            kacis = False",
+    "            continue",
+    "        if c == \"\\\\\":"
+   ]
+  },
+  {
+   "satir": 754,
+   "fonksiyon": "oku_pencere",
+   "dongu_satiri": 745,
+   "kosul": "c == \"\\\\\"",
+   "kovali_gorunuyor": false,
+   "cevre": [
+    "            continue",
+    "        if c == \"\\\\\":",
+    "            kacis = True",
+    "            continue",
+    "        if dizge:"
+   ]
+  },
+  {
+   "satir": 758,
+   "fonksiyon": "oku_pencere",
+   "dongu_satiri": 745,
+   "kosul": "dizge",
+   "kovali_gorunuyor": false,
+   "cevre": [
+    "        if dizge:",
+    "            if c == dizge:",
+    "                dizge = None",
+    "            continue",
+    "        # ── dizge DIŞINDAYIZ: yorum mu?"
+   ]
+  },
+  {
+   "satir": 766,
+   "fonksiyon": "oku_pencere",
+   "dongu_satiri": 745,
+   "kosul": "govde[i + 1] == \"/\"",
+   "kovali_gorunuyor": false,
+   "cevre": [
+    "                if _son < 0:",
+    "                    break",
+    "                _atla = _son - i",
+    "                continue",
+    "            if govde[i + 1] == \"*\":"
+   ]
+  },
+  {
+   "satir": 772,
+   "fonksiyon": "oku_pencere",
+   "dongu_satiri": 745,
+   "kosul": "govde[i + 1] == \"*\"",
+   "kovali_gorunuyor": false,
+   "cevre": [
+    "                if _son < 0:",
+    "                    break",
+    "                _atla = _son + 1 - i",
+    "                continue",
+    "        if c in \"\\\"'\":"
+   ]
+  },
+  {
+   "satir": 805,
+   "fonksiyon": "_anahtar_tirnakla",
+   "dongu_satiri": 800,
+   "kosul": "c == \"\\\\\" and i + 1 < n",
+   "kovali_gorunuyor": true,
+   "cevre": [
+    "            if dizge:",
+    "                cik.append(c)",
+    "                if c == \"\\\\\" and i + 1 < n:",
+    "                    cik.append(t[i + 1]); i += 2; continue",
+    "                if c == dizge:"
+   ]
+  },
+  {
+   "satir": 808,
+   "fonksiyon": "_anahtar_tirnakla",
+   "dongu_satiri": 800,
+   "kosul": "dizge",
+   "kovali_gorunuyor": true,
+   "cevre": [
+    "                    cik.append(t[i + 1]); i += 2; continue",
+    "                if c == dizge:",
+    "                    dizge = None",
+    "                i += 1; continue",
+    "            if c in \"\\\"'\":"
+   ]
+  },
+  {
+   "satir": 810,
+   "fonksiyon": "_anahtar_tirnakla",
+   "dongu_satiri": 800,
+   "kosul": "c in \"\\\"'\"",
+   "kovali_gorunuyor": true,
+   "cevre": [
+    "                    dizge = None",
+    "                i += 1; continue",
+    "            if c in \"\\\"'\":",
+    "                dizge = c; cik.append(c); i += 1; continue",
+    "            if c in \"{,\":"
+   ]
+  },
+  {
+   "satir": 828,
+   "fonksiyon": "_anahtar_tirnakla",
+   "dongu_satiri": 800,
+   "kosul": "c in \"{,\"",
+   "kovali_gorunuyor": true,
+   "cevre": [
+    "                    cik.append('\"' + ad + '\"'); cik.append(t[j1:i])",
+    "                else:",
+    "                    cik.append(ad); cik.append(t[j1:i])",
+    "                continue",
+    "            cik.append(c); i += 1"
+   ]
+  },
+  {
+   "satir": 898,
+   "fonksiyon": "ikiz_ayikla",
+   "dongu_satiri": 892,
+   "kosul": "not ia and not ib",
+   "kovali_gorunuyor": true,
+   "cevre": [
+    "        ib = (yb or {}).get(\"ikiz\")",
+    "        if not ia and not ib:",
+    "            beyansiz.append((d, a, b))",
+    "            continue",
+    "        # (a) KARŞILIKLI — tek taraflı beyan yazım hatasıdır, sessizce geçmez"
+   ]
+  },
+  {
+   "satir": 904,
+   "fonksiyon": "ikiz_ayikla",
+   "dongu_satiri": 892,
+   "kosul": "ia != b or ib != a",
+   "kovali_gorunuyor": true,
+   "cevre": [
+    "            bozuk.append(f\"{a} <-> {b}: beyan TEK TARAFLI \"",
+    "                         f\"({a}.ikiz={ia!r} · {b}.ikiz={ib!r}) — karşılıklı olmalı\")",
+    "            beyansiz.append((d, a, b))",
+    "            continue",
+    "        # (b) kaynak ZORUNLU — beyan eden \"bunlar AYRI yerleşimdir\" diye"
+   ]
+  },
+  {
+   "satir": 913,
+   "fonksiyon": "ikiz_ayikla",
+   "dongu_satiri": 892,
+   "kosul": "eksik",
+   "kovali_gorunuyor": true,
+   "cevre": [
+    "            bozuk.append(f\"{a} <-> {b}: `kaynak:` YOK ({', '.join(eksik)}) — \"",
+    "                         f\"beyan kaynaksız geçmez\")",
+    "            beyansiz.append((d, a, b))",
+    "            continue",
+    "        beyanli.append((d, a, b))"
+   ]
+  },
+  {
+   "satir": 924,
+   "fonksiyon": "olaylari_yukle",
+   "dongu_satiri": 920,
+   "kosul": "not m",
+   "kovali_gorunuyor": false,
+   "cevre": [
+    "        js = open(yol, encoding=\"utf-8\").read()",
+    "        m = re.search(r\"window\\.(OLAYLAR\\w*)\\s*=\", js)",
+    "        if not m:",
+    "            continue",
+    "        olaylar.extend(oku_pencere(yol, m.group(1)))"
+   ]
+  },
+  {
+   "satir": 955,
+   "fonksiyon": "degismez1",
+   "dongu_satiri": 952,
+   "kosul": "kur and kur > g",
+   "kovali_gorunuyor": false,
+   "cevre": [
+    "        for t in Y:",
+    "            kur = t.get(\"kur\")",
+    "            if kur and kur > g:",
+    "                continue",
+    "            # ⚠️ bit: — yerleşim ortadan kalktıysa sahipsizlik SORULMAZ. Motor"
+   ]
+  },
+  {
+   "satir": 962,
+   "fonksiyon": "degismez1",
+   "dongu_satiri": 952,
+   "kosul": "bit and bit <= g",
+   "kovali_gorunuyor": false,
+   "cevre": [
+    "            # Örnek: Zaporijya Sıçı 1775'te yıkıldı, sonrasında sahibi olmaz.",
+    "            bit = t.get(\"bit\")",
+    "            if bit and bit <= g:",
+    "                continue",
+    "            if ir(t.get(\"d\"), g) or ir(t.get(\"s\"), g) or ir(t.get(\"v\"), g):"
+   ]
+  },
+  {
+   "satir": 964,
+   "fonksiyon": "degismez1",
+   "dongu_satiri": 952,
+   "kosul": "ir(t.get(\"d\"), g) or ir(t.get(\"s\"), g) or ir(t.get(\"v\"), g)",
+   "kovali_gorunuyor": false,
+   "cevre": [
+    "            if bit and bit <= g:",
+    "                continue",
+    "            if ir(t.get(\"d\"), g) or ir(t.get(\"s\"), g) or ir(t.get(\"v\"), g):",
+    "                continue",
+    "            sahipsiz.setdefault(t[\"ad\"], []).append(yil)"
+   ]
+  },
+  {
+   "satir": 1100,
+   "fonksiyon": "degismez1b",
+   "dongu_satiri": 1093,
+   "kosul": "not araliklar",
+   "kovali_gorunuyor": false,
+   "cevre": [
+    "                if p.get(\"f\") and p.get(\"t\"):",
+    "                    araliklar.append((p[\"f\"], p[\"t\"]))",
+    "        if not araliklar:",
+    "            continue                      # kasten boş dolgu noktası",
+    "        araliklar.sort()"
+   ]
+  },
+  {
+   "satir": 1114,
+   "fonksiyon": "degismez1b",
+   "dongu_satiri": 1110,
+   "kosul": "bit and bit <= bas",
+   "kovali_gorunuyor": false,
+   "cevre": [
+    "            bas, son = birlesik[i][1], birlesik[i + 1][0]",
+    "            # bit: sonrası boşluk BOŞLUK DEĞİLDİR — yerleşim sahneden çıkmıştır.",
+    "            if bit and bit <= bas:",
+    "                continue",
+    "            gun = gun_no(son) - gun_no(bas)"
+   ]
+  },
+  {
+   "satir": 1177,
+   "fonksiyon": "degismez2",
+   "dongu_satiri": 1175,
+   "kosul": "not d or d <= \"1281-01-01\" or d >= \"1923-10-29\"",
+   "kovali_gorunuyor": false,
+   "cevre": [
+    "        for p in donemler:",
+    "            for d, tip in ((p.get(\"f\"), \"kazanc\"), (p.get(\"t\"), \"kayip\")):",
+    "                if not d or d <= \"1281-01-01\" or d >= \"1923-10-29\":",
+    "                    continue",
+    "                kayit = kir.setdefault(d, {\"t\": tip, \"ad\": set()})"
+   ]
+  },
+  {
+   "satir": 1358,
+   "fonksiyon": "kapsam_disi",
+   "dongu_satiri": 1353,
+   "kosul": "",
+   "kovali_gorunuyor": false,
+   "cevre": [
+    "                        alt = (datetime.date(yy, mm, dd)",
+    "                               + datetime.timedelta(days=yon * kaydir)).isoformat()",
+    "                    except Exception:",
+    "                        continue",
+    "                    kure = _osmanli_kure(Y, alt)"
+   ]
+  },
+  {
+   "satir": 1366,
+   "fonksiyon": "kapsam_disi",
+   "dongu_satiri": 1344,
+   "kosul": "not kure",
+   "kovali_gorunuyor": true,
+   "cevre": [
+    "                    break",
+    "        if not kure:",
+    "            ici.append(kayit)          # olculemedi ⇒ borc sayilir (muhafazakar)",
+    "            continue",
+    "        noktalar = [ix[a] for a in adlar if a in ix]"
+   ]
+  },
+  {
+   "satir": 1370,
+   "fonksiyon": "kapsam_disi",
+   "dongu_satiri": 1344,
+   "kosul": "not noktalar",
+   "kovali_gorunuyor": true,
+   "cevre": [
+    "        noktalar = [ix[a] for a in adlar if a in ix]",
+    "        if not noktalar:",
+    "            ici.append(kayit)",
+    "            continue",
+    "        en_yakin = min(min(_km(n, k) for k in kure) for n in noktalar)"
+   ]
+  },
+  {
+   "satir": 1404,
+   "fonksiyon": "kirilmasiz_madde",
+   "dongu_satiri": 1402,
+   "kosul": "not _toprak_iddiasi(o)",
+   "kovali_gorunuyor": false,
+   "cevre": [
+    "    yok = []",
+    "    for o in O:",
+    "        if not _toprak_iddiasi(o):",
+    "            continue",
+    "        g = gun_no(o[\"t\"])"
+   ]
+  },
+  {
+   "satir": 1488,
+   "fonksiyon": "degismez3",
+   "dongu_satiri": 1486,
+   "kosul": "not y.get(\"m\")",
+   "kovali_gorunuyor": false,
+   "cevre": [
+    "    for g in (\"1300-06-15\", \"1400-06-15\", \"1500-06-15\", \"1600-06-15\", \"1700-06-15\", \"1800-06-15\"):",
+    "        for y in Y:",
+    "            if not y.get(\"m\"):",
+    "                continue",
+    "            m = ix.get(y[\"m\"])"
+   ]
+  },
+  {
+   "satir": 1491,
+   "fonksiyon": "degismez3",
+   "dongu_satiri": 1486,
+   "kosul": "not m",
+   "kovali_gorunuyor": false,
+   "cevre": [
+    "                continue",
+    "            m = ix.get(y[\"m\"])",
+    "            if not m:",
+    "                continue",
+    "            a, b = durum(y, g), durum(m, g)"
+   ]
+  },
+  {
+   "satir": 1494,
+   "fonksiyon": "degismez3",
+   "dongu_satiri": 1486,
+   "kosul": "a == \"—\" or b == \"—\" or a == b",
+   "kovali_gorunuyor": false,
+   "cevre": [
+    "                continue",
+    "            a, b = durum(y, g), durum(m, g)",
+    "            if a == \"—\" or b == \"—\" or a == b:",
+    "                continue",
+    "            # OSMANLI ile tâbi ÇELİŞKİ DEĞİLDİR — ikisi de Osmanlı sistemi içinde."
+   ]
+  },
+  {
+   "satir": 1502,
+   "fonksiyon": "degismez3",
+   "dongu_satiri": 1486,
+   "kosul": "{a, b} == {\"OSMANLI\", \"tabi\"}",
+   "kovali_gorunuyor": false,
+   "cevre": [
+    "            # Erdel prenslik ama Varad eyalet. Bu ayrım modelin DOĞRU çalışmasıdır;",
+    "            # çelişki saymak 28 yanlış alarm üretiyordu.",
+    "            if {a, b} == {\"OSMANLI\", \"tabi\"}:",
+    "                continue",
+    "            celiskiler.append((g, y[\"ad\"], y[\"m\"], a, b))"
+   ]
+  },
+  {
+   "satir": 1830,
+   "fonksiyon": "degismez4",
+   "dongu_satiri": 1827,
+   "kosul": "not kim",
+   "kovali_gorunuyor": false,
+   "cevre": [
+    "        for p in (y.get(\"s\") or []):",
+    "            kim = p.get(\"d\")",
+    "            if not kim:",
+    "                continue",
+    "            if kim not in K:"
+   ]
+  },
+  {
+   "satir": 1833,
+   "fonksiyon": "degismez4",
+   "dongu_satiri": 1827,
+   "kosul": "kim not in K",
+   "kovali_gorunuyor": true,
+   "cevre": [
+    "                continue",
+    "            if kim not in K:",
+    "                kunyesiz.append((y[\"ad\"], kim))",
+    "                continue",
+    "            kf, kt = K[kim]"
+   ]
+  },
+  {
+   "satir": 1841,
+   "fonksiyon": "degismez4",
+   "dongu_satiri": 1827,
+   "kosul": "g is not None and g > HAYALET_TOLERANS_GUN",
+   "kovali_gorunuyor": true,
+   "cevre": [
+    "                ihlal.append((y[\"ad\"], kim, p.get(\"f\"), p.get(\"t\"),",
+    "                              \"devlet %s'te bitti, dönem %.1f yıl SONRA başlıyor\"",
+    "                              % (kt, g / 365.25)))",
+    "                continue",
+    "            # dönem SONU künyenin başından ÖNCE mi (devlet doğmamış)"
+   ]
+  },
+  {
+   "satir": 1848,
+   "fonksiyon": "degismez4",
+   "dongu_satiri": 1827,
+   "kosul": "g2 is not None and g2 > HAYALET_TOLERANS_GUN",
+   "kovali_gorunuyor": true,
+   "cevre": [
+    "                ihlal.append((y[\"ad\"], kim, p.get(\"f\"), p.get(\"t\"),",
+    "                              \"devlet %s'te kuruldu, dönem %.1f yıl ÖNCE bitiyor\"",
+    "                              % (kf, g2 / 365.25)))",
+    "                continue",
+    "            # ── ③ dönem, devletin ÖLÜMÜNÜ AŞIYOR mu (AYRI KOVA) ────────"
+   ]
+  },
+  {
+   "satir": 1931,
+   "fonksiyon": "degismez5",
+   "dongu_satiri": 1923,
+   "kosul": "not donemler",
+   "kovali_gorunuyor": false,
+   "cevre": [
+    "                if f:",
+    "                    donemler.append((f, k, p.get(\"d\") or \"\"))",
+    "        if not donemler:",
+    "            continue",
+    "        donemler.sort()"
+   ]
+  },
+  {
+   "satir": 2295,
+   "fonksiyon": "degismez7",
+   "dongu_satiri": 2293,
+   "kosul": "f <= \"1281-01-01\" or f >= \"1923-10-29\"",
+   "kovali_gorunuyor": false,
+   "cevre": [
+    "    for i, y in enumerate(Y):",
+    "        for f, t, s, enk in DON[i]:",
+    "            if f <= \"1281-01-01\" or f >= \"1923-10-29\":",
+    "                continue",
+    "            ada = bilesen(i, f, s, D7_ADA_ESIK + 1)"
+   ]
+  },
+  {
+   "satir": 2298,
+   "fonksiyon": "degismez7",
+   "dongu_satiri": 2293,
+   "kosul": "len(ada) > D7_ADA_ESIK",
+   "kovali_gorunuyor": false,
+   "cevre": [
+    "                continue",
+    "            ada = bilesen(i, f, s, D7_ADA_ESIK + 1)",
+    "            if len(ada) > D7_ADA_ESIK:",
+    "                continue",
+    "            if enk:"
+   ]
+  },
+  {
+   "satir": 2301,
+   "fonksiyon": "degismez7",
+   "dongu_satiri": 2293,
+   "kosul": "enk",
+   "kovali_gorunuyor": true,
+   "cevre": [
+    "                continue",
+    "            if enk:",
+    "                muaf[\"beyan\"] += 1",
+    "                continue",
+    "            if len(kom[i]) <= D7_TECRIT_KOMSU:"
+   ]
+  },
+  {
+   "satir": 2304,
+   "fonksiyon": "degismez7",
+   "dongu_satiri": 2293,
+   "kosul": "len(kom[i]) <= D7_TECRIT_KOMSU",
+   "kovali_gorunuyor": true,
+   "cevre": [
+    "                continue",
+    "            if len(kom[i]) <= D7_TECRIT_KOMSU:",
+    "                muaf[\"cografi-tecrit\"] += 1",
+    "                continue",
+    "            if any(Y[j][\"ad\"] in D7_ADA_MUAF for j in ada):"
+   ]
+  },
+  {
+   "satir": 2307,
+   "fonksiyon": "degismez7",
+   "dongu_satiri": 2293,
+   "kosul": "any(Y[j][\"ad\"] in D7_ADA_MUAF for j in ada)",
+   "kovali_gorunuyor": true,
+   "cevre": [
+    "                continue",
+    "            if any(Y[j][\"ad\"] in D7_ADA_MUAF for j in ada):",
+    "                muaf[\"ada-fethi\"] += 1",
+    "                continue",
+    "            toplam = sum(1 for j in range(len(Y)) if sahip(j, f) == s)"
+   ]
+  },
+  {
+   "satir": 2311,
+   "fonksiyon": "degismez7",
+   "dongu_satiri": 2293,
+   "kosul": "toplam < D7_KUCUK_KAT * len(ada)",
+   "kovali_gorunuyor": true,
+   "cevre": [
+    "            toplam = sum(1 for j in range(len(Y)) if sahip(j, f) == s)",
+    "            if toplam < D7_KUCUK_KAT * len(ada):",
+    "                muaf[\"kucuk-devlet\"] += 1",
+    "                continue",
+    "            g1 = artir(f, D7_CEPHE_GUN)"
+   ]
+  },
+  {
+   "satir": 2318,
+   "fonksiyon": "degismez7",
+   "dongu_satiri": 2293,
+   "kosul": "sahip(i, g1) != s or len(bilesen(i, g1, s, D7_ADA_ESIK + 1)) > D7_ADA_ESIK",
+   "kovali_gorunuyor": true,
+   "cevre": [
+    "            if (sahip(i, g1) != s",
+    "                    or len(bilesen(i, g1, s, D7_ADA_ESIK + 1)) > D7_ADA_ESIK):",
+    "                muaf[\"gecici-cephe\"] += 1",
+    "                continue",
+    "            en, p0 = None, (y[\"lat\"], y[\"lon\"])"
+   ]
+  },
+  {
+   "satir": 2322,
+   "fonksiyon": "degismez7",
+   "dongu_satiri": 2320,
+   "kosul": "j in ada or sahip(j, f) != s",
+   "kovali_gorunuyor": false,
+   "cevre": [
+    "            en, p0 = None, (y[\"lat\"], y[\"lon\"])",
+    "            for j in range(len(Y)):",
+    "                if j in ada or sahip(j, f) != s:",
+    "                    continue",
+    "                dk = _d7_km(p0, (Y[j][\"lat\"], Y[j][\"lon\"]))"
+   ]
+  },
+  {
+   "satir": 2377,
+   "fonksiyon": "degismez3z",
+   "dongu_satiri": 2374,
+   "kosul": "not m_ad",
+   "kovali_gorunuyor": false,
+   "cevre": [
+    "        for y in Y:",
+    "            _, m_ad = _g.kd_gun(y, g)      # ← O GÜNKÜ merkez, bugünkü değil",
+    "            if not m_ad:",
+    "                continue",
+    "            m = ix.get(m_ad)"
+   ]
+  },
+  {
+   "satir": 2380,
+   "fonksiyon": "degismez3z",
+   "dongu_satiri": 2374,
+   "kosul": "not m",
+   "kovali_gorunuyor": false,
+   "cevre": [
+    "                continue",
+    "            m = ix.get(m_ad)",
+    "            if not m:",
+    "                continue",
+    "            a, b = durum(y, g), durum(m, g)"
+   ]
+  },
+  {
+   "satir": 2383,
+   "fonksiyon": "degismez3z",
+   "dongu_satiri": 2374,
+   "kosul": "a == \"—\" or b == \"—\" or a == b",
+   "kovali_gorunuyor": false,
+   "cevre": [
+    "                continue",
+    "            a, b = durum(y, g), durum(m, g)",
+    "            if a == \"—\" or b == \"—\" or a == b:",
+    "                continue",
+    "            if {a, b} == {\"OSMANLI\", \"tabi\"}:"
+   ]
+  },
+  {
+   "satir": 2385,
+   "fonksiyon": "degismez3z",
+   "dongu_satiri": 2374,
+   "kosul": "{a, b} == {\"OSMANLI\", \"tabi\"}",
+   "kovali_gorunuyor": false,
+   "cevre": [
+    "            if a == \"—\" or b == \"—\" or a == b:",
+    "                continue",
+    "            if {a, b} == {\"OSMANLI\", \"tabi\"}:",
+    "                continue",
+    "            zamanli.append((g, y[\"ad\"], m_ad, a, b))"
+   ]
+  },
+  {
+   "satir": 2681,
+   "fonksiyon": "_kisiler_kumesi",
+   "dongu_satiri": 2676,
+   "kosul": "len(w) < 4 or w in {\"sultan\", \"pasa\", \"pasanin\", \"bey\", \"han\", \"hanin\", \"efendi\", \"gazi\", \"sah\", \"kral\"}",
+   "kovali_gorunuyor": false,
+   "cevre": [
+    "            # sıra sayısı (I., II., IV.) ve kısa/genel kelimeler atılır",
+    "            if len(w) < 4 or w in {\"sultan\", \"pasa\", \"pasanin\", \"bey\", \"han\",",
+    "                                   \"hanin\", \"efendi\", \"gazi\", \"sah\", \"kral\"}:",
+    "                continue",
+    "            if re.fullmatch(r\"[ivxlcdm]+\", w):"
+   ]
+  },
+  {
+   "satir": 2683,
+   "fonksiyon": "_kisiler_kumesi",
+   "dongu_satiri": 2676,
+   "kosul": "re.fullmatch(r\"[ivxlcdm]+\", w)",
+   "kovali_gorunuyor": false,
+   "cevre": [
+    "                                   \"hanin\", \"efendi\", \"gazi\", \"sah\", \"kral\"}:",
+    "                continue",
+    "            if re.fullmatch(r\"[ivxlcdm]+\", w):",
+    "                continue",
+    "            kumesi.add(w[:6])"
+   ]
+  },
+  {
+   "satir": 2729,
+   "fonksiyon": "_onek_orani",
+   "dongu_satiri": 2727,
+   "kosul": "b in kullanildi",
+   "kovali_gorunuyor": false,
+   "cevre": [
+    "    for a in A:",
+    "        for b in B:",
+    "            if b in kullanildi:",
+    "                continue",
+    "            lcp = 0"
+   ]
+  },
+  {
+   "satir": 2760,
+   "fonksiyon": "onek_olcutu",
+   "dongu_satiri": 2755,
+   "kosul": "cift in BILINEN_AYRI or cift[::-1] in BILINEN_AYRI",
+   "kovali_gorunuyor": false,
+   "cevre": [
+    "                break",
+    "            cift = (S[i][\"b\"], S[j][\"b\"])",
+    "            if cift in BILINEN_AYRI or cift[::-1] in BILINEN_AYRI:",
+    "                continue",
+    "            a, b = _kelimeler(S[i][\"b\"]), _kelimeler(S[j][\"b\"])"
+   ]
+  },
+  {
+   "satir": 2765,
+   "fonksiyon": "onek_olcutu",
+   "dongu_satiri": 2755,
+   "kosul": "eski >= MUKERRER_ESIK",
+   "kovali_gorunuyor": false,
+   "cevre": [
+    "            ortak = len(a & b)",
+    "            eski = ortak / (len(a) + len(b) - ortak) if (a and b) else 0.0",
+    "            if eski >= MUKERRER_ESIK:",
+    "                continue                      # zaten bugünkü ölçüt yakalıyor",
+    "            yeni = _onek_orani(_tam_kokler(S[i][\"b\"]), _tam_kokler(S[j][\"b\"]))"
+   ]
+  },
+  {
+   "satir": 2813,
+   "fonksiyon": "hassasiyet_dususu",
+   "dongu_satiri": 2810,
+   "kosul": "not t or len(t) < 10",
+   "kovali_gorunuyor": false,
+   "cevre": [
+    "    for r in S:",
+    "        t = r.get(\"t\")",
+    "        if not t or len(t) < 10:",
+    "            continue                      # dizin de gün vermiyorsa kıyas yok",
+    "        g = gun_no(t)"
+   ]
+  },
+  {
+   "satir": 2818,
+   "fonksiyon": "hassasiyet_dususu",
+   "dongu_satiri": 2810,
+   "kosul": "not yakin",
+   "kovali_gorunuyor": false,
+   "cevre": [
+    "        yakin = [(abs(og - g), og, b, ot) for og, b, ot in ol",
+    "                 if abs(og - g) <= SAVAS_PENCERE]",
+    "        if not yakin:",
+    "            continue",
+    "        cift += 1"
+   ]
+  },
+  {
+   "satir": 2833,
+   "fonksiyon": "savas_senkronu",
+   "dongu_satiri": 2831,
+   "kosul": "not r.get(\"t\")",
+   "kovali_gorunuyor": false,
+   "cevre": [
+    "    aykiri = []",
+    "    for r in S:",
+    "        if not r.get(\"t\"):",
+    "            continue",
+    "        try:"
+   ]
+  },
+  {
+   "satir": 2837,
+   "fonksiyon": "savas_senkronu",
+   "dongu_satiri": 2831,
+   "kosul": "",
+   "kovali_gorunuyor": false,
+   "cevre": [
+    "        try:",
+    "            g = gun_no(tam(r[\"t\"]))",
+    "        except Exception:",
+    "            continue",
+    "        en = min(ol, key=lambda o: abs(o[0] - g))"
+   ]
+  },
+  {
+   "satir": 2857,
+   "fonksiyon": "mukerrer_maddeler",
+   "dongu_satiri": 2851,
+   "kosul": "cift in BILINEN_AYRI or cift[::-1] in BILINEN_AYRI",
+   "kovali_gorunuyor": false,
+   "cevre": [
+    "                break                       # sıralı: bundan sonrası daha da uzak",
+    "            cift = (S[i][\"b\"], S[j][\"b\"])",
+    "            if cift in BILINEN_AYRI or cift[::-1] in BILINEN_AYRI:",
+    "                continue",
+    "            a, b = _kelimeler(S[i][\"b\"]), _kelimeler(S[j][\"b\"])"
+   ]
+  },
+  {
+   "satir": 2881,
+   "fonksiyon": "mukerrer_maddeler",
+   "dongu_satiri": 2851,
+   "kosul": "olcut is None",
+   "kovali_gorunuyor": false,
+   "cevre": [
+    "                    olcut = (\"kişi!\" if kesin else \"kişi:\") + \\",
+    "                        \",\".join(sorted(ortak)[:3])",
+    "            if olcut is None:",
+    "                continue",
+    "            bulunan.append((S[i][\"t\"][:4], oran, S[i], S[j], olcut))"
+   ]
+  },
+  {
+   "satir": 2988,
+   "fonksiyon": "konum_denetimi",
+   "dongu_satiri": 2984,
+   "kosul": "not (g.envelope.intersects(bolge) and g.area > 0.02)",
+   "kovali_gorunuyor": false,
+   "cevre": [
+    "            p = f[\"properties\"]",
+    "            g = shape(f[\"geometry\"]).buffer(0)",
+    "            if not (g.envelope.intersects(bolge) and g.area > 0.02):",
+    "                continue",
+    "            ad = p.get(\"name\") or \"\""
+   ]
+  },
+  {
+   "satir": 2993,
+   "fonksiyon": "konum_denetimi",
+   "dongu_satiri": 2984,
+   "kosul": "p.get(\"featurecla\") == \"Reservoir\" and ad not in _DOGAL_GOL and (yil >= 1900 or p.get(\"dam_name\"))",
+   "kovali_gorunuyor": false,
+   "cevre": [
+    "            yil = p.get(\"year\") or -99",
+    "            if (p.get(\"featurecla\") == \"Reservoir\" and ad not in _DOGAL_GOL",
+    "                    and (yil >= 1900 or p.get(\"dam_name\"))):",
+    "                continue                      # modern baraj gölü: kara sayılır",
+    "            g = g.intersection(bolge)"
+   ]
+  },
+  {
+   "satir": 3092,
+   "fonksiyon": "konum_denetimi",
+   "dongu_satiri": 3089,
+   "kosul": "kara.covers(p)",
+   "kovali_gorunuyor": false,
+   "cevre": [
+    "    for y in Y:",
+    "        p = Point(y[\"lon\"], y[\"lat\"])",
+    "        if kara.covers(p):",
+    "            continue",
+    "        if not bolge.covers(p):"
+   ]
+  },
+  {
+   "satir": 3097,
+   "fonksiyon": "konum_denetimi",
+   "dongu_satiri": 3089,
+   "kosul": "not bolge.covers(p)",
+   "kovali_gorunuyor": true,
+   "cevre": [
+    "            ic, _ = nearest_points(bolge, p)",
+    "            km = 111.32 * ((ic.x - y[\"lon\"]) ** 2 + (ic.y - y[\"lat\"]) ** 2) ** 0.5",
+    "            pencere_disi.append((km, y[\"ad\"], y[\"lat\"], y[\"lon\"]))",
+    "            continue",
+    "        ic, _ = nearest_points(kara, p)"
+   ]
+  },
+  {
+   "satir": 3125,
+   "fonksiyon": "donem_sagligi",
+   "dongu_satiri": 3122,
+   "kosul": "not f or not t",
+   "kovali_gorunuyor": false,
+   "cevre": [
+    "            for p in donemler:",
+    "                f, t = p.get(\"f\"), p.get(\"t\")",
+    "                if not f or not t:",
+    "                    continue",
+    "                if f == t:"
+   ]
+  },
+  {
+   "satir": 3144,
+   "fonksiyon": "donem_sagligi",
+   "dongu_satiri": 3142,
+   "kosul": "not sp.get(\"f\") or not sp.get(\"t\")",
+   "kovali_gorunuyor": false,
+   "cevre": [
+    "        # genelleşmiş hâli belgede yok. Bilgi olarak listelenir, ihlal sayılmaz.",
+    "        for sp in kategoriler[\"s\"]:",
+    "            if not sp.get(\"f\") or not sp.get(\"t\"):",
+    "                continue",
+    "            for dp in kategoriler[\"d\"] + kategoriler[\"v\"]:"
+   ]
+  },
+  {
+   "satir": 3153,
+   "fonksiyon": "donem_sagligi",
+   "dongu_satiri": 3151,
+   "kosul": "not dp.get(\"f\") or not dp.get(\"t\")",
+   "kovali_gorunuyor": false,
+   "cevre": [
+    "        # tâbi kazanır (açık ton)\". İhlal değil, yalnız bilgi.",
+    "        for dp in kategoriler[\"d\"]:",
+    "            if not dp.get(\"f\") or not dp.get(\"t\"):",
+    "                continue",
+    "            for vp in kategoriler[\"v\"]:"
+   ]
+  },
+  {
+   "satir": 3349,
+   "fonksiyon": "main",
+   "dongu_satiri": 3346,
+   "kosul": "not Yk",
+   "kovali_gorunuyor": false,
+   "cevre": [
+    "        for dosya in KUYRUK_DOSYALARI:",
+    "            Yk = [y for y in Y_kuyruk if y.get(\"_kaynak\") == dosya]",
+    "            if not Yk:",
+    "                continue",
+    "            k_dv, a_dv = degismez2(Yk, O)"
+   ]
+  },
+  {
+   "satir": 3651,
+   "fonksiyon": "main",
+   "dongu_satiri": 3648,
+   "kosul": "not _l",
+   "kovali_gorunuyor": false,
+   "cevre": [
+    "    for _k in (\"A-koridor\", \"B-bilinmiyor\", \"C-hakiki\"):",
+    "        _l = [r for r in d7 if r[\"kova\"] == _k]",
+    "        if not _l:",
+    "            continue",
+    "        print(f\"    ── {_k} ({len(_l)})\")"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "924": {
+  "dosya": 35,
+  "uymayan": [],
+  "kronoloji_dosyasi": 42,
+  "kronolojide_OLAYLAR_tasiyan": []
+ },
+ "2833": {
+  "ANTLASMALAR": {
+   "kayit": 41,
+   "t_yok": 0,
+   "ornek": []
+  },
+  "SAVASLAR": {
+   "kayit": 171,
+   "t_yok": 0,
+   "ornek": []
+  },
+  "SEFERLER": {
+   "kayit": 61,
+   "t_yok": 0,
+   "ornek": []
+  },
+  "SERILER": {
+   "kayit": 16,
+   "t_yok": 16,
+   "ornek": [
+    "Ic isyanlar ve sehzade mucadeleleri",
+    "Osmanlı-Bizans mücadelesi",
+    "Haçlı seferleri savaşları",
+    "Osmanlı-Venedik savaşları",
+    "Osmanlı-Memlûk savaşları",
+    "Osmanlı-Safevî/İran savaşları",
+    "Osmanlı-Habsburg savaşları",
+    "Osmanlı-Lehistan savaşları",
+    "Osmanlı-Rus savaşları",
+    "Osmanlı-Yunan savaşları"
+   ]
+  }
+ },
+ "3125": {
+  "eksik_donem": 0,
+  "ornek": []
+ },
+ "1931": {
+  "donemsiz": 151,
+  "ornek": [
+   "Tamanrasset",
+   "Rub'ul Hâlî doğusu",
+   "Nûbe çölü",
+   "Gilf el-Kebîr",
+   "Selîme (Nûbe çölü batısı)",
+   "Tibesti",
+   "Hoggar",
+   "Karakum",
+   "Somali çölü",
+   "Ogaden",
+   "Uzboy",
+   "Üstyurt platosu (batı)",
+   "Üstyurt platosu (doğu)",
+   "Vâdî Sirhân",
+   "Hamâd (Bâdiyetü'ş-Şâm içi)",
+   "Widyân (el-Widyân)",
+   "Nuhayb (Nukhayb)",
+   "Serîr",
+   "Tâzirbû",
+   "Rebyâne"
+  ]
+ }
+}
