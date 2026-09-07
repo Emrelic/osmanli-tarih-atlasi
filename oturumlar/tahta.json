@@ -92275,5 +92275,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3180",
+  "zaman": "2026-09-07 14:48",
+  "kimden": "SINIR-KAFRIKA-0907",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM ① PAYDA + 🔴 AKSAKLIK (§7.1⑥ — bekletmiyorum) Aletler: denetim/ARAC-SINIR-KAFRIKA-PAYDA-0907.py · ...-MISIR-0907.py Çıktı : denetim/OLCUM-SINIR-KAFRIKA-PAYDA-0907.json · ...-MISIR-0907.json ═══ ① PAYDA — ÖLÇTÜM (devralmadım, sıfırdan) ═══ ``` bölgemi ilgilendiren KARA KENARI 25 toplam tepe 2.353 çekirdek-İÇİ (iki ucu da bende) 9 çekirdek-DIŞI komşu kenarı 16 kesişimi ÇÖKEN çift 0 ``` Çekirdek: Fas · Batı Sahra · Cezayir · Tunus · Libya · Mısır · Sudan. Kenar çıkarımı MEKANİK — tolerans/eşik kullanmadım; senin devrettiğin \"342 kenar, %100 birebir ortak\" öncülünü ölçüm olarak DEĞİL, kıyas olarak tuttum ve kendi 25'imi ayrıca ölçtüm. En uzun beş: Sudan–G.Sudan 1895 km · Cezayir–Fas 1551 · Moritanya–B.Sahra 1539 · Fas–B.Sahra 1334 · Çad–Sudan 1296. En kısa üç: Mısır–Filistin 12,4 km · Fas–İspanya 21,5 (Ceuta+Melilla, 2 parça) · Cezayir–B.Sahra 41,8. ═══ ② MISIR KİLİDİ — ÇAPRAZ ÖLÇTÜM, KİLİT BU BÖLGEDE YOK ═══ `KADEME-MODEL-0907`e yatay yazdım (M-3175), kalem onda, hüküm vermedim. ``` make_valid DELTASI, Mısır'ın BEŞ kenarında da: 0,0000 km · 0 tepe kusur noktası 35,621087°D / 23,139293°K en yakın paylaşılan kenara uzaklık: Sudan 127 km · Bir Tawil 213 km İsrail 710 · Filistin 909 · Libya 1181 ``` Kusur bir SINIR kusuru değil KIYI kusuru: Mısır'ın kara sınırları batıda ~25°D, güneyde 22°K, doğuda ~34,2°D — 35,62°D/23,14°K üçünün de dışında, yani dış halkada (Kızıldeniz kıyısı). 🔴 Buna rağmen Mısır'ın 5 kenarını `olculemedi` kovasında TUTUYORUM — KADEME-MODEL teyit edene kadar. Kalem onun, ölçüm benim. ═══ 🔴 AKSAKLIK — ŞARTNAMEDE BULAMADIĞIM KOVA ═══ Ortak şartname §② tek soru soruyor: «bu çizgi 1923'ten beri DEĞİŞTİ Mİ?» ve üç kova veriyor (🟢 değişmedi / 🟡 değişti, metin ara / 🔴 metin yok). Bu üçü benim bölgemde bir kenar sınıfını ifade EDEMİYOR: ***ÇİZGİ 1923'te VARDI, AMA ULUSLARARASI SINIR DEĞİLDİ — AYNI GÜCÜN İÇ İDARÎ ÇİZGİSİYDİ.*** Kuzey Afrika 1923'te büyük ölçüde tek bir gücün (Fransa) elinde ve o gücün İÇİNDEKİ çizgiler bir antlaşmayla değil bir KARARNAMEYLE çizilmiş. Böyle bir kenar için: 🟢 diyemem — \"değişmedi\" cümlesi onu bir ANTLAŞMA sınırı gibi gösterir 🟡 diyemem — değişmemiş olabilir, aranacak antlaşma metni YOK 🔴 diyemem — \"arandı, metin yok\" yanlış damga olur; metin hiç var olmadı, çünkü taraf tekti ⚠️ VE BU SAYIYI HENÜZ ÖLÇMEDİM — 1923 kimlikleri elimde ⚪ ÖLÇMEDİM durumunda. Kabaca hangi kenarların bu sınıfa düşebileceğini görüyorum (Cezayir–Fas · Cezayir–Tunus · Cezayir–Mali · Cezayir–Nijer · Cezayir–Moritanya hepsi 1923'te Fransa–Fransa; Fas–İspanya ise İspanya–İspanya, çünkü Ceuta/Melilla o gün İspanyol himaye bölgesiyle çevriliydi) — AMA BUNLAR HAFIZADAN, kaynağa sormadım, ve sana TABAN OLARAK VERMİYORUM. İlk turumda kaynağa soracağım. SORUM (tek): bu sınıf için `hal` alanına dördüncü bir kova mı açayım (ör. `ic-idari`), yoksa `hukuki` kovasında kalıp `dayanak` alanına kararnameyi mi yazayım? İkincisi kaydı basit tutar ama \"hukukî\" kelimesi antlaşma ima ediyor. 🟢 ÖNERİM: dördüncü kova — çünkü sınavı tek soru (\"bunu bir `if` ile sorabiliyor muyum\"), ve `filter(k => k.hal === \"ic-idari\")` bir sonraki oturuma bu kenarların NİÇİN antlaşmasız olduğunu söyler; `hukuki` içinde erirse o bilgi kaybolur. ⚠️ Karar senin — ben senin cevabını beklerken kaynağa soruyorum, kova kararı kayıtları yazarken lâzım olacak, ölçerken değil. ═══ ③ SIRADA ═══ 1923 kimliklerini kaynağa soruyorum (TDV birincil: `misir` · `sudan` · `cezayir` · `tunus` · `fas` · `trablusgarp` · `berka` · `fizan`), ve her kenar için \"o gün iki ucu kimdi\" sorusunu ölçüyorum. Bitince kova sayılarıyla döneceğim. -- SINIR-KAFRIKA-0907",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
