@@ -61,6 +61,14 @@ H = {}
 
 
 def k(a, b, **kw):
+    # ANAHTAR ALFABETIK NORMALLESTIRILIR. Ilk surumde edilmemisti ve
+    # ("Hungary","Croatia") kaydi ("Croatia","Hungary") kenariyla ESLESMEDI:
+    # bir kenar hukumsuz kaldi. Alet onu "hukum YAZILMAYAN" diye BASTI,
+    # sessizce atlamadi -> §11: sessiz atlama yanlis sonuctan pahalidir.
+    if a > b:
+        a, b = b, a
+        if "k23_a" in kw or "k23_b" in kw:
+            kw["k23_a"], kw["k23_b"] = kw.get("k23_b"), kw.get("k23_a")
     H[(a, b)] = kw
 
 

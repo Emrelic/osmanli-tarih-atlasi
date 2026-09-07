@@ -1,0 +1,58 @@
+{
+ "_NOT": "DEGISMEZ3-0907 ①b — kör nokta ve kd: derinliği.",
+ "kor_nokta": [
+  {
+   "yerlesim": "Kovel",
+   "m": "Lutsk",
+   "normal_aday": [],
+   "tani": "atlasta_yok"
+  },
+  {
+   "yerlesim": "Prizren",
+   "m": "Üsküb",
+   "normal_aday": [],
+   "tani": "atlasta_yok"
+  },
+  {
+   "yerlesim": "Rivne (Równe)",
+   "m": "Lutsk",
+   "normal_aday": [],
+   "tani": "atlasta_yok"
+  },
+  {
+   "yerlesim": "Volodymyr-Volynskyi (Włodzimierz)",
+   "m": "Lutsk",
+   "normal_aday": [],
+   "tani": "atlasta_yok"
+  }
+ ],
+ "kd": {
+  "toplam": 192,
+  "donem_dagilimi": {
+   "2": 13,
+   "1": 175,
+   "3": 4
+  },
+  "cok_donemli": 17,
+  "m_degisen": 4,
+  "k_degisen": 3,
+  "dosya": {
+   "yerlesimler.js": 37,
+   "yerlesimler_ek.js": 6,
+   "yerlesimler_avrupa.js": 16,
+   "yerlesimler_asya.js": 123,
+   "yerlesimler_ek7.js": 1,
+   "yerlesimler_ek15.js": 2,
+   "yerlesimler_h2_rusya.js": 1,
+   "yerlesimler_gdasya.js": 3,
+   "yerlesimler_ek11.js": 1,
+   "yerlesimler_ortaasya3.js": 2
+  },
+  "m_degisen_adlar": [
+   "Akkirman",
+   "Kili",
+   "Özi",
+   "Bender"
+  ]
+ }
+}

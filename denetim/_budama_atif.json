@@ -1,0 +1,2906 @@
+{
+ "n": 7,
+ "bolum_atif": {
+  "11": 2790,
+  "8": 335,
+  "2": 692,
+  "7": 1373,
+  "7.1": 791,
+  "4": 2588,
+  "1": 206,
+  "3": 310,
+  "9": 160,
+  "3.5": 958,
+  "1.5": 260,
+  "72": 44,
+  "1.2": 10,
+  "6": 175,
+  "1.1": 13,
+  "10": 90,
+  "5": 306,
+  "40": 22,
+  "71": 6,
+  "0": 34,
+  "1.6": 70,
+  "6.1": 6,
+  "5.5": 4,
+  "9.3": 9,
+  "9.35": 2,
+  "2.1": 16,
+  "8.1": 8,
+  "3.3": 3,
+  "3.1": 52,
+  "3.2": 36,
+  "3.4": 16,
+  "8.4": 10,
+  "4.5": 7,
+  "2.3": 12,
+  "3.6": 18,
+  "3.7": 6,
+  "3.8": 2,
+  "5.1": 2,
+  "12": 50,
+  "3.9": 2,
+  "3.11": 5,
+  "3.12": 2,
+  "5.4": 4,
+  "35": 16,
+  "6.4": 3,
+  "13": 28,
+  "15": 32,
+  "29": 2,
+  "13.5": 7,
+  "14": 34,
+  "13.1": 4,
+  "13.2": 4,
+  "13.7": 3,
+  "12.2": 5,
+  "10.6": 6,
+  "14.3": 3,
+  "14.4": 2,
+  "76": 35,
+  "44": 7,
+  "34": 8,
+  "6.3": 2,
+  "10.5": 2,
+  "10.3": 1,
+  "0.1": 1,
+  "4.2": 5,
+  "1.3": 3,
+  "16": 24,
+  "10.4": 1,
+  "3.0": 1,
+  "2.2": 5,
+  "2.4": 2,
+  "2.5": 1,
+  "4.7": 1,
+  "5.3": 4,
+  "6.5": 4,
+  "4.1": 9,
+  "4.4": 4,
+  "26": 6,
+  "18": 6,
+  "19": 7,
+  "61": 1,
+  "63": 7,
+  "64": 2,
+  "67": 1,
+  "33": 10,
+  "7.2": 5,
+  "41": 5,
+  "4.3": 1,
+  "82.2": 3,
+  "80": 23,
+  "80.1": 8,
+  "82": 9,
+  "73": 20,
+  "73.1": 2,
+  "74": 49,
+  "76.1": 2,
+  "78": 12,
+  "78.1": 3,
+  "66": 3,
+  "79": 8,
+  "7.5": 2,
+  "68": 4,
+  "8.6": 4,
+  "38": 1,
+  "43": 3,
+  "55": 1,
+  "51": 1,
+  "168": 1,
+  "42": 2,
+  "152": 2,
+  "17": 13,
+  "52": 1,
+  "7.4": 4,
+  "21": 12,
+  "20": 13,
+  "22": 33,
+  "6.10": 4,
+  "6.8": 1,
+  "8.2": 7,
+  "6.7": 1,
+  "6.9": 1,
+  "8.0": 2,
+  "36": 1,
+  "54": 1,
+  "2.9": 13,
+  "83.1": 1,
+  "1.4": 4,
+  "17.1": 8,
+  "17.2": 1,
+  "17.3": 4,
+  "17.4": 3,
+  "19.3": 1,
+  "19.1": 3,
+  "19.5": 6,
+  "19.6": 1,
+  "19.7": 2,
+  "24": 1,
+  "22.1": 1,
+  "23": 2,
+  "22.4": 1,
+  "15.4": 10,
+  "29.3": 1,
+  "31.3": 1,
+  "34.2": 2,
+  "32.4": 2,
+  "31": 2,
+  "37.3": 1,
+  "41.4": 1,
+  "32.5": 1,
+  "9.1": 2,
+  "9.2": 1,
+  "15.3": 1,
+  "21.5": 1,
+  "20.4": 3,
+  "15.2": 8,
+  "20.5": 2,
+  "20.2": 1,
+  "21.3": 2,
+  "18.1": 1,
+  "915": 2,
+  "21.6": 1,
+  "12.3": 6,
+  "13.4": 5,
+  "12.1": 4,
+  "20.1": 1,
+  "77": 1,
+  "892": 1,
+  "14.2": 2,
+  "14.1": 2,
+  "11.2": 2,
+  "11.3": 1,
+  "85": 5,
+  "32": 1,
+  "83": 1,
+  "81": 1,
+  "8.5": 1,
+  "8.3": 2,
+  "6.2": 1,
+  "2015": 1
+ },
+ "dersler": [
+  {
+   "bas": 2009,
+   "token": 101,
+   "satir": 4,
+   "etiket": "replace(eski, yeni, 1) — Python'da sayı argümanı ilk eşleşmeyi değiştirir.",
+   "pencere": 33,
+   "vurus": 2,
+   "oran": 0.06060606060606061,
+   "kaynak": [
+    "oturumlar:oturumlar/BOSLUK-CINSI.md"
+   ]
+  },
+  {
+   "bas": 2013,
+   "token": 84,
+   "satir": 3,
+   "etiket": "Yakın mükerrer yerleşim — Varat/Varad 1 km arayla iki kayıttı; Afyon ve",
+   "pencere": 28,
+   "vurus": 22,
+   "oran": 0.7857142857142857,
+   "kaynak": [
+    "denetim:denetim/BULGU-SINIR-TRAKYA.md",
+    "oturumlar:oturumlar/CAPRAZ-AKDENIZ.md",
+    "oturumlar:oturumlar/NOKTA-EPIR.md",
+    "oturumlar:oturumlar/OTURUM-2-HATA-AVI.md",
+    "oturumlar:oturumlar/PAKET-0035-0902.md"
+   ]
+  },
+  {
+   "bas": 2016,
+   "token": 24,
+   "satir": 1,
+   "etiket": "Üretimi veri değişirken başlatma. Dört üretim bu yüzden çöpe gitti.",
+   "pencere": 4,
+   "vurus": 0,
+   "oran": 0.0,
+   "kaynak": []
+  },
+  {
+   "bas": 2017,
+   "token": 50,
+   "satir": 2,
+   "etiket": "Denetim ölçütünü gevşetme. \"Maddesi var mı\" sorusunun cevabı \"aynı gün\" ya da",
+   "pencere": 12,
+   "vurus": 0,
+   "oran": 0.0,
+   "kaynak": []
+  },
+  {
+   "bas": 2019,
+   "token": 291,
+   "satir": 14,
+   "etiket": "sed ile Türkçe karakterli / kesme işaretli düzeltme yapma — Git Bash'te",
+   "pencere": 101,
+   "vurus": 9,
+   "oran": 0.0891089108910891,
+   "kaynak": [
+    "denetim:denetim/OLCUM-KAYNAK-TASIMIYOR-0905.md",
+    "oturumlar:oturumlar/NOKTA-HALKA2-2.md",
+    "oturumlar:oturumlar/RENK-2-ILERLEME.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-0225"
+   ]
+  },
+  {
+   "bas": 2033,
+   "token": 329,
+   "satir": 13,
+   "etiket": "🔴 \"BU GÜN ZATEN VAR\" YETMİYOR — HANGİ KOVADA OLDUĞU DA SORULMALI.",
+   "pencere": 116,
+   "vurus": 8,
+   "oran": 0.06896551724137931,
+   "kaynak": [
+    "oturumlar:oturumlar/NOKTA-HALKA2-2.md",
+    "tahta:tahta.json#M-1098",
+    "tahta:tahta.json#M-1533",
+    "tahta:tahta.json#M-1960",
+    "tahta:tahta.json#M-1992"
+   ]
+  },
+  {
+   "bas": 2046,
+   "token": 333,
+   "satir": 15,
+   "etiket": "🔴 \"DENETİM VAR\" ≠ \"O SORUYU SORUYOR.\" Aynı gün ÜÇ ayrı körlük ölçüldü",
+   "pencere": 110,
+   "vurus": 9,
+   "oran": 0.08181818181818182,
+   "kaynak": [
+    "arac:arac/adres_nobetci.py",
+    "arac:arac/renkler.py",
+    "oturumlar:oturumlar/RENK-2-ILERLEME.md",
+    "tahta:tahta.json#M-0501",
+    "tahta:tahta.json#M-2622"
+   ]
+  },
+  {
+   "bas": 2061,
+   "token": 305,
+   "satir": 15,
+   "etiket": "🔴 \"ÇÖZÜLEMEDİ\" DEMEDEN ÖNCE HANGİ KISITIN BAĞLADIĞINI ÖLÇ.",
+   "pencere": 94,
+   "vurus": 18,
+   "oran": 0.19148936170212766,
+   "kaynak": [
+    "arac:arac/_uc_renk_kisit.py",
+    "arac:arac/renk_olc.py",
+    "arac:arac/renkler.py",
+    "oturumlar:oturumlar/GECIS-SURE-0907.md",
+    "oturumlar:oturumlar/RENK-2-ILERLEME.md"
+   ]
+  },
+  {
+   "bas": 2076,
+   "token": 206,
+   "satir": 11,
+   "etiket": "📌 BAZI LİSTELER KUYRUK DEĞİL PENCEREDİR. SINIRDA uyarı listesinin",
+   "pencere": 56,
+   "vurus": 0,
+   "oran": 0.0,
+   "kaynak": []
+  },
+  {
+   "bas": 2087,
+   "token": 516,
+   "satir": 25,
+   "etiket": "🔴 YENİ YAZILAN DENETİM, İKİ YÖNDE DE SINANMADAN \"ÇALIŞIYOR\" SAYILMAZ.",
+   "pencere": 183,
+   "vurus": 33,
+   "oran": 0.18032786885245902,
+   "kaynak": [
+    "arac:arac/_odenmis_sinav_ok102.py",
+    "arac:arac/evren_dogrula.py",
+    "oturumlar:oturumlar/ARAYUZ-KUYRUK-0902.md",
+    "oturumlar:oturumlar/DEGISMEZ-7-ENKLAV-SORGU.md",
+    "oturumlar:oturumlar/NOKTA-HALKA2-2.md"
+   ]
+  },
+  {
+   "bas": 2112,
+   "token": 429,
+   "satir": 21,
+   "etiket": "🔴 VERİ PENCERESİ İLE KÜNYE PENCERESİ AYRI ŞEYLERDİR — biri BUGÜNKÜ,",
+   "pencere": 132,
+   "vurus": 19,
+   "oran": 0.14393939393939395,
+   "kaynak": [
+    "denetim:denetim/BULGU-HAYALET-DONEM-2.md",
+    "denetim:denetim/OLCUM-MANDA-RENK-CAKISMA-0906.md",
+    "oturumlar:oturumlar/RENK-2-ILERLEME.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-1904"
+   ]
+  },
+  {
+   "bas": 2133,
+   "token": 269,
+   "satir": 12,
+   "etiket": "🔴 BİR SÜZGECİ KALDIRMADAN ÖNCE, SÜZGECİN NEYİ KORUDUĞUNU OKU.",
+   "pencere": 87,
+   "vurus": 21,
+   "oran": 0.2413793103448276,
+   "kaynak": [
+    "oturumlar:oturumlar/RENK-2-ILERLEME.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-0227",
+    "tahta:tahta.json#M-0298",
+    "tahta:tahta.json#M-0391"
+   ]
+  },
+  {
+   "bas": 2145,
+   "token": 308,
+   "satir": 15,
+   "etiket": "🔴 C13ÜN EKSİK AYAĞI: HANGİ YÖNÜN ZORLANACAĞI ÖNCEDEN BİLİNMEZ.",
+   "pencere": 108,
+   "vurus": 2,
+   "oran": 0.018518518518518517,
+   "kaynak": [
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-1226",
+    "tahta:tahta.json#M-1229",
+    "tahta:tahta.json#M-1293",
+    "tahta:tahta.json#M-1294"
+   ]
+  },
+  {
+   "bas": 2160,
+   "token": 1538,
+   "satir": 72,
+   "etiket": "🔴 YUVARLAK TARİH YALNIZ YANLIŞ DEĞİLDİR — ÇELİŞKİYİ DE SAKLAR.",
+   "pencere": 500,
+   "vurus": 125,
+   "oran": 0.25,
+   "kaynak": [
+    "arac:arac/denetle.py",
+    "denetim:denetim/BULGU-DENETIM-ACIK.md",
+    "denetim:denetim/BULGU-HAYALET-DONEM.md",
+    "denetim:denetim/HUKUM-CAKISMA-TASNIF-18-0906.md",
+    "oturumlar:oturumlar/IRAN-ARDILLARI-ILERLEME.md"
+   ]
+  },
+  {
+   "bas": 2232,
+   "token": 638,
+   "satir": 33,
+   "etiket": "🔴 ÖLÇEMEDİĞİNİ ELEYEN BİR SÜZGEÇ, ONU TEMİZ SAYAR.",
+   "pencere": 217,
+   "vurus": 63,
+   "oran": 0.2903225806451613,
+   "kaynak": [
+    "arac:arac/renk_olc.py",
+    "arac:arac/renkler.py",
+    "denetim:denetim/A3-RENK-KARARI.md",
+    "denetim:denetim/BULGU-HAYALET-DONEM.md",
+    "denetim:denetim/BULGU-HUKUM-ALANI-0904.md"
+   ]
+  },
+  {
+   "bas": 2265,
+   "token": 245,
+   "satir": 11,
+   "etiket": "🔴 ORTAK BİR KANALA ÖZEL BİR MESAJ KOYMAK, ONU HERKESE GÖNDERMEKTİR.",
+   "pencere": 75,
+   "vurus": 9,
+   "oran": 0.12,
+   "kaynak": [
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-0094",
+    "tahta:tahta.json#M-2609",
+    "tahta:tahta.json#M-2610"
+   ]
+  },
+  {
+   "bas": 2276,
+   "token": 631,
+   "satir": 37,
+   "etiket": "🔴 BİR DÜZELTME DOĞRU ÇALIŞABİLİR VE SONRAKİ AŞAMA ONU GERİ ALABİLİR —",
+   "pencere": 208,
+   "vurus": 47,
+   "oran": 0.22596153846153846,
+   "kaynak": [
+    "arac:arac/uret_petek.py",
+    "denetim:denetim/BULGU-OK109-TRAKYA.md",
+    "denetim:denetim/DOCX-KALAN-16.md",
+    "denetim:denetim/ONGORU-TAVAN-200-SONUC.md",
+    "oturumlar:oturumlar/MOTOR-DENIZASIRI.md"
+   ]
+  },
+  {
+   "bas": 2313,
+   "token": 816,
+   "satir": 41,
+   "etiket": "🔴 BİR DOSYANIN \"VERİ Mİ KOD MU\" OLDUĞUNU İÇERİĞİ DEĞİL, ARACIN ONA",
+   "pencere": 272,
+   "vurus": 40,
+   "oran": 0.14705882352941177,
+   "kaynak": [
+    "arac:arac/uret_petek.py",
+    "denetim:denetim/BULGU-ETIKET-OK104.md",
+    "denetim:denetim/BULGU-SINIR-TRAKYA.md",
+    "oturumlar:oturumlar/MACARISTAN-SERHAT-ILERLEME.md",
+    "oturumlar:oturumlar/MOTOR-EPOK-ILERLEME.md"
+   ]
+  },
+  {
+   "bas": 2354,
+   "token": 350,
+   "satir": 15,
+   "etiket": "🟢 ÖLÇÜMDEN ÖNCE, HANGİ ÖNGÖRÜNÜN \"MAZERETİ OLABİLECEĞİNİ\" DE YAZ.",
+   "pencere": 108,
+   "vurus": 0,
+   "oran": 0.0,
+   "kaynak": []
+  },
+  {
+   "bas": 2369,
+   "token": 1234,
+   "satir": 63,
+   "etiket": "🔴 \"SAHİPSİZ\"İN İKİ CİNSİ VARDIR VE SINAVI ŞUDUR: KAYNAK KONUŞUYOR MU,",
+   "pencere": 410,
+   "vurus": 88,
+   "oran": 0.2146341463414634,
+   "kaynak": [
+    "arac:arac/denetle.py",
+    "arac:arac/girdi.py",
+    "denetim:denetim/BULGU-BOSLUK-CINSI.md",
+    "denetim:denetim/BULGU-OKYANUSYA-0903.md",
+    "denetim:denetim/BULGULAR-COL-19AGU.md"
+   ]
+  },
+  {
+   "bas": 2432,
+   "token": 313,
+   "satir": 16,
+   "etiket": "🔴 TEMİZ ÇIKAN BİR ÖRNEKLEM, ÖRNEKLEMİN DIŞINI TEMİZ İLAN ETMEZ.",
+   "pencere": 90,
+   "vurus": 7,
+   "oran": 0.07777777777777778,
+   "kaynak": [
+    "denetim:denetim/BULGU-MALIYET.md",
+    "denetim:denetim/BULGU-OWTRAD-GOC.md",
+    "oturumlar:oturumlar/ARABISTAN-DUZELTMELER.md",
+    "oturumlar:oturumlar/CAPRAZ-AKDENIZ-ILERLEME.md",
+    "oturumlar:oturumlar/PETEK-NOKTA-ILERLEME.md"
+   ]
+  },
+  {
+   "bas": 2448,
+   "token": 573,
+   "satir": 33,
+   "etiket": "🟢 ÖNGÖRÜ ÖLÇÜMDEN ÖNCE YAZILIR — SONRA YAZILAN BEKLENTİ AYARLANABİLİR,",
+   "pencere": 182,
+   "vurus": 60,
+   "oran": 0.32967032967032966,
+   "kaynak": [
+    "denetim:denetim/BULGU-HUKUM-ALANI-0904.md",
+    "denetim:denetim/EGIM-ONGORU.md",
+    "denetim:denetim/KOSU-2-ONGORU.md",
+    "denetim:denetim/KOSU4-ONGORU.md",
+    "denetim:denetim/MALIYET-ASAMA2-ONGORU.md"
+   ]
+  },
+  {
+   "bas": 2481,
+   "token": 383,
+   "satir": 19,
+   "etiket": "🔴 KENDİ YAZDIĞIN AYRIŞTIRICI, VAR OLAN BİR AYRIŞTIRICIDAN HER ZAMAN",
+   "pencere": 124,
+   "vurus": 44,
+   "oran": 0.3548387096774194,
+   "kaynak": [
+    "arac:arac/_bk_nobetci.py",
+    "denetim:denetim/BULGULAR-0024.md",
+    "denetim:denetim/DOCX-KALAN-16.md",
+    "oturumlar:oturumlar/RENK-2-ILERLEME.md",
+    "oturumlar:oturumlar/TAHTA.md"
+   ]
+  },
+  {
+   "bas": 2500,
+   "token": 709,
+   "satir": 37,
+   "etiket": "🔴 İKİ AYRI KUSUR TEK SATIRDA RAPORLANIRSA, ÇARELERİ TERS OLSA BİLE",
+   "pencere": 235,
+   "vurus": 46,
+   "oran": 0.19574468085106383,
+   "kaynak": [
+    "arac:arac/_konum_duzelt.py",
+    "arac:arac/denetle.py",
+    "denetim:denetim/BULGU-ORTEN-KUNYE-0905.md",
+    "denetim:denetim/HUKUM-CAKISMA-KORFEZ-0906.md",
+    "denetim:denetim/HUKUM-UCGEN-BASKALE-CALDIRAN-0906.md"
+   ]
+  },
+  {
+   "bas": 2537,
+   "token": 579,
+   "satir": 30,
+   "etiket": "🔴 \"ÇÖZÜLEMEDİ\"NİN ÜÇÜNCÜ CİNSİ: SIRA BAĞLIYOR OLABİLİR — VE BU,",
+   "pencere": 183,
+   "vurus": 27,
+   "oran": 0.14754098360655737,
+   "kaynak": [
+    "arac:arac/renkler.py",
+    "denetim:denetim/BULGU-GAT.md",
+    "oturumlar:oturumlar/RENK-2-ILERLEME.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-1872"
+   ]
+  },
+  {
+   "bas": 2567,
+   "token": 395,
+   "satir": 20,
+   "etiket": "🔴 BİR KISIT \"UYGULANAMADI\" DİYE SESSİZ GEÇİLİRSE, UYGULANMIŞ SANILIR.",
+   "pencere": 122,
+   "vurus": 37,
+   "oran": 0.30327868852459017,
+   "kaynak": [
+    "arac:arac/_sahiplik_uygula.py",
+    "arac:arac/denetle_eslesme.py",
+    "arac:arac/renkler.py",
+    "oturumlar:oturumlar/RENK-2-ILERLEME.md",
+    "oturumlar:oturumlar/TAHTA.md"
+   ]
+  },
+  {
+   "bas": 2587,
+   "token": 262,
+   "satir": 13,
+   "etiket": "🟢 VE NÖBETÇİ İLK GERÇEK YAKALAYIŞINI YAPTI — \"KAÇ TANE VAR\" DEĞİL",
+   "pencere": 71,
+   "vurus": 4,
+   "oran": 0.056338028169014086,
+   "kaynak": [
+    "arac:arac/renkler.py",
+    "oturumlar:oturumlar/RENK-2-ILERLEME.md"
+   ]
+  },
+  {
+   "bas": 2600,
+   "token": 812,
+   "satir": 42,
+   "etiket": "🔴 BİR ALAN TASARLAMADAN ÖNCE, O ALANIN ZATEN VAR OLUP OLMADIĞINI ÖLÇ —",
+   "pencere": 287,
+   "vurus": 49,
+   "oran": 0.17073170731707318,
+   "kaynak": [
+    "arac:arac/kademe.py",
+    "arac:arac/maliyet.py",
+    "oturumlar:oturumlar/KADEME-KD.md",
+    "oturumlar:oturumlar/NOKTA-AFRIKA-IC.md",
+    "oturumlar:oturumlar/PAKET-GEOMETRI-0904.md"
+   ]
+  },
+  {
+   "bas": 2642,
+   "token": 613,
+   "satir": 31,
+   "etiket": "🔴 BİR ARACIN VERDİĞİ REÇETE, UYGULANINCA KENDİ TESTİNİ GEÇMEK",
+   "pencere": 198,
+   "vurus": 21,
+   "oran": 0.10606060606060606,
+   "kaynak": [
+    "arac:arac/_konum_duzelt.py",
+    "arac:arac/denetle.py",
+    "denetim:denetim/BULGU-KADEME-K0.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-0244"
+   ]
+  },
+  {
+   "bas": 2673,
+   "token": 645,
+   "satir": 32,
+   "etiket": "🔴 ATLAS SEFERİ DEĞİL TASARRUFU BOYAR — bir kimliğin TARİHSEL ERİŞİMİ",
+   "pencere": 212,
+   "vurus": 11,
+   "oran": 0.05188679245283019,
+   "kaynak": [
+    "oturumlar:oturumlar/NOKTA-EMILME.md",
+    "oturumlar:oturumlar/RENK-2-ILERLEME.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-1766"
+   ]
+  },
+  {
+   "bas": 2705,
+   "token": 339,
+   "satir": 16,
+   "etiket": "🔴 EŞİK TEK SAYI DEĞİLDİR: ANLATININ MERKEZİNDEKİ ÇİFT DAHA FAZLASINI",
+   "pencere": 103,
+   "vurus": 14,
+   "oran": 0.13592233009708737,
+   "kaynak": [
+    "denetim:denetim/BULGU-0032-VERI.md",
+    "denetim:denetim/OLCUM-MANDA-RENK-CAKISMA-0906.md",
+    "oturumlar:oturumlar/RENK-2-ILERLEME.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-1242"
+   ]
+  },
+  {
+   "bas": 2721,
+   "token": 336,
+   "satir": 14,
+   "etiket": "🔴 ENGEL KÜMESİ, KAPATILMAK İSTENEN ÇİFTİ İÇERMİYORSA ÇÖZÜM O ÇİFTİ",
+   "pencere": 103,
+   "vurus": 15,
+   "oran": 0.14563106796116504,
+   "kaynak": [
+    "arac:arac/renkler.py",
+    "oturumlar:oturumlar/RENK-2-ILERLEME.md",
+    "tahta:tahta.json#M-1302",
+    "tahta:tahta.json#M-1303",
+    "tahta:tahta.json#M-2298"
+   ]
+  },
+  {
+   "bas": 2735,
+   "token": 250,
+   "satir": 16,
+   "etiket": "🔴 \"ÇÖZÜLEMEDİ\"NİN İKİ CİNSİ VARDIR VE AYIRT EDİLMELİ.",
+   "pencere": 66,
+   "vurus": 2,
+   "oran": 0.030303030303030304,
+   "kaynak": [
+    "oturumlar:oturumlar/RENK-AFRIKA.md"
+   ]
+  },
+  {
+   "bas": 2751,
+   "token": 265,
+   "satir": 11,
+   "etiket": "🔴 BİR BİLGİ İKİ YERDE DURUYORSA, BİRİ GÜNCELLENİNCE ÖTEKİ BAYATLAR —",
+   "pencere": 83,
+   "vurus": 11,
+   "oran": 0.13253012048192772,
+   "kaynak": [
+    "arac:arac/renkler.py",
+    "denetim:denetim/BULGU-OWTRAD-GOC.md",
+    "oturumlar:oturumlar/RENK-2-ILERLEME.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "oturumlar:oturumlar/YONTEM-1923-SINIR.md"
+   ]
+  },
+  {
+   "bas": 2762,
+   "token": 599,
+   "satir": 29,
+   "etiket": "🔴 BİR RAPORDA ÖLÇÜLMÜŞ İLE HATIRLANMIŞ YAN YANA DURURSA, OKUYAN",
+   "pencere": 180,
+   "vurus": 21,
+   "oran": 0.11666666666666667,
+   "kaynak": [
+    "denetim:denetim/BULGU-OK126-1B.md",
+    "denetim:denetim/HUKUM-OSMANLI-TBMM-4NOKTA-0906.md",
+    "oturumlar:oturumlar/FERHAT-PASA-1590.md",
+    "oturumlar:oturumlar/KIMLIK-KID-0907.md",
+    "oturumlar:oturumlar/MOTOR-DENIZASIRI.md"
+   ]
+  },
+  {
+   "bas": 2791,
+   "token": 252,
+   "satir": 14,
+   "etiket": "🔴 HÜKÜM İLE TEŞHİS AYRI ŞEYLERDİR — bir raporu kabul etmeden ÖLÇ.",
+   "pencere": 74,
+   "vurus": 15,
+   "oran": 0.20270270270270271,
+   "kaynak": [
+    "oturumlar:oturumlar/RENK-2-ILERLEME.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-0300",
+    "tahta:tahta.json#M-0309",
+    "tahta:tahta.json#M-1078"
+   ]
+  },
+  {
+   "bas": 2805,
+   "token": 253,
+   "satir": 13,
+   "etiket": "🔴 BİR ALETİN EVRENİ DEĞİŞİNCE, ALET DEĞİŞMEDEN SESSİZCE YANILIR.",
+   "pencere": 85,
+   "vurus": 16,
+   "oran": 0.18823529411764706,
+   "kaynak": [
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-0087",
+    "tahta:tahta.json#M-0192",
+    "tahta:tahta.json#M-0328",
+    "tahta:tahta.json#M-0344"
+   ]
+  },
+  {
+   "bas": 2818,
+   "token": 375,
+   "satir": 18,
+   "etiket": "🔴 \"ŞU DÜZELTMEYİ YAP\" DENİNCE ÖNCE KUSURUN ÜREYİP ÜREMEDİĞİNİ ÖLÇ —",
+   "pencere": 123,
+   "vurus": 29,
+   "oran": 0.23577235772357724,
+   "kaynak": [
+    "denetim:denetim/BULGU-ETIKET-OK104.md",
+    "denetim:denetim/BULGU-KID-KIMLIK-0907.md",
+    "oturumlar:oturumlar/RENK-2-ILERLEME.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-0717"
+   ]
+  },
+  {
+   "bas": 2836,
+   "token": 777,
+   "satir": 38,
+   "etiket": "🔴 BİR KURALIN YAZILI OLMASI, UYGULANDIĞI ANLAMINA GELMİYOR — ve ihlaller",
+   "pencere": 275,
+   "vurus": 31,
+   "oran": 0.11272727272727273,
+   "kaynak": [
+    "arac:arac/kabuk_nobetci.py",
+    "denetim:denetim/OLCUM-KAYNAK-TASIMIYOR-0905.md",
+    "oturumlar:oturumlar/MOTOR-MALIYET.md",
+    "oturumlar:oturumlar/NOKTA-GDASYA.md",
+    "oturumlar:oturumlar/NOKTA-HALKA2-2.md"
+   ]
+  },
+  {
+   "bas": 2874,
+   "token": 866,
+   "satir": 45,
+   "etiket": "🔴 KOORDİNATÖRÜN \"HIZLI BİR BAKIŞ\" ÖLÇÜMÜ, İŞ DAĞITIMININ TABANI",
+   "pencere": 309,
+   "vurus": 38,
+   "oran": 0.12297734627831715,
+   "kaynak": [
+    "arac:arac/_bk_nobetci.py",
+    "arac:arac/denetle.py",
+    "arac:arac/denetle_eslesme.py",
+    "arac:arac/isal.py",
+    "denetim:denetim/BULGU-KRONOLOJI-EK8.md"
+   ]
+  },
+  {
+   "bas": 2919,
+   "token": 648,
+   "satir": 32,
+   "etiket": "🔴 -F <dosya> KULLANMAK YETMİYOR — O DOSYANIN NASIL YAZILDIĞI DA",
+   "pencere": 221,
+   "vurus": 13,
+   "oran": 0.058823529411764705,
+   "kaynak": [
+    "arac:arac/adres_nobetci.py",
+    "arac:arac/sunucu.py",
+    "arac:arac/tahta.py",
+    "oturumlar:oturumlar/BAYRAK.md",
+    "oturumlar:oturumlar/DEVIR-0907.md"
+   ]
+  },
+  {
+   "bas": 2951,
+   "token": 463,
+   "satir": 22,
+   "etiket": "🔴 BİR DÜZELTMENİN VERİDE İNMESİ, HARİTADA İNDİĞİ ANLAMINA GELMEZ.",
+   "pencere": 161,
+   "vurus": 35,
+   "oran": 0.21739130434782608,
+   "kaynak": [
+    "denetim:denetim/BULGU-AFRIKA-ARS.md",
+    "denetim:denetim/BULGU-BARKA-1281-1551-0905.md",
+    "denetim:denetim/BULGU-D7-YENI.md",
+    "denetim:denetim/BULGU-ETIKET-OK104.md",
+    "denetim:denetim/BULGU-GEOMETRI-0904.md"
+   ]
+  },
+  {
+   "bas": 2973,
+   "token": 344,
+   "satir": 18,
+   "etiket": "🔴 ALETİN GÖSTERDİĞİ ≠ DOSYADA YAZAN. Bir \\b kaçışı bozulup dosyaya",
+   "pencere": 107,
+   "vurus": 12,
+   "oran": 0.11214953271028037,
+   "kaynak": [
+    "arac:arac/bayt_denetle.py",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-0225"
+   ]
+  },
+  {
+   "bas": 2991,
+   "token": 618,
+   "satir": 32,
+   "etiket": "🔴 BİR ŞİKÂYET, ŞİKÂYET EDİLEN ŞEYDEN DAHA HIZLI BAYATLAR — VE EKRAN",
+   "pencere": 201,
+   "vurus": 36,
+   "oran": 0.1791044776119403,
+   "kaynak": [
+    "denetim:denetim/BULGU-GECE-TASNIF-2.md",
+    "denetim:denetim/DOCX-11-15.md",
+    "oturumlar:oturumlar/PAKET-GEOMETRI-0904.md",
+    "oturumlar:oturumlar/PAKET-TASNIF.md",
+    "oturumlar:oturumlar/TAHTA.md"
+   ]
+  },
+  {
+   "bas": 3023,
+   "token": 588,
+   "satir": 28,
+   "etiket": "🔴🔴 \"İSTENEN ŞEYİN ALTYAPISI ZATEN VARDI\" — BİR GÜNDE BEŞ KEZ.",
+   "pencere": 206,
+   "vurus": 49,
+   "oran": 0.23786407766990292,
+   "kaynak": [
+    "arac:arac/olc_enklav/olc_kova.py",
+    "denetim:denetim/BULGU-PAKET-0035.md",
+    "denetim:denetim/BULGU-TASNIF.md",
+    "oturumlar:oturumlar/HAZIR-KITA-3-ILERLEME.md",
+    "oturumlar:oturumlar/TASNIF.md"
+   ]
+  },
+  {
+   "bas": 3051,
+   "token": 656,
+   "satir": 35,
+   "etiket": "🔴 BİR DERS VERİYE SERBEST METİN OLARAK İNERSE, İNMİŞ SAYILMAZ — VE",
+   "pencere": 207,
+   "vurus": 32,
+   "oran": 0.15458937198067632,
+   "kaynak": [
+    "arac:arac/denetle.py",
+    "denetim:denetim/BULGU-2S-CARPISMA.md",
+    "denetim:denetim/BULGU-2Y-OK102.md",
+    "denetim:denetim/BULGU-HIMAYE-MACARISTAN.md",
+    "denetim:denetim/BULGU-OK122-MUKERRER.md"
+   ]
+  },
+  {
+   "bas": 3086,
+   "token": 630,
+   "satir": 37,
+   "etiket": "🔴 LOG DA BİR ÇIKTIDIR VE O DA BAYATLAR — VE DOSYA ADI NUMARASI TARİHLE",
+   "pencere": 215,
+   "vurus": 21,
+   "oran": 0.09767441860465116,
+   "kaynak": [
+    "oturumlar:oturumlar/MOTOR-DENIZASIRI-ILERLEME.md",
+    "oturumlar:oturumlar/MOTOR-DENIZASIRI.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-0413",
+    "tahta:tahta.json#M-0852"
+   ]
+  },
+  {
+   "bas": 3123,
+   "token": 798,
+   "satir": 40,
+   "etiket": "🔴 SİLİNEN KODUN MEZAR TAŞI, HAYATTA KALAN KOD HAKKINDA BİR İDDİADIR —",
+   "pencere": 267,
+   "vurus": 17,
+   "oran": 0.06367041198501873,
+   "kaynak": [
+    "denetim:denetim/HUKUM-CAKISMA-TASNIF-18-0906.md",
+    "oturumlar:oturumlar/KOSU-SONRASI-KUYRUK.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-1225",
+    "tahta:tahta.json#M-1229"
+   ]
+  },
+  {
+   "bas": 3163,
+   "token": 417,
+   "satir": 17,
+   "etiket": "🔴 BUGÜNÜN EN SIK HATASI TEK BİR SINIFTI: ÖLÇÜM DOĞRU, ÇIKARIM YANLIŞ.",
+   "pencere": 135,
+   "vurus": 8,
+   "oran": 0.05925925925925926,
+   "kaynak": [
+    "oturumlar:oturumlar/ALTI-BARDAK.md",
+    "oturumlar:oturumlar/DEVIR-KURALI.md",
+    "oturumlar:oturumlar/DUNYA-PENCERE.md",
+    "oturumlar:oturumlar/ORTAK-PAKET-KURALLARI.md",
+    "oturumlar:oturumlar/TAHTA.md"
+   ]
+  },
+  {
+   "bas": 3180,
+   "token": 763,
+   "satir": 39,
+   "etiket": "🔴 BİR DEFTERİN ANAHTARI KARARSIZSA, DEFTER SESSİZCE YALAN SÖYLER —",
+   "pencere": 246,
+   "vurus": 16,
+   "oran": 0.06504065040650407,
+   "kaynak": [
+    "arac:arac/_defter_sinav_ok102.py",
+    "arac:arac/denetle_eslesme.py",
+    "denetim:denetim/BULGU-OK126-1B.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-2000"
+   ]
+  },
+  {
+   "bas": 3219,
+   "token": 364,
+   "satir": 20,
+   "etiket": "🔴 İKİ AYRI SORUNUN AYNI CEVABI VERMESİ, AYNI SORU OLDUĞU ANLAMINA",
+   "pencere": 125,
+   "vurus": 9,
+   "oran": 0.072,
+   "kaynak": [
+    "denetim:denetim/DUZELTME-PANEL-EVRENI-0907.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-2006",
+    "tahta:tahta.json#M-2252",
+    "tahta:tahta.json#M-2648"
+   ]
+  },
+  {
+   "bas": 3239,
+   "token": 1190,
+   "satir": 60,
+   "etiket": "🔴 BİR ALET YANLIŞ BİRİM ETİKETİ BASIYORSA, ONA YAZILAN ÖNGÖRÜ",
+   "pencere": 391,
+   "vurus": 72,
+   "oran": 0.18414322250639387,
+   "kaynak": [
+    "arac:arac/uret_petek.py",
+    "denetim:denetim/PUANLAMA-ONGORU.md",
+    "oturumlar:oturumlar/ARASTIRMA-DUNYA-0902.md",
+    "oturumlar:oturumlar/MOTOR-KUYRUK-0902.md",
+    "oturumlar:oturumlar/TAHTA.md"
+   ]
+  },
+  {
+   "bas": 3299,
+   "token": 872,
+   "satir": 45,
+   "etiket": "🔴 C13ÜN ÜÇÜNCÜ AYAĞI: GİRDİYİ GERÇEK KAYNAĞINDAN OKUMA YOLU DA",
+   "pencere": 299,
+   "vurus": 100,
+   "oran": 0.33444816053511706,
+   "kaynak": [
+    "arac:arac/_bk_nobetci.py",
+    "arac:arac/_kronoloji_uygula.py",
+    "arac:arac/denetle.py",
+    "arac:arac/tahta.py",
+    "denetim:denetim/KUYRUK-ARAYUZ-P0003.md"
+   ]
+  },
+  {
+   "bas": 3344,
+   "token": 990,
+   "satir": 49,
+   "etiket": "🔴 \"ATLASTA YOK\" HÜKMÜ, NORMALLEŞTİRİCİSİZ BİR ARAMAYLA VERİLEMEZ —",
+   "pencere": 312,
+   "vurus": 27,
+   "oran": 0.08653846153846154,
+   "kaynak": [
+    "denetim:denetim/BULGU-AFRIKA-ARS.md",
+    "oturumlar:oturumlar/PAKET-0035-0902.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-2110",
+    "tahta:tahta.json#M-2458"
+   ]
+  },
+  {
+   "bas": 3393,
+   "token": 515,
+   "satir": 30,
+   "etiket": "🔴 BİR ÖNGÖRÜ, SINAVININ KOŞULACAĞI ANI DA TARİF ETMELİDİR — damga",
+   "pencere": 164,
+   "vurus": 29,
+   "oran": 0.17682926829268292,
+   "kaynak": [
+    "oturumlar:oturumlar/HUKUM-ALANI-0904.md",
+    "oturumlar:oturumlar/MOTOR-KUYRUK-0902.md",
+    "oturumlar:oturumlar/PAKET-RENK-0904.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-2126"
+   ]
+  },
+  {
+   "bas": 3423,
+   "token": 377,
+   "satir": 20,
+   "etiket": "🟢 VE BİR ÖNGÖRÜ ÜÇ AYRI CİNSTEN ÇÜRÜR — ÜÇÜNCÜSÜ EN DEĞERLİSİ.",
+   "pencere": 126,
+   "vurus": 16,
+   "oran": 0.12698412698412698,
+   "kaynak": [
+    "arac:arac/uret_petek.py",
+    "denetim:denetim/BULGU-AFRIKA-ARS.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-2126",
+    "tahta:tahta.json#M-2338"
+   ]
+  },
+  {
+   "bas": 3443,
+   "token": 530,
+   "satir": 26,
+   "etiket": "🟢 BİR KOD ARGÜMANI, BİR KONTROL KOŞUSUNDAN GENİŞ OLABİLİR —",
+   "pencere": 172,
+   "vurus": 23,
+   "oran": 0.13372093023255813,
+   "kaynak": [
+    "arac:arac/uret_petek.py",
+    "denetim:denetim/BULGU-OK126-1B.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-2126",
+    "tahta:tahta.json#M-2426"
+   ]
+  },
+  {
+   "bas": 3469,
+   "token": 1212,
+   "satir": 68,
+   "etiket": "🔴 DOĞRU SONUCU GÜVENİLMEZ YOLDAN VEREN ALET — ve kendini ELE VERMEZ.",
+   "pencere": 410,
+   "vurus": 56,
+   "oran": 0.13658536585365855,
+   "kaynak": [
+    "denetim:denetim/BULGU-HAYALET-0905.md",
+    "oturumlar:oturumlar/BAYRAK-DEVRI-0903.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-2129",
+    "tahta:tahta.json#M-2131"
+   ]
+  },
+  {
+   "bas": 3537,
+   "token": 328,
+   "satir": 20,
+   "etiket": "🔴 BİR HÜKÜM, VERİYE İNMEDİKÇE HÜKÜM DEĞİL BİR METİNDİR.",
+   "pencere": 106,
+   "vurus": 8,
+   "oran": 0.07547169811320754,
+   "kaynak": [
+    "denetim:denetim/BULGU-AFRIKA-0903.md",
+    "denetim:denetim/HUKUM-KRONOLOJI-SUPHELI-0905.md",
+    "denetim:denetim/HUKUM-YAMA-CAKISMA-0905.md",
+    "oturumlar:oturumlar/KOSU-SONRASI-0903.md",
+    "tahta:tahta.json#M-0172"
+   ]
+  },
+  {
+   "bas": 3557,
+   "token": 987,
+   "satir": 58,
+   "etiket": "🔴🔴 BİR ALET, ARADIĞI ŞEYİN NEREDE OLMAYACAĞINI DA BİLMELİ.",
+   "pencere": 335,
+   "vurus": 30,
+   "oran": 0.08955223880597014,
+   "kaynak": [
+    "arac:arac/_kronoloji_uygula.py",
+    "arac:arac/_sahiplik_uygula.py",
+    "arac:arac/denetle.py",
+    "arac:arac/tahta.py",
+    "denetim:denetim/BULGU-UYGULAYICI-IKI-KUSUR-0907.md"
+   ]
+  },
+  {
+   "bas": 3615,
+   "token": 992,
+   "satir": 47,
+   "etiket": "🔴🔴 KENDİ KURDUĞUN ÖLÇÜM PENCERESİ, GÖRMEDİĞİNİ \"YOK\" DİYE GÖSTERİR —",
+   "pencere": 334,
+   "vurus": 55,
+   "oran": 0.16467065868263472,
+   "kaynak": [
+    "denetim:denetim/BALKAN-YUGOSLAVYA-0906.md",
+    "denetim:denetim/BULGU-DORTKALEM-0907.md",
+    "denetim:denetim/OLCUM-ALAN-KAPSAMA-397-0905.md",
+    "denetim:denetim/OLCUM-ISG-MAKEDONYA-0905.md",
+    "denetim:denetim/ONERI-ALET-BORCLARI-0907.md"
+   ]
+  },
+  {
+   "bas": 3662,
+   "token": 818,
+   "satir": 46,
+   "etiket": "🔴 BİR SEVK, TAŞIDIĞI ÖNCÜLÜ DE DOĞRULAMALIDIR — koordinatör tarafı",
+   "pencere": 258,
+   "vurus": 10,
+   "oran": 0.03875968992248062,
+   "kaynak": [
+    "denetim:denetim/BULGU-NEHIR-0904.md",
+    "denetim:denetim/ORTADOGU-OLCUM-ADAL-0907.md",
+    "oturumlar:oturumlar/PAKET-0035-0902.md",
+    "oturumlar:oturumlar/SINIR-HUKUKI-ORTAK-0907.md",
+    "oturumlar:oturumlar/TAHTA.md"
+   ]
+  },
+  {
+   "bas": 3708,
+   "token": 441,
+   "satir": 22,
+   "etiket": "🔴 DOĞRU BİLGİ, ÖLÜ ADRES — kaynak: alanının yarım çalışan hâli.",
+   "pencere": 136,
+   "vurus": 12,
+   "oran": 0.08823529411764706,
+   "kaynak": [
+    "oturumlar:oturumlar/SINIR-HUKUKI-ORTAK-0907.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-0111",
+    "tahta:tahta.json#M-0206",
+    "tahta:tahta.json#M-0870"
+   ]
+  },
+  {
+   "bas": 3730,
+   "token": 1503,
+   "satir": 74,
+   "etiket": "🔴🔴 BİR ARAMA, ARADIĞI ŞEYİN KAÇ AYRI BİÇİMDE YAZILABİLECEĞİNİ",
+   "pencere": 489,
+   "vurus": 91,
+   "oran": 0.18609406952965235,
+   "kaynak": [
+    "arac:arac/_uc_renk_kisit.py",
+    "arac:arac/renkler.py",
+    "denetim:denetim/BULGU-AFRIKA-0903.md",
+    "denetim:denetim/BULGU-OKYANUSYA-0903.md",
+    "denetim:denetim/HUKUM-YAMA-CAKISMA-0905.md"
+   ]
+  },
+  {
+   "bas": 3804,
+   "token": 384,
+   "satir": 20,
+   "etiket": "🔴 BİR DÜZELTME SLUGA DEĞİL KAYDA BAKAR — aynı slug iki kayıtta",
+   "pencere": 129,
+   "vurus": 2,
+   "oran": 0.015503875968992248,
+   "kaynak": [
+    "denetim:denetim/BULGU-OK128-KIRMIZI.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-2231",
+    "tahta:tahta.json#M-2251"
+   ]
+  },
+  {
+   "bas": 3824,
+   "token": 726,
+   "satir": 37,
+   "etiket": "🔴 3 KM BİR YASAK DEĞİL, BİR ŞÜPHE EŞİĞİDİR — ve şartı ZAMAN",
+   "pencere": 242,
+   "vurus": 18,
+   "oran": 0.0743801652892562,
+   "kaynak": [
+    "arac:arac/girdi.py",
+    "denetim:denetim/BULGU-OK109-KARAAGAC.md",
+    "denetim:denetim/BULGU-OKYANUSYA-0903.md"
+   ]
+  },
+  {
+   "bas": 3861,
+   "token": 1130,
+   "satir": 50,
+   "etiket": "🔴 BİR BEYAN, ARACIN ALAN KÜMESİNDE YOKSA SESSİZCE DÜŞER — VE",
+   "pencere": 373,
+   "vurus": 139,
+   "oran": 0.3726541554959786,
+   "kaynak": [
+    "arac:arac/_sahiplik_uygula.py",
+    "arac:arac/denetle.py",
+    "denetim:denetim/BULGU-2S-CARPISMA.md",
+    "denetim:denetim/BULGU-AFRIKA-0903.md",
+    "denetim:denetim/BULGU-ARTUKLU-0905.md"
+   ]
+  },
+  {
+   "bas": 3911,
+   "token": 369,
+   "satir": 20,
+   "etiket": "🔴 BİR DÖNGÜDE BAŞARI VARLIKLA, HATA YOKLUKLA BİLDİRİLİRSE HATA",
+   "pencere": 118,
+   "vurus": 8,
+   "oran": 0.06779661016949153,
+   "kaynak": [
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-2256"
+   ]
+  },
+  {
+   "bas": 3931,
+   "token": 404,
+   "satir": 21,
+   "etiket": "🔴 BİR HÜKÜM DOSYASI BİR ÖLÇÜM DEĞİL, ÖLÇÜMÜN FOTOĞRAFIDIR — ve",
+   "pencere": 137,
+   "vurus": 2,
+   "oran": 0.014598540145985401,
+   "kaynak": [
+    "tahta:tahta.json#M-2359",
+    "tahta:tahta.json#M-2363",
+    "tahta:tahta.json#M-2761",
+    "tahta:tahta.json#M-2762"
+   ]
+  },
+  {
+   "bas": 3952,
+   "token": 1345,
+   "satir": 66,
+   "etiket": "🔴🔴 DOĞRU KAPIYA GİDİP YANLIŞ YERDEN DİNLEMEK — yokluğu TEMİZLİK",
+   "pencere": 460,
+   "vurus": 98,
+   "oran": 0.21304347826086956,
+   "kaynak": [
+    "denetim:denetim/BULGU-KAYNAK-DENETIM-0907.md",
+    "denetim:denetim/EGIM-ONGORU.md",
+    "denetim:denetim/KOSU4-ONGORU.md",
+    "denetim:denetim/MALIYET-ONGORU.md",
+    "denetim:denetim/OLCUM-TAVAN-0905.md"
+   ]
+  },
+  {
+   "bas": 4018,
+   "token": 667,
+   "satir": 32,
+   "etiket": "🟢🟢 BİR DENETİM ADAYI ÖLÇÜLDÜ VE \"BUNU YAZMAYIN\" DİYE RAPORLANDI — ve",
+   "pencere": 208,
+   "vurus": 50,
+   "oran": 0.2403846153846154,
+   "kaynak": [
+    "denetim:denetim/OLCUM-SON-KAYDI-T-0905.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "oturumlar:oturumlar/VERI-DEVLET-GOREV.md",
+    "tahta:tahta.json#M-2928",
+    "tahta:tahta.json#M-2931"
+   ]
+  },
+  {
+   "bas": 4050,
+   "token": 316,
+   "satir": 13,
+   "etiket": "🔴 KIRPILMIŞ BİR ÇIKTI DA BİR ÖLÇÜM DEĞİLDİR. (aynı tur)",
+   "pencere": 97,
+   "vurus": 39,
+   "oran": 0.4020618556701031,
+   "kaynak": [
+    "denetim:denetim/BULGU-CEMISGEZEK-PALU-0905.md",
+    "denetim:denetim/OLCUM-HASSASIYET-DAYANAK-0907.md",
+    "denetim:denetim/OLCUM-SON-KAYDI-T-0905.md",
+    "denetim:denetim/OLCUM-YAMA-KAYIP-0906.md",
+    "denetim:denetim/ONERI-ALET-BORCLARI-0907.md"
+   ]
+  },
+  {
+   "bas": 4063,
+   "token": 828,
+   "satir": 38,
+   "etiket": "🔴🔴 İKİ KAYNAK ÇELİŞİYOR DEMEDEN ÖNCE, İKİSİNİN AYNI YERDEN",
+   "pencere": 262,
+   "vurus": 53,
+   "oran": 0.20229007633587787,
+   "kaynak": [
+    "denetim:denetim/BULGU-BARKA-1281-1551-0905.md",
+    "denetim:denetim/BULGU-OK109-KARAAGAC.md",
+    "denetim:denetim/HUKUM-YAMA-CAKISMA-0905.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-0827"
+   ]
+  },
+  {
+   "bas": 4101,
+   "token": 802,
+   "satir": 38,
+   "etiket": "🟢 ÜÇ BAĞIMSIZ ÖLÇÜT AYNI KÜMEYE YAKINSARSA, BU KÜMENİN TAM OLDUĞUNUN",
+   "pencere": 261,
+   "vurus": 55,
+   "oran": 0.210727969348659,
+   "kaynak": [
+    "denetim:denetim/OLCUM-TUR-SON-ETIKET-0905.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-2934",
+    "tahta:tahta.json#M-2938"
+   ]
+  },
+  {
+   "bas": 4139,
+   "token": 393,
+   "satir": 19,
+   "etiket": "🟢 AYNI DAMGA, FARKLI DAYANAK GÜCÜ — damga GÖRÜNÜR kılar, ama NE KADAR",
+   "pencere": 136,
+   "vurus": 19,
+   "oran": 0.13970588235294118,
+   "kaynak": [
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-2935",
+    "tahta:tahta.json#M-2940"
+   ]
+  },
+  {
+   "bas": 4158,
+   "token": 343,
+   "satir": 19,
+   "etiket": "🔴 VARLIK ÇAPASI, TASARRUF ÇAPASI DEĞİLDİR — ve atlas tasarruf boyar.",
+   "pencere": 109,
+   "vurus": 14,
+   "oran": 0.12844036697247707,
+   "kaynak": [
+    "denetim:denetim/DEVIR-AFRIKA-0904.md",
+    "denetim:denetim/HUKUM-UCGEN-BASKALE-CALDIRAN-0906.md",
+    "denetim:denetim/OLCUM-ENKLAV-ACIK-KALEM-0906.md",
+    "oturumlar:oturumlar/MERGE-KONTROL-0905.md",
+    "oturumlar:oturumlar/OK104-ILERLEME.md"
+   ]
+  },
+  {
+   "bas": 4177,
+   "token": 1802,
+   "satir": 83,
+   "etiket": "🔴🔴 BİR TUTARSIZLIK BİR TERCİH DEĞİL, BİR EKSİĞİN SONUCU OLABİLİR — ve",
+   "pencere": 598,
+   "vurus": 163,
+   "oran": 0.2725752508361204,
+   "kaynak": [
+    "denetim:denetim/BULGU-2S-CARPISMA.md",
+    "denetim:denetim/BULGU-AFRIKA-0903.md",
+    "denetim:denetim/BULGU-ARTUKLU-0905.md",
+    "denetim:denetim/BULGU-DORTKALEM-0907.md",
+    "denetim:denetim/BULGU-KID-KIMLIK-0907.md"
+   ]
+  },
+  {
+   "bas": 4260,
+   "token": 615,
+   "satir": 30,
+   "etiket": "🔴 BİR YER ADI GÖVDEDE GEÇEBİLİR VE GÖVDE ONU KAPSAMIYOR OLABİLİR —",
+   "pencere": 196,
+   "vurus": 36,
+   "oran": 0.1836734693877551,
+   "kaynak": [
+    "denetim:denetim/BULGU-BARKA-1281-1551-0905.md",
+    "denetim:denetim/OLCUM-UCGEN-BASKALE-CALDIRAN-0906.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "oturumlar:oturumlar/YONTEM-1923-SINIR.md",
+    "tahta:tahta.json#M-2936"
+   ]
+  },
+  {
+   "bas": 4290,
+   "token": 451,
+   "satir": 25,
+   "etiket": "🔴 YETERLİ AMA GEREKLİ OLMAYAN BİR ÖLÇÜT, MALİYETİ FAZLA SAYAR — ve",
+   "pencere": 162,
+   "vurus": 20,
+   "oran": 0.12345679012345678,
+   "kaynak": [
+    "denetim:denetim/OLCUM-V-KIMLIK-BOSLUGU-0905.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-0227",
+    "tahta:tahta.json#M-0391",
+    "tahta:tahta.json#M-1204"
+   ]
+  },
+  {
+   "bas": 4315,
+   "token": 611,
+   "satir": 32,
+   "etiket": "🔴 BİR İSYANIN VARLIĞI TASARRUFU DEĞİŞTİRMEZ — SONUCU DEĞİŞTİRİR.",
+   "pencere": 193,
+   "vurus": 50,
+   "oran": 0.25906735751295334,
+   "kaynak": [
+    "denetim:denetim/BULGU-EVFAT-0905.md",
+    "denetim:denetim/DEVIR-AFRIKA-0904.md",
+    "denetim:denetim/HUKUM-UCGEN-BASKALE-CALDIRAN-0906.md",
+    "denetim:denetim/OLCUM-ENKLAV-ACIK-KALEM-0906.md",
+    "oturumlar:oturumlar/MERGE-KONTROL-0905.md"
+   ]
+  },
+  {
+   "bas": 4347,
+   "token": 719,
+   "satir": 37,
+   "etiket": "🔴 BİR ÖLÇÜT, KARŞILAŞTIRILAN İKİ SEÇENEĞİ AYIRT ETMİYORSA, CEVABI",
+   "pencere": 249,
+   "vurus": 73,
+   "oran": 0.2931726907630522,
+   "kaynak": [
+    "denetim:denetim/ONERI-NEHIR-CAPA-0905.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-2949",
+    "tahta:tahta.json#M-2950"
+   ]
+  },
+  {
+   "bas": 4384,
+   "token": 788,
+   "satir": 42,
+   "etiket": "🔴🔴 EŞANLAM BORCUNUN ÜÇÜNCÜ EKSENİ: KAYNAK VERİSİNİN KENDİSİ BOZUK",
+   "pencere": 255,
+   "vurus": 60,
+   "oran": 0.23529411764705882,
+   "kaynak": [
+    "denetim:denetim/OLCUM-CEKIRDEK-NEHIR-0905.md",
+    "denetim:denetim/SERHAT-NEHIR-0907.md",
+    "oturumlar:oturumlar/KOSU-SONRASI-KUYRUK.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-2951"
+   ]
+  },
+  {
+   "bas": 4426,
+   "token": 322,
+   "satir": 15,
+   "etiket": "🔴 İDARÎ DEVİR, SAHİPLİK DEĞİŞİMİ DEĞİLDİR — ve atlas sahiplik çizer.",
+   "pencere": 99,
+   "vurus": 43,
+   "oran": 0.43434343434343436,
+   "kaynak": [
+    "denetim:denetim/BULGU-BARKA-1281-1551-0905.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-2948",
+    "tahta:tahta.json#M-2952"
+   ]
+  },
+  {
+   "bas": 4441,
+   "token": 375,
+   "satir": 20,
+   "etiket": "🟢 KOMŞUSUNUN KULLANDIĞI GÜNÜ KULLANMAK, KENDİ GÜNÜNÜ SEÇMEKTEN",
+   "pencere": 128,
+   "vurus": 31,
+   "oran": 0.2421875,
+   "kaynak": [
+    "denetim:denetim/BALKAN-BULGU-0906.md",
+    "denetim:denetim/HUKUM-UCGEN-BASKALE-CALDIRAN-0906.md",
+    "denetim:denetim/HUKUM-YAMA-CAKISMA-0905.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-2948"
+   ]
+  },
+  {
+   "bas": 4461,
+   "token": 433,
+   "satir": 21,
+   "etiket": "🔴 BİR ÇARENİN MALİYETİ, BEKLENEN EKSENDE OLMAYABİLİR — ve yanlış",
+   "pencere": 145,
+   "vurus": 48,
+   "oran": 0.3310344827586207,
+   "kaynak": [
+    "denetim:denetim/OLCUM-HIMAYE-CARE-MALIYETI-0905.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-2947",
+    "tahta:tahta.json#M-2954"
+   ]
+  },
+  {
+   "bas": 4482,
+   "token": 376,
+   "satir": 20,
+   "etiket": "🟢 BİR KUSURUN YAPISAL SEBEBİNİ BULMAK, ONUN YAYGINLIĞINI DA SÖYLER.",
+   "pencere": 129,
+   "vurus": 58,
+   "oran": 0.4496124031007752,
+   "kaynak": [
+    "denetim:denetim/OLCUM-CEKIRDEK-NEHIR-0905.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-2955"
+   ]
+  },
+  {
+   "bas": 4502,
+   "token": 376,
+   "satir": 18,
+   "etiket": "🟢 ELENEN BİR ADAYIN GEREKÇESİ, SONRADAN BULUNAN VERİYLE ÖLÇÜLEBİLİR",
+   "pencere": 115,
+   "vurus": 12,
+   "oran": 0.10434782608695652,
+   "kaynak": [
+    "denetim:denetim/OLCUM-CEKIRDEK-NEHIR-0905.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-2955"
+   ]
+  },
+  {
+   "bas": 4520,
+   "token": 787,
+   "satir": 34,
+   "etiket": "🟢🟢 YAZILI OLMAYAN BİR KONVANSİYON, ANCAK ONA UYMAYAN BİR KAYIT",
+   "pencere": 250,
+   "vurus": 77,
+   "oran": 0.308,
+   "kaynak": [
+    "denetim:denetim/HUKUM-YAMA-CAKISMA-0905.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-0827",
+    "tahta:tahta.json#M-2203",
+    "tahta:tahta.json#M-2959"
+   ]
+  },
+  {
+   "bas": 4554,
+   "token": 693,
+   "satir": 33,
+   "etiket": "🔴🔴 VERİ MODELİNİN İFADE EDEMEDİĞİ BİR İLİŞKİYİ, EDEBİLDİĞİ BİR",
+   "pencere": 207,
+   "vurus": 20,
+   "oran": 0.0966183574879227,
+   "kaynak": [
+    "denetim:denetim/HUKUM-MANDA-KIMLIK-0906.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-2957",
+    "tahta:tahta.json#M-2961"
+   ]
+  },
+  {
+   "bas": 4587,
+   "token": 591,
+   "satir": 29,
+   "etiket": "🟢 BİR SLUG'I TAHMİN ETME — KAYNAĞIN KENDİ BAĞLANTISINI OKU.",
+   "pencere": 181,
+   "vurus": 21,
+   "oran": 0.11602209944751381,
+   "kaynak": [
+    "denetim:denetim/OLCUM-HIMAYE-CARE-MALIYETI-0905.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-0369",
+    "tahta:tahta.json#M-1240",
+    "tahta:tahta.json#M-1853"
+   ]
+  },
+  {
+   "bas": 4616,
+   "token": 647,
+   "satir": 32,
+   "etiket": "🟢🟢 UZUN BİR KOŞUDA CANLILIĞIN ÜÇÜNCÜ SİNYALİ: CPU DELTASI — ve",
+   "pencere": 224,
+   "vurus": 0,
+   "oran": 0.0,
+   "kaynak": []
+  },
+  {
+   "bas": 4648,
+   "token": 744,
+   "satir": 34,
+   "etiket": "🟢🟢 \"ÇELİŞKİ\" SANILAN ŞEYİN BEŞ MEKANİZMASI — bir gecede beşi de",
+   "pencere": 250,
+   "vurus": 46,
+   "oran": 0.184,
+   "kaynak": [
+    "denetim:denetim/BULGU-HARPUT-1429-0905.md",
+    "denetim:denetim/HUKUM-YAMA-CAKISMA-0905.md",
+    "denetim:denetim/SARTNAME-KAYNAK-DENETIMI-0905.md",
+    "oturumlar:oturumlar/KOSU-SONRASI-KUYRUK.md",
+    "oturumlar:oturumlar/TAHTA.md"
+   ]
+  },
+  {
+   "bas": 4682,
+   "token": 620,
+   "satir": 29,
+   "etiket": "🔴🔴 \"ADIYLA ANIYOR\" İLE \"TARİHLİYOR\" AYNI ŞEY DEĞİLDİR — ve gövdedeki",
+   "pencere": 200,
+   "vurus": 36,
+   "oran": 0.18,
+   "kaynak": [
+    "denetim:denetim/ASYA-DORT-POLITY-0907.md",
+    "denetim:denetim/BULGU-AFRIKA-ARS.md",
+    "denetim:denetim/OLCUM-UCGEN-BASKALE-CALDIRAN-0906.md",
+    "oturumlar:oturumlar/NOKTA-AFRIKA-IC-ILERLEME.md",
+    "oturumlar:oturumlar/NOKTA-SIBIRYA-2-ILERLEME.md"
+   ]
+  },
+  {
+   "bas": 4711,
+   "token": 378,
+   "satir": 20,
+   "etiket": "🔴 BİR MÜKERRER KURALI HEP MEVCUDU KAYIRIYORSA, MEVCUDUN HATASINI DA",
+   "pencere": 128,
+   "vurus": 19,
+   "oran": 0.1484375,
+   "kaynak": [
+    "arac:arac/_hukum_birlestir.py",
+    "denetim:denetim/HUKUM-KRONOLOJI-SUPHELI-0905.md",
+    "denetim:denetim/HUKUM-YAMA-CAKISMA-0905.md",
+    "oturumlar:oturumlar/KOSU-SONRASI-0903.md",
+    "oturumlar:oturumlar/TAHTA.md"
+   ]
+  },
+  {
+   "bas": 4731,
+   "token": 969,
+   "satir": 45,
+   "etiket": "🔴🔴 BİR GLOB BİR AD SÖZLEŞMESİDİR: DOSYANIN ADI ONUN CİNSİNİ İLÂN",
+   "pencere": 313,
+   "vurus": 76,
+   "oran": 0.24281150159744408,
+   "kaynak": [
+    "arac:arac/_kunye_uygula.py",
+    "denetim:denetim/OLCUM-ALAN-KAPSAMA-397-0905.md",
+    "denetim:denetim/OLCUM-KUNYE-CAKISMA-0905.md",
+    "denetim:denetim/ONERI-ALET-BORCLARI-0907.md",
+    "denetim:denetim/SINAV-KUNYE-SEMA-0905.md"
+   ]
+  },
+  {
+   "bas": 4776,
+   "token": 599,
+   "satir": 31,
+   "etiket": "🔴🔴 KAYNAK BULUNAMIYORSA, ÖNCE ARANAN ŞEYİN DOĞRU OLDUĞUNU DOĞRULA —",
+   "pencere": 197,
+   "vurus": 21,
+   "oran": 0.1065989847715736,
+   "kaynak": [
+    "oturumlar:oturumlar/KOSU-SONRASI-KUYRUK.md",
+    "oturumlar:oturumlar/MERGE-KONTROL-0905.md",
+    "oturumlar:oturumlar/NOKTA-EKLEME-ILERLEME.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-2203"
+   ]
+  },
+  {
+   "bas": 4807,
+   "token": 404,
+   "satir": 20,
+   "etiket": "🔴 \"MÜKERRER\" GEREKÇESİ İKİ SINIF SAKLAYABİLİR — VE BİRİ SESSİZ BİR",
+   "pencere": 128,
+   "vurus": 46,
+   "oran": 0.359375,
+   "kaynak": [
+    "denetim:denetim/HUKUM-KRONOLOJI-SUPHELI-0905.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-2980"
+   ]
+  },
+  {
+   "bas": 4827,
+   "token": 265,
+   "satir": 12,
+   "etiket": "🔴 BİR HÜKMÜ VERMEK İLE UYGULAMAK AYRI YETKİLERDİR — ve §7",
+   "pencere": 79,
+   "vurus": 12,
+   "oran": 0.1518987341772152,
+   "kaynak": [
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-2980"
+   ]
+  },
+  {
+   "bas": 4839,
+   "token": 955,
+   "satir": 48,
+   "etiket": "🔴🔴 BİR ARTEFAKT HİÇBİR ALETİN GLOB'UNA GİRMİYORSA, YAPILMAMIŞ",
+   "pencere": 307,
+   "vurus": 81,
+   "oran": 0.26384364820846906,
+   "kaynak": [
+    "denetim:denetim/OLCUM-GLOB-TARIH-CIVISI-0907.md",
+    "denetim:denetim/OLCUM-KUNYE-CAKISMA-0905.md",
+    "denetim:denetim/ONERI-ALET-BORCLARI-0907.md",
+    "denetim:denetim/ONGORU-ZEND-KACAR-0905.md",
+    "denetim:denetim/SERHAT-KOVA-0907.md"
+   ]
+  },
+  {
+   "bas": 4887,
+   "token": 503,
+   "satir": 29,
+   "etiket": "🔴🔴 İZLENEBİLİRLİK, DOĞRULANMIŞLIKTAN ÖNCE GELİR — çünkü izlenebilir",
+   "pencere": 153,
+   "vurus": 27,
+   "oran": 0.17647058823529413,
+   "kaynak": [
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-0111",
+    "tahta:tahta.json#M-0206",
+    "tahta:tahta.json#M-0870",
+    "tahta:tahta.json#M-1242"
+   ]
+  },
+  {
+   "bas": 4916,
+   "token": 286,
+   "satir": 14,
+   "etiket": "🟢 BİR DAMGA, BİR HÜKMÜN DAYANAĞI OLABİLİR. (aynı tur ·",
+   "pencere": 90,
+   "vurus": 8,
+   "oran": 0.08888888888888889,
+   "kaynak": [
+    "denetim:denetim/BULGU-S120-2S-KOVA.md",
+    "denetim:denetim/KUTU-BULGULAR.md",
+    "denetim:denetim/OLCUM-ENKLAV-TEYIT-0906.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-2985"
+   ]
+  },
+  {
+   "bas": 4930,
+   "token": 268,
+   "satir": 13,
+   "etiket": "🟢 BİR DAVRANIŞ KASITLI OLABİLİR VE YİNE DE EKSİK OLABİLİR — kusur",
+   "pencere": 93,
+   "vurus": 0,
+   "oran": 0.0,
+   "kaynak": []
+  },
+  {
+   "bas": 4943,
+   "token": 426,
+   "satir": 21,
+   "etiket": "🟢 İÇERİK ÖLÇÜTÜ BİR SAYIM DEĞİL: \"SINANABİLİR ÖĞE\" SAYMAK YETMEZ,",
+   "pencere": 135,
+   "vurus": 21,
+   "oran": 0.15555555555555556,
+   "kaynak": [
+    "denetim:denetim/HUKUM-KRONOLOJI-SUPHELI-0905.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-2985",
+    "tahta:tahta.json#M-2988"
+   ]
+  },
+  {
+   "bas": 4964,
+   "token": 1116,
+   "satir": 56,
+   "etiket": "🔴 BİR CÜMLE İKİ KAYIT ARASINDA TAŞINIRKEN KAYNAĞINI DA TAŞIR — yoksa",
+   "pencere": 361,
+   "vurus": 41,
+   "oran": 0.11357340720221606,
+   "kaynak": [
+    "denetim:denetim/HUKUM-KRONOLOJI-SUPHELI-0905.md",
+    "denetim:denetim/OLCUM-ALAN-KAPSAMA-397-0905.md",
+    "denetim:denetim/ONERI-ALET-BORCLARI-0907.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-2372"
+   ]
+  },
+  {
+   "bas": 5020,
+   "token": 1169,
+   "satir": 57,
+   "etiket": "🔴🔴 BİR REFERANS, ÖLÇTÜĞÜ ŞEYİN YANINDA DURMALI — BEYANIN YANINDA",
+   "pencere": 393,
+   "vurus": 4,
+   "oran": 0.010178117048346057,
+   "kaynak": [
+    "oturumlar:oturumlar/KOSU-SONRASI-KUYRUK.md"
+   ]
+  },
+  {
+   "bas": 5077,
+   "token": 351,
+   "satir": 17,
+   "etiket": "🔴 DAMGA BİR İDDİAYI NE MEŞRULAŞTIRIR NE DÜZELTİR — YALNIZ GÖRÜNÜR",
+   "pencere": 102,
+   "vurus": 5,
+   "oran": 0.049019607843137254,
+   "kaynak": [
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-2669",
+    "tahta:tahta.json#M-2935"
+   ]
+  },
+  {
+   "bas": 5094,
+   "token": 253,
+   "satir": 12,
+   "etiket": "🔴 \"BULUNAMADI\" · \"ÖLÇÜLEMEDİ\" · \"OKUMADIM\" — ÜÇ AYRI DAMGA.",
+   "pencere": 61,
+   "vurus": 18,
+   "oran": 0.29508196721311475,
+   "kaynak": [
+    "denetim:denetim/BULGU-HUKUM-ALANI-0904.md",
+    "oturumlar:oturumlar/ORTADOGU-1923.md",
+    "oturumlar:oturumlar/SINIR-HUKUKI-ORTAK-0907.md",
+    "oturumlar:oturumlar/YONTEM-1923-SINIR.md"
+   ]
+  },
+  {
+   "bas": 5106,
+   "token": 305,
+   "satir": 12,
+   "etiket": "🔴 VE BİR DÜZELTME, YANLIŞ UYGULANIRSA DOĞRU VERİYİ BOZAR — \"ÇEK\"",
+   "pencere": 86,
+   "vurus": 5,
+   "oran": 0.05813953488372093,
+   "kaynak": [
+    "oturumlar:oturumlar/KOSU-SONRASI-KUYRUK.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "oturumlar:oturumlar/TESPIH.md",
+    "tahta:tahta.json#M-2844"
+   ]
+  },
+  {
+   "bas": 5118,
+   "token": 365,
+   "satir": 18,
+   "etiket": "🔴 TDV TUZAK LİSTESİNE ALTINCI: CANLI YÖNLENDİRME KÜTÜĞÜ.",
+   "pencere": 116,
+   "vurus": 14,
+   "oran": 0.1206896551724138,
+   "kaynak": [
+    "denetim:denetim/DEVIR-AFRIKA-0904.md"
+   ]
+  },
+  {
+   "bas": 5136,
+   "token": 1282,
+   "satir": 62,
+   "etiket": "🔴🔴 TDV TUZAK LİSTESİNE YEDİNCİ: TAKVİM — VE TDV KENDİ İÇİNDE",
+   "pencere": 444,
+   "vurus": 42,
+   "oran": 0.0945945945945946,
+   "kaynak": [
+    "denetim:denetim/BULGU-ESLESME-KAYMASI.md",
+    "denetim:denetim/SARTNAME-KAYNAK-DENETIMI-0905.md",
+    "oturumlar:oturumlar/FAZ2-MILLI-MUCADELE.md",
+    "oturumlar:oturumlar/KOSU-SONRASI-KUYRUK.md",
+    "oturumlar:oturumlar/TAHTA.md"
+   ]
+  },
+  {
+   "bas": 5198,
+   "token": 237,
+   "satir": 11,
+   "etiket": "🔴 BİR DEVLETİN KRONOLOJİSİNE, TARAF OLMADIĞI BİR OLAY YAZILMAZ.",
+   "pencere": 71,
+   "vurus": 23,
+   "oran": 0.323943661971831,
+   "kaynak": [
+    "denetim:denetim/DEVIR-AFRIKA-0904.md",
+    "denetim:denetim/HUKUM-UCGEN-BASKALE-CALDIRAN-0906.md",
+    "denetim:denetim/OLCUM-ENKLAV-ACIK-KALEM-0906.md",
+    "oturumlar:oturumlar/MERGE-KONTROL-0905.md",
+    "oturumlar:oturumlar/OK104-ILERLEME.md"
+   ]
+  },
+  {
+   "bas": 5209,
+   "token": 695,
+   "satir": 42,
+   "etiket": "🔴🔴 BİR KAYNAĞIN MARKASI, ONUN PROVENANSI DEĞİLDİR — aynı alan adı",
+   "pencere": 256,
+   "vurus": 17,
+   "oran": 0.06640625,
+   "kaynak": [
+    "denetim:denetim/KRONOLOJI-GUNEYAMERIKA-0904-DEVIR.md",
+    "oturumlar:oturumlar/AMERIKA-OKYANUSYA-1923.md",
+    "oturumlar:oturumlar/ASYA-1923.md",
+    "oturumlar:oturumlar/HUKUM-ALANI-0904.md",
+    "oturumlar:oturumlar/SINIR-HUKUKI-ORTAK-0907.md"
+   ]
+  },
+  {
+   "bas": 5251,
+   "token": 188,
+   "satir": 9,
+   "etiket": "🟢 VE HASSASİYETİ DÜŞÜRMEK BİLGİYİ SİLMEZ — DAYANAĞINI GÖRÜNÜR KILAR.",
+   "pencere": 59,
+   "vurus": 0,
+   "oran": 0.0,
+   "kaynak": []
+  },
+  {
+   "bas": 5260,
+   "token": 461,
+   "satir": 29,
+   "etiket": "🔴 BİR BULGUNUN SAHİBİ, BULGUNUN KENDİSİ KADAR KAYITTIR.",
+   "pencere": 160,
+   "vurus": 3,
+   "oran": 0.01875,
+   "kaynak": [
+    "arac:arac/maliyet.py",
+    "denetim:denetim/HUKUM-CAKISMA-TASNIF-18-0906.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-2512",
+    "tahta:tahta.json#M-2524"
+   ]
+  },
+  {
+   "bas": 5289,
+   "token": 531,
+   "satir": 26,
+   "etiket": "🔴🔴 YAYIN, VERİNİN BEŞ PARTİ GERİSİNDE — VE HİÇBİR DENETİM BUNU",
+   "pencere": 175,
+   "vurus": 12,
+   "oran": 0.06857142857142857,
+   "kaynak": [
+    "denetim:denetim/BULGU-GEOMETRI-0904.md",
+    "oturumlar:oturumlar/DUNYA-YERLESIM-PROGRAMI.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-2670"
+   ]
+  },
+  {
+   "bas": 5315,
+   "token": 480,
+   "satir": 25,
+   "etiket": "🔴 ÇOK PARÇALI BİR İLİŞKİYİ TEK SAYIYA İNDİREN ÖLÇÜ, KUSURU ALT SINIR",
+   "pencere": 163,
+   "vurus": 5,
+   "oran": 0.03067484662576687,
+   "kaynak": [
+    "denetim:denetim/BULGU-GEOMETRI-0904.md",
+    "oturumlar:oturumlar/TESPIH.md"
+   ]
+  },
+  {
+   "bas": 5340,
+   "token": 138,
+   "satir": 7,
+   "etiket": "🟢 AYNI SAYININ TEKRAR ETMESİ, İLK ÖNCE ALETTEN ŞÜPHELENDİRİR.",
+   "pencere": 42,
+   "vurus": 0,
+   "oran": 0.0,
+   "kaynak": []
+  },
+  {
+   "bas": 5347,
+   "token": 678,
+   "satir": 36,
+   "etiket": "🔴 GİZLİ BİR SEKMEDE YAPILAN HER TARAYICI ÖLÇÜMÜ «YOK» DER — VE «YOK»",
+   "pencere": 236,
+   "vurus": 4,
+   "oran": 0.01694915254237288,
+   "kaynak": [
+    "denetim:denetim/ESLEME-VASSAL-KUNYE-0906.md",
+    "denetim:denetim/ONERI-ALET-BORCLARI-0907.md",
+    "oturumlar:oturumlar/KURE-GORUNUM-0904.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-2876"
+   ]
+  },
+  {
+   "bas": 5383,
+   "token": 744,
+   "satir": 37,
+   "etiket": "🔴 AYNI RENGİ İKİ ALET FARKLI HARMANLIYOR — VE BİRİ EKRANDA OLMAYAN BİR",
+   "pencere": 248,
+   "vurus": 0,
+   "oran": 0.0,
+   "kaynak": []
+  },
+  {
+   "bas": 5420,
+   "token": 823,
+   "satir": 39,
+   "etiket": "🟢 AÇIK KALEM KAPANDI: \"10 ÇAKIŞMA\" BİR YAMA KUSURU DEĞİL, GERÇEKTİ —",
+   "pencere": 287,
+   "vurus": 22,
+   "oran": 0.07665505226480836,
+   "kaynak": [
+    "arac:arac/renkler.py",
+    "denetim:denetim/BULGU-ENKLAV-0907.md",
+    "denetim:denetim/BULGU-KESINLIK-0905.md",
+    "denetim:denetim/OLCUM-GUVENLI-PAY-0907.md",
+    "oturumlar:oturumlar/KOSU-SONRASI-KUYRUK.md"
+   ]
+  },
+  {
+   "bas": 5459,
+   "token": 1049,
+   "satir": 52,
+   "etiket": "🔴🔴 KOMŞULUK BİR İPUCUDUR, KANIT DEĞİLDİR — VE BİR KİMLİĞİ ATAMAK",
+   "pencere": 349,
+   "vurus": 78,
+   "oran": 0.22349570200573066,
+   "kaynak": [
+    "denetim:denetim/OLCUM-SAHTE-POZITIF-0905.md",
+    "oturumlar:oturumlar/KOSU-SONRASI-KUYRUK.md",
+    "oturumlar:oturumlar/PETEK-NOKTA-ILERLEME.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-0289"
+   ]
+  },
+  {
+   "bas": 5511,
+   "token": 1303,
+   "satir": 67,
+   "etiket": "🟢🟢 İKİ OTURUM, AYNI GECE, KENDİ MANŞET SAYISINI ÇÜRÜTTÜ — VE İKİSİ DE",
+   "pencere": 447,
+   "vurus": 54,
+   "oran": 0.12080536912751678,
+   "kaynak": [
+    "denetim:denetim/BULGU-KURE-0904.md",
+    "denetim:denetim/BULGU-MALIYET.md",
+    "denetim:denetim/BULGU-NEHIR-0905-DUNYA.md",
+    "denetim:denetim/OLCUM-OYNATMA-KALAN54-0907.md",
+    "denetim:denetim/OLCUM-SON-KAYDI-T-0905.md"
+   ]
+  },
+  {
+   "bas": 5578,
+   "token": 1060,
+   "satir": 55,
+   "etiket": "🔴🔴🔴 İÇ TUTARLILIK, DOĞRULAMA DEĞİLDİR — yanlış bir taban, üzerine",
+   "pencere": 361,
+   "vurus": 75,
+   "oran": 0.2077562326869806,
+   "kaynak": [
+    "arac:arac/denetle.py",
+    "denetim:denetim/BALKAN-YUGOSLAVYA-0906.md",
+    "denetim:denetim/BULGU-OK127-4C.md",
+    "denetim:denetim/OLCUM-TAVAN-0905.md",
+    "denetim:denetim/ONGORU-ZEND-KACAR-0905.md"
+   ]
+  },
+  {
+   "bas": 5633,
+   "token": 408,
+   "satir": 20,
+   "etiket": "🔴 AYNI KELİME İKİ AYRI ŞEYİ ANLATIYORSA, BİRİNİ ÖLÇEN ÖTEKİNİ",
+   "pencere": 121,
+   "vurus": 30,
+   "oran": 0.24793388429752067,
+   "kaynak": [
+    "denetim:denetim/OLCUM-K-SOZLUGU-0907.md",
+    "denetim:denetim/OLCUM-TAVAN-0905.md",
+    "denetim:denetim/ONERI-KADEME-C-MODEL-0907.md",
+    "oturumlar:oturumlar/KOSU-BITINCE-SIRA.md",
+    "oturumlar:oturumlar/TAHTA.md"
+   ]
+  },
+  {
+   "bas": 5653,
+   "token": 598,
+   "satir": 30,
+   "etiket": "🔴 BİR REGEX'İN GÖRMEDİĞİ YAZIM BİÇİMİ ÖLÇÜLDÜ: t:\" 1285 kayıt ·",
+   "pencere": 206,
+   "vurus": 39,
+   "oran": 0.18932038834951456,
+   "kaynak": [
+    "arac:arac/_kronoloji_uygula.py",
+    "denetim:denetim/BULGU-OKYANUSYA-0903.md",
+    "denetim:denetim/OLCUM-TAVAN-0905.md",
+    "oturumlar:oturumlar/KOSU-SONRASI-KUYRUK.md",
+    "oturumlar:oturumlar/TAHTA.md"
+   ]
+  },
+  {
+   "bas": 5683,
+   "token": 751,
+   "satir": 40,
+   "etiket": "🟢 BİR AYRIŞTIRICI KUSURU BULUNDUĞUNDA, ONUNLA ÖLÇÜLEN HER SAYI AYNI",
+   "pencere": 244,
+   "vurus": 45,
+   "oran": 0.18442622950819673,
+   "kaynak": [
+    "denetim:denetim/OLCUM-TAVAN-0905.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-2995"
+   ]
+  },
+  {
+   "bas": 5723,
+   "token": 366,
+   "satir": 19,
+   "etiket": "🔴 BİR ORANI BAŞKA BİR KATMANA TAŞIMAK, O KATMANIN KENDİ YAPISINI YOK",
+   "pencere": 129,
+   "vurus": 18,
+   "oran": 0.13953488372093023,
+   "kaynak": [
+    "denetim:denetim/OLCUM-YAMA-CAKISMA-397-0905.md",
+    "oturumlar:oturumlar/KRONOLOJI-DOGUAFRIKA-0905.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-2710",
+    "tahta:tahta.json#M-2996"
+   ]
+  },
+  {
+   "bas": 5742,
+   "token": 551,
+   "satir": 30,
+   "etiket": "🟢 TAŞIMANIN GETİRDİĞİ İLE ZATEN ORADA OLANI AYIRMAK — yoksa taşımaya",
+   "pencere": 178,
+   "vurus": 50,
+   "oran": 0.2808988764044944,
+   "kaynak": [
+    "denetim:denetim/OLCUM-YAMA-CAKISMA-397-0905.md",
+    "oturumlar:oturumlar/KOSU-SONRASI-KUYRUK.md",
+    "oturumlar:oturumlar/MERGE-KONTROL-0905.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-2992"
+   ]
+  },
+  {
+   "bas": 5772,
+   "token": 800,
+   "satir": 40,
+   "etiket": "🔴 BİR EŞİK, ÖLÇÜLDÜĞÜ TABANLA BİRLİKTE TAŞINIR — taban değişince",
+   "pencere": 282,
+   "vurus": 83,
+   "oran": 0.29432624113475175,
+   "kaynak": [
+    "denetim:denetim/SINAV-R1-TABAN-0905.md",
+    "oturumlar:oturumlar/MERGE-KONTROL-0905.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "oturumlar:oturumlar/TESPIH.md",
+    "tahta:tahta.json#M-2995"
+   ]
+  },
+  {
+   "bas": 5812,
+   "token": 770,
+   "satir": 38,
+   "etiket": "🟢🟢 İKİ ÖLÇÜMÜN ORANLARININ ORANI, FARKIN SEBEBİNİ VEREBİLİR.",
+   "pencere": 257,
+   "vurus": 55,
+   "oran": 0.2140077821011673,
+   "kaynak": [
+    "denetim:denetim/SINAV-R1-TABAN-0905.md",
+    "oturumlar:oturumlar/KOSU-SONRASI-KUYRUK.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-3001"
+   ]
+  },
+  {
+   "bas": 5850,
+   "token": 490,
+   "satir": 26,
+   "etiket": "🔴 mtime BİR ÖLÇÜM DEĞİL BİR DAMGADIR — içerik değişmeden değişir.",
+   "pencere": 172,
+   "vurus": 29,
+   "oran": 0.1686046511627907,
+   "kaynak": [
+    "denetim:denetim/SINAV-R1-TABAN-0905.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-0413",
+    "tahta:tahta.json#M-0852",
+    "tahta:tahta.json#M-2650"
+   ]
+  },
+  {
+   "bas": 5876,
+   "token": 395,
+   "satir": 20,
+   "etiket": "🔴 BİR KONTROL DEĞİŞKENİ SORULURKEN YANLIŞ EKSEN SEÇİLEBİLİR — ve",
+   "pencere": 135,
+   "vurus": 23,
+   "oran": 0.17037037037037037,
+   "kaynak": [
+    "denetim:denetim/SINAV-R1-TABAN-0905.md",
+    "oturumlar:oturumlar/MERGE-KONTROL-0905.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-3002",
+    "tahta:tahta.json#M-3003"
+   ]
+  },
+  {
+   "bas": 5896,
+   "token": 433,
+   "satir": 20,
+   "etiket": "🔴 ÇAKIŞMA, DOSYANIN BÜYÜKLÜĞÜNDEN DEĞİL, BAŞKALARININ ZATEN YAZDIĞI",
+   "pencere": 125,
+   "vurus": 56,
+   "oran": 0.448,
+   "kaynak": [
+    "denetim:denetim/OLCUM-YAMA-CAKISMA-397-0905.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-3000",
+    "tahta:tahta.json#M-3004"
+   ]
+  },
+  {
+   "bas": 5916,
+   "token": 168,
+   "satir": 8,
+   "etiket": "🟢 VE 17 ÇAKIŞMA 17 SORU DEĞİLDİ — DÖRT. (aynı tur)",
+   "pencere": 60,
+   "vurus": 10,
+   "oran": 0.16666666666666666,
+   "kaynak": [
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-3004"
+   ]
+  },
+  {
+   "bas": 5924,
+   "token": 966,
+   "satir": 49,
+   "etiket": "🔴🔴 BİR UYARININ BEKLENDİĞİNİ YAZMAK, GELEN UYARININ O OLDUĞUNU",
+   "pencere": 313,
+   "vurus": 75,
+   "oran": 0.23961661341853036,
+   "kaynak": [
+    "denetim:denetim/BULGU-AFRIKA-0903.md",
+    "denetim:denetim/BULGU-KAYNAK-DENETIM-0907.md",
+    "denetim:denetim/BULGU-KESINLIK-0905.md",
+    "denetim:denetim/SINAV-R1-TABAN-0905.md",
+    "oturumlar:oturumlar/KOSU-SONRASI-KUYRUK.md"
+   ]
+  },
+  {
+   "bas": 5973,
+   "token": 731,
+   "satir": 35,
+   "etiket": "🔴 \"HER EKSENDE TEMİZ\" DEMEK, SAYDIĞIN EKSENLERDE TEMİZ DEMEKTİR.",
+   "pencere": 244,
+   "vurus": 67,
+   "oran": 0.27459016393442626,
+   "kaynak": [
+    "denetim:denetim/OLCUM-KALAN-CAKISMA-0906.md",
+    "denetim:denetim/ONGORU-ZEND-KACAR-0905.md",
+    "oturumlar:oturumlar/KOSU-SONRASI-KUYRUK.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-3007"
+   ]
+  },
+  {
+   "bas": 6008,
+   "token": 688,
+   "satir": 34,
+   "etiket": "🔴🔴 BİR SEVKTE ADAY TARİH SAYMAK, İŞÇİYE KAYNAKSIZ BİR ÇERÇEVE",
+   "pencere": 221,
+   "vurus": 63,
+   "oran": 0.2850678733031674,
+   "kaynak": [
+    "denetim:denetim/BULGU-OK126-1B.md",
+    "denetim:denetim/BULGU-OKYANUSYA-0903.md",
+    "oturumlar:oturumlar/AMERIKA-OKYANUSYA-1923.md",
+    "oturumlar:oturumlar/KOSU-SONRASI-KUYRUK.md",
+    "oturumlar:oturumlar/TAHTA.md"
+   ]
+  },
+  {
+   "bas": 6042,
+   "token": 782,
+   "satir": 42,
+   "etiket": "🔴🔴 BİR YÖNTEM EMEKLİ EDİLMİŞ OLABİLİR VE YERİNE GELEN ALET",
+   "pencere": 281,
+   "vurus": 73,
+   "oran": 0.2597864768683274,
+   "kaynak": [
+    "arac:arac/uret_petek.py",
+    "oturumlar:oturumlar/KOSU-BITINCE-SIRA.md",
+    "oturumlar:oturumlar/KOSU-SONRASI-KUYRUK.md",
+    "oturumlar:oturumlar/MOTOR-3-KALIBRASYON.md",
+    "oturumlar:oturumlar/TAHTA.md"
+   ]
+  },
+  {
+   "bas": 6084,
+   "token": 602,
+   "satir": 30,
+   "etiket": "🔴🔴 BİR ŞEMADA b: ALANI t:DEN SONRA GELİYORSA, t:DEN GERİYE",
+   "pencere": 217,
+   "vurus": 14,
+   "oran": 0.06451612903225806,
+   "kaynak": [
+    "arac:arac/_sahiplik_uygula.py",
+    "denetim:denetim/BULGU-AFRIKA-0903.md",
+    "denetim:denetim/BULGU-OKYANUSYA-0903.md",
+    "denetim:denetim/BULGU-UYGULAYICI-IKI-KUSUR-0907.md",
+    "oturumlar:oturumlar/KOSU-SONRASI-KUYRUK.md"
+   ]
+  },
+  {
+   "bas": 6114,
+   "token": 774,
+   "satir": 37,
+   "etiket": "🟢🟢 BİR EŞLEŞTİRİCİNİN DOĞRULUĞU, İSABET ORANINI ADAY KÜMESİNİN",
+   "pencere": 243,
+   "vurus": 37,
+   "oran": 0.1522633744855967,
+   "kaynak": [
+    "denetim:denetim/BULGU-OK126-1B.md",
+    "denetim:denetim/HUKUM-AB-MIMARI-0906.md",
+    "denetim:denetim/OLCUM-KOVA-KARSILIGI-0905.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-2491"
+   ]
+  },
+  {
+   "bas": 6151,
+   "token": 817,
+   "satir": 42,
+   "etiket": "🔴 BİR KOŞU SÜRESİ TAHMİNİ, ÖLÇÜLDÜĞÜ GİRDİ BÜYÜKLÜĞÜYLE BİRLİKTE",
+   "pencere": 278,
+   "vurus": 6,
+   "oran": 0.02158273381294964,
+   "kaynak": [
+    "arac:arac/kos_ve_yayinla.py",
+    "oturumlar:oturumlar/KOSU-SONRASI-KUYRUK.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-0413",
+    "tahta:tahta.json#M-0852"
+   ]
+  },
+  {
+   "bas": 6193,
+   "token": 631,
+   "satir": 32,
+   "etiket": "🔴🔴 BİR İDDİAYI AKTARIRKEN YOLU \"NORMALLEŞTİRMEK\" ONU ÇÜRÜTEBİLİR —",
+   "pencere": 218,
+   "vurus": 39,
+   "oran": 0.17889908256880735,
+   "kaynak": [
+    "arac:arac/_sahiplik_uygula.py",
+    "denetim:denetim/BULGU-UYGULAYICI-IKI-KUSUR-0907.md",
+    "denetim:denetim/OLCUM-ALAN-KAPSAMA-KADEME-0905.md",
+    "oturumlar:oturumlar/KOSU-SONRASI-KUYRUK.md",
+    "oturumlar:oturumlar/TAHTA.md"
+   ]
+  },
+  {
+   "bas": 6225,
+   "token": 740,
+   "satir": 38,
+   "etiket": "🔴🔴 AYNI İŞİ YAPAN İKİ ZİNCİR BETİĞİ VARSA, DÜZELTME YALNIZ BİRİNE",
+   "pencere": 246,
+   "vurus": 23,
+   "oran": 0.09349593495934959,
+   "kaynak": [
+    "oturumlar:oturumlar/DEVIR-0907.md",
+    "oturumlar:oturumlar/KOSU-SONRASI-KUYRUK.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-3100"
+   ]
+  },
+  {
+   "bas": 6263,
+   "token": 645,
+   "satir": 35,
+   "etiket": "🔴🔴 BEYAN EDİLEN KAYNAK, İDDİAYI TAŞIMIYOR OLABİLİR — ve hiçbir",
+   "pencere": 208,
+   "vurus": 50,
+   "oran": 0.2403846153846154,
+   "kaynak": [
+    "arac:arac/viabundus_indir.py",
+    "denetim:denetim/OLCUM-GUN-DAYANAK-10-0905.md",
+    "denetim:denetim/OLCUM-UCGEN-BASKALE-CALDIRAN-0906.md",
+    "denetim:denetim/ORTADOGU-OLCUM-CEZAYIR-0907.md",
+    "oturumlar:oturumlar/KAYNAK-DENETIM-0907.md"
+   ]
+  },
+  {
+   "bas": 6298,
+   "token": 301,
+   "satir": 17,
+   "etiket": "🔴 YUVARLAK BİR TARİH YALNIZ HASSASİYETİ DEĞİL, BORÇLARI DA",
+   "pencere": 94,
+   "vurus": 17,
+   "oran": 0.18085106382978725,
+   "kaynak": [
+    "oturumlar:oturumlar/KOSU-SONRASI-KUYRUK.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-3019",
+    "tahta:tahta.json#M-3020"
+   ]
+  },
+  {
+   "bas": 6315,
+   "token": 290,
+   "satir": 14,
+   "etiket": "🔴 BİR GÖVDEYİ İLK BİBLİYOGRAFYADA KESMEK, ÇOK BÖLÜMLÜ TDV",
+   "pencere": 83,
+   "vurus": 14,
+   "oran": 0.1686746987951807,
+   "kaynak": [
+    "denetim:denetim/OLCUM-GUN-DAYANAK-10-0905.md",
+    "denetim:denetim/SARTNAME-KAYNAK-DENETIMI-0905.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-3019",
+    "tahta:tahta.json#M-3020"
+   ]
+  },
+  {
+   "bas": 6329,
+   "token": 914,
+   "satir": 43,
+   "etiket": "🔴🔴 DEĞİŞMEZ 2NİN \"KAPALI\" HÜKMÜ, O GÜNÜN BÜTÜN GEÇİŞLERİNİN",
+   "pencere": 317,
+   "vurus": 31,
+   "oran": 0.09779179810725552,
+   "kaynak": [
+    "oturumlar:oturumlar/KOSU-SONRASI-KUYRUK.md",
+    "oturumlar:oturumlar/SINIR-ASYA-0907.md"
+   ]
+  },
+  {
+   "bas": 6372,
+   "token": 833,
+   "satir": 42,
+   "etiket": "🔴🔴 VE SINIFIN EN AĞIR ÜYESİ: KAYNAK AYNI ŞEYİ BAŞKA BİR TARİHLE",
+   "pencere": 271,
+   "vurus": 83,
+   "oran": 0.3062730627306273,
+   "kaynak": [
+    "denetim:denetim/OLCUM-KAYNAK-TASIMIYOR-0905.md",
+    "denetim:denetim/OLCUM-KAYNAK-TASIMIYOR-YERLESIM-0905.md",
+    "denetim:denetim/OLCUM-UCGEN-BASKALE-CALDIRAN-0906.md",
+    "denetim:denetim/SARTNAME-KAYNAK-DENETIMI-0905.md",
+    "oturumlar:oturumlar/KAYNAK-DENETIM-0907.md"
+   ]
+  },
+  {
+   "bas": 6414,
+   "token": 1150,
+   "satir": 57,
+   "etiket": "🔴🔴 SÜZGEÇ GÖRÜNÜR ELER, İZDÜŞÜM SESSİZ KIRPAR — ve bir aletin",
+   "pencere": 381,
+   "vurus": 119,
+   "oran": 0.3123359580052493,
+   "kaynak": [
+    "arac:arac/_kademe_olc.py",
+    "denetim:denetim/OLCUM-ALAN-KAPSAMA-KADEME-0905.md",
+    "oturumlar:oturumlar/KOSU-SONRASI-KUYRUK.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-3018"
+   ]
+  },
+  {
+   "bas": 6471,
+   "token": 901,
+   "satir": 45,
+   "etiket": "🔴🔴 BAYAT BİR KABUL ÖLÇÜTÜ, YANLIŞ SEBEPTEN GEÇER — ve geçtiği için",
+   "pencere": 311,
+   "vurus": 49,
+   "oran": 0.15755627009646303,
+   "kaynak": [
+    "denetim:denetim/BULGU-VIABUNDUS-0905.md",
+    "oturumlar:oturumlar/KOSU-BITINCE-SIRA.md",
+    "oturumlar:oturumlar/KOSU-SONRASI-KUYRUK.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-2359"
+   ]
+  },
+  {
+   "bas": 6516,
+   "token": 1260,
+   "satir": 66,
+   "etiket": "🔴🔴 ~~BİR DÖNEMİN kaynak:I ÇOĞU ZAMAN ONU BAŞLATAN OLAYIN",
+   "pencere": 410,
+   "vurus": 123,
+   "oran": 0.3,
+   "kaynak": [
+    "denetim:denetim/OLCUM-KAYNAK-TASIMIYOR-YERLESIM-0905.md",
+    "denetim:denetim/SARTNAME-KAYNAK-DENETIMI-0905.md",
+    "denetim:denetim/STATU-2026-07-30.md",
+    "oturumlar:oturumlar/ARABISTAN-DUZELTMELER.md",
+    "oturumlar:oturumlar/KOSU-SONRASI-KUYRUK.md"
+   ]
+  },
+  {
+   "bas": 6582,
+   "token": 353,
+   "satir": 19,
+   "etiket": "🔴 MİRAS ALINMIŞ BİR ÖZNİTELİK, BİR BEYAN DEĞİLDİR — ona karşı ölçmek,",
+   "pencere": 117,
+   "vurus": 31,
+   "oran": 0.26495726495726496,
+   "kaynak": [
+    "denetim:denetim/OLCUM-KAYNAK-TASIMIYOR-YERLESIM-0905.md",
+    "denetim:denetim/ONGORU-BASKENT-OK106.md",
+    "denetim:denetim/SARTNAME-KAYNAK-DENETIMI-0905.md",
+    "oturumlar:oturumlar/KOSU-SONRASI-KUYRUK.md",
+    "oturumlar:oturumlar/TAHTA.md"
+   ]
+  },
+  {
+   "bas": 6601,
+   "token": 512,
+   "satir": 26,
+   "etiket": "🔴🔴 BİR EVRENİN YARISINDAN ÇOĞU TEK BİR ÜYEDEYSE, RASTGELE ÖRNEKLEM",
+   "pencere": 164,
+   "vurus": 18,
+   "oran": 0.10975609756097561,
+   "kaynak": [
+    "denetim:denetim/BULGU-MALIYET.md",
+    "denetim:denetim/OLCUM-KAYNAK-TASIMIYOR-YERLESIM-0905.md",
+    "oturumlar:oturumlar/GECIS-SURE-0907.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-0222"
+   ]
+  },
+  {
+   "bas": 6627,
+   "token": 677,
+   "satir": 34,
+   "etiket": "🟢 §7.1⑤b TEK TARAFLIYDI — TAHTA ARIZASININ İKİ CİNSİ VAR, VE",
+   "pencere": 225,
+   "vurus": 39,
+   "oran": 0.17333333333333334,
+   "kaynak": [
+    "arac:arac/tahta.py",
+    "denetim:denetim/BULGU-DENETIM-ACIK.md",
+    "oturumlar:oturumlar/BEKCI-KURULUMU.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-2309"
+   ]
+  },
+  {
+   "bas": 6661,
+   "token": 438,
+   "satir": 19,
+   "etiket": "🔴 BİR KORUMA ÇAPASI, BELGEDE ZATEN GEÇEN BİR İFADEYSE, BETİK",
+   "pencere": 144,
+   "vurus": 4,
+   "oran": 0.027777777777777776,
+   "kaynak": [
+    "denetim:denetim/OLCUM-ALAN-KAPSAMA-397-0905.md",
+    "denetim:denetim/ONERI-ALET-BORCLARI-0907.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-2372",
+    "tahta:tahta.json#M-2628"
+   ]
+  },
+  {
+   "bas": 6680,
+   "token": 806,
+   "satir": 45,
+   "etiket": "🔴🔴 BİR SAYIM BİRİMİ YANLIŞSA, ÖLÇÜM VERİYİ DEĞİL VERİNİN",
+   "pencere": 265,
+   "vurus": 56,
+   "oran": 0.21132075471698114,
+   "kaynak": [
+    "denetim:denetim/ASYA-KAYNAK-DENETIMI-0907.md",
+    "denetim:denetim/OLCUM-KAYNAK-TASIMIYOR-YERLESIM-0905.md",
+    "denetim:denetim/OLCUM-TBMM-CAKISMA-0905.md",
+    "denetim:denetim/SARTNAME-KAYNAK-DENETIMI-0905.md",
+    "denetim:denetim/SERHAT-NEHIRAD-0907.md"
+   ]
+  },
+  {
+   "bas": 6725,
+   "token": 759,
+   "satir": 40,
+   "etiket": "🔴 BİR KATEGORİ ŞİŞMEYİ AÇIKLAMAZ — ŞİŞMEYİ TOPLU ATAMA AÇIKLAR,",
+   "pencere": 238,
+   "vurus": 30,
+   "oran": 0.12605042016806722,
+   "kaynak": [
+    "denetim:denetim/OLCUM-KAYNAK-TASIMIYOR-YERLESIM-0905.md",
+    "oturumlar:oturumlar/KOSU-SONRASI-KUYRUK.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-0621",
+    "tahta:tahta.json#M-2194"
+   ]
+  },
+  {
+   "bas": 6765,
+   "token": 851,
+   "satir": 41,
+   "etiket": "🟢🟢 KAPSAYICI MADDE, DAR MADDENİN İFADE EDEMEDİĞİ İKİ UCU BİRDEN",
+   "pencere": 278,
+   "vurus": 81,
+   "oran": 0.29136690647482016,
+   "kaynak": [
+    "denetim:denetim/BULGU-HIMAYE-MACARISTAN.md",
+    "denetim:denetim/HUKUM-YAMA-CAKISMA-0905.md",
+    "denetim:denetim/OLCUM-KAYNAK-TASIMIYOR-YERLESIM-0905.md",
+    "denetim:denetim/OLCUM-UCGEN-BASKALE-CALDIRAN-0906.md",
+    "oturumlar:oturumlar/KOSU-SONRASI-KUYRUK.md"
+   ]
+  },
+  {
+   "bas": 6806,
+   "token": 368,
+   "satir": 17,
+   "etiket": "🔴 BÜYÜK/KÜÇÜK HARF DUYARSIZ ALT-DİZGİ ARAMASI, BİR ADI BAŞKA BİR",
+   "pencere": 113,
+   "vurus": 21,
+   "oran": 0.18584070796460178,
+   "kaynak": [
+    "denetim:denetim/BULGU-OK126-1B.md",
+    "denetim:denetim/HUKUM-AB-MIMARI-0906.md",
+    "denetim:denetim/SINAV-KADEME-M-0905.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-2491"
+   ]
+  },
+  {
+   "bas": 6823,
+   "token": 621,
+   "satir": 31,
+   "etiket": "🔴🔴 BİR SINIFTA OTOMATİK SINAV NE GEVŞETİLEREK NE SIKILAŞTIRILARAK",
+   "pencere": 191,
+   "vurus": 39,
+   "oran": 0.20418848167539266,
+   "kaynak": [
+    "denetim:denetim/BULGU-OK109-YAMA-CAKISMASI.md",
+    "denetim:denetim/OLCUM-KAYNAK-TASIMIYOR-YERLESIM-0905.md",
+    "denetim:denetim/OLCUM-SOZLESME-16-0905.md",
+    "denetim:denetim/SARTNAME-KAYNAK-DENETIMI-0905.md",
+    "oturumlar:oturumlar/KAYNAK-DENETIM-0907.md"
+   ]
+  },
+  {
+   "bas": 6854,
+   "token": 754,
+   "satir": 39,
+   "etiket": "🟢🟢 BİR DENETİM ŞARTNAMESİNİN EN DEĞERLİ SATIRI, NE ÖLÇTÜĞÜ DEĞİL",
+   "pencere": 250,
+   "vurus": 78,
+   "oran": 0.312,
+   "kaynak": [
+    "denetim:denetim/SARTNAME-KAYNAK-DENETIMI-0905.md",
+    "oturumlar:oturumlar/KAYNAK-DENETIM-0907.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-2931",
+    "tahta:tahta.json#M-3046"
+   ]
+  },
+  {
+   "bas": 6893,
+   "token": 658,
+   "satir": 32,
+   "etiket": "🔴🔴 BİR CÜMLEYİ ALINTILAMADAN ÖNCE ÖNCEKİNİ OKU — ve aynı gece",
+   "pencere": 206,
+   "vurus": 77,
+   "oran": 0.3737864077669903,
+   "kaynak": [
+    "denetim:denetim/BULGU-0035-ORTA-2.md",
+    "denetim:denetim/BULGU-0035-ORTA.md",
+    "denetim:denetim/BULGU-KUTAISI-CAKISMA.md",
+    "denetim:denetim/HUKUM-YAMA-CAKISMA-0905.md",
+    "denetim:denetim/OLCUM-ZAGEM-K3-0905.md"
+   ]
+  },
+  {
+   "bas": 6925,
+   "token": 556,
+   "satir": 30,
+   "etiket": "🔴 BİR SÖZLÜKTE OLMAYAN SINIF, VERİDE DÖRT FARKLI CEVAP ALIR — ve",
+   "pencere": 180,
+   "vurus": 71,
+   "oran": 0.39444444444444443,
+   "kaynak": [
+    "denetim:denetim/OLCUM-K-SOZLUGU-0907.md",
+    "denetim:denetim/OLCUM-ZAGEM-K3-0905.md",
+    "oturumlar:oturumlar/KOSU-SONRASI-KUYRUK.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-3045"
+   ]
+  },
+  {
+   "bas": 6955,
+   "token": 287,
+   "satir": 14,
+   "etiket": "🔴 BİR KOORDİNATÖR, OKUDUĞUNDAN HIZLI SEVK EDERSE İKİ KUSUR ÜRETİR:",
+   "pencere": 101,
+   "vurus": 8,
+   "oran": 0.07920792079207921,
+   "kaynak": [
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-3048"
+   ]
+  },
+  {
+   "bas": 6969,
+   "token": 600,
+   "satir": 31,
+   "etiket": "🔴🔴 BİR ÖN-SINAV, SORDUĞU RİSKLERDE TEMİZ ÇIKIP EN BÜYÜK RİSKİ HİÇ",
+   "pencere": 192,
+   "vurus": 25,
+   "oran": 0.13020833333333334,
+   "kaynak": [
+    "arac:arac/_renksiz_kimlik.py",
+    "denetim:denetim/BALKAN-SOVYET-0907.md",
+    "oturumlar:oturumlar/KOSU-SONRASI-KUYRUK.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-0230"
+   ]
+  },
+  {
+   "bas": 7000,
+   "token": 543,
+   "satir": 30,
+   "etiket": "🔴🔴 BİR MERGE ADIMININ ÖN KOŞULU, O ADIMIN KENDİ GİRDİSİNDEN",
+   "pencere": 175,
+   "vurus": 39,
+   "oran": 0.22285714285714286,
+   "kaynak": [
+    "denetim:denetim/BULGU-HUKUM-ALANI-0904.md",
+    "denetim:denetim/BULGU-OK109-TRAKYA.md",
+    "oturumlar:oturumlar/KOSU-SONRASI-KUYRUK.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-0343"
+   ]
+  },
+  {
+   "bas": 7030,
+   "token": 483,
+   "satir": 25,
+   "etiket": "🔴 BİR ÖLÇÜMÜN BİR EKSENİNİ DÜZELTMEK, ÖTEKİ EKSENİNİ BOZABİLİR — ve",
+   "pencere": 148,
+   "vurus": 31,
+   "oran": 0.20945945945945946,
+   "kaynak": [
+    "denetim:denetim/BULGU-ANAKRONIZM-3-0905.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-2876",
+    "tahta:tahta.json#M-3051",
+    "tahta:tahta.json#M-3054"
+   ]
+  },
+  {
+   "bas": 7055,
+   "token": 793,
+   "satir": 40,
+   "etiket": "🟢🟢 BİR MEKANİZMANIN ÇALIŞTIĞINI, ÇALIŞMASAYDI KIRILACAK OLAN",
+   "pencere": 257,
+   "vurus": 60,
+   "oran": 0.23346303501945526,
+   "kaynak": [
+    "arac:arac/uret_petek.py",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-1316",
+    "tahta:tahta.json#M-2005",
+    "tahta:tahta.json#M-3053"
+   ]
+  },
+  {
+   "bas": 7095,
+   "token": 505,
+   "satir": 24,
+   "etiket": "🔴 KAPSAYICI MADDE HER ZAMAN EN İYİ ADRES DEĞİLDİR — bazen günü",
+   "pencere": 167,
+   "vurus": 38,
+   "oran": 0.2275449101796407,
+   "kaynak": [
+    "denetim:denetim/BULGU-OK109-OLU-KAYNAK.md",
+    "denetim:denetim/OLCUM-KAYNAK-TASIMIYOR-YERLESIM-0905.md",
+    "oturumlar:oturumlar/KOSU-SONRASI-KUYRUK.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-0289"
+   ]
+  },
+  {
+   "bas": 7119,
+   "token": 478,
+   "satir": 23,
+   "etiket": "🟡 UZUN BİR KOŞUDA DÖRDÜNCÜ SİNYAL: BELLEK SALINIMI — ve sınırı",
+   "pencere": 145,
+   "vurus": 30,
+   "oran": 0.20689655172413793,
+   "kaynak": [
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-3061"
+   ]
+  },
+  {
+   "bas": 7142,
+   "token": 961,
+   "satir": 48,
+   "etiket": "🔴🔴 HER KAYDI TEK TEK DOĞRU BULAN DENETİMLER, KAYITLAR ARASINDAKİ",
+   "pencere": 303,
+   "vurus": 13,
+   "oran": 0.0429042904290429,
+   "kaynak": [
+    "denetim:denetim/BULGU-UYGULAYICI-IKI-KUSUR-0907.md",
+    "oturumlar:oturumlar/ENKLAV-0907.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "oturumlar:oturumlar/TESPIH.md",
+    "tahta:tahta.json#M-3068"
+   ]
+  },
+  {
+   "bas": 7190,
+   "token": 646,
+   "satir": 32,
+   "etiket": "🔴🔴 BİR ALETİN CEVABI DOĞRU OLABİLİR VE SORDUĞU SORU YETERSİZ",
+   "pencere": 233,
+   "vurus": 54,
+   "oran": 0.2317596566523605,
+   "kaynak": [
+    "denetim:denetim/ONERI-KADEME-C-MODEL-0907.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-0230",
+    "tahta:tahta.json#M-0369",
+    "tahta:tahta.json#M-0560"
+   ]
+  },
+  {
+   "bas": 7222,
+   "token": 401,
+   "satir": 18,
+   "etiket": "🔴 BİR LİSTEDE OLMAYAN ŞEY, ELENMİŞ OLANDAN AYIRT EDİLEMEZ — eleme",
+   "pencere": 137,
+   "vurus": 11,
+   "oran": 0.08029197080291971,
+   "kaynak": [
+    "denetim:denetim/OLCUM-ALAN-KAPSAMA-397-0905.md",
+    "denetim:denetim/ONERI-ALET-BORCLARI-0907.md",
+    "oturumlar:oturumlar/DEVIR-0907B.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-2372"
+   ]
+  },
+  {
+   "bas": 7240,
+   "token": 365,
+   "satir": 20,
+   "etiket": "🔴 AYRI BİR REALM'DE KOŞAN VERİDE instanceof SESSİZCE FALSE",
+   "pencere": 128,
+   "vurus": 12,
+   "oran": 0.09375,
+   "kaynak": [
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-3122",
+    "tahta:tahta.json#M-3135",
+    "tahta:tahta.json#M-3137"
+   ]
+  },
+  {
+   "bas": 7260,
+   "token": 420,
+   "satir": 20,
+   "etiket": "🟢🟢 §7 AD ALANI DERSİ İLK KEZ ÖNLEYİCİ İŞLEDİ — çakışma OLMADAN",
+   "pencere": 145,
+   "vurus": 22,
+   "oran": 0.15172413793103448,
+   "kaynak": [
+    "denetim:denetim/ONERI-KADEME-C-MODEL-0907.md",
+    "oturumlar:oturumlar/DEVIR-0907B.md",
+    "oturumlar:oturumlar/SINIR-HUKUKI-ORTAK-0907.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-0679"
+   ]
+  },
+  {
+   "bas": 7280,
+   "token": 522,
+   "satir": 27,
+   "etiket": "🔴🔴 UYGULANMAMIŞ BİR YAMA İKİ GEÇERLİ «ŞİMDİ» YARATIR — ve bir sayı",
+   "pencere": 184,
+   "vurus": 21,
+   "oran": 0.11413043478260869,
+   "kaynak": [
+    "oturumlar:oturumlar/SINIR-HUKUKI-ORTAK-0907.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-2644",
+    "tahta:tahta.json#M-3153",
+    "tahta:tahta.json#M-3158"
+   ]
+  },
+  {
+   "bas": 7307,
+   "token": 412,
+   "satir": 22,
+   "etiket": "🟢🟢 BİR İŞÇİ, KOORDİNATÖRÜN DÜZELTMESİNE UYMAYARAK HAKLI OLABİLİR —",
+   "pencere": 133,
+   "vurus": 2,
+   "oran": 0.015037593984962405,
+   "kaynak": [
+    "oturumlar:oturumlar/ARASTIRMA-DUNYA-0902.md",
+    "oturumlar:oturumlar/TAHTA.md",
+    "tahta:tahta.json#M-1820",
+    "tahta:tahta.json#M-2375",
+    "tahta:tahta.json#M-2567"
+   ]
+  },
+  {
+   "bas": 7329,
+   "token": 879,
+   "satir": 47,
+   "etiket": "🔴🔴 BAYATLAYAN BİR BELGE, YALNIZ KENDİSİNİ DEĞİL ONU KOPYALAYAN",
+   "pencere": 284,
+   "vurus": 18,
+   "oran": 0.06338028169014084,
+   "kaynak": [
+    "oturumlar:oturumlar/TAHTA.md",
+    "oturumlar:oturumlar/TESPIH.md",
+    "tahta:tahta.json#M-0621",
+    "tahta:tahta.json#M-2194",
+    "tahta:tahta.json#M-2365"
+   ]
+  }
+ ]
+}

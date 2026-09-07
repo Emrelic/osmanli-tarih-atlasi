@@ -1,0 +1,493 @@
+{
+ "_NOT": "ADAY listesi — KANIT DEGIL. bbox kapsamasi bir ipucudur (§11). Sorgu gunu 1923-10-28 (yari acik aralik); cipa 1923-10-29 olarak KAYDA yazilir.",
+ "sorgu_gunu": "1923-10-28",
+ "girdi": [
+  "denetim/KIMLIK-1923-0907-ADIM1.json",
+  "veri-kaynak/ne_10m_admin_0_countries.geojson"
+ ],
+ "yontem": "NE ulke poligonunun representative_point()'i, 1923 kimliklerinin bbox'lari icinde aranir; adaylar bbox ALANINA gore DAR->GENIS siralanir.",
+ "aday": {
+  "Syria": [
+   {
+    "kimlik": "suriye-lubnan-mandasi",
+    "nokta": 17,
+    "temsili": "Halep"
+   },
+   {
+    "kimlik": "italya",
+    "nokta": 127,
+    "temsili": "Câlû"
+   },
+   {
+    "kimlik": "portekiz",
+    "nokta": 60,
+    "temsili": "Dundo"
+   },
+   {
+    "kimlik": "fransa-cumhuriyet",
+    "nokta": 260,
+    "temsili": "Arlit"
+   },
+   {
+    "kimlik": "abd",
+    "nokta": 196,
+    "temsili": "Saukenuk (Sauk)"
+   },
+   {
+    "kimlik": "ingiltere",
+    "nokta": 340,
+    "temsili": "Radom"
+   }
+  ],
+  "Lebanon": [
+   {
+    "kimlik": "suriye-lubnan-mandasi",
+    "nokta": 17,
+    "temsili": "Halep"
+   },
+   {
+    "kimlik": "italya",
+    "nokta": 127,
+    "temsili": "Câlû"
+   },
+   {
+    "kimlik": "portekiz",
+    "nokta": 60,
+    "temsili": "Dundo"
+   },
+   {
+    "kimlik": "fransa-cumhuriyet",
+    "nokta": 260,
+    "temsili": "Arlit"
+   },
+   {
+    "kimlik": "abd",
+    "nokta": 196,
+    "temsili": "Saukenuk (Sauk)"
+   },
+   {
+    "kimlik": "ingiltere",
+    "nokta": 340,
+    "temsili": "Radom"
+   }
+  ],
+  "Israel": [
+   {
+    "kimlik": "filistin-mandasi",
+    "nokta": 6,
+    "temsili": "Yafa"
+   },
+   {
+    "kimlik": "misir-kralligi",
+    "nokta": 51,
+    "temsili": "Benî Süveyf"
+   },
+   {
+    "kimlik": "italya",
+    "nokta": 127,
+    "temsili": "Câlû"
+   },
+   {
+    "kimlik": "portekiz",
+    "nokta": 60,
+    "temsili": "Dundo"
+   },
+   {
+    "kimlik": "fransa-cumhuriyet",
+    "nokta": 260,
+    "temsili": "Arlit"
+   },
+   {
+    "kimlik": "abd",
+    "nokta": 196,
+    "temsili": "Saukenuk (Sauk)"
+   },
+   {
+    "kimlik": "ingiltere",
+    "nokta": 340,
+    "temsili": "Radom"
+   }
+  ],
+  "Palestine": [
+   {
+    "kimlik": "italya",
+    "nokta": 127,
+    "temsili": "Câlû"
+   },
+   {
+    "kimlik": "portekiz",
+    "nokta": 60,
+    "temsili": "Dundo"
+   },
+   {
+    "kimlik": "fransa-cumhuriyet",
+    "nokta": 260,
+    "temsili": "Arlit"
+   },
+   {
+    "kimlik": "abd",
+    "nokta": 196,
+    "temsili": "Saukenuk (Sauk)"
+   },
+   {
+    "kimlik": "ingiltere",
+    "nokta": 340,
+    "temsili": "Radom"
+   }
+  ],
+  "Jordan": [
+   {
+    "kimlik": "italya",
+    "nokta": 127,
+    "temsili": "Câlû"
+   },
+   {
+    "kimlik": "portekiz",
+    "nokta": 60,
+    "temsili": "Dundo"
+   },
+   {
+    "kimlik": "fransa-cumhuriyet",
+    "nokta": 260,
+    "temsili": "Arlit"
+   },
+   {
+    "kimlik": "abd",
+    "nokta": 196,
+    "temsili": "Saukenuk (Sauk)"
+   },
+   {
+    "kimlik": "ingiltere",
+    "nokta": 340,
+    "temsili": "Radom"
+   }
+  ],
+  "Iraq": [
+   {
+    "kimlik": "irak-kralligi",
+    "nokta": 31,
+    "temsili": "Sâmerrâ"
+   },
+   {
+    "kimlik": "italya",
+    "nokta": 127,
+    "temsili": "Câlû"
+   },
+   {
+    "kimlik": "portekiz",
+    "nokta": 60,
+    "temsili": "Dundo"
+   },
+   {
+    "kimlik": "fransa-cumhuriyet",
+    "nokta": 260,
+    "temsili": "Arlit"
+   },
+   {
+    "kimlik": "abd",
+    "nokta": 196,
+    "temsili": "Saukenuk (Sauk)"
+   },
+   {
+    "kimlik": "ingiltere",
+    "nokta": 340,
+    "temsili": "Radom"
+   }
+  ],
+  "Saudi Arabia": [
+   {
+    "kimlik": "suud-ucuncu",
+    "nokta": 15,
+    "temsili": "Necid içi"
+   },
+   {
+    "kimlik": "italya",
+    "nokta": 127,
+    "temsili": "Câlû"
+   },
+   {
+    "kimlik": "portekiz",
+    "nokta": 60,
+    "temsili": "Dundo"
+   },
+   {
+    "kimlik": "fransa-cumhuriyet",
+    "nokta": 260,
+    "temsili": "Arlit"
+   },
+   {
+    "kimlik": "abd",
+    "nokta": 196,
+    "temsili": "Saukenuk (Sauk)"
+   },
+   {
+    "kimlik": "ingiltere",
+    "nokta": 340,
+    "temsili": "Radom"
+   }
+  ],
+  "Yemen": [
+   {
+    "kimlik": "portekiz",
+    "nokta": 60,
+    "temsili": "Dundo"
+   },
+   {
+    "kimlik": "fransa-cumhuriyet",
+    "nokta": 260,
+    "temsili": "Arlit"
+   },
+   {
+    "kimlik": "abd",
+    "nokta": 196,
+    "temsili": "Saukenuk (Sauk)"
+   },
+   {
+    "kimlik": "ingiltere",
+    "nokta": 340,
+    "temsili": "Radom"
+   }
+  ],
+  "Oman": [
+   {
+    "kimlik": "umman",
+    "nokta": 19,
+    "temsili": "Cezîr (Sevkıra)"
+   },
+   {
+    "kimlik": "portekiz",
+    "nokta": 60,
+    "temsili": "Dundo"
+   },
+   {
+    "kimlik": "fransa-cumhuriyet",
+    "nokta": 260,
+    "temsili": "Arlit"
+   },
+   {
+    "kimlik": "abd",
+    "nokta": 196,
+    "temsili": "Saukenuk (Sauk)"
+   },
+   {
+    "kimlik": "ingiltere",
+    "nokta": 340,
+    "temsili": "Radom"
+   }
+  ],
+  "United Arab Emirates": [
+   {
+    "kimlik": "portekiz",
+    "nokta": 60,
+    "temsili": "Dundo"
+   },
+   {
+    "kimlik": "fransa-cumhuriyet",
+    "nokta": 260,
+    "temsili": "Arlit"
+   },
+   {
+    "kimlik": "abd",
+    "nokta": 196,
+    "temsili": "Saukenuk (Sauk)"
+   },
+   {
+    "kimlik": "ingiltere",
+    "nokta": 340,
+    "temsili": "Radom"
+   }
+  ],
+  "Qatar": [
+   {
+    "kimlik": "kacar",
+    "nokta": 108,
+    "temsili": "Kâşân"
+   },
+   {
+    "kimlik": "portekiz",
+    "nokta": 60,
+    "temsili": "Dundo"
+   },
+   {
+    "kimlik": "fransa-cumhuriyet",
+    "nokta": 260,
+    "temsili": "Arlit"
+   },
+   {
+    "kimlik": "abd",
+    "nokta": 196,
+    "temsili": "Saukenuk (Sauk)"
+   },
+   {
+    "kimlik": "ingiltere",
+    "nokta": 340,
+    "temsili": "Radom"
+   }
+  ],
+  "Bahrain": [
+   {
+    "kimlik": "kacar",
+    "nokta": 108,
+    "temsili": "Kâşân"
+   },
+   {
+    "kimlik": "portekiz",
+    "nokta": 60,
+    "temsili": "Dundo"
+   },
+   {
+    "kimlik": "fransa-cumhuriyet",
+    "nokta": 260,
+    "temsili": "Arlit"
+   },
+   {
+    "kimlik": "abd",
+    "nokta": 196,
+    "temsili": "Saukenuk (Sauk)"
+   },
+   {
+    "kimlik": "ingiltere",
+    "nokta": 340,
+    "temsili": "Radom"
+   }
+  ],
+  "Kuwait": [
+   {
+    "kimlik": "suud-ucuncu",
+    "nokta": 15,
+    "temsili": "Necid içi"
+   },
+   {
+    "kimlik": "kacar",
+    "nokta": 108,
+    "temsili": "Kâşân"
+   },
+   {
+    "kimlik": "portekiz",
+    "nokta": 60,
+    "temsili": "Dundo"
+   },
+   {
+    "kimlik": "fransa-cumhuriyet",
+    "nokta": 260,
+    "temsili": "Arlit"
+   },
+   {
+    "kimlik": "abd",
+    "nokta": 196,
+    "temsili": "Saukenuk (Sauk)"
+   },
+   {
+    "kimlik": "ingiltere",
+    "nokta": 340,
+    "temsili": "Radom"
+   }
+  ],
+  "Turkey": [
+   {
+    "kimlik": "osmanli",
+    "nokta": 4,
+    "temsili": "Şırnak"
+   },
+   {
+    "kimlik": "tbmm-turkiye",
+    "nokta": 238,
+    "temsili": "Ankara"
+   },
+   {
+    "kimlik": "italya",
+    "nokta": 127,
+    "temsili": "Câlû"
+   },
+   {
+    "kimlik": "sovyet-rusya",
+    "nokta": 392,
+    "temsili": "Zaural Başkurt toprakları"
+   },
+   {
+    "kimlik": "portekiz",
+    "nokta": 60,
+    "temsili": "Dundo"
+   },
+   {
+    "kimlik": "fransa-cumhuriyet",
+    "nokta": 260,
+    "temsili": "Arlit"
+   },
+   {
+    "kimlik": "abd",
+    "nokta": 196,
+    "temsili": "Saukenuk (Sauk)"
+   },
+   {
+    "kimlik": "ingiltere",
+    "nokta": 340,
+    "temsili": "Radom"
+   }
+  ],
+  "Iran": [
+   {
+    "kimlik": "kacar",
+    "nokta": 108,
+    "temsili": "Kâşân"
+   },
+   {
+    "kimlik": "portekiz",
+    "nokta": 60,
+    "temsili": "Dundo"
+   },
+   {
+    "kimlik": "fransa-cumhuriyet",
+    "nokta": 260,
+    "temsili": "Arlit"
+   },
+   {
+    "kimlik": "abd",
+    "nokta": 196,
+    "temsili": "Saukenuk (Sauk)"
+   },
+   {
+    "kimlik": "ingiltere",
+    "nokta": 340,
+    "temsili": "Radom"
+   }
+  ],
+  "Egypt": [
+   {
+    "kimlik": "misir-kralligi",
+    "nokta": 51,
+    "temsili": "Benî Süveyf"
+   },
+   {
+    "kimlik": "belcika",
+    "nokta": 59,
+    "temsili": "Businga"
+   },
+   {
+    "kimlik": "italya",
+    "nokta": 127,
+    "temsili": "Câlû"
+   },
+   {
+    "kimlik": "portekiz",
+    "nokta": 60,
+    "temsili": "Dundo"
+   },
+   {
+    "kimlik": "fransa-cumhuriyet",
+    "nokta": 260,
+    "temsili": "Arlit"
+   },
+   {
+    "kimlik": "abd",
+    "nokta": 196,
+    "temsili": "Saukenuk (Sauk)"
+   },
+   {
+    "kimlik": "ingiltere",
+    "nokta": 340,
+    "temsili": "Radom"
+   }
+  ]
+ }
+}

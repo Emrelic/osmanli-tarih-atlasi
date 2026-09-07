@@ -7372,3 +7372,61 @@ gerçek          KOŞU 8 · PID 10780 · DOKUZ oturum sahada
   geçmiyor — ve notun ucuz olması tam da bu yüzden tehlikeli.
   🟢 Somut hâli: **koşu değişince İLK İŞ `TESPIH.md` başlığını
   güncellemektir.**
+
+- 🟢🟢 **BİR EŞİĞİ SABİT SAYI DEĞİL İLİŞKİ OLARAK YAZMAK, TABAN TAŞIMA
+  PROBLEMİNİ YÖNETMEZ — ORTADAN KALDIRIR.**
+  *(7 Eylül 2026 · `SINAV-KOSU8-0907`, kendi öngörüsünü kurarken)*
+
+  Bu belge *"bir eşik, ölçüldüğü tabanla birlikte taşınır"* dersini
+  kaydetmişti ve o ders bir **uyarı**ydı: *dikkat et, taban kayabilir.*
+  Bugün ona bir **biçim** verildi:
+```
+🔴 SABİT   "PETEKLER = 3805"          ← kendi tabanını TAŞIR
+🟢 İLİŞKİ  "PETEKLER = girdi nokta sayısı"  ← taban TAŞIMAZ
+```
+  Ölçen oturumun cümlesi: *"Sabit sayı kendi tabanını taşır ve taban
+  kayınca **sessizce** yanılır; ilişki taban taşımaz."*
+
+  🔴 **Ve aynı gün İKİ eşik tam bu yüzden bayat çıktı, ikisi de sabit
+  sayıydı:**
+```
+kosu8.log   "ölçülen en uzun koşu 16s09dk"   → gerçek 7B = 16s49dk
+R1 dikişi   "R1'den sonra < 10 parça"        → 96'lık tabandan 640'a taşınmış
+```
+  ⇒ İkisi de *"dikkat edilseydi"* yakalanabilirdi ve **edilmedi.** Bir
+  ilişki yazılsaydı yakalanacak bir şey **olmayacaktı.**
+  📌 `§11`in *"kural yetmiyor, ALIŞKANLIK gerekiyor"* → *"yeter olan tek
+  şey ARACI DEĞİŞTİRMEK"* dizisinin **eşik** üyesi: burada değişen alet
+  değil **eşiğin yazım biçimi.**
+
+- 🔴🔴 **PENCERE UCU BİR SORGU GÜNÜ OLARAK KULLANILAMAZ — ve cevabı
+  SESSİZDİR.** *(7 Eylül 2026 · `KIMLIK-1923-0907` · çıpa `1923-10-29`)*
+
+  Emre C kademesinin çıpasını `1923-10-29` seçti (atlasın pencere ucu).
+  Altı kol o günü **atlasa sormaya** başladı:
+```
+                    1923-10-29    1923-10-28
+canlı atlas kimliği        1           109
+SAHİPSİZ nokta          3804           168
+```
+  **SEBEP:** dönemler yarı açık (`f <= g < t`) ve
+  `girdi.UFUK[1] == "1923-10-29"` ⇒ o günle biten **her** dönem, tam o
+  gün sorulduğunda **aktif değildir.**
+
+  🔴 Ve **hata vermez, uyarı basmaz — temiz bir sayı üretir.** Altı kol
+  `kimlik_1923` sütununu boş doldurup *"veri yok"* diye raporlayabilirdi.
+```
+ÇIPA        1923-10-29   kayıtlara YAZILAN gün — bir KARAR
+SORGU GÜNÜ  1923-10-28   atlasa SORULAN gün    — bir ARAÇ
+```
+  ⇒ ***Çıpa YAZILAN, sorgu günü OKUNANDIR.*** İkisini aynı sayı sanmak,
+  3804 noktayı sahipsiz göstermek demek.
+
+  📌 `§4`ün *"pencere uçları bir ÖLÇÜM DEĞERİ değil, bir SINIR
+  İŞARETİDİR"* kuralının **sorgu** yüzü. O kural bir kez bir **paydayı**
+  şişirmişti (161 künye sanıldı, 14'ü yalnız pencere ucu taşıyordu,
+  gerçek 147); bugün aynı sınır işareti bir **sorgu günü** olarak
+  kullanıldı.
+  ⚠️ Ve `UFUK`un öteki ucu (`1281-01-01`) için aynı tuzak **yok** —
+  aralık `f`de kapalı. Asimetri kaydedilmeli, yoksa *"pencere uçları
+  sorulamaz"* diye fazla geniş bir kural doğar.

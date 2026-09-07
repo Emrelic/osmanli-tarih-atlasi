@@ -1,0 +1,1032 @@
+{
+ "_NOT": "§4 kapsayici kapi taramasi. Bulunan cumle bir DAYANAK DEGIL, bir ADAYDIR — §4⑧: ad/rakam gecmesi govdenin o degeri DESTEKLEDIGI anlamina gelmez, cumle OKUNUR.",
+ "olcum_zamani": "2026-09-07 15:08",
+ "sonuc": {
+  "ankara-1921": {
+   "kapilar": [
+    {
+     "slug": "suriye",
+     "hal": "canli",
+     "karakter": 147969,
+     "kaynak": "cekildi"
+    },
+    {
+     "slug": "hatay",
+     "hal": "olculemedi",
+     "karakter": 2543,
+     "kaynak": "cekildi"
+    },
+    {
+     "slug": "misak-i-milli",
+     "hal": "canli",
+     "karakter": 14820,
+     "kaynak": "cekildi"
+    },
+    {
+     "slug": "lozan-antlasmasi",
+     "hal": "canli",
+     "karakter": 19305,
+     "kaynak": "cekildi"
+    }
+   ],
+   "bulunan_cumle": [
+    {
+     "kapi": "misak-i-milli",
+     "aranan": "Ankara İtilâfnâmesi",
+     "cumle": "Türkiye Büyük Millet Meclisi hükümetiyle Fransa arasında 20 Ekim’de imzalanan Ankara İtilâfnâmesi’yle bugünkü sınır çizilerek Suriye ve Lübnan Fransa’ya bırakıldı."
+    },
+    {
+     "kapi": "misak-i-milli",
+     "aranan": "Ankara itilâfnâmesi",
+     "cumle": "Türkiye Büyük Millet Meclisi hükümetiyle Fransa arasında 20 Ekim’de imzalanan Ankara İtilâfnâmesi’yle bugünkü sınır çizilerek Suriye ve Lübnan Fransa’ya bırakıldı."
+    },
+    {
+     "kapi": "misak-i-milli",
+     "aranan": "1921",
+     "cumle": "Batum, 16 Mart 1921’de imzalanan Moskova Antlaşması ile Gürcistan’a bırakılırken San Remo Konferansı, Lübnan ve Suriye’yi Fransa manda yönetimine verdiğinden (Nisan 1920) Fransa Büyük Lübnan Devleti’nin kurulduğunu ilân etti (Eylül 1921)."
+    },
+    {
+     "kapi": "lozan-antlasmasi",
+     "aranan": "20 Ekim 1921",
+     "cumle": "Türkiye-Suriye sınırı, Fransa ile imzalanmış olan 20 Ekim 1921 Ankara Antlaşması ile belirlenen sınır olarak kabul edilmişti."
+    },
+    {
+     "kapi": "lozan-antlasmasi",
+     "aranan": "1921",
+     "cumle": "Türkiye-Suriye sınırı, Fransa ile imzalanmış olan 20 Ekim 1921 Ankara Antlaşması ile belirlenen sınır olarak kabul edilmişti."
+    }
+   ],
+   "aday_slug": {}
+  },
+  "kars": {
+   "kapilar": [
+    {
+     "slug": "kars",
+     "hal": "canli",
+     "karakter": 20787,
+     "kaynak": "cekildi"
+    },
+    {
+     "slug": "ardahan",
+     "hal": "canli",
+     "karakter": 8904,
+     "kaynak": "cekildi"
+    },
+    {
+     "slug": "ermenistan",
+     "hal": "olu",
+     "karakter": 0,
+     "kaynak": "kod-302"
+    },
+    {
+     "slug": "gurcistan",
+     "hal": "canli",
+     "karakter": 52735,
+     "kaynak": "cekildi"
+    }
+   ],
+   "bulunan_cumle": [
+    {
+     "kapi": "kars",
+     "aranan": "13 Ekim 1921",
+     "cumle": "Moskova (16 Mart 1921) ve Kars (13 Ekim 1921) antlaşmalarıyla yapılan son sınır tashihleri sayesinde Kars yeni Türk devletinin sınırları dahilinde kaldı."
+    }
+   ],
+   "aday_slug": {}
+  },
+  "moskova-1921": {
+   "kapilar": [
+    {
+     "slug": "batum",
+     "hal": "canli",
+     "karakter": 9093,
+     "kaynak": "cekildi"
+    },
+    {
+     "slug": "nahcivan",
+     "hal": "canli",
+     "karakter": 25700,
+     "kaynak": "cekildi"
+    },
+    {
+     "slug": "azerbaycan",
+     "hal": "canli",
+     "karakter": 49655,
+     "kaynak": "cekildi"
+    }
+   ],
+   "bulunan_cumle": [
+    {
+     "kapi": "batum",
+     "aranan": "Moskova Antlaşması",
+     "cumle": "Fakat 16 Mart 1921’de Rusya Şûralar Federatif Sosyalist Cumhuriyeti hükümeti ile imzalanan Moskova Antlaşması gereğince Gürcistan’a bırakıldı."
+    },
+    {
+     "kapi": "batum",
+     "aranan": "16 Mart 1921",
+     "cumle": "Fakat 16 Mart 1921’de Rusya Şûralar Federatif Sosyalist Cumhuriyeti hükümeti ile imzalanan Moskova Antlaşması gereğince Gürcistan’a bırakıldı."
+    }
+   ],
+   "aday_slug": {}
+  },
+  "gumru": {
+   "kapilar": [
+    {
+     "slug": "ermenistan",
+     "hal": "olu",
+     "karakter": 0,
+     "kaynak": "onbellek"
+    },
+    {
+     "slug": "gumru--sehir",
+     "hal": "olu",
+     "karakter": 0,
+     "kaynak": "kod-302"
+    }
+   ],
+   "bulunan_cumle": [],
+   "aday_slug": {}
+  },
+  "ankara-1926": {
+   "kapilar": [
+    {
+     "slug": "musul--irak",
+     "hal": "canli",
+     "karakter": 49235,
+     "kaynak": "cekildi"
+    },
+    {
+     "slug": "kerkuk",
+     "hal": "canli",
+     "karakter": 17658,
+     "kaynak": "cekildi"
+    },
+    {
+     "slug": "irak--ulke",
+     "hal": "canli",
+     "karakter": 242539,
+     "kaynak": "cekildi"
+    },
+    {
+     "slug": "musul-meselesi",
+     "hal": "olu",
+     "karakter": 0,
+     "kaynak": "kod-302"
+    }
+   ],
+   "bulunan_cumle": [
+    {
+     "kapi": "musul--irak",
+     "aranan": "Ankara Antlaşması",
+     "cumle": "Meseleyi nihaî çözüme kavuşturmak amacıyla 5 Haziran 1926’da Türkiye, İngiltere ve Irak arasında imzalanan Ankara Antlaşması ile (Türk-Irak Sınırı ve İyi Komşuluk Antlaşması) Milletler Cemiyeti tarafından 29 Ekim 1924’te statüko hattı olarak tesbit edilen çizginin Türkiye lehine yapılan küçük bir değişiklikle Türkiye ile Irak arasında sınır olacağı kabul edildi."
+    },
+    {
+     "kapi": "musul--irak",
+     "aranan": "5 Haziran 1926",
+     "cumle": "5 Haziran 1926’da Türkiye ile İngiltere arasında imzalanan antlaşma ile bugünkü Türkiye-Irak sınırı çizildi ve Musul Irak sınırları içinde kaldı."
+    },
+    {
+     "kapi": "musul--irak",
+     "aranan": "5 Haziran 1926",
+     "cumle": "Meseleyi nihaî çözüme kavuşturmak amacıyla 5 Haziran 1926’da Türkiye, İngiltere ve Irak arasında imzalanan Ankara Antlaşması ile (Türk-Irak Sınırı ve İyi Komşuluk Antlaşması) Milletler Cemiyeti tarafından 29 Ekim 1924’te statüko hattı olarak tesbit edilen çizginin Türkiye lehine yapılan küçük bir değişiklikle Türkiye ile Irak arasında sınır olacağı kabul edildi."
+    },
+    {
+     "kapi": "musul--irak",
+     "aranan": "1926",
+     "cumle": "5 Haziran 1926’da Türkiye ile İngiltere arasında imzalanan antlaşma ile bugünkü Türkiye-Irak sınırı çizildi ve Musul Irak sınırları içinde kaldı."
+    },
+    {
+     "kapi": "musul--irak",
+     "aranan": "1926",
+     "cumle": "Meseleyi nihaî çözüme kavuşturmak amacıyla 5 Haziran 1926’da Türkiye, İngiltere ve Irak arasında imzalanan Ankara Antlaşması ile (Türk-Irak Sınırı ve İyi Komşuluk Antlaşması) Milletler Cemiyeti tarafından 29 Ekim 1924’te statüko hattı olarak tesbit edilen çizginin Türkiye lehine yapılan küçük bir değişiklikle Türkiye ile Irak arasında sınır olacağı kabul edildi."
+    },
+    {
+     "kapi": "musul--irak",
+     "aranan": "1926",
+     "cumle": "Nitekim 1926’da yapılan antlaşmanın 14."
+    },
+    {
+     "kapi": "musul--irak",
+     "aranan": "1926",
+     "cumle": "Ömer Kürkçüoğlu, Türk-İngiliz İlişkileri, 1919-1926 , Ankara 1978, s."
+    },
+    {
+     "kapi": "musul--irak",
+     "aranan": "1926",
+     "cumle": "Kemal Melek, İngiliz Belgeleriyle Musul Sorunu, 1890-1926 , İstanbul 1983."
+    },
+    {
+     "kapi": "musul--irak",
+     "aranan": "1926",
+     "cumle": "Mim Kemal Öke, Musul Meselesi Kronolojisi, 1918-1926 , İstanbul 1987."
+    },
+    {
+     "kapi": "musul--irak",
+     "aranan": "1926",
+     "cumle": "Uğur Sipahioğlu, The Mosul Question and Anglo-Turkish Relations, 1922-1926 (doktora tezi, 1995), University of Cambridge."
+    },
+    {
+     "kapi": "kerkuk",
+     "aranan": "5 Haziran 1926",
+     "cumle": "Kerkük, Mîsâk-ı Millî sınırlarına dahil olmasına rağmen 5 Haziran 1926’da Ankara’da İngiltere, Irak, Türkiye arasında imzalanan “sınır ve iyi komşuluk ilişkileri” antlaşmasıyla İngiliz mandasındaki Irak Devleti’ne bırakıldı."
+    },
+    {
+     "kapi": "kerkuk",
+     "aranan": "1926",
+     "cumle": "Kerkük, Mîsâk-ı Millî sınırlarına dahil olmasına rağmen 5 Haziran 1926’da Ankara’da İngiltere, Irak, Türkiye arasında imzalanan “sınır ve iyi komşuluk ilişkileri” antlaşmasıyla İngiliz mandasındaki Irak Devleti’ne bırakıldı."
+    },
+    {
+     "kapi": "irak--ulke",
+     "aranan": "Ankara Antlaşması",
+     "cumle": "Yapılan görüşmeler sonucunda 5 Haziran 1926’da imzalanan Ankara Antlaşması ile Musul meselesine son verildi."
+    },
+    {
+     "kapi": "irak--ulke",
+     "aranan": "Ankara Antlaşması",
+     "cumle": "Ancak Milletler Cemiyeti’nin 16 Aralık 1925 tarihinde İngiltere’nin isteklerine uygun görüş bildirmesi ve Türkiye’nin 5 Haziran 1926’da imzaladığı Ankara Antlaşması ile Musul bölgesini İngiltere’nin himayesindeki Irak’a terketmesi, Türkiye’nin idaresi altında kalmak isteyen Irak Türkleri üzerinde büyük bir hayal kırıklığına sebep oldu."
+    },
+    {
+     "kapi": "irak--ulke",
+     "aranan": "5 Haziran 1926",
+     "cumle": "Yapılan görüşmeler sonucunda 5 Haziran 1926’da imzalanan Ankara Antlaşması ile Musul meselesine son verildi."
+    },
+    {
+     "kapi": "irak--ulke",
+     "aranan": "5 Haziran 1926",
+     "cumle": "Ancak Milletler Cemiyeti’nin 16 Aralık 1925 tarihinde İngiltere’nin isteklerine uygun görüş bildirmesi ve Türkiye’nin 5 Haziran 1926’da imzaladığı Ankara Antlaşması ile Musul bölgesini İngiltere’nin himayesindeki Irak’a terketmesi, Türkiye’nin idaresi altında kalmak isteyen Irak Türkleri üzerinde büyük bir hayal kırıklığına sebep oldu."
+    },
+    {
+     "kapi": "irak--ulke",
+     "aranan": "1926",
+     "cumle": "Hans von Mžik), Leipzig 1926, s."
+    },
+    {
+     "kapi": "irak--ulke",
+     "aranan": "1926",
+     "cumle": "Temmuz 1926’da Türkiye, İngiltere ve Irak arasında imzalanan bir antlaşma ile Musul Irak topraklarına katıldı."
+    },
+    {
+     "kapi": "irak--ulke",
+     "aranan": "1926",
+     "cumle": "Yaşar Canatan, Türk-Irak Münasebetleri (1926-1958) , Ankara 1996, tür.yer."
+    },
+    {
+     "kapi": "irak--ulke",
+     "aranan": "1926",
+     "cumle": "Yapılan görüşmeler sonucunda 5 Haziran 1926’da imzalanan Ankara Antlaşması ile Musul meselesine son verildi."
+    },
+    {
+     "kapi": "irak--ulke",
+     "aranan": "1926",
+     "cumle": "Ancak Milletler Cemiyeti’nin 16 Aralık 1925 tarihinde İngiltere’nin isteklerine uygun görüş bildirmesi ve Türkiye’nin 5 Haziran 1926’da imzaladığı Ankara Antlaşması ile Musul bölgesini İngiltere’nin himayesindeki Irak’a terketmesi, Türkiye’nin idaresi altında kalmak isteyen Irak Türkleri üzerinde büyük bir hayal kırıklığına sebep oldu."
+    },
+    {
+     "kapi": "irak--ulke",
+     "aranan": "1926",
+     "cumle": "Mim Kemal Öke, Musul Meselesi Kronolojisi (1918-1926) , İstanbul 1977."
+    },
+    {
+     "kapi": "irak--ulke",
+     "aranan": "1926",
+     "cumle": "Kemal Melek, İngiliz Belgeleriyle Musul Sorunu (1890-1926) , İstanbul 1983."
+    }
+   ],
+   "aday_slug": {}
+  },
+  "ukayr": {
+   "kapilar": [
+    {
+     "slug": "necid",
+     "hal": "canli",
+     "karakter": 16246,
+     "kaynak": "cekildi"
+    },
+    {
+     "slug": "kuveyt",
+     "hal": "canli",
+     "karakter": 28471,
+     "kaynak": "cekildi"
+    },
+    {
+     "slug": "abdulaziz-b-abdurrahman",
+     "hal": "olu",
+     "karakter": 0,
+     "kaynak": "kod-302"
+    }
+   ],
+   "bulunan_cumle": [],
+   "aday_slug": {}
+  },
+  "muhammara": {
+   "kapilar": [
+    {
+     "slug": "kuveyt",
+     "hal": "canli",
+     "karakter": 28471,
+     "kaynak": "onbellek"
+    },
+    {
+     "slug": "irak--ulke",
+     "hal": "canli",
+     "karakter": 242539,
+     "kaynak": "onbellek"
+    },
+    {
+     "slug": "necid",
+     "hal": "canli",
+     "karakter": 16246,
+     "kaynak": "onbellek"
+    }
+   ],
+   "bulunan_cumle": [],
+   "aday_slug": {}
+  },
+  "usi": {
+   "kapilar": [
+    {
+     "slug": "trablusgarp",
+     "hal": "canli",
+     "karakter": 22465,
+     "kaynak": "cekildi"
+    },
+    {
+     "slug": "libya",
+     "hal": "canli",
+     "karakter": 92950,
+     "kaynak": "cekildi"
+    }
+   ],
+   "bulunan_cumle": [
+    {
+     "kapi": "trablusgarp",
+     "aranan": "Uşi",
+     "cumle": "1912’de İsviçre’nin Uşi (Ouchy/Lozan) şehrinde yapılan antlaşma ile Osmanlı Devleti, Afrika’daki bu son vilâyetini İtalya’ya terkettiğini kabul etti, ancak halife buradaki toplumun dinî önderi olarak kalacaktı."
+    },
+    {
+     "kapi": "trablusgarp",
+     "aranan": "Ouchy",
+     "cumle": "1912’de İsviçre’nin Uşi (Ouchy/Lozan) şehrinde yapılan antlaşma ile Osmanlı Devleti, Afrika’daki bu son vilâyetini İtalya’ya terkettiğini kabul etti, ancak halife buradaki toplumun dinî önderi olarak kalacaktı."
+    },
+    {
+     "kapi": "libya",
+     "aranan": "Uşi",
+     "cumle": "Ekim ayının başında Balkan devletleri birbiri ardından savaş ilân edip saldırıya geçince barış görüşmeleri hızlandırıldı ve 18 Ekim 1912’de Uşi (Ouchy/Lozan) Antlaşması imzalandı."
+    },
+    {
+     "kapi": "libya",
+     "aranan": "Uşi",
+     "cumle": "Gerçi Uşi Antlaşması tam uygulanmıyordu."
+    },
+    {
+     "kapi": "libya",
+     "aranan": "Ouchy",
+     "cumle": "Ekim ayının başında Balkan devletleri birbiri ardından savaş ilân edip saldırıya geçince barış görüşmeleri hızlandırıldı ve 18 Ekim 1912’de Uşi (Ouchy/Lozan) Antlaşması imzalandı."
+    },
+    {
+     "kapi": "libya",
+     "aranan": "18 Ekim 1912",
+     "cumle": "Ekim ayının başında Balkan devletleri birbiri ardından savaş ilân edip saldırıya geçince barış görüşmeleri hızlandırıldı ve 18 Ekim 1912’de Uşi (Ouchy/Lozan) Antlaşması imzalandı."
+    }
+   ],
+   "aday_slug": {}
+  },
+  "londra-1913": {
+   "kapilar": [
+    {
+     "slug": "balkan-savasi",
+     "hal": "canli",
+     "karakter": 18416,
+     "kaynak": "cekildi"
+    },
+    {
+     "slug": "balkan-harbi",
+     "hal": "olu",
+     "karakter": 0,
+     "kaynak": "kod-302"
+    }
+   ],
+   "bulunan_cumle": [
+    {
+     "kapi": "balkan-savasi",
+     "aranan": "Londra Antlaşması",
+     "cumle": "Londra Antlaşması’nda kabul edilen Midye-Enez hattının belirlenmesine yanaşmayan Bulgaristan’ın tutumundan şikâyet edilerek 19 Temmuz 1913’te büyük devletlere bir nota verildi ve Meriç sınırının tecavüz edilmeyeceği belirtildi."
+    },
+    {
+     "kapi": "balkan-savasi",
+     "aranan": "Londra Antlaşması",
+     "cumle": "Adalar meselesinin halli Londra Antlaşması’nın 5."
+    },
+    {
+     "kapi": "balkan-savasi",
+     "aranan": "Londra Antlaşması",
+     "cumle": "Balkan Savaşı sonunda 30 Mayıs 1913’te Londra Antlaşması’nı imzalayan delegeleri gösteren temsilî resim ( L’Illustration, nr."
+    },
+    {
+     "kapi": "balkan-savasi",
+     "aranan": "Londra Antlaşması",
+     "cumle": "Balkan Savaşı sonunda 30 Mayıs 1913’te Londra Antlaşması’nı imzalayan delegeleri gösteren temsilî resim ( L’Illustration, nr."
+    },
+    {
+     "kapi": "balkan-savasi",
+     "aranan": "30 Mayıs 1913",
+     "cumle": "Notanın Türk hükümeti tarafından kabul edilmesi üzerine tekrar başlayan Londra Konferansı, 30 Mayıs 1913’te Osmanlı Devleti ile Balkan devletleri arasında imzalanan bir antlaşma ile sona erdi."
+    },
+    {
+     "kapi": "balkan-savasi",
+     "aranan": "30 Mayıs 1913",
+     "cumle": "Balkan Savaşı sonunda 30 Mayıs 1913’te Londra Antlaşması’nı imzalayan delegeleri gösteren temsilî resim ( L’Illustration, nr."
+    },
+    {
+     "kapi": "balkan-savasi",
+     "aranan": "30 Mayıs 1913",
+     "cumle": "Balkan Savaşı sonunda 30 Mayıs 1913’te Londra Antlaşması’nı imzalayan delegeleri gösteren temsilî resim ( L’Illustration, nr."
+    }
+   ],
+   "aday_slug": {}
+  },
+  "bukres-1913": {
+   "kapilar": [
+    {
+     "slug": "balkan-savasi",
+     "hal": "canli",
+     "karakter": 18416,
+     "kaynak": "onbellek"
+    },
+    {
+     "slug": "romanya",
+     "hal": "canli",
+     "karakter": 38130,
+     "kaynak": "cekildi"
+    }
+   ],
+   "bulunan_cumle": [
+    {
+     "kapi": "balkan-savasi",
+     "aranan": "Bükreş",
+     "cumle": "Balkan Savaşı 10 Ağustos 1913’te Bulgaristan’la Sırbistan, Yunanistan ve Karadağ arasında imzalanan Bükreş Antlaşması ile sona erdi."
+    },
+    {
+     "kapi": "balkan-savasi",
+     "aranan": "10 Ağustos 1913",
+     "cumle": "Balkan Savaşı 10 Ağustos 1913’te Bulgaristan’la Sırbistan, Yunanistan ve Karadağ arasında imzalanan Bükreş Antlaşması ile sona erdi."
+    },
+    {
+     "kapi": "romanya",
+     "aranan": "Bükreş",
+     "cumle": "Yüzölçümü 238.391 km 2 , nüfusu 2002 verilerine göre 21.680.974, başşehri Bükreş (2.032.000), başlıca şehirleri Yaş (349.000), aynı zamanda en büyük liman şehri olan Köstence (344.000), Cluj (333.000), Kalas (332.000), Tımışvar (327.000), Braşov (316.000) ve Craiova’dır (314.000)."
+    },
+    {
+     "kapi": "romanya",
+     "aranan": "Bükreş",
+     "cumle": "Sanayi bölgeleri Bükreş, Prahova, Braşov, Bacau, Arad, Kalas, Tımışvar, Hunedoara, Sibiu ve Cluj’dur."
+    },
+    {
+     "kapi": "romanya",
+     "aranan": "Bükreş",
+     "cumle": "En önemli havaalanı ise Bükreş’tedir."
+    },
+    {
+     "kapi": "romanya",
+     "aranan": "Bükreş",
+     "cumle": "Topluluğun dinî işleri Bükreş’teki Dinî İşler Başkanlığı’na doğrudan bağlı dört müftülük tarafından yürütülüyordu."
+    },
+    {
+     "kapi": "romanya",
+     "aranan": "Bükreş",
+     "cumle": "Bunlardan biri Yaş’ta Alman Türkologu Franz Babinger tarafından kurulan Institutul de Turcologie (1940-1945), bir diğeri Bükreş’te Balkanolog Victor Papacostea tarafından teşkil edilen Institutul de Studii şi Cercetari Balcanice’dir (de Balcanologie, 1943-1948)."
+    },
+    {
+     "kapi": "romanya",
+     "aranan": "Bükreş",
+     "cumle": "Yine o yıllarda Lazǎr Şaineanu Influenta orientala asupra limbei şi culturei române (Romen dili ve kültürü üzerindeki Doğu etkisi) adlı kitabını neşretmiştir (I-II, Bükreş 1900; Fr., I-II, Paris 1902)."
+    },
+    {
+     "kapi": "romanya",
+     "aranan": "Bükreş",
+     "cumle": "Bükreş Üniversitesi’nde 1985’te Centrul de Studii Otomane (Osmanlı Araştırmaları Merkezi) kurulmuştur."
+    },
+    {
+     "kapi": "romanya",
+     "aranan": "Bükreş",
+     "cumle": "Bükreş’te eski kervansaray tarzında XIX."
+    },
+    {
+     "kapi": "romanya",
+     "aranan": "Bükreş",
+     "cumle": "Yine Bükreş’te I."
+    },
+    {
+     "kapi": "romanya",
+     "aranan": "Bükreş",
+     "cumle": "Bükreş’te Dambovita nehri ve iki kenarında yer alan eski binalar"
+    },
+    {
+     "kapi": "romanya",
+     "aranan": "Bükreş",
+     "cumle": "BÜKREŞ Romanya’nın başşehri."
+    },
+    {
+     "kapi": "romanya",
+     "aranan": "Bükreş",
+     "cumle": "Bükreş’te Dambovita nehri ve iki kenarında yer alan eski binalar"
+    },
+    {
+     "kapi": "romanya",
+     "aranan": "Bükreş",
+     "cumle": "Romanya Parlamento Sarayı – Bükreş (Eski başkan Çavuşesku’nun sarayı)"
+    },
+    {
+     "kapi": "romanya",
+     "aranan": "Bükreş",
+     "cumle": "ROMANYA (1/3) Bükreş’te Dambovita nehri ve iki kenarında yer alan eski binalar Görseli Büyüt \">"
+    },
+    {
+     "kapi": "romanya",
+     "aranan": "Bükreş",
+     "cumle": "ROMANYA (2/3) Romanya Parlamento Sarayı – Bükreş (Eski başkan Çavuşesku’nun sarayı) Görseli Büyüt \">"
+    }
+   ],
+   "aday_slug": {}
+  },
+  "istanbul-1913": {
+   "kapilar": [
+    {
+     "slug": "balkan-savasi",
+     "hal": "canli",
+     "karakter": 18416,
+     "kaynak": "onbellek"
+    },
+    {
+     "slug": "bulgaristan",
+     "hal": "canli",
+     "karakter": 125404,
+     "kaynak": "cekildi"
+    }
+   ],
+   "bulunan_cumle": [
+    {
+     "kapi": "balkan-savasi",
+     "aranan": "İstanbul Antlaşması",
+     "cumle": "Yirmi maddeden oluşan İstanbul Antlaşması’na göre, Edirne ile batı tarafında çapı 30 km."
+    },
+    {
+     "kapi": "balkan-savasi",
+     "aranan": "29 Eylül 1913",
+     "cumle": "Osmanlı Devleti ile Balkan devletleri arasında iki safhada yapılan savaş (8 Ekim 1912 - 29 Eylül 1913)."
+    },
+    {
+     "kapi": "balkan-savasi",
+     "aranan": "29 Eylül 1913",
+     "cumle": "Osmanlı-Bulgar antlaşması da 29 Eylül 1913’te İstanbul’da imzalandı."
+    },
+    {
+     "kapi": "bulgaristan",
+     "aranan": "29 Eylül 1913",
+     "cumle": "BALKAN SAVAŞI Osmanlı Devleti ile Balkan devletleri arasında iki safhada yapılan savaş (8 Ekim 1912 - 29 Eylül 1913)."
+    }
+   ],
+   "aday_slug": {}
+  },
+  "atina-1913": {
+   "kapilar": [
+    {
+     "slug": "balkan-savasi",
+     "hal": "canli",
+     "karakter": 18416,
+     "kaynak": "onbellek"
+    },
+    {
+     "slug": "yunanistan",
+     "hal": "canli",
+     "karakter": 87703,
+     "kaynak": "cekildi"
+    }
+   ],
+   "bulunan_cumle": [
+    {
+     "kapi": "balkan-savasi",
+     "aranan": "14 Kasım 1913",
+     "cumle": "Osmanlı-Yunan Antlaşması 14 Kasım 1913’te Atina’da imzalandı."
+    }
+   ],
+   "aday_slug": {}
+  },
+  "versay": {
+   "kapilar": [
+    {
+     "slug": "birinci-dunya-savasi",
+     "hal": "canli",
+     "karakter": 27156,
+     "kaynak": "cekildi"
+    },
+    {
+     "slug": "almanya",
+     "hal": "canli",
+     "karakter": 115361,
+     "kaynak": "cekildi"
+    }
+   ],
+   "bulunan_cumle": [
+    {
+     "kapi": "almanya",
+     "aranan": "28 Haziran 1919",
+     "cumle": "Almanya’nın İtilâf devletleriyle imzaladığı Versailles Barış Antlaşması (28 Haziran 1919) meclis tarafından onaylandı (9 Temmuz 1919)."
+    }
+   ],
+   "aday_slug": {}
+  },
+  "trianon": {
+   "kapilar": [
+    {
+     "slug": "macaristan",
+     "hal": "canli",
+     "karakter": 70265,
+     "kaynak": "cekildi"
+    }
+   ],
+   "bulunan_cumle": [
+    {
+     "kapi": "macaristan",
+     "aranan": "Trianon",
+     "cumle": "4 Haziran günü imzalanan Trianon Antlaşması gereğince Macaristan toprak ve insan kaybına uğradı."
+    },
+    {
+     "kapi": "macaristan",
+     "aranan": "Trianon",
+     "cumle": "1920-1938 yılları arasında bir yandan istikrarı sağlama, öte yandan Trianon Antlaşması’nın yeniden gözden geçirilme çabaları sürdürüldü."
+    }
+   ],
+   "aday_slug": {}
+  },
+  "saint-germain": {
+   "kapilar": [
+    {
+     "slug": "avusturya",
+     "hal": "canli",
+     "karakter": 68704,
+     "kaynak": "cekildi"
+    }
+   ],
+   "bulunan_cumle": [
+    {
+     "kapi": "avusturya",
+     "aranan": "Saint-Germain",
+     "cumle": "Savaştan sonra Avusturya müttefiklerle Saint-Germain Barış Antlaşması’nı imzaladı (10 Eylül 1919)."
+    },
+    {
+     "kapi": "avusturya",
+     "aranan": "Saint-Germain",
+     "cumle": "Saint-Germain Antlaşması’nın gerektirdiği tamirat borcunun ülke ekonomisine getirdiği yük, Milletler Cemiyeti kanalı ile dışarıdan alınan ekonomik yardımlarla giderilmeye çalışıldı ise de bu yardımların 1926’da son bulması ve 1929’da ortaya çıkan ekonomik kriz ülkeyi iflâsın eşiğine getirdi."
+    },
+    {
+     "kapi": "avusturya",
+     "aranan": "Saint-Germain",
+     "cumle": "Saint-Germain Antlaşması’nın Almanya ile ilişkileri ileri götürmesine imkân vermemesi, Avusturya’yı İtalya ile ilişkileri geliştirmeye yöneltti ve 1930’da iki devlet arasında bir dostluk antlaşması imzalandı."
+    },
+    {
+     "kapi": "avusturya",
+     "aranan": "10 Eylül 1919",
+     "cumle": "Savaştan sonra Avusturya müttefiklerle Saint-Germain Barış Antlaşması’nı imzaladı (10 Eylül 1919)."
+    }
+   ],
+   "aday_slug": {}
+  },
+  "neuilly": {
+   "kapilar": [
+    {
+     "slug": "bulgaristan",
+     "hal": "canli",
+     "karakter": 125404,
+     "kaynak": "onbellek"
+    }
+   ],
+   "bulunan_cumle": [
+    {
+     "kapi": "bulgaristan",
+     "aranan": "27 Kasım 1919",
+     "cumle": "Savaşı sona erdiren Neully Antlaşması’yla (27 Kasım 1919) Bulgaristan Sırplar lehine belirli bir stratejik toprak kaybına uğramış, Batı Trakya’nın tamamını kaybetmiş, Ege denizi kıyısını Yunanistan’a bırakmak durumunda kalmış ve Güney Dobruca’yı Romanya’ya veren Bükreş Barış Antlaşması hükümlerini de onaylamıştır."
+    }
+   ],
+   "aday_slug": {}
+  },
+  "san-remo": {
+   "kapilar": [
+    {
+     "slug": "manda",
+     "hal": "olu",
+     "karakter": 0,
+     "kaynak": "kod-302"
+    },
+    {
+     "slug": "filistin",
+     "hal": "canli",
+     "karakter": 98597,
+     "kaynak": "cekildi"
+    },
+    {
+     "slug": "suriye",
+     "hal": "canli",
+     "karakter": 147969,
+     "kaynak": "onbellek"
+    }
+   ],
+   "bulunan_cumle": [
+    {
+     "kapi": "filistin",
+     "aranan": "San Remo",
+     "cumle": "Fakat İngilizler’in tesiriyle San Remo Konferansı 1920’de Filistin’i İngiliz mandasına verdi."
+    },
+    {
+     "kapi": "suriye",
+     "aranan": "San Remo",
+     "cumle": "İtilâf devletlerinin Nisan 1920 San Remo Konferansı’nda Suriye’yi Fransız manda yönetimine vermesiyle bölgede Arap-Fransız çatışmaları arttı."
+    }
+   ],
+   "aday_slug": {}
+  },
+  "brest": {
+   "kapilar": [
+    {
+     "slug": "rusya",
+     "hal": "canli",
+     "karakter": 143577,
+     "kaynak": "cekildi"
+    },
+    {
+     "slug": "birinci-dunya-savasi",
+     "hal": "canli",
+     "karakter": 27156,
+     "kaynak": "onbellek"
+    }
+   ],
+   "bulunan_cumle": [
+    {
+     "kapi": "rusya",
+     "aranan": "Brest-Litovsk",
+     "cumle": "Brest-Litovsk Antlaşması ile (3 Mart 1918) Rusya Doksanüç Harbi’nde ele geçirdiği Kars, Ardahan ve Batum’u geri vermek zorunda kaldı."
+    },
+    {
+     "kapi": "rusya",
+     "aranan": "3 Mart 1918",
+     "cumle": "Brest-Litovsk Antlaşması ile (3 Mart 1918) Rusya Doksanüç Harbi’nde ele geçirdiği Kars, Ardahan ve Batum’u geri vermek zorunda kaldı."
+    },
+    {
+     "kapi": "birinci-dunya-savasi",
+     "aranan": "Brest-Litovsk",
+     "cumle": "Bolşevik hükümeti 15 Aralık 1917’de Almanya ve müttefikleriyle mütareke yaptı; 3 Mart 1918’de de Brest-Litovsk Antlaşması’nı imzalayarak savaştan çekildi."
+    },
+    {
+     "kapi": "birinci-dunya-savasi",
+     "aranan": "3 Mart 1918",
+     "cumle": "Bolşevik hükümeti 15 Aralık 1917’de Almanya ve müttefikleriyle mütareke yaptı; 3 Mart 1918’de de Brest-Litovsk Antlaşması’nı imzalayarak savaştan çekildi."
+    }
+   ],
+   "aday_slug": {}
+  },
+  "riga": {
+   "kapilar": [
+    {
+     "slug": "polonya",
+     "hal": "canli",
+     "karakter": 87163,
+     "kaynak": "cekildi"
+    },
+    {
+     "slug": "lehistan",
+     "hal": "olculemedi",
+     "karakter": 2470,
+     "kaynak": "cekildi"
+    }
+   ],
+   "bulunan_cumle": [],
+   "aday_slug": {}
+  },
+  "rapallo": {
+   "kapilar": [
+    {
+     "slug": "italya",
+     "hal": "canli",
+     "karakter": 72765,
+     "kaynak": "cekildi"
+    },
+    {
+     "slug": "yugoslavya",
+     "hal": "canli",
+     "karakter": 40986,
+     "kaynak": "cekildi"
+    }
+   ],
+   "bulunan_cumle": [],
+   "aday_slug": {}
+  },
+  "paris-1919": {
+   "kapilar": [
+    {
+     "slug": "birinci-dunya-savasi",
+     "hal": "canli",
+     "karakter": 27156,
+     "kaynak": "onbellek"
+    }
+   ],
+   "bulunan_cumle": [
+    {
+     "kapi": "birinci-dunya-savasi",
+     "aranan": "Paris Barış Konferansı",
+     "cumle": "Paris Barış Konferansı’nda Emîr Faysal, Balfour Deklarasyonu’na uygun olarak Arap İmparatorluğu içinde yahudilere mahallî muhtariyet verileceğini bildirdiyse de kabul edilmedi."
+    },
+    {
+     "kapi": "birinci-dunya-savasi",
+     "aranan": "18 Ocak 1919",
+     "cumle": "Barış Konferansı 18 Ocak 1919’da Paris’te toplandı."
+    }
+   ],
+   "aday_slug": {}
+  },
+  "sevr-EK": {
+   "kapilar": [
+    {
+     "slug": "sevr-antlasmasi",
+     "hal": "canli",
+     "karakter": 28216,
+     "kaynak": "cekildi"
+    }
+   ],
+   "bulunan_cumle": [
+    {
+     "kapi": "sevr-antlasmasi",
+     "aranan": "sınır",
+     "cumle": "Yeni bir taslak hazırlanıp Çatalca hattı Türkiye’nin batı sınırı olarak kabul edildi."
+    },
+    {
+     "kapi": "sevr-antlasmasi",
+     "aranan": "sınır",
+     "cumle": "Türkiye’nin güney sınırı Ceyhan nehrinin denize döküldüğü yerden başlayarak Osmaniye, Antep, Urfa, Siverek ve Mardin’in kuzeyinden İran sınırına uzanıyordu (md."
+    },
+    {
+     "kapi": "sevr-antlasmasi",
+     "aranan": "sınır",
+     "cumle": "maddede belirtilen Suriye ve Irak sınırlarının kuzeyinde Kürtler’in sayıca üstün olduğu bölgelere verilecek yerel özerkliğin şartları antlaşmanın yürürlüğe girmesini izleyen altı ay içinde İstanbul’da toplanacak İngiliz, Fransız ve İtalyan ortak komisyonu tarafından hazırlanacaktı."
+    },
+    {
+     "kapi": "sevr-antlasmasi",
+     "aranan": "sınır",
+     "cumle": "Nihayet San Remo Konferansı’nda Ermenistan mandasını kabul etmesi için Amerika’ya bir daha müracaat edilmesine, sınırın tesbiti konusunda Wilson’dan ara buluculuk yapmasının istenmesine karar verildi."
+    },
+    {
+     "kapi": "sevr-antlasmasi",
+     "aranan": "sınır",
+     "cumle": "Wilson ise Ermenistan-Türkiye sınırını uygun bulduğu biçimde çizme teklifini kabul etti."
+    },
+    {
+     "kapi": "sevr-antlasmasi",
+     "aranan": "sınır",
+     "cumle": "Antlaşmaya göre Türkiye de müttefikler gibi Ermenistan’ın bağımsızlığını tanıyacağını, müttefikler gibi Ermenistan-Türkiye sınırının belirlenmesi işini Başkan Wilson’un hakemliğine sunacağını, onun ileri süreceği bütün hükümleri kabul edeceğini ve Ermenistan’a katılacak topraklar üzerindeki bütün haklarından vazgeçeceğini şimdiden bildiriyordu (md."
+    },
+    {
+     "kapi": "sevr-antlasmasi",
+     "aranan": "sınır",
+     "cumle": "Lloyd George ise İstanbul hükümetini antlaşmayı imzaya zorlamak için Yunanistan’ın sınırlı bir harekât üstlenebileceğini söylüyordu."
+    },
+    {
+     "kapi": "sevr-antlasmasi",
+     "aranan": "sınır",
+     "cumle": "Sevr Antlaşması’na göre Osmanlı Devleti’nin sınırları"
+    },
+    {
+     "kapi": "sevr-antlasmasi",
+     "aranan": "sınır",
+     "cumle": "SEVR ANTLAŞMASI (2/2) Sevr Antlaşması’na göre Osmanlı Devleti’nin sınırları Görseli Büyüt \">"
+    },
+    {
+     "kapi": "sevr-antlasmasi",
+     "aranan": "Musul",
+     "cumle": "Mondros Mütarekesi’nden sonra Musul’u ele geçiren ve bölgede kendi denetiminde bir Kürt devleti kurdurmaya çalışan İngiltere, Ermenistan ve Mezopotamya arasında bir tampon oluşturarak bölgeyi Türkler’in denetiminden çıkarmayı ve petrol bölgesi Musul’a tamamen hâkim olmayı planlıyordu."
+    },
+    {
+     "kapi": "sevr-antlasmasi",
+     "aranan": "Trakya",
+     "cumle": "Düzmece nüfus istatistiklerine dayanarak Trakya ve Anadolu’nun Türk olmadığını iddia eden Yunanistan bütün Trakya’yı, adaları ve Batı Anadolu’yu istiyordu."
+    },
+    {
+     "kapi": "sevr-antlasmasi",
+     "aranan": "Trakya",
+     "cumle": "17 Mayıs’ta konsey tarafından kabul edilen Hint delegasyonunun 70 milyon Hint müslümanının halifeyi İstanbul’da görmek istediğini ve Osmanlı Devleti’nin Anadolu, İstanbul ve Trakya’da korunması gerektiğini söylemesi üzerine geri adım atan Lloyd George, İslâm dünyasının dinî lideri olarak halife-padişahı İstanbul’da bırakacak formül aramaya koyuldu."
+    },
+    {
+     "kapi": "sevr-antlasmasi",
+     "aranan": "Trakya",
+     "cumle": "Yunanlılar’ın 20 Temmuz’da bütün Trakya’yı ele geçirmesi karşısında telâşa kapılan padişah, “musibetler mecmuası” olarak nitelendirdiği barış şartlarını görüşmek üzere 22 Temmuz’da sarayda saltanat şûrasını topladı."
+    },
+    {
+     "kapi": "sevr-antlasmasi",
+     "aranan": "Trakya",
+     "cumle": "Mütareke şartları gereğince Yunan ordusunun çekildiği Doğu Trakya Ankara hükümetine teslim edildi."
+    }
+   ],
+   "aday_slug": {}
+  },
+  "lozan-EK": {
+   "kapilar": [
+    {
+     "slug": "lozan-antlasmasi",
+     "hal": "canli",
+     "karakter": 19305,
+     "kaynak": "onbellek"
+    }
+   ],
+   "bulunan_cumle": [
+    {
+     "kapi": "lozan-antlasmasi",
+     "aranan": "sınır",
+     "cumle": "Meclisteki konuşmalarda özellikle sınırlar, tam bağımsızlık ve Ermenistan meselesi üzerinde duruldu."
+    },
+    {
+     "kapi": "lozan-antlasmasi",
+     "aranan": "sınır",
+     "cumle": "Batı Trakya için halk oylamasına başvurulması gerektiği hatırlatıldı ve Mîsâk-ı Millî sınırları içinde olan Musul’un anavatandan ayrılmaması gerektiği ifade edildi."
+    },
+    {
+     "kapi": "lozan-antlasmasi",
+     "aranan": "sınır",
+     "cumle": "Bu istekler İsmâil Safâ tarafından “borçsuz, azınlıksız, istiklâli tam, sınırlarında mazlum ve zincir sesi olmayan bir vatan” şeklinde özetlenmişti."
+    },
+    {
+     "kapi": "lozan-antlasmasi",
+     "aranan": "sınır",
+     "cumle": "İngiltere de Mîsâk-ı Millî sınırları içinde bulunan petrol bölgesi Musul’u elinden çıkarmamaya kararlı görünüyordu."
+    },
+    {
+     "kapi": "lozan-antlasmasi",
+     "aranan": "sınır",
+     "cumle": "Bütün çabalara rağmen Türk-Irak sınırının nerelerden geçeceği hususunda İngiltere ile bir uyuşma sağlanamadı."
+    },
+    {
+     "kapi": "lozan-antlasmasi",
+     "aranan": "sınır",
+     "cumle": "Antlaşmada çözümü ileriye bırakılan Musul meselesi Türk-Irak sınırının tesbit edilmesi olarak anılmış ve bunun dokuz ay içinde Türkiye ile Büyük Britanya arasında dostça belirleneceği hükmüne yer verilmişti (md."
+    },
+    {
+     "kapi": "lozan-antlasmasi",
+     "aranan": "sınır",
+     "cumle": "Sınırlar."
+    },
+    {
+     "kapi": "lozan-antlasmasi",
+     "aranan": "sınır",
+     "cumle": "Trakya’daki Türkiye-Yunanistan sınırı Karaağaç Türkiye’de kalmak üzere Meriç ırmağının “talvek”i olarak tesbit edilmişti."
+    },
+    {
+     "kapi": "lozan-antlasmasi",
+     "aranan": "sınır",
+     "cumle": "Türkiye-Suriye sınırı, Fransa ile imzalanmış olan 20 Ekim 1921 Ankara Antlaşması ile belirlenen sınır olarak kabul edilmişti."
+    },
+    {
+     "kapi": "lozan-antlasmasi",
+     "aranan": "Musul",
+     "cumle": "Batı Trakya için halk oylamasına başvurulması gerektiği hatırlatıldı ve Mîsâk-ı Millî sınırları içinde olan Musul’un anavatandan ayrılmaması gerektiği ifade edildi."
+    },
+    {
+     "kapi": "lozan-antlasmasi",
+     "aranan": "Musul",
+     "cumle": "İngiltere de Mîsâk-ı Millî sınırları içinde bulunan petrol bölgesi Musul’u elinden çıkarmamaya kararlı görünüyordu."
+    },
+    {
+     "kapi": "lozan-antlasmasi",
+     "aranan": "Musul",
+     "cumle": "Ancak Adalar, Musul ve kapitülasyonlarla Yunanistan’dan istenen savaş tazminatı konularında anlaşmaya varılamadı."
+    },
+    {
+     "kapi": "lozan-antlasmasi",
+     "aranan": "Musul",
+     "cumle": "Antlaşmada çözümü ileriye bırakılan Musul meselesi Türk-Irak sınırının tesbit edilmesi olarak anılmış ve bunun dokuz ay içinde Türkiye ile Büyük Britanya arasında dostça belirleneceği hükmüne yer verilmişti (md."
+    },
+    {
+     "kapi": "lozan-antlasmasi",
+     "aranan": "Musul",
+     "cumle": "Ancak bazı üyeler, Musul sorununun geriye bırakılması ve Oniki Ada ile savaş tazminatı açısından eleştirilerde bulundu."
+    },
+    {
+     "kapi": "lozan-antlasmasi",
+     "aranan": "Trakya",
+     "cumle": "Batı Trakya için halk oylamasına başvurulması gerektiği hatırlatıldı ve Mîsâk-ı Millî sınırları içinde olan Musul’un anavatandan ayrılmaması gerektiği ifade edildi."
+    },
+    {
+     "kapi": "lozan-antlasmasi",
+     "aranan": "Trakya",
+     "cumle": "Trakya’daki Türkiye-Yunanistan sınırı Karaağaç Türkiye’de kalmak üzere Meriç ırmağının “talvek”i olarak tesbit edilmişti."
+    },
+    {
+     "kapi": "lozan-antlasmasi",
+     "aranan": "Trakya",
+     "cumle": "İmroz, Bozcaada ve İstanbul’da bulunan Rumlar’la Batı Trakya’daki Türkler o dönemde her iki devletin izlediği siyasete uygun olarak mübadele dışı bırakılmıştı."
+    },
+    {
+     "kapi": "lozan-antlasmasi",
+     "aranan": "Trakya",
+     "cumle": "Ahmed Kayahan, Lozan ve Batı Trakya , İstanbul 1967."
+    }
+   ],
+   "aday_slug": {}
+  }
+ }
+}

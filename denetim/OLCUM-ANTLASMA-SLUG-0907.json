@@ -1,0 +1,794 @@
+{
+ "_NOT": "ANTLASMA-0907 · adres taramasi. 'canli' ADRESI olcer, DOGRU MADDE oldugunu OLCMEZ (§4②). 'olculemedi' ASLA 'temiz' degildir.",
+ "olcum_zamani": "2026-09-07 15:04",
+ "boilerplate_esik": 4000,
+ "sayac": {
+  "canli": 10,
+  "olu": 20,
+  "olculemedi": 1
+ },
+ "kunyeler": [
+  {
+   "id": "lozan",
+   "ad": "Lozan Baris Antlasmasi",
+   "kaba_yil": 1923,
+   "adaylar": [
+    {
+     "slug": "lozan-antlasmasi",
+     "kod": "200",
+     "karakter": 19305,
+     "hal": "canli",
+     "gerekce": "govde alindi",
+     "kaynak": "onbellek"
+    },
+    {
+     "slug": "lozan-konferansi",
+     "kod": "302",
+     "karakter": 0,
+     "hal": "olu",
+     "gerekce": "arama sayfasina yonlendi — adres OLU",
+     "kaynak": "onbellek"
+    },
+    {
+     "slug": "lozan",
+     "kod": "302",
+     "karakter": 0,
+     "hal": "olu",
+     "gerekce": "arama sayfasina yonlendi — adres OLU",
+     "kaynak": "onbellek"
+    }
+   ],
+   "secilen": "lozan-antlasmasi",
+   "hal": "canli",
+   "dogru_madde": "olculmedi (§4② — 200 'dogru madde' demek DEGILDIR)"
+  },
+  {
+   "id": "mudanya",
+   "ad": "Mudanya Mutarekesi",
+   "kaba_yil": 1922,
+   "adaylar": [
+    {
+     "slug": "mudanya-mutarekesi",
+     "kod": "200",
+     "karakter": 14602,
+     "hal": "canli",
+     "gerekce": "govde alindi",
+     "kaynak": "cekildi"
+    },
+    {
+     "slug": "mudanya",
+     "kod": "302",
+     "karakter": 0,
+     "hal": "olu",
+     "gerekce": "arama sayfasina yonlendi — adres OLU",
+     "kaynak": "cekildi"
+    }
+   ],
+   "secilen": "mudanya-mutarekesi",
+   "hal": "canli",
+   "dogru_madde": "olculmedi (§4② — 200 'dogru madde' demek DEGILDIR)"
+  },
+  {
+   "id": "mondros",
+   "ad": "Mondros Mutarekesi",
+   "kaba_yil": 1918,
+   "adaylar": [
+    {
+     "slug": "mondros-mutarekesi",
+     "kod": "200",
+     "karakter": 14207,
+     "hal": "canli",
+     "gerekce": "govde alindi",
+     "kaynak": "cekildi"
+    },
+    {
+     "slug": "mondros",
+     "kod": "302",
+     "karakter": 0,
+     "hal": "olu",
+     "gerekce": "arama sayfasina yonlendi — adres OLU",
+     "kaynak": "cekildi"
+    }
+   ],
+   "secilen": "mondros-mutarekesi",
+   "hal": "canli",
+   "dogru_madde": "olculmedi (§4② — 200 'dogru madde' demek DEGILDIR)"
+  },
+  {
+   "id": "sevr",
+   "ad": "Sevr Antlasmasi",
+   "kaba_yil": 1920,
+   "adaylar": [
+    {
+     "slug": "sevr-antlasmasi",
+     "kod": "200",
+     "karakter": 28216,
+     "hal": "canli",
+     "gerekce": "govde alindi",
+     "kaynak": "cekildi"
+    },
+    {
+     "slug": "sevr",
+     "kod": "302",
+     "karakter": 0,
+     "hal": "olu",
+     "gerekce": "arama sayfasina yonlendi — adres OLU",
+     "kaynak": "cekildi"
+    }
+   ],
+   "secilen": "sevr-antlasmasi",
+   "hal": "canli",
+   "dogru_madde": "olculmedi (§4② — 200 'dogru madde' demek DEGILDIR)"
+  },
+  {
+   "id": "ankara-1921",
+   "ad": "Ankara Itilafnamesi (Fr.)",
+   "kaba_yil": 1921,
+   "adaylar": [
+    {
+     "slug": "ankara-itilafnamesi",
+     "kod": "302",
+     "karakter": 0,
+     "hal": "olu",
+     "gerekce": "arama sayfasina yonlendi — adres OLU",
+     "kaynak": "cekildi"
+    },
+    {
+     "slug": "ankara-antlasmasi",
+     "kod": "302",
+     "karakter": 0,
+     "hal": "olu",
+     "gerekce": "arama sayfasina yonlendi — adres OLU",
+     "kaynak": "cekildi"
+    },
+    {
+     "slug": "franklin-bouillon",
+     "kod": "302",
+     "karakter": 0,
+     "hal": "olu",
+     "gerekce": "arama sayfasina yonlendi — adres OLU",
+     "kaynak": "cekildi"
+    }
+   ],
+   "secilen": null,
+   "hal": "olu",
+   "dogru_madde": "olculmedi (§4② — 200 'dogru madde' demek DEGILDIR)"
+  },
+  {
+   "id": "kars",
+   "ad": "Kars Antlasmasi",
+   "kaba_yil": 1921,
+   "adaylar": [
+    {
+     "slug": "kars-antlasmasi",
+     "kod": "302",
+     "karakter": 0,
+     "hal": "olu",
+     "gerekce": "arama sayfasina yonlendi — adres OLU",
+     "kaynak": "cekildi"
+    }
+   ],
+   "secilen": null,
+   "hal": "olu",
+   "dogru_madde": "olculmedi (§4② — 200 'dogru madde' demek DEGILDIR)"
+  },
+  {
+   "id": "moskova-1921",
+   "ad": "Moskova Antlasmasi",
+   "kaba_yil": 1921,
+   "adaylar": [
+    {
+     "slug": "moskova-antlasmasi",
+     "kod": "302",
+     "karakter": 0,
+     "hal": "olu",
+     "gerekce": "arama sayfasina yonlendi — adres OLU",
+     "kaynak": "cekildi"
+    }
+   ],
+   "secilen": null,
+   "hal": "olu",
+   "dogru_madde": "olculmedi (§4② — 200 'dogru madde' demek DEGILDIR)"
+  },
+  {
+   "id": "gumru",
+   "ad": "Gumru Antlasmasi",
+   "kaba_yil": 1920,
+   "adaylar": [
+    {
+     "slug": "gumru-antlasmasi",
+     "kod": "302",
+     "karakter": 0,
+     "hal": "olu",
+     "gerekce": "arama sayfasina yonlendi — adres OLU",
+     "kaynak": "cekildi"
+    },
+    {
+     "slug": "gumru",
+     "kod": "302",
+     "karakter": 0,
+     "hal": "olu",
+     "gerekce": "arama sayfasina yonlendi — adres OLU",
+     "kaynak": "cekildi"
+    }
+   ],
+   "secilen": null,
+   "hal": "olu",
+   "dogru_madde": "olculmedi (§4② — 200 'dogru madde' demek DEGILDIR)"
+  },
+  {
+   "id": "brest",
+   "ad": "Brest-Litovsk Antlasmasi",
+   "kaba_yil": 1918,
+   "adaylar": [
+    {
+     "slug": "brest-litovsk-antlasmasi",
+     "kod": "302",
+     "karakter": 0,
+     "hal": "olu",
+     "gerekce": "arama sayfasina yonlendi — adres OLU",
+     "kaynak": "cekildi"
+    },
+    {
+     "slug": "brestlitovsk-antlasmasi",
+     "kod": "302",
+     "karakter": 0,
+     "hal": "olu",
+     "gerekce": "arama sayfasina yonlendi — adres OLU",
+     "kaynak": "cekildi"
+    }
+   ],
+   "secilen": null,
+   "hal": "olu",
+   "dogru_madde": "olculmedi (§4② — 200 'dogru madde' demek DEGILDIR)"
+  },
+  {
+   "id": "versay",
+   "ad": "Versay Antlasmasi",
+   "kaba_yil": 1919,
+   "adaylar": [
+    {
+     "slug": "versay-antlasmasi",
+     "kod": "302",
+     "karakter": 0,
+     "hal": "olu",
+     "gerekce": "arama sayfasina yonlendi — adres OLU",
+     "kaynak": "cekildi"
+    },
+    {
+     "slug": "versailles",
+     "kod": "302",
+     "karakter": 0,
+     "hal": "olu",
+     "gerekce": "arama sayfasina yonlendi — adres OLU",
+     "kaynak": "cekildi"
+    }
+   ],
+   "secilen": null,
+   "hal": "olu",
+   "dogru_madde": "olculmedi (§4② — 200 'dogru madde' demek DEGILDIR)"
+  },
+  {
+   "id": "saint-germain",
+   "ad": "Saint-Germain Antlasmasi",
+   "kaba_yil": 1919,
+   "adaylar": [
+    {
+     "slug": "saint-germain-antlasmasi",
+     "kod": "302",
+     "karakter": 0,
+     "hal": "olu",
+     "gerekce": "arama sayfasina yonlendi — adres OLU",
+     "kaynak": "cekildi"
+    },
+    {
+     "slug": "sen-jermen-antlasmasi",
+     "kod": "302",
+     "karakter": 0,
+     "hal": "olu",
+     "gerekce": "arama sayfasina yonlendi — adres OLU",
+     "kaynak": "cekildi"
+    }
+   ],
+   "secilen": null,
+   "hal": "olu",
+   "dogru_madde": "olculmedi (§4② — 200 'dogru madde' demek DEGILDIR)"
+  },
+  {
+   "id": "neuilly",
+   "ad": "Noyyi (Neuilly) Antlasmasi",
+   "kaba_yil": 1919,
+   "adaylar": [
+    {
+     "slug": "noyyi-antlasmasi",
+     "kod": "302",
+     "karakter": 0,
+     "hal": "olu",
+     "gerekce": "arama sayfasina yonlendi — adres OLU",
+     "kaynak": "cekildi"
+    },
+    {
+     "slug": "neuilly-antlasmasi",
+     "kod": "302",
+     "karakter": 0,
+     "hal": "olu",
+     "gerekce": "arama sayfasina yonlendi — adres OLU",
+     "kaynak": "cekildi"
+    },
+    {
+     "slug": "noyyi",
+     "kod": "302",
+     "karakter": 0,
+     "hal": "olu",
+     "gerekce": "arama sayfasina yonlendi — adres OLU",
+     "kaynak": "cekildi"
+    }
+   ],
+   "secilen": null,
+   "hal": "olu",
+   "dogru_madde": "olculmedi (§4② — 200 'dogru madde' demek DEGILDIR)"
+  },
+  {
+   "id": "trianon",
+   "ad": "Trianon Antlasmasi",
+   "kaba_yil": 1920,
+   "adaylar": [
+    {
+     "slug": "trianon-antlasmasi",
+     "kod": "302",
+     "karakter": 0,
+     "hal": "olu",
+     "gerekce": "arama sayfasina yonlendi — adres OLU",
+     "kaynak": "cekildi"
+    },
+    {
+     "slug": "trianon",
+     "kod": "302",
+     "karakter": 0,
+     "hal": "olu",
+     "gerekce": "arama sayfasina yonlendi — adres OLU",
+     "kaynak": "cekildi"
+    }
+   ],
+   "secilen": null,
+   "hal": "olu",
+   "dogru_madde": "olculmedi (§4② — 200 'dogru madde' demek DEGILDIR)"
+  },
+  {
+   "id": "rapallo",
+   "ad": "Rapallo Antlasmasi",
+   "kaba_yil": 1920,
+   "adaylar": [
+    {
+     "slug": "rapallo-antlasmasi",
+     "kod": "302",
+     "karakter": 0,
+     "hal": "olu",
+     "gerekce": "arama sayfasina yonlendi — adres OLU",
+     "kaynak": "cekildi"
+    },
+    {
+     "slug": "rapallo",
+     "kod": "302",
+     "karakter": 0,
+     "hal": "olu",
+     "gerekce": "arama sayfasina yonlendi — adres OLU",
+     "kaynak": "cekildi"
+    }
+   ],
+   "secilen": null,
+   "hal": "olu",
+   "dogru_madde": "olculmedi (§4② — 200 'dogru madde' demek DEGILDIR)"
+  },
+  {
+   "id": "riga",
+   "ad": "Riga Antlasmasi",
+   "kaba_yil": 1921,
+   "adaylar": [
+    {
+     "slug": "riga-antlasmasi",
+     "kod": "302",
+     "karakter": 0,
+     "hal": "olu",
+     "gerekce": "arama sayfasina yonlendi — adres OLU",
+     "kaynak": "cekildi"
+    }
+   ],
+   "secilen": null,
+   "hal": "olu",
+   "dogru_madde": "olculmedi (§4② — 200 'dogru madde' demek DEGILDIR)"
+  },
+  {
+   "id": "sykes-picot",
+   "ad": "Sykes-Picot Anlasmasi",
+   "kaba_yil": 1916,
+   "adaylar": [
+    {
+     "slug": "sykes-picot-antlasmasi",
+     "kod": "200",
+     "karakter": 17708,
+     "hal": "canli",
+     "gerekce": "govde alindi",
+     "kaynak": "cekildi"
+    },
+    {
+     "slug": "sykes-picot",
+     "kod": "302",
+     "karakter": 0,
+     "hal": "olu",
+     "gerekce": "arama sayfasina yonlendi — adres OLU",
+     "kaynak": "cekildi"
+    },
+    {
+     "slug": "sykespicot",
+     "kod": "302",
+     "karakter": 0,
+     "hal": "olu",
+     "gerekce": "arama sayfasina yonlendi — adres OLU",
+     "kaynak": "cekildi"
+    }
+   ],
+   "secilen": "sykes-picot-antlasmasi",
+   "hal": "canli",
+   "dogru_madde": "olculmedi (§4② — 200 'dogru madde' demek DEGILDIR)"
+  },
+  {
+   "id": "san-remo",
+   "ad": "San Remo Konferansi",
+   "kaba_yil": 1920,
+   "adaylar": [
+    {
+     "slug": "san-remo-konferansi",
+     "kod": "302",
+     "karakter": 0,
+     "hal": "olu",
+     "gerekce": "arama sayfasina yonlendi — adres OLU",
+     "kaynak": "cekildi"
+    },
+    {
+     "slug": "san-remo",
+     "kod": "302",
+     "karakter": 0,
+     "hal": "olu",
+     "gerekce": "arama sayfasina yonlendi — adres OLU",
+     "kaynak": "cekildi"
+    }
+   ],
+   "secilen": null,
+   "hal": "olu",
+   "dogru_madde": "olculmedi (§4② — 200 'dogru madde' demek DEGILDIR)"
+  },
+  {
+   "id": "ankara-1926",
+   "ad": "Ankara Antlasmasi (Musul)",
+   "kaba_yil": 1926,
+   "adaylar": [
+    {
+     "slug": "ankara-antlasmasi--1926",
+     "kod": "302",
+     "karakter": 0,
+     "hal": "olu",
+     "gerekce": "arama sayfasina yonlendi — adres OLU",
+     "kaynak": "cekildi"
+    },
+    {
+     "slug": "musul",
+     "kod": "302",
+     "karakter": 0,
+     "hal": "olu",
+     "gerekce": "arama sayfasina yonlendi — adres OLU",
+     "kaynak": "cekildi"
+    }
+   ],
+   "secilen": null,
+   "hal": "olu",
+   "dogru_madde": "olculmedi (§4② — 200 'dogru madde' demek DEGILDIR)"
+  },
+  {
+   "id": "ukayr",
+   "ad": "Ukayr Protokolu",
+   "kaba_yil": 1922,
+   "adaylar": [
+    {
+     "slug": "ukayr",
+     "kod": "302",
+     "karakter": 0,
+     "hal": "olu",
+     "gerekce": "arama sayfasina yonlendi — adres OLU",
+     "kaynak": "cekildi"
+    },
+    {
+     "slug": "ukayr-protokolu",
+     "kod": "302",
+     "karakter": 0,
+     "hal": "olu",
+     "gerekce": "arama sayfasina yonlendi — adres OLU",
+     "kaynak": "cekildi"
+    },
+    {
+     "slug": "akir",
+     "kod": "302",
+     "karakter": 0,
+     "hal": "olu",
+     "gerekce": "arama sayfasina yonlendi — adres OLU",
+     "kaynak": "cekildi"
+    }
+   ],
+   "secilen": null,
+   "hal": "olu",
+   "dogru_madde": "olculmedi (§4② — 200 'dogru madde' demek DEGILDIR)"
+  },
+  {
+   "id": "muhammara",
+   "ad": "Muhammere Antlasmasi",
+   "kaba_yil": 1922,
+   "adaylar": [
+    {
+     "slug": "muhammere",
+     "kod": "302",
+     "karakter": 0,
+     "hal": "olu",
+     "gerekce": "arama sayfasina yonlendi — adres OLU",
+     "kaynak": "cekildi"
+    },
+    {
+     "slug": "muhammara",
+     "kod": "302",
+     "karakter": 0,
+     "hal": "olu",
+     "gerekce": "arama sayfasina yonlendi — adres OLU",
+     "kaynak": "cekildi"
+    }
+   ],
+   "secilen": null,
+   "hal": "olu",
+   "dogru_madde": "olculmedi (§4② — 200 'dogru madde' demek DEGILDIR)"
+  },
+  {
+   "id": "cidde",
+   "ad": "Cidde Antlasmasi",
+   "kaba_yil": 1927,
+   "adaylar": [
+    {
+     "slug": "cidde-antlasmasi",
+     "kod": "302",
+     "karakter": 0,
+     "hal": "olu",
+     "gerekce": "arama sayfasina yonlendi — adres OLU",
+     "kaynak": "cekildi"
+    },
+    {
+     "slug": "cidde",
+     "kod": "200",
+     "karakter": 14821,
+     "hal": "canli",
+     "gerekce": "govde alindi",
+     "kaynak": "cekildi"
+    }
+   ],
+   "secilen": "cidde",
+   "hal": "canli",
+   "dogru_madde": "olculmedi (§4② — 200 'dogru madde' demek DEGILDIR)"
+  },
+  {
+   "id": "taif",
+   "ad": "Taif Antlasmasi",
+   "kaba_yil": 1934,
+   "adaylar": [
+    {
+     "slug": "taif-antlasmasi",
+     "kod": "302",
+     "karakter": 0,
+     "hal": "olu",
+     "gerekce": "arama sayfasina yonlendi — adres OLU",
+     "kaynak": "cekildi"
+    },
+    {
+     "slug": "taif",
+     "kod": "200",
+     "karakter": 32202,
+     "hal": "canli",
+     "gerekce": "govde alindi",
+     "kaynak": "cekildi"
+    }
+   ],
+   "secilen": "taif",
+   "hal": "canli",
+   "dogru_madde": "olculmedi (§4② — 200 'dogru madde' demek DEGILDIR)"
+  },
+  {
+   "id": "usi",
+   "ad": "Usi (Ouchy) Antlasmasi",
+   "kaba_yil": 1912,
+   "adaylar": [
+    {
+     "slug": "usi-antlasmasi",
+     "kod": "302",
+     "karakter": 0,
+     "hal": "olu",
+     "gerekce": "arama sayfasina yonlendi — adres OLU",
+     "kaynak": "cekildi"
+    },
+    {
+     "slug": "ouchy",
+     "kod": "302",
+     "karakter": 0,
+     "hal": "olu",
+     "gerekce": "arama sayfasina yonlendi — adres OLU",
+     "kaynak": "cekildi"
+    }
+   ],
+   "secilen": null,
+   "hal": "olu",
+   "dogru_madde": "olculmedi (§4② — 200 'dogru madde' demek DEGILDIR)"
+  },
+  {
+   "id": "londra-1913",
+   "ad": "Londra Antlasmasi",
+   "kaba_yil": 1913,
+   "adaylar": [
+    {
+     "slug": "londra-antlasmasi",
+     "kod": "200",
+     "karakter": 2708,
+     "hal": "olculemedi",
+     "gerekce": "govde BOILERPLATE olabilir (< 4000) — §4④: 'TDV'de yok' YAZILMAZ",
+     "kaynak": "cekildi"
+    }
+   ],
+   "secilen": null,
+   "hal": "olculemedi",
+   "dogru_madde": "olculmedi (§4② — 200 'dogru madde' demek DEGILDIR)"
+  },
+  {
+   "id": "bukres-1913",
+   "ad": "Bukres Antlasmasi",
+   "kaba_yil": 1913,
+   "adaylar": [
+    {
+     "slug": "bukres-antlasmasi",
+     "kod": "302",
+     "karakter": 0,
+     "hal": "olu",
+     "gerekce": "arama sayfasina yonlendi — adres OLU",
+     "kaynak": "cekildi"
+    }
+   ],
+   "secilen": null,
+   "hal": "olu",
+   "dogru_madde": "olculmedi (§4② — 200 'dogru madde' demek DEGILDIR)"
+  },
+  {
+   "id": "istanbul-1913",
+   "ad": "Istanbul Antlasmasi (Bulgaristan)",
+   "kaba_yil": 1913,
+   "adaylar": [
+    {
+     "slug": "istanbul-antlasmasi",
+     "kod": "302",
+     "karakter": 0,
+     "hal": "olu",
+     "gerekce": "arama sayfasina yonlendi — adres OLU",
+     "kaynak": "cekildi"
+    }
+   ],
+   "secilen": null,
+   "hal": "olu",
+   "dogru_madde": "olculmedi (§4② — 200 'dogru madde' demek DEGILDIR)"
+  },
+  {
+   "id": "atina-1913",
+   "ad": "Atina Antlasmasi",
+   "kaba_yil": 1913,
+   "adaylar": [
+    {
+     "slug": "atina-antlasmasi",
+     "kod": "302",
+     "karakter": 0,
+     "hal": "olu",
+     "gerekce": "arama sayfasina yonlendi — adres OLU",
+     "kaynak": "cekildi"
+    }
+   ],
+   "secilen": null,
+   "hal": "olu",
+   "dogru_madde": "olculmedi (§4② — 200 'dogru madde' demek DEGILDIR)"
+  },
+  {
+   "id": "berlin-1878",
+   "ad": "Berlin Antlasmasi",
+   "kaba_yil": 1878,
+   "adaylar": [
+    {
+     "slug": "berlin-antlasmasi",
+     "kod": "200",
+     "karakter": 10153,
+     "hal": "canli",
+     "gerekce": "govde alindi",
+     "kaynak": "cekildi"
+    }
+   ],
+   "secilen": "berlin-antlasmasi",
+   "hal": "canli",
+   "dogru_madde": "olculmedi (§4② — 200 'dogru madde' demek DEGILDIR)"
+  },
+  {
+   "id": "ayastefanos",
+   "ad": "Ayastefanos Antlasmasi",
+   "kaba_yil": 1878,
+   "adaylar": [
+    {
+     "slug": "ayastefanos-antlasmasi",
+     "kod": "200",
+     "karakter": 11012,
+     "hal": "canli",
+     "gerekce": "govde alindi",
+     "kaynak": "cekildi"
+    },
+    {
+     "slug": "ayastefanos",
+     "kod": "302",
+     "karakter": 0,
+     "hal": "olu",
+     "gerekce": "arama sayfasina yonlendi — adres OLU",
+     "kaynak": "cekildi"
+    }
+   ],
+   "secilen": "ayastefanos-antlasmasi",
+   "hal": "canli",
+   "dogru_madde": "olculmedi (§4② — 200 'dogru madde' demek DEGILDIR)"
+  },
+  {
+   "id": "paris-1919",
+   "ad": "Paris Baris Konferansi",
+   "kaba_yil": 1919,
+   "adaylar": [
+    {
+     "slug": "paris-baris-konferansi",
+     "kod": "302",
+     "karakter": 0,
+     "hal": "olu",
+     "gerekce": "arama sayfasina yonlendi — adres OLU",
+     "kaynak": "cekildi"
+    },
+    {
+     "slug": "paris-konferansi",
+     "kod": "302",
+     "karakter": 0,
+     "hal": "olu",
+     "gerekce": "arama sayfasina yonlendi — adres OLU",
+     "kaynak": "cekildi"
+    }
+   ],
+   "secilen": null,
+   "hal": "olu",
+   "dogru_madde": "olculmedi (§4② — 200 'dogru madde' demek DEGILDIR)"
+  },
+  {
+   "id": "misak",
+   "ad": "Misak-i Milli",
+   "kaba_yil": 1920,
+   "adaylar": [
+    {
+     "slug": "misak-i-milli",
+     "kod": "200",
+     "karakter": 14820,
+     "hal": "canli",
+     "gerekce": "govde alindi",
+     "kaynak": "cekildi"
+    },
+    {
+     "slug": "misakimilli",
+     "kod": "302",
+     "karakter": 0,
+     "hal": "olu",
+     "gerekce": "arama sayfasina yonlendi — adres OLU",
+     "kaynak": "cekildi"
+    }
+   ],
+   "secilen": "misak-i-milli",
+   "hal": "canli",
+   "dogru_madde": "olculmedi (§4② — 200 'dogru madde' demek DEGILDIR)"
+  }
+ ]
+}

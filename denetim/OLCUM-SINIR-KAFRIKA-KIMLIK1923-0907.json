@@ -1,0 +1,141 @@
+{
+ "_NOT": "atlas verisinden olculen 1923 kimligi; gun 1923-10-01 (pencere ucu degil)",
+ "ulkeler": {
+  "Algeria": {
+   "nokta": 56,
+   "sahipsiz": 3,
+   "dagilim": {
+    "fransa-cumhuriyet": 53
+   }
+  },
+  "Bir Tawil": {
+   "nokta": 0,
+   "sahipsiz": 0,
+   "dagilim": {}
+  },
+  "Central African Republic": {
+   "nokta": 14,
+   "sahipsiz": 0,
+   "dagilim": {
+    "fransa-cumhuriyet": 14
+   }
+  },
+  "Chad": {
+   "nokta": 19,
+   "sahipsiz": 1,
+   "dagilim": {
+    "fransa-cumhuriyet": 18
+   }
+  },
+  "Egypt": {
+   "nokta": 57,
+   "sahipsiz": 1,
+   "dagilim": {
+    "misir-kralligi": 50,
+    "ingiltere": 6
+   }
+  },
+  "Eritrea": {
+   "nokta": 14,
+   "sahipsiz": 0,
+   "dagilim": {
+    "italya": 14
+   }
+  },
+  "Ethiopia": {
+   "nokta": 68,
+   "sahipsiz": 2,
+   "dagilim": {
+    "habesistan": 64,
+    "cimma": 1,
+    "adal": 1
+   }
+  },
+  "Israel": {
+   "nokta": 3,
+   "sahipsiz": 0,
+   "dagilim": {
+    "filistin-mandasi": 3
+   }
+  },
+  "Libya": {
+   "nokta": 51,
+   "sahipsiz": 11,
+   "dagilim": {
+    "italya": 40
+   }
+  },
+  "Mali": {
+   "nokta": 15,
+   "sahipsiz": 1,
+   "dagilim": {
+    "fransa-cumhuriyet": 14
+   }
+  },
+  "Mauritania": {
+   "nokta": 7,
+   "sahipsiz": 1,
+   "dagilim": {
+    "fransa-cumhuriyet": 6
+   }
+  },
+  "Morocco": {
+   "nokta": 35,
+   "sahipsiz": 0,
+   "dagilim": {
+    "fas": 34,
+    "ispanya": 1
+   }
+  },
+  "Niger": {
+   "nokta": 16,
+   "sahipsiz": 1,
+   "dagilim": {
+    "fransa-cumhuriyet": 14,
+    "agadez-sultanligi": 1
+   }
+  },
+  "Palestine": {
+   "nokta": 3,
+   "sahipsiz": 0,
+   "dagilim": {
+    "filistin-mandasi": 3
+   }
+  },
+  "South Sudan": {
+   "nokta": 26,
+   "sahipsiz": 0,
+   "dagilim": {
+    "ingiliz-sudani": 26
+   }
+  },
+  "Spain": {
+   "nokta": 46,
+   "sahipsiz": 0,
+   "dagilim": {
+    "ispanya": 46
+   }
+  },
+  "Sudan": {
+   "nokta": 85,
+   "sahipsiz": 12,
+   "dagilim": {
+    "ingiltere": 61,
+    "ingiliz-sudani": 11,
+    "misir-kralligi": 1
+   }
+  },
+  "Tunisia": {
+   "nokta": 36,
+   "sahipsiz": 0,
+   "dagilim": {
+    "tabi:?": 36
+   }
+  },
+  "Western Sahara": {
+   "nokta": 0,
+   "sahipsiz": 0,
+   "dagilim": {}
+  }
+ }
+}

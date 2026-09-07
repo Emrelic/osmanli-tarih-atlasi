@@ -1,0 +1,6774 @@
+{
+ "_NOT": "KIMLIK-1923-0907 adim (2)+(3). Her NE ulkesi -> 1923-10-29 CIPASINDAKI atlas kimligi. Olcut: NOKTA-POLIGON ICINDELIK (ad DEGIL). Sorgu gunu 1923-10-28, cipa 1923-10-29 — ikisi ayri sey (tahta M-3189).",
+ "sorgu_gunu": "1923-10-28",
+ "cipa": "1923-10-29",
+ "istatistik": {
+  "dogrudan": 176,
+  "cok_kimlikli": 53,
+  "tek_kimlikli": 122,
+  "emilme": 82,
+  "olculemedi_iceren": 1,
+  "NE_toplam": 258,
+  "poligon_disi_nokta": 12
+ },
+ "_kiyas": {
+  "_NOT": "DEVRALDIM, kendim olcmedim — SINIR-ARAP-0907'nin ad eslemesi sayisi. Cografi eslemenin kiyasi olarak durur.",
+  "ad_eslemesi_NAME_EN": 6,
+  "ad_eslemesi_NAME_TR": 52,
+  "cografi_eslesme": 176
+ },
+ "poligon_disi_nokta_ornek": [
+  {
+   "ad": "Fornoz (Fourni)",
+   "lat": 37.5795,
+   "lon": 26.4764,
+   "kimlik": "yunanistan"
+  },
+  {
+   "ad": "Dahlak",
+   "lat": 15.692,
+   "lon": 40.138,
+   "kimlik": "italya"
+  },
+  {
+   "ad": "Vardø",
+   "lat": 70.3705,
+   "lon": 31.1107,
+   "kimlik": "norvec"
+  },
+  {
+   "ad": "Kilwa Kisiwani (Kilve)",
+   "lat": -8.9795,
+   "lon": 39.4862,
+   "kimlik": "umman-zengibar"
+  },
+  {
+   "ad": "Elafonisos (Cervi)",
+   "lat": 36.4936,
+   "lon": 22.9756,
+   "kimlik": "yunanistan"
+  },
+  {
+   "ad": "Levuka",
+   "lat": -17.6814,
+   "lon": 178.8327,
+   "kimlik": "ingiltere"
+  },
+  {
+   "ad": "Samarai",
+   "lat": -10.6098,
+   "lon": 150.6833,
+   "kimlik": "avustralya"
+  },
+  {
+   "ad": "Beyan G52.5 B74.5",
+   "lat": -52.5,
+   "lon": -74.5,
+   "kimlik": "sili-cumhuriyeti"
+  },
+  {
+   "ad": "Aleksandrovski Redut (Nushagak)",
+   "lat": 58.8876,
+   "lon": -158.508,
+   "kimlik": "abd"
+  },
+  {
+   "ad": "Hebron (Labrador)",
+   "lat": 58.1997,
+   "lon": -62.623,
+   "kimlik": "kanada"
+  },
+  {
+   "ad": "Halifax",
+   "lat": 44.6486,
+   "lon": -63.5755,
+   "kimlik": "kanada"
+  },
+  {
+   "ad": "Mound Key (Kalusa başkenti)",
+   "lat": 26.4304,
+   "lon": -81.849,
+   "kimlik": "abd"
+  }
+ ],
+ "ulkeler": [
+  {
+   "NAME": "Russia",
+   "NAME_EN": "Russia",
+   "NAME_TR": "Rusya",
+   "ISO_A3": "RUS",
+   "ADM0_A3": "RUS",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Russia",
+   "kova": "DOGRUDAN",
+   "nokta": 280,
+   "kimlikler": [
+    {
+     "kimlik": "sovyet-rusya",
+     "nokta": 271,
+     "pay": 96.8,
+     "ornek": [
+      "Abakan ostrogu",
+      "Abalak",
+      "Akmescid",
+      "Alatır"
+     ]
+    },
+    {
+     "kimlik": "rusya",
+     "nokta": 4,
+     "pay": 1.4,
+     "ornek": [
+      "Derbend",
+      "Maykop (Çerkezya)",
+      "Soçi (Sâşe)",
+      "Tuapse"
+     ]
+    },
+    {
+     "kimlik": "finlandiya",
+     "nokta": 2,
+     "pay": 0.7,
+     "ornek": [
+      "Petsamo (Peçenga)",
+      "Viipuri (Vyborg)"
+     ]
+    },
+    {
+     "kimlik": "almanya",
+     "nokta": 1,
+     "pay": 0.4,
+     "ornek": [
+      "Königsberg"
+     ]
+    },
+    {
+     "kimlik": "meiji-japonya",
+     "nokta": 1,
+     "pay": 0.4,
+     "ornek": [
+      "Korsakov (Güney Sahalin)"
+     ]
+    },
+    {
+     "kimlik": "estonya",
+     "nokta": 1,
+     "pay": 0.4,
+     "ornek": [
+      "Narva"
+     ]
+    }
+   ],
+   "baskin": "sovyet-rusya",
+   "kimlik_adedi": 6
+  },
+  {
+   "NAME": "Turkey",
+   "NAME_EN": "Turkey",
+   "NAME_TR": "Türkiye",
+   "ISO_A3": "TUR",
+   "ADM0_A3": "TUR",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Turkey",
+   "kova": "DOGRUDAN",
+   "nokta": 243,
+   "kimlikler": [
+    {
+     "kimlik": "tbmm-turkiye",
+     "nokta": 236,
+     "pay": 97.1,
+     "ornek": [
+      "Absu (Hypsu)",
+      "Adana",
+      "Adapazarı",
+      "Adranos (Orhaneli)"
+     ]
+    },
+    {
+     "kimlik": "osmanli",
+     "nokta": 4,
+     "pay": 1.6,
+     "ornek": [
+      "Başkale",
+      "Mersin",
+      "Çaldıran",
+      "Şırnak"
+     ]
+    },
+    {
+     "kimlik": "suriye-lubnan-mandasi",
+     "nokta": 3,
+     "pay": 1.2,
+     "ornek": [
+      "Antakya",
+      "Ayn el-Arab (Kobani)",
+      "İskenderun"
+     ]
+    }
+   ],
+   "baskin": "tbmm-turkiye",
+   "kimlik_adedi": 3
+  },
+  {
+   "NAME": "United States of America",
+   "NAME_EN": "United States of America",
+   "NAME_TR": "Amerika Birleşik Devletleri",
+   "ISO_A3": "USA",
+   "ADM0_A3": "USA",
+   "TYPE": "Country",
+   "SOVEREIGNT": "United States of America",
+   "kova": "DOGRUDAN",
+   "nokta": 210,
+   "kimlikler": [
+    {
+     "kimlik": "abd",
+     "nokta": 173,
+     "pay": 82.4,
+     "ornek": [
+      "Acoma Pueblo (Sky City)",
+      "Anaktuvuk Geçidi (Nunamiut)",
+      "Anaktuvuk batısı — Noatak (Nautaaġmiut)",
+      "Anchorage"
+     ]
+    },
+    {
+     "kimlik": "kanada",
+     "nokta": 19,
+     "pay": 9.0,
+     "ornek": [
+      "Alatna / Allakaket",
+      "Boise (Fort Boise)",
+      "Duluth (Fond du Lac)",
+      "Fort Astoria"
+     ]
+    },
+    {
+     "kimlik": "meksika",
+     "nokta": 18,
+     "pay": 8.6,
+     "ornek": [
+      "Albuquerque",
+      "El Paso del Norte",
+      "Fort Robidoux (Uinta Havzası)",
+      "La Junta de los Ríos (Presidio)"
+     ]
+    }
+   ],
+   "baskin": "abd",
+   "kimlik_adedi": 3
+  },
+  {
+   "NAME": "Canada",
+   "NAME_EN": "Canada",
+   "NAME_TR": "Kanada",
+   "ISO_A3": "CAN",
+   "ADM0_A3": "CAN",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Canada",
+   "kova": "DOGRUDAN",
+   "nokta": 171,
+   "kimlikler": [
+    {
+     "kimlik": "kanada",
+     "nokta": 167,
+     "pay": 97.7,
+     "ornek": [
+      "Abitibi House",
+      "Arviat (Eskimo Point)",
+      "Atlin",
+      "Attawapiskat"
+     ]
+    },
+    {
+     "kimlik": "abd",
+     "nokta": 4,
+     "pay": 2.3,
+     "ornek": [
+      "Kahnawake",
+      "Ossossané",
+      "Sainte-Marie-au-pays-des-Hurons",
+      "St. John's (Newfoundland)"
+     ]
+    }
+   ],
+   "baskin": "kanada",
+   "kimlik_adedi": 2
+  },
+  {
+   "NAME": "India",
+   "NAME_EN": "India",
+   "NAME_TR": "Hindistan",
+   "ISO_A3": "IND",
+   "ADM0_A3": "IND",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "India",
+   "kova": "DOGRUDAN",
+   "nokta": 109,
+   "kimlikler": [
+    {
+     "kimlik": "ingiliz-hindistani",
+     "nokta": 74,
+     "pay": 67.9,
+     "ornek": [
+      "Agra",
+      "Ahmednagar",
+      "Ahmedâbâd",
+      "Amritsar"
+     ]
+    },
+    {
+     "kimlik": "haydarabad-nizam",
+     "nokta": 8,
+     "pay": 7.3,
+     "ornek": [
+      "Bîdar",
+      "Devagiri (Devletâbâd)",
+      "Evrengâbâd",
+      "Golkonda"
+     ]
+    },
+    {
+     "kimlik": "racput",
+     "nokta": 7,
+     "pay": 6.4,
+     "ornek": [
+      "Bhuc (Kutch)",
+      "Bikaner",
+      "Caypûr (Jaipur)",
+      "Caysalmer"
+     ]
+    },
+    {
+     "kimlik": "maratha",
+     "nokta": 5,
+     "pay": 4.6,
+     "ornek": [
+      "Gvalyar (Gwalior)",
+      "Kolhapûr",
+      "Mandu (Mândû)",
+      "Uccayn (Ujjain)"
+     ]
+    },
+    {
+     "kimlik": "cammu-kesmir",
+     "nokta": 3,
+     "pay": 2.8,
+     "ornek": [
+      "Cammû (Jammu)",
+      "Leh (Ladakh)",
+      "Srinagar (Keşmir)"
+     ]
+    },
+    {
+     "kimlik": "meysur",
+     "nokta": 3,
+     "pay": 2.8,
+     "ornek": [
+      "Bangalor",
+      "Meysûr (Mysore)",
+      "Seringapatam (Şrirangapatnam)"
+     ]
+    },
+    {
+     "kimlik": "portekiz",
+     "nokta": 2,
+     "pay": 1.8,
+     "ornek": [
+      "Diu",
+      "Goa"
+     ]
+    },
+    {
+     "kimlik": "fransa-cumhuriyet",
+     "nokta": 2,
+     "pay": 1.8,
+     "ornek": [
+      "Pondişeri",
+      "Çandernagor"
+     ]
+    },
+    {
+     "kimlik": "bharatpur-cat",
+     "nokta": 1,
+     "pay": 0.9,
+     "ornek": [
+      "Bharatpûr"
+     ]
+    },
+    {
+     "kimlik": "cunagadh",
+     "nokta": 1,
+     "pay": 0.9,
+     "ornek": [
+      "Cûnâgadh"
+     ]
+    },
+    {
+     "kimlik": "bhopal",
+     "nokta": 1,
+     "pay": 0.9,
+     "ornek": [
+      "Bhopâl"
+     ]
+    },
+    {
+     "kimlik": "manipur",
+     "nokta": 1,
+     "pay": 0.9,
+     "ornek": [
+      "İmphâl (Manipûr)"
+     ]
+    },
+    {
+     "kimlik": "travankur",
+     "nokta": 1,
+     "pay": 0.9,
+     "ornek": [
+      "Trivandrum (Thiruvananthapuram)"
+     ]
+    }
+   ],
+   "baskin": "ingiliz-hindistani",
+   "kimlik_adedi": 13
+  },
+  {
+   "NAME": "Iran",
+   "NAME_EN": "Iran",
+   "NAME_TR": "İran",
+   "ISO_A3": "IRN",
+   "ADM0_A3": "IRN",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Iran",
+   "kova": "DOGRUDAN",
+   "nokta": 109,
+   "kimlikler": [
+    {
+     "kimlik": "kacar",
+     "nokta": 107,
+     "pay": 98.2,
+     "ornek": [
+      "Abâdân",
+      "Ahar (Karadağ)",
+      "Ahvaz",
+      "Behbehân"
+     ]
+    },
+    {
+     "kimlik": "sovyet-rusya",
+     "nokta": 1,
+     "pay": 0.9,
+     "ornek": [
+      "Astara"
+     ]
+    },
+    {
+     "kimlik": "tbmm-turkiye",
+     "nokta": 1,
+     "pay": 0.9,
+     "ornek": [
+      "Bacirge (Esendere)"
+     ]
+    }
+   ],
+   "baskin": "kacar",
+   "kimlik_adedi": 3
+  },
+  {
+   "NAME": "Greece",
+   "NAME_EN": "Greece",
+   "NAME_TR": "Yunanistan",
+   "ISO_A3": "GRC",
+   "ADM0_A3": "GRC",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Greece",
+   "kova": "DOGRUDAN",
+   "nokta": 108,
+   "kimlikler": [
+    {
+     "kimlik": "yunanistan",
+     "nokta": 95,
+     "pay": 88.0,
+     "ornek": [
+      "Alonisos",
+      "Anabolu (Nauplion)",
+      "Andros",
+      "Arta"
+     ]
+    },
+    {
+     "kimlik": "italya",
+     "nokta": 13,
+     "pay": 12.0,
+     "ornek": [
+      "Batnoz (Patmos)",
+      "Herke (Halki)",
+      "Karpatos",
+      "Kaşot (Kasos)"
+     ]
+    }
+   ],
+   "baskin": "yunanistan",
+   "kimlik_adedi": 2
+  },
+  {
+   "NAME": "China",
+   "NAME_EN": "People's Republic of China",
+   "NAME_TR": "Çin Halk Cumhuriyeti",
+   "ISO_A3": "CHN",
+   "ADM0_A3": "CHN",
+   "TYPE": "Country",
+   "SOVEREIGNT": "China",
+   "kova": "DOGRUDAN",
+   "nokta": 98,
+   "kimlikler": [
+    {
+     "kimlik": "cin-cumhuriyeti",
+     "nokta": 93,
+     "pay": 94.9,
+     "ornek": [
+      "Aigun",
+      "Aksu (Tarım)",
+      "Almalık (Almalığ)",
+      "Altay (Şara Sume)"
+     ]
+    },
+    {
+     "kimlik": "tibet-ganden-phodrang",
+     "nokta": 4,
+     "pay": 4.1,
+     "ornek": [
+      "Gyantse",
+      "Lhasa",
+      "Çamdo (Chamdo)",
+      "Şigatse"
+     ]
+    },
+    {
+     "kimlik": "meiji-japonya",
+     "nokta": 1,
+     "pay": 1.0,
+     "ornek": [
+      "Lüşun (Port Arthur)"
+     ]
+    }
+   ],
+   "baskin": "cin-cumhuriyeti",
+   "kimlik_adedi": 3
+  },
+  {
+   "NAME": "Australia",
+   "NAME_EN": "Australia",
+   "NAME_TR": "Avustralya",
+   "ISO_A3": "AUS",
+   "ADM0_A3": "AUS",
+   "TYPE": "Country",
+   "SOVEREIGNT": "Australia",
+   "kova": "DOGRUDAN",
+   "nokta": 74,
+   "kimlikler": [
+    {
+     "kimlik": "avustralya",
+     "nokta": 74,
+     "pay": 100.0,
+     "ornek": [
+      "Adelaide",
+      "Armidale",
+      "Bairnsdale",
+      "Barcaldine"
+     ]
+    }
+   ],
+   "baskin": "avustralya",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Sudan",
+   "NAME_EN": "Sudan",
+   "NAME_TR": "Sudan",
+   "ISO_A3": "SDN",
+   "ADM0_A3": "SDN",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Sudan",
+   "kova": "DOGRUDAN",
+   "nokta": 73,
+   "kimlikler": [
+    {
+     "kimlik": "ingiltere",
+     "nokta": 61,
+     "pay": 83.6,
+     "ornek": [
+      "Akīk",
+      "Berber",
+      "Burâm",
+      "Bâra"
+     ]
+    },
+    {
+     "kimlik": "ingiliz-sudani",
+     "nokta": 11,
+     "pay": 15.1,
+     "ornek": [
+      "Abrî (Mahas)",
+      "Bâbanûsa",
+      "Darfur",
+      "Delgo (Sükkût)"
+     ]
+    },
+    {
+     "kimlik": "misir-kralligi",
+     "nokta": 1,
+     "pay": 1.4,
+     "ornek": [
+      "Vâdî Halfâ"
+     ]
+    }
+   ],
+   "baskin": "ingiltere",
+   "kimlik_adedi": 3
+  },
+  {
+   "NAME": "Indonesia",
+   "NAME_EN": "Indonesia",
+   "NAME_TR": "Endonezya",
+   "ISO_A3": "IDN",
+   "ADM0_A3": "IDN",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Indonesia",
+   "kova": "DOGRUDAN",
+   "nokta": 71,
+   "kimlikler": [
+    {
+     "kimlik": "hollanda-dogu-hint",
+     "nokta": 67,
+     "pay": 94.4,
+     "ornek": [
+      "Alor",
+      "Ambon",
+      "Bali (Klungkung)",
+      "Bancarmasin"
+     ]
+    },
+    {
+     "kimlik": "yogyakarta",
+     "nokta": 1,
+     "pay": 1.4,
+     "ornek": [
+      "Yogyakarta"
+     ]
+    },
+    {
+     "kimlik": "surakarta",
+     "nokta": 1,
+     "pay": 1.4,
+     "ornek": [
+      "Surakarta (Solo)"
+     ]
+    },
+    {
+     "kimlik": "tidore-sultanligi",
+     "nokta": 1,
+     "pay": 1.4,
+     "ornek": [
+      "Tidore"
+     ]
+    },
+    {
+     "kimlik": "cohor-sultanligi",
+     "nokta": 1,
+     "pay": 1.4,
+     "ornek": [
+      "Bintan (Riau)"
+     ]
+    }
+   ],
+   "baskin": "hollanda-dogu-hint",
+   "kimlik_adedi": 5
+  },
+  {
+   "NAME": "Ethiopia",
+   "NAME_EN": "Ethiopia",
+   "NAME_TR": "Etiyopya",
+   "ISO_A3": "ETH",
+   "ADM0_A3": "ETH",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Ethiopia",
+   "kova": "DOGRUDAN",
+   "nokta": 66,
+   "kimlikler": [
+    {
+     "kimlik": "habesistan",
+     "nokta": 64,
+     "pay": 97.0,
+     "ornek": [
+      "Addis",
+      "Adigrat",
+      "Adua",
+      "Aksum"
+     ]
+    },
+    {
+     "kimlik": "cimma",
+     "nokta": 1,
+     "pay": 1.5,
+     "ornek": [
+      "Cimma (Jiren)"
+     ]
+    },
+    {
+     "kimlik": "adal",
+     "nokta": 1,
+     "pay": 1.5,
+     "ornek": [
+      "Asâyita (Avsa)"
+     ]
+    }
+   ],
+   "baskin": "habesistan",
+   "kimlik_adedi": 3
+  },
+  {
+   "NAME": "Egypt",
+   "NAME_EN": "Egypt",
+   "NAME_TR": "Mısır",
+   "ISO_A3": "EGY",
+   "ADM0_A3": "EGY",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Egypt",
+   "kova": "DOGRUDAN",
+   "nokta": 56,
+   "kimlikler": [
+    {
+     "kimlik": "misir-kralligi",
+     "nokta": 50,
+     "pay": 89.3,
+     "ornek": [
+      "Ahmîm",
+      "Asvan",
+      "Asyut",
+      "Atfîh"
+     ]
+    },
+    {
+     "kimlik": "ingiltere",
+     "nokta": 6,
+     "pay": 10.7,
+     "ornek": [
+      "Halâib",
+      "Kusayr",
+      "Sefâce",
+      "Sina güneyi"
+     ]
+    }
+   ],
+   "baskin": "misir-kralligi",
+   "kimlik_adedi": 2
+  },
+  {
+   "NAME": "Mexico",
+   "NAME_EN": "Mexico",
+   "NAME_TR": "Meksika",
+   "ISO_A3": "MEX",
+   "ADM0_A3": "MEX",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Mexico",
+   "kova": "DOGRUDAN",
+   "nokta": 56,
+   "kimlikler": [
+    {
+     "kimlik": "meksika",
+     "nokta": 55,
+     "pay": 98.2,
+     "ornek": [
+      "Acalán (Itzamkanac)",
+      "Acapulco",
+      "Antequera (Oaxaca)",
+      "Arizpe"
+     ]
+    },
+    {
+     "kimlik": "abd",
+     "nokta": 1,
+     "pay": 1.8,
+     "ornek": [
+      "Tehuantepec"
+     ]
+    }
+   ],
+   "baskin": "meksika",
+   "kimlik_adedi": 2
+  },
+  {
+   "NAME": "Algeria",
+   "NAME_EN": "Algeria",
+   "NAME_TR": "Cezayir",
+   "ISO_A3": "DZA",
+   "ADM0_A3": "DZA",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Algeria",
+   "kova": "DOGRUDAN",
+   "nokta": 53,
+   "kimlikler": [
+    {
+     "kimlik": "fransa-cumhuriyet",
+     "nokta": 53,
+     "pay": 100.0,
+     "ornek": [
+      "Abalessa",
+      "Advâr (Tuvât)",
+      "Akbû (Benî Abbâs)",
+      "Annaba"
+     ]
+    }
+   ],
+   "baskin": "fransa-cumhuriyet",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "France",
+   "NAME_EN": "France",
+   "NAME_TR": "Fransa",
+   "ISO_A3": "-99",
+   "ADM0_A3": "FRA",
+   "TYPE": "Country",
+   "SOVEREIGNT": "France",
+   "kova": "DOGRUDAN",
+   "nokta": 53,
+   "kimlikler": [
+    {
+     "kimlik": "fransa-cumhuriyet",
+     "nokta": 52,
+     "pay": 98.1,
+     "ornek": [
+      "Aix-en-Provence",
+      "Amiens",
+      "Angers",
+      "Arras"
+     ]
+    },
+    {
+     "kimlik": "fransiz-guyanasi",
+     "nokta": 1,
+     "pay": 1.9,
+     "ornek": [
+      "Cayenne"
+     ]
+    }
+   ],
+   "baskin": "fransa-cumhuriyet",
+   "kimlik_adedi": 2
+  },
+  {
+   "NAME": "Spain",
+   "NAME_EN": "Spain",
+   "NAME_TR": "İspanya",
+   "ISO_A3": "ESP",
+   "ADM0_A3": "ESP",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Spain",
+   "kova": "DOGRUDAN",
+   "nokta": 46,
+   "kimlikler": [
+    {
+     "kimlik": "ispanya",
+     "nokta": 46,
+     "pay": 100.0,
+     "ornek": [
+      "A Coruña",
+      "Alicante",
+      "Almería",
+      "Badajoz"
+     ]
+    }
+   ],
+   "baskin": "ispanya",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Dem. Rep. Congo",
+   "NAME_EN": "Democratic Republic of the Congo",
+   "NAME_TR": "Demokratik Kongo Cumhuriyeti",
+   "ISO_A3": "COD",
+   "ADM0_A3": "COD",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Democratic Republic of the Congo",
+   "kova": "DOGRUDAN",
+   "nokta": 43,
+   "kimlikler": [
+    {
+     "kimlik": "belcika",
+     "nokta": 43,
+     "pay": 100.0,
+     "ornek": [
+      "Aketi",
+      "Bandundu",
+      "Basankusu",
+      "Boende"
+     ]
+    }
+   ],
+   "baskin": "belcika",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Italy",
+   "NAME_EN": "Italy",
+   "NAME_TR": "İtalya",
+   "ISO_A3": "ITA",
+   "ADM0_A3": "ITA",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Italy",
+   "kova": "DOGRUDAN",
+   "nokta": 43,
+   "kimlikler": [
+    {
+     "kimlik": "italya",
+     "nokta": 42,
+     "pay": 97.7,
+     "ornek": [
+      "Ancona",
+      "Bari",
+      "Bergamo",
+      "Bolonya"
+     ]
+    },
+    {
+     "kimlik": "piombino",
+     "nokta": 1,
+     "pay": 2.3,
+     "ornek": [
+      "Elba"
+     ]
+    }
+   ],
+   "baskin": "italya",
+   "kimlik_adedi": 2
+  },
+  {
+   "NAME": "Ukraine",
+   "NAME_EN": "Ukraine",
+   "NAME_TR": "Ukrayna",
+   "ISO_A3": "UKR",
+   "ADM0_A3": "UKR",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Ukraine",
+   "kova": "DOGRUDAN",
+   "nokta": 43,
+   "kimlikler": [
+    {
+     "kimlik": "sovyet-rusya",
+     "nokta": 29,
+     "pay": 67.4,
+     "ornek": [
+      "Bahmut",
+      "Bar (Podolya)",
+      "Baturin",
+      "Camboyluk bozkırı"
+     ]
+    },
+    {
+     "kimlik": "romanya-kralligi",
+     "nokta": 6,
+     "pay": 14.0,
+     "ornek": [
+      "Akkirman",
+      "Bolgrad (Bolhrad)",
+      "Hotin",
+      "Kili"
+     ]
+    },
+    {
+     "kimlik": "polonya",
+     "nokta": 6,
+     "pay": 14.0,
+     "ornek": [
+      "Kovel",
+      "Lutsk (Łuck)",
+      "Lvov",
+      "Rivne (Równe)"
+     ]
+    },
+    {
+     "kimlik": "cekoslovakya",
+     "nokta": 2,
+     "pay": 4.7,
+     "ornek": [
+      "Munkács (Mukacheve)",
+      "Ungvár (Uzhhorod)"
+     ]
+    }
+   ],
+   "baskin": "sovyet-rusya",
+   "kimlik_adedi": 4
+  },
+  {
+   "NAME": "Libya",
+   "NAME_EN": "Libya",
+   "NAME_TR": "Libya",
+   "ISO_A3": "LBY",
+   "ADM0_A3": "LBY",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Libya",
+   "kova": "DOGRUDAN",
+   "nokta": 40,
+   "kimlikler": [
+    {
+     "kimlik": "italya",
+     "nokta": 40,
+     "pay": 100.0,
+     "ornek": [
+      "Ayn el-Ğazâle (Bomba)",
+      "Benî Velîd",
+      "Beyzâ (Kirene)",
+      "Bingazi"
+     ]
+    }
+   ],
+   "baskin": "italya",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "South Africa",
+   "NAME_EN": "South Africa",
+   "NAME_TR": "Güney Afrika Cumhuriyeti",
+   "ISO_A3": "ZAF",
+   "ADM0_A3": "ZAF",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "South Africa",
+   "kova": "DOGRUDAN",
+   "nokta": 37,
+   "kimlikler": [
+    {
+     "kimlik": "ingiltere",
+     "nokta": 37,
+     "pay": 100.0,
+     "ornek": [
+      "Beaufort West",
+      "Colesberg",
+      "Durban",
+      "Dzata (Venda)"
+     ]
+    }
+   ],
+   "baskin": "ingiltere",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Tunisia",
+   "NAME_EN": "Tunisia",
+   "NAME_TR": "Tunus",
+   "ISO_A3": "TUN",
+   "ADM0_A3": "TUN",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Tunisia",
+   "kova": "DOGRUDAN",
+   "nokta": 36,
+   "kimlikler": [
+    {
+     "kimlik": "__KIDSIZ__",
+     "nokta": 36,
+     "pay": 100.0,
+     "ornek": [
+      "Benzert (Bizerte)",
+      "Bin Gerdân",
+      "Bâce (Béja)",
+      "Cendûbe"
+     ]
+    }
+   ],
+   "baskin": "__KIDSIZ__",
+   "kimlik_adedi": 0
+  },
+  {
+   "NAME": "Argentina",
+   "NAME_EN": "Argentina",
+   "NAME_TR": "Arjantin",
+   "ISO_A3": "ARG",
+   "ADM0_A3": "ARG",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Argentina",
+   "kova": "DOGRUDAN",
+   "nokta": 35,
+   "kimlikler": [
+    {
+     "kimlik": "arjantin-cumhuriyeti",
+     "nokta": 34,
+     "pay": 97.1,
+     "ornek": [
+      "Beyan G34.5 B65.5",
+      "Beyan G35.5 B69.5",
+      "Beyan G36.5 B61.5",
+      "Beyan G36.5 B64.5"
+     ]
+    },
+    {
+     "kimlik": "sili-cumhuriyeti",
+     "nokta": 1,
+     "pay": 2.9,
+     "ornek": [
+      "Beyan G49.5 B72.5"
+     ]
+    }
+   ],
+   "baskin": "arjantin-cumhuriyeti",
+   "kimlik_adedi": 2
+  },
+  {
+   "NAME": "Iraq",
+   "NAME_EN": "Iraq",
+   "NAME_TR": "Irak",
+   "ISO_A3": "IRQ",
+   "ADM0_A3": "IRQ",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Iraq",
+   "kova": "DOGRUDAN",
+   "nokta": 35,
+   "kimlikler": [
+    {
+     "kimlik": "irak-kralligi",
+     "nokta": 31,
+     "pay": 88.6,
+     "ornek": [
+      "Akra",
+      "Ammâre",
+      "Basra",
+      "Duhok"
+     ]
+    },
+    {
+     "kimlik": "ingiltere",
+     "nokta": 4,
+     "pay": 11.4,
+     "ornek": [
+      "Bağdat",
+      "Halepçe",
+      "İmâdiye (Amêdî)",
+      "Şehrizor"
+     ]
+    }
+   ],
+   "baskin": "irak-kralligi",
+   "kimlik_adedi": 2
+  },
+  {
+   "NAME": "Morocco",
+   "NAME_EN": "Morocco",
+   "NAME_TR": "Fas",
+   "ISO_A3": "MAR",
+   "ADM0_A3": "MAR",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Morocco",
+   "kova": "DOGRUDAN",
+   "nokta": 35,
+   "kimlikler": [
+    {
+     "kimlik": "fas",
+     "nokta": 34,
+     "pay": 97.1,
+     "ornek": [
+      "Agadir",
+      "Arzila (Asilah)",
+      "Azemmûr",
+      "Benî Mellâl"
+     ]
+    },
+    {
+     "kimlik": "ispanya",
+     "nokta": 1,
+     "pay": 2.9,
+     "ornek": [
+      "el-Hüseyme (Alhucemas)"
+     ]
+    }
+   ],
+   "baskin": "fas",
+   "kimlik_adedi": 2
+  },
+  {
+   "NAME": "Japan",
+   "NAME_EN": "Japan",
+   "NAME_TR": "Japonya",
+   "ISO_A3": "JPN",
+   "ADM0_A3": "JPN",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Japan",
+   "kova": "DOGRUDAN",
+   "nokta": 34,
+   "kimlikler": [
+    {
+     "kimlik": "meiji-japonya",
+     "nokta": 34,
+     "pay": 100.0,
+     "ornek": [
+      "Aizu-Wakamatsu",
+      "Edo (Tokyo)",
+      "Fukui",
+      "Funai (Ōita)"
+     ]
+    }
+   ],
+   "baskin": "meiji-japonya",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "United Kingdom",
+   "NAME_EN": "United Kingdom",
+   "NAME_TR": "Birleşik Krallık",
+   "ISO_A3": "GBR",
+   "ADM0_A3": "GBR",
+   "TYPE": "Country",
+   "SOVEREIGNT": "United Kingdom",
+   "kova": "DOGRUDAN",
+   "nokta": 34,
+   "kimlikler": [
+    {
+     "kimlik": "ingiltere",
+     "nokta": 34,
+     "pay": 100.0,
+     "ornek": [
+      "Aberdeen",
+      "Belfast",
+      "Birmingham",
+      "Bristol"
+     ]
+    }
+   ],
+   "baskin": "ingiltere",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Kazakhstan",
+   "NAME_EN": "Kazakhstan",
+   "NAME_TR": "Kazakistan",
+   "ISO_A3": "KAZ",
+   "ADM0_A3": "KAZ",
+   "TYPE": "Sovereignty",
+   "SOVEREIGNT": "Kazakhstan",
+   "kova": "DOGRUDAN",
+   "nokta": 32,
+   "kimlikler": [
+    {
+     "kimlik": "sovyet-rusya",
+     "nokta": 32,
+     "pay": 100.0,
+     "ornek": [
+      "Ak-Meçit (Perovsk)",
+      "Akmola (Akmolinsk)",
+      "Aktöbe",
+      "Almatı (Vernıy)"
+     ]
+    }
+   ],
+   "baskin": "sovyet-rusya",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Somalia",
+   "NAME_EN": "Somalia",
+   "NAME_TR": "Somali",
+   "ISO_A3": "SOM",
+   "ADM0_A3": "SOM",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Somalia",
+   "kova": "DOGRUDAN",
+   "nokta": 31,
+   "kimlikler": [
+    {
+     "kimlik": "italya",
+     "nokta": 16,
+     "pay": 51.6,
+     "ornek": [
+      "Afgoye",
+      "Bardere",
+      "Baydoa",
+      "Beledveyne"
+     ]
+    },
+    {
+     "kimlik": "somali",
+     "nokta": 15,
+     "pay": 48.4,
+     "ornek": [
+      "Alula",
+      "Ayl",
+      "Bender Beyla",
+      "Bender Kāsım (Bosaso)"
+     ]
+    }
+   ],
+   "baskin": "italya",
+   "kimlik_adedi": 2
+  },
+  {
+   "NAME": "Sweden",
+   "NAME_EN": "Sweden",
+   "NAME_TR": "İsveç",
+   "ISO_A3": "SWE",
+   "ADM0_A3": "SWE",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Sweden",
+   "kova": "DOGRUDAN",
+   "nokta": 31,
+   "kimlikler": [
+    {
+     "kimlik": "isvec",
+     "nokta": 30,
+     "pay": 96.8,
+     "ornek": [
+      "Borås",
+      "Falun",
+      "Gävle",
+      "Göteborg"
+     ]
+    },
+    {
+     "kimlik": "finlandiya",
+     "nokta": 1,
+     "pay": 3.2,
+     "ornek": [
+      "Tornio"
+     ]
+    }
+   ],
+   "baskin": "isvec",
+   "kimlik_adedi": 2
+  },
+  {
+   "NAME": "Brazil",
+   "NAME_EN": "Brazil",
+   "NAME_TR": "Brezilya",
+   "ISO_A3": "BRA",
+   "ADM0_A3": "BRA",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Brazil",
+   "kova": "DOGRUDAN",
+   "nokta": 30,
+   "kimlikler": [
+    {
+     "kimlik": "brezilya-cumhuriyeti",
+     "nokta": 30,
+     "pay": 100.0,
+     "ornek": [
+      "Barcelos (Mariuá)",
+      "Belém",
+      "Borba (Madeira)",
+      "Cametá (Tocantins)"
+     ]
+    }
+   ],
+   "baskin": "brezilya-cumhuriyeti",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Myanmar",
+   "NAME_EN": "Myanmar",
+   "NAME_TR": "Myanmar",
+   "ISO_A3": "MMR",
+   "ADM0_A3": "MMR",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Myanmar",
+   "kova": "DOGRUDAN",
+   "nokta": 30,
+   "kimlikler": [
+    {
+     "kimlik": "ingiliz-hindistani",
+     "nokta": 27,
+     "pay": 90.0,
+     "ornek": [
+      "Ava (İnwa)",
+      "Bhamo",
+      "Henzada (Hinthada)",
+      "Katha"
+     ]
+    },
+    {
+     "kimlik": "san-devletleri",
+     "nokta": 3,
+     "pay": 10.0,
+     "ornek": [
+      "Kalaw",
+      "Kengtung",
+      "Loikaw"
+     ]
+    }
+   ],
+   "baskin": "ingiliz-hindistani",
+   "kimlik_adedi": 2
+  },
+  {
+   "NAME": "Germany",
+   "NAME_EN": "Germany",
+   "NAME_TR": "Almanya",
+   "ISO_A3": "DEU",
+   "ADM0_A3": "DEU",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Germany",
+   "kova": "DOGRUDAN",
+   "nokta": 29,
+   "kimlikler": [
+    {
+     "kimlik": "almanya",
+     "nokta": 29,
+     "pay": 100.0,
+     "ornek": [
+      "Aachen",
+      "Augsburg",
+      "Berlin",
+      "Bremen"
+     ]
+    }
+   ],
+   "baskin": "almanya",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Peru",
+   "NAME_EN": "Peru",
+   "NAME_TR": "Peru",
+   "ISO_A3": "PER",
+   "ADM0_A3": "PER",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Peru",
+   "kova": "DOGRUDAN",
+   "nokta": 29,
+   "kimlikler": [
+    {
+     "kimlik": "peru-cumhuriyeti",
+     "nokta": 27,
+     "pay": 93.1,
+     "ornek": [
+      "Arequipa",
+      "Borja (Maynas)",
+      "Cajamarca",
+      "Cerro de la Sal"
+     ]
+    },
+    {
+     "kimlik": "ekvador-cumhuriyeti",
+     "nokta": 2,
+     "pay": 6.9,
+     "ornek": [
+      "San José de los Nuevos Icaguates",
+      "San Miguel (Aushiri)"
+     ]
+    }
+   ],
+   "baskin": "peru-cumhuriyeti",
+   "kimlik_adedi": 2
+  },
+  {
+   "NAME": "Angola",
+   "NAME_EN": "Angola",
+   "NAME_TR": "Angola",
+   "ISO_A3": "AGO",
+   "ADM0_A3": "AGO",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Angola",
+   "kova": "DOGRUDAN",
+   "nokta": 28,
+   "kimlikler": [
+    {
+     "kimlik": "portekiz",
+     "nokta": 26,
+     "pay": 92.9,
+     "ornek": [
+      "Bailundo",
+      "Benguela",
+      "Dundo",
+      "Huambo (Wambu)"
+     ]
+    },
+    {
+     "kimlik": "belcika",
+     "nokta": 1,
+     "pay": 3.6,
+     "ornek": [
+      "Soyo"
+     ]
+    },
+    {
+     "kimlik": "ingiltere",
+     "nokta": 1,
+     "pay": 3.6,
+     "ornek": [
+      "Ondjiva (Ovambo)"
+     ]
+    }
+   ],
+   "baskin": "portekiz",
+   "kimlik_adedi": 3
+  },
+  {
+   "NAME": "Romania",
+   "NAME_EN": "Romania",
+   "NAME_TR": "Romanya",
+   "ISO_A3": "ROU",
+   "ADM0_A3": "ROU",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Romania",
+   "kova": "DOGRUDAN",
+   "nokta": 28,
+   "kimlikler": [
+    {
+     "kimlik": "romanya-kralligi",
+     "nokta": 28,
+     "pay": 100.0,
+     "ornek": [
+      "Babadağı (Babadag)",
+      "Birlad (Bârlad)",
+      "Brassó (Braşov)",
+      "Buzău"
+     ]
+    }
+   ],
+   "baskin": "romanya-kralligi",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Saudi Arabia",
+   "NAME_EN": "Saudi Arabia",
+   "NAME_TR": "Suudi Arabistan",
+   "ISO_A3": "SAU",
+   "ADM0_A3": "SAU",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Saudi Arabia",
+   "kova": "DOGRUDAN",
+   "nokta": 28,
+   "kimlikler": [
+    {
+     "kimlik": "suud-ucuncu",
+     "nokta": 15,
+     "pay": 53.6,
+     "ornek": [
+      "Buraydâ (Kasîm)",
+      "Cübeyl",
+      "Dir'iye (Necid)",
+      "Dûmetülcendel (Cevf)"
+     ]
+    },
+    {
+     "kimlik": "hicaz",
+     "nokta": 12,
+     "pay": 42.9,
+     "ornek": [
+      "Bedir",
+      "Cidde",
+      "Hayber",
+      "Medine"
+     ]
+    },
+    {
+     "kimlik": "yemen",
+     "nokta": 1,
+     "pay": 3.6,
+     "ornek": [
+      "Ferasan (Farasan)"
+     ]
+    }
+   ],
+   "baskin": "suud-ucuncu",
+   "kimlik_adedi": 3
+  },
+  {
+   "NAME": "Tanzania",
+   "NAME_EN": "Tanzania",
+   "NAME_TR": "Tanzanya",
+   "ISO_A3": "TZA",
+   "ADM0_A3": "TZA",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "United Republic of Tanzania",
+   "kova": "DOGRUDAN",
+   "nokta": 27,
+   "kimlikler": [
+    {
+     "kimlik": "ingiltere",
+     "nokta": 24,
+     "pay": 88.9,
+     "ornek": [
+      "Arusa (Arusha)",
+      "Babati",
+      "Bukoba",
+      "Bveranyange (Karagve)"
+     ]
+    },
+    {
+     "kimlik": "umman-zengibar",
+     "nokta": 3,
+     "pay": 11.1,
+     "ornek": [
+      "Bagamoyo",
+      "Tanga",
+      "Zanzibar (Zengibar)"
+     ]
+    }
+   ],
+   "baskin": "ingiltere",
+   "kimlik_adedi": 2
+  },
+  {
+   "NAME": "S. Sudan",
+   "NAME_EN": "South Sudan",
+   "NAME_TR": "Güney Sudan",
+   "ISO_A3": "SSD",
+   "ADM0_A3": "SDS",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "South Sudan",
+   "kova": "DOGRUDAN",
+   "nokta": 26,
+   "kimlikler": [
+    {
+     "kimlik": "ingiliz-sudani",
+     "nokta": 26,
+     "pay": 100.0,
+     "ornek": [
+      "Akobo",
+      "Aveyl",
+      "Bentiu",
+      "Bor"
+     ]
+    }
+   ],
+   "baskin": "ingiliz-sudani",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Vietnam",
+   "NAME_EN": "Vietnam",
+   "NAME_TR": "Vietnam",
+   "ISO_A3": "VNM",
+   "ADM0_A3": "VNM",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Vietnam",
+   "kova": "DOGRUDAN",
+   "nokta": 25,
+   "kimlikler": [
+    {
+     "kimlik": "fransiz-cinhindi",
+     "nokta": 25,
+     "pay": 100.0,
+     "ornek": [
+      "Bac Giang",
+      "Ben Tre",
+      "Can Tho",
+      "Cao Bằng"
+     ]
+    }
+   ],
+   "baskin": "fransiz-cinhindi",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Croatia",
+   "NAME_EN": "Croatia",
+   "NAME_TR": "Hırvatistan",
+   "ISO_A3": "HRV",
+   "ADM0_A3": "HRV",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Croatia",
+   "kova": "DOGRUDAN",
+   "nokta": 24,
+   "kimlikler": [
+    {
+     "kimlik": "yugoslavya",
+     "nokta": 23,
+     "pay": 95.8,
+     "ornek": [
+      "Brakya (Brač)",
+      "Dubrovnik",
+      "Hvar (Lesina)",
+      "Karlovac"
+     ]
+    },
+    {
+     "kimlik": "italya",
+     "nokta": 1,
+     "pay": 4.2,
+     "ornek": [
+      "Cres (Cherso)"
+     ]
+    }
+   ],
+   "baskin": "yugoslavya",
+   "kimlik_adedi": 2
+  },
+  {
+   "NAME": "Thailand",
+   "NAME_EN": "Thailand",
+   "NAME_TR": "Tayland",
+   "ISO_A3": "THA",
+   "ADM0_A3": "THA",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Thailand",
+   "kova": "DOGRUDAN",
+   "nokta": 24,
+   "kimlikler": [
+    {
+     "kimlik": "siyam-chakri",
+     "nokta": 24,
+     "pay": 100.0,
+     "ornek": [
+      "Ayutthaya",
+      "Bangkok (Tonburi)",
+      "Chanthaburi",
+      "Chiang Mai"
+     ]
+    }
+   ],
+   "baskin": "siyam-chakri",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Bulgaria",
+   "NAME_EN": "Bulgaria",
+   "NAME_TR": "Bulgaristan",
+   "ISO_A3": "BGR",
+   "ADM0_A3": "BGR",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Bulgaria",
+   "kova": "DOGRUDAN",
+   "nokta": 23,
+   "kimlikler": [
+    {
+     "kimlik": "bulgaristan-kralligi",
+     "nokta": 22,
+     "pay": 95.7,
+     "ornek": [
+      "Ahtapolu (Ahtopol)",
+      "Elhova (Elhovo)",
+      "Eski Zağra (Stara Zagora)",
+      "Filibe"
+     ]
+    },
+    {
+     "kimlik": "romanya-kralligi",
+     "nokta": 1,
+     "pay": 4.3,
+     "ornek": [
+      "Silistre"
+     ]
+    }
+   ],
+   "baskin": "bulgaristan-kralligi",
+   "kimlik_adedi": 2
+  },
+  {
+   "NAME": "Nigeria",
+   "NAME_EN": "Nigeria",
+   "NAME_TR": "Nijerya",
+   "ISO_A3": "NGA",
+   "ADM0_A3": "NGA",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Nigeria",
+   "kova": "DOGRUDAN",
+   "nokta": 23,
+   "kimlikler": [
+    {
+     "kimlik": "ingiltere",
+     "nokta": 23,
+     "pay": 100.0,
+     "ornek": [
+      "Aroçukvu",
+      "Bauci (Bauchi)",
+      "Benin Şehri (Edo)",
+      "Bida (Nupe)"
+     ]
+    }
+   ],
+   "baskin": "ingiltere",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Madagascar",
+   "NAME_EN": "Madagascar",
+   "NAME_TR": "Madagaskar",
+   "ISO_A3": "MDG",
+   "ADM0_A3": "MDG",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Madagascar",
+   "kova": "DOGRUDAN",
+   "nokta": 21,
+   "kimlikler": [
+    {
+     "kimlik": "fransa-cumhuriyet",
+     "nokta": 21,
+     "pay": 100.0,
+     "ornek": [
+      "Ambohimanga",
+      "Ambositra",
+      "Ambovombe (Antandroy)",
+      "Antananarivo"
+     ]
+    }
+   ],
+   "baskin": "fransa-cumhuriyet",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Hungary",
+   "NAME_EN": "Hungary",
+   "NAME_TR": "Macaristan",
+   "ISO_A3": "HUN",
+   "ADM0_A3": "HUN",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Hungary",
+   "kova": "DOGRUDAN",
+   "nokta": 20,
+   "kimlikler": [
+    {
+     "kimlik": "macaristan-naiplik",
+     "nokta": 20,
+     "pay": 100.0,
+     "ornek": [
+      "Budin",
+      "Debrecen",
+      "Estergon",
+      "Eğri"
+     ]
+    }
+   ],
+   "baskin": "macaristan-naiplik",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Finland",
+   "NAME_EN": "Finland",
+   "NAME_TR": "Finlandiya",
+   "ISO_A3": "FIN",
+   "ADM0_A3": "FIN",
+   "TYPE": "Country",
+   "SOVEREIGNT": "Finland",
+   "kova": "DOGRUDAN",
+   "nokta": 19,
+   "kimlikler": [
+    {
+     "kimlik": "finlandiya",
+     "nokta": 19,
+     "pay": 100.0,
+     "ornek": [
+      "Helsinki",
+      "Hämeenlinna",
+      "Iisalmi",
+      "Joensuu"
+     ]
+    }
+   ],
+   "baskin": "finlandiya",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Norway",
+   "NAME_EN": "Norway",
+   "NAME_TR": "Norveç",
+   "ISO_A3": "-99",
+   "ADM0_A3": "NOR",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Norway",
+   "kova": "DOGRUDAN",
+   "nokta": 19,
+   "kimlikler": [
+    {
+     "kimlik": "norvec",
+     "nokta": 19,
+     "pay": 100.0,
+     "ornek": [
+      "Alta",
+      "Bergen",
+      "Bodø",
+      "Hamar"
+     ]
+    }
+   ],
+   "baskin": "norvec",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Chad",
+   "NAME_EN": "Chad",
+   "NAME_TR": "Çad",
+   "ISO_A3": "TCD",
+   "ADM0_A3": "TCD",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Chad",
+   "kova": "DOGRUDAN",
+   "nokta": 18,
+   "kimlikler": [
+    {
+     "kimlik": "fransa-cumhuriyet",
+     "nokta": 18,
+     "pay": 100.0,
+     "ornek": [
+      "Abeşe (Abéché)",
+      "Am Timan",
+      "Ati",
+      "Bardaî"
+     ]
+    }
+   ],
+   "baskin": "fransa-cumhuriyet",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Mozambique",
+   "NAME_EN": "Mozambique",
+   "NAME_TR": "Mozambik",
+   "ISO_A3": "MOZ",
+   "ADM0_A3": "MOZ",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Mozambique",
+   "kova": "DOGRUDAN",
+   "nokta": 18,
+   "kimlikler": [
+    {
+     "kimlik": "portekiz",
+     "nokta": 17,
+     "pay": 94.4,
+     "ornek": [
+      "Angoche",
+      "Cikualakuala",
+      "Kuamba",
+      "Licinga"
+     ]
+    },
+    {
+     "kimlik": "ingiltere",
+     "nokta": 1,
+     "pay": 5.6,
+     "ornek": [
+      "Mvembe (Mataka)"
+     ]
+    }
+   ],
+   "baskin": "portekiz",
+   "kimlik_adedi": 2
+  },
+  {
+   "NAME": "Namibia",
+   "NAME_EN": "Namibia",
+   "NAME_TR": "Namibya",
+   "ISO_A3": "NAM",
+   "ADM0_A3": "NAM",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Namibia",
+   "kova": "DOGRUDAN",
+   "nokta": 18,
+   "kimlikler": [
+    {
+     "kimlik": "ingiltere",
+     "nokta": 18,
+     "pay": 100.0,
+     "ornek": [
+      "Aranos",
+      "Bethanie",
+      "Gobabis",
+      "Grutfontein"
+     ]
+    }
+   ],
+   "baskin": "ingiltere",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Oman",
+   "NAME_EN": "Oman",
+   "NAME_TR": "Umman",
+   "ISO_A3": "OMN",
+   "ADM0_A3": "OMN",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Oman",
+   "kova": "DOGRUDAN",
+   "nokta": 18,
+   "kimlikler": [
+    {
+     "kimlik": "umman",
+     "nokta": 18,
+     "pay": 100.0,
+     "ornek": [
+      "Buraymî",
+      "Cezîr (Sevkıra)",
+      "Dukm",
+      "Hâsik"
+     ]
+    }
+   ],
+   "baskin": "umman",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Zambia",
+   "NAME_EN": "Zambia",
+   "NAME_TR": "Zambiya",
+   "ISO_A3": "ZMB",
+   "ADM0_A3": "ZMB",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Zambia",
+   "kova": "DOGRUDAN",
+   "nokta": 17,
+   "kimlikler": [
+    {
+     "kimlik": "ingiltere",
+     "nokta": 16,
+     "pay": 94.1,
+     "ornek": [
+      "Kabompo",
+      "Kalabo",
+      "Kaoma (Mankoya)",
+      "Kasama (Bemba)"
+     ]
+    },
+    {
+     "kimlik": "belcika",
+     "nokta": 1,
+     "pay": 5.9,
+     "ornek": [
+      "Mvansabombve (Kazembe)"
+     ]
+    }
+   ],
+   "baskin": "ingiltere",
+   "kimlik_adedi": 2
+  },
+  {
+   "NAME": "Azerbaijan",
+   "NAME_EN": "Azerbaijan",
+   "NAME_TR": "Azerbaycan",
+   "ISO_A3": "AZE",
+   "ADM0_A3": "AZE",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Azerbaijan",
+   "kova": "DOGRUDAN",
+   "nokta": 16,
+   "kimlikler": [
+    {
+     "kimlik": "sovyet-rusya",
+     "nokta": 16,
+     "pay": 100.0,
+     "ornek": [
+      "Bakü",
+      "Berde (Karabağ)",
+      "Ereş",
+      "Gence"
+     ]
+    }
+   ],
+   "baskin": "sovyet-rusya",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Somaliland",
+   "NAME_EN": "Somaliland",
+   "NAME_TR": "Somaliland",
+   "ISO_A3": "-99",
+   "ADM0_A3": "SOL",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Somaliland",
+   "kova": "DOGRUDAN",
+   "nokta": 16,
+   "kimlikler": [
+    {
+     "kimlik": "ingiltere",
+     "nokta": 16,
+     "pay": 100.0,
+     "ornek": [
+      "Berbera",
+      "Borama",
+      "Buhodle",
+      "Bulhar"
+     ]
+    }
+   ],
+   "baskin": "ingiltere",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Bosnia and Herz.",
+   "NAME_EN": "Bosnia and Herzegovina",
+   "NAME_TR": "Bosna-Hersek",
+   "ISO_A3": "BIH",
+   "ADM0_A3": "BIH",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Bosnia and Herzegovina",
+   "kova": "DOGRUDAN",
+   "nokta": 15,
+   "kimlikler": [
+    {
+     "kimlik": "yugoslavya",
+     "nokta": 15,
+     "pay": 100.0,
+     "ornek": [
+      "Banaluka",
+      "Bihaç (Bihać)",
+      "Foça (Foča)",
+      "Koniçe (Konjic)"
+     ]
+    }
+   ],
+   "baskin": "yugoslavya",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Kenya",
+   "NAME_EN": "Kenya",
+   "NAME_TR": "Kenya",
+   "ISO_A3": "KEN",
+   "ADM0_A3": "KEN",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Kenya",
+   "kova": "DOGRUDAN",
+   "nokta": 15,
+   "kimlikler": [
+    {
+     "kimlik": "ingiltere",
+     "nokta": 11,
+     "pay": 73.3,
+     "ornek": [
+      "Garissa",
+      "Kisumu",
+      "Kitale",
+      "Kitui"
+     ]
+    },
+    {
+     "kimlik": "umman-zengibar",
+     "nokta": 4,
+     "pay": 26.7,
+     "ornek": [
+      "Lamu",
+      "Malindi",
+      "Mombasa",
+      "Pate"
+     ]
+    }
+   ],
+   "baskin": "ingiltere",
+   "kimlik_adedi": 2
+  },
+  {
+   "NAME": "Mongolia",
+   "NAME_EN": "Mongolia",
+   "NAME_TR": "Moğolistan",
+   "ISO_A3": "MNG",
+   "ADM0_A3": "MNG",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Mongolia",
+   "kova": "DOGRUDAN",
+   "nokta": 15,
+   "kimlikler": [
+    {
+     "kimlik": "mogolistan",
+     "nokta": 13,
+     "pay": 86.7,
+     "ornek": [
+      "Bayanhongor",
+      "Bulgan",
+      "Dariganga",
+      "Gobi-Altay (Yösönbulag)"
+     ]
+    },
+    {
+     "kimlik": "cin-cumhuriyeti",
+     "nokta": 2,
+     "pay": 13.3,
+     "ornek": [
+      "Alaşa kuzeyi",
+      "Gaşun Gobi"
+     ]
+    }
+   ],
+   "baskin": "mogolistan",
+   "kimlik_adedi": 2
+  },
+  {
+   "NAME": "Niger",
+   "NAME_EN": "Niger",
+   "NAME_TR": "Nijer",
+   "ISO_A3": "NER",
+   "ADM0_A3": "NER",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Niger",
+   "kova": "DOGRUDAN",
+   "nokta": 15,
+   "kimlikler": [
+    {
+     "kimlik": "fransa-cumhuriyet",
+     "nokta": 14,
+     "pay": 93.3,
+     "ornek": [
+      "Arlit",
+      "Bilma",
+      "Birni-N'Konni",
+      "Fachi"
+     ]
+    },
+    {
+     "kimlik": "agadez-sultanligi",
+     "nokta": 1,
+     "pay": 6.7,
+     "ornek": [
+      "Agadez"
+     ]
+    }
+   ],
+   "baskin": "fransa-cumhuriyet",
+   "kimlik_adedi": 2
+  },
+  {
+   "NAME": "Albania",
+   "NAME_EN": "Albania",
+   "NAME_TR": "Arnavutluk",
+   "ISO_A3": "ALB",
+   "ADM0_A3": "ALB",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Albania",
+   "kova": "DOGRUDAN",
+   "nokta": 14,
+   "kimlikler": [
+    {
+     "kimlik": "arnavutluk-bagimsiz",
+     "nokta": 14,
+     "pay": 100.0,
+     "ornek": [
+      "Akçahisar (Kruja)",
+      "Avlonya",
+      "Ayasaranda (Sarandë)",
+      "Berat"
+     ]
+    }
+   ],
+   "baskin": "arnavutluk-bagimsiz",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Cambodia",
+   "NAME_EN": "Cambodia",
+   "NAME_TR": "Kamboçya",
+   "ISO_A3": "KHM",
+   "ADM0_A3": "KHM",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Cambodia",
+   "kova": "DOGRUDAN",
+   "nokta": 14,
+   "kimlikler": [
+    {
+     "kimlik": "fransiz-cinhindi",
+     "nokta": 14,
+     "pay": 100.0,
+     "ornek": [
+      "Angkor (Siem Reap)",
+      "Battambang",
+      "Kampot",
+      "Kompong Cham"
+     ]
+    }
+   ],
+   "baskin": "fransiz-cinhindi",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Central African Rep.",
+   "NAME_EN": "Central African Republic",
+   "NAME_TR": "Orta Afrika Cumhuriyeti",
+   "ISO_A3": "CAF",
+   "ADM0_A3": "CAF",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Central African Republic",
+   "kova": "DOGRUDAN",
+   "nokta": 14,
+   "kimlikler": [
+    {
+     "kimlik": "fransa-cumhuriyet",
+     "nokta": 14,
+     "pay": 100.0,
+     "ornek": [
+      "Bambari",
+      "Bangassu",
+      "Bangi (Bangui)",
+      "Batangafo"
+     ]
+    }
+   ],
+   "baskin": "fransa-cumhuriyet",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Eritrea",
+   "NAME_EN": "Eritrea",
+   "NAME_TR": "Eritre",
+   "ISO_A3": "ERI",
+   "ADM0_A3": "ERI",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Eritrea",
+   "kova": "DOGRUDAN",
+   "nokta": 14,
+   "kimlikler": [
+    {
+     "kimlik": "italya",
+     "nokta": 14,
+     "pay": 100.0,
+     "ornek": [
+      "Adi Kayh",
+      "Adi Kuala",
+      "Arkîko",
+      "Aseb"
+     ]
+    }
+   ],
+   "baskin": "italya",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Mali",
+   "NAME_EN": "Mali",
+   "NAME_TR": "Mali",
+   "ISO_A3": "MLI",
+   "ADM0_A3": "MLI",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Mali",
+   "kova": "DOGRUDAN",
+   "nokta": 14,
+   "kimlikler": [
+    {
+     "kimlik": "fransa-cumhuriyet",
+     "nokta": 14,
+     "pay": 100.0,
+     "ornek": [
+      "Aravan",
+      "Bamako",
+      "Cenne (Djenné)",
+      "Gao"
+     ]
+    }
+   ],
+   "baskin": "fransa-cumhuriyet",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Philippines",
+   "NAME_EN": "Philippines",
+   "NAME_TR": "Filipinler",
+   "ISO_A3": "PHL",
+   "ADM0_A3": "PHL",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Philippines",
+   "kova": "DOGRUDAN",
+   "nokta": 14,
+   "kimlikler": [
+    {
+     "kimlik": "abd",
+     "nokta": 14,
+     "pay": 100.0,
+     "ornek": [
+      "Batangas",
+      "Butuan",
+      "Cebu",
+      "Colo (Jolo)"
+     ]
+    }
+   ],
+   "baskin": "abd",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Bolivia",
+   "NAME_EN": "Bolivia",
+   "NAME_TR": "Bolivya",
+   "ISO_A3": "BOL",
+   "ADM0_A3": "BOL",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Bolivia",
+   "kova": "DOGRUDAN",
+   "nokta": 13,
+   "kimlikler": [
+    {
+     "kimlik": "bolivya-cumhuriyeti",
+     "nokta": 13,
+     "pay": 100.0,
+     "ornek": [
+      "Concepción (Chiquitos)",
+      "Concepción de Apolobamba",
+      "La Paz",
+      "Loreto (Mojos)"
+     ]
+    }
+   ],
+   "baskin": "bolivya-cumhuriyeti",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Malaysia",
+   "NAME_EN": "Malaysia",
+   "NAME_TR": "Malezya",
+   "ISO_A3": "MYS",
+   "ADM0_A3": "MYS",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Malaysia",
+   "kova": "DOGRUDAN",
+   "nokta": 13,
+   "kimlikler": [
+    {
+     "kimlik": "ingiliz-malaya",
+     "nokta": 10,
+     "pay": 76.9,
+     "ornek": [
+      "Kedah (Alor Setar)",
+      "Kelantan (Kota Bharu)",
+      "Klang",
+      "Kuala Lumpur"
+     ]
+    },
+    {
+     "kimlik": "cohor-sultanligi",
+     "nokta": 2,
+     "pay": 15.4,
+     "ornek": [
+      "Johor",
+      "Muar"
+     ]
+    },
+    {
+     "kimlik": "sarawak-brooke",
+     "nokta": 1,
+     "pay": 7.7,
+     "ornek": [
+      "Kuching (Sarawak)"
+     ]
+    }
+   ],
+   "baskin": "ingiliz-malaya",
+   "kimlik_adedi": 3
+  },
+  {
+   "NAME": "Serbia",
+   "NAME_EN": "Serbia",
+   "NAME_TR": "Sırbistan",
+   "ISO_A3": "SRB",
+   "ADM0_A3": "SRB",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Republic of Serbia",
+   "kova": "DOGRUDAN",
+   "nokta": 13,
+   "kimlikler": [
+    {
+     "kimlik": "yugoslavya",
+     "nokta": 12,
+     "pay": 92.3,
+     "ornek": [
+      "Alacahisar (Kruševac)",
+      "Baç (Bács)",
+      "Belgrad",
+      "Böğürdelen (Šabac)"
+     ]
+    },
+    {
+     "kimlik": "romanya-kralligi",
+     "nokta": 1,
+     "pay": 7.7,
+     "ornek": [
+      "Turnu Severin"
+     ]
+    }
+   ],
+   "baskin": "yugoslavya",
+   "kimlik_adedi": 2
+  },
+  {
+   "NAME": "Uzbekistan",
+   "NAME_EN": "Uzbekistan",
+   "NAME_TR": "Özbekistan",
+   "ISO_A3": "UZB",
+   "ADM0_A3": "UZB",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Uzbekistan",
+   "kova": "DOGRUDAN",
+   "nokta": 13,
+   "kimlikler": [
+    {
+     "kimlik": "sovyet-rusya",
+     "nokta": 13,
+     "pay": 100.0,
+     "ornek": [
+      "Andican",
+      "Buhara",
+      "Cizzah",
+      "Hazârasp"
+     ]
+    }
+   ],
+   "baskin": "sovyet-rusya",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Yemen",
+   "NAME_EN": "Yemen",
+   "NAME_TR": "Yemen",
+   "ISO_A3": "YEM",
+   "ADM0_A3": "YEM",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Yemen",
+   "kova": "DOGRUDAN",
+   "nokta": 13,
+   "kimlikler": [
+    {
+     "kimlik": "yemen",
+     "nokta": 8,
+     "pay": 61.5,
+     "ornek": [
+      "Hudeyde",
+      "Kevkebân",
+      "Moha",
+      "Sa'de"
+     ]
+    },
+    {
+     "kimlik": "ingiltere",
+     "nokta": 3,
+     "pay": 23.1,
+     "ornek": [
+      "Aden",
+      "Kemeran (Kamaran)",
+      "Mukalla"
+     ]
+    },
+    {
+     "kimlik": "kuayti-sultanligi",
+     "nokta": 1,
+     "pay": 7.7,
+     "ornek": [
+      "Hadramut"
+     ]
+    },
+    {
+     "kimlik": "umman",
+     "nokta": 1,
+     "pay": 7.7,
+     "ornek": [
+      "Sokotra"
+     ]
+    }
+   ],
+   "baskin": "yemen",
+   "kimlik_adedi": 4
+  },
+  {
+   "NAME": "Botswana",
+   "NAME_EN": "Botswana",
+   "NAME_TR": "Botsvana",
+   "ISO_A3": "BWA",
+   "ADM0_A3": "BWA",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Botswana",
+   "kova": "DOGRUDAN",
+   "nokta": 12,
+   "kimlikler": [
+    {
+     "kimlik": "ingiltere",
+     "nokta": 12,
+     "pay": 100.0,
+     "ornek": [
+      "Ganzi (Ghanzi)",
+      "Kang",
+      "Kanye (Ngvaketse)",
+      "Maun (Tavana)"
+     ]
+    }
+   ],
+   "baskin": "ingiltere",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Cameroon",
+   "NAME_EN": "Cameroon",
+   "NAME_TR": "Kamerun",
+   "ISO_A3": "CMR",
+   "ADM0_A3": "CMR",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Cameroon",
+   "kova": "DOGRUDAN",
+   "nokta": 12,
+   "kimlikler": [
+    {
+     "kimlik": "ingiltere",
+     "nokta": 6,
+     "pay": 50.0,
+     "ornek": [
+      "Banyo",
+      "Garua (Garoua)",
+      "Marua (Maroua)",
+      "Ngaunder (Ngaoundéré)"
+     ]
+    },
+    {
+     "kimlik": "fransa-cumhuriyet",
+     "nokta": 6,
+     "pay": 50.0,
+     "ornek": [
+      "Bertua (Bertoua)",
+      "Duala",
+      "Fumban (Bamum)",
+      "Kribi"
+     ]
+    }
+   ],
+   "baskin": "ingiltere",
+   "kimlik_adedi": 2
+  },
+  {
+   "NAME": "Chile",
+   "NAME_EN": "Chile",
+   "NAME_TR": "Şili",
+   "ISO_A3": "CHL",
+   "ADM0_A3": "CHL",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Chile",
+   "kova": "DOGRUDAN",
+   "nokta": 12,
+   "kimlikler": [
+    {
+     "kimlik": "sili-cumhuriyeti",
+     "nokta": 12,
+     "pay": 100.0,
+     "ornek": [
+      "Arauco (Mapuche/Araukanya — kuzey sınır bölgesi)",
+      "Beyan G44.5 B72.5",
+      "Beyan G46.5 B74.5",
+      "Beyan G48.5 B75.5"
+     ]
+    }
+   ],
+   "baskin": "sili-cumhuriyeti",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Senegal",
+   "NAME_EN": "Senegal",
+   "NAME_TR": "Senegal",
+   "ISO_A3": "SEN",
+   "ADM0_A3": "SEN",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Senegal",
+   "kova": "DOGRUDAN",
+   "nokta": 12,
+   "kimlikler": [
+    {
+     "kimlik": "fransa-cumhuriyet",
+     "nokta": 12,
+     "pay": 100.0,
+     "ornek": [
+      "Bakel",
+      "Bulebane (Bundu)",
+      "Dakar",
+      "Diahav (Sine)"
+     ]
+    }
+   ],
+   "baskin": "fransa-cumhuriyet",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Ireland",
+   "NAME_EN": "Ireland",
+   "NAME_TR": "İrlanda",
+   "ISO_A3": "IRL",
+   "ADM0_A3": "IRL",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Ireland",
+   "kova": "DOGRUDAN",
+   "nokta": 11,
+   "kimlikler": [
+    {
+     "kimlik": "irlanda-serbest-devlet",
+     "nokta": 11,
+     "pay": 100.0,
+     "ornek": [
+      "Athlone",
+      "Cork",
+      "Donegal",
+      "Dublin"
+     ]
+    }
+   ],
+   "baskin": "irlanda-serbest-devlet",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Pakistan",
+   "NAME_EN": "Pakistan",
+   "NAME_TR": "Pakistan",
+   "ISO_A3": "PAK",
+   "ADM0_A3": "PAK",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Pakistan",
+   "kova": "DOGRUDAN",
+   "nokta": 11,
+   "kimlikler": [
+    {
+     "kimlik": "ingiliz-hindistani",
+     "nokta": 10,
+     "pay": 90.9,
+     "ornek": [
+      "Attock",
+      "Haydarâbâd (Sind)",
+      "Karaçi",
+      "Lahor"
+     ]
+    },
+    {
+     "kimlik": "bahavelpur",
+     "nokta": 1,
+     "pay": 9.1,
+     "ornek": [
+      "Bahâvelpûr"
+     ]
+    }
+   ],
+   "baskin": "ingiliz-hindistani",
+   "kimlik_adedi": 2
+  },
+  {
+   "NAME": "Poland",
+   "NAME_EN": "Poland",
+   "NAME_TR": "Polonya",
+   "ISO_A3": "POL",
+   "ADM0_A3": "POL",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Poland",
+   "kova": "DOGRUDAN",
+   "nokta": 11,
+   "kimlikler": [
+    {
+     "kimlik": "polonya",
+     "nokta": 9,
+     "pay": 81.8,
+     "ornek": [
+      "Białystok",
+      "Chełm (Kholm)",
+      "Gdansk",
+      "Krakov"
+     ]
+    },
+    {
+     "kimlik": "almanya",
+     "nokta": 2,
+     "pay": 18.2,
+     "ornek": [
+      "Elbing (Elbląg)",
+      "Stettin (Szczecin)"
+     ]
+    }
+   ],
+   "baskin": "polonya",
+   "kimlik_adedi": 2
+  },
+  {
+   "NAME": "Syria",
+   "NAME_EN": "Syria",
+   "NAME_TR": "Suriye",
+   "ISO_A3": "SYR",
+   "ADM0_A3": "SYR",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Syria",
+   "kova": "DOGRUDAN",
+   "nokta": 11,
+   "kimlikler": [
+    {
+     "kimlik": "suriye-lubnan-mandasi",
+     "nokta": 11,
+     "pay": 100.0,
+     "ornek": [
+      "Azez (A'zâz)",
+      "Cerablus",
+      "Deyrizor",
+      "Halep"
+     ]
+    }
+   ],
+   "baskin": "suriye-lubnan-mandasi",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Congo",
+   "NAME_EN": "Republic of the Congo",
+   "NAME_TR": "Kongo Cumhuriyeti",
+   "ISO_A3": "COG",
+   "ADM0_A3": "COG",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Republic of the Congo",
+   "kova": "DOGRUDAN",
+   "nokta": 10,
+   "kimlikler": [
+    {
+     "kimlik": "fransa-cumhuriyet",
+     "nokta": 10,
+     "pay": 100.0,
+     "ornek": [
+      "Cambala (Djambala)",
+      "Epena",
+      "Loango (Buali)",
+      "Moloundou"
+     ]
+    }
+   ],
+   "baskin": "fransa-cumhuriyet",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Côte d'Ivoire",
+   "NAME_EN": "Ivory Coast",
+   "NAME_TR": "Fildişi Sahili",
+   "ISO_A3": "CIV",
+   "ADM0_A3": "CIV",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Ivory Coast",
+   "kova": "DOGRUDAN",
+   "nokta": 10,
+   "kimlikler": [
+    {
+     "kimlik": "fransa-cumhuriyet",
+     "nokta": 9,
+     "pay": 90.0,
+     "ornek": [
+      "Assinie",
+      "Buake (Bouaké)",
+      "Buna (Bouna)",
+      "Daloa"
+     ]
+    },
+    {
+     "kimlik": "ingiltere",
+     "nokta": 1,
+     "pay": 10.0,
+     "ornek": [
+      "Bondugu (Gyaaman)"
+     ]
+    }
+   ],
+   "baskin": "fransa-cumhuriyet",
+   "kimlik_adedi": 2
+  },
+  {
+   "NAME": "Denmark",
+   "NAME_EN": "Denmark",
+   "NAME_TR": "Danimarka",
+   "ISO_A3": "DNK",
+   "ADM0_A3": "DNK",
+   "TYPE": "Country",
+   "SOVEREIGNT": "Denmark",
+   "kova": "DOGRUDAN",
+   "nokta": 10,
+   "kimlikler": [
+    {
+     "kimlik": "danimarka",
+     "nokta": 10,
+     "pay": 100.0,
+     "ornek": [
+      "Aabenraa",
+      "Aalborg",
+      "Aarhus",
+      "Kolding"
+     ]
+    }
+   ],
+   "baskin": "danimarka",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Portugal",
+   "NAME_EN": "Portugal",
+   "NAME_TR": "Portekiz",
+   "ISO_A3": "PRT",
+   "ADM0_A3": "PRT",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Portugal",
+   "kova": "DOGRUDAN",
+   "nokta": 10,
+   "kimlikler": [
+    {
+     "kimlik": "portekiz",
+     "nokta": 10,
+     "pay": 100.0,
+     "ornek": [
+      "Aveiro",
+      "Braga",
+      "Bragança",
+      "Coimbra"
+     ]
+    }
+   ],
+   "baskin": "portekiz",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "South Korea",
+   "NAME_EN": "South Korea",
+   "NAME_TR": "Güney Kore",
+   "ISO_A3": "KOR",
+   "ADM0_A3": "KOR",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "South Korea",
+   "kova": "DOGRUDAN",
+   "nokta": 10,
+   "kimlikler": [
+    {
+     "kimlik": "meiji-japonya",
+     "nokta": 10,
+     "pay": 100.0,
+     "ornek": [
+      "Ceccu (Jeju)",
+      "Concu (Jeonju)",
+      "Ganghwa",
+      "Kongcu (Gongju)"
+     ]
+    }
+   ],
+   "baskin": "meiji-japonya",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Turkmenistan",
+   "NAME_EN": "Turkmenistan",
+   "NAME_TR": "Türkmenistan",
+   "ISO_A3": "TKM",
+   "ADM0_A3": "TKM",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Turkmenistan",
+   "kova": "DOGRUDAN",
+   "nokta": 10,
+   "kimlikler": [
+    {
+     "kimlik": "sovyet-rusya",
+     "nokta": 10,
+     "pay": 100.0,
+     "ornek": [
+      "Aşkabad",
+      "Dihistan ovası (Meşhed-i Misriyân)",
+      "Ebîverd",
+      "Garabogaz (Bekdaş)"
+     ]
+    }
+   ],
+   "baskin": "sovyet-rusya",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Belgium",
+   "NAME_EN": "Belgium",
+   "NAME_TR": "Belçika",
+   "ISO_A3": "BEL",
+   "ADM0_A3": "BEL",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Belgium",
+   "kova": "DOGRUDAN",
+   "nokta": 9,
+   "kimlikler": [
+    {
+     "kimlik": "belcika",
+     "nokta": 9,
+     "pay": 100.0,
+     "ornek": [
+      "Anvers (Antwerpen)",
+      "Brüj (Brugge)",
+      "Brüksel",
+      "Gent"
+     ]
+    }
+   ],
+   "baskin": "belcika",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Georgia",
+   "NAME_EN": "Georgia",
+   "NAME_TR": "Gürcistan",
+   "ISO_A3": "GEO",
+   "ADM0_A3": "GEO",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Georgia",
+   "kova": "DOGRUDAN",
+   "nokta": 9,
+   "kimlikler": [
+    {
+     "kimlik": "sovyet-rusya",
+     "nokta": 7,
+     "pay": 77.8,
+     "ornek": [
+      "Ahılkelek (Akhalkalaki)",
+      "Ahıska",
+      "Batum",
+      "Hulo (Acara)"
+     ]
+    },
+    {
+     "kimlik": "rusya",
+     "nokta": 1,
+     "pay": 11.1,
+     "ornek": [
+      "Sohum"
+     ]
+    },
+    {
+     "kimlik": "tbmm-turkiye",
+     "nokta": 1,
+     "pay": 11.1,
+     "ornek": [
+      "Sarp"
+     ]
+    }
+   ],
+   "baskin": "sovyet-rusya",
+   "kimlik_adedi": 3
+  },
+  {
+   "NAME": "North Macedonia",
+   "NAME_EN": "North Macedonia",
+   "NAME_TR": "Kuzey Makedonya",
+   "ISO_A3": "MKD",
+   "ADM0_A3": "MKD",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "North Macedonia",
+   "kova": "DOGRUDAN",
+   "nokta": 9,
+   "kimlikler": [
+    {
+     "kimlik": "yugoslavya",
+     "nokta": 9,
+     "pay": 100.0,
+     "ornek": [
+      "Debre (Dibra)",
+      "Doyran",
+      "Gevgili (Gevgelija)",
+      "Köprülü (Veles)"
+     ]
+    }
+   ],
+   "baskin": "yugoslavya",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Slovakia",
+   "NAME_EN": "Slovakia",
+   "NAME_TR": "Slovakya",
+   "ISO_A3": "SVK",
+   "ADM0_A3": "SVK",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Slovakia",
+   "kova": "DOGRUDAN",
+   "nokta": 9,
+   "kimlikler": [
+    {
+     "kimlik": "cekoslovakya",
+     "nokta": 9,
+     "pay": 100.0,
+     "ornek": [
+      "Bratislava",
+      "Eperjes (Prešov)",
+      "Fülek (Fiľakovo)",
+      "Kassa (Košice)"
+     ]
+    }
+   ],
+   "baskin": "cekoslovakya",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Uganda",
+   "NAME_EN": "Uganda",
+   "NAME_TR": "Uganda",
+   "ISO_A3": "UGA",
+   "ADM0_A3": "UGA",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Uganda",
+   "kova": "DOGRUDAN",
+   "nokta": 9,
+   "kimlikler": [
+    {
+     "kimlik": "ingiltere",
+     "nokta": 8,
+     "pay": 88.9,
+     "ornek": [
+      "Cinca (Jinja)",
+      "Fort Portal (Toro)",
+      "Gulu",
+      "Hoima (Bunyoro)"
+     ]
+    },
+    {
+     "kimlik": "buganda",
+     "nokta": 1,
+     "pay": 11.1,
+     "ornek": [
+      "Mengo (Buganda)"
+     ]
+    }
+   ],
+   "baskin": "ingiltere",
+   "kimlik_adedi": 2
+  },
+  {
+   "NAME": "Zimbabwe",
+   "NAME_EN": "Zimbabwe",
+   "NAME_TR": "Zimbabve",
+   "ISO_A3": "ZWE",
+   "ADM0_A3": "ZWE",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Zimbabwe",
+   "kova": "DOGRUDAN",
+   "nokta": 9,
+   "kimlikler": [
+    {
+     "kimlik": "ingiltere",
+     "nokta": 8,
+     "pay": 88.9,
+     "ornek": [
+      "Binga",
+      "Bulavayo",
+      "Danangombe (Rozvi)",
+      "Gvanda"
+     ]
+    },
+    {
+     "kimlik": "portekiz",
+     "nokta": 1,
+     "pay": 11.1,
+     "ornek": [
+      "Umtali (Mutare)"
+     ]
+    }
+   ],
+   "baskin": "ingiltere",
+   "kimlik_adedi": 2
+  },
+  {
+   "NAME": "Ghana",
+   "NAME_EN": "Ghana",
+   "NAME_TR": "Gana",
+   "ISO_A3": "GHA",
+   "ADM0_A3": "GHA",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Ghana",
+   "kova": "DOGRUDAN",
+   "nokta": 8,
+   "kimlikler": [
+    {
+     "kimlik": "ingiltere",
+     "nokta": 8,
+     "pay": 100.0,
+     "ornek": [
+      "Akra (Accra)",
+      "Begho (Bighu)",
+      "Bole",
+      "Cape Coast"
+     ]
+    }
+   ],
+   "baskin": "ingiltere",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Netherlands",
+   "NAME_EN": "Netherlands",
+   "NAME_TR": "Hollanda",
+   "ISO_A3": "NLD",
+   "ADM0_A3": "NLD",
+   "TYPE": "Country",
+   "SOVEREIGNT": "Netherlands",
+   "kova": "DOGRUDAN",
+   "nokta": 8,
+   "kimlikler": [
+    {
+     "kimlik": "hollanda",
+     "nokta": 8,
+     "pay": 100.0,
+     "ornek": [
+      "Amsterdam",
+      "Groningen",
+      "Leeuwarden",
+      "Maastricht"
+     ]
+    }
+   ],
+   "baskin": "hollanda",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Gabon",
+   "NAME_EN": "Gabon",
+   "NAME_TR": "Gabon",
+   "ISO_A3": "GAB",
+   "ADM0_A3": "GAB",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Gabon",
+   "kova": "DOGRUDAN",
+   "nokta": 7,
+   "kimlikler": [
+    {
+     "kimlik": "fransa-cumhuriyet",
+     "nokta": 7,
+     "pay": 100.0,
+     "ornek": [
+      "Cibanga",
+      "Fransvil (Franceville)",
+      "Lambarene",
+      "Librevil (Libreville)"
+     ]
+    }
+   ],
+   "baskin": "fransa-cumhuriyet",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Guinea",
+   "NAME_EN": "Guinea",
+   "NAME_TR": "Gine",
+   "ISO_A3": "GIN",
+   "ADM0_A3": "GIN",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Guinea",
+   "kova": "DOGRUDAN",
+   "nokta": 7,
+   "kimlikler": [
+    {
+     "kimlik": "fransa-cumhuriyet",
+     "nokta": 7,
+     "pay": 100.0,
+     "ornek": [
+      "Beyla",
+      "Bisandugu",
+      "Kankan",
+      "Konakri (Conakry)"
+     ]
+    }
+   ],
+   "baskin": "fransa-cumhuriyet",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Laos",
+   "NAME_EN": "Laos",
+   "NAME_TR": "Laos",
+   "ISO_A3": "LAO",
+   "ADM0_A3": "LAO",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Laos",
+   "kova": "DOGRUDAN",
+   "nokta": 7,
+   "kimlikler": [
+    {
+     "kimlik": "fransiz-cinhindi",
+     "nokta": 7,
+     "pay": 100.0,
+     "ornek": [
+      "Attapeu",
+      "Champasak",
+      "Luang Prabang",
+      "Muang Sing"
+     ]
+    }
+   ],
+   "baskin": "fransiz-cinhindi",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Malawi",
+   "NAME_EN": "Malawi",
+   "NAME_TR": "Malavi",
+   "ISO_A3": "MWI",
+   "ADM0_A3": "MWI",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Malawi",
+   "kova": "DOGRUDAN",
+   "nokta": 7,
+   "kimlikler": [
+    {
+     "kimlik": "ingiltere",
+     "nokta": 7,
+     "pay": 100.0,
+     "ornek": [
+      "Blantyre",
+      "Karonga",
+      "Mangoçi",
+      "Mankhamba (Maravi)"
+     ]
+    }
+   ],
+   "baskin": "ingiltere",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Switzerland",
+   "NAME_EN": "Switzerland",
+   "NAME_TR": "İsviçre",
+   "ISO_A3": "CHE",
+   "ADM0_A3": "CHE",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Switzerland",
+   "kova": "DOGRUDAN",
+   "nokta": 7,
+   "kimlikler": [
+    {
+     "kimlik": "isvicre",
+     "nokta": 6,
+     "pay": 85.7,
+     "ornek": [
+      "Basel",
+      "Bern",
+      "Cenevre",
+      "Lozan"
+     ]
+    },
+    {
+     "kimlik": "almanya",
+     "nokta": 1,
+     "pay": 14.3,
+     "ornek": [
+      "Konstanz"
+     ]
+    }
+   ],
+   "baskin": "isvicre",
+   "kimlik_adedi": 2
+  },
+  {
+   "NAME": "Afghanistan",
+   "NAME_EN": "Afghanistan",
+   "NAME_TR": "Afganistan",
+   "ISO_A3": "AFG",
+   "ADM0_A3": "AFG",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Afghanistan",
+   "kova": "DOGRUDAN",
+   "nokta": 6,
+   "kimlikler": [
+    {
+     "kimlik": "afganistan",
+     "nokta": 5,
+     "pay": 83.3,
+     "ornek": [
+      "Belh",
+      "Gazne",
+      "Herat",
+      "Kandehar"
+     ]
+    },
+    {
+     "kimlik": "kacar",
+     "nokta": 1,
+     "pay": 16.7,
+     "ornek": [
+      "Zerenc (Sîstan)"
+     ]
+    }
+   ],
+   "baskin": "afganistan",
+   "kimlik_adedi": 2
+  },
+  {
+   "NAME": "Belarus",
+   "NAME_EN": "Belarus",
+   "NAME_TR": "Beyaz Rusya",
+   "ISO_A3": "BLR",
+   "ADM0_A3": "BLR",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Belarus",
+   "kova": "DOGRUDAN",
+   "nokta": 6,
+   "kimlikler": [
+    {
+     "kimlik": "sovyet-rusya",
+     "nokta": 3,
+     "pay": 50.0,
+     "ornek": [
+      "Minsk",
+      "Polotsk",
+      "Vitebsk"
+     ]
+    },
+    {
+     "kimlik": "polonya",
+     "nokta": 3,
+     "pay": 50.0,
+     "ornek": [
+      "Brest-Litovsk",
+      "Grodno",
+      "Pinsk"
+     ]
+    }
+   ],
+   "baskin": "sovyet-rusya",
+   "kimlik_adedi": 2
+  },
+  {
+   "NAME": "Burkina Faso",
+   "NAME_EN": "Burkina Faso",
+   "NAME_TR": "Burkina Faso",
+   "ISO_A3": "BFA",
+   "ADM0_A3": "BFA",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Burkina Faso",
+   "kova": "DOGRUDAN",
+   "nokta": 6,
+   "kimlikler": [
+    {
+     "kimlik": "fransa-cumhuriyet",
+     "nokta": 6,
+     "pay": 100.0,
+     "ornek": [
+      "Bobo-Diulasso",
+      "Dori",
+      "Fada Ngurma (Gurma)",
+      "Tenkodogo"
+     ]
+    }
+   ],
+   "baskin": "fransa-cumhuriyet",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Colombia",
+   "NAME_EN": "Colombia",
+   "NAME_TR": "Kolombiya",
+   "ISO_A3": "COL",
+   "ADM0_A3": "COL",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Colombia",
+   "kova": "DOGRUDAN",
+   "nokta": 6,
+   "kimlikler": [
+    {
+     "kimlik": "kolombiya-cumhuriyeti",
+     "nokta": 5,
+     "pay": 83.3,
+     "ornek": [
+      "Bacatá (Bogotá)",
+      "Cali",
+      "Cartagena de Indias",
+      "Hunza (Tunja)"
+     ]
+    },
+    {
+     "kimlik": "brezilya-cumhuriyeti",
+     "nokta": 1,
+     "pay": 16.7,
+     "ornek": [
+      "Caruru (Vaupés)"
+     ]
+    }
+   ],
+   "baskin": "kolombiya-cumhuriyeti",
+   "kimlik_adedi": 2
+  },
+  {
+   "NAME": "Cuba",
+   "NAME_EN": "Cuba",
+   "NAME_TR": "Küba",
+   "ISO_A3": "CUB",
+   "ADM0_A3": "CUB",
+   "TYPE": "Sovereignty",
+   "SOVEREIGNT": "Cuba",
+   "kova": "DOGRUDAN",
+   "nokta": 6,
+   "kimlikler": [
+    {
+     "kimlik": "kuba-cumhuriyeti",
+     "nokta": 4,
+     "pay": 66.7,
+     "ornek": [
+      "Baracoa",
+      "Camagüey bölgesi (Taino)",
+      "Havana (La Habana)",
+      "Santiago de Cuba"
+     ]
+    },
+    {
+     "kimlik": "meksika",
+     "nokta": 2,
+     "pay": 33.3,
+     "ornek": [
+      "Sancti Spíritus",
+      "Santa Clara (Küba)"
+     ]
+    }
+   ],
+   "baskin": "kuba-cumhuriyeti",
+   "kimlik_adedi": 2
+  },
+  {
+   "NAME": "Mauritania",
+   "NAME_EN": "Mauritania",
+   "NAME_TR": "Moritanya",
+   "ISO_A3": "MRT",
+   "ADM0_A3": "MRT",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Mauritania",
+   "kova": "DOGRUDAN",
+   "nokta": 6,
+   "kimlikler": [
+    {
+     "kimlik": "fransa-cumhuriyet",
+     "nokta": 6,
+     "pay": 100.0,
+     "ornek": [
+      "Butilimit",
+      "Kiffa",
+      "Nema (Néma)",
+      "Râşid (Tagant)"
+     ]
+    }
+   ],
+   "baskin": "fransa-cumhuriyet",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "North Korea",
+   "NAME_EN": "North Korea",
+   "NAME_TR": "Kuzey Kore",
+   "ISO_A3": "PRK",
+   "ADM0_A3": "PRK",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "North Korea",
+   "kova": "DOGRUDAN",
+   "nokta": 6,
+   "kimlikler": [
+    {
+     "kimlik": "meiji-japonya",
+     "nokta": 6,
+     "pay": 100.0,
+     "ornek": [
+      "Hamhung",
+      "Kaesong",
+      "Kyongsong (Gyeongseong)",
+      "Pyongyang"
+     ]
+    }
+   ],
+   "baskin": "meiji-japonya",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Djibouti",
+   "NAME_EN": "Djibouti",
+   "NAME_TR": "Cibuti",
+   "ISO_A3": "DJI",
+   "ADM0_A3": "DJI",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Djibouti",
+   "kova": "DOGRUDAN",
+   "nokta": 5,
+   "kimlikler": [
+    {
+     "kimlik": "fransa-cumhuriyet",
+     "nokta": 5,
+     "pay": 100.0,
+     "ornek": [
+      "Alî Sabîh",
+      "Cibûtî",
+      "Dikhil",
+      "Obok"
+     ]
+    }
+   ],
+   "baskin": "fransa-cumhuriyet",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Liberia",
+   "NAME_EN": "Liberia",
+   "NAME_TR": "Liberya",
+   "ISO_A3": "LBR",
+   "ADM0_A3": "LBR",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Liberia",
+   "kova": "DOGRUDAN",
+   "nokta": 5,
+   "kimlikler": [
+    {
+     "kimlik": "liberya",
+     "nokta": 5,
+     "pay": 100.0,
+     "ornek": [
+      "Gbarnga",
+      "Grand Cess (Kru)",
+      "Harper",
+      "Monrovia"
+     ]
+    }
+   ],
+   "baskin": "liberya",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Paraguay",
+   "NAME_EN": "Paraguay",
+   "NAME_TR": "Paraguay",
+   "ISO_A3": "PRY",
+   "ADM0_A3": "PRY",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Paraguay",
+   "kova": "DOGRUDAN",
+   "nokta": 5,
+   "kimlikler": [
+    {
+     "kimlik": "paraguay-cumhuriyeti",
+     "nokta": 4,
+     "pay": 80.0,
+     "ornek": [
+      "Asunción",
+      "Fuerte Olimpo (Borbón)",
+      "Lengua misyonu (Paraguay Chaco)",
+      "Tacuatí (Ypané)"
+     ]
+    },
+    {
+     "kimlik": "bolivya-cumhuriyeti",
+     "nokta": 1,
+     "pay": 20.0,
+     "ornek": [
+      "San Ignacio de Zamucos"
+     ]
+    }
+   ],
+   "baskin": "paraguay-cumhuriyeti",
+   "kimlik_adedi": 2
+  },
+  {
+   "NAME": "Ecuador",
+   "NAME_EN": "Ecuador",
+   "NAME_TR": "Ekvador",
+   "ISO_A3": "ECU",
+   "ADM0_A3": "ECU",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Ecuador",
+   "kova": "DOGRUDAN",
+   "nokta": 4,
+   "kimlikler": [
+    {
+     "kimlik": "ekvador-cumhuriyeti",
+     "nokta": 4,
+     "pay": 100.0,
+     "ornek": [
+      "Archidona (Napo)",
+      "Canelos (Bobonaza)",
+      "Guayaquil (Santiago de Guayaquil)",
+      "Quito"
+     ]
+    }
+   ],
+   "baskin": "ekvador-cumhuriyeti",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Kyrgyzstan",
+   "NAME_EN": "Kyrgyzstan",
+   "NAME_TR": "Kırgızistan",
+   "ISO_A3": "KGZ",
+   "ADM0_A3": "KGZ",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Kyrgyzstan",
+   "kova": "DOGRUDAN",
+   "nokta": 4,
+   "kimlikler": [
+    {
+     "kimlik": "sovyet-rusya",
+     "nokta": 4,
+     "pay": 100.0,
+     "ornek": [
+      "Balasagun (Ak-Beşim)",
+      "Issık Göl havzası",
+      "Narın (Naryn)",
+      "Oş"
+     ]
+    }
+   ],
+   "baskin": "sovyet-rusya",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Lithuania",
+   "NAME_EN": "Lithuania",
+   "NAME_TR": "Litvanya",
+   "ISO_A3": "LTU",
+   "ADM0_A3": "LTU",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Lithuania",
+   "kova": "DOGRUDAN",
+   "nokta": 4,
+   "kimlikler": [
+    {
+     "kimlik": "litvanya",
+     "nokta": 3,
+     "pay": 75.0,
+     "ornek": [
+      "Kaunas",
+      "Vilnius",
+      "Šiauliai"
+     ]
+    },
+    {
+     "kimlik": "almanya",
+     "nokta": 1,
+     "pay": 25.0,
+     "ornek": [
+      "Klaipėda (Memel)"
+     ]
+    }
+   ],
+   "baskin": "litvanya",
+   "kimlik_adedi": 2
+  },
+  {
+   "NAME": "Moldova",
+   "NAME_EN": "Moldova",
+   "NAME_TR": "Moldova",
+   "ISO_A3": "MDA",
+   "ADM0_A3": "MDA",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Moldova",
+   "kova": "DOGRUDAN",
+   "nokta": 4,
+   "kimlikler": [
+    {
+     "kimlik": "romanya-kralligi",
+     "nokta": 4,
+     "pay": 100.0,
+     "ornek": [
+      "Bender",
+      "Kahul (Cahul)",
+      "Orhei",
+      "Soroka (Soroca)"
+     ]
+    }
+   ],
+   "baskin": "romanya-kralligi",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Montenegro",
+   "NAME_EN": "Montenegro",
+   "NAME_TR": "Karadağ",
+   "ISO_A3": "MNE",
+   "ADM0_A3": "MNE",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Montenegro",
+   "kova": "DOGRUDAN",
+   "nokta": 4,
+   "kimlikler": [
+    {
+     "kimlik": "yugoslavya",
+     "nokta": 4,
+     "pay": 100.0,
+     "ornek": [
+      "Cetinje",
+      "Herseknovi (Herceg Novi)",
+      "Kotor (Cattaro)",
+      "Podgorica"
+     ]
+    }
+   ],
+   "baskin": "yugoslavya",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Papua New Guinea",
+   "NAME_EN": "Papua New Guinea",
+   "NAME_TR": "Papua Yeni Gine",
+   "ISO_A3": "PNG",
+   "ADM0_A3": "PNG",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Papua New Guinea",
+   "kova": "DOGRUDAN",
+   "nokta": 4,
+   "kimlikler": [
+    {
+     "kimlik": "avustralya",
+     "nokta": 4,
+     "pay": 100.0,
+     "ornek": [
+      "Finschhafen",
+      "Herbertshöhe (Kokopo) — Rabaul",
+      "Madang",
+      "Port Moresby"
+     ]
+    }
+   ],
+   "baskin": "avustralya",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Armenia",
+   "NAME_EN": "Armenia",
+   "NAME_TR": "Ermenistan",
+   "ISO_A3": "ARM",
+   "ADM0_A3": "ARM",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Armenia",
+   "kova": "DOGRUDAN",
+   "nokta": 3,
+   "kimlikler": [
+    {
+     "kimlik": "sovyet-rusya",
+     "nokta": 3,
+     "pay": 100.0,
+     "ornek": [
+      "Eçmiyadzin",
+      "Gümrü (Aleksandropol)",
+      "Revan"
+     ]
+    }
+   ],
+   "baskin": "sovyet-rusya",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Bangladesh",
+   "NAME_EN": "Bangladesh",
+   "NAME_TR": "Bangladeş",
+   "ISO_A3": "BGD",
+   "ADM0_A3": "BGD",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Bangladesh",
+   "kova": "DOGRUDAN",
+   "nokta": 3,
+   "kimlikler": [
+    {
+     "kimlik": "ingiliz-hindistani",
+     "nokta": 3,
+     "pay": 100.0,
+     "ornek": [
+      "Dakka (Dhaka)",
+      "Sonârgâon",
+      "Çatgam (Chittagong)"
+     ]
+    }
+   ],
+   "baskin": "ingiliz-hindistani",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Cyprus",
+   "NAME_EN": "Cyprus",
+   "NAME_TR": "Kıbrıs Cumhuriyeti",
+   "ISO_A3": "CYP",
+   "ADM0_A3": "CYP",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Cyprus",
+   "kova": "DOGRUDAN",
+   "nokta": 3,
+   "kimlikler": [
+    {
+     "kimlik": "ingiltere",
+     "nokta": 3,
+     "pay": 100.0,
+     "ornek": [
+      "Baf (Paphos)",
+      "Limasol",
+      "Tuzla (Larnaka)"
+     ]
+    }
+   ],
+   "baskin": "ingiltere",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Estonia",
+   "NAME_EN": "Estonia",
+   "NAME_TR": "Estonya",
+   "ISO_A3": "EST",
+   "ADM0_A3": "EST",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Estonia",
+   "kova": "DOGRUDAN",
+   "nokta": 3,
+   "kimlikler": [
+    {
+     "kimlik": "estonya",
+     "nokta": 3,
+     "pay": 100.0,
+     "ornek": [
+      "Pärnu",
+      "Tallinn (Reval)",
+      "Tartu (Dorpat)"
+     ]
+    }
+   ],
+   "baskin": "estonya",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Guyana",
+   "NAME_EN": "Guyana",
+   "NAME_TR": "Guyana",
+   "ISO_A3": "GUY",
+   "ADM0_A3": "GUY",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Guyana",
+   "kova": "DOGRUDAN",
+   "nokta": 3,
+   "kimlikler": [
+    {
+     "kimlik": "ingiliz-guyanasi",
+     "nokta": 3,
+     "pay": 100.0,
+     "ornek": [
+      "Georgetown (Stabroek)",
+      "Kyk-over-al (Essequibo)",
+      "New Amsterdam (Berbice)"
+     ]
+    }
+   ],
+   "baskin": "ingiliz-guyanasi",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Honduras",
+   "NAME_EN": "Honduras",
+   "NAME_TR": "Honduras",
+   "ISO_A3": "HND",
+   "ADM0_A3": "HND",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Honduras",
+   "kova": "DOGRUDAN",
+   "nokta": 3,
+   "kimlikler": [
+    {
+     "kimlik": "meksika",
+     "nokta": 3,
+     "pay": 100.0,
+     "ornek": [
+      "Omoa (San Fernando de Omoa)",
+      "Río Tinto (Black River, Moskito kıyısı)",
+      "Trujillo (Honduras)"
+     ]
+    }
+   ],
+   "baskin": "meksika",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Israel",
+   "NAME_EN": "Israel",
+   "NAME_TR": "İsrail",
+   "ISO_A3": "ISR",
+   "ADM0_A3": "ISR",
+   "TYPE": "Disputed",
+   "SOVEREIGNT": "Israel",
+   "kova": "DOGRUDAN",
+   "nokta": 3,
+   "kimlikler": [
+    {
+     "kimlik": "filistin-mandasi",
+     "nokta": 3,
+     "pay": 100.0,
+     "ornek": [
+      "Akkâ",
+      "Kudüs",
+      "Yafa"
+     ]
+    }
+   ],
+   "baskin": "filistin-mandasi",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Jamaica",
+   "NAME_EN": "Jamaica",
+   "NAME_TR": "Jamaika",
+   "ISO_A3": "JAM",
+   "ADM0_A3": "JAM",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Jamaica",
+   "kova": "DOGRUDAN",
+   "nokta": 3,
+   "kimlikler": [
+    {
+     "kimlik": "ingiltere",
+     "nokta": 3,
+     "pay": 100.0,
+     "ornek": [
+      "Kingston",
+      "Port Royal",
+      "Spanish Town (Villa de la Vega)"
+     ]
+    }
+   ],
+   "baskin": "ingiltere",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Jordan",
+   "NAME_EN": "Jordan",
+   "NAME_TR": "Ürdün",
+   "ISO_A3": "JOR",
+   "ADM0_A3": "JOR",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Jordan",
+   "kova": "DOGRUDAN",
+   "nokta": 3,
+   "kimlikler": [
+    {
+     "kimlik": "urdun-emirligi",
+     "nokta": 2,
+     "pay": 66.7,
+     "ornek": [
+      "Amman",
+      "Kerak"
+     ]
+    },
+    {
+     "kimlik": "hicaz",
+     "nokta": 1,
+     "pay": 33.3,
+     "ornek": [
+      "Maan"
+     ]
+    }
+   ],
+   "baskin": "urdun-emirligi",
+   "kimlik_adedi": 2
+  },
+  {
+   "NAME": "Latvia",
+   "NAME_EN": "Latvia",
+   "NAME_TR": "Letonya",
+   "ISO_A3": "LVA",
+   "ADM0_A3": "LVA",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Latvia",
+   "kova": "DOGRUDAN",
+   "nokta": 3,
+   "kimlikler": [
+    {
+     "kimlik": "letonya",
+     "nokta": 3,
+     "pay": 100.0,
+     "ornek": [
+      "Cēsis (Wenden)",
+      "Daugavpils (Dünaburg)",
+      "Riga"
+     ]
+    }
+   ],
+   "baskin": "letonya",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Lebanon",
+   "NAME_EN": "Lebanon",
+   "NAME_TR": "Lübnan",
+   "ISO_A3": "LBN",
+   "ADM0_A3": "LBN",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Lebanon",
+   "kova": "DOGRUDAN",
+   "nokta": 3,
+   "kimlikler": [
+    {
+     "kimlik": "suriye-lubnan-mandasi",
+     "nokta": 3,
+     "pay": 100.0,
+     "ornek": [
+      "Beyrut",
+      "Sayda",
+      "Trablusşam"
+     ]
+    }
+   ],
+   "baskin": "suriye-lubnan-mandasi",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "New Zealand",
+   "NAME_EN": "New Zealand",
+   "NAME_TR": "Yeni Zelanda",
+   "ISO_A3": "NZL",
+   "ADM0_A3": "NZL",
+   "TYPE": "Country",
+   "SOVEREIGNT": "New Zealand",
+   "kova": "DOGRUDAN",
+   "nokta": 3,
+   "kimlikler": [
+    {
+     "kimlik": "yeni-zelanda",
+     "nokta": 3,
+     "pay": 100.0,
+     "ornek": [
+      "Auckland",
+      "Christchurch",
+      "Wellington"
+     ]
+    }
+   ],
+   "baskin": "yeni-zelanda",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Palestine",
+   "NAME_EN": "Palestine",
+   "NAME_TR": "Filistin",
+   "ISO_A3": "PSE",
+   "ADM0_A3": "PSX",
+   "TYPE": "Indeterminate",
+   "SOVEREIGNT": "Israel",
+   "kova": "DOGRUDAN",
+   "nokta": 3,
+   "kimlikler": [
+    {
+     "kimlik": "filistin-mandasi",
+     "nokta": 3,
+     "pay": 100.0,
+     "ornek": [
+      "Gazze",
+      "Han Yûnus",
+      "Nablus"
+     ]
+    }
+   ],
+   "baskin": "filistin-mandasi",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Rwanda",
+   "NAME_EN": "Rwanda",
+   "NAME_TR": "Ruanda",
+   "ISO_A3": "RWA",
+   "ADM0_A3": "RWA",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Rwanda",
+   "kova": "DOGRUDAN",
+   "nokta": 3,
+   "kimlikler": [
+    {
+     "kimlik": "belcika",
+     "nokta": 3,
+     "pay": 100.0,
+     "ornek": [
+      "Bukavu",
+      "Kigali",
+      "Nyanza (Ruanda)"
+     ]
+    }
+   ],
+   "baskin": "belcika",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Sri Lanka",
+   "NAME_EN": "Sri Lanka",
+   "NAME_TR": "Sri Lanka",
+   "ISO_A3": "LKA",
+   "ADM0_A3": "LKA",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Sri Lanka",
+   "kova": "DOGRUDAN",
+   "nokta": 3,
+   "kimlikler": [
+    {
+     "kimlik": "ingiltere",
+     "nokta": 3,
+     "pay": 100.0,
+     "ornek": [
+      "Kandy",
+      "Kolombo",
+      "Yafna (Jaffna)"
+     ]
+    }
+   ],
+   "baskin": "ingiltere",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Taiwan",
+   "NAME_EN": "Taiwan",
+   "NAME_TR": "Çin Cumhuriyeti",
+   "ISO_A3": "TWN",
+   "ADM0_A3": "TWN",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Taiwan",
+   "kova": "DOGRUDAN",
+   "nokta": 3,
+   "kimlikler": [
+    {
+     "kimlik": "meiji-japonya",
+     "nokta": 3,
+     "pay": 100.0,
+     "ornek": [
+      "Penghu (Pescadores)",
+      "Tainan",
+      "Taipei"
+     ]
+    }
+   ],
+   "baskin": "meiji-japonya",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Tajikistan",
+   "NAME_EN": "Tajikistan",
+   "NAME_TR": "Tacikistan",
+   "ISO_A3": "TJK",
+   "ADM0_A3": "TJK",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Tajikistan",
+   "kova": "DOGRUDAN",
+   "nokta": 3,
+   "kimlikler": [
+    {
+     "kimlik": "sovyet-rusya",
+     "nokta": 3,
+     "pay": 100.0,
+     "ornek": [
+      "Hisar",
+      "Hucend",
+      "Külâb (Kulob)"
+     ]
+    }
+   ],
+   "baskin": "sovyet-rusya",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "United Arab Emirates",
+   "NAME_EN": "United Arab Emirates",
+   "NAME_TR": "Birleşik Arap Emirlikleri",
+   "ISO_A3": "ARE",
+   "ADM0_A3": "ARE",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "United Arab Emirates",
+   "kova": "DOGRUDAN",
+   "nokta": 3,
+   "kimlikler": [
+    {
+     "kimlik": "ingiltere",
+     "nokta": 3,
+     "pay": 100.0,
+     "ornek": [
+      "Abu Dabi",
+      "Ras el-Hayme (Cülfâr)",
+      "Şârika"
+     ]
+    }
+   ],
+   "baskin": "ingiltere",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Uruguay",
+   "NAME_EN": "Uruguay",
+   "NAME_TR": "Uruguay",
+   "ISO_A3": "URY",
+   "ADM0_A3": "URY",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Uruguay",
+   "kova": "DOGRUDAN",
+   "nokta": 3,
+   "kimlikler": [
+    {
+     "kimlik": "uruguay-cumhuriyeti",
+     "nokta": 3,
+     "pay": 100.0,
+     "ornek": [
+      "Beyan G31.5 B56.5",
+      "Colonia del Sacramento",
+      "Montevideo"
+     ]
+    }
+   ],
+   "baskin": "uruguay-cumhuriyeti",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Venezuela",
+   "NAME_EN": "Venezuela",
+   "NAME_TR": "Venezuela",
+   "ISO_A3": "VEN",
+   "ADM0_A3": "VEN",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Venezuela",
+   "kova": "DOGRUDAN",
+   "nokta": 3,
+   "kimlikler": [
+    {
+     "kimlik": "venezuela-cumhuriyeti",
+     "nokta": 3,
+     "pay": 100.0,
+     "ornek": [
+      "Caracas (Santiago de León de Caracas)",
+      "Mérida (Venezuela)",
+      "Nuestra Señora de Caraballeda"
+     ]
+    }
+   ],
+   "baskin": "venezuela-cumhuriyeti",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Austria",
+   "NAME_EN": "Austria",
+   "NAME_TR": "Avusturya",
+   "ISO_A3": "AUT",
+   "ADM0_A3": "AUT",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Austria",
+   "kova": "DOGRUDAN",
+   "nokta": 2,
+   "kimlikler": [
+    {
+     "kimlik": "avusturya",
+     "nokta": 2,
+     "pay": 100.0,
+     "ornek": [
+      "Graz",
+      "Viyana"
+     ]
+    }
+   ],
+   "baskin": "avusturya",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Benin",
+   "NAME_EN": "Benin",
+   "NAME_TR": "Benin",
+   "ISO_A3": "BEN",
+   "ADM0_A3": "BEN",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Benin",
+   "kova": "DOGRUDAN",
+   "nokta": 2,
+   "kimlikler": [
+    {
+     "kimlik": "fransa-cumhuriyet",
+     "nokta": 1,
+     "pay": 50.0,
+     "ornek": [
+      "Abomey"
+     ]
+    },
+    {
+     "kimlik": "ingiltere",
+     "nokta": 1,
+     "pay": 50.0,
+     "ornek": [
+      "Nikki (Borgu)"
+     ]
+    }
+   ],
+   "baskin": "fransa-cumhuriyet",
+   "kimlik_adedi": 2
+  },
+  {
+   "NAME": "Burundi",
+   "NAME_EN": "Burundi",
+   "NAME_TR": "Burundi",
+   "ISO_A3": "BDI",
+   "ADM0_A3": "BDI",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Burundi",
+   "kova": "DOGRUDAN",
+   "nokta": 2,
+   "kimlikler": [
+    {
+     "kimlik": "belcika",
+     "nokta": 2,
+     "pay": 100.0,
+     "ornek": [
+      "Bucumbura",
+      "Gitega (Burundi)"
+     ]
+    }
+   ],
+   "baskin": "belcika",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Dominican Rep.",
+   "NAME_EN": "Dominican Republic",
+   "NAME_TR": "Dominik Cumhuriyeti",
+   "ISO_A3": "DOM",
+   "ADM0_A3": "DOM",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Dominican Republic",
+   "kova": "DOGRUDAN",
+   "nokta": 2,
+   "kimlikler": [
+    {
+     "kimlik": "dominik-cumhuriyeti",
+     "nokta": 2,
+     "pay": 100.0,
+     "ornek": [
+      "Higüey (Taino cacicazgosu)",
+      "Santo Domingo"
+     ]
+    }
+   ],
+   "baskin": "dominik-cumhuriyeti",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Gambia",
+   "NAME_EN": "The Gambia",
+   "NAME_TR": "Gambiya",
+   "ISO_A3": "GMB",
+   "ADM0_A3": "GMB",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Gambia",
+   "kova": "DOGRUDAN",
+   "nokta": 2,
+   "kimlikler": [
+    {
+     "kimlik": "ingiltere",
+     "nokta": 2,
+     "pay": 100.0,
+     "ornek": [
+      "Albreda-Cufure",
+      "Bathurst (Banjul)"
+     ]
+    }
+   ],
+   "baskin": "ingiltere",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Greenland",
+   "NAME_EN": "Greenland",
+   "NAME_TR": "Grönland",
+   "ISO_A3": "GRL",
+   "ADM0_A3": "GRL",
+   "TYPE": "Country",
+   "SOVEREIGNT": "Denmark",
+   "kova": "DOGRUDAN",
+   "nokta": 2,
+   "kimlikler": [
+    {
+     "kimlik": "danimarka",
+     "nokta": 2,
+     "pay": 100.0,
+     "ornek": [
+      "Qeqertarsuaq (Godhavn)",
+      "Sisimiut (Holsteinsborg)"
+     ]
+    }
+   ],
+   "baskin": "danimarka",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Guatemala",
+   "NAME_EN": "Guatemala",
+   "NAME_TR": "Guatemala",
+   "ISO_A3": "GTM",
+   "ADM0_A3": "GTM",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Guatemala",
+   "kova": "DOGRUDAN",
+   "nokta": 2,
+   "kimlikler": [
+    {
+     "kimlik": "guatemala",
+     "nokta": 2,
+     "pay": 100.0,
+     "ornek": [
+      "Antigua Guatemala (Santiago de los Caballeros)",
+      "Nojpetén (Tayasal / Flores)"
+     ]
+    }
+   ],
+   "baskin": "guatemala",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Guinea-Bissau",
+   "NAME_EN": "Guinea-Bissau",
+   "NAME_TR": "Gine-Bissau",
+   "ISO_A3": "GNB",
+   "ADM0_A3": "GNB",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Guinea-Bissau",
+   "kova": "DOGRUDAN",
+   "nokta": 2,
+   "kimlikler": [
+    {
+     "kimlik": "portekiz",
+     "nokta": 2,
+     "pay": 100.0,
+     "ornek": [
+      "Bissav (Bissau)",
+      "Kaşev (Cacheu)"
+     ]
+    }
+   ],
+   "baskin": "portekiz",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Iceland",
+   "NAME_EN": "Iceland",
+   "NAME_TR": "İzlanda",
+   "ISO_A3": "ISL",
+   "ADM0_A3": "ISL",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Iceland",
+   "kova": "DOGRUDAN",
+   "nokta": 2,
+   "kimlikler": [
+    {
+     "kimlik": "izlanda",
+     "nokta": 2,
+     "pay": 100.0,
+     "ornek": [
+      "Akureyri",
+      "Reykjavík"
+     ]
+    }
+   ],
+   "baskin": "izlanda",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Kosovo",
+   "NAME_EN": "Kosovo",
+   "NAME_TR": "Kosova",
+   "ISO_A3": "-99",
+   "ADM0_A3": "KOS",
+   "TYPE": "Disputed",
+   "SOVEREIGNT": "Kosovo",
+   "kova": "DOGRUDAN",
+   "nokta": 2,
+   "kimlikler": [
+    {
+     "kimlik": "yugoslavya",
+     "nokta": 2,
+     "pay": 100.0,
+     "ornek": [
+      "Prizren",
+      "Priştine"
+     ]
+    }
+   ],
+   "baskin": "yugoslavya",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Lesotho",
+   "NAME_EN": "Lesotho",
+   "NAME_TR": "Lesotho",
+   "ISO_A3": "LSO",
+   "ADM0_A3": "LSO",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Lesotho",
+   "kova": "DOGRUDAN",
+   "nokta": 2,
+   "kimlikler": [
+    {
+     "kimlik": "ingiltere",
+     "nokta": 2,
+     "pay": 100.0,
+     "ornek": [
+      "Maseru",
+      "Thaba Bosiu"
+     ]
+    }
+   ],
+   "baskin": "ingiltere",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "N. Cyprus",
+   "NAME_EN": "Turkish Republic of Northern Cyprus",
+   "NAME_TR": "Kuzey Kıbrıs Türk Cumhuriyeti",
+   "ISO_A3": "-99",
+   "ADM0_A3": "CYN",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Northern Cyprus",
+   "kova": "DOGRUDAN",
+   "nokta": 2,
+   "kimlikler": [
+    {
+     "kimlik": "ingiltere",
+     "nokta": 2,
+     "pay": 100.0,
+     "ornek": [
+      "Girne (Kyrenia)",
+      "Magosa"
+     ]
+    }
+   ],
+   "baskin": "ingiltere",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Panama",
+   "NAME_EN": "Panama",
+   "NAME_TR": "Panama",
+   "ISO_A3": "PAN",
+   "ADM0_A3": "PAN",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Panama",
+   "kova": "DOGRUDAN",
+   "nokta": 2,
+   "kimlikler": [
+    {
+     "kimlik": "panama-cumhuriyeti",
+     "nokta": 2,
+     "pay": 100.0,
+     "ornek": [
+      "Panamá (Panama City)",
+      "Portobelo (Puerto Bello)"
+     ]
+    }
+   ],
+   "baskin": "panama-cumhuriyeti",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Puerto Rico",
+   "NAME_EN": "Puerto Rico",
+   "NAME_TR": "Porto Riko",
+   "ISO_A3": "PRI",
+   "ADM0_A3": "PRI",
+   "TYPE": "Dependency",
+   "SOVEREIGNT": "United States of America",
+   "kova": "DOGRUDAN",
+   "nokta": 2,
+   "kimlikler": [
+    {
+     "kimlik": "abd",
+     "nokta": 2,
+     "pay": 100.0,
+     "ornek": [
+      "San Germán",
+      "San Juan"
+     ]
+    }
+   ],
+   "baskin": "abd",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Sierra Leone",
+   "NAME_EN": "Sierra Leone",
+   "NAME_TR": "Sierra Leone",
+   "ISO_A3": "SLE",
+   "ADM0_A3": "SLE",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Sierra Leone",
+   "kova": "DOGRUDAN",
+   "nokta": 2,
+   "kimlikler": [
+    {
+     "kimlik": "fransa-cumhuriyet",
+     "nokta": 1,
+     "pay": 50.0,
+     "ornek": [
+      "Falaba"
+     ]
+    },
+    {
+     "kimlik": "ingiltere",
+     "nokta": 1,
+     "pay": 50.0,
+     "ornek": [
+      "Freetown"
+     ]
+    }
+   ],
+   "baskin": "fransa-cumhuriyet",
+   "kimlik_adedi": 2
+  },
+  {
+   "NAME": "Solomon Is.",
+   "NAME_EN": "Solomon Islands",
+   "NAME_TR": "Solomon Adaları",
+   "ISO_A3": "SLB",
+   "ADM0_A3": "SLB",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Solomon Islands",
+   "kova": "DOGRUDAN",
+   "nokta": 2,
+   "kimlikler": [
+    {
+     "kimlik": "ingiltere",
+     "nokta": 2,
+     "pay": 100.0,
+     "ornek": [
+      "Gizo",
+      "Tulagi"
+     ]
+    }
+   ],
+   "baskin": "ingiltere",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Trinidad and Tobago",
+   "NAME_EN": "Trinidad and Tobago",
+   "NAME_TR": "Trinidad ve Tobago",
+   "ISO_A3": "TTO",
+   "ADM0_A3": "TTO",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Trinidad and Tobago",
+   "kova": "DOGRUDAN",
+   "nokta": 2,
+   "kimlikler": [
+    {
+     "kimlik": "ingiltere",
+     "nokta": 2,
+     "pay": 100.0,
+     "ornek": [
+      "Port of Spain (Puerto de España)",
+      "San José de Oruña (St. Joseph)"
+     ]
+    }
+   ],
+   "baskin": "ingiltere",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Bahrain",
+   "NAME_EN": "Bahrain",
+   "NAME_TR": "Bahreyn",
+   "ISO_A3": "BHR",
+   "ADM0_A3": "BHR",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Bahrain",
+   "kova": "DOGRUDAN",
+   "nokta": 1,
+   "kimlikler": [
+    {
+     "kimlik": "ingiltere",
+     "nokta": 1,
+     "pay": 100.0,
+     "ornek": [
+      "Manama (Bahreyn)"
+     ]
+    }
+   ],
+   "baskin": "ingiltere",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Belize",
+   "NAME_EN": "Belize",
+   "NAME_TR": "Belize",
+   "ISO_A3": "BLZ",
+   "ADM0_A3": "BLZ",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Belize",
+   "kova": "DOGRUDAN",
+   "nokta": 1,
+   "kimlikler": [
+    {
+     "kimlik": "ingiltere",
+     "nokta": 1,
+     "pay": 100.0,
+     "ornek": [
+      "Belize Town"
+     ]
+    }
+   ],
+   "baskin": "ingiltere",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Brunei",
+   "NAME_EN": "Brunei",
+   "NAME_TR": "Brunei",
+   "ISO_A3": "BRN",
+   "ADM0_A3": "BRN",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Brunei",
+   "kova": "DOGRUDAN",
+   "nokta": 1,
+   "kimlikler": [
+    {
+     "kimlik": "brunei-sultanligi",
+     "nokta": 1,
+     "pay": 100.0,
+     "ornek": [
+      "Brunei"
+     ]
+    }
+   ],
+   "baskin": "brunei-sultanligi",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Cyprus U.N. Buffer Zone",
+   "NAME_EN": "United Nations Buffer Zone in Cyprus",
+   "NAME_TR": "Yeşil Hat",
+   "ISO_A3": "-99",
+   "ADM0_A3": "CNM",
+   "TYPE": "Indeterminate",
+   "SOVEREIGNT": "Cyprus No Mans Area",
+   "kova": "DOGRUDAN",
+   "nokta": 1,
+   "kimlikler": [
+    {
+     "kimlik": "ingiltere",
+     "nokta": 1,
+     "pay": 100.0,
+     "ornek": [
+      "Lefkoşa"
+     ]
+    }
+   ],
+   "baskin": "ingiltere",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Czechia",
+   "NAME_EN": "Czech Republic",
+   "NAME_TR": "Çek Cumhuriyeti",
+   "ISO_A3": "CZE",
+   "ADM0_A3": "CZE",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Czechia",
+   "kova": "DOGRUDAN",
+   "nokta": 1,
+   "kimlikler": [
+    {
+     "kimlik": "cekoslovakya",
+     "nokta": 1,
+     "pay": 100.0,
+     "ornek": [
+      "Prag"
+     ]
+    }
+   ],
+   "baskin": "cekoslovakya",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Fiji",
+   "NAME_EN": "Fiji",
+   "NAME_TR": "Fiji",
+   "ISO_A3": "FJI",
+   "ADM0_A3": "FJI",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Fiji",
+   "kova": "DOGRUDAN",
+   "nokta": 1,
+   "kimlikler": [
+    {
+     "kimlik": "ingiltere",
+     "nokta": 1,
+     "pay": 100.0,
+     "ornek": [
+      "Suva"
+     ]
+    }
+   ],
+   "baskin": "ingiltere",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Gibraltar",
+   "NAME_EN": "Gibraltar",
+   "NAME_TR": "Cebelitarık",
+   "ISO_A3": "GIB",
+   "ADM0_A3": "GIB",
+   "TYPE": "Disputed",
+   "SOVEREIGNT": "United Kingdom",
+   "kova": "DOGRUDAN",
+   "nokta": 1,
+   "kimlikler": [
+    {
+     "kimlik": "ingiltere",
+     "nokta": 1,
+     "pay": 100.0,
+     "ornek": [
+      "Cebelitarık (Gibraltar)"
+     ]
+    }
+   ],
+   "baskin": "ingiltere",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Haiti",
+   "NAME_EN": "Haiti",
+   "NAME_TR": "Haiti",
+   "ISO_A3": "HTI",
+   "ADM0_A3": "HTI",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Haiti",
+   "kova": "DOGRUDAN",
+   "nokta": 1,
+   "kimlikler": [
+    {
+     "kimlik": "haiti",
+     "nokta": 1,
+     "pay": 100.0,
+     "ornek": [
+      "Jaragua (Taino cacicazgosu)"
+     ]
+    }
+   ],
+   "baskin": "haiti",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Hong Kong",
+   "NAME_EN": "Hong Kong",
+   "NAME_TR": "Hong Kong",
+   "ISO_A3": "HKG",
+   "ADM0_A3": "HKG",
+   "TYPE": "Country",
+   "SOVEREIGNT": "China",
+   "kova": "DOGRUDAN",
+   "nokta": 1,
+   "kimlikler": [
+    {
+     "kimlik": "ingiltere",
+     "nokta": 1,
+     "pay": 100.0,
+     "ornek": [
+      "Hong Kong"
+     ]
+    }
+   ],
+   "baskin": "ingiltere",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Isle of Man",
+   "NAME_EN": "Isle of Man",
+   "NAME_TR": "Man Adası",
+   "ISO_A3": "IMN",
+   "ADM0_A3": "IMN",
+   "TYPE": "Country",
+   "SOVEREIGNT": "United Kingdom",
+   "kova": "DOGRUDAN",
+   "nokta": 1,
+   "kimlikler": [
+    {
+     "kimlik": "ingiltere",
+     "nokta": 1,
+     "pay": 100.0,
+     "ornek": [
+      "Douglas (Man)"
+     ]
+    }
+   ],
+   "baskin": "ingiltere",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Kuwait",
+   "NAME_EN": "Kuwait",
+   "NAME_TR": "Kuveyt",
+   "ISO_A3": "KWT",
+   "ADM0_A3": "KWT",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Kuwait",
+   "kova": "DOGRUDAN",
+   "nokta": 1,
+   "kimlikler": [
+    {
+     "kimlik": "kuveyt",
+     "nokta": 1,
+     "pay": 100.0,
+     "ornek": [
+      "Kuveyt"
+     ]
+    }
+   ],
+   "baskin": "kuveyt",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Luxembourg",
+   "NAME_EN": "Luxembourg",
+   "NAME_TR": "Lüksemburg",
+   "ISO_A3": "LUX",
+   "ADM0_A3": "LUX",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Luxembourg",
+   "kova": "DOGRUDAN",
+   "nokta": 1,
+   "kimlikler": [
+    {
+     "kimlik": "luksemburg",
+     "nokta": 1,
+     "pay": 100.0,
+     "ornek": [
+      "Lüksemburg"
+     ]
+    }
+   ],
+   "baskin": "luksemburg",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Macao",
+   "NAME_EN": "Macau",
+   "NAME_TR": "Makao",
+   "ISO_A3": "MAC",
+   "ADM0_A3": "MAC",
+   "TYPE": "Country",
+   "SOVEREIGNT": "China",
+   "kova": "DOGRUDAN",
+   "nokta": 1,
+   "kimlikler": [
+    {
+     "kimlik": "portekiz",
+     "nokta": 1,
+     "pay": 100.0,
+     "ornek": [
+      "Makao (Macau)"
+     ]
+    }
+   ],
+   "baskin": "portekiz",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Malta",
+   "NAME_EN": "Malta",
+   "NAME_TR": "Malta",
+   "ISO_A3": "MLT",
+   "ADM0_A3": "MLT",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Malta",
+   "kova": "DOGRUDAN",
+   "nokta": 1,
+   "kimlikler": [
+    {
+     "kimlik": "ingiltere",
+     "nokta": 1,
+     "pay": 100.0,
+     "ornek": [
+      "Malta"
+     ]
+    }
+   ],
+   "baskin": "ingiltere",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Nepal",
+   "NAME_EN": "Nepal",
+   "NAME_TR": "Nepal",
+   "ISO_A3": "NPL",
+   "ADM0_A3": "NPL",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Nepal",
+   "kova": "DOGRUDAN",
+   "nokta": 1,
+   "kimlikler": [
+    {
+     "kimlik": "nepal",
+     "nokta": 1,
+     "pay": 100.0,
+     "ornek": [
+      "Katmandu"
+     ]
+    }
+   ],
+   "baskin": "nepal",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "New Caledonia",
+   "NAME_EN": "New Caledonia",
+   "NAME_TR": "Yeni Kaledonya",
+   "ISO_A3": "NCL",
+   "ADM0_A3": "NCL",
+   "TYPE": "Dependency",
+   "SOVEREIGNT": "France",
+   "kova": "DOGRUDAN",
+   "nokta": 1,
+   "kimlikler": [
+    {
+     "kimlik": "fransa-cumhuriyet",
+     "nokta": 1,
+     "pay": 100.0,
+     "ornek": [
+      "Noumea (Yeni Kaledonya)"
+     ]
+    }
+   ],
+   "baskin": "fransa-cumhuriyet",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Qatar",
+   "NAME_EN": "Qatar",
+   "NAME_TR": "Katar",
+   "ISO_A3": "QAT",
+   "ADM0_A3": "QAT",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Qatar",
+   "kova": "DOGRUDAN",
+   "nokta": 1,
+   "kimlikler": [
+    {
+     "kimlik": "katar",
+     "nokta": 1,
+     "pay": 100.0,
+     "ornek": [
+      "Doha (Katar)"
+     ]
+    }
+   ],
+   "baskin": "katar",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "S. Geo. and the Is.",
+   "NAME_EN": "South Georgia and the South Sandwich Islands",
+   "NAME_TR": "Güney Georgia ve Güney Sandwich Adaları",
+   "ISO_A3": "SGS",
+   "ADM0_A3": "SGS",
+   "TYPE": "Dependency",
+   "SOVEREIGNT": "United Kingdom",
+   "kova": "DOGRUDAN",
+   "nokta": 1,
+   "kimlikler": [
+    {
+     "kimlik": "ingiltere",
+     "nokta": 1,
+     "pay": 100.0,
+     "ornek": [
+      "Güney Georgia (Grytviken)"
+     ]
+    }
+   ],
+   "baskin": "ingiltere",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Singapore",
+   "NAME_EN": "Singapore",
+   "NAME_TR": "Singapur",
+   "ISO_A3": "SGP",
+   "ADM0_A3": "SGP",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Singapore",
+   "kova": "DOGRUDAN",
+   "nokta": 1,
+   "kimlikler": [
+    {
+     "kimlik": "ingiliz-malaya",
+     "nokta": 1,
+     "pay": 100.0,
+     "ornek": [
+      "Singapur"
+     ]
+    }
+   ],
+   "baskin": "ingiliz-malaya",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Slovenia",
+   "NAME_EN": "Slovenia",
+   "NAME_TR": "Slovenya",
+   "ISO_A3": "SVN",
+   "ADM0_A3": "SVN",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Slovenia",
+   "kova": "DOGRUDAN",
+   "nokta": 1,
+   "kimlikler": [
+    {
+     "kimlik": "yugoslavya",
+     "nokta": 1,
+     "pay": 100.0,
+     "ornek": [
+      "Ljubljana"
+     ]
+    }
+   ],
+   "baskin": "yugoslavya",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Suriname",
+   "NAME_EN": "Suriname",
+   "NAME_TR": "Surinam",
+   "ISO_A3": "SUR",
+   "ADM0_A3": "SUR",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Suriname",
+   "kova": "DOGRUDAN",
+   "nokta": 1,
+   "kimlikler": [
+    {
+     "kimlik": "hollanda-guyanasi",
+     "nokta": 1,
+     "pay": 100.0,
+     "ornek": [
+      "Paramaribo"
+     ]
+    }
+   ],
+   "baskin": "hollanda-guyanasi",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Timor-Leste",
+   "NAME_EN": "East Timor",
+   "NAME_TR": "Doğu Timor",
+   "ISO_A3": "TLS",
+   "ADM0_A3": "TLS",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "East Timor",
+   "kova": "DOGRUDAN",
+   "nokta": 1,
+   "kimlikler": [
+    {
+     "kimlik": "portekiz",
+     "nokta": 1,
+     "pay": 100.0,
+     "ornek": [
+      "Dili"
+     ]
+    }
+   ],
+   "baskin": "portekiz",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Togo",
+   "NAME_EN": "Togo",
+   "NAME_TR": "Togo",
+   "ISO_A3": "TGO",
+   "ADM0_A3": "TGO",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Togo",
+   "kova": "DOGRUDAN",
+   "nokta": 1,
+   "kimlikler": [
+    {
+     "kimlik": "fransa-cumhuriyet",
+     "nokta": 1,
+     "pay": 100.0,
+     "ornek": [
+      "Notse"
+     ]
+    }
+   ],
+   "baskin": "fransa-cumhuriyet",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Tonga",
+   "NAME_EN": "Tonga",
+   "NAME_TR": "Tonga",
+   "ISO_A3": "TON",
+   "ADM0_A3": "TON",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Tonga",
+   "kova": "DOGRUDAN",
+   "nokta": 1,
+   "kimlikler": [
+    {
+     "kimlik": "tonga-kralligi",
+     "nokta": 1,
+     "pay": 100.0,
+     "ornek": [
+      "Lapaha (Muʻa)"
+     ]
+    }
+   ],
+   "baskin": "tonga-kralligi",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "eSwatini",
+   "NAME_EN": "Eswatini",
+   "NAME_TR": "Esvatini",
+   "ISO_A3": "SWZ",
+   "ADM0_A3": "SWZ",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "eSwatini",
+   "kova": "DOGRUDAN",
+   "nokta": 1,
+   "kimlikler": [
+    {
+     "kimlik": "ingiltere",
+     "nokta": 1,
+     "pay": 100.0,
+     "ornek": [
+      "Lobamba (Svazi)"
+     ]
+    }
+   ],
+   "baskin": "ingiltere",
+   "kimlik_adedi": 1
+  },
+  {
+   "NAME": "Akrotiri",
+   "NAME_EN": "Akrotiri Sovereign Base Area",
+   "NAME_TR": "Ağrotur",
+   "ISO_A3": "-99",
+   "ADM0_A3": "WSB",
+   "TYPE": "Dependency",
+   "SOVEREIGNT": "United Kingdom",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Limasol",
+    "km": 11.1,
+    "kimligi": "ingiltere"
+   }
+  },
+  {
+   "NAME": "American Samoa",
+   "NAME_EN": "American Samoa",
+   "NAME_TR": "Amerikan Samoası",
+   "ISO_A3": "ASM",
+   "ADM0_A3": "ASM",
+   "TYPE": "Dependency",
+   "SOVEREIGNT": "United States of America",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Lapaha (Muʻa)",
+    "km": 893.6,
+    "kimligi": "tonga-kralligi"
+   }
+  },
+  {
+   "NAME": "Andorra",
+   "NAME_EN": "Andorra",
+   "NAME_TR": "Andorra",
+   "ISO_A3": "AND",
+   "ADM0_A3": "AND",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Andorra",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Perpignan",
+    "km": 110.7,
+    "kimligi": "fransa-cumhuriyet"
+   }
+  },
+  {
+   "NAME": "Anguilla",
+   "NAME_EN": "Anguilla",
+   "NAME_TR": "Anguilla",
+   "ISO_A3": "AIA",
+   "ADM0_A3": "AIA",
+   "TYPE": "Dependency",
+   "SOVEREIGNT": "United Kingdom",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "San Juan",
+    "km": 324.7,
+    "kimligi": "abd"
+   }
+  },
+  {
+   "NAME": "Antarctica",
+   "NAME_EN": "Antarctica",
+   "NAME_TR": "Antarktika",
+   "ISO_A3": "ATA",
+   "ADM0_A3": "ATA",
+   "TYPE": "Indeterminate",
+   "SOVEREIGNT": "Antarctica",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Güney Georgia (Grytviken)",
+    "km": 5365.6,
+    "kimligi": "ingiltere"
+   }
+  },
+  {
+   "NAME": "Antigua and Barb.",
+   "NAME_EN": "Antigua and Barbuda",
+   "NAME_TR": "Antigua ve Barbuda",
+   "ISO_A3": "ATG",
+   "ADM0_A3": "ATG",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Antigua and Barbuda",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "San Juan",
+    "km": 483.0,
+    "kimligi": "abd"
+   }
+  },
+  {
+   "NAME": "Aruba",
+   "NAME_EN": "Aruba",
+   "NAME_TR": "Aruba",
+   "ISO_A3": "ABW",
+   "ADM0_A3": "ABW",
+   "TYPE": "Country",
+   "SOVEREIGNT": "Netherlands",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Nuestra Señora de Caraballeda",
+    "km": 404.9,
+    "kimligi": "venezuela-cumhuriyeti"
+   }
+  },
+  {
+   "NAME": "Ashmore and Cartier Is.",
+   "NAME_EN": "Ashmore and Cartier Islands",
+   "NAME_TR": "Ashmore ve Cartier Adaları",
+   "ISO_A3": "-99",
+   "ADM0_A3": "ATC",
+   "TYPE": "Dependency",
+   "SOVEREIGNT": "Australia",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Rote",
+    "km": 198.1,
+    "kimligi": "hollanda-dogu-hint"
+   }
+  },
+  {
+   "NAME": "Bahamas",
+   "NAME_EN": "The Bahamas",
+   "NAME_TR": "Bahamalar",
+   "ISO_A3": "BHS",
+   "ADM0_A3": "BHS",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "The Bahamas",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Mound Key (Kalusa başkenti)",
+    "km": 350.8,
+    "kimligi": "abd"
+   }
+  },
+  {
+   "NAME": "Baikonur",
+   "NAME_EN": "Baikonur",
+   "NAME_TR": "Baykonur",
+   "ISO_A3": "-99",
+   "ADM0_A3": "KAB",
+   "TYPE": "Lease",
+   "SOVEREIGNT": "Kazakhstan",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Kazalinsk (Kazalı)",
+    "km": 101.2,
+    "kimligi": "sovyet-rusya"
+   }
+  },
+  {
+   "NAME": "Bajo Nuevo Bank",
+   "NAME_EN": "Bajo Nuevo Bank",
+   "NAME_TR": "Bajo Nuevo Bank",
+   "ISO_A3": "-99",
+   "ADM0_A3": "BJN",
+   "TYPE": "Indeterminate",
+   "SOVEREIGNT": "Bajo Nuevo Bank (Petrel Is.)",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Spanish Town (Villa de la Vega)",
+    "km": 404.9,
+    "kimligi": "ingiltere"
+   }
+  },
+  {
+   "NAME": "Barbados",
+   "NAME_EN": "Barbados",
+   "NAME_TR": "Barbados",
+   "ISO_A3": "BRB",
+   "ADM0_A3": "BRB",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Barbados",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "San José de Oruña (St. Joseph)",
+    "km": 347.2,
+    "kimligi": "ingiltere"
+   }
+  },
+  {
+   "NAME": "Bermuda",
+   "NAME_EN": "Bermuda",
+   "NAME_TR": "Bermuda",
+   "ISO_A3": "BMU",
+   "ADM0_A3": "BMU",
+   "TYPE": "Dependency",
+   "SOVEREIGNT": "United Kingdom",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Norfolk (Virginia)",
+    "km": 1173.3,
+    "kimligi": "abd"
+   }
+  },
+  {
+   "NAME": "Bhutan",
+   "NAME_EN": "Bhutan",
+   "NAME_TR": "Bhutan",
+   "ISO_A3": "BTN",
+   "ADM0_A3": "BTN",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Bhutan",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Gyantse",
+    "km": 172.7,
+    "kimligi": "tibet-ganden-phodrang"
+   }
+  },
+  {
+   "NAME": "Bir Tawil",
+   "NAME_EN": "Bir Tawil",
+   "NAME_TR": "Bir Tawil",
+   "ISO_A3": "-99",
+   "ADM0_A3": "BRT",
+   "TYPE": "Indeterminate",
+   "SOVEREIGNT": "Bir Tawil",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "İbrim",
+    "km": 198.0,
+    "kimligi": "misir-kralligi"
+   }
+  },
+  {
+   "NAME": "Br. Indian Ocean Ter.",
+   "NAME_EN": "British Indian Ocean Territory",
+   "NAME_TR": "Britanya Hint Okyanusu Toprakları",
+   "ISO_A3": "IOT",
+   "ADM0_A3": "IOT",
+   "TYPE": "Disputed",
+   "SOVEREIGNT": "United Kingdom",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Kolombo",
+    "km": 1741.0,
+    "kimligi": "ingiltere"
+   }
+  },
+  {
+   "NAME": "Brazilian I.",
+   "NAME_EN": "Brazilian Island",
+   "NAME_TR": "Brezilya Adası",
+   "ISO_A3": "-99",
+   "ADM0_A3": "BRI",
+   "TYPE": "Indeterminate",
+   "SOVEREIGNT": "Brazilian Island",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Beyan G31.5 B56.5",
+    "km": 181.3,
+    "kimligi": "uruguay-cumhuriyeti"
+   }
+  },
+  {
+   "NAME": "British Virgin Is.",
+   "NAME_EN": "British Virgin Islands",
+   "NAME_TR": "Britanya Virjin Adaları",
+   "ISO_A3": "VGB",
+   "ADM0_A3": "VGB",
+   "TYPE": "Dependency",
+   "SOVEREIGNT": "United Kingdom",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "San Juan",
+    "km": 154.7,
+    "kimligi": "abd"
+   }
+  },
+  {
+   "NAME": "Cabo Verde",
+   "NAME_EN": "Cape Verde",
+   "NAME_TR": "Yeşil Burun Adaları",
+   "ISO_A3": "CPV",
+   "ADM0_A3": "CPV",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Cabo Verde",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Dakar",
+    "km": 868.8,
+    "kimligi": "fransa-cumhuriyet"
+   }
+  },
+  {
+   "NAME": "Cayman Is.",
+   "NAME_EN": "Cayman Islands",
+   "NAME_TR": "Cayman Adaları",
+   "ISO_A3": "CYM",
+   "ADM0_A3": "CYM",
+   "TYPE": "Dependency",
+   "SOVEREIGNT": "United Kingdom",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Sancti Spíritus",
+    "km": 341.5,
+    "kimligi": "meksika"
+   }
+  },
+  {
+   "NAME": "Clipperton I.",
+   "NAME_EN": "Clipperton Island",
+   "NAME_TR": "Clipperton Adası",
+   "ISO_A3": "-99",
+   "ADM0_A3": "CLP",
+   "TYPE": "Dependency",
+   "SOVEREIGNT": "France",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Colima (San Sebastián de Colima)",
+    "km": 1158.3,
+    "kimligi": "meksika"
+   }
+  },
+  {
+   "NAME": "Comoros",
+   "NAME_EN": "Comoros",
+   "NAME_TR": "Komorlar",
+   "ISO_A3": "COM",
+   "ADM0_A3": "COM",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Comoros",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "İbo (Kerimba)",
+    "km": 420.0,
+    "kimligi": "portekiz"
+   }
+  },
+  {
+   "NAME": "Cook Is.",
+   "NAME_EN": "Cook Islands",
+   "NAME_TR": "Cook Adaları",
+   "ISO_A3": "COK",
+   "ADM0_A3": "COK",
+   "TYPE": "Dependency",
+   "SOVEREIGNT": "New Zealand",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Lapaha (Muʻa)",
+    "km": 1591.0,
+    "kimligi": "tonga-kralligi"
+   }
+  },
+  {
+   "NAME": "Coral Sea Is.",
+   "NAME_EN": "Coral Sea Islands",
+   "NAME_TR": "Mercan Denizi Adaları",
+   "ISO_A3": "-99",
+   "ADM0_A3": "CSI",
+   "TYPE": "Dependency",
+   "SOVEREIGNT": "Australia",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Bundaberg",
+    "km": 475.9,
+    "kimligi": "avustralya"
+   }
+  },
+  {
+   "NAME": "Costa Rica",
+   "NAME_EN": "Costa Rica",
+   "NAME_TR": "Kosta Rika",
+   "ISO_A3": "CRI",
+   "ADM0_A3": "CRI",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Costa Rica",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Portobelo (Puerto Bello)",
+    "km": 437.3,
+    "kimligi": "panama-cumhuriyeti"
+   }
+  },
+  {
+   "NAME": "Curaçao",
+   "NAME_EN": "Curaçao",
+   "NAME_TR": "Curaçao",
+   "ISO_A3": "CUW",
+   "ADM0_A3": "CUW",
+   "TYPE": "Country",
+   "SOVEREIGNT": "Netherlands",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Nuestra Señora de Caraballeda",
+    "km": 299.5,
+    "kimligi": "venezuela-cumhuriyeti"
+   }
+  },
+  {
+   "NAME": "Dhekelia",
+   "NAME_EN": "Dhekelia Cantonment",
+   "NAME_TR": "Dhekelia Kantonu",
+   "ISO_A3": "-99",
+   "ADM0_A3": "ESB",
+   "TYPE": "Dependency",
+   "SOVEREIGNT": "United Kingdom",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Tuzla (Larnaka)",
+    "km": 17.0,
+    "kimligi": "ingiltere"
+   }
+  },
+  {
+   "NAME": "Dominica",
+   "NAME_EN": "Dominica",
+   "NAME_TR": "Dominika",
+   "ISO_A3": "DMA",
+   "ADM0_A3": "DMA",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Dominica",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Port of Spain (Puerto de España)",
+    "km": 531.3,
+    "kimligi": "ingiltere"
+   }
+  },
+  {
+   "NAME": "El Salvador",
+   "NAME_EN": "El Salvador",
+   "NAME_TR": "El Salvador",
+   "ISO_A3": "SLV",
+   "ADM0_A3": "SLV",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "El Salvador",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Antigua Guatemala (Santiago de los Caballeros)",
+    "km": 213.3,
+    "kimligi": "guatemala"
+   }
+  },
+  {
+   "NAME": "Eq. Guinea",
+   "NAME_EN": "Equatorial Guinea",
+   "NAME_TR": "Ekvator Ginesi",
+   "ISO_A3": "GNQ",
+   "ADM0_A3": "GNQ",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Equatorial Guinea",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Kribi",
+    "km": 158.7,
+    "kimligi": "fransa-cumhuriyet"
+   }
+  },
+  {
+   "NAME": "Faeroe Is.",
+   "NAME_EN": "Faroe Islands",
+   "NAME_TR": "Faroe Adaları",
+   "ISO_A3": "FRO",
+   "ADM0_A3": "FRO",
+   "TYPE": "Dependency",
+   "SOVEREIGNT": "Denmark",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Lerwick (Shetland)",
+    "km": 379.0,
+    "kimligi": "ingiltere"
+   }
+  },
+  {
+   "NAME": "Falkland Is.",
+   "NAME_EN": "Falkland Islands",
+   "NAME_TR": "Falkland Adaları",
+   "ISO_A3": "FLK",
+   "ADM0_A3": "FLK",
+   "TYPE": "Disputed",
+   "SOVEREIGNT": "United Kingdom",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Beyan G54.5 B67.5",
+    "km": 665.4,
+    "kimligi": "arjantin-cumhuriyeti"
+   }
+  },
+  {
+   "NAME": "Fr. Polynesia",
+   "NAME_EN": "French Polynesia",
+   "NAME_TR": "Fransız Polinezyası",
+   "ISO_A3": "PYF",
+   "ADM0_A3": "PYF",
+   "TYPE": "Dependency",
+   "SOVEREIGNT": "France",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Honolulu",
+    "km": 4041.4,
+    "kimligi": "abd"
+   }
+  },
+  {
+   "NAME": "Fr. S. Antarctic Lands",
+   "NAME_EN": "French Southern and Antarctic Lands",
+   "NAME_TR": "Fransız Güney ve Antarktika Toprakları",
+   "ISO_A3": "ATF",
+   "ADM0_A3": "ATF",
+   "TYPE": "Dependency",
+   "SOVEREIGNT": "France",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Tolanaro (Fort Dauphin)",
+    "km": 3389.2,
+    "kimligi": "fransa-cumhuriyet"
+   }
+  },
+  {
+   "NAME": "Grenada",
+   "NAME_EN": "Grenada",
+   "NAME_TR": "Grenada",
+   "ISO_A3": "GRD",
+   "ADM0_A3": "GRD",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Grenada",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Port of Spain (Puerto de España)",
+    "km": 164.6,
+    "kimligi": "ingiltere"
+   }
+  },
+  {
+   "NAME": "Guam",
+   "NAME_EN": "Guam",
+   "NAME_TR": "Guam",
+   "ISO_A3": "GUM",
+   "ADM0_A3": "GUM",
+   "TYPE": "Dependency",
+   "SOVEREIGNT": "United States of America",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Jayapura (Hollandia)",
+    "km": 1835.4,
+    "kimligi": "hollanda-dogu-hint"
+   }
+  },
+  {
+   "NAME": "Guernsey",
+   "NAME_EN": "Guernsey",
+   "NAME_TR": "Guernsey",
+   "ISO_A3": "GGY",
+   "ADM0_A3": "GGY",
+   "TYPE": "Country",
+   "SOVEREIGNT": "United Kingdom",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Cherbourg",
+    "km": 71.3,
+    "kimligi": "fransa-cumhuriyet"
+   }
+  },
+  {
+   "NAME": "Heard I. and McDonald Is.",
+   "NAME_EN": "Heard Island and McDonald Islands",
+   "NAME_TR": "Heard Adası ve McDonald Adaları",
+   "ISO_A3": "HMD",
+   "ADM0_A3": "HMD",
+   "TYPE": "Dependency",
+   "SOVEREIGNT": "Australia",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Tolanaro (Fort Dauphin)",
+    "km": 3874.6,
+    "kimligi": "fransa-cumhuriyet"
+   }
+  },
+  {
+   "NAME": "Indian Ocean Ter.",
+   "NAME_EN": "Australian Indian Ocean Territories",
+   "NAME_TR": "Australian Indian Ocean Territories",
+   "ISO_A3": "-99",
+   "ADM0_A3": "IOA",
+   "TYPE": "Dependency",
+   "SOVEREIGNT": "Australia",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Batavia (Cakarta)",
+    "km": 498.2,
+    "kimligi": "hollanda-dogu-hint"
+   }
+  },
+  {
+   "NAME": "Jersey",
+   "NAME_EN": "Jersey",
+   "NAME_TR": "Jersey",
+   "ISO_A3": "JEY",
+   "ADM0_A3": "JEY",
+   "TYPE": "Country",
+   "SOVEREIGNT": "United Kingdom",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Cherbourg",
+    "km": 59.6,
+    "kimligi": "fransa-cumhuriyet"
+   }
+  },
+  {
+   "NAME": "Kiribati",
+   "NAME_EN": "Kiribati",
+   "NAME_TR": "Kiribati",
+   "ISO_A3": "KIR",
+   "ADM0_A3": "KIR",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Kiribati",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Lapaha (Muʻa)",
+    "km": 2707.9,
+    "kimligi": "tonga-kralligi"
+   }
+  },
+  {
+   "NAME": "Liechtenstein",
+   "NAME_EN": "Liechtenstein",
+   "NAME_TR": "Lihtenştayn",
+   "ISO_A3": "LIE",
+   "ADM0_A3": "LIE",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Liechtenstein",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Konstanz",
+    "km": 62.2,
+    "kimligi": "almanya"
+   }
+  },
+  {
+   "NAME": "Maldives",
+   "NAME_EN": "Maldives",
+   "NAME_TR": "Maldivler",
+   "ISO_A3": "MDV",
+   "ADM0_A3": "MDV",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Maldives",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Trivandrum (Thiruvananthapuram)",
+    "km": 611.1,
+    "kimligi": "travankur"
+   }
+  },
+  {
+   "NAME": "Marshall Is.",
+   "NAME_EN": "Marshall Islands",
+   "NAME_TR": "Marshall Adaları",
+   "ISO_A3": "MHL",
+   "ADM0_A3": "MHL",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Marshall Islands",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Herbertshöhe (Kokopo) — Rabaul",
+    "km": 2369.5,
+    "kimligi": "avustralya"
+   }
+  },
+  {
+   "NAME": "Mauritius",
+   "NAME_EN": "Mauritius",
+   "NAME_TR": "Mauritius",
+   "ISO_A3": "MUS",
+   "ADM0_A3": "MUS",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Mauritius",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Toamasina (Tamatave)",
+    "km": 891.6,
+    "kimligi": "fransa-cumhuriyet"
+   }
+  },
+  {
+   "NAME": "Micronesia",
+   "NAME_EN": "Federated States of Micronesia",
+   "NAME_TR": "Mikronezya",
+   "ISO_A3": "FSM",
+   "ADM0_A3": "FSM",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Federated States of Micronesia",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Herbertshöhe (Kokopo) — Rabaul",
+    "km": 1417.1,
+    "kimligi": "avustralya"
+   }
+  },
+  {
+   "NAME": "Monaco",
+   "NAME_EN": "Monaco",
+   "NAME_TR": "Monako",
+   "ISO_A3": "MCO",
+   "ADM0_A3": "MCO",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Monaco",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Nice",
+    "km": 11.9,
+    "kimligi": "fransa-cumhuriyet"
+   }
+  },
+  {
+   "NAME": "Montserrat",
+   "NAME_EN": "Montserrat",
+   "NAME_TR": "Montserrat",
+   "ISO_A3": "MSR",
+   "ADM0_A3": "MSR",
+   "TYPE": "Dependency",
+   "SOVEREIGNT": "United Kingdom",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "San Juan",
+    "km": 457.3,
+    "kimligi": "abd"
+   }
+  },
+  {
+   "NAME": "N. Mariana Is.",
+   "NAME_EN": "Northern Mariana Islands",
+   "NAME_TR": "Kuzey Mariana Adaları",
+   "ISO_A3": "MNP",
+   "ADM0_A3": "MNP",
+   "TYPE": "Dependency",
+   "SOVEREIGNT": "United States of America",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Jayapura (Hollandia)",
+    "km": 1923.2,
+    "kimligi": "hollanda-dogu-hint"
+   }
+  },
+  {
+   "NAME": "Nauru",
+   "NAME_EN": "Nauru",
+   "NAME_TR": "Nauru",
+   "ISO_A3": "NRU",
+   "ADM0_A3": "NRU",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Nauru",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Tulagi",
+    "km": 1215.2,
+    "kimligi": "ingiltere"
+   }
+  },
+  {
+   "NAME": "Nicaragua",
+   "NAME_EN": "Nicaragua",
+   "NAME_TR": "Nikaragua",
+   "ISO_A3": "NIC",
+   "ADM0_A3": "NIC",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Nicaragua",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Río Tinto (Black River, Moskito kıyısı)",
+    "km": 343.0,
+    "kimligi": "meksika"
+   }
+  },
+  {
+   "NAME": "Niue",
+   "NAME_EN": "Niue",
+   "NAME_TR": "Niue",
+   "ISO_A3": "NIU",
+   "ADM0_A3": "NIU",
+   "TYPE": "Dependency",
+   "SOVEREIGNT": "New Zealand",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Lapaha (Muʻa)",
+    "km": 597.6,
+    "kimligi": "tonga-kralligi"
+   }
+  },
+  {
+   "NAME": "Norfolk Island",
+   "NAME_EN": "Norfolk Island",
+   "NAME_TR": "Norfolk Adası",
+   "ISO_A3": "NFK",
+   "ADM0_A3": "NFK",
+   "TYPE": "Dependency",
+   "SOVEREIGNT": "Australia",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Noumea (Yeni Kaledonya)",
+    "km": 768.8,
+    "kimligi": "fransa-cumhuriyet"
+   }
+  },
+  {
+   "NAME": "Palau",
+   "NAME_EN": "Palau",
+   "NAME_TR": "Palau",
+   "ISO_A3": "PLW",
+   "ADM0_A3": "PLW",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Palau",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Manokwari",
+    "km": 937.4,
+    "kimligi": "hollanda-dogu-hint"
+   }
+  },
+  {
+   "NAME": "Pitcairn Is.",
+   "NAME_EN": "Pitcairn Islands",
+   "NAME_TR": "Pitcairn Adaları",
+   "ISO_A3": "PCN",
+   "ADM0_A3": "PCN",
+   "TYPE": "Dependency",
+   "SOVEREIGNT": "United Kingdom",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Lapaha (Muʻa)",
+    "km": 4816.7,
+    "kimligi": "tonga-kralligi"
+   }
+  },
+  {
+   "NAME": "Saint Helena",
+   "NAME_EN": "Saint Helena",
+   "NAME_TR": "Saint Helena",
+   "ISO_A3": "SHN",
+   "ADM0_A3": "SHN",
+   "TYPE": "Dependency",
+   "SOVEREIGNT": "United Kingdom",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Güney Georgia (Grytviken)",
+    "km": 2685.4,
+    "kimligi": "ingiltere"
+   }
+  },
+  {
+   "NAME": "Saint Lucia",
+   "NAME_EN": "Saint Lucia",
+   "NAME_TR": "Saint Lucia",
+   "ISO_A3": "LCA",
+   "ADM0_A3": "LCA",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Saint Lucia",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "San José de Oruña (St. Joseph)",
+    "km": 366.1,
+    "kimligi": "ingiltere"
+   }
+  },
+  {
+   "NAME": "Samoa",
+   "NAME_EN": "Samoa",
+   "NAME_TR": "Samoa",
+   "ISO_A3": "WSM",
+   "ADM0_A3": "WSM",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Samoa",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Lapaha (Muʻa)",
+    "km": 886.9,
+    "kimligi": "tonga-kralligi"
+   }
+  },
+  {
+   "NAME": "San Marino",
+   "NAME_EN": "San Marino",
+   "NAME_TR": "San Marino",
+   "ISO_A3": "SMR",
+   "ADM0_A3": "SMR",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "San Marino",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Rimini",
+    "km": 17.3,
+    "kimligi": "italya"
+   }
+  },
+  {
+   "NAME": "Scarborough Reef",
+   "NAME_EN": "Scarborough Shoal",
+   "NAME_TR": "Scarborough Shoal",
+   "ISO_A3": "-99",
+   "ADM0_A3": "SCR",
+   "TYPE": "Indeterminate",
+   "SOVEREIGNT": "Scarborough Reef",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Dagupan",
+    "km": 293.3,
+    "kimligi": "abd"
+   }
+  },
+  {
+   "NAME": "Serranilla Bank",
+   "NAME_EN": "Serranilla Bank",
+   "NAME_TR": "Serranilla Bank",
+   "ISO_A3": "-99",
+   "ADM0_A3": "SER",
+   "TYPE": "Indeterminate",
+   "SOVEREIGNT": "Serranilla Bank",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Spanish Town (Villa de la Vega)",
+    "km": 296.7,
+    "kimligi": "ingiltere"
+   }
+  },
+  {
+   "NAME": "Seychelles",
+   "NAME_EN": "Seychelles",
+   "NAME_TR": "Seyşeller",
+   "ISO_A3": "SYC",
+   "ADM0_A3": "SYC",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Seychelles",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Antseranana",
+    "km": 458.7,
+    "kimligi": "fransa-cumhuriyet"
+   }
+  },
+  {
+   "NAME": "Siachen Glacier",
+   "NAME_EN": "Siachen Glacier",
+   "NAME_TR": "Siachen Buzulu",
+   "ISO_A3": "-99",
+   "ADM0_A3": "KAS",
+   "TYPE": "Indeterminate",
+   "SOVEREIGNT": "Kashmir",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Leh (Ladakh)",
+    "km": 142.5,
+    "kimligi": "cammu-kesmir"
+   }
+  },
+  {
+   "NAME": "Sint Maarten",
+   "NAME_EN": "Sint Maarten",
+   "NAME_TR": "Sint Maarten",
+   "ISO_A3": "SXM",
+   "ADM0_A3": "SXM",
+   "TYPE": "Country",
+   "SOVEREIGNT": "Netherlands",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "San Juan",
+    "km": 324.5,
+    "kimligi": "abd"
+   }
+  },
+  {
+   "NAME": "Southern Patagonian Ice Field",
+   "NAME_EN": "Southern Patagonian Ice Field",
+   "NAME_TR": "Campo de Hielo Sur",
+   "ISO_A3": "-99",
+   "ADM0_A3": "SPI",
+   "TYPE": "Indeterminate",
+   "SOVEREIGNT": "Southern Patagonian Ice Field",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Beyan G49.5 B72.5",
+    "km": 58.9,
+    "kimligi": "sili-cumhuriyeti"
+   }
+  },
+  {
+   "NAME": "Spratly Is.",
+   "NAME_EN": "Wake Island",
+   "NAME_TR": "Wake Adası",
+   "ISO_A3": "-99",
+   "ADM0_A3": "PGA",
+   "TYPE": "Indeterminate",
+   "SOVEREIGNT": "Spratly Islands",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Puerto Princesa (Palawan)",
+    "km": 338.0,
+    "kimligi": "abd"
+   }
+  },
+  {
+   "NAME": "St-Barthélemy",
+   "NAME_EN": "Saint Barthélemy",
+   "NAME_TR": "Saint Barthélemy",
+   "ISO_A3": "BLM",
+   "ADM0_A3": "BLM",
+   "TYPE": "Dependency",
+   "SOVEREIGNT": "France",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "San Juan",
+    "km": 352.0,
+    "kimligi": "abd"
+   }
+  },
+  {
+   "NAME": "St-Martin",
+   "NAME_EN": "Saint Martin",
+   "NAME_TR": "Saint Martin",
+   "ISO_A3": "MAF",
+   "ADM0_A3": "MAF",
+   "TYPE": "Dependency",
+   "SOVEREIGNT": "France",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "San Juan",
+    "km": 325.0,
+    "kimligi": "abd"
+   }
+  },
+  {
+   "NAME": "St. Kitts and Nevis",
+   "NAME_EN": "Saint Kitts and Nevis",
+   "NAME_TR": "Saint Kitts ve Nevis",
+   "ISO_A3": "KNA",
+   "ADM0_A3": "KNA",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Saint Kitts and Nevis",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "San Juan",
+    "km": 377.8,
+    "kimligi": "abd"
+   }
+  },
+  {
+   "NAME": "St. Pierre and Miquelon",
+   "NAME_EN": "Saint Pierre and Miquelon",
+   "NAME_TR": "Saint Pierre ve Miquelon",
+   "ISO_A3": "SPM",
+   "ADM0_A3": "SPM",
+   "TYPE": "Dependency",
+   "SOVEREIGNT": "France",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Plaisance (Placentia)",
+    "km": 177.3,
+    "kimligi": "kanada"
+   }
+  },
+  {
+   "NAME": "St. Vin. and Gren.",
+   "NAME_EN": "Saint Vincent and the Grenadines",
+   "NAME_TR": "Saint Vincent ve Grenadinler",
+   "ISO_A3": "VCT",
+   "ADM0_A3": "VCT",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Saint Vincent and the Grenadines",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "San José de Oruña (St. Joseph)",
+    "km": 291.7,
+    "kimligi": "ingiltere"
+   }
+  },
+  {
+   "NAME": "São Tomé and Principe",
+   "NAME_EN": "São Tomé and Príncipe",
+   "NAME_TR": "São Tomé ve Príncipe",
+   "ISO_A3": "STP",
+   "ADM0_A3": "STP",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "São Tomé and Principe",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Librevil (Libreville)",
+    "km": 317.7,
+    "kimligi": "fransa-cumhuriyet"
+   }
+  },
+  {
+   "NAME": "Turks and Caicos Is.",
+   "NAME_EN": "Turks and Caicos Islands",
+   "NAME_TR": "Turks ve Caicos Adaları",
+   "ISO_A3": "TCA",
+   "ADM0_A3": "TCA",
+   "TYPE": "Dependency",
+   "SOVEREIGNT": "United Kingdom",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Baracoa",
+    "km": 327.4,
+    "kimligi": "kuba-cumhuriyeti"
+   }
+  },
+  {
+   "NAME": "Tuvalu",
+   "NAME_EN": "Tuvalu",
+   "NAME_TR": "Tuvalu",
+   "ISO_A3": "TUV",
+   "ADM0_A3": "TUV",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Tuvalu",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Levuka",
+    "km": 1135.8,
+    "kimligi": "ingiltere"
+   }
+  },
+  {
+   "NAME": "U.S. Minor Outlying Is.",
+   "NAME_EN": "United States Minor Outlying Islands",
+   "NAME_TR": "United States Minor Outlying Islands",
+   "ISO_A3": "UMI",
+   "ADM0_A3": "UMI",
+   "TYPE": "Dependency",
+   "SOVEREIGNT": "United States of America",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Honolulu",
+    "km": 1776.7,
+    "kimligi": "abd"
+   }
+  },
+  {
+   "NAME": "U.S. Virgin Is.",
+   "NAME_EN": "United States Virgin Islands",
+   "NAME_TR": "ABD Virjin Adaları",
+   "ISO_A3": "VIR",
+   "ADM0_A3": "VIR",
+   "TYPE": "Dependency",
+   "SOVEREIGNT": "United States of America",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "San Juan",
+    "km": 164.3,
+    "kimligi": "abd"
+   }
+  },
+  {
+   "NAME": "USNB Guantanamo Bay",
+   "NAME_EN": "Guantanamo Bay Naval Base",
+   "NAME_TR": "Guantanamo Bay",
+   "ISO_A3": "-99",
+   "ADM0_A3": "USG",
+   "TYPE": "Lease",
+   "SOVEREIGNT": "Cuba",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Santiago de Cuba",
+    "km": 65.5,
+    "kimligi": "kuba-cumhuriyeti"
+   }
+  },
+  {
+   "NAME": "Vanuatu",
+   "NAME_EN": "Vanuatu",
+   "NAME_TR": "Vanuatu",
+   "ISO_A3": "VUT",
+   "ADM0_A3": "VUT",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Vanuatu",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Noumea (Yeni Kaledonya)",
+    "km": 549.3,
+    "kimligi": "fransa-cumhuriyet"
+   }
+  },
+  {
+   "NAME": "Vatican",
+   "NAME_EN": "Vatican City",
+   "NAME_TR": "Vatikan",
+   "ISO_A3": "VAT",
+   "ADM0_A3": "VAT",
+   "TYPE": "Sovereign country",
+   "SOVEREIGNT": "Vatican",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Roma",
+    "km": 3.5,
+    "kimligi": "italya"
+   }
+  },
+  {
+   "NAME": "W. Sahara",
+   "NAME_EN": "Western Sahara",
+   "NAME_TR": "Batı Sahra",
+   "ISO_A3": "ESH",
+   "ADM0_A3": "SAH",
+   "TYPE": "Indeterminate",
+   "SOVEREIGNT": "Western Sahara",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Ğulmîm (Vâdî Nûn)",
+    "km": 589.6,
+    "kimligi": "fas"
+   }
+  },
+  {
+   "NAME": "Wallis and Futuna Is.",
+   "NAME_EN": "Wallis and Futuna",
+   "NAME_TR": "Wallis ve Futuna Adaları",
+   "ISO_A3": "WLF",
+   "ADM0_A3": "WLF",
+   "TYPE": "Dependency",
+   "SOVEREIGNT": "France",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Lapaha (Muʻa)",
+    "km": 834.5,
+    "kimligi": "tonga-kralligi"
+   }
+  },
+  {
+   "NAME": "Åland",
+   "NAME_EN": "Åland",
+   "NAME_TR": "Åland",
+   "ISO_A3": "ALA",
+   "ADM0_A3": "ALD",
+   "TYPE": "Country",
+   "SOVEREIGNT": "Finland",
+   "kova": "EMILME",
+   "nokta": 0,
+   "kimlik_adedi": 0,
+   "emilme": {
+    "_NOT": "NE poligonu icinde HIC atlas noktasi yok. CLAUDE.md §2: noktasiz bolge en yakin petege emilir ve O PETEGIN SAHIBIYLE boyanir. Bu bir TARIH iddiasi DEGIL, haritanin ne gosterdiginin YAKLASIK tahminidir (motor kiyiya/nehre yaslar).",
+    "en_yakin_nokta": "Turku (Åbo)",
+    "km": 131.0,
+    "kimligi": "finlandiya"
+   }
+  }
+ ]
+}

@@ -1,0 +1,3489 @@
+{
+ "_NOT": "DEGISMEZ3-0907 ① TABAN. Yetkili alet (denetle.degismez3 / degismez3z) DOĞRUDAN çağrıldı, ölçüt yeniden yazılmadı. ⚠️ Bu ÖRNEKLEMDİR: 6 kesit (1300/1400/1500/1600/1700/1800-06-15), yani 643 yılın 6 günü. Tam tarama ② numaralı alette.",
+ "evren": {
+  "nokta": 3805,
+  "girdi_dosyasi": 77
+ },
+ "alan": {
+  "m": 814,
+  "k": 2566,
+  "kd_gercek": 192,
+  "kd_BILINEN_ALANLARda": true
+ },
+ "kor_nokta_merkez_atlasta_yok": {
+  "kayit": 4,
+  "ayri_merkez_adi": 2,
+  "merkez_adlari": [
+   "Lutsk",
+   "Üsküb"
+  ]
+ },
+ "ornek_6kesit": {
+  "zamansiz_celiski": 493,
+  "zamanli_celiski": 486,
+  "gercek_kd": 192,
+  "benzersiz_yerlesim": 254,
+  "benzersiz_cift": 254,
+  "kesit_dagilimi": {
+   "1300-06-15": 149,
+   "1400-06-15": 162,
+   "1500-06-15": 86,
+   "1600-06-15": 32,
+   "1700-06-15": 32,
+   "1800-06-15": 32
+  }
+ },
+ "celiskiler_6kesit": [
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "İnegöl",
+   "merkez": "Bursa",
+   "yerlesim_durum": "OSMANLI",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Köprühisar (Yenişehir)",
+   "merkez": "Bursa",
+   "yerlesim_durum": "OSMANLI",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Otranto",
+   "merkez": "Yanya",
+   "yerlesim_durum": "napoli",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Söğüt",
+   "merkez": "Bursa",
+   "yerlesim_durum": "OSMANLI",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Bilecik",
+   "merkez": "Bursa",
+   "yerlesim_durum": "OSMANLI",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Eskişehir",
+   "merkez": "Kütahya",
+   "yerlesim_durum": "OSMANLI",
+   "merkez_durum": "germiyan"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Balıkesir",
+   "merkez": "Bursa",
+   "yerlesim_durum": "karesi",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Çanakkale",
+   "merkez": "Bursa",
+   "yerlesim_durum": "karesi",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Bergama",
+   "merkez": "İzmir",
+   "yerlesim_durum": "karesi",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Isparta",
+   "merkez": "Kütahya",
+   "yerlesim_durum": "hamid",
+   "merkez_durum": "germiyan"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Denizli",
+   "merkez": "İzmir",
+   "yerlesim_durum": "inancogullari",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Karaman",
+   "merkez": "Konya",
+   "yerlesim_durum": "karaman",
+   "merkez_durum": "selcuklu"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Alanya",
+   "merkez": "Antalya",
+   "yerlesim_durum": "alaiye",
+   "merkez_durum": "hamid"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Anamur",
+   "merkez": "Antalya",
+   "yerlesim_durum": "karaman",
+   "merkez_durum": "hamid"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Silifke",
+   "merkez": "Konya",
+   "yerlesim_durum": "karaman",
+   "merkez_durum": "selcuklu"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Kastamonu",
+   "merkez": "Ankara",
+   "yerlesim_durum": "cobanogullari",
+   "merkez_durum": "ahiler"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Sinop",
+   "merkez": "Ankara",
+   "yerlesim_durum": "pervane",
+   "merkez_durum": "ahiler"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Amasra",
+   "merkez": "Ankara",
+   "yerlesim_durum": "ceneviz",
+   "merkez_durum": "ahiler"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Bartın",
+   "merkez": "Ankara",
+   "yerlesim_durum": "selcuklu",
+   "merkez_durum": "ahiler"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Safranbolu",
+   "merkez": "Ankara",
+   "yerlesim_durum": "selcuklu",
+   "merkez_durum": "ahiler"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Urfa",
+   "merkez": "Diyarbakır",
+   "yerlesim_durum": "memluk",
+   "merkez_durum": "artuklu"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Malatya",
+   "merkez": "Maraş",
+   "yerlesim_durum": "ilhanli",
+   "merkez_durum": "memluk"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Niş",
+   "merkez": "Sofya",
+   "yerlesim_durum": "sirbistan",
+   "merkez_durum": "bulgaristan"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Modon",
+   "merkez": "Mora (Tripoliçe)",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Anabolu (Nauplion)",
+   "merkez": "Mora (Tripoliçe)",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "İnebahtı",
+   "merkez": "Mora (Tripoliçe)",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Eğriboz",
+   "merkez": "Mora (Tripoliçe)",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "İzdin (Lamia)",
+   "merkez": "Yanya",
+   "yerlesim_durum": "katalan",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Akçahisar (Kruja)",
+   "merkez": "İşkodra",
+   "yerlesim_durum": "arnavutluk",
+   "merkez_durum": "venedik"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Berat",
+   "merkez": "Yanya",
+   "yerlesim_durum": "__BOSLUK__",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Avlonya",
+   "merkez": "Yanya",
+   "yerlesim_durum": "napoli",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Akkirman",
+   "merkez": "Silistre",
+   "yerlesim_durum": "bogdan",
+   "merkez_durum": "bulgaristan"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Kili",
+   "merkez": "Silistre",
+   "yerlesim_durum": "bogdan",
+   "merkez_durum": "bulgaristan"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "İbrail",
+   "merkez": "Silistre",
+   "yerlesim_durum": "eflak",
+   "merkez_durum": "bulgaristan"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Özi",
+   "merkez": "Silistre",
+   "yerlesim_durum": "altinorda",
+   "merkez_durum": "bulgaristan"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Uyvar",
+   "merkez": "Budin",
+   "yerlesim_durum": "avusturya",
+   "merkez_durum": "macaristan"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Sakız",
+   "merkez": "İzmir",
+   "yerlesim_durum": "ceneviz",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Midilli",
+   "merkez": "İzmir",
+   "yerlesim_durum": "ceneviz",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Semadirek",
+   "merkez": "Edirne",
+   "yerlesim_durum": "ceneviz",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Taşoz",
+   "merkez": "Selanik",
+   "yerlesim_durum": "ceneviz",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Sisam",
+   "merkez": "İzmir",
+   "yerlesim_durum": "ceneviz",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Nakşa",
+   "merkez": "Rodos",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Andros",
+   "merkez": "İzmir",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Çuha Adası (Kythira)",
+   "merkez": "Mora (Tripoliçe)",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "İstendil (Tinos)",
+   "merkez": "Rodos",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Karpatos",
+   "merkez": "Rodos",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Anapa",
+   "merkez": "Kefe",
+   "yerlesim_durum": "altinorda",
+   "merkez_durum": "ceneviz"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Sohum",
+   "merkez": "Trabzon",
+   "yerlesim_durum": "gurcistan",
+   "merkez_durum": "trabzon-rum"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Tarki (Tarku)",
+   "merkez": "Şeki (Nuha)",
+   "yerlesim_durum": "iran",
+   "merkez_durum": "ilhanli"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Derbend",
+   "merkez": "Şamahı",
+   "yerlesim_durum": "iran",
+   "merkez_durum": "ilhanli"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Lahsa",
+   "merkez": "Basra",
+   "yerlesim_durum": "usfuri",
+   "merkez_durum": "ilhanli"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Batum",
+   "merkez": "Trabzon",
+   "yerlesim_durum": "gurcistan",
+   "merkez_durum": "trabzon-rum"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Ahıska",
+   "merkez": "Erzurum",
+   "yerlesim_durum": "gurcistan",
+   "merkez_durum": "ilhanli"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Rakka",
+   "merkez": "Diyarbakır",
+   "yerlesim_durum": "memluk",
+   "merkez_durum": "artuklu"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Zeyla",
+   "merkez": "Sevâkin",
+   "yerlesim_durum": "adal",
+   "merkez_durum": "memluk"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Hacıbey (Odessa)",
+   "merkez": "Silistre",
+   "yerlesim_durum": "altinorda",
+   "merkez_durum": "bulgaristan"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Hotin",
+   "merkez": "Silistre",
+   "yerlesim_durum": "bogdan",
+   "merkez_durum": "bulgaristan"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Bender",
+   "merkez": "Silistre",
+   "yerlesim_durum": "bogdan",
+   "merkez_durum": "bulgaristan"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "İsmail",
+   "merkez": "Silistre",
+   "yerlesim_durum": "bogdan",
+   "merkez_durum": "bulgaristan"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Çehrin (Çigirin)",
+   "merkez": "Kamaniçe",
+   "yerlesim_durum": "litvanya-buyuk-dukalik",
+   "merkez_durum": "lehistan"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Korfu",
+   "merkez": "Yanya",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Ayamavra (Lefkada)",
+   "merkez": "Yanya",
+   "yerlesim_durum": "napoli",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Koron",
+   "merkez": "Mora (Tripoliçe)",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Biga",
+   "merkez": "Bursa",
+   "yerlesim_durum": "karesi",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Beyşehir",
+   "merkez": "Konya",
+   "yerlesim_durum": "esrefogullari",
+   "merkez_durum": "selcuklu"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Karahisâr-ı Sâhib (Afyon)",
+   "merkez": "Kütahya",
+   "yerlesim_durum": "sahibata",
+   "merkez_durum": "germiyan"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Sivrihisar",
+   "merkez": "Ankara",
+   "yerlesim_durum": "germiyan",
+   "merkez_durum": "ahiler"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Kırşehir",
+   "merkez": "Ankara",
+   "yerlesim_durum": "ilhanli",
+   "merkez_durum": "ahiler"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Çorum",
+   "merkez": "Ankara",
+   "yerlesim_durum": "ilhanli",
+   "merkez_durum": "ahiler"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Çankırı",
+   "merkez": "Ankara",
+   "yerlesim_durum": "cobanogullari",
+   "merkez_durum": "ahiler"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Domaniç",
+   "merkez": "Bursa",
+   "yerlesim_durum": "OSMANLI",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Kulacahisar",
+   "merkez": "Bursa",
+   "yerlesim_durum": "OSMANLI",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Karacahisar",
+   "merkez": "Kütahya",
+   "yerlesim_durum": "OSMANLI",
+   "merkez_durum": "germiyan"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Yarhisar",
+   "merkez": "Bursa",
+   "yerlesim_durum": "OSMANLI",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Seydişehir",
+   "merkez": "Konya",
+   "yerlesim_durum": "esrefogullari",
+   "merkez_durum": "selcuklu"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Akşehir",
+   "merkez": "Konya",
+   "yerlesim_durum": "hamid",
+   "merkez_durum": "selcuklu"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Paros",
+   "merkez": "Rodos",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Değirmenlik (Milos)",
+   "merkez": "Rodos",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Kimolos (Argentiera)",
+   "merkez": "Rodos",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Murted (Kea)",
+   "merkez": "Rodos",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Termiye (Kythnos)",
+   "merkez": "Rodos",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Koçbaba (Serifos)",
+   "merkez": "Rodos",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Sifnos (Yavuzca)",
+   "merkez": "Rodos",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Sire (Syros)",
+   "merkez": "Rodos",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Mikonos",
+   "merkez": "Rodos",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Nio (İos)",
+   "merkez": "Rodos",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Yamurgi (Amorgos)",
+   "merkez": "Rodos",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "İstanbulya (Astipalya)",
+   "merkez": "Rodos",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Kaşot (Kasos)",
+   "merkez": "Rodos",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Fornoz (Fourni)",
+   "merkez": "İzmir",
+   "yerlesim_durum": "ceneviz",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "İpsara (Psara)",
+   "merkez": "İzmir",
+   "yerlesim_durum": "ceneviz",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Egina (Aegina)",
+   "merkez": "Atina",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "atinadukaligi"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Kefalonya",
+   "merkez": "Yanya",
+   "yerlesim_durum": "napoli",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "İthaki",
+   "merkez": "Yanya",
+   "yerlesim_durum": "napoli",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Zaklise (Zakynthos)",
+   "merkez": "Yanya",
+   "yerlesim_durum": "napoli",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Molova (Molyvos)",
+   "merkez": "İzmir",
+   "yerlesim_durum": "ceneviz",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Karistos (Kızılhisar)",
+   "merkez": "Mora (Tripoliçe)",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Uluborlu",
+   "merkez": "Kütahya",
+   "yerlesim_durum": "hamid",
+   "merkez_durum": "germiyan"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Eğirdir",
+   "merkez": "Kütahya",
+   "yerlesim_durum": "hamid",
+   "merkez_durum": "germiyan"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Burdur",
+   "merkez": "Kütahya",
+   "yerlesim_durum": "hamid",
+   "merkez_durum": "germiyan"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Yalvaç",
+   "merkez": "Kütahya",
+   "yerlesim_durum": "hamid",
+   "merkez_durum": "germiyan"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Eflani",
+   "merkez": "Ankara",
+   "yerlesim_durum": "selcuklu",
+   "merkez_durum": "ahiler"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Ermenek",
+   "merkez": "Konya",
+   "yerlesim_durum": "karaman",
+   "merkez_durum": "selcuklu"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Edremit",
+   "merkez": "Bursa",
+   "yerlesim_durum": "karesi",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Erdek",
+   "merkez": "Bursa",
+   "yerlesim_durum": "karesi",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Bolu",
+   "merkez": "Ankara",
+   "yerlesim_durum": "bizans",
+   "merkez_durum": "ahiler"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Konurapa (Düzce)",
+   "merkez": "Ankara",
+   "yerlesim_durum": "bizans",
+   "merkez_durum": "ahiler"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Mudurnu",
+   "merkez": "Ankara",
+   "yerlesim_durum": "bizans",
+   "merkez_durum": "ahiler"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Karadeniz Ereğli",
+   "merkez": "Ankara",
+   "yerlesim_durum": "bizans",
+   "merkez_durum": "ahiler"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Devrek",
+   "merkez": "Ankara",
+   "yerlesim_durum": "bizans",
+   "merkez_durum": "ahiler"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Akçakoca",
+   "merkez": "Ankara",
+   "yerlesim_durum": "bizans",
+   "merkez_durum": "ahiler"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Ayvalık",
+   "merkez": "Bursa",
+   "yerlesim_durum": "karesi",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Kuba",
+   "merkez": "Derbend",
+   "yerlesim_durum": "ilhanli",
+   "merkez_durum": "iran"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Katîf",
+   "merkez": "Basra",
+   "yerlesim_durum": "usfuri",
+   "merkez_durum": "ilhanli"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Ukayr (Uceyr)",
+   "merkez": "Basra",
+   "yerlesim_durum": "usfuri",
+   "merkez_durum": "ilhanli"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Cübeyl",
+   "merkez": "Basra",
+   "yerlesim_durum": "usfuri",
+   "merkez_durum": "ilhanli"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Hısn-ı Mansûr (Adıyaman)",
+   "merkez": "Malatya",
+   "yerlesim_durum": "memluk",
+   "merkez_durum": "ilhanli"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Behisni (Besni)",
+   "merkez": "Malatya",
+   "yerlesim_durum": "memluk",
+   "merkez_durum": "ilhanli"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Kâhta",
+   "merkez": "Malatya",
+   "yerlesim_durum": "memluk",
+   "merkez_durum": "ilhanli"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Podgorica",
+   "merkez": "İşkodra",
+   "yerlesim_durum": "sirbistan",
+   "merkez_durum": "venedik"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Böğürdelen (Šabac)",
+   "merkez": "Belgrad",
+   "yerlesim_durum": "macaristan",
+   "merkez_durum": "sirbistan"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Yergöğü (Giurgiu)",
+   "merkez": "Sofya",
+   "yerlesim_durum": "eflak",
+   "merkez_durum": "bulgaristan"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Mankup",
+   "merkez": "Kefe",
+   "yerlesim_durum": "bizans",
+   "merkez_durum": "ceneviz"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Kerene",
+   "merkez": "Sevâkin",
+   "yerlesim_durum": "habesistan",
+   "merkez_durum": "memluk"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Sokna",
+   "merkez": "Trablus",
+   "yerlesim_durum": "kanem-bornu",
+   "merkez_durum": "hafsi"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Câlû",
+   "merkez": "Bingazi",
+   "yerlesim_durum": "kanem-bornu",
+   "merkez_durum": "memluk"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Behramkale (Assos)",
+   "merkez": "Bursa",
+   "yerlesim_durum": "karesi",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Elhova (Elhovo)",
+   "merkez": "Edirne",
+   "yerlesim_durum": "bulgaristan",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Şavşat",
+   "merkez": "Erzurum",
+   "yerlesim_durum": "gurcistan",
+   "merkez_durum": "ilhanli"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Posof",
+   "merkez": "Erzurum",
+   "yerlesim_durum": "gurcistan",
+   "merkez_durum": "ilhanli"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Hanak",
+   "merkez": "Erzurum",
+   "yerlesim_durum": "gurcistan",
+   "merkez_durum": "ilhanli"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Hulo (Acara)",
+   "merkez": "Erzurum",
+   "yerlesim_durum": "gurcistan",
+   "merkez_durum": "ilhanli"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Artvin",
+   "merkez": "Erzurum",
+   "yerlesim_durum": "gurcistan",
+   "merkez_durum": "ilhanli"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Hopa",
+   "merkez": "Erzurum",
+   "yerlesim_durum": "gurcistan",
+   "merkez_durum": "ilhanli"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Sarp",
+   "merkez": "Erzurum",
+   "yerlesim_durum": "gurcistan",
+   "merkez_durum": "ilhanli"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Dörtyol",
+   "merkez": "Adana",
+   "yerlesim_durum": "memluk",
+   "merkez_durum": "kilikya-ermeni"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Erzin",
+   "merkez": "Adana",
+   "yerlesim_durum": "memluk",
+   "merkez_durum": "kilikya-ermeni"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Yumurtalık",
+   "merkez": "Adana",
+   "yerlesim_durum": "memluk",
+   "merkez_durum": "kilikya-ermeni"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Borçka",
+   "merkez": "Erzurum",
+   "yerlesim_durum": "gurcistan",
+   "merkez_durum": "ilhanli"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Sarıkamış",
+   "merkez": "Kars",
+   "yerlesim_durum": "gurcistan",
+   "merkez_durum": "ilhanli"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Ahılkelek (Akhalkalaki)",
+   "merkez": "Erzurum",
+   "yerlesim_durum": "gurcistan",
+   "merkez_durum": "ilhanli"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Şehirköy (Pirot)",
+   "merkez": "Sofya",
+   "yerlesim_durum": "sirbistan",
+   "merkez_durum": "bulgaristan"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Vaddân (Cufre)",
+   "merkez": "Trablus",
+   "yerlesim_durum": "kanem-bornu",
+   "merkez_durum": "hafsi"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Zilla (Zella)",
+   "merkez": "Trablus",
+   "yerlesim_durum": "kanem-bornu",
+   "merkez_durum": "hafsi"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Merâde",
+   "merkez": "Bingazi",
+   "yerlesim_durum": "kanem-bornu",
+   "merkez_durum": "memluk"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Paksos (Paxos)",
+   "merkez": "Yanya",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Mat (Mati)",
+   "merkez": "İşkodra",
+   "yerlesim_durum": "arnavutluk",
+   "merkez_durum": "venedik"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Leş (Alessio)",
+   "merkez": "İşkodra",
+   "yerlesim_durum": "sirbistan-nemanjic",
+   "merkez_durum": "venedik"
+  },
+  {
+   "gun": "1300-06-15",
+   "yerlesim": "Darende",
+   "merkez": "Maraş",
+   "yerlesim_durum": "ilhanli",
+   "merkez_durum": "memluk"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Akyazı",
+   "merkez": "İstanbul",
+   "yerlesim_durum": "OSMANLI",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Kandıra",
+   "merkez": "İstanbul",
+   "yerlesim_durum": "OSMANLI",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Otranto",
+   "merkez": "Yanya",
+   "yerlesim_durum": "napoli",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Enez",
+   "merkez": "Edirne",
+   "yerlesim_durum": "ceneviz",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Kuşadası",
+   "merkez": "İzmir",
+   "yerlesim_durum": "aydin",
+   "merkez_durum": "sovalye"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Söke",
+   "merkez": "İzmir",
+   "yerlesim_durum": "OSMANLI",
+   "merkez_durum": "sovalye"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "İzmit",
+   "merkez": "İstanbul",
+   "yerlesim_durum": "OSMANLI",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Bergama",
+   "merkez": "İzmir",
+   "yerlesim_durum": "OSMANLI",
+   "merkez_durum": "sovalye"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Manisa",
+   "merkez": "İzmir",
+   "yerlesim_durum": "OSMANLI",
+   "merkez_durum": "sovalye"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Aydın",
+   "merkez": "İzmir",
+   "yerlesim_durum": "OSMANLI",
+   "merkez_durum": "sovalye"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Denizli",
+   "merkez": "İzmir",
+   "yerlesim_durum": "OSMANLI",
+   "merkez_durum": "sovalye"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Niğde",
+   "merkez": "Konya",
+   "yerlesim_durum": "karaman",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Alanya",
+   "merkez": "Antalya",
+   "yerlesim_durum": "alaiye",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Anamur",
+   "merkez": "Antalya",
+   "yerlesim_durum": "karaman",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Silifke",
+   "merkez": "Konya",
+   "yerlesim_durum": "karaman",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Sinop",
+   "merkez": "Ankara",
+   "yerlesim_durum": "candar",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Amasra",
+   "merkez": "Ankara",
+   "yerlesim_durum": "ceneviz",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Ordu (Bayramlı)",
+   "merkez": "Trabzon",
+   "yerlesim_durum": "tabi",
+   "merkez_durum": "trabzon-rum"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Ünye",
+   "merkez": "Trabzon",
+   "yerlesim_durum": "tabi",
+   "merkez_durum": "trabzon-rum"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Erzincan",
+   "merkez": "Erzurum",
+   "yerlesim_durum": "mutahharten",
+   "merkez_durum": "timurlu"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Mardin",
+   "merkez": "Diyarbakır",
+   "yerlesim_durum": "artuklu",
+   "merkez_durum": "akkoyunlu"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Urfa",
+   "merkez": "Diyarbakır",
+   "yerlesim_durum": "memluk",
+   "merkez_durum": "akkoyunlu"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Malatya",
+   "merkez": "Maraş",
+   "yerlesim_durum": "OSMANLI",
+   "merkez_durum": "dulkadir"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Yenişehir (Larissa)",
+   "merkez": "Yanya",
+   "yerlesim_durum": "OSMANLI",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Tırhala",
+   "merkez": "Yanya",
+   "yerlesim_durum": "OSMANLI",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Modon",
+   "merkez": "Mora (Tripoliçe)",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Anabolu (Nauplion)",
+   "merkez": "Mora (Tripoliçe)",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "İnebahtı",
+   "merkez": "Mora (Tripoliçe)",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Eğriboz",
+   "merkez": "Mora (Tripoliçe)",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "İzdin (Lamia)",
+   "merkez": "Yanya",
+   "yerlesim_durum": "OSMANLI",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Akçahisar (Kruja)",
+   "merkez": "İşkodra",
+   "yerlesim_durum": "arnavutluk",
+   "merkez_durum": "venedik"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Berat",
+   "merkez": "Yanya",
+   "yerlesim_durum": "__BOSLUK__",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Avlonya",
+   "merkez": "Yanya",
+   "yerlesim_durum": "napoli",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Priştine",
+   "merkez": "Üsküp",
+   "yerlesim_durum": "sirbistan",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Akkirman",
+   "merkez": "Silistre",
+   "yerlesim_durum": "bogdan",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Kili",
+   "merkez": "Silistre",
+   "yerlesim_durum": "bogdan",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "İbrail",
+   "merkez": "Silistre",
+   "yerlesim_durum": "eflak",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Özi",
+   "merkez": "Silistre",
+   "yerlesim_durum": "altinorda",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Uyvar",
+   "merkez": "Budin",
+   "yerlesim_durum": "avusturya",
+   "merkez_durum": "macaristan"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Sakız",
+   "merkez": "İzmir",
+   "yerlesim_durum": "ceneviz",
+   "merkez_durum": "sovalye"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Midilli",
+   "merkez": "İzmir",
+   "yerlesim_durum": "ceneviz",
+   "merkez_durum": "sovalye"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Limni",
+   "merkez": "Selanik",
+   "yerlesim_durum": "bizans",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Semadirek",
+   "merkez": "Edirne",
+   "yerlesim_durum": "ceneviz",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Taşoz",
+   "merkez": "Selanik",
+   "yerlesim_durum": "ceneviz",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Bozcaada",
+   "merkez": "Edirne",
+   "yerlesim_durum": "bizans",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "İmroz",
+   "merkez": "Edirne",
+   "yerlesim_durum": "bizans",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Sisam",
+   "merkez": "İzmir",
+   "yerlesim_durum": "ceneviz",
+   "merkez_durum": "sovalye"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Nakşa",
+   "merkez": "Rodos",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "sovalye"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Andros",
+   "merkez": "İzmir",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "sovalye"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Çuha Adası (Kythira)",
+   "merkez": "Mora (Tripoliçe)",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "İskiros (Skyros)",
+   "merkez": "Selanik",
+   "yerlesim_durum": "bizans",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "İskopelos",
+   "merkez": "Selanik",
+   "yerlesim_durum": "bizans",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "İstendil (Tinos)",
+   "merkez": "Rodos",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "sovalye"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Nikarya (İkarya)",
+   "merkez": "İzmir",
+   "yerlesim_durum": "ceneviz",
+   "merkez_durum": "sovalye"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Karpatos",
+   "merkez": "Rodos",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "sovalye"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Anapa",
+   "merkez": "Kefe",
+   "yerlesim_durum": "altinorda",
+   "merkez_durum": "ceneviz"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Sohum",
+   "merkez": "Trabzon",
+   "yerlesim_durum": "gurcistan",
+   "merkez_durum": "trabzon-rum"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Tarki (Tarku)",
+   "merkez": "Şeki (Nuha)",
+   "yerlesim_durum": "iran",
+   "merkez_durum": "sirvansah"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Gence",
+   "merkez": "Revan",
+   "yerlesim_durum": "celayirli",
+   "merkez_durum": "timurlu"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Derbend",
+   "merkez": "Şamahı",
+   "yerlesim_durum": "iran",
+   "merkez_durum": "sirvansah"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Luristan",
+   "merkez": "Hemedan",
+   "yerlesim_durum": "lur-i-buzurg",
+   "merkez_durum": "timurlu"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Lahsa",
+   "merkez": "Basra",
+   "yerlesim_durum": "usfuri",
+   "merkez_durum": "celayirli"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Batum",
+   "merkez": "Trabzon",
+   "yerlesim_durum": "gurcistan",
+   "merkez_durum": "trabzon-rum"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Ahıska",
+   "merkez": "Erzurum",
+   "yerlesim_durum": "gurcistan",
+   "merkez_durum": "timurlu"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Rakka",
+   "merkez": "Diyarbakır",
+   "yerlesim_durum": "memluk",
+   "merkez_durum": "akkoyunlu"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Zeyla",
+   "merkez": "Sevâkin",
+   "yerlesim_durum": "adal",
+   "merkez_durum": "memluk"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Hacıbey (Odessa)",
+   "merkez": "Silistre",
+   "yerlesim_durum": "altinorda",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Hotin",
+   "merkez": "Silistre",
+   "yerlesim_durum": "bogdan",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Bender",
+   "merkez": "Silistre",
+   "yerlesim_durum": "bogdan",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "İsmail",
+   "merkez": "Silistre",
+   "yerlesim_durum": "bogdan",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Çehrin (Çigirin)",
+   "merkez": "Kamaniçe",
+   "yerlesim_durum": "litvanya-buyuk-dukalik",
+   "merkez_durum": "lehistan"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Yenipazar (Novi Pazar)",
+   "merkez": "Üsküp",
+   "yerlesim_durum": "sirbistan",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Korfu",
+   "merkez": "Yanya",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Ayamavra (Lefkada)",
+   "merkez": "Yanya",
+   "yerlesim_durum": "napoli",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Koron",
+   "merkez": "Mora (Tripoliçe)",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Aynaroz (Athos)",
+   "merkez": "Selanik",
+   "yerlesim_durum": "bizans",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Kesendire (Kassandra)",
+   "merkez": "Selanik",
+   "yerlesim_durum": "bizans",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Kemah",
+   "merkez": "Erzurum",
+   "yerlesim_durum": "akkoyunlu",
+   "merkez_durum": "timurlu"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Niksar",
+   "merkez": "Sivas",
+   "yerlesim_durum": "taceddin",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Pelekanon (Eskihisar)",
+   "merkez": "İstanbul",
+   "yerlesim_durum": "OSMANLI",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Gebze",
+   "merkez": "İstanbul",
+   "yerlesim_durum": "OSMANLI",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Hereke",
+   "merkez": "İstanbul",
+   "yerlesim_durum": "OSMANLI",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Samandıra",
+   "merkez": "İstanbul",
+   "yerlesim_durum": "OSMANLI",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Anadolu Hisarı",
+   "merkez": "İstanbul",
+   "yerlesim_durum": "OSMANLI",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Harput (Elazığ)",
+   "merkez": "Diyarbakır",
+   "yerlesim_durum": "artuklu",
+   "merkez_durum": "akkoyunlu"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Terme",
+   "merkez": "Sivas",
+   "yerlesim_durum": "taceddin",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Çarşamba",
+   "merkez": "Sivas",
+   "yerlesim_durum": "taceddin",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Paros",
+   "merkez": "Rodos",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "sovalye"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Değirmenlik (Milos)",
+   "merkez": "Rodos",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "sovalye"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Kimolos (Argentiera)",
+   "merkez": "Rodos",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "sovalye"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Murted (Kea)",
+   "merkez": "Rodos",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "sovalye"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Termiye (Kythnos)",
+   "merkez": "Rodos",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "sovalye"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Koçbaba (Serifos)",
+   "merkez": "Rodos",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "sovalye"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Sifnos (Yavuzca)",
+   "merkez": "Rodos",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "sovalye"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Sire (Syros)",
+   "merkez": "Rodos",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "sovalye"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Mikonos",
+   "merkez": "Rodos",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "sovalye"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Nio (İos)",
+   "merkez": "Rodos",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "sovalye"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Yamurgi (Amorgos)",
+   "merkez": "Rodos",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "sovalye"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Batnoz (Patmos)",
+   "merkez": "Rodos",
+   "yerlesim_durum": "bizans",
+   "merkez_durum": "sovalye"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "İstanbulya (Astipalya)",
+   "merkez": "Rodos",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "sovalye"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Kaşot (Kasos)",
+   "merkez": "Rodos",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "sovalye"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Fornoz (Fourni)",
+   "merkez": "İzmir",
+   "yerlesim_durum": "ceneviz",
+   "merkez_durum": "sovalye"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "İpsara (Psara)",
+   "merkez": "İzmir",
+   "yerlesim_durum": "ceneviz",
+   "merkez_durum": "sovalye"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Bozbaba (Ay Strati)",
+   "merkez": "Selanik",
+   "yerlesim_durum": "bizans",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "İskiathos",
+   "merkez": "Selanik",
+   "yerlesim_durum": "bizans",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Alonisos",
+   "merkez": "Selanik",
+   "yerlesim_durum": "bizans",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Marmara Adası",
+   "merkez": "Edirne",
+   "yerlesim_durum": "bizans",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Egina (Aegina)",
+   "merkez": "Atina",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "atinadukaligi"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Kefalonya",
+   "merkez": "Yanya",
+   "yerlesim_durum": "napoli",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "İthaki",
+   "merkez": "Yanya",
+   "yerlesim_durum": "napoli",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Zaklise (Zakynthos)",
+   "merkez": "Yanya",
+   "yerlesim_durum": "napoli",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Molova (Molyvos)",
+   "merkez": "İzmir",
+   "yerlesim_durum": "ceneviz",
+   "merkez_durum": "sovalye"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Karistos (Kızılhisar)",
+   "merkez": "Mora (Tripoliçe)",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Birgi",
+   "merkez": "İzmir",
+   "yerlesim_durum": "OSMANLI",
+   "merkez_durum": "sovalye"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Tire",
+   "merkez": "İzmir",
+   "yerlesim_durum": "OSMANLI",
+   "merkez_durum": "sovalye"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Ayasuluk (Selçuk)",
+   "merkez": "İzmir",
+   "yerlesim_durum": "OSMANLI",
+   "merkez_durum": "sovalye"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Selmâs (Dilman)",
+   "merkez": "Van",
+   "yerlesim_durum": "timurlu",
+   "merkez_durum": "karakoyunlu"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Mâku",
+   "merkez": "Van",
+   "yerlesim_durum": "timurlu",
+   "merkez_durum": "karakoyunlu"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Kuba",
+   "merkez": "Derbend",
+   "yerlesim_durum": "sirvansah",
+   "merkez_durum": "iran"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Katîf",
+   "merkez": "Basra",
+   "yerlesim_durum": "usfuri",
+   "merkez_durum": "celayirli"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Ukayr (Uceyr)",
+   "merkez": "Basra",
+   "yerlesim_durum": "usfuri",
+   "merkez_durum": "celayirli"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Cübeyl",
+   "merkez": "Basra",
+   "yerlesim_durum": "usfuri",
+   "merkez_durum": "celayirli"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Çemişgezek",
+   "merkez": "Diyarbakır",
+   "yerlesim_durum": "artuklu",
+   "merkez_durum": "akkoyunlu"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Palu",
+   "merkez": "Diyarbakır",
+   "yerlesim_durum": "artuklu",
+   "merkez_durum": "akkoyunlu"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Podgorica",
+   "merkez": "İşkodra",
+   "yerlesim_durum": "sirbistan",
+   "merkez_durum": "venedik"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Böğürdelen (Šabac)",
+   "merkez": "Belgrad",
+   "yerlesim_durum": "macaristan",
+   "merkez_durum": "sirbistan"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Yergöğü (Giurgiu)",
+   "merkez": "Sofya",
+   "yerlesim_durum": "eflak",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Mankup",
+   "merkez": "Kefe",
+   "yerlesim_durum": "teodoro",
+   "merkez_durum": "ceneviz"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Kerene",
+   "merkez": "Sevâkin",
+   "yerlesim_durum": "habesistan",
+   "merkez_durum": "memluk"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Sokna",
+   "merkez": "Trablus",
+   "yerlesim_durum": "kanem-bornu",
+   "merkez_durum": "hafsi"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Câlû",
+   "merkez": "Bingazi",
+   "yerlesim_durum": "kanem-bornu",
+   "merkez_durum": "memluk"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Beykoz",
+   "merkez": "İstanbul",
+   "yerlesim_durum": "OSMANLI",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Ceylanpınar",
+   "merkez": "Diyarbakır",
+   "yerlesim_durum": "artuklu",
+   "merkez_durum": "akkoyunlu"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Nusaybin",
+   "merkez": "Diyarbakır",
+   "yerlesim_durum": "artuklu",
+   "merkez_durum": "akkoyunlu"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Silopi",
+   "merkez": "Diyarbakır",
+   "yerlesim_durum": "artuklu",
+   "merkez_durum": "akkoyunlu"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Malikiye (Derik)",
+   "merkez": "Diyarbakır",
+   "yerlesim_durum": "artuklu",
+   "merkez_durum": "akkoyunlu"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Şavşat",
+   "merkez": "Erzurum",
+   "yerlesim_durum": "gurcistan",
+   "merkez_durum": "timurlu"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Posof",
+   "merkez": "Erzurum",
+   "yerlesim_durum": "gurcistan",
+   "merkez_durum": "timurlu"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Hanak",
+   "merkez": "Erzurum",
+   "yerlesim_durum": "gurcistan",
+   "merkez_durum": "timurlu"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Hulo (Acara)",
+   "merkez": "Erzurum",
+   "yerlesim_durum": "gurcistan",
+   "merkez_durum": "timurlu"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Arpaçay (Akyaka)",
+   "merkez": "Erzurum",
+   "yerlesim_durum": "celayirli",
+   "merkez_durum": "timurlu"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Digor",
+   "merkez": "Erzurum",
+   "yerlesim_durum": "celayirli",
+   "merkez_durum": "timurlu"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Iğdır",
+   "merkez": "Erzurum",
+   "yerlesim_durum": "celayirli",
+   "merkez_durum": "timurlu"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Gümrü (Aleksandropol)",
+   "merkez": "Erzurum",
+   "yerlesim_durum": "celayirli",
+   "merkez_durum": "timurlu"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Eçmiyadzin",
+   "merkez": "Erzurum",
+   "yerlesim_durum": "celayirli",
+   "merkez_durum": "timurlu"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Doğubayazıt",
+   "merkez": "Erzurum",
+   "yerlesim_durum": "karakoyunlu",
+   "merkez_durum": "timurlu"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Artvin",
+   "merkez": "Erzurum",
+   "yerlesim_durum": "gurcistan",
+   "merkez_durum": "timurlu"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Hopa",
+   "merkez": "Erzurum",
+   "yerlesim_durum": "gurcistan",
+   "merkez_durum": "timurlu"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Sarp",
+   "merkez": "Erzurum",
+   "yerlesim_durum": "gurcistan",
+   "merkez_durum": "timurlu"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Mersin",
+   "merkez": "Adana",
+   "yerlesim_durum": "OSMANLI",
+   "merkez_durum": "ramazanoglu"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Dörtyol",
+   "merkez": "Adana",
+   "yerlesim_durum": "memluk",
+   "merkez_durum": "ramazanoglu"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Erzin",
+   "merkez": "Adana",
+   "yerlesim_durum": "memluk",
+   "merkez_durum": "ramazanoglu"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Yumurtalık",
+   "merkez": "Adana",
+   "yerlesim_durum": "memluk",
+   "merkez_durum": "ramazanoglu"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Borçka",
+   "merkez": "Erzurum",
+   "yerlesim_durum": "gurcistan",
+   "merkez_durum": "timurlu"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Sarıkamış",
+   "merkez": "Kars",
+   "yerlesim_durum": "gurcistan",
+   "merkez_durum": "timurlu"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Ahılkelek (Akhalkalaki)",
+   "merkez": "Erzurum",
+   "yerlesim_durum": "gurcistan",
+   "merkez_durum": "timurlu"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Butrint (Butrinto)",
+   "merkez": "Yanya",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Vaddân (Cufre)",
+   "merkez": "Trablus",
+   "yerlesim_durum": "kanem-bornu",
+   "merkez_durum": "hafsi"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Zilla (Zella)",
+   "merkez": "Trablus",
+   "yerlesim_durum": "kanem-bornu",
+   "merkez_durum": "hafsi"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Merâde",
+   "merkez": "Bingazi",
+   "yerlesim_durum": "kanem-bornu",
+   "merkez_durum": "memluk"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Paksos (Paxos)",
+   "merkez": "Yanya",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "bizans"
+  },
+  {
+   "gun": "1400-06-15",
+   "yerlesim": "Mat (Mati)",
+   "merkez": "İşkodra",
+   "yerlesim_durum": "arnavutluk",
+   "merkez_durum": "venedik"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Otranto",
+   "merkez": "Yanya",
+   "yerlesim_durum": "napoli",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Bodrum",
+   "merkez": "Muğla",
+   "yerlesim_durum": "sovalye",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Malatya",
+   "merkez": "Maraş",
+   "yerlesim_durum": "memluk",
+   "merkez_durum": "dulkadir"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Modon",
+   "merkez": "Mora (Tripoliçe)",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Anabolu (Nauplion)",
+   "merkez": "Mora (Tripoliçe)",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Draç",
+   "merkez": "İşkodra",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Semendire",
+   "merkez": "Belgrad",
+   "yerlesim_durum": "OSMANLI",
+   "merkez_durum": "macaristan"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Banaluka",
+   "merkez": "Saraybosna",
+   "yerlesim_durum": "macaristan",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Özi",
+   "merkez": "Silistre",
+   "yerlesim_durum": "kirim",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Uyvar",
+   "merkez": "Budin",
+   "yerlesim_durum": "avusturya",
+   "merkez_durum": "macaristan"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Sakız",
+   "merkez": "İzmir",
+   "yerlesim_durum": "ceneviz",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Nakşa",
+   "merkez": "Rodos",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "sovalye"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Andros",
+   "merkez": "İzmir",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Çuha Adası (Kythira)",
+   "merkez": "Mora (Tripoliçe)",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "İskiros (Skyros)",
+   "merkez": "Selanik",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "İskopelos",
+   "merkez": "Selanik",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "İstendil (Tinos)",
+   "merkez": "Rodos",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "sovalye"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Nikarya (İkarya)",
+   "merkez": "İzmir",
+   "yerlesim_durum": "ceneviz",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Karpatos",
+   "merkez": "Rodos",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "sovalye"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Anapa",
+   "merkez": "Kefe",
+   "yerlesim_durum": "kirim",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Sohum",
+   "merkez": "Trabzon",
+   "yerlesim_durum": "gurcistan",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Tarki (Tarku)",
+   "merkez": "Şeki (Nuha)",
+   "yerlesim_durum": "iran",
+   "merkez_durum": "sirvansah"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Derbend",
+   "merkez": "Şamahı",
+   "yerlesim_durum": "iran",
+   "merkez_durum": "sirvansah"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Luristan",
+   "merkez": "Hemedan",
+   "yerlesim_durum": "lur-i-kucek",
+   "merkez_durum": "akkoyunlu"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Lahsa",
+   "merkez": "Basra",
+   "yerlesim_durum": "cebri",
+   "merkez_durum": "akkoyunlu"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Batum",
+   "merkez": "Trabzon",
+   "yerlesim_durum": "gurcistan",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Ahıska",
+   "merkez": "Erzurum",
+   "yerlesim_durum": "gurcistan",
+   "merkez_durum": "akkoyunlu"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Rakka",
+   "merkez": "Diyarbakır",
+   "yerlesim_durum": "memluk",
+   "merkez_durum": "akkoyunlu"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Zeyla",
+   "merkez": "Sevâkin",
+   "yerlesim_durum": "adal",
+   "merkez_durum": "memluk"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Hacıbey (Odessa)",
+   "merkez": "Silistre",
+   "yerlesim_durum": "kirim",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Çehrin (Çigirin)",
+   "merkez": "Kamaniçe",
+   "yerlesim_durum": "litvanya-buyuk-dukalik",
+   "merkez_durum": "lehistan"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Korfu",
+   "merkez": "Yanya",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Parga",
+   "merkez": "Yanya",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Koron",
+   "merkez": "Mora (Tripoliçe)",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Paros",
+   "merkez": "Rodos",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "sovalye"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Değirmenlik (Milos)",
+   "merkez": "Rodos",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "sovalye"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Kimolos (Argentiera)",
+   "merkez": "Rodos",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "sovalye"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Murted (Kea)",
+   "merkez": "Rodos",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "sovalye"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Termiye (Kythnos)",
+   "merkez": "Rodos",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "sovalye"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Koçbaba (Serifos)",
+   "merkez": "Rodos",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "sovalye"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Sifnos (Yavuzca)",
+   "merkez": "Rodos",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "sovalye"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Sire (Syros)",
+   "merkez": "Rodos",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "sovalye"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Mikonos",
+   "merkez": "Rodos",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "sovalye"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Nio (İos)",
+   "merkez": "Rodos",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "sovalye"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Yamurgi (Amorgos)",
+   "merkez": "Rodos",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "sovalye"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "İstanbulya (Astipalya)",
+   "merkez": "Rodos",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "sovalye"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Kaşot (Kasos)",
+   "merkez": "Rodos",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "sovalye"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Fornoz (Fourni)",
+   "merkez": "İzmir",
+   "yerlesim_durum": "ceneviz",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "İpsara (Psara)",
+   "merkez": "İzmir",
+   "yerlesim_durum": "ceneviz",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "İskiathos",
+   "merkez": "Selanik",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Alonisos",
+   "merkez": "Selanik",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Egina (Aegina)",
+   "merkez": "Atina",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Zaklise (Zakynthos)",
+   "merkez": "Yanya",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Kuba",
+   "merkez": "Derbend",
+   "yerlesim_durum": "sirvansah",
+   "merkez_durum": "iran"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Katîf",
+   "merkez": "Basra",
+   "yerlesim_durum": "cebri",
+   "merkez_durum": "akkoyunlu"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Ukayr (Uceyr)",
+   "merkez": "Basra",
+   "yerlesim_durum": "cebri",
+   "merkez_durum": "akkoyunlu"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Cübeyl",
+   "merkez": "Basra",
+   "yerlesim_durum": "cebri",
+   "merkez_durum": "akkoyunlu"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Kragujevac",
+   "merkez": "Belgrad",
+   "yerlesim_durum": "OSMANLI",
+   "merkez_durum": "macaristan"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Çaçak",
+   "merkez": "Belgrad",
+   "yerlesim_durum": "OSMANLI",
+   "merkez_durum": "macaristan"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Yayça (Jajce)",
+   "merkez": "Saraybosna",
+   "yerlesim_durum": "macaristan",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Srebrenik",
+   "merkez": "Saraybosna",
+   "yerlesim_durum": "macaristan",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Kerene",
+   "merkez": "Sevâkin",
+   "yerlesim_durum": "habesistan",
+   "merkez_durum": "memluk"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Sokna",
+   "merkez": "Trablus",
+   "yerlesim_durum": "kanem-bornu",
+   "merkez_durum": "hafsi"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Câlû",
+   "merkez": "Bingazi",
+   "yerlesim_durum": "kanem-bornu",
+   "merkez_durum": "memluk"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Şavşat",
+   "merkez": "Erzurum",
+   "yerlesim_durum": "gurcistan",
+   "merkez_durum": "akkoyunlu"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Posof",
+   "merkez": "Erzurum",
+   "yerlesim_durum": "gurcistan",
+   "merkez_durum": "akkoyunlu"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Hanak",
+   "merkez": "Erzurum",
+   "yerlesim_durum": "gurcistan",
+   "merkez_durum": "akkoyunlu"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Hulo (Acara)",
+   "merkez": "Erzurum",
+   "yerlesim_durum": "gurcistan",
+   "merkez_durum": "akkoyunlu"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Artvin",
+   "merkez": "Erzurum",
+   "yerlesim_durum": "gurcistan",
+   "merkez_durum": "akkoyunlu"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Hopa",
+   "merkez": "Erzurum",
+   "yerlesim_durum": "gurcistan",
+   "merkez_durum": "akkoyunlu"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Sarp",
+   "merkez": "Erzurum",
+   "yerlesim_durum": "gurcistan",
+   "merkez_durum": "akkoyunlu"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Mersin",
+   "merkez": "Adana",
+   "yerlesim_durum": "OSMANLI",
+   "merkez_durum": "ramazanoglu"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Dörtyol",
+   "merkez": "Adana",
+   "yerlesim_durum": "memluk",
+   "merkez_durum": "ramazanoglu"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Erzin",
+   "merkez": "Adana",
+   "yerlesim_durum": "memluk",
+   "merkez_durum": "ramazanoglu"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Yumurtalık",
+   "merkez": "Adana",
+   "yerlesim_durum": "memluk",
+   "merkez_durum": "ramazanoglu"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Borçka",
+   "merkez": "Erzurum",
+   "yerlesim_durum": "gurcistan",
+   "merkez_durum": "akkoyunlu"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Sarıkamış",
+   "merkez": "Kars",
+   "yerlesim_durum": "gurcistan",
+   "merkez_durum": "akkoyunlu"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Ahılkelek (Akhalkalaki)",
+   "merkez": "Erzurum",
+   "yerlesim_durum": "gurcistan",
+   "merkez_durum": "akkoyunlu"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Kelkit",
+   "merkez": "Erzincan",
+   "yerlesim_durum": "OSMANLI",
+   "merkez_durum": "akkoyunlu"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Butrint (Butrinto)",
+   "merkez": "Yanya",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Alacahisar (Kruševac)",
+   "merkez": "Belgrad",
+   "yerlesim_durum": "OSMANLI",
+   "merkez_durum": "macaristan"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Vaddân (Cufre)",
+   "merkez": "Trablus",
+   "yerlesim_durum": "kanem-bornu",
+   "merkez_durum": "hafsi"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Zilla (Zella)",
+   "merkez": "Trablus",
+   "yerlesim_durum": "kanem-bornu",
+   "merkez_durum": "hafsi"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Merâde",
+   "merkez": "Bingazi",
+   "yerlesim_durum": "kanem-bornu",
+   "merkez_durum": "memluk"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Paksos (Paxos)",
+   "merkez": "Yanya",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1500-06-15",
+   "yerlesim": "Birecik",
+   "merkez": "Urfa",
+   "yerlesim_durum": "memluk",
+   "merkez_durum": "akkoyunlu"
+  },
+  {
+   "gun": "1600-06-15",
+   "yerlesim": "Otranto",
+   "merkez": "Yanya",
+   "yerlesim_durum": "napoli",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1600-06-15",
+   "yerlesim": "Estergon",
+   "merkez": "Budin",
+   "yerlesim_durum": "avusturya",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1600-06-15",
+   "yerlesim": "Kanije",
+   "merkez": "Budin",
+   "yerlesim_durum": "avusturya",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1600-06-15",
+   "yerlesim": "Uyvar",
+   "merkez": "Budin",
+   "yerlesim_durum": "avusturya",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1600-06-15",
+   "yerlesim": "Çuha Adası (Kythira)",
+   "merkez": "Mora (Tripoliçe)",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1600-06-15",
+   "yerlesim": "İstendil (Tinos)",
+   "merkez": "Rodos",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1600-06-15",
+   "yerlesim": "Santorini",
+   "merkez": "Kandiye (Girit)",
+   "yerlesim_durum": "OSMANLI",
+   "merkez_durum": "venedik"
+  },
+  {
+   "gun": "1600-06-15",
+   "yerlesim": "Anapa",
+   "merkez": "Kefe",
+   "yerlesim_durum": "kirim",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1600-06-15",
+   "yerlesim": "Hudeyde",
+   "merkez": "Sana",
+   "yerlesim_durum": "yemen",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1600-06-15",
+   "yerlesim": "Ebha (Asir)",
+   "merkez": "Sana",
+   "yerlesim_durum": "yemen",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1600-06-15",
+   "yerlesim": "Oran",
+   "merkez": "Cezayir",
+   "yerlesim_durum": "ispanya",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1600-06-15",
+   "yerlesim": "Yanıkkale (Győr)",
+   "merkez": "Budin",
+   "yerlesim_durum": "avusturya",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1600-06-15",
+   "yerlesim": "Korfu",
+   "merkez": "Yanya",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1600-06-15",
+   "yerlesim": "Parga",
+   "merkez": "Yanya",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1600-06-15",
+   "yerlesim": "Namfi (Anafi)",
+   "merkez": "Kandiye (Girit)",
+   "yerlesim_durum": "OSMANLI",
+   "merkez_durum": "venedik"
+  },
+  {
+   "gun": "1600-06-15",
+   "yerlesim": "Folegandros",
+   "merkez": "Kandiye (Girit)",
+   "yerlesim_durum": "OSMANLI",
+   "merkez_durum": "venedik"
+  },
+  {
+   "gun": "1600-06-15",
+   "yerlesim": "Kefalonya",
+   "merkez": "Yanya",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1600-06-15",
+   "yerlesim": "İthaki",
+   "merkez": "Yanya",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1600-06-15",
+   "yerlesim": "Zaklise (Zakynthos)",
+   "merkez": "Yanya",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1600-06-15",
+   "yerlesim": "Selmâs (Dilman)",
+   "merkez": "Van",
+   "yerlesim_durum": "safevi",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1600-06-15",
+   "yerlesim": "Mâku",
+   "merkez": "Van",
+   "yerlesim_durum": "safevi",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1600-06-15",
+   "yerlesim": "Tabarka",
+   "merkez": "Tunus",
+   "yerlesim_durum": "ceneviz",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1600-06-15",
+   "yerlesim": "Kerene",
+   "merkez": "Sevâkin",
+   "yerlesim_durum": "habesistan",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1600-06-15",
+   "yerlesim": "Gümrü (Aleksandropol)",
+   "merkez": "Erzurum",
+   "yerlesim_durum": "safevi",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1600-06-15",
+   "yerlesim": "Eçmiyadzin",
+   "merkez": "Erzurum",
+   "yerlesim_durum": "safevi",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1600-06-15",
+   "yerlesim": "Çaldıran",
+   "merkez": "Van",
+   "yerlesim_durum": "safevi",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1600-06-15",
+   "yerlesim": "Başkale",
+   "merkez": "Van",
+   "yerlesim_durum": "safevi",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1600-06-15",
+   "yerlesim": "Butrint (Butrinto)",
+   "merkez": "Yanya",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1600-06-15",
+   "yerlesim": "Paksos (Paxos)",
+   "merkez": "Yanya",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1600-06-15",
+   "yerlesim": "Sa'de",
+   "merkez": "Sana",
+   "yerlesim_durum": "yemen",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1600-06-15",
+   "yerlesim": "Şehâre",
+   "merkez": "Sana",
+   "yerlesim_durum": "yemen",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1600-06-15",
+   "yerlesim": "Kevkebân",
+   "merkez": "Sana",
+   "yerlesim_durum": "yemen",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1700-06-15",
+   "yerlesim": "Otranto",
+   "merkez": "Yanya",
+   "yerlesim_durum": "napoli",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1700-06-15",
+   "yerlesim": "Eğriboz",
+   "merkez": "Mora (Tripoliçe)",
+   "yerlesim_durum": "OSMANLI",
+   "merkez_durum": "venedik"
+  },
+  {
+   "gun": "1700-06-15",
+   "yerlesim": "İstendil (Tinos)",
+   "merkez": "Rodos",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1700-06-15",
+   "yerlesim": "Azak",
+   "merkez": "Kefe",
+   "yerlesim_durum": "rusya",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1700-06-15",
+   "yerlesim": "Anapa",
+   "merkez": "Kefe",
+   "yerlesim_durum": "kirim",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1700-06-15",
+   "yerlesim": "Lahsa",
+   "merkez": "Basra",
+   "yerlesim_durum": "benihalid",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1700-06-15",
+   "yerlesim": "Oran",
+   "merkez": "Cezayir",
+   "yerlesim_durum": "ispanya",
+   "merkez_durum": "tabi"
+  },
+  {
+   "gun": "1700-06-15",
+   "yerlesim": "Cetinje",
+   "merkez": "İşkodra",
+   "yerlesim_durum": "karadag",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1700-06-15",
+   "yerlesim": "Yanova (Ineu)",
+   "merkez": "Temeşvar",
+   "yerlesim_durum": "avusturya",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1700-06-15",
+   "yerlesim": "Korfu",
+   "merkez": "Yanya",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1700-06-15",
+   "yerlesim": "Ayamavra (Lefkada)",
+   "merkez": "Yanya",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1700-06-15",
+   "yerlesim": "Parga",
+   "merkez": "Yanya",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1700-06-15",
+   "yerlesim": "Vonitsa",
+   "merkez": "Yanya",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1700-06-15",
+   "yerlesim": "Preveze",
+   "merkez": "Yanya",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1700-06-15",
+   "yerlesim": "Çamlıca (Hidra)",
+   "merkez": "Mora (Tripoliçe)",
+   "yerlesim_durum": "OSMANLI",
+   "merkez_durum": "venedik"
+  },
+  {
+   "gun": "1700-06-15",
+   "yerlesim": "Kefalonya",
+   "merkez": "Yanya",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1700-06-15",
+   "yerlesim": "İthaki",
+   "merkez": "Yanya",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1700-06-15",
+   "yerlesim": "Zaklise (Zakynthos)",
+   "merkez": "Yanya",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1700-06-15",
+   "yerlesim": "Karistos (Kızılhisar)",
+   "merkez": "Mora (Tripoliçe)",
+   "yerlesim_durum": "OSMANLI",
+   "merkez_durum": "venedik"
+  },
+  {
+   "gun": "1700-06-15",
+   "yerlesim": "Selmâs (Dilman)",
+   "merkez": "Van",
+   "yerlesim_durum": "safevi",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1700-06-15",
+   "yerlesim": "Mâku",
+   "merkez": "Van",
+   "yerlesim_durum": "safevi",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1700-06-15",
+   "yerlesim": "Katîf",
+   "merkez": "Basra",
+   "yerlesim_durum": "benihalid",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1700-06-15",
+   "yerlesim": "Ukayr (Uceyr)",
+   "merkez": "Basra",
+   "yerlesim_durum": "benihalid",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1700-06-15",
+   "yerlesim": "Cübeyl",
+   "merkez": "Basra",
+   "yerlesim_durum": "benihalid",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1700-06-15",
+   "yerlesim": "Tabarka",
+   "merkez": "Tunus",
+   "yerlesim_durum": "ceneviz",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1700-06-15",
+   "yerlesim": "Kerene",
+   "merkez": "Sevâkin",
+   "yerlesim_durum": "habesistan",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1700-06-15",
+   "yerlesim": "Herseknovi (Herceg Novi)",
+   "merkez": "Mostar",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1700-06-15",
+   "yerlesim": "Gümrü (Aleksandropol)",
+   "merkez": "Erzurum",
+   "yerlesim_durum": "safevi",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1700-06-15",
+   "yerlesim": "Eçmiyadzin",
+   "merkez": "Erzurum",
+   "yerlesim_durum": "safevi",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1700-06-15",
+   "yerlesim": "Butrint (Butrinto)",
+   "merkez": "Yanya",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1700-06-15",
+   "yerlesim": "Paksos (Paxos)",
+   "merkez": "Yanya",
+   "yerlesim_durum": "venedik",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1700-06-15",
+   "yerlesim": "Kotur",
+   "merkez": "Van",
+   "yerlesim_durum": "safevi",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1800-06-15",
+   "yerlesim": "Otranto",
+   "merkez": "Yanya",
+   "yerlesim_durum": "napoli",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1800-06-15",
+   "yerlesim": "Suçava (Suceava)",
+   "merkez": "Yaş",
+   "yerlesim_durum": "avusturya",
+   "merkez_durum": "tabi"
+  },
+  {
+   "gun": "1800-06-15",
+   "yerlesim": "Çernovitz (Çernivtsi)",
+   "merkez": "Yaş",
+   "yerlesim_durum": "avusturya",
+   "merkez_durum": "tabi"
+  },
+  {
+   "gun": "1800-06-15",
+   "yerlesim": "Özi",
+   "merkez": "Silistre",
+   "yerlesim_durum": "rusya",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1800-06-15",
+   "yerlesim": "Çuha Adası (Kythira)",
+   "merkez": "Mora (Tripoliçe)",
+   "yerlesim_durum": "fransa-cumhuriyet",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1800-06-15",
+   "yerlesim": "Anapa",
+   "merkez": "Kefe",
+   "yerlesim_durum": "OSMANLI",
+   "merkez_durum": "rusya"
+  },
+  {
+   "gun": "1800-06-15",
+   "yerlesim": "Lahsa",
+   "merkez": "Basra",
+   "yerlesim_durum": "suud",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1800-06-15",
+   "yerlesim": "Dir'iye (Necid)",
+   "merkez": "Basra",
+   "yerlesim_durum": "suud",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1800-06-15",
+   "yerlesim": "Hacıbey (Odessa)",
+   "merkez": "Silistre",
+   "yerlesim_durum": "rusya",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1800-06-15",
+   "yerlesim": "Cetinje",
+   "merkez": "İşkodra",
+   "yerlesim_durum": "karadag",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1800-06-15",
+   "yerlesim": "Yazlofça (Yazlovets)",
+   "merkez": "Kamaniçe",
+   "yerlesim_durum": "avusturya",
+   "merkez_durum": "rusya"
+  },
+  {
+   "gun": "1800-06-15",
+   "yerlesim": "Korfu",
+   "merkez": "Yanya",
+   "yerlesim_durum": "fransa-cumhuriyet",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1800-06-15",
+   "yerlesim": "Ayamavra (Lefkada)",
+   "merkez": "Yanya",
+   "yerlesim_durum": "fransa-cumhuriyet",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1800-06-15",
+   "yerlesim": "Parga",
+   "merkez": "Yanya",
+   "yerlesim_durum": "fransa-cumhuriyet",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1800-06-15",
+   "yerlesim": "Kefalonya",
+   "merkez": "Yanya",
+   "yerlesim_durum": "fransa-cumhuriyet",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1800-06-15",
+   "yerlesim": "İthaki",
+   "merkez": "Yanya",
+   "yerlesim_durum": "fransa-cumhuriyet",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1800-06-15",
+   "yerlesim": "Zaklise (Zakynthos)",
+   "merkez": "Yanya",
+   "yerlesim_durum": "fransa-cumhuriyet",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1800-06-15",
+   "yerlesim": "Selmâs (Dilman)",
+   "merkez": "Van",
+   "yerlesim_durum": "kacar",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1800-06-15",
+   "yerlesim": "Mâku",
+   "merkez": "Van",
+   "yerlesim_durum": "kacar",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1800-06-15",
+   "yerlesim": "Katîf",
+   "merkez": "Basra",
+   "yerlesim_durum": "suud",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1800-06-15",
+   "yerlesim": "Ukayr (Uceyr)",
+   "merkez": "Basra",
+   "yerlesim_durum": "suud",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1800-06-15",
+   "yerlesim": "Cübeyl",
+   "merkez": "Basra",
+   "yerlesim_durum": "suud",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1800-06-15",
+   "yerlesim": "Buraydâ (Kasîm)",
+   "merkez": "Medine",
+   "yerlesim_durum": "suud",
+   "merkez_durum": "tabi"
+  },
+  {
+   "gun": "1800-06-15",
+   "yerlesim": "Uneyze",
+   "merkez": "Medine",
+   "yerlesim_durum": "suud",
+   "merkez_durum": "tabi"
+  },
+  {
+   "gun": "1800-06-15",
+   "yerlesim": "Şakrâ",
+   "merkez": "Medine",
+   "yerlesim_durum": "suud",
+   "merkez_durum": "tabi"
+  },
+  {
+   "gun": "1800-06-15",
+   "yerlesim": "Kerene",
+   "merkez": "Sevâkin",
+   "yerlesim_durum": "habesistan",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1800-06-15",
+   "yerlesim": "Nühûd",
+   "merkez": "Hartum",
+   "yerlesim_durum": "darfur",
+   "merkez_durum": "funj"
+  },
+  {
+   "gun": "1800-06-15",
+   "yerlesim": "Herseknovi (Herceg Novi)",
+   "merkez": "Mostar",
+   "yerlesim_durum": "avusturya",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1800-06-15",
+   "yerlesim": "Gümrü (Aleksandropol)",
+   "merkez": "Erzurum",
+   "yerlesim_durum": "kacar",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1800-06-15",
+   "yerlesim": "Eçmiyadzin",
+   "merkez": "Erzurum",
+   "yerlesim_durum": "kacar",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1800-06-15",
+   "yerlesim": "Paksos (Paxos)",
+   "merkez": "Yanya",
+   "yerlesim_durum": "fransa-cumhuriyet",
+   "merkez_durum": "OSMANLI"
+  },
+  {
+   "gun": "1800-06-15",
+   "yerlesim": "Kotur",
+   "merkez": "Van",
+   "yerlesim_durum": "kacar",
+   "merkez_durum": "OSMANLI"
+  }
+ ]
+}

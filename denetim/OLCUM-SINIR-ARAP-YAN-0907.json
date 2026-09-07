@@ -1,0 +1,69 @@
+{
+ "_NOT": "Her NE ulkesinin bugunku poligonunun ICINE dusen, 1923-10-28'de canli atlas noktalarinin kimlik dagilimi. bbox DEGIL, GERCEK NOKTA. Cipa kayda 1923-10-29 yazilir; atlasa 1923-10-28 sorulur (yari acik aralik).",
+ "sorgu_gunu": "1923-10-28",
+ "katman_sirasi": "d > v > s ; isg: sahiplik sayilmaz (denetle.py semantigi)",
+ "yerlesim_toplam": 3805,
+ "kimligi_olan": 3637,
+ "ulke": {
+  "Syria": {
+   "suriye-lubnan-mandasi": 11
+  },
+  "Lebanon": {
+   "suriye-lubnan-mandasi": 3
+  },
+  "Israel": {
+   "filistin-mandasi": 3
+  },
+  "Palestine": {
+   "filistin-mandasi": 3
+  },
+  "Jordan": {
+   "hicaz": 1,
+   "urdun-emirligi": 2
+  },
+  "Iraq": {
+   "ingiltere": 4,
+   "irak-kralligi": 31
+  },
+  "Saudi Arabia": {
+   "suud-ucuncu": 15,
+   "hicaz": 12,
+   "yemen": 1
+  },
+  "Yemen": {
+   "yemen": 8,
+   "ingiltere": 3,
+   "kuayti-sultanligi": 1,
+   "umman": 1
+  },
+  "Oman": {
+   "umman": 18
+  },
+  "United Arab Emirates": {
+   "ingiltere": 3
+  },
+  "Qatar": {
+   "katar": 1
+  },
+  "Bahrain": {
+   "ingiltere": 1
+  },
+  "Kuwait": {
+   "kuveyt": 1
+  },
+  "Turkey": {
+   "tbmm-turkiye": 236,
+   "suriye-lubnan-mandasi": 3,
+   "OSMANLI-dogrudan": 4
+  },
+  "Iran": {
+   "kacar": 107,
+   "sovyet-rusya": 1,
+   "tbmm-turkiye": 1
+  },
+  "Egypt": {
+   "misir-kralligi": 50,
+   "ingiltere": 6
+  }
+ }
+}
