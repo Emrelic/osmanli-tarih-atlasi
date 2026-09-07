@@ -1,0 +1,405 @@
+{
+ "_NOT": "Yamanin kalem kalem gerekcesi. Uc sinav da gecti: kapsama (Degismez 1) · kunye penceresi (§3.5.0) · bicim (§8).",
+ "yazilan": 27,
+ "kalemler": [
+  {
+   "ad": "Albuquerque",
+   "islem": "kes_ac",
+   "eski_1923": "meksika",
+   "yeni_1923": "abd",
+   "eski_zincir": [
+    "1706-04-23..1821-09-27 yeni-ispanya",
+    "1821-09-27..1923-10-29 meksika"
+   ],
+   "yeni_zincir": [
+    "1706-04-23..1821-09-27 yeni-ispanya",
+    "1821-09-27..1848-02-02 meksika",
+    "1848-02-02..1923-10-29 abd"
+   ]
+  },
+  {
+   "ad": "Boise (Fort Boise)",
+   "islem": "kes_at_ac",
+   "eski_1923": "kanada",
+   "yeni_1923": "abd",
+   "eski_zincir": [
+    "1834-01-01..1867-07-01 ingiliz-kuzey-amerika",
+    "1867-07-01..1923-10-29 kanada"
+   ],
+   "yeni_zincir": [
+    "1834-01-01..1846-06-15 ingiliz-kuzey-amerika",
+    "1846-06-15..1923-10-29 abd"
+   ]
+  },
+  {
+   "ad": "Fort Astoria",
+   "islem": "kes_at_ac",
+   "eski_1923": "kanada",
+   "yeni_1923": "abd",
+   "eski_zincir": [
+    "1811-04-12..1867-07-01 ingiliz-kuzey-amerika",
+    "1867-07-01..1923-10-29 kanada"
+   ],
+   "yeni_zincir": [
+    "1811-04-12..1846-06-15 ingiliz-kuzey-amerika",
+    "1846-06-15..1923-10-29 abd"
+   ]
+  },
+  {
+   "ad": "Fort Colvile",
+   "islem": "kes_at_ac",
+   "eski_1923": "kanada",
+   "yeni_1923": "abd",
+   "eski_zincir": [
+    "1825-01-01..1867-07-01 ingiliz-kuzey-amerika",
+    "1867-07-01..1923-10-29 kanada"
+   ],
+   "yeni_zincir": [
+    "1825-01-01..1846-06-15 ingiliz-kuzey-amerika",
+    "1846-06-15..1923-10-29 abd"
+   ]
+  },
+  {
+   "ad": "Fort Hall",
+   "islem": "kes_at_ac",
+   "eski_1923": "kanada",
+   "yeni_1923": "abd",
+   "eski_zincir": [
+    "1834-01-01..1867-07-01 ingiliz-kuzey-amerika",
+    "1867-07-01..1923-10-29 kanada"
+   ],
+   "yeni_zincir": [
+    "1834-01-01..1846-06-15 ingiliz-kuzey-amerika",
+    "1846-06-15..1923-10-29 abd"
+   ]
+  },
+  {
+   "ad": "Fort Nez Percés (Walla Walla)",
+   "islem": "kes_at_ac",
+   "eski_1923": "kanada",
+   "yeni_1923": "abd",
+   "eski_zincir": [
+    "1818-01-01..1867-07-01 ingiliz-kuzey-amerika",
+    "1867-07-01..1923-10-29 kanada"
+   ],
+   "yeni_zincir": [
+    "1818-01-01..1846-06-15 ingiliz-kuzey-amerika",
+    "1846-06-15..1923-10-29 abd"
+   ]
+  },
+  {
+   "ad": "Fort Robidoux (Uinta Havzası)",
+   "islem": "kes_ac",
+   "eski_1923": "meksika",
+   "yeni_1923": "abd",
+   "eski_zincir": [
+    "1832-01-01..1923-10-29 meksika"
+   ],
+   "yeni_zincir": [
+    "1832-01-01..1848-02-02 meksika",
+    "1848-02-02..1923-10-29 abd"
+   ]
+  },
+  {
+   "ad": "Fort Vancouver",
+   "islem": "kes_at_ac",
+   "eski_1923": "kanada",
+   "yeni_1923": "abd",
+   "eski_zincir": [
+    "1825-01-01..1867-07-01 ingiliz-kuzey-amerika",
+    "1867-07-01..1923-10-29 kanada"
+   ],
+   "yeni_zincir": [
+    "1825-01-01..1846-06-15 ingiliz-kuzey-amerika",
+    "1846-06-15..1923-10-29 abd"
+   ]
+  },
+  {
+   "ad": "Kahnawake",
+   "islem": "abd_yerine_kanada",
+   "eski_1923": "abd",
+   "yeni_1923": "kanada",
+   "eski_zincir": [
+    "1667-01-01..1777-01-01 haudenosaunee",
+    "1777-01-01..1783-09-03 ingiltere",
+    "1783-09-03..1923-10-29 abd"
+   ],
+   "yeni_zincir": [
+    "1667-01-01..1777-01-01 haudenosaunee",
+    "1777-01-01..1783-09-03 ingiltere",
+    "1783-09-03..1867-07-01 ingiliz-kuzey-amerika",
+    "1867-07-01..1923-10-29 kanada"
+   ]
+  },
+  {
+   "ad": "La Junta de los Ríos (Presidio)",
+   "islem": "kes_ac",
+   "eski_1923": "meksika",
+   "yeni_1923": "abd",
+   "eski_zincir": [
+    "1683-01-01..1821-09-27 yeni-ispanya",
+    "1821-09-27..1923-10-29 meksika"
+   ],
+   "yeni_zincir": [
+    "1683-01-01..1821-09-27 yeni-ispanya",
+    "1821-09-27..1848-02-02 meksika",
+    "1848-02-02..1923-10-29 abd"
+   ]
+  },
+  {
+   "ad": "Laredo",
+   "islem": "kes_ac",
+   "eski_1923": "meksika",
+   "yeni_1923": "abd",
+   "eski_zincir": [
+    "1755-05-15..1821-09-27 yeni-ispanya",
+    "1821-09-27..1923-10-29 meksika"
+   ],
+   "yeni_zincir": [
+    "1755-05-15..1821-09-27 yeni-ispanya",
+    "1821-09-27..1848-02-02 meksika",
+    "1848-02-02..1923-10-29 abd"
+   ]
+  },
+  {
+   "ad": "Las Vegas (Yeni Meksika)",
+   "islem": "kes_ac",
+   "eski_1923": "meksika",
+   "yeni_1923": "abd",
+   "eski_zincir": [
+    "1835-01-01..1923-10-29 meksika"
+   ],
+   "yeni_zincir": [
+    "1835-01-01..1848-02-02 meksika",
+    "1848-02-02..1923-10-29 abd"
+   ]
+  },
+  {
+   "ad": "Los Adaes",
+   "islem": "kes_at_ac",
+   "eski_1923": "meksika",
+   "yeni_1923": "abd",
+   "eski_zincir": [
+    "1721-01-01..1821-09-27 yeni-ispanya",
+    "1821-09-27..1923-10-29 meksika"
+   ],
+   "yeni_zincir": [
+    "1721-01-01..1821-02-22 yeni-ispanya",
+    "1821-02-22..1923-10-29 abd"
+   ]
+  },
+  {
+   "ad": "Los Ángeles (El Pueblo)",
+   "islem": "kes_ac",
+   "eski_1923": "meksika",
+   "yeni_1923": "abd",
+   "eski_zincir": [
+    "1781-09-04..1821-09-27 yeni-ispanya",
+    "1821-09-27..1923-10-29 meksika"
+   ],
+   "yeni_zincir": [
+    "1781-09-04..1821-09-27 yeni-ispanya",
+    "1821-09-27..1848-02-02 meksika",
+    "1848-02-02..1923-10-29 abd"
+   ]
+  },
+  {
+   "ad": "Mission San Luis (Apalaçi)",
+   "islem": "kes_at_ac",
+   "eski_1923": "meksika",
+   "yeni_1923": "abd",
+   "eski_zincir": [
+    "1656-01-01..1821-09-27 yeni-ispanya",
+    "1821-09-27..1923-10-29 meksika"
+   ],
+   "yeni_zincir": [
+    "1656-01-01..1821-02-22 yeni-ispanya",
+    "1821-02-22..1923-10-29 abd"
+   ]
+  },
+  {
+   "ad": "Monterey (Alta California)",
+   "islem": "kes_ac",
+   "eski_1923": "meksika",
+   "yeni_1923": "abd",
+   "eski_zincir": [
+    "1770-06-03..1821-09-27 yeni-ispanya",
+    "1821-09-27..1923-10-29 meksika"
+   ],
+   "yeni_zincir": [
+    "1770-06-03..1821-09-27 yeni-ispanya",
+    "1821-09-27..1848-02-02 meksika",
+    "1848-02-02..1923-10-29 abd"
+   ]
+  },
+  {
+   "ad": "Nacogdoches",
+   "islem": "teksas",
+   "eski_1923": "meksika",
+   "yeni_1923": "abd",
+   "eski_zincir": [
+    "1779-01-01..1821-09-27 yeni-ispanya",
+    "1821-09-27..1923-10-29 meksika"
+   ],
+   "yeni_zincir": [
+    "1779-01-01..1821-09-27 yeni-ispanya",
+    "1821-09-27..1836-03-02 meksika",
+    "1836-03-02..1845-12-29 teksas-cumhuriyeti",
+    "1845-12-29..1923-10-29 abd"
+   ]
+  },
+  {
+   "ad": "Ossossané",
+   "islem": "abd_yerine_kanada",
+   "eski_1923": "abd",
+   "yeni_1923": "kanada",
+   "eski_zincir": [
+    "1281-01-01..1649-03-16 vendat",
+    "1649-03-16..1783-09-03 ingiltere",
+    "1783-09-03..1923-10-29 abd"
+   ],
+   "yeni_zincir": [
+    "1281-01-01..1649-03-16 vendat",
+    "1649-03-16..1783-09-03 ingiltere",
+    "1783-09-03..1867-07-01 ingiliz-kuzey-amerika",
+    "1867-07-01..1923-10-29 kanada"
+   ]
+  },
+  {
+   "ad": "Sainte-Marie-au-pays-des-Hurons",
+   "islem": "abd_yerine_kanada",
+   "eski_1923": "abd",
+   "yeni_1923": "kanada",
+   "eski_zincir": [
+    "1639-01-01..1649-03-16 vendat",
+    "1649-03-16..1783-09-03 ingiltere",
+    "1783-09-03..1923-10-29 abd"
+   ],
+   "yeni_zincir": [
+    "1639-01-01..1649-03-16 vendat",
+    "1649-03-16..1783-09-03 ingiltere",
+    "1783-09-03..1867-07-01 ingiliz-kuzey-amerika",
+    "1867-07-01..1923-10-29 kanada"
+   ]
+  },
+  {
+   "ad": "San José de Guadalupe",
+   "islem": "kes_ac",
+   "eski_1923": "meksika",
+   "yeni_1923": "abd",
+   "eski_zincir": [
+    "1777-11-29..1821-09-27 yeni-ispanya",
+    "1821-09-27..1923-10-29 meksika"
+   ],
+   "yeni_zincir": [
+    "1777-11-29..1821-09-27 yeni-ispanya",
+    "1821-09-27..1848-02-02 meksika",
+    "1848-02-02..1923-10-29 abd"
+   ]
+  },
+  {
+   "ad": "Santa Bárbara",
+   "islem": "kes_ac",
+   "eski_1923": "meksika",
+   "yeni_1923": "abd",
+   "eski_zincir": [
+    "1782-04-21..1821-09-27 yeni-ispanya",
+    "1821-09-27..1923-10-29 meksika"
+   ],
+   "yeni_zincir": [
+    "1782-04-21..1821-09-27 yeni-ispanya",
+    "1821-09-27..1848-02-02 meksika",
+    "1848-02-02..1923-10-29 abd"
+   ]
+  },
+  {
+   "ad": "Santa Rita del Cobre",
+   "islem": "kes_ac",
+   "eski_1923": "meksika",
+   "yeni_1923": "abd",
+   "eski_zincir": [
+    "1804-01-01..1821-09-27 yeni-ispanya",
+    "1821-09-27..1923-10-29 meksika"
+   ],
+   "yeni_zincir": [
+    "1804-01-01..1821-09-27 yeni-ispanya",
+    "1821-09-27..1848-02-02 meksika",
+    "1848-02-02..1923-10-29 abd"
+   ]
+  },
+  {
+   "ad": "Spokane House",
+   "islem": "kes_at_ac",
+   "eski_1923": "kanada",
+   "yeni_1923": "abd",
+   "eski_zincir": [
+    "1810-01-01..1867-07-01 ingiliz-kuzey-amerika",
+    "1867-07-01..1923-10-29 kanada"
+   ],
+   "yeni_zincir": [
+    "1810-01-01..1846-06-15 ingiliz-kuzey-amerika",
+    "1846-06-15..1923-10-29 abd"
+   ]
+  },
+  {
+   "ad": "St. John's (Newfoundland)",
+   "islem": "abd_yerine_ingiltere",
+   "eski_1923": "abd",
+   "yeni_1923": "ingiltere",
+   "eski_zincir": [
+    "1583-08-05..1783-09-03 ingiltere",
+    "1783-09-03..1923-10-29 abd"
+   ],
+   "yeni_zincir": [
+    "1583-08-05..1923-10-29 ingiltere"
+   ]
+  },
+  {
+   "ad": "Tehuantepec",
+   "islem": "abd_yerine_meksika",
+   "eski_1923": "abd",
+   "yeni_1923": "meksika",
+   "eski_zincir": [
+    "1281-01-01..1523-01-01 zapotek-krallik",
+    "1523-01-01..1783-09-03 ingiltere",
+    "1783-09-03..1923-10-29 abd"
+   ],
+   "yeni_zincir": [
+    "1281-01-01..1523-01-01 zapotek-krallik",
+    "1523-01-01..1783-09-03 ingiltere",
+    "1783-09-03..1821-09-27 yeni-ispanya",
+    "1821-09-27..1923-10-29 meksika"
+   ]
+  },
+  {
+   "ad": "Tubac",
+   "islem": "kes_ac",
+   "eski_1923": "meksika",
+   "yeni_1923": "abd",
+   "eski_zincir": [
+    "1752-01-01..1821-09-27 yeni-ispanya",
+    "1821-09-27..1923-10-29 meksika"
+   ],
+   "yeni_zincir": [
+    "1752-01-01..1821-09-27 yeni-ispanya",
+    "1821-09-27..1853-12-30 meksika",
+    "1853-12-30..1923-10-29 abd"
+   ]
+  },
+  {
+   "ad": "Tucson (San Agustín del Tucsón)",
+   "islem": "kes_ac",
+   "eski_1923": "meksika",
+   "yeni_1923": "abd",
+   "eski_zincir": [
+    "1775-08-20..1821-09-27 yeni-ispanya",
+    "1821-09-27..1923-10-29 meksika"
+   ],
+   "yeni_zincir": [
+    "1775-08-20..1821-09-27 yeni-ispanya",
+    "1821-09-27..1853-12-30 meksika",
+    "1853-12-30..1923-10-29 abd"
+   ]
+  }
+ ]
+}

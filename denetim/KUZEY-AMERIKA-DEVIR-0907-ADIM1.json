@@ -1,0 +1,1359 @@
+{
+ "_NOT": "KUZEY-AMERIKA-DEVIR-0907 adim (1). ADAY LISTESIDIR, HUKUM DEGIL: modern poligon 1923 sinirini TEMSIL ETMEZ. Sorgu gunu 1923-10-28.",
+ "sorgu_gunu": "1923-10-28",
+ "uyan_nokta": {
+  "United States of America": 173,
+  "Canada": 167,
+  "Mexico": 55
+ },
+ "sapan_toplam": 42,
+ "sapma_dagilimi": {
+  "United States of America icinde kanada": 19,
+  "Canada icinde abd": 4,
+  "United States of America icinde meksika": 18,
+  "Mexico icinde abd": 1
+ },
+ "cografi_dagilim": {
+  "Alaska (Rusya'dan devir) — ayri zincir": 5,
+  "SINIFLANMADI — elle bakilacak": 1,
+  "Oregon Country (Pasifik kuzeybatisi)": 7,
+  "Dogu ABD — Louisiana/Florida disinda, AYRI bakilmali": 9,
+  "TERS YON — ayrica incelenecek": 5,
+  "Meksika devri (Guadalupe Hidalgo / Gadsden / Teksas)": 15
+ },
+ "ufka_kadar_suren": 42,
+ "sapanlar": [
+  {
+   "ad": "Alatna / Allakaket",
+   "lat": 66.564,
+   "lon": -152.65,
+   "dosya": "yerlesimler_kamerika.js",
+   "modern_ulke": "United States of America",
+   "beklenen": "abd",
+   "kimlik_1923": "kanada",
+   "son_donem": {
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   },
+   "ufka_kadar": true,
+   "kaynak_alani": "bulunamadı",
+   "zincir": [
+    {
+     "kat": "s",
+     "f": "1281-01-01",
+     "t": "1763-02-10",
+     "kimlik": "ingiltere"
+    },
+    {
+     "kat": "s",
+     "f": "1763-02-10",
+     "t": "1867-07-01",
+     "kimlik": "ingiliz-kuzey-amerika"
+    },
+    {
+     "kat": "s",
+     "f": "1867-07-01",
+     "t": "1923-10-29",
+     "kimlik": "kanada"
+    }
+   ],
+   "cografi_oneri": "Alaska (Rusya'dan devir) — ayri zincir"
+  },
+  {
+   "ad": "Fort Yukon",
+   "lat": 66.564,
+   "lon": -145.274,
+   "dosya": "yerlesimler_kamerika.js",
+   "modern_ulke": "United States of America",
+   "beklenen": "abd",
+   "kimlik_1923": "kanada",
+   "son_donem": {
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   },
+   "ufka_kadar": true,
+   "kaynak_alani": "bulunamadı",
+   "zincir": [
+    {
+     "kat": "s",
+     "f": "1847-01-01",
+     "t": "1867-07-01",
+     "kimlik": "ingiliz-kuzey-amerika"
+    },
+    {
+     "kat": "s",
+     "f": "1867-07-01",
+     "t": "1923-10-29",
+     "kimlik": "kanada"
+    }
+   ],
+   "cografi_oneri": "Alaska (Rusya'dan devir) — ayri zincir"
+  },
+  {
+   "ad": "Nikolai (Yukarı Kuskokwim)",
+   "lat": 63.017,
+   "lon": -154.383,
+   "dosya": "yerlesimler_kamerika.js",
+   "modern_ulke": "United States of America",
+   "beklenen": "abd",
+   "kimlik_1923": "kanada",
+   "son_donem": {
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   },
+   "ufka_kadar": true,
+   "kaynak_alani": "bulunamadı",
+   "zincir": [
+    {
+     "kat": "s",
+     "f": "1281-01-01",
+     "t": "1763-02-10",
+     "kimlik": "ingiltere"
+    },
+    {
+     "kat": "s",
+     "f": "1763-02-10",
+     "t": "1867-07-01",
+     "kimlik": "ingiliz-kuzey-amerika"
+    },
+    {
+     "kat": "s",
+     "f": "1867-07-01",
+     "t": "1923-10-29",
+     "kimlik": "kanada"
+    }
+   ],
+   "cografi_oneri": "Alaska (Rusya'dan devir) — ayri zincir"
+  },
+  {
+   "ad": "Nuchalawoya (Tanana)",
+   "lat": 65.172,
+   "lon": -152.081,
+   "dosya": "yerlesimler_kamerika.js",
+   "modern_ulke": "United States of America",
+   "beklenen": "abd",
+   "kimlik_1923": "kanada",
+   "son_donem": {
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   },
+   "ufka_kadar": true,
+   "kaynak_alani": "bulunamadı",
+   "zincir": [
+    {
+     "kat": "s",
+     "f": "1281-01-01",
+     "t": "1763-02-10",
+     "kimlik": "ingiltere"
+    },
+    {
+     "kat": "s",
+     "f": "1763-02-10",
+     "t": "1867-07-01",
+     "kimlik": "ingiliz-kuzey-amerika"
+    },
+    {
+     "kat": "s",
+     "f": "1867-07-01",
+     "t": "1923-10-29",
+     "kimlik": "kanada"
+    }
+   ],
+   "cografi_oneri": "Alaska (Rusya'dan devir) — ayri zincir"
+  },
+  {
+   "ad": "Telida / Denali eteği (Atabask)",
+   "lat": 63.4,
+   "lon": -153.0,
+   "dosya": "yerlesimler_kamerika.js",
+   "modern_ulke": "United States of America",
+   "beklenen": "abd",
+   "kimlik_1923": "kanada",
+   "son_donem": {
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   },
+   "ufka_kadar": true,
+   "kaynak_alani": "bulunamadı",
+   "zincir": [
+    {
+     "kat": "s",
+     "f": "1281-01-01",
+     "t": "1763-02-10",
+     "kimlik": "ingiltere"
+    },
+    {
+     "kat": "s",
+     "f": "1763-02-10",
+     "t": "1867-07-01",
+     "kimlik": "ingiliz-kuzey-amerika"
+    },
+    {
+     "kat": "s",
+     "f": "1867-07-01",
+     "t": "1923-10-29",
+     "kimlik": "kanada"
+    }
+   ],
+   "cografi_oneri": "Alaska (Rusya'dan devir) — ayri zincir"
+  },
+  {
+   "ad": "Duluth (Fond du Lac)",
+   "lat": 46.7897,
+   "lon": -92.1045,
+   "dosya": "yerlesimler_kamerika.js",
+   "modern_ulke": "United States of America",
+   "beklenen": "abd",
+   "kimlik_1923": "kanada",
+   "son_donem": {
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   },
+   "ufka_kadar": true,
+   "kaynak_alani": "bulunamadı",
+   "zincir": [
+    {
+     "kat": "s",
+     "f": "1793-01-01",
+     "t": "1867-07-01",
+     "kimlik": "ingiliz-kuzey-amerika"
+    },
+    {
+     "kat": "s",
+     "f": "1867-07-01",
+     "t": "1923-10-29",
+     "kimlik": "kanada"
+    }
+   ],
+   "cografi_oneri": "Dogu ABD — Louisiana/Florida disinda, AYRI bakilmali"
+  },
+  {
+   "ad": "Fort St. Pierre (Rainy Lake)",
+   "lat": 48.61,
+   "lon": -93.4,
+   "dosya": "yerlesimler_kamerika.js",
+   "modern_ulke": "United States of America",
+   "beklenen": "abd",
+   "kimlik_1923": "kanada",
+   "son_donem": {
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   },
+   "ufka_kadar": true,
+   "kaynak_alani": "bulunamadı",
+   "zincir": [
+    {
+     "kat": "s",
+     "f": "1731-01-01",
+     "t": "1763-02-10",
+     "kimlik": "fransa"
+    },
+    {
+     "kat": "s",
+     "f": "1763-02-10",
+     "t": "1867-07-01",
+     "kimlik": "ingiliz-kuzey-amerika"
+    },
+    {
+     "kat": "s",
+     "f": "1867-07-01",
+     "t": "1923-10-29",
+     "kimlik": "kanada"
+    }
+   ],
+   "cografi_oneri": "Dogu ABD — Louisiana/Florida disinda, AYRI bakilmali"
+  },
+  {
+   "ad": "Grand Portage",
+   "lat": 47.9684,
+   "lon": -89.6883,
+   "dosya": "yerlesimler_kamerika.js",
+   "modern_ulke": "United States of America",
+   "beklenen": "abd",
+   "kimlik_1923": "kanada",
+   "son_donem": {
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   },
+   "ufka_kadar": true,
+   "kaynak_alani": "bulunamadı",
+   "zincir": [
+    {
+     "kat": "s",
+     "f": "1731-01-01",
+     "t": "1763-02-10",
+     "kimlik": "ingiltere"
+    },
+    {
+     "kat": "s",
+     "f": "1763-02-10",
+     "t": "1867-07-01",
+     "kimlik": "ingiliz-kuzey-amerika"
+    },
+    {
+     "kat": "s",
+     "f": "1867-07-01",
+     "t": "1923-10-29",
+     "kimlik": "kanada"
+    }
+   ],
+   "cografi_oneri": "Dogu ABD — Louisiana/Florida disinda, AYRI bakilmali"
+  },
+  {
+   "ad": "Keweenaw (Ojibwe bakır yatakları)",
+   "lat": 46.54,
+   "lon": -87.4,
+   "dosya": "yerlesimler_kamerika.js",
+   "modern_ulke": "United States of America",
+   "beklenen": "abd",
+   "kimlik_1923": "kanada",
+   "son_donem": {
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   },
+   "ufka_kadar": true,
+   "kaynak_alani": "bulunamadı",
+   "zincir": [
+    {
+     "kat": "s",
+     "f": "1281-01-01",
+     "t": "1850-09-07",
+     "kimlik": "ojibwe"
+    },
+    {
+     "kat": "s",
+     "f": "1850-09-07",
+     "t": "1867-07-01",
+     "kimlik": "ingiliz-kuzey-amerika"
+    },
+    {
+     "kat": "s",
+     "f": "1867-07-01",
+     "t": "1923-10-29",
+     "kimlik": "kanada"
+    }
+   ],
+   "cografi_oneri": "Dogu ABD — Louisiana/Florida disinda, AYRI bakilmali"
+  },
+  {
+   "ad": "Los Adaes",
+   "lat": 31.95,
+   "lon": -93.53,
+   "dosya": "yerlesimler_kamerika.js",
+   "modern_ulke": "United States of America",
+   "beklenen": "abd",
+   "kimlik_1923": "meksika",
+   "son_donem": {
+    "f": "1821-09-27",
+    "t": "1923-10-29"
+   },
+   "ufka_kadar": true,
+   "kaynak_alani": "bulunamadı",
+   "zincir": [
+    {
+     "kat": "s",
+     "f": "1721-01-01",
+     "t": "1821-09-27",
+     "kimlik": "yeni-ispanya"
+    },
+    {
+     "kat": "s",
+     "f": "1821-09-27",
+     "t": "1923-10-29",
+     "kimlik": "meksika"
+    }
+   ],
+   "cografi_oneri": "Dogu ABD — Louisiana/Florida disinda, AYRI bakilmali"
+  },
+  {
+   "ad": "Madawaska (Maliseet)",
+   "lat": 47.35,
+   "lon": -68.32,
+   "dosya": "yerlesimler_kamerika.js",
+   "modern_ulke": "United States of America",
+   "beklenen": "abd",
+   "kimlik_1923": "kanada",
+   "son_donem": {
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   },
+   "ufka_kadar": true,
+   "kaynak_alani": "bulunamadı",
+   "zincir": [
+    {
+     "kat": "s",
+     "f": "1281-01-01",
+     "t": "1761-01-01",
+     "kimlik": "maliseet"
+    },
+    {
+     "kat": "s",
+     "f": "1761-01-01",
+     "t": "1763-02-10",
+     "kimlik": "fransa"
+    },
+    {
+     "kat": "s",
+     "f": "1763-02-10",
+     "t": "1867-07-01",
+     "kimlik": "ingiliz-kuzey-amerika"
+    },
+    {
+     "kat": "s",
+     "f": "1867-07-01",
+     "t": "1923-10-29",
+     "kimlik": "kanada"
+    }
+   ],
+   "cografi_oneri": "Dogu ABD — Louisiana/Florida disinda, AYRI bakilmali"
+  },
+  {
+   "ad": "Mission San Luis (Apalaçi)",
+   "lat": 30.45,
+   "lon": -84.31,
+   "dosya": "yerlesimler_kamerika.js",
+   "modern_ulke": "United States of America",
+   "beklenen": "abd",
+   "kimlik_1923": "meksika",
+   "son_donem": {
+    "f": "1821-09-27",
+    "t": "1923-10-29"
+   },
+   "ufka_kadar": true,
+   "kaynak_alani": "bulunamadı",
+   "zincir": [
+    {
+     "kat": "s",
+     "f": "1656-01-01",
+     "t": "1821-09-27",
+     "kimlik": "yeni-ispanya"
+    },
+    {
+     "kat": "s",
+     "f": "1821-09-27",
+     "t": "1923-10-29",
+     "kimlik": "meksika"
+    }
+   ],
+   "cografi_oneri": "Dogu ABD — Louisiana/Florida disinda, AYRI bakilmali"
+  },
+  {
+   "ad": "Sault Ste. Marie",
+   "lat": 46.5,
+   "lon": -84.35,
+   "dosya": "yerlesimler_kamerika.js",
+   "modern_ulke": "United States of America",
+   "beklenen": "abd",
+   "kimlik_1923": "kanada",
+   "son_donem": {
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   },
+   "ufka_kadar": true,
+   "kaynak_alani": "bulunamadı",
+   "zincir": [
+    {
+     "kat": "s",
+     "f": "1668-01-01",
+     "t": "1763-02-10",
+     "kimlik": "fransa"
+    },
+    {
+     "kat": "s",
+     "f": "1763-02-10",
+     "t": "1867-07-01",
+     "kimlik": "ingiliz-kuzey-amerika"
+    },
+    {
+     "kat": "s",
+     "f": "1867-07-01",
+     "t": "1923-10-29",
+     "kimlik": "kanada"
+    }
+   ],
+   "cografi_oneri": "Dogu ABD — Louisiana/Florida disinda, AYRI bakilmali"
+  },
+  {
+   "ad": "St. Louis",
+   "lat": 38.627,
+   "lon": -90.2,
+   "dosya": "yerlesimler_kamerika.js",
+   "modern_ulke": "United States of America",
+   "beklenen": "abd",
+   "kimlik_1923": "meksika",
+   "son_donem": {
+    "f": "1821-09-27",
+    "t": "1923-10-29"
+   },
+   "ufka_kadar": true,
+   "kaynak_alani": "bulunamadı",
+   "zincir": [
+    {
+     "kat": "s",
+     "f": "1764-02-14",
+     "t": "1821-09-27",
+     "kimlik": "yeni-ispanya"
+    },
+    {
+     "kat": "s",
+     "f": "1821-09-27",
+     "t": "1923-10-29",
+     "kimlik": "meksika"
+    }
+   ],
+   "cografi_oneri": "Dogu ABD — Louisiana/Florida disinda, AYRI bakilmali"
+  },
+  {
+   "ad": "Albuquerque",
+   "lat": 35.084,
+   "lon": -106.651,
+   "dosya": "yerlesimler_kamerika.js",
+   "modern_ulke": "United States of America",
+   "beklenen": "abd",
+   "kimlik_1923": "meksika",
+   "son_donem": {
+    "f": "1821-09-27",
+    "t": "1923-10-29"
+   },
+   "ufka_kadar": true,
+   "kaynak_alani": "bulunamadı",
+   "zincir": [
+    {
+     "kat": "s",
+     "f": "1706-04-23",
+     "t": "1821-09-27",
+     "kimlik": "yeni-ispanya"
+    },
+    {
+     "kat": "s",
+     "f": "1821-09-27",
+     "t": "1923-10-29",
+     "kimlik": "meksika"
+    }
+   ],
+   "cografi_oneri": "Meksika devri (Guadalupe Hidalgo / Gadsden / Teksas)"
+  },
+  {
+   "ad": "El Paso del Norte",
+   "lat": 31.76,
+   "lon": -106.49,
+   "dosya": "yerlesimler_kamerika.js",
+   "modern_ulke": "United States of America",
+   "beklenen": "abd",
+   "kimlik_1923": "meksika",
+   "son_donem": {
+    "f": "1821-09-27",
+    "t": "1923-10-29"
+   },
+   "ufka_kadar": true,
+   "kaynak_alani": "bulunamadı",
+   "zincir": [
+    {
+     "kat": "s",
+     "f": "1659-12-08",
+     "t": "1821-09-27",
+     "kimlik": "yeni-ispanya"
+    },
+    {
+     "kat": "s",
+     "f": "1821-09-27",
+     "t": "1923-10-29",
+     "kimlik": "meksika"
+    }
+   ],
+   "cografi_oneri": "Meksika devri (Guadalupe Hidalgo / Gadsden / Teksas)"
+  },
+  {
+   "ad": "Fort Robidoux (Uinta Havzası)",
+   "lat": 40.2,
+   "lon": -109.75,
+   "dosya": "yerlesimler_kamerika.js",
+   "modern_ulke": "United States of America",
+   "beklenen": "abd",
+   "kimlik_1923": "meksika",
+   "son_donem": {
+    "f": "1832-01-01",
+    "t": "1923-10-29"
+   },
+   "ufka_kadar": true,
+   "kaynak_alani": "bulunamadı",
+   "zincir": [
+    {
+     "kat": "s",
+     "f": "1832-01-01",
+     "t": "1923-10-29",
+     "kimlik": "meksika"
+    }
+   ],
+   "cografi_oneri": "Meksika devri (Guadalupe Hidalgo / Gadsden / Teksas)"
+  },
+  {
+   "ad": "La Junta de los Ríos (Presidio)",
+   "lat": 29.56,
+   "lon": -104.37,
+   "dosya": "yerlesimler_kamerika.js",
+   "modern_ulke": "United States of America",
+   "beklenen": "abd",
+   "kimlik_1923": "meksika",
+   "son_donem": {
+    "f": "1821-09-27",
+    "t": "1923-10-29"
+   },
+   "ufka_kadar": true,
+   "kaynak_alani": "bulunamadı",
+   "zincir": [
+    {
+     "kat": "s",
+     "f": "1683-01-01",
+     "t": "1821-09-27",
+     "kimlik": "yeni-ispanya"
+    },
+    {
+     "kat": "s",
+     "f": "1821-09-27",
+     "t": "1923-10-29",
+     "kimlik": "meksika"
+    }
+   ],
+   "cografi_oneri": "Meksika devri (Guadalupe Hidalgo / Gadsden / Teksas)"
+  },
+  {
+   "ad": "Laredo",
+   "lat": 27.506,
+   "lon": -99.507,
+   "dosya": "yerlesimler_kamerika.js",
+   "modern_ulke": "United States of America",
+   "beklenen": "abd",
+   "kimlik_1923": "meksika",
+   "son_donem": {
+    "f": "1821-09-27",
+    "t": "1923-10-29"
+   },
+   "ufka_kadar": true,
+   "kaynak_alani": "bulunamadı",
+   "zincir": [
+    {
+     "kat": "s",
+     "f": "1755-05-15",
+     "t": "1821-09-27",
+     "kimlik": "yeni-ispanya"
+    },
+    {
+     "kat": "s",
+     "f": "1821-09-27",
+     "t": "1923-10-29",
+     "kimlik": "meksika"
+    }
+   ],
+   "cografi_oneri": "Meksika devri (Guadalupe Hidalgo / Gadsden / Teksas)"
+  },
+  {
+   "ad": "Las Vegas (Yeni Meksika)",
+   "lat": 35.594,
+   "lon": -105.223,
+   "dosya": "yerlesimler_kamerika.js",
+   "modern_ulke": "United States of America",
+   "beklenen": "abd",
+   "kimlik_1923": "meksika",
+   "son_donem": {
+    "f": "1835-01-01",
+    "t": "1923-10-29"
+   },
+   "ufka_kadar": true,
+   "kaynak_alani": "bulunamadı",
+   "zincir": [
+    {
+     "kat": "s",
+     "f": "1835-01-01",
+     "t": "1923-10-29",
+     "kimlik": "meksika"
+    }
+   ],
+   "cografi_oneri": "Meksika devri (Guadalupe Hidalgo / Gadsden / Teksas)"
+  },
+  {
+   "ad": "Los Ángeles (El Pueblo)",
+   "lat": 34.053,
+   "lon": -118.243,
+   "dosya": "yerlesimler_kamerika.js",
+   "modern_ulke": "United States of America",
+   "beklenen": "abd",
+   "kimlik_1923": "meksika",
+   "son_donem": {
+    "f": "1821-09-27",
+    "t": "1923-10-29"
+   },
+   "ufka_kadar": true,
+   "kaynak_alani": "bulunamadı",
+   "zincir": [
+    {
+     "kat": "s",
+     "f": "1781-09-04",
+     "t": "1821-09-27",
+     "kimlik": "yeni-ispanya"
+    },
+    {
+     "kat": "s",
+     "f": "1821-09-27",
+     "t": "1923-10-29",
+     "kimlik": "meksika"
+    }
+   ],
+   "cografi_oneri": "Meksika devri (Guadalupe Hidalgo / Gadsden / Teksas)"
+  },
+  {
+   "ad": "Monterey (Alta California)",
+   "lat": 36.6,
+   "lon": -121.894,
+   "dosya": "yerlesimler_kamerika.js",
+   "modern_ulke": "United States of America",
+   "beklenen": "abd",
+   "kimlik_1923": "meksika",
+   "son_donem": {
+    "f": "1821-09-27",
+    "t": "1923-10-29"
+   },
+   "ufka_kadar": true,
+   "kaynak_alani": "bulunamadı",
+   "zincir": [
+    {
+     "kat": "s",
+     "f": "1770-06-03",
+     "t": "1821-09-27",
+     "kimlik": "yeni-ispanya"
+    },
+    {
+     "kat": "s",
+     "f": "1821-09-27",
+     "t": "1923-10-29",
+     "kimlik": "meksika"
+    }
+   ],
+   "cografi_oneri": "Meksika devri (Guadalupe Hidalgo / Gadsden / Teksas)"
+  },
+  {
+   "ad": "Nacogdoches",
+   "lat": 31.604,
+   "lon": -94.655,
+   "dosya": "yerlesimler_kamerika.js",
+   "modern_ulke": "United States of America",
+   "beklenen": "abd",
+   "kimlik_1923": "meksika",
+   "son_donem": {
+    "f": "1821-09-27",
+    "t": "1923-10-29"
+   },
+   "ufka_kadar": true,
+   "kaynak_alani": "bulunamadı",
+   "zincir": [
+    {
+     "kat": "s",
+     "f": "1779-01-01",
+     "t": "1821-09-27",
+     "kimlik": "yeni-ispanya"
+    },
+    {
+     "kat": "s",
+     "f": "1821-09-27",
+     "t": "1923-10-29",
+     "kimlik": "meksika"
+    }
+   ],
+   "cografi_oneri": "Meksika devri (Guadalupe Hidalgo / Gadsden / Teksas)"
+  },
+  {
+   "ad": "San José de Guadalupe",
+   "lat": 37.339,
+   "lon": -121.895,
+   "dosya": "yerlesimler_kamerika.js",
+   "modern_ulke": "United States of America",
+   "beklenen": "abd",
+   "kimlik_1923": "meksika",
+   "son_donem": {
+    "f": "1821-09-27",
+    "t": "1923-10-29"
+   },
+   "ufka_kadar": true,
+   "kaynak_alani": "bulunamadı",
+   "zincir": [
+    {
+     "kat": "s",
+     "f": "1777-11-29",
+     "t": "1821-09-27",
+     "kimlik": "yeni-ispanya"
+    },
+    {
+     "kat": "s",
+     "f": "1821-09-27",
+     "t": "1923-10-29",
+     "kimlik": "meksika"
+    }
+   ],
+   "cografi_oneri": "Meksika devri (Guadalupe Hidalgo / Gadsden / Teksas)"
+  },
+  {
+   "ad": "Santa Bárbara",
+   "lat": 34.42,
+   "lon": -119.698,
+   "dosya": "yerlesimler_kamerika.js",
+   "modern_ulke": "United States of America",
+   "beklenen": "abd",
+   "kimlik_1923": "meksika",
+   "son_donem": {
+    "f": "1821-09-27",
+    "t": "1923-10-29"
+   },
+   "ufka_kadar": true,
+   "kaynak_alani": "bulunamadı",
+   "zincir": [
+    {
+     "kat": "s",
+     "f": "1782-04-21",
+     "t": "1821-09-27",
+     "kimlik": "yeni-ispanya"
+    },
+    {
+     "kat": "s",
+     "f": "1821-09-27",
+     "t": "1923-10-29",
+     "kimlik": "meksika"
+    }
+   ],
+   "cografi_oneri": "Meksika devri (Guadalupe Hidalgo / Gadsden / Teksas)"
+  },
+  {
+   "ad": "Santa Rita del Cobre",
+   "lat": 32.8,
+   "lon": -108.07,
+   "dosya": "yerlesimler_kamerika.js",
+   "modern_ulke": "United States of America",
+   "beklenen": "abd",
+   "kimlik_1923": "meksika",
+   "son_donem": {
+    "f": "1821-09-27",
+    "t": "1923-10-29"
+   },
+   "ufka_kadar": true,
+   "kaynak_alani": "bulunamadı",
+   "zincir": [
+    {
+     "kat": "s",
+     "f": "1804-01-01",
+     "t": "1821-09-27",
+     "kimlik": "yeni-ispanya"
+    },
+    {
+     "kat": "s",
+     "f": "1821-09-27",
+     "t": "1923-10-29",
+     "kimlik": "meksika"
+    }
+   ],
+   "cografi_oneri": "Meksika devri (Guadalupe Hidalgo / Gadsden / Teksas)"
+  },
+  {
+   "ad": "Tubac",
+   "lat": 31.612,
+   "lon": -111.046,
+   "dosya": "yerlesimler_kamerika.js",
+   "modern_ulke": "United States of America",
+   "beklenen": "abd",
+   "kimlik_1923": "meksika",
+   "son_donem": {
+    "f": "1821-09-27",
+    "t": "1923-10-29"
+   },
+   "ufka_kadar": true,
+   "kaynak_alani": "bulunamadı",
+   "zincir": [
+    {
+     "kat": "s",
+     "f": "1752-01-01",
+     "t": "1821-09-27",
+     "kimlik": "yeni-ispanya"
+    },
+    {
+     "kat": "s",
+     "f": "1821-09-27",
+     "t": "1923-10-29",
+     "kimlik": "meksika"
+    }
+   ],
+   "cografi_oneri": "Meksika devri (Guadalupe Hidalgo / Gadsden / Teksas)"
+  },
+  {
+   "ad": "Tucson (San Agustín del Tucsón)",
+   "lat": 32.222,
+   "lon": -110.97,
+   "dosya": "yerlesimler_kamerika.js",
+   "modern_ulke": "United States of America",
+   "beklenen": "abd",
+   "kimlik_1923": "meksika",
+   "son_donem": {
+    "f": "1821-09-27",
+    "t": "1923-10-29"
+   },
+   "ufka_kadar": true,
+   "kaynak_alani": "bulunamadı",
+   "zincir": [
+    {
+     "kat": "s",
+     "f": "1775-08-20",
+     "t": "1821-09-27",
+     "kimlik": "yeni-ispanya"
+    },
+    {
+     "kat": "s",
+     "f": "1821-09-27",
+     "t": "1923-10-29",
+     "kimlik": "meksika"
+    }
+   ],
+   "cografi_oneri": "Meksika devri (Guadalupe Hidalgo / Gadsden / Teksas)"
+  },
+  {
+   "ad": "Yuma geçidi (La Purísima Concepción)",
+   "lat": 32.727,
+   "lon": -114.623,
+   "dosya": "yerlesimler_kamerika.js",
+   "modern_ulke": "United States of America",
+   "beklenen": "abd",
+   "kimlik_1923": "meksika",
+   "son_donem": {
+    "f": "1821-09-27",
+    "t": "1923-10-29"
+   },
+   "ufka_kadar": true,
+   "kaynak_alani": "bulunamadı",
+   "zincir": [
+    {
+     "kat": "s",
+     "f": "1780-01-01",
+     "t": "1821-09-27",
+     "kimlik": "yeni-ispanya"
+    },
+    {
+     "kat": "s",
+     "f": "1821-09-27",
+     "t": "1923-10-29",
+     "kimlik": "meksika"
+    }
+   ],
+   "cografi_oneri": "Meksika devri (Guadalupe Hidalgo / Gadsden / Teksas)"
+  },
+  {
+   "ad": "Boise (Fort Boise)",
+   "lat": 43.617,
+   "lon": -116.2,
+   "dosya": "yerlesimler_kamerika.js",
+   "modern_ulke": "United States of America",
+   "beklenen": "abd",
+   "kimlik_1923": "kanada",
+   "son_donem": {
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   },
+   "ufka_kadar": true,
+   "kaynak_alani": "bulunamadı",
+   "zincir": [
+    {
+     "kat": "s",
+     "f": "1834-01-01",
+     "t": "1867-07-01",
+     "kimlik": "ingiliz-kuzey-amerika"
+    },
+    {
+     "kat": "s",
+     "f": "1867-07-01",
+     "t": "1923-10-29",
+     "kimlik": "kanada"
+    }
+   ],
+   "cografi_oneri": "Oregon Country (Pasifik kuzeybatisi)"
+  },
+  {
+   "ad": "Fort Astoria",
+   "lat": 46.188,
+   "lon": -123.831,
+   "dosya": "yerlesimler_kamerika.js",
+   "modern_ulke": "United States of America",
+   "beklenen": "abd",
+   "kimlik_1923": "kanada",
+   "son_donem": {
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   },
+   "ufka_kadar": true,
+   "kaynak_alani": "bulunamadı",
+   "zincir": [
+    {
+     "kat": "s",
+     "f": "1811-04-12",
+     "t": "1867-07-01",
+     "kimlik": "ingiliz-kuzey-amerika"
+    },
+    {
+     "kat": "s",
+     "f": "1867-07-01",
+     "t": "1923-10-29",
+     "kimlik": "kanada"
+    }
+   ],
+   "cografi_oneri": "Oregon Country (Pasifik kuzeybatisi)"
+  },
+  {
+   "ad": "Fort Colvile",
+   "lat": 48.617,
+   "lon": -118.1,
+   "dosya": "yerlesimler_kamerika.js",
+   "modern_ulke": "United States of America",
+   "beklenen": "abd",
+   "kimlik_1923": "kanada",
+   "son_donem": {
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   },
+   "ufka_kadar": true,
+   "kaynak_alani": "bulunamadı",
+   "zincir": [
+    {
+     "kat": "s",
+     "f": "1825-01-01",
+     "t": "1867-07-01",
+     "kimlik": "ingiliz-kuzey-amerika"
+    },
+    {
+     "kat": "s",
+     "f": "1867-07-01",
+     "t": "1923-10-29",
+     "kimlik": "kanada"
+    }
+   ],
+   "cografi_oneri": "Oregon Country (Pasifik kuzeybatisi)"
+  },
+  {
+   "ad": "Fort Hall",
+   "lat": 43.033,
+   "lon": -112.433,
+   "dosya": "yerlesimler_kamerika.js",
+   "modern_ulke": "United States of America",
+   "beklenen": "abd",
+   "kimlik_1923": "kanada",
+   "son_donem": {
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   },
+   "ufka_kadar": true,
+   "kaynak_alani": "bulunamadı",
+   "zincir": [
+    {
+     "kat": "s",
+     "f": "1834-01-01",
+     "t": "1867-07-01",
+     "kimlik": "ingiliz-kuzey-amerika"
+    },
+    {
+     "kat": "s",
+     "f": "1867-07-01",
+     "t": "1923-10-29",
+     "kimlik": "kanada"
+    }
+   ],
+   "cografi_oneri": "Oregon Country (Pasifik kuzeybatisi)"
+  },
+  {
+   "ad": "Fort Nez Percés (Walla Walla)",
+   "lat": 46.05,
+   "lon": -118.9,
+   "dosya": "yerlesimler_kamerika.js",
+   "modern_ulke": "United States of America",
+   "beklenen": "abd",
+   "kimlik_1923": "kanada",
+   "son_donem": {
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   },
+   "ufka_kadar": true,
+   "kaynak_alani": "bulunamadı",
+   "zincir": [
+    {
+     "kat": "s",
+     "f": "1818-01-01",
+     "t": "1867-07-01",
+     "kimlik": "ingiliz-kuzey-amerika"
+    },
+    {
+     "kat": "s",
+     "f": "1867-07-01",
+     "t": "1923-10-29",
+     "kimlik": "kanada"
+    }
+   ],
+   "cografi_oneri": "Oregon Country (Pasifik kuzeybatisi)"
+  },
+  {
+   "ad": "Fort Vancouver",
+   "lat": 45.625,
+   "lon": -122.667,
+   "dosya": "yerlesimler_kamerika.js",
+   "modern_ulke": "United States of America",
+   "beklenen": "abd",
+   "kimlik_1923": "kanada",
+   "son_donem": {
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   },
+   "ufka_kadar": true,
+   "kaynak_alani": "bulunamadı",
+   "zincir": [
+    {
+     "kat": "s",
+     "f": "1825-01-01",
+     "t": "1867-07-01",
+     "kimlik": "ingiliz-kuzey-amerika"
+    },
+    {
+     "kat": "s",
+     "f": "1867-07-01",
+     "t": "1923-10-29",
+     "kimlik": "kanada"
+    }
+   ],
+   "cografi_oneri": "Oregon Country (Pasifik kuzeybatisi)"
+  },
+  {
+   "ad": "Spokane House",
+   "lat": 47.79,
+   "lon": -117.5,
+   "dosya": "yerlesimler_kamerika.js",
+   "modern_ulke": "United States of America",
+   "beklenen": "abd",
+   "kimlik_1923": "kanada",
+   "son_donem": {
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   },
+   "ufka_kadar": true,
+   "kaynak_alani": "bulunamadı",
+   "zincir": [
+    {
+     "kat": "s",
+     "f": "1810-01-01",
+     "t": "1867-07-01",
+     "kimlik": "ingiliz-kuzey-amerika"
+    },
+    {
+     "kat": "s",
+     "f": "1867-07-01",
+     "t": "1923-10-29",
+     "kimlik": "kanada"
+    }
+   ],
+   "cografi_oneri": "Oregon Country (Pasifik kuzeybatisi)"
+  },
+  {
+   "ad": "Pembina",
+   "lat": 48.968,
+   "lon": -97.245,
+   "dosya": "yerlesimler_kamerika.js",
+   "modern_ulke": "United States of America",
+   "beklenen": "abd",
+   "kimlik_1923": "kanada",
+   "son_donem": {
+    "f": "1867-07-01",
+    "t": "1923-10-29"
+   },
+   "ufka_kadar": true,
+   "kaynak_alani": "bulunamadı",
+   "zincir": [
+    {
+     "kat": "s",
+     "f": "1797-01-01",
+     "t": "1867-07-01",
+     "kimlik": "ingiliz-kuzey-amerika"
+    },
+    {
+     "kat": "s",
+     "f": "1867-07-01",
+     "t": "1923-10-29",
+     "kimlik": "kanada"
+    }
+   ],
+   "cografi_oneri": "SINIFLANMADI — elle bakilacak"
+  },
+  {
+   "ad": "Kahnawake",
+   "lat": 45.412,
+   "lon": -73.683,
+   "dosya": "yerlesimler_kamerika.js",
+   "modern_ulke": "Canada",
+   "beklenen": "kanada",
+   "kimlik_1923": "abd",
+   "son_donem": {
+    "f": "1783-09-03",
+    "t": "1923-10-29"
+   },
+   "ufka_kadar": true,
+   "kaynak_alani": "bulunamadı",
+   "zincir": [
+    {
+     "kat": "s",
+     "f": "1667-01-01",
+     "t": "1777-01-01",
+     "kimlik": "haudenosaunee"
+    },
+    {
+     "kat": "s",
+     "f": "1777-01-01",
+     "t": "1783-09-03",
+     "kimlik": "ingiltere"
+    },
+    {
+     "kat": "s",
+     "f": "1783-09-03",
+     "t": "1923-10-29",
+     "kimlik": "abd"
+    }
+   ],
+   "cografi_oneri": "TERS YON — ayrica incelenecek"
+  },
+  {
+   "ad": "Ossossané",
+   "lat": 44.5,
+   "lon": -79.933,
+   "dosya": "yerlesimler_kamerika.js",
+   "modern_ulke": "Canada",
+   "beklenen": "kanada",
+   "kimlik_1923": "abd",
+   "son_donem": {
+    "f": "1783-09-03",
+    "t": "1923-10-29"
+   },
+   "ufka_kadar": true,
+   "kaynak_alani": "bulunamadı",
+   "zincir": [
+    {
+     "kat": "s",
+     "f": "1281-01-01",
+     "t": "1649-03-16",
+     "kimlik": "vendat"
+    },
+    {
+     "kat": "s",
+     "f": "1649-03-16",
+     "t": "1783-09-03",
+     "kimlik": "ingiltere"
+    },
+    {
+     "kat": "s",
+     "f": "1783-09-03",
+     "t": "1923-10-29",
+     "kimlik": "abd"
+    }
+   ],
+   "cografi_oneri": "TERS YON — ayrica incelenecek"
+  },
+  {
+   "ad": "Sainte-Marie-au-pays-des-Hurons",
+   "lat": 44.683,
+   "lon": -79.75,
+   "dosya": "yerlesimler_kamerika.js",
+   "modern_ulke": "Canada",
+   "beklenen": "kanada",
+   "kimlik_1923": "abd",
+   "son_donem": {
+    "f": "1783-09-03",
+    "t": "1923-10-29"
+   },
+   "ufka_kadar": true,
+   "kaynak_alani": "bulunamadı",
+   "zincir": [
+    {
+     "kat": "s",
+     "f": "1639-01-01",
+     "t": "1649-03-16",
+     "kimlik": "vendat"
+    },
+    {
+     "kat": "s",
+     "f": "1649-03-16",
+     "t": "1783-09-03",
+     "kimlik": "ingiltere"
+    },
+    {
+     "kat": "s",
+     "f": "1783-09-03",
+     "t": "1923-10-29",
+     "kimlik": "abd"
+    }
+   ],
+   "cografi_oneri": "TERS YON — ayrica incelenecek"
+  },
+  {
+   "ad": "St. John's (Newfoundland)",
+   "lat": 47.561,
+   "lon": -52.712,
+   "dosya": "yerlesimler_kamerika.js",
+   "modern_ulke": "Canada",
+   "beklenen": "kanada",
+   "kimlik_1923": "abd",
+   "son_donem": {
+    "f": "1783-09-03",
+    "t": "1923-10-29"
+   },
+   "ufka_kadar": true,
+   "kaynak_alani": "bulunamadı",
+   "zincir": [
+    {
+     "kat": "s",
+     "f": "1583-08-05",
+     "t": "1783-09-03",
+     "kimlik": "ingiltere"
+    },
+    {
+     "kat": "s",
+     "f": "1783-09-03",
+     "t": "1923-10-29",
+     "kimlik": "abd"
+    }
+   ],
+   "cografi_oneri": "TERS YON — ayrica incelenecek"
+  },
+  {
+   "ad": "Tehuantepec",
+   "lat": 16.323,
+   "lon": -95.241,
+   "dosya": "yerlesimler_kamerika.js",
+   "modern_ulke": "Mexico",
+   "beklenen": "meksika",
+   "kimlik_1923": "abd",
+   "son_donem": {
+    "f": "1783-09-03",
+    "t": "1923-10-29"
+   },
+   "ufka_kadar": true,
+   "kaynak_alani": "bulunamadı",
+   "zincir": [
+    {
+     "kat": "s",
+     "f": "1281-01-01",
+     "t": "1523-01-01",
+     "kimlik": "zapotek-krallik"
+    },
+    {
+     "kat": "s",
+     "f": "1523-01-01",
+     "t": "1783-09-03",
+     "kimlik": "ingiltere"
+    },
+    {
+     "kat": "s",
+     "f": "1783-09-03",
+     "t": "1923-10-29",
+     "kimlik": "abd"
+    }
+   ],
+   "cografi_oneri": "TERS YON — ayrica incelenecek"
+  }
+ ]
+}

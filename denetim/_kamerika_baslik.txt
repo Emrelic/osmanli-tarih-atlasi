@@ -1,0 +1,74 @@
+// -*- coding: utf-8 -*-
+// YER_YAMA_KAMERIKA_DEVIR_0907 — KIMLIK-1923-0907 · 7 Eylul 2026
+// Sevk: 1.MURAT — "37 nokta modern ABD icinde ama 1923'te meksika/kanada"
+// ---------------------------------------------------------------------
+// 🔴 37 DEGIL 42 — ve fark §3.5.1'in "IKI UC DA OLCULUR" kuralindan cikti:
+//   ABD icinde kanada 19 · ABD icinde meksika 18   (sevkin saydigi 37)
+//   Kanada icinde abd  4 · Meksika icinde abd   1  (TERS YON, 5 — yeni)
+//   Tek yonlu arama besini kacirir, ve kacirdigi 5 daha AGIR bir sinif:
+//   orada eksik bir devir yok, KIMLIK BASTAN YANLIS (Tehuantepec 1523'ten
+//   beri "ingiltere" yaziyor; Newfoundland 1783'te ABD olmus gorunuyor).
+//
+// NE YAPAR: 27 kaydin `s:` zincirine eksik devir donemini yazar.
+//   `s:` dizileri TAM DEGISIMDIR (uygulayicinin sozlesmesi) — kayitlarin
+//   TAMAMI canli veriden URETILDI, elle yazilmadi.
+//
+// 🔴 UC SINAV, uc de gecti (arac/denetim/ARAC-KAMERIKA-YAMA-0907.py):
+//   (1) KAPSAMA  yeni zincirin ilk `f`si + son `t`si eskisiyle AYNI, ic
+//       bosluk yok ⇒ `Degismez 1` ihlal edilemez. Sevkin uyardigi tam
+//       bu: "meksika donemini kesmek abd donemi acmiyorsa SAHIPSIZLIK
+//       dogar."
+//   (2) KUNYE   her yeni donem kimliginin kunye penceresinin ICINDE
+//       (§3.5.0: ardil kunyenin VAR olmasi yazilabilir oldugu anlamina
+//       gelmez, PENCERESI de tutmali).
+//   (3) BICIM   ters/sifir/cakisan donem yok (§8).
+//
+// 🔴 TARIH KONVANSIYONU SECILMEDI, ATLASTAN OKUNDU:
+//   `ingiliz-kuzey-amerika f:1763-02-10` = Paris Antlasmasi IMZASI
+//   veride kullanilan `1783-09-03` = Paris 1783 IMZASI
+//   ⇒ atlas antlasmalarda IMZA gununu kullaniyor; bu yama ona uyar.
+//   TEK ISTISNA: imza ile yururluk arasi BIR YILDAN uzunsa imza gunu
+//   tasarrufu yanlis tarihler. Adams-Onis 1819'da imzalandi, Ispanya
+//   Florida'yi 1821'e kadar birakmadi ⇒ TASDIK gunu (1821-02-22).
+//   §11: "atlas TASARRUFU boyar."
+//
+// KAYNAKLAR — Avalon Project (Yale Law School), birincil metin nesri:
+//   Guadalupe Hidalgo  imza 1848-02-02 · tasdik teatisi 1848-05-30   10 nokta
+//   Oregon             imza 1846-06-15 · 49. paralel                  7 nokta
+//   Gadsden            imza 1853-12-30 · ilan 1854-06-30 · Gila'nin G  2 nokta
+//   Adams-Onis         imza 1819-02-22 · TASDIK 1821-02-22             2 nokta
+//   Teksas             1836-03-02 / 1845-12-29 — ATLASIN KENDI kunyesinden,
+//                      yeni hassasiyet URETILMEDI                      1 nokta
+//   Ters yon (5)       atlasin kendi kunye gunleriyle duzeltildi
+//
+// 🔴 BU YAMANIN DISINDA BIRAKILAN 15 NOKTA — ve niCIN, adiyla:
+//   ALASKA 5 (Alatna · Fort Yukon · Nikolai · Nuchalawoya · Telida)
+//     Zincir "ingiliz-kuzey-amerika -> kanada" diyor; Alaska Rus'tu.
+//     Parca parca yamak IKI kotu secenekten birini dayatiyor: `kanada`yi
+//     1867-10-18'de kesip `abd` acmak 1867-07-01..10-18 arasi 109 GUNLUK
+//     SAHIPSIZLIK dogurur; bosluğu `ingiliz-kuzey-amerika` ile kapatmak
+//     "Alaska Ingilizdi" yalanini DERINLESTIRIR. Dogru cozum tam zincir
+//     yeniden yazimi ve `rus-amerika` KUNYESI YOK (`rusya` 1547-1917 var).
+//     ⇒ AYRI KALEM. Yarim yamamak, yamamamaktan kotudur.
+//   DOGU SINIRI 7 (Duluth · Fort St. Pierre · Grand Portage · Keweenaw ·
+//     Madawaska · Sault Ste. Marie · Pembina)
+//     Bunlar bir DEVIR degil bir SINIR TAHDIDI meselesi (Paris 1783 ·
+//     1818 Konvansiyonu 49. paralel · Webster-Ashburton 1842). Kaynak
+//     ARANDI ama Avalon'da tam metne INILEMEDI (indeks "October 20"
+//     diyor, govde gelmedi) ⇒ `olculemedi`, `bulunamadi` DEGIL.
+//     Ayrica ucu (Sault Ste. Marie · Madawaska · Grand Portage) sinirin
+//     TAM USTUNDE: modern poligon testi orada zayif kanittir.
+//   ST. LOUIS 1  Louisiana Purchase (1803) kalemi; kaynak METNINE
+//     ULASILAMADI (slug 404). Tarih tahmin edilmedi ⇒ `olculemedi`.
+//   EL PASO DEL NORTE 1  "El Paso del Norte" Ciudad Juarez'in TARIHI
+//     ADIDIR ve o sehir MEKSIKA'DA KALDI. Nokta (31.760/-106.490) modern
+//     ABD poligonuna ~1 km ile dusuyor. Yani veri MUHTEMELEN DOGRU,
+//     KOORDINAT supheli. Bir `abd` donemi yazmak burada GERCEGI SILERDI
+//     (§11: "ihlali kapatan bir recete gercegi silebilir"). ⇒ DOKUNULMADI.
+//   YUMA GECIDI 1  Gila-Colorado kavsagi: 1848 sinirini da 1854 sinirini
+//     da savunan okuma var ve ikisi 6 yil ayrisiyor. Iki adayin da 1923
+//     kimligi `abd` — yani DUSUK RISK — ama GUNU belirlenemedi. ⇒ AYRI.
+//
+// ON KOSUL: yok. Kullanilan alti kimligin (abd · kanada ·
+//   ingiliz-kuzey-amerika · ingiltere · yeni-ispanya · meksika ·
+//   teksas-cumhuriyeti) kunyesi de rengi de MEVCUT.

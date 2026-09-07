@@ -226,6 +226,25 @@ def main():
         "bos_kalan_egemen_ulkeler": bos_egemen,
         "kiyiya_yaslanan": yaslanan,
         "poligon_disi": poligon_disi,
+        "kisa_tablo": {
+            "_NOT": "KOLLARIN TUKETECEGI DUZ TABLO. anahtar = NE ADM0_A3. "
+                    "deger = [kova, kimlik, kimlik_adedi, nokta]. Kimlik "
+                    "YALNIZ 'DOGRUDAN' kovasinda bir OLCUMDUR; 'EMILME' bir "
+                    "TAHMINDIR (§2, komsu petek); 'BOYANMIYOR' ve "
+                    "'OLCULEMEDI' kimlik VERMEZ (null) — orayi doldurmak "
+                    "veri degil uydurma olur.",
+            "tablo": {
+                (r["ADM0_A3"] or r["NAME"]): [
+                    ("OLCULEMEDI" if (r["kova"] == "DOGRUDAN"
+                                      and r["kimlik_adedi"] == 0)
+                     else r["kova"]),
+                    (r.get("baskin") if (r["kova"] == "DOGRUDAN"
+                                         and r["kimlik_adedi"] > 0)
+                     else (r["en_yakin"]["kimligi"]
+                           if r["kova"] == "EMILME" else None)),
+                    r["kimlik_adedi"], r["nokta"]]
+                for r in sonuc},
+        },
         "ulkeler": sorted(sonuc, key=lambda r: (-r["nokta"], r["NAME"] or "")),
     }
 

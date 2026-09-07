@@ -128,6 +128,1559 @@
   }
  ],
  "poligon_disi": [],
+ "kisa_tablo": {
+  "_NOT": "KOLLARIN TUKETECEGI DUZ TABLO. anahtar = NE ADM0_A3. deger = [kova, kimlik, kimlik_adedi, nokta]. Kimlik YALNIZ 'DOGRUDAN' kovasinda bir OLCUMDUR; 'EMILME' bir TAHMINDIR (§2, komsu petek); 'BOYANMIYOR' ve 'OLCULEMEDI' kimlik VERMEZ (null) — orayi doldurmak veri degil uydurma olur.",
+  "tablo": {
+   "IDN": [
+    "DOGRUDAN",
+    "hollanda-dogu-hint",
+    5,
+    71
+   ],
+   "MYS": [
+    "DOGRUDAN",
+    "ingiliz-malaya",
+    3,
+    13
+   ],
+   "CHL": [
+    "DOGRUDAN",
+    "sili-cumhuriyeti",
+    1,
+    13
+   ],
+   "BOL": [
+    "DOGRUDAN",
+    "bolivya-cumhuriyeti",
+    1,
+    13
+   ],
+   "PER": [
+    "DOGRUDAN",
+    "peru-cumhuriyeti",
+    2,
+    29
+   ],
+   "ARG": [
+    "DOGRUDAN",
+    "arjantin-cumhuriyeti",
+    2,
+    35
+   ],
+   "ESB": [
+    "EMILME",
+    "ingiltere",
+    0,
+    0
+   ],
+   "CYP": [
+    "DOGRUDAN",
+    "ingiltere",
+    1,
+    3
+   ],
+   "IND": [
+    "DOGRUDAN",
+    "ingiliz-hindistani",
+    13,
+    109
+   ],
+   "CHN": [
+    "DOGRUDAN",
+    "cin-cumhuriyeti",
+    3,
+    98
+   ],
+   "ISR": [
+    "DOGRUDAN",
+    "filistin-mandasi",
+    1,
+    3
+   ],
+   "PSX": [
+    "DOGRUDAN",
+    "filistin-mandasi",
+    1,
+    3
+   ],
+   "LBN": [
+    "DOGRUDAN",
+    "suriye-lubnan-mandasi",
+    1,
+    3
+   ],
+   "ETH": [
+    "DOGRUDAN",
+    "habesistan",
+    3,
+    66
+   ],
+   "SDS": [
+    "DOGRUDAN",
+    "ingiliz-sudani",
+    1,
+    26
+   ],
+   "SOM": [
+    "DOGRUDAN",
+    "italya",
+    2,
+    31
+   ],
+   "KEN": [
+    "DOGRUDAN",
+    "ingiltere",
+    2,
+    15
+   ],
+   "MWI": [
+    "DOGRUDAN",
+    "ingiltere",
+    1,
+    7
+   ],
+   "TZA": [
+    "DOGRUDAN",
+    "ingiltere",
+    2,
+    28
+   ],
+   "SYR": [
+    "DOGRUDAN",
+    "suriye-lubnan-mandasi",
+    1,
+    11
+   ],
+   "SOL": [
+    "DOGRUDAN",
+    "ingiltere",
+    1,
+    16
+   ],
+   "FRA": [
+    "DOGRUDAN",
+    "fransa-cumhuriyet",
+    2,
+    53
+   ],
+   "SUR": [
+    "DOGRUDAN",
+    "hollanda-guyanasi",
+    1,
+    1
+   ],
+   "GUY": [
+    "DOGRUDAN",
+    "ingiliz-guyanasi",
+    1,
+    3
+   ],
+   "KOR": [
+    "DOGRUDAN",
+    "meiji-japonya",
+    1,
+    10
+   ],
+   "PRK": [
+    "DOGRUDAN",
+    "meiji-japonya",
+    1,
+    6
+   ],
+   "MAR": [
+    "DOGRUDAN",
+    "fas",
+    2,
+    35
+   ],
+   "SAH": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "CRI": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "NIC": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "COG": [
+    "DOGRUDAN",
+    "fransa-cumhuriyet",
+    1,
+    10
+   ],
+   "COD": [
+    "DOGRUDAN",
+    "belcika",
+    1,
+    43
+   ],
+   "BTN": [
+    "EMILME",
+    "tibet-ganden-phodrang",
+    0,
+    0
+   ],
+   "UKR": [
+    "DOGRUDAN",
+    "sovyet-rusya",
+    4,
+    43
+   ],
+   "BLR": [
+    "DOGRUDAN",
+    "sovyet-rusya",
+    2,
+    6
+   ],
+   "NAM": [
+    "DOGRUDAN",
+    "ingiltere",
+    1,
+    18
+   ],
+   "ZAF": [
+    "DOGRUDAN",
+    "ingiltere",
+    1,
+    37
+   ],
+   "MAF": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "SXM": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "OMN": [
+    "DOGRUDAN",
+    "umman",
+    1,
+    18
+   ],
+   "UZB": [
+    "DOGRUDAN",
+    "sovyet-rusya",
+    1,
+    13
+   ],
+   "KAZ": [
+    "DOGRUDAN",
+    "sovyet-rusya",
+    1,
+    32
+   ],
+   "TJK": [
+    "DOGRUDAN",
+    "sovyet-rusya",
+    1,
+    3
+   ],
+   "LTU": [
+    "DOGRUDAN",
+    "litvanya",
+    2,
+    4
+   ],
+   "BRA": [
+    "DOGRUDAN",
+    "brezilya-cumhuriyeti",
+    1,
+    30
+   ],
+   "URY": [
+    "DOGRUDAN",
+    "uruguay-cumhuriyeti",
+    1,
+    3
+   ],
+   "MNG": [
+    "DOGRUDAN",
+    "mogolistan",
+    2,
+    15
+   ],
+   "RUS": [
+    "DOGRUDAN",
+    "sovyet-rusya",
+    6,
+    280
+   ],
+   "CZE": [
+    "DOGRUDAN",
+    "cekoslovakya",
+    1,
+    1
+   ],
+   "DEU": [
+    "DOGRUDAN",
+    "almanya",
+    1,
+    29
+   ],
+   "EST": [
+    "DOGRUDAN",
+    "estonya",
+    1,
+    3
+   ],
+   "LVA": [
+    "DOGRUDAN",
+    "letonya",
+    1,
+    3
+   ],
+   "NOR": [
+    "DOGRUDAN",
+    "norvec",
+    1,
+    20
+   ],
+   "SWE": [
+    "DOGRUDAN",
+    "isvec",
+    2,
+    31
+   ],
+   "FIN": [
+    "DOGRUDAN",
+    "finlandiya",
+    1,
+    19
+   ],
+   "VNM": [
+    "DOGRUDAN",
+    "fransiz-cinhindi",
+    1,
+    25
+   ],
+   "KHM": [
+    "DOGRUDAN",
+    "fransiz-cinhindi",
+    1,
+    14
+   ],
+   "LUX": [
+    "DOGRUDAN",
+    "luksemburg",
+    1,
+    1
+   ],
+   "ARE": [
+    "DOGRUDAN",
+    "ingiltere",
+    1,
+    3
+   ],
+   "BEL": [
+    "DOGRUDAN",
+    "belcika",
+    1,
+    9
+   ],
+   "GEO": [
+    "DOGRUDAN",
+    "sovyet-rusya",
+    3,
+    9
+   ],
+   "MKD": [
+    "DOGRUDAN",
+    "yugoslavya",
+    1,
+    9
+   ],
+   "ALB": [
+    "DOGRUDAN",
+    "arnavutluk-bagimsiz",
+    1,
+    14
+   ],
+   "AZE": [
+    "DOGRUDAN",
+    "sovyet-rusya",
+    1,
+    16
+   ],
+   "KOS": [
+    "DOGRUDAN",
+    "yugoslavya",
+    1,
+    2
+   ],
+   "TUR": [
+    "DOGRUDAN",
+    "tbmm-turkiye",
+    3,
+    243
+   ],
+   "ESP": [
+    "DOGRUDAN",
+    "ispanya",
+    1,
+    46
+   ],
+   "LAO": [
+    "DOGRUDAN",
+    "fransiz-cinhindi",
+    1,
+    7
+   ],
+   "KGZ": [
+    "DOGRUDAN",
+    "sovyet-rusya",
+    1,
+    4
+   ],
+   "ARM": [
+    "DOGRUDAN",
+    "sovyet-rusya",
+    1,
+    3
+   ],
+   "DNK": [
+    "DOGRUDAN",
+    "danimarka",
+    1,
+    10
+   ],
+   "LBY": [
+    "DOGRUDAN",
+    "italya",
+    1,
+    40
+   ],
+   "TUN": [
+    "OLCULEMEDI",
+    null,
+    0,
+    36
+   ],
+   "ROU": [
+    "DOGRUDAN",
+    "romanya-kralligi",
+    1,
+    28
+   ],
+   "HUN": [
+    "DOGRUDAN",
+    "macaristan-naiplik",
+    1,
+    20
+   ],
+   "SVK": [
+    "DOGRUDAN",
+    "cekoslovakya",
+    1,
+    9
+   ],
+   "POL": [
+    "DOGRUDAN",
+    "polonya",
+    2,
+    11
+   ],
+   "IRL": [
+    "DOGRUDAN",
+    "irlanda-serbest-devlet",
+    1,
+    11
+   ],
+   "GBR": [
+    "DOGRUDAN",
+    "ingiltere",
+    1,
+    34
+   ],
+   "GRC": [
+    "DOGRUDAN",
+    "yunanistan",
+    2,
+    110
+   ],
+   "ZMB": [
+    "DOGRUDAN",
+    "ingiltere",
+    2,
+    17
+   ],
+   "SLE": [
+    "DOGRUDAN",
+    "fransa-cumhuriyet",
+    2,
+    2
+   ],
+   "GIN": [
+    "DOGRUDAN",
+    "fransa-cumhuriyet",
+    1,
+    7
+   ],
+   "LBR": [
+    "DOGRUDAN",
+    "liberya",
+    1,
+    5
+   ],
+   "CAF": [
+    "DOGRUDAN",
+    "fransa-cumhuriyet",
+    1,
+    14
+   ],
+   "SDN": [
+    "DOGRUDAN",
+    "ingiltere",
+    3,
+    73
+   ],
+   "DJI": [
+    "DOGRUDAN",
+    "fransa-cumhuriyet",
+    1,
+    5
+   ],
+   "ERI": [
+    "DOGRUDAN",
+    "italya",
+    1,
+    15
+   ],
+   "AUT": [
+    "DOGRUDAN",
+    "avusturya",
+    1,
+    2
+   ],
+   "IRQ": [
+    "DOGRUDAN",
+    "irak-kralligi",
+    2,
+    35
+   ],
+   "ITA": [
+    "DOGRUDAN",
+    "italya",
+    2,
+    43
+   ],
+   "CHE": [
+    "DOGRUDAN",
+    "isvicre",
+    2,
+    7
+   ],
+   "IRN": [
+    "DOGRUDAN",
+    "kacar",
+    3,
+    109
+   ],
+   "NLD": [
+    "DOGRUDAN",
+    "hollanda",
+    1,
+    8
+   ],
+   "LIE": [
+    "EMILME",
+    "almanya",
+    0,
+    0
+   ],
+   "CIV": [
+    "DOGRUDAN",
+    "fransa-cumhuriyet",
+    2,
+    10
+   ],
+   "SRB": [
+    "DOGRUDAN",
+    "yugoslavya",
+    2,
+    13
+   ],
+   "MLI": [
+    "DOGRUDAN",
+    "fransa-cumhuriyet",
+    1,
+    14
+   ],
+   "SEN": [
+    "DOGRUDAN",
+    "fransa-cumhuriyet",
+    1,
+    12
+   ],
+   "NGA": [
+    "DOGRUDAN",
+    "ingiltere",
+    1,
+    23
+   ],
+   "BEN": [
+    "DOGRUDAN",
+    "fransa-cumhuriyet",
+    2,
+    2
+   ],
+   "AGO": [
+    "DOGRUDAN",
+    "portekiz",
+    3,
+    28
+   ],
+   "HRV": [
+    "DOGRUDAN",
+    "yugoslavya",
+    2,
+    24
+   ],
+   "SVN": [
+    "DOGRUDAN",
+    "yugoslavya",
+    1,
+    1
+   ],
+   "QAT": [
+    "DOGRUDAN",
+    "katar",
+    1,
+    1
+   ],
+   "SAU": [
+    "DOGRUDAN",
+    "suud-ucuncu",
+    3,
+    28
+   ],
+   "BWA": [
+    "DOGRUDAN",
+    "ingiltere",
+    1,
+    12
+   ],
+   "ZWE": [
+    "DOGRUDAN",
+    "ingiltere",
+    2,
+    9
+   ],
+   "PAK": [
+    "DOGRUDAN",
+    "ingiliz-hindistani",
+    2,
+    11
+   ],
+   "BGR": [
+    "DOGRUDAN",
+    "bulgaristan-kralligi",
+    2,
+    23
+   ],
+   "THA": [
+    "DOGRUDAN",
+    "siyam-chakri",
+    1,
+    24
+   ],
+   "SMR": [
+    "EMILME",
+    "italya",
+    0,
+    0
+   ],
+   "HTI": [
+    "DOGRUDAN",
+    "haiti",
+    1,
+    1
+   ],
+   "DOM": [
+    "DOGRUDAN",
+    "dominik-cumhuriyeti",
+    1,
+    2
+   ],
+   "TCD": [
+    "DOGRUDAN",
+    "fransa-cumhuriyet",
+    1,
+    18
+   ],
+   "KWT": [
+    "DOGRUDAN",
+    "kuveyt",
+    1,
+    1
+   ],
+   "SLV": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "GTM": [
+    "DOGRUDAN",
+    "guatemala",
+    1,
+    2
+   ],
+   "TLS": [
+    "DOGRUDAN",
+    "portekiz",
+    1,
+    1
+   ],
+   "BRN": [
+    "DOGRUDAN",
+    "brunei-sultanligi",
+    1,
+    1
+   ],
+   "MCO": [
+    "EMILME",
+    "fransa-cumhuriyet",
+    0,
+    0
+   ],
+   "DZA": [
+    "DOGRUDAN",
+    "fransa-cumhuriyet",
+    1,
+    53
+   ],
+   "MOZ": [
+    "DOGRUDAN",
+    "portekiz",
+    2,
+    18
+   ],
+   "SWZ": [
+    "DOGRUDAN",
+    "ingiltere",
+    1,
+    1
+   ],
+   "BDI": [
+    "DOGRUDAN",
+    "belcika",
+    1,
+    2
+   ],
+   "RWA": [
+    "DOGRUDAN",
+    "belcika",
+    1,
+    3
+   ],
+   "MMR": [
+    "DOGRUDAN",
+    "ingiliz-hindistani",
+    2,
+    30
+   ],
+   "BGD": [
+    "DOGRUDAN",
+    "ingiliz-hindistani",
+    1,
+    3
+   ],
+   "AND": [
+    "EMILME",
+    "fransa-cumhuriyet",
+    0,
+    0
+   ],
+   "AFG": [
+    "DOGRUDAN",
+    "afganistan",
+    2,
+    6
+   ],
+   "MNE": [
+    "DOGRUDAN",
+    "yugoslavya",
+    1,
+    4
+   ],
+   "BIH": [
+    "DOGRUDAN",
+    "yugoslavya",
+    1,
+    15
+   ],
+   "UGA": [
+    "DOGRUDAN",
+    "ingiltere",
+    2,
+    9
+   ],
+   "USG": [
+    "EMILME",
+    "kuba-cumhuriyeti",
+    0,
+    0
+   ],
+   "CUB": [
+    "DOGRUDAN",
+    "kuba-cumhuriyeti",
+    2,
+    6
+   ],
+   "HND": [
+    "DOGRUDAN",
+    "meksika",
+    1,
+    3
+   ],
+   "ECU": [
+    "DOGRUDAN",
+    "ekvador-cumhuriyeti",
+    1,
+    4
+   ],
+   "COL": [
+    "DOGRUDAN",
+    "kolombiya-cumhuriyeti",
+    2,
+    6
+   ],
+   "PRY": [
+    "DOGRUDAN",
+    "paraguay-cumhuriyeti",
+    2,
+    5
+   ],
+   "BRI": [
+    "EMILME",
+    "uruguay-cumhuriyeti",
+    0,
+    0
+   ],
+   "PRT": [
+    "DOGRUDAN",
+    "portekiz",
+    1,
+    10
+   ],
+   "MDA": [
+    "DOGRUDAN",
+    "romanya-kralligi",
+    1,
+    4
+   ],
+   "TKM": [
+    "DOGRUDAN",
+    "sovyet-rusya",
+    1,
+    10
+   ],
+   "JOR": [
+    "DOGRUDAN",
+    "urdun-emirligi",
+    2,
+    3
+   ],
+   "NPL": [
+    "DOGRUDAN",
+    "nepal",
+    1,
+    1
+   ],
+   "LSO": [
+    "DOGRUDAN",
+    "ingiltere",
+    1,
+    2
+   ],
+   "CMR": [
+    "DOGRUDAN",
+    "ingiltere",
+    2,
+    12
+   ],
+   "GAB": [
+    "DOGRUDAN",
+    "fransa-cumhuriyet",
+    1,
+    7
+   ],
+   "NER": [
+    "DOGRUDAN",
+    "fransa-cumhuriyet",
+    2,
+    15
+   ],
+   "BFA": [
+    "DOGRUDAN",
+    "fransa-cumhuriyet",
+    1,
+    6
+   ],
+   "TGO": [
+    "DOGRUDAN",
+    "fransa-cumhuriyet",
+    1,
+    1
+   ],
+   "GHA": [
+    "DOGRUDAN",
+    "ingiltere",
+    1,
+    8
+   ],
+   "GNB": [
+    "DOGRUDAN",
+    "portekiz",
+    1,
+    2
+   ],
+   "GIB": [
+    "DOGRUDAN",
+    "ingiltere",
+    1,
+    1
+   ],
+   "USA": [
+    "DOGRUDAN",
+    "abd",
+    3,
+    212
+   ],
+   "CAN": [
+    "DOGRUDAN",
+    "kanada",
+    2,
+    173
+   ],
+   "MEX": [
+    "DOGRUDAN",
+    "meksika",
+    2,
+    56
+   ],
+   "BLZ": [
+    "DOGRUDAN",
+    "ingiltere",
+    1,
+    1
+   ],
+   "PAN": [
+    "DOGRUDAN",
+    "panama-cumhuriyeti",
+    1,
+    2
+   ],
+   "VEN": [
+    "DOGRUDAN",
+    "venezuela-cumhuriyeti",
+    1,
+    3
+   ],
+   "PNG": [
+    "DOGRUDAN",
+    "avustralya",
+    1,
+    5
+   ],
+   "EGY": [
+    "DOGRUDAN",
+    "misir-kralligi",
+    2,
+    56
+   ],
+   "YEM": [
+    "DOGRUDAN",
+    "yemen",
+    4,
+    13
+   ],
+   "MRT": [
+    "DOGRUDAN",
+    "fransa-cumhuriyet",
+    1,
+    6
+   ],
+   "GNQ": [
+    "EMILME",
+    "fransa-cumhuriyet",
+    0,
+    0
+   ],
+   "GMB": [
+    "DOGRUDAN",
+    "ingiltere",
+    1,
+    2
+   ],
+   "HKG": [
+    "DOGRUDAN",
+    "ingiltere",
+    1,
+    1
+   ],
+   "VAT": [
+    "EMILME",
+    "italya",
+    0,
+    0
+   ],
+   "CYN": [
+    "DOGRUDAN",
+    "ingiltere",
+    1,
+    2
+   ],
+   "CNM": [
+    "DOGRUDAN",
+    "ingiltere",
+    1,
+    1
+   ],
+   "KAS": [
+    "EMILME",
+    "cammu-kesmir",
+    0,
+    0
+   ],
+   "KAB": [
+    "EMILME",
+    "sovyet-rusya",
+    0,
+    0
+   ],
+   "WSB": [
+    "EMILME",
+    "ingiltere",
+    0,
+    0
+   ],
+   "SPI": [
+    "EMILME",
+    "sili-cumhuriyeti",
+    0,
+    0
+   ],
+   "BRT": [
+    "EMILME",
+    "misir-kralligi",
+    0,
+    0
+   ],
+   "ATA": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "AUS": [
+    "DOGRUDAN",
+    "avustralya",
+    1,
+    74
+   ],
+   "GRL": [
+    "DOGRUDAN",
+    "danimarka",
+    1,
+    2
+   ],
+   "FJI": [
+    "DOGRUDAN",
+    "ingiltere",
+    1,
+    2
+   ],
+   "NZL": [
+    "DOGRUDAN",
+    "yeni-zelanda",
+    1,
+    3
+   ],
+   "NCL": [
+    "DOGRUDAN",
+    "fransa-cumhuriyet",
+    1,
+    1
+   ],
+   "MDG": [
+    "DOGRUDAN",
+    "fransa-cumhuriyet",
+    1,
+    21
+   ],
+   "PHL": [
+    "DOGRUDAN",
+    "abd",
+    1,
+    14
+   ],
+   "LKA": [
+    "DOGRUDAN",
+    "ingiltere",
+    1,
+    3
+   ],
+   "CUW": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "ABW": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "BHS": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "TCA": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "TWN": [
+    "DOGRUDAN",
+    "meiji-japonya",
+    1,
+    3
+   ],
+   "JPN": [
+    "DOGRUDAN",
+    "meiji-japonya",
+    1,
+    34
+   ],
+   "SPM": [
+    "EMILME",
+    "kanada",
+    0,
+    0
+   ],
+   "ISL": [
+    "DOGRUDAN",
+    "izlanda",
+    1,
+    2
+   ],
+   "PCN": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "PYF": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "ATF": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "SYC": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "KIR": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "MHL": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "TTO": [
+    "DOGRUDAN",
+    "ingiltere",
+    1,
+    2
+   ],
+   "GRD": [
+    "EMILME",
+    "ingiltere",
+    0,
+    0
+   ],
+   "VCT": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "BRB": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "LCA": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "DMA": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "UMI": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "MSR": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "ATG": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "KNA": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "VIR": [
+    "EMILME",
+    "abd",
+    0,
+    0
+   ],
+   "BLM": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "PRI": [
+    "DOGRUDAN",
+    "abd",
+    1,
+    2
+   ],
+   "AIA": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "VGB": [
+    "EMILME",
+    "abd",
+    0,
+    0
+   ],
+   "JAM": [
+    "DOGRUDAN",
+    "ingiltere",
+    1,
+    3
+   ],
+   "CYM": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "BMU": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "HMD": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "SHN": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "MUS": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "COM": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "STP": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "CPV": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "MLT": [
+    "DOGRUDAN",
+    "ingiltere",
+    1,
+    1
+   ],
+   "JEY": [
+    "EMILME",
+    "fransa-cumhuriyet",
+    0,
+    0
+   ],
+   "GGY": [
+    "EMILME",
+    "fransa-cumhuriyet",
+    0,
+    0
+   ],
+   "IMN": [
+    "DOGRUDAN",
+    "ingiltere",
+    1,
+    1
+   ],
+   "ALD": [
+    "EMILME",
+    "finlandiya",
+    0,
+    0
+   ],
+   "FRO": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "IOA": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "IOT": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "SGP": [
+    "DOGRUDAN",
+    "ingiliz-malaya",
+    1,
+    1
+   ],
+   "NFK": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "COK": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "TON": [
+    "DOGRUDAN",
+    "tonga-kralligi",
+    1,
+    1
+   ],
+   "WLF": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "WSM": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "SLB": [
+    "DOGRUDAN",
+    "ingiltere",
+    1,
+    2
+   ],
+   "TUV": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "MDV": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "NRU": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "FSM": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "SGS": [
+    "DOGRUDAN",
+    "ingiltere",
+    1,
+    1
+   ],
+   "FLK": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "VUT": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "NIU": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "ASM": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "PLW": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "GUM": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "MNP": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "BHR": [
+    "DOGRUDAN",
+    "ingiltere",
+    1,
+    1
+   ],
+   "CSI": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "PGA": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "CLP": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "MAC": [
+    "DOGRUDAN",
+    "portekiz",
+    1,
+    1
+   ],
+   "ATC": [
+    "EMILME",
+    "hollanda-dogu-hint",
+    0,
+    0
+   ],
+   "BJN": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "SER": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ],
+   "SCR": [
+    "BOYANMIYOR",
+    null,
+    0,
+    0
+   ]
+  }
+ },
  "ulkeler": [
   {
    "NAME": "Russia",
