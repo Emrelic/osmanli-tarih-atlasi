@@ -454,6 +454,37 @@ def gc_imza(gc):
     return len(gc), len(tepeler), frozenset(tepeler)
 
 
+def _merkez(gc):
+    """gc tepelerinin ortalamasi. Kaba — ama bir ANAHTAR CAKISMASINI gostermek
+    icin yeter: cakisan iki kenar binlerce km ayri olur, ayni kenarin iki
+    kaydi ise 0,00 km."""
+    xs = ys = n = 0.0
+    if not isinstance(gc, list):
+        return None
+    for p in gc:
+        if isinstance(p, list):
+            for t in p:
+                if isinstance(t, (list, tuple)) and len(t) >= 2:
+                    try:
+                        xs += float(t[0]); ys += float(t[1]); n += 1
+                    except (TypeError, ValueError):
+                        pass
+    return (xs / n, ys / n) if n else None
+
+
+def _km(p, q):
+    import math
+    (lon1, lat1), (lon2, lat2) = p, q
+    dlat = math.radians(lat2 - lat1); dlon = math.radians(lon2 - lon1)
+    a = (math.sin(dlat / 2) ** 2 + math.cos(math.radians(lat1))
+         * math.cos(math.radians(lat2)) * math.sin(dlon / 2) ** 2)
+    return 2 * 6371.0 * math.asin(min(1.0, math.sqrt(a)))
+
+
+# 🔴 §11'in "yakin mukerrer yerlesim" esigi — projenin KENDI sayisi, secilmedi.
+CAKISMA_KM = 3.0
+
+
 def mukerrer_geometri(carpraz, okunan, bulgular):
     """
     Ayni kenari iki kol da yazmissa GEOMETRILERI AYNI MI?
@@ -468,7 +499,7 @@ def mukerrer_geometri(carpraz, okunan, bulgular):
        yanlis secilir (CLAUDE.md §11: iki ayri kusur tek satirda raporlanirsa
        ayni care uygulanir).
     """
-    sonuc = {"ayni": [], "bos_taraf": [], "farkli": [], "olculemedi": []}
+    sonuc = {"ayni": [], "bos_taraf": [], "farkli": [], "anahtar_cakismasi": [], "olculemedi": []}
     for k, v in sorted(carpraz.items()):
         imzalar = []
         for b, i, _hal in v:
@@ -484,13 +515,39 @@ def mukerrer_geometri(carpraz, okunan, bulgular):
         elif len({s[2] for _, s in imzalar}) == 1:
             sonuc["ayni"].append(etiket)
         else:
+            # 🔴 "GEOMETRI FARKLI" IKI AYRI SEY OLABILIR — ve careleri TERS:
+            #    YAKIN (<3 km) : iki kol AYNI kenari farkli cizmis ⇒ geometri
+            #                    anlasmazligi, kollara sorulur
+            #    UZAK  (>3 km) : anahtar IKI AYRI KENARI birlestirmis ⇒
+            #                    ANAHTAR CAKISMASI, ve care ANAHTARDA
+            # Emsal (M-3238, KIMLIK-1923-0907): normalleştirici `Kudüs`
+            # (Filistin) ile `Kudus` (Orta Cava) adlarini ayni kovaya indirdi —
+            # 9272 km. Ikisinin ORTAK bir kimligi bile vardi (`ingiltere`), yani
+            # birlestiren alet bariz bir celiskiyi de gormezdi.
+            # Esik 3 km: §11'in "yakin mukerrer yerlesim" esigi — projenin KENDI
+            # sayisi, burada secilmedi.
+            merkezler = [(b, _merkez(okunan[b]["kayitlar"][i].get("gc")))
+                         for b, i, _h in v]
+            olculen = [m for _, m in merkezler if m]
+            d = max((_km(olculen[x], olculen[y])
+                     for x in range(len(olculen)) for y in range(x + 1, len(olculen))),
+                    default=None)
             a0, a1 = imzalar[0][1], imzalar[1][1]
             ortak = len(a0[2] & a1[2]); birlesim = len(a0[2] | a1[2])
-            sonuc["farkli"].append(etiket)
-            bulgular.append(("KIRMIZI", "+".join(b for b, _ in imzalar), "-",
-                             "MUKERRER KENARIN GEOMETRISI FARKLI: %s · ortak tepe %d/%d "
-                             "⇒ modelin 'kenar cikarimi MEKANIK' iddiasi bu cift icin TUTMUYOR"
-                             % (etiket, ortak, birlesim)))
+            if d is not None and d > CAKISMA_KM:
+                sonuc["anahtar_cakismasi"].append("%s (%.1f km)" % (etiket, d))
+                bulgular.append(("KIRMIZI", "+".join(b for b, _ in imzalar), "-",
+                                 "ANAHTAR CAKISMASI: %s — ayni anahtara dusen iki kayit "
+                                 "%.1f km APAYRI. Bu bir MUKERRER DEGIL: anahtar IKI AYRI "
+                                 "KENARI birlestirmis. Care ANAHTARDA, geometride degil."
+                                 % (etiket, d)))
+            else:
+                sonuc["farkli"].append(etiket)
+                bulgular.append(("KIRMIZI", "+".join(b for b, _ in imzalar), "-",
+                                 "MUKERRER KENARIN GEOMETRISI FARKLI: %s · ortak tepe %d/%d "
+                                 "· merkez uzakligi %s ⇒ ayni kenar, IKI FARKLI CIZIM"
+                                 % (etiket, ortak, birlesim,
+                                    ("%.2f km" % d) if d is not None else "olculemedi")))
     return sonuc
 
 
@@ -828,7 +885,8 @@ def main():
         P("   MUKERRER KENARLARIN GEOMETRISI  (birlestirmenin FIYATINI bu belirler)")
         P("      BIREBIR AYNI  : %d" % len(geo["ayni"]))
         P("      BIR TARAF BOS : %d   %s" % (len(geo["bos_taraf"]), ", ".join(geo["bos_taraf"])))
-        P("      FARKLI        : %d   %s" % (len(geo["farkli"]), ", ".join(geo["farkli"])))
+        P("      FARKLI (ayni kenar, iki cizim): %d   %s" % (len(geo["farkli"]), ", ".join(geo["farkli"])))
+        P("      🔴 ANAHTAR CAKISMASI (>%.0f km): %d   %s" % (CAKISMA_KM, len(geo["anahtar_cakismasi"]), ", ".join(geo["anahtar_cakismasi"])))
         P("      OLCULEMEDI    : %d   %s" % (len(geo["olculemedi"]), ", ".join(geo["olculemedi"])))
         P("")
         P("   AD VARYANTI SINAVI  (ayni kenar farkli NE ad alanindan yazilmis mi)")

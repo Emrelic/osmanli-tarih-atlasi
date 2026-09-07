@@ -231,11 +231,31 @@ def ayak_atesleme(tmp):
     bildir("ATESLEME", "BOLGELER ARASI MUKERRER sayiliyor", n == 1, "%d mukerrer kenar" % n)
 
     # ── MUKERRER GEOMETRI dallari ──────────────────────────────────────────
-    def geo_farkli(d):
+    # 🔴 ANAHTAR CAKISMASI — M-3238 (Kudüs/Kudus, 9272 km) sinifi.
+    #    Ayni anahtara dusen iki kayit BINLERCE KM ayriysa bu bir MUKERRER
+    #    DEGIL: anahtar iki AYRI kenari birlestirmis. "Geometri farkli"
+    #    diye raporlanirsa care YANLIS YERE gider (geometriye, anahtara degil).
+    def anahtar_cakismasi(d):
         k = temiz_kayit("Greece", "Turkey")
-        k2 = dict(k, gc=[[[99.0, 9.0], [99.1, 9.1]]])    # AYNI kenar, BASKA cizgi
-        kol_yaz(d, "BALKAN", [k2], kapsayici="kenar")
-    bozuk("MUKERRER GEOMETRI FARKLI", geo_farkli, "GEOMETRISI FARKLI")
+        uzak = dict(k, gc=[[[110.84, -6.81], [110.85, -6.82]]])   # Orta Cava
+        kol_yaz(d, "BALKAN", [uzak], kapsayici="kenar")
+    kod, rapor = dal_kos(tmp, "anahtar_cakismasi", anahtar_cakismasi)
+    g = (rapor or {}).get("mukerrer_geometri", {})
+    bildir("ATESLEME", "🔴 ANAHTAR CAKISMASI (uzak geometri)",
+           len(g.get("anahtar_cakismasi", [])) == 1 and not g.get("farkli") and kod == 1,
+           "cakisma=%s farkli=%d" % (g.get("anahtar_cakismasi"), len(g.get("farkli", []))))
+
+    # ... ve YAKIN bir fark ANAHTAR CAKISMASI diye raporlanmamali
+    def geo_farkli_yakin(d):
+        k = temiz_kayit("Greece", "Turkey")
+        yakin = dict(k, gc=[[[26.000, 41.000], [26.101, 41.101]]])  # ~150 m kayma
+        kol_yaz(d, "BALKAN", [yakin], kapsayici="kenar")
+    kod, rapor = dal_kos(tmp, "geo_farkli_yakin", geo_farkli_yakin)
+    g = (rapor or {}).get("mukerrer_geometri", {})
+    bildir("ATESLEME", "YAKIN fark cakisma SAYILMIYOR",
+           len(g.get("farkli", [])) == 1 and not g.get("anahtar_cakismasi"),
+           "farkli=%d cakisma=%d" % (len(g.get("farkli", [])),
+                                     len(g.get("anahtar_cakismasi", []))))
 
     def geo_bos_taraf(d):
         k = dict(temiz_kayit("Greece", "Turkey"), gc=[])  # AYNI kenar, gc BOS
