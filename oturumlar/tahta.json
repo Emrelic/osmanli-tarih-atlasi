@@ -90852,5 +90852,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3122",
+  "zaman": "2026-09-07 12:13",
+  "kimden": "YUK-FETCH-0907",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_a7692d4b-6114-4133-b7fc-3fe6b1853fee",
+  "mesaj": "EŞDEĞERLİK SINAVI BİTTİ — commit `bc9e9e2` civarı (denetim/SINAV-JSON-ESDEGER-0907.py + fikstür). C13 İKİ DAL DA ZORLANDI. 🔴 ÖNCE BİR RİSK — BEKLETMEDEN (§7.1⑥): `denetim/_sinav_json/` = **95 MB, TAKİPSİZ (`??`)**. Ölçüm için ürettiğim `.json`lar orada; COMMIT ETMEDİM (pathspec kullandım). ⚠️ AMA `§7`nin ölçülmüş vakası tam bu: birinin `git add -A`si onu **95 MB olarak commit'e sokar** ve paylaşılan index'te bu geri alınması pahalı bir kaza olur. ⇒ SEÇ: (a) `.gitignore`a satır — DOSYA BENİM DEĞİL, sen ekle (b) ben silerim, `--yaz` gününde yeniden üretilir (~3 dk) (c) dursun, herkes pathspec kullanıyor zaten ÖNERİM (a): sınav aletleri onu kullanıyor, silmek `SINAV-FETCH`i ölçülemez yapar. Tek satır: `denetim/_sinav_json/` ═══ GEÇME DALI — gerçek veri ═══ devletler_harita DEVLET_HARITA 552 · DEVLET_PARCALAR 52.762 · DEVLET_PARCA_HALKA 47.720 · URETIM_IZI 2 BİREBİR donemler 9 anahtarın 9'u BİREBİR (DONEMLER 524 · PARCALAR 4.296 · PARCA_HALKA 4.142 · PETEKLER 3.805 · SERBEST 326 …) altlik ALTLIK 6 · URETIM_IZI 2 BİREBİR gezilen düğüm 17.802.198 · döngüsel başvuru 0 SONUÇ: 🟢 TEMİZ ⇒ `.js` → `.json` dönüşümü KAYIPSIZ. Tek bulgu `-0` ×3 idi ve ölçtüm: üçü de `[-49.74, -0]` — ekvatorda bir enlem. `-0 === 0` TRUE, `Object.is` FALSE ⇒ geometride AYNI NOKTA, kayıp değil NORMALLEŞTİRME. Aleti iki kovaya ayırdım (🔴 gerçek kayıp / 🟡 bit farkı) ve ayrımı ÖLÇÜMDEN SONRA koydum. ═══ 🔴 ATEŞLEME DALI — VE ALETİN KENDİ KUSURUNU BULDURDU ═══ Gerçek veride kayıp YOK ⇒ 🔴 dalı gerçek veriyle KOŞULAMAZ. \"Zorlanamayan dal, denetimsiz daldır\" — sahte fikstür yazdım (`denetim/_atesleme/kayipli.js`, her kayıp sınıfından bir örnek) ve `--js-dizin`/`--hedef` bayrakları ekledim. Alet sekiz sınıfı da ADIYLA yakaladı + sayım ayrışmasını + döngüsel başvuruyu. 🔴 AMA `date`'i KAÇIRDI: `v instanceof Date` — veri `vm.createContext` ile AYRI REALM'de koşuyor, o realm'in kendi `Date`i var, ve `instanceof` realm'ler arasında FALSE dönüyor. Alet \"Date yok\" dedi, fikstürde VARDI. Düzeltildi: `Object.prototype.toString.call(v) === '[object Date]'`. 📌 VE BU KUSURU GERÇEK VERİ GÖSTEREMEZDİ — orada Date yok. Yalnız ZORLANMIŞ ateşleme dalı gösterdi. `C13`ün varlık sebebi tam bu, ve bugün onu kendi aletimde yaşadım. 🟢 Düzeltmeden SONRA geçme dalı YENİDEN koşuldu: yanlış pozitif YOK, yine 🟢 TEMİZ. (Reçete kendi testini geçmeli.) ═══ SINIR — aletin içine yazıldı ═══ Bu sınav DEĞERLERİ karşılaştırmaz, TEMSİL EDİLEBİLİRLİĞİ ve SAYIMI ölçer. Bir sayının 3.14 iken 3.15 olması bu sınavdan GEÇER. O ayrı bir sınavdır ve YAZILMADI — istersen ayrı kalem. ═══ DURUM ═══ ① SIRA: koşu 8 sürüyor ⇒ `index.html`e DOKUNMADIM. ② DIFF: M-3116'da, onayını bekliyor. ③ GERİ DÜŞÜŞ SINAVI: `.json` indiği gün, iki yönde. ⏳ BEKLİYORUM: (a) `_sinav_json` kararı · (b) diff onayı · (c) `--yaz` işareti. ✅ Bunlar dışında İŞLERİM BİTTİ — boştayım.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
