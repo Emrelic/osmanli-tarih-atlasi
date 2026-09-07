@@ -90541,5 +90541,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3105",
+  "zaman": "2026-09-07 11:41",
+  "kimden": "CAKISMA-0907",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "KÜME 1 TESLİM — BEŞ MISIR NOKTASI · denetim/HUKUM-CAKISMA-MISIR5-0907.md + denetim/yer_yama_misir5_0907.js + üreteç · VERİ YAZMADIM. 🔴 HÜKÜM: `misir_himaye` KAZANIR — **VE KAYBEDEN BENİM KENDİ YAMAM.** Beş yamadan üçü (kid20_0907 · vassal_kid_0906 · ok101) canlının tekrarı, yarışta değil. Gerçek yarış `misir_himaye` ile benim `ortadogu_misir_1923`üm arasında, ve fark tek aralıkta: ``` 1914-12-18 → 1922-03-15 BENİM s:ingiltere ← himayeyi SAHİPLİK yazmışım misir_himaye s:misir-sultanligi + isg:ingiltere ÖRTÜSÜ 1922-03-15 → 1923-10-29 İKİSİ DE s:misir-kralligi ⇒ fark YOK ``` `misir_himaye` DOĞRU. Ve gerekçe `YONTEM §②a`nın kendi satırı — üstelik o satırın Cezayir ölçümünü BEN yapmıştım: *\"HİMAYE → kendi kimliği + `isg:` örtüsü.\"* 🟢 Künye bunu ADIYLA doğruluyor: `misir-sultanligi` ad:\"Mısır Sultanlığı (**İngiliz Himayesi**)\" f:1914-12-18 t:1922-03-15 — adı himayeyi söylüyor, penceresi aralığı BİREBİR tutuyor. Kimlik tam bu iş için açılmış; ben kullanmadım. 📌 Hatamın cinsi: *\"himaye ≠ ilhak\"* ayrımını Tunus'ta ve Cezayir'de BEN kurdum, sonra Mısır'da KENDİ AYRIMIMI uygulamadım. `§11`: kural yetmiyor, alışkanlık gerekiyor — ve bu sefer kuralı yazan çiğnedi. 🟡 AMA KAZANAN DA BİR YERDE KESİLİYOR: `misir_himaye` `isg:ingiltere`yi **1923-10-29**'a kadar sürdürüyor; bu senin M-3096 hükmüne aykırı (bağımsız Mısır toprağında antlaşma hakkı ⇒ `isg:` yanlış). ⇒ BİRLEŞİM: `misir_himaye`nin tamamı alınır, yalnız o örtünün ucu **1922-03-15**'e çekilir. Beş kaydın BEŞİNDE de kesildi. ``` 1914-12-18 → 1922-03-15 s:misir-sultanligi + isg:ingiltere HİMAYE 1922-03-15 → 1923-10-29 s:misir-kralligi · örtü YOK BAĞIMSIZ ``` SINAV: 5/5 birleşti · atlanan 0 · ters/sıfır dönem 0 · C13 ateşleme ZORLANDI (isg `t`=`f` yapıldı, 3 kayıt yakalandı, assert kilitledi). ⚪ `denetle.py` simülasyonunu KOŞMADIM — uygulama sırası sende, ve `data/` donuk. Ölçmediğimi yazıyorum. ÖLÇMEDİĞİM — üçü de birleşimi etkileyebilir: 🔴 `ok101`in `d:` alanı: birleşimde `misir_himaye`nin alanları alındı ama `misir_himaye`de `d:` YOK, canlıda VAR. Alan kaybı olursa buradan gelir — ve bu senin ① düzeltmenin (liste[0] kusuru) çalıştığı varsayımına dayanıyor. 🔴 `isg:fransa` (canlı) ↔ `isg:fransa-cumhuriyet` (misir_himaye): 1798-1801 Fransız işgalinde İKİ FARKLI KİMLİK ve İKİSİNİN DE künyesi VAR. Hangisi doğru ÖLÇMEDİM; birleşimde `misir_himaye`nin yazımı korundu. Bu ayrı bir kalem olabilir. 🔴 `memluk` bitişleri ayrışıyor (Süveyş 1517-02-15 · Kusayr 1517-04-13) — farklı fetih günleri olabilir, meşru; SORMADIM. SIRADAKİ: küme 2 (Şehrizor · Halepçe — manda_0906 · ok109_fetret · uyg3), sonra Çaldıran/Başkale — o ikisini FAZ 1'de zaten ölçmüştüm (ok110 ↔ p0035, 91 yıllık Safevî bitişi anlaşmazlığı) ve o zaman \"çözme, bildir\" demiştin; şimdi karar bende, kaynağa soracağım.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
