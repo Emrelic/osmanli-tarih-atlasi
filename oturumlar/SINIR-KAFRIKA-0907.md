@@ -12,6 +12,11 @@ Libya · Mısır · Sudan)
 
 ### Sayılar
 
+> 🟡 **BU BLOK TUR 2'DE DEĞİŞTİ — silinmedi, DAMGALANDI.** Dördüncü kova
+> (`ayni-kimlik`) 7 Eylül 14:53'te şartnameye eklendi ve üç kenar oraya
+> geçti; Habeşistan–Sudan tur 3'te kaynağıyla kapandı.
+> **Güncel sayılar aşağıda, "TUR 2 · TUR 3" başlığında.**
+
 ```
 PAYDA                       25 kara kenarı · 2.353 tepe · 17.056 km
    çekirdek-içi              9
@@ -184,4 +189,107 @@ ARAC-SINIR-KAFRIKA-IBS-0907.py         IBS PDF okuyucu (pypdf)
 ARAC-SINIR-KAFRIKA-DAYANAK-0907.py     antlaşma+tarih cümlesi çıkarıcı
 ARAC-SINIR-KAFRIKA-KIMLIK1923-0907.py  kimlik_1923'ü atlas verisinden ölçer
 ARAC-SINIR-KAFRIKA-YAZ-0907.py         kayıt üreteci
+ARAC-SINIR-KAFRIKA-KOVA4-0907.py       dördüncü kova sınavı (yetkili tablo)
+ARAC-SINIR-KAFRIKA-UYARI-0907.py       sınavın koşamadığı kenarlara çekince
+ARAC-SINIR-KAFRIKA-ACIK5-0907.py       ikinci kaynak turu
 ```
+
+---
+
+## TUR 2 · TUR 3 — DÖRDÜNCÜ KOVA VE İKİNCİ KAYNAK
+
+### Güncel sayılar
+
+```
+🟢 hukuki       12   C'ye girer
+🟣 ayni-kimlik   3   1923'te iki uç da aynı atlas kimliği ⇒ C'de sınır değil
+🔴 bulunamadi    6   C'ye GİRMEZ
+⚪ olculemedi    4
+─────────────────
+                25   payda · 17.056 km · geometrisi çıkarılamayan 0
+
+kaynağını AÇIP OKUDUĞUM (verbatim alıntı taşıyan) kenar: 20/25
+```
+
+### 🟢 İki bağımsız ölçüm birebir örtüştü
+
+`kimlik_1923` iki kez ölçüldü: bir kez benim aletimle (`1923-10-01`), bir
+kez `KIMLIK-1923-0907`in yetkili tablosuyla (`1923-10-28`). **17 DOGRUDAN
+ucun 17'sinde aynı kimlik · ayrışma 0.** Farklı gün, farklı alet, aynı
+cevap — tek bir ölçümün veremeyeceği bir güven.
+📌 Yetkili tablo devralındı, kendi ölçümüm KIYAS'a düşürüldü.
+
+### 🔴 Dördüncü kovanın sınavı 25'in 18'inde koştu
+
+```
+KOŞTU        18
+KOŞAMADI      7   Batı Sahra'ya bakan 3 (atlas noktası 0 · BOYANMIYOR)
+                  Bir Tawil'e bakan 2 (kimlik bir TAHMİN · EMILME)
+                  Tunus'a bakan 2 (kid yok)
+KOŞTU ama YANLIŞ CEVAP VERDİ  1
+```
+
+**Yanlış cevap veren:** `South Sudan ↔ Sudan`. Sınav FARKLI diyor
+(`ingiliz-sudani` ↔ `ingiltere`) ⇒ gerçek bir C kenarı sayardı. Tarihen
+iki yaka da Anglo-Mısır Kondominyumu — **aynı varlık**. Sebep atlasın
+Sudan'ı iki kimlikle boyaması (61 / 11, enlem aralıkları iç içe).
+⇒ **Sınav doğru, girdi bozuk.** Ve sınav mekanik olduğu için bozuk girdiyi
+sessizce yutuyor: hata vermiyor, temiz bir "FARKLI" üretiyor.
+📌 Bu, kovanın ölçülebilir olmasının **lehine** bir kayıt: yorum isteyen
+bir ölçütte bu kenar sessizce geçerdi.
+
+**Ve kovanın gerekçe örneği kovanın sınavına girmiyor:** M-3183 dördüncü
+kovayı *«Cezayir–Tunus 1923'te iki Fransız toprağı arasındaki idarî bir
+hattı»* diye gerekçelendirdi; o kenarda sınav **koşmuyor** (Tunus'un `k`
+ve `kid` alanı None). ⇒ Kovanın bu bölgedeki kapsamı **`kid` işine bağlı.**
+
+### Bir tuzaktan dönüldü
+
+Yetkili tablo Bir Tawil için `misir-kralligi` veriyor ve Mısır ucu da
+`misir-kralligi` ⇒ sınav naif koşulsa **`ayni-kimlik`** derdi. Ama o değer
+`EMILME` kovasında ve tablonun kendi notu *"EMILME bir TAHMİN"* diyor.
+Sınav iki uçta da **DOGRUDAN şartıyla** koşuldu. ⇒ Tahmin, ölçümün yerine
+geçmez.
+
+### IBS serisi tüketildi
+
+1–200 arası numara denendi; seride **175 çalışma var** ve şu beş sınır
+için **yok**: Cezayir–Fas · Cezayir–Tunus · Habeşistan–Sudan ·
+Eritre–Sudan · Fas–İspanya. Bu artık tahmin değil **ölçüm** — ama yalnız
+o seri için.
+
+### TUR 3 — ikinci kaynak
+
+🟢 **Habeşistan–Sudan KAPANDI** (715,1 km): 1902 (15 Mayıs) ve 1907
+Anglo-Etiyopya delimitasyon antlaşmaları, 1903 (Binbaşı Gwynn) ve 1909'da
+demarke. Kaynak: *Wondwosen Teshome, "Colonial Boundaries of Africa: The
+Case of Ethiopia's Boundary with Sudan", Ege Academic Review, 2009*
+(hakemli, açık erişim) — **açıp okudum**, alıntı verbatim.
+⚠️ Çekince gizlenmedi: Gwynn demarkasyonu tek taraflıydı ve Etiyopya bugün
+de kabul etmiyor. Hukukî ihtilâf gerçek; hattın 1923'te de aynı hat olduğu
+değişmiyor, ve atlas tasarrufu boyar.
+
+🟡 **Üçü için iz bulundu ama KAYNAK AÇILMADI ⇒ `olculemedi` DURUYOR.**
+Bir arama motorunun özeti bir kaynak değildir; okunmuş saymak `§4`ün en
+sinsi ihlali olurdu, çünkü alan **dolu görünür**.
+```
+Cezayir–Fas    🟡 1845 Lalla Maghnia sınırı ~165 km delimite etti,
+                  4. madde çölün delimitasyonunu gereksiz saydı;
+                  bugünkü hat 15 Haziran 1972 Rabat Sözleşmesi
+                  ⇒ doğruysa 1.551 km'nin çoğu 1923'te DELİMİTE DEĞİLDİ
+Eritre–Sudan   🟡 1891/1894 Anglo-İtalyan protokolleri · 1898 delimitasyon
+                  · 1899 demarkasyon komisyonu · Kasım 1901 anlaşması
+                  ⇒ hepsi çapadan önce, muhtemelen 🟢 olacak
+Fas–İspanya    ⚪ okumadım
+```
+
+### 🔴 Bir eşleşme tuzağı kayda geçti
+
+Arama sonucu Cezayir–Fas 1972 Sözleşmesi'ni **UNTS vol. 1035, I-15406**
+diye verdi. Belgeyi indirip okudum: o belge **Moritanya–Fas, 14 Nisan
+1976** sözleşmesi. ⇒ *Eşleşme bulmak, doğru şeyi bulmak değildir.*
+
+### Sıradaki turun ilk işi
+
+`Cezayir–Fas` (1.551 km) — bölgemin en uzun ikinci kenarı, ve tek bir
+kaynak okuması onu `bulunamadi` kovasına taşıyacak gibi görünüyor.
