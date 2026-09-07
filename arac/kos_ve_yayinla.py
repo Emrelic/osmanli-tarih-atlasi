@@ -219,6 +219,32 @@ def _zincir(yayinla=True, uretimsiz=False):
     if kos("ALTI DEĞİŞMEZ (denetle.py)", [sys.executable, "arac/denetle.py"],
            dk=40) is None:
         return 1
+    # 🔴🔴 SÜRÜM DAMGASI KAPIDAN **ÖNCE** — 7 Eylül 2026'da ölçüldü, ve bu
+    # bir sıra kusuruydu: damga adımı kapıdan 20 SATIR SONRA duruyordu.
+    #   kapının `damga_ihlali` şartı → "COMMIT ETMEDEN ÖNCE: surum_damgala.py"
+    #   zincir → o adımı kapıdan SONRAYA koymuş
+    #   ⇒ kapı `return 1` verince damga adımına HİÇ SIRA GELMİYOR:
+    #     KAPI, BİR SONRAKİ ADIMIN ÇÖZECEĞİ ŞEYE TAKILIYOR.
+    # `§11`in *"kusur ne tavandaydı ne yetim-yüz mantığında — İKİSİNİN
+    # ARASINDAYDI"* ailesi: iki adım da tek başına doğru, kusur SIRADA.
+    #
+    # 🟢 İKİ UCU DA ÖLÇÜLDÜ (`§3.5.1`) — `SINAV-KOSU8-0907`, 11 şartın 11'i:
+    #   damgalar>1  ETKİLENMEZ (`re.subn` HEPSİNİ tek `SURUM`e yazar; ölçüldü:
+    #               index.html'de 179 damga, 179'u da aynı değer ⇒ küme 1 kalır)
+    #   _sz         ETKİLENMEZ (yalnız `src=`/`href=` NİTELİĞİ; <script> gövdesi
+    #               hiç okunmuyor)
+    #   yoklar · izlenmeyenler · kayitsiz  ETKİLENMEZ (etiket eklenmiyor/silinmiyor)
+    #   bayat · iz_bayat · izsiz · _bagli · _dizinsiz  ETKİLENMEZ (veri sha256'sı)
+    #   ⇒ yeni bir ötüş üretmesi için YOL YOK.
+    # ⚠️ Ve bu bir KAPI GEVŞETMESİ DEĞİLDİR: hiçbir şart muaf tutulmuyor,
+    #   yalnız kapının KENDİ REÇETESİ kapıdan önce uygulanıyor.
+    #
+    # 🔒 `if yayinla` KORUMASI ŞART: `surum_damgala.py` `index.html`i YAZAR.
+    #   Korumasız öne alınsaydı `--yayinlama` (kuru) koşusu da dosyayı
+    #   değiştirirdi — bir ölçüm koşusunun depoyu kirletmesi yasak.
+    if yayinla and kos("sürüm damgası", [sys.executable, "arac/surum_damgala.py"],
+                       dk=10) is None:
+        return 1
     if kos("YAYIN KAPISI (denetle_yayin.py)",
            [sys.executable, "arac/denetle_yayin.py"], dk=40) is None:
         return 1
@@ -239,9 +265,7 @@ def _zincir(yayinla=True, uretimsiz=False):
         beep(9)
         return 0
 
-    if kos("sürüm damgası", [sys.executable, "arac/surum_damgala.py"],
-           dk=10) is None:
-        return 1
+    # (sürüm damgası YUKARI TAŞINDI — kapıdan önce; gerekçesi orada.)
 
     # --- commit: mesaj ÖNCEDEN dosyaya yazılmış olmalı (§11) ----------
     if not os.path.exists(MESAJ):
