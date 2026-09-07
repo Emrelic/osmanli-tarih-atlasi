@@ -239,6 +239,55 @@ GERÇEK          bir tek oturumun 12 dosyası DÖRT commit'te
 `oturumlar/<AD>.md` **ve** `denetim/<kendi öneki>` dosyalarını commit
 eder — **her dosya ADIYLA**, dizin pathspec'i YASAK.
 
+## ⑨h 🔴 «ALAN VAR, OKUYAN YOK» — bugün DÖRT vaka, artık bir SINIF
+```
+kid       291 dönemde DOLU · uret_petek yalnız AD YEDEĞİ · app.js/denetle HİÇ
+statu     421 dönemde dolu ama TEK DEĞERLİ · app.js `v:` statüsünü HİÇ okumuyor
+kd:       192 kayıt ama `turetildi:True` damgalı 0/175 ⇒ elle yazılan
+          TÜRETİLENDEN ayırt edilemiyor (borcu 48 KAT büyük gösteriyor)
+kd: (2)   uret_petek.py:770 `ad = y["m"]` — `girdi.kd_gun()` DEĞİL
+          ⇒ `kd:` motorun BÖLGE katmanına GÖRÜNMEZ
+```
+📌 Dördü de farklı alanda, dördü de aynı desen: **alan doğuyor, okuyucu
+doğmuyor.** Sınavı tek soru: *bu bilgiyi bir `if` ile sorabiliyor muyum?*
+
+## ⑨i Ö3 KİLİDİ AÇILDI — `m:` SİLİNMEZ
+```
+🔴 S1  m: TAMAMEN null      üye 874 → 496  (-378, %43 kayıp)
+🟢 S2  kd: EKLENİR, m: KALIR    DEĞİŞİKLİK YOK
+```
+⇒ **372 kayda `kd:` yazılabilir, ŞART: `m:` korunur.**
+🟡 Koordinatörün hipotezi (*anakronik dönemde bölge çizgisi zaten yok*)
+**yarım tuttu**: ÇİZİM penceresi merkezin Osmanlı aralığı ✓ ama ÜYELİK
+şartı yerleşimin `d:`/`v:` **varlığı** ✗ — ikisi aynı şey değil, ve
+`-378` oradan geliyor.
+📌 ***Bir hipotez bir MEKANİZMA hakkında doğru olup SONUÇ hakkında
+yanlış olabilir.***
+🟢 Ve `m:` boş 46 kayıt **bugün zaten tolere ediliyor**; motorun kendi
+yorumu: *"kozmetik — bölge sınırı çizilmiyor, TOPRAK BOYAMASI
+ETKİLENMİYOR."*
+
+## ⑨j C KATMANI ŞEMA KARARLARI — `BIRLESTIRICI-0907` ölçtü, hüküm verildi
+```
+a / b               = NE ADI      (geometrinin kaynağı, DEĞİŞMEZ)
+kimlik_1923_a / _b  = atlas slug  (bir HÜKÜM, değişebilir)
+```
+📌 Gerekçe: *anahtarı hükme bağlamak, hüküm düzelince anahtarı kaydırır.*
+```
+317 kayıt · 10 ortak alan 317/317 · mükerrer 10 çapraz · çelişen geometri 0
+kapsama 276/296 kanonik kenar (%93,2) · eksik 20 (ağırlıklı Batı Avrupa)
+🔴 hal:"bulunamadi" 93'ün 71'i (%76) aslında "ayni-kimlik" demek
+🔴 hal:"ayni-kimlik" 317 kaydın 0'ında — YAYIN İNMEDİ (M-3183)
+```
+🔴 **Ve dersi: altı bağımsız kolun aynı boşluğa yakınsaması, kovanın
+GEREKLİ olduğunu kanıtlar — TESLİM EDİLDİĞİNİ değil.**
+
+## ⑨k KOŞU SONRASI — `olculemedi` damgalı, log tamponda
+`uret_petek.py:781` her koşuda *"kademe: N yerleşimin m: zinciri açık
+(BEKLENEN 0)"* basıyor ve **bugün 46.** `kosu8.log` **9 satır** —
+`TextIOWrapper` çıktıyı ancak çıkışta boşaltıyor ⇒ **koşu bitene kadar
+ÖLÇÜLEMEZ.**
+
 ## ⑨f KOŞU SONRASI KUYRUĞA EKLENENLER
 ```
 ① uret_petek.py `vl` sıra kusuru            (öncekinden)
