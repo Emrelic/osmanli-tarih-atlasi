@@ -88,21 +88,34 @@ def depo():
     #     yoksa kendi uydurmasını doğrular. Bu oturumun bütün
     #     `SINAV-KOSU8-*` ve `ONGORU-*` dosyaları gövdeden ÇIKARILDI:
     #     onlar projenin kodu değil, BU OTURUMUN artefaktı.
+    # 🔴 DÜZELTİLDİ 7 Eylül 2026 — `os.listdir` ÖZYİNELEMELİ DEĞİLDİ ve
+    #   ALT DİZİNLERİ HİÇ OKUMUYORDU. Ölçüldü: düz 601 dosya, özyinelemeli
+    #   632 ⇒ **31 dosya arama evreninin dışındaydı**, ve içlerinde
+    #   `denetim/uygulanmis-0905/` (UYGULANMIŞ yamalar) ve
+    #   `arac/olc_enklav/` (canlı ölçüm takımı) var.
+    #   Somut zarar: `oku_kara` *"kaynakta YOK"* diye AÇIK borç sayıldı;
+    #   `arac/olc_enklav/_ortak.py:205`te **tanımlı** ve iki betik onu
+    #   çağırıyor. Yani alet, VAR OLAN bir şeyi YOK diye raporladı.
+    #   📌 Bugün üçüncü *"ölçüm doğru, EVREN dar"* vakası — ve bu sefer
+    #     evreni daraltan şey bir coğrafya ya da bir kova değil, tek bir
+    #     fonksiyon seçimi: `listdir` ↔ `walk`.
     govde = []
     for d in ("arac", "denetim"):
         p = os.path.join(KOK, d)
         if not os.path.isdir(p):
             continue
-        for a in sorted(os.listdir(p)):
-            if a.startswith(("SINAV-KOSU8-", "ONGORU-SINAV-KOSU8-")):
-                continue
-            if a.endswith((".py", ".js")):
-                try:
-                    with io.open(os.path.join(p, a), encoding="utf-8",
-                                 errors="replace") as f:
-                        govde.append(f.read())
-                except Exception:                    # noqa: BLE001
-                    pass
+        for kok_d, _alt, dosyalar in os.walk(p):
+            for a in sorted(dosyalar):
+                if a.startswith(("SINAV-KOSU8-", "ONGORU-SINAV-KOSU8-")):
+                    continue
+                if a.endswith((".py", ".js")):
+                    try:
+                        with io.open(os.path.join(kok_d, a),
+                                     encoding="utf-8",
+                                     errors="replace") as f:
+                            govde.append(f.read())
+                    except Exception:                # noqa: BLE001
+                        pass
     _DIZIN["metin"] = "\n".join(govde)
     return _DIZIN
 
