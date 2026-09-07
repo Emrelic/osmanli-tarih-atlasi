@@ -1860,6 +1860,43 @@ html:has(#yanpanel.dar) #olay-detay { width: var(--panel-dar); }
   pointer-events: none;
 }
 
+/* TÂBİ DEVLET ADI (VASSAL-GORUNUM-0907, 7 Eylül 2026) — `d.vl` çapalarından.
+   Renk tâbi dolgunun (#b2384a) KOYU akrabası: aynı aileden olduğu görünsün
+   ("bu ad o kırmızı gövdenin adı") ama üstünde okunsun. Yabancı devlet
+   etiketinin kahvesi (rgba(52,38,22,…)) bu zeminde yeterince ayrışmıyordu.
+   Punto app.js'ten inline geliyor ve SABİT (VASSAL_PUNTO) — gerekçesi orada
+   yazılı: çapa alan taşımıyor, uydurulmuş bir alandan punto türetilmedi. */
+.vassal-etiket {
+  font: 600 1em/1.15 system-ui, sans-serif;
+  color: rgba(94, 20, 34, 0.92);
+  letter-spacing: 0.05em;
+  text-shadow: 0 0 0.36em #fff, 0 0 0.18em #fff, 0 0.09em 0.18em #fff;
+  white-space: nowrap;
+  /* Haritanın sürüklenmesini engellemesin. `title` de bu yüzden YAZILMIYOR —
+     ipucu göstermeyecek bir öznitelik ölü bir vaattir (app.js'te not düşüldü). */
+  pointer-events: none;
+}
+/* Statü eki: adın kendisinden SÖNÜK ve KÜÇÜK. Ayrım görsel değil ANLAMSAL —
+   "Eflak Voyvodalığı" bir addır, "tâbi" onun HÂLİDİR; ikisi aynı ağırlıkta
+   yazılsa ad ile sıfat karışırdı. */
+.vassal-etiket .vs {
+  font-weight: 400;
+  font-size: 0.82em;
+  opacity: 0.72;
+  letter-spacing: 0.02em;
+}
+/* 🔴 SÖZLÜKTE OLMAYAN STATÜ — ham değer ekranda, ve GÖRÜNÜR biçimde.
+   Bugün veride tek değer var (`vassal`); `girdi.py:940` beş terim daha
+   planlıyor (özerk · himaye · haraçgüzâr · ocaklık · voyvodalık) ve yazımları
+   tutmayabilir. O gün bu kural, terimi sessizce "tâbi"ye düşürmek yerine
+   noktalı bir çizgiyle işaretler: harita YANLIŞ DEĞİL EKSİK olduğunu söyler.
+   Kırmızı bir uyarı DEĞİL — bilinmeyen bir statü bir hata değil, sözlüğün
+   henüz yetişmediği yeni bir kayıttır. */
+.vassal-etiket-bilinmeyen .vs {
+  border-bottom: 1px dotted currentColor;
+  opacity: 0.9;
+}
+
 /* ARAYÜZ BOŞLUK CİNSİ (T-0113) — data/bos_alanlar.js'teki `kabile` ve
    `veri-yok` kayıtları. Renk ölçütü: mevcut hiçbir gövde/simge rengiyle
    çakışmasın (Osmanlı #8e0b22 · tâbi #b2384a · kuşatma sarısı #b8860b) ve

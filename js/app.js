@@ -230,6 +230,24 @@ var donemler = window.DONEMLER.map(function (d) {
            av: d.av || 0, e: d.e || [], c: d.c || [],
            o: parcaCoz(d.o, PARCALAR, PARCA_HALKA),
            v: parcaCoz(d.v, PARCALAR, PARCA_HALKA),
+           // 🆕 TÂBİ ETİKET ÇAPALARI (`vl`) — VASSAL-GORUNUM-0907, 7 Eylül 2026.
+           // ŞEMA `arac/uret_petek.py:4802-4849`dan OKUNDU, hatırlanmadı
+           // (`§11`: kayıt biçimini hatırlamaya çalışmak bu projede yedi kez
+           // ısırdı):
+           //     d.vl : [ { k: <görünen ad>, s: <statü>, p: [lon, lat] } … ]
+           //   k = `v:` döneminin `k`si, yoksa `kid`i (ikisi de yoksa çapa YOK)
+           //   s = `statu`, motorda varsayılanı "vassal"
+           //   p = grubun EN BÜYÜK peteğinin `representative_point()`i — yani
+           //       poligonun İÇİNDE olması garanti, ağırlık merkezi değil
+           // Motor `vl`i yalnız tâbi gövde varken ve boş değilken yazar; boşsa
+           // ANAHTARI HİÇ YAZMAZ.
+           //
+           // 🔴 `|| []` ŞART, SÜS DEĞİL: bugünkü `data/donemler.js`te `vl` YOK
+           // (çapa 7 Eylül sabahı motora yazıldı, koşu 8 üretiyor). Bu satır
+           // olmadan aşağıdaki yerleşim döngüsü `undefined.length` okur ve
+           // app.js ölür — site bomboş açılır. Bu proje bir kez `duygu:"notr"`
+           // yüzünden tam bunu yaşadı ve `denetle.py` TEMİZ diyordu.
+           vl: d.vl || [],
            h: (d.h || []).map(function (hb) {
              return { g: parcaCoz(hb.g, PARCALAR, PARCA_HALKA), renk: hb.renk || null };
            }),
@@ -398,6 +416,19 @@ function devletGuncelle(t) {
       }
     }
   });
+  // 🔴 TÂBİ ETİKETLERİ İMZAYA GİRİYOR — yoksa BAYAT kalırlardı.
+  // `etiketleriYerlestir()` bu fonksiyonda YALNIZ aşağıdaki erken çıkışın
+  // ALTINDAN çağrılıyor; imza değişmediğinde HİÇ çağrılmıyor. İmza bugün
+  // yalnız YABANCI devlet gövdelerini özetliyor, oysa tâbi etiketleri
+  // OSMANLI DÖNEMİNİN alanı (`d.vl`). Yabancı gövdeler değişmeden Osmanlı
+  // dönemi değişebilir ve o günlerde etiketler yerinde donardı.
+  // `aktifDonem` tam da doğru anahtar: `vl` dönem KAYDININ alanı, yani dönem
+  // indeksi değişmeden içeriği değişmez.
+  // ⚠️ `typeof` kapısı: `aktifDonem` bu satırdan ÇOK sonra (`var`, ~:5080)
+  // bildiriliyor — hoisting sayesinde erişilebilir ama değeri `undefined`
+  // olabilir; kapı onu `?` diye yazar, `undefined` diye DEĞİL, yoksa iki ayrı
+  // hâl (henüz kurulmadı / Fetret) aynı imzayı üretirdi.
+  imza += "|dn:" + (typeof aktifDonem === "undefined" ? "?" : aktifDonem);
   if (imza === devletImza) return;
   devletImza = imza;
   harita.getSource("devlet").setData({ type: "FeatureCollection", features: fs });
@@ -473,11 +504,89 @@ var BOLGE_TABAN = 8, BOLGE_TAVAN = 14, BOLGE_EGIM = 0.628, BOLGE_REF = 0.143;
 var BOLGE_ZOOM = 5.2;
 var bolgeEtiketleri = [];
 
+// ---------- ÜÇÜNCÜ KADEME: tâbi devlet adları (`d.vl`) ----------
+// Emre'nin isteği bir yıldır açıktı ve sebebi VERİ DEĞİL GÖSTERİM YOLUYDU:
+// `v:` dönemleri 429 · `statu` 421 · `kid` 291 · `k` 373 dolu, motor `vl`
+// çapasını üretiyor, ve `js/app.js` bunların HİÇBİRİNİ okumuyordu.
+// `CLAUDE.md §11`: *bir ders veriye yapılandırılmış olarak inse bile, onu
+// OKUYAN yoksa inmiş sayılmaz* — `grep` "var" der, harita "yok" der.
+//
+// 🔴 PUNTO NİÇİN SABİT — ve bu bir ÖLÇÜM DEĞİL, BEYAN EDİLMİŞ BİR SEÇİM:
+// Devlet etiketi puntosu `halkaAlan`dan, bölge etiketi `b.ec.alan`dan türüyor;
+// ikisi de ÖLÇÜLMÜŞ bantlar (§33). Tâbi tarafta o sürücü YOK: `d.v` bütün tâbi
+// toprağı TEK union olarak taşır ve kimlik `unary_union` içinde kaybolur —
+// çapanın var olma sebebi zaten bu (`uret_petek.py:4805`). Union'ın alanını
+// tek bir ada atfetmek ölçüm değil YANLIŞ BİR İDDİA olurdu; uydurulmuş bir
+// alandan türetilen punto da "veriden türedi" diye okunurdu.
+// ⇒ Sabit banttan veriliyor. Devletin (10-26) ALTINDA, bölgenin (8-14)
+//   ÜSTÜNDE: bir tâbi devlet bir eyaletten fazla, bağımsız bir devletten az.
+// 🔜 BORÇ (motor kolunun kalemi — `arac/` bu oturumda DONUK): `vl` öğesine
+//   çapa peteğinin alanı eklenirse (`_al`, `uret_petek.py:4830`da ZATEN
+//   hesaplı) punto da veriden türer ve bu sabit düşer.
+var VASSAL_PUNTO = 11;
+var vassalEtiketleri = [];
+
+// Tâbi statü sözlüğü — TANIMLANDIĞI YERDEN alındı (`arac/girdi.py:940`), bir
+// alanın kullanıldığı yerden değil (`CLAUDE.md §4`: *bir alan adı,
+// kullanıldığı yerden değil TANIMLANDIĞI yerden okunur*). Tanımın kendi
+// metni: *"tâbiiyet cinsi — v: içinde. Varsayılan 'vassal'. İnceltme: özerk ·
+// himaye · haraçgüzâr · ocaklık · voyvodalık — KAYNAKLI olarak, ayrı iş."*
+//
+// ⚠️ ÖLÇÜLDÜ: bugün veride TEK değer var — `vassal`, 421/421. Aşağıdaki öteki
+// beş anahtar VERİDE YOKTUR; tanım metninden alındılar ve `§11`in *"künye
+// penceresi ≠ veri penceresi — YARIN ÇİZİLECEK OLANA bak"* kuralı gereği
+// şimdiden duruyorlar. Bir sonraki oturum onları "ölçülmüş karşılık" diye
+// okumasın: bunlar TAHMİN EDİLEN ANAHTARLARDIR, karşılıkları değil.
+// Yazımı tutmayan bir değer gelirse aşağıdaki bilinmeyen dalı onu ZATEN
+// görünür kılıyor — sözlüğün eksikliği sessiz bir kayba dönüşmez.
+var STATU_YAZI = {
+  "vassal":     "tâbi",
+  "özerk":      "özerk",
+  "himaye":     "himaye",
+  "haraçgüzâr": "haraçgüzâr",
+  "ocaklık":    "ocaklık",
+  "voyvodalık": "voyvodalık"
+};
+// Bilinmeyen statü uyarısı DEĞER BAŞINA BİR KEZ: `etiketleriYerlestir` her
+// zoom/move olayında koşuyor, uyarı kapısız olsa konsolu saniyede onlarca
+// satırla doldurur ve kendi kendini görünmez kılardı.
+var _statuBilinmeyen = {};
+
+function statuYazi(s) {
+  // Motor `statu`yu boş bırakmıyor (`_dn.statu || "vassal"`), ama bu fonksiyon
+  // motorun garantisine DEĞİL kendi girdisine bakıyor: `vl` elle yazılmış bir
+  // fikstürden de gelebilir ve bugün ateşleme sınavında tam öyle geliyor.
+  var k = (s === undefined || s === null || s === "") ? "vassal" : String(s);
+  if (Object.prototype.hasOwnProperty.call(STATU_YAZI, k)) {
+    return { yazi: STATU_YAZI[k], bilinen: true };
+  }
+  // 🔴 BİLİNMEYEN DEĞER NE ÇÖKER NE SESSİZCE YUTULUR.
+  // Sessizce "tâbi"ye düşmek en kolay yoldu ve en kötüsü olurdu: veriye
+  // kaynaklı bir `özerk` ya da `haraçgüzâr` inince harita onu DOĞRU GÖRÜNEREK
+  // yanlış yazardı ve hiçbir denetim ötmezdi. `§11`: *sessiz atlama, yanlış
+  // sonuçtan pahalıdır* — yanlış sonuç bir gün fark edilir, sessiz atlama
+  // hiçbir iz bırakmaz.
+  // ⇒ Ham değer EKRANDA görünür (kullanıcı yeni bir terim gördüğünü anlar),
+  //   ayrı bir CSS sınıfı taşır (gözle ayırt edilir), ve konsola BİR KEZ düşer
+  //   (geliştirici sözlüğün nerede olduğunu adresiyle öğrenir).
+  if (!_statuBilinmeyen[k]) {
+    _statuBilinmeyen[k] = 1;
+    if (window.console && console.warn) {
+      console.warn("🟡 tâbi statü sözlükte YOK: " + JSON.stringify(k) +
+        " — ham değer haritada gösteriliyor, yutulmadı. " +
+        "Sözlük: js/app.js STATU_YAZI · tanım: arac/girdi.py:940");
+    }
+  }
+  return { yazi: k, bilinen: false };
+}
+
 function etiketleriYerlestir() {
   devletEtiketleri.forEach(function (m) { m.remove(); });
   devletEtiketleri = [];
   bolgeEtiketleri.forEach(function (m) { m.remove(); });
   bolgeEtiketleri = [];
+  vassalEtiketleri.forEach(function (m) { m.remove(); });
+  vassalEtiketleri = [];
   var z = harita.getZoom();
   // Ekranda çok küçük kalan gövdeye etiket konmaz; yakınlaştıkça eşik düşer,
   // böylece adalar ve koloniler yakınlaşınca adlarını gösterir.
@@ -544,6 +653,82 @@ function etiketleriYerlestir() {
     el.addEventListener("click", devletEtiketiTiklandi);
     devletEtiketleri.push(new maplibregl.Marker({ element: el, anchor: "center" })
       .setLngLat(e.c).addTo(harita));
+  }
+
+  // ---- Tâbi devlet adları (`d.vl`) ----
+  // Bağımsız devletlerden SONRA, bölgelerden ÖNCE, ve AYNI `yerlesen` dizisini
+  // paylaşarak. Sıra bir ölçüm değil bir TERCİH ve gerekçesi Emre'nin kendi
+  // cümlesi (bkz. app.js'te `vassal-dolgu` bloğunun üstündeki alıntı): *"hem
+  // vassal devletleri görmüş oluruz hem vassalların ayrı devlet olduğu algısını
+  // yıkmış oluruz."* Bir tâbi devlet adı bir EYALET adını itebilir (tâbilik bir
+  // polity, eyalet bir idarî bölme), ama BAĞIMSIZ bir devlet adını itemez.
+  //
+  // 🔴 GEÇME AYAĞI BURADA: bugünkü `donemler.js`te `vl` YOK. `_vlist` boş dizi
+  // olur, döngü hiç dönmez, sayfa DEĞİŞMEZ. Üç ayrı kapı bunu koruyor —
+  // `donemler` kurulumundaki `|| []`, aşağıdaki `_vd` null kapısı, ve öğe
+  // başına eksik alan kapısı.
+  // ⚠️ Fetret (`aktifDonem === -2`) ve "henüz dönem çizilmedi" (`-1`) hâlleri
+  // `>= 0` kapısına takılır: Fetret'te tâbi katmanı ZATEN boşaltılıyor
+  // (`guncelle`), etiketi bırakmak boş bir haritada asılı yazı üretirdi —
+  // bölge etiketlerinde aynı gerekçeyle aynı karar verilmiş.
+  var _vd = (typeof aktifDonem !== "undefined" && aktifDonem >= 0 &&
+             typeof donemler !== "undefined" && donemler[aktifDonem])
+            ? donemler[aktifDonem] : null;
+  var _vlist = (_vd && _vd.vl) ? _vd.vl : [];
+  for (var vi = 0; vi < _vlist.length; vi++) {
+    var ve = _vlist[vi];
+    // Eksik çapa ATLANIR ama SESSİZ DEĞİL: motor adsız dönem için çapa
+    // üretmiyor (`uret_petek.py`: "adsız dönem etiketlenmez"), yani bu dala
+    // düşen bir öğe motorun sözleşmesini bozmuş demektir.
+    if (!ve || !ve.k || !ve.p || ve.p.length < 2 ||
+        typeof ve.p[0] !== "number" || typeof ve.p[1] !== "number") {
+      if (window.console && console.warn) {
+        console.warn("🟡 `vl` çapası eksik/bozuk, atlandı: " +
+          JSON.stringify(ve) + " — beklenen {k, s, p:[lon,lat]}");
+      }
+      continue;
+    }
+    // Görüş alanı kırpması: devlet etiketlerindeki `_ep` kutusunun aynısı
+    // (%20 paylı). `_ep` kurulamadıysa (getBounds patladı) null'dur ve kırpma
+    // YAPILMAZ — az etiket göstermektense hepsini göstermek doğru taraf.
+    if (_ep && (ve.p[0] < _ep.b || ve.p[0] > _ep.d ||
+                ve.p[1] < _ep.g || ve.p[1] > _ep.k)) continue;
+    var vst = statuYazi(ve.s);
+    // ⚠️ Ölçü EKRANDA GÖRÜNEN metnin TAMAMINDAN alınıyor — ad + ayraç + statü.
+    // Yalnız `ve.k` üzerinden hesaplansaydı çakışma kutusu statü ekinin
+    // genişliği kadar DAR çıkar ve eleme gerçek çakışmayı GÖREMEZDİ. Bu, bölge
+    // etiketindeki `yazi`/`ad` ayrımının ta kendisi ve orada bir kez ısırmış.
+    var vyazi = ve.k + " · " + vst.yazi;
+    var vpt = harita.project(ve.p);
+    var vg = vyazi.length * KARAKTER * VASSAL_PUNTO + 6, vy = VASSAL_PUNTO * 1.36;
+    var vkutu = { x0: vpt.x - vg / 2, x1: vpt.x + vg / 2,
+                  y0: vpt.y - vy / 2, y1: vpt.y + vy / 2 };
+    var vcarpti = false;
+    for (var vj = 0; vj < yerlesen.length; vj++) {
+      var vo = yerlesen[vj];
+      if (vkutu.x0 < vo.x1 && vkutu.x1 > vo.x0 &&
+          vkutu.y0 < vo.y1 && vkutu.y1 > vo.y0) { vcarpti = true; break; }
+    }
+    if (vcarpti) continue;
+    yerlesen.push(vkutu);
+    var vel = document.createElement("div");
+    vel.className = "vassal-etiket" +
+                    (vst.bilinen ? "" : " vassal-etiket-bilinmeyen");
+    vel.style.fontSize = VASSAL_PUNTO.toFixed(1) + "px";
+    // Ad ile statü AYRI düğüm: statü sönük yazılıyor ki tâbi devletin ADI
+    // okunur kalsın. Metnin TAMAMI yukarıdaki `vyazi` ile aynı uzunlukta —
+    // ad + " " + "· " + statü = ad + " · " + statü.
+    vel.appendChild(document.createTextNode(ve.k + " "));
+    var vsp = document.createElement("span");
+    vsp.className = "vs";
+    vsp.textContent = "· " + vst.yazi;
+    vel.appendChild(vsp);
+    // ⚠️ `title` KASTEN YAZILMIYOR: bu etiket `pointer-events: none` taşıyor
+    // (haritanın sürüklenmesini engellememesi için) ve o hâlde tarayıcı ipucuyu
+    // HİÇ göstermez. Yazılsaydı ölü bir vaat olurdu — bölge etiketinde bugün
+    // öyle bir satır var ve ipucu hiç görünmüyor (ayrı kalem, dokunmadım).
+    vassalEtiketleri.push(new maplibregl.Marker({ element: vel, anchor: "center" })
+      .setLngLat(ve.p).addTo(harita));
   }
 
   // ---- İkinci kademe: bölge adları ----
