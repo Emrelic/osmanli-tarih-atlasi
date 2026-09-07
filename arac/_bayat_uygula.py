@@ -15,7 +15,19 @@ olurdu ve ancak insan karariyla yapilir.
 """
 import io, json, os, sys
 
-PROJE = os.environ["ATLAS_KOK"]
+# 🔴 ESKİDEN `os.environ["ATLAS_KOK"]` idi ve alet BUGÜN HİÇ KOŞMUYORDU:
+# belgelenmemiş bir ortam değişkeni istiyor, yokken `KeyError` atıyordu.
+# 7 Eylül 2026'da `SINAV-KOSU8-0907` merge provasında buldu — beş
+# uygulayıcının biri, ve **kimse bilmiyordu.**
+# 🔴 Bir merge aletinin önceden kurulmuş bir ÇEVRE istemesi, merge
+#   gecesinde patlamak demektir: o çevreyi kuran kişi orada olmayabilir.
+# 🟢 `__file__` tabanı NEREDEN çağrılırsa çağrılsın doğru — emsali
+#   `_kunye_uygula` ve `_kronoloji_uygula`.
+# ⚠️ Ölçülmüş üçüncü biçim `os.getcwd()` (`_sahiplik_uygula` ·
+#   `_kademe_uygula`): yanlış dizinden çağrılınca SESSİZCE yanılmıyor,
+#   `ENOENT` ile ÇÖKÜYOR (ölçüldü, çıkış 1) — yani gürültülü. Yine de
+#   `__file__` kadar sağlam değil ve ayrı bir kalem olarak duruyor.
+PROJE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 KUTU = r"C:\Users\emrem\OneDrive\Desktop\ClaudEmre\kutu\giden"
 KAYNAK = os.path.join(PROJE, "denetim", "HUKUM-BAYAT.json")
 ACIK = {"sirada", "olculecek"}
