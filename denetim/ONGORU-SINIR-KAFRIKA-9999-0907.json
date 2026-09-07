@@ -1,0 +1,57 @@
+{
+ "_NOT": "ÖNGÖRÜ — ÖLÇÜMDEN ÖNCE yazıldı. Kalem Ⓐ: Şefşâven `t:\"9999-01-01\"`. Sevk şartı ④ gereği mazeretler de ÖNCEDEN yazıldı; sonradan yazılan mazeret bulguya benzer ve hiçbir öngörü çürüyemez hâle gelir.",
+ "damga": "2026-09-07 · SINIR-KAFRIKA-0907 · ölçüm HENÜZ YAPILMADI",
+ "sevk": "1.MURAT M-3243 · kalem Ⓐ",
+ "kalemler": [
+  {
+   "no": "①",
+   "ne_bekliyorum": "`9999-01-01` dizgisi girdi dosyalarında 1-10 KAYITTA geçer",
+   "yon": "az",
+   "hangi_ciktidan": "girdi.yukle() ile yüklenen 3805 noktanın d/v/s/isg dönemlerinde `t` alanı taraması",
+   "birim": "KAYIT sayısı (nokta), ve ayrıca DÖNEM sayısı — ikisi farklı olabilir",
+   "mazeret": "YOK. Bu düz bir sayım; tutmazsa bandım yanlıştı."
+  },
+  {
+   "no": "②",
+   "ne_bekliyorum": "Şefşâven'in `s:` zinciri ÜÇ dönem: fas → 1924-11-15 · rif-cumhuriyeti 1924-11-15 → 1926-05-27 · fas 1926-05-27 → 9999-01-01",
+   "yon": "tam eşleşme",
+   "hangi_ciktidan": "Şefşâven kaydının ham `s:` dizisi",
+   "birim": "dönem sayısı ve sınır günleri",
+   "mazeret": "🟡 BU BİR DEVRALMA: zinciri KIMLIK-1923-0907'nin M-3205 ④ raporundan ve kendi rif taramamdan biliyorum; Şefşâven'in TAM kaydını AÇMADIM. Tutmazsa kusur ölçümde değil DEVRALMADA olur — ve bu meşru bir mazeret DEĞİL, yalnız bir teşhis."
+  },
+  {
+   "no": "③",
+   "ne_bekliyorum": "`girdi.py` ve `uret_petek.py` `9999-01-01` için ÖZEL bir işleme YAPMAZ; yarı açık aralık (`f <= g < t`) onu kendiliğinden 'ufka kadar açık' hâline getirir",
+   "yon": "özel işleme YOK",
+   "hangi_ciktidan": "kaynak kodda `9999` dizgisi araması + dönem karşılaştırma mantığının okunması",
+   "birim": "kod satırı (var/yok)",
+   "mazeret": "Bir nöbetçi değeri işleyicisi VARSA öngörüm çürür — ve bu bir MAZERET DEĞİL, GERÇEK BİR BULGU olur. O zaman `9999` tasarımın parçasıdır."
+  },
+  {
+   "no": "④",
+   "ne_bekliyorum": "Bu bir DAVRANIŞ kusuru değil bir SÖZLEŞME tutarsızlığı: atlasın açık uç yazımı `1923-10-29` (UFUK), `9999-01-01` ikinci bir yazım",
+   "yon": "tutarsızlık",
+   "hangi_ciktidan": "①'in dağılımı + `t:\"1923-10-29\"` ile biten dönem sayısının kıyası",
+   "birim": "oran",
+   "mazeret": "🔴 MEŞRU MAZERET VAR VE ÖNCEDEN YAZIYORUM: eğer `9999-01-01` YAYGINSA (onlarca kayıt, birden çok dosya, birden çok yazar) o zaman bu bir kusur DEĞİL kabul edilmiş İKİNCİ BİR SÖZLEŞMEDİR ve hüküm 'tasarım' olur. Sevk şartı ③ zaten bunu soruyor."
+  },
+  {
+   "no": "⑤",
+   "ne_bekliyorum": "`denetle.py` `9999-01-01`i HİÇ sormuyor — ne bir değişmezde ne bir uyarıda",
+   "yon": "sormuyor",
+   "hangi_ciktidan": "arac/denetle.py kaynak taraması + koşu çıktısı",
+   "birim": "denetim dalı (var/yok)",
+   "mazeret": "YOK."
+  },
+  {
+   "no": "⑥",
+   "ne_bekliyorum": "Şefşâven'in ufuk İÇİNDEKİ tek dönemi (`fas` → 1924-11-15) sağlam; yani bu kayıt HARİTAYI BUGÜN BOZMUYOR",
+   "yon": "bozmuyor",
+   "hangi_ciktidan": "1923-10-28'de Şefşâven'in sahibi",
+   "birim": "kimlik",
+   "mazeret": "YOK — bunu tur 7'de zaten ölçtüm (`fas`). Buradaki iş yalnız onu bu öngörüye BAĞLAMAK."
+  }
+ ],
+ "hangi_kosuda": "ŞİMDİ, koşu 8 sürerken. `data/` DONUK ⇒ yalnız OKUMA. Yama `denetim/` altına HAZIRLANIR, UYGULANMAZ.",
+ "neye_karsi": "Kıyas yok — bu ilk ölçüm. Taban ①-⑥'nın kendisi olacak."
+}
