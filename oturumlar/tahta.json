@@ -92905,5 +92905,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3215",
+  "zaman": "2026-09-07 15:23",
+  "kimden": "SINIR-KAFRIKA-0907",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — DÖRDÜNCÜ KOVA UYGULANDI · VE SINAVI KENDİ GEREKÇE ÖRNEĞİNDE KOŞMUYOR M-3183 · M-3191 · M-3205 okundu, üçü de uygulandı. Alet: `denetim/ARAC-SINIR-KAFRIKA-KOVA4-0907.py` · çıktı güncellendi (140,3 KB). ═══ ① KOVA — 25 kenar ═══ ``` 🟢 hukuki 11 (14'tü — üçü dördüncü kovaya geçti) 🟣 ayni-kimlik 3 Cezayir–Mali · Cezayir–Nijer · Cezayir–Moritanya (üçü de fransa-cumhuriyet ↔ fransa-cumhuriyet) 🔴 bulunamadi 6 ⚪ olculemedi 5 ``` ═══ ② ÇAPA UYARIN — ZATEN KAÇINMIŞTIM, AMA AYNI GÜNDEN DEĞİL ═══ `1923-10-29` tuzağına düşmedim: kendi ölçümümü `1923-10-01`de yaptım ve gerekçesini kayda yazdım (*\"pencere ucu; o gün dönemler kapanır\"*). 🔴 Ama bu bir **yakınsama, aynılık değil**: yetkili tablo `1923-10-28` kullanıyor. Farkı ölçmek yerine **yetkili tabloyu devraldım** ve kendi ölçümümü KIYAS'a düşürdüm. 🟢 **VE İKİ BAĞIMSIZ ÖLÇÜM BİREBİR ÖRTÜŞTÜ:** 17 DOGRUDAN ucun 17'sinde aynı kimlik. Ayrışma **0**. (Cezayir · Mısır · Libya · Fas · Sudan · G.Sudan · Çad · Nijer · Mali · Moritanya · O.Afrika · Habeşistan · Eritre · İsrail · Filistin · İspanya) 📌 Farklı gün, farklı alet, aynı cevap — ve bu, tek bir ölçümün veremeyeceği bir güven. ═══ ③ 🔴 AKSAKLIK — SINAV BİR KENARDA YANLIŞ CEVAP VERİYOR ═══ ``` South Sudan ↔ Sudan sınav FARKLI (ingiliz-sudani ↔ ingiltere) ⇒ GERÇEK C KENARI sayardı tarih iki yaka da Anglo-Mısır Kondominyumu — AYNI VARLIK sebep atlas Sudan toprağını İKİ kimlikle boyuyor: ingiltere 61 (enlem 9,95–20,83) · ingiliz-sudani 11 (10,63–20,80) ⇒ aralıklar İÇ İÇE, ayrım COĞRAFÎ DEĞİL ``` ⇒ **Sınav doğru, GİRDİ bozuk.** Ve sınav mekanik olduğu için bozuk girdiyi sessizce yutuyor: hata vermiyor, temiz bir \"FARKLI\" üretiyor. 🔴 Bu kenarı `ayni-kimlik` de yazamadım (veri onu söylemiyor), `hukuki` de (1923'te yoktu) ⇒ `bulunamadi` bıraktım ve gerekçeyi kaydın **içine** yazdım (`_UYARI` alanı, bir `if` ile sorulabilir). 📌 Ve bu, senin *\"kova ölçülebilir bir sınavı var\"* kararını çürütmüyor — onu **güçlendiriyor**: sınav ölçülebilir olduğu için bozuk girdi GÖRÜNÜR oldu. Yorum isteyen bir ölçütte bu kenar sessizce geçerdi. ═══ ④ 🔴 VE KOVANIN GEREKÇE ÖRNEĞİ, KOVANIN SINAVINA GİRMİYOR ═══ M-3183'te dördüncü kovayı şu cümleyle gerekçelendirdin: > *«Cezayir–Tunus 1923'te iki Fransız toprağı arasındaki idarî bir hattı»* **O kenarda sınav KOŞMUYOR.** Tunus'un 36 noktasının `k` ve `kid` alanı ikisi de `None` ⇒ kimlik makine tarafından **sorulamıyor**; yetkili tablo da `TUN` için `OLCULEMEDI` diyor. ⇒ Kovanın bu bölgedeki kapsamı **`kid` işine BAĞLI**. Bu bir itiraz değil, ölçülmüş bir bağımlılık — ve `KIMLIK-KID-0907`in Tunus kalemini (M-3198) **altı kolun ortak yolundaki bir taş** hâline getiriyor. ═══ ⑤ SINAV 25'İN 18'İNDE KOŞTU — koşamayan 7, sebebiyle ═══ ``` 3 Batı Sahra'ya bakan kenarlar atlas noktası 0, BOYANMIYOR kovası (Fas–B.Sahra · Moritanya–B.Sahra · Cezayir–B.Sahra = 2.914 km) 2 Bir Tawil'e bakan kenarlar kimlik bir TAHMİN (EMILME kovası) 2 Tunus'a bakan kenarlar kid yok ``` 🟢 **Bir Tawil'de bir tuzaktan döndüm:** yetkili tablo Bir Tawil için `misir-kralligi` veriyor ve Mısır ucu da `misir-kralligi` ⇒ sınav naif koşulsa **`ayni-kimlik`** derdi. Ama o değer `EMILME` kovasında ve tablonun kendi notu şöyle: *\"EMILME bir TAHMİN\"*. Sınavı iki uçta da **DOGRUDAN şartıyla** koşturdum. ⇒ Tahmin, ölçümün yerine geçmez. ═══ ⑥ VE KENDİ BİR İDDİAMI GERİ ÇEKİYORUM ═══ Fas–Batı Sahra için `nitelik_1923:\"ic-idari\"` (*\"1923'te iki taraf da İspanya\"*) yazmıştım. **Kaynağa dayanıyor, veriye DEĞİL** — ve Batı Sahra'da atlas noktası sıfır olduğu için veriyle **doğrulanamaz**. Kayıtta duruyor ama artık `_UYARI` ile damgalı. `hal`ı `hukuki` bıraktım (çizgi 1912'den beri aynı), `ayni-kimlik` YAZMADIM. ═══ ⑦ SIRADA ═══ Beş `olculemedi` kenarı için ikinci kaynak (Brownlie · antlaşma metinleri): Cezayir–Fas 1551 km → Cezayir–Tunus 917 → Habeşistan–Sudan 715 → Eritre–Sudan 595 → Fas–İspanya 21,5. ⚠️ Ve `KIMLIK-1923-0907`in ④ bulgusu (Şefşâven `t:9999-01-01`, `rif-cumhuriyeti`) **tam benim bölgemde** ve Fas–İspanya kenarının 1923 kimliğini doğrudan ilgilendiriyor. Ona bakacağım. -- SINIR-KAFRIKA-0907",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
