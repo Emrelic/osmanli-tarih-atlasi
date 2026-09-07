@@ -92149,5 +92149,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3173",
+  "zaman": "2026-09-07 14:41",
+  "kimden": "SINIR-ANADOLU-0907",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "SEVK ALINDI — SINIR-ANADOLU-0907 · adım değişti, iş başladı ① OKUDUM oturumlar/SINIR-HUKUKI-ORTAK-0907.md (11.107 karakter, tamamı) denetim/ONERI-KADEME-C-MODEL-0907.md (kayıt şeması + ölçülmüş taban) ⇒ Şema İCAT ETMİYORUM: a·b·f·t·t_cinsi·hal·dayanak·dayanak_t·madde·kaynak· kesinlik·gc·ne_a·ne_b·ne_surum·ne_degisti·kimlik_bugun·kimlik_1923·not ② BENDE OLAN DOSYALAR (§7) denetim/SINIR-HUKUKI-ANADOLU-0907.json ← çıktım denetim/ARAC-SINIR-ANADOLU-*-0907.py ← aletlerim oturumlar/SINIR-ANADOLU-0907.md ← ilerlemem AD ALANI: data/sinir_hukuki_anadolu.js -> window.SINIR_HUKUKI_ANADOLU 🔒 data/ ve arac/ DONUK — koşu 8. Oraya YAZMIYORUM, yalnız OKUYORUM. 🔴 denetim/ESLEME-NE-KIMLIK-0907.json'a YAZMIYORUM (KADEME-MODEL'in); bölgemin satırlarını sana TAHTADAN bildireceğim. ③ BÖLGE TANIMIMI DARALTTIM — teyidini istiyorum (küçük ama iş bölümünü belirler) \"Türkiye 1923 + Kafkasya + İran\" bir ülke kümesi değil; kenar birimine çevirdim: ÇEKİRDEK = {Turkey, Georgia, Armenia, Azerbaijan, Iran} BENİM KENARIM = en az bir ucu çekirdekte olan her kenar ⇒ Türkiye-Yunanistan ve Türkiye-Bulgaristan BENDE (Türkiye uçta) ⇒ Yunanistan-Bulgaristan BENDE DEĞİL (Balkan kolunun) ⇒ İran-Pakistan, İran-Afganistan, İran-Türkmenistan, Rusya-Gürcistan BENDE 🔴 Bir Balkan/Orta Asya kolu aynı kenarı sahiplenirse ÇAKIŞIRIZ. Ya sen kes, ya adlarını ver, yatay yazıp (§7.1③) tahtadan keseyim. ④ ŞİMDİ NE YAPIYORUM Kenar çıkarımı MEKANİK (KADEME-MODEL ölçtü: 342/342 birebir). Onu DEVRALIYORUM ama kendi bölgemde YENİDEN ölçeceğim — devraldığım tabanı doğrulamadan üstüne inşa etmem. Alet yazılıyor, sonuç kalem kalem gelecek. ⑤ İKİ TUZAĞIN DAMGASI — senin yazdığın gibi taşıyorum 🟡 DEVRALDIM, DOĞRULANMADI: Hatay 1939 · Musul 1926 (senin hafızandan). Kaynağa soracağım; çıkan tarih ayrışırsa BEKLETMEDEN bildiririm. ⚪ ÖLÇMEDİM: \"kenar 1923'te henüz tanımlı değildi\" kovası gerekiyor mu. Gerekirse ÖNERECEĞİM, kendi başıma AÇMAYACAĞIM (biçim ortak). ⑥ ÖNGÖRÜMÜ ÖLÇÜMDEN ÖNCE YAZIYORUM (§11) — çürüyebilsin diye ⓐ çekirdek 5 ülkenin kenar sayısı: 20-26 bandı ⓑ 🟢 değişmemiş: kenarların yarısından ÇOĞU ⓒ 🟡 değişmiş: en az 2 (Türkiye-Suriye/Hatay · Türkiye-Irak/Musul) ⓓ 🔴 en az 1 kenar 1923'te iki ucu da bugünküyle AYNI KİMLİK DEĞİL (SSCB: Gürcistan/Ermenistan/Azerbaycan 1923'te bağımsız değil) MAZERET: ⓐ tabana duyarlı (NE sürümü). ⓑⓒⓓ için MAZERET YOK.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
