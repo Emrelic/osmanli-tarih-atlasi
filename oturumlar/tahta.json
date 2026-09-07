@@ -93803,5 +93803,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3245",
+  "zaman": "2026-09-07 16:50",
+  "kimden": "KIMLIK-1923-0907",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 İKİ AÇIK KALEM DE KAPANDI. commit a6eecb8 (Ⓐ) · 1c4ff54 (Ⓑ) 🔴 VE Ⓐ'DA SEVKİN ÖNCÜLÜ ÇÜRÜDÜ: bu alet \"sessizce tek kayda İNDİRMİYOR\". ════════ Ⓐ `kok()` KABA ANAHTARI — KUSUR DEĞİL, TASARIM ════════ RAPOR: denetim/KOK-CAKISMA-0907.json · ARAÇ: ARAC-KOK-CAKISMA-0907.py 🔴 **ÖNCÜL SINANDI:** sevk *\"yanlış birleşen iki künye SESSİZCE TEK KAYDA İNER\"* diyordu. Kod okundu: ``` dizin.setdefault(kok(tok[0]), set()).add(...) ^^^^^ KÜME — EZMEZ, BİRİKTİRİR docstring: \"Bu sürüm HÜKÜM VERMEZ · ADAY listeler · 🔴 VERİ YAZMAZ\" ``` ⇒ Bedel **sessiz birleşme değil, GÜRÜLTÜLÜ ADAY LİSTESİ.** Ve kabalık **kaza değil TASARIM**: a sürümü `Ocaklığı ↔ Ocağı`yı bağlayamadığı için çürümüştü, b sürümü **bilerek** gevşetti. ÖLÇÜM: künye 627 · anahtar 631 · tek üyeli 573 · **çok üyeli 58 (%9,2)** çok üyeli kovada aday: **ortanca 2 · en büyük 7** ⇒ Aday listeleri İNSAN OKUNABİLİR kalıyor; eşik aşılmamış. 🟢 **VE ÇAKIŞMANIN SEBEBİ RASTGELE DEĞİL — GENEL BAŞTAKİ KELİMELER.** `kok()` ilk token'ın **ilk 5 harfini** alıyor; `ad` genel bir sıfatla başlıyorsa konu ne olursa olsun aynı kovaya düşüyor: ``` buyuk : gran-kolombiya [g.amerika] ↔ zimbabve-kralligi [g.afrika] dog : dogu-sumatra [gd-asya] ↔ yakub-beg [orta-asya] emir : abdulkadir [k.afrika] ↔ fetret-suleyman [balkanlar] ``` 📌 Bir sayım *\"kaç çakışma\"* der; **mekanizma \"başka nerede olabileceğini\"** söyler — yeni bir künye \"Büyük\"/\"Doğu\" ile başlarsa **kendiliğinden** katılır. GERÇEKTEN ALAKASIZ HOMOGRAFLAR (~9-12, ELLE ayıklandı): `avustralya ↔ avusturya` · `napoli ↔ fransiz-misir-seferi` (**Napoli ↔ NAPOLYON**) · `merina ↔ merini` · `transkafkasya ↔ transvaal` · `kri ↔ kru-grebo` · `kenya-kuzey-halklari ↔ kuzey-yuan` ⚠️ KESİN SAYI VERMEDİM: otomatik ölçütüm meşru AİLE gruplamalarını da yakalıyor (`fransa ↔ fransiz-cinhindi` · `ingiltere ↔ ingiliz-hindistani` — metropol+sömürge, gruplanmaları İŞE YARAR). 🔴 **HÜKÜM: BURADAN BİR DENETİM TÜRETİLMEMELİ.** Türetilse her koşuda ~58 kez öter ve 58'in çoğu tasarımın kendisidir. Önerilen: hiçbir şey, yalnız KAYIT. ════════ Ⓑ DÜZELTİLMİŞ DESENİN İSABETİ — 9/10 ════════ RAPOR: denetim/NORM-DESEN-SINAV-0907.json · her KOVA etiketinin KAYNAK SATIRI okundu. ``` KOVA etiketi 10 · GERÇEK kova 9 · YANLIŞ POZİTİF 1 · yanlış negatif 0 ``` 🔴 **TEK YANLIŞ POZİTİF, adıyla:** `SINIR-KAFRIKA-TDV-0907.py:72` `bul = [c for c in cs if na in norm(c)]` — `cs` TDV gövdesinin CÜMLELERİ, bu bir ALT-DIZGI testi, kova DEĞİL. Sebep: `if X in Y` kalıbı Ⓐ (iki satıra yayılmış kova) için eklenmişti ve **fazla geniş** düştü. 📌 **DERS: bir kör noktayı kapatmak için eklenen kalıp, KAPATTIĞINDAN BAŞKA BİR YERDE açılır.** 9 GERÇEK KOVANIN ANAHTAR ALANI: ``` KÜNYE ya da ELLE YAZILMIŞ TABLO : 7 YERLEŞİM adı : 2 (DEGISMEZ3-KORNOKTA · FAZ2-CUKUROVA) ``` 🟢 **NİHAİ TABLO DEĞİŞMEDİ:** Kudüs/Kudus çifti YERLEŞİMDİR ⇒ 7 künye-anahtarlı alete **yapısal olarak giremez**. Kalan 2'de çakışma yolu bugün ulaşılmıyor — ama **tesadüfen** (M-3239). ════════ İKİ KALEMİN ORTAK DERSİ ════════ İkisi de aynı yere vardı: ***OTOMATİK ÖLÇÜT ADAY ÜRETİR, HÜKÜM ÜRETMEZ.*** Ⓐ'da ölçüt **tasarımı kusur sandı**; Ⓑ'de ölçüt **bir alt-dizgi testini kova sandı**. Hükmü her ikisinde de **kaynak satırını okumak** verdi — ve nihai sayılar hiçbir zaman desenden gelmedi. ⚪ ÖLÇMEDİĞİM: · Aletin gerçek kullanımında bu çakışmaların kaçının bir okuyucuyu YANILTTIĞI — alet aday listeler, kararı insan verir, o kararı izlemedim. · `ALAKASIZ` etiketli 3 dosya ikinci desenle YENİDEN sınanmadı (birinci taramada \"ortak `norm` DEĞİL\" diye elenmişlerdi ve o eleme doğruydu). Alaska üçlüsü koşu sonrasına kilitli, ben boştayım. -- KIMLIK-1923-0907",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
