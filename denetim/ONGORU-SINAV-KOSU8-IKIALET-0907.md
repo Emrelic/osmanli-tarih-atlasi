@@ -79,3 +79,73 @@
    (yalnız o alt süreçte geçerli) — ama yine de **`--yaz` KOŞMAYACAĞIM.**
 3. Ⓑ'de bir dönüştürücü **önerebilirim**, **yazamam**: hangi alete ait
    olduğu bir sözleşme kararı ve o koordinatörde.
+
+---
+---
+
+# ⇒ SINAV SONUCU — ölçüldü · 6'nın 5'i tuttu
+
+## Ⓐ `ATLAS_KOK` — ÇÖZÜLDÜ
+```
+_bayat_uygula.py:18   PROJE = os.environ["ATLAS_KOK"]
+⇒ TEK `os.environ` çağrısı  (Ö-I2 ÇÜRÜDÜ, mazereti vardı)
+SINANDI: ATLAS_KOK=<depo kökü> verilince alet TAM KOŞUYOR —
+   «TOPLAM uygulanan: 0 · yön kısıtıyla reddedilen: 67»
+```
+⇒ Tek engel **belgesiz bir ortam değişkeniydi.**
+
+### 🔴 VE DAHA BÜYÜK BİR BULGU: BEŞ ALET, KÖKÜ ÜÇ AYRI YOLLA BULUYOR
+```
+_kunye_uygula       os.path.dirname(os.path.dirname(abspath(__file__)))
+_kronoloji_uygula   aynı
+_sahiplik_uygula    os.getcwd()
+_kademe_uygula      os.getcwd()
+_bayat_uygula       os.environ["ATLAS_KOK"]
+```
+Üçü de **farklı şey**: `__file__` nereden koşulursa koşulsun doğru;
+`getcwd()` **yalnız depo kökünden** koşulursa doğru; `environ` ise
+**önceden kurulmuş bir çevre** istiyor.
+🔴 **`os.getcwd()` BELGESİZ BİR ÖN KOŞULDUR:** o iki alet başka bir
+dizinden çağrılırsa **sessizce yanlış yeri okur** — çökmez, **yanılır.**
+📌 Bugün ölçülen *"aynı iş, üç ayrı anahtar adı"* (`SINIR-HUKUKI`) ve
+*"~50 ayrı alan adı"* bulgularının **ALET yüzü**: sözleşme yokluğu
+yalnız veride değil, **araçların kendi kurulumunda** da var.
+
+## Ⓑ `ALASKA-DEVIR-0907` — HİÇBİR ALET OKUYAMAZ
+```
+ALASKA kaydı  {"ad", "eski":[str], "yeni":[str]}
+   ve eski/yeni birer İNSAN OKUNUR ZİNCİR DİZGİSİ:
+   "1763-02-10..1867-07-01 ingiliz-kuzey-amerika"
+_sahiplik_uygula süzgeci (:88)  `r.ad` VE
+   (d|s|v|isg|m|kaynak|bos|neden|not|kur)'dan EN AZ BİRİ
+⇒ ALASKA'da `ad` VAR, öteki ONUNDAN HİÇBİRİ YOK ⇒ SÜZGEÇTE ELENİR
+```
+🟢 **Ö-I5 tuttu ve önemli:** eksik olan bir **alan** değil — `yeni` bir
+**dizgi listesi**, uygulayıcı yapılandırılmış `s:[{f,t,d}]` bekliyor.
+***Bir alan EKLENİR; bir temsil DÖNÜŞTÜRÜLÜR.*** Gereken şey bir
+**dönüştürücü.**
+
+🟡 Ve bir **yanlış pozitif elendi**: `grep -c "eski|yeni"`
+`_kademe_uygula`da 4 sonuç verdi — ama onlar onun **KENDİ ÇIKTI
+biçimi** (`eski: (r.mevcut||{}).k`), **girdisi değil.** Girdisi
+`r.yerlesim`/`r.mevcut`/`r.oneri` istiyor.
+
+## ÖNGÖRÜ SINAVI
+```
+Ö-I1 ATLAS_KOK = depo kökü   🟢   MAZERET YOKTU
+Ö-I2 başka ortam bağımlılığı 🔴 ÇÜRÜDÜ (tek çağrı)  MAZERET VARDI
+Ö-I3 değişken verilince koşar 🟢  MAZERET VARDI
+Ö-I4 şema uymaz              🟢   MAZERET YOKTU
+Ö-I5 fark TEMSİL             🟢   MAZERET YOKTU
+Ö-I6 hiçbir alet             🟢   MAZERET VARDI
+```
+
+## ÖNERİ — sözleşme kararı DEĞİL, o koordinatörde
+```
+Ⓐ `_bayat_uygula:18` → `__file__` tabanlı emsale çevrilsin.
+   En sağlamı o: `getcwd()` de `environ` da BELGESİZ ön koşul taşıyor.
+Ⓑ ALASKA için bir DÖNÜŞTÜRÜCÜ: `eski`/`yeni` dizgilerini
+   `s:[{f,t,d}]`e çevirip `data/yer_yama_alaska.js` üretsin.
+   ⚠️ Dizgi ayrıştırmak bu projede TEHLİKELİ (bugün yedi vaka);
+     dönüştürücünün `--kuru` çıktısı ELLE doğrulanmalı.
+```
