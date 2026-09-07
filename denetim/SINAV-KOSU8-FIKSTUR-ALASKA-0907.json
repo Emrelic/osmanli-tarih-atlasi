@@ -1,0 +1,136 @@
+{
+ "_NOT": "C13 ② ATEŞLEME fikstürü — SINAV-KOSU8-ALASKA-DONUSTUR-0907.py için. GERÇEK VERİ DEĞİLDİR, hiçbir yamaya girmez. Her dal, dönüştürücünün BİR durdurma/ihlal yolunu ayrı ayrı zorlar; gerçek Alaska verisinde bu kusurların hiçbiri yok, yani bu dosya olmadan o dallar HİÇ KOŞULMAZ.",
+ "dallar": [
+  {
+   "ad": "temiz (GEÇME yolu)",
+   "bekle": "temiz",
+   "kalemler": [
+    {
+     "ad": "Fikstür A",
+     "eski": ["1281-01-01..1867-07-01 ingiltere", "1867-07-01..1923-10-29 kanada"],
+     "yeni": ["1281-01-01..1799-01-01 ingiltere", "1799-01-01..1867-06-20 rus-amerika", "1867-06-20..1923-10-29 abd"]
+    }
+   ]
+  },
+  {
+   "ad": "kalıba uymayan dizgi",
+   "bekle": "durdu",
+   "kalemler": [
+    {
+     "ad": "Fikstür B",
+     "eski": ["1281-01-01..1867-07-01 ingiltere"],
+     "yeni": ["1281-01-01 .. 1867-06-20 rus-amerika"]
+    }
+   ]
+  },
+  {
+   "ad": "dizgide açıklama eki",
+   "bekle": "durdu",
+   "kalemler": [
+    {
+     "ad": "Fikstür C",
+     "eski": ["1281-01-01..1867-07-01 ingiltere"],
+     "yeni": ["1281-01-01..1867-06-20 rus-amerika (Novoarhangelsk)"]
+    }
+   ]
+  },
+  {
+   "ad": "ters dönem",
+   "bekle": "durdu",
+   "kalemler": [
+    {
+     "ad": "Fikstür D",
+     "eski": ["1281-01-01..1867-07-01 ingiltere"],
+     "yeni": ["1867-06-20..1281-01-01 rus-amerika"]
+    }
+   ]
+  },
+  {
+   "ad": "sıfır uzunlukta dönem",
+   "bekle": "durdu",
+   "kalemler": [
+    {
+     "ad": "Fikstür E",
+     "eski": ["1281-01-01..1867-07-01 ingiltere"],
+     "yeni": ["1867-06-20..1867-06-20 rus-amerika"]
+    }
+   ]
+  },
+  {
+   "ad": "boş zincir",
+   "bekle": "durdu",
+   "kalemler": [
+    {
+     "ad": "Fikstür F",
+     "eski": ["1281-01-01..1867-07-01 ingiltere"],
+     "yeni": []
+    }
+   ]
+  },
+  {
+   "ad": "ad alanı yok",
+   "bekle": "durdu",
+   "kalemler": [
+    {
+     "eski": ["1281-01-01..1867-07-01 ingiltere"],
+     "yeni": ["1281-01-01..1867-07-01 abd"]
+    }
+   ]
+  },
+  {
+   "ad": "K3a zincirde BOŞLUK",
+   "bekle": "ihlal",
+   "kalemler": [
+    {
+     "ad": "Fikstür G",
+     "eski": ["1281-01-01..1923-10-29 ingiltere"],
+     "yeni": ["1281-01-01..1799-01-01 ingiltere", "1800-01-01..1923-10-29 abd"]
+    }
+   ]
+  },
+  {
+   "ad": "K3a zincirde ÇAKIŞMA",
+   "bekle": "ihlal",
+   "kalemler": [
+    {
+     "ad": "Fikstür H",
+     "eski": ["1281-01-01..1923-10-29 ingiltere"],
+     "yeni": ["1281-01-01..1800-01-01 ingiltere", "1799-01-01..1923-10-29 abd"]
+    }
+   ]
+  },
+  {
+   "ad": "K3b BAŞLANGIÇ kaydı",
+   "bekle": "ihlal",
+   "kalemler": [
+    {
+     "ad": "Fikstür I",
+     "eski": ["1281-01-01..1923-10-29 ingiltere"],
+     "yeni": ["1500-01-01..1923-10-29 abd"]
+    }
+   ]
+  },
+  {
+   "ad": "K3b BİTİŞ kaydı",
+   "bekle": "ihlal",
+   "kalemler": [
+    {
+     "ad": "Fikstür J",
+     "eski": ["1281-01-01..1923-10-29 ingiltere"],
+     "yeni": ["1281-01-01..1900-01-01 abd"]
+    }
+   ]
+  },
+  {
+   "ad": "K4 yeni zincir DAHA KISA",
+   "bekle": "ihlal",
+   "kalemler": [
+    {
+     "ad": "Fikstür K",
+     "eski": ["1281-01-01..1799-01-01 ingiltere", "1799-01-01..1923-10-29 kanada"],
+     "yeni": ["1281-01-01..1923-10-29 abd"]
+    }
+   ]
+  }
+ ]
+}
