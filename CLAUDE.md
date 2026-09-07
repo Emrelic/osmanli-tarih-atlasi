@@ -7276,3 +7276,77 @@ seçilen   data/sinir_hukuki.js → window.SINIR_HUKUKI   (çakışma 0)
   alanındadır; konuşma dilini kısıtlamaz.***
   ⚠️ Ve kolları açan sevkin şartı buradan çıktı: **her kola dosya adı ve
   `window` adı BİRLİKTE verilir** — yoksa 14 kol 14 biçim üretir.
+
+- 🔴🔴 **UYGULANMAMIŞ BİR YAMA İKİ GEÇERLİ «ŞİMDİ» YARATIR — ve bir sayı
+  hangisine ait olduğu yazılmadan taşınırsa İKİ TARAF DA HAKLI ÇIKAR.**
+  *(7 Eylül 2026 · `kid` paydası · koordinatör iki kez yanıldı)*
+
+  Aynı alanın kapsaması iki oturumda iki farklı sayı verdi ve
+  koordinatör önce birini *"ölçülmedi"* diye damgaladı, sonra ötekini
+  *"yanlış"* ilan etti. **Üçüncü ölçüm ikisini de haklı çıkardı:**
+```
+DİSKTEKİ AN    429 = 291 var + 138 yok  →  82 (k'li) + 56 (adsız)
+YAMALI AN      429 = 341 var +  88 yok  →  32 (k'li) + 56 (adsız)
+                     └── bekleyen yama +50 dönem getiriyor
+```
+  🔴 Ve *"DUR, 32 yanlış, gerçek 82"* uyarısı işçiyi 82'yi taramaya
+  itiyordu — **o 82'nin 50'si kendi bekleyen yamasında zaten
+  çözülmüştü** ⇒ 50 dönemlik mükerrer iş.
+
+  📌 `§11`in *"sayıyı bilmek, sayının NEYE GÖRE olduğunu bilmek
+  değildir"* ailesine **dördüncü eksen: AN.** Öncekiler **birim**
+  (km²·dönem) · **alan adı** (`kim` ↔ `kimden`) · **referans** (2014 km
+  neye göre) idi.
+  ⇒ **KURAL: bir sayı `(disk)` ya da `(yamalı)` damgası taşır.**
+  Damgasız bir sayı, uygulanmamış yaması olan her alanda **iki anlama
+  gelir** ve okuyan kendi bağlamına göre yorumlar.
+  ⚠️ Ve bu, *"çıktı girdinin bir tur gerisindedir"* dersinden farklı:
+  orada **gecikme** vardı ve tek bir doğru vardı; burada **iki doğru**
+  var ve hangisinin sorulduğu belirtilmemiş.
+
+- 🟢🟢 **BİR İŞÇİ, KOORDİNATÖRÜN DÜZELTMESİNE UYMAYARAK HAKLI OLABİLİR —
+  ve `§7.1` bunun nasıl olacağını yazmıyordu.** *(aynı vaka)*
+
+  Koordinatör *"DUR, taradığın küme yanlış"* diye kesti. İşçi oturum
+  **uygulamadı**: iki paydanın iki ayrı ana ait olduğunu ayırdı ve
+  **doğru kümeyi taradı.**
+```
+🔴 uysaydı   50 dönem mükerrer taranırdı
+🟢 uymadı    ve gerekçesini raporun ⓪. maddesine YAZDI
+```
+  📌 `§7.1` koordinatörün yükümlülüklerini uzun uzun sayıyor (*ses
+  yoksa sor · ölü ilan etmeden bak · sorusuna karşılık bir şey
+  yaptıysan haber ver*) ama **işçinin bir emri ne zaman
+  UYGULAMAYACAĞINI** hiç yazmıyor.
+  🟢 **KURAL:** bir sevk ya da düzeltme, işçinin **kendi ölçümüyle**
+  çelişiyorsa — uygulanmaz, **ölçüm yazılır ve BİLDİRİLİR.** Bu bir
+  itaatsizlik değil `§7.1⑥`nın ta kendisi (*"beklenenden ÇOK farklı bir
+  sayı ölçtüysen BEKLETMEDEN bildir"*), yalnız ters yönden okunmuş hâli.
+  ⚠️ Şartı: **uymamak sessiz olamaz.** Sessizce farklı bir şey yapmak,
+  emri uygulamaktan kötüdür — o zaman koordinatör yanlış bir tabanla
+  plan yapmaya devam eder.
+
+- 🔴🔴 **BAYATLAYAN BİR BELGE, YALNIZ KENDİSİNİ DEĞİL ONU KOPYALAYAN
+  BRİFİNGİ DE BAYATLATIR — ve zinciri kimse izlemez.**
+  *(7 Eylül 2026 · `oturumlar/TESPIH.md`)*
+
+  20 dakikalık uyandırıcının brifingi `TESPIH.md`nin **başlığını
+  kopyalıyor.** Dosya 6 Eylül 17:33'te dondu; brifing ertesi gün **bütün
+  gün** şunu açtı:
+```
+brifing der     "KOŞU 7B · üretim PID 3880 · OTURUMLAR hepsi ÖLÜ"
+gerçek          KOŞU 8 · PID 10780 · DOKUZ oturum sahada
+```
+  🔴 Ve koordinatör **her turda** *"brifing bayat"* diye not düştü —
+  ama **nereden geldiğini bir kez bile izlemedi.** Kaynak kendi
+  dosyasıydı ve düzeltmesi bir edit'ti.
+
+  📌 `§1.5`in *"bayat bir tablo bir araştırma oturumunu yanılttı"*
+  ailesinin **besleme zinciri** yüzü: orada bayat olan **okunan şeydi**;
+  burada **okunanı ÜRETEN şey**, ve o yüzden düzeltmesi de bir kat
+  yukarıda.
+  ⇒ **KURAL: bir bayat kayıtla karşılaşınca «bu nereden geliyor» diye
+  sor.** Bayatlığı her turda yeniden not etmek, onu düzeltmenin yerine
+  geçmiyor — ve notun ucuz olması tam da bu yüzden tehlikeli.
+  🟢 Somut hâli: **koşu değişince İLK İŞ `TESPIH.md` başlığını
+  güncellemektir.**

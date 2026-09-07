@@ -1,3 +1,81 @@
+# TESPİH — 7 Eylül 2026
+
+> 🔴🔴 **BU DOSYANIN BAYAT KALMASI ÖLÇÜLEBİLİR ZARAR VERDİ — 7 Eylül'de
+> tespit edildi.** 20 dakikalık uyandırıcının brifingi buranın başlığını
+> **kopyalıyor.** Dosya 6 Eylül 17:33'te donunca brifing bütün gün
+> *"KOŞU 7B · PID 3880 · oturumlar hepsi ÖLÜ"* diye açıldı — oysa koşu
+> **8**, PID **10780**, ve **dokuz oturum sahadaydı.**
+> ⇒ Koordinatör her turda *"brifing bayat"* diye not düştü ama
+> **nereden geldiğini izlemedi**; kaynak kendi dosyasıydı.
+> 📌 `§11`in *"bayat bir tablo bir oturumu yanılttı"* ailesinin
+> **besleme zinciri** yüzü: orada bayat olan okunan şeydi, burada
+> **okunanı ÜRETEN şey.** ⇒ **Koşu değişince İLK İŞ bu başlığı
+> güncellemektir.**
+
+## 🔒 GÜNÜN KISITI — KOŞU 8 KOŞUYOR (7 Eylül)
+
+```
+🟢 KOŞU 8   11:17:46 başladı · fırlatıcı arac/kos_ve_yayinla.py (AYRIK)
+            ZİNCİR PID 9024 · ÜRETİM PID 10780 · log kosu8.log
+            nöbetçi arac/_bekci_kosu7b_cikis.py → denetim/BEKCI-KOSU8B.out
+            🟢 175. dk: CPU %93 · bellek 1540 MB · SAĞLIKLI
+            🟢 İLK MERDİVEN BASAMAĞI: bolgeler.js 13:06'da YAZILDI
+DONMUŞ : data/*  ·  arac/uret_petek.py · renkler.py · girdi.py
+SERBEST: js/app.js · css/style.css · index.html · denetim/* · oturumlar/*
+```
+
+🔴 **NÖBETÇİ BİR KEZ ÖLDÜ VE 43 DAKİKA FARK EDİLMEDİ** — saatlik canlılık
+satırındaki `⏳` (U+23F3) Windows cp1254 konsolunda `UnicodeEncodeError`
+attı. Düzeltildi (`sys.stdout.reconfigure(encoding="utf-8",
+errors="replace")`). Aynı kök bugün **üç kez** ısırdı.
+⇒ **Nöbetçinin sessizliği bir ölçüm değildir; `BEKCI-*.out` dosyasına
+BAKILIR.**
+
+🔴 **ORDU: HAZIR KITA 0** — dokuz oturum sahada. `list_sessions`
+`isRunning:false` derse bu **ölü** demek değil, **tur arası** demektir;
+`lastActivityAt`e bakılır.
+
+## 7 EYLÜL — BUGÜN KAPANANLAR
+
+```
+✅ EMRE'NİN AÇIK İSTEĞİ    ikinci geçiş süresi ~3,1-13,4 sn (harita:
+                           düzeltmesiyle ~3,4-14,6) = koşunun ON BİNDE BİRİ
+                           🔴 brifing bu kalemde İKİ YÖNDEN bayattı:
+                              0907 aleti zaten yazılmıştı VE motoru içe
+                              aktarmadığı için koşuyu beklemesi gerekmiyordu
+✅ ÇAKIŞMA 91 → 23         _sahiplik_uygula.py'de DÖRT kusur
+✅ ÇUKUROVA 6 TDV MADDESİ  Değişmez 2i 9→3 · Değişmez 7 663→661
+✅ ENKLAV 661 → 652        Değişmez 7 ✗ → ✓
+✅ FAYSAL 1921-08-23       31 yerleşim · çekirdekte madde YOKTU · yazıldı
+✅ MISIR ORDUSU → isg:     şema + kaynağın YÜKLEMİ, iki bağımsız ayak
+✅ KADEME C MODELİ         kenar çıkarımı %100 MEKANİK (342 çift, tolerans
+                           yok) · ad alanı SINIR_HUKUKI (KADEME zaten dolu)
+✅ 33 İŞÇİ ARTEFAKTI       commit'lendi · .gitignore'a dört önbellek satırı
+```
+
+## 🔴 7 EYLÜL — ÇÜRÜYEN ÖNCÜLLER (dokuz, ve altısı KOORDİNATÖRÜN)
+
+```
+BENİM   "Zapolya: bir künye eksik"    → Macaristan Mohaç'ta İKİYE BÖLÜNDÜ
+        "Boğdan 1856-1878 tek blok"   → veride YOK; gerçek 1456-1878, v:'de
+        "v: kimlik alanı YOK"         → `kid` 6 Eylül'de DOĞDU, 291 dolu
+        "kid yoksa ETİKET YOK"        → 82 çalışan etiketi silerdi
+        "32 yanlış, gerçek 82"        → İKİSİ DE DOĞRU, farklı ANLAR
+        "0906 aletini koştur"         → 0907 zaten vardı, koşu beklemiyordu
+İŞÇİNİN tabaka ekseni KÖŞE            → asıl eksen UZAMSAL ÖRTÜŞME
+        kendi n=4 okuması             → n=8.000'de 28 KAT düştü
+        "çürüyen id∪harita kapsar"    → TERS YÖN, kapsamıyor
+```
+
+---
+
+# ⬇️ AŞAĞISI 6 EYLÜL — TARİHÎ KAYIT, GÜNCEL DEĞİL
+
+> ⚠️ Aşağıdaki *"GÜNÜN KISITI"* bloğu **KOŞU 7B**'yi tarif eder ve
+> BAYATTIR. Silinmedi çünkü o günün kapanan kalemleri hâlâ geçerli
+> kayıt (`§3.5.1`: *bir vakayı silmek dersi de siler; damgalamak dersi
+> korur*). **Koşu ve PID için YUKARIYI oku.**
+
 # TESPİH — 6 Eylül 2026
 
 > 🔴🔴 **ÖNCE `EKSIKLER.md` OKU** (kök dizinde). 6 Eylül'ün TAM ENVANTERİ

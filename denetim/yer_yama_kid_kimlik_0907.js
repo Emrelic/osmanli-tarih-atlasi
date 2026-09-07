@@ -11,14 +11,8 @@
 //   MODEL SORUNU          → Bogdan/Cenubi Besarabya (donem IKI polity'ye yayiliyor)
 //
 // ⚠️ KISMÎ KAPSAMA (uygulanabilir ama bilinsin):
-//   Erdel Prensliği: künye 1570-1711, dönem 1541-1687 ⇒ 1541-1570 künyenin DIŞINDA (o dilim Zapolya'nın Doğu Macar Krallığı'dır ve künyesi YOK)
 
 window.YER_YAMA_KID_KIMLIK_0907 = [
-  { ad:"Erdel (Kaloşvar)",   // yerlesimler.js
-    v:[
-    {f:"1541-08-29", t:"1687-08-12", k:"Erdel Prensliği", statu:"vassal", kid:"erdel"},
-    {f:"1526-09-01", t:"1541-08-29", k:"Macaristan (Zapolya vasal krallığı)", statu:"vassal"},
-  ] },
   { ad:"Tarki (Tarku)",   // yerlesimler.js
     v:[
     {f:"1578-11-01", t:"1607-01-01", k:"Kumuk şamhallığı (tâbi)", statu:"vassal", kid:"kumuk-samhalligi"},
@@ -67,16 +61,6 @@ window.YER_YAMA_KID_KIMLIK_0907 = [
     v:[
     {f:"1805-07-03", t:"1867-06-08", k:"Mısır valiliği (Kavalalı hanedanı)", kid:"misir-kavalali"},
     {f:"1867-06-08", t:"1914-12-18", k:"Mısır Hidivliği", kid:"misir-kavalali"},
-  ] },
-  { ad:"Varad (Oradea)",   // yerlesimler.js
-    v:[
-    {f:"1526-09-01", t:"1541-08-29", k:"Macaristan (Zapolya vasal krallığı)", statu:"vassal"},
-    {f:"1541-08-29", t:"1660-08-27", k:"Erdel Prensliği", statu:"vassal", kid:"erdel"},
-  ] },
-  { ad:"Yanova (Ineu)",   // yerlesimler.js
-    v:[
-    {f:"1526-09-01", t:"1541-08-29", k:"Macaristan (Zapolya vasal krallığı)", statu:"vassal"},
-    {f:"1541-08-29", t:"1658-08-27", k:"Erdel Prensliği", statu:"vassal", kid:"erdel"},
   ] },
   { ad:"Tâif",   // yerlesimler.js
     v:[

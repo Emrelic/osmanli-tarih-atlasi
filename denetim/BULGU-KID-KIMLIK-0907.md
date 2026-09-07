@@ -6,6 +6,29 @@
 
 ---
 
+---
+## 🔴 DÜZELTME (7 Eylül, M-3160 turu) — YAMA **50 → 47**
+
+Sıkı sınav (`kid`in **kendi tanımı**, `girdi.py:932`: künye penceresi dönemi
+**kapsamalı**) yamamda **3 ihlal** buldu:
+```
+Erdel Prensliği → erdel    künye 1570-1711  ⊅  dönem 1541-1687 / 1660 / 1658
+```
+Bağlasaydım, **kendi ölçtüğüm ihlal sınıfına** (mevcut 16 dönem) **üç yeni
+üye** eklemiş olacaktım. ⇒ `Erdel` bağı **kaldırıldı**; kayıt *"dönem
+künyeden UZUN"* kalemine gider.
+```
+yama       50 → 47 dönem · 44 → 41 yerleşim
+kapsama   341 → 338 / 429  (%78,8)
+kalan      88 →  91  = 35 (k'li) + 56 (adsız)
+sıkı sınav: 66/66 GEÇTİ  (önce 66/69)
+```
+📌 Aşağıdaki bölümlerde geçen **50 · 341 · 88 · 32** sayıları bu düzeltmeden
+öncedir; ders ve tasnif **değişmedi**, yalnız `Erdel` satırı kovasını
+değiştirdi.
+
+---
+
 ## 🔴🔴 ÖNCE MANŞET: YAMAM TEK BAŞINA ETİKETİ DEĞİŞTİRMİYOR
 
 Şartnamenin bitiş ölçütü *"mükerrer etiket AZALMALI"*. Ölçüldü — **veri
