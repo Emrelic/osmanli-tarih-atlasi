@@ -133,6 +133,40 @@ S soru · E eylem · T tavsiye · I itiraz — **dördü de cevaplanır, boş ol
 
 ---
 
+# 🟢🟢 EMRE'NİN KARARI — BUDAMA ONAYLANDI (7 Eylül, akşam)
+
+> *"Okunmayacak olan ve bize **doğruluk, hız ve tasarruf** manasında
+> bir şey katmayacak olan her şeyi **buda ve sil**. Akılcı bir şekilde
+> azalt. **Okunacak ve uygulanacak bir taban kalsın**, lazım olanlar
+> kalsın, **kuru gürültü** yaratanları silelim."*
+
+```
+ÖLÇÜM     taban 145.947 token · §11 = %73
+🟢 ÇARE   KURAL ile VAKAYI ayır → 73.900-85.600 token (%41-49)
+YAPI      `§11`in KENDİSİ dizin olur (ayrı `dersler/DIZIN.md` YOK —
+          ikinci otorite doğurur) · vaka `dersler/<slug>.md`ye iner
+```
+🔴 **UYGULAMA ZAMANI: koşu 8 BİTTİKTEN ve bu dalga TESLİM ETTİKTEN
+sonra.** Şu an on üç oturum `CLAUDE.md`yi okuyarak çalışıyor.
+🟢 **Ve «sil» burada geri alınamaz DEĞİL** — git her şeyi tutuyor;
+`git show <commit>:CLAUDE.md` tam hâli geri verir. Uyarı **belge içi**
+bir uyarıydı.
+
+**ŞARTLAR (BUDAMA-0907'ye verildi):**
+```
+① hazırlık paketi `denetim/BUDAMA-PLAN-0907/` altına — UYGULAMADAN ÖNCE
+② KADEME KADEME commit — tek dev commit, gerilemeyi ölçülemez kılar
+③ GERİ ALMA yolu yazılır VE sınanır
+④ SINAV: budanmış §11 + dersler/ toplamı ESKİ manşetlerin tamamını
+   taşıyor mu — kayıp manşet 0 · C13 ateşleme: bir manşeti KASTEN düşür
+🔴 MANŞET ve DAMITILMIŞ HÜKÜM CLAUDE.md'de KALIR, VAKA iner
+🔴 §1-§10 bu turda DIŞARIDA (§3.5 ve §4'teki vakalar ÖLÇÜLÜP bildirilir)
+🔴 Hazırlık paketi EMRE'YE önce/sonra olarak sunulur — o "evet" dedi
+   ama HANGİ METNİN GİDECEĞİNİ görmedi
+```
+
+---
+
 # ⑨ ÖĞLEDEN SONRA — 13:00-13:45 · dört teslim, ALTI çürüyen öncül
 
 ## ⑨a KOŞU 8 — merdiven ilerledi
