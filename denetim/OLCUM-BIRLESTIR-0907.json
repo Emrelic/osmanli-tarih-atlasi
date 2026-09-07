@@ -50,8 +50,8 @@
  "sema": {
   "ANADOLU": {
    "kayit": 19,
-   "bos_f": 12,
-   "bos_dayanak_t": 12
+   "bos_f": 11,
+   "bos_dayanak_t": 11
   },
   "BALKAN": {
    "bos_f": 13,
@@ -70,7 +70,7 @@
    "gc_bos": 4
   },
   "KAFRIKA": {
-   "bos_dayanak_t": 5,
+   "bos_dayanak_t": 3,
    "onerilen_eksik": 25,
    "kayit": 25
   },
@@ -180,7 +180,7 @@
     {
      "bolge": "ANADOLU",
      "i": 14,
-     "hal": "bulunamadi"
+     "hal": "hukuki"
     },
     {
      "bolge": "BALKAN",
@@ -582,7 +582,7 @@
    "tur": "SARI",
    "bolge": "ANADOLU+BALKAN",
    "yer": "-",
-   "mesaj": "BOLGELER ARASI MUKERRER: Bulgaria | Turkey -> ANADOLU(bulunamadi), BALKAN(olculemedi)"
+   "mesaj": "BOLGELER ARASI MUKERRER: Bulgaria | Turkey -> ANADOLU(hukuki), BALKAN(olculemedi)"
   },
   {
    "tur": "SARI",
@@ -645,6 +645,326 @@
    "mesaj": "MUKERRER, BIR TARAFIN gc'si BOS: Egypt | Palestine ⇒ geometri celiskisi DEGIL, olcum eksigi"
   }
  ],
- "uretilen": [],
- "cikti_dogrulamasi": null
+ "uretilen": [
+  {
+   "bolge": "ANADOLU",
+   "yol": "denetim\\_birlestir\\sinir_hukuki_anadolu.js",
+   "ad_alani": "SINIR_HUKUKI_ANADOLU",
+   "kayit": 19
+  },
+  {
+   "bolge": "ARAP",
+   "yol": "denetim\\_birlestir\\sinir_hukuki_arap.js",
+   "ad_alani": "SINIR_HUKUKI_ARAP",
+   "kayit": 26
+  },
+  {
+   "bolge": "ASYA",
+   "yol": "denetim\\_birlestir\\sinir_hukuki_asya.js",
+   "ad_alani": "SINIR_HUKUKI_ASYA",
+   "kayit": 98
+  },
+  {
+   "bolge": "BALKAN",
+   "yol": "denetim\\_birlestir\\sinir_hukuki_balkan.js",
+   "ad_alani": "SINIR_HUKUKI_BALKAN",
+   "kayit": 60
+  },
+  {
+   "bolge": "GAFRIKA",
+   "yol": "denetim\\_birlestir\\sinir_hukuki_gafrika.js",
+   "ad_alani": "SINIR_HUKUKI_GAFRIKA",
+   "kayit": 89
+  },
+  {
+   "bolge": "KAFRIKA",
+   "yol": "denetim\\_birlestir\\sinir_hukuki_kafrika.js",
+   "ad_alani": "SINIR_HUKUKI_KAFRIKA",
+   "kayit": 25
+  }
+ ],
+ "normalizasyon": {
+  "ANADOLU": {
+   "slug-tasindi": 19,
+   "a/b-degisti": 19
+  },
+  "ARAP": {
+   "slug-tasindi": 26
+  },
+  "ASYA": {
+   "bos-uc-dolduruldu": 98,
+   "slug-tasindi": 89,
+   "a/b-degisti": 98,
+   "slug-yok": 9
+  },
+  "BALKAN": {
+   "slug-tasindi": 60
+  },
+  "GAFRIKA": {
+   "slug-tasindi": 88,
+   "uc-takasi": 43,
+   "sira-duzeltildi": 43,
+   "a/b-degisti": 43,
+   "slug-yok": 1
+  },
+  "KAFRIKA": {
+   "slug-tasindi": 20,
+   "slug-yok": 5
+  }
+ },
+ "cikti_dogrulamasi": {
+  "dosyalar": [
+   {
+    "bolge": "ANADOLU",
+    "ad": "SINIR_HUKUKI_ANADOLU",
+    "yol": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ\\denetim\\_birlestir\\sinir_hukuki_anadolu.js",
+    "tanimlanan_adlar": [
+     "SINIR_HUKUKI_ANADOLU"
+    ],
+    "ad_var": true,
+    "dizi_mi": true,
+    "sayi": 19,
+    "beklenen": 19,
+    "ilk_alanlar": [
+     "_bolge",
+     "_eski_a",
+     "_eski_b",
+     "_ne_anahtar",
+     "a",
+     "alinti",
+     "b",
+     "dayanak",
+     "dayanak_t",
+     "degisim_alinti",
+     "degisim_kaynak",
+     "degisim_t",
+     "degisim_t_hassasiyet",
+     "f",
+     "gc",
+     "hal",
+     "kaynak",
+     "kesinlik",
+     "kimlik_1923",
+     "kimlik_1923_a",
+     "kimlik_1923_b",
+     "kimlik_1923_damga",
+     "kimlik_bugun",
+     "madde",
+     "ne_a",
+     "ne_b",
+     "ne_degisti",
+     "ne_surum",
+     "not",
+     "parca",
+     "t",
+     "t_cinsi",
+     "tepe",
+     "uzunluk_km_yaklasik"
+    ]
+   },
+   {
+    "bolge": "ARAP",
+    "ad": "SINIR_HUKUKI_ARAP",
+    "yol": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ\\denetim\\_birlestir\\sinir_hukuki_arap.js",
+    "tanimlanan_adlar": [
+     "SINIR_HUKUKI_ARAP"
+    ],
+    "ad_var": true,
+    "dizi_mi": true,
+    "sayi": 26,
+    "beklenen": 26,
+    "ilk_alanlar": [
+     "_bolge",
+     "_ne_anahtar",
+     "a",
+     "b",
+     "dayanak",
+     "dayanak_t",
+     "f",
+     "gc",
+     "gc_uzunluk_km",
+     "hal",
+     "kaynak",
+     "kimlik_1923",
+     "kimlik_1923_a",
+     "kimlik_1923_b",
+     "kimlik_bugun",
+     "t",
+     "t_cinsi"
+    ]
+   },
+   {
+    "bolge": "ASYA",
+    "ad": "SINIR_HUKUKI_ASYA",
+    "yol": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ\\denetim\\_birlestir\\sinir_hukuki_asya.js",
+    "tanimlanan_adlar": [
+     "SINIR_HUKUKI_ASYA"
+    ],
+    "ad_var": true,
+    "dizi_mi": true,
+    "sayi": 98,
+    "beklenen": 98,
+    "ilk_alanlar": [
+     "_bolge",
+     "_eski_a",
+     "_eski_b",
+     "_ne_anahtar",
+     "a",
+     "b",
+     "cins",
+     "dayanak",
+     "dayanak_t",
+     "f",
+     "gc",
+     "hal",
+     "kaynak",
+     "kesinlik",
+     "kimlik_1923",
+     "kimlik_1923_a",
+     "kimlik_1923_b",
+     "kimlik_bugun",
+     "madde",
+     "ne_a",
+     "ne_b",
+     "ne_degisti",
+     "ne_surum",
+     "not",
+     "parca",
+     "t",
+     "t_cinsi",
+     "tepe",
+     "uzunluk_derece"
+    ]
+   },
+   {
+    "bolge": "BALKAN",
+    "ad": "SINIR_HUKUKI_BALKAN",
+    "yol": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ\\denetim\\_birlestir\\sinir_hukuki_balkan.js",
+    "tanimlanan_adlar": [
+     "SINIR_HUKUKI_BALKAN"
+    ],
+    "ad_var": true,
+    "dizi_mi": true,
+    "sayi": 60,
+    "beklenen": 60,
+    "ilk_alanlar": [
+     "_bolge",
+     "_ne_anahtar",
+     "a",
+     "b",
+     "bolge_disi_uc",
+     "dayanak",
+     "dayanak_t",
+     "degisim_sinifi",
+     "f",
+     "gc",
+     "hal",
+     "ic_sinir_1923",
+     "kaynak",
+     "kimlik_1923_a",
+     "kimlik_1923_b",
+     "kimlik_bugun_a",
+     "kimlik_bugun_b",
+     "kimlik_veri_uyarisi",
+     "madde",
+     "ne_a",
+     "ne_b",
+     "ne_degisti",
+     "ne_surum",
+     "not",
+     "oncul_damgasi",
+     "parca",
+     "sorgu_gunu",
+     "t",
+     "t_cinsi",
+     "tepe"
+    ]
+   },
+   {
+    "bolge": "GAFRIKA",
+    "ad": "SINIR_HUKUKI_GAFRIKA",
+    "yol": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ\\denetim\\_birlestir\\sinir_hukuki_gafrika.js",
+    "tanimlanan_adlar": [
+     "SINIR_HUKUKI_GAFRIKA"
+    ],
+    "ad_var": true,
+    "dizi_mi": true,
+    "sayi": 89,
+    "beklenen": 89,
+    "ilk_alanlar": [
+     "_bolge",
+     "_ne_anahtar",
+     "a",
+     "b",
+     "cipa",
+     "damga_1923",
+     "dayanak",
+     "dayanak_t",
+     "f",
+     "gc",
+     "hal",
+     "hal_atlas",
+     "hat_sayisi",
+     "kaynak",
+     "kimlik_1923",
+     "kimlik_1923_a",
+     "kimlik_1923_atlas",
+     "kimlik_1923_atlas_dagilim",
+     "kimlik_1923_atlas_guc",
+     "kimlik_1923_b",
+     "kimlik_bugun",
+     "sinif_1923",
+     "sorgu_gunu",
+     "t",
+     "t_cinsi",
+     "tepe",
+     "uzunluk_derece"
+    ]
+   },
+   {
+    "bolge": "KAFRIKA",
+    "ad": "SINIR_HUKUKI_KAFRIKA",
+    "yol": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ\\denetim\\_birlestir\\sinir_hukuki_kafrika.js",
+    "tanimlanan_adlar": [
+     "SINIR_HUKUKI_KAFRIKA"
+    ],
+    "ad_var": true,
+    "dizi_mi": true,
+    "sayi": 25,
+    "beklenen": 25,
+    "ilk_alanlar": [
+     "_UYARI",
+     "_bolge",
+     "_ne_anahtar",
+     "a",
+     "alinti",
+     "ayni_kimlik_sinavi",
+     "b",
+     "dayanak",
+     "dayanak_t",
+     "degisti_1923_sonrasi",
+     "f",
+     "gc",
+     "gc_parca",
+     "hal",
+     "kaynak",
+     "kimlik_1923_a",
+     "kimlik_1923_a_yetkili",
+     "kimlik_1923_b",
+     "kimlik_1923_b_yetkili",
+     "kimlik_1923_kova_a",
+     "kimlik_1923_kova_b",
+     "kimlik_bugun_a",
+     "kimlik_bugun_b",
+     "km",
+     "nitelik_1923",
+     "not",
+     "t",
+     "t_cinsi",
+     "tepe"
+    ]
+   }
+  ],
+  "ad_carpismasi": []
+ }
 }

@@ -532,6 +532,94 @@ def cakisma_olc(okunan, ne_ad, bulgular):
 # ⑤ BIRLESTIRICI — her bolge KENDI window adiyla
 # ─────────────────────────────────────────────────────────────────────────────
 
+def _slug_cifti(bolge, r, ne_a, ne_b):
+    """
+    Kaydin 1923 atlas slug'larini (ne_a, ne_b) SIRASINDA dondur.
+
+    🔴 Her kol slug'i BASKA BIR BICIMDE tasiyor — bes bicim olculdu. Hizalama
+       TAHMIN EDILMEDI, her kol icin AYRI AYRI dogrulandi (7 Eylul 2026):
+         ASYA     kimlik_bugun{a,b} <-> ne_a/ne_b   98/98
+         GAFRIKA  kimlik_bugun[]    <-> a/b         89/89
+         BALKAN   ne_a == a                         60/60
+         KAFRIKA  ne_a == a                         25/25
+         ANADOLU  kimlik_1923 NE ADIYLA anahtarli   19/19  (hizalama sorusu YOK)
+       Hizalama dogrulanamayan bir kol cikarsa (None, None, "hizasiz") doner
+       ve birlestirici o kaydi DAMGALAR — sessizce tasimaz.
+    """
+    if bolge == "ANADOLU":
+        k = r.get("kimlik_1923")
+        if isinstance(k, dict):
+            return k.get(ne_a), k.get(ne_b), "ne-adiyla-anahtarli"
+    elif bolge == "ASYA":
+        k = r.get("kimlik_1923")
+        if isinstance(k, dict) and ("a" in k or "b" in k):
+            # kimlik_bugun{a,b} ile ne_a/ne_b hizasi olculdu
+            if r.get("ne_a") == ne_a:
+                return k.get("a"), k.get("b"), "a-ne_a"
+            return k.get("b"), k.get("a"), "a-ne_b TERS"
+    elif bolge in ("BALKAN", "KAFRIKA"):
+        ka, kb = r.get("kimlik_1923_a"), r.get("kimlik_1923_b")
+        if r.get("a") == ne_a or r.get("ne_a") == ne_a:
+            return ka, kb, "a-ucu"
+        return kb, ka, "b-ucu TERS"
+    elif bolge == "GAFRIKA":
+        k = r.get("kimlik_1923_atlas")
+        if isinstance(k, list) and len(k) == 2:
+            if r.get("a") == ne_a:
+                return k[0], k[1], "atlas[]"
+            return k[1], k[0], "atlas[] TERS"
+    elif bolge == "ARAP":
+        k = r.get("kimlik_1923")
+        if isinstance(k, list) and len(k) == 2:
+            if r.get("a") == ne_a:
+                return k[0], k[1], "liste"
+            return k[1], k[0], "liste TERS"
+    return None, None, "hizasiz"
+
+
+def normalize(bolge, r, eksen_adi):
+    """
+    ③+④ hukmu (1.MURAT, 7 Eylul):  a/b = NE ADI · kimlik_1923_a/_b = atlas slug'i.
+
+    Gerekce (kabul edilen): NE adi GEOMETRININ kaynagi ve DEGISMEZ; slug bir
+    HUKUMDUR ve degisebilir. Anahtari hukme baglamak, hukum duzelince
+    anahtari kaydirir — ve kaydiran bir anahtar CAKISMAYI GORUNMEZ yapar.
+
+    🔴 KAYNAK DOSYAYA DOKUNULMAZ. Bu donusum yalniz BIRLESTIRICININ CIKTISINDA
+       yasar; kollarin dosyalari degismez (§7).
+    Donus: (yeni_kayit, bayraklar)
+    """
+    bayrak = set()
+    cift = ne_cifti(r, eksen_adi)      # zaten ALFABETIK siralanmis dondurur
+    if cift is None:
+        bayrak.add("ne-cifti-yok")
+        return dict(r), bayrak
+    ne_a, ne_b = cift
+    ka, kb, yol = _slug_cifti(bolge, r, ne_a, ne_b)
+    if yol == "hizasiz":
+        bayrak.add("slug-hizasiz")
+    if "TERS" in yol:
+        bayrak.add("uc-takasi")
+
+    k = dict(r)
+    eski_a, eski_b = r.get("a"), r.get("b")
+    if eski_a != ne_a or eski_b != ne_b:
+        bayrak.add("a/b-degisti")
+        if isinstance(eski_a, str) and isinstance(eski_b, str) and eski_a > eski_b:
+            bayrak.add("sira-duzeltildi")
+        if eski_a is None:
+            bayrak.add("bos-uc-dolduruldu")
+        # eski degeri KAYBETME — nereden geldigi sorulabilir olmali
+        k["_eski_a"], k["_eski_b"] = eski_a, eski_b
+    k["a"], k["b"] = ne_a, ne_b
+    if ka is not None or kb is not None:
+        k["kimlik_1923_a"], k["kimlik_1923_b"] = ka, kb
+        bayrak.add("slug-tasindi")
+    else:
+        bayrak.add("slug-yok")
+    return k, bayrak
+
+
 def ad_alani(bolge):
     return "SINIR_HUKUKI_" + bolge.upper()
 
@@ -552,15 +640,21 @@ def uret(okunan, eksen, indeks, hedef_dizin, ham=False):
     """
     os.makedirs(hedef_dizin, exist_ok=True)
     yazilan = []
+    rapor = collections.defaultdict(collections.Counter)
     ters = {}
     for anahtar, v in indeks.items():
         for b, i, _ in v:
             ters[(b, i)] = anahtar
     for b, o in sorted(okunan.items()):
         kayitlar = []
+        eks = eksen.get(b, (None, 0))[0]
         for i, r in enumerate(o["kayitlar"]):
-            k = dict(r)
-            if not ham:
+            if ham:
+                k = dict(r)
+            else:
+                k, bayrak = normalize(b, r, eks)
+                for x in bayrak:
+                    rapor[b][x] += 1
                 k["_bolge"] = b                          # PROVENANS — hangi kol yazdi
                 a = ters.get((b, i))
                 k["_ne_anahtar"] = list(a) if a else None  # kararli kenar anahtari
@@ -580,7 +674,7 @@ def uret(okunan, eksen, indeks, hedef_dizin, ham=False):
             fh.write(basl)
             fh.write("window." + ad + " = " + govde + ";\n")
         yazilan.append((b, yol, ad, len(kayitlar)))
-    return yazilan
+    return yazilan, {b: dict(c) for b, c in rapor.items()}
 
 
 NODE_DOGRULA = r"""
@@ -677,9 +771,9 @@ def main():
     kan_n, kan_c, gizlenen, kanonsuz = kanonik_capraz_sinav(indeks, carpraz, kanon, bulgular)
     kapsama = kapsama_olc(indeks, kanon)
 
-    yazilan, dogrulama = [], None
+    yazilan, dogrulama, nrapor = [], None, {}
     if a.uret:
-        yazilan = uret(okunan, eksen, indeks, a.hedef, ham=a.ham)
+        yazilan, nrapor = uret(okunan, eksen, indeks, a.hedef, ham=a.ham)
         dogrulama = cikti_dogrula(yazilan)
 
     kirmizi = [x for x in bulgular if x[0] == "KIRMIZI"]
@@ -766,6 +860,22 @@ def main():
             for b, yol, ad, n in yazilan:
                 P("   %-9s %-34s window.%-26s %d kayit" % (b, os.path.basename(yol), ad, n))
             P("")
+            if not a.ham:
+                P("   ⑤b NORMALIZASYON  (③+④ hukmu — KAYNAK DOSYALAR DEGISMEDI)")
+                P("      a/b = NE ADI · kimlik_1923_a/_b = atlas slug'i")
+                P("      %-9s %-12s %-11s %-13s %-12s %-11s %s"
+                  % ("BOLGE", "a/b DEGISTI", "sira duz.", "bos uc dold.", "slug tasindi",
+                     "uc takasi", "slug YOK"))
+                for b2 in sorted(nrapor):
+                    c = nrapor[b2]
+                    P("      %-9s %-12d %-11d %-13d %-12d %-11d %d"
+                      % (b2, c.get("a/b-degisti", 0), c.get("sira-duzeltildi", 0),
+                         c.get("bos-uc-dolduruldu", 0), c.get("slug-tasindi", 0),
+                         c.get("uc-takasi", 0), c.get("slug-yok", 0)))
+                hz = sum(c.get("slug-hizasiz", 0) for c in nrapor.values())
+                P("      slug HIZASIZ (bicimi taninmadi): %s"
+                  % ("🟢 0" if not hz else "🔴 %d — DAMGALANDI, sessizce tasinmadi" % hz))
+                P("")
             P("⑥ CIKTI DOGRULAMASI (node + vm, HER DOSYA AYRI BAGLAMDA)")
             if dogrulama and "_hata" in dogrulama:
                 P("   🔴 node calistirilamadi: %s" % dogrulama["_hata"][:300])
@@ -811,6 +921,7 @@ def main():
                               for k, v in sorted(icsel.items())],
             bulgular=[dict(tur=t, bolge=b, yer=y, mesaj=m) for t, b, y, m in bulgular],
             uretilen=[dict(bolge=b, yol=y, ad_alani=ad, kayit=n) for b, y, ad, n in yazilan],
+            normalizasyon=nrapor,
             cikti_dogrulamasi=dogrulama,
         )
         os.makedirs(os.path.dirname(os.path.abspath(a.json_yol)), exist_ok=True)

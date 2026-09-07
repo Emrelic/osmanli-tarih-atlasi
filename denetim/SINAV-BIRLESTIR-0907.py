@@ -252,6 +252,37 @@ def ayak_atesleme(tmp):
         kol_yaz(d, "BALKAN", [k2], kapsayici="kenar")
     bozuk("AD VARYANTI MUKERRERI GIZLEMIS", ad_varyanti, "AD VARYANTI MUKERRERI GIZLEMIS")
 
+    # ── NORMALIZASYON dallari (③+④ hukmu) ─────────────────────────────────
+    def _norm(ad, kur, kontrol, aciklama):
+        d = os.path.join(tmp, "nz_" + _guvenli(ad)); os.makedirs(d, exist_ok=True)
+        temiz_kume(d)
+        kur(d)
+        jy = os.path.join(tmp, "nz_%s.json" % _guvenli(ad))
+        hedef = os.path.join(tmp, "nz_out_" + _guvenli(ad))
+        kod, _, rapor = alet_kos(d, ["--bolgeler", "ANADOLU,BALKAN", "--uret", "--hedef", hedef], jy)
+        nz = (rapor or {}).get("normalizasyon") or {}
+        bildir("ATESLEME", ad, kontrol(nz), aciklama % nz)
+
+    def slug_hizasiz(d):
+        # ANADOLU'da kimlik_1923 DICT beklenir; LISTE verilirse bicim taninmaz
+        k = dict(temiz_kayit("Greece", "Turkey"), kimlik_1923=["yunanistan", "tbmm-turkiye"])
+        kol_yaz(d, "ANADOLU", [k])
+    _norm("NORM slug HIZASIZ damgalanir",
+          slug_hizasiz,
+          lambda nz: nz.get("ANADOLU", {}).get("slug-hizasiz", 0) >= 1,
+          "ANADOLU=%(ANADOLU)s")
+
+    def uc_takasi(d):
+        # a > b VE kimlik_1923_a/_b dolu ⇒ siralama duzelirken SLUGLAR DA takas olmali
+        k = dict(temiz_kayit("Turkey", "Greece"), ne_a="Turkey", ne_b="Greece",
+                 kimlik_1923_a="tbmm-turkiye", kimlik_1923_b="yunanistan")
+        kol_yaz(d, "BALKAN", [k], kapsayici="kenar")
+    _norm("NORM uc takasi + sira duzeltme",
+          uc_takasi,
+          lambda nz: nz.get("BALKAN", {}).get("uc-takasi", 0) >= 1
+          and nz.get("BALKAN", {}).get("sira-duzeltildi", 0) >= 1,
+          "BALKAN=%(BALKAN)s")
+
     # NE ekseni bulunamayan kol
     def ne_yok(d):
         k = temiz_kayit("Zzzz-Yok-Ulke-1", "Zzzz-Yok-Ulke-2")
