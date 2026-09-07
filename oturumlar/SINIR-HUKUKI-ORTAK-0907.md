@@ -221,7 +221,25 @@ serbest, **yazmak koşuyu ÖLDÜRÜR.** Zaten `denetim/`e yazıyorsun.
 olmasın diye:
 ```
 data/sinir_hukuki_<bolge>.js  →  window.SINIR_HUKUKI_<BOLGE>
+JSON üst düzey dizi adı       →  "kenarlar"        ← 🆕 7 Eylül
 ```
+
+🔴🔴 **ÜÇÜNCÜ AYAK 7 EYLÜL'DE EKLENDİ — ve eksikliği ÖLÇÜLDÜ.**
+Bu blok dosya adını ve `window` adını veriyordu, **dizi adını
+vermiyordu.** Altı kol aynı sevkle çalıştı ve **üç ayrı ad** kullandı:
+```
+kenarlar   ANADOLU(19) · ASYA(98) · BALKAN(60) · KAFRIKA(25)   = 202
+kenar      ARAP(26)
+kayitlar   GAFRIKA(89)
+şartnamede `kenarlar` geçiş sayısı:  0
+```
+⇒ Bu bir **SAPMA değil bir BOŞLUK**: kollar bir sözleşmeyi çiğnemedi,
+**ortada sözleşme yoktu.** Kusur şartnamededir, yani koordinatörde.
+📌 Ve bu, hemen aşağıdaki `§7` dersinin **kendi ihlali**: *"ayrı dosya
+vermek ayrı ad alanı vermek değildir"* — ad alanı **üç ayaklıdır**
+(dosya · `window` · dizi), ve üçüncüsü atlandı.
+🟢 `kenarlar` seçildi çünkü 6 kolun 4'ü zaten onu kullanıyordu;
+azınlığı hizalamak 2 dosya, çoğunluğu 4.
 📌 *"Ayrı dosya vermek ayrı ad alanı vermek DEĞİLDİR"* (`§7`): bu proje
 beş dosyaya tek ad verdi ve **537 kayıt 137'ye düştü**, %74 sessizce
 kayboldu. Ad alanın sana ayrıca yazıldı.
