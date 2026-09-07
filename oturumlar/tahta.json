@@ -91681,5 +91681,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3147",
+  "zaman": "2026-09-07 13:29",
+  "kimden": "GECIS-SURE-0907",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_a7692d4b-6114-4133-b7fc-3fe6b1853fee",
+  "mesaj": "TESLİM — GECIS-SURE-0907. `denetim/OLCUM-GECIS-SURE-0907.md` + üç alet, commit'lendi. ═══ ⓪ CEVAP — BANT ═══ çift sayısı 85.977 (künye ölçütü) … 99.704 (dönem ölçütü) çift maliyeti 0,0363 ms (ortanca) … 0,1344 ms (%90) ──────────────────────────────────────────────────────── TOPLAM ~3,1 sn … ~13,4 sn ⚠️ ÜST SINIR damgalı (koşu 8 yükü altında) — ve aynı zamanda bir ALT SINIR taşıyor, aşağıda. Koşu 8 ~16 saat ⇒ ikinci geçiş koşunun **on binde biri** mertebesinde. 🔴 Bu bir \"yapılsın\" ÖNERİSİ DEĞİL, yalnız \"süresi engel değil\" ÖLÇÜMÜ. Karar senin. ═══ ⑧② HANGİ ÇARPAN HATAYI SÜRÜKLÜYOR — ölçüldü ═══ çift SAYISI 85.977 ↔ 99.704 1,16× menzil çift MALİYETİ 0,0363 ↔ 0,1344 3,70× menzil ← BU ⇒ Çift sayısını kesinleştirmek bandı DARALTMAZ; maliyetin KUYRUĞU daraltır. Dağılım ağır kuyruklu: ortanca 0,0275 ms, azami 74,7 ms. ═══ Ⓐ — UYARIN DOĞRULANDI, tabakalama ZORUNLUYDU ═══ parça: ortanca 4 · %90 231 · AZAMİ 53.627 en büyük 1 kimlik toplamın %22,3'ünü · en büyük 5 %60,3'ünü tutuyor (`ingiltere` 53.627 parça / 1.285.912 köşe) ⇒ Rastgele örneklem ortanca-4'ün ağırlığında kalırdı. `⑧③`ün cevabı: GEREKLİ. ═══ 🔴 AMA TABAKA EKSENİM YANLIŞTI — ve ölçüm ÇÜRÜTTÜ ═══ Tabakaları KÖŞE'ye göre kurdum. Ölçüm: köşe 6.300 kat değişiyor, ortanca maliyet 2 kat, ve EN BÜYÜK tabaka ikinciden UCUZ çıktı (0,044 ↔ 0,059). Asıl eksen KARMAŞIKLIK değil UZAMSAL ÖRTÜŞME (n=8.000): bbox AYRIK %97,9 ortanca 0,0275 ms bbox örtüşür, kesişim BOŞ %0,9 ortanca 0,3564 ms · azami 74,708 kesişim DOLU %1,1 ortanca 0,5608 ms · azami 56,191 Çiftlerin %97,9'unda GEOS bbox reddiyle ANINDA çıkıyor, köşeleri HİÇ okumuyor. Şartname \"varsayım tutmazsa raporda yazar\" diyordu; yazdım. ═══ 🔴 VE KENDİ ÖNCEKİ TURUMU ÇÜRÜTTÜM — bunu ayrıca bildiriyorum ═══ Sana bir tur önce şunu yazdım: *\"en pahalı kova 'bbox örtüşür ama kesişim boş' — 10,07 ms, dolu kesişimden 365 kat.\"* 🔴 O YANLIŞTI. O ölçüm n=900 idi ve orta kovaya yalnız **4 çift** düşmüştü. n=8.000'de o kovada 74 çift var ve ortanca **0,356 ms** — 28 KAT düşük. Sıralama da düzeldi: DOLU 0,561 > örtüşür-boş 0,356 > ayrık 0,0275. ⇒ n=4 bir oran değil, birkaç aykırı değerin portresiydi. Kendi `urabi-pasa` dersimi kendi ölçümümde yedim. 🔴 Ve aletimin ÖZET SATIRI da kusurlu: *\"DOLU, AYRIK'tan 20 kat pahalı ⇒ hipotez TUTTU\"* diyor — ama hipotezi sınayan karşılaştırma bu değil. Alet DOĞRU sayıları basıp YANLIŞ çifti karşılaştırıyor. Hükmü tablodan okudum, özet satırından değil, ve bunu raporun içine yazdım ki bir sonraki oturum o satıra güvenmesin. ═══ ④ ÇİFT SAYISI AYRIŞMASI ÇÖZÜLDÜ — ve BİR BAĞ ÇIKTI ═══ Önceki alet 85.977, ben 99.704 ölçtüm. Kendi sayımı sessizce kullanmadım, aynı evrende İKİ ÖLÇÜTÜ de hesapladım: KÜNYE penceresi 85.977 ← önceki aletin sayısı, BİREBİR DÖNEM penceresi 99.704 naif 152.076 İkisi de doğru, farklı şey ölçüyorlar (künye devletin ömrü, dönem haritada çizildiği aralık). 🔴 VE BAĞ: 22 kimliğin parçası VAR ama künyesi YOK — `avusturya` · `ceneviz` · `sovalye` · `bulgaristan` · `sirbistan` · `bosna` · `arnavutluk` · `yemen` … Bunlar bugün ⑭ kolunda ölçtüğüm **`harita:` dolaylamasıyla bağlı 22 kimliğin ta kendisi** (`ONERI-ALET-BORCLARI-0907.md`). ⇒ 85.977 onları SESSİZCE dışarıda bırakıyor. `harita:` dolaylaması düzeltilirse bu sayı da değişir. İki kalem birbirine bağlı ve kimse bağlamamıştı — ben de ancak ayrışmayı ölçerken gördüm. ═══ ⑤ MODELLEME KARARI — bandın uçları TERS yöne sapıyor ═══ Ölçülen atomik işlem: iki kimliğin ÖRTÜŞEN BİRER DÖNEMİNİN kesişimi. Bütün dönemleri birleştirmek maliyeti şişirirdi (gerçek geçiş dilim başına çalışır). Ama gerçek geçiş bir çift için BİRDEN ÇOK dilimde çalışabilir: çift sayısı (85.977) ALT sınır — A çıktısı koşu 7b'nin ürünü, düzeltilmiş çift maliyeti ÜST sınır — koşu 8 yükü altında dilim başına tekrar ALT sınır — çift başına TEK dilim ölçüldü ⇒ \"~3-13 sn\" bir MERTEBE ifadesidir, bir kesinlik değil. ═══ ÖLÇEMEDİKLERİM ═══ ⚪ gerçek geçişin bir çift için KAÇ dilimde çalıştığı (⑤'in alt sınırı) ⚪ koşu 8 BİTTİKTEN sonraki maliyet (Ⓑ'nin ikinci yarısı) — koşu sürüyor; bittiğinde tekrarlanmalı, aradaki fark YÜKÜN KENDİSİDİR ⚪ `harita:` düzeltilince 85.977'nin ne olacağı 🔴 ÇÜRÜTTÜM: köşe tabanlı tabakalama · ve kendi n=4 okumam ⏳ BEKLİYORUM: `index.html` için `--yaz` işaretin (koşu 8 bitişi). ✅ Bunun dışında İŞLERİM BİTTİ — boştayım.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
