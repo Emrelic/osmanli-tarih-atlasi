@@ -1,0 +1,46 @@
+KIMLIK-1923-0907 — NE->atlas kimlik eslemesi + Kuzey Amerika devir yamasi
+
+IS 1 — her NE ulkesi -> 1923-10-29 atlas kimligi (denetim/KIMLIK-1923-0907.json)
+  258 NE girdisi · eslesti 176 (175 kimlik + 1 olculemedi) · cok kimlikli 53
+  EMILME 23 · BOYANMIYOR 59   ⇒ 258 = 176+23+59
+  Kiyas: ad eslemesi NAME_EN 6 / NAME_TR 52 (devralindi) -> COGRAFI 176.
+  Olcut nokta-poligon icindelik; ada hic bakilmadi.
+
+  🔴 CIPA GUNU SORGU GUNU DEGIL — donemler yari acik (f <= g < t) ve
+    girdi.UFUK[1] == "1923-10-29". Cipa gunu sorulursa 3805 noktanin
+    3804'u sahipsiz gorunur. Sorgu gunu 1923-10-28. (tahta M-3189)
+
+  "Bos" tek kova YAPILMADI: careleri ters. EMILME'de harita orayi
+  komsunun rengiyle BOYUYOR (§2), BOYANMIYOR'da hic boyamiyor — esik
+  secilmedi, uret_petek.py:900 TAVAN_KM=200'den ALINDI.
+
+IS 2 — Kuzey Amerika devir yamasi (denetim/yer_yama_kamerika_devir_0907.js)
+  Sevk 37 nokta diyordu; §3.5.1 "iki uc da olculur" ile 42 cikti
+  (ters yon: Kanada icinde abd 4 · Meksika icinde abd 1).
+  YAZILAN 27 · AYRI BIRAKILAN 15 (hepsi adiyla ve gerekcesiyle basligda).
+
+  Kaynak: Avalon Project (Yale Law School), birincil metin nesri —
+    Guadalupe Hidalgo 1848-02-02 (10) · Oregon 1846-06-15 (7) ·
+    Gadsden 1853-12-30 (2) · Adams-Onis TASDIK 1821-02-22 (2) ·
+    Teksas 1836-03-02/1845-12-29 (1, atlasin KENDI kunyesinden) ·
+    ters yon 5 (atlasin kendi kunye gunleriyle).
+  Tarih konvansiyonu secilmedi, atlastan OKUNDU (1763-02-10 ve
+  1783-09-03 imza gunleri) — tek istisna Adams-Onis, gerekcesi yazili.
+
+  DORT EKSENDE OLCULDU, dordu de temiz:
+    Degismez 1  kapsama korunuyor, ic bosluk 0
+    kunye       her donem kimliginin penceresi ICINDE (§3.5.0)
+    bicim       ters/sifir/cakisan donem 0 (§8)
+    Degismez 2s kapsam ICI +0 (104, tavan 121) — tek yeni acik gun
+                1846-06-15 ve o KAPSAM DISI
+  C13 dort ayak: gecme · atesleme (5 dalin 5'i zorlandi, 5'i de ottu) ·
+  girdi (yama DISKTEN, node ile) · cikti (yama bellekte uygulanip kimlik
+  YENIDEN olculdu: 22 abd · 3 kanada · 1 ingiltere · 1 meksika).
+
+  🔴 ALASKA YARIM YAMANMADI: parca parca yamak ya 109 gunluk sahipsizlik
+    ya "Alaska Ingilizdi" yalanini derinlestirir; rus-amerika KUNYESI YOK.
+    AYRI KALEM. Ayni sekilde El Paso del Norte'ye DOKUNULMADI — o Ciudad
+    Juarez'in tarihi adi, yani veri muhtemelen DOGRU, koordinat supheli;
+    bir abd donemi yazmak gercegi SILERDI.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>

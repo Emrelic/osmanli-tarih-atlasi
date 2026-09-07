@@ -1,0 +1,37 @@
+{
+ "_NOT": "KIMLIK-1923-0907 · Alaska yamasinin ON KOSULU. Sevk: 1.MURAT. Bu dosya YALNIZ KUNYE onerisidir — Alaska yerlesim yamasi YAZILMADI (sevk: 'sen yazma, on kosulu kur').",
+ "_BICIM": "🔴 ILK YAZIMDA UST DUZEY BIR LISTE IDI ve `_kunye_uygula.kunyeleri_cikar()` onu OKUYAMADI (`AttributeError: 'list' object has no attribute 'items'`). Cikarici SOZLUK bekliyor ve icindeki ilk `id`li listeyi aliyor. Sema ve glob sinanmisti, CIKARICININ OKUYUP OKUYAMADIGI SINANMAMISTI — `C13③ GIRDI` ayagi. Duzeltildi ve artik sinaniyor.",
+ "kunye": [
+  {
+   "id": "rus-amerika",
+   "ad": "Rus-Amerikası (Rus-Amerika Kumpanyası)",
+   "tur": "gecici-isgal",
+   "bolge": "kuzey-amerika",
+   "f": "1799-01-01",
+   "t": "1867-06-20",
+   "baskent": "Sitka (Novo-Arhangelsk)",
+   "ozet": "Alaska'da Rus-Amerika Kumpanyası eliyle kurulan, merkezi Sitka olan kürk ticareti temelli Rus sömürge idaresi. 1867'de Alaska'nın Amerika Birleşik Devletleri'ne satılmasıyla sona erdi.",
+   "kaynak": "rusya",
+   "kronoloji": [
+    {
+     "t": "1799-01-01",
+     "tur": "kurulus",
+     "b": "Rus-Amerika Kumpanyası kuruldu; Alaska'nın idaresi imtiyazlı şirkete verildi",
+     "kaynak": "TDV `rusya` (HTTP 200, govde okundu) — AYNEN: «1791'den itibaren hicbir devlete ait olmayan bir bolge olarak Alaska kurk ticareti yapmak uzere imtiyazlandirilan sirketler eliyle zaptedildi. 1799'da Rus-Amerika Kumpanyasi kuruldu». 🔴 KAYNAK YIL VERIYOR, GUN VERMIYOR ⇒ §4 geregi `YYYY-01-01`; GUN UYDURULMADI. ⚠️ Dar sluglar OLU: `alaska` 302 · `rus-amerika` 302 ⇒ kapsayici `rusya` maddesi kullanildi (§4: dar slug tutmazsa kapsayiciyi dene)."
+    },
+    {
+     "t": "1867-06-20",
+     "tur": "son",
+     "b": "Alaska'nın Amerika Birleşik Devletleri'ne devri tamamlandı; Rus-Amerikası sona erdi",
+     "kaynak": "Avalon Project (Yale Law School), 'Russian Treaty; March 30, 1867' — birincil metin nesri. Imza 1867-03-30, TASDIK TEATISI VE ILAN 1867-06-20. Antlasmanin KENDI IV. maddesi devir anini ACIKCA adlandiriyor: «the cession, with the right of immediate possession, is nevertheless to be deemed COMPLETE AND ABSOLUTE ON THE EXCHANGE OF RATIFICATIONS, without waiting for such formal delivery». ⇒ 18 Ekim 1867 toreni bir TESLIM TORENIDIR ve antlasma onu devrin SARTI SAYMIYOR. TDV `rusya` ayni olay icin yalniz YIL veriyor («1867'de ... satmak zorunda kaldi»); gun ANTLASMA METNINDEN alindi."
+    }
+   ],
+   "_KARAR_GUN": "UC ADAY OLCULDU: 1867-03-30 (imza · atlasin genel konvansiyonu) · 1867-06-20 (tasdik teatisi) · 1867-10-18 (teslim toreni · sevkin 🟡 devraldigi gun). SECILEN 1867-06-20, ve gerekcesi bir TERCIH degil KAYNAGIN KENDI CUMLESI: bu antlasma devrin tamamlandigi ani acikca adlandiriyor. §11: atlas TASARRUFU boyar. ⚠️ Guadalupe Hidalgo'da IMZA gunu secilmisti; fark KEYFI DEGIL — orada antlasma devrin anini boyle acik bir cumleyle adlandirmiyor (IV. maddesi ISGAL EDILEN yerlerin Meksika'ya IADESINDEN bahsediyor, devirden degil). Olcut: KAYNAK ACIKCA SOYLUYORSA onu al, SOYLEMIYORSA atlasin imza konvansiyonuna uy.",
+   "_KARAR_F": "SEVKIN IKI 🟡 ADAYI OLCULDU. 1799 DOGRULANDI (TDV `rusya` govdesi birebir veriyor). 1741 (Bering seferi) DESTEKLENMEDI — TDV'nin kendi anlatisi 1791'e kadar bolgeyi 'hicbir devlete ait olmayan' sayiyor; bir KESIF tarihi bir DEVLET kurulusu degildir. Devralinan oncul taban yapilmadi, OLCULDU.",
+   "_ONCEKI_DONEM": "TDV: «1791'den itibaren HICBIR DEVLETE AIT OLMAYAN bir bolge». ⇒ Alaska yamasinda 1799 oncesi icin dogru kova `bos: devletsiz`tir (§11 sinavi: kaynak KONUSUYOR ⇒ `devletsiz`; susuyor ⇒ `veri-yok`). Bu kayit o yamayi YAZMIYOR, yalnizca YAZILABILIR OLDUGUNU olcuyor.",
+   "_RENK_BORCU": "🔴 BU KUNYE TEK BASINA YETMEZ. `renkler.py` BOYALAR'da `rus-amerika` YOK ⇒ §8: kimlik BOYANMAZ, ve bu bir HARITA DELIGIDIR. Atlasin emsali kesin: her somurge/sirket topragi KENDI rengini aliyor, hicbiri metropole yonlenmiyor (ingiliz-kuzey-amerika #00ade2 · yeni-ispanya #2864d8 · ingiliz-hindistani · hollanda-dogu-hint · uc Guyana'nin ucu de). ⇒ `harita:\"rusya\"` ile gecistirmek konvansiyona AYKIRI olur. RENK AYRI ISTIR ve `renkler.py` kosu 8 boyunca DONUK.",
+   "_FORT_YUKON_NOTU": "⚠️ Alaska yamasini yazacak olana: Fort Yukon'un zinciri 1847'de `ingiliz-kuzey-amerika` ile basliyor ve bu OTEKI DORDUNDEN FARKLI olabilir — Hudson's Bay Company'nin oraya Rus toprağinda kurdugu bir karakol oldugu iddiasi vardir. DE JURE Rus, DE FACTO Ingiliz. BU IDDIAYI OLCMEDIM, kaynak aramadim; yalnizca dordu ile birlikte tek kaliba dokulmemesi gerektigini isaret ediyorum.",
+   "_SIRA": "① bu kunye insin ② `rus-amerika` rengi yazilsin ③ ANCAK ONDAN SONRA Alaska yamasi. Ikisi hazir olmadan yama yazmak, 5 noktayi BOYANMAYAN bir kimlige tasir."
+  }
+ ]
+}

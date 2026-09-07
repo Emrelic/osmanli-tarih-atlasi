@@ -1,0 +1,45 @@
+KIMLIK-1923-0907 — `rus-amerika` kunye onerisi (Alaska yamasinin on kosulu)
+
+ONERI: denetim/YAMA-KUNYE-RUS-AMERIKA-0907.json
+SINAV: denetim/ARAC-RUSAMERIKA-SINAV-0907.py
+Kuru kosu: KABUL 1 · RED 0 · UYARI 0   (data/ DONUK, yazilmadi)
+
+  id rus-amerika · Rus-Amerikasi (Rus-Amerika Kumpanyasi)
+  tur gecici-isgal (emsal 5/5) · bolge kuzey-amerika
+  f 1799-01-01 · t 1867-06-20 · baskent Sitka (Novo-Arhangelsk)
+
+SEVKIN UC 🟡 ONCULU OLCULDU — biri dogrulandi, ikisi cürüdü:
+  1799        🟢 DOGRULANDI — TDV `rusya` govdesi birebir veriyor
+              («1799'da Rus-Amerika Kumpanyasi kuruldu»). YIL veriyor,
+              GUN vermiyor ⇒ §4 geregi 1799-01-01, gun uydurulmadi.
+  1741        🔴 DESTEKLENMEDI — TDV 1791'e kadar bolgeyi "hicbir devlete
+              ait olmayan" sayiyor; bir KESIF tarihi devlet kurulusu degil.
+  1867-10-18  🔴 CURUDU — antlasmanin KENDI IV. maddesi devir anini acikca
+              adlandiriyor: "the cession ... to be deemed COMPLETE AND
+              ABSOLUTE ON THE EXCHANGE OF RATIFICATIONS, without waiting
+              for such formal delivery". Tasdik teatisi 1867-06-20.
+              18 Ekim bir TESLIM TORENIDIR ve antlasma onu sart saymiyor.
+
+TDV KAPSIYOR — dar sluglar olu (`alaska` 302 · `rus-amerika` 302), kapsayici
+`rusya` maddesi tasiyor (§4: dar slug tutmazsa kapsayiciyi dene). Baskent
+Sitka da oradan.
+
+🔴 KUNYE TEK BASINA YETMEZ — RENK BORCU: BOYALAR'da `rus-amerika` YOK ⇒ §8
+harita deligi. Emsal kesin: her somurge/sirket topragi KENDI rengini aliyor
+(ingiliz-kuzey-amerika · yeni-ispanya · ingiliz-hindistani · hollanda-dogu-hint
+· uc Guyana), hicbiri metropole yonlenmiyor ⇒ `harita:"rusya"` konvansiyona
+AYKIRI olur. renkler.py kosu 8 boyunca DONUK ⇒ AYRI IS.
+
+🔴 KENDI KUSURUM, kaydediliyor: dosyayi ust duzey LISTE yazmistim;
+`_kunye_uygula.kunyeleri_cikar()` SOZLUK bekliyor ve AttributeError ile
+cokuyordu. Sema · cakisma · glob sinanmisti ama "cikarici bu dosyayi
+OKUYABILIYOR MU" hic sorulmamisti — C13③ GIRDI ayagi. Duzeltildi, sinav
+artik o ayagi da kosuyor.
+
+🔴 BASKA BIR KOLU ILGILENDIREN BULGU: `_kunye_uygula.py:44` VARSAYILAN globu
+`denetim/YAMA-KUNYE-*0905*.json` — TARIHE KILITLI. Bugun 0907. Olculdu:
+13 YAMA-KUNYE dosyasinin 11'i tutuluyor, 2'si KACIYOR — benimki ve
+YAMA-KUNYE-VASSAL-0906.json. Ikincisi gercek cikariciyla 10 KUNYE veriyor,
+yani bicimi saglam; yalniz glob gormiyor ⇒ 10 kunye sessizce inmiyor.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
