@@ -172,9 +172,117 @@ diye 13 kimliği birden yanlış damgalayacaktım.
 
 ---
 
-## ⑥ TESLİM DURUMU
+## ⑥ ÇIPA TUZAĞI — uyarı geldi, DEVRALINMADI, ÖLÇÜLDÜ
+
+1.MURAT `M-3191` ile **acil** yazdı: *"çıpa günü atlasa sorulamaz; dönemler
+yarı açık (`f <= g < t`) ve `UFUK[1] == 1923-10-29` ⇒ o gün canlı kimlik 1,
+sahipsiz 3804. Yanlış günle ölçtüysen sonucun sessizce boş çıkmıştır —
+**tekrarla**."*
+
+🔴 **Tekrarlamadım; önce tekrarlamam gerekip gerekmediğini ölçtüm** —
+*tekrarlamak da bir varsayımdır.* Alet:
+`denetim/ARAC-SINIR-ANADOLU-CIPA-0907.py`
+
+```
+gün ekseni      10-29 taraması ↔ 10-28 taraması   →  FARK 0 EKSEN (birebir)
+aralık ekseni   aynı gün YARI AÇIK denendi        →  13 ucun 10'u BOŞ
+```
+Sebep tek satırda: bu tarama `girdi.yukle()` değil **`devletler.js` künye
+tablosunu** okuyor ve karşılaştırma **kapalı** — `f <= ÇIPA <= t`
+(`ARAC-SINIR-ANADOLU-KIMLIK-0907.py:82`).
+⇒ ***Tuzak GERÇEK ve tarifi doğru; bu alete ateşlemiyor.*** Yarı açık
+kullansaydım on ucu birden *"kimlik yok"* diye yazacaktım.
+📌 Uyarı boşa gitmedi: **aleti sınadı ve sınav geçti.**
+
+🟢 **VE UYARIYLA GELEN VERİ HÜKMÜMÜ GÜÇLENDİRDİ.**
+`denetim/KIMLIK-1923-0907-ADIM1.json` (girdi.yukle, 1923-10-28):
+```
+tbmm-turkiye 238 · kacar 108 · irak-kralligi 31 · suriye-lubnan-mandasi 17
+sovyet-rusya 392 · bulgaristan-kralligi 22 · yunanistan 97 · afganistan 5
+ingiliz-hindistani 114        ⇒ dokuz kimliğin dokuzu da VERİDE
+AYRI Kafkas kimliği (ermeni/gurc/azerb/transkaf)  →  YOK
+```
+⇒ `ic-idari` önerisi artık **iki bağımsız ölçüme** dayanıyor: künye tablosu
+**ve** yetkili yükleyici.
+🟢 Bir damga yükseldi: `Turkmenistan → sovyet-rusya`, 🟡 DEVRALDIM → 🟢
+**ÖLÇTÜM** (`buhara-halk-cumhuriyeti` ve `harezm-halk-cumhuriyeti` künyeleri
+1923-10-28'de canlı ama **veride 0 nokta**).
+
+🔴 **UYGULAMADIĞIM KISIM, ve sessiz değil:** *"36 `v:` dönemi `kid:`
+taşımıyor ⇒ `olculemedi`"* uyarısı bu kayıtlara **uygulanmaz** — kenar
+kayıtları `v:` dönemi kullanmıyor. Eklemek yanlış damga olurdu: ölçülemeyen
+bir şey yok, **ölçülecek bir şey yok.**
+
+---
+
+## ⑦ KAYBOLAN GEREKÇE — süpürücü commit, ve bu bölüm onun KAYDI
+
+Bu dosya ve iki kardeşi (`denetim/ARAC-SINIR-ANADOLU-URET-0907.py` ·
+`denetim/SINIR-HUKUKI-ANADOLU-0907.json`) **kendi commit'imle değil**,
+koordinatörün sevk commit'iyle depoya girdi:
+```
+ec869d9 | 15:03:20 | "ALTI KITA DAHA SEVK EDILDI — kadro 21 oturum"  →  23 dosya
+d143e65 |          | "IKI DERS + KOSU 8 BITIS TAHMINI DUZELDI"       → 140 dosya
+```
+`git commit -F <msg> -- oturumlar/SINIR-ANADOLU-0907.md` denemem şu cevabı
+aldı: **`no changes added to commit`** — yani hakkımın hükümsüz kalışı bir
+hata değil, **bir başarı cümlesi** gibi göründü.
+
+🟢 **ZARARIN CİNSİ:** veri kaybı **yok** (ölçüldü: `git status --porcelain`
+üç dosya için de boş, commit'teki hâl diskteki hâlle aynı).
+🔴 **Kaybolan şey GEREKÇEYDİ** — ve aşağıdaki üç cümle o commit mesajında
+yazacaktı, bugün burada duruyor:
+```
+① İki öngörü çürüdü (ⓐ 20-26 → 19 · ⓑ "yarıdan çoğu" → 4/19), ve ⓑ'nin
+   MAZERETİ YOKTU ⇒ bilgi taşıyan tek kalem oydu.
+② `ne_degisti` alanına kaynaksız 12 kenarda `False` DEĞİL `None` yazıldı,
+   çünkü "DEĞİŞMEDİ" bir İDDİADIR ve kaynak ister. Ayrılmasaydı 12 kenar
+   yanlışlıkla 🟢 sayılacak, NE'nin BUGÜNKÜ çizgisi 1923 için
+   "kullanılabilir" ilan edilecekti.
+③ İki kova ÖNERİLDİ, AÇILMADI (`ic-idari` · `tanimsiz`) — biçim ortak.
+```
+⚠️ **Ve asıl risk bende değildi:** dosyalarım o an TAM olduğu için şanslıydım.
+Yarım yazılmış bir dosyası olan bir oturumun bozuk hâli commit'lenirdi **ve
+kimse bilmezdi** — commit mesajı o dosyadan hiç söz etmiyor.
+
+🟢 **HÜKÜM VE KURAL DEĞİŞİKLİĞİ** (`25e3250`, koordinatör; ölçerek
+doğruladım): `§7` istisnası genişledi — bir oturum artık `oturumlar/<KENDİ
+ADI>.md` **ve** `denetim/<KENDİ ÖNEKİ>` dosyalarını kendi commit'ler; şart
+değişmedi: **her dosya ADIYLA**, dizin pathspec'i (`git add -- denetim/`)
+yasak.
+📌 Ve dersin kendisi `CLAUDE.md §7`ye indi:
+***"`§7` istisnası bir HAK verir ama onu KORUMAZ."***
+
+⚠️ **Geçmiş yeniden yazılmadı** — paylaşılan bir index'te force-push,
+kurtardığından pahalı. ***Kusur silinmedi, KAYDEDİLDİ*** (`kavalali` ve
+`-F <dosya>` vakalarında verilen kararın aynısı).
+
+---
+
+## ⑧ COMMIT ETMEDİKLERİM — ve niçin
+
+```
+🔴 denetim/_govde/*.txt   19 TDV madde gövdesi, ~1 MB düz metin
+   ⇒ COMMIT EDİLMEDİ. İkisi de gerekçe: (a) TDV'nin telifli metnini depoya
+     KOPYALAMAK olur — kaynak GÖSTERİLİR, ÇOĞALTILMAZ; (b) önekim değil.
+     İzlenebilirlik zaten sağlanıyor: her kayıtta `kaynak` slug'ı + `alinti`
+     alanı var, ve gövde `ARAC-SINIR-ANADOLU-GOVDE-0907.py` ile YENİDEN
+     ÜRETİLEBİLİR.
+⚪ denetim/_kunye_oku_anadolu.js · _kunye_oku_cipa.js
+   ⇒ COMMIT EDİLMEDİ. Aletlerimin koşarken ürettiği geçici node köprüleri;
+     her koşuda yeniden yazılıyorlar, ve önekim değiller.
+```
+
+---
+
+## ⑨ TESLİM DURUMU
 ```
 ✅ 19 kenar kayıtlı, geometrisi içinde, hâli damgalı
+✅ çıpa tuzağı ÖLÇÜLDÜ — bu alete ateşlemiyor, kanıt `_CIPA_TUZAGI` bölümünde
+✅ kaybolan gerekçe GERİ YAZILDI (§⑦)
 ⏳ BEKLİYORUM: `ic-idari` ve `tanimsiz` kovalarının onayı (§③)
 ⏳ AÇIK KALEM: §④'teki altı ⚪ — hepsi akademik kaynak işi, TDV tükendi
+🔜 KOORDİNATÖRE SORULDU: ADIM1'de `rusya` (künyesi 1917-03-15'te biten
+   Rusya Çarlığı) 1923-10-28'de 5 NOKTA taşıyor — hayalet devlet (§3.5).
+   Bölgemde olabilir; yerleşim dosyaları benim değil, ÖLÇMEDİM.
 ```
