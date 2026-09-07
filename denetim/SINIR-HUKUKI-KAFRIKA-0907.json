@@ -5,10 +5,10 @@
  "capa": "1923-10-29",
  "payda": 25,
  "kova": {
-  "bulunamadi": 6,
-  "olculemedi": 4,
+  "bulunamadi": 7,
   "hukuki": 12,
-  "ayni-kimlik": 3
+  "ayni-kimlik": 3,
+  "olculemedi": 3
  },
  "kenarlar": [
   {
@@ -1111,18 +1111,18 @@
    "t_cinsi": "pencere",
    "km": 1550.9,
    "tepe": 237,
-   "hal": "olculemedi",
-   "nitelik_1923": null,
-   "degisti_1923_sonrasi": null,
-   "dayanak": null,
-   "dayanak_t": null,
-   "kaynak": null,
-   "alinti": null,
+   "hal": "bulunamadi",
+   "nitelik_1923": "uluslararasi",
+   "degisti_1923_sonrasi": true,
+   "dayanak": "1923'TE: Lalla Maghnia Antlaşması (18 Mart 1845) — sınırı yalnız Akdeniz'den güneye doğru sınırlı bir mesafede tespit etti; Sahra'yı AÇIKÇA delimitasyon dışında bıraktı. BUGÜN: Rabat Sözleşmesi (15 Haziran 1972) — 🟡 DEVRALDIM, metnini AÇMADIM.",
+   "dayanak_t": "1845-03-18",
+   "kaynak": "1845 Lalla Maghnia Antlaşması'nın Fransızca metni — 🟢 AÇIP OKUDUM (archive.org 'Lalla Maghnia' tam metni). ⚠️ PROVENANS EKSİĞİ, GİZLENMİYOR: o nüshanın yayın künyesi (naşir, yıl, hangi neşirden alındığı) YOK. İçerik iki bağımsız kaynakla ÖRTÜŞÜYOR: (a) N. Lygeros, 'Remarks on the Lalla Marnia Treaty (18 March 1845)'; (b) 'The Politics of Boundaries in North and West Africa', Journal of Modern African Studies (Cambridge, hakemli) — Clive Parry'nin Consolidated Treaty Series'teki çevirisini aktarıyor. (b)'yi ÖZETİNDEN gördüm, makaleyi AÇMADIM.",
+   "alinti": "Madde 4: «Dans le Sahara (desert), il n'y a pas de limite territoriale a etablir entre les deux pays, puisque la terre ne se laboure pas et qu'elle sert seulement de pacage aux Arabes des deux Empires...»  ||  Madde 6: «Quant au pays qui est au sud des kessours des deux gouvernements, comme il n'y a pas d'eau, qu'il est inhabitable et que c'est le desert proprement dit, la delimitation en serait superflue.»",
    "kimlik_bugun_a": "Cezayir",
    "kimlik_bugun_b": "Fas",
    "kimlik_1923_a": null,
    "kimlik_1923_b": null,
-   "not": "IBS serisi TÜKETİLDİ: 1-200 arası numara denendi, seride 175 çalışma VAR ve bu sınır için çalışma YOK. Bu artık bir tahmin değil ÖLÇÜM — ama yalnız O SERİ için. Başka kaynak arandı, sonucu aşağıda. İKİNCİ TUR — 🟡 DEVRALDIM, KAYNAĞI AÇMADIM: arama özetleri iki şey söylüyor ve ikisi de birbirini destekliyor: ① 1845 Lalla Maghnia Antlaşması sınırı Akdeniz'den yalnız ~165 km içeri delimite etti ve 4. maddesi çölün delimitasyonunu AÇIKÇA gereksiz saydı; ② bugünkü hat 15 Haziran 1972 Rabat Sözleşmesi'nden geliyor (ortak komisyon 27 Mayıs 1970). 🔴 BUNLARI KAYNAKTAN OKUMADIM — yalnız arama özeti gördüm, ve bir özet bir kaynak değildir. Bu yüzden `olculemedi` BIRAKILDI. ⚠️ Doğruysa sonuç ağır: NE'nin çizdiği 1.551 km'nin büyük kısmı 1923'te DELİMİTE EDİLMEMİŞTİ ⇒ Mısır–Libya ile aynı sınıf. Bölgemin EN UZUN ikinci kenarı; bir sonraki turun ilk işi. 🔴 VE BİR TUZAK KAYDA GEÇSİN: arama sonucu bu sözleşmeyi UNTS vol. 1035, I-15406 diye verdi; belgeyi indirip OKUDUM ve o belge MORİTANYA–FAS 14 Nisan 1976 sözleşmesi çıktı. Eşleşme bulmak, doğru şeyi bulmak değildir.",
+   "not": "🔴 SONUÇ: NE'nin çizdiği 1.550,9 km'lik hat 1923'te YOKTU. 1845 antlaşması sınırı Akdeniz'den güneye doğru yalnız sınırlı bir mesafede tespit etti (kaynaklar ~150-165 km diyor — ⚪ bu SAYIYI metinden doğrulamadım, yalnız özetlerden aldım); ötesi için Madde 4 ve Madde 6 delimitasyonu AÇIKÇA REDDEDİYOR. ⇒ Mısır–Libya ile AYNI SINIF: çapa gününde bir çizgi değil, delimite edilmemiş bir bölge var. C'ye GİRMEZ. 🟢 BİR ÇELİŞKİ ÇÖZÜLDÜ: kaynaklardan biri Sahra hükmünü 'Madde 4', öteki 'Madde 6' diyordu. Metin okununca İKİSİ DE DOĞRU çıktı — iki AYRI madde, iki AYRI kademe: Madde 4 Sahra'da sınır olmadığını, Madde 6 ksurların GÜNEYİ için delimitasyonun gereksiz olduğunu söylüyor. Taraf seçmeye gerek kalmadı; metni açmak yetti. 🟡 AÇIK KALAN: bugünkü hattın dayanağı (15 Haziran 1972 Rabat Sözleşmesi) DEVRALINDI, metni açılmadı. Ve ARANIRKEN BİR TUZAK ÇIKTI: bir arama sonucu onu UNTS vol. 1035, I-15406 diye verdi; belge indirilip okundu ve MORİTANYA–FAS 14 Nisan 1976 sözleşmesi çıktı. ⚪ VE BİR KALEM: kuzeydeki ~165 km 1845'te delimite EDİLMİŞTİ. Model kenar-parçası düzeyinde kayıt tutsaydı o parça 🟢 olabilirdi; bugünkü birim KENAR olduğu için bütün kenar `bulunamadi`.",
    "gc": [
     [
      [
