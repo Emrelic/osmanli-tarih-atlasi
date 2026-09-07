@@ -1,0 +1,310 @@
+{
+ "_NOT": "ARAC-SINIR-ARAP-KENAR-0907.py ciktisi. Kenar KUMESI (payda). 1923 sorusunun cevabini ICERMEZ.",
+ "girdi": "veri-kaynak\\ne_10m_admin_0_countries.geojson",
+ "bolge": [
+  "Bahrain",
+  "Iraq",
+  "Israel",
+  "Jordan",
+  "Kuwait",
+  "Lebanon",
+  "Oman",
+  "Palestine",
+  "Qatar",
+  "Saudi Arabia",
+  "Syria",
+  "United Arab Emirates",
+  "Yemen"
+ ],
+ "gecersiz_geometri": [
+  "Egypt"
+ ],
+ "kenar": [
+  {
+   "a": "Iran",
+   "b": "Iraq",
+   "uzunluk_km": 1310.7,
+   "ham_parca": 505,
+   "birlesik_parca": 1,
+   "tepe": 506,
+   "a_tur": "Sovereign country",
+   "b_tur": "Sovereign country",
+   "a_egemen": "Iraq",
+   "b_egemen": "Iran"
+  },
+  {
+   "a": "Iraq",
+   "b": "Jordan",
+   "uzunluk_km": 180.7,
+   "ham_parca": 21,
+   "birlesik_parca": 1,
+   "tepe": 22,
+   "a_tur": "Sovereign country",
+   "b_tur": "Sovereign country",
+   "a_egemen": "Iraq",
+   "b_egemen": "Jordan"
+  },
+  {
+   "a": "Iraq",
+   "b": "Kuwait",
+   "uzunluk_km": 200.9,
+   "ham_parca": 20,
+   "birlesik_parca": 1,
+   "tepe": 21,
+   "a_tur": "Sovereign country",
+   "b_tur": "Sovereign country",
+   "a_egemen": "Iraq",
+   "b_egemen": "Kuwait"
+  },
+  {
+   "a": "Iraq",
+   "b": "Saudi Arabia",
+   "uzunluk_km": 812.1,
+   "ham_parca": 92,
+   "birlesik_parca": 1,
+   "tepe": 93,
+   "a_tur": "Sovereign country",
+   "b_tur": "Sovereign country",
+   "a_egemen": "Iraq",
+   "b_egemen": "Saudi Arabia"
+  },
+  {
+   "a": "Iraq",
+   "b": "Syria",
+   "uzunluk_km": 599.0,
+   "ham_parca": 73,
+   "birlesik_parca": 1,
+   "tepe": 74,
+   "a_tur": "Sovereign country",
+   "b_tur": "Sovereign country",
+   "a_egemen": "Syria",
+   "b_egemen": "Iraq"
+  },
+  {
+   "a": "Iraq",
+   "b": "Turkey",
+   "uzunluk_km": 290.8,
+   "ham_parca": 102,
+   "birlesik_parca": 1,
+   "tepe": 103,
+   "a_tur": "Sovereign country",
+   "b_tur": "Sovereign country",
+   "a_egemen": "Iraq",
+   "b_egemen": "Turkey"
+  },
+  {
+   "a": "Israel",
+   "b": "Jordan",
+   "uzunluk_km": 294.4,
+   "ham_parca": 135,
+   "birlesik_parca": 2,
+   "tepe": 137,
+   "a_tur": "Disputed",
+   "b_tur": "Sovereign country",
+   "a_egemen": "Israel",
+   "b_egemen": "Jordan"
+  },
+  {
+   "a": "Israel",
+   "b": "Lebanon",
+   "uzunluk_km": 98.0,
+   "ham_parca": 52,
+   "birlesik_parca": 1,
+   "tepe": 53,
+   "a_tur": "Disputed",
+   "b_tur": "Sovereign country",
+   "a_egemen": "Israel",
+   "b_egemen": "Lebanon"
+  },
+  {
+   "a": "Israel",
+   "b": "Palestine",
+   "uzunluk_km": 384.3,
+   "ham_parca": 165,
+   "birlesik_parca": 2,
+   "tepe": 167,
+   "a_tur": "Disputed",
+   "b_tur": "Indeterminate",
+   "a_egemen": "Israel",
+   "b_egemen": "Israel"
+  },
+  {
+   "a": "Israel",
+   "b": "Syria",
+   "uzunluk_km": 89.6,
+   "ham_parca": 31,
+   "birlesik_parca": 1,
+   "tepe": 32,
+   "a_tur": "Disputed",
+   "b_tur": "Sovereign country",
+   "a_egemen": "Israel",
+   "b_egemen": "Syria"
+  },
+  {
+   "a": "Jordan",
+   "b": "Palestine",
+   "uzunluk_km": 111.8,
+   "ham_parca": 55,
+   "birlesik_parca": 1,
+   "tepe": 56,
+   "a_tur": "Indeterminate",
+   "b_tur": "Sovereign country",
+   "a_egemen": "Israel",
+   "b_egemen": "Jordan"
+  },
+  {
+   "a": "Jordan",
+   "b": "Saudi Arabia",
+   "uzunluk_km": 727.4,
+   "ham_parca": 73,
+   "birlesik_parca": 1,
+   "tepe": 74,
+   "a_tur": "Sovereign country",
+   "b_tur": "Sovereign country",
+   "a_egemen": "Saudi Arabia",
+   "b_egemen": "Jordan"
+  },
+  {
+   "a": "Jordan",
+   "b": "Syria",
+   "uzunluk_km": 342.2,
+   "ham_parca": 68,
+   "birlesik_parca": 1,
+   "tepe": 69,
+   "a_tur": "Sovereign country",
+   "b_tur": "Sovereign country",
+   "a_egemen": "Syria",
+   "b_egemen": "Jordan"
+  },
+  {
+   "a": "Kuwait",
+   "b": "Saudi Arabia",
+   "uzunluk_km": 220.6,
+   "ham_parca": 29,
+   "birlesik_parca": 1,
+   "tepe": 30,
+   "a_tur": "Sovereign country",
+   "b_tur": "Sovereign country",
+   "a_egemen": "Saudi Arabia",
+   "b_egemen": "Kuwait"
+  },
+  {
+   "a": "Lebanon",
+   "b": "Syria",
+   "uzunluk_km": 291.5,
+   "ham_parca": 155,
+   "birlesik_parca": 1,
+   "tepe": 156,
+   "a_tur": "Sovereign country",
+   "b_tur": "Sovereign country",
+   "a_egemen": "Lebanon",
+   "b_egemen": "Syria"
+  },
+  {
+   "a": "Oman",
+   "b": "Saudi Arabia",
+   "uzunluk_km": 657.7,
+   "ham_parca": 46,
+   "birlesik_parca": 1,
+   "tepe": 47,
+   "a_tur": "Sovereign country",
+   "b_tur": "Sovereign country",
+   "a_egemen": "Oman",
+   "b_egemen": "Saudi Arabia"
+  },
+  {
+   "a": "Oman",
+   "b": "United Arab Emirates",
+   "uzunluk_km": 568.3,
+   "ham_parca": 169,
+   "birlesik_parca": 4,
+   "tepe": 173,
+   "a_tur": "Sovereign country",
+   "b_tur": "Sovereign country",
+   "a_egemen": "Oman",
+   "b_egemen": "United Arab Emirates"
+  },
+  {
+   "a": "Oman",
+   "b": "Yemen",
+   "uzunluk_km": 291.2,
+   "ham_parca": 31,
+   "birlesik_parca": 1,
+   "tepe": 32,
+   "a_tur": "Sovereign country",
+   "b_tur": "Sovereign country",
+   "a_egemen": "Oman",
+   "b_egemen": "Yemen"
+  },
+  {
+   "a": "Qatar",
+   "b": "Saudi Arabia",
+   "uzunluk_km": 53.3,
+   "ham_parca": 7,
+   "birlesik_parca": 1,
+   "tepe": 8,
+   "a_tur": "Sovereign country",
+   "b_tur": "Sovereign country",
+   "a_egemen": "Qatar",
+   "b_egemen": "Saudi Arabia"
+  },
+  {
+   "a": "Saudi Arabia",
+   "b": "United Arab Emirates",
+   "uzunluk_km": 457.1,
+   "ham_parca": 45,
+   "birlesik_parca": 1,
+   "tepe": 46,
+   "a_tur": "Sovereign country",
+   "b_tur": "Sovereign country",
+   "a_egemen": "United Arab Emirates",
+   "b_egemen": "Saudi Arabia"
+  },
+  {
+   "a": "Saudi Arabia",
+   "b": "Yemen",
+   "uzunluk_km": 1222.9,
+   "ham_parca": 167,
+   "birlesik_parca": 1,
+   "tepe": 168,
+   "a_tur": "Sovereign country",
+   "b_tur": "Sovereign country",
+   "a_egemen": "Saudi Arabia",
+   "b_egemen": "Yemen"
+  },
+  {
+   "a": "Syria",
+   "b": "Turkey",
+   "uzunluk_km": 774.7,
+   "ham_parca": 182,
+   "birlesik_parca": 1,
+   "tepe": 183,
+   "a_tur": "Sovereign country",
+   "b_tur": "Sovereign country",
+   "a_egemen": "Syria",
+   "b_egemen": "Turkey"
+  }
+ ],
+ "olculemedi": [
+  {
+   "a": "Egypt",
+   "b": "Israel",
+   "sebep": "geometri GECERSIZ"
+  },
+  {
+   "a": "Egypt",
+   "b": "Palestine",
+   "sebep": "geometri GECERSIZ"
+  },
+  {
+   "a": "Egypt",
+   "b": "Saudi Arabia",
+   "sebep": "geometri GECERSIZ"
+  },
+  {
+   "a": "Egypt",
+   "b": "Jordan",
+   "sebep": "geometri GECERSIZ"
+  }
+ ]
+}

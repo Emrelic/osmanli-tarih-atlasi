@@ -1,0 +1,362 @@
+{
+ "_NOT": "PAYDA olcumu — kenar sayimi. Tarih/hukum YOK.",
+ "cekirdek": [
+  "Algeria",
+  "Egypt",
+  "Libya",
+  "Morocco",
+  "Sudan",
+  "Tunisia",
+  "Western Sahara"
+ ],
+ "kenar_toplam": 25,
+ "kenar_gecerli": 20,
+ "kenar_gecersiz_uclu": 5,
+ "coken": [],
+ "kenarlar": [
+  {
+   "a": "South Sudan",
+   "b": "Sudan",
+   "km": 1895.0,
+   "tepe": 266,
+   "parca": 1,
+   "gecersiz_uc": [],
+   "cekirdek_uc": [
+    "Sudan"
+   ],
+   "tip_a": "Sovereign country",
+   "tip_b": "Sovereign country"
+  },
+  {
+   "a": "Algeria",
+   "b": "Morocco",
+   "km": 1550.9,
+   "tepe": 237,
+   "parca": 1,
+   "gecersiz_uc": [],
+   "cekirdek_uc": [
+    "Algeria",
+    "Morocco"
+   ],
+   "tip_a": "Sovereign country",
+   "tip_b": "Sovereign country"
+  },
+  {
+   "a": "Mauritania",
+   "b": "Western Sahara",
+   "km": 1539.0,
+   "tepe": 136,
+   "parca": 1,
+   "gecersiz_uc": [],
+   "cekirdek_uc": [
+    "Western Sahara"
+   ],
+   "tip_a": "Indeterminate",
+   "tip_b": "Sovereign country"
+  },
+  {
+   "a": "Morocco",
+   "b": "Western Sahara",
+   "km": 1333.6,
+   "tepe": 136,
+   "parca": 1,
+   "gecersiz_uc": [],
+   "cekirdek_uc": [
+    "Morocco",
+    "Western Sahara"
+   ],
+   "tip_a": "Sovereign country",
+   "tip_b": "Indeterminate"
+  },
+  {
+   "a": "Chad",
+   "b": "Sudan",
+   "km": 1295.7,
+   "tepe": 189,
+   "parca": 1,
+   "gecersiz_uc": [],
+   "cekirdek_uc": [
+    "Sudan"
+   ],
+   "tip_a": "Sovereign country",
+   "tip_b": "Sovereign country"
+  },
+  {
+   "a": "Algeria",
+   "b": "Mali",
+   "km": 1266.7,
+   "tepe": 196,
+   "parca": 1,
+   "gecersiz_uc": [],
+   "cekirdek_uc": [
+    "Algeria"
+   ],
+   "tip_a": "Sovereign country",
+   "tip_b": "Sovereign country"
+  },
+  {
+   "a": "Egypt",
+   "b": "Sudan",
+   "km": 1178.2,
+   "tepe": 115,
+   "parca": 2,
+   "gecersiz_uc": [
+    "Egypt"
+   ],
+   "cekirdek_uc": [
+    "Egypt",
+    "Sudan"
+   ],
+   "tip_a": "Sovereign country",
+   "tip_b": "Sovereign country"
+  },
+  {
+   "a": "Egypt",
+   "b": "Libya",
+   "km": 1102.0,
+   "tepe": 75,
+   "parca": 1,
+   "gecersiz_uc": [
+    "Egypt"
+   ],
+   "cekirdek_uc": [
+    "Egypt",
+    "Libya"
+   ],
+   "tip_a": "Sovereign country",
+   "tip_b": "Sovereign country"
+  },
+  {
+   "a": "Chad",
+   "b": "Libya",
+   "km": 1050.9,
+   "tepe": 86,
+   "parca": 1,
+   "gecersiz_uc": [],
+   "cekirdek_uc": [
+    "Libya"
+   ],
+   "tip_a": "Sovereign country",
+   "tip_b": "Sovereign country"
+  },
+  {
+   "a": "Algeria",
+   "b": "Libya",
+   "km": 965.6,
+   "tepe": 87,
+   "parca": 1,
+   "gecersiz_uc": [],
+   "cekirdek_uc": [
+    "Algeria",
+    "Libya"
+   ],
+   "tip_a": "Sovereign country",
+   "tip_b": "Sovereign country"
+  },
+  {
+   "a": "Algeria",
+   "b": "Niger",
+   "km": 952.3,
+   "tepe": 102,
+   "parca": 1,
+   "gecersiz_uc": [],
+   "cekirdek_uc": [
+    "Algeria"
+   ],
+   "tip_a": "Sovereign country",
+   "tip_b": "Sovereign country"
+  },
+  {
+   "a": "Algeria",
+   "b": "Tunisia",
+   "km": 917.1,
+   "tepe": 158,
+   "parca": 1,
+   "gecersiz_uc": [],
+   "cekirdek_uc": [
+    "Algeria",
+    "Tunisia"
+   ],
+   "tip_a": "Sovereign country",
+   "tip_b": "Sovereign country"
+  },
+  {
+   "a": "Ethiopia",
+   "b": "Sudan",
+   "km": 715.1,
+   "tepe": 137,
+   "parca": 1,
+   "gecersiz_uc": [],
+   "cekirdek_uc": [
+    "Sudan"
+   ],
+   "tip_a": "Sovereign country",
+   "tip_b": "Sovereign country"
+  },
+  {
+   "a": "Eritrea",
+   "b": "Sudan",
+   "km": 595.0,
+   "tepe": 136,
+   "parca": 1,
+   "gecersiz_uc": [],
+   "cekirdek_uc": [
+    "Sudan"
+   ],
+   "tip_a": "Sovereign country",
+   "tip_b": "Sovereign country"
+  },
+  {
+   "a": "Algeria",
+   "b": "Mauritania",
+   "km": 461.9,
+   "tepe": 23,
+   "parca": 1,
+   "gecersiz_uc": [],
+   "cekirdek_uc": [
+    "Algeria"
+   ],
+   "tip_a": "Sovereign country",
+   "tip_b": "Sovereign country"
+  },
+  {
+   "a": "Libya",
+   "b": "Tunisia",
+   "km": 450.2,
+   "tepe": 61,
+   "parca": 1,
+   "gecersiz_uc": [],
+   "cekirdek_uc": [
+    "Libya",
+    "Tunisia"
+   ],
+   "tip_a": "Sovereign country",
+   "tip_b": "Sovereign country"
+  },
+  {
+   "a": "Central African Republic",
+   "b": "Sudan",
+   "km": 388.2,
+   "tepe": 74,
+   "parca": 1,
+   "gecersiz_uc": [],
+   "cekirdek_uc": [
+    "Sudan"
+   ],
+   "tip_a": "Sovereign country",
+   "tip_b": "Sovereign country"
+  },
+  {
+   "a": "Libya",
+   "b": "Sudan",
+   "km": 382.0,
+   "tepe": 39,
+   "parca": 1,
+   "gecersiz_uc": [],
+   "cekirdek_uc": [
+    "Libya",
+    "Sudan"
+   ],
+   "tip_a": "Sovereign country",
+   "tip_b": "Sovereign country"
+  },
+  {
+   "a": "Libya",
+   "b": "Niger",
+   "km": 346.2,
+   "tepe": 34,
+   "parca": 1,
+   "gecersiz_uc": [],
+   "cekirdek_uc": [
+    "Libya"
+   ],
+   "tip_a": "Sovereign country",
+   "tip_b": "Sovereign country"
+  },
+  {
+   "a": "Egypt",
+   "b": "Israel",
+   "km": 204.1,
+   "tepe": 34,
+   "parca": 1,
+   "gecersiz_uc": [
+    "Egypt"
+   ],
+   "cekirdek_uc": [
+    "Egypt"
+   ],
+   "tip_a": "Disputed",
+   "tip_b": "Sovereign country"
+  },
+  {
+   "a": "Bir Tawil",
+   "b": "Egypt",
+   "km": 93.1,
+   "tepe": 6,
+   "parca": 1,
+   "gecersiz_uc": [
+    "Egypt"
+   ],
+   "cekirdek_uc": [
+    "Egypt"
+   ],
+   "tip_a": "Sovereign country",
+   "tip_b": "Indeterminate"
+  },
+  {
+   "a": "Bir Tawil",
+   "b": "Sudan",
+   "km": 90.8,
+   "tepe": 7,
+   "parca": 2,
+   "gecersiz_uc": [],
+   "cekirdek_uc": [
+    "Sudan"
+   ],
+   "tip_a": "Sovereign country",
+   "tip_b": "Indeterminate"
+  },
+  {
+   "a": "Algeria",
+   "b": "Western Sahara",
+   "km": 41.8,
+   "tepe": 5,
+   "parca": 1,
+   "gecersiz_uc": [],
+   "cekirdek_uc": [
+    "Algeria",
+    "Western Sahara"
+   ],
+   "tip_a": "Indeterminate",
+   "tip_b": "Sovereign country"
+  },
+  {
+   "a": "Morocco",
+   "b": "Spain",
+   "km": 21.5,
+   "tepe": 10,
+   "parca": 2,
+   "gecersiz_uc": [],
+   "cekirdek_uc": [
+    "Morocco"
+   ],
+   "tip_a": "Sovereign country",
+   "tip_b": "Sovereign country"
+  },
+  {
+   "a": "Egypt",
+   "b": "Palestine",
+   "km": 12.4,
+   "tepe": 4,
+   "parca": 1,
+   "gecersiz_uc": [
+    "Egypt"
+   ],
+   "cekirdek_uc": [
+    "Egypt"
+   ],
+   "tip_a": "Indeterminate",
+   "tip_b": "Sovereign country"
+  }
+ ]
+}
