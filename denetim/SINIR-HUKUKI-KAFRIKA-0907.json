@@ -10135,7 +10135,7 @@
    "kimlik_bugun_b": "İspanya",
    "kimlik_1923_a": null,
    "kimlik_1923_b": null,
-   "not": "🟢 KİMLİK ÖLÇÜLDÜ — ve ülke genelinden DEĞİL, kenarın ÇEVRESİNDEN. Sorgu günü 1923-10-28. Parça 1 (Ceuta, merkez 5,37°B/35,88°K): en yakın nokta Sebte 5,1 km `ispanya`, Fas yakası Tıtvân 34,0 km `fas`. Parça 2 (Melilla, 2,95°B/35,30°K): Melîle 0,9 km `ispanya`, Fas yakası Vecde 117,3 km `fas`. ⇒ `fas` ↔ `ispanya`, FARKLI ⇒ gerçek bir C kenarı, `ayni-kimlik` DEĞİL. Bu ölçüm ülke geneline (yetkili tablo: Fas→`fas`, İspanya→`ispanya`) eklenen ikinci bir ayak: ülke geneli bir kenarın iki yakası hakkında hüküm vermez. 🔴 VE BİR ANOMALİ ÖLÇÜLDÜ — `rif-cumhuriyeti` ATLAS PENCERESİNDE HİÇ BOYANMIYOR: künye penceresi 1921-09-18 → 1923-10-29, ama veride o kimliği kullanan TEK dönem `Şefşâven s: 1924-11-15 → 1926-05-27`. İki aralık HİÇ ÖRTÜŞMÜYOR — veri, künye kapandıktan 383 gün SONRA başlıyor ve atlasın ufkunu AŞIYOR. ⇒ 1923-10-28'de Şefşâven `fas`, ve Rif Cumhuriyeti atlasın penceresi içinde bir kez bile boyanmıyor. (KIMLIK-1923-0907 Şefşâven'in ufku aşan kaydını M-3205 ④'te bildirmişti; buradaki ek şey künye ile verinin ÖRTÜŞMEMESİ ve sonucun 'kimlik hiç kullanılmıyor' olması.) ⚪ Bunun bir veri kusuru mu bilinçli bir tercih mi olduğunu ÖLÇMEDİM ve iş açmadım — benim kalemim değil.",
+   "not": "🟢 KİMLİK ÖLÇÜLDÜ — ve ülke genelinden DEĞİL, kenarın ÇEVRESİNDEN. Sorgu günü 1923-10-28. Parça 1 (Ceuta, merkez 5,37°B/35,88°K): en yakın nokta Sebte 5,1 km `ispanya`, Fas yakası Tıtvân 34,0 km `fas`. Parça 2 (Melilla, 2,95°B/35,30°K): Melîle 0,9 km `ispanya`, Fas yakası Vecde 117,3 km `fas`. ⇒ `fas` ↔ `ispanya`, FARKLI ⇒ gerçek bir C kenarı, `ayni-kimlik` DEĞİL. Bu ölçüm ülke geneline (yetkili tablo: Fas→`fas`, İspanya→`ispanya`) eklenen ikinci bir ayak: ülke geneli bir kenarın iki yakası hakkında hüküm vermez. 🔴 VE BİR ANOMALİ ÖLÇÜLDÜ — `rif-cumhuriyeti` ATLAS PENCERESİNDE HİÇ BOYANMIYOR: künye penceresi 1921-09-18 → 1923-10-29, ama veride o kimliği kullanan TEK dönem `Şefşâven s: 1924-11-15 → 1926-05-27`. İki aralık HİÇ ÖRTÜŞMÜYOR — veri, künye kapandıktan 383 gün SONRA başlıyor ve atlasın ufkunu AŞIYOR. ⇒ 1923-10-28'de Şefşâven `fas`, ve Rif Cumhuriyeti atlasın penceresi içinde bir kez bile boyanmıyor. (KIMLIK-1923-0907 Şefşâven'in ufku aşan kaydını M-3205 ④'te bildirmişti; buradaki ek şey künye ile verinin ÖRTÜŞMEMESİ ve sonucun 'kimlik hiç kullanılmıyor' olması.) ⚪ Bunun bir veri kusuru mu bilinçli bir tercih mi olduğunu ÖLÇMEDİM ve iş açmadım — benim kalemim değil. 🟢 RİF BULGUSU KAYNAKLANDI — ayrıntısı dosyanın `_RIF_BULGUSU` bloğunda: Rif iç bölgesinde atlas noktası YOK, 6/6 temsilî nokta `ispanya`ya emiliyor, ve TDV `fas` o dönemde Rif Cumhuriyeti'nin «İspanyol himayesindeki bölgenin önemli bir kısmını kurtardığını» söylüyor. ⇒ Kusur künyede değil `§2` noktasızlığında.",
    "gc": [
     [
      [
@@ -10246,5 +10246,30 @@
  "_KOVA4": "hal:'ayni-kimlik' ortak sartnameye 7 Eyl 14:53'te eklendi (M-3183). Sinav MEKANIK: 1923'te iki ucun atlas kimligi ayni mi. Kimlik YETKILI tablodan (denetim/KIMLIK-1923-0907.json, sorgu gunu 1923-10-28).",
  "_UYARI_OZET": "Dördüncü kovanın mekanik sınavı 25 kenarın 18'inde koştu. Koşamayan 7: Batı Sahra'ya bakan 3 (atlas noktası 0) · Bir Tawil'e bakan 2 (kimlik bir TAHMİN) · Tunus'a bakan 2 (kid yok). Ve koşanlardan 1'i (South Sudan–Sudan) YANLIŞ cevap verdi, çünkü atlas aynı toprağı iki kimlikle boyuyor.",
  "_IBS_TUKENDI": "IBS serisi TÜKETİLDİ: 1-200 arası numara denendi, seride 175 çalışma VAR ve bu sınır için çalışma YOK. Bu artık bir tahmin değil ÖLÇÜM — ama yalnız O SERİ için. Başka kaynak arandı, sonucu aşağıda.",
- "_IKI_AYAK": "«Bu çizgi 1923'ten beri değişti mi?» sorusunun İKİ ayağı var ve `hal` ikisini tek değere sıkıştırıyor. Ayrı sorulabilsinler diye iki alan açıldı. `sureklilik` ÜÇ değerli, boolean DEĞİL: 'curutuldu' (sınır 1923'ten sonra kuruldu — kalem KAPALI) ile 'gosterilmedi' (ne olumlu ne olumsuz kanıt — kalem AÇIK) bir boolean'da aynı False'a düşer ve bir sonraki oturum ikisini aynı iş sanır. Biri bitmiş, öteki bekliyor."
+ "_IKI_AYAK": "«Bu çizgi 1923'ten beri değişti mi?» sorusunun İKİ ayağı var ve `hal` ikisini tek değere sıkıştırıyor. Ayrı sorulabilsinler diye iki alan açıldı. `sureklilik` ÜÇ değerli, boolean DEĞİL: 'curutuldu' (sınır 1923'ten sonra kuruldu — kalem KAPALI) ile 'gosterilmedi' (ne olumlu ne olumsuz kanıt — kalem AÇIK) bir boolean'da aynı False'a düşer ve bir sonraki oturum ikisini aynı iş sanır. Biri bitmiş, öteki bekliyor.",
+ "_RIF_BULGUSU": {
+  "_NOT": "Rif bulgusu — bir KENAR kaydı degil, BOLGESEL bir olcum. Fas-Ispanya kenarini kapatirken cikti, kenarin kendisine ait degil. Kalem acilmadi; kayit burada duruyor.",
+  "hipotez_sahibi": "1.MURAT (M-3237) — ve AYAKTA cikti",
+  "olcum_1_nokta": {
+   "soru": "Rif cekirdeginde atlas noktasi var mi?",
+   "kutu": "34,6-35,4 K / 5,0-3,2 B (Acdir-Targuist ekseni)",
+   "sonuc": "2 nokta, IKISI DE Ispanyol egemenlik adacigi (el-Huseyme/Alhucemas · Badis/Penon de Velez)",
+   "hukum": "Rif IC BOLGESINDE atlas noktasi YOK. Genis kutuda (34,2-35,9 K / 6,0-2,5 B) 10 nokta var ama hepsi kiyida ya da Rif'in disinda: Sebte · Tanca · Titvan · Melile · Sefsaven · Kasrulkebir · Vezzan · Taze."
+  },
+  "olcum_2_emilme": {
+   "soru": "Noktasiz Rif ici KIMIN kimligiyle boyaniyor? (§2)",
+   "yontem": "EN YAKIN NOKTA — 6 temsili Rif ic noktasi",
+   "sonuc": "6/6 -> `ispanya`  (Acdir 6,2 km Alhucemas · Nador 13,6 km Melilla · Beni Urriaguel 21,9 km Alhucemas · Targuist 25,9 km Badis · Ketame 37,3 km Badis · Vadi Kert 46,1 km Melilla)",
+   "cekince": "🔴 YAKLASIKLIK: motorun kiyi/nehir yaslamasi ve TAVAN_KM'si hesaba KATILMADI. Kesin cevap `data/donemler.js`ten okunur; kosu 8 suruyor, o dosya donuk. ⚪ URETILMIS GEOMETRIDEN DOGRULANMADI."
+  },
+  "olcum_3_kaynak": {
+   "soru": "O tarihte Rif GERCEKTE kimindi?",
+   "kaynak": "TDV Islam Ansiklopedisi, `fas` maddesi — 🟢 ACIP OKUDUM (govde 114.199 karakter, KESILMEDI). §4: Islam dunyasi icin BIRINCIL kaynak.",
+   "alinti": "«Abdulkerim el-Hattabi, 22 Haziran 1921 gunu Annoual'da Ispanyollar'i buyuk bir yenilgiye ugratti ve arkasindan ISPANYOL HIMAYESINDEKI BOLGENIN ONEMLI BIR KISMINI KURTARARAK bagimsizligini ilan etti (19 Eylul 1921).» || «...Abdulkerim el-Hattabi'yi esir alarak (21 Mayis 1926) devletine son verdiler.» || «Rif Cumhuriyeti'nin kurucusu ve baskani (1921-1926)»"
+  },
+  "hukum": "🔴 Atlas, 1921 Eylul'unden 1923-10-29 ufkuna kadar Rif ic bolgesini `ispanya` ile boyuyor — TDV'nin «Ispanyol himayesindeki bolgenin onemli bir kismini KURTARARAK» dedigi donemde. Ve `rif-cumhuriyeti` kunyesi TAM O PENCERE icin var (f:1921-09-18 -> t:1923-10-29) ama onu TASIYACAK NOKTA YOK. ⇒ Kusur kunyede DEGIL, `§2` NOKTASIZLIGINDA. 1.MURAT'in hipotezi AYAKTA.",
+  "care_adayi": "⚪ ONERMIYORUM, olcmedim: Rif ic bolgesine nokta yazmak (Acdir/Targuist) kimligi tasinabilir kilar — ama nokta yazmak benim kalemim degil ve `§11`in 3 km mukerrer sinavi ayrica kosulmali.",
+  "kunye_gun_farki": "🟡 KUCUK AMA KAYDA DEGER: kunye `f:1921-09-18`, TDV «19 Eylul 1921» diyor — BIR GUN fark. Ve veri donemi `t:1926-05-27`, TDV esir alinmayi «21 Mayis 1926» veriyor — ALTI GUN fark. Ikisi de benim kalemim degil; bildiriyorum.",
+  "kendi_duzeltmem": "🔴 Bir onceki aletimde (RIFEMILME) tarihi cekinceyi «1921 TEMMUZ'unda Annual» diye yazmistim. TDV «22 HAZIRAN 1921» diyor. Hafizamdan yazmisim ve YANLISTI; kaynaga sordugum icin duzeldi."
+ }
 }
