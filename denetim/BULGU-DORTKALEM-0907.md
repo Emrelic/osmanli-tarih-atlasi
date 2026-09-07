@@ -198,6 +198,243 @@ benim kalemim değil, ama iki kalemin de niçin var olduğunu o açıklıyor.
 ⚫ `yer_id: "Bağdat"` atlasta var mı — uygulayan kontrol etsin
 ```
 
+---
+---
+
+# 🔴🔴 TUR 3 — **TUR 1 VE TUR 2'DE İKİ İDDİAM ÇÜRÜDÜ. KENDİM BİLDİRİYORUM.**
+
+Koordinatör şartnameye bir düzeltme ekledi (`KIMLIK-KID-0907`) ve o düzeltme
+benim iki cümlemi birden yıktı. Ölçtüm; **ikisi de yanlış**, ve ikisi de
+**aynı kökten**.
+
+## ÇÜRÜYEN ① — «`v:` kimlik taşıyamıyor»
+
+Tur 1 ve Tur 2'de şunu yazdım (kalem ④'ün 1. ayağında ve ②'nin gerekçesinde):
+> *"`v:` dönemlerinin kimlik alanı yok ⇒ `v:` seçilirse «Mısır» ifade
+> EDİLEMEZ"* · *"`v:` kimlik taşımıyor ⇒ bölünse bile «Romanya» ifade
+> edilemezdi"*
+
+**🔴 YANLIŞ. ÖLÇÜM:**
+```
+v: toplam dönem          429
+   `kid` TAŞIYAN         291   (%68)
+   `kid` TAŞIMAYAN       138
+13 farklı `kid` değeri · künyesi OLMAYAN: **0**
+   misir-kavalali 154 · cezayir-ocagi 41 · trablusgarp-ocagi 39 ·
+   eflak 16 · bogdan 14 · bulgaristan-prensligi 7 · kirim 6 …
+```
+🔴 **Ve tam benim iki örneğim kimlik TAŞIYOR:**
+```
+Yaş     v: k="Boğdan Voyvodalığı"  **kid="bogdan"**  statu=vassal
+Bükreş  v: k="Eflak Voyvodalığı"   **kid="eflak"**   statu=vassal
+```
+⇒ *"Romanya ifade edilemez"* iddiam düpedüz yanlış: `kid:"bogdan"` →
+`kid:"romanya"` **doğrudan yazılabilir**.
+
+📌 **VE EN KÖTÜSÜ: SAYIYI KENDİ ÖLÇÜMÜMDE BASMIŞTIM.** Tur 1 çıktımda
+`v: … kid 291 …` yazıyor. **Sayıyı gördüm, ne olduğunu TANIMADIM** —
+`d:` alanının yokluğunu *"kimlik yok"* sandım ve `kid`i okumadım.
+`§11`: *"bir alan adı, kullanıldığı yerden değil TANIMLANDIĞI yerden
+okunur"* — ben hiçbirinden okumadım, **varsaydım.**
+
+⚠️ **Ters yöne de yazmıyorum:** kapsama **291/429**; kalan 138'in 56'sı
+etiketsiz. *Alan var ve çalışıyor* ile *kapsaması tam* **iki ayrı cümle**.
+
+🟢 **KALEM ④'ÜN HÜKMÜ ETKİLENMİYOR** — ve sebebi, kararı **iki ayağa**
+kurmuş olmam: 2. ayak (kaynağın yüklemi: Konya/Kütahya işgal edilip
+boşaltıldı, **Adana** ise muhassıllık olarak verildi) tek başına ayakta.
+🟢 Ve yeni bir destek çıktı: üç kaydın `statu:` alanı **`vassal`** —
+bir askerî işgal için yanlış, `isg:` kararını **güçlendiriyor**.
+📌 İki ayaklı kurmasaydım hüküm de düşerdi. `§11`in *"doğrulama, aynı
+soruya İKİ YOLDAN gitmektir"* kuralı burada **hükmü kurtardı.**
+
+---
+
+## ÇÜRÜYEN ② — «veri ikiye ayrılmıyor, doğu Habsburg boyanıyor»
+
+Tur 2'de *"ardıl 51 dönemde `avusturya`"* ölçüp şunu yazdım:
+> *"Transilvanya 1526'dan itibaren Habsburg Avusturya boyanıyor, 44 yıllık
+> yanlış atıf"*
+
+**🔴 YANLIŞ — ÇÜNKÜ `v:` KATMANINA HİÇ BAKMADIM.** Atlas Zapolya'yı ve
+Erdel'i **zaten modelliyor**, ve doğru günlerle:
+```
+v: "Macaristan (Zapolya vasal krallığı)"  1526-09-01 → 1541-08-29   5 dönem
+   Budin · Peşte · Erdel (Kaloşvar) · Varad (Oradea) · Yanova (Ineu)
+v: "Erdel Prensliği"                      1541-08-29 → 1687/1660/1658  3 dönem
+   Erdel (Kaloşvar) · Varad · Yanova
+v: "Orta Macar Krallığı (Tököli İmre)"    1682-09-16 → 1685-10-15   6 dönem
+```
+⇒ **`1541-08-29` dikişi TAM**: Zapolya krallığı biter, Erdel Prensliği başlar
+— Budin'in düşüş günü. Model **doğru**.
+
+🔴 **ARDIL ÖLÇÜMÜM NİÇİN YANILTTI:** `dl[i+1]`i **aynı `s:` listesi içinde**
+okudum. Erdel (Kaloşvar)'da `s:` listesi `macaristan 1281→1526-09-01`den
+sonra **doğrudan `avusturya`ya atlıyor** (arada onlarca yıl var) ve o boşluğu
+**`v:` katmanı dolduruyor.** Bitişik iki girdiyi okumak, **aradaki zaman
+boşluğunu ve öteki katmanı** görmüyor.
+📌 `§11`in *"kendi kurduğun ölçüm penceresi, görmediğini «yok» diye
+gösterir"* dersi — ve pencereyi **katman** ekseninde dar kurmuşum.
+
+### ⇒ KALEM ① ÇOK KÜÇÜLDÜ, VE SORUSU DEĞİŞTİ
+```
+DEĞİL   "Zapolya künyesi yok, aç"          (model zaten var)
+DEĞİL   "60 dönemi ikiye ayır"             (v: katmanı zaten ayırıyor)
+ASIL    `v:` Zapolya/Erdel dönemlerinin **`kid`i BOŞ** (8 dönemin 8'i)
+        ⇒ kimlik ifade EDİLEBİLİR ama EDİLMEMİŞ
+        ⇒ `kid:"erdel"` yazılabilir — AMA `erdel` künyesi 1570-01-01'de
+          açılıyor, `v:` etiketi 1541-08-29'da başlıyor: **29 YIL FARK**
+        ⇒ Zapolya için künye GERÇEKTEN yok (tarama: 8 aday, 8'i de yok)
+```
+🔴 **HÜKÜM VERMİYORUM.** İki karar gerekiyor ve ikisi de kalemim değil:
+`erdel` künyesinin `f:`i 1541'e çekilecek mi, ve Zapolya için künye
+açılacak mı. Ama artık soru **ölçülmüş bir zemin üzerinde**.
+
+---
+
+## 📌 İKİ ÇÜRÜMENİN ORTAK KÖKÜ — tek cümle
+
+**`v:` katmanını «kimliksiz» varsaydım, ve o yüzden İÇİNE HİÇ BAKMADIM.**
+Bir varsayım, onu çürütecek ölçümü de engelledi: Zapolya oradaydı,
+`kid`ler oradaydı, ve ben ikisini de `d:`/`s:` alanlarında aradım.
+⇒ `§11`: *bir alanın ne taşıdığı VARSAYILMAZ, DÖKÜLÜR.*
+
+---
+---
+
+# TUR 2 — ① ve ② YENİDEN TARİF EDİLDİ (hüküm M-3148)
+> ⚠️ **Aşağıdaki ① bölümünün «ardıl `avusturya` ⇒ doğu Habsburg boyanıyor»
+> hükmü TUR 3'te ÇÜRÜDÜ.** Ölçüm doğru, ÇIKARIM yanlıştı. Bölüm siliniyor
+> değil damgalanıyor (`§3.5.1`: *vakayı silmek dersi de siler*).
+
+Koordinatör ① ve ②'yi yeniden tarif etti. **Ölçtüm; ② kapandı, ① yine
+tarif edilenden farklı çıktı.** Hüküm vermiyorum.
+
+## ①-2 MACARİSTAN — 🔴 VERİ **İKİYE AYRILMIYOR**, ardıl TEK KİMLİK
+
+Koordinatör: *"60 dönemi ikiye ayır: Habsburg yarısı ↔ Szapolyai yarısı."*
+
+🔴 **Coğrafî bir çizgi VARSAYMADIM** (talimat: *"ölçüt coğrafî olabilir ama
+SINAMADAN kullanma"*). Bunun yerine **zincirin kendisine** sordum:
+***her `macaristan` döneminden sonra hangi kimlik geliyor?*** — ardıl kimlik,
+o yerin hangi tarafa düştüğünü **verinin kendi içinden** söyler.
+
+```
+60 dönemin ARDILI:
+   avusturya            51        venedik   9 (Dalmaçya, 1409-1537)
+   macaristan            1        fransa-cumhuriyet 1 (Ragusa)
+```
+🔴 **Veri ikiye AYRILMIYOR — ardıl 51 dönemde tek tip: `avusturya`.**
+Ve o 51'in içinde **doğunun tamamı** var:
+```
+Erdel (Kaloşvar) 46,77/23,59 · Erdel Belgradı 46,07/23,58 ·
+Brassó 45,64/25,59 · Segesvár 46,22/24,79 · Varad 47,05/21,94 ·
+Yanova 46,43/21,74            → hepsi ardıl `avusturya`
+```
+⇒ **Transilvanya 1526'dan itibaren Habsburg Avusturya boyanıyor**, ve
+`erdel` künyesi **1570-01-01**'de açıldığı için arada **44 yıllık** bir
+yanlış atıf var.
+
+### 🔴 KÜNYE TARAMASI — `devletler.js`in TAMAMI, ORTAK NORMALLEŞTİRİCİYLE
+Kimlik **tahmin etmedim, taradım** (`denetim/ARAC-NORMAL-0903.py`, 627 künye,
+`id` + `ad` normalleştirilmiş):
+```
+🟢 BATI YARISI — KİMLİK ZATEN VAR, VE KULLANILMIYOR
+   macaristan-habsburg  1526-08-29 → 1918-11-16  «Macaristan Krallığı (Habsburg Tacı)»
+   habsburg             1526-08-29 → 1918-11-11  «Habsburg Avusturya»
+   📌 `macaristan-habsburg`ın `f:`i, `macaristan`ın `t:`si ile BİREBİR AYNI
+      (1526-08-29) ⇒ dikiş TAM, boşluk doğmaz.
+
+🔴 DOĞU YARISI — KİMLİK GERÇEKTEN YOK
+   zapolya · szapolyai · yanos · janos · «dogu macar» · partium ·
+   bethlen · rakoczi   →  SEKİZİNİN SEKİZİ DE **YOK**
+   `erdel` VAR ama f: 1570-01-01 — 44 YIL GEÇ
+   1526-1570 penceresini kapsayan Macaristan/Erdel/Avusturya künyesi: **2**
+   (ikisi de Habsburg tarafı)
+```
+
+### ⇒ KALEM İKİYE AYRILDI, VE İKİSİ AYRI CİNS
+```
+BATI  bir KÜNYE kalemi DEĞİL, bir KULLANIM kalemi:
+      künye var (`macaristan-habsburg`), dikiş tam, veri `avusturya` yazıyor
+DOĞU  gerçek bir KÜNYE kalemi: hiçbir kimlik yok ve `erdel` 44 yıl geç
+```
+🔴 **HÜKÜM VERMİYORUM.** Batı için `avusturya` → `macaristan-habsburg`
+değişimi bir **model kararıdır** (Habsburg Avusturya ile Habsburg tacındaki
+Macaristan Krallığı ayrı boyanacak mı?), ve doğu için künye açmak
+`erdel`in `f:`ini de bağlar. İkisi de kalemim değil.
+
+---
+
+## ②-2 BOĞDAN — 🟢 KALEM KAPANDI
+
+### ① SAYIM — kırılan / kırılmayan
+```
+1859-01-24'te KIRILAN      2 yerleşim   Yergöğü (Giurgiu) · İbrail
+                                        ve İKİSİ DE `s:` katmanında
+                                        (s:eflak → s:romanya)
+1859-01-24'ü KAPSAYIP
+        KIRILMAYAN        18 yerleşim   Yaş · Bükreş · Kalas · Roman ·
+                                        Birlad · Krayova · Piteşti · … 
+                                        ve HEPSİ `v:` katmanında
+```
+🟢 **VE SEBEP ÖLÇÜMÜN İÇİNDEN ÇIKTI:** kırılma **`s:` katmanında inmiş,
+`v:` katmanına hiç inmemiş.** `s:` kimlik taşıyor ⇒ `eflak`→`romanya`
+yazılabildi. `v:` kimlik taşımıyor ⇒ bölünse bile *"Romanya"* ifade
+edilemezdi. **Tutarsızlık keyfî değil, şema eksiğinin doğrudan sonucu.**
+
+### ② KAYNAK — 🟢 `1859-01-24` DOĞRULANDI, ve fark TAKVİM ÇIKTI
+```
+TDV `bogdan` (22.241 kar, kesilmedi):
+  «**5 Şubat 1859**'da Besarabya'nın üç vilâyetinin yönetimi de dahil olmak
+   üzere Boğdan prensliğine seçilen Alexandru Ion Cuza 24 Şubat günü …»
+TDV `eflak` (23.567 kar): «Her iki ülke 1859'da Albay Alexandru Ioan Cuza'yı
+   (Kuza) başkan seçti» · «Sultan Abdülmecid, Cuza'yı Memleketeyn'in tek
+   reisi olarak tanıyıp Eflak ve Boğdan'ın Romanya adı altında tek bir ülke
+   şeklinde birleşmesini onayladı»
+TDV `romanya` (38.132 kar): «Eflak-Boğdan'ın birleşmesini, yani Küçük
+   Romanya'nın kurulmasını (1859-1862) kabul ettiler»
+```
+🟢 **HESAP TAM TUTUYOR:** 19. yüzyılda Jülyen-Gregoryen farkı **12 gün**.
+```
+24 Ocak 1859 (Jülyen)  +12  =  5 Şubat 1859 (Gregoryen)
+atlas                         TDV
+```
+⇒ **ÇELİŞKİ YOK — AYNI GÜN.** Atlas Jülyen'i, TDV Gregoryen'i kullanıyor.
+Eflak/Boğdan 1919'a kadar Jülyen'deydi (`§4` takvim kuralının (a) hâli).
+📌 Ve atlas **kendi içinde tutarlı**: `1859-01-24` kırılması `eflak→romanya`
+geçişini **Eflak kasabalarında** (Yergöğü · İbrail) yapıyor, ve 24 Ocak
+(Jülyen) standart anlatıda **Eflak seçiminin** günüdür.
+
+⚠️ **ÇÖZMEDİĞİM:** TDV o günü *"Boğdan prensliğine seçilen"* diye niteliyor;
+standart anlatı 24 Ocak (Jülyen) gününü **Eflak** seçimine bağlıyor
+(Boğdan seçimi 5 Ocak Jülyen). **Bu bir ATIF sorusudur ve ÇÖZMEDİM** —
+tarihi etkilemiyor, ama bir sonraki oturum TDV'yi okuyup şaşırmasın.
+
+⇒ **DAMGA `okumadım` → `DOGRULANDI` (takvim kapısıyla).**
+
+---
+
+## ③-2 🔴 KENDİ ÖLÇÜMÜMDE BİR DARLIK BULDUM — kendim bildiriyorum
+
+Tur 1'de yazdım: *"`1856-03-30` `bogdan`da **0**"* ve bundan
+*"şartnamenin tarifi veriyle uyuşmuyor"* çıkardım. **Ölçüm doğruydu,
+EVREN DARDI:**
+```
+benim ölçtüğüm   p["d"] == "bogdan"  içinde 1856-03-30  →  0     ✓ doğru
+GERÇEK           veride 1856-03-30 → 6 GEÇİŞ:
+   s: `rusya` t: ×3   (İsmail · Kahul · Bolgrad — Güney Besarabya)
+   v: f: ×3           «Boğdan Voyvodalığı (Cenûbî Besarabya)»
+```
+⇒ Tarih **veride VAR** — `v:` katmanının `k:` ETİKETİNDE, ve 1856 Paris
+Antlaşması'yla Güney Besarabya'nın Rusya'dan Boğdan'a geçişini işaretliyor.
+🔴 **Koordinatörün öncülü benim dediğimden DAHA DOĞRUYMUŞ**; ben `d:`
+alanına bakıp `k:` etiketini kaçırdım.
+📌 `§11`in *"ölçüm doğru, evren dar"* dersi — ve bu sefer **bende**.
+Bir öncülü çürütürken kendi evrenimin yeterli olduğunu varsaymışım.
+
+---
+
 ## ⑦ KOMUTLAR / DOSYALAR
 
 ```

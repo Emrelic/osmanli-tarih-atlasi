@@ -4212,10 +4212,34 @@ Piran                hiçbiri
   > ⚠️ **VE TERS YÖNDE BAYAT KAYIT ÜRETİLMEDİ:** `kid`ın var olması
   > *"Osmanlı dışı himaye artık ifade edilebiliyor"* demek **DEĞİLDİR.**
   > ```
-  > kid DOLU 291 / 429 · kalan 88 · onların 56'sı ADSIZ
+  > 429 = 291 (k VE kid) + 82 (yalnız k) + 0 (yalnız kid) + 56 (ADSIZ)
+  > kalan 138 · `k`si olan 82        ← ilk yazımda "88/32" idi, ÇÜRÜDÜ
+  > bağımsız teyit: v: k = 373 · 373 − 291 = 82
   > ```
   > ⇒ ***Alan DOĞDU; KAPSAMASI tamam değil.*** İkisi ayrı cümledir, ve
   > birini ötekinin yerine yazmak yeni bir bayat kayıt üretir.
+  >
+  > 🔴🔴 **VE ÜÇÜNCÜ CÜMLE GEREKİYORMUŞ — ALAN VAR, DOLU, VE HİÇBİR ALET
+  > ONU KİMLİK OLARAK KULLANMIYOR.** *(7 Eylül · `GECIS-SURE-0907`)*
+  > ```
+  > kid DOLU        291 dönem · 13 kimlik · 13/13 GEÇERLİ
+  > uret_petek.py:4826   yalnız AD YEDEĞİ — `k or kid`
+  > js/app.js            HİÇ okumuyor
+  > denetle.py           HİÇ okumuyor
+  > ```
+  > ⇒ Haritaya ve denetime göre kabiliyet **hâlâ yok.** `§11`in *"bir
+  > ders veriye SERBEST METİN olarak inerse inmiş sayılmaz"* dersinin
+  > **alan** yüzü: burada alan yapılandırılmış, dolu ve geçerli — ama
+  > **onu okuyan yok**, ve `grep` *"var"* der, motor *"yok"* der.
+  > 📌 Sınav aynı tek soru: ***bu bilgiyi bir `if` ile sorabiliyor
+  > muyum?*** Bugün bir `if` onu **yalnız ad yedeği olarak** soruyor.
+  >
+  > ⚪ **VE BİR KALEM AÇIK, adıyla:** `kid`ın kendi tanımı
+  > (`girdi.py:932`) künye penceresinin dönemi **kapsamasını** şart
+  > koşuyor ve **16 dönem ihlal ediyor** (Bükreş/Yaş `kid=eflak,bogdan`:
+  > dönem `..1878-07-13`, künye `..1859-01-24`). İhlallerin **CİNSİ**
+  > — künye mi dar, veri mi geniş — **ÖLÇÜLMEDİ.** Ve o 16 kayıt,
+  > Boğdan'ın `1859-01-24` tutarsızlığıyla **aynı kayıtlar.**
   >
   > 📌 `§3.5.1`in Yukarı Macaristan emsali: *"bir vakayı silmek dersi de
   > siler; damgalamak dersi korur."* Ders (`②` ile `③` arasındaki
