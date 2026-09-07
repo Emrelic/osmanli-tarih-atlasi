@@ -569,3 +569,78 @@ hedef→alet bir **fonksiyon değil**.
 🔴 `olcum` kasten kümede: bir dosya *"ben uygulanacak değilim"*
 diyebilmeli (`OLCUM-ANTLASMA-SLUG` vakası tam bunun eksikliğiydi).
 🔴 Geriye dönük YAZILMAZ (`§7`) — sahibi dokununca normalleşir.
+
+---
+
+## ⑨w — 7 EYLÜL 22:20-22:55 · COMPACT SONRASI TUR
+
+### 🟢 SAHİPSİZ SÜREÇLER KAPANDI (M-3253 → M-3254)
+49 dakika beklendi, sahiplenen çıkmadı. Sonlandırmadan hemen önceki
+ölçüm hükmü kesinleştirdi: üçü de **5 saniyede 5,1+ sn CPU** (tam bir
+çekirdekten fazla, çok iş parçacıklı) ve **bellek değişimi 0 KB** —
+hesap değil, boş döngü.
+```
+16628 (00:08 · 75.623 sn) · 21708 (16:25 · 18.469 sn) · 11464 (16:53 · 16.857 sn)
+```
+⚠️ *"Ne yaptıkları"* kalemi **`ölçülemedi`** — stdin'den beslenmişlerdi,
+kodları geri okunamıyor. Ölçülen şey davranıştı, niyet değil.
+🔴 **VE KOŞU 8'İN BİTİŞ TAHMİNİ ARTIK İKİ YÖNDEN KİRLİ:** on bir saatini
+DOLU makinede geçirdi, kalanını BOŞ makinede geçirecek ⇒ bugüne kadarki
+hızından çıkan tahmin bir **alt sınır.** Kimse bugünkü sayıdan saat
+türetmesin.
+
+### 🟢 NÖBETÇİ SINANDI — VE SINAV KENDİ KUSURUMU BULDU (`a707553`)
+`1469f7e` push-mutasyon uyarısını koymuştu ve ben onu *"doğrulandı"*
+diye kaydetmiştim — `C13`in ATEŞLEME ayağını **koşturmadan.**
+Koşturunca uyarı öttü ve **satırın ortasına yapıştı**
+(`…1622-01-01⚠️ savaslar.js:`), ilgisiz bir kaydın (Butuan) parçası gibi
+okunuyordu. Sebep: uyarı `stderr`e, rapor `stdout`a gidiyor, satır başı yoktu.
+📌 ***Bir nöbetçinin ÖTMESİ yetmiyor; ÖTTÜĞÜNÜN ANLAŞILMASI da gerekiyor.***
+🟢 İki ayak da **gerçek veride** sınandı (enjekte değil): ateşleme
+(kendi satırında) · geçme (aynı koşuda tam 1 kez, yanlış pozitif 0).
+
+### 🔴 BİR YIKICI EYLEMDEN BİR ARAÇ ÇAĞRISI KALA DÖNÜLDÜ (`4e6da48`)
+Brifing *"koşu 4"* diyordu ⇒ apaçık bayat ⇒ `§11`in reçetesi
+`CronDelete + CronCreate`. **`CronList` önce okundu:** canlı iş
+`f4781de9 · 17 dk · "ÖLÇ, KARAR VER, YAP"` — **koşudan bağımsız, bayat
+değil.** Bayat metin bağlamdaki **donmuş bir skill çağrı kaydıydı.**
+⇒ Reçete körlemesine uygulansaydı kullanıcının kurduğu tekrarlı görev
+sebepsiz silinip **aynısıyla** yeniden kurulacaktı: kazanç sıfır, risk tam.
+Muhafaza `CLAUDE.md`ye yazıldı: *`CronDelete` öncesi `CronList` ile canlı
+metni oku.*
+
+### ⚠️ EZBERDEN YAZILAN YOL — SESSİZ PARALEL DİZİN, BUGÜN 4 KEZ
+Scratchpad UUID'sini iki kez yanlış yazdım; ölçünce **dört** tortu dizin
+çıktı (biri Arapça harf taşıyor). Gerçek dizinde 1517 dosya, ötekilerde
+birer tane. Dosyalar okunmadığı için **silinmedi.**
+⇒ Yol ezberden yazılmaz, **ölçülür** (`ls` ya da `__file__`).
+
+### 📮 SEVKLER — ÜÇ CANLI KOL (G12 tavanı)
+```
+SINAV-KOSU8-0907   Ⓐ KAPATILDI (164→17; artım azalıyor, 12 yolu OKUMA)
+                   YENİ: arac/denetle_yayin.py TABANINI ÖLÇ
+                   soru "kapı geçiyor mu" DEĞİL — geçmeyecek, çıktı bayat
+                   ① kapı koşuyor mu ② kaç ret şartı, hangileri ötüyor
+                   ③ her ötüş: BAYAT ÇIKTI yüzünden mi (koşudan sonra
+                     susar) KAPININ KUSURU mu (bu gece düzelir)
+                   ⚠️ "11 ret şartı" öncülüm DEVRALDIM-DOĞRULANMADI
+SINIR-KAFRIKA-0907 YENİ: RENK HAZIRLIĞI — merge blokajı
+                   ⚠️ "17 renksiz kimlik" öncülüm DOĞRULANMADI, ⓪ adım
+                   🔴 liste KÜNYE ÖNERİLERİNDEN değil, YAMALARIN
+                     KULLANDIĞI kimliklerden türetilecek (o boşluktan
+                     6 kimlik kaçmıştı) · renk `harita:`ya bakar, `id`ye değil
+                   🟡 12,0-13,0 SINIRDA bandını işaretle, EŞİĞE DOKUNMA
+                     (8 bit yuvarlama ΔE'yi ~0,3 kaydırıyor)
+CAKISMA-0907       zaten canlı
+```
+`KIMLIK-1923-0907` M-3250 teyit edildi (5 saat açık kalmıştı, kusur bende),
+yeni iş verilmedi — tavan üç.
+
+### 🔜 MERGE GECESİ — SIRA DEĞİŞMEDİ
+① künye → ② `rus-amerika` atomik (künye · Alaska yaması `denetim/`→`data/`
+· renk) → ③ öteki yamalar → ④ `denetle.py` → ⑤ `denetle_yayin.py`
+→ ⑥ sürüm damgası → ⑦ yayın.
+🔴 ② ile ③ ARASINDA YAYIN YOK — `§8` harita deliği açar.
+🔴 `denetle.py` bugün çıkış 1: mükerrer 3 yaması HAZIR
+(`denetim/YAMA-DEGISMEZ3-MUKERRER-0907.md`), enklav 661/660 koşu sonrasına
+ERTELENDİ (`Değişmez 7` geometri okur, bugünkü geometri ÖNCEKİ koşunun çıktısı).
