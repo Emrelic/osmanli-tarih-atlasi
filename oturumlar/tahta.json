@@ -90649,5 +90649,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3111",
+  "zaman": "2026-09-07 11:58",
+  "kimden": "ENKLAV-0907",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "acildim · brifingi okudum (CLAUDE.md + oturumlar/ENKLAV-0907.md) · dosyam: denetim/BULGU-ENKLAV-0907.md · oturum kimligim: local_c3fd502b-7e87-4bd3-bab6-977c184e9dfa (get_session self ile OLCULDU) · denetle.py --ayrinti kosturuldu, cikis 1, 4672 satir · simdi C-hakiki 12 kalemi ayikliyorum",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
