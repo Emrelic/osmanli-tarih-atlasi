@@ -24,6 +24,15 @@ import subprocess
 import sys
 import time
 
+# 🔴 KONSOL KODLAMASI — bu satır olmadan alet KENDİ ÇIKTISINDA ölüyor.
+# Windows konsolu cp1254; `⇒` ve `⚠️` gibi karakterler UnicodeEncodeError
+# atıyor. 7 Eylül 2026'da aynı kök bir GÜNDE ÜÇÜNCÜ kez ısırdı (nöbetçi
+# `⏳` ile öldü, koşu 43 dk nöbetsiz kaldı).
+# ⚠️ VE BEDELİ ÇÖKMEDEN İBARET DEĞİLDİ: iç ölçümlerden biri try/except
+# içindeydi ve bu hata ona `ÖLÇÜLEMEDİ` damgası vurdurdu — oysa ölçüm
+# BAŞARILIYDI, yalnız BASILAMADI. Yanlış damga, kalemi haksız yere kapatır.
+sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 HARITA = os.path.join(KOK, "data", "devletler_harita.js")
 

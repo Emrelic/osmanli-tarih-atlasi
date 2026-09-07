@@ -1,0 +1,21 @@
+KORUMANIN DOĞDUĞU COMMIT: dfe4120 2026-08-16 r1609 YAYIN — kaza koşusu ÖLÇÜLDÜ ve TEMİZ çıktı, iki gün geride kalan yayın kapandı
+ALETİN DOĞDUĞU COMMIT   : eca4fc3 2026-09-06
+
+A çıktısı okundu: 552 kimlik · 12.1 sn
+   dolu kimlik 552 · parça 240687 · köşe noktası 0
+
+==================================================================
+İKİNCİ GEÇİŞİN MALİYET SÜRÜCÜSÜ
+==================================================================
+naif  : bütün kimlik çiftleri              152076
+EŞ ZAMANLI çift (künye penceresinden)      85977   (56.5%)
+   ⇒ eş zamanlı olmayan çiftte paylaştırılacak boşluk YOKTUR
+
+⚠️ SINIR — ve bu bir mazeret değil bir KAPSAM beyanı:
+   ① Bu ALT SINIRDIR: bugünkü A çıktısı koşu 7b'nin ürünü, yani
+      ZATEN düzeltilmiş. İkinci geçişin ham çıktıda bulacağı iş
+      daha büyüktü ve o ÖLÇÜLEMEZ (ham çıktı saklanmıyor).
+   ② Çift başına GERÇEK kesişim maliyeti ölçülmedi — o motoru
+      çağırmayı gerektirir ve `uret_petek.py:39` importu REDDEDİYOR.
+   ③ Ölçülen şey SÜRE değil İŞİN BÜYÜKLÜĞÜ. Süreye çevirmek için
+      çift başına kesişim maliyeti gerekir — YOK.
