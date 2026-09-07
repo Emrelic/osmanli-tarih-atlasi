@@ -254,11 +254,32 @@ def main(argv):
         # doğrulayabilir. Bugün zararsız — çünkü bu alet onları atlıyor;
         # yarın başka bir alet onları SAHİPLENİRSE zararsız olmayacak.
         if n == 0 and ky is None:
-            hedef = d.get("_HEDEF") or d.get("hedef")
+            # 🔴 ALAN ADI TAHMİN EDİLMEZ, ÖLÇÜLÜR. İlk sürüm yalnız
+            # `_HEDEF`/`hedef` arıyordu ve 12 dosyanın **1'ini** gördü;
+            # o sayıyı "ötekiler hedefi serbest metinde söylüyor" diye
+            # rapor ettim — YANLIŞTI. Alanlar dökülünce çıktı:
+            #     _HEDEF               1   (AGADEZ)
+            #     hedef_dosya          2   (AVRUPA · ZEND)
+            #     hedef_dosya_onerisi  2   (1917-TASIMA · AFRIKA)
+            # ⇒ makine okunur beyan **5**, benim gördüğüm 1'di.
+            # `§11`: *gerçek alan kümesini ÖLÇ, varsayma* — ve kural
+            # yazılıyken çiğnendi.
+            #
+            # ⚠️ BEYAN ile ÖNERİ AYRI TUTULUR: `hedef_dosya_onerisi`
+            # bir teklif taşıyor ("koordinatör seçer"), bir karar değil.
+            # İkisini tek kovaya koymak, kararsız bir dosyayı kararlı
+            # göstermek olur.
+            hedef = d.get("_HEDEF") or d.get("hedef") or d.get("hedef_dosya")
+            oneri = d.get("hedef_dosya_onerisi")
+            if hedef:
+                kuyruk = " · hedefi: %s" % hedef
+            elif oneri:
+                kuyruk = " · 🟡 hedef ÖNERİSİ var (karar YOK): %s" % (
+                    repr(oneri)[:70])
+            else:
+                kuyruk = " · ve MAKİNE OKUNUR HEDEF BEYANI YOK"
             yaz("  yama %-38s   ⚫ SAHİPLENMEDİM — `kunyeler` yok%s"
-                % (os.path.basename(y),
-                   (" · hedefi: %s" % hedef) if hedef else
-                   " · ve HEDEF BEYANI DA YOK"))
+                % (os.path.basename(y), kuyruk))
         else:
             yaz("  yama %-38s %3d madde" % (os.path.basename(y), n))
     yaz("  TOPLAM istek: %d madde" % len(istek))
