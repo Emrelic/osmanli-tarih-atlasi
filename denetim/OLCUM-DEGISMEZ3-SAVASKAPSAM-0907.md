@@ -39,6 +39,41 @@ ozet`; `t` **yok**, çünkü bir seri bir güne bağlanamaz. Denetlenemez.
 içinde maddesi var: **%100, 0 açık.** Denetime eklemek bugün hiç gürültü
 üretmez, ve ileride bir antlaşma maddesiz kalırsa yakalar.
 
+> ### 🟢 GÜNCELLEME — 18 AÇIK AYRILDI, hipotez DOĞRULANDI (ve DARALTILDI)
+> `denetim/ARAC-DEGISMEZ3-SEFER-0907.py` · üç ölçüt, aynı veri, aynı pencere:
+> ```
+> Ⓐ `t` ±30       (BUGÜNKÜ ölçüt)  18 açık   ← taban
+> Ⓑ `f` ±30       (başlangıç)      17 açık
+> Ⓒ [f-30, t+30]  (ARALIK)          0 açık   ← öngörü "5'in altı" TUTTU
+> ```
+> **Kanıt birebir:** `Niğbolu seferi` → *"Niğbolu Zaferi"* · `Kosova seferi
+> (1389)` → *"I. Kosova Savaşı"* · `Preveze harekâtı` → *"Preveze Deniz
+> Zaferi"* · `Viyana seferi (1529)` → *"I. Viyana Kuşatması"*. Madde **var**,
+> yalnız seferin **bitişinden** 30 günden uzakta.
+>
+> 🔴 **AMA Ⓒ TEK BAŞINA DENETİM ÖLÇÜTÜ OLAMAZ — kendi ölçütümün sınırı:**
+> ```
+> sefer adı ile eşleşen maddenin ORTAK kelimesi VAR : 16 / 18
+> ORTAK kelime YOK (Ⓒ yanlış sebeple kapatıyor)     :  2 / 18
+>    Memlük ordusunun karşı taarruzu (1488-1490, 22 AY)
+>       → "Kraliçe Katerina Cornaro Kıbrıs'ı Venedik'e devretti"   ALAKASIZ
+>    Timur'un Anadolu'dan çekilişi (1403)
+>       → "Süleyman Çelebi – Bizans antlaşması"                    ALAKASIZ
+> ```
+> Uzun bir sefer aralığı (22 ay) içine **rastgele** bir madde düşüyor.
+>
+> ⚠️ **KENDİ SAYIMI DÜZELTİYORUM:** ilk yazdığım *"18'in 18'i ölçüt
+> uyumsuzluğu, 0 gerçek"* fazla geniş. Doğrusu:
+> ```
+> 16  ÖLÇÜT UYUMSUZLUĞU — kanıtlı (ad eşleşmesi)
+>  2  ÖLÇÜLEMEDİ — Ⓒ kapatıyor ama gerekçesi zayıf; gerçekten maddesiz OLABİLİR
+>  0  KESİN maddesiz
+> ```
+> 🟢 **ÖNERİ (denetim YAZILMADI):** `SEFERLER` denetlenecekse ölçüt
+> **Ⓒ + ad benzerliği** olmalı — Ⓒ tek başına 2 yanlış pozitif üretiyor.
+> Ve `SAVASLAR`ın 8 açığı bu ölçütle **yeniden ölçülmeli**: `SAVASLAR`ın
+> `savas_basi` alanı var (28 kayıtta), yani orada da aralık olabilir.
+
 **🟡 `SEFERLER` — ölçüt UYMUYOR olabilir, denetim önermiyorum.**
 18 açık var ama örnekler ölçütü sorgulatıyor:
 ```
