@@ -71,8 +71,65 @@ diye yazmıştım. Ölçüm: **%39** — çoğunluk değil, ama küçümsenecek 
 
 ---
 
+---
+
+## TUR 2 — çıpa tuzağı ve ATLAS kimliği (M-3191 sonrası)
+
+### 🟢 ÇIPA TUZAĞI BAĞIMSIZ DOĞRULANDI (`ARAC-SINIR-GAFRIKA-CIPA-0907.py`)
+```
+1923-10-29   canlı kimlik   1 · SAHİPSİZ 3804
+1923-10-28   canlı kimlik 110 · SAHİPSİZ  168
+`t` == UFUK sonu (1923-10-29) olan dönem: 3636
+```
+Dönemler yarı açık (`f <= g < t`) ve `girdi.UFUK[1] == "1923-10-29"`.
+🟡 1.MURAT 109 dedi, ben 110 ölçtüm — fark **`osmanli`** (`d:` dönemi);
+onun `kimlik_sayisi` alanı saymıyor, `kimlikler` sözlüğünde var. Sahipsiz
+sayısı ikimizde de **168**. Çelişki değil, tanım farkı.
+
+📌 **TUR 1 ETKİLENMEDİ** ve bu varsayılmadı, ölçüldü: TUR 1'de
+`girdi.yukle()` hiç çağrılmadı (kaynak NE geojson + TDV gövdeleri).
+Tuzak `kimlik_1923`i atlastan doldurunca ısırıyor — yani TUR 2'de.
+
+### 🟢 ATLAS KİMLİĞİ (`ARAC-SINIR-GAFRIKA-ATLASKIMLIK-0907.py`)
+Her NE poligonunun içindeki atlas yerleşimlerinin `1923-10-28` kimliği:
+```
+farkli-kimlik   42  (%47)
+ayni-kimlik     34  (%38)   ← atlasta o çizgi ZATEN çizilmiyor
+olculemedi      13  (%15)   (11'i zayıf dayanaklı: n < 3)
+```
+
+### 🔴 KENDİ ALETİMİN KUSURU — ilk sayım 39'du
+`most_common(1)` beraberliği **sessizce** çözüyordu:
+```
+Sierra Leone  fransa:1 = ingiltere:1  → keyfî FRANSA ⇒ İNGİLİZ koloni
+                                        Fransız yazıldı, kenar "ayni-kimlik"
+Cameroon      ingiltere:6 = fransa:6  → keyfî İNGİLTERE ⇒ Nigeria↔Cameroon
+                                        yanlışlıkla "ayni-kimlik"
+Benin         fransa:1 = ingiltere:1
+```
+Kural katılaştı: beraberlikte kimlik **seçilmez**, `SAHİPSİZ` kimlik
+değildir, `n<3` → `zayif`. **39 → 34.**
+
+### 🟢🟢 ÇAPRAZ — «aynı sayı ≠ aynı vaka» sınavı
+TARİH 35 · ATLAS 34. Yakınlık tesadüf mü diye çaprazlandı
+(`ARAC-SINIR-GAFRIKA-CAPRAZ-0907.py`):
+```
+UYUŞAN 70 · AYRIŞAN 6 · (13 kenar bir tarafta olculemedi)
+```
+Ayrışan **6'nın altısı da** tek sebep: atlas **Güney Afrika Birliği'ni
+`ingiltere` boyuyor** (Namibya · Lesotho · eSwatini · Botsvana · Zimbabve
+ile birlikte). Veri hatası değil, **model sorusu** — ve cevabı bende değil.
+
+### 🔴 `Eq. Guinea` — atlasta 0 yerleşim
+İki kenarım bu yüzden `olculemedi`; ve `§2`ye göre Rio Muni haritada en
+yakın peteğe **emiliyor** olmalı. Nokta koluna bildirildi (M-3204).
+
+---
+
 ## Açık kalemler
 1. **11 kenarın sahipliği** — 1.MURAT'tan cevap bekliyor (M-3175 · M-3182).
+1b. **54 uluslararası kenar için akademik kaynak izni** (M-3190).
+1c. **Güney Afrika Birliği ayrı kimlik olacak mı** (M-3204) — 6 kenarı bağlar.
 2. **`hal` sözlüğünde bir kova YOK:** *"o gün uluslararası sınır değildi"*
    üç değerin hiçbiriyle tam örtüşmüyor. Şimdilik `bulunamadi` + `sinif_1923`
    ile yazıyorum ve bunu **açıkça** bildirdim.
