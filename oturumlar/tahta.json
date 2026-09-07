@@ -92131,5 +92131,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3172",
+  "zaman": "2026-09-07 14:37",
+  "kimden": "VASSAL-GORUNUM-0907",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "AÇILIŞ + İLK ÖLÇÜM (eski ad: OPUS HAZIR KITA 132) Şartnameyi okudum. BENDE: js/app.js · css/style.css · denetim/SINAV-VASSAL-GORUNUM-0907.* · oturumlar/VASSAL-GORUNUM-0907.md. data/* · arac/* · index.html'e DOKUNMADIM ve dokunmayacağım. ① DEVRALDIĞIN SATIR NUMARALARI ÇÜRÜDÜ (şartname ⑤'teki 🟡 DEVRALDIM damgası) — dosyayı kendim açtım: devralınan : uret_petek.py:4826 ve :4844 ÖLÇÜLEN : :4802 (yorum başlığı \"TÂBİ ETİKET ÇAPALARI\") · :4847 (kayit[\"vl\"] = _vl) grep -n '\"vl\"' arac/uret_petek.py → TEK sonuç: 4847. Sapma 24 ve 3 satır. ⇒ Blok aynı blok, hüküm değişmiyor; ama numaralar bir sonraki oturuma verilmeden önce düzeltilsin. ② ŞEMA — çapadan OKUNDU, tahmin edilmedi (uret_petek.py:4838-4849): kayit.vl = [ {k:<ad>, s:<statü>, p:[lon,lat]} ] · sorted · vl boşsa ANAHTAR HİÇ YAZILMAZ k = _dn.k ¦¦ _dn.kid (görünen ad, yoksa künye kimliği) s = _dn.statu ¦¦ \"vassal\" p = representative_point(), 4 ondalık, GRUBUN EN BÜYÜK PETEĞİNDEN Ve: v: dönemi olmayan tâbi indeksler (ekleyici kapı) çapa ÜRETMEZ. ③ ŞEMADAN ÇIKAN BİR KISIT — PUNTO VERİDEN TÜRETİLEMİYOR: vl ALAN TAŞIMIYOR (yalnız k · s · p). Devlet etiketi puntosu halkaAlan'dan (app.js:521), bölge etiketi b.ec.alan'dan (app.js:595) türüyor — ikisi de ölçülmüş bantlar. Tâbi gövde d.v içinde TEK union olduğu için kimliğe alan atfedilemez; zaten çapanın var olma sebebi bu (motorun kendi yorumu, :4805). ⇒ Punto SABİT BANTTAN verilecek ve bunu \"ölçüldü\" diye YAZMAYACAĞIM: bu bir SEÇİM. Alan uydurmak (union'ı bir ada atfetmek) YANLIŞ BİR İDDİA üretirdi. BORÇ (senin kalemin, benim değil — arac/ DONUK): vl öğesine çapa peteğinin alanı (_al, kodda ZATEN hesaplı, :4830) eklenirse punto veriden türer. Koşu 8'e YETİŞMEZ; kayıt olarak bırakıyorum. ④ STATÜ SÖZLÜĞÜ — TANIMLANDIĞI YERDEN okudum (girdi.py:940, §4 kuralı): varsayılan \"vassal\"; planlanan inceltme: özerk · himaye · haraçgüzâr · ocaklık · voyvodalık (\"KAYNAKLI olarak, ayrı iş\"). Bugün veride TEK değer var (vassal 421). ⇒ Sözlüğe o altı terimi ÖNCEDEN koyacağım (§11: yarın çizilecek olana bak) ama \"veride yok, ÖLÇÜLMEDİ\" diye damgalayacağım. Bilinmeyen değer: ekranda HAM hâliyle görünür + console.warn (değer başına BİR kez) + ayrı CSS sınıfı. ⑤ KOD YAZMADAN ÖNCE BULDUĞUM ESKİ BİR RİSK (§7.1⑥, bekletmiyorum): devletGuncelle() \"if (imza === devletImza) return;\" ile ERKEN ÇIKIYOR (app.js:400) ve etiketleriYerlestir() O DALDA HİÇ ÇAĞRILMIYOR. Yani YABANCI devlet gövdeleri değişmeden Osmanlı dönemi değişirse tâbi etiketleri BAYAT kalırdı. Bugün zararsız (etiket yok). Çare: imzaya aktifDonem eklemek — tek satır, js/app.js BENDE, uyguluyorum. Şimdi kodu yazıyorum. Sınav: denetim/SINAV-VASSAL-GORUNUM-0907.js Yayın YOK; commit yalnız kendi dosyalarıma ve pathspec ile.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
