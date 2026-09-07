@@ -3,6 +3,10 @@
 // Kayitlar ELLE yazilmadi; canli veriden okunup gun uzerinden bolundu.
 // KAPSAM DISI (bilerek): Magosa·Larnaka (Kibris, dogru) · Sina guneyi (Misir,
 //   ayri kalem) · Amman·Kerak (Urdun kunyesi YOK, BLOKE).
+// BIRLESTIRME 7 Eylul 2026 (1.MURAT) — HUKUM-CAKISMA-MANDA-FETRET-0907.md
+// 28 cakisma: baslangic gunleri UC KAYNAKTA DA AYNIYDI (olculdu, fark 0).
+// Gercek fark TEK: MANDA 20.yy'i 1921-08-23'te boluyor (irak-kralligi).
+// Iki dosya ortak adlarda ESITLENDI: 14.yy FETRET'ten, 20.yy MANDA'dan.
 window.YER_YAMA_MANDA_0906 = [
   {
     "ad": "Malikiye (Derik)",
@@ -1409,11 +1413,11 @@ window.YER_YAMA_MANDA_0906 = [
     "s": [
       {
         "f": "1281-01-01",
-        "t": "1335-12-01",
+        "t": "1340-01-01",
         "d": "ilhanli"
       },
       {
-        "f": "1335-12-01",
+        "f": "1340-01-01",
         "t": "1393-01-01",
         "d": "celayirli"
       },

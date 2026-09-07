@@ -254,24 +254,124 @@ for x in yama:
 #   çünkü bugünkü yamalarda bu üç alan hiç çakışmıyor — aşağıya bak).
 CATISABILIR = ("d", "s", "v", "isg", "m", "kaynak", "bos", "neden", "not",
                 "kur")
+# Yazıcının GERÇEKTEN yazabildiği alanlar — dizi (`ALAN_RX`) ve skaler
+# (`SKALER_ALANLAR`, satır ~504) kümelerinin birleşimi ve `CATISABILIR`
+# ile birebir aynı. Ayrı bir ad taşıması kasıtlı: burada sorulan soru
+# "çatışır mı" değil "YAZILABİLİR Mİ".
+YAZILABILIR = frozenset(CATISABILIR)
 
 cakisan = {}
 cakisan_alan = {}
 sahte_cakisma = 0
 kaynak_ayrisan = []   # yalnız `kaynak` ayrışıyor VE hedefin kaynağı BOŞ:
                       # veri iner, `kaynak` YAZILMAZ, uyarı basılır
+
+# ══ DÖNEM İÇİ BEYAN — 7 Eylül 2026, 1.MURAT ═════════════════════════════
+# 🔴 ÖLÇÜLDÜ (`denetim/ARAC-CAKISMA-ICKAYNAK-0907.py`): 60 veri
+#   çatışmasının **37'sinde** dönemlerin `f`/`t`/`d` ÇEKİRDEĞİ BİREBİR
+#   AYNI; ayrışan tek şey dönem nesnesinin İÇİNDEKİ `kaynak:`.
+#       ada_kaynak  isg:[{f,t,d, kaynak:"oniki-ada"}]
+#       onikiada    isg:[{f,t,d}]
+#   Aletin `kaynak` muafiyeti KAYIT seviyesinde (`== ["kaynak"]`); bu
+#   `kaynak` DÖNEM seviyesinde ⇒ muafiyet ATEŞLENMİYOR ve bir BELGELEME
+#   yaması, belgelediği VERİ yamasıyla çatışıyor gibi görünüyor.
+#
+# 🟢 VE BU, KAYIT SEVİYESİNDEKİ VAKADAN FARKLI — çare de farklı olmalı:
+#   orada iki taraf FARKLI BİR ŞEY SÖYLÜYORDU (ikisini de yazamayız,
+#   birini seçmek alfabetik kaza olurdu ⇒ hiçbiri yazılmaz).
+#   Burada bir taraf SUSUYOR. **Sessizlik rakip bir iddia değildir.**
+#   ⇒ Tek konuşan varsa onu YAZ; iki konuşan AYRI şey diyorsa BLOKE ET.
+DONEM_BEYAN = ("kaynak", "neden", "not", "kesinlik")
+
+
+def _donem_cekirdek(p):
+    return json.dumps({k: v for k, v in p.items() if k not in DONEM_BEYAN},
+                      sort_keys=True, ensure_ascii=False)
+
+
+def donem_birlestir(diziler):
+    """Çekirdeği aynı dönemlerin beyan alt-alanlarını birleştirir.
+
+    Döner: (birleşmiş_dizi, çatışma_var_mı). Çekirdek ayrışıyorsa ya da
+    iki yama AYNI alt-alana FARKLI değer yazıyorsa (None, True).
+    """
+    n = len(diziler[0])
+    if any(len(d) != n for d in diziler):
+        return None, True
+    for i in range(n):
+        if len({_donem_cekirdek(d[i]) for d in diziler}) > 1:
+            return None, True
+    sonuc = []
+    for i in range(n):
+        p = dict(diziler[0][i])
+        for k in DONEM_BEYAN:
+            sesler = {json.dumps(d[i][k], sort_keys=True, ensure_ascii=False)
+                      for d in diziler if k in d[i]}
+            if len(sesler) > 1:
+                return None, True        # İKİ AYRI BEYAN ⇒ gerçek çatışma
+            for d in diziler:
+                if k in d[i]:
+                    p[k] = d[i][k]
+                    break
+        sonuc.append(p)
+    return sonuc, False
+
+
+donem_birlesen = collections.Counter()
+alan_birlesen = collections.Counter()
+
 for ad, liste in gruplu.items():
     if len(liste) < 2:
         continue
     catisan_alanlar = []
+    birlesmis = {}
     for alan in CATISABILIR:
         yazanlar = [x for x in liste if alan in x["r"]]
         if len(yazanlar) < 2:
             continue                     # tek yazan ⇒ çatışma YOK
         degerler = {json.dumps(x["r"][alan], sort_keys=True,
                                ensure_ascii=False) for x in yazanlar}
-        if len(degerler) > 1:            # AYNI alan, FARKLI değer ⇒ ÇATIŞMA
-            catisan_alanlar.append(alan)
+        if len(degerler) <= 1:
+            continue
+        if alan in ("d", "s", "v", "isg"):
+            birlesik, catisti = donem_birlestir([x["r"][alan] for x in yazanlar])
+            if not catisti:
+                birlesmis[alan] = birlesik
+                donem_birlesen[alan] += 1
+                continue
+        catisan_alanlar.append(alan)     # AYNI alan, FARKLI değer ⇒ ÇATIŞMA
+
+    # ══ AYRIK ALAN BİRLEŞTİRME — ve bu, ölçülmüş bir SESSİZ KAYIP ══════
+    # 🔴 `_sahiplik_uygula` bir ad için YALNIZ `liste[0]`ı uyguluyordu.
+    #   Ölçüldü (`denetim/ARAC-AYRIK-KAYIP2-0907.js`): `liste[1:]`in
+    #   taşıdığı **151 alan** canlı veriden FARKLI, yani HİÇ İNMİYOR —
+    #   ve **133'ü tek bir dosyadan**: `yer_yama_vassal_kid_0906.js`
+    #   `v:` alanı. Sebep tarihsel değil ALFABETİK: dosya adı `v` ile
+    #   başladığı için o yama neredeyse her zaman `liste[1:]`e düşüyor.
+    #   ⚠️ Ve alet bunu İYİ HABER diye basıyordu:
+    #       "175 ad … AYRIK alanlara dokunuyor — çakışma DEĞİL"
+    #   O satır, tam da düşürdüğü kayıtlar hakkında güven veriyordu.
+    #   📌 Bu aletin kendi başlığı alfabetik seçimi mahkûm ediyor; burada
+    #     alfabetik seçim bir SEÇİM bile değildi — bir DÜŞÜRMEYDİ.
+    # 🔴 YALNIZ YAZILABİLİR ALAN BİRLEŞTİRİLİR. İlk sürüm `x["r"]`nin
+    #   BÜTÜN anahtarlarını birleştirdi ve `hukum` · `parti` · `eski` ·
+    #   `koordinat_kontrol` gibi RAPOR alanlarını kayda kattı. Yazıcı
+    #   onları zaten yazmıyor (yalnız d/s/v/isg + SKALER_ALANLAR), yani
+    #   zararsızdılar — ama kayda giren her alan bir sonraki ölçümde
+    #   VERİ sanılır. §11: "bir alet, aradığı şeyin NEREDE OLMAYACAĞINI
+    #   da bilmeli" — burada tersi: YAZAMAYACAĞINI da bilmeli.
+    for x in liste[1:]:
+        for alan, deger in x["r"].items():
+            if alan not in YAZILABILIR or alan in catisan_alanlar:
+                continue
+            if alan in birlesmis or alan in liste[0]["r"]:
+                continue
+            birlesmis[alan] = deger
+            alan_birlesen[alan] += 1
+
+    if birlesmis:
+        liste[0] = dict(liste[0])
+        liste[0]["r"] = dict(liste[0]["r"], **birlesmis)
     # 🔴 YALNIZ `kaynak` AYRIŞIYORSA BU BİR VERİ ÇATIŞMASI DEĞİLDİR.
     #   *(2 Eylül 2026 — OPUS HAZIR KITA 109 ölçtü, koordinatör daralttı)*
     #
@@ -337,6 +437,14 @@ if sahte_cakisma:
     print("  i %d ad birden çok yamada geçiyor ama AYRIK alanlara dokunuyor"
           " — çakışma DEĞİL (eski alet bunları bloke ediyordu)"
           % sahte_cakisma)
+if donem_birlesen:
+    print("  🟢 DÖNEM İÇİ BEYAN birleştirildi: %s — çekirdek (f/t/d) aynı,"
+          " yalnız `kaynak`/`neden` alt-alanı bir tarafta VAR bir tarafta YOK"
+          % " · ".join("%s %d" % (a, n) for a, n in donem_birlesen.most_common()))
+if alan_birlesen:
+    print("  🟢 AYRIK ALAN birleştirildi: %s — eskiden `liste[0]` dışındaki"
+          " yamaların bu alanları SESSİZCE DÜŞÜYORDU"
+          % " · ".join("%s %d" % (a, n) for a, n in alan_birlesen.most_common()))
 
 if kaynak_ayrisan:
     print("  🟡 %d adda YALNIZ `kaynak` ayrışıyor — veri İNECEK, kaynak "
