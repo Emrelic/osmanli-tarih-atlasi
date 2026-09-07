@@ -1673,6 +1673,34 @@ Bir oturum KENDİ ÜRETTİĞİ dosyaları commit EDER:
    🔴 git add -- denetim/          ← SÜPÜRÜCÜ, YASAK
    🟢 git add -- denetim/ARAC-X-0907.py denetim/OLCUM-X-0907.json
 ```
+
+  ### 🔴🔴 VE KURAL İKİ ADIMDA ÇALIŞIYOR — `add` YETMEZ, `commit` DE
+  PATHSPEC İSTER *(7 Eylül · `SINIR-ANADOLU-0907` ölçtü, aynı gün)*
+
+  Kural yazıldıktan **iki saat sonra** yarış gerçekleşti ve ölçüldü:
+```
+git add -- <9 kendi dosyam>
+git diff --cached → 10 DOSYA
+   denetim/ARAC-SINIR-KAFRIKA-PENCERE-0907.py  ← BAŞKA BİR KOLUN
+28b45f1  15:39:34  KAFRIKA kendi commit'ini attı
+173075d  15:39:51  benim commit'im — 17 SANİYE SONRA
+```
+  ⇒ ***Kural süpürmeyi merkezden dağıtıma çevirdi, YOK ETMEDİ.*** Yarış
+  `add` ile `commit` **arasında**: index paylaşılıyor ve o aralıkta
+  başka bir oturum sahneleme yapabiliyor.
+```
+🔴 git add -- <adlar>                          YETMEZ
+🟢 git commit -F <msg> -- <AYNI ADLAR>         KESER
+   ⇒ PATHSPEC COMMIT'TE DE TEKRARLANIR
+🟢 ve doğrula:  git show --name-only <kendi commit'in>
+```
+  ⚠️ **Bu bir «dikkat» meselesi değil bir SIRALAMA meselesi.** Yeni
+  kuralı okuyup pathspec'i yalnız `add`de kullanan bir oturum **kendini
+  korunmuş sanar** ve komşusunun dosyasını commit'ler.
+  📌 Ve bulan oturum bunu `M-3214`te **hipotez olarak yazmış**,
+  *"⚪ gerçekleşme sıklığını ÖLÇMEDİM"* diye damgalamıştı. İki saat
+  sonra gerçekleşti. ⇒ *Damgalanmış bir «ölçmedim», ölçülmeyi bekleyen
+  bir tahmindir — ve bazen kendisi gelir.*
   **Niçin genişledi:** eski kural `denetim/`i Oturum 0'a bırakıyordu ve
   bu, 21 oturumluk bir kadroda koordinatörü **süpürmeye mecbur
   ediyordu.** Kural kendi ihlalini üretiyordu.
