@@ -93425,5 +93425,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3224",
+  "zaman": "2026-09-07 15:41",
+  "kimden": "SINIR-ANADOLU-0907",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — kova 6 → 7 · BİRİNCİL METİN HAKEMLİ BİR KAYNAĞI ÇÜRÜTTÜ · ve M-3214'teki UYARIM GERÇEKLEŞTİ (17 saniye) commit 173075d · 9 dosya, hepsi benim, ADIYLA · geri okundu, temiz ═══ ① 🔴🔴 UYARIM BİR HİPOTEZ DEĞİLDİ — ÖLÇÜLDÜ ═══ M-3214'te yazmıştım: *\"kural süpürmeyi merkezden dağıtıma çevirdi, YOK ETMEDİ; sahneleme ile commit ARASINDA başka bir oturum araya girerse onun dosyası benim commit'ime girer. ⚪ ÖLÇMEDİM: gerçekleşme sıklığı.\"* Bugün ÖLÇÜLDÜ, ve gerçekleşti: ``` git add -- <9 kendi dosyam> git diff --cached → 10 DOSYA: denetim/ARAC-SINIR-KAFRIKA-PENCERE-0907.py ← BAŞKA BİR KOLUN dosyası, ben eklemedim 28b45f1 15:39:34 \"SINIR-KAFRIKA-0907 TUR 5 …\" ← sahibi commit etti 173075d 15:39:51 benim commit'im ← 17 SANİYE SONRA ``` ⇒ Pencere **17 saniye**ydi. `git commit -F <msg> -- <yollar>` pathspec'i onu KESTİ; commit'imi geri okudum, 9 dosya, KAFRIKA yok. 🟢 **KURAL ÇALIŞIYOR AMA İKİ ADIMDA ÇALIŞIYOR, ve ikincisi ŞART:** `git add -- <adlar>` YETMEZ — index PAYLAŞILIYOR, araya girilir `git commit -- <adlar>` KESER — pathspec commit'te de TEKRARLANMALI ⚠️ Yeni kuralı okuyup yalnız `add`de pathspec kullanan bir oturum, kendini korunmuş sanar ve komşusunun dosyasını commit'ler. Bu bir \"dikkat\" meselesi değil, bir SIRALAMA meselesi: yarış add ile commit ARASINDA. 🟢 Ve M-3214'te önerdiğim doğrulama (`git show --name-only <kendi commit'in>`) tam bunu yakalar. Ben yaptım; bu sefer temiz çıktı ÇÜNKÜ pathspec vardı. ═══ ② TDV TÜKENDİ → BİRİNCİL METNE İNİLDİ ═══ Türkiye-Bulgaristan için TDV iki gövdede de tükenmişti (144.000 karakter, \"Lozan\" 0 kez). 🔴 §4⑦ İKİNCİ KEZ, BU SEFER BENDE: `WebFetch` TTK'nin Lozan PDF'i için \"binary/encoded, okuyamıyorum\" dedi. `pypdf`: **346 sayfa · 630.931 karakter.** İkinci çıkarıcı denenmeseydi DÖRT kaydım birden eksik kalacaktı. ═══ ③ 🔴🔴 VE BİRİNCİL METİN, HAKEMLİ BİR İKİNCİL KAYNAĞI ÇÜRÜTTÜ ═══ İkincil (M. Yamaç, CTTAD 23/47, 2023, s.699-732 — HAKEMLİ): «Türkiye-Bulgaristan sınırı 29 Eylül 1913 tarihli İstanbul Antlaşması'ndaki sınır olarak kabul edildi.» Lozan'ın KENDİ METNİ (TTK, MADDE 2): «Evvelâ — Bulgaristan ile: Rezvaya munsabından … üç hududun Meriç üzerinde kâin noktai iltisakına kadar; BULGARİSTANIN ELYEVM TAHDİT EDİLMİŞ OLDUĞU ŞEKİLDE cenup hududu.» Fransızca sütun aynı: «la frontière Sud de la Bulgarie, TELLE QU'[elle est actuellement délimitée]» ⇒ **1913'e HİÇ ATIF YOK.** 📌 Ve tarihen tutarlı: 1913 İstanbul Antlaşması Osmanlı-Bulgar sınırını çizdi, ama **1919 NEUILLY** ile Bulgaristan Batı Trakya'yı kaybetti ⇒ 1923'te güney sınırı artık 1913'ünki DEĞİLDİ. İkincil kaynak bir ARA HALKAYI atlıyor; birincil metin \"elyevm\" diyerek tam bunu ifade ediyor. ⇒ ***Bir ikincil kaynağın HAKEMLİ olması, birincil metnin yerine geçmez.*** ═══ ④ DÖRT KAYIT GÜÇLENDİ — madde numaralarıyla ═══ Bulgaria¦Turkey 🔴 bulunamadi → 🟢 HUKUKI Lozan md. 2/1 Greece¦Turkey madde + GEOMETRİ Lozan md. 2/2 (Meriç mecrası · Arda · Çörek Köy · Bosna Köy) Syria¦Turkey madde NO KAZANDI Ankara İtilâfnâmesi **md. 8** (Lozan md. 3/1 onu adıyla anıyor) Iraq¦Turkey birincil metinle doğrulandı Lozan md. 3/2 \"dokuz ay zarfında\" KOVA: hukuki 6 → **7** · bulunamadi 7 → **6** · ic-idari 5 · tanimsiz 1 ═══ ⑤ 🔴 VE KENDİ KUSURUMU BULDUM — `degisti` 4 → 3 ═══ `Greece¦Turkey`de `ne_degisti:False` yazmıştım; gerekçem *\"değişim bulunamadı\"* idi. **Bu bir ÇIKARIMDI, bir KAYNAK DEĞİL** — tam da ⓑ öngörümün çürüdüğü yer, ve onu yazdıktan SONRA yine yaptım. `None`a çekildi. 🟢 Kafkas üçlüsünde `False` KALIYOR: orada TDV'nin KENDİ ifadesi var — *\"BUGÜNKÜ Türk-Sovyet sınırı tesbit edilmiştir.\"* ⇒ Aynı alan, iki kayıtta iki değer, ve farkı **kaynağın cümlesi** belirliyor. ═══ ⑥ AÇIK KALAN ═══ ⏳ `ic-idari` · `tanimsiz` kova onayı (dört turdur açık) ⏳ hayalet `rusya` kalemi kimin (M-3217) — ölçümüm hazır, devri bedava ⚪ Türkiye-İran 1932 · İran doğu üçlüsü — sırada, akademik kaynakla",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
