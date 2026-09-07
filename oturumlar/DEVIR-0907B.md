@@ -872,3 +872,80 @@ kalemi** (`§7`), ondan *"yazdım"* değil **kapının çıktısı** istendi.
    · `git add -A -- data index.html` ne süpürür — `data/` altında
      bekleyen yama var mı, yayın commit'ine İSTEMEDEN girer mi
 ```
+
+---
+
+## ⑩b — 23:25 · 🟢 KOŞU 8 YAYINLANABİLİR (ölçüldü) · 🔴 ENKLAV HÜKMÜ TERSİNE DÖNDÜ
+
+### ① DONMA TUTTU — ve bu bir varsayım değil, sayı
+```
+koşu başladıktan (11:17:47) sonra `data/` commit'i:  0
+kirli tek dosya: data/bolgeler.js — ve o bir ÇIKTI (üretilmiş), GİRDİ değil
+   ⇒ `parmak_izi()` = GIRDI_DOSYALARI + GOL_DOSYASI ⇒ bolgeler.js DIŞARIDA
+```
+⇒ **Koşu 8'in girdi enstantanesi ile bugünkü `data/` AYNI.** Kapının şu anki
+*"YAYIN BAYAT — 23 yerleşim dosyası geride"* şikâyeti **koşu 7B'nin çıktısı**
+hakkında; koşu 8 inince kendiliğinden kapanır.
+📌 On beş oturum gün boyu donmaya uydu. `§7`nin *"koşu sürerken `data/` ve
+`arac/` İKİSİ DE DONMUŞTUR"* kuralı **ilk kez ölçülerek doğrulandı.**
+
+### ② DAMGA ŞARTI KAPANDI — kapı KOŞTURULARAK (23:14)
+```
+137: ✓ sürüm damgası r7050        138: ✓ damga artışı
+143: ✗ YAYIN BAYAT                148: ✗ üretim izi taze 2 · bayat 5
+```
+`bc1a16b` (VASSAL-GORUNUM, 23:08) r6711 → r7050. Kalan İKİ ihlal de
+**koşunun ürettiği şey.** Benim kalemimde yayın önünde engel KALMADI.
+
+### ③ 🔴 ENKLAV: AÇIK KALEM SANIYORDUM — ZATEN ÇÖZÜLMÜŞ, AMA UYGULANAMAZ
+```
+M-3121/3126  ENKLAV-0907 · 12:25 · 12/12 sınıflandı · 661 → 652
+             TAVANA DOKUNULMADI (doğru yol)
+M-3128       yamayı KABUL ettim · 12:33
+git log data/ --since 12:00   → BOŞ ⇒ YAMA `data/`ye İNMEDİ
+```
+🟢 **Ve inmemesi DOĞRU:** koşu 11:17:47'de girdiyi dondurdu; 12:33'te
+uygulanan bir yama koşu 8'i **yayınlanamaz** kılardı. Ekip bunu bildi.
+⇒ Yama koşu 8'in İÇİNDE DEĞİL. Yani `denetle.py` koşu sonrası da 661
+diyebilir — ve fix'i uygulamak yayını öldürür.
+
+### 🔒 KARAR KURALI — ÖLÇÜMDEN ÖNCE YAZILDI (mazeret üretilemesin diye)
+
+Koşu 8 inince `denetle.py` koşulacak. Enklav sayısına göre:
+```
+≤ 660        → YAYINLA. Yeni geometri çözmüş demektir.
+= 661+       → aşağıdaki üç şık; ve İKİSİ PEŞİNEN ELENDİ:
+```
+```
+🔴 ELENDİ  tavanı 661'e yükselt
+           gerekçe: CLAUDE.md bunu ADIYLA yasaklıyor (Sarıkamış). Fix'i
+           YAZILMIŞ bir ihlali susturmak, adayı haritada yerinde bırakır.
+🔴 ELENDİ  yamayı yayından ÖNCE uygula
+           gerekçe: girdiyi değiştirir ⇒ 12 saatlik koşu yayınlanamaz olur
+           (M-3258'in tam olarak uyardığı tuzak)
+🟡 KALAN   yayını enklav ihlaliyle DURDUR, yamayı uygula, koşu 9'a bırak
+           BEDELİ: 12 saatlik hesap çöpe gider
+🟡 KALAN   Emre'ye SOR — 12 hesap-saati ile bilinen 9 enklav arasındaki
+           takas benim kararım değil
+```
+⚠️ **Ve ölçülmeden hiçbiri seçilmeyecek:** enklav sayısı GEOMETRİDEN gelir
+ve diskteki geometri koşu 7B'nin. 661 de 652 de bugün **bayat bir zemine**
+karşı ölçülmüş sayılar. Koşu 8'in geometrisi ikisini de değiştirebilir.
+📌 `§11`: *"tavanı yükseltmek ihlali susturur, kusuru YERİNDE BIRAKIR"* —
+ve *"bir sayı, ölçüldüğü tabanla birlikte taşınır."*
+
+### ④ 🔴 ALTI SAATLİK PENCERE — gecenin ZAMAN riski
+`--uretimsiz` dalı `donemler.js` 6 saatten eskiyse **DURUR** (kaynaktan
+doğrulandı, `kos_ve_yayinla.py` `yas > 6`). Koşu ~01:00'de biterse son an
+**~07:00**. Enklav kararı o pencereye sığmalı; sığmazsa emniyet ağı da
+çalışmaz ve yayın bir sonraki koşuya kalır.
+
+### ⑤ BU TURDA İNENLER
+```
+dfcc2e0  bayat commit mesajı DEĞİŞTİRİLDİ + `--kuru` planı düzeltildi
+         zarar ÖLÇÜLDÜ: eski mesaj `git log`a İKİ KEZ girmiş
+         (3b2b781 · 09-05 22:31   ve   567895f · 09-07 07:17)
+```
+🟢 Nöbetçi 8C sağlam: PID 6592 (2 MB) + 8448 (5 MB) — **fırlatıcı+yorumlayıcı
+çifti**, mükerrer nöbetçi DEĞİL (mükerrer olsalar bellekleri benzer olurdu).
+Saatlik rapor 23:39'da düşecek.
