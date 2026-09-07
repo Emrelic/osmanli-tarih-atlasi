@@ -281,7 +281,20 @@ kaynak_ayrisan = []   # yalnız `kaynak` ayrışıyor VE hedefin kaynağı BOŞ:
 #   birini seçmek alfabetik kaza olurdu ⇒ hiçbiri yazılmaz).
 #   Burada bir taraf SUSUYOR. **Sessizlik rakip bir iddia değildir.**
 #   ⇒ Tek konuşan varsa onu YAZ; iki konuşan AYRI şey diyorsa BLOKE ET.
-DONEM_BEYAN = ("kaynak", "neden", "not", "kesinlik")
+# 🔴 AD "BEYAN" AMA ÖLÇÜT "TEK KONUŞAN BİRLEŞİR" — 7 Eylül 2026 genişletildi.
+#   `kid` ve `statu` birer BEYAN değil, birer KİMLİK/STATÜ alanı. Yine de
+#   AYNI kuralın altına giriyorlar, çünkü kural değerin CİNSİNE değil
+#   ÇATIŞMANIN BİÇİMİNE bakıyor:
+#       bir taraf yazmış, öteki SUSMUŞ  → sessizlik rakip iddia DEĞİL, birleş
+#       İKİSİ DE yazmış ve FARKLI       → gerçek çatışma, BLOKE
+#   `donem_birlestir` ikinci hâli zaten yakalıyor (`sesler` kümesi >1 ise
+#   `(None, True)` döner) ⇒ genişletme bir gevşetme DEĞİL.
+#
+#   ÖLÇÜLDÜ: `kid20` yaması (20 mekanik `kid` + 11 eksik `statu`) inince
+#   çakışma 26 → 42 fırladı. Sebep veri anlaşmazlığı değildi: `vassal_kid_0906`
+#   aynı dönemler için SUSUYOR, benimki konuşuyor, ve ikisi "farklı çekirdek"
+#   sayılıyordu. Genişletmeden sonra 42 → ölçülecek.
+DONEM_BEYAN = ("kaynak", "neden", "not", "kesinlik", "kid", "statu")
 
 
 def _donem_cekirdek(p):

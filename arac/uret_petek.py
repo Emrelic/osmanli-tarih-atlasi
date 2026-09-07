@@ -4799,6 +4799,52 @@ for i in range(len(tarihler) - 1):
         kayit["av"] = alan_km2(gt)
         kayit["v"]  = havuza(mp_koord(gt), OSM_HALKA, OSM_HALKA_IX,
                                        OSM_PARCA, OSM_PARCA_IX)
+        # ── TÂBİ ETİKET ÇAPALARI (`vl`) — HUKUM-VASSAL-GORUNUM-0906.md 3(d)
+        # 🔴 NİÇİN GEOMETRİ BÖLÜNMÜYOR: `kayit["v"]` bütün tâbi toprağı TEK
+        #   gövde olarak taşır ve kimlik `unary_union` içinde kaybolur
+        #   (:4730). Etiketin ihtiyacı GEOMETRİ DEĞİL bir ÇAPA: nereye
+        #   yazılacağı + ne yazılacağı. Gövdeyi kimliğe göre bölmek hem
+        #   pahalı hem de B2/köprü mantığını yeniden kurmayı gerektirirdi;
+        #   çapa listesi birkaç yüz bayt ve o mantığa HİÇ dokunmaz.
+        #
+        # 🟢 ÇAPA GRUBUN EN BÜYÜK PETEĞİNDEN alınır, gruptan birleşim
+        #   ÜRETİLMEZ: `representative_point()` poligonun İÇİNDE olmayı
+        #   garanti eder (centroid etmez — dağınık bir grubun ağırlık
+        #   merkezi denize düşebilir), ve en büyük hücre etiketin sığacağı
+        #   yerdir. Maliyet grup başına O(1) union, sıfır.
+        #
+        # ⚠️ `tabi` kümesi EKLEYİCİ KAPI ile genişliyor (:4689 `_ekt`) ve o
+        #   indekslerin `v:` dönemi YOKTUR. Onlar çapa üretmez — çünkü
+        #   `CLAUDE.md §11`: *atlas seferi değil TASARRUFU boyar*; kapının
+        #   doldurduğu boş arazide bir tâbi beylik yoktur.
+        _vgrup = {}
+        for _j in tabi:
+            _dn = next((p for p in (YERLER[_j].get("v") or [])
+                        if p.get("f") and p.get("t") and p["f"] <= a < p["t"]), None)
+            if _dn is None:
+                continue                      # ekleyici kapının getirdiği
+            _ad = _dn.get("k") or _dn.get("kid")
+            if not _ad:
+                continue                      # adsız dönem etiketlenmez
+            _anh = (_ad, _dn.get("statu") or "vassal")
+            _hu = _pe[_j]
+            if _hu is None or _hu.is_empty:
+                continue
+            _en = _vgrup.get(_anh)
+            _al = _hu.area
+            if _en is None or _al > _en[1]:
+                _vgrup[_anh] = (_hu, _al)
+        if _vgrup:
+            _vl = []
+            for (_ad, _st), (_hu, _) in sorted(_vgrup.items()):
+                try:
+                    _rp = _hu.representative_point()
+                except Exception:             # noqa: BLE001 — bozuk geometri
+                    continue
+                _vl.append({"k": _ad, "s": _st,
+                            "p": [round(_rp.x, 4), round(_rp.y, 4)]})
+            if _vl:
+                kayit["vl"] = _vl
     # Serbest kenar: gövdenin sahipsiz alana bakan yüzü. Boşsa alan hiç yazılmaz
     # (çoğu dönemde çölle sınırdaş olunmuyor — kuruluş devri gibi).
     sayac("Osmanlı gövde geometrisi", time.time() - _t_ov)
