@@ -54,15 +54,40 @@ SAHIPLER = [("_kunye_uygula", "YAMA-KUNYE-"),
             ("_kronoloji_uygula", "KRONOLOJI-")]
 
 
-def yama_mi(d):
-    u"""Öngörüde yazılan ölçüt, birebir."""
+# 🔴 ÖLÇÜT GENİŞLETİLDİ — VE SEBEBİ ÖLÇÜLDÜ, TAHMİN DEĞİL
+#   İlk sürüm TAM AD ve BÜYÜK/KÜÇÜK HARF DUYARLI eşleşme yapıyordu.
+#   1.MURAT'ın «5» sayısı benim «4»ümle çelişti; uzlaştırıldı ve kör
+#   nokta BENDE çıktı: hedef beyanı OLAN üç dosya süzgeçten düşüyordu,
+#   ve ÜÇÜ DE FARKLI SEBEPTEN —
+#       KRONOLOJI-AVRUPA-0906       anahtar `MADDELER`  → BÜYÜK HARF
+#       KRONOLOJI-1917-TASIMA-0906  anahtar `tasinacak_maddeler` → EK
+#       KRONOLOJI-AFRIKA-0906       anahtar `onerilen_madde`     → EK
+#   ⇒ `§4`ün büyük/küçük harf ekseni + koordinatörün «~50 ayrı alan
+#     adı, sözleşme YOK» bulgusu, ikisi birden BENİM ALETİMDE.
+#   Çare: harf duyarsız VE ALT DİZGİ eşleşmesi.
+#   ⚠️ Bu GEVŞETMEDİR ve yanlış pozitifi artırır — o yüzden eski ölçütün
+#     sayısı da basılıyor, fark GÖRÜNÜR kalsın.
+YAMA_KOK = ("kunye", "madde", "yama", "oneri", "eklenen", "kayit")
+
+
+def _anahtar_yama_mi(k):
+    kl = k.lower()
+    return any(kok in kl for kok in YAMA_KOK)
+
+
+def yama_mi(d, dar=False):
+    u"""dar=True → öngörüdeki İLK (tam ad, harf duyarlı) ölçüt."""
     if isinstance(d, list):
         return any(isinstance(x, dict) and ("id" in x or "ad" in x)
                    for x in d[:5])
     if not isinstance(d, dict):
         return False
-    if any(a in d for a in YAMA_ANAHTAR):
-        return True
+    if dar:
+        if any(a in d for a in YAMA_ANAHTAR):
+            return True
+    else:
+        if any(_anahtar_yama_mi(k) for k in d):
+            return True
     for v in d.values():
         if isinstance(v, list) and v and isinstance(v[0], dict) \
                 and ("id" in v[0] or "ad" in v[0]):
@@ -124,6 +149,7 @@ def main():
     hepsi = sorted(a for a in os.listdir(DIZIN) if a.endswith(".json"))
     kova = {1: [], 2: [], 3: [], 4: [], 5: []}
     yama_sayisi = 0
+    dar_sayisi = 0
     okunamayan = 0
     alan_var_n = alet_okur_n = 0
     for ad in hepsi:
@@ -133,6 +159,8 @@ def main():
         except Exception:                            # noqa: BLE001
             okunamayan += 1
             continue
+        if yama_mi(d, dar=True):
+            dar_sayisi += 1
         if not yama_mi(d):
             continue
         yama_sayisi += 1
@@ -157,7 +185,9 @@ def main():
     print("═" * 78)
     print("denetim/*.json            : %d" % len(hepsi))
     print("  okunamayan              : %d" % okunamayan)
-    print("  YAMA CİNSİ (ölçüt aşağıda): %d" % yama_sayisi)
+    print("  YAMA CİNSİ (GENİŞ ölçüt)  : %d" % yama_sayisi)
+    print("  YAMA CİNSİ (öngörüdeki DAR ölçüt): %d   ← fark %+d, GEVŞETMENİN bedeli"
+          % (dar_sayisi, yama_sayisi - dar_sayisi))
     print("  hedef ALANI olan         : %d" % alan_var_n)
     print("  ALETİN OKUYABİLDİĞİ      : %d   ← aradaki fark BULGU" % alet_okur_n)
     print("")
