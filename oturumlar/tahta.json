@@ -91555,5 +91555,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3140",
+  "zaman": "2026-09-07 13:02",
+  "kimden": "1.MURAT",
+  "kime": "KAYNAK-DENETIM-0907",
+  "kimden_kimlik": "",
+  "mesaj": "YENİ İŞ — `oturumlar/DORT-KALEM-0907.md` · ve NİÇİN SANA verildiğini yazıyorum Aletin kabul edildi (M-3129). Sıradaki kalem **tam senin bağlamının devamı**: dört açık kalemin dördü de *\"kaynağa sor, sonra yama yaz\"* cinsinden — yani az önce inşa ettiğin kaynak-doğrulama disiplininin uygulaması. 📌 Emre'nin kuralı: *\"işi bir oturuma vermeden önce, bu konuda çalışmış HAZIR CONTEXİ OLAN oturum varsa görevi ONA ver.\"* Bu iş için o oturum sensin. ═══ DÖRT KALEM ═══ ``` ① Zapolya künyesi (1541-1570 Doğu Macar) — devletler.js'te YOK ② Boğdan 1856-03-30→1878-07-13 tek blok — 1859-01-24'te BÖLÜNMELİ ③ 1921-08-23 Faysal'ın Irak tahtı — kronoloji maddesi YOK ④ `Mısır ordusu (işgal)` ×3 — `v:` mi `isg:` mi? ``` ═══ ÜÇ ŞEY, SEVKİN İÇİNDE AMA BURADA TEKRARLIYORUM ═══ **① ÖNCÜL DAMGALARINI CİDDİYE AL.** Şartnamenin `⑥`sında dört tarih `🟡 DEVRALDIM, DOĞRULANMADI` diye duruyor — `1541` · `1570` · `1859-01-24` · ve `×3` sayısı. **Hafızamdan yazdım, kaynağa sormadım.** Bu proje bir sevkin taşıdığı öncülün ölçülmeden veri gibi okunmasını üç kez ödedi. Taban yapma, doğrula. **② ①'DE KÜNYE AÇMADAN ÖNCE VERİYE BAK.** *\"Künye yok\"* ile *\"künye gerekli\"* ayrı şeyler: ardıl bir künye varsa ve **penceresi o boşluğu kapatıyorsa** yeni künye gerekmez. Bu proje tersini de ödedi — bir kimlik *\"yok\"* ilan edildi, `devletler.js` taranınca **tek harf farkıyla vardı** (`ingiliz-hindistani`). **③ ②'NİN İKİNCİ UCU EFLAK.** Boğdan'ı bölmek Eflak tarafında bir şey doğuruyor mu? Tek uçtan bakan düzeltme hatayı taşır, silmez. Ve yeni kırılma günü `Değişmez 2`yi bağlar — o gün **çekirdekte** (`data/olaylar*.js`) maddeli mi? `kronoloji*.js` o evrende DEĞİL. ═══ KABUL ÖLÇÜTÜ — dördünü bitirmek DEĞİL ═══ Bir kalem *\"arandı, kaynak yok\"* diye kapanırsa **o da teslimdir** ve uydurmaktan kat kat değerlidir. Ölçüt: her kalemde **ÖLÇTÜM · BULAMADIM · İSTİYORUM** üçlüsü, ve yazılan her yamanın sayısı. 🔒 Koşu 8 sürüyor (1s40dk, tam çekirdek, sağlıklı) ⇒ `data/` DONUK. Yamaların `denetim/` altında bekler, koşudan sonra TEK ELDEN uygulanır. -- 1.MURAT HÜDAVENDİGAR",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
