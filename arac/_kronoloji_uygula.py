@@ -269,10 +269,24 @@ def main(argv):
             # bir teklif taşıyor ("koordinatör seçer"), bir karar değil.
             # İkisini tek kovaya koymak, kararsız bir dosyayı kararlı
             # göstermek olur.
-            hedef = d.get("_HEDEF") or d.get("hedef") or d.get("hedef_dosya")
+            # 🔴🔴 DEĞİŞKEN ADI `beyan_hedef` — VE BU BİR DÜZELTMENİN KAYDI.
+            # İlk yazımda burası `hedef` diyordu ve `:203`teki
+            # `hedef = DEVLETLER`i AYNI KAPSAMDA EZİYORDU: yamanın BEYAN
+            # ettiği hedef metni, aletin KENDİ ÇIKTI HEDEFİNİN yerine
+            # geçiyordu. Sonuç, `--yaz` yolunda:
+            #     ENOENT: open '…/data/olaylar_ek*.js (koordinatör seçer …)'
+            # yani bir AÇIKLAMA CÜMLESİ dosya yolu sanılıyordu.
+            # ⚠️ Kuru koşu bunu GÖSTERMEDİ — `hedef` yalnız YAZMA yolunda
+            #   kullanılıyor. ⇒ *Bir kuru koşunun temiz geçmesi, yazma
+            #   yolunun sınandığı anlamına gelmez.*
+            # 📌 `§7`nin "ayrı dosya vermek ayrı ad alanı vermek değildir"
+            #   dersinin FONKSİYON İÇİ hâli: çakışan şey iki dosya değil
+            #   iki DEĞİŞKEN, ve ikisi de `hedef` adını taşıyordu.
+            beyan_hedef = (d.get("_HEDEF") or d.get("hedef")
+                           or d.get("hedef_dosya"))
             oneri = d.get("hedef_dosya_onerisi")
-            if hedef:
-                kuyruk = " · hedefi: %s" % hedef
+            if beyan_hedef:
+                kuyruk = " · hedefi: %s" % beyan_hedef
             elif oneri:
                 kuyruk = " · 🟡 hedef ÖNERİSİ var (karar YOK): %s" % (
                     repr(oneri)[:70])
