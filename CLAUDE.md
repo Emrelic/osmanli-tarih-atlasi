@@ -7660,3 +7660,99 @@ yalnız-`kd` kayıt    → node süzgecinde ELENİR        (gürültülü yokluk
   kademe ötesi: burada kural **aynı dosyanın içinde, iki kez** yazılı
   ve yine tekrarlanıyordu. Yakalayan şey kural değil, **yamadan önce
   ölçmek** oldu.
+
+- 🔴🔴 **ÖKSÜZLEŞMİŞ ÖNGÖRÜ — ne tutmuştur, ne çürümüştür: YOKTUR.**
+  *(7 Eylül 2026 · `SINAV-KOSU8-0907` · `BULGU-GEOMETRI-0904`)*
+
+  Bu proje *"öngörü ölçümden ÖNCE yazılır"* disiplinini dört ayakla
+  kurdu (ne bekliyorum · mazereti · hangi çıktıdan hangi birimde ·
+  hangi koşuda neye karşı). Bugün **beşinci ayağın eksik olduğu**
+  ölçüldü: yazmak yetiyor, **sınav anını sahiplenmek** gerekiyor.
+```
+BULGU-GEOMETRI-0904   dokuz öngörü · başlık "koşu bitince sınanacak"
+🟢 değerlendirilmiş   Ö5 · Ö6 · Ö11  ·  bu oturum çözdü: Ö1 · Ö7 · Ö9
+🔴 HİÇBİR YERDE HÜKÜM YOK   Ö3 · Ö4 · Ö10 · Ö12
+   ve Ö4 açıkça "mazeret YOK" diyor — SERT bir öngörü, HİÇ sınanmamış
+o günden beri koşan: 5b · 6 · 7 · 7b   ⇒ DÖRT koşu, sıfır değerlendirme
+```
+  ⇒ ***Bir öngörü, yazıldığı koşu geçtiği hâlde değerlendirilmezse
+  ÖKSÜZLEŞİR:*** metni hâlâ *"koşu bitince sınanacak"* der ve bir
+  sonraki okuyucuya **bekleyen** görünür. Ne tutmuştur, ne çürümüştür —
+  **yoktur**, ve yokluğu bir **bekleyiş** gibi okunur.
+  📌 Bu proje öngörü **yazmayı** öğrendi, öngörü **kapatmayı**
+  öğrenmedi. `§11`in *"ölçmediğini «ölçmedim» diye yaz"* kuralının
+  **zaman** yüzü: burada ölçülmemiş olan bir sayı değil, bir **sınav.**
+  🟢 **KURAL:** her öngörü kaleminin bir **SAHİBİ** yazılır. Sahipsiz
+  bir öngörü, sınav anı geldiğinde kimsenin işi değildir — ve sahibi
+  yazılı olan kalemler (aynı gün, aynı oturum) o yere düşmedi.
+
+- 🔴 **BİR SINIFLANDIRICININ KÖR NOKTASINI DÜZELTMEK, YENİ BİR KÖR
+  NOKTA AÇAR — VE İKİSİ FARKLI YERDE OLUR.**
+  *(7 Eylül 2026 · `KIMLIK-1923-0907`, kendi aletinde ve kendi aleyhine)*
+
+  `norm(ad)` ile kova kuran aletleri bulan bir desen düzeltildi ve
+  düzeltme **kendi kusurunu üretti** — ters yönde:
+```
+ESKİ desen  `\w+\.setdefault\(\s*norm\(`
+   kaçırdı  iki satıra yayılmış kova  (n = norm(x) / ix.setdefault(n, …))
+            ve norm()in TÜREVİ olan anahtar (kok(norm(v).split()[0]))
+   ⇒ YANLIŞ NEGATİF
+YENİ desen  `if X in Y` kalıbını da alıyor
+   yakaladı bir ALT-DİZGİ testini (na in norm(c)) — kova DEĞİL
+   ⇒ YANLIŞ POZİTİF
+```
+  🟢 **Ve nihai sayı değişmedi (2), çünkü o sayı hiçbir zaman desenden
+  gelmiyordu — OKUMADAN geliyordu.**
+  ⇒ ***Bir tarama bir ADAY LİSTESİ üretir, bir hüküm değil.*** Ve
+  listeyi genişletmek onu doğrulamaz: her genişletme yeni bir yanlış
+  pozitif sınıfı davet eder.
+  📌 `§11`in *"kendi yazdığın ayrıştırıcı her zaman kötüdür"* ailesinin
+  **iterasyon** yüzü: aile bugüne kadar tek bir kusuru anlatıyordu; bu
+  üye **kusurun DÜZELTİLMESİNİN** ikinci bir kusur ürettiğini ölçüyor.
+  🟡 Ve bir yan ders: *"anahtar alanı"* sezgisi (dosya `girdi.yukle()`
+  çağırıyorsa anahtar YERLEŞİMDİR) **yanlış** çıktı — alet külliyatı
+  **başka bir şey için** okuyor olabilir. Otomatik 7, elle okuma 2.
+
+- 🔴 **BİR AD ARAMASI İKİ YÖNE DE YANILIR — VE «TAMAMLANDI» YÖNÜ DAHA
+  PAHALIDIR.** *(7 Eylül 2026 · aynı gün, iki oturum, ters uçlar)*
+```
+FAZLA eşleşme  `Kudüs` ↔ `Kudus`  (9272 km, İKİ AYRI ŞEHİR)
+               → yanlış BİRLEŞTİRME · yanlış bir ÇÜRÜME üretir
+EKSİK eşleşme  düz `grep "Doha"` → iki dosyada da YOK
+               gerçek: `ad:"Doha (Katar)"` İKİSİNDE DE VAR
+               → yanlış TAMAMLANMA üretir
+```
+  `HUKUM-CAKISMA-KORFEZ-0906` düz aramaya göre *"kısmen uygulanmış"*
+  görünüyordu; normalleştirip **dosyayı kendi dilinde okuyunca** hüküm
+  **hiç uygulanmamış** çıktı.
+  ⇒ ***Çürüyen bir kalem yeniden açılır; TAMAMLANAN bir kalem bir daha
+  açılmaz.*** İki yanılma yönü eşit maliyetli değil, ve ucuz olan
+  aramanın (`grep`) hatası pahalı olan yönde.
+
+- 🔴 **ELLE YAZILAN BİR TARİH, BİR GLOB'UN İÇİNDE BİR SON KULLANMA
+  TARİHİDİR — ve geçtiğinde alet SESSİZCE HİÇBİR ŞEY YAPMAZ.**
+  *(7 Eylül 2026 · `SINAV-KOSU8-0907` ölçtü · `a5d6f1f`)*
+```
+_kunye_uygula.py:44      "denetim/YAMA-KUNYE-*0905*.json"
+                         13 yamanın 11'i kaçıyordu — biri O GÜNKÜ
+                         MERGE KUYRUĞUYDU (`rus-amerika`)
+_kronoloji_uygula.py:49  "denetim/KRONOLOJI-*0905*.json"
+                         bekleyen 22 yamanın 11'i — TAM YARISI
+```
+  🔴 Ve azaltma **yapısal değil PROSEDÜREL**di: çare *"her zaman
+  `--yama` ile açıkça çağır"* diye yazılmıştı. Kural unutulunca alet
+  **hata vermez**, `0 kayıt` diye **temiz bir sayı** basar.
+  🟢 **ÇARE TARİHİ GÜNCELLEMEK DEĞİLDİR** — `0905`i `0907` yapmak
+  ertesi gün aynı yere düşer. Desen **elle yazılan tarihten çıkarıldı.**
+  📌 Aynı günün *"bir eşiği sabit sayı değil İLİŞKİ olarak yaz"*
+  dersinin **glob** yüzü: orada bir eşik kendi tabanını taşıyordu,
+  burada bir desen kendi **gününü.**
+  ⚠️ **Ve genişletmenin bedeli ÖLÇÜLMEDEN uygulanmaz:** kuru koşu
+  `künye 37 istek · KABUL 1 · RED 36 (zaten var)` dedi ⇒ genişletme bir
+  **sel** değil bir **kilit açma**. 36 yeni künye inecek olsaydı aynı
+  düzeltme bir kusur olurdu.
+  🟡 **Ve her glob genişletilemez:** `_kademe_uygula.py`nin sabit
+  listesi **kasten** bırakıldı — kör bir `yer_yama_kademe*` glob'u
+  `yer_yama_kademe_zincir.js`i yutar, ve o dosya **adı «kademe» olan
+  bir `m:` yamasıdır.** ⇒ Genişletme kaçanı geri getirir, ama **yanlış
+  cinsi de içeri alır**; hangisinin ağır bastığı dosya dosya ölçülür.
