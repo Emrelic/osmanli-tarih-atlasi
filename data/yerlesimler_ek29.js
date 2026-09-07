@@ -280,36 +280,26 @@ window.YERLESIMLER_EK29 = [
 //   ölçmedim diye yazıyorum; karşı kanıt çıkarsa eklenir.
 // kaynak: bulunamadı — çizgi kardeş kayıt Konya'dan
 { ad:"Ilgın",kaynak:"bulunamadı — çizgi kardeş kayıt Konya'dan (yerlesimler_ek29.js:288-290 yorumu)",m:"Konya", tur:"kasaba", lat:38.2792, lon:31.9139, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1308-01-01",d:"selcuklu"},
-     {f:"1308-01-01",t:"1366-01-01",d:"ilhanli"},
-     {f:"1366-01-01",t:"1397-07-01",d:"karaman"},
-     {f:"1402-07-28",t:"1402-09-15",d:"timurlu"},
-     {f:"1402-09-15",t:"1468-01-01",d:"karaman"}],
-  d:[{f:"1397-07-01",t:"1402-07-28"},{f:"1468-01-01",t:"1923-10-29"}], v:[] },
+  s:[{f:"1281-01-01",t:"1308-01-01",d:"selcuklu"},{f:"1308-01-01",t:"1366-01-01",d:"ilhanli"},{f:"1366-01-01",t:"1397-07-01",d:"karaman"},{f:"1402-07-28",t:"1402-09-15",d:"timurlu"},{f:"1402-09-15",t:"1468-01-01",d:"karaman"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1397-07-01",t:"1402-07-28"},{f:"1468-01-01",t:"1920-04-23"}], v:[] },
 
 // KARAPINAR — Konya-Adana yolunun ortası, Karaman (66,5 km) çizgisiyle aynı.
 // kaynak: bulunamadı — çizgi kardeş kayıt Karaman'dan
 { ad:"Karapınar",kaynak:"bulunamadı — çizgi kardeş kayıt Karaman'dan (yerlesimler_ek29.js:299-300 yorumu)",m:"Karaman", tur:"kasaba", lat:37.7156, lon:33.5514, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1397-07-01",d:"karaman"},
-     {f:"1402-07-28",t:"1402-09-15",d:"timurlu"},
-     {f:"1402-09-15",t:"1468-01-01",d:"karaman"}],
-  d:[{f:"1397-07-01",t:"1402-07-28"},{f:"1468-01-01",t:"1923-10-29"}], v:[] },
+  s:[{f:"1281-01-01",t:"1397-07-01",d:"karaman"},{f:"1402-07-28",t:"1402-09-15",d:"timurlu"},{f:"1402-09-15",t:"1468-01-01",d:"karaman"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1397-07-01",t:"1402-07-28"},{f:"1468-01-01",t:"1920-04-23"}], v:[] },
 
 // ULUKIŞLA — Gülek Boğazı'nın kuzey ağzı, Niğde (49,7 km) çizgisiyle aynı.
 // kaynak: bulunamadı — çizgi kardeş kayıt Niğde'den
 { ad:"Ulukışla",kaynak:"bulunamadı — çizgi kardeş kayıt Niğde'den (yerlesimler_ek29.js:307-308 yorumu)",m:"Niğde", tur:"kasaba", lat:37.5461, lon:34.4869, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1308-01-01",d:"selcuklu"},
-     {f:"1308-01-01",t:"1366-01-01",d:"ilhanli"},
-     {f:"1366-01-01",t:"1468-01-01",d:"karaman"}],
-  d:[{f:"1468-01-01",t:"1923-10-29"}], v:[] },
+  s:[{f:"1281-01-01",t:"1308-01-01",d:"selcuklu"},{f:"1308-01-01",t:"1366-01-01",d:"ilhanli"},{f:"1366-01-01",t:"1468-01-01",d:"karaman"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1468-01-01",t:"1920-04-23"}], v:[] },
 
 // TOSYA — Kastamonu (45,8 km) çizgisiyle aynı: Candaroğlu, 1461'de kesin Osmanlı.
 // kaynak: bulunamadı — çizgi kardeş kayıt Kastamonu'dan
 { ad:"Tosya",kaynak:"bulunamadı — çizgi kardeş kayıt Kastamonu'dan (yerlesimler_ek29.js:315-316 yorumu)",m:"Kastamonu", tur:"kasaba", lat:41.0161, lon:34.0397, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1309-01-01",d:"cobanogullari"},
-     {f:"1309-01-01",t:"1392-11-01",d:"candar"},
-     {f:"1402-07-28",t:"1461-06-01",d:"candar"}],
-  d:[{f:"1392-11-01",t:"1402-07-28"},{f:"1461-06-01",t:"1923-10-29"}], v:[] },
+  s:[{f:"1281-01-01",t:"1309-01-01",d:"cobanogullari"},{f:"1309-01-01",t:"1392-11-01",d:"candar"},{f:"1402-07-28",t:"1461-06-01",d:"candar"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1392-11-01",t:"1402-07-28"},{f:"1461-06-01",t:"1920-04-23"}], v:[] },
 
 // 🟢 KARAHİSÂR-I ŞARKÎ — TEK TDV KAYNAKLI KÜME-2 NOKTASI
 // TDV `sebinkarahisar` (HTTP 200, gövdesi okundu):
@@ -331,12 +321,8 @@ window.YERLESIMLER_EK29 = [
 // 1473 Otlukbeli'yle Osmanlı.
 // kaynak: bulunamadı — çizgi kardeş kayıt Erzincan'dan
 { ad:"Kelkit",kaynak:"bulunamadı — çizgi kardeş kayıt Erzincan'dan (yerlesimler_ek29.js:341-343 yorumu)",m:"Erzincan", tur:"kasaba", lat:40.1281, lon:39.4381, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1348-01-01",d:"ilhanli"},
-     {f:"1348-01-01",t:"1379-01-01",d:"akkoyunlu"},
-     {f:"1379-01-01",t:"1401-02-01",d:"mutahharten"},
-     {f:"1402-07-28",t:"1410-01-01",d:"mutahharten"},
-     {f:"1410-01-01",t:"1473-08-11",d:"akkoyunlu"}],
-  d:[{f:"1401-02-01",t:"1402-07-28"},{f:"1473-08-11",t:"1923-10-29"}], v:[] },
+  s:[{f:"1281-01-01",t:"1348-01-01",d:"ilhanli"},{f:"1348-01-01",t:"1379-01-01",d:"akkoyunlu"},{f:"1379-01-01",t:"1401-02-01",d:"mutahharten"},{f:"1402-07-28",t:"1410-01-01",d:"mutahharten"},{f:"1410-01-01",t:"1473-08-11",d:"akkoyunlu"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1401-02-01",t:"1402-07-28"},{f:"1473-08-11",t:"1920-04-23"}], v:[] },
 
 // AŞKALE — Erzurum (48,9 km) çizgisiyle aynı: Akkoyunlu → Safevî → 1518 Osmanlı.
 // kaynak: bulunamadı — çizgi kardeş kayıt Erzurum'dan
@@ -427,7 +413,7 @@ window.YERLESIMLER_EK29 = [
 //   ⇒ Bu bir TERCİH ve gerekçesi yazılı; ölçüm değil.
 // kaynak: bulunamadı — çizgi Selanik (fetih ve 1912 devir) ile Serez
 //   (Fetret deseni) kayıtlarından
-{ ad:"Lanzaka (Lagkadas)",kaynak:"atina-antlasmasi",isg:[{f:"1912-11-08",t:"1913-11-14",d:"yunanistan"}], tur:"kasaba", lat:40.7500, lon:23.0667, g:0, k:4,
+{ ad:"Lanzaka (Lagkadas)",kaynak:"atina-antlasmasi",isg:[{f:"1912-11-08",t:"1913-11-14",d:"yunanistan",kaynak:"selanik"}], tur:"kasaba", lat:40.7500, lon:23.0667, g:0, k:4,
   s:[{f:"1281-01-01",t:"1387-04-09",d:"bizans"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-11-14",t:"1923-10-29",d:"yunanistan"}],
   d:[{f:"1387-04-09",t:"1402-07-28"},{f:"1413-07-05",t:"1913-11-14"}], v:[] },
 

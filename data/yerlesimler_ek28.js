@@ -88,7 +88,7 @@ window.YERLESIMLER_EK28 = [
 // GÜNEYBATISINDA) hattın Osmanlı tarafında kaldı, hiç Rus toprağı olmadı.
 // TDV bu taneciği kapsamıyor (arhavi 302 ölü) — akademik/yerel kaynağa geçildi.
 
-{ ad:"Arhavi", tur:"kasaba", lat:41.354, lon:41.316, g:0, k:4, m:"Trabzon",
+{ ad:"Arhavi",s:[{f:"1281-01-01",t:"1461-08-15",d:"trabzon-rum"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],d:[{f:"1461-08-15",t:"1920-04-23"}], tur:"kasaba", lat:41.354, lon:41.316, g:0, k:4, m:"Trabzon",
   // GEREKÇE k:4 (k:3 DEĞİL): Hopa kazasına bağlı NAHİYE merkeziydi,
   // müstakil kaza değildi.
   // ⚠️ 1878 sınırı Hopa'nın DOĞUSUNDAN geçti (Kopmuş Burnu), Arhavi hep
@@ -108,7 +108,7 @@ window.YERLESIMLER_EK28 = [
   d:[{f:"1551-01-01",t:"1878-03-03"}], v:[] },
 
 // ───────── ⑦ DOĞU SINIRI · Kars sanjağı (Sarıkamış) ─────────
-{ ad:"Sarıkamış", tur:"kasaba", lat:40.328, lon:42.578, g:0, k:3, m:"Kars",
+{ ad:"Sarıkamış",s:[{f:"1281-01-01",t:"1534-06-01",d:"gurcistan"},{f:"1878-07-13",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1918-05-25",d:"sovyet-rusya"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],d:[{f:"1534-06-01",t:"1878-07-13"},{f:"1918-05-25",t:"1920-04-23"}], tur:"kasaba", lat:40.328, lon:42.578, g:0, k:3, m:"Kars",
   // GEREKÇE k:3: GARNİZON — Rus 39. Piyade Tümeni 2. Tugay karargâhı +
   // askerî depoları koruyan iki gönüllü bölük; 1899/1913 stratejik
   // demiryolu kavşağı (Tiflis-Gümrü-Kars-Sarıkamış-Erzurum hattı).

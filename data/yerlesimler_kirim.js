@@ -137,26 +137,26 @@ window.YERLESIMLER_KIRIM = [
 // ── A) HAN TOPRAĞI — Bahçesaray zincirinin birebir aynısı ────────────
 { ad:"Gözleve (Kezlev)",neden:"k:4, m:— idi. v: (tâbi Kırım) dönemindeki bir Hanlık limanı; Kefe'nin beş kazası arasında değil (bkz. Mankup notu).",kaynak:"TDV `bahcesaray` — \"Kırım Hanlığı'nın idari merkezi\" (XVI. yy sonundan itibaren)",m:"Bahçesaray", tur:"liman", lat:45.1904, lon:33.3669, g:0, k:4,
   s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1475-06-06",d:"kirim"},{f:"1771-07-01",t:"1774-07-21",d:"rusya"},{f:"1774-07-21",t:"1783-04-19",d:"kirim"},{f:"1783-04-19",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
-  d:[], v:[{f:"1475-06-06",t:"1771-07-01",k:"Kırım Hanlığı"}] },
+  d:[], v:[{f:"1475-06-06",t:"1771-07-01",k:"Kırım Hanlığı",statu:"vassal",kid:"kirim"}] },
 
 { ad:"Or Kapı (Ferahkirman)",neden:"k:4, m:— idi. v: (tâbi Kırım) dönemi, Kefe'nin beş kazası dışında.",kaynak:"TDV `bahcesaray` — aynı gerekçe",m:"Bahçesaray", tur:"kale", lat:46.1600, lon:33.6900, g:0, k:4,
   s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1475-06-06",d:"kirim"},{f:"1771-07-01",t:"1774-07-21",d:"rusya"},{f:"1774-07-21",t:"1783-04-19",d:"kirim"},{f:"1783-04-19",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
-  d:[], v:[{f:"1475-06-06",t:"1771-07-01",k:"Kırım Hanlığı"}] },
+  d:[], v:[{f:"1475-06-06",t:"1771-07-01",k:"Kırım Hanlığı",statu:"vassal",kid:"kirim"}] },
 
 { ad:"Akmescid",neden:"k:3, m:— idi. v: (tâbi Kırım) dönemi, Kefe'nin beş kazası dışında.",kaynak:"TDV `bahcesaray` — aynı gerekçe",m:"Bahçesaray", tur:"sehir", lat:44.9521, lon:34.1024, g:0, k:3,
   s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1475-06-06",d:"kirim"},{f:"1771-07-01",t:"1774-07-21",d:"rusya"},{f:"1774-07-21",t:"1783-04-19",d:"kirim"},{f:"1783-04-19",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
-  d:[], v:[{f:"1475-06-06",t:"1771-07-01",k:"Kırım Hanlığı"}] },
+  d:[], v:[{f:"1475-06-06",t:"1771-07-01",k:"Kırım Hanlığı",statu:"vassal",kid:"kirim"}] },
 
 { ad:"Karasubazar",neden:"k:3, m:— idi. v: (tâbi Kırım) dönemi, Kefe'nin beş kazası dışında.",kaynak:"TDV `bahcesaray` — aynı gerekçe",m:"Bahçesaray", tur:"sehir", lat:45.0556, lon:34.6000, g:0, k:3,
   s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1475-06-06",d:"kirim"},{f:"1771-07-01",t:"1774-07-21",d:"rusya"},{f:"1774-07-21",t:"1783-04-19",d:"kirim"},{f:"1783-04-19",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
-  d:[], v:[{f:"1475-06-06",t:"1771-07-01",k:"Kırım Hanlığı"}] },
+  d:[], v:[{f:"1475-06-06",t:"1771-07-01",k:"Kırım Hanlığı",statu:"vassal",kid:"kirim"}] },
 
 // Solhat / Eski Kırım — Altın Orda'nın Kırım valiliğinin merkeziydi ve
 // yarımadaya adını veren yerdir (TDV `kirim`). Kefe'ye 21,58 km; sahil
 // şeridi ile iç toprağın rengi arasındaki gerçek sınırı O taşıyor.
 { ad:"Eski Kırım (Solhat)",neden:"k:3, m:— idi. v: (tâbi Kırım) dönemi, Kefe'nin beş kazası dışında.",kaynak:"TDV `bahcesaray` — aynı gerekçe (not: Solhat, Bahçesaray'dan ÖNCEKİ hanlık başkentiydi, TDV'nin kendi metninde geçiyor: \"Solhat ve Kırk Yer önemini kaybetti\" Bahçesaray'ın yükselişiyle)",m:"Bahçesaray", tur:"sehir", lat:45.0281, lon:35.1078, g:0, k:3,
   s:[{f:"1281-01-01",t:"1441-01-01",d:"altinorda"},{f:"1441-01-01",t:"1475-06-06",d:"kirim"},{f:"1771-07-01",t:"1774-07-21",d:"rusya"},{f:"1774-07-21",t:"1783-04-19",d:"kirim"},{f:"1783-04-19",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1923-10-29",d:"sovyet-rusya"}],
-  d:[], v:[{f:"1475-06-06",t:"1771-07-01",k:"Kırım Hanlığı"}] },
+  d:[], v:[{f:"1475-06-06",t:"1771-07-01",k:"Kırım Hanlığı",statu:"vassal",kid:"kirim"}] },
 
 // ── B) KEFE SANCAĞI SAHİLİ — Kefe zincirinin birebir aynısı ──────────
 // TDV `kefe`: Suğdak sancağın beş kazasından biri.

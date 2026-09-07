@@ -25,49 +25,96 @@ Bu okumayla hüküm **MANDA**'ydı ve gerekçesi hazırdı: `YONTEM §②a`
 Künyenin kendi adı bile modeli söylüyor: *"Irak Krallığı (Faysal I,
 **İngiliz Mandası**)"*.
 
-## ③ 🔴 AMA ÜST KÜME SINAVI ONU ÇÜRÜTTÜ
+## ③ ~~🔴 AMA ÜST KÜME SINAVI ONU ÇÜRÜTTÜ~~ → 🔴🔴 **BU BÖLÜM ÇÜRÜDÜ**
 ```
 ortak ad            31
 MANDA üst küme       6
 ÜST KÜME DEĞİL      25   ← FETRET'te MANDA'da OLMAYAN dönem var
-yalnız FETRET'te olan ad: 0
 ```
-Ayrışan şey **bitiş değil BAŞLANGIÇ**:
-```
-Erbil · Halepçe · Tuz Hurmatu   FETRET: ingiltere 1917-03-11 →
-Şehrizor · Kerkük               FETRET: ingiltere 1918-10-30 →
-MANDA (hepsi)                           ingiltere 1918-11-08 →
-```
-⇒ **FETRET başlangıçta ŞEHİR ŞEHİR, MANDA bitişte DAHA AYRINTILI.**
-İkisi de kendi ekseninde daha zengin; **hiçbiri ötekini kapsamıyor.**
+> Ayrışan şey **bitiş değil BAŞLANGIÇ**:
+> ```
+> Erbil · Halepçe · Tuz Hurmatu   FETRET: ingiltere 1917-03-11 →
+> Şehrizor · Kerkük               FETRET: ingiltere 1918-10-30 →
+> MANDA (hepsi)                           ingiltere 1918-11-08 →
+> ```
 
-## ④ 🟢 HÜKÜM: **BİRLEŞTİR** — kazanan seçmek bilgi KAYBETTİRİR
+🔴 **ÜST KÜME SAYISI DOĞRU, ONDAN ÇIKARDIĞIM ŞEY YANLIŞ.**
+`ARAC-FETRET-MANDA-0907.js` `ingiltere` döneminin başlangıç gününü üç
+kaynakta yan yana ölçtü:
 ```
-BAŞLANGIÇ  FETRET'in şehir şehir günleri KORUNUR
-BİTİŞ      MANDA'nın 1921-08-23 bölünmesi UYGULANIR
-           (ingiltere → irak-kralligi)
+CANLI | MANDA | FETRET          adet
+1917-03-11 | 1917-03-11 | 1917-03-11   x18   Bağdat · Erbil · Halepçe …
+1918-11-08 | 1918-11-08 | 1918-11-08   x6    Musul · Zaho · Akra …
+1914-11-22 | 1914-11-22 | 1914-11-22   x5    Basra · Fâv · Kürne …
+1918-10-30 | 1918-10-30 | 1918-10-30   x2    Kerkük · Şehrizor
+────────────────────────────────────────────────────────────────
+CANLIDAN AYRILAN:  MANDA 0 · FETRET 0
 ```
-📌 Emsal aynı gece kuruldu: Kars çatışmasında *"ikisi de doğru, farklı
-sorunlara bakıyor ⇒ BİRLEŞTİR"*. Ve `CLAUDE.md §3.5.1`in gerekçesi
-burada da geçerli: *merkez düştü diye çevre otomatik devrolmaz* —
-Bağdat'ın düşüşü (1917-03-11) ile Musul'un işgali ayrı günlerdir, ve
-FETRET bunu modelliyor.
+⇒ **31 kaydın 31'inde üç kaynak da AYNI günü taşıyor.** Başlangıç
+tartışması diye bir şey **yok.**
 
-## ⑤ 🔴 AMA BİRLEŞTİRME **BUGÜN UYGULANMADI** — ve sebebi bir SORU
-FETRET'in `1917-03-11`i **Bağdat'ın düşüş günü**. Ama `Erbil` ve
-`Halepçe` KUZEY Irak'ta ve İngiliz kuvvetleri oraya 1917'de **ulaşmadı**
-(Musul 1918 Kasım'ında işgal edildi).
-⇒ ***FETRET'in başlangıç günleri KAYNAĞA SORULMADAN devralınamaz.***
-Birleştirmek, doğrulanmamış bir günü **hükümle meşrulaştırmak** olurdu.
-⚪ DAMGA: `ölçmedim` — FETRET'in `1917-03-11` seçiminin dayanağı
-**okunmadı**. O dosyanın kendi başlığı ve `kaynak:` alanları
-incelenmeli; TDV `irak` / `musul` / `kerkuk` gövdeleri sorulmalı.
+📌 **HATANIN MEKANİZMASI:** dönemleri `f|t|d` dizgisi olarak
+karşılaştırdım. `1917-03-11|1923-10-29` ile `1917-03-11|1921-08-23`
+farklı dizgiler — ve ben farkı **yanlış alana** atfettim. İkisi aynı
+gün başlıyor, farklı gün **bitiyor.**
+⇒ `§11`in *"eşleşme bulmak, doğru şeyi bulmak değildir"* ailesi, ve bu
+sefer eşleşme **doğruydu**; yanlış olan onun **hangi alandan geldiği**
+varsayımıydı.
+
+## ④ 🔴 VE `ölçmedim` DAMGAM, HİÇBİR YAMANIN ÖNERMEDİĞİ BİR GÜN İÇİNDİ
+`§⑤`te FETRET'in `1917-03-11`ini *"kaynağa sorulmadan devralınamaz"*
+diye bloke etmiştim. Ölçüldü:
+```
+yer_yama_ok109_fetret.js  →  BENZERSİZ `kaynak:` metni: 1
+    metnin tamamı `ilhanlilar` / `celayirliler` (1335-1340) hakkında
+    "1917"  geçiyor mu → 0 kez
+    "Bağdat" geçiyor mu → 0 kez
+```
+⇒ FETRET o günü **iddia etmiyor, TAŞIYOR** — canlı verinin 20. yüzyıl
+zincirini olduğu gibi kopyalamış. Dosyanın kendi başlığı da kapsamını
+söylüyor: *"1335-1340 İran fetreti borcu"*.
+📌 ***Bir yamanın taşıdığı her değer, o yamanın İDDİASI değildir.***
+Bir kaydı kaynağa sormadan önce, kaydın o şeyi **öne sürüp sürmediğine**
+bakılır. `§11`in *"beyan edilen kaynak iddiayı taşımıyor"* dersinin
+tersi: burada **iddia yoktu**, ve ben olmayan bir iddiayı sorguladım.
+
+⚠️ **Tarihsel şüphe DURUYOR ama SAHİBİ DEĞİŞTİ:** Erbil ve Halepçe'nin
+`1917-03-11`i (Bağdat'ın düşüşü) kuzey Irak için hâlâ şüpheli — İngiliz
+kuvvetleri oraya 1917'de ulaşmadı, Musul 1918 Kasım'ında işgal edildi.
+Ama bu bir **merge sorusu değil, CANLI VERİNİN açık bir kalemi.**
+⚪ DAMGA: `ölçmedim` — 18 kaydın `1917-03-11`i kaynağa sorulmadı.
+
+## ⑤ 🟢 GERÇEK FARK TEK, VE UYGULANDI
+```
+MANDA   20. yy'ı 1921-08-23'te BÖLÜYOR (ingiltere → irak-kralligi)
+        31 kayıtta 60 yeni dönem · CANLIDA OLMAYAN: 60
+FETRET  30/31 kayıtta YENİ DÖNEM GETİRMİYOR (canlının kopyası)
+        Bağdat TEK istisna: 14. yy sınırı 1335-12-01 → 1340-01-01 (M-2133)
+```
+**BİRLEŞTİRME** (`ARAC-IRAK-BIRLESTIR-0907.js --yaz`): iki dosya ortak
+adlarda **eşitlendi** — 14. yy FETRET'ten, 20. yy MANDA'dan. Kazanan
+seçilmedi.
+```
+SINAV      ortak adlarda eşitsiz kalan: 0
+KAYIP      MANDA'dan düşen dönem: 0  (birleştirmeden ÖNCE 2, SONRA 0)
+KÜNYE      irak-kralligi f=1921-08-23 — günü BİREBİR kapsıyor
+TAVAN      4c/4d/hayalet bellek içi ölçümde DEĞİŞMİYOR (133/358/9)
+```
+⇒ **çakışma 91 → 63.**
+
+🔜 **AÇIK BORÇ — `1921-08-23`ün kronoloji maddesi YOK.**
+En yakın çekirdek madde **21 gün** uzakta (*Sakarya Meydan Muharebesi*)
+ve **alâkasız**. `Değişmez 2`nin eşiğini (±30) geçiyor, yani denetim
+ötmüyor — ama bu tam olarak `Değişmez 2`nin **önlemek için var olduğu**
+durum: Faysal'ın Bağdat'ta taç giymesi, Sakarya'nın altında belirecek.
+⇒ Madde yazılmalı.
 
 ## ⑥ NE YAPILDI / NE YAPILMADI
 ```
-🟢 91 çakışma dört soruya indirildi (ölçüldü)
-🟢 En büyük kümenin sorusu AYRIŞTIRILDI: kimlik DEĞİL, BAŞLANGIÇ GÜNÜ
-🟢 `irak-kralligi` künyesi + rengi DOĞRULANDI — MANDA tarafı hazır
-🔴 UYGULANMADI — birleştirme FETRET'in günlerinin kaynağını gerektiriyor
-⚪ Öteki üç küme (Yunan işgali 25 · Oniki Ada 11 · Mısır 5) AÇILMADI
+🟢 91 çakışma dört soruya indirildi, sonra 63'e düşürüldü (uygulandı)
+🟢 Başlangıç günü tartışması ÇÜRÜTÜLDÜ — üç kaynak da aynı
+🟢 `irak-kralligi` künyesi + rengi + penceresi DOĞRULANDI
+🔴 ⑤'in ilk hâli ("FETRET'in günleri kaynaksız") GERİ ALINDI
+🔜 `1921-08-23` kronoloji maddesi — açık borç
+⚪ `1917-03-11` kuzey Irak için hâlâ sorulmadı (canlı verinin kalemi)
 ```

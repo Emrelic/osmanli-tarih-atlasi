@@ -531,6 +531,53 @@ def js_metin(s):
     return '"%s"' % s.replace("\\", "\\\\").replace('"', '\\"')
 
 
+# ══ ALAN ARAMASI DİZGE İÇİNİ ATLAR — 7 Eylül 2026, 1.MURAT ══════════════
+# 🔴 VE BU BİR VERİ BOZULMASINDAN DOĞDU, teoriden değil.
+#   `Zagem (Kaheti)` kaydına bir `neden:` beyanı indi ve o beyanın METNİ
+#   şu cümleyi içeriyordu:
+#       "Veri de aynı günle teyit ediyor: v:[{f:"1578-08-09",…}]"
+#   `ALAN_RX["v"]` = `\bv:\s*\[` o düzyazıdaki `v:[`i YAKALADI, `dizi_sonu`
+#   cümlenin içindeki `]`i buldu, ve aralığı HAM JS ile değiştirdi.
+#   Sonuç: `neden:` dizgesi ortasından kapandı, `yerlesimler.js`
+#   AYRIŞTIRILAMAZ hâle geldi (`denetle.py` JSONDecodeError ile öldü).
+#
+# 📌 §11'in *"bir alet, aradığı şeyin NEREDE OLMAYACAĞINI da bilmeli"*
+#   ailesinin YENİ ekseni. Önceki üyeler yorumda · başlıkta · önsözde
+#   arıyordu; bu **kaydın KENDİ DÜZYAZISINDA** arıyor — ve o düzyazı
+#   veriyle aynı sözdizimini taşıyor, çünkü veriyi ANLATIYOR.
+#   ⚠️ Kusur yıllardır oradaydı ve ateşlemedi: ancak `v:[…]` içeren bir
+#     metin, `v:` alanı da olan bir kayda inince patlar.
+def _dizge_maskesi(s):
+    """Her karakter için 1 = JS dizgesinin İÇİNDE (kaçış hesaba katılır)."""
+    maske = bytearray(len(s))
+    tirnak = None
+    kacis = False
+    for i, c in enumerate(s):
+        if kacis:
+            kacis = False
+            maske[i] = 1
+            continue
+        if tirnak:
+            maske[i] = 1
+            if c == "\\":
+                kacis = True
+            elif c == tirnak:
+                tirnak = None
+        elif c in "\"'":
+            tirnak = c
+            maske[i] = 1
+    return maske
+
+
+def ara_disi(rx, metin):
+    """`rx`in DİZGE DIŞINDAKİ ilk eşleşmesi; yoksa None."""
+    maske = _dizge_maskesi(metin)
+    for m in rx.finditer(metin):
+        if not maske[m.start()]:
+            return m
+    return None
+
+
 def dizi_sonu(satir, bas):
     """`[` konumundan başlayıp eşleşen `]`in İNDEKSİNİ döndürür."""
     derinlik = 0
@@ -685,7 +732,7 @@ for ad, liste in sorted(gruplu.items()):
     for alan in ("d", "s", "v", "isg"):
         if alan not in r:
             continue
-        m = ALAN_RX[alan].search(yeni_satir)
+        m = ara_disi(ALAN_RX[alan], yeni_satir)   # düzyazıdaki `v:[` DEĞİL
         yeni_js = js_yaz(r[alan])
         if m:
             son = dizi_sonu(yeni_satir, m.end() - 1)
@@ -695,7 +742,7 @@ for ad, liste in sorted(gruplu.items()):
             yeni_satir = yeni_satir[:m.end() - 1] + yeni_js + yeni_satir[son + 1:]
         else:
             # alan YOK — `ad:"..."`ın hemen ardına ekle
-            ma = AD_RX.search(yeni_satir)
+            ma = ara_disi(AD_RX, yeni_satir)
             if not ma:
                 hata = "ad: çıpası yok"
                 break
@@ -722,8 +769,8 @@ for ad, liste in sorted(gruplu.items()):
         if deger is None or deger == "":
             atlanan.append((ad, "%s: yamada BOŞ — boş değer yazılmaz" % alan))
             continue
-        m = SKALER_RX[alan].search(yeni_satir)
-        mn = SKALER_NULL_RX[alan].search(yeni_satir)
+        m = ara_disi(SKALER_RX[alan], yeni_satir)
+        mn = ara_disi(SKALER_NULL_RX[alan], yeni_satir)
         if m:
             # 🔴 KORUNAN ALANLAR (`kaynak`/`bos`/`neden`/`not`) DOLUYSA
             #   EZİLMEZ — doğrulanmış bir beyanı silmek, eksik beyandan
@@ -741,7 +788,7 @@ for ad, liste in sorted(gruplu.items()):
             yeni_satir = (yeni_satir[:mn.start()] + "%s:%s" % (alan, js_metin(deger))
                           + yeni_satir[mn.end():])
         else:
-            ma = AD_RX.search(yeni_satir)
+            ma = ara_disi(AD_RX, yeni_satir)
             if not ma:
                 hata = "ad: çıpası yok (%s)" % alan
                 break

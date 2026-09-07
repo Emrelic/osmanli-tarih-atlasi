@@ -119,7 +119,7 @@ window.YERLESIMLER_OK107 = [
   //   kalesinin teslimi) tutuldu ve sınırı BURAYA yazıldı.
 },
 
-{ ad:"Midyat", tur:"kasaba", lat:37.418, lon:41.372, k:4, m:"Mardin",
+{ ad:"Midyat",s:[{f:"1281-01-01",t:"1409-01-01",d:"artuklu"},{f:"1409-01-01",t:"1467-11-10",d:"karakoyunlu"},{f:"1467-11-10",t:"1507-01-01",d:"akkoyunlu"},{f:"1507-01-01",t:"1517-05-01",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],d:[{f:"1517-05-01",t:"1920-04-23"}], tur:"kasaba", lat:37.418, lon:41.372, k:4, m:"Mardin",
   // 🔴 TDV `midyat` ve `midyat--sehir` sluglarının İKİSİ DE 302 = ÖLÜ.
   // Aradım, yok. Tur Abdin'in merkezi ve Osmanlı'da Mardin sancağının
   // nahiye/kaza merkezi. Dönem günleri MARDİN'in kendi kaydından alındı
@@ -182,7 +182,7 @@ window.YERLESIMLER_OK107 = [
   kaynak:"bulunamadı — TDV `bedir` maddesi Bedir Gazvesi'ni anlatıyor, yerleşimin Osmanlı dönemini KAPSAMIYOR (§4 tanecik boşluğu). Dönem günleri Yenbu kaydından (82 km) bölgesel hizalama ile alındı."
 },
 
-{ ad:"Râbiğ", tur:"liman", lat:22.799, lon:39.035, k:4, m:null,
+{ ad:"Râbiğ",v:[{f:"1813-01-23",t:"1841-05-24",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], tur:"liman", lat:22.799, lon:39.035, k:4, m:null,
   // 🔴 `rabig` ve `rabig--sehir` slugları 302 = ÖLÜ. Aradım, yok.
   // Mekke-Medine sahil yolunun mîkat durağı ve limanı.
   // günler CİDDE'den (140,5 km, aynı sahil kolu) alındı.
@@ -454,25 +454,25 @@ window.YERLESIMLER_OK107 = [
      {f:"1413-07-05",t:"1912-10-26"}],
   kaynak:"gevgili" },
 
-{ ad:"Kılkış (Avrathisar)",isg:[{f:"1912-11-08",t:"1913-11-14",d:"yunanistan"}], tur:"kasaba", lat:40.994, lon:22.874, k:4, m:null,
+{ ad:"Kılkış (Avrathisar)",isg:[{f:"1912-11-08",t:"1913-11-14",d:"yunanistan",kaynak:"selanik"}], tur:"kasaba", lat:40.994, lon:22.874, k:4, m:null,
   s:[{f:"1281-01-01",t:"1345-01-01",d:"bizans"},{f:"1345-01-01",t:"1383-09-19",d:"sirbistan"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-11-14",t:"1923-10-29",d:"yunanistan"}],
   v:[],
   d:[{f:"1383-09-19",t:"1402-07-28"},{f:"1413-07-05",t:"1913-11-14"}],
   kaynak:"bulunamadı — TDV'de `kilkis` ve `avrathisar` maddesi YOK (iki slug da 302 ölçüldü). Dayanak TDV `gevgili` maddesi: \"1383'te Serez ile 1387'de Selânik'in fethi arasında Gynaikokastro (Avrathisar) ve çevresi Osmanlılar'ın eline geçmiş olmalıdır.\"" },
 
-{ ad:"Vodina (Edessa)",isg:[{f:"1912-11-08",t:"1913-11-14",d:"yunanistan"}], tur:"sehir", lat:40.803, lon:22.047, k:3, m:null,
+{ ad:"Vodina (Edessa)",isg:[{f:"1912-11-08",t:"1913-11-14",d:"yunanistan",kaynak:"selanik"}], tur:"sehir", lat:40.803, lon:22.047, k:3, m:null,
   s:[{f:"1281-01-01",t:"1345-01-01",d:"bizans"},{f:"1345-01-01",t:"1392-01-15",d:"sirbistan"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-11-14",t:"1923-10-29",d:"yunanistan"}],
   v:[],
   d:[{f:"1392-01-15",t:"1402-07-28"},{f:"1413-07-05",t:"1913-11-14"}],
   kaynak:"vodina" },
 
-{ ad:"Karaferye (Veria)",isg:[{f:"1912-11-08",t:"1913-11-14",d:"yunanistan"}], tur:"sehir", lat:40.524, lon:22.203, k:3, m:null,
+{ ad:"Karaferye (Veria)",isg:[{f:"1912-11-08",t:"1913-11-14",d:"yunanistan",kaynak:"selanik"}], tur:"sehir", lat:40.524, lon:22.203, k:3, m:null,
   s:[{f:"1281-01-01",t:"1345-01-01",d:"bizans"},{f:"1345-01-01",t:"1387-05-08",d:"sirbistan"},{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-11-14",t:"1923-10-29",d:"yunanistan"}],
   v:[],
   d:[{f:"1387-05-08",t:"1402-07-28"},{f:"1413-07-05",t:"1913-11-14"}],
   kaynak:"karaferye" },
 
-{ ad:"Yenice-i Vardar",isg:[{f:"1912-11-08",t:"1913-11-14",d:"yunanistan"}], tur:"sehir", lat:40.790, lon:22.407, k:3, m:null,
+{ ad:"Yenice-i Vardar",isg:[{f:"1912-11-08",t:"1913-11-14",d:"yunanistan",kaynak:"selanik"}], tur:"sehir", lat:40.790, lon:22.407, k:3, m:null,
   kur:"1390-01-01",
   s:[{f:"1402-07-28",t:"1410-02-13",d:"suleyman-celebi"},{f:"1410-02-13",t:"1410-06-15",d:"musa-celebi"},{f:"1410-06-15",t:"1411-02-17",d:"suleyman-celebi"},{f:"1411-02-17",t:"1413-07-05",d:"musa-celebi"},{f:"1913-11-14",t:"1923-10-29",d:"yunanistan"}],
   v:[],
