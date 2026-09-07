@@ -949,3 +949,68 @@ dfcc2e0  bayat commit mesajı DEĞİŞTİRİLDİ + `--kuru` planı düzeltildi
 🟢 Nöbetçi 8C sağlam: PID 6592 (2 MB) + 8448 (5 MB) — **fırlatıcı+yorumlayıcı
 çifti**, mükerrer nöbetçi DEĞİL (mükerrer olsalar bellekleri benzer olurdu).
 Saatlik rapor 23:39'da düşecek.
+
+---
+
+## ⑩c — 23:45 · 🔴 KOŞU 8 YAYINLANMAYACAK — VE BU BİR TERCİH DEĞİL, ZORUNLU
+
+### ① MÜKERRER KAPANDI — ihlal 2 → 1 (`61f34b9`)
+Üç şüpheli çiftin üçü de yanlış pozitif: Çukurova tahliyesinin beş şehri.
+Ölçütü ele veren şey **eşleşmeyenler** oldu (Kilis *"tahliyesi"* · Mersin
+*"millî kuvvetlerin girişi"*). `BILINEN_AYRI`ya yazıldı, koşturularak
+doğrulandı: `mükerrer madde: 0 şüpheli çift (beklenen 0)`.
+⚠️ Ve ölçüt hatası **benimdi**: sevke yerleşim mükerrerinin kuralını
+(3 km · zaman çizgisi · `ikiz:`) yazdım, oysa bu **madde** mükerreri
+(±400 gün + başlık benzerliği). Yorum `denetle.py`ye kondu.
+
+### ② ENKLAV `+1` AÇILDI — BİR KAYIT DEĞİL, **41 OLAYIN NETİ**
+`SINAV-KOSU8` tabanı (`d041a08`) `git archive` ile çıkardı, `data/`
+checkout **etmedi** ⇒ koşu donuk kaldı, fark yalnız veriden geldi.
+```
+taban 3805 yerleşim · 660 enklav      bugün 3805 yerleşim · 661
+YENİ 21  ↔  KAPANAN 20   ⇒ net +1
+Diyarbakır·Harput·Hasankeyf·Siirt  1 ↔ 6  🟢 artuklu zinciri KAPATMIŞ
+Nûbe 3↔0 · Malikiye 2↔0  🔴   Mavi Nil 4↔4 · Hoima 2↔2 (net 0)
+```
+⇒ Büyüme değil **YER DEĞİŞTİRME.** Tavanı kaydırmak 41 kalemi tek bir
+`+1`in arkasına gizlerdi.
+
+### ③ 🔴🔴 VE İÇİNDE GERÇEK BİR KUSUR ÇIKTI — `Mersin` (ölçtüm)
+`data/yerlesimler_ek27.js:51` — **aynı nesnede İKİ `s:` ve İKİ `d:`**:
+```
+s:[… 1921-10-20 → 1923-10-29  tbmm-turkiye]   ← düzeltme
+…
+s:[… 1918-10-30 → 1921-10-20  fransa]         ← eskisi, tbmm YOK
+d:[… 1921-10-20 → 1923-10-29]                 ← ve BU kazanıyor
+```
+JS'te sonuncusu kazanır ⇒ Mersin 1921-23 arası **Osmanlı doğrudan**
+boyanıyor. Komşular (Tarsus·Adana·Antep·Kilis) tek konvansiyonda:
+`s:tbmm-turkiye 1920-04-23` + `isg:fransa` örtüsü. Mersin **üç eksende**
+ayrışıyor (egemenlik/örtü · kimlik · `isg:` yokluğu) ⇒ ada budur.
+🔴 Kaydın **kendi `neden:` alanı** bu tuzağı tarif ediyor — yani not,
+kendi kaydında tekrarlanan bir kusuru anlatıyor.
+
+### ⇒ HÜKÜM — VE NİÇİN SEÇİM DEĞİL
+```
+tavanı 661'e çek   🔴 OLMAZ — `+1`in içinde ARTIK BİLİNEN bir kusur var;
+                      CLAUDE.md: "ihlali susturur, adayı YERİNDE bırakır"
+Mersin'i düzelt    🔴 girdiyi değiştirir ⇒ koşu 8 yayınlanamaz
+```
+⇒ **Koşu 8'in dürüst bir yayın yolu YOK.** 12 hesap-saati koşu 9'a kalıyor.
+🔒 `data/` bu gece **DONUK** — çıktı zaten yayınlanamaz olsa bile disiplin
+aşınmaz; yama `denetim/` altında hazırlanıyor, koşu bitince uygulanacak.
+
+### 🟢 VE BULGUYU BİR DAMGA BULDURDU
+`SINAV-KOSU8` Mersin'i *"ölçmedim, İŞARET EDİYORUM"* diye yazmıştı. Kalemi
+*"ölçüldü"* diye kapatsaydı tavan kaydırılacak ve koşu 8 **bilinen bir
+hatayla** yayınlanacaktı. `§11`in *"ölçmediğini «ölçmedim» diye yaz"*
+kuralının bu projedeki en pahalı geri dönüşü.
+
+### 🔵 KOŞU 9'UN KUYRUĞU (sıra: yayın YOK ⇒ doğrudan yama)
+```
+① Mersin mükerrer anahtar + komşu konvansiyonuna hizalama
+② AYNI KUSUR BAŞKA KAYITTA VAR MI — node/`girdi._cevir` ile tara (regex YOK)
+③ Nûbe (+3) · Malikiye (+2) kümeleri aynı sınıf mı
+④ ENKLAV-0907 yaması (661→652) · SINIR-KAFRIKA 3 künye (435039a)
+⑤ CAKISMA küme 3 · renk (17 kimlik renksiz) · taşıma
+```
