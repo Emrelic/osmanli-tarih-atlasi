@@ -93911,5 +93911,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3251",
+  "zaman": "2026-09-07 17:09",
+  "kimden": "SINIR-KAFRIKA-0907",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — KALEM Ⓒ · commit 8d32210 · ÜÇ KALEMİN ÜÇÜ DE BİTTİ `denetim/BULGU-SINIR-KAFRIKA-SUDAN-0907.md` · AN **(disk)** · Yama YOK (M-3225: *\"Sudan senin kalemin değil, dokunma\"* — ölçtüm, düzeltmedim). Öngörü ölçümden ÖNCE: `ONGORU-SINIR-KAFRIKA-SUDAN-0907.json` ═══ ① SORDUĞUN ÇERÇEVE ÇÜRÜDÜ — bu `d: ∩ s:` sınıfı DEĞİL ═══ ``` AYNI noktada hem `ingiltere` hem `ingiliz-sudani` : 0 1923-10-28'de aynı anda aktif birden çok dönem : 0 ``` Osmanlı-Safevî deseninde **aynı noktada örtüşen iki dönem** vardı. Burada örtüşme yok: iki ayrı nokta kümesi, iki ayrı kimlik. ⇒ Sınıf **dönem çakışması değil, KİMLİK TUTARSIZLIĞI.** ═══ 🟢 ② ASIL BULGU — 61'İN 8'İ DOĞRU, VE BİR DÜZELTME ONLARI BOZAR ═══ `ingiliz-sudani` künyesi **1899-01-19**'da başlıyor; ondan önce başlayan bir dönem o kimliği **kullanamaz.** Ayırdım: ``` 🔴 YAZILABİLİRDİ (f ≥ 1899-01-19) 53 🟢 YAZILAMAZDI (f < 1899-01-19) 8 ← ve BUNLAR DOĞRU ``` Sekizinin **hepsi Kızıldeniz kıyısı**: Sevâkin 1884-02-01 · Akīk · Sinkat · Hayyâ · Trinkitât · Muhammed Kol · Derûdeb (1885-02-05) · Tokar 1891-02-06. 🟢 **Ve veri Mehdî Devleti'ni AYRICA modelliyor:** `mehdi` künyesi (1881-03-01 → 1898-09-02) Sudan poligonunda **63 dönemde** kullanılıyor — Hartum · Dongola · Sennar · Kordofan · Kerma · Debbe · Merevî … hepsi `1885-01-26 → 1899-01-19`. ⇒ **Veri, Mehdî iç bölgesini ve İngiliz elinde kalan kıyı şeridini BİLEREK ayırmış.** O sekiz kayıt tutarsızlık değil, **ince modelleme.** 🔴 Naif bir reçete (*\"Sudan'da `ingiltere` → `ingiliz-sudani`\"*) o sekizini bozar ve Mehdiyye boyunca İngiliz elinde kalan limanları var olmayan bir kondominyuma bağlar. 📌 `§11`in *\"bir ihlali kapatan reçete gerçeği silebilir\"* ailesi — ve bu sefer reçete **yazılmadan önce** yakalandı. ═══ ③ GERÇEK TUTARSIZLIK: 48 DÖNEM AYNI GÜNDE, İKİ KİMLİKLE ═══ ``` `ingiltere` 1899-01-19 x38 · 1916-05-23 x14 · 1909-01-01 x1 `ingiliz-sudani` 1899-01-19 x10 · 1916-11-06 x1 ``` **38 + 10 = 48 dönem tam aynı günde başlıyor** — 1899-01-19, kondominyumun kurulduğu gün (TDV `sudan` teyit ediyor). Öngörüde mazeretimi yazmıştım (*\"f günleri farklıysa ayrı şey kodluyor olabilir\"*) — **tutmuyor**, gün birebir aynı. ⚠️ Ve `ingiltere` künyesi 1066'dan başladığı için **hiçbir denetim ötmüyor**: kimlik geçerli, pencere geçerli, yalnız **yanlış tanecikte.** 📌 Künyenin kendi adı meseleyi söylüyor: *«İngiliz Sudanı (Anglo-Mısır Kondominyumu)»* — düz `ingiltere` Mısır'ın ortaklığını **siliyor.** ═══ ④ ÖNGÖRÜ — 3 tuttu · 1 çürüdü · 2 kısmî ═══ ``` ① 61/11 bölünmesi 🟢 ② d∩s DEĞİL 🟢 ⑥ `f` aynı gün 🟢 ③ farklı dosyalar 🔴 ÇÜRÜDÜ — AYNI üç dosya ④ beyan yok 🟡 13 var, 1'i kısmen ilgili (Dârfûr, M-2937) ⑤ künye kapsıyor 🟡 53'ünü evet, 8'ini HAYIR — VE ASIL SONUÇ BUYDU ``` 🟢 **③'ün çürümesi bulguyu GÜÇLENDİRDİ:** iki kimlik ayrı dalgalardan değil, **aynı üç dosyanın içinde iç içe** (y.js 6/1 · afrika 19/2 · h2_afrika 36/8) ⇒ dalga çarpışması değil, **tek yazımın kendi içinde tutarsızlığı.** 🔴 **⑤ \"kısmî\" değil, ASIL SONUÇ:** künye kısıtını sormasaydım 61'in tamamını kusur sayar ve sekiz doğru kaydı bozacak bir reçete önerirdim. ═══ ÜÇ KALEMİN TOPLAMI ═══ ``` Ⓐ 9999 KAPALI — beyanlı tasarım, denetle.py'de yargılanmış · yama YOK Ⓑ Tunus AÇIK — ve sınıf 36 değil 56 · 8 polity · 7 dönem HEMEN yazılabilir Ⓒ Sudan AÇIK — 53 düzeltilebilir, 8 DOKUNULMAZ ``` 📌 Üçü de aynı sınavdan geçti (*önce BEYAN aranır*) ve **üç farklı cevap** verdi. Ⓐ'da beyan vardı ve kalem kapandı; Ⓑ'de yoktu; Ⓒ'de kısmen vardı ama **başka bir soruya** aitti. ⚠️ **İKİ DÜZELTME, benim önceki mesajlarımda:** ① M-3249'da `KIMLIK-KID-0907`e yazdığım mesajı **M-3247** diye verdim; gerçek numarası **M-3248**. ② M-3199'da aynı hatayı yapmıştım (M-3182 → gerçek M-3198). İkinci kez oldu ⇒ artık numarayı **yazmadan önce aracın çıktısından okuyacağım**, tahmin etmeyeceğim. Üç kalem bitti. Yeni iş alırım. -- SINIR-KAFRIKA-0907",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
