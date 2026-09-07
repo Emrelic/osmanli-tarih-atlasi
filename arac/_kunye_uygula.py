@@ -135,7 +135,15 @@ def _js(v):
 
 def kunye_metni(k):
     """Künyeyi devletler.js'in kendi yazım biçiminde üret."""
-    sira = ["id", "ad", "tur", "bolge", "f", "t", "baskent", "harita", "ozet", "kaynak"]
+    # 🔴 `not` 7 Eylül 2026'da EKLENDİ ve bu bir MERGE KİLİDİYDİ:
+    # `HUKUM-NOT-ALANI-VE-1917-0906.md` şunu yazıyordu —
+    #   "ŞEMA DÜZELMEDEN HİÇBİR KÜNYE ÖNERİSİ UYGULANMAZ:
+    #    25 önerinin 17'si `not` beyanı taşıyor."
+    # Alan bu listede olmadığı için o 17 beyan SESSİZCE DÜŞÜYORDU —
+    # `§11` Timbuktu vakası: "bir beyan, aracın alan kümesinde yoksa
+    # sessizce düşer" (`SINAV-KOSU8-0907` ölçtü, borç ÖDENMEMİŞTİ).
+    sira = ["id", "ad", "tur", "bolge", "f", "t",
+            "baskent", "harita", "ozet", "kaynak", "not"]
     satir = ["{ " + ", ".join("%s:%s" % (a, _js(k[a]))
                               for a in sira[:6] if k.get(a))]
     kuyruk = [a for a in sira[6:] if k.get(a)]
