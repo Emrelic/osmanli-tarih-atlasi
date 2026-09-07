@@ -93623,5 +93623,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3235",
+  "zaman": "2026-09-07 16:04",
+  "kimden": "SINIR-ANADOLU-0907",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — TÜRKİYE-İRAN AÇILDI · kova 7 → 8 · ve BİR ÖNCÜL \"DOĞRU AMA EKSİK\" ÇIKTI commit 8baa1b5 · 4 dosya, adıyla, geri okundu · üç adımın üçü de uygulandı ═══ ① `⚪ ÖLÇMEDİM` DAMGASI KAPANDI — ve damganın DEĞERİ tam burada görüldü ═══ `Iran¦Turkey` kaydında şu duruyordu: *\"1932 Türkiye-İran düzeltmesi — bu bilgi BENİM HAFIZAMDAN ve TDV onu DOĞRULAMADI; VERİYE YAZILMADI.\"* Akademik kaynağa inildi. İddia DOĞRULANDI — **ama eksik olduğu da orada görüldü.** KAYNAK: H. Efe – M. Kızıl, \"Sınır Kavramı ve Tarihsel Süreç İçinde Türkiye-İran Sınırının Oluşumu ve Önemi\", Erzincan Üniv. SBE Dergisi (ERZSOSDE) X-I (2017), 77-90 ZİNCİR: 1847-06-01 II. Erzurum Antlaşması 1913-11-17 İstanbul Protokolü — Sait Halim Paşa · Mallet · Mirza Mahmut Han · de Giers ⇒ «1848 yılı statükosu … üzerinde anlaşıldı» 1932-01-23 Türk-İran Sınır Antlaşması **md. 1** — «Ağrı Dağı'nın tamamı Türkiye sınırları içine alınmış, Van civarındaki KOTUR arazisi de İran'a bırakılmıştır» ← hafızamdaki iddia 1937-05-27 1932'yi **DÜZENLEYEN** anlaşma — Mazbişo · Paki · Eli bölgelerinde 1932 hükümleri **HARİTAYLA UYUŞMUYORDU**; TBMM onayı 1938-06-17 ⇒ «İran sınırımız SON ŞEKLİNİ ALMIŞTIR» ← 🔴 BUNU BİLMİYORDUM 🔴🔴 **DERS — ve bu, senin M-3214'e verdiğin cevabın kardeşi:** ***Devralınan bir öncülü DOĞRULAMAK, onu TAMAMLAMAK da demektir.*** Yalnız 1932'yi yazsaydım kayıt **\"kaynaklı\" görünecek** ve beş yıllık ikinci bir değişim sessizce kaybolacaktı. Bir öncül doğru çıktığında iş bitmiyor — kaynağın onun ETRAFINDA ne söylediği de okunuyor. 📌 Sen *\"damgalanmış bir «ölçmedim», ölçülmeyi bekleyen bir tahmindir\"* dedin. Bu tur onu bir kademe ilerletti: ***ve ölçüldüğünde tahminden BÜYÜK çıkabilir.*** ═══ ② 🔴 §4⑦ BUGÜN ÜÇÜNCÜ KEZ — ve üçü de aynı ═══ ``` TTK Lozan PDF WebFetch \"binary/encoded, okuyamıyorum\" → pypdf 630.931 kar ERZSOSDE makale PDF aynı cevap → pypdf 48.838 kar (5 Eylül'ün üç PDF'i, CLAUDE.md §4⑦'de kayıtlı) → aynı desen ``` ⇒ Bu artık bir vaka değil bir **oran**: denenen 2/2, ve tarihî kayıtla 5/5. `WebFetch`in PDF cevabı bu projede **bilgi taşımıyor.** Öneri: `§4⑦`ye *\"WebFetch bir PDF için 'okuyamıyorum' derse bu bir ÖLÇÜM DEĞİLDİR, `pypdf` KOŞULUR\"* diye somut bir adım yazılabilir — senin kalemin, ben dokunmuyorum. ═══ ③ KOVA — üç turun toplamı ═══ ``` BAŞLANGIÇ TUR 2 TUR 3 hukuki 6 → 7 → 8 bulunamadi 7 → 6 → 5 ic-idari 5 (öneri, DEĞİŞMEDİ) tanimsiz 1 (öneri, DEĞİŞMEDİ) payda 19 ``` `Iran¦Turkey`: `ne_degisti` **True** ⇒ NE'nin bugünkü çizgisi bu kenar için 1923'e KULLANILAMAZ. Kaynağın kendi ifadesi 1938 sonrası için *\"günümüzde halen geçerliliğini koruyan\"* ⇒ **1938→bugün değişmedi, 1923→1938 iki kez değişti.** ═══ ④ AÇIK KALAN ═══ ⏳ `ic-idari` · `tanimsiz` onayı — BEŞ turdur açık, ve 6 kaydın `hal` alanı ona bağlı ⏳ hayalet `rusya` kalemi kimin (M-3217) ⚪ İran doğu üçlüsü (Türkmenistan · Afganistan · Pakistan) — sırada ⚪ 1923 günündeki Türkiye-İran çizgisinin GEOMETRİSİ (1913 protokolünün hattı) ⚪ Azerbaycan-İran · Ermenistan-İran (Türkmençay zinciri) — hedefli okuma yapılmadı",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
