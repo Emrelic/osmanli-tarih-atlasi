@@ -93587,5 +93587,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3233",
+  "zaman": "2026-09-07 15:59",
+  "kimden": "KIMLIK-1923-0907",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 TESLİM — ALASKA DEVİR YAMASI · 5 kayıt · bütün sınavlar geçti · commit 5cd830c 🔴 AMA SEVKİN ① MADDESİ UYGULANAMADI — ve çürüten `denetle.py`nin KENDİ yorumu. 🔴🔴 VE ÖN KOŞUL AÇIK: bu yama TEK BAŞINA İNMEZ. YAMA: denetim/yer_yama_alaska_devir_0907.js (window.YER_YAMA_ALASKA_DEVIR_0907) ARAÇ: ARAC-ALASKA-YAMA-0907.py · ARAC-ALASKA-SINAV-0907.py RAPOR: denetim/ALASKA-DEVIR-0907.json ════════ 🔴 SEVK ① : `bos:\"devletsiz\"` 1281→1799 — YAPILAMAZ ════════ Sevk «4 nokta: `bos:\"devletsiz\"` 1281→1799 · rus-amerika 1799→1867-06-20» diyordu. Uygulamadan ÖNCE ölçtüm: ``` bos: KAYIT seviyesinde 328 kayıt · DÖNEM seviyesinde 0 degismez1 yalnız `kur:` ve `bit:`i muaf tutar — `kasitli_bosluk` ve `bos:` HİÇ OKUNMAZ (denetle.py:952-961) denetle.py:1008 — ARACIN KENDİ YORUMU: \"aralık düzeyinde boşluk beyanı NE ŞEMADA NE VERİDE VAR; `bos:` NOKTA düzeyinde ve «hangi ARALIK kasıtlı» DİYEMİYOR\" ``` ⇒ Uygulasaydım `Değişmez 1` dört noktayı SAHİPSİZ bildirirdi ve `1b`nin BEYANSIZ boşluğu 0'dan 4'e çıkardı. `§1.5` o satırı «0 (beklenen 0)» diye tutuyor — yani bir değişmezi bozarak bir kusuru düzeltmiş olacaktım. 📌 Bu `M-0609` vakasının BİREBİR tekrarı: orada da bir reçete «boşlukları `kasitli_bosluk` ile kapat» diyordu ve `1b`yi kapatmıyordu. `§11`: *aracın söylediğini yapmadan önce aracın ne ÖLÇTÜĞÜNÜ anla.* ════════ 🟢 SEÇİLEN YOL — kapsamayı bozmadan, iddiayı BÜYÜTMEDEN ════════ ``` ingiltere 1281-01-01 → 1763-02-10 DOKUNULMADI ingiliz-kuzey-amerika 1763-02-10 → 1799-01-01 KISALTILDI (1867 → 1799) rus-amerika 1799-01-01 → 1867-06-20 YENİ abd 1867-06-20 → 1923-10-29 YENİ ``` Boşluk 0 · kapsama aynı · her dönem künyesinin içinde. 🔴 KALAN YANLIŞ İDDİA `not:` ALANINDA ADIYLA BEYAN EDİLDİ: 1281-1799 arası hâlâ İngiliz görünüyor ve bu YANLIŞ — TDV `rusya`: «1791'den itibaren HİÇBİR DEVLETE AİT OLMAYAN bir bölge». Düzeltilemez çünkü atlasın dönem katmanında «kimsenin değil» diye bir kimlik YOK. Bu yama yanlış iddiayı 1867'den 1799'a KISALTIYOR, KALDIRMIYOR — kaldırmak bir MODEL işidir. ════════ 🟢 FORT YUKON — İDDİA ÖLÇÜLDÜ, `olculemedi` DAMGALANMADI ════════ 1825 Rus-İngiliz antlaşması iç Alaska'nın doğu sınırını 141. meridyene çekiyor. Fort Yukon 145,274°B'de ⇒ çizginin BATISINDA ⇒ RUS tarafı. 1847-1868 boyunca Rus-Amerika Kumpanyası ile Hudson's Bay Company orta Yukon'da RAKİP karakollar tuttu; ABD 1869'da HBC yöneticisini ÇIKARDI (yüzbaşı Charles Raymond 1869-07-31'de Fort Yukon'a vardı). ⇒ DE JURE Rus, DE FACTO İngiliz. Egemenlik zinciri ötekilerle aynı ama zinciri 1847'de başlıyor ⇒ DÖRT KALIBINA SOKULMADI, kendi tarifiyle. ⚠️ `isg:` ÖRTÜSÜ YAZILMADI — HBC'nin ÇIKARILMA GÜNÜ kaynakta YOK (Raymond o gün VARDI, çıkarma ONDAN SONRA). Gün uydurmaktansa `not:`a beyan edildi. Gün kaynaklanırsa örtü AYRI bir kalem olarak yazılabilir. KAYNAK: U.S. National Park Service (Golden Places) · Library of Congress · University of Alaska ScholarWorks («Dynamics of the fur trade on the middle Yukon River, Alaska, 1839 to 1868»). ════════ SINAVLAR — denetçiler TAKLİT EDİLMEDİ, KOŞTURULDU ════════ ``` C13③ girdi yama DİSKTEN node ile okundu · 5 kayıt · ad alanı doğru Değişmez 1 sahipsiz 314 → 314 · YENİ sahipsiz YOK Değişmez 1b boşluk 5 → 5 (ARTMADI — sevkin yolu bunu 4 artıracaktı) Değişmez 2s kapsam İÇİ 104 → 104 (tavan 121) · DIŞI 364 → 364 C13④ çıktı 1923-10-28 kimliği yeniden ölçüldü: 5/5 `abd` ``` ════════ 🔴🔴 ÖN KOŞUL AÇIK — BU YAMA TEK BAŞINA İNMEZ ════════ `rus-amerika` KÜNYESİ devletler.js'te YOK (öneri denetim/ altında bekliyor) `rus-amerika` RENGİ BOYALAR'da YOK ⇒ `§8`: kimlik BOYANMAZ = HARİTA DELİĞİ. Bu yama künye+renkten ÖNCE inerse beş noktayı BOYANMAYAN bir kimliğe taşır ve harita BUGÜNKÜNDEN KÖTÜ olur. SIRA: ① künye ② renk ③ BU YAMA. Üçü de hazır, sıralama sende. -- KIMLIK-1923-0907",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
