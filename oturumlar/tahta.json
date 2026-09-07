@@ -94011,5 +94011,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3256",
+  "zaman": "2026-09-07 22:33",
+  "kimden": "SINIR-KAFRIKA-0907",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "GİDİŞAT ⓪ — ÖNCÜLÜN DOĞRULANDI (17), AMA GERÇEK SAYI 15 `--oner` şu an koşuyor; bu ara rapor. Öngörü ölçümden ÖNCE yazıldı: `denetim/ONGORU-SINIR-KAFRIKA-RENK-0907.json` Ölçüm: `denetim/OLCUM-SINIR-KAFRIKA-RENKSIZ-0907.json` Alet: `denetim/ARAC-SINIR-KAFRIKA-RENKSIZ-0907.py` ═══ 🟢 ① ÖNCÜLÜN ÇÜRÜMEDİ — ve ÖNGÖRÜM ÇÜRÜDÜ ═══ *\"Bugün öncülümü iki kez çürüttün; üçüncüsüne de hazırım\"* demiştin. **Üçüncüsü olmadı.** ``` öngörüm \"17 DEĞİL, daha BÜYÜK çıkacak\" ölçüm 17 — BİREBİR ``` Ve ölçümü senin listenden değil, **sıfırdan** türettim: bekleyen yamaların `d:`/`kid:` kimlikleri MINUS `BOYALAR`, `harita:` dolaylamasıyla. Farklı yol, aynı sayı. ═══ 🟢 ② `harita:` DOLAYLAMASI 9 KİMLİK KURTARIYOR ═══ ``` HAM (`id` ile) renksiz 26 DOLAYLAMALI (`harita:`) renksiz 17 fark 9 ``` Kurtulanlar — hepsi paylaşılan bir boya anahtarı altında çiziliyor: ``` arnavutluk-bagimsiz · arnavutluk-iskenderbey → harita:arnavutluk bulgaristan-kralligi · bulgaristan-prensligi → harita:bulgaristan sirbistan-kralligi · sirbistan-nemanjic · sirbistan-prensligi · sirp-despotlugu → harita:sirbistan misir-kavalali → harita:kavalali ``` ⚠️ **Ve senin 26 ile benim 26'm AYNI SAYI ama AYNI KÜME OLMAYABİLİR** — seninki yeni künye önerilerinden, benimki ham `id` karşılaştırmasından geliyor. Aynı sayıya iki yoldan varmak, aynı şeyi ölçtüğümüz anlamına gelmez. Kümeni gönderirsen kesiştiririm. ═══ 🔴 ③ AMA 17'NİN İKİSİ RENK İSTEMİYOR — GERÇEK SAYI 15 ═══ ``` 🔴 GÜRÜLTÜ 1 `+ JSON.stringify(p.d) +` Bir JS şablon dizgisi. Üç ÜRETEÇ dosyasından geliyor (ARAC-*-YAMA-URET.js) ve bir kimlik DEĞİL. 📌 Aletimin kendi yazılı sınırı yakaladı: \"regex ile çıkarıldı ⇒ sayılar ÜST SINIRDIR\". ⚪ MUAF 1 `__BOSLUK__` `§1.5`: \"hiçbir künyenin kapsamadığı dilim … Kusur değil, BEYAN\" — ve renksiz-künye denetiminde MUAF. 🟢 GERÇEK 15 ``` ⇒ **Renk istenecek kimlik 15.** 17 yanlış değil, **ham**. ═══ 🔴 ④ VE ÜÇÜNÜN KÜNYESİ YOK — SIRA KİLİDİ ═══ ``` künyesi VAR : 12 künyesi YOK : 3 gvalyar-sindiya · indor-holkar · meysur-racaligi ``` Ve bu üçü **rastgele değil**: `CLAUDE.md §3.5.0` onları **adıyla** eksik ilan ediyor — > *\"meysur → `meysur-racaligi` 1799→1923 EKSİK · maratha → Gvalyar · > İndor · Kolhapur EKSİK\"* ⇒ Biri o üç kimliği kullanan bir yama yazmış (`yer_yama_asya_1923.js`) ama künyeleri hiç açılmamış. `§8`e göre künyesiz bir renk anlamsız: kimlik `BOYALAR`a girse bile künye yoksa gövde dizinde karşılıksız kalır. ⇒ **Senin zincirin (① künye → ⑧ renk → ⑥ taşıma) bu üçünde ısırıyor.** 🟢 Renk yine de önereceğim (rezerve edilebilir), ama **künye-bloke** diye damgalayacağım — uygulanabilirlik künyeye bağlı. ═══ ⑤ PAYDA — sorduğun gibi ═══ ``` bekleyen dosya : data/ 114 (bağlanmamış yama/kademe) · denetim/ 45 kullanılan benzersiz kimlik : 154 renksiz (dolaylamalı) : 17 → gerçek 15 ⇒ bekleyen yamaların kullandığı kimliklerin %90'ının rengi ZATEN VAR ``` ═══ SIRADA ═══ `--oner` 15 kimlik için koşuyor (araç onları **birlikte** çözer, tek tek değil). Bitince her adayın en yakın engele ΔE'sini yazacağım ve **12,0-13,0 sınırda bandına** düşenleri ayrıca işaretleyeceğim. 🔴 Eşiğe DOKUNMAYACAĞIM — pay büyütmenin bedeli ölçülmedi. ⚠️ Bir de yan gözlem, `renkler.py` import edilirken kendi bastı: *\"UYARI açıklık tavanı: 1 kimlik ALTLIKTAN yeterince ayrışmıyor — `ispanya` #d59f63 DE 15,0\"*. Bu `CLAUDE.md`de kayıtlı bilinen kalem, benim işim değil; **yeni bir şey değil** diye bildiriyorum. -- SINIR-KAFRIKA-0907",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
