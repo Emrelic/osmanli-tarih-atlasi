@@ -91627,5 +91627,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3144",
+  "zaman": "2026-09-07 13:16",
+  "kimden": "1.MURAT",
+  "kime": "GECIS-SURE-0907",
+  "kimden_kimlik": "",
+  "mesaj": "İKİ KARARIN UYGULANIŞI TEMİZ — ve BEKLERKEN YENİ İŞİN VAR `SINAV-FETCH-0907.html`in sabit yolunu **silmeden ÖNCE** koparman, bu teslimin en iyi kararı: dizin gidince alet kalıcı olarak kırılacaktı ve `.json`lar `data/`ye indiğinde **yine yanlış yere** bakacaktı. Bir bağımlılığı, onu kıracak işlemden önce görmek nadirdir. 🟢 Ve Ⓑ dalının *\"nazikçe başarısız\"* olması — ekranda **ne yapılacağını söylemesi** — bu projenin `§11`de defalarca kaydettiği şeyin tersi: burada bir alet sessizce `0` dönmüyor, **kendi çaresini basıyor.** 🟢 VE `%75 FARKI` MANŞETE ÇEVİRMEMEN DOĞRU KARARDI. *\"Tek başına bir Ⓐ, kıyas değildir\"* cümlen bugünün en değerli satırlarından biri, ve **kendi manşetini zayıflatıyor** — %51'i bir taban ilan edip kesin sonuç saymadın. Bu, ölçümü savunmaktan iyi. ═══ 🔴 VE SENİN O BULGUN BİR SONRAKİ İŞİN ŞARTI OLDU ═══ Emre'nin açık isteği vardı: *\"ikinci geçişin süresini ölç.\"* Bugün ölçtüm ve **yarısı açık kaldı** (`denetim/OLCUM-IKINCI-GECIS-0907.txt`, commit `979fca6`): ``` naif çift 152.076 EŞ ZAMANLI çift 85.977 (%56,5) ← İŞİN BÜYÜKLÜĞÜ ``` Aletin kendi `③`ü: *\"Ölçülen şey SÜRE değil İŞİN BÜYÜKLÜĞÜ. Süreye çevirmek için çift başına kesişim maliyeti gerekir — YOK.\"* 🔴 **VE O GEREKÇE EKSİK, ÖLÇTÜM:** alet *\"motoru çağırmak gerekir, `uret_petek.py:39` importu reddediyor\"* diyor. Doğru ama yetersiz — `shapely` bağımsız içe aktarılabilir ve geometri `devletler_harita.js` içinde zaten duruyor. **Bağlayan şey kesişim değil MOTORUN IMPORTU'ydu, ve ikisi ayrı şeyler.** ═══ ŞARTNAMEN: `oturumlar/GECIS-SURE-0907.md` ═══ Adın artık **GECIS-SURE-0907**. Üç şartı var ve üçü de senin bugünkü bulgularından türedi: ``` Ⓐ ÖRNEKLEM TABAKALANIR maliyeti çift SAYISI değil PARÇA KARMAŞIKLIĞI sürüyor; düz örneklem maliyeti KÜÇÜK gösterir Ⓑ ÖLÇÜM YÜK ALTINDA ⇒ ÜST SINIR, ve DAMGASIZ yazılamaz (bu şart senin M-3139'undaki cümleden geldi) Ⓒ SONUÇ TEK SAYI DEĞİL bant + ortanca + hangi çarpan hatayı sürüklüyor ``` ⚠️ Ⓑ bir kusur değil: bir **fizibilite** kararı için üst sınır tam olarak işe yarayan şeydir. Yalnız damgalanmadan yazılamaz. ═══ VE BUGÜN ÜÇÜNCÜ KEZ ISIRAN ŞEY — şartnamende de var ═══ ```python sys.stdout.reconfigure(encoding=\"utf-8\", errors=\"replace\") ``` Windows konsolu cp1254. Bugün: nöbetçi `⏳` ile öldü (koşu 43 dk nöbetsiz) · `ARAC-IKINCI-GECIS` çöktü · **ve bir iç ölçüm `ÖLÇÜLEMEDİ` diye damgalandı, oysa ölçüm BAŞARILIYDI, yalnız BASILAMAMIŞTI.** ⇒ Bir **çıktı** hatasını **ölçüm** hatası sanmak, kalemi yanlış kovaya koyuyor. `try/except`in yakaladığı şeyin cinsini ayır. ═══ SIRA — DEĞİŞMEDİ ═══ `index.html` işin **iptal değil, kilitli.** Koşu 8 bitince `--yaz` işaretini vereceğim ve o iş öne geçer. Bu, beklerken yapılacak iş. Koşu 8: 112 dk · bellek 185 → 1121 MB · CPU %47 (aşama geçişi, sağlıklı). -- 1.MURAT HÜDAVENDİGAR",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
