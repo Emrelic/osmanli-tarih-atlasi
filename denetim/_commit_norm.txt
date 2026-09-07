@@ -1,0 +1,49 @@
+KIMLIK-1923-0907 — norm() cakismasinin GERCEK maruziyeti: 12+ degil 2, ve
+bugun atesleyen 0 (ama TESADUFEN)
+
+ARAC:  denetim/ARAC-NORM-MARUZIYET-0907.py
+RAPOR: denetim/NORM-MARUZIYET-0907.json
+
+KENDI ACIK KALEMIMI KAPATTIM. USKUP-MUKERRER-0907.json'da yazmistim:
+"norm( gectigini olctum, NASIL kullanildigini olcmedim." Olculdu.
+
+MERDIVEN — her basamak bir oncekinin ALT KUMESI:
+  18  dosyada `norm(` geciyor
+   3  ALAKASIZ elendi (baska bir `norm` — SINAV-BIRLESTIR'deki `_norm` bir
+      SINAV KAYDEDICISIDIR, normallestirici degil)
+   7  KOVA kuruyor
+   6  KOVA + tam kulliyat okuyor        <- OTOMATIK TARAMA BURADA DURUYOR
+   2  KOVA + tam kulliyat + anahtar YERLESIM ADI   <- GERCEK yapisal maruziyet
+   0  bugun GERCEKTEN atesleyen         <- KOSTURULDU, iddia edilmedi
+
+🔴 ONCEKI SAYIMIM ("12+ CANLI alet") FAZLA GENISTI — dosya sayisi RISK
+  sayisi degil, ve grep alakasiz adlari da yakaliyor. §11: "ayni sayi !=
+  ayni vaka".
+
+6 -> 2 NICIN: otomatik tarama 6 dedi, dordu ELLE OKUNDU ve ELENDI —
+  anahtar ALANLARI YERLESIM ADI DEGIL (VASSAL dortlusu kunye `id`/`ad`/
+  `harita` ya da ELLE YAZILMIS tablolar uzerinde kova kuruyor). Olculdu:
+  `Kudüs`/`Kudus` adini tasiyan KUNYE YOK ⇒ bu cift o dorde YAPISAL
+  OLARAK giremez.
+
+2 -> 0 NICIN, VE NICIN BU BIR TEMIZLIK DEGIL:
+  DEGISMEZ3-KORNOKTA `nix`e YALNIZ `m:` degeri atlasta BULUNMAYAN noktalar
+    icin bakiyor. Kor nokta 4, dordunun hicbiri cakisan kovaya dusmuyor.
+    `m:"Kudüs"` tasiyan ALTI nokta VAR (Gazze · Maan · Yafa · Nablus ·
+    Kerak · Han Yûnus) ama `Kudüs` atlasta VAR oldugu icin onlar KOR
+    DEGIL — cakisma yoluna HIC girmiyorlar.
+  FAZ2-CUKUROVA hedef listesi ELLE YAZILMIS bir guneydogu kumesi; ne
+    `Kudüs` ne `Kudus` orada.
+  ⇒ SIFIR, TASARIMDAN DEGIL TESADUFTEN. Kova DURUYOR ve DOLU; bir sonraki
+    oturum `m:`i eksik bir nokta eklerse ya da hedef listesini genisletirse
+    ATESLER. Bu bir GIZLI kusurdur, YOK bir kusur degil.
+
+CARE (onerildi, UYGULANMADI — ikisi de baska oturumlarin dosyasi, §7):
+  Normallestiriciye DOKUNULMAZ, dogru calisiyor. Kova anahtari
+  `norm(ad)` yerine `(norm(ad), round(lat,1), round(lon,1))` olsun; ya da
+  cok uyeli kovada MESAFE sorulsun (>3 km ise CAKISMA, mukerrer DEGIL).
+
+OLCMEDIGIM: `DIGER` kovasindaki 5 aletin kullanimini satir satir okumadim;
+  ucu tam kulliyat okuyor ⇒ ayrica bakilmali.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>

@@ -1,0 +1,60 @@
+{
+ "_NOT": "NORM-MARUZIYET-0907 — 'Kudüs/Kudus normallestirici cakismasi kac aleti etkiliyor' olcumu. KIMLIK-1923-0907'nin KENDI acik kalemini kapatir (USKUP-MUKERRER-0907.json: \"norm( gectigini olctum, NASIL kullanildigini olcmedim\"). Arac: ARAC-NORM-MARUZIYET-0907.py",
+
+ "🔴_ONCEKI_SAYIM_DUZELTILDI": {
+  "yazmistim": "12+ CANLI alet",
+  "sorun": "Dosya sayisi RISK sayisi degil. Ve `git grep \"norm(\"` ALAKASIZ adlari da yakaliyor — SINAV-BIRLESTIR-0907.py'deki `_norm(` bir SINAV KAYDEDICISIDIR, normallestirici degil. Ayni harfler, baska sey.",
+  "_DERS": "§11: 'ayni sayi != ayni vaka'. Bir grep dosya sayar; maruziyet KULLANIM ister."
+ },
+
+ "merdiven": {
+  "_NOT": "Her basamak bir oncekinin ALT KUMESI. Sayinin nerede durduguna gore hukum degisiyor — ve otomatik tarama UCUNCU basamakta duruyor.",
+  "1_norm_gecen_dosya": 18,
+  "2_ALAKASIZ_elendi": 3,
+  "3_KOVA_kuran": 7,
+  "4_KOVA_ve_tam_kulliyat": 6,
+  "5_KOVA_tam_kulliyat_ve_anahtar_YERLESIM_ADI": 2,
+  "6_BUGUN_GERCEKTEN_ATESLEYEN": 0
+ },
+
+ "5_neden_2": {
+  "_NOT": "Otomatik tarama 6 dedi; ucu ELLE OKUNDU ve dordu ELENDI. Elenen dortun anahtar ALANI YERLESIM ADI DEGIL:",
+  "ARAC-VASSAL-ESLEME-0906.py": "ad_ix anahtari KUNYE adi (kid, ad) — yerlesim degil",
+  "ARAC-VASSAL-KUNYE-0906.py": "kn anahtari kunyenin `id`/`ad`/`harita` alani",
+  "ARAC-VASSAL-PENCERE-0906.py": "_ESLEME_N anahtari ELLE YAZILMIS tablo (ESLEME sabiti)",
+  "ARAC-VASSAL-YAMA-URET-0906.py": "_TAM_N anahtari ELLE YAZILMIS tablo (TAM sabiti)",
+  "olculdu": "`Kudüs`/`Kudus` adini tasiyan KUNYE: YOK ⇒ bu cift o dort alete YAPISAL OLARAK giremez."
+ },
+
+ "2_yapisal_maruziyet": {
+  "ARAC-DEGISMEZ3-KORNOKTA-0907.py": {
+   "satir": "44  nix.setdefault(norm(y['ad']), []).append(y['ad'])",
+   "anahtar_alani": "YERLESIM adi · evren tam kulliyat (girdi.yukle)",
+   "tuketici": "53  aday = nix.get(norm(m), [])   — `m:` merkez adini arar"
+  },
+  "ARAC-FAZ2-CUKUROVA-0906.py": {
+   "satir": "41  ix.setdefault(norm(z['ad']), []).append(z)",
+   "anahtar_alani": "YERLESIM adi · evren tam kulliyat",
+   "tuketici": "bul(ad) — ayrica `n in k` ALT DIZGI yedegi var, daha genis"
+  }
+ },
+
+ "6_neden_0_VE_NICIN_BU_BIR_TEMIZLIK_DEGIL": {
+  "_NOT": "KOSTURULDU, iddia edilmedi.",
+  "DEGISMEZ3-KORNOKTA": "Alet `nix`e YALNIZ `m:` degeri atlasta BULUNMAYAN noktalar icin bakiyor (`kor = [y for y in Y if y.get('m') and y['m'] not in ix]`). Olculdu: kor nokta 4, ve DORDUNUN HICBIRI cakisan kovaya dusmuyor. `m:\"Kudüs\"` tasiyan ALTI nokta var (Gazze · Maan · Yafa · Nablus · Kerak · Han Yûnus) ama `Kudüs` atlasta VAR oldugu icin onlar KOR DEGIL — cakisma yoluna HIC girmiyorlar.",
+  "FAZ2-CUKUROVA": "Hedef listesi ELLE YAZILMIS bir guneydogu kumesi (Ceylanpinar · Nusaybin · Silopi · Birecik · Mardin …). Ne `Kudüs` ne `Kudus` o listede.",
+  "🔴_HUKUM": "SIFIR, TASARIMDAN DEGIL TESADUFTEN. Ikisi de bugun ateslemiyor cunku SORGULARI o kovaya ugramiyor — kova ise DURUYOR ve dolu. Bir sonraki oturum `m:` degeri eksik bir nokta eklerse, ya da Cukurova listesini genisletirse, ATESLER. ⇒ Bu bir GIZLI kusurdur, YOK bir kusur degil."
+ },
+
+ "care": {
+  "degismez": "Normallestiriciye DOKUNULMAZ — dogru calisiyor (§4 `Diyarbekir` dersi tam onu koruyor). Kusur aracta degil KULLANIMINDA.",
+  "onerilen": "Kova kuran iki alette anahtar `norm(ad)` yerine `(norm(ad), round(lat,1), round(lon,1))` olsun; ya da kova cok uyeliyse MESAFE sorulsun ve >3 km ise CAKISMA diye bildirilsin (mukerrer DEGIL).",
+  "maliyet": "iki dosya · birer satir",
+  "UYGULANMADI": "Ikisi de BASKA OTURUMLARIN dosyasi (§7). Olctum, bildirdim, dokunmadim."
+ },
+
+ "OLCMEDIGIM": [
+  "`DIGER` kovasindaki 5 aletin (KENAR-KIMLIK · SINIR-ANADOLU-CIPA/KIMLIK · SINIR-BALKAN-ARA · VASSAL-KUNYE-0906b) `norm` kullanimini SATIR SATIR okumadim — otomatik siniflandirici onlari ne KOVA ne KIYAS diye ayirdi, yani DESENIME UYMADILAR. Uc tanesi tam kulliyat okuyor ⇒ ayrica bakilmali.",
+  "Cakismanin `Kudüs`/`Kudus` DISINDA baska bir cift uretip uretmedigini bu betikte yeniden olcmedim — onceki olcum (ARAC-USKUP-MUKERRER-0907.py) 3805 yerlesimde CAKISAN KOVA 1 demisti."
+ ]
+}
