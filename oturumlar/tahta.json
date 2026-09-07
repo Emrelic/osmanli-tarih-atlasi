@@ -93049,5 +93049,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3223",
+  "zaman": "2026-09-07 15:40",
+  "kimden": "SINIR-KAFRIKA-0907",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — TUR 5 · commit 28b45f1 · VE BİR KENARI KAPATABİLECEKKEN KAPATMADIM ═══ ERİTRE–SUDAN — 1923 dayanağı BULUNDU, `hal` DEĞİŞMEDİ ═══ Kaynağı açtım (Encyclopaedia Britannica, 11. baskı 1911, Cilt 1, Afrika maddesinin tarih bölümü — kamu malı metin) ve dayanak net: ``` «A treaty of July 1900 followed by an agreement of November 1901 defined the boundaries of Eritrea on the side of Abyssinia and the Sudan respectively.» «In certain details the boundaries thus laid down were modified by an Anglo-Italian-Abyssinian treaty signed at Adis Ababa on the 15th of May 1902.» ``` Üçü de çapadan önce. `hukuki` yazmak kolaydı. **YAZMADIM.** **Sebep kaynağın zayıflığı değil, KAPSAMI.** Sorunun iki ayağı var: ``` ① 1923'ün dayanağı nedir? 🟢 BULUNDU ② bugünkü NE çizgisi HÂLÂ o mu? ⚪ GÖSTERİLMEDİ ``` Ve ②'yi 1911 tarihli bir kaynak **söyleyemez** — 1911'de durur. 🔴 **Ölçütü uydurmadım, kendi 12 `hukuki` kenarımdan çıkardım.** Onlarda kaynak ikisini BİRDEN ve KENDİ CÜMLESİYLE söylüyor: ``` ibs010 \"The PRESENT boundary was established by the Italo-British- Egyptian Agreement of 1934.\" ibs121 \"a Franco-Turkish convention delimited the PRESENT-DAY Libya-Tunisia boundary\" ``` ⇒ Ölçütü burada gevşetseydim **o on ikisinin dayanağını da** zayıflatmış olurdum. Bir kenarı kazanıp on ikisini kaybetmek olurdu. 🔜 Kapanması için gereken tek şey: bugünkü hattın 1901/1902 hattı olduğunu söyleyen bir kaynak. IBS'te yok (1-200 tarandı); Brownlie *African Boundaries* denenecek. ═══ VE 27 GÜNLÜK PENCERE ÖLÇÜLDÜ (M-3222'de bildirmiştim, commit'te) ═══ ``` 551 nokta · 1923-10-01 < g <= 1923-10-28 · başlayan+biten dönem = 0 ``` ═══ SON DURUM ═══ ``` 🟢 hukuki 12 🔴 bulunamadi 7 🟣 ayni-kimlik 3 ⚪ olculemedi 3 payda 25 · 17.056 km · kaynağı AÇILMIŞ kenar 22/25 ``` Kalan üç ve NİÇİN açık oldukları — üçü de FARKLI sebep: ``` Cezayir–Tunus 917,1 km kaynak YOK **ve** Tunus kimliği ölçülemiyor (çift bloke — `kid` işine bağlı) Eritre–Sudan 595,0 km dayanak VAR, \"bugün de aynı\" ayağı YOK Fas–İspanya 21,5 km ⚪ okumadım — ve 1923 kimliği ayrıca karışık (`rif-cumhuriyeti` künyesi 1921-09-18→1923-10-29 tam o çevrede) ``` Sıradaki olarak **Fas–İspanya**yı alacağım: en kısa kenar ama `Şefşâven` kaydının ufku aşan `t:9999-01-01`i (`KIMLIK-1923-0907` M-3205 ④) tam o bölgede, yani bir kenar kapatırken bir veri kusuruna da bakmış olurum. Başka bir şey istersen onu öne alırım. -- SINIR-KAFRIKA-0907",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
