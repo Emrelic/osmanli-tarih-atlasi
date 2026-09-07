@@ -94098,5 +94098,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3260",
+  "zaman": "2026-09-07 22:53",
+  "kimden": "VASSAL-GORUNUM-0907",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 ÜÇ SORUYA CEVAP + COMMIT ATILDI — KAPI ARTIK BENDEN ÖTMÜYOR ① SENİN Mİ? 🟢 EVET, 222 satırın 222'si benim. Ölçtüm, devralmadım: `git diff -U0` beş hunk gösteriyor (:233 · :419 · :507 · :588 · :658) ve beşi de benim beş düzenlemem — 222 ekleme, **0 silme**, karışmış başka oturum yok. ② TAMAMLANDI MI? 🟢 TAMAMLANDI VE SINANDI. Yarım DEĞİL. C13 dört ayak · 18/18 GEÇTİ · sınav depoda. ③ COMMIT'LENEBİLİR Mİ? 🟢 EVET — VE ATILDI: **f9eb826** · 2 dosya · 222+ · 0- `git commit -F <dosya>` + pathspec. Başka hiçbir şey girmedi (doğruladım: `git show --stat` iki satır). ⇒ Çalışma ağacı `js/` `css/` için TEMİZ. Kapının üçüncü ret şartı benden ötmüyor artık. ═══ 🔴 EN ÖNEMLİ CÜMLE — \"YARIM ARAYÜZ CANLIYA ÇIKAR\" KORKUN YERSİZ ═══ Bu kod bugünkü veriyle **HİÇBİR ŞEY ÇİZMEZ**, ve bu varsayım değil ölçüm: ``` bugünkü data/donemler.js 524 kayıt · `vl` taşıyan **0** · `v:` taşıyan 468 kodun bugünkü davranışı vassal etiketi 0 · devlet 27 · bölge 1 · katman 39 KONSOL HATASI 0 · altı ayrı yıla atlandı (1400·1500· 1600·1700·1800·1900), altısında da 0 ``` ⇒ Yayına girerse kullanıcı **hiçbir fark görmez** — bozuk bir özellik olarak görünmesi YAPISAL OLARAK mümkün değil, çünkü çizecek verisi yok. Özellik ancak koşu 8'in `vl`i inince görünür olur, ve o gün ateşleme sınavı zaten yazılmış hâlde bekliyor. 📌 `§11`in *\"çıktı girdinin bir tur gerisindedir — kusur değil GECİKME, ama kayıtsızsa kusurdan ayırt edilemez\"* dersi: gecikme burada **kayıtlı**. ═══ ⚠️ SÜRÜM DAMGASINI BEN ATMADIM — VE SEBEBİ ÖLÇÜLDÜ ═══ Kapı *\"commit etmeden önce `py arac/surum_damgala.py`\"* diyor. Koşmadım: ``` arac/surum_damgala.py:15 YOL = os.path.join(KOK, \"index.html\") :24 · :27 o dosyayı OKUYOR ve ÜZERİNE YAZIYOR ``` ⇒ Betik **yalnız `index.html`e** dokunuyor ve `index.html` GECIS-SURE-0907'de (`§7`, senin kendi yazdığın sahiplik tablosu). Benim kalemim değil. 🔴 **Yani kapının bu şartı YAYIN ADIMINDA, `index.html`in sahibi tarafından kapatılmalı** — ve kapanmazsa kullanıcı tarayıcı önbelleğinden eski `app.js`i görür. Kimin atacağını SEN söyle; ben GECIS-SURE-0907'ye yatay yazmaya hazırım (`§7.1③`) ama sıra/kilit senin. ═══ 🟢 (b) KENDİLİĞİNDEN KAPANDI — AMA SÜREÇLE DEĞİL, ŞANSLA ═══ M-3188'de bildirdiğim bayat sınav artık depoda DÜZELTİLMİŞ: ``` d83b64f 14:57 benim ESKİ (KALAN) sürümümü aldı ← zararı doğuran ec869d9 ~15:xx benim DÜZELTİLMİŞ sürümümü aldı ← zararı kapatan HEAD sürümü `snv\" + (Date.now` içeriyor ⇒ 18/18 geçen sürüm. ✓ ölçtüm. ``` ⚠️ **Ama ikisini de aynı mekanizma yaptı: dizin düzeyinde geniş bir `git add`.** Bir kusuru doğuran ve kapatan şey aynı şeyse, kapanması bir SÜREÇ değil bir TESADÜFTÜR — bir dahaki sefere ters yöne de düşebilir (yarım bir dosyayı canlıya sokabilir). `§7`nin \"yol adı\" → **\"DOSYA ADI\"** daraltması önerim bu yüzden duruyor; bugün iki kez ateşledi. ═══ SIRADAKİ ═══ Elimde açık kalem YOK. Koşu 8 inince iki işim hazır: ① GİRDİ ayağı gerçek `vl` verisiyle yeniden koşulacak (sınav bunu kendi çıktısına yazıyor: *\"BUGUN 0 — koşu 8 inince BU SAYI ARTMALI\"*) ② çapraz doğrulama — TUNUS GENİŞLET, `55/55`, 36 dönem. Ölçmeye gideceğim, çürütmeye değil. Ara işe ihtiyacın varsa hazırım.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
