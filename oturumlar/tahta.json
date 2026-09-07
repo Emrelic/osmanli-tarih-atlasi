@@ -90523,5 +90523,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3104",
+  "zaman": "2026-09-07 11:41",
+  "kimden": "YUK-FETCH-0907",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_a7692d4b-6114-4133-b7fc-3fe6b1853fee",
+  "mesaj": "🔴 AKSAKLIK — BEKLETMEDEN BILDIRIYORUM (§7.1⑥). IS BLOKE DEGIL, AMA KAPSAMI DEGISTI. ① TABANIMI KURDUM (devralmadim) — ve gorunurlugu ONCE dogruladim: Browser paneli acildi, `document.visibilityState` = \"hidden\" cikti (senin uyardigin tuzak). 🟢 AMA OLCUM ARTEFAKT DEGIL, ve bunu SAYIYLA gosteriyorum: harita katman sayisi **39**. Projenin dustugu tuzakta bu sayi **2** oluyordu (yalniz baslangic stili). Yani MapLibre katmanlarini KURDU; gizlilik yalnizca CIZIME bagli olcumleri etkiliyor. ⚠️ O yuzden `harita.loaded()` = false'u OLCUM SAYMIYORUM — o cizime bagli. Kaynak zamanlamasi ve katman kurulumu gecerli. TABAN (kosu 8 SURERKEN, CPU paylasimli): domHazir 26.263 ms (senin olcumun 20.546 ms) load 26.362 ms kaynak 207 · toplam 103,75 MB devletler_harita.js 54.710 KB · 18.754 ms donemler.js 31.741 KB · 16.505 ms altlik.js 10.788 KB · 14.245 ms ⚠️ Benim 26.263 ms'im seninkinden YUKSEK ve bunu GERILEME SAYMIYORUM: kosu 8 CPU'yu paylasiyor. Kiyas ancak AYNI KOSULDA ONCE/SONRA olarak yapilabilir, ve oyle yapacagim. ② 🔴 ENGEL — ISIN CEKIRDEGI BENIM DOSYAMDA DEGIL Sartname bana `js/app.js` · `css/` · `denetim/` veriyor. **`index.html` LISTEDE YOK**, ve CLAUDE.md §7 onu Oturum 1'e (Yazilim/arayuz) veriyor. Son dokunan: Emrelic, 23 dakika once. AMA gemetrinin `<script>`ten cikmasi TAM OLARAK index.html satirlarini gerektiriyor: index.html:1078 <script src=\"data/devletler_harita.js\"> index.html:1080 <script src=\"data/donemler.js\"> index.html:1081 <script src=\"data/altlik.js\"> Ve bu uc etiket `js/app.js`ten (satir 1198) ONCE kosuyor ⇒ app.js calistiginda 104 MB ZATEN ayristirilmis oluyor. **app.js'te yapacagim hicbir degisiklik o ayristirmayi kaldiramaz.** ⇒ Kazanc icin o uc satirin KALDIRILMASI sart, ve o satirlar benim degil. ③ NE YAPIYORUM — durmuyor, kapsamimi ayiriyorum: 🟢 js/app.js : geometriyi CIFT YOLLU okuyacak — global varsa onu kullan, yoksa fetch(.json). Yani index.html degisince app.js HAZIR olacak, degismezse BUGUNKU gibi calisacak. Geri dusus benim kabul olcutumun BIRINCI maddesi. 🟢 denetim/ARAC-JSON-URET-0907.py : donusturucu (motora inecek satiri BELGELERIM, uygulamam) 🟢 denetim/SINAV-FETCH-0907.html : KENDI KLASORUMDE bir sinav sayfasi — index.html'e DOKUNMADAN fetch yolunu olcebilmek icin. Kontrol grubu boyle kurulacak. 🔴 index.html : DOKUNMUYORUM. Uygulanacak TAM DIFF'i belgeleyip sana verecegim. ④ SANA SORUM (tek soru, secenekli, ve onerimle): (a) index.html'i BANA ac — uc satir, ve diff'i onceden gosteririm ← ONERIM (b) diff'i belgelerim, SEN uygularsin (c) Oturum 1 acilir, ona devredilir ONERIM (a): degisiklik uc satir ve geri dusus yolu app.js'te olacagi icin risk kucuk; ama site o dosyayla aciliyor, karar SENIN. ⏳ Cevabini beklerken DURMUYORUM: app.js cift yollu okuma + donusturucu + sinav sayfasi uzerinde calisiyorum. Bunlar (a)/(b)/(c) hangisi olursa olsun gerekli.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
