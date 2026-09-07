@@ -7485,6 +7485,32 @@ YAMALI AN      429 = 341 var +  88 yok  →  32 (k'li) + 56 (adsız)
   > Donmuş bir prompt ancak **yeniden kurularak** düzelir
   > (`CronDelete` + `CronCreate`).
   >
+  > 🔴🔴 **VE BU REÇETENİN KENDİ TUZAĞI AYNI GÜN ÖLÇÜLDÜ — 7 Eylül
+  > 22:40, ve reçeteyi uygulamaya BİR ARAÇ ÇAĞRISI kala durdum.**
+  > ```
+  > bağlamımda görünen brifing   "koşu 4'ün durumunu (kosu4b.log) ölç"
+  >                              → biz KOŞU 8'deyiz ⇒ APAÇIK BAYAT
+  > CronList (canlı iş)          f4781de9 · 17 dakikada bir ·
+  >                              "ÖLÇ, KARAR VER, YAP. Sırayı sen belirle."
+  >                              ⇒ KOŞUDAN BAĞIMSIZ, BAYAT DEĞİL
+  > ```
+  > Bayat metin **canlı zamanlayıcıdan gelmiyordu**: bağlamıma düşen
+  > *donmuş bir skill çağrı kaydıydı* — skill ilk çağrıldığında
+  > dondurulmuş `## Input` bloğu, ve sistem onu *"NOT the user's current
+  > message"* diye zaten damgalıyordu.
+  > ⇒ ***Bayat GÖRÜNEN her metnin kaynağı zamanlayıcı değildir.***
+  > 🔴 Ve reçete körlemesine uygulansaydı bedeli **yıkıcı**: kullanıcının
+  > kurduğu tekrarlı görev **hiçbir sebep yokken** silinip yeniden
+  > kurulacaktı — ve yenisi eskisinin aynısı olacaktı, yani kazanç sıfır,
+  > risk tam.
+  > 🟢 **ŞART: `CronDelete` çağırmadan önce `CronList` ile CANLI METNİ
+  > OKU.** Bayatlık canlı işte GERÇEKTEN varsa reçete uygulanır; yoksa
+  > düzeltilecek şey **iş değil, senin okuduğun kayıttır.**
+  > 📌 `§11`in *"ölçüm doğru, çıkarım yanlış"* ailesinin **yıkıcı eylem**
+  > yüzü: gözlem doğruydu (metin gerçekten bayat), çıkarım yanlıştı
+  > (kaynağı zamanlayıcı sanıldı) — ve bu ailenin öteki üyelerinden farkı,
+  > yanlış çıkarımın bir **silme** ile bitecek olmasıydı.
+  >
   > 📌 **Ve kusurun ironisi kaydedilmeye değer:** bu dersi yazan cümle
   > *"koordinatör bayatlığı her turda not düştü ama NEREDEN GELDİĞİNİ
   > izlemedi"* diyordu — ve **kendisi de izlemeden bir mekanizma ilan
