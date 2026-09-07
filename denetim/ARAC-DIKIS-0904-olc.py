@@ -5,10 +5,35 @@ Kullanım:
     node denetim/ARAC-DIKIS-0904-govde.js 1281-01-01 <govde.geojson>
     py   denetim/ARAC-DIKIS-0904-olc.py   <govde.geojson> [--ayrinti]
 
-🔴 NİÇİN VAR: `R1`in KABUL TESTİ bu. Reçete diyor ki
+🔴 NİÇİN VARDI / NİÇİN VAR — VE İKİSİ AYNI DEĞİL (7 Eylül 2026 düzeltmesi)
+
+ESKİ AMAÇ (HARCANMIŞ): `R1`in KABUL TESTİ. Reçete diyordu ki
     *"1281 Avrupa: 96 parça / 9.046 km² → R1'den sonra < 10 parça"*
-ve R1 4 Eylül'de uygulandı ama SINANAMADI — çünkü ölçen alet YOKTU.
-`PAKET GEOMETRİ 0904` sayıyı raporladı, betiğini bırakmadı.
+
+⚠️ **BU AMAÇ ARTIK GEÇERSİZ, ve reçete SİLİNMEDİ — DAMGALANDI:**
+```
+89cd681  "R1 INDI"        →  4 Eylül 17:32
+koşu 5b  4 Eylül akşamı  ·  koşu 7B  6 Eyl 14:23 → 7 Eyl 07:10
+⇒ KOŞU 7B'NİN ÇIKTISI R1'İ ZATEN İÇERİYOR. R1 İKİ KOŞU ESKİDİR.
+```
+Alet buna rağmen her koşuşta *"reçete: R1'den sonra < 10"* basıyordu ve
+ölçüm **637** veriyordu. Koşu 8'den sonra o satırı okuyan biri
+`637 ≫ 10` görüp ***"R1 çalışmadı"*** diye YANLIŞ BİR İŞ açacaktı.
+📌 `Ö9`un AYNASI: Ö9 bayat bir ölçütün *"yanlış sebepten GEÇMESİ"*ydi
+   (sahte güven); bu *"yanlış sebepten KALMASI"* (sahte alarm). Aynı
+   sınıf, ters yön — ve ikisi de **kimse bakmadığı için** yaşıyor.
+   (`CLAUDE.md §3.5.1`: *bir vakayı silmek dersi de siler; damgalamak
+   dersi korur.* O yüzden reçete yukarıda duruyor.)
+
+🟢 BUGÜNKÜ AMAÇ: **GERİLEME TESTİ.** *"R1 işe yaradı mı"* değil,
+   *"yeni koşu bir öncekine göre BOZDU mu"*. Taban aşağıda `R1_TABAN`da
+   ve **kendi provenansını taşıyor** — çünkü bir eşik, ölçüldüğü
+   tabanla birlikte taşınmazsa sessizce yanılır (bu alet bunu bir kez
+   ödedi: 96'lık taban 640'lık tabana taşınmıştı).
+
+🔴 VE EŞİK SAYISI KONMADI, bilerek: R1'in dikiş ALANINI ne kadar
+   kapatacağı hâlâ bilinmiyor. Bilinmeyen bir şeye eşik koymak onu
+   ÖLÇÜM gibi gösterir. Alet TABANI ve FARKI basar; hükmü okuyan verir.
 
 🔴 R13 — ÇİFT DEĞİL PARÇA SAYILIR:
    Mesafe bir MİNİMUM alır: bir çift bir yerde değiyorsa "değen" sayılır,
@@ -166,12 +191,43 @@ for k in ("DİKİŞ", "KIYI KENARI", "KAPSAMA"):
     yaz("%-14s %8d %14.0f   %s" % (k, len(v), sum(x[0] for x in v), olcut[k]))
 
 yaz("")
-yaz("🔴 R1 KABUL TESTİ: DİKİŞ parçası %d  (reçete: R1'den sonra < 10)"
-    % len(kova["DİKİŞ"]))
-yaz("   ⚠️ Taban 96 parça / 9.046 km² idi ve o sayı KOŞU 4b ÖNCESİ")
-yaz("      yayından ölçülmüştü (2731 petek). Bugünkü taban 3805 petek —")
-yaz("      yani karşılaştırma AYNI TABANDA DEĞİL. Bu koşu bittikten sonra")
-yaz("      aynı aletle yeniden ölçülecek; ASIL kıyas O olacak.")
+# ── R1 GERİLEME TESTİ ────────────────────────────────────────────────────
+# 🔴 TABAN KENDİ PROVENANSINI TAŞIR. Bir sayıyı çıplak bırakmak, onu bir
+#   sonraki koşuda sessizce yanıltıcı yapar — bu alet o bedeli bir kez
+#   ödedi (96'lık taban 640'lık tabana taşınmıştı ve "<10" hedefi
+#   anlamsızlaştı). Taban değişince BU BLOK GÜNCELLENİR.
+R1_TABAN = {
+    "kosu": "7B",
+    "gun": "1281-01-01",
+    "olcum": "7 Eylül 2026 15:44 · SINAV-KOSU8-0907",
+    "kaynak": "data/donemler.js @ 567895f (koşu 7B çıktısı)",
+    "dikis_parca": 637,
+    "dikis_km2": 34792,
+    "kiyi_parca": 42233,
+    "kapsama_parca": 360,
+}
+_dp = len(kova["DİKİŞ"])
+_dk = sum(x[0] for x in kova["DİKİŞ"])
+yaz("🟢 R1 GERİLEME TESTİ — «R1 işe yaradı mı» DEĞİL, «yeni koşu BOZDU mu»")
+yaz("   TABAN  koşu %s · %s · %s"
+    % (R1_TABAN["kosu"], R1_TABAN["gun"], R1_TABAN["olcum"]))
+yaz("          %s" % R1_TABAN["kaynak"])
+yaz("   DİKİŞ  taban %d parça / %d km²   ·   ŞİMDİ %d parça / %.0f km²"
+    % (R1_TABAN["dikis_parca"], R1_TABAN["dikis_km2"], _dp, _dk))
+_fp = _dp - R1_TABAN["dikis_parca"]
+_fk = _dk - R1_TABAN["dikis_km2"]
+yaz("   FARK   %+d parça   ·   %+.0f km²  (%%%+.1f)"
+    % (_fp, _fk, 100.0 * _fk / max(1, R1_TABAN["dikis_km2"])))
+yaz("   🔴 ÖLÇÜT km², PARÇA DEĞİL: parça sayısı alan tabanına ve")
+yaz("      sadeleştirme gürültüsüne duyarlı, toplam alan değil.")
+yaz("      Parça sayısı BİLGİDİR, ölçüt değildir.")
+yaz("   ⚠️ EŞİK YOK — bu bir HÜKÜM değil bir KIYAS. Sapmanın sebebi")
+yaz("      `data/` yamaları olmalı ve AÇIKLANABİLİR olmalı; motor")
+yaz("      tarafında `vl` çapası geometriye DOKUNMAZ.")
+yaz("   ⬜ HARCANMIŞ REÇETE (silinmedi, damgalandı): «R1'den sonra < 10")
+yaz("      parça» — 96 parçalık bir tabana aitti ve R1 4 Eylül 17:32'de")
+yaz("      indi (89cd681). Koşu 7B onu ZATEN içeriyor. O satırı bir kabul")
+yaz("      ölçütü olarak OKUMA.")
 
 if AYRINTI:
     for k in ("DİKİŞ", "KAPSAMA"):
