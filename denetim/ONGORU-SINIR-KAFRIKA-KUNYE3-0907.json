@@ -1,0 +1,52 @@
+{
+ "_NOT": "ÖNGÖRÜ — ÖLÇÜMDEN ÖNCE. İş: üç künye (gvalyar-sindiya · indor-holkar · meysur-racaligi). Dört ayak her kalemde.",
+ "damga": "2026-09-07 · SINIR-KAFRIKA-0907 · ölçüm HENÜZ YAPILMADI",
+ "sevk": "1.MURAT M-3259",
+ "zaten_olculmus": "Üç `id`in `devletler.js`te OLMADIĞINI renk turunda ölçtüm (kunye_var: YOK). Bu bir öngörü değil, taban.",
+ "kalemler": [
+  {
+   "no": "①",
+   "ne_bekliyorum": "Üçünün de AKRABA künyesi var: `meysur` · `maratha` · `haydarabad-nizam`. Ve ARAMA ile bulunacak, TAHMİN ile değil.",
+   "hangi_ciktidan": "devletler.js'in TAM taraması — id + ad alanlarında Türkçe normalleştirilmiş arama",
+   "birim": "künye",
+   "mazeret": "🔴 MAZERET DEĞİL, TUZAK: bu gece `ingiliz-hindistani` vakası (sondaki tek harf) bu depoda bir hükmü çürüttü. Tahmin ettiğim yazımı ARAMAYACAĞIM; bütün künyeleri tarayıp normalleştirilmiş eşleşme alacağım."
+  },
+  {
+   "no": "②",
+   "ne_bekliyorum": "TDV `meysur` CANLI (Tipu Sultan İslâm hükümdarı) · `gvalyar` ve `indor` ÖLÜ (Hindu prenslikleri)",
+   "hangi_ciktidan": "curl HTTP kodu (302=ölü, 200=canlı) + gövde okuması",
+   "birim": "slug",
+   "mazeret": "🔴 200 'doğru madde' DEMEK DEĞİL (`ordu` askerî ordudur). Gövdeyi okumadan CANLI damgası vurmayacağım. Ve ölü çıkarsa kapsayıcı maddeyi deneyeceğim (`hindistan` · `maratha` · `ingiliz-hindistani`)."
+  },
+  {
+   "no": "③",
+   "ne_bekliyorum": "Künye penceresi VERİDEN türetilecek: yamaların o kimlikle yazdığı dönemlerin en erken `f`i ve en geç `t`si",
+   "hangi_ciktidan": "bekleyen yama dosyalarındaki dönem sınırları",
+   "birim": "gün",
+   "mazeret": "🔴 §3.5.0: 'ardıl künyenin VAR OLMASI yazılabilir olduğu anlamına gelmez — PENCERESİ DE TUTMALI.' Pencereyi veriden türetmezsem künye açılır ama yama yine bloke kalır. Ve `§4`: künyenin `f:`/`t:` günü bir KAYNAK DEĞİLDİR — veriden türetilen pencere de bir tarih İDDİASI değil, bir KAPSAMA şartıdır ve öyle damgalanacak."
+  },
+  {
+   "no": "④",
+   "ne_bekliyorum": "Üçünün de `t:` değeri `1923-10-29` olacak — atlasın PENCERE UCU, bir tarih iddiası DEĞİL",
+   "hangi_ciktidan": "emsal `haydarabad-nizam` künyesi (1724 → 1923) ve atlas ufku",
+   "birim": "gün",
+   "mazeret": "YOK. Ve `t_cinsi` kavramı künye şemasında yoksa gerekçeyi `ozet`e yazacağım."
+  },
+  {
+   "no": "⑤",
+   "ne_bekliyorum": "En az BİRİNDE TDV taneciklik boşluğu çıkacak ve akademik kaynağa çıkmam gerekecek",
+   "hangi_ciktidan": "gövde okumaları",
+   "birim": "künye",
+   "mazeret": "🟢 Bu bir başarısızlık değil bir SONUÇ (`§4`). `bulunamadı` yazmak uydurmaktan değerlidir — ve `okumadım`dan AYRI bir damgadır."
+  },
+  {
+   "no": "⑥",
+   "ne_bekliyorum": "Kolhapur için hiçbir şey yazmayacağım — sevkin 'zorlamana gerek yok' dedi; ölçüp bırakacağım",
+   "hangi_ciktidan": "bekleyen yamalarda `kolhapur` geçiyor mu",
+   "birim": "geçiş",
+   "mazeret": "YOK. Yamalarda kullanılmıyorsa künye açmak, ihtiyaç olmayan bir şey üretmektir."
+  }
+ ],
+ "hangi_kosuda": "ŞİMDİ. 🔴 `data/devletler.js`e YAZILMAYACAK — ve 1.MURAT ölçtü: `parmak_izi()` onu KAPSAMIYOR, yani kapı bu bayatlığı GÖRMEZ; koruyan tek şey `§7` disiplini. Çıktı `denetim/` altında bekleyecek (M-3258: önce yayın, yamalar sonra).",
+ "neye_karsi": "CLAUDE.md §3.5.0'ın ARDİL sınıfı ve `haydarabad-nizam` emsali."
+}

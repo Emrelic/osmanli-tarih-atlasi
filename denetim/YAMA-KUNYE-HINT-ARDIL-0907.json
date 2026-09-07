@@ -1,0 +1,62 @@
+{
+ "_baslik": "ÜÇ KÜNYE — Maratha/Meysûr ardılları (§3.5.0 ARDİL sınıfı)",
+ "_oturum": "SINIR-KAFRIKA-0907 · sevk 1.MURAT M-3259",
+ "damga": "2026-09-07",
+ "_glob_sahipligi": "ÖLÇÜLDÜ, tahmin edilmedi: `arac/_kunye_uygula.py:49` VARSAYILAN = 'denetim/YAMA-KUNYE-*.json' ⇒ bu dosya O ALETE aittir. Biçim de ölçüldü: alet `kunyeleri_cikar()` ile bir SÖZLÜĞÜN değerleri içinde `id` taşıyan bir LİSTE arar — ilk yazımda düz liste yazdım ve alet AttributeError ile ÇÖKTÜ. 🟢 Çökmesi doğru davranıştı: sessizce 0 künye görseydi 'yama boş' diye geçerdi (`§11`: bir aracın çökmesi, yanlış cevap vermesinden İYİDİR).",
+ "_sema_kaynagi": "Alan adları TAHMİN EDİLMEDİ, aletten okundu: ZORUNLU=(id,ad,f,t,bolge) · ÖNERİLEN=(ozet,kaynak) · yazım sırası=(id,ad,tur,bolge,f,t,baskent,harita,ozet,kaynak,not). `bolge` UYDURULMADI — emsal künyelerden ölçüldü: `guney-asya`.",
+ "_uygulanmadi": "Koşu 8 CANLI · `data/` DONUK · M-3258: önce yayın, yamalar sonra. Bu dosya `denetim/` altında BEKLİYOR.",
+ "_neden_bu_uc": "Üçü de renk turumda ÇIKTI: bekleyen yamalar bu kimlikleri kullanıyor ama künyeleri YOK ⇒ renk rezerve edilse bile uygulanamaz (`§8`). Üçü de `CLAUDE.md §3.5.0`da ADIYLA eksik ilan edilmiş.",
+ "_emsal": "`racput` (1281→1923) ve `haydarabad-nizam` (1724→1923): İngiliz himayesinde prens devleti olarak atlas ufkunun ötesine geçen kimlikler. `§3.5.0`: ARDİL sınıfında dönemi KISALTMAK `Değişmez 1` deliği açar — çare YENİ KÜNYE.",
+ "_pencere_sinavi": "§3.5.0 şartı KOŞULDU: künye penceresi bekleyen yamanın dönemlerini KAPSIYOR mu? meysur-racaligi veri 1565-01-26→1923-10-29, künye AYNI ⇒ kapsıyor. gvalyar-sindiya ve indor-holkar veri 1818-06-03→1923-10-29, künye AYNI ⇒ kapsıyor.",
+ "_kolhapur": "SEVKTE 'zorlamana gerek yok' denmişti; ÖLÇTÜM ve künye GEREKMİYOR: `Kolhapûr` veride bir YERLEŞİM ADI olarak geçiyor (`data/yerlesimler_asya.js` · `data/yer_yama_kademe2.js`), `d:`/`kid:` kimliği olarak SIFIR kez. ⚠️ Ve `grep -i kolhapur` onu BULAMADI — dosyada `Kolhapûr` yazıyor (â/û diakritiği). Türkçe normalleştirici buldu. `§4`in yazım ekseni.",
+
+ "kunyeler": [
+  {
+   "id": "meysur-racaligi",
+   "ad": "Meysûr Racalığı (Vodeyar Hanedanı)",
+   "tur": "devlet",
+   "bolge": "guney-asya",
+   "f": "1565-01-26",
+   "t": "1923-10-29",
+   "baskent": "Meysûr (1799 öncesi Seringapatam)",
+   "ozet": "Vijayanagar'ın Talikota'da yıkılmasının ardından bağımsızlaşan Hindu Vodeyar hânedanının racalığı. 1760'ta kumandanı Haydar Ali fiilî iktidarı ele geçirdi ve racalık Meysûr Sultanlığı'na dönüştü ([[meysur]]); Tîpû Sultan'ın 1799'da ölümünden sonra İngilizler eski racalığı yeniden ihdas etti ve hânedan prens devleti olarak atlas ufkunun ötesine geçti (1947'de Hindistan'a katıldı). ÜLKE SÜREKLİLİĞİ kimliğidir. 🟢 TDV `meysur` maddesi üç dönüm noktasını da veriyor: «1565'e kadar bağımsızlığını korudu … Raca Rama'yı Talikota savaşında mağlûp etti … onun torunları burada bir Raca Rama hânedanlığı oluşturmayı başardılar» · «1760 yılında … Haydar Ali Han Bahadır … Raca Rama hânedanını kontrolü altına aldı» · «beş yaşında bir Hindu hânedan üyesini tahta oturtup eski racalığı tekrar ihdas ettiler». TDV hânedanı 'Raca Rama' diye anıyor; atlasın mevcut `meysur` künyesi 'Vodeyar' diyor — bu künye atlasın kendi yazımını sürdürüyor. 🟡 `f:1565-01-26` GÜNÜ TDV'DEN DEĞİL: TDV yalnız yılı ve savaşın adını veriyor; gün bekleyen yamanın kullandığı değerdir ve bir KAPSAMA ŞARTIDIR, gün iddiası değil. ⚪ `t:1923-10-29` atlasın PENCERE UCUDUR.",
+   "kaynak": "meysur",
+   "not": "🔴 YAN BULGU, BENİM KALEMİM DEĞİL: mevcut `meysur` künyesi `f:1761-01-01` diyor; TDV `meysur` «1760 yılında» diyor VE bekleyen yamanın ilk dönemi de `1760-01-01`de bitiyor. Künye hem TDV'den hem veriden BİR YIL sonra başlıyor. Ölçtüm, düzeltmedim.",
+   "kronoloji": [
+    {"t": "1565-01-26", "tur": "kurulus", "b": "Talikota savaşında birleşik müslüman güçler Vijayanagar'ı yendi; Vodeyar (TDV: Raca Rama) hânedanı Meysûr'da bağımsızlaştı", "kaynak": "meysur"},
+    {"t": "1760-01-01", "tur": "toprak-kayip", "b": "Haydar Ali Han Bahadır, Fransızların yardımıyla racalığın fiilî iktidarını ele geçirdi; yönetim Meysûr Sultanlığı'na dönüştü", "kaynak": "meysur"},
+    {"t": "1799-05-04", "tur": "kurulus", "b": "Seringapatam'ın düşüşü ve Tîpû Sultan'ın ölümünden sonra İngilizler beş yaşında bir Vodeyar'ı tahta oturtup racalığı yeniden ihdas etti; gerçek yönetici Hindistan genel valisiydi", "kaynak": "meysur"}
+   ]
+  },
+  {
+   "id": "gvalyar-sindiya",
+   "ad": "Gvalyar (Sindiya Hanedanı)",
+   "tur": "devlet",
+   "bolge": "guney-asya",
+   "f": "1818-06-03",
+   "t": "1923-10-29",
+   "baskent": "Gvalyar",
+   "ozet": "Maratha Konfederasyonu'nun dağılmasından sonra ayrı bir prens devleti olarak süren Sindiya hânedanının Gvalyar devleti; İngiliz himayesinde atlas ufkunun ötesine geçti (1948'de Hindistan'a katıldı). ÜLKE SÜREKLİLİĞİ kimliğidir — [[maratha]] künyesi 1818-06-03'te biterken toprak BOŞALMIYOR, kimlik değişiyor (`§3.5.0` ARDİL; emsal [[racput]] ve [[haydarabad-nizam]]). 🟢 TDV `hindistan` maddesi hânedanı ADIYLA sayıyor: «Sindiya hânedanı (1761-1858)». 🟡 AMA O ARALIK BU PENCEREYİ DESTEKLEMİYOR: 1761-1858, hânedanın Maratha içindeki doğuşundan Şirket idaresinin sonuna kadar olan bir HÂNEDAN LİSTESİ aralığıdır — başka bir soruyu cevaplıyor. Bu künyenin `f:1818-06-03`ü hânedanın AYRI BİR VARLIK olarak başlangıcıdır ve [[maratha]] künyesinin `t:`siyle BİREBİR aynıdır. ⚪ `t:1923-10-29` atlasın PENCERE UCUDUR.",
+   "kaynak": "hindistan",
+   "not": "🟡 `f:1818-06-03` DAYANAĞI ATLASIN KENDİ İÇİNDEN: (a) bekleyen yamanın kullandığı tek dönem sınırı, (b) `maratha` künyesinin `t:` değeri. TDV bu günü VERMİYOR. `§4`: künyenin `f:`/`t:` günü bir KAYNAK DEĞİLDİR ⇒ gün bir iddia olarak değil, ana künyeyle SÜREKLİLİK şartı olarak yazıldı. ⚪ 1817 Gvalyar / 1818 antlaşma metinleri ARANMADI — damga `okumadim`, `bulunamadi` DEĞİL. İkisi ayrı şeydir ve yanlışı hatayı kalıcılaştırır.",
+   "kronoloji": [
+    {"t": "1818-06-03", "tur": "kurulus", "b": "Maratha Konfederasyonu'nun sona ermesiyle Sindiya hânedanının Gvalyar devleti ayrı bir İngiliz himayesindeki prens devleti olarak sürdü", "kaynak": "hindistan"}
+   ]
+  },
+  {
+   "id": "indor-holkar",
+   "ad": "İndor (Holkar Hanedanı)",
+   "tur": "devlet",
+   "bolge": "guney-asya",
+   "f": "1818-06-03",
+   "t": "1923-10-29",
+   "baskent": "İndor",
+   "ozet": "Maratha Konfederasyonu'nun dağılmasından sonra ayrı bir prens devleti olarak süren Holkar hânedanının İndor devleti; İngiliz himayesinde atlas ufkunun ötesine geçti (1948'de Hindistan'a katıldı). ÜLKE SÜREKLİLİĞİ kimliğidir — [[maratha]] künyesi 1818-06-03'te biterken toprak BOŞALMIYOR, kimlik değişiyor (`§3.5.0` ARDİL). 🟢 TDV `hindistan` maddesi hânedanı ADIYLA sayıyor: «Holkar hânedanı (1728-1858)». 🟡 O aralık bu pencereyi DESTEKLEMİYOR — hânedan listesi aralığıdır ve başka bir soruyu cevaplıyor; `f:1818-06-03` [[maratha]] künyesinin `t:`siyle birebir aynıdır. ⚪ `t:1923-10-29` atlasın PENCERE UCUDUR.",
+   "kaynak": "hindistan",
+   "not": "🟡 `f:1818-06-03` dayanağı [[gvalyar-sindiya]] ile aynı ve aynı damgayı taşıyor: veriden + `maratha` künyesinden türetildi, TDV bu günü vermiyor. ⚪ 1818 Mandsaur antlaşmasının metni ARANMADI — `okumadim`.",
+   "kronoloji": [
+    {"t": "1818-06-03", "tur": "kurulus", "b": "Maratha Konfederasyonu'nun sona ermesiyle Holkar hânedanının İndor devleti ayrı bir İngiliz himayesindeki prens devleti olarak sürdü", "kaynak": "hindistan"}
+   ]
+  }
+ ]
+}
