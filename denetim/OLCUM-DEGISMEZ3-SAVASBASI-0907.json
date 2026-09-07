@@ -1,0 +1,58 @@
+{
+ "_NOT": "Mekanizmanın ikinci ucu. Anahtar (t, ad). Öngörü ölçümden ÖNCE docstring'e yazıldı, mazeretiyle.",
+ "pencere": 30,
+ "kume": {
+  "savas_basi_tasiyan": 0,
+  "tasimayan": 171,
+  "t_yok_kapsam_disi": []
+ },
+ "senkron": {
+  "basli_acik": [],
+  "bassiz_acik": [
+   [
+    "1364-07-01",
+    "Sırpsındığı"
+   ],
+   [
+    "1620-09-17",
+    "Cecora (Ţuţora)"
+   ],
+   [
+    "1480-05-23",
+    "Rodos kuşatması"
+   ],
+   [
+    "1621-09-02",
+    "Hotin kuşatması"
+   ],
+   [
+    "1683-07-14",
+    "II. Viyana kuşatması"
+   ],
+   [
+    "1638-11-15",
+    "Bağdat kuşatması"
+   ],
+   [
+    "1511-03-01",
+    "Şahkulu (Teke)"
+   ],
+   [
+    "1657-07-19",
+    "Çanakkale zaferi"
+   ]
+  ]
+ },
+ "mesafe": {
+  "basli_medyan": null,
+  "bassiz_medyan": 0,
+  "basli_n": 0,
+  "bassiz_n": 171,
+  "basli_sifir": 0,
+  "bassiz_sifir": 140
+ },
+ "ongoru": {
+  "bir_senkron": true,
+  "iki_mesafe_yonu": false
+ }
+}
