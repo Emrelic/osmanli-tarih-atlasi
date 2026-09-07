@@ -93988,5 +93988,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3255",
+  "zaman": "2026-09-07 22:28",
+  "kimden": "CAKISMA-0907",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "KÜME 2 TESLİM — Şehrizor · Halepçe · denetim/yer_yama_kume2_0907.js + ARAC-CAKISMA-KUME2-0907.py · VERİ YAZMADIM. 🔴🔴 VE ŞARTNAMENİN ÖNCÜLÜ BU KÜMEDE ÇÜRÜDÜ — bekletmeden bildiriyorum. Şartname diyor ki: *\"Kalan 23'ün tamamı GERÇEK veri farkı — alet düzeltmesiyle kapanmazlar, TARİHÎ KARAR isterler.\"* Bu iki kayıt için YANLIŞ. Ölçüm: ``` Halepçe d: 🟢 ÜÇ YAMADA DA AYNI · s: 🟢 AYNI Şehrizor d: 🟢 AYNI · s: 🟢 AYNI ÇATIŞAN ALANLAR: kaynak (3 dosya) · neden (2 dosya) — İKİSİ DE AÇIKLAMA ``` Yani veri farkı YOK. Üç yama aynı veriyi taşıyor, yalnız FARKLI AÇIKLIYOR — ve üç açıklama da meşru ve birbirini tamamlıyor: `manda_0906` 1921 Faysal'ı, `ok109_fetret` 1340 İlhanlı sınırını, `uyg3` Osmanlı-Safevî döngüsünü anlatıyor. 🔴 SEBEP ARACIN MUAFİYETİNİN DAR OLMASI — kodu okudum: ``` _sahiplik_uygula.py:439 if catisan_alanlar == [\"kaynak\"]: ``` Muafiyet TAM OLARAK `[\"kaynak\"]`. `neden` de çatışınca liste `[\"kaynak\",\"neden\"]` oluyor, dal ateşlemiyor, `elif catisan_alanlar:` dalına düşüp BLOKE ediyor. ⇒ Bu iki kayıt, senin `kaynak` için ZATEN çözdüğün sınıfın **bir alan ötesi.** 🟡 AMA MUAFİYETİ GENİŞLETMEYİ ÖNERMİYORUM, ve gerekçe SENİN kendi gerekçen: `kaynak`ı CATISABILIR'den çıkarmayı reddederken *\"çıkarılsaydı alet liste[0]'ı, yani DOSYA ADININ ALFABETİK SIRASINI seçerdi\"* demişsin. `neden` için de aynı: muafiyet açılırsa üç açıklamadan biri ALFABETİK olarak seçilir, ikisi SESSİZCE düşer. 🟢 ÇARE: BİRLEŞTİRME. Veri aynı olduğu için kaybedecek bir şey yok; üç `kaynak` ve iki `neden` metnini TEK alanda topladım ve **her parçayı KENDİ DOSYASIYLA etiketledim** (`[manda_0906] … ¦¦ [ok109_fetret] …`). `§11`: *metin birleştirmek, dayanakları birleştirmek DEĞİLDİR* — o yüzden hangi iddianın hangi yamadan geldiği kayıtta DURUYOR. ``` Halepçe kaynak 3 parça (1.383 kar.) · neden 2 parça (615 kar.) Şehrizor kaynak 3 parça (1.229 kar.) · neden 2 parça (755 kar.) ``` 🟢 VE ÜRETECE ÖN KOŞUL KOYDUM: veri alanları (`d·s·v·isg·m`) ayrışıyorsa birleştirme YAPILMIYOR, kayıt \"gerçek veri farkı\" diye atlanıyor ve bildiriliyor. İkisinde de ayrışma 0 çıktı — yani hüküm kendi ön koşuluyla sınandı. ⚠️ SANA İKİ SORU: ① Bu birleştirme biçimi (parçaları dosya etiketiyle tek alanda toplamak) KABUL EDİLİR Mİ? Kabul edilirse kalan tekillerde de kullanacağım ve muhtemelen birkaçı daha bu sınıfa düşecek. ② 23'ün kaçı bu sınıfta — ÖLÇMEDİM. Ama bu iki kayıt \"tamamı gerçek veri farkı\" öncülünü çürüttüğü için ötekilerin de ayrıca sınanması gerekiyor. Kalan kümeleri açarken her birinde ÖNCE \"veri gerçekten ayrışıyor mu\" diye soracağım. ÖLÇMEDİĞİM: `1917-03-11`in kuzey Irak için doğruluğu (önceki hükmün açık kalemi, canlı verinin sorusu — dokunmadım) · `1921-08-23`ün kronoloji maddesi (önceki hükmün açık borcu, hâlâ açık) · birleştirilmiş metinlerin İÇERİK doğruluğu (yalnız VARLIKLARINI ve çatışmadıklarını ölçtüm). SIRADAKİ: Çaldıran · Başkale (ok110 · p0035 · tbmm_1920_0905). Bu ikisini FAZ 1'de ölçmüştüm: `ok110` safevî bitişini 1639-05-17, `p0035` 1548-08-25 diyor — 91 yıl, ve o zaman \"çözme, bildir\" demiştin. Şimdi karar bende; TDV'ye soracağım.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
