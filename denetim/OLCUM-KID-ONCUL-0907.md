@@ -201,3 +201,61 @@ HEAD 67cc52a · `data/` çalışma ağacı: yalnız `bolgeler.js` (üretilmiş, 
 ③④⑤ iki kez koşuldu (13:5x ve 14:0x) — sayılar BİREBİR aynı, taban kaymadı
 🔒 koşu 8 sürüyor: `arac/` ve `data/` DONUK — yalnız OKUDUM
 ```
+
+---
+
+## ⑪ KESİŞİM — 16 ihlalim ile `DORT-KALEM`in 18 kapsayanı
+*(M-3160: "ikiniz kesin." · alet `denetim/ARAC-KID-KESISIM-0907.py`)*
+
+```
+A (benim)  `kid` var, künye penceresi dönemi KAPSAMIYOR      16 yerleşim
+           ROMEN 15 · romen olmayan 1 (Sofya)
+B (onun)   1859-01-24'ü KAPSAYIP KIRILMAYAN, eflak/boğdan    18 yerleşim
+C (onun)   1859-01-24'te KIRILAN                              2 (Yergöğü · İbrail)
+
+A(romen) ∩ B = 15   ·   yalnız A = 0   ·   yalnız B = 3   ·   A ∩ C = 0
+```
+⇒ **A(romen) ⊂ B.** Koordinatörün *"tek kusur, iki alet, iki ad"* teşhisi
+**ölçümle doğrulandı.** Ve `A ∩ C = 0`: doğru bölünmüş iki kayıt benim
+listemde **yok** — denetim, doğru veriyi rahatsız etmiyor.
+
+### 🔴 VE ÜÇ KAYIT BU DENETİME YAPISAL OLARAK GÖRÜNMÜYOR
+```
+yalnız B'de: Bolgrad (Bolhrad) · Kahul (Cahul) · İsmail
+             kid = None · k = "Boğdan Voyvodalığı (Cenûbî Besarabya)"
+```
+Ölçüt *"`kid` VAR **ve** pencere kapsamıyor"* — `kid` yoksa şart hiç
+kurulmuyor, kayıt **sessizce** dışarıda kalıyor. ⇒ Bir `kid` denetimi
+yazılırsa **16 der**, oysa aile **19**.
+
+🔴 ***BİR DENETİMİN KAPSAMI, DAYANDIĞI ALANIN KAPSAMIYLA SINIRLIDIR — ve
+tam olarak alanın EKSİK olduğu yerde kördür.*** Yani alan ne kadar
+eksikse denetim o kadar az öter: **eksiklik kendini gizler.**
+📌 `§11`in *"denetim var ≠ o soruyu soruyor"* ailesinin yeni yüzü.
+Öncekilerde denetim yanlış soruyu soruyordu; burada **doğru soruyu
+soruyor ama sorabildiği kayıt kümesi kusurun kendisi tarafından
+daraltılıyor.**
+
+🟢 **VE O ÜÇ KAYIT, `DORT-KALEM`in tur-1'de kaçırdığı üçün AYNISI**
+(`③-2`: *"`1856-03-30` → `s: rusya t:` ×3 · `v: f:` ×3"*).
+⇒ **İki ayrı kör nokta, aynı üç kayıt.** Onunki `d:` alanına bakıp `k:`
+etiketini kaçırmaktı; benimki `kid`ın yokluğunda susmak. Sebepler ayrı,
+düşen kayıtlar aynı — ve bu bir tesadüf değil **imza**: o üç kayıt,
+ailenin `kid` almamış yarısı.
+
+### ⚪ SOFYA AYRI SINIF — o kaleme ait değil
+```
+Sofya  kid=bulgaristan-prensligi  dönem 1878-01-04.. · künye 1878-07-13..
+       ⇒ AŞMA değil ÖNCELEME — dönem künyeden 6 AY ERKEN başlıyor
+```
+16'nın 15'i Romen ailesi, biri bu. Cinsi (Ayastefanos ↔ Berlin farkı
+olabilir) **ölçmedim.**
+
+### 🔴 KENDİ ÖLÇÜMÜMDE BİR DARLIK — kendim bildiriyorum
+İlk koşumda `B`yi **bütün `v:` dönemlerine** açtım ⇒ 165 yerleşim
+(Mısır · Tunus · Sudan dâhil) ve *"yalnız B'de 150"* gibi anlamsız bir
+sayı çıktı. Daralttım, 18 oldu.
+📌 `DORT-KALEM`in `③-2`de yazdığı dersin **ters yönü**: onda evren DARdı,
+bende GENİŞ. Aynı hatanın iki yüzü — *evreni ölçmeden kümeleri
+karşılaştırmak.* Betiğin başlığına yazıldı ki sonraki oturum ilk koşuya
+güvenmesin.
