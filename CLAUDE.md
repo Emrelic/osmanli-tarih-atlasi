@@ -4190,6 +4190,38 @@ Piran                hiçbiri
   ⇒ Sömürge himayesi için ① **yapısal olarak mevcut değil**; herkes ② ya da
   ③'ü seçmek **zorunda** kalmış.
 
+  > 🟢🟢 **BU İKİ SATIR ERTESİ GÜN BAYATLADI — ders duruyor, VAKA
+  > DAMGALANDI (7 Eylül 2026 · `KIMLIK-KID-0907` ölçtü).**
+  > ```
+  > db23f90  2026-09-06 13:12  "SECENEK 🅑 INDI — v: donemlerine kid: + statu:"
+  > 5e3cc53  2026-09-05 23:58  (5 Eylül'ün SON commit'i) → "kid:" sayısı 0
+  > git log -S"kid:" -- data/   İLK sonuç: db23f90
+  > canlı: v: f 429 · t 429 · k 373 · statu 421 · kid 291
+  > ```
+  > ⇒ **Ölçüm YANLIŞ DEĞİLDİ — BİR GÜN SONRA BAYATLADI.** O gün `v:`
+  > gerçekten kimlik taşımıyordu; alan ertesi gün doğdu.
+  >
+  > 🔴 **Ve bayat hâliyle okunması ölçülebilir bir zarar veriyordu:**
+  > *"kimlik alanı yok"* cümlesi bugün **çözülmüş bir eksiği açık borç**
+  > gibi gösterir, ve ona dayanan bir oturum **var olan bir alanı yeniden
+  > tasarlamaya** kalkar — `§11`in *"bir alan tasarlamadan önce zaten var
+  > olup olmadığını ÖLÇ"* dersinin (`sinif:` ↔ `kd:` vakası) birebir
+  > tekrarı. Bu satır bugün **üç ayrı sevke** taşındı ve taşıyan
+  > koordinatördü.
+  >
+  > ⚠️ **VE TERS YÖNDE BAYAT KAYIT ÜRETİLMEDİ:** `kid`ın var olması
+  > *"Osmanlı dışı himaye artık ifade edilebiliyor"* demek **DEĞİLDİR.**
+  > ```
+  > kid DOLU 291 / 429 · kalan 88 · onların 56'sı ADSIZ
+  > ```
+  > ⇒ ***Alan DOĞDU; KAPSAMASI tamam değil.*** İkisi ayrı cümledir, ve
+  > birini ötekinin yerine yazmak yeni bir bayat kayıt üretir.
+  >
+  > 📌 `§3.5.1`in Yukarı Macaristan emsali: *"bir vakayı silmek dersi de
+  > siler; damgalamak dersi korur."* Ders (`②` ile `③` arasındaki
+  > tutarsızlık bir TERCİH değil bir EKSİĞİN sonucudur) **hâlâ doğru** —
+  > eksik kısmen kapandı, tamamen değil.
+
   📌 ⇒ ***② ile ③ arasındaki tutarsızlık bir TERCİH DEĞİL, BİR EKSİĞİN
   SONUCUDUR.*** Ve bu, sorulacak soruyu değiştirir: *"künye bitmeli mi
   sürmeli mi"* bir **yanlış ikilem** — gerçek soru *"①'in eşdeğeri Osmanlı

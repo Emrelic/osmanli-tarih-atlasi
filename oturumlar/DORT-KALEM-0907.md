@@ -81,9 +81,22 @@ kırılma yoksa madde yazmak yine değerli ama önceliği düşer.
 **işgal örtüsü** mü (`isg:`)?
 🔴 Ölçüt kaynağın **yüklemi**dir, adı değil (`§11`: *sefer · anılma ·
 isyan · idarî devir* — dördü de tasarruf sanılan şeyler).
-⚠️ Ve `v:` dönemlerinin **kimlik alanı yok** (423 dönemin tamamı yalnız
+⚠️ ~~Ve `v:` dönemlerinin **kimlik alanı yok** (423 dönemin tamamı yalnız
 `f`/`t`/`k`/`enklav` taşıyor, 5 Eylül'de ölçüldü) ⇒ `v:` seçersen
-kimlik ifade EDİLEMEZ. Bu, kararın parçası.
+kimlik ifade EDİLEMEZ. Bu, kararın parçası.~~
+
+> 🔴 **BU UYARI BAYATTI — 7 Eylül'de ölçüldü (`KIMLIK-KID-0907`).**
+> `kid` alanı **6 Eylül 13:12'de doğdu** (`db23f90`, "SEÇENEK 🅑"), yani
+> şartname yazılırken zaten vardı. Bugünkü hâl:
+> ```
+> v:  f 429 · t 429 · k 373 · statu 421 · kid 291
+> ```
+> ⇒ `v:` **kimlik taşıyabiliyor.** 5 Eylül ölçümü yanlış değildi, bir gün
+> sonra bayatladı — ve onu bu şartnameye taşıyan koordinatördü.
+> ⚠️ Ama ters yöne de yazma: kapsama **291/429**, kalan 88'in **56'sı
+> adsız.** *Alan doğdu; kapsaması tamam değil* — iki ayrı cümle.
+> 🟢 Kalem ④'ün hükmü bundan **etkilenmiyor**: karar `isg:` çıktı ve
+> gerekçesi şemanın yanında **kaynağın yüklemiydi.**
 
 ---
 
