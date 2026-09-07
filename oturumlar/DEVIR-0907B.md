@@ -422,3 +422,84 @@ iki yerde duruyorsa biri güncellenince öteki bayatlar*). Çözüm:
 ```
 🔜 HENÜZ İNMEDİ: *"bir alet DOĞRU ölçüp YANLIŞ HÜKÜM basabilir — sayılar
 denetlenebilir, ÖZET SATIRI denetlenmez"* (`GECIS-SURE`, bugün iki kez).
+
+---
+
+## ⑨q — MERGE KİLİTLERİ · KOŞU SONRASI SIRA GÜNCELLENDİ *(7 Eylül, 17:0x)*
+
+🔴 **`SINAV-KOSU8-0907` üç merge kilidi ölçtü; ikisi AÇILDI (`a5d6f1f`).**
+```
+_kunye_uygula.py:44      "…YAMA-KUNYE-*0905*.json" → "…YAMA-KUNYE-*.json"
+                         13 yamanın 11'i kaçıyordu · biri `rus-amerika`
+                         yani BUGÜNKÜ MERGE KUYRUĞU
+_kronoloji_uygula.py:49  "…KRONOLOJI-*0905*.json"  → "…KRONOLOJI-*.json"
+                         bekleyen 22 yamanın 11'i, TAM YARISI
+```
+🟢 **Genişletmenin bedeli UYGULAMADAN ÖNCE ölçüldü (kuru koşu):**
+```
+künye      37 istek · KABUL 1 (`rus-amerika`) · RED 36 (zaten var)
+kronoloji  418 istek · KABUL 0 · RED 418 (hepsi zaten inmiş)
+```
+⇒ Genişletme bir **sel** değil bir **kilit açma.**
+
+🟡 **KİLİT 3 REDDEDİLDİ, ve açık kaldı:** `_kademe_uygula.py:29` sabit
+listesi **kasten** duruyor — kör bir `yer_yama_kademe*` glob'u
+`yer_yama_kademe_zincir.js`i yutar ve o dosya `CLAUDE.md`de ölçülmüş
+biçimde bir **`m:` yamasıdır**, kademe yaması değil. Adı doğru, cinsi
+yanlış. Çare: eksikleri **adıyla** listeye eklemek, ya da aletin diskte
+bulup listede olmayanları **gürültüyle** bildirmesi.
+
+🔴🔴 **VE KURU KOŞU DÖRDÜNCÜ BİR ŞEY GÖSTERDİ — SESSİZ SIFIR, 12 DOSYA:**
+```
+1917-TASIMA-0906 · AFRIKA-0906 · AGADEZ-1906-0906 · ARNAVUTLUK-0905 ·
+AVRUPA-0906 · BALKAN-0906 · MANDA-0906 · ORTADOGU-URDUN-0907 ·
+SISAM-0905 · SOHUM-0907 · YUNANANAKARA-0905 · ZEND-1794-0905
+```
+Glob'un **tuttuğu** ve aletin `0 madde` bastığı dosyalar. `CLAUDE.md`
+bu sınıfı **TEK vaka** olarak kaydediyordu (`ZEND-1794`); gerçek **12**.
+```
+Ⓐ dosya kronoloji yaması DEĞİL  → glob yanlış sahiplenmiş (zararsız)
+Ⓑ yama AMA alan biçimi farklı   → GERÇEK KAYIP, sessiz
+```
+⇒ **Ⓑ çıkarsa bir merge kilidinden büyüktür**: kilit yamayı *bekletir*,
+bu onu **yok sayar** ve `0 madde` diye temiz bir sayı basar.
+📌 SEVK EDİLDİ → `SINAV-KOSU8-0907` (Ⓑ daraltmasının ilk kalemi).
+
+### KOŞU SONRASI SIRA — DEĞİŞTİ
+```
+① `uret_petek.py` `vl` önceliği (`kid or k`)
+② `rus-amerika` ATOMİK BİRİMİ — üçü BİRLİKTE, ayrılamaz:
+     ⓐ künye (`_kunye_uygula --yaz`, artık glob görüyor)
+     ⓑ renk  (`renkler.py` — koşu sürerken DONUK, ancak şimdi)
+     ⓒ Alaska yaması (`yer_yama_alaska_devir_0907.js`, 5 kayıt)
+   🔴 ⓐ+ⓒ ⓑ'siz inerse `§8` HARİTA DELİĞİ — KIMLIK-1923 ölçtü
+③ bekleyen öteki yamalar   ④ `denetle.py`   ⑤ `denetle_yayin.py`
+⑥ sürüm damgası            ⑦ yayın
+```
+
+## ⑨r — `hal` KOVASI KAPANDI *(M-3243, altı kolu birden bağlar)*
+```
+hukuki      antlaşma dayanağı BULUNDU              kaynak ZORUNLU
+tanimsiz 🆕 belge sınırın BELİRLENMEDİĞİNİ söylüyor kaynak ZORUNLU
+ayni-kimlik iki ucun 1923 kimliği AYNI ⇒ C'de sınır değil
+bulunamadi  arandı, dayanak yok
+olculemedi  aranamadı / alet cevap veremedi
+```
+🔴 `ic-idari` **REDDEDİLDİ** — tanımı `ayni-kimlik`in birebir aynısı;
+altı kol altı ayrı ad icat etmişti (`§7` ad alanı dersinin kova yüzü).
+🟢 `tanimsiz` **KABUL** — `bulunamadi`nın TERSİ: dayanak VAR ve
+*"sınır belirlenmemiştir"* diyor (Lozan md. 3/2).
+🔴 Çevrim ONAYLI ama **MEKANİK DEĞİL**: GAFRIKA'nın 35'i toplu
+çevrilmez — atlas İngiliz sömürgelerini ayrı tutmadığı için altı
+GERÇEK sınır *"aynı kimlik"* gibi görünüyor (**model artefaktı**).
+⇒ Uygulayan **her kol kendi dosyası**; `BIRLESTIRICI` sonra doğrular.
+
+## ⑨s — SESSİZ HATA: DEFTER YANLIŞ SESSION ID VERDİ
+```
+py arac/defter.py coz "KIMLIK-1923-0907" → local_5b69886b-…  🔴 YOK
+list_sessions (GERÇEK)                   → local_0865656a-…  🟢
+```
+`§3.0` zaten yazıyor: *"ÖNCE CANLIYA BAK, SONRA DEFTERE — defter
+kaydeder, ÖLÇMEZ."* Kuralı yazan taraf (ben) onu çiğnedi ve bir mesaj
+`Session not found` ile döndü. ⚠️ Defter bugün **en az bir** bayat
+kimlik taşıyor; adla mesaj göndermeden önce `list_sessions`.
