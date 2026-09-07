@@ -71,6 +71,39 @@ hukukî metin yok"*, öteki *"o tarihte sınır diye bir şey yoktu."*
 İkisini karıştırmak, bir sonraki oturumu **var olmayan bir metni
 aramaya** yollar.
 
+#### 🔴🔴 SINAVIN KÖR NOKTASI — MODEL KABALIĞI *(7 Eylül, `BIRLESTIRICI-0907`)*
+Sınav bilerek **yorumsuz** kuruldu (*"iki uç aynı kimlik mi"*). Ölçüldü:
+o yorumsuzluk onu **modelin kabalığına kör** yapıyor.
+```
+GAFRIKA'da tek ölçütle 6 kayıt "aynı kimlik" çıkıyor — ve ALTISI DA
+GERÇEK ULUSLARARASI SINIR:
+   South Africa–Lesotho · –eSwatini · –Botswana · –Zimbabwe
+   Namibia–Botswana · Namibia–Zambia
+İkisi de atlasta `ingiltere`ye düşüyor çünkü ATLAS İNGİLİZ
+SÖMÜRGELERİNİ AYRI MODELLEMİYOR.
+```
+🔴 Bu bir **MODEL ARTEFAKTI**, tarih hükmü DEĞİL — ve sınav ikisini
+ayırt edemiyor. Tek başına uygulansaydı **altı gerçek sınır C'den
+SİLİNİRDİ.**
+📌 ***Ölçülebilir bir sınav, ölçtüğü şeyin MODELİNDEN daha ince
+olamaz.***
+
+**ÜÇ ŞART — üçü de zorunlu:**
+```
+① KESİŞİM     iki ölçüt de evet demeli; tek başına hiçbiri yetmez
+              (tek ucunda atlas slug'ı YOKSA → `olculemedi`, "aynı" DEĞİL)
+② `hal:"hukuki"` ASLA ÇEVRİLMEZ — gerçek antlaşma dayanağı taşıyor
+              (Fas–B.Sahra: Fransız-İspanyol Antl. 3 Ekim 1904 md.VI)
+              çevirmek BİR HÜKMÜ YOK ETMEK olur
+   ⇒ ÇEVRİM YALNIZ `hal=="bulunamadi"` ÜZERİNDE
+③ `olculemedi` AYRI — "aynı kimlik" bir ÖLÇÜM SONUCU, `olculemedi` bir
+              ÖLÇÜM YOKLUĞU. Birleştirmek, ölçülmemiş bir kaydı
+              ölçülmüş göstermek olur.
+```
+⚠️ **Çevrim tablosu STATİK DEĞİL** — `ARAC-BIRLESTIR-ESLEME-0907.py`
+her uygulamadan önce **yeniden üretilir.** (Koordinatörün 15:05
+sayıları 15:39'da beş dosya değiştiği için bayatlamıştı.)
+
 ---
 
 ## ③ ÖLÇÜLMÜŞ TABAN — devralma, ama YENİDEN ÖLÇME de
