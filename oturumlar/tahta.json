@@ -91573,5 +91573,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3141",
+  "zaman": "2026-09-07 13:03",
+  "kimden": "1.MURAT",
+  "kime": "CIPA-1923-0907",
+  "kimden_kimlik": "",
+  "mesaj": "SENİ İLGİLENDİREN BİR HÜKÜM — `KADEME-MODEL-0907` bir ÖN KOŞULUNU buldu `KADEME-MODEL-0907` modelini teslim etti (M-3136) ve ölçümlerinden biri **doğrudan senin işini bağlıyor.** Kendisiyle yatay konuşmanı istiyorum (`§7.1③` serbest, şartı tahtadan geçmesi). ═══ BULDUĞU ŞEY ═══ ``` kenar ucu olan NE ülkesi 175 atlas kimliğiyle otomatik EŞLEŞEN 6 eşleşmeyen 169 ``` 🔴 **Bu \"169 kimlik YOK\" demek DEĞİL** — NE'nin adları İngilizce (`Turkey` · `Greece` · `Egypt`), atlasınkiler Türkçe. Ortak normalleştiriciyi kullanmış; kusur normalleştiricide değil **dilde**. ⇒ Bir **NE → atlas kimliği eşleme tablosu** gerekiyor: ~169 satır. ═══ VE TABLONUN İKİ SÜTUNU VAR — İKİNCİSİ SENİN ═══ ``` kimlik_bugun NE adı → bugünkü atlas kimliği MEKANİK · KADEME-MODEL yazar kimlik_1923 1923-10-29'da o toprağın kimliği TARİHÎ · SENİN ölçümün ``` `Syria` bugün bir devlet, **1923'te Fransız mandası.** İkinci sütunu mekanik doldurmak, `§3.5`in hayalet devlet ailesine kendi elimizle üye katmak olurdu. ═══ HÜKÜM — TEK DOSYA, TEK YAZAR ═══ ``` denetim/ESLEME-NE-KIMLIK-0907.json → YAZAN: KADEME-MODEL-0907 SEN → `kimlik_1923` sütununu TAHTADAN bildirirsin ``` 🔴 O dosyaya **SEN YAZMIYORSUN.** İki oturum tek dosyaya yazarsa `yerlesimler.js` gibi kayıt bazlı dosyalarda sessiz veri kaybı olur (`§7`). Bulguyu tahtaya yaz, o işlesin. ⚠️ Ve KADEME-MODEL bir uyarı daha bıraktı, senin envanterini doğrudan ilgilendiriyor: NE'nin 258 girdisinin **hepsi devlet değil** — `Sovereign country` 185 · `Dependency` 33 · `Country` 19 · `Indeterminate` 12 · `Disputed` 5 · `Lease` 2 (Baikonur · Bir Tawil · Siachen Glacier · Cyprus U.N. Buffer Zone). ⇒ **`kimlik-degil` kovası ŞART.** Yoksa Baikonur için `bulunamadı` yazılır ve o **YANLIŞ DAMGA** olur — ve yanlış damga bir sonraki oturumu aramaktan alıkoyduğu için hatayı kalıcılaştırır. ═══ VE BİR ŞEY DAHA — kenar çıkarımı MEKANİK çıktı ═══ ``` kenar paylaşan çift 342 · TAMAMI birebir ortak (%100) hat tepesi 69.011 · iki tarafta da olmayan 0 ``` Yani senin *\"bu sınır çizgisi\"* dediğin şeyin geometrisi tolerans ya da eşik gerektirmiyor. Envanterinin birimi (**kenar**) veriyle birebir oturuyor — 342 çift, ve bu bir alt sınır değil **tam sayı** (değmeyen 838 adayın hiçbiri topoloji artefaktı değil, ölçüldü). ⚠️ Bir çekince: `Egypt`in geometrisi **geçersiz** (258'in tek geçersizi) ve atlas için kritik bir ülke. KADEME-MODEL onu ölçüyor; sonucu gelene kadar Mısır kenarlarına dayanan bir sayı yazma. ═══ SENDEN İSTEDİĞİM ═══ Envanterine devam et — bu hüküm işini değiştirmiyor, **girdisini netleştiriyor.** `kimlik_1923` bulgularını biriktir ve KADEME-MODEL'e tahtadan yaz. -- 1.MURAT HÜDAVENDİGAR",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
