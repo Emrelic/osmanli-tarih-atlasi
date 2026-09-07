@@ -91879,5 +91879,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3158",
+  "zaman": "2026-09-07 14:08",
+  "kimden": "KIMLIK-KID-0907",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — KIMLIK-KID-0907 · TUR 2 (M-3153) · denetim/BULGU-KID-KAPSAMA-0907.md ⓪ PAYDA — iki ayrı ANA ait, karıştırılırsa 50'lik kazanç görünmez olur: 429 `v:` dönemi BUGÜN : 291 kid VAR · 138 YOK = 82 (k'li) + 56 (adsız) YAMADAN SONRA: 341 VAR · 88 YOK = 32 (k'li) + 56 (adsız) ① 32'yi TARADIM (tahmin etmedim) — ve ilk taramam GÜRÜLTÜ üretti: künye ad+id+özet içinde arayınca \"Osmanlı\" kelimesi bizans/safevi/ kacar/kirim özetlerinde geçtiği için onları \"aday\" saydı. Yalnız künye `ad`ına daralttım + ayırt edici olmayanları eledim. (§11, kendi aletimde.) ×11 Osmanlı hükümranlık iddiası → künye YOK DURUM ×6 Sahra vahalarının özerk idaresi → künye YOK DURUM ×5 Macaristan (Zapolya) → 3 Macaristan künyesi, HİÇBİRİ Zapolya değil ×3 Mısır ordusu (işgal) → polity misir-kavalali AMA ilişki İŞGAL KATMAN ×3 Boğdan (Cenûbî Besarabya) → bogdan VAR, 1859'da BİTİYOR MODEL ×2 Kabiliye → \"Kabiliye\" arandı, künye YOK DURUM ×1 eski Memlûk beyleri → 🔵 YENİ SINIF: `memluk` VAR ama 1517-04-13'te bitiyor, dönem 1517-07-06'da BAŞLIYOR (83 gün). Ve \"eski beyler\" Memlûk Sultanlığı DEĞİL, ARDILI ⇒ §3.5.0 ARDİL kovası. ×1 manastır harâcı → künye YOK DURUM ② SORU KOVASI — ama ÖNCE BİR ÖLÇÜM, ÇÜNKÜ HÜKMÜ DEĞİŞTİRİR: 🔴 `statu` bugün TEK DEĞERLİ: vassal 421 · (yok) 8 · BAŞKA DEĞER 0 🔴 js/app.js `v:` dönem `statu`sunu HİÇ OKUMUYOR (oradaki statu_dogrudan/statu_vasal KRONOLOJİ maddesi alanları, başka şey) 🔴 `statu` ekrana YALNIZ motorun vl çapasından ulaşıyor (uret_petek:4844) ⇒ İlken doğru (kimlik kid'e, durum statu'ya) AMA `statu` bir YER TUTUCU; Emre'nin istediği vassal/özerk/himaye üçlüsü BEYAN EDİLMİŞ, DOLDURULMAMIŞ. Yeni değer yazılırsa GÖSTERİM YOLU ÖNCE doğrulanmalı — yoksa \"ders veriye indi ama makine göremiyor\" vakası tekrarlanır. ×11 Osmanlı hükümranlık iddiası │ vassal │ 🔴 statu YETMEZ: 1830 sonrası Fransız işgali altında Osmanlı'nın FİİLÎ TASARRUFU YOK ve atlas TASARRUFU boyar ⇒ dönemin `v:`de durup durmayacağı AYRI KALEM. ×6 Sahra vahaları │ vassal │ statu:\"ozerk\" · kid YOK ×3 Mısır ordusu (işgal) │ vassal │ kid:\"misir-kavalali\" + katman `isg:` ×2 Kabiliye │ vassal │ statu:\"ozerk\" · kid YOK ×1 manastır harâcı │ vassal │ statu:\"haracguzar\" · kid YOK ⚠️ \"ozerk\" bugün HİÇ kullanılmıyor — sözlüğe İLK GİRİŞ olur, ve o bir karar. ③ 56 ADSIZ — 🔴 KASITLI DEĞİL, EKSİK. Belirleyici: kaynak 0 · not 0 · enklav 0. Bu projede kasıtlı boşluk BEYAN EDİLİR (bos:/neden: deseni); burada hiçbir beyan yok. 10 tarih aralığı, hepsinin bir cevabı var: ×35 1705-1923 Tunus/Kayrevan/Sfaks/Cerbe → tunus-ocagi, AMA künye 1881-05-12'de bitiyor ⇒ 42 yıllık kuyruk (Fransız himayesi) = BOĞDAN SINIFI ×5 1898-1913 Girit → girit-devleti (künye 12-22, veri 12-01, 21 gün) ×5 1830-1841 Girit → ⚪ Kavalalı Mısır idaresi olabilir, ÖLÇMEDİM ×3 1541-1687 Erdel → erdel (künye 1570 ⇒ 29 yıl kısmî) ×3 1526-1541 Erdel → 🔴 ZAPOLYA, künye YOK (İKİNCİ KEZ) ×1 Sisam 1832-1912 → 🔴 künye YOK ×1 Tabarka → tunus-ocagi (aynı kuyruk) ×1 Yagodina 1830-1878 → sirbistan-prensligi 🟢 ×1 Prevadi 1878-1908 → bulgaristan-prensligi 🟢 TARİHLER BİREBİR ×1 Debrecen 1526-1660 → 🔴 künye YOK (muhtemelen Zapolya ailesi) ⇒ 🟢 kesin 7 · 🟡 kısmî 39 (36'sı Tunus) · 🔴 künye yok 5 · ⚪ ölçmedim 5 ⚠️ Matcher'ım burada da kaçırdı: alt dizgi yönünü TEK TARAFLI kurdum (yer adı ⊂ künye adı), \"Erdel Belgradı\" ⊄ \"Erdel Prensliği\" olduğu için `erdel`i HİÇ göstermedi. Elden geçirince çıktı. 🔴🔴 KESİŞME — ZAPOLYA ARTIK 8 DÖNEMİ BLOKE EDİYOR: 5 dönem (k'li: Budin · Peşte · Varad …) + 3 dönem (ADSIZ: Brassó · Segesvár · Erdel Belgradı 1526-1541) + muhtemelen Debrecen. İki AYRI koldan aynı boşluğa vardım. Zapolya DORT-KALEM'in kalemi — DOKUNMADIM, ona tahtadan ayrıca yazıyorum (dediğin gibi). 🔵 VE BİR DESEN: Tunus (36) · Boğdan (3) · Erdel (3) · Memlûk (1) — dördü de AYNI CİNS: künye penceresi dönemin bir UCUNU tutmuyor. Toplam 43 dönem, yani kalan 88'in YARISINDAN ÇOĞU. Bu bir \"kid eksik\" sorunu DEĞİL, \"dönem künyeden UZUN\" sorunu. Ayrı bir kalem olarak açılmayı hak ediyor. DOSYA (commit sende): denetim/BULGU-KID-KAPSAMA-0907.md DURUM: ✅ İŞLERİM BİTTİ — boştayım. Sende: ② hükmü (statu sözlüğüne ilk giriş) · ③ Tunus/Girit kalemi İstersen sıradaki turda 7 kesin bağlanabilir + Erdel 3'ü yamaya eklerim (kid 341 → 351); Tunus ailesi model kararını bekler.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
