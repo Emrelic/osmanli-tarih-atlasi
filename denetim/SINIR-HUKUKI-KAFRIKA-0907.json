@@ -1101,7 +1101,9 @@
    "kimlik_1923_kova_a": "DOGRUDAN",
    "kimlik_1923_kova_b": "DOGRUDAN",
    "ayni_kimlik_sinavi": "FARKLI",
-   "_UYARI": "🔴 MEKANİK SINAV BURADA YANLIŞ CEVAP VERİYOR VE SEBEBİ VERİDE. Sınav FARKLI diyor (ingiliz-sudani ↔ ingiltere) ⇒ gerçek bir C kenarı sayardı. Tarihen İKİ YAKA DA Anglo-Mısır Kondominyumu — aynı varlık. Sebep: atlas Sudan toprağını İKİ kimlikle boyuyor (ingiltere 61 · ingiliz-sudani 11; enlem aralıkları 9,95-20,83 ve 10,63-20,80, yani İÇ İÇE — ayrım coğrafî değil). ⇒ Sınav doğru, GİRDİ bozuk. hal 'bulunamadi' BIRAKILDI: bu kenar 1923'te YOKTU (Güney Sudan 2011-07-09). 'ayni-kimlik' de YAZILAMADI, çünkü veri onu söylemiyor."
+   "_UYARI": "🔴 MEKANİK SINAV BURADA YANLIŞ CEVAP VERİYOR VE SEBEBİ VERİDE. Sınav FARKLI diyor (ingiliz-sudani ↔ ingiltere) ⇒ gerçek bir C kenarı sayardı. Tarihen İKİ YAKA DA Anglo-Mısır Kondominyumu — aynı varlık. Sebep: atlas Sudan toprağını İKİ kimlikle boyuyor (ingiltere 61 · ingiliz-sudani 11; enlem aralıkları 9,95-20,83 ve 10,63-20,80, yani İÇ İÇE — ayrım coğrafî değil). ⇒ Sınav doğru, GİRDİ bozuk. hal 'bulunamadi' BIRAKILDI: bu kenar 1923'te YOKTU (Güney Sudan 2011-07-09). 'ayni-kimlik' de YAZILAMADI, çünkü veri onu söylemiyor.",
+   "dayanak_1923": "konusuz",
+   "sureklilik": "konusuz"
   },
   {
    "a": "Algeria",
@@ -2080,7 +2082,9 @@
    "kimlik_1923_b_yetkili": "fas",
    "kimlik_1923_kova_a": "DOGRUDAN",
    "kimlik_1923_kova_b": "DOGRUDAN",
-   "ayni_kimlik_sinavi": "FARKLI"
+   "ayni_kimlik_sinavi": "FARKLI",
+   "dayanak_1923": "bulundu",
+   "sureklilik": "curutuldu"
   },
   {
    "a": "Mauritania",
@@ -2656,7 +2660,9 @@
    "kimlik_1923_kova_a": "DOGRUDAN",
    "kimlik_1923_kova_b": "BOYANMIYOR",
    "ayni_kimlik_sinavi": "OLCULEMEDI — bir uc DOGRUDAN degil",
-   "_UYARI": "⚠️ Batı Sahra BOYANMIYOR kovasında — atlas noktası 0, en yakın nokta 200 km'den uzak (motorun kendi TAVAN_KM sabiti). Mekanik sınav bu kenarda KOŞULAMAZ. 'nitelik_1923' için yazdığım değerlendirme KAYNAĞA dayanır, VERİYE değil — ve ikisi ayrı şeydir."
+   "_UYARI": "⚠️ Batı Sahra BOYANMIYOR kovasında — atlas noktası 0, en yakın nokta 200 km'den uzak (motorun kendi TAVAN_KM sabiti). Mekanik sınav bu kenarda KOŞULAMAZ. 'nitelik_1923' için yazdığım değerlendirme KAYNAĞA dayanır, VERİYE değil — ve ikisi ayrı şeydir.",
+   "dayanak_1923": "bulundu",
+   "sureklilik": "gosterildi"
   },
   {
    "a": "Morocco",
@@ -3228,7 +3234,9 @@
    "kimlik_1923_kova_a": "DOGRUDAN",
    "kimlik_1923_kova_b": "BOYANMIYOR",
    "ayni_kimlik_sinavi": "OLCULEMEDI — bir uc DOGRUDAN degil",
-   "_UYARI": "⚠️ Batı Sahra BOYANMIYOR kovasında — atlas noktası 0, en yakın nokta 200 km'den uzak (motorun kendi TAVAN_KM sabiti). Mekanik sınav bu kenarda KOŞULAMAZ. 'nitelik_1923' için yazdığım değerlendirme KAYNAĞA dayanır, VERİYE değil — ve ikisi ayrı şeydir."
+   "_UYARI": "⚠️ Batı Sahra BOYANMIYOR kovasında — atlas noktası 0, en yakın nokta 200 km'den uzak (motorun kendi TAVAN_KM sabiti). Mekanik sınav bu kenarda KOŞULAMAZ. 'nitelik_1923' için yazdığım değerlendirme KAYNAĞA dayanır, VERİYE değil — ve ikisi ayrı şeydir.",
+   "dayanak_1923": "bulundu",
+   "sureklilik": "gosterildi"
   },
   {
    "a": "Chad",
@@ -4015,7 +4023,9 @@
    "kimlik_1923_b_yetkili": "ingiltere",
    "kimlik_1923_kova_a": "DOGRUDAN",
    "kimlik_1923_kova_b": "DOGRUDAN",
-   "ayni_kimlik_sinavi": "FARKLI"
+   "ayni_kimlik_sinavi": "FARKLI",
+   "dayanak_1923": "bulundu",
+   "sureklilik": "curutuldu"
   },
   {
    "a": "Algeria",
@@ -4819,7 +4829,9 @@
    "kimlik_1923_kova_a": "DOGRUDAN",
    "kimlik_1923_kova_b": "DOGRUDAN",
    "ayni_kimlik_sinavi": "AYNI",
-   "_hal_onceki": "hukuki"
+   "_hal_onceki": "hukuki",
+   "dayanak_1923": "bulundu",
+   "sureklilik": "gosterildi"
   },
   {
    "a": "Egypt",
@@ -5312,7 +5324,9 @@
    "kimlik_1923_b_yetkili": "ingiltere",
    "kimlik_1923_kova_a": "DOGRUDAN",
    "kimlik_1923_kova_b": "DOGRUDAN",
-   "ayni_kimlik_sinavi": "FARKLI"
+   "ayni_kimlik_sinavi": "FARKLI",
+   "dayanak_1923": "bulundu",
+   "sureklilik": "gosterildi"
   },
   {
    "a": "Egypt",
@@ -5643,7 +5657,9 @@
    "kimlik_1923_b_yetkili": "italya",
    "kimlik_1923_kova_a": "DOGRUDAN",
    "kimlik_1923_kova_b": "DOGRUDAN",
-   "ayni_kimlik_sinavi": "FARKLI"
+   "ayni_kimlik_sinavi": "FARKLI",
+   "dayanak_1923": "yok-1923te-delimite-degildi",
+   "sureklilik": "curutuldu"
   },
   {
    "a": "Chad",
@@ -6018,7 +6034,9 @@
    "kimlik_1923_b_yetkili": "italya",
    "kimlik_1923_kova_a": "DOGRUDAN",
    "kimlik_1923_kova_b": "DOGRUDAN",
-   "ayni_kimlik_sinavi": "FARKLI"
+   "ayni_kimlik_sinavi": "FARKLI",
+   "dayanak_1923": "bulundu",
+   "sureklilik": "gosterildi"
   },
   {
    "a": "Algeria",
@@ -6397,7 +6415,9 @@
    "kimlik_1923_b_yetkili": "italya",
    "kimlik_1923_kova_a": "DOGRUDAN",
    "kimlik_1923_kova_b": "DOGRUDAN",
-   "ayni_kimlik_sinavi": "FARKLI"
+   "ayni_kimlik_sinavi": "FARKLI",
+   "dayanak_1923": "bulundu",
+   "sureklilik": "curutuldu"
   },
   {
    "a": "Algeria",
@@ -6837,7 +6857,9 @@
    "kimlik_1923_kova_a": "DOGRUDAN",
    "kimlik_1923_kova_b": "DOGRUDAN",
    "ayni_kimlik_sinavi": "AYNI",
-   "_hal_onceki": "hukuki"
+   "_hal_onceki": "hukuki",
+   "dayanak_1923": "bulundu",
+   "sureklilik": "gosterildi"
   },
   {
    "a": "Algeria",
@@ -7501,7 +7523,9 @@
    "kimlik_1923_kova_a": "DOGRUDAN",
    "kimlik_1923_kova_b": "OLCULEMEDI",
    "ayni_kimlik_sinavi": "OLCULEMEDI — bir uc DOGRUDAN degil",
-   "_UYARI": "🔴 DÖRDÜNCÜ KOVANIN GEREKÇE ÖRNEĞİ TAM BU KENARDI (M-3183: «Cezayir–Tunus 1923'te iki Fransız toprağı arasındaki idarî hattı») VE SINAV BURADA KOŞULAMIYOR: Tunus'un 36 noktası 'v:' ve 'k'/'kid' ikisi de None ⇒ kimlik makine tarafından sorulamıyor. ⇒ Kovanın bu bölgedeki kapsamı 'kid' işine BAĞLI. Bu bir itiraz değil, ölçülmüş bir bağımlılık."
+   "_UYARI": "🔴 DÖRDÜNCÜ KOVANIN GEREKÇE ÖRNEĞİ TAM BU KENARDI (M-3183: «Cezayir–Tunus 1923'te iki Fransız toprağı arasındaki idarî hattı») VE SINAV BURADA KOŞULAMIYOR: Tunus'un 36 noktası 'v:' ve 'k'/'kid' ikisi de None ⇒ kimlik makine tarafından sorulamıyor. ⇒ Kovanın bu bölgedeki kapsamı 'kid' işine BAĞLI. Bu bir itiraz değil, ölçülmüş bir bağımlılık.",
+   "dayanak_1923": "okumadim",
+   "sureklilik": "okumadim"
   },
   {
    "a": "Ethiopia",
@@ -8080,7 +8104,9 @@
    "kimlik_1923_b_yetkili": "ingiltere",
    "kimlik_1923_kova_a": "DOGRUDAN",
    "kimlik_1923_kova_b": "DOGRUDAN",
-   "ayni_kimlik_sinavi": "FARKLI"
+   "ayni_kimlik_sinavi": "FARKLI",
+   "dayanak_1923": "bulundu",
+   "sureklilik": "gosterildi"
   },
   {
    "a": "Eritrea",
@@ -8655,7 +8681,9 @@
    "kimlik_1923_b_yetkili": "ingiltere",
    "kimlik_1923_kova_a": "DOGRUDAN",
    "kimlik_1923_kova_b": "DOGRUDAN",
-   "ayni_kimlik_sinavi": "FARKLI"
+   "ayni_kimlik_sinavi": "FARKLI",
+   "dayanak_1923": "bulundu",
+   "sureklilik": "gosterilmedi"
   },
   {
    "a": "Algeria",
@@ -8779,7 +8807,9 @@
    "kimlik_1923_kova_a": "DOGRUDAN",
    "kimlik_1923_kova_b": "DOGRUDAN",
    "ayni_kimlik_sinavi": "AYNI",
-   "_hal_onceki": "hukuki"
+   "_hal_onceki": "hukuki",
+   "dayanak_1923": "bulundu",
+   "sureklilik": "gosterildi"
   },
   {
    "a": "Libya",
@@ -9054,7 +9084,9 @@
    "kimlik_1923_b_yetkili": null,
    "kimlik_1923_kova_a": "DOGRUDAN",
    "kimlik_1923_kova_b": "OLCULEMEDI",
-   "ayni_kimlik_sinavi": "OLCULEMEDI — bir uc DOGRUDAN degil"
+   "ayni_kimlik_sinavi": "OLCULEMEDI — bir uc DOGRUDAN degil",
+   "dayanak_1923": "bulundu",
+   "sureklilik": "gosterildi"
   },
   {
    "a": "Central African Republic",
@@ -9381,7 +9413,9 @@
    "kimlik_1923_b_yetkili": "ingiltere",
    "kimlik_1923_kova_a": "DOGRUDAN",
    "kimlik_1923_kova_b": "DOGRUDAN",
-   "ayni_kimlik_sinavi": "FARKLI"
+   "ayni_kimlik_sinavi": "FARKLI",
+   "dayanak_1923": "bulundu",
+   "sureklilik": "curutuldu"
   },
   {
    "a": "Libya",
@@ -9568,7 +9602,9 @@
    "kimlik_1923_b_yetkili": "ingiltere",
    "kimlik_1923_kova_a": "DOGRUDAN",
    "kimlik_1923_kova_b": "DOGRUDAN",
-   "ayni_kimlik_sinavi": "FARKLI"
+   "ayni_kimlik_sinavi": "FARKLI",
+   "dayanak_1923": "bulundu",
+   "sureklilik": "curutuldu"
   },
   {
    "a": "Libya",
@@ -9731,7 +9767,9 @@
    "kimlik_1923_b_yetkili": "fransa-cumhuriyet",
    "kimlik_1923_kova_a": "DOGRUDAN",
    "kimlik_1923_kova_b": "DOGRUDAN",
-   "ayni_kimlik_sinavi": "FARKLI"
+   "ayni_kimlik_sinavi": "FARKLI",
+   "dayanak_1923": "bulundu",
+   "sureklilik": "gosterildi"
   },
   {
    "a": "Egypt",
@@ -9898,7 +9936,9 @@
    "kimlik_1923_b_yetkili": "filistin-mandasi",
    "kimlik_1923_kova_a": "DOGRUDAN",
    "kimlik_1923_kova_b": "DOGRUDAN",
-   "ayni_kimlik_sinavi": "FARKLI"
+   "ayni_kimlik_sinavi": "FARKLI",
+   "dayanak_1923": "bulundu",
+   "sureklilik": "gosterildi"
   },
   {
    "a": "Bir Tawil",
@@ -9954,7 +9994,9 @@
    "kimlik_1923_kova_a": "EMILME",
    "kimlik_1923_kova_b": "DOGRUDAN",
    "ayni_kimlik_sinavi": "OLCULEMEDI — bir uc DOGRUDAN degil",
-   "_UYARI": "⚠️ İki uç da 'misir-kralligi' GÖRÜNÜYOR ama Bir Tawil ucu EMILME kovasında ve yetkili tablonun kendi notu şu: 'EMILME bir TAHMİN'. Tahmine dayanıp 'ayni-kimlik' YAZILMADI — sınav iki uçta da DOGRUDAN şartıyla koşuldu. Tahmin bir ölçümün yerine geçmez."
+   "_UYARI": "⚠️ İki uç da 'misir-kralligi' GÖRÜNÜYOR ama Bir Tawil ucu EMILME kovasında ve yetkili tablonun kendi notu şu: 'EMILME bir TAHMİN'. Tahmine dayanıp 'ayni-kimlik' YAZILMADI — sınav iki uçta da DOGRUDAN şartıyla koşuldu. Tahmin bir ölçümün yerine geçmez.",
+   "dayanak_1923": "bulundu",
+   "sureklilik": "gosterildi"
   },
   {
    "a": "Bir Tawil",
@@ -10016,7 +10058,9 @@
    "kimlik_1923_kova_a": "EMILME",
    "kimlik_1923_kova_b": "DOGRUDAN",
    "ayni_kimlik_sinavi": "OLCULEMEDI — bir uc DOGRUDAN degil",
-   "_UYARI": "⚠️ İki uç da 'misir-kralligi' GÖRÜNÜYOR ama Bir Tawil ucu EMILME kovasında ve yetkili tablonun kendi notu şu: 'EMILME bir TAHMİN'. Tahmine dayanıp 'ayni-kimlik' YAZILMADI — sınav iki uçta da DOGRUDAN şartıyla koşuldu. Tahmin bir ölçümün yerine geçmez."
+   "_UYARI": "⚠️ İki uç da 'misir-kralligi' GÖRÜNÜYOR ama Bir Tawil ucu EMILME kovasında ve yetkili tablonun kendi notu şu: 'EMILME bir TAHMİN'. Tahmine dayanıp 'ayni-kimlik' YAZILMADI — sınav iki uçta da DOGRUDAN şartıyla koşuldu. Tahmin bir ölçümün yerine geçmez.",
+   "dayanak_1923": "bulundu",
+   "sureklilik": "gosterildi"
   },
   {
    "a": "Algeria",
@@ -10068,7 +10112,9 @@
    "kimlik_1923_kova_a": "DOGRUDAN",
    "kimlik_1923_kova_b": "BOYANMIYOR",
    "ayni_kimlik_sinavi": "OLCULEMEDI — bir uc DOGRUDAN degil",
-   "_UYARI": "⚠️ Batı Sahra BOYANMIYOR kovasında — atlas noktası 0, en yakın nokta 200 km'den uzak (motorun kendi TAVAN_KM sabiti). Mekanik sınav bu kenarda KOŞULAMAZ. 'nitelik_1923' için yazdığım değerlendirme KAYNAĞA dayanır, VERİYE değil — ve ikisi ayrı şeydir."
+   "_UYARI": "⚠️ Batı Sahra BOYANMIYOR kovasında — atlas noktası 0, en yakın nokta 200 km'den uzak (motorun kendi TAVAN_KM sabiti). Mekanik sınav bu kenarda KOŞULAMAZ. 'nitelik_1923' için yazdığım değerlendirme KAYNAĞA dayanır, VERİYE değil — ve ikisi ayrı şeydir.",
+   "dayanak_1923": "bulundu",
+   "sureklilik": "gosterildi"
   },
   {
    "a": "Morocco",
@@ -10141,7 +10187,9 @@
    "kimlik_1923_b_yetkili": "ispanya",
    "kimlik_1923_kova_a": "DOGRUDAN",
    "kimlik_1923_kova_b": "DOGRUDAN",
-   "ayni_kimlik_sinavi": "FARKLI"
+   "ayni_kimlik_sinavi": "FARKLI",
+   "dayanak_1923": "okumadim",
+   "sureklilik": "okumadim"
   },
   {
    "a": "Egypt",
@@ -10188,10 +10236,13 @@
    "kimlik_1923_b_yetkili": "filistin-mandasi",
    "kimlik_1923_kova_a": "DOGRUDAN",
    "kimlik_1923_kova_b": "DOGRUDAN",
-   "ayni_kimlik_sinavi": "FARKLI"
+   "ayni_kimlik_sinavi": "FARKLI",
+   "dayanak_1923": "bulundu",
+   "sureklilik": "gosterildi"
   }
  ],
  "_KOVA4": "hal:'ayni-kimlik' ortak sartnameye 7 Eyl 14:53'te eklendi (M-3183). Sinav MEKANIK: 1923'te iki ucun atlas kimligi ayni mi. Kimlik YETKILI tablodan (denetim/KIMLIK-1923-0907.json, sorgu gunu 1923-10-28).",
  "_UYARI_OZET": "Dördüncü kovanın mekanik sınavı 25 kenarın 18'inde koştu. Koşamayan 7: Batı Sahra'ya bakan 3 (atlas noktası 0) · Bir Tawil'e bakan 2 (kimlik bir TAHMİN) · Tunus'a bakan 2 (kid yok). Ve koşanlardan 1'i (South Sudan–Sudan) YANLIŞ cevap verdi, çünkü atlas aynı toprağı iki kimlikle boyuyor.",
- "_IBS_TUKENDI": "IBS serisi TÜKETİLDİ: 1-200 arası numara denendi, seride 175 çalışma VAR ve bu sınır için çalışma YOK. Bu artık bir tahmin değil ÖLÇÜM — ama yalnız O SERİ için. Başka kaynak arandı, sonucu aşağıda."
+ "_IBS_TUKENDI": "IBS serisi TÜKETİLDİ: 1-200 arası numara denendi, seride 175 çalışma VAR ve bu sınır için çalışma YOK. Bu artık bir tahmin değil ÖLÇÜM — ama yalnız O SERİ için. Başka kaynak arandı, sonucu aşağıda.",
+ "_IKI_AYAK": "«Bu çizgi 1923'ten beri değişti mi?» sorusunun İKİ ayağı var ve `hal` ikisini tek değere sıkıştırıyor. Ayrı sorulabilsinler diye iki alan açıldı. `sureklilik` ÜÇ değerli, boolean DEĞİL: 'curutuldu' (sınır 1923'ten sonra kuruldu — kalem KAPALI) ile 'gosterilmedi' (ne olumlu ne olumsuz kanıt — kalem AÇIK) bir boolean'da aynı False'a düşer ve bir sonraki oturum ikisini aynı iş sanır. Biri bitmiş, öteki bekliyor."
 }
