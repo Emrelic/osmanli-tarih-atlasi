@@ -1,0 +1,42 @@
+KIMLIK-1923-0907 — Uskup mukerrer suphesi CURUDU · ama normallestirici
+cakismasi BULUNDU (Kudus / Kudus, 9272 km)
+
+ARAC:  denetim/ARAC-USKUP-MUKERRER-0907.py
+RAPOR: denetim/USKUP-MUKERRER-0907.json
+
+USKUP — SUPHE CURUDU:
+  `ad:"Üsküp"` tasiyan yerlesim kaydi: 1
+  25 km icinde baska nokta: 0
+  Grep fazlasinin sebebi: 5 nokta `m:"Üsküp"` tasiyor (MERKEZ REFERANSI,
+  mukerrer degil) + `bolgeler.js` ve `sehirler.js` AYRI KATMANLAR.
+  📌 DERS: bir grep sayisi ALAN AYIRT ETMEZ — `ad:` · `m:` · baska katman ·
+  yorum hepsi ayni sayiya toplanir. "Iki kez geciyor" bir mukerrer iddiasi
+  degil bir SAYIMDIR.
+
+🔴 ASIL BULGU — VARYANT TARAMASINDAN CIKTI:
+  `Kudüs` (31.777 / 35.234 · yerlesimler.js · memluk zinciri)
+  `Kudus` (-6.810 / 110.840 · yerlesimler_gdasya.js · singhasari->majapahit)
+  MESAFE 9272,5 km — IKI AYRI SEHIR (Kudus/Jerusalem ve Orta Cava'daki Kudus)
+  norm() ikisini de "kudus" anahtarina indiriyor.
+  ⇒ `norm(ad)` ile KOVA kuran her alet bu ikisini SESSIZCE birlestirir.
+    Olculdu: depoda `norm(` kullanan 12+ CANLI alet var.
+  ⇒ DAHA SINSI: iki kaydin ORTAK bir kimligi var (`ingiltere` — Kudus
+    mandasi ve Cava'nin 1811-1816 Ingiliz idaresi), yani birlestiren bir
+    alet kimliklerde bariz bir CELISKI de gormez.
+
+  SINIF: mukerrer DEGIL, normallestiricinin YANLIS POZITIFI. CLAUDE.md §4
+  normallestiricinin KACIRDIGINI (`usku` != `Üsküp`) ve dogru REDDETTIGINI
+  (`Diyarbekir` != `Diyarbakir`) kaydediyor; YANLIS BIRLESTIRDIGINI
+  kaydetmiyor. Bu o eksigin ilk olculmus vakasi.
+
+  CARE (onerildi, uygulanmadi): normallestirici DOGRU calisiyor, ona
+  dokunulmamali. Kova kuran aletler `(norm(ad), yuvarlanmis lat/lon)` ile
+  anahtarlansin ya da cakisan kovada MESAFE sorulsun.
+
+  OLCMEDIGIM: 12 aletin kacinin gercekten `norm(ad)` ile KOVA KURDUGU tek
+  tek okunmadi — `norm(` gectigi olculdu, NASIL kullanildigi olculmedi.
+
+YAN OLCUM: `ad_esanlam.js` 39 girdi · `Üsküp`->`Skopje` VAR · 9 dosya onu
+OKUYOR ⇒ §11'in "kayit var, VERI yok" sinifina GIRMIYOR.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>

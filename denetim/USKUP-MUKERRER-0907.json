@@ -1,0 +1,29 @@
+{
+ "_NOT": "USKUP-MUKERRER-0907 — 'Uskup grep'te iki kez cikiyor' suphesinin olcumu. Arac: denetim/ARAC-USKUP-MUKERRER-0907.py",
+ "sorulan": "Uskup mukerrer bir yerlesim kaydi mi?",
+ "hukum": "HAYIR — suphe CURUDU.",
+ "olcum": {
+  "ad_alani_olarak_kayit": 1,
+  "25_km_icinde_baska_nokta": 0,
+  "grep_fazlasinin_sebebi": "5 nokta `m:\"Üsküp\"` tasiyor (Debre · Manastir · Ohri · Pristine · Yenipazar) — bu bir MERKEZ REFERANSIDIR, mukerrer degil. Ayrica `bolgeler.js` (idari bolge) ve `sehirler.js` (sehir karti) AYRI KATMANLAR.",
+  "_DERS": "Bir grep sayisi ALAN AYIRT ETMEZ. `ad:` · `m:` · baska katman · yorum — hepsi ayni sayiya toplanir. 'Iki kez geciyor' bir mukerrer iddiasi degil, bir SAYIM."
+ },
+ "🔴_ASIL_BULGU": {
+  "baslik": "NORMALLESTIRICI CAKISMASI — iki AYRI sehir ayni anahtara dusuyor",
+  "cift": ["Kudüs", "Kudus"],
+  "mesafe_km": 9272.5,
+  "Kudüs": {"lat": 31.777, "lon": 35.234, "yer": "Kudus/Jerusalem", "dosya": "yerlesimler.js", "zincir_basi": "memluk"},
+  "Kudus": {"lat": -6.81, "lon": 110.84, "yer": "Kudus, Orta Cava", "dosya": "yerlesimler_gdasya.js", "zincir_basi": "singhasari -> majapahit"},
+  "norm_anahtari": "kudus",
+  "niCIN_TEHLIKELI": "`norm()` Turkce `u`/`u` farkini kaldiriyor ve iki sehri AYNI anahtara indiriyor. `norm(ad)` ile kova kuran her alet Kudus'u Cava'daki Kudus'la BIRLESTIRIR — ve sessizce. Olculdu: depoda `norm(` kullanan 12+ alet var, hepsi CANLI.",
+  "daha_da_sinsi": "Iki kaydin ORTAK bir kimligi var: `ingiltere` (Kudus manda donemi · Cava 1811-1816 Ingiliz idaresi). Yani birlestiren bir alet, kimliklerde bariz bir CELISKI de gormez.",
+  "sinif": "Bu bir MUKERRER DEGIL, normallestiricinin YANLIS POZITIFI. CLAUDE.md §4 normallestiricinin KACIRDIGINI (`usku` != `Üsküp`) ve dogru REDDETTIGINI (`Diyarbekir` != `Diyarbakir`) kaydediyor; YANLIS BIRLESTIRDIGINI kaydetmiyor. Bu o eksigin ilk olculmus vakasi.",
+  "onerilen_care": "Normallestiriciyi degistirme — o dogru calisiyor. Kova kuran aletler `norm(ad)` yerine `(norm(ad), yuvarlanmis lat/lon)` ya da `ad`in KENDISI ile anahtarlansin; en azindan cakisan kovada MESAFE sorulsun. 3 km ustundeki bir 'cakisma' mukerrer DEGIL, CAKISMADIR.",
+  "OLCMEDIGIM": "12 aletin KACININ gercekten `norm(ad)` ile KOVA KURDUGUNU tek tek okumadim — bazilari yalniz karsilastirma icin kullaniyor olabilir. `norm(` gectigini olctum, NASIL kullanildigini olcmedim."
+ },
+ "yan_olcum": {
+  "ad_esanlam_js": "39 eslesme girdisi · `Üsküp` -> `Skopje` kaydi VAR",
+  "okuyan_dosya": 9,
+  "_NOT": "Sozluk OLU DEGIL — 9 dosya onu okuyor. §11'in 'kayit var, VERI yok' sinifina GIRMIYOR."
+ }
+}
