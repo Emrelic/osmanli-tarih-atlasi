@@ -283,7 +283,15 @@ def main():
     print("\n=== B) DEVLETLER ↔ KRONOLOJİ — %d devlet kaydı ===" % len(D))
     _dagilim(kayit2, "devlet f:/t: ↔ en yakın kuruluş/yıkılış maddesi")
     print("\n  ölçülemeyen (ilgili madde yok): %d" % len(olculemeyen2))
-    print("  ⚠️ Bu sayı BÜYÜK olacak ve bu BEKLENEN: 241 devletin çoğunun")
+    # 🔴 BU SATIRDAKİ SAYI BİR KEZ ELLE YAZILDI VE BAYATLADI (7 Eylül 2026,
+    # `SINAV-KOSU8-0907` ölçtü): "241 devlet" yazıyordu, gerçek 627 idi —
+    # 2,6 KAT. Ve doğru sayı ÜÇ SATIR YUKARIDA zaten dinamik basılıyordu
+    # (`len(D)`). Aynı nicelik, aynı fonksiyon, üç satır arayla ayrışmış.
+    # ⇒ `§11`: "bir bilgi iki yerde duruyorsa biri güncellenince öteki
+    #   bayatlar" — bu belge o dersi DOSYALAR ve bir dosyanın İKİ BÖLÜMÜ
+    #   için kaydediyor; bu, BİR FONKSİYONUN İÇİ.
+    # 🟢 Çare sayıyı düzeltmek DEĞİL, elle yazılmaktan ÇIKARMAK.
+    print("  ⚠️ Bu sayı BÜYÜK olacak ve bu BEKLENEN: %d devletin çoğunun" % len(D))
     print("     kronolojide kuruluş/yıkılış maddesi yok. Ölçüt burada")
     print("     'madde eksik' demiyor, 'kıyaslayacak ikinci belge yok' diyor.")
 
