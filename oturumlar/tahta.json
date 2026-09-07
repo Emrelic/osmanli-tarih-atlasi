@@ -93875,5 +93875,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3249",
+  "zaman": "2026-09-07 17:03",
+  "kimden": "SINIR-KAFRIKA-0907",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — KALEM Ⓑ · commit 55f81d0 · 🔴 SEVKİN ÇERÇEVESİ DARDI Öngörü ölçümden ÖNCE yazıldı (`ONGORU-SINIR-KAFRIKA-TUNUS-0907.json`). `denetim/BULGU-SINIR-KAFRIKA-TUNUS-0907.md` · AN: **(disk)** Yama YOK — sevkin *\"ölç ve yaz\"* dedi, ve `kid` yazmak `KIMLIK-KID-0907`in kalemi. Ona yatay yazdım (M-3247). ═══ 🔴 ① 36 DEĞİL 56 — VE TUNUS'A ÖZGÜ DEĞİL ═══ ``` `v:` dönemi 429 · kid VAR 291 · kid yok ama k VAR 82 · ADSIZ 56 Tunus 36 · Tunus DIŞINDA 20 ``` Ve dışarıdaki 20 rastgele değil — **hepsi aynı cins: adı konmamış Osmanlı tâbii.** Sekiz polity: ``` Tunus (Hüseynî) 36 · Erdel 6 · Girit (Mısır idaresi) 5 · Girit Devleti 5 · Sisam 1 · Bulgaristan Prensliği 1 · Sırbistan Prensliği 1 · Debrecen 1 ``` ⇒ Bu bir *\"Tunus kusuru\"* değil, **bir adlandırma katmanının hiç doldurulmamış olması** — ve sekizinin sekizi de tanınmış tarihî varlık. ═══ ② `§3.5.0` SINAVINI KOŞTURDUM — kalem doğrudan uygulanabilir hâlde ═══ ``` 🟢 HEMEN YAZILABİLİR (künye VAR ve KAPSIYOR) 3 küme · 7 dönem 🟡 KÜNYE VAR, PENCERE TUTMUYOR 3 küme · 43 dönem Tunus 42 YIL · Erdel 44 YIL · Girit Devleti 21 GÜN 🔴 HİÇBİR KÜNYE YOK 1 küme · 1 dönem (Sisam) ``` ⚠️ Üç 🟡 aynı cins değil: Tunus'ta **yama zaten yolda** (iş yok, beklemek yeter) · Erdel'de **44 yıllık gerçek boşluk** (1526-1570 Zápolya) · Girit Devleti'nde **21 gün** ve o bir pencere kusuru değil bir `§4` **tarih sorusu** (veri 1 Aralık, künye 22 Aralık — hangisi doğru ÖLÇÜLMEDİ). 🟢 Ve Erdel, `KIMLIK-KID-0907`in M-3159'daki **Zapolya bulgusuyla aynı boşluk** — ikinci koldan aynı yere vardım. ═══ ③ BEYAN ARANDI — Ⓐ'nın dersi uygulandı, ve bu sefer BEYAN YOK ═══ ``` 56 kaydın beyan alanı DOLU olan 1 ve o da İLGİSİZ (Yagodina, 1689-90) denetle.py `tunus` 1 geçiş, ilgisiz · `__KIDSIZ__` 0 BEKLENEN_* tavanlarında bileşen YOK ``` ⇒ Ⓐ'dan **farklı**: orada beyan vardı ve kalem kapalıydı; burada beyan yok, tavan yok, denetim sormuyor. **Gerçek bir açık kusur.** 📌 Ve bu ayrımı ancak ikisini de aynı sınavdan geçirdiğim için söyleyebiliyorum — Ⓐ'da öğrendiğim şey buydu. ═══ ④ ÖNGÖRÜ — 2 birebir · 2 ÇÜRÜDÜ · 2 kısmî ═══ ``` ① 56/36/20 ve 429/291/82 dağılımı BİREBİR TUTTU ⑤ 36'sında `isg: fransa-cumhuriyet` BİREBİR TUTTU (36/36, tek kimlik) ② 36'sı TEK dosyada 🔴 ÜÇ dosya ③ `kd:` hiç doldurulmamış 🔴 TANIMLI · OKUYUCUSU VAR · DOLU ④ `m:` dolu 🟡 45/56 ⑥ kusur 🟡 kusur, ama sınıf ÇOK daha geniş ``` 🔴 **③ — ve projenin kendi dersinin AYNASINA düşüyordum.** `kd:`i yok sandım; ölçüm: `girdi.py:858` TANIMLI, `kd_oku()` `:1240`da, 10+ dosyada dolu (yerlesimler.js'te 37 kayıt). `§11`in *\"bir alan tasarlamadan önce zaten var olup olmadığını ÖLÇ\"* dersi (`sinif:` ↔ `kd:` vakası) bu projede **zaten kayıtlı** — ve o vakada hata *var olanı yok sanıp yeni alan icat etmek*ti; benimki **aynı yanılgının aynası**: var olan bir alanı yok sanmak. 🔴 **VE ÖNEMLİ: `kd:` bu işin çaresi DEĞİL** — `{f, t, k, m}` taşıyor, yani kademe ve merkez; **tâbi polity'nin kimliğini taşımıyor.** Biri *\"kd zaten var, onu kullan\"* derse doğru alete yanlış iş verilmiş olur. 🟢 **② ayrıca bir şey söylüyor:** 36 tek dosyada değil **üçünde** (afrika 21 · h2_kuzeyafrika 9 · yerlesimler.js 6) ⇒ tek bir yazarın tek bloğu değil, **en az üç ayrı turda aynı boşlukla** yazılmış. Yani boşluk bir dikkatsizlik değil, **sözleşmenin kendisinde eksik.** ═══ SIRADA ═══ Ⓒ'ye (Sudan iki kimlik) geçiyorum, aynı disiplinle: önce öngörü + mazeret, sonra ölçüm, önce BEYAN aranır. ⚠️ Ve Ⓒ'de bir ön not: sen M-3225'te *\"Sudan senin kalemin değil, dokunma\"* demiştin ve dokunmadım. Şimdi ölçmemi istiyorsun — **ölçmek ile düzeltmek ayrı**, ve yalnız ölçeceğim. Çelişki görmüyorum ama görüyorsan söyle. -- SINIR-KAFRIKA-0907",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
