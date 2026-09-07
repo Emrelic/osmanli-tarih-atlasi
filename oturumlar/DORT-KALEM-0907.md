@@ -159,3 +159,59 @@ paylaşılıyor.
 ---
 
 ## İLERLEME NOTLARI
+
+### 7 Eylül 2026 · 13:20 — TESLİM EDİLDİ
+
+**Oturum:** `local_a6f8263a-6b20-402f-9873-fa068acf6e26`
+**Tahta:** M-3142 (açılış + ilk ölçüm) · M-3145 (teslim)
+**Çıktılar (commit BEKLİYOR — `denetim/` Oturum 0'ın kalemi):**
+```
+denetim/BULGU-DORTKALEM-0907.md
+denetim/YAMA-DORTKALEM-KRONOLOJI-0907.json     kalem ③
+denetim/YAMA-DORTKALEM-ISG-0907.json           kalem ④
+```
+**Sınav:** 26 çapraz sınavın 26'sı geçti (raporun her sayısı veriye karşı).
+
+#### DÖRT KALEMİN DURUMU
+| kalem | durum | özet |
+|---|---|---|
+| ① Zapolya | 🔴 **AÇIK — aralık çürüdü** | künye yokluğu ✓ · `macaristan` **28 dönemde** künyesini aşıyor · TDV: Szapolyai **10 Kasım 1526**, `1570` **0 cümle** |
+| ② Boğdan | 🔴 **AÇIK — yeniden tarif** | tarif edilen blok veride **yok**; gerçek blok `v:` katmanında **1456→1878** (422 yıl) |
+| ③ Faysal | 🟢 **KAPANDI** | kırılma **31 yerleşim** · çekirdekte madde **yok** · TDV `faysal-i` günü **adıyla** veriyor · madde yazıldı |
+| ④ Mısır ordusu | 🟢 **KAPANDI** | `isg:` **247/247** kimlik taşıyor, `v:` **hiç** · TDV yüklemi **işgal** · öneri yazıldı |
+
+#### ŞARTNAMENİN `§6` ÖNCÜLLERİ — üçü çürüdü
+```
+🟢 DOĞRULANDI  Zapolya künyesi YOK · `Mısır ordusu (işgal)` ×3
+🔴 ÇÜRÜDÜ      "1541-1570" aralığı — TDV iki ucunu da çürüttü
+🔴 ÇÜRÜDÜ      "Boğdan 1856-03-30 → 1878-07-13 TEK BLOK" — veride yok
+🟢 KAPANDI     ⚪ "ölçmedim" (③'ün kırılması) — VAR, ve 31 yerleşim
+```
+
+#### ② ile ④ AYNI KÖKTEN
+`v:` katmanı kimlik taşıyamıyor ⇒ kimlik iki ayrı yerde `k:` alanına
+**serbest metin** olarak sıkışmış: `"Boğdan Voyvodalığı"` (422 yıl) ·
+`"Mısır ordusu (işgal)"` (7 ay). Bu bir şema eksiği ve **kalemim değil**,
+ama iki kalemin de niçin var olduğunu açıklıyor.
+
+#### AÇIK BIRAKTIKLARIM — `ölçmedim` diye
+```
+⚫ `1859-01-24`ün KAYNAĞI — künyelerde tutarlı, kaynağa SORULMADI (`okumadım`)
+⚫ ②'de kaç kayıt 1859-01-24'te kırılıyor / kaç kırılmıyor — SAYILMADI
+⚫ `_sahiplik_uygula.py`nin `v:`→`isg:` TAŞIMA yeteneği
+⚫ ③'ün maddesinin `Değişmez 2s`yi kaça indireceği
+⚫ `erdel` künyesinin 1541'e çekilip çekilmeyeceği (kalemim DEĞİL)
+⚫ `yer_id:"Bağdat"` atlasta var mı — uygulayan kontrol etsin
+```
+
+#### PROTOKOL
+veri yazılmadı · yama `.js` üretilmedi (gerekçe raporda) · `data/` ve
+`arac/` **dokunulmadı** (koşu 8) · gövde çekimi için aynı gün kurduğum
+`denetim/ARAC-KAYNAK-DENETIM-0907.py`in `govde_cek`i kullanıldı,
+**yeniden yazılmadı**, gövdeler **kesilmedi**.
+
+⚠️ **Tahta yarım commit bildirdi** (M-3145 yazılırken). Geri okudum:
+mesaj `tahta.json`da **var** (5.358 kar, yedi çapanın yedisi yerinde).
+Aracın talimatına uydum ve **tekrar yazmadım**; `oturumlar/TAHTA.md` +
+`tahta.json` sahnelenmiş hâlde duruyor ve bir sonraki tahta yazımının
+pathspec'li commit'ine girecek (`§7.1⑤b`, kendi kendini onaran cins).
