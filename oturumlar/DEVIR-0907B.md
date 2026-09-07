@@ -130,3 +130,87 @@ Değişmez 7 tavanı 660 · gerçek 661 · 5 Eylül'den bayat
 `ClaudEmre/KISALTMALAR.md`e eklendi (commit `53ce88b`).
 S soru · E eylem · T tavsiye · I itiraz — **dördü de cevaplanır, boş olan
 `YOK` yazılır.**
+
+---
+
+# ⑨ ÖĞLEDEN SONRA — 13:00-13:45 · dört teslim, ALTI çürüyen öncül
+
+## ⑨a KOŞU 8 — merdiven ilerledi
+```
+152 dk · CPU %92 · bellek 185 → 1844 MB (aşama geçişleri)
+🟢 İLK GÖZLENEBİLİR BASAMAK: `bolgeler.js` 13:06'da YAZILDI
+   (nöbetçi satırında `15:38` → `13:06` diye göründü)
+```
+
+## ⑨b EMRE'NİN AÇIK İSTEĞİ **KAPANDI** — ve brifing iki yönden bayattı
+```
+brifing "0906 aletini koştur"  → 0907 aleti ZATEN yazılmıştı (187b36e)
+brifing "KOŞU BİTİNCE"         → 0907 motoru İÇE AKTARMIYOR ⇒ beklemedi
+```
+```
+çift sayısı   85.977 … 99.704      (`harita:` ile 93.582)
+çift maliyeti 0,0363 … 0,1344 ms
+TOPLAM        ~3,1 … 13,4 sn       (harita: ile ~3,4 … 14,6)
+⇒ koşunun ON BİNDE BİRİ. "Süresi engel değil" ÖLÇÜMÜ — "yapılsın"
+  ÖNERİSİ DEĞİL.
+```
+🔴 Alet ilk koşusunda **cp1254 `⇒` ile çöktü** (bugün aynı kök 3. kez).
+Ve asıl bulgu: bir iç ölçüm `ÖLÇÜLEMEDİ` damgalanmıştı — **ölçüm
+başarılıydı, BASILAMAMIŞTI.** Bir çıktı hatası, ölçüm hatası sanıldı.
+
+## ⑨c DÖRT KALEM — ikisi kapandı, ikisinde ÇERÇEVEM yanlıştı
+```
+🟢 Faysal 1921-08-23   KAPANDI · 31 yerleşim · çekirdekte madde YOK ·
+                       TDV `faysal-i` günü ADIYLA · yama yazıldı
+🟢 Mısır ordusu        KAPANDI · `isg:` (şema + kaynağın YÜKLEMİ)
+                       ⚫ `.js` yaması YAZILMADI: aletin `v:`→`isg:`
+                          TAŞIMA yeteneği ÖLÇÜLMEDİ
+🔴 Zapolya             ÇERÇEVE ÇÜRÜDÜ — Mohaç'tan sonra Macaristan yok
+                       olmadı, İKİYE BÖLÜNDÜ. Estergon (Habsburg) ile
+                       Temeşvar (doğu) AYNI künyeye yazılamaz.
+                       ⇒ 60 dönemi İKİYE AYIR, sonra künye
+🔴 Boğdan              TARİFİM VERİDE YOK. Gerçek: `v:` katmanı
+                       1456→1878 (422 yıl). Ve atlas KENDİ İÇİNDE
+                       tutarsız: `1859-01-24` eflak/romanya'ya İNMİŞ,
+                       Yaş ve Bükreş'e İNMEMİŞ (iki BAŞKENT)
+```
+
+## ⑨d 🔴 KENDİ TAŞIDIĞIM BİR ÖNCÜL ŞÜPHELİ — ölçümde
+Bugün **üç yere** yazdım: *"`v:` kimlik alanı YOK, 423 dönem yalnız
+`f`/`t`/`k`/`enklav` (5 Eylül)."* Bugünkü şema ölçümü uyuşmuyor:
+```
+v:  f 429 · t 429 · k 373 · statu 421 · kid 291   ← `kid` BİR KİMLİK ALANI
+```
+```
+Ⓐ 5 Eylül BAYAT (kid sonra geldi) · Ⓑ 5 Eylül YANLIŞTI ·
+Ⓒ `kid` var ama İŞLEMİYOR (okunmuyor) ⇒ cümle yanlış değil EKSİK
+```
+⇒ `GECIS-SURE-0907` ölçüyor (M-3151). **Hüküm bende.**
+
+## ⑨e `harita:` 22 KİMLİK — kalem AÇIK, ve kilit ARAÇTA
+```
+ÖLÇÜLDÜ  A ∩ B = 0 ama A'nın 22/22'si B'deki bir künyece GÖSTERİLİYOR
+         ⇒ çürümüş `id ∪ harita` vakası bunu KAPSAMIYOR (ters yön)
+ÖLÇÜLDÜ  düzeltmenin etkisi +7.605 çift (+%8,8), mertebe değişmiyor
+🔴 ÖLÇÜLEMEDİ  kaç YENİ hayalet doğacağı — `arac/` DONUK
+⇒ KOŞU SONRASI: hayalet sayımı → SONRA karar. Bugün UYGULANMADI.
+```
+
+## ⑨f KOŞU SONRASI KUYRUĞA EKLENENLER
+```
+① uret_petek.py `vl` sıra kusuru            (öncekinden)
+② denetim/YAMA-DORTKALEM-KRONOLOJI-0907.json → data/olaylar_ek*.js
+③ denetim/YAMA-DORTKALEM-ISG-0907.json       (v:→isg: taşıma ÖNCE ölçülmeli)
+④ `harita:` 22 — hayalet sayımı, sonra karar
+⑤ index.html fetch+JSON — `--yaz` işareti BENDEN
+```
+
+## ⑨g YENİ DERSLER — `CLAUDE.md §11`e indi (`db0ddcf`)
+```
+① aletin cevabı DOĞRU, sorduğu soru YETERSİZ  (ortak tepe ≠ birebir kenar)
+② listede olmayan şey, elenmiş olandan ayırt edilemez  (`koridor.js`)
+③ ayrı REALM'de `instanceof` sessizce FALSE  (ve gerçek veri gösteremez)
+④ `§7` ad alanı dersi ilk kez ÖNLEYİCİ işledi  (`KADEME` zaten dolu)
+```
+🔜 HENÜZ İNMEDİ: *"bir alet DOĞRU ölçüp YANLIŞ HÜKÜM basabilir — sayılar
+denetlenebilir, ÖZET SATIRI denetlenmez"* (`GECIS-SURE`, bugün iki kez).
