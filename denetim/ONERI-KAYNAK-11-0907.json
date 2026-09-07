@@ -1,70 +1,57 @@
 {
- "🔴_EMEKLI": {
-  "damga": "2026-09-07",
-  "kim": "ASYA (bu dosyayi yazan KURE GORUNUM ile AYNI OTURUM)",
-  "sevk": "1.MURAT, 7 Eylul — birlestirme onayi",
-  "NE_EMEKLI": "YALNIZ `ONERILER` blogu (7 kunye). Ardili: denetim/ONERI-KAYNAK-11-0907.json (11 kunye).",
-  "NE_CANLI_KALIR": "🟢 `D_TURUNCU_KOVA_KAPANISI` blogu — BASKA BIR KONU (sahte pozitif taramasi, M-2920). Tasinmadi, gecerli.",
-  "NICIN": [
-   "7 Eylul olcumu ayni sinifi 7 → 11 genisletti (ortak 7, gerileme 0).",
-   "Iki dosya AYNI YEDI kunyeye dokunuyordu ve `devletler.js` kosudan beri",
-   "DONUK ⇒ bu dosya HIC UYGULANMADI. Arka arkaya uygulanirsa ikincisi",
-   "birinciyi EZER; tek dosya bunu yapisal olarak kapatir."
-  ],
-  "SILINMEDI": "§3.5.1 — vakayi silmek dersi de siler. 5 Eylul'un kanit blokları (alintilar · f_dayanak · t_dayanak) ardil dosyaya AYNEN devralindi; bu dosya kaydin kendisi olarak durur."
- },
+ "🔴_BASLIK_NOTU": [
+  "BU DOSYA BIR KUNYE YAMASI DEGILDIR — mevcut kunyelerin `kaynak:` alani",
+  "icin METIN ONERISIDIR. Hicbir `f:`/`t:` degismez.",
+  "AD, `_kunye_uygula.py`nin glob'una KASTEN girmiyor (o alet YENI kunye",
+  "EKLER; bu 11 kunye hedefte ZATEN VAR). Emsal: ONERI-KAYNAK-HIMAYE-4-0905.",
+  "",
+  "🔴 BU DOSYA `denetim/ONERI-KAYNAK-7-0905.json`in ONERILER BLOGUNU",
+  "   EMEKLIYE CIKARIR. O dosya SILINMEDI (§3.5.1: vakayi silmek dersi de",
+  "   siler) ve `D_TURUNCU_KOVA_KAPANISI` blogu ORADA CANLI KALIR —",
+  "   o BASKA BIR KONU (sahte pozitif taramasi), buraya TASINMADI."
+ ],
  "ust": {
-  "is": "YEDI YANLIS \"bulunamadı\" DAMGASI — kaynak: metni onerisi",
-  "oturum": "KURE GORUNUM",
-  "sevk": "M-2904 (1.MURAT)",
-  "damga": "2026-09-05",
-  "cins": "ONERI — metin ONERILDI, YAZILMADI. devletler.js kosu 5b sonrasi TEK ELDEN.",
+  "is": "ON BIR YANLIS \"bulunamadı\" DAMGASI — kaynak: metni onerisi (BIRLESIK)",
+  "oturum": "ASYA (5 Eylul kismi: KURE GORUNUM — AYNI OTURUM)",
+  "sevk": "1.MURAT, 7 Eylul (birlestirme onayi) · kokeni M-2904",
+  "damga": "2026-09-07",
+  "cins": "ONERI — metin ONERILDI, YAZILMADI. devletler.js kosu 7b sonrasi TEK ELDEN.",
   "dosya": "data/devletler.js",
-  "dayanak": "denetim/OLCUM-KAYNAK-DAMGA-KOVA-0905.md (263 kunye tarandi, 12 canli, 12 govde okundu)",
+  "ANLIK_GORUNTU": "7 Eylul, kosu 7b surerken. data/*.js DONUK — bu yuzden 0905 HIC UYGULANMADI.",
+  "dayanak": [
+   "denetim/OLCUM-YANLIS-BULUNAMADI-0907.md  (7 Eylul · 474 slug · 21 canli · 11 curuk)",
+   "denetim/OLCUM-KAYNAK-DAMGA-KOVA-0905.md  (5 Eylul · 263 kunye · 12 canli · 7 curuk)"
+  ],
+  "NICIN_TEK_DOSYA": [
+   "Iki oneri AYNI YEDI kunyeye dokunuyordu ve `devletler.js` kosudan beri",
+   "DONUK ⇒ 0905 hic uygulanmadi (\"bulunamadı — TDV'de müstakil maddesi yok\"",
+   "kulliyatta 145 kez geciyor). Arka arkaya uygulanirsa ikincisi birinciyi EZER.",
+   "Tek dosya bunu YAPISAL OLARAK kapatir."
+  ],
+  "OLCUM_MUKERRER_DEGIL_GENISLEME": {
+   "5 Eylul": 7,
+   "7 Eylul": 11,
+   "ortak": 7,
+   "gerileme": 0,
+   "yeni": [
+    "cenova",
+    "cimma-sultanligi",
+    "sur-hanedani",
+    "banda-adalari"
+   ],
+   "SEBEP": "5 Eylul aday slug'i agirlikla `id`den turetiyordu (12 canli); 7 Eylul `id ∪ harita: ∪ ad` kullandi (21 canli). ⇒ BIR KUNYENIN `id`SI OLU OLABILIR VE MADDESI YINE DE VARDIR (§4)."
+  },
   "UYGULAMADAN_ONCE_OKU": [
    "kaynak_MEVCUT dizgileri VERIDEN uretildi, elle kopyalanmadi.",
-   "YEDISININ DE tek bir alani degisir: `kaynak`. TEK ISTISNA `mogolistan`,",
-   "onda AYRICA `ozet`teki yanlis uyari cumlesi cikacak.",
-   "🔴 `f:`/`t:` DEGISMEZ. Bu bir KAYNAK duzeltmesidir, tarih duzeltmesi DEGIL.",
-   "Ucunde tarih AYRISMASI bildirdim (mogolistan 41 gun · meysur 1 yil + gun/ay)",
-   "— BILDIRIM, HUKUM DEGIL; ayri kalem olarak degerlendirilmeli."
+   "ON BIRINDE DE tek bir alan degisir: `kaynak`. `f:`/`t:` DOKUNULMAZ.",
+   "🔴 Bu dosya uygulanirsa ONERI-KAYNAK-7-0905'in ONERILER blogu",
+   "   UYGULANMAZ — mukerrerdir.",
+   "⚠️ `mogolistan`da 0905 AYRICA `ozet`teki yanlis uyari cumlesinin",
+   "   cikmasini oneriyordu — o kalem KORUNDU, kaydin `not`unda.",
+   "🟠 `cimma-sultanligi` ZAYIF curuk: damga yanlis ama TARIH dayanagi",
+   "   degismiyor (madde f:1830'u vermiyor)."
   ],
-  "CAKISMA": "`somali` ONERI-SOZLESME-5-0905.json ile AYNI kunye. Uc kalem UC AYRI ALANA dokunuyor (f: · ozet · kaynak) ⇒ cakisma YOK, birlikte inebilir.",
-  "METIN_URETIMI": [
-   "Yedi metin KURALDAN TURETILMEDI, TEK TEK yazildi.",
-   "Ilk turda bir kural denendi (\"govde tarih vermiyorsa uzun metin\") ve",
-   "`nepal`e YANLIS metin verdi: TDV onun t: yilini DESTEKLIYOR.",
-   "⇒ Yedi kunyenin govdesi yedi farkli sey veriyor (GUN · YIL · AY ·",
-   "   yalniz ANLATI); tek bir kalip hepsini dogru anlatamiyor."
-  ],
-  "IKINCI_HASAT": {
-   "sevk": "M-2909 (1.MURAT)",
-   "soru": "TDV gövdesi künyenin f:/t: değerlerini DESTEKLİYOR mu, ÇELİŞİYOR mu, SUSUYOR mu?",
-   "🔴_UC_KOVA_YETMEDI_BES_OLDU": [
-    "🟢 DESTEKLI          gövde değeri veriyor ve AYNI OLAY için",
-    "🔴 CELISIYOR         gövde BAŞKA bir değer veriyor (mogolistan 41 gün · meysur 1 yıl)",
-    "⚪ SUSUYOR           gövde o kırılmaya hiç inmiyor (§4 TANECİKLİK)",
-    "⬜ PENCERE ISARETI   değer bir iddia DEĞİL, atlasın ufku/başı — 1281-01-01 · 1923-10-29",
-    "🟠 BASKA OLAY ICIN   🆕 yıl gövdede GEÇİYOR ama gövde onu BAŞKA bir olaya bağlıyor"
-   ],
-   "BESINCI_KOVA_NICIN_GEREKTI": [
-    "`nube` f:543 — gövdede \"543\" VAR, ve bir arama onu \"DESTEKLENDI\" diye",
-    "işaretlerdi. Ama gövdenin cümlesi HIRISTIYANLASMANIN başlangıcını",
-    "anlatıyor, Makurya/Alve krallıklarının kuruluşunu DEĞİL.",
-    "⇒ Yıl eşleşmesi DAYANAK DEĞİLDİR; dayanak, gövdenin o yılı NEYE",
-    "  bağladığıdır. (§11: \"eşleşme bulmak, doğru şeyi bulmak değildir.\")"
-   ],
-   "SAYIM": {
-    "🟢 DESTEKLI": 3,
-    "🔴 CELISIYOR": 2,
-    "⚪ SUSUYOR": 3,
-    "⬜ PENCERE ISARETI": 3,
-    "🟡 KISMEN/YIL": 2,
-    "🟠 BASKA OLAY ICIN": 1,
-    "not": "14 deger (7 künye × f/t). \"🟡\" iki ayrı yarı-kova: meysur t (ay) ve nepal t (yıl çakışması)."
-   },
-   "DEGISTIRILEN_TARIH": "SIFIR — çelişen iki değere (mogolistan f · meysur f) DOKUNULMADI. §: künye tarihi 4c/4d/Değişmez 2 bağlar, tek elden iner."
-  }
+  "TESTIN_YONU": "200 + ilgili govde ⇒ damga CURUDU (kanit). 302 ⇒ CURUMEDI (kanit DEGIL — yazim varyanti sinanmadi). ⇒ 11 bir ALT SINIRDIR."
  },
  "ONERILER": [
   {
@@ -97,7 +84,8 @@
     "kova": "🟢 DESTEKLI (GUN)",
     "cumle": "\"Bunun üzerine Bâbür Delhi'ye yürüdü ve ünlü Pânîpet Savaşı'nda İbrâhîm-i Lûdî'yi mağlûp ederek öldürttü (21 Nisan 1526).\"",
     "not": "Künye t:1526-04-21 ile BIREBIR — yedi künyenin TEK gün eşleşmesi."
-   }
+   },
+   "KOKEN": "ONERI-KAYNAK-7-0905.json (5 Eylul, KURE GORUNUM) — AYNEN DEVRALINDI"
   },
   {
    "id": "somali",
@@ -129,7 +117,8 @@
     "kova": "⬜ PENCERE ISARETI — bir iddia DEGIL",
     "cumle": null,
     "not": "1923-10-29 atlasın ufkudur. Gövdenin ilgili verdiği tarih ayrı: \"Mâcerteyn ve Obbia emirliklerine ait topraklar ise 1927'de İtalyanlar tarafından işgal edildi.\""
-   }
+   },
+   "KOKEN": "ONERI-KAYNAK-7-0905.json (5 Eylul, KURE GORUNUM) — AYNEN DEVRALINDI"
   },
   {
    "id": "mogolistan",
@@ -161,7 +150,8 @@
     "kova": "⬜ PENCERE ISARETI — bir iddia DEGIL",
     "cumle": null,
     "not": "Gövde Bogd Hanlık'ın gerçek sonunu veriyor: \"…Cebtsun Damba Hutuhtu'nun ölümünden sonra 26 Kasım 1924'te Moğolistan Halk Cumhuriyeti ilân edildi.\" (ONERI-SOZLESME-5-0905.json'daki tarihli beyanın dayanağı budur.)"
-   }
+   },
+   "KOKEN": "ONERI-KAYNAK-7-0905.json (5 Eylul, KURE GORUNUM) — AYNEN DEVRALINDI"
   },
   {
    "id": "tibet",
@@ -191,7 +181,8 @@
     "kova": "⚪ SUSUYOR",
     "cumle": null,
     "not": "ARANDI ve YOK: \"1642\" · \"XVII. yüz\" · \"Gelug\" · \"Dalay\" · \"Sarı\" — hiçbiri gövdede geçmiyor. §4 TANECİKLİK: TDV Tibet'i görüyor, Ganden Phodrang kırılmasına inmiyor."
-   }
+   },
+   "KOKEN": "ONERI-KAYNAK-7-0905.json (5 Eylul, KURE GORUNUM) — AYNEN DEVRALINDI"
   },
   {
    "id": "nepal",
@@ -212,7 +203,7 @@
     "\"Dünya Savaşı'nın ardından tam bağımsızlığını ilân etti (1923).\" → kunye t:1923-10-29 ile AYNI YIL"
    ],
    "kaynak_MEVCUT": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
-   "kaynak_ONERILEN": "nepal — TDV maddesi t: ucunu YIL düzeyinde destekliyor (\"tam bağımsızlığını ilân etti (1923)\"); Malla→Gorkha geçişi maddede tarihsiz, o kısım standart akademik kaynağa göredir",
+   "kaynak_ONERILEN": "TDV `nepal` — gövde okundu (16.050 kar.). t: ucunu YIL düzeyinde destekliyor («tam bağımsızlığını ilân etti (1923)»); ve himaye dönemini açıkça veriyor: «1814-1816 yıllarındaki İngiliz-Nepal savaşının ardından yapılan Suguali Antlaşması ile … bu tarihten itibaren Nepal Krallığı varlığını İngiltere himayesinde devam ettirdi.» ⚠️ Malla→Gorkha geçişi maddede TARİHSİZ ve birleşme günü (1768-09-25) TDV'de DESTEKLENMİYOR (Gorkha · Prithvi · 1768 → 0 isabet); o kısım standart akademik kaynağa göredir, hangisi ÖLÇÜLMEDİ.",
    "not": "⚠️ f:1281-01-01 govdede YOK — ama o zaten atlasin PENCERE BASI, bir kurulus iddiasi degil. Gorkha fethi (1768/69) de govdede gecmiyor: §4 TANECIKLIK.",
    "f_dayanak": {
     "kova": "⬜ PENCERE ISARETI — bir iddia DEGIL",
@@ -223,7 +214,16 @@
     "kova": "🟡 YIL DESTEKLI ama DEGER PENCERE ISARETI",
     "cumle": "\"Dünya Savaşı'nın ardından tam bağımsızlığını ilân etti (1923).\"",
     "not": "🔴 AYRIM: TDV 1923 YILINI veriyor, 29 EKİM gününü vermiyor. Künyenin t:1923-10-29 değeri bir pencere işaretidir ve yılın çakışması TESADUFTUR — \"TDV t: değerini doğruluyor\" DENEMEZ."
-   }
+   },
+   "KOKEN": "ONERI-KAYNAK-7-0905 + ASYA-0907 BIRLESTIRILDI (7 Eylul)",
+   "CAKISMA_COZUMU": [
+    "`nepal` UC artefaktta geciyordu:",
+    "  ONERI-KAYNAK-7-0905.json      → ONERILER blogu EMEKLI (bu dosyaya tasindi)",
+    "  ONERI-KAYNAK-ASYA-0907.json   → nepal kaydi ISARETLENDI, metin BURAYA tasindi",
+    "  BU DOSYA                      → TEK YETKILI metin",
+    "Iki metin de AYNI YONDEYDI (damga yanlis, TDV canli); birlestirmede",
+    "0905'in `t:` uyarisi KORUNDU, ASYA'nin Suguali + 1768 bulgulari EKLENDI."
+   ]
   },
   {
    "id": "meysur",
@@ -255,7 +255,8 @@
     "kova": "🟡 KISMEN — AY destekli, GUN desteksiz",
     "cumle": "\"…Seringapatam (Şirîrangapattanam) savaşında yenilerek muharebe meydanında öldü (Mayıs 1799).\"",
     "not": "Künye t:1799-05-04 GÜN taşıyor; TDV yalnız AY veriyor. §4'ün 147 künyelik kovasının bir üyesi: künye gün iddia ediyor, kaynak ay diyor. Gün TDV'ye MAL EDILEMEZ."
-   }
+   },
+   "KOKEN": "ONERI-KAYNAK-7-0905.json (5 Eylul, KURE GORUNUM) — AYNEN DEVRALINDI"
   },
   {
    "id": "nube",
@@ -286,83 +287,84 @@
     "kova": "⚪ SUSUYOR",
     "cumle": null,
     "not": "\"1504\" · \"yıkıl\" · \"son buldu\" · \"XVI. yüz\" — hiçbiri yok. Gövde iki krallığı ADIYLA anıyor (\"kuzeyde Dongola'da Makarra (Makuria) Devleti, güneyde … Sûbâ'da ise Alve Devleti\") ama sonlarını tarihlemiyor."
-   }
-  }
- ],
- "D_TURUNCU_KOVA_KAPANISI": {
-  "sevk": "M-2920 (1.MURAT)",
-  "dayanak": "denetim/OLCUM-SAHTE-POZITIF-0905.md (25 kunye · 45 deger · 4 turuncu)",
-  "🔴_ONCE_KENDI_HATAM__DORT_DEGIL_IKI": [
-   "Sahte pozitif taramasinda DORT 🟠 bildirmistim. Cozumleyince",
-   "IKISI CURUDU — ve ikisi de AYNI SEBEPTEN: TDV govdesine baktim,",
-   "KUNYENIN KENDI BEYANINA bakmadim.",
-   "⇒ Taramam ILISKININ TEK UCUNU olcuyordu.",
-   "📌 §3.5.1: \"bir sinir kaymasi onerildiginde IKI UC DA olculur\" —",
-   "  bu onun KAYNAK yuzu: govde ile kunye KARSILIKLI okunur."
-  ],
-  "VAKALAR": [
-   {
-    "id": "saruhan",
-    "alan": "f",
-    "deger": "1313-01-01",
-    "HUKUM": "🟠 AYAKTA — ve dordunun EN AGIRI",
-    "govde_ne_diyor": "\"Manisa'nın fetih tarihinin 713 (1313) olarak gösterilmesi de DOGRUDAN CAGDAS BIR KAYNAGA DAYANMAMAKTADIR.\"",
-    "govdenin_KENDI_tarihi": "\"Batı Anadolu uç kesiminde 1290'LI YILLARDAN ITIBAREN faaliyet gösteren Saruhan Bey tarafından Manisa merkezli olarak kurulmuş\"",
-    "kunyenin_kendi_beyani": "YOK — ozet 1313'ten hic soz etmiyor, kronoloji \"1313-01-01 kurulus: Saruhan Bey tarafından kuruldu\" diyor ve dayanak vermiyor.",
-    "provenans": "72f9799 · 2026-07-28 · \"Devletler dizini: 64 komsu devlet/beylik/hanlik indeksi\" (EN ESKI parti) · 8a43dfb 2026-08-03 tekrar dokunmus",
-    "CELISKI_CINSI": "SUSMUYOR, CELISIYOR — kaynak hem yili REDDEDIYOR hem KENDI tarihini veriyor, ve ~20 yil ONCE",
-    "ONERI": "🔴 TARIH DEGISTIRILMEDI. §4 \"kaynagin destekledigi EN KABA GUVENLI duzey\" kurali burada bir YIL degil bir ON YIL veriyor (\"1290'lı yıllar\") ⇒ f: icin gun/yil uretilemez. kaynak: alanina AYRISMA YAZILSIN: \"saruhanogullari — TDV bu tarihi ACIKCA dayanaksiz sayiyor ('doğrudan çağdaş bir kaynağa dayanmamaktadır') ve beyligi 1290'lı yıllara tarihliyor; f:1313 TDV'ye DAYANMAZ\"",
-    "EK_IC_CELISKI": "🟡 Ayrica: kunye t:1416-09-01, ozet \"1416'da … kesin olarak sona erdi\" diyor, ama kronolojideki `son` kaydi 1410-01-01. Uc yerde iki farkli bitis. AYRI kalem."
    },
-   {
-    "id": "rusya",
-    "alan": "t",
-    "deger": "1917-03-15",
-    "HUKUM": "🟠 AYAKTA",
-    "govde_ne_diyor": "\"1917\" 17 CUMLEDE geciyor ve HICBIRI tahttan cekilme degil. Olculdu: \"Mart 1917\" 0 kez · \"Şubat 1917\" 0 kez · \"feragat\" tek gecisi 1990 Almanya hakkinda. Govdenin verdigi: \"Lenin önderliğindeki Bolşevikler 1917 EKIM İhtilâli akabinde iktidarı ele geçirdiler.\"",
-    "kunyenin_kendi_beyani": "YOK — ozet tarih dayanagi vermiyor; kronoloji \"1917-03-15 son: II. Nikolay tahttan çekildi\" diyor, kaynak belirtmiyor.",
-    "provenans": "72f9799 · 2026-07-28 (EN ESKI parti) · cf5a2a3 2026-08-08 \"kopyala-yapistir artigi temizlendi\" · 1e61195 2026-09-02",
-    "CELISKI_CINSI": "SUSUYOR — govde olayi hic tarihlemiyor; celiski YOK, DAYANAK yok",
-    "ONERI": "🔴 TARIH DEGISTIRILMEDI. Deger tarihen dogru olabilir (II. Nikolay 15 Mart 1917) ama TDV `rusya` maddesinden GELMIYOR. kaynak: alanina: \"rusya — madde carligin sonunu TARIHLEMIYOR (Ekim 1917 Ihtilali'ni veriyor); t:1917-03-15 baska bir dayanaga sahip, ve o dayanak YAZILI DEGIL\"",
-    "NOT": "⚠️ Bu, taramanin en ogretici vakasi: eslesme sayisi 17 — ve BUYUKLUK, dayanagin gucu DEGIL."
-   },
-   {
-    "id": "cagatay",
-    "alan": "t",
-    "deger": "1370-01-01",
-    "HUKUM": "🔻 CURUDU — 🟠 DEGIL, 🟡 (HASSASIYET)",
-    "govde_ne_diyor": "\"Daha sonra Hüseyin'i de bertaraf edip 1370'LERDE Mâverâünnehir'e fiilen hâkim oldu.\"",
-    "kunyenin_kendi_beyani": "kronoloji \"1370-01-01 son: Timur, Mâverâünnehir'de fiilî iktidarı ele geçirdi\" — 🔴 GOVDEYLE AYNI OLAY.",
-    "provenans": "6cb69b1 · 2026-07-29 · \"Oturum 3 bitti: devletler dizini 77'den 212 kayda\"",
-    "NICIN_CURUDU": "Ilk tasnifimde \"ozne TIMUR, kunyenin olayi degil\" demistim. YANLIS: kunyenin `son` kaydi da AYNEN Timur'un iktidari ele gecirmesini anlatiyor. Govde olayi DOGRU tarihliyor; tek fark HASSASIYET (\"1370'ler\" bir ON YIL, kunye bir YIL yaziyor).",
-    "ONERI": "🟡 Hassasiyet kalemi — 🟠 kovasindan CIKARILDI. §4: kaynak on yil diyorsa yil TDV'ye mal edilemez; bildirim yeter."
-   },
-   {
-    "id": "gurcistan-demokratik-cumhuriyeti",
-    "alan": "t",
-    "deger": "1921-03-16",
-    "HUKUM": "🔻🔻 CURUDU — KUSUR DEGIL, ORNEK BEYAN",
-    "govde_ne_diyor": "\"…Sovyet Rusyası, ŞUBAT 1921'de Gürcistan'ı da işgal ederek…\"",
-    "kunyenin_kendi_beyani": "🟢 KUNYE AYRISMAYI ZATEN BILIYOR VE YAZMIS. `kaynak:`/ozet birebir: \"(kaynak: TDV, madde: gurcistan — kuruluş 26 Mayıs 1918 birebir; işgal 'Şubat 1921' olarak veriliyor, GUN YOK; bitiş günü 16 Mart 1921 atlasın kendi verisiyle — Batum'un düşüşü — uyumlu tutuldu)\". Ve kronoloji IKISINI DE tasiyor: \"1921-02-25 isgal: Tiflis\" ve \"1921-03-16 son: Batum'un düşüşü\".",
-    "provenans": "37b5e7b · 2026-08-07 · \"devletler.js 328 -> 337: Dalga 2'nin dokuz kunyesi\" (EN YENI parti)",
-    "NICIN_CURUDU": "Taramam TDV govdesine bakti, kunyenin KENDI beyanina BAKMADI. Kunye TDV'nin ne dedigini biliyor, farki YAZIYOR, ve secimini GEREKCELENDIRIYOR.",
-    "ONERI": "🟢 HICBIR SEY YAPILMASIN. Bu kayit, ayrisma nasil BEYAN EDILIR sorusunun EMSALI — ve oteki uc vakada eksik olan sey tam olarak budur."
-   }
-  ],
-  "PROVENANS_DESENI": {
-   "gozlem": [
-    "AYAKTA kalan iki 🟠 (saruhan · rusya) — IKISI DE 72f9799,",
-    "  2026-07-28, \"64 komsu devlet indeksi\": EN ESKI parti.",
-    "CURUYEN iki vaka — cagatay 2026-07-29, gurcistan 2026-08-07.",
-    "Ve EN IYI BEYAN (gurcistan) EN YENI partiden."
-   ],
-   "🔴_SINIR": "n=4. Bu bir TREND DEGIL, bir gozlem. Dort vakadan \"eski partiler daha kotu\" hukmu CIKARILAMAZ."
+   "KOKEN": "ONERI-KAYNAK-7-0905.json (5 Eylul, KURE GORUNUM) — AYNEN DEVRALINDI"
   },
-  "🔴_KAPSAM_SINIRI": [
-   "Bu bolum DORT vakayi kapatir, kovayi DEGIL.",
-   "Evren 224 kunye idi; 25'i tarandi, 199'u TARANMADI.",
-   "Dort vaka bir ORAN vermez ve bu bolumden bir oran cikarilamaz."
-  ],
-  "SAYIM_DUZELTMESI": "🟠 4 → 2 · 🟡 3 → 4 (cagatay eklendi) · 🟢 26 → 27 (gurcistan eklendi). 45 deger degismedi."
- }
+  {
+   "id": "cenova",
+   "ad": "Cenova Cumhuriyeti",
+   "f": "1005-01-01",
+   "t": "1797-06-14",
+   "KOKEN": "YENI — OLCUM-YANLIS-BULUNAMADI-0907.md (7 Eylul, ASYA)",
+   "TDV_slug_CANLI": "ceneviz",
+   "SLUG_NEREDEN": "künye `harita:`  (id `cenova` → 302 ÖLÜ)",
+   "govde_metin_kar": 20731,
+   "ad_isabeti": "Cenova ×7",
+   "SS4_2_DOGRU_MADDE_MI": "EVET — TDV `ceneviz` maddesi Cenova Cumhuriyeti'ni anlatiyor",
+   "KUNYE_YILI_GOVDEDE": "t:1797 govdede GECIYOR",
+   "alintilar": [
+    "\"Ote yandan Galata Cenevizlileri, Milano Dukaligi'nin hakimiyeti altina giren CENOVA ile iliskileri gevsedikten sonra Istanbul'u kusatmaya bile girismislerdi (1434).\""
+   ],
+   "kaynak_MEVCUT": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+   "kaynak_ONERILEN": "TDV `ceneviz` — gövde okundu (20.731 kar.), Cenova'yı 7 kez anıyor. ⚠️ SLUG KÜNYENİN `id`Sİ DEĞİL, `harita:` ANAHTARIDIR (`cenova` → 302 ÖLÜ, `ceneviz` → 200 CANLI). Damga «müstakil maddesi yok» diyordu; madde VAR.",
+   "not": "🔴 5 EYLUL TARAMASININ KACIRDIGI UC KAYITTAN BIRI — sebep: aday slug `id`den turetiliyordu. §4 Turkce/aktarim yazim ekseni."
+  },
+  {
+   "id": "cimma-sultanligi",
+   "ad": "Cimma (Jimma) Sultanlığı",
+   "f": "1830-01-01",
+   "t": "1923-10-29",
+   "KOKEN": "YENI — OLCUM-YANLIS-BULUNAMADI-0907.md (7 Eylul, ASYA)",
+   "TDV_slug_CANLI": "cimma",
+   "SLUG_NEREDEN": "künye `harita:`  (id `cimma-sultanligi` → 302 ÖLÜ)",
+   "govde_metin_kar": 6165,
+   "ad_isabeti": "Cimma ×27",
+   "SS4_2_DOGRU_MADDE_MI": "EVET — madde adini polity'den aliyor",
+   "KUNYE_YILI_GOVDEDE": "🟠 f:1830 govdede GECMIYOR — ANMA boslugu (§4)",
+   "alintilar": [
+    "\"…adini buranin meshur krali CIMMA Abba Cifar'dan almaktadir.\""
+   ],
+   "kaynak_MEVCUT": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+   "kaynak_ONERILEN": "TDV `cimma` — gövde okundu (6.165 kar.), Cimma'yı 27 kez anıyor. ⚠️ SLUG `harita:` ANAHTARIDIR (`cimma-sultanligi` → 302 ÖLÜ). ⚠️ Madde polity'yi ADIYLA anıyor ama künyenin f:1830 tarihini VERMİYOR (§4 ANMA boşluğu) — tarih için dayanak hâlâ standart akademik kaynak.",
+   "not": "🟠 ZAYIF curuk: damga YANLIS (madde var) ama TARIH dayanagi DEGISMIYOR."
+  },
+  {
+   "id": "sur-hanedani",
+   "ad": "Sûrîler (Sûr Hânedanı)",
+   "f": "1540-05-17",
+   "t": "1564-01-01",
+   "KOKEN": "YENI — OLCUM-YANLIS-BULUNAMADI-0907.md (7 Eylul, ASYA)",
+   "TDV_slug_CANLI": "suriler",
+   "SLUG_NEREDEN": "künye `ad`  (id `sur-hanedani` → 302 ÖLÜ)",
+   "govde_metin_kar": 5569,
+   "ad_isabeti": "Sûrîler ×6",
+   "SS4_2_DOGRU_MADDE_MI": "EVET — madde dogrudan hanedanin kendisi",
+   "KUNYE_YILI_GOVDEDE": "🟢 f:1540 VE t:1564 govdede GECIYOR — IKI UC DA",
+   "alintilar": [
+    "\"Bundan dolayi hanedan SURILER adini almistir.\""
+   ],
+   "kaynak_MEVCUT": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
+   "kaynak_ONERILEN": "TDV `suriler` — gövde okundu (5.569 kar.). ⚠️ SLUG KÜNYENİN `id`Sİ DEĞİL, künye ADINDAN türetildi (`sur-hanedani` → 302 ÖLÜ, `suriler` → 200 CANLI). Gövde künyenin İKİ UCUNU DA (1540 · 1564) anıyor.",
+   "not": "🔴 GUCLU curuk: madde hem VAR hem IKI TARIHI DE veriyor."
+  },
+  {
+   "id": "banda-adalari",
+   "ad": "Banda Adaları (Orang Kaya Meclisleri)",
+   "f": "1281-01-01",
+   "t": "1621-03-08",
+   "KOKEN": "YENI — OLCUM-YANLIS-BULUNAMADI-0907.md (7 Eylul, ASYA)",
+   "TDV_slug_CANLI": "banda-adalari",
+   "SLUG_NEREDEN": "künye `id`  (id `banda-adalari` → 200 CANLI)",
+   "govde_metin_kar": 5063,
+   "ad_isabeti": "Banda ×13",
+   "SS4_2_DOGRU_MADDE_MI": "EVET — madde dogrudan adalarin kendisi",
+   "KUNYE_YILI_GOVDEDE": "🟢 t:1621 govdede GECIYOR",
+   "alintilar": [
+    "\"BANDA ADALARI'nin unu sadece Cavali, Malayli ve Cinli tuccarlar arasinda ve Asya'da degil ayni zamanda Arap ve Venedikli tuccarlar vasitasiyla Ortadogu ve Avrupa'da da yayilmisti.\""
+   ],
+   "kaynak_MEVCUT": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: John Villiers, 'Trade and Society in the Banda Islands in the Sixteenth Century', Modern Asian Studies 15(4), 1981 (hakemli) + Holden Furber, 'Rival Empires of Trade in the Orient' (Univ. of Minnesota Press, 1976)",
+   "kaynak_ONERILEN": "TDV `banda-adalari` — gövde okundu (5.063 kar.), Banda'yı 13 kez anıyor ve künyenin t:1621 yılını veriyor. Damga «müstakil maddesi yok» diyordu; madde künyenin `id`siyle BİREBİR aynı slug'ta duruyor.",
+   "not": "🔴 EN UCUZ KACIRMA: slug kunyenin `id`siyle AYNI — 5 Eylul taramasinin 263 kunyelik evreni bu kaydi kapsamamis."
+  }
+ ]
 }

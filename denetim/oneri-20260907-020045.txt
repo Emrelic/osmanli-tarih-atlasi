@@ -1,0 +1,17 @@
+// renk_olc.py --oner çıktısı — aktarımdan SONRA:
+//   py arac/renk_olc.py --dogrula oneri-20260907-020045.txt
+azuchi-momoyama #d25a24
+bamum #8a6c1e
+filipin-racaliklari #b424d2
+fransa-cumhuriyet #96f60c
+granada #24d85a
+jukun-kvararafa #0cf00c
+kastilya #d83024
+lusignan #66f60c
+memluk #a206f6
+nijer-deltasi #de24d8
+ryukyu #d2d224
+selcuklu #2472d8
+sokoto #5a72de
+sulu-sultanligi #2454d8
+timurlu #06f606

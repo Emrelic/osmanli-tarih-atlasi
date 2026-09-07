@@ -1,0 +1,222 @@
+{
+ "A_hedef12": {
+  "azuchi-momoyama": {
+   "hex": "#d25a24",
+   "float": 30.68,
+   "float_komsu": "rusya",
+   "bit8": 30.63,
+   "bit8_komsu": "rusya"
+  },
+  "bamum": {
+   "hex": "#8a24d2",
+   "float": 12.04,
+   "float_komsu": "zerma",
+   "bit8": 11.91,
+   "bit8_komsu": "nijer-deltasi"
+  },
+  "filipin-racaliklari": {
+   "hex": "#b424d2",
+   "float": 13.03,
+   "float_komsu": "brunei-sultanligi",
+   "bit8": 13.09,
+   "bit8_komsu": "brunei-sultanligi"
+  },
+  "fransa-cumhuriyet": {
+   "hex": "#ba0cf0",
+   "float": 12.08,
+   "float_komsu": "tekrur",
+   "bit8": 12.49,
+   "bit8_komsu": "tekrur"
+  },
+  "granada": {
+   "hex": "#24d854",
+   "float": 12.09,
+   "float_komsu": "sardinya",
+   "bit8": 12.22,
+   "bit8_komsu": "sardinya"
+  },
+  "jukun-kvararafa": {
+   "hex": "#72f018",
+   "float": 12.06,
+   "float_komsu": "buna",
+   "bit8": 11.99,
+   "bit8_komsu": "buna"
+  },
+  "kastilya": {
+   "hex": "#d82a24",
+   "float": 16.11,
+   "float_komsu": "navarra",
+   "bit8": 16.02,
+   "bit8_komsu": "navarra"
+  },
+  "lusignan": {
+   "hex": "#60f00c",
+   "float": 12.13,
+   "float_komsu": "eyyubi-hisnikeyfa",
+   "bit8": 12.21,
+   "bit8_komsu": "eyyubi-hisnikeyfa"
+  },
+  "memluk": {
+   "hex": "#a20cf6",
+   "float": 12.13,
+   "float_komsu": "trabzon-rum",
+   "bit8": 12.08,
+   "bit8_komsu": "trabzon-rum"
+  },
+  "nijer-deltasi": {
+   "hex": "#d224d2",
+   "float": 12.15,
+   "float_komsu": "bamum",
+   "bit8": 11.91,
+   "bit8_komsu": "bamum"
+  },
+  "ryukyu": {
+   "hex": "#d2d224",
+   "float": 13.53,
+   "float_komsu": "guney-ming",
+   "bit8": 13.41,
+   "bit8_komsu": "guney-ming"
+  },
+  "selcuklu": {
+   "hex": "#2472d8",
+   "float": 13.22,
+   "float_komsu": "atinadukaligi",
+   "bit8": 12.98,
+   "bit8_komsu": "atinadukaligi"
+  },
+  "sokoto": {
+   "hex": "#426cde",
+   "float": 12.0,
+   "float_komsu": "agadez-sultanligi",
+   "bit8": 11.63,
+   "bit8_komsu": "agadez-sultanligi"
+  },
+  "sulu-sultanligi": {
+   "hex": "#244ed8",
+   "float": 12.41,
+   "float_komsu": "gova-makassar",
+   "bit8": 12.06,
+   "bit8_komsu": "gova-makassar"
+  },
+  "timurlu": {
+   "hex": "#0cf60c",
+   "float": 12.46,
+   "float_komsu": "sardinya",
+   "bit8": 12.37,
+   "bit8_komsu": "sardinya"
+  }
+ },
+ "B_hedef13": {
+  "azuchi-momoyama": {
+   "hex": "#d25a24",
+   "float": 30.68,
+   "float_komsu": "rusya",
+   "bit8": 30.63,
+   "bit8_komsu": "rusya"
+  },
+  "bamum": {
+   "hex": "#8a6c1e",
+   "float": 13.21,
+   "float_komsu": "borgu",
+   "bit8": 13.15,
+   "bit8_komsu": "oyo-imparatorlugu"
+  },
+  "filipin-racaliklari": {
+   "hex": "#b424d2",
+   "float": 13.03,
+   "float_komsu": "brunei-sultanligi",
+   "bit8": 13.09,
+   "bit8_komsu": "brunei-sultanligi"
+  },
+  "fransa-cumhuriyet": {
+   "hex": "#96f60c",
+   "float": 13.24,
+   "float_komsu": "gambiya-mandinka",
+   "bit8": 13.33,
+   "bit8_komsu": "loango"
+  },
+  "granada": {
+   "hex": "#24d85a",
+   "float": 13.46,
+   "float_komsu": "sardinya",
+   "bit8": 13.77,
+   "bit8_komsu": "sardinya"
+  },
+  "jukun-kvararafa": {
+   "hex": "#0cf00c",
+   "float": 14.19,
+   "float_komsu": "bagirmi",
+   "bit8": 14.33,
+   "bit8_komsu": "bagirmi"
+  },
+  "kastilya": {
+   "hex": "#d83024",
+   "float": 14.81,
+   "float_komsu": "navarra",
+   "bit8": 14.54,
+   "bit8_komsu": "navarra"
+  },
+  "lusignan": {
+   "hex": "#66f60c",
+   "float": 13.39,
+   "float_komsu": "incu",
+   "bit8": 13.52,
+   "bit8_komsu": "incu"
+  },
+  "memluk": {
+   "hex": "#a206f6",
+   "float": 13.44,
+   "float_komsu": "trabzon-rum",
+   "bit8": 12.86,
+   "bit8_komsu": "karakoyunlu"
+  },
+  "nijer-deltasi": {
+   "hex": "#de24d8",
+   "float": 14.15,
+   "float_komsu": "kanem-tubu",
+   "bit8": 13.94,
+   "bit8_komsu": "kanem-tubu"
+  },
+  "ryukyu": {
+   "hex": "#d2d224",
+   "float": 13.53,
+   "float_komsu": "guney-ming",
+   "bit8": 13.41,
+   "bit8_komsu": "guney-ming"
+  },
+  "selcuklu": {
+   "hex": "#2472d8",
+   "float": 13.22,
+   "float_komsu": "atinadukaligi",
+   "bit8": 12.98,
+   "bit8_komsu": "atinadukaligi"
+  },
+  "sokoto": {
+   "hex": "#5a72de",
+   "float": 13.22,
+   "float_komsu": "adamava",
+   "bit8": 13.37,
+   "bit8_komsu": "gonja"
+  },
+  "sulu-sultanligi": {
+   "hex": "#2454d8",
+   "float": 13.7,
+   "float_komsu": "gova-makassar",
+   "bit8": 13.49,
+   "bit8_komsu": "gova-makassar"
+  },
+  "timurlu": {
+   "hex": "#06f606",
+   "float": 13.93,
+   "float_komsu": "sardinya",
+   "bit8": 13.49,
+   "bit8_komsu": "sardinya"
+  }
+ },
+ "A_cozulemedi": 0,
+ "B_cozulemedi": 0,
+ "A_8bit_alt13": 11,
+ "B_8bit_alt13": 2,
+ "A_8bit_alt12": 4,
+ "B_8bit_alt12": 0
+}

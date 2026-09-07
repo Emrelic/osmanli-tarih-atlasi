@@ -30,7 +30,8 @@
     "denetim/OLCUM-YANLIS-BULUNAMADI-0907.md (7 Eylul, ayni oturum)",
     "BU DOSYA"
    ],
-   "not": "Ucu de AYNI YONDE: damga yanlis, TDV `nepal` canli. Metinler ayrisiyor."
+   "not": "Ucu de AYNI YONDE: damga yanlis, TDV `nepal` canli. Metinler ayrisiyor.",
+   "COZULDU": "2026-09-07 — `nepal` metni ONERI-KAYNAK-11-0907.json'a TASINDI. Bu dosyanin OTEKI UC kaydi (travankur · brunei-sultanligi · tidore-sultanligi) baska hicbir artefaktta YOK ⇒ CANLI ve TEK YETKILI."
   }
  },
  "ONERILER": [
@@ -51,7 +52,13 @@
    "kaynak_MEVCUT": "bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
    "kaynak_ONERILEN": "TDV `nepal` — gövde okundu (16.050 kar.): «1814-1816 yıllarındaki İngiliz-Nepal savaşının ardından yapılan Suguali Antlaşması ile … bu tarihten itibaren Nepal Krallığı varlığını İngiltere himayesinde devam ettirdi.» ⚠️ Birleşme günü (1768-09-25) TDV'de DESTEKLENMİYOR (Gorkha · Prithvi · 1768 → 0 isabet); başka kaynaktan gelmiş, hangisi ÖLÇÜLMEDİ.",
    "not": "🔴 UC DOSYA AYNI KUNYEYE DOKUNUYOR: bu dosya · ONERI-KAYNAK-7-0905.json · OLCUM-YANLIS-BULUNAMADI-0907.md. Uygulamada BIRLESTIRILMELI.",
-   "OLCMEDIM": "TDV himaye (1816) diyor, atlas 1281-1923 kesintisiz BAGIMSIZ boyuyor — `v:` kimlik alani olmadigi icin ifade EDILEMIYOR (yapisal, senin kalemin)."
+   "OLCMEDIM": "TDV himaye (1816) diyor, atlas 1281-1923 kesintisiz BAGIMSIZ boyuyor — `v:` kimlik alani olmadigi icin ifade EDILEMIYOR (yapisal, senin kalemin).",
+   "🔴_DEVREDILDI": {
+    "damga": "2026-09-07",
+    "nereye": "denetim/ONERI-KAYNAK-11-0907.json",
+    "nicin": "`nepal` UC artefaktta geciyordu; TEK YETKILI metin artik 11'lik birlesik dosyada. Oradaki metin BU kaydin bulgularini (Suguali + 1768-09-25 desteklenmiyor) 0905'in `t:` uyarisiyla BIRLESTIRIYOR.",
+    "BU_KAYIT": "⚠️ UYGULANMAZ — kayit olarak durur, ardili yukaridadir."
+   }
   },
   {
    "id": "travankur",

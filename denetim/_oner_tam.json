@@ -1,0 +1,114 @@
+{
+ "azuchi-momoyama": {
+  "hex": "#d25a24",
+  "oner": 23.9,
+  "float_tam": 23.89,
+  "bit8_tam": 23.27,
+  "bit8_komsu": "OSMANLI tâbi"
+ },
+ "bamum": {
+  "hex": "#8a6c1e",
+  "oner": 13.2,
+  "float_tam": 13.21,
+  "bit8_tam": 13.15,
+  "bit8_komsu": "oyo-imparatorlugu"
+ },
+ "filipin-racaliklari": {
+  "hex": "#b424d2",
+  "oner": 13.0,
+  "float_tam": 13.03,
+  "bit8_tam": 13.09,
+  "bit8_komsu": "brunei-sultanligi"
+ },
+ "fransa-cumhuriyet": {
+  "hex": "#96f60c",
+  "oner": 13.2,
+  "float_tam": 13.24,
+  "bit8_tam": 13.33,
+  "bit8_komsu": "loango"
+ },
+ "granada": {
+  "hex": "#24d85a",
+  "oner": 13.5,
+  "float_tam": 13.46,
+  "bit8_tam": 13.77,
+  "bit8_komsu": "sardinya"
+ },
+ "jukun-kvararafa": {
+  "hex": "#0cf00c",
+  "oner": 14.2,
+  "float_tam": 14.19,
+  "bit8_tam": 14.33,
+  "bit8_komsu": "bagirmi"
+ },
+ "kastilya": {
+  "hex": "#d83024",
+  "oner": 13.4,
+  "float_tam": 13.36,
+  "bit8_tam": 12.97,
+  "bit8_komsu": "OSMANLI tâbi"
+ },
+ "lusignan": {
+  "hex": "#66f60c",
+  "oner": 13.4,
+  "float_tam": 13.39,
+  "bit8_tam": 13.52,
+  "bit8_komsu": "incu"
+ },
+ "memluk": {
+  "hex": "#6cf60c",
+  "oner": 13.0,
+  "float_tam": 13.01,
+  "bit8_tam": 12.88,
+  "bit8_komsu": "sardinya"
+ },
+ "nijer-deltasi": {
+  "hex": "#de24d8",
+  "oner": 14.1,
+  "float_tam": 14.07,
+  "bit8_tam": 13.94,
+  "bit8_komsu": "kanem-tubu"
+ },
+ "ryukyu": {
+  "hex": "#d2d224",
+  "oner": 13.5,
+  "float_tam": 13.53,
+  "bit8_tam": 13.41,
+  "bit8_komsu": "guney-ming"
+ },
+ "selcuklu": {
+  "hex": "#2472d8",
+  "oner": 13.2,
+  "float_tam": 13.22,
+  "bit8_tam": 12.98,
+  "bit8_komsu": "atinadukaligi"
+ },
+ "sokoto": {
+  "hex": "#5a72de",
+  "oner": 13.2,
+  "float_tam": 13.22,
+  "bit8_tam": 13.19,
+  "bit8_komsu": "jukun-kvararafa"
+ },
+ "sulu-sultanligi": {
+  "hex": "#2454d8",
+  "oner": 13.7,
+  "float_tam": 13.7,
+  "bit8_tam": 13.49,
+  "bit8_komsu": "gova-makassar"
+ },
+ "timurlu": {
+  "hex": "#06f606",
+  "oner": 13.9,
+  "float_tam": 13.93,
+  "bit8_tam": 13.49,
+  "bit8_komsu": "sardinya"
+ },
+ "yuan-hanedani": {
+  "hex": "#2424d8",
+  "oner": 17.8,
+  "float_tam": 17.76,
+  "bit8_tam": 17.7,
+  "bit8_komsu": "cagatay"
+ }
+}

@@ -1,0 +1,183 @@
+{
+ "uclar": {
+  "azuchi-momoyama": {
+   "eski": "#6042ae",
+   "yeni": "#d25a24",
+   "oner_bildirdigi_dE": 23.9,
+   "cozuldu": true
+  },
+  "bamum": {
+   "eski": "#8a24d2",
+   "yeni": "#8a6c1e",
+   "oner_bildirdigi_dE": 13.2,
+   "cozuldu": true
+  },
+  "filipin-racaliklari": {
+   "eski": "#58a028",
+   "yeni": "#b424d2",
+   "oner_bildirdigi_dE": 13.0,
+   "cozuldu": true
+  },
+  "fransa-cumhuriyet": {
+   "eski": "#00297c",
+   "yeni": "#96f60c",
+   "oner_bildirdigi_dE": 13.2,
+   "cozuldu": true
+  },
+  "granada": {
+   "eski": "#7ba05b",
+   "yeni": "#24d85a",
+   "oner_bildirdigi_dE": 13.5,
+   "cozuldu": true
+  },
+  "jukun-kvararafa": {
+   "eski": "#2424a2",
+   "yeni": "#0cf00c",
+   "oner_bildirdigi_dE": 14.2,
+   "cozuldu": true
+  },
+  "kastilya": {
+   "eski": "#4bae4e",
+   "yeni": "#d83024",
+   "oner_bildirdigi_dE": 13.4,
+   "cozuldu": true
+  },
+  "lusignan": {
+   "eski": "#8a6ba0",
+   "yeni": "#66f60c",
+   "oner_bildirdigi_dE": 13.4,
+   "cozuldu": true
+  },
+  "memluk": {
+   "eski": "#f09087",
+   "yeni": "#6cf60c",
+   "oner_bildirdigi_dE": 13.0,
+   "cozuldu": true
+  },
+  "nijer-deltasi": {
+   "eski": "#d224d2",
+   "yeni": "#de24d8",
+   "oner_bildirdigi_dE": 14.1,
+   "cozuldu": true
+  },
+  "ryukyu": {
+   "eski": "#7b1fa2",
+   "yeni": "#d2d224",
+   "oner_bildirdigi_dE": 13.5,
+   "cozuldu": true
+  },
+  "selcuklu": {
+   "eski": "#d878a8",
+   "yeni": "#2472d8",
+   "oner_bildirdigi_dE": 13.2,
+   "cozuldu": true
+  },
+  "sokoto": {
+   "eski": "#2860d4",
+   "yeni": "#5a72de",
+   "oner_bildirdigi_dE": 13.2,
+   "cozuldu": true
+  },
+  "sulu-sultanligi": {
+   "eski": "#636f03",
+   "yeni": "#2454d8",
+   "oner_bildirdigi_dE": 13.7,
+   "cozuldu": true
+  },
+  "timurlu": {
+   "eski": "#9c7563",
+   "yeni": "#06f606",
+   "oner_bildirdigi_dE": 13.9,
+   "cozuldu": true
+  },
+  "yuan-hanedani": {
+   "eski": "#636f03",
+   "yeni": "#2424d8",
+   "oner_bildirdigi_dE": 17.8,
+   "cozuldu": true
+  }
+ },
+ "ciftler": [
+  {
+   "cift": [
+    "azuchi-momoyama",
+    "ryukyu"
+   ],
+   "bugun_8bit": 11.65,
+   "a_tasinirsa": 44.93,
+   "b_tasinirsa": 67.43
+  },
+  {
+   "cift": [
+    "filipin-racaliklari",
+    "sulu-sultanligi"
+   ],
+   "bugun_8bit": 11.72,
+   "a_tasinirsa": 70.22,
+   "b_tasinirsa": 60.58
+  },
+  {
+   "cift": [
+    "filipin-racaliklari",
+    "yuan-hanedani"
+   ],
+   "bugun_8bit": 11.72,
+   "a_tasinirsa": 70.22,
+   "b_tasinirsa": 74.37
+  },
+  {
+   "cift": [
+    "fransa-cumhuriyet",
+    "sokoto"
+   ],
+   "bugun_8bit": 11.79,
+   "a_tasinirsa": 82.38,
+   "b_tasinirsa": 14.45
+  },
+  {
+   "cift": [
+    "jukun-kvararafa",
+    "sokoto"
+   ],
+   "bugun_8bit": 11.8,
+   "a_tasinirsa": 86.32,
+   "b_tasinirsa": 13.19
+  },
+  {
+   "cift": [
+    "lusignan",
+    "selcuklu"
+   ],
+   "bugun_8bit": 11.88,
+   "a_tasinirsa": 73.9,
+   "b_tasinirsa": 20.25
+  },
+  {
+   "cift": [
+    "bamum",
+    "nijer-deltasi"
+   ],
+   "bugun_8bit": 11.91,
+   "a_tasinirsa": 61.38,
+   "b_tasinirsa": 14.1
+  },
+  {
+   "cift": [
+    "memluk",
+    "timurlu"
+   ],
+   "bugun_8bit": 11.98,
+   "a_tasinirsa": 57.37,
+   "b_tasinirsa": 74.07
+  },
+  {
+   "cift": [
+    "granada",
+    "kastilya"
+   ],
+   "bugun_8bit": 11.99,
+   "a_tasinirsa": 14.74,
+   "b_tasinirsa": 40.02
+  }
+ ]
+}
