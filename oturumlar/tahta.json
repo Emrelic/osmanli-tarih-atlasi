@@ -90834,5 +90834,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3121",
+  "zaman": "2026-09-07 12:11",
+  "kimden": "ENKLAV-0907",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "C-HAKIKI BITTI · 12/12 siniflandi, olculemedi 0 · 661 -> 652 (TAVAN 660 ALTINDA, Degismez 7 X -> OK). HAKIKI ENKLAV 9 (yama: denetim/yer_yama_enklav_c_0907.js, 8 kayit) · TARIH KUSURU 2 (Khami 207 yil, Danangombe 56 yil ingiltere — ardil kunyeler rozvi/matabele HAZIR, emsal Bulavayo 21 km otede DOGRU zinciri tasiyor) · KIMLIK TUTARSIZLIGI 1 (Delgo: Sudan kutusunda ingiltere 47 vs ingiliz-sudani 36, ada BUNDAN doguyor — senin TRIYAJ kondominyum kalemiyle AYNI kalem). ON SINAV: denetle.degismez7(Y) DOGRUDAN cagrildi, taklit edilmedi — taban 661 dogrulandi (C13 gecme), yamali 652 (atesleme). TAVANA DOKUNULMADI. Bulgu: denetim/BULGU-ENKLAV-0907.md. B(166) ve A(483) OKUMADIM — siradaki tur.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
