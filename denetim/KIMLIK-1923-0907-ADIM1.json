@@ -1,0 +1,1915 @@
+{
+ "_NOT": "KIMLIK-1923-0907 adim (1) — 1923-10-29'da canli atlas kimlikleri. Kaynak: girdi.yukle() (yetkili yukleyici). Donemler YARI ACIK (f <= g < t); UFUK sonu 1923-10-29 oldugu icin iki gun de olculdu.",
+ "yerlesim_toplam": 3805,
+ "gunler": {
+  "1923-10-29": {
+   "kimlik_sayisi": 1,
+   "kova": {
+    "s": 1
+   },
+   "sahipsiz": 3804,
+   "sahipsiz_ornek": [
+    "A Coruña",
+    "Aabenraa",
+    "Aachen",
+    "Aalborg",
+    "Aarhus",
+    "Abakan ostrogu",
+    "Abalak",
+    "Abalessa",
+    "Aberdeen",
+    "Abeşe (Abéché)",
+    "Abitibi House",
+    "Abomey",
+    "Abrî (Mahas)",
+    "Absu (Hypsu)",
+    "Abu Dabi"
+   ],
+   "kid_tasimayan_v_donemi": 0,
+   "kid_tasimayan_ornek": [],
+   "isgal_ortusu": {},
+   "kimlikler": {
+    "fas": 1
+   },
+   "zarf": {
+    "fas": {
+     "nokta": 1,
+     "bbox": [
+      -5.269,
+      35.171,
+      -5.269,
+      35.171
+     ],
+     "temsili": {
+      "ad": "Şefşâven",
+      "lat": 35.171,
+      "lon": -5.269
+     }
+    }
+   }
+  },
+  "1923-10-28": {
+   "kimlik_sayisi": 109,
+   "kova": {
+    "s": 3597,
+    "v": 36,
+    "d": 4
+   },
+   "sahipsiz": 168,
+   "sahipsiz_ornek": [
+    "Anadır (Anadyrsk)",
+    "Aotearoa Māori Yerleşimi (Kuzey Adası içi)",
+    "Arnhem Land",
+    "Aru-Tanimbar adaları",
+    "Aru-Tanimbar adaları 2",
+    "Atbay çölü",
+    "Avustralya İç Kesimi (Güney — Nullarbor/Güneybatı)",
+    "Avustralya İç Kesimi (Kuzey — Arnhem Land)",
+    "Avustralya İç Kesimi (Kuzeybatı — Kimberley)",
+    "Avustralya İç Kesimi (Kuzeydoğu — Cape York)",
+    "Avustralya İç Kesimi (Orta — Arrernte bölgesi)",
+    "Bau (Fiji Konfederasyonları)",
+    "Bayûda çölü",
+    "Beyan G10.5 B52.5",
+    "Beyan G10.5 B58.5"
+   ],
+   "kid_tasimayan_v_donemi": 36,
+   "kid_tasimayan_ornek": [
+    {
+     "yerlesim": "Tunus",
+     "k_metni": null
+    },
+    {
+     "yerlesim": "Kayrevan",
+     "k_metni": null
+    },
+    {
+     "yerlesim": "Gabes",
+     "k_metni": null
+    },
+    {
+     "yerlesim": "Sfaks",
+     "k_metni": null
+    },
+    {
+     "yerlesim": "Cerbe (Djerba)",
+     "k_metni": null
+    },
+    {
+     "yerlesim": "Kerkene (Kerkennah)",
+     "k_metni": null
+    },
+    {
+     "yerlesim": "Benzert (Bizerte)",
+     "k_metni": null
+    },
+    {
+     "yerlesim": "Halkulvâdî",
+     "k_metni": null
+    },
+    {
+     "yerlesim": "Mâtir (Mateur)",
+     "k_metni": null
+    },
+    {
+     "yerlesim": "Tabarka",
+     "k_metni": null
+    },
+    {
+     "yerlesim": "Bâce (Béja)",
+     "k_metni": null
+    },
+    {
+     "yerlesim": "Cendûbe",
+     "k_metni": null
+    },
+    {
+     "yerlesim": "Kef",
+     "k_metni": null
+    },
+    {
+     "yerlesim": "Nâbil (Nabeul)",
+     "k_metni": null
+    },
+    {
+     "yerlesim": "Kelîbiye",
+     "k_metni": null
+    }
+   ],
+   "isgal_ortusu": {
+    "ingiltere": 54,
+    "fransa-cumhuriyet": 36
+   },
+   "kimlikler": {
+    "sovyet-rusya": 392,
+    "ingiltere": 340,
+    "fransa-cumhuriyet": 260,
+    "tbmm-turkiye": 238,
+    "abd": 196,
+    "kanada": 188,
+    "italya": 127,
+    "ingiliz-hindistani": 114,
+    "kacar": 108,
+    "yunanistan": 97,
+    "cin-cumhuriyeti": 95,
+    "avustralya": 79,
+    "meksika": 78,
+    "hollanda-dogu-hint": 67,
+    "yugoslavya": 66,
+    "habesistan": 64,
+    "portekiz": 60,
+    "belcika": 59,
+    "meiji-japonya": 55,
+    "misir-kralligi": 51,
+    "ispanya": 47,
+    "fransiz-cinhindi": 46,
+    "romanya-kralligi": 40,
+    "ingiliz-sudani": 37,
+    "__KIDSIZ__": 36,
+    "fas": 34,
+    "almanya": 34,
+    "arjantin-cumhuriyeti": 34,
+    "irak-kralligi": 31,
+    "brezilya-cumhuriyeti": 31,
+    "isvec": 30,
+    "peru-cumhuriyeti": 27,
+    "siyam-chakri": 24,
+    "bulgaristan-kralligi": 22,
+    "finlandiya": 22,
+    "macaristan-naiplik": 20,
+    "norvec": 20,
+    "umman": 19,
+    "polonya": 18,
+    "suriye-lubnan-mandasi": 17,
+    "suud-ucuncu": 15,
+    "somali": 15,
+    "arnavutluk-bagimsiz": 14,
+    "bolivya-cumhuriyeti": 14,
+    "sili-cumhuriyeti": 14,
+    "hicaz": 13,
+    "mogolistan": 13,
+    "cekoslovakya": 12,
+    "danimarka": 12,
+    "irlanda-serbest-devlet": 11,
+    "ingiliz-malaya": 11,
+    "yemen": 9,
+    "hollanda": 8,
+    "haydarabad-nizam": 8,
+    "umman-zengibar": 8,
+    "racput": 7,
+    "filistin-mandasi": 6,
+    "isvicre": 6,
+    "ekvador-cumhuriyeti": 6,
+    "rusya": 5,
+    "afganistan": 5,
+    "maratha": 5,
+    "kolombiya-cumhuriyeti": 5,
+    "liberya": 5,
+    "tibet-ganden-phodrang": 4,
+    "osmanli": 4,
+    "kuba-cumhuriyeti": 4,
+    "paraguay-cumhuriyeti": 4,
+    "estonya": 4,
+    "letonya": 3,
+    "litvanya": 3,
+    "cammu-kesmir": 3,
+    "meysur": 3,
+    "san-devletleri": 3,
+    "cohor-sultanligi": 3,
+    "venezuela-cumhuriyeti": 3,
+    "ingiliz-guyanasi": 3,
+    "uruguay-cumhuriyeti": 3,
+    "yeni-zelanda": 3,
+    "urdun-emirligi": 2,
+    "avusturya": 2,
+    "guatemala": 2,
+    "dominik-cumhuriyeti": 2,
+    "izlanda": 2,
+    "panama-cumhuriyeti": 2,
+    "agadez-sultanligi": 1,
+    "kuveyt": 1,
+    "katar": 1,
+    "kuayti-sultanligi": 1,
+    "piombino": 1,
+    "cimma": 1,
+    "luksemburg": 1,
+    "nepal": 1,
+    "bahavelpur": 1,
+    "bharatpur-cat": 1,
+    "cunagadh": 1,
+    "bhopal": 1,
+    "manipur": 1,
+    "travankur": 1,
+    "yogyakarta": 1,
+    "surakarta": 1,
+    "brunei-sultanligi": 1,
+    "sarawak-brooke": 1,
+    "tidore-sultanligi": 1,
+    "haiti": 1,
+    "hollanda-guyanasi": 1,
+    "fransiz-guyanasi": 1,
+    "adal": 1,
+    "tonga-kralligi": 1,
+    "buganda": 1
+   },
+   "zarf": {
+    "tbmm-turkiye": {
+     "nokta": 238,
+     "bbox": [
+      25.905,
+      36.078,
+      44.601,
+      42.027
+     ],
+     "temsili": {
+      "ad": "Ankara",
+      "lat": 39.933,
+      "lon": 32.86
+     }
+    },
+    "italya": {
+     "nokta": 127,
+     "bbox": [
+      7.687,
+      0.489,
+      46.31,
+      46.067
+     ],
+     "temsili": {
+      "ad": "Câlû",
+      "lat": 29.033,
+      "lon": 21.548
+     }
+    },
+    "suriye-lubnan-mandasi": {
+     "nokta": 17,
+     "bbox": [
+      35.369,
+      33.513,
+      42.145,
+      37.176
+     ],
+     "temsili": {
+      "ad": "Halep",
+      "lat": 36.202,
+      "lon": 37.161
+     }
+    },
+    "yunanistan": {
+     "nokta": 97,
+     "bbox": [
+      19.922,
+      35.202,
+      26.977,
+      41.72
+     ],
+     "temsili": {
+      "ad": "Eğriboz",
+      "lat": 38.4631,
+      "lon": 23.6023
+     }
+    },
+    "bulgaristan-kralligi": {
+     "nokta": 22,
+     "bbox": [
+      22.69,
+      41.404,
+      28.0192,
+      43.992
+     ],
+     "temsili": {
+      "ad": "Eski Zağra (Stara Zagora)",
+      "lat": 42.425,
+      "lon": 25.633
+     }
+    },
+    "yugoslavya": {
+     "nokta": 66,
+     "bbox": [
+      14.506,
+      41.031,
+      22.717,
+      46.3057
+     ],
+     "temsili": {
+      "ad": "Saraybosna",
+      "lat": 43.856,
+      "lon": 18.413
+     }
+    },
+    "romanya-kralligi": {
+     "nokta": 40,
+     "bbox": [
+      21.23,
+      43.904,
+      30.3431,
+      48.51
+     ],
+     "temsili": {
+      "ad": "Brassó (Braşov)",
+      "lat": 45.6427,
+      "lon": 25.5887
+     }
+    },
+    "arnavutluk-bagimsiz": {
+     "nokta": 14,
+     "bbox": [
+      19.455,
+      39.7458,
+      20.1389,
+      42.069
+     ],
+     "temsili": {
+      "ad": "Berat",
+      "lat": 40.705,
+      "lon": 19.951
+     }
+    },
+    "sovyet-rusya": {
+     "nokta": 392,
+     "bbox": [
+      26.574,
+      37.224,
+      170.42,
+      74.5
+     ],
+     "temsili": {
+      "ad": "Zaural Başkurt toprakları",
+      "lat": 54.0,
+      "lon": 62.5
+     }
+    },
+    "macaristan-naiplik": {
+     "nokta": 20,
+     "bbox": [
+      16.59,
+      45.993,
+      21.6273,
+      48.117
+     ],
+     "temsili": {
+      "ad": "Peşte",
+      "lat": 47.494,
+      "lon": 19.06
+     }
+    },
+    "cekoslovakya": {
+     "nokta": 12,
+     "bbox": [
+      14.421,
+      47.7625,
+      22.7185,
+      50.088
+     ],
+     "temsili": {
+      "ad": "Léva (Levice)",
+      "lat": 48.2172,
+      "lon": 18.6069
+     }
+    },
+    "ingiltere": {
+     "nokta": 340,
+     "bbox": [
+      -88.197,
+      -54.28,
+      178.8327,
+      60.153
+     ],
+     "temsili": {
+      "ad": "Radom",
+      "lat": 9.95,
+      "lon": 24.95
+     }
+    },
+    "rusya": {
+     "nokta": 5,
+     "bbox": [
+      39.08,
+      42.058,
+      48.29,
+      44.609
+     ],
+     "temsili": {
+      "ad": "Sohum",
+      "lat": 43.001,
+      "lon": 41.023
+     }
+    },
+    "kacar": {
+     "nokta": 108,
+     "bbox": [
+      44.2001,
+      25.2919,
+      61.8611,
+      39.2942
+     ],
+     "temsili": {
+      "ad": "Kâşân",
+      "lat": 33.9831,
+      "lon": 51.41
+     }
+    },
+    "filistin-mandasi": {
+     "nokta": 6,
+     "bbox": [
+      34.3,
+      31.34,
+      35.254,
+      32.928
+     ],
+     "temsili": {
+      "ad": "Yafa",
+      "lat": 32.054,
+      "lon": 34.755
+     }
+    },
+    "irak-kralligi": {
+     "nokta": 31,
+     "bbox": [
+      41.8689,
+      29.9764,
+      48.4722,
+      37.1447
+     ],
+     "temsili": {
+      "ad": "Sâmerrâ",
+      "lat": 34.1983,
+      "lon": 43.8742
+     }
+    },
+    "suud-ucuncu": {
+     "nokta": 15,
+     "bbox": [
+      38.545,
+      18.216,
+      50.2131,
+      29.812
+     ],
+     "temsili": {
+      "ad": "Necid içi",
+      "lat": 25.5,
+      "lon": 44.5
+     }
+    },
+    "hicaz": {
+     "nokta": 13,
+     "bbox": [
+      35.734,
+      21.423,
+      40.513,
+      30.192
+     ],
+     "temsili": {
+      "ad": "Yenbu",
+      "lat": 24.089,
+      "lon": 38.063
+     }
+    },
+    "yemen": {
+     "nokta": 9,
+     "bbox": [
+      42.009,
+      13.319,
+      44.191,
+      16.94
+     ],
+     "temsili": {
+      "ad": "Kevkebân",
+      "lat": 15.503,
+      "lon": 43.899
+     }
+    },
+    "misir-kralligi": {
+     "nokta": 51,
+     "bbox": [
+      25.17,
+      21.802,
+      35.6,
+      31.556
+     ],
+     "temsili": {
+      "ad": "Benî Süveyf",
+      "lat": 29.074,
+      "lon": 31.098
+     }
+    },
+    "__KIDSIZ__": {
+     "nokta": 36,
+     "bbox": [
+      7.878,
+      32.93,
+      11.224,
+      37.276
+     ],
+     "temsili": {
+      "ad": "Sîdî Bû Zeyd",
+      "lat": 35.038,
+      "lon": 9.485
+     }
+    },
+    "fransa-cumhuriyet": {
+     "nokta": 260,
+     "bbox": [
+      -17.45,
+      -25.17,
+      166.44,
+      50.951
+     ],
+     "temsili": {
+      "ad": "Arlit",
+      "lat": 18.74,
+      "lon": 7.39
+     }
+    },
+    "urdun-emirligi": {
+     "nokta": 2,
+     "bbox": [
+      35.703,
+      31.181,
+      35.933,
+      31.949
+     ],
+     "temsili": {
+      "ad": "Kerak",
+      "lat": 31.181,
+      "lon": 35.703
+     }
+    },
+    "avusturya": {
+     "nokta": 2,
+     "bbox": [
+      15.439,
+      47.071,
+      16.373,
+      48.208
+     ],
+     "temsili": {
+      "ad": "Viyana",
+      "lat": 48.208,
+      "lon": 16.373
+     }
+    },
+    "polonya": {
+     "nokta": 18,
+     "bbox": [
+      16.932,
+      48.951,
+      26.2516,
+      54.352
+     ],
+     "temsili": {
+      "ad": "Lublin",
+      "lat": 51.2465,
+      "lon": 22.5684
+     }
+    },
+    "fas": {
+     "nokta": 34,
+     "bbox": [
+      -10.173,
+      28.987,
+      -1.227,
+      35.777
+     ],
+     "temsili": {
+      "ad": "Benî Mellâl",
+      "lat": 32.337,
+      "lon": -6.36
+     }
+    },
+    "umman": {
+     "nokta": 19,
+     "bbox": [
+      53.418,
+      12.51,
+      59.52,
+      24.3472
+     ],
+     "temsili": {
+      "ad": "Cezîr (Sevkıra)",
+      "lat": 18.161,
+      "lon": 56.537
+     }
+    },
+    "habesistan": {
+     "nokta": 64,
+     "bbox": [
+      34.53,
+      3.533,
+      45.35,
+      14.277
+     ],
+     "temsili": {
+      "ad": "Addis",
+      "lat": 9.03,
+      "lon": 38.74
+     }
+    },
+    "agadez-sultanligi": {
+     "nokta": 1,
+     "bbox": [
+      7.991,
+      16.973,
+      7.991,
+      16.973
+     ],
+     "temsili": {
+      "ad": "Agadez",
+      "lat": 16.973,
+      "lon": 7.991
+     }
+    },
+    "irlanda-serbest-devlet": {
+     "nokta": 11,
+     "bbox": [
+      -9.7,
+      51.898,
+      -6.26,
+      54.654
+     ],
+     "temsili": {
+      "ad": "Athlone",
+      "lat": 53.424,
+      "lon": -7.941
+     }
+    },
+    "hollanda": {
+     "nokta": 8,
+     "bbox": [
+      3.61,
+      50.851,
+      6.567,
+      53.219
+     ],
+     "temsili": {
+      "ad": "Utrecht",
+      "lat": 52.091,
+      "lon": 5.121
+     }
+    },
+    "portekiz": {
+     "nokta": 60,
+     "bbox": [
+      -16.17,
+      -25.9693,
+      125.56,
+      41.806
+     ],
+     "temsili": {
+      "ad": "Dundo",
+      "lat": -7.37,
+      "lon": 20.83
+     }
+    },
+    "ispanya": {
+     "nokta": 47,
+     "bbox": [
+      -8.72,
+      35.1727,
+      4.26,
+      43.4667
+     ],
+     "temsili": {
+      "ad": "Cuenca",
+      "lat": 40.071,
+      "lon": -2.134
+     }
+    },
+    "almanya": {
+     "nokta": 34,
+     "bbox": [
+      6.084,
+      47.66,
+      21.144,
+      55.703
+     ],
+     "temsili": {
+      "ad": "Erfurt",
+      "lat": 50.978,
+      "lon": 11.029
+     }
+    },
+    "isvec": {
+     "nokta": 30,
+     "bbox": [
+      11.938,
+      55.605,
+      22.1547,
+      67.8693
+     ],
+     "temsili": {
+      "ad": "Västerås",
+      "lat": 59.6132,
+      "lon": 16.545
+     }
+    },
+    "danimarka": {
+     "nokta": 12,
+     "bbox": [
+      -53.6684,
+      54.766,
+      14.702,
+      69.247
+     ],
+     "temsili": {
+      "ad": "Ribe",
+      "lat": 55.328,
+      "lon": 8.766
+     }
+    },
+    "norvec": {
+     "nokta": 20,
+     "bbox": [
+      5.268,
+      58.147,
+      31.1107,
+      70.3705
+     ],
+     "temsili": {
+      "ad": "Røros",
+      "lat": 62.575,
+      "lon": 11.385
+     }
+    },
+    "finlandiya": {
+     "nokta": 22,
+     "bbox": [
+      21.616,
+      60.17,
+      31.22,
+      69.55
+     ],
+     "temsili": {
+      "ad": "Iisalmi",
+      "lat": 63.558,
+      "lon": 27.188
+     }
+    },
+    "letonya": {
+     "nokta": 3,
+     "bbox": [
+      24.105,
+      55.875,
+      26.536,
+      57.312
+     ],
+     "temsili": {
+      "ad": "Cēsis (Wenden)",
+      "lat": 57.312,
+      "lon": 25.274
+     }
+    },
+    "litvanya": {
+     "nokta": 3,
+     "bbox": [
+      23.315,
+      54.687,
+      25.28,
+      55.934
+     ],
+     "temsili": {
+      "ad": "Kaunas",
+      "lat": 54.897,
+      "lon": 23.886
+     }
+    },
+    "kuveyt": {
+     "nokta": 1,
+     "bbox": [
+      47.977,
+      29.376,
+      47.977,
+      29.376
+     ],
+     "temsili": {
+      "ad": "Kuveyt",
+      "lat": 29.376,
+      "lon": 47.977
+     }
+    },
+    "katar": {
+     "nokta": 1,
+     "bbox": [
+      51.531,
+      25.285,
+      51.531,
+      25.285
+     ],
+     "temsili": {
+      "ad": "Doha (Katar)",
+      "lat": 25.285,
+      "lon": 51.531
+     }
+    },
+    "kuayti-sultanligi": {
+     "nokta": 1,
+     "bbox": [
+      48.5,
+      15.5,
+      48.5,
+      15.5
+     ],
+     "temsili": {
+      "ad": "Hadramut",
+      "lat": 15.5,
+      "lon": 48.5
+     }
+    },
+    "ingiliz-sudani": {
+     "nokta": 37,
+     "bbox": [
+      24.0,
+      3.6,
+      34.783,
+      20.803
+     ],
+     "temsili": {
+      "ad": "Fangak",
+      "lat": 9.07,
+      "lon": 30.883
+     }
+    },
+    "piombino": {
+     "nokta": 1,
+     "bbox": [
+      10.285,
+      42.784,
+      10.285,
+      42.784
+     ],
+     "temsili": {
+      "ad": "Elba",
+      "lat": 42.784,
+      "lon": 10.285
+     }
+    },
+    "somali": {
+     "nokta": 15,
+     "bbox": [
+      41.15,
+      -0.358,
+      51.259,
+      11.968
+     ],
+     "temsili": {
+      "ad": "Galkayo",
+      "lat": 6.77,
+      "lon": 47.431
+     }
+    },
+    "cimma": {
+     "nokta": 1,
+     "bbox": [
+      36.834,
+      7.673,
+      36.834,
+      7.673
+     ],
+     "temsili": {
+      "ad": "Cimma (Jiren)",
+      "lat": 7.673,
+      "lon": 36.834
+     }
+    },
+    "belcika": {
+     "nokta": 59,
+     "bbox": [
+      2.886,
+      -10.72,
+      30.25,
+      51.22
+     ],
+     "temsili": {
+      "ad": "Businga",
+      "lat": 3.34,
+      "lon": 20.88
+     }
+    },
+    "luksemburg": {
+     "nokta": 1,
+     "bbox": [
+      6.132,
+      49.611,
+      6.132,
+      49.611
+     ],
+     "temsili": {
+      "ad": "Lüksemburg",
+      "lat": 49.611,
+      "lon": 6.132
+     }
+    },
+    "isvicre": {
+     "nokta": 6,
+     "bbox": [
+      6.143,
+      46.204,
+      8.541,
+      47.559
+     ],
+     "temsili": {
+      "ad": "Bern",
+      "lat": 46.948,
+      "lon": 7.447
+     }
+    },
+    "ingiliz-hindistani": {
+     "nokta": 114,
+     "bbox": [
+      67.01,
+      8.893,
+      98.613,
+      34.008
+     ],
+     "temsili": {
+      "ad": "Kattak (Cuttack)",
+      "lat": 20.463,
+      "lon": 85.883
+     }
+    },
+    "nepal": {
+     "nokta": 1,
+     "bbox": [
+      85.324,
+      27.717,
+      85.324,
+      27.717
+     ],
+     "temsili": {
+      "ad": "Katmandu",
+      "lat": 27.717,
+      "lon": 85.324
+     }
+    },
+    "afganistan": {
+     "nokta": 5,
+     "bbox": [
+      62.203,
+      31.61,
+      69.172,
+      36.758
+     ],
+     "temsili": {
+      "ad": "Gazne",
+      "lat": 33.551,
+      "lon": 68.423
+     }
+    },
+    "cammu-kesmir": {
+     "nokta": 3,
+     "bbox": [
+      74.797,
+      32.734,
+      77.585,
+      34.164
+     ],
+     "temsili": {
+      "ad": "Srinagar (Keşmir)",
+      "lat": 34.084,
+      "lon": 74.797
+     }
+    },
+    "bahavelpur": {
+     "nokta": 1,
+     "bbox": [
+      71.684,
+      29.395,
+      71.684,
+      29.395
+     ],
+     "temsili": {
+      "ad": "Bahâvelpûr",
+      "lat": 29.395,
+      "lon": 71.684
+     }
+    },
+    "racput": {
+     "nokta": 7,
+     "bbox": [
+      69.667,
+      23.242,
+      75.787,
+      28.022
+     ],
+     "temsili": {
+      "ad": "Codhpûr (Jodhpur)",
+      "lat": 26.288,
+      "lon": 73.019
+     }
+    },
+    "bharatpur-cat": {
+     "nokta": 1,
+     "bbox": [
+      77.49,
+      27.217,
+      77.49,
+      27.217
+     ],
+     "temsili": {
+      "ad": "Bharatpûr",
+      "lat": 27.217,
+      "lon": 77.49
+     }
+    },
+    "cunagadh": {
+     "nokta": 1,
+     "bbox": [
+      70.457,
+      21.522,
+      70.457,
+      21.522
+     ],
+     "temsili": {
+      "ad": "Cûnâgadh",
+      "lat": 21.522,
+      "lon": 70.457
+     }
+    },
+    "maratha": {
+     "nokta": 5,
+     "bbox": [
+      74.243,
+      16.705,
+      78.183,
+      26.218
+     ],
+     "temsili": {
+      "ad": "İndor (Indore)",
+      "lat": 22.72,
+      "lon": 75.858
+     }
+    },
+    "bhopal": {
+     "nokta": 1,
+     "bbox": [
+      77.413,
+      23.259,
+      77.413,
+      23.259
+     ],
+     "temsili": {
+      "ad": "Bhopâl",
+      "lat": 23.259,
+      "lon": 77.413
+     }
+    },
+    "manipur": {
+     "nokta": 1,
+     "bbox": [
+      93.937,
+      24.817,
+      93.937,
+      24.817
+     ],
+     "temsili": {
+      "ad": "İmphâl (Manipûr)",
+      "lat": 24.817,
+      "lon": 93.937
+     }
+    },
+    "haydarabad-nizam": {
+     "nokta": 8,
+     "bbox": [
+      75.22,
+      16.207,
+      79.594,
+      19.943
+     ],
+     "temsili": {
+      "ad": "Bîdar",
+      "lat": 17.913,
+      "lon": 77.52
+     }
+    },
+    "meysur": {
+     "nokta": 3,
+     "bbox": [
+      76.639,
+      12.295,
+      77.594,
+      12.972
+     ],
+     "temsili": {
+      "ad": "Seringapatam (Şrirangapatnam)",
+      "lat": 12.412,
+      "lon": 76.694
+     }
+    },
+    "travankur": {
+     "nokta": 1,
+     "bbox": [
+      76.936,
+      8.524,
+      76.936,
+      8.524
+     ],
+     "temsili": {
+      "ad": "Trivandrum (Thiruvananthapuram)",
+      "lat": 8.524,
+      "lon": 76.936
+     }
+    },
+    "cin-cumhuriyeti": {
+     "nokta": 95,
+     "bbox": [
+      75.99,
+      20.044,
+      129.47,
+      50.243
+     ],
+     "temsili": {
+      "ad": "Xi'an (Chang'an)",
+      "lat": 34.342,
+      "lon": 108.94
+     }
+    },
+    "meiji-japonya": {
+     "nokta": 55,
+     "bbox": [
+      119.579,
+      22.993,
+      142.786,
+      46.633
+     ],
+     "temsili": {
+      "ad": "Matsue",
+      "lat": 35.468,
+      "lon": 133.049
+     }
+    },
+    "mogolistan": {
+     "nokta": 13,
+     "bbox": [
+      91.641,
+      43.57,
+      118.2,
+      49.63
+     ],
+     "temsili": {
+      "ad": "Karakurum",
+      "lat": 47.198,
+      "lon": 102.833
+     }
+    },
+    "tibet-ganden-phodrang": {
+     "nokta": 4,
+     "bbox": [
+      88.881,
+      28.95,
+      97.178,
+      31.14
+     ],
+     "temsili": {
+      "ad": "Lhasa",
+      "lat": 29.652,
+      "lon": 91.172
+     }
+    },
+    "san-devletleri": {
+     "nokta": 3,
+     "bbox": [
+      96.57,
+      19.67,
+      99.605,
+      21.29
+     ],
+     "temsili": {
+      "ad": "Loikaw",
+      "lat": 19.67,
+      "lon": 97.21
+     }
+    },
+    "siyam-chakri": {
+     "nokta": 24,
+     "bbox": [
+      98.4,
+      6.869,
+      103.65,
+      19.91
+     ],
+     "temsili": {
+      "ad": "Bangkok (Tonburi)",
+      "lat": 13.754,
+      "lon": 100.501
+     }
+    },
+    "fransiz-cinhindi": {
+     "nokta": 46,
+     "bbox": [
+      101.15,
+      9.93,
+      109.19,
+      22.666
+     ],
+     "temsili": {
+      "ad": "Champasak",
+      "lat": 14.892,
+      "lon": 105.876
+     }
+    },
+    "ingiliz-malaya": {
+     "nokta": 11,
+     "bbox": [
+      100.329,
+      1.29,
+      103.852,
+      6.13
+     ],
+     "temsili": {
+      "ad": "Kuala Lumpur",
+      "lat": 3.139,
+      "lon": 101.687
+     }
+    },
+    "cohor-sultanligi": {
+     "nokta": 3,
+     "bbox": [
+      102.57,
+      0.92,
+      104.45,
+      2.05
+     ],
+     "temsili": {
+      "ad": "Johor",
+      "lat": 1.493,
+      "lon": 103.741
+     }
+    },
+    "hollanda-dogu-hint": {
+     "nokta": 67,
+     "bbox": [
+      95.324,
+      -10.71,
+      140.72,
+      5.548
+     ],
+     "temsili": {
+      "ad": "Kotawaringin",
+      "lat": -2.85,
+      "lon": 111.67
+     }
+    },
+    "yogyakarta": {
+     "nokta": 1,
+     "bbox": [
+      110.371,
+      -7.797,
+      110.371,
+      -7.797
+     ],
+     "temsili": {
+      "ad": "Yogyakarta",
+      "lat": -7.797,
+      "lon": 110.371
+     }
+    },
+    "surakarta": {
+     "nokta": 1,
+     "bbox": [
+      110.824,
+      -7.575,
+      110.824,
+      -7.575
+     ],
+     "temsili": {
+      "ad": "Surakarta (Solo)",
+      "lat": -7.575,
+      "lon": 110.824
+     }
+    },
+    "brunei-sultanligi": {
+     "nokta": 1,
+     "bbox": [
+      114.939,
+      4.903,
+      114.939,
+      4.903
+     ],
+     "temsili": {
+      "ad": "Brunei",
+      "lat": 4.903,
+      "lon": 114.939
+     }
+    },
+    "sarawak-brooke": {
+     "nokta": 1,
+     "bbox": [
+      110.359,
+      1.553,
+      110.359,
+      1.553
+     ],
+     "temsili": {
+      "ad": "Kuching (Sarawak)",
+      "lat": 1.553,
+      "lon": 110.359
+     }
+    },
+    "tidore-sultanligi": {
+     "nokta": 1,
+     "bbox": [
+      127.4,
+      0.688,
+      127.4,
+      0.688
+     ],
+     "temsili": {
+      "ad": "Tidore",
+      "lat": 0.688,
+      "lon": 127.4
+     }
+    },
+    "abd": {
+     "nokta": 196,
+     "bbox": [
+      -168.088,
+      6.053,
+      125.54,
+      71.291
+     ],
+     "temsili": {
+      "ad": "Saukenuk (Sauk)",
+      "lat": 41.512,
+      "lon": -90.578
+     }
+    },
+    "osmanli": {
+     "nokta": 4,
+     "bbox": [
+      34.633,
+      36.8,
+      44.01,
+      39.145
+     ],
+     "temsili": {
+      "ad": "Şırnak",
+      "lat": 37.5139,
+      "lon": 42.4543
+     }
+    },
+    "meksika": {
+     "nokta": 78,
+     "bbox": [
+      -121.895,
+      15.7664,
+      -79.442,
+      40.2
+     ],
+     "temsili": {
+      "ad": "Saltillo",
+      "lat": 25.4232,
+      "lon": -101.0053
+     }
+    },
+    "guatemala": {
+     "nokta": 2,
+     "bbox": [
+      -90.7295,
+      14.5586,
+      -89.8903,
+      16.9284
+     ],
+     "temsili": {
+      "ad": "Nojpetén (Tayasal / Flores)",
+      "lat": 16.9284,
+      "lon": -89.8903
+     }
+    },
+    "peru-cumhuriyeti": {
+     "nokta": 27,
+     "bbox": [
+      -80.4515,
+      -16.409,
+      -69.7666,
+      -2.9
+     ],
+     "temsili": {
+      "ad": "Tonua (Chinchao)",
+      "lat": -9.6,
+      "lon": -75.95
+     }
+    },
+    "ekvador-cumhuriyeti": {
+     "nokta": 6,
+     "bbox": [
+      -79.9009,
+      -2.1919,
+      -75.2,
+      -0.2299
+     ],
+     "temsili": {
+      "ad": "Canelos (Bobonaza)",
+      "lat": -1.58,
+      "lon": -77.75
+     }
+    },
+    "bolivya-cumhuriyeti": {
+     "nokta": 14,
+     "bbox": [
+      -68.5,
+      -21.53,
+      -60.0,
+      -13.34
+     ],
+     "temsili": {
+      "ad": "Loreto (Mojos)",
+      "lat": -15.22,
+      "lon": -64.67
+     }
+    },
+    "kolombiya-cumhuriyeti": {
+     "nokta": 5,
+     "bbox": [
+      -76.6147,
+      2.4448,
+      -73.3678,
+      10.391
+     ],
+     "temsili": {
+      "ad": "Bacatá (Bogotá)",
+      "lat": 4.711,
+      "lon": -74.0721
+     }
+    },
+    "venezuela-cumhuriyeti": {
+     "nokta": 3,
+     "bbox": [
+      -71.1739,
+      8.5933,
+      -66.83,
+      10.61
+     ],
+     "temsili": {
+      "ad": "Caracas (Santiago de León de Caracas)",
+      "lat": 10.4806,
+      "lon": -66.9036
+     }
+    },
+    "sili-cumhuriyeti": {
+     "nokta": 14,
+     "bbox": [
+      -75.5,
+      -53.6233,
+      -70.369,
+      -33.4489
+     ],
+     "temsili": {
+      "ad": "Beyan G44.5 B72.5",
+      "lat": -44.5,
+      "lon": -72.5
+     }
+    },
+    "brezilya-cumhuriyeti": {
+     "nokta": 31,
+     "bbox": [
+      -71.28,
+      -27.9,
+      -34.8553,
+      1.02
+     ],
+     "temsili": {
+      "ad": "Itaituba",
+      "lat": -4.28,
+      "lon": -55.98
+     }
+    },
+    "arjantin-cumhuriyeti": {
+     "nokta": 34,
+     "bbox": [
+      -71.5,
+      -54.5,
+      -57.3595,
+      -22.43
+     ],
+     "temsili": {
+      "ad": "Beyan G36.5 B64.5",
+      "lat": -36.5,
+      "lon": -64.5
+     }
+    },
+    "kanada": {
+     "nokta": 188,
+     "bbox": [
+      -154.383,
+      43.033,
+      -53.9605,
+      71.4
+     ],
+     "temsili": {
+      "ad": "Nelson House (Nisichawayasihk)",
+      "lat": 55.79,
+      "lon": -98.833
+     }
+    },
+    "haiti": {
+     "nokta": 1,
+     "bbox": [
+      -72.6338,
+      18.5108,
+      -72.6338,
+      18.5108
+     ],
+     "temsili": {
+      "ad": "Jaragua (Taino cacicazgosu)",
+      "lat": 18.5108,
+      "lon": -72.6338
+     }
+    },
+    "dominik-cumhuriyeti": {
+     "nokta": 2,
+     "bbox": [
+      -69.9312,
+      18.4861,
+      -68.7047,
+      18.6144
+     ],
+     "temsili": {
+      "ad": "Higüey (Taino cacicazgosu)",
+      "lat": 18.6144,
+      "lon": -68.7047
+     }
+    },
+    "kuba-cumhuriyeti": {
+     "nokta": 4,
+     "bbox": [
+      -82.3666,
+      20.0247,
+      -74.4958,
+      23.1136
+     ],
+     "temsili": {
+      "ad": "Camagüey bölgesi (Taino)",
+      "lat": 21.3808,
+      "lon": -77.9169
+     }
+    },
+    "ingiliz-guyanasi": {
+     "nokta": 3,
+     "bbox": [
+      -58.68,
+      6.2495,
+      -57.5207,
+      6.8013
+     ],
+     "temsili": {
+      "ad": "Georgetown (Stabroek)",
+      "lat": 6.8013,
+      "lon": -58.1551
+     }
+    },
+    "hollanda-guyanasi": {
+     "nokta": 1,
+     "bbox": [
+      -55.2038,
+      5.852,
+      -55.2038,
+      5.852
+     ],
+     "temsili": {
+      "ad": "Paramaribo",
+      "lat": 5.852,
+      "lon": -55.2038
+     }
+    },
+    "fransiz-guyanasi": {
+     "nokta": 1,
+     "bbox": [
+      -52.3303,
+      4.9346,
+      -52.3303,
+      4.9346
+     ],
+     "temsili": {
+      "ad": "Cayenne",
+      "lat": 4.9346,
+      "lon": -52.3303
+     }
+    },
+    "uruguay-cumhuriyeti": {
+     "nokta": 3,
+     "bbox": [
+      -57.841,
+      -34.9011,
+      -56.1645,
+      -31.5
+     ],
+     "temsili": {
+      "ad": "Colonia del Sacramento",
+      "lat": -34.4723,
+      "lon": -57.841
+     }
+    },
+    "paraguay-cumhuriyeti": {
+     "nokta": 4,
+     "bbox": [
+      -58.5,
+      -25.2637,
+      -56.3,
+      -21.04
+     ],
+     "temsili": {
+      "ad": "Lengua misyonu (Paraguay Chaco)",
+      "lat": -23.0,
+      "lon": -58.5
+     }
+    },
+    "adal": {
+     "nokta": 1,
+     "bbox": [
+      41.44,
+      11.567,
+      41.44,
+      11.567
+     ],
+     "temsili": {
+      "ad": "Asâyita (Avsa)",
+      "lat": 11.567,
+      "lon": 41.44
+     }
+    },
+    "umman-zengibar": {
+     "nokta": 8,
+     "bbox": [
+      38.9006,
+      -8.9795,
+      41.05,
+      -2.101
+     ],
+     "temsili": {
+      "ad": "Mombasa",
+      "lat": -4.0402,
+      "lon": 39.6794
+     }
+    },
+    "avustralya": {
+     "nokta": 79,
+     "bbox": [
+      113.66,
+      -42.8821,
+      153.0251,
+      -4.35
+     ],
+     "temsili": {
+      "ad": "Birdsville",
+      "lat": -25.9,
+      "lon": 139.35
+     }
+    },
+    "estonya": {
+     "nokta": 4,
+     "bbox": [
+      24.497,
+      58.378,
+      28.19,
+      59.437
+     ],
+     "temsili": {
+      "ad": "Tartu (Dorpat)",
+      "lat": 58.378,
+      "lon": 26.729
+     }
+    },
+    "izlanda": {
+     "nokta": 2,
+     "bbox": [
+      -21.9426,
+      64.1466,
+      -18.0635,
+      65.7008
+     ],
+     "temsili": {
+      "ad": "Reykjavík",
+      "lat": 64.1466,
+      "lon": -21.9426
+     }
+    },
+    "yeni-zelanda": {
+     "nokta": 3,
+     "bbox": [
+      172.6362,
+      -43.5321,
+      174.7762,
+      -36.8485
+     ],
+     "temsili": {
+      "ad": "Wellington",
+      "lat": -41.2865,
+      "lon": 174.7762
+     }
+    },
+    "tonga-kralligi": {
+     "nokta": 1,
+     "bbox": [
+      -175.1167,
+      -21.1792,
+      -175.1167,
+      -21.1792
+     ],
+     "temsili": {
+      "ad": "Lapaha (Muʻa)",
+      "lat": -21.1792,
+      "lon": -175.1167
+     }
+    },
+    "panama-cumhuriyeti": {
+     "nokta": 2,
+     "bbox": [
+      -79.65,
+      8.9824,
+      -79.5199,
+      9.55
+     ],
+     "temsili": {
+      "ad": "Portobelo (Puerto Bello)",
+      "lat": 9.55,
+      "lon": -79.65
+     }
+    },
+    "buganda": {
+     "nokta": 1,
+     "bbox": [
+      32.583,
+      0.348,
+      32.583,
+      0.348
+     ],
+     "temsili": {
+      "ad": "Mengo (Buganda)",
+      "lat": 0.348,
+      "lon": 32.583
+     }
+    },
+    "liberya": {
+     "nokta": 5,
+     "bbox": [
+      -10.7978,
+      4.38,
+      -7.72,
+      7.0
+     ],
+     "temsili": {
+      "ad": "Zwedru",
+      "lat": 6.07,
+      "lon": -8.13
+     }
+    }
+   }
+  }
+ },
+ "sinir_tuzagi": {
+  "_NOT": "UFUK sonu (1923-10-29) yari acik araligin DISINDA kalir. Asagidaki fark, 't:1923-10-29' ile biten donemlerin olcumden dusmesinden dogar.",
+  "sahipsiz_fark": 3636,
+  "yalniz_1923-10-28": [
+   "__KIDSIZ__",
+   "abd",
+   "adal",
+   "afganistan",
+   "agadez-sultanligi",
+   "almanya",
+   "arjantin-cumhuriyeti",
+   "arnavutluk-bagimsiz",
+   "avustralya",
+   "avusturya",
+   "bahavelpur",
+   "belcika",
+   "bharatpur-cat",
+   "bhopal",
+   "bolivya-cumhuriyeti",
+   "brezilya-cumhuriyeti",
+   "brunei-sultanligi",
+   "buganda",
+   "bulgaristan-kralligi",
+   "cammu-kesmir",
+   "cekoslovakya",
+   "cimma",
+   "cin-cumhuriyeti",
+   "cohor-sultanligi",
+   "cunagadh",
+   "danimarka",
+   "dominik-cumhuriyeti",
+   "ekvador-cumhuriyeti",
+   "estonya",
+   "filistin-mandasi",
+   "finlandiya",
+   "fransa-cumhuriyet",
+   "fransiz-cinhindi",
+   "fransiz-guyanasi",
+   "guatemala",
+   "habesistan",
+   "haiti",
+   "haydarabad-nizam",
+   "hicaz",
+   "hollanda",
+   "hollanda-dogu-hint",
+   "hollanda-guyanasi",
+   "ingiliz-guyanasi",
+   "ingiliz-hindistani",
+   "ingiliz-malaya",
+   "ingiliz-sudani",
+   "ingiltere",
+   "irak-kralligi",
+   "irlanda-serbest-devlet",
+   "ispanya",
+   "isvec",
+   "isvicre",
+   "italya",
+   "izlanda",
+   "kacar",
+   "kanada",
+   "katar",
+   "kolombiya-cumhuriyeti",
+   "kuayti-sultanligi",
+   "kuba-cumhuriyeti",
+   "kuveyt",
+   "letonya",
+   "liberya",
+   "litvanya",
+   "luksemburg",
+   "macaristan-naiplik",
+   "manipur",
+   "maratha",
+   "meiji-japonya",
+   "meksika",
+   "meysur",
+   "misir-kralligi",
+   "mogolistan",
+   "nepal",
+   "norvec",
+   "osmanli",
+   "panama-cumhuriyeti",
+   "paraguay-cumhuriyeti",
+   "peru-cumhuriyeti",
+   "piombino",
+   "polonya",
+   "portekiz",
+   "racput",
+   "romanya-kralligi",
+   "rusya",
+   "san-devletleri",
+   "sarawak-brooke",
+   "sili-cumhuriyeti",
+   "siyam-chakri",
+   "somali",
+   "sovyet-rusya",
+   "surakarta",
+   "suriye-lubnan-mandasi",
+   "suud-ucuncu",
+   "tbmm-turkiye",
+   "tibet-ganden-phodrang",
+   "tidore-sultanligi",
+   "tonga-kralligi",
+   "travankur",
+   "umman",
+   "umman-zengibar",
+   "urdun-emirligi",
+   "uruguay-cumhuriyeti",
+   "venezuela-cumhuriyeti",
+   "yemen",
+   "yeni-zelanda",
+   "yogyakarta",
+   "yugoslavya",
+   "yunanistan"
+  ],
+  "yalniz_1923-10-29": []
+ }
+}

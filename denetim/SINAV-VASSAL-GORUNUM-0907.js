@@ -91,7 +91,17 @@
     // Bilinmeyen statü her koşuda BENZERSİZ: `_statuBilinmeyen` önbelleği
     // "deger basina BIR kez" uyariyor, sabit bir deger ikinci koşuda hiç
     // ötmezdi ve sınav kendi kendini geçirirdi.
-    var bilinmez = "sinav-statu-" + Date.now();
+    //
+    // 🔴 VE KISA — ilk yazımda `"sinav-statu-" + Date.now()` idi ve SINAV
+    // KALDI (3 dal). Sebep ölçüldü, VARSAYILMADI: uzun değerli etiket 42
+    // karakter ⇒ ~233 px kutu, ve o kutu 819 px'lik tuvalde ZATEN YERLEŞMİŞ
+    // bir DEVLET etiketiyle çakışıp eleniyordu. Kontrol: aynı çapa TEK BAŞINA
+    // da yerleşmedi (yani öteki fikstür çapalarıyla çakışma değildi), kısa
+    // değerle AYNI NOKTADA yerleşti. ⇒ Kod doğru çalışıyordu, FİKSTÜR genişti.
+    // 📌 Ve bu, tasarımın iki kanallı olmasının değerini ölçtü: etiket elenmiş
+    // olsa BİLE `console.warn` ötüyordu (dal ⑦ o koşuda da GEÇTİ) — yani
+    // bilinmeyen bir statü hiçbir hâlde SESSİZ kalmıyor.
+    var bilinmez = "snv" + (Date.now() % 100000);
 
     // console.warn yakalanır — "sessizce yutulmuyor" iddiası ancak böyle ölçülür
     var warnOrj = console.warn, yakalanan = [];

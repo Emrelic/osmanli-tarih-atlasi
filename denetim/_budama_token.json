@@ -1,0 +1,75 @@
+{
+ "tokenlastirici": "o200k_base",
+ "dosyalar": [
+  {
+   "dosya": "CLAUDE.md",
+   "satir": 7374,
+   "bayt": 418427,
+   "karakter": 375620,
+   "token": 145947
+  },
+  {
+   "dosya": "OGRENILENLER.md",
+   "satir": 4227,
+   "bayt": 199328,
+   "karakter": 179627,
+   "token": 65824
+  },
+  {
+   "dosya": "YAPILACAKLAR.md",
+   "satir": 966,
+   "bayt": 55013,
+   "karakter": 50004,
+   "token": 18182
+  },
+  {
+   "dosya": "ONCELIK.md",
+   "satir": 519,
+   "bayt": 24724,
+   "karakter": 22427,
+   "token": 8458
+  },
+  {
+   "dosya": "YOL-HARITASI.md",
+   "satir": 306,
+   "bayt": 15455,
+   "karakter": 14156,
+   "token": 5105
+  },
+  {
+   "dosya": "MIMARI.md",
+   "satir": 501,
+   "bayt": 26223,
+   "karakter": 23979,
+   "token": 8281
+  },
+  {
+   "dosya": "VERI-YAPISI.md",
+   "satir": 571,
+   "bayt": 29590,
+   "karakter": 27150,
+   "token": 10604
+  },
+  {
+   "dosya": "DURUM.md",
+   "satir": 255,
+   "bayt": 11612,
+   "karakter": 10772,
+   "token": 3949
+  },
+  {
+   "dosya": "BES-ALTYAPI.md",
+   "satir": 381,
+   "bayt": 18241,
+   "karakter": 16478,
+   "token": 6291
+  },
+  {
+   "dosya": "ETIKETLEME.md",
+   "satir": 230,
+   "bayt": 10740,
+   "karakter": 9945,
+   "token": 3674
+  }
+ ]
+}

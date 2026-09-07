@@ -1,0 +1,4436 @@
+{
+ "_NOT": "SINIR-ASYA-0907 · kenarin IKI YANINDAKI atlas kimligi, 1923-10-28. BASKIN kimlik degil KENAR YANI.",
+ "gun": "1923-10-28",
+ "tamponlar": [
+  1.0,
+  2.5
+ ],
+ "kenar": [
+  {
+   "ne_a": "Canada",
+   "ne_b": "United States of America",
+   "uzunluk_derece": 94.03707,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "kanada",
+       15
+      ],
+      [
+       "abd",
+       1
+      ]
+     ],
+     "b": [
+      [
+       "abd",
+       14
+      ],
+      [
+       "kanada",
+       6
+      ]
+     ],
+     "a_n": 16,
+     "b_n": 20
+    },
+    "2.5": {
+     "a": [
+      [
+       "kanada",
+       37
+      ],
+      [
+       "abd",
+       3
+      ]
+     ],
+     "b": [
+      [
+       "abd",
+       32
+      ],
+      [
+       "kanada",
+       9
+      ]
+     ],
+     "a_n": 40,
+     "b_n": 41
+    }
+   },
+   "en_yakin_a": [
+    0.16,
+    "Fort Frontenac (Kingston)",
+    "kanada"
+   ],
+   "en_yakin_b": [
+    0.0,
+    "Fort St. Pierre (Rainy Lake)",
+    "kanada"
+   ]
+  },
+  {
+   "ne_a": "Kazakhstan",
+   "ne_b": "Russia",
+   "uzunluk_derece": 80.64779,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "sovyet-rusya",
+       7
+      ]
+     ],
+     "b": [
+      [
+       "sovyet-rusya",
+       14
+      ]
+     ],
+     "a_n": 7,
+     "b_n": 14
+    },
+    "2.5": {
+     "a": [
+      [
+       "sovyet-rusya",
+       14
+      ]
+     ],
+     "b": [
+      [
+       "sovyet-rusya",
+       38
+      ]
+     ],
+     "a_n": 14,
+     "b_n": 38
+    }
+   },
+   "en_yakin_a": [
+    0.24,
+    "Uralsk (Yayık)",
+    "sovyet-rusya"
+   ],
+   "en_yakin_b": [
+    0.032,
+    "İlek",
+    "sovyet-rusya"
+   ]
+  },
+  {
+   "ne_a": "Argentina",
+   "ne_b": "Chile",
+   "uzunluk_derece": 50.12079,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "arjantin-cumhuriyeti",
+       5
+      ],
+      [
+       "sili-cumhuriyeti",
+       1
+      ]
+     ],
+     "b": [
+      [
+       "sili-cumhuriyeti",
+       2
+      ]
+     ],
+     "a_n": 6,
+     "b_n": 2
+    },
+    "2.5": {
+     "a": [
+      [
+       "arjantin-cumhuriyeti",
+       11
+      ],
+      [
+       "sili-cumhuriyeti",
+       1
+      ]
+     ],
+     "b": [
+      [
+       "sili-cumhuriyeti",
+       12
+      ]
+     ],
+     "a_n": 12,
+     "b_n": 12
+    }
+   },
+   "en_yakin_a": [
+    0.192,
+    "Beyan G46.5 B71.5",
+    "arjantin-cumhuriyeti"
+   ],
+   "en_yakin_b": [
+    0.498,
+    "Beyan G44.5 B72.5",
+    "sili-cumhuriyeti"
+   ]
+  },
+  {
+   "ne_a": "China",
+   "ne_b": "Mongolia",
+   "uzunluk_derece": 49.68668,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "cin-cumhuriyeti",
+       2
+      ]
+     ],
+     "b": [
+      [
+       "mogolistan",
+       3
+      ],
+      [
+       "cin-cumhuriyeti",
+       2
+      ]
+     ],
+     "a_n": 2,
+     "b_n": 5
+    },
+    "2.5": {
+     "a": [
+      [
+       "cin-cumhuriyeti",
+       5
+      ]
+     ],
+     "b": [
+      [
+       "mogolistan",
+       6
+      ],
+      [
+       "cin-cumhuriyeti",
+       2
+      ]
+     ],
+     "a_n": 5,
+     "b_n": 8
+    }
+   },
+   "en_yakin_a": [
+    0.574,
+    "Altay (Şara Sume)",
+    "cin-cumhuriyeti"
+   ],
+   "en_yakin_b": [
+    0.21,
+    "Halhın Gol (Buir Nur)",
+    "mogolistan"
+   ]
+  },
+  {
+   "ne_a": "China",
+   "ne_b": "Russia",
+   "uzunluk_derece": 40.98644,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "cin-cumhuriyeti",
+       1
+      ]
+     ],
+     "b": [
+      [
+       "sovyet-rusya",
+       4
+      ]
+     ],
+     "a_n": 1,
+     "b_n": 4
+    },
+    "2.5": {
+     "a": [
+      [
+       "cin-cumhuriyeti",
+       3
+      ]
+     ],
+     "b": [
+      [
+       "sovyet-rusya",
+       7
+      ]
+     ],
+     "a_n": 3,
+     "b_n": 7
+    }
+   },
+   "en_yakin_a": [
+    0.014,
+    "Aigun",
+    "cin-cumhuriyeti"
+   ],
+   "en_yakin_b": [
+    0.008,
+    "Albazin",
+    "sovyet-rusya"
+   ]
+  },
+  {
+   "ne_a": "Mongolia",
+   "ne_b": "Russia",
+   "uzunluk_derece": 36.0374,
+   "tampon": {
+    "1.0": {
+     "a": [],
+     "b": [
+      [
+       "sovyet-rusya",
+       1
+      ]
+     ],
+     "a_n": 0,
+     "b_n": 1
+    },
+    "2.5": {
+     "a": [
+      [
+       "mogolistan",
+       7
+      ]
+     ],
+     "b": [
+      [
+       "sovyet-rusya",
+       10
+      ]
+     ],
+     "a_n": 7,
+     "b_n": 10
+    }
+   },
+   "en_yakin_a": [
+    1.326,
+    "Bulgan",
+    "mogolistan"
+   ],
+   "en_yakin_b": [
+    0.766,
+    "Selenginsk",
+    "sovyet-rusya"
+   ]
+  },
+  {
+   "ne_a": "Mexico",
+   "ne_b": "United States of America",
+   "uzunluk_derece": 26.34321,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "meksika",
+       3
+      ],
+      [
+       "__SAHIPSIZ__",
+       1
+      ]
+     ],
+     "b": [
+      [
+       "meksika",
+       6
+      ],
+      [
+       "abd",
+       1
+      ]
+     ],
+     "a_n": 4,
+     "b_n": 7
+    },
+    "2.5": {
+     "a": [
+      [
+       "meksika",
+       10
+      ],
+      [
+       "__SAHIPSIZ__",
+       1
+      ]
+     ],
+     "b": [
+      [
+       "meksika",
+       8
+      ],
+      [
+       "abd",
+       6
+      ]
+     ],
+     "a_n": 11,
+     "b_n": 14
+    }
+   },
+   "en_yakin_a": [
+    0.022,
+    "Matamoros (Refugio)",
+    "meksika"
+   ],
+   "en_yakin_b": [
+    0.002,
+    "El Paso del Norte",
+    "meksika"
+   ]
+  },
+  {
+   "ne_a": "India",
+   "ne_b": "Pakistan",
+   "uzunluk_derece": 25.8947,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "ingiliz-hindistani",
+       2
+      ],
+      [
+       "cammu-kesmir",
+       2
+      ],
+      [
+       "racput",
+       2
+      ]
+     ],
+     "b": [
+      [
+       "ingiliz-hindistani",
+       4
+      ],
+      [
+       "bahavelpur",
+       1
+      ]
+     ],
+     "a_n": 6,
+     "b_n": 5
+    },
+    "2.5": {
+     "a": [
+      [
+       "ingiliz-hindistani",
+       7
+      ],
+      [
+       "racput",
+       4
+      ],
+      [
+       "cammu-kesmir",
+       3
+      ]
+     ],
+     "b": [
+      [
+       "ingiliz-hindistani",
+       10
+      ],
+      [
+       "bahavelpur",
+       1
+      ]
+     ],
+     "a_n": 14,
+     "b_n": 11
+    }
+   },
+   "en_yakin_a": [
+    0.194,
+    "Cammû (Jammu)",
+    "cammu-kesmir"
+   ],
+   "en_yakin_b": [
+    0.123,
+    "Siyâlkot",
+    "ingiliz-hindistani"
+   ]
+  },
+  {
+   "ne_a": "Bolivia",
+   "ne_b": "Brazil",
+   "uzunluk_derece": 24.37381,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "bolivya-cumhuriyeti",
+       1
+      ]
+     ],
+     "b": [
+      [
+       "brezilya-cumhuriyeti",
+       2
+      ],
+      [
+       "__SAHIPSIZ__",
+       2
+      ]
+     ],
+     "a_n": 1,
+     "b_n": 4
+    },
+    "2.5": {
+     "a": [
+      [
+       "bolivya-cumhuriyeti",
+       4
+      ]
+     ],
+     "b": [
+      [
+       "brezilya-cumhuriyeti",
+       3
+      ],
+      [
+       "__SAHIPSIZ__",
+       2
+      ]
+     ],
+     "a_n": 4,
+     "b_n": 5
+    }
+   },
+   "en_yakin_a": [
+    0.809,
+    "Santa Magdalena (Itonama)",
+    "bolivya-cumhuriyeti"
+   ],
+   "en_yakin_b": [
+    0.011,
+    "Forte Príncipe da Beira",
+    "brezilya-cumhuriyeti"
+   ]
+  },
+  {
+   "ne_a": "Kazakhstan",
+   "ne_b": "Uzbekistan",
+   "uzunluk_derece": 23.38916,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "sovyet-rusya",
+       4
+      ]
+     ],
+     "b": [
+      [
+       "sovyet-rusya",
+       2
+      ],
+      [
+       "__SAHIPSIZ__",
+       1
+      ]
+     ],
+     "a_n": 4,
+     "b_n": 3
+    },
+    "2.5": {
+     "a": [
+      [
+       "sovyet-rusya",
+       9
+      ],
+      [
+       "__SAHIPSIZ__",
+       1
+      ]
+     ],
+     "b": [
+      [
+       "sovyet-rusya",
+       10
+      ],
+      [
+       "__SAHIPSIZ__",
+       1
+      ]
+     ],
+     "a_n": 10,
+     "b_n": 11
+    }
+   },
+   "en_yakin_a": [
+    0.473,
+    "Üstyurt kuzeyi",
+    "sovyet-rusya"
+   ],
+   "en_yakin_b": [
+    0.144,
+    "Taşkent",
+    "sovyet-rusya"
+   ]
+  },
+  {
+   "ne_a": "Afghanistan",
+   "ne_b": "Pakistan",
+   "uzunluk_derece": 22.63924,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "afganistan",
+       2
+      ]
+     ],
+     "b": [
+      [
+       "ingiliz-hindistani",
+       1
+      ]
+     ],
+     "a_n": 2,
+     "b_n": 1
+    },
+    "2.5": {
+     "a": [
+      [
+       "afganistan",
+       3
+      ],
+      [
+       "kacar",
+       1
+      ]
+     ],
+     "b": [
+      [
+       "ingiliz-hindistani",
+       3
+      ]
+     ],
+     "a_n": 4,
+     "b_n": 3
+    }
+   },
+   "en_yakin_a": [
+    0.867,
+    "Kâbil",
+    "afganistan"
+   ],
+   "en_yakin_b": [
+    0.496,
+    "Peşâver",
+    "ingiliz-hindistani"
+   ]
+  },
+  {
+   "ne_a": "Bangladesh",
+   "ne_b": "India",
+   "uzunluk_derece": 22.44614,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "ingiliz-hindistani",
+       3
+      ]
+     ],
+     "b": [
+      [
+       "ingiliz-hindistani",
+       7
+      ],
+      [
+       "fransa-cumhuriyet",
+       1
+      ]
+     ],
+     "a_n": 3,
+     "b_n": 8
+    },
+    "2.5": {
+     "a": [
+      [
+       "ingiliz-hindistani",
+       3
+      ]
+     ],
+     "b": [
+      [
+       "ingiliz-hindistani",
+       10
+      ],
+      [
+       "fransa-cumhuriyet",
+       1
+      ],
+      [
+       "manipur",
+       1
+      ]
+     ],
+     "a_n": 3,
+     "b_n": 12
+    }
+   },
+   "en_yakin_a": [
+    0.537,
+    "Sonârgâon",
+    "ingiliz-hindistani"
+   ],
+   "en_yakin_b": [
+    0.003,
+    "Gaur (Lakhnautî)",
+    "ingiliz-hindistani"
+   ]
+  },
+  {
+   "ne_a": "China",
+   "ne_b": "India",
+   "uzunluk_derece": 21.93985,
+   "tampon": {
+    "1.0": {
+     "a": [],
+     "b": [
+      [
+       "cammu-kesmir",
+       1
+      ]
+     ],
+     "a_n": 0,
+     "b_n": 1
+    },
+    "2.5": {
+     "a": [
+      [
+       "tibet-ganden-phodrang",
+       4
+      ],
+      [
+       "cin-cumhuriyeti",
+       1
+      ]
+     ],
+     "b": [
+      [
+       "ingiliz-hindistani",
+       5
+      ],
+      [
+       "cammu-kesmir",
+       1
+      ]
+     ],
+     "a_n": 5,
+     "b_n": 6
+    }
+   },
+   "en_yakin_a": [
+    1.193,
+    "Şigatse",
+    "tibet-ganden-phodrang"
+   ],
+   "en_yakin_b": [
+    0.847,
+    "Leh (Ladakh)",
+    "cammu-kesmir"
+   ]
+  },
+  {
+   "ne_a": "Colombia",
+   "ne_b": "Venezuela",
+   "uzunluk_derece": 19.10377,
+   "tampon": {
+    "1.0": {
+     "a": [],
+     "b": [],
+     "a_n": 0,
+     "b_n": 0
+    },
+    "2.5": {
+     "a": [
+      [
+       "kolombiya-cumhuriyeti",
+       2
+      ]
+     ],
+     "b": [
+      [
+       "venezuela-cumhuriyeti",
+       1
+      ]
+     ],
+     "a_n": 2,
+     "b_n": 1
+    }
+   },
+   "en_yakin_a": [
+    2.0,
+    "Hunza (Tunja)",
+    "kolombiya-cumhuriyeti"
+   ],
+   "en_yakin_b": [
+    1.239,
+    "Mérida (Venezuela)",
+    "venezuela-cumhuriyeti"
+   ]
+  },
+  {
+   "ne_a": "Turkmenistan",
+   "ne_b": "Uzbekistan",
+   "uzunluk_derece": 17.04345,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "sovyet-rusya",
+       1
+      ]
+     ],
+     "b": [
+      [
+       "sovyet-rusya",
+       7
+      ]
+     ],
+     "a_n": 1,
+     "b_n": 7
+    },
+    "2.5": {
+     "a": [
+      [
+       "sovyet-rusya",
+       3
+      ],
+      [
+       "__SAHIPSIZ__",
+       2
+      ]
+     ],
+     "b": [
+      [
+       "sovyet-rusya",
+       10
+      ],
+      [
+       "__SAHIPSIZ__",
+       1
+      ]
+     ],
+     "a_n": 5,
+     "b_n": 11
+    }
+   },
+   "en_yakin_a": [
+    0.098,
+    "Köhne Ürgenç (Gürgenç)",
+    "sovyet-rusya"
+   ],
+   "en_yakin_b": [
+    0.091,
+    "Hîve",
+    "sovyet-rusya"
+   ]
+  },
+  {
+   "ne_a": "Myanmar",
+   "ne_b": "Thailand",
+   "uzunluk_derece": 16.81886,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "ingiliz-hindistani",
+       5
+      ],
+      [
+       "san-devletleri",
+       2
+      ]
+     ],
+     "b": [
+      [
+       "siyam-chakri",
+       6
+      ]
+     ],
+     "a_n": 7,
+     "b_n": 6
+    },
+    "2.5": {
+     "a": [
+      [
+       "ingiliz-hindistani",
+       12
+      ],
+      [
+       "san-devletleri",
+       3
+      ]
+     ],
+     "b": [
+      [
+       "siyam-chakri",
+       17
+      ]
+     ],
+     "a_n": 15,
+     "b_n": 17
+    }
+   },
+   "en_yakin_a": [
+    0.456,
+    "Tavoy (Dawei)",
+    "ingiliz-hindistani"
+   ],
+   "en_yakin_b": [
+    0.39,
+    "Chumphon",
+    "siyam-chakri"
+   ]
+  },
+  {
+   "ne_a": "China",
+   "ne_b": "Kazakhstan",
+   "uzunluk_derece": 16.39368,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "cin-cumhuriyeti",
+       3
+      ]
+     ],
+     "b": [
+      [
+       "sovyet-rusya",
+       2
+      ]
+     ],
+     "a_n": 3,
+     "b_n": 2
+    },
+    "2.5": {
+     "a": [
+      [
+       "cin-cumhuriyeti",
+       7
+      ]
+     ],
+     "b": [
+      [
+       "sovyet-rusya",
+       2
+      ]
+     ],
+     "a_n": 7,
+     "b_n": 2
+    }
+   },
+   "en_yakin_a": [
+    0.105,
+    "Çöçek (Tarbagatay)",
+    "cin-cumhuriyeti"
+   ],
+   "en_yakin_b": [
+    0.523,
+    "Zaysan",
+    "sovyet-rusya"
+   ]
+  },
+  {
+   "ne_a": "Brazil",
+   "ne_b": "Peru",
+   "uzunluk_derece": 16.30508,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "brezilya-cumhuriyeti",
+       1
+      ]
+     ],
+     "b": [],
+     "a_n": 1,
+     "b_n": 0
+    },
+    "2.5": {
+     "a": [
+      [
+       "brezilya-cumhuriyeti",
+       1
+      ],
+      [
+       "__SAHIPSIZ__",
+       1
+      ]
+     ],
+     "b": [
+      [
+       "peru-cumhuriyeti",
+       5
+      ],
+      [
+       "__SAHIPSIZ__",
+       1
+      ]
+     ],
+     "a_n": 2,
+     "b_n": 6
+    }
+   },
+   "en_yakin_a": [
+    0.026,
+    "Tabatinga",
+    "brezilya-cumhuriyeti"
+   ],
+   "en_yakin_b": [
+    1.101,
+    "San Miguel (Pachitea)",
+    "peru-cumhuriyeti"
+   ]
+  },
+  {
+   "ne_a": "Laos",
+   "ne_b": "Vietnam",
+   "uzunluk_derece": 16.22532,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "fransiz-cinhindi",
+       2
+      ]
+     ],
+     "b": [
+      [
+       "fransiz-cinhindi",
+       6
+      ]
+     ],
+     "a_n": 2,
+     "b_n": 6
+    },
+    "2.5": {
+     "a": [
+      [
+       "fransiz-cinhindi",
+       7
+      ]
+     ],
+     "b": [
+      [
+       "fransiz-cinhindi",
+       15
+      ]
+     ],
+     "a_n": 7,
+     "b_n": 15
+    }
+   },
+   "en_yakin_a": [
+    0.643,
+    "Attapeu",
+    "fransiz-cinhindi"
+   ],
+   "en_yakin_b": [
+    0.407,
+    "Quang Tri",
+    "fransiz-cinhindi"
+   ]
+  },
+  {
+   "ne_a": "China",
+   "ne_b": "Myanmar",
+   "uzunluk_derece": 15.98871,
+   "tampon": {
+    "1.0": {
+     "a": [],
+     "b": [
+      [
+       "ingiliz-hindistani",
+       2
+      ],
+      [
+       "san-devletleri",
+       1
+      ]
+     ],
+     "a_n": 0,
+     "b_n": 3
+    },
+    "2.5": {
+     "a": [
+      [
+       "cin-cumhuriyeti",
+       1
+      ]
+     ],
+     "b": [
+      [
+       "ingiliz-hindistani",
+       6
+      ],
+      [
+       "san-devletleri",
+       1
+      ]
+     ],
+     "a_n": 1,
+     "b_n": 7
+    }
+   },
+   "en_yakin_a": [
+    1.598,
+    "Dali",
+    "cin-cumhuriyeti"
+   ],
+   "en_yakin_b": [
+    0.33,
+    "Bhamo",
+    "ingiliz-hindistani"
+   ]
+  },
+  {
+   "ne_a": "Argentina",
+   "ne_b": "Paraguay",
+   "uzunluk_derece": 15.738,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "arjantin-cumhuriyeti",
+       2
+      ]
+     ],
+     "b": [
+      [
+       "paraguay-cumhuriyeti",
+       1
+      ]
+     ],
+     "a_n": 2,
+     "b_n": 1
+    },
+    "2.5": {
+     "a": [
+      [
+       "arjantin-cumhuriyeti",
+       4
+      ],
+      [
+       "__SAHIPSIZ__",
+       1
+      ]
+     ],
+     "b": [
+      [
+       "paraguay-cumhuriyeti",
+       3
+      ]
+     ],
+     "a_n": 5,
+     "b_n": 3
+    }
+   },
+   "en_yakin_a": [
+    0.283,
+    "Corrientes",
+    "arjantin-cumhuriyeti"
+   ],
+   "en_yakin_b": [
+    0.098,
+    "Asunción",
+    "paraguay-cumhuriyeti"
+   ]
+  },
+  {
+   "ne_a": "Laos",
+   "ne_b": "Thailand",
+   "uzunluk_derece": 14.89956,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "fransiz-cinhindi",
+       4
+      ]
+     ],
+     "b": [
+      [
+       "siyam-chakri",
+       4
+      ]
+     ],
+     "a_n": 4,
+     "b_n": 4
+    },
+    "2.5": {
+     "a": [
+      [
+       "fransiz-cinhindi",
+       7
+      ]
+     ],
+     "b": [
+      [
+       "siyam-chakri",
+       9
+      ]
+     ],
+     "a_n": 7,
+     "b_n": 9
+    }
+   },
+   "en_yakin_a": [
+    0.001,
+    "Savannakhet",
+    "fransiz-cinhindi"
+   ],
+   "en_yakin_b": [
+    0.341,
+    "Loei",
+    "siyam-chakri"
+   ]
+  },
+  {
+   "ne_a": "Brazil",
+   "ne_b": "Venezuela",
+   "uzunluk_derece": 14.44542,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "__SAHIPSIZ__",
+       1
+      ]
+     ],
+     "b": [
+      [
+       "__SAHIPSIZ__",
+       1
+      ]
+     ],
+     "a_n": 1,
+     "b_n": 1
+    },
+    "2.5": {
+     "a": [
+      [
+       "brezilya-cumhuriyeti",
+       2
+      ],
+      [
+       "__SAHIPSIZ__",
+       1
+      ]
+     ],
+     "b": [
+      [
+       "__SAHIPSIZ__",
+       1
+      ]
+     ],
+     "a_n": 3,
+     "b_n": 1
+    }
+   },
+   "en_yakin_a": [
+    0.553,
+    "Beyan K1.5 B63.5",
+    null
+   ],
+   "en_yakin_b": [
+    0.325,
+    "Beyan K4.5 B62.5",
+    null
+   ]
+  },
+  {
+   "ne_a": "India",
+   "ne_b": "Nepal",
+   "uzunluk_derece": 14.30328,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "ingiliz-hindistani",
+       2
+      ]
+     ],
+     "b": [
+      [
+       "nepal",
+       1
+      ]
+     ],
+     "a_n": 2,
+     "b_n": 1
+    },
+    "2.5": {
+     "a": [
+      [
+       "ingiliz-hindistani",
+       19
+      ]
+     ],
+     "b": [
+      [
+       "nepal",
+       1
+      ]
+     ],
+     "a_n": 19,
+     "b_n": 1
+    }
+   },
+   "en_yakin_a": [
+    0.576,
+    "Gorakhpûr",
+    "ingiliz-hindistani"
+   ],
+   "en_yakin_b": [
+    0.82,
+    "Katmandu",
+    "nepal"
+   ]
+  },
+  {
+   "ne_a": "Indonesia",
+   "ne_b": "Malaysia",
+   "uzunluk_derece": 13.47348,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "hollanda-dogu-hint",
+       2
+      ]
+     ],
+     "b": [
+      [
+       "sarawak-brooke",
+       1
+      ]
+     ],
+     "a_n": 2,
+     "b_n": 1
+    },
+    "2.5": {
+     "a": [
+      [
+       "hollanda-dogu-hint",
+       5
+      ]
+     ],
+     "b": [
+      [
+       "sarawak-brooke",
+       1
+      ]
+     ],
+     "a_n": 5,
+     "b_n": 1
+    }
+   },
+   "en_yakin_a": [
+    0.424,
+    "Sambas",
+    "hollanda-dogu-hint"
+   ],
+   "en_yakin_b": [
+    0.423,
+    "Kuching (Sarawak)",
+    "sarawak-brooke"
+   ]
+  },
+  {
+   "ne_a": "Brazil",
+   "ne_b": "Colombia",
+   "uzunluk_derece": 12.60079,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "brezilya-cumhuriyeti",
+       2
+      ]
+     ],
+     "b": [],
+     "a_n": 2,
+     "b_n": 0
+    },
+    "2.5": {
+     "a": [
+      [
+       "brezilya-cumhuriyeti",
+       3
+      ]
+     ],
+     "b": [
+      [
+       "brezilya-cumhuriyeti",
+       1
+      ]
+     ],
+     "a_n": 3,
+     "b_n": 1
+    }
+   },
+   "en_yakin_a": [
+    0.021,
+    "Yavaraté (Vaupés)",
+    "brezilya-cumhuriyeti"
+   ],
+   "en_yakin_b": [
+    1.3,
+    "Caruru (Vaupés)",
+    "brezilya-cumhuriyeti"
+   ]
+  },
+  {
+   "ne_a": "Afghanistan",
+   "ne_b": "Tajikistan",
+   "uzunluk_derece": 12.01564,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "afganistan",
+       1
+      ]
+     ],
+     "b": [
+      [
+       "sovyet-rusya",
+       1
+      ]
+     ],
+     "a_n": 1,
+     "b_n": 1
+    },
+    "2.5": {
+     "a": [
+      [
+       "afganistan",
+       1
+      ]
+     ],
+     "b": [
+      [
+       "sovyet-rusya",
+       3
+      ]
+     ],
+     "a_n": 1,
+     "b_n": 3
+    }
+   },
+   "en_yakin_a": [
+    0.944,
+    "Belh",
+    "afganistan"
+   ],
+   "en_yakin_b": [
+    0.314,
+    "Külâb (Kulob)",
+    "sovyet-rusya"
+   ]
+  },
+  {
+   "ne_a": "India",
+   "ne_b": "Myanmar",
+   "uzunluk_derece": 11.92098,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "ingiliz-hindistani",
+       1
+      ],
+      [
+       "manipur",
+       1
+      ]
+     ],
+     "b": [],
+     "a_n": 2,
+     "b_n": 0
+    },
+    "2.5": {
+     "a": [
+      [
+       "ingiliz-hindistani",
+       1
+      ],
+      [
+       "manipur",
+       1
+      ]
+     ],
+     "b": [
+      [
+       "ingiliz-hindistani",
+       8
+      ]
+     ],
+     "a_n": 2,
+     "b_n": 8
+    }
+   },
+   "en_yakin_a": [
+    0.545,
+    "İmphâl (Manipûr)",
+    "manipur"
+   ],
+   "en_yakin_b": [
+    1.405,
+    "Mrauk U (Arakan)",
+    "ingiliz-hindistani"
+   ]
+  },
+  {
+   "ne_a": "Tajikistan",
+   "ne_b": "Uzbekistan",
+   "uzunluk_derece": 11.6691,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "sovyet-rusya",
+       2
+      ]
+     ],
+     "b": [
+      [
+       "sovyet-rusya",
+       6
+      ]
+     ],
+     "a_n": 2,
+     "b_n": 6
+    },
+    "2.5": {
+     "a": [
+      [
+       "sovyet-rusya",
+       3
+      ]
+     ],
+     "b": [
+      [
+       "sovyet-rusya",
+       8
+      ]
+     ],
+     "a_n": 3,
+     "b_n": 8
+    }
+   },
+   "en_yakin_a": [
+    0.314,
+    "Hucend",
+    "sovyet-rusya"
+   ],
+   "en_yakin_b": [
+    0.25,
+    "Hokand",
+    "sovyet-rusya"
+   ]
+  },
+  {
+   "ne_a": "Ecuador",
+   "ne_b": "Peru",
+   "uzunluk_derece": 11.64784,
+   "tampon": {
+    "1.0": {
+     "a": [],
+     "b": [
+      [
+       "peru-cumhuriyeti",
+       3
+      ],
+      [
+       "ekvador-cumhuriyeti",
+       2
+      ]
+     ],
+     "a_n": 0,
+     "b_n": 5
+    },
+    "2.5": {
+     "a": [
+      [
+       "ekvador-cumhuriyeti",
+       3
+      ]
+     ],
+     "b": [
+      [
+       "peru-cumhuriyeti",
+       7
+      ],
+      [
+       "ekvador-cumhuriyeti",
+       2
+      ]
+     ],
+     "a_n": 3,
+     "b_n": 9
+    }
+   },
+   "en_yakin_a": [
+    1.279,
+    "Guayaquil (Santiago de Guayaquil)",
+    "ekvador-cumhuriyeti"
+   ],
+   "en_yakin_b": [
+    0.01,
+    "San José de los Nuevos Icaguates",
+    "ekvador-cumhuriyeti"
+   ]
+  },
+  {
+   "ne_a": "Kazakhstan",
+   "ne_b": "Kyrgyzstan",
+   "uzunluk_derece": 11.50376,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "sovyet-rusya",
+       2
+      ]
+     ],
+     "b": [
+      [
+       "sovyet-rusya",
+       2
+      ]
+     ],
+     "a_n": 2,
+     "b_n": 2
+    },
+    "2.5": {
+     "a": [
+      [
+       "sovyet-rusya",
+       5
+      ]
+     ],
+     "b": [
+      [
+       "sovyet-rusya",
+       4
+      ]
+     ],
+     "a_n": 5,
+     "b_n": 4
+    }
+   },
+   "en_yakin_a": [
+    0.112,
+    "Taraz (Evliya-Ata)",
+    "sovyet-rusya"
+   ],
+   "en_yakin_b": [
+    0.086,
+    "Balasagun (Ak-Beşim)",
+    "sovyet-rusya"
+   ]
+  },
+  {
+   "ne_a": "Kyrgyzstan",
+   "ne_b": "Uzbekistan",
+   "uzunluk_derece": 11.11577,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "sovyet-rusya",
+       1
+      ]
+     ],
+     "b": [
+      [
+       "sovyet-rusya",
+       3
+      ]
+     ],
+     "a_n": 1,
+     "b_n": 3
+    },
+    "2.5": {
+     "a": [
+      [
+       "sovyet-rusya",
+       1
+      ]
+     ],
+     "b": [
+      [
+       "sovyet-rusya",
+       3
+      ]
+     ],
+     "a_n": 1,
+     "b_n": 3
+    }
+   },
+   "en_yakin_a": [
+    0.083,
+    "Oş",
+    "sovyet-rusya"
+   ],
+   "en_yakin_b": [
+    0.174,
+    "Andican",
+    "sovyet-rusya"
+   ]
+  },
+  {
+   "ne_a": "Colombia",
+   "ne_b": "Peru",
+   "uzunluk_derece": 11.00271,
+   "tampon": {
+    "1.0": {
+     "a": [],
+     "b": [
+      [
+       "ekvador-cumhuriyeti",
+       1
+      ]
+     ],
+     "a_n": 0,
+     "b_n": 1
+    },
+    "2.5": {
+     "a": [],
+     "b": [
+      [
+       "ekvador-cumhuriyeti",
+       2
+      ],
+      [
+       "peru-cumhuriyeti",
+       1
+      ]
+     ],
+     "a_n": 0,
+     "b_n": 3
+    }
+   },
+   "en_yakin_a": [
+    2.842,
+    "Popayán",
+    "kolombiya-cumhuriyeti"
+   ],
+   "en_yakin_b": [
+    0.494,
+    "San José de los Nuevos Icaguates",
+    "ekvador-cumhuriyeti"
+   ]
+  },
+  {
+   "ne_a": "China",
+   "ne_b": "Nepal",
+   "uzunluk_derece": 10.80916,
+   "tampon": {
+    "1.0": {
+     "a": [],
+     "b": [
+      [
+       "nepal",
+       1
+      ]
+     ],
+     "a_n": 0,
+     "b_n": 1
+    },
+    "2.5": {
+     "a": [
+      [
+       "tibet-ganden-phodrang",
+       2
+      ]
+     ],
+     "b": [
+      [
+       "nepal",
+       1
+      ]
+     ],
+     "a_n": 2,
+     "b_n": 1
+    }
+   },
+   "en_yakin_a": [
+    1.601,
+    "Şigatse",
+    "tibet-ganden-phodrang"
+   ],
+   "en_yakin_b": [
+    0.544,
+    "Katmandu",
+    "nepal"
+   ]
+  },
+  {
+   "ne_a": "China",
+   "ne_b": "North Korea",
+   "uzunluk_derece": 10.6918,
+   "tampon": {
+    "1.0": {
+     "a": [],
+     "b": [
+      [
+       "meiji-japonya",
+       2
+      ]
+     ],
+     "a_n": 0,
+     "b_n": 2
+    },
+    "2.5": {
+     "a": [
+      [
+       "cin-cumhuriyeti",
+       4
+      ]
+     ],
+     "b": [
+      [
+       "meiji-japonya",
+       5
+      ]
+     ],
+     "a_n": 4,
+     "b_n": 5
+    }
+   },
+   "en_yakin_a": [
+    1.412,
+    "Ningguta",
+    "cin-cumhuriyeti"
+   ],
+   "en_yakin_b": [
+    0.047,
+    "Ûicu (Uiju)",
+    "meiji-japonya"
+   ]
+  },
+  {
+   "ne_a": "Brazil",
+   "ne_b": "Paraguay",
+   "uzunluk_derece": 10.2295,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "__SAHIPSIZ__",
+       1
+      ]
+     ],
+     "b": [
+      [
+       "paraguay-cumhuriyeti",
+       2
+      ]
+     ],
+     "a_n": 1,
+     "b_n": 2
+    },
+    "2.5": {
+     "a": [
+      [
+       "__SAHIPSIZ__",
+       1
+      ]
+     ],
+     "b": [
+      [
+       "paraguay-cumhuriyeti",
+       3
+      ],
+      [
+       "bolivya-cumhuriyeti",
+       1
+      ]
+     ],
+     "a_n": 1,
+     "b_n": 4
+    }
+   },
+   "en_yakin_a": [
+    0.007,
+    "Ciudad Real del Guairá",
+    null
+   ],
+   "en_yakin_b": [
+    0.018,
+    "Fuerte Olimpo (Borbón)",
+    "paraguay-cumhuriyeti"
+   ]
+  },
+  {
+   "ne_a": "Iran",
+   "ne_b": "Turkmenistan",
+   "uzunluk_derece": 10.033,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "kacar",
+       10
+      ]
+     ],
+     "b": [
+      [
+       "sovyet-rusya",
+       5
+      ]
+     ],
+     "a_n": 10,
+     "b_n": 5
+    },
+    "2.5": {
+     "a": [
+      [
+       "kacar",
+       21
+      ]
+     ],
+     "b": [
+      [
+       "sovyet-rusya",
+       7
+      ],
+      [
+       "__SAHIPSIZ__",
+       2
+      ]
+     ],
+     "a_n": 21,
+     "b_n": 9
+    }
+   },
+   "en_yakin_a": [
+    0.017,
+    "Serahs",
+    "kacar"
+   ],
+   "en_yakin_b": [
+    0.18,
+    "Nesâ",
+    "sovyet-rusya"
+   ]
+  },
+  {
+   "ne_a": "China",
+   "ne_b": "Vietnam",
+   "uzunluk_derece": 9.85783,
+   "tampon": {
+    "1.0": {
+     "a": [],
+     "b": [
+      [
+       "fransiz-cinhindi",
+       4
+      ]
+     ],
+     "a_n": 0,
+     "b_n": 4
+    },
+    "2.5": {
+     "a": [
+      [
+       "cin-cumhuriyeti",
+       4
+      ]
+     ],
+     "b": [
+      [
+       "fransiz-cinhindi",
+       9
+      ]
+     ],
+     "a_n": 4,
+     "b_n": 9
+    }
+   },
+   "en_yakin_a": [
+    1.129,
+    "Beihai (Pakhoi)",
+    "cin-cumhuriyeti"
+   ],
+   "en_yakin_b": [
+    0.124,
+    "Lạng Sơn",
+    "fransiz-cinhindi"
+   ]
+  },
+  {
+   "ne_a": "Brazil",
+   "ne_b": "Guyana",
+   "uzunluk_derece": 9.73716,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "__SAHIPSIZ__",
+       2
+      ]
+     ],
+     "b": [
+      [
+       "__SAHIPSIZ__",
+       1
+      ]
+     ],
+     "a_n": 2,
+     "b_n": 1
+    },
+    "2.5": {
+     "a": [
+      [
+       "__SAHIPSIZ__",
+       3
+      ]
+     ],
+     "b": [
+      [
+       "__SAHIPSIZ__",
+       2
+      ],
+      [
+       "ingiliz-guyanasi",
+       1
+      ]
+     ],
+     "a_n": 3,
+     "b_n": 3
+    }
+   },
+   "en_yakin_a": [
+    0.218,
+    "Beyan K1.5 B57.5",
+    null
+   ],
+   "en_yakin_b": [
+    0.222,
+    "Beyan K4.5 B59.5",
+    null
+   ]
+  },
+  {
+   "ne_a": "Argentina",
+   "ne_b": "Brazil",
+   "uzunluk_derece": 9.36983,
+   "tampon": {
+    "1.0": {
+     "a": [],
+     "b": [],
+     "a_n": 0,
+     "b_n": 0
+    },
+    "2.5": {
+     "a": [
+      [
+       "arjantin-cumhuriyeti",
+       1
+      ]
+     ],
+     "b": [
+      [
+       "__SAHIPSIZ__",
+       1
+      ],
+      [
+       "brezilya-cumhuriyeti",
+       1
+      ]
+     ],
+     "a_n": 1,
+     "b_n": 2
+    }
+   },
+   "en_yakin_a": [
+    2.285,
+    "San Jerónimo (Reconquista)",
+    "arjantin-cumhuriyeti"
+   ],
+   "en_yakin_b": [
+    1.19,
+    "Nonohay (Yukarı Uruguay)",
+    "brezilya-cumhuriyeti"
+   ]
+  },
+  {
+   "ne_a": "China",
+   "ne_b": "Kyrgyzstan",
+   "uzunluk_derece": 9.02665,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "cin-cumhuriyeti",
+       3
+      ]
+     ],
+     "b": [
+      [
+       "sovyet-rusya",
+       1
+      ]
+     ],
+     "a_n": 3,
+     "b_n": 1
+    },
+    "2.5": {
+     "a": [
+      [
+       "cin-cumhuriyeti",
+       6
+      ]
+     ],
+     "b": [
+      [
+       "sovyet-rusya",
+       4
+      ]
+     ],
+     "a_n": 6,
+     "b_n": 4
+    }
+   },
+   "en_yakin_a": [
+    0.438,
+    "Uçturfan (Uç Turfan)",
+    "cin-cumhuriyeti"
+   ],
+   "en_yakin_b": [
+    0.906,
+    "Narın (Naryn)",
+    "sovyet-rusya"
+   ]
+  },
+  {
+   "ne_a": "Kyrgyzstan",
+   "ne_b": "Tajikistan",
+   "uzunluk_derece": 8.93636,
+   "tampon": {
+    "1.0": {
+     "a": [],
+     "b": [
+      [
+       "sovyet-rusya",
+       1
+      ]
+     ],
+     "a_n": 0,
+     "b_n": 1
+    },
+    "2.5": {
+     "a": [
+      [
+       "sovyet-rusya",
+       1
+      ]
+     ],
+     "b": [
+      [
+       "sovyet-rusya",
+       3
+      ]
+     ],
+     "a_n": 1,
+     "b_n": 3
+    }
+   },
+   "en_yakin_a": [
+    1.131,
+    "Oş",
+    "sovyet-rusya"
+   ],
+   "en_yakin_b": [
+    0.161,
+    "Hucend",
+    "sovyet-rusya"
+   ]
+  },
+  {
+   "ne_a": "Cambodia",
+   "ne_b": "Vietnam",
+   "uzunluk_derece": 8.79588,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "fransiz-cinhindi",
+       7
+      ]
+     ],
+     "b": [
+      [
+       "fransiz-cinhindi",
+       7
+      ]
+     ],
+     "a_n": 7,
+     "b_n": 7
+    },
+    "2.5": {
+     "a": [
+      [
+       "fransiz-cinhindi",
+       10
+      ]
+     ],
+     "b": [
+      [
+       "fransiz-cinhindi",
+       15
+      ]
+     ],
+     "a_n": 10,
+     "b_n": 15
+    }
+   },
+   "en_yakin_a": [
+    0.088,
+    "Svay Rieng",
+    "fransiz-cinhindi"
+   ],
+   "en_yakin_b": [
+    0.173,
+    "Tay Ninh",
+    "fransiz-cinhindi"
+   ]
+  },
+  {
+   "ne_a": "Bolivia",
+   "ne_b": "Peru",
+   "uzunluk_derece": 8.70345,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "bolivya-cumhuriyeti",
+       3
+      ]
+     ],
+     "b": [
+      [
+       "peru-cumhuriyeti",
+       2
+      ]
+     ],
+     "a_n": 3,
+     "b_n": 2
+    },
+    "2.5": {
+     "a": [
+      [
+       "bolivya-cumhuriyeti",
+       4
+      ]
+     ],
+     "b": [
+      [
+       "peru-cumhuriyeti",
+       3
+      ]
+     ],
+     "a_n": 4,
+     "b_n": 3
+    }
+   },
+   "en_yakin_a": [
+    0.615,
+    "Concepción de Apolobamba",
+    "bolivya-cumhuriyeti"
+   ],
+   "en_yakin_b": [
+    0.405,
+    "Chucuito",
+    "peru-cumhuriyeti"
+   ]
+  },
+  {
+   "ne_a": "Afghanistan",
+   "ne_b": "Iran",
+   "uzunluk_derece": 8.33766,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "kacar",
+       1
+      ]
+     ],
+     "b": [
+      [
+       "kacar",
+       2
+      ]
+     ],
+     "a_n": 1,
+     "b_n": 2
+    },
+    "2.5": {
+     "a": [
+      [
+       "kacar",
+       1
+      ],
+      [
+       "afganistan",
+       1
+      ]
+     ],
+     "b": [
+      [
+       "kacar",
+       11
+      ]
+     ],
+     "a_n": 2,
+     "b_n": 11
+    }
+   },
+   "en_yakin_a": [
+    0.054,
+    "Zerenc (Sîstan)",
+    "kacar"
+   ],
+   "en_yakin_b": [
+    0.475,
+    "Turbet-i Câm",
+    "kacar"
+   ]
+  },
+  {
+   "ne_a": "Guatemala",
+   "ne_b": "Mexico",
+   "uzunluk_derece": 8.28358,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "__SAHIPSIZ__",
+       2
+      ],
+      [
+       "guatemala",
+       1
+      ]
+     ],
+     "b": [
+      [
+       "meksika",
+       1
+      ]
+     ],
+     "a_n": 3,
+     "b_n": 1
+    },
+    "2.5": {
+     "a": [
+      [
+       "__SAHIPSIZ__",
+       3
+      ],
+      [
+       "guatemala",
+       2
+      ]
+     ],
+     "b": [
+      [
+       "meksika",
+       4
+      ]
+     ],
+     "a_n": 5,
+     "b_n": 4
+    }
+   },
+   "en_yakin_a": [
+    0.585,
+    "Zaculeu",
+    null
+   ],
+   "en_yakin_b": [
+    0.384,
+    "Acalán (Itzamkanac)",
+    "meksika"
+   ]
+  },
+  {
+   "ne_a": "Iran",
+   "ne_b": "Pakistan",
+   "uzunluk_derece": 7.77152,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "kacar",
+       2
+      ]
+     ],
+     "b": [],
+     "a_n": 2,
+     "b_n": 0
+    },
+    "2.5": {
+     "a": [
+      [
+       "kacar",
+       3
+      ]
+     ],
+     "b": [],
+     "a_n": 3,
+     "b_n": 0
+    }
+   },
+   "en_yakin_a": [
+    0.691,
+    "Hâş",
+    "kacar"
+   ],
+   "en_yakin_b": [
+    4.24,
+    "Karaçi",
+    "ingiliz-hindistani"
+   ]
+  },
+  {
+   "ne_a": "Brazil",
+   "ne_b": "Uruguay",
+   "uzunluk_derece": 7.72202,
+   "tampon": {
+    "1.0": {
+     "a": [],
+     "b": [
+      [
+       "uruguay-cumhuriyeti",
+       1
+      ]
+     ],
+     "a_n": 0,
+     "b_n": 1
+    },
+    "2.5": {
+     "a": [],
+     "b": [
+      [
+       "uruguay-cumhuriyeti",
+       1
+      ]
+     ],
+     "a_n": 0,
+     "b_n": 1
+    }
+   },
+   "en_yakin_a": [
+    3.947,
+    "Nonohay (Yukarı Uruguay)",
+    "brezilya-cumhuriyeti"
+   ],
+   "en_yakin_b": [
+    0.643,
+    "Beyan G31.5 B56.5",
+    "uruguay-cumhuriyeti"
+   ]
+  },
+  {
+   "ne_a": "Bolivia",
+   "ne_b": "Chile",
+   "uzunluk_derece": 7.63173,
+   "tampon": {
+    "1.0": {
+     "a": [],
+     "b": [],
+     "a_n": 0,
+     "b_n": 0
+    },
+    "2.5": {
+     "a": [
+      [
+       "bolivya-cumhuriyeti",
+       1
+      ]
+     ],
+     "b": [],
+     "a_n": 1,
+     "b_n": 0
+    }
+   },
+   "en_yakin_a": [
+    1.692,
+    "La Paz",
+    "bolivya-cumhuriyeti"
+   ],
+   "en_yakin_b": [
+    10.95,
+    "Santiago (Şili)",
+    "sili-cumhuriyeti"
+   ]
+  },
+  {
+   "ne_a": "Afghanistan",
+   "ne_b": "Turkmenistan",
+   "uzunluk_derece": 7.4381,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "afganistan",
+       2
+      ]
+     ],
+     "b": [],
+     "a_n": 2,
+     "b_n": 0
+    },
+    "2.5": {
+     "a": [
+      [
+       "afganistan",
+       2
+      ]
+     ],
+     "b": [
+      [
+       "sovyet-rusya",
+       1
+      ]
+     ],
+     "a_n": 2,
+     "b_n": 1
+    }
+   },
+   "en_yakin_a": [
+    0.714,
+    "Belh",
+    "afganistan"
+   ],
+   "en_yakin_b": [
+    2.023,
+    "Merv (Mari)",
+    "sovyet-rusya"
+   ]
+  },
+  {
+   "ne_a": "Honduras",
+   "ne_b": "Nicaragua",
+   "uzunluk_derece": 7.02447,
+   "tampon": {
+    "1.0": {
+     "a": [],
+     "b": [],
+     "a_n": 0,
+     "b_n": 0
+    },
+    "2.5": {
+     "a": [
+      [
+       "meksika",
+       3
+      ]
+     ],
+     "b": [],
+     "a_n": 3,
+     "b_n": 0
+    }
+   },
+   "en_yakin_a": [
+    1.022,
+    "Río Tinto (Black River, Moskito kıyısı)",
+    "meksika"
+   ],
+   "en_yakin_b": null
+  },
+  {
+   "ne_a": "Bolivia",
+   "ne_b": "Paraguay",
+   "uzunluk_derece": 6.90545,
+   "tampon": {
+    "1.0": {
+     "a": [],
+     "b": [
+      [
+       "bolivya-cumhuriyeti",
+       1
+      ],
+      [
+       "paraguay-cumhuriyeti",
+       1
+      ]
+     ],
+     "a_n": 0,
+     "b_n": 2
+    },
+    "2.5": {
+     "a": [
+      [
+       "__SAHIPSIZ__",
+       2
+      ],
+      [
+       "bolivya-cumhuriyeti",
+       1
+      ]
+     ],
+     "b": [
+      [
+       "bolivya-cumhuriyeti",
+       1
+      ],
+      [
+       "paraguay-cumhuriyeti",
+       1
+      ]
+     ],
+     "a_n": 3,
+     "b_n": 2
+    }
+   },
+   "en_yakin_a": [
+    1.294,
+    "Tariquea (Chiriguano misyonu)",
+    null
+   ],
+   "en_yakin_b": [
+    0.199,
+    "San Ignacio de Zamucos",
+    "bolivya-cumhuriyeti"
+   ]
+  },
+  {
+   "ne_a": "Indonesia",
+   "ne_b": "Papua New Guinea",
+   "uzunluk_derece": 6.76959,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "hollanda-dogu-hint",
+       1
+      ],
+      [
+       "__SAHIPSIZ__",
+       1
+      ]
+     ],
+     "b": [
+      [
+       "__SAHIPSIZ__",
+       1
+      ]
+     ],
+     "a_n": 2,
+     "b_n": 1
+    },
+    "2.5": {
+     "a": [
+      [
+       "__SAHIPSIZ__",
+       3
+      ],
+      [
+       "hollanda-dogu-hint",
+       1
+      ]
+     ],
+     "b": [
+      [
+       "__SAHIPSIZ__",
+       1
+      ]
+     ],
+     "a_n": 4,
+     "b_n": 1
+    }
+   },
+   "en_yakin_a": [
+    0.264,
+    "Jayapura (Hollandia)",
+    "hollanda-dogu-hint"
+   ],
+   "en_yakin_b": [
+    0.523,
+    "Yeni Gine İç Kesimi (Güney — Fly Nehri Bataklıkları)",
+    null
+   ]
+  },
+  {
+   "ne_a": "Argentina",
+   "ne_b": "Bolivia",
+   "uzunluk_derece": 6.73157,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "arjantin-cumhuriyeti",
+       1
+      ]
+     ],
+     "b": [
+      [
+       "__SAHIPSIZ__",
+       2
+      ],
+      [
+       "bolivya-cumhuriyeti",
+       1
+      ]
+     ],
+     "a_n": 1,
+     "b_n": 3
+    },
+    "2.5": {
+     "a": [
+      [
+       "arjantin-cumhuriyeti",
+       3
+      ]
+     ],
+     "b": [
+      [
+       "bolivya-cumhuriyeti",
+       2
+      ],
+      [
+       "__SAHIPSIZ__",
+       2
+      ]
+     ],
+     "a_n": 3,
+     "b_n": 4
+    }
+   },
+   "en_yakin_a": [
+    0.373,
+    "Rinconada (Puna)",
+    "arjantin-cumhuriyeti"
+   ],
+   "en_yakin_b": [
+    0.097,
+    "Tariquea (Chiriguano misyonu)",
+    null
+   ]
+  },
+  {
+   "ne_a": "Cambodia",
+   "ne_b": "Thailand",
+   "uzunluk_derece": 6.06931,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "fransiz-cinhindi",
+       4
+      ]
+     ],
+     "b": [
+      [
+       "siyam-chakri",
+       1
+      ]
+     ],
+     "a_n": 4,
+     "b_n": 1
+    },
+    "2.5": {
+     "a": [
+      [
+       "fransiz-cinhindi",
+       13
+      ]
+     ],
+     "b": [
+      [
+       "siyam-chakri",
+       8
+      ]
+     ],
+     "a_n": 13,
+     "b_n": 8
+    }
+   },
+   "en_yakin_a": [
+    0.023,
+    "Preah Vihear",
+    "fransiz-cinhindi"
+   ],
+   "en_yakin_b": [
+    0.385,
+    "Chanthaburi",
+    "siyam-chakri"
+   ]
+  },
+  {
+   "ne_a": "Guyana",
+   "ne_b": "Suriname",
+   "uzunluk_derece": 5.92217,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "ingiliz-guyanasi",
+       1
+      ]
+     ],
+     "b": [
+      [
+       "__SAHIPSIZ__",
+       1
+      ]
+     ],
+     "a_n": 1,
+     "b_n": 1
+    },
+    "2.5": {
+     "a": [
+      [
+       "ingiliz-guyanasi",
+       3
+      ],
+      [
+       "__SAHIPSIZ__",
+       1
+      ]
+     ],
+     "b": [
+      [
+       "hollanda-guyanasi",
+       1
+      ],
+      [
+       "__SAHIPSIZ__",
+       1
+      ]
+     ],
+     "a_n": 4,
+     "b_n": 2
+    }
+   },
+   "en_yakin_a": [
+    0.812,
+    "New Amsterdam (Berbice)",
+    "ingiliz-guyanasi"
+   ],
+   "en_yakin_b": [
+    0.798,
+    "Beyan K3.5 B56.5",
+    null
+   ]
+  },
+  {
+   "ne_a": "Bhutan",
+   "ne_b": "India",
+   "uzunluk_derece": 5.88393,
+   "tampon": {
+    "1.0": {
+     "a": [],
+     "b": [
+      [
+       "ingiliz-hindistani",
+       1
+      ]
+     ],
+     "a_n": 0,
+     "b_n": 1
+    },
+    "2.5": {
+     "a": [],
+     "b": [
+      [
+       "ingiliz-hindistani",
+       4
+      ]
+     ],
+     "a_n": 0,
+     "b_n": 4
+    }
+   },
+   "en_yakin_a": null,
+   "en_yakin_b": [
+    0.658,
+    "Gauhâtî (Guwahati)",
+    "ingiliz-hindistani"
+   ]
+  },
+  {
+   "ne_a": "Guyana",
+   "ne_b": "Venezuela",
+   "uzunluk_derece": 5.62978,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "__SAHIPSIZ__",
+       1
+      ]
+     ],
+     "b": [],
+     "a_n": 1,
+     "b_n": 0
+    },
+    "2.5": {
+     "a": [
+      [
+       "ingiliz-guyanasi",
+       2
+      ],
+      [
+       "__SAHIPSIZ__",
+       2
+      ]
+     ],
+     "b": [
+      [
+       "__SAHIPSIZ__",
+       2
+      ]
+     ],
+     "a_n": 4,
+     "b_n": 2
+    }
+   },
+   "en_yakin_a": [
+    0.168,
+    "Beyan K7.5 B60.5",
+    null
+   ],
+   "en_yakin_b": [
+    1.567,
+    "Beyan K7.5 B62.5",
+    null
+   ]
+  },
+  {
+   "ne_a": "Colombia",
+   "ne_b": "Ecuador",
+   "uzunluk_derece": 4.69061,
+   "tampon": {
+    "1.0": {
+     "a": [],
+     "b": [],
+     "a_n": 0,
+     "b_n": 0
+    },
+    "2.5": {
+     "a": [
+      [
+       "kolombiya-cumhuriyeti",
+       1
+      ]
+     ],
+     "b": [
+      [
+       "ekvador-cumhuriyeti",
+       3
+      ]
+     ],
+     "a_n": 1,
+     "b_n": 3
+    }
+   },
+   "en_yakin_a": [
+    1.937,
+    "Popayán",
+    "kolombiya-cumhuriyeti"
+   ],
+   "en_yakin_b": [
+    1.216,
+    "Quito",
+    "ekvador-cumhuriyeti"
+   ]
+  },
+  {
+   "ne_a": "Kazakhstan",
+   "ne_b": "Turkmenistan",
+   "uzunluk_derece": 4.13972,
+   "tampon": {
+    "1.0": {
+     "a": [],
+     "b": [
+      [
+       "sovyet-rusya",
+       1
+      ]
+     ],
+     "a_n": 0,
+     "b_n": 1
+    },
+    "2.5": {
+     "a": [
+      [
+       "__SAHIPSIZ__",
+       1
+      ]
+     ],
+     "b": [
+      [
+       "sovyet-rusya",
+       4
+      ],
+      [
+       "__SAHIPSIZ__",
+       1
+      ]
+     ],
+     "a_n": 1,
+     "b_n": 5
+    }
+   },
+   "en_yakin_a": [
+    1.515,
+    "Üstyurt platosu (batı)",
+    null
+   ],
+   "en_yakin_b": [
+    0.248,
+    "Garabogaz (Bekdaş)",
+    "sovyet-rusya"
+   ]
+  },
+  {
+   "ne_a": "Bhutan",
+   "ne_b": "China",
+   "uzunluk_derece": 4.08404,
+   "tampon": {
+    "1.0": {
+     "a": [],
+     "b": [
+      [
+       "tibet-ganden-phodrang",
+       1
+      ]
+     ],
+     "a_n": 0,
+     "b_n": 1
+    },
+    "2.5": {
+     "a": [],
+     "b": [
+      [
+       "tibet-ganden-phodrang",
+       3
+      ]
+     ],
+     "a_n": 0,
+     "b_n": 3
+    }
+   },
+   "en_yakin_a": null,
+   "en_yakin_b": [
+    0.704,
+    "Gyantse",
+    "tibet-ganden-phodrang"
+   ]
+  },
+  {
+   "ne_a": "China",
+   "ne_b": "Tajikistan",
+   "uzunluk_derece": 4.07157,
+   "tampon": {
+    "1.0": {
+     "a": [],
+     "b": [],
+     "a_n": 0,
+     "b_n": 0
+    },
+    "2.5": {
+     "a": [
+      [
+       "cin-cumhuriyeti",
+       2
+      ]
+     ],
+     "b": [],
+     "a_n": 2,
+     "b_n": 0
+    }
+   },
+   "en_yakin_a": [
+    1.533,
+    "Kaşgar",
+    "cin-cumhuriyeti"
+   ],
+   "en_yakin_b": [
+    4.017,
+    "Külâb (Kulob)",
+    "sovyet-rusya"
+   ]
+  },
+  {
+   "ne_a": "Cambodia",
+   "ne_b": "Laos",
+   "uzunluk_derece": 3.95879,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "fransiz-cinhindi",
+       2
+      ]
+     ],
+     "b": [
+      [
+       "fransiz-cinhindi",
+       2
+      ]
+     ],
+     "a_n": 2,
+     "b_n": 2
+    },
+    "2.5": {
+     "a": [
+      [
+       "fransiz-cinhindi",
+       10
+      ]
+     ],
+     "b": [
+      [
+       "fransiz-cinhindi",
+       3
+      ]
+     ],
+     "a_n": 10,
+     "b_n": 3
+    }
+   },
+   "en_yakin_a": [
+    0.39,
+    "Stung Treng",
+    "fransiz-cinhindi"
+   ],
+   "en_yakin_b": [
+    0.385,
+    "Attapeu",
+    "fransiz-cinhindi"
+   ]
+  },
+  {
+   "ne_a": "Malaysia",
+   "ne_b": "Thailand",
+   "uzunluk_derece": 3.91311,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "ingiliz-malaya",
+       4
+      ]
+     ],
+     "b": [
+      [
+       "siyam-chakri",
+       2
+      ]
+     ],
+     "a_n": 4,
+     "b_n": 2
+    },
+    "2.5": {
+     "a": [
+      [
+       "ingiliz-malaya",
+       5
+      ]
+     ],
+     "b": [
+      [
+       "siyam-chakri",
+       5
+      ]
+     ],
+     "a_n": 5,
+     "b_n": 5
+    }
+   },
+   "en_yakin_a": [
+    0.169,
+    "Kelantan (Kota Bharu)",
+    "ingiliz-malaya"
+   ],
+   "en_yakin_b": [
+    0.605,
+    "Songkhla",
+    "siyam-chakri"
+   ]
+  },
+  {
+   "ne_a": "Brunei",
+   "ne_b": "Malaysia",
+   "uzunluk_derece": 3.60422,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "brunei-sultanligi",
+       1
+      ]
+     ],
+     "b": [],
+     "a_n": 1,
+     "b_n": 0
+    },
+    "2.5": {
+     "a": [
+      [
+       "brunei-sultanligi",
+       1
+      ]
+     ],
+     "b": [],
+     "a_n": 1,
+     "b_n": 0
+    }
+   },
+   "en_yakin_a": [
+    0.04,
+    "Brunei",
+    "brunei-sultanligi"
+   ],
+   "en_yakin_b": [
+    4.748,
+    "Kuching (Sarawak)",
+    "sarawak-brooke"
+   ]
+  },
+  {
+   "ne_a": "China",
+   "ne_b": "Pakistan",
+   "uzunluk_derece": 3.57217,
+   "tampon": {
+    "1.0": {
+     "a": [],
+     "b": [],
+     "a_n": 0,
+     "b_n": 0
+    },
+    "2.5": {
+     "a": [
+      [
+       "cin-cumhuriyeti",
+       1
+      ]
+     ],
+     "b": [],
+     "a_n": 1,
+     "b_n": 0
+    }
+   },
+   "en_yakin_a": [
+    2.253,
+    "Yarkent (Şaçe)",
+    "cin-cumhuriyeti"
+   ],
+   "en_yakin_b": [
+    3.694,
+    "Siyâlkot",
+    "ingiliz-hindistani"
+   ]
+  },
+  {
+   "ne_a": "China",
+   "ne_b": "Laos",
+   "uzunluk_derece": 3.36735,
+   "tampon": {
+    "1.0": {
+     "a": [],
+     "b": [
+      [
+       "fransiz-cinhindi",
+       1
+      ]
+     ],
+     "a_n": 0,
+     "b_n": 1
+    },
+    "2.5": {
+     "a": [],
+     "b": [
+      [
+       "fransiz-cinhindi",
+       3
+      ]
+     ],
+     "a_n": 0,
+     "b_n": 3
+    }
+   },
+   "en_yakin_a": [
+    2.684,
+    "Kunming",
+    "cin-cumhuriyeti"
+   ],
+   "en_yakin_b": [
+    0.087,
+    "Muang Sing",
+    "fransiz-cinhindi"
+   ]
+  },
+  {
+   "ne_a": "Brazil",
+   "ne_b": "Suriname",
+   "uzunluk_derece": 3.30081,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "__SAHIPSIZ__",
+       1
+      ]
+     ],
+     "b": [],
+     "a_n": 1,
+     "b_n": 0
+    },
+    "2.5": {
+     "a": [
+      [
+       "__SAHIPSIZ__",
+       3
+      ]
+     ],
+     "b": [
+      [
+       "__SAHIPSIZ__",
+       2
+      ]
+     ],
+     "a_n": 3,
+     "b_n": 2
+    }
+   },
+   "en_yakin_a": [
+    0.831,
+    "Beyan K1.5 B54.5",
+    null
+   ],
+   "en_yakin_b": [
+    1.002,
+    "Beyan K3.5 B54.5",
+    null
+   ]
+  },
+  {
+   "ne_a": "Baykonur Cosmodrome",
+   "ne_b": "Kazakhstan",
+   "uzunluk_derece": 3.1504,
+   "tampon": {
+    "1.0": {
+     "a": [],
+     "b": [
+      [
+       "sovyet-rusya",
+       1
+      ]
+     ],
+     "a_n": 0,
+     "b_n": 1
+    },
+    "2.5": {
+     "a": [],
+     "b": [
+      [
+       "sovyet-rusya",
+       3
+      ]
+     ],
+     "a_n": 0,
+     "b_n": 3
+    }
+   },
+   "en_yakin_a": null,
+   "en_yakin_b": [
+    0.716,
+    "Kazalinsk (Kazalı)",
+    "sovyet-rusya"
+   ]
+  },
+  {
+   "ne_a": "El Salvador",
+   "ne_b": "Honduras",
+   "uzunluk_derece": 2.92101,
+   "tampon": {
+    "1.0": {
+     "a": [],
+     "b": [],
+     "a_n": 0,
+     "b_n": 0
+    },
+    "2.5": {
+     "a": [],
+     "b": [
+      [
+       "meksika",
+       1
+      ]
+     ],
+     "a_n": 0,
+     "b_n": 1
+    }
+   },
+   "en_yakin_a": null,
+   "en_yakin_b": [
+    1.735,
+    "Omoa (San Fernando de Omoa)",
+    "meksika"
+   ]
+  },
+  {
+   "ne_a": "Argentina",
+   "ne_b": "Uruguay",
+   "uzunluk_derece": 2.82142,
+   "tampon": {
+    "1.0": {
+     "a": [],
+     "b": [],
+     "a_n": 0,
+     "b_n": 0
+    },
+    "2.5": {
+     "a": [
+      [
+       "arjantin-cumhuriyeti",
+       2
+      ]
+     ],
+     "b": [
+      [
+       "uruguay-cumhuriyeti",
+       2
+      ]
+     ],
+     "a_n": 2,
+     "b_n": 2
+    }
+   },
+   "en_yakin_a": [
+    2.164,
+    "Buenos Aires",
+    "arjantin-cumhuriyeti"
+   ],
+   "en_yakin_b": [
+    1.425,
+    "Beyan G31.5 B56.5",
+    "uruguay-cumhuriyeti"
+   ]
+  },
+  {
+   "ne_a": "Costa Rica",
+   "ne_b": "Nicaragua",
+   "uzunluk_derece": 2.6741,
+   "tampon": {
+    "1.0": {
+     "a": [],
+     "b": [],
+     "a_n": 0,
+     "b_n": 0
+    },
+    "2.5": {
+     "a": [],
+     "b": [],
+     "a_n": 0,
+     "b_n": 0
+    }
+   },
+   "en_yakin_a": null,
+   "en_yakin_b": null
+  },
+  {
+   "ne_a": "Costa Rica",
+   "ne_b": "Panama",
+   "uzunluk_derece": 2.58541,
+   "tampon": {
+    "1.0": {
+     "a": [],
+     "b": [],
+     "a_n": 0,
+     "b_n": 0
+    },
+    "2.5": {
+     "a": [],
+     "b": [],
+     "a_n": 0,
+     "b_n": 0
+    }
+   },
+   "en_yakin_a": null,
+   "en_yakin_b": [
+    2.913,
+    "Portobelo (Puerto Bello)",
+    "panama-cumhuriyeti"
+   ]
+  },
+  {
+   "ne_a": "Colombia",
+   "ne_b": "Panama",
+   "uzunluk_derece": 2.46837,
+   "tampon": {
+    "1.0": {
+     "a": [],
+     "b": [],
+     "a_n": 0,
+     "b_n": 0
+    },
+    "2.5": {
+     "a": [],
+     "b": [
+      [
+       "panama-cumhuriyeti",
+       2
+      ]
+     ],
+     "a_n": 0,
+     "b_n": 2
+    }
+   },
+   "en_yakin_a": [
+    2.563,
+    "Cartagena de Indias",
+    "kolombiya-cumhuriyeti"
+   ],
+   "en_yakin_b": [
+    2.088,
+    "Panamá (Panama City)",
+    "panama-cumhuriyeti"
+   ]
+  },
+  {
+   "ne_a": "Dominican Republic",
+   "ne_b": "Haiti",
+   "uzunluk_derece": 2.40439,
+   "tampon": {
+    "1.0": {
+     "a": [],
+     "b": [
+      [
+       "haiti",
+       1
+      ]
+     ],
+     "a_n": 0,
+     "b_n": 1
+    },
+    "2.5": {
+     "a": [
+      [
+       "dominik-cumhuriyeti",
+       1
+      ]
+     ],
+     "b": [
+      [
+       "haiti",
+       1
+      ]
+     ],
+     "a_n": 1,
+     "b_n": 1
+    }
+   },
+   "en_yakin_a": [
+    1.786,
+    "Santo Domingo",
+    "dominik-cumhuriyeti"
+   ],
+   "en_yakin_b": [
+    0.63,
+    "Jaragua (Taino cacicazgosu)",
+    "haiti"
+   ]
+  },
+  {
+   "ne_a": "Belize",
+   "ne_b": "Guatemala",
+   "uzunluk_derece": 2.26432,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "ingiltere",
+       1
+      ]
+     ],
+     "b": [
+      [
+       "guatemala",
+       1
+      ]
+     ],
+     "a_n": 1,
+     "b_n": 1
+    },
+    "2.5": {
+     "a": [
+      [
+       "ingiltere",
+       1
+      ]
+     ],
+     "b": [
+      [
+       "__SAHIPSIZ__",
+       3
+      ],
+      [
+       "guatemala",
+       2
+      ]
+     ],
+     "a_n": 1,
+     "b_n": 5
+    }
+   },
+   "en_yakin_a": [
+    0.957,
+    "Belize Town",
+    "ingiltere"
+   ],
+   "en_yakin_b": [
+    0.733,
+    "Nojpetén (Tayasal / Flores)",
+    "guatemala"
+   ]
+  },
+  {
+   "ne_a": "North Korea",
+   "ne_b": "South Korea",
+   "uzunluk_derece": 2.15793,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "meiji-japonya",
+       2
+      ]
+     ],
+     "b": [
+      [
+       "meiji-japonya",
+       3
+      ]
+     ],
+     "a_n": 2,
+     "b_n": 3
+    },
+    "2.5": {
+     "a": [
+      [
+       "meiji-japonya",
+       4
+      ]
+     ],
+     "b": [
+      [
+       "meiji-japonya",
+       7
+      ]
+     ],
+     "a_n": 4,
+     "b_n": 7
+    }
+   },
+   "en_yakin_a": [
+    0.117,
+    "Kaesong",
+    "meiji-japonya"
+   ],
+   "en_yakin_b": [
+    0.196,
+    "Ganghwa",
+    "meiji-japonya"
+   ]
+  },
+  {
+   "ne_a": "Laos",
+   "ne_b": "Myanmar",
+   "uzunluk_derece": 2.13501,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "fransiz-cinhindi",
+       1
+      ]
+     ],
+     "b": [
+      [
+       "san-devletleri",
+       1
+      ]
+     ],
+     "a_n": 1,
+     "b_n": 1
+    },
+    "2.5": {
+     "a": [
+      [
+       "fransiz-cinhindi",
+       2
+      ]
+     ],
+     "b": [
+      [
+       "san-devletleri",
+       1
+      ]
+     ],
+     "a_n": 2,
+     "b_n": 1
+    }
+   },
+   "en_yakin_a": [
+    0.27,
+    "Muang Sing",
+    "fransiz-cinhindi"
+   ],
+   "en_yakin_b": [
+    0.847,
+    "Kengtung",
+    "san-devletleri"
+   ]
+  },
+  {
+   "ne_a": "Guatemala",
+   "ne_b": "Honduras",
+   "uzunluk_derece": 2.04252,
+   "tampon": {
+    "1.0": {
+     "a": [],
+     "b": [
+      [
+       "meksika",
+       1
+      ]
+     ],
+     "a_n": 0,
+     "b_n": 1
+    },
+    "2.5": {
+     "a": [
+      [
+       "__SAHIPSIZ__",
+       3
+      ],
+      [
+       "guatemala",
+       2
+      ]
+     ],
+     "b": [
+      [
+       "meksika",
+       2
+      ]
+     ],
+     "a_n": 5,
+     "b_n": 2
+    }
+   },
+   "en_yakin_a": [
+    1.37,
+    "Antigua Guatemala (Santiago de los Caballeros)",
+    "guatemala"
+   ],
+   "en_yakin_b": [
+    0.183,
+    "Omoa (San Fernando de Omoa)",
+    "meksika"
+   ]
+  },
+  {
+   "ne_a": "East Timor",
+   "ne_b": "Indonesia",
+   "uzunluk_derece": 1.88894,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "portekiz",
+       1
+      ]
+     ],
+     "b": [
+      [
+       "hollanda-dogu-hint",
+       2
+      ]
+     ],
+     "a_n": 1,
+     "b_n": 2
+    },
+    "2.5": {
+     "a": [
+      [
+       "portekiz",
+       1
+      ]
+     ],
+     "b": [
+      [
+       "hollanda-dogu-hint",
+       6
+      ]
+     ],
+     "a_n": 1,
+     "b_n": 6
+    }
+   },
+   "en_yakin_a": [
+    0.63,
+    "Dili",
+    "portekiz"
+   ],
+   "en_yakin_b": [
+    0.816,
+    "Alor",
+    "hollanda-dogu-hint"
+   ]
+  },
+  {
+   "ne_a": "Bangladesh",
+   "ne_b": "Myanmar",
+   "uzunluk_derece": 1.68085,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "ingiliz-hindistani",
+       1
+      ]
+     ],
+     "b": [
+      [
+       "ingiliz-hindistani",
+       1
+      ]
+     ],
+     "a_n": 1,
+     "b_n": 1
+    },
+    "2.5": {
+     "a": [
+      [
+       "ingiliz-hindistani",
+       1
+      ]
+     ],
+     "b": [
+      [
+       "ingiliz-hindistani",
+       4
+      ]
+     ],
+     "a_n": 1,
+     "b_n": 4
+    }
+   },
+   "en_yakin_a": [
+    0.823,
+    "Çatgam (Chittagong)",
+    "ingiliz-hindistani"
+   ],
+   "en_yakin_b": [
+    0.888,
+    "Mrauk U (Arakan)",
+    "ingiliz-hindistani"
+   ]
+  },
+  {
+   "ne_a": "Chile",
+   "ne_b": "Peru",
+   "uzunluk_derece": 1.49617,
+   "tampon": {
+    "1.0": {
+     "a": [],
+     "b": [],
+     "a_n": 0,
+     "b_n": 0
+    },
+    "2.5": {
+     "a": [],
+     "b": [
+      [
+       "peru-cumhuriyeti",
+       3
+      ]
+     ],
+     "a_n": 0,
+     "b_n": 3
+    }
+   },
+   "en_yakin_a": [
+    15.113,
+    "Santiago (Şili)",
+    "sili-cumhuriyeti"
+   ],
+   "en_yakin_b": [
+    1.639,
+    "Chucuito",
+    "peru-cumhuriyeti"
+   ]
+  },
+  {
+   "ne_a": "Afghanistan",
+   "ne_b": "Uzbekistan",
+   "uzunluk_derece": 1.45911,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "afganistan",
+       1
+      ]
+     ],
+     "b": [
+      [
+       "sovyet-rusya",
+       1
+      ]
+     ],
+     "a_n": 1,
+     "b_n": 1
+    },
+    "2.5": {
+     "a": [
+      [
+       "afganistan",
+       1
+      ]
+     ],
+     "b": [
+      [
+       "sovyet-rusya",
+       4
+      ]
+     ],
+     "a_n": 1,
+     "b_n": 4
+    }
+   },
+   "en_yakin_a": [
+    0.551,
+    "Belh",
+    "afganistan"
+   ],
+   "en_yakin_b": [
+    0.033,
+    "Termez",
+    "sovyet-rusya"
+   ]
+  },
+  {
+   "ne_a": "El Salvador",
+   "ne_b": "Guatemala",
+   "uzunluk_derece": 1.43321,
+   "tampon": {
+    "1.0": {
+     "a": [],
+     "b": [
+      [
+       "guatemala",
+       1
+      ]
+     ],
+     "a_n": 0,
+     "b_n": 1
+    },
+    "2.5": {
+     "a": [],
+     "b": [
+      [
+       "__SAHIPSIZ__",
+       3
+      ],
+      [
+       "guatemala",
+       1
+      ]
+     ],
+     "a_n": 0,
+     "b_n": 4
+    }
+   },
+   "en_yakin_a": null,
+   "en_yakin_b": [
+    0.941,
+    "Antigua Guatemala (Santiago de los Caballeros)",
+    "guatemala"
+   ]
+  },
+  {
+   "ne_a": "Belize",
+   "ne_b": "Mexico",
+   "uzunluk_derece": 1.4209,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "ingiltere",
+       1
+      ]
+     ],
+     "b": [],
+     "a_n": 1,
+     "b_n": 0
+    },
+    "2.5": {
+     "a": [
+      [
+       "ingiltere",
+       1
+      ]
+     ],
+     "b": [
+      [
+       "meksika",
+       5
+      ],
+      [
+       "__SAHIPSIZ__",
+       1
+      ]
+     ],
+     "a_n": 1,
+     "b_n": 6
+    }
+   },
+   "en_yakin_a": [
+    0.763,
+    "Belize Town",
+    "ingiltere"
+   ],
+   "en_yakin_b": [
+    1.83,
+    "Acalán (Itzamkanac)",
+    "meksika"
+   ]
+  },
+  {
+   "ne_a": "China",
+   "ne_b": "Siachen Glacier",
+   "uzunluk_derece": 1.09328,
+   "tampon": {
+    "1.0": {
+     "a": [],
+     "b": [],
+     "a_n": 0,
+     "b_n": 0
+    },
+    "2.5": {
+     "a": [],
+     "b": [],
+     "a_n": 0,
+     "b_n": 0
+    }
+   },
+   "en_yakin_a": [
+    2.676,
+    "Hotan",
+    "cin-cumhuriyeti"
+   ],
+   "en_yakin_b": null
+  },
+  {
+   "ne_a": "Chile",
+   "ne_b": "Southern Patagonian Ice Field",
+   "uzunluk_derece": 0.97926,
+   "tampon": {
+    "1.0": {
+     "a": [],
+     "b": [],
+     "a_n": 0,
+     "b_n": 0
+    },
+    "2.5": {
+     "a": [
+      [
+       "sili-cumhuriyeti",
+       1
+      ]
+     ],
+     "b": [],
+     "a_n": 1,
+     "b_n": 0
+    }
+   },
+   "en_yakin_a": [
+    2.166,
+    "Beyan G48.5 B75.5",
+    "sili-cumhuriyeti"
+   ],
+   "en_yakin_b": null
+  },
+  {
+   "ne_a": "Afghanistan",
+   "ne_b": "China",
+   "uzunluk_derece": 0.87607,
+   "tampon": {
+    "1.0": {
+     "a": [],
+     "b": [],
+     "a_n": 0,
+     "b_n": 0
+    },
+    "2.5": {
+     "a": [],
+     "b": [
+      [
+       "cin-cumhuriyeti",
+       1
+      ]
+     ],
+     "a_n": 0,
+     "b_n": 1
+    }
+   },
+   "en_yakin_a": [
+    5.817,
+    "Kâbil",
+    "afganistan"
+   ],
+   "en_yakin_b": [
+    2.494,
+    "Kaşgar",
+    "cin-cumhuriyeti"
+   ]
+  },
+  {
+   "ne_a": "India",
+   "ne_b": "Siachen Glacier",
+   "uzunluk_derece": 0.84425,
+   "tampon": {
+    "1.0": {
+     "a": [],
+     "b": [],
+     "a_n": 0,
+     "b_n": 0
+    },
+    "2.5": {
+     "a": [
+      [
+       "cammu-kesmir",
+       2
+      ]
+     ],
+     "b": [],
+     "a_n": 2,
+     "b_n": 0
+    }
+   },
+   "en_yakin_a": [
+    1.086,
+    "Leh (Ladakh)",
+    "cammu-kesmir"
+   ],
+   "en_yakin_b": null
+  },
+  {
+   "ne_a": "Argentina",
+   "ne_b": "Southern Patagonian Ice Field",
+   "uzunluk_derece": 0.77272,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "sili-cumhuriyeti",
+       1
+      ]
+     ],
+     "b": [],
+     "a_n": 1,
+     "b_n": 0
+    },
+    "2.5": {
+     "a": [
+      [
+       "sili-cumhuriyeti",
+       1
+      ]
+     ],
+     "b": [],
+     "a_n": 1,
+     "b_n": 0
+    }
+   },
+   "en_yakin_a": [
+    0.558,
+    "Beyan G49.5 B72.5",
+    "sili-cumhuriyeti"
+   ],
+   "en_yakin_b": null
+  },
+  {
+   "ne_a": "Pakistan",
+   "ne_b": "Siachen Glacier",
+   "uzunluk_derece": 0.6006,
+   "tampon": {
+    "1.0": {
+     "a": [],
+     "b": [],
+     "a_n": 0,
+     "b_n": 0
+    },
+    "2.5": {
+     "a": [],
+     "b": [],
+     "a_n": 0,
+     "b_n": 0
+    }
+   },
+   "en_yakin_a": [
+    3.631,
+    "Siyâlkot",
+    "ingiliz-hindistani"
+   ],
+   "en_yakin_b": null
+  },
+  {
+   "ne_a": "North Korea",
+   "ne_b": "Russia",
+   "uzunluk_derece": 0.31235,
+   "tampon": {
+    "1.0": {
+     "a": [],
+     "b": [],
+     "a_n": 0,
+     "b_n": 0
+    },
+    "2.5": {
+     "a": [
+      [
+       "meiji-japonya",
+       1
+      ]
+     ],
+     "b": [
+      [
+       "sovyet-rusya",
+       1
+      ]
+     ],
+     "a_n": 1,
+     "b_n": 1
+    }
+   },
+   "en_yakin_a": [
+    1.3,
+    "Kyongsong (Gyeongseong)",
+    "meiji-japonya"
+   ],
+   "en_yakin_b": [
+    1.43,
+    "Vladivostok",
+    "sovyet-rusya"
+   ]
+  },
+  {
+   "ne_a": "Cuba",
+   "ne_b": "US Naval Base Guantanamo Bay",
+   "uzunluk_derece": 0.23286,
+   "tampon": {
+    "1.0": {
+     "a": [
+      [
+       "kuba-cumhuriyeti",
+       2
+      ]
+     ],
+     "b": [],
+     "a_n": 2,
+     "b_n": 0
+    },
+    "2.5": {
+     "a": [
+      [
+       "kuba-cumhuriyeti",
+       2
+      ]
+     ],
+     "b": [],
+     "a_n": 2,
+     "b_n": 0
+    }
+   },
+   "en_yakin_a": [
+    0.599,
+    "Santiago de Cuba",
+    "kuba-cumhuriyeti"
+   ],
+   "en_yakin_b": null
+  },
+  {
+   "ne_a": "China",
+   "ne_b": "Hong Kong S.A.R.",
+   "uzunluk_derece": 0.17204,
+   "tampon": {
+    "1.0": {
+     "a": [],
+     "b": [
+      [
+       "ingiltere",
+       1
+      ]
+     ],
+     "a_n": 0,
+     "b_n": 1
+    },
+    "2.5": {
+     "a": [
+      [
+       "cin-cumhuriyeti",
+       2
+      ]
+     ],
+     "b": [
+      [
+       "ingiltere",
+       1
+      ]
+     ],
+     "a_n": 2,
+     "b_n": 1
+    }
+   },
+   "en_yakin_a": [
+    1.014,
+    "Kanton (Guangzhou)",
+    "cin-cumhuriyeti"
+   ],
+   "en_yakin_b": [
+    0.215,
+    "Hong Kong",
+    "ingiltere"
+   ]
+  },
+  {
+   "ne_a": "Saint Martin",
+   "ne_b": "Sint Maarten",
+   "uzunluk_derece": 0.09421,
+   "tampon": {
+    "1.0": {
+     "a": [],
+     "b": [],
+     "a_n": 0,
+     "b_n": 0
+    },
+    "2.5": {
+     "a": [],
+     "b": [],
+     "a_n": 0,
+     "b_n": 0
+    }
+   },
+   "en_yakin_a": null,
+   "en_yakin_b": null
+  },
+  {
+   "ne_a": "Brazilian Island",
+   "ne_b": "Uruguay",
+   "uzunluk_derece": 0.03976,
+   "tampon": {
+    "1.0": {
+     "a": [],
+     "b": [],
+     "a_n": 0,
+     "b_n": 0
+    },
+    "2.5": {
+     "a": [],
+     "b": [
+      [
+       "uruguay-cumhuriyeti",
+       1
+      ]
+     ],
+     "a_n": 0,
+     "b_n": 1
+    }
+   },
+   "en_yakin_a": null,
+   "en_yakin_b": [
+    1.712,
+    "Beyan G31.5 B56.5",
+    "uruguay-cumhuriyeti"
+   ]
+  },
+  {
+   "ne_a": "Argentina",
+   "ne_b": "Brazilian Island",
+   "uzunluk_derece": 0.03503,
+   "tampon": {
+    "1.0": {
+     "a": [],
+     "b": [],
+     "a_n": 0,
+     "b_n": 0
+    },
+    "2.5": {
+     "a": [
+      [
+       "arjantin-cumhuriyeti",
+       1
+      ]
+     ],
+     "b": [],
+     "a_n": 1,
+     "b_n": 0
+    }
+   },
+   "en_yakin_a": [
+    2.263,
+    "San Jerónimo (Reconquista)",
+    "arjantin-cumhuriyeti"
+   ],
+   "en_yakin_b": null
+  },
+  {
+   "ne_a": "Brazil",
+   "ne_b": "Brazilian Island",
+   "uzunluk_derece": 0.01168,
+   "tampon": {
+    "1.0": {
+     "a": [],
+     "b": [],
+     "a_n": 0,
+     "b_n": 0
+    },
+    "2.5": {
+     "a": [],
+     "b": [],
+     "a_n": 0,
+     "b_n": 0
+    }
+   },
+   "en_yakin_a": [
+    5.231,
+    "Nonohay (Yukarı Uruguay)",
+    "brezilya-cumhuriyeti"
+   ],
+   "en_yakin_b": null
+  }
+ ]
+}
