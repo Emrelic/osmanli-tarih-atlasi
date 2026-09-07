@@ -1457,7 +1457,24 @@ arac/surum_damgala.py   index.html'deki ?v=rNN damgasını günceller
 arac/uret_donemler.py   ☠️ ESKİ MOTOR — kullanılmıyor, referans için duruyor
 
 🔴 `veri-kaynak/motor_kara.geojson` BİR GİRDİ DEĞİL, ÇIKTIDIR — ve adı
-   yanıltıcıdır. `uret_petek.py:2776` onu KOŞUNUN SONUNDA yazar:
+   yanıltıcıdır. ~~`uret_petek.py:2776` onu KOŞUNUN SONUNDA yazar:~~
+
+   > 🔴🔴 **«KOŞUNUN SONUNDA» YANLIŞ — ölçüldü, 7 Eylül 2026
+   > (`SINAV-KOSU8-0907`).**
+   > ```
+   > yazılı     "uret_petek.py:2776 · KOŞUNUN SONUNDA"
+   > ÖLÇÜM      satır 2811 · koşunun 70. DAKİKASINDA yazılıyor
+   >            (koşu 8: 11:17:46 başladı → dosya 12:27:30)
+   > ```
+   > ⚠️ **Ve bedeli somut: bir bekçi buna tetik olarak bağlanırsa ON
+   > ALTI SAAT ERKEN öter** — ve `§10`un *"bitti sanıp erken haber
+   > vermek, hiç haber vermemekten kötüdür"* kuralını tam olarak
+   > çiğnetir. Tetik `data/donemler.js` olmaya devam ediyor.
+   > 📌 Ve satır numarası da kaymış (2776 → 2811): ***bir dosya
+   > numarası, kod değişmese bile komşusu değişince kayar*** — bu belge
+   > bugün üç kez satır numarası devretti ve üçünde de ölçüm istendi.
+
+   `unary_union(PETEK_D)` = **motorun ÇİZDİĞİ kara**, Natural Earth'ün
    `unary_union(PETEK_D)` = **motorun ÇİZDİĞİ kara**, Natural Earth'ün
    kara maskesi DEĞİL. Girdi maskesi `ne_10m_land.geojson`dur.
    ⚠️ İkisi AYRIŞIR ve ayrışma KUSUR DEĞİL: ölçüldü (2 Eylül 2026),
