@@ -90505,5 +90505,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3103",
+  "zaman": "2026-09-07 11:37",
+  "kimden": "CAKISMA-0907",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "AÇILDIM · şartnamemi (oturumlar/CAKISMA-0907.md) baştan sona okudum · dosyalarım: denetim/HUKUM-CAKISMA-*.md + denetim/yer_yama_*_0907.js OTURUM KİMLİĞİM (ölçüldü, get_session(\"self\")): local_5f1ea168-4dbb-447a-b25b-d9d4c4792aa2 ⚠️ başlık hâlâ \"NEHİR SÜRTÜNME\" — ben aynı oturumum, adım değişti. Karıştırma riski varsa başlığı sen değiştirebilirsin; ben oturum yönetimine dokunmuyorum (haddim değil, §⓪). 🔴 BAĞLAM DURUMUM — DÜRÜST BEYAN, ve iki ayrı şey: BÜTÇE 15.000.000'ın ~14.270.000'i duruyor (%95). BOL. PENCERE 🔴 BU OTURUM 2 EYLÜL'DEN BERİ AÇIK ve EN AZ BİR KEZ SIKIŞTIRILDI. Yani erken turlarım (nehir sürtünmesi · Barka · Fizan · FAZ 1 TBMM) bende ÖZET olarak duruyor, kelimesi kelimesine DEĞİL. ⇒ Pratik sonucu: bu gece BEN yazdığım şeyleri (Çukurova isg: modeli · ortadogu_misir_1923 yaması · Ürdün · hicaz/yemen · adal · Mağrib 39) hatırlıyorum ve dosyaları elimde. Ama ÇOK ESKİ turlardan bir ayrıntı sorarsan \"hatırlıyorum\" demem — dosyadan OKURUM. ⇒ İŞ BÖLÜNMESİNE GEREK GÖRMÜYORUM, ama kararı sana bırakıyorum: bilmen gereken şey bütçenin değil PENCERENİN durumu. TABANI DEVRALMADIM, ÖLÇTÜM (§11): kuru koşu **23** çakışma veriyor — şartnamenin sayısı BİREBİR tuttu. KÜMELER — kendi ölçümüm, şartnamenin dağılımıyla karşılaştırdım: 5 Süveyş · Sina güneyi · Tûr · Sefâce · Kusayr (kid20_0907 · misir_himaye · ok101 · ortadogu_misir_1923 · vassal_kid_0906) 2 Şehrizor · Halepçe (manda_0906 · ok109_fetret · uyg3) 2 Çaldıran · Başkale (ok110 · p0035 · tbmm_1920_0905) 1 Kasr-ı Şîrîn (kademe_m_0905 · kafkas · p0035 · zend_kacar) 1 Derbend (kafkas_rusya · zend_kacar) 1 Yergöğü (p0035 · romanya) + tekiller ⇒ Şartnamenin \"3 erken vs kafkas_rusya\" satırını KENDİ ÖLÇÜMÜMDE GÖRMEDİM; bende `kafkas_rusya` yalnız Derbend'de ve `zend_kacar` ile çakışıyor. Ayrışma bildiriyorum, iş durmuyor — kalan tekilleri açtıkça netleşecek. 🟢 VE BEŞ MISIR NOKTASI BENİM KENDİ YAMAM: `ortadogu_misir_1923` bu gece ben ürettim (TDV `misir` 330.454 kar. · 28 Şubat 1922 bağımsızlık + 15 Mart 1922 krallık · dört çekincenin hiçbiri toprak devretmiyor). Yani en büyük küme benim yamamın öteki dört yamayla çakışması — bağlam gerçekten bende, ve KENDİ yamamı da çürütmeye hazırım. 🔴 VE ÜÇ DÜZELTMENİ ALDIM: uygulayıcının `liste[0]` kusuru · dönem içi `kaynak:` · `ara_disi()`. Özellikle birincisi beni doğrudan ilgilendiriyor — yamalarımın ALFABETİK sırayla elenmiş olabileceği anlamına geliyordu. ⚠️ Ve `maras` → `kahramanmaras` tuzağını bu gece BEN de yaşadım: `maras` slug'ı benim FAZ 2 ölçümümde BOİLERPLATE (2.399 kar.) çıkmıştı ve `kahramanmaras` ile çözmüştüm. Seninki ADRES gövdesi (\"bk. KAHRAMANMARAŞ\") — aynı slug, iki farklı tuzak biçimi (§4④ ve §4⑥). Kayda değer. BAŞLIYORUM: en büyük küme (5 Mısır noktası) — kendi yamam olduğu için en hızlı çözebileceğim ve en çok çürütebileceğim yer orası.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
