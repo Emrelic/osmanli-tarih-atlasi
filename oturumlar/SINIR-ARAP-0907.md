@@ -86,6 +86,71 @@ değil **sınavda**: `34.567*1000 = 34566.999999999996`. Ölçüt kayan noktadan
 **ham metne** taşındı. §11 *"aletin gösterdiği ≠ dosyada yazan"* — kayan
 nokta yüzü. Düzeltmeden sonra **10/10**.
 
+---
+
+# TUR 2 — ÇIPA TUZAĞI ve `kimlik_1923`
+
+## ÇIPA TUZAĞI BENİ ISIRMADI — ölçüldü, varsayılmadı
+1.MURAT acil uyardı (M-3191): dönemler yarı açık (`f <= g < t`), `UFUK[1]`
+`1923-10-29` ⇒ o gün sorulunca canlı kimlik **109 → 1**, sahipsiz **168 → 3804**.
+Kendi aletlerimi taradım: dördü de yalnız `ne_10m_admin_0_countries.geojson`
+ve `data/devletler.js` okuyor; `yerlesimler` · `girdi.yukle` · `UFUK` ·
+dönem filtresi **hiçbirinde yok**. `1923` dizgisi yalnız yorum/metinde.
+🔴 **Ama tuzak tam sıradaki adımda bekliyordu** — TUR 2'nin işi `kimlik_1923`,
+ve o iş atlasa gün sorar. Uyarı bir tur erken geldi.
+```
+ÇIPA        1923-10-29   kayda YAZILAN
+SORGU GÜNÜ  1923-10-28   atlasa SORULAN
+```
+
+## `kimlik_1923` — 16/16 ÖLÇÜLDÜ (proza değil SLUG)
+`ARAC-SINIR-ARAP-YAN-0907.py` · katman sırası `d > v > s`, `isg:` sayılmadı.
+```
+Syria/Lebanon    suriye-lubnan-mandasi (11 / 3)
+Israel/Palestine filistin-mandasi (3 / 3)
+Jordan           urdun-emirligi(2) + hicaz(1)      ← MAAN 1923'te HİCAZ
+Iraq             irak-kralligi(31) + ingiltere(4)
+Saudi Arabia     suud-ucuncu(15) + hicaz(12)       ← TEK Suudi Arabistan YOKTU
+Yemen            yemen(8)+ingiltere(3)+kuayti-sultanligi(1)+umman(1)
+Oman umman(18) · Qatar katar(1) · Kuwait kuveyt(1)
+UAE ingiltere(3) · Bahrain ingiltere(1)            ← KENDİ kimlikleri YOK
+Turkey           tbmm-turkiye(236)+OSMANLI-dogrudan(4)+suriye-lubnan-mandasi(3)
+```
+
+### bbox yöntemi DENENDİ ve ÇÜRÜTÜLDÜ
+Sömürge imparatorluklarının bbox'ı kıtalar aşıyor ⇒ `portekiz` · `abd` ·
+`ingiltere` bölgemdeki **her** ülkeyi "kapsıyor"; Katar ve Bahreyn'e `kacar`
+önerdi; Filistin'e hiçbir dar kimlik veremedi. **bbox bir ipucudur (§11)**;
+gerçek noktayla ölçünce 16/16 temiz çıktı.
+
+## 🔴 KENDİ KOVA ÖNERİMİ KENDİM ÇÜRÜTTÜM — 4 → 2
+```
+🟢 DOĞRULANDI  Israel|Palestine  iki uç da filistin-mandasi
+🟢 DOĞRULANDI  Lebanon|Syria     iki uç da suriye-lubnan-mandasi
+🔴 ÇÜRÜDÜ      Israel|Jordan     filistin-mandasi ≠ urdun-emirligi+hicaz
+🔴 ÇÜRÜDÜ      Jordan|Palestine  aynı sebep
+```
+Atlas Şarkü'l-Ürdün'ü ayrı modelliyor (`urdun-emirligi`, `1921-02-01`den).
+⚠️ Çürüyen şey hukukî okuma değil — **ölçülebilir olanı hukukî olanın yerine
+koymamdı.** İkisi ayrı sorudur.
+🟢 Ve öneri artık **bedava**: `kimlik_1923` saf slug olduğu için kova var olan
+bir alanın eşitlik testi — `k.kimlik_1923[0] === k.kimlik_1923[1]` → 2.
+
+## 🔴 YENİ BULGU — bir ucun `kimlik_1923`i TEK DEĞER OLMAYABİLİR
+16 ucun **7**'sinde birden çok kimlik, ve bazıları gürültü değil tarih:
+Maan 1923'te Hicaz'dı ⇒ `Jordan|Saudi` kenarının iki ayrı kimliğe bakan
+iki parçası var. Kayıt modeli her uç için tek kimlik varsayıyor.
+
+## YAN BULGU — hüküm vermedim
+1923-10-28'de Türkiye içinde 236 nokta `tbmm-turkiye`, **4 nokta hâlâ `d:`**
+(Çaldıran · Başkale · Mersin · Şırnak), oran 59:1. Mersin'in `d:`si
+`1921-10-20`de — Ankara İtilâfnâmesi gününde — başlıyor: kayıt o günü
+**biliyor** ama kimliği TBMM'ye çevirmemiş. `data/` donuk, dokunmadım.
+
+## ⑥ 36 `kid:`siz `v:` dönemi — bölgemde SIFIR
+Öncül çürüdü: bölgemin 16 ucunda `v:` katmanından gelen tek bir kimlik yok.
+Manda toprakları atlasta `v:` değil **`s:`** ile modellenmiş.
+
 ## SIRADAKİ
 ① `Israel|Lebanon` — akademik kaynak (TDV susuyor)
 ② `Iran|Iraq` · `Iraq|Syria` · `Jordan|Syria` · `Iraq|Kuwait` — hiç açılmadı
