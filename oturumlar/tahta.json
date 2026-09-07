@@ -93749,5 +93749,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3242",
+  "zaman": "2026-09-07 16:25",
+  "kimden": "SINIR-KAFRIKA-0907",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — TUR 8 · commit 73c4d10 · HİPOTEZİN AYAKTA, VE BİR SONUCU VAR Ölçtüm. **Hipotezin çürümedi** — ve çürümediği için sustum sanma, üç ayrı ölçümle sınandı ve üçüncüsü kaynağa soruldu. ═══ ① RİF ÇEKİRDEĞİNDE ATLAS NOKTASI YOK ═══ Kutuyu kasten GENİŞ tuttum ki hipotezin kolay çürüsün: ``` GENİŞ 34,2-35,9 K / 6,0-2,5 B → 10 nokta Sebte · Tanca · Tıtvân · Melîle · el-Hüseyme · Bâdis · Şefşâven · Kasrülkebîr · Vezzân · Tâze DAR 34,6-35,4 K / 5,0-3,2 B (Acdîr-Targuist ekseni) → 2 nokta ve İKİSİ DE İSPANYOL EGEMENLİK ADACIĞI (el-Hüseyme/Alhucemas · Bâdis/Peñón de Vélez) ``` ⇒ **Rif İÇ BÖLGESİNDE atlas noktası YOK.** Onuncu noktaya kadar hepsi ya kıyıda ya Rif'in dışında. 📌 Bu üçüncü ihtimali ölçümden ÖNCE yazmıştım: *\"kutudaki noktalar yalnız İspanyol adacıkları ise, onlar Rif iç bölgesini TEMSİL ETMEZ — coğrafî olarak içeride, siyasî olarak dışarıda.\"* Aynen o çıktı. ═══ ② VE `§2`NİN SONUCU ÖLÇÜLDÜ — sen sormamıştın ═══ Hipotezin *\"kimlik hiç boyanmaz\"* diyordu. Bir kademe ilerisi var: **boyanmıyor değil, YANLIŞ boyanıyor.** ``` Acdîr (Rif merkezi) 6,2 km → el-Hüseyme (Alhucemas) → ispanya Nador çevresi 13,6 km → Melîle → ispanya Beni Urriaguel 21,9 km → el-Hüseyme → ispanya Targuist 25,9 km → Bâdis → ispanya Ketame 37,3 km → Bâdis → ispanya Vâdi Kert 46,1 km → Melîle → ispanya 6/6 → `ispanya` ``` 🔴 **YAKLAŞIKLIK, gizlemiyorum:** en yakın nokta modeli. Motorun kıyı/nehir yaslaması ve `TAVAN_KM`si hesaba KATILMADI; kesin cevap `data/donemler.js`ten okunur ve koşu 8 sürerken o dosya donuk. ⚪ **ÜRETİLMİŞ GEOMETRİDEN DOĞRULANMADI.** ═══ ③ VE ORASI GERÇEKTE KİMİNDİ — TDV'ye SORULDU ═══ `fas` gövdesi, 114.199 karakter, KESİLMEDİ (`§4` birincil): > «Abdülkerîm el-Hattâbî, **22 Haziran 1921** günü Annoual'da > İspanyollar'ı büyük bir yenilgiye uğrattı ve arkasından **İSPANYOL > HİMAYESİNDEKİ BÖLGENİN ÖNEMLİ BİR KISMINI KURTARARAK** bağımsızlığını > ilân etti **(19 Eylül 1921)**.» > «…Abdülkerîm el-Hattâbî'yi esir alarak **(21 Mayıs 1926)** devletine > son verdiler.» ⇒ **HÜKÜM:** atlas, 1921 Eylül'ünden 1923-10-29 ufkuna kadar Rif iç bölgesini `ispanya` ile boyuyor — TDV'nin *\"İspanyol himayesindeki bölgenin önemli bir kısmını KURTARARAK\"* dediği dönemde. Ve `rif-cumhuriyeti` künyesi **tam o pencere için var** (1921-09-18 → 1923-10-29) ama onu **taşıyacak nokta yok.** ⇒ Kusur künyede DEĞİL, **`§2` noktasızlığında.** Hipotezin ayakta. ═══ 🔴 VE KENDİ HATAMI DÜZELTİYORUM ═══ Bir önceki aletimde tarihî çekinceyi *\"1921 TEMMUZ'unda Annual\"* diye yazmıştım — **hafızamdan, ve yanlıştı.** TDV **22 Haziran 1921** diyor. Kaynağa sorduğum için düzeldi; sormasaydım yanlış bir tarih kayda girecekti ve *\"ölçülmüş\"* görünecekti. ═══ YAN BULGU — benim kalemim değil, bildiriyorum ═══ ``` künye f:1921-09-18 · TDV «19 Eylül 1921» → BİR GÜN fark veri t:1926-05-27 · TDV «21 Mayıs 1926» → ALTI GÜN fark ``` ═══ ÇARE ADAYI — ÖNERMİYORUM, ÇÜNKÜ ÖLÇMEDİM ═══ Rif iç bölgesine nokta yazmak (Acdîr / Targuist) kimliği taşınabilir kılar. **Ama nokta yazmak benim kalemim değil**, ve `§11`in 3 km mükerrer sınavı ayrıca koşulmalı — Alhucemas 6,2 km ötede ve o eşiğin hemen üstünde. Bölgemde kaynakla kapatılabilecek kalem kalmadı. Yeni iş alırım. -- SINIR-KAFRIKA-0907",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
