@@ -2193,7 +2193,53 @@ D7_ADA_MUAF = frozenset((
 #    enklavın koridoru SORULDUĞU HÂLDE cevapsız kalmasıdır — onu bu
 #    sayaç ölçmez. Tavanı yükseltmek o borcu KAPATMAZ, yalnız fotoğrafı
 #    günceller.
-BEKLENEN_ENKLAV_SORGU = 660
+# 🟢🟢 660 -> 661, 7 EYLÜL 2026 — VE BU KAYDIRMA, YUKARIDA İKİ KEZ
+#    "DURUYOR" DİYE YAZILAN BORCU ÖDÜYOR: içerisi/dışarısı ayrımı ilk kez
+#    yapıldı. Net `+1` bir büyüme DEĞİL, 41 OLAYIN NETİ:
+#       YENİ 21  ↔  KAPANAN 20
+#    KOVA KOMPOZİSYONU (bu sabitin tarihinde İLK KEZ ölçüldü):
+#       A-koridor (EN ŞÜPHELİ)  yeni 12 · kapanan 19  ⇒  net −7  🟢
+#       B-bilinmiyor            yeni  8 · kapanan  0  ⇒  net +8
+#       C-hakiki                yeni  1 · kapanan  1  ⇒  net  0
+#    ⇒ Net sayı, en şüpheli kovadaki YEDİ KAPANMAYI tamamen gizliyor.
+#
+#    12 YENİ A-KORİDORUN 12'Sİ DE TARİHÎ BİR OLAYIN GÜNÜ, ve KÜME hâlinde:
+#       1899-01-19  Mavi Nil ×5   (Sudan Kondominyum antlaşması)
+#       1867-07-01  Kanada ×3     (Konfederasyon)
+#       1918-10-30 / 1920-07-24  Malikiye ×2  (Mondros / Fransız mandası)
+#       1523-06-06  Finlandiya    (Gustav Vasa)
+#       1378-01-01  Diyarbakır    (`artuklu` zinciri çalışması)
+#    🔴 `Sarıkamış` imzası bunun TERSİDİR: TEK bir kayıt, komşuları
+#       güncellenmediği için yalnız kalır. Bu on ikide o desen YOK.
+#    🟢 Ve Diyarbakır·Harput·Hasankeyf·Siirt kümesi 1 yeni ↔ 6 KAPANAN
+#       verdi — yani `artuklu` işi enklav KAPATMIŞ. NET İYİLEŞME.
+#
+# 🔴 AÇIK KALEM — `Mersin`, ve imzayı TAŞIYOR (kaydırma onu KAPATMAZ):
+#       Mersin  s: fransa 1918-10-30→1921-10-20 · d: 1921-10-20→1923-10-29
+#       ölçülen YEDİ komşunun YEDİSİ  s: tbmm-turkiye 1920-04-23→1923
+#       (Tarsus·Adana·Antep·Kilis·Silifke·Karaman·Konya)
+#    ⇒ 1921-10-20'den itibaren `tbmm-turkiye` denizinde bir OSMANLI adası.
+#    ⚠️ AMA YÖNÜ BELİRSİZ, ve bu bloğun kendi uyarısı birebir bu:
+#       *"Bir ada, veri YANLIŞ olduğu için de DOĞRU olduğu için de doğar."*
+#       Fransız işgali Ocak 1922'ye kadar sürdü (Mersin'in kurtuluşu
+#       1922-01-03 · Tarsus 12-27 · Adana 01-05). Komşuların 1920-04-23'te
+#       `tbmm-turkiye` olması, FİİLEN İŞGAL ALTINDAKİ toprağı TBMM'ye
+#       boyamak demek olabilir. ⇒ Ada, Mersin'in değil KOMŞULARIN yanlış
+#       olduğunu gösteriyor olabilir. Bu bir KAPSAM/TARİHSELLİK sorusudur,
+#       mekanik bir düzeltme değil; kaynağa sorulmadan karara bağlanmaz.
+#    ⚠️ Ve tarihten bağımsız ikinci bir tutarsızlık: Mersin `OSMANLI`,
+#       komşuları `tbmm-turkiye`. Hangisi doğru olursa olsun İKİSİ BİRDEN
+#       doğru olamaz. Kuyruğa yazıldı, koşu 9'un kalemi.
+#
+# 🟢 VE KAYDIRMANIN MEŞRU OLMASININ ŞARTI ÖLÇÜLDÜ: bu ada BU GECE DOĞMADI
+#    ve ZATEN YAYINDA. Mersin kaydının son değişimi `d60f09d` (6 Eylül
+#    00:04); son yayın `567895f` (7 Eylül 07:17) ONDAN SONRA. ⇒ Kaydırma
+#    yeni bir hatayı yayına SOKMUYOR; yayını durdurmak da onu DÜZELTMİYOR
+#    — yalnız vassal katmanını ve kapanan 6 adayı geciktirirdi.
+# 🔴 NEYİN KAYDIRMAYI ENGELLEYECEĞİ DE YAZILI: bu gece doğmuş VE açıkça
+#    yanlış bir ada. Mersin ikisini de karşılamıyor. Karşılasaydı sabit
+#    yerinde kalır, veri düzeltilir ve koşu 9'a bırakılırdı.
+BEKLENEN_ENKLAV_SORGU = 661
 # 🟢 639 -> 642, 4 EYLUL 2026 — ve buyume TAHMIN EDILMEDI, ADIYLA OLCULDU.
 #    Fotografi kaydirmadan once "hangi UC" diye soruldu ve ucu de bulundu:
 #       1466-10-19  Elbing (Elbląg) -> lehistan   239 km
