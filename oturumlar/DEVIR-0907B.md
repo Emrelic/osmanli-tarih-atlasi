@@ -774,3 +774,34 @@ kapıya sıra gelmeyecek, **yayın otomatik YAPILMAYACAK.**
 ### ⚫ AÇIK — ikinci kilitlenme yolu, SINAV-KOSU8'e verildi
 `denetle.py` 40 dk sınırının altında mı? Aşarsa `kos()` onu zaman
 aşımıyla öldürür ve sonuç aynı: zincir durur. Hiç ölçülmedi.
+
+---
+
+## ⑨z — ZİNCİR HÜKMÜ KESİNLEŞTİ · `denetim/HUKUM-ZINCIR-0907.md`
+
+Tablo **elle yazılmadı, kaynaktan üretiliyor** (`ast`, `lineno` sıralı) —
+bir zincire adım eklenirse kendiliğinden değişir.
+
+```
+🟢 KULLAN     py arac/kos_ve_yayinla.py
+🔴 KULLANMA   kosu_yayin.py      EN TEHLİKELİ SEÇENEK
+🔴 KULLANMA   _yayin_zinciri.py  yayın YAPMIYOR (rapor aracı)
+```
+**`kosu_yayin.py` niçin en tehlikeli — iki kusur birden:**
+```
+① `uret_altlik` adımı YOK  ⇒ BAYAT bir altlik.js ile yayın yapar
+② kapıyı UYARIYA düşürür   ⇒ kapının reddi EKRANA BASILIP GEÇİLİR
+```
+②'nin sinsiliği: kapı **ötüyor** ama yayın **duruyor sanılmıyor** — yani
+*"kapı temiz geçti"* diye okunur. Gece kimse ona uzanmasın.
+
+🟡 **BORÇ (bu gece DEĞİL):** `denetle_kronoloji.py` ve `denetle_arayuz.py`
+yalnız `kosu_yayin.py`de var; seçilen zincirde **yok.** Gerçek bir kapsam
+boşluğu. Bu gece eklenmiyor — bu dosyaya bugün zaten bir sıra değişikliği
+indi (`2f1bc20`) ve aynı gece ikinci bir değişiklik yığmak, yarın bir şey
+bozulduğunda **hangisinin bozduğunu ayrılamaz** kılar. Yayından sonra.
+
+🟢 Ve bir ölçüm: üç zincirde de *"ölümcül davranan ama karara bağlanmamış
+adım"* **0** — yani `kos()`un `None` dönüşünü okumayan bir çağıran yok.
+(Benim *"bir ret şartının VAR OLMASI hükmü VERİYOR olması demek değil"*
+uyarımın zincir karşılığı arandı ve **çıkmadı.**)
