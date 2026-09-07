@@ -1,0 +1,57 @@
+KIMLIK-1923-0907 — kok() kaba anahtari olculdu: KUSUR DEGIL TASARIM ·
+%9,2 cok uyeli · ve sevkin "sessizce tek kayda iner" onculu CURUDU
+
+ARAC:  denetim/ARAC-KOK-CAKISMA-0907.py
+RAPOR: denetim/KOK-CAKISMA-0907.json
+
+🔴 SEVKIN ONCULU SINANDI VE CURUDU:
+  sevk: "yanlis birlesen iki kunye SESSIZCE TEK KAYDA INER"
+  kod : `dizin.setdefault(kok(tok[0]), set()).add(...)` — deger bir KUME,
+        EZMEZ, BIRIKTIRIR.
+  aletin KENDI docstringi: "Bu surum HUKUM VERMEZ: her etiket icin ADAY
+        kunyeleri listeler ... 🔴 VERI YAZMAZ."
+  ⇒ Bedel SESSIZ BIRLESME DEGIL, GURULTULU ADAY LISTESI. Ve kabalik KAZA
+    DEGIL TASARIM: a surumu `Ocakligi ↔ Ocagi`yi baglayamadigi icin
+    curumustu, b surumu bilerek gevsetti.
+
+OLCUM: kunye 627 · anahtar 631 · tek uyeli 573 · COK UYELI 58 (%9,2)
+  cok uyeli kovada aday: ortanca 2 · en buyuk 7
+  ⇒ aday listeleri INSAN OKUNABILIR kaliyor; esik asilmamis.
+
+🟢 CAKISMANIN SEBEBI RASTGELE DEGIL — GENEL BASTAKI KELIMELER:
+  kok() ilk TOKEN'in ilk 5 harfini alir. `ad` genel bir sifatla
+  basliyorsa (Buyuk · Dogu · Kuzey · Emir · Sarki) konu ne olursa olsun
+  ayni kovaya duser:
+    buyuk : gran-kolombiya [guney-amerika] ↔ zimbabve-kralligi [g.afrika]
+    dog   : dogu-sumatra [gd-asya]         ↔ yakub-beg [orta-asya]
+    emir  : abdulkadir [k.afrika]          ↔ fetret-suleyman [balkanlar]
+  📌 Bir sayim "kac cakisma" der; MEKANIZMA "baska nerede olabilecegini"
+    soyler — ve yeni bir kunye "Buyuk"/"Dogu" ile baslarsa KENDILIGINDEN
+    katilir.
+
+GERCEKTEN ALAKASIZ HOMOGRAFLAR (~9-12 cift, ELLE ayriklandi):
+  avustralya ↔ avusturya/habsburg · napoli ↔ fransiz-misir-seferi
+  (Napoli ↔ NAPOLYON) · merina ↔ merini · transkafkasya ↔ transvaal
+  kri ↔ kru-grebo · kenya-kuzey-halklari ↔ kuzey-yuan
+  ⚠️ KESIN SAYI VERILMEDI: otomatik olcutum mesru AILE gruplamalarini da
+    yakaliyor (fransa ↔ fransiz-cinhindi · ingiltere ↔ ingiliz-hindistani
+    — metropol+somurge, gruplanmalari ISE YARAR).
+
+🔴 KENDI OLCUTUMUN KUSURU, kaydediliyor:
+  ① "ilk token biri otekini icermiyor" ⇒ 54 cift — ama `fetret-*`
+     kardeslerini de yakaladi, oysa onlarin gruplanmasi TASARIMIN ISTEDIGI.
+  ② + bolge farki ⇒ 42 — bu da metropol-somurge ciftlerini yakaladi.
+  ⇒ Iki olcut de gurultulu. AYNI GUN UCUNCU KEZ: otomatik olcut ADAY
+    uretir, HUKUM uretmez; hukmu her seferinde OKUMA verdi.
+
+HUKUM: KUSUR DEGIL, TASARIM — ve tasarimin bedeli olculdu. Alet veri
+  YAZMIYOR, hukum VERMIYOR. BURADAN BIR DENETIM TURETILMEMELI: turetilse
+  her kosuda ~58 kez oter ve 58'in cogu tasarimin kendisidir.
+ONERILEN: hicbir sey. Yalniz KAYIT — bunu bilen okuyucu aday listesini
+  dogru okur.
+
+OLCMEDIGIM: aletin gercek kullaniminda bu cakismalarin kacinin bir
+  okuyucuyu YANILTTIGI · kok()in ilk-5-harf disindaki eklerinin yanlis
+  kok uretip uretmedigi.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>

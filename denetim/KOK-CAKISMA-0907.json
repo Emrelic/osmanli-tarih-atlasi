@@ -1,0 +1,65 @@
+{
+ "_NOT": "KOK-CAKISMA-0907 — `ARAC-VASSAL-KUNYE-0906b.py`nin `kok(norm(x).split()[0])` KABA anahtarinin kunye evreninde urettigi cakisma. KIMLIK-1923-0907'nin M-3241'de acik biraktigi kalem. Arac: ARAC-KOK-CAKISMA-0907.py",
+
+ "🔴_SEVKIN_ONCULU_SINANDI_VE_CURUDU": {
+  "sevk_diyordu": "yanlis birlesen iki kunye SESSIZCE TEK KAYDA INER",
+  "kod_okundu": "dizin.setdefault(kok(tok[0]), set()).add(...)  — deger bir KUME: EZMEZ, BIRIKTIRIR.",
+  "aletin_kendi_docstringi": "'Bu surum HUKUM VERMEZ: her etiket icin ADAY kunyeleri listeler, karari okumaya birakir. Eslesme bulmak, dogru seyi bulmak degildir. 🔴 VERI YAZMAZ.'",
+  "hukum": "Bedel SESSIZ BIRLESME DEGIL, GURULTULU ADAY LISTESI. Ve kabalik KAZA DEGIL TASARIM: a surumu `Ocakligi ↔ Ocagi`yi baglayamadigi icin CURUMUSTU, b surumu bilerek gevsetti.",
+  "_DERS": "§11: bir olcutun KUSUR mu TASARIM mi olctugu, denetime donusturulmeden ONCE sorulur. Burada olcut TASARIM olctu."
+ },
+
+ "olcum": {
+  "kunye": 627,
+  "anahtar": 631,
+  "tek_uyeli": 573,
+  "cok_uyeli": 58,
+  "cok_uyeli_oran": "%9,2",
+  "cok_uyeli_kovada_aday_ortanca": 2,
+  "en_buyuk_kova": 7,
+  "_NOT": "Ortanca 2, en buyuk 7 ⇒ aday listeleri INSAN OKUNABILIR kaliyor. Bir aday listesi ancak okunabildigi kadar degerlidir, ve bu esik asilmamis."
+ },
+
+ "🟢_CAKISMANIN_SEBEBI_RASTGELE_DEGIL": {
+  "baslik": "GENEL BASTAKI KELIMELER — kok() ilk TOKEN'in ilk 5 harfini aliyor",
+  "mekanizma": "`ad` alani genel bir sifatla basliyorsa (Buyuk · Dogu · Kuzey · Emir · Sarki · Fransiz · Ingiliz) konu ne olursa olsun ayni kovaya duser.",
+  "ornekler": {
+   "buyuk": "gran-kolombiya [guney-amerika] ↔ zimbabve-kralligi [guney-afrika]",
+   "dog": "dogu-sumatra-sultanliklari [guneydogu-asya] ↔ yakub-beg [orta-asya]",
+   "emir": "abdulkadir [kuzey-afrika] ↔ fetret-suleyman [balkanlar]",
+   "kuzey": "kenya-kuzey-halklari [dogu-afrika] ↔ kuzey-yuan [dogu-asya]"
+  },
+  "_DEGERI": "Bir sayim 'kac cakisma' der; MEKANIZMA 'baska nerede olabilecegini' soyler. Kok() degismedikce bu sinif durur — ve yeni bir kunye 'Buyuk'/'Dogu' ile baslarsa KENDILIGINDEN katilir."
+ },
+
+ "🔴_GERCEKTEN_ALAKASIZ_HOMOGRAF": {
+  "_NOT": "42 'bolge farkli' ciftin cogu MESRU AILE gruplamasidir (fransa ↔ fransiz-cinhindi · ingiltere ↔ ingiliz-hindistani — metropol + somurge, gruplanmalari ISE YARAR). Asagidakiler ise GERCEKTEN alakasiz:",
+  "liste": [
+   "avustralya ↔ avusturya-cumhuriyet / habsburg   (Avustralya ↔ Avusturya — klasik karistirma cifti)",
+   "napoli ↔ fransiz-misir-seferi                  (Napoli ↔ NAPOLYON — ikisi de `napol`)",
+   "merina / merina-oncesi ↔ merini                (Madagaskar Merina ↔ Fas Merini)",
+   "transkafkasya ↔ transvaal",
+   "kri ↔ kru-grebo                                (Cree ↔ Kru)",
+   "kenya-kuzey-halklari ↔ kuzey-yuan",
+   "gran-kolombiya ↔ zimbabve-kralligi",
+   "dogu-sumatra-sultanliklari ↔ yakub-beg",
+   "abdulkadir ↔ fetret-suleyman"
+  ],
+  "yaklasik_sayi": "~9-12 cift · kesin sayi VERILMEDI cunku 'alakasiz' otomatik olcutum (bolge farki) MESRU aile gruplamalarini da yakaliyor — ayrim ELLE okumayla yapildi ve elle okuma bir SAYI degil bir LISTE uretir."
+ },
+
+ "🔴_KENDI_OLCUTUMUN_KUSURU": {
+  "ilk_test": "'ilk token biri otekini ICERMIYOR' ⇒ 54 cift",
+  "sorun": "`fetret-isa` · `fetret-mehmed` · `fetret-musa` · `fetret-suleyman` bu teste TAKILDI — cunku `ad` alanlarinin ilk kelimeleri farkli (Isa · Celebi · Musa · Emir). Oysa onlarin gruplanmasi TASARIMIN TAM ISTEDIGI sey.",
+  "ikinci_test": "+ bolge farki ⇒ 42 cift — ama bu da `fransa ↔ fransiz-cinhindi` gibi mesru metropol-somurge ciftlerini yakaliyor.",
+  "_DERS": "Iki olcut de GURULTULU cikti. Bu, ayni gun ucuncu kez: otomatik bir olcut ADAY uretir, HUKUM uretmez — ve hukmu her seferinde OKUMA verdi."
+ },
+
+ "HUKUM": "KUSUR DEGIL — TASARIM, ve tasarimin BEDELI olculdu: %9,2 kova cok uyeli, ortanca 2 aday, en buyuk 7. Alet veri YAZMIYOR ve hukum VERMIYOR. ⇒ BURADAN BIR DENETIM TURETILMEMELI; turetilse her kosuda ~58 kez oter ve 58'in cogu tasarimin kendisidir.",
+ "ONERILEN": "Hicbir sey. Yalniz KAYIT: `kok()` ilk tokenin ilk 5 harfini alir ⇒ genel bir sifatla baslayan her yeni kunye mevcut bir kovaya KENDILIGINDEN katilir. Bunu bilen bir okuyucu aday listesini dogru okur.",
+
+ "OLCMEDIGIM": [
+  "Aletin GERCEK kullaniminda (v: etiketleri → kunye adaylari) bu cakismalarin kacinin bir okuyucuyu YANILTTIGINI olcmedim — alet aday listeler, karari insan verir, ve o karari izlemedim.",
+  "`kok()`in ilk 5 harf kirpmasi disindaki eklerinin (`ligi|lik|lugu` …) yanlis kok uretip uretmedigini olcmedim."
+ ]
+}
