@@ -7821,3 +7821,58 @@ KÜME 🆕    `savas_basi` 28    →  hangi kümenin?
   `§11`in *"bilgiyi yalnız YANLIŞ OLAN taşıdı"* dersinin bir kademe
   ötesi: burada bilgiyi **çürümenin kendisi değil, çürüme sırasında
   bakılan yer** taşıdı.
+
+- 🔴🔴 **AYNI AD, TERS ANLAM — `savaslar.js`in dört kardeş kümesinde
+  `t` bir yerde BAŞLANGIÇ, bir yerde BİTİŞ.**
+  *(7 Eylül 2026 · `DEGISMEZ3-0907`)*
+```
+SEFERLER     f … t              `t` = BİTİŞ
+ANTLASMALAR  savas_basi … t     `t` = BİTİŞ
+SAVASLAR     t … bitis          `t` = BAŞLANGIÇ   🔴🔴
+SERILER      aralik (SERBEST METİN)
+DÖRT KÜMEDE DE olan alan: yalnız `ad` — `t` bile SERILER'de yok
+```
+  Aynı gün yama dosyalarında ölçülen *"12 dosya, ~50 alan adı,
+  sözleşme YOK"* bir **sözleşmesizlikti**; bu bir kademe kötü:
+  ***sözleşme var ve kendi kendiyle çelişiyor.***
+  ⇒ Dört kümeyi tek döngüde okuyan bir alet `t`yi bir yerde başlangıç
+  bir yerde bitiş sanar — ve **hata vermez, temiz bir sayı üretir.**
+  📌 `KUYRUK` vakasının (*aynı kelime iki ayrı şey*) **canlı veri**
+  yüzü, ve `§11`in *"sayıyı biliyorum ≠ neye göre olduğunu biliyorum"*
+  ailesinin **alan anlamı** ekseni.
+
+  🟢 **Ve bir «sınanamadı» hükmü tam bu yüzden çürüdü:** `SAVASLAR`da
+  aralık **vardı**, adı `bitis`ti; ölçen oturum `savas_basi` ve `f`
+  aramış, bulamamış, *"ölçüt SINANAMAZ"* demişti. Alanları dökünce
+  ölçüt ikinci katmanda da kanıtlandı (`SEFERLER` 18/18 ·
+  `SAVASLAR` 4/4).
+  ⚠️ Ve türetme tuzağı ayrıca ölçüldü: `sure` alanı bir zaman aralığı
+  **değil GÖRÜNÜRLÜK SÜRESİ** (`js/app.js:2345`) — Rodos `t→bitis`
+  66 gün, `sure:300`. Ondan aralık türetmek **sahte bir aralık**
+  üretirdi, ve sahte aralık eksik aralıktan kötüdür: denetim onu
+  **kapatır.**
+
+- 🔴 **«BİR `if` İLE SORULABİLİYOR MU» YETMİYOR — SORUYU SORACAK `if`
+  YAZILMIŞ MI?** *(7 Eylül 2026 · `SINAV-KOSU8-0907`)*
+
+  Bir yama dosyası cinsini **bir anahtar ADINDA** beyan ediyor:
+```
+KRONOLOJI-AFRIKA-0906.json
+   "🔴_BU_DOSYA_KUNYE_KRONOLOJISI_DEGIL": …
+```
+  Makine okunur, doğru yerde, ve **hiçbir aletin sözleşmesinde yok.**
+  ⇒ ***Bir yazar doğru şeyi söylemiş, kimse dinlemiyor.***
+
+  📌 Bu proje *"bir ders veriye SERBEST METİN olarak inerse inmiş
+  sayılmaz"* kuralını çok kaydetti ve sınavı tekti: *bunu bir `if` ile
+  sorabiliyor muyum?* Bu vaka sınavın **eksik ayağını** gösteriyor:
+  beyan yapılandırılmış, sorulabilir, **ve soran yok.**
+```
+① beyan MAKİNE OKUNUR bir yerde mi?     ← eski sınav
+② o beyanı OKUYAN bir alet VAR MI?      ← eksik olan
+```
+  ⚠️ ②'siz bir sözleşme, `grep`e görünür ve motora görünmez — ve bu,
+  `kid` vakasının (*alan dolu, geçerli, hiçbir alet kimlik olarak
+  kullanmıyor*) **yama dosyası** yüzü.
+  🟢 Çare bir alan adı sözleşmesi (`_HEDEF`) **ve** onu okuyan bir
+  alet; ikisi ayrı ayrı yetmez.
