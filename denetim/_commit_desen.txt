@@ -1,0 +1,43 @@
+KIMLIK-1923-0907 — ikinci acik kalem kapandi: duzeltilmis desenin isabeti
+9/10 · tek yanlis pozitif adiyla · nihai tablo DEGISMEDI
+
+RAPOR: denetim/NORM-DESEN-SINAV-0907.json
+
+YONTEM: her KOVA etiketinin KAYNAK SATIRI okundu (10 dosya).
+
+ISABET: KOVA etiketi 10 · gercek kova 9 · YANLIS POZITIF 1 ·
+        bilinen yanlis negatif 0
+  (yanlis negatif icin DIGER/KIYAS/METIN etiketli 5 dosyanin BESI DE
+   M-3241'de satir satir okunmustu — hicbiri gizli kova degildi)
+
+TEK YANLIS POZITIF — adiyla:
+  ARAC-SINIR-KAFRIKA-TDV-0907.py:72  `bul = [c for c in cs if na in norm(c)]`
+  `cs` bir TDV govdesinin CUMLELERI; bu bir ALT-DIZGI testi, kova DEGIL.
+  Sebep: duzeltilmis desendeki `if X in Y` kalibi Ⓐ (iki satira yayilmis
+  kova) icin eklenmisti ve FAZLA GENIS dustu.
+  📌 DERS: bir kor noktayi kapatmak icin eklenen kalip, KAPATTIGINDAN
+    BASKA BIR YERDE acilir.
+
+9 GERCEK KOVANIN ANAHTAR ALANI:
+  KUNYE ya da ELLE YAZILMIS TABLO : 7
+     KENAR-KIMLIK · SINIR-ARAP-NAMETR · VASSAL-ESLEME · VASSAL-KUNYE ·
+     VASSAL-KUNYE-0906b · VASSAL-PENCERE · VASSAL-YAMA-URET
+  YERLESIM adi                    : 2
+     DEGISMEZ3-KORNOKTA · FAZ2-CUKUROVA
+
+NIHAI TABLO DEGISMEDI: Kudus/Kudus cifti YERLESIMDIR ⇒ 7 kunye-anahtarli
+  alete YAPISAL OLARAK giremez. Kalan 2 icin cakisma yolu bugun
+  ULASILMIYOR (M-3239) — ama TESADUFEN, tasarimdan degil.
+
+DERS: Iki acik kalem de ayni sonuca vardi — OTOMATIK OLCUT ADAY URETIR,
+  HUKUM URETMEZ. Ⓐ'da olcut TASARIMI kusur sandi (kok() kabaligi);
+  Ⓑ'de olcut bir alt-dizgi testini kova sandi. Hukmu her ikisinde de
+  KAYNAK SATIRINI OKUMAK verdi, ve nihai sayilar hicbir zaman desenden
+  gelmedi.
+
+OLCMEDIGIM: `ALAKASIZ` etiketli 3 dosya (SINIR-BALKAN-KIMLIK.js ·
+  SINAV-BIRLESTIR.py · ENKLAV-ACIK-KALEM.js) ikinci desenle YENIDEN
+  sinanmadi — birinci taramada "ortak norm DEGIL" diye elenmislerdi ve
+  o eleme dogruydu.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>

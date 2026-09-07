@@ -1,0 +1,42 @@
+{
+ "_NOT": "NORM-DESEN-SINAV-0907 — KIMLIK-1923-0907'nin IKINCI acik kalemi (M-3241 Ⓑ): duzeltilmis siniflandirici oteki dosyalarda YANLIS POZITIF uretiyor mu? Yontem: her KOVA etiketinin kaynak satiri OKUNDU.",
+
+ "duzeltilmis_siniflandiricinin_ISABETI": {
+  "KOVA_etiketi": 10,
+  "🟢_gercek_kova": 9,
+  "🔴_yanlis_pozitif": 1,
+  "🟢_bilinen_yanlis_negatif": 0,
+  "_NOT": "Yanlis negatif icin DIGER/KIYAS/METIN etiketli 5 dosyanin BESI DE satir satir okundu (M-3241) — hicbiri gizli kova degildi."
+ },
+
+ "dogrulanan_9_kova": {
+  "ARAC-DEGISMEZ3-KORNOKTA-0907.py": {"anahtar": "YERLESIM adi", "sekil": "nix.setdefault(norm(y['ad']), [])"},
+  "ARAC-FAZ2-CUKUROVA-0906.py": {"anahtar": "YERLESIM adi", "sekil": "ix.setdefault(norm(z['ad']), [])"},
+  "ARAC-KENAR-KIMLIK-0907.py": {"anahtar": "KUNYE id/ad/harita", "sekil": "IKI SATIR: n = norm(anahtar) ; ix.setdefault(n, d['id'])"},
+  "ARAC-SINIR-ARAP-NAMETR-0907.js": {"anahtar": "KUNYE ad/id/harita", "sekil": "new Map() · adIdx.set(n, []) · push — BIRIKTIRIR, ezmez"},
+  "ARAC-VASSAL-ESLEME-0906.py": {"anahtar": "KUNYE adi", "sekil": "ad_ix.setdefault(norm(ad), [])"},
+  "ARAC-VASSAL-KUNYE-0906.py": {"anahtar": "KUNYE id/ad/harita", "sekil": "kn.setdefault(norm(v), set())"},
+  "ARAC-VASSAL-KUNYE-0906b.py": {"anahtar": "KUNYE, KABA (kok(norm(v).split()[0]))", "sekil": "dizin.setdefault(kok(tok[0]), set())", "ayri_olcum": "KOK-CAKISMA-0907.json"},
+  "ARAC-VASSAL-PENCERE-0906.py": {"anahtar": "ELLE YAZILMIS tablo (ESLEME)", "sekil": "{norm(k): v for k, v in ESLEME.items()}"},
+  "ARAC-VASSAL-YAMA-URET-0906.py": {"anahtar": "ELLE YAZILMIS tablo (TAM)", "sekil": "{norm(k): v for k, v in TAM.items()}"}
+ },
+
+ "🔴_TEK_YANLIS_POZITIF": {
+  "dosya": "ARAC-SINIR-KAFRIKA-TDV-0907.py",
+  "satir": "72  bul = [c for c in cs if na in norm(c)]",
+  "gercek": "`cs` bir TDV govdesinin CUMLELERI; `na in norm(c)` bir ALT-DIZGI testi. KOVA DEGIL.",
+  "sebep": "Duzeltilmis desendeki `if X in Y` kalibi (X norm-turevli) bunu kova lookup'i sandi. Kalip Ⓐ (iki satira yayilmis kova) icin eklenmisti ve fazla genis dustu.",
+  "_DERS": "Bir kor noktayi kapatmak icin eklenen kalip, KAPATTIGINDAN BASKA BIR YERDE acilir."
+ },
+
+ "🟢_NIHAI_TABLO_DEGISMEDI": {
+  "kova_anahtari_KUNYE_ya_da_TABLO": 7,
+  "kova_anahtari_YERLESIM": 2,
+  "bugun_atesleyen": 0,
+  "_NOT": "Kudus/Kudus cifti YERLESIMDIR ⇒ 7 kunye-anahtarli alete YAPISAL OLARAK giremez. Kalan 2 icin cakisma yolu bugun ULASILMIYOR (M-3239) — ama TESADUFEN, tasarimdan degil."
+ },
+
+ "_DERS": "Iki acik kalemin ikisi de ayni sonuca vardi: OTOMATIK OLCUT ADAY URETIR, HUKUM URETMEZ. Ⓐ'da olcut TASARIMI kusur sandi; Ⓑ'de olcut bir alt-dizgi testini kova sandi. Hukmu her ikisinde de KAYNAK SATIRINI OKUMAK verdi — ve nihai sayilar hicbir zaman desenden gelmedi.",
+
+ "OLCMEDIGIM": "Duzeltilmis desenin `ALAKASIZ` etiketledigi 3 dosyayi (SINIR-BALKAN-KIMLIK.js · SINAV-BIRLESTIR.py · ENKLAV-ACIK-KALEM.js) yeniden okumadim — birinci taramada `ortak norm DEGIL` diye elenmislerdi ve o eleme dogruydu, ama ikinci desenle YENIDEN sinanmadilar."
+}
