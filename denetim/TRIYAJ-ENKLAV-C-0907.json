@@ -1,0 +1,329 @@
+{
+ "_NOT": "ENKLAV-0907 · `Değişmez 7` C-hakiki kovasının ARADAKİ ALAN triyajı. Bu bir HÜKÜM listesi DEĞİL, bir ADAY listesidir — hangi SORUNUN sorulacağını söyler, cevabı değil.",
+ "_OLCUT": {
+  "ARADA-YABANCI": "ada ile ANA GÖVDE arasında BAŞKA BİR KİMLİK var. 🔴 BU BİR HÜKÜM DEĞİL, KALINTI KOVADIR — alet aradakinin GERÇEKTEN başka bir devlet mi olduğunu SORAMAZ. C-hakiki sınavında bu kovanın 12 kaydının 9'u hakiki enklav, 2'si TARİH KUSURU (Khami · Danangombe: kaydın kendisi yanlış olunca arada elbette yabancı çıkar), 1'i KİMLİK TUTARSIZLIĞI (Delgo: aradaki 27 nokta `ingiltere` — aynı kondominyumun öteki kimliği) çıktı. İsabet 9/12; alt-ayrım bir KİMLİK SÖZLÜĞÜ ister (ingiltere ↔ ingiliz-sudani ↔ ingiliz-hindistani) ve o sözlük YOK.",
+  "NOKTASIZLIK": "arada HİÇ nokta yok ⇒ §2 vakası ⇒ çare NOKTA EKLEMEK, `enklav:true` YANLIŞ olur",
+  "KORİDOR-ADAY": "arada sahipsiz ya da aynı kimlik ⇒ koridor mümkün, dönem yazılmamış ⇒ KAYNAĞA sorulur",
+  "GÖVDESİZ": "o gün o kimliği taşıyan BAŞKA nokta YOK"
+ },
+ "_TABAN": {
+  "toplam": 661,
+  "tavan": 660,
+  "muaf": {
+   "beyan": 52,
+   "cografi-tecrit": 4227,
+   "ada-fethi": 8,
+   "kucuk-devlet": 261,
+   "gecici-cephe": 64
+  }
+ },
+ "kova": "C-hakiki",
+ "n": 12,
+ "dagilim": {
+  "ARADA-YABANCI": 12
+ },
+ "kayitlar": [
+  {
+   "gun": "1627-01-01",
+   "yerlesim": "Gore (Gorée)",
+   "sahip": "hollanda",
+   "ada": [
+    "Gore (Gorée)"
+   ],
+   "ana_km": 4475.7,
+   "ana": "New Amsterdam (Berbice)",
+   "kova": "C-hakiki",
+   "sinif": "ARADA-YABANCI",
+   "ara": 5,
+   "yabanci": 1,
+   "komsu": {
+    "—YOK—": 4,
+    "kayor": 1
+   },
+   "en_yakin_ayni": 4476,
+   "hedef": "New Amsterdam (Berbice)"
+  },
+  {
+   "gun": "1683-01-01",
+   "yerlesim": "Khami",
+   "sahip": "ingiltere",
+   "ada": [
+    "Khami"
+   ],
+   "ana_km": 4286.1,
+   "ana": "Cape Coast",
+   "kova": "C-hakiki",
+   "sinif": "ARADA-YABANCI",
+   "ara": 138,
+   "yabanci": 42,
+   "komsu": {
+    "—YOK—": 96,
+    "kongo-kralligi": 4,
+    "portekiz": 7,
+    "lunda-imparatorlugu": 6,
+    "loango": 1,
+    "kuba": 1,
+    "luba": 1,
+    "hollanda": 2,
+    "banda-gbaya": 2,
+    "bamum": 1,
+    "nijer-deltasi": 2,
+    "tio": 2,
+    "matamba": 1,
+    "kasance": 1,
+    "kaonde-ila": 2,
+    "lozi": 7,
+    "ovambo": 2
+   },
+   "en_yakin_ayni": 4286,
+   "hedef": "Cape Coast"
+  },
+  {
+   "gun": "1444-01-01",
+   "yerlesim": "Gore (Gorée)",
+   "sahip": "portekiz",
+   "ada": [
+    "Gore (Gorée)"
+   ],
+   "ana_km": 2639.8,
+   "ana": "Lagos (Algarve)",
+   "kova": "C-hakiki",
+   "sinif": "ARADA-YABANCI",
+   "ara": 30,
+   "yabanci": 14,
+   "komsu": {
+    "merini": 10,
+    "portekiz": 1,
+    "—YOK—": 15,
+    "valo": 1,
+    "colof": 1,
+    "sine-salum": 2
+   },
+   "en_yakin_ayni": 2640,
+   "hedef": "Lagos (Algarve)"
+  },
+  {
+   "gun": "1583-01-01",
+   "yerlesim": "Massangano",
+   "sahip": "portekiz",
+   "ada": [
+    "Luanda",
+    "Massangano"
+   ],
+   "ana_km": 2225.5,
+   "ana": "Tete",
+   "kova": "C-hakiki",
+   "sinif": "ARADA-YABANCI",
+   "ara": 46,
+   "yabanci": 6,
+   "komsu": {
+    "ndongo": 1,
+    "portekiz": 1,
+    "—YOK—": 39,
+    "fipa-nyakyusa": 1,
+    "matamba": 1,
+    "kaonde-ila": 2,
+    "maravi": 1
+   },
+   "en_yakin_ayni": 2225,
+   "hedef": "Tete"
+  },
+  {
+   "gun": "1604-01-01",
+   "yerlesim": "Kambambe (Cambambe)",
+   "sahip": "portekiz",
+   "ada": [
+    "Kambambe (Cambambe)",
+    "Luanda",
+    "Massangano"
+   ],
+   "ana_km": 2188.4,
+   "ana": "Tete",
+   "kova": "C-hakiki",
+   "sinif": "ARADA-YABANCI",
+   "ara": 43,
+   "yabanci": 14,
+   "komsu": {
+    "ndongo": 1,
+    "fipa-nyakyusa": 1,
+    "matamba": 1,
+    "—YOK—": 28,
+    "portekiz": 1,
+    "ngonde": 1,
+    "kaonde-ila": 2,
+    "lozi": 6,
+    "maravi": 1,
+    "ovambo": 1
+   },
+   "en_yakin_ayni": 2188,
+   "hedef": "Tete"
+  },
+  {
+   "gun": "1816-12-04",
+   "yerlesim": "Çandernagor",
+   "sahip": "fransa-cumhuriyet",
+   "ada": [
+    "Çandernagor"
+   ],
+   "ana_km": 1513.9,
+   "ana": "Pondişeri",
+   "kova": "C-hakiki",
+   "sinif": "ARADA-YABANCI",
+   "ara": 16,
+   "yabanci": 16,
+   "komsu": {
+    "maratha": 2,
+    "ingiliz-hindistani": 12,
+    "haydarabad-nizam": 1,
+    "danimarka": 1
+   },
+   "en_yakin_ayni": 1514,
+   "hedef": "Pondişeri"
+  },
+  {
+   "gun": "1816-12-04",
+   "yerlesim": "Pondişeri",
+   "sahip": "fransa-cumhuriyet",
+   "ada": [
+    "Pondişeri"
+   ],
+   "ana_km": 1513.9,
+   "ana": "Çandernagor",
+   "kova": "C-hakiki",
+   "sinif": "ARADA-YABANCI",
+   "ara": 16,
+   "yabanci": 16,
+   "komsu": {
+    "maratha": 2,
+    "ingiliz-hindistani": 12,
+    "haydarabad-nizam": 1,
+    "danimarka": 1
+   },
+   "en_yakin_ayni": 1514,
+   "hedef": "Çandernagor"
+  },
+  {
+   "gun": "1834-01-01",
+   "yerlesim": "Danangombe (Rozvi)",
+   "sahip": "ingiltere",
+   "ada": [
+    "Danangombe (Rozvi)",
+    "Khami"
+   ],
+   "ana_km": 1154.0,
+   "ana": "Durban",
+   "kova": "C-hakiki",
+   "sinif": "ARADA-YABANCI",
+   "ara": 16,
+   "yabanci": 6,
+   "komsu": {
+    "—YOK—": 9,
+    "zulu-kralligi": 2,
+    "ingiltere": 1,
+    "venda": 2,
+    "pedi": 1,
+    "svazi": 1
+   },
+   "en_yakin_ayni": 1154,
+   "hedef": "Durban"
+  },
+  {
+   "gun": "1625-01-01",
+   "yerlesim": "Pemaquid",
+   "sahip": "ingiltere",
+   "ada": [
+    "Pemaquid",
+    "Plymouth (Massachusetts)",
+    "Portsmouth (New Hampshire)"
+   ],
+   "ana_km": 963.1,
+   "ana": "Jamestown",
+   "kova": "C-hakiki",
+   "sinif": "ARADA-YABANCI",
+   "ara": 19,
+   "yabanci": 9,
+   "komsu": {
+    "haudenosaunee": 5,
+    "powhatan": 1,
+    "hollanda": 2,
+    "ingiltere": 2,
+    "—YOK—": 8,
+    "abenaki": 1
+   },
+   "en_yakin_ayni": 963,
+   "hedef": "Jamestown"
+  },
+  {
+   "gun": "1899-01-19",
+   "yerlesim": "Delgo (Sükkût)",
+   "sahip": "ingiliz-sudani",
+   "ada": [
+    "Abrî (Mahas)",
+    "Delgo (Sükkût)"
+   ],
+   "ana_km": 961.5,
+   "ana": "Er-Renk",
+   "kova": "C-hakiki",
+   "sinif": "ARADA-YABANCI",
+   "ara": 31,
+   "yabanci": 27,
+   "komsu": {
+    "ingiltere": 27,
+    "—YOK—": 2,
+    "ingiliz-sudani": 2
+   },
+   "en_yakin_ayni": 961,
+   "hedef": "Er-Renk"
+  },
+  {
+   "gun": "1632-01-01",
+   "yerlesim": "Falmouth (Portland, Maine)",
+   "sahip": "ingiltere",
+   "ada": [
+    "Boston (Massachusetts)",
+    "Falmouth (Portland, Maine)",
+    "Pemaquid",
+    "Plymouth (Massachusetts)",
+    "Portsmouth (New Hampshire)"
+   ],
+   "ana_km": 905.7,
+   "ana": "Jamestown",
+   "kova": "C-hakiki",
+   "sinif": "ARADA-YABANCI",
+   "ara": 18,
+   "yabanci": 8,
+   "komsu": {
+    "haudenosaunee": 5,
+    "powhatan": 1,
+    "hollanda": 2,
+    "ingiltere": 4,
+    "—YOK—": 6
+   },
+   "en_yakin_ayni": 906,
+   "hedef": "Jamestown"
+  },
+  {
+   "gun": "1623-01-01",
+   "yerlesim": "Portsmouth (New Hampshire)",
+   "sahip": "ingiltere",
+   "ada": [
+    "Plymouth (Massachusetts)",
+    "Portsmouth (New Hampshire)"
+   ],
+   "ana_km": 829.3,
+   "ana": "Jamestown",
+   "kova": "C-hakiki",
+   "sinif": "ARADA-YABANCI",
+   "ara": 16,
+   "yabanci": 6,
+   "komsu": {
+    "haudenosaunee": 5,
+    "powhatan": 1,
+    "—YOK—": 9,
+    "ingiltere": 1
+   },
+   "en_yakin_ayni": 829,
+   "hedef": "Jamestown"
+  }
+ ]
+}

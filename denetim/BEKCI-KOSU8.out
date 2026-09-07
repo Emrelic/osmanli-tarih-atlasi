@@ -1,0 +1,16 @@
+[11:18:33] NÖBET 2 BAÞLADI · tetik = PID 9024'in ÇIKIÞI (donemler.js DEÐÝL)
+[11:18:33]    donemler.js 07:10 31.0MB · devletler_harita.js 07:10 53.4MB · bolgeler.js 15:38 0.3MB · petek_govde.js 07:10 6.2MB · altlik.js 07:14 10.5MB
+Traceback (most recent call last):
+  File "C:\Users\emrem\OneDrive\Desktop\TARÝH COÐRAFYA SÝTESÝ\arac\_bekci_kosu7b_cikis.py", line 88, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "C:\Users\emrem\OneDrive\Desktop\TARÝH COÐRAFYA SÝTESÝ\arac\_bekci_kosu7b_cikis.py", line 84, in main
+    yaz("\u23f3 süreç HÂLÂ CANLI · %.0f dk · %s" % (gecen / 60, damgalar()))
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\emrem\OneDrive\Desktop\TARÝH COÐRAFYA SÝTESÝ\arac\_bekci_kosu7b_cikis.py", line 37, in yaz
+    print(m, flush=True)
+    ~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\emrem\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1254.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u23f3' in position 11: character maps to <undefined>

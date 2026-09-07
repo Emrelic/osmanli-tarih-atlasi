@@ -1,0 +1,2749 @@
+{
+ "_NOT": "ARAC-KENAR-OLC-0907 · NE ülke poligonu ortak kenar ölçümü",
+ "ulke": 258,
+ "toplam_tepe": 548471,
+ "aday_cift": 1182,
+ "kenar_cift": 342,
+ "yalniz_nokta_cift": 2,
+ "ortusen_cift": 0,
+ "ortak_tepesi_olan": 342,
+ "ortak_tepesi_olmayan": 0,
+ "kenarlar": [
+  {
+   "a": "United States of America",
+   "b": "Canada",
+   "uzunluk_derece": 94.03706671636782,
+   "ortak_tepe": 1172,
+   "tepe_a": 35634,
+   "tepe_b": 67780
+  },
+  {
+   "a": "Kazakhstan",
+   "b": "Russia",
+   "uzunluk_derece": 80.64779378024927,
+   "ortak_tepe": 2048,
+   "tepe_a": 4204,
+   "tepe_b": 36542
+  },
+  {
+   "a": "Chile",
+   "b": "Argentina",
+   "uzunluk_derece": 50.120791588627455,
+   "ortak_tepe": 1479,
+   "tepe_a": 17034,
+   "tepe_b": 4666
+  },
+  {
+   "a": "China",
+   "b": "Mongolia",
+   "uzunluk_derece": 49.68667655881026,
+   "ortak_tepe": 789,
+   "tepe_a": 14048,
+   "tepe_b": 1493
+  },
+  {
+   "a": "China",
+   "b": "Russia",
+   "uzunluk_derece": 40.98643599401905,
+   "ortak_tepe": 1371,
+   "tepe_a": 14048,
+   "tepe_b": 36542
+  },
+  {
+   "a": "Mongolia",
+   "b": "Russia",
+   "uzunluk_derece": 36.03740301191734,
+   "ortak_tepe": 706,
+   "tepe_a": 1493,
+   "tepe_b": 36542
+  },
+  {
+   "a": "United States of America",
+   "b": "Mexico",
+   "uzunluk_derece": 26.34320562184183,
+   "ortak_tepe": 967,
+   "tepe_a": 35634,
+   "tepe_b": 7368
+  },
+  {
+   "a": "India",
+   "b": "Pakistan",
+   "uzunluk_derece": 25.894701207191435,
+   "ortak_tepe": 629,
+   "tepe_a": 7702,
+   "tepe_b": 2139
+  },
+  {
+   "a": "Bolivia",
+   "b": "Brazil",
+   "uzunluk_derece": 24.373807764690138,
+   "ortak_tepe": 833,
+   "tepe_a": 1490,
+   "tepe_b": 11078
+  },
+  {
+   "a": "Uzbekistan",
+   "b": "Kazakhstan",
+   "uzunluk_derece": 23.389158607418626,
+   "ortak_tepe": 561,
+   "tepe_a": 1662,
+   "tepe_b": 4204
+  },
+  {
+   "a": "Pakistan",
+   "b": "Afghanistan",
+   "uzunluk_derece": 22.639240750413233,
+   "ortak_tepe": 584,
+   "tepe_a": 2139,
+   "tepe_b": 1529
+  },
+  {
+   "a": "India",
+   "b": "Bangladesh",
+   "uzunluk_derece": 22.44614373532972,
+   "ortak_tepe": 941,
+   "tepe_a": 7702,
+   "tepe_b": 2258
+  },
+  {
+   "a": "India",
+   "b": "China",
+   "uzunluk_derece": 21.939846867386784,
+   "ortak_tepe": 575,
+   "tepe_a": 7702,
+   "tepe_b": 14048
+  },
+  {
+   "a": "Norway",
+   "b": "Sweden",
+   "uzunluk_derece": 21.68793928403612,
+   "ortak_tepe": 222,
+   "tepe_a": 15697,
+   "tepe_b": 4624
+  },
+  {
+   "a": "Dem. Rep. Congo",
+   "b": "Angola",
+   "uzunluk_derece": 20.854251289935675,
+   "ortak_tepe": 629,
+   "tepe_a": 2866,
+   "tepe_b": 1640
+  },
+  {
+   "a": "Mali",
+   "b": "Mauritania",
+   "uzunluk_derece": 19.96010833977237,
+   "ortak_tepe": 332,
+   "tepe_a": 1746,
+   "tepe_b": 1141
+  },
+  {
+   "a": "Ukraine",
+   "b": "Russia",
+   "uzunluk_derece": 19.711923388817787,
+   "ortak_tepe": 617,
+   "tepe_a": 2655,
+   "tepe_b": 36542
+  },
+  {
+   "a": "Colombia",
+   "b": "Venezuela",
+   "uzunluk_derece": 19.10376988347915,
+   "ortak_tepe": 628,
+   "tepe_a": 3275,
+   "tepe_b": 3172
+  },
+  {
+   "a": "Dem. Rep. Congo",
+   "b": "Zambia",
+   "uzunluk_derece": 18.520251222709867,
+   "ortak_tepe": 599,
+   "tepe_a": 2866,
+   "tepe_b": 1507
+  },
+  {
+   "a": "S. Sudan",
+   "b": "Sudan",
+   "uzunluk_derece": 17.190316010123226,
+   "ortak_tepe": 266,
+   "tepe_a": 1157,
+   "tepe_b": 1176
+  },
+  {
+   "a": "Russia",
+   "b": "Finland",
+   "uzunluk_derece": 17.182353440308688,
+   "ortak_tepe": 275,
+   "tepe_a": 36542,
+   "tepe_b": 3183
+  },
+  {
+   "a": "Uzbekistan",
+   "b": "Turkmenistan",
+   "uzunluk_derece": 17.043450265566996,
+   "ortak_tepe": 335,
+   "tepe_a": 1662,
+   "tepe_b": 1661
+  },
+  {
+   "a": "Thailand",
+   "b": "Myanmar",
+   "uzunluk_derece": 16.818863975405982,
+   "ortak_tepe": 714,
+   "tepe_a": 3297,
+   "tepe_b": 4563
+  },
+  {
+   "a": "China",
+   "b": "Kazakhstan",
+   "uzunluk_derece": 16.3936757707042,
+   "ortak_tepe": 331,
+   "tepe_a": 14048,
+   "tepe_b": 4204
+  },
+  {
+   "a": "Peru",
+   "b": "Brazil",
+   "uzunluk_derece": 16.305077283000077,
+   "ortak_tepe": 524,
+   "tepe_a": 2416,
+   "tepe_b": 11078
+  },
+  {
+   "a": "Vietnam",
+   "b": "Laos",
+   "uzunluk_derece": 16.22531512643085,
+   "ortak_tepe": 736,
+   "tepe_a": 4141,
+   "tepe_b": 1760
+  },
+  {
+   "a": "China",
+   "b": "Myanmar",
+   "uzunluk_derece": 15.988705957938283,
+   "ortak_tepe": 584,
+   "tepe_a": 14048,
+   "tepe_b": 4563
+  },
+  {
+   "a": "Argentina",
+   "b": "Paraguay",
+   "uzunluk_derece": 15.73800409421357,
+   "ortak_tepe": 639,
+   "tepe_a": 4666,
+   "tepe_b": 1138
+  },
+  {
+   "a": "South Africa",
+   "b": "Botswana",
+   "uzunluk_derece": 15.34012401231199,
+   "ortak_tepe": 516,
+   "tepe_a": 2203,
+   "tepe_b": 955
+  },
+  {
+   "a": "Morocco",
+   "b": "Algeria",
+   "uzunluk_derece": 15.266920496953684,
+   "ortak_tepe": 237,
+   "tepe_a": 1018,
+   "tepe_b": 1248
+  },
+  {
+   "a": "Congo",
+   "b": "Gabon",
+   "uzunluk_derece": 15.078311684805852,
+   "ortak_tepe": 590,
+   "tepe_a": 1344,
+   "tepe_b": 1459
+  },
+  {
+   "a": "Laos",
+   "b": "Thailand",
+   "uzunluk_derece": 14.899564066851383,
+   "ortak_tepe": 600,
+   "tepe_a": 1760,
+   "tepe_b": 3297
+  },
+  {
+   "a": "W. Sahara",
+   "b": "Mauritania",
+   "uzunluk_derece": 14.531154252427068,
+   "ortak_tepe": 136,
+   "tepe_a": 287,
+   "tepe_b": 1141
+  },
+  {
+   "a": "Brazil",
+   "b": "Venezuela",
+   "uzunluk_derece": 14.445424758082282,
+   "ortak_tepe": 367,
+   "tepe_a": 11078,
+   "tepe_b": 3172
+  },
+  {
+   "a": "Nigeria",
+   "b": "Cameroon",
+   "uzunluk_derece": 14.356428648167721,
+   "ortak_tepe": 411,
+   "tepe_a": 1769,
+   "tepe_b": 1455
+  },
+  {
+   "a": "India",
+   "b": "Nepal",
+   "uzunluk_derece": 14.303284139730275,
+   "ortak_tepe": 513,
+   "tepe_a": 7702,
+   "tepe_b": 1020
+  },
+  {
+   "a": "Indonesia",
+   "b": "Malaysia",
+   "uzunluk_derece": 13.473484240459639,
+   "ortak_tepe": 448,
+   "tepe_a": 19300,
+   "tepe_b": 2532
+  },
+  {
+   "a": "Malawi",
+   "b": "Mozambique",
+   "uzunluk_derece": 13.337533016664334,
+   "ortak_tepe": 355,
+   "tepe_a": 812,
+   "tepe_b": 2329
+  },
+  {
+   "a": "Nigeria",
+   "b": "Niger",
+   "uzunluk_derece": 13.271168144748676,
+   "ortak_tepe": 276,
+   "tepe_a": 1769,
+   "tepe_b": 1041
+  },
+  {
+   "a": "Congo",
+   "b": "Dem. Rep. Congo",
+   "uzunluk_derece": 13.256555762043362,
+   "ortak_tepe": 361,
+   "tepe_a": 1344,
+   "tepe_b": 2866
+  },
+  {
+   "a": "Dem. Rep. Congo",
+   "b": "Central African Rep.",
+   "uzunluk_derece": 13.116480713424588,
+   "ortak_tepe": 608,
+   "tepe_a": 2866,
+   "tepe_b": 1791
+  },
+  {
+   "a": "Iraq",
+   "b": "Iran",
+   "uzunluk_derece": 12.894876492684046,
+   "ortak_tepe": 506,
+   "tepe_a": 840,
+   "tepe_b": 2716
+  },
+  {
+   "a": "Morocco",
+   "b": "W. Sahara",
+   "uzunluk_derece": 12.646091872690583,
+   "ortak_tepe": 136,
+   "tepe_a": 1018,
+   "tepe_b": 287
+  },
+  {
+   "a": "Brazil",
+   "b": "Colombia",
+   "uzunluk_derece": 12.600786762639517,
+   "ortak_tepe": 303,
+   "tepe_a": 11078,
+   "tepe_b": 3275
+  },
+  {
+   "a": "Namibia",
+   "b": "Botswana",
+   "uzunluk_derece": 12.557953217388992,
+   "ortak_tepe": 247,
+   "tepe_a": 1182,
+   "tepe_b": 955
+  },
+  {
+   "a": "Namibia",
+   "b": "Angola",
+   "uzunluk_derece": 12.480923576825294,
+   "ortak_tepe": 255,
+   "tepe_a": 1182,
+   "tepe_b": 1640
+  },
+  {
+   "a": "Tajikistan",
+   "b": "Afghanistan",
+   "uzunluk_derece": 12.015637326009482,
+   "ortak_tepe": 459,
+   "tepe_a": 1254,
+   "tepe_b": 1529
+  },
+  {
+   "a": "Mali",
+   "b": "Algeria",
+   "uzunluk_derece": 11.966098821511347,
+   "ortak_tepe": 196,
+   "tepe_a": 1746,
+   "tepe_b": 1248
+  },
+  {
+   "a": "India",
+   "b": "Myanmar",
+   "uzunluk_derece": 11.920979230331689,
+   "ortak_tepe": 452,
+   "tepe_a": 7702,
+   "tepe_b": 4563
+  },
+  {
+   "a": "Sudan",
+   "b": "Chad",
+   "uzunluk_derece": 11.761952105431574,
+   "ortak_tepe": 189,
+   "tepe_a": 1176,
+   "tepe_b": 1215
+  },
+  {
+   "a": "Uzbekistan",
+   "b": "Tajikistan",
+   "uzunluk_derece": 11.669101845716613,
+   "ortak_tepe": 350,
+   "tepe_a": 1662,
+   "tepe_b": 1254
+  },
+  {
+   "a": "Peru",
+   "b": "Ecuador",
+   "uzunluk_derece": 11.647835643984426,
+   "ortak_tepe": 371,
+   "tepe_a": 2416,
+   "tepe_b": 1497
+  },
+  {
+   "a": "Norway",
+   "b": "Finland",
+   "uzunluk_derece": 11.616307889387523,
+   "ortak_tepe": 194,
+   "tepe_a": 15697,
+   "tepe_b": 3183
+  },
+  {
+   "a": "Kazakhstan",
+   "b": "Kyrgyzstan",
+   "uzunluk_derece": 11.503762211377511,
+   "ortak_tepe": 294,
+   "tepe_a": 4204,
+   "tepe_b": 1202
+  },
+  {
+   "a": "Saudi Arabia",
+   "b": "Yemen",
+   "uzunluk_derece": 11.418951544610811,
+   "ortak_tepe": 168,
+   "tepe_a": 2357,
+   "tepe_b": 1020
+  },
+  {
+   "a": "Belarus",
+   "b": "Russia",
+   "uzunluk_derece": 11.411462688781098,
+   "ortak_tepe": 397,
+   "tepe_a": 1172,
+   "tepe_b": 36542
+  },
+  {
+   "a": "Sudan",
+   "b": "Egypt",
+   "uzunluk_derece": 11.396208742185639,
+   "ortak_tepe": 115,
+   "tepe_a": 1176,
+   "tepe_b": 1923
+  },
+  {
+   "a": "Uzbekistan",
+   "b": "Kyrgyzstan",
+   "uzunluk_derece": 11.115765455841,
+   "ortak_tepe": 366,
+   "tepe_a": 1662,
+   "tepe_b": 1202
+  },
+  {
+   "a": "Mali",
+   "b": "Burkina Faso",
+   "uzunluk_derece": 11.089643732326019,
+   "ortak_tepe": 354,
+   "tepe_a": 1746,
+   "tepe_b": 1109
+  },
+  {
+   "a": "Peru",
+   "b": "Colombia",
+   "uzunluk_derece": 11.002709164009788,
+   "ortak_tepe": 441,
+   "tepe_a": 2416,
+   "tepe_b": 3275
+  },
+  {
+   "a": "Spain",
+   "b": "Portugal",
+   "uzunluk_derece": 11.00153615137295,
+   "ortak_tepe": 477,
+   "tepe_a": 2955,
+   "tepe_b": 1238
+  },
+  {
+   "a": "Zimbabwe",
+   "b": "Mozambique",
+   "uzunluk_derece": 10.98772956966882,
+   "ortak_tepe": 315,
+   "tepe_a": 765,
+   "tepe_b": 2329
+  },
+  {
+   "a": "China",
+   "b": "Nepal",
+   "uzunluk_derece": 10.809160590289276,
+   "ortak_tepe": 509,
+   "tepe_a": 14048,
+   "tepe_b": 1020
+  },
+  {
+   "a": "Ukraine",
+   "b": "Belarus",
+   "uzunluk_derece": 10.788591607987293,
+   "ortak_tepe": 366,
+   "tepe_a": 2655,
+   "tepe_b": 1172
+  },
+  {
+   "a": "China",
+   "b": "North Korea",
+   "uzunluk_derece": 10.691795685215,
+   "ortak_tepe": 495,
+   "tepe_a": 14048,
+   "tepe_b": 1772
+  },
+  {
+   "a": "Central African Rep.",
+   "b": "Chad",
+   "uzunluk_derece": 10.630103743379602,
+   "ortak_tepe": 457,
+   "tepe_a": 1791,
+   "tepe_b": 1215
+  },
+  {
+   "a": "Chad",
+   "b": "Niger",
+   "uzunluk_derece": 10.617225953453381,
+   "ortak_tepe": 231,
+   "tepe_a": 1215,
+   "tepe_b": 1041
+  },
+  {
+   "a": "Brazil",
+   "b": "Paraguay",
+   "uzunluk_derece": 10.22950040366027,
+   "ortak_tepe": 420,
+   "tepe_a": 11078,
+   "tepe_b": 1138
+  },
+  {
+   "a": "Iran",
+   "b": "Turkmenistan",
+   "uzunluk_derece": 10.032996876324374,
+   "ortak_tepe": 326,
+   "tepe_a": 2716,
+   "tepe_b": 1661
+  },
+  {
+   "a": "Libya",
+   "b": "Chad",
+   "uzunluk_derece": 10.019864940894452,
+   "ortak_tepe": 86,
+   "tepe_a": 659,
+   "tepe_b": 1215
+  },
+  {
+   "a": "Libya",
+   "b": "Egypt",
+   "uzunluk_derece": 9.987202073113965,
+   "ortak_tepe": 75,
+   "tepe_a": 659,
+   "tepe_b": 1923
+  },
+  {
+   "a": "Ukraine",
+   "b": "Moldova",
+   "uzunluk_derece": 9.898018039879013,
+   "ortak_tepe": 452,
+   "tepe_a": 2655,
+   "tepe_b": 720
+  },
+  {
+   "a": "China",
+   "b": "Vietnam",
+   "uzunluk_derece": 9.85783223928573,
+   "ortak_tepe": 425,
+   "tepe_a": 14048,
+   "tepe_b": 4141
+  },
+  {
+   "a": "Zambia",
+   "b": "Angola",
+   "uzunluk_derece": 9.84586466296291,
+   "ortak_tepe": 207,
+   "tepe_a": 1507,
+   "tepe_b": 1640
+  },
+  {
+   "a": "Guyana",
+   "b": "Brazil",
+   "uzunluk_derece": 9.737158532342413,
+   "ortak_tepe": 430,
+   "tepe_a": 1119,
+   "tepe_b": 11078
+  },
+  {
+   "a": "Argentina",
+   "b": "Brazil",
+   "uzunluk_derece": 9.36982927839702,
+   "ortak_tepe": 443,
+   "tepe_a": 4666,
+   "tepe_b": 11078
+  },
+  {
+   "a": "Chad",
+   "b": "Cameroon",
+   "uzunluk_derece": 9.297093814608573,
+   "ortak_tepe": 255,
+   "tepe_a": 1215,
+   "tepe_b": 1455
+  },
+  {
+   "a": "China",
+   "b": "Kyrgyzstan",
+   "uzunluk_derece": 9.026650124334774,
+   "ortak_tepe": 236,
+   "tepe_a": 14048,
+   "tepe_b": 1202
+  },
+  {
+   "a": "Algeria",
+   "b": "Niger",
+   "uzunluk_derece": 9.012315666347488,
+   "ortak_tepe": 102,
+   "tepe_a": 1248,
+   "tepe_b": 1041
+  },
+  {
+   "a": "Libya",
+   "b": "Algeria",
+   "uzunluk_derece": 9.001960306116935,
+   "ortak_tepe": 87,
+   "tepe_a": 659,
+   "tepe_b": 1248
+  },
+  {
+   "a": "Tajikistan",
+   "b": "Kyrgyzstan",
+   "uzunluk_derece": 8.9363624966075,
+   "ortak_tepe": 310,
+   "tepe_a": 1254,
+   "tepe_b": 1202
+  },
+  {
+   "a": "Namibia",
+   "b": "South Africa",
+   "uzunluk_derece": 8.884448979945054,
+   "ortak_tepe": 271,
+   "tepe_a": 1182,
+   "tepe_b": 2203
+  },
+  {
+   "a": "Vietnam",
+   "b": "Cambodia",
+   "uzunluk_derece": 8.79587544609025,
+   "ortak_tepe": 315,
+   "tepe_a": 4141,
+   "tepe_b": 1203
+  },
+  {
+   "a": "Tunisia",
+   "b": "Algeria",
+   "uzunluk_derece": 8.753509887880828,
+   "ortak_tepe": 158,
+   "tepe_a": 696,
+   "tepe_b": 1248
+  },
+  {
+   "a": "Croatia",
+   "b": "Bosnia and Herz.",
+   "uzunluk_derece": 8.706872386691384,
+   "ortak_tepe": 369,
+   "tepe_a": 2316,
+   "tepe_b": 615
+  },
+  {
+   "a": "Bolivia",
+   "b": "Peru",
+   "uzunluk_derece": 8.703453116823518,
+   "ortak_tepe": 222,
+   "tepe_a": 1490,
+   "tepe_b": 2416
+  },
+  {
+   "a": "Iran",
+   "b": "Afghanistan",
+   "uzunluk_derece": 8.337664687012968,
+   "ortak_tepe": 195,
+   "tepe_a": 2716,
+   "tepe_b": 1529
+  },
+  {
+   "a": "Guatemala",
+   "b": "Mexico",
+   "uzunluk_derece": 8.283581533890242,
+   "ortak_tepe": 223,
+   "tepe_a": 458,
+   "tepe_b": 7368
+  },
+  {
+   "a": "Iraq",
+   "b": "Saudi Arabia",
+   "uzunluk_derece": 8.218955021557278,
+   "ortak_tepe": 93,
+   "tepe_a": 840,
+   "tepe_b": 2357
+  },
+  {
+   "a": "Syria",
+   "b": "Turkey",
+   "uzunluk_derece": 8.212939657230038,
+   "ortak_tepe": 183,
+   "tepe_a": 590,
+   "tepe_b": 3634
+  },
+  {
+   "a": "Ethiopia",
+   "b": "Eritrea",
+   "uzunluk_derece": 8.178373995865819,
+   "ortak_tepe": 210,
+   "tepe_a": 1073,
+   "tepe_b": 1007
+  },
+  {
+   "a": "Ethiopia",
+   "b": "S. Sudan",
+   "uzunluk_derece": 7.981038098949797,
+   "ortak_tepe": 268,
+   "tepe_a": 1073,
+   "tepe_b": 1157
+  },
+  {
+   "a": "Russia",
+   "b": "Georgia",
+   "uzunluk_derece": 7.962893387354156,
+   "ortak_tepe": 189,
+   "tepe_a": 36542,
+   "tepe_b": 532
+  },
+  {
+   "a": "Azerbaijan",
+   "b": "Armenia",
+   "uzunluk_derece": 7.899498781982997,
+   "ortak_tepe": 264,
+   "tepe_a": 950,
+   "tepe_b": 430
+  },
+  {
+   "a": "Guinea",
+   "b": "Mali",
+   "uzunluk_derece": 7.79803483312144,
+   "ortak_tepe": 328,
+   "tepe_a": 1627,
+   "tepe_b": 1746
+  },
+  {
+   "a": "Iran",
+   "b": "Pakistan",
+   "uzunluk_derece": 7.771522495225837,
+   "ortak_tepe": 223,
+   "tepe_a": 2716,
+   "tepe_b": 2139
+  },
+  {
+   "a": "Ethiopia",
+   "b": "Somalia",
+   "uzunluk_derece": 7.744769634144889,
+   "ortak_tepe": 113,
+   "tepe_a": 1073,
+   "tepe_b": 667
+  },
+  {
+   "a": "Mali",
+   "b": "Niger",
+   "uzunluk_derece": 7.72247948255734,
+   "ortak_tepe": 118,
+   "tepe_a": 1746,
+   "tepe_b": 1041
+  },
+  {
+   "a": "Brazil",
+   "b": "Uruguay",
+   "uzunluk_derece": 7.722017704498522,
+   "ortak_tepe": 258,
+   "tepe_a": 11078,
+   "tepe_b": 583
+  },
+  {
+   "a": "Togo",
+   "b": "Ghana",
+   "uzunluk_derece": 7.717893927021913,
+   "ortak_tepe": 334,
+   "tepe_a": 485,
+   "tepe_b": 827
+  },
+  {
+   "a": "Chile",
+   "b": "Bolivia",
+   "uzunluk_derece": 7.631726980058744,
+   "ortak_tepe": 185,
+   "tepe_a": 17034,
+   "tepe_b": 1490
+  },
+  {
+   "a": "South Africa",
+   "b": "Lesotho",
+   "uzunluk_derece": 7.610840390263387,
+   "ortak_tepe": 323,
+   "tepe_a": 2203,
+   "tepe_b": 323
+  },
+  {
+   "a": "Germany",
+   "b": "Austria",
+   "uzunluk_derece": 7.507502384715615,
+   "ortak_tepe": 358,
+   "tepe_a": 3005,
+   "tepe_b": 1093
+  },
+  {
+   "a": "Afghanistan",
+   "b": "Turkmenistan",
+   "uzunluk_derece": 7.4380968261100735,
+   "ortak_tepe": 202,
+   "tepe_a": 1529,
+   "tepe_b": 1661
+  },
+  {
+   "a": "Saudi Arabia",
+   "b": "Jordan",
+   "uzunluk_derece": 7.302809594578415,
+   "ortak_tepe": 74,
+   "tepe_a": 2357,
+   "tepe_b": 363
+  },
+  {
+   "a": "Malawi",
+   "b": "Zambia",
+   "uzunluk_derece": 7.299693556112935,
+   "ortak_tepe": 287,
+   "tepe_a": 812,
+   "tepe_b": 1507
+  },
+  {
+   "a": "Botswana",
+   "b": "Zimbabwe",
+   "uzunluk_derece": 7.180603148991519,
+   "ortak_tepe": 195,
+   "tepe_a": 955,
+   "tepe_b": 765
+  },
+  {
+   "a": "Sweden",
+   "b": "Finland",
+   "uzunluk_derece": 7.172379722244178,
+   "ortak_tepe": 222,
+   "tepe_a": 4624,
+   "tepe_b": 3183
+  },
+  {
+   "a": "Central African Rep.",
+   "b": "Cameroon",
+   "uzunluk_derece": 7.121537255776226,
+   "ortak_tepe": 248,
+   "tepe_a": 1791,
+   "tepe_b": 1455
+  },
+  {
+   "a": "Ethiopia",
+   "b": "Kenya",
+   "uzunluk_derece": 7.106787685226961,
+   "ortak_tepe": 168,
+   "tepe_a": 1073,
+   "tepe_b": 874
+  },
+  {
+   "a": "Czechia",
+   "b": "Poland",
+   "uzunluk_derece": 7.0774667416901,
+   "ortak_tepe": 349,
+   "tepe_a": 921,
+   "tepe_b": 1331
+  },
+  {
+   "a": "Nicaragua",
+   "b": "Honduras",
+   "uzunluk_derece": 7.024474910340345,
+   "ortak_tepe": 362,
+   "tepe_a": 932,
+   "tepe_b": 1177
+  },
+  {
+   "a": "Bolivia",
+   "b": "Paraguay",
+   "uzunluk_derece": 6.905445994034423,
+   "ortak_tepe": 82,
+   "tepe_a": 1490,
+   "tepe_b": 1138
+  },
+  {
+   "a": "Ethiopia",
+   "b": "Somaliland",
+   "uzunluk_derece": 6.9037863262557995,
+   "ortak_tepe": 110,
+   "tepe_a": 1073,
+   "tepe_b": 318
+  },
+  {
+   "a": "Czechia",
+   "b": "Germany",
+   "uzunluk_derece": 6.893503266169656,
+   "ortak_tepe": 338,
+   "tepe_a": 921,
+   "tepe_b": 3005
+  },
+  {
+   "a": "Romania",
+   "b": "Bulgaria",
+   "uzunluk_derece": 6.8687867458347345,
+   "ortak_tepe": 122,
+   "tepe_a": 1197,
+   "tepe_b": 878
+  },
+  {
+   "a": "Kenya",
+   "b": "Tanzania",
+   "uzunluk_derece": 6.865805580647364,
+   "ortak_tepe": 77,
+   "tepe_a": 874,
+   "tepe_b": 1755
+  },
+  {
+   "a": "Indonesia",
+   "b": "Papua New Guinea",
+   "uzunluk_derece": 6.7695934797689405,
+   "ortak_tepe": 97,
+   "tepe_a": 19300,
+   "tepe_b": 4737
+  },
+  {
+   "a": "Kenya",
+   "b": "Uganda",
+   "uzunluk_derece": 6.735925609560987,
+   "ortak_tepe": 208,
+   "tepe_a": 874,
+   "tepe_b": 610
+  },
+  {
+   "a": "Bolivia",
+   "b": "Argentina",
+   "uzunluk_derece": 6.731568328029544,
+   "ortak_tepe": 173,
+   "tepe_a": 1490,
+   "tepe_b": 4666
+  },
+  {
+   "a": "Senegal",
+   "b": "Gambia",
+   "uzunluk_derece": 6.718036653515192,
+   "ortak_tepe": 178,
+   "tepe_a": 1377,
+   "tepe_b": 405
+  },
+  {
+   "a": "Nigeria",
+   "b": "Benin",
+   "uzunluk_derece": 6.6649707105790235,
+   "ortak_tepe": 228,
+   "tepe_a": 1769,
+   "tepe_b": 615
+  },
+  {
+   "a": "Senegal",
+   "b": "Mauritania",
+   "uzunluk_derece": 6.643411009735721,
+   "ortak_tepe": 347,
+   "tepe_a": 1377,
+   "tepe_b": 1141
+  },
+  {
+   "a": "Zambia",
+   "b": "Zimbabwe",
+   "uzunluk_derece": 6.6432966187495675,
+   "ortak_tepe": 180,
+   "tepe_a": 1507,
+   "tepe_b": 765
+  },
+  {
+   "a": "Tanzania",
+   "b": "Mozambique",
+   "uzunluk_derece": 6.616960210816884,
+   "ortak_tepe": 218,
+   "tepe_a": 1755,
+   "tepe_b": 2329
+  },
+  {
+   "a": "Dem. Rep. Congo",
+   "b": "Uganda",
+   "uzunluk_derece": 6.5633419778101745,
+   "ortak_tepe": 217,
+   "tepe_a": 2866,
+   "tepe_b": 610
+  },
+  {
+   "a": "Italy",
+   "b": "Switzerland",
+   "uzunluk_derece": 6.533377575557733,
+   "ortak_tepe": 292,
+   "tepe_a": 3330,
+   "tepe_b": 748
+  },
+  {
+   "a": "Ethiopia",
+   "b": "Sudan",
+   "uzunluk_derece": 6.470447146221166,
+   "ortak_tepe": 137,
+   "tepe_a": 1073,
+   "tepe_b": 1176
+  },
+  {
+   "a": "S. Sudan",
+   "b": "Central African Rep.",
+   "uzunluk_derece": 6.4112443341741345,
+   "ortak_tepe": 266,
+   "tepe_a": 1157,
+   "tepe_b": 1791
+  },
+  {
+   "a": "France",
+   "b": "Spain",
+   "uzunluk_derece": 6.31372277291275,
+   "ortak_tepe": 293,
+   "tepe_a": 4619,
+   "tepe_b": 2955
+  },
+  {
+   "a": "Somalia",
+   "b": "Kenya",
+   "uzunluk_derece": 6.188353630203708,
+   "ortak_tepe": 67,
+   "tepe_a": 667,
+   "tepe_b": 874
+  },
+  {
+   "a": "Azerbaijan",
+   "b": "Iran",
+   "uzunluk_derece": 6.1693888614292085,
+   "ortak_tepe": 210,
+   "tepe_a": 950,
+   "tepe_b": 2716
+  },
+  {
+   "a": "Ukraine",
+   "b": "Romania",
+   "uzunluk_derece": 6.169313578842432,
+   "ortak_tepe": 197,
+   "tepe_a": 2655,
+   "tepe_b": 1197
+  },
+  {
+   "a": "Lithuania",
+   "b": "Latvia",
+   "uzunluk_derece": 6.128606027174534,
+   "ortak_tepe": 121,
+   "tepe_a": 560,
+   "tepe_b": 542
+  },
+  {
+   "a": "Oman",
+   "b": "Saudi Arabia",
+   "uzunluk_derece": 6.109031933035931,
+   "ortak_tepe": 47,
+   "tepe_a": 1026,
+   "tepe_b": 2357
+  },
+  {
+   "a": "Cambodia",
+   "b": "Thailand",
+   "uzunluk_derece": 6.069308948299199,
+   "ortak_tepe": 246,
+   "tepe_a": 1203,
+   "tepe_b": 3297
+  },
+  {
+   "a": "Belarus",
+   "b": "Lithuania",
+   "uzunluk_derece": 6.032081108803857,
+   "ortak_tepe": 227,
+   "tepe_a": 1172,
+   "tepe_b": 560
+  },
+  {
+   "a": "Syria",
+   "b": "Iraq",
+   "uzunluk_derece": 5.941035165913889,
+   "ortak_tepe": 74,
+   "tepe_a": 590,
+   "tepe_b": 840
+  },
+  {
+   "a": "Suriname",
+   "b": "Guyana",
+   "uzunluk_derece": 5.922170304355965,
+   "ortak_tepe": 288,
+   "tepe_a": 736,
+   "tepe_b": 1119
+  },
+  {
+   "a": "Hungary",
+   "b": "Slovakia",
+   "uzunluk_derece": 5.897125070971043,
+   "ortak_tepe": 191,
+   "tepe_a": 847,
+   "tepe_b": 571
+  },
+  {
+   "a": "India",
+   "b": "Bhutan",
+   "uzunluk_derece": 5.883930133959896,
+   "ortak_tepe": 198,
+   "tepe_a": 7702,
+   "tepe_b": 326
+  },
+  {
+   "a": "Sierra Leone",
+   "b": "Guinea",
+   "uzunluk_derece": 5.697245104854071,
+   "ortak_tepe": 223,
+   "tepe_a": 693,
+   "tepe_b": 1627
+  },
+  {
+   "a": "Guyana",
+   "b": "Venezuela",
+   "uzunluk_derece": 5.629780117601259,
+   "ortak_tepe": 205,
+   "tepe_a": 1119,
+   "tepe_b": 3172
+  },
+  {
+   "a": "Benin",
+   "b": "Togo",
+   "uzunluk_derece": 5.62925656802277,
+   "ortak_tepe": 128,
+   "tepe_a": 615,
+   "tepe_b": 485
+  },
+  {
+   "a": "Germany",
+   "b": "Netherlands",
+   "uzunluk_derece": 5.537285074372772,
+   "ortak_tepe": 220,
+   "tepe_a": 3005,
+   "tepe_b": 842
+  },
+  {
+   "a": "Niger",
+   "b": "Burkina Faso",
+   "uzunluk_derece": 5.478994026132407,
+   "ortak_tepe": 168,
+   "tepe_a": 1041,
+   "tepe_b": 1109
+  },
+  {
+   "a": "Côte d'Ivoire",
+   "b": "Ghana",
+   "uzunluk_derece": 5.44825180620239,
+   "ortak_tepe": 162,
+   "tepe_a": 1597,
+   "tepe_b": 827
+  },
+  {
+   "a": "Sudan",
+   "b": "Eritrea",
+   "uzunluk_derece": 5.429434881834782,
+   "ortak_tepe": 136,
+   "tepe_a": 1176,
+   "tepe_b": 1007
+  },
+  {
+   "a": "S. Sudan",
+   "b": "Dem. Rep. Congo",
+   "uzunluk_derece": 5.395930575193107,
+   "ortak_tepe": 243,
+   "tepe_a": 1157,
+   "tepe_b": 2866
+  },
+  {
+   "a": "France",
+   "b": "Belgium",
+   "uzunluk_derece": 5.356589683349335,
+   "ortak_tepe": 249,
+   "tepe_a": 4619,
+   "tepe_b": 647
+  },
+  {
+   "a": "Oman",
+   "b": "United Arab Emirates",
+   "uzunluk_derece": 5.309156229656893,
+   "ortak_tepe": 171,
+   "tepe_a": 1026,
+   "tepe_b": 787
+  },
+  {
+   "a": "France",
+   "b": "Switzerland",
+   "uzunluk_derece": 5.1693009882644105,
+   "ortak_tepe": 240,
+   "tepe_a": 4619,
+   "tepe_b": 748
+  },
+  {
+   "a": "Liberia",
+   "b": "Côte d'Ivoire",
+   "uzunluk_derece": 5.1123309154056935,
+   "ortak_tepe": 264,
+   "tepe_a": 697,
+   "tepe_b": 1597
+  },
+  {
+   "a": "Guinea",
+   "b": "Côte d'Ivoire",
+   "uzunluk_derece": 5.090013967949602,
+   "ortak_tepe": 202,
+   "tepe_a": 1627,
+   "tepe_b": 1597
+  },
+  {
+   "a": "Romania",
+   "b": "Serbia",
+   "uzunluk_derece": 5.055414334792298,
+   "ortak_tepe": 208,
+   "tepe_a": 1197,
+   "tepe_b": 939
+  },
+  {
+   "a": "Burkina Faso",
+   "b": "Ghana",
+   "uzunluk_derece": 4.892156994007719,
+   "ortak_tepe": 180,
+   "tepe_a": 1109,
+   "tepe_b": 827
+  },
+  {
+   "a": "Slovakia",
+   "b": "Poland",
+   "uzunluk_derece": 4.869780614108883,
+   "ortak_tepe": 211,
+   "tepe_a": 571,
+   "tepe_b": 1331
+  },
+  {
+   "a": "Croatia",
+   "b": "Slovenia",
+   "uzunluk_derece": 4.741797664829184,
+   "ortak_tepe": 249,
+   "tepe_a": 2316,
+   "tepe_b": 518
+  },
+  {
+   "a": "Ecuador",
+   "b": "Colombia",
+   "uzunluk_derece": 4.690612761432594,
+   "ortak_tepe": 150,
+   "tepe_a": 1497,
+   "tepe_b": 3275
+  },
+  {
+   "a": "France",
+   "b": "Brazil",
+   "uzunluk_derece": 4.658619560196016,
+   "ortak_tepe": 181,
+   "tepe_a": 4619,
+   "tepe_b": 11078
+  },
+  {
+   "a": "Ireland",
+   "b": "United Kingdom",
+   "uzunluk_derece": 4.652605384651558,
+   "ortak_tepe": 238,
+   "tepe_a": 2387,
+   "tepe_b": 7056
+  },
+  {
+   "a": "Côte d'Ivoire",
+   "b": "Burkina Faso",
+   "uzunluk_derece": 4.635561775868831,
+   "ortak_tepe": 254,
+   "tepe_a": 1597,
+   "tepe_b": 1109
+  },
+  {
+   "a": "Ukraine",
+   "b": "Poland",
+   "uzunluk_derece": 4.624421481579116,
+   "ortak_tepe": 167,
+   "tepe_a": 2655,
+   "tepe_b": 1331
+  },
+  {
+   "a": "South Africa",
+   "b": "Mozambique",
+   "uzunluk_derece": 4.57541051702692,
+   "ortak_tepe": 60,
+   "tepe_a": 2203,
+   "tepe_b": 2329
+  },
+  {
+   "a": "Côte d'Ivoire",
+   "b": "Mali",
+   "uzunluk_derece": 4.5091763709068555,
+   "ortak_tepe": 215,
+   "tepe_a": 1597,
+   "tepe_b": 1746
+  },
+  {
+   "a": "Romania",
+   "b": "Moldova",
+   "uzunluk_derece": 4.496053434199596,
+   "ortak_tepe": 270,
+   "tepe_a": 1197,
+   "tepe_b": 720
+  },
+  {
+   "a": "Algeria",
+   "b": "Mauritania",
+   "uzunluk_derece": 4.489163263690263,
+   "ortak_tepe": 23,
+   "tepe_a": 1248,
+   "tepe_b": 1141
+  },
+  {
+   "a": "Greece",
+   "b": "Bulgaria",
+   "uzunluk_derece": 4.482885454147564,
+   "ortak_tepe": 215,
+   "tepe_a": 6022,
+   "tepe_b": 878
+  },
+  {
+   "a": "Turkey",
+   "b": "Iran",
+   "uzunluk_derece": 4.405237431036332,
+   "ortak_tepe": 203,
+   "tepe_a": 3634,
+   "tepe_b": 2716
+  },
+  {
+   "a": "Belgium",
+   "b": "Netherlands",
+   "uzunluk_derece": 4.394868546320062,
+   "ortak_tepe": 186,
+   "tepe_a": 647,
+   "tepe_b": 842
+  },
+  {
+   "a": "France",
+   "b": "Italy",
+   "uzunluk_derece": 4.370996129844695,
+   "ortak_tepe": 195,
+   "tepe_a": 4619,
+   "tepe_b": 3330
+  },
+  {
+   "a": "United Arab Emirates",
+   "b": "Saudi Arabia",
+   "uzunluk_derece": 4.363471493315414,
+   "ortak_tepe": 46,
+   "tepe_a": 787,
+   "tepe_b": 2357
+  },
+  {
+   "a": "Libya",
+   "b": "Tunisia",
+   "uzunluk_derece": 4.328934760070971,
+   "ortak_tepe": 61,
+   "tepe_a": 659,
+   "tepe_b": 696
+  },
+  {
+   "a": "Tanzania",
+   "b": "Dem. Rep. Congo",
+   "uzunluk_derece": 4.284295235968883,
+   "ortak_tepe": 40,
+   "tepe_a": 1755,
+   "tepe_b": 2866
+  },
+  {
+   "a": "Congo",
+   "b": "Cameroon",
+   "uzunluk_derece": 4.249142504309624,
+   "ortak_tepe": 167,
+   "tepe_a": 1344,
+   "tepe_b": 1455
+  },
+  {
+   "a": "Guinea",
+   "b": "Liberia",
+   "uzunluk_derece": 4.2071732424114865,
+   "ortak_tepe": 222,
+   "tepe_a": 1627,
+   "tepe_b": 697
+  },
+  {
+   "a": "Germany",
+   "b": "Poland",
+   "uzunluk_derece": 4.19560667024089,
+   "ortak_tepe": 161,
+   "tepe_a": 3005,
+   "tepe_b": 1331
+  },
+  {
+   "a": "France",
+   "b": "Germany",
+   "uzunluk_derece": 4.163835036875864,
+   "ortak_tepe": 214,
+   "tepe_a": 4619,
+   "tepe_b": 3005
+  },
+  {
+   "a": "Kazakhstan",
+   "b": "Turkmenistan",
+   "uzunluk_derece": 4.139717723830376,
+   "ortak_tepe": 48,
+   "tepe_a": 4204,
+   "tepe_b": 1661
+  },
+  {
+   "a": "Malawi",
+   "b": "Tanzania",
+   "uzunluk_derece": 4.104904486862725,
+   "ortak_tepe": 173,
+   "tepe_a": 812,
+   "tepe_b": 1755
+  },
+  {
+   "a": "China",
+   "b": "Bhutan",
+   "uzunluk_derece": 4.08403528446143,
+   "ortak_tepe": 130,
+   "tepe_a": 14048,
+   "tepe_b": 326
+  },
+  {
+   "a": "South Africa",
+   "b": "eSwatini",
+   "uzunluk_derece": 4.0769763017254865,
+   "ortak_tepe": 70,
+   "tepe_a": 2203,
+   "tepe_b": 84
+  },
+  {
+   "a": "China",
+   "b": "Tajikistan",
+   "uzunluk_derece": 4.071568723591736,
+   "ortak_tepe": 139,
+   "tepe_a": 14048,
+   "tepe_b": 1254
+  },
+  {
+   "a": "Czechia",
+   "b": "Austria",
+   "uzunluk_derece": 3.997365307460635,
+   "ortak_tepe": 168,
+   "tepe_a": 921,
+   "tepe_b": 1093
+  },
+  {
+   "a": "Austria",
+   "b": "Italy",
+   "uzunluk_derece": 3.985008275177394,
+   "ortak_tepe": 153,
+   "tepe_a": 1093,
+   "tepe_b": 3330
+  },
+  {
+   "a": "Romania",
+   "b": "Hungary",
+   "uzunluk_derece": 3.9770621667766624,
+   "ortak_tepe": 184,
+   "tepe_a": 1197,
+   "tepe_b": 847
+  },
+  {
+   "a": "Cambodia",
+   "b": "Laos",
+   "uzunluk_derece": 3.958787242608488,
+   "ortak_tepe": 201,
+   "tepe_a": 1203,
+   "tepe_b": 1760
+  },
+  {
+   "a": "S. Sudan",
+   "b": "Uganda",
+   "uzunluk_derece": 3.9304141831887165,
+   "ortak_tepe": 82,
+   "tepe_a": 1157,
+   "tepe_b": 610
+  },
+  {
+   "a": "Malaysia",
+   "b": "Thailand",
+   "uzunluk_derece": 3.913105074696062,
+   "ortak_tepe": 168,
+   "tepe_a": 2532,
+   "tepe_b": 3297
+  },
+  {
+   "a": "Zambia",
+   "b": "Mozambique",
+   "uzunluk_derece": 3.893617248892509,
+   "ortak_tepe": 57,
+   "tepe_a": 1507,
+   "tepe_b": 2329
+  },
+  {
+   "a": "Congo",
+   "b": "Central African Rep.",
+   "uzunluk_derece": 3.845868594585126,
+   "ortak_tepe": 144,
+   "tepe_a": 1344,
+   "tepe_b": 1791
+  },
+  {
+   "a": "France",
+   "b": "Suriname",
+   "uzunluk_derece": 3.7968779240381583,
+   "ortak_tepe": 146,
+   "tepe_a": 4619,
+   "tepe_b": 736
+  },
+  {
+   "a": "Israel",
+   "b": "Palestine",
+   "uzunluk_derece": 3.771476342495381,
+   "ortak_tepe": 167,
+   "tepe_a": 470,
+   "tepe_b": 232
+  },
+  {
+   "a": "Tanzania",
+   "b": "Burundi",
+   "uzunluk_derece": 3.7306054129005037,
+   "ortak_tepe": 153,
+   "tepe_a": 1755,
+   "tepe_b": 306
+  },
+  {
+   "a": "Belarus",
+   "b": "Poland",
+   "uzunluk_derece": 3.6720423025446745,
+   "ortak_tepe": 142,
+   "tepe_a": 1172,
+   "tepe_b": 1331
+  },
+  {
+   "a": "Mali",
+   "b": "Senegal",
+   "uzunluk_derece": 3.653256616342529,
+   "ortak_tepe": 210,
+   "tepe_a": 1746,
+   "tepe_b": 1377
+  },
+  {
+   "a": "Malaysia",
+   "b": "Brunei",
+   "uzunluk_derece": 3.604217796003762,
+   "ortak_tepe": 120,
+   "tepe_a": 2532,
+   "tepe_b": 154
+  },
+  {
+   "a": "Estonia",
+   "b": "Latvia",
+   "uzunluk_derece": 3.576604097597216,
+   "ortak_tepe": 123,
+   "tepe_a": 1036,
+   "tepe_b": 542
+  },
+  {
+   "a": "China",
+   "b": "Pakistan",
+   "uzunluk_derece": 3.5721685047561036,
+   "ortak_tepe": 106,
+   "tepe_a": 14048,
+   "tepe_b": 2139
+  },
+  {
+   "a": "Somalia",
+   "b": "Somaliland",
+   "uzunluk_derece": 3.5407522078987705,
+   "ortak_tepe": 34,
+   "tepe_a": 667,
+   "tepe_b": 318
+  },
+  {
+   "a": "Central African Rep.",
+   "b": "Sudan",
+   "uzunluk_derece": 3.511414231658119,
+   "ortak_tepe": 74,
+   "tepe_a": 1791,
+   "tepe_b": 1176
+  },
+  {
+   "a": "Syria",
+   "b": "Jordan",
+   "uzunluk_derece": 3.4980554917226323,
+   "ortak_tepe": 69,
+   "tepe_a": 590,
+   "tepe_b": 363
+  },
+  {
+   "a": "Libya",
+   "b": "Sudan",
+   "uzunluk_derece": 3.4952831820309664,
+   "ortak_tepe": 39,
+   "tepe_a": 659,
+   "tepe_b": 1176
+  },
+  {
+   "a": "Tanzania",
+   "b": "Uganda",
+   "uzunluk_derece": 3.473385284800069,
+   "ortak_tepe": 43,
+   "tepe_a": 1755,
+   "tepe_b": 610
+  },
+  {
+   "a": "Russia",
+   "b": "Estonia",
+   "uzunluk_derece": 3.3779420542004437,
+   "ortak_tepe": 94,
+   "tepe_a": 36542,
+   "tepe_b": 1036
+  },
+  {
+   "a": "China",
+   "b": "Laos",
+   "uzunluk_derece": 3.367345636783853,
+   "ortak_tepe": 157,
+   "tepe_a": 14048,
+   "tepe_b": 1760
+  },
+  {
+   "a": "Libya",
+   "b": "Niger",
+   "uzunluk_derece": 3.3324713196873232,
+   "ortak_tepe": 34,
+   "tepe_a": 659,
+   "tepe_b": 1041
+  },
+  {
+   "a": "Suriname",
+   "b": "Brazil",
+   "uzunluk_derece": 3.3008125445767007,
+   "ortak_tepe": 123,
+   "tepe_a": 736,
+   "tepe_b": 11078
+  },
+  {
+   "a": "Georgia",
+   "b": "Azerbaijan",
+   "uzunluk_derece": 3.2586630941670163,
+   "ortak_tepe": 100,
+   "tepe_a": 532,
+   "tepe_b": 950
+  },
+  {
+   "a": "Guinea",
+   "b": "Guinea-Bissau",
+   "uzunluk_derece": 3.196842496601487,
+   "ortak_tepe": 106,
+   "tepe_a": 1627,
+   "tepe_b": 1269
+  },
+  {
+   "a": "Russia",
+   "b": "Poland",
+   "uzunluk_derece": 3.163673844149523,
+   "ortak_tepe": 15,
+   "tepe_a": 36542,
+   "tepe_b": 1331
+  },
+  {
+   "a": "Kazakhstan",
+   "b": "Baikonur",
+   "uzunluk_derece": 3.150401698547261,
+   "ortak_tepe": 64,
+   "tepe_a": 4204,
+   "tepe_b": 64
+  },
+  {
+   "a": "Hungary",
+   "b": "Austria",
+   "uzunluk_derece": 3.0998447525159682,
+   "ortak_tepe": 162,
+   "tepe_a": 847,
+   "tepe_b": 1093
+  },
+  {
+   "a": "Senegal",
+   "b": "Guinea-Bissau",
+   "uzunluk_derece": 3.0998356323500036,
+   "ortak_tepe": 39,
+   "tepe_a": 1377,
+   "tepe_b": 1269
+  },
+  {
+   "a": "Serbia",
+   "b": "Bosnia and Herz.",
+   "uzunluk_derece": 3.09576937553666,
+   "ortak_tepe": 148,
+   "tepe_a": 939,
+   "tepe_b": 615
+  },
+  {
+   "a": "Serbia",
+   "b": "Bulgaria",
+   "uzunluk_derece": 3.0951425207345022,
+   "ortak_tepe": 177,
+   "tepe_a": 939,
+   "tepe_b": 878
+  },
+  {
+   "a": "Turkey",
+   "b": "Iraq",
+   "uzunluk_derece": 3.0663958437145413,
+   "ortak_tepe": 103,
+   "tepe_a": 3634,
+   "tepe_b": 840
+  },
+  {
+   "a": "Germany",
+   "b": "Switzerland",
+   "uzunluk_derece": 3.045827479497813,
+   "ortak_tepe": 145,
+   "tepe_a": 3005,
+   "tepe_b": 748
+  },
+  {
+   "a": "Ethiopia",
+   "b": "Djibouti",
+   "uzunluk_derece": 2.9899249698776598,
+   "ortak_tepe": 74,
+   "tepe_a": 1073,
+   "tepe_b": 208
+  },
+  {
+   "a": "Hungary",
+   "b": "Croatia",
+   "uzunluk_derece": 2.954870670731997,
+   "ortak_tepe": 148,
+   "tepe_a": 847,
+   "tepe_b": 2316
+  },
+  {
+   "a": "Russia",
+   "b": "Azerbaijan",
+   "uzunluk_derece": 2.9412332449261824,
+   "ortak_tepe": 99,
+   "tepe_a": 36542,
+   "tepe_b": 950
+  },
+  {
+   "a": "Lebanon",
+   "b": "Syria",
+   "uzunluk_derece": 2.93216534350825,
+   "ortak_tepe": 156,
+   "tepe_a": 311,
+   "tepe_b": 590
+  },
+  {
+   "a": "El Salvador",
+   "b": "Honduras",
+   "uzunluk_derece": 2.9210086987871544,
+   "ortak_tepe": 171,
+   "tepe_a": 377,
+   "tepe_b": 1177
+  },
+  {
+   "a": "Tanzania",
+   "b": "Zambia",
+   "uzunluk_derece": 2.9134902094524926,
+   "ortak_tepe": 88,
+   "tepe_a": 1755,
+   "tepe_b": 1507
+  },
+  {
+   "a": "Kosovo",
+   "b": "Serbia",
+   "uzunluk_derece": 2.896710710589527,
+   "ortak_tepe": 130,
+   "tepe_a": 270,
+   "tepe_b": 939
+  },
+  {
+   "a": "Austria",
+   "b": "Slovenia",
+   "uzunluk_derece": 2.8817032424223528,
+   "ortak_tepe": 124,
+   "tepe_a": 1093,
+   "tepe_b": 518
+  },
+  {
+   "a": "Argentina",
+   "b": "Uruguay",
+   "uzunluk_derece": 2.8214191948595,
+   "ortak_tepe": 76,
+   "tepe_a": 4666,
+   "tepe_b": 583
+  },
+  {
+   "a": "Gabon",
+   "b": "Eq. Guinea",
+   "uzunluk_derece": 2.779088058658449,
+   "ortak_tepe": 29,
+   "tepe_a": 1459,
+   "tepe_b": 248
+  },
+  {
+   "a": "S. Sudan",
+   "b": "Kenya",
+   "uzunluk_derece": 2.7685566579854677,
+   "ortak_tepe": 38,
+   "tepe_a": 1157,
+   "tepe_b": 874
+  },
+  {
+   "a": "Russia",
+   "b": "Norway",
+   "uzunluk_derece": 2.7601687131812707,
+   "ortak_tepe": 66,
+   "tepe_a": 36542,
+   "tepe_b": 15697
+  },
+  {
+   "a": "Guinea",
+   "b": "Senegal",
+   "uzunluk_derece": 2.7492474667752234,
+   "ortak_tepe": 106,
+   "tepe_a": 1627,
+   "tepe_b": 1377
+  },
+  {
+   "a": "Israel",
+   "b": "Jordan",
+   "uzunluk_derece": 2.7416480173701165,
+   "ortak_tepe": 137,
+   "tepe_a": 470,
+   "tepe_b": 363
+  },
+  {
+   "a": "Turkey",
+   "b": "Armenia",
+   "uzunluk_derece": 2.6924069018414727,
+   "ortak_tepe": 94,
+   "tepe_a": 3634,
+   "tepe_b": 430
+  },
+  {
+   "a": "Costa Rica",
+   "b": "Nicaragua",
+   "uzunluk_derece": 2.674101217717918,
+   "ortak_tepe": 106,
+   "tepe_a": 823,
+   "tepe_b": 932
+  },
+  {
+   "a": "Oman",
+   "b": "Yemen",
+   "uzunluk_derece": 2.6427032806084947,
+   "ortak_tepe": 32,
+   "tepe_a": 1026,
+   "tepe_b": 1020
+  },
+  {
+   "a": "Georgia",
+   "b": "Turkey",
+   "uzunluk_derece": 2.6023713889207127,
+   "ortak_tepe": 93,
+   "tepe_a": 532,
+   "tepe_b": 3634
+  },
+  {
+   "a": "Benin",
+   "b": "Burkina Faso",
+   "uzunluk_derece": 2.593275731972633,
+   "ortak_tepe": 139,
+   "tepe_a": 615,
+   "tepe_b": 1109
+  },
+  {
+   "a": "Costa Rica",
+   "b": "Panama",
+   "uzunluk_derece": 2.5854086276913217,
+   "ortak_tepe": 95,
+   "tepe_a": 823,
+   "tepe_b": 1984
+  },
+  {
+   "a": "Russia",
+   "b": "Latvia",
+   "uzunluk_derece": 2.5228875837572557,
+   "ortak_tepe": 75,
+   "tepe_a": 36542,
+   "tepe_b": 542
+  },
+  {
+   "a": "Lithuania",
+   "b": "Russia",
+   "uzunluk_derece": 2.5052373231310328,
+   "ortak_tepe": 82,
+   "tepe_a": 560,
+   "tepe_b": 36542
+  },
+  {
+   "a": "Serbia",
+   "b": "Croatia",
+   "uzunluk_derece": 2.4948015913794417,
+   "ortak_tepe": 134,
+   "tepe_a": 939,
+   "tepe_b": 2316
+  },
+  {
+   "a": "Colombia",
+   "b": "Panama",
+   "uzunluk_derece": 2.468369027733066,
+   "ortak_tepe": 81,
+   "tepe_a": 3275,
+   "tepe_b": 1984
+  },
+  {
+   "a": "Haiti",
+   "b": "Dominican Rep.",
+   "uzunluk_derece": 2.40438556694843,
+   "ortak_tepe": 88,
+   "tepe_a": 647,
+   "tepe_b": 577
+  },
+  {
+   "a": "Czechia",
+   "b": "Slovakia",
+   "uzunluk_derece": 2.402563760818173,
+   "ortak_tepe": 70,
+   "tepe_a": 921,
+   "tepe_b": 571
+  },
+  {
+   "a": "Burundi",
+   "b": "Rwanda",
+   "uzunluk_derece": 2.3747669705264416,
+   "ortak_tepe": 104,
+   "tepe_a": 306,
+   "tepe_b": 320
+  },
+  {
+   "a": "North Macedonia",
+   "b": "Greece",
+   "uzunluk_derece": 2.3515729200492532,
+   "ortak_tepe": 111,
+   "tepe_a": 362,
+   "tepe_b": 6022
+  },
+  {
+   "a": "Guatemala",
+   "b": "Belize",
+   "uzunluk_derece": 2.2643180915130174,
+   "ortak_tepe": 22,
+   "tepe_a": 458,
+   "tepe_b": 483
+  },
+  {
+   "a": "Cameroon",
+   "b": "Gabon",
+   "uzunluk_derece": 2.259424426762467,
+   "ortak_tepe": 82,
+   "tepe_a": 1455,
+   "tepe_b": 1459
+  },
+  {
+   "a": "Albania",
+   "b": "Greece",
+   "uzunluk_derece": 2.2509132861965346,
+   "ortak_tepe": 130,
+   "tepe_a": 553,
+   "tepe_b": 6022
+  },
+  {
+   "a": "Sierra Leone",
+   "b": "Liberia",
+   "uzunluk_derece": 2.237151781759119,
+   "ortak_tepe": 59,
+   "tepe_a": 693,
+   "tepe_b": 697
+  },
+  {
+   "a": "Saudi Arabia",
+   "b": "Kuwait",
+   "uzunluk_derece": 2.204487761160498,
+   "ortak_tepe": 30,
+   "tepe_a": 2357,
+   "tepe_b": 244
+  },
+  {
+   "a": "Turkey",
+   "b": "Bulgaria",
+   "uzunluk_derece": 2.1832559789282944,
+   "ortak_tepe": 114,
+   "tepe_a": 3634,
+   "tepe_b": 878
+  },
+  {
+   "a": "Montenegro",
+   "b": "Bosnia and Herz.",
+   "uzunluk_derece": 2.1767104181576,
+   "ortak_tepe": 95,
+   "tepe_a": 357,
+   "tepe_b": 615
+  },
+  {
+   "a": "South Korea",
+   "b": "North Korea",
+   "uzunluk_derece": 2.157933288127393,
+   "ortak_tepe": 44,
+   "tepe_a": 3007,
+   "tepe_b": 1772
+  },
+  {
+   "a": "Laos",
+   "b": "Myanmar",
+   "uzunluk_derece": 2.1350141379356993,
+   "ortak_tepe": 71,
+   "tepe_a": 1760,
+   "tepe_b": 4563
+  },
+  {
+   "a": "Benin",
+   "b": "Niger",
+   "uzunluk_derece": 2.1198264044294253,
+   "ortak_tepe": 119,
+   "tepe_a": 615,
+   "tepe_b": 1041
+  },
+  {
+   "a": "Namibia",
+   "b": "Zambia",
+   "uzunluk_derece": 2.1043965824895356,
+   "ortak_tepe": 96,
+   "tepe_a": 1182,
+   "tepe_b": 1507
+  },
+  {
+   "a": "South Africa",
+   "b": "Zimbabwe",
+   "uzunluk_derece": 2.096552902354263,
+   "ortak_tepe": 79,
+   "tepe_a": 2203,
+   "tepe_b": 765
+  },
+  {
+   "a": "Guatemala",
+   "b": "Honduras",
+   "uzunluk_derece": 2.0425158181970384,
+   "ortak_tepe": 68,
+   "tepe_a": 458,
+   "tepe_b": 1177
+  },
+  {
+   "a": "Italy",
+   "b": "Slovenia",
+   "uzunluk_derece": 2.0399307078161155,
+   "ortak_tepe": 92,
+   "tepe_a": 3330,
+   "tepe_b": 518
+  },
+  {
+   "a": "Dem. Rep. Congo",
+   "b": "Burundi",
+   "uzunluk_derece": 1.9762405026921959,
+   "ortak_tepe": 52,
+   "tepe_a": 2866,
+   "tepe_b": 306
+  },
+  {
+   "a": "Tanzania",
+   "b": "Rwanda",
+   "uzunluk_derece": 1.9566955962400996,
+   "ortak_tepe": 95,
+   "tepe_a": 1755,
+   "tepe_b": 320
+  },
+  {
+   "a": "Iraq",
+   "b": "Kuwait",
+   "uzunluk_derece": 1.953787447700761,
+   "ortak_tepe": 21,
+   "tepe_a": 840,
+   "tepe_b": 244
+  },
+  {
+   "a": "Indonesia",
+   "b": "Timor-Leste",
+   "uzunluk_derece": 1.8889394335572633,
+   "ortak_tepe": 103,
+   "tepe_a": 19300,
+   "tepe_b": 276
+  },
+  {
+   "a": "Israel",
+   "b": "Egypt",
+   "uzunluk_derece": 1.8717986620484703,
+   "ortak_tepe": 34,
+   "tepe_a": 470,
+   "tepe_b": 1923
+  },
+  {
+   "a": "Turkey",
+   "b": "Greece",
+   "uzunluk_derece": 1.8588981326311338,
+   "ortak_tepe": 104,
+   "tepe_a": 3634,
+   "tepe_b": 6022
+  },
+  {
+   "a": "Dem. Rep. Congo",
+   "b": "Rwanda",
+   "uzunluk_derece": 1.8311937810600256,
+   "ortak_tepe": 60,
+   "tepe_a": 2866,
+   "tepe_b": 320
+  },
+  {
+   "a": "Georgia",
+   "b": "Armenia",
+   "uzunluk_derece": 1.817940908360932,
+   "ortak_tepe": 65,
+   "tepe_a": 532,
+   "tepe_b": 430
+  },
+  {
+   "a": "Belarus",
+   "b": "Latvia",
+   "uzunluk_derece": 1.80923004190953,
+   "ortak_tepe": 45,
+   "tepe_a": 1172,
+   "tepe_b": 542
+  },
+  {
+   "a": "Iraq",
+   "b": "Jordan",
+   "uzunluk_derece": 1.7039754480655687,
+   "ortak_tepe": 22,
+   "tepe_a": 840,
+   "tepe_b": 363
+  },
+  {
+   "a": "Myanmar",
+   "b": "Bangladesh",
+   "uzunluk_derece": 1.6808486146575823,
+   "ortak_tepe": 47,
+   "tepe_a": 4563,
+   "tepe_b": 2258
+  },
+  {
+   "a": "Cyprus",
+   "b": "Cyprus U.N. Buffer Zone",
+   "uzunluk_derece": 1.6547751510508697,
+   "ortak_tepe": 114,
+   "tepe_a": 297,
+   "tepe_b": 219
+  },
+  {
+   "a": "Albania",
+   "b": "Montenegro",
+   "uzunluk_derece": 1.6238128861279488,
+   "ortak_tepe": 84,
+   "tepe_a": 553,
+   "tepe_b": 357
+  },
+  {
+   "a": "Cameroon",
+   "b": "Eq. Guinea",
+   "uzunluk_derece": 1.6220696613638113,
+   "ortak_tepe": 19,
+   "tepe_a": 1455,
+   "tepe_b": 248
+  },
+  {
+   "a": "Hungary",
+   "b": "Serbia",
+   "uzunluk_derece": 1.5674488809910003,
+   "ortak_tepe": 71,
+   "tepe_a": 847,
+   "tepe_b": 939
+  },
+  {
+   "a": "Congo",
+   "b": "Angola",
+   "uzunluk_derece": 1.566126513081653,
+   "ortak_tepe": 48,
+   "tepe_a": 1344,
+   "tepe_b": 1640
+  },
+  {
+   "a": "North Macedonia",
+   "b": "Albania",
+   "uzunluk_derece": 1.563758092235711,
+   "ortak_tepe": 77,
+   "tepe_a": 362,
+   "tepe_b": 553
+  },
+  {
+   "a": "Austria",
+   "b": "Switzerland",
+   "uzunluk_derece": 1.5395129422462208,
+   "ortak_tepe": 62,
+   "tepe_a": 1093,
+   "tepe_b": 748
+  },
+  {
+   "a": "Serbia",
+   "b": "Montenegro",
+   "uzunluk_derece": 1.5264835104285304,
+   "ortak_tepe": 49,
+   "tepe_a": 939,
+   "tepe_b": 357
+  },
+  {
+   "a": "Chile",
+   "b": "Peru",
+   "uzunluk_derece": 1.4961670521191077,
+   "ortak_tepe": 32,
+   "tepe_a": 17034,
+   "tepe_b": 2416
+  },
+  {
+   "a": "N. Cyprus",
+   "b": "Cyprus U.N. Buffer Zone",
+   "uzunluk_derece": 1.4913771739028188,
+   "ortak_tepe": 97,
+   "tepe_a": 200,
+   "tepe_b": 219
+  },
+  {
+   "a": "Uzbekistan",
+   "b": "Afghanistan",
+   "uzunluk_derece": 1.4591109954217778,
+   "ortak_tepe": 55,
+   "tepe_a": 1662,
+   "tepe_b": 1529
+  },
+  {
+   "a": "El Salvador",
+   "b": "Guatemala",
+   "uzunluk_derece": 1.433210013359887,
+   "ortak_tepe": 72,
+   "tepe_a": 377,
+   "tepe_b": 458
+  },
+  {
+   "a": "North Macedonia",
+   "b": "Bulgaria",
+   "uzunluk_derece": 1.4301680263191865,
+   "ortak_tepe": 80,
+   "tepe_a": 362,
+   "tepe_b": 878
+  },
+  {
+   "a": "Mexico",
+   "b": "Belize",
+   "uzunluk_derece": 1.420903439269456,
+   "ortak_tepe": 67,
+   "tepe_a": 7368,
+   "tepe_b": 483
+  },
+  {
+   "a": "North Macedonia",
+   "b": "Kosovo",
+   "uzunluk_derece": 1.4159809634121139,
+   "ortak_tepe": 69,
+   "tepe_a": 362,
+   "tepe_b": 270
+  },
+  {
+   "a": "Germany",
+   "b": "Belgium",
+   "uzunluk_derece": 1.3373896444186344,
+   "ortak_tepe": 87,
+   "tepe_a": 3005,
+   "tepe_b": 647
+  },
+  {
+   "a": "Rwanda",
+   "b": "Uganda",
+   "uzunluk_derece": 1.2519222023328935,
+   "ortak_tepe": 65,
+   "tepe_a": 320,
+   "tepe_b": 610
+  },
+  {
+   "a": "Luxembourg",
+   "b": "Belgium",
+   "uzunluk_derece": 1.2208881813556534,
+   "ortak_tepe": 101,
+   "tepe_a": 196,
+   "tepe_b": 647
+  },
+  {
+   "a": "Burkina Faso",
+   "b": "Togo",
+   "uzunluk_derece": 1.1758759935189587,
+   "ortak_tepe": 20,
+   "tepe_a": 1109,
+   "tepe_b": 485
+  },
+  {
+   "a": "Ukraine",
+   "b": "Hungary",
+   "uzunluk_derece": 1.104656420187939,
+   "ortak_tepe": 56,
+   "tepe_a": 2655,
+   "tepe_b": 847
+  },
+  {
+   "a": "Germany",
+   "b": "Luxembourg",
+   "uzunluk_derece": 1.1032461032169456,
+   "ortak_tepe": 73,
+   "tepe_a": 3005,
+   "tepe_b": 196
+  },
+  {
+   "a": "China",
+   "b": "Siachen Glacier",
+   "uzunluk_derece": 1.0932779246553002,
+   "ortak_tepe": 34,
+   "tepe_a": 14048,
+   "tepe_b": 37
+  },
+  {
+   "a": "Lithuania",
+   "b": "Poland",
+   "uzunluk_derece": 1.0653865322709208,
+   "ortak_tepe": 54,
+   "tepe_a": 560,
+   "tepe_b": 1331
+  },
+  {
+   "a": "Palestine",
+   "b": "Jordan",
+   "uzunluk_derece": 1.0345756688399919,
+   "ortak_tepe": 56,
+   "tepe_a": 232,
+   "tepe_b": 363
+  },
+  {
+   "a": "Djibouti",
+   "b": "Eritrea",
+   "uzunluk_derece": 1.0210571042979635,
+   "ortak_tepe": 23,
+   "tepe_a": 208,
+   "tepe_b": 1007
+  },
+  {
+   "a": "Mozambique",
+   "b": "eSwatini",
+   "uzunluk_derece": 0.9922058797318393,
+   "ortak_tepe": 16,
+   "tepe_a": 2329,
+   "tepe_b": 84
+  },
+  {
+   "a": "Albania",
+   "b": "Kosovo",
+   "uzunluk_derece": 0.9904404970943601,
+   "ortak_tepe": 46,
+   "tepe_a": 553,
+   "tepe_b": 270
+  },
+  {
+   "a": "Chile",
+   "b": "Southern Patagonian Ice Field",
+   "uzunluk_derece": 0.9792644633450139,
+   "ortak_tepe": 32,
+   "tepe_a": 17034,
+   "tepe_b": 39
+  },
+  {
+   "a": "Israel",
+   "b": "Lebanon",
+   "uzunluk_derece": 0.9775734272131278,
+   "ortak_tepe": 53,
+   "tepe_a": 470,
+   "tepe_b": 311
+  },
+  {
+   "a": "Egypt",
+   "b": "Bir Tawil",
+   "uzunluk_derece": 0.9030430047935087,
+   "ortak_tepe": 6,
+   "tepe_a": 1923,
+   "tepe_b": 12
+  },
+  {
+   "a": "Ukraine",
+   "b": "Slovakia",
+   "uzunluk_derece": 0.8833296108486749,
+   "ortak_tepe": 44,
+   "tepe_a": 2655,
+   "tepe_b": 571
+  },
+  {
+   "a": "China",
+   "b": "Afghanistan",
+   "uzunluk_derece": 0.8760748476118599,
+   "ortak_tepe": 40,
+   "tepe_a": 14048,
+   "tepe_b": 1529
+  },
+  {
+   "a": "North Macedonia",
+   "b": "Serbia",
+   "uzunluk_derece": 0.8576631275194647,
+   "ortak_tepe": 30,
+   "tepe_a": 362,
+   "tepe_b": 939
+  },
+  {
+   "a": "Israel",
+   "b": "Syria",
+   "uzunluk_derece": 0.8523838529561947,
+   "ortak_tepe": 32,
+   "tepe_a": 470,
+   "tepe_b": 590
+  },
+  {
+   "a": "Slovakia",
+   "b": "Austria",
+   "uzunluk_derece": 0.8505379237201436,
+   "ortak_tepe": 60,
+   "tepe_a": 571,
+   "tepe_b": 1093
+  },
+  {
+   "a": "Sudan",
+   "b": "Bir Tawil",
+   "uzunluk_derece": 0.8497906135537012,
+   "ortak_tepe": 7,
+   "tepe_a": 1176,
+   "tepe_b": 12
+  },
+  {
+   "a": "India",
+   "b": "Siachen Glacier",
+   "uzunluk_derece": 0.8442521376468205,
+   "ortak_tepe": 3,
+   "tepe_a": 7702,
+   "tepe_b": 37
+  },
+  {
+   "a": "Germany",
+   "b": "Denmark",
+   "uzunluk_derece": 0.8170893436347845,
+   "ortak_tepe": 23,
+   "tepe_a": 3005,
+   "tepe_b": 2165
+  },
+  {
+   "a": "Nigeria",
+   "b": "Chad",
+   "uzunluk_derece": 0.7755053225994012,
+   "ortak_tepe": 3,
+   "tepe_a": 1769,
+   "tepe_b": 1215
+  },
+  {
+   "a": "Argentina",
+   "b": "Southern Patagonian Ice Field",
+   "uzunluk_derece": 0.7727172254395774,
+   "ortak_tepe": 9,
+   "tepe_a": 4666,
+   "tepe_b": 39
+  },
+  {
+   "a": "Hungary",
+   "b": "Slovenia",
+   "uzunluk_derece": 0.7558584343569514,
+   "ortak_tepe": 42,
+   "tepe_a": 847,
+   "tepe_b": 518
+  },
+  {
+   "a": "France",
+   "b": "Luxembourg",
+   "uzunluk_derece": 0.6359254698891355,
+   "ortak_tepe": 25,
+   "tepe_a": 4619,
+   "tepe_b": 196
+  },
+  {
+   "a": "Kosovo",
+   "b": "Montenegro",
+   "uzunluk_derece": 0.6227824516886727,
+   "ortak_tepe": 29,
+   "tepe_a": 270,
+   "tepe_b": 357
+  },
+  {
+   "a": "Pakistan",
+   "b": "Siachen Glacier",
+   "uzunluk_derece": 0.6005995115715652,
+   "ortak_tepe": 3,
+   "tepe_a": 2139,
+   "tepe_b": 37
+  },
+  {
+   "a": "Somaliland",
+   "b": "Djibouti",
+   "uzunluk_derece": 0.5828317181260021,
+   "ortak_tepe": 3,
+   "tepe_a": 318,
+   "tepe_b": 208
+  },
+  {
+   "a": "Spain",
+   "b": "Andorra",
+   "uzunluk_derece": 0.550312273572007,
+   "ortak_tepe": 34,
+   "tepe_a": 2955,
+   "tepe_b": 50
+  },
+  {
+   "a": "Qatar",
+   "b": "Saudi Arabia",
+   "uzunluk_derece": 0.5101822054413251,
+   "ortak_tepe": 8,
+   "tepe_a": 240,
+   "tepe_b": 2357
+  },
+  {
+   "a": "France",
+   "b": "Andorra",
+   "uzunluk_derece": 0.5076428016920773,
+   "ortak_tepe": 18,
+   "tepe_a": 4619,
+   "tepe_b": 50
+  },
+  {
+   "a": "Dhekelia",
+   "b": "Cyprus",
+   "uzunluk_derece": 0.45140048598719534,
+   "ortak_tepe": 52,
+   "tepe_a": 105,
+   "tepe_b": 297
+  },
+  {
+   "a": "Cyprus",
+   "b": "Akrotiri",
+   "uzunluk_derece": 0.4459256285173003,
+   "ortak_tepe": 34,
+   "tepe_a": 297,
+   "tepe_b": 46
+  },
+  {
+   "a": "Dhekelia",
+   "b": "N. Cyprus",
+   "uzunluk_derece": 0.4441531625257856,
+   "ortak_tepe": 38,
+   "tepe_a": 105,
+   "tepe_b": 200
+  },
+  {
+   "a": "Armenia",
+   "b": "Iran",
+   "uzunluk_derece": 0.3966206470912347,
+   "ortak_tepe": 12,
+   "tepe_a": 430,
+   "tepe_b": 2716
+  },
+  {
+   "a": "W. Sahara",
+   "b": "Algeria",
+   "uzunluk_derece": 0.376023,
+   "ortak_tepe": 5,
+   "tepe_a": 287,
+   "tepe_b": 1248
+  },
+  {
+   "a": "Switzerland",
+   "b": "Liechtenstein",
+   "uzunluk_derece": 0.3383916133593438,
+   "ortak_tepe": 15,
+   "tepe_a": 748,
+   "tepe_b": 28
+  },
+  {
+   "a": "North Korea",
+   "b": "Russia",
+   "uzunluk_derece": 0.31235427941510246,
+   "ortak_tepe": 18,
+   "tepe_a": 1772,
+   "tepe_b": 36542
+  },
+  {
+   "a": "Italy",
+   "b": "San Marino",
+   "uzunluk_derece": 0.3102921457234128,
+   "ortak_tepe": 18,
+   "tepe_a": 3330,
+   "tepe_b": 18
+  },
+  {
+   "a": "Austria",
+   "b": "Liechtenstein",
+   "uzunluk_derece": 0.27698962193493243,
+   "ortak_tepe": 15,
+   "tepe_a": 1093,
+   "tepe_b": 28
+  },
+  {
+   "a": "USNB Guantanamo Bay",
+   "b": "Cuba",
+   "uzunluk_derece": 0.23286373470848623,
+   "ortak_tepe": 7,
+   "tepe_a": 42,
+   "tepe_b": 2656
+  },
+  {
+   "a": "Morocco",
+   "b": "Spain",
+   "uzunluk_derece": 0.21063202232876083,
+   "ortak_tepe": 10,
+   "tepe_a": 1018,
+   "tepe_b": 2955
+  },
+  {
+   "a": "Croatia",
+   "b": "Montenegro",
+   "uzunluk_derece": 0.17265502186310033,
+   "ortak_tepe": 11,
+   "tepe_a": 2316,
+   "tepe_b": 357
+  },
+  {
+   "a": "China",
+   "b": "Hong Kong",
+   "uzunluk_derece": 0.17204170774728886,
+   "ortak_tepe": 15,
+   "tepe_a": 14048,
+   "tepe_b": 394
+  },
+  {
+   "a": "Palestine",
+   "b": "Egypt",
+   "uzunluk_derece": 0.11410690375230617,
+   "ortak_tepe": 4,
+   "tepe_a": 232,
+   "tepe_b": 1923
+  },
+  {
+   "a": "France",
+   "b": "Monaco",
+   "uzunluk_derece": 0.10115087615596687,
+   "ortak_tepe": 7,
+   "tepe_a": 4619,
+   "tepe_b": 11
+  },
+  {
+   "a": "Dhekelia",
+   "b": "Cyprus U.N. Buffer Zone",
+   "uzunluk_derece": 0.1005153675729841,
+   "ortak_tepe": 11,
+   "tepe_a": 105,
+   "tepe_b": 219
+  },
+  {
+   "a": "St-Martin",
+   "b": "Sint Maarten",
+   "uzunluk_derece": 0.09421308414214233,
+   "ortak_tepe": 3,
+   "tepe_a": 21,
+   "tepe_b": 8
+  },
+  {
+   "a": "Azerbaijan",
+   "b": "Turkey",
+   "uzunluk_derece": 0.07225554697670653,
+   "ortak_tepe": 4,
+   "tepe_a": 950,
+   "tepe_b": 3634
+  },
+  {
+   "a": "Uruguay",
+   "b": "Brazilian I.",
+   "uzunluk_derece": 0.03975647813878943,
+   "ortak_tepe": 2,
+   "tepe_a": 583,
+   "tepe_b": 4
+  },
+  {
+   "a": "Argentina",
+   "b": "Brazilian I.",
+   "uzunluk_derece": 0.03503255330299607,
+   "ortak_tepe": 3,
+   "tepe_a": 4666,
+   "tepe_b": 4
+  },
+  {
+   "a": "Spain",
+   "b": "Gibraltar",
+   "uzunluk_derece": 0.019614003084531012,
+   "ortak_tepe": 2,
+   "tepe_a": 2955,
+   "tepe_b": 6
+  },
+  {
+   "a": "Brazil",
+   "b": "Brazilian I.",
+   "uzunluk_derece": 0.01167741157106143,
+   "ortak_tepe": 2,
+   "tepe_a": 11078,
+   "tepe_b": 4
+  },
+  {
+   "a": "Italy",
+   "b": "Vatican",
+   "uzunluk_derece": 0.004431930765121761,
+   "ortak_tepe": 6,
+   "tepe_a": 3330,
+   "tepe_b": 6
+  }
+ ]
+}

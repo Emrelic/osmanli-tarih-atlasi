@@ -1,0 +1,68 @@
+{
+  "_NOT": "KALEM ④ — `Mısır ordusu (işgal)` üç kaydı: `v:` mi `isg:` mi? ÖNERİ; `data/` DONUK (koşu 8), uygulamayı Oturum 0 yapar.",
+  "_URETIM": "2026-09-07",
+  "_OTURUM": "DORT-KALEM-0907",
+
+  "_HUKUM": "🟢 `isg:` — ve karar İKİ AYRI AYAKTAN geliyor: (a) kaynağın YÜKLEMİ, (b) atlasın KENDİ ŞEMASI. İkisi de aynı yöne çıkıyor.",
+
+  "_TABAN": {
+    "_DEVRALDIGIM": "Şartname «üç kayıtta geçiyor · 🟡 DEVRALDIM, kendi say» diyordu.",
+    "_OLCTUM": "3 — DOĞRULANDI.",
+    "kayitlar": [
+      {"yerlesim": "Kütahya", "kat": "v", "f": "1833-02-02", "t": "1833-06-30", "alanlar": ["f", "k", "statu", "t"]},
+      {"yerlesim": "Konya", "kat": "v", "f": "1832-11-21", "t": "1833-06-30", "alanlar": ["f", "k", "statu", "t"]},
+      {"yerlesim": "Karaman", "kat": "v", "f": "1832-11-21", "t": "1833-06-30", "alanlar": ["f", "k", "statu", "t"]}
+    ],
+    "_KRITIK_GOZLEM": "🔴 Değer `d:` alanında DEĞİL, **`k:` alanında** duruyor — serbest metin olarak: `\"Mısır ordusu (işgal)\"`. Yani kimlik zaten İFADE EDİLEMEMİŞ ve bir ETİKETE sıkıştırılmış. Etiketin kendisi zaten «(işgal)» diyor."
+  },
+
+  "_AYAK_1_SEMA": {
+    "_OLCUM": "Bütün veride dönem alanları sayıldı:",
+    "isg": {"f": 247, "t": 247, "d": 247, "kaynak": 152},
+    "v": {"f": 429, "t": 429, "k": 373, "statu": 421, "kid": 291, "enklav": 1},
+    "_SONUC": "🔴 `isg:` dönemlerinin **247/247'si `d:` (kimlik) taşıyor.** `v:` dönemlerinin **hiçbiri taşımıyor** — `d:` alanı `v:`de HİÇ geçmiyor.",
+    "_ANLAMI": "Şartnamenin uyarısı ölçüldü ve doğrulandı: `v:` seçilirse «Mısır» kimliği ifade EDİLEMEZ. Mevcut kayıt tam bu yüzden `k:`ye serbest metin yazmış — yani veri, şemanın eksikliğini bir ETİKETLE yamamış. `isg:` o eksikliği hiç doğurmuyor.",
+    "_KUNYE": "`misir-kavalali` künyesi **1805-07-03 → 1914-12-18** — 1832-1833 penceresini TAM KAPSIYOR 🟢 (`§3.5.0`: ardıl künyenin var olması yetmez, PENCERESİ DE TUTMALI — tutuyor)."
+  },
+
+  "_AYAK_2_KAYNAGIN_YUKLEMI": {
+    "_OLCUT": "🔴 `§11`: ölçüt kaynağın **YÜKLEMİ**dir, adı değil. Aynı aile dört kez ısırdı: *sefer · anılma · isyan · idarî devir* — dördü de tasarruf sanılan şeyler.",
+    "kaynak": {
+      "ad": "TDV İslâm Ansiklopedisi, «KAVALALI MEHMED ALİ PAŞA»",
+      "slug": "kavalali-mehmed-ali-pasa",
+      "url": "https://islamansiklopedisi.org.tr/kavalali-mehmed-ali-pasa",
+      "govde_karakter": 27321,
+      "govde_kesildi_mi": false
+    },
+    "alintilar": [
+      "Bu seri galibiyetlerden sonra Konya üzerine hareket eden İbrâhim Paşa kumandasındaki MISIR BİRLİKLERİ hiçbir mukavemetle karşılaşmadı.",
+      "Reşid Bey, Bâbıâli tarafından verilen yeni bir tâlimatnâme ile KÜTAHYA'DA BULUNAN İbrâhim Paşa'ya gönderildi (30 Mart 1833).",
+      "Mahmud, 3 Mayıs 1833 tarihinde ADANA'nın İbrâhim Paşa'ya MUHASSILLIK OLARAK VERİLMESİNE razı oldu."
+    ],
+    "_AYRISTIRMA": "🟢 Yüklemler net ve hepsi ASKERÎ MEVCUDİYET bildiriyor: «üzerine hareket eden», «Kütahya'da bulunan». Ve üçüncü alıntı ayrımı KESİNLEŞTİRİYOR: Osmanlı **Adana'yı** İbrâhim Paşa'ya *muhassıllık olarak verdi* — yani bir TASARRUF DEVRİ gerçekten oldu, ama **Adana için**, Konya/Kütahya için DEĞİL. Konya ve Kütahya işgal edildi ve boşaltıldı (veride `t: 1833-06-30`).",
+    "_SONUC": "⇒ Konya · Kütahya · Karaman'da olan şey bir **tâbiiyet değil bir İŞGAL**. `v:` yanlış kova."
+  },
+
+  "_ONERI": [
+    {"yerlesim": "Kütahya", "eski": {"kat": "v", "k": "Mısır ordusu (işgal)", "f": "1833-02-02", "t": "1833-06-30"},
+     "yeni": {"kat": "isg", "d": "misir-kavalali", "f": "1833-02-02", "t": "1833-06-30", "kaynak": "kavalali-mehmed-ali-pasa"}},
+    {"yerlesim": "Konya", "eski": {"kat": "v", "k": "Mısır ordusu (işgal)", "f": "1832-11-21", "t": "1833-06-30"},
+     "yeni": {"kat": "isg", "d": "misir-kavalali", "f": "1832-11-21", "t": "1833-06-30", "kaynak": "kavalali-mehmed-ali-pasa"}},
+    {"yerlesim": "Karaman", "eski": {"kat": "v", "k": "Mısır ordusu (işgal)", "f": "1832-11-21", "t": "1833-06-30"},
+     "yeni": {"kat": "isg", "d": "misir-kavalali", "f": "1832-11-21", "t": "1833-06-30", "kaynak": "kavalali-mehmed-ali-pasa"}}
+  ],
+
+  "_IKI_UC_OLCUMU": {
+    "_KURAL": "`§3.5.1`: bir kayma önerildiğinde İKİ UÇ DA ölçülür.",
+    "_UC_A_DEGISMEZ_1": "🟢 Sahipsizlik DOĞMAZ. Üç kaydın da `d:` (Osmanlı doğrudan) dönemi bu pencereyi ZATEN kapsıyor: Kütahya `d: 1429-02-01 → 1920-04-23`, Konya `d: 1468-01-01 → 1920-04-23`. `v:`/`isg:` bir ÖRTÜDÜR, taban sahiplik altta duruyor.",
+    "_UC_B_TARIHLER": "🟢 Tarihler DEĞİŞMİYOR ⇒ yeni kırılma günü doğmuyor, `Değişmez 2` bağlanmıyor.",
+    "_UC_C_GORUNUM": "🟡 `isg:` haritada TARALI DESENLE çiziliyor (`§1.5`: «isg: örtüsü ÜRETİLİYOR, taralı desenle»). Yani üç nokta görünüm değiştirir — bu bir KUSUR değil, önerinin AMACI: işgal, tâbiiyetten farklı görünmeli.",
+    "_UC_D_RENK": "🟢 `misir-kavalali` kimliği veride ZATEN kullanılıyor (künye + `4c` ölçümünde geçti) ⇒ rengi var, yeni renk gerekmez. `§11`in `kuba ↔ lunda` riski YOK."
+  },
+
+  "_UYGULAMA_UYARISI": {
+    "_OLCMEDIM": "⚫ `arac/_sahiplik_uygula.py`nin bir dönemi `v:`den ÇIKARIP `isg:`e TAŞIYABİLİP taşıyamadığını ÖLÇMEDİM. Alet `ALAN_RX = d·s·v·isg` ile dönem EKLİYOR; bir dönemi SİLMEK ayrı bir iştir.",
+    "_NIÇIN_ONEMLI": "🔴 Ölçmeden bir `.js` yaması yazsaydım, alet `isg:`i EKLEYİP `v:`yi BIRAKABİLİRDİ ⇒ aynı pencerede İKİ ÖRTÜ. `§11`in «alet sessizce hiçbir şey yapar / yarım yapar» ailesi. O yüzden çıktı `.js` DEĞİL, bu JSON ÖNERİSİ.",
+    "_ONERI": "Uygulama TEK ELDEN ve ELLE yapılsın; ya da önce aletin taşıma yeteneği ölçülsün."
+  }
+}

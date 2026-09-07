@@ -1,0 +1,82 @@
+{
+  "_not": "EKOKUMA-0907 — TANIMLARI ONAYLANAN 7 türden 6'sı için 1'er örnek kayıt. `teknik-bilimsel` için YENİ kayıt YOK — o türün örneği zaten data/ekokuma.js'te var (hukum-alani-mesafe). Hiçbir dosyaya UYGULANMADI, koordinatör uygulayacak. Şema data/ekokuma.js ile BİREBİR aynı: { id, tur, kisa, sebep:{b,t}, sonuc:{b,t}, bag, metin, kesinlik, zincir, olay, kaynak }.",
+  "_dogrulama": "Her kaydın TDV gövdesi WebFetch ile GERÇEKTEN okundu (HTTP koduna güvenilmedi, §4 tuzakları kontrol edildi: 3 slug canlı ve konu-doğru çıktı — ahi-evran · istanbul · gazi-osman-pasa · osman-i · osman-ii. `osmanli-devleti` VE `istanbulun-fethi` ÖLÜ SLUG (arama sayfasına düştü) — bu ikisi kullanılmadı, yerine `osmanlilar` ve `istanbul` bulundu.",
+  "_olay_dogrulamasi": "Her kaydın olay:[...] tarihleri data/olaylar*.js'de GERÇEKTEN var olan t: değerleridir — grep ile tek tek doğrulandı: 1243-07-01 (olaylar.js, Kösedağ — ahi-birlikleri-ankara kartıyla ORTAK), 1354-08-01 (aynı kart), 1453-05-29 (olaylar.js, İstanbul'un fethi), 1622-05 (olaylar.js:86, II. Osman'ın katli, kaynak zaten 'osman-ii'), 1877-07-19 ve 1877-12-10 (olaylar_ek5.js:372-373, Plevne, kaynak zaten 'plevne').",
+
+  "kayitlar": [
+    {
+      "id": "kosedag-tarihi-anlasmazlik",
+      "tur": "tartisma",
+      "kisa": "Ahilerin Ankara'yı ele geçirmesine yol açan savaşın günü bile iki farklı kaynakta iki farklı — hangisi doğru?",
+      "bag": "GÖRÜŞ A — İbn Bîbî: savaşı 1 Temmuz 1243 olarak kaydeder; bu, Selçuklu sarayına yakın, olaya daha çağdaş bir kaynaktır.",
+      "metin": "GÖRÜŞ B — İbnü'l-Adîm: aynı savaşı 3 Temmuz 1243 olarak verir; Haleb kökenli bu tarihçi olaya coğrafî olarak uzaktır ama kendi kronolojik dizisi içinde tutarlıdır.\n\nİki gün fark önemsiz görünebilir ama gösterdiği şey önemli: Kösedağ gibi imparatorluk çapında sonuçlar doğuran (Anadolu Selçuklu otoritesinin çöküşü, Moğol egemenliğinin başlaması, ahi birliklerinin şehirlerde fiilî iktidara yükselmesi) bir savaşın bile GÜNÜ, ortaçağ kaynaklarında kesinleşmiş değildir. Atlas bu iki görüşten hiçbirini 'yanlış' saymaz; ikisini de TDV'nin kendi verdiği hâliyle kaydeder — tek bir günü seçip ötekini gizlemek, kaynağın kendi belirsizliğini okuyucudan saklamak olurdu.",
+      "kesinlik": "tartismali",
+      "zincir": ["ahi-birlikleri-ankara"],
+      "olay": ["1243-07-01"],
+      "kaynak": "TDV: ahilik · ankara (ekokuma.js'in 'ahi-birlikleri-ankara' kartıyla AYNI alıntı, ORADA yalnız yan not, BURADA kartın kendisi) — AYNEN: 'Kösedağ'ın günü kaynaklarda ayrışır (İbn Bîbî 1 Temmuz, İbnü'l-Adîm 3 Temmuz 1243 der).'"
+    },
+    {
+      "id": "ahi-evran-kimdir",
+      "tur": "kimdir",
+      "kisa": "Ankara'yı bir asır yöneten hareketin adını taşıyan adam — ama TDV'nin kendisi bile ne zaman öldüğünü bilmiyor.",
+      "sebep": { "b": "Asıl adı Şeyh Nasîrüddin Mahmûd (Ahî Evran b. Abbas) olan bu Vefâî-Bâbâî dervişinin, Anadolu Selçuklu merkezî otoritesinin Kösedağ bozgunuyla çöktüğü aynı ortamda esnaf-dinî fütüvvet (ahîlik) hareketinin öncü ismi olarak öne çıkması", "t": "1243-07-01" },
+      "sonuc": { "b": "Debbağların (dericilik) pîri sayılacak kadar kalıcı bir iz bırakması — ama ölümünün TDV'nin kendi ifadesiyle 1262'de mi yoksa 1300-1317 arasında mı olduğunun hâlâ tartışmalı olması", "t": "1262-01-01" },
+      "bag": "Ahî Evran'ın hayatı, atlasın 'ahi-birlikleri-ankara' kartında anlatılan KURUMUN (ahilik) kişileşmiş hâlidir — o kart Ankara'yı bir asır yöneten YAPIYI anlatır, bu kart o yapının adını taşıyan ADAMI. TDV kaynaklı ölüm tarihi belirsizliği ('1262'de veya 1300-1317 yılları arasındaki bir tarihte') uydurulmadı; iki ucu da yazıldı, ortası seçilmedi.",
+      "metin": "Ahî Evran, fütüvvet (yiğitlik-cömertlik) geleneğinden doğan esnaf ve zanaatkâr teşkilatlanmasının Anadolu'daki öncü isimlerindendi. Kendisine bağlı ahî birlikleri, Moğol istilâsının merkezî otoriteyi zayıflattığı dönemde salt bir meslek örgütü olmaktan çıkıp şehirlerin fiilî yönetimini üstlenebiliyordu — Ankara 1354'e kadar tam olarak bu şekilde, ahî reisleri eliyle yönetildi. Ahî Evran'ın kendisi zamanla debbağ (dericilik) esnafının pîri sayıldı; adı bugün hâlâ Türkiye'de esnaf teşkilatlarının simgesel kurucusu olarak anılır.",
+      "kesinlik": "tartismali",
+      "zincir": ["ahi-birlikleri-ankara"],
+      "olay": ["1243-07-01", "1354-08-01"],
+      "kaynak": "TDV: ahi-evran — AYNEN: 'Asıl adı Şeyh Nasîrüddin Mahmûd Ahî Evran b. Abbas olup Ahî Evran (Evren) adıyla tanınır' · 'Çeşitli araştırmalarda ölümünün yahut öldürülüşünün 1262'de veya 1300-1317 yılları arasındaki bir tarihte olduğu ileri sürülmüştür.'"
+    },
+    {
+      "id": "1453-bati-tepkisi",
+      "tur": "dis-yankilar",
+      "kisa": "Papa baskı yaptı, Venedik oy verdi — ve ikisi de İstanbul'u kurtarmaya YETMEDİ.",
+      "sebep": { "b": "Bizans'ın kuşatma tehdidi karşısında Batı'dan yardım araması üzerine Papa'nın, 1452'de taç giymek için Roma'ya gelen İmparator III. Friedrich'e baskı yaparak Osmanlı padişahına sert bir ültimatom gönderttirmesi", "t": "1453-05-29" },
+      "sonuc": { "b": "Venedik Senatosu'nda şehrin savunmasına yardım oylamasının ancak yetmiş dört kabul oyuna karşı yedi ret oyuyla (ezici çoğunlukla, ama GEÇ) kabul edilmesine rağmen İstanbul'un düşmesi — Batı'nın tepkisinin hem gecikmiş hem yetersiz kalması", "t": "1453-05-29" },
+      "bag": "Bu kart 'Osmanlı ne yaptı' değil 'Batı ne yapmaya ÇALIŞTI ve neden yetmedi' sorusunu cevaplıyor — atlasın kendi ölçütü gereği (Emre: 'dış yankı Osmanlı içi sonuç değildir') Osmanlı tarafının kazanımı burada TEKRAR ANLATILMIYOR, yalnız karşı tarafın tepkisi.",
+      "metin": "Papalığın diplomatik baskısı bir orduya dönüşmedi; İmparator III. Friedrich'in Osmanlı'ya gönderdiği sert ültimatom sonuçsuz kaldı. Venedik'te ise iş daha da netti: Senato'da şehrin kendi kaderine terk edilip terk edilmeyeceği oylandı ve yalnız yedi kişi 'terk edelim' dedi, yetmiş dört kişi yardım gönderilmesini istedi — yani karar EZİCİ ÇOĞUNLUKLA yardım yönündeydi. Ama gemiler zamanında yetişmedi. Batı'nın tepkisi kayıtsızlık değildi; ARAÇSIZLIK ve GECİKMEydi — ve bu, kentin niçin düştüğünü askerî tarihten çok kadar diplomatik tarihle de açıklayan bir ayrıntıdır.",
+      "kesinlik": "kesin",
+      "zincir": [],
+      "olay": ["1453-05-29"],
+      "kaynak": "TDV: istanbul — AYNEN: 'Papa, 1452'de taç giymek için Roma'ya gelen İmparator III. Frederic'e baskı yaparak Osmanlı padişahına sert bir ültimatom gönderttiyse de Bizans'a yardım konusundaki çabaları netice vermedi.' · 'Bizans'ın kendi kaderine terkedilmesi konusu ortaya atıldığında Venedik Senatosu'ndaki oylamada yedi kabul oyu çıkmıştı; diğer yetmiş dört kişi şehrin müdafaasına yardım edilmesini istemişti.'"
+    },
+    {
+      "id": "gazi-osman-pasa-plevne",
+      "tur": "kahramanlik",
+      "kisa": "Beş ay dayandı, açlıktan çökene kadar teslim olmadı — ve düşman onu esir alırken selamladı.",
+      "sebep": { "b": "93 Harbi'nde Tuna'yı geçen Rus ordusunun İstanbul yolunu kesmek üzere Vidin'den Plevne'ye yürüyen Osman Paşa'nın kasabayı tabya ve siperlerle tahkim ederek savunmaya girişmesi", "t": "1877-07-19" },
+      "sonuc": { "b": "Beş aylık kuşatmada erzakı tükenen Osman Paşa'nın huruç (çıkış) harekâtına girişip yaralı esir düşmesi — Rus kumandanlarının onu kılıcını iade ederek selamlaması ve kendisine 'Gazi' unvanının verilmesi", "t": "1877-12-10" },
+      "bag": "Üst üste üç büyük Rus-Romen taarruzu ağır kayıplarla püskürtüldü; Çar II. Aleksandr bizzat cepheye gelmek zorunda kaldı. Plevne, 19. yüzyıl Osmanlı ordusunun en parlak savunma başarısı sayılır — düşman ordusunun bile mağlup kumandana gösterdiği saygı, kahramanlığın yalnız kazananın değil kaybedenin de tarihe geçebileceğini gösterir.",
+      "metin": "Uzun süren kuşatma sırasında mühimmat ve yiyecek sıkıntısı çeken kale müdafileri huruç hareketinde bulunmaya karar verdi. Osman Paşa yaralanıp esir düşünce şehir teslim oldu; Rus kumandanları esir aldıkları paşayı kılıcını iade ederek selamladı ve kendisine 'Gazi' unvanı verildi — bir yenilginin bu denli onurlu karşılanması, dönemin Avrupa basınında da geniş yankı buldu.",
+      "kesinlik": "kesin",
+      "zincir": [],
+      "olay": ["1877-07-19", "1877-12-10"],
+      "kaynak": "TDV: gazi-osman-pasa — AYNEN: 'Uzun süren bu kuşatma sırasında mühimmat ve yiyecek sıkıntısı çekmeye başlayan kale müdafileri huruç hareketinde bulunmaya karar verdi.' Tamamlayıcı ayrıntı (esir alınışı, unvan): data/olaylar_ek5.js kaynak:'plevne' kaydı."
+    },
+    {
+      "id": "osman-gazi-edebali-menkibesi",
+      "tur": "menkibeler",
+      "kisa": "Bir beyliği ötekilerden ayıran şey bazen ordu değil, bir şeyhle kurulan akrabalıktı.",
+      "bag": "TDV'nin KENDİ değerlendirmesi: Osman ile Şeyh Edebâli arasında kroniklerde anlatılan yakınlaşma/kutsanma hikâyesi, 'bütün Türkmen beyliklerinin hükümdarlık iddialarını ilâhî onay ve meşrulaştırmayla desteklemek için başvurduğu' bir anlatı türüdür — yani bu, tarihçilerin GERÇEK bir olay olarak değil bir MEŞRULAŞTIRMA EDEBİYATI örneği olarak okuduğu bir menkıbedir.",
+      "metin": "Osmanlı kroniklerine göre Osman Gazi'yi öteki uç beylerinden ayıran, bir Vefâî-Bâbâî tarikat halifesi olarak bölgeye gelen Şeyh Edebâli'nin yakınlığı ve mânevî desteğiydi; kroniklerde Osman'ın eşi Mal Hatun, Şeyh Edebâli'nin kızı olarak kayıtlıdır. Halk anlatısında bu ilişki zamanla efsaneleşmiş, Osman'ın hanedanının büyüyeceğini müjdeleyen bir kutsanma hikâyesine dönüşmüştür. TDV bu tür anlatıları tarihî bir gerçek olarak değil, dönemin beyliklerinin ortak bir meşruiyet dili olarak okumayı önerir: hemen her Türkmen beyliği kurucusuna benzer bir 'ermiş desteği' hikâyesi yakıştırılmıştır — Osman'ınki, hanedanının uzun ömrü sayesinde en çok hatırlananı olmuştur.",
+      "kesinlik": "rivayet",
+      "zincir": [],
+      "olay": ["1302-01-01"],
+      "kaynak": "TDV: osman-i — AYNEN: 'Onu ötekiler arasında seçkin duruma getiren özellik, rivayete göre bir Vefâî-Bâbâî tarikat halifesi olarak uca gelen Edebâli'nin yakınlık ve mânevî desteği olmuştur.' · 'Kroniklerde Mal Hatun hanımı ve Şeyh Edebâli'nin kızı olarak kayıtlıdır.' — TDV bu tür menkıbevi anlatıları Türkmen beyliklerinin ortak meşrulaştırma dili olarak yorumlar."
+    },
+    {
+      "id": "genc-osman-katli-sok",
+      "tur": "sok-haberler",
+      "kisa": "Bir padişah, kendi askerleri tarafından yakalanıp boğduruldu — Osmanlı tarihinde ilk kez.",
+      "sebep": { "b": "Hotin seferinde yeniçerilerin isteksizliğini gören II. Osman'ın (Genç Osman) orduyu ıslah etme ve başkenti Anadolu'ya taşıma tasarılarının kapıkulu ocaklarını ayaklandırması", "t": "1622-05" },
+      "sonuc": { "b": "Padişahın 20 Mayıs'ta yakalanıp aynı gün Yedikule'ye çeşitli hakaretlerle götürülmesi ve orada boğularak öldürülmesi — Osmanlı tarihinde bir padişahın kendi kulları eliyle katledildiği İLK olay", "t": "1622-05" },
+      "bag": "'Hâile-i Osmâniye' (Osman faciası) diye anılan bu olay, dönemin İstanbul'unu gerçek anlamda şoke etti: bir padişahın ölümü daha önce savaş meydanında (I. Murad) ya da şüpheli biçimde (I. Ahmed sonrası kardeş katli örnekleri) olmuştu, ama hiçbiri kendi ordusu tarafından bu kadar açık ve aşağılayıcı biçimde gerçekleşmemişti. Saray-ocak dengesini kalıcı biçimde bozdu ve yüzyıl boyunca sürecek meşruiyet tartışmalarını başlattı.",
+      "metin": "Genç Osman'ı yakalayan yeniçeriler onu konağında buldular (20 Mayıs); aynı gün öğleden sonra çeşitli hakaretlerle Yedikule'ye sevkedildi ve burada boğularak öldürüldü. Cesedi gizlice Topkapı Sarayı'na getirildi; sabahleyin kılınan cenaze namazının ardından I. Ahmed Türbesi'ne defnedildi. Bir padişahın taht dışına çıkarılıp bu şekilde öldürülmesi dönemin İstanbul kamuoyunda derin bir şok etkisi yarattı — kroniklerde olay uzun uzadıya, bir facia (hâile) dili ile anlatılır.",
+      "kesinlik": "kesin",
+      "zincir": [],
+      "olay": ["1622-05"],
+      "kaynak": "TDV: osman-ii — AYNEN: 'Ardından onun konağında olduğunu öğrendikleri II. Osman'ı yakaladılar (20 Mayıs)...aynı gün öğleden sonra Yedikule'ye yine çeşitli hakaretlerle sevkedildiğini ve burada boğularak öldürüldüğünü belirtirler.' · 'Daha sonra cesedi gizlice Topkapı Sarayı'na getirilmiş...I. Ahmed Türbesi'ne defnedilmiştir.' Tamamlayıcı: data/olaylar.js:86-87 (kaynak:'osman-ii', GERÇEKTEN aynı slug)."
+    }
+  ]
+}

@@ -1,0 +1,3911 @@
+{
+ "_NOT": "ENKLAV-0907 · `Değişmez 7` B-bilinmiyor kovasının ARADAKİ ALAN triyajı. Bu bir HÜKÜM listesi DEĞİL, bir ADAY listesidir — hangi SORUNUN sorulacağını söyler, cevabı değil.",
+ "_OLCUT": {
+  "ARADA-YABANCI": "ada ile ANA GÖVDE arasında BAŞKA BİR KİMLİK var. 🔴 BU BİR HÜKÜM DEĞİL, KALINTI KOVADIR — alet aradakinin GERÇEKTEN başka bir devlet mi olduğunu SORAMAZ. C-hakiki sınavında bu kovanın 12 kaydının 9'u hakiki enklav, 2'si TARİH KUSURU (Khami · Danangombe: kaydın kendisi yanlış olunca arada elbette yabancı çıkar), 1'i KİMLİK TUTARSIZLIĞI (Delgo: aradaki 27 nokta `ingiltere` — aynı kondominyumun öteki kimliği) çıktı. İsabet 9/12; alt-ayrım bir KİMLİK SÖZLÜĞÜ ister (ingiltere ↔ ingiliz-sudani ↔ ingiliz-hindistani) ve o sözlük YOK.",
+  "NOKTASIZLIK": "arada HİÇ nokta yok ⇒ §2 vakası ⇒ çare NOKTA EKLEMEK, `enklav:true` YANLIŞ olur",
+  "KORİDOR-ADAY": "arada sahipsiz ya da aynı kimlik ⇒ koridor mümkün, dönem yazılmamış ⇒ KAYNAĞA sorulur",
+  "GÖVDESİZ": "o gün o kimliği taşıyan BAŞKA nokta YOK"
+ },
+ "_TABAN": {
+  "toplam": 661,
+  "tavan": 660,
+  "muaf": {
+   "beyan": 52,
+   "cografi-tecrit": 4227,
+   "ada-fethi": 8,
+   "kucuk-devlet": 261,
+   "gecici-cephe": 64
+  }
+ },
+ "kova": "B-bilinmiyor",
+ "n": 166,
+ "dagilim": {
+  "ARADA-YABANCI": 147,
+  "KORİDOR-ADAY": 19
+ },
+ "kayitlar": [
+  {
+   "gun": "1510-07-25",
+   "yerlesim": "Trablus",
+   "sahip": "ispanya",
+   "ada": [
+    "Trablus"
+   ],
+   "ana_km": 792.4,
+   "ana": "Kalyari (Cagliari)",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 45,
+   "yabanci": 45,
+   "komsu": {
+    "hafsi": 41,
+    "napoli": 3,
+    "zeyyani": 1
+   },
+   "en_yakin_ayni": 792,
+   "hedef": "Kalyari (Cagliari)"
+  },
+  {
+   "gun": "1848-02-02",
+   "yerlesim": "Sutter's Fort (Sacramento)",
+   "sahip": "abd",
+   "ada": [
+    "San Francisco (Misyon San Francisco de Asís)",
+    "Sutter's Fort (Sacramento)"
+   ],
+   "ana_km": 758.3,
+   "ana": "San Diego (Misyon San Diego de Alcalá)",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 9,
+   "yabanci": 6,
+   "komsu": {
+    "abd": 1,
+    "—YOK—": 2,
+    "payut": 1,
+    "meksika": 4,
+    "sosoni": 1
+   },
+   "en_yakin_ayni": 758,
+   "hedef": "San Diego (Misyon San Diego de Alcalá)"
+  },
+  {
+   "gun": "1630-09-07",
+   "yerlesim": "Boston (Massachusetts)",
+   "sahip": "ingiltere",
+   "ada": [
+    "Boston (Massachusetts)",
+    "Pemaquid",
+    "Plymouth (Massachusetts)",
+    "Portsmouth (New Hampshire)"
+   ],
+   "ana_km": 753.9,
+   "ana": "Jamestown",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 15,
+   "yabanci": 8,
+   "komsu": {
+    "haudenosaunee": 5,
+    "powhatan": 1,
+    "hollanda": 2,
+    "ingiltere": 2,
+    "—YOK—": 5
+   },
+   "en_yakin_ayni": 754,
+   "hedef": "Jamestown"
+  },
+  {
+   "gun": "1620-12-21",
+   "yerlesim": "Plymouth (Massachusetts)",
+   "sahip": "ingiltere",
+   "ada": [
+    "Plymouth (Massachusetts)"
+   ],
+   "ana_km": 744.7,
+   "ana": "Jamestown",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 12,
+   "yabanci": 4,
+   "komsu": {
+    "haudenosaunee": 3,
+    "powhatan": 1,
+    "—YOK—": 8
+   },
+   "en_yakin_ayni": 745,
+   "hedef": "Jamestown"
+  },
+  {
+   "gun": "1776-06-29",
+   "yerlesim": "San Francisco (Misyon San Francisco de Asís)",
+   "sahip": "yeni-ispanya",
+   "ada": [
+    "Monterey (Alta California)",
+    "San Francisco (Misyon San Francisco de Asís)"
+   ],
+   "ana_km": 736.8,
+   "ana": "San Diego (Misyon San Diego de Alcalá)",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 8,
+   "yabanci": 2,
+   "komsu": {
+    "—YOK—": 5,
+    "payut": 1,
+    "yeni-ispanya": 1,
+    "sosoni": 1
+   },
+   "en_yakin_ayni": 737,
+   "hedef": "San Diego (Misyon San Diego de Alcalá)"
+  },
+  {
+   "gun": "1848-02-02",
+   "yerlesim": "San Francisco (Misyon San Francisco de Asís)",
+   "sahip": "abd",
+   "ada": [
+    "San Francisco (Misyon San Francisco de Asís)",
+    "Sutter's Fort (Sacramento)"
+   ],
+   "ana_km": 736.8,
+   "ana": "San Diego (Misyon San Diego de Alcalá)",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 8,
+   "yabanci": 7,
+   "komsu": {
+    "abd": 1,
+    "rusya": 1,
+    "payut": 1,
+    "meksika": 4,
+    "sosoni": 1
+   },
+   "en_yakin_ayni": 737,
+   "hedef": "San Diego (Misyon San Diego de Alcalá)"
+  },
+  {
+   "gun": "1890-07-01",
+   "yerlesim": "Bveranyange (Karagve)",
+   "sahip": "ingiltere",
+   "ada": [
+    "Bveranyange (Karagve)"
+   ],
+   "ana_km": 685.2,
+   "ana": "Maçakos",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 5,
+   "yabanci": 3,
+   "komsu": {
+    "nkore": 1,
+    "—YOK—": 2,
+    "almanya": 1,
+    "kamba": 1
+   },
+   "en_yakin_ayni": 685,
+   "hedef": "Maçakos"
+  },
+  {
+   "gun": "1674-03-15",
+   "yerlesim": "Zeytun (Quanzhou)",
+   "sahip": "san-fan",
+   "ada": [
+    "Fuzhou",
+    "Zeytun (Quanzhou)",
+    "Zhangzhou"
+   ],
+   "ana_km": 680.5,
+   "ana": "Changsha",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 5,
+   "yabanci": 3,
+   "komsu": {
+    "qing-hanedani": 2,
+    "san-fan": 2,
+    "tungning": 1
+   },
+   "en_yakin_ayni": 681,
+   "hedef": "Changsha"
+  },
+  {
+   "gun": "1777-11-29",
+   "yerlesim": "San José de Guadalupe",
+   "sahip": "yeni-ispanya",
+   "ada": [
+    "Monterey (Alta California)",
+    "San Francisco (Misyon San Francisco de Asís)",
+    "San José de Guadalupe"
+   ],
+   "ana_km": 670.7,
+   "ana": "San Diego (Misyon San Diego de Alcalá)",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 6,
+   "yabanci": 2,
+   "komsu": {
+    "yeni-ispanya": 2,
+    "payut": 1,
+    "sosoni": 1,
+    "—YOK—": 2
+   },
+   "en_yakin_ayni": 671,
+   "hedef": "San Diego (Misyon San Diego de Alcalá)"
+  },
+  {
+   "gun": "1667-11-18",
+   "yerlesim": "Makassar",
+   "sahip": "hollanda-dogu-hint",
+   "ada": [
+    "Bantaeng",
+    "Makassar"
+   ],
+   "ana_km": 663.3,
+   "ana": "Alor",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 7,
+   "yabanci": 6,
+   "komsu": {
+    "timor-beylikleri": 1,
+    "portekiz": 3,
+    "hollanda-dogu-hint": 1,
+    "bali-kralliklari": 1,
+    "bugis-kralliklari": 1
+   },
+   "en_yakin_ayni": 663,
+   "hedef": "Alor"
+  },
+  {
+   "gun": "1816-04-23",
+   "yerlesim": "Bathurst (Banjul)",
+   "sahip": "ingiltere",
+   "ada": [
+    "Bathurst (Banjul)"
+   ],
+   "ana_km": 662.8,
+   "ana": "Freetown",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 8,
+   "yabanci": 7,
+   "komsu": {
+    "bundu": 1,
+    "sine-salum": 2,
+    "gambiya-mandinka": 1,
+    "portekiz": 2,
+    "futa-callon": 1,
+    "—YOK—": 1
+   },
+   "en_yakin_ayni": 663,
+   "hedef": "Freetown"
+  },
+  {
+   "gun": "1894-01-01",
+   "yerlesim": "Albreda-Cufure",
+   "sahip": "ingiltere",
+   "ada": [
+    "Albreda-Cufure",
+    "Bathurst (Banjul)"
+   ],
+   "ana_km": 639.2,
+   "ana": "Freetown",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 8,
+   "yabanci": 7,
+   "komsu": {
+    "fransa-cumhuriyet": 4,
+    "ingiltere": 1,
+    "portekiz": 2,
+    "futa-callon": 1
+   },
+   "en_yakin_ayni": 639,
+   "hedef": "Freetown"
+  },
+  {
+   "gun": "1674-03-15",
+   "yerlesim": "Zhangzhou",
+   "sahip": "san-fan",
+   "ada": [
+    "Fuzhou",
+    "Zeytun (Quanzhou)",
+    "Zhangzhou"
+   ],
+   "ana_km": 624.9,
+   "ana": "Changsha",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 4,
+   "yabanci": 4,
+   "komsu": {
+    "qing-hanedani": 3,
+    "tungning": 1
+   },
+   "en_yakin_ayni": 625,
+   "hedef": "Changsha"
+  },
+  {
+   "gun": "1891-01-01",
+   "yerlesim": "Mangoçi",
+   "sahip": "ingiltere",
+   "ada": [
+    "Blantyre",
+    "Mangoçi",
+    "Zomba"
+   ],
+   "ana_km": 583.8,
+   "ana": "Salisbury (Harare)",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 7,
+   "yabanci": 4,
+   "komsu": {
+    "—YOK—": 1,
+    "umman-zengibar": 1,
+    "ingiltere": 2,
+    "portekiz": 3
+   },
+   "en_yakin_ayni": 584,
+   "hedef": "Salisbury (Harare)"
+  },
+  {
+   "gun": "1921-10-20",
+   "yerlesim": "Mersin",
+   "sahip": "OSMANLI",
+   "ada": [
+    "Mersin"
+   ],
+   "ana_km": 573.1,
+   "ana": "Rodos",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 31,
+   "yabanci": 26,
+   "komsu": {
+    "tbmm-turkiye": 26,
+    "OSMANLI": 5
+   },
+   "en_yakin_ayni": 573,
+   "hedef": "Rodos"
+  },
+  {
+   "gun": "1544-01-01",
+   "yerlesim": "Tabarka",
+   "sahip": "ceneviz",
+   "ada": [
+    "Tabarka"
+   ],
+   "ana_km": 553.6,
+   "ana": "Ayacyo (Ajaccio)",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 11,
+   "yabanci": 10,
+   "komsu": {
+    "OSMANLI": 2,
+    "ispanya": 2,
+    "ceneviz": 1,
+    "hafsi": 6
+   },
+   "en_yakin_ayni": 554,
+   "hedef": "Ayacyo (Ajaccio)"
+  },
+  {
+   "gun": "1891-01-01",
+   "yerlesim": "Zomba",
+   "sahip": "ingiltere",
+   "ada": [
+    "Blantyre",
+    "Mangoçi",
+    "Zomba"
+   ],
+   "ana_km": 529.7,
+   "ana": "Salisbury (Harare)",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 5,
+   "yabanci": 3,
+   "komsu": {
+    "ingiltere": 2,
+    "portekiz": 3
+   },
+   "en_yakin_ayni": 530,
+   "hedef": "Salisbury (Harare)"
+  },
+  {
+   "gun": "1348-06-09",
+   "yerlesim": "Avignon",
+   "sahip": "papalik",
+   "ada": [
+    "Avignon"
+   ],
+   "ana_km": 524.3,
+   "ana": "Bolonya",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 20,
+   "yabanci": 19,
+   "komsu": {
+    "venedik": 1,
+    "fransa": 5,
+    "milanoduka": 4,
+    "toskana": 1,
+    "sardinya": 1,
+    "ceneviz": 1,
+    "aragon": 1,
+    "mantua": 1,
+    "ferrara": 2,
+    "papalik": 1,
+    "siena": 1,
+    "piza": 1
+   },
+   "en_yakin_ayni": 524,
+   "hedef": "Bolonya"
+  },
+  {
+   "gun": "1550-01-01",
+   "yerlesim": "Lahsa",
+   "sahip": "OSMANLI",
+   "ada": [
+    "Cübeyl",
+    "Katîf",
+    "Lahsa",
+    "Ukayr (Uceyr)"
+   ],
+   "ana_km": 522.4,
+   "ana": "Fâv",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 9,
+   "yabanci": 2,
+   "komsu": {
+    "OSMANLI": 5,
+    "—YOK—": 2,
+    "portekiz": 1,
+    "safevi": 1
+   },
+   "en_yakin_ayni": 522,
+   "hedef": "Fâv"
+  },
+  {
+   "gun": "1550-01-01",
+   "yerlesim": "Ukayr (Uceyr)",
+   "sahip": "OSMANLI",
+   "ada": [
+    "Cübeyl",
+    "Katîf",
+    "Lahsa",
+    "Ukayr (Uceyr)"
+   ],
+   "ana_km": 510.6,
+   "ana": "Fâv",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 12,
+   "yabanci": 3,
+   "komsu": {
+    "OSMANLI": 5,
+    "—YOK—": 4,
+    "portekiz": 1,
+    "safevi": 2
+   },
+   "en_yakin_ayni": 511,
+   "hedef": "Fâv"
+  },
+  {
+   "gun": "1830-01-01",
+   "yerlesim": "Ambositra",
+   "sahip": "fransa-cumhuriyet",
+   "ada": [
+    "Ambositra"
+   ],
+   "ana_km": 501.1,
+   "ana": "Tolanaro (Fort Dauphin)",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 5,
+   "yabanci": 4,
+   "komsu": {
+    "—YOK—": 1,
+    "merina": 1,
+    "antemoro": 1,
+    "antandroy": 2
+   },
+   "en_yakin_ayni": 501,
+   "hedef": "Tolanaro (Fort Dauphin)"
+  },
+  {
+   "gun": "1646-10-06",
+   "yerlesim": "Zhangzhou",
+   "sahip": "qing-hanedani",
+   "ada": [
+    "Fuzhou",
+    "Zeytun (Quanzhou)",
+    "Zhangzhou"
+   ],
+   "ana_km": 492.3,
+   "ana": "Wenzhou",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 5,
+   "yabanci": 2,
+   "komsu": {
+    "qing-hanedani": 2,
+    "guney-ming": 1,
+    "—YOK—": 1,
+    "ming-hanedani": 1
+   },
+   "en_yakin_ayni": 492,
+   "hedef": "Wenzhou"
+  },
+  {
+   "gun": "1521-01-01",
+   "yerlesim": "Manama (Bahreyn)",
+   "sahip": "portekiz",
+   "ada": [
+    "Manama (Bahreyn)"
+   ],
+   "ana_km": 490.7,
+   "ana": "Şârika",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 13,
+   "yabanci": 6,
+   "komsu": {
+    "cebri": 4,
+    "—YOK—": 4,
+    "portekiz": 3,
+    "safevi": 2
+   },
+   "en_yakin_ayni": 491,
+   "hedef": "Şârika"
+  },
+  {
+   "gun": "1717-01-01",
+   "yerlesim": "Manama (Bahreyn)",
+   "sahip": "umman",
+   "ada": [
+    "Manama (Bahreyn)"
+   ],
+   "ana_km": 490.7,
+   "ana": "Şârika",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 13,
+   "yabanci": 9,
+   "komsu": {
+    "benihalid": 4,
+    "—YOK—": 3,
+    "safevi": 5,
+    "umman": 1
+   },
+   "en_yakin_ayni": 491,
+   "hedef": "Şârika"
+  },
+  {
+   "gun": "1839-01-01",
+   "yerlesim": "Sutter's Fort (Sacramento)",
+   "sahip": "meksika",
+   "ada": [
+    "Monterey (Alta California)",
+    "San Francisco (Misyon San Francisco de Asís)",
+    "San José de Guadalupe",
+    "Sutter's Fort (Sacramento)"
+   ],
+   "ana_km": 488.0,
+   "ana": "Santa Bárbara",
+   "kova": "B-bilinmiyor",
+   "sinif": "KORİDOR-ADAY",
+   "ara": 5,
+   "yabanci": 0,
+   "komsu": {
+    "meksika": 3,
+    "—YOK—": 2
+   },
+   "en_yakin_ayni": 488,
+   "hedef": "Santa Bárbara"
+  },
+  {
+   "gun": "1352-01-01",
+   "yerlesim": "Mersin",
+   "sahip": "OSMANLI",
+   "ada": [
+    "Mersin"
+   ],
+   "ana_km": 487.6,
+   "ana": "Karacahisar",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 57,
+   "yabanci": 35,
+   "komsu": {
+    "OSMANLI": 22,
+    "ahiler": 1,
+    "germiyan": 4,
+    "hamid": 9,
+    "teke": 4,
+    "ilhanli": 5,
+    "karaman": 5,
+    "alaiye": 1,
+    "eretna": 3,
+    "ramazanoglu": 2,
+    "candar": 1
+   },
+   "en_yakin_ayni": 488,
+   "hedef": "Karacahisar"
+  },
+  {
+   "gun": "1916-11-06",
+   "yerlesim": "Darfur",
+   "sahip": "ingiliz-sudani",
+   "ada": [
+    "Darfur"
+   ],
+   "ana_km": 479.4,
+   "ana": "Bâbanûsa",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 15,
+   "yabanci": 14,
+   "komsu": {
+    "ingiltere": 14,
+    "ingiliz-sudani": 1
+   },
+   "en_yakin_ayni": 479,
+   "hedef": "Bâbanûsa"
+  },
+  {
+   "gun": "1761-04-05",
+   "yerlesim": "Cinci (Gingee)",
+   "sahip": "ingiliz-hindistani",
+   "ada": [
+    "Cinci (Gingee)",
+    "Madras (Chennai)",
+    "Vellor (Vellore)"
+   ],
+   "ana_km": 476.0,
+   "ana": "Masulipatnam",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 5,
+   "yabanci": 3,
+   "komsu": {
+    "ingiliz-hindistani": 2,
+    "ingiltere": 1,
+    "karnatik": 1,
+    "haydarabad-nizam": 1
+   },
+   "en_yakin_ayni": 476,
+   "hedef": "Masulipatnam"
+  },
+  {
+   "gun": "1905-08-06",
+   "yerlesim": "Watampone (Bone)",
+   "sahip": "hollanda-dogu-hint",
+   "ada": [
+    "Bantaeng",
+    "Makassar",
+    "Sengkang (Wajo)",
+    "Watampone (Bone)"
+   ],
+   "ana_km": 471.8,
+   "ana": "Bima (Sumbawa)",
+   "kova": "B-bilinmiyor",
+   "sinif": "KORİDOR-ADAY",
+   "ara": 3,
+   "yabanci": 0,
+   "komsu": {
+    "hollanda-dogu-hint": 3
+   },
+   "en_yakin_ayni": 472,
+   "hedef": "Bima (Sumbawa)"
+  },
+  {
+   "gun": "1871-04-20",
+   "yerlesim": "Lahsa",
+   "sahip": "OSMANLI",
+   "ada": [
+    "Cübeyl",
+    "Katîf",
+    "Lahsa",
+    "Ukayr (Uceyr)"
+   ],
+   "ana_km": 471.6,
+   "ana": "Kuveyt",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 6,
+   "yabanci": 2,
+   "komsu": {
+    "ingiltere": 1,
+    "OSMANLI": 4,
+    "kacar": 1
+   },
+   "en_yakin_ayni": 472,
+   "hedef": "Kuveyt"
+  },
+  {
+   "gun": "1810-09-27",
+   "yerlesim": "Yergöğü (Giurgiu)",
+   "sahip": "rusya",
+   "ada": [
+    "Yergöğü (Giurgiu)"
+   ],
+   "ana_km": 470.7,
+   "ana": "Hacıbey (Odessa)",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 28,
+   "yabanci": 26,
+   "komsu": {
+    "OSMANLI": 14,
+    "tâbi": 11,
+    "rusya": 1,
+    "avusturya": 1,
+    "—YOK—": 1
+   },
+   "en_yakin_ayni": 471,
+   "hedef": "Hacıbey (Odessa)"
+  },
+  {
+   "gun": "1871-04-20",
+   "yerlesim": "Ukayr (Uceyr)",
+   "sahip": "OSMANLI",
+   "ada": [
+    "Cübeyl",
+    "Katîf",
+    "Lahsa",
+    "Ukayr (Uceyr)"
+   ],
+   "ana_km": 469.3,
+   "ana": "Kuveyt",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 9,
+   "yabanci": 4,
+   "komsu": {
+    "OSMANLI": 4,
+    "ingiltere": 1,
+    "kacar": 3,
+    "—YOK—": 1
+   },
+   "en_yakin_ayni": 469,
+   "hedef": "Kuveyt"
+  },
+  {
+   "gun": "1561-03-29",
+   "yerlesim": "Mandu (Mândû)",
+   "sahip": "babur-imparatorlugu",
+   "ada": [
+    "Mandu (Mândû)",
+    "Uccayn (Ujjain)"
+   ],
+   "ana_km": 463.9,
+   "ana": "Ecmîr (Ajmer)",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 6,
+   "yabanci": 3,
+   "komsu": {
+    "racput": 2,
+    "—YOK—": 2,
+    "babur-imparatorlugu": 1,
+    "farukiler": 1
+   },
+   "en_yakin_ayni": 464,
+   "hedef": "Ecmîr (Ajmer)"
+  },
+  {
+   "gun": "1524-07-25",
+   "yerlesim": "Iximché",
+   "sahip": "ispanya",
+   "ada": [
+    "Iximché"
+   ],
+   "ana_km": 457.3,
+   "ana": "Potonchán (Santa María de la Victoria)",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 5,
+   "yabanci": 2,
+   "komsu": {
+    "—YOK—": 3,
+    "maya-sehir-devletleri": 2
+   },
+   "en_yakin_ayni": 457,
+   "hedef": "Potonchán (Santa María de la Victoria)"
+  },
+  {
+   "gun": "1524-01-01",
+   "yerlesim": "Lahsa",
+   "sahip": "safevi",
+   "ada": [
+    "Cübeyl",
+    "Katîf",
+    "Lahsa",
+    "Ukayr (Uceyr)"
+   ],
+   "ana_km": 457.0,
+   "ana": "Kiş (Kish)",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 8,
+   "yabanci": 1,
+   "komsu": {
+    "portekiz": 1,
+    "—YOK—": 3,
+    "safevi": 4
+   },
+   "en_yakin_ayni": 457,
+   "hedef": "Kiş (Kish)"
+  },
+  {
+   "gun": "1885-02-05",
+   "yerlesim": "Masavva",
+   "sahip": "italya",
+   "ada": [
+    "Arkîko",
+    "Dahlak",
+    "Masavva"
+   ],
+   "ana_km": 455.3,
+   "ana": "Aseb",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 21,
+   "yabanci": 19,
+   "komsu": {
+    "OSMANLI": 5,
+    "habesistan": 14,
+    "italya": 2
+   },
+   "en_yakin_ayni": 455,
+   "hedef": "Aseb"
+  },
+  {
+   "gun": "1885-02-05",
+   "yerlesim": "Arkîko",
+   "sahip": "italya",
+   "ada": [
+    "Arkîko",
+    "Dahlak",
+    "Masavva"
+   ],
+   "ana_km": 452.8,
+   "ana": "Aseb",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 22,
+   "yabanci": 20,
+   "komsu": {
+    "OSMANLI": 5,
+    "italya": 2,
+    "habesistan": 15
+   },
+   "en_yakin_ayni": 453,
+   "hedef": "Aseb"
+  },
+  {
+   "gun": "1693-09-06",
+   "yerlesim": "Pondişeri",
+   "sahip": "hollanda",
+   "ada": [
+    "Nagapatnam",
+    "Pondişeri",
+    "Yafna (Jaffna)"
+   ],
+   "ana_km": 448.5,
+   "ana": "Koçin (Kochi)",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 13,
+   "yabanci": 10,
+   "komsu": {
+    "meysur": 2,
+    "hollanda": 3,
+    "danimarka": 1,
+    "maratha": 2,
+    "nayak-devletleri": 2,
+    "babur-imparatorlugu": 2,
+    "kalikut": 1
+   },
+   "en_yakin_ayni": 448,
+   "hedef": "Koçin (Kochi)"
+  },
+  {
+   "gun": "1830-07-05",
+   "yerlesim": "Cezayir",
+   "sahip": "fransa-cumhuriyet",
+   "ada": [
+    "Blida",
+    "Cezayir",
+    "Medea (Titteri)",
+    "Miliana",
+    "Şerşel (Cherchell)"
+   ],
+   "ana_km": 445.8,
+   "ana": "Tilimsan",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 20,
+   "yabanci": 16,
+   "komsu": {
+    "OSMANLI": 2,
+    "fransa-cumhuriyet": 4,
+    "tâbi": 11,
+    "ispanya": 2,
+    "fas": 1
+   },
+   "en_yakin_ayni": 446,
+   "hedef": "Tilimsan"
+  },
+  {
+   "gun": "1821-09-27",
+   "yerlesim": "San Francisco (Misyon San Francisco de Asís)",
+   "sahip": "meksika",
+   "ada": [
+    "Monterey (Alta California)",
+    "San Francisco (Misyon San Francisco de Asís)",
+    "San José de Guadalupe"
+   ],
+   "ana_km": 445.0,
+   "ana": "Santa Bárbara",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 4,
+   "yabanci": 1,
+   "komsu": {
+    "—YOK—": 1,
+    "rusya": 1,
+    "meksika": 2
+   },
+   "en_yakin_ayni": 445,
+   "hedef": "Santa Bárbara"
+  },
+  {
+   "gun": "1529-01-01",
+   "yerlesim": "Antequera (Oaxaca)",
+   "sahip": "yeni-ispanya",
+   "ada": [
+    "Antequera (Oaxaca)"
+   ],
+   "ana_km": 436.6,
+   "ana": "San Cristóbal de las Casas (Ciudad Real)",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 4,
+   "yabanci": 4,
+   "komsu": {
+    "ispanya": 3,
+    "ingiltere": 1
+   },
+   "en_yakin_ayni": 437,
+   "hedef": "San Cristóbal de las Casas (Ciudad Real)"
+  },
+  {
+   "gun": "1877-12-10",
+   "yerlesim": "Plevne",
+   "sahip": "rusya",
+   "ada": [
+    "Niğbolu",
+    "Plevne"
+   ],
+   "ana_km": 433.1,
+   "ana": "Kili",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 30,
+   "yabanci": 29,
+   "komsu": {
+    "OSMANLI": 11,
+    "rusya": 1,
+    "tâbi": 14,
+    "romanya": 2,
+    "avusturya": 2
+   },
+   "en_yakin_ayni": 433,
+   "hedef": "Kili"
+  },
+  {
+   "gun": "1861-05-31",
+   "yerlesim": "Manama (Bahreyn)",
+   "sahip": "ingiltere",
+   "ada": [
+    "Manama (Bahreyn)"
+   ],
+   "ana_km": 430.8,
+   "ana": "Abu Dabi",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 9,
+   "yabanci": 6,
+   "komsu": {
+    "suud-ikinci": 4,
+    "—YOK—": 2,
+    "kacar": 2,
+    "ingiltere": 1
+   },
+   "en_yakin_ayni": 431,
+   "hedef": "Abu Dabi"
+  },
+  {
+   "gun": "1658-01-01",
+   "yerlesim": "Nagapatnam",
+   "sahip": "hollanda",
+   "ada": [
+    "Nagapatnam"
+   ],
+   "ana_km": 426.9,
+   "ana": "Kolombo",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 4,
+   "yabanci": 4,
+   "komsu": {
+    "danimarka": 1,
+    "nayak-devletleri": 1,
+    "kandy": 1,
+    "portekiz": 1
+   },
+   "en_yakin_ayni": 427,
+   "hedef": "Kolombo"
+  },
+  {
+   "gun": "1790-12-15",
+   "yerlesim": "Kannûr (Cannanore)",
+   "sahip": "ingiliz-hindistani",
+   "ada": [
+    "Kannûr (Cannanore)"
+   ],
+   "ana_km": 426.4,
+   "ana": "Vellor (Vellore)",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 9,
+   "yabanci": 8,
+   "komsu": {
+    "meysur": 5,
+    "fransa": 1,
+    "danimarka": 1,
+    "ingiliz-hindistani": 1,
+    "karnatik": 1
+   },
+   "en_yakin_ayni": 426,
+   "hedef": "Vellor (Vellore)"
+  },
+  {
+   "gun": "1698-01-08",
+   "yerlesim": "Cinci (Gingee)",
+   "sahip": "babur-imparatorlugu",
+   "ada": [
+    "Arkot (Arcot)",
+    "Cinci (Gingee)",
+    "Vellor (Vellore)"
+   ],
+   "ana_km": 423.8,
+   "ana": "Kurnûl (Kurnool)",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 6,
+   "yabanci": 3,
+   "komsu": {
+    "babur-imparatorlugu": 3,
+    "meysur": 1,
+    "ingiltere": 1,
+    "hollanda": 1
+   },
+   "en_yakin_ayni": 424,
+   "hedef": "Kurnûl (Kurnool)"
+  },
+  {
+   "gun": "1760-01-01",
+   "yerlesim": "Vellor (Vellore)",
+   "sahip": "ingiliz-hindistani",
+   "ada": [
+    "Madras (Chennai)",
+    "Vellor (Vellore)"
+   ],
+   "ana_km": 422.8,
+   "ana": "Masulipatnam",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 5,
+   "yabanci": 4,
+   "komsu": {
+    "ingiliz-hindistani": 1,
+    "fransa": 2,
+    "karnatik": 1,
+    "haydarabad-nizam": 1
+   },
+   "en_yakin_ayni": 423,
+   "hedef": "Masulipatnam"
+  },
+  {
+   "gun": "1890-11-04",
+   "yerlesim": "Lindi",
+   "sahip": "almanya",
+   "ada": [
+    "Kilva Kivince",
+    "Lindi",
+    "Mikindani"
+   ],
+   "ana_km": 420.0,
+   "ana": "Morogoro",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 7,
+   "yabanci": 4,
+   "komsu": {
+    "umman-zengibar": 3,
+    "almanya": 3,
+    "yao": 1
+   },
+   "en_yakin_ayni": 420,
+   "hedef": "Morogoro"
+  },
+  {
+   "gun": "1832-03-01",
+   "yerlesim": "Annaba",
+   "sahip": "fransa-cumhuriyet",
+   "ada": [
+    "Annaba"
+   ],
+   "ana_km": 419.2,
+   "ana": "Cezayir",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 21,
+   "yabanci": 17,
+   "komsu": {
+    "tâbi": 17,
+    "fransa-cumhuriyet": 4
+   },
+   "en_yakin_ayni": 419,
+   "hedef": "Cezayir"
+  },
+  {
+   "gun": "1572-06-24",
+   "yerlesim": "Vilcabamba (Espíritu Pampa)",
+   "sahip": "ispanyol-peru",
+   "ada": [
+    "Cusco (Qosqo)",
+    "Huamanga (Ayacucho)",
+    "Ollantaytambo",
+    "Vilcabamba (Espíritu Pampa)",
+    "Vilcashuamán"
+   ],
+   "ana_km": 418.9,
+   "ana": "Lima (Ciudad de los Reyes)",
+   "kova": "B-bilinmiyor",
+   "sinif": "KORİDOR-ADAY",
+   "ara": 3,
+   "yabanci": 0,
+   "komsu": {
+    "ispanyol-peru": 2,
+    "—YOK—": 1
+   },
+   "en_yakin_ayni": 419,
+   "hedef": "Lima (Ciudad de los Reyes)"
+  },
+  {
+   "gun": "1775-02-01",
+   "yerlesim": "Hội An (Faifo)",
+   "sahip": "le-hanedani",
+   "ada": [
+    "Huế (Phú Xuân)",
+    "Hội An (Faifo)",
+    "Quang Ngai",
+    "Quang Tri",
+    "Đà Nẵng (Tourane)"
+   ],
+   "ana_km": 415.1,
+   "ana": "Nha Trang (Kauthara)",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 5,
+   "yabanci": 2,
+   "komsu": {
+    "le-hanedani": 3,
+    "tay-son": 1,
+    "campa": 1
+   },
+   "en_yakin_ayni": 415,
+   "hedef": "Nha Trang (Kauthara)"
+  },
+  {
+   "gun": "1642-05-17",
+   "yerlesim": "Montreal (Ville-Marie)",
+   "sahip": "fransa",
+   "ada": [
+    "Montreal (Ville-Marie)",
+    "Quebec",
+    "Trois-Rivières"
+   ],
+   "ana_km": 414.9,
+   "ana": "Tadoussac",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 6,
+   "yabanci": 1,
+   "komsu": {
+    "fransa": 2,
+    "—YOK—": 3,
+    "abenaki": 1
+   },
+   "en_yakin_ayni": 415,
+   "hedef": "Tadoussac"
+  },
+  {
+   "gun": "1830-07-05",
+   "yerlesim": "Blida",
+   "sahip": "fransa-cumhuriyet",
+   "ada": [
+    "Blida",
+    "Cezayir",
+    "Medea (Titteri)",
+    "Miliana",
+    "Şerşel (Cherchell)"
+   ],
+   "ana_km": 413.8,
+   "ana": "Tilimsan",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 17,
+   "yabanci": 13,
+   "komsu": {
+    "fransa-cumhuriyet": 4,
+    "OSMANLI": 2,
+    "tâbi": 9,
+    "ispanya": 1,
+    "fas": 1
+   },
+   "en_yakin_ayni": 414,
+   "hedef": "Tilimsan"
+  },
+  {
+   "gun": "1520-05-19",
+   "yerlesim": "Raycur (Raichur)",
+   "sahip": "vijayanagara",
+   "ada": [
+    "Kurnûl (Kurnool)",
+    "Raycur (Raichur)",
+    "Vijayanagara (Hampi)"
+   ],
+   "ana_km": 412.9,
+   "ana": "Vellor (Vellore)",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 8,
+   "yabanci": 1,
+   "komsu": {
+    "vijayanagara": 5,
+    "—YOK—": 2,
+    "nayak-devletleri": 1
+   },
+   "en_yakin_ayni": 413,
+   "hedef": "Vellor (Vellore)"
+  },
+  {
+   "gun": "1671-01-01",
+   "yerlesim": "Kabasa",
+   "sahip": "portekiz",
+   "ada": [
+    "Kabasa",
+    "Kambambe (Cambambe)",
+    "Luanda",
+    "Massangano",
+    "Pungo Andongo"
+   ],
+   "ana_km": 411.2,
+   "ana": "Benguela",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 7,
+   "yabanci": 1,
+   "komsu": {
+    "portekiz": 4,
+    "matamba": 1,
+    "—YOK—": 2
+   },
+   "en_yakin_ayni": 411,
+   "hedef": "Benguela"
+  },
+  {
+   "gun": "1885-02-05",
+   "yerlesim": "Dahlak",
+   "sahip": "italya",
+   "ada": [
+    "Arkîko",
+    "Dahlak",
+    "Masavva"
+   ],
+   "ana_km": 409.0,
+   "ana": "Aseb",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 13,
+   "yabanci": 11,
+   "komsu": {
+    "OSMANLI": 5,
+    "italya": 2,
+    "habesistan": 6
+   },
+   "en_yakin_ayni": 409,
+   "hedef": "Aseb"
+  },
+  {
+   "gun": "1550-01-01",
+   "yerlesim": "Katîf",
+   "sahip": "OSMANLI",
+   "ada": [
+    "Cübeyl",
+    "Katîf",
+    "Lahsa",
+    "Ukayr (Uceyr)"
+   ],
+   "ana_km": 408.1,
+   "ana": "Fâv",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 10,
+   "yabanci": 3,
+   "komsu": {
+    "OSMANLI": 4,
+    "—YOK—": 3,
+    "portekiz": 1,
+    "safevi": 2
+   },
+   "en_yakin_ayni": 408,
+   "hedef": "Fâv"
+  },
+  {
+   "gun": "1835-01-01",
+   "yerlesim": "Las Vegas (Yeni Meksika)",
+   "sahip": "meksika",
+   "ada": [
+    "Acoma Pueblo (Sky City)",
+    "Albuquerque",
+    "Las Vegas (Yeni Meksika)",
+    "Santa Fe",
+    "Taos Pueblo"
+   ],
+   "ana_km": 406.3,
+   "ana": "Santa Rita del Cobre",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 8,
+   "yabanci": 2,
+   "komsu": {
+    "meksika": 4,
+    "—YOK—": 2,
+    "zuni": 1,
+    "meskalero-apaci": 1
+   },
+   "en_yakin_ayni": 406,
+   "hedef": "Santa Rita del Cobre"
+  },
+  {
+   "gun": "1705-01-01",
+   "yerlesim": "Semarang",
+   "sahip": "hollanda-dogu-hint",
+   "ada": [
+    "Semarang"
+   ],
+   "ana_km": 406.2,
+   "ana": "Batavia (Cakarta)",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 11,
+   "yabanci": 9,
+   "komsu": {
+    "mataram-sultanligi": 8,
+    "banten-sultanligi": 1,
+    "—YOK—": 2
+   },
+   "en_yakin_ayni": 406,
+   "hedef": "Batavia (Cakarta)"
+  },
+  {
+   "gun": "1698-12-13",
+   "yerlesim": "Lindi",
+   "sahip": "umman-zengibar",
+   "ada": [
+    "Kilwa Kisiwani (Kilve)",
+    "Lindi",
+    "Mikindani"
+   ],
+   "ana_km": 405.7,
+   "ana": "Bagamoyo",
+   "kova": "B-bilinmiyor",
+   "sinif": "KORİDOR-ADAY",
+   "ara": 5,
+   "yabanci": 0,
+   "komsu": {
+    "umman-zengibar": 3,
+    "—YOK—": 2
+   },
+   "en_yakin_ayni": 406,
+   "hedef": "Bagamoyo"
+  },
+  {
+   "gun": "1554-01-01",
+   "yerlesim": "Nagapatnam",
+   "sahip": "portekiz",
+   "ada": [
+    "Nagapatnam"
+   ],
+   "ana_km": 403.2,
+   "ana": "Koçin (Kochi)",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 6,
+   "yabanci": 6,
+   "komsu": {
+    "nayak-devletleri": 4,
+    "kalikut": 1,
+    "yafna": 1
+   },
+   "en_yakin_ayni": 403,
+   "hedef": "Koçin (Kochi)"
+  },
+  {
+   "gun": "1646-10-06",
+   "yerlesim": "Zeytun (Quanzhou)",
+   "sahip": "qing-hanedani",
+   "ada": [
+    "Fuzhou",
+    "Zeytun (Quanzhou)",
+    "Zhangzhou"
+   ],
+   "ana_km": 401.5,
+   "ana": "Wenzhou",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 3,
+   "yabanci": 1,
+   "komsu": {
+    "qing-hanedani": 1,
+    "guney-ming": 1,
+    "—YOK—": 1
+   },
+   "en_yakin_ayni": 401,
+   "hedef": "Wenzhou"
+  },
+  {
+   "gun": "1671-01-01",
+   "yerlesim": "Pungo Andongo",
+   "sahip": "portekiz",
+   "ada": [
+    "Kabasa",
+    "Kambambe (Cambambe)",
+    "Luanda",
+    "Massangano",
+    "Pungo Andongo"
+   ],
+   "ana_km": 400.3,
+   "ana": "Benguela",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 8,
+   "yabanci": 1,
+   "komsu": {
+    "portekiz": 4,
+    "matamba": 1,
+    "—YOK—": 3
+   },
+   "en_yakin_ayni": 400,
+   "hedef": "Benguela"
+  },
+  {
+   "gun": "1534-12-23",
+   "yerlesim": "Bombay",
+   "sahip": "portekiz",
+   "ada": [
+    "Bombay",
+    "Çaul (Chaul)"
+   ],
+   "ana_km": 399.4,
+   "ana": "Goa",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 6,
+   "yabanci": 5,
+   "komsu": {
+    "ahmednagar": 3,
+    "bicapur": 2,
+    "portekiz": 1
+   },
+   "en_yakin_ayni": 399,
+   "hedef": "Goa"
+  },
+  {
+   "gun": "1830-07-05",
+   "yerlesim": "Medea (Titteri)",
+   "sahip": "fransa-cumhuriyet",
+   "ada": [
+    "Blida",
+    "Cezayir",
+    "Medea (Titteri)",
+    "Miliana",
+    "Şerşel (Cherchell)"
+   ],
+   "ana_km": 398.8,
+   "ana": "Tilimsan",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 17,
+   "yabanci": 13,
+   "komsu": {
+    "fransa-cumhuriyet": 4,
+    "OSMANLI": 2,
+    "tâbi": 9,
+    "ispanya": 1,
+    "fas": 1
+   },
+   "en_yakin_ayni": 399,
+   "hedef": "Tilimsan"
+  },
+  {
+   "gun": "1877-07-16",
+   "yerlesim": "Niğbolu",
+   "sahip": "rusya",
+   "ada": [
+    "Niğbolu"
+   ],
+   "ana_km": 397.3,
+   "ana": "Kili",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 27,
+   "yabanci": 27,
+   "komsu": {
+    "OSMANLI": 10,
+    "tâbi": 13,
+    "romanya": 2,
+    "avusturya": 2
+   },
+   "en_yakin_ayni": 397,
+   "hedef": "Kili"
+  },
+  {
+   "gun": "1438-01-01",
+   "yerlesim": "Songkhla",
+   "sahip": "ayutthaya",
+   "ada": [
+    "Nakhon Si Thammarat",
+    "Phuket (Thalang)",
+    "Songkhla",
+    "Surat Thani",
+    "Trang"
+   ],
+   "ana_km": 396.8,
+   "ana": "Chumphon",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 5,
+   "yabanci": 1,
+   "komsu": {
+    "ayutthaya": 4,
+    "malay-sultanliklari": 1
+   },
+   "en_yakin_ayni": 397,
+   "hedef": "Chumphon"
+  },
+  {
+   "gun": "1767-04-07",
+   "yerlesim": "Songkhla",
+   "sahip": "tonburi",
+   "ada": [
+    "Nakhon Si Thammarat",
+    "Phuket (Thalang)",
+    "Songkhla",
+    "Surat Thani",
+    "Trang"
+   ],
+   "ana_km": 396.8,
+   "ana": "Chumphon",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 5,
+   "yabanci": 1,
+   "komsu": {
+    "tonburi": 4,
+    "malay-sultanliklari": 1
+   },
+   "en_yakin_ayni": 397,
+   "hedef": "Chumphon"
+  },
+  {
+   "gun": "1782-04-06",
+   "yerlesim": "Songkhla",
+   "sahip": "siyam-chakri",
+   "ada": [
+    "Nakhon Si Thammarat",
+    "Phuket (Thalang)",
+    "Songkhla",
+    "Surat Thani",
+    "Trang"
+   ],
+   "ana_km": 396.8,
+   "ana": "Chumphon",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 5,
+   "yabanci": 1,
+   "komsu": {
+    "siyam-chakri": 4,
+    "malay-sultanliklari": 1
+   },
+   "en_yakin_ayni": 397,
+   "hedef": "Chumphon"
+  },
+  {
+   "gun": "1775-02-01",
+   "yerlesim": "Đà Nẵng (Tourane)",
+   "sahip": "le-hanedani",
+   "ada": [
+    "Huế (Phú Xuân)",
+    "Hội An (Faifo)",
+    "Quang Ngai",
+    "Quang Tri",
+    "Đà Nẵng (Tourane)"
+   ],
+   "ana_km": 394.6,
+   "ana": "Vinh",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 5,
+   "yabanci": 1,
+   "komsu": {
+    "le-hanedani": 4,
+    "laos-kralliklari": 1
+   },
+   "en_yakin_ayni": 395,
+   "hedef": "Vinh"
+  },
+  {
+   "gun": "1337-09-09",
+   "yerlesim": "Simnân",
+   "sahip": "serbedariler",
+   "ada": [
+    "Bistâm",
+    "Dihistan ovası (Meşhed-i Misriyân)",
+    "Dâmgan",
+    "Esterâbâd (Gürgân)",
+    "Simnân"
+   ],
+   "ana_km": 392.1,
+   "ana": "Sebzevâr",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 10,
+   "yabanci": 3,
+   "komsu": {
+    "serbedariler": 6,
+    "ilhanli": 3,
+    "—YOK—": 1
+   },
+   "en_yakin_ayni": 392,
+   "hedef": "Sebzevâr"
+  },
+  {
+   "gun": "1740-01-01",
+   "yerlesim": "Hîve",
+   "sahip": "afsar",
+   "ada": [
+    "Hazârasp",
+    "Hîve",
+    "Köhne Ürgenç (Gürgenç)",
+    "Küngrat",
+    "Yeni Ürgenç"
+   ],
+   "ana_km": 392.0,
+   "ana": "Ebîverd",
+   "kova": "B-bilinmiyor",
+   "sinif": "KORİDOR-ADAY",
+   "ara": 4,
+   "yabanci": 0,
+   "komsu": {
+    "afsar": 4
+   },
+   "en_yakin_ayni": 392,
+   "hedef": "Ebîverd"
+  },
+  {
+   "gun": "1920-04-26",
+   "yerlesim": "Hîve",
+   "sahip": "sovyet-rusya",
+   "ada": [
+    "Hazârasp",
+    "Hîve",
+    "Köhne Ürgenç (Gürgenç)",
+    "Küngrat",
+    "Yeni Ürgenç"
+   ],
+   "ana_km": 392.0,
+   "ana": "Ebîverd",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 4,
+   "yabanci": 1,
+   "komsu": {
+    "kacar": 1,
+    "sovyet-rusya": 3
+   },
+   "en_yakin_ayni": 392,
+   "hedef": "Ebîverd"
+  },
+  {
+   "gun": "1524-01-01",
+   "yerlesim": "Ukayr (Uceyr)",
+   "sahip": "safevi",
+   "ada": [
+    "Cübeyl",
+    "Katîf",
+    "Lahsa",
+    "Ukayr (Uceyr)"
+   ],
+   "ana_km": 388.5,
+   "ana": "Kiş (Kish)",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 7,
+   "yabanci": 1,
+   "komsu": {
+    "safevi": 4,
+    "portekiz": 1,
+    "—YOK—": 2
+   },
+   "en_yakin_ayni": 388,
+   "hedef": "Kiş (Kish)"
+  },
+  {
+   "gun": "1379-01-01",
+   "yerlesim": "Hîve",
+   "sahip": "timurlu",
+   "ada": [
+    "Hazârasp",
+    "Hîve",
+    "Köhne Ürgenç (Gürgenç)",
+    "Küngrat"
+   ],
+   "ana_km": 386.6,
+   "ana": "Buhara",
+   "kova": "B-bilinmiyor",
+   "sinif": "KORİDOR-ADAY",
+   "ara": 2,
+   "yabanci": 0,
+   "komsu": {
+    "timurlu": 1,
+    "—YOK—": 1
+   },
+   "en_yakin_ayni": 387,
+   "hedef": "Buhara"
+  },
+  {
+   "gun": "1502-01-01",
+   "yerlesim": "Hîve",
+   "sahip": "buhara",
+   "ada": [
+    "Hazârasp",
+    "Hîve",
+    "Köhne Ürgenç (Gürgenç)",
+    "Küngrat"
+   ],
+   "ana_km": 386.6,
+   "ana": "Buhara",
+   "kova": "B-bilinmiyor",
+   "sinif": "KORİDOR-ADAY",
+   "ara": 2,
+   "yabanci": 0,
+   "komsu": {
+    "buhara": 1,
+    "—YOK—": 1
+   },
+   "en_yakin_ayni": 387,
+   "hedef": "Buhara"
+  },
+  {
+   "gun": "1821-09-27",
+   "yerlesim": "San José de Guadalupe",
+   "sahip": "meksika",
+   "ada": [
+    "Monterey (Alta California)",
+    "San Francisco (Misyon San Francisco de Asís)",
+    "San José de Guadalupe"
+   ],
+   "ana_km": 380.1,
+   "ana": "Santa Bárbara",
+   "kova": "B-bilinmiyor",
+   "sinif": "KORİDOR-ADAY",
+   "ara": 2,
+   "yabanci": 0,
+   "komsu": {
+    "meksika": 2
+   },
+   "en_yakin_ayni": 380,
+   "hedef": "Santa Bárbara"
+  },
+  {
+   "gun": "1516-06-20",
+   "yerlesim": "Zebîd",
+   "sahip": "memluk",
+   "ada": [
+    "Zebîd"
+   ],
+   "ana_km": 379.9,
+   "ana": "Dahlak",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 14,
+   "yabanci": 12,
+   "komsu": {
+    "yemen": 7,
+    "memluk": 2,
+    "habesistan": 5
+   },
+   "en_yakin_ayni": 380,
+   "hedef": "Dahlak"
+  },
+  {
+   "gun": "1784-01-01",
+   "yerlesim": "Koil (Aligarh)",
+   "sahip": "maratha",
+   "ada": [
+    "Agra",
+    "Gvalyar (Gwalior)",
+    "Koil (Aligarh)",
+    "Mathura"
+   ],
+   "ana_km": 377.2,
+   "ana": "Ecmîr (Ajmer)",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 7,
+   "yabanci": 4,
+   "komsu": {
+    "babur-imparatorlugu": 1,
+    "maratha": 3,
+    "avad": 1,
+    "racput": 1,
+    "bharatpur-cat": 1
+   },
+   "en_yakin_ayni": 377,
+   "hedef": "Ecmîr (Ajmer)"
+  },
+  {
+   "gun": "1821-09-27",
+   "yerlesim": "Santa Fe",
+   "sahip": "meksika",
+   "ada": [
+    "Acoma Pueblo (Sky City)",
+    "Albuquerque",
+    "Santa Fe",
+    "Taos Pueblo"
+   ],
+   "ana_km": 376.1,
+   "ana": "Santa Rita del Cobre",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 7,
+   "yabanci": 2,
+   "komsu": {
+    "meksika": 3,
+    "—YOK—": 2,
+    "zuni": 1,
+    "meskalero-apaci": 1
+   },
+   "en_yakin_ayni": 376,
+   "hedef": "Santa Rita del Cobre"
+  },
+  {
+   "gun": "1803-12-30",
+   "yerlesim": "Kanbâyet (Khambhat)",
+   "sahip": "ingiliz-hindistani",
+   "ada": [
+    "Broaç (Bharuch)",
+    "Kanbâyet (Khambhat)",
+    "Sûrat"
+   ],
+   "ana_km": 375.9,
+   "ana": "Bombay",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 7,
+   "yabanci": 5,
+   "komsu": {
+    "maratha": 5,
+    "ingiliz-hindistani": 2
+   },
+   "en_yakin_ayni": 376,
+   "hedef": "Bombay"
+  },
+  {
+   "gun": "1547-01-01",
+   "yerlesim": "Chichén Itzá",
+   "sahip": "yeni-ispanya",
+   "ada": [
+    "Campeche (San Francisco de Campeche)",
+    "Chichén Itzá",
+    "Maní",
+    "Mérida",
+    "Sotuta"
+   ],
+   "ana_km": 373.6,
+   "ana": "Acalán (Itzamkanac)",
+   "kova": "B-bilinmiyor",
+   "sinif": "KORİDOR-ADAY",
+   "ara": 6,
+   "yabanci": 0,
+   "komsu": {
+    "—YOK—": 2,
+    "yeni-ispanya": 4
+   },
+   "en_yakin_ayni": 374,
+   "hedef": "Acalán (Itzamkanac)"
+  },
+  {
+   "gun": "1821-09-27",
+   "yerlesim": "Chichén Itzá",
+   "sahip": "meksika",
+   "ada": [
+    "Campeche (San Francisco de Campeche)",
+    "Chichén Itzá",
+    "Maní",
+    "Mérida",
+    "Sotuta"
+   ],
+   "ana_km": 373.6,
+   "ana": "Acalán (Itzamkanac)",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 6,
+   "yabanci": 1,
+   "komsu": {
+    "—YOK—": 1,
+    "meksika": 4,
+    "ingiltere": 1
+   },
+   "en_yakin_ayni": 374,
+   "hedef": "Acalán (Itzamkanac)"
+  },
+  {
+   "gun": "1640-12-01",
+   "yerlesim": "Bragança",
+   "sahip": "portekiz",
+   "ada": [
+    "Aveiro",
+    "Braga",
+    "Bragança",
+    "Coimbra",
+    "Porto"
+   ],
+   "ana_km": 372.7,
+   "ana": "Évora",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 7,
+   "yabanci": 2,
+   "komsu": {
+    "portekiz": 5,
+    "ispanya": 2
+   },
+   "en_yakin_ayni": 373,
+   "hedef": "Évora"
+  },
+  {
+   "gun": "1871-04-20",
+   "yerlesim": "Katîf",
+   "sahip": "OSMANLI",
+   "ada": [
+    "Cübeyl",
+    "Katîf",
+    "Lahsa",
+    "Ukayr (Uceyr)"
+   ],
+   "ana_km": 370.4,
+   "ana": "Kuveyt",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 7,
+   "yabanci": 4,
+   "komsu": {
+    "ingiltere": 1,
+    "OSMANLI": 3,
+    "kacar": 3
+   },
+   "en_yakin_ayni": 370,
+   "hedef": "Kuveyt"
+  },
+  {
+   "gun": "1706-04-23",
+   "yerlesim": "Albuquerque",
+   "sahip": "yeni-ispanya",
+   "ada": [
+    "Acoma Pueblo (Sky City)",
+    "Albuquerque",
+    "Santa Fe",
+    "Taos Pueblo"
+   ],
+   "ana_km": 369.9,
+   "ana": "El Paso del Norte",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 4,
+   "yabanci": 1,
+   "komsu": {
+    "yeni-ispanya": 2,
+    "—YOK—": 1,
+    "meskalero-apaci": 1
+   },
+   "en_yakin_ayni": 370,
+   "hedef": "El Paso del Norte"
+  },
+  {
+   "gun": "1830-07-05",
+   "yerlesim": "Şerşel (Cherchell)",
+   "sahip": "fransa-cumhuriyet",
+   "ada": [
+    "Blida",
+    "Cezayir",
+    "Medea (Titteri)",
+    "Miliana",
+    "Şerşel (Cherchell)"
+   ],
+   "ana_km": 369.7,
+   "ana": "Tilimsan",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 16,
+   "yabanci": 12,
+   "komsu": {
+    "fransa-cumhuriyet": 4,
+    "OSMANLI": 2,
+    "tâbi": 8,
+    "ispanya": 1,
+    "fas": 1
+   },
+   "en_yakin_ayni": 370,
+   "hedef": "Tilimsan"
+  },
+  {
+   "gun": "1806-05-27",
+   "yerlesim": "Dubrovnik",
+   "sahip": "fransa-cumhuriyet",
+   "ada": [
+    "Dubrovnik"
+   ],
+   "ana_km": 369.6,
+   "ana": "Korfu",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 41,
+   "yabanci": 38,
+   "komsu": {
+    "napoli": 4,
+    "OSMANLI": 30,
+    "karadag": 1,
+    "fransa-cumhuriyet": 3,
+    "avusturya": 3
+   },
+   "en_yakin_ayni": 370,
+   "hedef": "Korfu"
+  },
+  {
+   "gun": "1502-03-01",
+   "yerlesim": "Petrovsk (Saratov)",
+   "sahip": "astarhan",
+   "ada": [
+    "Petrovsk (Saratov)",
+    "Ukek (Uvek)"
+   ],
+   "ana_km": 369.3,
+   "ana": "Beldjamen",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 7,
+   "yabanci": 2,
+   "komsu": {
+    "—YOK—": 3,
+    "nogay": 2,
+    "astarhan": 2
+   },
+   "en_yakin_ayni": 369,
+   "hedef": "Beldjamen"
+  },
+  {
+   "gun": "1895-01-01",
+   "yerlesim": "Bondugu (Gyaaman)",
+   "sahip": "ingiltere",
+   "ada": [
+    "Bondugu (Gyaaman)"
+   ],
+   "ana_km": 365.6,
+   "ana": "Elmina (São Jorge da Mina)",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 6,
+   "yabanci": 5,
+   "komsu": {
+    "asanti": 1,
+    "gonja": 3,
+    "fransa-cumhuriyet": 1,
+    "ingiltere": 1
+   },
+   "en_yakin_ayni": 366,
+   "hedef": "Elmina (São Jorge da Mina)"
+  },
+  {
+   "gun": "1769-09-19",
+   "yerlesim": "Hotin",
+   "sahip": "rusya",
+   "ada": [
+    "Hotin"
+   ],
+   "ana_km": 362.4,
+   "ana": "Kiev",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 9,
+   "yabanci": 9,
+   "komsu": {
+    "tâbi": 3,
+    "lehistan": 5,
+    "kirim": 1
+   },
+   "en_yakin_ayni": 362,
+   "hedef": "Kiev"
+  },
+  {
+   "gun": "1333-07-04",
+   "yerlesim": "Kumamoto",
+   "sahip": "kenmu",
+   "ada": [
+    "Funai (Ōita)",
+    "Hakata (Fukuoka)",
+    "Kagoşima",
+    "Kumamoto",
+    "Tsuşima (İzuhara)"
+   ],
+   "ana_km": 361.3,
+   "ana": "Okayama",
+   "kova": "B-bilinmiyor",
+   "sinif": "KORİDOR-ADAY",
+   "ara": 9,
+   "yabanci": 0,
+   "komsu": {
+    "—YOK—": 6,
+    "kenmu": 3
+   },
+   "en_yakin_ayni": 361,
+   "hedef": "Okayama"
+  },
+  {
+   "gun": "1336-11-07",
+   "yerlesim": "Kumamoto",
+   "sahip": "muromachi",
+   "ada": [
+    "Funai (Ōita)",
+    "Hakata (Fukuoka)",
+    "Kagoşima",
+    "Kumamoto",
+    "Tsuşima (İzuhara)"
+   ],
+   "ana_km": 361.3,
+   "ana": "Okayama",
+   "kova": "B-bilinmiyor",
+   "sinif": "KORİDOR-ADAY",
+   "ara": 9,
+   "yabanci": 0,
+   "komsu": {
+    "—YOK—": 6,
+    "muromachi": 3
+   },
+   "en_yakin_ayni": 361,
+   "hedef": "Okayama"
+  },
+  {
+   "gun": "1830-07-05",
+   "yerlesim": "Tilimsan",
+   "sahip": "fransa-cumhuriyet",
+   "ada": [
+    "Tilimsan"
+   ],
+   "ana_km": 357.4,
+   "ana": "Miliana",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 16,
+   "yabanci": 12,
+   "komsu": {
+    "fransa-cumhuriyet": 4,
+    "OSMANLI": 2,
+    "tâbi": 8,
+    "ispanya": 1,
+    "fas": 1
+   },
+   "en_yakin_ayni": 357,
+   "hedef": "Miliana"
+  },
+  {
+   "gun": "1830-07-05",
+   "yerlesim": "Miliana",
+   "sahip": "fransa-cumhuriyet",
+   "ada": [
+    "Blida",
+    "Cezayir",
+    "Medea (Titteri)",
+    "Miliana",
+    "Şerşel (Cherchell)"
+   ],
+   "ana_km": 357.4,
+   "ana": "Tilimsan",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 16,
+   "yabanci": 12,
+   "komsu": {
+    "fransa-cumhuriyet": 4,
+    "OSMANLI": 2,
+    "tâbi": 8,
+    "ispanya": 1,
+    "fas": 1
+   },
+   "en_yakin_ayni": 357,
+   "hedef": "Tilimsan"
+  },
+  {
+   "gun": "1714-03-07",
+   "yerlesim": "Milano",
+   "sahip": "avusturya",
+   "ada": [
+    "Mantova",
+    "Milano"
+   ],
+   "ana_km": 357.1,
+   "ana": "Trieste",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 15,
+   "yabanci": 13,
+   "komsu": {
+    "avusturya": 2,
+    "venedik": 8,
+    "almanya": 1,
+    "parma": 1,
+    "papalik": 2,
+    "ferrara": 1
+   },
+   "en_yakin_ayni": 357,
+   "hedef": "Trieste"
+  },
+  {
+   "gun": "1622-05-01",
+   "yerlesim": "Ras el-Hayme (Cülfâr)",
+   "sahip": "umman",
+   "ada": [
+    "Buraymî",
+    "Ras el-Hayme (Cülfâr)",
+    "Şârika"
+   ],
+   "ana_km": 356.2,
+   "ana": "Nizva",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 5,
+   "yabanci": 3,
+   "komsu": {
+    "portekiz": 2,
+    "safevi": 1,
+    "umman": 2
+   },
+   "en_yakin_ayni": 356,
+   "hedef": "Nizva"
+  },
+  {
+   "gun": "1521-01-01",
+   "yerlesim": "Çaul (Chaul)",
+   "sahip": "portekiz",
+   "ada": [
+    "Çaul (Chaul)"
+   ],
+   "ana_km": 355.9,
+   "ana": "Goa",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 6,
+   "yabanci": 6,
+   "komsu": {
+    "ahmednagar": 3,
+    "bicapur": 2,
+    "gucerat-sultanligi": 1
+   },
+   "en_yakin_ayni": 356,
+   "hedef": "Goa"
+  },
+  {
+   "gun": "1398-01-01",
+   "yerlesim": "Gvalyar (Gwalior)",
+   "sahip": "racput",
+   "ada": [
+    "Gvalyar (Gwalior)"
+   ],
+   "ana_km": 354.1,
+   "ana": "Ecmîr (Ajmer)",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 4,
+   "yabanci": 1,
+   "komsu": {
+    "—YOK—": 3,
+    "delhi-sultanligi": 1
+   },
+   "en_yakin_ayni": 354,
+   "hedef": "Ecmîr (Ajmer)"
+  },
+  {
+   "gun": "1784-01-01",
+   "yerlesim": "Gvalyar (Gwalior)",
+   "sahip": "maratha",
+   "ada": [
+    "Agra",
+    "Gvalyar (Gwalior)",
+    "Koil (Aligarh)",
+    "Mathura"
+   ],
+   "ana_km": 354.1,
+   "ana": "Ecmîr (Ajmer)",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 4,
+   "yabanci": 3,
+   "komsu": {
+    "maratha": 1,
+    "avad": 1,
+    "racput": 1,
+    "bharatpur-cat": 1
+   },
+   "en_yakin_ayni": 354,
+   "hedef": "Ecmîr (Ajmer)"
+  },
+  {
+   "gun": "1687-09-21",
+   "yerlesim": "Arkot (Arcot)",
+   "sahip": "babur-imparatorlugu",
+   "ada": [
+    "Arkot (Arcot)",
+    "Vellor (Vellore)"
+   ],
+   "ana_km": 353.1,
+   "ana": "Kurnûl (Kurnool)",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 6,
+   "yabanci": 4,
+   "komsu": {
+    "babur-imparatorlugu": 2,
+    "meysur": 1,
+    "ingiltere": 1,
+    "fransa": 1,
+    "maratha": 1
+   },
+   "en_yakin_ayni": 353,
+   "hedef": "Kurnûl (Kurnool)"
+  },
+  {
+   "gun": "1622-05-01",
+   "yerlesim": "Şârika",
+   "sahip": "umman",
+   "ada": [
+    "Buraymî",
+    "Ras el-Hayme (Cülfâr)",
+    "Şârika"
+   ],
+   "ana_km": 346.2,
+   "ana": "Nizva",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 6,
+   "yabanci": 3,
+   "komsu": {
+    "portekiz": 2,
+    "—YOK—": 1,
+    "safevi": 1,
+    "umman": 2
+   },
+   "en_yakin_ayni": 346,
+   "hedef": "Nizva"
+  },
+  {
+   "gun": "1333-07-04",
+   "yerlesim": "Hakata (Fukuoka)",
+   "sahip": "kenmu",
+   "ada": [
+    "Funai (Ōita)",
+    "Hakata (Fukuoka)",
+    "Kagoşima",
+    "Kumamoto",
+    "Tsuşima (İzuhara)"
+   ],
+   "ana_km": 344.7,
+   "ana": "Okayama",
+   "kova": "B-bilinmiyor",
+   "sinif": "KORİDOR-ADAY",
+   "ara": 9,
+   "yabanci": 0,
+   "komsu": {
+    "—YOK—": 6,
+    "kenmu": 3
+   },
+   "en_yakin_ayni": 345,
+   "hedef": "Okayama"
+  },
+  {
+   "gun": "1336-11-07",
+   "yerlesim": "Hakata (Fukuoka)",
+   "sahip": "muromachi",
+   "ada": [
+    "Funai (Ōita)",
+    "Hakata (Fukuoka)",
+    "Kagoşima",
+    "Kumamoto",
+    "Tsuşima (İzuhara)"
+   ],
+   "ana_km": 344.7,
+   "ana": "Okayama",
+   "kova": "B-bilinmiyor",
+   "sinif": "KORİDOR-ADAY",
+   "ara": 9,
+   "yabanci": 0,
+   "komsu": {
+    "—YOK—": 6,
+    "muromachi": 3
+   },
+   "en_yakin_ayni": 345,
+   "hedef": "Okayama"
+  },
+  {
+   "gun": "1723-08-01",
+   "yerlesim": "Şamahı",
+   "sahip": "OSMANLI",
+   "ada": [
+    "Şamahı"
+   ],
+   "ana_km": 344.6,
+   "ana": "Tiflis",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 14,
+   "yabanci": 12,
+   "komsu": {
+    "gurcistan": 1,
+    "safevi": 10,
+    "rusya": 1,
+    "—YOK—": 1,
+    "OSMANLI": 1
+   },
+   "en_yakin_ayni": 345,
+   "hedef": "Tiflis"
+  },
+  {
+   "gun": "1687-09-21",
+   "yerlesim": "Vellor (Vellore)",
+   "sahip": "babur-imparatorlugu",
+   "ada": [
+    "Arkot (Arcot)",
+    "Vellor (Vellore)"
+   ],
+   "ana_km": 344.6,
+   "ana": "Kurnûl (Kurnool)",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 5,
+   "yabanci": 3,
+   "komsu": {
+    "babur-imparatorlugu": 2,
+    "meysur": 1,
+    "fransa": 1,
+    "maratha": 1
+   },
+   "en_yakin_ayni": 345,
+   "hedef": "Kurnûl (Kurnool)"
+  },
+  {
+   "gun": "1761-01-14",
+   "yerlesim": "Agra",
+   "sahip": "maratha",
+   "ada": [
+    "Agra"
+   ],
+   "ana_km": 344.0,
+   "ana": "Ecmîr (Ajmer)",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 5,
+   "yabanci": 5,
+   "komsu": {
+    "babur-imparatorlugu": 3,
+    "racput": 1,
+    "bharatpur-cat": 1
+   },
+   "en_yakin_ayni": 344,
+   "hedef": "Ecmîr (Ajmer)"
+  },
+  {
+   "gun": "1503-01-01",
+   "yerlesim": "Zanzibar (Zengibar)",
+   "sahip": "portekiz",
+   "ada": [
+    "Zanzibar (Zengibar)"
+   ],
+   "ana_km": 343.3,
+   "ana": "Malindi",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 5,
+   "yabanci": 5,
+   "komsu": {
+    "svahili-sehirleri": 5
+   },
+   "en_yakin_ayni": 343,
+   "hedef": "Malindi"
+  },
+  {
+   "gun": "1542-01-06",
+   "yerlesim": "Mérida",
+   "sahip": "yeni-ispanya",
+   "ada": [
+    "Campeche (San Francisco de Campeche)",
+    "Maní",
+    "Mérida"
+   ],
+   "ana_km": 339.7,
+   "ana": "Acalán (Itzamkanac)",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 4,
+   "yabanci": 1,
+   "komsu": {
+    "—YOK—": 1,
+    "yeni-ispanya": 2,
+    "maya-sehir-devletleri": 1
+   },
+   "en_yakin_ayni": 340,
+   "hedef": "Acalán (Itzamkanac)"
+  },
+  {
+   "gun": "1821-09-27",
+   "yerlesim": "Mérida",
+   "sahip": "meksika",
+   "ada": [
+    "Campeche (San Francisco de Campeche)",
+    "Chichén Itzá",
+    "Maní",
+    "Mérida",
+    "Sotuta"
+   ],
+   "ana_km": 339.7,
+   "ana": "Acalán (Itzamkanac)",
+   "kova": "B-bilinmiyor",
+   "sinif": "KORİDOR-ADAY",
+   "ara": 4,
+   "yabanci": 0,
+   "komsu": {
+    "—YOK—": 1,
+    "meksika": 3
+   },
+   "en_yakin_ayni": 340,
+   "hedef": "Acalán (Itzamkanac)"
+  },
+  {
+   "gun": "1602-01-01",
+   "yerlesim": "Manama (Bahreyn)",
+   "sahip": "safevi",
+   "ada": [
+    "Manama (Bahreyn)"
+   ],
+   "ana_km": 339.6,
+   "ana": "Kiş (Kish)",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 7,
+   "yabanci": 4,
+   "komsu": {
+    "OSMANLI": 4,
+    "—YOK—": 2,
+    "safevi": 1
+   },
+   "en_yakin_ayni": 340,
+   "hedef": "Kiş (Kish)"
+  },
+  {
+   "gun": "1899-04-09",
+   "yerlesim": "Masindi",
+   "sahip": "ingiltere",
+   "ada": [
+    "Hoima (Bunyoro)",
+    "Masindi"
+   ],
+   "ana_km": 338.5,
+   "ana": "Bveranyange (Karagve)",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 6,
+   "yabanci": 4,
+   "komsu": {
+    "buganda": 1,
+    "—YOK—": 1,
+    "ingiltere": 1,
+    "toro": 1,
+    "nkore": 1,
+    "almanya": 1
+   },
+   "en_yakin_ayni": 338,
+   "hedef": "Bveranyange (Karagve)"
+  },
+  {
+   "gun": "1452-01-01",
+   "yerlesim": "Bistâm",
+   "sahip": "karakoyunlu",
+   "ada": [
+    "Bistâm",
+    "Dâmgan",
+    "Simnân"
+   ],
+   "ana_km": 337.0,
+   "ana": "Tahran",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 8,
+   "yabanci": 5,
+   "komsu": {
+    "karakoyunlu": 2,
+    "mazenderan-marasi": 4,
+    "—YOK—": 1,
+    "timurlu": 1
+   },
+   "en_yakin_ayni": 337,
+   "hedef": "Tahran"
+  },
+  {
+   "gun": "1469-01-01",
+   "yerlesim": "Bistâm",
+   "sahip": "akkoyunlu",
+   "ada": [
+    "Bistâm",
+    "Dâmgan",
+    "Simnân"
+   ],
+   "ana_km": 337.0,
+   "ana": "Tahran",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 8,
+   "yabanci": 5,
+   "komsu": {
+    "akkoyunlu": 2,
+    "mazenderan-marasi": 4,
+    "—YOK—": 1,
+    "timurlu": 1
+   },
+   "en_yakin_ayni": 337,
+   "hedef": "Tahran"
+  },
+  {
+   "gun": "1503-01-01",
+   "yerlesim": "Bistâm",
+   "sahip": "safevi",
+   "ada": [
+    "Bistâm",
+    "Dâmgan",
+    "Simnân"
+   ],
+   "ana_km": 337.0,
+   "ana": "Tahran",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 8,
+   "yabanci": 5,
+   "komsu": {
+    "safevi": 2,
+    "mazenderan-marasi": 4,
+    "—YOK—": 1,
+    "timurlu": 1
+   },
+   "en_yakin_ayni": 337,
+   "hedef": "Tahran"
+  },
+  {
+   "gun": "1880-01-01",
+   "yerlesim": "Karonga",
+   "sahip": "umman-zengibar",
+   "ada": [
+    "Karonga"
+   ],
+   "ana_km": 336.0,
+   "ana": "Nkhotakota (Cumbe)",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 3,
+   "yabanci": 2,
+   "komsu": {
+    "ngoni": 1,
+    "ngonde": 1,
+    "—YOK—": 1
+   },
+   "en_yakin_ayni": 336,
+   "hedef": "Nkhotakota (Cumbe)"
+  },
+  {
+   "gun": "1895-01-01",
+   "yerlesim": "Karonga",
+   "sahip": "ingiltere",
+   "ada": [
+    "Karonga",
+    "Mbande (Ngonde)"
+   ],
+   "ana_km": 336.0,
+   "ana": "Nkhotakota (Cumbe)",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 3,
+   "yabanci": 1,
+   "komsu": {
+    "ngoni": 1,
+    "ingiltere": 1,
+    "—YOK—": 1
+   },
+   "en_yakin_ayni": 336,
+   "hedef": "Nkhotakota (Cumbe)"
+  },
+  {
+   "gun": "1426-01-01",
+   "yerlesim": "Brescia",
+   "sahip": "venedik",
+   "ada": [
+    "Brescia",
+    "Padova",
+    "Udine",
+    "Venedik",
+    "Verona"
+   ],
+   "ana_km": 335.4,
+   "ana": "Cres (Cherso)",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 20,
+   "yabanci": 11,
+   "komsu": {
+    "avusturya": 2,
+    "venedik": 9,
+    "milanoduka": 2,
+    "almanya": 1,
+    "mantua": 1,
+    "ferrara": 2,
+    "papalik": 3
+   },
+   "en_yakin_ayni": 335,
+   "hedef": "Cres (Cherso)"
+  },
+  {
+   "gun": "1545-01-01",
+   "yerlesim": "Sotuta",
+   "sahip": "yeni-ispanya",
+   "ada": [
+    "Campeche (San Francisco de Campeche)",
+    "Maní",
+    "Mérida",
+    "Sotuta"
+   ],
+   "ana_km": 335.0,
+   "ana": "Acalán (Itzamkanac)",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 6,
+   "yabanci": 1,
+   "komsu": {
+    "—YOK—": 2,
+    "maya-sehir-devletleri": 1,
+    "yeni-ispanya": 3
+   },
+   "en_yakin_ayni": 335,
+   "hedef": "Acalán (Itzamkanac)"
+  },
+  {
+   "gun": "1821-09-27",
+   "yerlesim": "Sotuta",
+   "sahip": "meksika",
+   "ada": [
+    "Campeche (San Francisco de Campeche)",
+    "Chichén Itzá",
+    "Maní",
+    "Mérida",
+    "Sotuta"
+   ],
+   "ana_km": 335.0,
+   "ana": "Acalán (Itzamkanac)",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 6,
+   "yabanci": 1,
+   "komsu": {
+    "—YOK—": 1,
+    "meksika": 4,
+    "ingiltere": 1
+   },
+   "en_yakin_ayni": 335,
+   "hedef": "Acalán (Itzamkanac)"
+  },
+  {
+   "gun": "1795-01-01",
+   "yerlesim": "Pursat",
+   "sahip": "siyam-chakri",
+   "ada": [
+    "Angkor (Siem Reap)",
+    "Battambang",
+    "Chanthaburi",
+    "Pursat",
+    "Sisophon"
+   ],
+   "ana_km": 335.0,
+   "ana": "Nakhon Ratchasima",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 8,
+   "yabanci": 4,
+   "komsu": {
+    "siyam-chakri": 4,
+    "kamboc-kralligi": 4
+   },
+   "en_yakin_ayni": 335,
+   "hedef": "Nakhon Ratchasima"
+  },
+  {
+   "gun": "1524-01-01",
+   "yerlesim": "Katîf",
+   "sahip": "safevi",
+   "ada": [
+    "Cübeyl",
+    "Katîf",
+    "Lahsa",
+    "Ukayr (Uceyr)"
+   ],
+   "ana_km": 333.3,
+   "ana": "Bender Rîg",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 4,
+   "yabanci": 1,
+   "komsu": {
+    "portekiz": 1,
+    "—YOK—": 1,
+    "safevi": 2
+   },
+   "en_yakin_ayni": 333,
+   "hedef": "Bender Rîg"
+  },
+  {
+   "gun": "1887-01-01",
+   "yerlesim": "Mbande (Ngonde)",
+   "sahip": "umman-zengibar",
+   "ada": [
+    "Karonga",
+    "Mbande (Ngonde)"
+   ],
+   "ana_km": 331.7,
+   "ana": "Nkhotakota (Cumbe)",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 3,
+   "yabanci": 1,
+   "komsu": {
+    "ngoni": 1,
+    "umman-zengibar": 1,
+    "—YOK—": 1
+   },
+   "en_yakin_ayni": 332,
+   "hedef": "Nkhotakota (Cumbe)"
+  },
+  {
+   "gun": "1895-01-01",
+   "yerlesim": "Mbande (Ngonde)",
+   "sahip": "ingiltere",
+   "ada": [
+    "Karonga",
+    "Mbande (Ngonde)"
+   ],
+   "ana_km": 331.7,
+   "ana": "Nkhotakota (Cumbe)",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 3,
+   "yabanci": 1,
+   "komsu": {
+    "ngoni": 1,
+    "ingiltere": 1,
+    "—YOK—": 1
+   },
+   "en_yakin_ayni": 332,
+   "hedef": "Nkhotakota (Cumbe)"
+  },
+  {
+   "gun": "1438-01-01",
+   "yerlesim": "Trang",
+   "sahip": "ayutthaya",
+   "ada": [
+    "Nakhon Si Thammarat",
+    "Phuket (Thalang)",
+    "Songkhla",
+    "Surat Thani",
+    "Trang"
+   ],
+   "ana_km": 329.2,
+   "ana": "Chumphon",
+   "kova": "B-bilinmiyor",
+   "sinif": "KORİDOR-ADAY",
+   "ara": 4,
+   "yabanci": 0,
+   "komsu": {
+    "ayutthaya": 4
+   },
+   "en_yakin_ayni": 329,
+   "hedef": "Chumphon"
+  },
+  {
+   "gun": "1767-04-07",
+   "yerlesim": "Trang",
+   "sahip": "tonburi",
+   "ada": [
+    "Nakhon Si Thammarat",
+    "Phuket (Thalang)",
+    "Songkhla",
+    "Surat Thani",
+    "Trang"
+   ],
+   "ana_km": 329.2,
+   "ana": "Chumphon",
+   "kova": "B-bilinmiyor",
+   "sinif": "KORİDOR-ADAY",
+   "ara": 4,
+   "yabanci": 0,
+   "komsu": {
+    "tonburi": 4
+   },
+   "en_yakin_ayni": 329,
+   "hedef": "Chumphon"
+  },
+  {
+   "gun": "1782-04-06",
+   "yerlesim": "Trang",
+   "sahip": "siyam-chakri",
+   "ada": [
+    "Nakhon Si Thammarat",
+    "Phuket (Thalang)",
+    "Songkhla",
+    "Surat Thani",
+    "Trang"
+   ],
+   "ana_km": 329.2,
+   "ana": "Chumphon",
+   "kova": "B-bilinmiyor",
+   "sinif": "KORİDOR-ADAY",
+   "ara": 4,
+   "yabanci": 0,
+   "komsu": {
+    "siyam-chakri": 4
+   },
+   "en_yakin_ayni": 329,
+   "hedef": "Chumphon"
+  },
+  {
+   "gun": "1847-01-01",
+   "yerlesim": "East London",
+   "sahip": "ingiltere",
+   "ada": [
+    "East London",
+    "Grahamstown",
+    "King William's Town",
+    "Port Elizabeth"
+   ],
+   "ana_km": 327.7,
+   "ana": "Graaff-Reinet",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 5,
+   "yabanci": 1,
+   "komsu": {
+    "—YOK—": 1,
+    "xhosa": 1,
+    "ingiltere": 3
+   },
+   "en_yakin_ayni": 328,
+   "hedef": "Graaff-Reinet"
+  },
+  {
+   "gun": "1502-03-01",
+   "yerlesim": "Astrahan",
+   "sahip": "astarhan",
+   "ada": [
+    "Astrahan",
+    "Saray (Selitrennoye)"
+   ],
+   "ana_km": 327.5,
+   "ana": "Yeni Saray (Tsarev)",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 8,
+   "yabanci": 2,
+   "komsu": {
+    "—YOK—": 4,
+    "nogay": 2,
+    "astarhan": 2
+   },
+   "en_yakin_ayni": 328,
+   "hedef": "Yeni Saray (Tsarev)"
+  },
+  {
+   "gun": "1863-12-04",
+   "yerlesim": "Suzhou",
+   "sahip": "qing-hanedani",
+   "ada": [
+    "Ningbo",
+    "Shaoxing",
+    "Suzhou",
+    "Şanghay"
+   ],
+   "ana_km": 323.4,
+   "ana": "Hefei",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 5,
+   "yabanci": 3,
+   "komsu": {
+    "taiping": 3,
+    "qing-hanedani": 2
+   },
+   "en_yakin_ayni": 323,
+   "hedef": "Hefei"
+  },
+  {
+   "gun": "1777-01-01",
+   "yerlesim": "Cayuga",
+   "sahip": "ingiltere",
+   "ada": [
+    "Cayuga",
+    "Mohawk (Kayenlaha'ke)",
+    "Oneida",
+    "Onondaga (İrokua Konfederasyon Merkezi)",
+    "Seneca (Ganondagan)"
+   ],
+   "ana_km": 323.1,
+   "ana": "Ossossané",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 5,
+   "yabanci": 2,
+   "komsu": {
+    "ingiltere": 3,
+    "ingiliz-kuzey-amerika": 2
+   },
+   "en_yakin_ayni": 323,
+   "hedef": "Ossossané"
+  },
+  {
+   "gun": "1775-02-01",
+   "yerlesim": "Quang Ngai",
+   "sahip": "le-hanedani",
+   "ada": [
+    "Huế (Phú Xuân)",
+    "Hội An (Faifo)",
+    "Quang Ngai",
+    "Quang Tri",
+    "Đà Nẵng (Tourane)"
+   ],
+   "ana_km": 323.0,
+   "ana": "Nha Trang (Kauthara)",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 4,
+   "yabanci": 2,
+   "komsu": {
+    "le-hanedani": 2,
+    "tay-son": 1,
+    "campa": 1
+   },
+   "en_yakin_ayni": 323,
+   "hedef": "Nha Trang (Kauthara)"
+  },
+  {
+   "gun": "1770-01-01",
+   "yerlesim": "Mathura",
+   "sahip": "maratha",
+   "ada": [
+    "Agra",
+    "Mathura"
+   ],
+   "ana_km": 322.2,
+   "ana": "Ecmîr (Ajmer)",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 5,
+   "yabanci": 4,
+   "komsu": {
+    "maratha": 1,
+    "babur-imparatorlugu": 2,
+    "racput": 1,
+    "bharatpur-cat": 1
+   },
+   "en_yakin_ayni": 322,
+   "hedef": "Ecmîr (Ajmer)"
+  },
+  {
+   "gun": "1777-01-01",
+   "yerlesim": "Onondaga (İrokua Konfederasyon Merkezi)",
+   "sahip": "ingiltere",
+   "ada": [
+    "Cayuga",
+    "Mohawk (Kayenlaha'ke)",
+    "Oneida",
+    "Onondaga (İrokua Konfederasyon Merkezi)",
+    "Seneca (Ganondagan)"
+   ],
+   "ana_km": 320.5,
+   "ana": "Hartford",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 4,
+   "yabanci": 1,
+   "komsu": {
+    "ingiltere": 3,
+    "abd": 1
+   },
+   "en_yakin_ayni": 321,
+   "hedef": "Hartford"
+  },
+  {
+   "gun": "1640-12-01",
+   "yerlesim": "Braga",
+   "sahip": "portekiz",
+   "ada": [
+    "Aveiro",
+    "Braga",
+    "Bragança",
+    "Coimbra",
+    "Porto"
+   ],
+   "ana_km": 319.7,
+   "ana": "Lizbon",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 6,
+   "yabanci": 1,
+   "komsu": {
+    "portekiz": 5,
+    "ispanya": 1
+   },
+   "en_yakin_ayni": 320,
+   "hedef": "Lizbon"
+  },
+  {
+   "gun": "1801-11-10",
+   "yerlesim": "Etâve (Etawah)",
+   "sahip": "ingiliz-hindistani",
+   "ada": [
+    "Etâve (Etawah)",
+    "Kannauc",
+    "Kanpûr"
+   ],
+   "ana_km": 319.6,
+   "ana": "Ilâhâbâd (Allahabad)",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 6,
+   "yabanci": 3,
+   "komsu": {
+    "ingiliz-hindistani": 3,
+    "avad": 2,
+    "maratha": 1
+   },
+   "en_yakin_ayni": 320,
+   "hedef": "Ilâhâbâd (Allahabad)"
+  },
+  {
+   "gun": "1849-01-01",
+   "yerlesim": "Hudeyde",
+   "sahip": "OSMANLI",
+   "ada": [
+    "Hudeyde",
+    "Moha",
+    "Zebîd"
+   ],
+   "ana_km": 318.0,
+   "ana": "Dahlak",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 9,
+   "yabanci": 6,
+   "komsu": {
+    "OSMANLI": 3,
+    "yemen": 3,
+    "habesistan": 3
+   },
+   "en_yakin_ayni": 318,
+   "hedef": "Dahlak"
+  },
+  {
+   "gun": "1306-01-01",
+   "yerlesim": "Huế (Phú Xuân)",
+   "sahip": "tran-hanedani",
+   "ada": [
+    "Huế (Phú Xuân)",
+    "Quang Tri"
+   ],
+   "ana_km": 317.1,
+   "ana": "Vinh",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 4,
+   "yabanci": 3,
+   "komsu": {
+    "campa": 2,
+    "lan-xang": 1,
+    "tran-hanedani": 1
+   },
+   "en_yakin_ayni": 317,
+   "hedef": "Vinh"
+  },
+  {
+   "gun": "1400-03-01",
+   "yerlesim": "Huế (Phú Xuân)",
+   "sahip": "ho-hanedani",
+   "ada": [
+    "Huế (Phú Xuân)",
+    "Quang Tri"
+   ],
+   "ana_km": 317.1,
+   "ana": "Vinh",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 4,
+   "yabanci": 3,
+   "komsu": {
+    "campa": 2,
+    "lan-xang": 1,
+    "ho-hanedani": 1
+   },
+   "en_yakin_ayni": 317,
+   "hedef": "Vinh"
+  },
+  {
+   "gun": "1407-06-17",
+   "yerlesim": "Huế (Phú Xuân)",
+   "sahip": "ming-hanedani",
+   "ada": [
+    "Huế (Phú Xuân)",
+    "Quang Tri"
+   ],
+   "ana_km": 317.1,
+   "ana": "Vinh",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 4,
+   "yabanci": 3,
+   "komsu": {
+    "campa": 2,
+    "lan-xang": 1,
+    "ming-hanedani": 1
+   },
+   "en_yakin_ayni": 317,
+   "hedef": "Vinh"
+  },
+  {
+   "gun": "1428-01-03",
+   "yerlesim": "Huế (Phú Xuân)",
+   "sahip": "le-hanedani",
+   "ada": [
+    "Huế (Phú Xuân)",
+    "Quang Tri"
+   ],
+   "ana_km": 317.1,
+   "ana": "Vinh",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 4,
+   "yabanci": 3,
+   "komsu": {
+    "campa": 2,
+    "lan-xang": 1,
+    "le-hanedani": 1
+   },
+   "en_yakin_ayni": 317,
+   "hedef": "Vinh"
+  },
+  {
+   "gun": "1775-02-01",
+   "yerlesim": "Huế (Phú Xuân)",
+   "sahip": "le-hanedani",
+   "ada": [
+    "Huế (Phú Xuân)",
+    "Hội An (Faifo)",
+    "Quang Ngai",
+    "Quang Tri",
+    "Đà Nẵng (Tourane)"
+   ],
+   "ana_km": 317.1,
+   "ana": "Vinh",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 4,
+   "yabanci": 1,
+   "komsu": {
+    "le-hanedani": 3,
+    "laos-kralliklari": 1
+   },
+   "en_yakin_ayni": 317,
+   "hedef": "Vinh"
+  },
+  {
+   "gun": "1543-01-01",
+   "yerlesim": "Antigua Guatemala (Santiago de los Caballeros)",
+   "sahip": "yeni-ispanya",
+   "ada": [
+    "Antigua Guatemala (Santiago de los Caballeros)"
+   ],
+   "ana_km": 316.9,
+   "ana": "San Cristóbal de las Casas (Ciudad Real)",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 4,
+   "yabanci": 1,
+   "komsu": {
+    "—YOK—": 3,
+    "maya-sehir-devletleri": 1
+   },
+   "en_yakin_ayni": 317,
+   "hedef": "San Cristóbal de las Casas (Ciudad Real)"
+  },
+  {
+   "gun": "1657-03-29",
+   "yerlesim": "Bîdar",
+   "sahip": "babur-imparatorlugu",
+   "ada": [
+    "Bîdar"
+   ],
+   "ana_km": 316.4,
+   "ana": "Evrengâbâd",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 5,
+   "yabanci": 3,
+   "komsu": {
+    "babur-imparatorlugu": 2,
+    "bicapur": 1,
+    "golkonda": 2
+   },
+   "en_yakin_ayni": 316,
+   "hedef": "Evrengâbâd"
+  },
+  {
+   "gun": "1849-01-01",
+   "yerlesim": "Zebîd",
+   "sahip": "OSMANLI",
+   "ada": [
+    "Hudeyde",
+    "Moha",
+    "Zebîd"
+   ],
+   "ana_km": 316.2,
+   "ana": "Zeyla",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 10,
+   "yabanci": 7,
+   "komsu": {
+    "OSMANLI": 2,
+    "yemen": 1,
+    "adal": 5,
+    "somali": 1,
+    "—YOK—": 1
+   },
+   "en_yakin_ayni": 316,
+   "hedef": "Zeyla"
+  },
+  {
+   "gun": "1824-12-09",
+   "yerlesim": "Vilcabamba (Espíritu Pampa)",
+   "sahip": "peru-cumhuriyeti",
+   "ada": [
+    "Cusco (Qosqo)",
+    "Huamanga (Ayacucho)",
+    "Ollantaytambo",
+    "Vilcabamba (Espíritu Pampa)",
+    "Vilcashuamán"
+   ],
+   "ana_km": 315.7,
+   "ana": "Cerro de la Sal",
+   "kova": "B-bilinmiyor",
+   "sinif": "KORİDOR-ADAY",
+   "ara": 3,
+   "yabanci": 0,
+   "komsu": {
+    "peru-cumhuriyeti": 2,
+    "—YOK—": 1
+   },
+   "en_yakin_ayni": 316,
+   "hedef": "Cerro de la Sal"
+  },
+  {
+   "gun": "1805-07-20",
+   "yerlesim": "Bedir",
+   "sahip": "suud",
+   "ada": [
+    "Bedir",
+    "Hayber",
+    "Medine",
+    "Yenbu"
+   ],
+   "ana_km": 314.9,
+   "ana": "Tâif",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 5,
+   "yabanci": 3,
+   "komsu": {
+    "tâbi": 1,
+    "suud": 2,
+    "OSMANLI": 2
+   },
+   "en_yakin_ayni": 315,
+   "hedef": "Tâif"
+  },
+  {
+   "gun": "1881-01-30",
+   "yerlesim": "Ebîverd",
+   "sahip": "rusya",
+   "ada": [
+    "Aşkabad",
+    "Ebîverd",
+    "Nesâ"
+   ],
+   "ana_km": 314.3,
+   "ana": "Kızılarvat",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 8,
+   "yabanci": 4,
+   "komsu": {
+    "—YOK—": 2,
+    "kacar": 4,
+    "rusya": 2
+   },
+   "en_yakin_ayni": 314,
+   "hedef": "Kızılarvat"
+  },
+  {
+   "gun": "1535-11-01",
+   "yerlesim": "Milano",
+   "sahip": "ispanya",
+   "ada": [
+    "Milano"
+   ],
+   "ana_km": 312.9,
+   "ana": "Besançon",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 15,
+   "yabanci": 15,
+   "komsu": {
+    "sardinya": 2,
+    "fransa": 2,
+    "almanya": 4,
+    "isvicre": 5,
+    "savoya": 1,
+    "venedik": 1
+   },
+   "en_yakin_ayni": 313,
+   "hedef": "Besançon"
+  },
+  {
+   "gun": "1716-01-01",
+   "yerlesim": "Kuveyt",
+   "sahip": "benihalid",
+   "ada": [
+    "Kuveyt"
+   ],
+   "ana_km": 310.6,
+   "ana": "Cübeyl",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 4,
+   "yabanci": 3,
+   "komsu": {
+    "safevi": 1,
+    "OSMANLI": 2,
+    "benihalid": 1
+   },
+   "en_yakin_ayni": 311,
+   "hedef": "Cübeyl"
+  },
+  {
+   "gun": "1371-09-26",
+   "yerlesim": "Köprülü (Veles)",
+   "sahip": "OSMANLI",
+   "ada": [
+    "Doyran",
+    "Köprülü (Veles)",
+    "Ustrumca (Strumica)",
+    "İştip (Štip)"
+   ],
+   "ana_km": 309.9,
+   "ana": "Gümülcine",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 41,
+   "yabanci": 32,
+   "komsu": {
+    "bizans": 9,
+    "OSMANLI": 6,
+    "—YOK—": 3,
+    "bulgaristan": 6,
+    "sirbistan": 12,
+    "ceneviz": 2,
+    "tâbi": 3
+   },
+   "en_yakin_ayni": 310,
+   "hedef": "Gümülcine"
+  },
+  {
+   "gun": "1772-11-18",
+   "yerlesim": "Broaç (Bharuch)",
+   "sahip": "ingiliz-hindistani",
+   "ada": [
+    "Broaç (Bharuch)",
+    "Sûrat"
+   ],
+   "ana_km": 308.9,
+   "ana": "Bombay",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 7,
+   "yabanci": 6,
+   "komsu": {
+    "ingiliz-hindistani": 1,
+    "maratha": 6
+   },
+   "en_yakin_ayni": 309,
+   "hedef": "Bombay"
+  },
+  {
+   "gun": "1441-01-01",
+   "yerlesim": "Sloboda bozkırı",
+   "sahip": "kirim",
+   "ada": [
+    "Belgorod",
+    "Harkov",
+    "Sloboda bozkırı"
+   ],
+   "ana_km": 308.7,
+   "ana": "Voronej",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 7,
+   "yabanci": 1,
+   "komsu": {
+    "kirim": 2,
+    "altinorda": 1,
+    "—YOK—": 4
+   },
+   "en_yakin_ayni": 309,
+   "hedef": "Voronej"
+  },
+  {
+   "gun": "1448-01-01",
+   "yerlesim": "Visoko",
+   "sahip": "OSMANLI",
+   "ada": [
+    "Saraybosna",
+    "Visoko"
+   ],
+   "ana_km": 308.1,
+   "ana": "Niş",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 30,
+   "yabanci": 27,
+   "komsu": {
+    "OSMANLI": 2,
+    "sirbistan": 3,
+    "sirp-despotlugu": 6,
+    "macaristan": 3,
+    "bosna": 12,
+    "—YOK—": 1,
+    "venedik": 2,
+    "eflak": 1
+   },
+   "en_yakin_ayni": 308,
+   "hedef": "Niş"
+  },
+  {
+   "gun": "1893-11-04",
+   "yerlesim": "Bulavayo",
+   "sahip": "ingiltere",
+   "ada": [
+    "Bulavayo",
+    "Danangombe (Rozvi)",
+    "Khami"
+   ],
+   "ana_km": 306.2,
+   "ana": "Palapye",
+   "kova": "B-bilinmiyor",
+   "sinif": "KORİDOR-ADAY",
+   "ara": 6,
+   "yabanci": 0,
+   "komsu": {
+    "—YOK—": 2,
+    "ingiltere": 4
+   },
+   "en_yakin_ayni": 306,
+   "hedef": "Palapye"
+  },
+  {
+   "gun": "1737-07-13",
+   "yerlesim": "Özi",
+   "sahip": "rusya",
+   "ada": [
+    "Özi"
+   ],
+   "ana_km": 305.9,
+   "ana": "Kremençuk",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 7,
+   "yabanci": 5,
+   "komsu": {
+    "OSMANLI": 2,
+    "lehistan": 1,
+    "tâbi": 1,
+    "kirim": 1,
+    "rusya": 1,
+    "—YOK—": 1
+   },
+   "en_yakin_ayni": 306,
+   "hedef": "Kremençuk"
+  },
+  {
+   "gun": "1753-01-01",
+   "yerlesim": "Manama (Bahreyn)",
+   "sahip": "zend",
+   "ada": [
+    "Manama (Bahreyn)"
+   ],
+   "ana_km": 305.7,
+   "ana": "Buşehr",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 8,
+   "yabanci": 4,
+   "komsu": {
+    "benihalid": 4,
+    "—YOK—": 2,
+    "zend": 2
+   },
+   "en_yakin_ayni": 306,
+   "hedef": "Buşehr"
+  },
+  {
+   "gun": "1600-08-28",
+   "yerlesim": "Ahmednagar",
+   "sahip": "babur-imparatorlugu",
+   "ada": [
+    "Ahmednagar"
+   ],
+   "ana_km": 305.4,
+   "ana": "Sûrat",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 8,
+   "yabanci": 6,
+   "komsu": {
+    "babur-imparatorlugu": 1,
+    "ahmednagar": 4,
+    "—YOK—": 1,
+    "portekiz": 2
+   },
+   "en_yakin_ayni": 305,
+   "hedef": "Sûrat"
+  },
+  {
+   "gun": "1561-11-28",
+   "yerlesim": "Pärnu",
+   "sahip": "lehistan",
+   "ada": [
+    "Cēsis (Wenden)",
+    "Pärnu",
+    "Riga",
+    "Tartu (Dorpat)"
+   ],
+   "ana_km": 305.1,
+   "ana": "Daugavpils (Dünaburg)",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 4,
+   "yabanci": 1,
+   "komsu": {
+    "lehistan": 3,
+    "litvanya-buyuk-dukalik": 1
+   },
+   "en_yakin_ayni": 305,
+   "hedef": "Daugavpils (Dünaburg)"
+  },
+  {
+   "gun": "1899-01-19",
+   "yerlesim": "Kerma",
+   "sahip": "ingiltere",
+   "ada": [
+    "Debbe",
+    "Dongola",
+    "Kerma",
+    "Kortî",
+    "Merevî"
+   ],
+   "ana_km": 304.9,
+   "ana": "Ebû Hamed",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 5,
+   "yabanci": 1,
+   "komsu": {
+    "ingiltere": 3,
+    "—YOK—": 1,
+    "ingiliz-sudani": 1
+   },
+   "en_yakin_ayni": 305,
+   "hedef": "Ebû Hamed"
+  },
+  {
+   "gun": "1899-04-09",
+   "yerlesim": "Hoima (Bunyoro)",
+   "sahip": "ingiltere",
+   "ada": [
+    "Hoima (Bunyoro)",
+    "Masindi"
+   ],
+   "ana_km": 304.8,
+   "ana": "Bveranyange (Karagve)",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 5,
+   "yabanci": 3,
+   "komsu": {
+    "ingiltere": 1,
+    "—YOK—": 1,
+    "toro": 1,
+    "nkore": 1,
+    "almanya": 1
+   },
+   "en_yakin_ayni": 305,
+   "hedef": "Bveranyange (Karagve)"
+  },
+  {
+   "gun": "1601-01-01",
+   "yerlesim": "Asîrgarh",
+   "sahip": "babur-imparatorlugu",
+   "ada": [
+    "Asîrgarh",
+    "Burhânpûr",
+    "Elicpûr (Achalpur)",
+    "Mandu (Mândû)",
+    "Uccayn (Ujjain)"
+   ],
+   "ana_km": 304.3,
+   "ana": "Ahmednagar",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 6,
+   "yabanci": 3,
+   "komsu": {
+    "babur-imparatorlugu": 2,
+    "ahmednagar": 3,
+    "—YOK—": 1
+   },
+   "en_yakin_ayni": 304,
+   "hedef": "Ahmednagar"
+  },
+  {
+   "gun": "1557-01-01",
+   "yerlesim": "Arkîko",
+   "sahip": "OSMANLI",
+   "ada": [
+    "Arkîko",
+    "Dahlak",
+    "Masavva"
+   ],
+   "ana_km": 303.4,
+   "ana": "Ferasan (Farasan)",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 12,
+   "yabanci": 9,
+   "komsu": {
+    "yemen": 1,
+    "OSMANLI": 3,
+    "habesistan": 8
+   },
+   "en_yakin_ayni": 303,
+   "hedef": "Ferasan (Farasan)"
+  },
+  {
+   "gun": "1569-07-01",
+   "yerlesim": "Poltava",
+   "sahip": "lehistan",
+   "ada": [
+    "Baturin",
+    "Lubnı",
+    "Poltava",
+    "Çehrin (Çigirin)"
+   ],
+   "ana_km": 303.2,
+   "ana": "Kiev",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 7,
+   "yabanci": 1,
+   "komsu": {
+    "lehistan": 3,
+    "rusya": 1,
+    "—YOK—": 3
+   },
+   "en_yakin_ayni": 303,
+   "hedef": "Kiev"
+  },
+  {
+   "gun": "1899-01-19",
+   "yerlesim": "Dongola",
+   "sahip": "ingiltere",
+   "ada": [
+    "Debbe",
+    "Dongola",
+    "Kerma",
+    "Kortî",
+    "Merevî"
+   ],
+   "ana_km": 301.2,
+   "ana": "Ebû Hamed",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 5,
+   "yabanci": 1,
+   "komsu": {
+    "—YOK—": 1,
+    "ingiltere": 3,
+    "ingiliz-sudani": 1
+   },
+   "en_yakin_ayni": 301,
+   "hedef": "Ebû Hamed"
+  },
+  {
+   "gun": "1753-04-01",
+   "yerlesim": "Ahmedâbâd",
+   "sahip": "maratha",
+   "ada": [
+    "Ahmedâbâd",
+    "Kanbâyet (Khambhat)",
+    "Patan (Anhilvâda)",
+    "Çampâner"
+   ],
+   "ana_km": 300.4,
+   "ana": "Mandu (Mândû)",
+   "kova": "B-bilinmiyor",
+   "sinif": "ARADA-YABANCI",
+   "ara": 7,
+   "yabanci": 2,
+   "komsu": {
+    "maratha": 5,
+    "babur-imparatorlugu": 2
+   },
+   "en_yakin_ayni": 300,
+   "hedef": "Mandu (Mândû)"
+  }
+ ]
+}

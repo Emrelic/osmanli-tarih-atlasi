@@ -23,3 +23,22 @@ veri-kaynak/viabundus/*.geojson
 veri-kaynak/viabundus/*.zip
 veri-kaynak/viabundus/*.pdf
 veri-kaynak/viabundus/*.gml
+
+# ── denetim/ ÖNBELLEKLERİ — üretilmiş, yeniden üretilebilir ──────────
+# 🔴 Ve buraya YAZILMALARININ sebebi boyut değil GÖRÜNÜRLÜK:
+# `§11` — *"bir listede olmayan şey, elenmiş olandan ayırt edilemez,
+# eleme GEREKÇESİ yazılmadıkça."* Bunlar `git status`ta durursa bir
+# sonraki oturum "commit'lenmeli mi?" diye tekrar tekrar sorar; burada
+# durursa soru bir kez ve YAZILI olarak cevaplanmış olur.
+#
+# `_kaynak_govde/`  6 MB · 128 çekilmiş TDV gövdesi. ÇALIŞMA ÖNBELLEĞİ:
+#     silinmesi bir kayıp değil, yeniden çekilir — ama silmeyin, çekmek
+#     ağdan geçiyor ve `§4④` boilerplate tuzağını yeniden davet ediyor.
+# `_sinav_json/`    aynı sınıf, 7 Eylül'de 95 MB'a ulaştı ve SİLİNDİ:
+#     koşu 8 öncesinin `.js`lerinden üretilmişti, yani BAYATTI. Boyut bir
+#     rahatsızlıktı; bayatlık bir KUSURDU.
+# ⚠️ Bunları üreten ALETLER takiplidir. Alet saklanır, çıktı atılır.
+denetim/_kaynak_govde/
+denetim/_sinav_json/
+denetim/_kid_*.json
+denetim/_kaynak_denetim_*.json

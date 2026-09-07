@@ -1,0 +1,8893 @@
+{
+ "_NOT": "ENKLAV-0907 · her sorgusuz enklav için ADA ile ANA GÖVDE arasındaki EN KISA ATLAMA (köprü). `D7_BAG_KM`=150 km: aynı devletin iki yerleşimi bu mesafede BAĞLI sayılır. Köprü bu eşiğe ne kadar yakınsa, ada o kadar SEYREKLİKTEN doğuyor demektir — ve çare `enklav:true` değil NOKTA EKLEMEKtir (§2).",
+ "_UYARI": "Bu bir HÜKÜM listesi DEĞİL. Köprünün kısa olması koridorun TARİHEN var olduğunu göstermez; yalnız FİZİKSEL olarak mümkün olduğunu gösterir. Kaynak sorusu AÇIK kalır.",
+ "_ESIK": {
+  "D7_BAG_KM": 150.0,
+  "taban": 661,
+  "tavan": 660
+ },
+ "bant": {
+  "≤200 km (UCUZ)": 332,
+  "200-400 km": 255,
+  ">400 km (GERÇEK BOŞLUK)": 47
+ },
+ "n": 634,
+ "kayitlar": [
+  {
+   "gun": "1588-01-01",
+   "yerlesim": "Kaşev (Cacheu)",
+   "sahip": "portekiz",
+   "kova": "A-koridor",
+   "ana_km": 300.0,
+   "kopru_km": 300.0,
+   "kopru_cift": [
+    "Kaşev (Cacheu)",
+    "Gore (Gorée)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1700-01-01",
+   "yerlesim": "Malanje",
+   "sahip": "ovimbundu",
+   "kova": "A-koridor",
+   "ana_km": 299.9,
+   "kopru_km": 299.9,
+   "kopru_cift": [
+    "Malanje",
+    "Bailundo"
+   ],
+   "ada_n": 1,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1475-06-06",
+   "yerlesim": "Azak",
+   "sahip": "OSMANLI",
+   "kova": "A-koridor",
+   "ana_km": 299.7,
+   "kopru_km": 299.7,
+   "kopru_cift": [
+    "Azak",
+    "Kerç"
+   ],
+   "ada_n": 1,
+   "gövde_n": 8
+  },
+  {
+   "gun": "1337-09-09",
+   "yerlesim": "Dâmgan",
+   "sahip": "serbedariler",
+   "kova": "A-koridor",
+   "ana_km": 299.0,
+   "kopru_km": 232.2,
+   "kopru_cift": [
+    "Bistâm",
+    "Esferâyin"
+   ],
+   "ada_n": 5,
+   "gövde_n": 15
+  },
+  {
+   "gun": "1557-01-01",
+   "yerlesim": "Masavva",
+   "sahip": "OSMANLI",
+   "kova": "A-koridor",
+   "ana_km": 298.1,
+   "kopru_km": 230.7,
+   "kopru_cift": [
+    "Dahlak",
+    "Ferasan (Farasan)"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1642-02-26",
+   "yerlesim": "Azak",
+   "sahip": "OSMANLI",
+   "kova": "A-koridor",
+   "ana_km": 297.5,
+   "kopru_km": 297.5,
+   "kopru_cift": [
+    "Azak",
+    "Taman"
+   ],
+   "ada_n": 1,
+   "gövde_n": 9
+  },
+  {
+   "gun": "1502-01-01",
+   "yerlesim": "Kemah",
+   "sahip": "safevi",
+   "kova": "A-koridor",
+   "ana_km": 297.5,
+   "kopru_km": 182.3,
+   "kopru_cift": [
+    "Erzurum",
+    "Bitlis"
+   ],
+   "ada_n": 4,
+   "gövde_n": 60
+  },
+  {
+   "gun": "1700-01-01",
+   "yerlesim": "Huambo (Wambu)",
+   "sahip": "ovimbundu",
+   "kova": "A-koridor",
+   "ana_km": 296.8,
+   "kopru_km": 266.2,
+   "kopru_cift": [
+    "Kuito (Bié)",
+    "Menongue"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1542-01-01",
+   "yerlesim": "Maní",
+   "sahip": "yeni-ispanya",
+   "kova": "A-koridor",
+   "ana_km": 294.2,
+   "kopru_km": 186.9,
+   "kopru_cift": [
+    "Campeche (San Francisco de Campeche)",
+    "Acalán (Itzamkanac)"
+   ],
+   "ada_n": 2,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1821-09-27",
+   "yerlesim": "Maní",
+   "sahip": "meksika",
+   "kova": "A-koridor",
+   "ana_km": 294.2,
+   "kopru_km": 186.9,
+   "kopru_cift": [
+    "Campeche (San Francisco de Campeche)",
+    "Acalán (Itzamkanac)"
+   ],
+   "ada_n": 5,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1860-01-01",
+   "yerlesim": "Asîrgarh",
+   "sahip": "ingiliz-hindistani",
+   "kova": "A-koridor",
+   "ana_km": 293.7,
+   "kopru_km": 163.8,
+   "kopru_cift": [
+    "Elicpûr (Achalpur)",
+    "Nagpûr"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1890-11-04",
+   "yerlesim": "Mpvapva",
+   "sahip": "almanya",
+   "kova": "A-koridor",
+   "ana_km": 293.6,
+   "kopru_km": 212.5,
+   "kopru_cift": [
+    "Morogoro",
+    "Pangani"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1832-11-22",
+   "yerlesim": "Mesîle",
+   "sahip": "abdulkadir",
+   "kova": "A-koridor",
+   "ana_km": 293.3,
+   "kopru_km": 236.6,
+   "kopru_cift": [
+    "Dellîs",
+    "Tenes"
+   ],
+   "ada_n": 3,
+   "gövde_n": 8
+  },
+  {
+   "gun": "1555-04-17",
+   "yerlesim": "Siena",
+   "sahip": "ispanya",
+   "kova": "A-koridor",
+   "ana_km": 292.9,
+   "kopru_km": 292.9,
+   "kopru_cift": [
+    "Siena",
+    "Milano"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1634-07-04",
+   "yerlesim": "Trois-Rivières",
+   "sahip": "fransa",
+   "kova": "A-koridor",
+   "ana_km": 292.7,
+   "kopru_km": 185.5,
+   "kopru_cift": [
+    "Quebec",
+    "Tadoussac"
+   ],
+   "ada_n": 2,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1711-07-21",
+   "yerlesim": "Azak",
+   "sahip": "OSMANLI",
+   "kova": "A-koridor",
+   "ana_km": 292.3,
+   "kopru_km": 292.3,
+   "kopru_cift": [
+    "Azak",
+    "Yenikale"
+   ],
+   "ada_n": 1,
+   "gövde_n": 10
+  },
+  {
+   "gun": "1725-12-15",
+   "yerlesim": "Odanak (Abenaki)",
+   "sahip": "fransa",
+   "kova": "A-koridor",
+   "ana_km": 292.3,
+   "kopru_km": 178.9,
+   "kopru_cift": [
+    "Quebec",
+    "Chicoutimi"
+   ],
+   "ada_n": 4,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1763-02-10",
+   "yerlesim": "Odanak (Abenaki)",
+   "sahip": "ingiliz-kuzey-amerika",
+   "kova": "A-koridor",
+   "ana_km": 292.3,
+   "kopru_km": 178.9,
+   "kopru_cift": [
+    "Quebec",
+    "Chicoutimi"
+   ],
+   "ada_n": 4,
+   "gövde_n": 4
+  },
+  {
+   "gun": "1899-01-19",
+   "yerlesim": "Debbe",
+   "sahip": "ingiltere",
+   "kova": "A-koridor",
+   "ana_km": 289.9,
+   "kopru_km": 185.7,
+   "kopru_cift": [
+    "Merevî",
+    "Şereyk"
+   ],
+   "ada_n": 5,
+   "gövde_n": 29
+  },
+  {
+   "gun": "1601-01-01",
+   "yerlesim": "Burhânpûr",
+   "sahip": "babur-imparatorlugu",
+   "kova": "A-koridor",
+   "ana_km": 289.9,
+   "kopru_km": 289.9,
+   "kopru_cift": [
+    "Burhânpûr",
+    "Ahmednagar"
+   ],
+   "ada_n": 5,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1860-01-01",
+   "yerlesim": "Burhânpûr",
+   "sahip": "ingiliz-hindistani",
+   "kova": "A-koridor",
+   "ana_km": 289.9,
+   "kopru_km": 289.9,
+   "kopru_cift": [
+    "Burhânpûr",
+    "Ahmednagar"
+   ],
+   "ada_n": 3,
+   "gövde_n": 7
+  },
+  {
+   "gun": "1768-05-15",
+   "yerlesim": "Bastia (Korsika)",
+   "sahip": "fransa",
+   "kova": "A-koridor",
+   "ana_km": 289.8,
+   "kopru_km": 264.9,
+   "kopru_cift": [
+    "Ayacyo (Ajaccio)",
+    "Toulon"
+   ],
+   "ada_n": 2,
+   "gövde_n": 44
+  },
+  {
+   "gun": "1792-09-22",
+   "yerlesim": "Bastia (Korsika)",
+   "sahip": "fransa-cumhuriyet",
+   "kova": "A-koridor",
+   "ana_km": 289.8,
+   "kopru_km": 264.9,
+   "kopru_cift": [
+    "Ayacyo (Ajaccio)",
+    "Toulon"
+   ],
+   "ada_n": 2,
+   "gövde_n": 45
+  },
+  {
+   "gun": "1448-01-01",
+   "yerlesim": "Saraybosna",
+   "sahip": "OSMANLI",
+   "kova": "A-koridor",
+   "ana_km": 286.7,
+   "kopru_km": 286.7,
+   "kopru_cift": [
+    "Saraybosna",
+    "Niş"
+   ],
+   "ada_n": 2,
+   "gövde_n": 202
+  },
+  {
+   "gun": "1753-04-01",
+   "yerlesim": "Kanbâyet (Khambhat)",
+   "sahip": "maratha",
+   "kova": "A-koridor",
+   "ana_km": 286.3,
+   "kopru_km": 192.5,
+   "kopru_cift": [
+    "Çampâner",
+    "Mandu (Mândû)"
+   ],
+   "ada_n": 4,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1899-01-01",
+   "yerlesim": "Madaoua",
+   "sahip": "fransa-cumhuriyet",
+   "kova": "A-koridor",
+   "ana_km": 286.1,
+   "kopru_km": 217.0,
+   "kopru_cift": [
+    "Birni-N'Konni",
+    "Filingue"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1515-04-01",
+   "yerlesim": "Kişm (Qeshm)",
+   "sahip": "portekiz",
+   "kova": "A-koridor",
+   "ana_km": 286.0,
+   "kopru_km": 174.1,
+   "kopru_cift": [
+    "Şârika",
+    "Suhâr"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1916-09-01",
+   "yerlesim": "Lindi",
+   "sahip": "ingiltere",
+   "kova": "A-koridor",
+   "ana_km": 286.0,
+   "kopru_km": 163.1,
+   "kopru_cift": [
+    "Masasi",
+    "Tunduru"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1535-07-21",
+   "yerlesim": "Halkulvâdî",
+   "sahip": "ispanya",
+   "kova": "A-koridor",
+   "ana_km": 285.7,
+   "kopru_km": 285.7,
+   "kopru_cift": [
+    "Halkulvâdî",
+    "Kalyari (Cagliari)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1821-09-27",
+   "yerlesim": "Albuquerque",
+   "sahip": "meksika",
+   "kova": "A-koridor",
+   "ana_km": 285.7,
+   "kopru_km": 247.7,
+   "kopru_cift": [
+    "Acoma Pueblo (Sky City)",
+    "Santa Rita del Cobre"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1861-02-13",
+   "yerlesim": "Pantelerya",
+   "sahip": "italya",
+   "kova": "A-koridor",
+   "ana_km": 285.6,
+   "kopru_km": 166.3,
+   "kopru_cift": [
+    "Palermo",
+    "Katanya (Catania)"
+   ],
+   "ada_n": 3,
+   "gövde_n": 5
+  },
+  {
+   "gun": "1466-01-01",
+   "yerlesim": "Ukek (Uvek)",
+   "sahip": "astarhan",
+   "kova": "A-koridor",
+   "ana_km": 285.5,
+   "kopru_km": 285.5,
+   "kopru_cift": [
+    "Ukek (Uvek)",
+    "Beldjamen"
+   ],
+   "ada_n": 1,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1801-09-12",
+   "yerlesim": "Tiflis",
+   "sahip": "rusya",
+   "kova": "A-koridor",
+   "ana_km": 285.1,
+   "kopru_km": 188.4,
+   "kopru_cift": [
+    "Vladikavkaz",
+    "Terek deltası (Kızlar)"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1503-04-02",
+   "yerlesim": "Çernigov",
+   "sahip": "moskova",
+   "kova": "A-koridor",
+   "ana_km": 285.0,
+   "kopru_km": 156.9,
+   "kopru_cift": [
+    "Hluhiv",
+    "Kursk"
+   ],
+   "ada_n": 4,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1547-01-16",
+   "yerlesim": "Çernigov",
+   "sahip": "rusya",
+   "kova": "A-koridor",
+   "ana_km": 285.0,
+   "kopru_km": 156.9,
+   "kopru_cift": [
+    "Hluhiv",
+    "Kursk"
+   ],
+   "ada_n": 4,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1573-10-10",
+   "yerlesim": "Tunus",
+   "sahip": "ispanya",
+   "kova": "A-koridor",
+   "ana_km": 284.7,
+   "kopru_km": 284.7,
+   "kopru_cift": [
+    "Tunus",
+    "Kalyari (Cagliari)"
+   ],
+   "ada_n": 2,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1777-01-01",
+   "yerlesim": "Oneida",
+   "sahip": "ingiltere",
+   "kova": "A-koridor",
+   "ana_km": 284.3,
+   "kopru_km": 189.5,
+   "kopru_cift": [
+    "Mohawk (Kayenlaha'ke)",
+    "Hartford"
+   ],
+   "ada_n": 5,
+   "gövde_n": 6
+  },
+  {
+   "gun": "1318-01-01",
+   "yerlesim": "Gülberge (Gulbarga)",
+   "sahip": "delhi-sultanligi",
+   "kova": "A-koridor",
+   "ana_km": 284.1,
+   "kopru_km": 156.8,
+   "kopru_cift": [
+    "Bîcâpur (Bijapur)",
+    "Kolhapûr"
+   ],
+   "ada_n": 2,
+   "gövde_n": 7
+  },
+  {
+   "gun": "1892-01-01",
+   "yerlesim": "Uvira",
+   "sahip": "belcika",
+   "kova": "A-koridor",
+   "ana_km": 283.7,
+   "kopru_km": 283.7,
+   "kopru_cift": [
+    "Uvira",
+    "Kalemie"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1830-01-01",
+   "yerlesim": "Fianarantsoa",
+   "sahip": "merina",
+   "kova": "A-koridor",
+   "ana_km": 283.4,
+   "kopru_km": 283.4,
+   "kopru_cift": [
+    "Fianarantsoa",
+    "Antananarivo"
+   ],
+   "ada_n": 1,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1696-07-19",
+   "yerlesim": "Azak",
+   "sahip": "rusya",
+   "kova": "A-koridor",
+   "ana_km": 281.8,
+   "kopru_km": 281.8,
+   "kopru_cift": [
+    "Azak",
+    "İzyum"
+   ],
+   "ada_n": 1,
+   "gövde_n": 18
+  },
+  {
+   "gun": "1515-04-01",
+   "yerlesim": "Hürmüz Adası",
+   "sahip": "portekiz",
+   "kova": "A-koridor",
+   "ana_km": 281.6,
+   "kopru_km": 174.1,
+   "kopru_cift": [
+    "Şârika",
+    "Suhâr"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1774-07-21",
+   "yerlesim": "Taman",
+   "sahip": "rusya",
+   "kova": "A-koridor",
+   "ana_km": 281.5,
+   "kopru_km": 273.9,
+   "kopru_cift": [
+    "Yenikale",
+    "Taganrog"
+   ],
+   "ada_n": 3,
+   "gövde_n": 4
+  },
+  {
+   "gun": "1774-07-21",
+   "yerlesim": "Kerç",
+   "sahip": "rusya",
+   "kova": "A-koridor",
+   "ana_km": 280.3,
+   "kopru_km": 273.9,
+   "kopru_cift": [
+    "Yenikale",
+    "Taganrog"
+   ],
+   "ada_n": 3,
+   "gövde_n": 4
+  },
+  {
+   "gun": "1724-10-11",
+   "yerlesim": "Devagiri (Devletâbâd)",
+   "sahip": "haydarabad-nizam",
+   "kova": "A-koridor",
+   "ana_km": 279.7,
+   "kopru_km": 273.0,
+   "kopru_cift": [
+    "Evrengâbâd",
+    "Elicpûr (Achalpur)"
+   ],
+   "ada_n": 2,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1770-09-27",
+   "yerlesim": "Bender",
+   "sahip": "rusya",
+   "kova": "A-koridor",
+   "ana_km": 279.5,
+   "kopru_km": 279.5,
+   "kopru_cift": [
+    "Bender",
+    "Yelisavetgrad (Aziz Yelizaveta Kalesi)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 21
+  },
+  {
+   "gun": "1441-01-01",
+   "yerlesim": "Harkov",
+   "sahip": "kirim",
+   "kova": "A-koridor",
+   "ana_km": 278.9,
+   "kopru_km": 217.2,
+   "kopru_cift": [
+    "Belgorod",
+    "Voronej"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1561-11-28",
+   "yerlesim": "Tartu (Dorpat)",
+   "sahip": "lehistan",
+   "kova": "A-koridor",
+   "ana_km": 278.6,
+   "kopru_km": 177.5,
+   "kopru_cift": [
+    "Cēsis (Wenden)",
+    "Daugavpils (Dünaburg)"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1667-01-01",
+   "yerlesim": "Kahnawake",
+   "sahip": "haudenosaunee",
+   "kova": "A-koridor",
+   "ana_km": 278.5,
+   "kopru_km": 278.5,
+   "kopru_cift": [
+    "Kahnawake",
+    "Mohawk (Kayenlaha'ke)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 5
+  },
+  {
+   "gun": "1777-01-01",
+   "yerlesim": "Kahnawake",
+   "sahip": "ingiltere",
+   "kova": "A-koridor",
+   "ana_km": 278.5,
+   "kopru_km": 278.5,
+   "kopru_cift": [
+    "Kahnawake",
+    "Mohawk (Kayenlaha'ke)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 5
+  },
+  {
+   "gun": "1783-09-03",
+   "yerlesim": "Kahnawake",
+   "sahip": "abd",
+   "kova": "A-koridor",
+   "ana_km": 278.5,
+   "kopru_km": 278.5,
+   "kopru_cift": [
+    "Kahnawake",
+    "Mohawk (Kayenlaha'ke)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 14
+  },
+  {
+   "gun": "1835-05-24",
+   "yerlesim": "King William's Town",
+   "sahip": "ingiltere",
+   "kova": "A-koridor",
+   "ana_km": 277.9,
+   "kopru_km": 214.7,
+   "kopru_cift": [
+    "Port Elizabeth",
+    "Graaff-Reinet"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1902-03-01",
+   "yerlesim": "Aroçukvu",
+   "sahip": "ingiltere",
+   "kova": "A-koridor",
+   "ana_km": 277.4,
+   "kopru_km": 183.6,
+   "kopru_cift": [
+    "Onitsha",
+    "Lokoca (Lokoja)"
+   ],
+   "ada_n": 5,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1569-08-08",
+   "yerlesim": "Ayutthaya",
+   "sahip": "toungoo",
+   "kova": "A-koridor",
+   "ana_km": 276.4,
+   "kopru_km": 227.9,
+   "kopru_cift": [
+    "Lopburi",
+    "Phitsanulok"
+   ],
+   "ada_n": 2,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1405-06-22",
+   "yerlesim": "Verona",
+   "sahip": "venedik",
+   "kova": "A-koridor",
+   "ana_km": 274.3,
+   "kopru_km": 174.7,
+   "kopru_cift": [
+    "Venedik",
+    "Cres (Cherso)"
+   ],
+   "ada_n": 2,
+   "gövde_n": 10
+  },
+  {
+   "gun": "1774-07-21",
+   "yerlesim": "Yenikale",
+   "sahip": "rusya",
+   "kova": "A-koridor",
+   "ana_km": 273.9,
+   "kopru_km": 273.9,
+   "kopru_cift": [
+    "Yenikale",
+    "Taganrog"
+   ],
+   "ada_n": 3,
+   "gövde_n": 4
+  },
+  {
+   "gun": "1640-12-01",
+   "yerlesim": "Porto",
+   "sahip": "portekiz",
+   "kova": "A-koridor",
+   "ana_km": 273.7,
+   "kopru_km": 176.2,
+   "kopru_cift": [
+    "Coimbra",
+    "Lizbon"
+   ],
+   "ada_n": 5,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1918-10-30",
+   "yerlesim": "Malikiye (Derik)",
+   "sahip": "fransa-cumhuriyet",
+   "kova": "A-koridor",
+   "ana_km": 272.3,
+   "kopru_km": 272.3,
+   "kopru_cift": [
+    "Malikiye (Derik)",
+    "Deyrizor"
+   ],
+   "ada_n": 1,
+   "gövde_n": 17
+  },
+  {
+   "gun": "1920-07-24",
+   "yerlesim": "Malikiye (Derik)",
+   "sahip": "suriye-lubnan-mandasi",
+   "kova": "A-koridor",
+   "ana_km": 272.3,
+   "kopru_km": 272.3,
+   "kopru_cift": [
+    "Malikiye (Derik)",
+    "Deyrizor"
+   ],
+   "ada_n": 1,
+   "gövde_n": 16
+  },
+  {
+   "gun": "1831-01-04",
+   "yerlesim": "Mersa'l-Kebîr",
+   "sahip": "fransa-cumhuriyet",
+   "kova": "A-koridor",
+   "ana_km": 271.9,
+   "kopru_km": 266.2,
+   "kopru_cift": [
+    "Oran",
+    "Miliana"
+   ],
+   "ada_n": 3,
+   "gövde_n": 5
+  },
+  {
+   "gun": "1387-11-01",
+   "yerlesim": "Dâmgan",
+   "sahip": "timurlu",
+   "kova": "A-koridor",
+   "ana_km": 271.6,
+   "kopru_km": 181.8,
+   "kopru_cift": [
+    "Simnân",
+    "Tahran"
+   ],
+   "ada_n": 5,
+   "gövde_n": 46
+  },
+  {
+   "gun": "1452-01-01",
+   "yerlesim": "Dâmgan",
+   "sahip": "karakoyunlu",
+   "kova": "A-koridor",
+   "ana_km": 271.6,
+   "kopru_km": 181.8,
+   "kopru_cift": [
+    "Simnân",
+    "Tahran"
+   ],
+   "ada_n": 3,
+   "gövde_n": 129
+  },
+  {
+   "gun": "1469-01-01",
+   "yerlesim": "Dâmgan",
+   "sahip": "akkoyunlu",
+   "kova": "A-koridor",
+   "ana_km": 271.6,
+   "kopru_km": 181.8,
+   "kopru_cift": [
+    "Simnân",
+    "Tahran"
+   ],
+   "ada_n": 3,
+   "gövde_n": 142
+  },
+  {
+   "gun": "1503-01-01",
+   "yerlesim": "Dâmgan",
+   "sahip": "safevi",
+   "kova": "A-koridor",
+   "ana_km": 271.6,
+   "kopru_km": 181.8,
+   "kopru_cift": [
+    "Simnân",
+    "Tahran"
+   ],
+   "ada_n": 3,
+   "gövde_n": 72
+  },
+  {
+   "gun": "1502-01-01",
+   "yerlesim": "Erzincan",
+   "sahip": "safevi",
+   "kova": "A-koridor",
+   "ana_km": 271.1,
+   "kopru_km": 182.3,
+   "kopru_cift": [
+    "Erzurum",
+    "Bitlis"
+   ],
+   "ada_n": 4,
+   "gövde_n": 60
+  },
+  {
+   "gun": "1531-04-16",
+   "yerlesim": "Puebla de los Ángeles",
+   "sahip": "yeni-ispanya",
+   "kova": "A-koridor",
+   "ana_km": 269.0,
+   "kopru_km": 269.0,
+   "kopru_cift": [
+    "Puebla de los Ángeles",
+    "Antequera (Oaxaca)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1763-02-10",
+   "yerlesim": "Montreal (Ville-Marie)",
+   "sahip": "ingiliz-kuzey-amerika",
+   "kova": "A-koridor",
+   "ana_km": 269.0,
+   "kopru_km": 269.0,
+   "kopru_cift": [
+    "Montreal (Ville-Marie)",
+    "Fort Frontenac (Kingston)"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1673-01-01",
+   "yerlesim": "Fort Frontenac (Kingston)",
+   "sahip": "fransa",
+   "kova": "A-koridor",
+   "ana_km": 269.0,
+   "kopru_km": 269.0,
+   "kopru_cift": [
+    "Fort Frontenac (Kingston)",
+    "Montreal (Ville-Marie)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1470-01-01",
+   "yerlesim": "Iximché",
+   "sahip": "maya-sehir-devletleri",
+   "kova": "A-koridor",
+   "ana_km": 268.7,
+   "kopru_km": 245.0,
+   "kopru_cift": [
+    "Zaculeu",
+    "Nojpetén (Tayasal / Flores)"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1831-01-04",
+   "yerlesim": "Oran",
+   "sahip": "fransa-cumhuriyet",
+   "kova": "A-koridor",
+   "ana_km": 266.2,
+   "kopru_km": 266.2,
+   "kopru_cift": [
+    "Oran",
+    "Miliana"
+   ],
+   "ada_n": 3,
+   "gövde_n": 5
+  },
+  {
+   "gun": "1337-09-09",
+   "yerlesim": "Esterâbâd (Gürgân)",
+   "sahip": "serbedariler",
+   "kova": "A-koridor",
+   "ana_km": 266.1,
+   "kopru_km": 232.2,
+   "kopru_cift": [
+    "Bistâm",
+    "Esferâyin"
+   ],
+   "ada_n": 5,
+   "gövde_n": 15
+  },
+  {
+   "gun": "1386-01-01",
+   "yerlesim": "Esterâbâd (Gürgân)",
+   "sahip": "timurlu",
+   "kova": "A-koridor",
+   "ana_km": 266.1,
+   "kopru_km": 249.0,
+   "kopru_cift": [
+    "Dihistan ovası (Meşhed-i Misriyân)",
+    "Bocnûrd"
+   ],
+   "ada_n": 2,
+   "gövde_n": 15
+  },
+  {
+   "gun": "1510-12-02",
+   "yerlesim": "Esterâbâd (Gürgân)",
+   "sahip": "safevi",
+   "kova": "A-koridor",
+   "ana_km": 266.1,
+   "kopru_km": 232.2,
+   "kopru_cift": [
+    "Bistâm",
+    "Esferâyin"
+   ],
+   "ada_n": 5,
+   "gövde_n": 15
+  },
+  {
+   "gun": "1776-07-04",
+   "yerlesim": "Plymouth (Massachusetts)",
+   "sahip": "abd",
+   "kova": "A-koridor",
+   "ana_km": 265.5,
+   "kopru_km": 223.5,
+   "kopru_cift": [
+    "Boston (Massachusetts)",
+    "Fort Orange (Albany)"
+   ],
+   "ada_n": 2,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1333-07-04",
+   "yerlesim": "Funai (Ōita)",
+   "sahip": "kenmu",
+   "kova": "A-koridor",
+   "ana_km": 264.7,
+   "kopru_km": 264.7,
+   "kopru_cift": [
+    "Funai (Ōita)",
+    "Okayama"
+   ],
+   "ada_n": 5,
+   "gövde_n": 7
+  },
+  {
+   "gun": "1336-11-07",
+   "yerlesim": "Funai (Ōita)",
+   "sahip": "muromachi",
+   "kova": "A-koridor",
+   "ana_km": 264.7,
+   "kopru_km": 264.7,
+   "kopru_cift": [
+    "Funai (Ōita)",
+    "Okayama"
+   ],
+   "ada_n": 5,
+   "gövde_n": 7
+  },
+  {
+   "gun": "1516-01-23",
+   "yerlesim": "Besançon",
+   "sahip": "ispanya",
+   "kova": "A-koridor",
+   "ana_km": 264.0,
+   "kopru_km": 264.0,
+   "kopru_cift": [
+    "Besançon",
+    "Lüksemburg"
+   ],
+   "ada_n": 1,
+   "gövde_n": 18
+  },
+  {
+   "gun": "1801-11-10",
+   "yerlesim": "Kannauc",
+   "sahip": "ingiliz-hindistani",
+   "kova": "A-koridor",
+   "ana_km": 263.6,
+   "kopru_km": 188.8,
+   "kopru_cift": [
+    "Kanpûr",
+    "Ilâhâbâd (Allahabad)"
+   ],
+   "ada_n": 3,
+   "gövde_n": 4
+  },
+  {
+   "gun": "1648-10-24",
+   "yerlesim": "Stralsund",
+   "sahip": "isvec",
+   "kova": "A-koridor",
+   "ana_km": 263.4,
+   "kopru_km": 263.4,
+   "kopru_cift": [
+    "Stralsund",
+    "Halmstad"
+   ],
+   "ada_n": 2,
+   "gövde_n": 18
+  },
+  {
+   "gun": "1676-10-01",
+   "yerlesim": "Zeytun (Quanzhou)",
+   "sahip": "qing-hanedani",
+   "kova": "A-koridor",
+   "ana_km": 262.5,
+   "kopru_km": 161.3,
+   "kopru_cift": [
+    "Zhangzhou",
+    "Swatow (Shantou)"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1611-01-01",
+   "yerlesim": "Hirosaki",
+   "sahip": "edo-bakufu",
+   "kova": "A-koridor",
+   "ana_km": 262.0,
+   "kopru_km": 161.3,
+   "kopru_cift": [
+    "Morioka",
+    "Sendai"
+   ],
+   "ada_n": 4,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1868-01-03",
+   "yerlesim": "Hirosaki",
+   "sahip": "meiji-japonya",
+   "kova": "A-koridor",
+   "ana_km": 262.0,
+   "kopru_km": 161.3,
+   "kopru_cift": [
+    "Morioka",
+    "Sendai"
+   ],
+   "ada_n": 4,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1479-01-20",
+   "yerlesim": "Vigo",
+   "sahip": "ispanya",
+   "kova": "A-koridor",
+   "ana_km": 261.9,
+   "kopru_km": 205.9,
+   "kopru_cift": [
+    "A Coruña",
+    "Oviedo"
+   ],
+   "ada_n": 3,
+   "gövde_n": 8
+  },
+  {
+   "gun": "1718-07-21",
+   "yerlesim": "Çuha Adası (Kythira)",
+   "sahip": "venedik",
+   "kova": "A-koridor",
+   "ana_km": 261.3,
+   "kopru_km": 261.3,
+   "kopru_cift": [
+    "Çuha Adası (Kythira)",
+    "Zaklise (Zakynthos)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 10
+  },
+  {
+   "gun": "1797-10-17",
+   "yerlesim": "Çuha Adası (Kythira)",
+   "sahip": "fransa-cumhuriyet",
+   "kova": "A-koridor",
+   "ana_km": 261.3,
+   "kopru_km": 261.3,
+   "kopru_cift": [
+    "Çuha Adası (Kythira)",
+    "Zaklise (Zakynthos)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 10
+  },
+  {
+   "gun": "1815-11-05",
+   "yerlesim": "Çuha Adası (Kythira)",
+   "sahip": "ingiltere",
+   "kova": "A-koridor",
+   "ana_km": 261.3,
+   "kopru_km": 261.3,
+   "kopru_cift": [
+    "Çuha Adası (Kythira)",
+    "Zaklise (Zakynthos)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 7
+  },
+  {
+   "gun": "1832-11-22",
+   "yerlesim": "Bû Sa'âde",
+   "sahip": "abdulkadir",
+   "kova": "A-koridor",
+   "ana_km": 259.7,
+   "kopru_km": 236.6,
+   "kopru_cift": [
+    "Dellîs",
+    "Tenes"
+   ],
+   "ada_n": 3,
+   "gövde_n": 8
+  },
+  {
+   "gun": "1638-01-01",
+   "yerlesim": "Çuguyev",
+   "sahip": "rusya",
+   "kova": "A-koridor",
+   "ana_km": 259.6,
+   "kopru_km": 156.9,
+   "kopru_cift": [
+    "Kursk",
+    "Hluhiv"
+   ],
+   "ada_n": 5,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1864-03-31",
+   "yerlesim": "Hangzhou",
+   "sahip": "qing-hanedani",
+   "kova": "A-koridor",
+   "ana_km": 259.0,
+   "kopru_km": 224.0,
+   "kopru_cift": [
+    "Ningbo",
+    "Wenzhou"
+   ],
+   "ada_n": 5,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1514-09-06",
+   "yerlesim": "Siirt",
+   "sahip": "OSMANLI",
+   "kova": "A-koridor",
+   "ana_km": 258.7,
+   "kopru_km": 258.7,
+   "kopru_cift": [
+    "Siirt",
+    "Doğubayazıt"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1571-01-01",
+   "yerlesim": "Kremençuk",
+   "sahip": "lehistan",
+   "kova": "A-koridor",
+   "ana_km": 258.5,
+   "kopru_km": 182.5,
+   "kopru_cift": [
+    "Lubnı",
+    "Kiev"
+   ],
+   "ada_n": 5,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1526-04-21",
+   "yerlesim": "Lahor",
+   "sahip": "babur-imparatorlugu",
+   "kova": "A-koridor",
+   "ana_km": 258.1,
+   "kopru_km": 184.9,
+   "kopru_cift": [
+    "Siyâlkot",
+    "Râvalpindi"
+   ],
+   "ada_n": 5,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1540-05-17",
+   "yerlesim": "Lahor",
+   "sahip": "sur-hanedani",
+   "kova": "A-koridor",
+   "ana_km": 258.1,
+   "kopru_km": 184.9,
+   "kopru_cift": [
+    "Siyâlkot",
+    "Râvalpindi"
+   ],
+   "ada_n": 5,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1555-07-23",
+   "yerlesim": "Lahor",
+   "sahip": "babur-imparatorlugu",
+   "kova": "A-koridor",
+   "ana_km": 258.1,
+   "kopru_km": 184.9,
+   "kopru_cift": [
+    "Siyâlkot",
+    "Râvalpindi"
+   ],
+   "ada_n": 5,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1795-01-01",
+   "yerlesim": "Angkor (Siem Reap)",
+   "sahip": "siyam-chakri",
+   "kova": "A-koridor",
+   "ana_km": 257.5,
+   "kopru_km": 180.4,
+   "kopru_cift": [
+    "Sisophon",
+    "Nakhon Ratchasima"
+   ],
+   "ada_n": 5,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1763-02-10",
+   "yerlesim": "Trois-Rivières",
+   "sahip": "ingiliz-kuzey-amerika",
+   "kova": "A-koridor",
+   "ana_km": 257.0,
+   "kopru_km": 178.9,
+   "kopru_cift": [
+    "Quebec",
+    "Chicoutimi"
+   ],
+   "ada_n": 4,
+   "gövde_n": 4
+  },
+  {
+   "gun": "1867-07-01",
+   "yerlesim": "Trois-Rivières",
+   "sahip": "kanada",
+   "kova": "A-koridor",
+   "ana_km": 257.0,
+   "kopru_km": 178.9,
+   "kopru_cift": [
+    "Quebec",
+    "Chicoutimi"
+   ],
+   "ada_n": 4,
+   "gövde_n": 4
+  },
+  {
+   "gun": "1646-07-06",
+   "yerlesim": "Shaoxing",
+   "sahip": "qing-hanedani",
+   "kova": "A-koridor",
+   "ana_km": 255.3,
+   "kopru_km": 164.6,
+   "kopru_cift": [
+    "Suzhou",
+    "Yangzhou"
+   ],
+   "ada_n": 5,
+   "gövde_n": 7
+  },
+  {
+   "gun": "1678-07-19",
+   "yerlesim": "Çehrin (Çigirin)",
+   "sahip": "OSMANLI",
+   "kova": "A-koridor",
+   "ana_km": 255.0,
+   "kopru_km": 255.0,
+   "kopru_cift": [
+    "Çehrin (Çigirin)",
+    "Kızıkermen (Gazi Kerman)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 572
+  },
+  {
+   "gun": "1902-01-01",
+   "yerlesim": "Huambo (Wambu)",
+   "sahip": "portekiz",
+   "kova": "A-koridor",
+   "ana_km": 253.7,
+   "kopru_km": 220.6,
+   "kopru_cift": [
+    "Kakonda (Caconda)",
+    "Benguela"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1504-01-01",
+   "yerlesim": "Kurmuk",
+   "sahip": "funj",
+   "kova": "A-koridor",
+   "ana_km": 253.3,
+   "kopru_km": 151.0,
+   "kopru_cift": [
+    "Rusayris",
+    "Sincâ"
+   ],
+   "ada_n": 4,
+   "gövde_n": 33
+  },
+  {
+   "gun": "1790-12-22",
+   "yerlesim": "İsmail",
+   "sahip": "rusya",
+   "kova": "A-koridor",
+   "ana_km": 252.5,
+   "kopru_km": 252.5,
+   "kopru_cift": [
+    "İsmail",
+    "Özi"
+   ],
+   "ada_n": 1,
+   "gövde_n": 20
+  },
+  {
+   "gun": "1523-01-01",
+   "yerlesim": "Zaachila",
+   "sahip": "ispanya",
+   "kova": "A-koridor",
+   "ana_km": 251.9,
+   "kopru_km": 251.9,
+   "kopru_cift": [
+    "Zaachila",
+    "Tepeaca"
+   ],
+   "ada_n": 3,
+   "gövde_n": 9
+  },
+  {
+   "gun": "1535-04-17",
+   "yerlesim": "Zaachila",
+   "sahip": "yeni-ispanya",
+   "kova": "A-koridor",
+   "ana_km": 251.9,
+   "kopru_km": 244.4,
+   "kopru_cift": [
+    "Antequera (Oaxaca)",
+    "Tepeaca"
+   ],
+   "ada_n": 4,
+   "gövde_n": 10
+  },
+  {
+   "gun": "1821-09-27",
+   "yerlesim": "Zaachila",
+   "sahip": "meksika",
+   "kova": "A-koridor",
+   "ana_km": 251.9,
+   "kopru_km": 244.4,
+   "kopru_cift": [
+    "Antequera (Oaxaca)",
+    "Tepeaca"
+   ],
+   "ada_n": 4,
+   "gövde_n": 10
+  },
+  {
+   "gun": "1523-01-01",
+   "yerlesim": "Mitla",
+   "sahip": "ispanya",
+   "kova": "A-koridor",
+   "ana_km": 251.7,
+   "kopru_km": 251.7,
+   "kopru_cift": [
+    "Mitla",
+    "Veracruz (Villa Rica de la Vera Cruz)"
+   ],
+   "ada_n": 3,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1535-04-17",
+   "yerlesim": "Mitla",
+   "sahip": "yeni-ispanya",
+   "kova": "A-koridor",
+   "ana_km": 251.7,
+   "kopru_km": 241.8,
+   "kopru_cift": [
+    "Antequera (Oaxaca)",
+    "Veracruz (Villa Rica de la Vera Cruz)"
+   ],
+   "ada_n": 4,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1821-09-27",
+   "yerlesim": "Mitla",
+   "sahip": "meksika",
+   "kova": "A-koridor",
+   "ana_km": 251.7,
+   "kopru_km": 241.8,
+   "kopru_cift": [
+    "Antequera (Oaxaca)",
+    "Veracruz (Villa Rica de la Vera Cruz)"
+   ],
+   "ada_n": 4,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1514-09-06",
+   "yerlesim": "Tebriz",
+   "sahip": "OSMANLI",
+   "kova": "A-koridor",
+   "ana_km": 251.5,
+   "kopru_km": 251.5,
+   "kopru_cift": [
+    "Tebriz",
+    "Doğubayazıt"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1514-09-06",
+   "yerlesim": "Doğubayazıt",
+   "sahip": "OSMANLI",
+   "kova": "A-koridor",
+   "ana_km": 251.5,
+   "kopru_km": 251.5,
+   "kopru_cift": [
+    "Doğubayazıt",
+    "Tebriz"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1801-09-12",
+   "yerlesim": "Zagem (Kaheti)",
+   "sahip": "rusya",
+   "kova": "A-koridor",
+   "ana_km": 251.1,
+   "kopru_km": 188.4,
+   "kopru_cift": [
+    "Vladikavkaz",
+    "Terek deltası (Kızlar)"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1400-01-01",
+   "yerlesim": "Utatlán (Q'umarkaj)",
+   "sahip": "maya-sehir-devletleri",
+   "kova": "A-koridor",
+   "ana_km": 250.5,
+   "kopru_km": 245.0,
+   "kopru_cift": [
+    "Zaculeu",
+    "Nojpetén (Tayasal / Flores)"
+   ],
+   "ada_n": 2,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1698-09-12",
+   "yerlesim": "Taganrog",
+   "sahip": "rusya",
+   "kova": "A-koridor",
+   "ana_km": 249.6,
+   "kopru_km": 249.6,
+   "kopru_cift": [
+    "Taganrog",
+    "İzyum"
+   ],
+   "ada_n": 2,
+   "gövde_n": 18
+  },
+  {
+   "gun": "1904-01-12",
+   "yerlesim": "Otjimbingve",
+   "sahip": "almanya",
+   "kova": "A-koridor",
+   "ana_km": 249.1,
+   "kopru_km": 222.4,
+   "kopru_cift": [
+    "Okahandja",
+    "Outjo"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1407-01-01",
+   "yerlesim": "Bombay",
+   "sahip": "gucerat-sultanligi",
+   "kova": "A-koridor",
+   "ana_km": 247.8,
+   "kopru_km": 247.8,
+   "kopru_cift": [
+    "Bombay",
+    "Sûrat"
+   ],
+   "ada_n": 1,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1905-06-07",
+   "yerlesim": "Oslo",
+   "sahip": "norvec",
+   "kova": "A-koridor",
+   "ana_km": 247.4,
+   "kopru_km": 169.3,
+   "kopru_cift": [
+    "Lillehammer",
+    "Røros"
+   ],
+   "ada_n": 5,
+   "gövde_n": 9
+  },
+  {
+   "gun": "1700-01-01",
+   "yerlesim": "Kanye (Ngvaketse)",
+   "sahip": "tsvana",
+   "kova": "A-koridor",
+   "ana_km": 246.8,
+   "kopru_km": 158.6,
+   "kopru_cift": [
+    "Moçudi (Kgatla)",
+    "Şoşong (Shoshong)"
+   ],
+   "ada_n": 3,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1775-01-01",
+   "yerlesim": "Cavnpur (Jaunpur)",
+   "sahip": "ingiliz-hindistani",
+   "kova": "A-koridor",
+   "ana_km": 246.5,
+   "kopru_km": 209.1,
+   "kopru_cift": [
+    "Benâres (Vârânasî)",
+    "Gayâ"
+   ],
+   "ada_n": 2,
+   "gövde_n": 10
+  },
+  {
+   "gun": "1360-01-01",
+   "yerlesim": "Erzurum",
+   "sahip": "eretna",
+   "kova": "A-koridor",
+   "ana_km": 245.4,
+   "kopru_km": 245.4,
+   "kopru_cift": [
+    "Erzurum",
+    "Karahisâr-ı Şarkî (Şebinkarahisar)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 13
+  },
+  {
+   "gun": "1897-01-01",
+   "yerlesim": "Kelâfo",
+   "sahip": "habesistan",
+   "kova": "A-koridor",
+   "ana_km": 244.4,
+   "kopru_km": 163.1,
+   "kopru_cift": [
+    "Gode",
+    "İmi"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1333-07-04",
+   "yerlesim": "Kamakura",
+   "sahip": "kenmu",
+   "kova": "A-koridor",
+   "ana_km": 244.3,
+   "kopru_km": 244.3,
+   "kopru_cift": [
+    "Kamakura",
+    "Aizu-Wakamatsu"
+   ],
+   "ada_n": 3,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1336-11-07",
+   "yerlesim": "Kamakura",
+   "sahip": "muromachi",
+   "kova": "A-koridor",
+   "ana_km": 244.3,
+   "kopru_km": 244.3,
+   "kopru_cift": [
+    "Kamakura",
+    "Aizu-Wakamatsu"
+   ],
+   "ada_n": 3,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1573-01-01",
+   "yerlesim": "Kamakura",
+   "sahip": "azuchi-momoyama",
+   "kova": "A-koridor",
+   "ana_km": 244.3,
+   "kopru_km": 201.8,
+   "kopru_cift": [
+    "Edo (Tokyo)",
+    "Aizu-Wakamatsu"
+   ],
+   "ada_n": 4,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1603-03-24",
+   "yerlesim": "Kamakura",
+   "sahip": "edo-bakufu",
+   "kova": "A-koridor",
+   "ana_km": 244.3,
+   "kopru_km": 201.8,
+   "kopru_cift": [
+    "Edo (Tokyo)",
+    "Aizu-Wakamatsu"
+   ],
+   "ada_n": 4,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1526-04-21",
+   "yerlesim": "Câlandhar (Jalandhar)",
+   "sahip": "babur-imparatorlugu",
+   "kova": "A-koridor",
+   "ana_km": 242.0,
+   "kopru_km": 150.4,
+   "kopru_cift": [
+    "Sirhind",
+    "Pânipat"
+   ],
+   "ada_n": 5,
+   "gövde_n": 17
+  },
+  {
+   "gun": "1540-05-17",
+   "yerlesim": "Câlandhar (Jalandhar)",
+   "sahip": "sur-hanedani",
+   "kova": "A-koridor",
+   "ana_km": 242.0,
+   "kopru_km": 150.4,
+   "kopru_cift": [
+    "Sirhind",
+    "Pânipat"
+   ],
+   "ada_n": 5,
+   "gövde_n": 17
+  },
+  {
+   "gun": "1555-07-23",
+   "yerlesim": "Câlandhar (Jalandhar)",
+   "sahip": "babur-imparatorlugu",
+   "kova": "A-koridor",
+   "ana_km": 242.0,
+   "kopru_km": 177.3,
+   "kopru_cift": [
+    "Sirhind",
+    "Hisâr-ı Fîrûze"
+   ],
+   "ada_n": 5,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1846-03-09",
+   "yerlesim": "Câlandhar (Jalandhar)",
+   "sahip": "ingiliz-hindistani",
+   "kova": "A-koridor",
+   "ana_km": 242.0,
+   "kopru_km": 194.8,
+   "kopru_cift": [
+    "Ludhiyana",
+    "Hisâr-ı Fîrûze"
+   ],
+   "ada_n": 2,
+   "gövde_n": 10
+  },
+  {
+   "gun": "1821-09-27",
+   "yerlesim": "Antequera (Oaxaca)",
+   "sahip": "meksika",
+   "kova": "A-koridor",
+   "ana_km": 241.8,
+   "kopru_km": 241.8,
+   "kopru_cift": [
+    "Antequera (Oaxaca)",
+    "Veracruz (Villa Rica de la Vera Cruz)"
+   ],
+   "ada_n": 4,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1763-02-10",
+   "yerlesim": "Fort Frontenac (Kingston)",
+   "sahip": "ingiliz-kuzey-amerika",
+   "kova": "A-koridor",
+   "ana_km": 240.8,
+   "kopru_km": 240.8,
+   "kopru_cift": [
+    "Fort Frontenac (Kingston)",
+    "York (Toronto)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1867-07-01",
+   "yerlesim": "Fort Frontenac (Kingston)",
+   "sahip": "kanada",
+   "kova": "A-koridor",
+   "ana_km": 240.8,
+   "kopru_km": 240.8,
+   "kopru_cift": [
+    "Fort Frontenac (Kingston)",
+    "York (Toronto)"
+   ],
+   "ada_n": 2,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1783-04-19",
+   "yerlesim": "Soçi (Sâşe)",
+   "sahip": "OSMANLI",
+   "kova": "A-koridor",
+   "ana_km": 240.7,
+   "kopru_km": 165.3,
+   "kopru_cift": [
+    "Tuapse",
+    "Anapa"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1466-01-01",
+   "yerlesim": "Saray (Selitrennoye)",
+   "sahip": "astarhan",
+   "kova": "A-koridor",
+   "ana_km": 240.4,
+   "kopru_km": 240.4,
+   "kopru_cift": [
+    "Saray (Selitrennoye)",
+    "Yeni Saray (Tsarev)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1795-01-01",
+   "yerlesim": "Battambang",
+   "sahip": "siyam-chakri",
+   "kova": "A-koridor",
+   "ana_km": 240.0,
+   "kopru_km": 180.4,
+   "kopru_cift": [
+    "Sisophon",
+    "Nakhon Ratchasima"
+   ],
+   "ada_n": 5,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1723-09-23",
+   "yerlesim": "Salyan",
+   "sahip": "rusya",
+   "kova": "A-koridor",
+   "ana_km": 239.8,
+   "kopru_km": 213.0,
+   "kopru_cift": [
+    "Mahmudâbâd",
+    "Bender Enzeli"
+   ],
+   "ada_n": 3,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1855-02-25",
+   "yerlesim": "Nder (Valo)",
+   "sahip": "fransa-cumhuriyet",
+   "kova": "A-koridor",
+   "ana_km": 239.4,
+   "kopru_km": 179.9,
+   "kopru_cift": [
+    "Saint-Louis (Ndar)",
+    "Gore (Gorée)"
+   ],
+   "ada_n": 2,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1708-01-01",
+   "yerlesim": "Mantova",
+   "sahip": "avusturya",
+   "kova": "A-koridor",
+   "ana_km": 239.0,
+   "kopru_km": 239.0,
+   "kopru_cift": [
+    "Mantova",
+    "Trieste"
+   ],
+   "ada_n": 1,
+   "gövde_n": 49
+  },
+  {
+   "gun": "1466-10-19",
+   "yerlesim": "Elbing (Elbląg)",
+   "sahip": "lehistan",
+   "kova": "A-koridor",
+   "ana_km": 238.9,
+   "kopru_km": 184.1,
+   "kopru_cift": [
+    "Torun (Toruń)",
+    "Varşova"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1865-06-17",
+   "yerlesim": "Taşkent",
+   "sahip": "rusya",
+   "kova": "A-koridor",
+   "ana_km": 236.9,
+   "kopru_km": 154.9,
+   "kopru_cift": [
+    "Çimkent",
+    "Türkistan (Yesi)"
+   ],
+   "ada_n": 4,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1722-08-23",
+   "yerlesim": "Derbend",
+   "sahip": "rusya",
+   "kova": "A-koridor",
+   "ana_km": 236.7,
+   "kopru_km": 236.7,
+   "kopru_cift": [
+    "Derbend",
+    "Terek deltası (Kızlar)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1832-11-22",
+   "yerlesim": "Dellîs",
+   "sahip": "abdulkadir",
+   "kova": "A-koridor",
+   "ana_km": 236.6,
+   "kopru_km": 236.6,
+   "kopru_cift": [
+    "Dellîs",
+    "Tenes"
+   ],
+   "ada_n": 3,
+   "gövde_n": 8
+  },
+  {
+   "gun": "1801-07-31",
+   "yerlesim": "Arkot (Arcot)",
+   "sahip": "ingiliz-hindistani",
+   "kova": "A-koridor",
+   "ana_km": 236.5,
+   "kopru_km": 165.3,
+   "kopru_cift": [
+    "Cinci (Gingee)",
+    "Tancûr (Thanjavur)"
+   ],
+   "ada_n": 4,
+   "gövde_n": 4
+  },
+  {
+   "gun": "1894-01-01",
+   "yerlesim": "Sodo (Vollayta)",
+   "sahip": "habesistan",
+   "kova": "A-koridor",
+   "ana_km": 236.3,
+   "kopru_km": 159.3,
+   "kopru_cift": [
+    "Hosaena",
+    "Ambo"
+   ],
+   "ada_n": 4,
+   "gövde_n": 29
+  },
+  {
+   "gun": "1884-07-18",
+   "yerlesim": "Mayd",
+   "sahip": "ingiltere",
+   "kova": "A-koridor",
+   "ana_km": 236.3,
+   "kopru_km": 185.8,
+   "kopru_cift": [
+    "Ceel Afveyn",
+    "Burao"
+   ],
+   "ada_n": 5,
+   "gövde_n": 7
+  },
+  {
+   "gun": "1304-01-01",
+   "yerlesim": "Broaç (Bharuch)",
+   "sahip": "delhi-sultanligi",
+   "kova": "A-koridor",
+   "ana_km": 236.2,
+   "kopru_km": 198.3,
+   "kopru_cift": [
+    "Sûrat",
+    "Diu"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1900-06-26",
+   "yerlesim": "Fort Portal (Toro)",
+   "sahip": "ingiltere",
+   "kova": "A-koridor",
+   "ana_km": 236.2,
+   "kopru_km": 236.2,
+   "kopru_cift": [
+    "Fort Portal (Toro)",
+    "Bveranyange (Karagve)"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1868-05-14",
+   "yerlesim": "Semerkant",
+   "sahip": "rusya",
+   "kova": "A-koridor",
+   "ana_km": 236.1,
+   "kopru_km": 152.3,
+   "kopru_cift": [
+    "Cizzah",
+    "Hucend"
+   ],
+   "ada_n": 2,
+   "gövde_n": 5
+  },
+  {
+   "gun": "1917-03-15",
+   "yerlesim": "Semerkant",
+   "sahip": "rusya-gecici-hukumet",
+   "kova": "A-koridor",
+   "ana_km": 236.1,
+   "kopru_km": 152.3,
+   "kopru_cift": [
+    "Cizzah",
+    "Hucend"
+   ],
+   "ada_n": 2,
+   "gövde_n": 8
+  },
+  {
+   "gun": "1917-11-07",
+   "yerlesim": "Semerkant",
+   "sahip": "sovyet-rusya",
+   "kova": "A-koridor",
+   "ana_km": 236.1,
+   "kopru_km": 152.3,
+   "kopru_cift": [
+    "Cizzah",
+    "Hucend"
+   ],
+   "ada_n": 2,
+   "gövde_n": 8
+  },
+  {
+   "gun": "1867-07-01",
+   "yerlesim": "Odanak (Abenaki)",
+   "sahip": "kanada",
+   "kova": "A-koridor",
+   "ana_km": 235.2,
+   "kopru_km": 166.6,
+   "kopru_cift": [
+    "Montreal (Ville-Marie)",
+    "Bytown (Ottawa)"
+   ],
+   "ada_n": 4,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1775-05-07",
+   "yerlesim": "Çernovitz (Çernivtsi)",
+   "sahip": "avusturya",
+   "kova": "A-koridor",
+   "ana_km": 234.4,
+   "kopru_km": 182.4,
+   "kopru_cift": [
+    "Lvov",
+    "Munkács (Mukacheve)"
+   ],
+   "ada_n": 4,
+   "gövde_n": 50
+  },
+  {
+   "gun": "1505-01-01",
+   "yerlesim": "Kannûr (Cannanore)",
+   "sahip": "portekiz",
+   "kova": "A-koridor",
+   "ana_km": 234.1,
+   "kopru_km": 234.1,
+   "kopru_cift": [
+    "Kannûr (Cannanore)",
+    "Koçin (Kochi)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1663-02-15",
+   "yerlesim": "Kannûr (Cannanore)",
+   "sahip": "hollanda",
+   "kova": "A-koridor",
+   "ana_km": 234.1,
+   "kopru_km": 234.1,
+   "kopru_cift": [
+    "Kannûr (Cannanore)",
+    "Koçin (Kochi)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1337-09-09",
+   "yerlesim": "Bistâm",
+   "sahip": "serbedariler",
+   "kova": "A-koridor",
+   "ana_km": 232.2,
+   "kopru_km": 232.2,
+   "kopru_cift": [
+    "Bistâm",
+    "Esferâyin"
+   ],
+   "ada_n": 5,
+   "gövde_n": 15
+  },
+  {
+   "gun": "1387-11-01",
+   "yerlesim": "Bistâm",
+   "sahip": "timurlu",
+   "kova": "A-koridor",
+   "ana_km": 232.2,
+   "kopru_km": 232.2,
+   "kopru_cift": [
+    "Bistâm",
+    "Esferâyin"
+   ],
+   "ada_n": 5,
+   "gövde_n": 15
+  },
+  {
+   "gun": "1878-01-01",
+   "yerlesim": "Gcuva (Butterworth)",
+   "sahip": "ingiltere",
+   "kova": "A-koridor",
+   "ana_km": 231.7,
+   "kopru_km": 231.7,
+   "kopru_cift": [
+    "Gcuva (Butterworth)",
+    "Kokstad"
+   ],
+   "ada_n": 5,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1884-01-01",
+   "yerlesim": "Zeyla",
+   "sahip": "ingiltere",
+   "kova": "A-koridor",
+   "ana_km": 231.5,
+   "kopru_km": 231.5,
+   "kopru_cift": [
+    "Zeyla",
+    "Aden"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1557-01-01",
+   "yerlesim": "Dahlak",
+   "sahip": "OSMANLI",
+   "kova": "A-koridor",
+   "ana_km": 230.7,
+   "kopru_km": 230.7,
+   "kopru_cift": [
+    "Dahlak",
+    "Ferasan (Farasan)"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1515-04-01",
+   "yerlesim": "Buraymî",
+   "sahip": "umman",
+   "kova": "A-koridor",
+   "ana_km": 230.0,
+   "kopru_km": 230.0,
+   "kopru_cift": [
+    "Buraymî",
+    "Nizva"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1723-07-26",
+   "yerlesim": "Bakü",
+   "sahip": "rusya",
+   "kova": "A-koridor",
+   "ana_km": 229.2,
+   "kopru_km": 229.2,
+   "kopru_cift": [
+    "Bakü",
+    "Derbend"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1504-01-01",
+   "yerlesim": "Fâzûğlî",
+   "sahip": "funj",
+   "kova": "A-koridor",
+   "ana_km": 228.4,
+   "kopru_km": 151.0,
+   "kopru_cift": [
+    "Rusayris",
+    "Sincâ"
+   ],
+   "ada_n": 4,
+   "gövde_n": 33
+  },
+  {
+   "gun": "1569-08-08",
+   "yerlesim": "Lopburi",
+   "sahip": "toungoo",
+   "kova": "A-koridor",
+   "ana_km": 227.9,
+   "kopru_km": 227.9,
+   "kopru_cift": [
+    "Lopburi",
+    "Phitsanulok"
+   ],
+   "ada_n": 2,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1885-03-31",
+   "yerlesim": "Kanye (Ngvaketse)",
+   "sahip": "ingiltere",
+   "kova": "A-koridor",
+   "ana_km": 227.4,
+   "kopru_km": 151.3,
+   "kopru_cift": [
+    "Mafikeng",
+    "Vryburg"
+   ],
+   "ada_n": 4,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1368-01-23",
+   "yerlesim": "Shaoxing",
+   "sahip": "ming-hanedani",
+   "kova": "A-koridor",
+   "ana_km": 226.7,
+   "kopru_km": 224.0,
+   "kopru_cift": [
+    "Ningbo",
+    "Wenzhou"
+   ],
+   "ada_n": 5,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1644-04-25",
+   "yerlesim": "Shaoxing",
+   "sahip": "guney-ming",
+   "kova": "A-koridor",
+   "ana_km": 226.7,
+   "kopru_km": 224.0,
+   "kopru_cift": [
+    "Ningbo",
+    "Wenzhou"
+   ],
+   "ada_n": 5,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1912-02-12",
+   "yerlesim": "Shaoxing",
+   "sahip": "cin-cumhuriyeti",
+   "kova": "A-koridor",
+   "ana_km": 226.7,
+   "kopru_km": 224.0,
+   "kopru_cift": [
+    "Ningbo",
+    "Wenzhou"
+   ],
+   "ada_n": 5,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1534-07-13",
+   "yerlesim": "Tebriz",
+   "sahip": "OSMANLI",
+   "kova": "A-koridor",
+   "ana_km": 225.9,
+   "kopru_km": 225.9,
+   "kopru_cift": [
+    "Tebriz",
+    "Rewândiz"
+   ],
+   "ada_n": 1,
+   "gövde_n": 450
+  },
+  {
+   "gun": "1548-07-27",
+   "yerlesim": "Tebriz",
+   "sahip": "OSMANLI",
+   "kova": "A-koridor",
+   "ana_km": 225.9,
+   "kopru_km": 225.9,
+   "kopru_cift": [
+    "Tebriz",
+    "Rewândiz"
+   ],
+   "ada_n": 1,
+   "gövde_n": 507
+  },
+  {
+   "gun": "1479-01-20",
+   "yerlesim": "Santiago de Compostela",
+   "sahip": "ispanya",
+   "kova": "A-koridor",
+   "ana_km": 225.3,
+   "kopru_km": 205.9,
+   "kopru_cift": [
+    "A Coruña",
+    "Oviedo"
+   ],
+   "ada_n": 3,
+   "gövde_n": 8
+  },
+  {
+   "gun": "1884-07-18",
+   "yerlesim": "Lâs Hore",
+   "sahip": "ingiltere",
+   "kova": "A-koridor",
+   "ana_km": 224.6,
+   "kopru_km": 151.5,
+   "kopru_cift": [
+    "Ceel Afveyn",
+    "Lasanod"
+   ],
+   "ada_n": 5,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1885-01-26",
+   "yerlesim": "Fâzûğlî",
+   "sahip": "mehdi",
+   "kova": "A-koridor",
+   "ana_km": 224.4,
+   "kopru_km": 151.0,
+   "kopru_cift": [
+    "Rusayris",
+    "Sincâ"
+   ],
+   "ada_n": 4,
+   "gövde_n": 34
+  },
+  {
+   "gun": "1899-01-19",
+   "yerlesim": "Fâzûğlî",
+   "sahip": "ingiliz-sudani",
+   "kova": "A-koridor",
+   "ana_km": 224.4,
+   "kopru_km": 171.6,
+   "kopru_cift": [
+    "Ed-Damazîn",
+    "Er-Renk"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1723-09-23",
+   "yerlesim": "Lâhîcan",
+   "sahip": "rusya",
+   "kova": "A-koridor",
+   "ana_km": 224.3,
+   "kopru_km": 224.3,
+   "kopru_cift": [
+    "Lâhîcan",
+    "Âmül"
+   ],
+   "ada_n": 2,
+   "gövde_n": 6
+  },
+  {
+   "gun": "1501-07-01",
+   "yerlesim": "Tarki (Tarku)",
+   "sahip": "safevi",
+   "kova": "A-koridor",
+   "ana_km": 223.8,
+   "kopru_km": 223.8,
+   "kopru_cift": [
+    "Tarki (Tarku)",
+    "Kabala"
+   ],
+   "ada_n": 2,
+   "gövde_n": 45
+  },
+  {
+   "gun": "1776-07-04",
+   "yerlesim": "Boston (Massachusetts)",
+   "sahip": "abd",
+   "kova": "A-koridor",
+   "ana_km": 223.5,
+   "kopru_km": 223.5,
+   "kopru_cift": [
+    "Boston (Massachusetts)",
+    "Fort Orange (Albany)"
+   ],
+   "ada_n": 2,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1569-07-01",
+   "yerlesim": "Vitebsk",
+   "sahip": "lehistan",
+   "kova": "A-koridor",
+   "ana_km": 222.6,
+   "kopru_km": 192.6,
+   "kopru_cift": [
+    "Polotsk",
+    "Minsk"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1917-03-15",
+   "yerlesim": "Vitebsk",
+   "sahip": "rusya-gecici-hukumet",
+   "kova": "A-koridor",
+   "ana_km": 222.6,
+   "kopru_km": 192.6,
+   "kopru_cift": [
+    "Polotsk",
+    "Minsk"
+   ],
+   "ada_n": 5,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1917-11-07",
+   "yerlesim": "Vitebsk",
+   "sahip": "sovyet-rusya",
+   "kova": "A-koridor",
+   "ana_km": 222.6,
+   "kopru_km": 192.6,
+   "kopru_cift": [
+    "Polotsk",
+    "Minsk"
+   ],
+   "ada_n": 5,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1371-01-01",
+   "yerlesim": "Kotor (Cattaro)",
+   "sahip": "macaristan",
+   "kova": "A-koridor",
+   "ana_km": 222.4,
+   "kopru_km": 163.0,
+   "kopru_cift": [
+    "Dubrovnik",
+    "Klis"
+   ],
+   "ada_n": 2,
+   "gövde_n": 53
+  },
+  {
+   "gun": "1783-04-19",
+   "yerlesim": "Maykop (Çerkezya)",
+   "sahip": "OSMANLI",
+   "kova": "A-koridor",
+   "ana_km": 222.2,
+   "kopru_km": 165.3,
+   "kopru_cift": [
+    "Tuapse",
+    "Anapa"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1899-01-01",
+   "yerlesim": "Bole",
+   "sahip": "ingiltere",
+   "kova": "A-koridor",
+   "ana_km": 221.9,
+   "kopru_km": 220.2,
+   "kopru_cift": [
+    "Begho (Bighu)",
+    "Salaga (Gonja)"
+   ],
+   "ada_n": 3,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1660-01-01",
+   "yerlesim": "İlyinsk",
+   "sahip": "rusya",
+   "kova": "A-koridor",
+   "ana_km": 221.3,
+   "kopru_km": 214.3,
+   "kopru_cift": [
+    "Kabansk",
+    "Verholensk"
+   ],
+   "ada_n": 2,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1338-01-01",
+   "yerlesim": "Hûglî (Hooghly)",
+   "sahip": "bengal-sultanligi",
+   "kova": "A-koridor",
+   "ana_km": 220.7,
+   "kopru_km": 220.7,
+   "kopru_cift": [
+    "Hûglî (Hooghly)",
+    "Gaur (Lakhnautî)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 4
+  },
+  {
+   "gun": "1538-01-01",
+   "yerlesim": "Hûglî (Hooghly)",
+   "sahip": "sur-hanedani",
+   "kova": "A-koridor",
+   "ana_km": 220.7,
+   "kopru_km": 220.7,
+   "kopru_cift": [
+    "Hûglî (Hooghly)",
+    "Gaur (Lakhnautî)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 6
+  },
+  {
+   "gun": "1564-01-01",
+   "yerlesim": "Hûglî (Hooghly)",
+   "sahip": "bengal-sultanligi",
+   "kova": "A-koridor",
+   "ana_km": 220.7,
+   "kopru_km": 220.7,
+   "kopru_cift": [
+    "Hûglî (Hooghly)",
+    "Gaur (Lakhnautî)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 6
+  },
+  {
+   "gun": "1576-07-12",
+   "yerlesim": "Hûglî (Hooghly)",
+   "sahip": "babur-imparatorlugu",
+   "kova": "A-koridor",
+   "ana_km": 220.7,
+   "kopru_km": 220.7,
+   "kopru_cift": [
+    "Hûglî (Hooghly)",
+    "Gaur (Lakhnautî)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 6
+  },
+  {
+   "gun": "1812-08-14",
+   "yerlesim": "Grahamstown",
+   "sahip": "ingiltere",
+   "kova": "A-koridor",
+   "ana_km": 220.4,
+   "kopru_km": 220.4,
+   "kopru_cift": [
+    "Grahamstown",
+    "Graaff-Reinet"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1899-01-01",
+   "yerlesim": "Begho (Bighu)",
+   "sahip": "ingiltere",
+   "kova": "A-koridor",
+   "ana_km": 220.2,
+   "kopru_km": 220.2,
+   "kopru_cift": [
+    "Begho (Bighu)",
+    "Salaga (Gonja)"
+   ],
+   "ada_n": 3,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1849-01-01",
+   "yerlesim": "Moha",
+   "sahip": "OSMANLI",
+   "kova": "A-koridor",
+   "ana_km": 219.7,
+   "kopru_km": 219.7,
+   "kopru_cift": [
+    "Moha",
+    "Zeyla"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1559-01-01",
+   "yerlesim": "Zeyla",
+   "sahip": "OSMANLI",
+   "kova": "A-koridor",
+   "ana_km": 219.7,
+   "kopru_km": 219.7,
+   "kopru_cift": [
+    "Zeyla",
+    "Moha"
+   ],
+   "ada_n": 1,
+   "gövde_n": 4
+  },
+  {
+   "gun": "1308-01-01",
+   "yerlesim": "Bartın",
+   "sahip": "ilhanli",
+   "kova": "A-koridor",
+   "ana_km": 218.1,
+   "kopru_km": 162.2,
+   "kopru_cift": [
+    "Eflani",
+    "Osmancık"
+   ],
+   "ada_n": 3,
+   "gövde_n": 21
+  },
+  {
+   "gun": "1333-07-04",
+   "yerlesim": "Odawara",
+   "sahip": "kenmu",
+   "kova": "A-koridor",
+   "ana_km": 217.7,
+   "kopru_km": 155.6,
+   "kopru_cift": [
+    "Sunpu (Şizuoka)",
+    "Gifu"
+   ],
+   "ada_n": 3,
+   "gövde_n": 7
+  },
+  {
+   "gun": "1336-11-07",
+   "yerlesim": "Odawara",
+   "sahip": "muromachi",
+   "kova": "A-koridor",
+   "ana_km": 217.7,
+   "kopru_km": 155.6,
+   "kopru_cift": [
+    "Sunpu (Şizuoka)",
+    "Gifu"
+   ],
+   "ada_n": 3,
+   "gövde_n": 7
+  },
+  {
+   "gun": "1573-01-01",
+   "yerlesim": "Odawara",
+   "sahip": "azuchi-momoyama",
+   "kova": "A-koridor",
+   "ana_km": 217.7,
+   "kopru_km": 155.6,
+   "kopru_cift": [
+    "Sunpu (Şizuoka)",
+    "Gifu"
+   ],
+   "ada_n": 4,
+   "gövde_n": 8
+  },
+  {
+   "gun": "1603-03-24",
+   "yerlesim": "Odawara",
+   "sahip": "edo-bakufu",
+   "kova": "A-koridor",
+   "ana_km": 217.7,
+   "kopru_km": 155.6,
+   "kopru_cift": [
+    "Sunpu (Şizuoka)",
+    "Gifu"
+   ],
+   "ada_n": 4,
+   "gövde_n": 18
+  },
+  {
+   "gun": "1667-01-01",
+   "yerlesim": "Krasnıy Yar",
+   "sahip": "rusya",
+   "kova": "A-koridor",
+   "ana_km": 217.6,
+   "kopru_km": 183.8,
+   "kopru_cift": [
+    "Saray (Selitrennoye)",
+    "Kalmuk bozkırı"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1640-12-01",
+   "yerlesim": "Aveiro",
+   "sahip": "portekiz",
+   "kova": "A-koridor",
+   "ana_km": 217.4,
+   "kopru_km": 176.2,
+   "kopru_cift": [
+    "Coimbra",
+    "Lizbon"
+   ],
+   "ada_n": 5,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1441-01-01",
+   "yerlesim": "Belgorod",
+   "sahip": "kirim",
+   "kova": "A-koridor",
+   "ana_km": 217.2,
+   "kopru_km": 217.2,
+   "kopru_cift": [
+    "Belgorod",
+    "Voronej"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1900-01-01",
+   "yerlesim": "Licinga",
+   "sahip": "portekiz",
+   "kova": "A-koridor",
+   "ana_km": 217.1,
+   "kopru_km": 217.1,
+   "kopru_cift": [
+    "Licinga",
+    "Kuamba"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1899-01-01",
+   "yerlesim": "Birni-N'Konni",
+   "sahip": "fransa-cumhuriyet",
+   "kova": "A-koridor",
+   "ana_km": 217.0,
+   "kopru_km": 217.0,
+   "kopru_cift": [
+    "Birni-N'Konni",
+    "Filingue"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1569-07-01",
+   "yerlesim": "Çehrin (Çigirin)",
+   "sahip": "lehistan",
+   "kova": "A-koridor",
+   "ana_km": 216.7,
+   "kopru_km": 182.5,
+   "kopru_cift": [
+    "Lubnı",
+    "Kiev"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1632-06-24",
+   "yerlesim": "Hûglî (Hooghly)",
+   "sahip": "babur-imparatorlugu",
+   "kova": "A-koridor",
+   "ana_km": 216.4,
+   "kopru_km": 216.4,
+   "kopru_cift": [
+    "Hûglî (Hooghly)",
+    "Bâlâsor (Balasore)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1881-01-30",
+   "yerlesim": "Aşkabad",
+   "sahip": "rusya",
+   "kova": "A-koridor",
+   "ana_km": 215.7,
+   "kopru_km": 200.3,
+   "kopru_cift": [
+    "Nesâ",
+    "Kızılarvat"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1917-03-15",
+   "yerlesim": "Aşkabad",
+   "sahip": "rusya-gecici-hukumet",
+   "kova": "A-koridor",
+   "ana_km": 215.7,
+   "kopru_km": 200.3,
+   "kopru_cift": [
+    "Nesâ",
+    "Kızılarvat"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1917-11-07",
+   "yerlesim": "Aşkabad",
+   "sahip": "sovyet-rusya",
+   "kova": "A-koridor",
+   "ana_km": 215.7,
+   "kopru_km": 200.3,
+   "kopru_cift": [
+    "Nesâ",
+    "Kızılarvat"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1378-01-01",
+   "yerlesim": "Diyarbakır",
+   "sahip": "akkoyunlu",
+   "kova": "A-koridor",
+   "ana_km": 214.4,
+   "kopru_km": 214.4,
+   "kopru_cift": [
+    "Diyarbakır",
+    "Erzincan"
+   ],
+   "ada_n": 1,
+   "gövde_n": 4
+  },
+  {
+   "gun": "1660-01-01",
+   "yerlesim": "Kabansk",
+   "sahip": "rusya",
+   "kova": "A-koridor",
+   "ana_km": 214.3,
+   "kopru_km": 214.3,
+   "kopru_cift": [
+    "Kabansk",
+    "Verholensk"
+   ],
+   "ada_n": 2,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1785-01-01",
+   "yerlesim": "Nühûd",
+   "sahip": "darfur",
+   "kova": "A-koridor",
+   "ana_km": 213.6,
+   "kopru_km": 213.6,
+   "kopru_cift": [
+    "Nühûd",
+    "Ümmü Keddâde"
+   ],
+   "ada_n": 1,
+   "gövde_n": 14
+  },
+  {
+   "gun": "1420-05-21",
+   "yerlesim": "Reims",
+   "sahip": "ingiltere",
+   "kova": "A-koridor",
+   "ana_km": 213.4,
+   "kopru_km": 213.4,
+   "kopru_cift": [
+    "Reims",
+    "Rouen"
+   ],
+   "ada_n": 2,
+   "gövde_n": 35
+  },
+  {
+   "gun": "1347-08-03",
+   "yerlesim": "Devagiri (Devletâbâd)",
+   "sahip": "behmeni",
+   "kova": "A-koridor",
+   "ana_km": 213.4,
+   "kopru_km": 164.5,
+   "kopru_cift": [
+    "Nâsik",
+    "Pûne (Poona)"
+   ],
+   "ada_n": 2,
+   "gövde_n": 6
+  },
+  {
+   "gun": "1723-09-23",
+   "yerlesim": "Mahmudâbâd",
+   "sahip": "rusya",
+   "kova": "A-koridor",
+   "ana_km": 213.0,
+   "kopru_km": 213.0,
+   "kopru_cift": [
+    "Mahmudâbâd",
+    "Bender Enzeli"
+   ],
+   "ada_n": 3,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1723-09-23",
+   "yerlesim": "Bender Enzeli",
+   "sahip": "rusya",
+   "kova": "A-koridor",
+   "ana_km": 213.0,
+   "kopru_km": 213.0,
+   "kopru_cift": [
+    "Bender Enzeli",
+    "Mahmudâbâd"
+   ],
+   "ada_n": 2,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1890-11-04",
+   "yerlesim": "Pangani",
+   "sahip": "almanya",
+   "kova": "A-koridor",
+   "ana_km": 212.5,
+   "kopru_km": 212.5,
+   "kopru_cift": [
+    "Pangani",
+    "Morogoro"
+   ],
+   "ada_n": 1,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1916-09-01",
+   "yerlesim": "Pangani",
+   "sahip": "ingiltere",
+   "kova": "A-koridor",
+   "ana_km": 212.5,
+   "kopru_km": 212.5,
+   "kopru_cift": [
+    "Pangani",
+    "Morogoro"
+   ],
+   "ada_n": 1,
+   "gövde_n": 4
+  },
+  {
+   "gun": "1890-11-04",
+   "yerlesim": "Morogoro",
+   "sahip": "almanya",
+   "kova": "A-koridor",
+   "ana_km": 212.5,
+   "kopru_km": 212.5,
+   "kopru_cift": [
+    "Morogoro",
+    "Pangani"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1916-09-01",
+   "yerlesim": "Morogoro",
+   "sahip": "ingiltere",
+   "kova": "A-koridor",
+   "ana_km": 212.5,
+   "kopru_km": 212.5,
+   "kopru_cift": [
+    "Morogoro",
+    "Pangani"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1878-01-01",
+   "yerlesim": "Griquatown",
+   "sahip": "ingiltere",
+   "kova": "A-koridor",
+   "ana_km": 212.4,
+   "kopru_km": 158.9,
+   "kopru_cift": [
+    "Prieska",
+    "Kenhardt"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1884-07-18",
+   "yerlesim": "Hîs",
+   "sahip": "ingiltere",
+   "kova": "A-koridor",
+   "ana_km": 212.3,
+   "kopru_km": 185.8,
+   "kopru_cift": [
+    "Ceel Afveyn",
+    "Burao"
+   ],
+   "ada_n": 5,
+   "gövde_n": 7
+  },
+  {
+   "gun": "1649-01-01",
+   "yerlesim": "Cinci (Gingee)",
+   "sahip": "bicapur",
+   "kova": "A-koridor",
+   "ana_km": 211.4,
+   "kopru_km": 211.4,
+   "kopru_cift": [
+    "Cinci (Gingee)",
+    "Bangalor"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1304-01-01",
+   "yerlesim": "Çampâner",
+   "sahip": "delhi-sultanligi",
+   "kova": "A-koridor",
+   "ana_km": 209.3,
+   "kopru_km": 177.8,
+   "kopru_cift": [
+    "Kanbâyet (Khambhat)",
+    "Patan (Anhilvâda)"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1502-01-01",
+   "yerlesim": "Aşkale",
+   "sahip": "safevi",
+   "kova": "A-koridor",
+   "ana_km": 208.4,
+   "kopru_km": 182.3,
+   "kopru_cift": [
+    "Erzurum",
+    "Bitlis"
+   ],
+   "ada_n": 4,
+   "gövde_n": 60
+  },
+  {
+   "gun": "1665-01-01",
+   "yerlesim": "Verhneudinsk",
+   "sahip": "rusya",
+   "kova": "A-koridor",
+   "ana_km": 208.4,
+   "kopru_km": 208.4,
+   "kopru_cift": [
+    "Verhneudinsk",
+    "Buryat toprakları (Selenge havzası)"
+   ],
+   "ada_n": 4,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1917-03-15",
+   "yerlesim": "Verhneudinsk",
+   "sahip": "rusya-gecici-hukumet",
+   "kova": "A-koridor",
+   "ana_km": 208.4,
+   "kopru_km": 208.4,
+   "kopru_cift": [
+    "Verhneudinsk",
+    "Buryat toprakları (Selenge havzası)"
+   ],
+   "ada_n": 4,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1917-11-07",
+   "yerlesim": "Verhneudinsk",
+   "sahip": "sovyet-rusya",
+   "kova": "A-koridor",
+   "ana_km": 208.4,
+   "kopru_km": 208.4,
+   "kopru_cift": [
+    "Verhneudinsk",
+    "Buryat toprakları (Selenge havzası)"
+   ],
+   "ada_n": 4,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1909-07-10",
+   "yerlesim": "Kedah (Alor Setar)",
+   "sahip": "ingiliz-malaya",
+   "kova": "A-koridor",
+   "ana_km": 207.9,
+   "kopru_km": 207.9,
+   "kopru_cift": [
+    "Kedah (Alor Setar)",
+    "Kelantan (Kota Bharu)"
+   ],
+   "ada_n": 3,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1665-01-01",
+   "yerlesim": "Selenginsk",
+   "sahip": "rusya",
+   "kova": "A-koridor",
+   "ana_km": 207.3,
+   "kopru_km": 163.7,
+   "kopru_cift": [
+    "Kabansk",
+    "İrkutsk"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1917-03-15",
+   "yerlesim": "Selenginsk",
+   "sahip": "rusya-gecici-hukumet",
+   "kova": "A-koridor",
+   "ana_km": 207.3,
+   "kopru_km": 163.7,
+   "kopru_cift": [
+    "Kabansk",
+    "İrkutsk"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1917-11-07",
+   "yerlesim": "Selenginsk",
+   "sahip": "sovyet-rusya",
+   "kova": "A-koridor",
+   "ana_km": 207.3,
+   "kopru_km": 163.7,
+   "kopru_cift": [
+    "Kabansk",
+    "İrkutsk"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1596-01-01",
+   "yerlesim": "Belgorod",
+   "sahip": "rusya",
+   "kova": "A-koridor",
+   "ana_km": 207.3,
+   "kopru_km": 156.9,
+   "kopru_cift": [
+    "Kursk",
+    "Hluhiv"
+   ],
+   "ada_n": 4,
+   "gövde_n": 4
+  },
+  {
+   "gun": "1534-09-22",
+   "yerlesim": "Tunus",
+   "sahip": "OSMANLI",
+   "kova": "A-koridor",
+   "ana_km": 207.2,
+   "kopru_km": 207.2,
+   "kopru_cift": [
+    "Tunus",
+    "Sûk Ahrâs"
+   ],
+   "ada_n": 1,
+   "gövde_n": 25
+  },
+  {
+   "gun": "1569-01-01",
+   "yerlesim": "Tunus",
+   "sahip": "OSMANLI",
+   "kova": "A-koridor",
+   "ana_km": 207.2,
+   "kopru_km": 207.2,
+   "kopru_cift": [
+    "Tunus",
+    "Sûk Ahrâs"
+   ],
+   "ada_n": 1,
+   "gövde_n": 37
+  },
+  {
+   "gun": "1772-08-05",
+   "yerlesim": "Yazlofça (Yazlovets)",
+   "sahip": "avusturya",
+   "kova": "A-koridor",
+   "ana_km": 207.2,
+   "kopru_km": 182.4,
+   "kopru_cift": [
+    "Lvov",
+    "Munkács (Mukacheve)"
+   ],
+   "ada_n": 2,
+   "gövde_n": 50
+  },
+  {
+   "gun": "1515-04-01",
+   "yerlesim": "Dukm",
+   "sahip": "umman",
+   "kova": "A-koridor",
+   "ana_km": 207.2,
+   "kopru_km": 162.0,
+   "kopru_cift": [
+    "Râs Medreke",
+    "Cezîr (Sevkıra)"
+   ],
+   "ada_n": 4,
+   "gövde_n": 9
+  },
+  {
+   "gun": "1405-11-22",
+   "yerlesim": "Padova",
+   "sahip": "venedik",
+   "kova": "A-koridor",
+   "ana_km": 206.4,
+   "kopru_km": 174.7,
+   "kopru_cift": [
+    "Venedik",
+    "Cres (Cherso)"
+   ],
+   "ada_n": 3,
+   "gövde_n": 10
+  },
+  {
+   "gun": "1368-01-23",
+   "yerlesim": "Hangzhou",
+   "sahip": "ming-hanedani",
+   "kova": "A-koridor",
+   "ana_km": 206.3,
+   "kopru_km": 164.6,
+   "kopru_cift": [
+    "Suzhou",
+    "Yangzhou"
+   ],
+   "ada_n": 5,
+   "gövde_n": 7
+  },
+  {
+   "gun": "1644-04-25",
+   "yerlesim": "Hangzhou",
+   "sahip": "guney-ming",
+   "kova": "A-koridor",
+   "ana_km": 206.3,
+   "kopru_km": 164.6,
+   "kopru_cift": [
+    "Suzhou",
+    "Yangzhou"
+   ],
+   "ada_n": 5,
+   "gövde_n": 7
+  },
+  {
+   "gun": "1645-07-06",
+   "yerlesim": "Hangzhou",
+   "sahip": "qing-hanedani",
+   "kova": "A-koridor",
+   "ana_km": 206.3,
+   "kopru_km": 164.6,
+   "kopru_cift": [
+    "Suzhou",
+    "Yangzhou"
+   ],
+   "ada_n": 3,
+   "gövde_n": 7
+  },
+  {
+   "gun": "1912-02-12",
+   "yerlesim": "Hangzhou",
+   "sahip": "cin-cumhuriyeti",
+   "kova": "A-koridor",
+   "ana_km": 206.3,
+   "kopru_km": 164.6,
+   "kopru_cift": [
+    "Suzhou",
+    "Yangzhou"
+   ],
+   "ada_n": 5,
+   "gövde_n": 7
+  },
+  {
+   "gun": "1417-09-04",
+   "yerlesim": "Caen",
+   "sahip": "ingiltere",
+   "kova": "A-koridor",
+   "ana_km": 205.7,
+   "kopru_km": 205.7,
+   "kopru_cift": [
+    "Caen",
+    "Southampton"
+   ],
+   "ada_n": 1,
+   "gövde_n": 32
+  },
+  {
+   "gun": "1861-02-13",
+   "yerlesim": "Sirakuza",
+   "sahip": "italya",
+   "kova": "A-koridor",
+   "ana_km": 205.4,
+   "kopru_km": 166.3,
+   "kopru_cift": [
+    "Katanya (Catania)",
+    "Palermo"
+   ],
+   "ada_n": 5,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1393-05-01",
+   "yerlesim": "Leş (Alessio)",
+   "sahip": "venedik",
+   "kova": "A-koridor",
+   "ana_km": 205.2,
+   "kopru_km": 180.3,
+   "kopru_cift": [
+    "İşkodra",
+    "Mliyet (Mljet)"
+   ],
+   "ada_n": 3,
+   "gövde_n": 10
+  },
+  {
+   "gun": "1774-07-21",
+   "yerlesim": "Kızıkermen (Gazi Kerman)",
+   "sahip": "rusya",
+   "kova": "A-koridor",
+   "ana_km": 205.0,
+   "kopru_km": 205.0,
+   "kopru_cift": [
+    "Kızıkermen (Gazi Kerman)",
+    "Yelisavetgrad (Aziz Yelizaveta Kalesi)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 21
+  },
+  {
+   "gun": "1519-10-18",
+   "yerlesim": "Cholula",
+   "sahip": "ispanya",
+   "kova": "A-koridor",
+   "ana_km": 204.4,
+   "kopru_km": 204.4,
+   "kopru_cift": [
+    "Cholula",
+    "Cempoala (Zempoala)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1882-09-07",
+   "yerlesim": "Ğubeyş",
+   "sahip": "mehdi",
+   "kova": "A-koridor",
+   "ana_km": 204.1,
+   "kopru_km": 192.6,
+   "kopru_cift": [
+    "Bâbanûsa",
+    "Ebû Zabed"
+   ],
+   "ada_n": 3,
+   "gövde_n": 10
+  },
+  {
+   "gun": "1914-12-18",
+   "yerlesim": "Süveyş",
+   "sahip": "ingiltere",
+   "kova": "A-koridor",
+   "ana_km": 204.0,
+   "kopru_km": 204.0,
+   "kopru_cift": [
+    "Süveyş",
+    "Sina güneyi"
+   ],
+   "ada_n": 1,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1917-03-15",
+   "yerlesim": "İlyinsk",
+   "sahip": "rusya-gecici-hukumet",
+   "kova": "A-koridor",
+   "ana_km": 202.8,
+   "kopru_km": 163.7,
+   "kopru_cift": [
+    "Kabansk",
+    "İrkutsk"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1917-11-07",
+   "yerlesim": "İlyinsk",
+   "sahip": "sovyet-rusya",
+   "kova": "A-koridor",
+   "ana_km": 202.8,
+   "kopru_km": 163.7,
+   "kopru_cift": [
+    "Kabansk",
+    "İrkutsk"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1803-08-12",
+   "yerlesim": "Ahmednagar",
+   "sahip": "ingiliz-hindistani",
+   "kova": "A-koridor",
+   "ana_km": 202.7,
+   "kopru_km": 202.7,
+   "kopru_cift": [
+    "Ahmednagar",
+    "Bombay"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1457-01-01",
+   "yerlesim": "Edo (Tokyo)",
+   "sahip": "muromachi",
+   "kova": "A-koridor",
+   "ana_km": 201.8,
+   "kopru_km": 201.8,
+   "kopru_cift": [
+    "Edo (Tokyo)",
+    "Aizu-Wakamatsu"
+   ],
+   "ada_n": 4,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1573-01-01",
+   "yerlesim": "Edo (Tokyo)",
+   "sahip": "azuchi-momoyama",
+   "kova": "A-koridor",
+   "ana_km": 201.8,
+   "kopru_km": 201.8,
+   "kopru_cift": [
+    "Edo (Tokyo)",
+    "Aizu-Wakamatsu"
+   ],
+   "ada_n": 4,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1603-03-24",
+   "yerlesim": "Edo (Tokyo)",
+   "sahip": "edo-bakufu",
+   "kova": "A-koridor",
+   "ana_km": 201.8,
+   "kopru_km": 201.8,
+   "kopru_cift": [
+    "Edo (Tokyo)",
+    "Aizu-Wakamatsu"
+   ],
+   "ada_n": 4,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1899-05-30",
+   "yerlesim": "Nairobi",
+   "sahip": "ingiltere",
+   "kova": "A-koridor",
+   "ana_km": 201.0,
+   "kopru_km": 197.1,
+   "kopru_cift": [
+    "Kitui",
+    "İsiolo"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1538-08-03",
+   "yerlesim": "Moha",
+   "sahip": "OSMANLI",
+   "kova": "A-koridor",
+   "ana_km": 200.6,
+   "kopru_km": 200.6,
+   "kopru_cift": [
+    "Moha",
+    "Aden"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1556-01-01",
+   "yerlesim": "Beldjamen",
+   "sahip": "rusya",
+   "kova": "A-koridor",
+   "ana_km": 200.6,
+   "kopru_km": 158.8,
+   "kopru_cift": [
+    "Yeni Saray (Tsarev)",
+    "Rın kumulları (Volga-Yayık arası)"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1404-03-01",
+   "yerlesim": "Ankara",
+   "sahip": "suleyman-celebi",
+   "kova": "A-koridor",
+   "ana_km": 200.5,
+   "kopru_km": 200.5,
+   "kopru_cift": [
+    "Ankara",
+    "Eskişehir"
+   ],
+   "ada_n": 1,
+   "gövde_n": 134
+  },
+  {
+   "gun": "1887-01-06",
+   "yerlesim": "Harar",
+   "sahip": "habesistan",
+   "kova": "A-koridor",
+   "ana_km": 200.5,
+   "kopru_km": 151.6,
+   "kopru_cift": [
+    "Cîcîga",
+    "Dagahbûr"
+   ],
+   "ada_n": 2,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1860-01-01",
+   "yerlesim": "Nesâ",
+   "sahip": "turkmen",
+   "kova": "A-koridor",
+   "ana_km": 200.3,
+   "kopru_km": 200.3,
+   "kopru_cift": [
+    "Nesâ",
+    "Kızılarvat"
+   ],
+   "ada_n": 2,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1881-01-30",
+   "yerlesim": "Nesâ",
+   "sahip": "rusya",
+   "kova": "A-koridor",
+   "ana_km": 200.3,
+   "kopru_km": 200.3,
+   "kopru_cift": [
+    "Nesâ",
+    "Kızılarvat"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1917-03-15",
+   "yerlesim": "Nesâ",
+   "sahip": "rusya-gecici-hukumet",
+   "kova": "A-koridor",
+   "ana_km": 200.3,
+   "kopru_km": 200.3,
+   "kopru_cift": [
+    "Nesâ",
+    "Kızılarvat"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1917-11-07",
+   "yerlesim": "Nesâ",
+   "sahip": "sovyet-rusya",
+   "kova": "A-koridor",
+   "ana_km": 200.3,
+   "kopru_km": 200.3,
+   "kopru_cift": [
+    "Nesâ",
+    "Kızılarvat"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1861-02-13",
+   "yerlesim": "Reggio Calabria",
+   "sahip": "italya",
+   "kova": "A-koridor",
+   "ana_km": 200.0,
+   "kopru_km": 166.3,
+   "kopru_cift": [
+    "Katanya (Catania)",
+    "Palermo"
+   ],
+   "ada_n": 5,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1547-02-01",
+   "yerlesim": "Taiz",
+   "sahip": "OSMANLI",
+   "kova": "A-koridor",
+   "ana_km": 199.9,
+   "kopru_km": 160.8,
+   "kopru_cift": [
+    "Zebîd",
+    "Sana"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1884-07-18",
+   "yerlesim": "Erigavo",
+   "sahip": "ingiltere",
+   "kova": "A-koridor",
+   "ana_km": 199.4,
+   "kopru_km": 151.5,
+   "kopru_cift": [
+    "Ceel Afveyn",
+    "Lasanod"
+   ],
+   "ada_n": 5,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1917-03-15",
+   "yerlesim": "Tarki (Tarku)",
+   "sahip": "rusya-gecici-hukumet",
+   "kova": "A-koridor",
+   "ana_km": 198.6,
+   "kopru_km": 188.4,
+   "kopru_cift": [
+    "Terek deltası (Kızlar)",
+    "Vladikavkaz"
+   ],
+   "ada_n": 3,
+   "gövde_n": 42
+  },
+  {
+   "gun": "1917-11-07",
+   "yerlesim": "Tarki (Tarku)",
+   "sahip": "sovyet-rusya",
+   "kova": "A-koridor",
+   "ana_km": 198.6,
+   "kopru_km": 188.4,
+   "kopru_cift": [
+    "Terek deltası (Kızlar)",
+    "Vladikavkaz"
+   ],
+   "ada_n": 3,
+   "gövde_n": 37
+  },
+  {
+   "gun": "1902-01-01",
+   "yerlesim": "Dire Dava",
+   "sahip": "habesistan",
+   "kova": "A-koridor",
+   "ana_km": 198.4,
+   "kopru_km": 198.4,
+   "kopru_cift": [
+    "Dire Dava",
+    "Avaş"
+   ],
+   "ada_n": 3,
+   "gövde_n": 50
+  },
+  {
+   "gun": "1318-01-01",
+   "yerlesim": "Devagiri (Devletâbâd)",
+   "sahip": "delhi-sultanligi",
+   "kova": "A-koridor",
+   "ana_km": 198.2,
+   "kopru_km": 198.2,
+   "kopru_cift": [
+    "Devagiri (Devletâbâd)",
+    "Asîrgarh"
+   ],
+   "ada_n": 2,
+   "gövde_n": 4
+  },
+  {
+   "gun": "1860-01-01",
+   "yerlesim": "Ebîverd",
+   "sahip": "turkmen",
+   "kova": "A-koridor",
+   "ana_km": 197.8,
+   "kopru_km": 197.8,
+   "kopru_cift": [
+    "Ebîverd",
+    "Merv (Mari)"
+   ],
+   "ada_n": 2,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1917-03-15",
+   "yerlesim": "Ebîverd",
+   "sahip": "rusya-gecici-hukumet",
+   "kova": "A-koridor",
+   "ana_km": 197.8,
+   "kopru_km": 197.8,
+   "kopru_cift": [
+    "Ebîverd",
+    "Merv (Mari)"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1917-11-07",
+   "yerlesim": "Ebîverd",
+   "sahip": "sovyet-rusya",
+   "kova": "A-koridor",
+   "ana_km": 197.8,
+   "kopru_km": 197.8,
+   "kopru_cift": [
+    "Ebîverd",
+    "Merv (Mari)"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1833-07-28",
+   "yerlesim": "Mustagānim",
+   "sahip": "fransa-cumhuriyet",
+   "kova": "A-koridor",
+   "ana_km": 196.7,
+   "kopru_km": 196.7,
+   "kopru_cift": [
+    "Mustagānim",
+    "Miliana"
+   ],
+   "ada_n": 4,
+   "gövde_n": 5
+  },
+  {
+   "gun": "1552-01-01",
+   "yerlesim": "el-Vâdî (Sûf)",
+   "sahip": "OSMANLI",
+   "kova": "A-koridor",
+   "ana_km": 195.3,
+   "kopru_km": 195.3,
+   "kopru_cift": [
+    "el-Vâdî (Sûf)",
+    "Biskra"
+   ],
+   "ada_n": 3,
+   "gövde_n": 36
+  },
+  {
+   "gun": "1854-12-02",
+   "yerlesim": "el-Vâdî (Sûf)",
+   "sahip": "fransa-cumhuriyet",
+   "kova": "A-koridor",
+   "ana_km": 195.3,
+   "kopru_km": 195.3,
+   "kopru_cift": [
+    "el-Vâdî (Sûf)",
+    "Biskra"
+   ],
+   "ada_n": 3,
+   "gövde_n": 37
+  },
+  {
+   "gun": "1556-01-01",
+   "yerlesim": "Astrahan",
+   "sahip": "rusya",
+   "kova": "A-koridor",
+   "ana_km": 194.9,
+   "kopru_km": 183.8,
+   "kopru_cift": [
+    "Saray (Selitrennoye)",
+    "Kalmuk bozkırı"
+   ],
+   "ada_n": 2,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1480-01-01",
+   "yerlesim": "Ludhiyana",
+   "sahip": "delhi-sultanligi",
+   "kova": "A-koridor",
+   "ana_km": 194.8,
+   "kopru_km": 150.4,
+   "kopru_cift": [
+    "Sirhind",
+    "Pânipat"
+   ],
+   "ada_n": 5,
+   "gövde_n": 6
+  },
+  {
+   "gun": "1526-04-21",
+   "yerlesim": "Ludhiyana",
+   "sahip": "babur-imparatorlugu",
+   "kova": "A-koridor",
+   "ana_km": 194.8,
+   "kopru_km": 150.4,
+   "kopru_cift": [
+    "Sirhind",
+    "Pânipat"
+   ],
+   "ada_n": 5,
+   "gövde_n": 17
+  },
+  {
+   "gun": "1540-05-17",
+   "yerlesim": "Ludhiyana",
+   "sahip": "sur-hanedani",
+   "kova": "A-koridor",
+   "ana_km": 194.8,
+   "kopru_km": 150.4,
+   "kopru_cift": [
+    "Sirhind",
+    "Pânipat"
+   ],
+   "ada_n": 5,
+   "gövde_n": 17
+  },
+  {
+   "gun": "1555-07-23",
+   "yerlesim": "Ludhiyana",
+   "sahip": "babur-imparatorlugu",
+   "kova": "A-koridor",
+   "ana_km": 194.8,
+   "kopru_km": 177.3,
+   "kopru_cift": [
+    "Sirhind",
+    "Hisâr-ı Fîrûze"
+   ],
+   "ada_n": 5,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1809-04-25",
+   "yerlesim": "Ludhiyana",
+   "sahip": "ingiliz-hindistani",
+   "kova": "A-koridor",
+   "ana_km": 194.8,
+   "kopru_km": 194.8,
+   "kopru_cift": [
+    "Ludhiyana",
+    "Hisâr-ı Fîrûze"
+   ],
+   "ada_n": 1,
+   "gövde_n": 10
+  },
+  {
+   "gun": "1503-01-01",
+   "yerlesim": "Nihâvend",
+   "sahip": "safevi",
+   "kova": "A-koridor",
+   "ana_km": 194.6,
+   "kopru_km": 150.5,
+   "kopru_cift": [
+    "Burûcird",
+    "Gulpâygân"
+   ],
+   "ada_n": 2,
+   "gövde_n": 72
+  },
+  {
+   "gun": "1890-10-18",
+   "yerlesim": "Vindhuk (Windhoek)",
+   "sahip": "almanya",
+   "kova": "A-koridor",
+   "ana_km": 194.6,
+   "kopru_km": 194.6,
+   "kopru_cift": [
+    "Vindhuk (Windhoek)",
+    "Gobabis"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1915-07-09",
+   "yerlesim": "Vindhuk (Windhoek)",
+   "sahip": "ingiltere",
+   "kova": "A-koridor",
+   "ana_km": 194.6,
+   "kopru_km": 194.6,
+   "kopru_cift": [
+    "Vindhuk (Windhoek)",
+    "Gobabis"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1797-06-14",
+   "yerlesim": "Cenova",
+   "sahip": "fransa-cumhuriyet",
+   "kova": "A-koridor",
+   "ana_km": 194.5,
+   "kopru_km": 194.5,
+   "kopru_cift": [
+    "Cenova",
+    "Bastia (Korsika)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1885-01-26",
+   "yerlesim": "Kurmuk",
+   "sahip": "mehdi",
+   "kova": "A-koridor",
+   "ana_km": 192.9,
+   "kopru_km": 151.0,
+   "kopru_cift": [
+    "Rusayris",
+    "Sincâ"
+   ],
+   "ada_n": 4,
+   "gövde_n": 34
+  },
+  {
+   "gun": "1899-01-19",
+   "yerlesim": "Kurmuk",
+   "sahip": "ingiliz-sudani",
+   "kova": "A-koridor",
+   "ana_km": 192.9,
+   "kopru_km": 171.6,
+   "kopru_cift": [
+    "Ed-Damazîn",
+    "Er-Renk"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1648-10-24",
+   "yerlesim": "Colmar",
+   "sahip": "fransa",
+   "kova": "A-koridor",
+   "ana_km": 192.7,
+   "kopru_km": 156.6,
+   "kopru_cift": [
+    "Metz",
+    "Reims"
+   ],
+   "ada_n": 2,
+   "gövde_n": 36
+  },
+  {
+   "gun": "1569-07-01",
+   "yerlesim": "Baturin",
+   "sahip": "lehistan",
+   "kova": "A-koridor",
+   "ana_km": 192.6,
+   "kopru_km": 182.5,
+   "kopru_cift": [
+    "Lubnı",
+    "Kiev"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1753-04-01",
+   "yerlesim": "Çampâner",
+   "sahip": "maratha",
+   "kova": "A-koridor",
+   "ana_km": 192.5,
+   "kopru_km": 192.5,
+   "kopru_cift": [
+    "Çampâner",
+    "Mandu (Mândû)"
+   ],
+   "ada_n": 4,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1305-01-01",
+   "yerlesim": "Mandu (Mândû)",
+   "sahip": "delhi-sultanligi",
+   "kova": "A-koridor",
+   "ana_km": 192.5,
+   "kopru_km": 192.5,
+   "kopru_cift": [
+    "Mandu (Mândû)",
+    "Çampâner"
+   ],
+   "ada_n": 3,
+   "gövde_n": 4
+  },
+  {
+   "gun": "1531-01-01",
+   "yerlesim": "Mandu (Mândû)",
+   "sahip": "gucerat-sultanligi",
+   "kova": "A-koridor",
+   "ana_km": 192.5,
+   "kopru_km": 192.5,
+   "kopru_cift": [
+    "Mandu (Mândû)",
+    "Çampâner"
+   ],
+   "ada_n": 1,
+   "gövde_n": 6
+  },
+  {
+   "gun": "1775-05-07",
+   "yerlesim": "Suçava (Suceava)",
+   "sahip": "avusturya",
+   "kova": "A-koridor",
+   "ana_km": 192.2,
+   "kopru_km": 182.4,
+   "kopru_cift": [
+    "Lvov",
+    "Munkács (Mukacheve)"
+   ],
+   "ada_n": 4,
+   "gövde_n": 50
+  },
+  {
+   "gun": "1861-02-13",
+   "yerlesim": "Messina",
+   "sahip": "italya",
+   "kova": "A-koridor",
+   "ana_km": 191.9,
+   "kopru_km": 166.3,
+   "kopru_cift": [
+    "Katanya (Catania)",
+    "Palermo"
+   ],
+   "ada_n": 5,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1411-02-17",
+   "yerlesim": "Ankara",
+   "sahip": "mehmed-celebi",
+   "kova": "A-koridor",
+   "ana_km": 190.6,
+   "kopru_km": 190.6,
+   "kopru_cift": [
+    "Ankara",
+    "Çorum"
+   ],
+   "ada_n": 1,
+   "gövde_n": 8
+  },
+  {
+   "gun": "1739-09-18",
+   "yerlesim": "Azak",
+   "sahip": "rusya",
+   "kova": "A-koridor",
+   "ana_km": 190.2,
+   "kopru_km": 165.6,
+   "kopru_cift": [
+    "Taganrog",
+    "Bahmut"
+   ],
+   "ada_n": 3,
+   "gövde_n": 20
+  },
+  {
+   "gun": "1917-03-15",
+   "yerlesim": "Azak",
+   "sahip": "rusya-gecici-hukumet",
+   "kova": "A-koridor",
+   "ana_km": 190.2,
+   "kopru_km": 165.6,
+   "kopru_cift": [
+    "Taganrog",
+    "Bahmut"
+   ],
+   "ada_n": 4,
+   "gövde_n": 59
+  },
+  {
+   "gun": "1917-11-07",
+   "yerlesim": "Azak",
+   "sahip": "sovyet-rusya",
+   "kova": "A-koridor",
+   "ana_km": 190.2,
+   "kopru_km": 165.6,
+   "kopru_cift": [
+    "Taganrog",
+    "Bahmut"
+   ],
+   "ada_n": 4,
+   "gövde_n": 59
+  },
+  {
+   "gun": "1502-03-01",
+   "yerlesim": "Donets bozkırı",
+   "sahip": "kirim",
+   "kova": "A-koridor",
+   "ana_km": 190.2,
+   "kopru_km": 190.2,
+   "kopru_cift": [
+    "Donets bozkırı",
+    "Çerkask (Razdory)"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1570-01-01",
+   "yerlesim": "Donets bozkırı",
+   "sahip": "don-kazak",
+   "kova": "A-koridor",
+   "ana_km": 190.2,
+   "kopru_km": 190.2,
+   "kopru_cift": [
+    "Donets bozkırı",
+    "Çerkask (Razdory)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1340-01-01",
+   "yerlesim": "Berde (Karabağ)",
+   "sahip": "celayirli",
+   "kova": "A-koridor",
+   "ana_km": 188.8,
+   "kopru_km": 165.8,
+   "kopru_cift": [
+    "Gence",
+    "Revan"
+   ],
+   "ada_n": 2,
+   "gövde_n": 73
+  },
+  {
+   "gun": "1386-01-01",
+   "yerlesim": "Berde (Karabağ)",
+   "sahip": "timurlu",
+   "kova": "A-koridor",
+   "ana_km": 188.8,
+   "kopru_km": 188.8,
+   "kopru_cift": [
+    "Berde (Karabağ)",
+    "Ordubad"
+   ],
+   "ada_n": 1,
+   "gövde_n": 30
+  },
+  {
+   "gun": "1406-10-21",
+   "yerlesim": "Berde (Karabağ)",
+   "sahip": "karakoyunlu",
+   "kova": "A-koridor",
+   "ana_km": 188.8,
+   "kopru_km": 165.8,
+   "kopru_cift": [
+    "Gence",
+    "Revan"
+   ],
+   "ada_n": 2,
+   "gövde_n": 45
+  },
+  {
+   "gun": "1468-04-01",
+   "yerlesim": "Berde (Karabağ)",
+   "sahip": "akkoyunlu",
+   "kova": "A-koridor",
+   "ana_km": 188.8,
+   "kopru_km": 165.8,
+   "kopru_cift": [
+    "Gence",
+    "Revan"
+   ],
+   "ada_n": 2,
+   "gövde_n": 64
+  },
+  {
+   "gun": "1801-11-10",
+   "yerlesim": "Kanpûr",
+   "sahip": "ingiliz-hindistani",
+   "kova": "A-koridor",
+   "ana_km": 188.8,
+   "kopru_km": 188.8,
+   "kopru_cift": [
+    "Kanpûr",
+    "Ilâhâbâd (Allahabad)"
+   ],
+   "ada_n": 3,
+   "gövde_n": 4
+  },
+  {
+   "gun": "1490-01-01",
+   "yerlesim": "Raycur (Raichur)",
+   "sahip": "bicapur",
+   "kova": "A-koridor",
+   "ana_km": 188.4,
+   "kopru_km": 188.4,
+   "kopru_cift": [
+    "Raycur (Raichur)",
+    "Bîcâpur (Bijapur)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1423-09-14",
+   "yerlesim": "Selanik",
+   "sahip": "venedik",
+   "kova": "A-koridor",
+   "ana_km": 188.2,
+   "kopru_km": 188.2,
+   "kopru_cift": [
+    "Selanik",
+    "Oreoi (İstiaia)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 34
+  },
+  {
+   "gun": "1656-01-01",
+   "yerlesim": "Arkot (Arcot)",
+   "sahip": "bicapur",
+   "kova": "A-koridor",
+   "ana_km": 187.2,
+   "kopru_km": 166.8,
+   "kopru_cift": [
+    "Vellor (Vellore)",
+    "Bangalor"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1905-06-07",
+   "yerlesim": "Tønsberg",
+   "sahip": "norvec",
+   "kova": "A-koridor",
+   "ana_km": 186.9,
+   "kopru_km": 150.5,
+   "kopru_cift": [
+    "Skien",
+    "Kristiansand"
+   ],
+   "ada_n": 5,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1916-09-01",
+   "yerlesim": "Mpvapva",
+   "sahip": "ingiltere",
+   "kova": "A-koridor",
+   "ana_km": 186.7,
+   "kopru_km": 180.7,
+   "kopru_cift": [
+    "Dodoma",
+    "Kalenga (Hehe)"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1370-01-01",
+   "yerlesim": "Semerkant",
+   "sahip": "timurlu",
+   "kova": "A-koridor",
+   "ana_km": 185.4,
+   "kopru_km": 160.4,
+   "kopru_cift": [
+    "Şehrisebz (Kiş)",
+    "Hisar"
+   ],
+   "ada_n": 4,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1500-01-01",
+   "yerlesim": "Semerkant",
+   "sahip": "buhara",
+   "kova": "A-koridor",
+   "ana_km": 185.4,
+   "kopru_km": 160.4,
+   "kopru_cift": [
+    "Şehrisebz (Kiş)",
+    "Hisar"
+   ],
+   "ada_n": 4,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1556-01-01",
+   "yerlesim": "Petrovsk (Saratov)",
+   "sahip": "rusya",
+   "kova": "A-koridor",
+   "ana_km": 185.4,
+   "kopru_km": 185.4,
+   "kopru_cift": [
+    "Petrovsk (Saratov)",
+    "Hvalınsk"
+   ],
+   "ada_n": 2,
+   "gövde_n": 13
+  },
+  {
+   "gun": "1526-04-21",
+   "yerlesim": "Siyâlkot",
+   "sahip": "babur-imparatorlugu",
+   "kova": "A-koridor",
+   "ana_km": 184.9,
+   "kopru_km": 184.9,
+   "kopru_cift": [
+    "Siyâlkot",
+    "Râvalpindi"
+   ],
+   "ada_n": 5,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1540-05-17",
+   "yerlesim": "Siyâlkot",
+   "sahip": "sur-hanedani",
+   "kova": "A-koridor",
+   "ana_km": 184.9,
+   "kopru_km": 184.9,
+   "kopru_cift": [
+    "Siyâlkot",
+    "Râvalpindi"
+   ],
+   "ada_n": 5,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1555-07-23",
+   "yerlesim": "Siyâlkot",
+   "sahip": "babur-imparatorlugu",
+   "kova": "A-koridor",
+   "ana_km": 184.9,
+   "kopru_km": 184.9,
+   "kopru_cift": [
+    "Siyâlkot",
+    "Râvalpindi"
+   ],
+   "ada_n": 5,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1466-10-19",
+   "yerlesim": "Torun (Toruń)",
+   "sahip": "lehistan",
+   "kova": "A-koridor",
+   "ana_km": 184.1,
+   "kopru_km": 184.1,
+   "kopru_cift": [
+    "Torun (Toruń)",
+    "Varşova"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1920-01-18",
+   "yerlesim": "Torun (Toruń)",
+   "sahip": "polonya",
+   "kova": "A-koridor",
+   "ana_km": 184.1,
+   "kopru_km": 184.1,
+   "kopru_cift": [
+    "Torun (Toruń)",
+    "Varşova"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1633-06-28",
+   "yerlesim": "Devagiri (Devletâbâd)",
+   "sahip": "babur-imparatorlugu",
+   "kova": "A-koridor",
+   "ana_km": 183.9,
+   "kopru_km": 183.2,
+   "kopru_cift": [
+    "Evrengâbâd",
+    "Burhânpûr"
+   ],
+   "ada_n": 3,
+   "gövde_n": 5
+  },
+  {
+   "gun": "1556-01-01",
+   "yerlesim": "Saray (Selitrennoye)",
+   "sahip": "rusya",
+   "kova": "A-koridor",
+   "ana_km": 183.8,
+   "kopru_km": 183.8,
+   "kopru_cift": [
+    "Saray (Selitrennoye)",
+    "Kalmuk bozkırı"
+   ],
+   "ada_n": 2,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1569-07-01",
+   "yerlesim": "Lubnı",
+   "sahip": "lehistan",
+   "kova": "A-koridor",
+   "ana_km": 182.5,
+   "kopru_km": 182.5,
+   "kopru_cift": [
+    "Lubnı",
+    "Kiev"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1772-08-05",
+   "yerlesim": "Lvov",
+   "sahip": "avusturya",
+   "kova": "A-koridor",
+   "ana_km": 182.4,
+   "kopru_km": 182.4,
+   "kopru_cift": [
+    "Lvov",
+    "Munkács (Mukacheve)"
+   ],
+   "ada_n": 2,
+   "gövde_n": 50
+  },
+  {
+   "gun": "1385-01-01",
+   "yerlesim": "Erzurum",
+   "sahip": "karakoyunlu",
+   "kova": "A-koridor",
+   "ana_km": 182.3,
+   "kopru_km": 182.3,
+   "kopru_cift": [
+    "Erzurum",
+    "Bitlis"
+   ],
+   "ada_n": 1,
+   "gövde_n": 15
+  },
+  {
+   "gun": "1502-01-01",
+   "yerlesim": "Erzurum",
+   "sahip": "safevi",
+   "kova": "A-koridor",
+   "ana_km": 182.3,
+   "kopru_km": 182.3,
+   "kopru_cift": [
+    "Erzurum",
+    "Bitlis"
+   ],
+   "ada_n": 4,
+   "gövde_n": 60
+  },
+  {
+   "gun": "1897-01-01",
+   "yerlesim": "Kebrî Dehar",
+   "sahip": "habesistan",
+   "kova": "A-koridor",
+   "ana_km": 182.2,
+   "kopru_km": 182.2,
+   "kopru_cift": [
+    "Kebrî Dehar",
+    "Dagahbûr"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1699-01-26",
+   "yerlesim": "Çehrin (Çigirin)",
+   "sahip": "lehistan",
+   "kova": "A-koridor",
+   "ana_km": 182.1,
+   "kopru_km": 182.1,
+   "kopru_cift": [
+    "Çehrin (Çigirin)",
+    "Uman"
+   ],
+   "ada_n": 1,
+   "gövde_n": 20
+  },
+  {
+   "gun": "1749-12-15",
+   "yerlesim": "Rostov (Don)",
+   "sahip": "rusya",
+   "kova": "A-koridor",
+   "ana_km": 181.8,
+   "kopru_km": 165.6,
+   "kopru_cift": [
+    "Taganrog",
+    "Bahmut"
+   ],
+   "ada_n": 4,
+   "gövde_n": 20
+  },
+  {
+   "gun": "1917-03-15",
+   "yerlesim": "Rostov (Don)",
+   "sahip": "rusya-gecici-hukumet",
+   "kova": "A-koridor",
+   "ana_km": 181.8,
+   "kopru_km": 165.6,
+   "kopru_cift": [
+    "Taganrog",
+    "Bahmut"
+   ],
+   "ada_n": 4,
+   "gövde_n": 59
+  },
+  {
+   "gun": "1917-11-07",
+   "yerlesim": "Rostov (Don)",
+   "sahip": "sovyet-rusya",
+   "kova": "A-koridor",
+   "ana_km": 181.8,
+   "kopru_km": 165.6,
+   "kopru_cift": [
+    "Taganrog",
+    "Bahmut"
+   ],
+   "ada_n": 4,
+   "gövde_n": 59
+  },
+  {
+   "gun": "1387-11-01",
+   "yerlesim": "Simnân",
+   "sahip": "timurlu",
+   "kova": "A-koridor",
+   "ana_km": 181.8,
+   "kopru_km": 181.8,
+   "kopru_cift": [
+    "Simnân",
+    "Tahran"
+   ],
+   "ada_n": 5,
+   "gövde_n": 46
+  },
+  {
+   "gun": "1452-01-01",
+   "yerlesim": "Simnân",
+   "sahip": "karakoyunlu",
+   "kova": "A-koridor",
+   "ana_km": 181.8,
+   "kopru_km": 181.8,
+   "kopru_cift": [
+    "Simnân",
+    "Tahran"
+   ],
+   "ada_n": 3,
+   "gövde_n": 129
+  },
+  {
+   "gun": "1469-01-01",
+   "yerlesim": "Simnân",
+   "sahip": "akkoyunlu",
+   "kova": "A-koridor",
+   "ana_km": 181.8,
+   "kopru_km": 181.8,
+   "kopru_cift": [
+    "Simnân",
+    "Tahran"
+   ],
+   "ada_n": 3,
+   "gövde_n": 142
+  },
+  {
+   "gun": "1503-01-01",
+   "yerlesim": "Simnân",
+   "sahip": "safevi",
+   "kova": "A-koridor",
+   "ana_km": 181.8,
+   "kopru_km": 181.8,
+   "kopru_cift": [
+    "Simnân",
+    "Tahran"
+   ],
+   "ada_n": 3,
+   "gövde_n": 72
+  },
+  {
+   "gun": "1335-12-01",
+   "yerlesim": "Mînâb",
+   "sahip": "muzafferi",
+   "kova": "A-koridor",
+   "ana_km": 180.7,
+   "kopru_km": 180.7,
+   "kopru_cift": [
+    "Mînâb",
+    "Câsk"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1393-01-01",
+   "yerlesim": "Mînâb",
+   "sahip": "timurlu",
+   "kova": "A-koridor",
+   "ana_km": 180.7,
+   "kopru_km": 180.7,
+   "kopru_cift": [
+    "Mînâb",
+    "Câsk"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1452-01-01",
+   "yerlesim": "Mînâb",
+   "sahip": "karakoyunlu",
+   "kova": "A-koridor",
+   "ana_km": 180.7,
+   "kopru_km": 180.7,
+   "kopru_cift": [
+    "Mînâb",
+    "Câsk"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1469-01-01",
+   "yerlesim": "Mînâb",
+   "sahip": "akkoyunlu",
+   "kova": "A-koridor",
+   "ana_km": 180.7,
+   "kopru_km": 180.7,
+   "kopru_cift": [
+    "Mînâb",
+    "Câsk"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1503-01-01",
+   "yerlesim": "Mînâb",
+   "sahip": "safevi",
+   "kova": "A-koridor",
+   "ana_km": 180.7,
+   "kopru_km": 180.7,
+   "kopru_cift": [
+    "Mînâb",
+    "Câsk"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1795-01-01",
+   "yerlesim": "Sisophon",
+   "sahip": "siyam-chakri",
+   "kova": "A-koridor",
+   "ana_km": 180.4,
+   "kopru_km": 180.4,
+   "kopru_cift": [
+    "Sisophon",
+    "Nakhon Ratchasima"
+   ],
+   "ada_n": 5,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1857-05-25",
+   "yerlesim": "Dakar",
+   "sahip": "fransa-cumhuriyet",
+   "kova": "A-koridor",
+   "ana_km": 179.9,
+   "kopru_km": 179.9,
+   "kopru_cift": [
+    "Dakar",
+    "Saint-Louis (Ndar)"
+   ],
+   "ada_n": 2,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1677-11-01",
+   "yerlesim": "Gore (Gorée)",
+   "sahip": "fransa",
+   "kova": "A-koridor",
+   "ana_km": 179.9,
+   "kopru_km": 179.9,
+   "kopru_cift": [
+    "Gore (Gorée)",
+    "Saint-Louis (Ndar)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1792-09-22",
+   "yerlesim": "Gore (Gorée)",
+   "sahip": "fransa-cumhuriyet",
+   "kova": "A-koridor",
+   "ana_km": 179.9,
+   "kopru_km": 179.9,
+   "kopru_cift": [
+    "Gore (Gorée)",
+    "Saint-Louis (Ndar)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1915-07-09",
+   "yerlesim": "Otjimbingve",
+   "sahip": "ingiltere",
+   "kova": "A-koridor",
+   "ana_km": 179.5,
+   "kopru_km": 179.5,
+   "kopru_cift": [
+    "Otjimbingve",
+    "Valvis Körfezi"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1801-07-31",
+   "yerlesim": "Trichinopoly (Tiruchirappalli)",
+   "sahip": "ingiliz-hindistani",
+   "kova": "A-koridor",
+   "ana_km": 179.2,
+   "kopru_km": 165.3,
+   "kopru_cift": [
+    "Tancûr (Thanjavur)",
+    "Cinci (Gingee)"
+   ],
+   "ada_n": 4,
+   "gövde_n": 4
+  },
+  {
+   "gun": "1308-01-01",
+   "yerlesim": "Safranbolu",
+   "sahip": "ilhanli",
+   "kova": "A-koridor",
+   "ana_km": 179.0,
+   "kopru_km": 162.2,
+   "kopru_cift": [
+    "Eflani",
+    "Osmancık"
+   ],
+   "ada_n": 3,
+   "gövde_n": 21
+  },
+  {
+   "gun": "1515-04-01",
+   "yerlesim": "Ras el-Hayme (Cülfâr)",
+   "sahip": "portekiz",
+   "kova": "A-koridor",
+   "ana_km": 178.0,
+   "kopru_km": 174.1,
+   "kopru_cift": [
+    "Şârika",
+    "Suhâr"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1833-09-29",
+   "yerlesim": "Bicâye",
+   "sahip": "fransa-cumhuriyet",
+   "kova": "A-koridor",
+   "ana_km": 177.9,
+   "kopru_km": 177.9,
+   "kopru_cift": [
+    "Bicâye",
+    "Cezayir"
+   ],
+   "ada_n": 1,
+   "gövde_n": 5
+  },
+  {
+   "gun": "1629-01-01",
+   "yerlesim": "Taiz",
+   "sahip": "yemen",
+   "kova": "A-koridor",
+   "ana_km": 177.8,
+   "kopru_km": 177.8,
+   "kopru_cift": [
+    "Taiz",
+    "Hudeyde"
+   ],
+   "ada_n": 1,
+   "gövde_n": 4
+  },
+  {
+   "gun": "1304-01-01",
+   "yerlesim": "Kanbâyet (Khambhat)",
+   "sahip": "delhi-sultanligi",
+   "kova": "A-koridor",
+   "ana_km": 177.8,
+   "kopru_km": 177.8,
+   "kopru_cift": [
+    "Kanbâyet (Khambhat)",
+    "Patan (Anhilvâda)"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1561-11-28",
+   "yerlesim": "Cēsis (Wenden)",
+   "sahip": "lehistan",
+   "kova": "A-koridor",
+   "ana_km": 177.5,
+   "kopru_km": 177.5,
+   "kopru_cift": [
+    "Cēsis (Wenden)",
+    "Daugavpils (Dünaburg)"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1907-01-01",
+   "yerlesim": "Kigali",
+   "sahip": "almanya",
+   "kova": "A-koridor",
+   "ana_km": 177.0,
+   "kopru_km": 177.0,
+   "kopru_cift": [
+    "Kigali",
+    "Bucumbura"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1600-01-01",
+   "yerlesim": "Turinsk",
+   "sahip": "rusya",
+   "kova": "A-koridor",
+   "ana_km": 176.4,
+   "kopru_km": 176.4,
+   "kopru_cift": [
+    "Turinsk",
+    "Pelım ostrogu"
+   ],
+   "ada_n": 2,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1640-12-01",
+   "yerlesim": "Coimbra",
+   "sahip": "portekiz",
+   "kova": "A-koridor",
+   "ana_km": 176.2,
+   "kopru_km": 176.2,
+   "kopru_cift": [
+    "Coimbra",
+    "Lizbon"
+   ],
+   "ada_n": 5,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1899-01-19",
+   "yerlesim": "Rusayris",
+   "sahip": "ingiliz-sudani",
+   "kova": "A-koridor",
+   "ana_km": 174.9,
+   "kopru_km": 171.6,
+   "kopru_cift": [
+    "Ed-Damazîn",
+    "Er-Renk"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1897-01-01",
+   "yerlesim": "Bucumbura",
+   "sahip": "almanya",
+   "kova": "A-koridor",
+   "ana_km": 174.9,
+   "kopru_km": 174.9,
+   "kopru_cift": [
+    "Bucumbura",
+    "Ucici (Ujiji)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1478-01-15",
+   "yerlesim": "Eski Ladoga",
+   "sahip": "moskova",
+   "kova": "A-koridor",
+   "ana_km": 174.2,
+   "kopru_km": 159.8,
+   "kopru_cift": [
+    "Oreşek (Nöteborg)",
+    "Novgorod"
+   ],
+   "ada_n": 3,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1547-01-16",
+   "yerlesim": "Eski Ladoga",
+   "sahip": "rusya",
+   "kova": "A-koridor",
+   "ana_km": 174.2,
+   "kopru_km": 159.8,
+   "kopru_cift": [
+    "Oreşek (Nöteborg)",
+    "Novgorod"
+   ],
+   "ada_n": 3,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1515-04-01",
+   "yerlesim": "Şârika",
+   "sahip": "portekiz",
+   "kova": "A-koridor",
+   "ana_km": 174.1,
+   "kopru_km": 174.1,
+   "kopru_cift": [
+    "Şârika",
+    "Suhâr"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1335-01-01",
+   "yerlesim": "Kayseri",
+   "sahip": "eretna",
+   "kova": "A-koridor",
+   "ana_km": 173.9,
+   "kopru_km": 170.1,
+   "kopru_cift": [
+    "Kırşehir",
+    "Çorum"
+   ],
+   "ada_n": 2,
+   "gövde_n": 15
+  },
+  {
+   "gun": "1381-01-01",
+   "yerlesim": "Kayseri",
+   "sahip": "burhaneddin",
+   "kova": "A-koridor",
+   "ana_km": 173.9,
+   "kopru_km": 170.1,
+   "kopru_cift": [
+    "Kırşehir",
+    "Çorum"
+   ],
+   "ada_n": 2,
+   "gövde_n": 8
+  },
+  {
+   "gun": "1402-07-28",
+   "yerlesim": "Sivas",
+   "sahip": "timurlu",
+   "kova": "A-koridor",
+   "ana_km": 173.9,
+   "kopru_km": 173.9,
+   "kopru_cift": [
+    "Sivas",
+    "Kayseri"
+   ],
+   "ada_n": 1,
+   "gövde_n": 21
+  },
+  {
+   "gun": "1387-01-01",
+   "yerlesim": "Erzurum",
+   "sahip": "timurlu",
+   "kova": "A-koridor",
+   "ana_km": 173.5,
+   "kopru_km": 173.5,
+   "kopru_cift": [
+    "Erzurum",
+    "Kars"
+   ],
+   "ada_n": 1,
+   "gövde_n": 30
+  },
+  {
+   "gun": "1408-01-01",
+   "yerlesim": "Erzurum",
+   "sahip": "karakoyunlu",
+   "kova": "A-koridor",
+   "ana_km": 173.5,
+   "kopru_km": 173.5,
+   "kopru_cift": [
+    "Erzurum",
+    "Kars"
+   ],
+   "ada_n": 1,
+   "gövde_n": 45
+  },
+  {
+   "gun": "1640-12-01",
+   "yerlesim": "Évora",
+   "sahip": "portekiz",
+   "kova": "A-koridor",
+   "ana_km": 172.6,
+   "kopru_km": 159.3,
+   "kopru_cift": [
+    "Setúbal",
+    "Lagos (Algarve)"
+   ],
+   "ada_n": 3,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1502-03-01",
+   "yerlesim": "Çerkask (Razdory)",
+   "sahip": "kirim",
+   "kova": "A-koridor",
+   "ana_km": 172.3,
+   "kopru_km": 172.3,
+   "kopru_cift": [
+    "Çerkask (Razdory)",
+    "Don bozkırı (Sal)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1570-01-01",
+   "yerlesim": "Çerkask (Razdory)",
+   "sahip": "don-kazak",
+   "kova": "A-koridor",
+   "ana_km": 172.3,
+   "kopru_km": 172.3,
+   "kopru_cift": [
+    "Çerkask (Razdory)",
+    "Don bozkırı (Sal)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1721-01-01",
+   "yerlesim": "Çerkask (Razdory)",
+   "sahip": "rusya",
+   "kova": "A-koridor",
+   "ana_km": 172.3,
+   "kopru_km": 172.3,
+   "kopru_cift": [
+    "Çerkask (Razdory)",
+    "Don bozkırı (Sal)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1917-03-15",
+   "yerlesim": "Çerkask (Razdory)",
+   "sahip": "rusya-gecici-hukumet",
+   "kova": "A-koridor",
+   "ana_km": 172.3,
+   "kopru_km": 172.3,
+   "kopru_cift": [
+    "Çerkask (Razdory)",
+    "Don bozkırı (Sal)"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1917-11-07",
+   "yerlesim": "Çerkask (Razdory)",
+   "sahip": "sovyet-rusya",
+   "kova": "A-koridor",
+   "ana_km": 172.3,
+   "kopru_km": 172.3,
+   "kopru_cift": [
+    "Çerkask (Razdory)",
+    "Don bozkırı (Sal)"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1393-01-01",
+   "yerlesim": "Bağdat",
+   "sahip": "timurlu",
+   "kova": "A-koridor",
+   "ana_km": 172.2,
+   "kopru_km": 172.2,
+   "kopru_cift": [
+    "Bağdat",
+    "Kasr-ı Şîrîn"
+   ],
+   "ada_n": 1,
+   "gövde_n": 47
+  },
+  {
+   "gun": "1401-01-01",
+   "yerlesim": "Bağdat",
+   "sahip": "timurlu",
+   "kova": "A-koridor",
+   "ana_km": 172.2,
+   "kopru_km": 172.2,
+   "kopru_cift": [
+    "Bağdat",
+    "Kasr-ı Şîrîn"
+   ],
+   "ada_n": 1,
+   "gövde_n": 47
+  },
+  {
+   "gun": "1781-11-12",
+   "yerlesim": "Nagapatnam",
+   "sahip": "ingiliz-hindistani",
+   "kova": "A-koridor",
+   "ana_km": 172.2,
+   "kopru_km": 172.2,
+   "kopru_cift": [
+    "Nagapatnam",
+    "Cinci (Gingee)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1899-01-19",
+   "yerlesim": "Ed-Damazîn",
+   "sahip": "ingiliz-sudani",
+   "kova": "A-koridor",
+   "ana_km": 171.6,
+   "kopru_km": 171.6,
+   "kopru_cift": [
+    "Ed-Damazîn",
+    "Er-Renk"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1914-12-18",
+   "yerlesim": "Sefâce",
+   "sahip": "ingiltere",
+   "kova": "A-koridor",
+   "ana_km": 170.4,
+   "kopru_km": 170.4,
+   "kopru_cift": [
+    "Sefâce",
+    "Tûr (Sînâ)"
+   ],
+   "ada_n": 2,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1335-01-01",
+   "yerlesim": "Kırşehir",
+   "sahip": "eretna",
+   "kova": "A-koridor",
+   "ana_km": 170.1,
+   "kopru_km": 170.1,
+   "kopru_cift": [
+    "Kırşehir",
+    "Çorum"
+   ],
+   "ada_n": 2,
+   "gövde_n": 15
+  },
+  {
+   "gun": "1381-01-01",
+   "yerlesim": "Kırşehir",
+   "sahip": "burhaneddin",
+   "kova": "A-koridor",
+   "ana_km": 170.1,
+   "kopru_km": 170.1,
+   "kopru_cift": [
+    "Kırşehir",
+    "Çorum"
+   ],
+   "ada_n": 2,
+   "gövde_n": 8
+  },
+  {
+   "gun": "1335-12-01",
+   "yerlesim": "Sâve",
+   "sahip": "ilhanli",
+   "kova": "A-koridor",
+   "ana_km": 169.7,
+   "kopru_km": 169.7,
+   "kopru_cift": [
+    "Sâve",
+    "Hemedan"
+   ],
+   "ada_n": 1,
+   "gövde_n": 94
+  },
+  {
+   "gun": "1340-01-01",
+   "yerlesim": "Sâve",
+   "sahip": "celayirli",
+   "kova": "A-koridor",
+   "ana_km": 169.7,
+   "kopru_km": 169.7,
+   "kopru_cift": [
+    "Sâve",
+    "Hemedan"
+   ],
+   "ada_n": 1,
+   "gövde_n": 73
+  },
+  {
+   "gun": "1581-04-16",
+   "yerlesim": "Évora",
+   "sahip": "ispanya",
+   "kova": "A-koridor",
+   "ana_km": 168.4,
+   "kopru_km": 159.3,
+   "kopru_cift": [
+    "Setúbal",
+    "Lagos (Algarve)"
+   ],
+   "ada_n": 4,
+   "gövde_n": 54
+  },
+  {
+   "gun": "1610-01-01",
+   "yerlesim": "Santa Fe",
+   "sahip": "yeni-ispanya",
+   "kova": "A-koridor",
+   "ana_km": 168.0,
+   "kopru_km": 168.0,
+   "kopru_cift": [
+    "Santa Fe",
+    "Acoma Pueblo (Sky City)"
+   ],
+   "ada_n": 2,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1692-08-01",
+   "yerlesim": "Santa Fe",
+   "sahip": "yeni-ispanya",
+   "kova": "A-koridor",
+   "ana_km": 168.0,
+   "kopru_km": 168.0,
+   "kopru_cift": [
+    "Santa Fe",
+    "Acoma Pueblo (Sky City)"
+   ],
+   "ada_n": 2,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1848-02-02",
+   "yerlesim": "Santa Fe",
+   "sahip": "abd",
+   "kova": "A-koridor",
+   "ana_km": 168.0,
+   "kopru_km": 168.0,
+   "kopru_cift": [
+    "Santa Fe",
+    "Acoma Pueblo (Sky City)"
+   ],
+   "ada_n": 2,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1689-11-03",
+   "yerlesim": "Raygad",
+   "sahip": "babur-imparatorlugu",
+   "kova": "A-koridor",
+   "ana_km": 167.7,
+   "kopru_km": 167.7,
+   "kopru_cift": [
+    "Raygad",
+    "Ahmednagar"
+   ],
+   "ada_n": 1,
+   "gövde_n": 4
+  },
+  {
+   "gun": "1500-01-01",
+   "yerlesim": "Sayram (İsficâb)",
+   "sahip": "buhara",
+   "kova": "A-koridor",
+   "ana_km": 167.3,
+   "kopru_km": 154.9,
+   "kopru_cift": [
+    "Çimkent",
+    "Türkistan (Yesi)"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1598-01-01",
+   "yerlesim": "Sayram (İsficâb)",
+   "sahip": "kazak-hanligi",
+   "kova": "A-koridor",
+   "ana_km": 167.3,
+   "kopru_km": 154.9,
+   "kopru_cift": [
+    "Çimkent",
+    "Türkistan (Yesi)"
+   ],
+   "ada_n": 3,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1864-09-22",
+   "yerlesim": "Sayram (İsficâb)",
+   "sahip": "rusya",
+   "kova": "A-koridor",
+   "ana_km": 167.3,
+   "kopru_km": 154.9,
+   "kopru_cift": [
+    "Çimkent",
+    "Türkistan (Yesi)"
+   ],
+   "ada_n": 3,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1590-07-12",
+   "yerlesim": "Saratov",
+   "sahip": "rusya",
+   "kova": "A-koridor",
+   "ana_km": 167.2,
+   "kopru_km": 159.0,
+   "kopru_cift": [
+    "Ukek (Uvek)",
+    "Kamışin"
+   ],
+   "ada_n": 3,
+   "gövde_n": 4
+  },
+  {
+   "gun": "1656-01-01",
+   "yerlesim": "Vellor (Vellore)",
+   "sahip": "bicapur",
+   "kova": "A-koridor",
+   "ana_km": 166.8,
+   "kopru_km": 166.8,
+   "kopru_cift": [
+    "Vellor (Vellore)",
+    "Bangalor"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1867-07-01",
+   "yerlesim": "Montreal (Ville-Marie)",
+   "sahip": "kanada",
+   "kova": "A-koridor",
+   "ana_km": 166.6,
+   "kopru_km": 166.6,
+   "kopru_cift": [
+    "Montreal (Ville-Marie)",
+    "Bytown (Ottawa)"
+   ],
+   "ada_n": 4,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1503-04-02",
+   "yerlesim": "Putivl",
+   "sahip": "moskova",
+   "kova": "A-koridor",
+   "ana_km": 166.5,
+   "kopru_km": 156.9,
+   "kopru_cift": [
+    "Hluhiv",
+    "Kursk"
+   ],
+   "ada_n": 4,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1547-01-16",
+   "yerlesim": "Putivl",
+   "sahip": "rusya",
+   "kova": "A-koridor",
+   "ana_km": 166.5,
+   "kopru_km": 156.9,
+   "kopru_cift": [
+    "Hluhiv",
+    "Kursk"
+   ],
+   "ada_n": 4,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1861-02-13",
+   "yerlesim": "Katanya (Catania)",
+   "sahip": "italya",
+   "kova": "A-koridor",
+   "ana_km": 166.3,
+   "kopru_km": 166.3,
+   "kopru_cift": [
+    "Katanya (Catania)",
+    "Palermo"
+   ],
+   "ada_n": 5,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1340-01-01",
+   "yerlesim": "Gence",
+   "sahip": "celayirli",
+   "kova": "A-koridor",
+   "ana_km": 165.8,
+   "kopru_km": 165.8,
+   "kopru_cift": [
+    "Gence",
+    "Revan"
+   ],
+   "ada_n": 2,
+   "gövde_n": 73
+  },
+  {
+   "gun": "1406-10-21",
+   "yerlesim": "Gence",
+   "sahip": "karakoyunlu",
+   "kova": "A-koridor",
+   "ana_km": 165.8,
+   "kopru_km": 165.8,
+   "kopru_cift": [
+    "Gence",
+    "Revan"
+   ],
+   "ada_n": 2,
+   "gövde_n": 45
+  },
+  {
+   "gun": "1468-04-01",
+   "yerlesim": "Gence",
+   "sahip": "akkoyunlu",
+   "kova": "A-koridor",
+   "ana_km": 165.8,
+   "kopru_km": 165.8,
+   "kopru_cift": [
+    "Gence",
+    "Revan"
+   ],
+   "ada_n": 2,
+   "gövde_n": 64
+  },
+  {
+   "gun": "1917-11-07",
+   "yerlesim": "Gence",
+   "sahip": "transkafkasya",
+   "kova": "A-koridor",
+   "ana_km": 165.8,
+   "kopru_km": 165.8,
+   "kopru_cift": [
+    "Gence",
+    "Revan"
+   ],
+   "ada_n": 1,
+   "gövde_n": 4
+  },
+  {
+   "gun": "1451-08-20",
+   "yerlesim": "Bayonne",
+   "sahip": "fransa",
+   "kova": "A-koridor",
+   "ana_km": 165.8,
+   "kopru_km": 150.4,
+   "kopru_cift": [
+    "Pau",
+    "Toulouse"
+   ],
+   "ada_n": 2,
+   "gövde_n": 26
+  },
+  {
+   "gun": "1792-09-22",
+   "yerlesim": "Bayonne",
+   "sahip": "fransa-cumhuriyet",
+   "kova": "A-koridor",
+   "ana_km": 165.8,
+   "kopru_km": 150.4,
+   "kopru_cift": [
+    "Pau",
+    "Toulouse"
+   ],
+   "ada_n": 2,
+   "gövde_n": 45
+  },
+  {
+   "gun": "1739-09-18",
+   "yerlesim": "Taganrog",
+   "sahip": "rusya",
+   "kova": "A-koridor",
+   "ana_km": 165.6,
+   "kopru_km": 165.6,
+   "kopru_cift": [
+    "Taganrog",
+    "Bahmut"
+   ],
+   "ada_n": 3,
+   "gövde_n": 20
+  },
+  {
+   "gun": "1881-01-01",
+   "yerlesim": "Podor",
+   "sahip": "fransa-cumhuriyet",
+   "kova": "A-koridor",
+   "ana_km": 165.4,
+   "kopru_km": 165.4,
+   "kopru_cift": [
+    "Podor",
+    "Kaedi"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1783-04-19",
+   "yerlesim": "Tuapse",
+   "sahip": "OSMANLI",
+   "kova": "A-koridor",
+   "ana_km": 165.3,
+   "kopru_km": 165.3,
+   "kopru_cift": [
+    "Tuapse",
+    "Anapa"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1799-10-25",
+   "yerlesim": "Tancûr (Thanjavur)",
+   "sahip": "ingiliz-hindistani",
+   "kova": "A-koridor",
+   "ana_km": 165.3,
+   "kopru_km": 165.3,
+   "kopru_cift": [
+    "Tancûr (Thanjavur)",
+    "Cinci (Gingee)"
+   ],
+   "ada_n": 2,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1677-05-01",
+   "yerlesim": "Cinci (Gingee)",
+   "sahip": "maratha",
+   "kova": "A-koridor",
+   "ana_km": 165.3,
+   "kopru_km": 165.3,
+   "kopru_cift": [
+    "Cinci (Gingee)",
+    "Tancûr (Thanjavur)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1368-01-23",
+   "yerlesim": "Suzhou",
+   "sahip": "ming-hanedani",
+   "kova": "A-koridor",
+   "ana_km": 164.6,
+   "kopru_km": 164.6,
+   "kopru_cift": [
+    "Suzhou",
+    "Yangzhou"
+   ],
+   "ada_n": 5,
+   "gövde_n": 7
+  },
+  {
+   "gun": "1644-04-25",
+   "yerlesim": "Suzhou",
+   "sahip": "guney-ming",
+   "kova": "A-koridor",
+   "ana_km": 164.6,
+   "kopru_km": 164.6,
+   "kopru_cift": [
+    "Suzhou",
+    "Yangzhou"
+   ],
+   "ada_n": 5,
+   "gövde_n": 7
+  },
+  {
+   "gun": "1645-06-08",
+   "yerlesim": "Suzhou",
+   "sahip": "qing-hanedani",
+   "kova": "A-koridor",
+   "ana_km": 164.6,
+   "kopru_km": 164.6,
+   "kopru_cift": [
+    "Suzhou",
+    "Yangzhou"
+   ],
+   "ada_n": 2,
+   "gövde_n": 7
+  },
+  {
+   "gun": "1860-06-02",
+   "yerlesim": "Suzhou",
+   "sahip": "taiping",
+   "kova": "A-koridor",
+   "ana_km": 164.6,
+   "kopru_km": 164.6,
+   "kopru_cift": [
+    "Suzhou",
+    "Yangzhou"
+   ],
+   "ada_n": 1,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1912-02-12",
+   "yerlesim": "Suzhou",
+   "sahip": "cin-cumhuriyeti",
+   "kova": "A-koridor",
+   "ana_km": 164.6,
+   "kopru_km": 164.6,
+   "kopru_cift": [
+    "Suzhou",
+    "Yangzhou"
+   ],
+   "ada_n": 5,
+   "gövde_n": 7
+  },
+  {
+   "gun": "1460-01-01",
+   "yerlesim": "Amasra",
+   "sahip": "OSMANLI",
+   "kova": "A-koridor",
+   "ana_km": 163.9,
+   "kopru_km": 163.9,
+   "kopru_cift": [
+    "Amasra",
+    "Çankırı"
+   ],
+   "ada_n": 1,
+   "gövde_n": 237
+  },
+  {
+   "gun": "1917-03-15",
+   "yerlesim": "Kabansk",
+   "sahip": "rusya-gecici-hukumet",
+   "kova": "A-koridor",
+   "ana_km": 163.7,
+   "kopru_km": 163.7,
+   "kopru_cift": [
+    "Kabansk",
+    "İrkutsk"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1917-11-07",
+   "yerlesim": "Kabansk",
+   "sahip": "sovyet-rusya",
+   "kova": "A-koridor",
+   "ana_km": 163.7,
+   "kopru_km": 163.7,
+   "kopru_cift": [
+    "Kabansk",
+    "İrkutsk"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1842-01-01",
+   "yerlesim": "Kedah (Alor Setar)",
+   "sahip": "malay-sultanliklari",
+   "kova": "A-koridor",
+   "ana_km": 163.5,
+   "kopru_km": 163.5,
+   "kopru_cift": [
+    "Kedah (Alor Setar)",
+    "Perak (Kuala Kangsar)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1358-01-01",
+   "yerlesim": "Dubrovnik",
+   "sahip": "macaristan",
+   "kova": "A-koridor",
+   "ana_km": 163.0,
+   "kopru_km": 163.0,
+   "kopru_cift": [
+    "Dubrovnik",
+    "Klis"
+   ],
+   "ada_n": 1,
+   "gövde_n": 50
+  },
+  {
+   "gun": "1308-01-01",
+   "yerlesim": "Eflani",
+   "sahip": "ilhanli",
+   "kova": "A-koridor",
+   "ana_km": 162.2,
+   "kopru_km": 162.2,
+   "kopru_cift": [
+    "Eflani",
+    "Osmancık"
+   ],
+   "ada_n": 3,
+   "gövde_n": 21
+  },
+  {
+   "gun": "1676-10-01",
+   "yerlesim": "Zhangzhou",
+   "sahip": "qing-hanedani",
+   "kova": "A-koridor",
+   "ana_km": 161.3,
+   "kopru_km": 161.3,
+   "kopru_cift": [
+    "Zhangzhou",
+    "Swatow (Shantou)"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1547-01-01",
+   "yerlesim": "Sana",
+   "sahip": "OSMANLI",
+   "kova": "A-koridor",
+   "ana_km": 160.8,
+   "kopru_km": 160.8,
+   "kopru_cift": [
+    "Sana",
+    "Zebîd"
+   ],
+   "ada_n": 1,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1370-01-01",
+   "yerlesim": "Şehrisebz (Kiş)",
+   "sahip": "timurlu",
+   "kova": "A-koridor",
+   "ana_km": 160.4,
+   "kopru_km": 160.4,
+   "kopru_cift": [
+    "Şehrisebz (Kiş)",
+    "Hisar"
+   ],
+   "ada_n": 4,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1500-01-01",
+   "yerlesim": "Şehrisebz (Kiş)",
+   "sahip": "buhara",
+   "kova": "A-koridor",
+   "ana_km": 160.4,
+   "kopru_km": 160.4,
+   "kopru_cift": [
+    "Şehrisebz (Kiş)",
+    "Hisar"
+   ],
+   "ada_n": 4,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1920-09-02",
+   "yerlesim": "Şehrisebz (Kiş)",
+   "sahip": "sovyet-rusya",
+   "kova": "A-koridor",
+   "ana_km": 160.4,
+   "kopru_km": 160.4,
+   "kopru_cift": [
+    "Şehrisebz (Kiş)",
+    "Hisar"
+   ],
+   "ada_n": 4,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1783-04-19",
+   "yerlesim": "Kuban (Yekaterinodar)",
+   "sahip": "rusya",
+   "kova": "A-koridor",
+   "ana_km": 159.9,
+   "kopru_km": 159.9,
+   "kopru_cift": [
+    "Kuban (Yekaterinodar)",
+    "Kuban Nogay bozkırı"
+   ],
+   "ada_n": 1,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1737-01-01",
+   "yerlesim": "İlek",
+   "sahip": "rusya",
+   "kova": "A-koridor",
+   "ana_km": 159.9,
+   "kopru_km": 159.9,
+   "kopru_cift": [
+    "İlek",
+    "Buzuluk"
+   ],
+   "ada_n": 3,
+   "gövde_n": 26
+  },
+  {
+   "gun": "1917-03-15",
+   "yerlesim": "İlek",
+   "sahip": "rusya-gecici-hukumet",
+   "kova": "A-koridor",
+   "ana_km": 159.9,
+   "kopru_km": 159.9,
+   "kopru_cift": [
+    "İlek",
+    "Buzuluk"
+   ],
+   "ada_n": 4,
+   "gövde_n": 26
+  },
+  {
+   "gun": "1917-11-07",
+   "yerlesim": "İlek",
+   "sahip": "sovyet-rusya",
+   "kova": "A-koridor",
+   "ana_km": 159.9,
+   "kopru_km": 159.9,
+   "kopru_cift": [
+    "İlek",
+    "Buzuluk"
+   ],
+   "ada_n": 4,
+   "gövde_n": 26
+  },
+  {
+   "gun": "1711-07-21",
+   "yerlesim": "Taganrog",
+   "sahip": "kirim",
+   "kova": "A-koridor",
+   "ana_km": 159.2,
+   "kopru_km": 159.2,
+   "kopru_cift": [
+    "Taganrog",
+    "Camboyluk bozkırı"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1917-03-15",
+   "yerlesim": "Taganrog",
+   "sahip": "rusya-gecici-hukumet",
+   "kova": "A-koridor",
+   "ana_km": 159.2,
+   "kopru_km": 159.2,
+   "kopru_cift": [
+    "Taganrog",
+    "Camboyluk bozkırı"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1917-11-07",
+   "yerlesim": "Taganrog",
+   "sahip": "sovyet-rusya",
+   "kova": "A-koridor",
+   "ana_km": 159.2,
+   "kopru_km": 159.2,
+   "kopru_cift": [
+    "Taganrog",
+    "Camboyluk bozkırı"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1556-01-01",
+   "yerlesim": "Ukek (Uvek)",
+   "sahip": "rusya",
+   "kova": "A-koridor",
+   "ana_km": 159.0,
+   "kopru_km": 159.0,
+   "kopru_cift": [
+    "Ukek (Uvek)",
+    "Kamışin"
+   ],
+   "ada_n": 2,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1556-01-01",
+   "yerlesim": "Yeni Saray (Tsarev)",
+   "sahip": "rusya",
+   "kova": "A-koridor",
+   "ana_km": 158.8,
+   "kopru_km": 158.8,
+   "kopru_cift": [
+    "Yeni Saray (Tsarev)",
+    "Rın kumulları (Volga-Yayık arası)"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1503-04-02",
+   "yerlesim": "Novgorod-Seversk",
+   "sahip": "moskova",
+   "kova": "A-koridor",
+   "ana_km": 158.3,
+   "kopru_km": 156.9,
+   "kopru_cift": [
+    "Hluhiv",
+    "Kursk"
+   ],
+   "ada_n": 4,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1547-01-16",
+   "yerlesim": "Novgorod-Seversk",
+   "sahip": "rusya",
+   "kova": "A-koridor",
+   "ana_km": 158.3,
+   "kopru_km": 156.9,
+   "kopru_cift": [
+    "Hluhiv",
+    "Kursk"
+   ],
+   "ada_n": 4,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1504-01-01",
+   "yerlesim": "Ed-Damazîn",
+   "sahip": "funj",
+   "kova": "A-koridor",
+   "ana_km": 157.7,
+   "kopru_km": 151.0,
+   "kopru_cift": [
+    "Rusayris",
+    "Sincâ"
+   ],
+   "ada_n": 4,
+   "gövde_n": 33
+  },
+  {
+   "gun": "1885-01-26",
+   "yerlesim": "Ed-Damazîn",
+   "sahip": "mehdi",
+   "kova": "A-koridor",
+   "ana_km": 157.7,
+   "kopru_km": 151.0,
+   "kopru_cift": [
+    "Rusayris",
+    "Sincâ"
+   ],
+   "ada_n": 4,
+   "gövde_n": 34
+  },
+  {
+   "gun": "1362-01-01",
+   "yerlesim": "Kursk",
+   "sahip": "litvanya-buyuk-dukalik",
+   "kova": "A-koridor",
+   "ana_km": 156.9,
+   "kopru_km": 156.9,
+   "kopru_cift": [
+    "Kursk",
+    "Hluhiv"
+   ],
+   "ada_n": 3,
+   "gövde_n": 9
+  },
+  {
+   "gun": "1503-04-02",
+   "yerlesim": "Kursk",
+   "sahip": "moskova",
+   "kova": "A-koridor",
+   "ana_km": 156.9,
+   "kopru_km": 156.9,
+   "kopru_cift": [
+    "Kursk",
+    "Hluhiv"
+   ],
+   "ada_n": 3,
+   "gövde_n": 4
+  },
+  {
+   "gun": "1547-01-16",
+   "yerlesim": "Kursk",
+   "sahip": "rusya",
+   "kova": "A-koridor",
+   "ana_km": 156.9,
+   "kopru_km": 156.9,
+   "kopru_cift": [
+    "Kursk",
+    "Hluhiv"
+   ],
+   "ada_n": 3,
+   "gövde_n": 4
+  },
+  {
+   "gun": "1503-04-02",
+   "yerlesim": "Hluhiv",
+   "sahip": "moskova",
+   "kova": "A-koridor",
+   "ana_km": 156.9,
+   "kopru_km": 156.9,
+   "kopru_cift": [
+    "Hluhiv",
+    "Kursk"
+   ],
+   "ada_n": 4,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1547-01-16",
+   "yerlesim": "Hluhiv",
+   "sahip": "rusya",
+   "kova": "A-koridor",
+   "ana_km": 156.9,
+   "kopru_km": 156.9,
+   "kopru_cift": [
+    "Hluhiv",
+    "Kursk"
+   ],
+   "ada_n": 4,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1552-04-18",
+   "yerlesim": "Metz",
+   "sahip": "fransa",
+   "kova": "A-koridor",
+   "ana_km": 156.6,
+   "kopru_km": 156.6,
+   "kopru_cift": [
+    "Metz",
+    "Reims"
+   ],
+   "ada_n": 1,
+   "gövde_n": 35
+  },
+  {
+   "gun": "1917-03-11",
+   "yerlesim": "Erbil",
+   "sahip": "ingiltere",
+   "kova": "A-koridor",
+   "ana_km": 156.2,
+   "kopru_km": 156.2,
+   "kopru_cift": [
+    "Erbil",
+    "Tuz Hurmatu"
+   ],
+   "ada_n": 1,
+   "gövde_n": 24
+  },
+  {
+   "gun": "1810-02-20",
+   "yerlesim": "Kutaisi",
+   "sahip": "rusya",
+   "kova": "A-koridor",
+   "ana_km": 156.1,
+   "kopru_km": 156.1,
+   "kopru_cift": [
+    "Kutaisi",
+    "Kabartay (Nalçik)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 4
+  },
+  {
+   "gun": "1333-07-04",
+   "yerlesim": "Sunpu (Şizuoka)",
+   "sahip": "kenmu",
+   "kova": "A-koridor",
+   "ana_km": 155.6,
+   "kopru_km": 155.6,
+   "kopru_cift": [
+    "Sunpu (Şizuoka)",
+    "Gifu"
+   ],
+   "ada_n": 3,
+   "gövde_n": 7
+  },
+  {
+   "gun": "1336-11-07",
+   "yerlesim": "Sunpu (Şizuoka)",
+   "sahip": "muromachi",
+   "kova": "A-koridor",
+   "ana_km": 155.6,
+   "kopru_km": 155.6,
+   "kopru_cift": [
+    "Sunpu (Şizuoka)",
+    "Gifu"
+   ],
+   "ada_n": 3,
+   "gövde_n": 7
+  },
+  {
+   "gun": "1573-01-01",
+   "yerlesim": "Sunpu (Şizuoka)",
+   "sahip": "azuchi-momoyama",
+   "kova": "A-koridor",
+   "ana_km": 155.6,
+   "kopru_km": 155.6,
+   "kopru_cift": [
+    "Sunpu (Şizuoka)",
+    "Gifu"
+   ],
+   "ada_n": 4,
+   "gövde_n": 8
+  },
+  {
+   "gun": "1603-03-24",
+   "yerlesim": "Sunpu (Şizuoka)",
+   "sahip": "edo-bakufu",
+   "kova": "A-koridor",
+   "ana_km": 155.6,
+   "kopru_km": 155.6,
+   "kopru_cift": [
+    "Sunpu (Şizuoka)",
+    "Gifu"
+   ],
+   "ada_n": 4,
+   "gövde_n": 18
+  },
+  {
+   "gun": "1736-09-02",
+   "yerlesim": "Çelyabinsk",
+   "sahip": "rusya",
+   "kova": "A-koridor",
+   "ana_km": 154.9,
+   "kopru_km": 154.9,
+   "kopru_cift": [
+    "Çelyabinsk",
+    "Dalmatovo"
+   ],
+   "ada_n": 2,
+   "gövde_n": 11
+  },
+  {
+   "gun": "1917-03-15",
+   "yerlesim": "Çelyabinsk",
+   "sahip": "rusya-gecici-hukumet",
+   "kova": "A-koridor",
+   "ana_km": 154.9,
+   "kopru_km": 154.9,
+   "kopru_cift": [
+    "Çelyabinsk",
+    "Dalmatovo"
+   ],
+   "ada_n": 5,
+   "gövde_n": 11
+  },
+  {
+   "gun": "1917-11-07",
+   "yerlesim": "Çelyabinsk",
+   "sahip": "sovyet-rusya",
+   "kova": "A-koridor",
+   "ana_km": 154.9,
+   "kopru_km": 154.9,
+   "kopru_cift": [
+    "Çelyabinsk",
+    "Dalmatovo"
+   ],
+   "ada_n": 5,
+   "gövde_n": 11
+  },
+  {
+   "gun": "1420-06-07",
+   "yerlesim": "Udine",
+   "sahip": "venedik",
+   "kova": "A-koridor",
+   "ana_km": 153.8,
+   "kopru_km": 153.8,
+   "kopru_cift": [
+    "Udine",
+    "Krk (Veglia)"
+   ],
+   "ada_n": 4,
+   "gövde_n": 19
+  },
+  {
+   "gun": "1781-01-01",
+   "yerlesim": "Anapa",
+   "sahip": "OSMANLI",
+   "kova": "A-koridor",
+   "ana_km": 152.9,
+   "kopru_km": 152.9,
+   "kopru_cift": [
+    "Anapa",
+    "Kefe"
+   ],
+   "ada_n": 1,
+   "gövde_n": 7
+  },
+  {
+   "gun": "1403-01-01",
+   "yerlesim": "Erzurum",
+   "sahip": "mutahharten",
+   "kova": "A-koridor",
+   "ana_km": 152.5,
+   "kopru_km": 152.5,
+   "kopru_cift": [
+    "Erzurum",
+    "Erzincan"
+   ],
+   "ada_n": 1,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1887-01-06",
+   "yerlesim": "Cîcîga",
+   "sahip": "habesistan",
+   "kova": "A-koridor",
+   "ana_km": 151.6,
+   "kopru_km": 151.6,
+   "kopru_cift": [
+    "Cîcîga",
+    "Dagahbûr"
+   ],
+   "ada_n": 2,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1577-01-01",
+   "yerlesim": "Lasanod",
+   "sahip": "somali",
+   "kova": "A-koridor",
+   "ana_km": 151.5,
+   "kopru_km": 151.5,
+   "kopru_cift": [
+    "Lasanod",
+    "Ceel Afveyn"
+   ],
+   "ada_n": 4,
+   "gövde_n": 11
+  },
+  {
+   "gun": "1884-07-18",
+   "yerlesim": "Lasanod",
+   "sahip": "ingiltere",
+   "kova": "A-koridor",
+   "ana_km": 151.5,
+   "kopru_km": 151.5,
+   "kopru_cift": [
+    "Lasanod",
+    "Ceel Afveyn"
+   ],
+   "ada_n": 3,
+   "gövde_n": 5
+  },
+  {
+   "gun": "1884-07-18",
+   "yerlesim": "Ceel Afveyn",
+   "sahip": "ingiltere",
+   "kova": "A-koridor",
+   "ana_km": 151.5,
+   "kopru_km": 151.5,
+   "kopru_cift": [
+    "Ceel Afveyn",
+    "Lasanod"
+   ],
+   "ada_n": 5,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1504-01-01",
+   "yerlesim": "Rusayris",
+   "sahip": "funj",
+   "kova": "A-koridor",
+   "ana_km": 151.0,
+   "kopru_km": 151.0,
+   "kopru_cift": [
+    "Rusayris",
+    "Sincâ"
+   ],
+   "ada_n": 4,
+   "gövde_n": 33
+  },
+  {
+   "gun": "1885-01-26",
+   "yerlesim": "Rusayris",
+   "sahip": "mehdi",
+   "kova": "A-koridor",
+   "ana_km": 151.0,
+   "kopru_km": 151.0,
+   "kopru_cift": [
+    "Rusayris",
+    "Sincâ"
+   ],
+   "ada_n": 4,
+   "gövde_n": 34
+  },
+  {
+   "gun": "1900-01-01",
+   "yerlesim": "Bukavu",
+   "sahip": "belcika",
+   "kova": "A-koridor",
+   "ana_km": 151.0,
+   "kopru_km": 151.0,
+   "kopru_cift": [
+    "Bukavu",
+    "Valikale"
+   ],
+   "ada_n": 2,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1539-01-01",
+   "yerlesim": "Zebîd",
+   "sahip": "OSMANLI",
+   "kova": "A-koridor",
+   "ana_km": 150.8,
+   "kopru_km": 150.8,
+   "kopru_cift": [
+    "Zebîd",
+    "Kemeran (Kamaran)"
+   ],
+   "ada_n": 2,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1503-01-01",
+   "yerlesim": "Burûcird",
+   "sahip": "safevi",
+   "kova": "A-koridor",
+   "ana_km": 150.5,
+   "kopru_km": 150.5,
+   "kopru_cift": [
+    "Burûcird",
+    "Gulpâygân"
+   ],
+   "ada_n": 2,
+   "gövde_n": 72
+  },
+  {
+   "gun": "1620-10-19",
+   "yerlesim": "Pau",
+   "sahip": "fransa",
+   "kova": "A-koridor",
+   "ana_km": 150.4,
+   "kopru_km": 150.4,
+   "kopru_cift": [
+    "Pau",
+    "Toulouse"
+   ],
+   "ada_n": 2,
+   "gövde_n": 36
+  },
+  {
+   "gun": "1792-09-22",
+   "yerlesim": "Pau",
+   "sahip": "fransa-cumhuriyet",
+   "kova": "A-koridor",
+   "ana_km": 150.4,
+   "kopru_km": 150.4,
+   "kopru_cift": [
+    "Pau",
+    "Toulouse"
+   ],
+   "ada_n": 2,
+   "gövde_n": 45
+  },
+  {
+   "gun": "1846-03-16",
+   "yerlesim": "Cammû (Jammu)",
+   "sahip": "cammu-kesmir",
+   "kova": "A-koridor",
+   "ana_km": 150.3,
+   "kopru_km": 150.3,
+   "kopru_cift": [
+    "Cammû (Jammu)",
+    "Srinagar (Keşmir)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1510-07-25",
+   "yerlesim": "Trablus",
+   "sahip": "ispanya",
+   "kova": "B-bilinmiyor",
+   "ana_km": 792.4,
+   "kopru_km": 792.4,
+   "kopru_cift": [
+    "Trablus",
+    "Kalyari (Cagliari)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1848-02-02",
+   "yerlesim": "Sutter's Fort (Sacramento)",
+   "sahip": "abd",
+   "kova": "B-bilinmiyor",
+   "ana_km": 758.3,
+   "kopru_km": 736.8,
+   "kopru_cift": [
+    "San Francisco (Misyon San Francisco de Asís)",
+    "San Diego (Misyon San Diego de Alcalá)"
+   ],
+   "ada_n": 2,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1630-09-07",
+   "yerlesim": "Boston (Massachusetts)",
+   "sahip": "ingiltere",
+   "kova": "B-bilinmiyor",
+   "ana_km": 753.9,
+   "kopru_km": 744.7,
+   "kopru_cift": [
+    "Plymouth (Massachusetts)",
+    "Jamestown"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1620-12-21",
+   "yerlesim": "Plymouth (Massachusetts)",
+   "sahip": "ingiltere",
+   "kova": "B-bilinmiyor",
+   "ana_km": 744.7,
+   "kopru_km": 744.7,
+   "kopru_cift": [
+    "Plymouth (Massachusetts)",
+    "Jamestown"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1776-06-29",
+   "yerlesim": "San Francisco (Misyon San Francisco de Asís)",
+   "sahip": "yeni-ispanya",
+   "kova": "B-bilinmiyor",
+   "ana_km": 736.8,
+   "kopru_km": 611.3,
+   "kopru_cift": [
+    "Monterey (Alta California)",
+    "San Diego (Misyon San Diego de Alcalá)"
+   ],
+   "ada_n": 2,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1848-02-02",
+   "yerlesim": "San Francisco (Misyon San Francisco de Asís)",
+   "sahip": "abd",
+   "kova": "B-bilinmiyor",
+   "ana_km": 736.8,
+   "kopru_km": 736.8,
+   "kopru_cift": [
+    "San Francisco (Misyon San Francisco de Asís)",
+    "San Diego (Misyon San Diego de Alcalá)"
+   ],
+   "ada_n": 2,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1890-07-01",
+   "yerlesim": "Bveranyange (Karagve)",
+   "sahip": "ingiltere",
+   "kova": "B-bilinmiyor",
+   "ana_km": 685.2,
+   "kopru_km": 685.2,
+   "kopru_cift": [
+    "Bveranyange (Karagve)",
+    "Maçakos"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1674-03-15",
+   "yerlesim": "Zeytun (Quanzhou)",
+   "sahip": "san-fan",
+   "kova": "B-bilinmiyor",
+   "ana_km": 680.5,
+   "kopru_km": 624.9,
+   "kopru_cift": [
+    "Zhangzhou",
+    "Changsha"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1777-11-29",
+   "yerlesim": "San José de Guadalupe",
+   "sahip": "yeni-ispanya",
+   "kova": "B-bilinmiyor",
+   "ana_km": 670.7,
+   "kopru_km": 611.3,
+   "kopru_cift": [
+    "Monterey (Alta California)",
+    "San Diego (Misyon San Diego de Alcalá)"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1667-11-18",
+   "yerlesim": "Makassar",
+   "sahip": "hollanda-dogu-hint",
+   "kova": "B-bilinmiyor",
+   "ana_km": 663.3,
+   "kopru_km": 591.2,
+   "kopru_cift": [
+    "Bantaeng",
+    "Alor"
+   ],
+   "ada_n": 2,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1816-04-23",
+   "yerlesim": "Bathurst (Banjul)",
+   "sahip": "ingiltere",
+   "kova": "B-bilinmiyor",
+   "ana_km": 662.8,
+   "kopru_km": 662.8,
+   "kopru_cift": [
+    "Bathurst (Banjul)",
+    "Freetown"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1894-01-01",
+   "yerlesim": "Albreda-Cufure",
+   "sahip": "ingiltere",
+   "kova": "B-bilinmiyor",
+   "ana_km": 639.2,
+   "kopru_km": 639.2,
+   "kopru_cift": [
+    "Albreda-Cufure",
+    "Freetown"
+   ],
+   "ada_n": 2,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1674-03-15",
+   "yerlesim": "Zhangzhou",
+   "sahip": "san-fan",
+   "kova": "B-bilinmiyor",
+   "ana_km": 624.9,
+   "kopru_km": 624.9,
+   "kopru_cift": [
+    "Zhangzhou",
+    "Changsha"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1891-01-01",
+   "yerlesim": "Mangoçi",
+   "sahip": "ingiltere",
+   "kova": "B-bilinmiyor",
+   "ana_km": 583.8,
+   "kopru_km": 478.6,
+   "kopru_cift": [
+    "Blantyre",
+    "Salisbury (Harare)"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1921-10-20",
+   "yerlesim": "Mersin",
+   "sahip": "OSMANLI",
+   "kova": "B-bilinmiyor",
+   "ana_km": 573.1,
+   "kopru_km": 573.1,
+   "kopru_cift": [
+    "Mersin",
+    "Rodos"
+   ],
+   "ada_n": 1,
+   "gövde_n": 23
+  },
+  {
+   "gun": "1544-01-01",
+   "yerlesim": "Tabarka",
+   "sahip": "ceneviz",
+   "kova": "B-bilinmiyor",
+   "ana_km": 553.6,
+   "kopru_km": 553.6,
+   "kopru_cift": [
+    "Tabarka",
+    "Ayacyo (Ajaccio)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1891-01-01",
+   "yerlesim": "Zomba",
+   "sahip": "ingiltere",
+   "kova": "B-bilinmiyor",
+   "ana_km": 529.7,
+   "kopru_km": 478.6,
+   "kopru_cift": [
+    "Blantyre",
+    "Salisbury (Harare)"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1348-06-09",
+   "yerlesim": "Avignon",
+   "sahip": "papalik",
+   "kova": "B-bilinmiyor",
+   "ana_km": 524.3,
+   "kopru_km": 524.3,
+   "kopru_cift": [
+    "Avignon",
+    "Bolonya"
+   ],
+   "ada_n": 1,
+   "gövde_n": 6
+  },
+  {
+   "gun": "1550-01-01",
+   "yerlesim": "Lahsa",
+   "sahip": "OSMANLI",
+   "kova": "B-bilinmiyor",
+   "ana_km": 522.4,
+   "kopru_km": 350.3,
+   "kopru_cift": [
+    "Cübeyl",
+    "Fâv"
+   ],
+   "ada_n": 4,
+   "gövde_n": 517
+  },
+  {
+   "gun": "1550-01-01",
+   "yerlesim": "Ukayr (Uceyr)",
+   "sahip": "OSMANLI",
+   "kova": "B-bilinmiyor",
+   "ana_km": 510.6,
+   "kopru_km": 350.3,
+   "kopru_cift": [
+    "Cübeyl",
+    "Fâv"
+   ],
+   "ada_n": 4,
+   "gövde_n": 517
+  },
+  {
+   "gun": "1830-01-01",
+   "yerlesim": "Ambositra",
+   "sahip": "fransa-cumhuriyet",
+   "kova": "B-bilinmiyor",
+   "ana_km": 501.1,
+   "kopru_km": 501.1,
+   "kopru_cift": [
+    "Ambositra",
+    "Tolanaro (Fort Dauphin)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1646-10-06",
+   "yerlesim": "Zhangzhou",
+   "sahip": "qing-hanedani",
+   "kova": "B-bilinmiyor",
+   "ana_km": 492.3,
+   "kopru_km": 254.7,
+   "kopru_cift": [
+    "Fuzhou",
+    "Wenzhou"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1521-01-01",
+   "yerlesim": "Manama (Bahreyn)",
+   "sahip": "portekiz",
+   "kova": "B-bilinmiyor",
+   "ana_km": 490.7,
+   "kopru_km": 490.7,
+   "kopru_cift": [
+    "Manama (Bahreyn)",
+    "Şârika"
+   ],
+   "ada_n": 1,
+   "gövde_n": 4
+  },
+  {
+   "gun": "1717-01-01",
+   "yerlesim": "Manama (Bahreyn)",
+   "sahip": "umman",
+   "kova": "B-bilinmiyor",
+   "ana_km": 490.7,
+   "kopru_km": 490.7,
+   "kopru_cift": [
+    "Manama (Bahreyn)",
+    "Şârika"
+   ],
+   "ada_n": 1,
+   "gövde_n": 4
+  },
+  {
+   "gun": "1839-01-01",
+   "yerlesim": "Sutter's Fort (Sacramento)",
+   "sahip": "meksika",
+   "kova": "B-bilinmiyor",
+   "ana_km": 488.0,
+   "kopru_km": 313.5,
+   "kopru_cift": [
+    "Monterey (Alta California)",
+    "Santa Bárbara"
+   ],
+   "ada_n": 4,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1352-01-01",
+   "yerlesim": "Mersin",
+   "sahip": "OSMANLI",
+   "kova": "B-bilinmiyor",
+   "ana_km": 487.6,
+   "kopru_km": 487.6,
+   "kopru_cift": [
+    "Mersin",
+    "Karacahisar"
+   ],
+   "ada_n": 1,
+   "gövde_n": 57
+  },
+  {
+   "gun": "1916-11-06",
+   "yerlesim": "Darfur",
+   "sahip": "ingiliz-sudani",
+   "kova": "B-bilinmiyor",
+   "ana_km": 479.4,
+   "kopru_km": 479.4,
+   "kopru_cift": [
+    "Darfur",
+    "Bâbanûsa"
+   ],
+   "ada_n": 1,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1761-04-05",
+   "yerlesim": "Cinci (Gingee)",
+   "sahip": "ingiliz-hindistani",
+   "kova": "B-bilinmiyor",
+   "ana_km": 476.0,
+   "kopru_km": 357.7,
+   "kopru_cift": [
+    "Madras (Chennai)",
+    "Masulipatnam"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1905-08-06",
+   "yerlesim": "Watampone (Bone)",
+   "sahip": "hollanda-dogu-hint",
+   "kova": "B-bilinmiyor",
+   "ana_km": 471.8,
+   "kopru_km": 354.4,
+   "kopru_cift": [
+    "Bantaeng",
+    "Bima (Sumbawa)"
+   ],
+   "ada_n": 4,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1810-09-27",
+   "yerlesim": "Yergöğü (Giurgiu)",
+   "sahip": "rusya",
+   "kova": "B-bilinmiyor",
+   "ana_km": 470.7,
+   "kopru_km": 470.7,
+   "kopru_cift": [
+    "Yergöğü (Giurgiu)",
+    "Hacıbey (Odessa)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 48
+  },
+  {
+   "gun": "1561-03-29",
+   "yerlesim": "Mandu (Mândû)",
+   "sahip": "babur-imparatorlugu",
+   "kova": "B-bilinmiyor",
+   "ana_km": 463.9,
+   "kopru_km": 381.7,
+   "kopru_cift": [
+    "Uccayn (Ujjain)",
+    "Ecmîr (Ajmer)"
+   ],
+   "ada_n": 2,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1524-07-25",
+   "yerlesim": "Iximché",
+   "sahip": "ispanya",
+   "kova": "B-bilinmiyor",
+   "ana_km": 457.3,
+   "kopru_km": 457.3,
+   "kopru_cift": [
+    "Iximché",
+    "Potonchán (Santa María de la Victoria)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1524-01-01",
+   "yerlesim": "Lahsa",
+   "sahip": "safevi",
+   "kova": "B-bilinmiyor",
+   "ana_km": 457.0,
+   "kopru_km": 294.8,
+   "kopru_cift": [
+    "Cübeyl",
+    "Bender Rîg"
+   ],
+   "ada_n": 4,
+   "gövde_n": 128
+  },
+  {
+   "gun": "1885-02-05",
+   "yerlesim": "Masavva",
+   "sahip": "italya",
+   "kova": "B-bilinmiyor",
+   "ana_km": 455.3,
+   "kopru_km": 409.0,
+   "kopru_cift": [
+    "Dahlak",
+    "Aseb"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1885-02-05",
+   "yerlesim": "Arkîko",
+   "sahip": "italya",
+   "kova": "B-bilinmiyor",
+   "ana_km": 452.8,
+   "kopru_km": 409.0,
+   "kopru_cift": [
+    "Dahlak",
+    "Aseb"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1693-09-06",
+   "yerlesim": "Pondişeri",
+   "sahip": "hollanda",
+   "kova": "B-bilinmiyor",
+   "ana_km": 448.5,
+   "kopru_km": 384.0,
+   "kopru_cift": [
+    "Yafna (Jaffna)",
+    "Kolam (Quilon)"
+   ],
+   "ada_n": 3,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1830-07-05",
+   "yerlesim": "Cezayir",
+   "sahip": "fransa-cumhuriyet",
+   "kova": "B-bilinmiyor",
+   "ana_km": 445.8,
+   "kopru_km": 357.4,
+   "kopru_cift": [
+    "Miliana",
+    "Tilimsan"
+   ],
+   "ada_n": 5,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1821-09-27",
+   "yerlesim": "San Francisco (Misyon San Francisco de Asís)",
+   "sahip": "meksika",
+   "kova": "B-bilinmiyor",
+   "ana_km": 445.0,
+   "kopru_km": 313.5,
+   "kopru_cift": [
+    "Monterey (Alta California)",
+    "Santa Bárbara"
+   ],
+   "ada_n": 3,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1529-01-01",
+   "yerlesim": "Antequera (Oaxaca)",
+   "sahip": "yeni-ispanya",
+   "kova": "B-bilinmiyor",
+   "ana_km": 436.6,
+   "kopru_km": 436.6,
+   "kopru_cift": [
+    "Antequera (Oaxaca)",
+    "San Cristóbal de las Casas (Ciudad Real)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1877-12-10",
+   "yerlesim": "Plevne",
+   "sahip": "rusya",
+   "kova": "B-bilinmiyor",
+   "ana_km": 433.1,
+   "kopru_km": 397.3,
+   "kopru_cift": [
+    "Niğbolu",
+    "Kili"
+   ],
+   "ada_n": 2,
+   "gövde_n": 62
+  },
+  {
+   "gun": "1861-05-31",
+   "yerlesim": "Manama (Bahreyn)",
+   "sahip": "ingiltere",
+   "kova": "B-bilinmiyor",
+   "ana_km": 430.8,
+   "kopru_km": 430.8,
+   "kopru_cift": [
+    "Manama (Bahreyn)",
+    "Abu Dabi"
+   ],
+   "ada_n": 1,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1658-01-01",
+   "yerlesim": "Nagapatnam",
+   "sahip": "hollanda",
+   "kova": "B-bilinmiyor",
+   "ana_km": 426.9,
+   "kopru_km": 426.9,
+   "kopru_cift": [
+    "Nagapatnam",
+    "Kolombo"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1790-12-15",
+   "yerlesim": "Kannûr (Cannanore)",
+   "sahip": "ingiliz-hindistani",
+   "kova": "B-bilinmiyor",
+   "ana_km": 426.4,
+   "kopru_km": 426.4,
+   "kopru_cift": [
+    "Kannûr (Cannanore)",
+    "Vellor (Vellore)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1698-01-08",
+   "yerlesim": "Cinci (Gingee)",
+   "sahip": "babur-imparatorlugu",
+   "kova": "B-bilinmiyor",
+   "ana_km": 423.8,
+   "kopru_km": 344.6,
+   "kopru_cift": [
+    "Vellor (Vellore)",
+    "Kurnûl (Kurnool)"
+   ],
+   "ada_n": 3,
+   "gövde_n": 9
+  },
+  {
+   "gun": "1760-01-01",
+   "yerlesim": "Vellor (Vellore)",
+   "sahip": "ingiliz-hindistani",
+   "kova": "B-bilinmiyor",
+   "ana_km": 422.8,
+   "kopru_km": 357.7,
+   "kopru_cift": [
+    "Madras (Chennai)",
+    "Masulipatnam"
+   ],
+   "ada_n": 2,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1890-11-04",
+   "yerlesim": "Lindi",
+   "sahip": "almanya",
+   "kova": "B-bilinmiyor",
+   "ana_km": 420.0,
+   "kopru_km": 288.5,
+   "kopru_cift": [
+    "Kilva Kivince",
+    "Morogoro"
+   ],
+   "ada_n": 3,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1832-03-01",
+   "yerlesim": "Annaba",
+   "sahip": "fransa-cumhuriyet",
+   "kova": "B-bilinmiyor",
+   "ana_km": 419.2,
+   "kopru_km": 419.2,
+   "kopru_cift": [
+    "Annaba",
+    "Cezayir"
+   ],
+   "ada_n": 1,
+   "gövde_n": 5
+  },
+  {
+   "gun": "1572-06-24",
+   "yerlesim": "Vilcabamba (Espíritu Pampa)",
+   "sahip": "ispanyol-peru",
+   "kova": "B-bilinmiyor",
+   "ana_km": 418.9,
+   "kopru_km": 330.0,
+   "kopru_cift": [
+    "Huamanga (Ayacucho)",
+    "Lima (Ciudad de los Reyes)"
+   ],
+   "ada_n": 5,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1775-02-01",
+   "yerlesim": "Hội An (Faifo)",
+   "sahip": "le-hanedani",
+   "kova": "B-bilinmiyor",
+   "ana_km": 415.1,
+   "kopru_km": 323.0,
+   "kopru_cift": [
+    "Quang Ngai",
+    "Nha Trang (Kauthara)"
+   ],
+   "ada_n": 5,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1642-05-17",
+   "yerlesim": "Montreal (Ville-Marie)",
+   "sahip": "fransa",
+   "kova": "B-bilinmiyor",
+   "ana_km": 414.9,
+   "kopru_km": 185.5,
+   "kopru_cift": [
+    "Quebec",
+    "Tadoussac"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1830-07-05",
+   "yerlesim": "Blida",
+   "sahip": "fransa-cumhuriyet",
+   "kova": "B-bilinmiyor",
+   "ana_km": 413.8,
+   "kopru_km": 357.4,
+   "kopru_cift": [
+    "Miliana",
+    "Tilimsan"
+   ],
+   "ada_n": 5,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1520-05-19",
+   "yerlesim": "Raycur (Raichur)",
+   "sahip": "vijayanagara",
+   "kova": "B-bilinmiyor",
+   "ana_km": 412.9,
+   "kopru_km": 344.6,
+   "kopru_cift": [
+    "Kurnûl (Kurnool)",
+    "Vellor (Vellore)"
+   ],
+   "ada_n": 3,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1671-01-01",
+   "yerlesim": "Kabasa",
+   "sahip": "portekiz",
+   "kova": "B-bilinmiyor",
+   "ana_km": 411.2,
+   "kopru_km": 335.6,
+   "kopru_cift": [
+    "Kambambe (Cambambe)",
+    "Benguela"
+   ],
+   "ada_n": 5,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1885-02-05",
+   "yerlesim": "Dahlak",
+   "sahip": "italya",
+   "kova": "B-bilinmiyor",
+   "ana_km": 409.0,
+   "kopru_km": 409.0,
+   "kopru_cift": [
+    "Dahlak",
+    "Aseb"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1550-01-01",
+   "yerlesim": "Katîf",
+   "sahip": "OSMANLI",
+   "kova": "B-bilinmiyor",
+   "ana_km": 408.1,
+   "kopru_km": 350.3,
+   "kopru_cift": [
+    "Cübeyl",
+    "Fâv"
+   ],
+   "ada_n": 4,
+   "gövde_n": 517
+  },
+  {
+   "gun": "1835-01-01",
+   "yerlesim": "Las Vegas (Yeni Meksika)",
+   "sahip": "meksika",
+   "kova": "B-bilinmiyor",
+   "ana_km": 406.3,
+   "kopru_km": 247.7,
+   "kopru_cift": [
+    "Acoma Pueblo (Sky City)",
+    "Santa Rita del Cobre"
+   ],
+   "ada_n": 5,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1705-01-01",
+   "yerlesim": "Semarang",
+   "sahip": "hollanda-dogu-hint",
+   "kova": "B-bilinmiyor",
+   "ana_km": 406.2,
+   "kopru_km": 406.2,
+   "kopru_cift": [
+    "Semarang",
+    "Batavia (Cakarta)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1698-12-13",
+   "yerlesim": "Lindi",
+   "sahip": "umman-zengibar",
+   "kova": "B-bilinmiyor",
+   "ana_km": 405.7,
+   "kopru_km": 289.3,
+   "kopru_cift": [
+    "Kilwa Kisiwani (Kilve)",
+    "Bagamoyo"
+   ],
+   "ada_n": 3,
+   "gövde_n": 8
+  },
+  {
+   "gun": "1554-01-01",
+   "yerlesim": "Nagapatnam",
+   "sahip": "portekiz",
+   "kova": "B-bilinmiyor",
+   "ana_km": 403.2,
+   "kopru_km": 403.2,
+   "kopru_cift": [
+    "Nagapatnam",
+    "Koçin (Kochi)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1646-10-06",
+   "yerlesim": "Zeytun (Quanzhou)",
+   "sahip": "qing-hanedani",
+   "kova": "B-bilinmiyor",
+   "ana_km": 401.5,
+   "kopru_km": 254.7,
+   "kopru_cift": [
+    "Fuzhou",
+    "Wenzhou"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1671-01-01",
+   "yerlesim": "Pungo Andongo",
+   "sahip": "portekiz",
+   "kova": "B-bilinmiyor",
+   "ana_km": 400.3,
+   "kopru_km": 335.6,
+   "kopru_cift": [
+    "Kambambe (Cambambe)",
+    "Benguela"
+   ],
+   "ada_n": 5,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1534-12-23",
+   "yerlesim": "Bombay",
+   "sahip": "portekiz",
+   "kova": "B-bilinmiyor",
+   "ana_km": 399.4,
+   "kopru_km": 355.9,
+   "kopru_cift": [
+    "Çaul (Chaul)",
+    "Goa"
+   ],
+   "ada_n": 2,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1830-07-05",
+   "yerlesim": "Medea (Titteri)",
+   "sahip": "fransa-cumhuriyet",
+   "kova": "B-bilinmiyor",
+   "ana_km": 398.8,
+   "kopru_km": 357.4,
+   "kopru_cift": [
+    "Miliana",
+    "Tilimsan"
+   ],
+   "ada_n": 5,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1877-07-16",
+   "yerlesim": "Niğbolu",
+   "sahip": "rusya",
+   "kova": "B-bilinmiyor",
+   "ana_km": 397.3,
+   "kopru_km": 397.3,
+   "kopru_cift": [
+    "Niğbolu",
+    "Kili"
+   ],
+   "ada_n": 1,
+   "gövde_n": 62
+  },
+  {
+   "gun": "1438-01-01",
+   "yerlesim": "Songkhla",
+   "sahip": "ayutthaya",
+   "kova": "B-bilinmiyor",
+   "ana_km": 396.8,
+   "kopru_km": 150.9,
+   "kopru_cift": [
+    "Surat Thani",
+    "Chumphon"
+   ],
+   "ada_n": 5,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1767-04-07",
+   "yerlesim": "Songkhla",
+   "sahip": "tonburi",
+   "kova": "B-bilinmiyor",
+   "ana_km": 396.8,
+   "kopru_km": 150.9,
+   "kopru_cift": [
+    "Surat Thani",
+    "Chumphon"
+   ],
+   "ada_n": 5,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1782-04-06",
+   "yerlesim": "Songkhla",
+   "sahip": "siyam-chakri",
+   "kova": "B-bilinmiyor",
+   "ana_km": 396.8,
+   "kopru_km": 150.9,
+   "kopru_cift": [
+    "Surat Thani",
+    "Chumphon"
+   ],
+   "ada_n": 5,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1775-02-01",
+   "yerlesim": "Đà Nẵng (Tourane)",
+   "sahip": "le-hanedani",
+   "kova": "B-bilinmiyor",
+   "ana_km": 394.6,
+   "kopru_km": 266.1,
+   "kopru_cift": [
+    "Quang Tri",
+    "Vinh"
+   ],
+   "ada_n": 5,
+   "gövde_n": 10
+  },
+  {
+   "gun": "1337-09-09",
+   "yerlesim": "Simnân",
+   "sahip": "serbedariler",
+   "kova": "B-bilinmiyor",
+   "ana_km": 392.1,
+   "kopru_km": 232.2,
+   "kopru_cift": [
+    "Bistâm",
+    "Esferâyin"
+   ],
+   "ada_n": 5,
+   "gövde_n": 15
+  },
+  {
+   "gun": "1740-01-01",
+   "yerlesim": "Hîve",
+   "sahip": "afsar",
+   "kova": "B-bilinmiyor",
+   "ana_km": 392.0,
+   "kopru_km": 392.0,
+   "kopru_cift": [
+    "Hîve",
+    "Ebîverd"
+   ],
+   "ada_n": 5,
+   "gövde_n": 15
+  },
+  {
+   "gun": "1920-04-26",
+   "yerlesim": "Hîve",
+   "sahip": "sovyet-rusya",
+   "kova": "B-bilinmiyor",
+   "ana_km": 392.0,
+   "kopru_km": 392.0,
+   "kopru_cift": [
+    "Hîve",
+    "Ebîverd"
+   ],
+   "ada_n": 5,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1524-01-01",
+   "yerlesim": "Ukayr (Uceyr)",
+   "sahip": "safevi",
+   "kova": "B-bilinmiyor",
+   "ana_km": 388.5,
+   "kopru_km": 294.8,
+   "kopru_cift": [
+    "Cübeyl",
+    "Bender Rîg"
+   ],
+   "ada_n": 4,
+   "gövde_n": 128
+  },
+  {
+   "gun": "1379-01-01",
+   "yerlesim": "Hîve",
+   "sahip": "timurlu",
+   "kova": "B-bilinmiyor",
+   "ana_km": 386.6,
+   "kopru_km": 331.6,
+   "kopru_cift": [
+    "Hazârasp",
+    "Buhara"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1502-01-01",
+   "yerlesim": "Hîve",
+   "sahip": "buhara",
+   "kova": "B-bilinmiyor",
+   "ana_km": 386.6,
+   "kopru_km": 331.6,
+   "kopru_cift": [
+    "Hazârasp",
+    "Buhara"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1821-09-27",
+   "yerlesim": "San José de Guadalupe",
+   "sahip": "meksika",
+   "kova": "B-bilinmiyor",
+   "ana_km": 380.1,
+   "kopru_km": 313.5,
+   "kopru_cift": [
+    "Monterey (Alta California)",
+    "Santa Bárbara"
+   ],
+   "ada_n": 3,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1516-06-20",
+   "yerlesim": "Zebîd",
+   "sahip": "memluk",
+   "kova": "B-bilinmiyor",
+   "ana_km": 379.9,
+   "kopru_km": 379.9,
+   "kopru_cift": [
+    "Zebîd",
+    "Dahlak"
+   ],
+   "ada_n": 1,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1784-01-01",
+   "yerlesim": "Koil (Aligarh)",
+   "sahip": "maratha",
+   "kova": "B-bilinmiyor",
+   "ana_km": 377.2,
+   "kopru_km": 322.2,
+   "kopru_cift": [
+    "Mathura",
+    "Ecmîr (Ajmer)"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1821-09-27",
+   "yerlesim": "Santa Fe",
+   "sahip": "meksika",
+   "kova": "B-bilinmiyor",
+   "ana_km": 376.1,
+   "kopru_km": 247.7,
+   "kopru_cift": [
+    "Acoma Pueblo (Sky City)",
+    "Santa Rita del Cobre"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1803-12-30",
+   "yerlesim": "Kanbâyet (Khambhat)",
+   "sahip": "ingiliz-hindistani",
+   "kova": "B-bilinmiyor",
+   "ana_km": 375.9,
+   "kopru_km": 247.8,
+   "kopru_cift": [
+    "Sûrat",
+    "Bombay"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1547-01-01",
+   "yerlesim": "Chichén Itzá",
+   "sahip": "yeni-ispanya",
+   "kova": "B-bilinmiyor",
+   "ana_km": 373.6,
+   "kopru_km": 186.9,
+   "kopru_cift": [
+    "Campeche (San Francisco de Campeche)",
+    "Acalán (Itzamkanac)"
+   ],
+   "ada_n": 5,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1821-09-27",
+   "yerlesim": "Chichén Itzá",
+   "sahip": "meksika",
+   "kova": "B-bilinmiyor",
+   "ana_km": 373.6,
+   "kopru_km": 186.9,
+   "kopru_cift": [
+    "Campeche (San Francisco de Campeche)",
+    "Acalán (Itzamkanac)"
+   ],
+   "ada_n": 5,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1640-12-01",
+   "yerlesim": "Bragança",
+   "sahip": "portekiz",
+   "kova": "B-bilinmiyor",
+   "ana_km": 372.7,
+   "kopru_km": 176.2,
+   "kopru_cift": [
+    "Coimbra",
+    "Lizbon"
+   ],
+   "ada_n": 5,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1706-04-23",
+   "yerlesim": "Albuquerque",
+   "sahip": "yeni-ispanya",
+   "kova": "B-bilinmiyor",
+   "ana_km": 369.9,
+   "kopru_km": 369.9,
+   "kopru_cift": [
+    "Albuquerque",
+    "El Paso del Norte"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1830-07-05",
+   "yerlesim": "Şerşel (Cherchell)",
+   "sahip": "fransa-cumhuriyet",
+   "kova": "B-bilinmiyor",
+   "ana_km": 369.7,
+   "kopru_km": 357.4,
+   "kopru_cift": [
+    "Miliana",
+    "Tilimsan"
+   ],
+   "ada_n": 5,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1806-05-27",
+   "yerlesim": "Dubrovnik",
+   "sahip": "fransa-cumhuriyet",
+   "kova": "B-bilinmiyor",
+   "ana_km": 369.6,
+   "kopru_km": 369.6,
+   "kopru_cift": [
+    "Dubrovnik",
+    "Korfu"
+   ],
+   "ada_n": 1,
+   "gövde_n": 7
+  },
+  {
+   "gun": "1502-03-01",
+   "yerlesim": "Petrovsk (Saratov)",
+   "sahip": "astarhan",
+   "kova": "B-bilinmiyor",
+   "ana_km": 369.3,
+   "kopru_km": 285.5,
+   "kopru_cift": [
+    "Ukek (Uvek)",
+    "Beldjamen"
+   ],
+   "ada_n": 2,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1895-01-01",
+   "yerlesim": "Bondugu (Gyaaman)",
+   "sahip": "ingiltere",
+   "kova": "B-bilinmiyor",
+   "ana_km": 365.6,
+   "kopru_km": 365.6,
+   "kopru_cift": [
+    "Bondugu (Gyaaman)",
+    "Elmina (São Jorge da Mina)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1769-09-19",
+   "yerlesim": "Hotin",
+   "sahip": "rusya",
+   "kova": "B-bilinmiyor",
+   "ana_km": 362.4,
+   "kopru_km": 362.4,
+   "kopru_cift": [
+    "Hotin",
+    "Kiev"
+   ],
+   "ada_n": 1,
+   "gövde_n": 21
+  },
+  {
+   "gun": "1333-07-04",
+   "yerlesim": "Kumamoto",
+   "sahip": "kenmu",
+   "kova": "B-bilinmiyor",
+   "ana_km": 361.3,
+   "kopru_km": 264.7,
+   "kopru_cift": [
+    "Funai (Ōita)",
+    "Okayama"
+   ],
+   "ada_n": 5,
+   "gövde_n": 7
+  },
+  {
+   "gun": "1336-11-07",
+   "yerlesim": "Kumamoto",
+   "sahip": "muromachi",
+   "kova": "B-bilinmiyor",
+   "ana_km": 361.3,
+   "kopru_km": 264.7,
+   "kopru_cift": [
+    "Funai (Ōita)",
+    "Okayama"
+   ],
+   "ada_n": 5,
+   "gövde_n": 7
+  },
+  {
+   "gun": "1830-07-05",
+   "yerlesim": "Tilimsan",
+   "sahip": "fransa-cumhuriyet",
+   "kova": "B-bilinmiyor",
+   "ana_km": 357.4,
+   "kopru_km": 357.4,
+   "kopru_cift": [
+    "Tilimsan",
+    "Miliana"
+   ],
+   "ada_n": 1,
+   "gövde_n": 5
+  },
+  {
+   "gun": "1830-07-05",
+   "yerlesim": "Miliana",
+   "sahip": "fransa-cumhuriyet",
+   "kova": "B-bilinmiyor",
+   "ana_km": 357.4,
+   "kopru_km": 357.4,
+   "kopru_cift": [
+    "Miliana",
+    "Tilimsan"
+   ],
+   "ada_n": 5,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1714-03-07",
+   "yerlesim": "Milano",
+   "sahip": "avusturya",
+   "kova": "B-bilinmiyor",
+   "ana_km": 357.1,
+   "kopru_km": 239.0,
+   "kopru_cift": [
+    "Mantova",
+    "Trieste"
+   ],
+   "ada_n": 2,
+   "gövde_n": 49
+  },
+  {
+   "gun": "1622-05-01",
+   "yerlesim": "Ras el-Hayme (Cülfâr)",
+   "sahip": "umman",
+   "kova": "B-bilinmiyor",
+   "ana_km": 356.2,
+   "kopru_km": 230.0,
+   "kopru_cift": [
+    "Buraymî",
+    "Nizva"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1521-01-01",
+   "yerlesim": "Çaul (Chaul)",
+   "sahip": "portekiz",
+   "kova": "B-bilinmiyor",
+   "ana_km": 355.9,
+   "kopru_km": 355.9,
+   "kopru_cift": [
+    "Çaul (Chaul)",
+    "Goa"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1398-01-01",
+   "yerlesim": "Gvalyar (Gwalior)",
+   "sahip": "racput",
+   "kova": "B-bilinmiyor",
+   "ana_km": 354.1,
+   "kopru_km": 354.1,
+   "kopru_cift": [
+    "Gvalyar (Gwalior)",
+    "Ecmîr (Ajmer)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1784-01-01",
+   "yerlesim": "Gvalyar (Gwalior)",
+   "sahip": "maratha",
+   "kova": "B-bilinmiyor",
+   "ana_km": 354.1,
+   "kopru_km": 322.2,
+   "kopru_cift": [
+    "Mathura",
+    "Ecmîr (Ajmer)"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1687-09-21",
+   "yerlesim": "Arkot (Arcot)",
+   "sahip": "babur-imparatorlugu",
+   "kova": "B-bilinmiyor",
+   "ana_km": 353.1,
+   "kopru_km": 344.6,
+   "kopru_cift": [
+    "Vellor (Vellore)",
+    "Kurnûl (Kurnool)"
+   ],
+   "ada_n": 2,
+   "gövde_n": 9
+  },
+  {
+   "gun": "1622-05-01",
+   "yerlesim": "Şârika",
+   "sahip": "umman",
+   "kova": "B-bilinmiyor",
+   "ana_km": 346.2,
+   "kopru_km": 230.0,
+   "kopru_cift": [
+    "Buraymî",
+    "Nizva"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1333-07-04",
+   "yerlesim": "Hakata (Fukuoka)",
+   "sahip": "kenmu",
+   "kova": "B-bilinmiyor",
+   "ana_km": 344.7,
+   "kopru_km": 264.7,
+   "kopru_cift": [
+    "Funai (Ōita)",
+    "Okayama"
+   ],
+   "ada_n": 5,
+   "gövde_n": 7
+  },
+  {
+   "gun": "1336-11-07",
+   "yerlesim": "Hakata (Fukuoka)",
+   "sahip": "muromachi",
+   "kova": "B-bilinmiyor",
+   "ana_km": 344.7,
+   "kopru_km": 264.7,
+   "kopru_cift": [
+    "Funai (Ōita)",
+    "Okayama"
+   ],
+   "ada_n": 5,
+   "gövde_n": 7
+  },
+  {
+   "gun": "1723-08-01",
+   "yerlesim": "Şamahı",
+   "sahip": "OSMANLI",
+   "kova": "B-bilinmiyor",
+   "ana_km": 344.6,
+   "kopru_km": 344.6,
+   "kopru_cift": [
+    "Şamahı",
+    "Tiflis"
+   ],
+   "ada_n": 1,
+   "gövde_n": 534
+  },
+  {
+   "gun": "1687-09-21",
+   "yerlesim": "Vellor (Vellore)",
+   "sahip": "babur-imparatorlugu",
+   "kova": "B-bilinmiyor",
+   "ana_km": 344.6,
+   "kopru_km": 344.6,
+   "kopru_cift": [
+    "Vellor (Vellore)",
+    "Kurnûl (Kurnool)"
+   ],
+   "ada_n": 2,
+   "gövde_n": 9
+  },
+  {
+   "gun": "1761-01-14",
+   "yerlesim": "Agra",
+   "sahip": "maratha",
+   "kova": "B-bilinmiyor",
+   "ana_km": 344.0,
+   "kopru_km": 344.0,
+   "kopru_cift": [
+    "Agra",
+    "Ecmîr (Ajmer)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1503-01-01",
+   "yerlesim": "Zanzibar (Zengibar)",
+   "sahip": "portekiz",
+   "kova": "B-bilinmiyor",
+   "ana_km": 343.3,
+   "kopru_km": 343.3,
+   "kopru_cift": [
+    "Zanzibar (Zengibar)",
+    "Malindi"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1542-01-06",
+   "yerlesim": "Mérida",
+   "sahip": "yeni-ispanya",
+   "kova": "B-bilinmiyor",
+   "ana_km": 339.7,
+   "kopru_km": 186.9,
+   "kopru_cift": [
+    "Campeche (San Francisco de Campeche)",
+    "Acalán (Itzamkanac)"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1821-09-27",
+   "yerlesim": "Mérida",
+   "sahip": "meksika",
+   "kova": "B-bilinmiyor",
+   "ana_km": 339.7,
+   "kopru_km": 186.9,
+   "kopru_cift": [
+    "Campeche (San Francisco de Campeche)",
+    "Acalán (Itzamkanac)"
+   ],
+   "ada_n": 5,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1602-01-01",
+   "yerlesim": "Manama (Bahreyn)",
+   "sahip": "safevi",
+   "kova": "B-bilinmiyor",
+   "ana_km": 339.6,
+   "kopru_km": 339.6,
+   "kopru_cift": [
+    "Manama (Bahreyn)",
+    "Kiş (Kish)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 20
+  },
+  {
+   "gun": "1899-04-09",
+   "yerlesim": "Masindi",
+   "sahip": "ingiltere",
+   "kova": "B-bilinmiyor",
+   "ana_km": 338.5,
+   "kopru_km": 304.8,
+   "kopru_cift": [
+    "Hoima (Bunyoro)",
+    "Bveranyange (Karagve)"
+   ],
+   "ada_n": 2,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1452-01-01",
+   "yerlesim": "Bistâm",
+   "sahip": "karakoyunlu",
+   "kova": "B-bilinmiyor",
+   "ana_km": 337.0,
+   "kopru_km": 181.8,
+   "kopru_cift": [
+    "Simnân",
+    "Tahran"
+   ],
+   "ada_n": 3,
+   "gövde_n": 129
+  },
+  {
+   "gun": "1469-01-01",
+   "yerlesim": "Bistâm",
+   "sahip": "akkoyunlu",
+   "kova": "B-bilinmiyor",
+   "ana_km": 337.0,
+   "kopru_km": 181.8,
+   "kopru_cift": [
+    "Simnân",
+    "Tahran"
+   ],
+   "ada_n": 3,
+   "gövde_n": 142
+  },
+  {
+   "gun": "1503-01-01",
+   "yerlesim": "Bistâm",
+   "sahip": "safevi",
+   "kova": "B-bilinmiyor",
+   "ana_km": 337.0,
+   "kopru_km": 181.8,
+   "kopru_cift": [
+    "Simnân",
+    "Tahran"
+   ],
+   "ada_n": 3,
+   "gövde_n": 72
+  },
+  {
+   "gun": "1880-01-01",
+   "yerlesim": "Karonga",
+   "sahip": "umman-zengibar",
+   "kova": "B-bilinmiyor",
+   "ana_km": 336.0,
+   "kopru_km": 336.0,
+   "kopru_cift": [
+    "Karonga",
+    "Nkhotakota (Cumbe)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1895-01-01",
+   "yerlesim": "Karonga",
+   "sahip": "ingiltere",
+   "kova": "B-bilinmiyor",
+   "ana_km": 336.0,
+   "kopru_km": 331.7,
+   "kopru_cift": [
+    "Mbande (Ngonde)",
+    "Nkhotakota (Cumbe)"
+   ],
+   "ada_n": 2,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1426-01-01",
+   "yerlesim": "Brescia",
+   "sahip": "venedik",
+   "kova": "B-bilinmiyor",
+   "ana_km": 335.4,
+   "kopru_km": 153.8,
+   "kopru_cift": [
+    "Udine",
+    "Krk (Veglia)"
+   ],
+   "ada_n": 5,
+   "gövde_n": 19
+  },
+  {
+   "gun": "1545-01-01",
+   "yerlesim": "Sotuta",
+   "sahip": "yeni-ispanya",
+   "kova": "B-bilinmiyor",
+   "ana_km": 335.0,
+   "kopru_km": 186.9,
+   "kopru_cift": [
+    "Campeche (San Francisco de Campeche)",
+    "Acalán (Itzamkanac)"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1821-09-27",
+   "yerlesim": "Sotuta",
+   "sahip": "meksika",
+   "kova": "B-bilinmiyor",
+   "ana_km": 335.0,
+   "kopru_km": 186.9,
+   "kopru_cift": [
+    "Campeche (San Francisco de Campeche)",
+    "Acalán (Itzamkanac)"
+   ],
+   "ada_n": 5,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1795-01-01",
+   "yerlesim": "Pursat",
+   "sahip": "siyam-chakri",
+   "kova": "B-bilinmiyor",
+   "ana_km": 335.0,
+   "kopru_km": 180.4,
+   "kopru_cift": [
+    "Sisophon",
+    "Nakhon Ratchasima"
+   ],
+   "ada_n": 5,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1524-01-01",
+   "yerlesim": "Katîf",
+   "sahip": "safevi",
+   "kova": "B-bilinmiyor",
+   "ana_km": 333.3,
+   "kopru_km": 294.8,
+   "kopru_cift": [
+    "Cübeyl",
+    "Bender Rîg"
+   ],
+   "ada_n": 4,
+   "gövde_n": 128
+  },
+  {
+   "gun": "1887-01-01",
+   "yerlesim": "Mbande (Ngonde)",
+   "sahip": "umman-zengibar",
+   "kova": "B-bilinmiyor",
+   "ana_km": 331.7,
+   "kopru_km": 331.7,
+   "kopru_cift": [
+    "Mbande (Ngonde)",
+    "Nkhotakota (Cumbe)"
+   ],
+   "ada_n": 2,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1895-01-01",
+   "yerlesim": "Mbande (Ngonde)",
+   "sahip": "ingiltere",
+   "kova": "B-bilinmiyor",
+   "ana_km": 331.7,
+   "kopru_km": 331.7,
+   "kopru_cift": [
+    "Mbande (Ngonde)",
+    "Nkhotakota (Cumbe)"
+   ],
+   "ada_n": 2,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1438-01-01",
+   "yerlesim": "Trang",
+   "sahip": "ayutthaya",
+   "kova": "B-bilinmiyor",
+   "ana_km": 329.2,
+   "kopru_km": 150.9,
+   "kopru_cift": [
+    "Surat Thani",
+    "Chumphon"
+   ],
+   "ada_n": 5,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1767-04-07",
+   "yerlesim": "Trang",
+   "sahip": "tonburi",
+   "kova": "B-bilinmiyor",
+   "ana_km": 329.2,
+   "kopru_km": 150.9,
+   "kopru_cift": [
+    "Surat Thani",
+    "Chumphon"
+   ],
+   "ada_n": 5,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1782-04-06",
+   "yerlesim": "Trang",
+   "sahip": "siyam-chakri",
+   "kova": "B-bilinmiyor",
+   "ana_km": 329.2,
+   "kopru_km": 150.9,
+   "kopru_cift": [
+    "Surat Thani",
+    "Chumphon"
+   ],
+   "ada_n": 5,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1847-01-01",
+   "yerlesim": "East London",
+   "sahip": "ingiltere",
+   "kova": "B-bilinmiyor",
+   "ana_km": 327.7,
+   "kopru_km": 214.7,
+   "kopru_cift": [
+    "Port Elizabeth",
+    "Graaff-Reinet"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1502-03-01",
+   "yerlesim": "Astrahan",
+   "sahip": "astarhan",
+   "kova": "B-bilinmiyor",
+   "ana_km": 327.5,
+   "kopru_km": 240.4,
+   "kopru_cift": [
+    "Saray (Selitrennoye)",
+    "Yeni Saray (Tsarev)"
+   ],
+   "ada_n": 2,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1863-12-04",
+   "yerlesim": "Suzhou",
+   "sahip": "qing-hanedani",
+   "kova": "B-bilinmiyor",
+   "ana_km": 323.4,
+   "kopru_km": 323.4,
+   "kopru_cift": [
+    "Suzhou",
+    "Hefei"
+   ],
+   "ada_n": 4,
+   "gövde_n": 4
+  },
+  {
+   "gun": "1777-01-01",
+   "yerlesim": "Cayuga",
+   "sahip": "ingiltere",
+   "kova": "B-bilinmiyor",
+   "ana_km": 323.1,
+   "kopru_km": 268.2,
+   "kopru_cift": [
+    "Seneca (Ganondagan)",
+    "Ossossané"
+   ],
+   "ada_n": 5,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1775-02-01",
+   "yerlesim": "Quang Ngai",
+   "sahip": "le-hanedani",
+   "kova": "B-bilinmiyor",
+   "ana_km": 323.0,
+   "kopru_km": 323.0,
+   "kopru_cift": [
+    "Quang Ngai",
+    "Nha Trang (Kauthara)"
+   ],
+   "ada_n": 5,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1770-01-01",
+   "yerlesim": "Mathura",
+   "sahip": "maratha",
+   "kova": "B-bilinmiyor",
+   "ana_km": 322.2,
+   "kopru_km": 322.2,
+   "kopru_cift": [
+    "Mathura",
+    "Ecmîr (Ajmer)"
+   ],
+   "ada_n": 2,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1777-01-01",
+   "yerlesim": "Onondaga (İrokua Konfederasyon Merkezi)",
+   "sahip": "ingiltere",
+   "kova": "B-bilinmiyor",
+   "ana_km": 320.5,
+   "kopru_km": 189.5,
+   "kopru_cift": [
+    "Mohawk (Kayenlaha'ke)",
+    "Hartford"
+   ],
+   "ada_n": 5,
+   "gövde_n": 6
+  },
+  {
+   "gun": "1640-12-01",
+   "yerlesim": "Braga",
+   "sahip": "portekiz",
+   "kova": "B-bilinmiyor",
+   "ana_km": 319.7,
+   "kopru_km": 176.2,
+   "kopru_cift": [
+    "Coimbra",
+    "Lizbon"
+   ],
+   "ada_n": 5,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1801-11-10",
+   "yerlesim": "Etâve (Etawah)",
+   "sahip": "ingiliz-hindistani",
+   "kova": "B-bilinmiyor",
+   "ana_km": 319.6,
+   "kopru_km": 188.8,
+   "kopru_cift": [
+    "Kanpûr",
+    "Ilâhâbâd (Allahabad)"
+   ],
+   "ada_n": 3,
+   "gövde_n": 4
+  },
+  {
+   "gun": "1849-01-01",
+   "yerlesim": "Hudeyde",
+   "sahip": "OSMANLI",
+   "kova": "B-bilinmiyor",
+   "ana_km": 318.0,
+   "kopru_km": 318.0,
+   "kopru_cift": [
+    "Hudeyde",
+    "Dahlak"
+   ],
+   "ada_n": 3,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1306-01-01",
+   "yerlesim": "Huế (Phú Xuân)",
+   "sahip": "tran-hanedani",
+   "kova": "B-bilinmiyor",
+   "ana_km": 317.1,
+   "kopru_km": 266.1,
+   "kopru_cift": [
+    "Quang Tri",
+    "Vinh"
+   ],
+   "ada_n": 2,
+   "gövde_n": 10
+  },
+  {
+   "gun": "1400-03-01",
+   "yerlesim": "Huế (Phú Xuân)",
+   "sahip": "ho-hanedani",
+   "kova": "B-bilinmiyor",
+   "ana_km": 317.1,
+   "kopru_km": 266.1,
+   "kopru_cift": [
+    "Quang Tri",
+    "Vinh"
+   ],
+   "ada_n": 2,
+   "gövde_n": 10
+  },
+  {
+   "gun": "1407-06-17",
+   "yerlesim": "Huế (Phú Xuân)",
+   "sahip": "ming-hanedani",
+   "kova": "B-bilinmiyor",
+   "ana_km": 317.1,
+   "kopru_km": 266.1,
+   "kopru_cift": [
+    "Quang Tri",
+    "Vinh"
+   ],
+   "ada_n": 2,
+   "gövde_n": 10
+  },
+  {
+   "gun": "1428-01-03",
+   "yerlesim": "Huế (Phú Xuân)",
+   "sahip": "le-hanedani",
+   "kova": "B-bilinmiyor",
+   "ana_km": 317.1,
+   "kopru_km": 266.1,
+   "kopru_cift": [
+    "Quang Tri",
+    "Vinh"
+   ],
+   "ada_n": 2,
+   "gövde_n": 10
+  },
+  {
+   "gun": "1775-02-01",
+   "yerlesim": "Huế (Phú Xuân)",
+   "sahip": "le-hanedani",
+   "kova": "B-bilinmiyor",
+   "ana_km": 317.1,
+   "kopru_km": 266.1,
+   "kopru_cift": [
+    "Quang Tri",
+    "Vinh"
+   ],
+   "ada_n": 5,
+   "gövde_n": 10
+  },
+  {
+   "gun": "1543-01-01",
+   "yerlesim": "Antigua Guatemala (Santiago de los Caballeros)",
+   "sahip": "yeni-ispanya",
+   "kova": "B-bilinmiyor",
+   "ana_km": 316.9,
+   "kopru_km": 316.9,
+   "kopru_cift": [
+    "Antigua Guatemala (Santiago de los Caballeros)",
+    "San Cristóbal de las Casas (Ciudad Real)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1657-03-29",
+   "yerlesim": "Bîdar",
+   "sahip": "babur-imparatorlugu",
+   "kova": "B-bilinmiyor",
+   "ana_km": 316.4,
+   "kopru_km": 316.4,
+   "kopru_cift": [
+    "Bîdar",
+    "Evrengâbâd"
+   ],
+   "ada_n": 1,
+   "gövde_n": 4
+  },
+  {
+   "gun": "1849-01-01",
+   "yerlesim": "Zebîd",
+   "sahip": "OSMANLI",
+   "kova": "B-bilinmiyor",
+   "ana_km": 316.2,
+   "kopru_km": 219.7,
+   "kopru_cift": [
+    "Moha",
+    "Zeyla"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1824-12-09",
+   "yerlesim": "Vilcabamba (Espíritu Pampa)",
+   "sahip": "peru-cumhuriyeti",
+   "kova": "B-bilinmiyor",
+   "ana_km": 315.7,
+   "kopru_km": 293.3,
+   "kopru_cift": [
+    "Huamanga (Ayacucho)",
+    "Cerro de la Sal"
+   ],
+   "ada_n": 5,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1805-07-20",
+   "yerlesim": "Bedir",
+   "sahip": "suud",
+   "kova": "B-bilinmiyor",
+   "ana_km": 314.9,
+   "kopru_km": 314.9,
+   "kopru_cift": [
+    "Bedir",
+    "Tâif"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1881-01-30",
+   "yerlesim": "Ebîverd",
+   "sahip": "rusya",
+   "kova": "B-bilinmiyor",
+   "ana_km": 314.3,
+   "kopru_km": 200.3,
+   "kopru_cift": [
+    "Nesâ",
+    "Kızılarvat"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1535-11-01",
+   "yerlesim": "Milano",
+   "sahip": "ispanya",
+   "kova": "B-bilinmiyor",
+   "ana_km": 312.9,
+   "kopru_km": 312.9,
+   "kopru_cift": [
+    "Milano",
+    "Besançon"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1716-01-01",
+   "yerlesim": "Kuveyt",
+   "sahip": "benihalid",
+   "kova": "B-bilinmiyor",
+   "ana_km": 310.6,
+   "kopru_km": 310.6,
+   "kopru_cift": [
+    "Kuveyt",
+    "Cübeyl"
+   ],
+   "ada_n": 1,
+   "gövde_n": 4
+  },
+  {
+   "gun": "1772-11-18",
+   "yerlesim": "Broaç (Bharuch)",
+   "sahip": "ingiliz-hindistani",
+   "kova": "B-bilinmiyor",
+   "ana_km": 308.9,
+   "kopru_km": 247.8,
+   "kopru_cift": [
+    "Sûrat",
+    "Bombay"
+   ],
+   "ada_n": 2,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1441-01-01",
+   "yerlesim": "Sloboda bozkırı",
+   "sahip": "kirim",
+   "kova": "B-bilinmiyor",
+   "ana_km": 308.7,
+   "kopru_km": 217.2,
+   "kopru_cift": [
+    "Belgorod",
+    "Voronej"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1448-01-01",
+   "yerlesim": "Visoko",
+   "sahip": "OSMANLI",
+   "kova": "B-bilinmiyor",
+   "ana_km": 308.1,
+   "kopru_km": 286.7,
+   "kopru_cift": [
+    "Saraybosna",
+    "Niş"
+   ],
+   "ada_n": 2,
+   "gövde_n": 202
+  },
+  {
+   "gun": "1893-11-04",
+   "yerlesim": "Bulavayo",
+   "sahip": "ingiltere",
+   "kova": "B-bilinmiyor",
+   "ana_km": 306.2,
+   "kopru_km": 296.6,
+   "kopru_cift": [
+    "Khami",
+    "Palapye"
+   ],
+   "ada_n": 3,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1737-07-13",
+   "yerlesim": "Özi",
+   "sahip": "rusya",
+   "kova": "B-bilinmiyor",
+   "ana_km": 305.9,
+   "kopru_km": 305.9,
+   "kopru_cift": [
+    "Özi",
+    "Kremençuk"
+   ],
+   "ada_n": 1,
+   "gövde_n": 20
+  },
+  {
+   "gun": "1753-01-01",
+   "yerlesim": "Manama (Bahreyn)",
+   "sahip": "zend",
+   "kova": "B-bilinmiyor",
+   "ana_km": 305.7,
+   "kopru_km": 305.7,
+   "kopru_cift": [
+    "Manama (Bahreyn)",
+    "Buşehr"
+   ],
+   "ada_n": 1,
+   "gövde_n": 107
+  },
+  {
+   "gun": "1600-08-28",
+   "yerlesim": "Ahmednagar",
+   "sahip": "babur-imparatorlugu",
+   "kova": "B-bilinmiyor",
+   "ana_km": 305.4,
+   "kopru_km": 305.4,
+   "kopru_cift": [
+    "Ahmednagar",
+    "Sûrat"
+   ],
+   "ada_n": 1,
+   "gövde_n": 6
+  },
+  {
+   "gun": "1561-11-28",
+   "yerlesim": "Pärnu",
+   "sahip": "lehistan",
+   "kova": "B-bilinmiyor",
+   "ana_km": 305.1,
+   "kopru_km": 177.5,
+   "kopru_cift": [
+    "Cēsis (Wenden)",
+    "Daugavpils (Dünaburg)"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1899-01-19",
+   "yerlesim": "Kerma",
+   "sahip": "ingiltere",
+   "kova": "B-bilinmiyor",
+   "ana_km": 304.9,
+   "kopru_km": 185.7,
+   "kopru_cift": [
+    "Merevî",
+    "Şereyk"
+   ],
+   "ada_n": 5,
+   "gövde_n": 29
+  },
+  {
+   "gun": "1899-04-09",
+   "yerlesim": "Hoima (Bunyoro)",
+   "sahip": "ingiltere",
+   "kova": "B-bilinmiyor",
+   "ana_km": 304.8,
+   "kopru_km": 304.8,
+   "kopru_cift": [
+    "Hoima (Bunyoro)",
+    "Bveranyange (Karagve)"
+   ],
+   "ada_n": 2,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1601-01-01",
+   "yerlesim": "Asîrgarh",
+   "sahip": "babur-imparatorlugu",
+   "kova": "B-bilinmiyor",
+   "ana_km": 304.3,
+   "kopru_km": 289.9,
+   "kopru_cift": [
+    "Burhânpûr",
+    "Ahmednagar"
+   ],
+   "ada_n": 5,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1557-01-01",
+   "yerlesim": "Arkîko",
+   "sahip": "OSMANLI",
+   "kova": "B-bilinmiyor",
+   "ana_km": 303.4,
+   "kopru_km": 230.7,
+   "kopru_cift": [
+    "Dahlak",
+    "Ferasan (Farasan)"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1569-07-01",
+   "yerlesim": "Poltava",
+   "sahip": "lehistan",
+   "kova": "B-bilinmiyor",
+   "ana_km": 303.2,
+   "kopru_km": 182.5,
+   "kopru_cift": [
+    "Lubnı",
+    "Kiev"
+   ],
+   "ada_n": 4,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1899-01-19",
+   "yerlesim": "Dongola",
+   "sahip": "ingiltere",
+   "kova": "B-bilinmiyor",
+   "ana_km": 301.2,
+   "kopru_km": 185.7,
+   "kopru_cift": [
+    "Merevî",
+    "Şereyk"
+   ],
+   "ada_n": 5,
+   "gövde_n": 29
+  },
+  {
+   "gun": "1753-04-01",
+   "yerlesim": "Ahmedâbâd",
+   "sahip": "maratha",
+   "kova": "B-bilinmiyor",
+   "ana_km": 300.4,
+   "kopru_km": 192.5,
+   "kopru_cift": [
+    "Çampâner",
+    "Mandu (Mândû)"
+   ],
+   "ada_n": 4,
+   "gövde_n": 3
+  },
+  {
+   "gun": "1627-01-01",
+   "yerlesim": "Gore (Gorée)",
+   "sahip": "hollanda",
+   "kova": "C-hakiki",
+   "ana_km": 4475.7,
+   "kopru_km": 4475.7,
+   "kopru_cift": [
+    "Gore (Gorée)",
+    "New Amsterdam (Berbice)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1683-01-01",
+   "yerlesim": "Khami",
+   "sahip": "ingiltere",
+   "kova": "C-hakiki",
+   "ana_km": 4286.1,
+   "kopru_km": 4286.1,
+   "kopru_cift": [
+    "Khami",
+    "Cape Coast"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1444-01-01",
+   "yerlesim": "Gore (Gorée)",
+   "sahip": "portekiz",
+   "kova": "C-hakiki",
+   "ana_km": 2639.8,
+   "kopru_km": 2639.8,
+   "kopru_cift": [
+    "Gore (Gorée)",
+    "Lagos (Algarve)"
+   ],
+   "ada_n": 1,
+   "gövde_n": 2
+  },
+  {
+   "gun": "1583-01-01",
+   "yerlesim": "Massangano",
+   "sahip": "portekiz",
+   "kova": "C-hakiki",
+   "ana_km": 2225.5,
+   "kopru_km": 2225.5,
+   "kopru_cift": [
+    "Massangano",
+    "Tete"
+   ],
+   "ada_n": 2,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1604-01-01",
+   "yerlesim": "Kambambe (Cambambe)",
+   "sahip": "portekiz",
+   "kova": "C-hakiki",
+   "ana_km": 2188.4,
+   "kopru_km": 2188.4,
+   "kopru_cift": [
+    "Kambambe (Cambambe)",
+    "Tete"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1816-12-04",
+   "yerlesim": "Çandernagor",
+   "sahip": "fransa-cumhuriyet",
+   "kova": "C-hakiki",
+   "ana_km": 1513.9,
+   "kopru_km": 1513.9,
+   "kopru_cift": [
+    "Çandernagor",
+    "Pondişeri"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1816-12-04",
+   "yerlesim": "Pondişeri",
+   "sahip": "fransa-cumhuriyet",
+   "kova": "C-hakiki",
+   "ana_km": 1513.9,
+   "kopru_km": 1513.9,
+   "kopru_cift": [
+    "Pondişeri",
+    "Çandernagor"
+   ],
+   "ada_n": 1,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1834-01-01",
+   "yerlesim": "Danangombe (Rozvi)",
+   "sahip": "ingiltere",
+   "kova": "C-hakiki",
+   "ana_km": 1154.0,
+   "kopru_km": 1111.9,
+   "kopru_cift": [
+    "Khami",
+    "Durban"
+   ],
+   "ada_n": 2,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1625-01-01",
+   "yerlesim": "Pemaquid",
+   "sahip": "ingiltere",
+   "kova": "C-hakiki",
+   "ana_km": 963.1,
+   "kopru_km": 744.7,
+   "kopru_cift": [
+    "Plymouth (Massachusetts)",
+    "Jamestown"
+   ],
+   "ada_n": 3,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1899-01-19",
+   "yerlesim": "Delgo (Sükkût)",
+   "sahip": "ingiliz-sudani",
+   "kova": "C-hakiki",
+   "ana_km": 961.5,
+   "kopru_km": 961.5,
+   "kopru_cift": [
+    "Delgo (Sükkût)",
+    "Er-Renk"
+   ],
+   "ada_n": 2,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1632-01-01",
+   "yerlesim": "Falmouth (Portland, Maine)",
+   "sahip": "ingiltere",
+   "kova": "C-hakiki",
+   "ana_km": 905.7,
+   "kopru_km": 744.7,
+   "kopru_cift": [
+    "Plymouth (Massachusetts)",
+    "Jamestown"
+   ],
+   "ada_n": 5,
+   "gövde_n": 1
+  },
+  {
+   "gun": "1623-01-01",
+   "yerlesim": "Portsmouth (New Hampshire)",
+   "sahip": "ingiltere",
+   "kova": "C-hakiki",
+   "ana_km": 829.3,
+   "kopru_km": 744.7,
+   "kopru_cift": [
+    "Plymouth (Massachusetts)",
+    "Jamestown"
+   ],
+   "ada_n": 2,
+   "gövde_n": 1
+  }
+ ]
+}

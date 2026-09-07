@@ -1,0 +1,61 @@
+{
+  "_NOT": "KALEM ③ — `1921-08-23` kronoloji maddesi. DORT-KALEM-0907. Bu bir ÖNERİDİR; `data/` DONUK (koşu 8), uygulamayı Oturum 0 yapar. 🔴 ÇEKİRDEĞE (`data/olaylar_ek*.js`) yazılmalı, `kronoloji*.js`e DEĞİL — `Değişmez 2`nin evreni yalnız `olaylar*.js`tir (§5).",
+  "_URETIM": "2026-09-07",
+  "_OTURUM": "DORT-KALEM-0907",
+
+  "_NIÇIN_ZORUNLU": {
+    "_OLCUM": "Şartname bu kalemi ⚪ «ölçmedim» damgasıyla veriyordu (o günde bir kırılmaya denk gelip gelmediği). ÖLÇTÜM — kırılma VAR ve BÜYÜK:",
+    "kirilma": "s: `ingiltere` t: ×31  →  s: `irak-kralligi` f: ×31",
+    "yerlesim": 31,
+    "ornekler": ["Akra", "Ammâre", "Basra", "Duhok", "Dîvâniye", "Erbil", "Fellûce", "Fâv", "Hille", "Hânekîn", "Hît", "Kerbelâ"],
+    "kunye_teyidi": "`irak-kralligi` künyesi f: 1921-08-23 — veriyle BİREBİR",
+    "_HUKUM": "🔴 `Değişmez 2` gereği madde ZORUNLU. Şartname «kırılma yoksa önceliği düşer» diyordu; kırılma VAR, öncelik YÜKSEK."
+  },
+
+  "_CEKIRDEK_OLCUMU": {
+    "_SORU": "§11: «bu gün zaten var yetmiyor — HANGİ KOVADA olduğu da sorulmalı.»",
+    "_YONTEM": "`denetle.olaylari_yukle()` doğrudan çağrıldı — yani `Değişmez 2`nin KENDİ evreni (1323 çekirdek madde), kuyruk DEĞİL.",
+    "_SONUC": "🔴 ±30 gün içinde ÇEKİRDEKTE **1** madde var ve o da ALAKASIZ:",
+    "en_yakin": "21 gün ötede — `1921-09-13` «Sakarya Meydan Muharebesi»",
+    "_DEGERLENDIRME": "Bu, `CLAUDE.md §3`ün `Değişmez 2`yi doğuran vakasının ta kendisi: «değişim, o güne rastgele denk gelen ALAKASIZ bir maddenin altında belirir — kullanıcının en çok şikâyet ettiği hata bu.» 31 yerleşim el değiştiriyor ve kullanıcı Sakarya maddesini okurken Irak'ın haritada değiştiğini görüyor."
+  },
+
+  "_KAYNAK": {
+    "ad": "TDV İslâm Ansiklopedisi, «FAYSAL I»",
+    "slug": "faysal-i",
+    "url": "https://islamansiklopedisi.org.tr/faysal-i",
+    "govde_karakter": 7800,
+    "govde_kesildi_mi": false,
+    "alinti": "Faysal'ın krallığı Arap Devlet Konseyi tarafından onaylandıktan sonra bir referandum yapılarak pekiştirildi ve Faysal 23 Ağustos 1921 tarihinde tahta çıktı.",
+    "damga": "DOGRULANDI — gün ADIYLA ve BİREBİR",
+    "_ARANAN_OLU_KAPILAR": "`faysal` 302 · `irak` 302 · `hasimiler` 302. Canlı olan `faysal-i` — §4'ün «tahmin etme, ara» kuralı: dar slug tuttu.",
+    "_TAKVIM": "Gregoryen — Irak 1921'de Gregoryen kullanıyordu, çevrim sorusu YOK."
+  },
+
+  "madde": {
+    "t": "1921-08-23",
+    "k": "siyaset",
+    "etiket": ["siyaset"],
+    "b": "Faysal'ın Irak tahtına çıkışı: Irak Krallığı'nın kuruluşu",
+    "gun": "23 Ağustos 1921",
+    "yer": "Bağdat",
+    "kisiler": "Kral I. Faysal, Percy Cox",
+    "d": "Şerîf Hüseyin'in oğlu Faysal, Kahire Konferansı'nda alınan karar doğrultusunda Irak tahtına aday gösterildi; Arap Devlet Konseyi'nin onayı ve ardından yapılan referandumla krallığı pekiştirildi ve 23 Ağustos 1921'de Bağdat'ta tahta çıktı. Böylece İngiliz manda idaresi altındaki topraklarda Irak Krallığı kuruldu. Manda düzeni hukuken sürmekle birlikte ülke kendi hükümdarını kazandı; 10 Ekim 1922 antlaşması ilişkiyi yeniden düzenledi, tam bağımsızlık ise 1932'de geldi.",
+    "kaynak": "faysal-i",
+    "duygu": ["👑"],
+    "yer_id": "Bağdat"
+  },
+
+  "_MADDE_UZERINE_NOTLAR": [
+    "🔴 `t:` GÜN hassasiyetli ve kaynak GÜNÜ ADIYLA veriyor ⇒ `§4`ün «tarih uydurma» kuralı ihlal edilmiyor; hassasiyet kaynağın desteklediği düzeyde.",
+    "🟡 `yer_id: Bağdat` — atlasta `Bağdat` kaydı var mı DOĞRULANMADI. Uygulayan kontrol etsin; yanlışsa `yer_id` düşürülür, madde yine geçerlidir.",
+    "⚪ `duygu` alanı emsallere bakılarak seçildi (👑), ölçülmedi.",
+    "🔴 Maddenin anlattığı şey bir TAHTA ÇIKIŞTIR; manda idaresi 1932'ye kadar sürdü. Metin bunu açıkça söylüyor ki `§11`in «atlas tasarruf boyar» ailesi karışmasın: veri `ingiltere → irak-kralligi` geçişini boyuyor, ve o geçişin GEREKÇESİ bu gündür."
+  ],
+
+  "_KOORDINATORE": {
+    "hedef_dosya": "data/olaylar_ek*.js (ÇEKİRDEK) — `kronoloji*.js` DEĞİL",
+    "beklenen_etki": "`Değişmez 2s` — `1921-08-23` günü AÇIK listesinden düşer (bugün en yakın madde 21 gün ötede ve alakasız).",
+    "_OLCMEDIM": "Maddenin inmesinin `2s` sayacını tam olarak kaça indireceğini ölçmedim — o gün bugün AÇIK listesinde mi, yoksa Sakarya maddesi ±30 içinde olduğu için KAPALI mı sayılıyor, ayrıca ölçülmeli. `Değişmez 2` «±30 gün içinde bir madde var mı» diye sorar ve İLGİSİNİ sormaz ⇒ gün muhtemelen bugün de KAPALI görünüyor. Bu, maddeyi gereksiz kılmaz; tam tersine `§11`in «denetim var ≠ o soruyu soruyor» ailesinin bir vakasıdır."
+  }
+}
