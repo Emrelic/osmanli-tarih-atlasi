@@ -1,0 +1,72 @@
+{
+ "_NOT": "Alaska devir yamasi — kalem kalem.",
+ "kalemler": [
+  {
+   "ad": "Alatna / Allakaket",
+   "eski": [
+    "1281-01-01..1763-02-10 ingiltere",
+    "1763-02-10..1867-07-01 ingiliz-kuzey-amerika",
+    "1867-07-01..1923-10-29 kanada"
+   ],
+   "yeni": [
+    "1281-01-01..1763-02-10 ingiltere",
+    "1763-02-10..1799-01-01 ingiliz-kuzey-amerika",
+    "1799-01-01..1867-06-20 rus-amerika",
+    "1867-06-20..1923-10-29 abd"
+   ]
+  },
+  {
+   "ad": "Nikolai (Yukarı Kuskokwim)",
+   "eski": [
+    "1281-01-01..1763-02-10 ingiltere",
+    "1763-02-10..1867-07-01 ingiliz-kuzey-amerika",
+    "1867-07-01..1923-10-29 kanada"
+   ],
+   "yeni": [
+    "1281-01-01..1763-02-10 ingiltere",
+    "1763-02-10..1799-01-01 ingiliz-kuzey-amerika",
+    "1799-01-01..1867-06-20 rus-amerika",
+    "1867-06-20..1923-10-29 abd"
+   ]
+  },
+  {
+   "ad": "Nuchalawoya (Tanana)",
+   "eski": [
+    "1281-01-01..1763-02-10 ingiltere",
+    "1763-02-10..1867-07-01 ingiliz-kuzey-amerika",
+    "1867-07-01..1923-10-29 kanada"
+   ],
+   "yeni": [
+    "1281-01-01..1763-02-10 ingiltere",
+    "1763-02-10..1799-01-01 ingiliz-kuzey-amerika",
+    "1799-01-01..1867-06-20 rus-amerika",
+    "1867-06-20..1923-10-29 abd"
+   ]
+  },
+  {
+   "ad": "Telida / Denali eteği (Atabask)",
+   "eski": [
+    "1281-01-01..1763-02-10 ingiltere",
+    "1763-02-10..1867-07-01 ingiliz-kuzey-amerika",
+    "1867-07-01..1923-10-29 kanada"
+   ],
+   "yeni": [
+    "1281-01-01..1763-02-10 ingiltere",
+    "1763-02-10..1799-01-01 ingiliz-kuzey-amerika",
+    "1799-01-01..1867-06-20 rus-amerika",
+    "1867-06-20..1923-10-29 abd"
+   ]
+  },
+  {
+   "ad": "Fort Yukon",
+   "eski": [
+    "1847-01-01..1867-07-01 ingiliz-kuzey-amerika",
+    "1867-07-01..1923-10-29 kanada"
+   ],
+   "yeni": [
+    "1847-01-01..1867-06-20 rus-amerika",
+    "1867-06-20..1923-10-29 abd"
+   ]
+  }
+ ]
+}

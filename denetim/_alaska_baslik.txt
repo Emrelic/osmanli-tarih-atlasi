@@ -1,0 +1,62 @@
+// -*- coding: utf-8 -*-
+// YER_YAMA_ALASKA_DEVIR_0907 — KIMLIK-1923-0907 · 7 Eylul 2026
+// Sevk: 1.MURAT — "Alaska yamasini YAZ, on kosulun kunye tarafi kapandi"
+// ---------------------------------------------------------------------
+// 🔴🔴 ON KOSUL ACIK — BU YAMA TEK BASINA INMEZ:
+//   `rus-amerika` KUNYESI henuz devletler.js'te YOK (oneri:
+//   denetim/YAMA-KUNYE-RUS-AMERIKA-0907.json, kuru kosu KABUL 1 · RED 0)
+//   `rus-amerika` RENGI `renkler.py` BOYALAR'da YOK
+//   ⇒ §8: kimlik BOYANMAZ = HARITA DELIGI. Bu yama kunye+renkten ONCE
+//     inerse bes noktayi BOYANMAYAN bir kimlige tasir ve harita bugunkunden
+//     KOTU olur. SIRA: ① kunye ② renk ③ BU YAMA.
+//
+// 🔴 SEVKIN ① MADDESI UYGULANAMADI — ve sebebi denetle.py'nin KENDI yorumu.
+//   Sevk: "4 nokta: bos:'devletsiz' 1281→1799 · rus-amerika ... "
+//   OLCULDU:
+//     bos:  KAYIT seviyesinde 328 kayit · DONEM seviyesinde 0
+//     degismez1 yalniz `kur:` ve `bit:`i muaf tutar; `kasitli_bosluk` ve
+//        `bos:` HIC OKUNMAZ (denetle.py:952-961)
+//     denetle.py:1008 kendi yorumunda: "aralik duzeyinde bosluk beyani NE
+//        SEMADA NE VERIDE VAR; `bos:` NOKTA duzeyinde ve «hangi ARALIK
+//        kasitli» DIYEMIYOR"
+//   ⇒ `bos:"devletsiz"` yazmak 1281-1799'u muaf TUTMAZ; Degismez 1 dort
+//     noktayi SAHIPSIZ bildirir ve `1b`nin BEYANSIZ boslugu 0 → 4 olur.
+//     §1.5 o satiri "0 (beklenen 0)" diye tutuyor.
+//   📌 §11: "aracin soyledigini yapmadan once aracin ne OLCTUGUNU anla" —
+//     ve bu, M-0609 vakasinin birebir tekrari (orada da bir recete
+//     "boslugu kasitli_bosluk ile kapat" diyordu ve 1b'yi kapatmiyordu).
+//
+// NE YAPAR — kapsamayi BOZMADAN, iddiayi BUYUTMEDEN:
+//   ingiltere              1281-01-01 → 1763-02-10   DOKUNULMADI
+//   ingiliz-kuzey-amerika  1763-02-10 → 1799-01-01   KISALTILDI (1867→1799)
+//   rus-amerika            1799-01-01 → 1867-06-20   YENI
+//   abd                    1867-06-20 → 1923-10-29   YENI
+//   Bosluk 0 · kapsama ayni · her donem kunyesinin icinde.
+//   🔴 KALAN YANLIS IDDIA ADIYLA BEYAN EDILDI (`not:` alani): 1281-1799
+//     arasi hala Ingiliz gorunuyor ve bu YANLIS — TDV `rusya`: "1791'den
+//     itibaren HICBIR DEVLETE AIT OLMAYAN bir bolge". Duzeltilemedi cunku
+//     atlasin donem katmaninda "kimsenin degil" diye bir kimlik YOK.
+//     Bu yama iddiayi 1867'den 1799'a KISALTIYOR, KALDIRMIYOR.
+//     Kaldirmak bir MODEL isidir, bir yama isi degil.
+//
+// 🟢 FORT YUKON DORT KALIBINA SOKULMADI — ve iddia OLCULDU, damgalanmadi:
+//   1825 Rus-Ingiliz antlasmasi ic Alaska'nin dogu sinirini 141. meridyene
+//   cekiyor; Fort Yukon 145,274°B = cizginin BATISI = RUS tarafi. 1847-1868
+//   RAC ile HBC orta Yukon'da RAKIP karakollar tuttu; ABD 1869'da HBC
+//   yoneticisini CIKARDI (Raymond 1869-07-31'de vardi).
+//   ⇒ DE JURE Rus, DE FACTO Ingiliz. Egemenlik zinciri otekilerle ayni ama
+//     zinciri 1847'de basliyor ⇒ kendi tarifiyle yazildi.
+//   ⚠️ `isg:` ORTUSU YAZILMADI: HBC'nin cikarilma GUNU kaynakta yok
+//     (Raymond 1869-07-31'de VARDI, cikarma ONDAN SONRA). Gun uydurmaktansa
+//     `not:` alaninda beyan edildi. §4: tarih uydurma.
+//   KAYNAK: U.S. National Park Service (Golden Places: The History of
+//     Alaska-Yukon Mining) · Library of Congress · University of Alaska
+//     ScholarWorks ("Dynamics of the fur trade on the middle Yukon River,
+//     Alaska, 1839 to 1868").
+//
+// KAYNAK (ortak): TDV `rusya` (kapsayici — dar sluglar `alaska` ve
+//   `rus-amerika` 302 OLU) kurulus yili icin; Avalon Project (Yale Law
+//   School) "Russian Treaty; March 30, 1867" devir gunu icin.
+//   Devir gunu 1867-06-20 SECILDI: antlasmanin IV. maddesi devrin
+//   "COMPLETE AND ABSOLUTE ON THE EXCHANGE OF RATIFICATIONS" oldugunu
+//   ACIKCA soyluyor; 18 Ekim bir TESLIM TORENIDIR.

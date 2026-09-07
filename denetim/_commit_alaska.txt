@@ -1,0 +1,54 @@
+KIMLIK-1923-0907 — Alaska devir yamasi (5 nokta) · ON KOSUL ACIK
+
+YAMA:  denetim/yer_yama_alaska_devir_0907.js (window.YER_YAMA_ALASKA_DEVIR_0907)
+ARAC:  ARAC-ALASKA-YAMA-0907.py · ARAC-ALASKA-SINAV-0907.py
+RAPOR: denetim/ALASKA-DEVIR-0907.json
+
+🔴 SEVKIN ① MADDESI UYGULANAMADI — ve sebebi denetle.py'nin KENDI yorumu.
+  Sevk: "4 nokta: bos:'devletsiz' 1281→1799 · rus-amerika 1799→1867-06-20"
+  OLCULDU:
+    bos: KAYIT seviyesinde 328 kayit · DONEM seviyesinde 0
+    degismez1 yalniz `kur:` ve `bit:`i muaf tutar; `kasitli_bosluk` ve
+      `bos:` HIC OKUNMAZ (denetle.py:952-961)
+    denetle.py:1008 kendi yorumunda: "aralik duzeyinde bosluk beyani NE
+      SEMADA NE VERIDE VAR; `bos:` NOKTA duzeyinde ve «hangi ARALIK
+      kasitli» DIYEMIYOR"
+  ⇒ Uygulansaydi Degismez 1 dort noktayi SAHIPSIZ bildirir, 1b'nin
+    BEYANSIZ boslugu 0'dan 4'e cikardi. §1.5 o satiri "0" diye tutuyor.
+  📌 M-0609 vakasinin birebir tekrari; §11: "aracin soyledigini yapmadan
+    once aracin ne OLCTUGUNU anla."
+
+SECILEN YOL — kapsamayi bozmadan, iddiayi buyutmeden:
+  ingiltere             1281-01-01 → 1763-02-10   DOKUNULMADI
+  ingiliz-kuzey-amerika 1763-02-10 → 1799-01-01   KISALTILDI (1867→1799)
+  rus-amerika           1799-01-01 → 1867-06-20   YENI
+  abd                   1867-06-20 → 1923-10-29   YENI
+  Kalan yanlis iddia (1281-1799 Ingiliz) `not:` alaninda ADIYLA beyan
+  edildi: TDV "1791'den itibaren HICBIR DEVLETE AIT OLMAYAN bir bolge".
+  Duzeltilemez cunku donem katmaninda "kimsenin degil" kimligi YOK.
+  Yama iddiayi KISALTIYOR, kaldirmiyor — kaldirmak MODEL isidir.
+
+🟢 FORT YUKON — iddia OLCULDU, `olculemedi` DAMGALANMADI:
+  1825 Rus-Ingiliz antlasmasi ic Alaska sinirini 141. meridyene cekiyor;
+  Fort Yukon 145,274°B = cizginin BATISI = RUS tarafi. 1847-1868 RAC ile
+  HBC rakip karakollar tuttu; ABD 1869'da HBC yoneticisini CIKARDI.
+  ⇒ DE JURE Rus. Zinciri 1847'de basliyor ⇒ dort kalibina SOKULMADI.
+  ⚠️ `isg:` ortusu YAZILMADI: cikarilma GUNU kaynakta yok (Raymond
+    1869-07-31'de vardi, cikarma ONDAN SONRA). Gun uydurulmadi, `not:`a
+    beyan edildi.
+  Kaynak: U.S. National Park Service · Library of Congress · University of
+  Alaska ScholarWorks.
+
+SINAVLAR (denetciler TAKLIT EDILMEDI, KOSTURULDU):
+  C13③ girdi   yama DISKTEN node ile okundu · 5 kayit
+  Degismez 1   sahipsiz 314 -> 314 · YENI sahipsiz YOK
+  Degismez 1b  bosluk 5 -> 5 (artmadi)
+  Degismez 2s  kapsam ICI 104 -> 104 (tavan 121) · DISI 364 -> 364
+  C13④ cikti   1923-10-28 kimligi yeniden olculdu: 5/5 `abd`
+
+🔴🔴 ON KOSUL ACIK — BU YAMA TEK BASINA INMEZ:
+  `rus-amerika` KUNYESI devletler.js'te YOK (oneri denetim/ altinda)
+  `rus-amerika` RENGI BOYALAR'da YOK
+  ⇒ §8 harita deligi. SIRA: ① kunye ② renk ③ bu yama.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
