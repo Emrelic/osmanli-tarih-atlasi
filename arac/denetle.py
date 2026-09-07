@@ -781,6 +781,38 @@ def oku_pencere(yol, degisken):
     if derinlik != 0:
         raise ValueError("%s içinde %s dizisi kapanmıyor" % (yol, degisken))
     govde = govde[:i + 1]
+
+    # 🔴🔴 BİLDİRİM ≠ VERİNİN TAMAMI — 7 Eylül 2026 (`KIMLIK-1923-0907`).
+    # Bu fonksiyon `window.X = [...]` BİLDİRİMİNİ okuyor. Ama veri
+    # bildirim + ÇALIŞMA ZAMANI MUTASYONU ile kurulabiliyor:
+    #     397-474  window.ANTLASMALAR = [ … 31 kayıt … ];
+    #     479      window.ANTLASMALAR.push( 2 kayıt )
+    #     489      window.ANTLASMALAR.push( 8 kayıt )
+    #     ⇒ GERÇEK 41, bu fonksiyon 31 görüyor
+    # Bir METİN ayrıştırıcı bunu YAPISAL OLARAK göremez; node görür
+    # çünkü dosyayı ÇALIŞTIRIR. Ayrıştırıcı KUSURSUZ ve yine de eksik.
+    #
+    # 🔴 Ve kusur SESSİZDİ: `denetle_anakronizm.py:301` bu fonksiyonla
+    # ANTLASMALAR okuyor ve her koşuda paydayı 10 EKSİK sayıyordu.
+    # Bugün bir kusur SAKLAMIYOR (31 ve 41 ile aykırı 0 — ölçüldü), ama
+    # `push` bloğuna anakronik bir antlaşma yazılsa HİÇ GÖRÜLMEZDİ.
+    #
+    # ⚠️ Ve bu fonksiyonun KENDİ YORUMU 30 Ağustos'tan beri
+    # "node okuyunca ANTLASMALAR 41" diye yazıyordu. Sayı oradaydı,
+    # bildirimin verdiği 31 ile YAN YANA duruyordu, ve kimse ikisini
+    # karşılaştırmadı. ⇒ `§11`: bir kaydın VARLIĞI, okunduğu anlamına
+    # gelmiyor.
+    #
+    # ÇARE: sessiz kalma. Ayrıştırılamayan bir mutasyon varsa SÖYLE —
+    # *sessiz atlama, yanlış sonuçtan pahalıdır.*
+    # ⚪ ÖLÇÜLMEDİ: `window.X[i] = …` gibi öteki mutasyon biçimleri
+    #   aranmadı; bugün taranan yalnız `.push(`. (Ölçüm: tüm `data/`
+    #   içinde `.push(` ile mutasyon 2, ikisi de ANTLASMALAR.)
+    if ("window.%s.push(" % degisken) in js or ("%s.push(" % degisken) in js:
+        sys.stderr.write(
+            "⚠️  %s: `%s` BİLDİRİMDEN SONRA .push() ile de besleniyor — "
+            "bu okuyucu MUTASYONU GÖREMEZ, sayı EKSİK olabilir. "
+            "Doğru sayı için node ile okuyun.\n" % (os.path.basename(yol), degisken))
     # 🔴 DİZGE FARKINDALI ANAHTAR TIRNAKLAMA — 10 Ağustos 2026.
     # ESKİ HÂLİ tek bir regex'ti ve DİZGE İÇİNE BAKMIYORDU:
     #     re.sub(r'([{,]\s*)(\w+)\s*:', r'\1"\2":', govde)
