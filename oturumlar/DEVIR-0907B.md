@@ -722,3 +722,55 @@ SINIR-KAFRIKA  renk teslim (kör evren uyarısıyla) → şimdi ÜÇ EKSİK KÜN
                (gvalyar-sindiya · indor-holkar · meysur-racaligi)
 VASSAL-GORUNUM js/css sorusu soruldu, cevap bekleniyor
 ```
+
+---
+
+## ⑨y — 7 EYLÜL 23:20 · RUNBOOK DÜZELTİLDİ — ZİNCİR BU GECE **KENDİ KENDİNE DURACAK**
+
+### 🔴 ZİNCİRDE SIRA KUSURU BULUNDU VE DÜZELTİLDİ (`2f1bc20`)
+```
+ESKİ  :219 denetle → :222 KAPI → … → :242 damga
+      kapının `damga_ihlali` reçetesi: "COMMIT ETMEDEN ÖNCE surum_damgala.py"
+      ⇒ kapı `return 1` verince DAMGA ADIMINA HİÇ SIRA GELMİYOR
+      ⇒ KAPI, BİR SONRAKİ ADIMIN ÇÖZECEĞİ ŞEYE TAKILIYOR
+YENİ  :219 denetle → :245 DAMGA (`if yayinla` korumalı) → :248 kapı
+```
+🟢 İki ucu da ölçüldü (SINAV-KOSU8, 11 şartın 11'i): yeni ötüş üretmesi
+için yol yok. Kapı **gevşetilmedi** — kendi reçetesi kapıdan önce uygulanıyor.
+🔒 `if yayinla` korumasını taşıdım: `surum_damgala.py` `index.html`i YAZAR,
+korumasız öne alınsa kuru koşu depoyu kirletirdi.
+
+### 🔴🔴 AMA BU GECE ESKİ SIRA KOŞACAK — VE ZİNCİR ZATEN DURACAK
+```
+fırlatıcı ŞU AN çalışıyor · Python ana modülü BAŞLANGIÇTA derler
+⇒ kaynağı düzenlemek ÇALIŞAN süreci DEĞİŞTİRMEZ
+```
+Ve daha önemlisi: **`denetle.py` bugün çıkış 1 veriyor ve zincirde
+ÖLÜMCÜL (`:219`)** ⇒ koşu 8 bitince zincir **kendiliğinden duracak**,
+kapıya sıra gelmeyecek, **yayın otomatik YAPILMAYACAK.**
+⇒ ***Bu gece müdahale ELLE olacak.*** Bu bir arıza değil, beklenen davranış.
+
+### 🟢 GECENİN GERÇEK AKIŞI
+```
+① nöbetçi 9 bip           (ARAC-BEKCI-KOSU8C-0907.py · tetik donemler.js)
+② zincir kendi kendine:   uret_devirler ✓ · renk_olc ✓ (ölümcül değil)
+                          → denetle.py ✗ ÇIKIŞ 1 → ZİNCİR DURUR
+③ ELLE: denetle.py'nin ihlallerini KAPAT
+        mükerrer 3 → `BILINEN_AYRI`ya üç çift
+        enklav     → 🔴 YENİ geometriye karşı YENİDEN ÖLÇ, körlemesine
+                     yükseltme (Sarıkamış dersi)
+        ⚪ "sebep tam olarak bu iki ihlal" öncülü DEVRALMA — koşturarak doğrula
+④ ELLE: js/css kararı (VASSAL-GORUNUM'un cevabı) → commit ya da stash
+⑤ ELLE: surum_damgala.py
+⑥ ELLE: denetle_yayin.py — 11 şart
+⑦ ELLE: git add -- data index.html · commit · push
+──────────── ANCAK BUNDAN SONRA ────────────
+⑧ künye → ⑨ TAŞIMA → ⑩ RENK → koşu 9
+```
+⚠️ ②'de `uret_devirler` ve `renk_olc` ZATEN KOŞACAK — elle tekrarlama.
+⚠️ Ve `data/` ⑦'ye kadar DONUK: bir yerleşim yamasına dokunmak koşu 8'i
+`YAYIN BAYAT` yapar (iz = `GIRDI_DOSYALARI`).
+
+### ⚫ AÇIK — ikinci kilitlenme yolu, SINAV-KOSU8'e verildi
+`denetle.py` 40 dk sınırının altında mı? Aşarsa `kos()` onu zaman
+aşımıyla öldürür ve sonuç aynı: zincir durur. Hiç ölçülmedi.
