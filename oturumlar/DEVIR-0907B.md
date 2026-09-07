@@ -644,3 +644,81 @@ yeni iş verilmedi — tavan üç.
 🔴 `denetle.py` bugün çıkış 1: mükerrer 3 yaması HAZIR
 (`denetim/YAMA-DEGISMEZ3-MUKERRER-0907.md`), enklav 661/660 koşu sonrasına
 ERTELENDİ (`Değişmez 7` geometri okur, bugünkü geometri ÖNCEKİ koşunun çıktısı).
+
+---
+
+## ⑨x — 7 EYLÜL 23:00 · 🟢 KİLİTLENME ÇÖZÜLDÜ · MERGE GECESİ RUNBOOK
+
+### 🔴 ÖNCE KİLİDİN GERÇEK ADRESİ (SINAV-KOSU8 ölçtü)
+```
+denetle_yayin.py → `denetle.py`yi HİÇ çağırmıyor (import 0 · subprocess 0)
+   ve bu KASITLI: kapının kendi yorumu (:1311) "kapıyı DAKİKALARA çıkarırdı"
+kos_ve_yayinla.py:219 → denetle.py'yi `olumcul=True` (VARSAYILAN) ile koşuyor
+   ⇒ çıkış 1 ⇒ ZİNCİR DURUR ⇒ kapıya HİÇ SIRA GELMEZ
+_yayin_zinciri.py → RAPOR zinciri, yayın yapmaz · `uret_altlik` ADIMI YOK
+```
+⇒ Kilit **kapıda değil ZİNCİRDE.** Benim *"kapı denetle'yi şart koşuyor
+mu"* sorum yanlış yeri gösteriyordu.
+
+### 🟢 VE İKİLEMİN İKİNCİ YARISI ÇÜRÜDÜ — ÖLÇÜLDÜ
+```
+girdi.py:1353  motor_izi()  → uret_petek.py · renkler.py · girdi.py
+girdi.py:1332  parmak_izi() → GIRDI_DOSYALARI + GOL_DOSYASI
+⇒ `arac/denetle.py` İKİ İZDE DE YOK
+```
+Ve `denetle.py`nin bugünkü iki ihlalinin **ikisi de orada** çözülüyor:
+```
+mükerrer 3  → `BILINEN_AYRI`ya üç çift (Antep 1921-12-25 · Tarsus 12-27 ·
+              Adana 1922-01-05 — ÜÇ AYRI ŞEHİR, ÜÇ AYRI GÜN; ölçüt
+              uyumsuzluğu, mükerrer DEĞİL)
+enklav      → `BEKLENEN_ENKLAV_SORGU` sabiti (denetle.py:2189)
+```
+🟢 ***İkisi de VERİYE DOKUNMUYOR ⇒ iz bozulmuyor ⇒ KOŞU 8 YAYINLANABİLİR.***
+🟢 `olumcul=False` GEREKMİYOR — `kos()`un bilerek kurduğu koruma duruyor.
+⚠️ Enklav sabiti **körlemesine yükseltilmeyecek**: 661 ÖNCEKİ koşunun
+geometrisinden; koşu 8 yeni geometri üretiyor ⇒ **önce yeniden ölç.**
+Bir tavanı ihlali susturmak için yükseltmek, `Sarıkamış`ı ada bırakan hata.
+⚪ Ve bir öncül damgalı: *"çıkış 1'in sebebi TAM OLARAK bu iki ihlal"* —
+**eski notumdan DEVRALDIM, bugün koşturarak doğrulamadım.**
+
+### 🔴 KOŞUNUN ÇÖZMEYECEĞİ TEK ŞART: `damga_ihlali`
+```
+js/app.js +185 · css/style.css +37  (222 ekleme · 0 silme)
+`statuYazi` · `vassalEtiketleri`  ⇒ VASSAL ETİKET KATMANI işi
+damga hâlâ r6711 · sahibi VASSAL-GORUNUM-0907 · SORULDU, cevap bekleniyor
+🟢 geçmiş temiz: son 30 commit'te js/css değiştirip damgayı yükseltmeyen 0
+```
+⇒ Cevap gelmezse `git stash` (iş KAYBOLMADAN kenara), ve **adıyla kayıt.**
+`§7`: yarım bir dosyayı sahibinin onayı olmadan commit etmem.
+
+### 🟢 MERGE GECESİ RUNBOOK — SIRA BU
+```
+① koşu 8 iner        → nöbetçi 9 bip (ARAC-BEKCI-KOSU8C-0907.py, ömür 30 sa,
+                        tetik donemler.js, yazım bitişi boyut kararlılığıyla)
+② denetle.py         → çıkış 1 ise: BILINEN_AYRI + enklav (denetle.py'de,
+                        iz BOZULMAZ) · enklavı YENİ geometriye karşı ÖLÇ
+③ js/css             → sahibinin kararı: commit + damga · ya da stash
+④ surum_damgala.py
+⑤ kos_ve_yayinla.py  → 🔴 ZİNCİR BU. `_yayin_zinciri.py` DEĞİL
+                        (onda `uret_altlik` yok ⇒ altlik.js bayat kalır ve
+                         kapı TEK BAŞINA onun yüzünden reddeder)
+⑥ YAYIN
+──────────── ANCAK BUNDAN SONRA ────────────
+⑦ künye → ⑧ TAŞIMA → ⑨ RENK → koşu 9
+```
+🔴 ⑥'dan önce `data/` DONUK KALIR. Bir yerleşim yamasına dokunmak koşu
+8'in on iki saatini `YAYIN BAYAT` yapar (M-3258).
+🟢 ⑧ ile ⑨'un sırası SINIR-KAFRIKA'nın ölçümüyle DEĞİŞTİ: `renk_olc --oner`
+engel kümesini `girdi.py`nin okuduğu dosyalardan kuruyor ⇒ yamalar
+inmeden renk **kör evrende** çözülüyor (15 kimliğin 15'i 2-3 engelle;
+gerçek ~30, üçünde 0 km).
+
+### 📮 KOLLAR
+```
+SINAV-KOSU8    kapı tabanı TESLİM (`5b0a4bf`) → şimdi ÜÇ ZİNCİR KIYASI
+CAKISMA        küme 2 teslim · birleştirme biçimi KABUL (ön koşullu:
+               `kaynak:`ı slug sanan bir alet var mı, ÖLÇ)
+SINIR-KAFRIKA  renk teslim (kör evren uyarısıyla) → şimdi ÜÇ EKSİK KÜNYE
+               (gvalyar-sindiya · indor-holkar · meysur-racaligi)
+VASSAL-GORUNUM js/css sorusu soruldu, cevap bekleniyor
+```
