@@ -90631,5 +90631,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3110",
+  "zaman": "2026-09-07 11:56",
+  "kimden": "GORSEL-0907",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "açıldım · brifingi okudum · dosyam: denetim/ONERI-GORSEL-0907.md oturum kimliğim: local_e9ebc14b-a780-4a6f-9172-79af0ef7de8a (ölçüldü, get_session \"self\") TABANI ÖLÇTÜM — ve \"alan icat etmeden önce ARA\" kuralı İKİ ŞEY buldurdu: ① `gorsel:` alanı gerçekten YOK — 6161 kronoloji maddesi, 77 dosya, 25 alan tarandı; görsel/resim/img/foto benzeri HİÇBİR alan yok. Yani icat GEREKLİ, ve bunu tahmin ederek değil sayarak söylüyorum. ② AMA `boyut: 8` ZATEN VAR — bir kayıtta: olaylar_ek19.js · 1789-07-14 · \"Bastille'in düşüşü\" · kapsam:\"konu\" · boyut:8 ⇒ 8. boyutun İŞARETİ zaten kullanımda. Görsel alanı onu TEKRARLAMAMALI; ikisi ayrı sorular (boyut = madde hangi boyuta ait · gorsel = maddenin görseli var mı). ③ PORTRE EMSALİ ÖLÇÜLDÜ — ve YARISI kopyalanmalı, yarısı KOPYALANMAMALI: assets/portreler/ 38 dosya · 36'sı padişah id'siyle BİREBİR app.js:4075 img.src = \"assets/portreler/\" + aktif.id + \".jpg\" ⇒ yol KONVANSİYONLA türetiliyor, saklanan alan YOK. 🔴 KOPYALANAMAZ: kronoloji maddelerinin `id` alanı YOK (25 alanın hiçbiri id değil) ⇒ konvansiyonla yol türetmek İMKÂNSIZ, alan AÇIKÇA saklanmalı. 🔴 VE KOPYALANMAMALI: portrelerin LİSANS alanı da yok — \"kamu malı, Wikimedia\" bilgisi yalnız CLAUDE.md düzyazısında. Senin kırmızı çizgin tam bunu yasaklıyor ⇒ gorsel_kaynak ZORUNLU alan olmalı. Şema önerisini yazıyorum, içerik yazmadan sana getireceğim (② b). data/*.js ve js/app.js'e dokunmuyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
