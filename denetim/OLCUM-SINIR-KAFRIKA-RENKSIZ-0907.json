@@ -1,0 +1,313 @@
+{
+ "_NOT": "Renksiz kimlik olcumu. Kaynak: BEKLEYEN yamalarin kullandigi d:/kid: kimlikleri. Regex ile cikarildi (dosyalar farkli bicimlerde) ⇒ sayilar UST SINIRDIR.",
+ "boyalar": 579,
+ "payda_kullanilan_kimlik": 154,
+ "renksiz_ham": 26,
+ "renksiz_dolaylamali": 17,
+ "bekleyen_dosya": {
+  "data": [
+   "etiket_yama.js",
+   "kademe_4ff22b.js",
+   "kademe_8beb2b.js",
+   "kademe_d48240.js",
+   "kademe_e9353f.js",
+   "kademe_f5c9a5.js",
+   "koridor_yama_e9353f.js",
+   "koridor_yama_f5c9a5.js",
+   "olay_yama_ok104.js",
+   "yama_kronoloji_eslesme.js",
+   "yama_p0037_bekleyen.js",
+   "yer_yama.js",
+   "yer_yama_1923.js",
+   "yer_yama_1923_bosluk_0906.js",
+   "yer_yama_1923_duzeltme.js",
+   "yer_yama_1923_nepal_karayip.js",
+   "yer_yama_1923_yeni.js",
+   "yer_yama_acik.js",
+   "yer_yama_ada_istankoy.js",
+   "yer_yama_ada_kaynak.js",
+   "yer_yama_afrika_1923.js",
+   "yer_yama_agadez_0906.js",
+   "yer_yama_almanya.js",
+   "yer_yama_amerika_1923.js",
+   "yer_yama_anadolu.js",
+   "yer_yama_arnavutluk.js",
+   "yer_yama_avrupa_1923.js",
+   "yer_yama_avrupa_dayanak_1923.js",
+   "yer_yama_avrupa_isvec_1923.js",
+   "yer_yama_balkan_1923.js",
+   "yer_yama_balkan_makedonya.js",
+   "yer_yama_balkan_trakya.js",
+   "yer_yama_barka_dogu8.js",
+   "yer_yama_belgesiz4.js",
+   "yer_yama_belgesiz7.js",
+   "yer_yama_cermik_sason.js",
+   "yer_yama_cin.js",
+   "yer_yama_cukurova_isg_0907.js",
+   "yer_yama_dogafr.js",
+   "yer_yama_doguasya.js",
+   "yer_yama_dogumakedonya.js",
+   "yer_yama_egeadalari.js",
+   "yer_yama_elba.js",
+   "yer_yama_emilme.js",
+   "yer_yama_emilme2.js",
+   "yer_yama_enklav.js",
+   "yer_yama_erken.js",
+   "yer_yama_ferhatpasa.js",
+   "yer_yama_fizan.js",
+   "yer_yama_floransa.js",
+   "yer_yama_fransa.js",
+   "yer_yama_gece_v1.js",
+   "yer_yama_gece_v3.js",
+   "yer_yama_gronland_col.js",
+   "yer_yama_guyana.js",
+   "yer_yama_hadramut_nokta.js",
+   "yer_yama_hayalet.js",
+   "yer_yama_hayalet2.js",
+   "yer_yama_hizan.js",
+   "yer_yama_ing.js",
+   "yer_yama_iran.js",
+   "yer_yama_isg_yunan_kaynak.js",
+   "yer_yama_ispanya.js",
+   "yer_yama_isvec.js",
+   "yer_yama_italya.js",
+   "yer_yama_japonya.js",
+   "yer_yama_kademe.js",
+   "yer_yama_kademe2.js",
+   "yer_yama_kademe_m_0905.js",
+   "yer_yama_kademe_zincir.js",
+   "yer_yama_kafkas.js",
+   "yer_yama_kafkas_rusya.js",
+   "yer_yama_kapsam.js",
+   "yer_yama_kid20_0907.js",
+   "yer_yama_kuzafr.js",
+   "yer_yama_litvanya.js",
+   "yer_yama_macar.js",
+   "yer_yama_makdisu.js",
+   "yer_yama_manda_0906.js",
+   "yer_yama_memluk.js",
+   "yer_yama_misir.js",
+   "yer_yama_misir_himaye.js",
+   "yer_yama_moskito.js",
+   "yer_yama_ok101.js",
+   "yer_yama_ok105.js",
+   "yer_yama_ok106.js",
+   "yer_yama_ok107.js",
+   "yer_yama_ok109.js",
+   "yer_yama_ok109_fetret.js",
+   "yer_yama_ok110.js",
+   "yer_yama_onikiada.js",
+   "yer_yama_ortadogu_1923.js",
+   "yer_yama_ortadogu_misir_1923.js",
+   "yer_yama_owtrad.js",
+   "yer_yama_p0035.js",
+   "yer_yama_p32.js",
+   "yer_yama_romanya.js",
+   "yer_yama_sahiplik.js",
+   "yer_yama_sh106.js",
+   "yer_yama_sh107.js",
+   "yer_yama_sibirya_beyan.js",
+   "yer_yama_silistre_0906.js",
+   "yer_yama_sohum.js",
+   "yer_yama_sutter_0906.js",
+   "yer_yama_tbmm_1920_0905.js",
+   "yer_yama_timbuktu.js",
+   "yer_yama_timbuktu_tam_0906.js",
+   "yer_yama_uyg2.js",
+   "yer_yama_uyg3.js",
+   "yer_yama_vassal_kid_0906.js",
+   "yer_yama_veri31.js",
+   "yer_yama_yunananakara.js",
+   "yer_yama_zaza.js",
+   "yer_yama_zend_kacar.js"
+  ],
+  "denetim": [
+   "ARAC-AMERIKA-1923-YAMA-URET.js",
+   "ARAC-AVRUPA-YAMA-URET-0906.js",
+   "ARAC-GUYANA-YAMA-URET.js",
+   "ARAC-MOSKITO-YAMA-URET.js",
+   "ARAC-YAMA-JS-SINA-0905.js",
+   "ARAC-YAMA-KAYIP-TARAMA-0906.js",
+   "ARAC-YAMA-SINA.js",
+   "IRAN-YAMA-DOKUM.json",
+   "ORTADOGU-YAMA-URDUN-0907.json",
+   "YAMA-1923-0905.json",
+   "YAMA-1923-BOSLUK-0906.json",
+   "YAMA-1923-DUZELTME-0905.json",
+   "YAMA-DEGISMEZ3-KD-0907.json",
+   "YAMA-DORTKALEM-ISG-0907.json",
+   "YAMA-DORTKALEM-KRONOLOJI-0907.json",
+   "YAMA-HAYALET-IRAN-0905.json",
+   "YAMA-ISG-FAZ2-cukurova.json",
+   "YAMA-KUNYE-1923-0905.json",
+   "YAMA-KUNYE-AIR-HADRAMUT-0905.json",
+   "YAMA-KUNYE-AMMAR-0905.json",
+   "YAMA-KUNYE-ARMA-0905.json",
+   "YAMA-KUNYE-ARNAVUTLUK-0905.json",
+   "YAMA-KUNYE-HURMUZ-0905.json",
+   "YAMA-KUNYE-NORSE-0905.json",
+   "YAMA-KUNYE-PIOMBINO-0905.json",
+   "YAMA-KUNYE-RUS-AMERIKA-0907.json",
+   "YAMA-KUNYE-SOMURGE-AMERIKA-0907.json",
+   "YAMA-KUNYE-SUDAN-0905.json",
+   "YAMA-KUNYE-SUTAY-YELMAN-0905.json",
+   "YAMA-KUNYE-T-0905.json",
+   "YAMA-KUNYE-VASSAL-0906.json",
+   "YAMA-KURE-SOLMA-0906.js",
+   "YAMA-VASSAL-KID-0906.json",
+   "YAMA-VASSAL-TEKRENK-0906.js",
+   "YAMA-ZEND-KACAR-0905.json",
+   "yer_yama_afrika_darfur_BEKLIYOR.js",
+   "yer_yama_alaska_devir_0907.js",
+   "yer_yama_asya_1923.js",
+   "yer_yama_balkan_avusturya_BEKLIYOR.js",
+   "yer_yama_enklav_c_0907.js",
+   "yer_yama_kamerika_devir_0907.js",
+   "yer_yama_kid_kimlik_0907.js",
+   "yer_yama_kume2_0907.js",
+   "yer_yama_misir5_0907.js",
+   "yer_yama_tbmm_dort_0906.js"
+  ]
+ },
+ "renksiz": [
+  {
+   "kimlik": " + JSON.stringify(p.d) + ",
+   "kunye_var": false,
+   "harita_anahtari": " + JSON.stringify(p.d) + ",
+   "dosya": [
+    "denetim/ARAC-AMERIKA-1923-YAMA-URET.js",
+    "denetim/ARAC-GUYANA-YAMA-URET.js",
+    "denetim/ARAC-MOSKITO-YAMA-URET.js"
+   ]
+  },
+  {
+   "kimlik": "__BOSLUK__",
+   "kunye_var": false,
+   "harita_anahtari": "__BOSLUK__",
+   "dosya": [
+    "data/yer_yama_ok106.js"
+   ]
+  },
+  {
+   "kimlik": "arvanid-sancagi",
+   "kunye_var": true,
+   "harita_anahtari": "arvanid-sancagi",
+   "dosya": [
+    "denetim/yer_yama_kid_kimlik_0907.js"
+   ]
+  },
+  {
+   "kimlik": "avusturya-cumhuriyet",
+   "kunye_var": true,
+   "harita_anahtari": "avusturya-cumhuriyet",
+   "dosya": [
+    "data/yer_yama_ok109.js"
+   ]
+  },
+  {
+   "kimlik": "cezayir-ocagi",
+   "kunye_var": true,
+   "harita_anahtari": "cezayir-ocagi",
+   "dosya": [
+    "data/yer_yama_vassal_kid_0906.js",
+    "denetim/yer_yama_kid_kimlik_0907.js"
+   ]
+  },
+  {
+   "kimlik": "dejanovic-prensligi",
+   "kunye_var": true,
+   "harita_anahtari": "dejanovic-prensligi",
+   "dosya": [
+    "denetim/yer_yama_kid_kimlik_0907.js"
+   ]
+  },
+  {
+   "kimlik": "dubrovnik",
+   "kunye_var": true,
+   "harita_anahtari": "dubrovnik",
+   "dosya": [
+    "denetim/yer_yama_kid_kimlik_0907.js"
+   ]
+  },
+  {
+   "kimlik": "gvalyar-sindiya",
+   "kunye_var": false,
+   "harita_anahtari": "gvalyar-sindiya",
+   "dosya": [
+    "denetim/yer_yama_asya_1923.js"
+   ]
+  },
+  {
+   "kimlik": "indor-holkar",
+   "kunye_var": false,
+   "harita_anahtari": "indor-holkar",
+   "dosya": [
+    "denetim/yer_yama_asya_1923.js"
+   ]
+  },
+  {
+   "kimlik": "kaheti-kralligi",
+   "kunye_var": true,
+   "harita_anahtari": "kaheti-kralligi",
+   "dosya": [
+    "denetim/yer_yama_kid_kimlik_0907.js"
+   ]
+  },
+  {
+   "kimlik": "konstantin-beyligi",
+   "kunye_var": true,
+   "harita_anahtari": "konstantin-beyligi",
+   "dosya": [
+    "denetim/yer_yama_kid_kimlik_0907.js"
+   ]
+  },
+  {
+   "kimlik": "kumuk-samhalligi",
+   "kunye_var": true,
+   "harita_anahtari": "kumuk-samhalligi",
+   "dosya": [
+    "denetim/yer_yama_kid_kimlik_0907.js"
+   ]
+  },
+  {
+   "kimlik": "mekke-serifligi",
+   "kunye_var": true,
+   "harita_anahtari": "mekke-serifligi",
+   "dosya": [
+    "denetim/yer_yama_kid_kimlik_0907.js"
+   ]
+  },
+  {
+   "kimlik": "meysur-racaligi",
+   "kunye_var": false,
+   "harita_anahtari": "meysur-racaligi",
+   "dosya": [
+    "denetim/yer_yama_asya_1923.js"
+   ]
+  },
+  {
+   "kimlik": "orta-macar-kralligi",
+   "kunye_var": true,
+   "harita_anahtari": "orta-macar-kralligi",
+   "dosya": [
+    "denetim/yer_yama_kid_kimlik_0907.js"
+   ]
+  },
+  {
+   "kimlik": "sarki-rumeli",
+   "kunye_var": true,
+   "harita_anahtari": "sarki-rumeli",
+   "dosya": [
+    "data/yer_yama_vassal_kid_0906.js"
+   ]
+  },
+  {
+   "kimlik": "trablusgarp-ocagi",
+   "kunye_var": true,
+   "harita_anahtari": "trablusgarp-ocagi",
+   "dosya": [
+    "data/yer_yama_vassal_kid_0906.js"
+   ]
+  }
+ ]
+}

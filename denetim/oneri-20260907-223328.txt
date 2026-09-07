@@ -1,0 +1,17 @@
+// renk_olc.py --oner çıktısı — aktarımdan SONRA:
+//   py arac/renk_olc.py --dogrula oneri-20260907-223328.txt
+arvanid-sancagi #54d224
+avusturya-cumhuriyet #6c24d2
+cezayir-ocagi #6cd224
+dejanovic-prensligi #7224d2
+dubrovnik #96d224
+gvalyar-sindiya #c024d2
+indor-holkar #d25a24
+kaheti-kralligi #9cd224
+konstantin-beyligi #a2d224
+kumuk-samhalligi #d28424
+mekke-serifligi #a8d224
+meysur-racaligi #d2ae24
+orta-macar-kralligi #aed224
+sarki-rumeli #bad224
+trablusgarp-ocagi #2424d8

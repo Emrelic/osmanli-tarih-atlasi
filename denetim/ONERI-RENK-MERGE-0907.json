@@ -1,0 +1,344 @@
+{
+ "_NOT": "MERGE GECESI RENK HAZIRLIGI — SINIR-KAFRIKA-0907. UYGULANMADI: `arac/renkler.py` parmak izli ve koşu 8 canlı. Bu dosya bir ONERI'dir, bir yama degil.",
+ "_URETIM": "arac/renk_olc.py --oner <15 kimlik>  ·  artefakt denetim/oneri-20260907-223328.txt",
+ "_KAYNAK_LISTE": "Kimlikler YENI KUNYE ONERILERINDEN degil, BEKLEYEN YAMALARIN kullandigi `d:`/`kid:` kimliklerinden turetildi (payda 154 · renksiz ham 26 · `harita:` dolaylamasindan sonra 17 · gercek 15).",
+ "🔴 _EN_ONEMLI_CEKINCE": "BU ΔE DEGERLERI KOR BIR EVRENDE URETILDI VE OLDUKLARI GIBI UYGULANAMAZ. `renk_olc --oner` 15 kimligin HEPSI icin '🔴 komsusu olculemeyen kimlik ... 0 komsu, 2-3 renkli engel' bastı — cunku bu kimliklerin verisi girdi.py'nin okudugu dosyalarda DEGIL, BEKLEYEN YAMALARDA. OLCTUM: yamalar ininde 600 km icinde ORTALAMA 29.6 RENKLI KIMLIK komsu olacak (olculebilen 10 kimlikte 12-46 arasi, ve cogunda 0 km — ayni yerlesim, farkli devir). ⇒ Arac 2-3 engelle cozdu; gercek evren ~30. 📌 `§11` ÖLÇÜLMÜŞ VAKA: 'ÖLÇEMEDİĞİNİ ELEYEN BİR SÜZGEÇ ONU TEMİZ SAYAR' — `kuba ↔ lunda` aynen boyle olmustu (engel sayilmadi, sonra 365 km komsu oldular, ΔE 9,06).",
+ "🟢 _ONERILEN_SIRA": "Sevkin zinciri '① kunye → ⑧ renk → ⑥ tasima' idi. Olcum bunu DEGISTIRIYOR: renk, verisi TASINDIKTAN SONRA olculmeli, yoksa engel kumesi bos kalir. ⇒ '① kunye → ⑥ tasima → ⑧ renk → kosu'. KILITLENME YOK: renksiz gecen an ile renk yazimi arasinda bir kosu YAPILMIYOR, yani `§8` harita deligi hic olusmuyor. Bu dosya o turda `--oner`i YENIDEN kosturmak icin hazir bir aday listesidir — bir son karar degil.",
+ "🔴 _KUNYE_BLOKE": "Uc kimligin KUNYESI YOK: gvalyar-sindiya · indor-holkar · meysur-racaligi. Ucu de `CLAUDE.md §3.5.0`da ADIYLA eksik ilan edilmis. `§8`e gore kunyesiz renk anlamsiz ⇒ renk REZERVE edilebilir ama kunye inmeden UYGULANMAZ.",
+ "_SINIRDA_BANT": "ΔE 12,0-13,0 arasi AYRICA isaretlendi (`sinirda_bant`). Gerekce `renkler.py:3513`in kendi kurali: `_GUVENLI_PAY = 13.0` — 'sinirda gecen bir aday KABUL EDILMEZ ... amac ucu ucuna degil RAHATCA gecmek'. Ekran 8 bit cizer ve yuvarlama ΔE'yi ~0,3 kaydirir. 🔴 ESIGE DOKUNULMADI — pay buyutmenin bedeli (cozulemeyen kimlik artisi) OLCULMEDI.",
+ "ozet": {
+  "kimlik": 15,
+  "cozulemedi": 0,
+  "sinirda_bant_12_13": 5,
+  "kunyesiz": 3,
+  "engel_olculemedi": 5,
+  "gercek_engel_ortalamasi_600km": 29.6
+ },
+ "oneriler": [
+  {
+   "kimlik": "arvanid-sancagi",
+   "hex": "#54d224",
+   "L_yildiz": 81.6,
+   "ton_derece": 129.3,
+   "de_en_yakin_engel": 29.1,
+   "sinirda_bant": false,
+   "kunye_var": true,
+   "aracin_kullandigi_engel": "2-3 (araç: '0 komşu')",
+   "gercek_600km_renkli_kimlik": 32,
+   "gercek_en_yakin_uc": [
+    [
+     "bizans",
+     0.0
+    ],
+    [
+     "venedik",
+     14.4
+    ],
+    [
+     "fransa-cumhuriyet",
+     14.4
+    ]
+   ],
+   "engel_olcumu": "olculdu"
+  },
+  {
+   "kimlik": "avusturya-cumhuriyet",
+   "hex": "#6c24d2",
+   "L_yildiz": 64.0,
+   "ton_derece": 313.1,
+   "de_en_yakin_engel": 14.0,
+   "sinirda_bant": false,
+   "kunye_var": true,
+   "aracin_kullandigi_engel": "2-3 (araç: '0 komşu')",
+   "gercek_600km_renkli_kimlik": null,
+   "gercek_en_yakin_uc": null,
+   "engel_olcumu": "olculemedi — yamada `ad:` baglami bulunamadi"
+  },
+  {
+   "kimlik": "cezayir-ocagi",
+   "hex": "#6cd224",
+   "L_yildiz": 82.2,
+   "ton_derece": 125.1,
+   "de_en_yakin_engel": 25.3,
+   "sinirda_bant": false,
+   "kunye_var": true,
+   "aracin_kullandigi_engel": "2-3 (araç: '0 komşu')",
+   "gercek_600km_renkli_kimlik": 20,
+   "gercek_en_yakin_uc": [
+    [
+     "ispanya",
+     0.0
+    ],
+    [
+     "zeyyani",
+     0.0
+    ],
+    [
+     "fransa-cumhuriyet",
+     0.0
+    ]
+   ],
+   "engel_olcumu": "olculdu"
+  },
+  {
+   "kimlik": "dejanovic-prensligi",
+   "hex": "#7224d2",
+   "L_yildiz": 64.2,
+   "ton_derece": 314.4,
+   "de_en_yakin_engel": 13.0,
+   "sinirda_bant": true,
+   "kunye_var": true,
+   "aracin_kullandigi_engel": "2-3 (araç: '0 komşu')",
+   "gercek_600km_renkli_kimlik": 38,
+   "gercek_en_yakin_uc": [
+    [
+     "suleyman-celebi",
+     0.0
+    ],
+    [
+     "musa-celebi",
+     0.0
+    ],
+    [
+     "sirbistan",
+     0.0
+    ]
+   ],
+   "engel_olcumu": "olculdu"
+  },
+  {
+   "kimlik": "dubrovnik",
+   "hex": "#96d224",
+   "L_yildiz": 83.5,
+   "ton_derece": 116.9,
+   "de_en_yakin_engel": 18.6,
+   "sinirda_bant": false,
+   "kunye_var": true,
+   "aracin_kullandigi_engel": "2-3 (araç: '0 komşu')",
+   "gercek_600km_renkli_kimlik": 35,
+   "gercek_en_yakin_uc": [
+    [
+     "avusturya",
+     0.0
+    ],
+    [
+     "yugoslavya",
+     0.0
+    ],
+    [
+     "venedik",
+     0.0
+    ]
+   ],
+   "engel_olcumu": "olculdu"
+  },
+  {
+   "kimlik": "gvalyar-sindiya",
+   "hex": "#c024d2",
+   "L_yildiz": 67.8,
+   "ton_derece": 330.5,
+   "de_en_yakin_engel": 13.0,
+   "sinirda_bant": true,
+   "kunye_var": false,
+   "aracin_kullandigi_engel": "2-3 (araç: '0 komşu')",
+   "gercek_600km_renkli_kimlik": null,
+   "gercek_en_yakin_uc": null,
+   "engel_olcumu": "olculemedi — yamada `ad:` baglami bulunamadi"
+  },
+  {
+   "kimlik": "indor-holkar",
+   "hex": "#d25a24",
+   "L_yildiz": 72.1,
+   "ton_derece": 58.4,
+   "de_en_yakin_engel": 12.4,
+   "sinirda_bant": true,
+   "kunye_var": false,
+   "aracin_kullandigi_engel": "2-3 (araç: '0 komşu')",
+   "gercek_600km_renkli_kimlik": null,
+   "gercek_en_yakin_uc": null,
+   "engel_olcumu": "olculemedi — yamada `ad:` baglami bulunamadi"
+  },
+  {
+   "kimlik": "kaheti-kralligi",
+   "hex": "#9cd224",
+   "L_yildiz": 83.7,
+   "ton_derece": 115.6,
+   "de_en_yakin_engel": 17.7,
+   "sinirda_bant": false,
+   "kunye_var": true,
+   "aracin_kullandigi_engel": "2-3 (araç: '0 komşu')",
+   "gercek_600km_renkli_kimlik": 38,
+   "gercek_en_yakin_uc": [
+    [
+     "rusya",
+     0.0
+    ],
+    [
+     "rusya-gecici-hukumet",
+     0.0
+    ],
+    [
+     "gurcistan",
+     0.0
+    ]
+   ],
+   "engel_olcumu": "olculdu"
+  },
+  {
+   "kimlik": "konstantin-beyligi",
+   "hex": "#a2d224",
+   "L_yildiz": 83.8,
+   "ton_derece": 114.3,
+   "de_en_yakin_engel": 16.8,
+   "sinirda_bant": false,
+   "kunye_var": true,
+   "aracin_kullandigi_engel": "2-3 (araç: '0 komşu')",
+   "gercek_600km_renkli_kimlik": null,
+   "gercek_en_yakin_uc": null,
+   "engel_olcumu": "olculemedi — yamada `ad:` baglami bulunamadi"
+  },
+  {
+   "kimlik": "kumuk-samhalligi",
+   "hex": "#d28424",
+   "L_yildiz": 76.7,
+   "ton_derece": 78.2,
+   "de_en_yakin_engel": 12.3,
+   "sinirda_bant": true,
+   "kunye_var": true,
+   "aracin_kullandigi_engel": "2-3 (araç: '0 komşu')",
+   "gercek_600km_renkli_kimlik": 29,
+   "gercek_en_yakin_uc": [
+    [
+     "safevi",
+     0.0
+    ],
+    [
+     "rusya",
+     0.0
+    ],
+    [
+     "rusya-gecici-hukumet",
+     0.0
+    ]
+   ],
+   "engel_olcumu": "olculdu"
+  },
+  {
+   "kimlik": "mekke-serifligi",
+   "hex": "#a8d224",
+   "L_yildiz": 84.0,
+   "ton_derece": 113.0,
+   "de_en_yakin_engel": 15.8,
+   "sinirda_bant": false,
+   "kunye_var": true,
+   "aracin_kullandigi_engel": "2-3 (araç: '0 komşu')",
+   "gercek_600km_renkli_kimlik": 12,
+   "gercek_en_yakin_uc": [
+    [
+     "memluk",
+     0.0
+    ],
+    [
+     "suud",
+     0.0
+    ],
+    [
+     "hicaz",
+     0.0
+    ]
+   ],
+   "engel_olcumu": "olculdu"
+  },
+  {
+   "kimlik": "meysur-racaligi",
+   "hex": "#d2ae24",
+   "L_yildiz": 81.4,
+   "ton_derece": 94.0,
+   "de_en_yakin_engel": 12.3,
+   "sinirda_bant": true,
+   "kunye_var": false,
+   "aracin_kullandigi_engel": "2-3 (araç: '0 komşu')",
+   "gercek_600km_renkli_kimlik": null,
+   "gercek_en_yakin_uc": null,
+   "engel_olcumu": "olculemedi — yamada `ad:` baglami bulunamadi"
+  },
+  {
+   "kimlik": "orta-macar-kralligi",
+   "hex": "#aed224",
+   "L_yildiz": 84.2,
+   "ton_derece": 111.7,
+   "de_en_yakin_engel": 15.0,
+   "sinirda_bant": false,
+   "kunye_var": true,
+   "aracin_kullandigi_engel": "2-3 (araç: '0 komşu')",
+   "gercek_600km_renkli_kimlik": 26,
+   "gercek_en_yakin_uc": [
+    [
+     "avusturya",
+     0.0
+    ],
+    [
+     "macaristan",
+     0.0
+    ],
+    [
+     "macaristan-naiplik",
+     0.0
+    ]
+   ],
+   "engel_olcumu": "olculdu"
+  },
+  {
+   "kimlik": "sarki-rumeli",
+   "hex": "#bad224",
+   "L_yildiz": 84.6,
+   "ton_derece": 109.0,
+   "de_en_yakin_engel": 13.3,
+   "sinirda_bant": false,
+   "kunye_var": true,
+   "aracin_kullandigi_engel": "2-3 (araç: '0 komşu')",
+   "gercek_600km_renkli_kimlik": 46,
+   "gercek_en_yakin_uc": [
+    [
+     "suleyman-celebi",
+     0.0
+    ],
+    [
+     "musa-celebi",
+     0.0
+    ],
+    [
+     "bulgaristan",
+     0.0
+    ]
+   ],
+   "engel_olcumu": "olculdu"
+  },
+  {
+   "kimlik": "trablusgarp-ocagi",
+   "hex": "#2424d8",
+   "L_yildiz": 61.3,
+   "ton_derece": 296.6,
+   "de_en_yakin_engel": 25.1,
+   "sinirda_bant": false,
+   "kunye_var": true,
+   "aracin_kullandigi_engel": "2-3 (araç: '0 komşu')",
+   "gercek_600km_renkli_kimlik": 20,
+   "gercek_en_yakin_uc": [
+    [
+     "italya",
+     0.0
+    ],
+    [
+     "memluk",
+     0.0
+    ],
+    [
+     "sovalye",
+     0.0
+    ]
+   ],
+   "engel_olcumu": "olculdu"
+  }
+ ]
+}

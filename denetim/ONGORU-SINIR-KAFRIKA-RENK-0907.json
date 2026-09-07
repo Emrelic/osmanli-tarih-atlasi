@@ -1,0 +1,51 @@
+{
+ "_NOT": "ÖNGÖRÜ — ÖLÇÜMDEN ÖNCE. İş: merge gecesi renksiz kalacak kimlikleri ölç ve renk öner. Dört ayak: ne · mazeret · hangi çıktıdan hangi birimde · neye karşı.",
+ "damga": "2026-09-07 · SINIR-KAFRIKA-0907 · ölçüm HENÜZ YAPILMADI",
+ "sevk": "1.MURAT M-3252",
+ "devraldigim_oncul": "🟡 '17 kimliğin rengi yok' — 1.MURAT'ın kendi beyanıyla DOĞRULANMADI, ve bugün erken saatte ölçülmüş. ⓪. adım onu yeniden ölçmek.",
+ "payda_tanimim": "Bekleyen yamaların `d:`/`s:`/`v:` alanlarında kullandığı BENZERSİZ kimlik kümesi. 'Bekleyen' = (a) `denetim/` altındaki yama dosyaları + (b) `data/` altında olup `girdi.GIRDI_DOSYALARI`ya BAĞLANMAMIŞ dosyalar. İkisi ayrı ayrı sayılacak — çünkü ikisinin merge yolu farklı.",
+ "kalemler": [
+  {
+   "no": "①",
+   "ne_bekliyorum": "Renksiz kimlik sayısı 17 DEĞİL — ve daha büyük çıkacak",
+   "yon": "17'den BÜYÜK",
+   "hangi_ciktidan": "kendi türetmem: bekleyen yamaların d:/s:/v: kimlikleri MINUS BOYALAR (harita: dolaylamasıyla)",
+   "birim": "BENZERSİZ KİMLİK (dönem değil, nokta değil)",
+   "mazeret": "🔴 MEŞRU MAZERET, ÖNCEDEN: onun ölçümünden sonra yamalar `data/`ye TAŞINMIŞ olabilir — o zaman sayı DÜŞER, ve düşmesi doğrudur. ⇒ Hangi dosyaların hâlâ beklediğini AYRICA sayacağım; sayı düşerse önce BUNA bakılır."
+  },
+  {
+   "no": "②",
+   "ne_bekliyorum": "`harita:` dolaylaması sayıyı DEĞİŞTİRİR: ham `id` karşılaştırması, `harita:` dolaylamalı olandan DAHA BÜYÜK bir renksiz küme verir",
+   "yon": "ham > dolaylamalı",
+   "hangi_ciktidan": "aynı kümeyi iki kez hesaplamak — bir kez `id` ile, bir kez `id ∪ harita:` ile",
+   "birim": "kimlik farkı",
+   "mazeret": "YOK. 1.MURAT bugün bu dolaylamayı bir eksende düzeltip ötekinde düşürdü ve sayı 11→16 kaydı; iki eksende de uygulayacağım."
+  },
+  {
+   "no": "③",
+   "ne_bekliyorum": "Adayların EN AZ BİRİ 12,0-13,0 sınırda bandına düşer",
+   "yon": "≥ 1",
+   "hangi_ciktidan": "`renk_olc.py --oner` çıktısındaki 'en yakın engel' ΔE değeri",
+   "birim": "ΔE00, ve KAÇ ADAY o banda düştüğü",
+   "mazeret": "🔴 MAZERET DEĞİL BULGU: sıfır çıkarsa palet bu turda rahat demektir ve bu iyi haberdir. Ama `renkler.py:3513`in kendi kaydı çözücünün eşiğin KIL PAYI üstünü seçtiğini söylüyor (12,1 · 12,1 · 12,2 …) ⇒ sıfır çıkması ŞAŞIRTICI olur."
+  },
+  {
+   "no": "④",
+   "ne_bekliyorum": "`--oner` kimliklerin HEPSİNE renk bulur — 'çözülemedi' 0",
+   "yon": "hepsi çözülür",
+   "hangi_ciktidan": "`--oner` çıktısı",
+   "birim": "çözülemeyen kimlik sayısı",
+   "mazeret": "🔴 MAZERET DEĞİL BULGU: çözülemeyen çıkarsa `§11`in üç cinsi sorulur (TERCİH mi · YAPI mı · SIRA mı bağlıyor). Sıra bağlıyorsa İKİNCİ GEÇİŞ koşulur — 'çözülemedi' raporlanmadan önce."
+  },
+  {
+   "no": "⑤",
+   "ne_bekliyorum": "Renksiz kümedeki kimliklerin ÇOĞUNUN künyesi VAR (yalnız rengi yok)",
+   "yon": "künyesi olan > künyesi olmayan",
+   "hangi_ciktidan": "renksiz kimlik kümesi ∩ devletler.js `id`",
+   "birim": "kimlik",
+   "mazeret": "YOK. Künyesi de olmayan varsa o AYRI bir kalem (`§8`: künye yoksa renk de anlamsız) ve ayrı raporlanır."
+  }
+ ],
+ "hangi_kosuda": "ŞİMDİ, koşu 8 canlıyken. 🔴 `arac/renkler.py` PARMAK İZLİ — YALNIZ OKUNUR, ASLA YAZILMAZ. Okumak parmak izini bozmaz; `renk_olc --oner` zaten onu import ediyor. `data/*.js` DONUK. Yazdığım her şey `denetim/` altında.",
+ "neye_karsi": "1.MURAT'ın '17' öncülüne karşı — ve o öncül DEVRALINMIŞ, doğrulanmamış. Uyuşmazsak onunki yanlış olabilir; ama ÖNCE benim payda tanımım onunkiyle aynı mı diye sorulur."
+}
