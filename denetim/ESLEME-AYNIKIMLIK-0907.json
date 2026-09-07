@@ -1,0 +1,562 @@
+{
+ "_NOT": "hal:'ayni-kimlik' esleme tablosu — URETILDI, elle yazilmaz. Kollar KENDI dosyalarinda uygular (§7); bu alet kol dosyasina YAZMAZ.",
+ "_URETIM": "2026-09-07 15:39",
+ "_KURAL": "cevrim YALNIZ hal=='bulunamadi' kayitlarda. 'hukuki' DOKUNULMAZ (hukmu yok eder), 'olculemedi' KARAR bekler (olcum yoklugu, olcum sonucu degil).",
+ "ozet": {
+  "ANADOLU": {
+   "olcut": "hal_oneri === 'ic-idari'",
+   "damga": "2026-09-07 15:38",
+   "kayit": 19,
+   "cevir": 5
+  },
+  "ARAP": {
+   "olcut": "kimlik_1923[0] === kimlik_1923[1]",
+   "damga": "2026-09-07 15:12",
+   "kayit": 26,
+   "karar": 2
+  },
+  "ASYA": {
+   "olcut": "cins === '1923te-ic-hat'",
+   "damga": "2026-09-07 15:19",
+   "kayit": 98,
+   "cevir": 15
+  },
+  "BALKAN": {
+   "olcut": "ic_sinir_1923 === true",
+   "damga": "2026-09-07 15:15",
+   "kayit": 60,
+   "cevir": 15
+  },
+  "GAFRIKA": {
+   "olcut": "sinif_1923 VE hal_atlas (ikisi birden)",
+   "damga": "2026-09-07 15:12",
+   "kayit": 89,
+   "cevir": 28
+  },
+  "KAFRIKA": {
+   "olcut": "nitelik_1923 ∈ {ic-idari, yok}",
+   "damga": "2026-09-07 15:39",
+   "kayit": 25,
+   "cevir": 1,
+   "dokunma": 3,
+   "zaten": 3
+  }
+ },
+ "kovalar": {
+  "cevir": [
+   {
+    "bolge": "ANADOLU",
+    "i": 4,
+    "a": "sovyet-rusya",
+    "b": "sovyet-rusya",
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "ANADOLU",
+    "i": 5,
+    "a": "sovyet-rusya",
+    "b": "sovyet-rusya",
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "ANADOLU",
+    "i": 9,
+    "a": "sovyet-rusya",
+    "b": "sovyet-rusya",
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "ANADOLU",
+    "i": 11,
+    "a": "sovyet-rusya",
+    "b": "sovyet-rusya",
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "ANADOLU",
+    "i": 16,
+    "a": "sovyet-rusya",
+    "b": "sovyet-rusya",
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "ASYA",
+    "i": 1,
+    "a": null,
+    "b": null,
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "ASYA",
+    "i": 7,
+    "a": null,
+    "b": null,
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "ASYA",
+    "i": 9,
+    "a": null,
+    "b": null,
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "ASYA",
+    "i": 11,
+    "a": null,
+    "b": null,
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "ASYA",
+    "i": 14,
+    "a": null,
+    "b": null,
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "ASYA",
+    "i": 18,
+    "a": null,
+    "b": null,
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "ASYA",
+    "i": 27,
+    "a": null,
+    "b": null,
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "ASYA",
+    "i": 28,
+    "a": null,
+    "b": null,
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "ASYA",
+    "i": 30,
+    "a": null,
+    "b": null,
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "ASYA",
+    "i": 31,
+    "a": null,
+    "b": null,
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "ASYA",
+    "i": 41,
+    "a": null,
+    "b": null,
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "ASYA",
+    "i": 42,
+    "a": null,
+    "b": null,
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "ASYA",
+    "i": 62,
+    "a": null,
+    "b": null,
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "ASYA",
+    "i": 76,
+    "a": null,
+    "b": null,
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "ASYA",
+    "i": 80,
+    "a": null,
+    "b": null,
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "BALKAN",
+    "i": 15,
+    "a": "Belarus",
+    "b": "Ukraine",
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "BALKAN",
+    "i": 16,
+    "a": "Bosnia and Herzegovina",
+    "b": "Croatia",
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "BALKAN",
+    "i": 17,
+    "a": "Bosnia and Herzegovina",
+    "b": "Montenegro",
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "BALKAN",
+    "i": 18,
+    "a": "Bosnia and Herzegovina",
+    "b": "Republic of Serbia",
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "BALKAN",
+    "i": 25,
+    "a": "Croatia",
+    "b": "Montenegro",
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "BALKAN",
+    "i": 26,
+    "a": "Croatia",
+    "b": "Republic of Serbia",
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "BALKAN",
+    "i": 27,
+    "a": "Croatia",
+    "b": "Slovenia",
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "BALKAN",
+    "i": 30,
+    "a": "Czechia",
+    "b": "Slovakia",
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "BALKAN",
+    "i": 42,
+    "a": "Kosovo",
+    "b": "Montenegro",
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "BALKAN",
+    "i": 43,
+    "a": "Kosovo",
+    "b": "North Macedonia",
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "BALKAN",
+    "i": 44,
+    "a": "Kosovo",
+    "b": "Republic of Serbia",
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "BALKAN",
+    "i": 49,
+    "a": "Moldova",
+    "b": "Romania",
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "BALKAN",
+    "i": 51,
+    "a": "Montenegro",
+    "b": "Republic of Serbia",
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "BALKAN",
+    "i": 52,
+    "a": "North Macedonia",
+    "b": "Republic of Serbia",
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "BALKAN",
+    "i": 59,
+    "a": "Slovakia",
+    "b": "Ukraine",
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "GAFRIKA",
+    "i": 12,
+    "a": "Kenya",
+    "b": "Tanzania",
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "GAFRIKA",
+    "i": 13,
+    "a": "Kenya",
+    "b": "Uganda",
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "GAFRIKA",
+    "i": 15,
+    "a": "Malawi",
+    "b": "Tanzania",
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "GAFRIKA",
+    "i": 16,
+    "a": "Malawi",
+    "b": "Zambia",
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "GAFRIKA",
+    "i": 18,
+    "a": "Tanzania",
+    "b": "Zambia",
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "GAFRIKA",
+    "i": 22,
+    "a": "Tanzania",
+    "b": "Uganda",
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "GAFRIKA",
+    "i": 24,
+    "a": "Congo",
+    "b": "Gabon",
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "GAFRIKA",
+    "i": 28,
+    "a": "Congo",
+    "b": "Central African Rep.",
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "GAFRIKA",
+    "i": 31,
+    "a": "Dem. Rep. Congo",
+    "b": "Burundi",
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "GAFRIKA",
+    "i": 32,
+    "a": "Dem. Rep. Congo",
+    "b": "Rwanda",
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "GAFRIKA",
+    "i": 35,
+    "a": "Namibia",
+    "b": "South Africa",
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "GAFRIKA",
+    "i": 45,
+    "a": "Zambia",
+    "b": "Zimbabwe",
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "GAFRIKA",
+    "i": 50,
+    "a": "Guinea",
+    "b": "Mali",
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "GAFRIKA",
+    "i": 51,
+    "a": "Guinea",
+    "b": "Côte d'Ivoire",
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "GAFRIKA",
+    "i": 53,
+    "a": "Guinea",
+    "b": "Senegal",
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "GAFRIKA",
+    "i": 56,
+    "a": "Central African Rep.",
+    "b": "Chad",
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "GAFRIKA",
+    "i": 59,
+    "a": "Côte d'Ivoire",
+    "b": "Burkina Faso",
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "GAFRIKA",
+    "i": 60,
+    "a": "Côte d'Ivoire",
+    "b": "Mali",
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "GAFRIKA",
+    "i": 61,
+    "a": "Mali",
+    "b": "Burkina Faso",
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "GAFRIKA",
+    "i": 62,
+    "a": "Mali",
+    "b": "Niger",
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "GAFRIKA",
+    "i": 63,
+    "a": "Mali",
+    "b": "Senegal",
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "GAFRIKA",
+    "i": 64,
+    "a": "Mali",
+    "b": "Mauritania",
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "GAFRIKA",
+    "i": 67,
+    "a": "Senegal",
+    "b": "Mauritania",
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "GAFRIKA",
+    "i": 75,
+    "a": "Botswana",
+    "b": "Zimbabwe",
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "GAFRIKA",
+    "i": 78,
+    "a": "Chad",
+    "b": "Niger",
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "GAFRIKA",
+    "i": 80,
+    "a": "Burundi",
+    "b": "Rwanda",
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "GAFRIKA",
+    "i": 85,
+    "a": "Niger",
+    "b": "Burkina Faso",
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "GAFRIKA",
+    "i": 87,
+    "a": "Burkina Faso",
+    "b": "Togo",
+    "mevcut_hal": "bulunamadi"
+   },
+   {
+    "bolge": "KAFRIKA",
+    "i": 0,
+    "a": "South Sudan",
+    "b": "Sudan",
+    "mevcut_hal": "bulunamadi"
+   }
+  ],
+  "dokunma_hukuki": [
+   {
+    "bolge": "KAFRIKA",
+    "i": 3,
+    "a": "Morocco",
+    "b": "Western Sahara",
+    "mevcut_hal": "hukuki",
+    "dayanak": "Fransiz-Ispanyol Antlasmasi (3 Ekim 1904) Madde VI ve Fransiz-Ispanyol Antlasmasi (27 Kasim 1912) Madde I-II — 27°40' K "
+   },
+   {
+    "bolge": "KAFRIKA",
+    "i": 20,
+    "a": "Bir Tawil",
+    "b": "Egypt",
+    "mevcut_hal": "hukuki",
+    "dayanak": "Misir Icisleri Bakani'nin arretesi (25 Temmuz 1902) ve kararnamesi (4 Kasim 1902) — SIYASI degil IDARI hat"
+   },
+   {
+    "bolge": "KAFRIKA",
+    "i": 21,
+    "a": "Bir Tawil",
+    "b": "Sudan",
+    "mevcut_hal": "hukuki",
+    "dayanak": "Misir Icisleri Bakani'nin arretesi (25 Temmuz 1902) ve kararnamesi (4 Kasim 1902)"
+   }
+  ],
+  "karar_olculemedi": [
+   {
+    "bolge": "ARAP",
+    "i": 8,
+    "a": "Israel",
+    "b": "Palestine",
+    "mevcut_hal": "olculemedi"
+   },
+   {
+    "bolge": "ARAP",
+    "i": 14,
+    "a": "Lebanon",
+    "b": "Syria",
+    "mevcut_hal": "olculemedi"
+   }
+  ],
+  "zaten": [
+   {
+    "bolge": "KAFRIKA",
+    "i": 5,
+    "a": "Algeria",
+    "b": "Mali",
+    "mevcut_hal": "ayni-kimlik"
+   },
+   {
+    "bolge": "KAFRIKA",
+    "i": 10,
+    "a": "Algeria",
+    "b": "Niger",
+    "mevcut_hal": "ayni-kimlik"
+   },
+   {
+    "bolge": "KAFRIKA",
+    "i": 14,
+    "a": "Algeria",
+    "b": "Mauritania",
+    "mevcut_hal": "ayni-kimlik"
+   }
+  ]
+ }
+}
