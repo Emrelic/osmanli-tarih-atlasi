@@ -1,0 +1,140 @@
+{
+ "_NOT": "TDV slug taramasi. 200 = 'madde var', 'DOGRU madde' DEGIL (CLAUDE.md §4②).",
+ "canli_ama_dogrulanmadi": {
+  "lozan-antlasmasi": 109265,
+  "kars": 113048,
+  "mudanya-mutarekesi": 99865,
+  "sevr-antlasmasi": 117716,
+  "misak-i-milli": 104580,
+  "berlin-antlasmasi": 96836,
+  "hatay": 80822,
+  "iskenderun": 104131,
+  "kerkuk": 105549,
+  "agri": 96574,
+  "nahcivan": 115369,
+  "karabag": 100861,
+  "batum": 96886,
+  "imroz": 107413
+ },
+ "olu_302": [
+  "ankara-antlasmasi",
+  "ankara-itilafnamesi",
+  "cezayir-antlasmasi",
+  "erzurum-antlasmasi",
+  "istanbul-antlasmasi",
+  "karaagac",
+  "kars-antlasmasi",
+  "kasr-i-sirin-antlasmasi",
+  "lozan",
+  "moskova-antlasmasi",
+  "musul",
+  "zuhab-antlasmasi"
+ ],
+ "olculemedi": [
+  [
+   "zengezur",
+   503,
+   0
+  ],
+  [
+   "artvin",
+   503,
+   0
+  ],
+  [
+   "kars--sehir",
+   503,
+   0
+  ],
+  [
+   "ardahan",
+   503,
+   0
+  ],
+  [
+   "sattularap",
+   503,
+   0
+  ],
+  [
+   "meric",
+   503,
+   0
+  ],
+  [
+   "edirne",
+   503,
+   0
+  ],
+  [
+   "bozcaada",
+   503,
+   0
+  ],
+  [
+   "turkiye",
+   503,
+   0
+  ],
+  [
+   "iran",
+   503,
+   0
+  ],
+  [
+   "irak",
+   503,
+   0
+  ],
+  [
+   "suriye",
+   503,
+   0
+  ],
+  [
+   "gurcistan",
+   503,
+   0
+  ],
+  [
+   "ermenistan",
+   503,
+   0
+  ],
+  [
+   "azerbaycan",
+   503,
+   0
+  ],
+  [
+   "bulgaristan",
+   503,
+   0
+  ],
+  [
+   "yunanistan",
+   503,
+   0
+  ],
+  [
+   "turkmenistan",
+   503,
+   0
+  ],
+  [
+   "afganistan",
+   503,
+   0
+  ],
+  [
+   "pakistan",
+   503,
+   0
+  ],
+  [
+   "rusya",
+   503,
+   0
+  ]
+ ]
+}

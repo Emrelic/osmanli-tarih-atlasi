@@ -1,0 +1,2339 @@
+{
+ "_NOT": "SINIR-ASYA-0907 · NE poligonu icindeki atlas noktalarinin 1923-10-28 sahipleri. VEKIL olcum - poligonun kendi sahiplik alani YOK.",
+ "gun": "1923-10-28",
+ "atlas_nokta": 3805,
+ "poligon_disinda_kalan_nokta": 2235,
+ "ulke": {
+  "Afghanistan": {
+   "nokta": 6,
+   "kimlik": [
+    [
+     "afganistan",
+     5
+    ],
+    [
+     "kacar",
+     1
+    ]
+   ],
+   "baskin": "afganistan",
+   "baskin_pay": 0.833,
+   "isgal": [],
+   "hal": "olculdu"
+  },
+  "Argentina": {
+   "nokta": 37,
+   "kimlik": [
+    [
+     "arjantin-cumhuriyeti",
+     34
+    ],
+    [
+     "__SAHIPSIZ__",
+     2
+    ],
+    [
+     "sili-cumhuriyeti",
+     1
+    ]
+   ],
+   "baskin": "arjantin-cumhuriyeti",
+   "baskin_pay": 0.919,
+   "isgal": [],
+   "hal": "olculdu"
+  },
+  "Bangladesh": {
+   "nokta": 3,
+   "kimlik": [
+    [
+     "ingiliz-hindistani",
+     3
+    ]
+   ],
+   "baskin": "ingiliz-hindistani",
+   "baskin_pay": 1.0,
+   "isgal": [],
+   "hal": "olculdu"
+  },
+  "Baykonur Cosmodrome": {
+   "nokta": 0,
+   "kimlik": [],
+   "baskin": null,
+   "baskin_pay": null,
+   "isgal": [],
+   "hal": "olculemedi-nokta-yok"
+  },
+  "Belize": {
+   "nokta": 1,
+   "kimlik": [
+    [
+     "ingiltere",
+     1
+    ]
+   ],
+   "baskin": "ingiltere",
+   "baskin_pay": 1.0,
+   "isgal": [],
+   "hal": "zayif"
+  },
+  "Bhutan": {
+   "nokta": 0,
+   "kimlik": [],
+   "baskin": null,
+   "baskin_pay": null,
+   "isgal": [],
+   "hal": "olculemedi-nokta-yok"
+  },
+  "Bolivia": {
+   "nokta": 15,
+   "kimlik": [
+    [
+     "bolivya-cumhuriyeti",
+     13
+    ],
+    [
+     "__SAHIPSIZ__",
+     2
+    ]
+   ],
+   "baskin": "bolivya-cumhuriyeti",
+   "baskin_pay": 0.867,
+   "isgal": [],
+   "hal": "olculdu"
+  },
+  "Brazil": {
+   "nokta": 46,
+   "kimlik": [
+    [
+     "brezilya-cumhuriyeti",
+     30
+    ],
+    [
+     "__SAHIPSIZ__",
+     16
+    ]
+   ],
+   "baskin": "brezilya-cumhuriyeti",
+   "baskin_pay": 0.652,
+   "isgal": [],
+   "hal": "olculdu"
+  },
+  "Brazilian Island": {
+   "nokta": 0,
+   "kimlik": [],
+   "baskin": null,
+   "baskin_pay": null,
+   "isgal": [],
+   "hal": "olculemedi-nokta-yok"
+  },
+  "Brunei": {
+   "nokta": 1,
+   "kimlik": [
+    [
+     "brunei-sultanligi",
+     1
+    ]
+   ],
+   "baskin": "brunei-sultanligi",
+   "baskin_pay": 1.0,
+   "isgal": [],
+   "hal": "zayif"
+  },
+  "Cambodia": {
+   "nokta": 14,
+   "kimlik": [
+    [
+     "fransiz-cinhindi",
+     14
+    ]
+   ],
+   "baskin": "fransiz-cinhindi",
+   "baskin_pay": 1.0,
+   "isgal": [],
+   "hal": "olculdu"
+  },
+  "Canada": {
+   "nokta": 172,
+   "kimlik": [
+    [
+     "kanada",
+     167
+    ],
+    [
+     "abd",
+     4
+    ],
+    [
+     "__SAHIPSIZ__",
+     1
+    ]
+   ],
+   "baskin": "kanada",
+   "baskin_pay": 0.971,
+   "isgal": [],
+   "hal": "olculdu"
+  },
+  "Chile": {
+   "nokta": 13,
+   "kimlik": [
+    [
+     "sili-cumhuriyeti",
+     12
+    ],
+    [
+     "__SAHIPSIZ__",
+     1
+    ]
+   ],
+   "baskin": "sili-cumhuriyeti",
+   "baskin_pay": 0.923,
+   "isgal": [],
+   "hal": "olculdu"
+  },
+  "China": {
+   "nokta": 98,
+   "kimlik": [
+    [
+     "cin-cumhuriyeti",
+     93
+    ],
+    [
+     "tibet-ganden-phodrang",
+     4
+    ],
+    [
+     "meiji-japonya",
+     1
+    ]
+   ],
+   "baskin": "cin-cumhuriyeti",
+   "baskin_pay": 0.949,
+   "isgal": [],
+   "hal": "olculdu"
+  },
+  "Colombia": {
+   "nokta": 6,
+   "kimlik": [
+    [
+     "kolombiya-cumhuriyeti",
+     5
+    ],
+    [
+     "brezilya-cumhuriyeti",
+     1
+    ]
+   ],
+   "baskin": "kolombiya-cumhuriyeti",
+   "baskin_pay": 0.833,
+   "isgal": [],
+   "hal": "olculdu"
+  },
+  "Costa Rica": {
+   "nokta": 0,
+   "kimlik": [],
+   "baskin": null,
+   "baskin_pay": null,
+   "isgal": [],
+   "hal": "olculemedi-nokta-yok"
+  },
+  "Cuba": {
+   "nokta": 6,
+   "kimlik": [
+    [
+     "kuba-cumhuriyeti",
+     4
+    ],
+    [
+     "meksika",
+     2
+    ]
+   ],
+   "baskin": "kuba-cumhuriyeti",
+   "baskin_pay": 0.667,
+   "isgal": [],
+   "hal": "olculdu"
+  },
+  "Dominican Republic": {
+   "nokta": 2,
+   "kimlik": [
+    [
+     "dominik-cumhuriyeti",
+     2
+    ]
+   ],
+   "baskin": "dominik-cumhuriyeti",
+   "baskin_pay": 1.0,
+   "isgal": [],
+   "hal": "zayif"
+  },
+  "East Timor": {
+   "nokta": 1,
+   "kimlik": [
+    [
+     "portekiz",
+     1
+    ]
+   ],
+   "baskin": "portekiz",
+   "baskin_pay": 1.0,
+   "isgal": [],
+   "hal": "zayif"
+  },
+  "Ecuador": {
+   "nokta": 4,
+   "kimlik": [
+    [
+     "ekvador-cumhuriyeti",
+     4
+    ]
+   ],
+   "baskin": "ekvador-cumhuriyeti",
+   "baskin_pay": 1.0,
+   "isgal": [],
+   "hal": "olculdu"
+  },
+  "El Salvador": {
+   "nokta": 0,
+   "kimlik": [],
+   "baskin": null,
+   "baskin_pay": null,
+   "isgal": [],
+   "hal": "olculemedi-nokta-yok"
+  },
+  "Guatemala": {
+   "nokta": 5,
+   "kimlik": [
+    [
+     "__SAHIPSIZ__",
+     3
+    ],
+    [
+     "guatemala",
+     2
+    ]
+   ],
+   "baskin": "__SAHIPSIZ__",
+   "baskin_pay": 0.6,
+   "isgal": [],
+   "hal": "olculdu"
+  },
+  "Guyana": {
+   "nokta": 5,
+   "kimlik": [
+    [
+     "ingiliz-guyanasi",
+     3
+    ],
+    [
+     "__SAHIPSIZ__",
+     2
+    ]
+   ],
+   "baskin": "ingiliz-guyanasi",
+   "baskin_pay": 0.6,
+   "isgal": [],
+   "hal": "olculdu"
+  },
+  "Haiti": {
+   "nokta": 1,
+   "kimlik": [
+    [
+     "haiti",
+     1
+    ]
+   ],
+   "baskin": "haiti",
+   "baskin_pay": 1.0,
+   "isgal": [],
+   "hal": "zayif"
+  },
+  "Honduras": {
+   "nokta": 3,
+   "kimlik": [
+    [
+     "meksika",
+     3
+    ]
+   ],
+   "baskin": "meksika",
+   "baskin_pay": 1.0,
+   "isgal": [],
+   "hal": "olculdu"
+  },
+  "Hong Kong S.A.R.": {
+   "nokta": 1,
+   "kimlik": [
+    [
+     "ingiltere",
+     1
+    ]
+   ],
+   "baskin": "ingiltere",
+   "baskin_pay": 1.0,
+   "isgal": [],
+   "hal": "zayif"
+  },
+  "India": {
+   "nokta": 109,
+   "kimlik": [
+    [
+     "ingiliz-hindistani",
+     74
+    ],
+    [
+     "haydarabad-nizam",
+     8
+    ],
+    [
+     "racput",
+     7
+    ],
+    [
+     "maratha",
+     5
+    ],
+    [
+     "cammu-kesmir",
+     3
+    ],
+    [
+     "meysur",
+     3
+    ],
+    [
+     "portekiz",
+     2
+    ],
+    [
+     "fransa-cumhuriyet",
+     2
+    ],
+    [
+     "bharatpur-cat",
+     1
+    ],
+    [
+     "cunagadh",
+     1
+    ],
+    [
+     "bhopal",
+     1
+    ],
+    [
+     "manipur",
+     1
+    ],
+    [
+     "travankur",
+     1
+    ]
+   ],
+   "baskin": "ingiliz-hindistani",
+   "baskin_pay": 0.679,
+   "isgal": [],
+   "hal": "olculdu"
+  },
+  "Indonesia": {
+   "nokta": 80,
+   "kimlik": [
+    [
+     "hollanda-dogu-hint",
+     67
+    ],
+    [
+     "__SAHIPSIZ__",
+     9
+    ],
+    [
+     "yogyakarta",
+     1
+    ],
+    [
+     "surakarta",
+     1
+    ],
+    [
+     "tidore-sultanligi",
+     1
+    ],
+    [
+     "cohor-sultanligi",
+     1
+    ]
+   ],
+   "baskin": "hollanda-dogu-hint",
+   "baskin_pay": 0.838,
+   "isgal": [],
+   "hal": "olculdu"
+  },
+  "Iran": {
+   "nokta": 109,
+   "kimlik": [
+    [
+     "kacar",
+     107
+    ],
+    [
+     "sovyet-rusya",
+     1
+    ],
+    [
+     "tbmm-turkiye",
+     1
+    ]
+   ],
+   "baskin": "kacar",
+   "baskin_pay": 0.982,
+   "isgal": [],
+   "hal": "olculdu"
+  },
+  "Kazakhstan": {
+   "nokta": 33,
+   "kimlik": [
+    [
+     "sovyet-rusya",
+     32
+    ],
+    [
+     "__SAHIPSIZ__",
+     1
+    ]
+   ],
+   "baskin": "sovyet-rusya",
+   "baskin_pay": 0.97,
+   "isgal": [],
+   "hal": "olculdu"
+  },
+  "Kyrgyzstan": {
+   "nokta": 4,
+   "kimlik": [
+    [
+     "sovyet-rusya",
+     4
+    ]
+   ],
+   "baskin": "sovyet-rusya",
+   "baskin_pay": 1.0,
+   "isgal": [],
+   "hal": "olculdu"
+  },
+  "Laos": {
+   "nokta": 7,
+   "kimlik": [
+    [
+     "fransiz-cinhindi",
+     7
+    ]
+   ],
+   "baskin": "fransiz-cinhindi",
+   "baskin_pay": 1.0,
+   "isgal": [],
+   "hal": "olculdu"
+  },
+  "Malaysia": {
+   "nokta": 13,
+   "kimlik": [
+    [
+     "ingiliz-malaya",
+     10
+    ],
+    [
+     "cohor-sultanligi",
+     2
+    ],
+    [
+     "sarawak-brooke",
+     1
+    ]
+   ],
+   "baskin": "ingiliz-malaya",
+   "baskin_pay": 0.769,
+   "isgal": [],
+   "hal": "olculdu"
+  },
+  "Mexico": {
+   "nokta": 58,
+   "kimlik": [
+    [
+     "meksika",
+     55
+    ],
+    [
+     "__SAHIPSIZ__",
+     2
+    ],
+    [
+     "abd",
+     1
+    ]
+   ],
+   "baskin": "meksika",
+   "baskin_pay": 0.948,
+   "isgal": [],
+   "hal": "olculdu"
+  },
+  "Mongolia": {
+   "nokta": 15,
+   "kimlik": [
+    [
+     "mogolistan",
+     13
+    ],
+    [
+     "cin-cumhuriyeti",
+     2
+    ]
+   ],
+   "baskin": "mogolistan",
+   "baskin_pay": 0.867,
+   "isgal": [],
+   "hal": "olculdu"
+  },
+  "Myanmar": {
+   "nokta": 30,
+   "kimlik": [
+    [
+     "ingiliz-hindistani",
+     27
+    ],
+    [
+     "san-devletleri",
+     3
+    ]
+   ],
+   "baskin": "ingiliz-hindistani",
+   "baskin_pay": 0.9,
+   "isgal": [],
+   "hal": "olculdu"
+  },
+  "Nepal": {
+   "nokta": 1,
+   "kimlik": [
+    [
+     "nepal",
+     1
+    ]
+   ],
+   "baskin": "nepal",
+   "baskin_pay": 1.0,
+   "isgal": [],
+   "hal": "zayif"
+  },
+  "Nicaragua": {
+   "nokta": 0,
+   "kimlik": [],
+   "baskin": null,
+   "baskin_pay": null,
+   "isgal": [],
+   "hal": "olculemedi-nokta-yok"
+  },
+  "North Korea": {
+   "nokta": 6,
+   "kimlik": [
+    [
+     "meiji-japonya",
+     6
+    ]
+   ],
+   "baskin": "meiji-japonya",
+   "baskin_pay": 1.0,
+   "isgal": [],
+   "hal": "olculdu"
+  },
+  "Pakistan": {
+   "nokta": 11,
+   "kimlik": [
+    [
+     "ingiliz-hindistani",
+     10
+    ],
+    [
+     "bahavelpur",
+     1
+    ]
+   ],
+   "baskin": "ingiliz-hindistani",
+   "baskin_pay": 0.909,
+   "isgal": [],
+   "hal": "olculdu"
+  },
+  "Panama": {
+   "nokta": 2,
+   "kimlik": [
+    [
+     "panama-cumhuriyeti",
+     2
+    ]
+   ],
+   "baskin": "panama-cumhuriyeti",
+   "baskin_pay": 1.0,
+   "isgal": [],
+   "hal": "zayif"
+  },
+  "Papua New Guinea": {
+   "nokta": 10,
+   "kimlik": [
+    [
+     "__SAHIPSIZ__",
+     6
+    ],
+    [
+     "avustralya",
+     4
+    ]
+   ],
+   "baskin": "__SAHIPSIZ__",
+   "baskin_pay": 0.6,
+   "isgal": [],
+   "hal": "olculdu"
+  },
+  "Paraguay": {
+   "nokta": 5,
+   "kimlik": [
+    [
+     "paraguay-cumhuriyeti",
+     4
+    ],
+    [
+     "bolivya-cumhuriyeti",
+     1
+    ]
+   ],
+   "baskin": "paraguay-cumhuriyeti",
+   "baskin_pay": 0.8,
+   "isgal": [],
+   "hal": "olculdu"
+  },
+  "Peru": {
+   "nokta": 30,
+   "kimlik": [
+    [
+     "peru-cumhuriyeti",
+     27
+    ],
+    [
+     "ekvador-cumhuriyeti",
+     2
+    ],
+    [
+     "__SAHIPSIZ__",
+     1
+    ]
+   ],
+   "baskin": "peru-cumhuriyeti",
+   "baskin_pay": 0.9,
+   "isgal": [],
+   "hal": "olculdu"
+  },
+  "Russia": {
+   "nokta": 291,
+   "kimlik": [
+    [
+     "sovyet-rusya",
+     271
+    ],
+    [
+     "__SAHIPSIZ__",
+     11
+    ],
+    [
+     "rusya",
+     4
+    ],
+    [
+     "finlandiya",
+     2
+    ],
+    [
+     "almanya",
+     1
+    ],
+    [
+     "meiji-japonya",
+     1
+    ],
+    [
+     "estonya",
+     1
+    ]
+   ],
+   "baskin": "sovyet-rusya",
+   "baskin_pay": 0.931,
+   "isgal": [],
+   "hal": "olculdu"
+  },
+  "Saint Martin": {
+   "nokta": 0,
+   "kimlik": [],
+   "baskin": null,
+   "baskin_pay": null,
+   "isgal": [],
+   "hal": "olculemedi-nokta-yok"
+  },
+  "Siachen Glacier": {
+   "nokta": 0,
+   "kimlik": [],
+   "baskin": null,
+   "baskin_pay": null,
+   "isgal": [],
+   "hal": "olculemedi-nokta-yok"
+  },
+  "Sint Maarten": {
+   "nokta": 0,
+   "kimlik": [],
+   "baskin": null,
+   "baskin_pay": null,
+   "isgal": [],
+   "hal": "olculemedi-nokta-yok"
+  },
+  "South Korea": {
+   "nokta": 10,
+   "kimlik": [
+    [
+     "meiji-japonya",
+     10
+    ]
+   ],
+   "baskin": "meiji-japonya",
+   "baskin_pay": 1.0,
+   "isgal": [],
+   "hal": "olculdu"
+  },
+  "Southern Patagonian Ice Field": {
+   "nokta": 0,
+   "kimlik": [],
+   "baskin": null,
+   "baskin_pay": null,
+   "isgal": [],
+   "hal": "olculemedi-nokta-yok"
+  },
+  "Suriname": {
+   "nokta": 3,
+   "kimlik": [
+    [
+     "__SAHIPSIZ__",
+     2
+    ],
+    [
+     "hollanda-guyanasi",
+     1
+    ]
+   ],
+   "baskin": "__SAHIPSIZ__",
+   "baskin_pay": 0.667,
+   "isgal": [],
+   "hal": "olculdu"
+  },
+  "Tajikistan": {
+   "nokta": 3,
+   "kimlik": [
+    [
+     "sovyet-rusya",
+     3
+    ]
+   ],
+   "baskin": "sovyet-rusya",
+   "baskin_pay": 1.0,
+   "isgal": [],
+   "hal": "olculdu"
+  },
+  "Thailand": {
+   "nokta": 24,
+   "kimlik": [
+    [
+     "siyam-chakri",
+     24
+    ]
+   ],
+   "baskin": "siyam-chakri",
+   "baskin_pay": 1.0,
+   "isgal": [],
+   "hal": "olculdu"
+  },
+  "Turkmenistan": {
+   "nokta": 12,
+   "kimlik": [
+    [
+     "sovyet-rusya",
+     10
+    ],
+    [
+     "__SAHIPSIZ__",
+     2
+    ]
+   ],
+   "baskin": "sovyet-rusya",
+   "baskin_pay": 0.833,
+   "isgal": [],
+   "hal": "olculdu"
+  },
+  "US Naval Base Guantanamo Bay": {
+   "nokta": 0,
+   "kimlik": [],
+   "baskin": null,
+   "baskin_pay": null,
+   "isgal": [],
+   "hal": "olculemedi-nokta-yok"
+  },
+  "United States of America": {
+   "nokta": 217,
+   "kimlik": [
+    [
+     "abd",
+     173
+    ],
+    [
+     "kanada",
+     19
+    ],
+    [
+     "meksika",
+     18
+    ],
+    [
+     "__SAHIPSIZ__",
+     7
+    ]
+   ],
+   "baskin": "abd",
+   "baskin_pay": 0.797,
+   "isgal": [],
+   "hal": "olculdu"
+  },
+  "Uruguay": {
+   "nokta": 3,
+   "kimlik": [
+    [
+     "uruguay-cumhuriyeti",
+     3
+    ]
+   ],
+   "baskin": "uruguay-cumhuriyeti",
+   "baskin_pay": 1.0,
+   "isgal": [],
+   "hal": "olculdu"
+  },
+  "Uzbekistan": {
+   "nokta": 14,
+   "kimlik": [
+    [
+     "sovyet-rusya",
+     13
+    ],
+    [
+     "__SAHIPSIZ__",
+     1
+    ]
+   ],
+   "baskin": "sovyet-rusya",
+   "baskin_pay": 0.929,
+   "isgal": [],
+   "hal": "olculdu"
+  },
+  "Venezuela": {
+   "nokta": 5,
+   "kimlik": [
+    [
+     "venezuela-cumhuriyeti",
+     3
+    ],
+    [
+     "__SAHIPSIZ__",
+     2
+    ]
+   ],
+   "baskin": "venezuela-cumhuriyeti",
+   "baskin_pay": 0.6,
+   "isgal": [],
+   "hal": "olculdu"
+  },
+  "Vietnam": {
+   "nokta": 25,
+   "kimlik": [
+    [
+     "fransiz-cinhindi",
+     25
+    ]
+   ],
+   "baskin": "fransiz-cinhindi",
+   "baskin_pay": 1.0,
+   "isgal": [],
+   "hal": "olculdu"
+  }
+ },
+ "kenar": [
+  {
+   "ne_a": "Canada",
+   "ne_b": "United States of America",
+   "uzunluk_derece": 94.03707,
+   "a_1923": "kanada",
+   "a_nokta": 172,
+   "a_pay": 0.971,
+   "b_1923": "abd",
+   "b_nokta": 217,
+   "b_pay": 0.797,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Kazakhstan",
+   "ne_b": "Russia",
+   "uzunluk_derece": 80.64779,
+   "a_1923": "sovyet-rusya",
+   "a_nokta": 33,
+   "a_pay": 0.97,
+   "b_1923": "sovyet-rusya",
+   "b_nokta": 291,
+   "b_pay": 0.931,
+   "cinsi": "AYNI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Argentina",
+   "ne_b": "Chile",
+   "uzunluk_derece": 50.12079,
+   "a_1923": "arjantin-cumhuriyeti",
+   "a_nokta": 37,
+   "a_pay": 0.919,
+   "b_1923": "sili-cumhuriyeti",
+   "b_nokta": 13,
+   "b_pay": 0.923,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "China",
+   "ne_b": "Mongolia",
+   "uzunluk_derece": 49.68668,
+   "a_1923": "cin-cumhuriyeti",
+   "a_nokta": 98,
+   "a_pay": 0.949,
+   "b_1923": "mogolistan",
+   "b_nokta": 15,
+   "b_pay": 0.867,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "China",
+   "ne_b": "Russia",
+   "uzunluk_derece": 40.98644,
+   "a_1923": "cin-cumhuriyeti",
+   "a_nokta": 98,
+   "a_pay": 0.949,
+   "b_1923": "sovyet-rusya",
+   "b_nokta": 291,
+   "b_pay": 0.931,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Mongolia",
+   "ne_b": "Russia",
+   "uzunluk_derece": 36.0374,
+   "a_1923": "mogolistan",
+   "a_nokta": 15,
+   "a_pay": 0.867,
+   "b_1923": "sovyet-rusya",
+   "b_nokta": 291,
+   "b_pay": 0.931,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Mexico",
+   "ne_b": "United States of America",
+   "uzunluk_derece": 26.34321,
+   "a_1923": "meksika",
+   "a_nokta": 58,
+   "a_pay": 0.948,
+   "b_1923": "abd",
+   "b_nokta": 217,
+   "b_pay": 0.797,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "India",
+   "ne_b": "Pakistan",
+   "uzunluk_derece": 25.8947,
+   "a_1923": "ingiliz-hindistani",
+   "a_nokta": 109,
+   "a_pay": 0.679,
+   "b_1923": "ingiliz-hindistani",
+   "b_nokta": 11,
+   "b_pay": 0.909,
+   "cinsi": "AYNI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Bolivia",
+   "ne_b": "Brazil",
+   "uzunluk_derece": 24.37381,
+   "a_1923": "bolivya-cumhuriyeti",
+   "a_nokta": 15,
+   "a_pay": 0.867,
+   "b_1923": "brezilya-cumhuriyeti",
+   "b_nokta": 46,
+   "b_pay": 0.652,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Kazakhstan",
+   "ne_b": "Uzbekistan",
+   "uzunluk_derece": 23.38916,
+   "a_1923": "sovyet-rusya",
+   "a_nokta": 33,
+   "a_pay": 0.97,
+   "b_1923": "sovyet-rusya",
+   "b_nokta": 14,
+   "b_pay": 0.929,
+   "cinsi": "AYNI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Afghanistan",
+   "ne_b": "Pakistan",
+   "uzunluk_derece": 22.63924,
+   "a_1923": "afganistan",
+   "a_nokta": 6,
+   "a_pay": 0.833,
+   "b_1923": "ingiliz-hindistani",
+   "b_nokta": 11,
+   "b_pay": 0.909,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Bangladesh",
+   "ne_b": "India",
+   "uzunluk_derece": 22.44614,
+   "a_1923": "ingiliz-hindistani",
+   "a_nokta": 3,
+   "a_pay": 1.0,
+   "b_1923": "ingiliz-hindistani",
+   "b_nokta": 109,
+   "b_pay": 0.679,
+   "cinsi": "AYNI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "China",
+   "ne_b": "India",
+   "uzunluk_derece": 21.93985,
+   "a_1923": "cin-cumhuriyeti",
+   "a_nokta": 98,
+   "a_pay": 0.949,
+   "b_1923": "ingiliz-hindistani",
+   "b_nokta": 109,
+   "b_pay": 0.679,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Colombia",
+   "ne_b": "Venezuela",
+   "uzunluk_derece": 19.10377,
+   "a_1923": "kolombiya-cumhuriyeti",
+   "a_nokta": 6,
+   "a_pay": 0.833,
+   "b_1923": "venezuela-cumhuriyeti",
+   "b_nokta": 5,
+   "b_pay": 0.6,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Turkmenistan",
+   "ne_b": "Uzbekistan",
+   "uzunluk_derece": 17.04345,
+   "a_1923": "sovyet-rusya",
+   "a_nokta": 12,
+   "a_pay": 0.833,
+   "b_1923": "sovyet-rusya",
+   "b_nokta": 14,
+   "b_pay": 0.929,
+   "cinsi": "AYNI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Myanmar",
+   "ne_b": "Thailand",
+   "uzunluk_derece": 16.81886,
+   "a_1923": "ingiliz-hindistani",
+   "a_nokta": 30,
+   "a_pay": 0.9,
+   "b_1923": "siyam-chakri",
+   "b_nokta": 24,
+   "b_pay": 1.0,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "China",
+   "ne_b": "Kazakhstan",
+   "uzunluk_derece": 16.39368,
+   "a_1923": "cin-cumhuriyeti",
+   "a_nokta": 98,
+   "a_pay": 0.949,
+   "b_1923": "sovyet-rusya",
+   "b_nokta": 33,
+   "b_pay": 0.97,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Brazil",
+   "ne_b": "Peru",
+   "uzunluk_derece": 16.30508,
+   "a_1923": "brezilya-cumhuriyeti",
+   "a_nokta": 46,
+   "a_pay": 0.652,
+   "b_1923": "peru-cumhuriyeti",
+   "b_nokta": 30,
+   "b_pay": 0.9,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Laos",
+   "ne_b": "Vietnam",
+   "uzunluk_derece": 16.22532,
+   "a_1923": "fransiz-cinhindi",
+   "a_nokta": 7,
+   "a_pay": 1.0,
+   "b_1923": "fransiz-cinhindi",
+   "b_nokta": 25,
+   "b_pay": 1.0,
+   "cinsi": "AYNI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "China",
+   "ne_b": "Myanmar",
+   "uzunluk_derece": 15.98871,
+   "a_1923": "cin-cumhuriyeti",
+   "a_nokta": 98,
+   "a_pay": 0.949,
+   "b_1923": "ingiliz-hindistani",
+   "b_nokta": 30,
+   "b_pay": 0.9,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Argentina",
+   "ne_b": "Paraguay",
+   "uzunluk_derece": 15.738,
+   "a_1923": "arjantin-cumhuriyeti",
+   "a_nokta": 37,
+   "a_pay": 0.919,
+   "b_1923": "paraguay-cumhuriyeti",
+   "b_nokta": 5,
+   "b_pay": 0.8,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Laos",
+   "ne_b": "Thailand",
+   "uzunluk_derece": 14.89956,
+   "a_1923": "fransiz-cinhindi",
+   "a_nokta": 7,
+   "a_pay": 1.0,
+   "b_1923": "siyam-chakri",
+   "b_nokta": 24,
+   "b_pay": 1.0,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Brazil",
+   "ne_b": "Venezuela",
+   "uzunluk_derece": 14.44542,
+   "a_1923": "brezilya-cumhuriyeti",
+   "a_nokta": 46,
+   "a_pay": 0.652,
+   "b_1923": "venezuela-cumhuriyeti",
+   "b_nokta": 5,
+   "b_pay": 0.6,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "India",
+   "ne_b": "Nepal",
+   "uzunluk_derece": 14.30328,
+   "a_1923": "ingiliz-hindistani",
+   "a_nokta": 109,
+   "a_pay": 0.679,
+   "b_1923": "nepal",
+   "b_nokta": 1,
+   "b_pay": 1.0,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": true
+  },
+  {
+   "ne_a": "Indonesia",
+   "ne_b": "Malaysia",
+   "uzunluk_derece": 13.47348,
+   "a_1923": "hollanda-dogu-hint",
+   "a_nokta": 80,
+   "a_pay": 0.838,
+   "b_1923": "ingiliz-malaya",
+   "b_nokta": 13,
+   "b_pay": 0.769,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Brazil",
+   "ne_b": "Colombia",
+   "uzunluk_derece": 12.60079,
+   "a_1923": "brezilya-cumhuriyeti",
+   "a_nokta": 46,
+   "a_pay": 0.652,
+   "b_1923": "kolombiya-cumhuriyeti",
+   "b_nokta": 6,
+   "b_pay": 0.833,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Afghanistan",
+   "ne_b": "Tajikistan",
+   "uzunluk_derece": 12.01564,
+   "a_1923": "afganistan",
+   "a_nokta": 6,
+   "a_pay": 0.833,
+   "b_1923": "sovyet-rusya",
+   "b_nokta": 3,
+   "b_pay": 1.0,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "India",
+   "ne_b": "Myanmar",
+   "uzunluk_derece": 11.92098,
+   "a_1923": "ingiliz-hindistani",
+   "a_nokta": 109,
+   "a_pay": 0.679,
+   "b_1923": "ingiliz-hindistani",
+   "b_nokta": 30,
+   "b_pay": 0.9,
+   "cinsi": "AYNI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Tajikistan",
+   "ne_b": "Uzbekistan",
+   "uzunluk_derece": 11.6691,
+   "a_1923": "sovyet-rusya",
+   "a_nokta": 3,
+   "a_pay": 1.0,
+   "b_1923": "sovyet-rusya",
+   "b_nokta": 14,
+   "b_pay": 0.929,
+   "cinsi": "AYNI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Ecuador",
+   "ne_b": "Peru",
+   "uzunluk_derece": 11.64784,
+   "a_1923": "ekvador-cumhuriyeti",
+   "a_nokta": 4,
+   "a_pay": 1.0,
+   "b_1923": "peru-cumhuriyeti",
+   "b_nokta": 30,
+   "b_pay": 0.9,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Kazakhstan",
+   "ne_b": "Kyrgyzstan",
+   "uzunluk_derece": 11.50376,
+   "a_1923": "sovyet-rusya",
+   "a_nokta": 33,
+   "a_pay": 0.97,
+   "b_1923": "sovyet-rusya",
+   "b_nokta": 4,
+   "b_pay": 1.0,
+   "cinsi": "AYNI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Kyrgyzstan",
+   "ne_b": "Uzbekistan",
+   "uzunluk_derece": 11.11577,
+   "a_1923": "sovyet-rusya",
+   "a_nokta": 4,
+   "a_pay": 1.0,
+   "b_1923": "sovyet-rusya",
+   "b_nokta": 14,
+   "b_pay": 0.929,
+   "cinsi": "AYNI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Colombia",
+   "ne_b": "Peru",
+   "uzunluk_derece": 11.00271,
+   "a_1923": "kolombiya-cumhuriyeti",
+   "a_nokta": 6,
+   "a_pay": 0.833,
+   "b_1923": "peru-cumhuriyeti",
+   "b_nokta": 30,
+   "b_pay": 0.9,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "China",
+   "ne_b": "Nepal",
+   "uzunluk_derece": 10.80916,
+   "a_1923": "cin-cumhuriyeti",
+   "a_nokta": 98,
+   "a_pay": 0.949,
+   "b_1923": "nepal",
+   "b_nokta": 1,
+   "b_pay": 1.0,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": true
+  },
+  {
+   "ne_a": "China",
+   "ne_b": "North Korea",
+   "uzunluk_derece": 10.6918,
+   "a_1923": "cin-cumhuriyeti",
+   "a_nokta": 98,
+   "a_pay": 0.949,
+   "b_1923": "meiji-japonya",
+   "b_nokta": 6,
+   "b_pay": 1.0,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Brazil",
+   "ne_b": "Paraguay",
+   "uzunluk_derece": 10.2295,
+   "a_1923": "brezilya-cumhuriyeti",
+   "a_nokta": 46,
+   "a_pay": 0.652,
+   "b_1923": "paraguay-cumhuriyeti",
+   "b_nokta": 5,
+   "b_pay": 0.8,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Iran",
+   "ne_b": "Turkmenistan",
+   "uzunluk_derece": 10.033,
+   "a_1923": "kacar",
+   "a_nokta": 109,
+   "a_pay": 0.982,
+   "b_1923": "sovyet-rusya",
+   "b_nokta": 12,
+   "b_pay": 0.833,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "China",
+   "ne_b": "Vietnam",
+   "uzunluk_derece": 9.85783,
+   "a_1923": "cin-cumhuriyeti",
+   "a_nokta": 98,
+   "a_pay": 0.949,
+   "b_1923": "fransiz-cinhindi",
+   "b_nokta": 25,
+   "b_pay": 1.0,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Brazil",
+   "ne_b": "Guyana",
+   "uzunluk_derece": 9.73716,
+   "a_1923": "brezilya-cumhuriyeti",
+   "a_nokta": 46,
+   "a_pay": 0.652,
+   "b_1923": "ingiliz-guyanasi",
+   "b_nokta": 5,
+   "b_pay": 0.6,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Argentina",
+   "ne_b": "Brazil",
+   "uzunluk_derece": 9.36983,
+   "a_1923": "arjantin-cumhuriyeti",
+   "a_nokta": 37,
+   "a_pay": 0.919,
+   "b_1923": "brezilya-cumhuriyeti",
+   "b_nokta": 46,
+   "b_pay": 0.652,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "China",
+   "ne_b": "Kyrgyzstan",
+   "uzunluk_derece": 9.02665,
+   "a_1923": "cin-cumhuriyeti",
+   "a_nokta": 98,
+   "a_pay": 0.949,
+   "b_1923": "sovyet-rusya",
+   "b_nokta": 4,
+   "b_pay": 1.0,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Kyrgyzstan",
+   "ne_b": "Tajikistan",
+   "uzunluk_derece": 8.93636,
+   "a_1923": "sovyet-rusya",
+   "a_nokta": 4,
+   "a_pay": 1.0,
+   "b_1923": "sovyet-rusya",
+   "b_nokta": 3,
+   "b_pay": 1.0,
+   "cinsi": "AYNI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Cambodia",
+   "ne_b": "Vietnam",
+   "uzunluk_derece": 8.79588,
+   "a_1923": "fransiz-cinhindi",
+   "a_nokta": 14,
+   "a_pay": 1.0,
+   "b_1923": "fransiz-cinhindi",
+   "b_nokta": 25,
+   "b_pay": 1.0,
+   "cinsi": "AYNI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Bolivia",
+   "ne_b": "Peru",
+   "uzunluk_derece": 8.70345,
+   "a_1923": "bolivya-cumhuriyeti",
+   "a_nokta": 15,
+   "a_pay": 0.867,
+   "b_1923": "peru-cumhuriyeti",
+   "b_nokta": 30,
+   "b_pay": 0.9,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Afghanistan",
+   "ne_b": "Iran",
+   "uzunluk_derece": 8.33766,
+   "a_1923": "afganistan",
+   "a_nokta": 6,
+   "a_pay": 0.833,
+   "b_1923": "kacar",
+   "b_nokta": 109,
+   "b_pay": 0.982,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Guatemala",
+   "ne_b": "Mexico",
+   "uzunluk_derece": 8.28358,
+   "a_1923": "__SAHIPSIZ__",
+   "a_nokta": 5,
+   "a_pay": 0.6,
+   "b_1923": "meksika",
+   "b_nokta": 58,
+   "b_pay": 0.948,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Iran",
+   "ne_b": "Pakistan",
+   "uzunluk_derece": 7.77152,
+   "a_1923": "kacar",
+   "a_nokta": 109,
+   "a_pay": 0.982,
+   "b_1923": "ingiliz-hindistani",
+   "b_nokta": 11,
+   "b_pay": 0.909,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Brazil",
+   "ne_b": "Uruguay",
+   "uzunluk_derece": 7.72202,
+   "a_1923": "brezilya-cumhuriyeti",
+   "a_nokta": 46,
+   "a_pay": 0.652,
+   "b_1923": "uruguay-cumhuriyeti",
+   "b_nokta": 3,
+   "b_pay": 1.0,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Bolivia",
+   "ne_b": "Chile",
+   "uzunluk_derece": 7.63173,
+   "a_1923": "bolivya-cumhuriyeti",
+   "a_nokta": 15,
+   "a_pay": 0.867,
+   "b_1923": "sili-cumhuriyeti",
+   "b_nokta": 13,
+   "b_pay": 0.923,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Afghanistan",
+   "ne_b": "Turkmenistan",
+   "uzunluk_derece": 7.4381,
+   "a_1923": "afganistan",
+   "a_nokta": 6,
+   "a_pay": 0.833,
+   "b_1923": "sovyet-rusya",
+   "b_nokta": 12,
+   "b_pay": 0.833,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Honduras",
+   "ne_b": "Nicaragua",
+   "uzunluk_derece": 7.02447,
+   "a_1923": "meksika",
+   "a_nokta": 3,
+   "a_pay": 1.0,
+   "b_1923": null,
+   "b_nokta": 0,
+   "b_pay": null,
+   "cinsi": "olculemedi",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Bolivia",
+   "ne_b": "Paraguay",
+   "uzunluk_derece": 6.90545,
+   "a_1923": "bolivya-cumhuriyeti",
+   "a_nokta": 15,
+   "a_pay": 0.867,
+   "b_1923": "paraguay-cumhuriyeti",
+   "b_nokta": 5,
+   "b_pay": 0.8,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Indonesia",
+   "ne_b": "Papua New Guinea",
+   "uzunluk_derece": 6.76959,
+   "a_1923": "hollanda-dogu-hint",
+   "a_nokta": 80,
+   "a_pay": 0.838,
+   "b_1923": "__SAHIPSIZ__",
+   "b_nokta": 10,
+   "b_pay": 0.6,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Argentina",
+   "ne_b": "Bolivia",
+   "uzunluk_derece": 6.73157,
+   "a_1923": "arjantin-cumhuriyeti",
+   "a_nokta": 37,
+   "a_pay": 0.919,
+   "b_1923": "bolivya-cumhuriyeti",
+   "b_nokta": 15,
+   "b_pay": 0.867,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Cambodia",
+   "ne_b": "Thailand",
+   "uzunluk_derece": 6.06931,
+   "a_1923": "fransiz-cinhindi",
+   "a_nokta": 14,
+   "a_pay": 1.0,
+   "b_1923": "siyam-chakri",
+   "b_nokta": 24,
+   "b_pay": 1.0,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Guyana",
+   "ne_b": "Suriname",
+   "uzunluk_derece": 5.92217,
+   "a_1923": "ingiliz-guyanasi",
+   "a_nokta": 5,
+   "a_pay": 0.6,
+   "b_1923": "__SAHIPSIZ__",
+   "b_nokta": 3,
+   "b_pay": 0.667,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Bhutan",
+   "ne_b": "India",
+   "uzunluk_derece": 5.88393,
+   "a_1923": null,
+   "a_nokta": 0,
+   "a_pay": null,
+   "b_1923": "ingiliz-hindistani",
+   "b_nokta": 109,
+   "b_pay": 0.679,
+   "cinsi": "olculemedi",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Guyana",
+   "ne_b": "Venezuela",
+   "uzunluk_derece": 5.62978,
+   "a_1923": "ingiliz-guyanasi",
+   "a_nokta": 5,
+   "a_pay": 0.6,
+   "b_1923": "venezuela-cumhuriyeti",
+   "b_nokta": 5,
+   "b_pay": 0.6,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Colombia",
+   "ne_b": "Ecuador",
+   "uzunluk_derece": 4.69061,
+   "a_1923": "kolombiya-cumhuriyeti",
+   "a_nokta": 6,
+   "a_pay": 0.833,
+   "b_1923": "ekvador-cumhuriyeti",
+   "b_nokta": 4,
+   "b_pay": 1.0,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Kazakhstan",
+   "ne_b": "Turkmenistan",
+   "uzunluk_derece": 4.13972,
+   "a_1923": "sovyet-rusya",
+   "a_nokta": 33,
+   "a_pay": 0.97,
+   "b_1923": "sovyet-rusya",
+   "b_nokta": 12,
+   "b_pay": 0.833,
+   "cinsi": "AYNI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Bhutan",
+   "ne_b": "China",
+   "uzunluk_derece": 4.08404,
+   "a_1923": null,
+   "a_nokta": 0,
+   "a_pay": null,
+   "b_1923": "cin-cumhuriyeti",
+   "b_nokta": 98,
+   "b_pay": 0.949,
+   "cinsi": "olculemedi",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "China",
+   "ne_b": "Tajikistan",
+   "uzunluk_derece": 4.07157,
+   "a_1923": "cin-cumhuriyeti",
+   "a_nokta": 98,
+   "a_pay": 0.949,
+   "b_1923": "sovyet-rusya",
+   "b_nokta": 3,
+   "b_pay": 1.0,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Cambodia",
+   "ne_b": "Laos",
+   "uzunluk_derece": 3.95879,
+   "a_1923": "fransiz-cinhindi",
+   "a_nokta": 14,
+   "a_pay": 1.0,
+   "b_1923": "fransiz-cinhindi",
+   "b_nokta": 7,
+   "b_pay": 1.0,
+   "cinsi": "AYNI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Malaysia",
+   "ne_b": "Thailand",
+   "uzunluk_derece": 3.91311,
+   "a_1923": "ingiliz-malaya",
+   "a_nokta": 13,
+   "a_pay": 0.769,
+   "b_1923": "siyam-chakri",
+   "b_nokta": 24,
+   "b_pay": 1.0,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Brunei",
+   "ne_b": "Malaysia",
+   "uzunluk_derece": 3.60422,
+   "a_1923": "brunei-sultanligi",
+   "a_nokta": 1,
+   "a_pay": 1.0,
+   "b_1923": "ingiliz-malaya",
+   "b_nokta": 13,
+   "b_pay": 0.769,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": true,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "China",
+   "ne_b": "Pakistan",
+   "uzunluk_derece": 3.57217,
+   "a_1923": "cin-cumhuriyeti",
+   "a_nokta": 98,
+   "a_pay": 0.949,
+   "b_1923": "ingiliz-hindistani",
+   "b_nokta": 11,
+   "b_pay": 0.909,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "China",
+   "ne_b": "Laos",
+   "uzunluk_derece": 3.36735,
+   "a_1923": "cin-cumhuriyeti",
+   "a_nokta": 98,
+   "a_pay": 0.949,
+   "b_1923": "fransiz-cinhindi",
+   "b_nokta": 7,
+   "b_pay": 1.0,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Brazil",
+   "ne_b": "Suriname",
+   "uzunluk_derece": 3.30081,
+   "a_1923": "brezilya-cumhuriyeti",
+   "a_nokta": 46,
+   "a_pay": 0.652,
+   "b_1923": "__SAHIPSIZ__",
+   "b_nokta": 3,
+   "b_pay": 0.667,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Baykonur Cosmodrome",
+   "ne_b": "Kazakhstan",
+   "uzunluk_derece": 3.1504,
+   "a_1923": null,
+   "a_nokta": 0,
+   "a_pay": null,
+   "b_1923": "sovyet-rusya",
+   "b_nokta": 33,
+   "b_pay": 0.97,
+   "cinsi": "olculemedi",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "El Salvador",
+   "ne_b": "Honduras",
+   "uzunluk_derece": 2.92101,
+   "a_1923": null,
+   "a_nokta": 0,
+   "a_pay": null,
+   "b_1923": "meksika",
+   "b_nokta": 3,
+   "b_pay": 1.0,
+   "cinsi": "olculemedi",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Argentina",
+   "ne_b": "Uruguay",
+   "uzunluk_derece": 2.82142,
+   "a_1923": "arjantin-cumhuriyeti",
+   "a_nokta": 37,
+   "a_pay": 0.919,
+   "b_1923": "uruguay-cumhuriyeti",
+   "b_nokta": 3,
+   "b_pay": 1.0,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Costa Rica",
+   "ne_b": "Nicaragua",
+   "uzunluk_derece": 2.6741,
+   "a_1923": null,
+   "a_nokta": 0,
+   "a_pay": null,
+   "b_1923": null,
+   "b_nokta": 0,
+   "b_pay": null,
+   "cinsi": "olculemedi",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Costa Rica",
+   "ne_b": "Panama",
+   "uzunluk_derece": 2.58541,
+   "a_1923": null,
+   "a_nokta": 0,
+   "a_pay": null,
+   "b_1923": "panama-cumhuriyeti",
+   "b_nokta": 2,
+   "b_pay": 1.0,
+   "cinsi": "olculemedi",
+   "a_zayif": false,
+   "b_zayif": true
+  },
+  {
+   "ne_a": "Colombia",
+   "ne_b": "Panama",
+   "uzunluk_derece": 2.46837,
+   "a_1923": "kolombiya-cumhuriyeti",
+   "a_nokta": 6,
+   "a_pay": 0.833,
+   "b_1923": "panama-cumhuriyeti",
+   "b_nokta": 2,
+   "b_pay": 1.0,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": true
+  },
+  {
+   "ne_a": "Dominican Republic",
+   "ne_b": "Haiti",
+   "uzunluk_derece": 2.40439,
+   "a_1923": "dominik-cumhuriyeti",
+   "a_nokta": 2,
+   "a_pay": 1.0,
+   "b_1923": "haiti",
+   "b_nokta": 1,
+   "b_pay": 1.0,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": true,
+   "b_zayif": true
+  },
+  {
+   "ne_a": "Belize",
+   "ne_b": "Guatemala",
+   "uzunluk_derece": 2.26432,
+   "a_1923": "ingiltere",
+   "a_nokta": 1,
+   "a_pay": 1.0,
+   "b_1923": "__SAHIPSIZ__",
+   "b_nokta": 5,
+   "b_pay": 0.6,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": true,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "North Korea",
+   "ne_b": "South Korea",
+   "uzunluk_derece": 2.15793,
+   "a_1923": "meiji-japonya",
+   "a_nokta": 6,
+   "a_pay": 1.0,
+   "b_1923": "meiji-japonya",
+   "b_nokta": 10,
+   "b_pay": 1.0,
+   "cinsi": "AYNI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Laos",
+   "ne_b": "Myanmar",
+   "uzunluk_derece": 2.13501,
+   "a_1923": "fransiz-cinhindi",
+   "a_nokta": 7,
+   "a_pay": 1.0,
+   "b_1923": "ingiliz-hindistani",
+   "b_nokta": 30,
+   "b_pay": 0.9,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Guatemala",
+   "ne_b": "Honduras",
+   "uzunluk_derece": 2.04252,
+   "a_1923": "__SAHIPSIZ__",
+   "a_nokta": 5,
+   "a_pay": 0.6,
+   "b_1923": "meksika",
+   "b_nokta": 3,
+   "b_pay": 1.0,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "East Timor",
+   "ne_b": "Indonesia",
+   "uzunluk_derece": 1.88894,
+   "a_1923": "portekiz",
+   "a_nokta": 1,
+   "a_pay": 1.0,
+   "b_1923": "hollanda-dogu-hint",
+   "b_nokta": 80,
+   "b_pay": 0.838,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": true,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Bangladesh",
+   "ne_b": "Myanmar",
+   "uzunluk_derece": 1.68085,
+   "a_1923": "ingiliz-hindistani",
+   "a_nokta": 3,
+   "a_pay": 1.0,
+   "b_1923": "ingiliz-hindistani",
+   "b_nokta": 30,
+   "b_pay": 0.9,
+   "cinsi": "AYNI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Chile",
+   "ne_b": "Peru",
+   "uzunluk_derece": 1.49617,
+   "a_1923": "sili-cumhuriyeti",
+   "a_nokta": 13,
+   "a_pay": 0.923,
+   "b_1923": "peru-cumhuriyeti",
+   "b_nokta": 30,
+   "b_pay": 0.9,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Afghanistan",
+   "ne_b": "Uzbekistan",
+   "uzunluk_derece": 1.45911,
+   "a_1923": "afganistan",
+   "a_nokta": 6,
+   "a_pay": 0.833,
+   "b_1923": "sovyet-rusya",
+   "b_nokta": 14,
+   "b_pay": 0.929,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "El Salvador",
+   "ne_b": "Guatemala",
+   "uzunluk_derece": 1.43321,
+   "a_1923": null,
+   "a_nokta": 0,
+   "a_pay": null,
+   "b_1923": "__SAHIPSIZ__",
+   "b_nokta": 5,
+   "b_pay": 0.6,
+   "cinsi": "olculemedi",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Belize",
+   "ne_b": "Mexico",
+   "uzunluk_derece": 1.4209,
+   "a_1923": "ingiltere",
+   "a_nokta": 1,
+   "a_pay": 1.0,
+   "b_1923": "meksika",
+   "b_nokta": 58,
+   "b_pay": 0.948,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": true,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "China",
+   "ne_b": "Siachen Glacier",
+   "uzunluk_derece": 1.09328,
+   "a_1923": "cin-cumhuriyeti",
+   "a_nokta": 98,
+   "a_pay": 0.949,
+   "b_1923": null,
+   "b_nokta": 0,
+   "b_pay": null,
+   "cinsi": "olculemedi",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Chile",
+   "ne_b": "Southern Patagonian Ice Field",
+   "uzunluk_derece": 0.97926,
+   "a_1923": "sili-cumhuriyeti",
+   "a_nokta": 13,
+   "a_pay": 0.923,
+   "b_1923": null,
+   "b_nokta": 0,
+   "b_pay": null,
+   "cinsi": "olculemedi",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Afghanistan",
+   "ne_b": "China",
+   "uzunluk_derece": 0.87607,
+   "a_1923": "afganistan",
+   "a_nokta": 6,
+   "a_pay": 0.833,
+   "b_1923": "cin-cumhuriyeti",
+   "b_nokta": 98,
+   "b_pay": 0.949,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "India",
+   "ne_b": "Siachen Glacier",
+   "uzunluk_derece": 0.84425,
+   "a_1923": "ingiliz-hindistani",
+   "a_nokta": 109,
+   "a_pay": 0.679,
+   "b_1923": null,
+   "b_nokta": 0,
+   "b_pay": null,
+   "cinsi": "olculemedi",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Argentina",
+   "ne_b": "Southern Patagonian Ice Field",
+   "uzunluk_derece": 0.77272,
+   "a_1923": "arjantin-cumhuriyeti",
+   "a_nokta": 37,
+   "a_pay": 0.919,
+   "b_1923": null,
+   "b_nokta": 0,
+   "b_pay": null,
+   "cinsi": "olculemedi",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Pakistan",
+   "ne_b": "Siachen Glacier",
+   "uzunluk_derece": 0.6006,
+   "a_1923": "ingiliz-hindistani",
+   "a_nokta": 11,
+   "a_pay": 0.909,
+   "b_1923": null,
+   "b_nokta": 0,
+   "b_pay": null,
+   "cinsi": "olculemedi",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "North Korea",
+   "ne_b": "Russia",
+   "uzunluk_derece": 0.31235,
+   "a_1923": "meiji-japonya",
+   "a_nokta": 6,
+   "a_pay": 1.0,
+   "b_1923": "sovyet-rusya",
+   "b_nokta": 291,
+   "b_pay": 0.931,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Cuba",
+   "ne_b": "US Naval Base Guantanamo Bay",
+   "uzunluk_derece": 0.23286,
+   "a_1923": "kuba-cumhuriyeti",
+   "a_nokta": 6,
+   "a_pay": 0.667,
+   "b_1923": null,
+   "b_nokta": 0,
+   "b_pay": null,
+   "cinsi": "olculemedi",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "China",
+   "ne_b": "Hong Kong S.A.R.",
+   "uzunluk_derece": 0.17204,
+   "a_1923": "cin-cumhuriyeti",
+   "a_nokta": 98,
+   "a_pay": 0.949,
+   "b_1923": "ingiltere",
+   "b_nokta": 1,
+   "b_pay": 1.0,
+   "cinsi": "FARKLI-KIMLIK",
+   "a_zayif": false,
+   "b_zayif": true
+  },
+  {
+   "ne_a": "Saint Martin",
+   "ne_b": "Sint Maarten",
+   "uzunluk_derece": 0.09421,
+   "a_1923": null,
+   "a_nokta": 0,
+   "a_pay": null,
+   "b_1923": null,
+   "b_nokta": 0,
+   "b_pay": null,
+   "cinsi": "olculemedi",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Brazilian Island",
+   "ne_b": "Uruguay",
+   "uzunluk_derece": 0.03976,
+   "a_1923": null,
+   "a_nokta": 0,
+   "a_pay": null,
+   "b_1923": "uruguay-cumhuriyeti",
+   "b_nokta": 3,
+   "b_pay": 1.0,
+   "cinsi": "olculemedi",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Argentina",
+   "ne_b": "Brazilian Island",
+   "uzunluk_derece": 0.03503,
+   "a_1923": "arjantin-cumhuriyeti",
+   "a_nokta": 37,
+   "a_pay": 0.919,
+   "b_1923": null,
+   "b_nokta": 0,
+   "b_pay": null,
+   "cinsi": "olculemedi",
+   "a_zayif": false,
+   "b_zayif": false
+  },
+  {
+   "ne_a": "Brazil",
+   "ne_b": "Brazilian Island",
+   "uzunluk_derece": 0.01168,
+   "a_1923": "brezilya-cumhuriyeti",
+   "a_nokta": 46,
+   "a_pay": 0.652,
+   "b_1923": null,
+   "b_nokta": 0,
+   "b_pay": null,
+   "cinsi": "olculemedi",
+   "a_zayif": false,
+   "b_zayif": false
+  }
+ ]
+}

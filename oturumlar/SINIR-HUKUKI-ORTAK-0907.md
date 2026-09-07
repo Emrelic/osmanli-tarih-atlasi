@@ -36,6 +36,41 @@ başına değil **SINIR BAŞINA** farklıdır. Tam hüküm:
 ⚠️ **🔴 bir başarısızlık değildir.** *"Arandı, metin yok"* yazmak,
 uydurmaktan kat kat değerlidir (`§4`).
 
+### 🔴🔴 DÖRDÜNCÜ KOVA — `SINIR-KAFRIKA-0907` şartnamenin eksiğini buldu
+*(7 Eylül 14:48 · `§7.1⑥`, bekletmeden bildirdi — doğru davranış)*
+
+Yukarıdaki üç kova bir sınıfı **ifade edemiyor**:
+> ***«Çizgi 1923'te VARDI, ama ULUSLARARASI SINIR DEĞİLDİ.»***
+
+Cezayir–Tunus 1923'te iki Fransız toprağı arasındaki **idarî** bir
+hattı; Fransız Batı Afrika'nın iç bölmeleri aynı. Çizgi gerçek, ama
+*"antlaşmayla çizilmiş hukukî sınır"* değil.
+
+🟢 **HÜKÜM — dördüncü değer eklendi, ve ÖLÇÜLEBİLİR bir sınavı var:**
+```
+hal: "ayni-kimlik"
+```
+```
+SINAV   1923-10-29'da kenarın İKİ UCU AYNI atlas kimliğini mi taşıyor?
+        AYNI  ⇒ o tarihte C'de bir sınır DEĞİL   → hal:"ayni-kimlik"
+        FARKLI ⇒ gerçek bir C kenarı — uluslararası hukuk ona ne derse desin
+```
+📌 **Ve ölçüt bilerek «uluslararası mıydı» DEĞİL.** Sebep: o soru bir
+hukuk yorumu ister ve altı kol altı farklı cevap verir. *"İki ucun
+kimliği aynı mı"* sorusunun **tek** cevabı var ve onu zaten
+ölçüyorsunuz (`kimlik_1923`).
+⇒ Atlas **tasarrufu** boyar; iki yaka aynı kimlikteyse boyanacak bir
+sınır yoktur.
+
+⚠️ **KAYIT SİLİNMEZ.** `hal:"ayni-kimlik"` olan kenar C'ye bugün
+girmez ama **sonradan girebilir** (sömürgesizleşmeyle uluslararası
+sınır olur). Biliniyorsa `f:` alanına o günü yaz; bilinmiyorsa boş
+bırak ve `kaynak`a niçin bilinmediğini yaz.
+🔴 Ve `hal:"ayni-kimlik"` **`bulunamadi` DEĞİLDİR** — biri *"aradım,
+hukukî metin yok"*, öteki *"o tarihte sınır diye bir şey yoktu."*
+İkisini karıştırmak, bir sonraki oturumu **var olmayan bir metni
+aramaya** yollar.
+
 ---
 
 ## ③ ÖLÇÜLMÜŞ TABAN — devralma, ama YENİDEN ÖLÇME de

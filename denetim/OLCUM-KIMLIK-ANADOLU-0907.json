@@ -1,0 +1,288 @@
+{
+ "_NOT": "NE adi -> atlas kimligi ADAYLARI. Bu bir ESLEME TABLOSU DEGIL, bir ADAY listesidir; secim elle ve gerekceyle yapilir.",
+ "cipa": "1923-10-29",
+ "adaylar": {
+  "Turkey": [
+   {
+    "id": "tbmm-turkiye",
+    "ad": "Türkiye Büyük Millet Meclisi Hükûmeti",
+    "f": "1920-04-23",
+    "t": "1923-10-29",
+    "harita": null,
+    "cipada_canli": true
+   },
+   {
+    "id": "selcuklu",
+    "ad": "Anadolu (Türkiye) Selçuklu Devleti",
+    "f": "1075-01-01",
+    "t": "1308-01-01",
+    "harita": "selcuklu",
+    "cipada_canli": false
+   }
+  ],
+  "Iran": [
+   {
+    "id": "kacar",
+    "ad": "Kaçar Hanedanı (İran)",
+    "f": "1789-03-21",
+    "t": "1923-10-29",
+    "harita": "kacar",
+    "cipada_canli": true
+   },
+   {
+    "id": "iran",
+    "ad": "İran (Pehlevi Hanedanı → İran İslam Cumhuriyeti)",
+    "f": "1925-12-12",
+    "t": "2026-08-07",
+    "harita": null,
+    "cipada_canli": false
+   },
+   {
+    "id": "safevi",
+    "ad": "Safevî Devleti (İran)",
+    "f": "1501-07-01",
+    "t": "1736-03-08",
+    "harita": "safevi",
+    "cipada_canli": false
+   },
+   {
+    "id": "zend",
+    "ad": "Zend Hanedanı (İran)",
+    "f": "1751-01-01",
+    "t": "1794-01-01",
+    "harita": "zend",
+    "cipada_canli": false
+   }
+  ],
+  "Iraq": [
+   {
+    "id": "irak-kralligi",
+    "ad": "Irak Krallığı (Faysal I, İngiliz Mandası)",
+    "f": "1921-08-23",
+    "t": "1923-10-29",
+    "harita": null,
+    "cipada_canli": true
+   }
+  ],
+  "Syria": [
+   {
+    "id": "suriye-lubnan-mandasi",
+    "ad": "Fransız Suriye-Lübnan Manda İdaresi",
+    "f": "1920-07-01",
+    "t": "1923-10-29",
+    "harita": null,
+    "cipada_canli": true
+   },
+   {
+    "id": "memluk",
+    "ad": "Memlûk Sultanlığı (Mısır-Suriye)",
+    "f": "1250-01-01",
+    "t": "1517-04-13",
+    "harita": "memluk",
+    "cipada_canli": false
+   }
+  ],
+  "Georgia": [
+   {
+    "id": "gurcistan",
+    "ad": "Gürcistan Krallığı/Krallıkları",
+    "f": "1008-01-01",
+    "t": "1801-09-12",
+    "harita": "gurcistan",
+    "cipada_canli": false
+   },
+   {
+    "id": "gurcistan-demokratik-cumhuriyeti",
+    "ad": "Gürcistan Demokratik Cumhuriyeti",
+    "f": "1918-05-26",
+    "t": "1921-03-16",
+    "harita": null,
+    "cipada_canli": false
+   }
+  ],
+  "Armenia": [
+   {
+    "id": "ermenistan-demokratik-cumhuriyeti",
+    "ad": "Ermenistan Demokratik Cumhuriyeti",
+    "f": "1918-05-28",
+    "t": "1920-12-02",
+    "harita": null,
+    "cipada_canli": false
+   },
+   {
+    "id": "kilikya-ermeni",
+    "ad": "Kilikya Ermeni Krallığı",
+    "f": "1199-01-06",
+    "t": "1375-04-14",
+    "harita": "kilikya-ermeni",
+    "cipada_canli": false
+   }
+  ],
+  "Azerbaijan": [
+   {
+    "id": "azerbaycan-demokratik-cumhuriyeti",
+    "ad": "Azerbaycan Demokratik Cumhuriyeti",
+    "f": "1918-05-28",
+    "t": "1920-04-27",
+    "harita": null,
+    "cipada_canli": false
+   }
+  ],
+  "Russia": [
+   {
+    "id": "buhara-halk-cumhuriyeti",
+    "ad": "Buhara Halk Sovyet Cumhuriyeti",
+    "f": "1920-10-08",
+    "t": "1923-10-29",
+    "harita": null,
+    "cipada_canli": true
+   },
+   {
+    "id": "harezm-halk-cumhuriyeti",
+    "ad": "Harezm Halk Sovyet Cumhuriyeti",
+    "f": "1920-04-26",
+    "t": "1923-10-29",
+    "harita": null,
+    "cipada_canli": true
+   },
+   {
+    "id": "sovyet-rusya",
+    "ad": "Sovyet Rusya / SSCB",
+    "f": "1917-11-07",
+    "t": "1923-10-29",
+    "harita": null,
+    "cipada_canli": true
+   },
+   {
+    "id": "prusya",
+    "ad": "Prusya Krallığı",
+    "f": "1701-01-18",
+    "t": "1871-01-18",
+    "harita": null,
+    "cipada_canli": false
+   },
+   {
+    "id": "rusya",
+    "ad": "Rusya Çarlığı / İmparatorluğu",
+    "f": "1547-01-16",
+    "t": "1917-03-15",
+    "harita": "rusya",
+    "cipada_canli": false
+   },
+   {
+    "id": "rusya-gecici-hukumet",
+    "ad": "Rusya Geçici Hükûmeti",
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "harita": null,
+    "cipada_canli": false
+   }
+  ],
+  "Bulgaria": [
+   {
+    "id": "bulgaristan-kralligi",
+    "ad": "Bulgaristan Krallığı (Çarlık)",
+    "f": "1908-10-05",
+    "t": "1923-10-29",
+    "harita": "bulgaristan",
+    "cipada_canli": true
+   },
+   {
+    "id": "bulgar-carligi",
+    "ad": "İkinci Bulgar İmparatorluğu",
+    "f": "1185-01-01",
+    "t": "1396-01-01",
+    "harita": "bulgaristan",
+    "cipada_canli": false
+   },
+   {
+    "id": "bulgaristan-prensligi",
+    "ad": "Bulgaristan Prensliği",
+    "f": "1878-07-13",
+    "t": "1908-10-05",
+    "harita": "bulgaristan",
+    "cipada_canli": false
+   }
+  ],
+  "Greece": [
+   {
+    "id": "yunanistan",
+    "ad": "Yunanistan Krallığı",
+    "f": "1821-03-25",
+    "t": "1923-10-29",
+    "harita": "yunanistan",
+    "cipada_canli": true
+   }
+  ],
+  "Turkmenistan": [
+   {
+    "id": "buhara-halk-cumhuriyeti",
+    "ad": "Buhara Halk Sovyet Cumhuriyeti",
+    "f": "1920-10-08",
+    "t": "1923-10-29",
+    "harita": null,
+    "cipada_canli": true
+   },
+   {
+    "id": "buhara",
+    "ad": "Buhara Hanlığı / Emirliği",
+    "f": "1500-01-01",
+    "t": "1920-09-02",
+    "harita": "buhara",
+    "cipada_canli": false
+   },
+   {
+    "id": "hive",
+    "ad": "Hive Hanlığı",
+    "f": "1512-01-01",
+    "t": "1920-04-26",
+    "harita": "hive",
+    "cipada_canli": false
+   },
+   {
+    "id": "turkmen",
+    "ad": "Türkmen Aşiret Konfederasyonları (Yomut, Teke, Salur, Göklen, Eymir)",
+    "f": "1600-01-01",
+    "t": "1884-01-01",
+    "harita": null,
+    "cipada_canli": false
+   }
+  ],
+  "Afghanistan": [
+   {
+    "id": "afganistan",
+    "ad": "Afganistan (Bârekzâyî Emirliği)",
+    "f": "1823-01-01",
+    "t": "1923-10-29",
+    "harita": "afganistan",
+    "cipada_canli": true
+   },
+   {
+    "id": "afgan-durrani",
+    "ad": "Dürrânî (Afgan) Devleti",
+    "f": "1747-10-01",
+    "t": "1823-01-01",
+    "harita": "afgan-durrani",
+    "cipada_canli": false
+   },
+   {
+    "id": "galzay",
+    "ad": "Galzaylar (Hotakî Afgan Devleti)",
+    "f": "1709-04-21",
+    "t": "1738-01-01",
+    "harita": null,
+    "cipada_canli": false
+   }
+  ],
+  "Pakistan": [
+   {
+    "id": "ingiliz-hindistani",
+    "ad": "İngiliz Hindistanı (Şirket ve Taç Dönemi)",
+    "f": "1757-06-23",
+    "t": "1923-10-29",
+    "harita": "ingiliz-hindistani",
+    "cipada_canli": true
+   }
+  ]
+ }
+}

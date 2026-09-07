@@ -1,0 +1,46 @@
+{
+ "_NOT": "CAPRAZ KONTROL — kalem KADEME-MODEL-0907'de. Hukum degil olcum.",
+ "gecersizlik": "Ring Self-intersection[35.621087 23.139293]",
+ "kenarlar": [
+  {
+   "komsu": "Sudan",
+   "ham_km": 1178.2015,
+   "duz_km": 1178.2015,
+   "ham_tepe": 115,
+   "duz_tepe": 115,
+   "ayristi": false
+  },
+  {
+   "komsu": "Libya",
+   "ham_km": 1101.9943,
+   "duz_km": 1101.9943,
+   "ham_tepe": 75,
+   "duz_tepe": 75,
+   "ayristi": false
+  },
+  {
+   "komsu": "Israel",
+   "ham_km": 204.1052,
+   "duz_km": 204.1052,
+   "ham_tepe": 34,
+   "duz_tepe": 34,
+   "ayristi": false
+  },
+  {
+   "komsu": "Palestine",
+   "ham_km": 12.3651,
+   "duz_km": 12.3651,
+   "ham_tepe": 4,
+   "duz_tepe": 4,
+   "ayristi": false
+  },
+  {
+   "komsu": "Bir Tawil",
+   "ham_km": 93.105,
+   "duz_km": 93.105,
+   "ham_tepe": 6,
+   "duz_tepe": 6,
+   "ayristi": false
+  }
+ ]
+}

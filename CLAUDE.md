@@ -7330,8 +7330,30 @@ YAMALI AN      429 = 341 var +  88 yok  →  32 (k'li) + 56 (adsız)
   BRİFİNGİ DE BAYATLATIR — ve zinciri kimse izlemez.**
   *(7 Eylül 2026 · `oturumlar/TESPIH.md`)*
 
-  20 dakikalık uyandırıcının brifingi `TESPIH.md`nin **başlığını
-  kopyalıyor.** Dosya 6 Eylül 17:33'te dondu; brifing ertesi gün **bütün
+  > 🔴🔴 **BU DERSİN TEŞHİSİ AYNI GÜN ÇÜRÜDÜ — vaka duruyor, MEKANİZMA
+  > yanlıştı.** *(7 Eylül, `CronList` ile ölçüldü)*
+  > ```
+  > İDDİA ETTİM   "brifing TESPIH.md'nin başlığını KOPYALIYOR"
+  > ÖLÇÜM         CronList → fad27fd6 · "Every 20 minutes (recurring)"
+  >               brifing bir CRON İŞİNİN DONMUŞ PROMPT METNİ
+  > ```
+  > ⇒ Metin `TESPIH.md`nin o günkü başlığına **benziyor** çünkü cron
+  > kurulurken oradan **bir kez** kopyalanmış — her ateşlemede yeniden
+  > okunmuyor. **Korelasyon gerçek, nedensellik yanlış.**
+  > 🔴 Ve sonucu pratik: `TESPIH.md`yi tazelemek brifingi **DÜZELTMEZ.**
+  > Donmuş bir prompt ancak **yeniden kurularak** düzelir
+  > (`CronDelete` + `CronCreate`).
+  >
+  > 📌 **Ve kusurun ironisi kaydedilmeye değer:** bu dersi yazan cümle
+  > *"koordinatör bayatlığı her turda not düştü ama NEREDEN GELDİĞİNİ
+  > izlemedi"* diyordu — ve **kendisi de izlemeden bir mekanizma ilan
+  > etti.** `§11`in *"ölçüm doğru, çıkarım yanlış"* ailesinin en pahalı
+  > hâli: burada çıkarım **doktrine yazıldı.**
+  > 🟢 Ayakta kalan: `TESPIH.md` **gerçekten bayattı** ve tazelenmesi
+  > **gerekiyordu** — yalnız o, brifingin sebebi değildi.
+
+  ~~20 dakikalık uyandırıcının brifingi `TESPIH.md`nin **başlığını
+  kopyalıyor.**~~ Dosya 6 Eylül 17:33'te dondu; brifing ertesi gün **bütün
   gün** şunu açtı:
 ```
 brifing der     "KOŞU 7B · üretim PID 3880 · OTURUMLAR hepsi ÖLÜ"

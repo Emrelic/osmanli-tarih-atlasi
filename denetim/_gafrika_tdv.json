@@ -1,0 +1,440 @@
+{
+ "_NOT": "CANLI = 200 ve arama sayfasina dusmedi. 'DOGRU madde' OLCULMEDI (§4②).",
+ "sonuc": {
+  "Nigeria": [
+   {
+    "slug": "nijerya",
+    "kod": 200,
+    "durum": "CANLI",
+    "son_url": "https://islamansiklopedisi.org.tr/nijerya"
+   }
+  ],
+  "Ghana": [
+   {
+    "slug": "gana",
+    "kod": 200,
+    "durum": "CANLI",
+    "son_url": "https://islamansiklopedisi.org.tr/gana"
+   }
+  ],
+  "Mali": [
+   {
+    "slug": "mali",
+    "kod": 200,
+    "durum": "CANLI",
+    "son_url": "https://islamansiklopedisi.org.tr/mali"
+   }
+  ],
+  "Senegal": [
+   {
+    "slug": "senegal",
+    "kod": 200,
+    "durum": "CANLI",
+    "son_url": "https://islamansiklopedisi.org.tr/senegal"
+   }
+  ],
+  "Niger": [
+   {
+    "slug": "nijer",
+    "kod": 200,
+    "durum": "CANLI",
+    "son_url": "https://islamansiklopedisi.org.tr/nijer"
+   }
+  ],
+  "Chad": [
+   {
+    "slug": "cad",
+    "kod": 200,
+    "durum": "CANLI",
+    "son_url": "https://islamansiklopedisi.org.tr/cad"
+   }
+  ],
+  "Cameroon": [
+   {
+    "slug": "kamerun",
+    "kod": 200,
+    "durum": "CANLI",
+    "son_url": "https://islamansiklopedisi.org.tr/kamerun"
+   }
+  ],
+  "Gabon": [
+   {
+    "slug": "gabon",
+    "kod": 200,
+    "durum": "CANLI",
+    "son_url": "https://islamansiklopedisi.org.tr/gabon"
+   }
+  ],
+  "Congo": [
+   {
+    "slug": "kongo",
+    "kod": 200,
+    "durum": "OLU",
+    "son_url": "https://islamansiklopedisi.org.tr/arama/kongo"
+   }
+  ],
+  "Dem. Rep. Congo": [
+   {
+    "slug": "zaire",
+    "kod": 200,
+    "durum": "CANLI",
+    "son_url": "https://islamansiklopedisi.org.tr/zaire"
+   }
+  ],
+  "Angola": [
+   {
+    "slug": "angola",
+    "kod": 200,
+    "durum": "OLU",
+    "son_url": "https://islamansiklopedisi.org.tr/arama/angola"
+   }
+  ],
+  "Mozambique": [
+   {
+    "slug": "mozambik",
+    "kod": 200,
+    "durum": "CANLI",
+    "son_url": "https://islamansiklopedisi.org.tr/mozambik"
+   }
+  ],
+  "Zimbabwe": [
+   {
+    "slug": "zimbabve",
+    "kod": 200,
+    "durum": "CANLI",
+    "son_url": "https://islamansiklopedisi.org.tr/zimbabve"
+   }
+  ],
+  "Zambia": [
+   {
+    "slug": "zambiya",
+    "kod": 200,
+    "durum": "CANLI",
+    "son_url": "https://islamansiklopedisi.org.tr/zambiya"
+   }
+  ],
+  "Malawi": [
+   {
+    "slug": "malavi",
+    "kod": 200,
+    "durum": "CANLI",
+    "son_url": "https://islamansiklopedisi.org.tr/malavi"
+   }
+  ],
+  "South Africa": [
+   {
+    "slug": "guney-afrika-cumhuriyeti",
+    "kod": 200,
+    "durum": "CANLI",
+    "son_url": "https://islamansiklopedisi.org.tr/guney-afrika-cumhuriyeti"
+   }
+  ],
+  "Namibia": [
+   {
+    "slug": "namibya",
+    "kod": 200,
+    "durum": "OLU",
+    "son_url": "https://islamansiklopedisi.org.tr/arama/namibya"
+   }
+  ],
+  "Botswana": [
+   {
+    "slug": "botsvana",
+    "kod": 200,
+    "durum": "OLU",
+    "son_url": "https://islamansiklopedisi.org.tr/arama/botsvana"
+   }
+  ],
+  "Lesotho": [
+   {
+    "slug": "lesotho",
+    "kod": 200,
+    "durum": "OLU",
+    "son_url": "https://islamansiklopedisi.org.tr/arama/lesotho"
+   }
+  ],
+  "eSwatini": [
+   {
+    "slug": "svaziland",
+    "kod": 200,
+    "durum": "OLU",
+    "son_url": "https://islamansiklopedisi.org.tr/arama/svaziland"
+   }
+  ],
+  "Madagascar": [
+   {
+    "slug": "madagaskar",
+    "kod": 200,
+    "durum": "CANLI",
+    "son_url": "https://islamansiklopedisi.org.tr/madagaskar"
+   }
+  ],
+  "Comoros": [
+   {
+    "slug": "komor-adalari",
+    "kod": 200,
+    "durum": "CANLI",
+    "son_url": "https://islamansiklopedisi.org.tr/komor-adalari"
+   }
+  ],
+  "Mauritania": [
+   {
+    "slug": "moritanya",
+    "kod": 200,
+    "durum": "CANLI",
+    "son_url": "https://islamansiklopedisi.org.tr/moritanya"
+   }
+  ],
+  "Guinea": [
+   {
+    "slug": "gine",
+    "kod": 200,
+    "durum": "CANLI",
+    "son_url": "https://islamansiklopedisi.org.tr/gine"
+   }
+  ],
+  "Guinea-Bissau": [
+   {
+    "slug": "gine-bissau",
+    "kod": 200,
+    "durum": "CANLI",
+    "son_url": "https://islamansiklopedisi.org.tr/gine-bissau"
+   }
+  ],
+  "Sierra Leone": [
+   {
+    "slug": "sierra-leone",
+    "kod": 200,
+    "durum": "CANLI",
+    "son_url": "https://islamansiklopedisi.org.tr/sierra-leone"
+   }
+  ],
+  "Liberia": [
+   {
+    "slug": "liberya",
+    "kod": 200,
+    "durum": "CANLI",
+    "son_url": "https://islamansiklopedisi.org.tr/liberya"
+   }
+  ],
+  "Cote d'Ivoire": [
+   {
+    "slug": "fildisi-sahili",
+    "kod": 200,
+    "durum": "CANLI",
+    "son_url": "https://islamansiklopedisi.org.tr/fildisi-sahili"
+   }
+  ],
+  "Burkina Faso": [
+   {
+    "slug": "burkina-faso",
+    "kod": 200,
+    "durum": "CANLI",
+    "son_url": "https://islamansiklopedisi.org.tr/burkina-faso"
+   }
+  ],
+  "Togo": [
+   {
+    "slug": "togo",
+    "kod": 200,
+    "durum": "CANLI",
+    "son_url": "https://islamansiklopedisi.org.tr/togo"
+   }
+  ],
+  "Benin": [
+   {
+    "slug": "benin",
+    "kod": 200,
+    "durum": "CANLI",
+    "son_url": "https://islamansiklopedisi.org.tr/benin"
+   }
+  ],
+  "Gambia": [
+   {
+    "slug": "gambiya",
+    "kod": 200,
+    "durum": "OLU",
+    "son_url": "https://islamansiklopedisi.org.tr/arama/gambiya"
+   }
+  ],
+  "Cabo Verde": [
+   {
+    "slug": "yesilburun-adalari",
+    "kod": 200,
+    "durum": "OLU",
+    "son_url": "https://islamansiklopedisi.org.tr/arama/yesilburun-adalari"
+   },
+   {
+    "slug": "kabo-verde",
+    "kod": 200,
+    "durum": "OLU",
+    "son_url": "https://islamansiklopedisi.org.tr/arama/kabo-verde"
+   }
+  ],
+  "Ethiopia": [
+   {
+    "slug": "habesistan",
+    "kod": 200,
+    "durum": "CANLI",
+    "son_url": "https://islamansiklopedisi.org.tr/habesistan"
+   }
+  ],
+  "Eritrea": [
+   {
+    "slug": "eritre",
+    "kod": 200,
+    "durum": "CANLI",
+    "son_url": "https://islamansiklopedisi.org.tr/eritre"
+   }
+  ],
+  "Djibouti": [
+   {
+    "slug": "cibuti",
+    "kod": 200,
+    "durum": "CANLI",
+    "son_url": "https://islamansiklopedisi.org.tr/cibuti"
+   }
+  ],
+  "Somalia": [
+   {
+    "slug": "somali",
+    "kod": 200,
+    "durum": "CANLI",
+    "son_url": "https://islamansiklopedisi.org.tr/somali"
+   }
+  ],
+  "Somaliland": [
+   {
+    "slug": "somaliland",
+    "kod": 200,
+    "durum": "OLU",
+    "son_url": "https://islamansiklopedisi.org.tr/arama/somaliland"
+   }
+  ],
+  "Kenya": [
+   {
+    "slug": "kenya",
+    "kod": 200,
+    "durum": "CANLI",
+    "son_url": "https://islamansiklopedisi.org.tr/kenya"
+   }
+  ],
+  "Uganda": [
+   {
+    "slug": "uganda",
+    "kod": 200,
+    "durum": "CANLI",
+    "son_url": "https://islamansiklopedisi.org.tr/uganda"
+   }
+  ],
+  "Tanzania": [
+   {
+    "slug": "tanzanya",
+    "kod": 200,
+    "durum": "CANLI",
+    "son_url": "https://islamansiklopedisi.org.tr/tanzanya"
+   }
+  ],
+  "Rwanda": [
+   {
+    "slug": "ruanda",
+    "kod": 200,
+    "durum": "CANLI",
+    "son_url": "https://islamansiklopedisi.org.tr/ruanda"
+   }
+  ],
+  "Burundi": [
+   {
+    "slug": "burundi",
+    "kod": 200,
+    "durum": "OLU",
+    "son_url": "https://islamansiklopedisi.org.tr/arama/burundi"
+   }
+  ],
+  "Central African Rep.": [
+   {
+    "slug": "orta-afrika-cumhuriyeti",
+    "kod": 200,
+    "durum": "CANLI",
+    "son_url": "https://islamansiklopedisi.org.tr/orta-afrika-cumhuriyeti"
+   }
+  ],
+  "Eq. Guinea": [
+   {
+    "slug": "ekvator-ginesi",
+    "kod": 200,
+    "durum": "OLU",
+    "son_url": "https://islamansiklopedisi.org.tr/arama/ekvator-ginesi"
+   }
+  ],
+  "Sao Tome and Principe": [
+   {
+    "slug": "sao-tome-ve-principe",
+    "kod": 200,
+    "durum": "OLU",
+    "son_url": "https://islamansiklopedisi.org.tr/arama/sao-tome-ve-principe"
+   }
+  ],
+  "S. Sudan": [
+   {
+    "slug": "guney-sudan",
+    "kod": 200,
+    "durum": "OLU",
+    "son_url": "https://islamansiklopedisi.org.tr/arama/guney-sudan"
+   }
+  ],
+  "Sudan": [
+   {
+    "slug": "sudan",
+    "kod": 200,
+    "durum": "CANLI",
+    "son_url": "https://islamansiklopedisi.org.tr/sudan"
+   }
+  ],
+  "_KAPSAYICI": [
+   {
+    "slug": "afrika",
+    "kod": 200,
+    "durum": "CANLI",
+    "son_url": "https://islamansiklopedisi.org.tr/afrika"
+   }
+  ]
+ },
+ "sayac": {
+  "BATI": {
+   "CANLI": 13,
+   "OLU": 2,
+   "OLCULEMEDI": 0
+  },
+  "ORTA": {
+   "CANLI": 5,
+   "OLU": 3,
+   "OLCULEMEDI": 0
+  },
+  "DOGU": {
+   "CANLI": 14,
+   "OLU": 3,
+   "OLCULEMEDI": 0
+  },
+  "GUNEY": {
+   "CANLI": 1,
+   "OLU": 4,
+   "OLCULEMEDI": 0
+  },
+  "?": {
+   "CANLI": 1,
+   "OLU": 1,
+   "OLCULEMEDI": 0
+  },
+  "KUZEY": {
+   "CANLI": 1,
+   "OLU": 0,
+   "OLCULEMEDI": 0
+  },
+  "KAPSAYICI": {
+   "CANLI": 1,
+   "OLU": 0,
+   "OLCULEMEDI": 0
+  }
+ }
+}

@@ -1,0 +1,92 @@
+{
+ "kerkuk": {
+  "kod": 200,
+  "karakter": 17429,
+  "hal": "govde",
+  "dosya": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ\\denetim\\_govde\\kerkuk.txt"
+ },
+ "bulgaristan": {
+  "kod": 200,
+  "karakter": 124963,
+  "hal": "govde",
+  "dosya": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ\\denetim\\_govde\\bulgaristan.txt"
+ },
+ "iran": {
+  "kod": 200,
+  "karakter": 305930,
+  "hal": "govde",
+  "dosya": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ\\denetim\\_govde\\iran.txt"
+ },
+ "irak": {
+  "kod": 302,
+  "hal": "olu"
+ },
+ "suriye": {
+  "kod": 200,
+  "karakter": 147564,
+  "hal": "govde",
+  "dosya": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ\\denetim\\_govde\\suriye.txt"
+ },
+ "gurcistan": {
+  "kod": 200,
+  "karakter": 52458,
+  "hal": "govde",
+  "dosya": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ\\denetim\\_govde\\gurcistan.txt"
+ },
+ "ermenistan": {
+  "kod": 302,
+  "hal": "olu"
+ },
+ "azerbaycan": {
+  "kod": 200,
+  "karakter": 49344,
+  "hal": "govde",
+  "dosya": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ\\denetim\\_govde\\azerbaycan.txt"
+ },
+ "turkmenistan": {
+  "kod": 200,
+  "karakter": 61515,
+  "hal": "govde",
+  "dosya": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ\\denetim\\_govde\\turkmenistan.txt"
+ },
+ "afganistan": {
+  "kod": 200,
+  "karakter": 61318,
+  "hal": "govde",
+  "dosya": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ\\denetim\\_govde\\afganistan.txt"
+ },
+ "pakistan": {
+  "kod": 200,
+  "karakter": 50424,
+  "hal": "govde",
+  "dosya": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ\\denetim\\_govde\\pakistan.txt"
+ },
+ "karabag": {
+  "kod": 200,
+  "karakter": 15375,
+  "hal": "govde",
+  "dosya": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ\\denetim\\_govde\\karabag.txt"
+ },
+ "zengezur": {
+  "kod": 302,
+  "hal": "olu"
+ },
+ "batum": {
+  "kod": 200,
+  "karakter": 8863,
+  "hal": "govde",
+  "dosya": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ\\denetim\\_govde\\batum.txt"
+ },
+ "sattularap": {
+  "kod": 200,
+  "karakter": 8843,
+  "hal": "govde",
+  "dosya": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ\\denetim\\_govde\\sattularap.txt"
+ },
+ "dogubayazit": {
+  "kod": 200,
+  "karakter": 14385,
+  "hal": "govde",
+  "dosya": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ\\denetim\\_govde\\dogubayazit.txt"
+ }
+}
