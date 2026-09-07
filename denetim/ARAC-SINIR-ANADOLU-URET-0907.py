@@ -39,14 +39,23 @@ KIMLIK = {
     "Armenia":      ("ermenistan",   "sovyet-rusya",          "olctum"),
     "Azerbaijan":   ("azerbaycan",   "sovyet-rusya",          "olctum"),
     "Russia":       ("rusya",        "sovyet-rusya",          "olctum"),
-    "Turkmenistan": ("turkmenistan", "sovyet-rusya",          "devraldim"),
+    "Turkmenistan": ("turkmenistan", "sovyet-rusya",          "olctum"),
     "Afghanistan":  ("afganistan",   "afganistan",            "olctum"),
     "Pakistan":     ("pakistan",     "ingiliz-hindistani",    "olctum"),
 }
-# ⚠️ Turkmenistan 'devraldim': Turkmenistan SSC 1924'te kuruldu; 1923-10-29'da
-#    Iran siniri boyunca Turkistan ASSC/SSCB idi. Kunye taramasi bu tarihte
-#    `buhara-halk-cumhuriyeti`yi de canli buldu ama o Ceyhun'un OTE yakasi.
-#    `sovyet-rusya` EN YAKIN kimlik; AYRICA DOGRULANMADI.
+# 🟢 Turkmenistan damgasi 'devraldim' → 'olctum' YUKSELTILDI (M-3191 turu):
+#    `KIMLIK-1923-0907-ADIM1.json` (girdi.yukle — YETKILI yukleyici) olctu.
+#    1923-10-28'de `buhara-halk-cumhuriyeti` ve `harezm-halk-cumhuriyeti`
+#    VERIDE 0 NOKTA tasiyor; o bolgede canli kimlik `sovyet-rusya` (392 nokta).
+#    ⚠️ KUNYE canli, VERI kullanmiyor — "kunye var, veride yok" sessiz borcu.
+#    BENIM KALEMIM DEGIL; kayit olarak burada duruyor.
+#
+# 🟢 VE BUTUN BU SUTUN ADIM1 ILE CAPRAZ DOGRULANDI (nokta sayilari, 1923-10-28):
+#    tbmm-turkiye 238 · kacar 108 · irak-kralligi 31 · suriye-lubnan-mandasi 17
+#    sovyet-rusya 392 · bulgaristan-kralligi 22 · yunanistan 97 · afganistan 5
+#    ingiliz-hindistani 114   ⇒ dokuzunun dokuzu da VERIDE MEVCUT.
+#    🔴 Ve AYRI Kafkas kimligi (ermeni/gurc/azerb/transkaf) veride YOK
+#       ⇒ `ic-idari` hukmu ikinci bir kaynaktan DOGRULANDI.
 
 L = "lozan-antlasmasi"
 
@@ -317,6 +326,21 @@ def main():
         "_BOLGE": "cekirdek {Turkey, Georgia, Armenia, Azerbaijan, Iran}; "
                   "kenar = en az bir ucu cekirdekte olan",
         "_KOVA_SAYIMI": sayim,
+        "_CIPA_TUZAGI": {
+            "uyari": "1.MURAT M-3191: donemler YARI ACIK (f <= g < t) ve UFUK sonu "
+                     "1923-10-29 ⇒ o gun sorulunca canli kimlik 1, sahipsiz 3804.",
+            "bana_ateşledi_mi": "HAYIR — OLCULDU, devralinmadi "
+                                "(denetim/ARAC-SINIR-ANADOLU-CIPA-0907.py)",
+            "gerekce": "Bu tarama `girdi.yukle()` DEGIL `devletler.js` KUNYE tablosunu "
+                       "okuyor ve karsilastirma KAPALI: f <= CIPA <= t.",
+            "kanit_gun_ekseni": "10-29 ile 10-28 taramalari BIREBIR AYNI (fark 0 eksen).",
+            "kanit_aralik_ekseni": "Ayni gun YARI ACIK denendi: 13 ucun 10'u BOS cikiyor "
+                                   "⇒ tuzak GERCEK, yalniz bu alete ateşlemiyor.",
+            "capraz_teyit": "KIMLIK-1923-0907-ADIM1.json (girdi.yukle, 1923-10-28) "
+                            "dokuz kimligin dokuzunu da veride DOGRULADI.",
+            "kid_uyarisi": "36 `v:` donemi `kid:` tasimiyor ⇒ BU KAYITLARA UYGULANMAZ: "
+                           "kenar kayitlari `v:` donemi KULLANMIYOR.",
+        },
         "_HAL_ONERISI": {
             "ic-idari": "1923'te iki uc da AYNI devletin icindeydi ⇒ ULUSLARARASI sinir "
                         "DEGILDI. 'bulunamadi' YANLIS DAMGA olur.",

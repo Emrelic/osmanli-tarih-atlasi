@@ -161,12 +161,51 @@ tanımsız yöntem **hata vermez, sessizce simgesiz çizer.**
 ### 🔜 Planlanan alanlar (henüz yok)
 ```js
 bit:"1258-02-13",              // yok oluş / terk; sonrasında peteği kalkar
-bos:"devletsiz" | "veri-yok",  // sahipsizliğin cinsi (MIMARI.md §6)
-kd:[{f:"1281-01-01", t:"1427-06-01", k:2, m:null},     // zamanlı idari kademe
-    {f:"1427-06-01", t:"1920-01-01", k:4, m:"Trabzon"},
-    {f:"1920-01-01", t:"1923-10-29", k:4, m:"Ordu"}]   // k/m'nin yerini alacak
 ```
 Gerekçeler: `MIMARI.md` §3.1 ve §3.4.
+
+### 🟢 `bos:` ve `kd:` — ARTIK VAR, "planlanan" DEĞİL
+*(7 Eylül 2026'da ölçüldü · `DEGISMEZ3-0907` bu satırın bayat olduğunu buldu)*
+
+🔴 Bu iki alan yukarıdaki *"henüz yok"* başlığının altında duruyordu ve
+**ikisi de canlı.** Bayat hâliyle okuyan bir oturum **var olan bir alanı
+yeniden tasarlamaya** kalkar — `sinif:` ↔ `kd:` vakasının birebir
+tekrarı (`CLAUDE.md §11`: *"bir alan tasarlamadan önce zaten var olup
+olmadığını ÖLÇ"*).
+
+```js
+bos: "devletsiz" | "veri-yok" | "kabile" | "insansiz" | "hata"
+     // sahipsizliğin CİNSİ — BEŞ kova, ikisi değil
+     // 201 kayıtta kullanılıyor · tanım: girdi.py BILINEN_ALANLAR
+
+kd:[{f:"1281-01-01", t:"1427-06-01", k:2, m:null},   // ZAMANLI idarî kademe
+    {f:"1427-06-01", t:"1920-01-01", k:4, m:"Trabzon"}]
+     // girdi.kd_oku() ve girdi.kd_gun() CANLI
+     // denetle.py:2354 `degismez3z` onu ZAMANLI olarak ölçüyor
+```
+
+🔴🔴 **AMA `kd:`nin SAYISI YANILTICI — ve bu bir ölçüm tuzağı:**
+```
+kd: taşıyan kayıt                   192
+  ├ TEK dönemlik                    175   ← kd_oku'nun ZATEN türeteceği hâl
+  └ çok dönemli                      17
+     └ m: GERÇEKTEN DEĞİŞEN           4   ← BORCUN ÖDENEN KISMI BU
+        Akkirman · Kili · Bender · Özi   (Silistre → Özi, 1593)
+     └ yalnız k: değişen               3
+```
+⇒ ***Alan var, bilgi yok.*** `kd_oku` türettiği dönemi `turetildi:True`
+ile damgalıyor, ama **elle yazılmış tek dönemlik `kd:` o damgayı
+taşımıyor** ⇒ ikisi ayırt edilemiyor, ve `192` borcun ödendiğini
+**48 kat** büyük gösteriyor.
+🔜 BORÇ: elle yazılan `kd:` de damgalanmalı — yoksa her ölçüm bu sayıyı
+yanlış okur.
+
+⚠️ Ve `Değişmez 3` **hâlâ sağlanmıyor**: zamansız çelişki 6 kesitte
+**493** (8 Ağustos'ta 359'du — veri büyüdükçe büyüyor), zamanlı ölçüm
+**486**. Fark −7 ve **doğru yönde**: `kd:` yazılan kayıtlar çelişkiden
+çıkıyor.
+📌 Ve çelişki evreni **3805 değil 814** — `m:` taşıyan kayıt sayısı.
+Payda yanlış alınırsa oran on kat küçük görünür.
 
 ### 🔜 `kesinlik` — tarih hassasiyeti (zaman ekseni genişlerken şart)
 Bugün gün bilinmediğinde `YYYY-01-01` yazılıyor. Bu doğru bir yazım ama **kullanıcı

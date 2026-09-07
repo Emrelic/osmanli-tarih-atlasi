@@ -1,0 +1,172 @@
+{
+ "_NOT": "1.MURAT M-3191 (cipa tuzagi) uyarisinin BENIM aletime ateşleyip ateşlemedigini olcer. Hipotez: kunye tablosu + KAPALI aralik ⇒ ateşlemez.",
+ "kapali_10_29": {
+  "Turkey": [
+   "tbmm-turkiye"
+  ],
+  "Iran": [
+   "kacar"
+  ],
+  "Iraq": [
+   "irak-kralligi"
+  ],
+  "Syria": [
+   "suriye-lubnan-mandasi"
+  ],
+  "Georgia": [],
+  "Armenia": [],
+  "Azerbaijan": [],
+  "Russia": [
+   "buhara-halk-cumhuriyeti",
+   "harezm-halk-cumhuriyeti",
+   "sovyet-rusya"
+  ],
+  "Bulgaria": [
+   "bulgaristan-kralligi"
+  ],
+  "Greece": [
+   "yunanistan"
+  ],
+  "Turkmenistan": [
+   "buhara-halk-cumhuriyeti",
+   "harezm-halk-cumhuriyeti"
+  ],
+  "Afghanistan": [
+   "afganistan"
+  ],
+  "Pakistan": [
+   "ingiliz-hindistani"
+  ]
+ },
+ "kapali_10_28": {
+  "Turkey": [
+   "tbmm-turkiye"
+  ],
+  "Iran": [
+   "kacar"
+  ],
+  "Iraq": [
+   "irak-kralligi"
+  ],
+  "Syria": [
+   "suriye-lubnan-mandasi"
+  ],
+  "Georgia": [],
+  "Armenia": [],
+  "Azerbaijan": [],
+  "Russia": [
+   "buhara-halk-cumhuriyeti",
+   "harezm-halk-cumhuriyeti",
+   "sovyet-rusya"
+  ],
+  "Bulgaria": [
+   "bulgaristan-kralligi"
+  ],
+  "Greece": [
+   "yunanistan"
+  ],
+  "Turkmenistan": [
+   "buhara-halk-cumhuriyeti",
+   "harezm-halk-cumhuriyeti"
+  ],
+  "Afghanistan": [
+   "afganistan"
+  ],
+  "Pakistan": [
+   "ingiliz-hindistani"
+  ]
+ },
+ "yari_acik_10_29": {
+  "Turkey": [],
+  "Iran": [],
+  "Iraq": [],
+  "Syria": [],
+  "Georgia": [],
+  "Armenia": [],
+  "Azerbaijan": [],
+  "Russia": [],
+  "Bulgaria": [],
+  "Greece": [],
+  "Turkmenistan": [],
+  "Afghanistan": [],
+  "Pakistan": []
+ },
+ "fark_gun_ekseni": {},
+ "fark_aralik_ekseni": {
+  "Turkey": {
+   "kapali": [
+    "tbmm-turkiye"
+   ],
+   "yari_acik": []
+  },
+  "Iran": {
+   "kapali": [
+    "kacar"
+   ],
+   "yari_acik": []
+  },
+  "Iraq": {
+   "kapali": [
+    "irak-kralligi"
+   ],
+   "yari_acik": []
+  },
+  "Syria": {
+   "kapali": [
+    "suriye-lubnan-mandasi"
+   ],
+   "yari_acik": []
+  },
+  "Russia": {
+   "kapali": [
+    "buhara-halk-cumhuriyeti",
+    "harezm-halk-cumhuriyeti",
+    "sovyet-rusya"
+   ],
+   "yari_acik": []
+  },
+  "Bulgaria": {
+   "kapali": [
+    "bulgaristan-kralligi"
+   ],
+   "yari_acik": []
+  },
+  "Greece": {
+   "kapali": [
+    "yunanistan"
+   ],
+   "yari_acik": []
+  },
+  "Turkmenistan": {
+   "kapali": [
+    "buhara-halk-cumhuriyeti",
+    "harezm-halk-cumhuriyeti"
+   ],
+   "yari_acik": []
+  },
+  "Afghanistan": {
+   "kapali": [
+    "afganistan"
+   ],
+   "yari_acik": []
+  },
+  "Pakistan": {
+   "kapali": [
+    "ingiliz-hindistani"
+   ],
+   "yari_acik": []
+  }
+ },
+ "adim1_teyit": {
+  "tbmm-turkiye": 238,
+  "kacar": 108,
+  "irak-kralligi": 31,
+  "suriye-lubnan-mandasi": 17,
+  "sovyet-rusya": 392,
+  "bulgaristan-kralligi": 22,
+  "yunanistan": 97,
+  "afganistan": 5,
+  "ingiliz-hindistani": 114
+ },
+ "adim1_ayri_kafkas_kimligi": []
+}

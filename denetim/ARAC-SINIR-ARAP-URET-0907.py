@@ -46,25 +46,51 @@ KIMLIK_BUGUN = {
     "United Arab Emirates": "(eslesmedi — NAME_TR 'Birleşik Arap Emirlikleri')",
 }
 
-# 1923-10-29'da o toprakta ne vardi. MEKANIK DOLDURULMADI (§7).
-# ⚪ = kaynaga sorulmadi.
+# 1923'te o toprakta hangi ATLAS KIMLIGI vardi.
+# 🟢 TUR 2'DE ARTIK OLCULDU — proza degil SLUG, ve tahminle degil VERIYLE:
+#    ARAC-SINIR-ARAP-YAN-0907.py, NE poligonunun icine dusen ve
+#    1923-10-28'de canli olan atlas noktalarinin kimlikleri.
+# 🔴 SORGU GUNU 1923-10-28: donemler yari acik (`f <= g < t`), UFUK sonu
+#    1923-10-29 ⇒ o gunle biten HER donem tam o gun sorulunca DUSER
+#    (109 kimlik -> 1, sahipsiz 168 -> 3804). Cipa kayda 1923-10-29 YAZILIR,
+#    atlasa 1923-10-28 SORULUR. (1.MURAT tahta M-3191 · KIMLIK-1923-0907.)
+# 🟢 Deger SAF SLUG(lar) — cunku esitlik testi makineye sorulabilsin:
+#      k.kimlik_1923[0] === k.kimlik_1923[1]   // 1923'te kenar YOKTU
 KIMLIK_1923 = {
-    "Syria": "Fransız mandası (Suriye) — TDV suriye: San Remo Nisan 1920",
-    "Lebanon": "Fransız mandası (Büyük Lübnan) — TDV lubnan",
-    "Palestine": "İngiliz Filistin Mandası — TDV filistin: MC onayı 24 Temmuz 1922",
-    "Israel": "YOKTU — 1923'te İngiliz Filistin Mandası",
-    "Jordan": "İngiliz Filistin Mandası'ndan ayrılan Şarkü'l-Ürdün — TDV filistin",
-    "Iraq": "İngiliz mandası altında Irak Krallığı — TDV irak--ulke (manda 1932'de sona erdi)",
-    "Turkey": "Türkiye Cumhuriyeti (1923-10-29 — atlas penceresinin ucu)",
-    "Iran": "⚪ ölçmedim",
-    "Egypt": "⚪ ölçmedim",
-    "Saudi Arabia": "YOKTU — 1923'te Necid Sultanlığı + Hicaz Krallığı (İKİ kimlik) ⚪ gün ölçmedim",
-    "Kuwait": "İngiliz himayesinde Küveyt şeyhliği ⚪ ölçmedim",
-    "Qatar": "İngiliz himayesinde Katar ⚪ ölçmedim",
-    "Bahrain": "İngiliz himayesinde Bahreyn ⚪ ölçmedim",
-    "Oman": "Maskat ve Umman Sultanlığı ⚪ ölçmedim",
-    "United Arab Emirates": "YOKTU — 1923'te Mütareke (Trucial) şeyhlikleri ⚪ ölçmedim",
-    "Yemen": "Yemen Mütevekkilî Krallığı (kuzey) ⚪ ölçmedim",
+    "Syria": "suriye-lubnan-mandasi",                 # 11 nokta
+    "Lebanon": "suriye-lubnan-mandasi",               # 3
+    "Israel": "filistin-mandasi",                     # 3
+    "Palestine": "filistin-mandasi",                  # 3
+    "Jordan": "urdun-emirligi+hicaz",                 # 2 + 1 (Maan — hicaz!)
+    "Iraq": "irak-kralligi+ingiltere",                # 31 + 4
+    "Saudi Arabia": "suud-ucuncu+hicaz+yemen",        # 15 + 12 + 1
+    "Yemen": "yemen+ingiltere+kuayti-sultanligi+umman",  # 8+3+1+1
+    "Oman": "umman",                                  # 18
+    "United Arab Emirates": "ingiltere",              # 3 — kendi kimligi YOK
+    "Qatar": "katar",                                 # 1
+    "Bahrain": "ingiltere",                           # 1 — kendi kimligi YOK
+    "Kuwait": "kuveyt",                               # 1
+    "Turkey": "tbmm-turkiye+OSMANLI-dogrudan+suriye-lubnan-mandasi",  # 236+4+3
+    "Iran": "kacar+sovyet-rusya+tbmm-turkiye",        # 107+1+1
+    "Egypt": "misir-kralligi+ingiltere",              # 50+6
+}
+KIMLIK_1923_SAYIM = {
+    "Syria": "suriye-lubnan-mandasi(11)",
+    "Lebanon": "suriye-lubnan-mandasi(3)",
+    "Israel": "filistin-mandasi(3)",
+    "Palestine": "filistin-mandasi(3)",
+    "Jordan": "urdun-emirligi(2)+hicaz(1: Maan)",
+    "Iraq": "irak-kralligi(31)+ingiltere(4)",
+    "Saudi Arabia": "suud-ucuncu(15)+hicaz(12)+yemen(1)",
+    "Yemen": "yemen(8)+ingiltere(3)+kuayti-sultanligi(1)+umman(1)",
+    "Oman": "umman(18)",
+    "United Arab Emirates": "ingiltere(3)",
+    "Qatar": "katar(1)",
+    "Bahrain": "ingiltere(1)",
+    "Kuwait": "kuveyt(1)",
+    "Turkey": "tbmm-turkiye(236)+OSMANLI-dogrudan(4: Çaldıran·Başkale·Mersin·Şırnak)+suriye-lubnan-mandasi(3)",
+    "Iran": "kacar(107)+sovyet-rusya(1)+tbmm-turkiye(1)",
+    "Egypt": "misir-kralligi(50)+ingiltere(6)",
 }
 
 TDV = "TDV İslâm Ansiklopedisi"
@@ -296,18 +322,69 @@ def main():
             "1923 sorusunun makine cevabı tek bir if: "
             "k.hal === 'hukuki' && k.f <= '1923-10-29'  ⇒ 🟢 C'ye girer. "
             "Alan İCAT EDİLMEDİ; ORTAK §4'ün alan kümesi aynen kullanıldı.",
+        "_KIMLIK_1923_SAYIM": KIMLIK_1923_SAYIM,
+        "_SORGU_GUNU": {
+            "cipa_kayda_yazilan": "1923-10-29",
+            "atlasa_sorulan": "1923-10-28",
+            "niçin": "Dönemler yarı açık (f <= g < t) ve girdi.UFUK[1] == '1923-10-29'; "
+                     "o günle biten HER dönem tam o gün sorulunca düşer. Ölçüldü: "
+                     "canlı kimlik 109 -> 1, sahipsiz nokta 168 -> 3804. "
+                     "Tuzak SESSİZ: hata vermez, temiz sayı üretir. "
+                     "(1.MURAT tahta M-3191 · ölçen KIMLIK-1923-0907.)",
+        },
         "_KOVA_ONERISI": {
             "ad": "1923-KENAR-YOK",
             "niçin": "Şartnamenin üç kovası (🟢 girer · 🟡 metin gerek · 🔴 A/B'de kalır) "
-                     "bu sınıfı ifade edemiyor: 1923-10-29'da kenarın İKİ UCU DA aynı "
+                     "bu sınıfı ifade edemiyor: 1923'te kenarın İKİ UCU DA aynı "
                      "kimliğin içindeydi ⇒ o gün ULUSLARARASI bir sınır DEĞİLDİ. "
                      "'Metin bulunamadı' ile 'sorulan şey o gün YOKTU' aynı kovaya "
                      "konursa, sonraki oturum ikincisini 'arandı, yok' diye okur. "
                      "KARAR 1.MURAT'IN — altı kolu birden bağlar.",
-            "adaylar": [["Israel", "Palestine"], ["Israel", "Jordan"],
-                        ["Jordan", "Palestine"], ["Lebanon", "Syria"]],
-            "kaynakli_mi": "EVET — TDV filistin/urdun/lubnan gövdeleri okundu, "
-                           "kayıtların `dayanak` alanlarında alıntılı.",
+            "🟢_YENI_ALAN_GEREKMIYOR":
+                "TUR 2'de `kimlik_1923` ölçülüp SAF SLUG'a çevrildi ⇒ öneri artık "
+                "var olan bir alanın eşitlik testi: k.kimlik_1923[0] === k.kimlik_1923[1]. "
+                "Maliyeti SIFIR; yalnız kovanın ADI ve okunuşu bir karar gerektiriyor.",
+            "TUR1_ADAYLARI": [["Israel", "Palestine"], ["Israel", "Jordan"],
+                              ["Jordan", "Palestine"], ["Lebanon", "Syria"]],
+            "TUR2_OLCUMU": {
+                "🟢 DOGRULANDI": [["Israel", "Palestine", "filistin-mandasi"],
+                                  ["Lebanon", "Syria", "suriye-lubnan-mandasi"]],
+                "🔴 CURUDU": [
+                    ["Israel", "Jordan", "filistin-mandasi ≠ urdun-emirligi+hicaz"],
+                    ["Jordan", "Palestine", "urdun-emirligi+hicaz ≠ filistin-mandasi"]],
+                "_NOT": "TUR 1'de bu dördü 'iki uç da aynı kimlik' diye önerilmişti; "
+                        "ölçüm İKİSİNİ ÇÜRÜTTÜ. Atlas Şarkü'l-Ürdün'ü AYRI bir kimlikle "
+                        "(`urdun-emirligi`, 1921-02-01'den) modelliyor. "
+                        "⚠️ Bu, 'hukuken ayrı devletti' demek DEĞİL — ikisi de aynı "
+                        "İngiliz mandasının altındaydı; ayrılan şey ATLASIN MODELİ. "
+                        "Ölçülebilir olan atlas modelidir; hukukî okuma AYRI bir soru.",
+            },
+        },
+        "_YENI_BULGU_BIR_UCTA_COK_KIMLIK": {
+            "_NOT": "Kayıt modeli her uç için TEK kimlik varsayıyor. Bölgemde 16 ucun "
+                    "7'sinde 1923'te BİRDEN ÇOK kimlik var — ve bazıları gürültü değil, "
+                    "tarihin kendisi.",
+            "ornekler": {
+                "Jordan": "urdun-emirligi(2) + hicaz(1) — Maan 1923'te HİCAZ'dı "
+                          "(atlas: Maan s:hicaz 1918-09-27'den). Yani Jordan|Saudi kenarının "
+                          "1923'te İKİ AYRI kimliğe bakan iki parçası var.",
+                "Saudi Arabia": "suud-ucuncu(15) + hicaz(12) — 1923'te TEK bir Suudi "
+                                "Arabistan YOKTU; Necid ve Hicaz AYRI devletlerdi.",
+                "Turkey": "tbmm-turkiye(236) + OSMANLI-dogrudan(4) — aşağıya bak",
+            },
+            "sonuc": "⇒ Bir kenarın `kimlik_1923` alanı TEK DEĞER OLMAYABİLİR; "
+                     "kenarın 1923'te birden çok PARÇAYA bölünmesi gerekebilir. "
+                     "Bu ALTI KOLU birden bağlar, karar 1.MURAT'ın.",
+        },
+        "_YAN_BULGU_OSMANLI_4": {
+            "_NOT": "Bugünkü Türkiye içinde 1923-10-28'de 236 nokta `tbmm-turkiye`, "
+                    "4 nokta hâlâ `d:` (OSMANLI doğrudan): Çaldıran · Başkale · Mersin · "
+                    "Şırnak. Dördünün de `d:` dönemi tam `1923-10-29`da bitiyor.",
+            "ölçüm": "236 / 4 — oran 59:1",
+            "hüküm": "VERMEDİM. Kasıt mı kayıtlar arası tutarsızlık mı BİLMİYORUM; "
+                     "`data/` donuk ve benim dosyam değil. Mersin'in `d:`si 1921-10-20'de "
+                     "(Ankara İtilâfnâmesi günü) başlıyor — yani kayıt o günü BİLİYOR ama "
+                     "kimliği TBMM'ye çevirmemiş. BİLDİRİYORUM, dokunmuyorum.",
         },
         "_OLCUM_SINIRI": [
             "Mısır'ın NE geometrisi GEÇERSİZ ⇒ 4 kenar hiç ölçülemedi (payda 26, ölçülen 22).",

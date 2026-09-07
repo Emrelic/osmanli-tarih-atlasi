@@ -1,10 +1,34 @@
 {
  "_NOT": "SINIR-ARAP-0907 · Arap Doğu · kademe C (hukukî sınır) · 7 Eylül 2026. ÜRETİLDİ: denetim/ARAC-SINIR-ARAP-URET-0907.py — ELLE YAZILMAZ.",
  "_F_ALANININ_OKUNUSU": "`f` = `gc` geometrisinin hukukî sınır olduğu aralığın BAŞLANGICI. 1923 sorusunun makine cevabı tek bir if: k.hal === 'hukuki' && k.f <= '1923-10-29'  ⇒ 🟢 C'ye girer. Alan İCAT EDİLMEDİ; ORTAK §4'ün alan kümesi aynen kullanıldı.",
+ "_KIMLIK_1923_SAYIM": {
+  "Syria": "suriye-lubnan-mandasi(11)",
+  "Lebanon": "suriye-lubnan-mandasi(3)",
+  "Israel": "filistin-mandasi(3)",
+  "Palestine": "filistin-mandasi(3)",
+  "Jordan": "urdun-emirligi(2)+hicaz(1: Maan)",
+  "Iraq": "irak-kralligi(31)+ingiltere(4)",
+  "Saudi Arabia": "suud-ucuncu(15)+hicaz(12)+yemen(1)",
+  "Yemen": "yemen(8)+ingiltere(3)+kuayti-sultanligi(1)+umman(1)",
+  "Oman": "umman(18)",
+  "United Arab Emirates": "ingiltere(3)",
+  "Qatar": "katar(1)",
+  "Bahrain": "ingiltere(1)",
+  "Kuwait": "kuveyt(1)",
+  "Turkey": "tbmm-turkiye(236)+OSMANLI-dogrudan(4: Çaldıran·Başkale·Mersin·Şırnak)+suriye-lubnan-mandasi(3)",
+  "Iran": "kacar(107)+sovyet-rusya(1)+tbmm-turkiye(1)",
+  "Egypt": "misir-kralligi(50)+ingiltere(6)"
+ },
+ "_SORGU_GUNU": {
+  "cipa_kayda_yazilan": "1923-10-29",
+  "atlasa_sorulan": "1923-10-28",
+  "niçin": "Dönemler yarı açık (f <= g < t) ve girdi.UFUK[1] == '1923-10-29'; o günle biten HER dönem tam o gün sorulunca düşer. Ölçüldü: canlı kimlik 109 -> 1, sahipsiz nokta 168 -> 3804. Tuzak SESSİZ: hata vermez, temiz sayı üretir. (1.MURAT tahta M-3191 · ölçen KIMLIK-1923-0907.)"
+ },
  "_KOVA_ONERISI": {
   "ad": "1923-KENAR-YOK",
-  "niçin": "Şartnamenin üç kovası (🟢 girer · 🟡 metin gerek · 🔴 A/B'de kalır) bu sınıfı ifade edemiyor: 1923-10-29'da kenarın İKİ UCU DA aynı kimliğin içindeydi ⇒ o gün ULUSLARARASI bir sınır DEĞİLDİ. 'Metin bulunamadı' ile 'sorulan şey o gün YOKTU' aynı kovaya konursa, sonraki oturum ikincisini 'arandı, yok' diye okur. KARAR 1.MURAT'IN — altı kolu birden bağlar.",
-  "adaylar": [
+  "niçin": "Şartnamenin üç kovası (🟢 girer · 🟡 metin gerek · 🔴 A/B'de kalır) bu sınıfı ifade edemiyor: 1923'te kenarın İKİ UCU DA aynı kimliğin içindeydi ⇒ o gün ULUSLARARASI bir sınır DEĞİLDİ. 'Metin bulunamadı' ile 'sorulan şey o gün YOKTU' aynı kovaya konursa, sonraki oturum ikincisini 'arandı, yok' diye okur. KARAR 1.MURAT'IN — altı kolu birden bağlar.",
+  "🟢_YENI_ALAN_GEREKMIYOR": "TUR 2'de `kimlik_1923` ölçülüp SAF SLUG'a çevrildi ⇒ öneri artık var olan bir alanın eşitlik testi: k.kimlik_1923[0] === k.kimlik_1923[1]. Maliyeti SIFIR; yalnız kovanın ADI ve okunuşu bir karar gerektiriyor.",
+  "TUR1_ADAYLARI": [
    [
     "Israel",
     "Palestine"
@@ -22,7 +46,47 @@
     "Syria"
    ]
   ],
-  "kaynakli_mi": "EVET — TDV filistin/urdun/lubnan gövdeleri okundu, kayıtların `dayanak` alanlarında alıntılı."
+  "TUR2_OLCUMU": {
+   "🟢 DOGRULANDI": [
+    [
+     "Israel",
+     "Palestine",
+     "filistin-mandasi"
+    ],
+    [
+     "Lebanon",
+     "Syria",
+     "suriye-lubnan-mandasi"
+    ]
+   ],
+   "🔴 CURUDU": [
+    [
+     "Israel",
+     "Jordan",
+     "filistin-mandasi ≠ urdun-emirligi+hicaz"
+    ],
+    [
+     "Jordan",
+     "Palestine",
+     "urdun-emirligi+hicaz ≠ filistin-mandasi"
+    ]
+   ],
+   "_NOT": "TUR 1'de bu dördü 'iki uç da aynı kimlik' diye önerilmişti; ölçüm İKİSİNİ ÇÜRÜTTÜ. Atlas Şarkü'l-Ürdün'ü AYRI bir kimlikle (`urdun-emirligi`, 1921-02-01'den) modelliyor. ⚠️ Bu, 'hukuken ayrı devletti' demek DEĞİL — ikisi de aynı İngiliz mandasının altındaydı; ayrılan şey ATLASIN MODELİ. Ölçülebilir olan atlas modelidir; hukukî okuma AYRI bir soru."
+  }
+ },
+ "_YENI_BULGU_BIR_UCTA_COK_KIMLIK": {
+  "_NOT": "Kayıt modeli her uç için TEK kimlik varsayıyor. Bölgemde 16 ucun 7'sinde 1923'te BİRDEN ÇOK kimlik var — ve bazıları gürültü değil, tarihin kendisi.",
+  "ornekler": {
+   "Jordan": "urdun-emirligi(2) + hicaz(1) — Maan 1923'te HİCAZ'dı (atlas: Maan s:hicaz 1918-09-27'den). Yani Jordan|Saudi kenarının 1923'te İKİ AYRI kimliğe bakan iki parçası var.",
+   "Saudi Arabia": "suud-ucuncu(15) + hicaz(12) — 1923'te TEK bir Suudi Arabistan YOKTU; Necid ve Hicaz AYRI devletlerdi.",
+   "Turkey": "tbmm-turkiye(236) + OSMANLI-dogrudan(4) — aşağıya bak"
+  },
+  "sonuc": "⇒ Bir kenarın `kimlik_1923` alanı TEK DEĞER OLMAYABİLİR; kenarın 1923'te birden çok PARÇAYA bölünmesi gerekebilir. Bu ALTI KOLU birden bağlar, karar 1.MURAT'ın."
+ },
+ "_YAN_BULGU_OSMANLI_4": {
+  "_NOT": "Bugünkü Türkiye içinde 1923-10-28'de 236 nokta `tbmm-turkiye`, 4 nokta hâlâ `d:` (OSMANLI doğrudan): Çaldıran · Başkale · Mersin · Şırnak. Dördünün de `d:` dönemi tam `1923-10-29`da bitiyor.",
+  "ölçüm": "236 / 4 — oran 59:1",
+  "hüküm": "VERMEDİM. Kasıt mı kayıtlar arası tutarsızlık mı BİLMİYORUM; `data/` donuk ve benim dosyam değil. Mersin'in `d:`si 1921-10-20'de (Ankara İtilâfnâmesi günü) başlıyor — yani kayıt o günü BİLİYOR ama kimliği TBMM'ye çevirmemiş. BİLDİRİYORUM, dokunmuyorum."
  },
  "_OLCUM_SINIRI": [
   "Mısır'ın NE geometrisi GEÇERSİZ ⇒ 4 kenar hiç ölçülemedi (payda 26, ölçülen 22).",
@@ -2030,8 +2094,8 @@
     "(eslesmedi — NAME_TR 'Irak')"
    ],
    "kimlik_1923": [
-    "⚪ ölçmedim",
-    "İngiliz mandası altında Irak Krallığı — TDV irak--ulke (manda 1932'de sona erdi)"
+    "kacar+sovyet-rusya+tbmm-turkiye",
+    "irak-kralligi+ingiltere"
    ]
   },
   {
@@ -2142,8 +2206,8 @@
     "(eslesmedi — NAME_TR 'Ürdün')"
    ],
    "kimlik_1923": [
-    "İngiliz mandası altında Irak Krallığı — TDV irak--ulke (manda 1932'de sona erdi)",
-    "İngiliz Filistin Mandası'ndan ayrılan Şarkü'l-Ürdün — TDV filistin"
+    "irak-kralligi+ingiltere",
+    "urdun-emirligi+hicaz"
    ]
   },
   {
@@ -2250,8 +2314,8 @@
     "kuveyt"
    ],
    "kimlik_1923": [
-    "İngiliz mandası altında Irak Krallığı — TDV irak--ulke (manda 1932'de sona erdi)",
-    "İngiliz himayesinde Küveyt şeyhliği ⚪ ölçmedim"
+    "irak-kralligi+ingiltere",
+    "kuveyt"
    ]
   },
   {
@@ -2622,8 +2686,8 @@
     "(eslesmedi — NAME_TR 'Suudi Arabistan')"
    ],
    "kimlik_1923": [
-    "İngiliz mandası altında Irak Krallığı — TDV irak--ulke (manda 1932'de sona erdi)",
-    "YOKTU — 1923'te Necid Sultanlığı + Hicaz Krallığı (İKİ kimlik) ⚪ gün ölçmedim"
+    "irak-kralligi+ingiltere",
+    "suud-ucuncu+hicaz+yemen"
    ]
   },
   {
@@ -2894,8 +2958,8 @@
     "(eslesmedi — NAME_TR 'Suriye')"
    ],
    "kimlik_1923": [
-    "İngiliz mandası altında Irak Krallığı — TDV irak--ulke (manda 1932'de sona erdi)",
-    "Fransız mandası (Suriye) — TDV suriye: San Remo Nisan 1920"
+    "irak-kralligi+ingiltere",
+    "suriye-lubnan-mandasi"
    ]
   },
   {
@@ -3318,8 +3382,8 @@
     "(eslesmedi — NAME_TR 'Türkiye')"
    ],
    "kimlik_1923": [
-    "İngiliz mandası altında Irak Krallığı — TDV irak--ulke (manda 1932'de sona erdi)",
-    "Türkiye Cumhuriyeti (1923-10-29 — atlas penceresinin ucu)"
+    "irak-kralligi+ingiltere",
+    "tbmm-turkiye+OSMANLI-dogrudan+suriye-lubnan-mandasi"
    ]
   },
   {
@@ -3880,8 +3944,8 @@
     "(eslesmedi — NAME_TR 'Ürdün')"
    ],
    "kimlik_1923": [
-    "YOKTU — 1923'te İngiliz Filistin Mandası",
-    "İngiliz Filistin Mandası'ndan ayrılan Şarkü'l-Ürdün — TDV filistin"
+    "filistin-mandasi",
+    "urdun-emirligi+hicaz"
    ]
   },
   {
@@ -4100,8 +4164,8 @@
     "(eslesmedi — NAME_TR 'Lübnan')"
    ],
    "kimlik_1923": [
-    "YOKTU — 1923'te İngiliz Filistin Mandası",
-    "Fransız mandası (Büyük Lübnan) — TDV lubnan"
+    "filistin-mandasi",
+    "suriye-lubnan-mandasi"
    ]
   },
   {
@@ -4794,8 +4858,8 @@
     "(eslesmedi — NAME_TR 'Filistin')"
    ],
    "kimlik_1923": [
-    "YOKTU — 1923'te İngiliz Filistin Mandası",
-    "İngiliz Filistin Mandası — TDV filistin: MC onayı 24 Temmuz 1922"
+    "filistin-mandasi",
+    "filistin-mandasi"
    ]
   },
   {
@@ -4946,8 +5010,8 @@
     "(eslesmedi — NAME_TR 'Suriye')"
    ],
    "kimlik_1923": [
-    "YOKTU — 1923'te İngiliz Filistin Mandası",
-    "Fransız mandası (Suriye) — TDV suriye: San Remo Nisan 1920"
+    "filistin-mandasi",
+    "suriye-lubnan-mandasi"
    ]
   },
   {
@@ -5190,8 +5254,8 @@
     "(eslesmedi — NAME_TR 'Filistin')"
    ],
    "kimlik_1923": [
-    "İngiliz Filistin Mandası'ndan ayrılan Şarkü'l-Ürdün — TDV filistin",
-    "İngiliz Filistin Mandası — TDV filistin: MC onayı 24 Temmuz 1922"
+    "urdun-emirligi+hicaz",
+    "filistin-mandasi"
    ]
   },
   {
@@ -5498,8 +5562,8 @@
     "(eslesmedi — NAME_TR 'Suudi Arabistan')"
    ],
    "kimlik_1923": [
-    "İngiliz Filistin Mandası'ndan ayrılan Şarkü'l-Ürdün — TDV filistin",
-    "YOKTU — 1923'te Necid Sultanlığı + Hicaz Krallığı (İKİ kimlik) ⚪ gün ölçmedim"
+    "urdun-emirligi+hicaz",
+    "suud-ucuncu+hicaz+yemen"
    ]
   },
   {
@@ -5794,8 +5858,8 @@
     "(eslesmedi — NAME_TR 'Suriye')"
    ],
    "kimlik_1923": [
-    "İngiliz Filistin Mandası'ndan ayrılan Şarkü'l-Ürdün — TDV filistin",
-    "Fransız mandası (Suriye) — TDV suriye: San Remo Nisan 1920"
+    "urdun-emirligi+hicaz",
+    "suriye-lubnan-mandasi"
    ]
   },
   {
@@ -5930,8 +5994,8 @@
     "(eslesmedi — NAME_TR 'Suudi Arabistan')"
    ],
    "kimlik_1923": [
-    "İngiliz himayesinde Küveyt şeyhliği ⚪ ölçmedim",
-    "YOKTU — 1923'te Necid Sultanlığı + Hicaz Krallığı (İKİ kimlik) ⚪ gün ölçmedim"
+    "kuveyt",
+    "suud-ucuncu+hicaz+yemen"
    ]
   },
   {
@@ -6574,8 +6638,8 @@
     "(eslesmedi — NAME_TR 'Suriye')"
    ],
    "kimlik_1923": [
-    "Fransız mandası (Büyük Lübnan) — TDV lubnan",
-    "Fransız mandası (Suriye) — TDV suriye: San Remo Nisan 1920"
+    "suriye-lubnan-mandasi",
+    "suriye-lubnan-mandasi"
    ]
   },
   {
@@ -6786,8 +6850,8 @@
     "(eslesmedi — NAME_TR 'Suudi Arabistan')"
    ],
    "kimlik_1923": [
-    "Maskat ve Umman Sultanlığı ⚪ ölçmedim",
-    "YOKTU — 1923'te Necid Sultanlığı + Hicaz Krallığı (İKİ kimlik) ⚪ gün ölçmedim"
+    "umman",
+    "suud-ucuncu+hicaz+yemen"
    ]
   },
   {
@@ -7496,8 +7560,8 @@
     "(eslesmedi — NAME_TR 'Birleşik Arap Emirlikleri')"
    ],
    "kimlik_1923": [
-    "Maskat ve Umman Sultanlığı ⚪ ölçmedim",
-    "YOKTU — 1923'te Mütareke (Trucial) şeyhlikleri ⚪ ölçmedim"
+    "umman",
+    "ingiltere"
    ]
   },
   {
@@ -7648,8 +7712,8 @@
     "yemen-zeydi"
    ],
    "kimlik_1923": [
-    "Maskat ve Umman Sultanlığı ⚪ ölçmedim",
-    "Yemen Mütevekkilî Krallığı (kuzey) ⚪ ölçmedim"
+    "umman",
+    "yemen+ingiltere+kuayti-sultanligi+umman"
    ]
   },
   {
@@ -7704,8 +7768,8 @@
     "(eslesmedi — NAME_TR 'Suudi Arabistan')"
    ],
    "kimlik_1923": [
-    "İngiliz himayesinde Katar ⚪ ölçmedim",
-    "YOKTU — 1923'te Necid Sultanlığı + Hicaz Krallığı (İKİ kimlik) ⚪ gün ölçmedim"
+    "katar",
+    "suud-ucuncu+hicaz+yemen"
    ]
   },
   {
@@ -7912,8 +7976,8 @@
     "(eslesmedi — NAME_TR 'Birleşik Arap Emirlikleri')"
    ],
    "kimlik_1923": [
-    "YOKTU — 1923'te Necid Sultanlığı + Hicaz Krallığı (İKİ kimlik) ⚪ gün ölçmedim",
-    "YOKTU — 1923'te Mütareke (Trucial) şeyhlikleri ⚪ ölçmedim"
+    "suud-ucuncu+hicaz+yemen",
+    "ingiltere"
    ]
   },
   {
@@ -8608,8 +8672,8 @@
     "yemen-zeydi"
    ],
    "kimlik_1923": [
-    "YOKTU — 1923'te Necid Sultanlığı + Hicaz Krallığı (İKİ kimlik) ⚪ gün ölçmedim",
-    "Yemen Mütevekkilî Krallığı (kuzey) ⚪ ölçmedim"
+    "suud-ucuncu+hicaz+yemen",
+    "yemen+ingiltere+kuayti-sultanligi+umman"
    ]
   },
   {
@@ -9360,8 +9424,8 @@
     "(eslesmedi — NAME_TR 'Türkiye')"
    ],
    "kimlik_1923": [
-    "Fransız mandası (Suriye) — TDV suriye: San Remo Nisan 1920",
-    "Türkiye Cumhuriyeti (1923-10-29 — atlas penceresinin ucu)"
+    "suriye-lubnan-mandasi",
+    "tbmm-turkiye+OSMANLI-dogrudan+suriye-lubnan-mandasi"
    ]
   },
   {
@@ -9381,8 +9445,8 @@
     "(eslesmedi — NAME_TR 'İsrail')"
    ],
    "kimlik_1923": [
-    "⚪ ölçmedim",
-    "YOKTU — 1923'te İngiliz Filistin Mandası"
+    "misir-kralligi+ingiltere",
+    "filistin-mandasi"
    ]
   },
   {
@@ -9402,8 +9466,8 @@
     "(eslesmedi — NAME_TR 'Ürdün')"
    ],
    "kimlik_1923": [
-    "⚪ ölçmedim",
-    "İngiliz Filistin Mandası'ndan ayrılan Şarkü'l-Ürdün — TDV filistin"
+    "misir-kralligi+ingiltere",
+    "urdun-emirligi+hicaz"
    ]
   },
   {
@@ -9423,8 +9487,8 @@
     "(eslesmedi — NAME_TR 'Filistin')"
    ],
    "kimlik_1923": [
-    "⚪ ölçmedim",
-    "İngiliz Filistin Mandası — TDV filistin: MC onayı 24 Temmuz 1922"
+    "misir-kralligi+ingiltere",
+    "filistin-mandasi"
    ]
   },
   {
@@ -9444,8 +9508,8 @@
     "(eslesmedi — NAME_TR 'Suudi Arabistan')"
    ],
    "kimlik_1923": [
-    "⚪ ölçmedim",
-    "YOKTU — 1923'te Necid Sultanlığı + Hicaz Krallığı (İKİ kimlik) ⚪ gün ölçmedim"
+    "misir-kralligi+ingiltere",
+    "suud-ucuncu+hicaz+yemen"
    ]
   }
  ]

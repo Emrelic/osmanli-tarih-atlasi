@@ -1,0 +1,1 @@
+const fs=require('fs');global.window={};eval(fs.readFileSync(process.argv[2],'utf8'));console.log(JSON.stringify((window.DEVLETLER||[]).map(d=>({id:d.id,ad:d.ad,f:d.f,t:d.t}))));
