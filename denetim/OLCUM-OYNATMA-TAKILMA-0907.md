@@ -1,0 +1,63 @@
+# KRONOLOJİ OYNATILIRKENKİ TAKILMA — ÖLÇÜLDÜ
+
+> Brifingin `④` maddesi bunu *"koşu bitince tarayıcıda"* diye açık bırakmıştı.
+> Koşu 7b bitti (r6711), ölçüm koşuldu. **7 Eylül 07:5x · localhost:8777**
+> Ölçülen yayın: koşu 7b sonrası, merge adım 1-3 inmiş hâli.
+
+## ① AÇILIŞ — brifingin sayısının İKİ KATINDAN FAZLA
+
+```
+domHazır            20.546 ms
+load                20.590 ms
+transfer            103,65 MB · 179 script
+devletler_harita.js 54.710 KB · 15.931 ms   ← TEK BAŞINA yükün yarısı
+```
+🔴 Brifing *"~9,2 sn AYRIŞTIRMA"* diyordu. Bugün **20,5 sn**.
+⚠️ İkisi aynı şeyi ölçmüyor olabilir (o *ayrıştırma*, bu *domHazır*) —
+ama büyüklük mertebesi değişmiş ve `devletler_harita.js` koşu 7b'de
+büyüdü (53,4 MB). **Karşılaştırma yaklaşıktır; ölçüm kesindir.**
+
+## ② 🔴 OYNATMA — HER 0,8 SANİYEDE BİR DONUYOR
+
+Ölçüt: `setTimeout(0)` gecikmesi = ana iş parçacığının ne kadar **bloklu**
+olduğu. Render'a bağlı değil, `document.visibilityState = "visible"` iken
+alındı.
+
+```
+BOŞTA (60 örnek)      ortanca 15,9 · azami 16,3 · >50ms  0
+OYNARKEN (900 örnek)  ortanca 15,8 · azami 498  · >100ms 21
+DURDUKTAN SONRA       ortanca 15,9 · azami 16,4 · >50ms  0
+```
+```
+oynatma süresi          17,3 sn      (1281 → 1299)
+donma (>100 ms)         21 kez       ⇒ 0,8 SANİYEDE BİR
+en uzun beş             498 · 430 · 400 · 388 · 354 ms
+bloklu geçen toplam     4.954 ms     ⇒ oynatmanın %28,6'sı
+p99                     240,9 ms
+```
+
+🔴 **HÜKÜM: oynatma sürekli yavaş DEĞİL, PERİYODİK OLARAK DONUYOR.**
+Ortanca kare bütçesi normal (15,8 ms ≈ 60 fps); kusur **ortalamada değil
+kuyrukta**. Kullanıcı bunu *"akıcı ama zıplıyor"* diye görür.
+🟢 Ve donma **yalnız oynatırken**: öncesi ve sonrası temiz (>50 ms → 0).
+⇒ Sebep sayfa yükü ya da bellek değil, **her tarih adımında yapılan iş.**
+
+## ③ BUNUN `④`ÜN ÇÖZÜM ÖNERİSİYLE İLİŞKİSİ
+
+Brifing *"geometri `<script>`ten çıkıp `fetch()`+JSON olmalı"* diyor ve o
+**açılışı** çözer (20,5 sn). Ama bu ölçüm gösteriyor ki **oynatma donması
+ayrı bir sorun**: sayfa yüklendikten sonra, bellek 313-676 MB arasında
+salınırken, her adımda yeniden hesap yapılıyor.
+⇒ İki kalem AYRI ve çareleri farklı. Birini çözmek ötekini çözmez.
+
+## ④ ÖLÇMEDİKLERİM
+
+```
+⚪ Donmanın SEBEBİ — hangi fonksiyon blokluyor. Profil alınmadı.
+⚪ Farklı hız kademelerinde davranış — yalnız varsayılan hızda ölçüldü.
+⚪ Farklı dönemler — 1281-1299 aralığı ölçüldü; gövde sayısı arttıkça
+   (1600+, yüzlerce devlet sahnede) donma ARTABİLİR ve bu ÖLÇÜLMEDİ.
+⚪ Yayındaki (GitHub Pages) hâli — ölçüm YEREL sunucuda (localhost:8777).
+🔴 Açılış karşılaştırması: brifingin 9,2 sn'si ile bu 20,5 sn AYNI ÖLÇÜT
+   OLMAYABİLİR. "İki katına çıktı" demiyorum; "bugün 20,5 sn" diyorum.
+```
