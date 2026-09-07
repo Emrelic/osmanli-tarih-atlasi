@@ -173,10 +173,23 @@ def _zincir(yayinla=True, uretimsiz=False):
         # ⇒ Bir zaman sabiti düzeltilirken, aynı dosyadaki ÖTEKİ zaman
         #   sabitleri de ölçülür. Biri bayatladıysa ötekiler de bayattır.
         #
-        # ⚠️ 1440 bir TAHMİN DEĞİL bir TAVAN: 16s09dk ölçülen en uzun koşu,
-        #   %49 pay bırakıldı. Koşu bundan uzun sürerse kesilmesi DOĞRUDUR —
-        #   ama 200 dakikada kesilmesi bir kusurdu.
-        if kos("üretim (uret_petek.py) — ölçülen en uzun koşu 16s09dk",
+        # ⚠️ 1440 bir TAHMİN DEĞİL bir TAVAN: %49 pay bırakıldı. Koşu bundan
+        #   uzun sürerse kesilmesi DOĞRUDUR — ama 200 dakikada kesilmesi
+        #   bir kusurdu.
+        #
+        # 🔴 VE BAŞLIKTAKİ SÜRE, GİRDİ BÜYÜKLÜĞÜYLE BİRLİKTE YAZILIR.
+        # 7 Eylül 2026'da `SINAV-KOSU8-0907` bunu bayat buldu: başlık
+        # "16s09dk" diyordu, ölçülen en uzun koşu (7B) **16s49dk**ydı —
+        # ve o rakam ~2731 petekli bir tabandan geliyordu; koşu 8 **3805**
+        # petekle koşuyor. Voronoi ve kesişim maliyeti nokta sayısıyla
+        # doğrusaldan kötü ölçekler ⇒ DAHA UZUN BİR KOŞU BEKLENEN
+        # DAVRANIŞTIR, bir arıza işareti DEĞİL.
+        # ⇒ `§11`: bir süre kaydının yanına GİRDİ BÜYÜKLÜĞÜ yazılmazsa,
+        #   o kayıt bir sonraki koşuda YANLIŞ ALARM üretir. Ve "tahmini
+        #   aştı" ile "takıldı" AYRI hükümlerdir: ikincisi CPU deltasıyla
+        #   ayrıca ölçülür.
+        if kos("üretim (uret_petek.py) — ölçülen en uzun koşu 16s49dk "
+               "(koşu 7B, ~2731 petek; bu koşunun tabanı FARKLIYSA süre de farklıdır)",
                [sys.executable, "arac/uret_petek.py"], dk=1440) is None:
             return 1
         if kos("devirler (uret_devirler.py)",
