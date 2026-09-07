@@ -237,7 +237,30 @@ def main(argv):
             for m in ek:
                 istek.append((slug, m, os.path.basename(y)))
                 n += 1
-        yaz("  yama %-38s %3d madde" % (os.path.basename(y), n))
+        # 🔴 DÖRDÜNCÜ KOVA: `0 madde` İKİ AYRI ŞEYİ SÖYLÜYORDU.
+        # 7 Eylül 2026'da `SINAV-KOSU8-0907` glob'un tuttuğu 22 dosyanın
+        # 12'sinin `0 madde` bastığını ölçtü. Şema uyuşmazlığından GERÇEK
+        # KAYIP: **0**. Yani hiçbiri bu aletin hedefine (`devletler.js`
+        # künye içi `kronoloji[]`) ait değildi — alet doğru davranıyordu
+        # ama YANLIŞ CÜMLEYİ kuruyordu:
+        #     "0 madde"          okuyan → "burada yapacak iş yok"
+        #     doğrusu            "BU DOSYA BANA AİT DEĞİL"
+        # ⇒ `§11`: *`0`, "yok" ile "bakmadım" arasında ayrım yapmaz.*
+        #   Burada üçüncü bir anlam daha vardı: "benim değil".
+        #
+        # ⚠️ Ve asıl bulgu sınıflandırma değil: **12 dosyanın 9'u hedefini
+        # HİÇ BEYAN ETMİYOR.** Bir yama nereye gideceğini söylemiyorsa ne
+        # bir alet onu yönlendirebilir ne bir insan yönlendirmeyi
+        # doğrulayabilir. Bugün zararsız — çünkü bu alet onları atlıyor;
+        # yarın başka bir alet onları SAHİPLENİRSE zararsız olmayacak.
+        if n == 0 and ky is None:
+            hedef = d.get("_HEDEF") or d.get("hedef")
+            yaz("  yama %-38s   ⚫ SAHİPLENMEDİM — `kunyeler` yok%s"
+                % (os.path.basename(y),
+                   (" · hedefi: %s" % hedef) if hedef else
+                   " · ve HEDEF BEYANI DA YOK"))
+        else:
+            yaz("  yama %-38s %3d madde" % (os.path.basename(y), n))
     yaz("  TOPLAM istek: %d madde" % len(istek))
 
     # ③ künyeleri NODE ile oku
