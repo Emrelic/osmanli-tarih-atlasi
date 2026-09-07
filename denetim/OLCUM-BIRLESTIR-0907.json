@@ -1,0 +1,650 @@
+{
+ "dizin": "denetim",
+ "bolgeler": [
+  "ANADOLU",
+  "BALKAN",
+  "ARAP",
+  "KAFRIKA",
+  "GAFRIKA",
+  "ASYA"
+ ],
+ "eksik": [],
+ "kollar": {
+  "ANADOLU": {
+   "kapsayici": "kenarlar",
+   "kayit": 19,
+   "ne_ekseni": "ne_a/ne_b",
+   "ne_orani": 1.0
+  },
+  "BALKAN": {
+   "kapsayici": "kenarlar",
+   "kayit": 60,
+   "ne_ekseni": "ne_a/ne_b",
+   "ne_orani": 1.0
+  },
+  "ARAP": {
+   "kapsayici": "kenar",
+   "kayit": 26,
+   "ne_ekseni": "a/b",
+   "ne_orani": 1.0
+  },
+  "KAFRIKA": {
+   "kapsayici": "kenarlar",
+   "kayit": 25,
+   "ne_ekseni": "a/b",
+   "ne_orani": 1.0
+  },
+  "GAFRIKA": {
+   "kapsayici": "kayitlar",
+   "kayit": 89,
+   "ne_ekseni": "a/b",
+   "ne_orani": 1.0
+  },
+  "ASYA": {
+   "kapsayici": "kenarlar",
+   "kayit": 98,
+   "ne_ekseni": "ne_a/ne_b",
+   "ne_orani": 1.0
+  }
+ },
+ "sema": {
+  "ANADOLU": {
+   "kayit": 19,
+   "bos_f": 12,
+   "bos_dayanak_t": 12
+  },
+  "BALKAN": {
+   "bos_f": 13,
+   "bicimsiz_tarih": 13,
+   "onerilen_eksik": 60,
+   "kayit": 60
+  },
+  "ARAP": {
+   "bos_t_cinsi": 22,
+   "bos_f": 22,
+   "bos_t": 26,
+   "bos_dayanak_t": 19,
+   "onerilen_eksik": 26,
+   "kayit": 26,
+   "ihlal": 4,
+   "gc_bos": 4
+  },
+  "KAFRIKA": {
+   "bos_dayanak_t": 5,
+   "onerilen_eksik": 25,
+   "kayit": 25
+  },
+  "GAFRIKA": {
+   "bos_dayanak_t": 89,
+   "onerilen_eksik": 89,
+   "kayit": 89
+  },
+  "ASYA": {
+   "bos_dayanak_t": 96,
+   "kayit": 98
+  }
+ },
+ "anahtar": {
+  "ANADOLU": {
+   "ozdes_uc": 5
+  },
+  "BALKAN": {},
+  "ARAP": {},
+  "KAFRIKA": {},
+  "GAFRIKA": {
+   "ters_sira": 43
+  },
+  "ASYA": {
+   "bos_uc": 98
+  }
+ },
+ "benzersiz_kenar": 307,
+ "mukerrer_geometri": {
+  "ayni": [
+   "Afghanistan | Iran",
+   "Bulgaria | Turkey",
+   "Greece | Turkey",
+   "Iran | Iraq",
+   "Iran | Pakistan",
+   "Iran | Turkmenistan",
+   "Iraq | Turkey",
+   "Syria | Turkey"
+  ],
+  "bos_taraf": [
+   "Egypt | Israel",
+   "Egypt | Palestine"
+  ],
+  "farkli": [],
+  "olculemedi": []
+ },
+ "ad_varyanti_sinavi": {
+  "kanonik_benzersiz": 278,
+  "kanonik_carpraz": 9,
+  "gizlenen_mukerrer": [],
+  "kanonlasmayan_kayit": 30
+ },
+ "kapsama": {
+  "referans_ham": 342,
+  "referans_kanonik": 296,
+  "referans_kanonlasmayan": 46,
+  "kollar": 278,
+  "kapsanan": 276,
+  "eksik": [
+   "Akrotiri | Cyprus",
+   "Andorra | Spain",
+   "Austria | Liechtenstein",
+   "Belgium | Germany",
+   "Belgium | Luxembourg",
+   "Cyprus U.N. Buffer Zone | Dhekelia",
+   "Cyprus U.N. Buffer Zone | N. Cyprus",
+   "Cyprus | Cyprus U.N. Buffer Zone",
+   "Cyprus | Dhekelia",
+   "Dhekelia | N. Cyprus",
+   "Germany | Luxembourg",
+   "Germany | Switzerland",
+   "Gibraltar | Spain",
+   "Italy | San Marino",
+   "Italy | Switzerland",
+   "Italy | Vatican",
+   "Liechtenstein | Switzerland",
+   "Norway | Russia",
+   "Norway | Sweden",
+   "Portugal | Spain"
+  ],
+  "fazla": [
+   "Egypt | Jordan",
+   "Egypt | Saudi Arabia"
+  ]
+ },
+ "bolgeler_arasi_mukerrer": [
+  {
+   "a": "Afghanistan",
+   "b": "Iran",
+   "kayitlar": [
+    {
+     "bolge": "ANADOLU",
+     "i": 2,
+     "hal": "bulunamadi"
+    },
+    {
+     "bolge": "ASYA",
+     "i": 44,
+     "hal": "olculemedi"
+    }
+   ]
+  },
+  {
+   "a": "Bulgaria",
+   "b": "Turkey",
+   "kayitlar": [
+    {
+     "bolge": "ANADOLU",
+     "i": 14,
+     "hal": "bulunamadi"
+    },
+    {
+     "bolge": "BALKAN",
+     "i": 23,
+     "hal": "olculemedi"
+    }
+   ]
+  },
+  {
+   "a": "Egypt",
+   "b": "Israel",
+   "kayitlar": [
+    {
+     "bolge": "ARAP",
+     "i": 22,
+     "hal": "olculemedi"
+    },
+    {
+     "bolge": "KAFRIKA",
+     "i": 19,
+     "hal": "hukuki"
+    }
+   ]
+  },
+  {
+   "a": "Egypt",
+   "b": "Palestine",
+   "kayitlar": [
+    {
+     "bolge": "ARAP",
+     "i": 24,
+     "hal": "olculemedi"
+    },
+    {
+     "bolge": "KAFRIKA",
+     "i": 24,
+     "hal": "hukuki"
+    }
+   ]
+  },
+  {
+   "a": "Greece",
+   "b": "Turkey",
+   "kayitlar": [
+    {
+     "bolge": "ANADOLU",
+     "i": 15,
+     "hal": "hukuki"
+    },
+    {
+     "bolge": "BALKAN",
+     "i": 35,
+     "hal": "olculemedi"
+    }
+   ]
+  },
+  {
+   "a": "Iran",
+   "b": "Iraq",
+   "kayitlar": [
+    {
+     "bolge": "ANADOLU",
+     "i": 0,
+     "hal": "hukuki"
+    },
+    {
+     "bolge": "ARAP",
+     "i": 0,
+     "hal": "olculemedi"
+    }
+   ]
+  },
+  {
+   "a": "Iran",
+   "b": "Pakistan",
+   "kayitlar": [
+    {
+     "bolge": "ANADOLU",
+     "i": 6,
+     "hal": "bulunamadi"
+    },
+    {
+     "bolge": "ASYA",
+     "i": 46,
+     "hal": "olculemedi"
+    }
+   ]
+  },
+  {
+   "a": "Iran",
+   "b": "Turkmenistan",
+   "kayitlar": [
+    {
+     "bolge": "ANADOLU",
+     "i": 1,
+     "hal": "bulunamadi"
+    },
+    {
+     "bolge": "ASYA",
+     "i": 36,
+     "hal": "olculemedi"
+    }
+   ]
+  },
+  {
+   "a": "Iraq",
+   "b": "Turkey",
+   "kayitlar": [
+    {
+     "bolge": "ANADOLU",
+     "i": 10,
+     "hal": "bulunamadi"
+    },
+    {
+     "bolge": "ARAP",
+     "i": 5,
+     "hal": "hukuki"
+    }
+   ]
+  },
+  {
+   "a": "Syria",
+   "b": "Turkey",
+   "kayitlar": [
+    {
+     "bolge": "ANADOLU",
+     "i": 3,
+     "hal": "hukuki"
+    },
+    {
+     "bolge": "ARAP",
+     "i": 21,
+     "hal": "hukuki"
+    }
+   ]
+  }
+ ],
+ "kol_ici_mukerrer": [],
+ "bulgular": [
+  {
+   "tur": "SARI",
+   "bolge": "ANADOLU",
+   "yer": "-",
+   "mesaj": "a == b: 5 kayit — kenarin iki yani ayni kimlik (1923'te ULUSLARARASI sinir degil; `hal:ayni-kimlik` adayi)"
+  },
+  {
+   "tur": "SARI",
+   "bolge": "BALKAN",
+   "yer": "BALKAN#0",
+   "mesaj": "dayanak_t='bulunamadi' YYYY-MM-DD bicimine uymuyor"
+  },
+  {
+   "tur": "SARI",
+   "bolge": "BALKAN",
+   "yer": "BALKAN#11",
+   "mesaj": "dayanak_t='bulunamadi' YYYY-MM-DD bicimine uymuyor"
+  },
+  {
+   "tur": "SARI",
+   "bolge": "BALKAN",
+   "yer": "BALKAN#12",
+   "mesaj": "dayanak_t='bulunamadi' YYYY-MM-DD bicimine uymuyor"
+  },
+  {
+   "tur": "SARI",
+   "bolge": "BALKAN",
+   "yer": "BALKAN#14",
+   "mesaj": "dayanak_t='bulunamadi' YYYY-MM-DD bicimine uymuyor"
+  },
+  {
+   "tur": "SARI",
+   "bolge": "BALKAN",
+   "yer": "BALKAN#23",
+   "mesaj": "dayanak_t='bulunamadi' YYYY-MM-DD bicimine uymuyor"
+  },
+  {
+   "tur": "SARI",
+   "bolge": "BALKAN",
+   "yer": "BALKAN#28",
+   "mesaj": "dayanak_t='bulunamadi' YYYY-MM-DD bicimine uymuyor"
+  },
+  {
+   "tur": "SARI",
+   "bolge": "BALKAN",
+   "yer": "BALKAN#29",
+   "mesaj": "dayanak_t='bulunamadi' YYYY-MM-DD bicimine uymuyor"
+  },
+  {
+   "tur": "SARI",
+   "bolge": "BALKAN",
+   "yer": "BALKAN#32",
+   "mesaj": "dayanak_t='bulunamadi' YYYY-MM-DD bicimine uymuyor"
+  },
+  {
+   "tur": "SARI",
+   "bolge": "BALKAN",
+   "yer": "BALKAN#41",
+   "mesaj": "dayanak_t='bulunamadi' YYYY-MM-DD bicimine uymuyor"
+  },
+  {
+   "tur": "SARI",
+   "bolge": "BALKAN",
+   "yer": "BALKAN#46",
+   "mesaj": "dayanak_t='bulunamadi' YYYY-MM-DD bicimine uymuyor"
+  },
+  {
+   "tur": "SARI",
+   "bolge": "BALKAN",
+   "yer": "BALKAN#54",
+   "mesaj": "dayanak_t='bulunamadi' YYYY-MM-DD bicimine uymuyor"
+  },
+  {
+   "tur": "SARI",
+   "bolge": "BALKAN",
+   "yer": "BALKAN#56",
+   "mesaj": "dayanak_t='bulunamadi' YYYY-MM-DD bicimine uymuyor"
+  },
+  {
+   "tur": "SARI",
+   "bolge": "BALKAN",
+   "yer": "BALKAN#58",
+   "mesaj": "dayanak_t='bulunamadi' YYYY-MM-DD bicimine uymuyor"
+  },
+  {
+   "tur": "SARI",
+   "bolge": "ARAP",
+   "yer": "ARAP#0",
+   "mesaj": "t_cinsi BOS ('')"
+  },
+  {
+   "tur": "SARI",
+   "bolge": "ARAP",
+   "yer": "ARAP#1",
+   "mesaj": "t_cinsi BOS ('')"
+  },
+  {
+   "tur": "SARI",
+   "bolge": "ARAP",
+   "yer": "ARAP#2",
+   "mesaj": "t_cinsi BOS ('')"
+  },
+  {
+   "tur": "SARI",
+   "bolge": "ARAP",
+   "yer": "ARAP#3",
+   "mesaj": "t_cinsi BOS ('')"
+  },
+  {
+   "tur": "SARI",
+   "bolge": "ARAP",
+   "yer": "ARAP#4",
+   "mesaj": "t_cinsi BOS ('')"
+  },
+  {
+   "tur": "SARI",
+   "bolge": "ARAP",
+   "yer": "ARAP#6",
+   "mesaj": "t_cinsi BOS ('')"
+  },
+  {
+   "tur": "SARI",
+   "bolge": "ARAP",
+   "yer": "ARAP#7",
+   "mesaj": "t_cinsi BOS ('')"
+  },
+  {
+   "tur": "SARI",
+   "bolge": "ARAP",
+   "yer": "ARAP#8",
+   "mesaj": "t_cinsi BOS ('')"
+  },
+  {
+   "tur": "SARI",
+   "bolge": "ARAP",
+   "yer": "ARAP#10",
+   "mesaj": "t_cinsi BOS ('')"
+  },
+  {
+   "tur": "SARI",
+   "bolge": "ARAP",
+   "yer": "ARAP#11",
+   "mesaj": "t_cinsi BOS ('')"
+  },
+  {
+   "tur": "SARI",
+   "bolge": "ARAP",
+   "yer": "ARAP#12",
+   "mesaj": "t_cinsi BOS ('')"
+  },
+  {
+   "tur": "SARI",
+   "bolge": "ARAP",
+   "yer": "ARAP#13",
+   "mesaj": "t_cinsi BOS ('')"
+  },
+  {
+   "tur": "SARI",
+   "bolge": "ARAP",
+   "yer": "ARAP#14",
+   "mesaj": "t_cinsi BOS ('')"
+  },
+  {
+   "tur": "SARI",
+   "bolge": "ARAP",
+   "yer": "ARAP#15",
+   "mesaj": "t_cinsi BOS ('')"
+  },
+  {
+   "tur": "SARI",
+   "bolge": "ARAP",
+   "yer": "ARAP#16",
+   "mesaj": "t_cinsi BOS ('')"
+  },
+  {
+   "tur": "SARI",
+   "bolge": "ARAP",
+   "yer": "ARAP#17",
+   "mesaj": "t_cinsi BOS ('')"
+  },
+  {
+   "tur": "SARI",
+   "bolge": "ARAP",
+   "yer": "ARAP#18",
+   "mesaj": "t_cinsi BOS ('')"
+  },
+  {
+   "tur": "SARI",
+   "bolge": "ARAP",
+   "yer": "ARAP#19",
+   "mesaj": "t_cinsi BOS ('')"
+  },
+  {
+   "tur": "SARI",
+   "bolge": "ARAP",
+   "yer": "ARAP#22",
+   "mesaj": "t_cinsi BOS ('')"
+  },
+  {
+   "tur": "KIRMIZI",
+   "bolge": "ARAP",
+   "yer": "ARAP#22",
+   "mesaj": "gc BOS ([]) — kayit var, geometri YOK ⇒ C'de cizilemez"
+  },
+  {
+   "tur": "SARI",
+   "bolge": "ARAP",
+   "yer": "ARAP#23",
+   "mesaj": "t_cinsi BOS ('')"
+  },
+  {
+   "tur": "KIRMIZI",
+   "bolge": "ARAP",
+   "yer": "ARAP#23",
+   "mesaj": "gc BOS ([]) — kayit var, geometri YOK ⇒ C'de cizilemez"
+  },
+  {
+   "tur": "SARI",
+   "bolge": "ARAP",
+   "yer": "ARAP#24",
+   "mesaj": "t_cinsi BOS ('')"
+  },
+  {
+   "tur": "KIRMIZI",
+   "bolge": "ARAP",
+   "yer": "ARAP#24",
+   "mesaj": "gc BOS ([]) — kayit var, geometri YOK ⇒ C'de cizilemez"
+  },
+  {
+   "tur": "SARI",
+   "bolge": "ARAP",
+   "yer": "ARAP#25",
+   "mesaj": "t_cinsi BOS ('')"
+  },
+  {
+   "tur": "KIRMIZI",
+   "bolge": "ARAP",
+   "yer": "ARAP#25",
+   "mesaj": "gc BOS ([]) — kayit var, geometri YOK ⇒ C'de cizilemez"
+  },
+  {
+   "tur": "KIRMIZI",
+   "bolge": "GAFRIKA",
+   "yer": "-",
+   "mesaj": "ANAHTAR KARARSIZ: 43/89 kayitta a > b (alfabetik degil) ⇒ ayni kenar iki farkli anahtarla gorunur"
+  },
+  {
+   "tur": "KIRMIZI",
+   "bolge": "ASYA",
+   "yer": "-",
+   "mesaj": "a/b BOS: 98/98 kayit — birlestirme anahtari YOK, kayitlar birbirinden ayirt edilemez"
+  },
+  {
+   "tur": "SARI",
+   "bolge": "ANADOLU+ASYA",
+   "yer": "-",
+   "mesaj": "BOLGELER ARASI MUKERRER: Afghanistan | Iran -> ANADOLU(bulunamadi), ASYA(olculemedi)"
+  },
+  {
+   "tur": "SARI",
+   "bolge": "ANADOLU+BALKAN",
+   "yer": "-",
+   "mesaj": "BOLGELER ARASI MUKERRER: Bulgaria | Turkey -> ANADOLU(bulunamadi), BALKAN(olculemedi)"
+  },
+  {
+   "tur": "SARI",
+   "bolge": "ARAP+KAFRIKA",
+   "yer": "-",
+   "mesaj": "BOLGELER ARASI MUKERRER: Egypt | Israel -> ARAP(olculemedi), KAFRIKA(hukuki)"
+  },
+  {
+   "tur": "SARI",
+   "bolge": "ARAP+KAFRIKA",
+   "yer": "-",
+   "mesaj": "BOLGELER ARASI MUKERRER: Egypt | Palestine -> ARAP(olculemedi), KAFRIKA(hukuki)"
+  },
+  {
+   "tur": "SARI",
+   "bolge": "ANADOLU+BALKAN",
+   "yer": "-",
+   "mesaj": "BOLGELER ARASI MUKERRER: Greece | Turkey -> ANADOLU(hukuki), BALKAN(olculemedi)"
+  },
+  {
+   "tur": "SARI",
+   "bolge": "ANADOLU+ARAP",
+   "yer": "-",
+   "mesaj": "BOLGELER ARASI MUKERRER: Iran | Iraq -> ANADOLU(hukuki), ARAP(olculemedi)"
+  },
+  {
+   "tur": "SARI",
+   "bolge": "ANADOLU+ASYA",
+   "yer": "-",
+   "mesaj": "BOLGELER ARASI MUKERRER: Iran | Pakistan -> ANADOLU(bulunamadi), ASYA(olculemedi)"
+  },
+  {
+   "tur": "SARI",
+   "bolge": "ANADOLU+ASYA",
+   "yer": "-",
+   "mesaj": "BOLGELER ARASI MUKERRER: Iran | Turkmenistan -> ANADOLU(bulunamadi), ASYA(olculemedi)"
+  },
+  {
+   "tur": "SARI",
+   "bolge": "ANADOLU+ARAP",
+   "yer": "-",
+   "mesaj": "BOLGELER ARASI MUKERRER: Iraq | Turkey -> ANADOLU(bulunamadi), ARAP(hukuki)"
+  },
+  {
+   "tur": "SARI",
+   "bolge": "ANADOLU+ARAP",
+   "yer": "-",
+   "mesaj": "BOLGELER ARASI MUKERRER: Syria | Turkey -> ANADOLU(hukuki), ARAP(hukuki)"
+  },
+  {
+   "tur": "SARI",
+   "bolge": "ARAP+KAFRIKA",
+   "yer": "-",
+   "mesaj": "MUKERRER, BIR TARAFIN gc'si BOS: Egypt | Israel ⇒ geometri celiskisi DEGIL, olcum eksigi"
+  },
+  {
+   "tur": "SARI",
+   "bolge": "ARAP+KAFRIKA",
+   "yer": "-",
+   "mesaj": "MUKERRER, BIR TARAFIN gc'si BOS: Egypt | Palestine ⇒ geometri celiskisi DEGIL, olcum eksigi"
+  }
+ ],
+ "uretilen": [],
+ "cikti_dogrulamasi": null
+}

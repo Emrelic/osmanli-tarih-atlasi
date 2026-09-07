@@ -345,6 +345,155 @@ def anahtar_kararliligi(bolge, kayitlar, bulgular):
 # ④ CAKISMA — ayni kenar birden cok kolda mi?
 # ─────────────────────────────────────────────────────────────────────────────
 
+def ne_kanon_haritasi(yol=NE_GEOJSON):
+    """
+    NE adi -> KANONIK ulke.  NE ayni ulkeyi alti alanda alti farkli yazabiliyor
+    ('Serbia' / 'Republic of Serbia' · 'Bosnia and Herz.' / 'Bosnia and
+    Herzegovina' · 'W. Sahara' / 'Western Sahara').
+
+    🔴 NICIN GEREKLI: iki kol AYNI kenari FARKLI ad alanindan yazmissa, ad
+       tabanli mukerrer tespiti onu GORMEZ. Bu harita o kor noktayi olcer.
+    ⚠️ Birden cok ulkeye esleşen ad (SOVEREIGNT 'France' gibi) KANONLASTIRILMAZ
+       — belirsizligi bir esleme gibi gostermek yeni bir kusur olurdu.
+    """
+    if not os.path.exists(yol):
+        return None
+    ne = json.load(open(yol, encoding="utf-8"))
+    ad2ft = collections.defaultdict(set)
+    kanon = {}
+    for i, ft in enumerate(ne.get("features", [])):
+        p = ft.get("properties", {})
+        kanon[i] = p.get("NAME") or p.get("ADMIN") or ("ft%d" % i)
+        for k in ("NAME", "NAME_LONG", "ADMIN", "SOVEREIGNT", "BRK_NAME", "NAME_EN"):
+            v = p.get(k)
+            if isinstance(v, str) and v:
+                ad2ft[v].add(i)
+    return {a: kanon[list(s)[0]] for a, s in ad2ft.items() if len(s) == 1}
+
+
+def kanonik_capraz_sinav(indeks, carpraz, kanon, bulgular):
+    """
+    Ad varyantlari yuzunden GIZLENMIS mukerrer var mi?
+
+    Ham ad indeksini kanonik adlara indirger ve YENI cift cikip cikmadigina
+    bakar. Cikarsa 🔴: ad tabanli sayim eksik demektir.
+    Donus: (kanonik_benzersiz, kanonik_carpraz, gizlenen_liste, kanonsuz)
+    """
+    if kanon is None:
+        return None, None, None, None
+    kan_ix = collections.defaultdict(list)
+    kanonsuz = 0
+    for cift, kayitlar in indeks.items():
+        ka, kb = kanon.get(cift[0]), kanon.get(cift[1])
+        if ka is None or kb is None:
+            kanonsuz += len(kayitlar)
+            continue
+        kan_ix[tuple(sorted((ka, kb)))].extend(kayitlar)
+    kan_carpraz = {k: v for k, v in kan_ix.items() if len({x[0] for x in v}) > 1}
+    ham_kanon = set()
+    for cift in carpraz:
+        ka, kb = kanon.get(cift[0], cift[0]), kanon.get(cift[1], cift[1])
+        ham_kanon.add(tuple(sorted((ka, kb))))
+    gizlenen = sorted(set(kan_carpraz) - ham_kanon)
+    for k in gizlenen:
+        bulgular.append(("KIRMIZI", "+".join(sorted({x[0] for x in kan_carpraz[k]})), "-",
+                         "AD VARYANTI MUKERRERI GIZLEMIS: %s | %s — iki kol ayni kenari "
+                         "FARKLI NE ad alanindan yazmis" % k))
+    return len(kan_ix), len(kan_carpraz), gizlenen, kanonsuz
+
+
+def kapsama_olc(indeks, kanon, ref_yol=os.path.join("denetim", "OLCUM-KENAR-0907.json")):
+    """
+    Kollar NE'nin kenarlarinin ne kadarini kapsiyor?
+
+    Referans: KADEME-MODEL-0907'nin 342 kenarlik olcumu. 🟡 DEVRALINAN bir
+    sayi — burada kendi dosyasindan OKUNUYOR, elle tasinmiyor.
+    Dosya yoksa None doner: 'kapsama 0' DEGIL, 'OLCULEMEDI'.
+    """
+    if kanon is None or not os.path.exists(ref_yol):
+        return None
+    ref = json.load(open(ref_yol, encoding="utf-8"))
+    REF, ref_kanonsuz = set(), 0
+    for e in ref.get("kenarlar", []):
+        ka, kb = kanon.get(e.get("a")), kanon.get(e.get("b"))
+        if ka is None or kb is None:
+            ref_kanonsuz += 1
+            continue
+        REF.add(tuple(sorted((ka, kb))))
+    BIZ = set()
+    for cift in indeks:
+        ka, kb = kanon.get(cift[0]), kanon.get(cift[1])
+        if ka and kb:
+            BIZ.add(tuple(sorted((ka, kb))))
+    return dict(referans_ham=len(ref.get("kenarlar", [])),
+                referans_kanonik=len(REF), referans_kanonlasmayan=ref_kanonsuz,
+                kollar=len(BIZ), kapsanan=len(BIZ & REF),
+                eksik=sorted("%s | %s" % k for k in (REF - BIZ)),
+                fazla=sorted("%s | %s" % k for k in (BIZ - REF)))
+
+
+def gc_imza(gc):
+    """
+    Geometrinin karsilastirilabilir imzasi: (parca, tepe, 3-ondalik tepe kumesi).
+
+    3 ondalik, modelin kendi hassasiyeti (§①e) — ve yuvarlama birebirligi
+    BOZMAZ: iki kol ayni float'i tasiyorsa ayni yuvarlanmisi da tasir.
+    Donus None = 'olculemedi' (gc liste degil), bos kume = 'gc BOS'.
+    """
+    if not isinstance(gc, list):
+        return None
+    tepeler = []
+    for p in gc:
+        if isinstance(p, list):
+            for t in p:
+                if isinstance(t, (list, tuple)) and len(t) >= 2:
+                    try:
+                        tepeler.append((round(float(t[0]), 3), round(float(t[1]), 3)))
+                    except (TypeError, ValueError):
+                        pass
+    return len(gc), len(tepeler), frozenset(tepeler)
+
+
+def mukerrer_geometri(carpraz, okunan, bulgular):
+    """
+    Ayni kenari iki kol da yazmissa GEOMETRILERI AYNI MI?
+
+    🔴 Bu, birlestirmenin FIYATINI belirleyen olcumdur. Model (§①c) kenar
+       cikariminin MEKANIK oldugunu soyluyor (tolerans yok); dogruysa iki
+       bagimsiz kolun ayni kenar icin urettigi `gc` BIREBIR AYNI olmali.
+       Degilse cakisma yalniz `hal`de degil GEOMETRIDE de var demektir ve
+       o cok daha pahalidir.
+    ⚠️ 'BIR TARAF BOS' ayri kovadir: bir yanin `gc:[]` olmasi bir GEOMETRI
+       CELISKISI DEGIL, bir OLCUM EKSIGIDIR. Ayni kovaya konursa care de
+       yanlis secilir (CLAUDE.md §11: iki ayri kusur tek satirda raporlanirsa
+       ayni care uygulanir).
+    """
+    sonuc = {"ayni": [], "bos_taraf": [], "farkli": [], "olculemedi": []}
+    for k, v in sorted(carpraz.items()):
+        imzalar = []
+        for b, i, _hal in v:
+            imzalar.append((b, gc_imza(okunan[b]["kayitlar"][i].get("gc"))))
+        etiket = "%s | %s" % k
+        if any(s is None for _, s in imzalar):
+            sonuc["olculemedi"].append(etiket)
+        elif any(len(s[2]) == 0 for _, s in imzalar):
+            sonuc["bos_taraf"].append(etiket)
+            bulgular.append(("SARI", "+".join(b for b, _ in imzalar), "-",
+                             "MUKERRER, BIR TARAFIN gc'si BOS: %s ⇒ geometri celiskisi DEGIL, "
+                             "olcum eksigi" % etiket))
+        elif len({s[2] for _, s in imzalar}) == 1:
+            sonuc["ayni"].append(etiket)
+        else:
+            a0, a1 = imzalar[0][1], imzalar[1][1]
+            ortak = len(a0[2] & a1[2]); birlesim = len(a0[2] | a1[2])
+            sonuc["farkli"].append(etiket)
+            bulgular.append(("KIRMIZI", "+".join(b for b, _ in imzalar), "-",
+                             "MUKERRER KENARIN GEOMETRISI FARKLI: %s · ortak tepe %d/%d "
+                             "⇒ modelin 'kenar cikarimi MEKANIK' iddiasi bu cift icin TUTMUYOR"
+                             % (etiket, ortak, birlesim)))
+    return sonuc
+
+
 def cakisma_olc(okunan, ne_ad, bulgular):
     eksen, indeks = {}, collections.defaultdict(list)
     anahtarsiz = collections.Counter()
@@ -523,6 +672,10 @@ def main():
         anahtar[b] = anahtar_kararliligi(b, o["kayitlar"], bulgular)
 
     eksen, indeks, carpraz, icsel = cakisma_olc(okunan, ne_ad, bulgular)
+    geo = mukerrer_geometri(carpraz, okunan, bulgular)
+    kanon = ne_kanon_haritasi()
+    kan_n, kan_c, gizlenen, kanonsuz = kanonik_capraz_sinav(indeks, carpraz, kanon, bulgular)
+    kapsama = kapsama_olc(indeks, kanon)
 
     yazilan, dogrulama = [], None
     if a.uret:
@@ -576,7 +729,37 @@ def main():
         P("   BOLGELER ARASI mukerrer: %d" % len(carpraz))
         P("   KOL ICI mukerrer       : %d   🔴 (kolun kendi hatasi)" % len(icsel))
         for k, v in sorted(carpraz.items()):
-            P("      %-24s | %-24s -> %s" % (k[0], k[1], ", ".join("%s(%s)" % (x[0], x[2]) for x in v)))
+            P("      %-22s | %-22s -> %s" % (k[0], k[1], ", ".join("%s(%s)" % (x[0], x[2]) for x in v)))
+        P("")
+        P("   MUKERRER KENARLARIN GEOMETRISI  (birlestirmenin FIYATINI bu belirler)")
+        P("      BIREBIR AYNI  : %d" % len(geo["ayni"]))
+        P("      BIR TARAF BOS : %d   %s" % (len(geo["bos_taraf"]), ", ".join(geo["bos_taraf"])))
+        P("      FARKLI        : %d   %s" % (len(geo["farkli"]), ", ".join(geo["farkli"])))
+        P("      OLCULEMEDI    : %d   %s" % (len(geo["olculemedi"]), ", ".join(geo["olculemedi"])))
+        P("")
+        P("   AD VARYANTI SINAVI  (ayni kenar farkli NE ad alanindan yazilmis mi)")
+        if kanon is None:
+            P("      ⚪ OLCULEMEDI — NE sozlugu okunamadi")
+        else:
+            P("      ham ad ile: %d benzersiz / %d carpraz · kanonik: %d / %d"
+              % (len(indeks), len(carpraz), kan_n, kan_c))
+            P("      GIZLENMIS MUKERRER: %s" % ("🟢 0" if not gizlenen else "🔴 %s" % gizlenen))
+            P("      kanonlasmayan kayit: %d (belirsiz NE adi)" % kanonsuz)
+        P("")
+        P("   KAPSAMA  (referans: denetim/OLCUM-KENAR-0907.json · 🟡 DEVRALINAN)")
+        if kapsama is None:
+            P("      ⚪ OLCULEMEDI — referans dosya ya da NE sozlugu yok")
+        else:
+            P("      referans %d kenar -> kanonik %d (kanonlasmayan %d)"
+              % (kapsama["referans_ham"], kapsama["referans_kanonik"],
+                 kapsama["referans_kanonlasmayan"]))
+            P("      KAPSANAN %d/%d (%.1f%%) · EKSIK %d · FAZLA %d"
+              % (kapsama["kapsanan"], kapsama["referans_kanonik"],
+                 100.0 * kapsama["kapsanan"] / max(1, kapsama["referans_kanonik"]),
+                 len(kapsama["eksik"]), len(kapsama["fazla"])))
+            if kapsama["fazla"]:
+                P("      FAZLA (kol yazmis, referansta kenar YOK): %s"
+                  % ", ".join(kapsama["fazla"]))
         P("")
         if a.uret:
             P("⑤ URETIM -> %s" % a.hedef)
@@ -615,6 +798,11 @@ def main():
             sema={b: dict(s) for b, s in sema.items()},
             anahtar={b: dict(s) for b, s in anahtar.items()},
             benzersiz_kenar=len(indeks),
+            mukerrer_geometri={k: list(v) for k, v in geo.items()},
+            ad_varyanti_sinavi=dict(kanonik_benzersiz=kan_n, kanonik_carpraz=kan_c,
+                                    gizlenen_mukerrer=["%s | %s" % g for g in (gizlenen or [])],
+                                    kanonlasmayan_kayit=kanonsuz),
+            kapsama=kapsama,
             bolgeler_arasi_mukerrer=[dict(a=k[0], b=k[1],
                                           kayitlar=[dict(bolge=x[0], i=x[1], hal=x[2]) for x in v])
                                      for k, v in sorted(carpraz.items())],
