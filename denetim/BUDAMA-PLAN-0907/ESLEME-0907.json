@@ -1,0 +1,1474 @@
+{
+ "s11_bas_satir": 2137,
+ "ders": 182,
+ "eski_token": 109586,
+ "yeni_token": 51065,
+ "esik": 150,
+ "yerinde": [
+  {
+   "etiket": "replace(eski, yeni, 1) — Python'da sayı argümanı ilk eşleşmeyi değiştirir.",
+   "token": 101
+  },
+  {
+   "etiket": "Yakın mükerrer yerleşim — Varat/Varad 1 km arayla iki kayıttı; Afyon ve",
+   "token": 84
+  },
+  {
+   "etiket": "Üretimi veri değişirken başlatma. Dört üretim bu yüzden çöpe gitti.",
+   "token": 24
+  },
+  {
+   "etiket": "Denetim ölçütünü gevşetme. \"Maddesi var mı\" sorusunun cevabı \"aynı gün\" ya da",
+   "token": 50
+  },
+  {
+   "etiket": "🔴 \"BU GÜN ZATEN VAR\" YETMİYOR — HANGİ KOVADA OLDUĞU DA SORULMALI.",
+   "token": 329
+  },
+  {
+   "etiket": "🔴 \"ÇÖZÜLEMEDİ\" DEMEDEN ÖNCE HANGİ KISITIN BAĞLADIĞINI ÖLÇ.",
+   "token": 305
+  },
+  {
+   "etiket": "📌 BAZI LİSTELER KUYRUK DEĞİL PENCEREDİR. SINIRDA uyarı listesinin",
+   "token": 206
+  },
+  {
+   "etiket": "🔴 BİR SÜZGECİ KALDIRMADAN ÖNCE, SÜZGECİN NEYİ KORUDUĞUNU OKU.",
+   "token": 269
+  },
+  {
+   "etiket": "🔴 ORTAK BİR KANALA ÖZEL BİR MESAJ KOYMAK, ONU HERKESE GÖNDERMEKTİR.",
+   "token": 245
+  },
+  {
+   "etiket": "🟢 ÖLÇÜMDEN ÖNCE, HANGİ ÖNGÖRÜNÜN \"MAZERETİ OLABİLECEĞİNİ\" DE YAZ.",
+   "token": 350
+  },
+  {
+   "etiket": "🔴 TEMİZ ÇIKAN BİR ÖRNEKLEM, ÖRNEKLEMİN DIŞINI TEMİZ İLAN ETMEZ.",
+   "token": 313
+  },
+  {
+   "etiket": "🟢 VE NÖBETÇİ İLK GERÇEK YAKALAYIŞINI YAPTI — \"KAÇ TANE VAR\" DEĞİL",
+   "token": 262
+  },
+  {
+   "etiket": "🔴 EŞİK TEK SAYI DEĞİLDİR: ANLATININ MERKEZİNDEKİ ÇİFT DAHA FAZLASINI",
+   "token": 339
+  },
+  {
+   "etiket": "🔴 ENGEL KÜMESİ, KAPATILMAK İSTENEN ÇİFTİ İÇERMİYORSA ÇÖZÜM O ÇİFTİ",
+   "token": 336
+  },
+  {
+   "etiket": "🔴 BİR BİLGİ İKİ YERDE DURUYORSA, BİRİ GÜNCELLENİNCE ÖTEKİ BAYATLAR —",
+   "token": 265
+  },
+  {
+   "etiket": "🔴 HÜKÜM İLE TEŞHİS AYRI ŞEYLERDİR — bir raporu kabul etmeden ÖLÇ.",
+   "token": 252
+  },
+  {
+   "etiket": "🔴 \"ŞU DÜZELTMEYİ YAP\" DENİNCE ÖNCE KUSURUN ÜREYİP ÜREMEDİĞİNİ ÖLÇ —",
+   "token": 375
+  },
+  {
+   "etiket": "🔴 KIRPILMIŞ BİR ÇIKTI DA BİR ÖLÇÜM DEĞİLDİR. (aynı tur)",
+   "token": 316
+  },
+  {
+   "etiket": "🔴 İDARÎ DEVİR, SAHİPLİK DEĞİŞİMİ DEĞİLDİR — ve atlas sahiplik çizer.",
+   "token": 322
+  },
+  {
+   "etiket": "🔴 BİR HÜKMÜ VERMEK İLE UYGULAMAK AYRI YETKİLERDİR — ve §7",
+   "token": 265
+  },
+  {
+   "etiket": "🟢 BİR DAMGA, BİR HÜKMÜN DAYANAĞI OLABİLİR. (aynı tur ·",
+   "token": 286
+  },
+  {
+   "etiket": "🟢 BİR DAVRANIŞ KASITLI OLABİLİR VE YİNE DE EKSİK OLABİLİR — kusur",
+   "token": 268
+  },
+  {
+   "etiket": "🔴 \"BULUNAMADI\" · \"ÖLÇÜLEMEDİ\" · \"OKUMADIM\" — ÜÇ AYRI DAMGA.",
+   "token": 253
+  },
+  {
+   "etiket": "🔴 VE BİR DÜZELTME, YANLIŞ UYGULANIRSA DOĞRU VERİYİ BOZAR — \"ÇEK\"",
+   "token": 305
+  },
+  {
+   "etiket": "🔴 TDV TUZAK LİSTESİNE ALTINCI: CANLI YÖNLENDİRME KÜTÜĞÜ.",
+   "token": 365
+  },
+  {
+   "etiket": "🔴 BİR DEVLETİN KRONOLOJİSİNE, TARAF OLMADIĞI BİR OLAY YAZILMAZ.",
+   "token": 237
+  },
+  {
+   "etiket": "🟢 VE HASSASİYETİ DÜŞÜRMEK BİLGİYİ SİLMEZ — DAYANAĞINI GÖRÜNÜR KILAR.",
+   "token": 188
+  },
+  {
+   "etiket": "🟢 AYNI SAYININ TEKRAR ETMESİ, İLK ÖNCE ALETTEN ŞÜPHELENDİRİR.",
+   "token": 138
+  },
+  {
+   "etiket": "🔴 BİR ORANI BAŞKA BİR KATMANA TAŞIMAK, O KATMANIN KENDİ YAPISINI YOK",
+   "token": 366
+  },
+  {
+   "etiket": "🟢 VE 17 ÇAKIŞMA 17 SORU DEĞİLDİ — DÖRT. (aynı tur)",
+   "token": 168
+  },
+  {
+   "etiket": "🔴 YUVARLAK BİR TARİH YALNIZ HASSASİYETİ DEĞİL, BORÇLARI DA",
+   "token": 301
+  },
+  {
+   "etiket": "🔴 BİR GÖVDEYİ İLK BİBLİYOGRAFYADA KESMEK, ÇOK BÖLÜMLÜ TDV",
+   "token": 290
+  },
+  {
+   "etiket": "🔴 BİR KORUMA ÇAPASI, BELGEDE ZATEN GEÇEN BİR İFADEYSE, BETİK",
+   "token": 438
+  },
+  {
+   "etiket": "🔴 BÜYÜK/KÜÇÜK HARF DUYARSIZ ALT-DİZGİ ARAMASI, BİR ADI BAŞKA BİR",
+   "token": 368
+  },
+  {
+   "etiket": "🔴 AYRI BİR REALM'DE KOŞAN VERİDE instanceof SESSİZCE FALSE",
+   "token": 365
+  }
+ ],
+ "esleme": [
+  {
+   "slug": "sed-ile-turkce-karakterli-kesme-isaretli-duzeltme",
+   "etiket": "sed ile Türkçe karakterli / kesme işaretli düzeltme yapma — Git Bash'te",
+   "eski_token": 291,
+   "kalan_token": 153,
+   "eski_satir": 14,
+   "kalan_satir": 5,
+   "tutulan_hukum": 2
+  },
+  {
+   "slug": "denetim-var-o-soruyu-soruyor-ayni-gun",
+   "etiket": "🔴 \"DENETİM VAR\" ≠ \"O SORUYU SORUYOR.\" Aynı gün ÜÇ ayrı körlük ölçüldü",
+   "eski_token": 333,
+   "kalan_token": 272,
+   "eski_satir": 15,
+   "kalan_satir": 9,
+   "tutulan_hukum": 6
+  },
+  {
+   "slug": "yeni-yazilan-denetim-iki-yonde-de-sinanmadan",
+   "etiket": "🔴 YENİ YAZILAN DENETİM, İKİ YÖNDE DE SINANMADAN \"ÇALIŞIYOR\" SAYILMAZ.",
+   "eski_token": 516,
+   "kalan_token": 280,
+   "eski_satir": 25,
+   "kalan_satir": 9,
+   "tutulan_hukum": 7
+  },
+  {
+   "slug": "veri-penceresi-ile-kunye-penceresi-ayri-seylerdir",
+   "etiket": "🔴 VERİ PENCERESİ İLE KÜNYE PENCERESİ AYRI ŞEYLERDİR — biri BUGÜNKÜ,",
+   "eski_token": 429,
+   "kalan_token": 265,
+   "eski_satir": 21,
+   "kalan_satir": 9,
+   "tutulan_hukum": 6
+  },
+  {
+   "slug": "c13un-eksik-ayagi-hangi-yonun-zorlanacagi-onceden",
+   "etiket": "🔴 C13ÜN EKSİK AYAĞI: HANGİ YÖNÜN ZORLANACAĞI ÖNCEDEN BİLİNMEZ.",
+   "eski_token": 308,
+   "kalan_token": 268,
+   "eski_satir": 15,
+   "kalan_satir": 10,
+   "tutulan_hukum": 4
+  },
+  {
+   "slug": "yuvarlak-tarih-yalniz-yanlis-degildir-celiskiyi-de",
+   "etiket": "🔴 YUVARLAK TARİH YALNIZ YANLIŞ DEĞİLDİR — ÇELİŞKİYİ DE SAKLAR.",
+   "eski_token": 1538,
+   "kalan_token": 963,
+   "eski_satir": 72,
+   "kalan_satir": 39,
+   "tutulan_hukum": 37
+  },
+  {
+   "slug": "olcemedigini-eleyen-bir-suzgec-onu-temiz-sayar",
+   "etiket": "🔴 ÖLÇEMEDİĞİNİ ELEYEN BİR SÜZGEÇ, ONU TEMİZ SAYAR.",
+   "eski_token": 638,
+   "kalan_token": 186,
+   "eski_satir": 33,
+   "kalan_satir": 5,
+   "tutulan_hukum": 3
+  },
+  {
+   "slug": "bir-duzeltme-dogru-calisabilir-ve-sonraki-asama",
+   "etiket": "🔴 BİR DÜZELTME DOĞRU ÇALIŞABİLİR VE SONRAKİ AŞAMA ONU GERİ ALABİLİR —",
+   "eski_token": 631,
+   "kalan_token": 243,
+   "eski_satir": 37,
+   "kalan_satir": 9,
+   "tutulan_hukum": 6
+  },
+  {
+   "slug": "bir-dosyanin-veri-mi-kod-mu-oldugunu",
+   "etiket": "🔴 BİR DOSYANIN \"VERİ Mİ KOD MU\" OLDUĞUNU İÇERİĞİ DEĞİL, ARACIN ONA",
+   "eski_token": 816,
+   "kalan_token": 213,
+   "eski_satir": 41,
+   "kalan_satir": 7,
+   "tutulan_hukum": 4
+  },
+  {
+   "slug": "sahipsiz-in-iki-cinsi-vardir-ve-sinavi",
+   "etiket": "🔴 \"SAHİPSİZ\"İN İKİ CİNSİ VARDIR VE SINAVI ŞUDUR: KAYNAK KONUŞUYOR MU,",
+   "eski_token": 1234,
+   "kalan_token": 140,
+   "eski_satir": 63,
+   "kalan_satir": 5,
+   "tutulan_hukum": 2
+  },
+  {
+   "slug": "ongoru-olcumden-once-yazilir-sonra-yazilan-beklenti",
+   "etiket": "🟢 ÖNGÖRÜ ÖLÇÜMDEN ÖNCE YAZILIR — SONRA YAZILAN BEKLENTİ AYARLANABİLİR,",
+   "eski_token": 573,
+   "kalan_token": 145,
+   "eski_satir": 33,
+   "kalan_satir": 4,
+   "tutulan_hukum": 1
+  },
+  {
+   "slug": "kendi-yazdigin-ayristirici-var-olan-bir-ayristiricidan",
+   "etiket": "🔴 KENDİ YAZDIĞIN AYRIŞTIRICI, VAR OLAN BİR AYRIŞTIRICIDAN HER ZAMAN",
+   "eski_token": 383,
+   "kalan_token": 304,
+   "eski_satir": 19,
+   "kalan_satir": 12,
+   "tutulan_hukum": 8
+  },
+  {
+   "slug": "iki-ayri-kusur-tek-satirda-raporlanirsa-careleri",
+   "etiket": "🔴 İKİ AYRI KUSUR TEK SATIRDA RAPORLANIRSA, ÇARELERİ TERS OLSA BİLE",
+   "eski_token": 709,
+   "kalan_token": 188,
+   "eski_satir": 37,
+   "kalan_satir": 6,
+   "tutulan_hukum": 3
+  },
+  {
+   "slug": "cozulemedi-nin-ucuncu-cinsi-sira-bagliyor-olabilir",
+   "etiket": "🔴 \"ÇÖZÜLEMEDİ\"NİN ÜÇÜNCÜ CİNSİ: SIRA BAĞLIYOR OLABİLİR — VE BU,",
+   "eski_token": 579,
+   "kalan_token": 204,
+   "eski_satir": 30,
+   "kalan_satir": 6,
+   "tutulan_hukum": 3
+  },
+  {
+   "slug": "bir-kisit-uygulanamadi-diye-sessiz-gecilirse-uygulanmis",
+   "etiket": "🔴 BİR KISIT \"UYGULANAMADI\" DİYE SESSİZ GEÇİLİRSE, UYGULANMIŞ SANILIR.",
+   "eski_token": 395,
+   "kalan_token": 311,
+   "eski_satir": 20,
+   "kalan_satir": 11,
+   "tutulan_hukum": 9
+  },
+  {
+   "slug": "bir-alan-tasarlamadan-once-o-alanin-zaten",
+   "etiket": "🔴 BİR ALAN TASARLAMADAN ÖNCE, O ALANIN ZATEN VAR OLUP OLMADIĞINI ÖLÇ —",
+   "eski_token": 812,
+   "kalan_token": 243,
+   "eski_satir": 42,
+   "kalan_satir": 8,
+   "tutulan_hukum": 5
+  },
+  {
+   "slug": "bir-aracin-verdigi-recete-uygulaninca-kendi-testini",
+   "etiket": "🔴 BİR ARACIN VERDİĞİ REÇETE, UYGULANINCA KENDİ TESTİNİ GEÇMEK",
+   "eski_token": 613,
+   "kalan_token": 315,
+   "eski_satir": 31,
+   "kalan_satir": 11,
+   "tutulan_hukum": 8
+  },
+  {
+   "slug": "atlas-seferi-degil-tasarrufu-boyar-bir-kimligin",
+   "etiket": "🔴 ATLAS SEFERİ DEĞİL TASARRUFU BOYAR — bir kimliğin TARİHSEL ERİŞİMİ",
+   "eski_token": 645,
+   "kalan_token": 242,
+   "eski_satir": 32,
+   "kalan_satir": 8,
+   "tutulan_hukum": 1
+  },
+  {
+   "slug": "cozulemedi-nin-iki-cinsi-vardir-ve-ayirt",
+   "etiket": "🔴 \"ÇÖZÜLEMEDİ\"NİN İKİ CİNSİ VARDIR VE AYIRT EDİLMELİ.",
+   "eski_token": 250,
+   "kalan_token": 128,
+   "eski_satir": 16,
+   "kalan_satir": 4,
+   "tutulan_hukum": 2
+  },
+  {
+   "slug": "bir-raporda-olculmus-ile-hatirlanmis-yan-yana",
+   "etiket": "🔴 BİR RAPORDA ÖLÇÜLMÜŞ İLE HATIRLANMIŞ YAN YANA DURURSA, OKUYAN",
+   "eski_token": 599,
+   "kalan_token": 337,
+   "eski_satir": 29,
+   "kalan_satir": 12,
+   "tutulan_hukum": 9
+  },
+  {
+   "slug": "bir-aletin-evreni-degisince-alet-degismeden-sessizce",
+   "etiket": "🔴 BİR ALETİN EVRENİ DEĞİŞİNCE, ALET DEĞİŞMEDEN SESSİZCE YANILIR.",
+   "eski_token": 253,
+   "kalan_token": 201,
+   "eski_satir": 13,
+   "kalan_satir": 7,
+   "tutulan_hukum": 3
+  },
+  {
+   "slug": "bir-kuralin-yazili-olmasi-uygulandigi-anlamina-gelmiyor",
+   "etiket": "🔴 BİR KURALIN YAZILI OLMASI, UYGULANDIĞI ANLAMINA GELMİYOR — ve ihlaller",
+   "eski_token": 777,
+   "kalan_token": 312,
+   "eski_satir": 38,
+   "kalan_satir": 11,
+   "tutulan_hukum": 6
+  },
+  {
+   "slug": "koordinatorun-hizli-bir-bakis-olcumu-is-dagitiminin",
+   "etiket": "🔴 KOORDİNATÖRÜN \"HIZLI BİR BAKIŞ\" ÖLÇÜMÜ, İŞ DAĞITIMININ TABANI",
+   "eski_token": 866,
+   "kalan_token": 298,
+   "eski_satir": 45,
+   "kalan_satir": 10,
+   "tutulan_hukum": 6
+  },
+  {
+   "slug": "f-dosya-kullanmak-yetmiyor-o-dosyanin-nasil",
+   "etiket": "🔴 -F <dosya> KULLANMAK YETMİYOR — O DOSYANIN NASIL YAZILDIĞI DA",
+   "eski_token": 648,
+   "kalan_token": 241,
+   "eski_satir": 32,
+   "kalan_satir": 8,
+   "tutulan_hukum": 5
+  },
+  {
+   "slug": "bir-duzeltmenin-veride-inmesi-haritada-indigi-anlamina",
+   "etiket": "🔴 BİR DÜZELTMENİN VERİDE İNMESİ, HARİTADA İNDİĞİ ANLAMINA GELMEZ.",
+   "eski_token": 463,
+   "kalan_token": 291,
+   "eski_satir": 22,
+   "kalan_satir": 10,
+   "tutulan_hukum": 7
+  },
+  {
+   "slug": "aletin-gosterdigi-dosyada-yazan-bir-b-kacisi",
+   "etiket": "🔴 ALETİN GÖSTERDİĞİ ≠ DOSYADA YAZAN. Bir \\b kaçışı bozulup dosyaya",
+   "eski_token": 344,
+   "kalan_token": 200,
+   "eski_satir": 18,
+   "kalan_satir": 7,
+   "tutulan_hukum": 3
+  },
+  {
+   "slug": "bir-sikayet-sikayet-edilen-seyden-daha-hizli",
+   "etiket": "🔴 BİR ŞİKÂYET, ŞİKÂYET EDİLEN ŞEYDEN DAHA HIZLI BAYATLAR — VE EKRAN",
+   "eski_token": 618,
+   "kalan_token": 280,
+   "eski_satir": 32,
+   "kalan_satir": 10,
+   "tutulan_hukum": 7
+  },
+  {
+   "slug": "istenen-seyin-altyapisi-zaten-vardi-bir-gunde",
+   "etiket": "🔴🔴 \"İSTENEN ŞEYİN ALTYAPISI ZATEN VARDI\" — BİR GÜNDE BEŞ KEZ.",
+   "eski_token": 588,
+   "kalan_token": 258,
+   "eski_satir": 28,
+   "kalan_satir": 8,
+   "tutulan_hukum": 5
+  },
+  {
+   "slug": "bir-ders-veriye-serbest-metin-olarak-inerse",
+   "etiket": "🔴 BİR DERS VERİYE SERBEST METİN OLARAK İNERSE, İNMİŞ SAYILMAZ — VE",
+   "eski_token": 656,
+   "kalan_token": 131,
+   "eski_satir": 35,
+   "kalan_satir": 4,
+   "tutulan_hukum": 1
+  },
+  {
+   "slug": "log-da-bir-ciktidir-ve-o-da",
+   "etiket": "🔴 LOG DA BİR ÇIKTIDIR VE O DA BAYATLAR — VE DOSYA ADI NUMARASI TARİHLE",
+   "eski_token": 630,
+   "kalan_token": 177,
+   "eski_satir": 37,
+   "kalan_satir": 6,
+   "tutulan_hukum": 3
+  },
+  {
+   "slug": "silinen-kodun-mezar-tasi-hayatta-kalan-kod",
+   "etiket": "🔴 SİLİNEN KODUN MEZAR TAŞI, HAYATTA KALAN KOD HAKKINDA BİR İDDİADIR —",
+   "eski_token": 798,
+   "kalan_token": 229,
+   "eski_satir": 40,
+   "kalan_satir": 7,
+   "tutulan_hukum": 4
+  },
+  {
+   "slug": "bugunun-en-sik-hatasi-tek-bir-sinifti",
+   "etiket": "🔴 BUGÜNÜN EN SIK HATASI TEK BİR SINIFTI: ÖLÇÜM DOĞRU, ÇIKARIM YANLIŞ.",
+   "eski_token": 417,
+   "kalan_token": 284,
+   "eski_satir": 17,
+   "kalan_satir": 9,
+   "tutulan_hukum": 6
+  },
+  {
+   "slug": "bir-defterin-anahtari-kararsizsa-defter-sessizce-yalan",
+   "etiket": "🔴 BİR DEFTERİN ANAHTARI KARARSIZSA, DEFTER SESSİZCE YALAN SÖYLER —",
+   "eski_token": 763,
+   "kalan_token": 220,
+   "eski_satir": 39,
+   "kalan_satir": 7,
+   "tutulan_hukum": 3
+  },
+  {
+   "slug": "iki-ayri-sorunun-ayni-cevabi-vermesi-ayni",
+   "etiket": "🔴 İKİ AYRI SORUNUN AYNI CEVABI VERMESİ, AYNI SORU OLDUĞU ANLAMINA",
+   "eski_token": 364,
+   "kalan_token": 223,
+   "eski_satir": 20,
+   "kalan_satir": 9,
+   "tutulan_hukum": 6
+  },
+  {
+   "slug": "bir-alet-yanlis-birim-etiketi-basiyorsa-ona",
+   "etiket": "🔴 BİR ALET YANLIŞ BİRİM ETİKETİ BASIYORSA, ONA YAZILAN ÖNGÖRÜ",
+   "eski_token": 1190,
+   "kalan_token": 235,
+   "eski_satir": 60,
+   "kalan_satir": 6,
+   "tutulan_hukum": 2
+  },
+  {
+   "slug": "c13un-ucuncu-ayagi-girdiyi-gercek-kaynagindan-okuma",
+   "etiket": "🔴 C13ÜN ÜÇÜNCÜ AYAĞI: GİRDİYİ GERÇEK KAYNAĞINDAN OKUMA YOLU DA",
+   "eski_token": 872,
+   "kalan_token": 243,
+   "eski_satir": 45,
+   "kalan_satir": 7,
+   "tutulan_hukum": 3
+  },
+  {
+   "slug": "atlasta-yok-hukmu-normallestiricisiz-bir-aramayla-verile",
+   "etiket": "🔴 \"ATLASTA YOK\" HÜKMÜ, NORMALLEŞTİRİCİSİZ BİR ARAMAYLA VERİLEMEZ —",
+   "eski_token": 990,
+   "kalan_token": 224,
+   "eski_satir": 49,
+   "kalan_satir": 7,
+   "tutulan_hukum": 3
+  },
+  {
+   "slug": "bir-ongoru-sinavinin-kosulacagi-ani-da-tarif",
+   "etiket": "🔴 BİR ÖNGÖRÜ, SINAVININ KOŞULACAĞI ANI DA TARİF ETMELİDİR — damga",
+   "eski_token": 515,
+   "kalan_token": 244,
+   "eski_satir": 30,
+   "kalan_satir": 8,
+   "tutulan_hukum": 5
+  },
+  {
+   "slug": "ve-bir-ongoru-uc-ayri-cinsten-curur",
+   "etiket": "🟢 VE BİR ÖNGÖRÜ ÜÇ AYRI CİNSTEN ÇÜRÜR — ÜÇÜNCÜSÜ EN DEĞERLİSİ.",
+   "eski_token": 377,
+   "kalan_token": 171,
+   "eski_satir": 20,
+   "kalan_satir": 7,
+   "tutulan_hukum": 4
+  },
+  {
+   "slug": "bir-kod-argumani-bir-kontrol-kosusundan-genis",
+   "etiket": "🟢 BİR KOD ARGÜMANI, BİR KONTROL KOŞUSUNDAN GENİŞ OLABİLİR —",
+   "eski_token": 530,
+   "kalan_token": 130,
+   "eski_satir": 26,
+   "kalan_satir": 4,
+   "tutulan_hukum": 1
+  },
+  {
+   "slug": "dogru-sonucu-guvenilmez-yoldan-veren-alet-ve",
+   "etiket": "🔴 DOĞRU SONUCU GÜVENİLMEZ YOLDAN VEREN ALET — ve kendini ELE VERMEZ.",
+   "eski_token": 1212,
+   "kalan_token": 168,
+   "eski_satir": 68,
+   "kalan_satir": 5,
+   "tutulan_hukum": 2
+  },
+  {
+   "slug": "bir-hukum-veriye-inmedikce-hukum-degil-bir",
+   "etiket": "🔴 BİR HÜKÜM, VERİYE İNMEDİKÇE HÜKÜM DEĞİL BİR METİNDİR.",
+   "eski_token": 328,
+   "kalan_token": 210,
+   "eski_satir": 20,
+   "kalan_satir": 8,
+   "tutulan_hukum": 5
+  },
+  {
+   "slug": "bir-alet-aradigi-seyin-nerede-olmayacagini-da",
+   "etiket": "🔴🔴 BİR ALET, ARADIĞI ŞEYİN NEREDE OLMAYACAĞINI DA BİLMELİ.",
+   "eski_token": 987,
+   "kalan_token": 212,
+   "eski_satir": 58,
+   "kalan_satir": 7,
+   "tutulan_hukum": 3
+  },
+  {
+   "slug": "kendi-kurdugun-olcum-penceresi-gormedigini-yok-diye",
+   "etiket": "🔴🔴 KENDİ KURDUĞUN ÖLÇÜM PENCERESİ, GÖRMEDİĞİNİ \"YOK\" DİYE GÖSTERİR —",
+   "eski_token": 992,
+   "kalan_token": 277,
+   "eski_satir": 47,
+   "kalan_satir": 9,
+   "tutulan_hukum": 5
+  },
+  {
+   "slug": "bir-sevk-tasidigi-onculu-de-dogrulamalidir-koordinator",
+   "etiket": "🔴 BİR SEVK, TAŞIDIĞI ÖNCÜLÜ DE DOĞRULAMALIDIR — koordinatör tarafı",
+   "eski_token": 818,
+   "kalan_token": 225,
+   "eski_satir": 46,
+   "kalan_satir": 7,
+   "tutulan_hukum": 3
+  },
+  {
+   "slug": "dogru-bilgi-olu-adres-kaynak-alaninin-yarim",
+   "etiket": "🔴 DOĞRU BİLGİ, ÖLÜ ADRES — kaynak: alanının yarım çalışan hâli.",
+   "eski_token": 441,
+   "kalan_token": 166,
+   "eski_satir": 22,
+   "kalan_satir": 6,
+   "tutulan_hukum": 3
+  },
+  {
+   "slug": "bir-arama-aradigi-seyin-kac-ayri-bicimde",
+   "etiket": "🔴🔴 BİR ARAMA, ARADIĞI ŞEYİN KAÇ AYRI BİÇİMDE YAZILABİLECEĞİNİ",
+   "eski_token": 1503,
+   "kalan_token": 187,
+   "eski_satir": 74,
+   "kalan_satir": 5,
+   "tutulan_hukum": 1
+  },
+  {
+   "slug": "bir-duzeltme-sluga-degil-kayda-bakar-ayni",
+   "etiket": "🔴 BİR DÜZELTME SLUGA DEĞİL KAYDA BAKAR — aynı slug iki kayıtta",
+   "eski_token": 384,
+   "kalan_token": 330,
+   "eski_satir": 20,
+   "kalan_satir": 13,
+   "tutulan_hukum": 10
+  },
+  {
+   "slug": "3-km-bir-yasak-degil-bir-suphe",
+   "etiket": "🔴 3 KM BİR YASAK DEĞİL, BİR ŞÜPHE EŞİĞİDİR — ve şartı ZAMAN",
+   "eski_token": 726,
+   "kalan_token": 244,
+   "eski_satir": 37,
+   "kalan_satir": 9,
+   "tutulan_hukum": 6
+  },
+  {
+   "slug": "bir-beyan-aracin-alan-kumesinde-yoksa-sessizce",
+   "etiket": "🔴 BİR BEYAN, ARACIN ALAN KÜMESİNDE YOKSA SESSİZCE DÜŞER — VE",
+   "eski_token": 1130,
+   "kalan_token": 278,
+   "eski_satir": 50,
+   "kalan_satir": 10,
+   "tutulan_hukum": 7
+  },
+  {
+   "slug": "bir-dongude-basari-varlikla-hata-yoklukla-bildirilirse",
+   "etiket": "🔴 BİR DÖNGÜDE BAŞARI VARLIKLA, HATA YOKLUKLA BİLDİRİLİRSE HATA",
+   "eski_token": 369,
+   "kalan_token": 217,
+   "eski_satir": 20,
+   "kalan_satir": 7,
+   "tutulan_hukum": 4
+  },
+  {
+   "slug": "bir-hukum-dosyasi-bir-olcum-degil-olcumun",
+   "etiket": "🔴 BİR HÜKÜM DOSYASI BİR ÖLÇÜM DEĞİL, ÖLÇÜMÜN FOTOĞRAFIDIR — ve",
+   "eski_token": 404,
+   "kalan_token": 238,
+   "eski_satir": 21,
+   "kalan_satir": 8,
+   "tutulan_hukum": 5
+  },
+  {
+   "slug": "dogru-kapiya-gidip-yanlis-yerden-dinlemek-yoklugu",
+   "etiket": "🔴🔴 DOĞRU KAPIYA GİDİP YANLIŞ YERDEN DİNLEMEK — yokluğu TEMİZLİK",
+   "eski_token": 1345,
+   "kalan_token": 214,
+   "eski_satir": 66,
+   "kalan_satir": 6,
+   "tutulan_hukum": 2
+  },
+  {
+   "slug": "bir-denetim-adayi-olculdu-ve-bunu-yazmayin",
+   "etiket": "🟢🟢 BİR DENETİM ADAYI ÖLÇÜLDÜ VE \"BUNU YAZMAYIN\" DİYE RAPORLANDI — ve",
+   "eski_token": 667,
+   "kalan_token": 357,
+   "eski_satir": 32,
+   "kalan_satir": 12,
+   "tutulan_hukum": 9
+  },
+  {
+   "slug": "iki-kaynak-celisiyor-demeden-once-ikisinin-ayni",
+   "etiket": "🔴🔴 İKİ KAYNAK ÇELİŞİYOR DEMEDEN ÖNCE, İKİSİNİN AYNI YERDEN",
+   "eski_token": 828,
+   "kalan_token": 444,
+   "eski_satir": 38,
+   "kalan_satir": 14,
+   "tutulan_hukum": 10
+  },
+  {
+   "slug": "uc-bagimsiz-olcut-ayni-kumeye-yakinsarsa-bu",
+   "etiket": "🟢 ÜÇ BAĞIMSIZ ÖLÇÜT AYNI KÜMEYE YAKINSARSA, BU KÜMENİN TAM OLDUĞUNUN",
+   "eski_token": 802,
+   "kalan_token": 294,
+   "eski_satir": 38,
+   "kalan_satir": 9,
+   "tutulan_hukum": 6
+  },
+  {
+   "slug": "ayni-damga-farkli-dayanak-gucu-damga-gorunur",
+   "etiket": "🟢 AYNI DAMGA, FARKLI DAYANAK GÜCÜ — damga GÖRÜNÜR kılar, ama NE KADAR",
+   "eski_token": 393,
+   "kalan_token": 289,
+   "eski_satir": 19,
+   "kalan_satir": 10,
+   "tutulan_hukum": 7
+  },
+  {
+   "slug": "varlik-capasi-tasarruf-capasi-degildir-ve-atlas",
+   "etiket": "🔴 VARLIK ÇAPASI, TASARRUF ÇAPASI DEĞİLDİR — ve atlas tasarruf boyar.",
+   "eski_token": 343,
+   "kalan_token": 269,
+   "eski_satir": 19,
+   "kalan_satir": 10,
+   "tutulan_hukum": 7
+  },
+  {
+   "slug": "bir-tutarsizlik-bir-tercih-degil-bir-eksigin",
+   "etiket": "🔴🔴 BİR TUTARSIZLIK BİR TERCİH DEĞİL, BİR EKSİĞİN SONUCU OLABİLİR — ve",
+   "eski_token": 1802,
+   "kalan_token": 1439,
+   "eski_satir": 83,
+   "kalan_satir": 62,
+   "tutulan_hukum": 59
+  },
+  {
+   "slug": "bir-yer-adi-govdede-gecebilir-ve-govde",
+   "etiket": "🔴 BİR YER ADI GÖVDEDE GEÇEBİLİR VE GÖVDE ONU KAPSAMIYOR OLABİLİR —",
+   "eski_token": 615,
+   "kalan_token": 257,
+   "eski_satir": 30,
+   "kalan_satir": 10,
+   "tutulan_hukum": 6
+  },
+  {
+   "slug": "yeterli-ama-gerekli-olmayan-bir-olcut-maliyeti",
+   "etiket": "🔴 YETERLİ AMA GEREKLİ OLMAYAN BİR ÖLÇÜT, MALİYETİ FAZLA SAYAR — ve",
+   "eski_token": 451,
+   "kalan_token": 242,
+   "eski_satir": 25,
+   "kalan_satir": 8,
+   "tutulan_hukum": 4
+  },
+  {
+   "slug": "bir-isyanin-varligi-tasarrufu-degistirmez-sonucu-degisti",
+   "etiket": "🔴 BİR İSYANIN VARLIĞI TASARRUFU DEĞİŞTİRMEZ — SONUCU DEĞİŞTİRİR.",
+   "eski_token": 611,
+   "kalan_token": 230,
+   "eski_satir": 32,
+   "kalan_satir": 7,
+   "tutulan_hukum": 4
+  },
+  {
+   "slug": "bir-olcut-karsilastirilan-iki-secenegi-ayirt-etmiyorsa",
+   "etiket": "🔴 BİR ÖLÇÜT, KARŞILAŞTIRILAN İKİ SEÇENEĞİ AYIRT ETMİYORSA, CEVABI",
+   "eski_token": 719,
+   "kalan_token": 362,
+   "eski_satir": 37,
+   "kalan_satir": 12,
+   "tutulan_hukum": 8
+  },
+  {
+   "slug": "esanlam-borcunun-ucuncu-ekseni-kaynak-verisinin-kendisi",
+   "etiket": "🔴🔴 EŞANLAM BORCUNUN ÜÇÜNCÜ EKSENİ: KAYNAK VERİSİNİN KENDİSİ BOZUK",
+   "eski_token": 788,
+   "kalan_token": 270,
+   "eski_satir": 42,
+   "kalan_satir": 9,
+   "tutulan_hukum": 5
+  },
+  {
+   "slug": "komsusunun-kullandigi-gunu-kullanmak-kendi-gununu-secmek",
+   "etiket": "🟢 KOMŞUSUNUN KULLANDIĞI GÜNÜ KULLANMAK, KENDİ GÜNÜNÜ SEÇMEKTEN",
+   "eski_token": 375,
+   "kalan_token": 247,
+   "eski_satir": 20,
+   "kalan_satir": 9,
+   "tutulan_hukum": 6
+  },
+  {
+   "slug": "bir-carenin-maliyeti-beklenen-eksende-olmayabilir-ve",
+   "etiket": "🔴 BİR ÇARENİN MALİYETİ, BEKLENEN EKSENDE OLMAYABİLİR — ve yanlış",
+   "eski_token": 433,
+   "kalan_token": 303,
+   "eski_satir": 21,
+   "kalan_satir": 11,
+   "tutulan_hukum": 8
+  },
+  {
+   "slug": "bir-kusurun-yapisal-sebebini-bulmak-onun-yayginligini",
+   "etiket": "🟢 BİR KUSURUN YAPISAL SEBEBİNİ BULMAK, ONUN YAYGINLIĞINI DA SÖYLER.",
+   "eski_token": 376,
+   "kalan_token": 303,
+   "eski_satir": 20,
+   "kalan_satir": 11,
+   "tutulan_hukum": 8
+  },
+  {
+   "slug": "elenen-bir-adayin-gerekcesi-sonradan-bulunan-veriyle",
+   "etiket": "🟢 ELENEN BİR ADAYIN GEREKÇESİ, SONRADAN BULUNAN VERİYLE ÖLÇÜLEBİLİR",
+   "eski_token": 376,
+   "kalan_token": 217,
+   "eski_satir": 18,
+   "kalan_satir": 8,
+   "tutulan_hukum": 5
+  },
+  {
+   "slug": "yazili-olmayan-bir-konvansiyon-ancak-ona-uymayan",
+   "etiket": "🟢🟢 YAZILI OLMAYAN BİR KONVANSİYON, ANCAK ONA UYMAYAN BİR KAYIT",
+   "eski_token": 787,
+   "kalan_token": 385,
+   "eski_satir": 34,
+   "kalan_satir": 12,
+   "tutulan_hukum": 8
+  },
+  {
+   "slug": "veri-modelinin-ifade-edemedigi-bir-iliskiyi-edebildigi",
+   "etiket": "🔴🔴 VERİ MODELİNİN İFADE EDEMEDİĞİ BİR İLİŞKİYİ, EDEBİLDİĞİ BİR",
+   "eski_token": 693,
+   "kalan_token": 271,
+   "eski_satir": 33,
+   "kalan_satir": 8,
+   "tutulan_hukum": 3
+  },
+  {
+   "slug": "bir-slug-i-tahmin-etme-kaynagin-kendi",
+   "etiket": "🟢 BİR SLUG'I TAHMİN ETME — KAYNAĞIN KENDİ BAĞLANTISINI OKU.",
+   "eski_token": 591,
+   "kalan_token": 169,
+   "eski_satir": 29,
+   "kalan_satir": 6,
+   "tutulan_hukum": 3
+  },
+  {
+   "slug": "uzun-bir-kosuda-canliligin-ucuncu-sinyali-cpu",
+   "etiket": "🟢🟢 UZUN BİR KOŞUDA CANLILIĞIN ÜÇÜNCÜ SİNYALİ: CPU DELTASI — ve",
+   "eski_token": 647,
+   "kalan_token": 438,
+   "eski_satir": 32,
+   "kalan_satir": 15,
+   "tutulan_hukum": 12
+  },
+  {
+   "slug": "celiski-sanilan-seyin-bes-mekanizmasi-bir-gecede",
+   "etiket": "🟢🟢 \"ÇELİŞKİ\" SANILAN ŞEYİN BEŞ MEKANİZMASI — bir gecede beşi de",
+   "eski_token": 744,
+   "kalan_token": 270,
+   "eski_satir": 34,
+   "kalan_satir": 9,
+   "tutulan_hukum": 6
+  },
+  {
+   "slug": "adiyla-aniyor-ile-tarihliyor-ayni-sey-degildir",
+   "etiket": "🔴🔴 \"ADIYLA ANIYOR\" İLE \"TARİHLİYOR\" AYNI ŞEY DEĞİLDİR — ve gövdedeki",
+   "eski_token": 620,
+   "kalan_token": 308,
+   "eski_satir": 29,
+   "kalan_satir": 9,
+   "tutulan_hukum": 5
+  },
+  {
+   "slug": "bir-mukerrer-kurali-hep-mevcudu-kayiriyorsa-mevcudun",
+   "etiket": "🔴 BİR MÜKERRER KURALI HEP MEVCUDU KAYIRIYORSA, MEVCUDUN HATASINI DA",
+   "eski_token": 378,
+   "kalan_token": 299,
+   "eski_satir": 20,
+   "kalan_satir": 12,
+   "tutulan_hukum": 9
+  },
+  {
+   "slug": "bir-glob-bir-ad-sozlesmesidir-dosyanin-adi",
+   "etiket": "🔴🔴 BİR GLOB BİR AD SÖZLEŞMESİDİR: DOSYANIN ADI ONUN CİNSİNİ İLÂN",
+   "eski_token": 969,
+   "kalan_token": 252,
+   "eski_satir": 45,
+   "kalan_satir": 7,
+   "tutulan_hukum": 3
+  },
+  {
+   "slug": "kaynak-bulunamiyorsa-once-aranan-seyin-dogru-oldugunu",
+   "etiket": "🔴🔴 KAYNAK BULUNAMIYORSA, ÖNCE ARANAN ŞEYİN DOĞRU OLDUĞUNU DOĞRULA —",
+   "eski_token": 599,
+   "kalan_token": 230,
+   "eski_satir": 31,
+   "kalan_satir": 7,
+   "tutulan_hukum": 3
+  },
+  {
+   "slug": "mukerrer-gerekcesi-iki-sinif-saklayabilir-ve-biri",
+   "etiket": "🔴 \"MÜKERRER\" GEREKÇESİ İKİ SINIF SAKLAYABİLİR — VE BİRİ SESSİZ BİR",
+   "eski_token": 404,
+   "kalan_token": 170,
+   "eski_satir": 20,
+   "kalan_satir": 5,
+   "tutulan_hukum": 2
+  },
+  {
+   "slug": "bir-artefakt-hicbir-aletin-glob-una-girmiyorsa",
+   "etiket": "🔴🔴 BİR ARTEFAKT HİÇBİR ALETİN GLOB'UNA GİRMİYORSA, YAPILMAMIŞ",
+   "eski_token": 955,
+   "kalan_token": 313,
+   "eski_satir": 48,
+   "kalan_satir": 10,
+   "tutulan_hukum": 6
+  },
+  {
+   "slug": "izlenebilirlik-dogrulanmisliktan-once-gelir-cunku-izlene",
+   "etiket": "🔴🔴 İZLENEBİLİRLİK, DOĞRULANMIŞLIKTAN ÖNCE GELİR — çünkü izlenebilir",
+   "eski_token": 503,
+   "kalan_token": 311,
+   "eski_satir": 29,
+   "kalan_satir": 11,
+   "tutulan_hukum": 7
+  },
+  {
+   "slug": "icerik-olcutu-bir-sayim-degil-sinanabilir-oge",
+   "etiket": "🟢 İÇERİK ÖLÇÜTÜ BİR SAYIM DEĞİL: \"SINANABİLİR ÖĞE\" SAYMAK YETMEZ,",
+   "eski_token": 426,
+   "kalan_token": 341,
+   "eski_satir": 21,
+   "kalan_satir": 12,
+   "tutulan_hukum": 8
+  },
+  {
+   "slug": "bir-cumle-iki-kayit-arasinda-tasinirken-kaynagini",
+   "etiket": "🔴 BİR CÜMLE İKİ KAYIT ARASINDA TAŞINIRKEN KAYNAĞINI DA TAŞIR — yoksa",
+   "eski_token": 1116,
+   "kalan_token": 245,
+   "eski_satir": 56,
+   "kalan_satir": 10,
+   "tutulan_hukum": 6
+  },
+  {
+   "slug": "bir-referans-olctugu-seyin-yaninda-durmali-beyanin",
+   "etiket": "🔴🔴 BİR REFERANS, ÖLÇTÜĞÜ ŞEYİN YANINDA DURMALI — BEYANIN YANINDA",
+   "eski_token": 1169,
+   "kalan_token": 269,
+   "eski_satir": 57,
+   "kalan_satir": 8,
+   "tutulan_hukum": 5
+  },
+  {
+   "slug": "damga-bir-iddiayi-ne-mesrulastirir-ne-duzeltir",
+   "etiket": "🔴 DAMGA BİR İDDİAYI NE MEŞRULAŞTIRIR NE DÜZELTİR — YALNIZ GÖRÜNÜR",
+   "eski_token": 351,
+   "kalan_token": 282,
+   "eski_satir": 17,
+   "kalan_satir": 9,
+   "tutulan_hukum": 6
+  },
+  {
+   "slug": "tdv-tuzak-listesine-yedinci-takvim-ve-tdv",
+   "etiket": "🔴🔴 TDV TUZAK LİSTESİNE YEDİNCİ: TAKVİM — VE TDV KENDİ İÇİNDE",
+   "eski_token": 1282,
+   "kalan_token": 249,
+   "eski_satir": 62,
+   "kalan_satir": 8,
+   "tutulan_hukum": 4
+  },
+  {
+   "slug": "bir-kaynagin-markasi-onun-provenansi-degildir-ayni",
+   "etiket": "🔴🔴 BİR KAYNAĞIN MARKASI, ONUN PROVENANSI DEĞİLDİR — aynı alan adı",
+   "eski_token": 695,
+   "kalan_token": 219,
+   "eski_satir": 42,
+   "kalan_satir": 7,
+   "tutulan_hukum": 2
+  },
+  {
+   "slug": "bir-bulgunun-sahibi-bulgunun-kendisi-kadar-kayittir",
+   "etiket": "🔴 BİR BULGUNUN SAHİBİ, BULGUNUN KENDİSİ KADAR KAYITTIR.",
+   "eski_token": 461,
+   "kalan_token": 173,
+   "eski_satir": 29,
+   "kalan_satir": 5,
+   "tutulan_hukum": 2
+  },
+  {
+   "slug": "yayin-verinin-bes-parti-gerisinde-ve-hicbir",
+   "etiket": "🔴🔴 YAYIN, VERİNİN BEŞ PARTİ GERİSİNDE — VE HİÇBİR DENETİM BUNU",
+   "eski_token": 531,
+   "kalan_token": 178,
+   "eski_satir": 26,
+   "kalan_satir": 5,
+   "tutulan_hukum": 2
+  },
+  {
+   "slug": "cok-parcali-bir-iliskiyi-tek-sayiya-indiren",
+   "etiket": "🔴 ÇOK PARÇALI BİR İLİŞKİYİ TEK SAYIYA İNDİREN ÖLÇÜ, KUSURU ALT SINIR",
+   "eski_token": 480,
+   "kalan_token": 177,
+   "eski_satir": 25,
+   "kalan_satir": 5,
+   "tutulan_hukum": 2
+  },
+  {
+   "slug": "gizli-bir-sekmede-yapilan-her-tarayici-olcumu",
+   "etiket": "🔴 GİZLİ BİR SEKMEDE YAPILAN HER TARAYICI ÖLÇÜMÜ «YOK» DER — VE «YOK»",
+   "eski_token": 678,
+   "kalan_token": 178,
+   "eski_satir": 36,
+   "kalan_satir": 5,
+   "tutulan_hukum": 2
+  },
+  {
+   "slug": "ayni-rengi-iki-alet-farkli-harmanliyor-ve",
+   "etiket": "🔴 AYNI RENGİ İKİ ALET FARKLI HARMANLIYOR — VE BİRİ EKRANDA OLMAYAN BİR",
+   "eski_token": 744,
+   "kalan_token": 144,
+   "eski_satir": 37,
+   "kalan_satir": 4,
+   "tutulan_hukum": 1
+  },
+  {
+   "slug": "acik-kalem-kapandi-10-cakisma-bir-yama",
+   "etiket": "🟢 AÇIK KALEM KAPANDI: \"10 ÇAKIŞMA\" BİR YAMA KUSURU DEĞİL, GERÇEKTİ —",
+   "eski_token": 823,
+   "kalan_token": 183,
+   "eski_satir": 39,
+   "kalan_satir": 5,
+   "tutulan_hukum": 2
+  },
+  {
+   "slug": "komsuluk-bir-ipucudur-kanit-degildir-ve-bir",
+   "etiket": "🔴🔴 KOMŞULUK BİR İPUCUDUR, KANIT DEĞİLDİR — VE BİR KİMLİĞİ ATAMAK",
+   "eski_token": 1049,
+   "kalan_token": 225,
+   "eski_satir": 52,
+   "kalan_satir": 7,
+   "tutulan_hukum": 2
+  },
+  {
+   "slug": "iki-oturum-ayni-gece-kendi-manset-sayisini",
+   "etiket": "🟢🟢 İKİ OTURUM, AYNI GECE, KENDİ MANŞET SAYISINI ÇÜRÜTTÜ — VE İKİSİ DE",
+   "eski_token": 1303,
+   "kalan_token": 195,
+   "eski_satir": 67,
+   "kalan_satir": 6,
+   "tutulan_hukum": 3
+  },
+  {
+   "slug": "ic-tutarlilik-dogrulama-degildir-yanlis-bir-taban",
+   "etiket": "🔴🔴🔴 İÇ TUTARLILIK, DOĞRULAMA DEĞİLDİR — yanlış bir taban, üzerine",
+   "eski_token": 1060,
+   "kalan_token": 295,
+   "eski_satir": 55,
+   "kalan_satir": 9,
+   "tutulan_hukum": 4
+  },
+  {
+   "slug": "ayni-kelime-iki-ayri-seyi-anlatiyorsa-birini",
+   "etiket": "🔴 AYNI KELİME İKİ AYRI ŞEYİ ANLATIYORSA, BİRİNİ ÖLÇEN ÖTEKİNİ",
+   "eski_token": 408,
+   "kalan_token": 299,
+   "eski_satir": 20,
+   "kalan_satir": 10,
+   "tutulan_hukum": 7
+  },
+  {
+   "slug": "bir-regex-in-gormedigi-yazim-bicimi-olculdu",
+   "etiket": "🔴 BİR REGEX'İN GÖRMEDİĞİ YAZIM BİÇİMİ ÖLÇÜLDÜ: t:\" 1285 kayıt ·",
+   "eski_token": 598,
+   "kalan_token": 201,
+   "eski_satir": 30,
+   "kalan_satir": 7,
+   "tutulan_hukum": 4
+  },
+  {
+   "slug": "bir-ayristirici-kusuru-bulundugunda-onunla-olculen-her",
+   "etiket": "🟢 BİR AYRIŞTIRICI KUSURU BULUNDUĞUNDA, ONUNLA ÖLÇÜLEN HER SAYI AYNI",
+   "eski_token": 751,
+   "kalan_token": 257,
+   "eski_satir": 40,
+   "kalan_satir": 8,
+   "tutulan_hukum": 4
+  },
+  {
+   "slug": "tasimanin-getirdigi-ile-zaten-orada-olani-ayirmak",
+   "etiket": "🟢 TAŞIMANIN GETİRDİĞİ İLE ZATEN ORADA OLANI AYIRMAK — yoksa taşımaya",
+   "eski_token": 551,
+   "kalan_token": 232,
+   "eski_satir": 30,
+   "kalan_satir": 9,
+   "tutulan_hukum": 6
+  },
+  {
+   "slug": "bir-esik-olculdugu-tabanla-birlikte-tasinir-taban",
+   "etiket": "🔴 BİR EŞİK, ÖLÇÜLDÜĞÜ TABANLA BİRLİKTE TAŞINIR — taban değişince",
+   "eski_token": 800,
+   "kalan_token": 343,
+   "eski_satir": 40,
+   "kalan_satir": 11,
+   "tutulan_hukum": 7
+  },
+  {
+   "slug": "iki-olcumun-oranlarinin-orani-farkin-sebebini-verebilir",
+   "etiket": "🟢🟢 İKİ ÖLÇÜMÜN ORANLARININ ORANI, FARKIN SEBEBİNİ VEREBİLİR.",
+   "eski_token": 770,
+   "kalan_token": 255,
+   "eski_satir": 38,
+   "kalan_satir": 8,
+   "tutulan_hukum": 5
+  },
+  {
+   "slug": "mtime-bir-olcum-degil-bir-damgadir-icerik",
+   "etiket": "🔴 mtime BİR ÖLÇÜM DEĞİL BİR DAMGADIR — içerik değişmeden değişir.",
+   "eski_token": 490,
+   "kalan_token": 273,
+   "eski_satir": 26,
+   "kalan_satir": 9,
+   "tutulan_hukum": 6
+  },
+  {
+   "slug": "bir-kontrol-degiskeni-sorulurken-yanlis-eksen-secilebili",
+   "etiket": "🔴 BİR KONTROL DEĞİŞKENİ SORULURKEN YANLIŞ EKSEN SEÇİLEBİLİR — ve",
+   "eski_token": 395,
+   "kalan_token": 334,
+   "eski_satir": 20,
+   "kalan_satir": 13,
+   "tutulan_hukum": 9
+  },
+  {
+   "slug": "cakisma-dosyanin-buyuklugunden-degil-baskalarinin-zaten-",
+   "etiket": "🔴 ÇAKIŞMA, DOSYANIN BÜYÜKLÜĞÜNDEN DEĞİL, BAŞKALARININ ZATEN YAZDIĞI",
+   "eski_token": 433,
+   "kalan_token": 308,
+   "eski_satir": 20,
+   "kalan_satir": 10,
+   "tutulan_hukum": 6
+  },
+  {
+   "slug": "bir-uyarinin-beklendigini-yazmak-gelen-uyarinin-o",
+   "etiket": "🔴🔴 BİR UYARININ BEKLENDİĞİNİ YAZMAK, GELEN UYARININ O OLDUĞUNU",
+   "eski_token": 966,
+   "kalan_token": 286,
+   "eski_satir": 49,
+   "kalan_satir": 10,
+   "tutulan_hukum": 6
+  },
+  {
+   "slug": "her-eksende-temiz-demek-saydigin-eksenlerde-temiz",
+   "etiket": "🔴 \"HER EKSENDE TEMİZ\" DEMEK, SAYDIĞIN EKSENLERDE TEMİZ DEMEKTİR.",
+   "eski_token": 731,
+   "kalan_token": 410,
+   "eski_satir": 35,
+   "kalan_satir": 15,
+   "tutulan_hukum": 12
+  },
+  {
+   "slug": "bir-sevkte-aday-tarih-saymak-isciye-kaynaksiz",
+   "etiket": "🔴🔴 BİR SEVKTE ADAY TARİH SAYMAK, İŞÇİYE KAYNAKSIZ BİR ÇERÇEVE",
+   "eski_token": 688,
+   "kalan_token": 323,
+   "eski_satir": 34,
+   "kalan_satir": 12,
+   "tutulan_hukum": 8
+  },
+  {
+   "slug": "bir-yontem-emekli-edilmis-olabilir-ve-yerine",
+   "etiket": "🔴🔴 BİR YÖNTEM EMEKLİ EDİLMİŞ OLABİLİR VE YERİNE GELEN ALET",
+   "eski_token": 782,
+   "kalan_token": 297,
+   "eski_satir": 42,
+   "kalan_satir": 11,
+   "tutulan_hukum": 6
+  },
+  {
+   "slug": "bir-semada-b-alani-t-den-sonra",
+   "etiket": "🔴🔴 BİR ŞEMADA b: ALANI t:DEN SONRA GELİYORSA, t:DEN GERİYE",
+   "eski_token": 602,
+   "kalan_token": 396,
+   "eski_satir": 30,
+   "kalan_satir": 14,
+   "tutulan_hukum": 9
+  },
+  {
+   "slug": "bir-eslestiricinin-dogrulugu-isabet-oranini-aday-kumesin",
+   "etiket": "🟢🟢 BİR EŞLEŞTİRİCİNİN DOĞRULUĞU, İSABET ORANINI ADAY KÜMESİNİN",
+   "eski_token": 774,
+   "kalan_token": 332,
+   "eski_satir": 37,
+   "kalan_satir": 9,
+   "tutulan_hukum": 4
+  },
+  {
+   "slug": "bir-kosu-suresi-tahmini-olculdugu-girdi-buyukluguyle",
+   "etiket": "🔴 BİR KOŞU SÜRESİ TAHMİNİ, ÖLÇÜLDÜĞÜ GİRDİ BÜYÜKLÜĞÜYLE BİRLİKTE",
+   "eski_token": 817,
+   "kalan_token": 222,
+   "eski_satir": 42,
+   "kalan_satir": 7,
+   "tutulan_hukum": 3
+  },
+  {
+   "slug": "bir-iddiayi-aktarirken-yolu-normallestirmek-onu-curutebi",
+   "etiket": "🔴🔴 BİR İDDİAYI AKTARIRKEN YOLU \"NORMALLEŞTİRMEK\" ONU ÇÜRÜTEBİLİR —",
+   "eski_token": 631,
+   "kalan_token": 407,
+   "eski_satir": 32,
+   "kalan_satir": 15,
+   "tutulan_hukum": 11
+  },
+  {
+   "slug": "ayni-isi-yapan-iki-zincir-betigi-varsa",
+   "etiket": "🔴🔴 AYNI İŞİ YAPAN İKİ ZİNCİR BETİĞİ VARSA, DÜZELTME YALNIZ BİRİNE",
+   "eski_token": 740,
+   "kalan_token": 225,
+   "eski_satir": 38,
+   "kalan_satir": 7,
+   "tutulan_hukum": 3
+  },
+  {
+   "slug": "beyan-edilen-kaynak-iddiayi-tasimiyor-olabilir-ve",
+   "etiket": "🔴🔴 BEYAN EDİLEN KAYNAK, İDDİAYI TAŞIMIYOR OLABİLİR — ve hiçbir",
+   "eski_token": 645,
+   "kalan_token": 165,
+   "eski_satir": 35,
+   "kalan_satir": 4,
+   "tutulan_hukum": 1
+  },
+  {
+   "slug": "degismez-2nin-kapali-hukmu-o-gunun-butun",
+   "etiket": "🔴🔴 DEĞİŞMEZ 2NİN \"KAPALI\" HÜKMÜ, O GÜNÜN BÜTÜN GEÇİŞLERİNİN",
+   "eski_token": 914,
+   "kalan_token": 313,
+   "eski_satir": 43,
+   "kalan_satir": 9,
+   "tutulan_hukum": 4
+  },
+  {
+   "slug": "ve-sinifin-en-agir-uyesi-kaynak-ayni",
+   "etiket": "🔴🔴 VE SINIFIN EN AĞIR ÜYESİ: KAYNAK AYNI ŞEYİ BAŞKA BİR TARİHLE",
+   "eski_token": 833,
+   "kalan_token": 285,
+   "eski_satir": 42,
+   "kalan_satir": 10,
+   "tutulan_hukum": 7
+  },
+  {
+   "slug": "suzgec-gorunur-eler-izdusum-sessiz-kirpar-ve",
+   "etiket": "🔴🔴 SÜZGEÇ GÖRÜNÜR ELER, İZDÜŞÜM SESSİZ KIRPAR — ve bir aletin",
+   "eski_token": 1150,
+   "kalan_token": 452,
+   "eski_satir": 57,
+   "kalan_satir": 16,
+   "tutulan_hukum": 12
+  },
+  {
+   "slug": "bayat-bir-kabul-olcutu-yanlis-sebepten-gecer",
+   "etiket": "🔴🔴 BAYAT BİR KABUL ÖLÇÜTÜ, YANLIŞ SEBEPTEN GEÇER — ve geçtiği için",
+   "eski_token": 901,
+   "kalan_token": 168,
+   "eski_satir": 45,
+   "kalan_satir": 5,
+   "tutulan_hukum": 2
+  },
+  {
+   "slug": "bir-donemin-kaynak-i-cogu-zaman-onu",
+   "etiket": "🔴🔴 ~~BİR DÖNEMİN kaynak:I ÇOĞU ZAMAN ONU BAŞLATAN OLAYIN",
+   "eski_token": 1260,
+   "kalan_token": 864,
+   "eski_satir": 66,
+   "kalan_satir": 36,
+   "tutulan_hukum": 32
+  },
+  {
+   "slug": "miras-alinmis-bir-oznitelik-bir-beyan-degildir",
+   "etiket": "🔴 MİRAS ALINMIŞ BİR ÖZNİTELİK, BİR BEYAN DEĞİLDİR — ona karşı ölçmek,",
+   "eski_token": 353,
+   "kalan_token": 254,
+   "eski_satir": 19,
+   "kalan_satir": 10,
+   "tutulan_hukum": 7
+  },
+  {
+   "slug": "bir-evrenin-yarisindan-cogu-tek-bir-uyedeyse",
+   "etiket": "🔴🔴 BİR EVRENİN YARISINDAN ÇOĞU TEK BİR ÜYEDEYSE, RASTGELE ÖRNEKLEM",
+   "eski_token": 512,
+   "kalan_token": 250,
+   "eski_satir": 26,
+   "kalan_satir": 8,
+   "tutulan_hukum": 4
+  },
+  {
+   "slug": "7-15b-tek-tarafliydi-tahta-arizasinin-iki",
+   "etiket": "🟢 §7.1⑤b TEK TARAFLIYDI — TAHTA ARIZASININ İKİ CİNSİ VAR, VE",
+   "eski_token": 677,
+   "kalan_token": 301,
+   "eski_satir": 34,
+   "kalan_satir": 9,
+   "tutulan_hukum": 5
+  },
+  {
+   "slug": "bir-sayim-birimi-yanlissa-olcum-veriyi-degil",
+   "etiket": "🔴🔴 BİR SAYIM BİRİMİ YANLIŞSA, ÖLÇÜM VERİYİ DEĞİL VERİNİN",
+   "eski_token": 806,
+   "kalan_token": 217,
+   "eski_satir": 45,
+   "kalan_satir": 6,
+   "tutulan_hukum": 2
+  },
+  {
+   "slug": "bir-kategori-sismeyi-aciklamaz-sismeyi-toplu-atama",
+   "etiket": "🔴 BİR KATEGORİ ŞİŞMEYİ AÇIKLAMAZ — ŞİŞMEYİ TOPLU ATAMA AÇIKLAR,",
+   "eski_token": 759,
+   "kalan_token": 299,
+   "eski_satir": 40,
+   "kalan_satir": 10,
+   "tutulan_hukum": 6
+  },
+  {
+   "slug": "kapsayici-madde-dar-maddenin-ifade-edemedigi-iki",
+   "etiket": "🟢🟢 KAPSAYICI MADDE, DAR MADDENİN İFADE EDEMEDİĞİ İKİ UCU BİRDEN",
+   "eski_token": 851,
+   "kalan_token": 436,
+   "eski_satir": 41,
+   "kalan_satir": 17,
+   "tutulan_hukum": 13
+  },
+  {
+   "slug": "bir-sinifta-otomatik-sinav-ne-gevsetilerek-ne",
+   "etiket": "🔴🔴 BİR SINIFTA OTOMATİK SINAV NE GEVŞETİLEREK NE SIKILAŞTIRILARAK",
+   "eski_token": 621,
+   "kalan_token": 416,
+   "eski_satir": 31,
+   "kalan_satir": 13,
+   "tutulan_hukum": 9
+  },
+  {
+   "slug": "bir-denetim-sartnamesinin-en-degerli-satiri-ne",
+   "etiket": "🟢🟢 BİR DENETİM ŞARTNAMESİNİN EN DEĞERLİ SATIRI, NE ÖLÇTÜĞÜ DEĞİL",
+   "eski_token": 754,
+   "kalan_token": 295,
+   "eski_satir": 39,
+   "kalan_satir": 9,
+   "tutulan_hukum": 5
+  },
+  {
+   "slug": "bir-cumleyi-alintilamadan-once-oncekini-oku-ve",
+   "etiket": "🔴🔴 BİR CÜMLEYİ ALINTILAMADAN ÖNCE ÖNCEKİNİ OKU — ve aynı gece",
+   "eski_token": 658,
+   "kalan_token": 329,
+   "eski_satir": 32,
+   "kalan_satir": 11,
+   "tutulan_hukum": 7
+  },
+  {
+   "slug": "bir-sozlukte-olmayan-sinif-veride-dort-farkli",
+   "etiket": "🔴 BİR SÖZLÜKTE OLMAYAN SINIF, VERİDE DÖRT FARKLI CEVAP ALIR — ve",
+   "eski_token": 556,
+   "kalan_token": 289,
+   "eski_satir": 30,
+   "kalan_satir": 11,
+   "tutulan_hukum": 8
+  },
+  {
+   "slug": "bir-koordinator-okudugundan-hizli-sevk-ederse-iki",
+   "etiket": "🔴 BİR KOORDİNATÖR, OKUDUĞUNDAN HIZLI SEVK EDERSE İKİ KUSUR ÜRETİR:",
+   "eski_token": 287,
+   "kalan_token": 226,
+   "eski_satir": 14,
+   "kalan_satir": 8,
+   "tutulan_hukum": 5
+  },
+  {
+   "slug": "bir-on-sinav-sordugu-risklerde-temiz-cikip",
+   "etiket": "🔴🔴 BİR ÖN-SINAV, SORDUĞU RİSKLERDE TEMİZ ÇIKIP EN BÜYÜK RİSKİ HİÇ",
+   "eski_token": 600,
+   "kalan_token": 305,
+   "eski_satir": 31,
+   "kalan_satir": 10,
+   "tutulan_hukum": 6
+  },
+  {
+   "slug": "bir-merge-adiminin-on-kosulu-o-adimin",
+   "etiket": "🔴🔴 BİR MERGE ADIMININ ÖN KOŞULU, O ADIMIN KENDİ GİRDİSİNDEN",
+   "eski_token": 543,
+   "kalan_token": 175,
+   "eski_satir": 30,
+   "kalan_satir": 5,
+   "tutulan_hukum": 1
+  },
+  {
+   "slug": "bir-olcumun-bir-eksenini-duzeltmek-oteki-eksenini",
+   "etiket": "🔴 BİR ÖLÇÜMÜN BİR EKSENİNİ DÜZELTMEK, ÖTEKİ EKSENİNİ BOZABİLİR — ve",
+   "eski_token": 483,
+   "kalan_token": 384,
+   "eski_satir": 25,
+   "kalan_satir": 15,
+   "tutulan_hukum": 11
+  },
+  {
+   "slug": "bir-mekanizmanin-calistigini-calismasaydi-kirilacak-olan",
+   "etiket": "🟢🟢 BİR MEKANİZMANIN ÇALIŞTIĞINI, ÇALIŞMASAYDI KIRILACAK OLAN",
+   "eski_token": 793,
+   "kalan_token": 342,
+   "eski_satir": 40,
+   "kalan_satir": 12,
+   "tutulan_hukum": 8
+  },
+  {
+   "slug": "kapsayici-madde-her-zaman-en-iyi-adres",
+   "etiket": "🔴 KAPSAYICI MADDE HER ZAMAN EN İYİ ADRES DEĞİLDİR — bazen günü",
+   "eski_token": 505,
+   "kalan_token": 257,
+   "eski_satir": 24,
+   "kalan_satir": 9,
+   "tutulan_hukum": 6
+  },
+  {
+   "slug": "uzun-bir-kosuda-dorduncu-sinyal-bellek-salinimi",
+   "etiket": "🟡 UZUN BİR KOŞUDA DÖRDÜNCÜ SİNYAL: BELLEK SALINIMI — ve sınırı",
+   "eski_token": 478,
+   "kalan_token": 189,
+   "eski_satir": 23,
+   "kalan_satir": 6,
+   "tutulan_hukum": 3
+  },
+  {
+   "slug": "her-kaydi-tek-tek-dogru-bulan-denetimler",
+   "etiket": "🔴🔴 HER KAYDI TEK TEK DOĞRU BULAN DENETİMLER, KAYITLAR ARASINDAKİ",
+   "eski_token": 961,
+   "kalan_token": 246,
+   "eski_satir": 48,
+   "kalan_satir": 9,
+   "tutulan_hukum": 5
+  },
+  {
+   "slug": "bir-aletin-cevabi-dogru-olabilir-ve-sordugu",
+   "etiket": "🔴🔴 BİR ALETİN CEVABI DOĞRU OLABİLİR VE SORDUĞU SORU YETERSİZ",
+   "eski_token": 646,
+   "kalan_token": 326,
+   "eski_satir": 32,
+   "kalan_satir": 11,
+   "tutulan_hukum": 7
+  },
+  {
+   "slug": "bir-listede-olmayan-sey-elenmis-olandan-ayirt",
+   "etiket": "🔴 BİR LİSTEDE OLMAYAN ŞEY, ELENMİŞ OLANDAN AYIRT EDİLEMEZ — eleme",
+   "eski_token": 401,
+   "kalan_token": 295,
+   "eski_satir": 18,
+   "kalan_satir": 9,
+   "tutulan_hukum": 6
+  },
+  {
+   "slug": "7-ad-alani-dersi-ilk-kez-onleyici",
+   "etiket": "🟢🟢 §7 AD ALANI DERSİ İLK KEZ ÖNLEYİCİ İŞLEDİ — çakışma OLMADAN",
+   "eski_token": 420,
+   "kalan_token": 325,
+   "eski_satir": 20,
+   "kalan_satir": 11,
+   "tutulan_hukum": 8
+  },
+  {
+   "slug": "uygulanmamis-bir-yama-iki-gecerli-simdi-yaratir",
+   "etiket": "🔴🔴 UYGULANMAMIŞ BİR YAMA İKİ GEÇERLİ «ŞİMDİ» YARATIR — ve bir sayı",
+   "eski_token": 522,
+   "kalan_token": 365,
+   "eski_satir": 27,
+   "kalan_satir": 14,
+   "tutulan_hukum": 10
+  },
+  {
+   "slug": "bir-isci-koordinatorun-duzeltmesine-uymayarak-hakli-olab",
+   "etiket": "🟢🟢 BİR İŞÇİ, KOORDİNATÖRÜN DÜZELTMESİNE UYMAYARAK HAKLI OLABİLİR —",
+   "eski_token": 412,
+   "kalan_token": 353,
+   "eski_satir": 22,
+   "kalan_satir": 14,
+   "tutulan_hukum": 11
+  },
+  {
+   "slug": "bayatlayan-bir-belge-yalniz-kendisini-degil-onu",
+   "etiket": "🔴🔴 BAYATLAYAN BİR BELGE, YALNIZ KENDİSİNİ DEĞİL ONU KOPYALAYAN",
+   "eski_token": 879,
+   "kalan_token": 756,
+   "eski_satir": 47,
+   "kalan_satir": 34,
+   "tutulan_hukum": 30
+  },
+  {
+   "slug": "bir-esigi-sabit-sayi-degil-iliski-olarak",
+   "etiket": "🟢🟢 BİR EŞİĞİ SABİT SAYI DEĞİL İLİŞKİ OLARAK YAZMAK, TABAN TAŞIMA",
+   "eski_token": 486,
+   "kalan_token": 281,
+   "eski_satir": 26,
+   "kalan_satir": 9,
+   "tutulan_hukum": 5
+  },
+  {
+   "slug": "pencere-ucu-bir-sorgu-gunu-olarak-kullanilamaz",
+   "etiket": "🔴🔴 PENCERE UCU BİR SORGU GÜNÜ OLARAK KULLANILAMAZ — ve cevabı",
+   "eski_token": 573,
+   "kalan_token": 187,
+   "eski_satir": 32,
+   "kalan_satir": 5,
+   "tutulan_hukum": 2
+  },
+  {
+   "slug": "bir-denetim-bir-veri-degerine-baglanirsa-veri",
+   "etiket": "🔴🔴 BİR DENETİM BİR VERİ DEĞERİNE BAĞLANIRSA, VERİ O DEĞERİ TERK",
+   "eski_token": 1003,
+   "kalan_token": 303,
+   "eski_satir": 54,
+   "kalan_satir": 10,
+   "tutulan_hukum": 5
+  },
+  {
+   "slug": "bir-koruma-onu-uygulayan-yamada-degil-yamayi",
+   "etiket": "🔴🔴 BİR KORUMA, ONU UYGULAYAN YAMADA DEĞİL, YAMAYI UYGULAYAN",
+   "eski_token": 833,
+   "kalan_token": 275,
+   "eski_satir": 46,
+   "kalan_satir": 9,
+   "tutulan_hukum": 6
+  }
+ ]
+}
