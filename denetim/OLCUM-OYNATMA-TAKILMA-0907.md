@@ -75,6 +75,33 @@ sn'lik bir pencerede (%7,5), toplam bloğu 17,3 sn'lik başka bir pencerede
 🟢 Ve `longtask` atıfı işe yaramadı (`unknown/window`) — sebebi bulan şey
 **kodun kendi notu** oldu, alet değil.
 
+## ③c 🔴 BLOKLANMA ÜÇE AYRILDI — ve ORTADA YENİ BİR KAYNAK VAR
+
+Dokuz aday fonksiyon sarmalandı, aynı pencerede ölçüldü (15.345 ms):
+```
+BLOK toplam                      3.553 ms   %23,2
+  tarihAyarla (guncelle'yi İÇERİR) 1.090 ms   %30,7 · 16 çağrı · azami 241
+  olayaGit                           849 ms   %23,9 ·  4 ÇAĞRI · azami 243  🆕
+  isaretYanipSon                       1 ms   %0    ·  3 çağrı
+  ────────────────────────────────────────────────────────────
+  AÇIKLANAMAYAN                    1.614 ms   %45,4
+```
+🟢 `tarihAyarla !== guncelle` (ölçüldü) ama sayıları **birebir aynı** ⇒
+`tarihAyarla` `guncelle`yi sarıyor ve kendisi neredeyse hiçbir şey
+yapmıyor. Çift saymadım.
+
+🔴 **YENİ BULGU — `olayaGit`: DÖRT çağrıda 849 ms, çağrı başına ~212 ms.**
+`guncelle` 16 çağrıda 1090 ms (çağrı başına 68 ms). ⇒ ***`olayaGit` çağrı
+başına `guncelle`nin ÜÇ KATI pahalı*** ve kimse ona bakmamış. Az çağrılıyor
+olması onu ucuz göstermiş.
+📌 `§11`in *"sayım birimi"* ailesinin bu turdaki vakası: toplam maliyet
+küçük görünüyor çünkü **çağrı sayısı** küçük, ama **birim maliyet** en
+yüksek olan o.
+
+⚪ **%45,4 AÇIKLANAMIYOR** — ve muhtemelen sarmalanabilir bir JS
+fonksiyonu değil: `setData` çağrıldıktan sonra MapLibre'nin kendi
+işi (yeniden üçgenleme, döşeme). Bu bir **hipotez**, ölçülmedi.
+
 ## ④ ÖLÇMEDİKLERİM
 
 ```
