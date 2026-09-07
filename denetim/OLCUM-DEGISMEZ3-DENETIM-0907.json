@@ -1,0 +1,288 @@
+{
+ "_NOT": "Savaş ARALIK senkronu — denetim ADAYI, RAPOR SATIRI. Çıkış koduna etki YOK. Veri NODE ile okundu (oku_pencere mutasyon körü). Öngörü ölçümden ÖNCE.",
+ "pencere": 30,
+ "ozet": {
+  "KANITLI": 21,
+  "ÖLÇÜLEMEDİ": 1,
+  "KESİN MADDESİZ": 0,
+  "MAZUR": 4
+ },
+ "beklenen": {
+  "KANITLI": 20,
+  "ÖLÇÜLEMEDİ": 2,
+  "MAZUR": 4,
+  "KESİN MADDESİZ": 0
+ },
+ "kume_dagilimi": {
+  "SAVASLAR": {
+   "MAZUR": 4,
+   "KANITLI": 4
+  },
+  "SEFERLER": {
+   "ÖLÇÜLEMEDİ": 1,
+   "KANITLI": 17
+  }
+ },
+ "satirlar": [
+  {
+   "kume": "SAVASLAR",
+   "ad": "Sırpsındığı",
+   "t": "1364-07-01",
+   "kova": "MAZUR",
+   "madde": "`t`/`bitis` yok",
+   "ortak": []
+  },
+  {
+   "kume": "SAVASLAR",
+   "ad": "Cecora (Ţuţora)",
+   "t": "1620-09-17",
+   "kova": "MAZUR",
+   "madde": "`t`/`bitis` yok",
+   "ortak": []
+  },
+  {
+   "kume": "SAVASLAR",
+   "ad": "Rodos kuşatması",
+   "t": "1480-05-23",
+   "kova": "KANITLI",
+   "madde": "Rodos kuşatmasının başarısızlığı",
+   "ortak": [
+    "rodos"
+   ]
+  },
+  {
+   "kume": "SAVASLAR",
+   "ad": "Hotin kuşatması",
+   "t": "1621-09-02",
+   "kova": "KANITLI",
+   "madde": "Hotin Seferi ve Hotin Antlaşması",
+   "ortak": [
+    "hotin"
+   ]
+  },
+  {
+   "kume": "SAVASLAR",
+   "ad": "II. Viyana kuşatması",
+   "t": "1683-07-14",
+   "kova": "MAZUR",
+   "madde": "`t`/`bitis` yok",
+   "ortak": []
+  },
+  {
+   "kume": "SAVASLAR",
+   "ad": "Bağdat kuşatması",
+   "t": "1638-11-15",
+   "kova": "KANITLI",
+   "madde": "Bağdat'ın geri fethi",
+   "ortak": [
+    "bagdat"
+   ]
+  },
+  {
+   "kume": "SAVASLAR",
+   "ad": "Şahkulu (Teke)",
+   "t": "1511-03-01",
+   "kova": "MAZUR",
+   "madde": "`t`/`bitis` yok",
+   "ortak": []
+  },
+  {
+   "kume": "SAVASLAR",
+   "ad": "Çanakkale zaferi",
+   "t": "1657-07-19",
+   "kova": "KANITLI",
+   "madde": "Çanakkale zaferi ve Bozcaada'nın geri alınışı",
+   "ortak": [
+    "canakk",
+    "zaferi"
+   ]
+  },
+  {
+   "kume": "SEFERLER",
+   "ad": "Nâdir Şah'ın Musul'dan çekilişi (1743)",
+   "t": "1743-12-01",
+   "kova": "KANITLI",
+   "madde": "Musul Savunması — Nâdir Şah'ın püskürtülmesi",
+   "ortak": [
+    "musul",
+    "nadir"
+   ]
+  },
+  {
+   "kume": "SEFERLER",
+   "ad": "Osmanlı'nın Çukurova seferi (1485) — Adana ve Tarsus'un alınışı",
+   "t": "1485-11-01",
+   "kova": "KANITLI",
+   "madde": "Osmanlı-Memlük Savaşı'nın başlaması (Çukurova cephesi)",
+   "ortak": [
+    "cukuro"
+   ]
+  },
+  {
+   "kume": "SEFERLER",
+   "ad": "Memlük ordusunun karşı taarruzu (1488-1490) — Ağaçayırı ve Kayseri kuşatması",
+   "t": "1490-06-01",
+   "kova": "ÖLÇÜLEMEDİ",
+   "madde": "Kraliçe Katerina Cornaro Kıbrıs'ı Venedik'e devretti — H",
+   "ortak": []
+  },
+  {
+   "kume": "SEFERLER",
+   "ad": "Turahan Bey'in Mora seferi (1423) — Hexamilion'un yıkılışı",
+   "t": "1423-06-30",
+   "kova": "KANITLI",
+   "madde": "Turahan Bey'in Mora seferi ve Hexamilion Suru'nun yıkılı",
+   "ortak": [
+    "hexami",
+    "mora",
+    "turaha",
+    "yikili"
+   ]
+  },
+  {
+   "kume": "SEFERLER",
+   "ad": "Timur'un Anadolu'dan çekilişi (1403)",
+   "t": "1403-08-01",
+   "kova": "KANITLI",
+   "madde": "Timur'un Anadolu'dan çekilmesi",
+   "ortak": [
+    "anadol",
+    "timur"
+   ]
+  },
+  {
+   "kume": "SEFERLER",
+   "ad": "Timur'un Sivas seferi (1400)",
+   "t": "1400-09-01",
+   "kova": "KANITLI",
+   "madde": "Timur Sivas'ı yerle bir etti",
+   "ortak": [
+    "sivas",
+    "timur"
+   ]
+  },
+  {
+   "kume": "SEFERLER",
+   "ad": "Savoy Haçlı seferi (1366) — Gelibolu'nun kaybı",
+   "t": "1366-09-01",
+   "kova": "KANITLI",
+   "madde": "Gelibolu'nun kaybı (Savoy Haçlı seferi)",
+   "ortak": [
+    "gelibo",
+    "hacli",
+    "savoy"
+   ]
+  },
+  {
+   "kume": "SEFERLER",
+   "ad": "Kosova seferi (1389)",
+   "t": "1389-08-01",
+   "kova": "KANITLI",
+   "madde": "I. Kosova Savaşı — I. Murad'ın şehadeti",
+   "ortak": [
+    "kosova"
+   ]
+  },
+  {
+   "kume": "SEFERLER",
+   "ad": "Niğbolu seferi (1396)",
+   "t": "1396-11-01",
+   "kova": "KANITLI",
+   "madde": "Niğbolu Zaferi",
+   "ortak": [
+    "nigbol"
+   ]
+  },
+  {
+   "kume": "SEFERLER",
+   "ad": "II. Murad'ın İstanbul kuşatması (1422)",
+   "t": "1422-09-06",
+   "kova": "KANITLI",
+   "madde": "II. Murad'ın İstanbul kuşatması",
+   "ortak": [
+    "murad"
+   ]
+  },
+  {
+   "kume": "SEFERLER",
+   "ad": "Belgrad kuşatması (1440)",
+   "t": "1440-10-21",
+   "kova": "KANITLI",
+   "madde": "Belgrad kuşatması (başarısız)",
+   "ortak": [
+    "belgra"
+   ]
+  },
+  {
+   "kume": "SEFERLER",
+   "ad": "Otranto çıkarması (1480)",
+   "t": "1481-02-01",
+   "kova": "KANITLI",
+   "madde": "Otranto çıkarması",
+   "ortak": [
+    "cikarm",
+    "otrant"
+   ]
+  },
+  {
+   "kume": "SEFERLER",
+   "ad": "Viyana seferi (1529)",
+   "t": "1529-10-16",
+   "kova": "KANITLI",
+   "madde": "I. Viyana Kuşatması",
+   "ortak": [
+    "viyana"
+   ]
+  },
+  {
+   "kume": "SEFERLER",
+   "ad": "Preveze harekâtı (1538)",
+   "t": "1538-10-28",
+   "kova": "KANITLI",
+   "madde": "Preveze Deniz Zaferi",
+   "ortak": [
+    "prevez"
+   ]
+  },
+  {
+   "kume": "SEFERLER",
+   "ad": "Kıbrıs harekâtı (1570)",
+   "t": "1571-09-01",
+   "kova": "KANITLI",
+   "madde": "Kıbrıs'ın fethi",
+   "ortak": [
+    "kibris"
+   ]
+  },
+  {
+   "kume": "SEFERLER",
+   "ad": "Özdemiroğlu'nun Tebriz seferi (1585)",
+   "t": "1585-11-01",
+   "kova": "KANITLI",
+   "madde": "Tebriz'in fethi",
+   "ortak": [
+    "tebriz"
+   ]
+  },
+  {
+   "kume": "SEFERLER",
+   "ad": "Eğri-Haçova seferi (1596)",
+   "t": "1596-11-26",
+   "kova": "KANITLI",
+   "madde": "Haçova Meydan Muharebesi",
+   "ortak": [
+    "hacova"
+   ]
+  },
+  {
+   "kume": "SEFERLER",
+   "ad": "Kırım harekâtı (1475)",
+   "t": "1475-12-01",
+   "kova": "KANITLI",
+   "madde": "Kırım'ın Osmanlı himayesine girişi",
+   "ortak": [
+    "kirim"
+   ]
+  }
+ ]
+}
