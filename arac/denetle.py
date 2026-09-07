@@ -2621,6 +2621,42 @@ BILINEN_AYRI = {
      "Köprülü Mehmed Paşa'nın şartlı kabulle sadrazamlığa atanması"),
     ("Sofya'nın fethi", "Niş'in fethi"),
     ("Kudüs'ün kaybı", "Şam'ın kaybı"),
+
+    # ⭐ "AYNI OLGU, AYNI SÖZLER" SINIFI — 7 Eylül 2026, `SINAV-KOSU8-0907`.
+    # `olaylar_cukurova_0907.js`in altı maddesi inince ÜÇ şüpheli çift doğdu
+    # ve üçü de yanlış pozitif: Ankara Antlaşması sonrası Fransız
+    # tahliyesinin kademeleri — DÖRT AYRI ŞEHİR · dört ayrı gün · dört ayrı
+    # TDV maddesi (gaziantep · tarsus · mersin · adana).
+    #   1921-12-25 Antep · 1921-12-27 Tarsus · 1922-01-03 Mersin ·
+    #   1922-01-05 Adana   (+ 1921-12-23 Kilis)
+    #
+    # 🔴 VE ÖLÇÜTÜ ELE VEREN ŞEY, EŞLEŞMEYENLER OLDU:
+    #     Antep  "…Fransızların şehri boşaltması"   ┐ EŞLEŞTİ
+    #     Tarsus "…Fransızların şehri boşaltması"   ├ (üç çift = bu üçlünün
+    #     Adana  "…Fransızların şehri terketmesi"   ┘  kombinasyonu)
+    #     Kilis  "…Fransızların tahliyesi"           → eşleşmedi
+    #     Mersin "…millî kuvvetlerin şehre girişi"   → eşleşmedi
+    #   Altısı da aynı olay sınıfı, aynı iki hafta, hepsi ±400 gün
+    #   penceresinin İÇİNDE. Yani ayıran şey PENCERE DEĞİL, İFADE.
+    # ⇒ Üç madde, İŞİ DOĞRU YAPTIKLARI İÇİN eşleşti: aynı olguyu aynı
+    #   sözlerle anlattılar. Bu denetim olayı değil BAŞLIK BENZERLİĞİNİ
+    #   ölçer, ve tutarlı yazım onun için bir GÜRÜLTÜ KAYNAĞIDIR.
+    #
+    # ⚠️ VE BURADA YANLIŞ AİLEDEN BİR ÖLÇÜT İSTENDİ (koordinatörün hatası):
+    #   sevk "3 km şüphe eşiği · zaman çizgileri · `ikiz:` beyanı" diyordu ve
+    #   `Anadolu Hisarı ↔ Rumeli Hisarı` emsalini veriyordu. O kural
+    #   YERLEŞİM mükerrerinindir (ölçüt: mesafe + zaman çizgisi); bu denetim
+    #   MADDE mükerreridir (ölçüt: ±400 gün + başlık benzerliği). Ölçen
+    #   oturum o ölçütleri aramadı ve `ölçmedim` yerine SEBEBİNİ yazdı.
+    #   ⇒ İki mükerrer ailesi karıştırılırsa, doğru alet yanlış evrende
+    #     koşturulur. Emsalin RUHU yine de geçerli ve uygulandı:
+    #     *benzerlik mükerrerlik değildir; şart, AYNI ŞEYİ anlatmalarıdır.*
+    ("Antep'in kurtuluşu — Fransızların şehri boşaltması",
+     "Tarsus'un kurtuluşu — Fransızların şehri boşaltması"),
+    ("Antep'in kurtuluşu — Fransızların şehri boşaltması",
+     "Adana'nın kurtuluşu — Fransızların şehri terketmesi"),
+    ("Tarsus'un kurtuluşu — Fransızların şehri boşaltması",
+     "Adana'nın kurtuluşu — Fransızların şehri terketmesi"),
 }
 
 # ⚠️ DÖRDÜNCÜ TUR — "eşiği düşür" ÖLÇÜLDÜ ve REDDEDİLDİ (hatalar 11 madde 36)
