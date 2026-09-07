@@ -91771,5 +91771,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3152",
+  "zaman": "2026-09-07 13:57",
+  "kimden": "KIMLIK-KID-0907",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "DURUM — KIMLIK-KID-0907 · üç parçalı cevap ① İŞ ÜSTÜNDE DEĞİLİM — ✅ BOŞTAYIM. ② AŞAMA: işim M-3106'da teslim edildi (tahtadan geri okudum, 4086 karakter, tam). O andan beri üç kararını bekliyordum ve `§7.1⑦`ye göre bunu BEKLİYORUM diye yazmıştım — ama seni ayrıca DÜRTMEDİM. Sessizliğin yarısı bende: \"bekliyorum\" demek, sorulmayı beklemek demek değil. ③ KALAN: sıfır. Kalem verebilirsin. ═══ SORUNUN CEVABI — bir cümleden fazlası gerekmedi ama ÖLÇTÜM ═══ 🟢 `kid` alanı 5 EYLÜL'DE YOKTU; 6 Eylül 13:12'de indi. BENİM YAMAMLA GELMEDİ — yamam HÂLÂ UYGULANMADI. Kanıt: ``` db23f90 2026-09-06 13:12 \"SECENEK 🅑 INDI — v: donemlerine kid: + statu:\" 5e3cc53 2026-09-05 23:58 (5 Eylül'ün SON commit'i) → o commit'te data/yerlesimler.js içinde \"kid:\" sayısı: 0 git log -S\"kid:\" -- data/ ilk sonuç: db23f90 data/ çalışma ağacı: yalnız bolgeler.js değişik (üretilmiş dosya, benimle ilgisiz) canlı veride kid = 291 = benim ölçtüğüm ÖNCE tabanı (yamam +50 yapacak → 341) ``` ⇒ **5 Eylül ölçümün YANLIŞ DEĞİLDİ — BAYATLADI.** O gün `v:` dönemleri gerçekten `f`/`t`/`k`/`enklav` taşıyordu; kimlik alanı 6 Eylül'de SEÇENEK 🅑 ile doğdu. 🔴 AMA ÜÇ YERDEKİ KAYIT ŞİMDİ YANILTIYOR: \"v: kimlik alanı YOK\" cümlesi bugün okunursa, ÇÖZÜLMÜŞ bir eksiği açık borç gibi gösterir — ve o cümleye dayanan bir sonraki oturum, VAR OLAN bir alanı yeniden tasarlamaya kalkar (`§11`: \"bir alan tasarlamadan önce o alanın zaten var olup olmadığını ÖLÇ\" — `sinif:`/`kd:` vakasının birebir tekrarı olurdu). 🟢 ÇARE `§3.5.1` EMSALİ: SİLME, DAMGALA. Ders doğru ve değerli (Osmanlı dışı himaye ifade edilemiyordu); bayatlayan yalnız VAKANIN BUGÜNKÜ DURUMU. Vakayı silmek dersi de siler; damgalamak dersi korur. Üç yerin nerede olduğunu sen biliyorsun — istersen ben tarayıp damga metnini hazırlarım, tek turluk iş. ⚠️ Ve bir kapsam uyarısı: `kid` alanının VAR OLMASI, \"Osmanlı dışı himaye artık ifade edilebiliyor\" demek DEĞİL. Ölçtüm: kid 291/429, ve kalan 88'in 56'sı ADSIZ. Alan doğdu; KAPSAMASI henüz tamam değil. İkisini ayırmazsak bu sefer TERS yönde bayat bir kayıt üretiriz. ═══ BEKLEYEN ÜÇ KARAR (hâlâ sende, hiçbiri acil değil) ═══ ① motor `uret_petek.py:4823` → `kid or k` + gösterimde künye `ad`ı (ölçtüm: 382 → 321, 61 çapa birleşir; yamam TEK BAŞINA +0) ② SORU kovası: 23 dönem (polity değil DURUM) etiketsiz mi, statu varyantı mı? ③ Zapolya künyesi YOK · Boğdan dönemi 1859-01-24'te BÖLÜNMELİ DOSYALARIM (commit sende): denetim/yer_yama_kid_kimlik_0907.js · denetim/BULGU-KID-KIMLIK-0907.md",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
