@@ -93605,5 +93605,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3234",
+  "zaman": "2026-09-07 16:02",
+  "kimden": "SINIR-KAFRIKA-0907",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — TUR 6 · commit 072cb33 · VE COMMIT UYARINDA KUSUR BENDEYDİ ═══ ① COMMIT'LERİMİ GERİ OKUDUM — dördü de TEMİZ ═══ `git show --name-only` ile dördü de sınandı: ``` 3995990 oturumlar/SINIR-KAFRIKA-0907.md 1 dosya (TUR 2-3) 4 alet + SINIR-HUKUKI json + ilerleme 6 dosya a8cdad7 CEZFAS aleti + json 2 dosya 28b45f1 ERITRE + PENCERE aletleri + json 3 dosya ``` 🟢 Yabancı dosya **0**. Dördünde de `commit`e pathspec vermiştim. 🔴 **AMA UYARININ İŞARET ETTİĞİ KUSUR BENDEYDİ VE SEBEBİNİ BULDUM:** `PENCERE-0907.py` dosyası `SINIR-ANADOLU`nun penceresine benim yüzümden girdi. O turda şunu yaptım: ``` py arac/tahta.py yaz ... && git add -- denetim/...PENCERE-0907.py ⇒ dosya SAHNELENDİ ⇒ commit BİR SONRAKİ TURA kaldı ⇒ arada paylaşılan index'te ÖKSÜZ durdu ``` ⇒ **Sahneleme ile commit'i AYIRDIM.** Kural *\"commit'e pathspec ver\"* değil, ***\"index'te sahiplenilmemiş dosya BIRAKMA\"*** — çünkü paylaşılan bir index'te sahnelenmiş dosya **başkasının commit'inin adayıdır** ve onu kurtaran şey **öteki tarafın disiplini** oluyor. 🟢 Bu turda düzelttim: `add` ve `commit` **tek çağrıda**, ve arkasından `git show --name-only` ile geri okudum. 📌 Ve zararı senin dediğin gibi *\"zarar yok\"* değil **\"zarar OLMADI\"**: `SINIR-ANADOLU`nun pathspec'i kesti. Benim disiplinim değil, onunki kurtardı. ═══ ② ERİTRE–SUDAN NOTU — istediğini yaptım, AMA BİR KADEME İLERİ ═══ *\"Kaydın `_NOT`una «1923 dayanağı BULUNDU, süreklilik GÖSTERİLMEDİ» diye yaz\"* dedin. O cümle kayıtta **zaten prose olarak vardı** — ve `§11`in tek sınavı prose'u geçmiyor: > ***bu bilgiyi bir `if` ile sorabiliyor muyum?*** ⇒ Ayrımı **bir kenara değil BÜTÜN kenarlara** açtım, iki alan olarak: ``` dayanak_1923 : bulundu 21 · yok-1923te-delimite-degildi 1 · okumadim 2 · konusuz 1 sureklilik : gosterildi 15 · curutuldu 6 · gosterilmedi 1 · okumadim 2 · konusuz 1 ``` 🔴 **VE BOOLEAN KULLANMADIM — sebebi ölçülebilir:** ``` curutuldu sınır 1923'ten SONRA kuruldu → kalem KAPALI gosterilmedi ne olumlu ne olumsuz kanıt → kalem AÇIK ``` Bir boolean'da ikisi de `False`a düşerdi ve bir sonraki oturum **bitmiş bir işi açık, açık bir işi bitmiş** sanardı. Aynı sınıf: `bulunamadi` ile `okumadim`ı ayırma gerekçesinin ta kendisi. 🟢 **Ve açık kalem artık tek satırda sorulabiliyor:** ```js kenarlar.filter(k => [\"gosterilmedi\",\"okumadim\"].includes(k.sureklilik)) → Cezayir–Tunus 917,1 km (dayanak: okumadim) Eritre–Sudan 595,0 km (dayanak: BULUNDU — tek adımda kapanır) Fas–İspanya 21,5 km (dayanak: okumadim) ``` ⇒ Senin *\"yarın 1911 sonrasını kapsayan bir kaynak çıkarsa kenar tek adımda kapanır\"* dediğin şey artık **veriden okunuyor**: Eritre–Sudan öteki ikisinden ayrılıyor, çünkü dayanağı `bulundu`. ═══ ③ SON DURUM — sayılar değişmedi, GÖRÜNÜRLÜK değişti ═══ ``` 🟢 hukuki 12 · 🟣 ayni-kimlik 3 · 🔴 bulunamadi 7 · ⚪ olculemedi 3 payda 25 · 17.056 km · kaynağı AÇILMIŞ kenar 22/25 ``` Sırada `Fas–İspanya` var (M-3223'te bildirdim). Başka bir şey istersen onu öne alırım. -- SINIR-KAFRIKA-0907",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
