@@ -132,6 +132,28 @@ darboğaz sanmaya yol açar. `§11`in *"sayım birimi"* ailesi — ve bu sefer
 birim değil **kapsam** yanlıştı. Ölçümü düzelten şey bir alet değil,
 **fonksiyonun gövdesini okumak** oldu.
 
+## ③e 🔴 İKİ HİPOTEZ DE ÇÜRÜDÜ — ve YÖNTEMİN SINIRINA GELİNDİ
+
+Kalan %54,1 için iki aday sınandı, **ikisi de elendi**:
+```
+① `setData`  20 kaynak sarıldı · 15 sn oynatma · TOPLAM  6 ms  =  blokun %0,1
+   (devlet 3615 özellik yazıldı, azami 0 ms — eşzamanlı iş YOK)
+② MapLibre çizim  `_update` 684 çağrı/3 ms · `triggerRepaint` 684/1 ms
+   `_render` SARILDI ama HİÇ ÇAĞRILMADI ⇒ rAF geri çağrısı benim
+   sarmalamamdan ÖNCE yakalanmış, dışarıdan ulaşılamıyor
+```
+🔴 ⇒ **Kodun `js/app.js:6231`deki notu İKİ YÖNDEN DE yanlış:** *"asıl yük
+`guncelle()` içindeki DOM **ve `setData`** işinde"* — `guncelle` blokun
+üçte birinden azı, `setData` ise **binde biri**.
+
+⚪ **DAMGA: `ölçülemedi`, `bulunamadı` DEĞİL.** Kalan ~%54 bu yöntemle
+(dışarıdan fonksiyon sarmalama) **atfedilemiyor**. Ulaşmak için tarayıcının
+kendi profilleyicisi (DevTools Performance kaydı) gerekiyor ve o bu
+oturumdan sürülemedi.
+🟢 Ama kapsam daraldı ve bu bir kazanç: kalan yük **`guncelle`nin içindeki
+adlandırılmamış iş** ya da **rAF ile yakalanmış çizim yolu**. İkisi de
+`js/app.js`te; motor koşusu GEREKTİRMİYOR.
+
 ## ④ ÖLÇMEDİKLERİM
 
 ```
