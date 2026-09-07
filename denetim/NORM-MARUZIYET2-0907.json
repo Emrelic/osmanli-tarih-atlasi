@@ -1,0 +1,65 @@
+{
+ "_NOT": "NORM-MARUZIYET2-0907 — `DIGER` kovasindaki 5 alet SATIR SATIR okundu, sinif desenini duzelttim, 18'lik tarama YENIDEN kosuldu. Arac: ARAC-NORM-MARUZIYET2-0907.py",
+
+ "sevkin_sorusu": "Desene uymamalarinin sebebi YENI BIR KULLANIM BICIMI mi, yoksa DESENIN KOR NOKTASI mi?",
+ "cevap": "UCU DE VAR — ve ikisi arac kusuru, biri gercek yeni sinif.",
+
+ "bes_aletin_okunmasi": {
+  "ARAC-KENAR-KIMLIK-0907.py": {
+   "sinif": "🔴 KOVA — DESEN KACIRDI",
+   "sebep": "Ⓐ IKI SATIRA YAYILMIS KOVA. `n = norm(anahtar)` (:198) sonra `ix.setdefault(n, d['id'])` (:200). Eski desen `\\w+\\.setdefault\\(\\s*norm\\(` istiyordu — ikinci satirda `norm(` YOK.",
+   "anahtar_alani": "KUNYE (`id`/`ad`/`harita`) ⇒ Kudus/Kudus cifti GIREMEZ"
+  },
+  "ARAC-VASSAL-KUNYE-0906b.py": {
+   "sinif": "🔴 KOVA — DESEN KACIRDI",
+   "sebep": "Ⓑ ANAHTAR, norm()IN TUREVI. `tok = norm(v).split()` sonra `dizin.setdefault(kok(tok[0]), set())`. Anahtar `kok(norm(v).split()[0])` — norm()den DAHA KABA, yani cakismaya DAHA acik, ve desen onu hic aramiyordu.",
+   "anahtar_alani": "KUNYE ⇒ cift GIREMEZ",
+   "🟡_AYRI_GOZLEM": "Bu aletin anahtari norm()den kaba: ilk KELIME + kok alma. Kudus/Kudus icin ilgisiz ama BASKA cakismalar uretebilir — OLCMEDIM."
+  },
+  "ARAC-SINIR-ANADOLU-CIPA-0907.py": {
+   "sinif": "KIYAS (desen `DIGER` demisti — yanlis degil, EKSIK)",
+   "sebep": "`n = norm(d['ad']) + ' ' + norm(d['id'])` sonra `any(a in n ...)` — BIRLESTIRILMIS dizgide alt-dizgi aramasi. Kova degil.",
+   "anahtar_alani": "KUNYE"
+  },
+  "ARAC-SINIR-ANADOLU-KIMLIK-0907.py": {"sinif": "KIYAS", "sebep": "yukaridakiyle ayni kalip", "anahtar_alani": "KUNYE"},
+  "ARAC-SINIR-BALKAN-ARA-0907.py": {
+   "sinif": "🆕 METIN NORMALLESTIRME — ARAC KUSURU DEGIL, GERCEK YENI SINIF",
+   "sebep": "`nc = [norm(c) for c in cs]` — `cs` bir TDV govdesinin CUMLELERI. `norm` burada bir AD INDEKSI kurmuyor, metni arama icin hazirliyor. Ad cakismasi bu kullanimi ILGILENDIRMEZ.",
+   "anahtar_alani": "yok — anahtar kurmuyor"
+  }
+ },
+
+ "duzeltilmis_taramanin_sonucu": {
+  "KOVA": "7 -> 10  (iki GERCEK kacirma kurtarildi + yeniden siniflamalar)",
+  "METIN": "0 -> 1  (yeni sinif)",
+  "DIGER": "5 -> 2  (kovanin kendisi kuculdu — sevkin ongordugu sey)"
+ },
+
+ "🔴_AMA_DUZELTMEM_KENDI_YENI_KUSURUNU_URETTI": {
+  "_NOT": "Bunu gizlemek yerine olcuyorum — §11: bir recete kendi testini gecmeli.",
+  "yanlis_pozitif": {
+   "dosya": "ARAC-SINIR-KAFRIKA-TDV-0907.py",
+   "satir": "72  bul = [c for c in cs if na in norm(c)]",
+   "gercek": "Bu bir ALT-DIZGI testi (TDV cumleleri uzerinde), KOVA DEGIL. Yeni desenimdeki `if X in Y` kalibi (X norm-turevli) YANLIS atesledi.",
+   "sonuc": "KOVA=10 sayisinda EN AZ 1 yanlis pozitif var."
+  },
+  "ALAN_sezgisi_GUVENILMEZ": {
+   "gercek": "Otomatik `ANAHTAR ALANI` sutunu DORT VASSAL aletini `YERLESIM` diye etiketledi. ELLE OKUNDU ve YANLIS cikti: `ad_ix.setdefault(norm(ad), ...)` icindeki `ad` bir KUNYE ADIDIR (`for k in kunyeler`). Sezgi dosyanin `girdi.yukle()` cagirmasina bakiyor — ama alet kulliyati BASKA bir sey icin (v: etiketleri) okuyor.",
+   "sonuc": "Otomatik `7` YANLIS. Elle dogrulanmis sayi 2."
+  }
+ },
+
+ "🟢_DOGRULANMIS_SONUC_DEGISMEDI": {
+  "KOVA_tam_kulliyat_YERLESIM_anahtari": 2,
+  "hangileri": ["denetim/ARAC-DEGISMEZ3-KORNOKTA-0907.py", "denetim/ARAC-FAZ2-CUKUROVA-0906.py"],
+  "bugun_atesleyen": 0,
+  "_NOT": "Bu iki sayi TARAMADAN gelmedi, OKUMADAN geldi — ve ikinci tarama onlari degistirmedi. Tarama bir ADAY LISTESI uretir, HUKUM degil; ve bugun bunu KENDI aletimde iki kez gosterdim."
+ },
+
+ "_DERS": "Bir siniflandiricinin KOR NOKTASINI duzeltmek, YENI bir kor nokta acabilir — ve ikisi FARKLI YERDE olur. Birinci desen iki-satirlik kovayi kacirdi (yanlis negatif); duzeltilmisi bir alt-dizgi testini kova sandi (yanlis pozitif). Nihai sayi DEGISMEDI cunku o sayi hicbir zaman desenden gelmiyordu.",
+
+ "OLCMEDIGIM": [
+  "VASSAL-KUNYE-0906b'nin `kok(norm(x).split()[0])` anahtarinin KUNYE evreninde kac cakisma urettigini olcmedim — ayri bir kalem.",
+  "Duzeltilmis desenin OTEKI 17 dosyada baska yanlis pozitif uretip uretmedigini tek tek okumadim; yalnizca `DIGER`den cikanlari ve degisen satirlari dogruladim."
+ ]
+}

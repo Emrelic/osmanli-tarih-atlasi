@@ -1,0 +1,57 @@
+KIMLIK-1923-0907 — `DIGER` kovasi okundu: 2 ARAC KUSURU + 1 GERCEK yeni
+sinif · desen duzeltildi · ve duzeltme KENDI yanlis pozitifini uretti
+
+ARAC:  denetim/ARAC-NORM-MARUZIYET2-0907.py
+RAPOR: denetim/NORM-MARUZIYET2-0907.json
+
+SEVKIN SORUSU: "desene uymamalarinin sebebi YENI BIR KULLANIM BICIMI mi,
+yoksa DESENIN KOR NOKTASI mi?"  CEVAP: UCU DE VAR.
+
+  Ⓐ IKI SATIRA YAYILMIS KOVA — ARAC KUSURU (2 alet kacmis)
+      n = norm(anahtar)
+      ix.setdefault(n, d["id"])      <- `norm(` bu satirda YOK
+    Eski desen `\w+\.setdefault\(\s*norm\(` istiyordu ⇒ goremedi.
+    KENAR-KIMLIK-0907.py
+  Ⓑ ANAHTAR norm()IN TUREVI — ARAC KUSURU
+      tok = norm(v).split()
+      dizin.setdefault(kok(tok[0]), set())
+    Anahtar `kok(norm(v).split()[0])` — norm()den DAHA KABA.
+    VASSAL-KUNYE-0906b.py
+  Ⓒ METIN NORMALLESTIRME — GERCEK YENI SINIF, arac kusuru DEGIL
+      nc = [norm(c) for c in cs]    (cs = TDV govdesinin CUMLELERI)
+    `norm` bir AD indeksi kurmuyor, metni arama icin hazirliyor.
+    SINIR-BALKAN-ARA-0907.py
+  (kalan ikisi KIYAS: birlestirilmis dizgide alt-dizgi aramasi)
+
+DUZELTILMIS TARAMA: KOVA 7->10 · METIN 0->1 · DIGER 5->2
+  ⇒ `DIGER` kovasi kuculdu — sevkin ongordugu sey oldu.
+
+🔴 AMA DUZELTMEM KENDI YENI KUSURUNU URETTI, ve gizlemiyorum:
+  YANLIS POZITIF: SINIR-KAFRIKA-TDV-0907.py:72 `na in norm(c)` bir
+    ALT-DIZGI testi, KOVA DEGIL. Yeni desendeki `if X in Y` kalibi
+    yanlis atesledi ⇒ KOVA=10'da en az 1 sahte.
+  ALAN SEZGISI GUVENILMEZ: otomatik sutun DORT VASSAL aletini
+    `YERLESIM` diye etiketledi; ELLE OKUNDU, YANLIS —
+    `ad_ix.setdefault(norm(ad), ...)` icindeki `ad` bir KUNYE ADIDIR
+    (`for k in kunyeler`). Sezgi dosyanin `girdi.yukle()` cagirmasina
+    bakiyor, ama alet kulliyati BASKA bir sey icin okuyor.
+    ⇒ Otomatik "7" YANLIS.
+
+🟢 DOGRULANMIS SONUC DEGISMEDI:
+  KOVA + tam kulliyat + YERLESIM anahtari : 2
+     ARAC-DEGISMEZ3-KORNOKTA-0907.py · ARAC-FAZ2-CUKUROVA-0906.py
+  bugun atesleyen                         : 0
+  Bu iki sayi TARAMADAN gelmedi, OKUMADAN geldi — ve ikinci tarama
+  onlari degistirmedi.
+
+DERS: Bir siniflandiricinin KOR NOKTASINI duzeltmek YENI bir kor nokta
+  acabilir, ve ikisi FARKLI YERDE olur. Birinci desen iki-satirlik kovayi
+  kacirdi (yanlis NEGATIF); duzeltilmisi bir alt-dizgi testini kova sandi
+  (yanlis POZITIF). Nihai sayi degismedi cunku o sayi hicbir zaman
+  desenden gelmiyordu.
+
+OLCMEDIGIM: VASSAL-KUNYE-0906b'nin kaba anahtarinin KUNYE evreninde kac
+  cakisma urettigi · duzeltilmis desenin oteki 17 dosyada baska yanlis
+  pozitif uretip uretmedigi.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
