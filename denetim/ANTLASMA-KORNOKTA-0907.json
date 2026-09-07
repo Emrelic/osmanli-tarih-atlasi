@@ -1,0 +1,60 @@
+{
+ "_NOT": "ANTLASMA-KORNOKTA-0907 — `denetle.oku_pencere()` ANTLASMALAR icin nicin 41 yerine 31 okuyor. Iki oturum (DEGISMEZ3 ve 1.MURAT) 'olctum, dogruladim, TESHIS EDEMEDIM' diye damgalamisti. TESHIS KONDU.",
+
+ "🟢_TESHIS": {
+  "baslik": "AYRISTIRICI KUSURSUZ — VERI BILDIRIM + MUTASYON ile kuruluyor",
+  "data/savaslar.js": {
+   "397-471": "window.ANTLASMALAR = [ … 31 kayit … ]",
+   "474": "];   ← dizi BURADA KAPANIYOR",
+   "476-478": "// yorum: 'tarihi siraya gore eklenmedi, ayri ekleniyor cunku yukaridaki blok zaten kronolojik'",
+   "479": "window.ANTLASMALAR.push(  …  2 kayit  … )",
+   "489": "window.ANTLASMALAR.push(  …  8 kayit  … )"
+  },
+  "aritmetik": "31 (literal) + 2 + 8 (push) = 41  ⇒ node ile BIREBIR",
+  "sebep": "`oku_pencere` bir BILDIRIMI okur; veri BILDIRIM + MUTASYON ile kurulur. Bir METIN ayristirici calisma zamani mutasyonunu YAPISAL OLARAK goremez — node gorur cunku dosyayi CALISTIRIR.",
+  "🔴_SEVKIN_ONCULU_CURUDU": "Sevk 'ayrac derinligi dongusunde bir sey' diyordu. Dongu DOGRU calisiyor ve dizinin GERCEK kapanisini buluyor. Kusur dongude degil, OKUDUGU SEYIN verinin tamami olmamasinda.",
+  "_DERS": "§11'in 'veri zaten bir dilde yazilmissa o dilin yorumlayicisini cagir' dersinin EN SAF hali: burada ayristirici KUSURSUZ ve yine de eksik."
+ },
+
+ "🔴_ILK_HIPOTEZIM_CURUDU_GIRINTI": {
+  "gozlem": "Dusen 10 kaydin 10'u GIRINTILI, kalan 31'in 31'i sutun 0'da — KUSURSUZ AYRISMA.",
+  "ama": "Girinti SEBEP DEGIL, KORELASYON. Dusenler dosyada satir 480-504, kalanlar 241-471; IC ICE GECMIYORLAR. Ayrim KONUM; girinti yalnizca `push(` bloklarinin yazim bicimi.",
+  "_DERS": "§11 'olcum dogru, cikarim yanlis'. Kusursuz bir ayrisma bile SEBEP kanitlamaz — once 'bu iliskili mi nedensel mi' sorulur."
+ },
+
+ "KAPSAM": {
+  "data_icinde_push_ile_mutasyon": "2 (ikisi de data/savaslar.js, ikisi de ANTLASMALAR)",
+  "hukum": "Bu kusur SINIFI TEK BIR degiskende var. Genel bir ayristirici kusuru DEGIL."
+ },
+
+ "🔴_CANLI_TUKETICI_VAR_SEVKIN_'BUGUN_ZARARSIZ'I_DARALDI": {
+  "sevk_diyordu": "Bugun zararsiz — savas_senkronu SAVASLAR'i kullaniyor ve ANTLASMALAR'a bakmiyor.",
+  "olculdu": "DOGRU ama EKSIK: `arac/denetle_anakronizm.py:297` kaynaklari arasinda ('savaslar.js','ANTLASMALAR') VAR ve :301'de `_d.oku_pencere` ile okuyor ⇒ BUGUN, HER KOSUDA 31 goruyor."
+ },
+
+ "🟢_KOR_NOKTANIN_ARKASINDA_KUSUR_VAR_MI_—_DENETCI_KOSTURULDU": {
+  "yontem": "TAKLIT EDILMEDI: `oku_pencere` gecici olarak node ciktisiyla degistirilip `denetle_anakronizm.savas_taraflari()` IKI KEZ cagrildi.",
+  "31_kayitla": "olculen 249 · cozulemeyen 0 · AYKIRI 0",
+  "41_kayitla": "olculen 259 · cozulemeyen 0 · AYKIRI 0",
+  "hukum": "🟢 KOR NOKTA BUGUN KUSUR SAKLAMIYOR — yalnizca PAYDAYI 10 eksik sayiyor. Anakronizm 0 -> 0.",
+  "ama": "Denetci '%100 temiz' derken paydasi SESSIZCE 10 eksik. Push blogunda ileride anakronik bir antlasma yazilirsa HIC GORULMEZ."
+ },
+
+ "🔴_KENDI_ILK_OLCUMUM_GURULTU_URETTI": {
+  "yaptigim": "10 kaydin `taraf` listesindeki `osmanli` kimligini 'kunyesiz' diye isaretledim ve 'kor nokta KUSUR SAKLIYOR' diye HUKUM VERDIM.",
+  "yanlis_cunku": "denetle_anakronizm.py:314 `if kimlik == 'osmanli': continue` — denetci onu ZATEN atliyor ('cekirdek katman, omru ayri is'). Ve GORUNEN 31 kaydin 28'inde de `osmanli` var ⇒ bayragim kor noktaya OZGU degildi.",
+  "_DERS": "§11: bir aleti taklit eden olcum onun ESIGINI VE KURAL DALLARINI da tasimali. Tasimayinca dogru sayiya degil, GURULTUYE varir — ve bu bugun benim ucuncu taklit hatam."
+ },
+
+ "ONERILEN_CARE": {
+  "_NOT": "UYGULANMADI — `arac/denetle.py` benim dosyam degil (§7).",
+  "en_ucuz_ve_en_guvenli": "`oku_pencere` dosyada `<degisken>.push(` ya da `<degisken>[` arasin; bulursa SESSIZ KALMASIN — ya node'a dussun ya UYARI bassin. §11: 'sessiz atlama, yanlis sonuctan pahalidir.'",
+  "alternatif_1": "10 kaydi dizi literaline tasi. Dosyanin kendi yorumu onlari 'kronolojik sira bozulmasin' diye ayirmis — bu STILISTIK bir gerekce ve sessiz veri kaybina karsi zayif.",
+  "alternatif_2": "`oku_pencere`yi node tabanli yap. En dogru ama en genis dokunus; bir cok tuketicisi var."
+ },
+
+ "OLCMEDIGIM": [
+  "`oku_pencere`nin OTEKI tuketicilerinin okudugu degiskenlerde ayni sinif var mi — `.push(` taramasi TUM data/'yi kapsadi ve 2 sonuc verdi, ama `window.X[...] = ` gibi BASKA mutasyon bicimlerini aramadim.",
+  "Push blogundaki 10 kaydin ANAKRONIZM DISINDAKI denetimlerden (varsa) gecip gecmedigini olcmedim."
+ ]
+}

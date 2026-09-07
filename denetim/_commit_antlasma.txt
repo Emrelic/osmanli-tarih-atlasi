@@ -1,0 +1,54 @@
+KIMLIK-1923-0907 — ANTLASMALAR kor noktasi TESHIS EDILDI: ayrac dongusu
+degil, BILDIRIM + MUTASYON
+
+ARAC:  denetim/ARAC-ANTLASMA-KORNOKTA-0907.py · -KORNOKTA2-0907.py
+RAPOR: denetim/ANTLASMA-KORNOKTA-0907.json
+
+TESHIS — data/savaslar.js:
+  397-471  window.ANTLASMALAR = [ … 31 kayit … ]
+  474      ];                          <- dizi BURADA KAPANIYOR
+  479      window.ANTLASMALAR.push( 2 kayit )
+  489      window.ANTLASMALAR.push( 8 kayit )
+  31 + 2 + 8 = 41  => node ile birebir.
+  oku_pencere bir BILDIRIMI okur; veri BILDIRIM + MUTASYON ile kurulur.
+  Bir METIN ayristirici calisma zamani mutasyonunu YAPISAL OLARAK goremez;
+  node gorur cunku dosyayi CALISTIRIR.
+
+SEVKIN ONCULU CURUDU: "ayrac derinligi dongusunde bir sey" — dongu DOGRU
+  calisiyor ve dizinin GERCEK kapanisini buluyor. Kusur dongude degil,
+  OKUDUGU SEYIN verinin tamami olmamasinda.
+
+ILK HIPOTEZIM DE CURUDU: dusen 10'un 10'u GIRINTILI, kalan 31'in 31'i
+  sutun 0'da — kusursuz ayrisma. Ama girinti SEBEP DEGIL KORELASYON:
+  dusenler satir 480-504, kalanlar 241-471, ic ice GECMIYORLAR. Ayrim
+  KONUM. (SS 11: kusursuz bir ayrisma bile sebep kanitlamaz.)
+
+KAPSAM: TUM data/ icinde push ile mutasyon = 2, ikisi de ANTLASMALAR.
+  Bu kusur SINIFI tek bir degiskende var, genel bir ayristirici kusuru
+  DEGIL.
+
+"BUGUN ZARARSIZ" DARALDI: denetle_anakronizm.py:297 kaynaklari arasinda
+  (savaslar.js, ANTLASMALAR) VAR ve :301 oku_pencere ile okuyor => BUGUN,
+  HER KOSUDA 31 goruyor.
+
+KOR NOKTANIN ARKASINDA KUSUR VAR MI — DENETCI KOSTURULDU (taklit
+  edilmedi): oku_pencere gecici olarak node ciktisiyla degistirilip
+  savas_taraflari() iki kez cagrildi.
+     31 kayitla : olculen 249 · cozulemeyen 0 · AYKIRI 0
+     41 kayitla : olculen 259 · cozulemeyen 0 · AYKIRI 0
+  => Kor nokta BUGUN kusur SAKLAMIYOR, yalnizca PAYDAYI 10 eksik sayiyor.
+  Ama denetci "temiz" derken paydasi sessizce 10 eksik; push bloguna
+  ileride anakronik bir antlasma yazilirsa HIC GORULMEZ.
+
+KENDI ILK OLCUMUM GURULTU URETTI, kaydediliyor: 10 kaydin taraf
+  listesindeki osmanli kimligini "kunyesiz" sayip "kor nokta KUSUR
+  SAKLIYOR" diye hukum vermistim. YANLIS: denetle_anakronizm.py:314
+  osmanli'yi ZATEN atliyor ("cekirdek katman, omru ayri is"), ve gorunen
+  31 kaydin 28inde de var. Bir aleti taklit eden olcum onun KURAL
+  DALLARINI da tasimali.
+
+CARE (onerildi, UYGULANMADI — arac/denetle.py benim dosyam degil, SS 7):
+  en ucuzu: oku_pencere dosyada "<degisken>.push(" arasin; bulursa SESSIZ
+  KALMASIN — ya node'a dussun ya UYARI bassin.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
