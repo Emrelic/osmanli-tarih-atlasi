@@ -7130,3 +7130,93 @@ yama ↔ CANLI  242/242 tam kapsıyor · KAYBOLACAK DÖNEM 0
   `4d` 468→**409** · `4s` 143→**28**. ⇒ ***Bir kapsam kararı, aynı anda
   bir kusur onarımı olabilir*** — ve bu ancak denetim **karardan sonra**
   koşulursa görülür.
+
+- 🔴🔴 **BİR ALETİN CEVABI DOĞRU OLABİLİR VE SORDUĞU SORU YETERSİZ
+  OLABİLİR — ve bunu ancak İKİNCİ BİR ALET gösterir.**
+  *(7 Eylül 2026 · `KADEME-MODEL-0907` · kendi aletini çürüterek)*
+
+  *"NE'nin komşu poligonları ortak kenarda birebir aynı koordinatı mı
+  taşıyor?"* sorusu ölçüldü. Birinci alet **doğru** cevap verdi ve
+  **yetersizdi:**
+```
+① alet   "ortak tepesi OLMAYAN çift: 0"     ✓ doğru
+  AMA    asgarî ortak tepe 2 idi — uzun bir kenarda yalnız İKİ UÇ
+         eşleşiyorsa o kenar tepe-özdeş DEĞİLDİR
+② alet   "paylaşılan ÇİZGİNİN tepelerinin kaçı iki tarafta da var?"
+         → 69.011'in 69.011'i · kısmen ortak 0
+```
+  ⇒ ***"Ortak tepesi var" ile "kenarı birebir aynı" AYNI ŞEY DEĞİLDİR.***
+  📌 `§11`in *"denetim var ≠ o soruyu soruyor"* ailesinin **yeterlilik**
+  yüzü: önceki üyelerde alet yanlış şeyi ölçüyordu ya da hiç ölçmüyordu;
+  burada **doğru şeyi ölçüyor ama ölçtüğü şey hükmü taşımıyor.** Bir
+  `0`, sorunun kendisi zayıfsa **temiz bir sayı** olarak görünür.
+  🟢 Ve yakalayan şey bir denetim değil, aletin sahibinin *"bu sayı
+  hükmümü gerçekten kanıtlıyor mu"* diye sorması oldu.
+
+  🔴 **VE AYNI ÖLÇÜMDE İKİNCİ BİR ALET 2 KAT SAPTI:** shapely
+  `boundary.intersection` bir kenarı **sürekli çizgi olarak değil, iki
+  noktalı parçaların yığını** olarak veriyor (Türkiye↔Suriye: 182 parça ·
+  364 ham tepe · benzersiz 183) ⇒ her iç tepe **iki kez** sayılıyor.
+  `linemerge` düzeltti, 137.234 → 69.011, ve iki alet uyuştu.
+  📌 Ve bu bir sayım düzeltmesinden fazlası: ***kenar zaten SÜREKLİ bir
+  çizgidir, 182 kopuk parça değil — model de onu öyle saklamalı.*** Bir
+  kütüphanenin dönüş BİÇİMİ, ölçtüğün şeyin doğasını değiştirmez; ama
+  ölçümü sessizce ikiye katlar.
+
+- 🔴 **BİR LİSTEDE OLMAYAN ŞEY, ELENMİŞ OLANDAN AYIRT EDİLEMEZ — eleme
+  GEREKÇESİ ölçülmedikçe.** *(7 Eylül 2026 · `koridor.js` · `YUK-FETCH-0907`)*
+
+  Geometri dosyaları `.json`a çevrilirken üç küçük dosya *"1 MB altı,
+  kazanç yok"* diye dışarıda bırakılmıştı. Bu bir ölçüm değil bir
+  **tahmindi**, ve ölçülünce iki şey birden çıktı:
+```
+bolgeler 0,330 MB ·  43 ms   ┐ DIŞARIDA 0,42 MB · 51 ms
+sehirler 0,064 MB ·   4 ms   ├ = boyutun %0,44'ü · ayrıştırmanın %0,43'ü
+koridor  0,030 MB ·   4 ms   ┘   ⇒ karar DOĞRUYDU, ama artık ÖLÇÜLMÜŞ
+```
+  🔴 Ve asıl bulgu `koridor.js`: **listede HİÇ yoktu.** Ölçenin kendi
+  cümlesi: *"ölçmeseydim onu «unutulmuş» mu «elenmiş» mi bilemezdim."*
+  ⇒ `§11`in *"`0`, «yok» ile «bakmadım» arasında ayrım yapmaz"* dersinin
+  **liste** yüzü — ve burada `0` bile yoktu, yalnız bir **yokluk** vardı.
+  📌 Bir eleme kararı, **elenenin sayısıyla** yazılırsa bir karar olur;
+  yazılmazsa bir sonraki oturum onu bir **boşluk** sanır ve yeniden açar.
+
+- 🔴 **AYRI BİR REALM'DE KOŞAN VERİDE `instanceof` SESSİZCE FALSE
+  DÖNER — ve bu kusuru GERÇEK VERİ GÖSTEREMEZ.**
+  *(7 Eylül 2026 · `.js`→`.json` eşdeğerlik sınavı)*
+```
+vm.createContext        veriyi AYRI bir realm'de koşturur
+v instanceof Date       realm'ler arasında FALSE  ⇒ Date kayıtları KAÇIYOR
+çare                    Object.prototype.toString.call(v)
+```
+  🔴 **Ve kusur ancak ZORLANMIŞ bir dalda göründü:** atlas verisinde
+  `Date` yok, yani sınav gerçek veriyle sonsuza kadar *"temiz"* derdi.
+  Yalnız elle yazılmış bir fikstür (`denetim/_atesleme/kayipli.js`) onu
+  ateşledi, ve düzeltmeden sonra GEÇME dalı yeniden koşuldu (yanlış
+  pozitif 0).
+  📌 `C13`ün **ATEŞLEME** ayağının en temiz kanıtı: ateşleme dalı yalnız
+  denetimi sınamıyor — ***denetimin KENDİ kusurunu buldurdu.***
+  ⇒ Ve `§11`in *"veriyi kendi dilinin yorumlayıcısına ver"* kuralının
+  bir çekincesi doğdu: yorumlayıcıyı **ayrı bir realm'de** çağırmak
+  doğru yoldur, ama o realm tip kimliğini kırar. Doğru araç, **yanlış
+  varsayımla** kullanılabilir.
+
+- 🟢🟢 **`§7` AD ALANI DERSİ İLK KEZ ÖNLEYİCİ İŞLEDİ — çakışma OLMADAN
+  ÖNCE.** *(7 Eylül 2026 · `KADEME-MODEL-0907`)*
+
+  Yeni bir katman için ad seçilirken 333 mevcut `window` adı **tarandı**
+  (tahmin edilmedi), ve seçilecek kelimenin **zaten dolu** olduğu çıktı:
+```
+"KADEME"  bu projede k:0-4 YERLEŞİMİN İDARÎ KADEMESİ demek
+          window.KADEME_YAMA · YER_YAMA_KADEME · YER_YAMA_KADEME2 …
+⇒ yeni katmanın ad alanına KADEME YAZILMAMALI
+seçilen   data/sinir_hukuki.js → window.SINIR_HUKUKI   (çakışma 0)
+```
+  📌 Bu proje `§7`nin *"ayrı dosya vermek ayrı ad alanı vermek değildir"*
+  dersini **hep çakışma OLDUKTAN sonra** öğrendi (`KADEME_YAMA`: beş
+  dosya tek ad, 537 kayıt 137'ye düştü). Bu ilk kez **önce.**
+  🟢 Ve konuşma dili ile makine ad alanı ayrıldı: kalem konuşurken hâlâ
+  *"kademe C"*, veride `SINIR_HUKUKI`. ***Bir çakışma makine ad
+  alanındadır; konuşma dilini kısıtlamaz.***
+  ⚠️ Ve kolları açan sevkin şartı buradan çıktı: **her kola dosya adı ve
+  `window` adı BİRLİKTE verilir** — yoksa 14 kol 14 biçim üretir.
