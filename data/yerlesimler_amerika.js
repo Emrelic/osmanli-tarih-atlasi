@@ -874,11 +874,9 @@ window.YERLESIMLER_AMERIKA = [
 // k gerekçesi: konfederasyonun köken/kutsal merkezi — k:2
 
 { ad:"Quebec", tur:"sehir", lat:46.8219, lon:-71.2187, g:2, k:2, kur:"1608-07-03",
-  s:[{f:"1608-07-03",t:"1763-02-10",d:"fransa"},
-     {f:"1763-02-10",t:"1923-10-29",d:"ingiliz-kuzey-amerika"}] },
+  s:[{f:"1608-07-03",t:"1763-02-10",d:"fransa"},{f:"1763-02-10",t:"1867-07-01",d:"ingiliz-kuzey-amerika"},{f:"1867-07-01",t:"1923-10-29",d:"kanada"}] },
 { ad:"Montreal (Ville-Marie)", tur:"sehir", lat:45.5019, lon:-73.5674, g:2, k:1, kur:"1642-05-17",
-  s:[{f:"1642-05-17",t:"1763-02-10",d:"fransa"},
-     {f:"1763-02-10",t:"1923-10-29",d:"ingiliz-kuzey-amerika"}] },
+  s:[{f:"1642-05-17",t:"1763-02-10",d:"fransa"},{f:"1763-02-10",t:"1867-07-01",d:"ingiliz-kuzey-amerika"},{f:"1867-07-01",t:"1923-10-29",d:"kanada"}] },
 // kaynak: W.J. Eccles, "The French in North America, 1500-1783" (rev. ed. 1998) — Champlain'in
 //         Quebec'i (3 Temmuz 1608) ve Maisonneuve'ün Ville-Marie'yi (17 Mayıs 1642) kuruluşu.
 // k gerekçesi: Yeni Fransa'nın başkenti k:2, Montreal büyük merkez k:1
@@ -942,9 +940,7 @@ window.YERLESIMLER_AMERIKA = [
 // k gerekçesi: Büyük Göller kürk ticareti üssü — k:1
 
 { ad:"Port Royal (Acadia)", tur:"sehir", lat:44.7442, lon:-65.5058, g:1, k:1, kur:"1605-01-01",
-  s:[{f:"1605-01-01",t:"1713-04-11",d:"fransa"},
-     {f:"1713-04-11",t:"1763-02-10",d:"ingiltere"},
-     {f:"1763-02-10",t:"1923-10-29",d:"ingiliz-kuzey-amerika"}] },
+  s:[{f:"1605-01-01",t:"1713-04-11",d:"fransa"},{f:"1713-04-11",t:"1763-02-10",d:"ingiltere"},{f:"1763-02-10",t:"1867-07-01",d:"ingiliz-kuzey-amerika"},{f:"1867-07-01",t:"1923-10-29",d:"kanada"}] },
 // kaynak: The Canadian Encyclopedia, "Port-Royal" md. — de Monts/Champlain, 1605 (gün belirsiz).
 //         1713-04-11: Utrecht Antlaşması, Acadia'nın İngiltere'ye devri (Quebec/Montreal'den 50 yıl önce).
 // k gerekçesi: Acadia'nın idari merkezi — k:1
@@ -1165,42 +1161,27 @@ window.YERLESIMLER_AMERIKA = [
 // k gerekçesi: Trinidad'ın idari başkenti (1757'den) — k:1
 
 { ad:"Georgetown (Stabroek)", tur:"sehir", lat:6.8013, lon:-58.1551, g:1, k:1, kur:"1781-01-01",
-  s:[{f:"1781-01-01",t:"1784-01-01",d:"fransa"},
-     {f:"1784-01-01",t:"1796-04-22",d:"hollanda"},
-     {f:"1796-04-22",t:"1802-03-27",d:"ingiltere"},
-     {f:"1802-03-27",t:"1803-09-01",d:"hollanda"},
-     {f:"1803-09-01",t:"1923-10-29",d:"ingiltere"}] },
+  s:[{f:"1781-01-01",t:"1784-01-01",d:"fransa"},{f:"1784-01-01",t:"1796-04-22",d:"hollanda"},{f:"1796-04-22",t:"1802-03-27",d:"ingiltere"},{f:"1802-03-27",t:"1803-09-01",d:"hollanda"},{f:"1803-09-01",t:"1831-01-01",d:"ingiltere"},{f:"1831-01-01",t:"1923-10-29",d:"ingiliz-guyanasi"}] },
 // kaynak: Wikipedia "Essequibo (colony)"/"Demerara" akademik ansiklopedi girişleri (Anglo-Dutch
 //         Treaty of London 1814 ile çapraz doğrulandı); Cornelis Ch. Goslinga, "A Short History
 //         of the Netherlands Antilles and Surinam" (Martinus Nijhoff, 1979).
 // k gerekçesi: Demerara-Essequibo'nun idari merkezi — k:1
 
 { ad:"New Amsterdam (Berbice)", tur:"sehir", lat:6.2495, lon:-57.5207, g:0, k:2, kur:"1627-01-01",
-  s:[{f:"1627-01-01",t:"1796-04-22",d:"hollanda"},
-     {f:"1796-04-22",t:"1802-03-27",d:"ingiltere"},
-     {f:"1802-03-27",t:"1803-09-01",d:"hollanda"},
-     {f:"1803-09-01",t:"1923-10-29",d:"ingiltere"}] },
+  s:[{f:"1627-01-01",t:"1796-04-22",d:"hollanda"},{f:"1796-04-22",t:"1802-03-27",d:"ingiltere"},{f:"1802-03-27",t:"1803-09-01",d:"hollanda"},{f:"1803-09-01",t:"1831-01-01",d:"ingiltere"},{f:"1831-01-01",t:"1923-10-29",d:"ingiliz-guyanasi"}] },
 // kaynak: Britannica "Berbice"; Goslinga (1979) — Berbice kolonisi 1627 kuruluşu (ilk başkent
 //         Fort Nassau; New Amsterdam kasabası 1790'da yeni başkent oldu, basitlik için tek nokta).
 // k gerekçesi: Berbice kolonisinin merkezi — k:2
 
 { ad:"Paramaribo", tur:"sehir", lat:5.8520, lon:-55.2038, g:1, k:1, kur:"1630-01-01",
-  s:[{f:"1630-01-01",t:"1667-07-31",d:"ingiltere"},
-     {f:"1667-07-31",t:"1799-01-01",d:"hollanda"},
-     {f:"1799-01-01",t:"1802-03-27",d:"ingiltere"},
-     {f:"1802-03-27",t:"1804-01-01",d:"hollanda"},
-     {f:"1804-01-01",t:"1816-01-01",d:"ingiltere"},
-     {f:"1816-01-01",t:"1923-10-29",d:"hollanda"}] },
+  s:[{f:"1630-01-01",t:"1667-07-31",d:"ingiltere"},{f:"1667-07-31",t:"1799-01-01",d:"hollanda-guyanasi"},{f:"1799-01-01",t:"1802-03-27",d:"ingiltere"},{f:"1802-03-27",t:"1804-01-01",d:"hollanda-guyanasi"},{f:"1804-01-01",t:"1816-01-01",d:"ingiltere"},{f:"1816-01-01",t:"1923-10-29",d:"hollanda-guyanasi"}] },
 // kaynak: Wikipedia "Treaty of Breda (1667)"; mapofsuriname.org (Surinam Ulusal Arşivi destekli);
 //         Goslinga (1979) — Breda Antlaşması (31 Temmuz 1667) "uti possidetis" ile Hollanda'ya
 //         bıraktı (İngiltere karşılığında New York'u aldı — ünlü takas).
 // k gerekçesi: Surinam'ın idari başkenti — k:1
 
 { ad:"Cayenne", tur:"sehir", lat:4.9346, lon:-52.3303, g:1, k:1, kur:"1643-01-01",
-  s:[{f:"1643-01-01",t:"1792-09-22",d:"fransa"},
-     {f:"1792-09-22",t:"1809-01-14",d:"fransa-cumhuriyet"},
-     {f:"1809-01-14",t:"1817-01-01",d:"portekiz"},
-     {f:"1817-01-01",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
+  s:[{f:"1643-01-01",t:"1792-09-22",d:"fransa"},{f:"1792-09-22",t:"1809-01-14",d:"fransa-cumhuriyet"},{f:"1809-01-14",t:"1817-01-01",d:"portekiz"},{f:"1817-01-01",t:"1923-10-29",d:"fransiz-guyanasi"}] },
 // kaynak: Wikipedia "Invasion of Cayenne (1809)" — Fort Cépérou kuruluşu (1643). 1809'da
 //         İngiliz-Portekiz filosu Brezilya'daki Portekiz Krallığı'na devretti; 1814 Paris
 //         Antlaşması iade kararı verdi, fiilî tahliye 1817'ye kadar sürdü. "fransa-cumhuriyet"

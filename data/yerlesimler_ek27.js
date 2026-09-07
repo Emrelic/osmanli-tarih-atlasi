@@ -56,8 +56,8 @@ window.YERLESIMLER_EK27 = [
 // 🔴 HATAY — Emre'nin uyarısı: 1923'te Türkiye DEĞİL. Türkiye'ye katılışı
 //    1939. Nokta ekleniyor ki körfezin GÜNEY yakası temsil edilsin ve
 //    petek Çukurova'dan sarkmasın.
-{ ad:"İskenderun", tur:"liman", lat:36.587, lon:36.173, g:0, k:3, m:"Halep",
-  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1918-10-30",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+{ ad:"İskenderun",kaynak:"TDV, madde: suriye — Han Meysalun (Temmuz 1920) ile Faysal'ın Şam hükûmetine son verilip Fransız manda idaresinin kurulması. Gün: 24 Temmuz 1920 (Meysalun). Künye `suriye-lubnan-mandasi` penceresi 1920-07-01 AY hassasiyetlidir (künyenin kendi beyanı); veri kaynaklı GÜNÜ kullanır.", tur:"liman", lat:36.587, lon:36.173, g:0, k:3, m:"Halep",
+  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1918-10-30",t:"1920-07-24",d:"fransa-cumhuriyet"},{f:"1920-07-24",t:"1923-10-29",d:"suriye-lubnan-mandasi"}],
   d:[{f:"1516-08-24",t:"1918-10-30"}], v:[] },
 
 // 🔴 PAYAS BURADAN DUSURULDU (12 Agustos 2026, koordinator).

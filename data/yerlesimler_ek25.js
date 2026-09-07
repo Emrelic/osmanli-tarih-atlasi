@@ -66,24 +66,24 @@ window.YERLESIMLER_EK25 = [
 //    oldugu ucuncu olculmus vaka (bkz. KALITE-ZAMANA-GORE.md).
 //    Turkiye yakasi tutuldu; Suriye yakasi Halep/Cerablus/Munbic ile temsil.
 // ───────── SURİYE YAKASI (güney) · Fransız mandası ─────────
-{ ad:"Azez (A'zâz)", tur:"kasaba", lat:36.586, lon:37.045, g:0, k:3, m:"Halep",
-  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1918-10-30",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+{ ad:"Azez (A'zâz)",kaynak:"TDV, madde: suriye — Han Meysalun (Temmuz 1920) ile Faysal'ın Şam hükûmetine son verilip Fransız manda idaresinin kurulması. Gün: 24 Temmuz 1920 (Meysalun). Künye `suriye-lubnan-mandasi` penceresi 1920-07-01 AY hassasiyetlidir (künyenin kendi beyanı); veri kaynaklı GÜNÜ kullanır.", tur:"kasaba", lat:36.586, lon:37.045, g:0, k:3, m:"Halep",
+  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1918-10-30",t:"1920-07-24",d:"fransa-cumhuriyet"},{f:"1920-07-24",t:"1923-10-29",d:"suriye-lubnan-mandasi"}],
   d:[{f:"1516-08-24",t:"1918-10-30"}], v:[] },
 
-{ ad:"Münbiç", tur:"kasaba", lat:36.528, lon:37.955, g:0, k:3, m:"Halep",
-  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1918-10-30",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+{ ad:"Münbiç",kaynak:"TDV, madde: suriye — Han Meysalun (Temmuz 1920) ile Faysal'ın Şam hükûmetine son verilip Fransız manda idaresinin kurulması. Gün: 24 Temmuz 1920 (Meysalun). Künye `suriye-lubnan-mandasi` penceresi 1920-07-01 AY hassasiyetlidir (künyenin kendi beyanı); veri kaynaklı GÜNÜ kullanır.", tur:"kasaba", lat:36.528, lon:37.955, g:0, k:3, m:"Halep",
+  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1918-10-30",t:"1920-07-24",d:"fransa-cumhuriyet"},{f:"1920-07-24",t:"1923-10-29",d:"suriye-lubnan-mandasi"}],
   d:[{f:"1516-08-24",t:"1918-10-30"}], v:[] },
 
-{ ad:"Cerablus", tur:"kasaba", lat:36.825, lon:38.014, g:0, k:3, m:"Halep",
-  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1918-10-30",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+{ ad:"Cerablus",kaynak:"TDV, madde: suriye — Han Meysalun (Temmuz 1920) ile Faysal'ın Şam hükûmetine son verilip Fransız manda idaresinin kurulması. Gün: 24 Temmuz 1920 (Meysalun). Künye `suriye-lubnan-mandasi` penceresi 1920-07-01 AY hassasiyetlidir (künyenin kendi beyanı); veri kaynaklı GÜNÜ kullanır.", tur:"kasaba", lat:36.825, lon:38.014, g:0, k:3, m:"Halep",
+  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1918-10-30",t:"1920-07-24",d:"fransa-cumhuriyet"},{f:"1920-07-24",t:"1923-10-29",d:"suriye-lubnan-mandasi"}],
   d:[{f:"1516-08-24",t:"1918-10-30"}], v:[] },
 
-{ ad:"Ayn el-Arab (Kobani)", tur:"kasaba", lat:36.891, lon:38.353, g:0, k:3, m:"Halep",
-  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1918-10-30",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+{ ad:"Ayn el-Arab (Kobani)",kaynak:"TDV, madde: suriye — Han Meysalun (Temmuz 1920) ile Faysal'ın Şam hükûmetine son verilip Fransız manda idaresinin kurulması. Gün: 24 Temmuz 1920 (Meysalun). Künye `suriye-lubnan-mandasi` penceresi 1920-07-01 AY hassasiyetlidir (künyenin kendi beyanı); veri kaynaklı GÜNÜ kullanır.", tur:"kasaba", lat:36.891, lon:38.353, g:0, k:3, m:"Halep",
+  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1918-10-30",t:"1920-07-24",d:"fransa-cumhuriyet"},{f:"1920-07-24",t:"1923-10-29",d:"suriye-lubnan-mandasi"}],
   d:[{f:"1516-08-24",t:"1918-10-30"}], v:[] },
 
 { ad:"Malikiye (Derik)",not:"BİRLEŞİM (1.MURAT, hüküm M-2116): ok110'un erken katmanı + ok107'nin gün düzeltmesi. ⚠️ TDV `derik` slug'ı ÖLÜ (302); dayanak TDV `nusaybin` — Mardin ovasının aynı kolu, aynı harekât. 1918 sonrası döneme dokunulmadı (ok107'nin kendi notu).",kaynak:"nusaybin", tur:"kasaba", lat:37.176, lon:42.145, g:0, k:3, m:"Diyarbakır",
-  s:[{f:"1281-01-01",t:"1409-01-01",d:"artuklu"},{f:"1409-01-01",t:"1467-11-10",d:"karakoyunlu"},{f:"1467-11-10",t:"1507-01-01",d:"akkoyunlu"},{f:"1507-01-01",t:"1515-09-19",d:"safevi"},{f:"1918-10-30",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+  s:[{f:"1281-01-01",t:"1409-01-01",d:"artuklu"},{f:"1409-01-01",t:"1467-11-10",d:"karakoyunlu"},{f:"1467-11-10",t:"1507-01-01",d:"akkoyunlu"},{f:"1507-01-01",t:"1515-09-19",d:"safevi"},{f:"1918-10-30",t:"1920-07-24",d:"fransa-cumhuriyet"},{f:"1920-07-24",t:"1923-10-29",d:"suriye-lubnan-mandasi"}],
   d:[{f:"1515-09-19",t:"1918-10-30"}], v:[] },
 
 ];

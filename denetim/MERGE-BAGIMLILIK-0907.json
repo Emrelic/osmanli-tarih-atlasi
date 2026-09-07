@@ -1,7 +1,7 @@
 {
  "olcum_zamani": "2026-09-07",
  "olcen": "SONNET HAZIR KITA 129 (⑩→⑯ KOL)",
- "baseline_kunye_sayisi": 617,
+ "baseline_kunye_sayisi": 627,
  "baseline_harita_anahtar_sayisi": 240,
  "baseline_renk_anahtar_sayisi": 579,
  "id_onerisi_sema_sapmasi_gorulen_dosyalar": [],
@@ -18,6 +18,7 @@
    "denetim\\ONERI-KUNYE-BALKAN-0906.json",
    "denetim\\ONERI-KUNYE-DUZELTME-AVRUPA-0906.json",
    "denetim\\ONERI-KUNYE-SOMURGE-AMERIKA-0907.json",
+   "denetim\\ONERI-KUNYE-ZEND-0907.json",
    "denetim\\YAMA-KUNYE-1923-0905.json",
    "denetim\\YAMA-KUNYE-AIR-HADRAMUT-0905.json",
    "denetim\\YAMA-KUNYE-AMMAR-0905.json",
@@ -33,7 +34,8 @@
   ],
   "2_RENK_SONRA": [
    "denetim\\ONERI-RENK-0904.json",
-   "denetim\\ONERI-RENK-0907.json"
+   "denetim\\ONERI-RENK-0907.json",
+   "denetim\\ONERI-RENK-8CIFT-0907.json"
   ],
   "3_YAMA_EN_SON": [
    "denetim\\yer_yama_ada_istankoy.js",
@@ -54,7 +56,9 @@
    "denetim\\yer_yama_manda_0906.js",
    "denetim\\yer_yama_moskito.js",
    "denetim\\yer_yama_ortadogu_1923.js",
+   "denetim\\yer_yama_ortadogu_misir_1923.js",
    "denetim\\yer_yama_silistre_0906.js",
+   "denetim\\yer_yama_sohum.js",
    "denetim\\yer_yama_sutter_0906.js",
    "denetim\\yer_yama_tbmm_dort_0906.js",
    "denetim\\yer_yama_timbuktu_tam_0906.js"
@@ -88,10 +92,10 @@
   }
  ],
  "kenar_sayisi": 4,
- "kunye_tanimlanan_dosya_sayisi": 17,
+ "kunye_tanimlanan_dosya_sayisi": 18,
  "kunye_guncellenen_hedef_sayisi": 1,
- "renk_boyanan_dosya_sayisi": 2,
- "yama_dosya_sayisi": 22,
+ "renk_boyanan_dosya_sayisi": 3,
+ "yama_dosya_sayisi": 24,
  "cakisan_kunye_tanimi": {},
  "coz_yok_kimlikler": [
   {
@@ -435,12 +439,17 @@
   {
    "yama": "denetim\\yer_yama_avrupa_dayanak_1923.js",
    "degisken": "YER_YAMA_AVRUPA_DAYANAK_1923",
-   "kayit_sayisi": 21,
-   "kullanilan_benzersiz_kimlik": 8,
+   "kayit_sayisi": 51,
+   "kullanilan_benzersiz_kimlik": 13,
    "kimlikler": [
+    "aragon",
     "danimarka",
     "finlandiya",
+    "granada",
+    "ingiltere",
+    "ispanya",
     "isvec",
+    "kastilya",
     "norvec",
     "norvec-kralligi",
     "rusya",
@@ -448,6 +457,10 @@
     "sovyet-rusya"
    ],
    "kimlik_durum": {
+    "aragon": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
     "danimarka": {
      "kunye": "mevcut",
      "renk": "mevcut"
@@ -456,7 +469,23 @@
      "kunye": "mevcut",
      "renk": "mevcut"
     },
+    "granada": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "ingiltere": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "ispanya": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
     "isvec": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "kastilya": {
      "kunye": "mevcut",
      "renk": "mevcut"
     },
@@ -527,7 +556,7 @@
   {
    "yama": "denetim\\yer_yama_balkan_1923.js",
    "degisken": "YER_YAMA_BALKAN_1923",
-   "kayit_sayisi": 11,
+   "kayit_sayisi": 13,
    "kullanilan_benzersiz_kimlik": 10,
    "kimlikler": [
     "bogdan",
@@ -868,6 +897,52 @@
    "hazir_mi": true
   },
   {
+   "yama": "denetim\\yer_yama_ortadogu_misir_1923.js",
+   "degisken": "YER_YAMA_ORTADOGU_MISIR_1923",
+   "kayit_sayisi": 7,
+   "kullanilan_benzersiz_kimlik": 7,
+   "kimlikler": [
+    "funj",
+    "ingiliz-sudani",
+    "ingiltere",
+    "mehdi",
+    "memluk",
+    "misir-kralligi",
+    "nube"
+   ],
+   "kimlik_durum": {
+    "funj": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "ingiliz-sudani": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "ingiltere": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "mehdi": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "memluk": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "misir-kralligi": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "nube": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    }
+   },
+   "hazir_mi": true
+  },
+  {
    "yama": "denetim\\yer_yama_silistre_0906.js",
    "degisken": "YER_YAMA_SILISTRE_0906",
    "kayit_sayisi": 1,
@@ -897,6 +972,47 @@
      "renk": "mevcut"
     },
     "suleyman-celebi": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    }
+   },
+   "hazir_mi": true
+  },
+  {
+   "yama": "denetim\\yer_yama_sohum.js",
+   "degisken": "YER_YAMA_SOHUM",
+   "kayit_sayisi": 1,
+   "kullanilan_benzersiz_kimlik": 6,
+   "kimlikler": [
+    "gurcistan",
+    "gurcistan-demokratik-cumhuriyeti",
+    "rusya",
+    "rusya-gecici-hukumet",
+    "sovyet-rusya",
+    "transkafkasya"
+   ],
+   "kimlik_durum": {
+    "gurcistan": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "gurcistan-demokratik-cumhuriyeti": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "rusya": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "rusya-gecici-hukumet": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "sovyet-rusya": {
+     "kunye": "mevcut",
+     "renk": "mevcut"
+    },
+    "transkafkasya": {
      "kunye": "mevcut",
      "renk": "mevcut"
     }
@@ -1028,6 +1144,9 @@
    "ingiliz-jamaika",
    "ingiliz-trinidad"
   ],
+  "denetim\\ONERI-KUNYE-ZEND-0907.json": [
+   "zend"
+  ],
   "denetim\\YAMA-KUNYE-1923-0905.json": [
    "buhara-halk-cumhuriyeti",
    "filistin-mandasi",
@@ -1096,6 +1215,7 @@
   ],
   "denetim\\ONERI-KUNYE-DUZELTME-AVRUPA-0906.json": [],
   "denetim\\ONERI-KUNYE-SOMURGE-AMERIKA-0907.json": [],
+  "denetim\\ONERI-KUNYE-ZEND-0907.json": [],
   "denetim\\YAMA-KUNYE-1923-0905.json": [],
   "denetim\\YAMA-KUNYE-AIR-HADRAMUT-0905.json": [],
   "denetim\\YAMA-KUNYE-AMMAR-0905.json": [],
@@ -1119,7 +1239,8 @@
   ],
   "denetim\\ONERI-RENK-0907.json": [
    "avusturya-cumhuriyet"
-  ]
+  ],
+  "denetim\\ONERI-RENK-8CIFT-0907.json": []
  },
  "OLCULEMEDI_kapsam_disi": {
   "not": "Görev tanımı YALNIZ üç kalıbı adlandırdı (yer_yama_*.js · ONERI-KUNYE-*/YAMA-KUNYE-* · ONERI-RENK-*). Aşağıdaki benzer adlı dosyalar İSTENMEDİĞİ için TARANMADI — kimlik taşıyıp taşımadıkları bilinmiyor.",

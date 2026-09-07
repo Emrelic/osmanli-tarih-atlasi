@@ -73,27 +73,27 @@ window.YERLESIMLER_EK8 = [
 // Bugün Trondheim (63,43) atlasın en kuzey Norveç noktası; ondan Nordkapp'a
 // 1.100 km boyunca hiç nokta yok. Beş nokta o hattı kuruyor.
 { ad:"Mosjøen", tur:"sehir", lat:65.8370, lon:13.1920, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec"},{f:"1905-06-07",t:"1923-10-29",d:"norvec"}] },
+  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec",kaynak:"nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedish monarch»"},{f:"1905-06-07",t:"1923-10-29",d:"norvec",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"}] },
 
 // ⚠️ Maske: 67,2804/14,4049 (şehir merkezi) yarımadanın ucunda ve 10m
 //    maskesi orayı deniz sayıyor; 2,2 km doğuya (Bodø'nün kendi kıstağı)
 //    çekildi. Aynı düzeltme Tromsø · Luleå · Svalbard · Vaygaç'ta da var.
 { ad:"Bodø", tur:"sehir", lat:67.2933, lon:14.4446, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec"},{f:"1905-06-07",t:"1923-10-29",d:"norvec"}] },
+  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec",kaynak:"nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedish monarch»"},{f:"1905-06-07",t:"1923-10-29",d:"norvec",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"}] },
 
 // ⚠️ Maske: Tromsø ADA şehridir (Tromsøya); 2,2 km doğuya, karşı kıyıya alındı.
 { ad:"Tromsø", tur:"sehir", lat:69.6527, lon:19.0119, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec"},{f:"1905-06-07",t:"1923-10-29",d:"norvec"}] },
+  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec",kaynak:"nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedish monarch»"},{f:"1905-06-07",t:"1923-10-29",d:"norvec",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"}] },
 
 { ad:"Alta", tur:"sehir", lat:69.9689, lon:23.2717, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec"},{f:"1905-06-07",t:"1923-10-29",d:"norvec"}] },
+  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec",kaynak:"nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedish monarch»"},{f:"1905-06-07",t:"1923-10-29",d:"norvec",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"}] },
 
 // 🔴 BU PARTİNİN EN GEREKLİ TEK NOKTASI. Vardøhus kalesi ~1306'dan beri
 // Norveç'in kuzeydoğu çıpasıdır ve o çıpa olmadan Kola'nın Rus noktası
 // bütün Finnmark'ı emer — yani Rusya, Norveç kıyısında Nordkapp'a kadar
 // boyanır. `§3.5.1`in "noktasızlık İKİ YÖNE de hata üretir" vakası.
 { ad:"Vardø", tur:"kale", lat:70.3705, lon:31.1107, g:0, k:4, d:[],
-  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec"},{f:"1905-06-07",t:"1923-10-29",d:"norvec"}] },
+  s:[{f:"1281-01-01",t:"1537-01-01",d:"norvec-kralligi"},{f:"1537-01-01",t:"1814-01-14",d:"danimarka"},{f:"1814-01-14",t:"1905-06-07",d:"isvec",kaynak:"nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed that Norway should be transferred from the Danish to the Swedish monarch»"},{f:"1905-06-07",t:"1923-10-29",d:"norvec",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 7 that royal power had ceased to function.»"}] },
 
 // ── ② İSVEÇ LAPLAND'İ — Norrbotten ve Torne Lappmark ────────────────
 // ⚠️ 1809 SINIRI BURADA GEÇİYOR ve üç nokta da BATI yakasında kaldı:
@@ -101,11 +101,11 @@ window.YERLESIMLER_EK8 = [
 //    Doğu yakası (Tornio) aşağıda ayrı zincirle yazılı — bu iki komşu
 //    noktanın zinciri 1809'dan sonra AYRILIYOR ve ayrılık kasıtlıdır.
 // ⚠️ maske: şehir merkezi (65,5842) 10m maskesinde deniz; 2,2 km kuzeye alındı.
-{ ad:"Luleå", tur:"sehir", lat:65.6042, lon:22.1547, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"isvec"}] },
+{ ad:"Luleå",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, imzalı: Joseph P. Byrne, 2022): 'The Swedish Estates refused to recognize Frederick as the new monarch and elected Gustav by acclamation on JUNE 6, 1523.' İkinci bağımsız teyit: seçim Strängnäs'taki Riksdag'da yapıldı ve Kalmar Birliği böylece resmen dağıldı (aynı gün İsveç Ulusal Günü'dür). TDV kapsam dışı — Batı/Kuzey Avrupa TDV kapsamı %0 (§4). İÇ TUTARLILIK: `isvec-birlik-oncesi` künyesi (1281-01-01→1523-06-06) TAM bu dönem için yazılmış ve özeti Kalmar'ı adıyla anıyor; `isvec` künyesi AYNI GÜN başlıyor. 🟢 §②b DAMGASI: bu kaynak GÜNÜN dayanağıdır — gövde günü AÇIKÇA veriyor ('on June 6, 1523') ve gövdesi ÇEKİLİP okundu. ⚠️ İkinci bağımsız teyit ise arama sonuçlarının çakışmasından geliyor, GÖVDE OKUMASINDAN DEĞİL (Britannica · Oxford Reference · Library of Congress ÜÇÜ DE HTTP 403) — bu bir zayıflık ve YAZILI.", tur:"sehir", lat:65.6042, lon:22.1547, g:0, k:3, d:[],
+  s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1923-10-29",d:"isvec"}] },
 
-{ ad:"Jokkmokk", tur:"sehir", lat:66.6069, lon:19.8265, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"isvec"}] },
+{ ad:"Jokkmokk",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, imzalı: Joseph P. Byrne, 2022): 'The Swedish Estates refused to recognize Frederick as the new monarch and elected Gustav by acclamation on JUNE 6, 1523.' İkinci bağımsız teyit: seçim Strängnäs'taki Riksdag'da yapıldı ve Kalmar Birliği böylece resmen dağıldı (aynı gün İsveç Ulusal Günü'dür). TDV kapsam dışı — Batı/Kuzey Avrupa TDV kapsamı %0 (§4). İÇ TUTARLILIK: `isvec-birlik-oncesi` künyesi (1281-01-01→1523-06-06) TAM bu dönem için yazılmış ve özeti Kalmar'ı adıyla anıyor; `isvec` künyesi AYNI GÜN başlıyor. 🟢 §②b DAMGASI: bu kaynak GÜNÜN dayanağıdır — gövde günü AÇIKÇA veriyor ('on June 6, 1523') ve gövdesi ÇEKİLİP okundu. ⚠️ İkinci bağımsız teyit ise arama sonuçlarının çakışmasından geliyor, GÖVDE OKUMASINDAN DEĞİL (Britannica · Oxford Reference · Library of Congress ÜÇÜ DE HTTP 403) — bu bir zayıflık ve YAZILI.", tur:"sehir", lat:66.6069, lon:19.8265, g:0, k:3, d:[],
+  s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1923-10-29",d:"isvec"}] },
 
 // 🔴 GÖL DÜZELTMESİ (MOTOR buldu, göl-farkındalı tarama genişletti — 4 Ağustos,
 //    uygulaması 6 Ağustos'a kaldı çünkü 4'ünde dosya koşu 9'un BAĞLI girdisiydi
@@ -121,23 +121,23 @@ window.YERLESIMLER_EK8 = [
 //    kıpırtısı 36 m'yi geri içeri alabilir, o yüzden paylı olan seçildi.
 //    📌 Benim ilk ifadem "sıfır mesafede" idi ve fazla sertti — gerçek 36 m.
 //       Karar aynı kalıyor, gerekçenin rakamı düzeltildi.
-{ ad:"Jukkasjärvi", tur:"sehir", lat:67.8693, lon:20.6737, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1923-10-29",d:"isvec"}] },
+{ ad:"Jukkasjärvi",kaynak:"EBSCO Research Starters (editöryal incelemeli akademik özet, imzalı: Joseph P. Byrne, 2022): 'The Swedish Estates refused to recognize Frederick as the new monarch and elected Gustav by acclamation on JUNE 6, 1523.' İkinci bağımsız teyit: seçim Strängnäs'taki Riksdag'da yapıldı ve Kalmar Birliği böylece resmen dağıldı (aynı gün İsveç Ulusal Günü'dür). TDV kapsam dışı — Batı/Kuzey Avrupa TDV kapsamı %0 (§4). İÇ TUTARLILIK: `isvec-birlik-oncesi` künyesi (1281-01-01→1523-06-06) TAM bu dönem için yazılmış ve özeti Kalmar'ı adıyla anıyor; `isvec` künyesi AYNI GÜN başlıyor. 🟢 §②b DAMGASI: bu kaynak GÜNÜN dayanağıdır — gövde günü AÇIKÇA veriyor ('on June 6, 1523') ve gövdesi ÇEKİLİP okundu. ⚠️ İkinci bağımsız teyit ise arama sonuçlarının çakışmasından geliyor, GÖVDE OKUMASINDAN DEĞİL (Britannica · Oxford Reference · Library of Congress ÜÇÜ DE HTTP 403) — bu bir zayıflık ve YAZILI.", tur:"sehir", lat:67.8693, lon:20.6737, g:0, k:3, d:[],
+  s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1923-10-29",d:"isvec"}] },
 
 // ── ③ FİNLANDİYA LAPLAND'İ ──────────────────────────────────────────
 // Oulu (1605) atlasın kaçırdığı en büyük Fin şehriydi: 64°K'nin 1,2 km
 // kuzeyinde kaldığı için kutunun dışındaydı.
 { ad:"Tornio", tur:"sehir", lat:65.8482, lon:24.1436, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}] },
+  s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}] },
 
 { ad:"Oulu", tur:"sehir", lat:65.0121, lon:25.4651, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}] },
+  s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}] },
 
 { ad:"Rovaniemi", tur:"sehir", lat:66.5039, lon:25.7294, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}] },
+  s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}] },
 
 { ad:"Sodankylä", tur:"sehir", lat:67.4167, lon:26.5833, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}] },
+  s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}] },
 
 // GÖL DÜZELTMESİ — nokta suyun üstündeydi, taşındı.
 //    İlk yazılan 68,9058/27,0289 **Inarijärvi'nin İÇİNDE** (NE 10m poligonu
@@ -167,7 +167,7 @@ window.YERLESIMLER_EK8 = [
 //    (ihlal saymıyor, yalnız bağırıyor) ve yazıldığı gün Eğirdir ile
 //    Västerås'ı yakaladı.
 { ad:"İnari", tur:"sehir", lat:68.9257, lon:27.0337, g:0, k:3, d:[],
-  s:[{f:"1281-01-01",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya"}] },
+  s:[{f:"1281-01-01",t:"1523-06-06",d:"isvec-birlik-oncesi"},{f:"1523-06-06",t:"1809-09-17",d:"isvec"},{f:"1809-09-17",t:"1917-03-15",d:"rusya",kaynak:"V. V. Pokhlebkin (1995), *Foreign policy of Russia, Russia and the USSR in 1000 years: the names, the dates, the facts*, Moskova: International Relations, ISBN 5-7133-0845-6 — künye ADIYLA alındı."},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1917-12-06",d:"sovyet-rusya"},{f:"1917-12-06",t:"1923-10-29",d:"finlandiya",kaynak:"Jussila, Osmo · Hentilä, Seppo · Nevakivi, Jukka (1999), *From Grand Duchy to a Modern State: A Political History of Finland Since 1809*, London: C. Hurst & Co. — ve Manninen, Ohto (1992), *Itsenäistymisen vuodet 1917–1920*, Helsinki: Valtionarkisto (Finlandiya Milli Arşivi)."}] },
 
 // 🔴 PETSAMO — pencerenin İÇİNDE kalan tek Fin toprak kazancı.
 // Kola yarımadasının batı ucu, Peçenga manastırının (1533) çevresi;

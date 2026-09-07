@@ -83,8 +83,8 @@ window.YERLESIMLER_SEYREK = [
 // ⚠️ TDV XVIII. yy ilk yarısında Safed-Sayda-Beyrut eyaletine geçtiğini de
 //    söylüyor; bu İDARÎ bir kademe değişimi, SAHİPLİK değişimi değil —
 //    m: alanı bu yüzden "Şam"da bırakıldı, dönem açılmadı.
-{ ad:"Tedmür (Palmyra)", tur:"sehir", lat:34.550, lon:38.270, g:0, k:4, m:"Şam",
-  s:[{f:"1281-01-01",t:"1516-09-27",d:"memluk"},{f:"1918-10-01",t:"1923-10-29",d:"fransa-cumhuriyet"}],
+{ ad:"Tedmür (Palmyra)",kaynak:"TDV, madde: suriye — Han Meysalun (Temmuz 1920) ile Faysal'ın Şam hükûmetine son verilip Fransız manda idaresinin kurulması. Gün: 24 Temmuz 1920 (Meysalun). Künye `suriye-lubnan-mandasi` penceresi 1920-07-01 AY hassasiyetlidir (künyenin kendi beyanı); veri kaynaklı GÜNÜ kullanır.", tur:"sehir", lat:34.550, lon:38.270, g:0, k:4, m:"Şam",
+  s:[{f:"1281-01-01",t:"1516-09-27",d:"memluk"},{f:"1918-10-01",t:"1920-07-24",d:"fransa-cumhuriyet"},{f:"1920-07-24",t:"1923-10-29",d:"suriye-lubnan-mandasi"}],
   d:[{f:"1516-09-27",t:"1918-10-01"}],
   v:[{f:"1832-06-15",t:"1841-02-25",k:"Mısır (İbrâhim Paşa)",statu:"vassal",kid:"misir-kavalali"}] },
 

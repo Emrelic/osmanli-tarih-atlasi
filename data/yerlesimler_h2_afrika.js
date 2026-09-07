@@ -108,12 +108,12 @@ window.YERLESIMLER_H2_AFRIKA = [
 // Sükkût bölgesi — İkinci ile Üçüncü Şelâle arasındaki Nil kolu. Kerma ile
 // Vâdî Halfâ arasında 245 km boyunca tek nokta yoktu.
 { ad:"Delgo (Sükkût)", tur:"sehir", lat:20.126, lon:30.548, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"künye `ingiliz-sudani` f:1899-01-19 — kaydın kendi günü künyenin AÇILIŞ günüyle BİREBİR aynı (Anglo-Mısır Kondominyumu). 🟡 Kimlik düzeltmesi bu eşleşmeye dayanıyor; TDV'ye AYRICA sorulmadı (damga: okumadım)."}],
   v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Mahas bölgesi; Nûbe'nin İkinci Şelâle'ye bakan kuzey ucu.
 { ad:"Abrî (Mahas)", tur:"sehir", lat:20.803, lon:30.352, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-01-04",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani",kaynak:"künye `ingiliz-sudani` f:1899-01-19 — kaydın kendi günü künyenin AÇILIŞ günüyle BİREBİR aynı (Anglo-Mısır Kondominyumu). 🟡 Kimlik düzeltmesi bu eşleşmeye dayanıyor; TDV'ye AYRICA sorulmadı (damga: okumadım)."}],
   v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Nil'in büyük kıvrımının batı ucu — Debbe ile Merevî arasındaki eyer.
@@ -176,7 +176,7 @@ window.YERLESIMLER_H2_AFRIKA = [
 
 // Mavi Nil'in Habeşistan sınırındaki güney ucu; Fâzûğlî'nin devamı.
 { ad:"Kurmuk", tur:"sehir", lat:10.830, lon:34.283, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}],
   v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // ===========================================================================
@@ -212,11 +212,11 @@ window.YERLESIMLER_H2_AFRIKA = [
   v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 { ad:"Kâdûglî", tur:"sehir", lat:11.010, lon:29.717, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}],
   v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 { ad:"Talodi", tur:"sehir", lat:10.633, lon:30.383, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}],
   v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 { ad:"Ebû Zabed", tur:"sehir", lat:12.350, lon:29.250, g:0, k:4, m:"Hartum",
@@ -225,11 +225,11 @@ window.YERLESIMLER_H2_AFRIKA = [
 
 // Bâbanûsa ve Muglad: Batı Kordofan'ın Bahrülgazâl'e bakan güney ucu.
 { ad:"Muglad", tur:"sehir", lat:11.033, lon:27.733, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}],
   v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 { ad:"Bâbanûsa", tur:"sehir", lat:11.333, lon:27.817, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-08-19",d:"funj"},{f:"1882-09-07",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}],
   v:[{f:"1821-08-19",t:"1882-09-07",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 { ad:"Ğubeyş", tur:"sehir", lat:12.150, lon:27.383, g:0, k:4, m:"Hartum",
@@ -780,83 +780,83 @@ window.YERLESIMLER_H2_AFRIKA = [
 // ── Nil koridoru: Şilluk kuşağı, Mehdî hâkimiyeti VARDI ────────────────
 { ad:"Er-Renk", tur:"sehir", lat:11.750, lon:32.783, g:0, k:0,
   kasitli_bosluk:true,bos:"kabile", neden:"Şilluk Krallığı — `silluk` kimliği yok; Mısır Ekvatorya dönemi Değişmez 2 borcu doğuracağı için yazılamadı",
-  s:[{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
+  s:[{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
 
 // Şilluk Krallığı'nın başkenti; 1898 Fâşoda buhranının yeri.
 { ad:"Fâşoda", tur:"sehir", lat:9.892, lon:32.117, g:1, k:0,
   kasitli_bosluk:true,bos:"kabile", neden:"Şilluk Krallığı'nın başkenti — `silluk` kimliği yok",
-  s:[{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
+  s:[{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
 
 { ad:"Malakal", tur:"sehir", lat:9.533, lon:31.661, g:0, k:0,
   kasitli_bosluk:true,bos:"kabile", neden:"Şilluk kuşağı — `silluk` kimliği yok",
-  s:[{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
+  s:[{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
 
 // ── Yukarı Nil, Bahrülgazâl ve Ekvatorya: Mehdî hâkimiyeti YOKTU ───────
 { ad:"Nâsir", tur:"sehir", lat:8.608, lon:33.067, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Nuer ülkesi — devlet teşkilâtı yok; Mısır ve Mehdî idaresi buraya ulaşmadı",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
 
 { ad:"Akobo", tur:"sehir", lat:7.788, lon:33.033, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Anuak/Nuer ülkesi — devlet teşkilâtı ve kimlik yok",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
 
 { ad:"Bentiu", tur:"sehir", lat:9.242, lon:29.803, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Nuer ülkesi — devlet teşkilâtı ve kimlik yok",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
 
 { ad:"Meşra er-Rek", tur:"liman", lat:8.417, lon:29.283, g:0, k:0,
   kasitli_bosluk:true,bos:"kabile", neden:"Bahrülgazâl iskelesi — Nuer/Dinka ülkesi, devlet teşkilâtı yok. ⚠️ Mısır ilhakı (1873) Değişmez 2 borcu doğuracağı için DÖNEM YAZILAMADI — bu not korunmalı. 🔴 27 Ağu 2026: cins `hata` idi ve `hata`, motorun DOLDURABİLDİĞİ TEK kova (uret_petek.py:3564 DOLDURULABILIR_BOS). Kayıt bir hata değil, bir PARK YERİ olarak `hata`ya konmuştu ve petek komşusuna katılıp 21.111 km² DOĞRUDAN OSMANLI boyanıyordu (Emre 0036/H-0001, G1). Komşuları Bentiu ve Vav zaten `devletsiz` olduğu için korunuyordu; bu kayıt korunmuyordu.",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
 
 { ad:"Vav", tur:"sehir", lat:7.702, lon:27.990, g:1, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Bahrülgazâl merkezi — Dinka/Cur ülkesi, kimlik yok",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
 
 { ad:"Deym Zübeyr", tur:"kale", lat:7.700, lon:26.217, g:0, k:0,
   kasitli_bosluk:true,bos:"hata", neden:"Zübeyr Paşa'nın Bahrülgazâl karargâhı — Mısır dönemi yazılamadı (bkz. bölüm notu)",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
 
 { ad:"Rumbek", tur:"sehir", lat:6.800, lon:29.678, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Dinka ülkesi — devlet teşkilâtı ve kimlik yok",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
 
 { ad:"Tonc", tur:"sehir", lat:6.950, lon:28.683, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Dinka ülkesi — devlet teşkilâtı ve kimlik yok",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
 
 { ad:"Şembe", tur:"liman", lat:7.156, lon:30.553, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Nil iskelesi — Dinka ülkesi, kimlik yok",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
 
 { ad:"Bor", tur:"sehir", lat:6.208, lon:31.558, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Dinka ülkesi — devlet teşkilâtı ve kimlik yok",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
 
 // Mısır Ekvatorya eyaletinin karargâhı; Cûbâ (1922) daha sonra bunun
 // 6 km güneyinde kuruldu, o yüzden Cûbâ AYRI nokta olarak yazılmadı.
 { ad:"Gondokoro", tur:"sehir", lat:4.900, lon:31.650, g:1, k:0,
   kasitli_bosluk:true,bos:"hata", neden:"Ekvatorya karargâhı — Mısır dönemi (1870-1885) Değişmez 2 borcu doğuracağı için yazılamadı",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
 
 { ad:"Nimule", tur:"sehir", lat:3.600, lon:32.058, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Ekvatorya güney ucu — kimlik yok; güneyi HALKA 6-7 (Uganda), kasten noktasız",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
 
 { ad:"Torit", tur:"sehir", lat:4.412, lon:32.570, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Latuka ülkesi — devlet teşkilâtı ve kimlik yok",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
 
 { ad:"Kapoeta", tur:"sehir", lat:4.767, lon:33.591, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Toposa ülkesi — devlet teşkilâtı ve kimlik yok",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
 
 { ad:"Yambio", tur:"sehir", lat:4.572, lon:28.395, g:0, k:0,
   kasitli_bosluk:true,bos:"kabile", neden:"Azande Krallığı — `zende` kimliği yok; en yakın komşuyla boyamak §3.5.1 ihlali olurdu",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
 
 { ad:"Tembura", tur:"sehir", lat:5.610, lon:27.470, g:0, k:0,
   kasitli_bosluk:true,bos:"kabile", neden:"Azande Krallığı — `zende` kimliği yok",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
 
 // ###########################################################################
 // ###  PARTİ 2 — birinci partiden SONRA yeniden ölçülen boşluklar         ###
@@ -947,7 +947,7 @@ window.YERLESIMLER_H2_AFRIKA = [
 
 // Mavi Nil'in Habeş sınırına bakan eyalet merkezi (B zinciri).
 { ad:"Ed-Damazîn", tur:"sehir", lat:11.789, lon:34.359, g:0, k:4, m:"Hartum",
-  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}],
+  s:[{f:"1281-01-01",t:"1504-01-01",d:"nube"},{f:"1504-01-01",t:"1821-06-14",d:"funj"},{f:"1885-01-26",t:"1899-01-19",d:"mehdi"},{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}],
   v:[{f:"1821-06-14",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], d:[] },
 
 // Kordofan kuzeyi (C zinciri).
@@ -983,31 +983,31 @@ window.YERLESIMLER_H2_AFRIKA = [
 
 { ad:"Aveyl", tur:"sehir", lat:8.767, lon:27.400, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Dinka ülkesi — devlet teşkilâtı ve kimlik yok",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
 
 { ad:"Rağa", tur:"sehir", lat:8.460, lon:25.680, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Feroge/Kresh kuşağı — kimlik yok",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
 
 { ad:"Fangak", tur:"sehir", lat:9.070, lon:30.883, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Nuer ülkesi — devlet teşkilâtı ve kimlik yok",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
 
 { ad:"Ler", tur:"sehir", lat:8.300, lon:30.140, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Nuer ülkesi — devlet teşkilâtı ve kimlik yok",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
 
 { ad:"Pibor", tur:"sehir", lat:6.800, lon:33.133, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Murle ülkesi — devlet teşkilâtı ve kimlik yok",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
 
 { ad:"Maridi", tur:"sehir", lat:4.917, lon:29.467, g:0, k:0,
   kasitli_bosluk:true,bos:"kabile", neden:"Azande/Moru kuşağı — `zende` kimliği yok",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
 
 { ad:"Yei", tur:"sehir", lat:4.090, lon:30.679, g:0, k:0,
   kasitli_bosluk:true,bos:"devletsiz", neden:"Ekvatorya batı ucu — kimlik yok; batısı Lado kordonu",
-  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiltere"}], d:[], v:[] },
+  s:[{f:"1899-01-19",t:"1923-10-29",d:"ingiliz-sudani"}], d:[], v:[] },
 
 // ===========================================================================
 // 20) HABEŞİSTAN — parti 2

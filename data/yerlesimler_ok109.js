@@ -70,7 +70,7 @@
 window.YERLESIMLER_OK109 = [
 
   {
-    ad: "İmâdiye (Amêdî)",
+    ad: "İmâdiye (Amêdî)",kaynak:"Faysal'ın Irak kralı ilan edilmesi, 23 Ağustos 1921. Künye `irak-kralligi` `f:` ile aynı gün; künyenin kaynak alanı TDV 'irak--ulke' gövdesinin çekilemediğini beyan ediyor, dayanak akademik.",s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},{f:"1340-01-01",t:"1411-01-01",d:"celayirli"},{f:"1411-01-01",t:"1469-01-01",d:"karakoyunlu"},{f:"1469-01-01",t:"1508-01-01",d:"akkoyunlu"},{f:"1508-01-01",t:"1516-08-24",d:"safevi"},{f:"1918-11-08",t:"1921-08-23",d:"ingiltere"},{f:"1921-08-23",t:"1923-10-29",d:"irak-kralligi"}],
     tur: "sehir",
     lat: 37.0921, lon: 43.4877,
     g: 0, k: 4, m: "Musul",
