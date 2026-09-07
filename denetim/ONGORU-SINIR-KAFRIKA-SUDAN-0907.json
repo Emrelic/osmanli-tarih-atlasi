@@ -1,0 +1,52 @@
+{
+ "_NOT": "ÖNGÖRÜ — ÖLÇÜMDEN ÖNCE. Kalem Ⓒ: Sudan iki kimlikle boyanıyor. Mazeretler ÖNCEDEN (sevk şartı ④).",
+ "damga": "2026-09-07 · SINIR-KAFRIKA-0907 · ölçüm HENÜZ YAPILMADI",
+ "sevk": "1.MURAT M-3243 kalem Ⓒ",
+ "onceki_olcumum": "tur 1'de NE Sudan poligonu içinde 1923-10-01: ingiltere 61 · ingiliz-sudani 11 · misir-kralligi 1 · sahipsiz 12 (toplam 85). Enlem aralıkları İÇ İÇE (9,95-20,83 ve 10,63-20,80).",
+ "kalemler": [
+  {
+   "no": "①",
+   "ne_bekliyorum": "1923-10-28'de de aynı bölünme: ingiltere ~61 · ingiliz-sudani ~11",
+   "hangi_ciktidan": "girdi.yukle() + NE Sudan poligonu",
+   "birim": "nokta",
+   "mazeret": "Sorgu günü 10-01'den 10-28'e kayıyor; arada kırılma olsaydı sayı oynardı. Tur 5'te o pencerede kırılma olmadığını ÖLÇTÜM (551 nokta, 0) ⇒ mazeret YOK, sayı tutmalı."
+  },
+  {
+   "no": "②",
+   "ne_bekliyorum": "Bu `d: ∩ s:` ÇAKIŞMA sınıfı DEĞİL — aynı noktada örtüşen iki dönem yok; iki AYRI nokta kümesi iki AYRI kimlik taşıyor",
+   "hangi_ciktidan": "her noktanın dönem listesi; aynı noktada hem ingiltere hem ingiliz-sudani var mı",
+   "birim": "çakışan nokta sayısı",
+   "mazeret": "🔴 MAZERET DEĞİL, BULGU OLUR: eğer AYNI noktada ikisi de varsa sevkin çerçevesi (`§11` d∩s sınıfı) doğrudur ve benim sınıf iddiam çürür."
+  },
+  {
+   "no": "③",
+   "ne_bekliyorum": "İki küme FARKLI dosyalardan geliyor — ayrı dalgalarda yazılmış",
+   "hangi_ciktidan": "`_kaynak` alanı",
+   "birim": "dosya",
+   "mazeret": "Aynı dosyadan geliyorlarsa tutarsızlık TEK bir yazarın içinde demektir — o da bir bulgu, mazeret değil."
+  },
+  {
+   "no": "④",
+   "ne_bekliyorum": "Hiçbir kayıtta beyan (`neden:`/`not:`) YOK",
+   "hangi_ciktidan": "yüklenmiş kayıt + ham dosya taraması",
+   "birim": "kayıt",
+   "mazeret": "🔴 Ⓐ'NIN DERSİ: beyan VARSA bu kusur değil tasarımdır ve kalem kapanır. Önce BUNU sor."
+  },
+  {
+   "no": "⑤",
+   "ne_bekliyorum": "`ingiliz-sudani` künyesi (1899-01-19 → 1923-10-29) dönemleri KAPSIYOR",
+   "hangi_ciktidan": "devletler.js künye penceresi vs dönem f/t",
+   "birim": "kapsıyor/kapsamıyor",
+   "mazeret": "YOK."
+  },
+  {
+   "no": "⑥",
+   "ne_bekliyorum": "İki kümenin `f` günü AYNI: 1899-01-19 (kondominyum günü) — yani aynı olay iki kimlikle yazılmış",
+   "hangi_ciktidan": "dönemlerin f/t dağılımı",
+   "birim": "benzersiz (f,t) demeti",
+   "mazeret": "🔴 MEŞRU MAZERET, ÖNCEDEN YAZIYORUM: `f` günleri BELİRGİN biçimde FARKLIYSA ikisi farklı şey kodluyor olabilir (ör. `ingiltere` daha erken bir İngiliz varlığını, `ingiliz-sudani` 1899 kondominyumunu) — o zaman bu bir tutarsızlık DEĞİL bir ZAMAN DİZİSİ, ve hüküm 'tasarım' olur. Ⓐ'da tam bu yanılgıya düştüm."
+  }
+ ],
+ "hangi_kosuda": "ŞİMDİ, koşu 8 sürerken. `data/` DONUK ⇒ yalnız OKUMA. Ve 1.MURAT M-3225'te 'Sudan senin kalemin değil, dokunma' dedi — ÖLÇÜYORUM, DÜZELTMİYORUM.",
+ "neye_karsi": "Ⓐ: beyan varsa tasarım. Ⓑ: beyan yoksa kusur. Ⓒ aynı sınavdan geçecek."
+}
