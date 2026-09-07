@@ -119,8 +119,27 @@ def alet(d, dosya_adi):
     if alan & {"d", "s", "v", "isg"}:
         return ("_sahiplik_uygula — AMA o yalnız `data/yer_yama*.js` tarar; "
                 "denetim/'e BAKMIYOR ⇒ ÖNCE data/'ya TAŞINMALI")
+    # 🔴 ANAHTAR ADI CİNS DEĞİLDİR — ŞEMA SORULUR.
+    #   İlk sürüm yalnız `"kunyeler" in d` diye bakıyordu ve
+    #   `OLCUM-ANTLASMA-SLUG-0907` için «31 KÜNYE, alete uygun!» diye
+    #   YANLIŞ ALARM üretti. Ölçüldü (bağımsız, iki taraf da):
+    #       şema TAM 0/31 · eksik f 31 · t 31 · bolge 31
+    #       kayıt {id, ad, kaba_yil, adaylar:[...]} → TDV SLUG ÖLÇÜMÜ
+    #   `kunyeler` anahtarı orada ÖLÇÜLEN ÖZNELERİ tutuyor, künye
+    #   önerilerini DEĞİL. ⇒ Glob'un onu görmemesi DOĞRU davranıştı.
+    #   📌 `YAMA-KUNYE-T-0905` vakasının TAM TERSİ: orada DOSYA ADI
+    #     doğru cins yanlıştı, burada ANAHTAR ADI doğru cins yanlış.
     if "kunyeler" in (d if isinstance(d, dict) else {}):
-        return "_kunye_uygula — ama adı `YAMA-KUNYE-` ile BAŞLAMIYOR"
+        ky = d["kunyeler"]
+        kay = list(ky.values()) if isinstance(ky, dict) else (ky or [])
+        tam = sum(1 for k in kay if isinstance(k, dict)
+                  and all(k.get(a) for a in ("id", "ad", "f", "t")))
+        if tam:
+            return ("_kunye_uygula — şema TAM %d/%d, ama adı `YAMA-KUNYE-` "
+                    "ile BAŞLAMIYOR" % (tam, len(kay)))
+        return ("⚪ anahtar `kunyeler` AMA ŞEMA KÜNYE DEĞİL (%d kaydın "
+                "0'ı id+ad+f+t taşıyor) ⇒ ölçüm olabilir, glob'un görmemesi "
+                "DOĞRU" % len(kay))
     # 🔴 `b` BURADAN ÇIKARILDI — ve sebebi ölçüldü, tahmin değil:
     #   `SINIR-HUKUKI-ANADOLU-0907.json` (`kenarlar` · `f`,`t` · hedefi
     #   `data/sinir_hukuki_anadolu.js`) bu yüzden «ÇEKİRDEK kronoloji,
@@ -163,6 +182,13 @@ def atesleme():
        "ÇEKİRDEK" in alet({"kenarlar": [{"b": "x", "f": "1", "t": "2"}]}, "X.json"))
     de("alet · kenarlar+f/t → YENİ KATMAN", True,
        "YENİ KATMAN" in alet({"kenarlar": [{"f": "1", "t": "2"}]}, "X.json"))
+    # 🔴 ANAHTAR ADI ≠ CİNS — gerçek veride YANLIŞ ALARM üretmişti
+    de("alet · `kunyeler` + ŞEMA TAM → _kunye_uygula", True,
+       "_kunye_uygula" in alet(
+           {"kunyeler": [{"id": "x", "ad": "X", "f": "1", "t": "2"}]}, "X.json"))
+    de("alet · `kunyeler` AMA ŞEMA KÜNYE DEĞİL → alarm VERMEZ", True,
+       "ŞEMA KÜNYE DEĞİL" in alet(
+           {"kunyeler": [{"id": "x", "ad": "X", "kaba_yil": 1500}]}, "X.json"))
     return t
 
 
