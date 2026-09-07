@@ -331,6 +331,45 @@ denenmezdi.
 ⚠️ İki gövde sayacı: node **232** (yabancı) ↔ `olc.py` **233** (Osmanlı
 dâhil). Karıştırılmamalı.
 
+## ⑨o 🟢 ÜÇÜNCÜ KOVA: **PROVENANS** — koordinatörün ikili ayrımı EKSİKTİ
+*(7 Eylül · `SINAV-KOSU8-0907` ölçtü)*
+Koordinatör *"başlıkta mı, geçmiş anlatıda mı"* diye **ikili** bir
+ayrım vermişti. Ölçüm üçüncüsünü gerektirdi:
+```
+tarama: «koşu 7b» ya da «PID 3880» — DEPO GENELİ
+   51 dosya · 91 satır      (koordinatörün listesi 17'ydi — `denetim/` +34)
+🔴 GERÇEKTEN BAYAT   2 satır · 1 DOSYA  (zaten bilinen · YENİ ÇIKMADI)
+🟢 PROVENANS        46 satır
+🟡 AYIRT EDİLEMEDİ  36 satır — okunmadı, «temiz» DEĞİL
+```
+> ***PROVENANS: bir belgenin "koşu 7b sürüyor" demesi ölçümün ANINI
+> kaydeder, ve o kayıt ZAMANLA YANLIŞ OLMAZ.***
+
+🔴 51'i bayat saymak **50 dosyalık hayalet borç** üretirdi — ve bir
+sonraki oturum onu **iş** diye kuyruğa alırdı.
+📌 İkili ayrımla bu kova **birinciye** düşer ve her ölçüm kaydı
+*"bayat"* işaretlenirdi.
+🔜 Yeni doktrin yapısına **aday**; `CLAUDE.md`ye bugün EKLENMEDİ —
+`BUDAMA` onu 145.947 token ölçtü, her yeni satır budamayı ağırlaştırır.
+
+## ⑨p BUDAMA — Emre'nin sorusu ÖLÇÜLDÜ, üç aday elendi
+```
+ÖLÇÜM       taban 145.947 token  (koordinatörün kaba tahmini 104.000, %40 dar)
+🔴 ÇÜRÜDÜ   "compact yanlış zamanda" — compact DEĞİŞKENİ siler,
+            CLAUDE.md her oturumda YENİDEN yüklenir
+🔴 ÇÜRÜDÜ   "kullanılmayan dersin vakası ayrı dosyaya insin"
+            (koordinatörün «asıl ölçüm» dediği) → 178 dersin 163'ünün
+            korpusta açık izi var ⇒ kazanç %1,8
+🟡 ELENDİ   "Türkçe kötü tokenlaşıyor" → +%2,4
+🟢 KALAN    KURAL ile VAKAYI ayırmak → 73.900-85.600 token (%41-49)
+```
+🟢 Ve önerdikleri yapı koordinatörünkini **reddediyor**: ayrı bir
+`dersler/DIZIN.md` **ikinci bir otorite** yaratır (`§11`: *bir bilgi
+iki yerde duruyorsa biri güncellenince öteki bayatlar*). Çözüm:
+**`§11`in kendisi dizin olur**, vaka `dersler/<slug>.md`ye iner.
+🔴 **UYGULAMA KARARI EMRE'NİN** ve koşu + dalga bitiminden sonra —
+şu an on üç oturum `CLAUDE.md`yi okuyarak çalışıyor.
+
 ## ⑨f KOŞU SONRASI KUYRUĞA EKLENENLER
 ```
 ① uret_petek.py `vl` sıra kusuru            (öncekinden)
