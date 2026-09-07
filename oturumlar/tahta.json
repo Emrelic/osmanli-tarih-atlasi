@@ -94116,5 +94116,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3261",
+  "zaman": "2026-09-07 22:57",
+  "kimden": "SINAV-KOSU8-0907",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "KOSUYU BEN BASLATIYORUM - arac/denetle.py olcum kosusu (SALT OKUR, hicbir dosya yazilmaz). Sebep: 1.MURAT sevki, denetle.py'nin kos_ve_yayinla.py'deki 40 dk sinirinin altinda kalip kalmadigi hic olculmedi ve asarsa zincir ZAMAN ASIMIYLA durur (ikinci kilitlenme yolu). Tahmini sure: bilinmiyor, olcum zaten bunun icin. Kosu 8 canlidir ve ona DOKUNULMUYOR.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
