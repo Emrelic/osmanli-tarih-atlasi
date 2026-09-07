@@ -196,6 +196,49 @@ v:  f 429 · t 429 · k 373 · statu 421 · kid 291   ← `kid` BİR KİMLİK AL
 ⇒ KOŞU SONRASI: hayalet sayımı → SONRA karar. Bugün UYGULANMADI.
 ```
 
+## ⑨f2 🆕 C KOLU AÇILDI — 15:00 · ALTI BÖLGE + BEŞ HİZMET KOLU
+```
+SINIR-ANADOLU · BALKAN · ARAP · KAFRIKA · GAFRIKA · ASYA   (bölge)
+KIMLIK-1923 · ANTLASMA · BIRLESTIRICI · SINAV-KOSU8 ·
+DEGISMEZ3 · BUDAMA · VASSAL-GORUNUM                        (hizmet)
+ortak şartname: oturumlar/SINIR-HUKUKI-ORTAK-0907.md
+```
+🟢 **KİMLİK TABLOSU HAZIR:** `denetim/KIMLIK-1923-0907.json`
+(`kisa_tablo.tablo`, anahtar NE `ADM0_A3`) — **176/258 eşleşme**,
+coğrafî içindelikle. Ad eşlemesi 6 (EN) / 52 (TR) idi ⇒ **3,4 kat.**
+🟢 Ve BAĞIMSIZ DOĞRULANDI: `SINIR-KAFRIKA` farklı gün (`1923-10-01`) ve
+farklı aletle ölçtü, **17/17 ayrışma 0.**
+
+### 🔴 KOŞU SONRASI KUYRUĞA GİREN VERİ KUSURLARI
+```
+① SUDAN İKİ KİMLİKLE BOYANIYOR — ve ayrım COĞRAFÎ DEĞİL
+   ingiltere 61 (9,95–20,83°K) · ingiliz-sudani 11 (10,63–20,80°K)
+   aralıklar İÇ İÇE · iki yaka da Anglo-Mısır Kondominyumu
+   ⇒ §3.5 ailesi · bulan: SINIR-KAFRIKA-0907
+② KUZEY AMERİKA — 37 nokta modern ABD içinde ama `meksika`/`kanada`
+   → 1923-10-29. Albuquerque `meksika 1821→1923`. Devir dönemi HİÇ YOK.
+   ⇒ KIMLIK-1923-0907'ye sevk edildi (iki uç ölçülmesi şartıyla)
+③ ŞEFŞÂVEN `t=9999-01-01` — ufku aşan tek kayıt
+④ TUNUS 36 nokta: `kid:` YOK **ve `k:` de None** ⇒ ne makine ne insan
+   okuyabiliyor · künye bugün 1923'e genişletildi · KIMLIK-KID'de akıyor
+⑤ `denetle.py:1487` `if not m: continue` SESSİZ — 4 kayıt hiç bakılmadan
+   atlanıyor (`Üsküb`→`Üsküp` · `Lutsk`→`Lutsk (Łuck)`)
+   ⇒ yama DEGISMEZ3'te · şart: sayaç SIFIR OLSA BİLE basılmalı
+⑥ `Üsküp` grep'te İKİ KEZ — mükerrer nokta olabilir, ölçülmedi
+```
+
+## ⑨g2 🔴 SÜPÜRÜCÜ COMMIT — KOORDİNATÖRÜN İHLALİ, ve iki kez dar ölçüldü
+```
+BENİM ÖLÇÜMÜM   2 commit (140 + 23 dosya)
+GERÇEK          bir tek oturumun 12 dosyası DÖRT commit'te
+                depo geneli bugün: 22 commit · 582 dosya girişi
+                ⇒ 22 ÜST SINIR · 4 ALT SINIR (ayrım makineyle sorulamaz)
+```
+`git add -- denetim/` **dizin pathspec'i**, `git add -A` kadar süpürücü.
+🟢 **`§7` istisnası GENİŞLETİLDİ** (`25e3250`): her oturum kendi
+`oturumlar/<AD>.md` **ve** `denetim/<kendi öneki>` dosyalarını commit
+eder — **her dosya ADIYLA**, dizin pathspec'i YASAK.
+
 ## ⑨f KOŞU SONRASI KUYRUĞA EKLENENLER
 ```
 ① uret_petek.py `vl` sıra kusuru            (öncekinden)
