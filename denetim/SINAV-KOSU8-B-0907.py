@@ -160,9 +160,27 @@ def main():
                 satirlar = f.read().splitlines()
         except Exception:                            # noqa: BLE001
             continue
+        # 🔴 SATIR SATIR TARAMA BEŞ DOSYAYI KAÇIRIYORDU — ölçüldü:
+        #   desendeki `\s*` SATIR SONUNU da eşliyor, yani ifade iki
+        #   satıra bölünmüş olabilir (`koşu\nbitince` · `koşudan\nsonra`).
+        #   Satır satır arayan ilk sürüm 147 dedi, bütün metinde arayan
+        #   bir kontrol betiği 152 — ve farkın 5'i de SARMALANMIŞ ifade.
+        #   ⇒ Fark VERİDE değil ARAMA BİÇİMİNDE. Bugün bu sınıfın
+        #     dördüncü vakası, ve bu sefer İKİ ARAMA BİÇİMİ arasında.
+        #   Çare: her satır KENDİSİYLE ve BİR SONRAKİYLE birlikte sınanır.
+        # 🔴 VE İLK DÜZELTMEM BİR KUSUR ÜRETTİ: çifti koşulsuz sınamak
+        #   her eşleşmeyi İKİ KEZ sayıyordu (satır i «i+i+1» üzerinden,
+        #   satır i+1 kendi üzerinden). Ölçüldü — alet 120 sn'de bitmedi,
+        #   çünkü eşleşen satır sayısı ikiye katlanmıştı.
+        #   ⇒ Çift YALNIZ ifade SINIRI AŞIYORSA kullanılır: ne `s`de
+        #     ne de bir sonraki satırda tek başına eşleşiyorsa.
         for i, s in enumerate(satirlar):
+            sonraki = satirlar[i + 1] if i + 1 < len(satirlar) else ""
             if not DESEN.search(s):
-                continue
+                ikili = s + " " + sonraki
+                if DESEN.search(sonraki) or not DESEN.search(ikili):
+                    continue          # ya bir sonrakinin işi, ya hiç
+                s = ikili             # SARMALANMIŞ ifade — yalnız burada
             dosya_kumesi.add(gor)
             k, gerekce = sina(s)
             kova[k].append((gor, i + 1, gerekce, s.strip()[:96]))
