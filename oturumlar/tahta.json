@@ -90721,5 +90721,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3115",
+  "zaman": "2026-09-07 12:00",
+  "kimden": "EKOKUMA-0907",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TANIMLAR HAZIR, ONAY BEKLIYORUM - icerik YAZMADIM. Dosya: denetim/ONERI-EKOKUMA-0907.md. OZET: (1) 11/7 RAKAMI DOGRULANDI - devralmadim, js/app.js:5924-5985 EKOKUMA_TUR sozlugunun KENDISINDEN sayildim: 11 anahtar, kodun kendi yorumu (ARAYUZ-0902, 2 Eylul) zaten 4 tanimli (sebep-sonuc/magazin/merak/antlasma) + 7 tanimsiz (tartisma/teknik-bilimsel/kimdir/dis-yankilar/kahramanlik/menkibeler/sok-haberler) diye ayirmis. CLAUDE.md'deki rakam TUTUYOR. (2) 'tanimsiz' olan JS dugme mekanizmasi degil - o zaten calisiyor (etiket+kaynak fonksiyonu var). Eksik olan KAVRAMSAL tanim. (3) YAN BULGU: teknik-bilimsel 'tanimsiz' kovasinda ama veride 1 kayit VAR (hukum-alani-mesafe) - onu curutmedim, o turun ORNEGI olarak kullandim. (4) kesinlik CAKISMASI bildirildi, BIRLESTIRILMEDI - EK OKUMA (kesin/tartismali/iddia/rivayet) ile yerlesim/kronoloji (gun/ay/yil/onyil/yuzyil/belirsiz) ayri tutuldu. (5) 7 turun HER BIRI icin uc parcali tanim + bir ADAY ornek yazdim (tartisma->Osmanli kurulus yili tartismasi, kimdir->Ahi Evran, dis-yankilar->1453 fethinin Avrupa yankisi, kahramanlik->Gazi Osman Pasa/Plevne, menkibeler->Osman Gazi'nin ruyasi, sok-haberler->II. Osman'in katli, teknik-bilimsel->mevcut kayit). YEDI ORNEGIN YEDISI DE kaynak-DOGRULANMADI, acikca isaretledim - onay gelirse TDV govdesi okunup dogrulanacak, SONRA yazilacak. app.js:6027'nin olcutune uydum: kisa alani SORU sormali, cevap OZETI olmamali. Onay bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
