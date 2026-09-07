@@ -437,6 +437,73 @@ Tetik `data/donemler.js` olmaya devam etmeli.
 
 ---
 
+## ④d KAPSAM EKLEMESİ — 1.MURAT'ın iki sorusu, ölçüldü
+
+### ① *"Koşu 8 sonrası ölçütlerden hangileri BAYAT BİR KOŞU BAŞLIĞININ ALTINDA?"*
+
+Alet: `denetim/SINAV-KOSU8-BASLIK-0907.py` (C13② **10/10** dal).
+```
+evren      *.md, depo geneli · «koşu 7b» ya da «PID 3880» geçen
+bulundu    51 DOSYA · 91 satır      (sevkteki liste 17'ydi — o yalnız
+                                     `oturumlar/` + kök; `denetim/` +34)
+🔴 BAŞLIK/KISIT  →  9 satır  →  ELLE OKUNDU  →  GERÇEKTEN BAYAT: 2 satır · 1 DOSYA
+🟢 PROVENANS     → 46 satır  →  BAYAT DEĞİL
+🟡 AYIRT EDİLEMEDİ → 36 satır → elle okunmadı, «temiz» DEĞİL
+```
+🔴 **Gerçekten bayat olan tek dosya: `oturumlar/KOSU-BITINCE-SIRA.md`**
+(satır 1 başlık · satır 4 *"PID 3880 · koşu bittiği an yürütülecek"*) —
+yani zaten B2 olarak bulduğum dosya. **Yeni bir bayat başlık ÇIKMADI.**
+
+🟢 **VE BU NEGATİF SONUÇ, POZİTİFTEN DEĞERLİ:** *"koşu 7b geçen 51 dosya"*
+listesini bayat saymak **50 dosyalık bir hayalet borç** üretirdi. Bir
+belgenin *"koşu 7b sürüyor"* demesi çoğunlukla **PROVENANSTIR** — ölçümün
+hangi koşullarda alındığını kaydeder ve o kayıt **zamanla yanlış olmaz.**
+(Bu oturum da `R1TABAN`a *"koşu 8 CANLI"* yazdı; yarın o satır bayat
+olmayacak.)
+
+🔴 **VE SINIFLANDIRICI İLK KOŞUSUNDA 28 SAHTE 🔴 ÜRETTİ** — sebebi kural
+sırasıydı: konum (*ilk 8 satır = başlık*) damgadan ÖNCE soruluyordu, oysa
+bir belgenin künyesi **zaten ilk satırlardadır** ve provenansın doğal yeri
+orasıdır. Sıra düzeltildi (damga her zaman önce), 30 satır → 8.
+📌 Ve **bu dalı kendi ateşlemem KAÇIRMIŞTI**: damga↔KISIT önceliğini
+sınamıştım, damga↔BAŞLIK önceliğini sınamamıştım. `§11`: *"C13 iki yönü
+sına der ama HANGİ ÖZELLİĞİN sınanacağını söylemez."* Eksik dal eklendi.
+⇒ Bugün **üçüncü kez** ateşleme/gerçek koşu sınavın kendisini yakaladı.
+
+🟢 Ve elle okunan 8 satırın hükmü **betiğe yazıldı** (`ELLE_HUKUM`), yoksa
+bir sonraki oturum aynı sekiz satırı yeniden okur ve **ödenmiş bir işi
+yeni iş sanar.** Regex'i onları yutacak kadar gevşetmedim: gevşetmek
+**gerçek** bir bayat başlığı da yutardı.
+
+### ② *"Koşu 8 İÇİN yazılmış, henüz değerlendirilmemiş öngörü var mı?"*
+
+```
+tarandı    metninde «koşu 8» ya da «bir sonraki koşu» geçen *.md
+🟢 TEK AÇIK KALEM  oturumlar/VASSAL-GORUNUM-0907.md:105
+   "⚪ ÖLÇMEDİM  `vl` çapasının koşu 8 çıktısında GERÇEKTEN üretilip…"
+   ⇒ Bu, S2'nin tam olarak doldurduğu boşluk. Mükerrer YOK, atlanan YOK.
+⚪ ONERI-DEGISMEZ3-0907 · ONERI-BUDAMA-0907 — koşu 8'i UYGULAMA ZAMANI
+   olarak anıyor, bir öngörü olarak DEĞİL. Kapsam dışı.
+⚪ MOTOR-3-KALIBRASYON (4 Ağu) · MOTOR-TAVAN-YON (12 Ağu) — «bir sonraki
+   koşu» ifadeleri o tarihlerin koşusuna ait, çoktan koşuldu.
+```
+⇒ **Koşu 8 için bekleyen, takımın dışında kalan bir öngörü YOK.**
+
+### ③ M-3191 (çıpa günü `1923-10-29`) — sınavlarımı VURMUYOR, ölçüldü
+
+```
+girdi.UFUK = ('1281-01-01', '1923-10-29')
+DONEMLER son dönem:  f=1923-07-24  t=1923-10-29
+f == 1923-10-29 olan dönem: 0        t == 1923-10-29 olan dönem: 1
+```
+S2'nin K8b kalemi sorguyu **dönemin kendi `f`siyle** yapıyor (`f <= d.f < t`)
+ve hiçbir dönemin `f`si ufuk gününe eşit değil ⇒ yarı açık aralık sorunu
+**ateşlenmiyor.** S1/S3'te tarih sorgusu yok; R1 ölçümü sabit bir çapa
+günü (`1281-01-01`) kullanıyor, ufku değil.
+⇒ Damga: **ÖLÇÜLDÜ, etkilenmiyor** — *"bakmadım"* değil.
+
+---
+
 ## ⑤ ÖNGÖRÜLER — ölçümden ÖNCE yazıldı, damgalı
 
 ```
