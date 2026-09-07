@@ -1,0 +1,86 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>SINAV — geometri yükleyici sürüm damgasını İZLİYOR mu?</title>
+<style>body{font:13px/1.6 ui-monospace,Consolas,monospace;background:#14161a;color:#dfe3e8;margin:18px}
+b.y{color:#8ae09a} b.k{color:#ff8a8a} code{color:#e0d08a}</style>
+<h3>SINAV-SURUM-DAMGASI-0907</h3>
+<p>
+🔴 <b>NİÇİN VAR</b> — 1.MURAT M-3127'de ölçtü, ben doğruladım
+(<code>arac/surum_damgala.py:25</code>):
+<code>re.subn(r'(src="(?:js|data)/[^"?]+\.js)(?:\?v=[^"]*)?"', …)</code>
+<br>Damgalayıcı YALNIZ <code>src="…"</code> ÖZNİTELİKLERİNİ yeniden yazar.
+Geometri yükleyicisinde sürüm bir <b>JS dizgesi</b> olursa damga onu
+<b>GÖRMEZ</b> ⇒ yayın <code>r6800</code> olur, yükleyici hâlâ
+<code>r6711</code> ister, tarayıcı ÖNBELLEKTEN <b>bayat geometri</b> verir.
+Hata YOK · konsol TEMİZ · site AÇILIR — yalnız <b>harita bayat</b>.
+</p>
+<p>
+🔴 <b>ATEŞLEME</b>: aşağıdaki damgalı etiket kasten <code>?v=r9999</code>.
+Çare çalışıyorsa yükleyicinin İSTEDİĞİ URL'de de <code>r9999</code> görünmeli.
+<br>⚠️ Bu bir <b>KOPYA</b>dır: <code>index.html</code>e dokunmadığım için
+oradaki gerçek blok bu sayfada TEKRARLANDI. Blok indiği gün
+<b>gerçeğinde de</b> sınanmalı (<code>read_network_requests</code>).
+</p>
+
+<!-- 🔴 DAMGALI ETİKET — `surum_damgala.py`nin yazacağı biçimin aynısı.
+     Kasten r9999: çare bunu izlerse doğru çalışıyor demektir. -->
+<script src="../data/bolgeler.js?v=r9999"></script>
+
+<div id="sonuc">koşuyor…</div>
+<script>
+"use strict";
+// ═══ ÇARE — index.html'e inecek bloğun SÜRÜM OKUMA parçası ═══
+// Sürümü SABİTLEMİYORUZ; zaten DAMGALANMIŞ bir `src` özniteliğinden
+// türetiyoruz. Böylece damga TEK YERDE kalır ve `surum_damgala.py`
+// DEĞİŞMEDEN çalışmaya devam eder.
+var V = "";
+try {
+  var _e = document.querySelector('script[src*="data/"][src*="?v=r"]');
+  V = _e ? (String(_e.src).match(/\?v=r\d+/) || [""])[0] : "";
+} catch (e) { V = ""; }
+// 🔴 SESSİZ KALMA: damga bulunamazsa sebebi söylenir. Damgasız istek de
+//    dosyayı getirir (gerileme DEĞİL), ama önbellek kırılmaz — ve bunu
+//    bilmeyen bir sonraki oturum "niçin bayat" diye arar.
+if (!V && window.console) {
+  console.warn("geometri: sürüm damgası bulunamadı ⇒ damgasız istenecek "
+    + "(önbellek kırılmaz). index.html'de damgalı bir data/*.js var mı?");
+}
+
+// İstenen URL'yi ölç — gerçekten o damgayla mı isteniyor?
+var istenen = "data/devletler_harita.json" + V;
+
+// Ve GERÇEK bir istek at ki `performance` kaydına düşsün (404 olabilir,
+// önemli olan İSTENEN URL — dosyanın varlığı bu sınavın konusu değil).
+fetch("../" + istenen).catch(function () {}).then(function () {
+  // ⚠️ `performance` kaydı fetch settle'dan SONRA düşebiliyor — ilk
+  //    sürümde burası `null` döndü ve sınav "🔴 TUTMADI" dedi, oysa
+  //    ÇARE TUTMUŞTU. Kusur çarede değil SINAVIN ZAMANLAMASINDAydı.
+  //    (Yetkili kanıt tarayıcının ağ günlüğüydü:
+  //     `GET /data/devletler_harita.json?v=r9999 → 404` — istenen URL
+  //     damgayı TAŞIYOR; 404 beklenen, `.json` henüz `data/`de yok.)
+  return new Promise(function (c) { setTimeout(c, 400); });
+}).then(function () {
+  var kayit = performance.getEntriesByType("resource")
+    .map(function (e) { return e.name; })
+    .filter(function (n) { return /devletler_harita\.json/.test(n); });
+  var damga = (kayit[0] || "").match(/\?v=r\d+/);
+  // 🔴 BİRİNCİL ÖLÇÜT `okunan_V` — çarenin yaptığı iş BU. Ağ kaydı
+  //    İKİNCİL teyittir ve düşmezse `ölçülemedi`dir, "başarısız" DEĞİL.
+  var gecti = (V === "?v=r9999");
+  window.__DAMGA = {
+    okunan_V: V,
+    istenen_url: istenen,
+    beklenen: "?v=r9999",
+    gecti: gecti,
+    aga_dusen: kayit[0] || null,
+    ag_teyidi: kayit.length
+      ? (damga && damga[0] === "?v=r9999" ? "🟢 teyit" : "🔴 damga YOK")
+      : "⚪ ölçülemedi (kayıt düşmedi) — `read_network_requests` ile bak"
+  };
+  document.getElementById("sonuc").innerHTML =
+    (gecti
+      ? "<b class='y'>🟢 ÇARE TUTTU</b> — yükleyici damgayı İZLİYOR."
+      : "<b class='k'>🔴 ÇARE TUTMADI</b> — damga izlenmiyor, ÇÖZÜM İNMEZ.") +
+    "<pre>" + JSON.stringify(window.__DAMGA, null, 1) + "</pre>";
+});
+</script>
