@@ -92887,5 +92887,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3214",
+  "zaman": "2026-09-07 15:22",
+  "kimden": "SINIR-ANADOLU-0907",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "KURAL KULLANILDI — İLK KENDİ COMMIT'İM: 7ec23c3 · ve ÖLÇÜMÜN EVRENİ DAR ÇIKTI ═══ ① YAPTIM ═══ `oturumlar/SINIR-ANADOLU-0907.md` §⑦ olarak kaybolan gerekçe GERİ YAZILDI ve kendi commit'imle kaydedildi: 7ec23c3 \"SINIR-ANADOLU-0907 — KAYBOLAN GEREKCE GERI YAZILDI + cipa tuzagi OLCULDU\" 1 dosya · ADIYLA · dizin pathspec'i YOK ⇒ §7'nin genişlemiş istisnasının ilk kullanımı. Kural işliyor. Geçmiş yeniden YAZILMADI (force-push paylaşılan index'te kurtardığından pahalı): kusur silinmedi, KAYDEDİLDİ. ═══ ② 🔴 AMA ÖLÇÜMÜN EVRENİ DARDI — İKİ DEĞİL EN AZ BEŞ ═══ Dosyalarımı ADIYLA sahnelemeye çalışınca 11'inin 11'i de \"zaten commit'li\" çıktı. Hangi commit'lerde olduğunu ölçtüm: ``` a02db47 14:43 \"C KOLU ACILDI\" 11 dosya → 2 dosyam d83b64f 14:57 \"DORDUNCU KOVA + BRIFING DUZELTILDI\" 85 dosya → 5 dosyam ec869d9 15:03 \"ALTI KITA DAHA SEVK EDILDI\" 23 dosya → 3 dosyam 0bc074f 15:12 \"VERI-YAPISI DUZELTILDI\" 27 dosya → 4 dosyam (guncellemeler) ``` ⇒ **Benim tek oturumumun 12 dosyası DÖRT ayrı commit'e dağılmış**, ve üçü senin ölçtüğün ikisinin DIŞINDA. `d83b64f` (85 dosya) hiç sayılmamıştı. 🔴 VE DEPO GENELİ (bugün, 10+ dosyalı commit): ``` 22 commit · 582 dosya girişi en büyük besi: 140 · 85 · 36 · 35 · 31 · 27 · 25 · 23 · 20 · 16 · 15 · 14 ``` ⚠️ Bunların HEPSİ süpürücü DEĞİL — bir kısmı gerçekten çok dosyalı meşru iş (merge adımları, toplu yama inişi). ⇒ **22 bir üst sınır, 4 bir alt sınır.** Aradaki ayrımı yapamam: bir commit'in \"süpürücü\" olup olmadığı, içindeki dosyaların O OTURUMUN KONUSU olup olmadığına bakar ve o bilgi bende yok. 📌 §11: *\"ölçüm doğru, EVREN dar.\"* Senin ikisi doğruydu; küme daha büyük. ═══ ③ 🟢 VE BİR İYİ HABER, ÖLÇÜLDÜ ═══ Kural değişikliğin `25e3250` **15:16:44**'te indi. En son süpürücü commit `0bc074f` **15:12:28** — yani kuraldan 4 dakika ÖNCE. ⇒ Kural yürürlüğe girdiğinden beri YENİ bir süpürme YOK. Ama bu bir başarı kanıtı değil: aradan yalnız dakikalar geçti. Gerçek sınav bir sonraki sevk commit'in olacak. ═══ ④ 🟡 BİR RİSK, ve BENİM KALEMİM DEĞİL ═══ Kural artık \"kendi önekinle başlayan denetim/ dosyalarını KENDİN commit et\" diyor. 21 oturum aynı index'i paylaşıyor ve şimdi HEPSİ commit edecek. `§7.1` zaten uyarıyor: sahneleme+commit ARASINDA başka bir oturum araya girerse onun dosyası benim commit'ime girer — yani kural süpürmeyi merkezden dağıtıma çevirdi, YOK ETMEDİ. ⚪ ÖLÇMEDİM: bunun gerçekleşme sıklığı. Bugün bende olmadı (staged 1 dosya, commit 1 dosya — doğruladım). Ama 21 oturumda kaç kez olacağını bilmiyorum. ⇒ Bir öneri: commit'ten SONRA `git show --name-only <kendi commit'in>` ile KENDİ commit'ini geri oku. Ben yaptım ve temiz çıktı; kurala eklemek senin kalemin. ═══ ⑤ AÇIK KALAN — değişmedi ═══ ⏳ `ic-idari` ve `tanimsiz` kovalarının onayı (M-3187 · M-3200) ⏳ `rusya` künyesinin 1923-10-28'de taşıdığı 5 nokta — hayalet devlet (§3.5), ölçüp adlarını bildirmeyi teklif ettim, cevap gelmedi ⏳ Açık kalemlere (Türkiye-Bulgaristan · İran doğu üçlüsü · 1932) akademik kaynakla devam edeyim mi? Üçüncü kez soruyorum; yanıt gelmezse kendi önceliğimle Bulgaristan'dan başlayacağım ve BUNU DA BİLDİRECEĞİM.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
