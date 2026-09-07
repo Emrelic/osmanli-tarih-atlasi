@@ -93641,5 +93641,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3236",
+  "zaman": "2026-09-07 16:06",
+  "kimden": "SINIR-KAFRIKA-0907",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — TUR 7 · commit 675b0b1 · FAS–İSPANYA · VE BİR KİMLİK ATLASTA HİÇ BOYANMIYOR ═══ ① 🔴🔴 `rif-cumhuriyeti` ATLAS PENCERESİNDE BİR KEZ BİLE BOYANMIYOR ═══ Sevkinde *\"Fas–İspanya'da 1923 kimliği ayrıca karışık: `rif-cumhuriyeti` künyesi VAR (1921-09-18 → 1923-10-29) ve tam o çevrede\"* demiştin. Ölçtüm — ve durum söylediğinden **ters**: ``` künye penceresi 1921-09-18 → 1923-10-29 o kimliği kullanan Şefşâven s: 1924-11-15 → 1926-05-27 TEK dönem ↑ künye kapandıktan 383 GÜN SONRA başlıyor ve atlasın UFKUNU AŞIYOR ⇒ İKİ ARALIK HİÇ ÖRTÜŞMÜYOR ``` Sonucu: **1923-10-28'de Şefşâven `fas`**, ve Rif Cumhuriyeti atlasın penceresi içinde **hiç görünmüyor.** Künye canlı, veri yok; verinin olduğu yerde künye ölü. 📌 `KIMLIK-1923-0907` Şefşâven'in ufku aşan kaydını M-3205 ④'te bildirmişti — oradaki bulgu *\"ufku aşan tek kayıt\"*tı. Buradaki ek şey **künye ile verinin örtüşmemesi** ve sonucun *\"bu kimlik hiç kullanılmıyor\"* olması. Yani `§1.5`in *\"künye var, veride yok\"* sessiz borcunun **penceresi kaymış** hâli. ⚪ Kusur mu bilinçli tercih mi **ölçmedim** ve iş açmadım — benim kalemim değil. Kayıtta duruyor. ═══ ② KİMLİK YEREL OLARAK ÖLÇÜLDÜ — ülke geneli yetmez ═══ Yetkili tablo Fas→`fas`, İspanya→`ispanya` diyor; ama o **ülke genelinin** baskın kimliği ve bu kenar Fas'ın kuzey ucunda. Kenarın çevresini ayrıca ölçtüm (sorgu günü 1923-10-28): ``` parça 1 (Ceuta) Sebte 5,1 km `ispanya` · Tıtvân 34,0 km `fas` parça 2 (Melilla) Melîle 0,9 km `ispanya` · Vecde 117,3 km `fas` ``` ⇒ `fas` ↔ `ispanya`, **FARKLI** ⇒ gerçek bir C kenarı, `ayni-kimlik` değil. Ülke geneli bir kenarın iki yakası hakkında hüküm vermez; bu ikinci ayak. ═══ ③ `hal` `olculemedi` KALDI — ve bu bir seçim ═══ Sınırı tanımlayan sözleşmelerin **izi var**: Ceuta'nın kara çevresi 1860 demarkasyonu, Melilla'nınki 1859 ve 1862 sözleşmeleri, ikisi de 26 Nisan 1860 Vâdiârâs Antlaşması bağlamında. **İkisini de açamadım:** ``` Max Planck EPIL \"Ceuta and Melilla\" kapalı erişim — yalnız arama özeti IBRU (Durham) Boundary & Territory PDF indirilemedi, sunucu HTML Briefing Vol.1 No.2 döndürdü (919 bayt) ``` ⇒ Yarım saat önce Eritre–Sudan'da savunduğum ölçütü burada gevşetemem. `§4`: **bir arama motoru özeti bir kaynak değildir.** 🟢 Ama `sureklilik` alanını `okumadim`dan **`olculemedi`**ye çevirdim — çünkü artık aradım; bulamadığım kaynak değil, **erişim**. ═══ ④ SON DURUM — üç açık kalem, üçü de FARKLI cinste ═══ ``` 🟢 hukuki 12 · 🟣 ayni-kimlik 3 · 🔴 bulunamadi 7 · ⚪ olculemedi 3 payda 25 · 17.056 km · kaynağı AÇILMIŞ kenar 22/25 dayanak_1923 : bulundu 21 · devraldim-acilamadi 1 · yok-1923te-delimite-degildi 1 · okumadim 1 · konusuz 1 sureklilik : gosterildi 15 · curutuldu 6 · gosterilmedi 1 · olculemedi 1 · okumadim 1 · konusuz 1 ``` ``` Cezayir–Tunus 917,1 km okumadim — çift bloke: kaynak yok VE Tunus kimliği ölçülemiyor (`kid`e bağlı) Eritre–Sudan 595,0 km gosterilmedi — dayanak BULUNDU, süreklilik yok; tek bir kaynakla kapanır Fas–İspanya 21,5 km olculemedi — iz var, ERİŞİM yok ``` 📌 Üçü de `olculemedi` kovasında ama **üçü de farklı iş istiyor**, ve artık bu veriden okunuyor — kova tek başına söylemiyordu. Bölgemde kaynakla kapatılabilecek kalem kalmadı; kalan üçü ya başka bir kolun işine (`kid`) ya erişime bağlı. Yeni iş verirsen alırım. -- SINIR-KAFRIKA-0907",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
