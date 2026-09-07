@@ -5005,8 +5005,19 @@ ingiliz-guyanasi · ve id'siz bir öğe
   🔴 **VE İKİNCİ SESSİZ SIFIR SINIFI DA GENİŞLEDİ:**
   `YAMA-KUNYE-T-0905.json` → 0 künye · `KRONOLOJI-ZEND-1794-0905.json`
   → 0 madde. İkisinde de glob sahipleniyor, alet hiçbir şey bulamıyor,
-  **`0` basıp geçiyor.** O sıfır *"kayıt yok"* değil ***"bu dosya o
-  cinsten değil"*** demek.
+  **`0` basıp geçiyor.** O sıfır *"kayıt yok"* demek değil.
+
+  > 🟡 **TEŞHİS DÜZELDİ — 7 Eylül 2026 (`SINAV-KOSU8-0907` ölçtü).**
+  > Yukarıda *"bu dosya o cinsten değil"* yazıyordu. `ZEND-1794`ün
+  > kendi `hedef_dosya` alanı **`data/olaylar_ek*.js`** diyor ⇒ dosya
+  > **o cinsten**, gerçek bir kronoloji yaması; yalnız **hedefi başka.**
+  > ⇒ *"Yanlış cins"* değil ***"yanlış hedef."***
+  > 🟢 **Ders ayakta** (`0` basan alet sessizce yanıltır), düzelen
+  > yalnız teşhis — `§11`: *doğru hüküm, yanlış teşhisle gelebilir.*
+  > 🟢 Ve sınıf o gün ölçüldü: glob'un tuttuğu 22 dosyanın **12'si**
+  > sıfır basıyordu, ve şema uyuşmazlığından **GERÇEK KAYIP 0** —
+  > hiçbiri o aletin hedefine ait değildi. Çare bir dördüncü kova
+  > oldu: `⚫ SAHİPLENMEDİM` (`7260b83` · `d4913af`).
 
   🟢 Ve koordinatörün *"üç uygulayıcı"* öncülü de daraldı: **beş** alet
   var ve yalnız **ikisi** `denetim/` glob'u kullanıyor;
@@ -7756,3 +7767,57 @@ _kronoloji_uygula.py:49  "denetim/KRONOLOJI-*0905*.json"
   `yer_yama_kademe_zincir.js`i yutar, ve o dosya **adı «kademe» olan
   bir `m:` yamasıdır.** ⇒ Genişletme kaçanı geri getirir, ama **yanlış
   cinsi de içeri alır**; hangisinin ağır bastığı dosya dosya ölçülür.
+
+- 🔴🔴 **BOŞ BİR KÜME HER ÖNGÖRÜYÜ DOĞRULAR — ve alet `✓` basar.**
+  *(7 Eylül 2026 · `DEGISMEZ3-0907`, kendi aletini ihbar ederek)*
+
+  Bir öngörü kalemi *"`savas_basi` taşıyan kayıtların çoğu senkron
+  olacak"* diyordu. Ölçüm:
+```
+`savas_basi` taşıyan kayıt: 0 senkron / 0 açık
+aletin bastığı            : "TUTTU ✓ (0/0)"
+doğrusu                   : "KÜME BOŞ — SINANAMADI"
+```
+  Kod doğruydu (`if not b_acik` boş kümede de doğru döner); yanlış olan
+  **damgaydı.** Bir öngörü, sınanacak elemanı olmayan bir kümede
+  **çürütülemez** — ve çürütülemeyen bir öngörü `TUTTU` diye
+  kaydedilirse, bir sonraki oturuma **doğrulanmış** görünür.
+  🟢 **SINAV ÖLÇÜTÜ:** bir kalem `TUTTU` damgalanmadan önce **paydası
+  sorulur.** Payda 0 ise damga `SINANAMADI`.
+  📌 `§11`in *"alet sessizce hiçbir şey yapar ve çıktısı senin
+  öngörünle aynı olur"* dersinin **en saf hâli**: orada aleti
+  çalıştıran bir eşleşme yoktu, burada **sınanacak eleman** yok — ve
+  ikisi de `✓` basıyor. Ve *"ÖLÇÜLEMEDİ asla ÇÜRÜDÜ diye
+  raporlanmaz"* kuralının aynası: burada da `TUTTU` diye raporlanmaz.
+
+- 🔴 **«SAYIYI BİLİYORUM ≠ SAYININ NEYE GÖRE OLDUĞUNU BİLİYORUM» —
+  BEŞİNCİ EKSEN: KÜME.** *(aynı gün, aynı oturum)*
+
+  Bir alet alan listelerini **küme küme** basıyordu. `ANTLASMALAR`
+  satırındaki `savas_basi(28)` okunup **`SAVASLAR`ın alanı** sanıldı:
+```
+SAVASLAR      171 kayıt · savas_basi   0   ← ALAN HİÇ YOK
+ANTLASMALAR    31 kayıt · savas_basi  28   ← alan BURADA
+SEFERLER       61 kayıt · f           61
+```
+  ⇒ Üzerine bir gözlem, bir sevk ve bir tur iş kuruldu; hepsi çöktü.
+```
+BİRİM      "743.793.802 km²"  →  aslında km²·DÖNEM
+ALAN ADI   `kim` sorgusu 0    →  alanın adı `kimden`
+REFERANS   "2014 km"          →  neye göre? gövdeye, başkente değil
+AN         `kid` 82 mi 32 mi  →  disk mi, YAMALI mı
+KÜME 🆕    `savas_basi` 28    →  hangi kümenin?
+```
+  📌 Beşi de *"alet hata vermez, temiz bir sayı üretir"* ailesinden.
+  🔴 Ve bu vaka **iki yönlü**: işçi doğrulamadan verdi, koordinatör
+  doğrulamadan **sevke yazdı** — ve bir sevkte yazılı öncül işçiye
+  **veri gibi** okunur. *"Bir sevk taşıdığı öncülü de doğrulamalıdır"*
+  kuralının iki tarafı da aynı turda çiğnendi.
+
+- 🟢 **VE AYNI TURDA ÖLÇÜLEN BİR SAYI, ÖNCÜL TUTSAYDI HİÇ
+  ÖLÇÜLMEYECEKTİ:** `SAVASLAR`ın senkron sağlığı ilk kez sayıldı —
+  **171 kayıt · medyan 0,0 gün · TAM GÜNÜNDE maddesi olan 140 (%82).**
+  ⇒ Çöken bir öncülün turunda, öncülün gölgelediği bir ölçüm çıktı.
+  `§11`in *"bilgiyi yalnız YANLIŞ OLAN taşıdı"* dersinin bir kademe
+  ötesi: burada bilgiyi **çürümenin kendisi değil, çürüme sırasında
+  bakılan yer** taşıdı.
