@@ -92,13 +92,163 @@ def yukle(dizin):
     return recs, damga
 
 
+TABAN_YOL = os.path.join("denetim", "TABAN-AYNIKIMLIK-0907.json")
+
+
+def anahtar(r):
+    """
+    Kayit anahtari — indeks DEGIL. Kollar dosyalarini yeniden yazacak;
+    indeks kayar, kenar cifti kaymaz.
+
+    🔴 BU FONKSIYON ILK SURUMDE `a`/`b`YE BAKIYORDU VE CoKTU: ASYA'nin 98
+       kaydinda `a`/`b` BOS ⇒ 98'inin de anahtari "None|None" oldu, sozluk
+       97'sini SESSIZCE EZDI ve dogrulama 16 sahte "baska degisim" bildirdi.
+       Kendi aletimde, kendi raporladigim kusurun (KARARSIZ ANAHTAR) aynisi.
+    ⇒ NE adi ONCE denenir (`ne_a`/`ne_b`, sonra `kimlik_bugun`), `a`/`b`
+       en sona duser. Cikarilamayan kayit `?` ile baslar ve SAYILIR.
+    """
+    for x, y in (("ne_a", "ne_b"), ("a", "b")):
+        u, v = r.get(x), r.get(y)
+        if isinstance(u, str) and isinstance(v, str) and u and v:
+            return "%s|%s" % tuple(sorted((u, v)))
+    kb = r.get("kimlik_bugun")
+    if isinstance(kb, dict) and isinstance(kb.get("a"), str) and isinstance(kb.get("b"), str):
+        return "%s|%s" % tuple(sorted((kb["a"], kb["b"])))
+    if isinstance(kb, list) and len(kb) == 2 and all(isinstance(z, str) for z in kb):
+        return "%s|%s" % tuple(sorted(kb))
+    return "?|?"
+
+
+def taban_al(recs, yol=TABAN_YOL):
+    """
+    🔴 TABANI KOLLAR UYGULAMADAN ONCE AL — sonra alinamaz.
+
+    Cevrim uygulandiktan sonra "bu kayit ONCE ne idi" sorusu CEVAPSIZ kalir:
+    `hal:"ayni-kimlik"` goren biri, onun `bulunamadi`dan mi (dogru) yoksa
+    `hukuki`den mi (🔴 hukum yok edilmis) geldigini AYIRT EDEMEZ.
+    CLAUDE.md §11: "once yazilan beklenti CURUTULEBILIR, sonra yazilan
+    AYARLANABILIR" — bunun taban yuzu.
+    """
+    taban = {}
+    cakisma = {}
+    for b, rs in recs.items():
+        _, f = OLCUT.get(b, (None, lambda r: False))
+        d = {}
+        for r in rs:
+            k = anahtar(r)
+            if k in d:                    # 🔴 SESSIZ EZME — sayilir, gizlenmez
+                cakisma[b] = cakisma.get(b, 0) + 1
+            d[k] = [r.get("hal"), bool(f(r))]
+        taban[b] = d
+        if len(d) != len(rs):
+            print("🔴 %s — ANAHTAR CAKISMASI: %d kayit -> %d anahtar. Taban EKSIK."
+                  % (b, len(rs), len(d)))
+    if cakisma:
+        print("🔴 TABAN GUVENILMEZ — cakisan kol: %s" % cakisma)
+    with open(yol, "w", encoding="utf-8") as fh:
+        json.dump(dict(
+            _NOT="hal ALANININ CEVRIM ONCESI hali. Kollar uyguladiktan sonra "
+                 "dogrulama BUNA karsi yapilir; sonradan uretilemez.",
+            _URETIM=time.strftime("%Y-%m-%d %H:%M"),
+            _ANAHTAR="a|b (alfabetik) — indeks DEGIL, cunku kollar dosyayi "
+                     "yeniden yazinca indeks kayar",
+            taban={b: {k: v for k, v in sorted(d.items())} for b, d in taban.items()}),
+            fh, ensure_ascii=False, indent=1)
+    return taban
+
+
+def dogrula(recs, yol=TABAN_YOL):
+    """
+    Kollar cevrimi DOGRU mu uyguladi?
+
+    Uc soru — ve ucu de ayri kova:
+      ① BEKLENEN cevrildi mi        (bulunamadi + olcut  ->  ayni-kimlik)
+      ② FAZLA cevrim var mi         🔴 hukuki ya da olculemedi cevrilmis
+      ③ OLCUT ESLEMEYEN damgalanmis mi 🔴 olcut 'hayir' diyor ama ayni-kimlik
+    """
+    if not os.path.exists(yol):
+        return None
+    t = json.load(open(yol, encoding="utf-8"))["taban"]
+    sonuc = {}
+    for b, rs in recs.items():
+        eski = t.get(b, {})
+        c = collections.Counter()
+        kusur = []
+        for r in rs:
+            k = anahtar(r)
+            simdi = r.get("hal")
+            onceki, olcut = eski.get(k, [None, None])
+            if onceki is None:
+                c["taban_disi"] += 1          # yeni kayit — kusur DEGIL, ayri kova
+                continue
+            if simdi == "ayni-kimlik" and onceki != "ayni-kimlik":
+                if onceki == "bulunamadi" and olcut:
+                    c["dogru_cevrim"] += 1
+                else:
+                    c["FAZLA_CEVRIM"] += 1
+                    kusur.append(dict(a=r.get("a"), b=r.get("b"), once=onceki, olcut=olcut))
+            elif onceki == "bulunamadi" and olcut and simdi == "bulunamadi":
+                c["bekleyen"] += 1
+            elif simdi != onceki:
+                c["baska_degisim"] += 1
+        sonuc[b] = dict(sayac=dict(c), kusur=kusur)
+    return sonuc
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dizin", default="denetim")
     ap.add_argument("--json", dest="json_yol")
+    ap.add_argument("--taban", action="store_true",
+                    help="cevrim ONCESI hali kaydet (bir kez, kollar uygulamadan once)")
+    ap.add_argument("--dogrula", action="store_true",
+                    help="tabana karsi dogrula — kollar uyguladiktan sonra")
+    ap.add_argument("--taban-yol", dest="taban_yol", default=TABAN_YOL,
+                    help="taban dosyasinin yolu (sinav icin)")
     a = ap.parse_args()
 
     recs, damga = yukle(a.dizin)
+
+    if a.taban:
+        if os.path.exists(a.taban_yol):
+            print("🟡 TABAN ZATEN VAR: %s — USTUNE YAZILMADI." % a.taban_yol)
+            print("   Bir tabani yeniden almak, cevrim baslamissa onu GORUNMEZ kilar.")
+        else:
+            taban_al(recs, a.taban_yol)
+            print("🟢 TABAN ALINDI: %s (%d kol · %d kayit)"
+                  % (a.taban_yol, len(recs), sum(len(r) for r in recs.values())))
+        return 0
+
+    if a.dogrula:
+        d = dogrula(recs, a.taban_yol)
+        if d is None:
+            print("⚪ OLCULEMEDI — taban dosyasi yok (%s). Once --taban." % a.taban_yol)
+            return 1
+        print("=" * 78)
+        print("DOGRULAMA — tabana karsi   (%s)" % time.strftime("%Y-%m-%d %H:%M"))
+        print("=" * 78)
+        print("%-9s %-14s %-11s %-14s %-14s %s"
+              % ("BOLGE", "DOGRU cevrim", "bekleyen", "FAZLA CEVRIM", "baska degisim", "taban disi"))
+        kirmizi = 0
+        for b, o in sorted(d.items()):
+            s = o["sayac"]
+            kirmizi += s.get("FAZLA_CEVRIM", 0)
+            print("%-9s %-14d %-11d %-14d %-14d %d"
+                  % (b, s.get("dogru_cevrim", 0), s.get("bekleyen", 0),
+                     s.get("FAZLA_CEVRIM", 0), s.get("baska_degisim", 0),
+                     s.get("taban_disi", 0)))
+        print("")
+        if kirmizi:
+            print("🔴 FAZLA CEVRIM — kural: YALNIZ hal=='bulunamadi' VE olcut eslesen")
+            for b, o in sorted(d.items()):
+                for k in o["kusur"]:
+                    print("   %-9s %-20s|%-20s  ONCE=%s  olcut=%s"
+                          % (b, k["a"], k["b"], k["once"], k["olcut"]))
+        else:
+            print("🟢 FAZLA CEVRIM YOK — hicbir 'hukuki' ya da 'olculemedi' kayit cevrilmemis")
+        print("=" * 78)
+        return 1 if kirmizi else 0
+
     kovalar = {"cevir": [], "dokunma_hukuki": [], "karar_olculemedi": [], "zaten": []}
     ozet = {}
 

@@ -1,0 +1,1287 @@
+{
+ "_NOT": "hal ALANININ CEVRIM ONCESI hali. Kollar uyguladiktan sonra dogrulama BUNA karsi yapilir; sonradan uretilemez.",
+ "_URETIM": "2026-09-07 15:51",
+ "_ANAHTAR": "a|b (alfabetik) — indeks DEGIL, cunku kollar dosyayi yeniden yazinca indeks kayar",
+ "taban": {
+  "ANADOLU": {
+   "Afghanistan|Iran": [
+    "bulunamadi",
+    false
+   ],
+   "Armenia|Azerbaijan": [
+    "bulunamadi",
+    true
+   ],
+   "Armenia|Georgia": [
+    "bulunamadi",
+    true
+   ],
+   "Armenia|Iran": [
+    "bulunamadi",
+    false
+   ],
+   "Armenia|Turkey": [
+    "hukuki",
+    false
+   ],
+   "Azerbaijan|Georgia": [
+    "bulunamadi",
+    true
+   ],
+   "Azerbaijan|Iran": [
+    "bulunamadi",
+    false
+   ],
+   "Azerbaijan|Russia": [
+    "bulunamadi",
+    true
+   ],
+   "Azerbaijan|Turkey": [
+    "hukuki",
+    false
+   ],
+   "Bulgaria|Turkey": [
+    "hukuki",
+    false
+   ],
+   "Georgia|Russia": [
+    "bulunamadi",
+    true
+   ],
+   "Georgia|Turkey": [
+    "hukuki",
+    false
+   ],
+   "Greece|Turkey": [
+    "hukuki",
+    false
+   ],
+   "Iran|Iraq": [
+    "hukuki",
+    false
+   ],
+   "Iran|Pakistan": [
+    "bulunamadi",
+    false
+   ],
+   "Iran|Turkey": [
+    "bulunamadi",
+    false
+   ],
+   "Iran|Turkmenistan": [
+    "bulunamadi",
+    false
+   ],
+   "Iraq|Turkey": [
+    "bulunamadi",
+    false
+   ],
+   "Syria|Turkey": [
+    "hukuki",
+    false
+   ]
+  },
+  "ARAP": {
+   "Egypt|Israel": [
+    "olculemedi",
+    false
+   ],
+   "Egypt|Jordan": [
+    "olculemedi",
+    false
+   ],
+   "Egypt|Palestine": [
+    "olculemedi",
+    false
+   ],
+   "Egypt|Saudi Arabia": [
+    "olculemedi",
+    false
+   ],
+   "Iran|Iraq": [
+    "olculemedi",
+    false
+   ],
+   "Iraq|Jordan": [
+    "olculemedi",
+    false
+   ],
+   "Iraq|Kuwait": [
+    "olculemedi",
+    false
+   ],
+   "Iraq|Saudi Arabia": [
+    "olculemedi",
+    false
+   ],
+   "Iraq|Syria": [
+    "olculemedi",
+    false
+   ],
+   "Iraq|Turkey": [
+    "hukuki",
+    false
+   ],
+   "Israel|Jordan": [
+    "olculemedi",
+    false
+   ],
+   "Israel|Lebanon": [
+    "olculemedi",
+    false
+   ],
+   "Israel|Palestine": [
+    "olculemedi",
+    true
+   ],
+   "Israel|Syria": [
+    "hukuki",
+    false
+   ],
+   "Jordan|Palestine": [
+    "olculemedi",
+    false
+   ],
+   "Jordan|Saudi Arabia": [
+    "olculemedi",
+    false
+   ],
+   "Jordan|Syria": [
+    "olculemedi",
+    false
+   ],
+   "Kuwait|Saudi Arabia": [
+    "olculemedi",
+    false
+   ],
+   "Lebanon|Syria": [
+    "olculemedi",
+    true
+   ],
+   "Oman|Saudi Arabia": [
+    "olculemedi",
+    false
+   ],
+   "Oman|United Arab Emirates": [
+    "olculemedi",
+    false
+   ],
+   "Oman|Yemen": [
+    "olculemedi",
+    false
+   ],
+   "Qatar|Saudi Arabia": [
+    "olculemedi",
+    false
+   ],
+   "Saudi Arabia|United Arab Emirates": [
+    "olculemedi",
+    false
+   ],
+   "Saudi Arabia|Yemen": [
+    "hukuki",
+    false
+   ],
+   "Syria|Turkey": [
+    "hukuki",
+    false
+   ]
+  },
+  "ASYA": {
+   "Afghanistan|China": [
+    "olculemedi",
+    false
+   ],
+   "Afghanistan|Iran": [
+    "olculemedi",
+    false
+   ],
+   "Afghanistan|Pakistan": [
+    "hukuki",
+    false
+   ],
+   "Afghanistan|Tajikistan": [
+    "olculemedi",
+    false
+   ],
+   "Afghanistan|Turkmenistan": [
+    "olculemedi",
+    false
+   ],
+   "Afghanistan|Uzbekistan": [
+    "olculemedi",
+    false
+   ],
+   "Argentina|Bolivia": [
+    "olculemedi",
+    false
+   ],
+   "Argentina|Brazil": [
+    "olculemedi",
+    false
+   ],
+   "Argentina|Brazilian Island": [
+    "olculemedi",
+    false
+   ],
+   "Argentina|Chile": [
+    "olculemedi",
+    false
+   ],
+   "Argentina|Paraguay": [
+    "olculemedi",
+    false
+   ],
+   "Argentina|Southern Patagonian Ice Field": [
+    "olculemedi",
+    false
+   ],
+   "Argentina|Uruguay": [
+    "olculemedi",
+    false
+   ],
+   "Bangladesh|India": [
+    "bulunamadi",
+    true
+   ],
+   "Bangladesh|Myanmar": [
+    "bulunamadi",
+    true
+   ],
+   "Baykonur Cosmodrome|Kazakhstan": [
+    "olculemedi",
+    false
+   ],
+   "Belize|Guatemala": [
+    "olculemedi",
+    false
+   ],
+   "Belize|Mexico": [
+    "olculemedi",
+    false
+   ],
+   "Bhutan|China": [
+    "olculemedi",
+    false
+   ],
+   "Bhutan|India": [
+    "olculemedi",
+    false
+   ],
+   "Bolivia|Brazil": [
+    "olculemedi",
+    false
+   ],
+   "Bolivia|Chile": [
+    "olculemedi",
+    false
+   ],
+   "Bolivia|Paraguay": [
+    "olculemedi",
+    false
+   ],
+   "Bolivia|Peru": [
+    "olculemedi",
+    false
+   ],
+   "Brazilian Island|Uruguay": [
+    "olculemedi",
+    false
+   ],
+   "Brazil|Brazilian Island": [
+    "olculemedi",
+    false
+   ],
+   "Brazil|Colombia": [
+    "olculemedi",
+    false
+   ],
+   "Brazil|Guyana": [
+    "olculemedi",
+    false
+   ],
+   "Brazil|Paraguay": [
+    "olculemedi",
+    false
+   ],
+   "Brazil|Peru": [
+    "olculemedi",
+    false
+   ],
+   "Brazil|Suriname": [
+    "olculemedi",
+    false
+   ],
+   "Brazil|Uruguay": [
+    "olculemedi",
+    false
+   ],
+   "Brazil|Venezuela": [
+    "olculemedi",
+    false
+   ],
+   "Brunei|Malaysia": [
+    "olculemedi",
+    false
+   ],
+   "Cambodia|Laos": [
+    "bulunamadi",
+    true
+   ],
+   "Cambodia|Thailand": [
+    "olculemedi",
+    false
+   ],
+   "Cambodia|Vietnam": [
+    "bulunamadi",
+    true
+   ],
+   "Canada|United States of America": [
+    "olculemedi",
+    false
+   ],
+   "Chile|Peru": [
+    "olculemedi",
+    false
+   ],
+   "Chile|Southern Patagonian Ice Field": [
+    "olculemedi",
+    false
+   ],
+   "China|Hong Kong S.A.R.": [
+    "olculemedi",
+    false
+   ],
+   "China|India": [
+    "olculemedi",
+    false
+   ],
+   "China|Kazakhstan": [
+    "olculemedi",
+    false
+   ],
+   "China|Kyrgyzstan": [
+    "olculemedi",
+    false
+   ],
+   "China|Laos": [
+    "olculemedi",
+    false
+   ],
+   "China|Mongolia": [
+    "olculemedi",
+    false
+   ],
+   "China|Myanmar": [
+    "olculemedi",
+    false
+   ],
+   "China|Nepal": [
+    "olculemedi",
+    false
+   ],
+   "China|North Korea": [
+    "olculemedi",
+    false
+   ],
+   "China|Pakistan": [
+    "olculemedi",
+    false
+   ],
+   "China|Russia": [
+    "olculemedi",
+    false
+   ],
+   "China|Siachen Glacier": [
+    "olculemedi",
+    false
+   ],
+   "China|Tajikistan": [
+    "olculemedi",
+    false
+   ],
+   "China|Vietnam": [
+    "olculemedi",
+    false
+   ],
+   "Colombia|Ecuador": [
+    "olculemedi",
+    false
+   ],
+   "Colombia|Panama": [
+    "olculemedi",
+    false
+   ],
+   "Colombia|Peru": [
+    "olculemedi",
+    false
+   ],
+   "Colombia|Venezuela": [
+    "olculemedi",
+    false
+   ],
+   "Costa Rica|Nicaragua": [
+    "olculemedi",
+    false
+   ],
+   "Costa Rica|Panama": [
+    "olculemedi",
+    false
+   ],
+   "Cuba|US Naval Base Guantanamo Bay": [
+    "olculemedi",
+    false
+   ],
+   "Dominican Republic|Haiti": [
+    "olculemedi",
+    false
+   ],
+   "East Timor|Indonesia": [
+    "olculemedi",
+    false
+   ],
+   "Ecuador|Peru": [
+    "olculemedi",
+    false
+   ],
+   "El Salvador|Guatemala": [
+    "olculemedi",
+    false
+   ],
+   "El Salvador|Honduras": [
+    "olculemedi",
+    false
+   ],
+   "Guatemala|Honduras": [
+    "olculemedi",
+    false
+   ],
+   "Guatemala|Mexico": [
+    "olculemedi",
+    false
+   ],
+   "Guyana|Suriname": [
+    "olculemedi",
+    false
+   ],
+   "Guyana|Venezuela": [
+    "olculemedi",
+    false
+   ],
+   "Honduras|Nicaragua": [
+    "olculemedi",
+    false
+   ],
+   "India|Myanmar": [
+    "bulunamadi",
+    true
+   ],
+   "India|Nepal": [
+    "olculemedi",
+    false
+   ],
+   "India|Pakistan": [
+    "bulunamadi",
+    true
+   ],
+   "India|Siachen Glacier": [
+    "olculemedi",
+    false
+   ],
+   "Indonesia|Malaysia": [
+    "olculemedi",
+    false
+   ],
+   "Indonesia|Papua New Guinea": [
+    "olculemedi",
+    false
+   ],
+   "Iran|Pakistan": [
+    "olculemedi",
+    false
+   ],
+   "Iran|Turkmenistan": [
+    "olculemedi",
+    false
+   ],
+   "Kazakhstan|Kyrgyzstan": [
+    "bulunamadi",
+    true
+   ],
+   "Kazakhstan|Russia": [
+    "bulunamadi",
+    true
+   ],
+   "Kazakhstan|Turkmenistan": [
+    "olculemedi",
+    false
+   ],
+   "Kazakhstan|Uzbekistan": [
+    "bulunamadi",
+    true
+   ],
+   "Kyrgyzstan|Tajikistan": [
+    "bulunamadi",
+    true
+   ],
+   "Kyrgyzstan|Uzbekistan": [
+    "bulunamadi",
+    true
+   ],
+   "Laos|Myanmar": [
+    "olculemedi",
+    false
+   ],
+   "Laos|Thailand": [
+    "olculemedi",
+    false
+   ],
+   "Laos|Vietnam": [
+    "bulunamadi",
+    true
+   ],
+   "Malaysia|Thailand": [
+    "olculemedi",
+    false
+   ],
+   "Mexico|United States of America": [
+    "olculemedi",
+    false
+   ],
+   "Mongolia|Russia": [
+    "olculemedi",
+    false
+   ],
+   "Myanmar|Thailand": [
+    "olculemedi",
+    false
+   ],
+   "North Korea|Russia": [
+    "olculemedi",
+    false
+   ],
+   "North Korea|South Korea": [
+    "bulunamadi",
+    true
+   ],
+   "Pakistan|Siachen Glacier": [
+    "olculemedi",
+    false
+   ],
+   "Saint Martin|Sint Maarten": [
+    "olculemedi",
+    false
+   ],
+   "Tajikistan|Uzbekistan": [
+    "bulunamadi",
+    true
+   ],
+   "Turkmenistan|Uzbekistan": [
+    "bulunamadi",
+    true
+   ]
+  },
+  "BALKAN": {
+   "Albania|Greece": [
+    "olculemedi",
+    false
+   ],
+   "Albania|Kosovo": [
+    "olculemedi",
+    false
+   ],
+   "Albania|Montenegro": [
+    "olculemedi",
+    false
+   ],
+   "Albania|North Macedonia": [
+    "olculemedi",
+    false
+   ],
+   "Austria|Czechia": [
+    "hukuki",
+    false
+   ],
+   "Austria|Germany": [
+    "hukuki",
+    false
+   ],
+   "Austria|Hungary": [
+    "hukuki",
+    false
+   ],
+   "Austria|Italy": [
+    "hukuki",
+    false
+   ],
+   "Austria|Slovakia": [
+    "hukuki",
+    false
+   ],
+   "Austria|Slovenia": [
+    "hukuki",
+    false
+   ],
+   "Austria|Switzerland": [
+    "hukuki",
+    false
+   ],
+   "Belarus|Latvia": [
+    "olculemedi",
+    false
+   ],
+   "Belarus|Lithuania": [
+    "olculemedi",
+    false
+   ],
+   "Belarus|Poland": [
+    "bulunamadi",
+    false
+   ],
+   "Belarus|Russia": [
+    "olculemedi",
+    false
+   ],
+   "Belarus|Ukraine": [
+    "bulunamadi",
+    true
+   ],
+   "Bosnia and Herzegovina|Croatia": [
+    "bulunamadi",
+    true
+   ],
+   "Bosnia and Herzegovina|Montenegro": [
+    "bulunamadi",
+    true
+   ],
+   "Bosnia and Herzegovina|Republic of Serbia": [
+    "bulunamadi",
+    true
+   ],
+   "Bulgaria|Greece": [
+    "hukuki",
+    false
+   ],
+   "Bulgaria|North Macedonia": [
+    "hukuki",
+    false
+   ],
+   "Bulgaria|Republic of Serbia": [
+    "hukuki",
+    false
+   ],
+   "Bulgaria|Romania": [
+    "bulunamadi",
+    false
+   ],
+   "Bulgaria|Turkey": [
+    "olculemedi",
+    false
+   ],
+   "Croatia|Hungary": [
+    "hukuki",
+    false
+   ],
+   "Croatia|Montenegro": [
+    "bulunamadi",
+    true
+   ],
+   "Croatia|Republic of Serbia": [
+    "bulunamadi",
+    true
+   ],
+   "Croatia|Slovenia": [
+    "bulunamadi",
+    true
+   ],
+   "Czechia|Germany": [
+    "olculemedi",
+    false
+   ],
+   "Czechia|Poland": [
+    "olculemedi",
+    false
+   ],
+   "Czechia|Slovakia": [
+    "bulunamadi",
+    true
+   ],
+   "Estonia|Latvia": [
+    "hukuki",
+    false
+   ],
+   "Estonia|Russia": [
+    "olculemedi",
+    false
+   ],
+   "Germany|Poland": [
+    "bulunamadi",
+    false
+   ],
+   "Greece|North Macedonia": [
+    "hukuki",
+    false
+   ],
+   "Greece|Turkey": [
+    "olculemedi",
+    false
+   ],
+   "Hungary|Republic of Serbia": [
+    "hukuki",
+    false
+   ],
+   "Hungary|Romania": [
+    "hukuki",
+    false
+   ],
+   "Hungary|Slovakia": [
+    "olculemedi",
+    false
+   ],
+   "Hungary|Slovenia": [
+    "hukuki",
+    false
+   ],
+   "Hungary|Ukraine": [
+    "hukuki",
+    false
+   ],
+   "Italy|Slovenia": [
+    "olculemedi",
+    false
+   ],
+   "Kosovo|Montenegro": [
+    "bulunamadi",
+    true
+   ],
+   "Kosovo|North Macedonia": [
+    "bulunamadi",
+    true
+   ],
+   "Kosovo|Republic of Serbia": [
+    "bulunamadi",
+    true
+   ],
+   "Latvia|Lithuania": [
+    "olculemedi",
+    false
+   ],
+   "Latvia|Russia": [
+    "olculemedi",
+    false
+   ],
+   "Lithuania|Poland": [
+    "bulunamadi",
+    false
+   ],
+   "Lithuania|Russia": [
+    "bulunamadi",
+    false
+   ],
+   "Moldova|Romania": [
+    "bulunamadi",
+    true
+   ],
+   "Moldova|Ukraine": [
+    "bulunamadi",
+    false
+   ],
+   "Montenegro|Republic of Serbia": [
+    "bulunamadi",
+    true
+   ],
+   "North Macedonia|Republic of Serbia": [
+    "bulunamadi",
+    true
+   ],
+   "Poland|Russia": [
+    "bulunamadi",
+    false
+   ],
+   "Poland|Slovakia": [
+    "olculemedi",
+    false
+   ],
+   "Poland|Ukraine": [
+    "bulunamadi",
+    false
+   ],
+   "Republic of Serbia|Romania": [
+    "olculemedi",
+    false
+   ],
+   "Romania|Ukraine": [
+    "bulunamadi",
+    false
+   ],
+   "Russia|Ukraine": [
+    "olculemedi",
+    false
+   ],
+   "Slovakia|Ukraine": [
+    "bulunamadi",
+    true
+   ]
+  },
+  "GAFRIKA": {
+   "Angola|Congo": [
+    "olculemedi",
+    false
+   ],
+   "Angola|Dem. Rep. Congo": [
+    "olculemedi",
+    false
+   ],
+   "Angola|Namibia": [
+    "olculemedi",
+    false
+   ],
+   "Angola|Zambia": [
+    "olculemedi",
+    false
+   ],
+   "Benin|Burkina Faso": [
+    "bulunamadi",
+    false
+   ],
+   "Benin|Niger": [
+    "bulunamadi",
+    false
+   ],
+   "Benin|Nigeria": [
+    "olculemedi",
+    false
+   ],
+   "Benin|Togo": [
+    "bulunamadi",
+    false
+   ],
+   "Botswana|Namibia": [
+    "olculemedi",
+    false
+   ],
+   "Botswana|South Africa": [
+    "olculemedi",
+    false
+   ],
+   "Botswana|Zimbabwe": [
+    "bulunamadi",
+    true
+   ],
+   "Burkina Faso|Côte d'Ivoire": [
+    "bulunamadi",
+    true
+   ],
+   "Burkina Faso|Ghana": [
+    "olculemedi",
+    false
+   ],
+   "Burkina Faso|Mali": [
+    "bulunamadi",
+    true
+   ],
+   "Burkina Faso|Niger": [
+    "bulunamadi",
+    true
+   ],
+   "Burkina Faso|Togo": [
+    "bulunamadi",
+    true
+   ],
+   "Burundi|Dem. Rep. Congo": [
+    "bulunamadi",
+    true
+   ],
+   "Burundi|Rwanda": [
+    "bulunamadi",
+    true
+   ],
+   "Burundi|Tanzania": [
+    "olculemedi",
+    false
+   ],
+   "Cameroon|Central African Rep.": [
+    "bulunamadi",
+    false
+   ],
+   "Cameroon|Chad": [
+    "bulunamadi",
+    false
+   ],
+   "Cameroon|Congo": [
+    "bulunamadi",
+    false
+   ],
+   "Cameroon|Eq. Guinea": [
+    "olculemedi",
+    false
+   ],
+   "Cameroon|Gabon": [
+    "bulunamadi",
+    false
+   ],
+   "Cameroon|Nigeria": [
+    "olculemedi",
+    false
+   ],
+   "Central African Rep.|Chad": [
+    "bulunamadi",
+    true
+   ],
+   "Central African Rep.|Congo": [
+    "bulunamadi",
+    true
+   ],
+   "Central African Rep.|Dem. Rep. Congo": [
+    "olculemedi",
+    false
+   ],
+   "Central African Rep.|S. Sudan": [
+    "olculemedi",
+    false
+   ],
+   "Chad|Niger": [
+    "bulunamadi",
+    true
+   ],
+   "Chad|Nigeria": [
+    "olculemedi",
+    false
+   ],
+   "Congo|Dem. Rep. Congo": [
+    "olculemedi",
+    false
+   ],
+   "Congo|Gabon": [
+    "bulunamadi",
+    true
+   ],
+   "Côte d'Ivoire|Ghana": [
+    "olculemedi",
+    false
+   ],
+   "Côte d'Ivoire|Guinea": [
+    "bulunamadi",
+    true
+   ],
+   "Côte d'Ivoire|Liberia": [
+    "olculemedi",
+    false
+   ],
+   "Côte d'Ivoire|Mali": [
+    "bulunamadi",
+    true
+   ],
+   "Dem. Rep. Congo|Rwanda": [
+    "bulunamadi",
+    true
+   ],
+   "Dem. Rep. Congo|S. Sudan": [
+    "olculemedi",
+    false
+   ],
+   "Dem. Rep. Congo|Tanzania": [
+    "olculemedi",
+    false
+   ],
+   "Dem. Rep. Congo|Uganda": [
+    "olculemedi",
+    false
+   ],
+   "Dem. Rep. Congo|Zambia": [
+    "olculemedi",
+    false
+   ],
+   "Djibouti|Eritrea": [
+    "olculemedi",
+    false
+   ],
+   "Djibouti|Ethiopia": [
+    "olculemedi",
+    false
+   ],
+   "Djibouti|Somaliland": [
+    "olculemedi",
+    false
+   ],
+   "Eq. Guinea|Gabon": [
+    "olculemedi",
+    false
+   ],
+   "Eritrea|Ethiopia": [
+    "olculemedi",
+    false
+   ],
+   "Ethiopia|Kenya": [
+    "olculemedi",
+    false
+   ],
+   "Ethiopia|S. Sudan": [
+    "olculemedi",
+    false
+   ],
+   "Ethiopia|Somalia": [
+    "olculemedi",
+    false
+   ],
+   "Ethiopia|Somaliland": [
+    "olculemedi",
+    false
+   ],
+   "Gambia|Senegal": [
+    "olculemedi",
+    false
+   ],
+   "Ghana|Togo": [
+    "olculemedi",
+    false
+   ],
+   "Guinea-Bissau|Senegal": [
+    "olculemedi",
+    false
+   ],
+   "Guinea|Guinea-Bissau": [
+    "olculemedi",
+    false
+   ],
+   "Guinea|Liberia": [
+    "olculemedi",
+    false
+   ],
+   "Guinea|Mali": [
+    "bulunamadi",
+    true
+   ],
+   "Guinea|Senegal": [
+    "bulunamadi",
+    true
+   ],
+   "Guinea|Sierra Leone": [
+    "olculemedi",
+    false
+   ],
+   "Kenya|S. Sudan": [
+    "olculemedi",
+    false
+   ],
+   "Kenya|Somalia": [
+    "olculemedi",
+    false
+   ],
+   "Kenya|Tanzania": [
+    "bulunamadi",
+    true
+   ],
+   "Kenya|Uganda": [
+    "bulunamadi",
+    true
+   ],
+   "Lesotho|South Africa": [
+    "olculemedi",
+    false
+   ],
+   "Liberia|Sierra Leone": [
+    "olculemedi",
+    false
+   ],
+   "Malawi|Mozambique": [
+    "olculemedi",
+    false
+   ],
+   "Malawi|Tanzania": [
+    "bulunamadi",
+    true
+   ],
+   "Malawi|Zambia": [
+    "bulunamadi",
+    true
+   ],
+   "Mali|Mauritania": [
+    "bulunamadi",
+    true
+   ],
+   "Mali|Niger": [
+    "bulunamadi",
+    true
+   ],
+   "Mali|Senegal": [
+    "bulunamadi",
+    true
+   ],
+   "Mauritania|Senegal": [
+    "bulunamadi",
+    true
+   ],
+   "Mozambique|South Africa": [
+    "olculemedi",
+    false
+   ],
+   "Mozambique|Tanzania": [
+    "olculemedi",
+    false
+   ],
+   "Mozambique|Zambia": [
+    "olculemedi",
+    false
+   ],
+   "Mozambique|Zimbabwe": [
+    "olculemedi",
+    false
+   ],
+   "Mozambique|eSwatini": [
+    "olculemedi",
+    false
+   ],
+   "Namibia|South Africa": [
+    "bulunamadi",
+    true
+   ],
+   "Namibia|Zambia": [
+    "olculemedi",
+    false
+   ],
+   "Niger|Nigeria": [
+    "olculemedi",
+    false
+   ],
+   "Rwanda|Tanzania": [
+    "olculemedi",
+    false
+   ],
+   "Rwanda|Uganda": [
+    "olculemedi",
+    false
+   ],
+   "S. Sudan|Uganda": [
+    "olculemedi",
+    false
+   ],
+   "Somalia|Somaliland": [
+    "olculemedi",
+    false
+   ],
+   "South Africa|Zimbabwe": [
+    "olculemedi",
+    false
+   ],
+   "South Africa|eSwatini": [
+    "olculemedi",
+    false
+   ],
+   "Tanzania|Uganda": [
+    "bulunamadi",
+    true
+   ],
+   "Tanzania|Zambia": [
+    "bulunamadi",
+    true
+   ],
+   "Zambia|Zimbabwe": [
+    "bulunamadi",
+    true
+   ]
+  },
+  "KAFRIKA": {
+   "Algeria|Libya": [
+    "bulunamadi",
+    false
+   ],
+   "Algeria|Mali": [
+    "ayni-kimlik",
+    true
+   ],
+   "Algeria|Mauritania": [
+    "ayni-kimlik",
+    true
+   ],
+   "Algeria|Morocco": [
+    "bulunamadi",
+    false
+   ],
+   "Algeria|Niger": [
+    "ayni-kimlik",
+    true
+   ],
+   "Algeria|Tunisia": [
+    "olculemedi",
+    false
+   ],
+   "Algeria|Western Sahara": [
+    "hukuki",
+    false
+   ],
+   "Bir Tawil|Egypt": [
+    "hukuki",
+    true
+   ],
+   "Bir Tawil|Sudan": [
+    "hukuki",
+    true
+   ],
+   "Central African Republic|Sudan": [
+    "bulunamadi",
+    false
+   ],
+   "Chad|Libya": [
+    "hukuki",
+    false
+   ],
+   "Chad|Sudan": [
+    "bulunamadi",
+    false
+   ],
+   "Egypt|Israel": [
+    "hukuki",
+    false
+   ],
+   "Egypt|Libya": [
+    "bulunamadi",
+    false
+   ],
+   "Egypt|Palestine": [
+    "hukuki",
+    false
+   ],
+   "Egypt|Sudan": [
+    "hukuki",
+    false
+   ],
+   "Eritrea|Sudan": [
+    "olculemedi",
+    false
+   ],
+   "Ethiopia|Sudan": [
+    "hukuki",
+    false
+   ],
+   "Libya|Niger": [
+    "hukuki",
+    false
+   ],
+   "Libya|Sudan": [
+    "bulunamadi",
+    false
+   ],
+   "Libya|Tunisia": [
+    "hukuki",
+    false
+   ],
+   "Mauritania|Western Sahara": [
+    "hukuki",
+    false
+   ],
+   "Morocco|Spain": [
+    "olculemedi",
+    false
+   ],
+   "Morocco|Western Sahara": [
+    "hukuki",
+    true
+   ],
+   "South Sudan|Sudan": [
+    "bulunamadi",
+    true
+   ]
+  }
+ }
+}

@@ -18,9 +18,14 @@ C13 (CLAUDE.md §11) — bir denetim SU DORT YOL kosulmadan "calisiyor" sayilmaz
    TEK ISTISNA asagida ADIYLA isaretlidir: `ad_carpismasi` dali gercek
    veriyle ateslenemez (ad bolge adindan turetiliyor), o dal enjekte edilir.
 
+⑤ ESLEME — ikinci aletin (ARAC-BIRLESTIR-ESLEME-0907.py) sinavi. O da bir
+   DENETIMdir (kollarin cevrimi dogru uygulayip uygulamadigini soyler), ve
+   C13 "yeni bir denetim iki yonde de sinanmadan calisiyor sayilmaz" onu da
+   baglar. Ayni dort yol orada da kosuluyor, tek bolumde toplandi.
+
 KULLANIM
     py denetim/SINAV-BIRLESTIR-0907.py
-CIKIS   0 = dort ayak da gecti · 1 = en az bir dal DUSTU
+CIKIS   0 = butun dallar gecti · 1 = en az bir dal DUSTU
 """
 import json
 import os
@@ -389,6 +394,85 @@ def ayak_cikti(tmp):
            "%d dosyada sayi != beklenen" % len(yanlis))
 
 
+# ─────────────────────────────────────────────────────────────────────────────
+# ⑤ ESLEME/DOGRULAMA — ikinci alet (ARAC-BIRLESTIR-ESLEME-0907.py)
+# ─────────────────────────────────────────────────────────────────────────────
+
+ESLEME = os.path.join(KOK, "denetim", "ARAC-BIRLESTIR-ESLEME-0907.py")
+
+
+def esleme_kos(dizin, taban_yol, ek=None):
+    cmd = [sys.executable, ESLEME, "--dizin", dizin, "--taban-yol", taban_yol] + (ek or [])
+    p = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8", cwd=KOK)
+    return p.returncode, p.stdout + p.stderr
+
+
+def ayak_esleme(tmp):
+    print("")
+    print("⑤ ESLEME/DOGRULAMA — cevrimi kollar DOGRU mu uyguladi")
+
+    def kur(ad, hal="bulunamadi", oneri="ic-idari"):
+        d = os.path.join(tmp, "es_" + _guvenli(ad)); os.makedirs(d, exist_ok=True)
+        k = dict(temiz_kayit("Greece", "Turkey", hal=hal), hal_oneri=oneri)
+        k2 = dict(temiz_kayit("Bulgaria", "Turkey", hal="hukuki"),
+                  ne_a="Bulgaria", ne_b="Turkey")
+        kol_yaz(d, "ANADOLU", [k, k2])
+        return d, k
+
+    def cevir(d, yeni_hal):
+        yol = os.path.join(d, "SINIR-HUKUKI-ANADOLU-0907.json")
+        j = json.load(open(yol, encoding="utf-8"))
+        j["kenarlar"][0]["hal"] = yeni_hal
+        json.dump(j, open(yol, "w", encoding="utf-8"), ensure_ascii=False)
+
+    # GECME — taban alinir, hicbir sey degismez
+    d, _ = kur("gecme")
+    ty = os.path.join(tmp, "taban_gecme.json")
+    esleme_kos(d, ty, ["--taban"])
+    kod, cikti = esleme_kos(d, ty, ["--dogrula"])
+    bildir("ESLEME", "degisiklik yokken TEMIZ", kod == 0 and "FAZLA CEVRIM YOK" in cikti,
+           "cikis=%d" % kod)
+
+    # ATESLEME — DOGRU cevrim sayiliyor mu
+    d, _ = kur("dogru")
+    ty = os.path.join(tmp, "taban_dogru.json")
+    esleme_kos(d, ty, ["--taban"])
+    cevir(d, "ayni-kimlik")
+    kod, cikti = esleme_kos(d, ty, ["--dogrula"])
+    bildir("ESLEME", "DOGRU cevrim sayildi",
+           kod == 0 and "ANADOLU   1" in cikti.replace("  ", "  "),
+           "cikis=%d" % kod)
+
+    # ATESLEME — 🔴 `hukuki` cevrilirse FAZLA CEVRIM otmeli
+    d, _ = kur("fazla", hal="hukuki")
+    ty = os.path.join(tmp, "taban_fazla.json")
+    esleme_kos(d, ty, ["--taban"])
+    cevir(d, "ayni-kimlik")
+    kod, cikti = esleme_kos(d, ty, ["--dogrula"])
+    bildir("ESLEME", "🔴 'hukuki' cevrilirse OTUYOR",
+           kod == 1 and "FAZLA CEVRIM" in cikti and "ONCE=hukuki" in cikti,
+           "cikis=%d" % kod)
+
+    # ATESLEME — 🔴 olcut ESLEMEYEN kayit damgalanmissa otmeli
+    d, _ = kur("olcutsuz", oneri=None)
+    ty = os.path.join(tmp, "taban_olcutsuz.json")
+    esleme_kos(d, ty, ["--taban"])
+    cevir(d, "ayni-kimlik")
+    kod, cikti = esleme_kos(d, ty, ["--dogrula"])
+    bildir("ESLEME", "🔴 olcut ESLEMEYEN damgalanmissa OTUYOR",
+           kod == 1 and "FAZLA CEVRIM" in cikti, "cikis=%d" % kod)
+
+    # ATESLEME — 🔴 ANAHTAR CAKISMASI (kendi aletimde cikmisti)
+    d = os.path.join(tmp, "es_cakisma"); os.makedirs(d, exist_ok=True)
+    k = temiz_kayit(None, None)          # a/b BOS, ne_a/ne_b de yok
+    k.pop("ne_a"); k.pop("ne_b")
+    kol_yaz(d, "ANADOLU", [dict(k), dict(k)])
+    ty = os.path.join(tmp, "taban_cakisma.json")
+    kod, cikti = esleme_kos(d, ty, ["--taban"])
+    bildir("ESLEME", "🔴 ANAHTAR CAKISMASI bildiriliyor",
+           "ANAHTAR CAKISMASI" in cikti, "2 kayit -> 1 anahtar")
+
+
 def main():
     print("=" * 78)
     print("SINAV-BIRLESTIR-0907 — ARAC-BIRLESTIR-SINIR-0907.py · C13 DORT AYAK")
@@ -405,6 +489,7 @@ def main():
         ayak_atesleme(tmp)
         ayak_girdi(tmp)
         ayak_cikti(tmp)
+        ayak_esleme(tmp)
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
     print("")
@@ -416,7 +501,7 @@ def main():
         a[1] += 1
         if gecti:
             a[0] += 1
-    for ayak in ("GECME", "ATESLEME", "GIRDI", "CIKTI"):
+    for ayak in ("GECME", "ATESLEME", "GIRDI", "CIKTI", "ESLEME"):
         g, t = ayaklar.get(ayak, (0, 0))
         print("   %s %-9s %d/%d dal" % ("🟢" if g == t and t else "🔴", ayak, g, t))
     print("   TOPLAM: %d/%d dal gecti" % (len(SONUC) - len(dusen), len(SONUC)))
