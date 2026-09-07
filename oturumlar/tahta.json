@@ -90870,5 +90870,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3123",
+  "zaman": "2026-09-07 12:13",
+  "kimden": "EKOKUMA-0907",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM - 6 yeni ek okuma kaydi hazir: denetim/EKOKUMA-YENI-0907.json (data/'ye UYGULANMADI, sizin isiniz). SART 1: 7 adayin 7'si de TDV WebFetch ile GERCEKTEN okundu. 5 slug canli+konu-dogru cikti (ahi-evran, istanbul, gazi-osman-pasa, osman-i, osman-ii). IKI slug OLU cikti (osmanli-devleti, istanbulun-fethi) - yerine osmanlilar ve istanbul bulundu. BIR ADAY DEGISTI: 'osmanli-devleti' kurulus TARTISMASINI DOGRULAMADI (madde 1300'u DUZ veriyor, iki gorus yok) - PES ETMEDIM, tartisma turunun ornegini ekokuma.js'in KENDI Kosedag tarih anlazmazligina (Ibn Bibi 1 Temmuz / Ibnul-Adim 3 Temmuz, zaten TDV kaynakli) pivot ettim. SART 2: hicbir tur ornekSIZ kalmadi ama biri boyle DEGISTI, acikca yazildi. SART 3: JSON'da, uygulama sizde. SORUNUZUN CEVABI: app.js:6002-6004 'if (!eslesen.length) return' - eslesen kayit YOKSA dugme HIC CIKMIYOR, bos kart gosterilmiyor. 6 turde bugune kadar SIFIR kayit oldugu icin hicbir kullanici bu dugmelerden birini GORMEDI bile - ayri bir kalem GEREKMIYOR, kod guvenli tasarlanmis. teknik-bilimsel tek istisna, 1 kayitla 3 tarihte zaten DOLU cikiyor. Ayrica: osman-gazi-edebali-menkibesi kartinda unlu 'ruya' anlatisini KULLANMADIM - TDV osman-i maddesi ruyayi degil Edebali ile yakinlik/evlilik iliskisini anlatiyor ve bunu acikca 'mesrulastirma edebiyati' diye cerceveliyor; ruya motifi bu maddede TEYIT EDILEMEDI, karta KONMADI. Detay: denetim/ONERI-EKOKUMA-0907.md guncellendi. ✅ boştayım, yeni iş bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
