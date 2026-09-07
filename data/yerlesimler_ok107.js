@@ -119,7 +119,7 @@ window.YERLESIMLER_OK107 = [
   //   kalesinin teslimi) tutuldu ve sınırı BURAYA yazıldı.
 },
 
-{ ad:"Midyat",s:[{f:"1281-01-01",t:"1409-01-01",d:"artuklu"},{f:"1409-01-01",t:"1467-11-10",d:"karakoyunlu"},{f:"1467-11-10",t:"1507-01-01",d:"akkoyunlu"},{f:"1507-01-01",t:"1517-05-01",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],d:[{f:"1517-05-01",t:"1920-04-23"}], tur:"kasaba", lat:37.418, lon:41.372, k:4, m:"Mardin",
+{ ad:"Midyat", tur:"kasaba", lat:37.418, lon:41.372, k:4, m:"Mardin",
   // 🔴 TDV `midyat` ve `midyat--sehir` sluglarının İKİSİ DE 302 = ÖLÜ.
   // Aradım, yok. Tur Abdin'in merkezi ve Osmanlı'da Mardin sancağının
   // nahiye/kaza merkezi. Dönem günleri MARDİN'in kendi kaydından alındı
@@ -182,7 +182,7 @@ window.YERLESIMLER_OK107 = [
   kaynak:"bulunamadı — TDV `bedir` maddesi Bedir Gazvesi'ni anlatıyor, yerleşimin Osmanlı dönemini KAPSAMIYOR (§4 tanecik boşluğu). Dönem günleri Yenbu kaydından (82 km) bölgesel hizalama ile alındı."
 },
 
-{ ad:"Râbiğ",v:[{f:"1813-01-23",t:"1841-05-24",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}], tur:"liman", lat:22.799, lon:39.035, k:4, m:null,
+{ ad:"Râbiğ", tur:"liman", lat:22.799, lon:39.035, k:4, m:null,
   // 🔴 `rabig` ve `rabig--sehir` slugları 302 = ÖLÜ. Aradım, yok.
   // Mekke-Medine sahil yolunun mîkat durağı ve limanı.
   // günler CİDDE'den (140,5 km, aynı sahil kolu) alındı.

@@ -548,14 +548,22 @@ def js_metin(s):
 #   ⚠️ Kusur yıllardır oradaydı ve ateşlemedi: ancak `v:[…]` içeren bir
 #     metin, `v:` alanı da olan bir kayda inince patlar.
 def _dizge_maskesi(s):
-    """Her karakter için 1 = JS dizgesinin İÇİNDE (kaçış hesaba katılır)."""
+    """Her karakter için 1 = JS dizgesinin ya da YORUMUN İÇİNDE.
+
+    Yorumlar da maskelenir: bir kaydın üstündeki `// d: 1352'de başlıyordu`
+    yorumu, `d:` alanı sanılmamalı.
+    """
     maske = bytearray(len(s))
     tirnak = None
     kacis = False
-    for i, c in enumerate(s):
+    i = 0
+    n = len(s)
+    while i < n:
+        c = s[i]
         if kacis:
             kacis = False
             maske[i] = 1
+            i += 1
             continue
         if tirnak:
             maske[i] = 1
@@ -563,10 +571,66 @@ def _dizge_maskesi(s):
                 kacis = True
             elif c == tirnak:
                 tirnak = None
-        elif c in "\"'":
+            i += 1
+            continue
+        if c in "\"'":
             tirnak = c
             maske[i] = 1
+            i += 1
+            continue
+        if c == "/" and i + 1 < n and s[i + 1] == "/":
+            while i < n and s[i] != "\n":
+                maske[i] = 1
+                i += 1
+            continue
+        if c == "/" and i + 1 < n and s[i + 1] == "*":
+            maske[i] = maske[i + 1] = 1
+            i += 2
+            while i < n and not (s[i] == "*" and i + 1 < n and s[i + 1] == "/"):
+                maske[i] = 1
+                i += 1
+            while i < n and i < len(s) and s[i] in "*/":
+                maske[i] = 1
+                i += 1
+            continue
+        i += 1
     return maske
+
+
+def mukerrer_alanlar(kayit, alanlar):
+    """Kaydın ÜST SEVİYESİNDE iki kez yazılmış alanlar.
+
+    🔴 NİÇİN ENGEL: JS aynı anahtarın SONUNCUSUNU okur; bu betik ise
+    `ara_disi` ile İLKİNE yazar ⇒ yama SESSİZCE ÖLÜR. Ölçülmüş vaka
+    (`Mersin`, `yerlesimler_ek27.js`) ve kaydın KENDİ notu bunu yazıyor:
+        «MÜKERRER `s:`/`d:` yüzünden JS'te sonuncusu kazanıyor ve
+         düzeltme motora hiç girmiyordu»
+    ⇒ Sessiz başarısızlık, GÖRÜNÜR başarısızlığa çevrilir.
+    📌 `§11`: *"sessiz atlama, yanlış sonuçtan pahalıdır — yanlış sonuç
+      bir sayı gösterir, sessiz atlama HİÇBİR ŞEY göstermez."*
+    """
+    maske = _dizge_maskesi(kayit)
+    bulunan = []
+    for alan in alanlar:
+        rx = re.compile(r"\b%s:" % alan)
+        say = 0
+        for m in rx.finditer(kayit):
+            if maske[m.start()]:
+                continue
+            d = 0
+            for p in range(m.start()):
+                if maske[p]:
+                    continue
+                ch = kayit[p]
+                if ch in "{[":
+                    d += 1
+                elif ch in "}]":
+                    d -= 1
+            if d == 1:
+                say += 1
+        if say > 1:
+            bulunan.append("%s x%d" % (alan, say))
+    return bulunan
 
 
 def ara_disi(rx, metin):
@@ -726,6 +790,19 @@ for ad, liste in sorted(gruplu.items()):
     # Kaydın TAMAMI — çok satırlıysa satırlar birleştirilip öyle yamanır,
     # sonra aynı aralığa geri yazılır (aşağıda, TERSTEN sırayla).
     satir = "\n".join(icerik[dosya][i:j + 1])
+
+    # 🔴 MÜKERRER ÜST-SEVİYE ANAHTAR ⇒ YAZMA. JS sonuncuyu okur, bu betik
+    #   ilkine yazar; sessizce ölür. Ölçüldü: 6 kayıt (7 Eylül 2026).
+    _muk = mukerrer_alanlar(satir, [a for a in CATISABILIR if a in r])
+    if _muk:
+        ist["mukerrer-anahtar"] += 1
+        atlanan.append((ad, "MÜKERRER ÜST-SEVİYE ANAHTAR (%s) — JS SONUNCUYU "
+                            "okur, bu betik İLKİNE yazar ⇒ yama SESSİZCE "
+                            "ÖLÜRDÜ. Kayıt önce tekilleştirilmeli "
+                            "(`denetim/ARAC-MUKERRER-TEKILLE-0907.js`)"
+                        % ", ".join(_muk)))
+        continue
+
     yeni_satir = satir
     dokunulan = []
     hata = None
