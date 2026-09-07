@@ -41,7 +41,12 @@ import sys
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DEVLETLER = os.path.join(KOK, "data", "devletler.js")
 KILIT = os.path.join(KOK, ".petek.kilit")
-VARSAYILAN = "denetim/YAMA-KUNYE-*0905*.json"
+# 🔴 TARİH YOK — ve bu KASITLI. Eskiden `*0905*` yazıyordu ve 13 yamanın
+# 11'ini SESSİZCE atlıyordu; kaçanlardan biri `YAMA-KUNYE-RUS-AMERIKA-0907`
+# yani o günün MERGE KUYRUĞUYDU. Çare tarihi güncellemek DEĞİLDİ — `0907`
+# yazmak ertesi gün aynı yere düşerdi. Desen artık ELLE YAZILAN bir tarih
+# TAŞIMIYOR. (`SINAV-KOSU8-0907`, 7 Eylül 2026 · KİLİT 2)
+VARSAYILAN = "denetim/YAMA-KUNYE-*.json"
 ZORUNLU = ("id", "ad", "f", "t", "bolge")
 # `ozet` ve `kaynak` zorunlu DEĞİL ama eksikse UYARILIR: §4'ün "kaynağı
 # yazılmayan bilgi, kaynağı olmayandan ayırt edilemez" kuralı bir REDDETME

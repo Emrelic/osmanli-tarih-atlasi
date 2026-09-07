@@ -46,7 +46,11 @@ import sys
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DEVLETLER = os.path.join(KOK, "data", "devletler.js")
 KILIT = os.path.join(KOK, ".petek.kilit")
-VARSAYILAN_YAMA = "denetim/KRONOLOJI-*0905*.json"
+# 🔴 TARİH YOK — ve bu KASITLI. Eskiden `*0905*` yazıyordu ve bekleyen 22
+# yamanın 11'ini, yani TAM YARISINI, sessizce atlıyordu. Çare tarihi
+# güncellemek DEĞİLDİ — `0907` yazmak ertesi gün aynı yere düşerdi.
+# (`SINAV-KOSU8-0907`, 7 Eylül 2026 · KİLİT 1)
+VARSAYILAN_YAMA = "denetim/KRONOLOJI-*.json"
 ZORUNLU = ("t", "tur", "b")
 
 
