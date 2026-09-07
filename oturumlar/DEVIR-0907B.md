@@ -42,24 +42,54 @@ motor        `vl` tâbi etiket çapası yazıldı (sıra kusuru ①'de)
 🔴 **14+ commit PUSH EDİLMEDİ** ve yayın kapısı BAYAT diyor — bu doğru
 davranış, koşu bitmeden push edilmemeli.
 
-## ③ SAHADA YEDİ İŞÇİ — hazır kıta 0
+## ③ SAHADA DOKUZ İŞÇİ — hazır kıta 0
 ```
 CAKISMA-0907        local_5f1ea168  23 çakışma · küme 1 (5 Mısır) TESLİM
 KIMLIK-KID-0907     local_9927df76  kid 291→341 · yama denetim/'de · TESLİM
-YUK-FETCH-0907      local_a7692d4b  fetch+JSON %51 ölçüldü · index.html AÇILDI
-KAYNAK-DENETIM-0907 local_a6f8263a  şartname var, alet yazılıyor
-ENKLAV-0907         local_c3fd502b  661 · C-hakiki 12 ayıklanıyor
+YUK-FETCH-0907      local_a7692d4b  fetch+JSON %51 · diff ONAYLANDI (aşağıda)
+KAYNAK-DENETIM-0907 local_a6f8263a  alet YAZILDI+KOŞTU · 20 demet/87 uç 🔴
+ENKLAV-0907         local_c3fd502b  661→652 · Değişmez 7 ✗→✓ · TESLİM
 GORSEL-0907         local_e9ebc14b  şema ONAYLANDI · pilot listesi bekleniyor
-EKOKUMA-0907        local_6967b6e7  11/7 doğrulandı · tanımlar ONAYLANDI
+EKOKUMA-0907        local_6967b6e7  tanımlar ONAY · 6 kayıt hazır (Opus'a çevrildi)
+KADEME-MODEL-0907   local_315b3835  🆕 kademe C veri modeli · BLOKE EDİCİ
+CIPA-1923-0907      HK-e6f214       🆕 1923 envanteri (kimlik: adın ilk 6 harfi)
 ```
-Şartnameleri `oturumlar/<AD>.md`. Tahta: M-3100…M-3120.
+Şartnameleri `oturumlar/<AD>.md`. Tahta: M-3100…M-3134.
+
+🔴 **AD ÇAKIŞMASI — `SARTNAME.md`de BOŞLUK, ölçüldü (CIPA-1923-0907):**
+Dört hazır kıta aynı iki dakikada açıldı ve **dördünün adı tahtada ayırt
+edilemez**; `--kim "OPUS HAZIR KITA"` yazan iki oturum koordinatör için
+TEK oturum görünür. `SARTNAME.md` `-GGAA` damgasını şart koşuyor ama
+**hazır kıtalar o kuralın dışında** — onları koordinatör değil Emre
+açıyor. Çare: kıta kendi kimliğinin ilk 6 harfini kullanır (`HK-e6f214`),
+koordinatör kalıcı adı verince ona geçer.
 
 ## ④ BEKLEYEN YAMALAR — `denetim/` altında, UYGULANMADI
 ```
 yer_yama_kid_kimlik_0907.js     44 yerleşim · 50 dönem (KIMLIK-KID)
 yer_yama_misir5_0907.js         5 Mısır noktası (CAKISMA)
 + HUKUM-CAKISMA-MISIR5-0907.md
+yer_yama_enklav_c_0907.js       8 kayıt · Değişmez 7 661→652 (ENKLAV)
+EKOKUMA-YENI-0907.json          6 ek okuma kaydı (EKOKUMA)
 ```
+
+## ④b `index.html` GEOMETRİ YÜKLEYİCİ — ONAYLANDI, SIRASI BAĞLAYICI
+`YUK-FETCH-0907` ölçtü: `<script>` 14,1 sn ↔ `fetch`+JSON 6,9 sn (**%51**),
+kontrol gruplu, iki koşu.
+🔴 Bir SESSİZ kusur yakalandı ve kapatıldı: yükleyici sürümü sabitliyordu
+(`V = "?v=r6711"`) ve `surum_damgala.py:25` yalnız `src="…"` **ve yalnız
+`.js`** yeniden yazıyor ⇒ `.json` istekleri damganın menzilinde HİÇ
+olmayacaktı. Yayın r6800 olur, yükleyici r6711 ister, tarayıcı
+önbellekten **bayat geometri** verir; hata YOK, konsol TEMİZ.
+🟢 Çare: sürüm damgalanmış bir etiketten TÜRETİLİYOR. Ateşleme sınavı
+koşuldu (`?v=r9999` zorlandı, istenen URL de `r9999` çıktı).
+```
+SIRA (değiştirilemez):
+   koşu 8 BİTER → `.json` üretilir (1.MURAT'ın işaretiyle)
+   → DİFF İNER → geri düşüş sınavı İKİ YÖNDE + damga sınavı → yayın
+```
+⚪ ÖLÇÜLMEDİ: `.json` GitHub Pages'te gzip'leniyor mu? Gzip yoksa telde
+94,9 MB ham gider ve indirme, ayrıştırma kazancını yiyebilir.
 
 ## ⑤ 🆕 ÜÇ KADEME — Emre'nin 7 Eylül kararı
 Tam hüküm: **`denetim/HUKUM-UC-KADEME-0907.md`**
