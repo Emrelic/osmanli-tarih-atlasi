@@ -118,18 +118,31 @@ function enYakinKenar(pt, parcalar) {
 // ── C13② ATEŞLEME — fikstürle, her dal AYRI AYRI ─────────────────────────
 // 🔴 Gerçek veride bu kusurlar YOK; zorlanmayan dal denetimsiz daldır.
 function ateslemeDallari() {
-  const kare = [[[[0, 0], [10, 0], [10, 10], [0, 10], [0, 0]]]];   // 1 parça
-  const delikli = [[[[0, 0], [10, 0], [10, 10], [0, 10], [0, 0]],
-                    [[4, 4], [6, 4], [6, 6], [4, 6], [4, 4]]]];
+  // 🔴 SEVİYE FARKI — bu fikstür bir kez YANLIŞ yazıldı ve ders kaydedildi:
+  //   PARÇA    = [dışHalka, delik…]        → `parcadaMi` bunu alır
+  //   PARÇALAR = [parça, parça…]           → `enYakinKenar` ve gerçek çağrı
+  //   İlk yazımda ikisi karıştırıldı; dört PIP dalının İKİSİ yine de GEÇTİ
+  //   (`false` beklenen dallar, yanlış seviyede de `false` döndüğü için).
+  //   `CLAUDE.md §11`: *"doğru sonucu güvenilmez yoldan veren alet kendini
+  //   ele vermez"* — burada ateşleme dalı onu ele verdi, ve teşhis
+  //   FONKSİYON değil FİKSTÜR çıktı (ölçüldü, `halkadaMi` doğruydu).
+  const kareP = [[[0, 0], [10, 0], [10, 10], [0, 10], [0, 0]]];    // bir PARÇA
+  const delikliP = [[[0, 0], [10, 0], [10, 10], [0, 10], [0, 0]],
+                    [[4, 4], [6, 4], [6, 6], [4, 6], [4, 4]]];     // bir PARÇA
+  const kareLer = [kareP];                                          // PARÇALAR
+  const iki = [kareP, [[[20, 0], [30, 0], [30, 10], [20, 10], [20, 0]]]];
   const t = [];
   const de = (ad, bekle, olc) => t.push([ad, bekle, olc, JSON.stringify(bekle) === JSON.stringify(olc)]);
 
-  de('PIP · içerideki nokta', true, parcadaMi([5, 1], kare));
-  de('PIP · dışarıdaki nokta', false, parcadaMi([15, 5], kare));
-  de('PIP · DELİĞİN içi DIŞARIDIR', false, parcadaMi([5, 5], delikli));
-  de('PIP · deliğin dışı ama parçanın içi', true, parcadaMi([1, 1], delikli));
-  de('mesafe · 2 derece dışarıda', '2.0000', enYakinKenar([12, 5], kare).toFixed(4));
-  de('mesafe · sınırın üstünde', '0.0000', enYakinKenar([10, 5], kare).toFixed(4));
+  de('PIP · içerideki nokta', true, parcadaMi([5, 1], kareP));
+  de('PIP · dışarıdaki nokta', false, parcadaMi([15, 5], kareP));
+  de('PIP · DELİĞİN içi DIŞARIDIR', false, parcadaMi([5, 5], delikliP));
+  de('PIP · deliğin dışı ama parçanın içi', true, parcadaMi([1, 1], delikliP));
+  // gerçek çağrı biçimi — K6 tam olarak bunu koşturuyor
+  de('SARIM · parcalar.some ile İKİNCİ parçanın içi', true, iki.some(p => parcadaMi([25, 5], p)));
+  de('SARIM · parcalar.some ile hiçbirinin içi değil', false, iki.some(p => parcadaMi([15, 5], p)));
+  de('mesafe · 2 derece dışarıda', '2.0000', enYakinKenar([12, 5], kareLer).toFixed(4));
+  de('mesafe · sınırın üstünde', '0.0000', enYakinKenar([10, 5], kareLer).toFixed(4));
 
   // şema dalları
   const S = (vl) => semaDenetle([{ f: '1500-01-01', t: '1501-01-01', ad: 'F', v: 1, vl }]);
@@ -197,9 +210,12 @@ if (!fs.existsSync(DONEMLER_YOLU)) {
   process.exit(2);
 }
 global.window = {};
+// 🔴 YALNIZ donemler.js okunuyor. İlk yazımda `devletler_harita.js` de
+//   yükleniyordu — 56 MB, ve bu sınav ondan HİÇBİR ŞEY kullanmıyor
+//   (`DEVLET_PARCALAR` hiçbir yerde geçmiyor). Gereksiz bir bağımlılık
+//   yalnız yavaşlatmaz: fikstürle koşmayı da imkânsız kılar.
 try {
   eval(fs.readFileSync(DONEMLER_YOLU, 'utf8'));
-  eval(fs.readFileSync(path.join(KOK, 'data', 'devletler_harita.js'), 'utf8'));
 } catch (e) {
   console.error('⚫ ÖLÇÜLEMEDİ — donemler.js okunamadı: ' + e.message);
   process.exit(2);
@@ -301,9 +317,23 @@ if (typeof parcaCoz !== 'function') {
 } else if (!vlDonem.length) {
   hkm('K6 · çapa tâbi gövdenin İÇİNDE', null, '`vl` yok — ölçülecek çapa yok');
 } else {
+  // 🔴 MALİYETİ ÖLÇÜLMEDİ — ve bunu bir borç olarak bırakmıyorum.
+  //   K6, 468 dönemin `v` gövdesini `parcaCoz` ile çözüp her çapa için
+  //   nokta-poligon sınaması yapar. Gerçek `vl` verisi koşu 8 bitmeden
+  //   olmadığı için bu yol BUGÜN HİÇ KOŞULAMADI (fikstürde 105 çapa /
+  //   2 parça, gerçek gövde binlerce halka taşıyor).
+  //   ⇒ Süre basılıyor ve `--ornek N` ile sınırlandırılabiliyor. Sınav
+  //     uzun sürerse koşturucuyu kilitlemesin; ama örneklem kullanıldığında
+  //     sonuç `ÖLÇÜLEMEDİ` kovasında raporlanır — ÖRNEKLEM TAM TARAMA
+  //     DEĞİLDİR ve "temiz" diye geçmez (`§11`: temiz çıkan bir örneklem,
+  //     örneklemin dışını temiz ilan etmez).
+  const iOrn = ARG.indexOf('--ornek');
+  const ORNEK = iOrn >= 0 ? parseInt(ARG[iOrn + 1], 10) : 0;
+  const kume = ORNEK > 0 ? vlDonem.slice(0, ORNEK) : vlDonem;
+  const t0 = Date.now();
   let ic = 0, payda = 0, disari = 0;
   const uzak = [];
-  for (const d of vlDonem) {
+  for (const d of kume) {
     let geo;
     try { geo = parcaCoz(d.v, PARCALAR, PARCA_HALKA); } catch (e) { geo = null; }
     if (!geo || !geo.coordinates || !geo.coordinates.length) continue;
@@ -316,9 +346,20 @@ if (typeof parcaCoz !== 'function') {
       else { disari++; uzak.push([(d.ad || '?') + ' [' + d.f + ']', e.k, uz.toFixed(4)]); }
     }
   }
-  hkm('K6 · çapa tâbi gövdenin İÇİNDE', disari === 0,
-      'içeride ' + ic + ' · yuvarlama payında (≤' + PAY_DERECE + '°) ' + payda +
-      ' · DIŞARIDA ' + disari);
+  const sn = ((Date.now() - t0) / 1000).toFixed(1);
+  const kapsam = ORNEK > 0
+    ? ' · 🔴 ÖRNEKLEM ' + kume.length + '/' + vlDonem.length + ' dönem — TAM TARAMA DEĞİL'
+    : ' · tam tarama ' + kume.length + ' dönem';
+  if (ORNEK > 0) {
+    // örneklemle "geçti" denmez: kapsam eksikse damga ÖLÇÜLEMEDİ
+    hkm('K6 · çapa tâbi gövdenin İÇİNDE', null,
+        'içeride ' + ic + ' · payda ' + payda + ' · DIŞARIDA ' + disari +
+        kapsam + ' (' + sn + ' sn)');
+  } else {
+    hkm('K6 · çapa tâbi gövdenin İÇİNDE', disari === 0,
+        'içeride ' + ic + ' · yuvarlama payında (≤' + PAY_DERECE + '°) ' + payda +
+        ' · DIŞARIDA ' + disari + kapsam + ' (' + sn + ' sn)');
+  }
   uzak.sort((a, b) => b[2] - a[2]);
   for (const [nerede, ad, uz] of uzak.slice(0, 12)) {
     console.log('        · ' + nerede + ' → ' + ad + '  ' + uz + '° dışarıda');
@@ -331,8 +372,40 @@ if (typeof parcaCoz !== 'function') {
 // 🔴 Bu, kısmî yazımı yakalar: `vl` VAR ama yalnız birkaç dönemde.
 const vAmaVlYok = vDonem.filter(d => d.vl === undefined).length;
 R.gozlem.push('`v` taşıyıp `vl` taşımayan dönem: ' + vAmaVlYok + ' / ' + vDonem.length +
-              '  (adsız `v:` dönemleri çapa üretmez — 56 kayıt adsız, yani ' +
-              'sıfırdan büyük olması BEKLENİR; sıçraması bir işarettir)');
+              '  (adsız `v:` dönemleri çapa üretmez — sıfırdan büyük olması ' +
+              'BEKLENİR; sıçraması bir işarettir)');
+
+// ── K8b · BEKLENEN DÖNEM SAYISI — kıyas noktası, İHLAL DEĞİL ─────────────
+// 🔴 NİÇİN 🟡: motorun `tabi` kümesini birebir yeniden kuramam (ekleyici
+//   kapı ve kuruluş tarihi süzgeci var). Bu yüzden bu sayı bir EŞİK değil
+//   bir KIYAS NOKTASI: yalnız "yukarıdaki sayı yorumlanabilir mi" sorusunu
+//   cevaplar. `§11`: *bir aleti taklit eden ölçüm onun eşiğini de taşımalı*
+//   — taşıyamıyorsam ölçütü de ilan etmem, sayıyı YAZARIM.
+let beklenenVl = null;
+try {
+  const cikti = cp.execFileSync('py', ['-c',
+    'import sys,json;sys.path.insert(0,"arac");import girdi\n' +
+    'Y=girdi.yukle(sessiz=True)\n' +
+    'A=[]\n' +
+    'for y in Y:\n' +
+    '  for p in (y.get("v") or []):\n' +
+    '    if (p.get("k") or p.get("kid")) and p.get("f") and p.get("t"):\n' +
+    '      A.append((p["f"],p["t"]))\n' +
+    'sys.stdout.write(json.dumps(A))'],
+    { cwd: KOK, encoding: 'utf8', maxBuffer: 32 << 20 });
+  const adli = JSON.parse(cikti.slice(cikti.indexOf('[')));
+  beklenenVl = D.filter(d => d.v !== undefined &&
+                             adli.some(([f, t]) => f <= d.f && d.f < t)).length;
+} catch (e) { beklenenVl = null; }
+if (beklenenVl === null) {
+  R.gozlem.push('BEKLENEN `vl` dönem sayısı: ⚫ ölçülemedi (girdi.py okunamadı)');
+} else {
+  const oran = beklenenVl ? (100 * vlDonem.length / beklenenVl).toFixed(1) : '—';
+  R.gozlem.push('BEKLENEN `vl` dönem ≈ ' + beklenenVl + '  ·  GERÇEKLEŞEN ' +
+                vlDonem.length + '  (%' + oran + ')' +
+                '  — kıyas noktası, EŞİK DEĞİL. Belirgin düşükse KISMÎ YAZIM' +
+                ' şüphesi; motorun `tabi` süzgeci birebir taklit EDİLMEDİ.');
+}
 
 // ── RAPOR ────────────────────────────────────────────────────────────────
 console.log('\n' + '─'.repeat(74));

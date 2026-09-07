@@ -1,0 +1,100 @@
+R1 DİKİŞ TABANI — KOŞU 7B ÇIKTISINA GÖRE
+SINAV-KOSU8-0907 · 7 Eylül 2026, 15:44 · koşu 8 CANLI (PID 10780)
+================================================================================
+
+NASIL ÖLÇÜLDÜ (iki adım, ikisi de yetkili alet — taklit YOK):
+    node denetim/ARAC-DIKIS-0904-govde.js 1281-01-01 <geojson>
+    py   denetim/ARAC-DIKIS-0904-olc.py   <geojson>
+süre: gövde çıkarma saniyeler · dikiş ölçümü ~11 dk (CPU koşu 8'le paylaşımlı)
+
+GİRDİ PROVENANSI — ölçümden ÖNCE elendi (SINAV-R1-TABAN-0905.md §① yöntemi):
+    data/donemler.js          mtime 7 Eyl 07:10  = KOŞU 7B çıktısı
+    data/devletler_harita.js  mtime 7 Eyl 07:10  = aynı
+    js/app.js                 mtime 7 Eyl 14:41  DEĞİŞMİŞ ama alet ondan
+                              yalnız `parcaCoz`u çekiyor; o fonksiyon son
+                              29 Temmuz (e4c663e) değişti ⇒ ELENDİ
+    veri-kaynak/motor_kara.geojson  mtime 7 Eyl 12:27 (koşu 8'in İÇİNDE)
+                              ama `git status` TEMİZ, boyut 8.016.830 —
+                              içerik commit'le BİREBİR. Sebep: dosya
+                              unary_union(PETEK_D), yani BÜTÜN hücrelerin
+                              birleşimi; sahiplik yamaları DÖNEM değiştirir,
+                              HÜCRE GEOMETRİSİNİ değiştirmez.  ⇒ ELENDİ
+⇒ Tek değişken GEOMETRİ.
+
+--------------------------------------------------------------------------------
+ÖLÇÜM — gün 1281-01-01, global
+--------------------------------------------------------------------------------
+    yabancı gövde (node)              232
+    gövde (olc.py — Osmanlı DÂHİL)    233
+    motorun karası            107.064.378 km²
+    boyalı                     54.129.174 km²
+    boşluk toplamı             53.807.432 km²
+
+    aile              parça             km²      ölçüt
+    DİKİŞ               637          34.792      ≤8 km · 2+ gövde
+    KIYI KENARI      42.233         333.919      ≤8 km · ≤1 gövde
+    KAPSAMA             360      53.438.721      >8 km
+
+--------------------------------------------------------------------------------
+5 EYLÜL TABANIYLA KIYAS (SINAV-R1-TABAN-0905.md — koşu 4b çıktısı)
+--------------------------------------------------------------------------------
+                       5 Eylül (4b)            BUGÜN (7B)
+    yabancı gövde           232                    232      BİREBİR
+    DİKİŞ         640 / 34.318 km²      637 / 34.792 km²
+    KIYI KENARI  42.233 / 333.282       42.233 / 333.919    parça BİREBİR
+    KAPSAMA                 357                    360
+    boşluk           53.783.178 km²         53.807.432 km²
+
+⇒ TABAN KAYMAMIŞ. "5b→8 kıyası iki değişken taşır" endişesi ÖLÇÜLDÜ ve
+  YERSİZ çıktı. Ama taban artık BUGÜNE çapalı, yani koşu 8 kıyası tek
+  değişkenli olacak.
+
+--------------------------------------------------------------------------------
+🔴 ALETİN BASTIĞI "R1 KABUL TESTİ" SATIRI BAYATTIR — KOŞU 8'DEN SONRA OKUMA
+--------------------------------------------------------------------------------
+Alet her koşuşta şunu basıyor:
+    "R1 KABUL TESTİ: DİKİŞ parçası 637  (reçete: R1'den sonra < 10)"
+
+    89cd681  "R1 INDI"      →  4 Eylül 17:32
+    koşu 7B  6 Eyl 14:23 → 7 Eyl 07:10   ⇒ 7B'NİN ÇIKTISI R1'İ İÇERİYOR
+
+⇒ R1 İKİ KOŞU ESKİDİR ve bu bir koşu-8 kabul ölçütü DEĞİLDİR. Satırı
+  okuyan biri "R1 çalışmadı" diye YANLIŞ bir iş açar.
+  📌 Ö9'un aynası: Ö9 bayat bir ölçütün YANLIŞ SEBEPTEN GEÇMESİYDİ,
+     bu YANLIŞ SEBEPTEN KALMASI. Aynı sınıf.
+
+🔴 VE R1'İN ETKİSİ ÖLÇÜLEMEZ — "çürüdü" DEĞİL, "ölçülemedi":
+    640 (4b · R1 ÖNCESİ) → 637 (7B · R1 SONRASI)
+  Bu iki ölçüm arasında R1 **ve** `data/` birlikte değişti — İKİ değişken.
+  Tek değişkenli bir R1 kıyası hiç yapılmadı ve bugün YAPILAMAZ: R1'siz
+  bir 7B çıktısı mevcut değil (kontrol grubu YOK).
+
+--------------------------------------------------------------------------------
+KOŞU 8 İÇİN ÖNGÖRÜ — Ö-F, ölçümden ÖNCE yazıldı
+--------------------------------------------------------------------------------
+Ö-F  koşu 8'in DİKİŞ ailesi 7B'ninkine ÇOK YAKIN çıkacak
+     ≈637 parça / ≈34.792 km²
+  ② MAZERET YOK: koşu 8'in tek motor değişikliği `vl` ve `vl` bir ETİKET
+    ÇAPASIDIR — `kayit["vl"]`e yazar, `PETEK_D`ye ya da gövde birleşimine
+    DOKUNMAZ (uret_petek.py:4803-4847). Geometri değişmemeli.
+    Sapma varsa sebebi `data/` yamalarıdır ve AÇIKLANABİLİR olmalı.
+  ③ NEREDEN: yukarıdaki iki alet · birim PARÇA ve km²
+    🔴 EŞİK km² OLMALI, parça DEĞİL — parça sayısı alan tabanına ve
+      sadeleştirme gürültüsüne duyarlı, toplam alan değil
+      (SINAV-R1-TABAN-0905.md EK'in ölçtüğü sonuç).
+  ④ NEYE KARŞI: koşu 8 · kontrol = yukarıdaki 7B tablosu
+
+🔴 EŞİK SAYISI ÖNERİLMİYOR. R1'in dikiş alanını ne kadar kapatacağı hâlâ
+  bilinmiyor; bilmediğim bir şeye eşik koymak onu ÖLÇÜM gibi gösterirdi.
+  Bu bir GERİLEME testidir: `vl` geometriye dokunmadığına göre sayı
+  KAYMAMALI; kayarsa sebebi aranır.
+
+--------------------------------------------------------------------------------
+NE ÖLÇMEDİM
+--------------------------------------------------------------------------------
+· Yalnız 1281-01-01 ölçüldü. Öteki kesitler (1500/1700/1900) ÖLÇÜLMEDİ —
+  5 Eylül tabanı da yalnız bu günü taşıyordu, kıyas o yüzden bu günde.
+· KAPSAMA'nın 360 parçasının NEREDE olduğu (`--ayrinti` koşulmadı — koşu 8
+  CPU'yu kullanıyor, ikinci bir uzun iş başlatılmadı; §7 kaynak sahipliği).
+· Ham çıktı bir boru hattından geçerken bozuk kodlandı (mojibake); bu dosya
+  sayıları ekrandan okunmuş TEMİZ transkripsiyondur, ham dökümü değil.
