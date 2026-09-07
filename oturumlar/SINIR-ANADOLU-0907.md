@@ -275,7 +275,71 @@ kurtardığından pahalı. ***Kusur silinmedi, KAYDEDİLDİ*** (`kavalali` ve
 
 ---
 
-## ⑨ TESLİM DURUMU
+## ⑩ İKİNCİ TUR — TDV TÜKENDİ, BİRİNCİL METİN AÇTI
+
+`§4`: TDV bir tanecikte susuyorsa akademik kaynak **meşrudur**. Türkiye-Bulgaristan
+için TDV iki gövdede de tükenmişti; dışarı çıkıldı.
+
+```
+🔴 ELENEN (§4 kırmızı liste)  haberturk · milliyet/molatik · antlasmalar.com ·
+                              nukteler · sosyalbilgiler · kpss-wordpress
+🟡 TEK DAYANAK DEĞİL          Vikipedi
+🟢 KULLANILAN                 ① M. Yamaç, CTTAD 23/47 (2023), s.699-732 — HAKEMLİ
+                              ② Türk Tarih Kurumu — Lozan TAM METİN (birincil neşir)
+```
+
+🔴 **VE `§4⑦` İKİNCİ KEZ DOĞRULANDI — bu sefer benim üzerimde.** `WebFetch`
+TTK'nin PDF'i için *"binary/encoded, okuyamıyorum"* dedi. `pypdf` ile
+denendi: **346 sayfa · 630.931 karakter.**
+⇒ ***Bir çıkarıcının "okuyamadım"ı, belgenin içeriği hakkında hiçbir şey
+söylemez.*** İkinci çıkarıcı denenmeden `bulunamadi` yazılamaz — yazsaydım
+dört kaydım birden eksik kalacaktı.
+
+### 🔴🔴 VE BİRİNCİL METİN, İKİNCİL KAYNAĞI ÇÜRÜTTÜ
+
+Hakemli makale ve genel anlatı şunu diyor: *"Türkiye-Bulgaristan sınırı
+**29 Eylül 1913 tarihli İstanbul Antlaşması**'ndaki sınır olarak kabul
+edildi."* Lozan'ın **kendi metni 1913'e hiç atıf yapmıyor**:
+
+> **MADDE 2** — *"Bahrisiyahtan Adalardenizine kadar Türkiyenin hududu
+> berveçhi zir tesbit edilmiştir. **Evvelâ — Bulgaristan ile:** Rezvaya
+> munsabından … üç hududun Meriç üzerinde kâin noktai iltisakına kadar;
+> **Bulgaristanın ELYEVM TAHDİT EDİLMİŞ OLDUĞU ŞEKİLDE cenup hududu.**"*
+> Fransızca sütun aynı: *"la frontière Sud de la Bulgarie, **telle
+> qu'**[elle est actuellement délimitée]"*
+
+📌 **Ve tarihen tutarlı:** 1913 İstanbul Antlaşması Osmanlı-Bulgar sınırını
+çizdi, ama **1919 Neuilly** ile Bulgaristan Batı Trakya'yı kaybetti ⇒ 1923'te
+Bulgaristan'ın güney sınırı artık 1913'ünki **değildi.** İkincil kaynak bir
+**ara halkayı atlıyor**; birincil metin *"elyevm"* diyerek tam bunu ifade
+ediyor.
+⇒ ***Bir ikincil kaynağın hakemli olması, bir birincil metnin yerine
+geçmez.*** (`§4`: TDV maddesi varsa başkasına dayanma — burada TDV yoktu,
+ama **antlaşmanın kendisi** vardı ve kimse ona sormamıştı.)
+
+### DÖRT KAYIT BİRDEN GÜÇLENDİ — madde numaralarıyla
+```
+Bulgaria|Turkey   🔴 bulunamadi → 🟢 HUKUKI   Lozan md. 2/1
+Greece|Turkey     madde + GEOMETRİ            Lozan md. 2/2 (Meriç mecrası ·
+                                              Arda · Çörek Köy · Bosna Köy)
+Syria|Turkey      madde NO KAZANDI            Ankara İtilâfnâmesi md. 8
+                                              (Lozan md. 3/1 onu ADIYLA anıyor)
+Iraq|Turkey       birincil metinle DOĞRULANDI Lozan md. 3/2 "dokuz ay zarfında"
+KOVA:  hukuki 6 → 7   ·   bulunamadi 7 → 6
+```
+
+### 🔴 VE KENDİ KUSURUMU BULDUM — `degisti` 4 → 3
+`Greece|Turkey` kaydında `ne_degisti:False` yazmıştım; gerekçem *"1923'ten
+bugüne değişim BULUNAMADI"* idi. **Bu bir çıkarımdı, bir kaynak değil** — ve
+tam da ⓑ öngörümün çürüdüğü yer. `None`a çekildi.
+🟢 Kafkas üçlüsünde `False` **kalıyor**, çünkü orada TDV'nin **kendi
+ifadesi** var: *"**bugünkü** Türk-Sovyet sınırı tesbit edilmiştir."*
+⇒ Aynı alan, iki kayıtta iki farklı değer, ve farkı **kaynağın cümlesi**
+belirliyor — benim kanaatim değil.
+
+---
+
+## ⑪ TESLİM DURUMU
 ```
 ✅ 19 kenar kayıtlı, geometrisi içinde, hâli damgalı
 ✅ çıpa tuzağı ÖLÇÜLDÜ — bu alete ateşlemiyor, kanıt `_CIPA_TUZAGI` bölümünde

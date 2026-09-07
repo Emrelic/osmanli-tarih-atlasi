@@ -61,21 +61,39 @@ L = "lozan-antlasmasi"
 
 HUKUM = {
  ("Greece", "Turkey"): dict(
-    hal="hukuki", degisti=False,
-    dayanak="Lozan Antlasmasi", dayanak_t="1923-07-24", madde="md. 2/2 (Sinirlar)",
-    kaynak=L, kesinlik=1,
-    alinti="Trakya'daki Turkiye-Yunanistan siniri Karaagac Turkiye'de kalmak uzere "
-           "Meric irmaginin 'talvek'i olarak tesbit edilmisti.",
-    not_="Meric talvegi + Karaagac. TDV govdesi Karaagac'in tazminat yerine birakildigini "
-         "ayrica yaziyor. 1923'ten bugune degisim BULUNAMADI ⇒ NE'nin bugunku cizgisi "
-         "1923 icin KULLANILABILIR."),
+    # 🔴 `degisti` False → None DUZELTILDI (kendi kusurum, ayni turda bulundu):
+    #    ilk yazimda "1923'ten bugune degisim BULUNAMADI ⇒ kullanilabilir" demistim.
+    #    Bu bir CIKARIMDI, bir KAYNAK DEGIL — ve tam da ⓑ ongorumun curudugu yer.
+    #    Kafkas ucusunde `False` KALIYOR, cunku orada TDV'nin KENDI ifadesi
+    #    "BUGUNKU Turk-Sovyet siniri" diyor; burada boyle bir cumle YOK.
+    hal="hukuki", degisti=None,
+    dayanak="Lozan Antlasmasi", dayanak_t="1923-07-24",
+    madde="md. 2/2 (Saniyen — Yunanistan ile)",
+    kaynak="TTK — Lozan tam metin + TDV lozan-antlasmasi (IKI KAYNAK)", kesinlik=1,
+    alinti="BIRINCIL (TTK): «Saniyen — Yunanistan ile: Oradan Arda ve Meric nehirlerinin "
+           "birlestigi noktaya kadar: MERIC MECRASI; Oradan Arda membaina dogru … Corek "
+           "Koy koyu civarinda … ARDA MECRASI; oradan … Bosna Koy'un 1 km asagisinda bir "
+           "noktaya … Bosna Koy'u Turkiye'de birakan takriben duz bir hat; oradan "
+           "Adalardenizine kadar MERIC MECRASI.» || IKINCIL (TDV): «Karaagac Turkiye'de "
+           "kalmak uzere Meric irmaginin 'talvek'i olarak tesbit edilmisti.»",
+    not_="🟢 IKI KAYNAK AYNI YERE CIKTI ve birbirini TAMAMLADI: TDV 'talvek' ve Karaagac'i "
+         "veriyor, TTK metni hattin GEOMETRISINI (Arda mecrasi, Corek Koy, Bosna Koy) "
+         "veriyor. ⚠️ 'Karaagac' TTK metninde 3 kez geciyor ama MADDE 2'de DEGIL — "
+         "tazminat duzenlemesinde. TDV'nin ifadesi bir OZETLEME; celiski DEGIL. "
+         "⚪ 1923→bugun degisim ARANDI, bulunamadi ⇒ `degisti` False YAZILMADI, None."),
 
  ("Syria", "Turkey"): dict(
     hal="hukuki", degisti=True,
-    dayanak="Ankara Itilafnamesi (Fransa)", dayanak_t="1921-10-20",
-    madde="Lozan md. 3/1 ile TEYIT", kaynak=L, kesinlik=1,
-    alinti="Turkiye-Suriye siniri, Fransa ile imzalanmis olan 20 Ekim 1921 Ankara "
-           "Antlasmasi ile belirlenen sinir olarak kabul edilmisti.",
+    dayanak="Ankara Itilafnamesi (Fransa) md. 8 — Lozan md. 3/1 ile TEYIT",
+    dayanak_t="1921-10-20",
+    madde="Ankara Itilafnamesi md. 8  ·  Lozan md. 3/1",
+    kaynak="TTK — Lozan tam metin + TDV lozan-antlasmasi (IKI KAYNAK)", kesinlik=1,
+    alinti="BIRINCIL (TTK): «MADDE 3 — Bahrisefitten Iran hududuna kadar Turkiyenin hududu "
+           "bervechi zir tesbit edilmistir: Evvela — Suriye ile: 20 tesrinievvel 1921 "
+           "tarihinde akdolunan Fransa—Turkiye Itilafnamesinin 8 INCI MADDESINDE musarrah "
+           "ve muayyen hudut.» || IKINCIL (TDV): «Turkiye-Suriye siniri, Fransa ile "
+           "imzalanmis olan 20 Ekim 1921 Ankara Antlasmasi ile belirlenen sinir olarak "
+           "kabul edilmisti.»",
     degisim_t="1939", degisim_t_hassasiyet="yil",
     degisim_kaynak="iskenderun + suriye (IKI BAGIMSIZ TDV maddesi)",
     degisim_alinti="1939'da Hatay Devleti'nin Turkiye'ye baglanmasi uzerine Iskenderun ... "
@@ -91,10 +109,13 @@ HUKUM = {
  ("Iraq", "Turkey"): dict(
     hal="bulunamadi", hal_oneri="tanimsiz", degisti=True,
     dayanak="Lozan md. 3/2 — SINIR TESBITI ERTELENDI", dayanak_t="1923-07-24",
-    madde="md. 3/2", kaynak=L, kesinlik=1,
-    alinti="Antlasmada cozumu ileriye birakilan Musul meselesi Turk-Irak sinirinin tesbit "
-           "edilmesi olarak anilmis ve bunun dokuz ay icinde Turkiye ile Buyuk Britanya "
-           "arasinda dostca belirlenecegi hukmune yer verilmisti (md. 3).",
+    madde="md. 3/2 (Saniyen — Irak ile)",
+    kaynak="TTK — Lozan tam metin + TDV lozan-antlasmasi (IKI KAYNAK)", kesinlik=1,
+    alinti="BIRINCIL (TTK): «Saniyen — Irak ile: Turkiye ile Irak arasindaki hudut DOKUZ AY "
+           "ZARFINDA Turkiye ile Buyuk Britanya arasinda [dostane bir surette tayin "
+           "edilecektir].» || IKINCIL (TDV): «Antlasmada cozumu ileriye birakilan Musul "
+           "meselesi Turk-Irak sinirinin tesbit edilmesi olarak anilmis ve bunun dokuz ay "
+           "icinde … dostca belirlenecegi hukmune yer verilmisti (md. 3).»",
     degisim_t="1926-06-05", degisim_t_hassasiyet="gun",
     degisim_kaynak="kerkuk",
     degisim_alinti="Kerkuk, Misak-i Milli sinirlarina dahil olmasina ragmen 5 Haziran 1926'da "
@@ -141,15 +162,29 @@ HUKUM = {
          "Azerbaycan'a bagli OZERK bir birimdi."),
 
  ("Bulgaria", "Turkey"): dict(
-    hal="bulunamadi", degisti=None,
-    dayanak="bulunamadi", dayanak_t=None, madde="bulunamadi",
-    kaynak="bulunamadi", kesinlik=0,
-    not_="🔴 ARANDI, YOK — ve nerede arandigi yazili: `lozan-antlasmasi` govdesi (19.059 kar, "
-         "TAM okundu) Turkiye-Bulgaristan sinirini HIC ANMIYOR; `bulgaristan` govdesi "
-         "(124.918 kar) 'Lozan' kelimesini SIFIR kez tasiyor. `misak-i-milli` yalnizca Bati "
-         "Trakya'nin Turkiye disinda kaldigini soyluyor, SINIR HATTINI vermiyor. "
-         "⇒ §4 TANECIKLIK bosluğu: TDV bolgeyi goruyor, bu sinir hattini KONUSMUYOR. "
-         "Akademik kaynak MESRU ama BU TURDA ARANMADI ⇒ kalem ACIK."),
+    hal="hukuki", degisti=None,
+    dayanak="Lozan Antlasmasi", dayanak_t="1923-07-24",
+    madde="md. 2/1 (Evvela — Bulgaristan ile)",
+    kaynak="TTK — Lozan tam metin (ttk.gov.tr/wp-content/uploads/2016/11/3-Lozan13-357.pdf)",
+    kesinlik=1,
+    alinti="MADDE 2 — Bahrisiyahtan Adalardenizine kadar Turkiyenin hududu bervechi zir "
+           "tesbit edilmistir. Evvela — Bulgaristan ile: Rezvaya munsabindan Turkiyeye, "
+           "Bulgaristan ve Yunanistana ait uc hududun Meric uzerinde kain noktai "
+           "iltisakina kadar; BULGARISTANIN ELYEVM TAHDIT EDILMIS OLDUGU SEKILDE cenup hududu.",
+    not_="🟢 TDV TUKENMISTI, BIRINCIL METIN ACTI. `lozan-antlasmasi` govdesi (19.059 kar) bu "
+         "siniri HIC anmiyor, `bulgaristan` govdesi (124.918 kar) 'Lozan' 0 kez. TTK'nin "
+         "resmi tam metni (346 sayfa, 630.931 karakter) maddeyi ADIYLA verdi. "
+         "🔴 VE BIRINCIL METIN IKINCIL KAYNAGI CURUTTU: hakemli bir makale (M. Yamac, CTTAD "
+         "23/47, 2023, s.699-732) ve genel anlati «Turkiye-Bulgaristan siniri 29 Eylul 1913 "
+         "Istanbul Antlasmasi'ndaki sinir olarak kabul edildi» diyor. LOZAN METNI 1913'E "
+         "HIC ATIF YAPMIYOR — «ELYEVM tahdit edilmis olduğu sekilde» diyor, yani 1923'teki "
+         "FIILI durumu esas aliyor. Fransizca sutun da ayni: «la frontiere Sud de la "
+         "Bulgarie, TELLE QU'[elle est actuellement delimitee]». "
+         "Tarihen tutarli: 1913 Istanbul Antlasmasi Osmanli-Bulgar sinirini cizdi, ama 1919 "
+         "NEUILLY ile Bulgaristan Bati Trakya'yi kaybetti ⇒ 1923'te Bulgaristan'in guney "
+         "siniri artik 1913'unki DEGILDI. ⇒ Ikincil kaynak bir ARA HALKAYI atliyor. "
+         "⚪ `degisti` HALA None: dayanak bulundu ama 1923→bugun cizginin AYNI kaldigi "
+         "AYRI bir iddiadir ve OLCULMEDI. `hal` ile `ne_degisti` AYRI sorular."),
 
  ("Iran", "Turkey"): dict(
     hal="bulunamadi", degisti=None,

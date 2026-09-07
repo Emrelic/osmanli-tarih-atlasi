@@ -1,0 +1,234 @@
+{
+ "_NOT": "§3.5 hayalet devlet olcumu — `rusya` kunyesi 1917-03-15'te bitiyor, veri 1923'te hala kullaniyor. YALNIZ OLCUM: duzeltme ONERILMEDI, cunku ardil kimligin PENCERESI olculmedi (§3.5.0 ARDIL sinifi).",
+ "gun": "1923-10-28",
+ "kimlik": "rusya",
+ "nokta": 5,
+ "noktalar": [
+  {
+   "ad": "Sohum",
+   "lat": 43.001,
+   "lon": 41.023,
+   "donem": {
+    "f": "1810-07-11",
+    "t": "1923-10-29",
+    "d": "rusya",
+    "kaynak": null
+   },
+   "zincir": [
+    "1281-01-01→1578-08-09 gurcistan",
+    "1810-07-11→1923-10-29 rusya"
+   ],
+   "d_donemi_var_mi": true,
+   "v_donemi_var_mi": false
+  },
+  {
+   "ad": "Soçi (Sâşe)",
+   "lat": 43.585,
+   "lon": 39.723,
+   "donem": {
+    "f": "1829-09-14",
+    "t": "1923-10-29",
+    "d": "rusya",
+    "kaynak": null
+   },
+   "zincir": [
+    "1281-01-01→1441-01-01 altinorda",
+    "1441-01-01→1783-04-19 kirim",
+    "1829-09-14→1923-10-29 rusya"
+   ],
+   "d_donemi_var_mi": true,
+   "v_donemi_var_mi": false
+  },
+  {
+   "ad": "Tuapse",
+   "lat": 44.103,
+   "lon": 39.08,
+   "donem": {
+    "f": "1829-09-14",
+    "t": "1923-10-29",
+    "d": "rusya",
+    "kaynak": null
+   },
+   "zincir": [
+    "1281-01-01→1441-01-01 altinorda",
+    "1441-01-01→1783-04-19 kirim",
+    "1829-09-14→1923-10-29 rusya"
+   ],
+   "d_donemi_var_mi": true,
+   "v_donemi_var_mi": false
+  },
+  {
+   "ad": "Maykop (Çerkezya)",
+   "lat": 44.609,
+   "lon": 40.101,
+   "donem": {
+    "f": "1829-09-14",
+    "t": "1923-10-29",
+    "d": "rusya",
+    "kaynak": null
+   },
+   "zincir": [
+    "1281-01-01→1441-01-01 altinorda",
+    "1441-01-01→1783-04-19 kirim",
+    "1829-09-14→1923-10-29 rusya"
+   ],
+   "d_donemi_var_mi": true,
+   "v_donemi_var_mi": false
+  },
+  {
+   "ad": "Derbend",
+   "lat": 42.058,
+   "lon": 48.29,
+   "donem": {
+    "f": "1813-10-24",
+    "t": "1923-10-29",
+    "d": "rusya",
+    "kaynak": null
+   },
+   "zincir": [
+    "1281-01-01→1509-01-01 iran",
+    "1509-01-01→1722-08-23 safevi",
+    "1722-08-23→1735-03-10 rusya",
+    "1735-03-10→1736-03-08 safevi",
+    "1736-03-08→1747-06-20 afsar",
+    "1747-06-20→1794-01-01 zend",
+    "1794-01-01→1813-10-24 kacar",
+    "1813-10-24→1923-10-29 rusya"
+   ],
+   "d_donemi_var_mi": true,
+   "v_donemi_var_mi": false
+  }
+ ],
+ "ikinci_uc_komsular": {
+  "Sohum": [
+   [
+    124.9,
+    "Soçi (Sâşe)",
+    "rusya"
+   ],
+   [
+    159.0,
+    "Batum",
+    "sovyet-rusya"
+   ],
+   [
+    159.6,
+    "Kutaisi",
+    "sovyet-rusya"
+   ],
+   [
+    169.9,
+    "Sarp",
+    "tbmm-turkiye"
+   ],
+   [
+    181.9,
+    "Hopa",
+    "tbmm-turkiye"
+   ]
+  ],
+  "Soçi (Sâşe)": [
+   [
+    78.1,
+    "Tuapse",
+    "rusya"
+   ],
+   [
+    117.8,
+    "Maykop (Çerkezya)",
+    "rusya"
+   ],
+   [
+    124.9,
+    "Sohum",
+    "rusya"
+   ],
+   [
+    172.3,
+    "Kuban (Yekaterinodar)",
+    "sovyet-rusya"
+   ]
+  ],
+  "Tuapse": [
+   [
+    78.1,
+    "Soçi (Sâşe)",
+    "rusya"
+   ],
+   [
+    100.9,
+    "Maykop (Çerkezya)",
+    "rusya"
+   ],
+   [
+    103.8,
+    "Kuban (Yekaterinodar)",
+    "sovyet-rusya"
+   ],
+   [
+    169.4,
+    "Anapa",
+    "sovyet-rusya"
+   ],
+   [
+    199.2,
+    "Kuban Nogay bozkırı",
+    "sovyet-rusya"
+   ]
+  ],
+  "Maykop (Çerkezya)": [
+   [
+    98.8,
+    "Kuban Nogay bozkırı",
+    "sovyet-rusya"
+   ],
+   [
+    100.9,
+    "Tuapse",
+    "rusya"
+   ],
+   [
+    103.9,
+    "Kuban (Yekaterinodar)",
+    "sovyet-rusya"
+   ],
+   [
+    117.8,
+    "Soçi (Sâşe)",
+    "rusya"
+   ],
+   [
+    193.9,
+    "Sohum",
+    "rusya"
+   ]
+  ],
+  "Derbend": [
+   [
+    79.6,
+    "Kuba",
+    "sovyet-rusya"
+   ],
+   [
+    109.9,
+    "Şâbüran",
+    "sovyet-rusya"
+   ],
+   [
+    121.2,
+    "Tarki (Tarku)",
+    "sovyet-rusya"
+   ],
+   [
+    124.7,
+    "Kabala",
+    "sovyet-rusya"
+   ],
+   [
+    133.0,
+    "Şeki (Nuha)",
+    "sovyet-rusya"
+   ]
+  ]
+ }
+}
