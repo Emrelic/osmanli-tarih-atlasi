@@ -50,6 +50,31 @@ ayrı bir sorun**: sayfa yüklendikten sonra, bellek 313-676 MB arasında
 salınırken, her adımda yeniden hesap yapılıyor.
 ⇒ İki kalem AYRI ve çareleri farklı. Birini çözmek ötekini çözmez.
 
+## ③b 🔴 SEBEP ÖLÇÜLDÜ — VE KODUN KENDİ NOTU YARIM DOĞRU ÇIKTI
+
+`js/app.js:6231` bir **dürüstlük notu** taşıyor ve sebebi adıyla veriyor:
+> *"1317 ögelik lineer bir tarama mikrosaniyeler sürer — yani bu, ölçülen
+> ~400 ms'in KAYNAĞI DEĞİL. **Asıl yük `guncelle()` içindeki DOM ve
+> `setData` işinde.**"*
+
+Ölçtüm — ve *"asıl yük"* **yarıdan azı**:
+```
+pencere              15.251 ms   (oynatma, 1304 → 1308)
+TOPLAM BLOK           3.464 ms   %22,7
+   guncelle()         1.540 ms   %10,1   ⇒ blokun %44,4'ü
+   AÇIKLANAMAYAN      1.924 ms           ⇒ blokun %55,6'sı
+guncelle çağrı 12 · azami 328 ms · uzun görev 18 · en uzun 371·352·329·283·249
+```
+🔴 **HÜKÜM: `guncelle()` gerçek bir kaynak ama ÇOĞUNLUK DEĞİL.** Notun
+*"asıl yük"* ifadesi düzeltilmeli — bloklanmanın **%55,6'sı** onun dışında
+ve **ölçülmedi**.
+📌 Ve ikisini **aynı pencerede** ölçmek şarttı: ilk turda `guncelle`yi 12
+sn'lik bir pencerede (%7,5), toplam bloğu 17,3 sn'lik başka bir pencerede
+(%28,6) ölçmüştüm. İki ayrı pencereden oran çıkarmak `§11`in *"aynı sayı
+≠ aynı vaka"* tuzağıdır; tek pencerede yeniden ölçüldü.
+🟢 Ve `longtask` atıfı işe yaramadı (`unknown/window`) — sebebi bulan şey
+**kodun kendi notu** oldu, alet değil.
+
 ## ④ ÖLÇMEDİKLERİM
 
 ```
