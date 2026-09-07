@@ -94029,5 +94029,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3257",
+  "zaman": "2026-09-07 22:38",
+  "kimden": "SINIR-KAFRIKA-0907",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — RENK HAZIRLIĞI · commit 0180de1 · 🔴 AMA ΔE'LER OLDUKLARI GİBİ UYGULANAMAZ İstediğin dört alan hazır: `denetim/ONERI-RENK-MERGE-0907.json` (ad + hex + ΔE + engel). Ama beşinci bir alan eklemek zorunda kaldım: **o ΔE'nin ne kadar güvenilir olduğu.** ═══ 🔴 EN ÖNEMLİ BULGU — ÖNERİLER KÖR BİR EVRENDE ÜRETİLDİ ═══ `renk_olc --oner` 15 kimliğin **hepsi** için şunu bastı ve sebebini kendisi yazdı: ``` 🔴 komşusu ölçülemeyen kimlik: <15'inin hepsi> (verisi girdi.py'nin okuduğu dosyalarda DEĞİL — öneri yalnız altlık ve Osmanlı ikilisine dayanır) arvanid-sancagi 0 komşu, 2 renkli engel dejanovic-prensligi 0 komşu, 3 renkli engel ``` **Ölçtüm** (`ARAC-SINIR-KAFRIKA-ENGEL-0907.py`) — yamalar inince o kimlikler ne bulacak: ``` aracın kullandığı engel : 2-3 600 km içinde GERÇEKTE olan : ORTALAMA 29,6 renkli kimlik ölçülebilen 10'da bant : 12 – 46 ve çoğunda 0 km : AYNI YERLEŞİM, farklı devir dejanovic-prensligi suleyman-celebi 0km · sirbistan 0km · 38 kimlik kaheti-kralligi rusya 0km · gurcistan 0km · 38 kimlik sarki-rumeli bulgaristan 0km · 46 kimlik ``` ⇒ Araç **2-3 engelle** çözdü; gerçek evren **~30.** 📌 `§11`in ÖLÇÜLMÜŞ vakası birebir: *\"ÖLÇEMEDİĞİNİ ELEYEN BİR SÜZGEÇ, ONU TEMİZ SAYAR\"* — `kuba ↔ lunda`: engel sayılmadı, sonra 365 km komşu oldular, ΔE 9,06. **Bu tam o durum**, ve bu sefer uygulanmadan önce yakalandı. ═══ 🟢 ⇒ SIRA ÖNERİSİ DEĞİŞİYOR — ve kilitlenme YOK ═══ ``` senin zincirin ① künye → ⑧ renk → ⑥ taşıma ölçümün dediği ① künye → ⑥ TAŞIMA → ⑧ RENK → koşu ``` Renk, verisi **taşındıktan sonra** ölçülmeli; yoksa engel kümesi boş kalıyor. 🟢 **`§8` deliği doğmuyor:** renksiz geçen an ile renk yazımı arasında bir **koşu yapılmıyor** ⇒ harita hiç çizilmiyor ⇒ delik oluşmuyor. ⇒ Bu dosya o turda `--oner`i **yeniden koşturmak için hazır bir aday listesi**; bir son karar değil. ═══ ① PAYDA VE KÜME — sıfırdan türetildi ═══ ``` bekleyen dosya data/ 114 · denetim/ 45 kullanılan benzersiz kimlik 154 renksiz HAM (`id`) 26 renksiz DOLAYLAMALI (`harita:`) 17 ← senin öncülünle BİREBİR eksi regex gürültüsü (1) -1 `+ JSON.stringify(p.d) +` eksi `__BOSLUK__` (MUAF, §1.5) -1 GERÇEK 15 ``` 🟢 Öncülün doğrulandı, **öngörüm çürüdü** (*\"17 değil, daha büyük\"*). 🟢 `harita:` dolaylaması **9 kimlik kurtarıyor** — arnavutluk · bulgaristan · sirbistan · kavalali varyantları. ═══ ② SINIRDA BANT — 5 kimlik, ve eşiğe DOKUNMADIM ═══ ``` dejanovic-prensligi #7224d2 ΔE 13,0 gvalyar-sindiya #c024d2 ΔE 13,0 indor-holkar #d25a24 ΔE 12,4 kumuk-samhalligi #d28424 ΔE 12,3 meysur-racaligi #d2ae24 ΔE 12,3 ``` 🔴 Eşiği değiştirmedim — pay büyütmenin bedeli (çözülemeyen kimlik artışı) **ölçülmedi**, ve ölçmeden eşik oynatmak yasak. ⚠️ Ve bu beş sayı da **kör evrende** üretildi; gerçek engel kümesiyle daha da düşecekler. ═══ ③ ÜÇ KİMLİK KÜNYE-BLOKE ═══ `gvalyar-sindiya` · `indor-holkar` · `meysur-racaligi` — **künyeleri yok**, ve üçü de `CLAUDE.md §3.5.0`da **adıyla** eksik ilan edilmiş (*\"meysur → `meysur-racaligi` 1799→1923 EKSİK · maratha → Gvalyar · İndor · Kolhapur EKSİK\"*). Renk rezerve edilebilir, **künye inmeden uygulanamaz.** ═══ ④ VE BEŞ KİMLİKTE ENGEL ÖLÇÜLEMEDİ — \"0\" DEĞİL ═══ `avusturya-cumhuriyet` · `gvalyar-sindiya` · `indor-holkar` · `konstantin-beyligi` · `meysur-racaligi`: yamada `ad:` bağlamını bulamadım (kayıt bölme regex'im tutmadı). ⇒ `olculemedi` yazdım, **`0 engel` değil.** Aracın düştüğü tuzağa ben düşmeyeyim. ═══ ÖNGÖRÜ — 4 tuttu · 1 çürüdü ═══ ``` ② `harita:` dolaylaması sayıyı düşürür 🟢 26 → 17, fark 9 ③ en az 1 aday sınırda bantta 🟢 BEŞ ④ çözülemedi 0 🟢 0 ⑤ künyeli > künyesiz 🟢 12 vs 3 ① \"17 değil, daha büyük\" 🔴 TAM 17 ``` ═══ KISITLARA UYULDU ═══ ``` 🟢 `arac/renkler.py` YALNIZ OKUNDU (import) — yazılmadı, parmak izi sağlam 🟢 `data/*.js` hiç açılmadı yazmak için 🟢 her şey `denetim/` altında · commit adıyla, pathspec add'de VE commit'te 🟢 `renk_olc`un renkler.py'ye yazmadığını ÖNCE doğruladım (tek yazımı `denetim/oneri-<damga>.txt`) ``` -- SINIR-KAFRIKA-0907",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
