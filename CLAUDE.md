@@ -1581,6 +1581,53 @@ gibi tek satırlık kayıtlardan oluşan dosyalarda **sessiz veri kaybı** olur.
 
   ⚠️ **Bu istisna "hazır" demeyi kaldırmaz.** Dosyanı commit et, ama bulguyu
   yine koordinatöre bildir — commit teslim değildir, teslim mesajdır.
+
+  ### 🔴🔴 İSTİSNA GENİŞLETİLDİ — 7 Eylül 2026 · ve sebebi KOORDİNATÖRÜN İHLALİ
+  *(`SINIR-ANADOLU-0907` ölçtü ve `§7.1⑥` gereği bekletmeden bildirdi)*
+
+  `git add -A` yasağı yazılıydı. Koordinatör onu çiğnemedi — **DİZİN
+  PATHSPEC'i** kullandı (`git add -- denetim/`) ve sonuç **aynı**:
+```
+d143e65   "IKI DERS + KOSU 8 BITIS TAHMINI DUZELDI"   →  140 DOSYA
+ec869d9   "ALTI KITA DAHA SEVK EDILDI"                →   23 DOSYA
+⇒ on iki oturumun ÇALIŞAN dosyaları, konusu onlar OLMAYAN commit'lere girdi
+```
+  🔴 ***BİR DİZİN PATHSPEC'İ, `git add -A` KADAR SÜPÜRÜCÜDÜR.*** Kuralın
+  ruhu *"pathspec yaz"* değil, **"YALNIZ KENDİ DOSYALARINI, ADIYLA"**.
+
+  🟢 **VERİ KAYBI OLMADI** (ölçüldü: `git status` üç dosya için de boş,
+  içerik diskteki hâlle aynı) — **ama KAYBOLAN ŞEY GEREKÇEYDİ.** O
+  oturumun commit mesajı (iki öngörünün çürümesi, bir kararın sebebi)
+  **hiç yazılmadı**; `git log`da işi başkasının başlığı altında duruyor.
+  ⇒ `§7` istisnası bir kolaylık değil bir **izlenebilirlik** aracıdır.
+
+  🔴 **VE ASIL RİSK O OTURUMDA DEĞİLDİ:** dosyaları o an TAM olduğu için
+  şanslıydı. Aynı anda **yarım yazılmış** bir dosyası olan bir oturumun
+  bozuk hâli commit'lenirdi **ve kimse bilmezdi** — commit mesajı o
+  dosyadan hiç söz etmiyor.
+  📌 `§7` bunu 4 Ağustos'ta *"girmek üzereydi"* diye kaydetmişti. Bugün
+  **GİRDİ**, ve 21 oturumluk bir kadroda süpürücü commit'in yakalayacağı
+  yarım dosya sayısı, tek tek pathspec'in maliyetinden büyük.
+
+  🟢 **HÜKÜM — istisna genişliyor:**
+```
+Bir oturum KENDİ ÜRETTİĞİ dosyaları commit EDER:
+   oturumlar/<KENDİ ADI>.md
+   denetim/<KENDİ ÖNEKİYLE başlayan alet · ölçüm · bulgu · yama dosyaları>
+Şartı DEĞİŞMEDİ: her dosya ADIYLA yazılır. DİZİN PATHSPEC'İ YASAK.
+   🔴 git add -- denetim/          ← SÜPÜRÜCÜ, YASAK
+   🟢 git add -- denetim/ARAC-X-0907.py denetim/OLCUM-X-0907.json
+```
+  **Niçin genişledi:** eski kural `denetim/`i Oturum 0'a bırakıyordu ve
+  bu, 21 oturumluk bir kadroda koordinatörü **süpürmeye mecbur
+  ediyordu.** Kural kendi ihlalini üretiyordu.
+
+  📌 Ve dersin kendisi, bulan oturumun cümlesi:
+  ***"`§7` istisnası bir HAK verir ama onu KORUMAZ."*** Paylaşılan bir
+  index'te *"kendi dosyamı kendim commit ederim"* hakkı, başkasının
+  süpürücü commit'i karşısında hükümsüz — **ve hükümsüz kalışı
+  SESSİZDİR:** hakkını kullanmaya çalışan oturuma dönen cevap yalnızca
+  `"no changes added to commit"`tir.
 - 🔴🔴 **CEVAP KENDİ PENCERENE YAZILMAZ — KOORDİNATÖRE MESAJ ATILIR.**
   **Senin ekrana yazdığın metni koordinatör GÖRMEZ.** Kendi sohbet
   pencerene *"iş üstündeyim"* yazmak, cevap vermemekle **aynı şeydir**.
