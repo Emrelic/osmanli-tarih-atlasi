@@ -504,6 +504,87 @@ günü (`1281-01-01`) kullanıyor, ufku değil.
 
 ---
 
+## ④e Ⓑ — BAYAT ÖLÇÜT AVI, GENİŞLETİLMİŞ EVREN
+
+### 🔴 EVREN 12 DEĞİL **179** — `denetim/SINAV-KOSU8-EVREN-0907.py`
+
+```
+taranan                863 .md   (denetim/ + oturumlar/ + kök)
+BİRLEŞİK EVREN         179 DOSYA        devralınan 12  ⇒ 15 KAT eksik
+en geniş TEK desen      61 dosya        birleşik 179   ⇒  2,9 KAT
+14 desenin 11'i «TEK KAYNAK» — başka hiçbir desenin getirmediği dosya
+```
+⇒ ***Bir evren sayısı asla tek desenden verilmez.*** Ve desen listesi elle
+yazıldığı için **hâlâ eksik olabilir** — betikteki `YALNIZ` sütunu bunun
+uyarısıdır.
+
+🔴 **VE İLK ÖLÇÜM DENEMEM SESSİZCE ÇÖKTÜ:** kabuk döngüsünde `grep -F` ile
+Türkçe desenler — **on üç desenin on üçü de «0 dosya»** dedi, aynı anda
+birleşik `grep -E` **128** dedi. Hiçbir şey hata vermedi.
+📌 Bugün üçüncü kez: `grep -P` → `ast` · `grep -F` döngüsü → Python `re` ·
+sınıflandırıcı kural sırası. ⇒ *Dilin kendi yorumlayıcısına ver.*
+
+### 🔴🔴 ÜÇÜNCÜ NORMALLEŞTİRME NEREDEYSE YAŞAYAN BİR KALEMİ KAPATTIRIYORDU
+
+`HUKUM-CAKISMA-KORFEZ-0906`in hükmü üç adı düşürmeyi söylüyor. Düz
+`grep` ile bakıldığında:
+```
+Doha    → iki dosyada da YOK      ⇒ "düşürülmüş" diye okunur
+Manama  → iki dosyada da YOK      ⇒ "düşürülmüş"
+Kuveyt  → 1923_duzeltme'de VAR
+```
+Normalleştirilerek ve dosyayı **kendi dilinde** okuyarak:
+```
+yer_yama_1923_duzeltme.js   Doha (Katar) ✓ · Kuveyt ✓ · Manama (Bahreyn) ✓
+yer_yama_gece_v1.js         Manama (Bahreyn) ✓
+```
+⇒ **Hüküm HİÇ UYGULANMAMIŞ.** Düz aramaya güvenseydim *"kısmen
+uygulanmış"* diye rapor edecek ve **yaşayan bir kalemi kapatacaktım.**
+📌 Bugünün üçüncü ad vakası (`Cânet (Djanet)` · `grep -P` · bu) ve
+**bedeli en yükseği**: ötekiler yanlış bir *çürüme* üretecekti, bu yanlış
+bir *tamamlanma*.
+
+### 🆕 YENİ SINIF: **ÖKSÜZLEŞMİŞ ÖNGÖRÜ**
+
+`BULGU-GEOMETRI-0904.md` dokuz öngörü taşıyor, başlığı *"koşu bitince
+sınanacak"*. Ölçüldü — **dördünün hiçbir yerde hükmü YOK:**
+```
+🟢 Ö5 · Ö6 · Ö11   belgede değerlendirilmiş (TUTTU / KISMEN / ÇÜRÜDÜ)
+🟢 Ö1 · Ö7 · Ö9    bu oturum çözdü (Cânet PETEKLER'de · peteksiz 0 · Ö9→S1)
+🔴 Ö3 · Ö4 · Ö10 · Ö12   HİÇBİR YERDE HÜKÜM YOK
+   ve Ö4 açıkça "mazeret YOK" diyor — sert bir öngörü, hiç sınanmamış
+```
+4 Eylül'de *"bir sonraki koşu"* için yazıldılar; o günden beri **koşu 5b,
+6, 7, 7b koştu ve hiçbiri değerlendirilmedi.**
+⇒ ***Bir öngörü, yazıldığı koşu geçtiği hâlde değerlendirilmezse
+ÖKSÜZLEŞİR:*** metni hâlâ *"koşu bitince sınanacak"* der ve bir sonraki
+okuyucuya **bekleyen** görünür. Ne tutmuştur, ne çürümüştür — **yoktur.**
+📌 `§11`in *"öngörü ölçümden ÖNCE yazılır"* disiplininin eksik ayağı:
+**yazmak yetmiyor, SINAV ANINI da sahiplenmek gerekiyor.** Bu, bu oturumun
+`Ö-A…Ö-F` kalemlerine de bir uyarıdır — onların sahibi belli (`SINAV-KOSU8`
+takımı, koşu 8), ama sahip yazılmasa aynı yere düşerlerdi.
+
+### Ⓑ — DOKUZ BELGENİN DURUMU
+```
+🔴 BAYAT (borç ödenmiş, kayıt bilmiyor)
+   BULGU-S121-TABLO:72      `ikiz` → girdi.py:882'de VAR
+   ESLEME-VASSAL-KUNYE:152  `kid`  → BILINEN_DONEM_ALANLARI'nda VAR
+   BULGU-GEOMETRI:531 Ö1    Cânet (Djanet) PETEKLER'de VAR
+⚪ AÇIK, gerçek
+   HUKUM-CAKISMA-KORFEZ     hiç uygulanmamış (yukarıda)
+   HUKUM-MANDA-KIMLIK       beş yama dosyası yerinde, uygulanmamış
+   BULGULAR-DORDUNCU:192    `_dolgu_kumesi` üç satırı (son değişiklik 27 Ağu)
+   BULGU-GEOMETRI Ö3·Ö4·Ö10·Ö12   ÖKSÜZ (yukarıda)
+🟢 ÖDENDİ, bu oturum sırasında
+   HUKUM-NOT-ALANI          `not` şeması → `97523a7` (16:15) · DOĞRULADIM:
+                            `sira` hem içeriyor hem `sira[6:]` kuyruğunda basıyor
+⚪ BULGU-GAMERIKA · BULGU-PAKET-0031-0032 · BULGU-KAYNAK-DENETIM
+   devir/gözden geçirme kalemleri — bayatlık ölçülemez, OKUNDU ama
+   hüküm verilmedi
+```
+
+---
+
 ## ⑤ ÖNGÖRÜLER — ölçümden ÖNCE yazıldı, damgalı
 
 ```
