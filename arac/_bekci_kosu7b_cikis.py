@@ -18,7 +18,12 @@ import time
 
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LOG = os.path.join(KOK, "denetim", "BEKCI-KOSU7B-CIKIS.log")
-PID = 3880
+# 🔴 PID ARGÜMANDAN — ilk yazımda 3880'e SABİTLENMİŞTİ ve `uret_petek.py`
+#    çıkınca öttü. Ama koşu orada bitmiyor: `kos_ve_yayinla.py` (PID 18120)
+#    zinciri sürdürüyor (altlık → renk_olc → denetle → YAYIN KAPISI → damga
+#    → commit + push). ⇒ Tetiği bir kez daha fazla erken seçmemek için PID
+#    dışarıdan veriliyor.
+PID = int(sys.argv[1]) if len(sys.argv) > 1 else 3880
 ARA_SN = 60
 CANLILIK_SN = 1800
 TAVAN_SN = 6 * 3600
