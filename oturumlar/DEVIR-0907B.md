@@ -805,3 +805,70 @@ bozulduğunda **hangisinin bozduğunu ayrılamaz** kılar. Yayından sonra.
 adım"* **0** — yani `kos()`un `None` dönüşünü okumayan bir çağıran yok.
 (Benim *"bir ret şartının VAR OLMASI hükmü VERİYOR olması demek değil"*
 uyarımın zincir karşılığı arandı ve **çıkmadı.**)
+
+---
+
+## ⑩a — 23:05 · 🟢 İKİ KİLİTLENME YOLUNUN İKİSİ DE KAPALI (ÖLÇÜLDÜ)
+
+```
+① mükerrer + enklav → `denetle.py` İÇİNDE çözülüyor, izde DEĞİL
+② zaman aşımı       → 166 sn / 2400 sn · pay 14,5 KAT
+```
+②'nin ölçümü **üst sınır**: koşu 8 bir çekirdeği doldururken alındı;
+merge gecesi üretim bitmiş olacak ⇒ daha kısa. *"Süre riski yok."*
+
+### 🟢 VE DEVRALDIĞIM ÖNCÜL DOĞRULANDI — `⚪ DEVRALDIM` → `🟢 ÖLÇÜLDÜ`
+```
+✗ satırı TOPLAM 2  (grep -c ile tam sayım, örnekleme değil)
+   Değişmez 7  661 sorgusuz enklav (beklenen 660)
+   Ek denetim  mükerrer madde: 3 şüpheli çift (beklenen 0)
+çıkış kodu 1
+```
+⇒ **Üçüncü bir ihlal YOK. Gece planı eksik değil.**
+📌 Ölçen oturumun öngörüsü (*"üçüncü bir ihlal çıkacak, yoksa runbook
+eksik demektir"*) **çürüdü ve çürümesi iyi haberdi** — mazeretsiz
+yazılmıştı.
+
+### ⚠️ GEÇEN 18 DENETİMİN 5'İ «GEÇTİ» DEĞİL — `i` KOVASI
+```
+i  3z · 5b · 5c · savaş senkronu · künyesiz kimlik
+```
+Denetimin kendi ifadesi: *"898 dönem KÜNYESİZ kimlik kullanıyor
+(23 ayrı kimlik) — ölçülemedi, İHLAL DEĞİL ama TEMİZ DE DEĞİL."*
+🔴 Bir sayım bunları ✓'e toplarsa **üç kovayı bire indirir.** Yayın
+raporunda `18 ✓` yazılmayacak: **13 ✓ · 5 i · 2 ✗.**
+
+### 🔴 SIRA DÜZELTMEMİN YAN SONUCU — KURU KOŞU ARTIK FARKLI CEVAP VERİYOR
+```
+GERÇEK koşu  damga (7.) → kapı (8.)   ⇒ `damga_ihlali` ÇÖZÜLMÜŞ olur
+KURU koşu    damga ATLANIR → kapı     ⇒ `damga_ihlali` HÂLÂ ÖTER
+```
+`if yayinla` koruması **doğru** (kuru koşu `index.html`e dokunmamalı),
+ama sonucu bir asimetri: ***`--yayinlama` ile ölçen biri, kapının
+engelleyeceği sonucuna varır — ve yanılır.***
+⇒ Bu bir kusur değil, korumanın doğru sonucu; **ama yazılmazsa** yarın
+biri kuru koşu yapıp *"düzeltme işlemedi"* der.
+📌 `§11`in *"gecikme KAYITSIZSA kusurdan ayırt edilemez"* dersinin
+**kuru koşu** yüzü.
+
+### 🔴 YAYINDAN ÖNCEKİ TEK ENGEL: `damga_ihlali` — VE TAŞINDI, KAPANMADI
+```
+ÖNCE   ✗ ÇALIŞMA AĞACI: 2 kod dosyası değişmiş, damga r6711
+ŞİMDİ  ✗ DAMGA ARTIŞI:  js/css değiştiren 1 COMMIT damgayı arttırmamış
+```
+`f9eb826` (22:52:33) `js/app.js`i değiştirdi, `index.html`e dokunmadı.
+⇒ Commit atmak ihlali **çalışma ağacından geçmişe taşıdı**: aynı şartın
+iki yüzü var, birini kapatmak ötekini açtı.
+🔴 Ve *"kapı artık ötmüyor"* raporu **koşturularak çürütüldü** — rapora
+güvenilseydi gece yarısı kapıda öğrenilecekti.
+⇒ Çare `surum_damgala.py` + `index.html` commit'i; **VASSAL-GORUNUM'un
+kalemi** (`§7`), ondan *"yazdım"* değil **kapının çıktısı** istendi.
+
+### ⚫ AÇIK — SINAV-KOSU8'e verildi (gecenin en pahalı hatası buradan çıkar)
+```
+`uret_petek`i TEKRAR ÇALIŞTIRMADAN kalan adımlar nasıl koşturulur?
+   · `uretimsiz` parametresi ne atlıyor · komut satırı bayrağı ne
+   · 🔴 `MESAJ` dosyası VAR MI (yoksa zincir git adımında durur)
+   · `git add -A -- data index.html` ne süpürür — `data/` altında
+     bekleyen yama var mı, yayın commit'ine İSTEMEDEN girer mi
+```
