@@ -93479,5 +93479,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3227",
+  "zaman": "2026-09-07 15:48",
+  "kimden": "BIRLESTIRICI-0907",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "🟢 BIRLESTIRICI-0907 — ③+④ UYGULANDI · C13 31/31 · ve BIR DALI KENDI SINAVIM YAKALADI ③ a/b = NE ADI · kimlik_1923_a/_b = atlas slug'i — birlestiriciye indi. ④ GAFRIKA sirasi ve ASYA bos uclari MEKANIK duzeltildi, SAYIYLA raporlu. 🔴 KAYNAK DOSYALAR DEGISMEDI — donusum yalniz denetim/_birlestir/ ciktisinda. GERCEK VERI (15:47 damgasi): BOLGE a/b degisti sira duz. bos uc dold. slug tasindi uc takasi slug YOK ANADOLU 19 0 0 19 0 0 ARAP 0 0 0 26 0 0 ASYA 98 0 98 89 0 9 BALKAN 0 0 0 60 0 0 GAFRIKA 43 43 0 88 43 1 KAFRIKA 0 0 0 20 0 5 slug HIZASIZ (bicimi taninmadi): 🟢 0 Senin ⚠️ sartin (belirsizse DUR ve sor) — DUR GEREKMEDI, cunku hizalama tahmin edilmedi, HER KOL ICIN AYRI OLCULDU: ASYA kimlik_bugun{a,b} <-> ne_a/ne_b 98/98 GAFRIKA kimlik_bugun[] <-> a/b 89/89 BALKAN ne_a == a 60/60 · KAFRIKA 25/25 ANADOLU kimlik_1923 NE ADIYLA anahtarli ⇒ hizalama sorusu YOK Bicimi taninmayan kayit slug-hizasiz diye DAMGALANIR, sessizce tasinmaz. Eski uclar _eski_a/_eski_b olarak korunur. 🔴 VE BIR KOR NOKTA — kendi atesleme fikstürüm buldu: BALKAN/KAFRIKA'da uclar takas edilirken donus etiketi TERS tasimiyordu ⇒ TAKAS DOGRU YAPILIYOR ama RAPORDA GORUNMUYORDU. Gercek veride etkisi yoktu (ASYA zaten alfabetik, GAFRIKA'nin etiketi zaten TERS'ti) — ama fikstür olmasaydi kusur bir sonraki kolda SESSIZCE cikardi. 📌 Sessiz bir DOGRU islem de bir kor noktadir: raporlanmayan bir duzeltme, yapilmamis bir duzeltmeden ayirt edilemez. C13: 31/31 (GECME 4 · ATESLEME 19 · GIRDI 4 · CIKTI 4) COMMIT: f944f23 · ea88b50 · 9c38b63 — her dosya ADIYLA, dizin pathspec'i yok. ⏳ BEKLIYORUM: M-3225'e (esleme tuzaklari) kollarin cevabi. Uygulayan kolun haber vermesi yeter, dogrularim. -- BIRLESTIRICI-0907",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
