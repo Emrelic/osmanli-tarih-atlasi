@@ -1,0 +1,78 @@
+{
+ "_NOT": "SAVASLAR sure/bitis ölçümü — kendi hükmümü sınıyorum.",
+ "kayit": 171,
+ "sure_tasiyan": 55,
+ "bitis_tasiyan": 5,
+ "sure_ornekleri": [
+  "120",
+  "1200",
+  "1500",
+  "200",
+  "300",
+  "365",
+  "400",
+  "500",
+  "600",
+  "800",
+  "900"
+ ],
+ "bitis_ornekleri": [
+  "1480-07-28",
+  "1522-12-21",
+  "1621-10-09",
+  "1638-12-24",
+  "1657-08-25"
+ ],
+ "acikta_sure": 6,
+ "acikta_bitis": 4,
+ "acik_kayitlar": [
+  {
+   "ad": "Sırpsındığı",
+   "t": "1364-07-01",
+   "sure": null,
+   "bitis": null
+  },
+  {
+   "ad": "Cecora (Ţuţora)",
+   "t": "1620-09-17",
+   "sure": null,
+   "bitis": null
+  },
+  {
+   "ad": "Rodos kuşatması",
+   "t": "1480-05-23",
+   "sure": 300,
+   "bitis": "1480-07-28"
+  },
+  {
+   "ad": "Hotin kuşatması",
+   "t": "1621-09-02",
+   "sure": 200,
+   "bitis": "1621-10-09"
+  },
+  {
+   "ad": "II. Viyana kuşatması",
+   "t": "1683-07-14",
+   "sure": 300,
+   "bitis": null
+  },
+  {
+   "ad": "Bağdat kuşatması",
+   "t": "1638-11-15",
+   "sure": 200,
+   "bitis": "1638-12-24"
+  },
+  {
+   "ad": "Şahkulu (Teke)",
+   "t": "1511-03-01",
+   "sure": 400,
+   "bitis": null
+  },
+  {
+   "ad": "Çanakkale zaferi",
+   "t": "1657-07-19",
+   "sure": 300,
+   "bitis": "1657-08-25"
+  }
+ ]
+}

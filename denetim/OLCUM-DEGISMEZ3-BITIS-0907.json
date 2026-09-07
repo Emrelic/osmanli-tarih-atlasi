@@ -1,0 +1,76 @@
+{
+ "_NOT": "`bitis` ile Ⓒ ölçütü. İki kendi-düzeltmem: `sure` bir GÖRÜNÜRLÜK süresidir (app.js:2345), ve `SAVASLAR`da aralık `[t, bitis]` olarak VAR.",
+ "acik": 8,
+ "bitis_tasiyan": 4,
+ "kanitli": 4,
+ "olculemedi": 0,
+ "maddesiz": 0,
+ "ongoru_tuttu": true,
+ "detay": [
+  {
+   "ad": "Sırpsındığı",
+   "kova": "MAZUR — `bitis` YOK",
+   "madde": "",
+   "ortak": []
+  },
+  {
+   "ad": "Cecora (Ţuţora)",
+   "kova": "MAZUR — `bitis` YOK",
+   "madde": "",
+   "ortak": []
+  },
+  {
+   "ad": "Rodos kuşatması",
+   "kova": "🟢 ÖLÇÜT UYUMSUZLUĞU — KANITLI",
+   "t": "1480-05-23",
+   "bitis": "1480-07-28",
+   "madde": "Rodos kuşatmasının başarısızlığı",
+   "ortak": [
+    "rodos"
+   ]
+  },
+  {
+   "ad": "Hotin kuşatması",
+   "kova": "🟢 ÖLÇÜT UYUMSUZLUĞU — KANITLI",
+   "t": "1621-09-02",
+   "bitis": "1621-10-09",
+   "madde": "Hotin Seferi ve Hotin Antlaşması",
+   "ortak": [
+    "hotin"
+   ]
+  },
+  {
+   "ad": "II. Viyana kuşatması",
+   "kova": "MAZUR — `bitis` YOK",
+   "madde": "",
+   "ortak": []
+  },
+  {
+   "ad": "Bağdat kuşatması",
+   "kova": "🟢 ÖLÇÜT UYUMSUZLUĞU — KANITLI",
+   "t": "1638-11-15",
+   "bitis": "1638-12-24",
+   "madde": "Bağdat'ın geri fethi",
+   "ortak": [
+    "bagdat"
+   ]
+  },
+  {
+   "ad": "Şahkulu (Teke)",
+   "kova": "MAZUR — `bitis` YOK",
+   "madde": "",
+   "ortak": []
+  },
+  {
+   "ad": "Çanakkale zaferi",
+   "kova": "🟢 ÖLÇÜT UYUMSUZLUĞU — KANITLI",
+   "t": "1657-07-19",
+   "bitis": "1657-08-25",
+   "madde": "Çanakkale zaferi ve Bozcaada'nın geri alınışı",
+   "ortak": [
+    "canakk",
+    "zaferi"
+   ]
+  }
+ ]
+}

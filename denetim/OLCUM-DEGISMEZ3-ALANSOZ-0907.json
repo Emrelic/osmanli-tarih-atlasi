@@ -1,0 +1,162 @@
+{
+ "_NOT": "savaslar.js dört kümesinin alan sözleşmesi. Alan kümeleri DÖKÜLDÜ, tahmin edilmedi. Sıklıklar `oku_pencere` paydasında (ANTLASMALAR 31; node 41 — payda ayrışması ayrı kalem).",
+ "payda": {
+  "SAVASLAR": {
+   "oku_pencere": 171,
+   "node": 171
+  },
+  "ANTLASMALAR": {
+   "oku_pencere": 31,
+   "node": 41
+  },
+  "SEFERLER": {
+   "oku_pencere": 61,
+   "node": 61
+  },
+  "SERILER": {
+   "oku_pencere": 16,
+   "node": 16
+  }
+ },
+ "payda_alan_ayrismasi": {},
+ "alanlar": {
+  "SAVASLAR": {
+   "t": 171,
+   "tur": 171,
+   "ad": 171,
+   "taraf_metin": 171,
+   "sonuc": 171,
+   "seri": 159,
+   "lat": 171,
+   "lon": 171,
+   "taraf": 171,
+   "galip": 87,
+   "sure": 55,
+   "bitis": 5
+  },
+  "ANTLASMALAR": {
+   "t": 31,
+   "ad": 31,
+   "savas_basi": 28,
+   "taraf_metin": 31,
+   "ozet": 31,
+   "taraf": 31,
+   "topraklar": 31,
+   "lat": 1,
+   "lon": 1
+  },
+  "SEFERLER": {
+   "ad": 61,
+   "tur": 61,
+   "sonuc": 61,
+   "taraf": 14,
+   "renk": 19,
+   "f": 61,
+   "t": 61,
+   "yol": 61
+  },
+  "SERILER": {
+   "id": 16,
+   "ad": 16,
+   "aralik": 16,
+   "ozet": 16
+  }
+ },
+ "dortunde_de": [
+  "ad"
+ ],
+ "okuma_yerleri": {
+  "ad": [
+   "arac\\denetle.py:890",
+   "arac\\denetle.py:965",
+   "arac\\denetle_anakronizm.py:248",
+   "arac\\denetle_anakronizm.py:328",
+   "arac\\uret_devirler.py:264",
+   "arac\\uret_devirler.py:395",
+   "js\\app.js:413"
+  ],
+  "aralik": [
+   "js\\app.js:5180"
+  ],
+  "bitis": [],
+  "f": [
+   "arac\\denetle.py:1097",
+   "arac\\denetle.py:943",
+   "arac\\denetle_anakronizm.py:204",
+   "arac\\denetle_anakronizm.py:206",
+   "arac\\uret_devirler.py:264",
+   "js\\app.js:2017",
+   "js\\app.js:3246"
+  ],
+  "galip": [],
+  "id": [
+   "arac\\denetle.py:1620",
+   "arac\\denetle.py:1621",
+   "arac\\denetle_anakronizm.py:293",
+   "arac\\denetle_anakronizm.py:294",
+   "arac\\uret_devirler.py:357",
+   "js\\app.js:398"
+  ],
+  "lat": [
+   "arac\\denetle.py:1319",
+   "arac\\denetle.py:1952",
+   "js\\app.js:2015"
+  ],
+  "lon": [
+   "arac\\denetle.py:1318",
+   "arac\\denetle.py:1953",
+   "js\\app.js:2015"
+  ],
+  "ozet": [
+   "js\\app.js:5180"
+  ],
+  "renk": [
+   "arac\\uret_devirler.py:411",
+   "js\\app.js:329"
+  ],
+  "savas_basi": [
+   "arac\\uret_devirler.py:369"
+  ],
+  "seri": [],
+  "sonuc": [
+   "js\\app.js:2763"
+  ],
+  "sure": [
+   "js\\app.js:2345",
+   "js\\app.js:2770"
+  ],
+  "t": [
+   "arac\\denetle.py:1097",
+   "arac\\denetle.py:943",
+   "arac\\denetle_anakronizm.py:204",
+   "arac\\denetle_anakronizm.py:206",
+   "arac\\uret_devirler.py:264",
+   "js\\app.js:2017",
+   "js\\app.js:2770",
+   "js\\app.js:50"
+  ],
+  "taraf": [
+   "arac\\denetle_anakronizm.py:307",
+   "arac\\denetle_anakronizm.py:313",
+   "js\\app.js:3241"
+  ],
+  "taraf_metin": [],
+  "topraklar": [],
+  "tur": [
+   "arac\\denetle.py:1954",
+   "arac\\egim_olc.py:176",
+   "js\\app.js:2010"
+  ],
+  "yol": [
+   "arac\\egim_olc.py:175",
+   "js\\app.js:3180"
+  ]
+ },
+ "okuma_kalibi_bulunamayan": [
+  "bitis",
+  "galip",
+  "seri",
+  "taraf_metin",
+  "topraklar"
+ ]
+}
