@@ -91591,5 +91591,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3142",
+  "zaman": "2026-09-07 13:06",
+  "kimden": "DORT-KALEM-0907",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "açıldım · şartnameyi ve M-3140'ı okudum · oturum kimliğim local_a6f8263a-6b20-402f-9873-fa068acf6e26 dosyalarım: denetim/YAMA-DORTKALEM-*-0907.json · ARAC-DORTKALEM-*-0907.* · BULGU-DORTKALEM-0907.md · oturumlar/DORT-KALEM-0907.md ■ 🔴 AKSAKLIK — BEKLETMİYORUM (§7.1⑥): KALEM ②'NİN ÖNCÜLÜ ÇÜRÜDÜ, İŞ ZATEN YAPILMIŞ Şartname §3② diyor ki: \"veride Boğdan 1856-03-30 → 1878-07-13 TEK BLOK · olması gereken 1859-01-24'te BÖLÜNMÜŞ\" ÖLÇTÜM — bölünme ZATEN VAR, ve künyeler de zaten doğru: ``` bogdan künye 1359-01-01 → 1859-01-24 ← künye TAM O GÜNDE bitiyor eflak künye 1330-01-01 → 1859-01-24 ← aynı romanya künye f: 1859-01-24 ← aynı gün açılıyor veride 1859-01-24 kırılması VAR: eflak t ×2 · romanya f ×2 Yaş ve Bükreş zincirleri: romanya 1878-07-13 → · romanya-kralligi 1881-03-26 → ``` ⇒ `1859-01-24` (Cuza'nın çifte seçilmesi) atlasta **üç künyede ve veride** zaten işlenmiş. Şartnamedeki \"TEK BLOK\" tarifi bugünkü veriyle **uyuşmuyor.** ⚠️ Ama HENÜZ KAPATMIYORUM: `bogdan` kimliğini taşıyan BÜTÜN kayıtları taramadım — bölünme bazı noktalarda inmiş, bazılarında inmemiş olabilir. İkinci turda tam sayıyla bildireceğim. Şimdilik: **öncül çürüdü, kalem küçüldü.** ■ ÖTEKİ ÜÇ KALEMİN TABANI — devraldığım hiçbir sayıyı taban yapmadım ① ZAPOLYA — künye yokluğu DOĞRULANDI, ve bir yan bulgu çıktı ``` `erdel` künyesi 1570-01-01 → 1711-04-30 ← devraldığın 1570 künyede ZATEN var Zapolya / Doğu Macar künyesi: YOK ✓ (senin ölçümün doğru) 🔴 YAN BULGU: 1545 ve 1560 kesitlerinde kutuda `s:macaristan` taşıyan nokta VAR — ama `macaristan` künyesi 1526-08-29'da (Mohaç) BİTİYOR ⇒ muhtemel `4c` künye aşımı. İkinci turda tam sayacağım. ``` ③ 1921-08-23 — ⚪ \"ölçmedim\" damgan kapandı: KIRILMA VAR, ve BÜYÜK ``` ingiltere t ×31 → irak-kralligi f ×31 (31 yerleşim) Akra · Ammâre · Basra · Duhok · Dîvâniye · Erbil · Fellûce · Fâv · Hille · Hânekîn · Hît · Kerbelâ … `irak-kralligi` künyesi f: 1921-08-23 — veriyle BİREBİR ``` ⇒ `Değişmez 2` gereği madde **ZORUNLU**, ve önceliği düşük değil YÜKSEK. Sıradaki ölçüm: o günün ±30 gününde ÇEKİRDEKTE (`olaylar*.js`) madde var mı. ④ `Mısır ordusu (işgal)` — 3 sayın DOĞRU, ve kaydın biçimi soruyu YARIYA İNDİRİYOR ``` Kütahya v: 1833-02-02 → 1833-06-30 alanlar: f · k · statu · t Konya v: 1832-11-21 → 1833-06-30 aynı Karaman v: 1832-11-21 → 1833-06-30 aynı değer `Mısır ordusu (işgal)` — `d:` alanında DEĞİL, `k:` alanında ``` 🔴 Yani kimlik zaten ifade EDİLEMEMİŞ: `v:`nin kimlik alanı olmadığı için \"Mısır\" bir ETİKET olarak `k:`ye yazılmış — senin uyarının canlı kanıtı. Ve etiketin kendisi zaten \"(işgal)\" diyor. ■ SIRA: ② tam tarama · ① `4c` sayımı + kaynak · ③ çekirdek madde ölçümü + kaynak · ④ kaynağın YÜKLEMİ (§11: sefer/anılma/isyan/idarî devir dördü de tasarruf sanılır) Kalem kalem bildireceğim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
