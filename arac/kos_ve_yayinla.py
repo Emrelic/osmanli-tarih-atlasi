@@ -315,8 +315,30 @@ def main(argv):
         return zamanla(argv[i + 1], uretimsiz="--uretimsiz" in argv)
     if "--kuru" in argv:
         print(__doc__)
-        print("PLAN: uret_petek → uret_devirler → renk_olc → denetle →")
-        print("      denetle_yayin → surum_damgala → commit → push → 9 bip")
+        # 🔴 BU SATIRLAR 7 Eylül 2026'da İKİ YERDEN BAYAT ÇIKTI ve `--kuru`
+        # bir ÖLÇÜM ARACIDIR — yanlış sıra basan bir ölçüm aracı, merge
+        # gecesi ona bakan oturumu yanıltır:
+        #   ① ÜÇ ADIM EKSİKTİ  uret_altlik · uret_bekleyenler · adres_nobetci
+        #   ② SIRA TERSTİ      damga, kapıdan SONRA gösteriliyordu; oysa
+        #                      `2f1bc20` ile kapıdan ÖNCEye alındı (:245/:248)
+        # ⚠️ Ve ② tek başına sinsi: yanlış bir SIRA kendi içinde tutarlıdır —
+        #   damganın kapıdan önce mi sonra mı geldiği, çıktıya bakarak
+        #   ANLAŞILMAZ. `§11`: *"sıra bildiren her alet, sırayı NEREDEN
+        #   aldığını taşımalı."*
+        # ⇒ Kaynak: bu dosyanın kendi `kos()` çağrıları, satır sırasıyla —
+        #   :191 :195 :211 :213 :217 :219 :245 :248 :260. Bir adım
+        #   eklenir/taşınırsa BU LİSTE DE GÜNCELLENİR.
+        # 🔜 BORÇ: liste elle yazılı olduğu için yine bayatlayabilir; doğrusu
+        #   `kos()` çağrılarından ÜRETMEK (`ast`, `lineno` sıralı). Bu gece
+        #   yapılmadı: bu dosyaya bugün zaten bir sıra değişikliği indi ve
+        #   aynı geceye ikinci bir DAVRANIŞ değişikliği yığmak, yarın bir şey
+        #   bozulursa hangisinin bozduğunu ayırt edilemez kılar. Bu edit
+        #   yalnız BASILAN METİN — denetim akışına dokunmuyor.
+        print("PLAN: uret_petek → uret_devirler → uret_altlik →")
+        print("      uret_bekleyenler → renk_olc → denetle → surum_damgala →")
+        print("      denetle_yayin → adres_nobetci → commit → push → 9 bip")
+        print("      (surum_damgala YALNIZ yayın koşusunda; --yayinlama ile")
+        print("       ATLANIR ⇒ kuru koşuda `damga_ihlali` HÂLÂ ötebilir)")
         print("commit mesajı: %s  (%s)"
               % (MESAJ, "VAR" if os.path.exists(MESAJ) else "🔴 YOK"))
         return 0

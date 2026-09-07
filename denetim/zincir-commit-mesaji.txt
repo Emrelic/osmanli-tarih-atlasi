@@ -1,43 +1,56 @@
-YAYIN — 1923 Turkiye sinirinin iki bosluğu kapandi (TOKENSIZ ZINCIR)
+YAYIN — KOSU 8 INDI · vassal etiket katmani + 558 kurtarilmis kayit
 
-Bu commit'i bir INSAN ya da Claude degil, `arac/kos_ve_yayinla.py` zinciri
-atti. Mesaj KOSUDAN ONCE yazildi (12 Agustos 2026), cunku zincir tokensiz
-kosuyor ve sonradan mesaj yazacak kimse yok.
+Bu commit'i bir INSAN degil, `arac/kos_ve_yayinla.py` zinciri atti. Mesaj
+KOSUDAN ONCE yazildi (7 Eylul 2026, 23:20), cunku zincir tokensiz kosuyor
+ve sonradan mesaj yazacak kimse yok.
 
-NE DEGISTI — kosudan ONCE olculdu:
-  degisim yuzeyi   ~28 petek (2369'un %1,2'si): 7 yeni nokta + 21 komsusu
-  yeni nokta       8 (data/yerlesimler_ek28.js)
-  3 km sinavi      TEMIZ — en yakin cift Payas-Dortyol, 10 km
+KOSU 8: basladi 2026-09-07 11:17:47 · PID 10780 · girdi 3805 nokta
 
-① ISKENDERUN KORFEZININ KUZEYI — Emre'nin parti-0016 sikayeti
-   Payas · Dortyol · Erzin · Yumurtalik yazildi.
-   Ve PAYAS'IN DONEMI DUZELDI:
-     eskiden  1918-10-30 -> 1923-10-29  FRANSA
-     simdi    1921-10-20 -> 1923-10-29  TURKIYE
-   Dayanak BIRINCIL KAYNAK: UK Cmd.1556 / LNTS Vol.54 pp.178-193,
-   Ankara Itilafnamesi Md.8 — sinir "immediately south of the locality of
-   Payas" noktasindan basliyor. VERI SINIR 2 oturumu PDF'i dogrudan okudu;
-   Vikipedi TEK DAYANAK YAPILMADI.
-   Kirilma gunu 1921-10-20 icin kronolojide madde ZATEN VARDI
-   (olaylar_ek5.js:425) — tarih uydurulmadi.
+NE GIRDI — kosudan ONCE, `git log` ile olculdu (07:17 son yayin -> 11:17
+kosu basi penceresi, YEDI commit):
 
-② DOGU KARADENIZ — Emre'nin parti-0015/H-0004 sikayeti
-   Arhavi (Hopa'ya 10 km) · Borcka (Artvin'e 21 km) ·
-   Sarikamis (Kars'a 53 km, GARNIZON kanitlandi) ·
-   Ahilkelek (Akhalkalaki) — TDV'den fetih tarihi DUZELTILDI 1578 -> 1551
+  c37ec02 07:25  GLOB DUZELTILDI — dar desen "KABUL 0" diyordu; genis
+                 desenle 10 kunye INDI. kunye 617 -> 627.
+                 (Elle yazilan bir tarih, bir glob'un icinde bir SON
+                  KULLANMA TARIHIDIR: `*0905*` deseni 13 yamanin 11'ini
+                  sessizce disarida birakiyordu.)
+  415d18a 07:33  MERGE ADIM 1-3 — 10 kunye + 192 sahiplik kaydi indi.
+  d2d5ecf 10:10  SESSIZ KAYIP OLCULDU — 151 alan `liste[0]` disinda
+                 kaldigi icin HIC inmiyordu; 133'u tek dosyadan.
+  59fd8d6 10:34  CAKISMA 91 -> 26 · 215 kayit indi · o 151 alan KURTARILDI.
+  3587809 10:43  MUKERRER ANAHTAR bir SINIF olarak olculdu — 12 kayit,
+                 6'si tekillestirildi, nobetci kondu.
+  2127303 11:03  VASSAL ETIKET KATMANI — MOTOR yazildi (uret_petek.py).
+                 "Bloke olan motor degilmis" · cakisma 26 -> 23.
+  22cced2 11:17  CUKUROVA ACILDI — 6 TDV maddesi · Degismez 7 663 -> 661 ·
+                 Degismez 2i TEMIZ.
 
-③ Yumurtalik kara maskesinin 0,52 km disindaydi; denetle.py'nin SINANMIS
-   onerisi uygulandi. konum ihlali 1 -> 0.
+  MOTOR DEGISIKLIGI: yalniz 2127303 (uret_petek.py, 11:03) — kosudan
+  ON DORT DAKIKA once. Yani vassal etiket katmani BU KOSUNUN ICINDE.
 
-NE DEGISMEDI — ve bu KASITLI:
-   pergel cemberleri · Sahra boslugu · kiyi kabaligi · Cimpe->Saros
-   Hicbirine dokunulmadi. Bu kosu TEK DEGISKENLI olsun diye: B1 (maliyet
-   mesafesinin karaya acilmasi) ve kademeli SADE_TOL persembeye birakildi.
-   MIMARI §2.9: iki degisikligi tek kosuya bindirmek OLCUMU OLDURUR —
-   11 Agustos'ta uc kalem bindirildi ve gunun en siki ongorusu olculemedi.
+KAPININ DURUMU — kosu surerken olculdu (23:14, `denetle_yayin.py` KOSTURULDU):
+  ✓ surum damgasi r7050 · ✓ damga artisi        (bc1a16b ile kapandi)
+  ✗ YAYIN BAYAT — 23 yerlesim dosyasi girdiden geride
+  ✗ uretim izi: taze 2 · bayat 5
+  Son iki ihlal TAM OLARAK bu kosunun urettigi seydir; kosu inince kapanir.
 
-KAPI: zincir her adimin cikis kodunu okur. denetle.py ya da
-denetle_yayin.py ihlal verirse DURUR VE YAYINLAMAZ. Bu commit'in var
+NE OLCULMEDI — ve bu damga KASITLI (`§11`):
+  Bu kosunun KENDI CIKTI sayilari (petek sayisi · alan · yeni kirilma ·
+  renk cakismasi) mesaj yazilirken HENUZ YOKTU. Onlari bu commit iddia
+  ETMIYOR. Kosu sonrasi olcumler `denetle.py` ve `renk_olc.py` ciktilarinda,
+  ve `oturumlar/TESPIH.md`de durur.
+
+NICIN BU MESAJ YENIDEN YAZILDI:
+  Onceki mesaj dosyasi 12 Agustos 2026 tarihliydi (26 gun) ve BASKA bir
+  yayini anlatiyordu ("1923 Turkiye sinirinin iki boslugu"). Bayat bir
+  mesaj dosyasi GURULTUYLE durdurmaz — SESSIZCE yanlis yazar: o baslik
+  `git log`a IKI KEZ girdi (3b2b781 · 09-05 22:31 ve 567895f · 09-07 07:17),
+  ikisi de anlatmadigi bir kosunun kalici kaydi oldu.
+  ⇒ Eksik bir dosya zinciri DURDURUR (`if not os.path.exists(MESAJ)`);
+    bayat bir dosya zinciri GECIRIR. Ikincisi daha pahali.
+
+KAPI: zincir her adimin cikis kodunu okur. `denetle.py` ya da
+`denetle_yayin.py` ihlal verirse DURUR VE YAYINLAMAZ. Bu commit'in var
 olmasi, iki kapinin da TEMIZ dedigi anlamina gelir.
 
 Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
