@@ -809,8 +809,15 @@ def oku_pencere(yol, degisken):
     #   aranmadı; bugün taranan yalnız `.push(`. (Ölçüm: tüm `data/`
     #   içinde `.push(` ile mutasyon 2, ikisi de ANTLASMALAR.)
     if ("window.%s.push(" % degisken) in js or ("%s.push(" % degisken) in js:
+        # 🔴 BAŞTAKİ "\n" ZORUNLU — süslemesi değil. Uyarı stderr'e gider,
+        # rapor stdout'a; ikisi aynı terminalde birleşir ve satır başı
+        # yoksa uyarı BİR RAPOR SATIRININ ORTASINA yapışır. Ölçüldü
+        # (7 Eylül 2026, C13 ateşleme sınavı): çıktı
+        # `1281-01-01→1622-01-01⚠️ savaslar.js: …` oldu ve uyarı,
+        # ilgisiz bir kaydın (Butuan) parçası gibi okunuyordu.
+        # ⇒ Bir nöbetçinin ÖTMESİ yetmiyor; ÖTTÜĞÜNÜN ANLAŞILMASI da gerekiyor.
         sys.stderr.write(
-            "⚠️  %s: `%s` BİLDİRİMDEN SONRA .push() ile de besleniyor — "
+            "\n⚠️  %s: `%s` BİLDİRİMDEN SONRA .push() ile de besleniyor — "
             "bu okuyucu MUTASYONU GÖREMEZ, sayı EKSİK olabilir. "
             "Doğru sayı için node ile okuyun.\n" % (os.path.basename(yol), degisken))
     # 🔴 DİZGE FARKINDALI ANAHTAR TIRNAKLAMA — 10 Ağustos 2026.
