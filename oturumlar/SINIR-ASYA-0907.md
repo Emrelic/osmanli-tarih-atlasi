@@ -44,11 +44,40 @@ atlas noktalarının `1923-10-28`deki sahibi. Sonuç: Orta Asya'nın beşi de
 
 **Sonra `devletler.js` tarandı ve hüküm sarsıldı:**
 ```
-buhara-halk-cumhuriyeti  1920-10-08 .. 1923-10-29   CANLI
-harezm-halk-cumhuriyeti  1920-04-26 .. 1923-10-29   CANLI
-tannu-tuva               1921-08-14 .. 1923-10-29   CANLI
+buhara-halk-cumhuriyeti  1920-10-08 .. 1923-10-29   künye CANLI
+harezm-halk-cumhuriyeti  1920-04-26 .. 1923-10-29   künye CANLI
+tannu-tuva               1921-08-14 .. 1923-10-29   künye CANLI
 ```
 ⇒ **Baskın kimlik, KENARDAKİ kimliği gizleyebilir.**
+
+> 🔴🔴 **BU GEREKÇE SONRADAN ÇÜRÜDÜ — ve çürüten ben oldum.** Üçünün de
+> **veride kullanılıp kullanılmadığını ölçmemiştim.** Ölçüldü:
+> ```
+> tannu-tuva               veride dönem: 0
+> buhara-halk-cumhuriyeti  veride dönem: 0
+> harezm-halk-cumhuriyeti  veride dönem: 0
+> tibet-ganden-phodrang    veride dönem: 8   ← GERÇEKTEN kullanılıyor
+> sarawak-brooke           veride dönem: 1   ← GERÇEKTEN kullanılıyor
+> ```
+> ⇒ **Künye CANLI ama VERİDE YOK.** Yani Orta Asya atlasta gerçekten tek
+> blok `sovyet-rusya`; baskın yöntemi orada bir şey gizlemiyordu.
+> 🟢 **Ders ve yöntem AYAKTA, gerekçe DEĞİŞTİ:** kenar yanı yöntemi
+> doğrulandı — ama Buhara/Hîve/Tuva ile değil, **Tibet ve Sarawak ile.**
+> O ikisi veride var ve baskın yöntemi onları gerçekten gizliyordu.
+> 📌 `§11`: *ölçüm doğru, çıkarım yanlış* — burada çıkarım doğruydu
+> (kenar yanı daha keskin), **dayanağı** yanlıştı.
+>
+> 🔴 **VE ÇÜRÜME BİR VERİ BOŞLUĞU AÇIĞA ÇIKARDI (bölgemde, benim dosyam
+> değil):** üç künye 1923'te canlı, veride sıfır kullanım ⇒ atlas Buhara
+> HSC'yi, Harezm HSC'yi ve Tannu Tuva'yı 1923'te düz `sovyet-rusya`
+> boyuyor. Bugünkü **Rusya-Moğolistan** sınırının bir bölümü 1923'te
+> **Tuva-Moğolistan** sınırıydı; **Türkmenistan-Özbekistan** ve
+> **Özbekistan** komşulukları Harezm/Buhara ile ayrışırdı.
+> ⇒ `§11`in *"veri penceresi ile künye penceresi ayrı şeylerdir"* dersi:
+> künye verinin **taahhüdü**; burada taahhüt var, veri onu ifade etmiyor.
+> ⚠️ Bu, `1923te-ic-hat` hükmümü **bugünkü veri için** değiştirmez —
+> ama künyeler uygulanırsa **7 Sovyet kenarından en az 3'ü** o kovadan
+> çıkar.
 
 **Yöntem 2 — kenar yanı.** Kenar geometrisi tamponlanır, iki poligonun
 içinde kalan noktalar ayrı sayılır. Ve gizlenmiş kimlikleri **buldu**:
@@ -156,7 +185,43 @@ delik açar, kimlik yok ⇒ **bugün yazılamaz.**
 
 ---
 
-## ⑤ AÇIK KALEMLER
+## ⑤ KAYNAK ARAMASI — TDV turu · 1 kapandı, 5'i açık kaldı
+
+Alet: `denetim/ARAC-SINIR-ASYA-TDV-0907.py` (önbellekli) ·
+çıktı `OLCUM-SINIR-ASYA-TDV-0907.json` · gövdeler `denetim/_tdv_onbellek/`
+🟢 Slug testi **iki yönde de** sınandı: 11 canlı slug **200**, kontrol
+slug'ı `bulunmayanslug` **302** ⇒ test ayırt ediyor (`C13` ateşleme).
+
+```
+🟢 hukuki 1   Afganistan–Pakistan · DURAND HATTI · 1893-11-12 · kaynak `afganistan`
+🟡 dayanak    Hindistan–Nepal · Suguali 1816 · kaynak `nepal`
+              (dayanak var, "değişti mi" sorusu AÇIK ⇒ `hukuki` YAZILMADI)
+⚪ bulunamadı İran–Türkmenistan · Afganistan–İran · Çin–Hindistan · Moğolistan–Rusya
+```
+
+🔴 **VE `§4⑧` TUZAĞININ CANLI ÖRNEĞİ ÇIKTI — İran–Türkmenistan:**
+`Ahal` araması **eşleşti**; cümle şuydu:
+> *"Türkmenler'in **Ahal Teke atı** da dünyaca ünlüdür."*
+
+Bir **sayaç** bunu *"1881 Ahal antlaşması bulundu"* diye raporlardı.
+Aletim eşleşme saymak yerine **cümleyi bastığı** için yakalandı.
+📌 ⇒ Bir kaynak taramasında **eşleşme sayısı bir dayanak değildir**;
+cümle okunmadan `hukuki` yazılamaz.
+
+⚠️ **`kesinlik` alanı DOLDURULMADI ve sebebi ölçüldü:**
+`koridor.js` → `kesinlik: 1` ve `3` (**tamsayı**, 64 kayıt) ·
+yerleşim dönemleri → `kesinlik:"ay"` · `"yuzyil"` (**dizgi**).
+**Aynı ad, iki ayrı değer alanı** — hangisinin geçtiği bu katmanda
+kararlaştırılmamış. Tahminle doldurmak **üçüncü** bir yazım üretirdi.
+
+⚠️ **Afganistan–Pakistan kapanışının sınırı, kaydın içine yazıldı:**
+TDV *"koordinatları hiç değişmedi"* **demiyor**; hükmü *"1947'de olduğu
+gibi devredildi"* ifadesinden **çıkardım.** Bu bir ÇIKARIM ve ikinci bir
+kaynak onu sınamalı.
+
+---
+
+## ⑥ AÇIK KALEMLER
 ```
 🔴 KARAR BEKLİYOR   Rusya/İran uçlu 7 kenarı ben mi yazayım? (M-3181)
 ⚪ OKUMADIM         48 "gerçek sınır adayı" kenarın hiçbirinde
