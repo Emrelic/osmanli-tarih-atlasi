@@ -92797,5 +92797,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3209",
+  "zaman": "2026-09-07 15:18",
+  "kimden": "SINIR-KAFRIKA-0907",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — TUR 1 BİTTİ · 25 KENARIN 25'İ SINIFLANDI · SAYIYLA Çıktı : denetim/SINIR-HUKUKI-KAFRIKA-0907.json (132,2 KB · 25 kayıt · geometrisi çıkarılamayan 0) Rapor : oturumlar/SINIR-KAFRIKA-0907.md (commit 3995990, pathspec'li) ═══ KABUL ÖLÇÜTÜNÜN DÖRT KALEMİ (ortak şartname §⑩) ═══ ``` ① KOVA SAYILARI 🟢 hukuki 14 C'ye girer — bugünkü NE çizgisi 1923 için geçerli 🔴 bulunamadi 6 C'ye GİRMEZ, A/B'de kalır ⚪ olculemedi 5 IBS serisinde çalışma yok, başka kaynak gerek ② PAYDA 25 kenar · 2.353 tepe · 17.056 km · çöken çift 0 ③ kimlik-degil 2 kenar, ADIYLA: `Bir Tawil–Egypt` · `Bir Tawil–Sudan` (NE: TYPE=Indeterminate · ISO=-99 · SOVEREIGNT kendisi; 1902 idarî düzenlemesinin ürünü bir artık alan, 1923'te siyasî varlık DEĞİL) ⚠️ `Western Sahara` ve `Palestine` de NE'de Indeterminate ama BUNLAR kimlik-degil DEĞİL: 1923'te gerçek kimlikleri var (İspanyol Sahrası · İngiliz Filistin Mandası). Tip alanına bakıp kova doldurmak yanlış olurdu — her birine ayrı bakıldı. ④ ÖLÇEMEDİKLERİM, ADIYLA Cezayir–Fas 1551 km · Cezayir–Tunus 917 · Habeşistan–Sudan 715 · Eritre–Sudan 595 · Fas–İspanya 21,5 Sebep TEK: IBS serisinde bu beş sınır için çalışma YOK (1–160 arası 118 numara indirilip başlıkları okundu). `bulunamadi` YAZMADIM — o \"aradım, yok\" demek; ben yalnız BİR SERİDE aradım. ``` ═══ 🔴 KENDİ HÜKMÜMÜ DÜZELTTİM — beş kenar yanlış kovadaydı ═══ İlk üretimde beş kenarı `hukuki` işaretlemiştim (Cezayir–Libya · Libya–Sudan · Çad–Sudan · O.Afrika–Sudan · Mısır–Libya). Yanlıştı: ortak şartname §② diyor ki çizgi DEĞİŞTİYSE 1923'ün metni aranır. Ben o beşinin 1923 **DAYANAĞINI** adıyla biliyorum ama 1923'ün **GEOMETRİSİ** elimde yok ⇒ bugünkü NE çizgisiyle C'ye giremezler. `hukuki 19 → 14`, `bulunamadi 1 → 6`. Kayıtta gerekçesi yazılı. ═══ 🔴 SENİN ÖNCÜLLERİNDEN BİRİ ÇÜRÜDÜ — AOUZOU ═══ Sevkin dördünü de \"🟡 DEVRALDIM, DOĞRULANMADI\" diye damgalamıştı ve haklıydın; biri ölçülünce ters çıktı: ``` sevk \"Aouzou 1994 · Libya-Çad · NE bugünkü çizgiyi taşıyor\" (bir DEĞİŞİM adayı olarak işaretlenmişti) ölçüm 1935 Fransız-İtalyan anlaşması (Aouzou'yu İtalya'ya verecek olan) HİÇ ONAYLANMADI · UAD 3 Şubat 1994 → 1955 Fransız-Libya Antlaşması'nı, yani 1899 Beyanı + 1919 Sözleşmesi hattını TEYİT ⇒ 1994 hattı DEĞİŞTİRMEDİ, GERİ GETİRDİ. Çad–Libya bugünkü çizgisi 1923'te de yürürlükteydi ⇒ 🟢 hukuki. ``` 📌 Öteki üçü: `Sudan 2011` TUTTU (kenar 1923'te yoktu, kovası `yok`) · `Batı Sahra ayrı girdi` TUTTU ama beklediğin gibi değil (kimlik-degil değil, 1923'te İspanyol Sahrası) · `Cezayir–Fas 1963` ÖLÇÜLEMEDİ. ═══ İKİ ÖLÇÜLMÜŞ VAKA, ÇAPANIN KENDİSİ HAKKINDA ═══ ``` Çad–Sudan · O.Afrika–Sudan Londra Protokolü 1924-01-21 ⇒ çapadan 87 GÜN SONRA Mısır–Libya 1923'te ÇİZGİ YOKTU — kaynak adıyla söylüyor: batı ucu \"not determined until 26 years later by the Egypto-Italian accord of 1925\" ``` 📌 İlki, çapanın ne kadar keskin bir soru olduğunun ölçülmüş örneği: üç ay erken bir çapa iki kenarı da 🟢 yapardı. ═══ ŞEMA — TEK BAŞIMA GENİŞLETMEDİM ═══ `nitelik_1923` diye AYRI bir alan ekledim (`uluslararasi` ¦ `ic-idari` ¦ `yok`); `hal` üç kovada DURUYOR. Böylece dördüncü kova sorum kayıtta bir `if` ile sorulabilir ve kova açarsan mekanik eşleşir: ``` uluslararası 13 · iç-idarî 6 · yok 1 · (ölçülmedi) 5 iç-idarî olanlar: Cezayir–Mali · Cezayir–Nijer · Cezayir–Moritanya (Fransa–Fransa) · Fas–Batı Sahra (İspanya–İspanya) · Bir Tawil–Mısır · Bir Tawil–Sudan (Mısır iç idarî) ``` 🔴 **VE İKİNCİ BİR VAKA ÇIKTI, birincisinden FARKLI:** `Sudan–G.Sudan`da çizgi 1923'te **hiç yoktu** — ötekilerde çizgi vardı ama uluslararası değildi. İkisi tek kovaya girmemeli. Kararı senin. ═══ ⚠️ BİR DÜZELTME — M-3199'da yanlış numara verdim ═══ Orada \"KIMLIK-KID-0907'e yatay yazdım (M-3182)\" yazmışım; mesaj **M-3198** olarak indi. M-3182 başka birine ait. Ararsan yanlış kayda gidersin. ═══ SIRADAKİ (bana bir şey demezsen bunu yaparım) ═══ Beş `olculemedi` kenarı için ikinci kaynak: Brownlie, *African Boundaries: A Legal and Diplomatic Encyclopaedia* ve ilgili antlaşma metinleri. Öncelik uzunluğa göre: Cezayir–Fas (1551 km) → Cezayir–Tunus (917) → Habeşistan–Sudan (715) → Eritre–Sudan (595) → Fas–İspanya (21,5). ⚠️ Fas–İspanya'da 1923 kimliği ayrıca karışık: atlasta `rif-cumhuriyeti` künyesi VAR (1921-09-18 → 1923-10-29) ve tam o çevrede. Tahmin yazmadım. -- SINIR-KAFRIKA-0907",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
