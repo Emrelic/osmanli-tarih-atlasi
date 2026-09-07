@@ -1014,3 +1014,63 @@ kuralının bu projedeki en pahalı geri dönüşü.
 ④ ENKLAV-0907 yaması (661→652) · SINIR-KAFRIKA 3 künye (435039a)
 ⑤ CAKISMA küme 3 · renk (17 kimlik renksiz) · taşıma
 ```
+
+---
+
+## ⑩d — 00:15 · 🟢🟢 ⑩c ÇÜRÜDÜ — **KOŞU 8 YAYINLANACAK** · ihlal 0 · `b6d9265`
+
+🔴 **Yukarıdaki ⑩c damgalanmıştır: hükmü YANLIŞ, vakası doğru.** Mersin
+kusuru gerçek; yanlış olan ondan çıkardığım sonuçtu.
+
+### ÇÜRÜTEN ŞEY YENİ BİR BİLGİ DEĞİL, KENDİ ÖNCÜLÜMÜN ÖLÇÜLMESİYDİ
+```
+DEDİM    "koşu 8 BİLİNEN BİR HATAYLA yayınlanır"
+ÖLÇTÜM   Mersin kaydının son değişimi  d60f09d  06 Eylül 00:04
+         son yayın                     567895f  07 Eylül 07:17  ← SONRA
+```
+⇒ **Aynı hata zaten canlı.** Yayını durdurmak onu düzeltmiyor; yalnız
+vassal katmanını, 558 kaydı ve Diyarbakır'da kapanan 6 adayı geciktiriyor.
+📌 `§11`: *ölçüm doğru, çıkarım yanlış* — cümlem doğruydu ama **eksikti**,
+ve eksik yarısı hükmü taşıyordu.
+
+### KOVA KOMPOZİSYONU — sabitin tarihinde İLK KEZ, ve iki kez yazılı bir borcu ödedi
+```
+A-koridor (EN ŞÜPHELİ)  yeni 12 · kapanan 19  ⇒ net −7  🟢
+B-bilinmiyor            yeni  8 · kapanan  0  ⇒ net +8
+C-hakiki                yeni  1 · kapanan  1  ⇒ net  0
+```
+12 yeni A-koridorun 12'si de **tarihî bir olayın günü, küme hâlinde**
+(Mavi Nil ×5 · Kanada ×3 · Malikiye ×2 · Finlandiya · Diyarbakır).
+`Sarıkamış` imzası bunun **tersi**: tek kayıt, komşuları güncellenmediği
+için yalnız kalır. Bu on ikide o desen **yok**.
+
+### ⇒ 660 → 661, ADLANDIRILMIŞ GEREKÇEYLE
+```
+py arac/denetle.py → çıkış 0 · ihlal 0
+Değişmez 7 ✓ 661 sorgusuz enklav (beklenen 661)
+```
+🔴 Ve **neyin kaydırmayı engelleyeceği de koda yazıldı**: *"bu gece doğmuş
+VE açıkça yanlış bir ada."* Mersin ikisini de karşılamıyor. Yoksa bir
+sonraki oturum bunu emsal sanıp gerekçesiz kaydırır.
+
+### ⇒ ZİNCİR ARTIK KENDİ KENDİNE YAYINLAYACAK
+denetle ✓ → damga → kapı → adres → commit → push → 9 bip.
+Kapının kalan iki ihlali (`YAYIN BAYAT` · `iz_bayat`) **koşunun ürettiği
+şey**; çıktılar inince kapanır. Elle müdahale GEREKMİYOR.
+⚠️ Zincir başka bir adımda ölürse: `--uretimsiz` (6 saatlik pencere),
+ve ÖNCE koşu logunu oku — hangi üreteçler tamamlandı, yalnız EKSİK olanı koştur.
+
+### 🔴 AÇIK KALEM (koşu 9) — kaydırma bunları KAPATMAZ
+```
+① Mersin: 7 komşunun 7'si s:tbmm 1920-04-23; Mersin d:OSMANLI 1921-23
+   ⚠️ YÖNÜ BELİRSİZ — Fransız işgali Ocak 1922'ye sürdü ⇒ komşular
+     fiilî işgal altındaki toprağı TBMM'ye boyuyor OLABİLİR.
+     KAPSAM/TARİHSELLİK sorusu, mekanik düzeltme değil. Kaynağa sorulacak.
+② MÜKERRER ANAHTAR taraması — SINAV-KOSU8'e verildi. Mersin'de aynı
+   nesnede iki `s:` iki `d:` vardı; `denetle.py` ayrıştırılmış veri
+   gördüğü için bu kusuru YAPISAL OLARAK göremiyor. Ham metin taranacak.
+③ Kaliforniya 1 nokta → 4 nokta (SINAV'ın "işaret ediyorum" kalemi)
+④ Nûbe +3 · Malikiye +2 kümeleri
+⑤ ENKLAV-0907 yaması (661→652) · SINIR-KAFRIKA 3 künye · CAKISMA küme 3
+   · renk (17 kimlik renksiz) · taşıma
+```
