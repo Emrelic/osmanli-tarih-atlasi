@@ -102,6 +102,36 @@ yüksek olan o.
 fonksiyonu değil: `setData` çağrıldıktan sonra MapLibre'nin kendi
 işi (yeniden üçgenleme, döşeme). Bu bir **hipotez**, ölçülmedi.
 
+## ③d 🔴🔴 ③c ÇÜRÜDÜ — `olayaGit` PAHALI DEĞİL, KENDİ İŞİ **SIFIR**
+
+`③c`de *"`olayaGit` çağrı başına `guncelle`nin ÜÇ KATI pahalı"* yazmıştım.
+**YANLIŞ.** Kaynağı okuyunca görüldü: `olayaGit` gövdesinde `tarihAyarla(o.gi)`
+**çağırıyor** ⇒ ölçtüğüm 849 ms **KAPSAYAN** süreydi ve `guncelle`nin
+1090'ıyla **ÇAKIŞIYORDU**. Çift saydım.
+
+Yığın tutan bir sarmalayıcıyla **DIŞLAYAN (self)** süre ölçüldü:
+```
+pencere 15.343 ms · BLOK 2.913 ms (%19,0)
+  guncelle            SELF 1.002 ms · 12 çağrı ·  83,5 ms/çağrı · azami 280
+  haritayiOlayaGotur  SELF   328 ms ·  3 çağrı · 109,3 ms/çağrı · azami 201  🆕
+  obGoster            SELF     5 ms ·  8 çağrı
+  tarihAyarla         SELF     1 ms  ← hepsi `guncelle`de
+  olayaGit            SELF     0 ms  ← TAMAMI çocuklarında, KENDİ İŞİ YOK
+  kameraKilitle · agirBaslat  SELF 0
+  ─────────────────────────────────────────────────────────────
+  ölçülen SELF toplam 1.336 ms
+  AÇIKLANAMAYAN       1.577 ms   %54,1
+```
+🟢 **GERÇEK YAPRAKLAR İKİ:** `guncelle` (toplamda en büyük) ve
+`haritayiOlayaGotur` (**çağrı başına en büyük**, 109,3 ms).
+🔴 Ve `olayaGit` bir **saf sarmalayıcı** — onu optimize etmek hiçbir şey
+kazandırmaz. `③c`nin hükmü geri alınmıştır.
+
+📌 **DERS:** kapsayan süreyi birim maliyet gibi okumak, bir sarmalayıcıyı
+darboğaz sanmaya yol açar. `§11`in *"sayım birimi"* ailesi — ve bu sefer
+birim değil **kapsam** yanlıştı. Ölçümü düzelten şey bir alet değil,
+**fonksiyonun gövdesini okumak** oldu.
+
 ## ④ ÖLÇMEDİKLERİM
 
 ```
