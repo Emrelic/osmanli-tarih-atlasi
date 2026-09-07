@@ -31,25 +31,25 @@
 window.YERLESIMLER_EK25 = [
 
 // ───────── TÜRKİYE YAKASI (kuzey) ─────────
-{ ad:"Kilis",kaynak:"TDV `kilis` (gövdesi okundu): Halep eyaletine bağlı livâ merkezi; Mısır dönemi cümlesi YOK. Halep'in düşüşü 15 Temmuz 1832, Belen 29 Temmuz 1832 (TDV `ibrahim-pasa-kavalali`). Bitiş külliyatın Halep günü.", tur:"kasaba", lat:36.716, lon:37.115, g:0, k:3, m:"Halep",
-  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet"}],
-  d:[{f:"1516-08-24",t:"1918-10-30"},{f:"1921-10-20",t:"1923-10-29"}], v:[{f:"1832-07-29",t:"1841-02-25",k:"Mısır (İbrâhim Paşa)",statu:"vassal",kid:"misir-kavalali"}] },
+{ ad:"Kilis",isg:[{f:"1918-12-06",t:"1919-10-29",d:"ingiltere",kaynak:"TDV `kilis` — kaynaklı"},{f:"1919-10-29",t:"1921-12-23",d:"fransa-cumhuriyet",kaynak:"TDV `kilis` — kaynaklı"}],kaynak:"TDV `kilis` (gövdesi okundu): Halep eyaletine bağlı livâ merkezi; Mısır dönemi cümlesi YOK. Halep'in düşüşü 15 Temmuz 1832, Belen 29 Temmuz 1832 (TDV `ibrahim-pasa-kavalali`). Bitiş külliyatın Halep günü.", tur:"kasaba", lat:36.716, lon:37.115, g:0, k:3, m:"Halep",
+  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1516-08-24",t:"1920-04-23"}], v:[{f:"1832-07-29",t:"1841-02-25",k:"Mısır (İbrâhim Paşa)",statu:"vassal",kid:"misir-kavalali"}] },
 
-{ ad:"Suruç", tur:"kasaba", lat:36.976, lon:38.427, g:0, k:3, m:"Halep",
-  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet"},{f:"1921-10-20",t:"1923-10-29",d:"tbmm-turkiye"}],
-  d:[{f:"1516-08-24",t:"1918-10-30"}], v:[] },
+{ ad:"Suruç",isg:[{f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet",kaynak:"bulunamadı — TDV'de müstakil madde YOK (302) ve kapsayıcı maddeler (adana · tarsus · osmaniye · sanliurfa) bu yerleşimi işgal bağlamında ANMIYOR; gün mevcut veriden devralındı, KAYNAKSIZ"}], tur:"kasaba", lat:36.976, lon:38.427, g:0, k:3, m:"Halep",
+  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1516-08-24",t:"1920-04-23"}], v:[] },
 
-{ ad:"Akçakale", tur:"kasaba", lat:36.710, lon:38.947, g:0, k:3, m:"Halep",
-  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet"},{f:"1921-10-20",t:"1923-10-29",d:"tbmm-turkiye"}],
-  d:[{f:"1516-08-24",t:"1918-10-30"}], v:[] },
+{ ad:"Akçakale",isg:[{f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet",kaynak:"bulunamadı — TDV'de müstakil madde YOK (302) ve kapsayıcı maddeler (adana · tarsus · osmaniye · sanliurfa) bu yerleşimi işgal bağlamında ANMIYOR; gün mevcut veriden devralındı, KAYNAKSIZ"}], tur:"kasaba", lat:36.710, lon:38.947, g:0, k:3, m:"Halep",
+  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1516-08-24",t:"1920-04-23"}], v:[] },
 
-{ ad:"Ceylanpınar",neden:"Nusaybin ile aynı desen; Osmanlı günü (1516-08-24, Mercidâbık) DEĞİŞMEDİ.",kaynak:"ankraj Mardin (75 km) — külliyattaki zincir", tur:"kasaba", lat:36.845, lon:40.043, g:0, k:3, m:"Diyarbakır",
-  s:[{f:"1281-01-01",t:"1409-01-01",d:"artuklu"},{f:"1409-01-01",t:"1467-11-10",d:"karakoyunlu"},{f:"1467-11-10",t:"1507-01-01",d:"akkoyunlu"},{f:"1507-01-01",t:"1516-08-24",d:"safevi"},{f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet"},{f:"1921-10-20",t:"1923-10-29",d:"tbmm-turkiye"}],
-  d:[{f:"1516-08-24",t:"1918-10-30"}], v:[] },
+{ ad:"Ceylanpınar",isg:[{f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet",kaynak:"bulunamadı — TDV'de müstakil madde YOK (302) ve kapsayıcı maddeler (adana · tarsus · osmaniye · sanliurfa) bu yerleşimi işgal bağlamında ANMIYOR; gün mevcut veriden devralındı, KAYNAKSIZ"}],neden:"Nusaybin ile aynı desen; Osmanlı günü (1516-08-24, Mercidâbık) DEĞİŞMEDİ.",kaynak:"ankraj Mardin (75 km) — külliyattaki zincir", tur:"kasaba", lat:36.845, lon:40.043, g:0, k:3, m:"Diyarbakır",
+  s:[{f:"1281-01-01",t:"1409-01-01",d:"artuklu"},{f:"1409-01-01",t:"1467-11-10",d:"karakoyunlu"},{f:"1467-11-10",t:"1507-01-01",d:"akkoyunlu"},{f:"1507-01-01",t:"1516-08-24",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1516-08-24",t:"1920-04-23"}], v:[] },
 
-{ ad:"Nusaybin",not:"BİRLEŞİM (1.MURAT, hüküm M-2116): yer_yama_ok110.js'in artuklu/karakoyunlu erken katmanı + yer_yama_ok107.js'in 1515-01-01 → 1515-09-19 gün düzeltmesi. İkisi de TDV kaynaklı, farklı kısımlar için; ayrı ayrı uygulansalar biri ötekini yerdi.",kaynak:"nusaybin", tur:"kasaba", lat:37.077, lon:41.215, g:0, k:3, m:"Diyarbakır",
-  s:[{f:"1281-01-01",t:"1409-01-01",d:"artuklu"},{f:"1409-01-01",t:"1467-11-10",d:"karakoyunlu"},{f:"1467-11-10",t:"1507-01-01",d:"akkoyunlu"},{f:"1507-01-01",t:"1515-09-19",d:"safevi"},{f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet"},{f:"1921-10-20",t:"1923-10-29",d:"tbmm-turkiye"}],
-  d:[{f:"1515-09-19",t:"1918-10-30"}], v:[] },
+{ ad:"Nusaybin",isg:[{f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet",kaynak:"TDV `nusaybin` — veriden devralındı — kaynaksız"}],not:"BİRLEŞİM (1.MURAT, hüküm M-2116): yer_yama_ok110.js'in artuklu/karakoyunlu erken katmanı + yer_yama_ok107.js'in 1515-01-01 → 1515-09-19 gün düzeltmesi. İkisi de TDV kaynaklı, farklı kısımlar için; ayrı ayrı uygulansalar biri ötekini yerdi.",kaynak:"nusaybin", tur:"kasaba", lat:37.077, lon:41.215, g:0, k:3, m:"Diyarbakır",
+  s:[{f:"1281-01-01",t:"1409-01-01",d:"artuklu"},{f:"1409-01-01",t:"1467-11-10",d:"karakoyunlu"},{f:"1467-11-10",t:"1507-01-01",d:"akkoyunlu"},{f:"1507-01-01",t:"1515-09-19",d:"safevi"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1515-09-19",t:"1920-04-23"}], v:[] },
 
 { ad:"Silopi",not:"BİRLEŞİM (1.MURAT, hüküm M-2116): ok110'un erken katmanı + ok107'nin gün düzeltmesi. ⚠️ TDV `silopi` slug'ı ÖLÜ (302); dayanak TDV `cizre` — Cizre ve çevresi aynı Doğu Anadolu harekâtında alındı, Diyarbekir eyaletine bağlandı.",kaynak:"cizre", tur:"kasaba", lat:37.246, lon:42.470, g:0, k:3, m:"Diyarbakır",
   s:[{f:"1281-01-01",t:"1409-01-01",d:"artuklu"},{f:"1409-01-01",t:"1467-11-10",d:"karakoyunlu"},{f:"1467-11-10",t:"1507-01-01",d:"akkoyunlu"},{f:"1507-01-01",t:"1515-09-19",d:"safevi"},{f:"1918-10-30",t:"1921-10-20",d:"ingiltere"},{f:"1921-10-20",t:"1923-10-29",d:"tbmm-turkiye"}],

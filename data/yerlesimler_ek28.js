@@ -46,10 +46,10 @@
 window.YERLESIMLER_EK28 = [
 
 // ───────── ① PAYAS DÜZELTMESİ (ek27.js:63-65'in YERİNE geçecek) ─────────
-{ ad:"Payas",kaynak:"Belen muharebesi 29 Temmuz 1832 (TDV `ibrahim-pasa-kavalali`) Payas'ın hemen kuzeyindeki geçitte; Adana bölgesi 1833-1840 İbrâhim Paşa'da (TDV `adana`, gövdesi okundu: '1833-1840 yıllarında ... İbrâhim Paşa'nın eline geçmiş, Londra Antlaşması ile de 1841'de tekrar Osmanlı Devleti'ne bağlanmıştır'). Bitiş külliyatın Adana günü.", tur:"kale", lat:36.755, lon:36.213, g:0, k:3, m:"Halep",
+{ ad:"Payas",isg:[{f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet",kaynak:"bulunamadı — TDV'de müstakil madde YOK (302) ve kapsayıcı maddeler (adana · tarsus · osmaniye · sanliurfa) bu yerleşimi işgal bağlamında ANMIYOR; gün mevcut veriden devralındı, KAYNAKSIZ"}],kaynak:"Belen muharebesi 29 Temmuz 1832 (TDV `ibrahim-pasa-kavalali`) Payas'ın hemen kuzeyindeki geçitte; Adana bölgesi 1833-1840 İbrâhim Paşa'da (TDV `adana`, gövdesi okundu: '1833-1840 yıllarında ... İbrâhim Paşa'nın eline geçmiş, Londra Antlaşması ile de 1841'de tekrar Osmanlı Devleti'ne bağlanmıştır'). Bitiş külliyatın Adana günü.", tur:"kale", lat:36.755, lon:36.213, g:0, k:3, m:"Halep",
   // kaynak: UK Cmd.1556 / LNTS Vol.54 pp.178-193, Ankara İtilâfnâmesi Md.8 (doğrulandı, bkz. yukarı)
-  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet"}],
-  d:[{f:"1516-08-24",t:"1918-10-30"},{f:"1921-10-20",t:"1923-10-29"}], v:[{f:"1832-07-29",t:"1841-02-25",k:"Mısır (İbrâhim Paşa)",statu:"vassal",kid:"misir-kavalali"}] },
+  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1516-08-24",t:"1920-04-23"}], v:[{f:"1832-07-29",t:"1841-02-25",k:"Mısır (İbrâhim Paşa)",statu:"vassal",kid:"misir-kavalali"}] },
 
 // ───────── ③ ÇUKUROVA · İskenderun körfezinin KUZEY kıyısı ─────────
 // Kaynak (üçü için): TÜBA "Occupation and Liberation of Adana" (Nejla
@@ -58,29 +58,29 @@ window.YERLESIMLER_EK28 = [
 // TDV bu taneciği (kaza/nahiye düzeyi) kapsamıyor — dortyol/erzin/
 // yumurtalik sluglarının hepsi 302 (ölü). Akademik kaynağa geçildi, §4.
 
-{ ad:"Dörtyol",kaynak:"Adana sancağının doğrulanmış işgal dönemi (parti-emrelic-0036/H-0011, ve savaslar.js:436-437 Kütahya Sözleşmesi) — aynı idari birim, sancak merkezinin tarihiyle tutarlılık", tur:"kasaba", lat:36.845, lon:36.221, g:0, k:3, m:"Adana",
+{ ad:"Dörtyol",isg:[{f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet",kaynak:"bulunamadı — TDV'de müstakil madde YOK (302) ve kapsayıcı maddeler (adana · tarsus · osmaniye · sanliurfa) bu yerleşimi işgal bağlamında ANMIYOR; gün mevcut veriden devralındı, KAYNAKSIZ"}],kaynak:"Adana sancağının doğrulanmış işgal dönemi (parti-emrelic-0036/H-0011, ve savaslar.js:436-437 Kütahya Sözleşmesi) — aynı idari birim, sancak merkezinin tarihiyle tutarlılık", tur:"kasaba", lat:36.845, lon:36.221, g:0, k:3, m:"Adana",
   // GEREKÇE k:3: 1909'da padişah iradesiyle Adana vilayeti Cebel-i Bereket
   // sancağına bağlı KAZA MERKEZİ oldu (öncesi Payas/Erzin'e bağlı nahiye).
   // kaynak: dergipark "Cebel-i Bereket Sancağının İdari Yapısı"; TÜBA (işgal/tahliye)
-  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet"},{f:"1921-10-20",t:"1923-10-29",d:"tbmm-turkiye"}],
-  d:[{f:"1516-08-24",t:"1918-10-30"}], v:[] },
+  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1516-08-24",t:"1920-04-23"}], v:[] },
 
-{ ad:"Erzin",kaynak:"bkz. H-0007 (Dörtyol)", tur:"kasaba", lat:36.955, lon:36.201, g:0, k:4, m:"Adana",
+{ ad:"Erzin",isg:[{f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet",kaynak:"bulunamadı — TDV'de müstakil madde YOK (302) ve kapsayıcı maddeler (adana · tarsus · osmaniye · sanliurfa) bu yerleşimi işgal bağlamında ANMIYOR; gün mevcut veriden devralındı, KAYNAKSIZ"}],kaynak:"bkz. H-0007 (Dörtyol)", tur:"kasaba", lat:36.955, lon:36.201, g:0, k:4, m:"Adana",
   // GEREKÇE k:4 (k:3 DEĞİL): 1906-1909 arası GEÇİCİ olarak Cebel-i Bereket
   // sancak merkeziydi, ama 1909 reorganizasyonuyla Dörtyol kazasına bağlı
   // NAHİYE statüsüne düştü — 1923 itibariyle müstakil kaza değil.
   // kaynak: dergipark "Cebel-i Bereket Sancağının İdari Yapısı"
-  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet"},{f:"1921-10-20",t:"1923-10-29",d:"tbmm-turkiye"}],
-  d:[{f:"1516-08-24",t:"1918-10-30"}], v:[] },
+  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1516-08-24",t:"1920-04-23"}], v:[] },
 
-{ ad:"Yumurtalık",kaynak:"bkz. H-0007 (Dörtyol)", tur:"liman", lat:36.7721, lon:35.7870, g:0, k:4, m:"Adana",
+{ ad:"Yumurtalık",isg:[{f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet",kaynak:"bulunamadı — TDV'de müstakil madde YOK (302) ve kapsayıcı maddeler (adana · tarsus · osmaniye · sanliurfa) bu yerleşimi işgal bağlamında ANMIYOR; gün mevcut veriden devralındı, KAYNAKSIZ"}],kaynak:"bkz. H-0007 (Dörtyol)", tur:"liman", lat:36.7721, lon:35.7870, g:0, k:4, m:"Adana",
   // GEREKÇE k:4 (k:3 DEĞİL): Ceyhan kazasına bağlı NAHİYE merkeziydi,
   // müstakil kaza değildi (117 köy + 26 çiftlikli Ceyhan kazasının bir parçası).
   // kaynak: dergipark "Cebel-i Bereket Sancağının İdari Yapısı"
   // ⚠️ İşgal/tahliye için Yumurtalık'a ÖZEL tarih bulunamadı — bölgesel
   // Çukurova çerçevesi (Mersin/Payas ile aynı) kullanıldı, bkz. yukarı not.
-  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet"},{f:"1921-10-20",t:"1923-10-29",d:"tbmm-turkiye"}],
-  d:[{f:"1516-08-24",t:"1918-10-30"}], v:[] },
+  s:[{f:"1281-01-01",t:"1516-08-24",d:"memluk"},{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1516-08-24",t:"1920-04-23"}], v:[] },
 
 // ───────── ⑥ DOĞU SINIRI · Gürcistan hattının BATI (Karadeniz kıyısı) ucu ─────────
 // Kaynak: sınır komisyonu tarifi (1878 Berlin) — "sınır sahilde Esenkıyı
