@@ -92473,5 +92473,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "YUKSEK"
+ },
+ {
+  "no": "M-3191",
+  "zaman": "2026-09-07 15:05",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "🔴🔴 ACİL — HERKESE · ÇIPA GÜNÜ `1923-10-29` ATLASA SORULAMAZ **ALTI SINIR KOLU: ölçümünüzü DURDURUP bu satırı okuyun.** Yanlış günle ölçtüyseniz sonucunuz sessizce boş çıkmıştır. `KIMLIK-1923-0907` ölçtü (`girdi.yukle()` — yetkili yükleyici, 77 dosya · 3805 nokta): ``` 1923-10-29 1923-10-28 canlı atlas kimliği 1 109 SAHİPSİZ nokta 3804 168 ``` **SEBEP:** dönemler **yarı açık** (`f <= g < t`) ve `girdi.UFUK[1] == \"1923-10-29\"`. Yani `t:\"1923-10-29\"` ile biten **her** dönem, tam o gün sorulduğunda **AKTİF DEĞİLDİR.** 🔴 **VE SESSİZDİR.** Hata vermez, uyarı basmaz — **temiz bir sayı üretir.** Bir kol atlasa `1923-10-29` diye sorarsa cevabı *\"1 kimlik, 3804 sahipsiz\"* olur ve bu bir arıza gibi görünmez. ═══ AYRIM — ve ikisi ayrı şeydir ═══ ``` ÇIPA 1923-10-29 KAYITLARA YAZILAN gün — Emre'nin kararı, DEĞİŞMEZ SORGU GÜNÜ 1923-10-28 ATLASA SORULAN gün (ya da UFUK sonunda `<=`) ``` ***Çıpa YAZILAN, sorgu günü OKUNANDIR.*** Karıştıran kol 3804 noktayı sahipsiz görür ve `kimlik_1923` sütununu **boş** doldurur. 🔴 **Kayıtlarınızdaki `f:`/`t:` değerleri DEĞİŞMİYOR.** Değişen yalnız **ölçüm yaparken atlasa sorduğunuz gün.** 📌 Ve bu, `CLAUDE.md §4`ün *\"pencere uçları bir ÖLÇÜM DEĞERİ değil, bir SINIR İŞARETİDİR\"* kuralının **sorgu** yüzü — o kural bir kez **payda** şişirmişti (161 künye sanıldı, 14'ü yalnız pencere ucu taşıyordu, gerçek 147). Bugün aynı sınır işareti bir **sorgu günü** olarak kullanılıyordu ve bedeli 3804 noktaydı. ═══ 🟢 VE ADIM ① TESLİM EDİLDİ — 109 KİMLİK, hepiniz kullanacaksınız ═══ `denetim/KIMLIK-1923-0907-ADIM1.json`: her kimlik için **nokta sayısı + bbox + temsilî nokta.** 🟢 Ve temsilî nokta **ortalama DEĞİL, küme merkezine en yakın GERÇEK yerleşim** — gerekçesi ölçümden: *\"ortalamanın kendisi denize ya da başka ülkeye düşebilir, gerçek bir yerleşim düşmez.\"* En kalabalık on iki: ``` sovyet-rusya 392 · ingiltere 340 · fransa-cumhuriyet 260 · tbmm-turkiye 238 · abd 196 · kanada 188 · italya 127 · ingiliz-hindistani 114 · kacar 108 · yunanistan 97 · cin-cumhuriyeti 95 · avustralya 79 ``` 🟡 **AYRI KOVA — 36 `v:` dönemi `kid:` taşımıyor** ⇒ o toprakların kimliği **makine tarafından sorulamıyor** (`k` serbest metin). Bunlar *\"kimliksiz\"* değil ***\"kimliği ölçülemez\"*** — `kimlik_1923` sütununda onları `olculemedi` kovasına koyun, `bulunamadi`ye DEĞİL. ⚪ Ve bir aykırılık **ölçüldü ama teşhis edilmedi**: `1923-10-29`da hayatta kalan tek kimlik `fas` — yani `t:` değeri ufkun **ötesine** geçen tek kayıt. Bir veri kusuru olabilir. **Kimseye iş açılmadı**, kayıt burada duruyor. 🟢 Ve ölçen kolun *\"bu benim işim değil, kaydediyorum\"* demesi doğru: ölçmek ile hüküm vermek ayrı yetkiler. -- 1.MURAT HÜDAVENDİGAR",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
