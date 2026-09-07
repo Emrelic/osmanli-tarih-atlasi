@@ -1,0 +1,79 @@
+{
+ "_NOT": "savas_senkronu kapsam ölçümü. HÜKÜM YOK. Üçüncü ölçüt (kayıt bir OLAY mı) ölçülemez, alan listesinden okunur.",
+ "kronoloji_madde": 1323,
+ "kumeler": {
+  "SAVASLAR": {
+   "kayit": 171,
+   "t_var": 171,
+   "gun_hassas": 171,
+   "ayristirilamayan": [],
+   "senkron_toplam": 171,
+   "senkron_acik": 8,
+   "oran": 95.3,
+   "alanlar": [
+    "ad",
+    "bitis",
+    "galip",
+    "lat",
+    "lon",
+    "seri",
+    "sonuc",
+    "sure",
+    "t",
+    "taraf",
+    "taraf_metin",
+    "tur"
+   ]
+  },
+  "ANTLASMALAR": {
+   "kayit": 31,
+   "t_var": 31,
+   "gun_hassas": 31,
+   "ayristirilamayan": [],
+   "senkron_toplam": 31,
+   "senkron_acik": 0,
+   "oran": 100.0,
+   "alanlar": [
+    "ad",
+    "lat",
+    "lon",
+    "ozet",
+    "savas_basi",
+    "t",
+    "taraf",
+    "taraf_metin",
+    "topraklar"
+   ]
+  },
+  "SEFERLER": {
+   "kayit": 61,
+   "t_var": 61,
+   "gun_hassas": 61,
+   "ayristirilamayan": [],
+   "senkron_toplam": 61,
+   "senkron_acik": 18,
+   "oran": 70.5,
+   "alanlar": [
+    "ad",
+    "f",
+    "renk",
+    "sonuc",
+    "t",
+    "taraf",
+    "tur",
+    "yol"
+   ]
+  },
+  "SERILER": {
+   "kayit": 16,
+   "t_var": 0,
+   "kapsam_disi": true,
+   "alanlar": [
+    "ad",
+    "aralik",
+    "id",
+    "ozet"
+   ]
+  }
+ }
+}

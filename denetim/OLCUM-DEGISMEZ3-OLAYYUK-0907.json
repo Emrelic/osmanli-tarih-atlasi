@@ -1,0 +1,16 @@
+{
+ "_NOT": "`:924` sınavı — dosya sayısı == `window.OLAYLAR*` taşıyan sayısı. Kapsam: yalnız `olaylar*.js`; `kronoloji*.js` KASTEN dışarıda (CLAUDE.md §5 iki kova). Ateşleme `data/` DIŞINDA yapıldı — koşu 8'de `data/` donuk.",
+ "gercek_veri": {
+  "dosya": 35,
+  "sessizce_elenen": [],
+  "benzersiz_degisken": 35,
+  "kronoloji_dosyasi": 42,
+  "kronolojide_OLAYLAR": []
+ },
+ "c13": {
+  "gecme": true,
+  "atesleme": true,
+  "kapsam": true,
+  "hata": 0
+ }
+}

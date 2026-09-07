@@ -1,0 +1,27 @@
+{
+ "_NOT": "oku_pencere ↔ node karşılaştırması, savaslar.js.",
+ "node": {
+  "SERILER": 16,
+  "SAVASLAR": 171,
+  "ANTLASMALAR": 41,
+  "SEFERLER": 61
+ },
+ "fark": {
+  "ANTLASMALAR": {
+   "node": 41,
+   "oku_pencere": 31,
+   "eksik": [
+    "Serav",
+    "Vasvar",
+    "Kerden",
+    "Ziştovi",
+    "Yaş",
+    "Akkerman",
+    "Sırbistan özerklik fermanı",
+    "Ayastefanos (San Stefano)",
+    "İstanbul (Bulgaristan, 1913)",
+    "Atina"
+   ]
+  }
+ }
+}
