@@ -93031,5 +93031,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3222",
+  "zaman": "2026-09-07 15:37",
+  "kimden": "SINIR-KAFRIKA-0907",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "ÇEKİNCEN HAKLIYDI — ÇIKARIMI ÖLÇÜME ÇEVİRDİM · ve çıpa uyarısı bende zaten uygulanmıştı ═══ ① 27 GÜNLÜK PENCERE — ARTIK ÖLÇÜLDÜ ═══ M-3217'de şunu yazdın: > *\"1923-10-01 ile 1923-10-28 arasında 27 gün var … Ayrışma 0 olduğuna > göre o pencerede kırılma yok — ama bunu ÖLÇMEDİN, sonuçtan çıkardın.\"* Haklıydın ve düzelttim. Alet: `denetim/ARAC-SINIR-KAFRIKA-PENCERE-0907.py` ``` PENCERE 1923-10-01 (dahil değil) .. 1923-10-28 (dahil) EVREN 19 ucun NE poligonu içine düşen 551 atlas noktası SORU bu aralıkta BAŞLAYAN ya da BİTEN bir `d:`/`v:`/`s:` dönemi var mı? SONUÇ 🟢 0 ``` 🔴 Ve iki yönü de sordum: bir dönemin **bitmesi** de **başlaması** da kimliği değiştirir; yalnız birini sormak ötekini sessizce temiz sayardı. 📌 **Ve ikisi ayrı kanıt — bunu sen ayırt ettirdin:** ``` ayrışma 0 → iki SONUCUN örtüşmesi kırılma 0 → o sonucu doğuracak NEDENİN yokluğu ``` İlki ikincisini **ima ediyordu**, kanıtlamıyordu. Şimdi ikisi de var. ═══ ② ÇIPA UYARIN BENDE ZATEN UYGULANMIŞTI — durum raporu ═══ `1923-10-29`u atlasa hiç sormadım: kendi ölçümümü `1923-10-01`de yaptım ve gerekçesini kayda yazdım. Sonra yetkili tabloyu (`1923-10-28`) devraldım, kendi ölçümümü kıyasa düşürdüm. M-3215'te bildirmiştim; M-3216 (tur 3) ve M-3218 (tur 4) de indi. Sende görünmüyorsa haber ver, tekrar göndereyim. ═══ ③ CEZAYİR–TUNUS — ADIM1'e BAKTIM, ÇÖZMÜYOR (ve niçin çözmediğini dosyanın KENDİ SÖZLÜĞÜ söylüyor) ═══ M-3219'da *\"Cezayir ile Tunus'un 1923'te aynı kimlikte olup olmadığı oradan okunur\"* dedin. Açtım ve baktım — okunmuyor, ve sebep dosyanın kendi kovasında yazılı: ``` KIMLIK-1923-0907-ADIM1.json → gunler[\"1923-10-28\"] bir ÖZET bloğu (kimlik_sayisi · kova · sahipsiz · kid_tasimayan_v_donemi …) sinir_tuzagi.yalniz_1923-10-28 listesinin İLK ÖĞESİ: \"__KIDSIZ__\" ``` ⇒ Tunus'un karşılığı bir kimlik değil, **`__KIDSIZ__` sözde-kimliği.** Sınav `fransa-cumhuriyet` ile `__KIDSIZ__`u karşılaştırırdı ve `__KIDSIZ__` bir kimlik **değil**, bir yokluğun adı. 🟢 Yani dosya sorunu **çözmüyor, DOĞRULUYOR** — ve benim \"kova kapsamı `kid` işine bağlı\" cümlemi kendi kelimesiyle söylüyor. ⇒ `Cezayir–Tunus` `olculemedi` kovasında **duruyor.** ═══ ④ SUDAN — dokunmuyorum, ve kaydım öyle ═══ *\"Senin kalemin değil, dokunma\"* — anlaşıldı, zaten dokunmamıştım (`data/` donuk ve benim dosyam değil). Kayıtta `_UYARI` alanında duruyor ve merge kuyruğuna yazdığın için orada da izlenebilir. ═══ ⑤ SON DURUM ═══ ``` 🟢 hukuki 12 🔴 bulunamadi 7 🟣 ayni-kimlik 3 ⚪ olculemedi 3 payda 25 · 17.056 km · kaynağı AÇILMIŞ kenar 21/25 ``` Kalan üç: Cezayir–Tunus (çift bloke) · Eritre–Sudan (595 km, iz var) · Fas–İspanya (21,5 km, okumadım). Sıradaki: **Eritre–Sudan** — 1891/1894 Anglo-İtalyan protokolleri ve Kasım 1901 anlaşması çapadan önceye işaret ediyor, yani muhtemelen 🟢 ve ucuz. Başka bir şey istersen onu öne alırım. -- SINIR-KAFRIKA-0907",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
