@@ -1,0 +1,33 @@
+{
+ "_NOT": "«kurtuluş» kalıbının ölçeklenmesi.",
+ "kurtulus_madde": 6,
+ "fransiz_sablonu": 4,
+ "olasi_cift": 6,
+ "pencere_ici_cift": 6,
+ "maddeler": [
+  {
+   "t": "1921-12-23",
+   "b": "Kilis'in kurtuluşu — Fransızların tahliyesi"
+  },
+  {
+   "t": "1921-12-25",
+   "b": "Antep'in kurtuluşu — Fransızların şehri boşaltması"
+  },
+  {
+   "t": "1921-12-27",
+   "b": "Tarsus'un kurtuluşu — Fransızların şehri boşaltması"
+  },
+  {
+   "t": "1922-01-03",
+   "b": "Mersin'in kurtuluşu — millî kuvvetlerin şehre girişi"
+  },
+  {
+   "t": "1922-01-05",
+   "b": "Adana'nın kurtuluşu — Fransızların şehri terketmesi"
+  },
+  {
+   "t": "1922-09-09",
+   "b": "Büyük Taarruz ve İzmir'in kurtuluşu"
+  }
+ ]
+}

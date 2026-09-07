@@ -1,0 +1,59 @@
+{
+ "_NOT": "Mükerrer madde ihlal kovası — 3 şüpheli çift. `denetle.mukerrer_maddeler` DOĞRUDAN çağrıldı. Öngörü ölçümden ÖNCE docstring'e yazıldı.",
+ "toplam": 54,
+ "kesin": 3,
+ "zayif": 51,
+ "detay": [
+  {
+   "yil": "1921",
+   "oran": 0.667,
+   "olcut": "başlık",
+   "A": {
+    "t": "1921-12-25",
+    "b": "Antep'in kurtuluşu — Fransızların şehri boşaltması",
+    "kaynak": "gaziantep",
+    "d": "Ankara Antlaşması'nın ardından Fransız kuvvetleri Antep'i boşalttı. Şehir 17 Aralık 1918'de İngilizlerce işgal edilmiş, 5 Kasım 1919'da Fransızlara bırakılmış; halk 1 Nisan 1920 – 7 Şubat 1921 arasınd"
+   },
+   "B": {
+    "t": "1921-12-27",
+    "b": "Tarsus'un kurtuluşu — Fransızların şehri boşaltması",
+    "kaynak": "tarsus",
+    "d": "Fransız kuvvetleri Ankara Antlaşması gereğince Tarsus'tan çekildi; şehir 17 Aralık 1918'den beri işgal altındaydı. TDV `tarsus`: \"Tarsus 1603'te Celâlî, 1833-1840 yılları arasında Mısır Valisi Mehmed "
+   }
+  },
+  {
+   "yil": "1921",
+   "oran": 0.429,
+   "olcut": "başlık",
+   "A": {
+    "t": "1921-12-25",
+    "b": "Antep'in kurtuluşu — Fransızların şehri boşaltması",
+    "kaynak": "gaziantep",
+    "d": "Ankara Antlaşması'nın ardından Fransız kuvvetleri Antep'i boşalttı. Şehir 17 Aralık 1918'de İngilizlerce işgal edilmiş, 5 Kasım 1919'da Fransızlara bırakılmış; halk 1 Nisan 1920 – 7 Şubat 1921 arasınd"
+   },
+   "B": {
+    "t": "1922-01-05",
+    "b": "Adana'nın kurtuluşu — Fransızların şehri terketmesi",
+    "kaynak": "adana",
+    "d": "Fransız kuvvetleri Adana'yı terketti ve Çukurova'nın tahliyesi tamamlandı. Şehir 24 Aralık 1918'den beri Fransız işgali altındaydı. TDV `adana`: \"I. Dünya Savaşı sonunda 24 Aralık 1918'de Fransızlar t"
+   }
+  },
+  {
+   "yil": "1921",
+   "oran": 0.429,
+   "olcut": "başlık",
+   "A": {
+    "t": "1921-12-27",
+    "b": "Tarsus'un kurtuluşu — Fransızların şehri boşaltması",
+    "kaynak": "tarsus",
+    "d": "Fransız kuvvetleri Ankara Antlaşması gereğince Tarsus'tan çekildi; şehir 17 Aralık 1918'den beri işgal altındaydı. TDV `tarsus`: \"Tarsus 1603'te Celâlî, 1833-1840 yılları arasında Mısır Valisi Mehmed "
+   },
+   "B": {
+    "t": "1922-01-05",
+    "b": "Adana'nın kurtuluşu — Fransızların şehri terketmesi",
+    "kaynak": "adana",
+    "d": "Fransız kuvvetleri Adana'yı terketti ve Çukurova'nın tahliyesi tamamlandı. Şehir 24 Aralık 1918'den beri Fransız işgali altındaydı. TDV `adana`: \"I. Dünya Savaşı sonunda 24 Aralık 1918'de Fransızlar t"
+   }
+  }
+ ]
+}
