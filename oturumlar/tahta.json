@@ -92221,5 +92221,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3177",
+  "zaman": "2026-09-07 14:46",
+  "kimden": "SINIR-ARAP-0907",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "AÇILIŞ + KALEM ① — PAYDA ÖLÇÜLDÜ · SINIR-ARAP-0907 Sevkini aldım, ortak şartnameyi (oturumlar/SINIR-HUKUKI-ORTAK-0907.md, 258 satır) baştan sona okudum. Adım SINIR-ARAP-0907. Dosyalarım bende, hiçbirine başkası dokunmuyor: denetim/SINIR-HUKUKI-ARAP-0907.json (henüz YAZILMADI — kayıt üretmeden önce payda) denetim/ARAC-SINIR-ARAP-*-0907.py¦js (üç alet yazıldı) oturumlar/SINIR-ARAP-0907.md (ilerleme, henüz yok) data/ ve arac/ DONUK olduğunu biliyorum; hiçbirine yazmadım. ═══ ① PAYDA — 🟢 ÖLÇTÜM (ARAC-SINIR-ARAP-KENAR-0907.py) ═══ Yöntem: NE poligonlarının boundary kesişimi; YALNIZ çizgi parçaları kenar sayıldı (nokta teması sayılmadı), linemerge ile birleştirildi. Tolerans YOK, eşik YOK. bölge İÇİ (iki ucu da Arap Doğu) : 19 bölge DIŞI (bir ucu Türkiye/İran) : 3 TOPLAM PAYDA : 22 ÖLÇÜLEMEDİ : 4 ← hepsi Mısır En uzun beş: Iran¦Iraq 1310,7 km · Saudi¦Yemen 1222,9 · Iraq¦Saudi 812,1 · Syria¦Turkey 774,7 · Jordan¦Saudi 727,4. En kısa: Qatar¦Saudi 53,3 km (8 tepe). Toplam 22 kenarın 20'si TEK parça; iki tanesi çok parçalı ve sebebi gerçek coğrafya: Oman¦UAE 4 parça (Musandam yarımadası + Madha/Nahwa iç içe enklavları), Israel¦Palestine 2 parça (Batı Şeria + Gazze), Israel¦Jordan 2 parça. 🟢 Ve senin ölçümünü DOĞRULADIM: ortak şartnamenin 'kenar çıkarımı MEKANİK, tolerans yok' hükmü bölgemde tuttu — 22 kenarın 22'sinde kesişim doğrudan çizgi verdi, hiçbirinde eşik/tolerans gerekmedi. ═══ ③ kimlik-degil KOVASI — BÖLGEMDE BOŞ, ve ölçerek boş ═══ 16 girdinin TYPE alanını DÖKTÜM (varsaymadım): Sovereign country 14 · Israel 'Disputed' · Palestine 'Indeterminate'. Baikonur/Bir Tawil cinsi bir 'kimlik değil' girdisi bölgemde YOK. ⇒ Bu kova bende 0, ama İsrail ve Filistin'in TYPE'ı ayrı bir soru doğuruyor (aşağıda ⑤). ═══ 🔴 AKSAKLIK — BEKLETMİYORUM (§7.1⑥) ═══ Dört kenarım Mısır'ın GEÇERSİZ geometrisine bağlı ve HİÇBİRİNİ ölçemedim: Egypt¦Israel · Egypt¦Palestine · Egypt¦Jordan · Egypt¦Saudi Arabia Şartname 'Mısır kenarlarına dayanan bir sayı YAZMA' diyor, uydum: dördü de 'olculemedi' kovasında, kayıtları yazılacak (kaydın hiç yazılmaması 'okumadım' demek olurdu). KADEME-MODEL-0907'nin ölçümü gelince bu dördü açılır. ⚠️ Ve bu dört kenar bölgemin EN DEĞERLİ dördünden ikisini içeriyor: Mısır–Filistin/İsrail hattı 1906 Osmanlı–Mısır idarî çizgisidir ve 1923'te ZATEN çizilmişti — yani 'C'ye girer' adayı. Payda 22 değil gerçekte 26; 4'ü bugün ölçülemez durumda. ═══ ⑤ ŞARTNAMEYE SORU — DÖRDÜNCÜ BİR KOVA GEREKİYOR OLABİLİR ═══ Şartname üç kova sayıyor: 🟢 C'ye girer · 🟡 metin gerekiyor · 🔴 A/B'de kalır. Bölgemde bir kenar sınıfı bu üçünün hiçbirine temiz oturmuyor: 1923-10-29'da o kenarın İKİ UCU DA AYNI kimliğin içindeydi ⇒ o gün ULUSLARARASI bir sınır DEĞİLDİ; hukukî bir sınır olarak VAR OLMAYAN bir şeyin 'değişip değişmediği' sorulamaz Adayları (🟡 DEVRALDIM — hafızamdan, KAYNAĞA SORMADIM, ölçüm sıradaki işim): Israel¦Palestine · Israel¦Jordan · Jordan¦Palestine (üçü de 1923'te Filistin Mandası'nın içi) ve Lebanon¦Syria (ikisi de Fransız mandası). Dördü birden paydamın %18'i. Sorum: bu sınıf 🔴 'A/B'de kalır'a mı düşer, yoksa AYRI bir kova mı ister? Ayrı kova istediğini düşünüyorum, çünkü sebebi 'metin bulunamadı' değil 'sorulan şey o gün YOKTU' — ve iki sebebi tek kovaya koymak, bir sonraki oturuma 'arandı, yok' diye görünür. Ama bu ALTI KOLU birden bağlar, kararı senin. Cevabını beklerken ölçülebilir kenarlarla devam ediyorum. Sıradaki işim: 22 kenarın 1923 durumunu TDV'den başlayarak kaynağa sormak (§4: Arap Doğu'da TDV birincil). Kalem kalem bildireceğim.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
