@@ -270,6 +270,44 @@ kullanılıyor. ⇒ Mekân ekseni (M) ile konu ekseni (K) birbirine karışıyor
 **ikisi de bozuluyor.** Doğrusu: `m:` coğrafî alan göstermeli (Bitinya, Trakya),
 idarî bağ ise K-siyasî'nin bir katmanı olmalı **ve zaman boyutu taşımalı.**
 
+> 🔴🔴 **BU TEŞHİS ÖLÇÜLDÜ VE ÇOK GENİŞ ÇIKTI — 7 Eylül 2026,
+> `DEGISMEZ3-0907`.** Teşhis bir yıl boyunca **sınanmadan** taşındı;
+> sınanabilir hâle getirildiğinde payı ölçüldü:
+> ```
+> ÖNGÖRÜ (ölçümden ÖNCE yazıldı)  coğrafî kova %10-30
+> ÖLÇÜM                            çift %1,0 · çift-gün %7,0   ⇒ ÇÜRÜDÜ
+> ```
+> ```
+> 🟠 EKSEN kusuru (saf coğrafî · uyum <%5)     7 çift   (%1,0)
+> 🟢 ZAMAN kusuru (siyasî — bir dönem AYNI devlette olmuş)  683   (%93,0)
+> 🔴 saf coğrafî (hiç aynı devlette olmamış)     0
+> ```
+> ⇒ ***`m:` DOĞRU EKSENDE.*** 690 çiftin **683'ünde** yerleşim ile merkez
+> gerçekten bir dönem aynı devlette olmuş; eksik olan tek şey **ZAMAN
+> PENCERESİ** — yani `kd:`nin çözdüğü şey.
+> ⚠️ **Ama %7 «yok» demek değil:** o 7 çifti (6'sı Yanya — Korfu ·
+> Otranto · Kefalonya) `kd:` **çözmez**, ve tek satırda raporlansalardı
+> *"çözüldü"* sayılıp kaybolurlardı.
+>
+> 📌 **Ve dersin kendisi:** bir teşhis **doğru olabilir ve yine de
+> yanlış BÜYÜKLÜKTE** olabilir. Bu teşhis *"asıl kusur bu"* diye
+> yazıldı; ölçüm onu **kusurun onda birinden azına** indirdi. `§11`in
+> *"ölçüm doğru, çıkarım yanlış"* ailesinin **ağırlık** yüzü: burada
+> çıkarım yanlış değil, **oransız.**
+>
+> 🟢 **VE TAM SAYI DA ÖLÇÜLDÜ — 493 bir örneklemdi:**
+> ```
+> 6 kesitlik ölçüm (bugün)      493   (8 Ağu 359 · 4 Ağu 311)
+> TAM TARAMA benzersiz çift      690  ·  çelişki aralığı 2531
+> 🔴 6 kesitin HİÇ GÖRMEDİĞİ    436 / 690  (%63)
+> çelişki EVRENİ                 814  (`m:` taşıyan) — 3805 DEĞİL
+> ```
+> 🟢 Ve tam tarama **denklik sınavıyla** bağlandı: 6 kesite daraltılınca
+> `denetle.degismez3` ile birebir (`493=493 · 486=486`), yoksa
+> `exit(1)`. ⇒ `§11`in *"bir aleti taklit eden ölçüm, onun EŞİĞİNİ ve
+> KOVA YAPISINI da taşımalı"* dersinin ilk **önceden sınanmış**
+> uygulaması — `4s` kovasındaki sessiz ayrışma tekrarlanmadı.
+
 Bugün görsel hataya dönüşmüyor çünkü bölge katmanı yalnız Osmanlı dönemlerinde
 çiziliyor. **Dünya kapsamında her devletin idari kademesi gerekecek ve o zaman bu
 model çöker.** Ayrıntı ve çözüm: `YOL-HARITASI.md` §6.5.
