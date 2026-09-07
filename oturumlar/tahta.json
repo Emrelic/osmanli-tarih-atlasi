@@ -92923,5 +92923,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3216",
+  "zaman": "2026-09-07 15:30",
+  "kimden": "SINIR-KAFRIKA-0907",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — TUR 3 · IBS SERİSİ TÜKENDİ · 25/25 SINIFLI · COMMIT ATILDI Çıktı : denetim/SINIR-HUKUKI-KAFRIKA-0907.json (140 KB) Rapor : oturumlar/SINIR-KAFRIKA-0907.md Commit: 6 dosya, pathspec'li (M-3206 — artık kendi dosyamı kendim commit'liyorum; okudum, uyguladım) ═══ SON SAYILAR ═══ ``` 🟢 hukuki 12 C'ye girer 🟣 ayni-kimlik 3 1923'te iki uç da aynı kimlik ⇒ C'de sınır değil 🔴 bulunamadi 6 C'ye GİRMEZ, A/B'de kalır ⚪ olculemedi 4 ──────────────────── 25 payda · 17.056 km · geometrisi çıkarılamayan 0 kaynağını AÇIP OKUDUĞUM (verbatim alıntı taşıyan) kenar: 20/25 ``` ═══ ① IBS SERİSİ TÜKETİLDİ — artık tahmin değil ÖLÇÜM ═══ 1–200 arası numara denendi; seride **175 çalışma var** ve şu beş sınır için **YOK**: Cezayir–Fas · Cezayir–Tunus · Habeşistan–Sudan · Eritre–Sudan · Fas–İspanya. ⚠️ Ve bu `bulunamadi` DEĞİL: *\"o seride aradım, yok\"* demek, *\"hiçbir yerde yok\"* demek değil. Kayıtta öyle yazılı. ═══ ② HABEŞİSTAN–SUDAN KAPANDI (715,1 km) — ikinci kaynakla ═══ ``` dayanak 1902 (15 Mayıs) ve 1907 Anglo-Etiyopya delimitasyon antlaşmaları; 1903'te (Binbaşı Charles Gwynn) ve 1909'da demarke edildi kaynak Wondwosen Teshome, \"Colonial Boundaries of Africa: The Case of Ethiopia's Boundary with Sudan\", Ege Academic Review, 2009 (hakemli · açık erişim) — 🟢 AÇIP OKUDUM, alıntı verbatim ``` ⚠️ Çekince gizlenmedi: Gwynn demarkasyonu **tek taraflı** yapıldı (Etiyopya temsilcisi yokken) ve Etiyopya bugün de kabul etmiyor. Hukukî ihtilâf gerçek — ama hattın 1923'te de **aynı hat** olduğunu değiştirmiyor, ve atlas tasarrufu boyar. ═══ ③ 🔴 ÜÇ KENARDA İZ VAR AMA KAYNAĞI AÇMADIM ⇒ `olculemedi` DURUYOR ═══ Bunları kapatabilirdim; kapatmadım, çünkü elimdeki şey bir **arama motoru özeti** ve o bir kaynak değil. > Bir özeti okunmuş saymak, `§4`ün *\"kaynağı yazılmayan bilgi\"* kuralının > en sinsi hâli olurdu — çünkü `kaynak` alanı **DOLU görünür.** ``` Cezayir–Fas 🟡 1845 Lalla Maghnia sınırı yalnız ~165 km delimite etmiş, 4. madde çölün delimitasyonunu AÇIKÇA gereksiz saymış; bugünkü hat 15 Haziran 1972 Rabat Sözleşmesi'nden ⇒ DOĞRUYSA 1.551 km'nin çoğu 1923'te DELİMİTE DEĞİLDİ, yani Mısır–Libya ile aynı sınıf. Bölgemin en uzun İKİNCİ kenarı. Sıradaki turun ilk işi. Eritre–Sudan 🟡 1891/1894 Anglo-İtalyan protokolleri · 1898 delimitasyon · 1899 demarkasyon komisyonu · Kasım 1901 anlaşması ⇒ hepsi çapadan önce, muhtemelen 🟢 olacak Fas–İspanya ⚪ okumadım ``` ═══ ④ 🔴 BİR EŞLEŞME TUZAĞI — kayda geçsin ═══ Arama sonucu Cezayir–Fas 1972 Sözleşmesi'ni **UNTS vol. 1035, I-15406** diye verdi. İndirdim ve **okudum**: o belge **Moritanya–Fas, 14 Nisan 1976** sözleşmesi (Batı Sahra'nın paylaşımı). Numara doğru, içerik başka. ⇒ *Eşleşme bulmak, doğru şeyi bulmak değildir* — ve bu sefer yakalayan şey belgeyi **açmak** oldu, sonuca güvenmek değil. ⚠️ O belge yine de bölgemi ilgilendiriyor (24. paralel düz hattı) ama benim kenarlarımdan biri değil; kullanmadım. ═══ ⑤ AÇIK KALAN — senin karar vermen gerekenler ═══ ``` ① `South Sudan–Sudan` mekanik sınavın YANLIŞ cevap verdiği tek kenar (M-3215'te ayrıntısı). Kaydı `bulunamadi` + `_UYARI` ile bıraktım. Sudan'ın iki kimlikle boyanması BENİM düzeltebileceğim bir şey değil (`data/` donuk, ve benim dosyam değil). Kime gider? ② Dördüncü kovanın kapsamı `kid` işine bağlı (Cezayir–Tunus). `KIMLIK-KID-0907`in Tunus kalemi altı kolun ortak yolunda bir taş. ③ Batı Sahra'da atlas noktası SIFIR — üç kenarım (2.914 km) noktasız bir toprağa bakıyor ve `§2` gereği orası komşu peteğe emiliyor. Nokta yazmak benim kalemim değil; bildiriyorum. ``` Sıradaki tura hazırım: Cezayir–Fas'ın kaynağını açacağım. Başka bir şey istiyorsan söyle, onu öne alırım. -- SINIR-KAFRIKA-0907",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
