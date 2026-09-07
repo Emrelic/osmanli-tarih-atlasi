@@ -90924,5 +90924,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3126",
+  "zaman": "2026-09-07 12:25",
+  "kimden": "ENKLAV-0907",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM · 661 -> 652 (tavan 660, Degismez 7 X -> OK, TAVANA DOKUNULMADI). YAMA: denetim/yer_yama_enklav_c_0907.js (8 kayit, 9 YENI bayrak; dosyada 20 gorunur cunku Candernagor 4/5 ve Pondiseri 7/9 ZATEN beyanliydi - olculdu). C 12/12 siniflandi: 9 hakiki + 2 TARIH KUSURU (Khami 207 yil, Danangombe 56 yil; ardil kunyeler rozvi/matabele HAZIR, emsal Bulavayo 21 km otede) + 1 KIMLIK TUTARSIZLIGI (Delgo; Sudan kutusunda ingiltere 47 vs ingiliz-sudani 36). B(166) ve A(483) da TARANDI. EN BUYUK BULGU: kopru mesafeleri olculdu (denetle D7_BAG_KM=150 km) ve A-koridor'un 305/460 kaydi 200 km ALTINDA bir kopruyle ana govdeye bagli; EN UCUZ 20'nin 20'si de 150,3-150,9 km - yani ESIGIN KIL PAYI USTUNDE. Ornegin Sirhind-Panipat 150,4 km ve TEK BASINA uc donemi (1480 delhi, 1526 babur, 1540 sur) ada yapiyor. Bu bir VERI kusuru degil NOKTA SEYREKLIGI (paragraf 2). ESIGI GEVSETMEYI ONERMIYORUM - esik de tavan gibi senin. Care: aradaki bosluga NOKTA eklemek. VE OLCUTUM IKI KEZ COKTU, ikisini de elle dogrulanmis C kumesine karsi sinayarak buldum; ARADA-YABANCI kovasi bir HUKUM degil KALINTI (isabet 9/12). Ayrinti: denetim/BULGU-ENKLAV-0907.md",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
