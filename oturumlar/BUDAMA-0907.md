@@ -185,3 +185,29 @@ ZORUNLU**, `git add -A` **ASLA**.
 ---
 
 ## İLERLEME NOTLARI
+
+### 7 Eylül 2026 · TESLİM
+
+**Üretilen:**
+```
+denetim/OLCUM-BUDAMA-0907.md            Ⓐ-Ⓓ + kazanç + risk, sayıyla
+denetim/ONERI-BUDAMA-0907.md            beş sorunun beşi + önce/sonra örneği
+denetim/ARAC-BUDAMA-TOKEN-0907.py       Ⓐ token (tiktoken o200k, 🟡 PROXY)
+denetim/ARAC-BUDAMA-BOLUM-0907.py       Ⓑ bölüm + 178 ders bloğu
+denetim/ARAC-BUDAMA-ATIF-0907.py        Ⓒ atıf (7-gram, Türkçe normalleştirme)
+denetim/ARAC-BUDAMA-MUKERRER-0907.py    Ⓓ + Ⓒ'nin yön düzeltmesi
+denetim/ARAC-BUDAMA-KAZANC-0907.py      önerinin kazancı
+```
+
+**ŞART ④ — CLAUDE.md'de değişen satır: 0.** Doğrulama:
+`git status --porcelain -- CLAUDE.md` → boş.
+
+**Manşet:** taban sanılandan **%40 büyük** (104.000 → **145.947** token);
+sebep zamanlama değil **taban**; şartnamenin Ⓒ hipotezi (*kullanılmayanı
+ayır*) **çürüdü** (kazanç %1,8); tek işleyen ölçüt **kural/vaka ayrımı**
+(kazanç **73.900-85.600 token**, CLAUDE.md %41-49'una iner).
+
+**Ölçülemeyenler adıyla:** bağlam penceresinin gerçek boyutu (türetildi) ·
+Anthropic'in gerçek tokenlaştırıcısı (proxy) · compact'ın neyi sildiği ·
+CLAUDE.md dışındaki tabanın yükü · bir dersin UYGULANMASI (yalnız atıf
+ölçüldü).
