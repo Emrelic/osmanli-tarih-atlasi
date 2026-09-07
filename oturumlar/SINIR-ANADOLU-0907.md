@@ -339,7 +339,53 @@ belirliyor — benim kanaatim değil.
 
 ---
 
-## ⑪ TESLİM DURUMU
+## ⑫ ÜÇÜNCÜ TUR — TÜRKİYE-İRAN: HAFIZAMDAKİ İDDİA DOĞRULANDI, **AMA EKSİKTİ**
+
+`Iran|Turkey` kaydında `⚪ ÖLÇMEDİM` damgası duruyordu: *"1932 Türkiye-İran
+sınır düzeltmesi — bu bilgi BENİM HAFIZAMDAN ve TDV onu DOĞRULAMADI."*
+Akademik kaynağa inildi.
+
+```
+KAYNAK  H. Efe – M. Kızıl, "Sınır Kavramı ve Tarihsel Süreç İçinde
+        Türkiye-İran Sınırının Oluşumu ve Önemi", Erzincan Üniv. Sosyal
+        Bilimler Enstitüsü Dergisi (ERZSOSDE) X-I (2017), s. 77-90
+🔴 §4⑦ ÜÇÜNCÜ KEZ: `WebFetch` bu PDF için de "binary/encoded, okuyamıyorum"
+   dedi; `pypdf` **48.838 karakter** okudu.
+```
+
+### ZİNCİR — ve bilmediğim ikinci halka
+```
+1847-06-01   II. Erzurum Antlaşması (9 madde)
+1913-11-17   İstanbul Protokolü — Sait Halim Paşa · Mallet · Mirza Mahmut Han ·
+             de Giers ⇒ "1848 yılı statükosu … üzerinde anlaşıldı"
+1932-01-23   Türk-İran Sınır Antlaşması, **md. 1**: "Ağrı Dağı'nın tamamı
+             Türkiye sınırları içine alınmış, Van civarındaki **Kotur** arazisi
+             de İran'a bırakılmıştır"                    ← hafızamdaki iddia
+1937-05-27   1932 Anlaşması'nı **DÜZENLEYEN** anlaşma: Mazbişo · Paki · Eli
+             bölgelerinde 1932 hükümleri **haritayla uyuşmuyordu**;
+             TBMM onayı 1938-06-17  ⇒ "İran sınırımız SON ŞEKLİNİ ALMIŞTIR"
+                                                          ← 🔴 BUNU BİLMİYORDUM
+```
+
+🔴🔴 **DERS: devralınan bir öncülü doğrulamak, onu TAMAMLAMAK da demektir.**
+Yalnız 1932'yi yazsaydım kayıt *"kaynaklı"* görünecek ve **beş yıllık ikinci
+bir değişim sessizce kaybolacaktı.** Bir öncül doğru çıktığında iş bitmiyor —
+kaynağın onun **etrafında** ne söylediği de okunuyor.
+
+⇒ `Iran|Turkey`: 🔴 bulunamadi → 🟢 **hukuki** · `ne_degisti` **True**
+⇒ NE'nin bugünkü çizgisi bu kenar için 1923'e **kullanılamaz** (iki değişim).
+⚪ Hâlâ ölçülmedi: 1923 günündeki çizginin **geometrisi** (1913 protokolünün
+hattı). Kaynağın kendi ifadesi 1938 sonrası için *"günümüzde halen
+geçerliliğini koruyan"* diyor ⇒ **1938→bugün değişmedi, 1923→1938 değişti.**
+
+```
+KOVA — üç turun toplamı:  hukuki 6 → 7 → **8**   ·   bulunamadi 7 → 6 → **5**
+                          ic-idari 5 (öneri)     ·   tanimsiz 1 (öneri)
+```
+
+---
+
+## ⑬ TESLİM DURUMU
 ```
 ✅ 19 kenar kayıtlı, geometrisi içinde, hâli damgalı
 ✅ çıpa tuzağı ÖLÇÜLDÜ — bu alete ateşlemiyor, kanıt `_CIPA_TUZAGI` bölümünde

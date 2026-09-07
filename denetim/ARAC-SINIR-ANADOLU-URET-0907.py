@@ -187,17 +187,43 @@ HUKUM = {
          "AYRI bir iddiadir ve OLCULMEDI. `hal` ile `ne_degisti` AYRI sorular."),
 
  ("Iran", "Turkey"): dict(
-    hal="bulunamadi", degisti=None,
-    dayanak="bulunamadi", dayanak_t=None, madde="bulunamadi",
-    kaynak="bulunamadi", kesinlik=0,
-    not_="🔴 ARANDI, YOK. Uc govde okundu: `iran` (308.849 kar) · `agri` (9.653) · "
-         "`dogubayazit` (14.385). Ucu de 1923 sonrasi Turk-Iran sinir duzenlemesi VERMIYOR "
-         "('Turk-Iran' dizgisi `iran` govdesinde 0 kez; '1932'nin 5 gecisi de EDEBIYAT "
-         "baglaminda — roman ve hikaye yillari). "
-         "⚪ OLCEMEDIM: 1932 Turkiye-Iran sinir duzeltmesi (Kucuk Agri) — bu bilgi BENIM "
-         "HAFIZAMDAN ve TDV onu DOGRULAMADI; VERIYE YAZILMADI (§4: tarih uydurma). "
-         "Akademik kaynak aranmali ⇒ kalem ACIK. Bu kenar icin 'degisti mi' sorusu "
-         "CEVAPSIZ: `degisti` alani None."),
+    hal="hukuki", degisti=True,
+    dayanak="Istanbul Protokolu (1913) — 1848 statukosu",
+    dayanak_t="1913-11-17", madde="bulunamadi",
+    kaynak="H. Efe – M. Kizil, «Sinir Kavrami ve Tarihsel Surec Icinde Turkiye-Iran "
+           "Sinirinin Olusumu ve Onemi», Erzincan Univ. Sosyal Bilimler Enstitusu Dergisi "
+           "(ERZSOSDE) X-I (2017), s. 77-90",
+    kesinlik=1,
+    alinti="«17 kasim 1913'de Sadrazam Sait Halim Pasa, Britanya elcisi Sir Louis Mallet, "
+           "Iran buyukelcisi Mirza Mahmut Han ve Rusya buyukelcisi M. de Giers arasinda "
+           "Turk-Iran sinirinin tahdidine iliskin bir protokol imzalandi. Bu protokolle "
+           "1848 yili statukosu … uzerinde anlasildi.» (zincirin oncesi: 1 Haziran 1847 "
+           "II. Erzurum Antlasmasi)",
+    degisim_t="1932-01-23", degisim_t_hassasiyet="gun",
+    degisim_kaynak="ayni makale",
+    degisim_alinti="«23 Ocak 1932 tarihinde Turk-Iran Sinir Antlasmasi imzalanmistir … "
+                   "Soz konusu antlasmanin BIRINCI MADDESINE gore, Agri Dagi'nin tamami "
+                   "Turkiye sinirlari icine alinmis, Van civarindaki KOTUR arazisi de "
+                   "Iran'a birakilmistir.» || IKINCI DEGISIM: «27 Mayis 1937'de … 1932 "
+                   "Anlasmasi'ni DUZENLEYEN bir anlasma imzalanmistir. Soz konusu anlasma, "
+                   "17 Haziran 1938'de Meclis'te onaylanmistir. Boylece … Iran sinirimiz "
+                   "SON SEKLINI ALMISTIR.»",
+    not_="🔴🔴 BENIM 🟡 HAFIZAMDAKI IDDIA DOGRULANDI — AMA EKSIKTI, ve eksigi ancak "
+         "KAYNAGA ININCE gordum: bu kenar 1923'ten sonra BIR DEGIL IKI KEZ degisti. "
+         "1932-01-23 (Agri Dagi ⇄ Kotur takasi) VE 1937-05-27 (Mazbiso · Paki · Eli "
+         "bolgelerinde 1932 hukumleri HARITAYLA uyusmuyordu; TBMM onayi 1938-06-17). "
+         "⇒ ***Devralinan bir onculu dogrulamak, onu TAMAMLAMAK da demektir.*** Yalniz "
+         "1932'yi yazsaydim kayit 'kaynakli' gorunecek ve BES YILLIK ikinci bir degisim "
+         "sessizce kaybolacakti. "
+         "🟢 TDV BU TANECIKTE TUKENMISTI (uc govde: `iran` 308.849 · `agri` 9.653 · "
+         "`dogubayazit` 14.385 — 'Turk-Iran' 0 kez, '1932'nin bes gecisi EDEBIYAT). "
+         "§4 geregi akademik kaynak MESRU ve ADIYLA yazildi. "
+         "🔴 §4⑦ UCUNCU KEZ: `WebFetch` bu makalenin PDF'i icin de 'binary/encoded, "
+         "okuyamiyorum' dedi; `pypdf` 48.838 karakter okudu. "
+         "⇒ NE'nin bugunku cizgisi 1923 icin KULLANILAMAZ: iki degisim var. "
+         "⚪ 1923 gunundeki cizginin GEOMETRISI olculmedi — 1913 protokolunun hatti "
+         "aranmali. Kaynagin kendi ifadesi 1938 sonrasi icin 'gunumuzde halen "
+         "gecerliligini koruyan' diyor ⇒ 1938→bugun DEGISMEDI, 1923→1938 DEGISTI."),
 
  ("Iran", "Iraq"): dict(
     hal="hukuki", degisti=True,
