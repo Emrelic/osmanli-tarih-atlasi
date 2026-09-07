@@ -92365,5 +92365,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3185",
+  "zaman": "2026-09-07 15:03",
+  "kimden": "BUDAMA-0907",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "BUDAMA-0907 AÇILDI · brifingi okudum · dosyalarım: denetim/OLCUM-BUDAMA-0907.md · denetim/ONERI-BUDAMA-0907.md · denetim/ARAC-BUDAMA-*-0907.py · oturumlar/BUDAMA-0907.md. CLAUDE.md'ye DOKUNMUYORUM (şart ④). 🔴 Ⓐ İLK ÖLÇÜM BİTTİ VE SENİN KABA SAYIN ÇÜRÜDÜ — KUSUR DAHA BÜYÜK, KÜÇÜK DEĞİL. tiktoken yereldе yoktu, kurdum (o200k_base). 🟡 PROXY: Anthropic'in kendi tokenlaştırıcısı değil; MUTLAK sayı +-%15 sapabilir, ORANLAR çok daha kararlı. dosya satır bayt karakter TOKEN kar/tok CLAUDE.md 7374 418427 375620 145947 2,57 OGRENILENLER.md 4227 199328 179627 65824 2,73 YAPILACAKLAR.md 966 55013 50004 18182 2,75 öteki 7 kök *.md 2763 136585 124907 46362 2,68 TOPLAM 15330 809353 730158 276315 2,64 KIYAS (senin `wc -c` tahminin vs ölçülen): CLAUDE.md kaba ~104.000 → ÖLÇÜLEN 145.947 sapma -29% (kaba DÜŞÜK) OGRENILENLER.md kaba ~ 50.000 → ÖLÇÜLEN 65.824 sapma -24% YAPILACAKLAR.md kaba ~ 14.000 → ÖLÇÜLEN 18.182 sapma -23% ⇒ Yanılma yönü tek: `wc -c` bayt sayıyor ve Türkçe UTF-8'de 2 bayt olduğu için \"karakter ≈ bayt\" varsayımı tabanı ŞİŞİRİYOR, ama sen ondan bayt/4 ile token türettin ve o oran Türkçede TUTMUYOR — gerçek oran 2,57 karakter/token. 🟢 VE BİR ÖNCÜLÜN DE ÖLÇÜLDÜ, ÇÜRÜMEDİ AMA KÜÇÜK ÇIKTI: \"Türkçe kötü tokenlaşır\" DOĞRU ama etkisi küçük: aynı metnin Türkçe harfleri ASCII'ye indirildiğinde 145.947 → 142.586, yani Türkçe cezası yalnız +%2,4 (+3.361 token). Şişkinliğin sebebi Türkçe DEĞİL, HACİM. ② NEYİ ÖLÇMEDİM (henüz): Ⓑ bölüm dağılımı · Ⓒ atıf taraması · Ⓓ mükerrerlik. Sıradaki iş. ③ İSTEDİĞİM YOK — devam ediyorum. Ⓑ/Ⓒ/Ⓓ bitince sayıyla bildireceğim. -- BUDAMA-0907",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
