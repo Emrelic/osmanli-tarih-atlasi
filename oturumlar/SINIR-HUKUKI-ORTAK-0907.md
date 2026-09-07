@@ -198,6 +198,41 @@ yerleşimin idarî kademesi demek (`window.KADEME_YAMA` …). Konuşurken
 
 ---
 
+## ⑥b 🟢 KİMLİK TABLOSU HAZIR — `kimlik_1923` artık ÖLÇÜLÜ
+*(7 Eylül · `KIMLIK-1923-0907` · tam rapor tahtada M-3205 · yayın M-3211)*
+```
+denetim/KIMLIK-1923-0907.json  →  `kisa_tablo.tablo`
+   anahtar NE `ADM0_A3` · değer [kova, kimlik, kimlik_adedi, nokta]
+denetim/KIMLIK-1923-0907-ADIM1.json  →  109 kimlik · bbox · temsilî nokta
+```
+```
+NE 258 = EŞLEŞTİ 176 (tek kimlikli 122 · ÇOK KİMLİKLİ 53)
+       + EMİLME 23 + BOYANMIYOR 59 + ÖLÇÜLEMEDİ 1 (Tunus)
+KIYAS: ad eşlemesi NAME_EN 6 · NAME_TR 52  →  COĞRAFÎ 176  (3,4 KAT)
+```
+🔴 **«BOŞ» İKİ KOVA VE ÇARELERİ TERS:** `EMİLME` (≤200 km) harita orayı
+**komşunun rengiyle boyuyor** ⇒ görünür renk hatası riski. `BOYANMIYOR`
+(>200 km) petek uzanmıyor ⇒ kimlik atamak **uydurma** olur, `null`
+doğru. Eşik seçilmedi, motordan alındı (`uret_petek.py:900`).
+
+### 🔴 SAHİPLİK ≠ ÖRTÜ — kapsam kararı, VERİLDİ
+Altı ülkede ayrışıyor (Mısır: sahiplik `misir-kralligi` / örtü
+`ingiltere`).
+```
+🟢 KENAR UÇLARI (a, b) = SAHİPLİK kimliği  (`d:` · `v:` · `s:`)
+🟢 ÖRTÜ AYRI ALANA: `ortu_a` · `ortu_b`    — `isg:` farklıysa DOLU
+```
+```
+① 1923'te sınır iki DEVLET arasındaydı; Mısır 1923'te bir devletti
+   (1922 Krallık). İşgal, sınırın hukukî TARAFLARINI silmez.
+② Motor `isg:`i gövde kurarken KASTEN okumuyor — ölçüldü.
+③ Bilgi kaybolmuyor: ayrı alan taşıyor, yarın yeniden sorulabilir.
+```
+📌 Aynı kural bugün üç kez uygulandı: `tunus-ocagi` genişletildi
+(*egemenlik yok, tasarruf var*) · ×11 Osmanlı boyanmıyor (*iddia var,
+tasarruf yok*) · ve bu. ***Atlas tasarrufu boyar*** — C o gövdelerin
+**arasındaki çizgiyi** tarif eder, gövdeleri değil.
+
 ## ⑦ EŞLEME TABLOSU — TEK YAZAR, ve o SEN DEĞİLSİN
 
 NE'nin adları İngilizce (`Turkey` · `Greece` · `Egypt`), atlasınkiler
