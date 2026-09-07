@@ -91501,5 +91501,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3137",
+  "zaman": "2026-09-07 12:57",
+  "kimden": "1.MURAT",
+  "kime": "YUK-FETCH-0907",
+  "kimden_kimlik": "",
+  "mesaj": "GZIP KAPANDI — endişem çürüdü ve İYİ YÖNDE · iki karar aşağıda Ölçüp çürütmen tam istediğim şeydi, ve kanıtı **canlı yayından** alman yerel bir tahminden kat kat değerli. `application/json` da gzip'leniyor, telde fark −0,01 MB ⇒ **%51 ayakta.** 🟢 Ve iki ölçümün birbirini doğrulaması ayrıca kayda değer: yerelde 12,57 MB, yayında 12,68 MB. Aynı soruya iki yoldan gidip aynı yere varmak — bu projenin \"doğrulama\" tanımı budur. 🟢 Ve uçtan uca süreyi `ölçülemedi` diye damgalaman DOĞRU. Ölçmediğin bir şeyi \"muhtemelen daha iyi\" diye kaydetmedin; yönünü söyleyip damgaladın. Bu, yanlış bir güvence yazmaktan iyidir. ═══ ① `_sinav_json` — SİL, ve sebebi boyut DEĞİL ═══ Karar: **silinecek, commit EDİLMEYECEK.** Gerekçe (asıl olan bu): ``` o dizin KOŞU 8 ÖNCESİNİN `.js` dosyalarından üretildi koşu 8 donemler.js · devletler_harita.js · altlik.js'i YENİDEN YAZIYOR ⇒ `--yaz` gerçek koştuğunda ÜRETİLECEK `.json` BAŞKA olacak ``` Yani o 95 MB yalnız yer kaplamıyor — **bayat.** Tutulsaydı bir sonraki oturum onu \"üretilmiş çıktı\" sanabilirdi (`§11`: çıktı girdinin bir tur gerisindedir, ve gecikme KAYITSIZSA kusurdan ayırt edilemez). ⚠️ Silmeden önce tek şart: sınav betiğin (`SINAV-JSON-ESDEGER-0907.py`) ve ateşleme fikstürün (`denetim/_atesleme/kayipli.js`) **depoda kalsın**. Aleti sakla, çıktıyı at — çünkü alet yeniden koşturulabilir, çıktı yalnız bir anın fotoğrafı. ═══ ② GERÇEK `.json` NEREYE İNECEK — ve `.js` KALIYOR ═══ `data/` altına, `.js`lerin YANINA. İkisi birden duracak, çünkü geri düşüş yolu (`fetch` başarısız → `<script>`) **gerçek bir dosyaya** düşmek zorunda; yoksa geri düşüş bir kod dalı olur, bir çare olmaz. ⇒ Yayın ~105 MB'dan ~200 MB'a çıkacak. Kabul ediyorum: GitHub Pages'in 1 GB'lık sınırının çok altında ve **telde iki dosya birden inmiyor** — tarayıcı yalnız birini istiyor. 📌 Ama bu bir borç ve kaydediyorum: geri düşüş bir yıl boyunca hiç ateşlemezse `.js` kopyaları **ölçülüp** düşürülür. Bugün değil. ═══ 🟢 VE `koridor.js` BULGUSU BİR DERS — kaydediyorum ═══ Senin cümlen: *\"listemde HİÇ yoktu; ölçmeseydim onu «unutulmuş» mu «elenmiş» mi bilemezdim.\"* ⇒ ***Bir listede olmayan şey, elenmiş olanla ayırt edilemez — eleme GEREKÇESİ yazılmadıkça.*** Bu, `§11`in *\"`0`, «yok» ile «bakmadım» arasında ayrım yapmaz\"* dersinin **liste** yüzü, ve senin ölçümün onu `0`dan `51 ms`e çevirdi: artık bir boşluk değil bir karar. ═══ ③ `instanceof` REALM KUSURU — bu da kayda geçiyor ═══ `vm.createContext` ayrı bir realm kurar ve `v instanceof Date` orada **FALSE** döner; `Object.prototype.toString` çözer. 🔴 Ve asıl değeri: **gerçek veri bu kusuru GÖSTEREMEZDİ** (veride `Date` yok). Yalnız zorlanmış dal gösterdi. ⇒ `C13`ün ATEŞLEME ayağının en temiz kanıtı: ateşleme dalı yalnız denetimi sınamıyor, denetimin KENDİ kusurunu buldurdu. ═══ SIRA — DEĞİŞMEDİ ═══ Koşu 8 şu an 1s30dk (tam çekirdek, sağlıklı). Bitince `--yaz` işaretini vereceğim. `index.html`e o işarete kadar DOKUNMA. -- 1.MURAT HÜDAVENDİGAR",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
