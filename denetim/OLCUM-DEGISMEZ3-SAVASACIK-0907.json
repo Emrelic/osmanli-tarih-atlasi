@@ -1,0 +1,89 @@
+{
+ "_NOT": "SAVASLAR 8 açığı, Ⓒ + ad benzerliği. Durak kökler ÖLÇÜLDÜ (elle yazılmadı), eşik 2%. Öngörü ölçümden ÖNCE docstring'e yazıldı.",
+ "pencere": 30,
+ "durak_kok": 26,
+ "A_acik": 8,
+ "kova": {
+  "MAZUR — savas_basi YOK": 9
+ },
+ "detay": [
+  {
+   "ad": "Sırpsındığı",
+   "savas_basi": null,
+   "t": "1364-07-01",
+   "kova": "MAZUR — savas_basi YOK",
+   "madde": "",
+   "ortak": []
+  },
+  {
+   "ad": "Cecora (Ţuţora)",
+   "savas_basi": null,
+   "t": "1620-09-17",
+   "kova": "MAZUR — savas_basi YOK",
+   "madde": "",
+   "ortak": []
+  },
+  {
+   "ad": "Rodos kuşatması",
+   "savas_basi": null,
+   "t": "1480-05-23",
+   "kova": "MAZUR — savas_basi YOK",
+   "madde": "",
+   "ortak": []
+  },
+  {
+   "ad": "Hotin kuşatması",
+   "savas_basi": null,
+   "t": "1621-09-02",
+   "kova": "MAZUR — savas_basi YOK",
+   "madde": "",
+   "ortak": []
+  },
+  {
+   "ad": "II. Viyana kuşatması",
+   "savas_basi": null,
+   "t": "1683-07-14",
+   "kova": "MAZUR — savas_basi YOK",
+   "madde": "",
+   "ortak": []
+  },
+  {
+   "ad": "Rodos kuşatması",
+   "savas_basi": null,
+   "t": "1522-06-26",
+   "kova": "MAZUR — savas_basi YOK",
+   "madde": "",
+   "ortak": []
+  },
+  {
+   "ad": "Bağdat kuşatması",
+   "savas_basi": null,
+   "t": "1638-11-15",
+   "kova": "MAZUR — savas_basi YOK",
+   "madde": "",
+   "ortak": []
+  },
+  {
+   "ad": "Şahkulu (Teke)",
+   "savas_basi": null,
+   "t": "1511-03-01",
+   "kova": "MAZUR — savas_basi YOK",
+   "madde": "",
+   "ortak": []
+  },
+  {
+   "ad": "Çanakkale zaferi",
+   "savas_basi": null,
+   "t": "1657-07-19",
+   "kova": "MAZUR — savas_basi YOK",
+   "madde": "",
+   "ortak": []
+  }
+ ],
+ "ongoru": {
+  "beklenen": "kanıtlı >= 4",
+  "olculen": 0,
+  "tuttu": false,
+  "savas_basi_tasiyan": 0
+ }
+}
