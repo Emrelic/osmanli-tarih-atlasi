@@ -28,14 +28,19 @@
 "use strict";
 // ⚠️ HEDEFLER `ARAC-JSON-URET-0907.py`nin HEDEFLER listesiyle AYNI olmalı.
 //    Ayrışırlarsa bu sınav başka bir şeyi ölçer.
-var HEDEFLER = [
-  { ad: "devletler_harita", js: "../data/devletler_harita.js",
-    json: "_sinav_json/devletler_harita.json" },
-  { ad: "donemler",         js: "../data/donemler.js",
-    json: "_sinav_json/donemler.json" },
-  { ad: "altlik",           js: "../data/altlik.js",
-    json: "_sinav_json/altlik.json" }
-];
+// 🔴 `.json` DİZİNİ PARAMETRELİ — `?json=<dizin>` ile değişir.
+//    NİÇİN: ölçüm sırasında `.json`lar `denetim/_sinav_json/` altındaydı,
+//    ama o dizin 1.MURAT'ın kararıyla SİLİNDİ ve sebebi boyut DEĞİLDİ:
+//    koşu 8 `donemler.js` · `devletler_harita.js` · `altlik.js`i YENİDEN
+//    YAZIYOR ⇒ o `.json`lar KOŞU ÖNCESİNİN fotoğrafıydı, yani BAYAT.
+//    (`§11`: çıktı girdinin bir tur gerisindedir, ve gecikme KAYITSIZSA
+//     kusurdan ayırt edilemez.)
+//    ⇒ Gerçek `.json`lar `data/` altına inecek; o zaman `?json=../data`.
+//    Sabit bir yol yazmak, bu sınavı bir kez daha bayat bir dizine bağlardı.
+var _JD = new URLSearchParams(location.search).get("json") || "_sinav_json";
+var HEDEFLER = ["devletler_harita", "donemler", "altlik"].map(function (a) {
+  return { ad: a, js: "../data/" + a + ".js", json: _JD + "/" + a + ".json" };
+});
 
 var mod = (new URLSearchParams(location.search).get("mod") || "a").toLowerCase();
 document.getElementById("mod").textContent =
