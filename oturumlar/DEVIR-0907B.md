@@ -288,6 +288,49 @@ GEREKLİ olduğunu kanıtlar — TESLİM EDİLDİĞİNİ değil.**
 `TextIOWrapper` çıktıyı ancak çıkışta boşaltıyor ⇒ **koşu bitene kadar
 ÖLÇÜLEMEZ.**
 
+## ⑨l 🔴🔴 GLOB TARİHE KİLİTLİ — 10 KÜNYE SESSİZCE İNMİYOR
+```
+_kunye_uygula.py:44   VARSAYILAN = "denetim/YAMA-KUNYE-*0905*.json"
+bugün 0907 · 13 dosyanın 2'si KAÇIYOR:
+   YAMA-KUNYE-RUS-AMERIKA-0907.json
+   YAMA-KUNYE-VASSAL-0906.json   🔴 10 KÜNYE · biçimi SAĞLAM
+```
+🔴 **İkincisi kuyrukta haftalardır duruyor** ve her brifingde anılıyordu.
+Uygulasaydım alet **temiz bir çıktı** basacak, 10 künye inmemiş olacaktı.
+🟢 Ucuz çare: `--yama "denetim/YAMA-KUNYE-*.json"`
+🔜 Kalıcı: `VARSAYILAN`dan tarihi çıkar (`arac/` koşuda donuk)
+📌 Bugün ÜÇÜNCÜ glob vakası: **dosya adı** (`KUZEY-AMERIKA-DEVIR.js`
+`^yer_yama` globuna girmiyordu) · **dizin pathspec'i** (süpürücü commit)
+· ve **tarih damgası.**
+
+## ⑨m 🔴 «BAYAT ÖLÇÜT» AVI — 6 bulundu, 4 çürütüldü
+```
+Ö9   peteksiz — YANLIŞ SEBEPTEN GEÇİYOR      → SAHTE GÜVEN
+B6   R1 kabul testi — YANLIŞ SEBEPTEN KALIYOR → SAHTE ALARM
+     (`89cd681` 4 Eyl indi; 7B onu ZATEN içeriyor. Alet hâlâ
+      "R1'den sonra <10" basıyor ⇒ 637 görülüp YANLIŞ İŞ açılırdı)
+B2 belge başlığı/PID · B3 VASSAL "bloke" (değil) · B4 18→23 çakışma
+B5 km²·dönem borcu (ödenmiş, `2192eab` 3 Eyl — borcu YAZAN belgeden
+   ÜÇ GÜN ÖNCE)
+🟢 ÇÜRÜTÜLEN 4: renk çiftleri · yama dosyaları · FETCH · "5b tabanı kaydı"
+```
+📌 ***Bir belgenin BAŞLIĞININ bayat olması, MADDELERİNİN de bayat
+olduğunu göstermez.***
+
+## ⑨n R1 TABANI — ÖLÇÜLDÜ, ve R1'in etkisi `olculemedi`
+```
+                 5 Eylül (4b)          BUGÜN (7B)
+yabancı gövde         232                  232    ✓ BİREBİR
+DİKİŞ       640 / 34.318 km²      637 / 34.792 km²
+KIYI KENARI      42.233 parça          42.233    ✓ BİREBİR
+```
+🔴 `640 → 637` **R1'in etkisi DEĞİL**: arada R1 **ve** `data/` birlikte
+değişti (iki değişken), ve R1'siz bir 7B çıktısı **yok** ⇒ kontrol grubu
+YOK. Damga `olculemedi` — *"çürüdü"* deseydik R1'i ölçmek bir daha
+denenmezdi.
+⚠️ İki gövde sayacı: node **232** (yabancı) ↔ `olc.py` **233** (Osmanlı
+dâhil). Karıştırılmamalı.
+
 ## ⑨f KOŞU SONRASI KUYRUĞA EKLENENLER
 ```
 ① uret_petek.py `vl` sıra kusuru            (öncekinden)
