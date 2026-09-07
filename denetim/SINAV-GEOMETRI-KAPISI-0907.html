@@ -1,0 +1,53 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>SINAV — geometri kapısı ATEŞLEME dalı</title>
+<style>body{font:13px ui-monospace,Consolas,monospace;background:#14161a;color:#dfe3e8;margin:18px}
+b.y{color:#8ae09a} b.k{color:#ff8a8a}</style>
+<h3>SINAV-GEOMETRI-KAPISI-0907 — <code>js/app.js</code> geometri kapısı</h3>
+<p>
+🔴 <b>ATEŞLEME dalı.</b> <code>C13</code>: bir denetim iki yönde de sınanmadan
+"çalışıyor" sayılmaz, ve <b>her kusur dalı AYRI AYRI zorlanır</b>.<br>
+Bu sayfa <code>js/app.js</code>i <b>geometri <code>&lt;script&gt;</code>leri OLMADAN</b>
+yükler. Kapı çalışıyorsa: konsola <code>🔴 GEOMETRİ YÜKLENMEDİ</code>,
+sayfada kırmızı kutu, ve <code>throw</code>.<br>
+⚠️ GEÇME dalı ayrı ölçüldü: sitenin kendisi (<code>/</code>) —
+<code>donemler</code> 524 çözüldü, kutu ÇIKMADI, konsol hatası 0.
+</p>
+<div id="sonuc">koşuyor…</div>
+<script>
+window.__hatalar = [];
+window.addEventListener("error", function (e) {
+  window.__hatalar.push(String(e.message || e.error));
+});
+</script>
+<!-- 🔴 KASTEN: data/donemler.js · data/devletler_harita.js YÜKLENMİYOR.
+     Kapının ateşlemesi için gereken tek şart bu. -->
+<script src="../js/app.js?sinav=kapi"></script>
+<script>
+setTimeout(function () {
+  // 🔴 SEÇİCİ DÜZELTİLDİ (7 Eylül, ilk koşuda ısırdı): `pre[style*="3a0d12"]`
+  //    EŞLEŞMEZ — tarayıcı `style` özniteliğini yeniden yazıyor
+  //    (`background:#3a0d12` -> `background: rgb(58, 13, 18)`). Kutu VARDI,
+  //    aletim YOK dedi. ⇒ İÇERİĞE göre ara, BİÇİME göre değil.
+  //    📌 `§11`: "eşleşme bulmak, doğru şeyi bulmak değildir" — bu sefer
+  //    ölçtüğüm şeyde değil, ÖLÇEN ALETTE.
+  var kutu = [].slice.call(document.querySelectorAll("pre")).filter(function (p) {
+    return /GEOMETR[İI] Y[ÜU]KLENMED/i.test(p.textContent);
+  })[0] || null;
+  var atesledi = !!kutu || window.__hatalar.some(function (h) {
+    return /GEOMETR/i.test(h);
+  });
+  window.__KAPI = {
+    atesledi: atesledi,
+    kutu_var: !!kutu,
+    kutu_metni: kutu ? kutu.textContent.slice(0, 200) : null,
+    hatalar: window.__hatalar.slice(0, 4),
+    DONEMLER_var: !!window.DONEMLER
+  };
+  document.getElementById("sonuc").innerHTML =
+    (atesledi
+      ? "<b class='y'>🟢 KAPI ATEŞLEDİ</b> — dal sağlam."
+      : "<b class='k'>🔴 KAPI SESSİZ KALDI</b> — dal DENETİMSİZ, düzeltilmeli.") +
+    "<pre>" + JSON.stringify(window.__KAPI, null, 1) + "</pre>";
+}, 1200);
+</script>

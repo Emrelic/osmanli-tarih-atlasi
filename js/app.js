@@ -191,6 +191,40 @@ function hatCoz(dizi) {
 // yalnız ÜSTÜNE TAM OPAK biner (§11 alfa-harman ailesine yeni vaka EKLEMEMEK
 // için — bkz. app.js:885 civarı). `d.h` YOKSA (bugün 462/462 böyle) dizi
 // boş kalır, katman hiç dolmaz — 155 kayıtlık bugünkü görünüm DEĞİŞMEZ.
+
+// ---------- GEOMETRİ KAPISI (YUK-FETCH-0907, 7 Eylül 2026) ----------
+// 🔴 NİÇİN VAR: bu satırın altındaki `window.DONEMLER.map(...)` geometri
+// yüklenmemişse **TypeError atar ve app.js ölür** — site bomboş açılır ve
+// konsolda yalnız `Cannot read properties of undefined` yazar. Sebebi
+// (bir `<script>` inmemiş / `.json` bulunamamış) hiçbir yerde GÖRÜNMEZ.
+//
+// ⚠️ Bu kapı bir HIZLANDIRMA DEĞİL — geometri `<script>`ten `fetch`e
+// taşınırken (ölçüldü: `<script>` 12,0-14,1 sn ↔ `fetch`+JSON 5,9-6,9 sn,
+// ~%51) yükleme yolu bir tur boyunca İKİ HÂLDE birden bulunacak. O turda
+// bir dosya eksik kalırsa arıza **adıyla** görünsün diye konuldu.
+// 📌 `§11`: *"sessiz atlama, yanlış sonuçtan pahalıdır"* — burada sessiz
+// olan atlama değil, ARIZANIN SEBEBİ.
+(function geometriKapisi() {
+  var eksik = ["DONEMLER", "PARCALAR", "PARCA_HALKA"].filter(function (a) {
+    return !window[a];
+  });
+  if (!eksik.length) return;
+  var m = "GEOMETRİ YÜKLENMEDİ — eksik: " + eksik.join(", ") +
+          ". Beklenen kaynak: data/donemler.js (<script>) ya da " +
+          "data/donemler.json (fetch). index.html'deki satır duruyor mu?";
+  if (window.console && console.error) console.error("🔴 " + m);
+  var d = document.getElementById("yukleniyor") || document.body;
+  if (d) {
+    var p = document.createElement("pre");
+    p.style.cssText = "position:fixed;z-index:9999;left:8px;top:8px;right:8px;" +
+      "background:#3a0d12;color:#ffd9dc;padding:10px 12px;font:12px/1.5 " +
+      "ui-monospace,Consolas,monospace;white-space:pre-wrap;border-radius:6px";
+    p.textContent = "🔴 " + m;
+    d.appendChild(p);
+  }
+  throw new Error(m);   // 🔴 SESSİZCE DEVAM ETME — yarım harita, hiç haritadan kötüdür
+})();
+
 var donemler = window.DONEMLER.map(function (d) {
   return { fi: gunIdx(d.f), ti: gunIdx(d.t), ad: d.ad, b: d.b, ao: d.ao,
            av: d.av || 0, e: d.e || [], c: d.c || [],

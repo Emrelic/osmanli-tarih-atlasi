@@ -1,0 +1,129 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>SINAV-FETCH-0907 — script vs fetch+JSON</title>
+<style>
+  body { font: 13px/1.55 ui-monospace, Consolas, monospace; margin: 18px;
+         background: #14161a; color: #dfe3e8; }
+  h1 { font-size: 15px; margin: 0 0 4px; }
+  .not { color: #9aa4b0; margin: 0 0 14px; }
+  table { border-collapse: collapse; margin: 10px 0 18px; }
+  td, th { border: 1px solid #333a44; padding: 3px 10px; text-align: right; }
+  th { background: #1d2128; }
+  td:first-child, th:first-child { text-align: left; }
+  .k { color: #ff8a8a; } .y { color: #8ae09a; } .u { color: #e0d08a; }
+</style>
+<h1>SINAV-FETCH-0907 — <span id="mod"></span></h1>
+<p class="not">
+  Ölçüm aleti · YUK-FETCH-0907 · <code>?mod=a</code> = bugünkü
+  <code>&lt;script&gt;</code> yolu · <code>?mod=b</code> = <code>fetch</code>+JSON yolu.<br>
+  🔴 <b>Her yol AYRI SAYFA YÜKLEMESİNDE</b> ölçülür — aynı sayfada
+  ikisini birden koşturmak ikincisini ısınmış bellekle ölçer ve
+  <b>kontrol grubunu bozar.</b><br>
+  🔴 Ölçümden önce <code>document.visibilityState</code> basılır: "hidden"
+  ise sayı <b>rapor edilmez</b> (bu proje o tuzağa düştü).
+</p>
+<div id="cikti">ölçülüyor…</div>
+
+<script>
+"use strict";
+// ⚠️ HEDEFLER `ARAC-JSON-URET-0907.py`nin HEDEFLER listesiyle AYNI olmalı.
+//    Ayrışırlarsa bu sınav başka bir şeyi ölçer.
+var HEDEFLER = [
+  { ad: "devletler_harita", js: "../data/devletler_harita.js",
+    json: "_sinav_json/devletler_harita.json" },
+  { ad: "donemler",         js: "../data/donemler.js",
+    json: "_sinav_json/donemler.json" },
+  { ad: "altlik",           js: "../data/altlik.js",
+    json: "_sinav_json/altlik.json" }
+];
+
+var mod = (new URLSearchParams(location.search).get("mod") || "a").toLowerCase();
+document.getElementById("mod").textContent =
+  mod === "b" ? "Ⓑ fetch + JSON.parse" : "Ⓐ <script> (bugünkü yol)";
+
+function ms(x) { return Math.round(x); }
+
+function scriptYukle(url) {
+  return new Promise(function (coz, hata) {
+    var t0 = performance.now();
+    var s = document.createElement("script");
+    s.src = url;
+    s.onload = function () { coz(performance.now() - t0); };
+    s.onerror = function () { hata(new Error("yüklenemedi: " + url)); };
+    document.head.appendChild(s);
+  });
+}
+
+async function jsonYukle(url) {
+  var t0 = performance.now();
+  var r = await fetch(url);
+  if (!r.ok) throw new Error("HTTP " + r.status + " — " + url);
+  var metin = await r.text();
+  var t1 = performance.now();
+  var v = JSON.parse(metin);
+  var t2 = performance.now();
+  // 🔴 Globalleri AYNI ADLA yerleştir — `.js` yolunun yaptığının birebiri.
+  //    Ayrışırsa bu sınav "aynı sonucu" ölçmüyor demektir.
+  for (var k in v) if (Object.prototype.hasOwnProperty.call(v, k)) window[k] = v[k];
+  return { indirme: t1 - t0, ayristirma: t2 - t1, bayt: metin.length,
+           anahtar: Object.keys(v) };
+}
+
+(async function () {
+  var gorunur = document.visibilityState;
+  var satirlar = [], toplamBayt = 0;
+  var T0 = performance.now();
+  var hata = null;
+
+  try {
+    for (var i = 0; i < HEDEFLER.length; i++) {
+      var h = HEDEFLER[i];
+      if (mod === "b") {
+        var o = await jsonYukle(h.json);
+        toplamBayt += o.bayt;
+        satirlar.push([h.ad, ms(o.indirme), ms(o.ayristirma),
+                       ms(o.indirme + o.ayristirma),
+                       (o.bayt / 1048576).toFixed(2), o.anahtar.length]);
+      } else {
+        var d = await scriptYukle(h.js);
+        // `<script>` yolunda indirme ile ayrıştırma AYRILAMAZ — tarayıcı
+        // ikisini tek olayda bitirir. Bunu "—" diye yazıyorum, 0 diye DEĞİL.
+        var e = performance.getEntriesByName(new URL(h.js, location).href)[0];
+        var b = e ? (e.encodedBodySize || e.transferSize || 0) : 0;
+        toplamBayt += b;
+        satirlar.push([h.ad, "—", "—", ms(d), (b / 1048576).toFixed(2), "—"]);
+      }
+    }
+  } catch (e) { hata = e; }
+
+  var T = performance.now() - T0;
+  var d = document.getElementById("cikti");
+  var h = "<table><tr><th>dosya</th><th>indirme ms</th><th>JSON.parse ms</th>" +
+          "<th>toplam ms</th><th>MB</th><th>anahtar</th></tr>";
+  satirlar.forEach(function (r) {
+    h += "<tr>" + r.map(function (x) { return "<td>" + x + "</td>"; }).join("") + "</tr>";
+  });
+  h += "</table>";
+  h += "<p><b>TOPLAM: <span class='y'>" + ms(T) + " ms</span></b> · " +
+       (toplamBayt / 1048576).toFixed(2) + " MB · mod=" + mod + "</p>";
+  h += "<p>visibilityState: <b class='" + (gorunur === "visible" ? "y" : "k") +
+       "'>" + gorunur + "</b>";
+  if (gorunur !== "visible") {
+    h += " — 🔴 <b>bu sayı ölçüm SAYILMAZ.</b> Panel öne alınıp yeniden koşulmalı." +
+         " (İndirme/ayrıştırma çizime bağlı değildir ama kural gereği damgalanıyor.)";
+  }
+  h += "</p>";
+  if (hata) {
+    h += "<p class='k'>🔴 HATA: " + hata.message + "</p>";
+    if (mod === "b") {
+      h += "<p class='u'>⇒ <code>.json</code> ÜRETİLMEMİŞ olabilir:<br>" +
+           "<code>py denetim/ARAC-JSON-URET-0907.py</code></p>";
+    }
+  }
+  // Makine okunur — otomatik toplama için
+  window.__SINAV = { mod: mod, toplam_ms: ms(T), bayt: toplamBayt,
+                     gorunur: gorunur, satir: satirlar,
+                     hata: hata ? hata.message : null };
+  d.innerHTML = h;
+})();
+</script>
