@@ -10125,17 +10125,17 @@
    "km": 21.5,
    "tepe": 10,
    "hal": "olculemedi",
-   "nitelik_1923": null,
+   "nitelik_1923": "uluslararasi",
    "degisti_1923_sonrasi": null,
-   "dayanak": null,
+   "dayanak": "🟡 DEVRALDIM, DOĞRULANMADI: Ceuta'nın kara çevresi 1860 demarkasyonu, Melilla'nınki 1859 ve 1862 sözleşmeleriyle tespit edilmiş; ikisi de 26 Nisan 1860 Vâdiârâs (Tetuan) Antlaşması bağlamında. Kaynağı AÇAMADIM.",
    "dayanak_t": null,
-   "kaynak": null,
+   "kaynak": "🟡 İki iz var, İKİSİ DE AÇILAMADI: (a) 'Ceuta and Melilla', Max Planck Encyclopedia of Public International Law / Oxford Public International Law — kapalı erişim, yalnız arama özeti görüldü; (b) IBRU (Durham Üniversitesi) Boundary & Territory Briefing Vol.1 No.2 — PDF indirilemedi, sunucu HTML döndürdü (919 bayt). ⇒ `§4`: bir arama motoru özeti bir KAYNAK DEĞİLDİR.",
    "alinti": null,
    "kimlik_bugun_a": "Fas",
    "kimlik_bugun_b": "İspanya",
    "kimlik_1923_a": null,
    "kimlik_1923_b": null,
-   "not": "IBS serisi TÜKETİLDİ: 1-200 arası numara denendi, seride 175 çalışma VAR ve bu sınır için çalışma YOK. Bu artık bir tahmin değil ÖLÇÜM — ama yalnız O SERİ için. Başka kaynak arandı, sonucu aşağıda. ⚠️ Ceuta ve Melilla. 1923 kimliği ayrıca karışık: atlasta `rif-cumhuriyeti` künyesi VAR (1921-09-18 → 1923-10-29) ve tam bu çevrede; ayrıca `KIMLIK-1923-0907` Şefşâven'in ufku aşan `t:9999-01-01` kaydını bildirdi (M-3205 ④) — o da bu bölgede. ⚪ Hiçbirini ölçmedim. `okumadim`.",
+   "not": "🟢 KİMLİK ÖLÇÜLDÜ — ve ülke genelinden DEĞİL, kenarın ÇEVRESİNDEN. Sorgu günü 1923-10-28. Parça 1 (Ceuta, merkez 5,37°B/35,88°K): en yakın nokta Sebte 5,1 km `ispanya`, Fas yakası Tıtvân 34,0 km `fas`. Parça 2 (Melilla, 2,95°B/35,30°K): Melîle 0,9 km `ispanya`, Fas yakası Vecde 117,3 km `fas`. ⇒ `fas` ↔ `ispanya`, FARKLI ⇒ gerçek bir C kenarı, `ayni-kimlik` DEĞİL. Bu ölçüm ülke geneline (yetkili tablo: Fas→`fas`, İspanya→`ispanya`) eklenen ikinci bir ayak: ülke geneli bir kenarın iki yakası hakkında hüküm vermez. 🔴 VE BİR ANOMALİ ÖLÇÜLDÜ — `rif-cumhuriyeti` ATLAS PENCERESİNDE HİÇ BOYANMIYOR: künye penceresi 1921-09-18 → 1923-10-29, ama veride o kimliği kullanan TEK dönem `Şefşâven s: 1924-11-15 → 1926-05-27`. İki aralık HİÇ ÖRTÜŞMÜYOR — veri, künye kapandıktan 383 gün SONRA başlıyor ve atlasın ufkunu AŞIYOR. ⇒ 1923-10-28'de Şefşâven `fas`, ve Rif Cumhuriyeti atlasın penceresi içinde bir kez bile boyanmıyor. (KIMLIK-1923-0907 Şefşâven'in ufku aşan kaydını M-3205 ④'te bildirmişti; buradaki ek şey künye ile verinin ÖRTÜŞMEMESİ ve sonucun 'kimlik hiç kullanılmıyor' olması.) ⚪ Bunun bir veri kusuru mu bilinçli bir tercih mi olduğunu ÖLÇMEDİM ve iş açmadım — benim kalemim değil.",
    "gc": [
     [
      [
@@ -10188,8 +10188,10 @@
    "kimlik_1923_kova_a": "DOGRUDAN",
    "kimlik_1923_kova_b": "DOGRUDAN",
    "ayni_kimlik_sinavi": "FARKLI",
-   "dayanak_1923": "okumadim",
-   "sureklilik": "okumadim"
+   "dayanak_1923": "devraldim-acilamadi",
+   "sureklilik": "olculemedi",
+   "kimlik_1923_a_yerel": "fas (Titvan 34,0 km · 1923-10-28)",
+   "kimlik_1923_b_yerel": "ispanya (Sebte 5,1 km · Melile 0,9 km)"
   },
   {
    "a": "Egypt",
