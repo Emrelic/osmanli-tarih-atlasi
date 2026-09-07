@@ -503,3 +503,69 @@ list_sessions (GERÇEK)                   → local_0865656a-…  🟢
 kaydeder, ÖLÇMEZ."* Kuralı yazan taraf (ben) onu çiğnedi ve bir mesaj
 `Session not found` ile döndü. ⚠️ Defter bugün **en az bir** bayat
 kimlik taşıyor; adla mesaj göndermeden önce `list_sessions`.
+
+---
+
+## ⑨t — `denetle.py` BUGÜN ÇIKIŞ 1 VERİYOR · İKİ SEBEP, İKİ SAHİP
+*(7 Eylül, koşu 8 sürerken · tam koşu ölçüldü: 218.202 ms)*
+
+```
+Değişmez 7  ✗ 661 sorgusuz enklav (beklenen 660)     → 1.MURAT
+Ek denetim  ✗ mükerrer madde: 3 şüpheli çift (0)     → DEGISMEZ3-0907
+```
+🟢 **İkisi de bugünkü `oku_pencere` düzenlememden DEĞİL** — o yalnız
+stderr'e uyarı ekliyor, sayıya dokunmuyor. C13 ile doğrulandı: dört
+kümenin sayısı değişmedi (31 · 171 · 61 · 16).
+
+### 🔴 ENKLAV 661 — EŞİK **ŞİMDİ KAYDIRILMIYOR**, ve gerekçesi ölçüldü
+```
+BEKLENEN_ENKLAV_SORGU = 660   (d041a08 · 5 Eylül merge)
+22cced2 (bugün) : "Değişmez 7 663 -> 661"  ← bir oturum ZATEN ölçmüş
+                  ve 6 TDV maddesi yazarak İKİ AZALTMIŞ
+⇒ gerçek 661 · fotoğraf 660 · fark +1
+```
+**Ve dosyanın kendi kuralı bu sayacı tarif ediyor** (`denetle.py:2174`):
+> *"bu sabit bir HEDEF değil bir FOTOĞRAF… büyüme KUSUR DEĞİL — kusur,
+> bir enklavın koridoru SORULDUĞU HÂLDE cevapsız kalmasıdır, ki onu bu
+> sayaç ÖLÇMEZ. Tavanı yükseltmek o borcu KAPATMAZ."*
+
+🔴 **HÜKÜM: KOŞU 8 BİTMEDEN KAYDIRILMAZ.** `Değişmez 7` **geometriden**
+okuyor ve bugünkü geometri **önceki koşunun çıktısı**. Koşu 8 inince
+sayı yeniden değişecek ⇒ şimdi kaydırmak, **birazdan değişecek bir
+durumun fotoğrafını** çekmek olur.
+⇒ Sıra: koşu 8 → yamalar → `denetle.py` → **o zaman** ölç, sebebini
+ADIYLA yaz, fotoğrafı kaydır.
+
+⚪ **VE DÜRÜST DAMGA:** +1'in **hangi kayıt** olduğu **İZOLE EDİLMEDİ**
+— 660 dönemi bir anlık görüntüm yok ve `data/` donuk. Bloğun kendi
+emsali bunu kabul ediyor (5 Eylül girdisi: *"+18, ve dağılımı
+ÖLÇÜLMEDİ"*). Koşu sonrası tur ayırsın.
+
+## ⑨u — BUGÜN KAPANAN MERGE KİLİTLERİ (özet)
+```
+🟢 _kunye_uygula glob        `*0905*` → `*`      (a5d6f1f)
+🟢 _kronoloji_uygula glob    `*0905*` → `*`      (a5d6f1f)
+🟡 _kademe_uygula liste      KASTEN sabit kaldı — kör glob
+                             `yer_yama_kademe_zincir.js`i (bir `m:`
+                             yaması) yutardı
+🟢 dördüncü kova `SAHİPLENMEDİM`  (7260b83 · d4913af)
+🟢 `oku_pencere` push uyarısı     (1469f7e) — 31↔41 TEŞHİS EDİLDİ:
+   dizi `.push()` ile besleniyor, metin ayrıştırıcı çalışma zamanı
+   mutasyonunu YAPISAL OLARAK göremez
+🟢 YAMA-KUNYE-SOMURGE-AMERIKA  git mv → glob görüyor · KABUL 1 → 4
+🔴 OLCUM-ANTLASMA-SLUG         ADLANDIRILMADI — `kunyeler` anahtarı VAR
+   ama ŞEMA TAM 0/31 (f·t·bolge yok) ⇒ TDV slug ÖLÇÜMÜ, yama değil
+```
+
+## ⑨v — ŞEMA SÖZLEŞMESİ (karar verildi, geriye dönük yazılmaz)
+```
+_HEDEF  nereye     dosya yolu ya da glob
+_CINS   hangi alet kunye · kunye-kronoloji · sahiplik ·
+                   cekirdek-kronoloji · kenar · olcum
+```
+🔴 `_CINS` **gerekli** ve gerekçesi ölçüldü: `_kunye_uygula` ve
+`_kronoloji_uygula` **ikisi de** `data/devletler.js`e yazıyor ⇒
+hedef→alet bir **fonksiyon değil**.
+🔴 `olcum` kasten kümede: bir dosya *"ben uygulanacak değilim"*
+diyebilmeli (`OLCUM-ANTLASMA-SLUG` vakası tam bunun eksikliğiydi).
+🔴 Geriye dönük YAZILMAZ (`§7`) — sahibi dokununca normalleşir.
