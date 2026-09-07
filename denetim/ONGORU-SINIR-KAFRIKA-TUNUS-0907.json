@@ -1,0 +1,53 @@
+{
+ "_NOT": "ÖNGÖRÜ — ÖLÇÜMDEN ÖNCE. Kalem Ⓑ: Tunus'un `v:` dönemlerinde `k` ve `kid` ikisi de null. Mazeretler ÖNCEDEN yazıldı (sevk şartı ④).",
+ "damga": "2026-09-07 · SINIR-KAFRIKA-0907 · ölçüm HENÜZ YAPILMADI",
+ "sevk": "1.MURAT M-3243 kalem Ⓑ",
+ "kalemler": [
+  {
+   "no": "①",
+   "ne_bekliyorum": "Tunus'ta 36; ama KÜRESEL 'ne k ne kid' sayısı 56 — yani 20'si Tunus DIŞINDA",
+   "hangi_ciktidan": "girdi.yukle() · bütün noktaların `v:` dönemleri",
+   "birim": "DÖNEM (nokta değil — bir nokta birden çok `v:` taşıyabilir)",
+   "dayanak": "🟡 DEVRALDIM: KIMLIK-KID-0907 M-3158 — 429 `v:` dönemi, 291 kid VAR, 138 YOK = 82 (k'li) + 56 (adsız). Tunus'un 36'sını KENDİM ölçtüm (tur 1).",
+   "mazeret": "🔴 MEŞRU MAZERET: devraldığım 429/291/138/82/56 dağılımı `(disk)` ANINA ait ve bekleyen bir yama +50 dönem getiriyor. Yamalı anda sayı DEĞİŞİR. ⇒ Hangi anı ölçtüğümü BASACAĞIM; sayı tutmazsa önce AN sorulur."
+  },
+  {
+   "no": "②",
+   "ne_bekliyorum": "36'sı TEK bir dosyada toplanmış",
+   "hangi_ciktidan": "her kaydın `_kaynak` alanı",
+   "birim": "dosya sayısı",
+   "mazeret": "YOK."
+  },
+  {
+   "no": "③",
+   "ne_bekliyorum": "`kd:` alanı HİÇBİR kayıtta yok — tasarlanmış ama hiç doldurulmamış",
+   "hangi_ciktidan": "ham dosya taraması (girdi.py okumuyorsa yüklenmiş kayıtta görünmez) + girdi.py BILINEN_ALANLAR",
+   "birim": "kayıt sayısı",
+   "mazeret": "YOK. `VERI-YAPISI.md` onu 'k/m'nin yerini alacak' diye tarif ediyor; doldurulmuşsa öngörüm çürür ve bu BİR BULGUDUR."
+  },
+  {
+   "no": "④",
+   "ne_bekliyorum": "36'sının `m:` alanı DOLU ⇒ `Değişmez 3`ün evreninin İÇİNDE",
+   "hangi_ciktidan": "yüklenmiş kayıtların `m` alanı",
+   "birim": "kayıt sayısı",
+   "mazeret": "🔴 MAZERET DEĞİL AMA İKİNCİ BİR BULGU OLUR: `m:` boşsa 36 kayıt `Değişmez 3`in evreninin DIŞINDA demektir — yani o denetim onları HİÇ sormuyor. Öngörüm çürürse kusur daha büyük, daha küçük değil."
+  },
+  {
+   "no": "⑤",
+   "ne_bekliyorum": "36'sının hepsinde `isg: fransa-cumhuriyet` örtüsü var (1881-05-12 → 1923-10-29)",
+   "hangi_ciktidan": "kayıtların `isg` dizisi",
+   "birim": "kayıt sayısı",
+   "dayanak": "🟡 DEVRALDIM: KIMLIK-1923-0907 M-3205 ① — 'Tunus sahiplik __KIDSIZ__ 36 · örtü fransa-cumhuriyet 36'",
+   "mazeret": "YOK."
+  },
+  {
+   "no": "⑥",
+   "ne_bekliyorum": "KUSUR — `v:` katmanı Osmanlı tâbiiyetini ifade eder, `k`/`kid` ise TÂBİ POLITY'yi adlandırır; adsız bırakmak bir boşluktur",
+   "hangi_ciktidan": "öteki `v:` dönemlerinin `k`/`kid` doluluk oranı — 291/429 doluysa boş olan İSTİSNADIR",
+   "birim": "oran",
+   "mazeret": "🔴 MEŞRU MAZERET VE ÖNCEDEN YAZIYORUM: `v:` katmanının kendisi zaten 'Osmanlı'ya tâbi' demek olabilir; o zaman boş `k`/`kid` bir ÇELİŞKİ değil yalnız bir ADLANDIRMA eksiği — ve Tunus için model KASITLI olabilir (de jure Osmanlı tâbii + de facto Fransız himayesi, `isg:` ile ifade edilmiş). Ⓐ'da tam bu yanılgıya düştüm: nadir olmayı kusur sandım, oysa tasarım yapan şey BEYANDI. ⇒ Bu kez ÖNCE beyan aranacak: kayıtta `neden:`/`not:` var mı, ve `denetle.py` bunu sayıyor mu?"
+  }
+ ],
+ "hangi_kosuda": "ŞİMDİ, koşu 8 sürerken. `data/` DONUK ⇒ yalnız OKUMA.",
+ "neye_karsi": "Ⓐ'nın dersi: önce BEYAN aranır, sonra kusur ilan edilir."
+}
