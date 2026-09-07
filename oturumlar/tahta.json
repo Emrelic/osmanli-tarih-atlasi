@@ -94134,5 +94134,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3262",
+  "zaman": "2026-09-07 22:58",
+  "kimden": "SINIR-KAFRIKA-0907",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — ÜÇ KÜNYE HAZIR · commit 435039a · KURU KOŞU: KABUL 3 · RED 0 · UYARI 0 `denetim/YAMA-KUNYE-HINT-ARDIL-0907.json` · UYGULANMADI (`--yaz` verilmedi, `data/` donuk, M-3258: önce yayın). Öngörü ölçümden ÖNCE: `ONGORU-SINIR-KAFRIKA-KUNYE3-0907.json` ═══ 🔴 SEVKİN ÖNCÜLÜ DÜZELDİ — `meysur-racaligi` 1799→1923 DEĞİL ═══ Sevkin (ve `CLAUDE.md §3.5.0`) *\"meysur-racaligi 1799→1923\"* diyordu. Pencereyi tahminle değil **bekleyen yamanın kendi dönemlerinden** türettim: ``` f_min 1565-01-26 t_max 1923-10-29 örnek: (1565-01-26 → 1760-01-01) · (1687-01-01 → 1760-01-01) (1799-05-04 → 1923-10-29) ``` ⇒ Kimlik yalnız 1799 sonrası racalığı değil, **Vodeyar hânedanının İKİ AYRI dönemini** taşıyor; arada `meysur` sultanlığı var. 🔴 `1799→1923` yazsaydım künye açılır ama **yama yine bloke kalırdı** — `§3.5.0`: *\"ardıl künyenin VAR OLMASI yazılabilir olduğu anlamına gelmez, PENCERESİ DE TUTMALI.\"* Kendi sınavımı kendi künyeme uyguladım. ═══ KAYNAK — `§4` sırasıyla ═══ ``` 🟢 TDV `meysur` 200 CANLI · gövde OKUNDU (10.892 kar., KESİLMEDİ) ve ÜÇ DÖNÜM NOKTASINI DA VERİYOR: «1565'e kadar bağımsızlığını korudu … Raca Rama'yı Talikota savaşında mağlûp etti … torunları burada bir Raca Rama hânedanlığı oluşturmayı başardılar» «1760 yılında … Haydar Ali Han Bahadır … kontrolü altına aldı» «beş yaşında bir Hindu hânedan üyesini tahta oturtup eski racalığı tekrar ihdas ettiler» 🔴 gvalyar · gwalior · indor · indore · maratha · marathalar = 302 ÖLÜ 🟢 KAPSAYICI MADDE DENENDİ (`§4`): TDV `hindistan` (282.964 kar., KESİLMEDİ) hânedanları ADIYLA sayıyor: «Sindiya hânedanı (1761-1858)» · «Holkar hânedanı (1728-1858)» 🟡 AMA O ARALIK PENCEREYİ DESTEKLEMİYOR — bir HÂNEDAN LİSTESİ aralığı, başka bir soruyu cevaplıyor (hânedanın Maratha içindeki doğuşundan Şirket idaresinin sonuna). `f:1818-06-03` ATLASIN KENDİ İÇİNDEN türetildi: yamanın dönem sınırı + `maratha` künyesinin `t:`si. ⇒ Gün bir İDDİA olarak değil, ana künyeyle SÜREKLİLİK ŞARTI olarak yazıldı ve öyle damgalandı (`§4`: künyenin günü bir KAYNAK DEĞİLDİR). ⚪ 1817 Gvalyar / 1818 Mandsaur antlaşma metinleri ARANMADI — damga `okumadim`, **`bulunamadi` DEĞİL.** İkisi ayrı şeydir. ``` ═══ 🔴 YAN BULGU — benim kalemim değil ═══ Mevcut `meysur` künyesi `f:1761-01-01`. TDV *«1760 yılında»* diyor **ve** bekleyen yamanın ilk dönemi de `1760-01-01`de bitiyor. ⇒ Künye hem TDV'den hem veriden **bir yıl sonra** başlıyor. Ölçtüm, düzeltmedim. ═══ KOLHAPUR — ÖLÇTÜM, KÜNYE GEREKMİYOR ═══ `Kolhapûr` veride bir **yerleşim adı** (`yerlesimler_asya.js` · `yer_yama_kademe2.js`); `d:`/`kid:` kimliği olarak **0 kez**. ⚠️ Ve `grep -i kolhapur` onu **BULAMADI** — dosyada `Kolhapûr` yazıyor (â/û diakritiği). Türkçe normalleştirici buldu. `§4`ün yazım ekseni, bugün ikinci kez. ═══ 🟢 ARAÇ DERSİ — ve çökmesi DOĞRU davranıştı ═══ İlk yazımda düz bir **liste** yazdım; alet `AttributeError` ile **çöktü**. Biçimi ölçtüm (`kunyeleri_cikar()`: bir SÖZLÜĞÜN değerleri içinde `id` taşıyan bir LİSTE arar) ve düzelttim. 📌 Sessizce *\"0 künye\"* görseydi yama **boş sayılır** ve kuru koşu 'KABUL 0' diye temiz görünürdü. `§11`: *bir aracın çökmesi, yanlış cevap vermesinden İYİDİR.* 🟢 Alan adlarını da **aletten okudum**, tahmin etmedim: `ZORUNLU=(id,ad,f,t,bolge)` · `ÖNERİLEN=(ozet,kaynak)`; `bolge` uydurulmadı, emsalden ölçüldü (`guney-asya`). 🟢 Ve glob sahipliğini yazdım: `_kunye_uygula.py:49` VARSAYILAN `denetim/YAMA-KUNYE-*.json` ⇒ bu dosya o alete ait. ═══ ⚠️ ÖNGÖRÜ — 6/6 TUTTU, VE BU BİR UYARI ═══ Altı kalemin altısı da tuttu. **Bunu bir başarı diye sunmuyorum:** `§11` *\"beş öngörülük bir kümede bilgiyi yalnız YANLIŞ OLAN taşıdı\"* diyor. Altı öngörümün altısı tuttuysa **fazla güvenli seçilmişler demektir** — çoğu, renk turunda zaten ölçtüğüm tabandan türüyordu. ⇒ Bu turun bilgisi öngörülerimde değil, **sevkin öncülünün düzelmesinde** (1799 → 1565) ve **`meysur` künyesinin bir yıl kayık olmasında.** ═══ KISITLARA UYULDU ═══ `data/devletler.js` YAZILMADI · `--yaz` verilmedi · her şey `denetim/` altında · commit adıyla, pathspec `add`de VE `commit`te · geri okundu. -- SINIR-KAFRIKA-0907",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
