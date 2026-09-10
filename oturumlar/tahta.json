@@ -97480,5 +97480,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3288",
+  "zaman": "2026-09-10 23:23",
+  "kimden": "PARALEL UYGULAMA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_59082ac8-7538-4def-9a53-34ccf504abfd",
+  "mesaj": "GIDISAT — PARALEL UYGULAMA. AÇILIŞ + kod hazır + küçük kutuda DENK. ① UYGULANDI: arac/uret_petek.py, \"Yabancı devlet gövdeleri\" döngüsü §⑥ tasarımına göre iki fazlı: FAZ1 (ThreadPoolExecutor, MOTOR_PARALEL_ISCI env, varsayılan 4) yan etkisiz geometri hesaplar; FAZ2 sıralı, ÖZGÜN devlet sırasıyla havuza()+sayaçlar+DEVLET_KAYIT. MOTOR_PARALEL_KAPALI=1 ile ESKİ tek-geçişli döngü AYNI DOSYADA, DOKUNULMADAN duruyor — sınama tabanı. ② KENDİ SINAV ARACIM: denetim/ARAC-PARALEL-UYGULAMA-SINAV-0910.py — ADIM 3'ün aletinden farkı: GERÇEK committed uret_petek.py'yi test ediyor (proxy kopya değil, çünkü paralel kod artık dosyanın kendisinde). Küçük kutu (Anadolu 26,36,45,42, 3808->301 nokta, aynı ADIM3 kutusu): sirali == paralel DENK (59 devlet, 295 dönem, 7.261 hücre-birleşimi) negatif çapa (FAZ2 sırası kasten ters çevrildi) ÖTÜYOR — hash değişti, sınavın dişleri var. Sonuç: denetim/PARALEL-UYGULAMA-SINAV-SONUC-0910.json ③ Yol boyunca 2 hata BULDUM VE KENDİM DÜZELTTİM (ikisi de D010 ailesinden): - uygulamada: modül-seviyeli \"for _sure,... in tani:\" global _sure() biçimlendiricisini gölgeliyordu, paralel kip çöktü — değişken adı _ts_sure yapıldı. - sınav aracımda: boz koşusu çıktı dosya adına \"-boz\" eklemiyordu (yanlış env adı), ilk turda \"HÜKÜMSÜZ\" bastı — dosyayı elle karşılaştırdım, hash GERÇEKTEN farklıydı (e0b7ad0f... ayrı, 1b8e8995... sirali), aracı düzelttim, otomatik da doğru basıyor artık. ④ py arac/denetle.py -> SONUÇ: temiz (mevcut committed veri üzerinde, koşu 9 öncesi taban — kabul ölçütü ③'ün GERÇEK sınavı koşu 9 verisiyle olur). ⑤ SORU — kabul ölçütü ①: TAM GİRDİDE bit denkliği. Maliyeti hesapladım: \"Yabancı devlet gövdeleri\" aşaması TEK BAŞINA koşu 8'de dünya kapsamında 16s28dk (988dk) SIRALI sürdü. Aynı aşamayı TAM GİRDİDE iki kez (sıralı+ paralel) koşturmak tahminen: sıralı ~16,5 saat + paralel (4 iş parçacığı, ölçülen N=4 hızlanma 1,42x) ~11,6 saat = TOPLAM ~28 SAAT bu makinede, art arda. PAHALI — şartname \"pahalıysa BANA SOR\" diyor, soruyorum: (a) 28 saati şimdi koştur (b) küçük-kutu DENK + negatif çapa + denetle.py temiz yeterli görülsün, M-3287'nin kendi SINIR maddesi (DUR/koşu10'a bırak/koşu9 SIRALI) işletilsin (c) orta yol: ikinci, daha büyük ama tam olmayan bir kutuda (örn. tüm Balkan+Anadolu+Kafkasya+İran) ek bir DENK turu — dakikalar sürer, güveni büyütür. TAM GİRDİ doğrulaması koşu 9'un SIRALI üretilen verisiyle, koşu 10 öncesi ayrıca paralel modda TEKRAR üretilip karşılaştırılmasına bırakılır (koşu 9 art arda BEKLEMEDEN yayınlanır) Ben (c)'yi öneriyorum. Karar sizin — DUR, bekliyorum. Dosyalar: arac/uret_petek.py (henüz commit edilmedi, karar bekleniyor) · denetim/ARAC-PARALEL-UYGULAMA-SINAV-0910.py · denetim/PARALEL-UYGULAMA-SINAV-SONUC-0910.json",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
