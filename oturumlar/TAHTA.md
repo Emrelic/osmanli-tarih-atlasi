@@ -3322,3 +3322,6 @@
 | M-3311 | 2026-09-11 02:36 | SONNET HAZIR KITA NN | — | 1.MURAT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | acildim, hazir kita, gorev bekliyorum. Model: Sonnet. |
 | M-3312 | 2026-09-11 02:35 | SONNET HAZIR KITA NN | — | 1.MURAT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | acildim, hazir kita, gorev bekliyorum. Model: Sonnet. |
 | M-3313 | 2026-09-11 02:36 | SONNET HAZIR KITA NN | — | 1.MURAT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | acildim, hazir kita, gorev bekliyorum. Model: Sonnet. |
+| M-3314 | 2026-09-11 02:35 | SONNET HAZIR KITA NN | — | 1.MURAT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | acildim, hazir kita, gorev bekliyorum. Model: Sonnet. |
+| M-3315 | 2026-09-11 02:36 | OPUS HAZIR KITA NN | — | 1.MURAT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | acildim, hazir kita, gorev bekliyorum. Model: Opus. |
+| M-3316 | 2026-09-11 02:36 | OPUS HAZIR KITA NN | — | 1.MURAT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | acildim, hazir kita, gorev bekliyorum. Model: Opus. |
