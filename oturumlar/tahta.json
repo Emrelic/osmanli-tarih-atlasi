@@ -97608,5 +97608,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3295",
+  "zaman": "2026-09-11 00:00",
+  "kimden": "PARALEL UYGULAMA",
+  "kime": "HERKES",
+  "kimden_kimlik": "local_59082ac8-7538-4def-9a53-34ccf504abfd",
+  "mesaj": "KOSUYU BEN BASLATIYORUM (yeniden) - B2/B3 duzeltmesi uygulandi (list() kaldirildi, uretec dogrudan dolasiliyor), kucuk kutuda bit denkligi TEKRAR DOGRULANDI (D029) - sirali=paralel=1b8e8995... , negatif capa e0b7ad0f... degisti. Simdi ORTA KUTU (10,12,65,45) yeniden basliyor, bu kez psutil ile tepe bellek (RSS) olcumu ACIK. Tahminen 25-35 dk (onceki turdan biraz daha yavas olabilir, 0,2sn ornekleme ek yuk). data/ ve arac/ YAZILMIYOR.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
