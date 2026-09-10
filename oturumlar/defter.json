@@ -1,5 +1,5 @@
 {
- "_damga": "2026-09-10 17:46",
+ "_damga": "2026-09-10 17:49",
  "_haller": {
   "ALDIM": {
    "aciklama": "şartname ulaştı, başlıyorum",
@@ -52,8 +52,8 @@
  ],
  "_olcum": {
   "kaynak": "kutu/emeklilik.py",
-  "kosan": 3,
-  "z": "2026-09-10 17:39"
+  "kosan": 14,
+  "z": "2026-09-10 17:49"
  },
  "oturumlar": {
   "local_01bec65d-b7a3-4814-a006-0e9a3128ab45": {
@@ -655,6 +655,32 @@
    },
    "olcum_zamani": "2026-09-05 01:12"
   },
+  "local_211b974e-3a66-4072-adef-753e27c9b302": {
+   "acilis": "2026-09-10 17:49",
+   "ad": "OPUS HAZIR KITA 403",
+   "gecmis": [
+    {
+     "kova": "hazir-kita",
+     "not": "gorev bekliyor — 1.MURAT HUDAVENDIGAR koordinatorune bagli",
+     "z": "2026-09-10 17:49"
+    },
+    {
+     "hal": "HAZIR",
+     "not": "acildim, CLAUDE.md okundu, gorev bekliyorum",
+     "z": "2026-09-10 17:49"
+    }
+   ],
+   "gorev": "gorev bekliyor — 1.MURAT HUDAVENDIGAR koordinatorune bagli",
+   "hal": "HAZIR",
+   "hal_not": "acildim, CLAUDE.md okundu, gorev bekliyorum",
+   "hal_zaman": "2026-09-10 17:49",
+   "kimlik": "local_211b974e-3a66-4072-adef-753e27c9b302",
+   "kova": "hazir-kita",
+   "model": "opus",
+   "takma_adlar": [
+    "OPUS HAZIR KITA 403"
+   ]
+  },
   "local_21706fd2-b30f-4f23-b73c-93da7913a45e": {
    "ad": "Sonnet hazır kıta 8",
    "calisiyor": false,
@@ -1140,6 +1166,48 @@
    "takma_adlar": [
     "ARAŞTIRMA BALKAN"
    ]
+  },
+  "local_3d557ab4-454e-4b21-98e0-60171b40e6fd": {
+   "ad": "Murat Hüdavendigar koordinatör oturumu",
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+   "gecmis": [],
+   "gorev": "",
+   "hal": "CALISIYORUM",
+   "kimlik": "local_3d557ab4-454e-4b21-98e0-60171b40e6fd",
+   "kova": "gorevde",
+   "model": "?",
+   "nobetciler": [],
+   "olcum": {
+    "baglam": 183442,
+    "bosta_dk": 0,
+    "hukum": "✅ sürdür",
+    "istek": 23,
+    "rol": "koordinator",
+    "sebep": "bağlam 183 K < 208 K",
+    "z": "2026-09-10 17:49"
+   },
+   "olcum_zamani": "2026-09-10 17:49"
+  },
+  "local_3db96cd8-3b7e-444a-8687-ce204c1ed934": {
+   "ad": "OPUS HAZIR KITA 405",
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+   "gecmis": [],
+   "gorev": "",
+   "hal": "CALISIYORUM",
+   "kimlik": "local_3db96cd8-3b7e-444a-8687-ce204c1ed934",
+   "kova": "gorevde",
+   "model": "?",
+   "nobetciler": [],
+   "olcum": {
+    "baglam": 165429,
+    "bosta_dk": 0,
+    "hukum": "✅ çalışıyor",
+    "istek": 14,
+    "rol": "isci",
+    "sebep": "bağlam 165 K · 14 istek",
+    "z": "2026-09-10 17:49"
+   },
+   "olcum_zamani": "2026-09-10 17:49"
   },
   "local_40073a3a-d995-488d-99a2-c8147d38e597": {
    "ad": "EKOKUMA-0907",
@@ -1809,6 +1877,27 @@
    },
    "olcum_zamani": "2026-09-09 21:47"
   },
+  "local_579be65b-4fbf-4f96-9b36-0d2cc49b83a7": {
+   "ad": "SONNET HAZIR KITA 402",
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+   "gecmis": [],
+   "gorev": "",
+   "hal": "CALISIYORUM",
+   "kimlik": "local_579be65b-4fbf-4f96-9b36-0d2cc49b83a7",
+   "kova": "gorevde",
+   "model": "?",
+   "nobetciler": [],
+   "olcum": {
+    "baglam": 162411,
+    "bosta_dk": 0,
+    "hukum": "✅ çalışıyor",
+    "istek": 10,
+    "rol": "isci",
+    "sebep": "bağlam 162 K · 10 istek",
+    "z": "2026-09-10 17:49"
+   },
+   "olcum_zamani": "2026-09-10 17:49"
+  },
   "local_57a571aa-4242-49e8-beb3-a11f60bf5eb9": {
    "ad": "VERİ ORTASYA",
    "calisiyor": false,
@@ -1907,6 +1996,58 @@
    "takma_adlar": [
     "Opus hazır kıta 5"
    ]
+  },
+  "local_5a21cf9b-3f7a-4360-abe8-3cb0339d9f8e": {
+   "ad": "OPUS HAZIR KITA 401",
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+   "gecmis": [],
+   "gorev": "",
+   "hal": "CALISIYORUM",
+   "kimlik": "local_5a21cf9b-3f7a-4360-abe8-3cb0339d9f8e",
+   "kova": "gorevde",
+   "model": "?",
+   "nobetciler": [
+    {
+     "ad": "tahta",
+     "baslangic": "2026-09-10 17:49",
+     "betik": "tahta.py",
+     "cmd": "C:\\Program Files\\Git\\bin\\..\\usr\\bin\\bash.exe -c -l export TEMP='C:\\Users\\emrem\\AppData\\Local\\Temp' TMP='C:\\Users\\emrem\\AppData\\Local\\Temp' && shopt -u extglob 2>/dev/null || true && { \\builtin unalias -- 'unsetenv'; \\bui",
+     "dakika": 0,
+     "dongu": false,
+     "kim": "OPUS HAZIR KITA 401",
+     "pid": 13552
+    },
+    {
+     "ad": "tahta",
+     "baslangic": "2026-09-10 17:49",
+     "betik": "tahta.py",
+     "cmd": "C:\\Program Files\\Git\\bin\\bash.exe -c -l export TEMP='C:\\Users\\emrem\\AppData\\Local\\Temp' TMP='C:\\Users\\emrem\\AppData\\Local\\Temp' && shopt -u extglob 2>/dev/null || true && { \\builtin unalias -- 'unsetenv'; \\builtin unset ",
+     "dakika": 0,
+     "dongu": false,
+     "kim": "OPUS HAZIR KITA 401",
+     "pid": 20252
+    },
+    {
+     "ad": "tahta",
+     "baslangic": "2026-09-10 17:49",
+     "betik": "tahta.py",
+     "cmd": "C:\\Program Files\\Git\\bin\\..\\usr\\bin\\bash.exe -c -l export TEMP='C:\\Users\\emrem\\AppData\\Local\\Temp' TMP='C:\\Users\\emrem\\AppData\\Local\\Temp' && shopt -u extglob 2>/dev/null || true && { \\builtin unalias -- 'unsetenv'; \\bui",
+     "dakika": 0,
+     "dongu": false,
+     "kim": "OPUS HAZIR KITA 401",
+     "pid": 22272
+    }
+   ],
+   "olcum": {
+    "baglam": 172167,
+    "bosta_dk": 0,
+    "hukum": "✅ çalışıyor",
+    "istek": 19,
+    "rol": "isci",
+    "sebep": "bağlam 172 K · 19 istek",
+    "z": "2026-09-10 17:49"
+   },
+   "olcum_zamani": "2026-09-10 17:49"
   },
   "local_5a9b96a8-5acc-4931-9db0-b4f3339c5e3b": {
    "ad": "VERİ DEVLET 2",
@@ -2221,15 +2362,15 @@
    "model": "?",
    "nobetciler": [],
    "olcum": {
-    "baglam": 659115,
-    "bosta_dk": 14,
+    "baglam": 700486,
+    "bosta_dk": 0,
     "hukum": "🔴 ÖNCE YAZ",
-    "istek": 18006,
+    "istek": 18052,
     "rol": "koordinator",
-    "sebep": "bağlam 659 K ≥ 208 K (taze tabanın 2 katı) VE depoda 224 dosya commit'siz — sıkıştırmadan ya da devretmeden ÖNCE hasat: yazılmamış olan, iki yolda da kaybolur",
-    "z": "2026-09-10 17:39"
+    "sebep": "bağlam 700 K ≥ 208 K (taze tabanın 2 katı) VE depoda 232 dosya commit'siz — sıkıştırmadan ya da devretmeden ÖNCE hasat: yazılmamış olan, iki yolda da kaybolur",
+    "z": "2026-09-10 17:49"
    },
-   "olcum_zamani": "2026-09-10 17:39"
+   "olcum_zamani": "2026-09-10 17:49"
   },
   "local_6f4a0887-83bf-4edb-b701-478a143605aa": {
    "ad": "ŞEHİR -KARTI",
@@ -2451,15 +2592,36 @@
    "model": "?",
    "nobetciler": [],
    "olcum": {
-    "baglam": 154743,
+    "baglam": 220703,
+    "bosta_dk": 0,
+    "hukum": "🟡 İŞ BÖLÜNMELİ",
+    "istek": 59,
+    "rol": "isci",
+    "sebep": "iş bitmedi, 0 dk boşta, bağlam 221 K ≥ 216 K — kalan işi TAZE bir işçiye vermek daha ucuz",
+    "z": "2026-09-10 17:49"
+   },
+   "olcum_zamani": "2026-09-10 17:49"
+  },
+  "local_77cadea3-c493-457c-b08b-a2cee64fe9fc": {
+   "ad": "1. Murat Hüdavendigar oturumu",
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+   "gecmis": [],
+   "gorev": "",
+   "hal": "CALISIYORUM",
+   "kimlik": "local_77cadea3-c493-457c-b08b-a2cee64fe9fc",
+   "kova": "gorevde",
+   "model": "?",
+   "nobetciler": [],
+   "olcum": {
+    "baglam": 160732,
     "bosta_dk": 0,
     "hukum": "✅ çalışıyor",
-    "istek": 7,
+    "istek": 13,
     "rol": "isci",
-    "sebep": "bağlam 155 K · 7 istek",
-    "z": "2026-09-10 17:39"
+    "sebep": "bağlam 161 K · 13 istek",
+    "z": "2026-09-10 17:49"
    },
-   "olcum_zamani": "2026-09-10 17:39"
+   "olcum_zamani": "2026-09-10 17:49"
   },
   "local_781b07b5-ad58-4532-b8d6-ff880fbc8cb1": {
    "ad": "NOKTA HALKA-2 3",
@@ -3248,6 +3410,27 @@
    },
    "olcum_zamani": "2026-09-09 21:47"
   },
+  "local_a0123bd9-c13b-46c7-9489-ee1d1fd43ec2": {
+   "ad": "opus hazır kıta",
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+   "gecmis": [],
+   "gorev": "",
+   "hal": "CALISIYORUM",
+   "kimlik": "local_a0123bd9-c13b-46c7-9489-ee1d1fd43ec2",
+   "kova": "gorevde",
+   "model": "?",
+   "nobetciler": [],
+   "olcum": {
+    "baglam": 256059,
+    "bosta_dk": 0,
+    "hukum": "🟡 iş bitti",
+    "istek": 69,
+    "rol": "isci",
+    "sebep": "0 dk boşta (eşik 45 dk)",
+    "z": "2026-09-10 17:49"
+   },
+   "olcum_zamani": "2026-09-10 17:49"
+  },
   "local_a083bcff-1ed6-4c6b-977e-a415d9d28cf8": {
    "ad": "MACARISTAN SERHAT ARASTIRMA",
    "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
@@ -3545,6 +3728,27 @@
    "takma_adlar": [
     "VERİ SAVAŞ"
    ]
+  },
+  "local_b124510f-56ae-4d6c-99c5-b67ab4949d1c": {
+   "ad": "1. Murat Hüdavendigar oturumu",
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+   "gecmis": [],
+   "gorev": "",
+   "hal": "CALISIYORUM",
+   "kimlik": "local_b124510f-56ae-4d6c-99c5-b67ab4949d1c",
+   "kova": "gorevde",
+   "model": "?",
+   "nobetciler": [],
+   "olcum": {
+    "baglam": 160096,
+    "bosta_dk": 0,
+    "hukum": "✅ çalışıyor",
+    "istek": 10,
+    "rol": "isci",
+    "sebep": "bağlam 160 K · 10 istek",
+    "z": "2026-09-10 17:49"
+   },
+   "olcum_zamani": "2026-09-10 17:49"
   },
   "local_b361c76c-c48f-4679-a4b0-d718ef6c0c1a": {
    "acilis": "2026-08-15 23:58",
@@ -3952,15 +4156,15 @@
    "model": "?",
    "nobetciler": [],
    "olcum": {
-    "baglam": 165145,
+    "baglam": 232166,
     "bosta_dk": 0,
-    "hukum": "✅ çalışıyor",
-    "istek": 12,
+    "hukum": "🟡 İŞ BÖLÜNMELİ",
+    "istek": 64,
     "rol": "isci",
-    "sebep": "bağlam 165 K · 12 istek",
-    "z": "2026-09-10 17:39"
+    "sebep": "iş bitmedi, 0 dk boşta, bağlam 232 K ≥ 216 K — kalan işi TAZE bir işçiye vermek daha ucuz",
+    "z": "2026-09-10 17:49"
    },
-   "olcum_zamani": "2026-09-10 17:39"
+   "olcum_zamani": "2026-09-10 17:49"
   },
   "local_c97147bd-2e04-4a81-a378-602b270450a8": {
    "ad": "ÇAPRAZ İBERYA",
@@ -4113,6 +4317,69 @@
     "z": "2026-09-09 00:31"
    },
    "olcum_zamani": "2026-09-09 00:31"
+  },
+  "local_cc784a2f-54a5-4e2b-a156-171db6d7b35c": {
+   "ad": "OPUS HAZIR KITA 402",
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+   "gecmis": [],
+   "gorev": "",
+   "hal": "CALISIYORUM",
+   "kimlik": "local_cc784a2f-54a5-4e2b-a156-171db6d7b35c",
+   "kova": "gorevde",
+   "model": "?",
+   "nobetciler": [],
+   "olcum": {
+    "baglam": 169069,
+    "bosta_dk": 0,
+    "hukum": "✅ çalışıyor",
+    "istek": 21,
+    "rol": "isci",
+    "sebep": "bağlam 169 K · 21 istek",
+    "z": "2026-09-10 17:49"
+   },
+   "olcum_zamani": "2026-09-10 17:49"
+  },
+  "local_cdb71e6e-5fc2-440b-adae-1f575224b279": {
+   "ad": "OPUS HAZIR KITA 404 · 1. MURAT HÜDAVENDİGAR",
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+   "gecmis": [],
+   "gorev": "",
+   "hal": "CALISIYORUM",
+   "kimlik": "local_cdb71e6e-5fc2-440b-adae-1f575224b279",
+   "kova": "gorevde",
+   "model": "?",
+   "nobetciler": [],
+   "olcum": {
+    "baglam": 170049,
+    "bosta_dk": 0,
+    "hukum": "✅ çalışıyor",
+    "istek": 17,
+    "rol": "isci",
+    "sebep": "bağlam 170 K · 17 istek",
+    "z": "2026-09-10 17:49"
+   },
+   "olcum_zamani": "2026-09-10 17:49"
+  },
+  "local_d03096a2-6db9-48dc-92e8-db96fc71bcfa": {
+   "ad": "1. Murat Hüdavendigar oturumu (görev bekliyor)",
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+   "gecmis": [],
+   "gorev": "",
+   "hal": "CALISIYORUM",
+   "kimlik": "local_d03096a2-6db9-48dc-92e8-db96fc71bcfa",
+   "kova": "gorevde",
+   "model": "?",
+   "nobetciler": [],
+   "olcum": {
+    "baglam": 163641,
+    "bosta_dk": 0,
+    "hukum": "✅ çalışıyor",
+    "istek": 11,
+    "rol": "isci",
+    "sebep": "bağlam 164 K · 11 istek",
+    "z": "2026-09-10 17:49"
+   },
+   "olcum_zamani": "2026-09-10 17:49"
   },
   "local_d101e464-d9c2-4b7b-99f7-cee706f680aa": {
    "ad": "YER ATAMA",
@@ -4392,6 +4659,27 @@
     "z": "2026-09-09 04:51"
    },
    "olcum_zamani": "2026-09-09 04:51"
+  },
+  "local_da31f2e0-a395-4ae0-8488-fbcb3a85a9c9": {
+   "ad": "SONNET HAZIR KITA 403",
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+   "gecmis": [],
+   "gorev": "",
+   "hal": "CALISIYORUM",
+   "kimlik": "local_da31f2e0-a395-4ae0-8488-fbcb3a85a9c9",
+   "kova": "gorevde",
+   "model": "?",
+   "nobetciler": [],
+   "olcum": {
+    "baglam": 162548,
+    "bosta_dk": 0,
+    "hukum": "✅ çalışıyor",
+    "istek": 13,
+    "rol": "isci",
+    "sebep": "bağlam 163 K · 13 istek",
+    "z": "2026-09-10 17:49"
+   },
+   "olcum_zamani": "2026-09-10 17:49"
   },
   "local_dc1f5720-f6a1-4891-a08a-e22c1fe02da4": {
    "ad": "RENK 3",
