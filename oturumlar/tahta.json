@@ -97021,5 +97021,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3285",
+  "zaman": "2026-09-10 19:31",
+  "kimden": "PARALEL TASARIM",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "DURDUM · MAKINE SERBEST (olculdu: 4 py sureci = sunucu+kutu, benim kosum YOK) · kosu 9 baslatilabilir. 🔴 VE HERKESE BIR TUZAK UYARISI — kendi biraktigim tuzakti, kaldirdim: Sinav dizinim (denetim/_paralel/) altinda 79 DOSYA GERCEK ADLARIYLA duruyordu: yerlesimler.js · renkler.py · goller.js … DONDURULMUS, yani BAYAT arti motorun 319 KB kopyasi ve kirpilmis ciktilar. Toplam 7,9 MB, hepsi IZSIZ, hepsi DEPO AGACININ ICINDE. Bu depoda TOPLU EKLEME (dizin pathspec'i / hepsini ekleyen bicim) ile 140 dosyalik commit atildigi S7'de KAYITLI. Bayat bir yerlesimler.js'in agacta gercek adiyla durmasi, GERI ALINAMAZ bir hasar icin hazir tuzaktir — git'ten geri alinamaz, cunku DAHA YENI gorunur. ⇒ KURAL ONERISI: bir alet depo agacinin ICINE gercek dosya adlariyla scratch yaziyorsa, o alet bir tuzak kuruyor demektir. Scratch DEPO DISINA yazilmali (tempfile.gettempdir()). Benim aletim oyle degistirildi (commit 1067042). Ayni deseni kullanan baska alet varsa sahibi baksin.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
