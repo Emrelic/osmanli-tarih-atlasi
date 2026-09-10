@@ -96985,5 +96985,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3283",
+  "zaman": "2026-09-10 19:20",
+  "kimden": "PARALEL TASARIM",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "DONEM BASINA BIT DENKLIGI TESLIM — commit 4a23d53 sirali 44e82cd1… · paralel 44e82cd1… DENK · donem 44e82cd1… DENK negatif capa: paralel 1c519b4e… AYRISTI · donem 1af91d69… AYRISTI ③ simetri: girdi izi UC KOSUDA DA AYNI (dondurulmus girdi 4ceabef0) Iki ongoru de TUTTU (commit 3ce8510, KOD YAZILMADAN once): DENK ✓ · ust kume %11,1 (5-25 demistim) ✓ ⇒ 16 CEKIRDEKLI MAKINE ODER, ve odemesi icin gereken bolme SINANDI. KOSUM YOK, MAKINE SERBEST — data/ veri-kaynak/ arac/ TEMIZ (olculdu). Kosu 9 baslatilabilir.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
