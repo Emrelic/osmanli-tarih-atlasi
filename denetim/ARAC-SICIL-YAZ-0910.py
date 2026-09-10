@@ -28,13 +28,33 @@ OLCUM_TARIHI = "2026-09-10"
 
 IM = {
     "cozuldu_commitli": ("✅", "ÇÖZÜLDÜ"),
+    "cozuldu_veride":   ("🔵", "VERİDE VAR"),
     "cozuldu_izsiz":    ("🟠", "İDDİA EDİLDİ"),
-    "cozuldu_curuk":    ("🔴", "ÇÜRÜK"),
+    "cozuldu_yapilmamis": ("🔴", "YAPILMAMIŞ"),
+    "cozuldu_olculemedi": ("❔", "ÖLÇÜLEMEDİ"),
+    "cozuldu_iddiasiz": ("➖", "İDDİA TAŞIMIYOR"),
+    "cozuldu_curuk":    ("🔻", "ÇÜRÜK"),
     "zaten-dogru":      ("🟢", "ZATEN DOĞRU"),
     "tekrar":           ("🔁", "TEKRAR"),
     "gerek-yok":        ("⚪", "GEREK GÖRÜLMEDİ"),
     "bayat":            ("🕰", "BAYAT ŞİKÂYET"),
     "kapsam-disi":      ("⛔", "KAPSAM DIŞI"),
+}
+
+# ── `cozuldu` MADDESININ IMI, `delil_atlas` DEGERINDEN TURER ─────────────
+# 🔴 BU TABLO KAPALIDIR: burada olmayan bir deger gelirse alet ÇÖKER, sessizce
+#    🟠'ye DUSMEZ. Sebep: `IZ-YOK DENETIM A/B/C` turu bu alani yeni degerlerle
+#    dolduracak; tablo acik olsaydi tanimadigi her degeri "iddia edildi" diye
+#    raporlar ve ÖLÇÜLMÜŞ bir sonuç ÖLÇÜLMEMİŞ görünürdü (D026 · D067).
+#    ⇒ Bir aletin COKMESI, yanlis cevap vermesinden IYIDIR.
+DELIL_IM = {
+    "dogrulandi":        "cozuldu_commitli",    # commit VAR — S-011 kurali
+    "veride-dogrulandi": "cozuldu_veride",      # 🆕 karsiligi VERIDE var
+    "iz-yok":            "cozuldu_izsiz",       # henuz olculmemis
+    "yapilmamis":        "cozuldu_yapilmamis",  # 🆕 olculdu, karsiligi YOK
+    "olculemedi":        "cozuldu_olculemedi",  # 🆕 olculemedi (≠ yapilmamis)
+    "iddiasiz":          "cozuldu_iddiasiz",    # uygulama iddiasi TASIMIYOR
+    "curuk":             "cozuldu_curuk",
 }
 
 # ── KAYITLAR — sira BURADA belirlenir, S numarasi sirayla verilir ─────────
@@ -416,8 +436,15 @@ ClaudEmre kutusuna tek satırlık kayıt gitsin.»*"""),
 ]
 
 
+BILINMEYEN = collections.defaultdict(list)   # tanimsiz delil_atlas degerleri
+DAMGA_AMA_DELILSIZ = []                      # "dogrulandi" ama commit YOK
+
+
 def main():
-    d = json.load(io.open(G, encoding="utf-8"))
+    girdi = G
+    if "--girdi" in sys.argv:
+        girdi = sys.argv[sys.argv.index("--girdi") + 1]
+    d = json.load(io.open(girdi, encoding="utf-8"))
     ms = d["maddeler"]
     kume_ler = collections.defaultdict(list)
     for m in ms:
@@ -431,6 +458,7 @@ def main():
         return 1
 
     sat = []
+    genel = collections.Counter()
     toplam_bagli = 0
     toplam_onay = 0
     for i, (kid, baslik, karar) in enumerate(KAYITLAR, start=12):
@@ -439,16 +467,22 @@ def main():
         sayim = collections.Counter()
         for m in uy:
             h = m["hukum"]
-            if h == "cozuldu":
-                if m["delil_atlas"] == "curuk":
-                    sayim["cozuldu_curuk"] += 1
-                elif m["delil_commit"]:
-                    sayim["cozuldu_commitli"] += 1
-                else:
-                    sayim["cozuldu_izsiz"] += 1
-            else:
+            if h != "cozuldu":
                 sayim[h] += 1
+                continue
+            da = m["delil_atlas"]
+            if da not in DELIL_IM:
+                BILINMEYEN[da].append("%s/%s" % (m["paket"], m["no"]))
+                continue
+            anahtar = DELIL_IM[da]
+            # 🔴 S-011 KURALI BURADA UYGULANIR: "dogrulandi" damgasi TEK BASINA
+            #    ✅ YAPMAZ — commit'in KENDISI aranir. Damga delilin yerine gecemez.
+            if anahtar == "cozuldu_commitli" and not m["delil_commit"]:
+                DAMGA_AMA_DELILSIZ.append("%s/%s" % (m["paket"], m["no"]))
+                continue
+            sayim[anahtar] += 1
         toplam_onay += sayim["cozuldu_commitli"]
+        genel.update(sayim)
         cm = sorted({m["delil_commit"] for m in uy if m["delil_commit"]})
         kaynak = " · ".join(
             "%s/%s" % (m["paket"].replace("parti-", "").replace("emrelic-", "E"),
@@ -476,12 +510,42 @@ def main():
         else:
             sat.append("**Doğrulanmış commit: YOK** — bu kayıtta `✅` yazılamaz "
                        "(`S-011` kuralı).")
+        # 🔵 VERIDE VAR olanlarin DELILI: nerede + KIM olctu (D114)
+        yer = [m for m in uy if m["delil_yer"]]
+        kim = sorted({m["delil_kim"] for m in uy if m["delil_kim"]})
+        if yer or kim:
+            sat.append("")
+            sat.append("**🔵 veride doğrulanan (%d)** — ölçen: %s%s"
+                       % (len(yer), " · ".join(kim) or "yazılmamış",
+                          (" · örnek: `%s`" % yer[0]["delil_yer"]) if yer else ""))
         sat.append("")
         sat.append("<details><summary>kaynak madde (%d)</summary>\n\n`%s`\n</details>"
                    % (len(uy), kaynak))
         sat.append("")
         sat.append("---")
         sat.append("")
+
+    # ── İKİ KAPI — hicbiri sessizce gecilmez, ve SICIL YAZILMADAN once ──
+    if BILINMEYEN:
+        print("🔴 TANIMSIZ `delil_atlas` DEGERI — SICIL YAZILMADI.")
+        print("   DELIL_IM tablosu KAPALIDIR; tanimadigi bir degeri 🟠 diye")
+        print("   raporlamak, OLCULMUS bir sonucu OLCULMEMIS gostermek olurdu.")
+        for deger, mad in sorted(BILINMEYEN.items()):
+            print("   %-24s %3d madde   ilk: %s" % (repr(deger), len(mad), mad[0]))
+        print("   ⇒ ya deger duzeltilir, ya DELIL_IM'e ADIYLA eklenir.")
+        return 1
+    if DAMGA_AMA_DELILSIZ:
+        print("🔴 `dogrulandi` DAMGASI VAR AMA `delil_commit` BOS — SICIL YAZILMADI.")
+        print("   S-011: damga delilin yerine gecemez. %d madde:"
+              % len(DAMGA_AMA_DELILSIZ))
+        for x in DAMGA_AMA_DELILSIZ[:10]:
+            print("     ", x)
+        print("   ⇒ commit yaziliyorsa `dogrulandi`, yazilamiyorsa")
+        print("     `veride-dogrulandi` (🔵) kullanilir.")
+        return 1
+
+    ozet = " · ".join("%s %s %d" % (IM[k][0], IM[k][1], v)
+                      for k, v in sorted(genel.items(), key=lambda x: -x[1]))
 
     bas = [
         CAPA,
@@ -502,28 +566,42 @@ def main():
         "",
         "```",
         "ÖLÇÜM TARİHİ   %s      paket 45 · madde 681" % OLCUM_TARIHI,
-        "hükümlü        500     (681 − 181 açık: sirada 128 · olculecek 48 · kosu-bekliyor 5)",
-        "KARAR kaydı     25     ARTIK (hiçbir karara bağlanamayan madde): 0",
-        "delil dağılımı  doğrulandı 120 · iz-yok 207 · iddiasız 172 · çürük 1",
+        "hükümlü        %-4d    (681 − 181 açık: sirada 128 · olculecek 48 · kosu-bekliyor 5)"
+        % toplam_bagli,
+        "KARAR kaydı     %-4d   ARTIK (hiçbir karara bağlanamayan madde): 0"
+        % len(KAYITLAR),
+        "im dağılımı     %s" % ozet,
         "```",
         "",
-        "🔴 **`✅ ÇÖZÜLDÜ` YALNIZ COMMIT'İ DOĞRULANMIŞ 120 MADDEDE YAZILIDIR.**",
-        "`cozuldu` deyip atlas git'inde izi bulunamayan **207 madde** 🟠 **İDDİA",
-        "EDİLDİ** diye durur — `S-011`in kendi kuralı budur: *«karar verildi» ile",
-        "«uygulandı» ayrı olaylardır.*",
+        "🔴 **`✅ ÇÖZÜLDÜ` YALNIZ COMMIT'İ DOĞRULANMIŞ MADDEDE YAZILIR.**",
+        "`S-011`in kendi kuralı budur: *«karar verildi» ile «uygulandı» ayrı",
+        "olaylardır* — ve **damga delilin yerine geçemez.** Bir maddede",
+        "`delil_atlas: \"dogrulandi\"` yazıp `delil_commit` boşsa üretici **çöker**,",
+        "sicili yazmaz.",
         "",
-        "⚠️ **VE BU BÖLÜM BAYATLAYACAK, BİLEREK YAZILDI.** O 207 maddeyi şu an üç",
-        "oturum (A/B/C) tek tek doğruluyor; raporları gelince 🟠 kayıtların bir",
-        "kısmı ✅ olacak. `D069`: *bir hüküm dosyası bir ölçüm değil, ölçümün",
-        "FOTOĞRAFIDIR* — o yüzden her kaydın başında **ölçüm tarihi** duruyor.",
+        "⚠️ **VE BU BÖLÜM BAYATLAR, BİLEREK BÖYLE YAZILDI.** `D069`: *bir hüküm",
+        "dosyası bir ölçüm değil, ölçümün FOTOĞRAFIDIR* — o yüzden her kaydın",
+        "başında **ölçüm tarihi** duruyor. Fotoğrafı yenilemek elle düzeltmekle",
+        "değil, ölçümü yeniden koşturmakla olur.",
         "",
-        "## Hüküm sözlüğüne bu bölümde eklenen üç im",
+        "## Hüküm sözlüğüne bu bölümde eklenen imler",
         "",
-        "| im | hüküm | ne demek |",
-        "|---|---|---|",
-        "| 🟠 | **İDDİA EDİLDİ** | cevapta «çözüldü» yazıyor, **commit izi yok** — `✅` yazılamaz |",
-        "| 🕰 | **BAYAT ŞİKÂYET** | şikâyet gönderilirken doğruydu, cevap yazılırken artık üremiyordu |",
-        "| ⛔ | **KAPSAM DIŞI** | atlasın işi değil (kutu altyapısı, Emre'nin kendi kaydı) |",
+        "| im | hüküm | `delil_atlas` | ne demek |",
+        "|---|---|---|---|",
+        "| 🔵 | **VERİDE VAR** | `veride-dogrulandi` | commit izlenemiyor **ama iddianın karşılığı bugün veride VAR** — nerede olduğu `delil_yer`de, kimin ölçtüğü `delil_kim`de |",
+        "| 🟠 | **İDDİA EDİLDİ** | `iz-yok` | «çözüldü» yazıyor, **henüz ölçülmedi** |",
+        "| 🔴 | **YAPILMAMIŞ** | `yapilmamis` | ölçüldü, **karşılığı yok** — gerçek borç |",
+        "| ❔ | **ÖLÇÜLEMEDİ** | `olculemedi` | ölçüm **yapılamadı** — bilinmeyen, borç DEĞİL |",
+        "| ➖ | **İDDİA TAŞIMIYOR** | `iddiasiz` | madde bir uygulama iddiası taşımıyor |",
+        "| 🕰 | **BAYAT ŞİKÂYET** | — | şikâyet gönderilirken doğruydu, cevap yazılırken artık üremiyordu |",
+        "| ⛔ | **KAPSAM DIŞI** | — | atlasın işi değil (kutu altyapısı, Emre'nin kendi kaydı) |",
+        "",
+        "🔴 **`🔵` `✅`NİN GEVŞETİLMİŞ HÂLİ DEĞİLDİR** — farklı bir şey ölçüldüğü",
+        "için farklı bir imdir. `✅` bir **commit** görmüştür; `🔵` **veride bir",
+        "karşılık** görmüştür. İkisini tek imde toplamak, `S-011`i çiğnemek olur.",
+        "🔴 Ve **`🔴 YAPILMAMIŞ` ile `❔ ÖLÇÜLEMEDİ` aynı kovaya konmaz** (`D107`):",
+        "biri **gerçek borç**, öteki **bilinmeyen**. Birleştirmek, borcu",
+        "bilinmezliğin arkasına saklamaktır.",
         "",
         "---",
         "",
@@ -533,6 +611,7 @@ def main():
 
     print("kayit:", len(KAYITLAR), "| baglanan madde:", toplam_bagli,
           "| commit'li (✅ yazilabilen):", toplam_onay)
+    print("dagilim:", ozet)
     if toplam_bagli != len(ms):
         print("🔴 BAGLANAN != TOPLAM:", toplam_bagli, "!=", len(ms))
         return 1
@@ -542,13 +621,18 @@ def main():
         print("hedef:", HEDEF)
         return 0
 
-    eski = io.open(HEDEF, encoding="utf-8").read()
+    hedef = HEDEF
+    if "--hedef" in sys.argv:          # yalnız SINAV içindir (taklit çıktı)
+        hedef = sys.argv[sys.argv.index("--hedef") + 1]
+        if not os.path.exists(hedef):
+            io.open(hedef, "w", encoding="utf-8").write("# TAKLIT\n")
+    eski = io.open(hedef, encoding="utf-8").read()
     if CAPA in eski:
         eski = eski.split(CAPA)[0].rstrip() + "\n\n"
     else:
         eski = eski.rstrip() + "\n\n---\n\n"
-    io.open(HEDEF, "w", encoding="utf-8").write(eski + govde)
-    print("YAZILDI:", HEDEF, "|", len(eski + govde), "karakter")
+    io.open(hedef, "w", encoding="utf-8").write(eski + govde)
+    print("YAZILDI:", hedef, "|", len(eski + govde), "karakter")
     return 0
 
 

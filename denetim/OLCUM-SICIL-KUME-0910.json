@@ -62,6 +62,8 @@
    "hukum": "cozuldu",
    "delil_commit": "47aa386",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "iran bir coğrafya ası aslında ve iranda bir yandan ilhanlı d",
    "kume": "K19-KIMLIK",
    "nasil": "sikayet"
@@ -72,6 +74,8 @@
    "hukum": "cozuldu",
    "delil_commit": "c8b56a1",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "gemlik ve kiosun alınması maddesinde en batıdaki parça ile o",
    "kume": "K17-GEOMETRI",
    "nasil": "sikayet"
@@ -82,6 +86,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "söğüt bölgesi",
    "kume": "K11-SEMBOL",
    "nasil": "elle"
@@ -92,6 +98,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "göllerin üzerini kaplayan harita renkleri söz konusu bunu be",
    "kume": "K17-GEOMETRI",
    "nasil": "elle"
@@ -102,6 +110,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "kıyılara renk katmanı birebir oturmalı hiç olmzsa bu osmanlının doğduğu coğrafyada ilk buraya bakıyoruz ve anında görünüyor buralar biraz daha titiz ç",
    "kume": "K14-RENK",
    "nasil": "sikayet"
@@ -112,6 +122,8 @@
    "hukum": "cozuldu",
    "delil_commit": "756c8bc",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "sağdaki kronooji indexi panceresi kapatılabilir ve tam ekran",
    "kume": "K13-PANEL-ARAYUZ",
    "nasil": "sikayet"
@@ -122,6 +134,8 @@
    "hukum": "cozuldu",
    "delil_commit": "756c8bc",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "sınırlar akademik atlas verisine dayalıdır yaklaşıktır doğru",
    "kume": "K13-PANEL-ARAYUZ",
    "nasil": "elle"
@@ -132,6 +146,8 @@
    "hukum": "cozuldu",
    "delil_commit": "756c8bc",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "edirne için hem yıldız hem kırmızı yuvarlak gösterimi var bi",
    "kume": "K11-SEMBOL",
    "nasil": "elle"
@@ -142,6 +158,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "veri sınırı butonu ne işe yarıyor bunu anlatman lazım",
    "kume": "K13-PANEL-ARAYUZ",
    "nasil": "sikayet"
@@ -152,6 +170,8 @@
    "hukum": "cozuldu",
    "delil_commit": "756c8bc",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "hakkında butonuna artık gerek yok sanırım .ayrıca buradaki b",
    "kume": "K13-PANEL-ARAYUZ",
    "nasil": "sikayet"
@@ -162,6 +182,8 @@
    "hukum": "cozuldu",
    "delil_commit": "95f774c",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "gelibolu sahilinin karşı kıyısında biga yarımadasının kuzey",
    "kume": "K22-DOGRULAMA",
    "nasil": "sikayet"
@@ -172,6 +194,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "akresi beyliğinin ilhakında geliboludan bir parça toprak alı",
    "kume": "K22-DOGRULAMA",
    "nasil": "elle"
@@ -182,6 +206,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "ankara ile sivrihisar ve çankırıda alınmış gibi doğru ile kr",
    "kume": "K17-GEOMETRI",
    "nasil": "sikayet"
@@ -192,6 +218,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "tuz gölü etrafında hatalı iki küçük toprak var sanki bu  hat",
    "kume": "K17-GEOMETRI",
    "nasil": "cevap"
@@ -202,6 +230,8 @@
    "hukum": "cozuldu",
    "delil_commit": "756c8bc",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "dimetokanın oradaki sembol tam olarak anlamı nedir",
    "kume": "K11-SEMBOL",
    "nasil": "sikayet"
@@ -212,6 +242,8 @@
    "hukum": "cozuldu",
    "delil_commit": "95f774c",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "gümülcinenin alınmasında osmanlı ile gümülcine arasında topr",
    "kume": "K16-NOKTASIZLIK",
    "nasil": "sikayet"
@@ -222,6 +254,8 @@
    "hukum": "cozuldu",
    "delil_commit": "95f774c",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu kıymık gibi uzayan gösterim bir hata sanırım",
    "kume": "K17-GEOMETRI",
    "nasil": "sikayet"
@@ -232,6 +266,8 @@
    "hukum": "cozuldu",
    "delil_commit": "95f774c",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "şu gösterimde hata olmalı küçük bir toprak parçası kopuk dur",
    "kume": "K17-GEOMETRI",
    "nasil": "sikayet"
@@ -242,6 +278,8 @@
    "hukum": "cozuldu",
    "delil_commit": "756c8bc",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu sarı gösterim sarı semboller tam oalrak nedir bana açıkla",
    "kume": "K11-SEMBOL",
    "nasil": "sikayet"
@@ -252,6 +290,8 @@
    "hukum": "cozuldu",
    "delil_commit": "47aa386",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "hamid ilinin satın alınışı sornası ıspartanın ana aprçadan k",
    "kume": "K18-ENKLAV",
    "nasil": "sikayet"
@@ -262,6 +302,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu gösterimin ne kadar gerçekle yada mantıkla yada coğrafi t",
    "kume": "K16-NOKTASIZLIK",
    "nasil": "cevap"
@@ -272,6 +314,8 @@
    "hukum": "cozuldu",
    "delil_commit": "756c8bc",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "başkent yıldız olsun demiştik ayrıca eyalet merkezleri de ay",
    "kume": "K11-SEMBOL",
    "nasil": "sikayet"
@@ -282,6 +326,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "timur bağdadı zapteti celayirliler kaçtı maddesinde haritada",
    "kume": "K19-KIMLIK",
    "nasil": "sikayet"
@@ -292,6 +338,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "anadolu hisarının yapımı maddesinde osmanlı toprakları boğaz",
    "kume": "K16-NOKTASIZLIK",
    "nasil": "elle"
@@ -302,6 +350,8 @@
    "hukum": "cozuldu",
    "delil_commit": "756c8bc",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "niğbolu seferinde metinler semboller üstüste binmiş okunmuyo",
    "kume": "K11-SEMBOL",
    "nasil": "sikayet"
@@ -312,6 +362,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "karamanın ilhakında osmanlıya katılmayan bir kısım topraklar",
    "kume": "K22-DOGRULAMA",
    "nasil": "elle"
@@ -322,6 +374,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "böyle iki devletin renginin üstüste binmesi sonucu sanırım b",
    "kume": "K14-RENK",
    "nasil": "sikayet"
@@ -332,6 +386,8 @@
    "hukum": "cozuldu",
    "delil_commit": "47aa386",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "ilhanlı devletinin dağılması maddesinde tüm bölge birden kah",
    "kume": "K19-KIMLIK",
    "nasil": "sikayet"
@@ -342,6 +398,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu anadolu selçuklulaı devletinin ne zaman yıkılıp bittiği k",
    "kume": "K19-KIMLIK",
    "nasil": "cevap"
@@ -352,6 +410,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu yapıda osmanlı imparatorluğu kırmızı renkte. ordu ünye bi",
    "kume": "K22-DOGRULAMA",
    "nasil": "sikayet"
@@ -362,6 +422,8 @@
    "hukum": "tekrar",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "timurun bağdadı ikinci kez ele geirişide haritada gösterilmi",
    "kume": "K12-OLAY-YERI",
    "nasil": "sikayet"
@@ -372,6 +434,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "fetret devrinde timura bağı bölgeleri ve tekrar hortlatılan",
    "kume": "K22-DOGRULAMA",
    "nasil": "sikayet"
@@ -382,6 +446,8 @@
    "hukum": "cozuldu",
    "delil_commit": "9983823",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "düzmece mustafa ayaklanması maddesinde aydınoğulları beyliği",
    "kume": "K19-KIMLIK",
    "nasil": "elle"
@@ -392,6 +458,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "batı anadolu beyliklerinin ilhakı maddesinde germiyanoğlu be",
    "kume": "K19-KIMLIK",
    "nasil": "sikayet"
@@ -402,6 +470,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bosna ucunun ilhakı enklav şeklinde mi olmuş böyle anakarada",
    "kume": "K18-ENKLAV",
    "nasil": "sikayet"
@@ -412,6 +482,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu parça rumeli hasarının yapımında bu anadolu yakasındaki t",
    "kume": "K16-NOKTASIZLIK",
    "nasil": "elle"
@@ -422,6 +494,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "istanbul fethedildiğinde marmara adasıda fethedilmiş görünüy",
    "kume": "K22-DOGRULAMA",
    "nasil": "sikayet"
@@ -432,6 +506,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "şu kırım hanlığını cetvelle bölünmüş yapıdan kurtarmamız laz",
    "kume": "K17-GEOMETRI",
    "nasil": "sikayet"
@@ -442,6 +518,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "dubrovnik raguza haracı maddesinde bölgenin görünümü bu şeki",
    "kume": "K18-ENKLAV",
    "nasil": "sikayet"
@@ -452,6 +530,8 @@
    "hukum": "cozuldu",
    "delil_commit": "1d5fb76",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "batı karadeniz kıyısının alınması ile birlikte izvornik te k",
    "kume": "K24-DEGISMEZ2",
    "nasil": "elle"
@@ -462,6 +542,8 @@
    "hukum": "gerek-yok",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "eflak seferi ve kazıklı voyvoda maddesi tek bir madde ve tüm",
    "kume": "K21-VASSAL",
    "nasil": "sikayet"
@@ -472,6 +554,8 @@
    "hukum": "cozuldu",
    "delil_commit": "1dd0ad7",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "KARAMANIN kesin ilhakı maddesinde karamanın ilhak edildiği g",
    "kume": "K24-DEGISMEZ2",
    "nasil": "sikayet"
@@ -482,6 +566,8 @@
    "hukum": "cozuldu",
    "delil_commit": "1dd0ad7",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "karamanın ilhakı iki madde sonra haritada işleniyor",
    "kume": "K24-DEGISMEZ2",
    "nasil": "sikayet"
@@ -492,6 +578,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "livno ve batı bosnanın kesin ilhakı maddesinde harita göster",
    "kume": "K22-DOGRULAMA",
    "nasil": "sikayet"
@@ -502,6 +590,8 @@
    "hukum": "tekrar",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "kırımı şu saçma cetvelle bölünmüş yapısından kurtraracakmıyı",
    "kume": "K17-GEOMETRI",
    "nasil": "sikayet"
@@ -512,6 +602,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "fetret devri madesinde çandarlı halil paşa maddesinin ne ala",
    "kume": "K13-PANEL-ARAYUZ",
    "nasil": "elle"
@@ -522,6 +614,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "Kili'nin tesliminden yirmi gün sonra ordu Dinyester ağzındak",
    "kume": "K21-VASSAL",
    "nasil": "sikayet"
@@ -532,6 +626,8 @@
    "hukum": "cozuldu",
    "delil_commit": "731d1ca",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "Papalık'tan Fransa Kralı VIII. Charles'a devredilen Cem Sult",
    "kume": "K16-NOKTASIZLIK",
    "nasil": "cevap"
@@ -542,6 +638,8 @@
    "hukum": "cozuldu",
    "delil_commit": "e8c4515",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "12-25 Ağustos 1499",
    "kume": "K13-PANEL-ARAYUZ",
    "nasil": "elle"
@@ -552,6 +650,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "safevi devleti kurulduğunda iran ve etrafı topraklar bu şeki",
    "kume": "K18-ENKLAV",
    "nasil": "sikayet"
@@ -562,6 +662,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "öncesi durum 1. resimde görülüyor",
    "kume": "K19-KIMLIK",
    "nasil": "sikayet"
@@ -572,6 +674,8 @@
    "hukum": "cozuldu",
    "delil_commit": "e8c4515",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "1502",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -582,6 +686,8 @@
    "hukum": "cozuldu",
    "delil_commit": "88f5eab",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "1503 (908 h.; ay ve gün kaynakta yok)",
    "kume": "K11-SEMBOL",
    "nasil": "sikayet"
@@ -592,6 +698,8 @@
    "hukum": "cozuldu",
    "delil_commit": "5336407",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "BU İRAN İÇİNDE SAFEVİLERDEN AYRI BİR SÜRÜ BENEK ENKLAV BÖLGE",
    "kume": "K18-ENKLAV",
    "nasil": "sikayet"
@@ -602,6 +710,8 @@
    "hukum": "cozuldu",
    "delil_commit": "1f7d8d2",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "BU ORTAASYADAKİ BÖLGELER HAZARIN DOĞUSUNDAKİ BÜYÜK COĞRAFYA",
    "kume": "K16-NOKTASIZLIK",
    "nasil": "elle"
@@ -612,6 +722,8 @@
    "hukum": "cozuldu",
    "delil_commit": "88f5eab",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "Şahkulu İsyanı — Teke yöresinden Sivas'a uzanan Kızılbaş aya",
    "kume": "K05-ISGAL-TARALI",
    "nasil": "sikayet"
@@ -622,6 +734,8 @@
    "hukum": "cozuldu",
    "delil_commit": "bfe254f",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "SİNJ KALESİNİN FETHİ MADDESİNDE SİNJ KALESİNN YERİ HARİTADA",
    "kume": "K12-OLAY-YERI",
    "nasil": "sikayet"
@@ -632,6 +746,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "(başlıksız)",
    "kume": "K22-DOGRULAMA",
    "nasil": "elle"
@@ -642,6 +758,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "ŞİMDİ PADİŞAHIN RESMİNİ ZATEN YUKARIDA GÖSTERİYORUZ  PİRİ RE",
    "kume": "K11-SEMBOL",
    "nasil": "elle"
@@ -652,6 +770,8 @@
    "hukum": "cozuldu",
    "delil_commit": "bc2f88d",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "SAFEVİLER VAR İKEN AYNI ZAMANDA AKKOYUNLULAR DA VAR OLMAYA D",
    "kume": "K19-KIMLIK",
    "nasil": "sikayet"
@@ -662,6 +782,8 @@
    "hukum": "cozuldu",
    "delil_commit": "bc2f88d",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "İRAN VE DOĞU ANADOLU HARİTASI BU TARİHTE DOĞRUMU ORADA AKKOY",
    "kume": "K19-KIMLIK",
    "nasil": "sikayet"
@@ -672,6 +794,8 @@
    "hukum": "cozuldu",
    "delil_commit": "88f5eab",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "BİR BUTON YAPMALI HARİTAYA YAY BUTONU. HARİTAYA YAY BUTONUNA",
    "kume": "K13-PANEL-ARAYUZ",
    "nasil": "sikayet"
@@ -682,6 +806,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "BU ÜÇKEN ŞEKLİNDE KAFKASLARIN KUZEYİNDE YER ALAN TOPRAK PARÇ",
    "kume": "K17-GEOMETRI",
    "nasil": "sikayet"
@@ -692,6 +818,8 @@
    "hukum": "cozuldu",
    "delil_commit": "5336407",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "İRn-an diye etiketlenen bu toprakların gerçek sahibi kim. he",
    "kume": "K22-DOGRULAMA",
    "nasil": "sikayet"
@@ -702,6 +830,8 @@
    "hukum": "cozuldu",
    "delil_commit": "88f5eab",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "hem mercidabık zaferi hem ramazanoğullarının osmanlıya bağla",
    "kume": "K07-AYNI-GUN",
    "nasil": "sikayet"
@@ -712,6 +842,8 @@
    "hukum": "cozuldu",
    "delil_commit": "95f774c",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu garip görünüm kusurunun sebebi nedir bulalım ve çözelim.",
    "kume": "K11-SEMBOL",
    "nasil": "sikayet"
@@ -722,6 +854,8 @@
    "hukum": "cozuldu",
    "delil_commit": "1dd0ad7",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "yavuzun kahireye girişi maddesinde kızıldenizin kıyısındaki",
    "kume": "K22-DOGRULAMA",
    "nasil": "sikayet"
@@ -732,6 +866,8 @@
    "hukum": "cozuldu",
    "delil_commit": "95f774c",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "işte bozuk görüntülere bir örnek daha",
    "kume": "K17-GEOMETRI",
    "nasil": "sikayet"
@@ -742,6 +878,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "cezayirin osmanlıya katıldığı hai ile haritadaki veri örtüşü",
    "kume": "K15-BOSLUK-KASITLI",
    "nasil": "sikayet"
@@ -752,6 +890,8 @@
    "hukum": "cozuldu",
    "delil_commit": "88f5eab",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "(başlıksız)",
    "kume": "K07-AYNI-GUN",
    "nasil": "elle"
@@ -762,6 +902,8 @@
    "hukum": "cozuldu",
    "delil_commit": "930a27d",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "rodosla beraber fethedilen adalar varsa başka ege adaları on",
    "kume": "K25-MADDE-METNI",
    "nasil": "sikayet"
@@ -772,6 +914,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "kalender şah diye etiketlernmiş bir isyan hareketi var ama m",
    "kume": "K24-DEGISMEZ2",
    "nasil": "sikayet"
@@ -782,6 +926,8 @@
    "hukum": "cozuldu",
    "delil_commit": "88f5eab",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bozuk görünümlü yapılara örnek",
    "kume": "K17-GEOMETRI",
    "nasil": "sikayet"
@@ -792,6 +938,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "istanbul anlaşması maddesinde avusturya ve macaristan ile ol",
    "kume": "K18-ENKLAV",
    "nasil": "sikayet"
@@ -802,6 +950,8 @@
    "hukum": "tekrar",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu enklav nedir kime aitti tarihi gerçekliği varmı hatamı",
    "kume": "K18-ENKLAV",
    "nasil": "sikayet"
@@ -812,6 +962,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "(başlıksız)",
    "kume": "K18-ENKLAV",
    "nasil": "cevap"
@@ -822,6 +974,8 @@
    "hukum": "tekrar",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "şu macaristan ve habsburg görünen iki parça gerçekten böyle",
    "kume": "K18-ENKLAV",
    "nasil": "sikayet"
@@ -832,6 +986,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "tebriz neden osmanlı garnizonu haline getirilmiyor. zırt pır",
    "kume": "K19-KIMLIK",
    "nasil": "sikayet"
@@ -842,6 +998,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "25 Ağustos 1548",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -852,6 +1010,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "merak edilenler ekleme kart tartışma",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -862,6 +1022,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "tartışma maddesi",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -872,6 +1034,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "merak konusu tartışma maddesi",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -882,6 +1046,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "ankaranın sahibi ahiler olarak görünüyor bu ahilerin ne oldu",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -892,6 +1058,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "ek okuma yeniçeri ocağı nedir kuruluşu teşkilatı nasıldır ku",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -902,6 +1070,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "ek okuma vassallık nedir",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -912,6 +1082,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "tartışma merak edilenler ekleme",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -922,6 +1094,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "merak edilenler tartışma ek yapalım: kardeş katli gibi uygul",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -932,6 +1106,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "merak edilenler osmanlı hanedanında evlilik müessesi ve çok",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -942,6 +1118,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "osmanlıda siyasi evlilikler merak edilenlere ekleme yapalım",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -952,6 +1130,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "osmanlıda kadınlar saltanatı konusu merak edilenelre ekleme",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -962,6 +1142,8 @@
    "hukum": "cozuldu",
    "delil_commit": "8e8fd8d",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "haçlı seferi olarka bir srü devlet tarafından örgütlenip osm",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -972,6 +1154,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "merak konusu istanbulu kuşatmak ablukaya almak için yıldırım",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -982,6 +1166,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "merak konusu tartışma ekle",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -992,6 +1178,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "osmanlıların ele geçirdikleri hristiyan ülkelerde halkla ilg",
    "kume": "K01-EK-OKUMA",
    "nasil": "elle"
@@ -1002,6 +1190,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "timur anlara savaşı sonrasında şehzadeleri kendisine balanma",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -1012,6 +1202,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "merak edilenler",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -1022,6 +1214,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "ÖNEMLİ BİR UYARI",
    "kume": "K20-SINIR-1923",
    "nasil": "sikayet"
@@ -1032,6 +1226,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "KIRIM HANLIĞININ İLHAKINDAN SONRA BU ŞEKİLDE HARİTADA GÖRÜNM",
    "kume": "K14-RENK",
    "nasil": "sikayet"
@@ -1042,6 +1238,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "İLHANLILARIN TOPRAKALRI İKİ PARÇA GÖRÜNÜYOR ARAYA MEMLÜKLER",
    "kume": "K18-ENKLAV",
    "nasil": "sikayet"
@@ -1052,6 +1250,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "BU YILLARDA MEMLÜKLÜLERİN TOPRAKLARI DİVRİĞİNE KDAR UZANIYOR",
    "kume": "K22-DOGRULAMA",
    "nasil": "sikayet"
@@ -1062,6 +1262,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "AKRESİ BEYLİĞİNİN İLHAKI SONRASINDA OSMANLI TOPRAKALRI SANKİ",
    "kume": "K22-DOGRULAMA",
    "nasil": "sikayet"
@@ -1072,6 +1274,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "BAŞKENTLERİN YILDIZ ŞEKLİNDE GÖSTERİMİ",
    "kume": "K11-SEMBOL",
    "nasil": "sikayet"
@@ -1082,6 +1286,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "(başlıksız)",
    "kume": "K16-NOKTASIZLIK",
    "nasil": "cevap"
@@ -1092,6 +1298,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "GÜMÜLCİNE VE BATI TRAKYA ELE GEÇİRİLİR İKEN ENEZ VE DİĞER TA",
    "kume": "K22-DOGRULAMA",
    "nasil": "sikayet"
@@ -1102,6 +1310,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "1281 DE BU BOŞLUKLARIN SEBEBİ NEDİR ORALARDA KİMSE YAŞAMIYOR",
    "kume": "K15-BOSLUK-KASITLI",
    "nasil": "sikayet"
@@ -1112,6 +1322,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "1281 DE BU BOŞLUKLARIN SEBEBİ NE ARAŞTIRALIM BURALARDA İNSAN",
    "kume": "K15-BOSLUK-KASITLI",
    "nasil": "sikayet"
@@ -1122,6 +1334,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "BU BOŞLUKLARIN SEBEBİ NEDİR. ORTADA BİR ALTINORDA BÖLGESİ VA",
    "kume": "K15-BOSLUK-KASITLI",
    "nasil": "sikayet"
@@ -1132,6 +1346,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "1281 DE HİNDİSTANDAKİ BOŞLUKLARIN SEBEBİ NEDİR BURALARDA İNS",
    "kume": "K15-BOSLUK-KASITLI",
    "nasil": "sikayet"
@@ -1142,6 +1358,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "1281 DE AFRİKANIN BU ORTASINDA TABİKİ ÇOĞU SAHRA ÇÖLÜ BÖLGES",
    "kume": "K15-BOSLUK-KASITLI",
    "nasil": "sikayet"
@@ -1152,6 +1370,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "1281 DE ASYANIN KUZEYİ VE ORTASINDAKİ BU TOPRAKLARDA İNSANMI",
    "kume": "K15-BOSLUK-KASITLI",
    "nasil": "sikayet"
@@ -1162,6 +1382,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "1281 DE BU ENDONEZYA MALEZYA FİLİPİNLER PAPUA YENİ GİNE GİBİ",
    "kume": "K13-PANEL-ARAYUZ",
    "nasil": "sikayet"
@@ -1172,6 +1394,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "1281 DE ARABİSTANDAKİ BU BOŞLUKLARIN SEBEBİ O TARİHTE ORALAR",
    "kume": "K15-BOSLUK-KASITLI",
    "nasil": "sikayet"
@@ -1182,6 +1406,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "TESPİH SEKEMSİNDEKİ HER SEKMEDE ONAY BEKELEYN AÇILMIŞ PAKET",
    "kume": "K03-KUTU-ALTYAPI",
    "nasil": "sikayet"
@@ -1192,6 +1418,8 @@
    "hukum": "bayat",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "kutsal roma germen imparatorluğu 1281 de bu şekilde mi görün",
    "kume": "K21-VASSAL",
    "nasil": "sikayet"
@@ -1202,6 +1430,8 @@
    "hukum": "cozuldu",
    "delil_commit": "a550bcd",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "BİRİNCİ FOTOGRAFTA BAK BİR SÜRÜ HATA VAR ŞARKÖY TARAFI VE ÇA",
    "kume": "K16-NOKTASIZLIK",
    "nasil": "elle"
@@ -1212,6 +1442,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "BU MESAJ KUTUSU BİRAZ AĞIR ÇALIŞIYOR KAYDEDE FİLAN BASINCA H",
    "kume": "K03-KUTU-ALTYAPI",
    "nasil": "sikayet"
@@ -1222,6 +1454,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bizim bu projeyi yaparken kullandığımız en birinci kaynak td",
    "kume": "K04-KAYNAK-YONTEM",
    "nasil": "sikayet"
@@ -1232,6 +1466,8 @@
    "hukum": "gerek-yok",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "şu osmanlının en başlangıç haritasında söğüt ile domaniç böl",
    "kume": "K17-GEOMETRI",
    "nasil": "sikayet"
@@ -1242,6 +1478,8 @@
    "hukum": "cozuldu",
    "delil_commit": "eec5f3d",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "deniz ile aynı renk tonlarını ülke haritalarında tercih etme",
    "kume": "K14-RENK",
    "nasil": "sikayet"
@@ -1252,6 +1490,8 @@
    "hukum": "cozuldu",
    "delil_commit": "a863b22",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "şu himalayaların tepesindeki yerleşimlerin boyadığı alana ba",
    "kume": "K16-NOKTASIZLIK",
    "nasil": "cevap"
@@ -1262,6 +1502,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "yuan hanedanının toprakları birbirinden hep ayrık",
    "kume": "K18-ENKLAV",
    "nasil": "sikayet"
@@ -1272,6 +1514,8 @@
    "hukum": "cozuldu",
    "delil_commit": "d6eafea",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu haritadaki boş bölgelerde hiç kimse yaşamıyormuymuş yada",
    "kume": "K15-BOSLUK-KASITLI",
    "nasil": "sikayet"
@@ -1282,6 +1526,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu boş alanlar boş muymuş devlet mi yokmuş insan mı yokmuş v",
    "kume": "K15-BOSLUK-KASITLI",
    "nasil": "sikayet"
@@ -1292,6 +1538,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "hindistanda görünen boş bölgeler *nedenboş",
    "kume": "K15-BOSLUK-KASITLI",
    "nasil": "sikayet"
@@ -1302,6 +1550,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "1. görsel 29 ekim 1923 de bu parça türkiyeye mi aitmiş eminm",
    "kume": "K20-SINIR-1923",
    "nasil": "sikayet"
@@ -1312,6 +1562,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "1923 haritasında midillide bir küçük toprak varmış gibi görü",
    "kume": "K20-SINIR-1923",
    "nasil": "sikayet"
@@ -1322,6 +1574,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "hatay yok 1923 haritasında ama çukurova ve iskenderun olması",
    "kume": "K20-SINIR-1923",
    "nasil": "sikayet"
@@ -1332,6 +1586,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "suriye ve ırak sınırı baştan aşağı hatalı benceç. gerçi ırak",
    "kume": "K20-SINIR-1923",
    "nasil": "sikayet"
@@ -1342,6 +1598,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "sscb sınırı gürcistan ermenistan sınırı da hatalı. artvin ho",
    "kume": "K20-SINIR-1923",
    "nasil": "sikayet"
@@ -1352,6 +1610,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "iran hancivan ermenistan sınırı doğrumu tüm aksaba ilçe il ş",
    "kume": "K19-KIMLIK",
    "nasil": "sikayet"
@@ -1362,6 +1622,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "haritadaki bozuklukları söylememe gerek varmı",
    "kume": "K17-GEOMETRI",
    "nasil": "sikayet"
@@ -1372,6 +1634,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "orhan gazinin cenevizliler il ilk kapütülasyonu maddesinde k",
    "kume": "K14-RENK",
    "nasil": "sikayet"
@@ -1382,6 +1646,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "pençik kanunu ve yeniçeri ocağının temelinin atılması maddes",
    "kume": "K22-DOGRULAMA",
    "nasil": "sikayet"
@@ -1392,6 +1658,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "allahaşkına bu nedir ya",
    "kume": "K20-SINIR-1923",
    "nasil": "sikayet"
@@ -1402,6 +1670,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu tarihte meriçin alınmamış olması normal mi hatamı daha ön",
    "kume": "K22-DOGRULAMA",
    "nasil": "sikayet"
@@ -1412,6 +1682,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "elhovonun alınışının kronolojide maddesi yok alakasız bir ma",
    "kume": "K24-DEGISMEZ2",
    "nasil": "sikayet"
@@ -1422,6 +1694,8 @@
    "hukum": "cozuldu",
    "delil_commit": "f1c76a3",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "kırcaali gümülcine meriçten ipsalanın kuzeyi nden daha mı ön",
    "kume": "K22-DOGRULAMA",
    "nasil": "elle"
@@ -1432,6 +1706,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "fetret devrinde emir süleyman çelebinin toprakları nedne iki",
    "kume": "K18-ENKLAV",
    "nasil": "sikayet"
@@ -1442,6 +1718,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "eftret devri ankar savaşı sonrası batı anadolu haritası doğr",
    "kume": "K22-DOGRULAMA",
    "nasil": "sikayet"
@@ -1452,6 +1730,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "fetret devri sonrası orta anadolu haritası doğrumu",
    "kume": "K22-DOGRULAMA",
    "nasil": "sikayet"
@@ -1462,6 +1742,8 @@
    "hukum": "cozuldu",
    "delil_commit": "af30361",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "fetret devri sonrası ankara savaşı sonrası doğu anadolu hari",
    "kume": "K22-DOGRULAMA",
    "nasil": "sikayet"
@@ -1472,6 +1754,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "fetret devri ankara savaşı sonrası osmanlı rumeli toprakları",
    "kume": "K18-ENKLAV",
    "nasil": "sikayet"
@@ -1482,6 +1766,8 @@
    "hukum": "cozuldu",
    "delil_commit": "ad42467",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "tepede başlıkda sürekli kayıp yenişehir bursa inegöl aydoska",
    "kume": "K06-UST-CUBUK",
    "nasil": "sikayet"
@@ -1492,6 +1778,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "kronolojide aynı tarih olan olaylar 1 2 3 şeklinde numaralan",
    "kume": "K07-AYNI-GUN",
    "nasil": "sikayet"
@@ -1502,6 +1790,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu mersin osmanlı ile aynı renk görünüyor bu hatanın sebebi",
    "kume": "K14-RENK",
    "nasil": "sikayet"
@@ -1512,6 +1802,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "kırım hanlığı kurulluşunda o dönemdeki o bölgenin siyasi yap",
    "kume": "K15-BOSLUK-KASITLI",
    "nasil": "cevap"
@@ -1522,6 +1814,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "uçuş animasyonu kronolojik maddelerin haritada gösterilmesin",
    "kume": "K08-UCUS-ODAK",
    "nasil": "sikayet"
@@ -1532,6 +1826,8 @@
    "hukum": "cozuldu",
    "delil_commit": "4b6fb71",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "devletler indexinin bağlı olduğu ve hedef devletin kronoloji",
    "kume": "K13-PANEL-ARAYUZ",
    "nasil": "sikayet"
@@ -1542,6 +1838,8 @@
    "hukum": "cozuldu",
    "delil_commit": "3a36b65",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "kırımın hanlığın kurulmasında bu cetvelle çizilen çizgi niye",
    "kume": "K17-GEOMETRI",
    "nasil": "sikayet"
@@ -1552,6 +1850,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "saray ovasının ilhakı ile bosnada bir osmanlı enklavı mı olu",
    "kume": "K18-ENKLAV",
    "nasil": "sikayet"
@@ -1562,6 +1862,8 @@
    "hukum": "cozuldu",
    "delil_commit": "4581d71",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "2. kosova savaşının haritada bölgesi ve simgesi işaretlenmem",
    "kume": "K11-SEMBOL",
    "nasil": "sikayet"
@@ -1572,6 +1874,8 @@
    "hukum": "cozuldu",
    "delil_commit": "d2d35ab",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "uçuş ile haritanın odağının ayarlanması meselesinde şöyle bi",
    "kume": "K08-UCUS-ODAK",
    "nasil": "sikayet"
@@ -1582,6 +1886,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "karakoyunluların timurdan iranın rey isfahan fars kirman böl",
    "kume": "K19-KIMLIK",
    "nasil": "sikayet"
@@ -1592,6 +1898,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bir olay anlatılırken kronolojide bu olayın geçtiği yer hari",
    "kume": "K12-OLAY-YERI",
    "nasil": "elle"
@@ -1602,6 +1910,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "osmanlı kronolojisinde osmanlı ile direkt alakası olmayan ma",
    "kume": "K23-DUNYA-OLAYLARI",
    "nasil": "elle"
@@ -1612,6 +1922,8 @@
    "hukum": "cozuldu",
    "delil_commit": "ad42467",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "tepedeki madde metni ile kronooji sutunundaki madde metni bi",
    "kume": "K06-UST-CUBUK",
    "nasil": "sikayet"
@@ -1622,6 +1934,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "boğdan voyvodalığı vassallığa katılmış ama haritada boğdan v",
    "kume": "K21-VASSAL",
    "nasil": "sikayet"
@@ -1632,6 +1946,8 @@
    "hukum": "cozuldu",
    "delil_commit": "af30361",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "haritada hiçbir zaman çizelgesindeki noktada etiketsiz topra",
    "kume": "K22-DOGRULAMA",
    "nasil": "sikayet"
@@ -1642,6 +1958,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "natı karadeniz kıyısının alınışı amasra maddesinde bosna top",
    "kume": "K24-DEGISMEZ2",
    "nasil": "sikayet"
@@ -1652,6 +1970,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "eflak seferi ve kazıklı voyvoda maddesi ile eflak osmanlı va",
    "kume": "K12-OLAY-YERI",
    "nasil": "sikayet"
@@ -1662,6 +1982,8 @@
    "hukum": "cozuldu",
    "delil_commit": "af30361",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "fatihin arnavutluk seferi 2. sefr ile arnavutlukda bir topra",
    "kume": "K24-DEGISMEZ2",
    "nasil": "elle"
@@ -1672,6 +1994,8 @@
    "hukum": "gerek-yok",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "saat 00:08 AM thursday itibari ile yeni hafta başlamış durum",
    "kume": "K03-KUTU-ALTYAPI",
    "nasil": "elle"
@@ -1682,6 +2006,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "boğdanda racova vasuli bozgunu haritada yeri gösterilmiyor.",
    "kume": "K12-OLAY-YERI",
    "nasil": "sikayet"
@@ -1692,6 +2018,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "cem sultanın yenildiği yenişehir muhrebesi nerede olmuş hari",
    "kume": "K12-OLAY-YERI",
    "nasil": "sikayet"
@@ -1702,6 +2030,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "cetinje osmanlıya katılmış ama orada çok küçük kıymık gibi b",
    "kume": "K17-GEOMETRI",
    "nasil": "sikayet"
@@ -1712,6 +2042,8 @@
    "hukum": "cozuldu",
    "delil_commit": "68ac2ab",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu harita yapısı gözü kanatıyor bir çözüm bulmalı acaba 200",
    "kume": "K17-GEOMETRI",
    "nasil": "sikayet"
@@ -1722,6 +2054,8 @@
    "hukum": "cozuldu",
    "delil_commit": "3a63fd8",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "YENİ ALINAN TOPRAKLAR YANSIN SÖNSÜN İKİ KERE ALGIDA VURGU OL",
    "kume": "K09-HIZ-ANIMASYON",
    "nasil": "sikayet"
@@ -1732,6 +2066,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "NİSAN 1513 yenişehir muharebesi haritada gösterilmiyor",
    "kume": "K12-OLAY-YERI",
    "nasil": "sikayet"
@@ -1742,6 +2078,8 @@
    "hukum": "bayat",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu maddenin haritada yeri görünmüyor azemmur ümmürrebi alını",
    "kume": "K12-OLAY-YERI",
    "nasil": "sikayet"
@@ -1752,6 +2090,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "mazagan kalesinin kurulması maddesi haritada görünmüyor",
    "kume": "K12-OLAY-YERI",
    "nasil": "sikayet"
@@ -1762,6 +2102,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "tebrize girilmesi maddesinde tebriz alınmış görünüyor sorun",
    "kume": "K18-ENKLAV",
    "nasil": "sikayet"
@@ -1772,6 +2114,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "safeci iran erzuurm urfa toprakları var arada ama osmanlı do",
    "kume": "K18-ENKLAV",
    "nasil": "sikayet"
@@ -1782,6 +2126,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "diyarbekir ebylerbeyliği kurulmuş ama osmanlı topraklarından",
    "kume": "K17-GEOMETRI",
    "nasil": "sikayet"
@@ -1792,6 +2138,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "mayıs 1516 mardin koçhisar kızıltepe savaşı maddesinde mardi",
    "kume": "K22-DOGRULAMA",
    "nasil": "sikayet"
@@ -1802,6 +2150,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "20 haziran 1516 zebidin alınması maddesinde zebid haritada g",
    "kume": "K12-OLAY-YERI",
    "nasil": "sikayet"
@@ -1812,6 +2162,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "planlama aşamasında olan bu gibi güzergahların sarı kesikli",
    "kume": "K10-SEFER-GUZERGAH",
    "nasil": "sikayet"
@@ -1822,6 +2174,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "mercidabık zaferi ile tüm bu topraklar hakikaten alındımı te",
    "kume": "K07-AYNI-GUN",
    "nasil": "sikayet"
@@ -1832,6 +2186,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "mercidabık zaferi ile coğrafi olarak fazla yakın olmayan bu",
    "kume": "K22-DOGRULAMA",
    "nasil": "elle"
@@ -1842,6 +2198,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "adana elbistan halep maraş antep tüm bu yerleşimlerin yanlar",
    "kume": "K11-SEMBOL",
    "nasil": "sikayet"
@@ -1852,6 +2210,8 @@
    "hukum": "cozuldu",
    "delil_commit": "af30361",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "halepin osmanlı hakimiyetine girişi maddesinde haritada deyr",
    "kume": "K25-MADDE-METNI",
    "nasil": "sikayet"
@@ -1862,6 +2222,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "ağustos 1516 abbasi halifesi 3 mütevekkil ile görüşme maddes",
    "kume": "K09-HIZ-ANIMASYON",
    "nasil": "sikayet"
@@ -1872,6 +2234,8 @@
    "hukum": "tekrar",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "trabkusşamın osmanlıya girmesi maddesinde hama ve humus da d",
    "kume": "K25-MADDE-METNI",
    "nasil": "sikayet"
@@ -1882,6 +2246,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "şamla beraebr beyrut ve palmyra da haritada katılmış görünüy",
    "kume": "K25-MADDE-METNI",
    "nasil": "elle"
@@ -1892,6 +2258,8 @@
    "hukum": "cozuldu",
    "delil_commit": "3a36b65",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu tuhaflıkların sebebi nedir çözmeliyiz tuhaf görünümleri",
    "kume": "K17-GEOMETRI",
    "nasil": "sikayet"
@@ -1902,6 +2270,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "kronoloji maddeleri ilerler iken o andaki aktif kronoloji ma",
    "kume": "K13-PANEL-ARAYUZ",
    "nasil": "sikayet"
@@ -1912,6 +2282,8 @@
    "hukum": "cozuldu",
    "delil_commit": "f226aa2",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "konu süzgeci butonunu kronoloji başlığının yanındaki bölgeye",
    "kume": "K08-UCUS-ODAK",
    "nasil": "sikayet"
@@ -1922,6 +2294,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "ridaniye savaşı haritada işaretlenemmiş",
    "kume": "K12-OLAY-YERI",
    "nasil": "sikayet"
@@ -1932,6 +2306,8 @@
    "hukum": "cozuldu",
    "delil_commit": "3a36b65",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu harita gösterim bozukluğu neden oluyor",
    "kume": "K17-GEOMETRI",
    "nasil": "cevap"
@@ -1942,6 +2318,8 @@
    "hukum": "cozuldu",
    "delil_commit": "3a36b65",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "hem böyle üçken iğlener var görüntü kusuru hemde hafifçe pem",
    "kume": "K14-RENK",
    "nasil": "sikayet"
@@ -1952,6 +2330,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "afrikanın kuzey batı kuzey ve kuzey doğu bölümünde sahra çöl",
    "kume": "K12-OLAY-YERI",
    "nasil": "sikayet"
@@ -1962,6 +2342,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "ikarya adası alındı 1521 de 3 olay var ve çat diye tek göste",
    "kume": "K07-AYNI-GUN",
    "nasil": "elle"
@@ -1972,6 +2354,8 @@
    "hukum": "cozuldu",
    "delil_commit": "af30361",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "böğürdelenin fethi maddesinde haritada göstrerim yeri yok uç",
    "kume": "K08-UCUS-ODAK",
    "nasil": "sikayet"
@@ -1982,6 +2366,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "uçuş ayarları hiç etki etmiyor görünüyor ayrıca yeni ayarkar",
    "kume": "K08-UCUS-ODAK",
    "nasil": "sikayet"
@@ -1992,6 +2378,8 @@
    "hukum": "cozuldu",
    "delil_commit": "ad42467",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "TEPEDEKİ ÇUBUKTAKİ OLAY BAŞLIĞI İLE KRONOLOJİDEKİ OLAY BAŞLI",
    "kume": "K06-UST-CUBUK",
    "nasil": "sikayet"
@@ -2002,6 +2390,8 @@
    "hukum": "tekrar",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "VİYANA KUŞATMASINA YAPILAN SEFER İÇİN SİYAH KESİ KKESİK YOL",
    "kume": "K10-SEFER-GUZERGAH",
    "nasil": "elle"
@@ -2012,6 +2402,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "5-30 AĞUSTOS 1532 ALMAN GÜNS KUŞATMASI HARİTADA GÖRNÜMÜYOR Ç",
    "kume": "K12-OLAY-YERI",
    "nasil": "sikayet"
@@ -2022,6 +2414,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "MATRAKÇI NASUH IRAKEYN SEFERİ MADDESİNDE KARS CİVARININ OSMA",
    "kume": "K18-ENKLAV",
    "nasil": "sikayet"
@@ -2032,6 +2426,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "KARSIN ALINMASI MADDESİNDEN ÖNCE HARİTA BÖYLE GÖRÜNÜYOR MADD",
    "kume": "K18-ENKLAV",
    "nasil": "cevap"
@@ -2042,6 +2438,8 @@
    "hukum": "cozuldu",
    "delil_commit": "b55c262",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "BİR OSMANLI TOPRAĞINDAN İLERİDEKİ BİR TOPRAK ALINDIĞI XAMAN",
    "kume": "K18-ENKLAV",
    "nasil": "sikayet"
@@ -2052,6 +2450,8 @@
    "hukum": "bayat",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "FUZULİNİN BAĞDATIN FETHİ SONRASI KANUNİYE KASİDE SUNMASI KRO",
    "kume": "K24-DEGISMEZ2",
    "nasil": "elle"
@@ -2062,6 +2462,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "TEBRİZE GİRİLİR İKEN ARADAKİ TOPRAKLARI FETHETMİYOR ORDU GAL",
    "kume": "K18-ENKLAV",
    "nasil": "sikayet"
@@ -2072,6 +2474,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "BAĞDADIN FETH BU ŞEKİLDE RESMEDİLMİŞ.",
    "kume": "K18-ENKLAV",
    "nasil": "sikayet"
@@ -2082,6 +2486,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "İŞTE HALEPÇE ENKLAV GÖRÜNÜMÜ BURADA HANGİ YOL İLE OSMANLI AN",
    "kume": "K18-ENKLAV",
    "nasil": "sikayet"
@@ -2092,6 +2498,8 @@
    "hukum": "cozuldu",
    "delil_commit": "68ac2ab",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "BU ORTADAKİ ANLAMSIZ BOŞ KORİDORU ENGELLEMEK İÇN BELKİ",
    "kume": "K16-NOKTASIZLIK",
    "nasil": "sikayet"
@@ -2102,6 +2510,8 @@
    "hukum": "cozuldu",
    "delil_commit": "b3c575c",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "MESELA BURADAKİ ORTADAKİ BOŞLUK BENİM BİR ÖNCE BELİRTTİĞİM S",
    "kume": "K16-NOKTASIZLIK",
    "nasil": "sikayet"
@@ -2112,6 +2522,8 @@
    "hukum": "cozuldu",
    "delil_commit": "68ac2ab",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "BU MEDİNE YENBU VE TEBÜS ARASINDA BAŞKA YERLEŞİM YOK MU BU A",
    "kume": "K15-BOSLUK-KASITLI",
    "nasil": "sikayet"
@@ -2122,6 +2534,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "BUDİNİN İLHAKI MADDESİNDEN ÖNCE MACARİSTAN HARİTASI BU ŞEKİL",
    "kume": "K18-ENKLAV",
    "nasil": "cevap"
@@ -2132,6 +2546,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "MACARİSTAN BUDİN İLHAKI VE BİR SÜRÜ KALENİN FETHİNDEN SONRA",
    "kume": "K05-ISGAL-TARALI",
    "nasil": "sikayet"
@@ -2142,6 +2558,8 @@
    "hukum": "cozuldu",
    "delil_commit": "af30361",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "SANA VE YEMEN İÇLERİNİ FETHİ YAPILIR İKEN ARADAKİ YEMEN İMAM",
    "kume": "K22-DOGRULAMA",
    "nasil": "sikayet"
@@ -2152,6 +2570,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "van fethedilmiş de bu pembe renkli toprak kimin toprağı acab",
    "kume": "K19-KIMLIK",
    "nasil": "sikayet"
@@ -2162,6 +2582,8 @@
    "hukum": "tekrar",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "4 renk var burada safevi osmanlı belli gürcistan belli ama v",
    "kume": "K19-KIMLIK",
    "nasil": "sikayet"
@@ -2172,6 +2594,8 @@
    "hukum": "cozuldu",
    "delil_commit": "68ac2ab",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "basra ile katif arasındaki boşluk da hiç yerleşim yok muymuş",
    "kume": "K15-BOSLUK-KASITLI",
    "nasil": "sikayet"
@@ -2182,6 +2606,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "deniz rengine yakın renkleri haritada siyasi devlet renkleri",
    "kume": "K14-RENK",
    "nasil": "sikayet"
@@ -2192,6 +2618,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu yıldız şeklindeki görünüm hatası var ve acaba katar yarım",
    "kume": "K11-SEMBOL",
    "nasil": "sikayet"
@@ -2202,6 +2630,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "ilginç üçken yıldız görünümler",
    "kume": "K17-GEOMETRI",
    "nasil": "sikayet"
@@ -2212,6 +2642,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "abadan bu tarihte osmanlıda değil mi böyle ilginç bir harita",
    "kume": "K19-KIMLIK",
    "nasil": "cevap"
@@ -2222,6 +2654,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "1560 cerbe savaşının haritada yeri yok haritada yeri olmayan",
    "kume": "K12-OLAY-YERI",
    "nasil": "sikayet"
@@ -2232,6 +2666,8 @@
    "hukum": "cozuldu",
    "delil_commit": "06b2751",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "buradaki boş görünen yerlerde hiç osmanlı yada başka devleti",
    "kume": "K16-NOKTASIZLIK",
    "nasil": "sikayet"
@@ -2242,6 +2678,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu gat isimli yerleşimin bölgesi neden bu şekilde açıkla",
    "kume": "K16-NOKTASIZLIK",
    "nasil": "cevap"
@@ -2252,6 +2690,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "ubari şehrinin etki alanı neden böyle cetvelle kesilmi gibiv",
    "kume": "K16-NOKTASIZLIK",
    "nasil": "sikayet"
@@ -2262,6 +2702,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu ortadaki boş alanın bu şekilde çıkmasını geometrisi matem",
    "kume": "K16-NOKTASIZLIK",
    "nasil": "cevap"
@@ -2272,6 +2714,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu ortadaki üçken boşluk neden böyle ortaya çıkıyor hangi ge",
    "kume": "K16-NOKTASIZLIK",
    "nasil": "sikayet"
@@ -2282,6 +2726,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu ortadaki boşluk nedne ortaya çıkıyor hangi geometri ile",
    "kume": "K16-NOKTASIZLIK",
    "nasil": "sikayet"
@@ -2292,6 +2738,8 @@
    "hukum": "cozuldu",
    "delil_commit": "2931f04",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu venedik toprakları gerçekten o devirde venediğin miymiş t",
    "kume": "K22-DOGRULAMA",
    "nasil": "sikayet"
@@ -2302,6 +2750,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "dalmaçya ıyılarındaki bu yapı bu şekildemiymiş kontrol et ad",
    "kume": "K22-DOGRULAMA",
    "nasil": "sikayet"
@@ -2312,6 +2762,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu kanije ve eğri yeişl renk macaristan renginde görünüyor b",
    "kume": "K14-RENK",
    "nasil": "sikayet"
@@ -2322,6 +2774,8 @@
    "hukum": "cozuldu",
    "delil_commit": "073df09",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu tarihte avusturya toprakları doğrumu teyid et",
    "kume": "K22-DOGRULAMA",
    "nasil": "sikayet"
@@ -2332,6 +2786,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu cetvel sınırın sebebi nedir",
    "kume": "K17-GEOMETRI",
    "nasil": "sikayet"
@@ -2342,6 +2798,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "safevilerin bahreyni portekizlilerden alması haritada yansıt",
    "kume": "K19-KIMLIK",
    "nasil": "sikayet"
@@ -2352,6 +2810,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "osmanlı iran mücadelesinde bu arada arka planda farklı bir r",
    "kume": "K19-KIMLIK",
    "nasil": "sikayet"
@@ -2362,6 +2822,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "vladikafkas daki boşluk sorgulanmalı",
    "kume": "K15-BOSLUK-KASITLI",
    "nasil": "sikayet"
@@ -2372,6 +2834,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "şu çuha ve istendil adası osmanlıda değil miymiş bu tarihte.",
    "kume": "K22-DOGRULAMA",
    "nasil": "sikayet"
@@ -2382,6 +2846,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "koridor mantığını şu açıdan istedik ve kurduk aslında.",
    "kume": "K10-SEFER-GUZERGAH",
    "nasil": "sikayet"
@@ -2392,6 +2858,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "ırakdaki bu girintinin sebebi nedir tam oalrak.o aradaki top",
    "kume": "K16-NOKTASIZLIK",
    "nasil": "sikayet"
@@ -2402,6 +2870,8 @@
    "hukum": "cozuldu",
    "delil_commit": "9777657",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "semave ve küme arasındaki toprak osmanlıda görünmeme sebebin",
    "kume": "K16-NOKTASIZLIK",
    "nasil": "sikayet"
@@ -2412,6 +2882,8 @@
    "hukum": "cozuldu",
    "delil_commit": "06b2751",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu görüntü bozulmalarının sebebi nedir",
    "kume": "K17-GEOMETRI",
    "nasil": "sikayet"
@@ -2422,6 +2894,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "yenbu tebük arasıın osmanlı görünmeme sebebi nedir 1577 sene",
    "kume": "K16-NOKTASIZLIK",
    "nasil": "sikayet"
@@ -2432,6 +2906,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "şu aradaki boşluğun osmanlı görünmeme sebebi nedir",
    "kume": "K16-NOKTASIZLIK",
    "nasil": "sikayet"
@@ -2442,6 +2918,8 @@
    "hukum": "cozuldu",
    "delil_commit": "06b2751",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu ortadaki bölgenin osmanlı görünmeme sebebi nedir ve  calu",
    "kume": "K16-NOKTASIZLIK",
    "nasil": "sikayet"
@@ -2452,6 +2930,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "gümrü başkale çaldıran neden farklı renkte görünüyor o dönem",
    "kume": "K14-RENK",
    "nasil": "sikayet"
@@ -2462,6 +2942,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu aradaki toprak osmanlıya boyanmamış orada hiç yerleim yok",
    "kume": "K16-NOKTASIZLIK",
    "nasil": "sikayet"
@@ -2472,6 +2954,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu bahreynde hiç toprak parçası varmıydı osmanlının oradaki",
    "kume": "K17-GEOMETRI",
    "nasil": "sikayet"
@@ -2482,6 +2966,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "iki kırmızı alan arasındaki bölgelerin kırmızıya boyanması m",
    "kume": "K22-DOGRULAMA",
    "nasil": "sikayet"
@@ -2492,6 +2978,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "burada hiçmi yerleşim yok",
    "kume": "K15-BOSLUK-KASITLI",
    "nasil": "sikayet"
@@ -2502,6 +2990,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu boşluk alanlarda hiç mi yerleşim yok ortasyada filan ayrı",
    "kume": "K15-BOSLUK-KASITLI",
    "nasil": "sikayet"
@@ -2512,6 +3002,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu macaristan yeşil topraklar geçerlimi tam oalrak kraliyet",
    "kume": "K22-DOGRULAMA",
    "nasil": "sikayet"
@@ -2522,6 +3014,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "nahcıvan fethedilir iken neden enklav gibi görünüyor aradaki",
    "kume": "K18-ENKLAV",
    "nasil": "sikayet"
@@ -2532,6 +3026,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "vrana ladin osmanlı görünüyor teyid edelim ama oradaki adacı",
    "kume": "K22-DOGRULAMA",
    "nasil": "sikayet"
@@ -2542,6 +3038,8 @@
    "hukum": "cozuldu",
    "delil_commit": "5ca81bf",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "uçuş ayarlarını düzenle",
    "kume": "K08-UCUS-ODAK",
    "nasil": "sikayet"
@@ -2552,6 +3050,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu kırım hanlığı bozkırında hiç yerleşim yeri yok mu o devir",
    "kume": "K15-BOSLUK-KASITLI",
    "nasil": "sikayet"
@@ -2562,6 +3062,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "1)  1665 de parga ve korfu adasının karşı kıyısının osmanlı",
    "kume": "K17-GEOMETRI",
    "nasil": "sikayet"
@@ -2572,6 +3074,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "burada bu tarihte boş görünen iki parça toprak var bu iki pa",
    "kume": "K18-ENKLAV",
    "nasil": "sikayet"
@@ -2582,6 +3086,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "1)çerkezyanın kuzeyinde bir ufak boş alan var bu nedir",
    "kume": "K16-NOKTASIZLIK",
    "nasil": "cevap"
@@ -2592,6 +3098,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "1672 de korfu kefalonya zakintos ve çuha adası ile istendil",
    "kume": "K22-DOGRULAMA",
    "nasil": "elle"
@@ -2602,6 +3110,8 @@
    "hukum": "cozuldu",
    "delil_commit": "073df09",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "orta macaristan denilen ve tökeli imre nin kralı ilan edildi",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -2612,6 +3122,8 @@
    "hukum": "cozuldu",
    "delil_commit": "073df09",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "2. viyana bozgunu sornasında 2. viyana bozgunundan sonra kah",
    "kume": "K22-DOGRULAMA",
    "nasil": "elle"
@@ -2622,6 +3134,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "solnok kaybedilmiş diyor. 2. viyana sonrasındaki kronoojik m",
    "kume": "K16-NOKTASIZLIK",
    "nasil": "elle"
@@ -2632,6 +3146,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "2 viyana sonrası budin düştükten sonra simontoma ve kalocsa",
    "kume": "K22-DOGRULAMA",
    "nasil": "sikayet"
@@ -2642,6 +3158,8 @@
    "hukum": "cozuldu",
    "delil_commit": "9a02e24",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "emoji gösteme özelliğini ayarlara koydukmu . ayarlardan kapa",
    "kume": "K09-HIZ-ANIMASYON",
    "nasil": "sikayet"
@@ -2652,6 +3170,8 @@
    "hukum": "cozuldu",
    "delil_commit": "5bbaebc",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "uçuşdan sonra veya uçuş özelliği olmadan da  elden çıkan yad",
    "kume": "K08-UCUS-ODAK",
    "nasil": "sikayet"
@@ -2662,6 +3182,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "atinanın kaybı maddesinde naplionun doğusundaki bir parça to",
    "kume": "K24-DEGISMEZ2",
    "nasil": "cevap"
@@ -2672,6 +3194,8 @@
    "hukum": "cozuldu",
    "delil_commit": "d7dde09",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "uçuş modunda haritanın yavaş yavaş olay mahaline çekilmesi a",
    "kume": "K08-UCUS-ODAK",
    "nasil": "sikayet"
@@ -2682,6 +3206,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "venediğin eğriboz kuşatmasının püskürtülmesi ekim 1688 madde",
    "kume": "K25-MADDE-METNI",
    "nasil": "sikayet"
@@ -2692,6 +3218,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "niş ve vidin düştü kronolojik maddesinde tuzla ve kragujevac",
    "kume": "K18-ENKLAV",
    "nasil": "sikayet"
@@ -2702,6 +3230,8 @@
    "hukum": "cozuldu",
    "delil_commit": "4581d71",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "salankamen bozgunu ve bunun gibi diğer bozgun ve muharebe ye",
    "kume": "K12-OLAY-YERI",
    "nasil": "sikayet"
@@ -2712,6 +3242,8 @@
    "hukum": "cozuldu",
    "delil_commit": "4581d71",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "granbosa kalesinin fethi maddesinde granbosa kalesinin yeri",
    "kume": "K12-OLAY-YERI",
    "nasil": "sikayet"
@@ -2722,6 +3254,8 @@
    "hukum": "cozuldu",
    "delil_commit": "ad42467",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "kronoloji maddeleri ileri ileri oynatılır iken haritanın tep",
    "kume": "K06-UST-CUBUK",
    "nasil": "sikayet"
@@ -2732,6 +3266,8 @@
    "hukum": "cozuldu",
    "delil_commit": "4581d71",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "ulaş zaferi haritada işaretli değil",
    "kume": "K12-OLAY-YERI",
    "nasil": "sikayet"
@@ -2742,6 +3278,8 @@
    "hukum": "cozuldu",
    "delil_commit": "4581d71",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "zenta bozgunu haritada gösterilmiyor",
    "kume": "K12-OLAY-YERI",
    "nasil": "sikayet"
@@ -2752,6 +3290,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "karlofça anlaşması maddesinde karlofça kasabası şehri harita",
    "kume": "K12-OLAY-YERI",
    "nasil": "elle"
@@ -2762,6 +3302,8 @@
    "hukum": "cozuldu",
    "delil_commit": "e53c86a",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "osmanlının karlofçada kaybettiği alanlar akrofça barış anlaş",
    "kume": "K05-ISGAL-TARALI",
    "nasil": "elle"
@@ -2772,6 +3314,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "1705 de gümrü kime aitti neden baka renk görünüyor.",
    "kume": "K19-KIMLIK",
    "nasil": "sikayet"
@@ -2782,6 +3326,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "1) 1705 de batum soci kısmına trabzon bölgesi diye dahil etm",
    "kume": "K18-ENKLAV",
    "nasil": "sikayet"
@@ -2792,6 +3338,8 @@
    "hukum": "gerek-yok",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "acaba sadece bu mesaj kutusunu ve buradaki mesajları okuyup",
    "kume": "K03-KUTU-ALTYAPI",
    "nasil": "sikayet"
@@ -2802,6 +3350,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "ahvaz abadan hafiza 1703 de hangi devlete ait iran mı yoksa",
    "kume": "K19-KIMLIK",
    "nasil": "sikayet"
@@ -2812,6 +3362,8 @@
    "hukum": "cozuldu",
    "delil_commit": "fcae60b",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "beni halid emirliğine geçirdim kronoloji ve harita odağını.",
    "kume": "K13-PANEL-ARAYUZ",
    "nasil": "elle"
@@ -2822,6 +3374,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu toprakları bu sultanlığa bağlayan algoritma nedir acaba",
    "kume": "K22-DOGRULAMA",
    "nasil": "sikayet"
@@ -2832,6 +3386,8 @@
    "hukum": "cozuldu",
    "delil_commit": "fcae60b",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "KRONOLOJİ COMBOBOXUNDA BİRDEN ÇOK ÜLKENİN KRONOLOJİSİ SEÇİLE",
    "kume": "K13-PANEL-ARAYUZ",
    "nasil": "sikayet"
@@ -2842,6 +3398,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "SİTEDE BUTONLAR MENÜSÜNDE BİR HAKKINDA MENÜSÜ OLSUN VE BU ME",
    "kume": "K13-PANEL-ARAYUZ",
    "nasil": "sikayet"
@@ -2852,6 +3410,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "TÜM KRONOLOJİK OLAYLARIN HARİTADA OLAY MAHALİ İŞARETLEMESİ Y",
    "kume": "K12-OLAY-YERI",
    "nasil": "sikayet"
@@ -2862,6 +3422,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "DAR GENİŞ BUTONU KRONOLOJİ SUTUNUNU DARALTIĞ GENİŞLETEN BUTO",
    "kume": "K13-PANEL-ARAYUZ",
    "nasil": "sikayet"
@@ -2872,6 +3434,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "1329 da osmanlı devleti avrupa yakasına rumeli hisarı bölges",
    "kume": "K22-DOGRULAMA",
    "nasil": "elle"
@@ -2882,6 +3446,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "karesi ilhakı 1334-1335 osmanlı avrupaya karşı kıyıya gelibo",
    "kume": "K22-DOGRULAMA",
    "nasil": "elle"
@@ -2892,6 +3458,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "1346 osmanlı egemenliği midilli adasına çıkmış görünüyor bu",
    "kume": "K22-DOGRULAMA",
    "nasil": "elle"
@@ -2902,6 +3470,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "BU 1 NUMARALI RESİMDE BİZİM PROGRAM YAPISI PENCERESİ BU ŞEKİ",
    "kume": "K03-KUTU-ALTYAPI",
    "nasil": "sikayet"
@@ -2912,6 +3482,8 @@
    "hukum": "cozuldu",
    "delil_commit": "ebbfdcd",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "olay olay oynatma hızlarına",
    "kume": "K09-HIZ-ANIMASYON",
    "nasil": "sikayet"
@@ -2922,6 +3494,8 @@
    "hukum": "cozuldu",
    "delil_commit": "f4737d7",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "1)kronoloji çubugunda padişah resminin yanına padişah ismi y",
    "kume": "K06-UST-CUBUK",
    "nasil": "sikayet"
@@ -2932,6 +3506,8 @@
    "hukum": "cozuldu",
    "delil_commit": "ebbfdcd",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "çubuktaki yazıyı daha göze çarpan bir şekilde biraz daha kal",
    "kume": "K06-UST-CUBUK",
    "nasil": "sikayet"
@@ -2942,6 +3518,8 @@
    "hukum": "cozuldu",
    "delil_commit": "169a136",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "TÖKÖLİ İMRE ORTA MACAR KRALLIĞI KURUP OSMANLIYA BAĞLANDIĞIND",
    "kume": "K18-ENKLAV",
    "nasil": "sikayet"
@@ -2952,6 +3530,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "NİŞ VE VİDİN ELDEN ÇIKMIŞ.",
    "kume": "K16-NOKTASIZLIK",
    "nasil": "sikayet"
@@ -2962,6 +3542,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "GRANBOSA KALESİ VE SALANKAMEN BOZGUNU MADDELERİ HARİTADA İŞA",
    "kume": "K12-OLAY-YERI",
    "nasil": "sikayet"
@@ -2972,6 +3554,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "BU SENEDE BU HARİTA GÖRÜNTÜSÜ NORMAL Mİ ARADAKİ KORİDOR TARİ",
    "kume": "K16-NOKTASIZLIK",
    "nasil": "sikayet"
@@ -2982,6 +3566,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "BU SENE DE HARİTADA AMCARİSTANIN BÖYLE YEŞİL GÖRÜNMESİ NORMA",
    "kume": "K14-RENK",
    "nasil": "sikayet"
@@ -2992,6 +3578,8 @@
    "hukum": "cozuldu",
    "delil_commit": "9d79b24",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "HAÇOVA MEYDAN MUHAREBESİNİN YERİ HARİTADA BELLİ DEĞİL",
    "kume": "K12-OLAY-YERI",
    "nasil": "sikayet"
@@ -3002,6 +3590,8 @@
    "hukum": "cozuldu",
    "delil_commit": "ebbfdcd",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "ARAYÜZ İÇİN ÖNERİ",
    "kume": "K13-PANEL-ARAYUZ",
    "nasil": "sikayet"
@@ -3012,6 +3602,8 @@
    "hukum": "cozuldu",
    "delil_commit": "ebbfdcd",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "BU KRONOLOJİ MADDESİNİN METNİ ÜST ÇUBUKTA GÖRÜNEN METİN SAĞA",
    "kume": "K06-UST-CUBUK",
    "nasil": "sikayet"
@@ -3022,6 +3614,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu tarihte buradaki boşluk hatamı bakalım",
    "kume": "K16-NOKTASIZLIK",
    "nasil": "sikayet"
@@ -3032,6 +3626,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "kırım hanlığı bozkırı denilen bu bögleerde hiç mi şehir yok",
    "kume": "K15-BOSLUK-KASITLI",
    "nasil": "sikayet"
@@ -3042,6 +3638,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu sene bu bölge böyle miymş orada bir kopuk osmanlı toprağı",
    "kume": "K17-GEOMETRI",
    "nasil": "sikayet"
@@ -3052,6 +3650,8 @@
    "hukum": "cozuldu",
    "delil_commit": "03aa5d9",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu maddede iken bir sonraki maddeye tıklayınca iki madde bir",
    "kume": "K07-AYNI-GUN",
    "nasil": "sikayet"
@@ -3062,6 +3662,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "ferhatpaşa anlaşmasından sonra osmanlı iran sınırının bu şek",
    "kume": "K19-KIMLIK",
    "nasil": "sikayet"
@@ -3072,6 +3674,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu tarihte bu bölgenin bu şekilde olduğuna eminmiyiz",
    "kume": "K22-DOGRULAMA",
    "nasil": "sikayet"
@@ -3082,6 +3686,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "göz kırpma animasyonunu bazı hızlarda kapatmamız gerekiyor 1",
    "kume": "K09-HIZ-ANIMASYON",
    "nasil": "sikayet"
@@ -3092,6 +3698,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu tarihte germiyanoğulları beyliğinin böyle iki birbirinden",
    "kume": "K18-ENKLAV",
    "nasil": "sikayet"
@@ -3102,6 +3710,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "osmanlının ilk kuruluşundaki toprakları böyle birbirinden ko",
    "kume": "K18-ENKLAV",
    "nasil": "sikayet"
@@ -3112,6 +3722,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "katalan birliklerin anadolu seferi oku bir olay erken çıkıyo",
    "kume": "K06-UST-CUBUK",
    "nasil": "sikayet"
@@ -3122,6 +3734,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "ilk maddede durum 1. resimdeki gibi iken yani yapılan ayar n",
    "kume": "K08-UCUS-ODAK",
    "nasil": "sikayet"
@@ -3132,6 +3746,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "haritanın genişlik gösterimi alanını odakda bakılan devletin",
    "kume": "K08-UCUS-ODAK",
    "nasil": "sikayet"
@@ -3142,6 +3758,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "osmanlı aydın saruhan ittifakı maddesinde bu üç ittifak mens",
    "kume": "K11-SEMBOL",
    "nasil": "sikayet"
@@ -3152,6 +3770,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "olay mahaline odaklanan haritada olay yeri yuvarlak işaret y",
    "kume": "K09-HIZ-ANIMASYON",
    "nasil": "sikayet"
@@ -3162,6 +3782,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "çimpe kalesine geçilince sarosun kuzeyi boyanmamalı. arada d",
    "kume": "K22-DOGRULAMA",
    "nasil": "elle"
@@ -3172,6 +3794,8 @@
    "hukum": "bayat",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "dış ülkelerin önemi şüpheli maddeleri",
    "kume": "K23-DUNYA-OLAYLARI",
    "nasil": "sikayet"
@@ -3182,6 +3806,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "doğu trakyada ilerleyiş çorlu ve lüleburgazın alınması madde",
    "kume": "K07-AYNI-GUN",
    "nasil": "sikayet"
@@ -3192,6 +3818,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "gümülcinenin fethi haritada görünümü kopuk aradaki topraklar",
    "kume": "K16-NOKTASIZLIK",
    "nasil": "sikayet"
@@ -3202,6 +3830,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "hamid ilinin ıspartanın para ile alınması maddesinde ısparta",
    "kume": "K22-DOGRULAMA",
    "nasil": "elle"
@@ -3212,6 +3842,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "timurun iranın büyük bölümünü hakimiyeti altına alması krono",
    "kume": "K19-KIMLIK",
    "nasil": "sikayet"
@@ -3222,6 +3854,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "tuna nehrinin sınırları belirlemesi ve şehirlerin blgelerini",
    "kume": "K17-GEOMETRI",
    "nasil": "elle"
@@ -3232,6 +3866,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "osmanlı nişi almış ama burada bir sırbistan toprağı kalmış g",
    "kume": "K22-DOGRULAMA",
    "nasil": "sikayet"
@@ -3242,6 +3878,8 @@
    "hukum": "cozuldu",
    "delil_commit": "d2d35ab",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "anadolu beylerbeyliği kuruldu maddesi ile aynı tarihte bir madde daha var",
    "kume": "K07-AYNI-GUN",
    "nasil": "sikayet"
@@ -3252,6 +3890,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu tarihte burada macaristan toprağı doğrumu hatamı",
    "kume": "K22-DOGRULAMA",
    "nasil": "sikayet"
@@ -3262,6 +3902,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "timur bağdadı zaptetti iyor ama bağdadı ele geçirmiş gibi gö",
    "kume": "K19-KIMLIK",
    "nasil": "cevap"
@@ -3272,6 +3914,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "timur devleti b tarihte bu bölgeleri alamamış vaziyettemi ac",
    "kume": "K22-DOGRULAMA",
    "nasil": "sikayet"
@@ -3282,6 +3926,8 @@
    "hukum": "cozuldu",
    "delil_commit": "07c33b2",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "vidinin ilhakı ve niğbolu seferi haritada aynı anad gösteril",
    "kume": "K07-AYNI-GUN",
    "nasil": "sikayet"
@@ -3292,6 +3938,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "orhan gazinin cenevizlilerle kapütülasyonu maddesinde mersin",
    "kume": "K15-BOSLUK-KASITLI",
    "nasil": "cevap"
@@ -3302,6 +3950,8 @@
    "hukum": "tekrar",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "timurun bağdadı ikinci kez ve birinci kez işgali maddelerind",
    "kume": "K12-OLAY-YERI",
    "nasil": "elle"
@@ -3312,6 +3962,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu mardinin bölgesi nedne böyle sivri görünüyor",
    "kume": "K17-GEOMETRI",
    "nasil": "sikayet"
@@ -3322,6 +3974,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "ankara savaşından sonra bu topraklar hala osmanlı kırmızısı",
    "kume": "K19-KIMLIK",
    "nasil": "cevap"
@@ -3332,6 +3986,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "timur izmiri saint jean şövalyelerinden aldı maddesinde timu",
    "kume": "K10-SEFER-GUZERGAH",
    "nasil": "sikayet"
@@ -3342,6 +3998,8 @@
    "hukum": "cozuldu",
    "delil_commit": "82aa96e",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "timurun izmir seferi bir sonraki maddede kesikli çizgi ile b",
    "kume": "K10-SEFER-GUZERGAH",
    "nasil": "sikayet"
@@ -3352,6 +4010,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "timurun anadoludan çekilmesini çizgi ile göstermeli haritada",
    "kume": "K10-SEFER-GUZERGAH",
    "nasil": "sikayet"
@@ -3362,6 +4022,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu tarihlerde böyle akkoyunlular karakoyunlular karışık bir",
    "kume": "K19-KIMLIK",
    "nasil": "sikayet"
@@ -3372,6 +4034,8 @@
    "hukum": "cozuldu",
    "delil_commit": "e17bdea",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "celayirli sultan ahmet ile ilgili madde içeriğine osmanlı su",
    "kume": "K25-MADDE-METNI",
    "nasil": "sikayet"
@@ -3382,6 +4046,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "şeyh bedrettin isyanı serezde ateş simgesi ile  görünüyor. b",
    "kume": "K11-SEMBOL",
    "nasil": "sikayet"
@@ -3392,6 +4058,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu gürcistan ve karakoyunlular devletinin rengi birbiri ile",
    "kume": "K19-KIMLIK",
    "nasil": "sikayet"
@@ -3402,6 +4070,8 @@
    "hukum": "cozuldu",
    "delil_commit": "82aa96e",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "aynı tarihte iki madde olunca bunların ıra ile gösterilmesi",
    "kume": "K07-AYNI-GUN",
    "nasil": "sikayet"
@@ -3412,6 +4082,8 @@
    "hukum": "tekrar",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu üç maddesırayla kronolojik tarihte gösterilmeli ve her bi",
    "kume": "K07-AYNI-GUN",
    "nasil": "elle"
@@ -3422,6 +4094,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bosna hersek osmanlı enklavı olarak osmanlı sırbistan fethet",
    "kume": "K18-ENKLAV",
    "nasil": "sikayet"
@@ -3432,6 +4106,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "DUBROVNİK HARACA BAĞLANIR İKEN HENÜZ İŞKODRA TREBİNYE VE KOT",
    "kume": "K22-DOGRULAMA",
    "nasil": "sikayet"
@@ -3442,6 +4118,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "ARZİLA PORTEKİZ TARAFINDAN ALINIŞI MADESİNDE YUVARLAK SİMGE",
    "kume": "K09-HIZ-ANIMASYON",
    "nasil": "sikayet"
@@ -3452,6 +4130,8 @@
    "hukum": "cozuldu",
    "delil_commit": "be8ba85",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "BOĞDANDA RACOVA VASULİ BOZGUNU MADDESİNDE HARİTA İLARETLEMES",
    "kume": "K12-OLAY-YERI",
    "nasil": "sikayet"
@@ -3462,6 +4142,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "KIRIM OSMANLI EGEMENLİĞİNE KATILDIĞINDA TOPRAKLARI NERELERİ",
    "kume": "K16-NOKTASIZLIK",
    "nasil": "elle"
@@ -3472,6 +4154,8 @@
    "hukum": "cozuldu",
    "delil_commit": "be8ba85",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "AKDERE VALEA ALBA ZAFERİ HARİTADA ZOOM OUT GERİDEN BAKILIYOR",
    "kume": "K08-UCUS-ODAK",
    "nasil": "sikayet"
@@ -3482,6 +4166,8 @@
    "hukum": "cozuldu",
    "delil_commit": "0775e1f",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "MERAK BUTONU GÜZEL AMA KONU İÇERİĞİ İKİ KELİME BİLE OLSA BUT",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -3492,6 +4178,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "OSMANLI ALTINI BASILDI MADDESİNDE MERAK EK OKUMA MAGAZİN FİL",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -3502,6 +4190,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "FATİHİN ÖLÜMÜ MADDESİNDE BU ÖLÜM İLE İLGİLİ İDDİALARI ANLATA",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -3512,6 +4202,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "GEDİK AHMET PAŞA İLE İLGİLİ EK OKUMA MERAK VESAİRE MADDELERİ",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -3522,6 +4214,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "butarihte kemah safevilere mi aitti enklav görünüyor çözelim",
    "kume": "K18-ENKLAV",
    "nasil": "sikayet"
@@ -3532,6 +4226,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu boşluğun sebebini bulalım çözelim",
    "kume": "K15-BOSLUK-KASITLI",
    "nasil": "elle"
@@ -3542,6 +4238,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "irandaki bu benekli yapının sebebi ne . tarihi gerçekmi böyl",
    "kume": "K18-ENKLAV",
    "nasil": "sikayet"
@@ -3552,6 +4250,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "akkoyunluların kocaman bir ülkesi var ama bir sonraki madele",
    "kume": "K19-KIMLIK",
    "nasil": "sikayet"
@@ -3562,6 +4262,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bağdadın safeviye geçişi maddesi ile bir sürü benek ortadan",
    "kume": "K18-ENKLAV",
    "nasil": "sikayet"
@@ -3572,6 +4274,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "piri reisin dünya haritası ile ek okuma teknik bilgiler maga",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -3582,6 +4286,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu devleti pergel ile çölde alan çizdirirken batı tarafında",
    "kume": "K17-GEOMETRI",
    "nasil": "sikayet"
@@ -3592,6 +4298,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu enklavdan önce aradaki toprakalr ele geçirilmemişmi erzur",
    "kume": "K18-ENKLAV",
    "nasil": "sikayet"
@@ -3602,6 +4310,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "portekizliler bahreyni almış ama harita boyanmamış",
    "kume": "K16-NOKTASIZLIK",
    "nasil": "sikayet"
@@ -3612,6 +4322,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu calu şehrinin doğusu güneyindeki büyük miktar toprağın bo",
    "kume": "K17-GEOMETRI",
    "nasil": "elle"
@@ -3622,6 +4334,8 @@
    "hukum": "bayat",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu üç iran beneğinin manası nedir tarihi gerçekliğe mi dayan",
    "kume": "K19-KIMLIK",
    "nasil": "sikayet"
@@ -3632,6 +4346,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu halepçenin enklav görünmesi normal mi etrafındaki şehirle",
    "kume": "K18-ENKLAV",
    "nasil": "sikayet"
@@ -3642,6 +4358,8 @@
    "hukum": "cozuldu",
    "delil_commit": "7b92b47",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu renk boyamaalrı hata galiba engelleyelim",
    "kume": "K14-RENK",
    "nasil": "sikayet"
@@ -3652,6 +4370,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "boruk görünmümleri düzelt iki renk üstüste binmiş galiba. bu",
    "kume": "K14-RENK",
    "nasil": "sikayet"
@@ -3662,6 +4382,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "basra alınmış abadan hafiza ahvaz alınamamışmı",
    "kume": "K19-KIMLIK",
    "nasil": "cevap"
@@ -3672,6 +4394,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "van fethedilmiş ama özalp başkale çaldıran fethedilmemiş mi",
    "kume": "K22-DOGRULAMA",
    "nasil": "sikayet"
@@ -3682,6 +4406,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "şehrizor ilhak edildi ise neden haritada katılmıyor osmanlı",
    "kume": "K24-DEGISMEZ2",
    "nasil": "sikayet"
@@ -3692,6 +4418,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "daha önce şehrizor ilhak edildi diyordu şimdie alındı diyor",
    "kume": "K19-KIMLIK",
    "nasil": "cevap"
@@ -3702,6 +4430,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu olayın harita gösterimi yapılmamış. haritada yaprak kıpır",
    "kume": "K12-OLAY-YERI",
    "nasil": "sikayet"
@@ -3712,6 +4442,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "tüm anlaşma içeren kronolojik maddelerin içine anlaşma metni",
    "kume": "K02-ANTLASMA-METNI",
    "nasil": "sikayet"
@@ -3722,6 +4454,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu gürcistan böyle iki parça görünüyor normal mi bu . bunun",
    "kume": "K18-ENKLAV",
    "nasil": "sikayet"
@@ -3732,6 +4466,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "osmanlıların macaristanı budini ilhak edip macaristaı ele ge",
    "kume": "K21-VASSAL",
    "nasil": "sikayet"
@@ -3742,6 +4478,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "sokollu mehmet paşa için",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -3752,6 +4490,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "büyük akçe krizi tağşiş maddesinde bu durumun neden olduğunu",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -3762,6 +4502,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "şerur doğubeyazıt makuçaldıran özalphoy merend culfa gibi ye",
    "kume": "K18-ENKLAV",
    "nasil": "sikayet"
@@ -3772,6 +4514,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "ferhatpaşa anlaşmasına göre bu toprakları teyid et.",
    "kume": "K22-DOGRULAMA",
    "nasil": "sikayet"
@@ -3782,6 +4526,8 @@
    "hukum": "bayat",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu tarihte bu şekilde yaşayan müstakil bir gürciastan varmı",
    "kume": "K19-KIMLIK",
    "nasil": "elle"
@@ -3792,6 +4538,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "kanije savunması ile ilgili maddede",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -3802,6 +4550,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu tarihte bu şehirler kime aitmiş detaylı bakalım.",
    "kume": "K22-DOGRULAMA",
    "nasil": "sikayet"
@@ -3812,6 +4562,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "deli hasan diye bir ayaklanma görünüyor ama kronoloji maddes",
    "kume": "K24-DEGISMEZ2",
    "nasil": "sikayet"
@@ -3822,6 +4574,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "3. mehmetin tahta çıkması ile ilgili maddelere ek okuma madd",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -3832,6 +4586,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "barış anltlaşmalarının önemi konusunda ek okuma butonları ko",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -3842,6 +4598,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu özelp ve başkale başta olmak üzere çevredeki şehirlerin k",
    "kume": "K22-DOGRULAMA",
    "nasil": "sikayet"
@@ -3852,6 +4610,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "kuyucu murat paşa ve ek okumalar yapılsın celali isyanları e",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -3862,6 +4622,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "sultanahmet cami gibi yapıların yapılmasında ek okumalar",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -3872,6 +4634,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "1.AHMET DÖNEMİ EKBERİYET USULÜ İLE İLLLGİLİ EK OKUMALAR TART",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -3882,6 +4646,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "1.MUSTAFANIN CULUSU İLE İLGİLİ EK OKUMALAR YAPALIM MAGAZİN K",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -3892,6 +4658,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "2. OSMAN VE ONUN HALLİ İLE İLGİL EK OKUMALAR ŞOK HABERLER MA",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -3902,6 +4670,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "1.MUSTAFANIN HALİ İLE İLGİLİ KOMİK ANLATILARI EK OKUMA YAP K",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -3912,6 +4682,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "4. MURAT İLE İLGİLİ EK OKUMA",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -3922,6 +4694,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "HEZARFEN VE LAGARİ GİBİ KİŞİLİKLER İÇİN EK OKUMALAR EKLEYELİ",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -3932,6 +4706,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "4. MURAT İÇKİ YSAĞI EK OKUMALAR MAGAZİN TARTIŞMA HİKAYE SÜSL",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -3942,6 +4718,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "HARİTA AKSRI ŞİRİN ANLAŞMASINA UYGUN MU KONTROL ET",
    "kume": "K22-DOGRULAMA",
    "nasil": "sikayet"
@@ -3952,6 +4730,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "SULTAN DELİ İBRAHİM KONUSUNDA EK OKUMALAR BOL BOL YAPALIM",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -3962,6 +4742,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "KEMANKEŞ MUSTAFA PAŞA EK OKUMALAR İLE SÜSLE",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -3972,6 +4754,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "SULTAN İBRAHİMİN HALLİ VE KATLİ İLE İLGİLİ EK OKUMALARI UNUT",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -3982,6 +4766,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "KATİP ÇELEBİYE ÖNEM VERELİM EK OKUMALAR İLE MADDELERİNİ ZENG",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -3992,6 +4778,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "MERZİFONLU KARA MUSTAFA PAŞA MADDELERİNİ EK OKUMALAR İLE DON",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -4002,6 +4790,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "SATU MARE ORTA MACAR MI AVUSTURYA MI YOKSA OSMANLI MI BU DEV",
    "kume": "K18-ENKLAV",
    "nasil": "sikayet"
@@ -4012,6 +4802,8 @@
    "hukum": "tekrar",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu yapının anlamı ne. boş bir alan yerleşim yeri yok kesik k",
    "kume": "K10-SEFER-GUZERGAH",
    "nasil": "sikayet"
@@ -4022,6 +4814,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "budinin kaybı maddesinde anabolu da kayıp görünüyor ama kron",
    "kume": "K24-DEGISMEZ2",
    "nasil": "elle"
@@ -4032,6 +4826,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "4. mehmetin azline ilişkin komik hikayeler var ise bunları e",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -4042,6 +4838,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu maddede knin elden çıkmış görünüyor haritada ama kronoloj",
    "kume": "K24-DEGISMEZ2",
    "nasil": "sikayet"
@@ -4052,6 +4850,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "niş ve vidin ondan önceki topraklar alınmadan mı elden çıkmı",
    "kume": "K16-NOKTASIZLIK",
    "nasil": "sikayet"
@@ -4062,6 +4862,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "karlofça anlaşmasında venediklilerin aldıkları topraklar ola",
    "kume": "K22-DOGRULAMA",
    "nasil": "sikayet"
@@ -4072,6 +4874,8 @@
    "hukum": "cozuldu",
    "delil_commit": "e53c86a",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "avusturyaya karlofça anlaşması ile kaybedilen alanlar doğru",
    "kume": "K05-ISGAL-TARALI",
    "nasil": "elle"
@@ -4082,6 +4886,8 @@
    "hukum": "cozuldu",
    "delil_commit": "e53c86a",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "karlofça ile 4 ülkeye kaybedilen toprakalrı teker teekr teyi",
    "kume": "K22-DOGRULAMA",
    "nasil": "sikayet"
@@ -4092,6 +4898,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "venediğe karlofça ile draç terkedildimi. sinj şehrinide değe",
    "kume": "K22-DOGRULAMA",
    "nasil": "sikayet"
@@ -4102,6 +4910,8 @@
    "hukum": "cozuldu",
    "delil_commit": "e53c86a",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "lehistana kaybedilen podolya görünmüyor karlofçada kaybedile",
    "kume": "K05-ISGAL-TARALI",
    "nasil": "sikayet"
@@ -4112,6 +4922,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "trablusgarpda karamanlı hanedanı kurulunca trablusgarp topra",
    "kume": "K18-ENKLAV",
    "nasil": "sikayet"
@@ -4122,6 +4934,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "prut zaefri ile ilgili ek okumalar ve magazin yazıları balta",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -4132,6 +4946,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "çuha adası ile beraber lefkada adasıda alınmış galiba ama kr",
    "kume": "K24-DEGISMEZ2",
    "nasil": "sikayet"
@@ -4142,6 +4958,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "lale devrine dair olan maddelerde bol bol ek okuma maddeleri",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -4152,6 +4970,8 @@
    "hukum": "cozuldu",
    "delil_commit": "e53c86a",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "pasarofça anlaşması ve bu taralı bölge gösterimi yanlış",
    "kume": "K05-ISGAL-TARALI",
    "nasil": "sikayet"
@@ -4162,6 +4982,8 @@
    "hukum": "cozuldu",
    "delil_commit": "e53c86a",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "ayrıca eflakda nedne bu torak boyasız olmuş",
    "kume": "K05-ISGAL-TARALI",
    "nasil": "elle"
@@ -4172,6 +4994,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "şirvan alınırken aradaki topraklar alınmadan kalmışmı osmanl",
    "kume": "K16-NOKTASIZLIK",
    "nasil": "sikayet"
@@ -4182,6 +5006,8 @@
    "hukum": "tekrar",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu nahcıvan alınmadan hemen önce aradaki topraklar alınmıyor",
    "kume": "K16-NOKTASIZLIK",
    "nasil": "sikayet"
@@ -4192,6 +5018,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "tebriz ele geçti ama gene orada azerbaycan ile osmanlı arası",
    "kume": "K16-NOKTASIZLIK",
    "nasil": "sikayet"
@@ -4202,6 +5030,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "patrona halil isyanı maddelerini ek okumalar ile donatalım",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -4212,6 +5042,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "1.mahmudun patrona ve adamlarını derdest edip etkisiz hale g",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -4222,6 +5054,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "humbaracı ahmet paşa ve onunla ilgili maddeleri ek okumalar",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -4232,6 +5066,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "ruslar öziyi alırken aradaki bölgeler ne alemde bozkır var ç",
    "kume": "K15-BOSLUK-KASITLI",
    "nasil": "sikayet"
@@ -4242,6 +5078,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "ruslar öziyi ele geçirdiği maddede burada bu şekilde bir tar",
    "kume": "K05-ISGAL-TARALI",
    "nasil": "sikayet"
@@ -4252,6 +5090,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "özinin geri alınması maddesinde belgrad da yeniden geri alın",
    "kume": "K24-DEGISMEZ2",
    "nasil": "elle"
@@ -4262,6 +5102,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu semendire alınması doğru ise bu tarihte bu aradaki korido",
    "kume": "K16-NOKTASIZLIK",
    "nasil": "sikayet"
@@ -4272,6 +5114,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu suudi vehhabi devleti kurulduğunda orada bir koridor var",
    "kume": "K16-NOKTASIZLIK",
    "nasil": "sikayet"
@@ -4282,6 +5126,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "1.mahmudun öümü ile alakalı magazin ek okumalarını sakın unu",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -4292,6 +5138,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "tüm osmanlı padişahlarının hal veya ölüm maddelerine övgü ve",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -4302,6 +5150,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "ruslar benderi ele geçirmişler ama orayı ele geçirmeden önec",
    "kume": "K15-BOSLUK-KASITLI",
    "nasil": "sikayet"
@@ -4312,6 +5162,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu basra geri alınmı ama bu abadan şehri iran şehrimidir osm",
    "kume": "K19-KIMLIK",
    "nasil": "sikayet"
@@ -4322,6 +5174,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "özinin düşüşü ve abdülhamidin felç geçirmesi ek okumalara ko",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -4332,6 +5186,8 @@
    "hukum": "gerek-yok",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "avusturya savaşlarından sebeş savaşına dair komik olaya dair",
    "kume": "K01-EK-OKUMA",
    "nasil": "sikayet"
@@ -4342,6 +5198,8 @@
    "hukum": "cozuldu",
    "delil_commit": "e53c86a",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu taralı alanların yaş anlaşması ile ne alakası var bunu dü",
    "kume": "K05-ISGAL-TARALI",
    "nasil": "sikayet"
@@ -4352,6 +5210,8 @@
    "hukum": "cozuldu",
    "delil_commit": "7297135",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "fransız devrimini neden  anlatmıyor kronoloji en önemli olay",
    "kume": "K23-DUNYA-OLAYLARI",
    "nasil": "sikayet"
@@ -4362,6 +5222,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "mısırın fransızlar tarafından işgal edilmesi bölgeleri bu şe",
    "kume": "K17-GEOMETRI",
    "nasil": "cevap"
@@ -4372,6 +5234,8 @@
    "hukum": "cozuldu",
    "delil_commit": "e53c86a",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bükreş anlaşması ile bu taralı alanların ne alakası var",
    "kume": "K05-ISGAL-TARALI",
    "nasil": "sikayet"
@@ -4382,6 +5246,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "avrupa asya ortadoğu ve kuzey afrikada yani o dönemki medeni",
    "kume": "K23-DUNYA-OLAYLARI",
    "nasil": "elle"
@@ -4392,6 +5258,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "A ilk  kronoloji maddemiz çaldıran zaferi. çaldıran haritada",
    "kume": "K10-SEFER-GUZERGAH",
    "nasil": "sikayet"
@@ -4402,6 +5270,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "acaba nişin fethi ile birlikte bu aradaki boş araziyi de osm",
    "kume": "K18-ENKLAV",
    "nasil": "sikayet"
@@ -4412,6 +5282,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "fetret devrinden sonra bu parça osmanlı kırmızısı olarak kal",
    "kume": "K16-NOKTASIZLIK",
    "nasil": "elle"
@@ -4422,6 +5294,8 @@
    "hukum": "gerek-yok",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "aydınoğulları beyliği idamı maddesinde buradaki harita bu şe",
    "kume": "K15-BOSLUK-KASITLI",
    "nasil": "sikayet"
@@ -4432,6 +5306,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "1) piri reisin kitabı bahsiye maddesi",
    "kume": "K24-DEGISMEZ2",
    "nasil": "sikayet"
@@ -4442,6 +5318,8 @@
    "hukum": "tekrar",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "1) kahirede abbasi halifeliğinin sona ermesi maddesi bu şeki",
    "kume": "K18-ENKLAV",
    "nasil": "sikayet"
@@ -4452,6 +5330,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "orhan gazi teodora evliliğinden sonra orhan gazinin cenevizl",
    "kume": "K22-DOGRULAMA",
    "nasil": "elle"
@@ -4462,6 +5342,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "fetret devrinde bu bölümdeki topraklar osmanlı kırmızısında",
    "kume": "K16-NOKTASIZLIK",
    "nasil": "elle"
@@ -4472,6 +5354,8 @@
    "hukum": "tekrar",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "burada kuzey afrikadaki gibi anlamsız bir boşluk boyanması m",
    "kume": "K16-NOKTASIZLIK",
    "nasil": "sikayet"
@@ -4482,6 +5366,8 @@
    "hukum": "gerek-yok",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "taizin kaybı haritada pek belli olmuyor. nasıl göstermek ger",
    "kume": "K09-HIZ-ANIMASYON",
    "nasil": "elle"
@@ -4492,6 +5378,8 @@
    "hukum": "tekrar",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "satu mare arada kalmış burası orta macar oalrak tökeli imrey",
    "kume": "K22-DOGRULAMA",
    "nasil": "sikayet"
@@ -4502,6 +5390,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "1) bağdat kaybedilirken bu bölge osmanlıda enklav olarak gör",
    "kume": "K18-ENKLAV",
    "nasil": "sikayet"
@@ -4512,6 +5402,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "eğrinin kaybı maddesinde mukaçeve munkacs şehride elden çıkm",
    "kume": "K25-MADDE-METNI",
    "nasil": "sikayet"
@@ -4522,6 +5414,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "tiflis ve şirvan alınır iken aradaki topraklar pas mı geçild",
    "kume": "K10-SEFER-GUZERGAH",
    "nasil": "sikayet"
@@ -4532,6 +5426,8 @@
    "hukum": "tekrar",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "hemedan barışı sonrasında gene tıpkı ferhatpaşa anlaşmasında",
    "kume": "K19-KIMLIK",
    "nasil": "cevap"
@@ -4542,6 +5438,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu koridordaki şehirler muhtemelen diğer büyük şehirler bağl",
    "kume": "K19-KIMLIK",
    "nasil": "sikayet"
@@ -4552,6 +5450,8 @@
    "hukum": "tekrar",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "özinin ruslardan geri alınması maddesinde belgradda ele geçm",
    "kume": "K18-ENKLAV",
    "nasil": "sikayet"
@@ -4562,6 +5462,8 @@
    "hukum": "cozuldu",
    "delil_commit": "e53c86a",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "küçük kaynarca anlaşması ile bu taralı alanların ne alakası",
    "kume": "K05-ISGAL-TARALI",
    "nasil": "sikayet"
@@ -4572,6 +5474,8 @@
    "hukum": "tekrar",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "iran basrayı ele geçirmiş peki bu fav kenti basraya ait deği",
    "kume": "K19-KIMLIK",
    "nasil": "sikayet"
@@ -4582,6 +5486,8 @@
    "hukum": "tekrar",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu basra osmanlı tarafından geri alınmış ama basrayı alan ab",
    "kume": "K19-KIMLIK",
    "nasil": "sikayet"
@@ -4592,6 +5498,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu taralı alanların manası nedir kırıma özerklik tanndıkdan",
    "kume": "K05-ISGAL-TARALI",
    "nasil": "sikayet"
@@ -4602,6 +5510,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bütün b haritadaki bölgeleri teyid edelim.",
    "kume": "K15-BOSLUK-KASITLI",
    "nasil": "sikayet"
@@ -4612,6 +5522,8 @@
    "hukum": "cozuldu",
    "delil_commit": "e53c86a",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "https://chatgpt.com/share/6a8ecd84-97e4-83eb-a342-cbe54c2180",
    "kume": "K19-KIMLIK",
    "nasil": "sikayet"
@@ -4622,6 +5534,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "fransız devrimi gibi önemli tarihi uluslararası olayları kro",
    "kume": "K23-DUNYA-OLAYLARI",
    "nasil": "sikayet"
@@ -4632,6 +5546,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "sohum rusalra kaybedilirken taman kalesi ve çerkezistan rusl",
    "kume": "K22-DOGRULAMA",
    "nasil": "sikayet"
@@ -4642,6 +5558,8 @@
    "hukum": "cozuldu",
    "delil_commit": "e53c86a",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bükreş anlaşması ile bu taralı alanalrın ne alakası var",
    "kume": "K05-ISGAL-TARALI",
    "nasil": "sikayet"
@@ -4652,6 +5570,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "buralarda anlamsız boş toprakların osmanlı kırmızısına boyan",
    "kume": "K14-RENK",
    "nasil": "cevap"
@@ -4662,6 +5582,8 @@
    "hukum": "cozuldu",
    "delil_commit": "e53c86a",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "edirne anlaşması ile bu taralı bölgenin ne alakası var. tüm",
    "kume": "K05-ISGAL-TARALI",
    "nasil": "sikayet"
@@ -4672,6 +5594,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu taralı alanların edirne anlaşması ile ne alakası var. iki",
    "kume": "K05-ISGAL-TARALI",
    "nasil": "sikayet"
@@ -4682,6 +5606,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "edirne anlaşması sornası sınır örtüşmemesi durumu var",
    "kume": "K16-NOKTASIZLIK",
    "nasil": "elle"
@@ -4692,6 +5618,8 @@
    "hukum": "kapsam-disi",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "edirna anlaşması sonrasında kafkas haritasını teyid ettireli",
    "kume": "K22-DOGRULAMA",
    "nasil": "sikayet"
@@ -4702,6 +5630,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "(başlıksız)",
    "kume": "K10-SEFER-GUZERGAH",
    "nasil": "elle"
@@ -4712,6 +5642,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "mısır ordusunun ilerlemesi ve ele geçirdiği yerler böyle par",
    "kume": "K22-DOGRULAMA",
    "nasil": "sikayet"
@@ -4722,6 +5654,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "konya ele geçirildi deniyor ama aynı maddede urfada elden çı",
    "kume": "K22-DOGRULAMA",
    "nasil": "sikayet"
@@ -4732,6 +5666,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "acaba urfa maraş adana konya kütahya hattını mısır ordusunun",
    "kume": "K19-KIMLIK",
    "nasil": "sikayet"
@@ -4742,6 +5678,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "20 şubat 1833 rus donanmasının büyükdereye gelmesi ve rus as",
    "kume": "K10-SEFER-GUZERGAH",
    "nasil": "elle"
@@ -4752,6 +5690,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "kütahya anlaşmasından sonra adana maraş ve ufa kime kaldı is",
    "kume": "K22-DOGRULAMA",
    "nasil": "elle"
@@ -4762,6 +5702,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu şammar hail yapılanmasının hikayesini kronolojide görmedi",
    "kume": "K24-DEGISMEZ2",
    "nasil": "sikayet"
@@ -4772,6 +5714,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu sene cezayirdeki durum böyle görünüyormuş ortadaki enklav",
    "kume": "K21-VASSAL",
    "nasil": "sikayet"
@@ -4782,6 +5726,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu sene oluş hala ibrail ve rusçuk şerhinin dış tarafı rusya",
    "kume": "K22-DOGRULAMA",
    "nasil": "elle"
@@ -4792,6 +5738,8 @@
    "hukum": "kapsam-disi",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "haritada burada bir hata var. boşluk var sebebi nedir",
    "kume": "K16-NOKTASIZLIK",
    "nasil": "sikayet"
@@ -4802,6 +5750,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu maddenin kronolojisinde cezayirin hepsinin elden çıkışı d",
    "kume": "K22-DOGRULAMA",
    "nasil": "sikayet"
@@ -4812,6 +5762,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu caglub denilen yer sonrada kurulmuş bir şehirmi kronoloji",
    "kume": "K22-DOGRULAMA",
    "nasil": "sikayet"
@@ -4822,6 +5774,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "berserabyanın güneyi pasir barış anlaşması ile osmanlıya ver",
    "kume": "K22-DOGRULAMA",
    "nasil": "elle"
@@ -4832,6 +5786,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "deniz mavisi fazla koyu nunu daha açık bir mavi yapalım hari",
    "kume": "K14-RENK",
    "nasil": "sikayet"
@@ -4842,6 +5798,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "mısır ordusu bu şehirlerin hepsine girdimi böyle benek benek",
    "kume": "K18-ENKLAV",
    "nasil": "sikayet"
@@ -4852,6 +5810,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu olayın haritadaki yerini iaşreletmeli",
    "kume": "K12-OLAY-YERI",
    "nasil": "elle"
@@ -4862,6 +5822,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu parça neden boş görünüyor",
    "kume": "K15-BOSLUK-KASITLI",
    "nasil": "sikayet"
@@ -4872,6 +5834,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "abdulazizin avrupa seyahatini tam güzergah olarak ver. önce",
    "kume": "K10-SEFER-GUZERGAH",
    "nasil": "sikayet"
@@ -4882,6 +5846,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu boşluğu beratraf edelim . sınırlar birbiri ile örtüşmeli",
    "kume": "K16-NOKTASIZLIK",
    "nasil": "cevap"
@@ -4892,6 +5858,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "eğer rusya savaştan sonra eflak ve boğdan topraklarıne -a gi",
    "kume": "K05-ISGAL-TARALI",
    "nasil": "sikayet"
@@ -4902,6 +5870,8 @@
    "hukum": "bayat",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "karsın düşülüş maddesinde kars haritada düşmüş görünmüyor",
    "kume": "K24-DEGISMEZ2",
    "nasil": "sikayet"
@@ -4912,6 +5882,8 @@
    "hukum": "tekrar",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu yeil yerler rusyaya dönmeden önce eğer rusya eflak ve boğ",
    "kume": "K21-VASSAL",
    "nasil": "sikayet"
@@ -4922,6 +5894,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "rus osmanlı savaşlarında rusya eflak ve boğdanı işgal ettiği",
    "kume": "K05-ISGAL-TARALI",
    "nasil": "sikayet"
@@ -4932,6 +5906,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "necefin batısında v e güneybatısındaki bo gereksiz fazladan",
    "kume": "K16-NOKTASIZLIK",
    "nasil": "sikayet"
@@ -4942,6 +5918,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "bu romanya krallığı böyle iki parçamı oluyor.",
    "kume": "K18-ENKLAV",
    "nasil": "sikayet"
@@ -4952,6 +5930,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "1923 itibari ile tüm ülkelerin sınırlarını birebir 6. kalite",
    "kume": "K12-OLAY-YERI",
    "nasil": "sikayet"
@@ -4962,6 +5942,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "burada canet diye bir yerleşim var tam sınırın dibinde neden",
    "kume": "K22-DOGRULAMA",
    "nasil": "elle"
@@ -4972,6 +5954,8 @@
    "hukum": "cozuldu",
    "delil_commit": "b93bba9",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "maraşi seyidleri amülü almış.",
    "kume": "K23-DUNYA-OLAYLARI",
    "nasil": "sikayet"
@@ -4982,6 +5966,8 @@
    "hukum": "cozuldu",
    "delil_commit": "b93bba9",
    "delil_atlas": "dogrulandi",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "karkiya hanedanı gilanda kurulmuş bölgesel ve dünyasal ölçek",
    "kume": "K19-KIMLIK",
    "nasil": "sikayet"
@@ -4992,6 +5978,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "curuk",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "ek 4 / f giren çıkan maddeler ile birlite üstündeçalışılmış hali",
    "kume": "K03-KUTU-ALTYAPI",
    "nasil": "sikayet"
@@ -5002,6 +5990,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "ek 4/d",
    "kume": "K03-KUTU-ALTYAPI",
    "nasil": "sikayet"
@@ -5012,6 +6002,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "ek 4e",
    "kume": "K03-KUTU-ALTYAPI",
    "nasil": "sikayet"
@@ -5022,6 +6014,8 @@
    "hukum": "zaten-dogru",
    "delil_commit": "",
    "delil_atlas": "iddiasiz",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "ek 4 f",
    "kume": "K03-KUTU-ALTYAPI",
    "nasil": "sikayet"
@@ -5032,6 +6026,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "ek 4g",
    "kume": "K03-KUTU-ALTYAPI",
    "nasil": "sikayet"
@@ -5042,6 +6038,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "ek 4 ç",
    "kume": "K03-KUTU-ALTYAPI",
    "nasil": "sikayet"
@@ -5052,6 +6050,8 @@
    "hukum": "cozuldu",
    "delil_commit": "",
    "delil_atlas": "iz-yok",
+   "delil_yer": "",
+   "delil_kim": "",
    "baslik": "ŞU ANDA BEKLEYENLER KUTUSUNDAKİ SENİNLE KONUŞMALARIMIZ VAR",
    "kume": "K03-KUTU-ALTYAPI",
    "nasil": "sikayet"

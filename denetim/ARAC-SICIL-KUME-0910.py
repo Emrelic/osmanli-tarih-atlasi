@@ -271,6 +271,11 @@ def main():
                 "paket": ad, "no": no, "hukum": m.get("hukum", ""),
                 "delil_commit": (m.get("delil_commit") or "").strip(),
                 "delil_atlas": m.get("delil_atlas", ""),
+                # 🆕 IZ-YOK DENETIM A/B/C turundan sonra dolacak alanlar.
+                #    SIMDIDEN okunuyorlar: alan sematik olarak yoksa BEYAN
+                #    SESSIZCE DUSER (D067) — bos string olarak tasinirlar.
+                "delil_yer": (m.get("delil_yer") or "").strip(),
+                "delil_kim": (m.get("delil_kim") or "").strip(),
                 "baslik": (bas.get(no) or "").replace("\n", " ")[:150],
                 "_sik": norm(" ".join([bas.get(no, ""), met.get(no, "")])),
                 "_cev": norm(m.get("not", "") or ""),

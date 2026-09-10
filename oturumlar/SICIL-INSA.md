@@ -128,3 +128,56 @@ DIŞI**. 🟠 koordinatörün talimatıdır; öteki ikisi veride **vardı**, sö
    yeni paket geldikçe büyürler.
 4. Kümeleme **%15-20 hata payı taşıyor**; bir kayıt aranırken bulunamazsa
    komşu kümeye de bakılmalı. Kesin çare: her maddenin tek tek okunması.
+
+---
+
+## ⑥ İKİNCİ TUR — YENİ İMLER (koordinatör sevki, aynı gün)
+
+Koordinatör **üçüncü yolu** koydu: A/B/C'nin 🟢 172'sinde **commit hash'i yok**,
+iş `data/`de **yol:satır** olarak bulundu. ⇒ `delil_commit` doldurulamaz (a),
+betiği gevşetmek de kuralı çiğner (b). Çare: **ekseni genişletmek.**
+
+```
+✅ ÇÖZÜLDÜ         dogrulandi          commit VAR — S-011 kuralı KORUNUR
+🔵 VERİDE VAR   🆕 veride-dogrulandi   commit izlenemiyor, karşılığı VERİDE var
+🟠 İDDİA EDİLDİ    iz-yok              henüz ölçülmedi
+🔴 YAPILMAMIŞ   🆕 yapilmamis          ölçüldü, karşılığı YOK — gerçek borç
+❔ ÖLÇÜLEMEDİ   🆕 olculemedi          ölçüm yapılamadı — bilinmeyen, borç DEĞİL
+➖ İDDİA TAŞIMIYOR iddiasiz            uygulama iddiası taşımıyor
+```
+
+🔴 **VE BİR BOŞLUK KAPATILDI: sevkte YALNIZ BİR değerin adı vardı.**
+`veride-dogrulandi` yazılıydı; `🔴 YAPILMAMIŞ` ve `❔ ÖLÇÜLEMEDİ` için
+`delil_atlas` **literali adlandırılmamıştı.** `yapilmamis` ve `olculemedi`
+koydum ve koordinatöre bildirdim — iki taraf farklı dizgi kullanırsa beyan
+**sessizce düşer** (`D067`) ve ölçülmüş bir sonuç ölçülmemiş görünür.
+
+### 🟢 VE ALET ARTIK SESSİZ DÜŞMÜYOR — İKİ KAPI
+```
+① TANIMSIZ `delil_atlas`  → uretici COKER, sicili YAZMAZ
+   (tabloya girmeyen bir degeri 🟠 diye raporlamak, OLCULMUS bir sonucu
+    OLCULMEMIS gostermek olurdu)
+② `dogrulandi` damgasi VAR ama `delil_commit` BOŞ → COKER
+   (S-011: damga delilin yerine gecemez)
+```
+📌 *Bir aletin çökmesi, yanlış cevap vermesinden iyidir.*
+
+### 🟢 DÖRT SINAV — VERİ GELMEDEN KOŞULDU (`ARAC-SICIL-SINAV-IM-0910.py`)
+`veride-dogrulandi` taşıyan **tek bir madde bile yok** — o yüzden alet veriyi
+**taklit ediyor** (207 → 172/11/9/15) ve üreticiyi ona karşı koşturuyor.
+```
+① yeni imler doğru kovalara düşüyor + 🟠 SIFIRA iniyor      GEÇTİ
+② tanımsız değer üreticiyi DURDURUYOR                        GEÇTİ
+③ delilsiz `dogrulandi` damgası DURDURUYOR                   GEÇTİ
+④ `delil_yer`/`delil_kim` SİCİL METNİNDE görünüyor           GEÇTİ   4/4
+```
+⚠️ **④'ün ilk hâli SAHTE BİR SINAVDI:** yalnız *«🔵 kovası doldu mu»* diye
+soruyordu — o, alanın **metne indiğini göstermez** (`D042`). Üreticiye `--hedef`
+eklendi; sınav artık taklit bir dosyaya yazıp **metni okuyor.**
+
+⇒ Koordinatör `CEVAP.json`u işleyince tek komut kalıyor:
+```bash
+py denetim/ARAC-SICIL-KUME-0910.py && py denetim/ARAC-SICIL-YAZ-0910.py --yaz
+```
+Beklenen: `✅ 120 · 🔵 172 · 🔴 11 · ❔ 9 · ➖ 15 · 🟠 0` — **taklit veriyle
+birebir bu çıktı üretildi.**
