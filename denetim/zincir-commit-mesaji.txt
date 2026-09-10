@@ -1,56 +1,86 @@
-YAYIN — KOSU 8 INDI · vassal etiket katmani + 558 kurtarilmis kayit
+YAYIN — KOSU 9 INDI · mukerrer anahtar 6->0 · enklav 661->650 · paralel motor
 
 Bu commit'i bir INSAN degil, `arac/kos_ve_yayinla.py` zinciri atti. Mesaj
-KOSUDAN ONCE yazildi (7 Eylul 2026, 23:20), cunku zincir tokensiz kosuyor
-ve sonradan mesaj yazacak kimse yok.
+KOSUDAN ONCE yazildi (10 Eylul 2026), cunku zincir tokensiz kosuyor ve
+sonradan mesaj yazacak kimse yok.
 
-KOSU 8: basladi 2026-09-07 11:17:47 · PID 10780 · girdi 3805 nokta
+🔴 VE BU DOSYA KOSU 8'IN MESAJINI TASIYORDU — kosu 9'u baslatmaya
+   hazirlanirken goruldu. Baslatilsaydi kosu 9'un ciktisi git tarihine
+   "KOSU 8 INDI · vassal etiket katmani" diye gecerdi ve `git log` bir
+   daha guvenilmezdi. `D047`: log da bir CIKTIDIR ve o da BAYATLAR —
+   burada bayatlayan sey, HENUZ YAZILMAMIS bir commit'in mesajiydi.
 
-NE GIRDI — kosudan ONCE, `git log` ile olculdu (07:17 son yayin -> 11:17
-kosu basi penceresi, YEDI commit):
+## NE GIRDI — son yayindan (00652fc) bu yana, ADIYLA
 
-  c37ec02 07:25  GLOB DUZELTILDI — dar desen "KABUL 0" diyordu; genis
-                 desenle 10 kunye INDI. kunye 617 -> 627.
-                 (Elle yazilan bir tarih, bir glob'un icinde bir SON
-                  KULLANMA TARIHIDIR: `*0905*` deseni 13 yamanin 11'ini
-                  sessizce disarida birakiyordu.)
-  415d18a 07:33  MERGE ADIM 1-3 — 10 kunye + 192 sahiplik kaydi indi.
-  d2d5ecf 10:10  SESSIZ KAYIP OLCULDU — 151 alan `liste[0]` disinda
-                 kaldigi icin HIC inmiyordu; 133'u tek dosyadan.
-  59fd8d6 10:34  CAKISMA 91 -> 26 · 215 kayit indi · o 151 alan KURTARILDI.
-  3587809 10:43  MUKERRER ANAHTAR bir SINIF olarak olculdu — 12 kayit,
-                 6'si tekillestirildi, nobetci kondu.
-  2127303 11:03  VASSAL ETIKET KATMANI — MOTOR yazildi (uret_petek.py).
-                 "Bloke olan motor degilmis" · cakisma 26 -> 23.
-  22cced2 11:17  CUKUROVA ACILDI — 6 TDV maddesi · Degismez 7 663 -> 661 ·
-                 Degismez 2i TEMIZ.
+VERI DUZELTMELERI (haritayi degistiren):
+  7e6049d  MUKERRER ANAHTAR 6 -> 0
+           Alti kayitta ayni alan IKI KEZ yaziliydi; JS sonuncuyu alir ve
+           birincisi SESSIZCE olur. UC KAYITTA "sonuncuyu tut" KUSUR
+           URETIYORDU — toplu bir kural uygulansaydi Yagodina 1689-90
+           Avusturya isgalini, Yedisan cift sahipligi geri alacak, Sirnak
+           tbmm'yi kaybedecekti.
+           🔴 Imadiye'de olcum hukmu TERSINE CEVIRDI: motorun okudugu
+             kopya 1918-1923'u duz `ingiltere` yapiyordu, oysa bolgenin
+             31 kaydi (Musul · Kerkuk · Erbil · Akra · Duhok · Zaho ·
+             Sincar · Telafer …) `irak-kralligi` 1921-08-23 tasiyor.
+             ⇒ Haritada IRAK KRALLIGI'NIN ORTASINDA IKI YILLIK BIR
+               INGILIZ ENKLAVI vardi. Kapandi.
+  c104b61  ENKLAV YAMASI INDI — 8 kayit · 9 `enklav: true` bayragi.
+           `Degismez 7` 661 -> 650. Yama 7 Eylul'den beri bekliyordu
+           (kosu 8 suruyordu, `§7`: kosu sirasinda `data/` DONUK).
+           🔴 Yama "s: dizisini degistir" diye DEGIL "bayrak ekle" diye
+             uygulandi: once 8 kaydin 8'inde canli `s:`in yamanınkiyle
+             birebir ayni oldugu OLCULDU (sapma 0), sonra yalniz eksik
+             bayraklar konuldu. Korukorune yazmak, aradaki uc gunde inen
+             her duzeltmeyi sessizce geri alirdi (`D108`).
+  e4e3f85  RENK CAKISMASI 1 -> 0 — `suriye-lubnan-mandasi` #9c24d2 ->
+           #d24824. Ikisi de mordu (`tbmm-turkiye` ile ΔE 5,0) ve
+           1920-1923 arasi KOMSU: Anadolu-Suriye siniri iki ayirt
+           edilemez mor arasinda kaliyordu.
+           ⚠️ ILK DENEME CAKISMAYI TASIDI: teal secildi, `filistin-mandasi`
+             ile ΔE 1,9'a dustu — DAHA KOTU. Komsu kumesinin tamami
+             olculup turuncu-kirmiziya gecildi.
+  ec2873e  MERSIN — Emre'nin 2 Eylul karari (`kur:1671`) sekiz gun sonra
+           veriye indi. Karar VERILMISTI ama uygulanmamisti.
+  404afc0  ERMENI DERBENDI · 7c7e80d SOGUT-DOMANIC KORIDORU — iki gercek
+           yerlesim, Emre'nin "tek noktadan bitisme" sikayetine karsi.
 
-  MOTOR DEGISIKLIGI: yalniz 2127303 (uret_petek.py, 11:03) — kosudan
-  ON DORT DAKIKA once. Yani vassal etiket katmani BU KOSUNUN ICINDE.
+DENETIM SIKILASTI:
+  c104b61  DORT TAVAN BIRDEN INDIRILDI — ve isteyen ALETIN KENDISIYDI
+           ("TAVAN GEVSEK" uyarisi dordunde de basiyordu):
+              sahipsiz  315 -> 314      belgesiz    7 -> 4
+              enklav    661 -> 650      asan      138 -> 132
+           `D004`UN TERS YUZU: olcutu GEVSETMEK yasak; ama olcum
+           IYILESINCE tavani INDIRMEK ZORUNLU — yoksa bir sonraki
+           gerileme sessizce yenen bir pay bulur ve alet yine "✓" basar.
+  fc6d1f7  KOSUYU BASLATACAK ZAMANLAYICI 13 AGUSTOS'TAN BERI BOZUKTU.
+           `State: Ready` diyordu, `LastTaskResult` 0x80070002 ("dosya
+           bulunamadi") — bosluklu yol tirnaklanmadan kaydedilmis.
+           `schtasks /run` 0 doner ("BASLATILDI" demek, "CALISTI" demek
+           DEGIL) ⇒ koordinator "kosu basladi" der, sabah ne log olur ne
+           cikti. Alet + `--onar` yazildi.
 
-KAPININ DURUMU — kosu surerken olculdu (23:14, `denetle_yayin.py` KOSTURULDU):
-  ✓ surum damgasi r7050 · ✓ damga artisi        (bc1a16b ile kapandi)
-  ✗ YAYIN BAYAT — 23 yerlesim dosyasi girdiden geride
-  ✗ uretim izi: taze 2 · bayat 5
-  Son iki ihlal TAM OLARAK bu kosunun urettigi seydir; kosu inince kapanir.
+MOTOR — PARALELLESTIRME (bu kosunun ILK kez calistirdigi sey):
+  1770f78 · 4a23d53 · d6fe2bb  PARALEL TASARIM — uc adim, sha256 DENK
+           (devlet basina VE donem basina), negatif capa AYRISTI.
+  260fa73  CAPRAZ PARALEL — dort bulgu. Ikisi ciktiyi bozmuyor ama
+           KOSUYU OLDUREBILIRDI ve hicbir bit sinavi goremezdi:
+              B2 BELLEK    `list(_ex.map(...))` butun ham geometriyi ayni
+                           anda tutuyordu; `rusya` (asamanin %22,2'si)
+                           80/579. sirada dogup kalan %86 boyunca bellekte
+                           kaliyordu. Bu makinede bos RAM 1,1 GB.
+              B3 NOBETCI   `ilerleme()` FAZ 2'ye tasinmisti; pahali faz
+                           boyunca log DONUYORDU. Ayni korluk 3 Eylul'de
+                           sekiz saat surdu.
+           📌 Ve capraz'in cumlesi: "301 noktalik kutu bunu YAPISAL
+             OLARAK gosteremez." Sinav gecmisti, ve gecmesi bir kanit
+             degildi — kutuda `rusya` YOK.
 
-NE OLCULMEDI — ve bu damga KASITLI (`§11`):
-  Bu kosunun KENDI CIKTI sayilari (petek sayisi · alan · yeni kirilma ·
-  renk cakismasi) mesaj yazilirken HENUZ YOKTU. Onlari bu commit iddia
-  ETMIYOR. Kosu sonrasi olcumler `denetle.py` ve `renk_olc.py` ciktilarinda,
-  ve `oturumlar/TESPIH.md`de durur.
-
-NICIN BU MESAJ YENIDEN YAZILDI:
-  Onceki mesaj dosyasi 12 Agustos 2026 tarihliydi (26 gun) ve BASKA bir
-  yayini anlatiyordu ("1923 Turkiye sinirinin iki boslugu"). Bayat bir
-  mesaj dosyasi GURULTUYLE durdurmaz — SESSIZCE yanlis yazar: o baslik
-  `git log`a IKI KEZ girdi (3b2b781 · 09-05 22:31 ve 567895f · 09-07 07:17),
-  ikisi de anlatmadigi bir kosunun kalici kaydi oldu.
-  ⇒ Eksik bir dosya zinciri DURDURUR (`if not os.path.exists(MESAJ)`);
-    bayat bir dosya zinciri GECIRIR. Ikincisi daha pahali.
-
-KAPI: zincir her adimin cikis kodunu okur. `denetle.py` ya da
-`denetle_yayin.py` ihlal verirse DURUR VE YAYINLAMAZ. Bu commit'in var
-olmasi, iki kapinin da TEMIZ dedigi anlamina gelir.
+⚠️ ACIKCA ODENMEYEN BEDEL (`D107`): TAM GIRDIDE bit denkligi SINANMADI.
+   Iki tam kosu ~28 saat sürerdi ve kazandirdigi 6-12 saatten pahaliydi.
+   Kalan risk yazili: paralel surum FARKLI AMA GECERLI bir cikti
+   uretirse `denetle.py` + yayin kapisi + `renk_olc.py` bunu YAKALAMAZ.
+   🟢 Geri donus ucuz: `MOTOR_PARALEL_KAPALI=1` eski dongusu AYNI
+     DOSYADA duruyor.
 
 Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
