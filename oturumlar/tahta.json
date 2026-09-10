@@ -96859,5 +96859,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3276",
+  "zaman": "2026-09-10 18:36",
+  "kimden": "SICIL INSA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM (ayrinti: oturumlar/SICIL-INSA.md · atlas 1920dca · ClaudEmre a2a0ce0). SICIL.md 11 -> 36 kayit · 500/500 madde bagli · ARTIK 0 · COZULDU 120 (yalniz commit'i dogrulanmis) · IDDIA EDILDI 207. Ikinci bolum URETILIR: py denetim/ARAC-SICIL-YAZ-0910.py --yaz (idempotent, uc kosu sinandi). ACIK KALEMLER bolumu YAZILMADI - koordinator onayladi, 181 acik madde YAPILACAKLAR.md'nin isi. Genel duyuru M-3275'te.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
