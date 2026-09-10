@@ -40,7 +40,22 @@ VERI = os.path.join(KOK, "data")
 # yerleşim/dönem verisi taşıma İHTİMALİ olan adlar
 DESEN = re.compile(r"^(yerlesimler|yer_yama|yama|donem_yama|kademe_yama)",
                    re.I)
-ALAN = re.compile(r'\bad\s*:\s*"')
+# 🔴🔴 BU SATIR BİR KEZ YANLIŞ YAZILDI VE KAYDI DURUYOR — 10 Eylül 2026.
+# İlk hâli yalnız `\bad\s*:\s*"` idi, yani `ad:"Bağdat"` yazımını tutuyor
+# ama **`"ad": "Bağdat"` (JSON biçimi) yazımını HİÇ TUTMUYORDU** — çünkü
+# `ad`dan sonra `:` değil `"` geliyor. Ve `if not n: continue` satırı
+# eşleşmeyen dosyayı SESSİZCE atlıyordu.
+#     ATLANAN   13 dosya · 447 kayıt
+#     en büyüğü yer_yama_tbmm_1920_0905.js — 218 kayıt (kümenin 2.'si)
+# 🔴 VE ASIL VURUCU AYRINTI: aletin ÜST YAZISINDA sayılan üç motive edici
+#    vakadan biri (`data/yer_yama_uyg2.js`, 10 kayıt) TAM DA BU KÖR
+#    NOKTADAYDI. Yani alet, YAZILMA SEBEBİNİ göremiyordu.
+# 📌 `D125` (bir regex'in görmediği yazım biçimi) · `D060` (bir alet,
+#    aradığı şeyin NEREDE OLMAYACAĞINI da bilmeli) · `D187` (boş bir küme
+#    her öngörüyü doğrular, alet ✓ basar).
+# ⇒ Bulan: İZ-YOK DENETİM A, sevkin paydasını kabul etmeden ÖNCE ölçtüğü
+#   için — "81 = 📦+⏳+🔴+⚪" kabul ölçütü yanlış paydayla kurulamazdı.
+ALAN = re.compile(r'(?:\bad\s*:\s*"|"ad"\s*:\s*")')
 
 aday = []
 for f in sorted(os.listdir(VERI)):
