@@ -261,8 +261,8 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Gore (Gorée)", tur:"sehir", lat:14.6750, lon:-17.4273, g:0, k:0,
   kur:"1444-01-01",
-  s:[{f:"1444-01-01",t:"1627-01-01",d:"portekiz"},
-     {f:"1627-01-01",t:"1677-11-01",d:"hollanda"},
+  s:[{f:"1444-01-01",t:"1627-01-01",d:"portekiz", enklav: true },
+     {f:"1627-01-01",t:"1677-11-01",d:"hollanda", enklav: true },
      {f:"1677-11-01",t:"1792-09-22",d:"fransa"},
      {f:"1792-09-22",t:"1923-10-29",d:"fransa-cumhuriyet"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
@@ -1463,7 +1463,7 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Massangano", tur:"sehir", lat:-9.5400, lon:14.2000, g:0, k:0,
   kur:"1583-01-01",
-  s:[{f:"1583-01-01",t:"1923-10-29",d:"portekiz"}],
+  s:[{f:"1583-01-01",t:"1923-10-29",d:"portekiz", enklav: true }],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Malanje", tur:"sehir", lat:-9.5400, lon:16.3400, g:0, k:0,
@@ -1491,7 +1491,7 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Kambambe (Cambambe)", tur:"sehir", lat:-9.7500, lon:14.4800, g:0, k:0,
   kur:"1604-01-01",
-  s:[{f:"1604-01-01",t:"1923-10-29",d:"portekiz"}],
+  s:[{f:"1604-01-01",t:"1923-10-29",d:"portekiz", enklav: true }],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Mvansabombve (Kazembe)", tur:"sehir", lat:-9.8500, lon:28.7500, g:0, k:0,

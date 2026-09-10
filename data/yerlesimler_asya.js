@@ -1044,7 +1044,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1757-03-23", t:"1763-02-10", d:"ingiltere",enklav:true},
      {f:"1763-02-10", t:"1793-06-10", d:"fransa",enklav:true},
      {f:"1793-06-10", t:"1816-12-04", d:"ingiltere",enklav:true},
-     {f:"1816-12-04",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
+     {f:"1816-12-04",t:"1923-10-29",d:"fransa-cumhuriyet", enklav: true }] },
 
 // ORISSA: Doğu Ganga (1281-1434) ve Gacapati (1434-1568) hânedanları tek
 // "orissa" kimliğinde; ikisi de aynı krallığın hânedanlarıdır. 1568'de
@@ -1416,7 +1416,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1778-10-18", t:"1785-01-01", d:"ingiltere",enklav:true},
      {f:"1785-01-01", t:"1793-08-23", d:"fransa",enklav:true},
      {f:"1793-08-23", t:"1816-12-04", d:"ingiltere",enklav:true},
-     {f:"1816-12-04",t:"1923-10-29",d:"fransa-cumhuriyet"}] },
+     {f:"1816-12-04",t:"1923-10-29",d:"fransa-cumhuriyet", enklav: true }] },
 
 // Nagapatnam — Portekiz 1554, Hollanda 1658 (Hollanda Koromandel'inin
 // başkenti), İngiliz 12 Kasım 1781.

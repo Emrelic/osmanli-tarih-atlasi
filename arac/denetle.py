@@ -177,7 +177,13 @@ BEKLENEN_YERLESIM = 968
 #    ⚠️ Bu sabit bir HEDEF degil bir FOTOGRAF: dunya yerlesim programi
 #    surerken her beyan partisi onu buyutur. Buyume KUSUR DEGIL —
 #    `1c`nin BELGESIZ sayisi buyurse O kusurdur.
-BEKLENEN_SAHIPSIZ = 315   # 300 +15 (K.Amerika beyanlari, 3 Eylul 21:40)
+BEKLENEN_SAHIPSIZ = 314   # 10 EYLUL 2026: 315 -> 314, aletin KENDI uyarisi
+# 🔴 TAVAN GEVSEK KALIRSA BIR SONRAKI GERILEME SESSIZCE YENEN BIR PAY BULUR.
+#    Olcum 314'e indi (kosu 8 sonrasi + bugunku mukerrer anahtar duzeltmeleri);
+#    tavan 315'te kalsaydi yeni bir DELIK acilinca alet yine "✓" basardi.
+#    `D004`un ters yuzu: olcutu GEVSETMEK yasak, olcum iyilesince tavani
+#    INDIRMEK ZORUNLU. Ayni turda ENKLAV (661->650) ve BELGESIZ (7->4)
+#    tavanlari da ayni gerekceyle sikilastirildi.
 # 🟢 BU SATIR ONGORUYE GORE GUNCELLENDI, OLCUME GORE DEGIL.
 #    DUNYA-KAMERIKA-0903 dosyasini kopyalamadan ONCE `315 + AFRIKA` yazdi
 #    (denetim/ONGORU-KAMERIKA-0903.json); koordinator olcumu ELINDE TUTTU
@@ -256,7 +262,10 @@ BEKLENEN_SAHIPSIZ = 315   # 300 +15 (K.Amerika beyanlari, 3 Eylul 21:40)
 # Timbuktu 11. yy'dan beri var, Agadez ~1449 Aïr Sultanlığı'nın merkezi.
 # ⚠️ Tavanı burada bırakmak GEVŞEK olurdu: aradaki 22 puanlık gerçek
 # regresyon görünmez olurdu (aletin kendi çift yönlü uyarısı).
-BEKLENEN_BELGESIZ = 7
+BEKLENEN_BELGESIZ = 4   # 10 EYLUL 2026: 7 -> 4, aletin KENDI uyarisi
+# 🔴 Aradaki 3 puanlik gercek regresyon GORUNMEZ olurdu. Bkz.
+#    BEKLENEN_SAHIPSIZ'in yanindaki not — ayni turda uc tavan birden
+#    sikilastirildi (sahipsiz 315->314 · belgesiz 7->4 · enklav 661->650).
 # 13 Agustos 2026 olcumu: 202 sahipsizin 173'u BELGELI, 29'u BELGESIZ.
 #   belgeli dagilim: devletsiz 121 · kabile 30 · insansiz 9 · veri-yok 8 · hata 5
 # 🔴 29 GURULTU DEGIL — UC TEMIZ KUME, ve ikisinin sahibi ZATEN VAR:
@@ -1727,7 +1736,11 @@ ATLAS_SONU = "1923-10-29"
 #   ⚠️ Kaynak: TDV `zendler` "İran'da hüküm süren bir hânedan (1751-1794)".
 #   1796 KULLANILMADI — TDV `kacarlar` onu "şehinşahlık TACINI giyerek …
 #   resmen kuruldu" diye veriyor; bir TAÇ GİYME, tasarruf devri değil.
-BEKLENEN_ASAN = 138
+BEKLENEN_ASAN = 132   # 10 EYLUL 2026: 138 -> 132, aletin KENDI uyarisi
+# 🔴 Aradaki 6 puanlik gercek gerileme GORUNMEZ olurdu. Ayni turda dort
+#    tavan birden sikilastirildi: sahipsiz 315->314 · belgesiz 7->4 ·
+#    enklav 661->650 · asan 138->132. Ucu de OLCUM IYILESTIGI icin indi,
+#    olcut GEVSETILDIGI icin degil (`D004`un ters yuzu).
 ATLAS_BASI = "1281-01-01"
 # 🔴 4d TAVANI — DÖRDÜNCÜ BİÇİM: dönem devletin DOĞUMUNDAN ÖNCE başlıyor.
 # 4c'den AYRI KOVA, ve sebebi ÇARENİN YÖNÜ:
@@ -2239,7 +2252,23 @@ D7_ADA_MUAF = frozenset((
 # 🔴 NEYİN KAYDIRMAYI ENGELLEYECEĞİ DE YAZILI: bu gece doğmuş VE açıkça
 #    yanlış bir ada. Mersin ikisini de karşılamıyor. Karşılasaydı sabit
 #    yerinde kalır, veri düzeltilir ve koşu 9'a bırakılırdı.
-BEKLENEN_ENKLAV_SORGU = 661
+BEKLENEN_ENKLAV_SORGU = 650
+# 🟢 661 -> 650, 10 EYLUL 2026 — ENKLAV-0907'nin C YAMASI INDI.
+#    `denetim/yer_yama_enklav_c_0907.js` UC GUN bekledi (kosu 8 suruyordu,
+#    `§7`: kosu sirasinda `data/` DONUK). Bugun uygulandi: 8 kayit, 9 yeni
+#    `enklav: true` bayragi. Sekizinin sekizinde canli `s:` yamanınkiyle
+#    (enklav alani cikarildiginda) BIREBIR ayni cikti — sapma 0.
+#       C-hakiki   12 -> 3      muaf.beyan  52 -> 61   (+9, TAM)
+#       taban      661 -> 650   (yama 652 ongormustu)
+# 🔴 VE 652 DEGIL 650 CIKTI — fark yamanin kusuru DEGIL: yama 7 Eylul'un
+#    verisine gore olculdu, aradaki uc gunde inen baska duzeltmeler de iki
+#    sorguyu kapatmis. ⇒ Bir yamanin ONGORDUGU sayi, uygulandigi gunun
+#    tabaniyla birlikte tasinir (`D129`: esik, olculdugu tabanla tasinir).
+# 🔴 TAVAN GEVSETILMEDI, SIKILASTIRILDI. `denetle.py`nin kendi uyarisi
+#    bunu istedi: "TAVAN GEVSEK — aradaki 11 puanlik gercek gerileme
+#    GORUNMEZ." `D004`un tersi yuzu: olcutu gevsetmek yasak, ama olcum
+#    iyilesince tavani INDIRMEK ZORUNLU — yoksa bir sonraki gerileme
+#    sessizce yenen bir pay bulur.
 # 🟢 639 -> 642, 4 EYLUL 2026 — ve buyume TAHMIN EDILMEDI, ADIYLA OLCULDU.
 #    Fotografi kaydirmadan once "hangi UC" diye soruldu ve ucu de bulundu:
 #       1466-10-19  Elbing (Elbląg) -> lehistan   239 km
