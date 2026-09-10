@@ -3089,7 +3089,22 @@ BOYALAR = {
     "norse-gronland": ("Norse Grönland (Vestribygð–Eystribygð)", "#5424d2"),
     "piombino": ("Piombino Prensliği (Appiani hânedanı)", "#d86c24"),
     "rif-cumhuriyeti": ("Rif Cumhuriyeti (Abdülkerim el-Hattâbî)", "#5a24d2"),
-    "suriye-lubnan-mandasi": ("Fransız Suriye-Lübnan Manda İdaresi", "#9c24d2"),
+    # 🔴 10 Eylül 2026 — #9c24d2 -> #d24824. `renk_olc.py` tek çakışma
+    #   basıyordu: `suriye-lubnan-mandasi` ↔ `tbmm-turkiye` ΔE 5,0, ve
+    #   ikisi 1920-1923 arası KOMŞU. İkisi de mordu; 1923'e kadar süren
+    #   Anadolu-Suriye sınırı iki ayırt edilemez mor arasında kalıyordu.
+    #   Değişen SURİYE oldu, TBMM değil: `tbmm-turkiye` atlasın kapanış
+    #   kimliği ve çok daha geniş bir gövde boyuyor.
+    # 🔴 VE İLK DENEMEM ÇAKIŞMAYI TAŞIDI, ÇÖZMEDİ — `D013`in canlı hâli:
+    #   #24d2a0 (teal) denendi ve çakışma `filistin-mandasi` (#24d2a8) ile
+    #   ΔE **1,9**'a düştü, yani DAHA KÖTÜ oldu. Komşu kümesi ölçüldü
+    #   (filistin teal · irak/mısır yeşil · ürdün macenta · tbmm mor ·
+    #   ingiltere mor-gri · fransa-cumhuriyet lacivert) ve boş kalan tek
+    #   geniş bölge TURUNCU-KIRMIZI çıktı. Sarı/amber ELENDİ: altlık
+    #   (#e8dfc8) kremdir ve `ispanya` zaten ΔE 15,0 sınırında.
+    #   ⇒ Bir rengi tek komşuya karşı seçmek, öteki komşulara karşı
+    #     ölçmemektir. Ölçüm YENİDEN koşuldu: çakışma 1 → 0.
+    "suriye-lubnan-mandasi": ("Fransız Suriye-Lübnan Manda İdaresi", "#d24824"),
     "sutayogullari": ("Sutayogullari", "#5ad224"),
     "tannu-tuva": ("Tannu Tuva Halk Cumhuriyeti", "#6024d2"),
     "topia": ("Topia (Thopia) Beyliği", "#60d224"),
