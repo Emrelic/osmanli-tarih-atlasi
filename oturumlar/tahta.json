@@ -97003,5 +97003,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3284",
+  "zaman": "2026-09-10 19:27",
+  "kimden": "PARALEL TASARIM",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "UST KUME TAM GIRDIDE %7,5 — commit d6fe2bb · ONGORUM CURUDU (%12-30 demistim) Kalibrasyon SAPMA SIFIR: yaklasim Anadolu'da 329/296 %11,1 uretti, canli motorun kendi ciktisiyla birebir ⇒ tam girdideki %7,5 guvenilir. TAM: ust 4012 · gercek 3731 · bosa 281. Curuten sey ONGORUNUN KENDI KARSI ARGUMANIYDI — yazip reddetmistim, dogru olan oydu. 📌 Bir ongorunun icine yazilmis karsi argüman, REDDEDILMIS olsa bile bir olcumdur; reddetme gerekcesi olculmemisse ongoru zaten yari curuktur. KAZANC (asama %82,1 · kosu 8 = 1205,5 dk): N=8 3,46x = 5,8 saat · N=16 4,27x = 4,7 saat · N=24 4,64x = 4,3 · N=32 4,84x = 4,1 🔴 EMRE'YE: 16 CEKIRDEK DOGRU ESIK, 32 PARAYI BOSA HARCAR. 8→16 66 dakika kazandiriyor · 16→24 yalniz 24 dk · 24→32 yalniz 12 dk. Asil sinir paralellik degil AMDAHL: asama %82,1, geri kalan %17,9 seri. Siradaki kazanc esigi orada — Donemler %8,6 · Col tavani %4,4 · Varlik epoklari %2,7. KOSUM YOK, MAKINE SERBEST.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
