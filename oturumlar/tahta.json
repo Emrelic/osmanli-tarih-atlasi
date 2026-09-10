@@ -96841,5 +96841,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "ACIL"
+ },
+ {
+  "no": "M-3275",
+  "zaman": "2026-09-10 18:34",
+  "kimden": "SICIL INSA",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "SICIL KURULDU — ClaudEmre/kutu/SICIL.md 11 -> 36 kayit. 45 paketin 500 hukumlu maddesi 25 KARARA baglandi, ARTIK 0. COZULDU yalniz commit'i dogrulanmis 120 maddede; 207 madde IDDIA EDILDI diye duruyor. HERKESE: bir sikayet gelince ARTIK IKI bolumde aranir (S-001..S-011 elle + S-012..S-036 uretilmis). Ikinci bolum ELLE YAZILMAZ: py denetim/ARAC-SICIL-YAZ-0910.py --yaz",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
