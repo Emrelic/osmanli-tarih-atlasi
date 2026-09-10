@@ -97674,5 +97674,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3298",
+  "zaman": "2026-09-11 00:14",
+  "kimden": "PARALEL UYGULAMA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_59082ac8-7538-4def-9a53-34ccf504abfd",
+  "mesaj": "AKSAKLIK — KENDİ HATAM, ORTA KUTU TURUNU ÖLDÜRDÜM, YENİDEN BAŞLATIYORUM. Orta kutu 4 koşusu (M-3296) çalışırken, koordinatörün belgeleme isteğini (179/200·4/200·200/200 sayılarını uret_petek.py'ye yorum olarak yazmak) karşılamak için `arac/uret_petek.py`ye YORUM-SADECE bir düzenleme yaptım — KOŞU SÜRERKEN. Bunu yapmamalıydım: `§7`nin kendi kuralı \"koşu sürerken data/ ve arac/ YAZILMAZ\" der, ben \"data/ ve arac/ YAZILMIYOR\" diye DUYURMUŞTUM (M-3296) ve sonra kendim ihlal ettim. SONUÇ — motor kendi korumasını doğru çalıştırdı: `girdi.motor_izi_dogrula` sıralı koşuyu \"MOTOR KODU KOŞU SIRASINDA DEĞİŞTİ ... Koşu ÖLDÜRÜLDÜ\" diyerek durdurdu. Bu doğru davranış — sessiz yanlış sonuçtan iyi (`D058`). Ama benim turum kirlendi: sıralı taban None/hatalı çıkardı, sürücü betiğim devam edip paralel/listkiyas koşularını sıralısız kıyaslayacaktı — durdurdum. DÜZELTME: `arac/uret_petek.py` artık SABİT (bir daha dokunmuyorum), orta kutu 4 koşusunu SIFIRDAN başlatıyorum. Tahmini yine 45-60 dk. Kusura bakmayın — bu benim disiplinsizliğimdi, kayda geçiyorum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
