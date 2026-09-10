@@ -210,3 +210,68 @@ yer_yama_uyg2.js            {alan, eski, yeni} TASNİF şeması — hiçbir
    anahtar tutmuyor. Yamalar BAYAT, kusur kronolojide değil. Ölçtüm,
    düzeltme ÖNERMİYORUM (yetkim dışı).
 ```
+
+---
+
+## ⑨ AD-YOK'UN AYRIŞTIRILMASI — 1.MURAT'ın ④. sorusu
+
+**Soru:** bir yama kaydının canlı veride karşılığı olmaması iki ayrı şey
+olabilir — (a) yerleşim hiç yok, (b) ad ayrışıyor (`Diyarbekir ↔
+Diyarbakır` sınıfı, normalleştiricinin **çözmediği ve çözmemesi
+gereken**). Hangisi?
+
+**Alet:** `denetim/ARAC-IZYOK-A-ADYOK-0910.py` — üç bağımsız ölçüt, ve
+üçü de **ayrı** raporlanır, tek sayıya indirilmez:
+
+```
+① KOORDİNAT      yamada lat/lon varsa en yakın canlı nokta kaç km
+② AD BENZERLİĞİ  normalleştirilmiş adlar arası difflib oranı ≥ 0.80
+③ ÖNEK/PARANTEZ  "Şibâm" ↔ "Şibâm (Hadramut)" sınıfı
+```
+
+### CEVAP — **AD-YOK 66 = (a) 61 · (b) 0 · ⚪ 5**
+
+```
+(a) GERÇEK BOŞLUK                   61   yerleşim atlasta HİÇ yok
+(b) EŞANLAM BORCU                    0   kesin vaka YOK
+⚪ RAPOR ARTEFAKTI                   5   yama değil, ölçüm raporu
+                                        (yama_kronoloji_eslesme.js)
+```
+
+### 🔴 VE ASIL DERS: AD BENZERLİĞİ TEK BAŞINA BEŞ SAHTE BORÇ ÜRETTİ
+
+`difflib ≥ 0.80` ölçütü **5 eşleşme** buldu. Koordinat sütunu eklenince
+**beşi de çürüdü** — ve absürtlükleri ölçülebilir:
+
+```
+Kiğı (Erzurum)        ~0.80  Kigali (RUANDA)          en yakın canlı 74,4 km
+Genç (Bingöl)         ~0.89  Gence (AZERBAYCAN)       54,3 km
+Turan (Tuva)          ~0.91  Turfan (Doğu Türkistan)  157,3 km
+Batang (Kham)         ~0.86  Batangas (FİLİPİNLER)    224,5 km
+Acdîr (Fas)           ~0.85  Vacir/Wajir (KENYA)      5,3 km*
+```
+`*` Acdîr'in 5,3 km'lik komşusu el-Hüseyme — Wajir DEĞİL. Yani ad
+eşleşmesi ile koordinat eşleşmesi **farklı yerleri gösteriyor**.
+
+📌 ***Bir eşanlam sözlüğü, ADA bakarak kurulamaz — YERE bakarak kurulur.***
+Bu, `CLAUDE.md §4`ün *"`Diyarbekir ↔ Diyarbakır` bir yazım varyantı değil
+AYRI BİR ADdır; normalleştirici onu çözmez ve ÇÖZMEMELİDİR"* kuralının
+**ters yüzü**: normalleştirici fazla çözmediği için güvenli; **bulanık
+eşleştirici fazla çözdüğü için tehlikeli.**
+
+### 🟡 İKİ ŞÜPHELİ ÖLÇÜLDÜ VE (a) ÇIKTI
+
+```
+Patan (Lalitpur)   Katmandu'ya  5,6 km
+Bhaktapur          Katmandu'ya 11,5 km
+```
+Yakınlık gerçek ama eşanlam **değil**: dosyanın kendi üst yazısı sebebini
+yazıyor — *"Nepal XV. yüzyılda Katmandu, Bhaktapur ve Lalitpur"* **üç ayrı
+Malla krallığı**. Üç başkent, üç ayrı nokta. ⇒ (a).
+
+### ⚠️ SINIR
+
+Ölçüt ② yalnız `≥0.80` eşiğinin üstünü getirir; eşiğin **altında** kalan
+bir eşanlam çifti (ör. `Budin ↔ Buda` gibi kısa/ayrık yazımlar) bu
+taramada **görünmez**. *"(b) = 0"* demek **"eşik üstünde kesin vaka yok"**
+demektir, *"hiç yok"* demek değildir (`D021`).
