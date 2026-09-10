@@ -389,12 +389,6 @@ window.YERLESIMLER_EK29 = [
 // Sırbistan (v:) → 1878 istiklâl.
 // kaynak: bulunamadı — çizgi kardeş kayıt Kragujevac'tan
 { ad:"Yagodina (Jagodina)",neden:"1689-09-24 → 1690-09-09 Avusturya ara dönemi eksikti (Osmanlı 1459-1717 kesintisiz görünüyordu). Ara dönem eklendi VE mevcut `v:` 1830-1878 KORUNDU — yerlesimler_ek29.js:424'teki ölü düzeltme `v:`yi taşımıyordu, uygulansaydı 48 yıllık sahipsizlik açacaktı.",kaynak:"bulunamadı — TDV'de Yagodina/Jagodina müstakil maddesi yok. Dayanak KARDEŞ KAYIT: Kragujevac (28,4 km, aynı Morava koridoru) birebir aynı günleri taşıyor; 1690-09-09 günü külliyatta \"Niş, Vidin ve Belgrad geri alındı\" maddesiyle zaten kayıtlı.",s:[{f:"1281-01-01",t:"1439-08-27",d:"sirbistan"},{f:"1444-08-01",t:"1459-06-20",d:"sirp-despotlugu"},{f:"1689-09-24",t:"1690-09-09",d:"avusturya"},{f:"1717-08-18",t:"1739-09-18",d:"avusturya"},{f:"1878-07-13",t:"1882-03-06",d:"sirbistan-prensligi"},{f:"1882-03-06",t:"1918-12-01",d:"sirbistan-kralligi"},{f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],d:[{f:"1439-08-27",t:"1444-08-01"},{f:"1459-06-20",t:"1689-09-24"},{f:"1690-09-09",t:"1717-08-18"},{f:"1739-09-18",t:"1830-11-08"}], tur:"kasaba", lat:43.9772, lon:21.2617, g:0, k:4,
-  s:[{f:"1281-01-01",t:"1439-08-27",d:"sirbistan"},
-     {f:"1444-08-01",t:"1459-06-20",d:"sirp-despotlugu"},
-     {f:"1717-08-18",t:"1739-09-18",d:"avusturya"},
-     {f:"1878-07-13",t:"1882-03-06",d:"sirbistan-prensligi"}, {f:"1882-03-06",t:"1918-12-01",d:"sirbistan-kralligi"}, {f:"1918-12-01",t:"1923-10-29",d:"yugoslavya"}],
-  d:[{f:"1439-08-27",t:"1444-08-01"},{f:"1459-06-20",t:"1717-08-18"},
-     {f:"1739-09-18",t:"1830-11-08"}],
   v:[{f:"1830-11-08",t:"1878-07-13"}] },
 
 // PRAVİŞTE (Eleftheroupoli) — Kavala (13,8 km) çizgisiyle aynı.

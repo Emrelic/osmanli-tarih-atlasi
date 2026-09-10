@@ -80,7 +80,16 @@ window.YERLESIMLER_4FF22B = [
   // ⚠️ TDV'de madde YOK ve bu ÖLÇÜLDÜ: hawaii · honolulu · havai = 302.
   //   `§4` kırmızı çizgisi gereği dayanak AKADEMİK ve künyede yazılı.
   {
-    ad: "Honolulu",not:"1923 boslugu kapatildi. `abd` kunyesi 1776-07-04 -> 1923-10-29, pencere TUTUYOR.",kaynak:"Atlasin KENDI capasi: `hawaii-kralligi` kunyesi zaten `t:\"1898-08-12\"` ile bitiyor (ABD ilhaki). Bu yama o gunu devralir — yeni bir tarih iddiasi URETMEZ, var olan kirilmanin OTEKI ucunu yazar. Kaydin son donemi `hawaii-kralligi -> 1898-08-12` idi ve ondan sonrasi SAHIPSIZDI.",s:[{f:"1898-08-12",t:"1923-10-29",d:"abd"}],
+    ad: "Honolulu",
+    // 🔴 MÜKERRER `s:` VE `kaynak:` KALDIRILDI — 10 Eylül 2026.
+    //   Bu obje ikisini de İKİ KEZ taşıyordu; JS SONUNCUYU alır.
+    //   Düşen `s:` yalnız `abd` 1898→1923 taşıyordu, yani 1795-1898
+    //   HAWAII KRALLIĞI dönemini kaybediyordu — ama düşen olduğu için
+    //   ZARAR VERMEDİ: motor ikinci (tam) `s:`i okuyordu. Kaldırılan
+    //   şey KUSUR değil KUSUR RİSKİ — bir sonraki düzenleme yanlış
+    //   kopyayı güncelleyebilirdi.
+    //   ⚠️ Düşen `kaynak:`ın BİLGİSİ kaybolmuyor: `not:`e taşındı.
+    not:"1923 boslugu kapatildi. `abd` kunyesi 1776-07-04 -> 1923-10-29, pencere TUTUYOR. Yama gunu ATLASIN KENDI capasindan geldi: `hawaii-kralligi` kunyesi zaten `t:1898-08-12` ile bitiyor (ABD ilhaki) — yeni bir tarih iddiasi URETILMEDI, var olan kirilmanin OTEKI ucu yazildi.",
     lat: 21.3069, lon: -157.8583,
     tur: "sehir",
     s: [{ f: "1795-01-01", t: "1898-08-12", d: "hawaii-kralligi" },

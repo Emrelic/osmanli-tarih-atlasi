@@ -70,7 +70,19 @@
 window.YERLESIMLER_OK109 = [
 
   {
-    ad: "İmâdiye (Amêdî)",kaynak:"Faysal'ın Irak kralı ilan edilmesi, 23 Ağustos 1921. Künye `irak-kralligi` `f:` ile aynı gün; künyenin kaynak alanı TDV 'irak--ulke' gövdesinin çekilemediğini beyan ediyor, dayanak akademik.",s:[{f:"1281-01-01",t:"1340-01-01",d:"ilhanli"},{f:"1340-01-01",t:"1411-01-01",d:"celayirli"},{f:"1411-01-01",t:"1469-01-01",d:"karakoyunlu"},{f:"1469-01-01",t:"1508-01-01",d:"akkoyunlu"},{f:"1508-01-01",t:"1516-08-24",d:"safevi"},{f:"1918-11-08",t:"1921-08-23",d:"ingiltere"},{f:"1921-08-23",t:"1923-10-29",d:"irak-kralligi"}],
+    ad: "İmâdiye (Amêdî)",
+    // 🔴 MÜKERRER `s:` VE `kaynak:` KALDIRILDI — 10 Eylül 2026.
+    //   Bu obje ikisini de İKİ KEZ taşıyordu ve JS SONUNCUYU alır ⇒ motor
+    //   aşağıdaki BLOK `s:`i okuyordu. Düşen (bu satırdaki) tek satırlık
+    //   kopya `irak-kralligi` 1921-08-23 → 1923-10-29 dönemini taşıyordu.
+    // 🔴 VE ÖLÇÜM HANGİSİNİN DOĞRU OLDUĞUNU TERSİNE ÇEVİRDİ: "sonuncuyu
+    //   tut" kuralı burada KUSUR ÜRETİYORDU. Bölgenin 31 kaydı
+    //   (Musul · Kerkük · Erbil · Akra · Duhok · Zaho · Sincar · Telafer …)
+    //   `irak-kralligi` 1921-08-23 → 1923-10-29 taşıyor; İmâdiye TEK
+    //   İSTİSNAYDI ve 1921-1923 arası İNGİLTERE boyanıyordu ⇒ Irak
+    //   Krallığı'nın ortasında iki yıllık bir İNGİLİZ ENKLAVI.
+    //   ⇒ Düşen dönem BLOK `s:`e taşındı; düşen `kaynak:`ın Faysal
+    //     gerekçesi de o dönemin YANINA ve `kaynak:` alanına kondu (`D105`).
     tur: "sehir",
     lat: 37.0921, lon: 43.4877,
     g: 0, k: 4, m: "Musul",
@@ -92,10 +104,15 @@ window.YERLESIMLER_OK109 = [
       { f: "1411-01-01", t: "1469-01-01", d: "karakoyunlu" },
       { f: "1469-01-01", t: "1508-01-01", d: "akkoyunlu" },
       { f: "1508-01-01", t: "1516-08-24", d: "safevi" },
-      { f: "1918-11-08", t: "1923-10-29", d: "ingiltere" }
+      { f: "1918-11-08", t: "1921-08-23", d: "ingiltere" },
+      // 🔴 Faysal'ın Irak kralı ilân edilmesi, 23 Ağustos 1921 — künye
+      //   `irak-kralligi` `f:` ile AYNI GÜN. Bu dönem mükerrer anahtar
+      //   yüzünden sekiz gün boyunca motora hiç girmedi (bkz. yukarıdaki
+      //   not). Bölgenin 31 kardeş kaydı aynı günü taşıyor (`D084`).
+      { f: "1921-08-23", t: "1923-10-29", d: "irak-kralligi" }
     ],
     v: [],
-    kaynak: "TDV `musul--irak` (HTTP 200, gövde okundu): \"1892-1910 yılları arasında Musul vilâyeti Musul, Kerkük ve Süleymaniye sancaklarından oluşmaktaydı. Musul sancağının kazaları Akra, Zibar, Dıhok, Zaho, Sincar ve İmâdiye'dir.\" — kaza merkezi olduğu ve 1923'te var olduğu buradan. Devir günü aynı maddeden: \"İngilizler … 8 (veya 10) Kasım 1918'de Musul'a girdi.\" KOORDİNAT: GeoNames allCountries (CC BY 4.0, 31 Ağu 2026), kayıt 99611, 37.09214/43.48769, PPLA2 — tahmin DEĞİL, rehberden. ⚠️ Müstakil TDV maddesi YOK: `imadiye` · `amadiye` · `imadiyye` · `amediye` sluglarının dördü de 302 (ÖLÜ); kapsayıcı madde kullanıldı (`CLAUDE.md §4`: dar slug tutmazsa kapsayıcı maddeyi dene).",
+    kaynak: "TDV `musul--irak` (HTTP 200, gövde okundu): \"1892-1910 yılları arasında Musul vilâyeti Musul, Kerkük ve Süleymaniye sancaklarından oluşmaktaydı. Musul sancağının kazaları Akra, Zibar, Dıhok, Zaho, Sincar ve İmâdiye'dir.\" — kaza merkezi olduğu ve 1923'te var olduğu buradan. Devir günü aynı maddeden: \"İngilizler … 8 (veya 10) Kasım 1918'de Musul'a girdi.\" KOORDİNAT: GeoNames allCountries (CC BY 4.0, 31 Ağu 2026), kayıt 99611, 37.09214/43.48769, PPLA2 — tahmin DEĞİL, rehberden. ⚠️ Müstakil TDV maddesi YOK: `imadiye` · `amadiye` · `imadiyye` · `amediye` sluglarının dördü de 302 (ÖLÜ); kapsayıcı madde kullanıldı (`CLAUDE.md §4`: dar slug tutmazsa kapsayıcı maddeyi dene). 🔴 SON DÖNEMİN GÜNÜ AYRI DAYANAK: Faysal'ın Irak kralı ilân edilmesi, 23 Ağustos 1921; künye `irak-kralligi` `f:` ile aynı gün, ve künyenin kendi `kaynak` alanı TDV `irak--ulke` gövdesinin ÇEKİLEMEDİĞİNİ beyan ediyor ⇒ dayanak akademik. Bu cümle mükerrer bir `kaynak:` alanında duruyordu ve JS onu düşürüyordu (10 Eylül 2026'da buraya taşındı).",
     neden: "Musul sancağının altı kazasından biri ve atlasta yoktu; kardeş dördü (Akra · Duhok · Zaho · Sincar) zaten kayıtlıydı. Toprağı bugüne kadar Duhok ve Akra peteklerine emiliyordu — ikisi de `ingiltere` olduğu için RENK HATASI üretmiyordu, yani bu kayıt bir boyama kusurunu değil bir VERİ EKSİĞİNİ kapatıyor. ⚠️ Sınır sapması ölçütünü KÖTÜLEŞTİRİYOR (Çölemerik↔Duhok kesiminde ortanca 8,7 → 9,9 km); koordinatörün 2 Eylül hükmüyle bilerek yazıldı: vekil ölçüt, veriyi yönetmez."
   },
 
@@ -153,8 +170,6 @@ window.YERLESIMLER_OK109 = [
     g: 0, k: 4, m: "Bitlis",
     kur: "1891-01-01",
     kesinlik: "belirsiz",
-    d: [{ f: "1891-01-01", t: "1923-10-29" }],
-    s: [],
     v: [],
     kaynak: "TDV `sirnak` (HTTP 200, gövde okundu, 11.122 karakter): \"Şırnak ismi XIX. yüzyılın sonlarına doğru bir köy adı olarak geçmektedir (Cuinet, II, 612). O tarihlerdeki Bitlis vilâyetinin Siirt sancağına bağlı Eruh kazasının bir köyü olan bu küçük yerleşme… Cumhuriyet dönemine gelmeden Eruh'tan ayrılarak Siirt iline bağlı bir kaza merkezi olmuştu (1925-1926 Türkiye Cumhuriyeti Devlet Salnâmesi). Cumhuriyet'in ilk nüfus sayımında köy boyutlarındaki bu kaza merkezinin nüfusu 3000'i bulmuyordu (2962).\" 🔴 1891-01-01 BİR ALT SINIRDIR, KURULUŞ GÜNÜ DEĞİLDİR: Cuinet'nin sayımı yerleşimi o tarihte KAYITTA gösteriyor, öncesi BİLİNMİYOR ve uydurulmadı. KOORDİNAT: GeoNames allCountries (CC BY 4.0, 31 Ağu 2026), kayıt 300640, 37.51393/42.45432, PPLA — tahmin DEĞİL. İdarî bağ da TDV'den: \"1884'te Siirt sancağı Bitlis vilâyetine bağlanınca Şırnak da Bitlis vilâyetinin Siirt sancağının Eruh kazası içinde yer aldı\" ⇒ `m:\"Bitlis\"` (Siirt ve Eruh atlasta kayıtlı değil, zincirin var olan en yakın halkası Bitlis).",
     neden: "Silopi ile Çölemerik arasındaki 113 km'lik noktasızlığı kapatan tek KAYNAKLI aday. ⚠️ 1923'te bir KAZA MERKEZİ DEĞİL, Eruh kazasının bir KÖYÜDÜR; `k:4` (alt kademe) onu kaza saydığı için değil, ölçekte köy kademesi bulunmadığı için verildi — `k:0` ise \"kademesiz/yabancı/dolgu\" demek ve daha yanlış olurdu. ⚠️ Öteki dört aday (Beytüşşebap · Uludere · Şenoba · Uzungeçit) YAZILMADI: TDV onları yalnız bugünkü ilçe adları olarak anıyor, Osmanlı dönemi dayanağı yok."
