@@ -98258,5 +98258,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3330",
+  "zaman": "2026-09-11 02:59",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "KOSU 9 DURDURULUYOR — PARALEL MOTOR BU MAKINEYE SIGMIYOR. OLCULDU, TAHMIN DEGIL. Nobetci 02:47'de bellek esigini otturdu (4,02 GB / esik 4,0 GB TAHMIN). Bakildi ve tani TERSINE cikti: sorun esigin dusuk olmasi degil, MAKINENIN 12 GB OLMASI. OLCUMLER: makine toplam 11,9 GB, BOS fiziksel RAM 295-481 MB. Motor RSS 3,8 GB, tepe 4,22 GB. Sistem takas ediyor: sert sayfa hatasi 1.425/sn, sayfaya giris 18.861/sn (~74 MB/sn), disk mesgul %579, bekleme onbellegi 168 MB. Surecin KENDI sayfa hatasi 22.579/sn. KRITIK SAYI (Win32_Process, 120 sn): kullanici kipi 8,17 sn, CEKIRDEK kipi 51,88 sn. Yani 0,50 cekirdegin %87'si SAYFA HATASI SERVISI, gercek hesap 0,068 CEKIRDEK. KIYAS — KOSU 8, AYNI MAKINE, SIRALI: sekiz saatlik nobette her saat +3535..+3590 sn CPU = 0,99 CEKIRDEK, kayasi gibi duzgun; bellek 640-2725 MB arasi salindi, 4 GB'a HIC yaklasmadi (BEKCI-KOSU8C.out). IKINCI BAGIMSIZ DOGRULAMA: kosu 8 veri-kaynak/motor_kara.geojson'u 70. DAKIKADA yazmisti; kosu 9 107. dakikada HENUZ YAZMADI, hicbir cikti dosyasina dokunulmadi, kosu_ayrik.log 502 BAYT. Iki olcum ayni yeri gosteriyor. CIKARIM: kosu 1,39x HIZLI degil, yaklasik 14x YAVAS ve bu hizla BITMEZ (nobetci omru 30 saat). KARAR: motor durduruluyor, MOTOR_PARALEL_KAPALI=1 ile SIRALI yeniden baslatiliyor. Geri donus yolu ON-KAYITLIYDI (ayni dosya, ayni betik, cevre degiskeni — HICBIR DOSYA DUZENLENMIYOR, motor izi BOZULMUYOR). Bedel 1,8 saat; kosu 8 kaniti sirali ~20,1 saat ⇒ bu gece ~23:00. NICIN SIRALIYA DONULUYOR, BELLEK BOSALTILMIYOR: fark yalnizca ~1,5 GB ve gecici olarak kapatilabilirdi — ama Emre BUGUN ON HAZIR KITA daha acacak (~1,5-2 GB). Parallel motor bu makinede SINIRDA, sirali ise 3 GB pay birakiyor. D021: temiz cikan bir orneklem, orneklemin disini temiz ilan etmez — orta kutu RSS orani 0,9995x olculmustu ama o girdinin %28'iydi ve MUTLAK ayak izi takas esigine hic degmiyordu. D129: bir esik olculdugu tabanla birlikte tasinir. CAPRAZ PARALEL'in B2 bulgusu tam bu ekseni isaret ediyordu ve ILK KEZ tam girdide kostu. Paralellestirme CURUK DEGIL — bu MAKINEYE sigmiyor; DONANIM-0910'daki 32 GB'lik makinede olculmesi gereken ilk sey budur.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
