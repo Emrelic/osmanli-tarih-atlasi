@@ -49,8 +49,38 @@ window.YERLESIMLER_EK27 = [
 
 // ───────── ÇUKUROVA · Akdeniz kıyısı ─────────
 { ad:"Mersin",neden:"d: 1352-01-01'de başlıyordu — 164 yıllık hayalet Osmanlı. ramazanoglu dönemi (1352 → 1516-08-24) eklendi, d: Mercidâbık'a çekildi. Aynı düzeltme yerlesimler_ek27.js:51'e yazılmış ama MÜKERRER `s:`/`d:` yüzünden JS'te sonuncusu kazanıyor ve düzeltme motora hiç girmiyordu.",kaynak:"TDV `ramazanogullari`: beylik 753'te (1352) kuruldu, sahası \"başta Adana olmak üzere Çukurova yöresi\" — Tarsus, Sîs, Ayas, Misis dâhil; Osmanlı hâkimiyeti \"Mercidâbık zaferi (25 Receb 922 / 24 Ağustos 1516)\" sonrası kesinleşti. Veri tarafı: Tarsus ve Adana kayıtları bu zinciri zaten taşıyor (birebir aynı günler).",s:[{f:"1281-01-01",t:"1352-01-01",d:"kilikya-ermeni"},{f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet"},{f:"1921-10-20",t:"1923-10-29",d:"tbmm-turkiye"}],d:[{f:"1352-01-01",t:"1918-10-30"}], tur:"liman", lat:36.800, lon:34.633, g:0, k:3, m:"Adana",
-  s:[{f:"1281-01-01",t:"1352-01-01",d:"kilikya-ermeni"},{f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet"}],
-  d:[{f:"1352-01-01",t:"1918-10-30"},{f:"1921-10-20",t:"1923-10-29"}], v:[] },
+  // 🔴 MÜKERRER `s:`/`d:` ANAHTARI KALDIRILDI — 10 Eylül 2026.
+  // Bu obje AYNI ALANI İKİ KEZ taşıyordu; JS sonuncuyu alır ve birincisi
+  // SESSİZCE ÖLÜR. Üç işçi (İZ-YOK DENETİM A·B·C) bağımsız olarak
+  // buldu. Kaybın bedeli İKİ KUSURDU: (1) `ramazanoglu` dönemi
+  // hiçbir kopyada yoktu ⇒ 164 YILLIK HAYALET OSMANLI; (2) birinci
+  // `s:` `tbmm-turkiye` taşıyordu, ikincisi onu DÜŞÜRDÜ ⇒ 1921-1923
+  // arası Mersin OSMANLI boyanıyordu.
+  // ⚠️ `ramazanoglu` günü ADANA ve TARSUS'tan devralındı (1516-08-24,
+  //   Mercidâbık — aynı TDV cümlesi, `D084`). Ama Fransız/TBMM zinciri
+  //   Mersin'in KENDİ hâliyle kaldı: Adana/Tarsus Fransız işgalini HİÇ
+  //   modellemiyor, Mersin modelliyor ve bu TARİHEN DOĞRU (Çukurova'da
+  //   Fransız işgali 1921 Ankara İtilâfnâmesi'ne kadar sürdü).
+  //   ⇒ Komşunun gününü almak, komşunun MODELİNİ almak DEĞİLDİR.
+  // 🔴 `kur:`DAN ÖNCEKİ DÖNEMLER BUDANDI — `Değişmez 5` yakaladı:
+  //    "Mersin kur:1671-01-01 ilk dönem 1281-01-01 — 390 YIL ÖNCE"
+  // İki çare ALTERNATİFTİ, tamamlayıcı DEĞİL:
+  //   `ramazanoglu` dönemi  → 1352-1516 arası RAMAZANOĞLU boyanır
+  //   `kur:1671`            → 1671'den ÖNCE PETEK HİÇ YOKTUR
+  // Emre'nin 2 Eylül kararı daha temiz çözüyor: hayalet yalnız RENK
+  // DEĞİŞTİRMİYOR, ORTADAN KALKIYOR. Ve `petek_epok()` zaten
+  // `kur:`tan önceki peteği bastırıyor ⇒ o dönemler ÖLÜ VERİ.
+  // ⚠️ Üç işçinin "ramazanoglu eksik" bulgusu ÇÜRÜMÜYOR — `kur:`
+  //   YOKKEN doğruydu. `kur:` inince aynı kusurun çaresi değişti.
+  // Toprak 1671'den önce komşunun (Tarsus/Adana) peteğine düşer —
+  // `§2` emilme kuralı, ve burada DOĞRU: Mersin YOKTU.
+  s:[{f:"1918-10-30",t:"1921-10-20",d:"fransa-cumhuriyet"},{f:"1921-10-20",t:"1923-10-29",d:"tbmm-turkiye"}],
+  d:[{f:"1671-01-01",t:"1918-10-30"}],
+  // 🟢 EMRE'NİN KENDİ KARARI, 2 Eylül 2026 (soru ⑧, paket 0019/H-0008):
+  //    "(a) 1671 — Evliya Çelebi. Daha erken, tek kaynaklı."
+  // Karar VERİLMİŞTİ ama veriye HİÇ İNMEMİŞTİ — sekiz gün boyunca
+  // `CEVAP.json` onu "cozuldu" diye taşıdı.
+  kur:"1671-01-01", v:[] },
 
 // ───────── İSKENDERUN KÖRFEZİ · 1923'te FRANSIZ mandası ─────────
 // 🔴 HATAY — Emre'nin uyarısı: 1923'te Türkiye DEĞİL. Türkiye'ye katılışı
