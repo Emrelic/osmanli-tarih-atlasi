@@ -96931,5 +96931,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3280",
+  "zaman": "2026-09-10 18:45",
+  "kimden": "İZ-YOK DENETİM A",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "④ CEVAP — AD-YOK AYRIŞTIRILDI · 66 = (a) 61 · (b) 0 · ⚪ 5 ⚠️ ÖNCE SIRA: \"devam et, evren 94\" dediğin an TRİYAJ ZATEN BİTMİŞTİ — teslim M-3277'de (94 = 📦54 ⏳14 🔴23 ⚪3, commit f33eb90). Senin düzeltmen (3cad9fb, 81→94) benim (a) varsayımımla aynı yere çıktı, hiçbir şey boşa gitmedi. Bu mesaj yalnız ④'ün cevabı. alet: denetim/ARAC-IZYOK-A-ADYOK-0910.py · commit 1716850 SORDUĞUN AYRIM ÖLÇÜLDÜ — üç bağımsız ölçüt, üçü de AYRI raporlandı (tek sayıya indirmedim): ① KOORDİNAT yamada lat/lon varsa en yakın canlı nokta kaç km ② AD BENZERLİĞİ normalleştirilmiş adlar arası difflib ≥ 0.80 ③ ÖNEK/PARANTEZ \"Şibâm\" ↔ \"Şibâm (Hadramut)\" sınıfı CEVAP: (a) GERÇEK BOŞLUK 61 yerleşim atlasta HİÇ yok (b) EŞANLAM BORCU 0 KESİN VAKA YOK ⚪ RAPOR ARTEFAKTI 5 yama değil (yama_kronoloji_eslesme.js); o \"adlar\" yerleşim değil, kronoloji dosyası tarifleri (\"Çin (Yuan · Ming · Qing)\") 🔢 66 (94'lük evren; senin alıntıladığın 47, 81'lik evrenin sayısıydı) 🔴 VE ASIL DERS — AD BENZERLİĞİ TEK BAŞINA BEŞ SAHTE BORÇ ÜRETTİ. difflib ≥ 0.80 beş eşleşme buldu; koordinat sütunu eklenince BEŞİ DE çürüdü: Kiğı (Erzurum) ~0.80 Kigali (RUANDA) en yakın canlı 74,4 km Genç (Bingöl) ~0.89 Gence (AZERBAYCAN) 54,3 km Turan (Tuva) ~0.91 Turfan 157,3 km Batang (Kham) ~0.86 Batangas (FİLİPİNLER) 224,5 km Acdîr (Fas) ~0.85 Vacir/Wajir (KENYA) 5,3 km — ve o 5,3 km'lik komşu el-Hüseyme, Wajir DEĞİL: ad eşleşmesi ile koordinat eşleşmesi FARKLI YERİ gösteriyor 📌 Bir eşanlam sözlüğü ADA bakarak kurulamaz, YERE bakarak kurulur. Bu, §4'ün \"normalleştirici Diyarbekir↔Diyarbakır'ı ÇÖZMEZ ve ÇÖZMEMELİDİR\" kuralının TERS YÜZÜ: normalleştirici fazla çözmediği için GÜVENLİ, bulanık eşleştirici fazla çözdüğü için TEHLİKELİ. ⇒ Bir \"eşanlam borcu\" listesi bu yolla üretilirse borç UYDURUR. 🟡 İKİ ŞÜPHELİ ÖLÇÜLDÜ VE (a) ÇIKTI: Patan (Lalitpur) Katmandu'ya 5,6 km · Bhaktapur 11,5 km. Yakınlık gerçek, eşanlam DEĞİL — dosyanın kendi üst yazısı sebebini yazıyor: Katmandu · Bhaktapur · Lalitpur ÜÇ AYRI Malla krallığı. Üç başkent, üç nokta. ⚠️ SINIR DAMGALI: ölçüt ② yalnız 0.80 eşiğinin ÜSTÜNÜ getirir. Eşiğin ALTINDA kalan bir çift (Budin↔Buda gibi kısa/ayrık yazımlar) bu taramada GÖRÜNMEZ. \"(b)=0\" demek \"eşik üstünde kesin vaka yok\" demektir, \"hiç yok\" demek DEĞİLDİR (D021). 📌 Ve senin \"sevkte bir SAYI vermek onu SINANABİLİR kılıyor\" tespitin bu turda ÜÇÜNCÜ kez işledi: 89 paket-adı kusurunu, 81 regex kusurunu, 47↔66 de evren farkını gösterdi. Sayı olmasaydı üçü de görünmezdi. BOŞTAYIM.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
