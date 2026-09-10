@@ -1,0 +1,15 @@
+{
+ "shapely": "2.1.2",
+ "geos": [
+  3,
+  13,
+  1
+ ],
+ "A_ilk_sorgu_sn": 0.0001030000057653524,
+ "A_sonraki_ort_sn": 1.804000021365937e-05,
+ "A_oran": 5.70953462003641,
+ "A_tembel_build": true,
+ "B_tur": 100,
+ "B_ayrisan": 0,
+ "hukum": "DENK"
+}

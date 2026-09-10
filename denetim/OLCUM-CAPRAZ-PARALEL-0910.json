@@ -1,0 +1,246 @@
+{
+ "kok": "_yabanci_devlet_faz1",
+ "ulasilan_fonksiyon": [
+  "_b2_enklav_birlestir",
+  "_b3_koridor_kirp",
+  "_bant_baskasinin_topragini_kesiyor_mu",
+  "_canli_komsular",
+  "_cep",
+  "_col_icinde",
+  "_dolgu_kumesi",
+  "_ham_km2",
+  "_ic_kara",
+  "_km_derece",
+  "_kusatilmis",
+  "_olu_bilesenler",
+  "_osm_aktif",
+  "_puan_bolgesi",
+  "_sahipli",
+  "_yabanci_devlet_faz1",
+  "_yasakli_mi",
+  "delikleri_doldur",
+  "devir_kumesi",
+  "gosterim_duzelt",
+  "kapat",
+  "mp_koord",
+  "petek_epok",
+  "poligonal",
+  "sayac",
+  "temiz"
+ ],
+ "yazimlar": {
+  "_b2_enklav_birlestir": [
+   {
+    "cins": "ABONE_AUG",
+    "ad": "_B23_SAYAC",
+    "satir": 1608
+   },
+   {
+    "cins": "ABONE_AUG",
+    "ad": "_B23_SAYAC",
+    "satir": 1530
+   },
+   {
+    "cins": "ABONE_AUG",
+    "ad": "_B23_SAYAC",
+    "satir": 1543
+   },
+   {
+    "cins": "ABONE_AUG",
+    "ad": "_B23_SAYAC",
+    "satir": 1547
+   },
+   {
+    "cins": "ABONE_AUG",
+    "ad": "_B23_SAYAC",
+    "satir": 1605
+   }
+  ],
+  "_b3_koridor_kirp": [
+   {
+    "cins": "ABONE_AUG",
+    "ad": "_B23_SAYAC",
+    "satir": 1682
+   },
+   {
+    "cins": "ABONE_AUG",
+    "ad": "_B23_SAYAC",
+    "satir": 1656
+   },
+   {
+    "cins": "ABONE_AUG",
+    "ad": "_B23_SAYAC",
+    "satir": 1665
+   },
+   {
+    "cins": "ABONE_AUG",
+    "ad": "_B23_SAYAC",
+    "satir": 1669
+   },
+   {
+    "cins": "ABONE_AUG",
+    "ad": "_B23_SAYAC",
+    "satir": 1672
+   },
+   {
+    "cins": "ABONE_AUG",
+    "ad": "_B23_SAYAC",
+    "satir": 1679
+   },
+   {
+    "cins": "ABONE_AUG",
+    "ad": "_B23_SAYAC",
+    "satir": 1662
+   }
+  ],
+  "_cep": [
+   {
+    "cins": "ABONE_YAZIM",
+    "ad": "_CEP_ONBELLEK",
+    "satir": 3228
+   }
+  ],
+  "_col_icinde": [
+   {
+    "cins": "ABONE_YAZIM",
+    "ad": "_COL_NOKTA_ONBELLEK",
+    "satir": 4281
+   }
+  ],
+  "_dolgu_kumesi": [
+   {
+    "cins": "ABONE_AUG",
+    "ad": "_DOLGU_SAYAC",
+    "satir": 4438
+   },
+   {
+    "cins": "ABONE_YAZIM",
+    "ad": "_DOLGU_ONBELLEK",
+    "satir": 4439
+   },
+   {
+    "cins": "ABONE_YAZIM",
+    "ad": "_DOLGU_ONBELLEK",
+    "satir": 4375
+   },
+   {
+    "cins": "ABONE_AUG",
+    "ad": "_DOLGU_SAYAC",
+    "satir": 4436
+   },
+   {
+    "cins": "ABONE_AUG",
+    "ad": "_DOLGU_SAYAC",
+    "satir": 4429
+   },
+   {
+    "cins": "ABONE_AUG",
+    "ad": "_DOLGU_SAYAC",
+    "satir": 4433
+   },
+   {
+    "cins": "ABONE_AUG",
+    "ad": "_DOLGU_SAYAC",
+    "satir": 4426
+   }
+  ],
+  "_ic_kara": [
+   {
+    "cins": "ABONE_YAZIM",
+    "ad": "_IC_ONBELLEK",
+    "satir": 3219
+   }
+  ],
+  "_kusatilmis": [
+   {
+    "cins": "ABONE_YAZIM",
+    "ad": "_KUS_ONBELLEK",
+    "satir": 3273
+   }
+  ],
+  "_puan_bolgesi": [
+   {
+    "cins": "ABONE_YAZIM",
+    "ad": "_PUAN_ONBELLEK",
+    "satir": 4180
+   },
+   {
+    "cins": "ABONE_YAZIM",
+    "ad": "_PUAN_ONBELLEK",
+    "satir": 4133
+   },
+   {
+    "cins": "ABONE_YAZIM",
+    "ad": "_PUAN_ONBELLEK",
+    "satir": 4161
+   }
+  ],
+  "delikleri_doldur": [
+   {
+    "cins": "ABONE_AUG",
+    "ad": "_B1_SAYAC",
+    "satir": 1386
+   },
+   {
+    "cins": "ABONE_AUG",
+    "ad": "_B1_SAYAC",
+    "satir": 1389
+   },
+   {
+    "cins": "ABONE_YAZIM",
+    "ad": "_KB_MUAF",
+    "satir": 1368
+   },
+   {
+    "cins": "MUTASYON.add",
+    "ad": "_B1_SAYAC",
+    "satir": 1387
+   }
+  ],
+  "petek_epok": [
+   {
+    "cins": "ABONE_YAZIM",
+    "ad": "_VARLIK_ONBELLEK",
+    "satir": 3587
+   },
+   {
+    "cins": "ABONE_YAZIM",
+    "ad": "_VARLIK_DEVIR",
+    "satir": 3588
+   },
+   {
+    "cins": "ABONE_YAZIM",
+    "ad": "_VARLIK_PAY",
+    "satir": 3589
+   }
+  ],
+  "sayac": [
+   {
+    "cins": "MUTASYON.setdefault",
+    "ad": "_SAYAC",
+    "satir": 282
+   }
+  ]
+ },
+ "iddia_sinavi": {
+  "sayac": {
+   "faz1den_cagiran": [
+    "_kusatilmis",
+    "petek_epok"
+   ],
+   "cagriliyor_mu": true
+  },
+  "havuza": {
+   "faz1den_cagiran": [],
+   "cagriliyor_mu": false
+  },
+  "hat_havuza": {
+   "faz1den_cagiran": [],
+   "cagriliyor_mu": false
+  },
+  "ilerleme": {
+   "faz1den_cagiran": [],
+   "cagriliyor_mu": false
+  }
+ }
+}
