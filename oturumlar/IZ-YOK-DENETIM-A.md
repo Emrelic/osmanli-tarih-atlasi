@@ -224,3 +224,49 @@ denetim/ARAC-IZYOK-A-AVUSTURYA1281-0910.py
 
 🔒 `data/**` · `arac/**` · `js/**` · `CEVAP.json` — **hiçbirine yazılmadı.**
 Koşu 9 emniyette; iş baştan sona salt okuma oldu.
+
+---
+
+# ⑦ İKİNCİ İŞ — YAMA TRİYAJI (10 Eylül 2026)
+
+## DURUM: **BİTTİ** · 94 = 📦54 · ⏳14 · 🔴23 · ⚪3
+
+Tam rapor: **`denetim/IZYOK-A-YAMA-TRIYAJ-0910.md`**
+
+🔴 **Payda 81 değil 94** — sevkin aleti (`ARAC-BAGLANMAMIS-YAMA-0910.py`)
+JSON biçimli anahtar (`"ad": "..."`) taşıyan **13 dosyayı** sessizce
+atlıyordu (447 kayıt; en büyüğü `yer_yama_tbmm_1920_0905.js`, 218 kayıt).
+Aksaklık olarak bekletmeden bildirildi.
+
+## Kayıt düzeyi
+
+```
+A ailesi (kronoloji)  1633 · uygulayıcı arac/yama_uygula.js
+                      kuru koşu: zaten vardı 1554 · yazılacak 1 · eşleşme yok 8
+B ailesi (sahiplik)   1360 · uygulayıcı BİLİNMİYOR
+                      🟢 İNDİ 1289 · 🟡 KISMEN 23 · 🔴 İNMEDİ 49 · AD-YOK 66
+C ailesi                80
+```
+
+## Asıl bulgu
+
+İnmeyen kayıtlar dağınık değil, **adlarda kümeleniyor**. Öngörüm
+(*"yarısından çoğu bilinen 8 çakışma listesindedir"*) **çürüdü — %30**;
+ama çürürken **dokuzuncu bir çakışma noktası** buldu:
+**Timbuktu, 5 dosyada** — ve iki yaması `bos:` alanı için birbirine
+zıt değer öneriyor (`veri-yok` ↔ `kabile`), ikisi de inmemiş.
+Projenin kendi dersi (`D020`) ikisi arasında karar veriyor.
+
+## Yazdığım dosyalar
+
+```
+denetim/IZYOK-A-YAMA-TRIYAJ-0910.md
+denetim/ARAC-IZYOK-A-YAMADOK-0910.js      (node — dosyaları eval eder)
+denetim/ARAC-IZYOK-A-TRIYAJ-0910.py       (kayıt kayıt canlıyla karşılaştırır)
+denetim/ARAC-IZYOK-A-KOVA-0910.py         (dosya başına kova)
+denetim/ARAC-IZYOK-A-EVREN-0910.py        (sevk aletinin kör noktasını ölçer)
+denetim/ARAC-IZYOK-A-USTYAZI-0910.py      (dosyanın kendi beyanını okur)
+denetim/ARAC-IZYOK-A-CAKISMA8-0910.py     (inmeyenler nerede kümeleniyor)
+```
+
+🔒 `data/**` · `arac/**` · `js/**` — hiçbirine yazılmadı. Salt okuma.
