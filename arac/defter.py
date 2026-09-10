@@ -68,6 +68,7 @@ Kullanım:
     py arac/defter.py kaydet --kimlik … --ad … --gorev … --model … --kova …
     py arac/defter.py hal <KİMLİK|AD> CALISIYORUM --not "..."
     py arac/defter.py tazele               ILERLEME damgası + tahtadan ÖLÇ
+    py arac/defter.py canli <olcum.json>   🔴 CANLI olcum (list_sessions) DEFTERE
     py arac/defter.py gecmis "<AD>"        o oturumun bütün hâl geçmişi
     py arac/defter.py eksik                boş alanları listele
     py arac/defter.py hedef --model opus --sayi 2      kota koy
@@ -236,6 +237,85 @@ def _damgalar():
             m[_sade(ad)] = (g.group(1).upper().replace("İ", "I"),
                             g.group(2).strip(), g.group(3).strip())
     return m
+
+
+def canli(yol):
+    """🔴 CANLI ÖLÇÜMÜ DEFTERE İNDİR — koordinatörün `list_sessions` çıktısı.
+
+    Kullanım:  py arac/defter.py canli <olcum.json>
+    Dosya: `list_sessions`ın döndürdüğü JSON dizisi (olduğu gibi).
+
+    🔴 NİÇİN AYRI KOMUT, `tazele`ye EKLENMEDİ: `tazele` tahtadan ve
+    damgalardan okur — yani oturumların KENDİ BEYANINDAN. Bu komut
+    DIŞARIDAN ölçülmüş bir gerçeği taşır. İkisini tek komuta koymak,
+    "oturum böyle dedi" ile "sistem böyle ölçtü"yü ayırt edilemez
+    kılardı (`§11`: beyan ile ölçüm yan yana durursa ikisi de ölçüm
+    sanılır).
+
+    ⚠️ VE BU KOMUT DA BİR ŞEYİ ÖLÇMEZ: `list_sessions` yalnız SON N
+    oturumu döndürür. Listede olmayan bir oturum ÖLÜ olabilir, ama
+    LİSTENİN DIŞINDA da kalmış olabilir. ⇒ Bu yüzden hâl `EMEKLI`
+    yazılmıyor; `hal_not`a "canlı ölçümde GÖRÜLMEDİ" düşülüyor ve
+    kararı koordinatör veriyor.
+    """
+    import json as _json
+    try:
+        with io.open(yol, encoding="utf-8") as f:
+            ham = _json.load(f)
+    except Exception as e:
+        print("🔴 ölçüm dosyası okunamadı: %s: %s" % (type(e).__name__, e))
+        return 2
+    if not isinstance(ham, list):
+        print("🔴 beklenen biçim: `list_sessions` JSON DİZİSİ")
+        return 2
+
+    canli_ad = {}
+    for s in ham:
+        if not isinstance(s, dict):
+            continue
+        ad = (s.get("title") or "").strip()
+        if ad:
+            canli_ad[_sade(ad)] = bool(s.get("isRunning"))
+
+    d = _yukle()
+    o = d["oturumlar"]
+    gorulen = kosan = kayip = 0
+    for kimlik, k in o.items():
+        if k.get("hal") == "EMEKLI":
+            continue
+        adlar = [k.get("ad")] + list(k.get("takma_adlar") or [])
+        bulundu = None
+        for a in adlar:
+            if a and _sade(a) in canli_ad:
+                bulundu = canli_ad[_sade(a)]
+                break
+        if bulundu is None:
+            kayip += 1
+            k["canli"] = "gorulmedi"
+            k["canli_zaman"] = _simdi()
+            if k.get("hal") == "HAZIR":
+                # 🔴 EN PAHALI HÂL BU: defter "emir bekliyorum" diyor,
+                # ölçüm o oturumu HİÇ görmüyor. Koordinatör ona iş verir
+                # ve cevap gelmez — sonra "öldü mü, sıkıştı mı" diye
+                # tur yakılır. Hâl DEĞİŞTİRİLMİYOR (ölçümün siniri var),
+                # ama HAZIR listesinden düşürülüyor.
+                k["hal_not"] = ((k.get("hal_not") or "") +
+                                "  🔴 CANLI ÖLÇÜMDE GÖRÜLMEDİ (%s)" % _simdi())
+                k["hal"] = "BOSTA"
+        else:
+            gorulen += 1
+            k["canli"] = "kosuyor" if bulundu else "acik-durmuyor"
+            k["canli_zaman"] = _simdi()
+            if bulundu:
+                kosan += 1
+    _kaydet(d)
+    print("canlı ölçüm indi — görülen %d (koşan %d) · GÖRÜLMEYEN %d"
+          % (gorulen, kosan, kayip))
+    hazir = sum(1 for k in o.values() if k.get("hal") == "HAZIR")
+    print("🟢 HAZIR KITA (ölçümden SONRA): %d" % hazir)
+    if hazir == 0:
+        print("🔴 HAZIR KITA YOK — koordinatör kullanıcıdan oturum İSTEMELİ.")
+    return 0
 
 
 def tazele():
@@ -554,6 +634,8 @@ def main(argv):
     k = argv[0]
     if k == "tazele":
         return tazele()
+    if k == "canli":
+        return canli(argv[1]) if len(argv) > 1 else 2
     if k in ("tablo",):
         return tablo("--hepsi" in argv)
     if k == "coz":
