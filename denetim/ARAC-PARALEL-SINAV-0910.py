@@ -27,11 +27,23 @@ NASIL — ve `arac/`ye TEK KARAKTER YAZMADAN:
   ⚠️ SINIRI ACIKÇA: bu sinav SURECLER ARASI belirlenimciligi OLCMEZ.
      Onu ayri bir alet olcer (ARAC-PARALEL-WKB-0910).
 """
-import os, io, re, sys, json, time, shutil, subprocess, hashlib
+import os, io, re, sys, json, time, shutil, subprocess, hashlib, tempfile
 
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(KOK, "arac", "uret_petek.py")
-HEDEF_DIZIN = os.path.join(KOK, "denetim", "_paralel")
+# 🔴🔴 SCRATCH DEPONUN DIŞINDA — ve bu, ÖLÇÜLMÜŞ BİR TUZAKTAN SONRA taşındı.
+# Eskiden `denetim/_paralel/` altındaydı ve orada şunlar birikiyordu:
+#     _girdi_dondu/  → 79 dosya, GERÇEK ADLARIYLA (yerlesimler.js ·
+#                      renkler.py · goller.js …) — dondurulmuş, yani BAYAT
+#     _PARALEL-SINAV-MOTOR-0910.py  → motorun 319 KB'lık kopyası
+#     SAPTIRILDI_*                  → gerçek çıktıların KIRPILMIŞ hâlleri
+# Bu depoda `git add -A` ile 140 dosyalık bir commit atıldığı KAYITLI
+# (`§7`). Bayat bir `yerlesimler.js`in depo ağacında GERÇEK ADIYLA
+# durması, bu sabah `motor_kara.geojson`da verdiğim hasarın tekrarı için
+# hazır bir tuzaktır.
+# ⇒ Çare "temizlemeyi unutmamak" DEĞİL: scratch artık depoya HİÇ girmiyor.
+HEDEF_DIZIN = (os.environ.get("PARALEL_SINAV_DIZIN")
+               or os.path.join(tempfile.gettempdir(), "paralel_sinav_0910"))
 # 🔴 AD, NE OLDUGUNU SOYLER (D095 · koordinatorun sarti). Eski adi
 # "motor_sinav.py" idi ve bir dizin listesinde URETIM MOTORU sanilabilirdi.
 # ⚠️ SAPMA, ADIYLA: koordinator dosyayi dogrudan `denetim/` altina onerdi;

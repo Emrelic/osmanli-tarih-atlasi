@@ -227,3 +227,50 @@ denetim/_paralel/                          ⚠️ SCRATCH — git'e GİRMEZ
 · 16 çekirdekli gerçek makinede ölçüm yok (bu makine 4 fiziksel)
 · süreç yolu, motorun MODÜLE bölünmesini gerektiriyor (Windows spawn)
 ```
+
+---
+
+# KAPANIŞ — dört teslim, dört öz-çürütme (10 Eylül 2026, akşam)
+
+```
+1770f78  ADIM 1+2+3 · devlet başına DENK
+038ffd8  sınav sertleştirildi (ad · üst yazı · simetri çapası)
+4a23d53  DÖNEM başına DENK · negatif çapa öttü
+d6fe2bb  üst küme oranı TAM GİRDİDE %7,5 · ÖNGÖRÜ ÇÜRÜDÜ
+```
+
+## EMRE'NİN İKİ SORUSUNUN NİHAİ CEVABI
+```
+"doğruluğu etkiler mi?"   🟢 HAYIR — devlet başına DA dönem başına DA
+                          sha256 birebir aynı, iki negatif çapa da ötüyor
+"16 çekirdek öder mi?"    🟢 ÖDER — 20s 05dk → 4,7 saat (N=16, %7,5 üst
+                          küme maliyeti dahil)
+🔴 AMA 32 ÖDEMEZ   8→16: 66 dk kazanç · 16→24: 24 dk · 24→32: 12 dk
+                   Sınır paralellik değil AMDAHL (aşama %82,1).
+                   Sıradaki eşik aşama DIŞI %17,9'da.
+```
+
+## DÖRT ÖZ-ÇÜRÜTME — hepsi kendi çapamın eseri
+```
+① AST aleti şartnamenin MERKEZİNDEKİ adı kaçırdı (parametre takma-adı)
+   → bilinen-pozitif çapası yakaladı
+② sınav kopyası İKİ DEPO DOSYASINI EZDİ (motor_kara · bolgeler)
+   → negatif çapa koşusunun ÇÖKMESİ yakaladı · git'ten hash'le geri alındı
+   → çare araca kondu: YAZIM KALKANI
+③ etiket kusuru (`"paralel-boz"` sabit) doğru bir kipi HÜKÜMSÜZ ilan etti
+   → negatif çapa yakaladı · ayrışma gerçekten olmuştu (907.917≠907.757)
+④ ÖNGÖRÜ ÇÜRÜDÜ (%12-30 dedim, %7,5 çıktı)
+   → çürüten şey öngörünün KENDİ karşı argümanıydı; yazmış ve reddetmiştim
+```
+
+## SON TEMİZLİK — bıraktığım tuzak kaldırıldı
+`denetim/_paralel/` altında **79 dosya GERÇEK ADLARIYLA** duruyordu
+(`yerlesimler.js` · `renkler.py` · `goller.js` — dondurulmuş, yani
+BAYAT), artı motorun 319 KB'lık kopyası ve kırpılmış çıktılar: 7,9 MB.
+Bu depoda `git add -A` ile 140 dosyalık commit atıldığı **kayıtlı**;
+bayat bir `yerlesimler.js`in ağaçta gerçek adıyla durması, bu sabahki
+hasarın tekrarı için hazır bir tuzaktı.
+🟢 Çare "temizlemeyi unutmamak" değil: **scratch artık depoya HİÇ
+girmiyor** (`tempfile.gettempdir()`, `PARALEL_SINAV_DIZIN` ile
+değiştirilebilir). Dizin kaldırıldı; kanıt dosyaları (hash + log) ayrı
+tutuldu, sonuçlar zaten commit'li JSON/MD'de.
