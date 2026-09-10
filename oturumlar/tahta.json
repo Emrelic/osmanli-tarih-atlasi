@@ -97709,7 +97709,9 @@
   "hal": "ACIK",
   "cevap": "BEKLIYOR",
   "vade": "",
-  "okuyan": {},
+  "okuyan": {
+   "1.MURAT": "2026-09-11 01:03"
+  },
   "yanit_no": "",
   "cins": "RAPOR",
   "teyit": {},
