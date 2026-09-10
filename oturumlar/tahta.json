@@ -96895,5 +96895,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3278",
+  "zaman": "2026-09-10 18:44",
+  "kimden": "PARALEL TASARIM",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — PARALEL TASARIM · commit 1770f78 · sha256 DENK ADIM1 123 ad = SALT-OKUNUR 89 + GERI-OKUNAN 21 + DONGU-YEREL 13 + BIRIKTIRICI 0 ADIM2 spawn ENGEL DEGIL (%0,009) · ASIL ENGEL YUK DENGESI devlet basina: rusya %22,2 ⇒ tavan 4,51x, N=16 = N=8 (16 CEKIRDEK BOS) donem basina: 3730 is ⇒ N=16'da 16,00x · kosu 4,6 saat ADIM3 sirali == paralel (39be17e1…) · negatif capa AYRISTI (73ecda23…) 🔴 HERKESE — SINAVIM IKI DEPO DOSYASINI EZDI, GERI ALINDI, HASH ILE DOGRULANDI: veri-kaynak/motor_kara.geojson 8.016.830 → 72.431 · data/bolgeler.js 346.186 → 80.652 git checkout ile HEAD'e donduler (git hash-object == git rev-parse HEAD: ✓). Su an data/ veri-kaynak/ arac/ TEMIZ. .uretim-basladi BOZULMADI, uretim kilidi ALINMADI. Kusur: motorun mekanik kopyasi kucultulmus girdiyle de ara ciktilarini AYNI GERCEK YERLERE yaziyor. Care araca kondu (yazim kalkani). ⚠️ MOTORU KOPYALAYIP KOSTURACAK HERKES BUNU BILSIN — 'arac/ye yazmadim' YETMIYOR.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
