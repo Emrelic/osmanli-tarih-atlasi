@@ -853,6 +853,14 @@ def oku(a):
     if a.get("acik"):
         secili = [m for m in secili if m["hal"] == "ACIK"]
         baslik += " · yalnız AÇIK"
+    # 🟢 `--yeni` — YALNIZ bu adın HENÜZ OKUMADIĞI mesajlar (10 Eylül 2026).
+    # Emre'nin protokol isteğinin ön şartı: koordinatör tahtayı DÜZENLİ
+    # okuyacaksa, her okumada TAMAMINI okumamalı — yoksa aynı mesaj
+    # bağlamı onlarca kez yakar. Damga zaten tutuluyordu, süzgeç yoktu.
+    if a.get("yeni") and kim:
+        _once = len(secili)
+        secili = [m for m in secili if kim not in (m.get("okuyan") or {})]
+        baslik += " · YALNIZ YENİ (%d/%d)" % (len(secili), _once)
 
     print("=" * 76)
     print("%s — %d mesaj (tahtada toplam %d)" % (baslik, len(secili), len(kayit)))
@@ -869,10 +877,17 @@ def oku(a):
             m["no"], m["zaman"], m["kimden"], m["kime"],
             m.get("cins") or "BILGI", m["hal"], bayrak, acil_im))
         print("   %s" % m["mesaj"])
-        if m.get("dayanak"):
+        # 🔴 `--kisa`: MUHASEBE satırları BASILMAZ, mesaj aynen kalır.
+        # Atılan şey (dayanak · teyit · okuyan) bir kayıt değeri taşır ama
+        # OKUYAN İÇİN değil, DENETİM için. Koordinatör toplu okurken
+        # onları taşımak mesaj başına ~2000 karakter ödemektir.
+        _kisa = a.get("kisa")
+        if m.get("dayanak") and not _kisa:
             print("   dayanak: %s" % m["dayanak"])
         # 🔴 EL SIKIŞMANIN ÜÇ ADIMI — hangisinde durduğu HER OKUMADA görünür
-        if m.get("teyit"):
+        if _kisa:
+            pass                       # muhasebe satırları atlanır
+        elif m.get("teyit"):
             for k2, v2 in sorted(m["teyit"].items()):
                 print("   ✓ TEYİT  %s @%s — \"%s\"" % (k2, v2["zaman"][-5:], v2["soz"]))
         elif m["kime"] != "HERKES":
@@ -880,9 +895,15 @@ def oku(a):
             print("      cevap: py arac/tahta.py teyit %s --kim \"%s\"" % (m["no"], m["kime"]))
         if m.get("kapanis"):
             print("   ✓ KAPANIŞ %s" % m["kapanis"])
-        if m.get("okuyan"):
+        # 🔴🔴 EN PAHALI SATIR BUYDU: `okuyan` listesi bugün ~150 ad
+        # taşıyor (~2000 karakter), mesajın kendisi ~200. Ve liste HER
+        # OKUMADA büyüyor — yani tahtayı okumak, tahtayı okumayı
+        # pahalılaştırıyor. `--kisa` bu döngüyü keser.
+        if m.get("okuyan") and not _kisa:
             print("   okuyan: %s" % ", ".join(
                 "%s@%s" % (k, v[-5:]) for k, v in sorted(m["okuyan"].items())))
+        elif m.get("okuyan") and _kisa:
+            print("   (okuyan %d)" % len(m["okuyan"]))
         print()
 
     # 🟢 OKUNDU OTOMATİK — elle işaretlenen kutu işaretlenmez.
@@ -1060,7 +1081,9 @@ def main(argv):
     k = argv[0]
     ortak = {"kim": al("--kim"), "hepsi": "--hepsi" in argv,
              "acik": "--acik" in argv, "gecikmis": "--gecikmis" in argv,
-             "gun": al("--gun")}
+             "gun": al("--gun"),
+             # 🟢 10 Eylül 2026 — Emre'nin toplu-okuma protokolünün iki ön şartı
+             "kisa": "--kisa" in argv, "yeni": "--yeni" in argv}
     if k == "yaz":
         # 🔴 --mesaj-dosya: METİN KABUKTAN GEÇMEZ (§11).
         # Vaka (14 Ağustos 2026, M-0018): koordinatör bir tahta mesajında
