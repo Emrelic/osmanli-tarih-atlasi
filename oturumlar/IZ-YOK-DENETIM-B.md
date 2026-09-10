@@ -167,8 +167,33 @@ madde**, başka bir şey değil.
 ## ⑤ ÇEMBER
 
 ```
-② AÇILIŞ    "aldım, DİLİM 2 bende, başlıyorum"     ← ŞİMDİ
+② AÇILIŞ    "aldım, DİLİM 2 bende, başlıyorum"     ← YAPILDI
 ③ GİDİŞAT   her paket bitince tek satır: "parti-0020: N → 🟢a 🔴b ⚪c"
-⑤ TESLİM    81 = 🟢N 🔴M ⚪K ➖L · rapor dosyasının yolu
+⑤ TESLİM    81 = 🟢N 🔴M ⚪K ➖L · rapor dosyasının yolu             ← YAPILDI
 ⑥ KAPANIŞ   raporu GÖNDERDİKTEN sonra. "Sonra yazarım" YOK.
 ```
+
+---
+
+## TESLİM — 10 Eylül 2026
+
+```
+81 = 🟢 68 · 🔴 1 · ⚪ 5 · ➖ 7
+```
+
+Tam rapor: `denetim/IZYOK-B-RAPOR-0910.md` · liste aracı: `denetim/ARAC-IZYOK-B-LISTE-0910.py`
+
+**🔴 tek gerçek "yapılmamış" — parti-emrelic-0031/H-0007 (Mersin):** hüküm
+`cozuldu` diyor ama düzeltme `girdi.GIRDI_DOSYALARI`'na hiç girmemiş; harita
+bugün hâlâ Mersin'i 1352'den (164 yıl erken) Osmanlı gösteriyor. Kaydın kendi
+`neden:` alanı (`data/yerlesimler_ek27.js:51`) bunu itiraf ediyor. Koordinatöre
+bekletmeden bildirildi (mesaj gönderildi, çalışırken).
+
+**Desen (üçten fazla madde):** yama dosyası yazılmış ama `girdi.py`'ye
+bağlanmamış / mükerrer kayıtla eziliyor — Mersin (🔴 kesin) + Kutaisi, Erzincan,
+Şehrizor/Halepçe (bu üçü ayrıca uygulanmış, şanslı kurtulmuş ama aynı risk
+sınıfı). Ayrıntı raporda.
+
+⚪ 5 madde ölçülemedi (en önemlisi 0025/H-0002: kendi ölçtüğüm yer_id oranı
+%78,8, notun iddiası %95,8 — fark büyük, yöntem farkı olabilir, hüküm
+verilmedi). ➖ 7 madde gerçek bir iş iddiası taşımıyordu (meta-not/yönlendirme).
