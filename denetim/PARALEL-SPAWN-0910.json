@@ -1,0 +1,43 @@
+{
+ "cpu_count": 8,
+ "start_methods": [
+  "spawn"
+ ],
+ "yukleme_sn": 4.0,
+ "petek_parca": 5390,
+ "kara_parca": 6837,
+ "petek_kose": 275706,
+ "strtree_pickle": "EVET (3431069 bayt)",
+ "strtree_kurma_sn_2000": 0.002,
+ "pickle_sn": 0.65,
+ "pickle_mb": 12.5,
+ "unpickle_sn": 0.33,
+ "kosular": [
+  {
+   "isci": 2,
+   "spawn_sn": 1.66,
+   "toplam_sn": 2.23,
+   "isci_cozme_sn": 0.95,
+   "isci_rss_mb": 76.9,
+   "toplam_rss_mb": 153.8
+  },
+  {
+   "isci": 4,
+   "spawn_sn": 2.27,
+   "toplam_sn": 2.35,
+   "isci_cozme_sn": 1.03,
+   "isci_rss_mb": 77.0,
+   "toplam_rss_mb": 308.0
+  },
+  {
+   "isci": 8,
+   "spawn_sn": 5.52,
+   "toplam_sn": 5.66,
+   "isci_cozme_sn": 1.25,
+   "isci_rss_mb": 77.0,
+   "toplam_rss_mb": 615.7
+  }
+ ],
+ "makine_ram_gb": 12.8,
+ "bos_ram_gb": 1.1
+}

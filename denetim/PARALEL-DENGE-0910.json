@@ -1,0 +1,204 @@
+{
+ "yerlesim": 3808,
+ "boyalar": 579,
+ "toplam_agirlik": 233560,
+ "calisan_devlet": 559,
+ "en_agir": [
+  {
+   "id": "rusya",
+   "agirlik": 51798,
+   "pay_yuzde": 22.18
+  },
+  {
+   "id": "ingiltere",
+   "agirlik": 39325,
+   "pay_yuzde": 16.84
+  },
+  {
+   "id": "ispanya",
+   "agirlik": 15173,
+   "pay_yuzde": 6.5
+  },
+  {
+   "id": "fransa-cumhuriyet",
+   "agirlik": 13437,
+   "pay_yuzde": 5.75
+  },
+  {
+   "id": "safevi",
+   "agirlik": 10731,
+   "pay_yuzde": 4.59
+  },
+  {
+   "id": "abd",
+   "agirlik": 8011,
+   "pay_yuzde": 3.43
+  },
+  {
+   "id": "sovyet-rusya",
+   "agirlik": 6515,
+   "pay_yuzde": 2.79
+  },
+  {
+   "id": "qing-hanedani",
+   "agirlik": 5874,
+   "pay_yuzde": 2.51
+  },
+  {
+   "id": "fransa",
+   "agirlik": 5521,
+   "pay_yuzde": 2.36
+  },
+  {
+   "id": "bizans",
+   "agirlik": 4828,
+   "pay_yuzde": 2.07
+  },
+  {
+   "id": "ingiliz-kuzey-amerika",
+   "agirlik": 4787,
+   "pay_yuzde": 2.05
+  },
+  {
+   "id": "almanya",
+   "agirlik": 3892,
+   "pay_yuzde": 1.67
+  },
+  {
+   "id": "portekiz",
+   "agirlik": 3459,
+   "pay_yuzde": 1.48
+  },
+  {
+   "id": "yeni-ispanya",
+   "agirlik": 3434,
+   "pay_yuzde": 1.47
+  },
+  {
+   "id": "venedik",
+   "agirlik": 3228,
+   "pay_yuzde": 1.38
+  },
+  {
+   "id": "babur-imparatorlugu",
+   "agirlik": 2796,
+   "pay_yuzde": 1.2
+  },
+  {
+   "id": "avusturya",
+   "agirlik": 2767,
+   "pay_yuzde": 1.18
+  },
+  {
+   "id": "memluk",
+   "agirlik": 2467,
+   "pay_yuzde": 1.06
+  },
+  {
+   "id": "kanada",
+   "agirlik": 2304,
+   "pay_yuzde": 0.99
+  },
+  {
+   "id": "ingiliz-hindistani",
+   "agirlik": 2300,
+   "pay_yuzde": 0.98
+  }
+ ],
+ "tavan": {
+  "2": {
+   "makespan": 116780,
+   "hizlanma": 2.0
+  },
+  "4": {
+   "makespan": 58390,
+   "hizlanma": 4.0
+  },
+  "8": {
+   "makespan": 51798,
+   "hizlanma": 4.51
+  },
+  "12": {
+   "makespan": 51798,
+   "hizlanma": 4.51
+  },
+  "16": {
+   "makespan": 51798,
+   "hizlanma": 4.51
+  },
+  "24": {
+   "makespan": 51798,
+   "hizlanma": 4.51
+  },
+  "32": {
+   "makespan": 51798,
+   "hizlanma": 4.51
+  }
+ },
+ "tek_is_tavani": 4.51,
+ "donem_is_sayisi": 3730,
+ "donem_toplam": 233560,
+ "donem_en_agir": 450,
+ "donem_tavan": {
+  "2": {
+   "makespan": 116780,
+   "hizlanma": 2.0
+  },
+  "4": {
+   "makespan": 58390,
+   "hizlanma": 4.0
+  },
+  "8": {
+   "makespan": 29195,
+   "hizlanma": 8.0
+  },
+  "12": {
+   "makespan": 19464,
+   "hizlanma": 12.0
+  },
+  "16": {
+   "makespan": 14598,
+   "hizlanma": 16.0
+  },
+  "24": {
+   "makespan": 9732,
+   "hizlanma": 24.0
+  },
+  "32": {
+   "makespan": 7299,
+   "hizlanma": 32.0
+  }
+ },
+ "amdahl": {
+  "devlet_N4": {
+   "asama_hizlanma": 4.0,
+   "kosu_hizlanma": 2.6,
+   "kosu_dk": 463
+  },
+  "devlet_N8": {
+   "asama_hizlanma": 4.51,
+   "kosu_hizlanma": 2.77,
+   "kosu_dk": 435
+  },
+  "devlet_N16": {
+   "asama_hizlanma": 4.51,
+   "kosu_hizlanma": 2.77,
+   "kosu_dk": 435
+  },
+  "donem_N4": {
+   "asama_hizlanma": 4.0,
+   "kosu_hizlanma": 2.6,
+   "kosu_dk": 463
+  },
+  "donem_N8": {
+   "asama_hizlanma": 8.0,
+   "kosu_hizlanma": 3.55,
+   "kosu_dk": 339
+  },
+  "donem_N16": {
+   "asama_hizlanma": 16.0,
+   "kosu_hizlanma": 4.34,
+   "kosu_dk": 278
+  }
+ }
+}

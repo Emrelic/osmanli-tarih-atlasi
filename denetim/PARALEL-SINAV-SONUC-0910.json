@@ -1,0 +1,23 @@
+{
+ "kutu": "26,36,45,42",
+ "isci": 4,
+ "sirali": {
+  "kod": 0,
+  "sn": 50.4
+ },
+ "paralel": {
+  "kod": 0,
+  "sn": 43.6
+ },
+ "sha256": {
+  "sirali": "39be17e1dafe50b69d54f897e2f45766b3819175cb46abbb822f7786cf59c9df",
+  "paralel": "39be17e1dafe50b69d54f897e2f45766b3819175cb46abbb822f7786cf59c9df"
+ },
+ "negatif_capa": {
+  "kod": 0,
+  "sn": 43.2,
+  "sha256": "73ecda23b5042047f678ad59e98696f1bc5560558f0865741c1c589eeded25d5",
+  "ayristi": true
+ },
+ "hukum": "DENK"
+}

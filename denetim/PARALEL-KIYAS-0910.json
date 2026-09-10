@@ -1,0 +1,51 @@
+{
+ "fiziksel_cekirdek": 4,
+ "mantiksal_cekirdek": 8,
+ "yuk_yuzde_baslangic": 24.9,
+ "is_sayisi": 96,
+ "tek_sn": 16.43,
+ "is_parcacigi": {
+  "2": {
+   "sn": 11.84,
+   "hizlanma": 1.39,
+   "sonuc_ayni": true
+  },
+  "4": {
+   "sn": 11.56,
+   "hizlanma": 1.42,
+   "sonuc_ayni": true
+  },
+  "8": {
+   "sn": 10.37,
+   "hizlanma": 1.59,
+   "sonuc_ayni": true
+  }
+ },
+ "yuk_mb": 5.1,
+ "surec": {
+  "2": {
+   "kurulum_sn": 1.21,
+   "map_sn": 14.26,
+   "sn": 15.47,
+   "hizlanma": 1.06,
+   "hizlanma_kurulumsuz": 1.15,
+   "sonuc_ayni": true
+  },
+  "4": {
+   "kurulum_sn": 1.76,
+   "map_sn": 12.37,
+   "sn": 14.13,
+   "hizlanma": 1.16,
+   "hizlanma_kurulumsuz": 1.33,
+   "sonuc_ayni": true
+  },
+  "8": {
+   "kurulum_sn": 3.81,
+   "map_sn": 11.44,
+   "sn": 15.25,
+   "hizlanma": 1.08,
+   "hizlanma_kurulumsuz": 1.44,
+   "sonuc_ayni": true
+  }
+ }
+}

@@ -1,0 +1,2007 @@
+{
+ "kaynak_dosya": "arac/uret_petek.py",
+ "dongu_satir": [
+  4501,
+  4582
+ ],
+ "modul_adi_sayisi": 575,
+ "kapanisa_giren_fonksiyon": [
+  "_b2_enklav_birlestir",
+  "_b3_koridor_kirp",
+  "_bant_baskasinin_topragini_kesiyor_mu",
+  "_canli_komsular",
+  "_cep",
+  "_col_icinde",
+  "_dolgu_kumesi",
+  "_ham_km2",
+  "_ic_kara",
+  "_km_derece",
+  "_kusatilmis",
+  "_olu_bilesenler",
+  "_osm_aktif",
+  "_puan_bolgesi",
+  "_sahipli",
+  "_sure",
+  "_yasakli_mi",
+  "delikleri_doldur",
+  "devir_kumesi",
+  "gosterim_duzelt",
+  "havuza",
+  "ilerleme",
+  "kapat",
+  "mp_koord",
+  "petek_epok",
+  "poligonal",
+  "sayac",
+  "temiz"
+ ],
+ "dolayli_erisim": [
+  [
+   "getattr",
+   3532,
+   "fn:petek_epok"
+  ]
+ ],
+ "adlar": {
+  "B23_ACIK": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    1690
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:gosterim_duzelt"
+   ],
+   "ilk_atama": 1406
+  },
+  "B2_ENKLAV_KM": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    1529
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:_b2_enklav_birlestir"
+   ],
+   "ilk_atama": 1422
+  },
+  "B2_KAVIS": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    1596
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:_b2_enklav_birlestir"
+   ],
+   "ilk_atama": 1435
+  },
+  "B3_KAPAMA_DER": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    1625,
+    1631
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:_b3_koridor_kirp"
+   ],
+   "ilk_atama": 1436
+  },
+  "B3_SADELIK": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    1624
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:_b3_koridor_kirp"
+   ],
+   "ilk_atama": 1437
+  },
+  "BOYALAR": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    4502
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "DONGU"
+   ],
+   "ilk_atama": 190
+  },
+  "COL": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    4276,
+    4280
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:_col_icinde"
+   ],
+   "ilk_atama": 2681
+  },
+  "COL_PUAN_ESIK": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    4423
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:_dolgu_kumesi"
+   ],
+   "ilk_atama": 4270
+  },
+  "DEVLET_KAYIT": {
+   "sinif": "GERI-OKUNAN",
+   "sadece_toplam": true,
+   "oku": [
+    4582
+   ],
+   "yaz": [],
+   "mut": [
+    4582
+   ],
+   "nerede": [
+    "DONGU"
+   ],
+   "ilk_atama": 4447
+  },
+  "DEV_HALKA": {
+   "sinif": "GERI-OKUNAN",
+   "sadece_toplam": true,
+   "oku": [
+    4564
+   ],
+   "yaz": [],
+   "mut": [
+    4564
+   ],
+   "nerede": [
+    "DONGU",
+    "DONGU->havuza"
+   ],
+   "ilk_atama": 4448
+  },
+  "DEV_HALKA_IX": {
+   "sinif": "GERI-OKUNAN",
+   "sadece_toplam": true,
+   "oku": [
+    4564
+   ],
+   "yaz": [],
+   "mut": [
+    4564
+   ],
+   "nerede": [
+    "DONGU",
+    "DONGU->havuza"
+   ],
+   "ilk_atama": 4448
+  },
+  "DEV_PARCA": {
+   "sinif": "GERI-OKUNAN",
+   "sadece_toplam": false,
+   "oku": [
+    4565
+   ],
+   "yaz": [],
+   "mut": [
+    4564
+   ],
+   "nerede": [
+    "DONGU",
+    "DONGU->havuza"
+   ],
+   "ilk_atama": 4449
+  },
+  "DEV_PARCA_IX": {
+   "sinif": "GERI-OKUNAN",
+   "sadece_toplam": false,
+   "oku": [
+    4564,
+    4565
+   ],
+   "yaz": [],
+   "mut": [
+    4564
+   ],
+   "nerede": [
+    "DONGU",
+    "DONGU->havuza"
+   ],
+   "ilk_atama": 4449
+  },
+  "DOLDURULABILIR_BOS": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    4369
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:_dolgu_kumesi"
+   ],
+   "ilk_atama": 4207
+  },
+  "DOLGU_ACIK": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    4529
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "DONGU"
+   ],
+   "ilk_atama": 4206
+  },
+  "EPOK": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    4511,
+    4513
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "DONGU"
+   ],
+   "ilk_atama": 1257
+  },
+  "KARA": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    1611,
+    1685,
+    4547
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "DONGU",
+    "fn:_b2_enklav_birlestir",
+    "fn:_b3_koridor_kirp"
+   ],
+   "ilk_atama": 485
+  },
+  "KUSATMA_ESIK": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    3269
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:_kusatilmis"
+   ],
+   "ilk_atama": 3187
+  },
+  "KV_ADIM": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    4139,
+    4141,
+    4142,
+    4143,
+    4145,
+    4146,
+    4175,
+    4176
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:_puan_bolgesi"
+   ],
+   "ilk_atama": 2075
+  },
+  "LineString": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    1532
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:_b2_enklav_birlestir"
+   ],
+   "ilk_atama": 78
+  },
+  "MultiPoint": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    3530
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:petek_epok"
+   ],
+   "ilk_atama": 78
+  },
+  "MultiPolygon": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    1350,
+    2033,
+    3890
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:_ham_km2",
+    "fn:delikleri_doldur",
+    "fn:mp_koord"
+   ],
+   "ilk_atama": 78
+  },
+  "ORTME_DILIM_SAYISI": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    4397,
+    4401
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:_dolgu_kumesi"
+   ],
+   "ilk_atama": 4112
+  },
+  "PETEK_D": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    3218,
+    3227,
+    3248,
+    3262,
+    3488,
+    3492
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:_cep",
+    "fn:_ic_kara",
+    "fn:_kusatilmis",
+    "fn:petek_epok"
+   ],
+   "ilk_atama": 1906
+  },
+  "PUAN_ESIK": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    4159,
+    4423,
+    4425
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:_dolgu_kumesi",
+    "fn:_puan_bolgesi"
+   ],
+   "ilk_atama": 4098
+  },
+  "PUAN_HALKA": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    4136,
+    4155,
+    4387
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:_dolgu_kumesi",
+    "fn:_puan_bolgesi"
+   ],
+   "ilk_atama": 4099
+  },
+  "PUAN_KAPALI": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    4552
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "DONGU"
+   ],
+   "ilk_atama": 4100
+  },
+  "Polygon": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    1356,
+    1375,
+    1390,
+    1601,
+    3514,
+    3523,
+    3564,
+    3574
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "DONGU",
+    "fn:_b2_enklav_birlestir",
+    "fn:delikleri_doldur",
+    "fn:mp_koord",
+    "fn:petek_epok"
+   ],
+   "ilk_atama": 78
+  },
+  "R_DUNYA": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    2042
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:_ham_km2"
+   ],
+   "ilk_atama": 193
+  },
+  "STRtree": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    3453,
+    3495,
+    3561
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:_olu_bilesenler",
+    "fn:petek_epok"
+   ],
+   "ilk_atama": 82
+  },
+  "YERLER": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    1367,
+    1387,
+    1473,
+    3241,
+    3258,
+    3283,
+    3493,
+    3512
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "DONGU",
+    "fn:_dolgu_kumesi",
+    "fn:_kusatilmis",
+    "fn:_puan_bolgesi",
+    "fn:_yasakli_mi",
+    "fn:delikleri_doldur"
+   ],
+   "ilk_atama": 686
+  },
+  "_ASAMA_T": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    314
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:ilerleme"
+   ],
+   "ilk_atama": 224
+  },
+  "_B1_SAYAC": {
+   "sinif": "GERI-OKUNAN",
+   "sadece_toplam": false,
+   "oku": [
+    1386,
+    1387,
+    1389
+   ],
+   "yaz": [],
+   "mut": [
+    1386,
+    1389
+   ],
+   "nerede": [
+    "fn:delikleri_doldur"
+   ],
+   "ilk_atama": 1328
+  },
+  "_B23_SAYAC": {
+   "sinif": "GERI-OKUNAN",
+   "sadece_toplam": true,
+   "oku": [
+    1530,
+    1543,
+    1547,
+    1605,
+    1608,
+    1656,
+    1662,
+    1665
+   ],
+   "yaz": [],
+   "mut": [
+    1530,
+    1543,
+    1547,
+    1605,
+    1608,
+    1656,
+    1662,
+    1665
+   ],
+   "nerede": [
+    "fn:_b2_enklav_birlestir",
+    "fn:_b3_koridor_kirp"
+   ],
+   "ilk_atama": 1438
+  },
+  "_CEP_ONBELLEK": {
+   "sinif": "GERI-OKUNAN",
+   "sadece_toplam": false,
+   "oku": [
+    3225,
+    3228
+   ],
+   "yaz": [],
+   "mut": [
+    3228
+   ],
+   "nerede": [
+    "fn:_cep"
+   ],
+   "ilk_atama": 3211
+  },
+  "_COL_NOKTA_ONBELLEK": {
+   "sinif": "GERI-OKUNAN",
+   "sadece_toplam": false,
+   "oku": [
+    4278,
+    4281
+   ],
+   "yaz": [],
+   "mut": [
+    4281
+   ],
+   "nerede": [
+    "fn:_col_icinde"
+   ],
+   "ilk_atama": 4271
+  },
+  "_DOLGU_ONBELLEK": {
+   "sinif": "GERI-OKUNAN",
+   "sadece_toplam": false,
+   "oku": [
+    4295,
+    4296,
+    4375,
+    4439
+   ],
+   "yaz": [],
+   "mut": [
+    4375,
+    4439
+   ],
+   "nerede": [
+    "fn:_dolgu_kumesi"
+   ],
+   "ilk_atama": 4240
+  },
+  "_DOLGU_SAYAC": {
+   "sinif": "GERI-OKUNAN",
+   "sadece_toplam": true,
+   "oku": [
+    4426,
+    4429,
+    4433,
+    4436,
+    4438
+   ],
+   "yaz": [],
+   "mut": [
+    4426,
+    4429,
+    4433,
+    4436,
+    4438
+   ],
+   "nerede": [
+    "fn:_dolgu_kumesi"
+   ],
+   "ilk_atama": 4241
+  },
+  "_DV_KUM": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    4502
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "DONGU",
+    "DONGU->ilerleme"
+   ],
+   "ilk_atama": 4471
+  },
+  "_EPOK_PAY_TOL": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    3548,
+    3556
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:petek_epok"
+   ],
+   "ilk_atama": 3432
+  },
+  "_IC_ONBELLEK": {
+   "sinif": "GERI-OKUNAN",
+   "sadece_toplam": false,
+   "oku": [
+    3216,
+    3219
+   ],
+   "yaz": [],
+   "mut": [
+    3219
+   ],
+   "nerede": [
+    "fn:_ic_kara"
+   ],
+   "ilk_atama": 3211
+  },
+  "_KARA_HAZIR": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    1542
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:_b2_enklav_birlestir"
+   ],
+   "ilk_atama": 1407
+  },
+  "_KB_AGAC": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    1354,
+    1358,
+    1362
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:delikleri_doldur"
+   ],
+   "ilk_atama": 1319
+  },
+  "_KB_IX": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    1367
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:delikleri_doldur"
+   ],
+   "ilk_atama": 1317
+  },
+  "_KB_MUAF": {
+   "sinif": "GERI-OKUNAN",
+   "sadece_toplam": true,
+   "oku": [
+    1368
+   ],
+   "yaz": [],
+   "mut": [
+    1368
+   ],
+   "nerede": [
+    "fn:delikleri_doldur"
+   ],
+   "ilk_atama": 1320
+  },
+  "_KB_NOKTA": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    1359,
+    1363
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:delikleri_doldur"
+   ],
+   "ilk_atama": 1318
+  },
+  "_KIYI_TAMPON": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    3218
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:_ic_kara"
+   ],
+   "ilk_atama": 3085
+  },
+  "_KUS_AGAC": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    3255,
+    3442
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:_canli_komsular",
+    "fn:_kusatilmis"
+   ],
+   "ilk_atama": 3082
+  },
+  "_KUS_IX": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    3256,
+    3443
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:_canli_komsular",
+    "fn:_kusatilmis"
+   ],
+   "ilk_atama": 3080
+  },
+  "_KUS_ONBELLEK": {
+   "sinif": "GERI-OKUNAN",
+   "sadece_toplam": false,
+   "oku": [
+    3237,
+    3238,
+    3273,
+    3275
+   ],
+   "yaz": [],
+   "mut": [
+    3273
+   ],
+   "nerede": [
+    "fn:_kusatilmis"
+   ],
+   "ilk_atama": 3188
+  },
+  "_PUAN_KESILEN": {
+   "sinif": "GERI-OKUNAN",
+   "sadece_toplam": true,
+   "oku": [
+    4556
+   ],
+   "yaz": [],
+   "mut": [
+    4556
+   ],
+   "nerede": [
+    "DONGU"
+   ],
+   "ilk_atama": 4114
+  },
+  "_PUAN_ONBELLEK": {
+   "sinif": "GERI-OKUNAN",
+   "sadece_toplam": false,
+   "oku": [
+    4127,
+    4128,
+    4133,
+    4161,
+    4180
+   ],
+   "yaz": [],
+   "mut": [
+    4133,
+    4161,
+    4180
+   ],
+   "nerede": [
+    "fn:_puan_bolgesi"
+   ],
+   "ilk_atama": 4113
+  },
+  "_PUAN_TAMAMEN": {
+   "sinif": "GERI-OKUNAN",
+   "sadece_toplam": true,
+   "oku": [
+    4558
+   ],
+   "yaz": [],
+   "mut": [
+    4558
+   ],
+   "nerede": [
+    "DONGU"
+   ],
+   "ilk_atama": 4115
+  },
+  "_SAYAC": {
+   "sinif": "GERI-OKUNAN",
+   "sadece_toplam": true,
+   "oku": [
+    282
+   ],
+   "yaz": [],
+   "mut": [
+    282
+   ],
+   "nerede": [
+    "fn:sayac"
+   ],
+   "ilk_atama": 223
+  },
+  "_TUM_AGAC": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    1370,
+    1377,
+    1381,
+    1465,
+    1468,
+    1471,
+    1498,
+    1504
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:_bant_baskasinin_topragini_kesiyor_mu",
+    "fn:_yasakli_mi",
+    "fn:delikleri_doldur"
+   ],
+   "ilk_atama": 1327
+  },
+  "_VARLIK_DEVIR": {
+   "sinif": "GERI-OKUNAN",
+   "sadece_toplam": true,
+   "oku": [
+    3588
+   ],
+   "yaz": [],
+   "mut": [
+    3588
+   ],
+   "nerede": [
+    "fn:petek_epok"
+   ],
+   "ilk_atama": 3075
+  },
+  "_VARLIK_ONBELLEK": {
+   "sinif": "GERI-OKUNAN",
+   "sadece_toplam": false,
+   "oku": [
+    3489,
+    3490,
+    3587
+   ],
+   "yaz": [],
+   "mut": [
+    3587
+   ],
+   "nerede": [
+    "fn:petek_epok"
+   ],
+   "ilk_atama": 3074
+  },
+  "_VARLIK_PAY": {
+   "sinif": "GERI-OKUNAN",
+   "sadece_toplam": true,
+   "oku": [
+    3589
+   ],
+   "yaz": [],
+   "mut": [
+    3589
+   ],
+   "nerede": [
+    "fn:petek_epok"
+   ],
+   "ilk_atama": 3079
+  },
+  "_b2_enklav_birlestir": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    1693
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:gosterim_duzelt"
+   ],
+   "ilk_atama": 1512
+  },
+  "_b3_koridor_kirp": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    1694
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:gosterim_duzelt"
+   ],
+   "ilk_atama": 1614
+  },
+  "_bant_baskasinin_topragini_kesiyor_mu": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    1546
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:_b2_enklav_birlestir"
+   ],
+   "ilk_atama": 1482
+  },
+  "_canli_komsular": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    3506
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:petek_epok"
+   ],
+   "ilk_atama": 3435
+  },
+  "_cep": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    3255
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:_kusatilmis"
+   ],
+   "ilk_atama": 3223
+  },
+  "_col_icinde": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    4422
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:_dolgu_kumesi"
+   ],
+   "ilk_atama": 4274
+  },
+  "_dolgu_kumesi": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    4530
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "DONGU"
+   ],
+   "ilk_atama": 4285
+  },
+  "_dv": {
+   "sinif": "DONGU-YEREL",
+   "sadece_toplam": false,
+   "oku": [
+    4522
+   ],
+   "yaz": [
+    4520
+   ],
+   "mut": [],
+   "nerede": [
+    "DONGU"
+   ],
+   "ilk_atama": 725
+  },
+  "_dv_i": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    4502
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "DONGU"
+   ],
+   "ilk_atama": 4501
+  },
+  "_ek": {
+   "sinif": "DONGU-YEREL",
+   "sadece_toplam": false,
+   "oku": [
+    4531,
+    4532
+   ],
+   "yaz": [
+    4530
+   ],
+   "mut": [],
+   "nerede": [
+    "DONGU"
+   ],
+   "ilk_atama": 4530
+  },
+  "_ham_km2": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    3513,
+    3522,
+    3565,
+    3573,
+    3582,
+    4554,
+    4556
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "DONGU",
+    "fn:petek_epok"
+   ],
+   "ilk_atama": 2029
+  },
+  "_ic_kara": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    3251
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:_kusatilmis"
+   ],
+   "ilk_atama": 3214
+  },
+  "_kayit": {
+   "sinif": "DONGU-YEREL",
+   "sadece_toplam": false,
+   "oku": [
+    4567
+   ],
+   "yaz": [
+    4563
+   ],
+   "mut": [],
+   "nerede": [
+    "DONGU"
+   ],
+   "ilk_atama": 4563
+  },
+  "_km_derece": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    1526,
+    1583,
+    1585
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:_b2_enklav_birlestir"
+   ],
+   "ilk_atama": 1454
+  },
+  "_kusatilmis": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    3286
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:devir_kumesi"
+   ],
+   "ilk_atama": 3232
+  },
+  "_kvnx": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    4139
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:_puan_bolgesi"
+   ],
+   "ilk_atama": 2079
+  },
+  "_kvny": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    4141
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:_puan_bolgesi"
+   ],
+   "ilk_atama": 2080
+  },
+  "_kvx0": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    4138,
+    4139
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:_puan_bolgesi"
+   ],
+   "ilk_atama": 2078
+  },
+  "_kvy0": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    4140,
+    4141
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:_puan_bolgesi"
+   ],
+   "ilk_atama": 2078
+  },
+  "_olu_bilesenler": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    3502
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:petek_epok"
+   ],
+   "ilk_atama": 3449
+  },
+  "_onceki_alan": {
+   "sinif": "DONGU-YEREL",
+   "sadece_toplam": false,
+   "oku": [
+    4556
+   ],
+   "yaz": [
+    4554
+   ],
+   "mut": [],
+   "nerede": [
+    "DONGU"
+   ],
+   "ilk_atama": 4554
+  },
+  "_osm_aktif": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    4318,
+    4525
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "DONGU",
+    "fn:_dolgu_kumesi"
+   ],
+   "ilk_atama": 4444
+  },
+  "_pb": {
+   "sinif": "DONGU-YEREL",
+   "sadece_toplam": false,
+   "oku": [
+    4555
+   ],
+   "yaz": [
+    4553
+   ],
+   "mut": [],
+   "nerede": [
+    "DONGU"
+   ],
+   "ilk_atama": 2421
+  },
+  "_puan_bolgesi": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    4553
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "DONGU"
+   ],
+   "ilk_atama": 4118
+  },
+  "_sahipli": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    3246,
+    3261,
+    3285
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:_kusatilmis",
+    "fn:devir_kumesi"
+   ],
+   "ilk_atama": 3114
+  },
+  "_sure": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    318,
+    319,
+    322,
+    323
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:ilerleme"
+   ],
+   "ilk_atama": 227
+  },
+  "_t_gv": {
+   "sinif": "DONGU-YEREL",
+   "sadece_toplam": false,
+   "oku": [
+    4560,
+    4581
+   ],
+   "yaz": [
+    4537
+   ],
+   "mut": [],
+   "nerede": [
+    "DONGU"
+   ],
+   "ilk_atama": 4537
+  },
+  "_yasakli_mi": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    1603,
+    1667
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:_b2_enklav_birlestir",
+    "fn:_b3_koridor_kirp"
+   ],
+   "ilk_atama": 1459
+  },
+  "a": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    4520,
+    4523,
+    4525,
+    4530,
+    4538,
+    4553,
+    4563
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "DONGU"
+   ],
+   "ilk_atama": 4517
+  },
+  "aktif": {
+   "sinif": "DONGU-YEREL",
+   "sadece_toplam": false,
+   "oku": [
+    4529,
+    4532,
+    4533,
+    4535,
+    4536,
+    4538,
+    4540,
+    4541
+   ],
+   "yaz": [
+    4521,
+    4532
+   ],
+   "mut": [],
+   "nerede": [
+    "DONGU"
+   ],
+   "ilk_atama": 4521
+  },
+  "b": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    4534,
+    4563
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "DONGU"
+   ],
+   "ilk_atama": 4517
+  },
+  "box": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    1632,
+    3529,
+    4175
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:_b3_koridor_kirp",
+    "fn:_puan_bolgesi",
+    "fn:petek_epok"
+   ],
+   "ilk_atama": 78
+  },
+  "dad": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    4582
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "DONGU"
+   ],
+   "ilk_atama": 4501
+  },
+  "delikleri_doldur": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    4540
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "DONGU"
+   ],
+   "ilk_atama": 1331
+  },
+  "devir_kumesi": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    3486,
+    4300,
+    4520
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "DONGU",
+    "fn:_dolgu_kumesi",
+    "fn:petek_epok"
+   ],
+   "ilk_atama": 3278
+  },
+  "did": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    4503,
+    4508,
+    4523,
+    4530,
+    4553,
+    4582
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "DONGU"
+   ],
+   "ilk_atama": 4501
+  },
+  "dn": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    4510
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "DONGU"
+   ],
+   "ilk_atama": 2899
+  },
+  "dnm": {
+   "sinif": "DONGU-YEREL",
+   "sadece_toplam": false,
+   "oku": [
+    4533,
+    4534,
+    4567,
+    4582
+   ],
+   "yaz": [
+    4515
+   ],
+   "mut": [
+    4534,
+    4567
+   ],
+   "nerede": [
+    "DONGU"
+   ],
+   "ilk_atama": 4515
+  },
+  "g": {
+   "sinif": "DONGU-YEREL",
+   "sadece_toplam": false,
+   "oku": [
+    4540,
+    4541,
+    4547,
+    4552,
+    4554,
+    4555,
+    4556,
+    4557
+   ],
+   "yaz": [
+    4538,
+    4540,
+    4541,
+    4547,
+    4555
+   ],
+   "mut": [],
+   "nerede": [
+    "DONGU"
+   ],
+   "ilk_atama": 518
+  },
+  "gosterim_duzelt": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    4541
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "DONGU"
+   ],
+   "ilk_atama": 1688
+  },
+  "havuza": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    4564
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "DONGU"
+   ],
+   "ilk_atama": 3851
+  },
+  "hj": {
+   "sinif": "DONGU-YEREL",
+   "sadece_toplam": false,
+   "oku": [
+    4504,
+    4506,
+    4521
+   ],
+   "yaz": [
+    4503
+   ],
+   "mut": [],
+   "nerede": [
+    "DONGU"
+   ],
+   "ilk_atama": 4503
+  },
+  "i": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    4517
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "DONGU"
+   ],
+   "ilk_atama": 779
+  },
+  "ilerleme": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    4502
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "DONGU"
+   ],
+   "ilk_atama": 286
+  },
+  "j": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    4503,
+    4507,
+    4509,
+    4521,
+    4522,
+    4524,
+    4525,
+    4538
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "DONGU"
+   ],
+   "ilk_atama": 3927
+  },
+  "json": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    3876,
+    3881
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:havuza"
+   ],
+   "ilk_atama": 46
+  },
+  "kapat": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    1625,
+    4540
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "DONGU",
+    "fn:_b3_koridor_kirp"
+   ],
+   "ilk_atama": 1264
+  },
+  "make_valid": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    88
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:temiz"
+   ],
+   "ilk_atama": 83
+  },
+  "math": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    1456,
+    1528,
+    1589,
+    1596,
+    2039,
+    2040,
+    2041,
+    4138
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:_b2_enklav_birlestir",
+    "fn:_ham_km2",
+    "fn:_km_derece",
+    "fn:_puan_bolgesi"
+   ],
+   "ilk_atama": 46
+  },
+  "mp_koord": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    4564
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "DONGU"
+   ],
+   "ilk_atama": 3888
+  },
+  "nearest_points": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    1522
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:_b2_enklav_birlestir"
+   ],
+   "ilk_atama": 80
+  },
+  "noktalar": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    1378,
+    1382,
+    1468,
+    1471,
+    3495,
+    3510,
+    3530,
+    3542
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:_col_icinde",
+    "fn:_yasakli_mi",
+    "fn:delikleri_doldur",
+    "fn:petek_epok"
+   ],
+   "ilk_atama": 792
+  },
+  "onceki": {
+   "sinif": "DONGU-YEREL",
+   "sadece_toplam": false,
+   "oku": [
+    4533
+   ],
+   "yaz": [
+    4515,
+    4535
+   ],
+   "mut": [],
+   "nerede": [
+    "DONGU"
+   ],
+   "ilk_atama": 4515
+  },
+  "petek_epok": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    4538
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "DONGU"
+   ],
+   "ilk_atama": 3478
+  },
+  "poligonal": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    3503,
+    3511,
+    3525,
+    3550,
+    3558,
+    3563,
+    3571,
+    3578
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "DONGU",
+    "fn:petek_epok"
+   ],
+   "ilk_atama": 1279
+  },
+  "renk": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    4582
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "DONGU"
+   ],
+   "ilk_atama": 4501
+  },
+  "rp": {
+   "sinif": "DONGU-YEREL",
+   "sadece_toplam": false,
+   "oku": [
+    4566
+   ],
+   "yaz": [
+    4562
+   ],
+   "mut": [],
+   "nerede": [
+    "DONGU"
+   ],
+   "ilk_atama": 4562
+  },
+  "sayac": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    3274,
+    3590,
+    4560,
+    4581
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "DONGU",
+    "fn:_kusatilmis",
+    "fn:petek_epok"
+   ],
+   "ilk_atama": 280
+  },
+  "sp": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    4503,
+    4508,
+    4523
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "DONGU"
+   ],
+   "ilk_atama": 727
+  },
+  "temiz": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    1276,
+    1277,
+    1282,
+    1611,
+    1626,
+    1633,
+    1652,
+    1677
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:_b2_enklav_birlestir",
+    "fn:_b3_koridor_kirp",
+    "fn:kapat",
+    "fn:poligonal"
+   ],
+   "ilk_atama": 86
+  },
+  "time": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    314,
+    3239,
+    3274,
+    3491,
+    3590,
+    4537,
+    4560,
+    4581
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "DONGU",
+    "fn:_kusatilmis",
+    "fn:ilerleme",
+    "fn:petek_epok"
+   ],
+   "ilk_atama": 46
+  },
+  "ts": {
+   "sinif": "DONGU-YEREL",
+   "sadece_toplam": false,
+   "oku": [
+    4508,
+    4510,
+    4511,
+    4512,
+    4513,
+    4514,
+    4516,
+    4517
+   ],
+   "yaz": [
+    4505,
+    4511
+   ],
+   "mut": [
+    4508,
+    4510,
+    4513,
+    4514
+   ],
+   "nerede": [
+    "DONGU"
+   ],
+   "ilk_atama": 4505
+  },
+  "unary_union": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    90,
+    1277,
+    1391,
+    1611,
+    1685,
+    3268,
+    3503,
+    3511
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "DONGU",
+    "fn:_b2_enklav_birlestir",
+    "fn:_b3_koridor_kirp",
+    "fn:_kusatilmis",
+    "fn:_puan_bolgesi",
+    "fn:delikleri_doldur"
+   ],
+   "ilk_atama": 80
+  },
+  "voronoi_diagram": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    3530
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "fn:petek_epok"
+   ],
+   "ilk_atama": 80
+  },
+  "y": {
+   "sinif": "SALT-OKUNUR",
+   "sadece_toplam": false,
+   "oku": [
+    4503
+   ],
+   "yaz": [],
+   "mut": [],
+   "nerede": [
+    "DONGU"
+   ],
+   "ilk_atama": 724
+  }
+ },
+ "ozet": {
+  "SALT-OKUNUR": 89,
+  "DONGU-YEREL": 13,
+  "GERI-OKUNAN": 21
+ },
+ "toplam": 123
+}

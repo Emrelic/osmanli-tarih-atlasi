@@ -1,0 +1,32 @@
+{
+ "shapely": "2.1.2",
+ "python": "3.13.8",
+ "cpu_count": 8,
+ "is_sayisi": 24,
+ "olcum": {
+  "GEOS": {
+   "tek_sn": 20.98,
+   "hizlanma": {
+    "2": 1.45,
+    "4": 1.57,
+    "8": 1.65
+   },
+   "sn_2": 14.46,
+   "sonuc_ayni": true,
+   "sn_4": 13.35,
+   "sn_8": 12.73
+  },
+  "PY-KONTROL": {
+   "tek_sn": 28.36,
+   "hizlanma": {
+    "2": 0.42,
+    "4": 0.36,
+    "8": 0.39
+   },
+   "sn_2": 67.24,
+   "sn_4": 79.88,
+   "sn_8": 73.06
+  }
+ },
+ "hukum": "GIL BIRAKILIYOR — is parcacigi yolu ACIK (en 1.65x)"
+}

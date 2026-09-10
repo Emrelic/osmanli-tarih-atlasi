@@ -166,3 +166,64 @@ BEKLEYEMEZ  · ADIM 1'de `havuza` DIŞINDA geri-okunan bir ad bulursan
 📌 Ve bir uyarı: **bu iş "hızlandırma" değil "denklik" işidir.** Kazanç
 ölçüsü ikincil; asıl teslim, çıktının değişip değişmediğidir. Emre'nin
 sorusu birebir buydu: *"sağlığını doğruluğunu etkiler mi?"*
+
+---
+
+# İLERLEME — PARALEL TASARIM (10 Eylül 2026)
+
+## TESLİM — üç adım da koştu
+
+```
+ADIM 1  ✓  123 ad = SALT-OKUNUR 89 + GERİ-OKUNAN 21 + DÖNGÜ-YEREL 13
+           + BİRİKTİRİCİ 0            (a+b+c=N ✓)
+ADIM 2  ✓  tasarım + spawn/bellek/GIL/yük-dengesi ÖLÇÜMLE
+ADIM 3  ✓  sha256 DENK · negatif çapa AYRIŞTI
+```
+
+## ÜÇ MANŞET
+
+**① Şartnamenin öncülü çürüdü, tasarımın temeli AYAKTA.**
+`havuza()` dışında **17** geri-okunan ad var — ama hiçbiri çıktıya
+gitmiyor: 7'si **saf önbellek** (anahtar değeri tam belirliyor), 9'u
+**sayaç** (yazım aşamasından sonra referansı 0), 1'i çıktı biriktiricisi.
+Çıktıya giden yalnız 3 ad: `DEV_HALKA` · `DEV_PARCA` · `DEVLET_KAYIT`.
+
+**② 🔴 ASIL ENGEL SPAWN DEĞİL, YÜK DENGESİ — ve 16 çekirdek kararını
+DOĞRUDAN bağlıyor.**
+```
+devlet başına bölme:  rusya tek başına %22,2  ⇒  tavan 4,51x
+                      N=8 4,51x · N=16 4,51x   ← 16 ÇEKİRDEK BOŞ
+dönem  başına bölme:  3730 iş · en ağır %0,19  ⇒  N=16'da 16,00x
+bütün koşuya (Amdahl, aşama %82,1):
+   devlet N=16 → 2,77x → 7,3 saat        dönem N=16 → 4,34x → 4,6 saat
+```
+⇒ **Makine öder, ama yalnız DÖNEM BAŞINA bölünürse.**
+
+**③ Sınav iki depo dosyasını EZDİ, git'ten birebir geri alındı, ve
+kusur araca kapatıldı.** `veri-kaynak/motor_kara.geojson` ve
+`data/bolgeler.js` — hash'le doğrulanmış geri dönüş, ve kopyaya bir
+**yazım kalkanı** kondu (sınav dizini dışına yazım saptırılır).
+Ayrıntı: `denetim/PARALEL-SINAV-SONUC-0910.md §③`.
+
+## DOSYALAR
+```
+denetim/ARAC-PARALEL-BAGIMLILIK-0910.py   AST bağımlılık haritası (4+4 çapa)
+denetim/ARAC-PARALEL-SPAWN-0910.py        spawn · pickle · RSS · STRtree
+denetim/ARAC-PARALEL-GIL-0910.py          GIL bırakılıyor mu (kontrol deneyli)
+denetim/ARAC-PARALEL-KIYAS-0910.py        iş parçacığı ↔ süreç, adil kıyas
+denetim/ARAC-PARALEL-DENGE-0910.py        yük dengesi · LPT tavanı · Amdahl
+denetim/ARAC-PARALEL-SINAV-0910.py        🔴 BİT DENKLİĞİ SINAVI
+denetim/PARALEL-BAGIMLILIK-0910.{md,json} ADIM 1 + ÖNGÖRÜ (ölçümden ÖNCE)
+denetim/PARALEL-TASARIM-0910.md           ADIM 2
+denetim/PARALEL-SINAV-SONUC-0910.{md,json} ADIM 3
+denetim/PARALEL-{SPAWN,GIL,KIYAS,DENGE}-0910.json   ham ölçümler
+denetim/_paralel/                          ⚠️ SCRATCH — git'e GİRMEZ
+```
+
+## AÇIK KALEMLER (bir sonraki oturuma)
+```
+· dönem başına bölmenin BİT DENKLİĞİ sınanmadı (devlet başına sınandı)
+· süreçler arası belirlenimcilik sınanmadı (sınav iş parçacığıyla koştu)
+· 16 çekirdekli gerçek makinede ölçüm yok (bu makine 4 fiziksel)
+· süreç yolu, motorun MODÜLE bölünmesini gerektiriyor (Windows spawn)
+```
