@@ -10,12 +10,19 @@ KOPYA    denetim/_paralel/motor_sinav.py   (mekanik kopya, git'e GİRMEZ)
 ## ⓪ SONUÇ — kabul ölçütü tek satırdı, cevabı tek satır
 
 ```
-sirali   39be17e1dafe50b69d54f897e2f45766b3819175cb46abbb822f7786cf59c9df
-paralel  39be17e1dafe50b69d54f897e2f45766b3819175cb46abbb822f7786cf59c9df
+girdi DONDURULDU  78 veri dosyası + renkler.py · iz 4ceabef0037ac3b7
+kaynak            arac/uret_petek.py @ 2127303 (2026-09-07)
+
+sirali   44e82cd15eedaafdcbbbea9adaf8a237d98b2c759a2aa74c767a192bdc987d06
+paralel  44e82cd15eedaafdcbbbea9adaf8a237d98b2c759a2aa74c767a192bdc987d06
                               🟢 D E N K
-negatif  73ecda23b5042047f678ad59e98696f1bc5560558f0865741c1c589eeded25d5
-                              🔴 AYRIŞTI  (sınavın dişleri VAR)
+negatif  1c519b4e10c56e67…      🔴 AYRIŞTI  (sınavın dişleri VAR)
+③ enjeksiyon simetrisi: kücültme iki tarafta da AYNI ✓ (girdi izi + ETA)
 ```
+📌 Önceki turların hash'leri (`39be17e1…` · `7b2d8fc3…`) **başka
+sayılar** — ve sebebi kusur değil: depo canlı, `data/yerlesimler*.js`
+turlar arasında değişti. **Her turda `sirali == paralel` çıktı**; hüküm
+mutlak hash'e değil, **aynı girdide iki yolun eşitliğine** dayanıyor.
 
 **ÖNGÖRÜ TUTTU.** Öngörü ölçümden önce yazılmıştı
 (`PARALEL-BAGIMLILIK-0910.md`, ADIM 3 sınavı henüz kurulmamışken):
@@ -81,6 +88,52 @@ yanında değil, zararı ÜRETEN aracın içinde durmalı.*** Kopyayı üreten
 alet zararı da üretiyordu; kalkan oraya kondu.
 📌 Ve ikinci bir kayıt: bu hasarı **bir denetim yakalamadı** — negatif
 çapa koşusunun **çökmesi** yakaladı. Çökme, sessiz başarıdan iyidir.
+
+## ③b 🔴🔴 CANLI DEPO — ve bunu SINAVIN KENDİ ÇAPASI YAKALADI
+
+Koordinatörün üçüncü şartı (*"küçültme İKİ TARAFTA DA aynı mı"*) bir
+formalite sanılabilirdi. **Değildi — koyulur koyulmaz ötti:**
+
+```
+sirali  girdi izi 6ea558b1…   ETA 7.312
+paralel girdi izi 05b8ac7b…   ETA 7.310     ⇒ 51 SANİYE ARAYLA FARKLI GİRDİ
+```
+Başka bir oturum tam o pencerede `data/yerlesimler*.js`e yazdı
+(`404afc0` · `7c7e80d` aynı dosyaya dokunuyor). O tur **HÜKÜMSÜZ** ilan
+edildi ve alet `exit(1)` verdi.
+
+⚠️ **Önceki iki turun hükmü ayakta**: onların izleri eşleşiyordu
+(ETA 7.308/7.308 · 7.312/7.312). Ama **eşleştiklerini o turlarda kimse
+ölçmemişti** — çapa konmadan önce hüküm *şanslıydı, kanıtlı değil.*
+
+🔴 **VE AYNI ÇAPA İKİNCİ BİR BOŞLUK GÖSTERDİ:** bir sonraki turda
+`girdi_izi` **aynı** çıktı ama ETA 7.310 → 7.257 ve devlet 60 → 59.
+Fark `YERLER`den gelemezdi ⇒ ***`arac/renkler.py` (BOYALAR) de CANLI
+GİRDİDİR*** ve dondurma onu kapsamıyordu. Kapsama genişletildi:
+```
+donduruluyor:  78 veri dosyası (girdi.GIRDI_DOSYALARI + göller)
+             + arac/renkler.py   ← ikinci turda eklendi
+```
+📌 Ders: ***bir "aynı girdi" iddiası, girdinin TAMAMINI saymadan
+kurulamaz — ve eksik sayım, izler eşleştiği sürece GÖRÜNMEZ.***
+📌 Ve `girdi.anlik_goruntu()` bunu çözmüyordu: o **koşu başına** kopya
+alıyor, yani iki koşunun **iki ayrı** anlık görüntüsü oluyordu. Sınav
+artık **tek** bir dondurulmuş kopya kurup ikisine de onu veriyor.
+
+## ③c KOORDİNATÖRÜN ÜÇ ŞARTI — karşılandı, biri gerekçeli sapmayla
+```
+🟢 AD NE OLDUĞUNU SÖYLESİN   _PARALEL-SINAV-MOTOR-0910.py
+   ⚠️ SAPMA: `denetim/` yerine `denetim/_paralel/` altında.
+      Sebep ölçülmüş bir risk: YAZIM KALKANI'nın çevresi
+      `dirname(__file__)`. Dosya `denetim/`e konsaydı kalkan bu
+      oturumun RAPORLARININ durduğu dizine yazma izni verirdi.
+      Ad şartı dosya adıyla zaten karşılanıyor; çevreyi dar tutmak
+      adlandırmadan önce gelir.
+🟢 ÜST YAZI                  "BU BİR SINAV KOPYASIDIR — üretimde
+   KULLANILMAZ", kaynak commit `2127303`, kaynak sha (çalışma kopyası
+   ve HEAD ayrı ayrı), üretildiği an. Beyan değil `git`ten ölçülüyor.
+🟢 ENJEKSİYON SINANIYOR      §③b — ve ilk koşuşunda gerçek bir olay yakaladı.
+```
 
 ## ④ SINAVIN AÇIKÇA ÖLÇMEDİĞİ (`D107` · `D021`)
 

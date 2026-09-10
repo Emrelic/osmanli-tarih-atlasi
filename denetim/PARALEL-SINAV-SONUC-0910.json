@@ -3,20 +3,43 @@
  "isci": 4,
  "sirali": {
   "kod": 0,
-  "sn": 50.4
+  "sn": 49.3
  },
  "paralel": {
   "kod": 0,
-  "sn": 43.6
+  "sn": 45.4
  },
+ "kopya_sha256": "305e70470a712b46117a531d90c30f6b675de6b6db0574390c6d7359f634c348",
+ "kaynak": {
+  "commit": "2127303 2026-09-07",
+  "calisma_kopyasi_sha": "e345c1289bbd68548eb4b905f5dca2b1e4c1654c",
+  "head_sha": "e345c1289bbd68548eb4b905f5dca2b1e4c1654c"
+ },
+ "kucultme_izi": {
+  "sirali": {
+   "bolge": "(26.0, 36.0, 45.0, 42.0)",
+   "yerler": "3808 -> 301",
+   "girdi_izi": "05b8ac7b3895826da83669cde6524cfed3613562cb2c85e95717750e8219ba3a",
+   "eta": "ETA ağırlığı hazır: 7,257 hücre-birleşimi bekleniyor",
+   "devlet_donem": "59 devlet, 296 dönem — yazım seyreltmeden sonraya ertelendi"
+  },
+  "paralel": {
+   "bolge": "(26.0, 36.0, 45.0, 42.0)",
+   "yerler": "3808 -> 301",
+   "girdi_izi": "05b8ac7b3895826da83669cde6524cfed3613562cb2c85e95717750e8219ba3a",
+   "eta": "ETA ağırlığı hazır: 7,257 hücre-birleşimi bekleniyor",
+   "devlet_donem": "59 devlet, 296 dönem — yazım seyreltmeden sonraya ertelendi"
+  }
+ },
+ "kucultme_ayni": true,
  "sha256": {
-  "sirali": "39be17e1dafe50b69d54f897e2f45766b3819175cb46abbb822f7786cf59c9df",
-  "paralel": "39be17e1dafe50b69d54f897e2f45766b3819175cb46abbb822f7786cf59c9df"
+  "sirali": "44e82cd15eedaafdcbbbea9adaf8a237d98b2c759a2aa74c767a192bdc987d06",
+  "paralel": "44e82cd15eedaafdcbbbea9adaf8a237d98b2c759a2aa74c767a192bdc987d06"
  },
  "negatif_capa": {
   "kod": 0,
-  "sn": 43.2,
-  "sha256": "73ecda23b5042047f678ad59e98696f1bc5560558f0865741c1c589eeded25d5",
+  "sn": 41.3,
+  "sha256": "1c519b4e10c56e67c2e1111459ac4f0de2778fd25bb2db5a0b97fe5d01f8a147",
   "ayristi": true
  },
  "hukum": "DENK"

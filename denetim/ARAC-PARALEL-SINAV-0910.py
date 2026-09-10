@@ -32,7 +32,31 @@ import os, io, re, sys, json, time, shutil, subprocess, hashlib
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(KOK, "arac", "uret_petek.py")
 HEDEF_DIZIN = os.path.join(KOK, "denetim", "_paralel")
-HEDEF = os.path.join(HEDEF_DIZIN, "motor_sinav.py")
+# 🔴 AD, NE OLDUGUNU SOYLER (D095 · koordinatorun sarti). Eski adi
+# "motor_sinav.py" idi ve bir dizin listesinde URETIM MOTORU sanilabilirdi.
+# ⚠️ SAPMA, ADIYLA: koordinator dosyayi dogrudan `denetim/` altina onerdi;
+#    `denetim/_paralel/` altinda TUTULDU ve sebebi olculmus bir riskten:
+#    YAZIM KALKANI'nin cevresi `dirname(__file__)`. Dosya `denetim/`e
+#    konsaydi kalkan `denetim/`in TAMAMINA yazma izni verirdi — yani BU
+#    OTURUMUN RAPORLARININ durdugu dizine. Cevreyi dar tutmak, adlandirma
+#    kuralindan once gelir; ad sarti zaten dosya adiyla karsilaniyor.
+HEDEF = os.path.join(HEDEF_DIZIN, "_PARALEL-SINAV-MOTOR-0910.py")
+
+
+def kaynak_kimligi():
+    """Kopyanin HANGI SURUMDEN alindigini olcer — beyan degil, git'ten."""
+    def _g(a):
+        try:
+            return subprocess.run(a, cwd=KOK, capture_output=True,
+                                  text=True).stdout.strip()
+        except Exception:
+            return "olculemedi"
+    return {
+        "commit": _g(["git", "log", "-1", "--format=%h %ad", "--date=short",
+                      "--", "arac/uret_petek.py"]),
+        "calisma_kopyasi_sha": _g(["git", "hash-object", "arac/uret_petek.py"]),
+        "head_sha": _g(["git", "rev-parse", "HEAD:arac/uret_petek.py"]),
+    }
 
 # --------------------------------------------------------------------------
 # 🔴 ENJEKSIYON ⓪ — YAN ETKI KESME. Kopya oldugu gibi kosarsa GERCEK
@@ -52,6 +76,14 @@ _SINAV = bool(os.environ.get("PARALEL_TEST_KUCULT"))
 if _SINAV:
     _SKOK = os.environ["PARALEL_TEST_KOK"]
     sys.path.insert(0, os.path.join(_SKOK, "arac"))
+    # 🔴 PALET DE CANLI GIRDIDIR — ve bunu SINAVIN KENDI CAPASI gosterdi:
+    # bir turda `girdi_izi` AYNI cikti ama ETA 7.310 -> 7.257 ve devlet
+    # 60 -> 59. Fark YERLER'den gelemezdi ⇒ `arac/renkler.py` (BOYALAR)
+    # kosular arasinda degismisti. Dondurma `data/`yi kapsiyordu, PALETI
+    # KAPSAMIYORDU. Dondurulmus kopya yolun BASINA konur ki
+    # `from renkler import BOYALAR` onu bulsun.
+    if os.environ.get("PARALEL_TEST_DATA"):
+        sys.path.insert(0, os.environ["PARALEL_TEST_DATA"])
     import types as _ty
     _st = _ty.ModuleType("kosu_kilit")
     _st.al = lambda *a, **k: True
@@ -105,6 +137,21 @@ YAMA_DAMGA = '''io.open(os.path.join(os.path.dirname(os.path.abspath(__file__)),
         "w", encoding="utf-8").write(
     _BASLADI.strftime("%Y-%m-%d %H:%M:%S") + "\\n")'''
 
+# 🔴 ENJEKSIYON ⓪d — GIRDIYI DONDUR. Depo CANLI: 20+ oturum calisiyor ve
+# `data/yerlesimler*.js` koşular ARASINDA degisiyor. ÖLÇÜLDÜ — iki kosu 51
+# saniye arayla FARKLI girdi gordu (girdi izi ayri, ETA 7.312 vs 7.310).
+# O hâlde A/B kiyasi ne denk ne ayrisik olur: YANILTICI olur.
+# ⇒ Sinav, girdiyi BIR KEZ dondurur; iki kosu da AYNI dondurulmus kopyadan
+#   okur. `girdi.anlik_goruntu()` zaten kopya aliyor ama KOSU BASINA —
+#   yani iki kosunun iki AYRI anlik goruntusu oluyordu.
+CAPA_GIRDI = 'import girdi'
+YAMA_GIRDI = '''import girdi
+# ═══ PARALEL SINAV ENJEKSIYONU ⓪d — DONDURULMUS GIRDI ═══
+if os.environ.get("PARALEL_TEST_DATA"):
+    girdi.DATA = os.environ["PARALEL_TEST_DATA"]
+    print("  [SINAV] GIRDI DONDURULDU ->", girdi.DATA)
+'''
+
 CAPA_BOLGE = 'BOLGE = box(-180, -60, 180, 85)'
 YAMA_BOLGE = '''BOLGE = box(-180, -60, 180, 85)
 # ═══ PARALEL SINAV ENJEKSIYONU ① — DAR PENCERE ═══
@@ -123,6 +170,16 @@ if os.environ.get("PARALEL_TEST_KUCULT"):
     YERLER = [_y for _y in YERLER
               if _px0 <= _y["lon"] <= _px1 and _py0 <= _y["lat"] <= _py1]
     print("  [SINAV] YERLER %d -> %d" % (_n0, len(YERLER)))
+    # 🔴 GIRDI PARMAK IZI — ve BU SATIR OLCULMUS BIR TEHDIDE KARSI KONDU:
+    # depo CANLI. Iki kosu ~60 sn arayla koşuyor ve o pencerede baska bir
+    # oturum `data/yerlesimler*.js`e yazabilir (olculdu: 404afc0 ve 7c7e80d
+    # tam bu dosyaya dokundu). O zaman sirali ile paralel FARKLI GIRDI gorur
+    # ve hash kiyasi SESSIZCE anlamsizlasir — ne denk ne ayrisik, YANILTICI.
+    # ⇒ Asamanin TUKETTIGI verinin ozeti basilir; sinav ikisini karsilastirir.
+    import hashlib as _hl0
+    print("  [SINAV] GIRDI IZI %s" % _hl0.sha256(json.dumps(
+        YERLER, sort_keys=True, ensure_ascii=False,
+        separators=(",", ":")).encode("utf-8")).hexdigest())
 '''
 
 CAPA_CIKIS = 'asama("Dönemler kuruluyor (delta yapısı)")'
@@ -260,13 +317,40 @@ def kopya_kur():
     os.makedirs(HEDEF_DIZIN, exist_ok=True)
     s = io.open(SRC, encoding="utf-8").read()
     s = yama(s, CAPA_YOL, YAMA_YOL, "⓪ YOL+KILIT")
+    s = yama(s, CAPA_GIRDI, YAMA_GIRDI, "⓪d DONDURULMUS GIRDI")
     s = yama(s, CAPA_KOK, YAMA_KOK, "⓪b KOK")
     s = yama(s, CAPA_DAMGA, YAMA_DAMGA, "⓪c DAMGA")
     s = yama(s, CAPA_BOLGE, YAMA_BOLGE, "① BOLGE")
     s = yama(s, CAPA_YERLER, YAMA_YERLER, "② YERLER")
     s = yama(s, CAPA_CIKIS, YAMA_CIKIS, "③ HASH+CIKIS")
     s = yama(s, CAPA_DONGU, YAMA_DONGU_BAS, "④ PARALEL DONGU")
+    # ---- UST YAZI: bu dosyanin NE OLDUGU ve NEREDEN geldigi ---------------
+    k = kaynak_kimligi()
+    ust = (
+        '# ' + '=' * 74 + '\n'
+        '# 🔴🔴 BU BIR SINAV KOPYASIDIR — URETIMDE KULLANILMAZ.\n'
+        '#\n'
+        '#   Uretilen:  ARAC-PARALEL-SINAV-0910.py  (mekanik, her kosuda YENIDEN)\n'
+        '#   Kaynak  :  arac/uret_petek.py\n'
+        '#   commit  :  %s\n'
+        '#   kaynak sha (calisma kopyasi): %s\n'
+        '#   kaynak sha (HEAD)          : %s\n'
+        '#   uretildigi an: %s\n'
+        '#\n'
+        '#   ELLE DUZENLENMEZ — her sinav kosusunda uzerine yazilir.\n'
+        '#   Dort enjeksiyon tasir: (0) yan etki kesme + YAZIM KALKANI\n'
+        '#   (1) BOLGE daraltma  (2) YERLER suzme  (3) hash+cikis\n'
+        '#   (4) iki fazli paralel dongu.\n'
+        '#   Yazim kalkani olmadan bu dosya GERCEK DEPO DOSYALARINI EZER —\n'
+        '#   olculdu: veri-kaynak/motor_kara.geojson ve data/bolgeler.js.\n'
+        '# ' + '=' * 74 + '\n'
+    ) % (k["commit"], k["calisma_kopyasi_sha"], k["head_sha"],
+         time.strftime("%Y-%m-%d %H:%M:%S"))
+    s = ust + s
     io.open(HEDEF, "w", encoding="utf-8").write(s)
+    globals()["KAYNAK_KIMLIK"] = k
+    globals()["KOPYA_SHA"] = hashlib.sha256(s.encode("utf-8")).hexdigest()
+    print("  kaynak: %s · kopya sha256 %s" % (k["commit"], KOPYA_SHA[:16]))
     # kaynak DEGISMEDI mi — paranoyak dogrulama
     if io.open(SRC, encoding="utf-8").read() == s:
         sys.exit("KAYNAK DEGISMIS OLABILIR — DURUYORUM")
@@ -292,10 +376,52 @@ def kosu(mod, kutu, isci=4, boz=False):
     return p.returncode, sn
 
 
+def girdi_dondur():
+    """GIRDI dosyalarinin TEK bir kopyasini alir — iki kosu da BUNDAN okur.
+    Kopya alinirken girdi degisirse TEKRARLANIR (girdi.anlik_goruntu'nun
+    kendi mantigi; burada kosular ARASI degisimi de kapatiyor)."""
+    sys.path.insert(0, os.path.join(KOK, "arac"))
+    import girdi as _g
+    hedef = os.path.join(HEDEF_DIZIN, "_girdi_dondu")
+    if os.path.isdir(hedef):
+        shutil.rmtree(hedef)
+    os.makedirs(hedef)
+    dosyalar = list(_g.GIRDI_DOSYALARI) + [_g.GOL_DOSYASI]
+
+    # PALET de dondurulur — `arac/renkler.py` (BOYALAR) canli girdidir.
+    PALET = os.path.join(KOK, "arac", "renkler.py")
+
+    def _ozet():
+        h = hashlib.sha256()
+        for ad in dosyalar:
+            y = os.path.join(_g.DATA, ad)
+            if os.path.exists(y):
+                h.update(io.open(y, "rb").read())
+        h.update(io.open(PALET, "rb").read())
+        return h.hexdigest()
+
+    for deneme in range(1, 6):
+        once = _ozet()
+        for ad in dosyalar:
+            y = os.path.join(_g.DATA, ad)
+            if os.path.exists(y):
+                shutil.copy2(y, os.path.join(hedef, ad))
+        shutil.copy2(PALET, os.path.join(hedef, "renkler.py"))
+        if _ozet() == once:
+            print("  girdi DONDURULDU: %d veri dosyasi + renkler.py · iz %s%s"
+                  % (len(dosyalar), once[:16],
+                     "" if deneme == 1 else " (%d. denemede)" % deneme))
+            return hedef, once
+    sys.exit("Girdi 5 denemede de durulmadi — sinav kurulamadi")
+
+
 def main():
     kutu = os.environ.get("SINAV_KUTU", "26,36,45,42")
     isci = int(os.environ.get("SINAV_ISCI", "4"))
     print("SINAV KUTUSU:", kutu, "· isci:", isci)
+    os.makedirs(HEDEF_DIZIN, exist_ok=True)
+    donuk, donuk_iz = girdi_dondur()
+    os.environ["PARALEL_TEST_DATA"] = donuk
     kopya_kur()
     sonuc = {"kutu": kutu, "isci": isci}
     for mod in ("sirali", "paralel"):
@@ -311,6 +437,50 @@ def main():
                     "w", encoding="utf-8").write(
                 json.dumps(sonuc, ensure_ascii=False, indent=1))
             sys.exit(1)
+
+    # ---- ③ ENJEKSIYONUN KENDISI SINANIR ------------------------------------
+    # "Kucultme IKI TARAFTA DA ayni mi?" — degilse A/B olcumu SESSIZCE
+    # anlamini yitirir: iki kosu farkli girdi gorur ve hash zaten ayrisir
+    # (ya da tesadufen ayrismaz) — iki hâlde de hukum HUKUMSUZDUR.
+    # 🔴 Beyanla degil, iki KOSUNUN KENDI LOGUNDAN olculur.
+    def _kucultme_izi(mod):
+        t = io.open(os.path.join(HEDEF_DIZIN, "log_%s.txt" % mod),
+                    encoding="utf-8", errors="replace").read()
+        iz = {}
+        for satir in t.splitlines():
+            if "BOLGE daraltildi" in satir:
+                iz["bolge"] = satir.split("->")[-1].strip()
+            elif "[SINAV] YERLER" in satir:
+                iz["yerler"] = satir.split("YERLER")[-1].strip()
+            elif "[SINAV] GIRDI IZI" in satir:
+                iz["girdi_izi"] = satir.split("GIRDI IZI")[-1].strip()
+            elif "ETA ağırlığı hazır" in satir:
+                iz["eta"] = satir.strip()
+            elif "devlet," in satir and "dönem" in satir:
+                iz["devlet_donem"] = satir.strip()
+        return iz
+
+    izler = {m: _kucultme_izi(m) for m in ("sirali", "paralel")}
+    ayni = izler["sirali"] == izler["paralel"]
+    sonuc["kopya_sha256"] = globals().get("KOPYA_SHA")
+    sonuc["kaynak"] = globals().get("KAYNAK_KIMLIK")
+    sonuc["kucultme_izi"] = izler
+    sonuc["kucultme_ayni"] = ayni
+    print("")
+    print("  ③ ENJEKSIYON SIMETRISI: kucultme iki tarafta da ayni mi -> %s"
+          % ("EVET" if ayni else "🔴 HAYIR"))
+    for k2, v2 in izler["sirali"].items():
+        print("       %-13s %s" % (k2, v2))
+    if not ayni:
+        sonuc["hukum"] = "HUKUMSUZ — KUCULTME IKI TARAFTA AYNI DEGIL"
+        print("🔴 A/B olcumu anlamsiz: iki kosu FARKLI girdi gordu.")
+        for m in ("sirali", "paralel"):
+            print("   %s: %s" % (m, izler[m]))
+        io.open(os.path.join(KOK, "denetim",
+                             "PARALEL-SINAV-SONUC-0910.json"),
+                "w", encoding="utf-8").write(
+            json.dumps(sonuc, ensure_ascii=False, indent=1))
+        sys.exit(1)
 
     h = {}
     for mod in ("sirali", "paralel"):

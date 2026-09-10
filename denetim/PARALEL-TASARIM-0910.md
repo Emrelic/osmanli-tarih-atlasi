@@ -29,6 +29,27 @@ koşu 8 toplam                          1205,5 dk  (20s 05dk)
 kontrolünden SONRA başlıyor) — yani 1833 ve 209, o önbelleklerin
 **benzersiz anahtar sayısıdır.**
 
+🟢 **TABAN ÇAPRAZ ÖLÇÜLDÜ** (`D034`: bir bilgi iki yerde duruyorsa biri
+bayatlar). Koordinatör `kosu_zincir.log:20664`ü verdi; `kosu8.log` ile
+**birebir aynı** çıktı. Ve aynı dosyanın 16073. satırında bir ÖNCEKİ
+koşu duruyor — bağımsız bir doğrulama:
+```
+                        koşu 7 (16073)        koşu 8 (20664)
+yabancı gövde geo.   3613 · 12s52dk %76,7   3629 · 15s35dk %77,7
+kuşatılmışlık        1827 ·    50dk %5,0    1833 · 1s01dk  %5,1
+varlık devri          209 ·     2dk %0,2     209 ·    3dk  %0,3
+```
+⇒ Önbellek **anahtar sayıları kararlı** (209 = 209 · 1827 ≈ 1833).
+
+🔴 **VE KOORDİNATÖRÜN VERDİĞİ TABAN, İKİ ÖNBELLEĞİN KÜÇÜĞÜYDÜ.**
+Sevkte *"`varlık devri` %0,3 — önbellek kaybının tavanı görünenden küçük
+olabilir"* deniyordu. Doğru, ama `petek_epok` **iki önbellekten
+küçüğüdür**: `_kusatilmis` **1833 anahtar / 1s 01dk 24sn / %5,1** —
+zaman olarak **20 kat** büyük.
+⇒ Süreç tasarımında her işçi bu 1 saati **yeniden öder**; iş parçacığı
+tasarımında önbellek **paylaşıldığı için sıfırdır.** Bu, `§⑤`teki
+"önce iş parçacığı" önerisinin ölçülmüş gerekçesidir.
+
 ## ② MAKİNE — ölçüldü, varsayılmadı
 
 ```
