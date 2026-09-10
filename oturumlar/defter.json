@@ -1,5 +1,5 @@
 {
- "_damga": "2026-09-10 17:07",
+ "_damga": "2026-09-10 17:46",
  "_haller": {
   "ALDIM": {
    "aciklama": "şartname ulaştı, başlıyorum",
@@ -52,8 +52,8 @@
  ],
  "_olcum": {
   "kaynak": "kutu/emeklilik.py",
-  "kosan": 1,
-  "z": "2026-09-10 17:07"
+  "kosan": 3,
+  "z": "2026-09-10 17:39"
  },
  "oturumlar": {
   "local_01bec65d-b7a3-4814-a006-0e9a3128ab45": {
@@ -494,6 +494,24 @@
     "z": "2026-09-09 21:47"
    },
    "olcum_zamani": "2026-09-09 21:47"
+  },
+  "local_144c89d6-c3d6-4c9c-930f-3b4328a539df": {
+   "acilis": "2026-09-10 17:42",
+   "ad": "İZ-YOK DENETİM A",
+   "gecmis": [
+    {
+     "kova": "gorevde",
+     "not": "",
+     "z": "2026-09-10 17:42"
+    }
+   ],
+   "kimlik": "local_144c89d6-c3d6-4c9c-930f-3b4328a539df",
+   "kova": "gorevde",
+   "model": "opus",
+   "sartname": "oturumlar/IZ-YOK-DENETIM-A.md",
+   "takma_adlar": [
+    "İZ-YOK DENETİM A"
+   ]
   },
   "local_154da79b-ff1d-4c91-8565-577ec124d5c7": {
    "ad": "MOTOR DENİZAŞIRI",
@@ -1149,6 +1167,24 @@
     "z": "2026-09-09 21:47"
    },
    "olcum_zamani": "2026-09-09 21:47"
+  },
+  "local_4137e455-6e46-4292-95b1-547e515aea74": {
+   "acilis": "2026-09-10 17:46",
+   "ad": "İZ-YOK DENETİM C",
+   "gecmis": [
+    {
+     "kova": "gorevde",
+     "not": "",
+     "z": "2026-09-10 17:46"
+    }
+   ],
+   "kimlik": "local_4137e455-6e46-4292-95b1-547e515aea74",
+   "kova": "gorevde",
+   "model": "sonnet",
+   "sartname": "oturumlar/IZ-YOK-DENETIM-C.md",
+   "takma_adlar": [
+    "İZ-YOK DENETİM C"
+   ]
   },
   "local_439bbe3b-ec4a-40ec-97b8-439f8d1c0979": {
    "ad": "ARAŞTIRMA KÜNYE 2",
@@ -2185,15 +2221,15 @@
    "model": "?",
    "nobetciler": [],
    "olcum": {
-    "baglam": 652415,
-    "bosta_dk": 0,
+    "baglam": 659115,
+    "bosta_dk": 14,
     "hukum": "🔴 ÖNCE YAZ",
-    "istek": 17998,
+    "istek": 18006,
     "rol": "koordinator",
-    "sebep": "bağlam 652 K ≥ 208 K (taze tabanın 2 katı) VE depoda 224 dosya commit'siz — sıkıştırmadan ya da devretmeden ÖNCE hasat: yazılmamış olan, iki yolda da kaybolur",
-    "z": "2026-09-10 17:07"
+    "sebep": "bağlam 659 K ≥ 208 K (taze tabanın 2 katı) VE depoda 224 dosya commit'siz — sıkıştırmadan ya da devretmeden ÖNCE hasat: yazılmamış olan, iki yolda da kaybolur",
+    "z": "2026-09-10 17:39"
    },
-   "olcum_zamani": "2026-09-10 17:07"
+   "olcum_zamani": "2026-09-10 17:39"
   },
   "local_6f4a0887-83bf-4edb-b701-478a143605aa": {
    "ad": "ŞEHİR -KARTI",
@@ -2403,6 +2439,27 @@
     "z": "2026-09-09 04:51"
    },
    "olcum_zamani": "2026-09-09 04:51"
+  },
+  "local_767848ed-4153-4df9-95dc-23b093bfb34e": {
+   "ad": "Sonnet hazır kıta",
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+   "gecmis": [],
+   "gorev": "",
+   "hal": "CALISIYORUM",
+   "kimlik": "local_767848ed-4153-4df9-95dc-23b093bfb34e",
+   "kova": "gorevde",
+   "model": "?",
+   "nobetciler": [],
+   "olcum": {
+    "baglam": 154743,
+    "bosta_dk": 0,
+    "hukum": "✅ çalışıyor",
+    "istek": 7,
+    "rol": "isci",
+    "sebep": "bağlam 155 K · 7 istek",
+    "z": "2026-09-10 17:39"
+   },
+   "olcum_zamani": "2026-09-10 17:39"
   },
   "local_781b07b5-ad58-4532-b8d6-ff880fbc8cb1": {
    "ad": "NOKTA HALKA-2 3",
@@ -3535,6 +3592,24 @@
     "ÇAPRAZ KUZEY"
    ]
   },
+  "local_b60fb036-d58c-4983-93af-6864989b08e2": {
+   "acilis": "2026-09-10 17:46",
+   "ad": "İZ-YOK DENETİM B",
+   "gecmis": [
+    {
+     "kova": "gorevde",
+     "not": "",
+     "z": "2026-09-10 17:46"
+    }
+   ],
+   "kimlik": "local_b60fb036-d58c-4983-93af-6864989b08e2",
+   "kova": "gorevde",
+   "model": "sonnet",
+   "sartname": "oturumlar/IZ-YOK-DENETIM-B.md",
+   "takma_adlar": [
+    "İZ-YOK DENETİM B"
+   ]
+  },
   "local_b71ae7a8-fdc8-4d9e-a871-1f9763bf566d": {
    "ad": "ARAŞTIRMA KÜNYE 4",
    "calisiyor": false,
@@ -3865,6 +3940,27 @@
     "Opus Hazır Kıta",
     "Opus Hazır Kıta (11 Agu)"
    ]
+  },
+  "local_c69f1fa6-bb6d-4e46-8e63-5c1f0ef18f7f": {
+   "ad": "İŞÇİ-0910-A (görev bekliyor)",
+   "dizin": "C:\\Users\\emrem\\OneDrive\\Desktop\\TARİH COĞRAFYA SİTESİ",
+   "gecmis": [],
+   "gorev": "",
+   "hal": "CALISIYORUM",
+   "kimlik": "local_c69f1fa6-bb6d-4e46-8e63-5c1f0ef18f7f",
+   "kova": "gorevde",
+   "model": "?",
+   "nobetciler": [],
+   "olcum": {
+    "baglam": 165145,
+    "bosta_dk": 0,
+    "hukum": "✅ çalışıyor",
+    "istek": 12,
+    "rol": "isci",
+    "sebep": "bağlam 165 K · 12 istek",
+    "z": "2026-09-10 17:39"
+   },
+   "olcum_zamani": "2026-09-10 17:39"
   },
   "local_c97147bd-2e04-4a81-a378-602b270450a8": {
    "ad": "ÇAPRAZ İBERYA",
