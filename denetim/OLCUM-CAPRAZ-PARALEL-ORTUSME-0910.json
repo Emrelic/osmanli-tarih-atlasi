@@ -1,0 +1,43 @@
+{
+ "faz1_fonksiyon_sayisi": 26,
+ "faz2_yazdigi_kaplar": [
+  "_PUAN_KESILEN",
+  "_PUAN_TAMAMEN",
+  "_SAYAC",
+  "DEVLET_KAYIT",
+  "DEV_HALKA",
+  "DEV_HALKA_IX",
+  "DEV_PARCA",
+  "DEV_PARCA_IX"
+ ],
+ "kesisim": {
+  "sayac": {
+   "_SAYAC": [
+    282
+   ]
+  }
+ },
+ "kesisim_bos_mu": false,
+ "sayac_anahtari_FAZ1": {
+  "kuşatılmışlık (_kusatilmis)": [
+   "_kusatilmis:3274"
+  ],
+  "varlık devri (petek_epok)": [
+   "petek_epok:3590"
+  ]
+ },
+ "sayac_anahtari_MODUL": {
+  "Osmanlı gövde geometrisi": [
+   "modul:4961"
+  ],
+  "serbest kenar (sahipsiz sınır)": [
+   "modul:4964"
+  ],
+  "yabancı gövde geometrisi": [
+   "modul:4657",
+   "modul:4685",
+   "modul:4649"
+  ]
+ },
+ "ORTAK_SAYAC_ANAHTARI": []
+}

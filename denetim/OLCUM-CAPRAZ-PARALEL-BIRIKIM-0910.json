@@ -1,0 +1,17 @@
+{
+ "A_list_hizli_tuketici": {
+  "tepe_canli": 200,
+  "sn": 0.24
+ },
+ "B_uretec_hizli_tuketici": {
+  "tepe_canli": 4,
+  "sn": 0.23
+ },
+ "C_uretec_yavas_tuketici": {
+  "tepe_canli": 179,
+  "sn": 2.1
+ },
+ "is_sayisi": 200,
+ "isci": 4,
+ "hukum": "KAPANIR"
+}

@@ -1,0 +1,27 @@
+{
+ "taban_hepsi_kossaydi_sn": 2.0,
+ "is": 400,
+ "isci": 4,
+ "A": {
+  "gecen_sn": 0.07,
+  "baslayan_is": 11,
+  "toplam_is": 400,
+  "istisna": "RuntimeError: ISCI PATLADI (is 5)",
+  "bekleyenler_iptal_edildi_mi": true
+ },
+ "B": {
+  "gecen_sn": 0.07,
+  "baslayan_is": 10,
+  "toplam_is": 400,
+  "istisna": "RuntimeError: ISCI PATLADI (is 5)",
+  "bekleyenler_iptal_edildi_mi": true
+ },
+ "C": {
+  "gecen_sn": 0.09,
+  "baslayan_is": 10,
+  "toplam_is": 400,
+  "istisna": "RuntimeError: TUKETICI (FAZ 2) PATLADI (is 5)",
+  "bekleyenler_iptal_edildi_mi": true
+ },
+ "asilma_riski": false
+}
