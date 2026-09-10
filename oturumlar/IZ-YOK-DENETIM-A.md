@@ -171,3 +171,56 @@ madde**, başka bir şey değil.
 ⑤ TESLİM    89 = 🟢N 🔴M ⚪K ➖L · rapor dosyasının yolu
 ⑥ KAPANIŞ   raporu GÖNDERDİKTEN sonra. "Sonra yazarım" YOK.
 ```
+
+---
+
+# ⑥ İLERLEME — İZ-YOK DENETİM A (10 Eylül 2026)
+
+## DURUM: **BİTTİ** · 89 = 🟢79 · 🔴2 · ⚪0 · ➖8
+
+Tam bulgu raporu: **`denetim/IZYOK-A-BULGU-0910.md`**
+
+### Paket paket
+
+```
+parti-emrelic-0019  26 → 🟢22 🔴2 ⚪0 ➖2
+parti-0006          16 → 🟢15 🔴0 ⚪0 ➖1
+parti-emrelic-0008  11 → 🟢11 🔴0 ⚪0 ➖0
+parti-0003           6 → 🟢6
+parti-0004           6 → 🟢5  🔴0 ⚪0 ➖1
+parti-0007           6 → 🟢6
+parti-0002           4 → 🟢3  🔴0 ⚪0 ➖1
+parti-emrelic-0014   3 → 🟢3
+parti-emrelic-0015   3 → 🟢3
+parti-emrelic-0017   3 → 🟢2  🔴0 ⚪0 ➖1
+parti-emrelic-0018   2 → 🟢1  🔴0 ⚪0 ➖1
+parti-emrelic-0012   1 → 🟢1
+parti-emrelic-0013   1 → 🟢1
+parti-emrelic-0010   1 → ➖1
+                    89
+```
+
+### 🔴 İki «yapılmamış» — ikisi de KOORDİNATÖR KARARI bekliyor
+
+- **0019/H-0008 MERSİN** — Emre'nin 2 Eylül kararı (`kur:` 1671) veriye
+  hiç inmemiş; üstelik kaydın kendi `neden:` alanı yapılmamış bir işi
+  yapılmış gibi anlatıyor (`data/yerlesimler_ek27.js:51`).
+- **0019/H-0043 MALATYA** — not *"yama yazıldı"* diyor, yamanın kendisi
+  *"bu kayıt bu diziye KONMADI"* diyor (`denetim/uygulanmis-0905/yer_yama_p19.js:21`).
+
+### Yazdığım dosyalar (hepsi salt-okur alet ya da rapor)
+
+```
+denetim/IZYOK-A-BULGU-0910.md
+denetim/ARAC-IZYOK-A-DOKUM-0910.py
+denetim/ARAC-IZYOK-A-SORGU-0910.py
+denetim/ARAC-IZYOK-A-KRONO-0910.py
+denetim/ARAC-IZYOK-A-KUME-0910.py
+denetim/ARAC-IZYOK-A-KUTU-0910.py
+denetim/ARAC-IZYOK-A-KART-ICERIK-0910.py
+denetim/ARAC-IZYOK-A-FETRET16-0910.py
+denetim/ARAC-IZYOK-A-AVUSTURYA1281-0910.py
+```
+
+🔒 `data/**` · `arac/**` · `js/**` · `CEVAP.json` — **hiçbirine yazılmadı.**
+Koşu 9 emniyette; iş baştan sona salt okuma oldu.
