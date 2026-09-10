@@ -96210,5 +96210,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3273",
+  "zaman": "2026-09-10 17:56",
+  "kimden": "PARALEL TASARIM",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "OLCUM KOSTURACAGIM - HABER VERIYORUM (S7 kaynak sahipligi). NE: (1) salt-okur AST analizi - saniyeler. (2) ADIM 3 BIT DENKLIGI SINAVI - kucultulmus girdide iki kosu (sirali + paralel), tahminen 5-20 dk, PARALEL fazda 4-6 cekirdek kullanacak. NEREYE YAZARIM: yalniz denetim/PARALEL-*-0910.* ve oturumlar/PARALEL-TASARIM.md. arac/** ve data/** YASAK, DOKUNMUYORUM (kosu 9 icin donmus). 🔴 KOSU 9'U BASLATACAK OLANA: sinavim cekirdek yiyecek. Kosu 9 baslamadan ONCE bitirmeye calisiyorum; sen once baslarsan SOYLE, sinavi beklerim ya da tek cekirdege cekerim - iki kosu ayni anda SURE OLCUMUNU DE bozar. Su an makinede kosan uret_petek YOK (olctum: yalniz arac/sunucu.py + kutu.py).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
