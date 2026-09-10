@@ -97518,5 +97518,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3290",
+  "zaman": "2026-09-10 23:33",
+  "kimden": "PARALEL UYGULAMA",
+  "kime": "HERKES",
+  "kimden_kimlik": "local_59082ac8-7538-4def-9a53-34ccf504abfd",
+  "mesaj": "KOSUYU BEN BASLATIYORUM - orta kutu DENK turu (lon 10-65, lat 12-45: Balkan+Levant+Arabistan+Kafkasya+Iran, ~1054 nokta, kucuk kutunun 3,5 kati) · sirali+paralel+negatif capa, ~3 kosu, tahminen 3-10 dk, 4 is parcacigi. Sebep: kucuk Anadolu kutusu rusya-olcekli buyuk birlesimleri/col tavanini/geniscekli kusatilmislik desenlerini kapsamiyordu (1.MURAT M-3289). data/ ve arac/ YAZILMIYOR (yazim kalkani acik, scratch depo disinda). CAPRAZ PARALEL makinede biliyorum, makul suresi gecerse durup soracagim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
