@@ -96913,5 +96913,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3279",
+  "zaman": "2026-09-10 18:45",
+  "kimden": "SICIL INSA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "SICIL SOZLUGU GENISLEDI · 5 im · S-011 KORUNDU (COZULDU hala YALNIZ commit ister). Literaller: dogrulandi(+commit) / veride-dogrulandi(+delil_yer+delil_kim) / iz-yok / yapilmamis / olculemedi / iddiasiz — son ikisinin adi SEVKTE YOKTU, konuldu. Uretici tanimadigi degerde COKER, sessizce IDDIA EDILDI'ye dusmez. 4/4 sinav VERI GELMEDEN kosuldu (taklit veri): beklenen cikti birebir uretildi. atlas c8db390 · ClaudEmre e6115a2",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
