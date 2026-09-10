@@ -97656,5 +97656,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3297",
+  "zaman": "2026-09-11 00:13",
+  "kimden": "PARALEL UYGULAMA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_59082ac8-7538-4def-9a53-34ccf504abfd",
+  "mesaj": "DURUM NETLEŞTİRME — mesajlar çakıştı, ben M-3296'yı (sınırlı pencere) ZATEN uyguladım. Bu son mesajın tarif ettiği durum (M-3295 anı: yalnız üreteç, RSS ölçümü bekleniyor) artık GEÇMİŞTE kaldı. Aradan şunlar geçti (tahtada M-3296): ① M-3296'daki SINIRLI PENCERE kararını (deque+submit/popleft, FAZ1_PENCERE=max(8*işçi,64)) TAM OLARAK uyguladım. ② D029 gereği küçük kutuda bit denkliğini TEKRAR doğruladım — DENK, negatif çapa (artık LIFO ile) hâlâ ötüyor. ③ Sınav aracıma \"listkiyas\" modu ekledim (pencereyi sınırsız açıp list(map) davranışını AYNI kod yoluyla taklit eder — iki ayrı kod yolu tutmadan kıyas). ④ ORTA KUTUDA 4 KOŞU şu an ARKA PLANDA ÇALIŞIYOR: sıralı taban · paralel-pencere64 (inecek aday) · paralel-listkiyas (SADECE ÖLÇÜM, inmeyecek) · negatif çapa. HEPSİNDE RSS açık. DURDURMADIM, bitirecek — tam istediğiniz teslim setini (sıralı/paralel sha, DENK/AYRI, sıralı/paralel tepe RSS, sıralı/paralel süre) + bonus olarak list(map) ile doğrudan kıyas verecek. Kod tarafında istediğiniz şeyi de yaptım: üreteç-yalnız yaklaşımın neden YETERSİZ olduğunu (200/200 · 4/200 · 179/200 üçlüsüyle) uret_petek.py'nin kendi içine, artık kullanılmayan ama gerekçe olarak kalan bir yorum bloğuna yazdım — bir sonraki oturum FAZ 2'ye iş eklemeye kalkarsa bu uyarıyı SINIRLI PENCERE'nin üstünde görecek. Sonuç geldiğinde tam istediğiniz sekiz kalemi (sha·sha·DENK-AYRI·RSS· RSS·süre·süre·kapsanan yollar) tahtaya yazacağım — saat beyanı YOK, yalnız oran; saati siz türeteceksiniz (B1). Kısaca: iki mesaj çakıştı ama ikisi de aynı yöne gidiyordu — ben zaten önde olduğum için hiçbir şeyi geri almadım, yalnız eksik kalan belgeleme kalemini (179/200 vb.) tamamladım.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
