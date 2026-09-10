@@ -188,7 +188,13 @@ if os.environ.get("PARALEL_TEST_KUCULT"):
     import hashlib as _hl
     _mod = os.environ.get("PARALEL_TEST_MOD", "sirali")
     if os.environ.get("PARALEL_TEST_BOZ") == "1":
-        _mod = "paralel-boz"
+        # 🔴 BURADA "paralel-boz" SABIT YAZILIYDI ve `donem` kipi eklenince
+        #    donem-boz kosusu hash'ini `cikti_paralel-boz`a yazdi. Sonuc:
+        #    alet `cikti_donem-boz`u ARADI, BULAMADI, ve negatif capayi
+        #    "OTMEDI" sayip donem kipini HUKUMSUZ ilan etti — oysa cikti
+        #    GERCEKTEN ayrismisti (907.917 ≠ 907.757 bayt).
+        #    📌 Bir alet yanlis ETIKET basarsa, dogru sonucu YANLIS okur.
+        _mod = _mod + "-boz"
     _blob = (json.dumps(DEV_HALKA, separators=(",", ":")) + chr(10) +
              json.dumps(DEV_PARCA, separators=(",", ":")) + chr(10) +
              json.dumps(DEVLET_KAYIT, ensure_ascii=False,
@@ -299,6 +305,122 @@ if os.environ.get("PARALEL_TEST_MOD") == "paralel":
         if dnm:
             DEVLET_KAYIT.append({"id": did, "ad": dad, "renk": renk, "dnm": dnm})
     _BOYALAR_ITER = []
+elif os.environ.get("PARALEL_TEST_MOD") == "donem":
+    # ═══ DONEM BASINA BOLME — uc faz ═══════════════════════════════════
+    # FAZ 0 SIRALI  : donemler ve `aktif` kumeleri (motorun mantigi birebir)
+    # FAZ 1 PARALEL : YALNIZ geometri, (did, a, aktif) -> halka listesi
+    # FAZ 2 SIRALI  : BIRLESTIRME mantigi + havuza(), OZGUN sirayla
+    # 🔴 Birlestirme karari (`aktif == onceki and dnm`) HICBIR ZAMAN
+    #    paralel baglamda verilmiyor — kodun ":4443" yorumundaki endise
+    #    tam olarak burada kapaniyor.
+    from concurrent.futures import ThreadPoolExecutor as _TPE
+    _ISCI = int(os.environ.get("PARALEL_TEST_ISCI", "4"))
+
+    print("  [SINAV] DONEM FAZ 0 — plan kuruluyor (SIRALI)")
+    _plan = []
+    for _dv_i, (did, (dad, renk)) in enumerate(BOYALAR.items(), 1):
+        hj = [j for j, y in enumerate(YERLER)
+              if any(sp["d"] == did for sp in y["s"])]
+        if not hj:
+            continue
+        ts = set()
+        for j in hj:
+            for sp in YERLER[j]["s"]:
+                if sp["d"] == did:
+                    ts.add(sp["f"]); ts.add(sp["t"])
+            for dn in YERLER[j]["d"] + YERLER[j]["v"]:
+                ts.add(dn["f"]); ts.add(dn["t"])
+        ts2 = sorted(t for t in ts if EPOK <= t <= "1923-11-01")
+        if not ts2:
+            continue
+        if ts2[0] != EPOK:
+            ts2.insert(0, EPOK)
+        if ts2[-1] != "1923-11-01":
+            ts2.append("1923-11-01")
+        _dnl = []
+        for i in range(len(ts2) - 1):
+            a, b = ts2[i], ts2[i+1]
+            _dv = devir_kumesi(a)
+            aktif = frozenset(j for j in hj
+                              if j not in _dv
+                              and any(sp["d"] == did and sp["f"] <= a < sp["t"]
+                                      for sp in YERLER[j]["s"])
+                              and not _osm_aktif(YERLER[j], a))
+            if DOLGU_ACIK and aktif:
+                _ek = _dolgu_kumesi(a).get(did)
+                if _ek:
+                    aktif = aktif | _ek
+            _dnl.append((a, b, aktif))
+        _plan.append((did, dad, renk, _dnl))
+
+    # IS LISTESI = UST KUME: `aktif` bos olmayan HER donem.
+    # 🔴 Daraltmak (yalniz aktif != onceki) YANLIS OLUR: `dnm` bosken motor
+    #    BIRLESTIRMEZ, ayni aktif'i KENDI a'siyla yeniden hesaplar.
+    _isler = []
+    for _pi, (did, dad, renk, _dnl) in enumerate(_plan):
+        for _di, (a, b, aktif) in enumerate(_dnl):
+            if aktif:
+                _isler.append((_pi, _di, did, a, aktif))
+
+    def _donem_geo(_job):
+        _pi, _di, did, a, aktif = _job
+        _t_gv = time.time()
+        g = unary_union([petek_epok(a)[j] for j in aktif])
+        g = delikleri_doldur(kapat(g), sahip_ix=aktif)
+        g = gosterim_duzelt(g, aktif)
+        g = poligonal(g.intersection(KARA))
+        _kes, _tam = 0.0, 0
+        if not PUAN_KAPALI and not g.is_empty:
+            _pb = _puan_bolgesi(did, aktif, a)
+            _onc = _ham_km2(g)
+            g = poligonal(g.intersection(_pb)) if _pb is not None else Polygon()
+            _kes = max(0.0, _onc - _ham_km2(g))
+            if g.is_empty:
+                _tam = 1
+        _sure = time.time() - _t_gv
+        if g.is_empty:
+            return (_pi, _di, None, None, _kes, _tam, _sure)
+        rp = g.representative_point()
+        return (_pi, _di, mp_koord(g), [round(rp.x, 2), round(rp.y, 2)],
+                _kes, _tam, _sure)
+
+    print("  [SINAV] DONEM FAZ 1 — %d is / %d is parcacigi"
+          % (len(_isler), _ISCI))
+    with _TPE(max_workers=_ISCI) as _ex:
+        _sonuclar = list(_ex.map(_donem_geo, _isler))
+    _geo_ix = {(r[0], r[1]): r for r in _sonuclar}
+
+    print("  [SINAV] DONEM FAZ 2 — birlestirme + havuzlama OZGUN SIRAYLA")
+    _ustkume, _gercek = len(_isler), 0
+    for _pi, (did, dad, renk, _dnl) in enumerate(_plan):
+        _sira = list(enumerate(_dnl))
+        if os.environ.get("PARALEL_TEST_BOZ") == "1":
+            _sira = list(reversed(_sira))      # NEGATIF CAPA: donem sirasi
+        dnm = []; onceki = None
+        for _di, (a, b, aktif) in _sira:
+            if aktif == onceki and dnm and aktif:
+                dnm[-1]["t"] = b; continue
+            onceki = aktif
+            if not aktif:
+                continue
+            r = _geo_ix[(_pi, _di)]
+            _gercek += 1
+            _PUAN_KESILEN[0] += r[4]
+            _PUAN_TAMAMEN[0] += r[5]
+            sayac("yabancı gövde geometrisi", r[6])
+            if r[2] is None:
+                continue
+            dnm.append({"f": a, "t": b,
+                        "g": havuza(r[2], DEV_HALKA, DEV_HALKA_IX,
+                                    DEV_PARCA, DEV_PARCA_IX),
+                        "c": r[3]})
+        if dnm:
+            DEVLET_KAYIT.append({"id": did, "ad": dad, "renk": renk,
+                                 "dnm": dnm})
+    print("  [SINAV] UST KUME %d · GERCEKTE KULLANILAN %d · BOSA GIDEN %d "
+          "(%%%.1f)" % (_ustkume, _gercek, _ustkume - _gercek,
+                        100.0 * (_ustkume - _gercek) / max(1, _gercek)))
+    _BOYALAR_ITER = []
 else:
     _BOYALAR_ITER = list(enumerate(BOYALAR.items(), 1))
 
@@ -361,12 +483,15 @@ def kosu(mod, kutu, isci=4, boz=False):
     ort = dict(os.environ)
     ort["PARALEL_TEST_KOK"] = KOK
     ort["PARALEL_TEST_KUCULT"] = kutu
-    ort["PARALEL_TEST_MOD"] = "paralel" if boz else mod
+    ort["PARALEL_TEST_MOD"] = mod
     ort["PARALEL_TEST_ISCI"] = str(isci)
     if boz:
         ort["PARALEL_TEST_BOZ"] = "1"
     ort["PYTHONIOENCODING"] = "utf-8"
-    log = os.path.join(HEDEF_DIZIN, "log_%s.txt" % mod)
+    # 🔴 LOG ADI DA KIPI TASIR: eskiden boz kosusu ayni log'u EZIYORDU ve
+    #    "UST KUME" gibi satirlar HANGI kosudan geldigi belirsiz kaliyordu.
+    log = os.path.join(HEDEF_DIZIN,
+                       "log_%s%s.txt" % (mod, "-boz" if boz else ""))
     t0 = time.time()
     with io.open(log, "w", encoding="utf-8") as f:
         p = subprocess.run([sys.executable, HEDEF], cwd=KOK, env=ort,
@@ -415,124 +540,145 @@ def girdi_dondur():
     sys.exit("Girdi 5 denemede de durulmadi — sinav kurulamadi")
 
 
+def _iz(mod):
+    """Bir kosunun KUCULTME IZI — kosunun KENDI logundan, beyandan degil."""
+    t = io.open(os.path.join(HEDEF_DIZIN, "log_%s.txt" % mod),
+                encoding="utf-8", errors="replace").read()
+    z = {}
+    for satir in t.splitlines():
+        if "BOLGE daraltildi" in satir:
+            z["bolge"] = satir.split("->")[-1].strip()
+        elif "[SINAV] YERLER" in satir:
+            z["yerler"] = satir.split("YERLER")[-1].strip()
+        elif "[SINAV] GIRDI IZI" in satir:
+            z["girdi_izi"] = satir.split("GIRDI IZI")[-1].strip()
+        elif "ETA ağırlığı hazır" in satir:
+            z["eta"] = satir.strip()
+    return z
+
+
+def _hash(ad):
+    y = os.path.join(HEDEF_DIZIN, "cikti_%s.sha256" % ad)
+    return io.open(y, encoding="utf-8").read().strip() if os.path.exists(y) else None
+
+
+def _dus(sonuc, mesaj, mod=None):
+    print("🔴 " + mesaj)
+    if mod:
+        t = io.open(os.path.join(HEDEF_DIZIN, "log_%s.txt" % mod),
+                    encoding="utf-8", errors="replace").read()
+        print(chr(10).join(t.splitlines()[-25:]))
+    io.open(os.path.join(KOK, "denetim", "PARALEL-SINAV-SONUC-0910.json"),
+            "w", encoding="utf-8").write(
+        json.dumps(sonuc, ensure_ascii=False, indent=1))
+    sys.exit(1)
+
+
 def main():
     kutu = os.environ.get("SINAV_KUTU", "26,36,45,42")
     isci = int(os.environ.get("SINAV_ISCI", "4"))
-    print("SINAV KUTUSU:", kutu, "· isci:", isci)
+    # Hangi kipler sinanacak: "paralel" = DEVLET basina · "donem" = DONEM basina
+    kipler = os.environ.get("SINAV_KIPLER", "paralel,donem").split(",")
+    kipler = [k.strip() for k in kipler if k.strip()]
+    print("SINAV KUTUSU: %s · isci: %d · kipler: %s"
+          % (kutu, isci, ", ".join(kipler)))
     os.makedirs(HEDEF_DIZIN, exist_ok=True)
     donuk, donuk_iz = girdi_dondur()
     os.environ["PARALEL_TEST_DATA"] = donuk
     kopya_kur()
-    sonuc = {"kutu": kutu, "isci": isci}
-    for mod in ("sirali", "paralel"):
+
+    sonuc = {"kutu": kutu, "isci": isci, "kipler": kipler,
+             "dondurulmus_girdi_izi": donuk_iz,
+             "kopya_sha256": globals().get("KOPYA_SHA"),
+             "kaynak": globals().get("KAYNAK_KIMLIK"),
+             "kosular": {}, "sha256": {}, "hukum": {}}
+
+    for mod in ["sirali"] + kipler:
         kod, sn = kosu(mod, kutu, isci)
-        sonuc[mod] = {"kod": kod, "sn": round(sn, 1)}
+        sonuc["kosular"][mod] = {"kod": kod, "sn": round(sn, 1)}
         if kod != 0:
-            print("  🔴 %s KOSUSU DUSTU — logun sonu:" % mod)
-            t = io.open(os.path.join(HEDEF_DIZIN, "log_%s.txt" % mod),
-                        encoding="utf-8", errors="replace").read()
-            print(chr(10).join(t.splitlines()[-25:]))
-            io.open(os.path.join(KOK, "denetim",
-                                 "PARALEL-SINAV-SONUC-0910.json"),
-                    "w", encoding="utf-8").write(
-                json.dumps(sonuc, ensure_ascii=False, indent=1))
-            sys.exit(1)
+            _dus(sonuc, "%s KOSUSU DUSTU — logun sonu:" % mod, mod)
+        sonuc["sha256"][mod] = _hash(mod)
 
-    # ---- ③ ENJEKSIYONUN KENDISI SINANIR ------------------------------------
-    # "Kucultme IKI TARAFTA DA ayni mi?" — degilse A/B olcumu SESSIZCE
-    # anlamini yitirir: iki kosu farkli girdi gorur ve hash zaten ayrisir
-    # (ya da tesadufen ayrismaz) — iki hâlde de hukum HUKUMSUZDUR.
-    # 🔴 Beyanla degil, iki KOSUNUN KENDI LOGUNDAN olculur.
-    def _kucultme_izi(mod):
-        t = io.open(os.path.join(HEDEF_DIZIN, "log_%s.txt" % mod),
-                    encoding="utf-8", errors="replace").read()
-        iz = {}
-        for satir in t.splitlines():
-            if "BOLGE daraltildi" in satir:
-                iz["bolge"] = satir.split("->")[-1].strip()
-            elif "[SINAV] YERLER" in satir:
-                iz["yerler"] = satir.split("YERLER")[-1].strip()
-            elif "[SINAV] GIRDI IZI" in satir:
-                iz["girdi_izi"] = satir.split("GIRDI IZI")[-1].strip()
-            elif "ETA ağırlığı hazır" in satir:
-                iz["eta"] = satir.strip()
-            elif "devlet," in satir and "dönem" in satir:
-                iz["devlet_donem"] = satir.strip()
-        return iz
-
-    izler = {m: _kucultme_izi(m) for m in ("sirali", "paralel")}
-    ayni = izler["sirali"] == izler["paralel"]
-    sonuc["kopya_sha256"] = globals().get("KOPYA_SHA")
-    sonuc["kaynak"] = globals().get("KAYNAK_KIMLIK")
+    # ---- ③ ENJEKSIYON SIMETRISI — girdi HER kosuda ayni mi? ---------------
+    izler = {m: _iz(m) for m in ["sirali"] + kipler}
     sonuc["kucultme_izi"] = izler
+    ayni = all(izler[m] == izler["sirali"] for m in kipler)
     sonuc["kucultme_ayni"] = ayni
     print("")
-    print("  ③ ENJEKSIYON SIMETRISI: kucultme iki tarafta da ayni mi -> %s"
+    print("  ③ ENJEKSIYON SIMETRISI: girdi butun kosularda ayni mi -> %s"
           % ("EVET" if ayni else "🔴 HAYIR"))
     for k2, v2 in izler["sirali"].items():
-        print("       %-13s %s" % (k2, v2))
+        print("       %-11s %s" % (k2, v2))
     if not ayni:
-        sonuc["hukum"] = "HUKUMSUZ — KUCULTME IKI TARAFTA AYNI DEGIL"
-        print("🔴 A/B olcumu anlamsiz: iki kosu FARKLI girdi gordu.")
-        for m in ("sirali", "paralel"):
-            print("   %s: %s" % (m, izler[m]))
-        io.open(os.path.join(KOK, "denetim",
-                             "PARALEL-SINAV-SONUC-0910.json"),
-                "w", encoding="utf-8").write(
-            json.dumps(sonuc, ensure_ascii=False, indent=1))
-        sys.exit(1)
+        for m in ["sirali"] + kipler:
+            print("   %-8s %s" % (m, izler[m]))
+        _dus(sonuc, "A/B olcumu anlamsiz: kosular FARKLI girdi gordu.")
 
-    h = {}
-    for mod in ("sirali", "paralel"):
-        h[mod] = io.open(os.path.join(HEDEF_DIZIN, "cikti_%s.sha256" % mod),
-                         encoding="utf-8").read().strip()
-    sonuc["sha256"] = h
     print("")
-    print("  sirali  %s" % h["sirali"])
-    print("  paralel %s" % h["paralel"])
-    if h["sirali"] == h["paralel"]:
-        # ---- NEGATIF CAPA: sinav ayrismayi GOREBILIYOR MU? -----------------
-        kod_b, sn_b = kosu("paralel", kutu, isci, boz=True)
-        hb = io.open(os.path.join(HEDEF_DIZIN, "cikti_paralel-boz.sha256"),
-                     encoding="utf-8").read().strip() if kod_b == 0 else None
-        sonuc["negatif_capa"] = {"kod": kod_b, "sn": round(sn_b, 1),
-                                 "sha256": hb,
-                                 "ayristi": bool(hb and hb != h["sirali"])}
-        if not sonuc["negatif_capa"]["ayristi"]:
-            sonuc["hukum"] = "HUKUMSUZ — NEGATIF CAPA OTMEDI"
-            print("🔴 SINAV HUKUMSUZ: havuzlama sirasi KASTEN bozuldu ve "
-                  "hash YINE AYNI cikti. Sinavin disleri yok.")
-            io.open(os.path.join(KOK, "denetim",
-                                 "PARALEL-SINAV-SONUC-0910.json"),
-                    "w", encoding="utf-8").write(
-                json.dumps(sonuc, ensure_ascii=False, indent=1))
-            sys.exit(1)
-        sonuc["hukum"] = "DENK"
-        print("🟢 DENK — sha256 birebir ayni.")
-        print("   negatif capa: sira bozulunca hash DEGISTI (%s...) ✓"
-              % hb[:16])
-    else:
-        sonuc["hukum"] = "AYRISTI"
-        a = io.open(os.path.join(HEDEF_DIZIN, "cikti_sirali.txt"),
-                    encoding="utf-8").read()
-        b = io.open(os.path.join(HEDEF_DIZIN, "cikti_paralel.txt"),
-                    encoding="utf-8").read()
-        i = 0
-        while i < min(len(a), len(b)) and a[i] == b[i]:
-            i += 1
-        sonuc["ilk_ayrisan_bayt"] = i
-        sonuc["sirali_baglam"] = a[max(0, i-120):i+120]
-        sonuc["paralel_baglam"] = b[max(0, i-120):i+120]
-        sonuc["uzunluk"] = {"sirali": len(a), "paralel": len(b)}
-        print("🔴 AYRISTI — ilk ayrisan bayt: %d" % i)
-        print("   sirali  ...%s" % a[max(0, i-60):i+60])
-        print("   paralel ...%s" % b[max(0, i-60):i+60])
+    print("  sirali  %s" % sonuc["sha256"]["sirali"])
+    tamam = True
+    for mod in kipler:
+        h = sonuc["sha256"][mod]
+        denk = (h == sonuc["sha256"]["sirali"])
+        print("  %-8s%s   %s" % (mod, h, "🟢 DENK" if denk else "🔴 AYRISTI"))
+        if not denk:
+            tamam = False
+            a = io.open(os.path.join(HEDEF_DIZIN, "cikti_sirali.txt"),
+                        encoding="utf-8").read()
+            b = io.open(os.path.join(HEDEF_DIZIN, "cikti_%s.txt" % mod),
+                        encoding="utf-8").read()
+            i = 0
+            while i < min(len(a), len(b)) and a[i] == b[i]:
+                i += 1
+            sonuc["hukum"][mod] = "AYRISTI"
+            sonuc["ayrisma_" + mod] = {
+                "ilk_bayt": i,
+                "uzunluk": {"sirali": len(a), mod: len(b)},
+                "sirali_baglam": a[max(0, i-160):i+160],
+                mod + "_baglam": b[max(0, i-160):i+160]}
+            print("     ilk ayrisan bayt: %d  (uzunluk %d / %d)"
+                  % (i, len(a), len(b)))
+            print("     sirali  …%s" % a[max(0, i-70):i+70])
+            print("     %-7s …%s" % (mod, b[max(0, i-70):i+70]))
+
+    # ---- NEGATIF CAPA: her DENK kip icin ayri ayri ------------------------
+    for mod in kipler:
+        if sonuc["hukum"].get(mod) == "AYRISTI":
+            continue
+        kod_b, sn_b = kosu(mod, kutu, isci, boz=True)
+        hb = _hash(mod + "-boz") if kod_b == 0 else None
+        ayristi = bool(hb and hb != sonuc["sha256"]["sirali"])
+        sonuc["negatif_capa_" + mod] = {"kod": kod_b, "sn": round(sn_b, 1),
+                                        "sha256": hb, "ayristi": ayristi}
+        if not ayristi:
+            sonuc["hukum"][mod] = "HUKUMSUZ — NEGATIF CAPA OTMEDI"
+            tamam = False
+            print("🔴 %s HUKUMSUZ: sira KASTEN bozuldu, hash YINE AYNI." % mod)
+        else:
+            sonuc["hukum"][mod] = "DENK"
+            print("  %-8s negatif capa: sira bozulunca hash DEGISTI (%s…) ✓"
+                  % (mod, hb[:16]))
+
+    # ---- UST KUME MALIYETI (donem kipi) -----------------------------------
+    if "donem" in kipler:
+        t = io.open(os.path.join(HEDEF_DIZIN, "log_donem.txt"),
+                    encoding="utf-8", errors="replace").read()
+        for satir in t.splitlines():
+            if "UST KUME" in satir:
+                sonuc["ust_kume"] = satir.strip()
+                print("  " + satir.strip())
 
     io.open(os.path.join(KOK, "denetim", "PARALEL-SINAV-SONUC-0910.json"),
             "w", encoding="utf-8").write(
         json.dumps(sonuc, ensure_ascii=False, indent=1))
+    print("")
+    print("HUKUM: %s" % sonuc["hukum"])
     print("yazildi: denetim/PARALEL-SINAV-SONUC-0910.json")
+    sys.exit(0 if tamam else 1)
 
 
 if __name__ == "__main__":
     main()
+
+

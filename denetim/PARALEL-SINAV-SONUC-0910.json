@@ -1,46 +1,72 @@
 {
  "kutu": "26,36,45,42",
  "isci": 4,
- "sirali": {
-  "kod": 0,
-  "sn": 49.3
- },
- "paralel": {
-  "kod": 0,
-  "sn": 45.4
- },
- "kopya_sha256": "305e70470a712b46117a531d90c30f6b675de6b6db0574390c6d7359f634c348",
+ "kipler": [
+  "paralel",
+  "donem"
+ ],
+ "dondurulmus_girdi_izi": "4ceabef0037ac3b788bf9aa0eb1f69078d0715daa508e221ba20d8a441f8f15d",
+ "kopya_sha256": "4d366106a7aac5ab3e83a9dc8f4fc13c257ecaa423b6b4cb2b025c812721a458",
  "kaynak": {
   "commit": "2127303 2026-09-07",
   "calisma_kopyasi_sha": "e345c1289bbd68548eb4b905f5dca2b1e4c1654c",
   "head_sha": "e345c1289bbd68548eb4b905f5dca2b1e4c1654c"
+ },
+ "kosular": {
+  "sirali": {
+   "kod": 0,
+   "sn": 49.6
+  },
+  "paralel": {
+   "kod": 0,
+   "sn": 40.6
+  },
+  "donem": {
+   "kod": 0,
+   "sn": 43.9
+  }
+ },
+ "sha256": {
+  "sirali": "44e82cd15eedaafdcbbbea9adaf8a237d98b2c759a2aa74c767a192bdc987d06",
+  "paralel": "44e82cd15eedaafdcbbbea9adaf8a237d98b2c759a2aa74c767a192bdc987d06",
+  "donem": "44e82cd15eedaafdcbbbea9adaf8a237d98b2c759a2aa74c767a192bdc987d06"
+ },
+ "hukum": {
+  "paralel": "DENK",
+  "donem": "DENK"
  },
  "kucultme_izi": {
   "sirali": {
    "bolge": "(26.0, 36.0, 45.0, 42.0)",
    "yerler": "3808 -> 301",
    "girdi_izi": "05b8ac7b3895826da83669cde6524cfed3613562cb2c85e95717750e8219ba3a",
-   "eta": "ETA ağırlığı hazır: 7,257 hücre-birleşimi bekleniyor",
-   "devlet_donem": "59 devlet, 296 dönem — yazım seyreltmeden sonraya ertelendi"
+   "eta": "ETA ağırlığı hazır: 7,257 hücre-birleşimi bekleniyor"
   },
   "paralel": {
    "bolge": "(26.0, 36.0, 45.0, 42.0)",
    "yerler": "3808 -> 301",
    "girdi_izi": "05b8ac7b3895826da83669cde6524cfed3613562cb2c85e95717750e8219ba3a",
-   "eta": "ETA ağırlığı hazır: 7,257 hücre-birleşimi bekleniyor",
-   "devlet_donem": "59 devlet, 296 dönem — yazım seyreltmeden sonraya ertelendi"
+   "eta": "ETA ağırlığı hazır: 7,257 hücre-birleşimi bekleniyor"
+  },
+  "donem": {
+   "bolge": "(26.0, 36.0, 45.0, 42.0)",
+   "yerler": "3808 -> 301",
+   "girdi_izi": "05b8ac7b3895826da83669cde6524cfed3613562cb2c85e95717750e8219ba3a",
+   "eta": "ETA ağırlığı hazır: 7,257 hücre-birleşimi bekleniyor"
   }
  },
  "kucultme_ayni": true,
- "sha256": {
-  "sirali": "44e82cd15eedaafdcbbbea9adaf8a237d98b2c759a2aa74c767a192bdc987d06",
-  "paralel": "44e82cd15eedaafdcbbbea9adaf8a237d98b2c759a2aa74c767a192bdc987d06"
- },
- "negatif_capa": {
+ "negatif_capa_paralel": {
   "kod": 0,
-  "sn": 41.3,
+  "sn": 40.7,
   "sha256": "1c519b4e10c56e67c2e1111459ac4f0de2778fd25bb2db5a0b97fe5d01f8a147",
   "ayristi": true
  },
- "hukum": "DENK"
+ "negatif_capa_donem": {
+  "kod": 0,
+  "sn": 46.0,
+  "sha256": "1af91d69fd599747c2132da5e73bfa3f004b61ec4fa90b2e926c919f177e5ffe",
+  "ayristi": true
+ },
+ "ust_kume": "[SINAV] UST KUME 329 · GERCEKTE KULLANILAN 296 · BOSA GIDEN 33 (%11.1)"
 }
