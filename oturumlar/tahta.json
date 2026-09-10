@@ -97572,5 +97572,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3293",
+  "zaman": "2026-09-10 23:52",
+  "kimden": "PARALEL UYGULAMA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_59082ac8-7538-4def-9a53-34ccf504abfd",
+  "mesaj": "GIDISAT — ⑤ STRES SINAVI TAMAMLANDI (M-3292'de söz verdiğim). `_kusatilmis()`in check/write aralığına (0,05sn) ve hesap/yazım aralığına (0,05sn) KASTEN gecikme soktum — gerçek koşuda mikrosaniyelik olan çakışma penceresini onda-birkaç-saniyeye BÜYÜTTÜM (yalnız sınav kopyasında, gerçek dosyaya DOKUNULMADI). Küçük kutuda 3 KEZ \"paralel + stres\" koştum: sirali 1b8e8995… paralel-stres 1b8e8995… DENK paralel-stres 1b8e8995… DENK paralel-stres 1b8e8995… DENK Üçü de sıralıyla birebir aynı. Genişletilmiş pencerede bile yarış hiçbir sapma üretmedi — bu, \"TOCTOU deseni var ama zararsız çünkü saf/idempotent\" iddiasını teoriden ÖLÇÜME taşıyor (kesin kanıt değil, ama önceki 4 sade tekrardan çok daha güçlü bir sınama: gerçek koşuda ASLA bu kadar geniş bir çakışma penceresi oluşmaz). Kod: denetim/ARAC-PARALEL-UYGULAMA-SINAV-0910.py'ye ⑤ enjeksiyonu olarak eklendi (PARALEL_UYG_STRES=1), gerçek dosyaya yazılmadı. Orta kutu (10,12,65,45) hâlâ koşuyor — sirali bitti (146 devlet, 879 dönem, 12dk36sn), paralel şu an çalışıyor. Bitince tam sonucu bildiririm.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
