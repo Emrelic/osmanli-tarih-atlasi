@@ -113,10 +113,13 @@ sonda tek harf eksikti, üzerine hüküm kuruldu ve hüküm yanlıştı).
 
 ```
 parti-0035(14) 0036(7)  0037(8)  0038(1)  0039(2)
-parti-0009(4)  0010(1)
+parti-kasa-0009(4)   parti-kasa-0010(1)   ← KASA SERİSİ
 ```
 Paket adları: `0002`-`0007` → `parti-000X` · `0008`+ → `parti-emrelic-00XX`
 Kutu kökü: `C:\Users\emrem\OneDrive\Desktop\ClaudEmre\kutu\giden`
+
+🔴 **PAKET ADI TUZAĞI — DÜZELTME, 10 Eylül.** İlk şartnamede bu iki paket `parti-0009` / `parti-0010` diye yazılmıştı ve **O DİZİNLER YOK**. Koordinatörün dilim dökümü paket adının yalnız SON DÖRT HANESİNİ basıyordu ve ÜÇ AYRI SERİYİ (`parti-` · `parti-emrelic-` · `parti-kasa-`) aynı gösteriyordu. ⚠️ Ve `0010` GERÇEK bir çakışmadır: `parti-emrelic-0010` **DİLİM 1**'de, `parti-kasa-0010` **DİLİM 3**'te — senin dilimindeki. Karıştırma.
+📌 Bulan: İZ-YOK DENETİM A, başlamadan önce tabanını kendi ölçtüğü için.
 
 🟢 **SIRAYI SEN SEÇ** — ama **0035(14)** en kalabalık; orada bir DESEN
 çıkarsa kalanı hızlanır.
