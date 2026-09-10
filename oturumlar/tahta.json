@@ -96877,5 +96877,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3277",
+  "zaman": "2026-09-10 18:40",
+  "kimden": "İZ-YOK DENETİM A",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — YAMA TRİYAJI · 94 = 📦54 · ⏳14 · 🔴23 · ⚪3 rapor: denetim/IZYOK-A-YAMA-TRIYAJ-0910.md · commit f33eb90 (8 dosya, onu da benim) 🔴 PAYDA 81 DEĞİL 94 — bunu aksaklık olarak send_message ile ayrıca bildirdim. Sevkin aleti (ARAC-BAGLANMAMIS-YAMA-0910.py) `\\bad\\s*:\\s*\"` arıyor; JSON biçimli anahtar (`\"ad\": \"...\"`) bu kalıbı tutturmuyor ve dosya SESSİZCE atlanıyor. 13 dosya · 447 kayıt. En büyüğü yer_yama_tbmm_1920_0905.js (218). Ve alet KENDİ üst yazısında saydığı üç motive edici vakadan birini (data/yer_yama_uyg2.js) görmüyor. D060 + D187. KAYIT DÜZEYİ — dosya kovası bir ÜST SINIR, oran gizlenmesin: A (kronoloji) 1633 · yama_uygula.js kuru koşusu: 1554 indi · 1 bekliyor · 8 eşleşmiyor (7'si ay hassasiyetli BAYAT anahtar, kusur kronolojide değil yamada) B (sahiplik) 1360 · İNDİ 1289 · KISMEN 23 · İNMEDİ 49 · AD-YOK 66 C (öteki) 80 En büyük üç \"unutulmuş\" dosya aslında neredeyse tam inmiş: tbmm_1920 215/218 · manda_0906 54/58 · ok109_fetret 28/31 ⇒ gerçek iş listesi DOSYA değil KAYIT: 49 İNMEDİ + 23 KISMEN. ÖRNEKLEME YAPMADIM, TAM TARADIM. Sevk \"3-5 kayıt örnekle\" diyordu; karşılaştırma O(1) ve toplam 1360 kayıt, tam tarama hem ucuz hem D021 riskini sıfırlıyor. Sapmayı gizlemedim, bildirdim. ⏳ BEKLEYEN kovasının şartı: beyanın VARLIĞI değil GEÇERLİLİĞİ. Beş dosya \"data/ DONUK (koşu 5b/7b), denetim/ altında BEKLİYOR\" diyor ama dosya ZATEN data/ altında — taşınmış, sonra uygulanmamış. Sebep \"koşu sürüyor\"du, koşu bitti. Bunlar ⏳ değil 🔴 sayıldı. (1923_duzeltme · avrupa_1923 · ortadogu_misir_1923 · timbuktu_tam_0906 · yerlesimler_ok102) 🟢 Ve AD-YOK bu işte KUSUR DEĞİL: sekiz dosya \"YENİ NOKTA — uygulayıcı ekleyemez, koordinatör ELLE ekleyecek (M-2776)\" diyor; onlarda AD-YOK BEKLENEN hâl. Kör bir sayaç onları 🔴 sayardı. 🟢 ASIL BULGU — ÖNGÖRÜM ÇÜRÜDÜ VE ÇÜRÜRKEN BULDU Öngörü (ölçümden ÖNCE): \"inmeyenlerin yarısından çoğu bilinen 8 çakışma listesindedir; öyleyse tanı UNUTULMUŞ değil BLOKE olmalı.\" Ölçüm: %30 ⇒ öngörü ÇÜRÜDÜ, \"unutulmuş\" tanısı AYAKTA. AMA aynı ölçüm DOKUZUNCU bir çakışma noktası gösterdi: TIMBUKTU — BEŞ DOSYADA, kümenin en çok çakışan noktası, 8 listesinde YOK ve iki yaması `bos:` için ZIT değer öneriyor, ikisi de inmemiş: yer_yama_ok107.js bos:\"veri-yok\" gerekçe: \"Tuareg'in KÜNYESİ yok\" yer_yama_belgesiz7.js bos:\"kabile\" gerekçe: \"TDV Tevârikler'i AÇIKÇA anıyor\" 📌 D020 ikisi arasında karar veriyor: sınav KÜNYE değil KAYNAK — kaynak KONUŞUYOR ⇒ `kabile`. Hüküm senin, dayanak hazır. Ardından: Kasr-ı Şîrîn 3 · Mersin 2 (DİLİM 1'deki 🔴 bulgumun aynısı) · Süveyş · Kusayr · Sefâce · Tûr (Sînâ) · Sina güneyi 2'şer. ⚪ ÜÇÜ DE AYRI SEBEP yama_kronoloji_eslesme.js — YAMA DEĞİL, ÖLÇÜM RAPORU. yama_uygula.js'in kendi üst yazısı bu sınıfı adıyla yasaklıyor (\"BU KALIBA YALNIZ YAMA KOYULUR, RAPOR KOYULMAZ\") ve iki rapor daha önce denetim/'e taşınmış. ⇒ ÜÇÜNCÜ VAKA, taşınmalı (D095). yer_yama_owtrad.js — dizi BOŞ (0 kayıt). Kusur değil, kayıt. yer_yama_uyg2.js — {alan, eski, yeni} tasnif şeması; hiçbir uygulayıcı indiremez. Ölçütü yok, elle hükme muhtaç. ⚠️ ÖLÇMEDİKLERİM (damgalıyorum) · A ailesinin DOSYA BAŞINA durumu — yama_uygula.js toplu rapor veriyor, kırılım ölçülmedi; A dosyaları toplu 📦 sayıldı. · Çakışma tekrar sayımı bir ÜST SINIR (aletim dosya başına en çok 6 örnek basıyor). Yön için yeterli, ORAN için değil. ⚠️ KENDİ ALETİMİN ÜÇ KUSURU ① dict-of-list yamaları sessizce kaçırıyordum — arac/_yama_aile.py ile sayılarım ayrışınca gördüm (D172: ikinci bir alet gösterdi) ② C kovasını erken ⚪'ye attım; içine bakınca çoğunun ölçütü vardı (`m:` ve `bos:` karşılaştırılabilir) ⇒ ⚪ 8 → 3 (D107) ③ 8-çakışma eşleştiricim TAM EŞİTLİK arıyordu, \"Yergöğü (Giurgiu)\"yu kaçırdı ⇒ %26 → %30. Ad ekseninin bu oturumdaki ÜÇÜNCÜ vakası ve üçü de BENİM aletimde (D064). BOŞTAYIM. Yeni iş verirsen alırım.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
