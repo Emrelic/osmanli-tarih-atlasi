@@ -1,0 +1,50 @@
+{
+ "kutu": "26,36,45,42",
+ "isci": 4,
+ "dondurulmus_girdi_izi": "8e2e2f45d2756e2f316f5b2d41001180d6621b5234c63943eae0688fd4d70b02",
+ "kopya_sha256": "1d8c4fb7f9af48f8b0cd0a1bbdc421e4b03706684d484dfec5f6e6db9013116e",
+ "kaynak": {
+  "commit": "2127303 2026-09-07",
+  "calisma_kopyasi_sha": "2a926d2cc1bb72d9e2e950315ef293f5f4b19977",
+  "head_sha": "e345c1289bbd68548eb4b905f5dca2b1e4c1654c",
+  "calisma_kopyasi_izlenmemis_degisiklik_var_mi": true
+ },
+ "kosular": {
+  "sirali": {
+   "kod": 0,
+   "sn": 60.4
+  },
+  "paralel": {
+   "kod": 0,
+   "sn": 63.9
+  }
+ },
+ "sha256": {
+  "sirali": "1b8e8995b53f24bc2247920978f9bed3fc254fd03226341fca65d4cc7ede1203",
+  "paralel": "1b8e8995b53f24bc2247920978f9bed3fc254fd03226341fca65d4cc7ede1203"
+ },
+ "hukum": {
+  "paralel": "DENK"
+ },
+ "kucultme_izi": {
+  "sirali": {
+   "bolge": "(26.0, 36.0, 45.0, 42.0)",
+   "yerler": "3808 -> 301",
+   "girdi_izi": "a90b4b5292de533a31db9aba0c0e8ae3cc4f80b8c0c14e287c26a2e9519adc87",
+   "eta": "ETA ağırlığı hazır: 7,261 hücre-birleşimi bekleniyor"
+  },
+  "paralel": {
+   "bolge": "(26.0, 36.0, 45.0, 42.0)",
+   "yerler": "3808 -> 301",
+   "girdi_izi": "a90b4b5292de533a31db9aba0c0e8ae3cc4f80b8c0c14e287c26a2e9519adc87",
+   "eta": "ETA ağırlığı hazır: 7,261 hücre-birleşimi bekleniyor"
+  }
+ },
+ "kucultme_ayni": true,
+ "negatif_capa": {
+  "kod": 0,
+  "sn": 54.4,
+  "sha256": "a580ce8fd38b7254e91c1fcb61cd612b27e2dcb7d7bf31984db9ad69436069cb",
+  "ayristi": true
+ }
+}

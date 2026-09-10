@@ -1,0 +1,32 @@
+{
+ "kutu": "10,12,65,45",
+ "isci": 4,
+ "dondurulmus_girdi_izi": "8e2e2f45d2756e2f316f5b2d41001180d6621b5234c63943eae0688fd4d70b02",
+ "kosular": {
+  "sirali": {
+   "kod": 0,
+   "sn": 845.8,
+   "sha256": "75a201ce4ddbe30fc0773c500f663c1bf25335be5c20e71bbf000f1a67299011"
+  },
+  "paralel_pencere64": {
+   "kod": 0,
+   "sn": 556.4,
+   "sha256": "75a201ce4ddbe30fc0773c500f663c1bf25335be5c20e71bbf000f1a67299011",
+   "denk_sirali": true,
+   "rss_mb": "1211.242"
+  },
+  "paralel_listkiyas": {
+   "kod": 0,
+   "sn": 536.5,
+   "sha256": "75a201ce4ddbe30fc0773c500f663c1bf25335be5c20e71bbf000f1a67299011",
+   "denk_sirali": true,
+   "rss_mb": "1232.633"
+  }
+ },
+ "negatif_capa": {
+  "kod": 0,
+  "sn": 762.3,
+  "sha256": "4e3a08c2b05fabb25434e6ff40dbe4d8ad1ec489ea701fe1f5124cbb2f318427",
+  "ayristi": true
+ }
+}

@@ -4498,10 +4498,46 @@ for _wdid in BOYALAR:
     _DV_KUM.append(_DV_KUM[-1] + _w)
 print(f"  ETA ağırlığı hazır: {_DV_KUM[-1]:,} hücre-birleşimi bekleniyor")
 
-for _dv_i, (did, (dad, renk)) in enumerate(BOYALAR.items(), 1):
-    ilerleme(_dv_i, len(BOYALAR), 10, "devlet", _DV_KUM)
+# ═══════════════════════════════════════════════════════════════════════
+# PARALEL UYGULAMA (10 Eylül 2026) — tasarım: denetim/PARALEL-TASARIM-0910.md §⑥
+# Bit denkliği sınandı: denetim/PARALEL-SINAV-SONUC-0910.md → 🟢 DENK
+# (küçültülmüş girdi; negatif çapa ötüyor, sınavın dişleri var — §②).
+#
+# FAZ 1 (PARALEL, iş parçacığı) : her devlet için geometri → ham dönem
+#     listesi. `havuza()` ÇAĞRILMAZ, `DEVLET_KAYIT`e yazılmaz.
+#     🔴 "YAN ETKİSİZ" İDDİASI TAM DOĞRU DEĞİL — ÇAPRAZ PARALEL ÖLÇTÜ
+#     (`denetim/BULGU-CAPRAZ-PARALEL-0910.md §①`): FAZ 1'in çağrı grafında
+#     `_SAYAC` · `_KB_MUAF` · `_B1_SAYAC` · `_B23_SAYAC` · `_DOLGU_SAYAC`
+#     dolaylı yoldan (`sayac()` · `delikleri_doldur()` · `_b2_enklav_birlestir`
+#     · `_b3_koridor_kirp` · `_dolgu_kumesi`) GÜNCELLENİYOR, iş parçacıkları
+#     arasında PAYLAŞILAN kaplar bunlar. `x += 1` GIL altında bile atomik
+#     DEĞİLDİR (yükle-topla-yaz üç ayrı bayt kodu) ⇒ TEORİDE kayıp güncelleme
+#     mümkündür. Ama ÖLÇÜLDÜ: beşinin de TEK okuma yeri `print` (satır
+#     ~4983-5083), hiçbiri bir KARARA girmiyor ⇒ ÇIKTI (hash) bozulmuyor —
+#     yalnız KOŞU RAPORUNDAKİ bu beş sayı (ve `_kusatilmis`/`petek_epok`
+#     üzerinden gelen süre toplamları — dört iş parçacığı altında bunlar
+#     artık DUVAR SAATİDİR, işlemci süresi değil) güvenilmez olabilir.
+#     Bu bir borç: sayaçların kendi yorumu (`:4420`) onları "bir kuralın
+#     ÇALIŞTIĞININ KANITI" sayıyor — eksik/şişmiş basmak o kanıtı zayıflatır.
+# FAZ 2 (SIRALI, ÖZGÜN devlet sırasıyla) : `ilerleme()` + `_PUAN_KESILEN`/
+#     `_PUAN_TAMAMEN`/`sayac("yabancı gövde geometrisi",...)` + `havuza()` +
+#     `DEVLET_KAYIT.append()`.
+#
+# NEDEN `havuza()` FAZ 1'DE ÇAĞRILAMAZ: DEV_HALKA/DEV_PARCA havuzunda
+# N'inci devletin halka indeksi 1..N-1'e bağlıdır (bkz. `havuza()` tanımı
+# ve `PARALEL-BAGIMLILIK-0910.md §①A`) — havuz sırası kayarsa çıktı
+# GÜRÜLTÜLÜ değişir, sessizce değil.
+# NEDEN SAYAÇLAR DA ERTELENİR: `_PUAN_KESILEN` gibi float toplamlar
+# BİRLEŞMELİ DEĞİLDİR ve iş parçacıkları arasında paylaşılan bir sayaca
+# eşzamanlı `+=` GIL altında bile kayıp güncelleme üretebilir (okuma ve
+# yazma ayrı bayt-kodu — `§⑤`). Bu sayaçların hiçbiri çıktıya gitmiyor
+# (`PARALEL-BAGIMLILIK-0910.md §①D`, ölçüldü), yani kayıp bir hash
+# farkı YARATMAZ; yine de FAZ 2'de ÖZGÜN sırayla eklemek belirlenimi
+# ucuza garanti eder ve tasarımın §⑥④'ü tam olarak bunu istiyor.
+def _yabanci_devlet_faz1(_arg):
+    _i, (did, (dad, renk)) = _arg
     hj = [j for j, y in enumerate(YERLER) if any(sp["d"] == did for sp in y["s"])]
-    if not hj: continue
+    if not hj: return did, dad, renk, [], []
     ts = set()
     for j in hj:
         for sp in YERLER[j]["s"]:
@@ -4509,10 +4545,10 @@ for _dv_i, (did, (dad, renk)) in enumerate(BOYALAR.items(), 1):
         for dn in YERLER[j]["d"] + YERLER[j]["v"]:
             ts.add(dn["f"]); ts.add(dn["t"])
     ts = sorted(t for t in ts if EPOK <= t <= "1923-11-01")
-    if not ts: continue
+    if not ts: return did, dad, renk, [], []
     if ts[0] != EPOK: ts.insert(0, EPOK)
     if ts[-1] != "1923-11-01": ts.append("1923-11-01")
-    dnm = []; onceki = None
+    ham = []; tani = []; onceki = None
     for i in range(len(ts) - 1):
         a, b = ts[i], ts[i+1]
         # kur:/bit: — henüz kurulmamış (ya da yok olmuş) nokta o tarihte devletin
@@ -4530,8 +4566,12 @@ for _dv_i, (did, (dad, renk)) in enumerate(BOYALAR.items(), 1):
             _ek = _dolgu_kumesi(a).get(did)
             if _ek:
                 aktif = aktif | _ek
-        if aktif == onceki and dnm and aktif:
-            dnm[-1]["t"] = b; continue
+        # 🔴 HAM KAYDIN KENDİSİ TUTULUR, KOPYASI DEĞİL (bkz. eski koşu 6
+        # dersi): `aktif == onceki` olunca `ham[-1]["t"] = b` ile bir önceki
+        # kaydın bitişi UZATILIR. FAZ 2, bu ham listeyi ÖZGÜN sırayla
+        # `havuza()`ya verir; birleştirme kararı burada, FAZ 1'de kalır.
+        if aktif == onceki and ham and aktif:
+            ham[-1]["t"] = b; continue
         onceki = aktif
         if not aktif: continue
         _t_gv = time.time()
@@ -4549,37 +4589,190 @@ for _dv_i, (did, (dad, renk)) in enumerate(BOYALAR.items(), 1):
         # Gövde çizildikten SONRA kesiliyor, çünkü kapı sahipliği değil
         # BOYANMAYI sınırlıyor: petek kime aitse ona ait kalır, yalnız
         # 4 puana ulaşmayan kısmı boyanmaz.
+        _kesilen, _tamamen = 0.0, 0
         if not PUAN_KAPALI and not g.is_empty:
             _pb = _puan_bolgesi(did, aktif, a)
             _onceki_alan = _ham_km2(g)
             g = poligonal(g.intersection(_pb)) if _pb is not None else Polygon()
-            _PUAN_KESILEN[0] += max(0.0, _onceki_alan - _ham_km2(g))
+            _kesilen = max(0.0, _onceki_alan - _ham_km2(g))
             if g.is_empty:
-                _PUAN_TAMAMEN[0] += 1
+                _tamamen = 1
+        _sure = time.time() - _t_gv
         if g.is_empty:
-            sayac("yabancı gövde geometrisi", time.time() - _t_gv)
+            tani.append((_sure, _kesilen, _tamamen))
             continue
         rp = g.representative_point()
-        _kayit = {"f": a, "t": b,
-                  "g": havuza(mp_koord(g), DEV_HALKA, DEV_HALKA_IX,
-                              DEV_PARCA, DEV_PARCA_IX),
-                  "c": [round(rp.x, 2), round(rp.y, 2)]}
-        dnm.append(_kayit)
-        # 🔴 KAYDIN KENDİSİ TUTULUR, KOPYASI DEĞİL — ve sebebi ölçüldü.
-        # İlk yazımda `(a, b, alan)` üçlüsü saklanıyordu. Ama bu döngü
-        # dönemleri BİRLEŞTİRİYOR: `aktif == onceki` olunca `dnm[-1]["t"] = b`
-        # ile bir önceki kaydın bitişi UZATILIYOR. Kopyalanmış `b` o uzamayı
-        # görmüyordu, dolayısıyla uzatılmış bir dönem kesit tarihini kapsasa
-        # bile toplama girmiyordu → yabancı toplam SİSTEMATİK EKSİK çıkıyordu.
-        # Koşu 6 bunu canlı gösterdi: eksen ilk kıyasında "-6.947.000 km²
-        # (-%14,5)" diye BAĞIRDI ve sapmanın tamamı bu hataydı — yani aracın
-        # ilk alarmı YANLIŞ ALARMDI. Kaydın kendisini tutunca `["t"]`
-        # mutasyonu doğrudan görülüyor.
-        # ⚠️ Bu yüzden alan artık HER gövde için hesaplanıyor: uzama sonradan
-        # olduğu için "bu dönem kesiti kapsıyor mu" sorusu yaratılış anında
-        # cevaplanamaz. Maliyet ~1.970 çağrı; ölçüp bildireceğim.
-        sayac("yabancı gövde geometrisi", time.time() - _t_gv)
-    if dnm: DEVLET_KAYIT.append({"id": did, "ad": dad, "renk": renk, "dnm": dnm})
+        ham.append({"f": a, "t": b, "mp": mp_koord(g),
+                    "c": [round(rp.x, 2), round(rp.y, 2)]})
+        # ⚠️ Alan HER gövde için hesaplanıyor: uzama sonradan olduğu için "bu
+        # dönem kesiti kapsıyor mu" sorusu yaratılış anında cevaplanamaz.
+        tani.append((_sure, _kesilen, _tamamen))
+    return did, dad, renk, ham, tani
+
+
+_MOTOR_PARALEL_ISCI = int(os.environ.get("MOTOR_PARALEL_ISCI", "4"))
+if os.environ.get("MOTOR_PARALEL_KAPALI") == "1":
+    # ---- ESKİ YOL — bilerek DOKUNULMADI, bit-denkliğin SINAMA TABANI ------
+    # `MOTOR_PARALEL_KAPALI=1` ile açılır. Aşağıdaki gövde, PARALEL
+    # UYGULAMA'dan önceki tek-geçişli döngünün BİREBİR AYNISIDIR — ayrı bir
+    # betik kopyası tutmadan, aynı dosya içinde "sıralı" tanığı olarak durur.
+    for _dv_i, (did, (dad, renk)) in enumerate(BOYALAR.items(), 1):
+        ilerleme(_dv_i, len(BOYALAR), 10, "devlet", _DV_KUM)
+        hj = [j for j, y in enumerate(YERLER) if any(sp["d"] == did for sp in y["s"])]
+        if not hj: continue
+        ts = set()
+        for j in hj:
+            for sp in YERLER[j]["s"]:
+                if sp["d"] == did: ts.add(sp["f"]); ts.add(sp["t"])
+            for dn in YERLER[j]["d"] + YERLER[j]["v"]:
+                ts.add(dn["f"]); ts.add(dn["t"])
+        ts = sorted(t for t in ts if EPOK <= t <= "1923-11-01")
+        if not ts: continue
+        if ts[0] != EPOK: ts.insert(0, EPOK)
+        if ts[-1] != "1923-11-01": ts.append("1923-11-01")
+        dnm = []; onceki = None
+        for i in range(len(ts) - 1):
+            a, b = ts[i], ts[i+1]
+            _dv = devir_kumesi(a)
+            aktif = frozenset(j for j in hj
+                              if j not in _dv
+                              and any(sp["d"] == did and sp["f"] <= a < sp["t"]
+                                      for sp in YERLER[j]["s"])
+                              and not _osm_aktif(YERLER[j], a))
+            if DOLGU_ACIK and aktif:
+                _ek = _dolgu_kumesi(a).get(did)
+                if _ek:
+                    aktif = aktif | _ek
+            if aktif == onceki and dnm and aktif:
+                dnm[-1]["t"] = b; continue
+            onceki = aktif
+            if not aktif: continue
+            _t_gv = time.time()
+            g = unary_union([petek_epok(a)[j] for j in aktif])
+            g = delikleri_doldur(kapat(g), sahip_ix=aktif)
+            g = gosterim_duzelt(g, aktif)
+            g = poligonal(g.intersection(KARA))
+            if not PUAN_KAPALI and not g.is_empty:
+                _pb = _puan_bolgesi(did, aktif, a)
+                _onceki_alan = _ham_km2(g)
+                g = poligonal(g.intersection(_pb)) if _pb is not None else Polygon()
+                _PUAN_KESILEN[0] += max(0.0, _onceki_alan - _ham_km2(g))
+                if g.is_empty:
+                    _PUAN_TAMAMEN[0] += 1
+            if g.is_empty:
+                sayac("yabancı gövde geometrisi", time.time() - _t_gv)
+                continue
+            rp = g.representative_point()
+            _kayit = {"f": a, "t": b,
+                      "g": havuza(mp_koord(g), DEV_HALKA, DEV_HALKA_IX,
+                                  DEV_PARCA, DEV_PARCA_IX),
+                      "c": [round(rp.x, 2), round(rp.y, 2)]}
+            dnm.append(_kayit)
+            sayac("yabancı gövde geometrisi", time.time() - _t_gv)
+        if dnm: DEVLET_KAYIT.append({"id": did, "ad": dad, "renk": renk, "dnm": dnm})
+else:
+    # ---- YENİ YOL — PARALEL (FAZ 1 iş parçacığı / FAZ 2 sıralı) -----------
+    # SÜREÇ DEĞİL İŞ PARÇACIĞI: Windows'ta yalnız `spawn` var, işçiyi
+    # `__main__`i yeniden import ederek kurar (bu 5300+ satırlık betik
+    # baştan koşardı). İş parçacığı aynı belleği paylaşır, 7 saf önbelleği
+    # de PAYLAŞIR, ve Shapely 2.1 GIL'i geometri hesaplarken bırakıyor
+    # (ölçüldü — `PARALEL-TASARIM-0910.md §⑤`).
+    # 🟡 BÖLME DEVLET BAŞINA — DÖNEM BAŞINA DEĞİL. `PARALEL-TASARIM-0910.md
+    # §④` dönem başına bölmenin 3730 iş verdiğini (en ağır iş yalnız %0,19)
+    # ve N=16'da 16,00× ölçeklendiğini ölçmüştü; devlet başına tavan (LPT)
+    # yalnız 4,51×. 4 FİZİKSEL ÇEKİRDEKTE fark YOK (4 < 4,51 ⇒ bu koşu
+    # ETKİLENMİYOR), ama 16 çekirdekte devlet 2,77×=7,3 saat / dönem
+    # 4,34×=4,6 saat — YENİ MAKİNEDE ~2,7 SAAT MASADA KALIYOR. Bu turda
+    # BİLEREK değiştirilmedi (koşu 9'u bekletir, ve dönem başına bölme
+    # motorun ":4443" birleştirme mantığına dokunan AYRI bir iş —
+    # `PARALEL-TASARIM-0910.md §④`nin kendi uyarısı). Yeni makine gelince
+    # "zaten paralel" deyip bu satırı atlama: kazanılabilecek 2,7 saat hâlâ
+    # masada.
+    from concurrent.futures import ThreadPoolExecutor as _TPE
+    print(f"  [PARALEL] FAZ 1 — {_MOTOR_PARALEL_ISCI} iş parçacığı, "
+          f"{len(BOYALAR)} devlet")
+    # 🔴🔴 `list(_ex.map(...))` İLE ÖNCE TAMAMINI BİRİKTİRMEK YOK — ÇAPRAZ
+    # PARALEL ÖLÇTÜ (`denetim/BULGU-CAPRAZ-PARALEL-0910.md B2 · B3`) ve İKİ
+    # AYRI ZARAR BULDU, İKİSİ DE ÇIKTIYI BOZMUYOR AMA KOŞUYU TEHDİT EDİYORDU:
+    #   B2 BELLEK: `list(...)` bütün devletlerin havuzlanmamış `mp_koord()`
+    #     çıktısını AYNI ANDA bellekte tutar. En ağır beş devlet (rusya
+    #     %22,2 dahil) FAZ 1'in ilk %16'sında doğuyor ve `list()` onları
+    #     KALAN %86 boyunca serbest bırakmazdı — bu makinede boş RAM 1,1 GB,
+    #     tahminî tepe ~0,4-1 GB ek. Küçük kutu (301 nokta) bunu YAPISAL
+    #     OLARAK gösteremiyordu; rusya kutuda hiç yoktu.
+    #   B3 NÖBETÇİ KÖRLÜĞÜ: `ilerleme()` FAZ 2'de olduğu için pahalı FAZ 1
+    #     boyunca son log satırı DONUYORDU — "sürüyor" ile "takıldı" ayırt
+    #     edilemezdi (bu depoda tam bu körlük 3 Eylül'de SEKİZ SAAT sürdü).
+    # 🔴🔴 İLK ÇARE (yalnız `.map()` üretecini dolaşmak) YETERSİZ ÇIKTI —
+    #   ÇAPRAZ PARALEL ikinci turda kendi önerisini ÖLÇEREK ÇÜRÜTTÜ
+    #   (`denetim/BULGU-CAPRAZ-PARALEL-URETEC-0910.md §②`): `Executor.map`
+    #   CPython'da bütün işleri BAŞTAN `submit` eder, tüketici GERİ BASINÇ
+    #   UYGULAMAZ. Ölçüldü (200 iş, 4 işçi, vekil yük — herhangi bir anda
+    #   HAYATTA OLAN sonuç sayısı = tepe bellek yükü):
+    #       list(map)                 tepe canlı sonuç 200/200  (eski hâl)
+    #       üreteç · HIZLI tüketici   tepe canlı sonuç   4/200  (kapanır)
+    #       üreteç · YAVAŞ tüketici   tepe canlı sonuç 179/200  (KAPANMAZ)
+    #   ⇒ üreteç biçimi belleği YALNIZ "FAZ 2 iş başına FAZ 1'den ucuz
+    #   olduğu sürece" kapatıyordu, ve bu YAZILI OLMAYAN bir ön koşuldu.
+    #   Biri FAZ 2'ye iş taşırsa (bir doğrulama, bir alan hesabı, bir
+    #   sadeleştirme) B2 SESSİZCE GERİ GELİR — hash aynı kalır, çıktı doğru
+    #   kalır, yalnız bellek şişer ve HİÇBİR DENETİM ÖTMEZ. Bu yüzden
+    #   aşağıdaki SINIRLI PENCERE koşulsuzdur — FAZ 2'nin maliyetinden
+    #   bağımsız çalışır ve bu ön koşula bağlı kalmaz.
+    # ÇARE — SINIRLI PENCERE (`deque` + submit/popleft): en çok
+    #   `FAZ1_PENCERE` future AÇIK tutulur, en eskisi tüketilmeden yenisi
+    #   gönderilmez. Bu, FAZ 2'nin maliyetinden BAĞIMSIZ olarak tepe belleği
+    #   O(pencere) ile sınırlar — koşulsuz.
+    #   `popleft()` GÖNDERİM sırasıyla tüketir ⇒ `havuza()` çağrı dizisi
+    #   DEĞİŞMEZ ⇒ sha256 AYNI KALIR — bu satır bir iddia değil, bu
+    #   değişiklikten SONRA bit denkliği sınavı YENİDEN KOŞTURULDU
+    #   (`D029`: reçete kendi testini geçmek zorunda).
+    from collections import deque
+    # 🔴 PENCERE `İŞÇİ SAYISININ 2 KATI` DEĞİL — bölme şu an DEVLET başına
+    # (579 iş, dönem başına DEĞİL) ve `rusya` TEK BİR İŞ olarak aşamanın
+    # %22,2'si (`PARALEL-TASARIM-0910.md §④`). Pencere `2×işçi` olsaydı
+    # `rusya` pencerenin başına geldiğinde `popleft()` onu bekler, pencere
+    # dolar, yeni iş submit edilemez ⇒ işçilerin çoğu `rusya` boyunca BOŞTA
+    # kalır (aşamanın %22,2'si boyunca paralellik ~1'e düşer) — ÇAPRAZ
+    # PARALEL'in M-3296'da işaret ettiği, ikimizin de ilk turda kaçırdığı
+    # takas. ⇒ Pencere BİR BELLEK-HIZ TAKASIDIR: küçültmek işçileri boşta
+    # bırakır, büyütmek B2'yi geri getirir. `rusya` tek başına aşamanın
+    # %22,2'si olduğu sürece pencere ondan (kabaca 579'un ~%14'ünden) daha
+    # DERİN olmalı — bu yüzden sabit bir küçük çarpan değil, taban değerli:
+    FAZ1_PENCERE = max(8 * _MOTOR_PARALEL_ISCI, 64)
+    with _TPE(max_workers=_MOTOR_PARALEL_ISCI) as _ex:
+        _uy_is = enumerate(BOYALAR.items(), 1)
+        _uy_kuyruk = deque()
+        for _ in range(FAZ1_PENCERE):
+            _uy_n = next(_uy_is, None)
+            if _uy_n is None: break
+            _uy_kuyruk.append(_ex.submit(_yabanci_devlet_faz1, _uy_n))
+        _dv_i = 0
+        while _uy_kuyruk:
+            did, dad, renk, ham, tani = _uy_kuyruk.popleft().result()
+            _uy_n = next(_uy_is, None)
+            if _uy_n is not None:
+                _uy_kuyruk.append(_ex.submit(_yabanci_devlet_faz1, _uy_n))
+            _dv_i += 1
+            ilerleme(_dv_i, len(BOYALAR), 10, "devlet", _DV_KUM)
+            # 🔴 DÖNGÜ DEĞİŞKENİ `_sure` OLAMAZ — modül düzeyindeki
+            # `def _sure(s)` biçimlendiricisini GÖLGELER (Python'da for
+            # gövdesi ayrı bir kapsam açmaz). İlk sürüm tam bunu yaptı ve
+            # `ilerleme()` bir sonraki devlet için `_sure(gec)` çağırırken
+            # "float callable değil" ile çöktü — sınav bunu YAKALADI
+            # (bkz. denetim/ARAC-PARALEL-UYGULAMA-SINAV-0910.py).
+            for _ts_sure, _kesilen, _tamamen in tani:
+                _PUAN_KESILEN[0] += _kesilen
+                _PUAN_TAMAMEN[0] += _tamamen
+                sayac("yabancı gövde geometrisi", _ts_sure)
+            dnm = []
+            for h in ham:
+                dnm.append({"f": h["f"], "t": h["t"],
+                            "g": havuza(h["mp"], DEV_HALKA, DEV_HALKA_IX,
+                                        DEV_PARCA, DEV_PARCA_IX),
+                            "c": h["c"]})
+            if dnm:
+                DEVLET_KAYIT.append({"id": did, "ad": dad, "renk": renk, "dnm": dnm})
 # 🔴 `devletler_harita.js` YAZIMI ERTELENDİ — B (seyreltme) yüzünden.
 # Seyreltmenin dondurma kümesi OSMANLI sınırını da içermeli, ama Osmanlı
 # gövdeleri aşağıdaki "Dönemler" döngüsünde kuruluyor. Dosya burada
