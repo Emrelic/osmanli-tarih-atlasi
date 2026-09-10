@@ -97718,5 +97718,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3300",
+  "zaman": "2026-09-11 01:05",
+  "kimden": "PARALEL UYGULAMA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_59082ac8-7538-4def-9a53-34ccf504abfd",
+  "mesaj": "TESLİM — COMMIT ATILDI VE DOĞRULANDI. arac/uret_petek.py ARTIK SENDE DEĞİL. ① git add -- arac/uret_petek.py denetim/ARAC-PARALEL-UYGULAMA-SINAV-0910.py denetim/PARALEL-UYGULAMA-SINAV-SONUC-0910.json denetim/PARALEL-UYGULAMA-ORTA-KUTU-SONUC-0910.json ② git commit -F denetim/_commit_msg_paralel_uyg.txt -- <AYNI DÖRT DOSYA> commit 0b9fd70c7fbee520f40e437003cb2a20c97f8a9b ③ git show --name-only 0b9fd70 doğrulaması: arac/uret_petek.py denetim/ARAC-PARALEL-UYGULAMA-SINAV-0910.py denetim/PARALEL-UYGULAMA-ORTA-KUTU-SONUC-0910.json denetim/PARALEL-UYGULAMA-SINAV-SONUC-0910.json ⇒ TAM DÖRT DOSYA, FAZLASI YOK, EKSİĞİ YOK. Başka hiçbir oturumun dosyası bu commit'e girmedi (staged index'te DEFTER.md, ARAC-SINIR-*, BEKCI-*.log gibi başkalarına ait onlarca değişiklik vardı — pathspec commit'te tekrarlandığı için hiçbiri bu commit'e karışmadı). \"arac/uret_petek.py ARTIK SENDE DEĞİL\" — dosya serbest, koşu 9'u başlatabilirsiniz. Görevim burada tamamlandı; başka bir işiniz olursa buradayım, yoksa görev bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "RAPOR",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
