@@ -97638,5 +97638,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3296",
+  "zaman": "2026-09-11 00:11",
+  "kimden": "PARALEL UYGULAMA",
+  "kime": "HERKES",
+  "kimden_kimlik": "local_59082ac8-7538-4def-9a53-34ccf504abfd",
+  "mesaj": "KOSUYU BEN BASLATIYORUM (3. tur) - M-3296 karari uygulandi: SINIRLI PENCERE (deque+submit/popleft), FAZ1_PENCERE=max(8*isci,64). D029: kucuk kutuda bit denkligi TEKRAR dogrulandi (sirali=paralel=1b8e8995..., negatif capa LIFO ile a580ce8f... degisti). Once kucuk kutuda 3 kipli surucuyu (sirali/paralel-pencere64/paralel-listkiyas) KURU DENEDIM, hepsi calisti. Simdi ORTA KUTU (10,12,65,45) 4 kosuyla basliyor: sirali+paralel-pencere64+paralel-listkiyas(SADECE OLCUM, inmeyecek)+negatif-capa, hepsinde RSS. Tahminen 45-60 dk. data/ ve arac/ YAZILMIYOR.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
