@@ -1,0 +1,681 @@
+0001                   H-0001  cozuldu        dogrulandi   iran bir coğrafya ası aslında ve iranda bir yandan ilhanlı d
+0002                   H-0001  cozuldu        dogrulandi   gemlik ve kiosun alınması maddesinde en batıdaki parça ile o
+0002                   H-0002  cozuldu        iz-yok       söğüt bölgesi
+0002                   H-0003  cozuldu        iz-yok       göllerin üzerini kaplayan harita renkleri söz konusu bunu be
+0002                   H-0004  zaten-dogru    iddiasiz     kıyılara renk katmanı birebir oturmalı hiç olmzsa bu osmanlının doğduğu coğrafyada ilk buraya bakıyoruz ve anında görünüyor buralar biraz daha titiz çalışılabilir
+0002                   H-0005  sirada         acik         bu renk arkasındaki koyu ek alanlar ek katmanların manası ne
+0002                   H-0006  cozuldu        dogrulandi   sağdaki kronooji indexi panceresi kapatılabilir ve tam ekran
+0002                   H-0007  cozuldu        dogrulandi   sınırlar akademik atlas verisine dayalıdır yaklaşıktır doğru
+0002                   H-0008  cozuldu        dogrulandi   edirne için hem yıldız hem kırmızı yuvarlak gösterimi var bi
+0002                   H-0009  zaten-dogru    iddiasiz     veri sınırı butonu ne işe yarıyor bunu anlatman lazım
+0002                   H-0010  cozuldu        dogrulandi   hakkında butonuna artık gerek yok sanırım .ayrıca buradaki b
+0002                   H-0011  sirada         acik         bir şehir başkent ise yıldız olarak görünebilir ama başkent
+0002                   H-0012  cozuldu        dogrulandi   gelibolu sahilinin karşı kıyısında biga yarımadasının kuzey
+0002                   H-0013  zaten-dogru    iddiasiz     akresi beyliğinin ilhakında geliboludan bir parça toprak alı
+0002                   H-0014  sirada         acik         gelibolunun alınışı maddesinde gelibolu yarımadasına ek olar
+0002                   H-0015  cozuldu        iz-yok       ankara ile sivrihisar ve çankırıda alınmış gibi doğru ile kr
+0002                   H-0016  zaten-dogru    iddiasiz     tuz gölü etrafında hatalı iki küçük toprak var sanki bu hat
+0002                   H-0017  cozuldu        dogrulandi   dimetokanın oradaki sembol tam olarak anlamı nedir
+0002                   H-0018  cozuldu        dogrulandi   gümülcinenin alınmasında osmanlı ile gümülcine arasında topr
+0002                   H-0019  cozuldu        dogrulandi   bu kıymık gibi uzayan gösterim bir hata sanırım
+0002                   H-0020  cozuldu        dogrulandi   şu gösterimde hata olmalı küçük bir toprak parçası kopuk dur
+0002                   H-0021  cozuldu        dogrulandi   bu sarı gösterim sarı semboller tam oalrak nedir bana açıkla
+0002                   H-0022  cozuldu        dogrulandi   hamid ilinin satın alınışı sornası ıspartanın ana aprçadan k
+0002                   H-0023  zaten-dogru    iddiasiz     bu gösterimin ne kadar gerçekle yada mantıkla yada coğrafi t
+0002                   H-0024  cozuldu        dogrulandi   başkent yıldız olsun demiştik ayrıca eyalet merkezleri de ay
+0002                   H-0025  cozuldu        iz-yok       timur bağdadı zapteti celayirliler kaçtı maddesinde haritada
+0003                   H-0001  cozuldu        iz-yok       anadolu hisarının yapımı maddesinde osmanlı toprakları boğaz
+0003                   H-0002  cozuldu        dogrulandi   niğbolu seferinde metinler semboller üstüste binmiş okunmuyo
+0003                   H-0003  zaten-dogru    iddiasiz     karamanın ilhakında osmanlıya katılmayan bir kısım topraklar
+0003                   H-0004  zaten-dogru    iddiasiz     böyle iki devletin renginin üstüste binmesi sonucu sanırım b
+0003                   H-0005  cozuldu        dogrulandi   ilhanlı devletinin dağılması maddesinde tüm bölge birden kah
+0003                   H-0006  cozuldu        iz-yok       bu anadolu selçuklulaı devletinin ne zaman yıkılıp bittiği k
+0003                   H-0007  cozuldu        iz-yok       bu yapıda osmanlı imparatorluğu kırmızı renkte. ordu ünye bi
+0003                   H-0008  tekrar         iddiasiz     timurun bağdadı ikinci kez ele geirişide haritada gösterilmi
+0003                   H-0009  zaten-dogru    iddiasiz     fetret devrinde timura bağı bölgeleri ve tekrar hortlatılan
+0003                   H-0010  cozuldu        dogrulandi   düzmece mustafa ayaklanması maddesinde aydınoğulları beyliği
+0003                   H-0011  zaten-dogru    iddiasiz     batı anadolu beyliklerinin ilhakı maddesinde germiyanoğlu be
+0003                   H-0012  zaten-dogru    iddiasiz     bosna ucunun ilhakı enklav şeklinde mi olmuş böyle anakarada
+0003                   H-0013  cozuldu        iz-yok       bu parça rumeli hasarının yapımında bu anadolu yakasındaki t
+0003                   H-0014  zaten-dogru    iddiasiz     istanbul fethedildiğinde marmara adasıda fethedilmiş görünüy
+0003                   H-0015  cozuldu        iz-yok       şu kırım hanlığını cetvelle bölünmüş yapıdan kurtarmamız laz
+0003                   H-0016  cozuldu        iz-yok       dubrovnik raguza haracı maddesinde bölgenin görünümü bu şeki
+0003                   H-0017  cozuldu        dogrulandi   batı karadeniz kıyısının alınması ile birlikte izvornik te k
+0003                   H-0018  gerek-yok      iddiasiz     eflak seferi ve kazıklı voyvoda maddesi tek bir madde ve tüm
+0003                   H-0019  cozuldu        dogrulandi   KARAMANIN kesin ilhakı maddesinde karamanın ilhak edildiği g
+0003                   H-0020  cozuldu        dogrulandi   karamanın ilhakı iki madde sonra haritada işleniyor
+0003                   H-0021  zaten-dogru    iddiasiz     livno ve batı bosnanın kesin ilhakı maddesinde harita göster
+0003                   H-0022  tekrar         iddiasiz     kırımı şu saçma cetvelle bölünmüş yapısından kurtraracakmıyı
+0004                   H-0001  cozuldu        iz-yok       fetret devri madesinde çandarlı halil paşa maddesinin ne ala
+0004                   H-0002  cozuldu        iz-yok       Kili'nin tesliminden yirmi gün sonra ordu Dinyester ağzındak
+0004                   H-0003  cozuldu        dogrulandi   Papalık'tan Fransa Kralı VIII. Charles'a devredilen Cem Sult
+0004                   H-0004  cozuldu        dogrulandi   12-25 Ağustos 1499
+0004                   H-0005  cozuldu        iz-yok       safevi devleti kurulduğunda iran ve etrafı topraklar bu şeki
+0004                   H-0006  cozuldu        iz-yok       öncesi durum 1. resimde görülüyor
+0004                   H-0007  cozuldu        dogrulandi   1502
+0004                   H-0008  cozuldu        dogrulandi   1503 (908 h.; ay ve gün kaynakta yok)
+0004                   H-0009  cozuldu        dogrulandi   BU İRAN İÇİNDE SAFEVİLERDEN AYRI BİR SÜRÜ BENEK ENKLAV BÖLGE
+0004                   H-0010  cozuldu        dogrulandi   BU ORTAASYADAKİ BÖLGELER HAZARIN DOĞUSUNDAKİ BÜYÜK COĞRAFYA
+0004                   H-0011  sirada         acik         BAŞKENT OLAN ŞEHİRLERİN YANINDA YILDIZ ÇIKIYOR AMA HEPSİNE Y
+0004                   H-0012  cozuldu        dogrulandi   Şahkulu İsyanı — Teke yöresinden Sivas'a uzanan Kızılbaş aya
+0004                   H-0013  cozuldu        dogrulandi   SİNJ KALESİNİN FETHİ MADDESİNDE SİNJ KALESİNN YERİ HARİTADA
+0004                   H-0014  cozuldu        iz-yok       (başlıksız)
+0004                   H-0015  cozuldu        iz-yok       ŞİMDİ PADİŞAHIN RESMİNİ ZATEN YUKARIDA GÖSTERİYORUZ PİRİ RE
+0005                   H-0001  cozuldu        dogrulandi   SAFEVİLER VAR İKEN AYNI ZAMANDA AKKOYUNLULAR DA VAR OLMAYA D
+0005                   H-0002  cozuldu        dogrulandi   İRAN VE DOĞU ANADOLU HARİTASI BU TARİHTE DOĞRUMU ORADA AKKOY
+0005                   H-0003  cozuldu        dogrulandi   BİR BUTON YAPMALI HARİTAYA YAY BUTONU. HARİTAYA YAY BUTONUNA
+0005                   H-0004  zaten-dogru    iddiasiz     BU ÜÇKEN ŞEKLİNDE KAFKASLARIN KUZEYİNDE YER ALAN TOPRAK PARÇ
+0005                   H-0005  cozuldu        dogrulandi   İRn-an diye etiketlenen bu toprakların gerçek sahibi kim. he
+0005                   H-0006  cozuldu        dogrulandi   hem mercidabık zaferi hem ramazanoğullarının osmanlıya bağla
+0005                   H-0007  cozuldu        dogrulandi   bu garip görünüm kusurunun sebebi nedir bulalım ve çözelim.
+0005                   H-0008  cozuldu        dogrulandi   yavuzun kahireye girişi maddesinde kızıldenizin kıyısındaki
+0005                   H-0009  cozuldu        dogrulandi   işte bozuk görüntülere bir örnek daha
+0006                   H-0001  sirada         acik         bu katifin güneybatısındaki safevi toprağı dğrumu
+0006                   H-0002  cozuldu        iz-yok       cezayirin osmanlıya katıldığı hai ile haritadaki veri örtüşü
+0006                   H-0003  cozuldu        dogrulandi   (başlıksız)
+0006                   H-0004  cozuldu        dogrulandi   rodosla beraber fethedilen adalar varsa başka ege adaları on
+0006                   H-0005  zaten-dogru    iddiasiz     kalender şah diye etiketlernmiş bir isyan hareketi var ama m
+0006                   H-0006  cozuldu        dogrulandi   bozuk görünümlü yapılara örnek
+0006                   H-0007  cozuldu        iz-yok       istanbul anlaşması maddesinde avusturya ve macaristan ile ol
+0006                   H-0008  tekrar         iddiasiz     bu enklav nedir kime aitti tarihi gerçekliği varmı hatamı
+0006                   H-0009  cozuldu        iz-yok       (başlıksız)
+0006                   H-0010  tekrar         iddiasiz     şu macaristan ve habsburg görünen iki parça gerçekten böyle
+0006                   H-0011  cozuldu        iz-yok       tebriz neden osmanlı garnizonu haline getirilmiyor. zırt pır
+0006                   H-0012  cozuldu        iz-yok       25 Ağustos 1548
+0006                   H-0013  cozuldu        iz-yok       merak edilenler ekleme kart tartışma
+0006                   H-0014  cozuldu        iz-yok       tartışma maddesi
+0006                   H-0015  cozuldu        iz-yok       merak konusu tartışma maddesi
+0006                   H-0016  cozuldu        iz-yok       ankaranın sahibi ahiler olarak görünüyor bu ahilerin ne oldu
+0006                   H-0017  cozuldu        iz-yok       ek okuma yeniçeri ocağı nedir kuruluşu teşkilatı nasıldır ku
+0006                   H-0018  cozuldu        iz-yok       ek okuma vassallık nedir
+0006                   H-0019  cozuldu        iz-yok       tartışma merak edilenler ekleme
+0006                   H-0020  cozuldu        iz-yok       merak edilenler tartışma ek yapalım: kardeş katli gibi uygul
+0006                   H-0021  cozuldu        iz-yok       merak edilenler osmanlı hanedanında evlilik müessesi ve çok
+0006                   H-0022  cozuldu        iz-yok       osmanlıda siyasi evlilikler merak edilenlere ekleme yapalım
+0006                   H-0023  cozuldu        iz-yok       osmanlıda kadınlar saltanatı konusu merak edilenelre ekleme
+0007                   H-0001  cozuldu        dogrulandi   haçlı seferi olarka bir srü devlet tarafından örgütlenip osm
+0007                   H-0002  cozuldu        iz-yok       merak konusu istanbulu kuşatmak ablukaya almak için yıldırım
+0007                   H-0003  cozuldu        iz-yok       merak konusu tartışma ekle
+0007                   H-0004  cozuldu        iz-yok       osmanlıların ele geçirdikleri hristiyan ülkelerde halkla ilg
+0007                   H-0005  cozuldu        iz-yok       timur anlara savaşı sonrasında şehzadeleri kendisine balanma
+0007                   H-0006  cozuldu        iz-yok       merak edilenler
+0007                   H-0007  zaten-dogru    iddiasiz     ÖNEMLİ BİR UYARI
+0007                   H-0008  cozuldu        iz-yok       KIRIM HANLIĞININ İLHAKINDAN SONRA BU ŞEKİLDE HARİTADA GÖRÜNM
+emrelic-0008           H-0001  olculecek      acik         GERMİYANOĞULLARININ TOPRAKLARININT EYİDİ
+emrelic-0008           H-0002  zaten-dogru    iddiasiz     İLHANLILARIN TOPRAKALRI İKİ PARÇA GÖRÜNÜYOR ARAYA MEMLÜKLER
+emrelic-0008           H-0003  zaten-dogru    iddiasiz     BU YILLARDA MEMLÜKLÜLERİN TOPRAKLARI DİVRİĞİNE KDAR UZANIYOR
+emrelic-0008           H-0004  cozuldu        iz-yok       AKRESİ BEYLİĞİNİN İLHAKI SONRASINDA OSMANLI TOPRAKALRI SANKİ
+emrelic-0008           H-0005  sirada         acik         ÇİMPE KALESİNİN ALINMASI İLE AVRUPAYA GEÇİŞ HARİTASI İÇİN BU
+emrelic-0008           H-0006  cozuldu        iz-yok       BAŞKENTLERİN YILDIZ ŞEKLİNDE GÖSTERİMİ
+emrelic-0008           H-0007  cozuldu        iz-yok       (başlıksız)
+emrelic-0008           H-0008  zaten-dogru    iddiasiz     GÜMÜLCİNE VE BATI TRAKYA ELE GEÇİRİLİR İKEN ENEZ VE DİĞER TA
+emrelic-0008           H-0009  cozuldu        iz-yok       1281 DE BU BOŞLUKLARIN SEBEBİ NEDİR ORALARDA KİMSE YAŞAMIYOR
+emrelic-0008           H-0010  cozuldu        iz-yok       1281 DE BU BOŞLUKLARIN SEBEBİ NE ARAŞTIRALIM BURALARDA İNSAN
+emrelic-0008           H-0011  cozuldu        iz-yok       BU BOŞLUKLARIN SEBEBİ NEDİR. ORTADA BİR ALTINORDA BÖLGESİ VA
+emrelic-0008           H-0012  cozuldu        iz-yok       1281 DE HİNDİSTANDAKİ BOŞLUKLARIN SEBEBİ NEDİR BURALARDA İNS
+emrelic-0008           H-0013  cozuldu        iz-yok       1281 DE AFRİKANIN BU ORTASINDA TABİKİ ÇOĞU SAHRA ÇÖLÜ BÖLGES
+emrelic-0008           H-0014  cozuldu        iz-yok       1281 DE ASYANIN KUZEYİ VE ORTASINDAKİ BU TOPRAKLARDA İNSANMI
+emrelic-0008           H-0015  cozuldu        iz-yok       1281 DE BU ENDONEZYA MALEZYA FİLİPİNLER PAPUA YENİ GİNE GİBİ
+emrelic-0008           H-0016  cozuldu        iz-yok       1281 DE ARABİSTANDAKİ BU BOŞLUKLARIN SEBEBİ O TARİHTE ORALAR
+emrelic-0010           H-0001  cozuldu        iz-yok       TESPİH SEKEMSİNDEKİ HER SEKMEDE ONAY BEKELEYN AÇILMIŞ PAKET
+emrelic-0011           H-0001  bayat          iddiasiz     kutsal roma germen imparatorluğu 1281 de bu şekilde mi görün
+emrelic-0011           H-0002  cozuldu        dogrulandi   BİRİNCİ FOTOGRAFTA BAK BİR SÜRÜ HATA VAR ŞARKÖY TARAFI VE ÇA
+emrelic-0012           H-0001  sirada         acik         BURADAKİ GİRİNTİLERİ GÖRÜYORMUSUN. BU GİRİNTİLERİ YUMUŞATMAK
+emrelic-0012           H-0002  sirada         acik         EN İLGİNÇ GİRİNTİLER BURADA OLUŞMUŞ MESELA BURADA BİRAZ DAHA
+emrelic-0012           H-0003  cozuldu        iz-yok       BU MESAJ KUTUSU BİRAZ AĞIR ÇALIŞIYOR KAYDEDE FİLAN BASINCA H
+emrelic-0013           H-0001  cozuldu        iz-yok       bizim bu projeyi yaparken kullandığımız en birinci kaynak td
+emrelic-0013           H-0002  gerek-yok      iddiasiz     şu osmanlının en başlangıç haritasında söğüt ile domaniç böl
+emrelic-0014           H-0001  cozuldu        dogrulandi   deniz ile aynı renk tonlarını ülke haritalarında tercih etme
+emrelic-0014           H-0002  cozuldu        dogrulandi   şu himalayaların tepesindeki yerleşimlerin boyadığı alana ba
+emrelic-0014           H-0003  zaten-dogru    iddiasiz     yuan hanedanının toprakları birbirinden hep ayrık
+emrelic-0014           H-0004  sirada         acik         aral gölü baykal gölü gibi iç gölelrin kıyılarının harita il
+emrelic-0014           H-0005  sirada         acik         bu lehistan litvanyaya ait olan üçkensel yapının manası nedi
+emrelic-0014           H-0006  cozuldu        dogrulandi   bu haritadaki boş bölgelerde hiç kimse yaşamıyormuymuş yada
+emrelic-0014           H-0007  cozuldu        iz-yok       bu boş alanlar boş muymuş devlet mi yokmuş insan mı yokmuş v
+emrelic-0014           H-0008  cozuldu        iz-yok       hindistanda görünen boş bölgeler *nedenboş
+emrelic-0014           H-0009  cozuldu        iz-yok       1. görsel 29 ekim 1923 de bu parça türkiyeye mi aitmiş eminm
+emrelic-0015           H-0001  zaten-dogru    iddiasiz     1923 haritasında midillide bir küçük toprak varmış gibi görü
+emrelic-0015           H-0002  zaten-dogru    iddiasiz     hatay yok 1923 haritasında ama çukurova ve iskenderun olması
+emrelic-0015           H-0003  cozuldu        iz-yok       suriye ve ırak sınırı baştan aşağı hatalı benceç. gerçi ırak
+emrelic-0015           H-0004  cozuldu        iz-yok       sscb sınırı gürcistan ermenistan sınırı da hatalı. artvin ho
+emrelic-0015           H-0005  cozuldu        iz-yok       iran hancivan ermenistan sınırı doğrumu tüm aksaba ilçe il ş
+emrelic-0016           H-0001  zaten-dogru    iddiasiz     haritadaki bozuklukları söylememe gerek varmı
+emrelic-0016           H-0002  sirada         acik         bu haritadaki bu yapı hatamı acaba
+emrelic-0016           H-0003  sirada         acik         tuz gölü kıyılarına harita birebir 6. derecede kalite ile ot
+emrelic-0016           H-0004  sirada         acik         kilitbahir karesi beyliği katılmasından sonra osmanlıya geçt
+emrelic-0016           H-0005  sirada         acik         çimpe kalesi alınınca saroz körfesinin kuzeyine toprak geçme
+emrelic-0017           H-0001  sirada         acik         bu üçkenin sebebi nedir dulkadiroğulları beyliğini kayseriy
+emrelic-0017           H-0002  cozuldu        iz-yok       orhan gazinin cenevizliler il ilk kapütülasyonu maddesinde k
+emrelic-0017           H-0003  cozuldu        iz-yok       pençik kanunu ve yeniçeri ocağının temelinin atılması maddes
+emrelic-0017           H-0004  cozuldu        iz-yok       allahaşkına bu nedir ya
+emrelic-0018           H-0001  zaten-dogru    iddiasiz     bu tarihte meriçin alınmamış olması normal mi hatamı daha ön
+emrelic-0018           H-0002  cozuldu        iz-yok       elhovonun alınışının kronolojide maddesi yok alakasız bir ma
+emrelic-0018           H-0003  cozuldu        dogrulandi   kırcaali gümülcine meriçten ipsalanın kuzeyi nden daha mı ön
+emrelic-0018           H-0004  cozuldu        iz-yok       fetret devrinde emir süleyman çelebinin toprakları nedne iki
+emrelic-0019           H-0001  zaten-dogru    iddiasiz     eftret devri ankar savaşı sonrası batı anadolu haritası doğr
+emrelic-0019           H-0002  cozuldu        iz-yok       fetret devri sonrası orta anadolu haritası doğrumu
+emrelic-0019           H-0003  cozuldu        dogrulandi   fetret devri sonrası ankara savaşı sonrası doğu anadolu hari
+emrelic-0019           H-0004  cozuldu        iz-yok       fetret devri ankara savaşı sonrası osmanlı rumeli toprakları
+emrelic-0019           H-0005  cozuldu        dogrulandi   tepede başlıkda sürekli kayıp yenişehir bursa inegöl aydoska
+emrelic-0019           H-0006  cozuldu        iz-yok       kronolojide aynı tarih olan olaylar 1 2 3 şeklinde numaralan
+emrelic-0019           H-0007  sirada         acik         bu gürcistan ile karakoyunlular aynı rennk görünüyor o tari
+emrelic-0019           H-0008  cozuldu        iz-yok       bu mersin osmanlı ile aynı renk görünüyor bu hatanın sebebi
+emrelic-0019           H-0009  zaten-dogru    iddiasiz     kırım hanlığı kurulluşunda o dönemdeki o bölgenin siyasi yap
+emrelic-0019           H-0010  cozuldu        iz-yok       uçuş animasyonu kronolojik maddelerin haritada gösterilmesin
+emrelic-0019           H-0011  cozuldu        dogrulandi   devletler indexinin bağlı olduğu ve hedef devletin kronoloji
+emrelic-0019           H-0012  cozuldu        dogrulandi   kırımın hanlığın kurulmasında bu cetvelle çizilen çizgi niye
+emrelic-0019           H-0013  zaten-dogru    iddiasiz     saray ovasının ilhakı ile bosnada bir osmanlı enklavı mı olu
+emrelic-0019           H-0014  cozuldu        dogrulandi   2. kosova savaşının haritada bölgesi ve simgesi işaretlenmem
+emrelic-0019           H-0015  cozuldu        dogrulandi   uçuş ile haritanın odağının ayarlanması meselesinde şöyle bi
+emrelic-0019           H-0016  cozuldu        iz-yok       karakoyunluların timurdan iranın rey isfahan fars kirman böl
+emrelic-0019           H-0017  zaten-dogru    iddiasiz     bir olay anlatılırken kronolojide bu olayın geçtiği yer hari
+emrelic-0019           H-0018  sirada         acik         anadolu hisarının yapımı maddesinde boğazın anadolu yakası a
+emrelic-0019           H-0019  sirada         acik         rumeli hisarı tamamlandı maddesinde haritada değişiklik yok
+emrelic-0019           H-0020  zaten-dogru    iddiasiz     osmanlı kronolojisinde osmanlı ile direkt alakası olmayan ma
+emrelic-0019           H-0021  cozuldu        dogrulandi   tepedeki madde metni ile kronooji sutunundaki madde metni bi
+emrelic-0019           H-0022  zaten-dogru    iddiasiz     boğdan voyvodalığı vassallığa katılmış ama haritada boğdan v
+emrelic-0019           H-0023  cozuldu        dogrulandi   haritada hiçbir zaman çizelgesindeki noktada etiketsiz topra
+emrelic-0019           H-0024  zaten-dogru    iddiasiz     natı karadeniz kıyısının alınışı amasra maddesinde bosna top
+emrelic-0019           H-0025  zaten-dogru    iddiasiz     eflak seferi ve kazıklı voyvoda maddesi ile eflak osmanlı va
+emrelic-0019           H-0026  cozuldu        dogrulandi   fatihin arnavutluk seferi 2. sefr ile arnavutlukda bir topra
+emrelic-0019           H-0027  gerek-yok      iddiasiz     saat 00:08 AM thursday itibari ile yeni hafta başlamış durum
+emrelic-0019           H-0028  cozuldu        iz-yok       boğdanda racova vasuli bozgunu haritada yeri gösterilmiyor.
+emrelic-0019           H-0029  cozuldu        iz-yok       cem sultanın yenildiği yenişehir muhrebesi nerede olmuş hari
+emrelic-0019           H-0030  zaten-dogru    iddiasiz     cetinje osmanlıya katılmış ama orada çok küçük kıymık gibi b
+emrelic-0019           H-0031  cozuldu        dogrulandi   bu harita yapısı gözü kanatıyor bir çözüm bulmalı acaba 200
+emrelic-0019           H-0032  cozuldu        dogrulandi   YENİ ALINAN TOPRAKLAR YANSIN SÖNSÜN İKİ KERE ALGIDA VURGU OL
+emrelic-0019           H-0033  cozuldu        iz-yok       NİSAN 1513 yenişehir muharebesi haritada gösterilmiyor
+emrelic-0019           H-0034  bayat          iddiasiz     bu maddenin haritada yeri görünmüyor azemmur ümmürrebi alını
+emrelic-0019           H-0035  cozuldu        iz-yok       mazagan kalesinin kurulması maddesi haritada görünmüyor
+emrelic-0019           H-0036  cozuldu        iz-yok       tebrize girilmesi maddesinde tebriz alınmış görünüyor sorun
+emrelic-0019           H-0037  zaten-dogru    iddiasiz     safeci iran erzuurm urfa toprakları var arada ama osmanlı do
+emrelic-0019           H-0038  zaten-dogru    iddiasiz     diyarbekir ebylerbeyliği kurulmuş ama osmanlı topraklarından
+emrelic-0019           H-0039  cozuldu        iz-yok       mayıs 1516 mardin koçhisar kızıltepe savaşı maddesinde mardi
+emrelic-0019           H-0040  cozuldu        iz-yok       20 haziran 1516 zebidin alınması maddesinde zebid haritada g
+emrelic-0019           H-0041  zaten-dogru    iddiasiz     planlama aşamasında olan bu gibi güzergahların sarı kesikli
+emrelic-0019           H-0042  cozuldu        iz-yok       mercidabık zaferi ile tüm bu topraklar hakikaten alındımı te
+emrelic-0019           H-0043  cozuldu        iz-yok       mercidabık zaferi ile coğrafi olarak fazla yakın olmayan bu
+emrelic-0019           H-0044  cozuldu        iz-yok       adana elbistan halep maraş antep tüm bu yerleşimlerin yanlar
+emrelic-0019           H-0045  cozuldu        dogrulandi   halepin osmanlı hakimiyetine girişi maddesinde haritada deyr
+emrelic-0019           H-0046  zaten-dogru    iddiasiz     ağustos 1516 abbasi halifesi 3 mütevekkil ile görüşme maddes
+emrelic-0019           H-0047  tekrar         iddiasiz     trabkusşamın osmanlıya girmesi maddesinde hama ve humus da d
+emrelic-0019           H-0048  zaten-dogru    iddiasiz     şamla beraebr beyrut ve palmyra da haritada katılmış görünüy
+emrelic-0019           H-0049  cozuldu        dogrulandi   bu tuhaflıkların sebebi nedir çözmeliyiz tuhaf görünümleri
+emrelic-0019           H-0050  sirada         acik         canbirdi gazali yenilmiş ama daha ileride bir toprakda yenil
+emrelic-0019           H-0051  zaten-dogru    iddiasiz     kronoloji maddeleri ilerler iken o andaki aktif kronoloji ma
+emrelic-0019           H-0052  cozuldu        dogrulandi   konu süzgeci butonunu kronoloji başlığının yanındaki bölgeye
+emrelic-0019           H-0053  cozuldu        iz-yok       ridaniye savaşı haritada işaretlenemmiş
+emrelic-0019           H-0054  cozuldu        dogrulandi   bu harita gösterim bozukluğu neden oluyor
+emrelic-0019           H-0055  cozuldu        dogrulandi   hem böyle üçken iğlener var görüntü kusuru hemde hafifçe pem
+emrelic-0019           H-0056  cozuldu        iz-yok       afrikanın kuzey batı kuzey ve kuzey doğu bölümünde sahra çöl
+emrelic-0019           H-0057  cozuldu        iz-yok       ikarya adası alındı 1521 de 3 olay var ve çat diye tek göste
+emrelic-0019           H-0058  cozuldu        dogrulandi   böğürdelenin fethi maddesinde haritada göstrerim yeri yok uç
+emrelic-0019           H-0059  cozuldu        iz-yok       uçuş ayarları hiç etki etmiyor görünüyor ayrıca yeni ayarkar
+emrelic-0019           H-0060  cozuldu        dogrulandi   TEPEDEKİ ÇUBUKTAKİ OLAY BAŞLIĞI İLE KRONOLOJİDEKİ OLAY BAŞLI
+emrelic-0019           H-0061  sirada         acik         MOAHÇDAN SONRA OSMANLI MACARİSTAN HARİTASININ BU ŞEKİLDE TEC
+emrelic-0019           H-0062  tekrar         iddiasiz     VİYANA KUŞATMASINA YAPILAN SEFER İÇİN SİYAH KESİ KKESİK YOL
+emrelic-0019           H-0063  cozuldu        iz-yok       5-30 AĞUSTOS 1532 ALMAN GÜNS KUŞATMASI HARİTADA GÖRNÜMÜYOR Ç
+emrelic-0019           H-0064  cozuldu        iz-yok       MATRAKÇI NASUH IRAKEYN SEFERİ MADDESİNDE KARS CİVARININ OSMA
+emrelic-0019           H-0065  zaten-dogru    iddiasiz     KARSIN ALINMASI MADDESİNDEN ÖNCE HARİTA BÖYLE GÖRÜNÜYOR MADD
+emrelic-0019           H-0066  cozuldu        dogrulandi   BİR OSMANLI TOPRAĞINDAN İLERİDEKİ BİR TOPRAK ALINDIĞI XAMAN
+emrelic-0019           H-0067  bayat          iddiasiz     FUZULİNİN BAĞDATIN FETHİ SONRASI KANUNİYE KASİDE SUNMASI KRO
+emrelic-0019           H-0068  zaten-dogru    iddiasiz     TEBRİZE GİRİLİR İKEN ARADAKİ TOPRAKLARI FETHETMİYOR ORDU GAL
+emrelic-0019           H-0069  cozuldu        iz-yok       BAĞDADIN FETH BU ŞEKİLDE RESMEDİLMİŞ.
+emrelic-0019           H-0070  cozuldu        iz-yok       İŞTE HALEPÇE ENKLAV GÖRÜNÜMÜ BURADA HANGİ YOL İLE OSMANLI AN
+emrelic-0019           H-0071  cozuldu        dogrulandi   BU ORTADAKİ ANLAMSIZ BOŞ KORİDORU ENGELLEMEK İÇN BELKİ
+emrelic-0019           H-0072  cozuldu        dogrulandi   MESELA BURADAKİ ORTADAKİ BOŞLUK BENİM BİR ÖNCE BELİRTTİĞİM S
+emrelic-0019           H-0073  cozuldu        dogrulandi   BU MEDİNE YENBU VE TEBÜS ARASINDA BAŞKA YERLEŞİM YOK MU BU A
+emrelic-0019           H-0074  zaten-dogru    iddiasiz     BUDİNİN İLHAKI MADDESİNDEN ÖNCE MACARİSTAN HARİTASI BU ŞEKİL
+emrelic-0019           H-0075  cozuldu        iz-yok       MACARİSTAN BUDİN İLHAKI VE BİR SÜRÜ KALENİN FETHİNDEN SONRA
+emrelic-0019           H-0076  cozuldu        dogrulandi   SANA VE YEMEN İÇLERİNİ FETHİ YAPILIR İKEN ARADAKİ YEMEN İMAM
+emrelic-0019           H-0077  zaten-dogru    iddiasiz     van fethedilmiş de bu pembe renkli toprak kimin toprağı acab
+emrelic-0019           H-0078  tekrar         iddiasiz     4 renk var burada safevi osmanlı belli gürcistan belli ama v
+emrelic-0019           H-0079  cozuldu        dogrulandi   basra ile katif arasındaki boşluk da hiç yerleşim yok muymuş
+emrelic-0019           H-0080  cozuldu        iz-yok       deniz rengine yakın renkleri haritada siyasi devlet renkleri
+emrelic-0019           H-0081  sirada         acik         deniz ve göl rengi için daha aççık bir mavi tonu mu kullansa
+emrelic-0020           H-0001  cozuldu        iz-yok       bu yıldız şeklindeki görünüm hatası var ve acaba katar yarım
+emrelic-0020           H-0002  cozuldu        iz-yok       ilginç üçken yıldız görünümler
+emrelic-0020           H-0003  zaten-dogru    iddiasiz     abadan bu tarihte osmanlıda değil mi böyle ilginç bir harita
+emrelic-0020           H-0004  cozuldu        iz-yok       1560 cerbe savaşının haritada yeri yok haritada yeri olmayan
+emrelic-0020           H-0005  sirada         acik         malta adasına kıyılara boyamayı harita boyamasını tam örtüşt
+emrelic-0020           H-0006  cozuldu        dogrulandi   buradaki boş görünen yerlerde hiç osmanlı yada başka devleti
+emrelic-0020           H-0007  cozuldu        iz-yok       bu gat isimli yerleşimin bölgesi neden bu şekilde açıkla
+emrelic-0020           H-0008  cozuldu        iz-yok       ubari şehrinin etki alanı neden böyle cetvelle kesilmi gibiv
+emrelic-0020           H-0009  cozuldu        iz-yok       bu ortadaki boş alanın bu şekilde çıkmasını geometrisi matem
+emrelic-0020           H-0010  cozuldu        iz-yok       bu ortadaki üçken boşluk neden böyle ortaya çıkıyor hangi ge
+emrelic-0020           H-0011  cozuldu        iz-yok       bu ortadaki boşluk nedne ortaya çıkıyor hangi geometri ile
+emrelic-0020           H-0012  sirada         acik         ferhatpaşa anlaşması ile çizilen sınırlar böyle gösteriliyor
+emrelic-0020           H-0013  sirada         acik         4 ağustos 1578 vasiseyl savaşı maddesinde kafkasyada ufak bi
+emrelic-0020           H-0014  sirada         acik         bu doğu savaşındaki ilerlemeler ve kronolojisi işte böyle bu
+emrelic-0021           H-0001  cozuldu        dogrulandi   bu venedik toprakları gerçekten o devirde venediğin miymiş t
+emrelic-0021           H-0002  cozuldu        iz-yok       dalmaçya ıyılarındaki bu yapı bu şekildemiymiş kontrol et ad
+emrelic-0021           H-0003  cozuldu        iz-yok       bu kanije ve eğri yeişl renk macaristan renginde görünüyor b
+emrelic-0021           H-0004  cozuldu        dogrulandi   bu tarihte avusturya toprakları doğrumu teyid et
+emrelic-0021           H-0005  sirada         acik         buradaki iki boşluk neden kaynaklanıyor bu topraklar hiçbir
+emrelic-0021           H-0006  cozuldu        iz-yok       bu cetvel sınırın sebebi nedir
+emrelic-0021           H-0007  cozuldu        iz-yok       safevilerin bahreyni portekizlilerden alması haritada yansıt
+emrelic-0021           H-0008  cozuldu        iz-yok       osmanlı iran mücadelesinde bu arada arka planda farklı bir r
+emrelic-0021           H-0009  cozuldu        iz-yok       vladikafkas daki boşluk sorgulanmalı
+emrelic-0021           H-0010  sirada         acik         bağdat 4. murat alırken aradaki şehirlerin alınması tarihi k
+emrelic-0021           H-0011  zaten-dogru    iddiasiz     şu çuha ve istendil adası osmanlıda değil miymiş bu tarihte.
+emrelic-0021           H-0012  cozuldu        iz-yok       koridor mantığını şu açıdan istedik ve kurduk aslında.
+emrelic-0021           H-0013  cozuldu        iz-yok       ırakdaki bu girintinin sebebi nedir tam oalrak.o aradaki top
+emrelic-0021           H-0014  cozuldu        dogrulandi   semave ve küme arasındaki toprak osmanlıda görünmeme sebebin
+emrelic-0021           H-0015  cozuldu        dogrulandi   bu görüntü bozulmalarının sebebi nedir
+emrelic-0021           H-0016  cozuldu        iz-yok       yenbu tebük arasıın osmanlı görünmeme sebebi nedir 1577 sene
+emrelic-0021           H-0017  zaten-dogru    iddiasiz     şu aradaki boşluğun osmanlı görünmeme sebebi nedir
+emrelic-0021           H-0018  cozuldu        dogrulandi   bu ortadaki bölgenin osmanlı görünmeme sebebi nedir ve calu
+emrelic-0021           H-0019  cozuldu        iz-yok       gümrü başkale çaldıran neden farklı renkte görünüyor o dönem
+emrelic-0021           H-0020  cozuldu        iz-yok       bu aradaki toprak osmanlıya boyanmamış orada hiç yerleim yok
+emrelic-0021           H-0021  cozuldu        iz-yok       bu bahreynde hiç toprak parçası varmıydı osmanlının oradaki
+emrelic-0021           H-0022  cozuldu        iz-yok       iki kırmızı alan arasındaki bölgelerin kırmızıya boyanması m
+emrelic-0021           H-0023  cozuldu        iz-yok       burada hiçmi yerleşim yok
+emrelic-0021           H-0024  zaten-dogru    iddiasiz     bu boşluk alanlarda hiç mi yerleşim yok ortasyada filan ayrı
+emrelic-0021           H-0025  cozuldu        iz-yok       bu macaristan yeşil topraklar geçerlimi tam oalrak kraliyet
+emrelic-0021           H-0026  zaten-dogru    iddiasiz     nahcıvan fethedilir iken neden enklav gibi görünüyor aradaki
+emrelic-0021           H-0027  sirada         acik         tebriz alınmış ama vanın doğusundaki topraklar alınmamış mı
+emrelic-0021           H-0028  sirada         acik         ferhatpaşa antlaşması
+emrelic-0021           H-0029  cozuldu        iz-yok       vrana ladin osmanlı görünüyor teyid edelim ama oradaki adacı
+emrelic-0021           H-0030  sirada         acik         eflak seferini gösteren haritada bir işaretleme ok filan yok
+emrelic-0021           H-0031  cozuldu        dogrulandi   uçuş ayarlarını düzenle
+emrelic-0021           H-0032  cozuldu        iz-yok       bu kırım hanlığı bozkırında hiç yerleşim yeri yok mu o devir
+emrelic-0022           H-0001  cozuldu        iz-yok       1) 1665 de parga ve korfu adasının karşı kıyısının osmanlı
+emrelic-0022           H-0002  cozuldu        iz-yok       burada bu tarihte boş görünen iki parça toprak var bu iki pa
+emrelic-0022           H-0003  cozuldu        iz-yok       1)çerkezyanın kuzeyinde bir ufak boş alan var bu nedir
+emrelic-0022           H-0004  zaten-dogru    iddiasiz     1672 de korfu kefalonya zakintos ve çuha adası ile istendil
+emrelic-0022           H-0005  sirada         acik         yediçkul bozkırı
+emrelic-0023           H-0001  cozuldu        dogrulandi   orta macaristan denilen ve tökeli imre nin kralı ilan edildi
+emrelic-0023           H-0002  cozuldu        dogrulandi   2. viyana bozgunu sornasında 2. viyana bozgunundan sonra kah
+emrelic-0023           H-0003  sirada         acik         2. viyana bozgunu sonrasında kutsal ittifak kurulmasını kuts
+emrelic-0023           H-0004  zaten-dogru    iddiasiz     solnok kaybedilmiş diyor. 2. viyana sonrasındaki kronoojik m
+emrelic-0023           H-0005  cozuldu        iz-yok       2 viyana sonrası budin düştükten sonra simontoma ve kalocsa
+emrelic-0023           H-0006  cozuldu        dogrulandi   emoji gösteme özelliğini ayarlara koydukmu . ayarlardan kapa
+emrelic-0023           H-0007  cozuldu        dogrulandi   uçuşdan sonra veya uçuş özelliği olmadan da elden çıkan yad
+emrelic-0023           H-0008  cozuldu        iz-yok       atinanın kaybı maddesinde naplionun doğusundaki bir parça to
+emrelic-0023           H-0009  cozuldu        dogrulandi   uçuş modunda haritanın yavaş yavaş olay mahaline çekilmesi a
+emrelic-0023           H-0010  cozuldu        iz-yok       venediğin eğriboz kuşatmasının püskürtülmesi ekim 1688 madde
+emrelic-0023           H-0011  cozuldu        iz-yok       niş ve vidin düştü kronolojik maddesinde tuzla ve kragujevac
+emrelic-0023           H-0012  cozuldu        dogrulandi   salankamen bozgunu ve bunun gibi diğer bozgun ve muharebe ye
+emrelic-0023           H-0013  cozuldu        dogrulandi   granbosa kalesinin fethi maddesinde granbosa kalesinin yeri
+emrelic-0023           H-0014  cozuldu        dogrulandi   kronoloji maddeleri ileri ileri oynatılır iken haritanın tep
+emrelic-0023           H-0015  cozuldu        dogrulandi   ulaş zaferi haritada işaretli değil
+emrelic-0023           H-0016  cozuldu        dogrulandi   zenta bozgunu haritada gösterilmiyor
+emrelic-0023           H-0017  cozuldu        iz-yok       karlofça anlaşması maddesinde karlofça kasabası şehri harita
+emrelic-0023           H-0018  cozuldu        dogrulandi   osmanlının karlofçada kaybettiği alanlar akrofça barış anlaş
+emrelic-0024           H-0001  cozuldu        iz-yok       1705 de gümrü kime aitti neden baka renk görünüyor.
+emrelic-0024           H-0002  cozuldu        iz-yok       1) 1705 de batum soci kısmına trabzon bölgesi diye dahil etm
+emrelic-0024           H-0003  gerek-yok      iddiasiz     acaba sadece bu mesaj kutusunu ve buradaki mesajları okuyup
+emrelic-0024           H-0004  zaten-dogru    iddiasiz     ahvaz abadan hafiza 1703 de hangi devlete ait iran mı yoksa
+emrelic-0024           H-0005  sirada         acik         buradaki safevi iran parçası osmanlı basra vilayetini çapraz
+emrelic-0024           H-0006  cozuldu        dogrulandi   beni halid emirliğine geçirdim kronoloji ve harita odağını.
+emrelic-0024           H-0007  zaten-dogru    iddiasiz     bu toprakları bu sultanlığa bağlayan algoritma nedir acaba
+emrelic-0024           H-0008  sirada         acik         bu maddede haritada böyle bir bölge görünüyor bu hata mı iki
+emrelic-0024           H-0009  cozuldu        dogrulandi   KRONOLOJİ COMBOBOXUNDA BİRDEN ÇOK ÜLKENİN KRONOLOJİSİ SEÇİLE
+emrelic-0024           H-0010  cozuldu        iz-yok       SİTEDE BUTONLAR MENÜSÜNDE BİR HAKKINDA MENÜSÜ OLSUN VE BU ME
+emrelic-0025           H-0001  sirada         acik         SENCE 1711 DE GÜRCİSTAN BÖYLE Mİ BOYANMALI İKİ AYRI TOPRAK A
+emrelic-0025           H-0002  cozuldu        iz-yok       TÜM KRONOLOJİK OLAYLARIN HARİTADA OLAY MAHALİ İŞARETLEMESİ Y
+emrelic-0025           H-0003  cozuldu        iz-yok       DAR GENİŞ BUTONU KRONOLOJİ SUTUNUNU DARALTIĞ GENİŞLETEN BUTO
+emrelic-0025           H-0004  sirada         acik         BURADAKİ HATAYI DÜZELTELİM
+emrelic-0025           H-0005  sirada         acik         BURADAKİ AÇIK YEŞİL MACARİSTAN TOPRAKLARI DOĞRUMU YOKSA BURA
+emrelic-0025           H-0006  zaten-dogru    iddiasiz     1329 da osmanlı devleti avrupa yakasına rumeli hisarı bölges
+emrelic-0025           H-0007  zaten-dogru    iddiasiz     karesi ilhakı 1334-1335 osmanlı avrupaya karşı kıyıya gelibo
+emrelic-0025           H-0008  zaten-dogru    iddiasiz     1346 osmanlı egemenliği midilli adasına çıkmış görünüyor bu
+emrelic-0025           H-0009  sirada         acik         dimetoka çirmen uzunköprü kırklareli lüleburgaz alınmadan la
+emrelic-0026           H-0001  cozuldu        iz-yok       BU 1 NUMARALI RESİMDE BİZİM PROGRAM YAPISI PENCERESİ BU ŞEKİ
+emrelic-0027           H-0001  cozuldu        dogrulandi   olay olay oynatma hızlarına
+emrelic-0027           H-0002  cozuldu        dogrulandi   1)kronoloji çubugunda padişah resminin yanına padişah ismi y
+emrelic-0027           H-0003  cozuldu        dogrulandi   çubuktaki yazıyı daha göze çarpan bir şekilde biraz daha kal
+emrelic-0027           H-0004  cozuldu        dogrulandi   TÖKÖLİ İMRE ORTA MACAR KRALLIĞI KURUP OSMANLIYA BAĞLANDIĞIND
+emrelic-0027           H-0005  sirada         acik         BU ARADA KRONOLOJİK MADDE İLE İLGİLİ MADDELERİN İÇİNDEKİ RES
+emrelic-0027           H-0006  sirada         acik         KUTSAL İTTİFAK KURULDU MADDESİNDE HARİTADA KUTSAL İTTİFAK ÜY
+emrelic-0027           H-0007  cozuldu        iz-yok       NİŞ VE VİDİN ELDEN ÇIKMIŞ.
+emrelic-0027           H-0008  zaten-dogru    iddiasiz     GRANBOSA KALESİ VE SALANKAMEN BOZGUNU MADDELERİ HARİTADA İŞA
+emrelic-0027           H-0009  cozuldu        iz-yok       BU SENEDE BU HARİTA GÖRÜNTÜSÜ NORMAL Mİ ARADAKİ KORİDOR TARİ
+emrelic-0027           H-0010  cozuldu        iz-yok       BU SENE DE HARİTADA AMCARİSTANIN BÖYLE YEŞİL GÖRÜNMESİ NORMA
+emrelic-0027           H-0011  cozuldu        dogrulandi   HAÇOVA MEYDAN MUHAREBESİNİN YERİ HARİTADA BELLİ DEĞİL
+emrelic-0027           H-0012  cozuldu        dogrulandi   ARAYÜZ İÇİN ÖNERİ
+emrelic-0027           H-0013  cozuldu        dogrulandi   BU KRONOLOJİ MADDESİNİN METNİ ÜST ÇUBUKTA GÖRÜNEN METİN SAĞA
+emrelic-0028           H-0001  zaten-dogru    iddiasiz     bu tarihte buradaki boşluk hatamı bakalım
+emrelic-0028           H-0002  cozuldu        iz-yok       kırım hanlığı bozkırı denilen bu bögleerde hiç mi şehir yok
+emrelic-0028           H-0003  zaten-dogru    iddiasiz     bu sene bu bölge böyle miymş orada bir kopuk osmanlı toprağı
+emrelic-0028           H-0004  cozuldu        dogrulandi   bu maddede iken bir sonraki maddeye tıklayınca iki madde bir
+emrelic-0028           H-0005  cozuldu        iz-yok       ferhatpaşa anlaşmasından sonra osmanlı iran sınırının bu şek
+emrelic-0028           H-0006  cozuldu        iz-yok       bu tarihte bu bölgenin bu şekilde olduğuna eminmiyiz
+emrelic-0028           H-0007  sirada         acik         bu kuzey afrikadaki bozuk görünümlerin sebebi nedir.
+emrelic-0029           H-0001  cozuldu        iz-yok       göz kırpma animasyonunu bazı hızlarda kapatmamız gerekiyor 1
+emrelic-0029           H-0002  cozuldu        iz-yok       bu tarihte germiyanoğulları beyliğinin böyle iki birbirinden
+emrelic-0029           H-0003  zaten-dogru    iddiasiz     osmanlının ilk kuruluşundaki toprakları böyle birbirinden ko
+emrelic-0029           H-0004  cozuldu        iz-yok       katalan birliklerin anadolu seferi oku bir olay erken çıkıyo
+emrelic-0029           H-0005  cozuldu        iz-yok       ilk maddede durum 1. resimdeki gibi iken yani yapılan ayar n
+emrelic-0029           H-0006  cozuldu        iz-yok       haritanın genişlik gösterimi alanını odakda bakılan devletin
+emrelic-0029           H-0007  sirada         acik         haritadaki şu tür örtüşmemezlikleri bertaraf edelim halledel
+emrelic-0030           H-0001  sirada         acik         bu koyu kırmızı renk sebebi nedir acaba biasn mavisi üzerine
+emrelic-0030           H-0002  olculecek      acik         pelakanon savaşı maddesinde osmanlı sanki boğazı geçmiş ve r
+emrelic-0030           H-0003  cozuldu        iz-yok       osmanlı aydın saruhan ittifakı maddesinde bu üç ittifak mens
+emrelic-0030           H-0004  sirada         acik         eretna beylkiğinin kurulması maddesinde gözüme çarpan trabzo
+emrelic-0030           H-0005  zaten-dogru    iddiasiz     olay mahaline odaklanan haritada olay yeri yuvarlak işaret y
+emrelic-0030           H-0006  sirada         acik         dar geniş ve kapalı şeklinde görünen panel açma kapama buton
+emrelic-0030           H-0007  zaten-dogru    iddiasiz     çimpe kalesine geçilince sarosun kuzeyi boyanmamalı. arada d
+emrelic-0030           H-0008  bayat          iddiasiz     dış ülkelerin önemi şüpheli maddeleri
+emrelic-0030           H-0009  sirada         acik         1. problem haritada rumelide büyük bir toprak alınmış ama pe
+emrelic-0030           H-0010  zaten-dogru    iddiasiz     doğu trakyada ilerleyiş çorlu ve lüleburgazın alınması madde
+emrelic-0030           H-0011  cozuldu        iz-yok       gümülcinenin fethi haritada görünümü kopuk aradaki topraklar
+emrelic-0030           H-0012  cozuldu        iz-yok       hamid ilinin ıspartanın para ile alınması maddesinde ısparta
+emrelic-0030           H-0013  sirada         acik         bu selanikin bölgesi kuzeye doğru acaba fazla mı uzuyor ve o
+emrelic-0030           H-0014  sirada         acik         osmanlı kronolojisinde yer alan yabancı devlet haberlerinin
+emrelic-0030           H-0015  zaten-dogru    iddiasiz     timurun iranın büyük bölümünü hakimiyeti altına alması krono
+emrelic-0030           H-0016  zaten-dogru    iddiasiz     tuna nehrinin sınırları belirlemesi ve şehirlerin blgelerini
+emrelic-0030           H-0017  cozuldu        iz-yok       osmanlı nişi almış ama burada bir sırbistan toprağı kalmış g
+emrelic-0030           H-0018  sirada         acik         bu üçken garip gösterim bu hatayı daha öncede sana atmıştım
+emrelic-0030           H-0019  cozuldu        dogrulandi   anadolu beylerbeyliği kuruldu maddesi ile aynı tarihte bir madde daha var
+emrelic-0031           H-0001  zaten-dogru    iddiasiz     bu tarihte burada macaristan toprağı doğrumu hatamı
+emrelic-0031           H-0002  olculecek      acik         kırı harita renk örtüşmelerinin kalitesini artıralım
+emrelic-0031           H-0003  cozuldu        iz-yok       timur bağdadı zaptetti iyor ama bağdadı ele geçirmiş gibi gö
+emrelic-0031           H-0004  zaten-dogru    iddiasiz     timur devleti b tarihte bu bölgeleri alamamış vaziyettemi ac
+emrelic-0031           H-0005  sirada         acik         bu koyu kırmızı bölge haatmı buna ne sebeb oluyor araştırıp
+emrelic-0031           H-0006  cozuldu        dogrulandi   vidinin ilhakı ve niğbolu seferi haritada aynı anad gösteril
+emrelic-0031           H-0007  cozuldu        iz-yok       orhan gazinin cenevizlilerle kapütülasyonu maddesinde mersin
+emrelic-0031           H-0008  tekrar         iddiasiz     timurun bağdadı ikinci kez ve birinci kez işgali maddelerind
+emrelic-0031           H-0009  zaten-dogru    iddiasiz     bu mardinin bölgesi nedne böyle sivri görünüyor
+emrelic-0031           H-0010  zaten-dogru    iddiasiz     ankara savaşından sonra bu topraklar hala osmanlı kırmızısı
+emrelic-0031           H-0011  zaten-dogru    iddiasiz     timur izmiri saint jean şövalyelerinden aldı maddesinde timu
+emrelic-0031           H-0012  cozuldu        dogrulandi   timurun izmir seferi bir sonraki maddede kesikli çizgi ile b
+emrelic-0031           H-0013  zaten-dogru    iddiasiz     timurun anadoludan çekilmesini çizgi ile göstermeli haritada
+emrelic-0031           H-0014  cozuldu        iz-yok       bu tarihlerde böyle akkoyunlular karakoyunlular karışık bir
+emrelic-0031           H-0015  cozuldu        dogrulandi   celayirli sultan ahmet ile ilgili madde içeriğine osmanlı su
+emrelic-0031           H-0016  cozuldu        iz-yok       şeyh bedrettin isyanı serezde ateş simgesi ile görünüyor. b
+emrelic-0031           H-0017  zaten-dogru    iddiasiz     bu gürcistan ve karakoyunlular devletinin rengi birbiri ile
+emrelic-0031           H-0018  cozuldu        dogrulandi   aynı tarihte iki madde olunca bunların ıra ile gösterilmesi
+emrelic-0031           H-0019  sirada         acik         germiyanoğulları beyliği egri palnda nedne görünüyor bu hata
+emrelic-0031           H-0020  tekrar         iddiasiz     bu üç maddesırayla kronolojik tarihte gösterilmeli ve her bi
+emrelic-0031           H-0021  zaten-dogru    iddiasiz     bosna hersek osmanlı enklavı olarak osmanlı sırbistan fethet
+emrelic-0031           H-0022  sirada         acik         boğaz kesen hisarı bu madde ile osmanlıya katılmış olmalıydı
+emrelic-0032           H-0001  zaten-dogru    iddiasiz     DUBROVNİK HARACA BAĞLANIR İKEN HENÜZ İŞKODRA TREBİNYE VE KOT
+emrelic-0032           H-0002  sirada         acik         KARAKOYUNLULAR DEVLETİNİN ÇÖKÜŞÜ MADDESİNDE HARİTA KARAKOYUN
+emrelic-0032           H-0003  olculecek      acik         UZUN HASANIN KARAKOYUNLU DEVLETİNE SON VERMESİ MADDESİNDE HA
+emrelic-0032           H-0004  cozuldu        iz-yok       ARZİLA PORTEKİZ TARAFINDAN ALINIŞI MADESİNDE YUVARLAK SİMGE
+emrelic-0032           H-0005  cozuldu        dogrulandi   BOĞDANDA RACOVA VASULİ BOZGUNU MADDESİNDE HARİTA İLARETLEMES
+emrelic-0032           H-0006  zaten-dogru    iddiasiz     KIRIM OSMANLI EGEMENLİĞİNE KATILDIĞINDA TOPRAKLARI NERELERİ
+emrelic-0032           H-0007  cozuldu        dogrulandi   AKDERE VALEA ALBA ZAFERİ HARİTADA ZOOM OUT GERİDEN BAKILIYOR
+emrelic-0032           H-0008  cozuldu        dogrulandi   MERAK BUTONU GÜZEL AMA KONU İÇERİĞİ İKİ KELİME BİLE OLSA BUT
+emrelic-0032           H-0009  sirada         acik         TOPKAPI SARAYI MADDESİNDE MERAK EK OKUA GİBİ EKLER YAPALIM M
+emrelic-0032           H-0010  olculecek      acik         İLK SOSMANLI ALTINI SULTANİ BASILDI MADESİNDE GÖRSEL BU ALTI
+emrelic-0032           H-0011  zaten-dogru    iddiasiz     OSMANLI ALTINI BASILDI MADDESİNDE MERAK EK OKUMA MAGAZİN FİL
+emrelic-0032           H-0012  zaten-dogru    iddiasiz     FATİHİN ÖLÜMÜ MADDESİNDE BU ÖLÜM İLE İLGİLİ İDDİALARI ANLATA
+emrelic-0032           H-0013  sirada         acik         TÜM MADDELERE
+emrelic-0032           H-0014  olculecek      acik         OTRANTO TAHLİYESİ MADDESİNE EK OKUMA MERAK GİBİ BUTONLARI SE
+emrelic-0032           H-0015  zaten-dogru    iddiasiz     GEDİK AHMET PAŞA İLE İLGİLİ EK OKUMA MERAK VESAİRE MADDELERİ
+emrelic-0032           H-0016  sirada         acik         BU BOŞLUĞUN SEBEBİ NE ÇÖZELİM
+emrelic-0033           H-0001  cozuldu        iz-yok       butarihte kemah safevilere mi aitti enklav görünüyor çözelim
+emrelic-0033           H-0002  zaten-dogru    iddiasiz     bu boşluğun sebebini bulalım çözelim
+emrelic-0033           H-0003  cozuldu        iz-yok       irandaki bu benekli yapının sebebi ne . tarihi gerçekmi böyl
+emrelic-0033           H-0004  zaten-dogru    iddiasiz     akkoyunluların kocaman bir ülkesi var ama bir sonraki madele
+emrelic-0033           H-0005  zaten-dogru    iddiasiz     bağdadın safeviye geçişi maddesi ile bir sürü benek ortadan
+emrelic-0033           H-0006  sirada         acik         doğru çağatay hanlığının yuvarlak alanlı şehirleri normal mi
+emrelic-0033           H-0007  sirada         acik         kazak hanlığı yuvarlak alanları gerçekçimi
+emrelic-0033           H-0008  sirada         acik         sibir hanlığı yuvarlak alanlarının dayanacağı dağ tepe nehir
+emrelic-0033           H-0009  sirada         acik         bu bölgedeki boş alanlarda hiç devlet otoritesi olmadığı kes
+emrelic-0033           H-0010  olculecek      acik         bu kandeharın bölgesinin böyle pergelle çizilmiş gibi olması
+emrelic-0033           H-0011  cozuldu        iz-yok       piri reisin dünya haritası ile ek okuma teknik bilgiler maga
+emrelic-0033           H-0012  zaten-dogru    iddiasiz     bu devleti pergel ile çölde alan çizdirirken batı tarafında
+emrelic-0033           H-0013  olculecek      acik         burada haritanın güney batısındaki küçük boyamanın sebebi ne
+emrelic-0033           H-0014  sirada         acik         bu kanem bornu imparatorluğunun sınırlarını ayrı kopuk bölge
+emrelic-0033           H-0015  sirada         acik         nusaybin derik silopi osmanlıya katılmış görünüyo ama kronoo
+emrelic-0033           H-0016  zaten-dogru    iddiasiz     bu enklavdan önce aradaki toprakalr ele geçirilmemişmi erzur
+emrelic-0033           H-0017  sirada         acik         bu üçken şeklinde kuzeye yönlenen bölgenin sebebi nedir bu t
+emrelic-0033           H-0018  sirada         acik         osmanlı tebrize girerken yavuz sultan selim döneminde hangi
+emrelic-0033           H-0019  sirada         acik         bu arada hiçmi yerleşim yok kaydını tutacağımız bölge boyaya
+emrelic-0033           H-0020  cozuldu        iz-yok       portekizliler bahreyni almış ama harita boyanmamış
+emrelic-0033           H-0021  zaten-dogru    iddiasiz     bu calu şehrinin doğusu güneyindeki büyük miktar toprağın bo
+emrelic-0034           H-0001  bayat          iddiasiz     bu üç iran beneğinin manası nedir tarihi gerçekliğe mi dayan
+emrelic-0034           H-0002  cozuldu        iz-yok       bu halepçenin enklav görünmesi normal mi etrafındaki şehirle
+emrelic-0034           H-0003  cozuldu        dogrulandi   bu renk boyamaalrı hata galiba engelleyelim
+emrelic-0034           H-0004  cozuldu        iz-yok       boruk görünmümleri düzelt iki renk üstüste binmiş galiba. bu
+emrelic-0034           H-0005  cozuldu        iz-yok       basra alınmış abadan hafiza ahvaz alınamamışmı
+emrelic-0034           H-0006  cozuldu        iz-yok       van fethedilmiş ama özalp başkale çaldıran fethedilmemiş mi
+emrelic-0034           H-0007  zaten-dogru    iddiasiz     şehrizor ilhak edildi ise neden haritada katılmıyor osmanlı
+emrelic-0034           H-0008  zaten-dogru    iddiasiz     daha önce şehrizor ilhak edildi diyordu şimdie alındı diyor
+emrelic-0034           H-0009  cozuldu        iz-yok       bu olayın harita gösterimi yapılmamış. haritada yaprak kıpır
+emrelic-0034           H-0010  cozuldu        iz-yok       tüm anlaşma içeren kronolojik maddelerin içine anlaşma metni
+emrelic-0034           H-0011  zaten-dogru    iddiasiz     bu gürcistan böyle iki parça görünüyor normal mi bu . bunun
+emrelic-0034           H-0012  zaten-dogru    iddiasiz     osmanlıların macaristanı budini ilhak edip macaristaı ele ge
+emrelic-0034           H-0013  zaten-dogru    iddiasiz     sokollu mehmet paşa için
+emrelic-0034           H-0014  zaten-dogru    iddiasiz     büyük akçe krizi tağşiş maddesinde bu durumun neden olduğunu
+emrelic-0034           H-0015  cozuldu        iz-yok       şerur doğubeyazıt makuçaldıran özalphoy merend culfa gibi ye
+emrelic-0034           H-0016  cozuldu        iz-yok       ferhatpaşa anlaşmasına göre bu toprakları teyid et.
+emrelic-0034           H-0017  bayat          iddiasiz     bu tarihte bu şekilde yaşayan müstakil bir gürciastan varmı
+emrelic-0034           H-0018  zaten-dogru    iddiasiz     kanije savunması ile ilgili maddede
+emrelic-0034           H-0019  zaten-dogru    iddiasiz     bu tarihte bu şehirler kime aitmiş detaylı bakalım.
+emrelic-0034           H-0020  cozuldu        iz-yok       deli hasan diye bir ayaklanma görünüyor ama kronoloji maddes
+emrelic-0034           H-0021  zaten-dogru    iddiasiz     3. mehmetin tahta çıkması ile ilgili maddelere ek okuma madd
+emrelic-0034           H-0022  sirada         acik         kronoloji madde başlıklarının açıklamalar kutucuğuna maddeye
+emrelic-0034           H-0023  olculecek      acik         tiflis ve gencenin kaybı sonrası gürcistan krallığı şeklinde
+emrelic-0034           H-0024  zaten-dogru    iddiasiz     barış anltlaşmalarının önemi konusunda ek okuma butonları ko
+emrelic-0034           H-0025  cozuldu        iz-yok       bu özelp ve başkale başta olmak üzere çevredeki şehirlerin k
+emrelic-0034           H-0026  zaten-dogru    iddiasiz     kuyucu murat paşa ve ek okumalar yapılsın celali isyanları e
+emrelic-0034           H-0027  cozuldu        iz-yok       sultanahmet cami gibi yapıların yapılmasında ek okumalar
+emrelic-0034           H-0028  sirada         acik         bu sahrada anlamsız gereksiz fazladan boyanan yerlerin boyan
+emrelic-0034           H-0029  zaten-dogru    iddiasiz     1.AHMET DÖNEMİ EKBERİYET USULÜ İLE İLLLGİLİ EK OKUMALAR TART
+emrelic-0034           H-0030  cozuldu        iz-yok       1.MUSTAFANIN CULUSU İLE İLGİLİ EK OKUMALAR YAPALIM MAGAZİN K
+emrelic-0034           H-0031  cozuldu        iz-yok       2. OSMAN VE ONUN HALLİ İLE İLGİL EK OKUMALAR ŞOK HABERLER MA
+emrelic-0034           H-0032  cozuldu        iz-yok       1.MUSTAFANIN HALİ İLE İLGİLİ KOMİK ANLATILARI EK OKUMA YAP K
+emrelic-0034           H-0033  cozuldu        iz-yok       4. MURAT İLE İLGİLİ EK OKUMA
+emrelic-0034           H-0034  cozuldu        iz-yok       HEZARFEN VE LAGARİ GİBİ KİŞİLİKLER İÇİN EK OKUMALAR EKLEYELİ
+emrelic-0034           H-0035  zaten-dogru    iddiasiz     4. MURAT İÇKİ YSAĞI EK OKUMALAR MAGAZİN TARTIŞMA HİKAYE SÜSL
+emrelic-0034           H-0036  olculecek      acik         BU BÖLGEDE BU YILDA YERLEŞİM OALRAK SADECE BU KAYITLI OLANLA
+emrelic-0034           H-0037  zaten-dogru    iddiasiz     HARİTA AKSRI ŞİRİN ANLAŞMASINA UYGUN MU KONTROL ET
+emrelic-0034           H-0038  cozuldu        iz-yok       SULTAN DELİ İBRAHİM KONUSUNDA EK OKUMALAR BOL BOL YAPALIM
+emrelic-0034           H-0039  cozuldu        iz-yok       KEMANKEŞ MUSTAFA PAŞA EK OKUMALAR İLE SÜSLE
+emrelic-0034           H-0040  sirada         acik         TÜM MADDELERİN İÇERİĞİNİ GÖRÜP ONA GÖRE EK OKUMALAR İLE DONA
+emrelic-0034           H-0041  zaten-dogru    iddiasiz     SULTAN İBRAHİMİN HALLİ VE KATLİ İLE İLGİLİ EK OKUMALARI UNUT
+emrelic-0034           H-0042  zaten-dogru    iddiasiz     KATİP ÇELEBİYE ÖNEM VERELİM EK OKUMALAR İLE MADDELERİNİ ZENG
+emrelic-0034           H-0043  zaten-dogru    iddiasiz     MERZİFONLU KARA MUSTAFA PAŞA MADDELERİNİ EK OKUMALAR İLE DON
+emrelic-0034           H-0044  sirada         acik         HAFIZ OSMAN GİBİ MADDELERDE GÖRSELLERE HAT SANATI ÖRNEKLERİ
+emrelic-0034           H-0045  zaten-dogru    iddiasiz     SATU MARE ORTA MACAR MI AVUSTURYA MI YOKSA OSMANLI MI BU DEV
+emrelic-0035           H-0001  tekrar         iddiasiz     bu yapının anlamı ne. boş bir alan yerleşim yeri yok kesik k
+emrelic-0035           H-0002  cozuldu        iz-yok       budinin kaybı maddesinde anabolu da kayıp görünüyor ama kron
+emrelic-0035           H-0003  cozuldu        iz-yok       4. mehmetin azline ilişkin komik hikayeler var ise bunları e
+emrelic-0035           H-0004  zaten-dogru    iddiasiz     bu maddede knin elden çıkmış görünüyor haritada ama kronoloj
+emrelic-0035           H-0005  cozuldu        iz-yok       niş ve vidin ondan önceki topraklar alınmadan mı elden çıkmı
+emrelic-0035           H-0006  zaten-dogru    iddiasiz     karlofça anlaşmasında venediklilerin aldıkları topraklar ola
+emrelic-0035           H-0007  cozuldu        dogrulandi   avusturyaya karlofça anlaşması ile kaybedilen alanlar doğru
+emrelic-0035           H-0008  cozuldu        dogrulandi   karlofça ile 4 ülkeye kaybedilen toprakalrı teker teekr teyi
+emrelic-0035           H-0009  zaten-dogru    iddiasiz     venediğe karlofça ile draç terkedildimi. sinj şehrinide değe
+emrelic-0035           H-0010  cozuldu        dogrulandi   lehistana kaybedilen podolya görünmüyor karlofçada kaybedile
+emrelic-0035           H-0011  zaten-dogru    iddiasiz     trablusgarpda karamanlı hanedanı kurulunca trablusgarp topra
+emrelic-0035           H-0012  cozuldu        iz-yok       prut zaefri ile ilgili ek okumalar ve magazin yazıları balta
+emrelic-0035           H-0013  sirada         acik         azak ve taygan prut sonrası geri alındı ise o zaman burada h
+emrelic-0035           H-0014  zaten-dogru    iddiasiz     çuha adası ile beraber lefkada adasıda alınmış galiba ama kr
+emrelic-0035           H-0015  sirada         acik         ummanlıların bahseyni istilası konusu madde içeriğinde ilgin
+emrelic-0035           H-0016  cozuldu        iz-yok       lale devrine dair olan maddelerde bol bol ek okuma maddeleri
+emrelic-0035           H-0017  cozuldu        dogrulandi   pasarofça anlaşması ve bu taralı bölge gösterimi yanlış
+emrelic-0035           H-0018  cozuldu        dogrulandi   ayrıca eflakda nedne bu torak boyasız olmuş
+emrelic-0035           H-0019  zaten-dogru    iddiasiz     şirvan alınırken aradaki topraklar alınmadan kalmışmı osmanl
+emrelic-0035           H-0020  olculecek      acik         bu istanbul mukasemennamesi ile iran nasıl bölüşüldü kim ner
+emrelic-0035           H-0021  tekrar         iddiasiz     bu nahcıvan alınmadan hemen önce aradaki topraklar alınmıyor
+emrelic-0035           H-0022  zaten-dogru    iddiasiz     tebriz ele geçti ama gene orada azerbaycan ile osmanlı arası
+emrelic-0035           H-0023  zaten-dogru    iddiasiz     patrona halil isyanı maddelerini ek okumalar ile donatalım
+emrelic-0035           H-0024  cozuldu        iz-yok       1.mahmudun patrona ve adamlarını derdest edip etkisiz hale g
+emrelic-0035           H-0025  cozuldu        iz-yok       humbaracı ahmet paşa ve onunla ilgili maddeleri ek okumalar
+emrelic-0035           H-0026  zaten-dogru    iddiasiz     ruslar öziyi alırken aradaki bölgeler ne alemde bozkır var ç
+emrelic-0035           H-0027  zaten-dogru    iddiasiz     ruslar öziyi ele geçirdiği maddede burada bu şekilde bir tar
+emrelic-0035           H-0028  cozuldu        iz-yok       özinin geri alınması maddesinde belgrad da yeniden geri alın
+emrelic-0035           H-0029  zaten-dogru    iddiasiz     bu semendire alınması doğru ise bu tarihte bu aradaki korido
+emrelic-0035           H-0030  sirada         acik         bu madde açıklamaları penceresinde ek okuma satırları olsa v
+emrelic-0035           H-0031  zaten-dogru    iddiasiz     bu suudi vehhabi devleti kurulduğunda orada bir koridor var
+emrelic-0035           H-0032  zaten-dogru    iddiasiz     1.mahmudun öümü ile alakalı magazin ek okumalarını sakın unu
+emrelic-0035           H-0033  zaten-dogru    iddiasiz     tüm osmanlı padişahlarının hal veya ölüm maddelerine övgü ve
+emrelic-0035           H-0034  sirada         acik         kronoloji konuları etiket sistemine afetler ile illgil ietik
+emrelic-0035           H-0035  olculecek      acik         hotin kalesi ruslara kaybedilmiş deniyor ama rusya ile kara
+emrelic-0035           H-0036  zaten-dogru    iddiasiz     ruslar benderi ele geçirmişler ama orayı ele geçirmeden önec
+emrelic-0035           H-0037  olculecek      acik         basra iran işgaline uğramış ama fav şehri osmanlıda kalmayı
+emrelic-0035           H-0038  zaten-dogru    iddiasiz     bu basra geri alınmı ama bu abadan şehri iran şehrimidir osm
+emrelic-0035           H-0039  olculecek      acik         bu bahreyni kim fethediyor ise neden onun rengine boyanmıyor
+emrelic-0035           H-0040  cozuldu        iz-yok       özinin düşüşü ve abdülhamidin felç geçirmesi ek okumalara ko
+emrelic-0035           H-0041  gerek-yok      iddiasiz     avusturya savaşlarından sebeş savaşına dair komik olaya dair
+emrelic-0035           H-0042  cozuldu        dogrulandi   bu taralı alanların yaş anlaşması ile ne alakası var bunu dü
+emrelic-0035           H-0043  cozuldu        dogrulandi   fransız devrimini neden anlatmıyor kronoloji en önemli olay
+emrelic-0035           H-0044  zaten-dogru    iddiasiz     mısırın fransızlar tarafından işgal edilmesi bölgeleri bu şe
+emrelic-0035           H-0045  cozuldu        dogrulandi   bükreş anlaşması ile bu taralı alanların ne alakası var
+emrelic-0035           H-0046  zaten-dogru    iddiasiz     avrupa asya ortadoğu ve kuzey afrikada yani o dönemki medeni
+emrelic-0035           H-0047  sirada         acik         bu boş arazilerin boyanmasını engellemek lazım ayrıca saçma
+emrelic-0035           H-0048  zaten-dogru    iddiasiz     A ilk kronoloji maddemiz çaldıran zaferi. çaldıran haritada
+emrelic-0035           H-0049  zaten-dogru    iddiasiz     acaba nişin fethi ile birlikte bu aradaki boş araziyi de osm
+emrelic-0035           H-0050  cozuldu        iz-yok       fetret devrinden sonra bu parça osmanlı kırmızısı olarak kal
+emrelic-0035           H-0051  gerek-yok      iddiasiz     aydınoğulları beyliği idamı maddesinde buradaki harita bu şe
+emrelic-0035           H-0052  olculecek      acik         ikinci kosova savaşında burada boş bir toprak osmanlı egemen
+emrelic-0035           H-0053  olculecek      acik         yavuz sultan selim mısıra girerken sina bölgesinin akdeniz k
+emrelic-0035           H-0054  sirada         acik         bu arada hiçmi yol filan yok ve yol üstü durak br yerleşim y
+emrelic-0035           H-0055  sirada         acik         tebuk yenbu medine arasında yol nereden geçiyor durak kervan
+emrelic-0035           H-0056  zaten-dogru    iddiasiz     1) piri reisin kitabı bahsiye maddesi
+emrelic-0035           H-0057  tekrar         iddiasiz     1) kahirede abbasi halifeliğinin sona ermesi maddesi bu şeki
+emrelic-0035           H-0058  olculecek      acik         KAHETİ VE TERKİ VASSAL RENGİ GÖRÜNÜYOR BURALAR GÜRCİSTAN OLU
+emrelic-0035           H-0059  sirada         acik         1) haziran eylül 1422
+emrelic-0035           H-0060  cozuldu        iz-yok       orhan gazi teodora evliliğinden sonra orhan gazinin cenevizl
+emrelic-0035           H-0061  cozuldu        iz-yok       fetret devrinde bu bölümdeki topraklar osmanlı kırmızısında
+emrelic-0035           H-0062  sirada         acik         bu maddenin osmanlı açısından nemi tam olarak nedir acaba ya
+emrelic-0035           H-0063  olculecek      acik         bu maddede bu bölge neden işgal altınd gbi görünüyor hatamı
+emrelic-0035           H-0064  tekrar         iddiasiz     burada kuzey afrikadaki gibi anlamsız bir boşluk boyanması m
+emrelic-0035           H-0065  sirada         acik         bu maddede haritada bir değişiklik yaşanmıyor. zaten osmanlı
+emrelic-0035           H-0066  sirada         acik         şimdi kronoloji konularının etiketleri
+emrelic-0035           H-0067  gerek-yok      iddiasiz     taizin kaybı haritada pek belli olmuyor. nasıl göstermek ger
+emrelic-0035           H-0068  tekrar         iddiasiz     satu mare arada kalmış burası orta macar oalrak tökeli imrey
+emrelic-0035           H-0069  zaten-dogru    iddiasiz     1) bağdat kaybedilirken bu bölge osmanlıda enklav olarak gör
+emrelic-0035           H-0070  olculecek      acik         2. viyana kuşatmasından sonra avusturya osmanlı savaşında so
+emrelic-0035           H-0071  cozuldu        iz-yok       eğrinin kaybı maddesinde mukaçeve munkacs şehride elden çıkm
+emrelic-0035           H-0072  sirada         acik         harita renklerinde sınırlarda birbiri ile örtüşmeme sorunu v
+emrelic-0035           H-0073  zaten-dogru    iddiasiz     tiflis ve şirvan alınır iken aradaki topraklar pas mı geçild
+emrelic-0035           H-0074  tekrar         iddiasiz     hemedan barışı sonrasında gene tıpkı ferhatpaşa anlaşmasında
+emrelic-0035           H-0075  zaten-dogru    iddiasiz     bu koridordaki şehirler muhtemelen diğer büyük şehirler bağl
+emrelic-0035           H-0076  sirada         acik         ahmet paşa anlaşması ile batı iranın büyük bölümünün iadesi
+emrelic-0035           H-0077  olculecek      acik         ruslar çehrin üzerinden gelip öziyimi aldılar yoksa kırım bo
+emrelic-0035           H-0078  tekrar         iddiasiz     özinin ruslardan geri alınması maddesinde belgradda ele geçm
+emrelic-0035           H-0079  olculecek      acik         bu hail şehri vehhabi suudi hareketine dahil değilmiymiş .
+emrelic-0035           H-0080  sirada         acik         bu hotin ruslara kaybedilmiş ruslar nereden geldiler acaba b
+emrelic-0035           H-0081  sirada         acik         çeşme baskını konusunda ne bir işaretleme var ne rus filosun
+emrelic-0035           H-0082  cozuldu        dogrulandi   küçük kaynarca anlaşması ile bu taralı alanların ne alakası
+emrelic-0035           H-0083  tekrar         iddiasiz     iran basrayı ele geçirmiş peki bu fav kenti basraya ait deği
+emrelic-0035           H-0084  tekrar         iddiasiz     bu basra osmanlı tarafından geri alınmış ama basrayı alan ab
+emrelic-0035           H-0085  zaten-dogru    iddiasiz     bu taralı alanların manası nedir kırıma özerklik tanndıkdan
+emrelic-0035           H-0086  zaten-dogru    iddiasiz     bütün b haritadaki bölgeleri teyid edelim.
+emrelic-0035           H-0087  sirada         acik         yerleşimlre arası yol ağlarını araştırarak nereden geçtikler
+emrelic-0035           H-0088  olculecek      acik         bu osmanlı haritası içinde görülen farklı kırmızı tonda ve s
+emrelic-0035           H-0089  cozuldu        dogrulandi   https://chatgpt.com/share/6a8ecd84-97e4-83eb-a342-cbe54c2180
+emrelic-0035           H-0090  sirada         acik         bu ismail kalesi kuşatması ve rusların ele geçirmesi meselsi
+emrelic-0035           H-0091  cozuldu        iz-yok       fransız devrimi gibi önemli tarihi uluslararası olayları kro
+emrelic-0035           H-0092  sirada         acik         napolyonun mısır işgalini hartada böyle taralı bölgeler şekl
+emrelic-0035           H-0093  sirada         acik         napolyonun akka harekatı ile ilgili harekat okları konulabil
+emrelic-0035           H-0094  sirada         acik         vehhabilern askeri hareketlarını oklar ile gösterelim
+emrelic-0035           H-0095  sirada         acik         alemdar mustafa paşanın istanbula gelmesi hareaktı gibi iç h
+emrelic-0035           H-0096  zaten-dogru    iddiasiz     sohum rusalra kaybedilirken taman kalesi ve çerkezistan rusl
+emrelic-0035           H-0097  sirada         acik         rusçuk rus işgaline uğradı ise burayı taralı göstermek gerek
+emrelic-0035           H-0098  sirada         acik         tosun paşanın hicaz seferi okalr ile harekat okları ile göst
+emrelic-0035           H-0099  cozuldu        dogrulandi   bükreş anlaşması ile bu taralı alanalrın ne alakası var
+emrelic-0035           H-0100  sirada         acik         bükreş anlaşmasından sonra bu parça burada boş bir arazi ve
+emrelic-0035           H-0101  sirada         acik         buradaki ğçken gene iki haritanın sınırlarının birbirine ört
+emrelic-0035           H-0102  sirada         acik         bu anlamsız boş toprakalrdaki osmanlı kırmızısına nasıl enge
+emrelic-0036           H-0001  cozuldu        iz-yok       buralarda anlamsız boş toprakların osmanlı kırmızısına boyan
+emrelic-0036           H-0002  cozuldu        dogrulandi   edirne anlaşması ile bu taralı bölgenin ne alakası var. tüm
+emrelic-0036           H-0003  zaten-dogru    iddiasiz     bu taralı alanların edirne anlaşması ile ne alakası var. iki
+emrelic-0036           H-0004  cozuldu        iz-yok       edirne anlaşması sornası sınır örtüşmemesi durumu var
+emrelic-0036           H-0005  kapsam-disi    iddiasiz     edirna anlaşması sonrasında kafkas haritasını teyid ettireli
+emrelic-0036           H-0006  zaten-dogru    iddiasiz     (başlıksız)
+emrelic-0036           H-0007  cozuldu        iz-yok       mısır ordusunun ilerlemesi ve ele geçirdiği yerler böyle par
+emrelic-0036           H-0008  cozuldu        iz-yok       konya ele geçirildi deniyor ama aynı maddede urfada elden çı
+emrelic-0036           H-0009  zaten-dogru    iddiasiz     acaba urfa maraş adana konya kütahya hattını mısır ordusunun
+emrelic-0036           H-0010  zaten-dogru    iddiasiz     20 şubat 1833 rus donanmasının büyükdereye gelmesi ve rus as
+emrelic-0036           H-0011  cozuldu        iz-yok       kütahya anlaşmasından sonra adana maraş ve ufa kime kaldı is
+emrelic-0036           H-0012  cozuldu        iz-yok       bu şammar hail yapılanmasının hikayesini kronolojide görmedi
+emrelic-0036           H-0013  zaten-dogru    iddiasiz     bu sene cezayirdeki durum böyle görünüyormuş ortadaki enklav
+emrelic-0036           H-0014  cozuldu        iz-yok       bu sene oluş hala ibrail ve rusçuk şerhinin dış tarafı rusya
+emrelic-0036           H-0015  kapsam-disi    iddiasiz     haritada burada bir hata var. boşluk var sebebi nedir
+emrelic-0036           H-0016  zaten-dogru    iddiasiz     bu maddenin kronolojisinde cezayirin hepsinin elden çıkışı d
+emrelic-0036           H-0017  zaten-dogru    iddiasiz     bu caglub denilen yer sonrada kurulmuş bir şehirmi kronoloji
+emrelic-0037           H-0001  cozuldu        iz-yok       berserabyanın güneyi pasir barış anlaşması ile osmanlıya ver
+emrelic-0037           H-0002  cozuldu        iz-yok       deniz mavisi fazla koyu nunu daha açık bir mavi yapalım hari
+emrelic-0037           H-0003  cozuldu        iz-yok       mısır ordusu bu şehirlerin hepsine girdimi böyle benek benek
+emrelic-0037           H-0004  cozuldu        iz-yok       bu olayın haritadaki yerini iaşreletmeli
+emrelic-0037           H-0005  cozuldu        iz-yok       bu parça neden boş görünüyor
+emrelic-0037           H-0006  cozuldu        iz-yok       abdulazizin avrupa seyahatini tam güzergah olarak ver. önce
+emrelic-0037           H-0007  cozuldu        iz-yok       bu boşluğu beratraf edelim . sınırlar birbiri ile örtüşmeli
+emrelic-0037           H-0008  cozuldu        iz-yok       eğer rusya savaştan sonra eflak ve boğdan topraklarıne -a gi
+emrelic-0037           H-0009  bayat          iddiasiz     karsın düşülüş maddesinde kars haritada düşmüş görünmüyor
+emrelic-0037           H-0010  tekrar         iddiasiz     bu yeil yerler rusyaya dönmeden önce eğer rusya eflak ve boğ
+emrelic-0038           H-0001  zaten-dogru    iddiasiz     rus osmanlı savaşlarında rusya eflak ve boğdanı işgal ettiği
+emrelic-0038           H-0002  cozuldu        iz-yok       necefin batısında v e güneybatısındaki bo gereksiz fazladan
+emrelic-0038           H-0003  sirada         acik         gat şehrinin doğusunda kuzey doğusunda güney doğusundaki koc
+emrelic-0038           H-0004  sirada         acik         girintilerin derinlikleri doldurulmuş ama bu dolgular doldur
+emrelic-0038           H-0005  sirada         acik         bu eçmidyazin ve gümrü iran savaşı sırasında osmanlı tarafın
+emrelic-0038           H-0006  sirada         acik         bu aradaki koridor ve enklavlar osmanlı alanı olup olmadığın
+emrelic-0038           H-0007  sirada         acik         kasrı şirin iran savaşı sırasında osmanlıya geçmiş olmalı bunu
+emrelic-0039           H-0001  sirada         acik         türkiye cımhuriyeti trakya sınırı düzgün değil 6. kademe kes
+emrelic-0039           H-0002  sirada         acik         suriye ırak ve ermenistan gürcistan sınırlarını ve iran sını
+emrelic-0039           H-0003  sirada         acik         sakarya mehdan muharebesi büyük taarus filan bu zamanlarda y
+emrelic-0039           H-0004  sirada         acik         doğu cephesi güney cephesi italyanlar fransızlar ingilizler
+emrelic-0039           H-0005  sirada         acik         yunanistan işgali olarak çok az bir bölge görünüyor halbuki
+emrelic-0039           H-0006  cozuldu        iz-yok       bu romanya krallığı böyle iki parçamı oluyor.
+emrelic-0039           H-0007  sirada         acik         1923 d kutsal roma imparatorluğu kaldığını hiç sanmıyorum ku
+emrelic-0039           H-0008  sirada         acik         bu çekoslovakyanın ve avusturyanın macaristanın böyle olduğu
+emrelic-0039           H-0009  cozuldu        iz-yok       1923 itibari ile tüm ülkelerin sınırlarını birebir 6. kalite
+emrelic-0040           H-0001  olculecek      acik         haritada böyle çizgiler oluşuyor. bu görüntü harita hataları
+emrelic-0040           H-0002  olculecek      acik         acaba talin şehrinin petei denizi geçip karşı yakaya mı vurm
+emrelic-0040           H-0003  olculecek      acik         boşluk kalan yerler bunun sebebi nedir
+emrelic-0040           H-0004  sirada         acik         renk seçimi berbat denizle benzer renk denizden ayırdetmek z
+emrelic-0040           H-0005  sirada         acik         ilhanlı renk seçimi mesela deniz rengi tonuna yakın güzel du
+emrelic-0040           H-0006  zaten-dogru    iddiasiz     burada canet diye bir yerleşim var tam sınırın dibinde neden
+emrelic-0040           H-0007  olculecek      acik         aral gölünün kenarlarına renk örtüsünün haritanın oturmaması
+emrelic-0040           H-0008  olculecek      acik         bu çizgilerin anlamı tam olarak nedir ne işe yarıyorlar. ve
+emrelic-0040           H-0009  olculecek      acik         çehrin bu tarihte lehistana mı ait teyid edelim
+emrelic-0041           H-0001  sirada         acik         çağatay hanlığı ve altınorda hanlığı şehirlerinin arasındaki
+emrelic-0042           H-0001  kosu-bekliyor  acik         söğüt ve domaniç birbirine bir noktadan bağlı satrançtaki ça
+emrelic-0042           H-0002  olculecek      acik         1. resimdeki gibi boşlukları bertaraf etmeli iki devletin sı
+emrelic-0042           H-0003  sirada         acik         bir ayar yapalım
+emrelic-0042           H-0004  sirada         acik         katalan birliklerin anadolu seferi maddesinde ilgili seferin
+emrelic-0042           H-0005  sirada         acik         topografyanın şehirlerin bölgelerinin nehirlere dağlara daya
+emrelic-0042           H-0006  olculecek      acik         bu tarihte çehrin litvanya büyük dükalığa mı aitti ve sınır
+emrelic-0042           H-0007  olculecek      acik         bu tarihte lehistan litvanya ve
+emrelic-0042           H-0008  olculecek      acik         buradaki haritalardaki birbiri üzerine binmeyi çözelim. sebe
+emrelic-0042           H-0009  olculecek      acik         pelekanon eskihisar savaşından sonra osmanlı toprakları boğa
+emrelic-0042           H-0010  sirada         acik         iznikte ilk osmanlı medresesinin kurulması maddesi iznikin f
+emrelic-0042           H-0011  olculecek      acik         bu tarihte kemah akkoyunlulara geçmiş mi geçmemiş mi kronolo
+emrelic-0042           H-0012  sirada         acik         kafkas dağları şehirlerin bölgeleri belirlenir iken sürtünme
+emrelic-0042           H-0013  olculecek      acik         haritalaarda üstüste binmeler örtüşmemeler sorunlarına örnek
+emrelic-0042           H-0014  kosu-bekliyor  acik         mersin osmanlı kırmızısı görünüyor bu hata mı o toprak osman
+emrelic-0042           H-0015  olculecek      acik         çimpe kalesi ele geçince çimpenin etki alanı sarosun kzueyin
+emrelic-0042           H-0016  olculecek      acik         ege adalarının harita örtüşmelerini daha birebir yüksek kali
+emrelic-0042           H-0017  cozuldu        dogrulandi   maraşi seyidleri amülü almış.
+emrelic-0042           H-0018  sirada         acik         pençik kanunu maddesine geçildiğinde haritada trakyada osman
+emrelic-0042           H-0019  sirada         acik         gümülcine uzunköprü meriç dedeağaç enez çirmen den daha önc
+emrelic-0042           H-0020  cozuldu        dogrulandi   karkiya hanedanı gilanda kurulmuş bölgesel ve dünyasal ölçek
+emrelic-0042           H-0021  olculecek      acik         çirmen savaşı sonrasında bu toprakda sanki osmanlı egemenliğ
+emrelic-0042           H-0022  sirada         acik         bizans osmanlı vassallığına girdi deniyor ama renkte osmanlı
+emrelic-0042           H-0023  sirada         acik         savra savaşı haritada belli bir zoom uzaklığında olduğu zama
+emrelic-0042           H-0024  sirada         acik         frenkyazısı savaşı uzak zoomda iken haritada işaretlenmemiş.
+emrelic-0042           H-0025  olculecek      acik         1. resim selanikin teslimi anlaşmasındaki durum
+emrelic-0042           H-0026  sirada         acik         bileca yenilgisi haritada belli bir zoom üstünde görünmüyor
+emrelic-0042           H-0027  olculecek      acik         üsküpün fethi ile haritanın son hali böyle
+emrelic-0042           H-0028  olculecek      acik         vassal dejanoviç prensliği
+emrelic-0042           H-0029  olculecek      acik         bu tRİHLERDE BU ŞEHİRLERDE BU ENKLAVLAR VARIYDI
+emrelic-0042           H-0030  olculecek      acik         TİMUR BAĞDADI ZAPTETTİ maddesinden öncede bağdat timurlu va
+emrelic-0042           H-0031  olculecek      acik         canik kıyıları katıldıkdan sonra ordu ve ünye de sanki vassa
+emrelic-0042           H-0032  olculecek      acik         timur bağdadı 8 yıl ara ile iki kez aldı deniyor ama bunun h
+emrelic-0042           H-0033  kosu-bekliyor  acik         1.resim fetret devrinden sonra osmanlı parçalanmış gösterili
+emrelic-0042           H-0034  kosu-bekliyor  acik         fetret devrinden sonra bu pirot şehirköy isimli yerleşim osm
+emrelic-0042           H-0035  sirada         acik         timurun seferleri izmir seferi ankara savaşı sivas seferi gi
+emrelic-0042           H-0036  sirada         acik         timurun anadoludan çekilmesi ve seferlerini geçtiği yollarıd
+emrelic-0042           H-0037  olculecek      acik         uluABAD ÇARPIŞMASI VE İSA ÇELEBİNİN YENİLMESİ MADDESİNDEN SO
+emrelic-0042           H-0038  sirada         acik         KARAKOYUNLULAR BU RENKTE GÖRÜNÜYOR VE GÜRCİSTAN İLE AYNI REN
+emrelic-0042           H-0039  olculecek      acik         SINIRLARIN RENKLERİN ÜSTÜSTE BİNMESİ NE ÖRNEK. BU artukoğull
+emrelic-0042           H-0040  sirada         acik         bağdadın karakoyunlular eline geçmesinde 1. ahmet resmi var
+emrelic-0042           H-0041  sirada         acik         emir süleymanın ölümü maddesinde 1. süleyman yani kanuni sul
+emrelic-0042           H-0042  kosu-bekliyor  acik         çamurlu savaşı birliğin yeniden kurulması maddesinde sırbist
+emrelic-0042           H-0043  olculecek      acik         bu tarihte saruhanoğlu beyliği varmıydı ve devam ediyormuydu
+kasa-0008              H-0001  cozuldu        curuk        ek 4 / f giren çıkan maddeler ile birlite üstündeçalışılmış hali
+kasa-0009              H-0001  cozuldu        iz-yok       ek 4/d
+kasa-0009              H-0002  cozuldu        iz-yok       ek 4e
+kasa-0009              H-0003  zaten-dogru    iddiasiz     ek 4 f
+kasa-0009              H-0004  cozuldu        iz-yok       ek 4g
+kasa-0009              H-0005  cozuldu        iz-yok       ek 4 ç
+kasa-0010              H-0001  cozuldu        iz-yok       ŞU ANDA BEKLEYENLER KUTUSUNDAKİ SENİNLE KONUŞMALARIMIZ VAR
+kasa-0010              H-0002  sirada         acik         diyelim senden mesaj geldi benim okumam için kırmızı renkte
+kasa-0012              H-0001  sirada         acik         CLAUDEMREYE SÖYLEYELİM ŞUNU YAPSIN.

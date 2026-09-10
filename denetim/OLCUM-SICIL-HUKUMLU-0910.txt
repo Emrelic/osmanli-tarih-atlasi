@@ -1,0 +1,500 @@
+0001|0001|cozuldu|47aa386|dogrulandi|iran bir coğrafya ası aslında ve iranda bir yandan ilhanlı d
+0002|0001|cozuldu|c8b56a1|dogrulandi|gemlik ve kiosun alınması maddesinde en batıdaki parça ile o
+0002|0002|cozuldu|-|iz-yok|söğüt bölgesi
+0002|0003|cozuldu|-|iz-yok|göllerin üzerini kaplayan harita renkleri söz konusu bunu be
+0002|0004|zaten-dogru|-|iddiasiz|kıyılara renk katmanı birebir oturmalı hiç olmzsa bu osmanlının doğduğu coğrafyada ilk buraya bakıyoruz ve anında görünüyor burala
+0002|0006|cozuldu|756c8bc|dogrulandi|sağdaki kronooji indexi panceresi kapatılabilir ve tam ekran
+0002|0007|cozuldu|756c8bc|dogrulandi|sınırlar akademik atlas verisine dayalıdır yaklaşıktır doğru
+0002|0008|cozuldu|756c8bc|dogrulandi|edirne için hem yıldız hem kırmızı yuvarlak gösterimi var bi
+0002|0009|zaten-dogru|-|iddiasiz|veri sınırı butonu ne işe yarıyor bunu anlatman lazım
+0002|0010|cozuldu|756c8bc|dogrulandi|hakkında butonuna artık gerek yok sanırım .ayrıca buradaki b
+0002|0012|cozuldu|95f774c|dogrulandi|gelibolu sahilinin karşı kıyısında biga yarımadasının kuzey
+0002|0013|zaten-dogru|-|iddiasiz|akresi beyliğinin ilhakında geliboludan bir parça toprak alı
+0002|0015|cozuldu|-|iz-yok|ankara ile sivrihisar ve çankırıda alınmış gibi doğru ile kr
+0002|0016|zaten-dogru|-|iddiasiz|tuz gölü etrafında hatalı iki küçük toprak var sanki bu hat
+0002|0017|cozuldu|756c8bc|dogrulandi|dimetokanın oradaki sembol tam olarak anlamı nedir
+0002|0018|cozuldu|95f774c|dogrulandi|gümülcinenin alınmasında osmanlı ile gümülcine arasında topr
+0002|0019|cozuldu|95f774c|dogrulandi|bu kıymık gibi uzayan gösterim bir hata sanırım
+0002|0020|cozuldu|95f774c|dogrulandi|şu gösterimde hata olmalı küçük bir toprak parçası kopuk dur
+0002|0021|cozuldu|756c8bc|dogrulandi|bu sarı gösterim sarı semboller tam oalrak nedir bana açıkla
+0002|0022|cozuldu|47aa386|dogrulandi|hamid ilinin satın alınışı sornası ıspartanın ana aprçadan k
+0002|0023|zaten-dogru|-|iddiasiz|bu gösterimin ne kadar gerçekle yada mantıkla yada coğrafi t
+0002|0024|cozuldu|756c8bc|dogrulandi|başkent yıldız olsun demiştik ayrıca eyalet merkezleri de ay
+0002|0025|cozuldu|-|iz-yok|timur bağdadı zapteti celayirliler kaçtı maddesinde haritada
+0003|0001|cozuldu|-|iz-yok|anadolu hisarının yapımı maddesinde osmanlı toprakları boğaz
+0003|0002|cozuldu|756c8bc|dogrulandi|niğbolu seferinde metinler semboller üstüste binmiş okunmuyo
+0003|0003|zaten-dogru|-|iddiasiz|karamanın ilhakında osmanlıya katılmayan bir kısım topraklar
+0003|0004|zaten-dogru|-|iddiasiz|böyle iki devletin renginin üstüste binmesi sonucu sanırım b
+0003|0005|cozuldu|47aa386|dogrulandi|ilhanlı devletinin dağılması maddesinde tüm bölge birden kah
+0003|0006|cozuldu|-|iz-yok|bu anadolu selçuklulaı devletinin ne zaman yıkılıp bittiği k
+0003|0007|cozuldu|-|iz-yok|bu yapıda osmanlı imparatorluğu kırmızı renkte. ordu ünye bi
+0003|0008|tekrar|-|iddiasiz|timurun bağdadı ikinci kez ele geirişide haritada gösterilmi
+0003|0009|zaten-dogru|-|iddiasiz|fetret devrinde timura bağı bölgeleri ve tekrar hortlatılan
+0003|0010|cozuldu|9983823|dogrulandi|düzmece mustafa ayaklanması maddesinde aydınoğulları beyliği
+0003|0011|zaten-dogru|-|iddiasiz|batı anadolu beyliklerinin ilhakı maddesinde germiyanoğlu be
+0003|0012|zaten-dogru|-|iddiasiz|bosna ucunun ilhakı enklav şeklinde mi olmuş böyle anakarada
+0003|0013|cozuldu|-|iz-yok|bu parça rumeli hasarının yapımında bu anadolu yakasındaki t
+0003|0014|zaten-dogru|-|iddiasiz|istanbul fethedildiğinde marmara adasıda fethedilmiş görünüy
+0003|0015|cozuldu|-|iz-yok|şu kırım hanlığını cetvelle bölünmüş yapıdan kurtarmamız laz
+0003|0016|cozuldu|-|iz-yok|dubrovnik raguza haracı maddesinde bölgenin görünümü bu şeki
+0003|0017|cozuldu|1d5fb76|dogrulandi|batı karadeniz kıyısının alınması ile birlikte izvornik te k
+0003|0018|gerek-yok|-|iddiasiz|eflak seferi ve kazıklı voyvoda maddesi tek bir madde ve tüm
+0003|0019|cozuldu|1dd0ad7|dogrulandi|KARAMANIN kesin ilhakı maddesinde karamanın ilhak edildiği g
+0003|0020|cozuldu|1dd0ad7|dogrulandi|karamanın ilhakı iki madde sonra haritada işleniyor
+0003|0021|zaten-dogru|-|iddiasiz|livno ve batı bosnanın kesin ilhakı maddesinde harita göster
+0003|0022|tekrar|-|iddiasiz|kırımı şu saçma cetvelle bölünmüş yapısından kurtraracakmıyı
+0004|0001|cozuldu|-|iz-yok|fetret devri madesinde çandarlı halil paşa maddesinin ne ala
+0004|0002|cozuldu|-|iz-yok|Kili'nin tesliminden yirmi gün sonra ordu Dinyester ağzındak
+0004|0003|cozuldu|731d1ca|dogrulandi|Papalık'tan Fransa Kralı VIII. Charles'a devredilen Cem Sult
+0004|0004|cozuldu|e8c4515|dogrulandi|12-25 Ağustos 1499
+0004|0005|cozuldu|-|iz-yok|safevi devleti kurulduğunda iran ve etrafı topraklar bu şeki
+0004|0006|cozuldu|-|iz-yok|öncesi durum 1. resimde görülüyor
+0004|0007|cozuldu|e8c4515|dogrulandi|1502
+0004|0008|cozuldu|88f5eab|dogrulandi|1503 (908 h.; ay ve gün kaynakta yok)
+0004|0009|cozuldu|5336407|dogrulandi|BU İRAN İÇİNDE SAFEVİLERDEN AYRI BİR SÜRÜ BENEK ENKLAV BÖLGE
+0004|0010|cozuldu|1f7d8d2|dogrulandi|BU ORTAASYADAKİ BÖLGELER HAZARIN DOĞUSUNDAKİ BÜYÜK COĞRAFYA
+0004|0012|cozuldu|88f5eab|dogrulandi|Şahkulu İsyanı — Teke yöresinden Sivas'a uzanan Kızılbaş aya
+0004|0013|cozuldu|bfe254f|dogrulandi|SİNJ KALESİNİN FETHİ MADDESİNDE SİNJ KALESİNN YERİ HARİTADA
+0004|0014|cozuldu|-|iz-yok|(başlıksız)
+0004|0015|cozuldu|-|iz-yok|ŞİMDİ PADİŞAHIN RESMİNİ ZATEN YUKARIDA GÖSTERİYORUZ PİRİ RE
+0005|0001|cozuldu|bc2f88d|dogrulandi|SAFEVİLER VAR İKEN AYNI ZAMANDA AKKOYUNLULAR DA VAR OLMAYA D
+0005|0002|cozuldu|bc2f88d|dogrulandi|İRAN VE DOĞU ANADOLU HARİTASI BU TARİHTE DOĞRUMU ORADA AKKOY
+0005|0003|cozuldu|88f5eab|dogrulandi|BİR BUTON YAPMALI HARİTAYA YAY BUTONU. HARİTAYA YAY BUTONUNA
+0005|0004|zaten-dogru|-|iddiasiz|BU ÜÇKEN ŞEKLİNDE KAFKASLARIN KUZEYİNDE YER ALAN TOPRAK PARÇ
+0005|0005|cozuldu|5336407|dogrulandi|İRn-an diye etiketlenen bu toprakların gerçek sahibi kim. he
+0005|0006|cozuldu|88f5eab|dogrulandi|hem mercidabık zaferi hem ramazanoğullarının osmanlıya bağla
+0005|0007|cozuldu|95f774c|dogrulandi|bu garip görünüm kusurunun sebebi nedir bulalım ve çözelim.
+0005|0008|cozuldu|1dd0ad7|dogrulandi|yavuzun kahireye girişi maddesinde kızıldenizin kıyısındaki
+0005|0009|cozuldu|95f774c|dogrulandi|işte bozuk görüntülere bir örnek daha
+0006|0002|cozuldu|-|iz-yok|cezayirin osmanlıya katıldığı hai ile haritadaki veri örtüşü
+0006|0003|cozuldu|88f5eab|dogrulandi|(başlıksız)
+0006|0004|cozuldu|930a27d|dogrulandi|rodosla beraber fethedilen adalar varsa başka ege adaları on
+0006|0005|zaten-dogru|-|iddiasiz|kalender şah diye etiketlernmiş bir isyan hareketi var ama m
+0006|0006|cozuldu|88f5eab|dogrulandi|bozuk görünümlü yapılara örnek
+0006|0007|cozuldu|-|iz-yok|istanbul anlaşması maddesinde avusturya ve macaristan ile ol
+0006|0008|tekrar|-|iddiasiz|bu enklav nedir kime aitti tarihi gerçekliği varmı hatamı
+0006|0009|cozuldu|-|iz-yok|(başlıksız)
+0006|0010|tekrar|-|iddiasiz|şu macaristan ve habsburg görünen iki parça gerçekten böyle
+0006|0011|cozuldu|-|iz-yok|tebriz neden osmanlı garnizonu haline getirilmiyor. zırt pır
+0006|0012|cozuldu|-|iz-yok|25 Ağustos 1548
+0006|0013|cozuldu|-|iz-yok|merak edilenler ekleme kart tartışma
+0006|0014|cozuldu|-|iz-yok|tartışma maddesi
+0006|0015|cozuldu|-|iz-yok|merak konusu tartışma maddesi
+0006|0016|cozuldu|-|iz-yok|ankaranın sahibi ahiler olarak görünüyor bu ahilerin ne oldu
+0006|0017|cozuldu|-|iz-yok|ek okuma yeniçeri ocağı nedir kuruluşu teşkilatı nasıldır ku
+0006|0018|cozuldu|-|iz-yok|ek okuma vassallık nedir
+0006|0019|cozuldu|-|iz-yok|tartışma merak edilenler ekleme
+0006|0020|cozuldu|-|iz-yok|merak edilenler tartışma ek yapalım: kardeş katli gibi uygul
+0006|0021|cozuldu|-|iz-yok|merak edilenler osmanlı hanedanında evlilik müessesi ve çok
+0006|0022|cozuldu|-|iz-yok|osmanlıda siyasi evlilikler merak edilenlere ekleme yapalım
+0006|0023|cozuldu|-|iz-yok|osmanlıda kadınlar saltanatı konusu merak edilenelre ekleme
+0007|0001|cozuldu|8e8fd8d|dogrulandi|haçlı seferi olarka bir srü devlet tarafından örgütlenip osm
+0007|0002|cozuldu|-|iz-yok|merak konusu istanbulu kuşatmak ablukaya almak için yıldırım
+0007|0003|cozuldu|-|iz-yok|merak konusu tartışma ekle
+0007|0004|cozuldu|-|iz-yok|osmanlıların ele geçirdikleri hristiyan ülkelerde halkla ilg
+0007|0005|cozuldu|-|iz-yok|timur anlara savaşı sonrasında şehzadeleri kendisine balanma
+0007|0006|cozuldu|-|iz-yok|merak edilenler
+0007|0007|zaten-dogru|-|iddiasiz|ÖNEMLİ BİR UYARI
+0007|0008|cozuldu|-|iz-yok|KIRIM HANLIĞININ İLHAKINDAN SONRA BU ŞEKİLDE HARİTADA GÖRÜNM
+E0008|0002|zaten-dogru|-|iddiasiz|İLHANLILARIN TOPRAKALRI İKİ PARÇA GÖRÜNÜYOR ARAYA MEMLÜKLER
+E0008|0003|zaten-dogru|-|iddiasiz|BU YILLARDA MEMLÜKLÜLERİN TOPRAKLARI DİVRİĞİNE KDAR UZANIYOR
+E0008|0004|cozuldu|-|iz-yok|AKRESİ BEYLİĞİNİN İLHAKI SONRASINDA OSMANLI TOPRAKALRI SANKİ
+E0008|0006|cozuldu|-|iz-yok|BAŞKENTLERİN YILDIZ ŞEKLİNDE GÖSTERİMİ
+E0008|0007|cozuldu|-|iz-yok|(başlıksız)
+E0008|0008|zaten-dogru|-|iddiasiz|GÜMÜLCİNE VE BATI TRAKYA ELE GEÇİRİLİR İKEN ENEZ VE DİĞER TA
+E0008|0009|cozuldu|-|iz-yok|1281 DE BU BOŞLUKLARIN SEBEBİ NEDİR ORALARDA KİMSE YAŞAMIYOR
+E0008|0010|cozuldu|-|iz-yok|1281 DE BU BOŞLUKLARIN SEBEBİ NE ARAŞTIRALIM BURALARDA İNSAN
+E0008|0011|cozuldu|-|iz-yok|BU BOŞLUKLARIN SEBEBİ NEDİR. ORTADA BİR ALTINORDA BÖLGESİ VA
+E0008|0012|cozuldu|-|iz-yok|1281 DE HİNDİSTANDAKİ BOŞLUKLARIN SEBEBİ NEDİR BURALARDA İNS
+E0008|0013|cozuldu|-|iz-yok|1281 DE AFRİKANIN BU ORTASINDA TABİKİ ÇOĞU SAHRA ÇÖLÜ BÖLGES
+E0008|0014|cozuldu|-|iz-yok|1281 DE ASYANIN KUZEYİ VE ORTASINDAKİ BU TOPRAKLARDA İNSANMI
+E0008|0015|cozuldu|-|iz-yok|1281 DE BU ENDONEZYA MALEZYA FİLİPİNLER PAPUA YENİ GİNE GİBİ
+E0008|0016|cozuldu|-|iz-yok|1281 DE ARABİSTANDAKİ BU BOŞLUKLARIN SEBEBİ O TARİHTE ORALAR
+E0010|0001|cozuldu|-|iz-yok|TESPİH SEKEMSİNDEKİ HER SEKMEDE ONAY BEKELEYN AÇILMIŞ PAKET
+E0011|0001|bayat|-|iddiasiz|kutsal roma germen imparatorluğu 1281 de bu şekilde mi görün
+E0011|0002|cozuldu|a550bcd|dogrulandi|BİRİNCİ FOTOGRAFTA BAK BİR SÜRÜ HATA VAR ŞARKÖY TARAFI VE ÇA
+E0012|0003|cozuldu|-|iz-yok|BU MESAJ KUTUSU BİRAZ AĞIR ÇALIŞIYOR KAYDEDE FİLAN BASINCA H
+E0013|0001|cozuldu|-|iz-yok|bizim bu projeyi yaparken kullandığımız en birinci kaynak td
+E0013|0002|gerek-yok|-|iddiasiz|şu osmanlının en başlangıç haritasında söğüt ile domaniç böl
+E0014|0001|cozuldu|eec5f3d|dogrulandi|deniz ile aynı renk tonlarını ülke haritalarında tercih etme
+E0014|0002|cozuldu|a863b22|dogrulandi|şu himalayaların tepesindeki yerleşimlerin boyadığı alana ba
+E0014|0003|zaten-dogru|-|iddiasiz|yuan hanedanının toprakları birbirinden hep ayrık
+E0014|0006|cozuldu|d6eafea|dogrulandi|bu haritadaki boş bölgelerde hiç kimse yaşamıyormuymuş yada
+E0014|0007|cozuldu|-|iz-yok|bu boş alanlar boş muymuş devlet mi yokmuş insan mı yokmuş v
+E0014|0008|cozuldu|-|iz-yok|hindistanda görünen boş bölgeler *nedenboş
+E0014|0009|cozuldu|-|iz-yok|1. görsel 29 ekim 1923 de bu parça türkiyeye mi aitmiş eminm
+E0015|0001|zaten-dogru|-|iddiasiz|1923 haritasında midillide bir küçük toprak varmış gibi görü
+E0015|0002|zaten-dogru|-|iddiasiz|hatay yok 1923 haritasında ama çukurova ve iskenderun olması
+E0015|0003|cozuldu|-|iz-yok|suriye ve ırak sınırı baştan aşağı hatalı benceç. gerçi ırak
+E0015|0004|cozuldu|-|iz-yok|sscb sınırı gürcistan ermenistan sınırı da hatalı. artvin ho
+E0015|0005|cozuldu|-|iz-yok|iran hancivan ermenistan sınırı doğrumu tüm aksaba ilçe il ş
+E0016|0001|zaten-dogru|-|iddiasiz|haritadaki bozuklukları söylememe gerek varmı
+E0017|0002|cozuldu|-|iz-yok|orhan gazinin cenevizliler il ilk kapütülasyonu maddesinde k
+E0017|0003|cozuldu|-|iz-yok|pençik kanunu ve yeniçeri ocağının temelinin atılması maddes
+E0017|0004|cozuldu|-|iz-yok|allahaşkına bu nedir ya
+E0018|0001|zaten-dogru|-|iddiasiz|bu tarihte meriçin alınmamış olması normal mi hatamı daha ön
+E0018|0002|cozuldu|-|iz-yok|elhovonun alınışının kronolojide maddesi yok alakasız bir ma
+E0018|0003|cozuldu|f1c76a3|dogrulandi|kırcaali gümülcine meriçten ipsalanın kuzeyi nden daha mı ön
+E0018|0004|cozuldu|-|iz-yok|fetret devrinde emir süleyman çelebinin toprakları nedne iki
+E0019|0001|zaten-dogru|-|iddiasiz|eftret devri ankar savaşı sonrası batı anadolu haritası doğr
+E0019|0002|cozuldu|-|iz-yok|fetret devri sonrası orta anadolu haritası doğrumu
+E0019|0003|cozuldu|af30361|dogrulandi|fetret devri sonrası ankara savaşı sonrası doğu anadolu hari
+E0019|0004|cozuldu|-|iz-yok|fetret devri ankara savaşı sonrası osmanlı rumeli toprakları
+E0019|0005|cozuldu|ad42467|dogrulandi|tepede başlıkda sürekli kayıp yenişehir bursa inegöl aydoska
+E0019|0006|cozuldu|-|iz-yok|kronolojide aynı tarih olan olaylar 1 2 3 şeklinde numaralan
+E0019|0008|cozuldu|-|iz-yok|bu mersin osmanlı ile aynı renk görünüyor bu hatanın sebebi
+E0019|0009|zaten-dogru|-|iddiasiz|kırım hanlığı kurulluşunda o dönemdeki o bölgenin siyasi yap
+E0019|0010|cozuldu|-|iz-yok|uçuş animasyonu kronolojik maddelerin haritada gösterilmesin
+E0019|0011|cozuldu|4b6fb71|dogrulandi|devletler indexinin bağlı olduğu ve hedef devletin kronoloji
+E0019|0012|cozuldu|3a36b65|dogrulandi|kırımın hanlığın kurulmasında bu cetvelle çizilen çizgi niye
+E0019|0013|zaten-dogru|-|iddiasiz|saray ovasının ilhakı ile bosnada bir osmanlı enklavı mı olu
+E0019|0014|cozuldu|4581d71|dogrulandi|2. kosova savaşının haritada bölgesi ve simgesi işaretlenmem
+E0019|0015|cozuldu|d2d35ab|dogrulandi|uçuş ile haritanın odağının ayarlanması meselesinde şöyle bi
+E0019|0016|cozuldu|-|iz-yok|karakoyunluların timurdan iranın rey isfahan fars kirman böl
+E0019|0017|zaten-dogru|-|iddiasiz|bir olay anlatılırken kronolojide bu olayın geçtiği yer hari
+E0019|0020|zaten-dogru|-|iddiasiz|osmanlı kronolojisinde osmanlı ile direkt alakası olmayan ma
+E0019|0021|cozuldu|ad42467|dogrulandi|tepedeki madde metni ile kronooji sutunundaki madde metni bi
+E0019|0022|zaten-dogru|-|iddiasiz|boğdan voyvodalığı vassallığa katılmış ama haritada boğdan v
+E0019|0023|cozuldu|af30361|dogrulandi|haritada hiçbir zaman çizelgesindeki noktada etiketsiz topra
+E0019|0024|zaten-dogru|-|iddiasiz|natı karadeniz kıyısının alınışı amasra maddesinde bosna top
+E0019|0025|zaten-dogru|-|iddiasiz|eflak seferi ve kazıklı voyvoda maddesi ile eflak osmanlı va
+E0019|0026|cozuldu|af30361|dogrulandi|fatihin arnavutluk seferi 2. sefr ile arnavutlukda bir topra
+E0019|0027|gerek-yok|-|iddiasiz|saat 00:08 AM thursday itibari ile yeni hafta başlamış durum
+E0019|0028|cozuldu|-|iz-yok|boğdanda racova vasuli bozgunu haritada yeri gösterilmiyor.
+E0019|0029|cozuldu|-|iz-yok|cem sultanın yenildiği yenişehir muhrebesi nerede olmuş hari
+E0019|0030|zaten-dogru|-|iddiasiz|cetinje osmanlıya katılmış ama orada çok küçük kıymık gibi b
+E0019|0031|cozuldu|68ac2ab|dogrulandi|bu harita yapısı gözü kanatıyor bir çözüm bulmalı acaba 200
+E0019|0032|cozuldu|3a63fd8|dogrulandi|YENİ ALINAN TOPRAKLAR YANSIN SÖNSÜN İKİ KERE ALGIDA VURGU OL
+E0019|0033|cozuldu|-|iz-yok|NİSAN 1513 yenişehir muharebesi haritada gösterilmiyor
+E0019|0034|bayat|-|iddiasiz|bu maddenin haritada yeri görünmüyor azemmur ümmürrebi alını
+E0019|0035|cozuldu|-|iz-yok|mazagan kalesinin kurulması maddesi haritada görünmüyor
+E0019|0036|cozuldu|-|iz-yok|tebrize girilmesi maddesinde tebriz alınmış görünüyor sorun
+E0019|0037|zaten-dogru|-|iddiasiz|safeci iran erzuurm urfa toprakları var arada ama osmanlı do
+E0019|0038|zaten-dogru|-|iddiasiz|diyarbekir ebylerbeyliği kurulmuş ama osmanlı topraklarından
+E0019|0039|cozuldu|-|iz-yok|mayıs 1516 mardin koçhisar kızıltepe savaşı maddesinde mardi
+E0019|0040|cozuldu|-|iz-yok|20 haziran 1516 zebidin alınması maddesinde zebid haritada g
+E0019|0041|zaten-dogru|-|iddiasiz|planlama aşamasında olan bu gibi güzergahların sarı kesikli
+E0019|0042|cozuldu|-|iz-yok|mercidabık zaferi ile tüm bu topraklar hakikaten alındımı te
+E0019|0043|cozuldu|-|iz-yok|mercidabık zaferi ile coğrafi olarak fazla yakın olmayan bu
+E0019|0044|cozuldu|-|iz-yok|adana elbistan halep maraş antep tüm bu yerleşimlerin yanlar
+E0019|0045|cozuldu|af30361|dogrulandi|halepin osmanlı hakimiyetine girişi maddesinde haritada deyr
+E0019|0046|zaten-dogru|-|iddiasiz|ağustos 1516 abbasi halifesi 3 mütevekkil ile görüşme maddes
+E0019|0047|tekrar|-|iddiasiz|trabkusşamın osmanlıya girmesi maddesinde hama ve humus da d
+E0019|0048|zaten-dogru|-|iddiasiz|şamla beraebr beyrut ve palmyra da haritada katılmış görünüy
+E0019|0049|cozuldu|3a36b65|dogrulandi|bu tuhaflıkların sebebi nedir çözmeliyiz tuhaf görünümleri
+E0019|0051|zaten-dogru|-|iddiasiz|kronoloji maddeleri ilerler iken o andaki aktif kronoloji ma
+E0019|0052|cozuldu|f226aa2|dogrulandi|konu süzgeci butonunu kronoloji başlığının yanındaki bölgeye
+E0019|0053|cozuldu|-|iz-yok|ridaniye savaşı haritada işaretlenemmiş
+E0019|0054|cozuldu|3a36b65|dogrulandi|bu harita gösterim bozukluğu neden oluyor
+E0019|0055|cozuldu|3a36b65|dogrulandi|hem böyle üçken iğlener var görüntü kusuru hemde hafifçe pem
+E0019|0056|cozuldu|-|iz-yok|afrikanın kuzey batı kuzey ve kuzey doğu bölümünde sahra çöl
+E0019|0057|cozuldu|-|iz-yok|ikarya adası alındı 1521 de 3 olay var ve çat diye tek göste
+E0019|0058|cozuldu|af30361|dogrulandi|böğürdelenin fethi maddesinde haritada göstrerim yeri yok uç
+E0019|0059|cozuldu|-|iz-yok|uçuş ayarları hiç etki etmiyor görünüyor ayrıca yeni ayarkar
+E0019|0060|cozuldu|ad42467|dogrulandi|TEPEDEKİ ÇUBUKTAKİ OLAY BAŞLIĞI İLE KRONOLOJİDEKİ OLAY BAŞLI
+E0019|0062|tekrar|-|iddiasiz|VİYANA KUŞATMASINA YAPILAN SEFER İÇİN SİYAH KESİ KKESİK YOL
+E0019|0063|cozuldu|-|iz-yok|5-30 AĞUSTOS 1532 ALMAN GÜNS KUŞATMASI HARİTADA GÖRNÜMÜYOR Ç
+E0019|0064|cozuldu|-|iz-yok|MATRAKÇI NASUH IRAKEYN SEFERİ MADDESİNDE KARS CİVARININ OSMA
+E0019|0065|zaten-dogru|-|iddiasiz|KARSIN ALINMASI MADDESİNDEN ÖNCE HARİTA BÖYLE GÖRÜNÜYOR MADD
+E0019|0066|cozuldu|b55c262|dogrulandi|BİR OSMANLI TOPRAĞINDAN İLERİDEKİ BİR TOPRAK ALINDIĞI XAMAN
+E0019|0067|bayat|-|iddiasiz|FUZULİNİN BAĞDATIN FETHİ SONRASI KANUNİYE KASİDE SUNMASI KRO
+E0019|0068|zaten-dogru|-|iddiasiz|TEBRİZE GİRİLİR İKEN ARADAKİ TOPRAKLARI FETHETMİYOR ORDU GAL
+E0019|0069|cozuldu|-|iz-yok|BAĞDADIN FETH BU ŞEKİLDE RESMEDİLMİŞ.
+E0019|0070|cozuldu|-|iz-yok|İŞTE HALEPÇE ENKLAV GÖRÜNÜMÜ BURADA HANGİ YOL İLE OSMANLI AN
+E0019|0071|cozuldu|68ac2ab|dogrulandi|BU ORTADAKİ ANLAMSIZ BOŞ KORİDORU ENGELLEMEK İÇN BELKİ
+E0019|0072|cozuldu|b3c575c|dogrulandi|MESELA BURADAKİ ORTADAKİ BOŞLUK BENİM BİR ÖNCE BELİRTTİĞİM S
+E0019|0073|cozuldu|68ac2ab|dogrulandi|BU MEDİNE YENBU VE TEBÜS ARASINDA BAŞKA YERLEŞİM YOK MU BU A
+E0019|0074|zaten-dogru|-|iddiasiz|BUDİNİN İLHAKI MADDESİNDEN ÖNCE MACARİSTAN HARİTASI BU ŞEKİL
+E0019|0075|cozuldu|-|iz-yok|MACARİSTAN BUDİN İLHAKI VE BİR SÜRÜ KALENİN FETHİNDEN SONRA
+E0019|0076|cozuldu|af30361|dogrulandi|SANA VE YEMEN İÇLERİNİ FETHİ YAPILIR İKEN ARADAKİ YEMEN İMAM
+E0019|0077|zaten-dogru|-|iddiasiz|van fethedilmiş de bu pembe renkli toprak kimin toprağı acab
+E0019|0078|tekrar|-|iddiasiz|4 renk var burada safevi osmanlı belli gürcistan belli ama v
+E0019|0079|cozuldu|68ac2ab|dogrulandi|basra ile katif arasındaki boşluk da hiç yerleşim yok muymuş
+E0019|0080|cozuldu|-|iz-yok|deniz rengine yakın renkleri haritada siyasi devlet renkleri
+E0020|0001|cozuldu|-|iz-yok|bu yıldız şeklindeki görünüm hatası var ve acaba katar yarım
+E0020|0002|cozuldu|-|iz-yok|ilginç üçken yıldız görünümler
+E0020|0003|zaten-dogru|-|iddiasiz|abadan bu tarihte osmanlıda değil mi böyle ilginç bir harita
+E0020|0004|cozuldu|-|iz-yok|1560 cerbe savaşının haritada yeri yok haritada yeri olmayan
+E0020|0006|cozuldu|06b2751|dogrulandi|buradaki boş görünen yerlerde hiç osmanlı yada başka devleti
+E0020|0007|cozuldu|-|iz-yok|bu gat isimli yerleşimin bölgesi neden bu şekilde açıkla
+E0020|0008|cozuldu|-|iz-yok|ubari şehrinin etki alanı neden böyle cetvelle kesilmi gibiv
+E0020|0009|cozuldu|-|iz-yok|bu ortadaki boş alanın bu şekilde çıkmasını geometrisi matem
+E0020|0010|cozuldu|-|iz-yok|bu ortadaki üçken boşluk neden böyle ortaya çıkıyor hangi ge
+E0020|0011|cozuldu|-|iz-yok|bu ortadaki boşluk nedne ortaya çıkıyor hangi geometri ile
+E0021|0001|cozuldu|2931f04|dogrulandi|bu venedik toprakları gerçekten o devirde venediğin miymiş t
+E0021|0002|cozuldu|-|iz-yok|dalmaçya ıyılarındaki bu yapı bu şekildemiymiş kontrol et ad
+E0021|0003|cozuldu|-|iz-yok|bu kanije ve eğri yeişl renk macaristan renginde görünüyor b
+E0021|0004|cozuldu|073df09|dogrulandi|bu tarihte avusturya toprakları doğrumu teyid et
+E0021|0006|cozuldu|-|iz-yok|bu cetvel sınırın sebebi nedir
+E0021|0007|cozuldu|-|iz-yok|safevilerin bahreyni portekizlilerden alması haritada yansıt
+E0021|0008|cozuldu|-|iz-yok|osmanlı iran mücadelesinde bu arada arka planda farklı bir r
+E0021|0009|cozuldu|-|iz-yok|vladikafkas daki boşluk sorgulanmalı
+E0021|0011|zaten-dogru|-|iddiasiz|şu çuha ve istendil adası osmanlıda değil miymiş bu tarihte.
+E0021|0012|cozuldu|-|iz-yok|koridor mantığını şu açıdan istedik ve kurduk aslında.
+E0021|0013|cozuldu|-|iz-yok|ırakdaki bu girintinin sebebi nedir tam oalrak.o aradaki top
+E0021|0014|cozuldu|9777657|dogrulandi|semave ve küme arasındaki toprak osmanlıda görünmeme sebebin
+E0021|0015|cozuldu|06b2751|dogrulandi|bu görüntü bozulmalarının sebebi nedir
+E0021|0016|cozuldu|-|iz-yok|yenbu tebük arasıın osmanlı görünmeme sebebi nedir 1577 sene
+E0021|0017|zaten-dogru|-|iddiasiz|şu aradaki boşluğun osmanlı görünmeme sebebi nedir
+E0021|0018|cozuldu|06b2751|dogrulandi|bu ortadaki bölgenin osmanlı görünmeme sebebi nedir ve calu
+E0021|0019|cozuldu|-|iz-yok|gümrü başkale çaldıran neden farklı renkte görünüyor o dönem
+E0021|0020|cozuldu|-|iz-yok|bu aradaki toprak osmanlıya boyanmamış orada hiç yerleim yok
+E0021|0021|cozuldu|-|iz-yok|bu bahreynde hiç toprak parçası varmıydı osmanlının oradaki
+E0021|0022|cozuldu|-|iz-yok|iki kırmızı alan arasındaki bölgelerin kırmızıya boyanması m
+E0021|0023|cozuldu|-|iz-yok|burada hiçmi yerleşim yok
+E0021|0024|zaten-dogru|-|iddiasiz|bu boşluk alanlarda hiç mi yerleşim yok ortasyada filan ayrı
+E0021|0025|cozuldu|-|iz-yok|bu macaristan yeşil topraklar geçerlimi tam oalrak kraliyet
+E0021|0026|zaten-dogru|-|iddiasiz|nahcıvan fethedilir iken neden enklav gibi görünüyor aradaki
+E0021|0029|cozuldu|-|iz-yok|vrana ladin osmanlı görünüyor teyid edelim ama oradaki adacı
+E0021|0031|cozuldu|5ca81bf|dogrulandi|uçuş ayarlarını düzenle
+E0021|0032|cozuldu|-|iz-yok|bu kırım hanlığı bozkırında hiç yerleşim yeri yok mu o devir
+E0022|0001|cozuldu|-|iz-yok|1) 1665 de parga ve korfu adasının karşı kıyısının osmanlı
+E0022|0002|cozuldu|-|iz-yok|burada bu tarihte boş görünen iki parça toprak var bu iki pa
+E0022|0003|cozuldu|-|iz-yok|1)çerkezyanın kuzeyinde bir ufak boş alan var bu nedir
+E0022|0004|zaten-dogru|-|iddiasiz|1672 de korfu kefalonya zakintos ve çuha adası ile istendil
+E0023|0001|cozuldu|073df09|dogrulandi|orta macaristan denilen ve tökeli imre nin kralı ilan edildi
+E0023|0002|cozuldu|073df09|dogrulandi|2. viyana bozgunu sornasında 2. viyana bozgunundan sonra kah
+E0023|0004|zaten-dogru|-|iddiasiz|solnok kaybedilmiş diyor. 2. viyana sonrasındaki kronoojik m
+E0023|0005|cozuldu|-|iz-yok|2 viyana sonrası budin düştükten sonra simontoma ve kalocsa
+E0023|0006|cozuldu|9a02e24|dogrulandi|emoji gösteme özelliğini ayarlara koydukmu . ayarlardan kapa
+E0023|0007|cozuldu|5bbaebc|dogrulandi|uçuşdan sonra veya uçuş özelliği olmadan da elden çıkan yad
+E0023|0008|cozuldu|-|iz-yok|atinanın kaybı maddesinde naplionun doğusundaki bir parça to
+E0023|0009|cozuldu|d7dde09|dogrulandi|uçuş modunda haritanın yavaş yavaş olay mahaline çekilmesi a
+E0023|0010|cozuldu|-|iz-yok|venediğin eğriboz kuşatmasının püskürtülmesi ekim 1688 madde
+E0023|0011|cozuldu|-|iz-yok|niş ve vidin düştü kronolojik maddesinde tuzla ve kragujevac
+E0023|0012|cozuldu|4581d71|dogrulandi|salankamen bozgunu ve bunun gibi diğer bozgun ve muharebe ye
+E0023|0013|cozuldu|4581d71|dogrulandi|granbosa kalesinin fethi maddesinde granbosa kalesinin yeri
+E0023|0014|cozuldu|ad42467|dogrulandi|kronoloji maddeleri ileri ileri oynatılır iken haritanın tep
+E0023|0015|cozuldu|4581d71|dogrulandi|ulaş zaferi haritada işaretli değil
+E0023|0016|cozuldu|4581d71|dogrulandi|zenta bozgunu haritada gösterilmiyor
+E0023|0017|cozuldu|-|iz-yok|karlofça anlaşması maddesinde karlofça kasabası şehri harita
+E0023|0018|cozuldu|e53c86a|dogrulandi|osmanlının karlofçada kaybettiği alanlar akrofça barış anlaş
+E0024|0001|cozuldu|-|iz-yok|1705 de gümrü kime aitti neden baka renk görünüyor.
+E0024|0002|cozuldu|-|iz-yok|1) 1705 de batum soci kısmına trabzon bölgesi diye dahil etm
+E0024|0003|gerek-yok|-|iddiasiz|acaba sadece bu mesaj kutusunu ve buradaki mesajları okuyup
+E0024|0004|zaten-dogru|-|iddiasiz|ahvaz abadan hafiza 1703 de hangi devlete ait iran mı yoksa
+E0024|0006|cozuldu|fcae60b|dogrulandi|beni halid emirliğine geçirdim kronoloji ve harita odağını.
+E0024|0007|zaten-dogru|-|iddiasiz|bu toprakları bu sultanlığa bağlayan algoritma nedir acaba
+E0024|0009|cozuldu|fcae60b|dogrulandi|KRONOLOJİ COMBOBOXUNDA BİRDEN ÇOK ÜLKENİN KRONOLOJİSİ SEÇİLE
+E0024|0010|cozuldu|-|iz-yok|SİTEDE BUTONLAR MENÜSÜNDE BİR HAKKINDA MENÜSÜ OLSUN VE BU ME
+E0025|0002|cozuldu|-|iz-yok|TÜM KRONOLOJİK OLAYLARIN HARİTADA OLAY MAHALİ İŞARETLEMESİ Y
+E0025|0003|cozuldu|-|iz-yok|DAR GENİŞ BUTONU KRONOLOJİ SUTUNUNU DARALTIĞ GENİŞLETEN BUTO
+E0025|0006|zaten-dogru|-|iddiasiz|1329 da osmanlı devleti avrupa yakasına rumeli hisarı bölges
+E0025|0007|zaten-dogru|-|iddiasiz|karesi ilhakı 1334-1335 osmanlı avrupaya karşı kıyıya gelibo
+E0025|0008|zaten-dogru|-|iddiasiz|1346 osmanlı egemenliği midilli adasına çıkmış görünüyor bu
+E0026|0001|cozuldu|-|iz-yok|BU 1 NUMARALI RESİMDE BİZİM PROGRAM YAPISI PENCERESİ BU ŞEKİ
+E0027|0001|cozuldu|ebbfdcd|dogrulandi|olay olay oynatma hızlarına
+E0027|0002|cozuldu|f4737d7|dogrulandi|1)kronoloji çubugunda padişah resminin yanına padişah ismi y
+E0027|0003|cozuldu|ebbfdcd|dogrulandi|çubuktaki yazıyı daha göze çarpan bir şekilde biraz daha kal
+E0027|0004|cozuldu|169a136|dogrulandi|TÖKÖLİ İMRE ORTA MACAR KRALLIĞI KURUP OSMANLIYA BAĞLANDIĞIND
+E0027|0007|cozuldu|-|iz-yok|NİŞ VE VİDİN ELDEN ÇIKMIŞ.
+E0027|0008|zaten-dogru|-|iddiasiz|GRANBOSA KALESİ VE SALANKAMEN BOZGUNU MADDELERİ HARİTADA İŞA
+E0027|0009|cozuldu|-|iz-yok|BU SENEDE BU HARİTA GÖRÜNTÜSÜ NORMAL Mİ ARADAKİ KORİDOR TARİ
+E0027|0010|cozuldu|-|iz-yok|BU SENE DE HARİTADA AMCARİSTANIN BÖYLE YEŞİL GÖRÜNMESİ NORMA
+E0027|0011|cozuldu|9d79b24|dogrulandi|HAÇOVA MEYDAN MUHAREBESİNİN YERİ HARİTADA BELLİ DEĞİL
+E0027|0012|cozuldu|ebbfdcd|dogrulandi|ARAYÜZ İÇİN ÖNERİ
+E0027|0013|cozuldu|ebbfdcd|dogrulandi|BU KRONOLOJİ MADDESİNİN METNİ ÜST ÇUBUKTA GÖRÜNEN METİN SAĞA
+E0028|0001|zaten-dogru|-|iddiasiz|bu tarihte buradaki boşluk hatamı bakalım
+E0028|0002|cozuldu|-|iz-yok|kırım hanlığı bozkırı denilen bu bögleerde hiç mi şehir yok
+E0028|0003|zaten-dogru|-|iddiasiz|bu sene bu bölge böyle miymş orada bir kopuk osmanlı toprağı
+E0028|0004|cozuldu|03aa5d9|dogrulandi|bu maddede iken bir sonraki maddeye tıklayınca iki madde bir
+E0028|0005|cozuldu|-|iz-yok|ferhatpaşa anlaşmasından sonra osmanlı iran sınırının bu şek
+E0028|0006|cozuldu|-|iz-yok|bu tarihte bu bölgenin bu şekilde olduğuna eminmiyiz
+E0029|0001|cozuldu|-|iz-yok|göz kırpma animasyonunu bazı hızlarda kapatmamız gerekiyor 1
+E0029|0002|cozuldu|-|iz-yok|bu tarihte germiyanoğulları beyliğinin böyle iki birbirinden
+E0029|0003|zaten-dogru|-|iddiasiz|osmanlının ilk kuruluşundaki toprakları böyle birbirinden ko
+E0029|0004|cozuldu|-|iz-yok|katalan birliklerin anadolu seferi oku bir olay erken çıkıyo
+E0029|0005|cozuldu|-|iz-yok|ilk maddede durum 1. resimdeki gibi iken yani yapılan ayar n
+E0029|0006|cozuldu|-|iz-yok|haritanın genişlik gösterimi alanını odakda bakılan devletin
+E0030|0003|cozuldu|-|iz-yok|osmanlı aydın saruhan ittifakı maddesinde bu üç ittifak mens
+E0030|0005|zaten-dogru|-|iddiasiz|olay mahaline odaklanan haritada olay yeri yuvarlak işaret y
+E0030|0007|zaten-dogru|-|iddiasiz|çimpe kalesine geçilince sarosun kuzeyi boyanmamalı. arada d
+E0030|0008|bayat|-|iddiasiz|dış ülkelerin önemi şüpheli maddeleri
+E0030|0010|zaten-dogru|-|iddiasiz|doğu trakyada ilerleyiş çorlu ve lüleburgazın alınması madde
+E0030|0011|cozuldu|-|iz-yok|gümülcinenin fethi haritada görünümü kopuk aradaki topraklar
+E0030|0012|cozuldu|-|iz-yok|hamid ilinin ıspartanın para ile alınması maddesinde ısparta
+E0030|0015|zaten-dogru|-|iddiasiz|timurun iranın büyük bölümünü hakimiyeti altına alması krono
+E0030|0016|zaten-dogru|-|iddiasiz|tuna nehrinin sınırları belirlemesi ve şehirlerin blgelerini
+E0030|0017|cozuldu|-|iz-yok|osmanlı nişi almış ama burada bir sırbistan toprağı kalmış g
+E0030|0019|cozuldu|d2d35ab|dogrulandi|anadolu beylerbeyliği kuruldu maddesi ile aynı tarihte bir madde daha var
+E0031|0001|zaten-dogru|-|iddiasiz|bu tarihte burada macaristan toprağı doğrumu hatamı
+E0031|0003|cozuldu|-|iz-yok|timur bağdadı zaptetti iyor ama bağdadı ele geçirmiş gibi gö
+E0031|0004|zaten-dogru|-|iddiasiz|timur devleti b tarihte bu bölgeleri alamamış vaziyettemi ac
+E0031|0006|cozuldu|07c33b2|dogrulandi|vidinin ilhakı ve niğbolu seferi haritada aynı anad gösteril
+E0031|0007|cozuldu|-|iz-yok|orhan gazinin cenevizlilerle kapütülasyonu maddesinde mersin
+E0031|0008|tekrar|-|iddiasiz|timurun bağdadı ikinci kez ve birinci kez işgali maddelerind
+E0031|0009|zaten-dogru|-|iddiasiz|bu mardinin bölgesi nedne böyle sivri görünüyor
+E0031|0010|zaten-dogru|-|iddiasiz|ankara savaşından sonra bu topraklar hala osmanlı kırmızısı
+E0031|0011|zaten-dogru|-|iddiasiz|timur izmiri saint jean şövalyelerinden aldı maddesinde timu
+E0031|0012|cozuldu|82aa96e|dogrulandi|timurun izmir seferi bir sonraki maddede kesikli çizgi ile b
+E0031|0013|zaten-dogru|-|iddiasiz|timurun anadoludan çekilmesini çizgi ile göstermeli haritada
+E0031|0014|cozuldu|-|iz-yok|bu tarihlerde böyle akkoyunlular karakoyunlular karışık bir
+E0031|0015|cozuldu|e17bdea|dogrulandi|celayirli sultan ahmet ile ilgili madde içeriğine osmanlı su
+E0031|0016|cozuldu|-|iz-yok|şeyh bedrettin isyanı serezde ateş simgesi ile görünüyor. b
+E0031|0017|zaten-dogru|-|iddiasiz|bu gürcistan ve karakoyunlular devletinin rengi birbiri ile
+E0031|0018|cozuldu|82aa96e|dogrulandi|aynı tarihte iki madde olunca bunların ıra ile gösterilmesi
+E0031|0020|tekrar|-|iddiasiz|bu üç maddesırayla kronolojik tarihte gösterilmeli ve her bi
+E0031|0021|zaten-dogru|-|iddiasiz|bosna hersek osmanlı enklavı olarak osmanlı sırbistan fethet
+E0032|0001|zaten-dogru|-|iddiasiz|DUBROVNİK HARACA BAĞLANIR İKEN HENÜZ İŞKODRA TREBİNYE VE KOT
+E0032|0004|cozuldu|-|iz-yok|ARZİLA PORTEKİZ TARAFINDAN ALINIŞI MADESİNDE YUVARLAK SİMGE
+E0032|0005|cozuldu|be8ba85|dogrulandi|BOĞDANDA RACOVA VASULİ BOZGUNU MADDESİNDE HARİTA İLARETLEMES
+E0032|0006|zaten-dogru|-|iddiasiz|KIRIM OSMANLI EGEMENLİĞİNE KATILDIĞINDA TOPRAKLARI NERELERİ
+E0032|0007|cozuldu|be8ba85|dogrulandi|AKDERE VALEA ALBA ZAFERİ HARİTADA ZOOM OUT GERİDEN BAKILIYOR
+E0032|0008|cozuldu|0775e1f|dogrulandi|MERAK BUTONU GÜZEL AMA KONU İÇERİĞİ İKİ KELİME BİLE OLSA BUT
+E0032|0011|zaten-dogru|-|iddiasiz|OSMANLI ALTINI BASILDI MADDESİNDE MERAK EK OKUMA MAGAZİN FİL
+E0032|0012|zaten-dogru|-|iddiasiz|FATİHİN ÖLÜMÜ MADDESİNDE BU ÖLÜM İLE İLGİLİ İDDİALARI ANLATA
+E0032|0015|zaten-dogru|-|iddiasiz|GEDİK AHMET PAŞA İLE İLGİLİ EK OKUMA MERAK VESAİRE MADDELERİ
+E0033|0001|cozuldu|-|iz-yok|butarihte kemah safevilere mi aitti enklav görünüyor çözelim
+E0033|0002|zaten-dogru|-|iddiasiz|bu boşluğun sebebini bulalım çözelim
+E0033|0003|cozuldu|-|iz-yok|irandaki bu benekli yapının sebebi ne . tarihi gerçekmi böyl
+E0033|0004|zaten-dogru|-|iddiasiz|akkoyunluların kocaman bir ülkesi var ama bir sonraki madele
+E0033|0005|zaten-dogru|-|iddiasiz|bağdadın safeviye geçişi maddesi ile bir sürü benek ortadan
+E0033|0011|cozuldu|-|iz-yok|piri reisin dünya haritası ile ek okuma teknik bilgiler maga
+E0033|0012|zaten-dogru|-|iddiasiz|bu devleti pergel ile çölde alan çizdirirken batı tarafında
+E0033|0016|zaten-dogru|-|iddiasiz|bu enklavdan önce aradaki toprakalr ele geçirilmemişmi erzur
+E0033|0020|cozuldu|-|iz-yok|portekizliler bahreyni almış ama harita boyanmamış
+E0033|0021|zaten-dogru|-|iddiasiz|bu calu şehrinin doğusu güneyindeki büyük miktar toprağın bo
+E0034|0001|bayat|-|iddiasiz|bu üç iran beneğinin manası nedir tarihi gerçekliğe mi dayan
+E0034|0002|cozuldu|-|iz-yok|bu halepçenin enklav görünmesi normal mi etrafındaki şehirle
+E0034|0003|cozuldu|7b92b47|dogrulandi|bu renk boyamaalrı hata galiba engelleyelim
+E0034|0004|cozuldu|-|iz-yok|boruk görünmümleri düzelt iki renk üstüste binmiş galiba. bu
+E0034|0005|cozuldu|-|iz-yok|basra alınmış abadan hafiza ahvaz alınamamışmı
+E0034|0006|cozuldu|-|iz-yok|van fethedilmiş ama özalp başkale çaldıran fethedilmemiş mi
+E0034|0007|zaten-dogru|-|iddiasiz|şehrizor ilhak edildi ise neden haritada katılmıyor osmanlı
+E0034|0008|zaten-dogru|-|iddiasiz|daha önce şehrizor ilhak edildi diyordu şimdie alındı diyor
+E0034|0009|cozuldu|-|iz-yok|bu olayın harita gösterimi yapılmamış. haritada yaprak kıpır
+E0034|0010|cozuldu|-|iz-yok|tüm anlaşma içeren kronolojik maddelerin içine anlaşma metni
+E0034|0011|zaten-dogru|-|iddiasiz|bu gürcistan böyle iki parça görünüyor normal mi bu . bunun
+E0034|0012|zaten-dogru|-|iddiasiz|osmanlıların macaristanı budini ilhak edip macaristaı ele ge
+E0034|0013|zaten-dogru|-|iddiasiz|sokollu mehmet paşa için
+E0034|0014|zaten-dogru|-|iddiasiz|büyük akçe krizi tağşiş maddesinde bu durumun neden olduğunu
+E0034|0015|cozuldu|-|iz-yok|şerur doğubeyazıt makuçaldıran özalphoy merend culfa gibi ye
+E0034|0016|cozuldu|-|iz-yok|ferhatpaşa anlaşmasına göre bu toprakları teyid et.
+E0034|0017|bayat|-|iddiasiz|bu tarihte bu şekilde yaşayan müstakil bir gürciastan varmı
+E0034|0018|zaten-dogru|-|iddiasiz|kanije savunması ile ilgili maddede
+E0034|0019|zaten-dogru|-|iddiasiz|bu tarihte bu şehirler kime aitmiş detaylı bakalım.
+E0034|0020|cozuldu|-|iz-yok|deli hasan diye bir ayaklanma görünüyor ama kronoloji maddes
+E0034|0021|zaten-dogru|-|iddiasiz|3. mehmetin tahta çıkması ile ilgili maddelere ek okuma madd
+E0034|0024|zaten-dogru|-|iddiasiz|barış anltlaşmalarının önemi konusunda ek okuma butonları ko
+E0034|0025|cozuldu|-|iz-yok|bu özelp ve başkale başta olmak üzere çevredeki şehirlerin k
+E0034|0026|zaten-dogru|-|iddiasiz|kuyucu murat paşa ve ek okumalar yapılsın celali isyanları e
+E0034|0027|cozuldu|-|iz-yok|sultanahmet cami gibi yapıların yapılmasında ek okumalar
+E0034|0029|zaten-dogru|-|iddiasiz|1.AHMET DÖNEMİ EKBERİYET USULÜ İLE İLLLGİLİ EK OKUMALAR TART
+E0034|0030|cozuldu|-|iz-yok|1.MUSTAFANIN CULUSU İLE İLGİLİ EK OKUMALAR YAPALIM MAGAZİN K
+E0034|0031|cozuldu|-|iz-yok|2. OSMAN VE ONUN HALLİ İLE İLGİL EK OKUMALAR ŞOK HABERLER MA
+E0034|0032|cozuldu|-|iz-yok|1.MUSTAFANIN HALİ İLE İLGİLİ KOMİK ANLATILARI EK OKUMA YAP K
+E0034|0033|cozuldu|-|iz-yok|4. MURAT İLE İLGİLİ EK OKUMA
+E0034|0034|cozuldu|-|iz-yok|HEZARFEN VE LAGARİ GİBİ KİŞİLİKLER İÇİN EK OKUMALAR EKLEYELİ
+E0034|0035|zaten-dogru|-|iddiasiz|4. MURAT İÇKİ YSAĞI EK OKUMALAR MAGAZİN TARTIŞMA HİKAYE SÜSL
+E0034|0037|zaten-dogru|-|iddiasiz|HARİTA AKSRI ŞİRİN ANLAŞMASINA UYGUN MU KONTROL ET
+E0034|0038|cozuldu|-|iz-yok|SULTAN DELİ İBRAHİM KONUSUNDA EK OKUMALAR BOL BOL YAPALIM
+E0034|0039|cozuldu|-|iz-yok|KEMANKEŞ MUSTAFA PAŞA EK OKUMALAR İLE SÜSLE
+E0034|0041|zaten-dogru|-|iddiasiz|SULTAN İBRAHİMİN HALLİ VE KATLİ İLE İLGİLİ EK OKUMALARI UNUT
+E0034|0042|zaten-dogru|-|iddiasiz|KATİP ÇELEBİYE ÖNEM VERELİM EK OKUMALAR İLE MADDELERİNİ ZENG
+E0034|0043|zaten-dogru|-|iddiasiz|MERZİFONLU KARA MUSTAFA PAŞA MADDELERİNİ EK OKUMALAR İLE DON
+E0034|0045|zaten-dogru|-|iddiasiz|SATU MARE ORTA MACAR MI AVUSTURYA MI YOKSA OSMANLI MI BU DEV
+E0035|0001|tekrar|-|iddiasiz|bu yapının anlamı ne. boş bir alan yerleşim yeri yok kesik k
+E0035|0002|cozuldu|-|iz-yok|budinin kaybı maddesinde anabolu da kayıp görünüyor ama kron
+E0035|0003|cozuldu|-|iz-yok|4. mehmetin azline ilişkin komik hikayeler var ise bunları e
+E0035|0004|zaten-dogru|-|iddiasiz|bu maddede knin elden çıkmış görünüyor haritada ama kronoloj
+E0035|0005|cozuldu|-|iz-yok|niş ve vidin ondan önceki topraklar alınmadan mı elden çıkmı
+E0035|0006|zaten-dogru|-|iddiasiz|karlofça anlaşmasında venediklilerin aldıkları topraklar ola
+E0035|0007|cozuldu|e53c86a|dogrulandi|avusturyaya karlofça anlaşması ile kaybedilen alanlar doğru
+E0035|0008|cozuldu|e53c86a|dogrulandi|karlofça ile 4 ülkeye kaybedilen toprakalrı teker teekr teyi
+E0035|0009|zaten-dogru|-|iddiasiz|venediğe karlofça ile draç terkedildimi. sinj şehrinide değe
+E0035|0010|cozuldu|e53c86a|dogrulandi|lehistana kaybedilen podolya görünmüyor karlofçada kaybedile
+E0035|0011|zaten-dogru|-|iddiasiz|trablusgarpda karamanlı hanedanı kurulunca trablusgarp topra
+E0035|0012|cozuldu|-|iz-yok|prut zaefri ile ilgili ek okumalar ve magazin yazıları balta
+E0035|0014|zaten-dogru|-|iddiasiz|çuha adası ile beraber lefkada adasıda alınmış galiba ama kr
+E0035|0016|cozuldu|-|iz-yok|lale devrine dair olan maddelerde bol bol ek okuma maddeleri
+E0035|0017|cozuldu|e53c86a|dogrulandi|pasarofça anlaşması ve bu taralı bölge gösterimi yanlış
+E0035|0018|cozuldu|e53c86a|dogrulandi|ayrıca eflakda nedne bu torak boyasız olmuş
+E0035|0019|zaten-dogru|-|iddiasiz|şirvan alınırken aradaki topraklar alınmadan kalmışmı osmanl
+E0035|0021|tekrar|-|iddiasiz|bu nahcıvan alınmadan hemen önce aradaki topraklar alınmıyor
+E0035|0022|zaten-dogru|-|iddiasiz|tebriz ele geçti ama gene orada azerbaycan ile osmanlı arası
+E0035|0023|zaten-dogru|-|iddiasiz|patrona halil isyanı maddelerini ek okumalar ile donatalım
+E0035|0024|cozuldu|-|iz-yok|1.mahmudun patrona ve adamlarını derdest edip etkisiz hale g
+E0035|0025|cozuldu|-|iz-yok|humbaracı ahmet paşa ve onunla ilgili maddeleri ek okumalar
+E0035|0026|zaten-dogru|-|iddiasiz|ruslar öziyi alırken aradaki bölgeler ne alemde bozkır var ç
+E0035|0027|zaten-dogru|-|iddiasiz|ruslar öziyi ele geçirdiği maddede burada bu şekilde bir tar
+E0035|0028|cozuldu|-|iz-yok|özinin geri alınması maddesinde belgrad da yeniden geri alın
+E0035|0029|zaten-dogru|-|iddiasiz|bu semendire alınması doğru ise bu tarihte bu aradaki korido
+E0035|0031|zaten-dogru|-|iddiasiz|bu suudi vehhabi devleti kurulduğunda orada bir koridor var
+E0035|0032|zaten-dogru|-|iddiasiz|1.mahmudun öümü ile alakalı magazin ek okumalarını sakın unu
+E0035|0033|zaten-dogru|-|iddiasiz|tüm osmanlı padişahlarının hal veya ölüm maddelerine övgü ve
+E0035|0036|zaten-dogru|-|iddiasiz|ruslar benderi ele geçirmişler ama orayı ele geçirmeden önec
+E0035|0038|zaten-dogru|-|iddiasiz|bu basra geri alınmı ama bu abadan şehri iran şehrimidir osm
+E0035|0040|cozuldu|-|iz-yok|özinin düşüşü ve abdülhamidin felç geçirmesi ek okumalara ko
+E0035|0041|gerek-yok|-|iddiasiz|avusturya savaşlarından sebeş savaşına dair komik olaya dair
+E0035|0042|cozuldu|e53c86a|dogrulandi|bu taralı alanların yaş anlaşması ile ne alakası var bunu dü
+E0035|0043|cozuldu|7297135|dogrulandi|fransız devrimini neden anlatmıyor kronoloji en önemli olay
+E0035|0044|zaten-dogru|-|iddiasiz|mısırın fransızlar tarafından işgal edilmesi bölgeleri bu şe
+E0035|0045|cozuldu|e53c86a|dogrulandi|bükreş anlaşması ile bu taralı alanların ne alakası var
+E0035|0046|zaten-dogru|-|iddiasiz|avrupa asya ortadoğu ve kuzey afrikada yani o dönemki medeni
+E0035|0048|zaten-dogru|-|iddiasiz|A ilk kronoloji maddemiz çaldıran zaferi. çaldıran haritada
+E0035|0049|zaten-dogru|-|iddiasiz|acaba nişin fethi ile birlikte bu aradaki boş araziyi de osm
+E0035|0050|cozuldu|-|iz-yok|fetret devrinden sonra bu parça osmanlı kırmızısı olarak kal
+E0035|0051|gerek-yok|-|iddiasiz|aydınoğulları beyliği idamı maddesinde buradaki harita bu şe
+E0035|0056|zaten-dogru|-|iddiasiz|1) piri reisin kitabı bahsiye maddesi
+E0035|0057|tekrar|-|iddiasiz|1) kahirede abbasi halifeliğinin sona ermesi maddesi bu şeki
+E0035|0060|cozuldu|-|iz-yok|orhan gazi teodora evliliğinden sonra orhan gazinin cenevizl
+E0035|0061|cozuldu|-|iz-yok|fetret devrinde bu bölümdeki topraklar osmanlı kırmızısında
+E0035|0064|tekrar|-|iddiasiz|burada kuzey afrikadaki gibi anlamsız bir boşluk boyanması m
+E0035|0067|gerek-yok|-|iddiasiz|taizin kaybı haritada pek belli olmuyor. nasıl göstermek ger
+E0035|0068|tekrar|-|iddiasiz|satu mare arada kalmış burası orta macar oalrak tökeli imrey
+E0035|0069|zaten-dogru|-|iddiasiz|1) bağdat kaybedilirken bu bölge osmanlıda enklav olarak gör
+E0035|0071|cozuldu|-|iz-yok|eğrinin kaybı maddesinde mukaçeve munkacs şehride elden çıkm
+E0035|0073|zaten-dogru|-|iddiasiz|tiflis ve şirvan alınır iken aradaki topraklar pas mı geçild
+E0035|0074|tekrar|-|iddiasiz|hemedan barışı sonrasında gene tıpkı ferhatpaşa anlaşmasında
+E0035|0075|zaten-dogru|-|iddiasiz|bu koridordaki şehirler muhtemelen diğer büyük şehirler bağl
+E0035|0078|tekrar|-|iddiasiz|özinin ruslardan geri alınması maddesinde belgradda ele geçm
+E0035|0082|cozuldu|e53c86a|dogrulandi|küçük kaynarca anlaşması ile bu taralı alanların ne alakası
+E0035|0083|tekrar|-|iddiasiz|iran basrayı ele geçirmiş peki bu fav kenti basraya ait deği
+E0035|0084|tekrar|-|iddiasiz|bu basra osmanlı tarafından geri alınmış ama basrayı alan ab
+E0035|0085|zaten-dogru|-|iddiasiz|bu taralı alanların manası nedir kırıma özerklik tanndıkdan
+E0035|0086|zaten-dogru|-|iddiasiz|bütün b haritadaki bölgeleri teyid edelim.
+E0035|0089|cozuldu|e53c86a|dogrulandi|https://chatgpt.com/share/6a8ecd84-97e4-83eb-a342-cbe54c2180
+E0035|0091|cozuldu|-|iz-yok|fransız devrimi gibi önemli tarihi uluslararası olayları kro
+E0035|0096|zaten-dogru|-|iddiasiz|sohum rusalra kaybedilirken taman kalesi ve çerkezistan rusl
+E0035|0099|cozuldu|e53c86a|dogrulandi|bükreş anlaşması ile bu taralı alanalrın ne alakası var
+E0036|0001|cozuldu|-|iz-yok|buralarda anlamsız boş toprakların osmanlı kırmızısına boyan
+E0036|0002|cozuldu|e53c86a|dogrulandi|edirne anlaşması ile bu taralı bölgenin ne alakası var. tüm
+E0036|0003|zaten-dogru|-|iddiasiz|bu taralı alanların edirne anlaşması ile ne alakası var. iki
+E0036|0004|cozuldu|-|iz-yok|edirne anlaşması sornası sınır örtüşmemesi durumu var
+E0036|0005|kapsam-disi|-|iddiasiz|edirna anlaşması sonrasında kafkas haritasını teyid ettireli
+E0036|0006|zaten-dogru|-|iddiasiz|(başlıksız)
+E0036|0007|cozuldu|-|iz-yok|mısır ordusunun ilerlemesi ve ele geçirdiği yerler böyle par
+E0036|0008|cozuldu|-|iz-yok|konya ele geçirildi deniyor ama aynı maddede urfada elden çı
+E0036|0009|zaten-dogru|-|iddiasiz|acaba urfa maraş adana konya kütahya hattını mısır ordusunun
+E0036|0010|zaten-dogru|-|iddiasiz|20 şubat 1833 rus donanmasının büyükdereye gelmesi ve rus as
+E0036|0011|cozuldu|-|iz-yok|kütahya anlaşmasından sonra adana maraş ve ufa kime kaldı is
+E0036|0012|cozuldu|-|iz-yok|bu şammar hail yapılanmasının hikayesini kronolojide görmedi
+E0036|0013|zaten-dogru|-|iddiasiz|bu sene cezayirdeki durum böyle görünüyormuş ortadaki enklav
+E0036|0014|cozuldu|-|iz-yok|bu sene oluş hala ibrail ve rusçuk şerhinin dış tarafı rusya
+E0036|0015|kapsam-disi|-|iddiasiz|haritada burada bir hata var. boşluk var sebebi nedir
+E0036|0016|zaten-dogru|-|iddiasiz|bu maddenin kronolojisinde cezayirin hepsinin elden çıkışı d
+E0036|0017|zaten-dogru|-|iddiasiz|bu caglub denilen yer sonrada kurulmuş bir şehirmi kronoloji
+E0037|0001|cozuldu|-|iz-yok|berserabyanın güneyi pasir barış anlaşması ile osmanlıya ver
+E0037|0002|cozuldu|-|iz-yok|deniz mavisi fazla koyu nunu daha açık bir mavi yapalım hari
+E0037|0003|cozuldu|-|iz-yok|mısır ordusu bu şehirlerin hepsine girdimi böyle benek benek
+E0037|0004|cozuldu|-|iz-yok|bu olayın haritadaki yerini iaşreletmeli
+E0037|0005|cozuldu|-|iz-yok|bu parça neden boş görünüyor
+E0037|0006|cozuldu|-|iz-yok|abdulazizin avrupa seyahatini tam güzergah olarak ver. önce
+E0037|0007|cozuldu|-|iz-yok|bu boşluğu beratraf edelim . sınırlar birbiri ile örtüşmeli
+E0037|0008|cozuldu|-|iz-yok|eğer rusya savaştan sonra eflak ve boğdan topraklarıne -a gi
+E0037|0009|bayat|-|iddiasiz|karsın düşülüş maddesinde kars haritada düşmüş görünmüyor
+E0037|0010|tekrar|-|iddiasiz|bu yeil yerler rusyaya dönmeden önce eğer rusya eflak ve boğ
+E0038|0001|zaten-dogru|-|iddiasiz|rus osmanlı savaşlarında rusya eflak ve boğdanı işgal ettiği
+E0038|0002|cozuldu|-|iz-yok|necefin batısında v e güneybatısındaki bo gereksiz fazladan
+E0039|0006|cozuldu|-|iz-yok|bu romanya krallığı böyle iki parçamı oluyor.
+E0039|0009|cozuldu|-|iz-yok|1923 itibari ile tüm ülkelerin sınırlarını birebir 6. kalite
+E0040|0006|zaten-dogru|-|iddiasiz|burada canet diye bir yerleşim var tam sınırın dibinde neden
+E0042|0017|cozuldu|b93bba9|dogrulandi|maraşi seyidleri amülü almış.
+E0042|0020|cozuldu|b93bba9|dogrulandi|karkiya hanedanı gilanda kurulmuş bölgesel ve dünyasal ölçek
+K0008|0001|cozuldu|-|curuk|ek 4 / f giren çıkan maddeler ile birlite üstündeçalışılmış hali
+K0009|0001|cozuldu|-|iz-yok|ek 4/d
+K0009|0002|cozuldu|-|iz-yok|ek 4e
+K0009|0003|zaten-dogru|-|iddiasiz|ek 4 f
+K0009|0004|cozuldu|-|iz-yok|ek 4g
+K0009|0005|cozuldu|-|iz-yok|ek 4 ç
+K0010|0001|cozuldu|-|iz-yok|ŞU ANDA BEKLEYENLER KUTUSUNDAKİ SENİNLE KONUŞMALARIMIZ VAR
