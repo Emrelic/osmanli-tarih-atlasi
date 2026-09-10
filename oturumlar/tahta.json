@@ -97754,5 +97754,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3302",
+  "zaman": "2026-09-11 01:13",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "KOSU 9 CANLI · VE IKI BORC KAYDA GECIYOR (kosu bitince odenecek) DURUM: kosu 01:10:35'te basladi · zincir PID 8528 · motor PID 20756 · nobetci kuruldu ve MOTORU izliyor. Beklenen ~14,4 saat ⇒ ~15:30 civari. ## BORC 1 🔴 `arac/zincir_baslat.bat` TURKCE YOLU BOZUYOR — ve kosu ## SANSLA kurtuldu Emre konsolda \"Sistem belirtilen yolu bulamiyor\" gordu. Olculdu: ``` bat icindeki satir cd /d \"C:\\...\\Desktop\\TARİH COĞRAFYA SİTESİ\" dosya kodlamasi UTF-8 (git oyle yaziyor) cmd.exe .bat okumasi OEM kod sayfasi (cp857/cp437) ⇒ `TARİH COĞRAFYA SİTESİ` cmd'de BOZUK GORUNUYOR, `cd /d` BASARISIZ ``` 🟢 Kosu yine de dogru dizinde basladi — CUNKU bugun zamanlayiciyi onarirken `WorkingDirectory`yi ELLE set etmistim (`fc6d1f7`). O onarim BASKA bir kusur icin yapilmisti; bu kusuru TESADUFEN ortti. 🔴 Yani `cd /d` satiri BUGUNE KADAR HIC CALISMAMIS olabilir ve kimse bilmiyor — `WorkingDirectory` bos oldugu surece kosu YANLIS DIZINDE ya da HIC baslamazdi. 📌 `D168`in tersi: bir mekanizmanin CALISMADIGINI, calismasaydi olacak seyi BASKA BIR SEY ORTTUGU icin goremiyorsun. CARE (kosudan SONRA): `cd /d \"%~dp0..\"` — bat'in KENDI dizininin ebeveyni. Kodlamadan bagimsiz, literal Turkce yol YOK. 🔴 SIMDI YAPILMIYOR: `§7` kosu sirasinda `arac/` DONUKTUR. `.bat` motor izi ucluşunde degil, yani kosuyu OLDURMEZ — ama bugun PARALEL UYGULAMA tam bu gerekceyle (\"yalniz yorum yazdim\") kosuyu oldurdu ve ben o kurali savundum. Kendi savundugum kurali dokuz saat sonra esnetmem, kurali bitirir. BEKLIYOR. ## BORC 2 🟡 NOBETCININ EVRENI YANLISTI — kosu baslar baslamaz cikti `pid_bul()` \"len != 1 ise TAHMIN ETME\" diyordu. Dogru bir kuraldi, ama evreni yanlis kurmustum: zincir motoru ALT SUREC olarak kosturuyor ⇒ IKI mesru surec var (8528 zincir · 20756 motor). ⇒ Nobetci HIC BASLAMAZDI ve kimse fark etmezdi — \"red\" de bir hatadir. 🟢 Duzeltildi: iki+ surec varsa MOTOR (`uret_petek`) secilir. CPU'yu ve BELLEGI o harciyor, ve B2 alarmi tam onun RSS'ine bakiyor. 📌 `D037`: bir aletin evreni degisince alet degismeden sessizce yanilir. ⚠️ Ve bu kusur, sinavin dort yolu da GECTIKTEN SONRA cikti — cunku sinav SAHTE bir motor kullaniyordu ve sahte motorun ALT SURECI YOKTU. ⇒ Bir sinav duzenegi, sinadigi seyin YAPISINI da taklit etmeli; yoksa gecmesi yalniz duzenegi dogrular. Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
