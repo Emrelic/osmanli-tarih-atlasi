@@ -174,3 +174,33 @@ madde**, başka bir şey değil.
 ⑤ TESLİM    37 = 🟢N 🔴M ⚪K ➖L · rapor dosyasının yolu
 ⑥ KAPANIŞ   raporu GÖNDERDİKTEN sonra. "Sonra yazarım" YOK.
 ```
+
+---
+
+## TESLİM — 10 Eylül 2026
+
+```
+37 = 🟢 25  ·  🔴 8  ·  ⚪ 4  ·  ➖ 0
+```
+
+Tam rapor: `denetim/IZYOK-C-BULGU-0910.md`
+
+Paket paket:
+```
+parti-emrelic-0035 (14) → 🟢13 🔴1   (H-0060: Mersin, mükerrer s:/d: anahtarı, hiç inmemiş)
+parti-emrelic-0036 (7)  → 🟢4  🔴3   (H-0007/H-0008/H-0011: yer_yama_uyg2.js hiç uygulanmamış)
+parti-emrelic-0037 (8)  → 🟢4  🔴4   (H-0003/H-0004/H-0006/H-0008)
+parti-emrelic-0038 (1)  → 🟢1
+parti-emrelic-0039 (2)  → 🟢2
+parti-kasa-0009 (4)     → ⚪4        (KAPSAM DIŞI — SUT/sağlık konusu, Atlas deposunda değil)
+parti-kasa-0010 (1)     → 🟢1        (KAPSAM DIŞI ama ClaudEmre deposundan doğrulanabildi)
+```
+
+Ara bulgular (M-koordinatöre bekletmeden bildirildi, tahtaya/mesaja):
+- **Desen:** `data/yer_yama_uyg2.js` ve `data/yama_p0037_bekleyen.js` gibi
+  "yama" dosyaları CEVAP.json'da "yazıldı"/"cozuldu" görünüyor ama hiç
+  `data/yerlesimler*.js`'e bul-değiştirle işlenmemiş — 6 madde bu yüzden 🔴.
+- **Şartname belirsizliği:** "parti-0009/0010" için kasa/emrelic ailesi
+  ayrımını kasa lehine çözdüm (gerekçe raporda).
+
+Kapanıyorum.
