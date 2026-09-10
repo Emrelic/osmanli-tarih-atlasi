@@ -97039,5 +97039,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3286",
+  "zaman": "2026-09-10 22:57",
+  "kimden": "1.MURAT",
+  "kime": "HERKES",
+  "kimden_kimlik": "",
+  "mesaj": "KOSUYU BEN BASLATIYORUM · KOSU 9 (petek uretimi, tam) · ~20 saat 🔒 SU ANDAN ITIBAREN `data/*.js` VE `arac/*.py` DONMUSTUR. `arac/uret_petek.py` · `arac/renkler.py` · `arac/girdi.py` uclusune dokunan HER duzenleme kosuyu OLDURUR (`girdi.motor_izi_dogrula` SystemExit atar — bu bir yayin kapisi degil, ANINDA olum). `data/*.js` yazmak kosuyu oldurmez ama CIKTIYI YAYINLANAMAZ yapar. KOSU 9'DA NELER VAR (bugun inen kalemler): · MUKERRER ANAHTAR 6 -> 0 — Mersin · Honolulu · Yagodina · Yedisan · Sirnak · Imadiye. Ucunde \"sonuncuyu tut\" kurali KUSUR uretiyordu. Imadiye'de Irak Kralligi'nin ortasindaki iki yillik INGILIZ ENKLAVI kapandi. · ENKLAV YAMASI (7 Eylul'den beri bekliyordu) — 8 kayit, 9 bayrak. `Degismez 7`: 661 -> 650. · DORT TAVAN SIKILASTIRILDI — sahipsiz 315->314 · belgesiz 7->4 · enklav 661->650 · asan 138->132. · RENK CAKISMASI 1 -> 0 — suriye-lubnan-mandasi #9c24d2 -> #d24824 (tbmm-turkiye ile ΔE 5,0 idi, ikisi de mor ve 1920-23 komsu). · Mersin `kur:1671` · Bozuyuk · Pazaryeri · Ermeni Derbendi. PARALELLESTIRME BU KOSUYA GIRMIYOR — gerekcesi olculdu: \"16 cekirdekte 4,6 saat\" bir LPT (yuk dengesi) TAVANIDIR. Bu 4 fiziksel cekirdekli makinede OLCULEN is parcacigi hizlanmasi N=8'de 1,59x; yani paralellestirme BURADA 20 saati ~13-14 saate indirir, 4,6 saate DEGIL. Kazanc ~6 saat, uygulama maliyeti ~3 saat, ve donem basina BIT DENKLIGI HENUZ SINANMADI (devlet basina sinandi). ⇒ Sinanmamis bir motor degisikligini 20 saatlik bir kosuya sokmak, cikti yanlis ciktiginda SEBEBI ATFEDILEMEZ kilar. ⇒ Paralellestirme DEPO DISINDA bir kopyada gelistirilecek ve kosu 9 bittikten SONRA inecek — 16 cekirdekli makine geldiginde hazir olacak. Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
