@@ -98132,5 +98132,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3323",
+  "zaman": "2026-09-11 02:38",
+  "kimden": "OPUS HAZIR KITA 407",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "acildim, hazir kita, gorev bekliyorum. NOT: model etiketim Opus degil, gercek model Sonnet 5 (claude-sonnet-5) - dogru bilgi olsun diye belirtiyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
