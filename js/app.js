@@ -8340,14 +8340,143 @@ var KRONOLOJI_ID_OZEL = {};             // { "KRONOLOJI_XYZ": "gercek-id" } — 
     EK_YALNIZ_DIS = ekYalnizDisKutu.checked; render();
   });
 
+  // 🔴 BU BLOK BURADA DURUYOR VE YERİ TESADÜF DEĞİL — bir kez AŞAĞIDA
+  // yazıldı ve KUSUR ÜRETTİ. `var` hoisting yüzünden JS hata VERMEDİ;
+  // aşağıdaki dinleyici bloğu `undefined` üzerine bağlandı, hiçbir
+  // dinleyici kurulmadı ve `odakKonuKur()` ilk `if`inde sessizce döndü.
+  // Tarayıcıda ölçüldü: `konuKutucuk: 0 · ozet: ""` — panel EKRANDA
+  // duruyordu, hiçbir şey yapmıyordu. ⇒ Bildirimler KULLANIMDAN ÖNCE.
+  // 🔴🔴 ODAK SÜZGECİ — Emre'nin 10 Eylül 2026 tarifi, ve bir KURALI KALDIRIYOR.
+  // Bu bloğun 21 Ağustos'taki kilit kuralı şuydu: *"ODAK'ın kendi kronolojisi
+  // HER ZAMAN TAM gösterilir — süzgeç YOK. EK devletler süzülür."* Emre o
+  // ayrımı kaldırdı: *"kişi bir devlet seçtiği zaman o devletin kronolojisini
+  // ÇALIŞTIRMADAN ÖNCE bu ayarları yapmalı."*
+  // ⚠️ ÜÇ VARSAYILAN DA 1 — AÇILIŞTA HİÇBİR MADDE GİZLENMEZ.
+  //   🔴 VE BU SATIR BİR KEZ YANLIŞ YAZILDI. İlk hâlinde `bolge`/`dunya`
+  //   varsayılanı 4'tü ve burada *"açılışta davranış birebir eskisi gibi"*
+  //   yazıyordu. TARAYICIDA ÖLÇÜLDÜ, YALAN ÇIKTI: İngiltere kronolojisi
+  //   270 madde, açılışta 251 çiziliyordu — 19 dış madde SESSİZCE
+  //   gizleniyordu ve panel hiç açılmasa kullanıcı bunu göremezdi.
+  //   ⇒ Varsayılanlar 1'e çekildi; "standart" eşikler (3/4/4) bir ÖNAYAR
+  //     olarak sunulacak, VARSAYILAN olarak DEĞİL. Bir süzgecin varsayılanı,
+  //     kullanıcı onu hiç açmamışken bir şeyi gizlememelidir.
+  //   (Sınandı: `denetim/SINAV-ONEM-SUZGEC-0910.js` ② — eşik 1'de
+  //    4838/4838 madde geçiyor; tarayıcıda 270/270.)
+  // 🔴 Mantık BURADA DEĞİL `js/suzgec.js`te: o dosya DOM'a dokunmuyor ve
+  //   node'da GERÇEK VERİYLE sınanabiliyor. Buradaki iş yalnız KONTROLDEN
+  //   OKUMAK. (`suzgec.js`in kendi gerekçesi: *"tarayıcıda doğrulanacak
+  //   yalnız ince bir arayüz katmanı kalır"*.)
+  var odakIcSel = document.getElementById("odak-ic-esik");
+  var odakBolgeSel = document.getElementById("odak-bolge-esik");
+  var odakDunyaSel = document.getElementById("odak-dunya-esik");
+  var odakPuansizKutu = document.getElementById("odak-puansiz");
+  var odakKonuKutu = document.getElementById("odak-suzgec-konu");
+  var odakOzetEl = document.getElementById("odak-suzgec-ozet");
+  var ODAK_KONU = null;                     // null = konu süzmesi YOK
+
+  // ---- ODAK SÜZGECİ: kontroller → yeniden çizim -------------------------
+  [odakIcSel, odakBolgeSel, odakDunyaSel, odakPuansizKutu].forEach(function (el) {
+    if (el) el.addEventListener("change", function () { render(); odakOzetYaz(); });
+  });
+
+  // Konu kutucukları — `SUZGEC.KONU_GRUPLARI`dan ÜRETİLİR, elle yazılmaz.
+  // 📌 Gerekçe `suzgec.js`in kendi uyarısı: yeni bir grup eklenince burası
+  // DEĞİŞMEMELİ, yoksa liste iki yerde tanımlanır ve sessizce ayrışır.
+  (function odakKonuKur() {
+    if (!odakKonuKutu || !window.SUZGEC) return;
+    window.SUZGEC.KONU_GRUPLARI.forEach(function (g) {
+      var lab = document.createElement("label");
+      lab.className = "ek-konu-oge";
+      var kt = document.createElement("input");
+      kt.type = "checkbox"; kt.checked = true; kt.value = g.id;
+      kt.addEventListener("change", function () {
+        var secili = [].slice.call(odakKonuKutu.querySelectorAll("input:checked"))
+          .map(function (x) { return x.value; });
+        // Hepsi seçiliyse süzme YOK — "hepsi açık" ile "hepsini tek tek
+        // seçtim" aynı sonucu vermeli, ve `null` daha ucuz.
+        ODAK_KONU = (secili.length === window.SUZGEC.KONU_GRUPLARI.length)
+          ? null : secili;
+        render(); odakOzetYaz();
+      });
+      lab.appendChild(kt);
+      lab.appendChild(document.createTextNode(" " + g.ad));
+      odakKonuKutu.appendChild(lab);
+    });
+  })();
+
+  // 🔴 AÇILIŞTA BİR KEZ — yoksa özet satırı, kullanıcı bir ayara DOKUNANA
+  // kadar BOŞ durur. Boş bir dürüstlük satırı, olmayan bir dürüstlük
+  // satırıyla aynı şeydir: Osmanlı seçiliyken "bu panel buraya uygulanmıyor"
+  // uyarısı tam da HİÇ DOKUNULMAMIŞKEN okunmalı.
+  // (Ölçüldü: ilk sınavda `OSMANLI_OZETI: ""` çıktı.)
+  odakOzetYaz();
+
+  // 🔴 ÖZET DÜRÜSTLÜK SATIRI — panelin en önemli parçası bu.
+  // İki şeyi AÇIKÇA söyler, çünkü ikisi de sessiz kalırsa yalan olur:
+  //   ① kaç madde PUANSIZ (ölçülmemiş — "önemsiz" değil, `D015`)
+  //   ② kaç dış madde `bolge` yerine `onem` VEKİLİYLE karar gördü
+  //      (`bolge` alanı veride henüz yok — 10 Eylül: 2 madde)
+  function odakOzetYaz() {
+    if (!odakOzetEl || !window.SUZGEC || !window.SUZGEC.onemSay) return;
+    // 🔴🔴 ODAK YOKKEN SÜZGEÇ UYGULANMIYOR — VE BUNU SÖYLEMEK ZORUNDA.
+    // Bu satır bir kez YALAN SÖYLEDİ ve ekran görüntüsünde yakalandı:
+    // Osmanlı seçiliyken özet *"1308 / 1316 madde"* yazıyordu, oysa
+    // `osmanliListesineDon()` süzgeçten GEÇMİYOR ve listede 1316 satırın
+    // 1316'sı duruyordu. Yani panel, UYGULANMAYAN bir süzmeyi
+    // RAPORLUYORDU — `§1.5`in "sayaç ile üretim ayrışırsa kimse fark
+    // etmez" sınıfının birebir aynısı, ve burada sayacı ben yazmıştım.
+    // ⇒ Uygulanmayan yerde sayı BASILMAZ, SEBEP yazılır.
+    if (!ODAK) {
+      var so = window.SUZGEC.onemSay(olaylar);
+      odakOzetEl.textContent = "⚠️ Bu panel SEÇİLEN DEVLETİN kronolojisini "
+        + "süzer. Osmanlı zaman çizgisine UYGULANMIYOR — " + olaylar.length
+        + " maddenin " + so.puansiz + "'i puansız (ölçüldü) ve orada ayrı "
+        + "bir konu süzgeci çalışıyor. Bir devlet seç.";
+      return;
+    }
+    var kaynak = ODAK.kronoloji;
+    var s = window.SUZGEC.onemSay(kaynak);
+    var kalan = odakSuz(kaynak).length;
+    var satir = kalan + " / " + s.toplam + " madde";
+    if (s.puansiz) satir += " · ⚠️ " + s.puansiz + " madde PUANSIZ" +
+      (odakPuansizKutu && odakPuansizKutu.checked ? " (gösteriliyor)" : " (GİZLİ)");
+    if (s.bolgeVekil) satir += " · ⚠️ " + s.bolgeVekil +
+      " dış madde `bolge` yerine `onem` vekiliyle süzüldü";
+    odakOzetEl.textContent = satir;
+  }
+
   // ---- BİRLEŞİK LİSTE — ODAK'ın tamamı + EK devletlerin süzülmüşü --------
   // ⚠️ Süzme YALNIZ ek maddelere uygulanır (kilit kural). `m.dunya` yoksa
   // `m.onem`e, o da yoksa 3'e düşer — koordinatörün istediği "eksik alana
   // dayanıklı" davranış (dosyalar M-0873 şemasına GEÇİŞ hâlinde).
+
+  function odakAyar() {
+    return {
+      ic: odakIcSel ? +odakIcSel.value : 1,
+      bolge: odakBolgeSel ? +odakBolgeSel.value : 4,
+      dunya: odakDunyaSel ? +odakDunyaSel.value : 4,
+      puansiz: odakPuansizKutu ? odakPuansizKutu.checked : true
+    };
+  }
+
+  // Süzgeç modülü yüklenmemişse HİÇBİR ŞEY SÜZÜLMEZ — `app.js:4606`daki
+  // mevcut davranışın aynısı: eksik modül sessizce KAYBETMEZ, sessizce
+  // SÜZMEZ. (Ters tercih 4838 maddeyi yok ederdi.)
+  function odakSuz(maddeler) {
+    if (!window.SUZGEC || !window.SUZGEC.onemSuz) return maddeler;
+    var cikti = window.SUZGEC.onemSuz(maddeler, odakAyar());
+    if (ODAK_KONU && ODAK_KONU.length)
+      cikti = cikti.filter(function (m) {
+        return ODAK_KONU.indexOf(window.SUZGEC.maddeGrubu(m)) >= 0;
+      });
+    return cikti;
+  }
+
   function birlesikTopla() {
     var out = [];
     var odakKaynak = ODAK ? ODAK.kronoloji : olaylar;   // `olaylar`: Osmanlı'nın 821 maddesi
     var odakSahibi = ODAK || OSMANLI_SYNTH;
+    odakKaynak = odakSuz(odakKaynak);
     odakKaynak.forEach(function (m) {
       var gi = m.gi !== undefined ? m.gi : gunIdx(m.t);
       out.push({ gi: gi, t: m.t, b: m.b, d: odakSahibi, m: m, odak: true });
@@ -8449,7 +8578,20 @@ var KRONOLOJI_ID_OZEL = {};             // { "KRONOLOJI_XYZ": "gercek-id" } — 
   // `devletiYay` tam bunu yapıyor. Olmayan bir koordinat uydurmuyoruz.
   function listeCiz(d) {
     liste.innerHTML = "";
-    d.kronoloji.slice().sort(function (a, b) {
+    // 🔴 SÜZGEÇ BURAYA DA İNMELİ — ve inmediği bir an oldu. `render()` ÜÇ
+    // dallı: EK devlet varsa `birlesikCiz()`, yalnız ODAK varsa BU, hiçbiri
+    // yoksa `osmanliListesineDon()`. Süzgeç önce yalnız `birlesikTopla`ya
+    // bağlanmıştı; o hâliyle kullanıcı bir devlet seçip ek devlet
+    // seçMEZse ayarlar HİÇBİR ŞEY YAPMAZDI — ve panel açık durduğu için
+    // "çalışmıyor" değil "bozuk" görünürdü. (`D191`: *bir `if` ile
+    // sorulabiliyor olması, soruyu soracak `if`in yazıldığı anlamına
+    // gelmez.*)
+    // ⚠️ `osmanliListesineDon()` KASTEN dışarıda: Osmanlı zaman çizgisinde
+    //   `onem` 1317 maddenin 53'ünde var (ölçüldü) ve orada zaten AYRI bir
+    //   konu süzgeci çalışıyor (`suzgecSecim`). İki süzgeci aynı listeye
+    //   bağlamak, hangisinin elediği sorulamaz hâle getirirdi.
+    var kaynak = odakSuz(d.kronoloji);
+    kaynak.slice().sort(function (a, b) {
       return (a.t || "").localeCompare(b.t || "");
     }).forEach(function (m) {
       var el = document.createElement("div");
@@ -8460,8 +8602,17 @@ var KRONOLOJI_ID_OZEL = {};             // { "KRONOLOJI_XYZ": "gercek-id" } — 
       el.addEventListener("click", function () { maddeAc(d, m); });
       liste.appendChild(el);
     });
+    // 🔴 SAYAÇ ÇİZİLENİ SAYAR, KAYNAĞI DEĞİL. Eskiden `d.kronoloji.length`
+    // yazıyordu ve o an DOĞRUYDU — süzgeç yoktu. Süzgeç inince aynı satır
+    // YALAN söylemeye başlıyordu: 281 madde yazıp 47 satır çizerdi ve
+    // hiçbir uyarı çıkmazdı. Bu, bu deponun en pahalı hata sınıfı
+    // (`§1.5`: sayaç ile üretim ayrışırsa kimse fark etmez).
+    // ⇒ Süzülmüş sayı ÖNDE, kaynak ARKADA, ve süzülüyorsa AÇIKÇA söylenir.
     var sayac = document.getElementById("olay-sayac");
-    if (sayac) sayac.textContent = d.kronoloji.length + " madde";
+    if (sayac) sayac.textContent = (kaynak.length === d.kronoloji.length)
+      ? d.kronoloji.length + " madde"
+      : kaynak.length + " / " + d.kronoloji.length + " madde (süzüldü)";
+    odakOzetYaz();
   }
 
   // ---- madde açıklaması: mevcut #olay-bilgi penceresine ----------------

@@ -481,6 +481,26 @@ body {
 .ek-ayar-satir { display: flex; align-items: center; gap: 5px; margin-top: 4px; padding-top: 4px; border-top: 1px dashed #d8c9a3; min-width: 0; }
 .ek-ayar-satir select { font-size: 11px; min-width: 0; max-width: 100%; flex: 0 1 auto; }
 
+/* 🎚 ODAK SÜZGECİ — Emre'nin 10 Eylül 2026 paneli (index.html #odak-suzgec).
+   Var olan `.ek-ayar-satir` deseni AYNEN yeniden kullanılıyor; yeni bir
+   görünüm dili İCAT EDİLMEDİ — panel zaten dar (devlet seçici açılır kutusu)
+   ve ikinci bir stil ailesi orayı kalabalıklaştırırdı. */
+.ek-ayar-grup { margin-top: 4px; padding-top: 4px; border-top: 1px dashed #d8c9a3; }
+.ek-ayar-grup > summary { cursor: pointer; font-size: 11px; font-weight: bold;
+  color: #6b4f1d; padding: 2px 0; list-style: none; }
+.ek-ayar-grup > summary::-webkit-details-marker { display: none; }
+.ek-ayar-grup > summary::before { content: "▸ "; }
+.ek-ayar-grup[open] > summary::before { content: "▾ "; }
+/* Konu kutucukları: dar panelde sarmalı, yoksa yatay taşar. */
+.ek-konu-kutu { display: flex; flex-wrap: wrap; gap: 2px 8px; }
+.ek-konu-oge { display: inline-flex; align-items: center; gap: 3px;
+  font-size: 10.5px; white-space: nowrap; }
+/* 🔴 DÜRÜSTLÜK SATIRI — puansız madde ve `bolge` vekili burada BEYAN edilir.
+   Soluk ama OKUNUR: gizlenirse süzgeç neyi elediğini söylemeyen bir süzgeç
+   olur (`D015`). */
+.ek-ayar-ozet { font-size: 10px; color: #7a6a4a; margin-top: 4px;
+  padding-top: 3px; border-top: 1px dotted #d8c9a3; line-height: 1.35; }
+
 /* Birleşik listedeki madde satırı: rozet (kaynak devlet) + tarih + başlık. */
 .olay.ek-madde { display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px; }
 .ek-rozet {
