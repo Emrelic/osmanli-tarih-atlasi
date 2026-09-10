@@ -1,0 +1,169 @@
+{
+ "girdi_izi": "99c2178e3a55f1b0a9236e93ac31280f4c1f8d5637fd93e93ed0476616278aca",
+ "yerlesim": 3808,
+ "kunye": 579,
+ "kalibrasyon": {
+  "anadolu_nokta": 301,
+  "yaklasim": {
+   "ust": 329,
+   "gercek": 296,
+   "oran_yuzde": 11.1
+  },
+  "sinavdan": {
+   "ust": 329,
+   "gercek": 296,
+   "oran_yuzde": 11.1
+  },
+  "fark_puan": 0.0,
+  "kalibre": true
+ },
+ "tam": {
+  "ust_kume": 4012,
+  "gercek": 3731,
+  "bosa": 281,
+  "oran_yuzde": 7.5,
+  "agirlik": 233563
+ },
+ "en_bosa_giden": [
+  {
+   "id": "avusturya",
+   "ust": 116,
+   "gercek": 62,
+   "bosa": 54
+  },
+  {
+   "id": "ingiltere",
+   "ust": 331,
+   "gercek": 280,
+   "bosa": 51
+  },
+  {
+   "id": "rusya",
+   "ust": 235,
+   "gercek": 204,
+   "bosa": 31
+  },
+  {
+   "id": "timurlu",
+   "ust": 46,
+   "gercek": 29,
+   "bosa": 17
+  },
+  {
+   "id": "bizans",
+   "ust": 76,
+   "gercek": 61,
+   "bosa": 15
+  },
+  {
+   "id": "venedik",
+   "ust": 81,
+   "gercek": 67,
+   "bosa": 14
+  },
+  {
+   "id": "ispanya",
+   "ust": 178,
+   "gercek": 167,
+   "bosa": 11
+  },
+  {
+   "id": "ceneviz",
+   "ust": 27,
+   "gercek": 16,
+   "bosa": 11
+  },
+  {
+   "id": "fransa-cumhuriyet",
+   "ust": 107,
+   "gercek": 97,
+   "bosa": 10
+  },
+  {
+   "id": "sirbistan",
+   "ust": 23,
+   "gercek": 16,
+   "bosa": 7
+  },
+  {
+   "id": "yunanistan",
+   "ust": 29,
+   "gercek": 23,
+   "bosa": 6
+  },
+  {
+   "id": "habesistan",
+   "ust": 19,
+   "gercek": 13,
+   "bosa": 6
+  },
+  {
+   "id": "napoli",
+   "ust": 11,
+   "gercek": 6,
+   "bosa": 5
+  },
+  {
+   "id": "sovalye",
+   "ust": 14,
+   "gercek": 9,
+   "bosa": 5
+  },
+  {
+   "id": "karaman",
+   "ust": 15,
+   "gercek": 11,
+   "bosa": 4
+  }
+ ],
+ "kazanc": {
+  "4": {
+   "asama_ideal": 4.0,
+   "asama_ustkumeli": 3.73,
+   "kosu_ideal": 2.6,
+   "kosu_ustkumeli": 2.51,
+   "kosu_dk": 481,
+   "kosu_saat": 8.0
+  },
+  "8": {
+   "asama_ideal": 8.0,
+   "asama_ustkumeli": 7.46,
+   "kosu_ideal": 3.55,
+   "kosu_ustkumeli": 3.46,
+   "kosu_dk": 348,
+   "kosu_saat": 5.8
+  },
+  "12": {
+   "asama_ideal": 12.0,
+   "asama_ustkumeli": 11.2,
+   "kosu_ideal": 4.04,
+   "kosu_ustkumeli": 3.96,
+   "kosu_dk": 304,
+   "kosu_saat": 5.1
+  },
+  "16": {
+   "asama_ideal": 16.0,
+   "asama_ustkumeli": 14.93,
+   "kosu_ideal": 4.34,
+   "kosu_ustkumeli": 4.27,
+   "kosu_dk": 282,
+   "kosu_saat": 4.7
+  },
+  "24": {
+   "asama_ideal": 24.0,
+   "asama_ustkumeli": 22.39,
+   "kosu_ideal": 4.69,
+   "kosu_ustkumeli": 4.64,
+   "kosu_dk": 260,
+   "kosu_saat": 4.3
+  },
+  "32": {
+   "asama_ideal": 32.0,
+   "asama_ustkumeli": 29.85,
+   "kosu_ideal": 4.89,
+   "kosu_ustkumeli": 4.84,
+   "kosu_dk": 249,
+   "kosu_saat": 4.1
+  }
+ }
+}
