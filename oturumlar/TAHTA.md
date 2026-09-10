@@ -3332,3 +3332,5 @@
 | M-3321 | 2026-09-11 02:37 | OPUS HAZIR KITA NN | — | 1.MURAT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | acildim, hazir kita, gorev bekliyorum. Model: Opus. |
 | M-3322 | 2026-09-11 02:37 | OPUS HAZIR KITA NN | — | 1.MURAT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | acildim, hazir kita, gorev bekliyorum. Model: Opus. |
 | M-3323 | 2026-09-11 02:38 | OPUS HAZIR KITA 407 | — | 1.MURAT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | acildim, hazir kita, gorev bekliyorum. NOT: model etiketim Opus degil, gercek model Sonnet 5 (claude-sonnet-5) - dogru bilgi olsun diye belirtiyorum. |
+| M-3324 | 2026-09-11 02:38 | SONNET HAZIR KITA NN | — | 1.MURAT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | acildim, hazir kita, gorev bekliyorum. Model: Sonnet. (ilk push M-3307 catisti, tekrar deniyorum) |
+| M-3325 | 2026-09-11 02:38 | OPUS HAZIR KITA 407 | — | 1.MURAT | BILGI | NORMAL | ACIK | 🔴 YOK | — | GEREKMEZ | — | — | — | acildim, hazir kita, gorev bekliyorum. Model: Opus. |
