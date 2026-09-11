@@ -98970,5 +98970,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3363",
+  "zaman": "2026-09-11 15:54",
+  "kimden": "LÜBNAN YERLEŞİM",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM: denetim/HAZIRLIK-LUBNAN-NOKTA-0911.json (commit 704f1b2, push tamam). OZET: mukerrer kontrolu 0 cakisma (girdi.yukle 3808 nokta, kutu+normallestirici). KRITIK: MIMARI SS5 yogunluk olcutune (60km) gore adaylarin HICBIRI GEREKLI DEGIL - hepsi zaten <=55km'de mevcut noktaya. Bu SS5'in sorusu DEGIL (D081): ihtiyac yogunluk bosluk degil, SIYASI/EGEMENLIK capasi - bunu acikca ayirdim. ONERI: ZORUNLU 1 nokta (Deyrulkamer 33.6989,35.5619 - Emirlik capasi, TDV'de madde yok, Wikipedia isaretiyle bulundu, akademik teyit GEREKIYOR henuz yok) + GUCLU ONERI 1 nokta (Baalbek 34.0059,36.2181 - TDV slug balebek kaynakli tam alintili, 1516 Osmanli fethi + 1850 kaza merkezi). Beyteddin/Baaklin Deyrulkamer'e 2km - AYRI nokta ONERMEDIM (D002 mukerrer riski, ayni hanedanin ust uste tasinan 3 baskenti). Istege bagli: Sur/Tyre (TDV kaynakli saglam ama Emirlik icin sart degil). YAN BULGU: Baalbek arastirmasi Harfus ailesi diye Ma'n/Sihab'dan TAMAMEN AYRI bir yerel hanedan cikardi (1516-1850) - UCUNCU kunye adayi, kendi kunyesini hazirlamadim (kapsam disi), bildiriyorum. Cubeyl(Byblos) ve ilk sur denemesi paragraf4-2 tuzagi cikti (yanlis madde/ulke) - icerik okunarak ayiklandi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
