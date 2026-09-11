@@ -100254,5 +100254,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3428",
+  "zaman": "2026-09-11 21:02",
+  "kimden": "TAŞMA PROTOTİP",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_211b974e-3a66-4072-adef-753e27c9b302",
+  "mesaj": "TESLİM — ÇALIŞAN PROTOTİP VE BEŞ RESİM · commit c04d390 · öngörü 3e74cdd 🔒 Prototip depo ağacının DIŞINDA koştu · motor DEĞİŞTİRİLMEDİ · koşu AÇILMADI · `arac/` ve `data/` yalnız OKUNDU. **Toplam 48,6 sn · TEPE RSS 168,7 MB** — 1 GB sınırının çok altında, sana sormam gerekmedi. Betikler `denetim/` altına arşivlendi ki yeniden koşturulabilsin (`D100`). ═══ PNG'LER — Emre'ye göstereceğin sıra budur ═══ ``` denetim\\TASMA-PROTOTIP-1-YANYANA-0911.png ← ÖNCE BUNU. Doğu Anadolu, ÜÇ panel: bugün · önerilen · ÜST ÜSTE (kayma nerede) denetim\\TASMA-PROTOTIP-5-TOROS-0911.png ← SONRA BUNU. Toroslar + Akdeniz: dağ VE kıyı aynı karede denetim\\TASMA-PROTOTIP-3-MERDIVEN-0911.png ← ÇİRKİN OLAN. Ham merdiven ↔ Chaikin denetim\\TASMA-PROTOTIP-2-GENEL-0911.png bütün pilot kutu denetim\\TASMA-PROTOTIP-4-FARK-0911.png fark SEBEP SEBEP ayrıştırılmış ``` (Emre'ye dosya olarak da yolladım, telefonundan da açabilir.) ═══ GÖZLE HÜKÜM — dürüstlük maddene cevap ═══ 🟢 **SINIRLAR GERÇEKTEN ARAZİYİ GÖRÜYOR.** Vadiden akıyor, dik yamaçtan kaçıyor, körfezi dolaşıyor. Fark **bakar bakmaz** görülüyor; kimseye \"şuraya dikkat et\" demeye gerek yok. 🟡 **AMA SIRT ÇİZGİSİNE KİLİTLENMİYOR** — bazı yerlerde sırtı **kesiyor.** Sebep yapısal ve öngörüde yazılıydı: `sürtünme = 1 + 0,005·¦eğim¦` **sürekli bir alan, ENGEL değil.** ⇒ Emre'nin *\"dağa toslayınca duracak · nehirde duracak\"* tarifi için **engel terimi** gerekiyor (④'ün 13,0/15,0 çarpanı). Eğim tek başına o işi görmüyor — **yaklaştırıyor.** Bu prototip o terimi TAŞIMIYOR. 🔴 **ÇİRKİN OLANI DA KOYDUM:** merdiven basamakları açıkça görünüyor. Chaikin siliyor **ama karşılığında sınırı DALGALANDIRIYOR** — basamak gidiyor, yerine düzenli bir fisto geliyor. Kusur değil **takas**, ve raporlanmadan geçilmemeli. ═══ KARNE — 7 öngörü: 5 tuttu · 1 kısmen · 1 ÇÜRÜDÜ ═══ 🔴 **P7 ÇÜRÜDÜ, ve tam olarak çürüdü.** *\"En büyük fark dağda değil KIYIDA çıkacak; sonsuz maliyet 11 katı her zaman yener\"* demiştim: ``` ① KARA YOLU tek başına 4.767 hücre %8,64 ② EĞİM tek başına 4.767 hücre %8,64 ⇒ TAM EŞİT ③ TOPLAM 7.088 hücre %12,85 ⇒ ikisinin TOPLAMINDAN KÜÇÜK ④ 8 ↔ 16 yön 1.982 hücre %3,59 ``` Ne kıyı baskın, ne dağ. Ve iki etki **1.415 hücrede birbirini götürüyor.** 🟡 P5 sayı tuttu (168,7 MB) ama **gerekçesi çürüdü**: tepeyi `json.load` değil matplotlib yaptı. 🟢 **VE 4.767 = 4.767 ÖNCE ALETTEN ŞÜPHELENDİRDİ (`D117`) — SINADIM:** ``` vor is s_duz False · array_equal False · kümeler FARKLI (A\\B = B\\A = 3.352) yarım örneklem ×3: 2370/2387 · 2394/2344 · 2371/2399 → EŞİTLİK BOZULUYOR ``` ⇒ Yapısal özdeşlik **yok**, gerçek bir **tesadüf**. Raporluyorum, **anlam yüklemiyorum.** ═══ 🔴 KENDİ ÖNCEKİ TESLİMİMİ DÜZELTİYORUM ═══ M-3335'te *\"16 yön: komşu 2× ⇒ süre ~2×, çağrı başına +102..135 sn\"* demiştim. **Ölçüm 1,36× diyor.** 16 komşu daha iyi yollar bulduğu için yığın daha az kabarıyor; kenar iki katına çıkıyor, iş çıkmıyor. ⇒ Motor ölçeğinde ek maliyet **+37..49 sn/çağrı = koşunun %0,15'i** — yazdığımın **üçte biri.** ⚠️ Ve prototipin MUTLAK süreleri motora taşınmaz (benimki numpy'de skalar indeksliyor); taşınabilir olan **oran**, saniye değil (`D129`). ═══ SAYILAR ═══ ``` ızgara 440×180 · kara 55.174 · tohum 376 (370 oturdu) sürtünme medyan 1,563 · en yüksek 6,86 poligon 396 · ham köşe 12.232 · poligonlaştırma 0,04 sn Dijkstra 8 yön 3,20 sn · 16 yön 4,37 sn ``` ═══ ⚪ NE YAPILMADI — damgalı ═══ ``` ⚪ nehir/sırt ENGEL terimi konmuş hâli — bu prototip YALNIZ eğim taşıyor, Emre'nin \"nehirde duracak\" tarifi HENÜZ DENENMEDİ ⚪ boğaz/geçit — su hücresi hâlâ geçilmez (yapısal, :2256) ⚪ bu sınırların Değişmez 1/2/7 · çakışma · enklav denetimlerinden geçip geçmediği — hepsi düz-çizgi tabanında kalibre edildi, prototip onlara HİÇ sorulmadı. Senin kendi uyarındı, atlamadım. 🔴 motorda SIFIR değişiklik. Süzgeç yerinde, A'nın tanımı yerinde. ``` Sıradaki iş için hazırım. Engel terimli ikinci bir tur istersen aynı prototip üzerinde ~5 dakikada koşar (önbellek duruyor). -- TAŞMA PROTOTİP",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
