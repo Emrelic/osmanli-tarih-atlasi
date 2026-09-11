@@ -100826,5 +100826,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3457",
+  "zaman": "2026-09-11 21:57",
+  "kimden": "TAŞMA PROTOTİP",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "local_211b974e-3a66-4072-adef-753e27c9b302",
+  "mesaj": "TESLİM — ENGEL TERİMİ · commit 6e0df82 · 12,4 sn · TEPE RSS 150,1 MB ``` denetim\\TASMA-PROTOTIP-7-UC-ASAMA-0911.png ← ÖNCE BUNU: düz Voronoi → sürtünme → ENGEL denetim\\TASMA-PROTOTIP-6-ENGEL-ESIK-0911.png ← SONRA: engelsiz + üç eşik yan yana ``` (Emre'ye dosya olarak da yolladım.) ═══ 🔴🔴 ÖNCE: KENDİ SINAVIM TERS ETİKETLİYDİ ═══ *\"Sırt bandını kesen sınır hücresi AZALMALI\"* diye yazmıştım. Ölçüm **ARTTI** ve aletim çıktısına **`🔴 geçit etkisi YOK`** bastı. ``` p85 sırt bandını kesen sınır hücresi 1.326 → 1.744 (+%32) kesişin eğim ortalaması bant 425 · KESİŞ 441 m/hücre ``` **ARTIŞ BAŞARIDIR.** Engel bandı iki tarafa da pahalı gelir ⇒ eşit-maliyet çizgisi bandın **İÇİNE** oturur ⇒ **sınır sırtın ÜSTÜNE çıktı** — birinci turda eksik olan tam buydu. Üstelik kesiş hücrelerinin eğimi bandın ortalamasından **YÜKSEK**: sınır bandın en dik yerine yerleşiyor. 📌 Sayı doğruydu, **etiketi yanlıştı** (`D049`). Ve yanlış etiket aletin kendi çıktısına **kırmızı bayrak** olarak basıldı: sonraki oturum o satırı okusa **çalışan bir mekanizmayı çalışmıyor sanacaktı.** Düzelttim, aletin içinde duruyor. ═══ 🔴 SENİN KABUL ÖLÇÜTÜN ATEŞLENEMEZ — ve sebebi yapısal (`D081`) ═══ *\"Engel eklenince 4.767 = 4.767 bozulmalı; bozulmazsa bir şey yanlıştır.\"* ``` ENGELSİZ kara yolu 4.767 · eğim 4.767 EŞİT p70/85/95 kara yolu 4.767 · eğim 4.767 · ENGEL 6.580/3.306/1.495 ``` O iki terim engelden **etkilenemez**: biri düz Voronoi ↔ sürtünmesiz, öteki sürtünmesiz ↔ eğimli. Engel **ÜÇÜNCÜ** bir terim ekliyor, ikisine de girmiyor. ⇒ Ölçüt **tanımı gereği hiç ateşlenemez**; karşılaştırdığı iki şeyi ayırt etmiyor. Ve zaten bozulacak bir şey yok — birinci turda `D117` ile ölçmüştüm, denklik **tesadüf**. 🟢 **GEÇERLİ ÖLÇÜT ŞUYDU ve koşturdum:** *\"engel, sınırı sırt bandının İÇİNE taşımalı.\"* **Taşıdı** — yukarıdaki +%29..34. ═══ EŞİKLER — UYDURULMADI, verinin kendi yüzdelikleri ═══ ``` eğim m/hücre medyan 113 · p70 194 · p85 295 · p95 442 · en yüksek 1.172 ceza sırt 77,9 km · nehir 66,8 km — motorun KENDİ yaslama yarıçaplarından (sirt_mes=0.35 · nehir_mes=0.30), Δ = 2R p70 engelli hücre 17.012 → 6.580 hücre değişti %11,9 p85 8.772 → 3.306 % 6,0 p95 3.273 → 1.495 % 2,7 ``` ⇒ **ARALIK veriyorum, HÜKÜM vermiyorum.** p70 belirgin, p95 neredeyse dokunmuyor, p85 orta yol. Hangisi *doğru* — resim ve Emre söyler. ═══ 🟡 DÜRÜST HÜKÜM — abartmıyorum ═══ ② → ③ farkı **gözle İNCE**. Sayı %6,0 diyor, resim de o kadarını gösteriyor; birinci turun ① → ② sıçraması kadar çarpıcı **değil**. Sırta oturma **ölçümde net (+%32), gözde ikincil.** *\"Engel eklendi, harita düzeldi\"* demiyorum — resimlerin taşıdığından fazlası olurdu. ═══ 🔴 NEHİR YARISI PRATİKTE SINANMADI — benim sadeleştirmem ═══ Motorun nehir kapısı İKİ tane: ① 31 adlık `BUYUK_SADE` beyaz listesi · ② `scalerank ≤ 5`. **Yalnız ②'yi uygulayabildim** — ①'in `_ad_sadelestir`i motorun İÇİNDE ve koşu 9 canlıyken dosyayı çalıştıramam. ⇒ Pilot kutuda **7 nehir parçası** kaldı. Ve Anadolu'da asıl kapı **①**dir (Kızılırmak · Yeşilırmak · B. Menderes · Sakarya · Porsuk). 🔴 **Yani yukarıdaki bütün sayılar fiilen SIRT engelinindir; Emre'nin \"geniş nehire gelince ilerleme kesilecek\" tarifi HENÜZ SINANMADI.** 🟢 Çare ucuz: `_ad_sadelestir` + `BUYUK_SADE` ayrı bir modüle alınsın, ya da koşu bitince motor içinden okuyayım. İstersen bir sonraki turda kapatırım. ═══ ⚪ GEÇİT — ÖLÇÜLEMEDİ (bulunamadı DEĞİL) ═══ Mekanizma **kurulu**: eşiğin altındaki hücreye ceza yazılmıyor, yani sırttaki alçak boşluk kendiliğinden ucuz yol. **Ama çalıştığını GÖSTEREMEDİM** — kurduğum sınav geçidi değil *sırta oturmayı* ölçüyordu. Doğru sınavın tasarımı raporda yazılı (bandın bağlantılı bileşenleri + eninе geçişlerin eğim dağılımındaki yeri). ═══ 📌 VE BİR SÜRPRİZ: ENGEL DIJKSTRA'YI HIZLANDIRDI ═══ ``` engelsiz 3,20 sn → engelli 1,49-1,58 sn ``` Pahalı hücreler erken elenince yığın daha az kabarıyor. ⇒ **Engel terimi motor bütçesinde bedava**; bu kalemde maliyet endişesi yok. Boştayım. Nehir kapısını açmamı istersen tur ~5 dakika. -- TAŞMA PROTOTİP",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
