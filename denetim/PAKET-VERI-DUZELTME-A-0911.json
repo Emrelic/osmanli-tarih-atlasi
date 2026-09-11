@@ -1,0 +1,132 @@
+{
+ "gorev": "VERİ DÜZELTME A — iran/lehistan/toskana yanlış atıflarının düzeltme listesi",
+ "durum": "HAZIRLIK — data/** donuk, hiçbir yazma yapılmadı",
+ "onemli_duzeltme_kordinatore": {
+  "toskana_bolunme_gunu": "Brifing 'Floransa→Toskana 1569' dedi ama BU YANLIŞ — 1569 Lehistan/Lublin tarihiyle KARIŞTIRILMIŞ olmalı. `data/devletler.js:2064-2075`teki KÜNYENİN KENDİSİ zaten doğru sınırı taşıyor: `floransa` t:'1532-01-01', `toskana` f:'1532-01-01' — BİREBİR ÖRTÜŞÜYOR. Doğru bölünme günü 1532-01-01'dir, 1569 DEĞİL. 1569 yalnız Toskana'nın 'Büyük Dükalık' UNVANINA yükseldiği tarihtir (aynı künye içinde, ozet satırı), yeni bir künye sınırı değil."
+ },
+ "onemli_bulgu_kapsam_daraltma": {
+  "iran_kimlik": "Brifing 8 kayıt dedi (d:'iran' + s: taraması). GERÇEKTEN 8 kayıt var AMA yalnız 3'ü COĞRAFİ OLARAK hurmuz-sultanligi'ne uygun (Basra Körfezi/Hürmüz Boğazı adaları). Kalan 5 kayıt DAĞISTAN (3: Tarki, Ağraham burnu, Derbend) ve HORASAN/TÜRKMENİSTAN (2: Dihistan ovası, Kızılarvat) bölgesinde — Hürmüz Sultanlığı'nın (Basra Körfezi'nde dar bir deniz gücü) hiçbir zaman hükmetmediği yerler. Bu 5 kayda hurmuz-sultanligi uygulanırsa YENİ bir coğrafi hata yaratılır (D024 sınıfı: iki ayrı kusur aynı çareyle 'düzeltilirse' biri bozulur). Bu 5 kayıt AYRI bir kalem — bu pakette DÜZELTİLMEDİ, yalnız bildiriliyor."
+ },
+ "kimlikler": [
+
+  {
+   "kimlik": "iran → hurmuz-sultanligi",
+   "kunye_araligi": "f:1281-01-01, t:1514-01-01 (data/devletler.js:7428)",
+   "kunye_kaynak_alintisi": "TDV `hurmuz--iran`: '1507'de Albuquerque adayı kuşattı fakat alamadan döndü; yedi yıl sonra Şah İsmâil'in Osmanlı ile ihtilâfından yararlanarak adayı ele geçirdi ve İran'a tâbi olan sultanı Portekiz hâkimiyeti altına soktu (1514).' Künyenin kendi notu: t:1514 KAYNAKTA AÇIKÇA VAR, f:1281 pencere başlangıcı (kaynak iddiası değil).",
+   "yontem": "RELABEL — bu 3 kayıtta 'iran' zaten kendi f:/t: sınırıyla ayrık bir dönem; YENİ bir tarih İNTRODUCE EDİLMİYOR, yalnız d: değeri 'iran'→'hurmuz-sultanligi' değişiyor. Değişmez 1/2 açısından RİSKSİZ — sınır tarihleri (ve dolayısıyla ilgili kırılmaların madde durumu) değişmiyor.",
+   "gecerli_kayitlar_3": [
+    {
+     "ad": "Hürmüz Adası", "dosya": "data/yerlesimler.js", "satir": 1473,
+     "bugunku_donem": "{f:1281-01-01,t:1510-12-02,d:iran} → {f:1510-12-02,t:1515-04-01,d:safevi} → {f:1515-04-01,...,d:portekiz}",
+     "onerilen": "{f:1281-01-01,t:1510-12-02,d:hurmuz-sultanligi} (yalnız d: degisir, tarihler AYNI)",
+     "degismez1": "gap YOK — t: degismiyor",
+     "degismez2": "kırılma YOK (yeni tarih yok, yalnız isim) — ek madde gerekmiyor"
+    },
+    {
+     "ad": "Kişm (Qeshm)", "dosya": "data/yerlesimler.js", "satir": 1474,
+     "bugunku_donem": "{f:1281-01-01,t:1510-12-02,d:iran} → safevi → portekiz (Hürmüz Adası ile birebir aynı desen)",
+     "onerilen": "{f:1281-01-01,t:1510-12-02,d:hurmuz-sultanligi}",
+     "degismez1": "gap YOK", "degismez2": "kırılma YOK"
+    },
+    {
+     "ad": "Kiş (Kish)", "dosya": "data/yerlesimler.js", "satir": 1475,
+     "bugunku_donem": "{f:1281-01-01,t:1508-01-01,d:iran} → {f:1508-01-01,...,d:safevi}",
+     "onerilen": "{f:1281-01-01,t:1508-01-01,d:hurmuz-sultanligi}",
+     "degismez1": "gap YOK", "degismez2": "kırılma YOK"
+    }
+   ],
+   "gecersiz_kayitlar_5_ayri_kalem": [
+    {"ad":"Tarki (Tarku)","dosya":"data/yerlesimler.js","satir":566,"bolge":"Dağıstan (lat 42.98,lon 47.50)","not":"hurmuz-sultanligi UYGUN DEĞİL — coğrafi olarak alakasız. Farklı bir kimlik gerekir (muhtemelen Şirvanşahlar ya da bölgesel bir güç), bu paketin kapsamı dışı."},
+    {"ad":"Ağraham burnu","dosya":"data/yerlesimler.js","satir":567,"bolge":"Dağıstan (lat 43.97,lon 47.74)","not":"aynı gerekçe — Tarki ile birebir aynı desen."},
+    {"ad":"Derbend","dosya":"data/yerlesimler.js","satir":603,"bolge":"Dağıstan (lat 42.06,lon 48.29)","not":"aynı gerekçe."},
+    {"ad":"Dihistan ovası (Meşhed-i Misriyân)","dosya":"data/yerlesimler.js","satir":1917,"bolge":"Horasan/Türkmenistan sınırı (lat 38.17,lon 54.63)","not":"kısa dönem (1507-05-24→1510-12-02), Hürmüz'den ~1500 km uzakta, alakasız."},
+    {"ad":"Kızılarvat","dosya":"data/yerlesimler_ortaasya2.js","satir":166,"bolge":"Horasan/Türkmenistan (lat 38.98,lon 56.28)","not":"aynı gerekçe, aynı kısa dönem."}
+   ]
+  },
+
+  {
+   "kimlik": "lehistan → polonya-erken (erken dilim)",
+   "kunye_araligi": "f:1320-01-20, t:1569-07-01 (data/devletler.js:706-709)",
+   "bolunme_gunu": "1569-07-01 — Lublin Birliği",
+   "kaynak_alinti": "polonya-erken kendi özeti: '1569'da Lublin Birliği ile tam birleşme'. Kiev kaydı (data/yerlesimler.js:848) ZATEN bu tarihi kullanıyor: litvanya-buyuk-dukalik → lehistan geçişi f:1569-07-01 — AYNI GÜN, iç tutarlılık için TEK doğru seçim.",
+   "degismez2_kanit": "data/kronoloji_lehistan.js:379 — t:'1569-07-01', b:'LUBLIN BİRLİĞİ — Rzeczpospolita kuruldu'. KIRILMA ZATEN KAPALI, yeni madde GEREKMİYOR.",
+   "yontem": "SPLIT — bu 9 kayıtta 'lehistan' f:1281'den başlayan TEK bir bölünmemiş dönem; 1569-07-01'de ikiye ayrılacak. t: ve f: AYNI STRING olacağı için Değişmez 1 inşa gereği sağlanıyor (sıfır boşluk, sıfır çakışma).",
+   "kayitlar_9": [
+    {"ad":"Kamaniçe","dosya":"data/yerlesimler.js","satir":429,
+     "bugunku_ilk_donem":"{f:1281-01-01,t:1672-08-27,d:lehistan}",
+     "onerilen":"{f:1281-01-01,t:1569-07-01,d:polonya-erken},{f:1569-07-01,t:1672-08-27,d:lehistan}",
+     "not":"ikinci lehistan dönemi (1699-01-26→1793-01-23) DOKUNULMAZ, zaten doğru."},
+    {"ad":"Krakov","dosya":"data/yerlesimler.js","satir":846,
+     "bugunku_ilk_donem":"{f:1281-01-01,t:1795-10-24,d:lehistan}",
+     "onerilen":"{f:1281-01-01,t:1569-07-01,d:polonya-erken},{f:1569-07-01,t:1795-10-24,d:lehistan}",
+     "not":"Polonya'nın KENDİ BAŞKENTİ — en çarpıcı vaka. kd: alanı (satır 846) ZATEN 1320→1569→(k1 devam) İKİ AYRI DİLİM taşıyor, s: ile tutarsızdı; bu düzeltme s:'yi kd: ile HİZALAR."},
+    {"ad":"Lvov","dosya":"data/yerlesimler.js","satir":847,
+     "bugunku_ilk_donem":"{f:1281-01-01,t:1772-08-05,d:lehistan}",
+     "onerilen":"{f:1281-01-01,t:1569-07-01,d:polonya-erken},{f:1569-07-01,t:1772-08-05,d:lehistan}"},
+    {"ad":"Poznan","dosya":"data/yerlesimler.js","satir":906,
+     "bugunku_ilk_donem":"{f:1281-01-01,t:1793-01-23,d:lehistan}",
+     "onerilen":"{f:1281-01-01,t:1569-07-01,d:polonya-erken},{f:1569-07-01,t:1793-01-23,d:lehistan}"},
+    {"ad":"Bar (Podolya)","dosya":"data/yerlesimler.js","satir":1204,
+     "bugunku_ilk_donem":"{f:1281-01-01,t:1672-08-27,d:lehistan}",
+     "onerilen":"{f:1281-01-01,t:1569-07-01,d:polonya-erken},{f:1569-07-01,t:1672-08-27,d:lehistan}",
+     "not":"ikinci lehistan (1699-1793) dokunulmaz."},
+    {"ad":"Meciboj (Mejibuji)","dosya":"data/yerlesimler.js","satir":1205,
+     "bugunku_ilk_donem":"{f:1281-01-01,t:1672-08-27,d:lehistan}",
+     "onerilen":"{f:1281-01-01,t:1569-07-01,d:polonya-erken},{f:1569-07-01,t:1672-08-27,d:lehistan}",
+     "not":"ikinci lehistan (1699-1793) dokunulmaz."},
+    {"ad":"Yazlofça (Yazlovets)","dosya":"data/yerlesimler.js","satir":1206,
+     "bugunku_ilk_donem":"{f:1281-01-01,t:1672-08-27,d:lehistan}",
+     "onerilen":"{f:1281-01-01,t:1569-07-01,d:polonya-erken},{f:1569-07-01,t:1672-08-27,d:lehistan}",
+     "not":"ikinci lehistan (1699-1772) dokunulmaz."},
+    {"ad":"Lublin","dosya":"data/yerlesimler_p0037.js","satir":73,
+     "bugunku_ilk_donem":"{f:1281-01-01,t:1795-10-24,d:lehistan}",
+     "onerilen":"{f:1281-01-01,t:1569-07-01,d:polonya-erken},{f:1569-07-01,t:1795-10-24,d:lehistan}"},
+    {"ad":"Chełm (Kholm)","dosya":"data/yerlesimler_p0037.js","satir":78,
+     "bugunku_ilk_donem":"{f:1281-01-01,t:1795-10-24,d:lehistan}",
+     "onerilen":"{f:1281-01-01,t:1569-07-01,d:polonya-erken},{f:1569-07-01,t:1795-10-24,d:lehistan}",
+     "not":"kaydın kendi notu '1281-1340 Halic-Volhinya sadeleştirildi (Lvov gibi)' diyor — bu düzeltme aynı sadeleştirmeyi Lvov ile TUTARLI biçimde korur, yalnız 1569 iç sınırını ekler."}
+   ],
+   "not_zamosc_disi": "Zamość (yerlesimler_p0037.js:82) kur:1580 ile başlıyor — 1569'dan SONRA kurulmuş, bu düzeltmeye DAHİL DEĞİL, zaten doğru."
+  },
+
+  {
+   "kimlik": "toskana → floransa (erken dilim)",
+   "kunye_araligi": "floransa f:1115-01-01,t:1532-01-01 (devletler.js:2063-2066) · toskana f:1532-01-01,t:1860-03-22 (devletler.js:2074-2077)",
+   "bolunme_gunu": "1532-01-01 — 🔴 BRİFİNGİN '1569' ÖNERİSİ YANLIŞ, bkz. üstteki düzeltme notu",
+   "kaynak_alinti_ek": "WebSearch ile tarandı (TDV'de müstakil madde yok, künye zaten 'standart akademik kaynak' diyor): İngilizce Wikipedia 'Duke of the Florentine Republic' — Alessandro de' Medici'nin dükalığı '1 Mayıs 1532'de başladı, Nisan 1532 anayasası onu kalıtsal dük ilan etti (Britannica/Wikipedia, bkz. WebSearch sonucu bu oturumda). Künyenin kendi f:'1532-01-01'i YYYY-01-01 konvansiyonudur (§4) — gerçek olay Nisan-Mayıs 1532'dir, gün hassasiyeti künyeye kasıtlı düşürülmüş görünüyor.",
+   "degismez2_durum": "🔴 AÇIK — en yakın mevcut madde data/kronoloji_italya.js:701 (t:'1530-08-12', 'İmparator kuşatmasıyla cumhuriyetin düşmesi') — künyenin 1532-01-01 sınırından ~17 AY uzakta, ±30 gün İÇİNDE DEĞİL. YENİ MADDE ADAYI gerekiyor (aşağıda).",
+   "onerilen_yeni_madde_adayi": {
+    "dosya_onerisi": "data/kronoloji_italya.js (1530-08-12 ile 1537-01-06 arasına)",
+    "t": "1532-01-01",
+    "b": "Alessandro de' Medici'nin kalıtsal dük ilan edilmesi — Cumhuriyet'ten Dükalığa geçiş",
+    "gun_notu": "Nisan 1532 anayasası, dükalık fiilen 1 Mayıs 1532'de başladı (Wikipedia 'Duke of the Florentine Republic') — gün TDV'de yok, künyeyle TUTARLI olsun diye YYYY-01-01 önerildi; koordinatör isterse t:'1532-05-01' ile daha kesin yazılabilir (o zaman künyenin f: alanı da aynı güne çekilmeli, AYRI bir karar).",
+    "kaynak": "bulunamadı (TDV) — dayanak: İngilizce Wikipedia 'Duke of the Florentine Republic', bu oturumda WebSearch ile bulundu, ikincil doğrulama yapılmadı"
+   },
+   "kayitlar_2": [
+    {"ad":"Floransa","dosya":"data/yerlesimler.js","satir":887,
+     "bugunku_donem":"{f:1281-01-01,t:1861-03-17,d:toskana}",
+     "onerilen":"{f:1281-01-01,t:1532-01-01,d:floransa},{f:1532-01-01,t:1861-03-17,d:toskana}",
+     "not":"🟢 GÜÇLÜ DESTEK: aynı kaydın kd: alanı (bölgesel katman) ZATEN iki ayrı dilim taşıyor — {f:1281-01-01,t:1532-01-01,k:1},{f:1532-01-01,t:1860-03-22,k:1} — yani motor bu sınırı BİR KATMANDA zaten biliyor, yalnız s: (siyasi tasarruf) katmanına yansımamış."},
+    {"ad":"Pisa","dosya":"data/yerlesimler_avrupa.js","satir":434,
+     "bugunku_donem":"{f:1281-01-01,t:1406-10-09,d:piza},{f:1406-10-09,t:1861-03-17,d:toskana}",
+     "onerilen":"{f:1281-01-01,t:1406-10-09,d:piza},{f:1406-10-09,t:1532-01-01,d:floransa},{f:1532-01-01,t:1861-03-17,d:toskana}",
+     "not":"Pisa 1406'da Floransa Cumhuriyeti'nce fethedildi (piza dönemi zaten doğru bitiyor); 1406-1532 arası CUMHURİYET dönemi 'toskana' (henüz var olmayan bir dükalık) olarak etiketlenmiş — Floransa'nın kendisiyle BİREBİR AYNI hata."}
+   ],
+   "kayit_disi_siena": {"ad":"Siena","dosya":"data/yerlesimler_avrupa.js","satir":432,
+    "not":"DÜZELTMEYE DAHİL DEĞİL — Siena kendi bağımsız cumhuriyeti olarak 1555'e kadar sürüyor, İspanya'ya (1555-57) sonra TOSKANA'ya (1557, dükalık zaten kurulmuşken) katılıyor. 'toskana' etiketi yalnız 1557 SONRASI kullanılmış, doğru — floransa dönemine hiç girmiyor."}
+  }
+ ],
+
+ "ozet_sayilar": {
+  "iran_toplam_taranan": 8,
+  "iran_gecerli_relabel": 3,
+  "iran_ayri_kalem_disarida": 5,
+  "lehistan_split_gereken": 9,
+  "lehistan_zaten_dogru_emsal": "Kiev (848), Vilnius (belirtilmedi ama brifingde anıldı) — dokunulmadı",
+  "toskana_split_gereken": 2,
+  "toskana_zaten_dogru": "Siena — dokunulmadı",
+  "toplam_etkilenen_kayit": 14,
+  "toplam_yeni_kirilma": "10 (9 lehistan + 1 toskana×2kayit ortak gun) — hepsi 1569-07-01 (madde HAZIR) ya da 1532-01-01 (madde ADAYI hazirlandi)",
+  "toplam_yeni_madde_gereken": 1
+ }
+}
