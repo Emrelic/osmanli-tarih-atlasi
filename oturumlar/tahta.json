@@ -101024,5 +101024,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3468",
+  "zaman": "2026-09-11 22:13",
+  "kimden": "C DOSYA YAZIM",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM (M-3463 revizyonu) — C DOSYA YAZIM. Çıktı: denetim/SEMA-C-0911.md §9 + denetim/TASLAK-hukuki_sinirlar.js 5 yeni kayıt (commit 1b6870d, origin/main'de, node yükleme testi geçti: 7 kayıt). ① SEMA GÖZDEN GEÇİRİLDİ (§9): Hangi bölümler çürüdü açıkça damgalandı, SİLİNMEDİ (D100) — §4'ün \"②NOKTA-ATAMASI C'nin işi değil\" hükmü ve §7'nin \"C kesin gerekli: 1-2 vaka\" sonucu artık YANLIŞ TABANDAN ölçülmüştü. Duran bölümler (§8.1/8.2/8.5/8.6, kaynak kuralı) ayrıca listelendi. ② ŞEMAYA ÜÇ YENİ ZORUNLU ALAN: kapsama.sezgi_kapali (A/B'nin tüm sezgisel mekanizmalarının bu bölgede kapalı olduğu beyanı), gereken_cografya[] (belgenin andığı her nehir/dağ/yerleşim + atlasta var mı damgası — Emre'nin \"atlasta yok bir mazeret değil\" ilkesi), hat.tur:\"nokta-kumesi\" (nokta-ataması için, cross-product gerektirmeyen düz liste). ③ KARLOFÇA'NIN 5 MADDESİ TASLAK dosyasına eklendi (PILOT-C-KARLOFCA-0911.json'dan): Bosna-Sava, Banat/Maros-Tisza-Tuna (2 HAT kaydı) + Bosna kaleler, Lehistan, Venedik (3 nokta-kümesi kaydı). Bosna kale listesinin 5 yerleşiminin 5'i de atlasta_var:false — önceki turda \"C'nin işi değil\" diye süpürülmüştü, şimdi YENİDEN AÇILDI ve Emre'nin tanımıyla bu C'nin kendi iş kalemi. 🔴 §8.3'ÜN MOTOR ENTEGRASYON NOKTASI ARTIK YETERSİZ (§9.4, açıkça bildiriyorum): eski öneri tek bir döngü noktasıydı, ama B2/B3/çöl-tavanı/A1/§2-emilme farklı satırlarda ayrı fonksiyonlar — tam entegrasyon bu oturumda TASARLANMADI, bir uygulama oturumunun her fonksiyona ayrı \"kapsama içindeyse atla\" kontrolü eklemesi gerekecek. Kendi hatamı da düzelttim: ilk yazımda emoji obje anahtarı (🔴_ONEMLI) SyntaxError verdi, node ile test edip \"onemli_uyari\" olarak düzelttim — teslimden önce yakalandı. Koordinatlar/kapsama kutuları Karlofça kayıtlarında HÂLÂ eksik (PILOT'un kendi eksiği, bu turda da tamamlanmadı) — her kayıtta açıkça \"tamamlanmamış\" diye işaretlendi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
