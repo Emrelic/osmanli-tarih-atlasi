@@ -99024,5 +99024,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3366",
+  "zaman": "2026-09-11 15:58",
+  "kimden": "C ENVANTER II",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — C ENVANTER II. Cikti: denetim/ENVANTER-C-II-0911.json (commit 05198bf, push dogrulandi f6400c1..05198bf). Ongoru dosyasi ONCE yazilip commitlendi: denetim/ONGORU-C-ENVANTER-II-0911.md. ÜÇ BOŞLUK, ÜÇÜNÜN DE SONUCU (SAYIYLA): ① TEKİLLEŞTİRME: 144 -> 110 tekil antlaşma (34 çift kayıt, ad+yıl normalize edilerek ARAC-NORMAL-0903.py ile birleştirildi). ÖNGÖRÜ (105-115) TUTTU. 🟡 Bilinen sınır: yöntem eksiksiz değil -- 2 gerçek çift (İstanbul/Venedik 1479, İstanbul/Bulgaristan 1913) ilk turda parantez ekinden kaçtı, ikinci turda parantez-kırpma eklenerek yakalandı. Benzer başka kaçaklar OLABİLİR, D185 gereği tam doğrulanmadı diye açıkça yazıyorum. ② DAR ÖLÇÜTLE YENİDEN DAMGALAMA: GENİŞ %83 (91/110) -> DAR %15 (16/110). Her kayıtta HEM damga_genis HEM damga_dar duruyor, biri ötekinin üstüne yazılmadı (D024). 🔴 ÖNGÖRÜ (%55-65) ÇÜRÜDÜ -- beklenenden ÇOK daha düşük çıktı. Sebep: envanterin ÖZET metinleri (topraklar/d: alanları) çoğunlukla bölge/şehir devri anlatıyor, nehir/dağ/hat DÜZEYİNE inmiyor. Karlofça'da C ŞEMA PİLOT birincil metne inince Sava nehrini ve Maros-Tisza-Tuna zincirini buldu; BİZİM özet metnimizde bunlar YOK. ⇒ Dar sayı muhtemelen bir ALT SINIR, birincil metne inilse yukarı çıkabilir. Ayrı bir itiraf: ilk turda yakınlık penceresi yoktu (tüm metinde arama) ve YANLIŞ POZİTİF üretti -- Lozan (\"...kabul edilir\" cümle sonunda, sınırla ilgisiz) ve Bucaş (\"en geniş sınırlarına ulaştı\", bir HAT değil bir BÜYÜKLÜK ifadesi) dar'a yanlışlıkla girmişti. İkinci turda yakınlık penceresiyle (25-35 karakter) düzeltildi, D107 gereği burada açıkça yazıyorum. ③ C_GEREKLİ_Mİ (yalnız 16 dar-NET_SINIR kayıt için): 6 C_GEREKLİ · 10 A/B_YETER · 0 NOKTA_EKSİK. Yöntem: hat_ozeti'ndeki nehir/şehir adayları data/yerlesimler*.js (77 dosya, SADECE OKUNDU) + arac/uret_petek.py BUYUK nehir kümesiyle karşılaştırıldı. 🟡 ÖNGÖRÜ (%15-25) KISMEN ÇÜRÜDÜ -- ölçülen %38, beklenenden yüksek ama YÖN doğru: yine de azınlık, C ŞEMA PİLOT'un Karlofça bulgusuyla (5'in 4'ü C'ye ihtiyaç duymuyor) aynı yönde. C_GEREKLİ 6 kayıt: Amasya(1555) · Ferhad Paşa(1590) · Nasuh Paşa(1612) · Kasr-ı Şirin(1639) · Londra/Midye-Enez(1913) · II.Erzurum/Şattülarap(1847). 🔴 AÇIKÇA UYARI: bu adım ÖZET metne dayanıyor, C ŞEMA PİLOT'un Karlofça'da yaptığı gibi BİRİNCİL antlaşma metnine İNİLMEDİ. Amasya/Ferhad Paşa/Nasuh Paşa/Kasr-ı Şirin ailesi (4 kayıt) özet metinde nehir/dağ adı vermiyor ama birincil metin verebilir (Kasr-ı Şirin özellikle iyi belgeli bir antlaşma) -- bu dördü KESİN değil, ÖN DEĞERLENDİRME. Denetim/BULGU-KRONOLOJI-KUNYE-0911.md ve SEMA-C-0911.md okundu, tekrar edilmedi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
