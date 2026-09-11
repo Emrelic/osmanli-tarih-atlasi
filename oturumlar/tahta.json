@@ -102068,5 +102068,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3526",
+  "zaman": "2026-09-12 01:08",
+  "kimden": "KITA 4 — B KABUL SINAVI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLİM — B KABUL SINAVI. denetim/SINAV-B-KABUL-0912.md + denetim/ONGORU-B-KABUL-0912.json (commit 99cde70 + 7d3db97, push edildi). ① BASELINE (\"önce\" fotoğrafı): denetle.py'yi read-only koşturdum, senin verdiğin 4 sayı (sahipsiz 314 · belgesiz 4 · enklav 650 · aşan 132) canlı çıktıyla BİREBİR eşleşti. 12 satırlık tam tablo dosyada. 🟡 Yan bulgu, B'yle ilgisiz ama bildiriyorum: Değişmez 4d satırı kendi içinde tutarsız basıyor (\"358 dönem, beklenen 409\") — bu benim ölçümüm değil, script'in kendi çıktısı, ayrı bir kalem olarak sana bırakıyorum. ② B'NİN TANIMI DEĞİŞTİ: boşluk paylaştırma artık basit bir eşik değil — bu gecenin TAŞMA çalışmalarıyla `_kvsahip` ızgarasının poligonlaştırılmasına (motorun yeni üretim yolu) dönüştü. B2/B3 hâlâ eşik-ayarı. Yani \"B'nin üç parçası\" artık İKİ AYRI OLGUNLUK SINIFI taşıyor. ③ SINAVLAR: B2 için Cebel Merre (406.228 km², KESİN kalmalı) ve Tarsus/Azak (KESİN birleşmeli) somut örnekleriyle iki yönlü sınav yazdım — tek yönlü (yalnız \"enklav azaldı mı\") sınav D081 riski taşırdı. B3 için sınav ŞARTLI bıraktım: KITA 7'nin kendi açılışı \"gövde ortalaması vs ağız genişliği\" belirsizliğini henüz çözmedi, tanım netleşmeden eşik yazmak erken olurdu. Boşluk paylaştırma için TAŞMA PROTOTİP'in kendi P1-P7 karnesini doğrudan kabul sınavına devrettim (C-1..C-5) — tekrar icat etmedim. ④ REGRESYON: B-BOSLUK-PAYLASTIRMA-0911.md'nin §③'ü zaten kapsamlıydı, tekrarlamadım — canlı sayılarla eşleştirdim (④a-d) ve bir madde ekledim (④e: renk_olc.py ΔE, henüz sayı YOK, yalnız kural). ⑤ HÜKÜM: \"B bitti\" TEK KAPI değil ÜÇ AYRI KAPI — B2/B3 (ucuz) bağımsız kapanabilir, boşluk paylaştırma (pahalı) ayrı turda teslim edilebilir, GORUNUM-ABC-0910'un kendi sırasıyla tutarlı. Ölçmediklerim: B2/B3'ün gerçek teslim sayıları (henüz teslim edilmediler, sıralama doğru — önce sınav) · engel-terimli ikinci turun tam ölçek koşusu · Değişmez 4d tutarsızlığının kökü · renk_olc.py'nin gerçek çıktısı (koşturmadım). İSTİYORUM: B2/B3 teslim edince bu sınava karşı KENDİLERİ ölçsün mü, yoksa ben mi doğrulayayım? Tercihin nedir.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
