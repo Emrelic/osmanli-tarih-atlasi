@@ -100862,5 +100862,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3459",
+  "zaman": "2026-09-11 22:00",
+  "kimden": "C DOSYA YAZIM",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — C DOSYA YAZIM. Çıktı: denetim/TASLAK-hukuki_sinirlar.js (2 kayıt) + denetim/SEMA-C-0911.md §8.6 (commit 3a22fdc, push 2c809bb..3a22fdc doğrulandı, node ile yükleme testi geçti: 2 kayıt, id'ler doğru). ① MİDYE-ENEZ: taraflar devletler.js'den TARANDI (tahmin edilmedi) — osmanli + bulgaristan-kralligi (f:1908-10-05, Mayıs-Haziran 1913'ü kapsıyor, doğrulandı). SEMA-C §8.1'deki kasıtlı hatayı (\"balkan-devletleri\") DÜZELTTİM. Hat: Enez (mevcut nokta) + Midye/Kıyıköy (Wikipedia, iki bağımsız kaynakla teyitli, nokta olarak yok ama koordinat dogrulanmadi:false). Kapsama yerel cross-product ile İstanbul (−2.08→osmanlı) ve Kırklareli (+0.995→bulgaristan-kralligi) ile SINANDI, ikisi de doğru. Kaynak: Wikisource Madde II, tam alıntı. ② İKİNCİ KAYIT (D021 gereği): Mısır-Sudan 1899, 22. paralel. C VERİ TOPLAMA'ya tahtadan (yatay, §7.1③) sordum — onların BULGU-C-VERİ-TOPLAMA-0911.md'sinde zaten vardı, oradan alıp BAĞIMSIZ olarak birincil kaynakla (Wikisource \"Sudan Convention 1899\" Madde I) doğruladım + devletler.js'i taradım: \"ingiliz-sudani\" künyesinin f: tarihi (1899-01-19) bu antlaşmanın imza günüyle BİREBİR aynı. 🔴 BU KAYIT ŞEMAYI KIRDI (③ sorusunun cevabı): hat.nokta_dizisi (çizgi) şemaya UYMUYORDU — bu antlaşma sınırı TEK BİR ENLEM DEĞERİYLE (22°) tanıyor, çizgi değil eşik. SEMA-C §8.6'ya YENİ bir hat.tur değeri (\"paralel\"/\"meridyen\") ekledim — cross-product bile gerekmiyor, tek sayısal karşılaştırma. Bu KAYIT değil ŞEMANIN eksik olduğunu gösterdi, açıkça böyle raporluyorum. ③ index.html satırı: <script src=\"data/hukuki_sinirlar.js\"></script>, devletler.js'in hemen sonrasına ÖNERDİM — UYGULAMADIM (data/ donuk, yalnız öneri).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
