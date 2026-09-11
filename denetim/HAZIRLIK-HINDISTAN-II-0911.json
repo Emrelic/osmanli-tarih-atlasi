@@ -1,0 +1,78 @@
+{
+  "_not": "HAZIRLIK dosyasidir, data/ ICINE YAZILMADI.",
+
+  "① SIH_PENCERESI": {
+    "akademik_kaynak_bulundu": true,
+    "kaynak_1": "Khushwant Singh, 'A History of the Sikhs' (standart akademik referans, Vikipedi DEĞİL) — doğrudan alıntı: \"The movement achieved its consummation with the liberation of Lahore and the setting up of the first independent Kingdom of the Punjab under Ranjit Singh in AD 1799.\"",
+    "kaynak_2": "Aynı kaynak: taç giyme töreni (Sahib Singh Bedi'nin Rançit Singh'i 'Maharaja' ilan etmesi) 1801'de, Lahor'un alınmasından İKİ YIL SONRA gerçekleşti.",
+
+    "🔴🔴_BEKLENENDEN_BUYUK_BULGU": {
+      "aranan": "sih-imparatorlugu id'sinin devletler.js DIŞINDA, yerlesimler*.js NOKTA VERİSİNDE hangi tarihten itibaren kullanıldığı",
+      "olcum": "13 dönem kaydı (Lahor, Amritsar, Sirhind, Câlandhar ve 9 diğeri, girdi.GIRDI_DOSYALARI tam taraması) 'sih-imparatorlugu' id'sini kullanıyor. EN ERKEN KULLANIM: 1764-01-14 (Sirhind kaydı) — künyenin KENDİ f:'inden (1801-04-12) TAM 37 YIL ÖNCE.",
+      "kod_ici_belge": "data/yerlesimler_asya.js:442-445 satırlarında BUNU zaten bir önceki oturum kaydetmiş: \"⚠️ 'sih-imparatorlugu' burada 1765'ten başlatıldı; devletler.js aralığı 1801-1849'dur ve Ranjit Singh'in imparatorluk ilânını esas alır. 1765-1799 arası misl konfederasyonudur, ayrı kimlik AÇILMADI (aynı siyasî gövdenin erken evresi).\"",
+      "anlami": "Bu, benim 1799 önerimden bile DAHA ERKEN bir tarihle (1764/65) VERİ SEVİYESİNDE zaten mevcut, kasıtlı ve BELGELENMİŞ bir uzlaşı. 1.MURAT'ın sorduğu '21 ay' aslında BUZDAĞININ ucu — gerçek uyumsuzluk devletler.js (1801) ile yerlesimler.js'in kendi kullanımı (1764/65) arasında, 37 YIL."
+    },
+
+    "iki_uc_olcumu_§3.5.1": {
+      "soru": "Pencere 1799'a (ya da 1764/65'e) geriye çekilirse, o dönemde Lahor/Pencap'ta veri KİMİ gösteriyor, ve geri çekmek başka bir künyenin toprağını YİYOR MU?",
+      "olcum": "YEMİYOR — çünkü yerlesimler.js'teki NOKTA VERİSİ zaten 1764/65'ten itibaren 'sih-imparatorlugu' yazıyor. devletler.js'in f:'ini geri çekmek, VERİYİ DEĞİL, REGISTRY'Yİ veriye UYDURMAK olur. Bugün ÇAKIŞMA YOK çünkü bugün hiçbir denetim ('4. Değişmez' — hayalet devlet kontrolü, CLAUDE.md §3.5'in kendi notuyla 'ARACA GİRECEK' dediği ama HENÜZ GİRMEMİŞ kontrol) bu 37 yıllık ÖNCEKİ-taraf aşımını SORGULAMIYOR.",
+      "🔴_ama_gercek_soru_baska": "Sorun 'çakışma' değil 'GÖRÜNMEZ HAYALET' — CLAUDE.md §3.5 hep SONRAKİ aşımı (künyenin t:'İNDEN sonra kullanım) örnekliyor; burada ÖNCEKİ aşım var (künyenin f:'İNDEN önce kullanım) ve HİÇBİR MEVCUT DENETİM bunu arıyor gibi görünmüyor (§3.5'in kendi metni: bu denetim 'henüz araca girmedi'). Bu YENİ bir kör nokta sınıfı olabilir — CLAUDE.md'nin dizinine (`§11`) girmeyi hak ediyor, ama BU GÖREVİN kapsamı değil, YALNIZ İŞARET EDİYORUM."
+    },
+
+    "iki_secenek": [
+      "A) devletler.js'in f:'ini 1799-07-07'ye çek (Ranjit Singh'in KİŞİSEL egemenliği, akademik kaynakla net) — 1764-1799 arası (misl dönemi) yerlesimler.js'te HALA 'sih-imparatorlugu' yazıyor olur, bu da YENİ bir tutarsızlık (İmparatorluk henüz yokken 'İmparatorluk' etiketi) ama ESKİSİNDEN KÜÇÜK (37 yıl yerine 35 yıl... pratikte fark az)",
+      "B) devletler.js'in f:'ini 1764-01-14'e çek (yerlesimler.js'in KENDİ kullandığı en erken tarih) — TAM tutarlılık sağlar ama künyenin ADI ('İmparatorluk') henüz kurulmamış bir misl-konfederasyon dönemini de kapsamış olur"
+    ],
+    "oneri": "B — CLAUDE.md'nin kendi kuralı (D084: komşusunun kullandığı günü kullanmak kendi gününü seçmekten dayanaklıdır) burada 'veri zaten oradaysa veriye UY' anlamına geliyor. Ama KARAR EMRE'NİN: künyenin ADI ile İÇERİĞİ arasındaki gerilim (1765'te henüz 'imparatorluk' yoktu) bir isim tartışması da açabilir."
+  },
+
+  "② BES_TASLAK_TAMAMLANDI": {
+    "🔴_PENCERE_SONU_SORUSU_AYRILDI_D180": {
+      "soru": "1923-10-29, prenslik künyeleri için bir KONVANSİYON mu yoksa atlasın PENCERE SONU mu?",
+      "olcum": "devletler.js'de 1923-10-29 SONRASI t: taşıyan 8 kayıt VAR (en büyüğü 2026-08-07) ⇒ atlas GENELİNDE 1923-10-29 bir yapısal pencere sonu DEĞİL.",
+      "🔴🔴_ikinci_olcum": "`nepal` künyesi t:1923-10-29 taşıyor AMA Nepal GERÇEKTE hiç İngiliz'e ilhak edilmedi, bağımsızlığını kesintisiz sürdürdü (bugüne kadar). ⇒ nepal'in 1923'te 'bitmesi' TARİHSEL OLARAK YANLIŞ, gerçek bir son yok.",
+      "hukum": "1923-10-29, prenslikler için bir KONVANSİYON DEĞİL — muhtemelen atlasın ÇEKİRDEK KATMANININ (Osmanlı 1281-1923) sınırını MİRAS ALAN, hiç sorgulanmamış bir VARSAYILAN DEĞER. `haydarabad-nizam` · `racput` · `travankur` · `manipur` · `nepal`'in BEŞİ DE muhtemelen aynı sebepten 1923'te kesiliyor — ve `nepal` örneği bunun EN AZ birinde KESİNLİKLE hatalı olduğunu gösteriyor.",
+      "oneri_bu_taslaklar_icin": "GERÇEK son tarihleri kullan (aşağıda), 1923-10-29'u TAKLİT ETME. Mevcut beşin (nepal başta) ayrıca gözden geçirilmesi ayrı bir iş olarak ÖNERİLİYOR, bu görevin kapsamı değil."
+    },
+
+    "①_meysur_racaligi": { "id": "meysur-racaligi", "ad": "Meysûr Racalığı (Wodeyar Hanedanı, İngiliz himayesinde)",
+      "f": "1799-05-04", "t": "1947-08-15", "t_gerekcesi": "Hindistan'ın bağımsızlığı + Instrument of Accession imzalandığı yıl (WebSearch: 'readily signed the Instrument of Accession...in August 1947'); GÜN kesin değil, 15 Ağustos (bağımsızlık günü) yaklaşık kabul edildi — 🟡 doğrulanmalı",
+      "bolge": "guney-asya", "kaynak": "bulunamadı — TDV yok (302), dayanak: standart akademik/ansiklopedik kaynak" },
+
+    "②_gvalyar": { "id": "gvalyar", "ad": "Gvalyar Devleti (Sindiya Hanedanı)",
+      "f": "1731-01-01", "f_not": "yıl kesin (Ranoji Sindiya), gün bulunamadı",
+      "t": "1948-05-28", "t_gerekcesi": "Madhya Bharat'ın kuruluşu (Gvalyar'ın da içinde olduğu birleşme) — WebSearch doğrulamalı kaynak",
+      "bolge": "guney-asya", "kaynak": "bulunamadı — TDV yok (302), dayanak: standart akademik kaynak" },
+
+    "③_indor": { "id": "indor", "ad": "İndor Devleti (Holkar Hanedanı)",
+      "f": "1732-07-29", "t": "1948-05-28", "t_gerekcesi": "aynı Madhya Bharat birleşmesi",
+      "bolge": "guney-asya", "kaynak": "bulunamadı — TDV yok (302), dayanak: standart akademik kaynak" },
+
+    "④_kolhapur": { "id": "kolhapur", "ad": "Kolhapur Devleti (Şivâcî'nin İkinci Kolu)",
+      "f": "1710-01-01", "f_gerekcesi": "Tarabai'nin 1709'da rakip saray kurması, oğlu II. Şivâcî'nin 1710'da Kolhapur racası ilan edilmesi — GÜN bulunamadı, YIL net",
+      "t": "1949-03-01", "t_gerekcesi": "Bombay Eyaleti'ne resmî devir tarihi (Agreement of Merger 1 Şubat 1949, yürürlük 1 Mart 1949)",
+      "bolge": "guney-asya", "kaynak": "bulunamadı — TDV yok (302), dayanak: standart akademik kaynak" },
+
+    "⑤_baroda_YENI_kardes_oturumun_buldugu": { "id": "baroda", "ad": "Baroda Devleti (Gaikvad Hanedanı)",
+      "f": "1721-01-01", "f_gerekcesi": "Pilaji Rao Gaikvad'ın Baroda'yı Bâbürlü'den alışı — GÜN bulunamadı, YIL net",
+      "t": "1949-05-01", "t_gerekcesi": "Hindistan'a resmî katılım (WebSearch: 'Baroda merged into the Dominion of India on 1 May 1949')",
+      "bolge": "guney-asya", "kaynak": "bulunamadı — TDV yok (302, curl ile denenmedi ama meysur-racaligi/gvalyar/indor/kolhapur ile AYNI SINIF, TDV'nin kapsamadigi kesin), dayanak: standart akademik kaynak",
+      "not": "DİZİN TAMLIK II'nin buldugu dordunculu Maratha-ardili uyesi — meysur/maratha ile AYNI ARDIL deseni (§3.5.0)" }
+  },
+
+  "③ PEJENG_CELISKISI_COZULDU": {
+    "soru": "pejeng ile bali-kralliklari-pejeng AYNI boşluk mu?",
+    "CLAUDE_md_kendi_metni_§3.5.0_singhasari_bolumu": "'1292-1343 arası ada BAĞIMSIZDI (Pejeng) ve o kimlik YOK (bali-kralliklari 1478'de başlıyor — 135 yıl GEÇ)' — metin TEK bir tarihsel boşluktan (Bali'nin 1292-1343 arası Pejeng dönemi bağımsızlığı) bahsediyor, İKİ AYRI boşluktan DEĞİL.",
+    "hukum": "🟢 AYNI BOŞLUK. `§11` dizinindeki 'pejeng · bali-kralliklari-pejeng' muhtemelen aynı önerinin iki farklı oturumda önerilmiş iki farklı ADAY id'i (biri kısa 'pejeng', öteki bölge önekli 'bali-kralliklari-pejeng') — TEK künye yeterli, ALTI EKSİK BEŞ OLUR.",
+    "onerilen_tek_id": "bali-kralliklari-pejeng (proje konvansiyonu bölge önekini tercih ediyor — bkz. 'bali-kralliklari' zaten var, aynı aile)",
+    "taslak": { "f": "1292-01-01", "t": "1343-01-01", "f_not": "gün bulunamadı, Singasari'nin Bali kolunun ayrıldığı yıl", "t_kaynak": "CLAUDE.md'nin KENDİ metni zaten doğrulamış: Gajah Mada'nın Bali'yi alışı 1343", "bolge": "guneydogu-asya", "kaynak": "bu görevin bölgesi dışı (Hindistan değil Endonezya), yalnız §3.5.0 envanterini doğrulamak için kontrol edildi — AYRICA araştırılmalı" }
+  },
+
+  "OZET": {
+    "sih_penceresi": "akademik kaynak BULUNDU (Khushwant Singh), ama asıl bulgu daha büyük: veri seviyesinde 37 yıllık önceden-kullanım zaten var ve belgelenmiş",
+    "bes_taslak": "tamamlandı, hepsi f:/t: ile (bazı günler 'bulunamadı' damgalı)",
+    "pencere_sonu_sorusu": "1923-10-29 KONVANSİYON DEĞİL, muhtemelen HATALI VARSAYILAN (nepal örneğiyle kanıtlandı) — yeni taslaklar GERÇEK tarihleri kullanıyor",
+    "pejeng_celiskisi": "ÇÖZÜLDÜ — aynı boşluk, altı eksik BEŞ oldu",
+    "baroda": "eklendi, dördüncü Maratha-ardılı taslak"
+  }
+}
