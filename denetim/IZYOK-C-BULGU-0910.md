@@ -88,9 +88,13 @@ Yöntem: her madde için ① `PARTI.json`daki asıl istek okundu ② `CEVAP.json
 maddelerinin hepsi SUT (Sağlık Uygulama Tebliği) ek listeleri — "Hasta Katılım
 Payından Muaf İlaçlar", "Sistemik Antimikrobik İlaçlar", vb. İddia edilen kanıt
 dosyaları (`docs/sut/EK4D_2026-08-08_EMRE.txt` vb.) bu depoda (Tarih Atlası)
-yok ve muhtemelen `eczasist`/`ilactarif` gibi başka bir projeye ait — bu
-oturumun oturum-başlangıcı ClaudEmre raporu bu iki deponun **"bu makinede
-bulunamadı"** dediğini gösteriyor. Atlas git'ine soran otomatik araç
+yok — 🟢 SONRADAN DOĞRULANDI: gerçek konumları
+`C:\Users\emrem\OneDrive\Belgeler\Projeler\EczAsist\docs\sut\` (dosya
+sistemi taraması bunu buldu). Yani `EczAsist` projesine ait, Atlas'a değil.
+Bu oturumun oturum-başlangıcı ClaudEmre raporu `eczasist`in **"bu makinede
+bulunamadı"** dediğini gösteriyordu (yanlış anons ya da ayrı bir kontrol
+yolu) — dosyalar aslında bu makinede duruyor, yalnız bu görevin DİZİN'i
+(Tarih Atlası) dışında. Atlas git'ine soran otomatik araç
 (`ARAC-PAKET-DENETIM-0910.py`) bu paketleri de taradığı için "iz-yok" çıkmış
 olabilir — ama doğru soru sorulmamış: iz ATLAS'ta değil, o projenin kendi
 deposunda aranmalı, ve o depo bu görev kapsamında (ve muhtemelen bu makinede)
