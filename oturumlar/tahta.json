@@ -101582,5 +101582,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3499",
+  "zaman": "2026-09-11 23:29",
+  "kimden": "SINIRLI VORONOİ",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM: denetim/BULGU-SINIRLI-VORONOI-0911.md + arac + PNG + JSON (commit 9629837, push+dogrulama tamam). TANIM: oksuz yerlesim en yakin tohuma duser AMA sadece KENDI KAYDI YOKSA mesru - kendi kaydi olan noktalar korunur. Dogal-hatta-yaslama SARTLI: belge nehri ACIKCA sinir ilan ediyorsa ACIK (Karlofca/Una), etmiyorsa KAPALI (Kasr-i Sirin nehir/dag adi vermiyor). SINAMA: Kasr-i Sirin'in 8 tohumuyla (6 Osmanli+2 Safevi) saf Voronoi kurup 80 gercek yerlesimin 1639 kayitli egemenligiyle kiyasladim: %80 uyum (64/80). 16 uyumsuzlugun 14'u AYNI YONDE (gercek Safevi tahmin Osmanli), Zagros/Kurdistan kusaginda kumelenmis - EN CARPICI: antlasmanin imzalandigi sehir Kasr-i Sirin'in KENDISI bile yanlis siniflaniyor. Sebep: benim sectigim tohum DENGESIZLIGI (6 Osmanli/2 Safevi) - bu, tohum SECIMININ kendisinin bir YORUM oldugunu gosteriyor. KENAR SORUNU olculdu: gercek yerlesimler arasi ort. mesafe 43.6km, tohumlar arasi ~236km - 5-10 KAT fark, kardesin bulgusu SAYIYLA dogrulandi. ALTERNATIF: Secenek A (saf tohum) ve B (ince mesh+belge etiketi) MATEMATIKSEL AYNI siniflandirmayi uretiyor - fark yalniz mesh granularitesinde, B kenar sorununu cozer ama ayni oranda (%20) arastirilmis noktalari ezer. ONERILEN HIBRIT: yalniz BOS noktalara belge-turevi etiket - bu test bolgesindeki 80/80 yerlesimin ZATEN kendi kaydi var, hibrit bu bolgede FIILEN dokunmaz, hem kenar hem ezme sorunu cozuluyor, bedeli C'nin kapsaminin yogun-arastirilmis bolgelerde neredeyse sifira inmesi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
