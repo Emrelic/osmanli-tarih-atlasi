@@ -1,7 +1,8 @@
 {
-  "gorev": "LUBNAN KUNYE HAZIRLIGI",
-  "oturum": "LÜBNAN KÜNYE",
+  "gorev": "LUBNAN KUNYE HAZIRLIGI (+ HARFUS KUNYE ile GUNCELLENDI)",
+  "oturum": "LÜBNAN KÜNYE → HARFÛŞ KÜNYE (aynı oturum, üç künyeyi bitirdi)",
   "tarih": "2026-09-11",
+  "guncelleme_notu": "Bu dosya HARFÛŞ KÜNYE görevinde 3. künye eklenerek ve ⑥ bölümüyle (zaman-örtüşme/toprak analizi) GENİŞLETİLDİ. ① artık ÜÇ künye taşıyor.",
   "durum": "HAZIR — data/devletler.js DONUK oldugu icin YAZILMADI, bu dosya oneri/hazirliktir",
 
   "①_kunye_taslaklari": [
@@ -50,8 +51,44 @@
         {"t": "1861-06-09", "tur": "kurulus", "b": "Cebel-i Lübnan Nizamnâmesi imzalandı, mutasarrıflık kuruldu", "kaynak": "TDV lubnan — \"9 Haziran 1861'de imzalanmış ve ardından bir fermanla yürürlüğe konmuştur\""},
         {"t": "1915-07-11", "tur": "son", "b": "Osmanlı Devleti mutasarrıflığı tek taraflı olarak feshetti", "kaynak": "TDV lubnan — \"Osmanlı Devleti tarafından 11 Temmuz 1915'te tek taraflı olarak ilga edilmiş\""}
       ]
+    },
+    {
+      "id": "harfusogullari",
+      "ad": "Harfûşoğulları (Baalbek Emirliği)",
+      "tur": "emirlik",
+      "bolge": "arabistan",
+      "f": "1521-01-01",
+      "f_notu": "GÜN/AY BİLİNMİYOR — TDV `harfus` maddesi yalnız 'Canbirdi'nin isyanı esnasında Harfûşoğulları Ba'lebek bölgesine yerleşmişlerdir' diyor. İsyanın kendisi AYRI bir TDV maddesinden (`canbirdi-gazali`) tarihlendirildi: başlangıç Kasım 1520, bastırılma 27 Ocak 1521 (Mastaba Savaşı). Yerleşme bu ~14 aylık pencerede bir yerde — kesin gün YOK, yıl olarak 1521 (isyanın SONU) alındı, D084 emsali (komşu maddenin gününü kullanmak kendi gün seçmekten dayanaklıdır) burada bir KOMŞU OLAYIN yılını ödünç alma biçiminde uygulandı; İSTENİRSE 1520-11-01 de savunulabilir — ikisi arasında YIL FARKI olabileceği açıkça belirtiliyor.",
+      "t": "1850-01-01",
+      "t_notu": "GÜN BİLİNMİYOR — TDV `harfus` maddesi yalnız 'hâkimiyetlerini XIX. yüzyılın ortalarına kadar sürdürmüşlerdir' diyor (yıl YOK). Kardeş TDV maddesi `balebek` AYNI BÖLGE için kesin yıl veriyor: '1850'de Bâbıâli'nin yeni düzenlemesiyle Şam vilâyetine tâbi bir kaza merkezi yapıldı' — bu, Harfûş'un yerel hakimiyetinin BİÇİMSEL SONU ile aynı reform olduğu VARSAYILARAK 1850 kullanıldı (D084 emsali, çapraz-madde tarihlendirme). Bu bir ÇIKARSAMA, TDV'nin `harfus` maddesinin kendisi 1850'yi YAZMIYOR — açıkça damgalanıyor.",
+      "harita": "harfusogullari",
+      "harita_renk_onerisi": "#8a6a3a (toprak kahverengisi) — bkz. ③",
+      "tabi": [{"f": "1521-01-01", "t": "1850-01-01", "ust": "osmanli"}],
+      "tabi_notu": "TÜM ÖMRÜ tâbi, künyenin kendi f/t'siyle birebir (erdel emsali).",
+      "kaynak": "harfus",
+      "kaynak_notu": "TDV https://islamansiklopedisi.org.tr/harfus — HTTP 200, İÇERİK OKUNARAK doğrulandı. ⚠️ Bu slug'ın BİRİNCİL konusu Mısır'da 'harfûş' (dilenci/yoksul) toplumsal terimidir (Memlük dönemi sadaka kayıtları) — Harfûşoğulları hanedanı maddenin İKİNCİL/alt bölümü. Bu bir §4② TUZAK ALT-SINIFI: canlı slug + DOĞRU madde ама TEK MADDE İKİ AYRI KONUYU birleştiriyor. İçerik dikkatle ayıklanarak yalnız hanedanla ilgili cümleler alındı.",
+      "kaynak_ek": "TDV https://islamansiklopedisi.org.tr/canbirdi-gazali — isyan tarihleri için (f_notu'da).",
+      "ozet": "1516 Osmanlı fethinden kısa süre sonra, Canbirdi Gazâlî isyanı (1520-21) sırasında Baalbek bölgesine yerleşen bir yerel hanedan; Ba'lebek ve Bikâ' vadisinde, Osmanlı Şam eyaleti içinde yarı-özerk hakimiyet kurdu, Ma'noğulları/Şihaboğulları ile ZAMAN ZAMAN ÇATIŞTI (aynı toprak İÇİN değil, komşu/rakip güçler olarak), 19. yüzyıl ortasındaki Tanzimat reformlarıyla yerini doğrudan Osmanlı kaza idaresine bıraktı.",
+      "kronoloji": [
+        {"t": "1521-01-01", "tur": "kurulus", "b": "Harfûşoğulları, Canbirdi Gazâlî isyanı sırasında Ba'lebek bölgesine yerleşti", "kaynak": "TDV harfus — \"Canbirdi'nin isyanı esnasında Harfûşoğulları Ba'lebek bölgesine yerleşmişlerdir.\" (isyan tarihi: TDV canbirdi-gazali — bastırılma 27 Ocak 1521)"},
+        {"t": "1601-01-01", "tur": "isyan", "b": "XVII. yüzyıl başından itibaren Baalbek/Bikâ hakimiyeti için Harfûş emirleri arasında iç rekabet başladı", "kaynak": "TDV harfus — \"XVII. yüzyıl başlarından itibaren Ba'lebek ve Bikā'da hâkimiyet için Harfûş emîrleri arasında rekabet çıkmış\""},
+        {"t": "1850-01-01", "tur": "son", "b": "Bölge Tanzimat reformuyla doğrudan Osmanlı kaza idaresine döndü, Harfûş hakimiyeti sona erdi", "kaynak": "ÇAPRAZ-TARİHLENDİRME (harfus + balebek) — bkz. t_notu"}
+      ]
     }
   ],
+
+  "①b_zaman_ortusmesi_ve_toprak_analizi": {
+    "soru": "Harfûş (1521-1850) ile Lübnan Emirliği (1516-1842) AYNI YILLARDA — aynı toprak mı, ayrı toprak mı? (koordinatörün §8 uyarısı)",
+    "CEVAP": "AYRI TOPRAK — çakışma DEĞİL, normal komşu-devlet eşzamanlılığı (DİZİN TAMLIK görevinde ölçülen 'çok-devletli bölge' örüntüsünün BİREBİR aynısı).",
+    "kanit": [
+      "TDV `harfus`: Harfûş toprağı AÇIKÇA 'Ba'lebek ve civarı' / 'Ba'lebek ve Bikā'' — Beqaa vadisi, Anti-Lübnan dağlarının BATISINDA, Lübnan dağının DOĞU eteğinde.",
+      "Lübnan Emirliği'nin (Ma'n/Şihab) toprağı Şûf/Kesrevan/Metn — Lübnan dağının BATI yamacı ve kıyı gerisi, coğrafî olarak Beqaa'dan AYRI bir vadi/sırt sistemi.",
+      "TDV `harfus` — açıkça İKİSİNİN BİRBİRİNE MÜDAHALE ettiğini ama AYNI TOPRAĞI PAYLAŞMADIĞINI gösteriyor: 'Harfûşoğlu emîrleri ... bazan Şam'daki mahallî kuvvetlerden Ma'noğulları veya Şihâbîler tarafından te'dip edilmişlerdir' — yani Ma'n/Şihab, Osmanlı adına HARFÛŞ'U DIŞARIDAN CEZALANDIRAN bir komşu güç, kendi toprağını yöneten bir RAKİP hanedan değil.",
+      "Bu ilişki tam olarak devletler.js'teki YÜZLERCE eşzamanlı-komşu-devlet çiftiyle AYNI SINIF (bkz. DİZİN TAMLIK görevi, Metod A/B: bir bölgede onlarca paralel künye normaldir, çakışma SAYILMAZ)."
+      ],
+    "SONUC_§8": "§8'in 'dönemler çakışmamalı' kuralı BİR TEK NOKTANIN/TOPRAĞIN İKİ SAHİBİ OLAMAZ demektir — burada İKİ AYRI TOPRAK parçası (Beqaa vs Şûf/Kesrevan) söz konusu, dolayısıyla KURAL İHLAL EDİLMİYOR. Hiçbir yerleşim noktası HEM lubnan-emirligi HEM harfusogullari kid'ini AYNI ANDA taşımayacak — bu, ⑦'de (nokta dosyasında) da doğrulandı: Baalbek (harfusogullari) ile Deyrülkamer (lubnan-emirligi) arası 55+ km.",
+    "damgalanmasi_gereken_belirsizlik": "TDV, Harfûş'un toprağının Şûf'a KESİN OLARAK hiç taşmadığını da açıkça YAZMIYOR ('doesn't confirm' ama 'doesn't deny' de değil — konuşmuyor). Kanıt DOLAYLI (coğrafî + 'te'dip eden komşu' ilişkisi) — DOĞRUDAN bir 'sınır şuradaydı' cümlesi TDV'de YOK. Bu yüzden hüküm '%100 kesin' değil, 'kaynağın izin verdiği EN MAKUL okuma' olarak sunuluyor."
+  },
 
   "②_yerlesim_sinir_olcumu": {
     "yontem": "arac/girdi.yukle() ile 3808 noktalık MERKEZI VERİ okundu (D023: kendi ayrıştırıcım yazılmadı, mevcut yükleyici kullanıldı). Ad taraması + 33.0-34.7K/35.1-36.7D kutu taraması yapıldı (tüm Lübnan + Şam kenarı).",
@@ -63,7 +100,7 @@
     },
     "HUKUM": "🔴 (a) Cebel-i Lübnan'ın GERÇEK toprağı (Emirliğin/Mutasarrıflığın fiilen yönettiği dağlık iç kesim) için HİÇBİR nokta yok — bu §2'nin tarif ettiği tam boşluk: 'noktası olmayan bölge en yakın peteğe emilir'. (b) Beyrut/Sayda/Trablusşam TARİHSEL OLARAK Emirliğin/Mutasarrıflığın kendisi DEĞİL — bunlar ayrı Osmanlı sancak merkezleriydi (kıyı şehirleri çoğu zaman Şam/Sayda eyaletine bağlıydı, Emirliğin doğrudan idaresinde değildi). Bu üç noktaya v:kid:lubnan-emirligi eklemek COĞRAFİ OLARAK YANLIŞ olur — kendi başlarına Osmanlı doğrudan sancak merkezleri olarak KALMALILAR.",
     "SONUC": "⇒ KÜNYE YAZILSA BİLE, YENİ YERLEŞİM NOKTASI (Deyrülkamer/Beyteddin bölgesine en az 1) EKLENMEDEN haritada HİÇBİR GÖRSEL DEĞİŞİKLİK OLMAYACAK. Bu ayrı bir iş (yerleşim araştırma oturumu) — künye hazırlığı bunu ÇÖZMÜYOR, yalnız GÖRÜNÜR KILIYOR.",
-    "olculemeyen": "Zahle/Baalbek/Deyrülkamer/Beyteddin için TAM koordinat + kuruluş tarihi araştırması yapılmadı (kapsam dışı, ayrı iş)."
+    "olculemeyen": "Zahle/Deyrülkamer/Beyteddin için TAM koordinat + kuruluş tarihi araştırması bu görevde yapılmadı (kapsam dışıydı). 🟢 GÜNCELLEME (HARFÛŞ KÜNYE görevi): Baalbek artık ÇÖZÜLDÜ — ayrı bir künye (harfusogullari) gerektirdiği ölçüldü, bkz. HAZIRLIK-LUBNAN-NOKTA-0911.json ve bu dosyanın ①b/① bölümleri. Deyrülkamer'in koordinatı ve genel bölgesel konumu HAZIRLIK-LUBNAN-NOKTA-0911.json'da VAR, ama 'Ma'n/Şihab'ın BAŞKENTİYDİ' iddiası TDV/Britannica ile doğrulanamadı — dogrulanmadi:true damgasıyla bırakıldı (bkz. o dosya)."
   },
 
   "③_renk_olcumu": {
@@ -78,15 +115,17 @@
     },
     "onerilen_renk": "#8a4b9e — 'Fenike moru' (Sayda/Sur'un antik mor boya ticaretine gönderme, tema uygun)",
     "olculen_DE_min": "61,8 (en yakın proxy komsu: sirbistan/osmanli-kirmizisi) — 12,0 eşiğinin ÇOK üstünde, güvenli",
-    "diger_adaylar_da_test_edildi": "3 alternatif mor/leylak tonu da denendi (#7a4b8a, #9a5aa8, #5d4b9e), hepsi min ΔE 51-62 arası — hiçbiri mevcut yeşil/turuncu/teal kümesine yaklaşmıyor. Öneri KÜMEYE bakılarak seçildi (D koordinatörün uyarısı: tek komşuya değil kümeye bak)."
+    "diger_adaylar_da_test_edildi": "3 alternatif mor/leylak tonu da denendi (#7a4b8a, #9a5aa8, #5d4b9e), hepsi min ΔE 51-62 arası — hiçbiri mevcut yeşil/turuncu/teal kümesine yaklaşmıyor. Öneri KÜMEYE bakılarak seçildi (D koordinatörün uyarısı: tek komşuya değil kümeye bak).",
+    "harfusogullari_renk_onerisi": "#8a6a3a ('toprak kahverengisi', Bikâ vadisinin tarım/toprak temasına gönderge) — PROXY komşu kümesine (yukarıdaki 9 renk + ÖNERİLEN lubnan-emirligi rengi #8a4b9e) karşı test edildi, min ΔE 31,0 (en yakın: kirim #b45a1e) — eşiğin (12,0) rahatça üstünde. AYNI PROXY SINIRLAMASI geçerli: gerçek Voronoi-komşu ΔE ancak bir petek koşusundan sonra ölçülebilir."
   },
 
   "④_osmanli_iliskisi_karari": {
-    "karar": "İKİSİ DE v: (tâbi) — s: (yabancı) DEĞİL",
+    "karar": "ÜÇÜ DE v: (tâbi) — s: (yabancı) DEĞİL",
     "gerekce": [
       "Lübnan Emirliği: TDV'nin kendi anlatımı bunu Osmanlı'nın 1516 fethi SONRASI kurduğu bir YEREL İDARE DÜZENLEMESİ olarak veriyor ('Osmanlı yönetimine giren bölgenin idaresiyle ilgili yapılan yeni düzenleme sonunda ... Ma'noğulları'na verildi') — bağımsız bir dış devlet değil, Osmanlı sistemi İÇİNDE bir özerklik. Boğdan/Eflak/Kırım/Sırbistan emsali BİREBİR uyuyor.",
       "Cebel-i Lübnan Mutasarrıflığı: bizzat bir OSMANLI SANCAĞI (mutasarrıflık = sancak yöneticiliği), yalnız valisi uluslararası garantiyle atanıyordu. Bu da Sırbistan Prensliği'nin 1856 sonrası (Paris Antlaşması garantili) statüsüyle AYNI SINIF.",
-      "CLAUDE.md §3: 'OSMANLI ile tâbi çelişki SAYILMAZ' kuralı burada TAM olarak işliyor — ikisi de Osmanlı sistemi içinde, ayrımın bilerek yan yana durduğu bir örnek daha."
+      "Harfûşoğulları: TDV 'Şam'daki Osmanlı idaresiyle mahallî kuvvetler arasında çıkan anlaşmazlıktan her fırsatta faydalanmışlar' diyor — yani OSMANLI SİSTEMİ İÇİNDE hareket eden, zaman zaman Şam/Trablus/Halep beylerbeyileri tarafından 'te'dip edilen' (yani üst otoriteyi TANIYAN) bir yerel güç. Bağımsız dış devlet değil, Ma'n/Şihab ile AYNI SINIF tâbi yapı.",
+      "CLAUDE.md §3: 'OSMANLI ile tâbi çelişki SAYILMAZ' kuralı burada TAM olarak işliyor — üçü de Osmanlı sistemi içinde, ayrımın bilerek yan yana durduğu bir örnek daha."
     ],
     "d_alani_notu": "Künyenin kendisi 'd:' (Osmanlı doğrudan) alanına GİRMİYOR — bu bir devletler.js künyesi, yerleşim d: alanı ayrı bir konudur ve ② başlığında ele alındı (Beyrut/Sayda/Trablusşam zaten d: ile doğru modellenmiş, DEĞİŞMEMELİ)."
   },

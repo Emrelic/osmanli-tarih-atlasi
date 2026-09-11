@@ -16,8 +16,9 @@
       "ad_onerisi": "Deyrülkamer (Dayr al-Kamer)",
       "lat": 33.6989, "lon": 35.5619,
       "kur": "yok — Haçlı dönemi kayıtlarında (1257/1261, Teutonic Order arazi satış belgeleri) zaten köy olarak geçiyor, atlas ufkundan (1281) ÖNCE var; kur: alanı bu yüzden BOŞ bırakıldı (kuruluş değil, siyasî önem kazanma tarihi önemli).",
-      "kaynak_durumu": "🟡 TDV'de 'deyrulkamer'/'deyr-el-kamer' slug'ı YOK (302, ölçüldü). Wikipedia (Deir al-Qamar maddesi) İŞARETÇİ olarak kullanıldı: Fahreddin II döneminde (~1590'lar) Ma'n hanedanının başkenti oldu (önceki başkent Baaklîn'den taşındı, aşağıya bkz). AKADEMİK KAYNAKLA (ör. Kamal Salibi, 'A House of Many Mansions') TEYİT EDİLMEDİ — zaman kısıtı. `kaynak:` alanına 'bulunamadı — TDV'de madde yok, Wikipedia işaretiyle bulundu, akademik teyit GEREKİYOR' yazılmalı.",
-      "donem_zinciri_onerisi": "s: memluk (1281→1516) · d: osmanli DOĞRUDAN (1516→?) · v: kid:lubnan-emirligi, statu:özerk (Ma'n başkenti olduğu ~1590-1697 ve Şihab dönemi devam) — 🔴 AMA BU ZİNCİRİ TAM KURMAK İÇİN Ma'n'ın Deyrülkamer'i başkent yapma GÜNÜ akademik kaynaktan doğrulanmalı, şu an YOK.",
+      "kaynak_durumu": "🔴 KAPANDI (HARFÛŞ KÜNYE görevinde tekrar arandı) — TDV `deyrulkamer`/`deyr-el-kamer` YOK (302). Britannica'da da AYRICA arandı ('Fakhr ad-Din II' maddesi): rulership 1593-1633 (TDV 1585-1635 diyor, KÜÇÜK FARK — ikisi de künyenin f/t'sinden ayrı, künye Ma'n HANEDANININ ömrünü [1516-1697] tarif ediyor, tek hükümdarın saltanatını değil) doğrulandı AMA 'Deyrülkamer başkentti' iddiası Britannica'da da YOK. ⇒ KOORDİNATÖRÜN TALİMATI UYGULANDI: `dogrulanmadi:true` damgasıyla bırakılıyor. Nokta GERÇEK ve KOORDİNATLARI DOĞRU (standart coğrafi konum) — yalnız 'Ma'n/Şihab'ın BAŞKENTİYDİ' cümlesi TDV/Britannica ile TEYİT EDİLEMEDİ, yalnız Wikipedia diyor. `dogrulanmadi:true` alanı önerilir (VERI-YAPISI.md'de böyle bir alan şu an TANIMLI DEĞİL — bu da bir öneri, coordinator/Oturum 0 karar verir).",
+      "kaynak_durumu_ALTERNATIF": "🟢 NOKTANIN KENDİSİ 'başkent' olmadan da GEÇERLİ bir çapa: TDV `lubnan` maddesi Fahreddin'in (Ma'noğlu) 1585-1635 arası 'Lübnan'a nüfuzunu genişlettiğini' ve TDV `lubnan` yine Şihab döneminin '~1697'de Şûf bölgesinde başladığını' AÇIKÇA doğruluyor — Deyrülkamer FİZİKEN Şûf bölgesinde bir köydür, yani EMİRLİĞİN GENEL NÜFUZ SAHASI İÇİNDE olduğu TDV ile dolaylı ama sağlam biçimde destekleniyor. Önerim: `v:` kaydını 'Ma'n/Şihab başkentiydi' iddiasına DEĞİL, 'Şûf bölgesinin bir parçasıydı' gerekçesine dayandır — daha zayıf ama TDV'yle DOĞRUDAN uyumlu bir gerekçe.",
+      "donem_zinciri_onerisi": "s: memluk (1281→1516) · d: osmanli DOĞRUDAN (1516→?) · v: kid:lubnan-emirligi, statu:özerk (1516→1842, TDV'nin doğruladığı Şûf-bölgesi nüfuzuna dayanarak — BAŞKENT iddiasına değil) — künye kendisi zaten f:1516→t:1842 olduğu için Deyrülkamer'in v: penceresi künyeyle TAM örtüşür, §3.5.0 şartı (künye penceresi dönemi kapsamalı) sağlanıyor.",
       "mukerrer_uyarisi": "🔴 Beyteddin'e 2,08 km, Baaklîn'e 1,95 km — ÜÇÜ DE BİRBİRİNE 3 km EŞİĞİNİN İÇİNDE. Bu bir hata değil, GERÇEK TARİH: aynı hanedanın başkenti üç kez (Baaklîn→Deyrülkamer→Beyteddin) 3 km'lik bir alan içinde taşındı. ⇒ ÖNERİM: ÜÇÜNÜ DE AYRI NOKTA YAZMA (D002 mükerrer riski) — TEK nokta (Deyrülkamer, ortadaki ve en uzun süre başkent kalan) seç, başkent taşımalarını o noktanın kronoloji/açıklama metninde anlat (VERI-YAPISI.md'deki `bk:` zamanlı başkent alanı BİR KÜNYE İÇİN — burada YERLEŞİM için böyle bir alan yok, bu yüzden metinde anlatılmalı)."
     },
     {
@@ -32,8 +33,8 @@
         "\"XVII. yüzyılda ... Ba'lebek, Şam eyaletine bağlı bir subaşılık ve 150 akçelik bir kaza idi\" (Evliya Çelebi)",
         "\"Bâbıâli'nin yeni düzenlemesiyle Şam vilâyetine tâbi bir kaza merkezi yapıldı\" (1850)"
       ],
-      "🔴_YAN_BULGU": "Baalbek'i yöneten yerel hanedan HARFÛŞ AİLESİ'dir — Ma'noğulları/Şihaboğulları (Lübnan Emirliği) İLE AYNI DEĞİL, AYRI BİR YEREL HANEDAN. ⇒ Baalbek'in `v:` kaydı `kid:lubnan-emirligi` OLAMAZ; ayrı bir künye ('harfus-emirligi' veya benzeri) gerekir VE O KÜNYE DE DEVLETLER.JS'TE YOK. Bu, DİZİN TAMLIK görevinin bulduğu listeye eklenebilecek ÜÇÜNCÜ bir aday — kapsam dışına taştığı için burada yalnız İŞARETLİYORUM, kendi künyesini hazırlamadım.",
-      "donem_zinciri_onerisi": "s: memluk (1281→1516) · d: osmanli DOĞRUDAN (1516→1850, Harfûş ailesi İÇ TÂBİ olarak — künye yoksa `v:` k:\"Harfûş ailesi\" serbest metinle, `kid` OLMADAN yazılabilir, D045 usulü) · d: devam (1850→1918, resmi kaza)."
+      "🟢_YAN_BULGU_COZULDU": "Baalbek'i yöneten yerel hanedan HARFÛŞ AİLESİ'dir — Ma'noğulları/Şihaboğulları (Lübnan Emirliği) İLE AYNI DEĞİL, AYRI BİR YEREL HANEDAN. GÜNCELLEME (HARFÛŞ KÜNYE görevi): künye taslağı artık HAZIR — `harfusogullari` (id), bkz. HAZIRLIK-LUBNAN-0911.json. Zaman-örtüşme (1521-1850 vs Lübnan Emirliği 1516-1842) AYRI TOPRAK olduğu için §8 ihlali DEĞİL — ölçüldü, bkz. o dosyanın ①b bölümü.",
+      "donem_zinciri_onerisi": "s: memluk (1281→1516-08 Mercidabık/genel Suriye fethi) · d: osmanli DOĞRUDAN (1516→1850, ARTIK kid VAR: v: kid:harfusogullari, statu:özerk, f:1521-01-01→t:1850-01-01) · d: devam (1850→1918, resmi kaza, TDV: '1850'de ... kaza merkezi yapıldı')."
     },
     {
       "oncelik": "ÖNERİ (3. seçim) — TDV kaynaklı, ayrı sancak zinciri (Emirlik DEĞİL ama bölgesel tamlık için değerli)",
@@ -69,6 +70,13 @@
   },
 
   "④_ek_bulgu_ucuncu_kunye_adayi": {
-    "not": "Bu görevde ARANMADI ama Baalbek araştırması sırasında KENDİLİĞİNDEN çıktı: 'Harfûş ailesi' — 1516'dan 1850'ye kadar Baalbek ve çevresini yöneten, Ma'noğulları/Şihaboğulları'ndan TAMAMEN AYRI bir yerel hanedan (TDV `balebek` kaynaklı). devletler.js'te böyle bir künye YOK. Koordinatöre bildiriliyor, kendi künyesini HAZIRLAMADIM (kapsam dışı, zaman kısıtı) — istenirse ayrı bir 'HARFUŞ KÜNYE' görevi açılabilir."
+    "not": "🟢 ÇÖZÜLDÜ (HARFÛŞ KÜNYE görevi). Baalbek araştırması sırasında KENDİLİĞİNDEN çıkan 'Harfûş ailesi' (1521-1850, Baalbek/Bikâ) için künye taslağı artık hazır — HAZIRLIK-LUBNAN-0911.json'a eklendi. Üç künye + iki nokta artık TEK TUTARLI PAKET (bkz. o dosyanın ①b bölümü: zaman-örtüşme AYRI TOPRAK olduğu için §8 sorunu yok)."
+  },
+
+  "⑤_paket_ozeti_UC_KUNYE_IKI_NOKTA": {
+    "kunyeler": ["lubnan-emirligi (1516-1842, Şûf/Kesrevan)", "cebel-i-lubnan-mutasarrifligi (1861-1915, aynı bölge)", "harfusogullari (1521-1850, Baalbek/Bikâ — AYRI TOPRAK)"],
+    "noktalar_zorunlu_ve_guclu": ["Deyrülkamer (33.6989,35.5619) → v:kid:lubnan-emirligi", "Ba'lebek (34.0059,36.2181) → v:kid:harfusogullari"],
+    "noktalar_istege_bagli": ["Sûr/Tyre (33.2704,35.2038) — Emirlik/Harfûş dışı, salt bölgesel tamlık için"],
+    "acik_kalan_tek_madde": "Deyrülkamer'in 'başkentti' iddiası dogrulanmadi:true damgalı kalıyor; nokta ve v: bağı KENDİSİ (Şûf bölgesi nüfuzu üzerinden) sağlam."
   }
 }
