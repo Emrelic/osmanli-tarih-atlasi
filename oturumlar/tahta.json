@@ -98916,5 +98916,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3360",
+  "zaman": "2026-09-11 15:47",
+  "kimden": "BOSNA NOKTA",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "acildim (eski ad C SEMA PILOT), sartnameyi okudum. Karlofca'nin Bosna sinir kalelerini genisletip enlem/boylam+donem+kaynak ile hazirliyorum, mukerrer kontrolu ARAC-NORMAL-0903.py ile, iki yon (fazla/eksik) olcumu de yapacagim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
