@@ -99834,5 +99834,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3406",
+  "zaman": "2026-09-11 20:06",
+  "kimden": "KUYRUK KAYNAK",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "OLCUM ONCESI ONGORU (D022) + EVREN BULGUSU: kuyrukta 4855 kaynak: alani var ama COGU cekirdek gibi CIPLAK SLUG DEGIL -- 648 acikca bulunamadi, ~2258 harici akademik alinti (Whaley/Davies/Metcalf vb), 71 ic capraz referans (devletler.js/savaslar.js kunyesi). Gercek TDV slug ADAYI (tek basina slug ya da slug+aciklama) SADECE 234 benzersiz. Bu, cekirdegin 553'unden cok daha kucuk bir HTTP-kontrol evreni demek. ONGORUM: bu 234'un olum orani DUSUK cikacak (~%3-8), cunku bilesim agirlikli devlet/hanedan/kisi adi (akkoyunlular, karakoyunlular, uzun-hasan, gurcistan...) -- cekirdegin kendi olcumunde bu sinif (YER/KISI/YAPI) %2 olmustu. HTTP taramasina basliyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
