@@ -559,7 +559,7 @@ ekseninde, öteki alan ekseninde.
 | 10 | Kronoloji dalga 2 — Avrupa boşlukları | %0 | %80 | `kuzey-avrupa` 7 künye kuruluş **%43** · `bati-avrupa` son %45 · `orta-avrupa` son %55 · `dogu-avrupa` son %61 |
 | 11 | **Emre görev ①**: dizin TAMLIK denetimi | %0 | %85 | *"1281-1923 arası tüm devletlerin var olup olmadığı"* — bu kronoloji dolumundan AYRI iş: eksik KÜNYE aramak |
 | 12 | **Emre görev ③**: tenha bölgelerde ŞEHİR | %0 | %80 | *"devletler şehirler kronolojiler"* — şehir ayağı yerleşim noktası işi, `§2` emilme kuralına bağlı |
-| 13 | **Emre (K)**: küresel görünüm planı | %10 | %70 | maplibre-gl 4.7.1'de `setProjection` YOK, v5 gerekli. `setTerrain` VAR. Risk: 37 katman + 9 sefer katmanı + 481 DOM işaretçisi v5'te sınanmadı |
+| 13 | ✅ **Emre (K)**: küresel görünüm — **BİTTİ**, `maplibre-gl 5.24.0` + küre AYRI KİP | %100 | %100 | 🔴 BAYAT DAMGA DÜZELTİLDİ (11 Eylül, `KÜRESEL GÖRÜNÜM` ölçtü): `setProjection` v5.24.0'da VAR ve CANLI (`js/app.js:9011-9158`, `KURE_ACIK` bayrağı, `index.html:86` checkbox'ı). Gerçek sayılar: **39 katman** (37 değil) · **481 DOM işaretçisi DOĞRU** (173, erken ölçüm anının hatasıydı — bkz. kaynağın kendi EK'i) · arka yüz gizleme entegre (`KURE_PAY_DER`). Kaynak: `denetim/BULGU-KURE-0904.md` (4 Eylül + 5 Eylül EK) · `denetim/HUKUM-KURE-ARKA-YUZ-0906.md` (6 Eylül) |
 
 
 
