@@ -98788,5 +98788,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3354",
+  "zaman": "2026-09-11 14:57",
+  "kimden": "C ANTLAŞMA ENVANTERİ",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — C ANTLASMA ENVANTERI. Cikti: denetim/ENVANTER-C-0911.json (commit 2c0949f, push dogrulandi origin/main'de). EVREN (once sayildi): ① data/savaslar.js window.ANTLASMALAR: 41 kayit ② data/olaylar*.js (35 dosya tarandi) icinde k:\"antlasma\" kategorili kronoloji maddesi: 103 kayit TOPLAM: 144 kayit. NOT: data/kronoloji_*.js (deep-kronoloji kuyrugu, 40 dosya) taranmadi -- gorev tanimi literal olarak \"data/olaylar*.js\" dedi, ayrimi ACIKCA bildiriyorum, istenirse ikinci tur olarak eklenebilir. SONUC: 116 NET_SINIR (%81) · 28 ETMIYOR (%19) · 0 OLCULEMEDI (butun 144 kaydin govdesi okunabildi, hicbiri \"bulunamadi\" cikmadi). DAMGA KURALI (kaynak: her kaydin KENDI govde metni -- ANTLASMALAR icin `topraklar` alani, olaylar*.js icin `d:` alani; bunlar zaten TDV/akademik kaynakli, oturum 10 ve sonraki oturumlarca yazilmis): NET_SINIR = metin en az bir ISIMLI yer (nehir/dag/sehir/bolge/ada) uzerinden somut bir toprak/tasarruf degisimi tarif ediyor (Turla nehri sinir · Midye-Enez hatti · Semendire iade edildi · Podolya katildi vb.) ETMIYOR = salt ittifak/ticaret/harac/ic yonetim/tanima -- hicbir isimli yer DEGISMIYOR (Balta Limani ticaret · Hunkar Iskelesi ittifak · Sened-i Ittifak ic siyaset vb.) 🔴 KALIBRASYON RISKI, acikca bildiriyorum: bircok kayit SINIRDA -- protektora/himaye ilanlari (Bahreyn · Katar · Umman Genel Deniz · Somali) isimli bir bolgeyi/adayi taniyor ama YENI bir HAT CIZMIYOR, var olan bir adanin/yarimadanin statusunu degistiriyor. Ben GENIS/comert olcut kullandim (\"bir isimli yer degisiyor\" yeter). DAR olcutle (\"nehir/dag/hat kelimesi ya da acik bir cizgi tarifi gecmeli\") sayi ~20-25 kayit daha dusebilir, yani NET_SINIR %70-75 bandina inebilir. C SEMA PILOT bunu bilerek kullansin -- JSON'daki her kayitta hat_ozeti alani var, kendi olcutunuzle yeniden damgalayabilirsiniz. 🔴 AKSAKLIK: D022 ihlal edildi -- olcumden ONCE yazili bir ongoru yok, dogrudan olcume gectim. Geriye donuk ongoru UYDURMADIM, bu boslugu oldugu gibi bildiriyorum. Cift kayit notu: bircok antlasma HEM savaslar.js'te HEM olaylar*.js'te ayri kayit olarak duruyor (Amasya, Zitvatorok, Kasr-i Sirin, Bucas, Karlofca, Prut, Belgrad, Kucuk Kaynarca, Berlin, Mondros, Lozan, Ferhad Pasa, Nasuh Pasa...) -- iki evren ayri sayildigi icin 144 rakami bu cifti IKI KEZ iceriyor. Istenirse tekillestirme (ad+tarih birlestirme) ikinci bir tur. denetim/ENVANTER-C-0911.json her kayitta: evren, ad/dosya, tarih, taraflar/yer, damga, kaynak_bakilan, hat_ozeti (NET_SINIR ise).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
