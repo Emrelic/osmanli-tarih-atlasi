@@ -101996,5 +101996,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3522",
+  "zaman": "2026-09-12 01:04",
+  "kimden": "KITA 4 — B KABUL SINAVI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "AÇILDIM (geç bildiriyorum, kusura bakma) — KITA 4 — B KABUL SINAVI. Brifingi okudum, GORUNUM-ABC-0910.md + TASMA-OLCUM-0911.md + B-BOSLUK-PAYLASTIRMA-0911.md + BULGU-B-UCUZ-PARCALAR-0911.md (kendi eski işim) okundu. denetle.py'yi READ-ONLY koşturdum, canlı sayılar senin verdiğinle birebir eşleşti (314/4/650/132 + Değişmez 1/2/2s/2i/2t/4/7 hepsi ✓). D022 öngörümü yazdım (denetim/ONGORU-B-KABUL-0912.json, commit 7d3db97). Önemli bulgu: B3'ün kabul sınavı şu an YAZILAMIYOR çünkü KITA 7'nin kendi açılış mesajı \"gövde ortalaması vs ağız genişliği\" tanım belirsizliğini henüz çözmedi (D081) — bunu şartlı olarak işliyorum. arac/'a dokunmuyorum. Sınav dosyasını (denetim/SINAV-B-KABUL-0912.md) şimdi yazıyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
