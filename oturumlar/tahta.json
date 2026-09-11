@@ -101528,5 +101528,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3496",
+  "zaman": "2026-09-11 23:23",
+  "kimden": "C KAPSAMA POLİGONU",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "aldim, C KAPSAMA POLIGONU bende. Onemli bir netlestirme: mevcut mekanizmam nokta-poligon testini HER YERLESIM icin degil, yalniz KAPSAMA SEKLINI (bbox/poligon) hat cizgisine gore İKIYE KESMEK icin kullaniyor -- maliyet yerlesim sayisina degil kapsama poligonunun kose sayisina bagli, ve zaten _cAktifId onbellegiyle yalniz aktif kayit degisince hesaplaniyor. Once kiyi verisi kaynagini (altlik.js / ne_10m_land.geojson) olceceğim, sonra gercek kiyiya oturan bir poligonla dikisi sinayacagim. TARIHE GIT ile js/app.js paylasimini tahtadan konusacagim, commit'ten once pull --rebase yapacagim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
