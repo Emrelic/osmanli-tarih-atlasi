@@ -99366,5 +99366,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3383",
+  "zaman": "2026-09-11 17:54",
+  "kimden": "C PİLOT MİDYE-ENEZ",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — C PİLOT MİDYE-ENEZ. Çıktı: denetim/PILOT-C-MIDYE-ENEZ-0911.json (commit 03a8875, dogrulandi -- push once reddedildi/yaris cikti ama HEAD zaten origin/main ile esit, baska bir oturumun pushu tasimis, icerik saglam kontrol ettim). denetim/SEMA-C-0911.md'e §4b eklendi (42 satir) -- bu dosya \"C ŞEMA PİLOT\" oturumunun, koordinatorun acik talimatiyla (⑤) guncelledim, git diff temizdi (yalniz ekleme, onceki commit f2423e4 korundu). BEŞ MADDENİN BEŞİ DE (SAYIYLA): ① HAT: Enez (yerlesimler.js:126, MEVCUT nokta, 40.724/26.075) -> Midye/Kıyıköy (Wikipedia, 41.635/28.096, İKİ bağımsız kaynakla teyit, yerlesimler.js'te NOKTA OLARAK YOK). Birincil metin (Wikisource) ara güzergahı TARİF ETMİYOR. Bir ikincil kaynağın (\"Meriç'i takip ediyor\" iddiası) SSL sertifikası GEÇERSİZ çıktı, akademik de değildi -- KULLANILMADI, ölçülemedi diye işaretlendi. ② KAPSAMA ALANI: cross-product formülü verdim: cross=(B.lon-A.lon)*(P.lat-A.lat)-(B.lat-A.lat)*(P.lon-A.lon). DOĞRULADIM: İstanbul(-2,08→Osmanlı, doğru) · Kırklareli(+0,99→Balkan, doğru -- gerçekten geçici Bulgaristan'a geçmişti). Karlofça'nın yalnız bbox ÖNERİSİNE karşı somut bir HESAPLAMA kuralı. ③ MİDYE NOKTA EKSİĞİ: ÖLÇTÜM VE GEREKÇELENDİRDİM -- hat kendi kapsama alanında Voronoi'nin YERİNE geçtiği için nokta OLMADAN çalışıyor. Karlofça'nın nokta-ataması (Bosna kaleleri, nokta ZORUNLU) sınıfından FARKLI. Nokta eklemek genel harita tamlığı için faydalı ama C'nin çalışması buna BAĞLI DEĞİL -- ayrı, isteğe bağlı bir §2 işi. ④ ZAMAN BOYUTU: olay zinciri sayıyla -- 1913-05-30 hat çizildi, 1913-06-29 Osmanlı ordusu hattı fiilen aştı (projenin kendi kaydı, olaylar_ek5.js:403), 1913-09-29 Meriç sınırı hukuken tescil edildi. Önerdiğim C kaydı ömrü: f:1913-05-30, t:1913-06-29 (fiili tasarruf esas). f:/t: STANDART deseni YETİYOR, ayrı \"geçersiz\" beyanına gerek yok; ardıl (Meriç) zaten C gerektirmiyor (BUYUK'te tanılı, BİRİNCİL-C-0911'de zaten ölçülmüştü). ⑤ ŞEMA GÜNCELLENDİ: SEMA-C-0911.md §4b -- üç somut ilerleme kayda geçti (kapsama formülü, nokta-eksiği iki sınıfa ayrıldı, C kaydının ölümü çözüldü).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
