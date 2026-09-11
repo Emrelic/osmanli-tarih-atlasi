@@ -1,0 +1,74 @@
+{
+  "gorev": "LUBNAN YERLESIM ARASTIRMASI",
+  "oturum": "LÜBNAN YERLEŞİM",
+  "tarih": "2026-09-11",
+  "durum": "HAZIR — data/ DONUK, YAZILMADI. Bu dosya oneri/hazirliktir.",
+
+  "①_yontem": {
+    "kaynak_disiplini": "TDV birincil. TDV kapsamiyorsa akademik/guvenilir; Vikipedi TEK DAYANAK yapilmadi (yalniz 'hangi yere bakayim' isaretcisi olarak kullanildi, altini TDV ile veya acikca 'dogrulanmadi' damgasiyla belirttim).",
+    "mukerrer_kontrolu": "arac/girdi.yukle() ile MERKEZI 3808 nokta okundu (D023: kendi ayristiricim yazilmadi). Iki yontemle tarandi: (a) 33.0-34.7K/35.1-36.7D kutusu (tum Lubnan+Sam kenari) — SADECE 4 nokta var: Sam, Beyrut, Sayda, Trablussam. (b) denetim/ARAC-NORMAL-0903.py normallestiricisiyle aday adlari arandi (Deyrulkamer/Beyteddin/Zahle/Baalbek/Cubeyl/Batrun/Sur/Aley/Suf ve Latin varyantlari) — GERCEK Lubnan eslesmesi YOK ('Cubeyl' Suudi Arabistan'daki Cubeyl'e ait CIKTI, 'sur' aramasi yalniz alakasiz 3-harfli tesadufler verdi [Suruc, Surabaya, Meysur vs]). SONUC: hicbir yeni aday MEVCUT VERIYLE CAKISMIYOR.",
+    "🔴_ONEMLI_DUZELTME_MIMARI_SS5": "Coordinatorun istedigi 'kac nokta gerekiyor' sorusunu MIMARI.md SS5 yogunluk olcutuyle (60/120/300 km) OLCTUM ve BEKLENMEDIK sonuc cikti: TUM adaylar zaten mevcut bir noktaya 60 km'DEN YAKIN (en uzagi Baalbek, Sam'a 55,2 km). Yani SAF YOGUNLUK olcutune gore YENI NOKTA GEREKMIYOR — bolge zaten 'emilme' anlaminda BOS DEGIL. 🔴 AMA BU, kunyenin haritada gorunmesi sorununu COZMEZ: emen nokta (orn. Beyrut) KENDI egemenlik kaydini tasiyor (duz Osmanli dogrudan), ve emilen toprak O KAYITLA boyanir — Emirlik/Mutasarriflik hic gorunmez, uzaklik yeterli olsa bile. ⇒ Buradaki ihtiyac SS5'in COZDUGU sorun (kapsama bosluğu) DEGIL, FARKLI bir sorun: SIYASI/EGEMENLIK AYRIMI icin ayri bir CAPA noktasi. Bu ayrimi acikca yaziyorum cunku SS5'e dayanarak 'nokta gerekmiyor' hukmu YANLIS OLURDU — olcut yanlis soruyu cevap veriyor (D081 sinifi: olcut karsilastirilan iki secenegi ayirt etmiyor)."
+  },
+
+  "②_aday_yerlesimler": [
+    {
+      "oncelik": "ZORUNLU (1. secim) — Emirligin/Mutasarrifligin capa noktasi",
+      "ad_onerisi": "Deyrülkamer (Dayr al-Kamer)",
+      "lat": 33.6989, "lon": 35.5619,
+      "kur": "yok — Haçlı dönemi kayıtlarında (1257/1261, Teutonic Order arazi satış belgeleri) zaten köy olarak geçiyor, atlas ufkundan (1281) ÖNCE var; kur: alanı bu yüzden BOŞ bırakıldı (kuruluş değil, siyasî önem kazanma tarihi önemli).",
+      "kaynak_durumu": "🟡 TDV'de 'deyrulkamer'/'deyr-el-kamer' slug'ı YOK (302, ölçüldü). Wikipedia (Deir al-Qamar maddesi) İŞARETÇİ olarak kullanıldı: Fahreddin II döneminde (~1590'lar) Ma'n hanedanının başkenti oldu (önceki başkent Baaklîn'den taşındı, aşağıya bkz). AKADEMİK KAYNAKLA (ör. Kamal Salibi, 'A House of Many Mansions') TEYİT EDİLMEDİ — zaman kısıtı. `kaynak:` alanına 'bulunamadı — TDV'de madde yok, Wikipedia işaretiyle bulundu, akademik teyit GEREKİYOR' yazılmalı.",
+      "donem_zinciri_onerisi": "s: memluk (1281→1516) · d: osmanli DOĞRUDAN (1516→?) · v: kid:lubnan-emirligi, statu:özerk (Ma'n başkenti olduğu ~1590-1697 ve Şihab dönemi devam) — 🔴 AMA BU ZİNCİRİ TAM KURMAK İÇİN Ma'n'ın Deyrülkamer'i başkent yapma GÜNÜ akademik kaynaktan doğrulanmalı, şu an YOK.",
+      "mukerrer_uyarisi": "🔴 Beyteddin'e 2,08 km, Baaklîn'e 1,95 km — ÜÇÜ DE BİRBİRİNE 3 km EŞİĞİNİN İÇİNDE. Bu bir hata değil, GERÇEK TARİH: aynı hanedanın başkenti üç kez (Baaklîn→Deyrülkamer→Beyteddin) 3 km'lik bir alan içinde taşındı. ⇒ ÖNERİM: ÜÇÜNÜ DE AYRI NOKTA YAZMA (D002 mükerrer riski) — TEK nokta (Deyrülkamer, ortadaki ve en uzun süre başkent kalan) seç, başkent taşımalarını o noktanın kronoloji/açıklama metninde anlat (VERI-YAPISI.md'deki `bk:` zamanlı başkent alanı BİR KÜNYE İÇİN — burada YERLEŞİM için böyle bir alan yok, bu yüzden metinde anlatılmalı)."
+    },
+    {
+      "oncelik": "GÜÇLÜ ÖNERİ (2. secim) — TDV kaynaklı, AYRI bir hanedan buldu",
+      "ad_onerisi": "Ba'lebek (Baalbek)",
+      "lat": 34.0059, "lon": 36.2181,
+      "kur": "yok (antik şehir, atlas ufkundan önce var)",
+      "kaynak_durumu": "🟢 TDV `balebek` (NOT: `baalbek` slug'ı 'BA'LEBEK'e YÖNLENDİRİYOR, canlı olan `balebek` — §4② tuzağı burada da vardı, İÇERİK OKUNARAK doğrulandı).",
+      "TDV_ALINTI": [
+        "\"Memlük Sultanı Kutuz'un Aynicâlût'ta kazandığı zafer üzerine Memlükler'in idaresine girdi\" (1260 sonrası)",
+        "\"1516'da Yavuz Sultan Selim'in Suriye seferi sırasında Osmanlı hâkimiyetine geçti. Bu tarihten itibaren küçük beylerin, özellikle Harfûş ailesinin elinde kaldı.\"",
+        "\"XVII. yüzyılda ... Ba'lebek, Şam eyaletine bağlı bir subaşılık ve 150 akçelik bir kaza idi\" (Evliya Çelebi)",
+        "\"Bâbıâli'nin yeni düzenlemesiyle Şam vilâyetine tâbi bir kaza merkezi yapıldı\" (1850)"
+      ],
+      "🔴_YAN_BULGU": "Baalbek'i yöneten yerel hanedan HARFÛŞ AİLESİ'dir — Ma'noğulları/Şihaboğulları (Lübnan Emirliği) İLE AYNI DEĞİL, AYRI BİR YEREL HANEDAN. ⇒ Baalbek'in `v:` kaydı `kid:lubnan-emirligi` OLAMAZ; ayrı bir künye ('harfus-emirligi' veya benzeri) gerekir VE O KÜNYE DE DEVLETLER.JS'TE YOK. Bu, DİZİN TAMLIK görevinin bulduğu listeye eklenebilecek ÜÇÜNCÜ bir aday — kapsam dışına taştığı için burada yalnız İŞARETLİYORUM, kendi künyesini hazırlamadım.",
+      "donem_zinciri_onerisi": "s: memluk (1281→1516) · d: osmanli DOĞRUDAN (1516→1850, Harfûş ailesi İÇ TÂBİ olarak — künye yoksa `v:` k:\"Harfûş ailesi\" serbest metinle, `kid` OLMADAN yazılabilir, D045 usulü) · d: devam (1850→1918, resmi kaza)."
+    },
+    {
+      "oncelik": "ÖNERİ (3. seçim) — TDV kaynaklı, ayrı sancak zinciri (Emirlik DEĞİL ama bölgesel tamlık için değerli)",
+      "ad_onerisi": "Sûr (Tyre)",
+      "lat": 33.2704, "lon": 35.2038,
+      "kaynak_durumu": "🟢 TDV `sur--lubnan` (İLK SINAV: `sur` yanlış madde/kavram karışıklığı riski taşıyordu, doğru slug `sur--lubnan` ile İÇERİK doğrulandı — §4② tuzağının Levant coğrafyasındaki bir örneği daha).",
+      "TDV_ALINTI": [
+        "\"Yavuz Sultan Selim'in 1516 Mercidâbık zaferinden sonra Sûr şehri de Osmanlı ülkesine katıldı.\"",
+        "İdarî zincir: Şam sancağına bağlı kaza → Sayda sancak olunca ONA bağlı → 1865 düzenlemesiyle Beyrut sancağına devredildi.",
+        "\"XVII. yüzyılda Dürzî Emîri Ma'noğlu Fahreddin\" onarım denedi (BAŞARISIZ) — Ma'n hanedanının Sur'a müdahalesi VAR ama BİÇİMSEL EGEMENLİK değil, giderek zayıflayan bir şehri canlandırma girişimi."
+      ],
+      "donem_zinciri_onerisi": "s: memluk (1281→1516-08 Mercidabık) · d: osmanli DOĞRUDAN (1516→1918) — Emirlik/Mutasarrıflık `v:` kaydı GEREKMİYOR, idarî zincir sancak-içi (Şam→Sayda→Beyrut), Osmanlı doğrudanlığı hiç kesilmiyor."
+    },
+    {
+      "oncelik": "DÜŞÜK ÖNCELİK / ÖLÇÜLEMEDİ — zaman kısıtı, TDV'de madde bulunamadı",
+      "adaylar": [
+        {"ad": "Beyteddin (Beiteddine)", "not": "Deyrülkamer'e 2 km — AYRI nokta önerilmiyor, bkz. yukarı mükerrer uyarısı."},
+        {"ad": "Ba'aklîn (Baakline)", "not": "Ma'n hanedanının 12.-16. yy başkenti (Wikipedia işareti, TEYİT EDİLMEDİ) — Deyrülkamer'e 2 km, AYRI nokta önerilmiyor."},
+        {"ad": "Zahle", "not": "TDV slug'ı YOK (302). 18-19. yy'da ticarî önem kazandı (akademik bilgi, teyit edilmedi). Beyrut'a 37,9 km — yoğunluk baskısı YOK."},
+        {"ad": "Cübeyl (Byblos/Jbeil)", "not": "🔴 TDV `cubeyl` YANLIŞ MADDE — Suudi Arabistan'daki Cübeyl'i açıyor (İÇERİK OKUNARAK doğrulandı, §4② tuzağı). Lübnan Cübeyl'i için TDV madde bulunamadı."},
+        {"ad": "Batrun (Batroun)", "not": "TDV slug'ı YOK (302). Araştırılmadı."},
+        {"ad": "Aley", "not": "TDV slug'ı YOK (302). Beyrut'a yalnız 13 km — yoğunluk zaten fazlasıyla dolu, düşük öncelik."}
+      ]
+    }
+  ],
+
+  "③_ozet_tavsiye": {
+    "zorunlu_minimum": "1 nokta: Deyrülkamer (Emirlik/Mutasarrıflık capası). Bu OLMADAN lubnan-emirligi/cebel-i-lubnan-mutasarrifligi künyeleri YAZILSA BİLE haritada HİÇBİR İZ bırakmaz.",
+    "guclu_oneri": "+1 nokta: Ba'lebek (Baalbek) — kendi başına farklı bir tâbi yapı (Harfûş ailesi) barındırdığı TDV ile doğrulandı, bölgesel tamlık için değerli VE üçüncü bir künye ihtiyacını gün yüzüne çıkardı.",
+    "istege_bagli": "Sûr (Tyre) — Emirlik için gerekmiyor ama TDV kaynaklı sağlam bir kayıt, bölgenin genel tamlığına katkı.",
+    "gerekmeyen": "Beyteddin/Baaklîn (Deyrülkamer'e çok yakın, mükerrer riski) — Zahle/Cübeyl/Batrun/Aley (kaynak zayıf VE yoğunluk baskısı yok, D081: bu ölçüt onları ayırt etmiyor).",
+    "KOORDINAT_UYDURULMADI": "Tüm lat/lon değerleri standart coğrafi konumlardır (harita/GPS ile doğrulanabilir gerçek şehir merkezleri) — TDV'den alınmadı çünkü TDV koordinat vermez; bu, mevcut devletler.js/yerlesimler.js kayıtlarının GENEL KONVANSİYONUYLA aynıdır (koordinatlar için ayrı kaynak beyanı istenmiyor, yalnız TARİHSEL iddialar kaynaklanıyor)."
+  },
+
+  "④_ek_bulgu_ucuncu_kunye_adayi": {
+    "not": "Bu görevde ARANMADI ama Baalbek araştırması sırasında KENDİLİĞİNDEN çıktı: 'Harfûş ailesi' — 1516'dan 1850'ye kadar Baalbek ve çevresini yöneten, Ma'noğulları/Şihaboğulları'ndan TAMAMEN AYRI bir yerel hanedan (TDV `balebek` kaynaklı). devletler.js'te böyle bir künye YOK. Koordinatöre bildiriliyor, kendi künyesini HAZIRLAMADIM (kapsam dışı, zaman kısıtı) — istenirse ayrı bir 'HARFUŞ KÜNYE' görevi açılabilir."
+  }
+}
