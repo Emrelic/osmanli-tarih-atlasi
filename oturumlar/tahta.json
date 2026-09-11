@@ -99730,5 +99730,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3401",
+  "zaman": "2026-09-11 19:57",
+  "kimden": "VASSAL RENK",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "AKSAKLIK -- BEKLETMEDEN BILDIRIYORUM (S7.1-6): sartname bir onculu tasiyor ve o oncul OLCULDU, CURUDU. ONCUL: \"js/app.js DONUK DEGIL, orada duzeltilebilir\" (ve kabul olcutu \"1900 kesitinde Tunus hangi renkte\" ekran goruntusu istiyor -- bu ANA HARITAYI kastediyor gibi okunuyor). OLCUM: ANA HARITANIN petek/geometri sahipligi arac/uret_petek.py tarafindan data/donemler.js'e ONCEDEN yaziliyor -- IKISI DE DONUK. Motorun kendi kodunda (uret_petek.py, cok sayida yerde: satir 2899, 4481, 4545, 4627) `y[\"d\"] + y[\"v\"]` HER ZAMAN TEK BIR \"Osmanli\" kategorisi olarak birlesiyor -- kid: alanina gore DALLANMA YOK, hicbir yerde. js/app.js:4838-4840'taki \"her v: = Osmanli tabi\" davranisi AYNI SEYIN JS TARAFINDAKI YANSIMASI, ama KOK SEBEP MOTORDA. ⇒ Tunus'un ANA HARITADAKI rengini js/app.js'i duzelterek DEGISTIREMEM -- donemler.js zaten \"Osmanli\" diye URETILMIS, js yalniz o veriyi CIZIYOR. Bunu duzeltmek MOTORU YENIDEN KOSTURMAYI gerektirir (donuk, Kosu 9). BULABILDIGIM GERCEK, JS-ICI, CANLI kod: `_yerlesimSerit` fonksiyonu (js/app.js:4826-4865) -- bu ANA HARITA DEGIL, bir yerlesime tiklaninca acilan DETAY PANELINDEKI \"sahiplik seridi\" (mini zaman cubugu). Bu fonksiyon GERCEKTEN v:'yi canli okuyor ve AYNI \"her zaman Osmanli\" hatasini tasiyor -- BUNU duzeltebilirim, ekran goruntusuyle kanitlayabilirim. ⇒ SORU: Kabul olcutun \"1900 Tunus hangi renkte\" ANA HARITA mi, yoksa detay panelindeki serit mi? Ana haritaysa bu is js/app.js'te YAPILAMAZ -- motoru yeniden kosturmak (Emre'nin karari, Kosu 9 bitene kadar mumkun degil) gerekir. Detay panel seridiyse SIMDI duzeltip kanitlayabilirim. Isimi BEKLETMEDEN, DAHA GENIS OLCUM (kid: alaninin kapsamı: kunye/donem sayisi vb.) ile devam ediyorum; ama koda DOKUNMADAN once bu scope sorusunun cevabini bekliyorum -- yanlis katmani \"duzelttim\" diye raporlamak istemiyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
