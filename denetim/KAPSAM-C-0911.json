@@ -1,0 +1,82 @@
+{
+ "meta": {
+  "olusturan": "C KAPSAM",
+  "tarih": "2026-09-11",
+  "gorev": "110 tekil antlasmanin TAMAMINDA yapay/cetvel hat dili aramak, ①b sinifini sinamak, maliyet kiyaslamasi yapmak, Emre'ye hukum onerisi vermek",
+  "girdi": "denetim/ENVANTER-C-0911.json (144 ham kayit) TEKRAR TARANDI -- ENVANTER-C-II'nin 110'luk tekil listesi degil, HAM 144 kayit, kayip olasiligini sifirlamak icin (D185)"
+ },
+
+ "①_yapay_cetvel_hat_taramasi": {
+  "yontem": "144 ham kaydin TAMAMININ d:/topraklar metni, normalize edilip 'hattı/hattına/çizil/düz çizgi/cetvel/meridyen/paralel/komisyon+sınır' desenleriyle tarandi.",
+  "sonuc": "12 kayitta 'hat/cizil/cizgi' gecti (liste asagida); TAMAMI INCELENDI. YALNIZ BIRI (Midye-Enez/Londra 1913) gercekten YAPAY/CETVEL. Digerleri ya (a) VAR OLAN bir hatti TEYIT ediyor (Nasuh Paşa->1555 Amasya hattı, Kerden->Kasr-ı Şirin sınırı, İstanbul 1736->Kasr-ı Şirin çizgisi -- bunlar YENİ hat DEGIL, referans), ya (b) dogal unsura (Meric nehri, İstanbul 1913-Bulgaristan) dayaniyor, ya (c) COK GENEL/coklu-taraf (Viyana Kongresi -- tek bir hat degil kitasal yeniden duzenleme, C'nin kapsami disinda).",
+  "12_kayit": [
+   "Amasya(1555, sehir listesi, dogal unsur yok, AB_YETER -- BIRINCIL-C'de zaten cozuldu)",
+   "Nasuh Pasa(1612, 1555 hattina REFERANS, yeni hat degil)",
+   "Londra/Midye-Enez(1913, YAPAY -- TEK GERCEK ①c ORNEGI)",
+   "Kerden(1746, Kasr-i Sirin sinirina REFERANS/teyit)",
+   "Istanbul-Bulgaristan(1913, Meric nehri -- dogal, BUYUK'te tanili)",
+   "Kasr-i Sirin(1639, 'cizilen hat' -- Zagros/genis bolge, ayri ele alindi asagida)",
+   "Kars(1921, 'dogu siniri cizildi' -- dogal unsur ADI YOK bizim metnimizde, ama tarihsel olarak Arpacay/Aras nehirlerini takip ediyor; sehirler nokta -- BIRINCIL-C'de AB_YETER)",
+   "Viyana Kongresi(1815, TEK hat degil -- kitasal coklu yeniden duzenleme, KAPSAM DISI)",
+   "Pereyaslav Radasi(1654, hat/cizgi YOK -- yalniz baglilik yemini, YANLIS ESLESME/false positive)",
+   "Istanbul-Guney Kafkasya(1736, Kasr-i Sirin cizgisine REFERANS/donus)",
+   "Turkmencay(1828, 'sinirin cizildigi an' -- dogal unsur ADI YOK bizim metnimizde, ama Aras nehri bolgesi)",
+   "II.Erzurum/Sattularap(1847, dogal nehir, motor ZATEN taniyor -- BIRINCIL-C+PILOT-SATTULARAP'ta cozuldu)"
+  ],
+  "hukum": "110 tekilin TAMAMINDA YALNIZ 1 GERCEK ①c (yapay/cetvel) VAKASI VAR: Midye-Enez. Yeni bir aday CIKMADI."
+ },
+
+ "②_①b_sinamasi": {
+  "soru": "'Dogal AMA motorun tanimadigi hat' GERCEKTEN var mi?",
+  "yontem": "144 kaydin TAMAMINDA gecen 'X nehri' kaliplari cikarildi: Tuna, Meric, Dinyester, Dinyeper/Ozu, Aras, Adige, Sattularap. Her biri arac/uret_petek.py'nin IKI kapisina (BUYUK ad listesi VE veri-kaynak/ne_10m_rivers.geojson scalerank<=5.0) karsi TEK TEK sinandi -- ikinci kapiyi bu kez UNUTMADAN.",
+  "sonuclar": {
+   "Tuna": "BUYUK'te VAR (ad listesi gecer)",
+   "Meric/Maritsa": "BUYUK'te VAR",
+   "Dinyester/Dniester": "BUYUK'te VAR",
+   "Dinyeper/Dnipro/Dnieper": "BUYUK'te VAR",
+   "Aras": "BUYUK'te VAR",
+   "Sattularap/Shatt al Arab": "BUYUK'te YOK, AMA scalerank=3.0 (<=5.0) -- IKINCI KAPIDAN GECIYOR, tanili",
+   "Adige": "🔴🔴 BUYUK'te YOK VE scalerank=8.0 (>5.0) -- HICBIR KAPIDAN GECMIYOR. GERCEK ①b ORNEGI BULUNDU."
+  },
+  "Adige_detay": {
+   "kaynak_madde": "Campo Formio Antlaşması (1797-10-17, olaylar_ek16.js) -- 'Adige nehrinin doğusu, İstria ve Dalmaçya kıyısı... Avusturya'ya bırakıldı'",
+   "neden_dar16da_yoktu": "Onceki dar-16 taramasi 'sinir' KELIMESININ nehir adina YAKIN gecmesini SART kosuyordu; bu kayit 'Adige nehrinin DOGUSU...birakildi' diyor, 'sinir' kelimesi HIC GECMIYOR. Bir sinir dogal dille tarif edilebilir ('X'in dogusu Y'ye birakildi'), sadece 'sinir' kelimesiyle DEGIL -- BU ONCEKI TARAMANIN bir KOR NOKTASIYDI, burada acikca DUZELTILIYOR.",
+   "cozum_onerisi": "C DEGIL -- arac/uret_petek.py'nin BUYUK listesine 'Adige' eklemek YETER (Karlofca pilotundaki Maros/Mures emsaliyle AYNI SINIF, 'motorun bir satirlik borcu'). Bu envanterin KAPSAMI DISINDA (arac/ donuk), ama net bir BULGU olarak bildiriliyor."
+  },
+  "hukum": "EVET, ①b GERCEKTEN VAR -- tek ornek (Adige/Campo Formio), COK KUCUK maliyetle (bir satir) COZULEBILIR. SEMA-C-0911'in 'hic ornegi cikmadi, teorik kaldi' notu BU OLCUMLE DUZELTILIYOR."
+ },
+
+ "③_kasr_i_sirin_ek_bulgu": {
+  "soru": "Kasr-i Sirin'in 'Zagros daglari' referansi, motorun dag-sirti (SIRT_HAT) mekanizmasindan zaten yararlanabilir mi?",
+  "bulgu": "veri-kaynak/ne_10m_geography_regions_polys.geojson'da Iran-Irak sinir bolgesinde (kutu 42-49E,30-37N) FEATURECLA='Range/mtn' olan 2 (ISIMSIZ) poligon VAR -- motorun dag mekanizmasi ADA BAKMAZ, yalniz FEATURECLA'ya bakar (arac/uret_petek.py:661-665), yani bu poligonlar ZATEN SIRT_HAT havuzunda.",
+  "kisitlama": "Bagdat (242 km) ve Tebriz (222 km) bu poligonlardan COK UZAK -- ama bunlar sinirin KENDISI degil, ic bolgelerin BUYUK sehirleri. Sinira daha yakin KUCUK yerlesimlerin (Sehrizor, Kirmansah vb.) bu poligona olan mesafesi -- ve gercek Voronoi kenarinin sirt_mes (0,35 derece, ~38,9 km) icine dusup dusmedigi -- bu oturumda TAM OLCULEMEDI (gercek petek uretimine dokunmadan simule edilemez, arac/ donuktu).",
+  "hukum": "KESIN DEGIL. Kasr-i Sirin'in damgasi (C_GEREKLI, BIRINCIL-C-0911) BU BULGUYLA DEGISTIRILMIYOR -- ama '①b mekanizmasi muhtemelen burada da kismen devrede olabilir' diye bir IHTIMAL/acik soru olarak ekleniyor. Kesin cevap icin gercek petek kosusu ICINDE olculmesi gerekir (Voronoi kenarinin nerede dustugu)."
+ },
+
+ "④_maliyet_kiyaslamasi": {
+  "C_katmani_maliyeti": [
+   "yeni dosya (data/hukuki_sinirlar.js) + yeni window.HUKUKI_SINIRLAR ad alani",
+   "arac/uret_petek.py'ye YENI bir ucuncu-asama override adimi -- SINANMAMIS, cekirdek Voronoi/yaslama SONUCUNU EZEN bir mekanizma, MIMARI.md'nin bes cozulmemis sorununa ALTINCI bir risk yuzeyi acar",
+   "her yeni C kaydi icin ELLE koordinat + kapsama alani (bbox/poligon) CIZIMI -- cross-product SADECE duz hatlarda guvenilir (bu oturumda EGRI hatta KIRILDIGI OLCULDU), yani her vaka AYRI ozel-durum kodu gerektirebilir",
+   "bakim yuku: 1 (belki 2) vaka icin SUREKLI bir sema+kod BAKIM YUKU"
+  ],
+  "elle_AB_cozumu_maliyeti_Midye_Enez": [
+   "Midye/Kiyikoy'u yeni bir yerlesim noktasi olarak eklemek (§2 isi, TEK kayit, ucuz)",
+   "AMA: hatti TAM temsil etmek icin Voronoi'nin dogal olarak DOGRU cizgiyi cizmesi GARANTI DEGIL -- iki nokta (Enez, Midye) arasindaki gercek 'duz cizgi'yi Voronoi kendiliginden URETMEZ (Voronoi EN YAKIN noktaya gore boler, iki ucu birlestiren bir DOGRU cizgi degil)",
+   "🔴 ONEMLI BULGU: bu antlasmanin fiili sinir olarak GECERLILIK suresi YALNIZ 30 GUNDUR (1913-05-30 -> 1913-06-29, PILOT-C-MIDYE-ENEZ-0911.json'da zaten olculdu) -- yani HANGI yontem secilirse secilsin (C ya da yaklasik A/B), haritada YALNIZ 30 GUNLUK bir pencerede gorunecek bir cizgi icin YATIRIM YAPILIYOR.",
+   "oneri: bu 30 gunluk pencerede TAM GEOMETRIK dogruluk yerine YAKLASIK bir A/B temsili (Midye noktasi eklenip komsu bolgenin d: donemi o 30 gun icin Balkan/Bulgar olarak isaretlenmesi) KABUL EDILEBILIR bir yaklasiklik olabilir -- gorsel hata payi kucuk, sure kisa."
+  ],
+  "hukum": "C katmaninin sabit MALIYETI (yeni dosya+ad alani+motor riski+bakim), TEK VAKANIN (Midye-Enez) FAYDASINDAN (30 gunluk, kucuk bir bolgede daha DOGRU bir cizgi) ACIKCA YUKSEK. Elle/yaklasik A/B cozumu DAHA UCUZ ve YETERLI."
+ },
+
+ "⑤_emrenin_kurali": {
+  "kural": "'C ucuncu bir gosterim DEGILDIR.'",
+  "yorum": "Bu olcumle DOGRULANDI: 110 tekil antlasmada C'nin KESIN gerektigi vaka sayisi 1 (Midye-Enez) -- Kasr-i Sirin BELIRSIZ (③), Sattularap COKTAN AB_YETER'e dustu, Adige tek satirlik bir motor yamasiyla cozuluyor (C DEGIL). Bir vakalik bir ihtiyac, SISTEMIK bir UCUNCU KATMAN degil, o TEK vakanin KENDI ISTISNASIDIR. ⇒ Emre'nin kurali, olcumun kendisiyle DOGRULANIYOR: C bir KATMAN olarak YAZILMAMALI."
+ },
+
+ "SONUC_ONERI": {
+  "C_gereken_kesin_vaka_sayisi": "1 (Midye-Enez) — Kasr-ı Şirin BELİRSİZ/③'e bağlı, muhtemelen daha az",
+  "oneri": "C'yi bir motor katmani olarak YAZMA. Midye-Enez'i (istenirse) ELLE/yaklasik A/B ile coz (Midye noktasi ekle, 30 gunluk pencerede komsu bolgeyi Balkan olarak isaretle) -- ya da bu 30 gunluk kisa omurlu sinirin haritada HIC GORUNMEMESINI (Karlofca/Kucuk Kaynarca gibi daha kalici sinirlarin yaninda onemsiz) KABUL ET. Adige (Campo Formio) icin arac/uret_petek.py'nin BUYUK listesine tek satir eklensin (ayri, ucuz bir motor gorevi, C DEGIL). Kasr-i Sirin icin gercek petek kosusunda SIRT_HAT mesafesi olculsun (③), sonuc AB_YETER cikarsa C VAKASI 0'A INER.",
+  "karar": "Emre'nin."
+ }
+}
