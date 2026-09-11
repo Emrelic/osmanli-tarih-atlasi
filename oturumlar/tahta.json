@@ -99906,5 +99906,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3410",
+  "zaman": "2026-09-11 20:12",
+  "kimden": "VASSAL RENK",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM: VASSAL RENK bitti. 🔴🔴 EN ONEMLI BULGU (M-3401'de bildirmistim, yanit gelmedi, kendi olcumume dayanarak devam ettim): ANA HARITA bu gorevle DUZELTILEMEZ. arac/uret_petek.py + data/donemler.js IKISI DE DONUK, ve motor y[\"d\"]+y[\"v\"]'yi HER YERDE (4 ayri satirda) TEK \"Osmanli\" kategorisi sayiyor -- kid: dallanmasi HICBIR YERDE yok. Tunus'un ANA HARITADAKI rengini degistirmek MOTOR YENIDEN KOSMASINI gerektirir (Emre'nin karari). GERCEKTEN js-ici canli kod: _yerlesimSerit fonksiyonu (\"Yerlesim Kronolojileri\" dizin panelindeki sahiplik seridi) -- BUNU duzelttim. ① OLCUM: 136 kunye/163 donem v: tasiyor. 112 donem (13 kid) TAMAMEN Osmanli ailesinden (misir-kavalali 46, eflak 16, bogdan 13, vs) -- BUGUN sifir kayit Osmanli-disi bir use isaret ediyor. 38 kunye/51 donem kid-siz -- bir kismi GERCEKTEN yanlis (Tunus/Girit/Misir- isgali-Kutahya-Konya-Karaman), cogu muhtemelen dogru-ama-imprecise (Erdel/Mekke-Serifligi/Kafkas-tabi-devletler/Ahmed-Bey). ② CARE: SEMA BOSLUGU DEGIL. kid: alani ZATEN var, 112 donemde KULLANILIYOR. Sorun js'in onu HER ZAMAN \"Osmanli\" ile EZMESIYDI. ③ UYGULANDI: js/app.js'e 29 satir (_KID_YABANCI_UST + sahip()'in v: dalinda kid: kontrolu). Esik: kid'in KENDI devletler.js'teki tabi.ust'u ACIKCA \"osmanli\" DISINDAYSA kendi kimligiyle goster, aksi halde (BUGUNKU TUM kayitlar) mevcut Osmanli-tabi pembe KORUNUR. ④ KANIT: Node izole test (3/3): eflak/bogdan/kirim/erdel/misir-kavalali/ sirbistan-prensligi ETKILENMEDI, sentetik \"fransiz tabi\" kimlik YAKALANDI, gercek veride etkilenen donem sayisi 0 (beklenen). CANLI TARAYICI: preview_start ile atlas sunucusu acildi, Bukres (Eflak, kid:eflak, 1462-1878) icin \"Yerlesim Kronolojileri\" paneli acildi, sonuc \"Osmanli (tabi) 1462-06-01 -> 1878-07-13, 416 yil\" -- DEGISMEDI, ekran goruntusu alindi (bu konusmada gorunur, dosya olarak kaydedilemedi -- istenirse tekrar uretebilirim). Tunus'un KENDI once/sonra ekran goruntusu ALINAMADI cunku Tunus'un v: kaydinda BUGUN kid: yok (veri donuk) -- duzeltme Tunus'un rengini bugun DEGISTIRMEZ, yalniz Tunus Beyligi kunyesi acilip kid:\"tunus-beyligi-fransiz\" yazilinca DOGRU calisacak ALTYAPIYI kurar (sentetik test kaydiyla, bellekte, dogrulandi). Cikti: denetim/OLCUM-VASSAL-RENK-0911.json + denetim/BULGU-VASSAL-RENK-0911.md + js/app.js (29 satir). Commit b594056, push edildi. data/ ve arac/ HIC DOKUNULMADI. Karar gerektiren soru: ana haritayi duzeltmek icin motor ne zaman yeniden kosacak (Kosu 9 sonrasi) -- ve o kosuda Tunus/Kayrevan/Sfaks'in v: kaydinin kid: alacak sekilde guncellenmesi ayrica gerekiyor (data/ degisikligi, benim yetkim disinda). Baska is var mi?",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
