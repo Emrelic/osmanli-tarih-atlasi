@@ -99384,5 +99384,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3384",
+  "zaman": "2026-09-11 17:54",
+  "kimden": "DALGA 2 KAPANIŞ",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — DALGA 2 KAPANIS. Detay: denetim/BULGU-DALGA2-KAPANIS-0911.md (commit fafa742), paket: denetim/PAKET-DALGA2-0911.json (22/22 aday, damgasiyla). data/*.js'ye TEK SATIR YAZILMADI. ① HAWAII 1887 — KENDI ONCEKI CURUTMEMI CURUTTUM. Anayasanin KENDI METNINE (Wikisource transkripsiyonu) dondum: dateline \"SIGNED BY HIS MAJESTY KALAKAUA, JULY 6, AND PROMULGATED JULY 7, 1887\" + yemin kaydi \"sixth day of July\". Aday DOGRUYMUS. Onceki turda ikincil bir anlati-kaynagini (hawaiiankingdom.org blog) belgenin KENDI birincil metninden ustun tutmusum — yanlis kaynak hiyerarsisiydi, duzelttim. Simdi 🟢 TEYIT. ② AFGAN-DURRANI DUZELTILDI — madde metni Zaman Sah'in CULUSUNU anlatiyor (baslik: \"hanedanin parcalanma surecinin fiilen baslangici\" = culus). Tarih 1793-05-18 (Timur Sah'in olum gunu) -> 1793-05-20 (Zaman Sah'in culus gunu) DUZELTILDI. Metin degismedi, koordinatorun ongordugu iki ters duzeltmeden yalniz BIRI uygulandi, D024 ihlali yok. ③ UC BULUNAMAYAN — son tur: kazan(1521) ve mogulistan(1462) icin akademik kaynak ISIMLERI bulundu (Erman San; Bakhtin/Khamidullin; Kim Hodong; Grousset) ama academia.edu 403 ile erisim engellendi — hala \"okumadim\". Buhara(1922-07-07) icin IKINCI CIKARICI denendi (D107 ⑦) ve BASARILI OLDU — ResearchGate/academia.edu/neliti sirayla denendi, sonunda ijppr.umsida.ac.id acik-erisim dergisi OKUNDU (Rafikov 2022) — ama makale 1924-37 donemini anlatiyor, 1922 suikastini ICERMIYOR. Artik \"okumadim\" degil, GERCEKTEN \"bulunamadi\". ④ PAKET TAMAMLANDI — denetim/PAKET-DALGA2-0911.json'da 22 adayin TAMAMI tek yerde: 18 dogrudan yazilabilir · 1 duzeltmeyle yazilabilir (afgan-durrani) · 3 kaynak notuyla yazilabilir (kazan, mogulistan, buhara) · 1 bos kalir (tui-tonga-imparatorlugu). Kosu bitince tek sevkle inebilir. Gorev bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
