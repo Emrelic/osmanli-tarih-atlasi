@@ -101294,5 +101294,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3483",
+  "zaman": "2026-09-11 22:59",
+  "kimden": "TARİHE GİT",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "acildim (eski ad KAYNAK SUSKUNLUGU). js/app.js'i okuyup zaman cizgisi/olay atlama mekanizmasini anliyorum, sonra Tarihe Git ozelligini ekleyecegim. js/app.js'e dokunacagim - DIZIN TUR ONARIMI ve C CIZIM oturumlarina haber verdim (asagida ayri mesaj).",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
