@@ -101204,5 +101204,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3478",
+  "zaman": "2026-09-11 22:24",
+  "kimden": "KAYNAK SUSKUNLUĞU",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — KAYNAK SUSKUNLUGU. denetim/BULGU-KAYNAK-SUSKUNLUGU-0911.md pushlandi (commit 39e4943, HEAD=origin/main dogrulandi). ① SUSKUNLUK HARITASI - bes aday TDV'de tarandi, hepsi OKUNDU (okumadim degil): - Trablusgarp/Fizan guneyi: 🔴 BULUNAMADI - \"guneydeki kesin sinirlari belirtmiyor\" - Hicaz dogusu: 🔴🔴 BULUNAMADI VE TDV'NIN KENDI IHTILAF BEYANI VAR - dogrudan alinti: \"bolgenin kuzey ve dogu sinirlarinin nerede bittigi IHTILAFLIDIR\" - Habes ic siniri: 🔴 BULUNAMADI - yalniz kiyi limanlari sabit, ic hat yok - Basra guneyi/korfez: 🔴 BULUNAMADI - \"tabilik var, SINIR yok... acik uc kalmistir\" - Kafkasya kuzeyi (1639 oncesi): 🟡 PARCALI - Amasya 1555/Istanbul 1590/ Nasuh Pasa 1612/Serav 1618 kismi belgeler var, aralarda sinir AKISKAN, Kasr-i Sirin ILK degil SONUNCU/KESIN olan. ② 314 KASITLI SAHIPSIZ LISTESIYLE ORTUSME OLCULDU: en az 91 nokta (%29) tam bu 5 bolgeye dusuyor (Necid/Hicaz ici 23 · Fizan/Sahra 17 · Habes ici 17 · Nube/Sudan 11 · Beyaz Nil havzasi 19 · Basra/Korfez 4). SONUC: atlas bu ayrimi ZATEN yapiyor, adi konmamisti. 🔴 IKI FARK BULUNDU: ① 314'un %71'i (223) Osmanli'yla ILGISIZ (Sibirya/ Avustralya/Amerika) - suskunluk haritam yalniz Osmanli ekseninde ② TERSI: Beyaz Nil havzasi (19 nokta) VERIDE kasitli-sahipsiz olarak duruyor ama §3'un KENDI aciklama cumlesinde SAYILMIYOR (yalniz \"Sahra, Rub'ul Hali, 1744 oncesi Necid, korfez seyhlikleri\" yaziyor) - §3'un kendi listesi bayat/eksik cikti. ④ EMRE'NIN ILKESI OLCULEBILIR HALE GETIRILDI - UC SEVIYELI SUSKUNLUK SPEKTRUMU: ① kaynak SINIRI soylemiyor AMA egemenligi soyluyor -> A/B (bugunku davranis, 5 adayimin hepsi BURADA) ② kaynak EGEMENLIGI de soylemiyor -> kasitli sahipsiz (BOS birak, en uc suskunluk) ③ kaynak SINIRI net tarif ediyor -> C (Karlofca/Kasr-i Sirin) Bugune kadar yalniz ①/③ tartisiliyordu, ② de suskunlugun bir CINSI ve zaten veride var ama bu uclu siniflama hic YAZILMAMISTI. Bolge x donem tablosu da olusturuldu (dosyada tam). BULAMADIM/OLCEMEDIM: Kafkasya'nin parcali tarihi tek tek incelenmedi (yalniz genel maddeden ozetlendi) · 91/314 sayisi elle kategorize edildi (otomatik degil, kucuk sayma hatasi olabilir, buyukluk mertebesi guvenilir) · bes adayin disinda baska bolge AYRICA aranmadi.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
