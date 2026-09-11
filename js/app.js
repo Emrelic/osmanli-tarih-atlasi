@@ -4880,13 +4880,25 @@ function _cBboxPoligonu(k) {
 // KENDİSİ (çizilen çizgi) yine TAM polyline'ı kullanır, yalnız dolgu-bölme
 // yaklaşık. Bugün test edilen tek örnek (Midye-Enez) zaten 2 noktalı,
 // yaklaşıklık devreye GİRMİYOR.
+function _cKapsamaPoligonu(kapsama) {
+  // 🆕 C KAPSAMA POLİGONU (11 Eylül 2026) — `kapsama.tur:"poligon"` ise
+  // `kapsama.nokta_dizisi`nin KENDİSİ kullanılır (kıyı hattı gibi dışbükey
+  // OLMAYAN şekiller dahil — `_cDogruylaKes` buna zaten uyumlu, node'da
+  // sınandı: denetim/ARAC-CCIZIM2-POLIGON-TEST-0911.js). Yoksa (veya
+  // `kapsama.tur:"bbox"`) eski dikdörtgen davranışı KORUNUR — geriye
+  // dönük uyumluluk, mevcut hiçbir kayıt kırılmaz.
+  if (kapsama && kapsama.tur === "poligon" && kapsama.nokta_dizisi) {
+    return kapsama.nokta_dizisi.map(function (p) { return [p.lon, p.lat]; });
+  }
+  if (kapsama && kapsama.kutu) return _cBboxPoligonu(kapsama.kutu);
+  return null;
+}
 function _cKayitGeometrisi(kayit) {
   var nd = (kayit.hat || {}).nokta_dizisi || [];
   if (nd.length < 2) return null;
   var A = [nd[0].lon, nd[0].lat], B = [nd[nd.length - 1].lon, nd[nd.length - 1].lat];
-  var k = (kayit.kapsama || {}).kutu;
-  if (!k) return null;
-  var kutuPoly = _cBboxPoligonu(k);
+  var kutuPoly = _cKapsamaPoligonu(kayit.kapsama);
+  if (!kutuPoly) return null;
   var negatif = _cDogruylaKes(kutuPoly, A, B, true);   // cross <= 0 taraf
   var pozitif = _cDogruylaKes(kutuPoly, A, B, false);  // cross >= 0 taraf
   // §4b'nin ÖLÇÜLMÜŞ örneğiyle doğrulandı: negatif taraf taraflar[0]
