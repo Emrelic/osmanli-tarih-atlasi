@@ -1,0 +1,2118 @@
+{
+ "olcum_tarihi": "2026-09-11",
+ "olcen_oturum": "YABANCI SENKRON",
+ "yontem": "arac/denetle.py İÇİNDEN import edilerek aynı fonksiyonlar (yerlesimleri_yukle, olaylari_yukle, degismez2, kapsam_disi) tekrar çağrıldı — kendi ayrıştırıcı YAZILMADI (D023). Öz-doğrulama: acik_s=104, disi_s=364 — py arac/denetle.py çıktısıyla (104 AÇIK, 364 KAPSAM DIŞI) BİREBİR eşleşiyor.",
+ "olcum_ozeti": {
+  "yabanci_kirilma_toplam": 1327,
+  "acik_tavan": 121,
+  "acik_olcum": 104,
+  "kapsam_disi_olcum": 364,
+  "not": "§1.5 tablosu '1319 YABANCI · 104 AÇIK · 363 KAPSAM DIŞI' diyordu; bugünkü ölçüm '1327 YABANCI · 104 AÇIK · 364 KAPSAM DIŞI' verdi. AÇIK sayısı (104) BİREBİR eşleşiyor — tablo bu satırda BAYAT DEĞİL. Toplam/kapsam-dışı hafif farkı veri büyümesinden (yeni kayıt eklenmesi) kaynaklanıyor, İHLAL DEĞİL."
+ },
+ "siniflandirma": {
+  "devlet_dagilimi": {
+   "rusya": 14,
+   "ingiltere": 10,
+   "bizans": 5,
+   "sokoto": 5,
+   "fransa-cumhuriyet": 5,
+   "ilhanli": 4,
+   "altinorda": 3,
+   "safevi": 3,
+   "hive": 3,
+   "yeni-ispanya": 3,
+   "venedik": 2,
+   "karakoyunlu": 2,
+   "mutahharten": 2,
+   "celayirli": 2,
+   "portekiz": 2,
+   "nogay": 2,
+   "kirim": 2,
+   "buhara": 2,
+   "fransa": 2,
+   "benihalid": 2,
+   "portekiz-brezilyasi": 2,
+   "massina": 2,
+   "kaffa": 2,
+   "kazak-hanligi": 2,
+   "abd": 2,
+   "belcika": 2,
+   "almanya": 2,
+   "darul-kuti": 2,
+   "kanada": 2,
+   "karaman": 1,
+   "pervane": 1,
+   "sirbistan-nemanjic": 1,
+   "inancogullari": 1,
+   "artuklu": 1,
+   "akkoyunlu": 1,
+   "cagatay": 1,
+   "bosna": 1,
+   "zeta": 1,
+   "piza": 1,
+   "eyyubi-hisnikeyfa": 1,
+   "timurlu": 1,
+   "zeyyani": 1,
+   "nebhani": 1,
+   "BULUNAMADI": 1,
+   "milanoduka": 1,
+   "hafsi": 1,
+   "astarhan": 1,
+   "litvanya-buyuk-dukalik": 1,
+   "avusturya": 1,
+   "lehistan": 1,
+   "songhay-imparatorlugu": 1,
+   "mazenderan-marasi": 1,
+   "danimarka": 1,
+   "fas": 1,
+   "mutapa": 1,
+   "ispanya": 1,
+   "don-kazak": 1,
+   "apaci-ovalar": 1,
+   "zend": 1,
+   "hollanda": 1,
+   "afsar": 1,
+   "funj": 1,
+   "kacar": 1,
+   "afgan-durrani": 1,
+   "betsileo": 1,
+   "sammar": 1,
+   "brezilya-imparatorlugu": 1,
+   "ingiliz-kuzey-amerika": 1,
+   "umman-zengibar": 1,
+   "hokand": 1,
+   "tio": 1,
+   "kuayti-sultanligi": 1,
+   "turkmen": 1,
+   "romanya": 1,
+   "habesistan": 1,
+   "dahomey": 1,
+   "tekrur": 1,
+   "berabis": 1,
+   "gambiya-mandinka": 1,
+   "kamba": 1,
+   "kenya-kuzey-halklari": 1,
+   "bagirmi": 1,
+   "buna": 1,
+   "bunyoro": 1,
+   "toro": 1,
+   "adamava": 1,
+   "tuareg-ahaggar": 1,
+   "banda-gbaya": 1,
+   "tuareg-accer": 1,
+   "vaday": 1,
+   "zende": 1,
+   "misir-sultanligi": 1
+  },
+  "yuzyil_dagilimi": {
+   "13": 1,
+   "14": 19,
+   "15": 5,
+   "16": 18,
+   "17": 7,
+   "18": 13,
+   "19": 28,
+   "20": 13
+  },
+  "bolge_kaba_dagilimi": {
+   "Afrika": 41,
+   "diger": 12,
+   "Anadolu": 11,
+   "Balkanlar": 8,
+   "Arabistan/Korfez": 8,
+   "Kafkasya/Karadeniz-kuzeyi": 7,
+   "Rusya/Sibirya/Orta Asya": 6,
+   "Orta/Kuzey Avrupa": 5,
+   "Amerika": 5,
+   "Guney/Dogu Asya + Okyanusya": 1
+  },
+  "not_d153": "Evrenin yarısından çoğu TEK bir devlette toplanmıyor (en büyük tek devlet kümesi: rusya 14/104 = %13,5) — yani 'örneklem evreni değil tek üyeyi ölçer' riski (D153) burada YOK. Ama BÖLGE bazında 'Afrika' kovası 41/104 (%39,4) ile baskın; bu TEK bir şişkin kayıttan değil, ONLARCA FARKLI küçük Afrika devletinin (sokoto, darul-kuti, massina, benihalid, vb.) dağınık birikmesinden geliyor — gerçek bir coğrafi yoğunluk, ölçüm artefaktı DEĞİL."
+ },
+ "onemli_bulgular": [
+  {
+   "baslik": "AYNI-GÜN KOVASI FARKLI KITALARI KARIŞTIRIYOR",
+   "aciklama": "Birçok 's:' dönem sınırı yalnız yıl hassasiyetli ('YYYY-01-01' dolgu günü) ve bu yüzden AYNI TAKVİM GÜNÜNE denk gelen TAMAMEN ALAKASIZ, farklı kıtalardaki devir olayları TEK bir kırılma kaydında (kir[d]) toplanıyor. Örnek: '1631-01-01' kaydında Bratsk ostrogu (Sibirya/Rusya), Saint John NB (Kanada), San José del Parral (Meksika/İspanya) BİR ARADA görünüyor. Bu, Değişmez 2s'nin kendi tasarımı gereği (§CLAUDE.md — 'gün yoksa YYYY-01-01') beklenen bir yan etki; ama madde yazarken HER kırılma kaydının İÇİNDEKİ yerlerin AYRI AYRI olaylar olabileceği unutulmamalı — tek bir kronoloji maddesi dört kıtayı birden 'açıklayamaz'."
+  },
+  {
+   "baslik": "1378-01-01 Diyarbakır (artuklu, kayıp) — muhtemelen VERİ HATASI, YAZILACAK OLAY DEĞİL",
+   "aciklama": "CLAUDE.md §3.5.-1 bu kaydı ZATEN doğrulanmış bir vaka olarak taşıyor: TDV 'diyarbakir' maddesi Amid'in Artuklulardan 1303'te (Gazan Han → Mardin Artuklu), sonra 1343 Sutayoğulları, 1353 Celâyirli, 1394 Timur, 1401 Karayülük, 1507 Safevî, 1515-09-10 Osmanlı sırasını veriyor — 'artuklu 1281→1378' YANLIŞ TARİH + EKSİK ZİNCİR olarak KAYITLI. ⇒ Bu kırılma için kronoloji maddesi YAZMAK yerine yerlesimler.js'teki 's:' zincirinin DÜZELTİLMESİ gerekiyor — düzeltme veri sahibi oturuma (Oturum 0 / Yerleşim araştırma) aittir, BEN YAZMADIM (§7, dosya sahipliği; koşu 9 canlı, data/ donuk)."
+  },
+  {
+   "baslik": "KAPSAM DIŞI (364) filtresi TEMİZ görünüyor ama BİR ölçüm boşluğu var",
+   "aciklama": "kapsam_disi() ölçülemeyen (Fetret dönemi vb.) kayıtları MUHAFAZAKAR biçimde 'İÇİ' (açık/borç) sayıyor — yani D015'in uyardığı 'ölçemediğini temiz sayan süzgeç' hatasına DÜŞMÜYOR, doğru yönde davranıyor. Sınır-testi (en yakın 15 kayıt, 2067-2199 km aralığı) örneklemiyle KAPSAM DIŞI kararları makul görünüyor (Afrika içi, Orta Asya, Sibirya — gerçekten uzak). AMA: mesafe hesabı, degismez2() içinde ÖNCEDEN 4 isme kırpılmış 'adlar' listesi üzerinden yapılıyor (sorted(...)[:4]). Bir kırılma gününde 4'ten fazla yer varsa, kırpılıp ATILAN isimlerden biri Osmanlı küresine daha yakın olabilir ve bu durumda kayıt YANLIŞLIKLA 'KAPSAM DIŞI' sayılabilir. Bu bir HİPOTEZ — somut bir yanlış sınıflama VAKASI ÖLÇMEDİM, yalnız KOD YOLU riski tespit ettim (D149 türünden: süzgeç görünür eler, izdüşüm sessiz kırpar)."
+  }
+ ],
+ "oncelik_onerisi": "104 kaydın TAMAMI için kaynaklı madde yazımı bu oturumun kapsamını aşıyor (her kayıt ayrı TDV/akademik araştırma gerektiriyor). ÖNERİ: 14. yüzyıl Anadolu/Balkan kümesi (19 kayıt) ÖNCELİKLİ — gerekçe: (a) Osmanlı çekirdeğine coğrafi ve zamansal olarak EN YAKIN, (b) TDV kapsaması bu bölgede ölçülmüş olarak %100'e yakın (§4), (c) kullanıcının şikayet ettiği hata sınıfı (harita/kronoloji senkronsuzluğu) en çok BURADA görünür — 19. yüzyıl sömürge Afrika'sı (28 kayıt) uzak ve TDV kapsaması muhtemelen düşük (akademik kaynağa muhtaç, daha yavaş). rusya kümesi (14 kayıt, tek en büyük devlet) TDV'de zayıf kapsanan bir alan (Rusya'nın Sibirya/Ural kale-şehir kuruluşları TDV 'rusya' maddesinde YOK — doğrulandı) ve akademik kaynağa erişim bu oturumda GÜÇLÜK ÇIKARDI (Britannica WebFetch 403 verdi, WebSearch yalnız SENTEZ özet döndürüyor — ALINTILANABİLİR birincil metin değil). Bu bir AKSAKLIK olarak koordinatöre ayrıca bildirildi.",
+ "hazir_aday_sayisi": 1,
+ "adaylar": [
+  {
+   "gun_onerilen": "1322-01-01",
+   "tip": "kayip",
+   "devlet_eski": "pervane",
+   "devlet_yeni": "candaroglu (isfendiyarogullari)",
+   "yer": "Sinop",
+   "yer_id": "Sinop",
+   "kisiler": "Gazi Çelebi, (kızı — 'Hatunili' dönemi 1322-1324), Süleyman Paşa (Candaroğlu)",
+   "baslik_onerisi": "Sinop'un Pervâneoğulları'ndan çıkışı — Gazi Çelebi'nin ölümü",
+   "govde_onerisi": "Pervâneoğulları Beyliği'nin son hükümdarı Gazi Çelebi'nin 722'de (1322) ölümüyle Sinop'ta kısa bir süre kızı hüküm sürdü (724/1324; bu yüzden şehre bir ara 'Hatunili' de denildi). Ardından Kastamonu Candaroğlu beyi Süleyman Paşa şehri ele geçirdi ve Sinop'u Candaroğulları (İsfendiyaroğulları) hakimiyetine kattı; Pervâneoğulları'nın 1277'den beri süren Sinop hakimiyeti böylece sona erdi.",
+   "kaynak_slug": "sinop",
+   "kaynak_alinti": "\"Gazi Çelebi ölünce kızı bir ara yöreyi yönettiyse de (724/1324; bu yüzden Sinop'a Hatunili denilmiştir) Sinop, Kastamonu Candaroğlu beyi Süleyman Paşa tarafından ele geçirildi.\" — TDV İslâm Ansiklopedisi, 'Sinop' md.",
+   "not": "TDV Gazi Çelebi'nin ölümünü 722/1322 veriyor ama Süleyman Paşa'nın fiilen ele geçirişini 724/1324'e (arada kızının 'Hatunili' ara-dönemi var) yerleştiriyor. yerlesimler.js'teki 's:' dönem sonu (1322-01-01) Gazi Çelebi'nin ölüm yılıyla örtüşüyor ama devir FİİLEN 1324'e kadar tamamlanmamış olabilir — bu ARA-DÖNEM (Hatunili, 1322-1324) veri modelinde YOK. İçerik oturumu ya (a) 1322'yi 'Gazi Çelebi'nin ölümü / Pervâneoğulları hakimiyetinin fiilen sarsılması' olarak yazıp gerçek Candaroğlu devrini (1324) yerlesimler.js'e AYRI bir dönem olarak eklemeyi düşünmeli, ya da (b) tek dönemi koruyup maddeyi 1324 fiilî devre göre yazmalı — ikisi de veri değişikliği gerektirir, bu YALNIZ ADAYDIR, karar içerik/veri sahibi oturuma aittir."
+  }
+ ],
+ "kayitlar_104": [
+  {
+   "gun": "1293-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Alanya"
+   ],
+   "en_yakin_madde": "Karesi ve Hamîdoğulları beyliklerinin kuruluşu",
+   "fark_gun": 1461,
+   "devlet": [
+    "karaman"
+   ],
+   "yuzyil": 13,
+   "bolge_kaba": "Anadolu",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1311-03-15",
+   "tip": "kayip",
+   "adlar": [
+    "Tırhala",
+    "Yenişehir (Larissa)"
+   ],
+   "en_yakin_madde": "Rodos ve Oniki Ada'nın St. Jean (Hospitalier) şövalyelerince fethi",
+   "fark_gun": 212,
+   "devlet": [
+    "bizans"
+   ],
+   "yuzyil": 14,
+   "bolge_kaba": "Balkanlar",
+   "durum": "arastirma-bekliyor-oncelikli-kume"
+  },
+  {
+   "gun": "1322-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Sinop"
+   ],
+   "en_yakin_madde": "Mudanya'nın alınışı",
+   "fark_gun": 275,
+   "devlet": [
+    "pervane"
+   ],
+   "yuzyil": 14,
+   "bolge_kaba": "Anadolu",
+   "durum": "ONCELIKLI-arastirma-basladi"
+  },
+  {
+   "gun": "1329-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Çeşme",
+    "İzmir"
+   ],
+   "en_yakin_madde": "Pelekanon (Maltepe) Savaşı ve Kocaeli'nin tamamının alınması",
+   "fark_gun": 151,
+   "devlet": [
+    "bizans"
+   ],
+   "yuzyil": 14,
+   "bolge_kaba": "Balkanlar",
+   "durum": "arastirma-bekliyor-oncelikli-kume"
+  },
+  {
+   "gun": "1348-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Aşkale",
+    "Erzincan",
+    "Kelkit"
+   ],
+   "en_yakin_madde": "Orhan Gazi – Teodora evliliği: Bizans ittifakı",
+   "fark_gun": 579,
+   "devlet": [
+    "ilhanli"
+   ],
+   "yuzyil": 14,
+   "bolge_kaba": "Anadolu",
+   "durum": "arastirma-bekliyor-oncelikli-kume"
+  },
+  {
+   "gun": "1349-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Mankup",
+    "İnkirman (Kalamita)"
+   ],
+   "en_yakin_madde": "Orhan Gazi – Teodora evliliği: Bizans ittifakı",
+   "fark_gun": 945,
+   "devlet": [
+    "bizans"
+   ],
+   "yuzyil": 14,
+   "bolge_kaba": "Kafkasya/Karadeniz-kuzeyi",
+   "durum": "arastirma-bekliyor-oncelikli-kume"
+  },
+  {
+   "gun": "1351-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Bacirge (Esendere)",
+    "Bargiri (Muradiye)",
+    "Başkale",
+    "Bitlis"
+   ],
+   "en_yakin_madde": "Orhan Gazi'nin Cenevizlilerle ilk kapitülasyonu",
+   "fark_gun": 365,
+   "devlet": [
+    "ilhanli"
+   ],
+   "yuzyil": 14,
+   "bolge_kaba": "Anadolu",
+   "durum": "arastirma-bekliyor-oncelikli-kume"
+  },
+  {
+   "gun": "1353-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Burûcird",
+    "Cizre",
+    "Luristan",
+    "Nihâvend"
+   ],
+   "en_yakin_madde": "Çimpe Kalesi — Rumeli'ye geçiş",
+   "fark_gun": 306,
+   "devlet": [
+    "ilhanli"
+   ],
+   "yuzyil": 14,
+   "bolge_kaba": "Arabistan/Korfez",
+   "durum": "arastirma-bekliyor-oncelikli-kume"
+  },
+  {
+   "gun": "1356-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Bryansk",
+    "Leş (Alessio)"
+   ],
+   "en_yakin_madde": "Süleyman Paşa'nın Trakya ilerleyişi: Malkara, İpsala, Keşan ve Tekirdağ",
+   "fark_gun": 366,
+   "devlet": [
+    "altinorda",
+    "sirbistan-nemanjic"
+   ],
+   "yuzyil": 14,
+   "bolge_kaba": "Kafkasya/Karadeniz-kuzeyi",
+   "durum": "arastirma-bekliyor-oncelikli-kume"
+  },
+  {
+   "gun": "1358-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Dubrovnik"
+   ],
+   "en_yakin_madde": "Rumeli fâtihi Süleyman Paşa'nın ölümü",
+   "fark_gun": 122,
+   "devlet": [
+    "venedik"
+   ],
+   "yuzyil": 14,
+   "bolge_kaba": "diger",
+   "durum": "arastirma-bekliyor-oncelikli-kume"
+  },
+  {
+   "gun": "1358-02-18",
+   "tip": "kayip",
+   "adlar": [
+    "Nadin",
+    "Vrana (Urana)",
+    "Zadar (Zara)"
+   ],
+   "en_yakin_madde": "Rumeli fâtihi Süleyman Paşa'nın ölümü",
+   "fark_gun": 170,
+   "devlet": [
+    "venedik"
+   ],
+   "yuzyil": 14,
+   "bolge_kaba": "diger",
+   "durum": "arastirma-bekliyor-oncelikli-kume"
+  },
+  {
+   "gun": "1360-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Erzurum"
+   ],
+   "en_yakin_madde": "Mar'aşî Seyyidleri Âmül'ü aldı — Mazenderan'da seyyid hâkimiyeti",
+   "fark_gun": 365,
+   "devlet": [
+    "ilhanli"
+   ],
+   "yuzyil": 14,
+   "bolge_kaba": "Anadolu",
+   "durum": "arastirma-bekliyor-oncelikli-kume"
+  },
+  {
+   "gun": "1362-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Kiev",
+    "Kursk",
+    "Lubnı",
+    "Nikarya (İkarya)"
+   ],
+   "en_yakin_madde": "I. Murad tahta çıktı",
+   "fark_gun": 59,
+   "devlet": [
+    "altinorda",
+    "bizans"
+   ],
+   "yuzyil": 14,
+   "bolge_kaba": "Kafkasya/Karadeniz-kuzeyi",
+   "durum": "arastirma-bekliyor-oncelikli-kume"
+  },
+  {
+   "gun": "1368-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Denizli"
+   ],
+   "en_yakin_madde": "Gelibolu'nun kaybı (Savoy Haçlı seferi)",
+   "fark_gun": 518,
+   "devlet": [
+    "inancogullari"
+   ],
+   "yuzyil": 14,
+   "bolge_kaba": "Balkanlar",
+   "durum": "arastirma-bekliyor-oncelikli-kume"
+  },
+  {
+   "gun": "1376-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Enez"
+   ],
+   "en_yakin_madde": "Gelibolu'nun geri alınışı",
+   "fark_gun": 244,
+   "devlet": [
+    "bizans"
+   ],
+   "yuzyil": 14,
+   "bolge_kaba": "Balkanlar",
+   "durum": "arastirma-bekliyor-oncelikli-kume"
+  },
+  {
+   "gun": "1378-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Diyarbakır"
+   ],
+   "en_yakin_madde": "Gelibolu'nun geri alınışı",
+   "fark_gun": 487,
+   "devlet": [
+    "artuklu"
+   ],
+   "yuzyil": 14,
+   "bolge_kaba": "Anadolu",
+   "durum": "arastirma-bekliyor-oncelikli-kume"
+  },
+  {
+   "gun": "1379-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Erzincan",
+    "Hazârasp",
+    "Hîve",
+    "Kelkit"
+   ],
+   "en_yakin_madde": "Germiyan çeyizi: Kütahya'nın katılışı",
+   "fark_gun": 731,
+   "devlet": [
+    "akkoyunlu",
+    "cagatay"
+   ],
+   "yuzyil": 14,
+   "bolge_kaba": "Arabistan/Korfez",
+   "durum": "arastirma-bekliyor-oncelikli-kume"
+  },
+  {
+   "gun": "1382-01-01",
+   "tip": "kazanc",
+   "adlar": [
+    "Herseknovi (Herceg Novi)"
+   ],
+   "en_yakin_madde": "Eretna Beyliği'nin sona ermesi ve Kadı Burhâneddin Devleti'nin kuruluşu",
+   "fark_gun": 92,
+   "devlet": [
+    "bosna"
+   ],
+   "yuzyil": 14,
+   "bolge_kaba": "diger",
+   "durum": "arastirma-bekliyor-oncelikli-kume"
+  },
+  {
+   "gun": "1387-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Erzurum",
+    "Leş (Alessio)"
+   ],
+   "en_yakin_madde": "Selanik'in ilk teslimi",
+   "fark_gun": 98,
+   "devlet": [
+    "karakoyunlu",
+    "zeta"
+   ],
+   "yuzyil": 14,
+   "bolge_kaba": "Anadolu",
+   "durum": "arastirma-bekliyor-oncelikli-kume"
+  },
+  {
+   "gun": "1399-02-19",
+   "tip": "kayip",
+   "adlar": [
+    "Elba"
+   ],
+   "en_yakin_madde": "Bursa Ulu Camii tamamlandı",
+   "fark_gun": 102,
+   "devlet": [
+    "piza"
+   ],
+   "yuzyil": 14,
+   "bolge_kaba": "diger",
+   "durum": "arastirma-bekliyor-oncelikli-kume"
+  },
+  {
+   "gun": "1408-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Erzurum"
+   ],
+   "en_yakin_madde": "Çelebi Mehmed Sivas'ı Timurlu Mezid Bey'den geri aldı",
+   "fark_gun": 152,
+   "devlet": [
+    "mutahharten"
+   ],
+   "yuzyil": 15,
+   "bolge_kaba": "Anadolu",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1410-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Arpaçay (Akyaka)",
+    "Digor",
+    "Erzincan",
+    "Eçmiyadzin"
+   ],
+   "en_yakin_madde": "Yanbolu Savaşı — Mûsâ Çelebi Edirne'ye girdi",
+   "fark_gun": 43,
+   "devlet": [
+    "celayirli",
+    "mutahharten"
+   ],
+   "yuzyil": 15,
+   "bolge_kaba": "Anadolu",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1431-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Cizre",
+    "Siirt"
+   ],
+   "en_yakin_madde": "Yanya'nın teslimi",
+   "fark_gun": 84,
+   "devlet": [
+    "celayirli"
+   ],
+   "yuzyil": 15,
+   "bolge_kaba": "Anadolu",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1462-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Hasankeyf",
+    "Siirt"
+   ],
+   "en_yakin_madde": "Trabzon'un fethi",
+   "fark_gun": 139,
+   "devlet": [
+    "eyyubi-hisnikeyfa",
+    "karakoyunlu"
+   ],
+   "yuzyil": 15,
+   "bolge_kaba": "Anadolu",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1500-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Ak-Meçit (Perovsk)",
+    "Akmola (Akmolinsk)",
+    "Andican",
+    "Ayagöz (Sergiopol)"
+   ],
+   "en_yakin_madde": "Sapienza (Zonchio) Deniz Zaferi — Akdeniz'de ilk büyük donanma başarısı",
+   "fark_gun": 126,
+   "devlet": [
+    "altinorda",
+    "timurlu"
+   ],
+   "yuzyil": 15,
+   "bolge_kaba": "Rusya/Sibirya/Orta Asya",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1510-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Bicâye"
+   ],
+   "en_yakin_madde": "İstanbul'da 'Küçük Kıyamet' depremi",
+   "fark_gun": 109,
+   "devlet": [
+    "zeyyani"
+   ],
+   "yuzyil": 16,
+   "bolge_kaba": "Afrika",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1515-04-01",
+   "tip": "kayip",
+   "adlar": [
+    "Buraymî",
+    "Hürmüz Adası",
+    "Kişm (Qeshm)",
+    "Masira"
+   ],
+   "en_yakin_madde": "Kemah Kalesi'nin Safevîler'den fethi",
+   "fark_gun": 48,
+   "devlet": [
+    "nebhani",
+    "safevi"
+   ],
+   "yuzyil": 16,
+   "bolge_kaba": "Arabistan/Korfez",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1522-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Am Timan",
+    "Massenya",
+    "Mongo",
+    "Pánuco (Huasteca)"
+   ],
+   "en_yakin_madde": "Belgrad'ın fethi",
+   "fark_gun": 125,
+   "devlet": [],
+   "yuzyil": 16,
+   "bolge_kaba": "Afrika",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1535-11-01",
+   "tip": "kayip",
+   "adlar": [
+    "Milano"
+   ],
+   "en_yakin_madde": "Tunus'un Şarlken'e kaybı",
+   "fark_gun": 103,
+   "devlet": [
+    "milanoduka"
+   ],
+   "yuzyil": 16,
+   "bolge_kaba": "diger",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1541-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Agadir"
+   ],
+   "en_yakin_madde": "Anabolu'nun (Nauplion) antlaşmayla devralınması",
+   "fark_gun": 61,
+   "devlet": [
+    "portekiz"
+   ],
+   "yuzyil": 16,
+   "bolge_kaba": "Afrika",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1544-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Tabarka"
+   ],
+   "en_yakin_madde": "Estergon ve İstolni Belgrad'ın fethi",
+   "fark_gun": 144,
+   "devlet": [
+    "hafsi"
+   ],
+   "yuzyil": 16,
+   "bolge_kaba": "Afrika",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1556-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Astrahan",
+    "Kalmuk bozkırı",
+    "Kamışin",
+    "Petrovsk (Saratov)"
+   ],
+   "en_yakin_madde": "Kara Ahmed Paşa idam edildi, Rüstem Paşa yeniden sadrazam oldu",
+   "fark_gun": 94,
+   "devlet": [
+    "astarhan",
+    "nogay"
+   ],
+   "yuzyil": 16,
+   "bolge_kaba": "Rusya/Sibirya/Orta Asya",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1569-07-01",
+   "tip": "kayip",
+   "adlar": [
+    "Białystok",
+    "Brest-Litovsk",
+    "Grodno",
+    "Kaunas"
+   ],
+   "en_yakin_madde": "Uluç Ali Paşa'nın Tunus'u alışı — Hafsî-İspanyol düzeninin sonu",
+   "fark_gun": 181,
+   "devlet": [
+    "litvanya-buyuk-dukalik"
+   ],
+   "yuzyil": 16,
+   "bolge_kaba": "Orta/Kuzey Avrupa",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1570-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Don bozkırı (Sal)",
+    "Donets bozkırı",
+    "Çerkask (Razdory)"
+   ],
+   "en_yakin_madde": "Kıbrıs çıkarması: Limasol ve Baf'ın alınışı",
+   "fark_gun": 203,
+   "devlet": [
+    "kirim"
+   ],
+   "yuzyil": 16,
+   "bolge_kaba": "Kafkasya/Karadeniz-kuzeyi",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1574-01-01",
+   "tip": "kazanc",
+   "adlar": [
+    "Ufa"
+   ],
+   "en_yakin_madde": "Don Juan de Austria'nın Tunus'u geri alışı — İnebahtı'nın karadaki tek karşılığı",
+   "fark_gun": 83,
+   "devlet": [
+    "rusya"
+   ],
+   "yuzyil": 16,
+   "bolge_kaba": "Rusya/Sibirya/Orta Asya",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1579-01-01",
+   "tip": "kazanc",
+   "adlar": [
+    "Karlovac"
+   ],
+   "en_yakin_madde": "Şirvan'ın fethi: Şamahı'nın alınışı",
+   "fark_gun": 61,
+   "devlet": [
+    "avusturya"
+   ],
+   "yuzyil": 16,
+   "bolge_kaba": "diger",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1580-04-10",
+   "tip": "kazanc",
+   "adlar": [
+    "Zamość"
+   ],
+   "en_yakin_madde": "İngiltere'ye kapitülasyon verildi",
+   "fark_gun": 52,
+   "devlet": [
+    "lehistan"
+   ],
+   "yuzyil": 16,
+   "bolge_kaba": "Orta/Kuzey Avrupa",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1589-07-02",
+   "tip": "kazanc",
+   "adlar": [
+    "Tsaritsyn"
+   ],
+   "en_yakin_madde": "Tağşiş edilmiş akçe yüzünden Beylerbeyi Vakası patlak verdi",
+   "fark_gun": 31,
+   "devlet": [
+    "rusya"
+   ],
+   "yuzyil": 16,
+   "bolge_kaba": "Kafkasya/Karadeniz-kuzeyi",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1590-07-12",
+   "tip": "kazanc",
+   "adlar": [
+    "Saratov"
+   ],
+   "en_yakin_madde": "Ferhad Paşa Antlaşması — doğuda en geniş sınırlar",
+   "fark_gun": 113,
+   "devlet": [
+    "rusya"
+   ],
+   "yuzyil": 16,
+   "bolge_kaba": "Rusya/Sibirya/Orta Asya",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1591-04-13",
+   "tip": "kayip",
+   "adlar": [
+    "Cenne (Djenné)",
+    "Gao",
+    "Timbuktu"
+   ],
+   "en_yakin_madde": "Dâvud Ağa'nın hassa mimarbaşı olması",
+   "fark_gun": 263,
+   "devlet": [
+    "songhay-imparatorlugu"
+   ],
+   "yuzyil": 16,
+   "bolge_kaba": "Afrika",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1596-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Belgorod",
+    "Bârfurûş (Bâbil)",
+    "Cenne (Djenné)",
+    "Eşref (Behşehr)"
+   ],
+   "en_yakin_madde": "Eflak'tan çekiliş ve Yergöğü baskını — bastırma seferinin sonuçsuz kalışı",
+   "fark_gun": 92,
+   "devlet": [
+    "kirim",
+    "mazenderan-marasi"
+   ],
+   "yuzyil": 16,
+   "bolge_kaba": "Afrika",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1598-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Parras",
+    "Sayram (İsficâb)",
+    "Taraz (Evliya-Ata)",
+    "Türkistan (Yesi)"
+   ],
+   "en_yakin_madde": "Yanıkkale'nin (Győr) kaybı",
+   "fark_gun": 87,
+   "devlet": [
+    "buhara"
+   ],
+   "yuzyil": 16,
+   "bolge_kaba": "Balkanlar",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1600-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Aravan",
+    "Garabogaz (Bekdaş)",
+    "Kabompo",
+    "Kalabo"
+   ],
+   "en_yakin_madde": "1570'lerde başlayan tâun salgını İstanbul'u etkilemeyi sürdürüyordu",
+   "fark_gun": 152,
+   "devlet": [
+    "hive"
+   ],
+   "yuzyil": 16,
+   "bolge_kaba": "Afrika",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1611-01-01",
+   "tip": "kazanc",
+   "adlar": [
+    "Ferahâbâd"
+   ],
+   "en_yakin_madde": "Evliya Çelebi doğdu",
+   "fark_gun": 83,
+   "devlet": [
+    "safevi"
+   ],
+   "yuzyil": 17,
+   "bolge_kaba": "Arabistan/Korfez",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1631-01-01",
+   "tip": "kazanc",
+   "adlar": [
+    "Bratsk ostrogu",
+    "Irbit",
+    "Saint John (NB)",
+    "San José del Parral"
+   ],
+   "en_yakin_madde": "Evliya Çelebi'nin seyahat rüyası — 'Şefaat' diyecekken 'Seyahat' demesi",
+   "fark_gun": 135,
+   "devlet": [
+    "fransa",
+    "rusya",
+    "yeni-ispanya"
+   ],
+   "yuzyil": 17,
+   "bolge_kaba": "diger",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1646-01-01",
+   "tip": "kazanc",
+   "adlar": [
+    "Arizpe",
+    "Yeni Ürgenç"
+   ],
+   "en_yakin_madde": "Girit seferinin başlaması ve Hanya'nın fethi",
+   "fark_gun": 132,
+   "devlet": [
+    "hive",
+    "yeni-ispanya"
+   ],
+   "yuzyil": 17,
+   "bolge_kaba": "diger",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1658-02-26",
+   "tip": "kayip",
+   "adlar": [
+    "Karlskrona",
+    "Kristianstad"
+   ],
+   "en_yakin_madde": "Limni ve Semadirek'in geri alınışı",
+   "fark_gun": 103,
+   "devlet": [
+    "danimarka"
+   ],
+   "yuzyil": 17,
+   "bolge_kaba": "Orta/Kuzey Avrupa",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1663-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Borisoglebsk",
+    "Penza"
+   ],
+   "en_yakin_madde": "Uyvar'ın fethi",
+   "fark_gun": 266,
+   "devlet": [
+    "nogay"
+   ],
+   "yuzyil": 17,
+   "bolge_kaba": "Kafkasya/Karadeniz-kuzeyi",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1668-01-01",
+   "tip": "kazanc",
+   "adlar": [
+    "Kamışlov",
+    "Sault Ste. Marie",
+    "Waskaganish (Rupert House)",
+    "Yerbogaçen"
+   ],
+   "en_yakin_madde": "Andrusovo Mütarekesi — Kiev ve Sol Yaka Ukrayna Rusya'ya geçti",
+   "fark_gun": 326,
+   "devlet": [
+    "fransa",
+    "ingiltere",
+    "rusya"
+   ],
+   "yuzyil": 17,
+   "bolge_kaba": "Orta/Kuzey Avrupa",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1700-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Bailundo",
+    "Büyük Zimbabve",
+    "Cenne (Djenné)",
+    "Chiquiaca misyonları"
+   ],
+   "en_yakin_madde": "İstanbul Antlaşması — Azak'ın Rusya'ya bırakılması",
+   "fark_gun": 194,
+   "devlet": [
+    "fas",
+    "mutapa"
+   ],
+   "yuzyil": 17,
+   "bolge_kaba": "Afrika",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1716-01-01",
+   "tip": "kazanc",
+   "adlar": [
+    "Belize Town",
+    "Kuveyt",
+    "Omsk",
+    "Reyes (Maropa)"
+   ],
+   "en_yakin_madde": "Çuha Adası'nın (Kythira) alınışı",
+   "fark_gun": 116,
+   "devlet": [
+    "benihalid",
+    "ingiltere",
+    "ispanya",
+    "rusya"
+   ],
+   "yuzyil": 18,
+   "bolge_kaba": "Afrika",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1721-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Don bozkırı (Sal)",
+    "Donets bozkırı",
+    "Los Adaes",
+    "Çerkask (Razdory)"
+   ],
+   "en_yakin_madde": "Mehmed Efendi'nin XV. Louis tarafından kabulü",
+   "fark_gun": 79,
+   "devlet": [
+    "don-kazak"
+   ],
+   "yuzyil": 18,
+   "bolge_kaba": "diger",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1722-01-01",
+   "tip": "kazanc",
+   "adlar": [
+    "Kainsk (Baraba)",
+    "Nijniy Tagil"
+   ],
+   "en_yakin_madde": "Mehmed Efendi'nin İstanbul'a dönüşü",
+   "fark_gun": 85,
+   "devlet": [
+    "rusya"
+   ],
+   "yuzyil": 18,
+   "bolge_kaba": "Rusya/Sibirya/Orta Asya",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1723-01-01",
+   "tip": "kazanc",
+   "adlar": [
+    "Borba (Madeira)",
+    "Perm",
+    "Yekaterinburg"
+   ],
+   "en_yakin_madde": "Rus kuvvetlerinin Derbend'i alması: I. Petro'nun Hazar seferi",
+   "fark_gun": 131,
+   "devlet": [
+    "portekiz-brezilyasi",
+    "rusya"
+   ],
+   "yuzyil": 18,
+   "bolge_kaba": "Balkanlar",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1734-01-01",
+   "tip": "kazanc",
+   "adlar": [
+    "Bender Enzeli",
+    "Buşehr",
+    "Bârfurûş (Bâbil)",
+    "Esterâbâd (Gürgân)"
+   ],
+   "en_yakin_madde": "Hendesehâne'nin (mühendislik okulunun ilk örneği) kuruluşu",
+   "fark_gun": 151,
+   "devlet": [
+    "safevi"
+   ],
+   "yuzyil": 18,
+   "bolge_kaba": "Arabistan/Korfez",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1740-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Big Lick (Roanoke)",
+    "Hazârasp",
+    "Hîve",
+    "Köhne Ürgenç (Gürgenç)"
+   ],
+   "en_yakin_madde": "Niş Antlaşması — Rusya ile barış, Azak'ın tarafsızlaştırılması ve Kırım akınlarının durdurulması",
+   "fark_gun": 90,
+   "devlet": [
+    "hive"
+   ],
+   "yuzyil": 18,
+   "bolge_kaba": "Balkanlar",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1743-01-01",
+   "tip": "kazanc",
+   "adlar": [
+    "North West River (Labrador)",
+    "Troitsk"
+   ],
+   "en_yakin_madde": "Musul Savunması — Nâdir Şah'ın püskürtülmesi",
+   "fark_gun": 295,
+   "devlet": [
+    "ingiltere",
+    "rusya"
+   ],
+   "yuzyil": 18,
+   "bolge_kaba": "Orta/Kuzey Avrupa",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1749-12-15",
+   "tip": "kazanc",
+   "adlar": [
+    "Rostov (Don)"
+   ],
+   "en_yakin_madde": "Nuruosmaniye Camii ve Külliyesi'nin temelinin atılması",
+   "fark_gun": 330,
+   "devlet": [
+    "rusya"
+   ],
+   "yuzyil": 18,
+   "bolge_kaba": "Kafkasya/Karadeniz-kuzeyi",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1750-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Bangassu",
+    "Comanchería (Güney Büyük Ovalar)",
+    "Obo",
+    "Rafai"
+   ],
+   "en_yakin_madde": "Nuruosmaniye Camii ve Külliyesi'nin temelinin atılması",
+   "fark_gun": 347,
+   "devlet": [
+    "apaci-ovalar"
+   ],
+   "yuzyil": 18,
+   "bolge_kaba": "Afrika",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1751-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Belh"
+   ],
+   "en_yakin_madde": "Nuruosmaniye Camii ve Külliyesi'nin temelinin atılması",
+   "fark_gun": 712,
+   "devlet": [
+    "buhara"
+   ],
+   "yuzyil": 18,
+   "bolge_kaba": "Guney/Dogu Asya + Okyanusya",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1752-01-01",
+   "tip": "kazanc",
+   "adlar": [
+    "Misión Santa Gertrudis (Baja California)",
+    "Petropavlovsk (Kızılcar)",
+    "Tubac",
+    "Şuşa"
+   ],
+   "en_yakin_madde": "Bahreyn'in Bûşehr'deki Âl-i Mezkûr idaresine geçmesi",
+   "fark_gun": 366,
+   "devlet": [
+    "rusya",
+    "yeni-ispanya",
+    "zend"
+   ],
+   "yuzyil": 18,
+   "bolge_kaba": "diger",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1784-01-01",
+   "tip": "kazanc",
+   "adlar": [
+    "Floridablanca (San Julián)",
+    "Georgetown (Stabroek)",
+    "Panoré (São Gabriel da Cachoeira)",
+    "Vladikavkaz"
+   ],
+   "en_yakin_madde": "Kırım'ın Rusya'ya ilhakı",
+   "fark_gun": 257,
+   "devlet": [
+    "hollanda",
+    "portekiz-brezilyasi",
+    "rusya"
+   ],
+   "yuzyil": 18,
+   "bolge_kaba": "Amerika",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1785-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Merv (Mari)",
+    "Nühûd"
+   ],
+   "en_yakin_madde": "Kırım'ın Rusya'ya ilhakı",
+   "fark_gun": 623,
+   "devlet": [
+    "afsar",
+    "funj"
+   ],
+   "yuzyil": 18,
+   "bolge_kaba": "Arabistan/Korfez",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1808-01-01",
+   "tip": "kazanc",
+   "adlar": [
+    "Erâk (Sultânâbâd)",
+    "Katsina",
+    "Zaria (Zazzau)"
+   ],
+   "en_yakin_madde": "Tilsit Antlaşması — Prusya topraklarının yarısını kaybetti, Varşova Dukalığı kuruldu",
+   "fark_gun": 176,
+   "devlet": [
+    "kacar",
+    "sokoto"
+   ],
+   "yuzyil": 19,
+   "bolge_kaba": "Afrika",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1818-01-01",
+   "tip": "kazanc",
+   "adlar": [
+    "Aleksandrovski Redut (Nushagak)",
+    "Bakel",
+    "Beaufort West",
+    "Cenne (Djenné)"
+   ],
+   "en_yakin_madde": "Dir'iye düştü — ilk Suûdî Devleti sona erdi",
+   "fark_gun": 251,
+   "devlet": [
+    "fransa-cumhuriyet",
+    "ingiltere",
+    "massina",
+    "rusya"
+   ],
+   "yuzyil": 19,
+   "bolge_kaba": "Amerika",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1826-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Belh",
+    "Bytown (Ottawa)",
+    "Fort Connolly (Bear Lake)",
+    "Herat"
+   ],
+   "en_yakin_madde": "Missolonghi (Mesolongi) düştü",
+   "fark_gun": 111,
+   "devlet": [
+    "afgan-durrani"
+   ],
+   "yuzyil": 19,
+   "bolge_kaba": "diger",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1830-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Akmola (Akmolinsk)",
+    "Ambositra",
+    "Cimma (Jiren)",
+    "Colesberg"
+   ],
+   "en_yakin_madde": "Yunanistan'ın bağımsızlığı — Cezayir'in işgali",
+   "fark_gun": 31,
+   "devlet": [
+    "betsileo",
+    "kaffa",
+    "kazak-hanligi"
+   ],
+   "yuzyil": 19,
+   "bolge_kaba": "Afrika",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1836-01-01",
+   "tip": "kazanc",
+   "adlar": [
+    "Dûmetülcendel (Cevf)",
+    "Houston",
+    "Hâil",
+    "Nefud çölü"
+   ],
+   "en_yakin_madde": "Hariciye Nezareti kuruldu",
+   "fark_gun": 152,
+   "devlet": [
+    "abd",
+    "sammar"
+   ],
+   "yuzyil": 19,
+   "bolge_kaba": "Afrika",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1841-10-01",
+   "tip": "kayip",
+   "adlar": [
+    "Cübeyl",
+    "Katîf",
+    "Lahsa",
+    "Ukayr (Uceyr)"
+   ],
+   "en_yakin_madde": "Londra Boğazlar Sözleşmesi",
+   "fark_gun": 80,
+   "devlet": [
+    "benihalid"
+   ],
+   "yuzyil": 19,
+   "bolge_kaba": "Arabistan/Korfez",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1847-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Almatı (Vernıy)",
+    "East London",
+    "Fort Yukon",
+    "Irgiz (Irgız)"
+   ],
+   "en_yakin_madde": "Dede Efendi'nin hac sırasında Mina'da vefatı",
+   "fark_gun": 33,
+   "devlet": [
+    "kazak-hanligi"
+   ],
+   "yuzyil": 19,
+   "bolge_kaba": "Afrika",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1852-01-01",
+   "tip": "kazanc",
+   "adlar": [
+    "Caruru (Vaupés)",
+    "Fort Rae (Behchokǫ̀)",
+    "Springbok",
+    "Tabora (Kazeh)"
+   ],
+   "en_yakin_madde": "Fort Laramie Antlaşması — Kuzey Ovalar'da sınırlar çizildi",
+   "fark_gun": 106,
+   "devlet": [
+    "brezilya-imparatorlugu",
+    "ingiliz-kuzey-amerika",
+    "ingiltere",
+    "umman-zengibar"
+   ],
+   "yuzyil": 19,
+   "bolge_kaba": "Amerika",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1853-07-28",
+   "tip": "kayip",
+   "adlar": [
+    "Ak-Meçit (Perovsk)"
+   ],
+   "en_yakin_madde": "Kırım Savaşı başladı",
+   "fark_gun": 68,
+   "devlet": [
+    "hokand"
+   ],
+   "yuzyil": 19,
+   "bolge_kaba": "Rusya/Sibirya/Orta Asya",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1862-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Cenne (Djenné)",
+    "Hamdullahi"
+   ],
+   "en_yakin_madde": "Birleşik prensliklerin Romanya adını alması",
+   "fark_gun": 51,
+   "devlet": [
+    "massina"
+   ],
+   "yuzyil": 19,
+   "bolge_kaba": "Afrika",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1880-06-01",
+   "tip": "kazanc",
+   "adlar": [
+    "Fransvil (Franceville)"
+   ],
+   "en_yakin_madde": "Britanya, Arktik Takımadalar'ı Kanada'ya devretti",
+   "fark_gun": 92,
+   "devlet": [
+    "fransa-cumhuriyet"
+   ],
+   "yuzyil": 19,
+   "bolge_kaba": "Afrika",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1880-10-03",
+   "tip": "kayip",
+   "adlar": [
+    "Ouesso",
+    "İmpfondo"
+   ],
+   "en_yakin_madde": "Britanya, Arktik Takımadalar'ı Kanada'ya devretti",
+   "fark_gun": 32,
+   "devlet": [
+    "tio"
+   ],
+   "yuzyil": 19,
+   "bolge_kaba": "Afrika",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1881-01-01",
+   "tip": "kazanc",
+   "adlar": [
+    "Hadramut",
+    "Kaedi",
+    "Kita",
+    "Mangışlak"
+   ],
+   "en_yakin_madde": "Britanya, Arktik Takımadalar'ı Kanada'ya devretti",
+   "fark_gun": 122,
+   "devlet": [
+    "fransa-cumhuriyet",
+    "kuayti-sultanligi",
+    "rusya"
+   ],
+   "yuzyil": 19,
+   "bolge_kaba": "Afrika",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1881-01-30",
+   "tip": "kayip",
+   "adlar": [
+    "Dihistan ovası (Meşhed-i Misriyân)",
+    "Ebîverd",
+    "Nesâ"
+   ],
+   "en_yakin_madde": "Tunus'un işgali ve Düyûn-ı Umûmiyye",
+   "fark_gun": 102,
+   "devlet": [
+    "turkmen"
+   ],
+   "yuzyil": 19,
+   "bolge_kaba": "Arabistan/Korfez",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1881-03-26",
+   "tip": "kayip",
+   "adlar": [
+    "Babadağı (Babadag)",
+    "Birlad (Bârlad)",
+    "Buzău",
+    "Bükreş"
+   ],
+   "en_yakin_madde": "Tunus'un işgali ve Düyûn-ı Umûmiyye",
+   "fark_gun": 47,
+   "devlet": [
+    "romanya"
+   ],
+   "yuzyil": 19,
+   "bolge_kaba": "Balkanlar",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1888-01-01",
+   "tip": "kazanc",
+   "adlar": [
+    "Mukalla",
+    "İlebo"
+   ],
+   "en_yakin_madde": "Haydarpaşa-Ankara demiryolu imtiyazının Almanlara verilmesi",
+   "fark_gun": 267,
+   "devlet": [
+    "belcika",
+    "ingiltere"
+   ],
+   "yuzyil": 19,
+   "bolge_kaba": "Afrika",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1889-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Asmara",
+    "Kerene",
+    "Maçakos"
+   ],
+   "en_yakin_madde": "Haydarpaşa-Ankara demiryolu imtiyazının Almanlara verilmesi",
+   "fark_gun": 99,
+   "devlet": [
+    "habesistan"
+   ],
+   "yuzyil": 19,
+   "bolge_kaba": "Afrika",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1890-01-01",
+   "tip": "kazanc",
+   "adlar": [
+    "Aketi",
+    "Birao",
+    "Bukoba",
+    "Bumba"
+   ],
+   "en_yakin_madde": "İttihâd-ı Osmânî Cemiyeti'nin İstanbul'da kuruluşu",
+   "fark_gun": 213,
+   "devlet": [
+    "almanya",
+    "belcika",
+    "darul-kuti"
+   ],
+   "yuzyil": 19,
+   "bolge_kaba": "Afrika",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1893-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Abomey",
+    "Attawapiskat",
+    "Cenne (Djenné)",
+    "Circle City"
+   ],
+   "en_yakin_madde": "1894 İstanbul depremi",
+   "fark_gun": 555,
+   "devlet": [
+    "dahomey",
+    "tekrur"
+   ],
+   "yuzyil": 19,
+   "bolge_kaba": "Amerika",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1894-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Albreda-Cufure",
+    "Aravan",
+    "Esperance",
+    "Gveru"
+   ],
+   "en_yakin_madde": "1894 İstanbul depremi",
+   "fark_gun": 190,
+   "devlet": [
+    "berabis",
+    "gambiya-mandinka"
+   ],
+   "yuzyil": 19,
+   "bolge_kaba": "Afrika",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1895-07-01",
+   "tip": "kayip",
+   "adlar": [
+    "Garissa",
+    "Kitui",
+    "Marsabit",
+    "Vacir (Wajir)"
+   ],
+   "en_yakin_madde": "Dârülaceze'nin açılması",
+   "fark_gun": 216,
+   "devlet": [
+    "kamba",
+    "kenya-kuzey-halklari"
+   ],
+   "yuzyil": 19,
+   "bolge_kaba": "Afrika",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1897-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Am Timan",
+    "Bida (Nupe)",
+    "Bucumbura",
+    "Buna (Bouna)"
+   ],
+   "en_yakin_madde": "Dongola'nın geri alınışı — Nil boyu seferinin başlaması",
+   "fark_gun": 100,
+   "devlet": [
+    "bagirmi",
+    "buna",
+    "sokoto"
+   ],
+   "yuzyil": 19,
+   "bolge_kaba": "Afrika",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1897-02-16",
+   "tip": "kayip",
+   "adlar": [
+    "İlorin"
+   ],
+   "en_yakin_madde": "1897 Osmanlı-Yunan Savaşı'nın başlaması: Teselya cephesi",
+   "fark_gun": 60,
+   "devlet": [
+    "sokoto"
+   ],
+   "yuzyil": 19,
+   "bolge_kaba": "Afrika",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1897-09-10",
+   "tip": "kayip",
+   "adlar": [
+    "Bonga (Kaffa)"
+   ],
+   "en_yakin_madde": "Dömeke Meydan Muharebesi",
+   "fark_gun": 116,
+   "devlet": [
+    "kaffa"
+   ],
+   "yuzyil": 19,
+   "bolge_kaba": "Afrika",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1898-01-01",
+   "tip": "kazanc",
+   "adlar": [
+    "Atlin",
+    "Buake (Bouaké)",
+    "Busa (Borgu)",
+    "Daloa"
+   ],
+   "en_yakin_madde": "Dömeke Meydan Muharebesi",
+   "fark_gun": 229,
+   "devlet": [
+    "fransa-cumhuriyet",
+    "ingiltere",
+    "kanada"
+   ],
+   "yuzyil": 19,
+   "bolge_kaba": "Amerika",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1899-04-09",
+   "tip": "kayip",
+   "adlar": [
+    "Hoima (Bunyoro)",
+    "Masindi"
+   ],
+   "en_yakin_madde": "Kondominyum Antlaşması — Sudan'ın İngiliz-Mısır ortak idaresi",
+   "fark_gun": 80,
+   "devlet": [
+    "bunyoro"
+   ],
+   "yuzyil": 19,
+   "bolge_kaba": "Afrika",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1899-05-30",
+   "tip": "kazanc",
+   "adlar": [
+    "Nairobi"
+   ],
+   "en_yakin_madde": "Kondominyum Antlaşması — Sudan'ın İngiliz-Mısır ortak idaresi",
+   "fark_gun": 131,
+   "devlet": [
+    "ingiltere"
+   ],
+   "yuzyil": 19,
+   "bolge_kaba": "Afrika",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1900-06-26",
+   "tip": "kayip",
+   "adlar": [
+    "Fort Portal (Toro)"
+   ],
+   "en_yakin_madde": "Dârülfünûn-ı Şâhâne'nin kalıcı kurum olarak yeniden kurulması",
+   "fark_gun": 66,
+   "devlet": [
+    "toro"
+   ],
+   "yuzyil": 19,
+   "bolge_kaba": "Afrika",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1901-09-02",
+   "tip": "kayip",
+   "adlar": [
+    "Banyo",
+    "Garua (Garoua)",
+    "Marua (Maroua)",
+    "Ngaunder (Ngaoundéré)"
+   ],
+   "en_yakin_madde": "Abdülazîz b. Suûd'un Riyad'ı Reşîdîler'den geri alması",
+   "fark_gun": 135,
+   "devlet": [
+    "adamava"
+   ],
+   "yuzyil": 20,
+   "bolge_kaba": "Afrika",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1902-05-07",
+   "tip": "kayip",
+   "adlar": [
+    "Abalessa",
+    "İdeles"
+   ],
+   "en_yakin_madde": "Abdülazîz b. Suûd'un Riyad'ı Reşîdîler'den geri alması",
+   "fark_gun": 112,
+   "devlet": [
+    "tuareg-ahaggar"
+   ],
+   "yuzyil": 20,
+   "bolge_kaba": "Afrika",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1903-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Bambari",
+    "Batangafo",
+    "Bossangoa",
+    "Bria"
+   ],
+   "en_yakin_madde": "Mürzsteg Programı: Makedonya'da uluslararası reform denetimi",
+   "fark_gun": 274,
+   "devlet": [
+    "banda-gbaya"
+   ],
+   "yuzyil": 20,
+   "bolge_kaba": "Afrika",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1903-01-15",
+   "tip": "kayip",
+   "adlar": [
+    "Sokoto"
+   ],
+   "en_yakin_madde": "Mürzsteg Programı: Makedonya'da uluslararası reform denetimi",
+   "fark_gun": 260,
+   "devlet": [
+    "sokoto"
+   ],
+   "yuzyil": 20,
+   "bolge_kaba": "Afrika",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1903-07-27",
+   "tip": "kayip",
+   "adlar": [
+    "Bauci (Bauchi)",
+    "Yola"
+   ],
+   "en_yakin_madde": "Mürzsteg Programı: Makedonya'da uluslararası reform denetimi",
+   "fark_gun": 67,
+   "devlet": [
+    "sokoto"
+   ],
+   "yuzyil": 20,
+   "bolge_kaba": "Afrika",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1904-01-01",
+   "tip": "kazanc",
+   "adlar": [
+    "Killiniq (Port Burwell)",
+    "Nakuru"
+   ],
+   "en_yakin_madde": "Beşşâr'da (Colomb-Béchar) Fransız karakolunun kurulması",
+   "fark_gun": 51,
+   "devlet": [
+    "ingiltere",
+    "kanada"
+   ],
+   "yuzyil": 20,
+   "bolge_kaba": "Afrika",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1908-01-01",
+   "tip": "kazanc",
+   "adlar": [
+    "Kitale"
+   ],
+   "en_yakin_madde": "II. Meşrutiyet'in ilanı",
+   "fark_gun": 204,
+   "devlet": [
+    "ingiltere"
+   ],
+   "yuzyil": 20,
+   "bolge_kaba": "Afrika",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1911-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Cânet (Djanet)",
+    "Gulu",
+    "Lira",
+    "Moroto"
+   ],
+   "en_yakin_madde": "Trablusgarp Savaşı",
+   "fark_gun": 243,
+   "devlet": [
+    "tuareg-accer"
+   ],
+   "yuzyil": 20,
+   "bolge_kaba": "Afrika",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1911-04-12",
+   "tip": "kayip",
+   "adlar": [
+    "Birao",
+    "Ndele (Dâru'l-Kûtî)",
+    "Uanda-Calle"
+   ],
+   "en_yakin_madde": "Trablusgarp Savaşı",
+   "fark_gun": 142,
+   "devlet": [
+    "darul-kuti"
+   ],
+   "yuzyil": 20,
+   "bolge_kaba": "Afrika",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1912-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Abeşe (Abéché)",
+    "Bangassu",
+    "Biltine",
+    "Fada (Ennedi)"
+   ],
+   "en_yakin_madde": "İtalya'nın tek taraflı ilhak kararnâmesi",
+   "fark_gun": 57,
+   "devlet": [
+    "vaday",
+    "zende"
+   ],
+   "yuzyil": 20,
+   "bolge_kaba": "Afrika",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1914-01-01",
+   "tip": "kazanc",
+   "adlar": [
+    "Anchorage",
+    "Bardaî",
+    "Uije (Uíge)",
+    "Vûr"
+   ],
+   "en_yakin_madde": "Atina Antlaşması: Yunanistan ile barış ve Selanik-Yanya'nın devri",
+   "fark_gun": 48,
+   "devlet": [
+    "abd",
+    "fransa-cumhuriyet",
+    "portekiz"
+   ],
+   "yuzyil": 20,
+   "bolge_kaba": "diger",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1916-09-01",
+   "tip": "kayip",
+   "adlar": [
+    "Arusa (Arusha)",
+    "Babati",
+    "Banyo",
+    "Bukoba"
+   ],
+   "en_yakin_madde": "Yenbu'nun Şerif Hüseyin kuvvetlerine kaybı",
+   "fark_gun": 36,
+   "devlet": [
+    "almanya"
+   ],
+   "yuzyil": 20,
+   "bolge_kaba": "Afrika",
+   "durum": "arastirma-bekliyor"
+  },
+  {
+   "gun": "1922-03-15",
+   "tip": "kayip",
+   "adlar": [
+    "Ahmîm",
+    "Asvan",
+    "Asyut",
+    "Atfîh"
+   ],
+   "en_yakin_madde": "Adana'nın kurtuluşu — Fransızların şehri terketmesi",
+   "fark_gun": 69,
+   "devlet": [
+    "misir-sultanligi"
+   ],
+   "yuzyil": 20,
+   "bolge_kaba": "Afrika",
+   "durum": "arastirma-bekliyor"
+  }
+ ],
+ "kapsam_disi_364_sinir_testi_ilk15": [
+  {
+   "gun": "1893-08-15",
+   "tip": "kayip",
+   "adlar": [
+    "İbadan"
+   ],
+   "en_yakin_madde": "1894 İstanbul depremi",
+   "fark_gun": 329,
+   "km": 2067.0776370549793
+  },
+  {
+   "gun": "1850-01-01",
+   "tip": "kazanc",
+   "adlar": [
+    "Geraldton",
+    "Kalenga (Hehe)",
+    "Nonohay (Yukarı Uruguay)"
+   ],
+   "en_yakin_madde": "Macar mültecileri meselesi: Kossuth ve arkadaşlarının Osmanlı'ya sığınması",
+   "fark_gun": 138,
+   "km": 2075.7764287486702
+  },
+  {
+   "gun": "1901-10-25",
+   "tip": "kayip",
+   "adlar": [
+    "Mbarara (Nkore)"
+   ],
+   "en_yakin_madde": "Abdülazîz b. Suûd'un Riyad'ı Reşîdîler'den geri alması",
+   "fark_gun": 82,
+   "km": 2081.9996744629443
+  },
+  {
+   "gun": "1892-01-01",
+   "tip": "kazanc",
+   "adlar": [
+    "Cue",
+    "Isiro",
+    "Kalemie",
+    "Mvanza"
+   ],
+   "en_yakin_madde": "Tokar'ın İngiliz-Mısır kuvvetlerince geri alınışı — Osman Digna'nın çekilişi",
+   "fark_gun": 329,
+   "km": 2082.6249817543708
+  },
+  {
+   "gun": "1593-01-01",
+   "tip": "kazanc",
+   "adlar": [
+    "Pelım ostrogu"
+   ],
+   "en_yakin_madde": "Osmanlı-Avusturya 'Uzun Savaş'ının başlaması",
+   "fark_gun": 181,
+   "km": 2094.4080506685304
+  },
+  {
+   "gun": "1890-07-01",
+   "tip": "kayip",
+   "adlar": [
+    "Bveranyange (Karagve)",
+    "Katima Mulilo"
+   ],
+   "en_yakin_madde": "Müleydâ Savaşı — İkinci Suud Devleti'nin sonu, Necid Râşidîler'e geçti",
+   "fark_gun": 184,
+   "km": 2108.953638690182
+  },
+  {
+   "gun": "1897-02-18",
+   "tip": "kayip",
+   "adlar": [
+    "Benin Şehri (Edo)",
+    "Onitsha"
+   ],
+   "en_yakin_madde": "1897 Osmanlı-Yunan Savaşı'nın başlaması: Teselya cephesi",
+   "fark_gun": 58,
+   "km": 2123.3051180387965
+  },
+  {
+   "gun": "1865-06-17",
+   "tip": "kayip",
+   "adlar": [
+    "Taşkent"
+   ],
+   "en_yakin_madde": "Sevâkin, Masavva ve Dahlak'ın Mısır'a bağlanması",
+   "fark_gun": 167,
+   "km": 2135.6326179210014
+  },
+  {
+   "gun": "1802-01-01",
+   "tip": "kayip",
+   "adlar": [
+    "Hucend",
+    "Kap (Cape Town)",
+    "Lesser Slave Lake House",
+    "Nelson House (Nisichawayasihk)"
+   ],
+   "en_yakin_madde": "Amiens Antlaşması — Menorka İspanya'ya geri verildi",
+   "fark_gun": 83,
+   "km": 2154.7716698211498
+  },
+  {
+   "gun": "1866-05-24",
+   "tip": "kayip",
+   "adlar": [
+    "Hucend"
+   ],
+   "en_yakin_madde": "Girit İsyanı'nın başlaması (1866-1869)",
+   "fark_gun": 89,
+   "km": 2154.7716698211498
+  },
+  {
+   "gun": "1864-09-22",
+   "tip": "kayip",
+   "adlar": [
+    "Sayram (İsficâb)",
+    "Taraz (Evliya-Ata)",
+    "Çimkent"
+   ],
+   "en_yakin_madde": "Vilâyet Nizamnâmesi",
+   "fark_gun": 47,
+   "km": 2156.9085974796044
+  },
+  {
+   "gun": "1625-01-01",
+   "tip": "kazanc",
+   "adlar": [
+    "Abomey",
+    "Pemaquid"
+   ],
+   "en_yakin_madde": "Bağdat'ın Safevîlere kaybı",
+   "fark_gun": 400,
+   "km": 2161.8062966276434
+  },
+  {
+   "gun": "1837-01-01",
+   "tip": "kazanc",
+   "adlar": [
+    "Fort Confidence (Büyük Ayı Gölü)",
+    "Ogooué havzası"
+   ],
+   "en_yakin_madde": "Hariciye Nezareti kuruldu",
+   "fark_gun": 214,
+   "km": 2176.648473706644
+  },
+  {
+   "gun": "1861-08-06",
+   "tip": "kayip",
+   "adlar": [
+    "Lagos (Eko)"
+   ],
+   "en_yakin_madde": "Abdülmecid'in vefatı ve Sultan Abdülaziz'in cülûsu",
+   "fark_gun": 42,
+   "km": 2182.843505154559
+  },
+  {
+   "gun": "1690-01-01",
+   "tip": "kazanc",
+   "adlar": [
+    "Aroçukvu",
+    "Besalampy",
+    "Bondugu (Gyaaman)",
+    "Bulebane (Bundu)"
+   ],
+   "en_yakin_madde": "Köprülüzâde Fâzıl Mustafa Paşa'nın sadrazamlığa atanması ve mali ıslahatları",
+   "fark_gun": 68,
+   "km": 2198.7187177752353
+  }
+ ],
+ "kapsam_esigi_km": 2014.0
+}
