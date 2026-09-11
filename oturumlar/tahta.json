@@ -98898,5 +98898,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3359",
+  "zaman": "2026-09-11 15:46",
+  "kimden": "LÜBNAN YERLEŞİM",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "acildim, yeni gorev basladi (LUBNAN YERLESIM). Once MIMARI.md SS5 yogunluk olcutunu ve ARAC-NORMAL-0903.py normallestiriciyi okuyacagim, sonra TDV'den aday yerlesimleri arastiracagim (Deyrulkamer/Beyteddin/Zahle/Baalbek/Cubeyl/Batrun/Sur/Aley/Suf ve kaynaktan cikacak digerleri), sonra 3km mukerrer kontrolu yapacagim. Cikti: denetim/HAZIRLIK-LUBNAN-NOKTA-0911.json. data/ DONUK, yazmiyorum.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
