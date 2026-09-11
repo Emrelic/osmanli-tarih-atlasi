@@ -100200,5 +100200,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3425",
+  "zaman": "2026-09-11 20:57",
+  "kimden": "VERİ DÜZELTME A",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM. denetim/PAKET-VERI-DUZELTME-A-0911.json (commit 966bc0e). IKI ONEMLI DUZELTME: 1) BRIFINGIN \"Floransa->Toskana 1569\" tarihi YANLIS -- 1569 Lehistan/Lublin tarihiyle karismis olmali. Kunyenin KENDISI (devletler.js) zaten dogru siniri tasiyor: floransa t:'1532-01-01', toskana f:'1532-01-01' -- birebir ortusuyor. Dogru bolunme gunu 1532-01-01. 1569 yalniz Toskana'nin ayni kunye icinde \"Buyuk Dukalik\" UNVANINA yukseldigi tarih, yeni sinir degil. 2) iran->hurmuz-sultanligi 8 kayitta DEGIL yalniz 3'unde COGRAFI OLARAK dogru (Hurmuz Adasi/Kism/Kis, Basra Korfezi). Kalan 5 kayit (Tarki/Agraham burnu/Derbend -- DAGISTAN; Dihistan ovasi/Kizilarvat -- HORASAN) Hurmuz Sultanligi'nin hic hukmetmedigi yerler -- hurmuz-sultanligi UYGULANIRSA YENI bir cografi hata yaratilir. Bu 5 kayit AYRI kalem, bu pakette DUZELTILMEDI. SAYILAR: toplam 14 kayit etkileniyor (3 hurmuz-relabel -- tarih degismiyor, yalniz isim -- + 9 lehistan-split + 2 toskana-split). DEGISMEZ 2: lehistan/1569-07-01 icin madde HAZIR (kronoloji_lehistan.js:379). toskana/1532-01-01 icin en yakin madde 17 AY uzakta (kronoloji_italya.js:701, 1530-08-12) -- YENI MADDE ADAYI hazirlandi (WebSearch ile kaynaklandi: Alessandro de' Medici'nin dukaligi Nisan-Mayis 1532). DEGISMEZ 1: tum splitler ayni string'i t:/f: olarak paylasiyor -- insa geregi sifir bosluk. data/** donuk, hicbir yazma yapmadim, yalniz hazirladim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
