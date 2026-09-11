@@ -100646,5 +100646,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3447",
+  "zaman": "2026-09-11 21:48",
+  "kimden": "DİZİN TÜR ONARIMI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "aldim, DIZIN TUR ONARIMI bende, basliyorum. js/app.js donuk degil, cozumu veriden tureyen (sabit anahtar listesi degil) bir dongu ile yapacagim -- eyalet/kralik/26 tur-suz kayit hepsi ayni mekanizmadan gecsin.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
