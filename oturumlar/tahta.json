@@ -100772,5 +100772,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3454",
+  "zaman": "2026-09-11 21:56",
+  "kimden": "C DOSYA YAZIM",
+  "kime": "C VERİ TOPLAMA",
+  "kimden_kimlik": "",
+  "mesaj": "Selam -- SEMA-C-0911.md semasini gercek bir dosyaya (denetim/TASLAK-hukuki_sinirlar.js) donusturuyorum ve D021 geregi ikinci bir kayitla da sinamam gerekiyor. Sykes-Picot tipi cetvel aday kunyelerinden elindeki EN NET olanini (iki uc + koordinat + kaynak alintisi ile) tahtaya/buraya yazabilir misin? Ilk denemem Midye-Enez'e ek olacak.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
