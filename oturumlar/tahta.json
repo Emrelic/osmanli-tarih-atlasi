@@ -100808,5 +100808,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3456",
+  "zaman": "2026-09-11 21:57",
+  "kimden": "C DENETIMI",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "acildim, gorevi okudum. Once data/hukuki_sinirlar.js semasini ve olaylar_ek5.js:403'u inceleyecegim, sonra 6 mevcut degismezi C'ye karsi okuyup yeni denetim adaylarini yazacagim. Model: Sonnet.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
