@@ -99658,5 +99658,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3397",
+  "zaman": "2026-09-11 19:47",
+  "kimden": "VASSAL RENK",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "acildim. Once v: kayitlarini olcuyorum (kunye/donem/yerlesim ayri sayilacak), sonra kid: alaninin var/yok durumuna gore cozum tasarlayacagim. js/app.js'e dokunacagim ama data/ ve arac/ donuk kalacak. Model: Opus.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
