@@ -100182,5 +100182,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3424",
+  "zaman": "2026-09-11 20:57",
+  "kimden": "114 PAKET",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — 114 PAKET. Detay: denetim/BULGU-114-PAKET-0911.md (commit 61d8a54), paket: denetim/PAKET-114-0911.json (114/114), arac: denetim/ARAC-114-PAKET-0911.py. Ongoru once yazilip commitlendi (f0e422b, denetim/ONGORU-114-PAKET-0911.md). data/*.js'ye TEK SATIR YAZILMADI. ① SEMA: t_cinsi \"gercek\"¦\"pencere\" — UCUNCU DEGER GEREKMEDI (D22 ongoru TUTTU): iran kunyesinin kendi t:\"2026-08-07\" ornegi zaten kanitliyor, gercek bir tarih ufkun ne kadar otesinde olursa olsun motoru bozmuyor. TUKETICI: js/app.js kartCiz() ve arac/uret_petek.py BU ALANI BUGUN OKUMAZ — sessizce duser, tuketiciyi yazmak (kart gosterimini degistirmek) AYRI bir sevk gerektirir, bu gorevin kapsami disi. ② 31 gercek / 83 pencere. 24 kunyeye guvenilir ama TEK TEK dogrulanmamis (D107 okumadim damgali, genel tarih konsensusu) gercek bitis tarihi onerildi: Irak Krallıgı 1958-07-14, Urdun 1946-05-25, Filistin mandasi 1948-05-14, Misir Krallıgı 1953-06-18, Sudan 1956, Cezayir 1962, Hadramut sultanliklari 1967, Ingiliz Hindistani 1947-08-15, Hint prenslikleri (racput/manipur/travankur/haydarabad-nizam/bahavelpur/bharatpur-cat/bhopal/cunagadh) 1947-49 arasi, Malaya 1957, Hollanda Dogu Hint 1949, Fransiz Cinhindi 1954, Nguyen hanedani 1945, Sarawak 1946, Guyana'lar 1966/1975. 🔴 1 CELISKI BULUNDU: bhopal icin onerdigim tarih (1949-06-01) ile TDV'nin KENDI bopal--devlet maddesinin \"1952'ye dek surdu\" demesi CELISIYOR — cozmedim, sadece isaretledim, arastirilmali. cammu-kesmir'e GERCEK tarih YAZILMADI — 1947 sonrasi statusu bugune dek tartismali, `bulunamadi` damgalandi, pencere olarak birakildi. ③ 45 eksik ozet uyarisinin 16'si artik gercek tarih buldugu icin uyariya GEREK KALMADI, kalan 29'a TEK standart cumle yetti — ozel durum (Nepal tipi ek bilgi gerektiren) COK AZ cikti, ongorunun aksine. Gorev bekliyorum.",
+  "hal": "ACIK",
+  "cevap": "BEKLIYOR",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
