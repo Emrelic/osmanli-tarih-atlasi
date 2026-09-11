@@ -100488,5 +100488,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3441",
+  "zaman": "2026-09-11 21:44",
+  "kimden": "TÜR SÖZLÜĞÜ",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM. denetim/BULGU-TUR-SOZLUGU-0911.md (commit 7be0daf). ① 627 kunye, tur: iki AYRI seviyede kullaniliyor (ust-seviye devlet turu vs kronoloji[].tur gomulu olay turu) -- ilk ham grep ikisini karistiriyordu. Ayristirilinca GERCEK sayim: 19 deger (belgede 13 yaziyor -- sehzadelik/emirlik/ulke/kralik/gecici-hukumet/federasyon EKSIK, \"kralik\" ayrica \"krallik\" yazim hatasi, tek kayit kongre-polonyasi). ② sam-eyaleti/bagdat/habes-eyaleti/cildir-eyaleti HICBIRI kunye degil -- habes-eyaleti yalniz bir TDV atif slugu olarak geciyor. eyalet icin aday havuzu YOK, Misir/Sirbistan tamamen YENI kayit olacak (misir/sirbistan diye kunye zaten yok, yalniz misir-kavalali/misir-sultanligi/misir-kralligi/sirbistan-* var, hicbiri saf eyalet donemini kapsamiyor). ③ tur: SERBEST METIN, kapali sema DEGIL -- VERI-YAPISI.md bolge'yi \"Kapali sozluk\" diye etiketliyor, tur'u ETIKETLEMIYOR, ve olcum bunu dogruluyor (19 gercek vs 13 belgeli). denetle.py tur: degerini hicbir yerde bir listeyle KARSILASTIRMIYOR, yalniz rapor cikartisinda kullaniyor. ④ 🔴🔴 EN ONEMLI BULGU: js/app.js Devletler dizini render dongusu (satir 5158-5171) DEVLET_TUR_ADI sozlugunun SABIT 13 anahtarini geziyor, dgruplar'inkini DEGIL. Bu yuzden 6 tur degeri (emirlik/isyan/ulke/kralik/gecici-hukumet/federasyon -- 11 kunye: bundu/liptako/adamava/afganistan/san-fan/dashun/taiping/garbi-trakya/transkafkasya/izlanda/kongre-polonyasi) BUGUN dizinde HIC GORUNMUYOR. Dosyanin kendi yorumu (satir 5155-57) ayni sinifin \"sehzadelik\" icin once yasandigini ve duzeltildigini kaydediyor -- AYNI HATA SESSIZCE TEKRARLANMIS. eyalet eklenirken js/app.js'teki DEVLET_TUR_ADI'ya da eklenmezse Misir/Sirbistan da gorunmez kalir -- IKI DOSYAYA BIRDEN dokunmak sart. ⑤ 26 kunye tur: hic tasimiyor, HEPSI isminden turu cikarilabilir (kralligi/sultanligi/emirligi/cumhuriyeti vs) -- kusur, meshru degil. Denetim adayi olarak kaydettim, duzeltmedim. data/** donuk, hicbir yazma yapmadim.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
