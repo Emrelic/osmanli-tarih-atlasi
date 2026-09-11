@@ -1,0 +1,34 @@
+{
+  "d122_celiski_uyari": {
+    "iddia": "KUNYE ONCESI (eski HINDISTAN KUNYE II): devletler.js'de 1923-10-29 sonrasi t: tasiyan 8 kayit var",
+    "benim_olcumum": "node ile tam nesne modeli tarandi, SADECE 1 kayit (iran, t:2026-08-07) 1923-10-29'u asiyor. nepal'in kendi ozet'i zaten dogru ('1923'un otesine gecti').",
+    "durum": "tahtaya bekletmeden bildirildi (M-3391), yanit BEKLENIYOR. Bu JSON'daki karar MEVCUT konvansiyonla (40+ kunye ornegi) tutarli varsayimla yazildi."
+  },
+  "kunye_taslagi": {
+    "id_onerisi": "tunus-beyligi-fransiz",
+    "ad_onerisi": "Tunus Beyliği (Fransız Himayesi Dönemi)",
+    "f": "1881-05-12",
+    "t": "1923-10-29",
+    "t_gercek_not": "1923 sonrasında da sürdü, gerçek sonu 20 Mart 1956 (Emîn Bey, 19. bey, bağımsızlığı görene kadar) — TDV 'tunus' maddesinden",
+    "bolge": "kuzey-afrika",
+    "tabi_onerisi": [{"f": "1881-05-12", "t": "1923-10-29", "ust": "fransa-cumhuriyet"}],
+    "ardil_iliskisi": "tunus-ocagi (f:1574, t:1881-05-12) ile BİREBİR ARDIL, çakışma/boşluk yok",
+    "kaynak": "tunus (TDV, canlı) — 'Emîn Bey ... on dokuzuncu bey sıfatıyla ... 20 Mart 1956'da Tunus bağımsızlığına kavuşurken ... bir geleneği sürdürdü'"
+  },
+  "yerlesim_bulgusu": {
+    "kritik": "js/app.js:4838-4840 -- v: alani HER ZAMAN 'Osmanli tabi' (renk #b2384a) olarak render ediliyor, k:/statu: alanlari yalniz metin etiketi, RENGI ETKILEMIYOR.",
+    "sonuc": "Tunus/Kayrevan/Sfaks'in v:[{f:1705-07-17,t:1923-10-29,statu:vassal}] kaydi BUGUN 1881-1923 arasini da OSMANLI TABI (yanlis) gosteriyor, uzerine isg: (Fransiz isgali, GECICI mekanizma, 42+ yillik surekli himaye icin uygun degil) taramasi biniyor.",
+    "kunye_yazilirsa_degisir_mi": "EVET -- Lubnan'dan FARKLI. 3 nokta VAR (Tunus, Kayrevan, Sfaks), kunye+veri duzeltmesi haritada GERCEK bir renk degisikligi yaratir (Osmanli-tabi-pembe+isgal-taramasi -> Tunus Beyligi'nin kendi rengi, misir-kavalali emsali).",
+    "veri_duzeltme_onerisi_UYGULANMADI": "1881-1923 v: kaydi s:[{f:1881-05-12,t:1923-10-29,d:tunus-beyligi-fransiz}] olarak DEGISTIRILMELI, isg: kaydi muhtemelen KALDIRILMALI -- data/ donuk oldugu icin YAPILMADI, yalniz ONERILDI."
+  },
+  "iberya_audit_durumu": {
+    "kontrol_edildi_gap_yok": ["kuba-cumhuriyeti", "kongo-kralligi", "sulu-sultanligi"],
+    "taranmadi_olculemedi": ["porto-riko/karayip kalani", "goa", "makao", "timor/solor", "angola ic krallıkları (tam liste)", "mozambik ic krallıkları (tam liste)"],
+    "hukum": "bu turda YENI isabet YOK ama audit TAM DEGIL, eksen OLU ILAN EDILMIYOR"
+  },
+  "eksen_verimi": {
+    "dizin_tamlik_ii": "Baroda (isabet 1)",
+    "kolonyal_audit": "Tunus Beyligi (isabet 2)",
+    "bu_tur": "0 yeni isabet, ama kismi orneklem"
+  }
+}
