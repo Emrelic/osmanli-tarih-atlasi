@@ -1,0 +1,9 @@
+{
+  "oturum": "C MOTOR ŞARTNAMESİ",
+  "tarih": "2026-09-11",
+  "ongoru": {
+    "① gövde montajı": "Statik boru hattının (1701-1898 civarı) TEK bir dogrusal sira izledigini, ve C'nin bu hattin TAMAMEN DISINDA, yalniz per-donem gruplama dongusunde (4842+) devreye girmesi gerektigini dogrulayacagim -- SEMA-C'nin kendi sonucunu ONAYLAYACAGIM, curutmeyecegim, cunku pipeline yorumu (satir 1701-1707) zaten NUMARALI ve ACIK yazilmis.",
+    "④ etkilenen denetimler": "C'nin kapsama kutusu (Midye-Enez: 40.5-42.0K/25.8-29.3D, kucuk bir bolge) DISINDA HICBIR petek etkilenmeyecegi icin, Degismez 1/2/2s/7/enklav/cakisma/renk SAYILARI PRATIKTE DEGISMEYECEK (sifir ya da 1-2 kayit farki) -- cunku bugun sadece 2 kayit (Midye-Enez, Kasr-i Sirin) var ve ikisi de kucuk/kisa omurlu. BUYUK curume riski: SINIR PARCASI Degismez 2s/2i tavanlarindaki mevcut ACIK kirilma sayisina (104/3) yeni bir kirilma EKLERSE (C'nin kendi f:/t: sinirlarinin kronoloji maddesi olmadigi icin) o tavanlar asilir.",
+    "⑤ öngörü (koordinatörün istedigi)": "Bugun (data/hukuki_sinirlar.js henuz yok) UYGULANSA bile GERCEK etki SIFIRDIR (dosya yok, kod devreye girmez). Sartname/yama YAZILDIKTAN SONRA, ilk GERCEK C kaydi (Midye-Enez) eklenip motor kosulursa: ETKILENEN PETEK SAYISI KUCUK (2-5 yerlesim mertebesinde -- Istanbul/Kirklareli cevresi, SEMA-C pilotunun kendi test noktalari), ETKILENEN KM² kucuk (Midye-Enez kapsama kutusu bolgesel, kita olcegi degil). Buyuk cikarsa (onlarca yerlesim/yuz binlerce km²) bir sey YANLISTIR -- kabul olcutu budur (koordinatorun kendi cumlesi)."
+  }
+}
