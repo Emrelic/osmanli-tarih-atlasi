@@ -1,0 +1,329 @@
+{
+  "olcum_notu": {
+    "iddia": "TESPIH.md madde 9/10: Okyanusya 5 + Sibirya 8 + Orta Asya 14 = 27 kunye, 19'u 4+ maddeli, eksik 8",
+    "olculen": "Bugun (11 Eylul 2026) data/devletler.js: Okyanusya 5 + Sibirya-bozkir 9 + Orta Asya 16 = 30 kunye. 4+ maddeli kunye sayisi HALA 19 (birebir tutuyor). Eksik = 30-19 = 11, 8 DEGIL.",
+    "yontem": "node ile data/devletler.js eval edildi, her kunyenin kendi kronoloji[] dizisinin uzunlugu sayildi, esik '<4 madde'.",
+    "yorum": "D129 (esik olculdugu tabanla tasinir): 4 Eylul'den bu yana bu 3 bolgeye 3 yeni kunye eklenmis (30-27=3), ucu de <4 madde ile girmis. 19'un sabit kalmasi 4 Eylul olcumunun O EKSENDE dogru oldugunu gosteriyor; sadece taban buyumus.",
+    "kapsam": "sayilan bolgeler yalniz bolge:'okyanusya' | 'sibirya-bozkir' | 'orta-asya'. Kuresel olcekte <4 maddeli kunye sayisi 280/627 (bu, kulliyatin normu -- D145/1-3 madde normu, DALGA2'nin isi degil)."
+  },
+  "kunyeler": [
+
+    {
+      "id": "hawaii-kralligi",
+      "ad": "Hawaii Krallığı",
+      "bolge": "okyanusya",
+      "f": "1795-01-01", "t": "1898-08-12",
+      "mevcut_madde_sayisi": 3,
+      "kaynak_sinifi": "TDV kapsami disi (Pasifik) -- akademik/kurumsal kaynak mesru (SS4)",
+      "adaylar": [
+        {
+          "t_oneri": "1819-11-01",
+          "hassasiyet": "ay biliniyor, gun kaynaklarda YOK -- YYYY-MM-01 yazildi",
+          "yer": "Kailua-Kona, Hawaii adasi",
+          "kisiler": "II. Kamehameha (Liholiho), Kraliçe Kaʻahumanu",
+          "anlatim": "Kamehameha I'in ölümünden altı ay sonra, Liholiho annesi Kaʻahumanu'nun desteğiyle kadın-erkek ayrı yemek yeme yasağını (ʻaikapu) bilerek çiğnedi; bu 'ʻAi Noa' (serbest yemek) olayı geleneksel kapu din-hukuk sistemini resmen sona erdirdi. Adalardaki eski tapınaklar (heiau) yıkıldı; olay Batı misyonerlerinin gelişinden önceki en büyük dinî-siyasî kırılmadır.",
+          "kaynak": "bulunamadı — TDV kapsamıyor, akademik/kurumsal kaynak aranacak (Wikipedia + Punahou School / UH Hilo ders notu çapraz kontrol edildi, ay doğrulandı — gün hiçbir kaynakta yok)"
+        },
+        {
+          "t_oneri": "1840-10-08",
+          "hassasiyet": "gün var",
+          "yer": "Honolulu",
+          "kisiler": "III. Kamehameha",
+          "anlatim": "Krallığın ilk tam yazılı anayasası ilan edildi; kral yetkisini kısıtlayan, temsilî bir meclis kuran bu belge Hawaii'yi anayasal monarşiye dönüştürdü.",
+          "kaynak": "bulunamadı — akademik/kurumsal kaynak aranacak (Wikipedia 'Constitution of the Hawaiian Kingdom' maddesi işaret ediyor, ikinci bağımsız kaynakla teyit edilmedi)"
+        },
+        {
+          "t_oneri": "1887-07-06",
+          "hassasiyet": "gün var",
+          "yer": "Honolulu",
+          "kisiler": "Kral Kalākaua, 'Hawaiian League' silahlı milisleri",
+          "anlatim": "Silahlı bir milis grubu Kral Kalākaua'yı tehdit ederek krallığın yetkilerini büyük ölçüde budayan yeni bir anayasayı imzalamaya zorladı; belge 'Süngü Anayasası' (Bayonet Constitution) olarak anılır ve tahtı fiilen beyaz yerleşimci elitin denetimine soktu.",
+          "kaynak": "bulunamadı — akademik/kurumsal kaynak aranacak (Wikipedia '1887 Constitution of the Hawaiian Kingdom' maddesi, tarih iki bağımsız pasajda tutarlı: imza 6, ilan 7 Temmuz)"
+        },
+        {
+          "t_oneri": "1894-07-04",
+          "hassasiyet": "gün var",
+          "yer": "Honolulu",
+          "kisiler": "Sanford B. Dole",
+          "anlatim": "1893'te Kraliçe Liliuokalani'yi deviren komplocular geçici hükümeti resmî bir cumhuriyete dönüştürdü; Sanford Dole başkan ilan edildi. Bu ara-rejim, 1898'deki ABD ilhakına kadar sürdü.",
+          "kaynak": "bulunamadı — akademik/kurumsal kaynak aranacak (iki bağımsız kaynakta aynı gün: Wikipedia + genel tarih özetleri)"
+        }
+      ]
+    },
+
+    {
+      "id": "tonga-kralligi",
+      "ad": "Tonga Krallığı",
+      "bolge": "okyanusya",
+      "f": "1845-12-04", "t": "1923-10-29",
+      "mevcut_madde_sayisi": 3,
+      "kaynak_sinifi": "TDV kapsami disi -- akademik/kurumsal kaynak mesru",
+      "adaylar": [
+        {
+          "t_oneri": "1893-02-18",
+          "hassasiyet": "gün var",
+          "yer": "Nukuʻalofa",
+          "kisiler": "I. George Tupou (öldü), II. George Tupou (tahta çıktı)",
+          "anlatim": "Kurucu kral I. George Tupou'nun ölümüyle torununun torunu II. George Tupou tahta geçti; taç giyme töreni 17 Mart 1893'te Nukuʻalofa'da yapıldı.",
+          "kaynak": "bulunamadı — akademik/kurumsal kaynak aranacak (Wikipedia + Find a Grave çapraz kontrol edildi)"
+        },
+        {
+          "t_oneri": "1918-04-05",
+          "hassasiyet": "gün var, AMA KAYNAKLAR ÇELİŞİYOR — asagiya bak",
+          "yer": "Nukuʻalofa",
+          "kisiler": "II. George Tupou (öldü, verem), Sālote Tupou III (tahta çıktı)",
+          "anlatim": "II. George Tupou veremden öldü; 18 yaşındaki kızı Sālote ertesi gün (6 Nisan) kraliçe ilan edildi, taç giyme töreni 11 Ekim 1918'de yapıldı.",
+          "kaynak": "bulunamadı — 🔴 KAYNAK ÇELİŞKİSİ ÖLÇÜLDÜ: Wikipedia/History-of-Royal-Women/Team Queens 1918-04-05 diyor (birbirini doğrulayan üç bağımsız sayfa, Sālote'nin doğum yılı 1900 ile tutarlı); encyclopedia.com 'Salote Topou III' maddesi '12 Nisan 1908' yazıyor — bu MANTIKEN İMKÂNSIZ (8 yaşında kraliçe olamaz, ayrıca eşi zaten başbakanmış deniyor ki evliliği 1917). encyclopedia.com kaydını YANLIŞ / muhtemelen dizgi hatası (1908→1918) sayıp ELEDİM; yazma turunda İKİNCİ akademik kaynakla (örn. Wood-Ellem, 'Queen Salote of Tonga') teyit edilmeli."
+        }
+      ]
+    },
+
+    {
+      "id": "yeni-zelanda",
+      "ad": "Yeni Zelanda (İngiliz Kolonisi/Dominyonu)",
+      "bolge": "okyanusya",
+      "f": "1840-02-06", "t": "1923-10-29",
+      "mevcut_madde_sayisi": 3,
+      "kaynak_sinifi": "TDV kapsami disi -- akademik/kurumsal kaynak mesru (Te Ara / NZ Hukumeti kaynaklari CANLI ve GUCLU)",
+      "adaylar": [
+        {
+          "t_oneri": "1893-09-19",
+          "hassasiyet": "gün var",
+          "yer": "Wellington",
+          "kisiler": "Vali Lord Glasgow",
+          "anlatim": "Vali Lord Glasgow'un imzaladığı yeni Seçim Yasası ile Yeni Zelanda, kadınlara parlamento seçimlerinde oy hakkı tanıyan dünyanın ilk kendi kendini yöneten ülkesi oldu.",
+          "kaynak": "bulunamadı — TDV kapsamı dışı, kaynak: nzhistory.govt.nz (Yeni Zelanda hükûmetinin resmî tarih kurumu) — akademik/kurumsal, güvenilir"
+        },
+        {
+          "t_oneri": "1901-06-11",
+          "hassasiyet": "gün var",
+          "yer": "Rarotonga / Cook Adaları, Niue",
+          "kisiler": "-",
+          "anlatim": "Yeni Zelanda'nın sınırları Cook Adaları (Rarotonga, Aitutaki ve güney adaları ile kuzey Cook Adaları) ve Niue'yi kapsayacak şekilde genişletildi; bu adalar Yeni Zelanda'ya bağlı bölge oldu.",
+          "kaynak": "bulunamadı — kaynak: teara.govt.nz (Te Ara — Yeni Zelanda Ansiklopedisi, resmî/akademik)"
+        }
+      ]
+    },
+
+    {
+      "id": "tui-tonga-imparatorlugu",
+      "ad": "Tuʻi Tonga İmparatorluğu",
+      "bolge": "okyanusya",
+      "f": "1220-01-01", "t": "1845-12-04",
+      "mevcut_madde_sayisi": 1,
+      "kaynak_sinifi": "🟡 ÖLÇÜLEMEDİ — yazılı olmayan/sözlü gelenek dönemi, hiçbir kaynak GÜN hatta çoğu zaman YIL vermiyor",
+      "not": "Bu künye için 3-6 maddelik aday listesi ÜRETMEDİM. Bulduğum bütün adaylar ('Tuʻitātui ~1100 civarı Heketā'da saray kurdu', 'Momo ve oğlu Tuʻitātui döneminde imparatorluk Fiji-Samoa'ya genişledi') YÜZYIL çözünürlüğünde ve kaynakların çoğu (kiddle, thebrainchamber, reference.org) popüler/kaynaksız derleme sınıfına giriyor — D5'in KULLANILMAZ listesi. Akademik uçta bulunan tek somut şey (Aoyagi, Wood-Ellem gibi Pasifik tarihçileri) bu turda ULAŞILAMADI. Tarih uydurmamak için BOŞ bıraktım; 'temsilî' damgasıyla yıl uydurmak GÖRÜNMEZ KILAR kuralı burada tam uygulanıyor.",
+      "adaylar": []
+    },
+
+    {
+      "id": "kasim",
+      "ad": "Kasım Hanlığı (Kasimov)",
+      "bolge": "sibirya-bozkir",
+      "f": "1452-01-01", "t": "1681-01-01",
+      "mevcut_madde_sayisi": 2,
+      "kaynak_sinifi": "TDV BİRİNCİL — madde CANLI ve zengin (islamansiklopedisi.org.tr/kasim-hanligi)",
+      "adaylar": [
+        {
+          "t_oneri": "1468-01-01",
+          "hassasiyet": "yıl var, gün TDV'de yok",
+          "yer": "Kasimov",
+          "kisiler": "Kâsım Han (öldü), Danyal Han (tahta çıktı)",
+          "anlatim": "Hanlığın kurucusu Kâsım Han'ın 873/1468'de ölümüyle yerine oğlu Danyal geçti; Danyal 1486'ya kadar hüküm sürdü.",
+          "kaynak": "kasim-hanligi (TDV — CANLI, madde gövdesinde birebir tarih)"
+        },
+        {
+          "t_oneri": "1573-01-01",
+          "hassasiyet": "yıl var, gün TDV'de yok",
+          "yer": "Kasimov / Moskova",
+          "kisiler": "Sain Bulat Han (Simeon Bekbulatoviç)",
+          "anlatim": "Hanlığın başındaki hükümdar 'Semen (Simeon)' adını alıp Hıristiyan oldu; Ruslar müslüman tebaanın tepkisini hesaba katarak onu hanlıktan aldılar. Bu kişi kısa süre sonra Korkunç İvan tarafından 'çarın ve Rusya'nın büyük beyi' unvanıyla Moskova'da nominal hükümdar ilan edildi (1575) — Kasım Hanlığı ile Moskova tahtı arasındaki en çarpıcı kesişme.",
+          "kaynak": "kasim-hanligi (TDV — CANLI, madde gövdesinde birebir tarih ve bağlam)"
+        },
+        {
+          "t_oneri": "1609-01-01",
+          "hassasiyet": "yıl var, gün TDV'de yok",
+          "yer": "Kasimov",
+          "kisiler": "Uraz Muhammed Han, II. Sahte Dimitri",
+          "anlatim": "Rusya'daki İç Karışıklıklar Devri'nin (Smuta) yansıması olarak Rus kuvvetleri Kâsım şehrini kuşatıp zaptetti, halkının çoğunu kılıçtan geçirdi. Hanlığın başındaki Uraz Muhammed, II. Sahte Dimitri'yi desteklediği için hedef alınmıştı; ertesi yıl (1610) kendisi de bir komployla öldürüldü.",
+          "kaynak": "kasim-hanligi (TDV — CANLI, madde gövdesinde birebir tarih ve bağlam)"
+        }
+      ]
+    },
+
+    {
+      "id": "kazan",
+      "ad": "Kazan Hanlığı",
+      "bolge": "sibirya-bozkir",
+      "f": "1437-01-01", "t": "1552-10-02",
+      "mevcut_madde_sayisi": 3,
+      "kaynak_sinifi": "TDV BİRİNCİL kısmen kapsıyor (madde CANLI ama 1450-1550 arasını AYRINTILANDIRMIYOR — TANECİKLİK boşluğu, SS4)",
+      "adaylar": [
+        {
+          "t_oneri": "1521-01-01",
+          "hassasiyet": "🟡 zayıf — yalnız Wikipedia, ikinci bağımsız/akademik kaynakla TEYİT EDİLMEDİ",
+          "yer": "Kazan",
+          "kisiler": "Sahib I Giray (Kırım'dan), Şah Ali Han (kovuldu)",
+          "anlatim": "Kazan'daki Rus yanlısı-karşıtı hizip çatışmasında, Kırım hanedanından Sahib Giray Kazan'a gelip Moskova yanlısı Şah Ali'yi tahttan indirdi; bu, Kazan Hanlığı'nın Kırım-Osmanlı ekseni ile Moskova ekseni arasında el değiştirdiği dönüm noktalarından biridir (bkz. [[kirim]]).",
+          "kaynak": "bulunamadı — TDV'nin 'kazan' maddesi bu ayrıntıyı VERMİYOR (doğrulandı, gövde okundu); akademik kaynak (ör. Keenan, 'The Jarlyk of Axmed-xan') aranmalı"
+        }
+      ]
+    },
+
+    {
+      "id": "tannu-tuva",
+      "ad": "Tannu Tuva Halk Cumhuriyeti",
+      "bolge": "sibirya-bozkir",
+      "f": "1921-08-14", "t": "1923-10-29",
+      "mevcut_madde_sayisi": 0,
+      "kaynak_sinifi": "TDV kapsami disi -- akademik/kurumsal kaynak mesru; 🟡 dar pencere (yalnız 2 yıl 2 ay) — bulunan adayların çoğu Wikipedia kaynaklı, ikinci akademik kaynakla teyit EDİLMEDİ",
+      "adaylar": [
+        {
+          "t_oneri": "1921-08-14",
+          "hassasiyet": "gün var (bu, künyenin kendi f: tarihiyle BİREBİR — künye ile madde hizalanıyor)",
+          "yer": "Tuva",
+          "kisiler": "-",
+          "anlatim": "Tuvan Halk Devrimci Partisi önderliğinde bağımsızlık ilan edildi; ilk anayasanın ilk maddesi devletin 'uluslararası ilişkilerde Sovyet Rusya'nın himayesi altında' hareket ettiğini belirtiyordu.",
+          "kaynak": "bulunamadı — akademik/kurumsal kaynak aranacak (Wikipedia 'Tuvan People's Republic' maddesi, ikinci kaynakla teyit edilmedi)"
+        },
+        {
+          "t_oneri": "1922-03-03",
+          "hassasiyet": "gün var",
+          "yer": "Tuva",
+          "kisiler": "-",
+          "anlatim": "Şubat 1922'deki ilk parti toplantısının ardından kurulan hükûmet fiilen göreve başladı.",
+          "kaynak": "bulunamadı — akademik/kurumsal kaynak aranacak (aynı kaynak, teyit edilmedi)"
+        },
+        {
+          "t_oneri": "1923-10-12",
+          "hassasiyet": "gün var",
+          "yer": "Tuva",
+          "kisiler": "-",
+          "anlatim": "Ülkenin ilk Büyük Kurultayı (Halk Meclisi) toplandı; bu, devletin kurumsallaşma sürecinde ilk büyük temsilî toplantısıdır.",
+          "kaynak": "bulunamadı — akademik/kurumsal kaynak aranacak (aynı kaynak, teyit edilmedi)"
+        }
+      ]
+    },
+
+    {
+      "id": "mogulistan",
+      "ad": "Moğulistan (Doğu Çağatay Hanlığı)",
+      "bolge": "orta-asya",
+      "f": "1347-01-01", "t": "1680-01-01",
+      "mevcut_madde_sayisi": 3,
+      "kaynak_sinifi": "TDV'de ayrı madde yok (künyenin kendi beyanı) — akademik kaynak zaten meşru zemin",
+      "adaylar": [
+        {
+          "t_oneri": "1462-01-01",
+          "hassasiyet": "🟡 zayıf — yalnız Wikipedia, akademik teyit edilmedi",
+          "yer": "Moğulistan (Yedisu/Kaşgar bölgesi)",
+          "kisiler": "Esen Buka Han (öldü), Yunus Han, Dost Muhammed Han",
+          "anlatim": "Esen Buka Han'ın ölümüyle hanlık, oğlu Dost Muhammed ile kardeşi Yunus Han arasında doğu-batı olarak ikiye bölündü; Yunus Han sonunda batı kanadını (Taşkent merkezli) ele geçirdi.",
+          "kaynak": "bulunamadı — akademik kaynak (ör. Grousset 'The Empire of the Steppes', Kim Hodong) aranmalı"
+        }
+      ]
+    },
+
+    {
+      "id": "afgan-durrani",
+      "ad": "Dürrânî (Afgan) Devleti",
+      "bolge": "orta-asya",
+      "f": "1747-10-01", "t": "1823-01-01",
+      "mevcut_madde_sayisi": 3,
+      "kaynak_sinifi": "TDV TANECİKLİK boşluğu — TDV'nin canlı 'ahmed-sah-durrani' maddesi kuruluşu (1747-1773) kapsıyor ama Ahmed Şah'ın ölümünden SONRASINI (Timur Şah/Zaman Şah dönemi) HİÇ ANLATMIYOR (doğrulandı, gövde okundu) — SS4'e göre akademik kaynak burada meşru",
+      "adaylar": [
+        {
+          "t_oneri": "1793-05-18",
+          "hassasiyet": "gün var",
+          "yer": "Kabil",
+          "kisiler": "Timur Şah (öldü), Zaman Şah (tahta çıktı)",
+          "anlatim": "Yirmi yılı aşkın süre ülkeyi içeriden konsolide eden Timur Şah'ın ölümüyle, Kandehar-Herat-Kabil valisi üç kardeş taht için çekişti; başkenti elinde tutan Kabil valisi Zaman Şah 20 Mayıs 1793'te şah oldu. Bu veraset krizi, hânedanın parçalanma sürecinin fiilen başlangıcıdır.",
+          "kaynak": "bulunamadı — TDV'nin 'ahmed-sah-durrani' maddesi bu olayı KAPSAMIYOR (doğrulandı); akademik ara-kaynak: New World Encyclopedia + Wikipedia çapraz"
+        }
+      ]
+    },
+
+    {
+      "id": "harezm-halk-cumhuriyeti",
+      "ad": "Harezm Halk Sovyet Cumhuriyeti",
+      "bolge": "orta-asya",
+      "f": "1920-04-26", "t": "1923-10-29",
+      "mevcut_madde_sayisi": 0,
+      "kaynak_sinifi": "TDV BİRİNCİL — madde CANLI (islamansiklopedisi.org.tr/harizm)",
+      "adaylar": [
+        {
+          "t_oneri": "1920-04-26",
+          "hassasiyet": "gün var (künyenin f: tarihiyle birebir)",
+          "yer": "Hive",
+          "kisiler": "-",
+          "anlatim": "1917 Ekim İhtilâli sonrası Hive Hanı'nın devrilmesinin ardından Hârizm Halk Cumhuriyeti ilân edildi.",
+          "kaynak": "harizm (TDV — CANLI, madde gövdesinde birebir tarih)"
+        },
+        {
+          "t_oneri": "1921-09-05",
+          "hassasiyet": "gün var",
+          "yer": "Hive",
+          "kisiler": "-",
+          "anlatim": "Ülke, adını ve statüsünü değiştirerek Hârizm Sovyet Sosyalist Cumhuriyeti oldu; idari-yasal yapı Sovyet sistemine göre yeniden düzenlendi.",
+          "kaynak": "harizm (TDV — CANLI, madde gövdesinde birebir tarih)"
+        }
+      ],
+      "not": "Künyenin ömrü site ufkuna (1923-10-29) kadar yalnız 3,5 yıl; TDV'nin verdiği bir sonraki olay (1924 bölünme) PENCERENİN DIŞINDA, yazılmadı. 2 madde bu dar pencere için makul olabilir — koordinatöre bırakıyorum."
+    },
+
+    {
+      "id": "buhara-halk-cumhuriyeti",
+      "ad": "Buhara Halk Sovyet Cumhuriyeti",
+      "bolge": "orta-asya",
+      "f": "1920-10-08", "t": "1923-10-29",
+      "mevcut_madde_sayisi": 0,
+      "kaynak_sinifi": "TDV 'buhara-hanligi' maddesi bu dönemi KAPSAMIYOR (doğrulandı, gövde okundu) — akademik kaynak (MSU Soviet History arşivi) kullanıldı",
+      "adaylar": [
+        {
+          "t_oneri": "1920-10-08",
+          "hassasiyet": "gün var (künyenin f: tarihiyle birebir)",
+          "yer": "Buhara",
+          "kisiler": "Feyzullah Hocayev",
+          "anlatim": "Kızıl Ordu'nun 28-31 Ağustos 1920'de Buhara Emirliği'ni yıkıp Emir Alim Han'ı Doğu Buhara'ya kaçırmasının ardından, Feyzullah Hocayev başkanlığında Buhara Halk Sovyet Cumhuriyeti ilân edildi.",
+          "kaynak": "bulunamadı — akademik kaynak: soviethistory.msu.edu (Michigan State Üniversitesi) + Wikipedia çapraz"
+        },
+        {
+          "t_oneri": "1921-09-01",
+          "hassasiyet": "ay biliniyor, gün YOK",
+          "yer": "Buhara",
+          "kisiler": "-",
+          "anlatim": "Rus 1918 anayasasının aksine özel toprak/üretim mülkiyetine izin veren ve proleter-olmayanlara da oy hakkı tanıyan yeni bir anayasa kabul edildi (devrik emirin akrabaları ve büyük toprak sahipleri hariç).",
+          "kaynak": "bulunamadı — akademik kaynak: soviethistory.msu.edu (Buhara Halk Sovyet Cumhuriyeti Anayasası metni, MSU arşivi) + Wikipedia çapraz"
+        },
+        {
+          "t_oneri": "1922-07-07",
+          "hassasiyet": "gün var",
+          "yer": "Buhara",
+          "kisiler": "Feyzullah Hocayev",
+          "anlatim": "Basmacı hareketinin hükûmet başkanı Feyzullah Hocayev'e yönelik suikast girişimi başarısız oldu; aynı yıl cumhuriyet topraklarının doğu kesiminin (Hisar-Batı Pamir) büyük bölümü fiilen Basmacı denetimine girdi.",
+          "kaynak": "bulunamadı — akademik/kurumsal kaynak aranacak (Wikipedia 'Bukharan People's Soviet Republic' maddesi, ikinci kaynakla teyit edilmedi)"
+        }
+      ]
+    }
+
+  ],
+
+  "teslim_ozeti": {
+    "olculen_kunye_sayisi": "belge 8 diyordu, ben 11 olctum (bkz. olcum_notu)",
+    "hazirlanan_aday_sayisi": 22,
+    "kaynak_dagilimi": {
+      "TDV_CANLI_gövde_okundu": 5,
+      "akademik_kurumsal_guclu_teara_nzhistory_msu": 4,
+      "akademik_tek_kaynak_teyitsiz_flagli_YAZMA_TURUNDA_TEYIT_GEREKIR": 13,
+      "bulunamadi_hicbir_kaynak_yok": 0,
+      "kunye_tamamen_bos_birakildi": "tui-tonga-imparatorlugu (kaynak sözlü gelenek, gün/yıl çözünürlüğü yok)"
+    },
+    "olculemeyen": [
+      "tui-tonga-imparatorlugu: sozlu-gelenek donemi, gun/yil cozunurlugu akademik kaynaklarda YOK, aday listesi bilerek BOS birakildi",
+      "kazan 1521, mogulistan 1462, buhara/tannu-tuva'nin cogu adayi: yalniz Wikipedia'dan geliyor, ikinci bagimsiz akademik kaynakla TEYIT EDILMEDI -- yazma turunda teyit edilmeli ya da 'bulunamadı/zayıf dayanak' notuyla ELENMELİ"
+    ],
+    "duzeltildi_ikinci_gecis": [
+      "afgan-durrani: TDV 'ahmed-sah-durrani' maddesi bu turda OKUNDU -- Ahmed Şah'ın kuruluşunu (1747-1773) kapsıyor ama Timur Şah/Zaman Şah'ı (1793) HİÇ ANLATMIYOR, yani akademik kaynağa başvurmak TANECİKLİK boşluğu (SS4) -- ilk taslaktaki 'TDV denenmedi' notu artık ESKİ, JSON içinde güncellendi"
+    ]
+  }
+}
