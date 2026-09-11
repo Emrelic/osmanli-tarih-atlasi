@@ -1,0 +1,499 @@
+{
+  "kunye_sayisi": 609,
+  "veride_kullanilan_benzersiz_kimlik": 568,
+  "oncesi_kullanim_adayi": 54,
+  "kova_dagilimi": {
+    "YANLIS_ATIF_SUPHESI": 29,
+    "MESRU_ERKEN": 2,
+    "AYIRT_EDEMEDIM": 23
+  },
+  "d010_sinama_sih_imparatorlugu_bulundu": true,
+  "sonuclar": [
+    {
+      "id": "iran",
+      "kunye_f": "1925-12-12",
+      "veri_en_erken_f": "1281-01-01",
+      "sapma_yil": 644.9,
+      "ornek_dosya": "yerlesimler.js",
+      "ornek_ad": "Tarki (Tarku)",
+      "kova": "YANLIS_ATIF_SUPHESI"
+    },
+    {
+      "id": "lehistan",
+      "kunye_f": "1569-07-01",
+      "veri_en_erken_f": "1281-01-01",
+      "sapma_yil": 288.5,
+      "ornek_dosya": "yerlesimler.js",
+      "ornek_ad": "Kamaniçe",
+      "kova": "YANLIS_ATIF_SUPHESI"
+    },
+    {
+      "id": "toskana",
+      "kunye_f": "1532-01-01",
+      "veri_en_erken_f": "1281-01-01",
+      "sapma_yil": 251.0,
+      "ornek_dosya": "yerlesimler.js",
+      "ornek_ad": "Floransa",
+      "kova": "MESRU_ERKEN"
+    },
+    {
+      "id": "somali",
+      "kunye_f": "1500-01-01",
+      "veri_en_erken_f": "1281-01-01",
+      "sapma_yil": 219.0,
+      "ornek_dosya": "yerlesimler_afrika.js",
+      "ornek_ad": "?",
+      "kova": "YANLIS_ATIF_SUPHESI"
+    },
+    {
+      "id": "meysur",
+      "kunye_f": "1761-01-01",
+      "veri_en_erken_f": "1565-01-26",
+      "sapma_yil": 195.9,
+      "ornek_dosya": "yerlesimler_asya.js",
+      "ornek_ad": "?",
+      "kova": "YANLIS_ATIF_SUPHESI"
+    },
+    {
+      "id": "sulu-sultanligi",
+      "kunye_f": "1457-01-01",
+      "veri_en_erken_f": "1281-01-01",
+      "sapma_yil": 176.0,
+      "ornek_dosya": "yerlesimler_asya.js",
+      "ornek_ad": "?",
+      "kova": "YANLIS_ATIF_SUPHESI"
+    },
+    {
+      "id": "inka-imparatorlugu",
+      "kunye_f": "1438-01-01",
+      "veri_en_erken_f": "1281-01-01",
+      "sapma_yil": 157.0,
+      "ornek_dosya": "yerlesimler_amerika.js",
+      "ornek_ad": "?",
+      "kova": "YANLIS_ATIF_SUPHESI"
+    },
+    {
+      "id": "ryukyu",
+      "kunye_f": "1429-01-01",
+      "veri_en_erken_f": "1281-01-01",
+      "sapma_yil": 148.0,
+      "ornek_dosya": "yerlesimler_asya.js",
+      "ornek_ad": "?",
+      "kova": "YANLIS_ATIF_SUPHESI"
+    },
+    {
+      "id": "aztek-imparatorlugu",
+      "kunye_f": "1428-01-01",
+      "veri_en_erken_f": "1281-01-01",
+      "sapma_yil": 147.0,
+      "ornek_dosya": "yerlesimler_amerika.js",
+      "ornek_ad": "?",
+      "kova": "YANLIS_ATIF_SUPHESI"
+    },
+    {
+      "id": "adal",
+      "kunye_f": "1415-01-01",
+      "veri_en_erken_f": "1281-01-01",
+      "sapma_yil": 134.0,
+      "ornek_dosya": "yerlesimler.js",
+      "ornek_ad": "?",
+      "kova": "YANLIS_ATIF_SUPHESI"
+    },
+    {
+      "id": "umman",
+      "kunye_f": "1624-01-01",
+      "veri_en_erken_f": "1511-01-01",
+      "sapma_yil": 113.0,
+      "ornek_dosya": "yerlesimler.js",
+      "ornek_ad": "Sokotra",
+      "kova": "YANLIS_ATIF_SUPHESI"
+    },
+    {
+      "id": "kuzey-yuan",
+      "kunye_f": "1368-09-14",
+      "veri_en_erken_f": "1281-01-01",
+      "sapma_yil": 87.7,
+      "ornek_dosya": "yerlesimler_sibirya.js",
+      "ornek_ad": "?",
+      "kova": "YANLIS_ATIF_SUPHESI"
+    },
+    {
+      "id": "brunei-sultanligi",
+      "kunye_f": "1368-01-01",
+      "veri_en_erken_f": "1281-01-01",
+      "sapma_yil": 87.0,
+      "ornek_dosya": "yerlesimler_asya.js",
+      "ornek_ad": "?",
+      "kova": "YANLIS_ATIF_SUPHESI"
+    },
+    {
+      "id": "bogdan",
+      "kunye_f": "1359-01-01",
+      "veri_en_erken_f": "1281-01-01",
+      "sapma_yil": 78.0,
+      "ornek_dosya": "yerlesimler.js",
+      "ornek_ad": "Yaş",
+      "kova": "YANLIS_ATIF_SUPHESI"
+    },
+    {
+      "id": "eflak",
+      "kunye_f": "1330-01-01",
+      "veri_en_erken_f": "1281-01-01",
+      "sapma_yil": 49.0,
+      "ornek_dosya": "yerlesimler.js",
+      "ornek_ad": "Bükreş",
+      "kova": "YANLIS_ATIF_SUPHESI"
+    },
+    {
+      "id": "mantua",
+      "kunye_f": "1328-01-01",
+      "veri_en_erken_f": "1281-01-01",
+      "sapma_yil": 47.0,
+      "ornek_dosya": "yerlesimler_avrupa.js",
+      "ornek_ad": "Mantova",
+      "kova": "MESRU_ERKEN"
+    },
+    {
+      "id": "sih-imparatorlugu",
+      "kunye_f": "1801-04-12",
+      "veri_en_erken_f": "1764-01-14",
+      "sapma_yil": 37.2,
+      "ornek_dosya": "yerlesimler_asya.js",
+      "ornek_ad": "?",
+      "kova": "YANLIS_ATIF_SUPHESI"
+    },
+    {
+      "id": "katalan",
+      "kunye_f": "1311-03-15",
+      "veri_en_erken_f": "1281-01-01",
+      "sapma_yil": 30.2,
+      "ornek_dosya": "yerlesimler.js",
+      "ornek_ad": "İzdin (Lamia)",
+      "kova": "YANLIS_ATIF_SUPHESI"
+    },
+    {
+      "id": "dogu-sumatra-sultanliklari",
+      "kunye_f": "1615-01-01",
+      "veri_en_erken_f": "1590-01-01",
+      "sapma_yil": 25.0,
+      "ornek_dosya": "yerlesimler_gdasya.js",
+      "ornek_ad": "?",
+      "kova": "YANLIS_ATIF_SUPHESI"
+    },
+    {
+      "id": "oranj",
+      "kunye_f": "1854-04-07",
+      "veri_en_erken_f": "1830-01-01",
+      "sapma_yil": 24.3,
+      "ornek_dosya": "yerlesimler_e9353f.js",
+      "ornek_ad": "?",
+      "kova": "YANLIS_ATIF_SUPHESI"
+    },
+    {
+      "id": "ispanyol-peru",
+      "kunye_f": "1542-11-20",
+      "veri_en_erken_f": "1519-08-15",
+      "sapma_yil": 23.3,
+      "ornek_dosya": "yerlesimler_0ee15e.js",
+      "ornek_ad": "?",
+      "kova": "YANLIS_ATIF_SUPHESI"
+    },
+    {
+      "id": "transvaal",
+      "kunye_f": "1852-01-01",
+      "veri_en_erken_f": "1830-01-01",
+      "sapma_yil": 22.0,
+      "ornek_dosya": "yerlesimler_e9353f.js",
+      "ornek_ad": "?",
+      "kova": "YANLIS_ATIF_SUPHESI"
+    },
+    {
+      "id": "babur-imparatorlugu",
+      "kunye_f": "1526-04-21",
+      "veri_en_erken_f": "1504-10-01",
+      "sapma_yil": 21.6,
+      "ornek_dosya": "yerlesimler_asya.js",
+      "ornek_ad": "?",
+      "kova": "YANLIS_ATIF_SUPHESI"
+    },
+    {
+      "id": "maratha",
+      "kunye_f": "1674-06-06",
+      "veri_en_erken_f": "1659-01-01",
+      "sapma_yil": 15.4,
+      "ornek_dosya": "yerlesimler_asya.js",
+      "ornek_ad": "?",
+      "kova": "YANLIS_ATIF_SUPHESI"
+    },
+    {
+      "id": "qing-hanedani",
+      "kunye_f": "1636-05-15",
+      "veri_en_erken_f": "1621-01-01",
+      "sapma_yil": 15.4,
+      "ornek_dosya": "yerlesimler_asya.js",
+      "ornek_ad": "?",
+      "kova": "YANLIS_ATIF_SUPHESI"
+    },
+    {
+      "id": "portekiz-brezilyasi",
+      "kunye_f": "1549-01-01",
+      "veri_en_erken_f": "1535-01-01",
+      "sapma_yil": 14.0,
+      "ornek_dosya": "yerlesimler_amerika.js",
+      "ornek_ad": "?",
+      "kova": "YANLIS_ATIF_SUPHESI"
+    },
+    {
+      "id": "yeni-ispanya",
+      "kunye_f": "1535-04-17",
+      "veri_en_erken_f": "1523-07-25",
+      "sapma_yil": 11.7,
+      "ornek_dosya": "yerlesimler_amerika.js",
+      "ornek_ad": "?",
+      "kova": "YANLIS_ATIF_SUPHESI"
+    },
+    {
+      "id": "ahiler",
+      "kunye_f": "1290-01-01",
+      "veri_en_erken_f": "1281-01-01",
+      "sapma_yil": 9.0,
+      "ornek_dosya": "yerlesimler.js",
+      "ornek_ad": "Ankara",
+      "kova": "YANLIS_ATIF_SUPHESI"
+    },
+    {
+      "id": "siyam-chakri",
+      "kunye_f": "1782-04-06",
+      "veri_en_erken_f": "1774-01-15",
+      "sapma_yil": 8.2,
+      "ornek_dosya": "yerlesimler_asya.js",
+      "ornek_ad": "?",
+      "kova": "YANLIS_ATIF_SUPHESI"
+    },
+    {
+      "id": "multan-langah",
+      "kunye_f": "1451-01-01",
+      "veri_en_erken_f": "1445-01-01",
+      "sapma_yil": 6.0,
+      "ornek_dosya": "yerlesimler_asya.js",
+      "ornek_ad": "?",
+      "kova": "YANLIS_ATIF_SUPHESI"
+    },
+    {
+      "id": "tay-son",
+      "kunye_f": "1778-01-01",
+      "veri_en_erken_f": "1773-01-01",
+      "sapma_yil": 5.0,
+      "ornek_dosya": "yerlesimler_asya.js",
+      "ornek_ad": "?",
+      "kova": "YANLIS_ATIF_SUPHESI"
+    },
+    {
+      "id": "celayirli",
+      "kunye_f": "1340-01-01",
+      "veri_en_erken_f": "1335-12-01",
+      "sapma_yil": 4.1,
+      "ornek_dosya": "yerlesimler.js",
+      "ornek_ad": "Bağdat",
+      "kova": "AYIRT_EDEMEDIM"
+    },
+    {
+      "id": "zend",
+      "kunye_f": "1751-01-01",
+      "veri_en_erken_f": "1747-06-20",
+      "sapma_yil": 3.5,
+      "ornek_dosya": "yerlesimler.js",
+      "ornek_ad": "Tarki (Tarku)",
+      "kova": "AYIRT_EDEMEDIM"
+    },
+    {
+      "id": "dashun",
+      "kunye_f": "1644-01-01",
+      "veri_en_erken_f": "1641-03-08",
+      "sapma_yil": 2.8,
+      "ornek_dosya": "yerlesimler_asya.js",
+      "ornek_ad": "?",
+      "kova": "AYIRT_EDEMEDIM"
+    },
+    {
+      "id": "sur-hanedani",
+      "kunye_f": "1540-05-17",
+      "veri_en_erken_f": "1538-01-01",
+      "sapma_yil": 2.4,
+      "ornek_dosya": "yerlesimler_asya.js",
+      "ornek_ad": "?",
+      "kova": "AYIRT_EDEMEDIM"
+    },
+    {
+      "id": "bengal-sultanligi",
+      "kunye_f": "1340-01-01",
+      "veri_en_erken_f": "1338-01-01",
+      "sapma_yil": 2.0,
+      "ornek_dosya": "yerlesimler_asya.js",
+      "ornek_ad": "?",
+      "kova": "AYIRT_EDEMEDIM"
+    },
+    {
+      "id": "banten-sultanligi",
+      "kunye_f": "1527-06-22",
+      "veri_en_erken_f": "1526-01-01",
+      "sapma_yil": 1.5,
+      "ornek_dosya": "yerlesimler_gdasya.js",
+      "ornek_ad": "?",
+      "kova": "AYIRT_EDEMEDIM"
+    },
+    {
+      "id": "napoli",
+      "kunye_f": "1282-03-30",
+      "veri_en_erken_f": "1281-01-01",
+      "sapma_yil": 1.2,
+      "ornek_dosya": "yerlesimler.js",
+      "ornek_ad": "?",
+      "kova": "AYIRT_EDEMEDIM"
+    },
+    {
+      "id": "bhopal",
+      "kunye_f": "1708-01-01",
+      "veri_en_erken_f": "1707-01-01",
+      "sapma_yil": 1.0,
+      "ornek_dosya": "yerlesimler_asya.js",
+      "ornek_ad": "?",
+      "kova": "AYIRT_EDEMEDIM"
+    },
+    {
+      "id": "nguyen-hanedani",
+      "kunye_f": "1802-06-01",
+      "veri_en_erken_f": "1801-06-15",
+      "sapma_yil": 1.0,
+      "ornek_dosya": "yerlesimler_asya.js",
+      "ornek_ad": "?",
+      "kova": "AYIRT_EDEMEDIM"
+    },
+    {
+      "id": "majapahit",
+      "kunye_f": "1293-01-01",
+      "veri_en_erken_f": "1292-01-01",
+      "sapma_yil": 1.0,
+      "ornek_dosya": "yerlesimler_asya.js",
+      "ornek_ad": "?",
+      "kova": "AYIRT_EDEMEDIM"
+    },
+    {
+      "id": "ingiliz-malaya",
+      "kunye_f": "1826-01-01",
+      "veri_en_erken_f": "1825-03-01",
+      "sapma_yil": 0.8,
+      "ornek_dosya": "yerlesimler_asya.js",
+      "ornek_ad": "?",
+      "kova": "AYIRT_EDEMEDIM"
+    },
+    {
+      "id": "varsova-dukaligi",
+      "kunye_f": "1807-07-22",
+      "veri_en_erken_f": "1806-11-28",
+      "sapma_yil": 0.7,
+      "ornek_dosya": "yerlesimler.js",
+      "ornek_ad": "Varşova",
+      "kova": "AYIRT_EDEMEDIM"
+    },
+    {
+      "id": "tonburi",
+      "kunye_f": "1767-12-28",
+      "veri_en_erken_f": "1767-04-07",
+      "sapma_yil": 0.7,
+      "ornek_dosya": "yerlesimler_asya.js",
+      "ornek_ad": "?",
+      "kova": "AYIRT_EDEMEDIM"
+    },
+    {
+      "id": "yakub-beg",
+      "kunye_f": "1865-01-01",
+      "veri_en_erken_f": "1864-06-04",
+      "sapma_yil": 0.6,
+      "ornek_dosya": "yerlesimler_asya.js",
+      "ornek_ad": "?",
+      "kova": "AYIRT_EDEMEDIM"
+    },
+    {
+      "id": "ingiliz-hindistani",
+      "kunye_f": "1757-06-23",
+      "veri_en_erken_f": "1757-01-02",
+      "sapma_yil": 0.5,
+      "ornek_dosya": "yerlesimler_asya.js",
+      "ornek_ad": "?",
+      "kova": "AYIRT_EDEMEDIM"
+    },
+    {
+      "id": "timurlu",
+      "kunye_f": "1370-04-09",
+      "veri_en_erken_f": "1370-01-01",
+      "sapma_yil": 0.3,
+      "ornek_dosya": "yerlesimler_asya.js",
+      "ornek_ad": "?",
+      "kova": "AYIRT_EDEMEDIM"
+    },
+    {
+      "id": "afgan-durrani",
+      "kunye_f": "1747-10-01",
+      "veri_en_erken_f": "1747-06-20",
+      "sapma_yil": 0.3,
+      "ornek_dosya": "yerlesimler_asya.js",
+      "ornek_ad": "?",
+      "kova": "AYIRT_EDEMEDIM"
+    },
+    {
+      "id": "azuchi-momoyama",
+      "kunye_f": "1568-01-01",
+      "veri_en_erken_f": "1567-09-01",
+      "sapma_yil": 0.3,
+      "ornek_dosya": "yerlesimler_asya.js",
+      "ornek_ad": "?",
+      "kova": "AYIRT_EDEMEDIM"
+    },
+    {
+      "id": "italya",
+      "kunye_f": "1861-03-17",
+      "veri_en_erken_f": "1861-02-13",
+      "sapma_yil": 0.1,
+      "ornek_dosya": "yerlesimler.js",
+      "ornek_ad": "?",
+      "kova": "AYIRT_EDEMEDIM"
+    },
+    {
+      "id": "yugoslavya",
+      "kunye_f": "1918-12-01",
+      "veri_en_erken_f": "1918-11-11",
+      "sapma_yil": 0.1,
+      "ornek_dosya": "yerlesimler.js",
+      "ornek_ad": "Zagreb",
+      "kova": "AYIRT_EDEMEDIM"
+    },
+    {
+      "id": "macaristan-naiplik",
+      "kunye_f": "1918-11-16",
+      "veri_en_erken_f": "1918-11-11",
+      "sapma_yil": 0.0,
+      "ornek_dosya": "yerlesimler.js",
+      "ornek_ad": "Budin",
+      "kova": "AYIRT_EDEMEDIM"
+    },
+    {
+      "id": "letonya",
+      "kunye_f": "1918-11-18",
+      "veri_en_erken_f": "1918-11-11",
+      "sapma_yil": 0.0,
+      "ornek_dosya": "yerlesimler.js",
+      "ornek_ad": "Riga",
+      "kova": "AYIRT_EDEMEDIM"
+    },
+    {
+      "id": "yeni-zelanda",
+      "kunye_f": "1840-02-06",
+      "veri_en_erken_f": "1840-01-22",
+      "sapma_yil": 0.0,
+      "ornek_dosya": "yerlesimler_ek30.js",
+      "ornek_ad": "?",
+      "kova": "AYIRT_EDEMEDIM"
+    }
+  ]
+}
