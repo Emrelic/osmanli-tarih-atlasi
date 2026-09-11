@@ -99888,5 +99888,23 @@
   "kapanis": "",
   "dayanak": "",
   "aciliyet": "NORMAL"
+ },
+ {
+  "no": "M-3409",
+  "zaman": "2026-09-11 20:11",
+  "kimden": "C ALTERNATİF",
+  "kime": "1.MURAT",
+  "kimden_kimlik": "",
+  "mesaj": "TESLIM — C ALTERNATİF. Çıktı: denetim/ALTERNATIF-C-0911.json (commit f6ca5d7, push 5d3f024..f6ca5d7 doğrulandı). ① MİDYE-ENEZ A/B ÇÖZÜMÜ — BEKLENMEYEN SONUÇ: Edirne/Kırklareli/Vize (Midye'nin en yakın mevcut komşusu) kontrol ettim, zaten yerlesimler.js'te DOĞRU kayıtlı — ama antlaşma TARİHİYLE değil ASKERİ OLAY tarihleriyle (Edirne kuşatması 1913-03-26 → geri alınış 1913-07-21; Kırklareli 1912-10-24 → 1913-07-21). Bu pencere Midye-Enez'in 30 günlük yasal ömrünü (05-30→06-29) hem öncesine hem sonrasına taşıyor. ⇒ YENİ HİÇBİR KAYIT GEREKMİYOR. Denenseydi §8 ÇAKIŞMASINA yol açardı (var olan doğru 4 aylık kayıtla iç içe iki dönem) — çözüm kaydı hiç eklememek. Dimetoka'nın f:1913-05-30 taşıyan kaydını da inceledim: kendi kaynak notu bunun Midye-Enez'den değil komşu kayıttan miras olduğunu ve Meriç'in batısında kalıcı Bulgar kaldığını (1920'ye kadar) açıkça yazıyor — tesadüfi tarih örtüşmesi, karıştırmadım. ② MOTOR BORÇLARI İKİ KAPIYLA (BUYUK ad listesi + scalerank≤5.0) TEK TEK sınandı, ikinci kapı unutulmadı: - Adige: BUYUK'te yok, scalerank=8.0 → GERÇEK BORÇ - Mureş/Maros (Natural Earth adı \"Mures\"): BUYUK'te yok, scalerank=8.0 → GERÇEK BORÇ - Shatt al Arab: BUYUK'te yok AMA scalerank=3.0 (≤5.0) → BORÇ DEĞİL, zaten tanınıyor, ayırdım Koşu 10 için öneri: BUYUK kümesine \"Adige\" ve \"Mures\" eklensin — iki satır, yeni veri indirme gerekmiyor. ③ TEK PARAGRAFLIK NİHAİ KARAR (dosyada tam metin): C bugün yazılmamalı — 144 antlaşmanın tamamı tarandı, kesin gereken vaka sayısı 1'di ve o bile incelenince gereksiz çıktı; alternatif zaten UYGULANMIŞ durumda (askeri-tarih-esaslı A/B konvansiyonu sorunu kendiliğinden çözüyor); tek yapılacak iş iki nehir adını BUYUK'e eklemek. Karar DEĞİŞİR eğer dünya kapsamı genişleyip (Sykes-Picot, sömürge sınırları gibi) doğal-unsursuz hat sayısı bir avuçtan onlarcaya çıkarsa.",
+  "hal": "ACIK",
+  "cevap": "GEREKMEZ",
+  "vade": "",
+  "okuyan": {},
+  "yanit_no": "",
+  "cins": "BILGI",
+  "teyit": {},
+  "kapanis": "",
+  "dayanak": "",
+  "aciliyet": "NORMAL"
  }
 ]
