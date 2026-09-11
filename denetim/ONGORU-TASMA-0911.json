@@ -1,0 +1,83 @@
+{
+  "_ne": "TAŞMA ÖLÇÜM — dört kalemin ÖNGÖRÜSÜ. D022: ölçümden ÖNCE yazıldı ve COMMIT'LENDİ.",
+  "_kim": "TAŞMA ÖLÇÜM (local_211b974e-3a66-4072-adef-753e27c9b302)",
+  "_tarih": "2026-09-11",
+  "_kisit": "Koşu 9 canlı · makine dar · AĞIR HİÇBİR ŞEY KOŞTURULMAYACAK. Kod okuma + aritmetik.",
+  "_neden_ikinci_kez": "İlk turda öngörü dosyası yazılamadan durduruldum ve bunu raporda damgaladım. Bu dosya o borcun kapanışı — ve bu sefer ÖLÇÜMDEN ÖNCE.",
+
+  "kalem_1_poligonlastirma": {
+    "O1_poligon_sayisi_mertebesi": {
+      "ongoru": "10^4 — 10.000 ile 40.000 arası poligon",
+      "gerekce": "3.805 yerleşim tohum; her tohum en az 1 bileşen. Ada/yarımada/parçalanma çarpanı 3-10 arası. 3.805 × (3..10) = 11k..38k.",
+      "curutur": "1.000'in altı ya da 200.000'in üstü çıkarsa ÖNGÖRÜ ÇÜRÜR"
+    },
+    "O2_kose_sayisi_mertebesi": {
+      "ongoru": "10^6 — 1 ile 5 milyon arası köşe (sadeleştirme YAPILMADAN)",
+      "gerekce": "Köşe ≈ toplam çevre (hücre-kenarı cinsinden). Ortalama bölge 3.336.475/3.805 ≈ 877 hücre; kompakt bir bölgede çevre ≈ 4·√877 ≈ 118. 3.805 × 118 ≈ 450k iç çevre; kıyı çizgisi (dış sınır) bunun 2-5 katı.",
+      "curutur": "10^5'in altı ya da 10^7'nin üstü"
+    },
+    "O3_bellek_yapilabilir_mi": {
+      "ongoru": "YAPILABİLİR. Raster int32 20,88M × 4B = 83,5 MB; shapes() akış hâlinde çalışır. Asıl tepe poligonlaştırmada DEĞİL, Dijkstra'nın Python listelerinde.",
+      "gerekce": "uzak=[inf]*20,88M ve sahip=[-1]*20,88M: liste 8B/gösterici = 167 MB her biri; uzak'a AYRI float atandıkça nesne başına ~24-32B daha ⇒ ~0,7-1,0 GB. A/B ikinci Dijkstra ikinci bir çift açıyor.",
+      "curutur": "Poligonlaştırmanın kendisi 1 GB'ı aşarsa ÇÜRÜR"
+    },
+    "O4_donemler_js_buyume": {
+      "ongoru": "3-10 KAT — 31,3 MB → 100-300 MB (sadeleştirmesiz)",
+      "gerekce": "Bugünkü petek sınırları Voronoi + yaslama ürünü, köşe sayısı düşük. Izgara sınırı her hücrede bir basamak ⇒ köşe yoğunluğu çok yüksek.",
+      "curutur": "2 katın altı ya da 20 katın üstü"
+    }
+  },
+
+  "kalem_2_16_yon": {
+    "O5_8yon_sapmasi": {
+      "ongoru": "%8,24 (oktil metriği: d = maks + (√2−1)·min; en kötü açı 22,5°)",
+      "yontem": "ANALİTİK türetme + bağımsız sayısal tarama ile ÇAPRAZ SINAV (birkaç bin kayan nokta işlemi, ağır değil)",
+      "curutur": "Sayısal tarama %8,24 ± 0,05 dışında bir tepe verirse"
+    },
+    "O6_16yon_sapmasi": {
+      "ongoru": "%2,7-2,8 — yani 8 yöne göre ~3 KAT iyileşme",
+      "gerekce": "(2,1) at-hamlesi eklenince en kötü alt-sektör (1,0)-(2,1) arası: √(1+(√5−2)²) = %2,75",
+      "curutur": "%2 altı ya da %4 üstü"
+    },
+    "O7_22_5_derece_TUTMAZ": {
+      "ongoru": "🔴 16 komşu TAM 22,5° VERMEZ. Kare ızgarada tam sayı ötelemelerle 22,5° elde EDİLEMEZ (tan 22,5° = √2−1, irrasyonel). Gerçek açılar: 0° · 26,57° · 45° · 63,43° · 90°.",
+      "curutur": "Tam sayı (di,dj) ile 22,5°'ye ±1° yaklaşan bir komşu kümesi gösterilirse"
+    },
+    "O8_maliyet": {
+      "ongoru": "Dijkstra başına +80 ile +120 saniye; koşunun TAMAMINA oranı %1'in altında",
+      "gerekce": "Kenar gevşetme sayısı 2×. Motorun kendi ölçümü: eğimsiz ikinci Dijkstra 1dk38sn.",
+      "curutur": "Koşunun %5'ini aşarsa"
+    },
+    "O9_yuzde_2_1_bayat": {
+      "ongoru": "Motorun '%2,1' rakamı BAYAT: 98 sn / 0,021 ⇒ 78 dakikalık bir koşu demek. Bugünkü koşu 10+ saat ⇒ aynı 98 sn bugün %0,2'dir.",
+      "curutur": "Bugünkü bir koşuda Dijkstra aşaması gerçekten toplamın %2'sini tutuyorsa"
+    }
+  },
+
+  "kalem_3_animasyon": {
+    "O10_iddia": {
+      "ongoru": "Koordinatörün 'neredeyse bedava' iddiası KISMEN ÇÜRÜR — ve çürüyen taraf TARAYICI değil AĞ/BOYUT.",
+      "ayrinti": "Kadranın KENDİSİ (_kvuzak ≤ T eşiği) gerçekten bedava: hücre başına tek karşılaştırma. Bedel, ALANI TARAYICIYA TAŞIMAKTA.",
+      "sayi_ongorusu": "Ham: erişilen 3,34M hücre × (4B maliyet + 4B sahip) = 26,7 MB. Nicemlenmiş (uint16+uint16) 13,4 MB. Sıkıştırılmış 3-8 MB.",
+      "curutur": "Nicemlenmiş boyut 5 MB'ın altı ya da 50 MB'ın üstü çıkarsa"
+    },
+    "O11_10km_kadran_kabalik": {
+      "ongoru": "10 km durağı KULLANILAMAZ kabalıkta: 5,5 km'lik hücrede 10 km ≈ 1,8 hücre ⇒ halka 1-2 hücre kalınlığında, kare görünür.",
+      "curutur": "1,8'den farklı bir oran çıkarsa"
+    }
+  },
+
+  "kalem_4_nehir_gecit": {
+    "O12_capa": {
+      "ongoru": "SAYI ÖLÇÜLEMEYECEK — ama motorun KENDİ nehir/kıyı yaslama toleransı bir ÇAPA ADAYI olarak bulunacak (depo içi, ölçülebilir).",
+      "ayrinti": "Nehir bir ÇİZGİdir, sürtünme ise HÜCRE çarpanıdır. Bir nehri ifade etmek için hücreye yayılması gerekir ⇒ 5,5 km × çarpan. 'Nehir = 50 km düz yürüyüş' demek çarpan ≈ 9,1 demektir. BİÇİM türetilebilir, SAYI türetilemez.",
+      "curutur": "Depoda kalibre edilmiş bir nehir maliyeti bulunursa ÖNGÖRÜ ÇÜRÜR (ve bu iyi haber olur)"
+    }
+  },
+
+  "_bilerek_riskli": [
+    "O7 (22,5° tutmaz) — Emre'nin kendi cümlesine karşı çıkıyor. Yanılırsam en görünür yerde yanılırım.",
+    "O4 (3-10 kat) — geniş bir aralık; dar tutsam çürüme ihtimalim artardı, ve bu bir MAZERET olurdu. Geniş tuttuğumu BURADA yazıyorum ki sonradan 'tuttu' demek değersizleşsin.",
+    "O9 (%2,1 bayat) — motorun kendi yorumunu çürütüyor."
+  ]
+}
